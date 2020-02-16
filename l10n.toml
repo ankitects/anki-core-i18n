@@ -1,5 +1,5 @@
 basepath = "core"
 
 [[paths]]
-  reference = "*.ftl"
+  reference = "templates/*.ftl"
   l10n = "{locale}/*.ftl"
