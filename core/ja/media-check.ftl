@@ -33,3 +33,7 @@ unused-file = 未使用：{ $filename }
 
 ## Buttons
 
+
+delete-unused = 使用されていないファイルを削除
+
+delete-unused-confirm = この使用されていないメディアファイルを削除しますか？
