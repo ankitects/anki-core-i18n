@@ -1,0 +1,2 @@
+
+is-due = Na skúšanie
