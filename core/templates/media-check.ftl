@@ -18,7 +18,18 @@ subfolder-file = Folder: {$filename}
 missing-file = Missing: {$filename}
 unused-file = Unused: {$filename}
 
-checked = Checked {$count ->
-    [one] 1 item
-    *[other] {$count} items
-  }...
+checked = Checked {$count}...
+
+delete-unused = Delete Unused
+delete-unused-confirm = Delete unused media?
+files-remaining = {$count ->
+    [one] 1 file
+    *[other] {$count} files
+  } remaining.
+delete-unused-complete = {$count ->
+    [one] 1 file
+    *[other] {$count} files
+  } moved to the trash.
+
+render-latex = Render LaTeX
+all-latex-rendered = All LaTeX rendered.
