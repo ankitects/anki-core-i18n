@@ -1,4 +1,13 @@
+### Messages shown when synchronizing with AnkiWeb.
 
-media-check-required = Un problèma s'es produit pendent la sincronizacion dels mèdias. Utilizatz Aisinas > Verificacion dels mèdias, puèi sincronizatz tornarmai per corregir l'error.
+
+## Media synchronization
+
+media-added-count = Afegit: { $up }↑ { $down }↓
+media-removed-count = Eliminats: { $up }↑ { $down }↓
+media-checked-count = Comprovats: { $count }
+abort-button = Abortar
+
+## Error messages
 
 wrong-pass = Le contrasigno o ID de AnkiWeb esseva non correcte; per favor prova novemente.
