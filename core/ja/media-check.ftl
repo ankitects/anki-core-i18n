@@ -24,16 +24,18 @@ unused-file = 未使用：{ $filename }
 
 ## Progress
 
+checked = 確認済み{ $count }...
 
 ## Deleting unused media
 
+delete-unused-confirm = 使用していないメディアファイルを削除しますか？
+files-remaining = 残り{ $count }個のファイル...
+delete-unused-complete = { $count }個のファイルをごみ箱に移動しました。
 
 ## Rendering LaTeX
 
+all-latex-rendered = すべてのLaTeXをレンダしました。
 
 ## Buttons
 
-
 delete-unused = 使用されていないファイルを削除
-
-delete-unused-confirm = この使用されていないメディアファイルを削除しますか？
