@@ -31,16 +31,15 @@ checked = Проверено { $count }...
 delete-unused-confirm = Удалить неиспользуемые медиаресурсы?
 files-remaining =
     { $count ->
-        [one] файл
-        [few] файла
+        [one] 1 файл
+        [few] { $count } файла
        *[other] файлов
-    }осталось.
+    } осталось.
 delete-unused-complete =
     { $count ->
-        [one] файл
-        [few] файла
-       *[other] файлов
-    }удалено.
+        [one] 1 файл
+       *[other] { $count } файлов
+    } удалено
 
 ## Rendering LaTeX
 
