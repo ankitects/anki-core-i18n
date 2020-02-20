@@ -1,9 +1,3 @@
-
-answer-button-time-minutes = {$amount}min(s)
-
-answer-button-time-days = {$amount}dia(s)
-
-answer-button-time-months = {$amount}me
 -time-span-seconds = { $seconds ->
     [one] {$seconds} segundo
    *[other] {$seconds} segundos
@@ -17,11 +11,11 @@ answer-button-time-months = {$amount}me
    *[other] {$hours} horas
   }
 -time-span-days = { $days ->
-    [one] {$days} dia
-   *[other] {$days} dias
+    [one] {$days} día
+   *[other] {$days} días
   }
 -time-span-months = { $months ->
-    [one] {$months} mês
+    [one] {$months} mes
    *[other] {$months} meses
   }
 -time-span-years = { $years ->

@@ -19,29 +19,34 @@ answer-button-time-years = {$amount}y
    [one]   {$seconds} second
   *[other] {$seconds} seconds
   }
+
 -time-span-minutes = { $minutes ->
    [one]   {$minutes} minute
   *[other] {$minutes} minutes
   }
+
 -time-span-hours = { $hours ->
    [one]   {$hours} hour
   *[other] {$hours} hours
   }
+
 -time-span-days = { $days ->
    [one]   {$days} day
   *[other] {$days} days
   }
+
 -time-span-months = { $months ->
    [one]   {$months} month
   *[other] {$months} months
   }
+
 -time-span-years = { $years ->
    [one]   {$years} year
   *[other] {$years} years
   }
 
-# TRANSLATION NOT REQUIRED, please leave as-is.
-time-span = { $unit ->
+# TRANSLATION NOT REQUIRED
+-time-span-internal = { $unit ->
    [seconds] { -time-span-seconds(seconds: $amount) }
    [minutes] { -time-span-minutes(minutes: $amount) }
    [hours]   { -time-span-hours(hours: $amount) }
@@ -49,3 +54,18 @@ time-span = { $unit ->
    [months]  { -time-span-months(months: $amount) }
   *[years]   { -time-span-years(years: $amount) }
   }
+
+# TRANSLATION NOT REQUIRED
+time-span = { -time-span-internal(unit: $unit, amount: $amount) }
+
+##
+
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds (4.33s/card)."
+studied-today =
+  Studied { $cards ->
+    [one] {$cards} card
+   *[other] {$cards} cards
+  }
+  in { -time-span-internal(unit: $unit, amount: $amount) }
+  ({$secs-per-card}s/card).

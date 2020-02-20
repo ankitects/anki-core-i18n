@@ -1,30 +1,24 @@
-
-answer-button-time-hours = {$amount}u
-
-answer-button-time-months = {$amount}ma
-
-answer-button-time-years = {$amount}j
 -time-span-seconds = { $seconds ->
-    [one] {$seconds} sekonde
-   *[other] {$seconds} sekondes
+    [one] {$seconds} seconde
+   *[other] {$seconds} seconden
   }
 -time-span-minutes = { $minutes ->
     [one] {$minutes} minuut
-   *[other] {$minutes} minute
+   *[other] {$minutes} minuten
   }
 -time-span-hours = { $hours ->
     [one] {$hours} uur
-   *[other] {$hours} ure
+   *[other] {$hours} uur
   }
 -time-span-days = { $days ->
     [one] {$days} dag
-   *[other] {$days} dae
+   *[other] {$days} dagen
   }
 -time-span-months = { $months ->
     [one] {$months} maand
-   *[other] {$months} maande
+   *[other] {$months} maanden
   }
 -time-span-years = { $years ->
     [one] {$years} jaar
-   *[other] {$years} jare
+   *[other] {$years} jaar
   }
