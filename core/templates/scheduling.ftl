@@ -45,7 +45,6 @@ answer-button-time-years = {$amount}y
   *[other] {$years} years
   }
 
-# TRANSLATION NOT REQUIRED
 -time-span-internal = { $unit ->
    [seconds] { -time-span-seconds(seconds: $amount) }
    [minutes] { -time-span-minutes(minutes: $amount) }
@@ -55,7 +54,6 @@ answer-button-time-years = {$amount}y
   *[years]   { -time-span-years(years: $amount) }
   }
 
-# TRANSLATION NOT REQUIRED
 time-span = { -time-span-internal(unit: $unit, amount: $amount) }
 
 ##
