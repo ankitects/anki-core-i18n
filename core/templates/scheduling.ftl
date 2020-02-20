@@ -15,35 +15,44 @@ answer-button-time-years = {$amount}y
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on.
 
--time-span-seconds = { $seconds ->
-   [one]   {$seconds} second
-  *[other] {$seconds} seconds
+time-span-seconds = { $amount ->
+   [one]   {$amount} second
+  *[other] {$amount} seconds
   }
 
--time-span-minutes = { $minutes ->
-   [one]   {$minutes} minute
-  *[other] {$minutes} minutes
+time-span-minutes = { $amount ->
+   [one]   {$amount} minute
+  *[other] {$amount} minutes
   }
 
--time-span-hours = { $hours ->
-   [one]   {$hours} hour
-  *[other] {$hours} hours
+time-span-hours = { $amount ->
+   [one]   {$amount} hour
+  *[other] {$amount} hours
   }
 
--time-span-days = { $days ->
-   [one]   {$days} day
-  *[other] {$days} days
+time-span-days = { $amount ->
+   [one]   {$amount} day
+  *[other] {$amount} days
   }
 
--time-span-months = { $months ->
-   [one]   {$months} month
-  *[other] {$months} months
+time-span-months = { $amount ->
+   [one]   {$amount} month
+  *[other] {$amount} months
   }
 
--time-span-years = { $years ->
-   [one]   {$years} year
-  *[other] {$years} years
+time-span-years = { $amount ->
+   [one]   {$amount} year
+  *[other] {$amount} years
   }
+
+time-span = { $unit ->
+   [seconds] { time-span-seconds }
+   [minutes] { time-span-minutes }
+   [hours]   { time-span-hours }
+   [days]    { time-span-days }
+   [months]  { time-span-months }
+  *[years]   { time-span-years }
+}
 
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds (4.33s/card)."
@@ -52,16 +61,12 @@ studied-today =
     [one] {$cards} card
    *[other] {$cards} cards
   }
-  in { -time-span-internal(unit: $unit, amount: $amount) }
+  in { $unit ->
+        [seconds] { time-span-seconds }
+        [minutes] { time-span-minutes }
+        [hours]   { time-span-hours }
+        [days]    { time-span-days }
+        [months]  { time-span-months }
+       *[years]   { time-span-years }
+    }
   ({$secs-per-card}s/card).
-
--time-span-internal = { $unit ->
-   [seconds] { -time-span-seconds(seconds: $amount) }
-   [minutes] { -time-span-minutes(minutes: $amount) }
-   [hours]   { -time-span-hours(hours: $amount) }
-   [days]    { -time-span-days(days: $amount) }
-   [months]  { -time-span-months(months: $amount) }
-  *[years]   { -time-span-years(years: $amount) }
- }
-
-time-span = { -time-span-internal(unit: $unit, amount: $amount) }
