@@ -1,2 +1,2 @@
-# True if a card is waiting to review
+# True if a card is due/ready for review
 is-due = Due
