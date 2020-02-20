@@ -10,3 +10,9 @@ answer-button-time-days = {$amount}일
 answer-button-time-months = {$amount}달
 
 answer-button-time-years = {$amount}년
+time-span-seconds = {$amount}초
+time-span-minutes = {$amount}분
+time-span-hours = {$amount}시간
+time-span-days = {$amount}일
+time-span-months = {$amount}개월
+time-span-years = {$amount}년

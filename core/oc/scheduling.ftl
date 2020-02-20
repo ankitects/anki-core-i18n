@@ -1,15 +1,3 @@
-
-answer-button-time-seconds = {$amount}s
-
-answer-button-time-minutes = {$amount}m
-
-answer-button-time-hours = {$amount}h
-
-answer-button-time-days = {$amount}d
-
-answer-button-time-months = {$amount}me
-
-answer-button-time-years = {$amount}a
 time-span-seconds = { $amount ->
     [one] {$amount} segonda
    *[other] {$amount} segondas
@@ -27,7 +15,7 @@ time-span-days = { $amount ->
    *[other] {$amount} jorns
   }
 time-span-months = { $amount ->
-    [one] {$amount} mense
+    [one] {$amount} mes
    *[other] {$amount} meses
   }
 time-span-years = { $amount ->
