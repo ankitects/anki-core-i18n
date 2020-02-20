@@ -40,3 +40,33 @@ time-span-years = { $amount ->
     [few] {$amount} года
    *[other] {$amount} лет
   }
+in-time-span-seconds = { $amount ->
+    [one] в {$amount} секунду
+    [few] в {$amount} секунд
+   *[other] в {$amount} секунды
+  }
+in-time-span-minutes = { $amount ->
+    [one] за {$amount} минуту
+    [few] за {$amount} минуты
+   *[other] за {$amount} минут
+  }
+in-time-span-hours = { $amount ->
+    [one] за {$amount} час
+    [few] за {$amount} часа
+   *[other] за {$amount} часов
+  }
+in-time-span-days = { $amount ->
+    [one] за {$amount} день
+    [few] за {$amount} дня
+   *[other] за {$amount} дней
+  }
+in-time-span-months = { $amount ->
+    [one] за {$amount} месяц
+    [few] за {$amount} месяца
+   *[other] за {$amount} месяцев
+  }
+in-time-span-years = { $amount ->
+    [one] за {$amount} год
+    [few] за {$amount} года
+   *[other] за {$amount} лет
+  }

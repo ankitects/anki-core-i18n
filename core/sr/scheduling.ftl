@@ -40,3 +40,8 @@ time-span-years = { $amount ->
     [few] {$amount} године
    *[other] {$amount} година
   }
+in-time-span-seconds = { $amount ->
+    [one] за {$amount} секундy
+    [few] за {$amount} секунде
+   *[other] за {$amount} секунди
+  }

@@ -34,3 +34,27 @@ time-span-years = { $amount ->
     [one] {$amount} año
    *[other] {$amount} años
   }
+in-time-span-seconds = { $amount ->
+    [one] en {$amount} segundo
+   *[other] en {$amount} segundos
+  }
+in-time-span-minutes = { $amount ->
+    [one] en {$amount} minuto
+   *[other] en {$amount} minutos
+  }
+in-time-span-hours = { $amount ->
+    [one] en {$amount} horas
+   *[other] en {$amount} horas
+  }
+in-time-span-days = { $amount ->
+    [one] en {$amount} día
+   *[other] en {$amount} dias
+  }
+in-time-span-months = { $amount ->
+    [one] en {$amount} mes
+   *[other] en {$amount} meses
+  }
+in-time-span-years = { $amount ->
+    [one] en {$amount} año
+   *[other] en {$amount} años
+  }
