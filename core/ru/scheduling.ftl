@@ -70,3 +70,16 @@ in-time-span-years = { $amount ->
     [few] за {$amount} года
    *[other] за {$amount} лет
   }
+cards = { $cards ->
+    [one] {$cards} карточка
+    [few] {$cards} карточки
+   *[other] {$cards} карточек
+  }
+studied-today = Сегодня изучено { cards } { $unit ->
+     [seconds] { in-time-span-seconds }
+     [minutes] { in-time-span-minutes }
+     [hours]   { in-time-span-hours }
+     [days]    { in-time-span-days }
+     [months]  { in-time-span-months }
+    *[years]   { in-time-span-years }
+  }  ({ $secs-per-card }s/карточка)

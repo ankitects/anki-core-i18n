@@ -22,3 +22,7 @@ time-span-years = { $amount ->
     [one] {$amount} yıl
    *[other] {$amount} yıl
   }
+cards = { $cards ->
+    [one] {$cards} kart
+   *[other] {$cards} kart
+  }

@@ -80,3 +80,17 @@ in-time-span-years = { $amount ->
     [many] za {$amount} let
    *[other] za {$amount} let
   }
+cards = { $cards ->
+    [one] {$cards} karta
+    [few] {$cards} karet
+    [many] {$cards} karet
+   *[other] {$cards} karet
+  }
+studied-today = Dnes studováno { cards } { $unit ->
+     [seconds] { in-time-span-seconds }
+     [minutes] { in-time-span-minutes }
+     [hours]   { in-time-span-hours }
+     [days]    { in-time-span-days }
+     [months]  { in-time-span-months }
+    *[years]   { in-time-span-years }
+  } ({ $secs-per-card }s/kartu)

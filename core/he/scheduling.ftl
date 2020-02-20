@@ -70,3 +70,9 @@ in-time-span-years = { $amount ->
     [many] תוך {$amount} שנים
    *[other] תוך {$amount} שנים
   }
+cards = { $cards ->
+    [one] {$cards} כרטיסייה
+    [two] {$cards} כרטיסיות
+    [many] {$cards} כרטיסיות
+   *[other] {$cards} כרטיסיות
+  }

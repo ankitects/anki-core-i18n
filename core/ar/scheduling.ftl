@@ -46,3 +46,11 @@ time-span-years = { $amount ->
     [many] {$amount} سنة
    *[other] {$amount} سنة
   }
+cards = { $cards ->
+    [zero] {$cards} بطاقة
+    [one] {$cards} بطاقات
+    [two] {$cards} بطاقات
+    [few] {$cards} بطاقات
+    [many] {$cards} بطاقات
+   *[other] {$cards} بطاقات
+  }

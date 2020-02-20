@@ -45,3 +45,8 @@ in-time-span-seconds = { $amount ->
     [few] за {$amount} секунде
    *[other] за {$amount} секунди
   }
+cards = { $cards ->
+    [one] {$cards} карата
+    [few] {$cards} карте
+   *[other] {$cards} карата
+  }

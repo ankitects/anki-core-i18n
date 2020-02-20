@@ -44,3 +44,10 @@ time-span-years = { $amount ->
     [many] {$amount} blianta
    *[other] {$amount} blianta
   }
+cards = { $cards ->
+    [one] {$cards} cárta
+    [two] {$cards} cártaí
+    [few] {$cards} cártaí
+    [many] {$cards} cártaí
+   *[other] {$cards} cártaí
+  }

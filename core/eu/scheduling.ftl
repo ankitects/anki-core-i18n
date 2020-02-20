@@ -34,3 +34,7 @@ in-time-span-days = { $amount ->
     [one] egun {$amount} -(n)
    *[other] {$amount} egunetan
   }
+cards = { $cards ->
+    [one] Karta {$cards}
+   *[other] {$cards} karta
+  }
