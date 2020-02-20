@@ -1,6 +1,0 @@
--time-span-seconds = {$seconds} วินาที
--time-span-minutes = {$minutes} นาที
--time-span-hours = {$hours} ชั่วโมง
--time-span-days = {$days} วัน
--time-span-months = {$months} เดือน
--time-span-years = {$years} ปี

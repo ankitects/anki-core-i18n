@@ -1,4 +1,0 @@
--time-span-seconds = {$seconds} saat
--time-span-minutes = {$minutes} minit
--time-span-hours = {$hours} jam
--time-span-months = {$months} bulan
