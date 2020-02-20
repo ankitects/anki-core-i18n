@@ -45,19 +45,6 @@ answer-button-time-years = {$amount}y
   *[other] {$years} years
   }
 
--time-span-internal = { $unit ->
-   [seconds] { -time-span-seconds(seconds: $amount) }
-   [minutes] { -time-span-minutes(minutes: $amount) }
-   [hours]   { -time-span-hours(hours: $amount) }
-   [days]    { -time-span-days(days: $amount) }
-   [months]  { -time-span-months(months: $amount) }
-  *[years]   { -time-span-years(years: $amount) }
-  }
-
-time-span = { -time-span-internal(unit: $unit, amount: $amount) }
-
-##
-
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds (4.33s/card)."
 studied-today =
@@ -67,3 +54,14 @@ studied-today =
   }
   in { -time-span-internal(unit: $unit, amount: $amount) }
   ({$secs-per-card}s/card).
+
+-time-span-internal = { $unit ->
+   [seconds] { -time-span-seconds(seconds: $amount) }
+   [minutes] { -time-span-minutes(minutes: $amount) }
+   [hours]   { -time-span-hours(hours: $amount) }
+   [days]    { -time-span-days(days: $amount) }
+   [months]  { -time-span-months(months: $amount) }
+  *[years]   { -time-span-years(years: $amount) }
+ }
+
+time-span = { -time-span-internal(unit: $unit, amount: $amount) }
