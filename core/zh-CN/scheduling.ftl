@@ -7,6 +7,6 @@ answer-button-time-hours = {$amount}小时
 
 answer-button-time-days = {$amount}天
 
-answer-button-time-months = {$amount} 个月
+answer-button-time-months = {$amount}个月
 
 answer-button-time-years = {$amount}年
