@@ -61,12 +61,5 @@ studied-today =
     [one] {$cards} card
    *[other] {$cards} cards
   }
-  in { $unit ->
-        [seconds] { time-span-seconds }
-        [minutes] { time-span-minutes }
-        [hours]   { time-span-hours }
-        [days]    { time-span-days }
-        [months]  { time-span-months }
-       *[years]   { time-span-years }
-    }
+  in { time-span }
   ({$secs-per-card}s/card).
