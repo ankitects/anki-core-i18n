@@ -34,8 +34,9 @@ delete-unused-complete = { $count }個のファイルをごみ箱に移動しま
 
 ## Rendering LaTeX
 
-all-latex-rendered = すべてのLaTeXをレンダしました。
+all-latex-rendered = すべてのLaTeXをレンダリングしました。
 
 ## Buttons
 
 delete-unused = 使用されていないファイルを削除
+render-latex = LaTexをレンダリングする
