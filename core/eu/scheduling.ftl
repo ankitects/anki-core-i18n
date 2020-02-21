@@ -30,7 +30,3 @@ time-span-years = { $amount ->
     [one] Urte {$amount}
    *[other] {$amount} urte
   }
-in-time-span-days = { $amount ->
-    [one] egun {$amount} -(n)
-   *[other] {$amount} egunetan
-  }
