@@ -11,9 +11,8 @@ due-for-new-card = New #{$number}
 cards-per-min = {$cards-per-minute} cards/minute
 average-answer-time = {$average-seconds}s ({cards-per-min})
 
-
 ## A span of time studying took place in, for example
-## "(studied 30 cards) in 3 minutes".
+## "(studied 30 cards) in 3 minutes"
 
 in-time-span-seconds = { $amount ->
    [one]   in {$amount} second
@@ -67,4 +66,4 @@ studied-today =
      [months]  { in-time-span-months }
     *[years]   { in-time-span-years }
   } today
-  ({$secs-per-card}s/card).
+  ({$secs-per-card}s/card)
