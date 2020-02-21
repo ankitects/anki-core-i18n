@@ -39,3 +39,7 @@ cards = { $cards ->
     [one] {$cards} n tkarḍa
    *[other] {$cards} n tkarḍiwin
   }
+reviews = { $reviews ->
+    [one] {$reviews} aceggir
+   *[other] {$reviews} iceggiren
+  }

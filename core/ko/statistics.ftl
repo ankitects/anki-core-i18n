@@ -19,3 +19,4 @@ studied-today = 학습 { cards } { $unit ->
     *[years]   { in-time-span-years }
   } 오늘({ $secs-per-card }s/card)
 cards = {$cards}카드
+reviews = {$reviews}복습

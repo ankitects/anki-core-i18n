@@ -36,3 +36,5 @@ studied-today =
         [months] { in-time-span-months }
        *[years] { in-time-span-years }
     }（{ $secs-per-card }秒/张）
+reviews = {$reviews} 次复习
+

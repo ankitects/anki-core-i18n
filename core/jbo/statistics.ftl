@@ -19,3 +19,4 @@ studied-today = .i tadni { cards } { $unit ->
     *[years]   { in-time-span-years }
   } ca lo cabdei to karda snidu li { $secs-per-card } toi
 cards = {$cards} karda
+reviews = {$reviews} nu morji

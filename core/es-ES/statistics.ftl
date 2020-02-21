@@ -64,3 +64,9 @@ studied-today =
         [months] { in-time-span-months }
        *[years] { in-time-span-years }
     } hoy ({ $secs-per-card }s/tarjeta)
+
+reviews = { $reviews ->
+    [one] {$reviews} repaso
+   *[other] {$reviews} repasos
+  }
+

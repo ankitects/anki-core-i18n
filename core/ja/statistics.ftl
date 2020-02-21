@@ -19,3 +19,4 @@ studied-today = 今日は{ cards }を{ $unit ->
     *[years]   { in-time-span-years }
   }で学習しています ({ $secs-per-card }秒/枚)
 cards = {$cards}枚のカード
+reviews = {$reviews} 枚の復習カード

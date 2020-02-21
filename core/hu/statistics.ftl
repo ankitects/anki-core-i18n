@@ -7,3 +7,7 @@ cards = { $cards ->
     [one] {$cards} kártya
    *[other] {$cards} kártya
   }
+reviews = { $reviews ->
+    [one] {$reviews} ismétlés
+   *[other] {$reviews} ismétlés
+  }

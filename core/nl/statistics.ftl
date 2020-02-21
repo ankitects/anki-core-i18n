@@ -39,3 +39,7 @@ cards = { $cards ->
     [one] {$cards} kaart
    *[other] {$cards} kaarten
   }
+reviews = { $reviews ->
+    [one] {$reviews} herhaling
+   *[other] {$reviews} herhalingen
+  }

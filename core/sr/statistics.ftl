@@ -13,3 +13,8 @@ cards = { $cards ->
     [few] {$cards} карте
    *[other] {$cards} карата
   }
+reviews = { $reviews ->
+    [one] {$reviews} преглед
+    [few] {$reviews} прегледа
+   *[other] {$reviews} прегледа
+  }

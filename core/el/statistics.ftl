@@ -7,3 +7,7 @@ cards = { $cards ->
     [one] {$cards} κάρτα
    *[other] {$cards} κάρτες
   }
+reviews = { $reviews ->
+    [one] {$reviews} αναθεώρηση
+   *[other] {$reviews} αναθεωρήσεις
+  }

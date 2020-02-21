@@ -15,3 +15,7 @@ cards = { $cards ->
     [one] {$cards} kort
    *[other] {$cards} kort
   }
+reviews = { $reviews ->
+    [one] {$reviews} repetition
+   *[other] {$reviews} repetitioner
+  }

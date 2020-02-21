@@ -53,3 +53,9 @@ cards = { $cards ->
     [many] {$cards} карток
    *[other] {$cards} карток
   }
+reviews = { $reviews ->
+    [one] {$reviews} повторення
+    [few] {$reviews} повторень
+    [many] {$reviews} повторень
+   *[other] {$reviews} повторень
+  }

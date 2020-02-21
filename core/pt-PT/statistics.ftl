@@ -31,3 +31,7 @@ cards = { $cards ->
     [one] {$cards} ficha
    *[other] {$cards} fichas
   }
+reviews = { $reviews ->
+    [one] {$reviews} revisão
+   *[other] {$reviews} revisões
+  }

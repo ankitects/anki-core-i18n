@@ -64,3 +64,7 @@ studied-today =
         [months] { in-time-span-months }
        *[years] { in-time-span-years }
     } uèi ({ $secs-per-card }s/card)
+reviews = { $reviews ->
+    [one] {$reviews} repàs
+   *[other] {$reviews} revisions
+  }
