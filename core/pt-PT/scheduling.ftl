@@ -52,7 +52,3 @@ in-time-span-years = { $amount ->
     [one] em {$amount} ano
    *[other] em {$amount} anos
   }
-cards = { $cards ->
-    [one] {$cards} ficha
-   *[other] {$cards} fichas
-  }

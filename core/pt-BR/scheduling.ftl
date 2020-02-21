@@ -58,15 +58,3 @@ in-time-span-years = { $amount ->
     [one] em {$amount} ano
    *[other] em {$amount} anos
   }
-cards = { $cards ->
-    [one] {$cards} cartão
-   *[other] {$cards} cartões
-  }
-studied-today = Estudado { cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
-  } hoje ({ $secs-per-card }s/card)

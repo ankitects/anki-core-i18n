@@ -58,16 +58,3 @@ in-time-span-years = { $amount ->
     [few] în {$amount} ani
    *[other] în {$amount} de ani
   }
-cards = { $cards ->
-    [one] {$cards} karda
-    [few] {$cards} carduri
-   *[other] {$cards} carduri
-  }
-studied-today = .i tadni { cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
-  } ca lo cabdei to karda snidu li { $secs-per-card } toi

@@ -16,4 +16,3 @@ time-span-hours = {$amount} giờ
 time-span-days = {$amount} ngày
 time-span-months = {$amount} tháng
 time-span-years = {$amount} năm
-cards = {$cards} thẻ

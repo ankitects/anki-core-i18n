@@ -30,7 +30,3 @@ time-span-years = { $amount ->
     [one] {$amount} سال
    *[other] {$amount} سال
   }
-cards = { $cards ->
-    [one] {$cards} کارت
-   *[other] {$cards} کارت
-  }

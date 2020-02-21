@@ -22,7 +22,3 @@ time-span-years = { $amount ->
     [one] {$amount} χρόνο
    *[other] {$amount} χρόνια
   }
-cards = { $cards ->
-    [one] {$cards} κάρτα
-   *[other] {$cards} κάρτες
-  }

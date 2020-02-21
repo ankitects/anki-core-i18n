@@ -32,15 +32,3 @@ time-span-years = { $amount ->
     [one] {$amount} år
    *[other] {$amount} år
   }
-cards = { $cards ->
-    [one] {$cards} kort
-   *[other] {$cards} kort
-  }
-studied-today = Studerade{ cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
-  } idag ({ $secs-per-card }s/kort)

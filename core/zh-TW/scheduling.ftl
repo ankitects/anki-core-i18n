@@ -16,4 +16,3 @@ time-span-hours = {$amount}個小時
 time-span-days = {$amount}天
 time-span-months = {$amount}個月
 time-span-years = {$amount}年
-cards = {$cards} 張卡片

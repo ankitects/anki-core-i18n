@@ -84,17 +84,3 @@ in-time-span-years = { $amount ->
     [many] w {$amount} lat
    *[other] w {$amount} lat
   }
-cards = { $cards ->
-    [one] {$cards} karta
-    [few] {$cards} karty
-    [many] {$cards} kart
-   *[other] {$cards} kart
-  }
-studied-today = Przejrzano dziś { cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
-  } ({ $secs-per-card }s/kartę)

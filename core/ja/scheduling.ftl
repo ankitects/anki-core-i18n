@@ -17,12 +17,3 @@ in-time-span-hours = {$amount}時間後
 in-time-span-days = {$amount}日後
 in-time-span-months = {$amount}か月後
 in-time-span-years = {$amount}年後
-cards = {$cards}枚のカード
-studied-today = 今日は{ cards }を{ $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
-  }で学習しています ({ $secs-per-card }秒/枚)
