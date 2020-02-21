@@ -12,9 +12,11 @@ renamed-header = Alguns arxius han estat renombrats per compatibilitat:
 oversize-header = Arxius de més de 100MB no es poeden sincronizar amb AnkiWeb.
 subfolder-header = Carpetes dins de la carepta multimedia no són soportades.
 missing-header = Usate sur le cartas ma mancante ab le plica del  medios:
+unused-header = Els següents arxius es troben a la carpeta multimèdia, però, no apareixen ser usats per cap targeta:
 
 ## Shown once for each file
 
+renamed-file = Renombrat: { $old } -> { $new }
 oversize-file = Major de 100MB: { $count }
 subfolder-file = Carpeta: { $filename }
 missing-file = Falta: { $filename }
