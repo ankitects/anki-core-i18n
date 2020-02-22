@@ -1,5 +1,5 @@
 statistics-cards-per-min = {$cards-per-minute} kort/minutt
-statistics-average-answer-time = {$average-seconds}s({cards-per-min})
+statistics-average-answer-time = {$average-seconds}s({ statistics-cards-per-min })
 statistics-cards = { $cards ->
     [one] {$cards} kort
    *[other] {$cards} kort

@@ -27,13 +27,13 @@ statistics-in-time-span-years = { $amount ->
     [one] deg {$amount} useggas
    *[other] deg {$amount} yeaiseggasenrs
   }
-statistics-studied-today = Yeɣra { cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
+statistics-studied-today = Yeɣra { statistics-cards } { $unit ->
+     [seconds] { statistics-in-time-span-seconds }
+     [minutes] { statistics-in-time-span-minutes }
+     [hours]   { statistics-in-time-span-hours }
+     [days]    { statistics-in-time-span-days }
+     [months]  { statistics-in-time-span-months }
+    *[years]   { statistics-in-time-span-years }
   } ass-a ({ $secs-per-card }s/takarḍa)
 statistics-cards = { $cards ->
     [one] {$cards} n tkarḍa

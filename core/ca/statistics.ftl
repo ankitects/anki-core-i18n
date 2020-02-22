@@ -8,7 +8,7 @@ statistics-due-for-new-card = Noves #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } cartas/minuta
-statistics-average-answer-time = { $average-seconds }s ({ cards-per-min })
+statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -53,16 +53,16 @@ statistics-cards =
     }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { in-time-span-seconds } part should be pasted in from the English
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Estudiat { cards } { $unit ->
-        [seconds] { in-time-span-seconds }
-        [minutes] { in-time-span-minutes }
-        [hours] { in-time-span-hours }
-        [days] { in-time-span-days }
-        [months] { in-time-span-months }
-       *[years] { in-time-span-years }
+    Estudiat { statistics-cards } { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
     } uèi ({ $secs-per-card }s/card)
 statistics-reviews = { $reviews ->
     [one] {$reviews} repàs

@@ -3,7 +3,7 @@ statistics-due-date = A Revisar
 
 statistics-due-count = A Revisar
 statistics-cards-per-min = {$cards-per-minute} cartões/minuto
-statistics-average-answer-time = {$average-seconds}s ({cards-per-min})
+statistics-average-answer-time = {$average-seconds}s ({ statistics-cards-per-min })
 statistics-in-time-span-seconds = { $amount ->
     [one] em {$amount} segundo
    *[other] em {$amount} segundos
@@ -28,13 +28,13 @@ statistics-in-time-span-years = { $amount ->
     [one] em {$amount} ano
    *[other] em {$amount} anos
   }
-statistics-studied-today = Estudado { cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
+statistics-studied-today = Estudado { statistics-cards } { $unit ->
+     [seconds] { statistics-in-time-span-seconds }
+     [minutes] { statistics-in-time-span-minutes }
+     [hours]   { statistics-in-time-span-hours }
+     [days]    { statistics-in-time-span-days }
+     [months]  { statistics-in-time-span-months }
+    *[years]   { statistics-in-time-span-years }
   } hoje ({ $secs-per-card }s/card)
 statistics-cards = { $cards ->
     [one] {$cards} cartão

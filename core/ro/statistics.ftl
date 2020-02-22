@@ -3,7 +3,7 @@ statistics-due-date = Programate
 
 statistics-due-count = Programate
 statistics-cards-per-min = {$cards-per-minute} karda fe'i mentu
-statistics-average-answer-time = snidu li {$average-seconds} to {cards-per-min} toi
+statistics-average-answer-time = snidu li {$average-seconds} to { statistics-cards-per-min } toi
 statistics-in-time-span-seconds = { $amount ->
     [one] în {$amount} secundă
     [few] în {$amount} secunde
@@ -34,13 +34,13 @@ statistics-in-time-span-years = { $amount ->
     [few] în {$amount} ani
    *[other] în {$amount} de ani
   }
-statistics-studied-today = .i tadni { cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
+statistics-studied-today = .i tadni { statistics-cards } { $unit ->
+     [seconds] { statistics-in-time-span-seconds }
+     [minutes] { statistics-in-time-span-minutes }
+     [hours]   { statistics-in-time-span-hours }
+     [days]    { statistics-in-time-span-days }
+     [months]  { statistics-in-time-span-months }
+    *[years]   { statistics-in-time-span-years }
   } ca lo cabdei to karda snidu li { $secs-per-card } toi
 statistics-cards = { $cards ->
     [one] {$cards} karda

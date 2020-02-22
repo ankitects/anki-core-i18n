@@ -3,7 +3,7 @@ statistics-due-date = Oczekujące
 
 statistics-due-count = Oczekujące
 statistics-cards-per-min = {$cards-per-minute} kart/minutę
-statistics-average-answer-time = {$average-seconds}s ({cards-per-min})
+statistics-average-answer-time = {$average-seconds}s ({ statistics-cards-per-min })
 statistics-in-time-span-seconds = { $amount ->
     [one] w {$amount} sekundę
     [few] w {$amount} sekundy
@@ -40,13 +40,13 @@ statistics-in-time-span-years = { $amount ->
     [many] w {$amount} lat
    *[other] w {$amount} lat
   }
-statistics-studied-today = Przejrzano dziś { cards } { $unit ->
-     [seconds] { in-time-span-seconds }
-     [minutes] { in-time-span-minutes }
-     [hours]   { in-time-span-hours }
-     [days]    { in-time-span-days }
-     [months]  { in-time-span-months }
-    *[years]   { in-time-span-years }
+statistics-studied-today = Przejrzano dziś { statistics-cards } { $unit ->
+     [seconds] { statistics-in-time-span-seconds }
+     [minutes] { statistics-in-time-span-minutes }
+     [hours]   { statistics-in-time-span-hours }
+     [days]    { statistics-in-time-span-days }
+     [months]  { statistics-in-time-span-months }
+    *[years]   { statistics-in-time-span-years }
   } ({ $secs-per-card }s/kartę)
 statistics-cards = { $cards ->
     [one] {$cards} karta
