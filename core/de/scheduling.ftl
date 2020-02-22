@@ -48,6 +48,25 @@ time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+next-learn-due =
+    Die nächste zu lernende Karte wird in { $unit ->
+        [seconds]
+            { $amount ->
+                [one] { $amount } Sekunde
+               *[other] { $amount } Sekunden
+            }
+        [minutes]
+            { $amount ->
+                [one] { $amount } Minute
+               *[other] { $amount } Minuten
+            }
+       *[hours]
+            { $amount ->
+                [one] { $amount } Stunde
+               *[other] { $amount } Stunden
+            }
+    } bereitgestellt.
 learn-remaining =
     { $remaining ->
         [one] Es ist noch eine zu lernende Karte heute fällig.
