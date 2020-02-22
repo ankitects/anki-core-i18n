@@ -3,44 +3,44 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
-answer-button-time-seconds = { $amount } s
-answer-button-time-minutes = { $amount } m
-answer-button-time-hours = { $amount } h
-answer-button-time-days = { $amount } d
-answer-button-time-months = { $amount } meses
-answer-button-time-years = { $amount } años
+scheduling-answer-button-time-seconds = { $amount } s
+scheduling-answer-button-time-minutes = { $amount } m
+scheduling-answer-button-time-hours = { $amount } h
+scheduling-answer-button-time-days = { $amount } d
+scheduling-answer-button-time-months = { $amount } meses
+scheduling-answer-button-time-years = { $amount } años
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
 ## such as in the Interval column of the browse screen,
 ## and labels like "Total Time" in the card info screen.
 
-time-span-seconds =
+scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } segundo
        *[other] { $amount } segundos
     }
-time-span-minutes =
+scheduling-time-span-minutes =
     { $amount ->
         [one] { $amount } minuto
        *[other] { $amount } minutos
     }
-time-span-hours =
+scheduling-time-span-hours =
     { $amount ->
         [one] { $amount } hora
        *[other] { $amount } horas
     }
-time-span-days =
+scheduling-time-span-days =
     { $amount ->
         [one] { $amount } día
        *[other] { $amount } días
     }
-time-span-months =
+scheduling-time-span-months =
     { $amount ->
         [one] { $amount } mes
        *[other] { $amount } meses
     }
-time-span-years =
+scheduling-time-span-years =
     { $amount ->
         [one] { $amount } año
        *[other] { $amount } años
@@ -49,7 +49,7 @@ time-span-years =
 ## Shown in the "Congratulations!" message after study finishes.
 
 # eg "The next learning card will be ready in 5 minutes."
-next-learn-due =
+scheduling-next-learn-due =
     La próxima tarjeta estará lista en { $unit ->
         [seconds]
             { $amount ->
@@ -67,7 +67,7 @@ next-learn-due =
                *[other] { $amount } horas
             }
     }.
-learn-remaining =
+scheduling-learn-remaining =
     { $remaining ->
         [one] Hay una tarjeta restante en la cola de aprendizaje más tarde para hoy.
        *[other] Hay { $remaining } tarjetas restantes en la cola de aprendizaje más tarde para hoy.

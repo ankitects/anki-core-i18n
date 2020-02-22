@@ -1,2 +1,2 @@
 
-delete-unused-confirm = Kullanılmayan ortamlar silinsin mi?
+media-check-delete-unused-confirm = Kullanılmayan ortamlar silinsin mi?

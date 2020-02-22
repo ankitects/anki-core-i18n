@@ -1,2 +1,2 @@
 
-is-due = Na skúšanie
+filtering-is-due = Na skúšanie

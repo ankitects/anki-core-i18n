@@ -1,13 +1,13 @@
 
-due-date = Uitstaande
+statistics-due-date = Uitstaande
 
-due-count = Uitstaande
-cards-per-min = {$cards-per-minute} kaarte/minuut
-cards = { $cards ->
+statistics-due-count = Uitstaande
+statistics-cards-per-min = {$cards-per-minute} kaarte/minuut
+statistics-cards = { $cards ->
     [one] {$cards} kaart
    *[other] {$cards} kaarte
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} hersiening
    *[other] {$reviews} hersienings
   }

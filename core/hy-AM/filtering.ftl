@@ -1,2 +1,2 @@
 
-is-due = Կրկնելիք
+filtering-is-due = Կրկնելիք

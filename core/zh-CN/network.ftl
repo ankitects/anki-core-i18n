@@ -1,1 +1,1 @@
-offline = 请检查您的网际网路
+network-offline = 请检查您的网际网路

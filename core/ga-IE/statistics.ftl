@@ -1,5 +1,5 @@
-cards-per-min = {$cards-per-minute} cártaí/nóiméad
-cards = { $cards ->
+statistics-cards-per-min = {$cards-per-minute} cártaí/nóiméad
+statistics-cards = { $cards ->
     [one] {$cards} cárta
     [two] {$cards} cártaí
     [few] {$cards} cártaí

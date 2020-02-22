@@ -1,2 +1,2 @@
 
-is-due = Fällig
+filtering-is-due = Fällig

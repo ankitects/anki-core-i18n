@@ -1,13 +1,13 @@
 
-due-date = Λόγω
+statistics-due-date = Λόγω
 
-due-count = Λόγω
-cards-per-min = {$cards-per-minute} κάρτες/λεπτό
-cards = { $cards ->
+statistics-due-count = Λόγω
+statistics-cards-per-min = {$cards-per-minute} κάρτες/λεπτό
+statistics-cards = { $cards ->
     [one] {$cards} κάρτα
    *[other] {$cards} κάρτες
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} αναθεώρηση
    *[other] {$reviews} αναθεωρήσεις
   }

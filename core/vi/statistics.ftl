@@ -1,7 +1,7 @@
 
-due-date = Đến hạn
+statistics-due-date = Đến hạn
 
-due-count = Đến hạn
-cards-per-min = {$cards-per-minute} thẻ / phút
-cards = {$cards} thẻ
-reviews = {$reviews} thẻ ôn tập
+statistics-due-count = Đến hạn
+statistics-cards-per-min = {$cards-per-minute} thẻ / phút
+statistics-cards = {$cards} thẻ
+statistics-reviews = {$reviews} thẻ ôn tập

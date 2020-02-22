@@ -1,13 +1,13 @@
 
-due-date = I dag
+statistics-due-date = I dag
 
-due-count = I dag
-cards-per-min = {$cards-per-minute} kort/minuttet
-cards = { $cards ->
+statistics-due-count = I dag
+statistics-cards-per-min = {$cards-per-minute} kort/minuttet
+statistics-cards = { $cards ->
     [one] {$cards} kort
    *[other] {$cards} kort
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} genopfrisk
    *[other] {$reviews} genopfriskes
   }

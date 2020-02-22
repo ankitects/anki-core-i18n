@@ -1,6 +1,6 @@
 
-delete-unused = Ta bort oanvända filer
+media-check-delete-unused = Ta bort oanvända filer
 
-delete-unused-confirm = Ta bort oanvända media?
+media-check-delete-unused-confirm = Ta bort oanvända media?
 
-missing-header = Används på kort men saknas i mediamappen:
+media-check-missing-header = Används på kort men saknas i mediamappen:

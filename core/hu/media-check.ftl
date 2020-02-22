@@ -1,4 +1,4 @@
 
-delete-unused-confirm = Töröljem a nem használt médiaállományokat?
+media-check-delete-unused-confirm = Töröljem a nem használt médiaállományokat?
 
-missing-header = Egyes kártyák hivatkoznak rá, de a médiamappában nem található:
+media-check-missing-header = Egyes kártyák hivatkoznak rá, de a médiamappában nem található:

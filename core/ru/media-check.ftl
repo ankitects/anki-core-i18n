@@ -1,41 +1,41 @@
 ## Shown at the top of the media check screen
 
-missing-count = Отсутствует файлов: { $count }
-unused-count = Не используется файлов: { $count }
-renamed-count = Переименовано файлов: { $count }
-oversize-count = Больше, чем 100 МБ: { $count }
-subfolder-count = Подпапок: { $count }
+media-check-missing-count = Отсутствует файлов: { $count }
+media-check-unused-count = Не используется файлов: { $count }
+media-check-renamed-count = Переименовано файлов: { $count }
+media-check-oversize-count = Больше, чем 100 МБ: { $count }
+media-check-subfolder-count = Подпапок: { $count }
 
 ## Shown at the top of each section
 
-renamed-header = Переименованные для совместимости:
-oversize-header = Файлы размером больше 100 МБ не могут быть загружены на AnkiWeb.
-subfolder-header = Медиапапка не должна содержать другие папки.
-missing-header = Эти файлы прикреплены к карточкам, но отсутствуют в медиапапке:
-unused-header = Эти файлы в медиапапке, но не прикреплены ни к одной карточке:
+media-check-renamed-header = Переименованные для совместимости:
+media-check-oversize-header = Файлы размером больше 100 МБ не могут быть загружены на AnkiWeb.
+media-check-subfolder-header = Медиапапка не должна содержать другие папки.
+media-check-missing-header = Эти файлы прикреплены к карточкам, но отсутствуют в медиапапке:
+media-check-unused-header = Эти файлы в медиапапке, но не прикреплены ни к одной карточке:
 
 ## Shown once for each file
 
-renamed-file = Переименован: { $old } в { $new }
-oversize-file = Больше, чем 100 МБ: { $filename }
-subfolder-file = Папка: { $filename }
-missing-file = Отсутствует: { $filename }
-unused-file = Не используется: { $filename }
+media-check-renamed-file = Переименован: { $old } в { $new }
+media-check-oversize-file = Больше, чем 100 МБ: { $filename }
+media-check-subfolder-file = Папка: { $filename }
+media-check-missing-file = Отсутствует: { $filename }
+media-check-unused-file = Не используется: { $filename }
 
 ## Progress
 
-checked = Проверено { $count }...
+media-check-checked = Проверено { $count }...
 
 ## Deleting unused media
 
-delete-unused-confirm = Удалить неиспользуемые медиаресурсы?
-files-remaining =
+media-check-delete-unused-confirm = Удалить неиспользуемые медиаресурсы?
+media-check-files-remaining =
     { $count ->
         [one] 1 файл
         [few] { $count } файла
        *[other] файлов
     } осталось.
-delete-unused-complete =
+media-check-delete-unused-complete =
     { $count ->
         [one] 1 файл
        *[other] { $count } файлов
@@ -43,9 +43,9 @@ delete-unused-complete =
 
 ## Rendering LaTeX
 
-all-latex-rendered = Весь LaTeX отрисован.
+media-check-all-latex-rendered = Весь LaTeX отрисован.
 
 ## Buttons
 
-delete-unused = Удалить неиспользуемые
-render-latex = Отрисовать LaTeX
+media-check-delete-unused = Удалить неиспользуемые
+media-check-render-latex = Отрисовать LaTeX

@@ -1,9 +1,9 @@
 
-due-date = Aktuella
+statistics-due-date = Aktuella
 
-due-count = Aktuella
-cards-per-min = {$cards-per-minute} kort/minut
-studied-today = Studerade{ cards } { $unit ->
+statistics-due-count = Aktuella
+statistics-cards-per-min = {$cards-per-minute} kort/minut
+statistics-studied-today = Studerade{ cards } { $unit ->
      [seconds] { in-time-span-seconds }
      [minutes] { in-time-span-minutes }
      [hours]   { in-time-span-hours }
@@ -11,11 +11,11 @@ studied-today = Studerade{ cards } { $unit ->
      [months]  { in-time-span-months }
     *[years]   { in-time-span-years }
   } idag ({ $secs-per-card }s/kort)
-cards = { $cards ->
+statistics-cards = { $cards ->
     [one] {$cards} kort
    *[other] {$cards} kort
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} repetition
    *[other] {$reviews} repetitioner
   }

@@ -1,9 +1,9 @@
 
-due-date = Escasença
+statistics-due-date = Escasença
 
-due-count = Escasença
-cards-per-min = {$cards-per-minute} cartas/minuta
-studied-today = Estudiat { cards } { $unit ->
+statistics-due-count = Escasença
+statistics-cards-per-min = {$cards-per-minute} cartas/minuta
+statistics-studied-today = Estudiat { cards } { $unit ->
      [seconds] { in-time-span-seconds }
      [minutes] { in-time-span-minutes }
      [hours]   { in-time-span-hours }
@@ -11,11 +11,11 @@ studied-today = Estudiat { cards } { $unit ->
      [months]  { in-time-span-months }
     *[years]   { in-time-span-years }
   } uèi ({ $secs-per-card }s/card)
-cards = { $cards ->
+statistics-cards = { $cards ->
     [one] {$cards} carta
    *[other] {$cards} cartas
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} revision
    *[other] {$reviews} revisions
   }

@@ -1,5 +1,5 @@
-cards-per-min = {$cards-per-minute} بطاقات/دقيقة
-cards = { $cards ->
+statistics-cards-per-min = {$cards-per-minute} بطاقات/دقيقة
+statistics-cards = { $cards ->
     [zero] {$cards} بطاقة
     [one] {$cards} بطاقات
     [two] {$cards} بطاقات
@@ -7,7 +7,7 @@ cards = { $cards ->
     [many] {$cards} بطاقات
    *[other] {$cards} بطاقات
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [zero] {$reviews} مذاكرة
     [one] {$reviews} مذاكرة
     [two] {$reviews} مذاكرات

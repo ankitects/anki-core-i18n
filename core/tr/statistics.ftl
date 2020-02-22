@@ -1,13 +1,13 @@
 
-due-date = Vade
+statistics-due-date = Vade
 
-due-count = Vade
-cards-per-min = {$cards-per-minute} kart/dakika
-cards = { $cards ->
+statistics-due-count = Vade
+statistics-cards-per-min = {$cards-per-minute} kart/dakika
+statistics-cards = { $cards ->
     [one] {$cards} kart
    *[other] {$cards} kart
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} inceleme
    *[other] {$reviews} inceleme
   }

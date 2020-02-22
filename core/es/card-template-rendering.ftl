@@ -3,25 +3,25 @@
 ### template, or the front of the card is empty.
 
 # Label of link users can click on
-more-info = Más información
-front-side-problem = La parte frontal tiene un problema:
-back-side-problem = La parte trasera tiene un problema:
+card-template-rendering-more-info = Más información
+card-template-rendering-front-side-problem = La parte frontal tiene un problema:
+card-template-rendering-back-side-problem = La parte trasera tiene un problema:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
-no-closing-brackets = Falta '{ $missing }' en '{ $tag }'
+card-template-rendering-no-closing-brackets = Falta '{ $missing }' en '{ $tag }'
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
-conditional-not-closed = Falta '{ $missing }'
+card-template-rendering-conditional-not-closed = Falta '{ $missing }'
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
-wrong-conditional-closed = Se ha encontrado '{ $found }', pero se esperaba '{ $expected }'
+card-template-rendering-wrong-conditional-closed = Se ha encontrado '{ $found }', pero se esperaba '{ $expected }'
 # when the user closed a conditional that wasn't open
 # eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
-conditional-not-open = Se ha encontrado '{ $found }', pero falta '{ $missing1 }' o '{ $missing2 }'
+card-template-rendering-conditional-not-open = Se ha encontrado '{ $found }', pero falta '{ $missing1 }' o '{ $missing2 }'
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
-no-such-field = Encontrado '{ $found }', pero no hay ningún campo llamado '{ $field }'
+card-template-rendering-no-such-field = Encontrado '{ $found }', pero no hay ningún campo llamado '{ $field }'
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-empty-front = La parte frontal de esta tarjeta está en blanco.
+card-template-rendering-empty-front = La parte frontal de esta tarjeta está en blanco.

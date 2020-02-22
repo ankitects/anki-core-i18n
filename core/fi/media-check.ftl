@@ -1,6 +1,6 @@
 
-delete-unused = Poista käyttämättömät tiedostot
+media-check-delete-unused = Poista käyttämättömät tiedostot
 
-delete-unused-confirm = Poistetaanko käyttämätön media?
+media-check-delete-unused-confirm = Poistetaanko käyttämätön media?
 
-missing-header = Käytetty korteissa mutta puuttuu mediakansiosta:
+media-check-missing-header = Käytetty korteissa mutta puuttuu mediakansiosta:

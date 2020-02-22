@@ -1,34 +1,34 @@
 
-answer-button-time-seconds = {$amount}से
+scheduling-answer-button-time-seconds = {$amount}से
 
-answer-button-time-minutes = {$amount}म
+scheduling-answer-button-time-minutes = {$amount}म
 
-answer-button-time-hours = {$amount}ता
+scheduling-answer-button-time-hours = {$amount}ता
 
-answer-button-time-days = {$amount}दि
+scheduling-answer-button-time-days = {$amount}दि
 
-answer-button-time-years = {$amount}व
-time-span-seconds = { $amount ->
+scheduling-answer-button-time-years = {$amount}व
+scheduling-time-span-seconds = { $amount ->
     [one] {$amount} सेकंद
    *[other] {$amount} सेकंद
   }
-time-span-minutes = { $amount ->
+scheduling-time-span-minutes = { $amount ->
     [one] {$amount} मिनीट
    *[other] {$amount} मिनीट
   }
-time-span-hours = { $amount ->
+scheduling-time-span-hours = { $amount ->
     [one] {$amount} तास
    *[other] {$amount} तास
   }
-time-span-days = { $amount ->
+scheduling-time-span-days = { $amount ->
     [one] {$amount} दिवस
    *[other] {$amount} दिवस
   }
-time-span-months = { $amount ->
+scheduling-time-span-months = { $amount ->
     [one] {$amount} महिना
    *[other] {$amount} महिने
   }
-time-span-years = { $amount ->
+scheduling-time-span-years = { $amount ->
     [one] {$amount} वर्ष
    *[other] {$amount} वर्ष
   }

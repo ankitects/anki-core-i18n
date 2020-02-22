@@ -1,4 +1,4 @@
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} pregledov
     [two] {$reviews} pregled
     [few] {$reviews} pregleda

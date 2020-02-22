@@ -3,8 +3,8 @@
 ### template, or the front of the card is empty.
 
 # Label of link users can click on
-more-info = 更多信息
+card-template-rendering-more-info = 更多信息
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-empty-front = 正面是空白
+card-template-rendering-empty-front = 正面是空白

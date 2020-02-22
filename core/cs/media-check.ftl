@@ -1,6 +1,6 @@
 
-delete-unused = Vymazat nepoužívané soubory
+media-check-delete-unused = Vymazat nepoužívané soubory
 
-delete-unused-confirm = Vymazat nepoužívaná média?
+media-check-delete-unused-confirm = Vymazat nepoužívaná média?
 
-missing-header = Použito v kartách, ale chybí ve složce s médii:
+media-check-missing-header = Použito v kartách, ale chybí ve složce s médii:

@@ -1,32 +1,32 @@
 
-answer-button-time-hours = {$amount}o
+scheduling-answer-button-time-hours = {$amount}o
 
-answer-button-time-days = {$amount}e
+scheduling-answer-button-time-days = {$amount}e
 
-answer-button-time-months = {$amount}h
+scheduling-answer-button-time-months = {$amount}h
 
-answer-button-time-years = {$amount}u
-time-span-seconds = { $amount ->
+scheduling-answer-button-time-years = {$amount}u
+scheduling-time-span-seconds = { $amount ->
     [one] Segundo {$amount}
    *[other] {$amount} segundo
   }
-time-span-minutes = { $amount ->
+scheduling-time-span-minutes = { $amount ->
     [one] Minutu {$amount}
    *[other] {$amount} minutu
   }
-time-span-hours = { $amount ->
+scheduling-time-span-hours = { $amount ->
     [one] Ordu {$amount}
    *[other] {$amount} ordu
   }
-time-span-days = { $amount ->
+scheduling-time-span-days = { $amount ->
     [one] Egun {$amount}
    *[other] {$amount} egun
   }
-time-span-months = { $amount ->
+scheduling-time-span-months = { $amount ->
     [one] Hilabete {$amount}
    *[other] {$amount} hilabete
   }
-time-span-years = { $amount ->
+scheduling-time-span-years = { $amount ->
     [one] Urte {$amount}
    *[other] {$amount} urte
   }

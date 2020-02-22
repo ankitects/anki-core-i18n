@@ -1,13 +1,13 @@
 
-due-date = Erääntyvät
+statistics-due-date = Erääntyvät
 
-due-count = Erääntyvät
-cards-per-min = {$cards-per-minute} korttia/minuutissa
-cards = { $cards ->
+statistics-due-count = Erääntyvät
+statistics-cards-per-min = {$cards-per-minute} korttia/minuutissa
+statistics-cards = { $cards ->
     [one] {$cards} kortti
    *[other] {$cards} korttia
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} kertaus
    *[other] {$reviews} kertausta
   }

@@ -1,13 +1,13 @@
 
-due-date = Obrigadas
+statistics-due-date = Obrigadas
 
-due-count = Obrigadas
-cards-per-min = {$cards-per-minute} cartas/minuto
-cards = { $cards ->
+statistics-due-count = Obrigadas
+statistics-cards-per-min = {$cards-per-minute} cartas/minuto
+statistics-cards = { $cards ->
     [one] {$cards} tarxeta
    *[other] {$cards} tarxetas
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} repaso
    *[other] {$reviews} repasos
   }

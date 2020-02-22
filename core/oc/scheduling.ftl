@@ -1,24 +1,24 @@
-time-span-seconds = { $amount ->
+scheduling-time-span-seconds = { $amount ->
     [one] {$amount} segonda
    *[other] {$amount} segondas
   }
-time-span-minutes = { $amount ->
+scheduling-time-span-minutes = { $amount ->
     [one] {$amount} minuta
    *[other] {$amount} minutas
   }
-time-span-hours = { $amount ->
+scheduling-time-span-hours = { $amount ->
     [one] {$amount} ora
    *[other] {$amount} oras
   }
-time-span-days = { $amount ->
+scheduling-time-span-days = { $amount ->
     [one] {$amount} jorn
    *[other] {$amount} jorns
   }
-time-span-months = { $amount ->
+scheduling-time-span-months = { $amount ->
     [one] {$amount} mes
    *[other] {$amount} meses
   }
-time-span-years = { $amount ->
+scheduling-time-span-years = { $amount ->
     [one] {$amount} an
    *[other] {$amount} ans
   }

@@ -1,19 +1,19 @@
 
-due-date = Рок
+statistics-due-date = Рок
 
-due-count = Рок
-cards-per-min = {$cards-per-minute} карата/мин.
-in-time-span-seconds = { $amount ->
+statistics-due-count = Рок
+statistics-cards-per-min = {$cards-per-minute} карата/мин.
+statistics-in-time-span-seconds = { $amount ->
     [one] за {$amount} секундy
     [few] за {$amount} секунде
    *[other] за {$amount} секунди
   }
-cards = { $cards ->
+statistics-cards = { $cards ->
     [one] {$cards} карата
     [few] {$cards} карте
    *[other] {$cards} карата
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} преглед
     [few] {$reviews} прегледа
    *[other] {$reviews} прегледа

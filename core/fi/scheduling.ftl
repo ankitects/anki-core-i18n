@@ -1,36 +1,36 @@
 
-answer-button-time-seconds = {$amount} s
+scheduling-answer-button-time-seconds = {$amount} s
 
-answer-button-time-minutes = {$amount} min
+scheduling-answer-button-time-minutes = {$amount} min
 
-answer-button-time-hours = {$amount} h
+scheduling-answer-button-time-hours = {$amount} h
 
-answer-button-time-days = {$amount} vrk
+scheduling-answer-button-time-days = {$amount} vrk
 
-answer-button-time-months = {$amount} kk
+scheduling-answer-button-time-months = {$amount} kk
 
-answer-button-time-years = {$amount} v
-time-span-seconds = { $amount ->
+scheduling-answer-button-time-years = {$amount} v
+scheduling-time-span-seconds = { $amount ->
     [one] {$amount} sekunti
    *[other] {$amount} sekuntia
   }
-time-span-minutes = { $amount ->
+scheduling-time-span-minutes = { $amount ->
     [one] {$amount} minuutti
    *[other] {$amount} minuuttia
   }
-time-span-hours = { $amount ->
+scheduling-time-span-hours = { $amount ->
     [one] {$amount} tunti
    *[other] {$amount} tuntia
   }
-time-span-days = { $amount ->
+scheduling-time-span-days = { $amount ->
     [one] {$amount} päivä
    *[other] {$amount} päivää
   }
-time-span-months = { $amount ->
+scheduling-time-span-months = { $amount ->
     [one] {$amount} kuukausi
    *[other] {$amount} kuukautta
   }
-time-span-years = { $amount ->
+scheduling-time-span-years = { $amount ->
     [one] {$amount} vuosi
    *[other] {$amount} vuotta
   }

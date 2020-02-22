@@ -1,13 +1,13 @@
 
-due-date = موعد مرور
+statistics-due-date = موعد مرور
 
-due-count = موعد مرور
-cards-per-min = {$cards-per-minute} کارت بر دقیقه
-cards = { $cards ->
+statistics-due-count = موعد مرور
+statistics-cards-per-min = {$cards-per-minute} کارت بر دقیقه
+statistics-cards = { $cards ->
     [one] {$cards} کارت
    *[other] {$cards} کارت
   }
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} مرورها
    *[other] {$reviews} مرورها
   }

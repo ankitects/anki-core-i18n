@@ -1,36 +1,36 @@
 
-answer-button-time-seconds = {$amount} mp
+scheduling-answer-button-time-seconds = {$amount} mp
 
-answer-button-time-minutes = {$amount} p
+scheduling-answer-button-time-minutes = {$amount} p
 
-answer-button-time-hours = {$amount} ó
+scheduling-answer-button-time-hours = {$amount} ó
 
-answer-button-time-days = {$amount} n
+scheduling-answer-button-time-days = {$amount} n
 
-answer-button-time-months = {$amount} hó
+scheduling-answer-button-time-months = {$amount} hó
 
-answer-button-time-years = {$amount} év
-time-span-seconds = { $amount ->
+scheduling-answer-button-time-years = {$amount} év
+scheduling-time-span-seconds = { $amount ->
     [one] {$amount} mp
    *[other] {$amount} mp
   }
-time-span-minutes = { $amount ->
+scheduling-time-span-minutes = { $amount ->
     [one] {$amount} perc
    *[other] {$amount} perc
   }
-time-span-hours = { $amount ->
+scheduling-time-span-hours = { $amount ->
     [one] {$amount} óra
    *[other] {$amount} óra
   }
-time-span-days = { $amount ->
+scheduling-time-span-days = { $amount ->
     [one] {$amount} nap
    *[other] {$amount} nap
   }
-time-span-months = { $amount ->
+scheduling-time-span-months = { $amount ->
     [one] {$amount} hónap
    *[other] {$amount} hónap
   }
-time-span-years = { $amount ->
+scheduling-time-span-years = { $amount ->
     [one] {$amount} év
    *[other] {$amount} év
   }

@@ -1,44 +1,44 @@
 # The date a card will be ready to review
-due-date = Programadas
+statistics-due-date = Programadas
 # The count of cards waiting to be reviewed
-due-count = Programadas
+statistics-due-count = Programadas
 # Shown in the Due column of the Browse screen when the card is a new card
-due-for-new-card = Nuevas #{ $number }
+statistics-due-for-new-card = Nuevas #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-cards-per-min = { $cards-per-minute } tarjetas/minuto
-average-answer-time = { $average-seconds }s ({ cards-per-min })
+statistics-cards-per-min = { $cards-per-minute } tarjetas/minuto
+statistics-average-answer-time = { $average-seconds }s ({ cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
-in-time-span-seconds =
+statistics-in-time-span-seconds =
     { $amount ->
         [one] en { $amount } segundo
        *[other] en { $amount } segundos
     }
-in-time-span-minutes =
+statistics-in-time-span-minutes =
     { $amount ->
         [one] en { $amount } minuto
        *[other] en { $amount } minutos
     }
-in-time-span-hours =
+statistics-in-time-span-hours =
     { $amount ->
         [one] en { $amount } horas
        *[other] en { $amount } horas
     }
-in-time-span-days =
+statistics-in-time-span-days =
     { $amount ->
         [one] en { $amount } día
        *[other] en { $amount } dias
     }
-in-time-span-months =
+statistics-in-time-span-months =
     { $amount ->
         [one] en { $amount } mes
        *[other] en { $amount } meses
     }
-in-time-span-years =
+statistics-in-time-span-years =
     { $amount ->
         [one] en { $amount } año
        *[other] en { $amount } años
@@ -46,7 +46,7 @@ in-time-span-years =
 
 ##
 
-cards =
+statistics-cards =
     { $cards ->
         [one] { $cards } tarjeta
        *[other] { $cards } tarjetas
@@ -55,7 +55,7 @@ cards =
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
-studied-today =
+statistics-studied-today =
     Estudiadas { cards } { $unit ->
         [seconds] { in-time-span-seconds }
         [minutes] { in-time-span-minutes }
@@ -65,7 +65,7 @@ studied-today =
        *[years] { in-time-span-years }
     } hoy ({ $secs-per-card }s/tarjeta)
 
-reviews = { $reviews ->
+statistics-reviews = { $reviews ->
     [one] {$reviews} repaso
    *[other] {$reviews} repasos
   }

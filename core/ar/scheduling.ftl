@@ -1,4 +1,4 @@
-time-span-seconds = { $amount ->
+scheduling-time-span-seconds = { $amount ->
     [zero] {$amount} ثانية
     [one] {$amount} ثانية
     [two] {$amount} ثانية
@@ -6,7 +6,7 @@ time-span-seconds = { $amount ->
     [many] {$amount} ثانية
    *[other] {$amount} ثانية
   }
-time-span-minutes = { $amount ->
+scheduling-time-span-minutes = { $amount ->
     [zero] {$amount} دقيقة
     [one] {$amount} دقيقة
     [two] {$amount} دقيقة
@@ -14,7 +14,7 @@ time-span-minutes = { $amount ->
     [many] {$amount} دقيقة
    *[other] {$amount} دقيقة
   }
-time-span-hours = { $amount ->
+scheduling-time-span-hours = { $amount ->
     [zero] {$amount} ساعة
     [one] {$amount} ساعة
     [two] {$amount} ساعة
@@ -22,7 +22,7 @@ time-span-hours = { $amount ->
     [many] {$amount} ساعة
    *[other] {$amount} ساعة
   }
-time-span-days = { $amount ->
+scheduling-time-span-days = { $amount ->
     [zero] {$amount} يوم
     [one] {$amount} يوم
     [two] يومين ({$amount})
@@ -30,7 +30,7 @@ time-span-days = { $amount ->
     [many] {$amount} يوما
    *[other] {$amount} يوم
   }
-time-span-months = { $amount ->
+scheduling-time-span-months = { $amount ->
     [zero] {$amount} شهر
     [one] {$amount} شهور
     [two] {$amount} شهور
@@ -38,7 +38,7 @@ time-span-months = { $amount ->
     [many] {$amount} شهور
    *[other] {$amount} شهور
   }
-time-span-years = { $amount ->
+scheduling-time-span-years = { $amount ->
     [zero] {$amount} سنة
     [one] {$amount} سنة
     [two] {$amount} سنة
