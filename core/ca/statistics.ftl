@@ -6,7 +6,7 @@ statistics-due-count = Escasença
 statistics-due-for-new-card =
     { $number ->
         [one] Nova #{ $number }
-       *[other] Noves #{ $amount }
+       *[other] Noves #{ $number }
     }
 
 ## eg 16.8s (3.6 cards/minute)
