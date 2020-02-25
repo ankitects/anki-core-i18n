@@ -7,7 +7,7 @@ statistics-due-for-new-card = Neu #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } Karten/Minute
+statistics-cards-per-min = { $cards-per-minute }{ $cards-per-minute }{ $cards-per-minute } Karten/Minute
 statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
