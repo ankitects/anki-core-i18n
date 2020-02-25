@@ -3,7 +3,11 @@ statistics-due-date = Programadas
 # The count of cards waiting to be reviewed
 statistics-due-count = Programadas
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = Nuevas #{ $number }
+statistics-due-for-new-card =
+    { $number ->
+        [one] Nueva #{ $number }
+       *[other] Nuevas #{ $number }
+    }
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -51,6 +55,12 @@ statistics-cards =
         [one] { $cards } tarjeta
        *[other] { $cards } tarjetas
     }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } repaso
+       *[other] { $reviews } repasos
+    }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -64,9 +74,3 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } hoy ({ $secs-per-card }s/tarjeta)
-
-statistics-reviews = { $reviews ->
-    [one] {$reviews} repaso
-   *[other] {$reviews} repasos
-  }
-
