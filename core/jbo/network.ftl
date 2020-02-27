@@ -1,5 +1,3 @@
 network-offline = .i ko cipcta lo do te samjo'e
 network-other = .i da samjo'e nabmi
-network-details =
-    .i la'e di'e tcila pa nabmi
-    { $details }
+network-details = .i tcila pa nabmi fa la'o zoi. { $details } .zoi
