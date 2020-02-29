@@ -11,8 +11,13 @@ sync-media-complete = Sincronización multimedia completada.
 sync-media-failed = Sincronización multimedia ha fallado.
 sync-media-aborting = Abortando la sincronización multimedia...
 sync-media-aborted = Sincronización multimedia abortada.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
 sync-media-disabled = Sincronización multimedia deshabilitada.
 sync-abort-button = Abortar
+sync-media-log-button = Registro de Archivos Multimedia
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Registro de Sincronización de Archivos Multimedia
 
 ## Error messages
 
