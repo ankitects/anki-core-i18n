@@ -11,8 +11,13 @@ sync-media-complete = Sincronitació multimèdia completada.
 sync-media-failed = La sincronització multimédia ha fallat.
 sync-media-aborting = Abortant la sincronització multimèdia...
 sync-media-aborted = Sincronització multimèdia abortada.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
 sync-media-disabled = Sincronització multimèdia deshabilitada.
 sync-abort-button = Abortar
+sync-media-log-button = Registre d'arxius Multimèdia
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Registre de sincronització d'arxius Multimèdia
 
 ## Error messages
 
