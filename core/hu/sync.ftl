@@ -11,8 +11,13 @@ sync-media-complete = Média szinkronizálás befejeződött.
 sync-media-failed = Média szinkronizálás sikertelen.
 sync-media-aborting = Média szinkronizálás megszakítása ...
 sync-media-aborted = Média szinkronizálás megszakítva.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
 sync-media-disabled = Média szinkronizálása letiltva.
 sync-abort-button = Leállítás
+sync-media-log-button = Médianapló
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Média szinkronizálási napló
 
 ## Error messages
 
