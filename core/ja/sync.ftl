@@ -11,9 +11,12 @@ sync-media-complete = メディア同期を完了しました。
 sync-media-failed = メディア同期に失敗しました。
 sync-media-aborting = メディア同期を中断中...
 sync-media-aborted = メディア同期を中断しました。
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
 sync-media-disabled = メディア同期が無効化されています。
 sync-abort-button = 中断
 
 ## Error messages
 
+sync-client-too-old = ご使用のAnkiのバージョンが古いため同期できません。同期するには最新版へのアップデートが必要です。
 sync-wrong-pass = AnkiWeb の ID 又は パスワード が間違っています。もう一度入力してください。
