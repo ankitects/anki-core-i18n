@@ -15,6 +15,9 @@ sync-media-aborted = メディア同期を中断しました。
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = メディア同期が無効化されています。
 sync-abort-button = 中断
+sync-media-log-button = メディアログ
+# Title of the screen that shows syncing progress history
+sync-media-log-title = メディア同期ログ
 
 ## Error messages
 
