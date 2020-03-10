@@ -1,5 +1,12 @@
 ## Shown at the top of the media check screen
 
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count = Trash folder: { $count ->
+  [one] 1 file, {$megs}MB
+ *[other] {$count} files, {$megs}MB
+ }
 media-check-missing-count = Missing files: {$count}
 media-check-unused-count = Unused files: {$count}
 media-check-renamed-count = Renamed files: {$count}
@@ -40,6 +47,9 @@ media-check-delete-unused-complete = {$count ->
     *[other] {$count} files
   } moved to the trash.
 
+media-check-trash-emptied = The trash folder is now empty.
+media-check-trash-restored = Restored deleted files to the media folder.
+
 ## Rendering LaTeX
 
 media-check-all-latex-rendered = All LaTeX rendered.
@@ -48,3 +58,7 @@ media-check-all-latex-rendered = All LaTeX rendered.
 
 media-check-delete-unused = Delete Unused
 media-check-render-latex = Render LaTeX
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = Empty Trash
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = Restore Deleted
