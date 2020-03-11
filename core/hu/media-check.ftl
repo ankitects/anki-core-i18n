@@ -1,5 +1,13 @@
 ## Shown at the top of the media check screen
 
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count =
+    Kuka mappa: { $count ->
+        [one] 1 fájl, { $megs }MB
+       *[other] { $count } fájl, { $megs }MB
+    }
 media-check-missing-count = Hiányzó fájlok: { $count }
 media-check-unused-count = Nem használt fájlok: { $count }
 media-check-renamed-count = Átnevezett fájlok: { $count }
@@ -39,6 +47,8 @@ media-check-delete-unused-complete =
         [one] 1 fájl
        *[other] { $count } fájl
     } áthelyezve a kukába.
+media-check-trash-emptied = A szemetes mappa üres.
+media-check-trash-restored = A törölt fájlokat visszaállította a médiamappába.
 
 ## Rendering LaTeX
 
@@ -48,3 +58,7 @@ media-check-all-latex-rendered = Az összes LaTeX megjelenítve.
 
 media-check-delete-unused = Törölje a nem használtat
 media-check-render-latex = Megjelenítve LaTeX
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = Szemetes ürítése
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = Visszaállítás törölve
