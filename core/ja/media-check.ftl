@@ -41,3 +41,4 @@ media-check-all-latex-rendered = すべてのLaTeXをレンダリングしまし
 media-check-delete-unused = 使用されていないファイルを削除
 media-check-render-latex = LaTexをレンダリングする
 media-check-window-title = メディアを確認
+media-check-check-media-action = メディアを確認

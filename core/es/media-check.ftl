@@ -49,3 +49,4 @@ media-check-all-latex-rendered = Todo LaTeX renderizado.
 media-check-delete-unused = Elimina no utilizadas
 media-check-render-latex = Renderizar LaTeX
 media-check-window-title = Verificar archivos multimedia
+media-check-check-media-action = Verificar archivos multimedia

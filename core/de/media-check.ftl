@@ -49,3 +49,4 @@ media-check-all-latex-rendered = Sämtlicher LaTeX-Code wurde gerendert.
 media-check-delete-unused = Nicht benutzte Dateien löschen
 media-check-render-latex = LaTeX-Code rendern
 media-check-window-title = Medien überprüfen
+media-check-check-media-action = Medien überprüfen

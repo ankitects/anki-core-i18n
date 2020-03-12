@@ -34,3 +34,4 @@ media-check-delete-unused-complete =
 
 media-check-delete-unused = Usuń nieużywane pliki
 media-check-window-title = Sprawdź pliki
+media-check-check-media-action = Sprawdź pliki
