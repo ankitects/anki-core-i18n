@@ -33,3 +33,4 @@ media-check-delete-unused-complete =
 ## Buttons
 
 media-check-delete-unused = Usuń nieużywane pliki
+media-check-window-title = Sprawdź pliki

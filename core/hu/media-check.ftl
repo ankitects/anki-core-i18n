@@ -48,3 +48,4 @@ media-check-all-latex-rendered = Az összes LaTeX megjelenítve.
 
 media-check-delete-unused = Törölje a nem használtat
 media-check-render-latex = Megjelenítve LaTeX
+media-check-window-title = Média ellenőrzése

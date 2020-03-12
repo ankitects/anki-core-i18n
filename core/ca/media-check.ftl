@@ -48,3 +48,4 @@ media-check-all-latex-rendered = Tot LaTeX renderizat.
 
 media-check-delete-unused = Elimina no utilizades
 media-check-render-latex = Renderitzar LaTeX
+media-check-window-title = Verificacion dels mèdias

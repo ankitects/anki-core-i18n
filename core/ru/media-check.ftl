@@ -49,3 +49,4 @@ media-check-all-latex-rendered = Весь LaTeX отрисован.
 
 media-check-delete-unused = Удалить неиспользуемые
 media-check-render-latex = Отрисовать LaTeX
+media-check-window-title = Проверить медиафайлы

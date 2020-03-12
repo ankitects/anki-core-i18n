@@ -27,3 +27,4 @@ media-check-files-remaining = .i { $count } datnyvei ca'o stali
 ## Buttons
 
 media-check-delete-unused = vimcu ro se pilno be no da
+media-check-window-title = nu cipcta lo ganvi
