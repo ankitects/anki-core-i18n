@@ -50,7 +50,7 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    A következő kártyád kész lesz { $unit ->
+    A következő kártyád { $unit ->
         [seconds]
             { $amount ->
                 [one] { $amount } másodperc
@@ -66,7 +66,7 @@ scheduling-next-learn-due =
                 [one] { $amount } óra
                *[other] { $amount } óra
             }
-    }.
+    } múlva esedékes.
 scheduling-learn-remaining =
     { $remaining ->
         [one] A mai napra van még egy kártyád

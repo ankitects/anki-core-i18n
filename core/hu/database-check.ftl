@@ -1,5 +1,5 @@
 database-check-fixed-non-normalized-tags =
     { $count ->
-        [one] Rögzített címkék egy jegyzethez.
-       *[other] Javított címkék a { $count } jegyzetekhez.
+        [one] Egy jegyzet cimkéi megjavítva.
+       *[other] { $count } jegyzet cimkéi megjavítva.
     }

@@ -15,28 +15,28 @@ statistics-average-answer-time = { $average-seconds }mp ({ statistics-cards-per-
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] { $amount } másodperc
-       *[other] { $amount } másodperc
+        [one] { $amount } másodperc alatt
+       *[other] { $amount } másodperc alatt
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] { $amount } perc
-       *[other] { $amount } perc
+        [one] { $amount } perc alatt
+       *[other] { $amount } perc alatt
     }
 statistics-in-time-span-hours =
     { $amount ->
-        [one] { $amount } órában
-       *[other] { $amount } órában
+        [one] { $amount } óra alatt
+       *[other] { $amount } óra alatt
     }
 statistics-in-time-span-days =
     { $amount ->
-        [one] { $amount } nap
-       *[other] { $amount } nap
+        [one] { $amount } nap alatt
+       *[other] { $amount } nap alatt
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] { $amount } hónap
-       *[other] { $amount } hónap
+        [one] { $amount } hónap alatt
+       *[other] { $amount } hónap alatt
     }
 statistics-in-time-span-years =
     { $amount ->
@@ -48,8 +48,8 @@ statistics-in-time-span-years =
 
 statistics-cards =
     { $cards ->
-        [one] { $cards } kártya
-       *[other] { $cards } kártya
+        [one] { $cards } kártyát
+       *[other] { $cards } kártyát
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -62,7 +62,7 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Tanult { statistics-cards }
+    { statistics-cards } tanultál
     { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
@@ -70,5 +70,5 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }mai nap
-    ({ $secs-per-card }s/card)
+    }a mai napon
+    ({ $secs-per-card } mp/kártya)

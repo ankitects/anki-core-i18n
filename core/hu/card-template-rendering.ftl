@@ -4,8 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = További információ
-card-template-rendering-front-side-problem = Az első sablonnak problémája van:
-card-template-rendering-back-side-problem = A hátsó sablonnak problémája van:
+card-template-rendering-front-side-problem = Az előlapi sablon hibás:
+card-template-rendering-back-side-problem = A hátlapi sablon hibás:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Hiányzik a '{ $missing }' - '{ $tag }'
@@ -14,7 +14,7 @@ card-template-rendering-no-closing-brackets = Hiányzik a '{ $missing }' - '{ $t
 card-template-rendering-conditional-not-closed = Hiányzik a '{ $missing }'
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
-card-template-rendering-wrong-conditional-closed = Talánt '{ $found }', várható '{ $expected }'
+card-template-rendering-wrong-conditional-closed = '{ $expected }' helyett váratlan '{ $found }'.
 # when the user closed a conditional that wasn't open
 # eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
 card-template-rendering-conditional-not-open = Talált '{ $found }', hiányzik '{ $missing1 }' vagy '{ $missing2 }'
@@ -24,4 +24,4 @@ card-template-rendering-no-such-field = Talált '{ $found }', de nincs ilyen '{ 
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = A kártya első része üres.
+card-template-rendering-empty-front = A kártya előlapja üres.
