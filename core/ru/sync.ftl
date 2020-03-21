@@ -11,8 +11,13 @@ sync-media-complete = Синхронизация медиафайлов заве
 sync-media-failed = Синхронизация медиафайлов не удалась.
 sync-media-aborting = Отменяется синхронизация медиафайлов...
 sync-media-aborted = Синхронизация медиафайлов отменена.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
 sync-media-disabled = Синхронизация медиафайлов отключена.
 sync-abort-button = Отменить
+sync-media-log-button = Журнал медиафайлов
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Журнал синхронизации медиафайлов
 
 ## Error messages
 

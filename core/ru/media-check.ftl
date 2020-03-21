@@ -1,5 +1,16 @@
 ## Shown at the top of the media check screen
 
+media-check-window-title = Проверить медиафайлы
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count =
+    Корзина: { $count ->
+        [one] 1 файл, { $megs } МБ
+        [few] { $count } файла, { $megs } МБ
+        [many] { $count } файлов, { $megs } МБ
+       *[other] { $count } файлов, { $megs } МБ
+    }
 media-check-missing-count = Отсутствует файлов: { $count }
 media-check-unused-count = Не используется файлов: { $count }
 media-check-renamed-count = Переименовано файлов: { $count }
@@ -33,13 +44,18 @@ media-check-files-remaining =
     { $count ->
         [one] 1 файл
         [few] { $count } файла
-       *[other] файлов
+        [many] { $count } файлов
+       *[other] { $count } файлов
     } осталось.
 media-check-delete-unused-complete =
     { $count ->
         [one] 1 файл
+        [few] { $count } файла
+        [many] { $count } файлов
        *[other] { $count } файлов
     } удалено
+media-check-trash-emptied = Корзина очищена.
+media-check-trash-restored = Удалённые файлы восстановлены в медиапапку.
 
 ## Rendering LaTeX
 
@@ -49,5 +65,8 @@ media-check-all-latex-rendered = Весь LaTeX отрисован.
 
 media-check-delete-unused = Удалить неиспользуемые
 media-check-render-latex = Отрисовать LaTeX
-media-check-window-title = Проверить медиафайлы
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = Очистить корзину
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = Восстановить удалённые
 media-check-check-media-action = Проверить медиафайлы
