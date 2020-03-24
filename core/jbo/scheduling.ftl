@@ -26,7 +26,7 @@ scheduling-time-span-years = nanca li { $amount }
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    .i do bilga lo ka morji lo pa moi be lo'i karda poi se cilre ku ba lo { $unit ->
+    {"."}i do bilga lo ka morji lo pa moi be lo'i karda poi se cilre ku ba lo { $unit ->
         [seconds] snidu
         [minutes] mentu
        *[hours] cacra

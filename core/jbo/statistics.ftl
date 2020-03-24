@@ -30,7 +30,7 @@ statistics-reviews = { $reviews } nu morji
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    .i tadni { statistics-cards } { $unit ->
+    {"."}i tadni { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
