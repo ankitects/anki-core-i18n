@@ -26,3 +26,4 @@ sync-server-error = AnkiWeb ha encontrado un problema. Por favor, intentalo de n
 sync-client-too-old = Tu versión de Anki es demasiado antigua. Por favor, actualiza a la última versión antes de sincronizar.
 sync-wrong-pass = La ID de AnkiWeb o la contraseña son incorrectas; por favor, inténtalo de nuevo.
 sync-resync-required = Por favor, sincroniza otra vez. Si el error sigue apareciendo, por favor, publica en el sitio de soporte.
+sync-must-wait-for-end = Anki se está sincronizando actualmente. Espere a que se complete la sincronización e intente nuevamente.

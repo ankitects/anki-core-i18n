@@ -1,5 +1,14 @@
 ## Shown at the top of the media check screen
 
+media-check-window-title = Verificar archivos multimedia
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count =
+    Carpeta de papelera: { $count ->
+        [one] 1 archivo, { $megs }MB
+       *[other] { $count } archivos, { $megs }MB
+    }
 media-check-missing-count = Archivos faltantes: { $count }
 media-check-unused-count = Archivos no usados: { $count }
 media-check-renamed-count = Archivos renombrados: { $count }
@@ -39,6 +48,8 @@ media-check-delete-unused-complete =
         [one] 1 archivo
        *[other] { $count } archivos
     } movidos a la papelera de reciclaje.
+media-check-trash-emptied = La carpeta de la papelera ahora está vacía.
+media-check-trash-restored = Restaurado archivos borrados a la carpeta de archivos multimedia.
 
 ## Rendering LaTeX
 
@@ -48,5 +59,8 @@ media-check-all-latex-rendered = Todo LaTeX renderizado.
 
 media-check-delete-unused = Elimina no utilizadas
 media-check-render-latex = Renderizar LaTeX
-media-check-window-title = Verificar archivos multimedia
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = Vacíar Papelera
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = Restaurar Eliminadas
 media-check-check-media-action = Verificar archivos multimedia
