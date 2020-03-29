@@ -26,3 +26,4 @@ sync-server-error = AnkiWeb遇到问题，请稍等几分钟后再试一次。
 sync-client-too-old = 您的Anki版本过低。请更新到最新版本以继续同步。
 sync-wrong-pass = 用户名或密码错误，请重试。
 sync-resync-required = 请重新同步。如果此信息持续出现，请发布支持网站上。
+sync-must-wait-for-end = 当前 Anki 正在同步，请待同步完成后重试。
