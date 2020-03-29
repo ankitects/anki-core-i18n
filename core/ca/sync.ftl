@@ -26,3 +26,4 @@ sync-server-error = AnkiWeb ha trobat un problema. Si us plau, intenta-ho de nou
 sync-client-too-old = La teva versió d'Anki és massa antiga. Si us plau, actualitza a l'última versió abans de sincronitzar.
 sync-wrong-pass = Le contrasigno o ID de AnkiWeb esseva non correcte; per favor prova novemente.
 sync-resync-required = Si us plau, sincronitza una altra vegada. Si l'error continua apareixent, si us plau, publica al lloc de suport.
+sync-must-wait-for-end = Anki s'està sincronitzant actualment. Espereu que es completi la sincronització i intenti novament.
