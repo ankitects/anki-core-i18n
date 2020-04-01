@@ -1,5 +1,6 @@
 ## Shown at the top of the media check screen
 
+media-check-window-title = メディアを確認
 media-check-missing-count = 見つからないファイル数：{ $count }
 media-check-unused-count = 使用されていないファイル数：{ $count }
 media-check-renamed-count = 名前を変更したファイル数：{ $count }
@@ -40,5 +41,6 @@ media-check-all-latex-rendered = すべてのLaTeXをレンダリングしまし
 
 media-check-delete-unused = 使用されていないファイルを削除
 media-check-render-latex = LaTexをレンダリングする
-media-check-window-title = メディアを確認
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = ゴミ箱を空にする
 media-check-check-media-action = メディアを確認
