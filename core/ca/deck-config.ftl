@@ -5,3 +5,4 @@ deck-config-used-by-decks =
         [one] 1 mall
        *[other] { $decks }  malls
     }
+deck-config-default-name = Per defaut

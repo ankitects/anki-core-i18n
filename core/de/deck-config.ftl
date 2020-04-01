@@ -5,3 +5,4 @@ deck-config-used-by-decks =
         [one] 1 Stapel
        *[other] { $decks } Stapeln
     }
+deck-config-default-name = Standard

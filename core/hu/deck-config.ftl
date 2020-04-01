@@ -5,3 +5,4 @@ deck-config-used-by-decks =
         [one] 1 pakliban
        *[other] { $decks } pakliban
     }
+deck-config-default-name = Alapértelmezés

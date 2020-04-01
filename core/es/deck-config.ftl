@@ -5,3 +5,4 @@ deck-config-used-by-decks =
         [one] 1 mazo
        *[other] { $decks } mazos
     }
+deck-config-default-name = Predeterminado

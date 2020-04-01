@@ -6,3 +6,4 @@ deck-config-used-by-decks =
         [few] { $decks } колодами
        *[other] { $decks } колодами
     }
+deck-config-default-name = По умолчанию

@@ -7,3 +7,4 @@ deck-config-used-by-decks =
         [many] używa { $decks } talii
        *[other] używa { $decks } talii
     }
+deck-config-default-name = Domyślna
