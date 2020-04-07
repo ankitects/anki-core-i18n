@@ -15,9 +15,10 @@ statistics-average-answer-time = { $average-seconds } с ({ statistics-cards-per
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] в { $amount } секунду
-        [few] в { $amount } секунд
-       *[other] в { $amount } секунды
+        [one] за { $amount } секунду
+        [few] за { $amount } секунды
+        [many] за { $amount } секунд
+       *[other] за { $amount } секунд
     }
 statistics-in-time-span-minutes =
     { $amount ->
@@ -77,4 +78,4 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }  ({ $secs-per-card }s/карточка)
+    }  ({ $secs-per-card }с/карточка)
