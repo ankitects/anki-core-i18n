@@ -17,7 +17,7 @@ sync-media-disabled = Synchronizacja plików jest wyłączona.
 sync-abort-button = Przerwij
 sync-media-log-button = Rejestr plików
 # Title of the screen that shows syncing progress history
-sync-media-log-title = Rejestr plików synchronizowanych
+sync-media-log-title = Rejestr synchronizowanych plików
 
 ## Error messages
 

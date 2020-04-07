@@ -60,6 +60,28 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    Następna karta będzie dostępna za { $unit ->
+        [seconds]
+            { $amount ->
+                [one] { $amount } sekundę
+                [few] { $amount } sekundy
+               *[other] { $amount } sekund
+            }
+        [minutes]
+            { $amount ->
+                [one] { $amount } minutę
+                [few] { $amount } minuty
+               *[other] { $amount } minut
+            }
+       *[hours]
+            { $amount ->
+                [one] { $amount } godzinę
+                [few] { $amount } godziny
+               *[other] { $amount } godzin
+            }
+    }
 scheduling-learn-remaining =
     { $remaining ->
         [one] { $remaining } karta czeka na przejrzenie dziś w późniejszym czasie.
