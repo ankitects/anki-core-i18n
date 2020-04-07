@@ -43,4 +43,6 @@ media-check-delete-unused = 使用されていないファイルを削除
 media-check-render-latex = LaTexをレンダリングする
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = ゴミ箱を空にする
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = 削除ファイルを復元する
 media-check-check-media-action = メディアを確認

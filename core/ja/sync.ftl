@@ -21,5 +21,7 @@ sync-media-log-title = メディア同期ログ
 
 ## Error messages
 
+sync-conflict = Ankiのアカウントへの同期を異なる端末から同時に行うことはできません。しばらく時間をおいて再度お試しください。
+sync-server-error = AnkiWebに問題が発生しました。しばらくしてからもう一度お試しください。
 sync-client-too-old = ご使用のAnkiのバージョンが古いため同期できません。同期するには最新版へのアップデートが必要です。
 sync-wrong-pass = AnkiWeb の ID 又は パスワード が間違っています。もう一度入力してください。
