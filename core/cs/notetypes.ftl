@@ -1,0 +1,10 @@
+notetypes-front-field = Líc
+notetypes-back-field = Rub
+notetypes-add-reverse-field = Přidat rub karty
+notetypes-basic-name = Základní
+notetypes-basic-reversed-name = Základní (plus obrácená karta)
+notetypes-basic-optional-reversed-name = Základní (plus volitelná obrácená karta)
+notetypes-cloze-name = Doplňovačka
+notetypes-basic-type-answer-name = Základní (napsat odpověď)
+notetypes-card-2-name = Karta 2
+notetypes-card-1-name = Karta 1

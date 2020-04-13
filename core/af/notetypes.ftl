@@ -1,0 +1,9 @@
+notetypes-front-field = Voorkant
+notetypes-back-field = Terug
+notetypes-add-reverse-field = Voeg Keersy By
+notetypes-text-field = Teks
+notetypes-basic-name = Basies
+notetypes-basic-reversed-name = Basiese (en omgekeerde kaart)
+notetypes-basic-optional-reversed-name = Basiese (opsioneel omgekeerde kaart)
+notetypes-card-2-name = Kaart 2
+notetypes-card-1-name = Kaart 1

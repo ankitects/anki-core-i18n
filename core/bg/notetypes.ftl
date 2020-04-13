@@ -1,0 +1,9 @@
+notetypes-front-field = Лицева част
+notetypes-back-field = Гръб
+notetypes-add-reverse-field = Добавяне на обратната карта
+notetypes-text-field = Текст
+notetypes-basic-name = Основен
+notetypes-basic-reversed-name = Основна (и обърната карта)
+notetypes-basic-optional-reversed-name = Основна (+ обърната карта по избор)
+notetypes-card-2-name = Карта 1
+notetypes-card-1-name = Карта 1

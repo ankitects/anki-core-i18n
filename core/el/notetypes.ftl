@@ -1,0 +1,10 @@
+notetypes-front-field = Μπροστά
+notetypes-back-field = Πίσω
+notetypes-add-reverse-field = Προσθήκη αναστροφής
+notetypes-text-field = Κείμενο
+notetypes-basic-name = Βασικό
+notetypes-basic-reversed-name = Βασική (και αντεστραμμένη κάρτα)
+notetypes-basic-optional-reversed-name = Βασική (κατ'επιλογή αντεστραμμένη κάρτα)
+notetypes-cloze-name = Κλείσιμο
+notetypes-card-2-name = Κάρτα 2
+notetypes-card-1-name = Κάρτα 1

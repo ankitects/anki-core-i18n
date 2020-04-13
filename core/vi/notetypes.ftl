@@ -1,0 +1,10 @@
+notetypes-front-field = Mặt trước
+notetypes-back-field = Mặt sau
+notetypes-add-reverse-field = Thêm Thẻ ngược
+notetypes-text-field = Văn bản
+notetypes-basic-name = Cơ bản
+notetypes-basic-reversed-name = Cơ bản (với thẻ ngược)
+notetypes-basic-optional-reversed-name = Cơ bản (thẻ ngược tùy chọn)
+notetypes-cloze-name = Điền chỗ trống
+notetypes-card-2-name = Thẻ 2
+notetypes-card-1-name = Thẻ 1

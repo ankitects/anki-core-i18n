@@ -1,0 +1,11 @@
+notetypes-front-field = 表面
+notetypes-back-field = 裏面
+notetypes-add-reverse-field = 裏面カードを追加
+notetypes-text-field = テキスト
+notetypes-basic-name = 基本
+notetypes-basic-reversed-name = Basic (裏表反転カード付き)
+notetypes-basic-optional-reversed-name = Basic (裏表反転カード追加可能)
+notetypes-cloze-name = 穴埋め
+notetypes-basic-type-answer-name = Basic (解答タイピング入力)
+notetypes-card-2-name = カード 2
+notetypes-card-1-name = カード 1

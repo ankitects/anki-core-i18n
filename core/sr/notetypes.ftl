@@ -1,0 +1,10 @@
+notetypes-front-field = Лице
+notetypes-back-field = Наличје
+notetypes-add-reverse-field = Додај повратак
+notetypes-text-field = Текст
+notetypes-basic-name = Основно
+notetypes-basic-reversed-name = Основна (и обратне карте)
+notetypes-basic-optional-reversed-name = Основна (обратне по избору)
+notetypes-cloze-name = Пропусти
+notetypes-card-2-name = Карта 2
+notetypes-card-1-name = Карта 1

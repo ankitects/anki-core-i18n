@@ -1,0 +1,11 @@
+notetypes-front-field = Etupuoli
+notetypes-back-field = Kääntöpuoli
+notetypes-add-reverse-field = Lisää kääntöpuoli
+notetypes-text-field = Teksti
+notetypes-basic-name = Perusasetukset
+notetypes-basic-reversed-name = Perusmalli (ja käännetty kortti)
+notetypes-basic-optional-reversed-name = Perusmalli (valinnainen käännetty kortti)
+notetypes-cloze-name = Aukkotehtävä
+notetypes-basic-type-answer-name = Perus (kirjoita vastaus)
+notetypes-card-2-name = Kortti 2
+notetypes-card-1-name = Kortti 1

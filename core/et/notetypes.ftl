@@ -1,0 +1,1 @@
+notetypes-basic-name = Põhimudel

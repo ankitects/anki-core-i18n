@@ -1,0 +1,11 @@
+notetypes-front-field = Előlap
+notetypes-back-field = Hátlap
+notetypes-add-reverse-field = Ellenkező irány hozzáadása
+notetypes-text-field = Szöveg
+notetypes-basic-name = Alap
+notetypes-basic-reversed-name = Alap (mindkét irányban)
+notetypes-basic-optional-reversed-name = Alap (egyik vagy mindkét irányban)
+notetypes-cloze-name = Lyukas szöveg
+notetypes-basic-type-answer-name = Alap (írja be a választ)
+notetypes-card-2-name = 2. kártya
+notetypes-card-1-name = 1. kártya

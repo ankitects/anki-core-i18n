@@ -1,0 +1,10 @@
+notetypes-front-field = Anverso
+notetypes-back-field = Reverso
+notetypes-add-reverse-field = Engadir reverso
+notetypes-text-field = Texto
+notetypes-basic-name = Básica
+notetypes-basic-reversed-name = Básica (e tarxeta invertida)
+notetypes-basic-optional-reversed-name = Básica (tarxeta invertida opcional)
+notetypes-cloze-name = Oco
+notetypes-card-2-name = Tarxeta 2
+notetypes-card-1-name = Tarxeta 1

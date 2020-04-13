@@ -1,0 +1,10 @@
+notetypes-front-field = Лицьова сторона
+notetypes-back-field = Назад
+notetypes-add-reverse-field = Додати зворотню сторону
+notetypes-text-field = Текст
+notetypes-basic-name = Базова
+notetypes-basic-reversed-name = Базова (із зворотньою карткою)
+notetypes-basic-optional-reversed-name = Базова (із необов'язковою зворотньою карткою )
+notetypes-cloze-name = Картка з пробілами
+notetypes-card-2-name = Картка 2
+notetypes-card-1-name = Картка 1

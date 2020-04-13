@@ -1,0 +1,9 @@
+notetypes-front-field = Predná strana
+notetypes-back-field = Späť
+notetypes-add-reverse-field = Pridať zadnú stranu karty
+notetypes-basic-name = Základný
+notetypes-basic-reversed-name = Základný (plus obrátená karta)
+notetypes-basic-optional-reversed-name = Základný (plus voliteľná obrátená karta)
+notetypes-cloze-name = Doplňovačka
+notetypes-card-2-name = Karta 2
+notetypes-card-1-name = Karta 1

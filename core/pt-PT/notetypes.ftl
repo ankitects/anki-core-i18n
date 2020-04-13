@@ -1,0 +1,11 @@
+notetypes-front-field = Frente
+notetypes-back-field = Verso
+notetypes-add-reverse-field = Adicionar invertido
+notetypes-text-field = Texto
+notetypes-basic-name = Básico
+notetypes-basic-reversed-name = Básico (e ficha invertida)
+notetypes-basic-optional-reversed-name = Básico (ficha invertida opcional)
+notetypes-cloze-name = Omissão de Palavras
+notetypes-basic-type-answer-name = Básico (digite a resposta)
+notetypes-card-2-name = Ficha 2
+notetypes-card-1-name = Ficha 1

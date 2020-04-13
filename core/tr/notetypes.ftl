@@ -1,0 +1,10 @@
+notetypes-front-field = Ön
+notetypes-back-field = Geri
+notetypes-add-reverse-field = Tersini Ekle
+notetypes-text-field = Metin
+notetypes-basic-name = Temel
+notetypes-basic-reversed-name = Temel (ve ters kart)
+notetypes-basic-optional-reversed-name = Temel (seçimli ters kart)
+notetypes-cloze-name = Kapat
+notetypes-card-2-name = Kart 2
+notetypes-card-1-name = Kart 1

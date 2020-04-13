@@ -1,0 +1,10 @@
+notetypes-front-field = Aurrea
+notetypes-back-field = Atzera
+notetypes-add-reverse-field = Erantsi alderantzizkoa
+notetypes-text-field = Testua
+notetypes-basic-name = Oinarrizkoa
+notetypes-basic-reversed-name = Oinarrizko (eta alderantzizko karta)
+notetypes-basic-optional-reversed-name = Oinarrizko( aukerako alderantzizko karta)
+notetypes-cloze-name = hutsuneak betetzea
+notetypes-card-2-name = bigarren karta
+notetypes-card-1-name = 1 karta

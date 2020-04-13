@@ -1,0 +1,11 @@
+notetypes-front-field = Recto
+notetypes-back-field = Verso
+notetypes-add-reverse-field = Ajouter le verso
+notetypes-text-field = Texte
+notetypes-basic-name = Basique
+notetypes-basic-reversed-name = Généralités (deux sens)
+notetypes-basic-optional-reversed-name = Basique (carte inversée optionnelle)
+notetypes-cloze-name = Texte à trous
+notetypes-basic-type-answer-name = Basique (saisissez la réponse)
+notetypes-card-2-name = Carte 2
+notetypes-card-1-name = Carte 1

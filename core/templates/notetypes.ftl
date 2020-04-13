@@ -1,0 +1,11 @@
+notetypes-front-field = Front
+notetypes-back-field = Back
+notetypes-add-reverse-field = Add Reverse
+notetypes-text-field = Text
+notetypes-basic-name = Basic
+notetypes-basic-reversed-name = Basic (and reversed card)
+notetypes-basic-optional-reversed-name = Basic (optional reversed card)
+notetypes-cloze-name = Cloze
+notetypes-basic-type-answer-name = Basic (type in the answer)
+notetypes-card-2-name = Card 2
+notetypes-card-1-name = Card 1

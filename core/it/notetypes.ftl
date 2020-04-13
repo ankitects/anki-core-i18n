@@ -1,0 +1,11 @@
+notetypes-front-field = Fronte
+notetypes-back-field = Retro
+notetypes-add-reverse-field = Aggiungi inversa
+notetypes-text-field = Testo
+notetypes-basic-name = Basilare
+notetypes-basic-reversed-name = Basilare (e carta inversa)
+notetypes-basic-optional-reversed-name = Basilare (carta inversa opzionale)
+notetypes-cloze-name = Testo da completare
+notetypes-basic-type-answer-name = Basilare (digita la risposta)
+notetypes-card-2-name = Carta 2
+notetypes-card-1-name = Carta 1
