@@ -5,7 +5,7 @@
 
 scheduling-answer-button-time-seconds = { $amount }s
 scheduling-answer-button-time-minutes = { $amount }min
-scheduling-answer-button-time-hours = { $amount }s
+scheduling-answer-button-time-hours = { $amount }h
 scheduling-answer-button-time-days = { $amount }t
 scheduling-answer-button-time-months = { $amount } Mo.
 scheduling-answer-button-time-years = { $amount } J.
