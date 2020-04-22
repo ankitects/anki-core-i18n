@@ -28,7 +28,7 @@ statistics-in-time-span-years = { $amount ->
     [one] en {$amount} année
    *[other] en {$amount} années
   }
-statistics-studied-today = Étudié(s) { statistics-cards } { $unit ->
+statistics-studied-today = { statistics-cards } étudiée(s) { $unit ->
      [seconds] { statistics-in-time-span-seconds }
      [minutes] { statistics-in-time-span-minutes }
      [hours]   { statistics-in-time-span-hours }
