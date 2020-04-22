@@ -24,30 +24,35 @@ statistics-in-time-span-minutes =
     { $amount ->
         [one] за { $amount } минуту
         [few] за { $amount } минуты
+        [many] за { $amount } минут
        *[other] за { $amount } минут
     }
 statistics-in-time-span-hours =
     { $amount ->
         [one] за { $amount } час
         [few] за { $amount } часа
+        [many] за { $amount } часов
        *[other] за { $amount } часов
     }
 statistics-in-time-span-days =
     { $amount ->
         [one] за { $amount } день
         [few] за { $amount } дня
+        [many] за { $amount } дней
        *[other] за { $amount } дней
     }
 statistics-in-time-span-months =
     { $amount ->
         [one] за { $amount } месяц
         [few] за { $amount } месяца
+        [many] за { $amount } месяцев
        *[other] за { $amount } месяцев
     }
 statistics-in-time-span-years =
     { $amount ->
         [one] за { $amount } год
         [few] за { $amount } года
+        [many] за { $amount } лет
        *[other] за { $amount } лет
     }
 
@@ -57,6 +62,7 @@ statistics-cards =
     { $cards ->
         [one] { $cards } карточка
         [few] { $cards } карточки
+        [many] { $cards } карточек
        *[other] { $cards } карточек
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
@@ -64,6 +70,7 @@ statistics-reviews =
     { $reviews ->
         [one] { $reviews } повторение
         [few] { $reviews } повторения
+        [many] { $reviews } повторений
        *[other] { $reviews } повторений
     }
 # Shown at the bottom of the deck list, and in the statistics screen.

@@ -17,47 +17,78 @@ scheduling-answer-button-time-years = { $amount } г.
 
 scheduling-time-span-seconds =
     { $amount ->
-        [one] { $amount } секунду
+        [one] { $amount } секунда
         [few] { $amount } секунды
+        [many] { $amount } секунд
        *[other] { $amount } секунд
     }
 scheduling-time-span-minutes =
     { $amount ->
-        [one] { $amount } минуту
+        [one] { $amount } минута
         [few] { $amount } минуты
+        [many] { $amount } минут
        *[other] { $amount } минут
     }
 scheduling-time-span-hours =
     { $amount ->
         [one] { $amount } час
         [few] { $amount } часа
+        [many] { $amount } часов
        *[other] { $amount } часов
     }
 scheduling-time-span-days =
     { $amount ->
         [one] { $amount } день
         [few] { $amount } дня
+        [many] { $amount } дней
        *[other] { $amount } дней
     }
 scheduling-time-span-months =
     { $amount ->
         [one] { $amount } месяц
         [few] { $amount } месяца
+        [many] { $amount } месяцев
        *[other] { $amount } месяцев
     }
 scheduling-time-span-years =
     { $amount ->
         [one] { $amount } год
         [few] { $amount } года
+        [many] { $amount } лет
        *[other] { $amount } лет
     }
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    Следующаяя карточка будет доступна через { $unit ->
+        [seconds]
+            { $amount ->
+                [one] { $amount } секунду
+                [few] { $amount } секунды
+                [many] { $amount } секунд
+               *[other] { $amount } секунд
+            }
+        [minutes]
+            { $amount ->
+                [one] { $amount } минуту
+                [few] { $amount } минуты
+                [many] { $amount } минут
+               *[other] { $amount } минут
+            }
+       *[hours]
+            { $amount ->
+                [one] { $amount } час
+                [few] { $amount } часа
+                [many] { $amount } часов
+               *[other] { $amount } часов
+            }
+    }
 scheduling-learn-remaining =
     { $remaining ->
         [one] На сегодня осталась одна карточка.
-        [few] На сегодня остались { $remaining } карточка.
+        [few] На сегодня остались { $remaining } карточки.
         [many] На сегодня остались { $remaining } карточек.
        *[other] На сегодня осталось { $remaining } карточек.
     }
