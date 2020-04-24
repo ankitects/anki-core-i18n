@@ -53,8 +53,8 @@ statistics-in-time-span-years =
 
 statistics-cards =
     { $cards ->
-        [one] { $cards } carte
-       *[other] { $cards } cartes
+        [one] { $cards } carte étudiée
+       *[other] { $cards } cartes étudiées
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -62,3 +62,20 @@ statistics-reviews =
         [one] { $reviews } révision
        *[other] { $reviews } révisions
     }
+
+
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+  { statistics-cards }
+  { $unit ->
+     [seconds] { statistics-in-time-span-seconds }
+     [minutes] { statistics-in-time-span-minutes }
+     [hours]   { statistics-in-time-span-hours }
+     [days]    { statistics-in-time-span-days }
+     [months]  { statistics-in-time-span-months }
+    *[years]   { statistics-in-time-span-years }
+  } aujourd'hui
+  ({$secs-per-card}s/carte)
