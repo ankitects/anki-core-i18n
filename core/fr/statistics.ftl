@@ -8,8 +8,7 @@ statistics-due-for-new-card = Nouvelle n°{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min =
-    statistics-cards-per-min =
-      { $cards-per-minute ->
+    { $cards-per-minute ->
         [one] { $cards-per-minute } carte/minute
        *[other] { $cards-per-minute } cartes/minute
     }
