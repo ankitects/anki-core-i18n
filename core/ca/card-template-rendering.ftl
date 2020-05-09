@@ -24,4 +24,4 @@ card-template-rendering-no-such-field = Trobat '{ $found }', peró no hi ha cap 
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = La parte frontal d'aquestaa tarjeta està en blanc.
+card-template-rendering-empty-front = La partefrontal d'aquestaa tarjeta està en blanc.

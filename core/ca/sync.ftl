@@ -23,7 +23,7 @@ sync-media-log-title = Registre de sincronització d'arxius Multimèdia
 
 sync-conflict = Només una instància d'Anki pot sincronitzar-se a la teva compte alhora. Si us plau, espera uns minuts i torna-ho a intentar.
 sync-server-error = AnkiWeb ha trobat un problema. Si us plau, intenta-ho de nou en uns minuts.
-sync-client-too-old = La teva versió d'Anki és massa antiga. Si us plau, actualitza a l'última versió abans de sincronitzar.
-sync-wrong-pass = Le contrasigno o ID de AnkiWeb esseva non correcte; per favor prova novemente.
-sync-resync-required = Si us plau, sincronitza una altra vegada. Si l'error continua apareixent, si us plau, publica al lloc de suport.
-sync-must-wait-for-end = Anki s'està sincronitzant actualment. Espereu que es completi la sincronització i intenti novament.
+sync-client-too-old = La seva versió d'Anki és massa antiga. Si us plau, actualitzi a l'última versió abans de sincronitzar.
+sync-wrong-pass = La ID o la contresenya de AnkiWebson incorrectes; torni-ho a intentar.
+sync-resync-required = Si us plau, sincronitzi una altra vegada. Si l'error continua apareixent, si us plau, publiqui al lloc de suport.
+sync-must-wait-for-end = Anki s'està sincronitzant actualment. Esperi que es completi la sincronització i intenti novament.

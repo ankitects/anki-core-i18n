@@ -1,2 +1,1 @@
-importing-failed = Importation fallite.
-importing-failed-debug-info = Importation fallite. Info pro le correction:
+importing-failed-debug-info = La importació ha fallat. Informació de depuració:
