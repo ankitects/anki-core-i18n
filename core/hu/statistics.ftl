@@ -62,7 +62,7 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    { statistics-cards } tanultál
+    { statistics-cards } kártyát tanult
     { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
@@ -70,5 +70,5 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }a mai napon
+    }alatt a mai napon
     ({ $secs-per-card } mp/kártya)

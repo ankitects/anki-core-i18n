@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Escasença
+statistics-due-date = Planificada
 # The count of cards waiting to be reviewed
-statistics-due-count = Escasença
+statistics-due-count = Vençuts
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card =
     { $number ->
@@ -11,7 +11,7 @@ statistics-due-for-new-card =
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } cartas/minuta
+statistics-cards-per-min = { $cards-per-minute } cartes/minut
 statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example

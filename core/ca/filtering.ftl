@@ -1,2 +1,2 @@
-
-filtering-is-due = Escasença
+# True if a card is due/ready for review
+filtering-is-due = Venciment

@@ -4,8 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = További információ
-card-template-rendering-front-side-problem = Az előlapi sablon hibás:
-card-template-rendering-back-side-problem = A hátlapi sablon hibás:
+card-template-rendering-front-side-problem = Az előlapsablon hibás:
+card-template-rendering-back-side-problem = A hátlapsablon hibás:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Hiányzik a '{ $missing }' - '{ $tag }'

@@ -1,3 +1,3 @@
 empty-cards-card-line =
-    Vacuar le numeros del carta: {$card-numbers}
-    Campos: {$fields}
+    Números de la targueta buits: { $card-numbers }
+    Camps: { $fields }

@@ -14,3 +14,8 @@ database-check-card-missing-note = { $count ->
     [one] Eliminato {$count} carta con nota mancante.
    *[other] Eliminato {$count} carte con nota mancante.
   }
+database-check-fixed-non-normalized-tags =
+    { $count ->
+        [one] Etichette corrette per una nota
+       *[other] Etichette corrette per { $count } note.
+    }

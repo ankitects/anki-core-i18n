@@ -17,33 +17,33 @@ scheduling-answer-button-time-years = { $amount }a
 
 scheduling-time-span-seconds =
     { $amount ->
-        [one] { $amount } segonda
-       *[other] { $amount } segondas
+        [one] { $amount } segon
+       *[other] { $amount } segons
     }
 scheduling-time-span-minutes =
     { $amount ->
-        [one] { $amount } minuta
-       *[other] { $amount } minutas
+        [one] { $amount } minut
+       *[other] { $amount } minuts
     }
 scheduling-time-span-hours =
     { $amount ->
-        [one] { $amount } ora
-       *[other] { $amount } oras
+        [one] { $amount } hora
+       *[other] { $amount } hores
     }
 scheduling-time-span-days =
     { $amount ->
-        [one] { $amount } jorn
-       *[other] { $amount } jorns
+        [one] { $amount } dia
+       *[other] { $amount } dies
     }
 scheduling-time-span-months =
     { $amount ->
-        [one] { $amount } mense
-       *[other] { $amount } meses
+        [one] { $amount } mes
+       *[other] { $amount } mesos
     }
 scheduling-time-span-years =
     { $amount ->
-        [one] { $amount } an
-       *[other] { $amount } ans
+        [one] { $amount } any
+       *[other] { $amount } anys
     }
 
 ## Shown in the "Congratulations!" message after study finishes.

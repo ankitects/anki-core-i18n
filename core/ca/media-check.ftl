@@ -1,6 +1,6 @@
 ## Shown at the top of the media check screen
 
-media-check-window-title = Verificacion dels mèdias
+media-check-window-title = Comprovar multimèdia
 # the number of files, and the total space used by files
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
