@@ -6,3 +6,4 @@ card-templates-template-styling = 样式
 card-templates-front-preview = 正面预览
 card-templates-back-preview = 背面预览
 card-templates-preview-box = 预览
+card-templates-sample-cloze = 这是一个 {"{{c1::"}示例{"}}"} 的完形填空。

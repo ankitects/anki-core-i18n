@@ -11,3 +11,4 @@ card-templates-template-styling = Таблица стилей
 card-templates-front-preview = Предпросмотр лицевой стороны
 card-templates-back-preview = Предпросмотр оборотной стороны
 card-templates-preview-box = Предпросмотр
+card-templates-sample-cloze = Вот {"{{c1::"}пример{"}}"} заполнения пропуска.

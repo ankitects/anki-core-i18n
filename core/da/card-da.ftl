@@ -4,3 +4,4 @@ card-templates-template-styling = Stil
 card-templates-front-preview = Forhåndsvisning af forside
 card-templates-back-preview = Forhåndsvisning af bagside
 card-templates-preview-box = Forhåndsvisning
+card-templates-sample-cloze = Dette er en {"{{c1::"}sample{"}}"} cloze-sletning.

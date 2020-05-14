@@ -10,3 +10,4 @@ card-templates-template-styling = Stil
 card-templates-front-preview = Förhandsvisning av framsida
 card-templates-back-preview = Förhandsvisning av baksida
 card-templates-preview-box = Förhandsvisa
+card-templates-sample-cloze = Det här är ett {"{{c1::"}exempel{"}}"} på en lucktext.

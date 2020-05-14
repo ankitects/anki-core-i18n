@@ -10,3 +10,4 @@ card-templates-template-styling = Stílus
 card-templates-front-preview = Előlapkép
 card-templates-back-preview = Hátlapkép
 card-templates-preview-box = Előnézet
+card-templates-sample-cloze = Ez egy {"{{c1::"}minta{"}}"} lyukas szöveg.

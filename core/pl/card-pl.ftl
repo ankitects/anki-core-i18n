@@ -11,3 +11,4 @@ card-templates-template-styling = Styl
 card-templates-front-preview = Podgląd przodu
 card-templates-back-preview = Podgląd tyłu
 card-templates-preview-box = Podgląd
+card-templates-sample-cloze = To {"{{c1::"}przykładowa{"}}"} luka do wypełnienia.

@@ -10,3 +10,4 @@ card-templates-template-styling = Stil
 card-templates-front-preview = Vorschau für Vorderseite
 card-templates-back-preview = Vorschau für Rückseite
 card-templates-preview-box = Vorschau
+card-templates-sample-cloze = Ein {"{{c1::"}Beispiel{"}}"} für einen Lückentext.

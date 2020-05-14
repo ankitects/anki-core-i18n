@@ -12,3 +12,4 @@ card-templates-template-styling = Styl
 card-templates-front-preview = Náhled líce
 card-templates-back-preview = Náhled rubu
 card-templates-preview-box = Náhled
+card-templates-sample-cloze = Toto je {"{{c1::"}sample{"}}"} doplňovačka.

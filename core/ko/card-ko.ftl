@@ -6,3 +6,4 @@ card-templates-template-styling = 스타일
 card-templates-front-preview = 앞면 미리보기
 card-templates-back-preview = 뒷면 미리보기
 card-templates-preview-box = 미리 보기
+card-templates-sample-cloze = 이것은 빈칸 뚫기 {"{{c1::"}예시{"}}"}입니다.

@@ -10,3 +10,4 @@ card-templates-template-styling = Stijl
 card-templates-front-preview = Voorvertoning voorkant
 card-templates-back-preview = Voorvertoning achterkant
 card-templates-preview-box = Voorvertoning
+card-templates-sample-cloze = Dit is een {"{{c1::"}sample{"}}"} cloze.

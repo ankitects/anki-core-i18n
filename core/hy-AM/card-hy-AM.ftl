@@ -10,3 +10,4 @@ card-templates-template-styling = Ոճավորում
 card-templates-front-preview = Հարցի նախատեսք
 card-templates-back-preview = Պատասխանի նախատեսք
 card-templates-preview-box = Նախատեսք
+card-templates-sample-cloze = Սա {"{{c1::"}օրինակ{"}}"} բացթողումը լրացնելու օրինակ է:

@@ -4,3 +4,4 @@ card-templates-template-styling = Định kiểu
 card-templates-front-preview = Xem trước Mặt trước
 card-templates-back-preview = Xem trước Mặt sau
 card-templates-preview-box = Xem trước
+card-templates-sample-cloze = Đây là  phần điền vào chỗ trống {"{{c1::"}sample{"}}"}.

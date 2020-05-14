@@ -4,3 +4,4 @@ card-templates-template-styling = Estilo
 card-templates-front-preview = Vista previa do anverso
 card-templates-back-preview = Vista previa do reverso
 card-templates-preview-box = Vista previa
+card-templates-sample-cloze = Isto é unha eliminación de oco {"{{c1::"}sample{"}}"}.

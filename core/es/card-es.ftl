@@ -10,3 +10,4 @@ card-templates-template-styling = Estilo
 card-templates-front-preview = Previsualización del anverso
 card-templates-back-preview = Previsualización del reverso
 card-templates-preview-box = Previsualizar
+card-templates-sample-cloze = Este es un {"{{c1::"}ejemplo{"}}"} de hueco.

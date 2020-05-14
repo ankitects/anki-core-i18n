@@ -10,3 +10,4 @@ card-templates-template-styling = Stilo
 card-templates-front-preview = Vista preliminar del fronte
 card-templates-back-preview = Apercebut del verso
 card-templates-preview-box = Pre-visualisation
+card-templates-sample-cloze = Ce es un {"{{c1::"}sample{"}}"} cloze deletion.

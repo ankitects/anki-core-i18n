@@ -5,3 +5,4 @@ card-templates-template-styling = Стил
 card-templates-front-preview = Пример лица
 card-templates-back-preview = Преглед наличја
 card-templates-preview-box = Преглед
+card-templates-sample-cloze = Ево га {"{{c1::"}пример{"}}"} попуњавања пропуштеног.

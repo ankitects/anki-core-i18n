@@ -10,3 +10,4 @@ card-templates-template-styling = Stilo
 card-templates-front-preview = Fronto-antaŭmontro
 card-templates-back-preview = Dorso-antaŭmontro
 card-templates-preview-box = Antaŭmontro
+card-templates-sample-cloze = Tiu estas {"{{c1::"}ekzempla{"}}"} truteksta malpleno.
