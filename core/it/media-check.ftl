@@ -53,10 +53,12 @@ media-check-trash-restored = Ripristina i file eliminati nella cartella dei medi
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = Tutto LaTeX renderizzato.
 
 ## Buttons
 
 media-check-delete-unused = Elimina file inutilizzati
+media-check-render-latex = Renderizza LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = Svuota cestino
 # button to move deleted files from the trash back into the media folder
