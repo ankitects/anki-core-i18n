@@ -1,11 +1,36 @@
-database-check-corrupt = مجموعه خراب است. لطفاً راهنما را ببینید.
+database-check-corrupt = مجموعه خراب است. لطفاً مجموعه را از یک فایل پشتیبان خودکار بازیابی کنید.
+database-check-rebuilt = پایگاه داده بازسازی و بهینه‌سازی شد.
+database-check-card-properties =
+    { $count ->
+       *[other] تعداد { $count } مشخصات کارت خراب تعمیر شد.
+    }
 database-check-missing-templates =
     { $count ->
-        [one] حذف شد { $count } کارتهایی با قالبهای مفقود.
-       *[other] حذف شد { $count } کارتهایی با قالبهای مفقود.
+        [one] تعداد { $count } کارت فاقد قالب حذف شد.
+       *[other] تعداد { $count } کارت فاقد قالب حذف شد.
     }
-database-check-rebuilt = پایگاه داده بازسازی و بهینه‌سازی شد.
-database-check-card-missing-note = { $count ->
-    [one] حذف شد{$count} کارتهایی با یادداشت های مفقود.
-   *[other] حذف شد{$count} کارتهایی با یادداشت های مفقود.
-  }
+database-check-field-count =
+    { $count ->
+       *[other] تعداد { $count } یادداشت با تعداد فیلد اشتباه حذف شد.
+    }
+database-check-new-card-high-due =
+    { $count ->
+       *[other] تعداد { $count } با سرامد بیشتر از 1,000,000 یافت شد - لطفاً موقعیت کارت‌ها در در جستجو تغییر دهید.
+    }
+database-check-card-missing-note =
+    { $count ->
+        [one] تعداد { $count } کارت فاقد یادداشت حذف شد.
+       *[other] تعداد { $count } کارت فاقد یادداشت حذف شد.
+    }
+database-check-duplicate-card-ords =
+    { $count ->
+       *[other] تعداد { $count } کارت دارای قالب تکراری حذف شد.
+    }
+database-check-missing-decks =
+    { $count ->
+       *[other] تعداد { $count } دستۀ مفقود تعمیر شد.
+    }
+database-check-revlog-properties =
+    { $count ->
+       *[other] تعداد { $count } ورودی مرور دارای مشخصات اشتباه تعمیر شد.
+    }

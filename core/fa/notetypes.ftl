@@ -1,10 +1,20 @@
-notetypes-front-field = رو
-notetypes-back-field = عقب
-notetypes-add-reverse-field = وارونه اضافه کردن
+## Default field names in newly created note types
+
+notetypes-front-field = جلو
+notetypes-back-field = پشت
+notetypes-add-reverse-field = اضافه کردن معکوس
 notetypes-text-field = متن
+notetypes-back-extra-field = اضافی پشت
+
+## Default note type names
+
 notetypes-basic-name = پایه
 notetypes-basic-reversed-name = پایه (و کارت وارونه)
 notetypes-basic-optional-reversed-name = پایه (کارت انتخابی وارونه)
+notetypes-basic-type-answer-name = پایه (تاپ کردن پاسخ)
 notetypes-cloze-name = جاخالی
-notetypes-card-2-name = کارت 2
+
+## Default card template names
+
 notetypes-card-1-name = کارت 1
+notetypes-card-2-name = کارت 2
