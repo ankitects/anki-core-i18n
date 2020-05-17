@@ -4,14 +4,14 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Maggiori informazioni
-card-template-rendering-front-side-problem = Il modello della parte frontale ha un problema:
+card-template-rendering-front-side-problem = Il modello fronte ha un problema:
 card-template-rendering-back-side-problem = Il modello della parte posteriore ha un problema:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Manca '{ $missing }' in '{ $tag }'
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
-card-template-rendering-conditional-not-closed = Mancante '{ $missing }'
+card-template-rendering-conditional-not-closed = Manca '{ $missing }'
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
 card-template-rendering-wrong-conditional-closed = Trovato '{ $found }', però era previsto '{ $expected }'
@@ -24,4 +24,4 @@ card-template-rendering-no-such-field = Trovato '{ $found }', ma non c'è un cam
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = La parte frontale di questa carta è vuota.
+card-template-rendering-empty-front = Il fronte di questa carta è vuoto.

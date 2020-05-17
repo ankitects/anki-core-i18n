@@ -25,10 +25,10 @@ media-check-unused-header = I seguenti file sono stati trovati nella cartella de
 
 ## Shown once for each file
 
-media-check-renamed-file = Rinomina: { $old } -> { $new }
+media-check-renamed-file = Rinominati: { $old } -> { $new }
 media-check-oversize-file = Più di 100MB: { $filename }
 media-check-subfolder-file = Cartella: { $filename }
-media-check-missing-file = Mancante: { $filename }
+media-check-missing-file = Manca: { $filename }
 media-check-unused-file = Inutilizzato: { $filename }
 
 ## Progress
