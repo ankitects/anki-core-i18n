@@ -1,4 +1,4 @@
-database-check-corrupt = Die Sammlung ist beschädigt. Bitte das Benutzerhandbuch konsultieren.
+database-check-corrupt = Die Sammlung ist beschädigt. Bitte führen Sie eine Wiederherstellung aus einer Sicherungskopie durch.
 database-check-rebuilt = Datenbank neu generiert und optimiert.
 database-check-card-properties =
     { $count ->
