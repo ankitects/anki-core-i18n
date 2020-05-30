@@ -27,3 +27,24 @@ sync-client-too-old = La seva versió d'Anki és massa antiga. Si us plau, actua
 sync-wrong-pass = La ID o la contresenya de AnkiWebson incorrectes; torni-ho a intentar.
 sync-resync-required = Si us plau, sincronitzi una altra vegada. Si l'error continua apareixent, si us plau, publiqui al lloc de suport.
 sync-must-wait-for-end = Anki s'està sincronitzant actualment. Esperi que es completi la sincronització i intenti novament.
+sync-confirm-empty-download = La colecció local no conté cap tarjeta. Desitgues descarregar-ne des de AnkiWeb?
+sync-conflict-explanation =
+    Tu fasces ci e sur AnkiWeb differe in un tal modo que illos non pote ser integrate insimul, assi il necesse supplantar le fasces sur un latere con le fasces ex le altere.
+    
+    Si tu elige discargar, Anki discargara le collection ex AnkiWeb, e qualcunque modificationes tu ha facite sur tu computer desde le ultime synchronisation essera perdite.
+    
+    Si tu elige cargar, Anki cargara tu collection a AnkiWeb, e qualcunque modificationes tu ha facite sur AnkiWeb o sur tu altere dispositivos desde le ultime synchronisation a iste dispositivos, essera perdite.
+    
+    Post que tote le dispositivos es in synchronia, le revisiones futur e le cartas addite pote ser integrate automaticamente.
+sync-download-from-ankiweb = Discargar ex AnkiWeb
+sync-upload-to-ankiweb = Cargar a AnkiWeb
+sync-cancel-button = Anullar
+sync-downloading-from-ankiweb = Discargamento ex AnkiWeb...
+sync-uploading-to-ankiweb = Cargamento a AnkiWeb...
+sync-syncing = Synchronisation...
+sync-checking = Verificacion en cors...
+sync-ankiweb-id-label = Identificant Anki :
+sync-password-label = Senhal :
+sync-account-required =
+    <h1>Compte requesit</h1>
+    Vos cal aver un compte per poder sincronizar vòstra colleccion. Mercé de <a href="{ $link }">crear un compte</a> gratuitament, puèi entratz las informacions de connexion çaijós.

@@ -27,3 +27,24 @@ sync-client-too-old = Votre version d’Anki est trop ancienne. Veuillez mettre 
 sync-wrong-pass = Votre identifiant Ankiweb ou votre mot de passe sont incorrects. Merci de réessayer.
 sync-resync-required = Veuillez synchroniser à nouveau. Si ce message continue d’apparaître, envoyez un message sur le site du support.
 sync-must-wait-for-end = Anki est en cours de synchronisation. Veuillez attendre la fin de la synchronisation, puis réessayez.
+sync-confirm-empty-download = La collection locale n'a pas de cartes. Voulez-vous en télécharger depuis AnkiWeb?
+sync-conflict-explanation =
+    Vos paquets ici et sur ​​AnkiWeb diffèrent de telle sorte qu'ils ne peuvent pas être fusionnés ensemble, il est donc nécessaire de remplacer le pont d'un côté avec les platines de l'autre.
+    
+    Si vous choisissez de télécharger, Anki va télécharger la collection d'AnkiWeb, et tous les changements que vous avez effectués sur votre ordinateur depuis la dernière synchronisation seront perdues.
+    
+    Si vous choisissez d'uploader, Anki va envoyer votre collection vers AnkiWeb, et toutes les modifications que vous avez apportées sur AnkiWeb ou vos autres appareils depuis la dernière synchronisation pour ces appareils seront perdues.
+    
+    Après que tous les appareils soient synchronisés, les futurs révisions et les cartes ajoutées peuvent être fusionnées automatiquement.
+sync-download-from-ankiweb = Télécharger depuis Ankiweb
+sync-upload-to-ankiweb = Envoyer vers Ankiweb
+sync-cancel-button = Annuler
+sync-downloading-from-ankiweb = Téléchargement depuis Ankiweb...
+sync-uploading-to-ankiweb = Téléversement vers AnkiWeb...
+sync-syncing = Synchronisation...
+sync-checking = Vérification...
+sync-ankiweb-id-label = Identifiant Anki :
+sync-password-label = Mot de passe :
+sync-account-required =
+    <h1>Compte requis</h1>
+    Vous devez posséder un compte pour pouvoir synchroniser votre collection. Merci de <a href="{ $link }">créer un compte</a> gratuitement, puis entrez les informations de connexion ci-dessous.

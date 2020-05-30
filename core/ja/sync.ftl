@@ -26,3 +26,21 @@ sync-server-error = AnkiWebに問題が発生しました。しばらくして�
 sync-client-too-old = ご使用のAnkiのバージョンが古いため同期できません。同期するには最新版へのアップデートが必要です。
 sync-wrong-pass = AnkiWeb の ID 又は パスワード が間違っています。もう一度入力してください。
 sync-resync-required = もう一度同期してください。このエラーメッセージが続く場合は、Ankiサポートサイトに投稿をお願いします。
+sync-confirm-empty-download = ローカルコレクションにカードがありません。AnkiWebからダウンロードしますか？
+sync-conflict-explanation =
+    このデッキは AnkiWeb 上の単語帳との違いが大きくなり、統合できなくなりました。どちらか一方で残りを上書きする必要があります。
+    ダウンロードを選択すると、AnkiWeb からコレクションをダウンロードします。前回の同期以降にこのコンピュータ上で行った変更は失われます。
+    アップロードを選択すると、AnkiWeb にコレクションをアップロードします。前回の同期以降に AnkiWeb 上や他のデバイスで行った変更は失われます。
+    全てのデバイスで同期した後は、復習やカードの追加は自動的に統合します。
+sync-download-from-ankiweb = AnkiWeb からダウンロード
+sync-upload-to-ankiweb = AnkiWeb にアップロード
+sync-cancel-button = キャンセル
+sync-downloading-from-ankiweb = AnkiWeb からダウンロードしています...
+sync-uploading-to-ankiweb = AnkiWeb にアップロード中...
+sync-syncing = 同期中...
+sync-checking = チェック中...
+sync-ankiweb-id-label = Ankiウェブ ID:
+sync-password-label = パスワード:
+sync-account-required =
+    <h1>アカウントが必要です</h1>
+    コレクションを同期するには無料のアカウントが必要です。<a href="{ $link }">登録</a> して、下の項目を入力して下さい。

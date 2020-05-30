@@ -27,3 +27,24 @@ sync-client-too-old = 您的Anki版本过低。请更新到最新版本以继续
 sync-wrong-pass = 用户名或密码错误，请重试。
 sync-resync-required = 请重新同步。如果此信息持续出现，请发布支持网站上。
 sync-must-wait-for-end = 当前 Anki 正在同步，请待同步完成后重试。
+sync-confirm-empty-download = 本地集合没有任何卡片，您需要从 AnkiWeb 下载吗？
+sync-conflict-explanation =
+    您的牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。
+    
+    如果您选择下载，那么Anki会从Ankiweb下载牌组，而您电脑上最后一次同步后的更改将会丢失。
+    
+    如果您选择上传，那么Anki会上传牌组至Ankiweb，而您Ankiweb或其他设备上最后一次同步后的更改将会丢失。
+    
+    当所有设备完成同步后，将来复习和新增的卡片将会被自动合并。
+sync-download-from-ankiweb = 从 AnkiWeb 下载
+sync-upload-to-ankiweb = 上传到AnkiWeb
+sync-cancel-button = 取消
+sync-downloading-from-ankiweb = 从 AnkiWeb 下载...
+sync-uploading-to-ankiweb = 正在上传到AnkiWeb...
+sync-syncing = 正在同步...
+sync-checking = 正在检查...
+sync-ankiweb-id-label = 用户名
+sync-password-label = 密码：
+sync-account-required =
+    <h1>需先注册</h1>
+    你需要一个免费帐号来同步你的数据. 请<a href="{ $link }">注册</a> 一个帐号,并在下方填写详细资料。

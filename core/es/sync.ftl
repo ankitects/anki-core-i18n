@@ -27,3 +27,24 @@ sync-client-too-old = Tu versión de Anki es demasiado antigua. Por favor, actua
 sync-wrong-pass = La ID de AnkiWeb o la contraseña son incorrectas; por favor, inténtalo de nuevo.
 sync-resync-required = Por favor, sincroniza otra vez. Si el error sigue apareciendo, por favor, publica en el sitio de soporte.
 sync-must-wait-for-end = Anki se está sincronizando actualmente. Espere a que se complete la sincronización e intente nuevamente.
+sync-confirm-empty-download = La colección local no contiene ninguna tarjeta. ¿Desea descargarlas de AnkiWeb?
+sync-conflict-explanation =
+    Tus mazos aquí y en AnkiWeb difieren de tal manera que no pueden ser combinados, por lo que es necesario sobrescribir los mazos de un lado con los del otro.
+    
+    Si eliges descargar, Anki descargará la colección desde AnkiWeb, y se perderá cualquier cambio que hayas hecho en tu ordenador desde la última sincronización.
+    
+    Si eliges subir, Anki subirá tu colección a AnkiWeb, y se perderá cualquier cambio que hayas hecho en AnkiWeb o en tus otros dispositivos desde la última sincronización.
+    
+    Después de que todos los dispositivos se hayan sincronizado, los futuros repasos y las tarjetas añadidas podrán ser combinados automáticamente.
+sync-download-from-ankiweb = Descargar desde AnkiWeb
+sync-upload-to-ankiweb = Subir a AnkiWeb
+sync-cancel-button = Cancelar
+sync-downloading-from-ankiweb = Descargando desde AnkiWeb...
+sync-uploading-to-ankiweb = Subiendo a AnkiWeb...
+sync-syncing = Sincronizando...
+sync-checking = Comprobando…
+sync-ankiweb-id-label = ID de AnkiWeb:
+sync-password-label = Contraseña:
+sync-account-required =
+    <h1>Se requiere una cuenta</h1>
+    Se requiere una cuenta gratuita para mantener tu colección sincronizada. Por favor, <a href="{ $link }">regístrate</a> e introduce tus detalles aquí debajo.

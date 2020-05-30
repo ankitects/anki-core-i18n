@@ -27,3 +27,24 @@ sync-client-too-old = Ihre Anki-Version ist zu alt. Bitte aktualisieren Sie Anki
 sync-wrong-pass = Die AnkiWeb-Kennung oder das Passwort waren falsch; bitte nochmal versuchen.
 sync-resync-required = Bitte synchronisieren Sie noch einmal. Wenn diese Meldung weiterhin erscheint, wenden Sie sich bitte an die Support-Seite.
 sync-must-wait-for-end = Anki synchronisiert gerade. Bitte warten Sie, bis die Synchronisation abgeschlossen ist und versuchen Sie es danach erneut.
+sync-confirm-empty-download = Die lokale Sammlung enthält keine Karten. Möchten Sie sie von AnkiWeb herunterladen?
+sync-conflict-explanation =
+    Der Stapel hier und auf AnkiWeb unterscheiden sich in einer solchen Weise, dass sie nicht zusammengeführt werden können. Es ist daher notwendig, die Stapel auf einer Seite mit den Stapeln auf der anderen Seite zu überschreiben.
+    
+    Wenn jetzt »Herunterladen« ausgewählt wird, wird Anki die Stapel von AnkiWeb herunterladen, und alle Änderungen, die seit der letzten Synchronisation auf diesem Rechner gemacht wurden, gehen verloren.
+    
+    Wenn Sie »Hochladen« auswählen, wird Anki Ihre Stapel nach AnkiWeb hochladen, und alle Änderungen, die Sie im AnkiWeb oder Ihren anderen Geräten seit der letzten Synchronisation gemacht haben, gehen verloren.
+    
+    Nachdem die Stapel auf allen Geräten synchron sind, werden zukünftige Rezensionen und neu hinzugefügte Karten automatisch zusammengeführt.
+sync-download-from-ankiweb = Von AnkiWeb herunterladen
+sync-upload-to-ankiweb = Zu AnkiWeb hochladen
+sync-cancel-button = Abbrechen
+sync-downloading-from-ankiweb = Von AnkiWeb herunterladen  …
+sync-uploading-to-ankiweb = Zu AnkiWeb wird hochgeladen …
+sync-syncing = Synchronisation wird durchgeführt …
+sync-checking = Überprüfung läuft …
+sync-ankiweb-id-label = AnkiWeb-Kennung:
+sync-password-label = Passwort:
+sync-account-required =
+    <h1>Anmeldung erforderlich</h1>
+    Um die Sammlung zu synchronisieren ist die Anmeldung zu einem kostenfreien Nutzerkonto notwendig, <a href="{ $link }">Registrierung hier</a>. Danach bitte hier Benutzernamen und Passwort eingeben.
