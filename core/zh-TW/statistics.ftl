@@ -15,27 +15,27 @@ statistics-average-answer-time = { $average-seconds }秒（{ statistics-cards-pe
 
 statistics-in-time-span-seconds =
     { $amount ->
-       *[other] 在{ $amount }秒裡
+       *[other] { $amount }秒後
     }
 statistics-in-time-span-minutes =
     { $amount ->
-       *[other] 在{ $amount }分鐘裡
+       *[other] { $amount }分鐘後
     }
 statistics-in-time-span-hours =
     { $amount ->
-       *[other] 在{ $amount }小時裡
+       *[other] { $amount }小時後
     }
 statistics-in-time-span-days =
     { $amount ->
-       *[other] 在{ $amount }天裡
+       *[other] { $amount }天後
     }
 statistics-in-time-span-months =
     { $amount ->
-       *[other] 在{ $amount }個月裡
+       *[other] { $amount }個月後
     }
 statistics-in-time-span-years =
     { $amount ->
-       *[other] 在{ $amount }年裡
+       *[other] { $amount }年後
     }
 
 ##

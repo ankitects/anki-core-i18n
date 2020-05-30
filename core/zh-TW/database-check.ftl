@@ -1,5 +1,5 @@
-database-check-corrupt = 收藏檔案已損毀。請從一個自動備份回復。
-database-check-rebuilt = 已重整資料庫並最佳化
+database-check-corrupt = 收藏檔案已損毀。請從自動備份恢復。
+database-check-rebuilt = 已重建並最佳化資料庫。
 database-check-card-properties = 修復屬性無效的卡片 { $count } 張
 database-check-missing-templates = 刪除 { $count } 張遺失樣板的卡片
 database-check-field-count =

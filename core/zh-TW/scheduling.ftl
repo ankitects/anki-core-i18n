@@ -26,7 +26,7 @@ scheduling-time-span-years = { $amount }年
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    下一張正在學習的卡片將於{ $unit ->
+    下一張學習中的卡片將在{ $unit ->
         [seconds]
             { $amount ->
                 [one] { $amount } 秒
@@ -42,8 +42,8 @@ scheduling-next-learn-due =
                 [one] { $amount } 小時
                *[other] { $amount } 小時
             }
-    }內準備就緒。
+    }後準備就緒。
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] { $remaining }張正在學習的卡片將於今天到期。
+       *[other] { $remaining }張學習中的卡片將於今天到期。
     }

@@ -36,11 +36,11 @@ media-check-checked = 已檢查{ $count }...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = 要刪除未使用的媒體嗎？
+media-check-delete-unused-confirm = 要刪除未使用的媒體檔嗎？
 media-check-files-remaining =
     剩餘
     { $count ->
-       *[other] { $count }個檔案
+       *[other] { $count }個檔案。
     }
 media-check-delete-unused-complete =
     { $count ->
