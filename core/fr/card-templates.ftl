@@ -11,3 +11,4 @@ card-templates-front-preview = Aperçu du recto
 card-templates-back-preview = Aperçu du verso
 card-templates-preview-box = Aperçu
 card-templates-template-box = Modèle
+card-templates-sample-cloze = Il s'agit d'une suppression de {"{{c1::"}echantillon {"}}"} .

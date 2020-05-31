@@ -12,3 +12,4 @@ card-templates-front-preview = Предпросмотр лицевой стор�
 card-templates-back-preview = Предпросмотр оборотной стороны
 card-templates-preview-box = Предпросмотр
 card-templates-template-box = Шаблон
+card-templates-sample-cloze = Вот {"{{c1::"}пример{"}}"} заполнения пропуска.
