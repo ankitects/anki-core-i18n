@@ -14,12 +14,10 @@ sync-media-aborted = Die Mediensynchronisierung wurde abgebrochen.
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = Die Mediensychronisierung wurde deaktiviert.
-sync-abort-button = Abbrechen
-sync-media-log-button = Medien-Logfile
 # Title of the screen that shows syncing progress history
 sync-media-log-title = Mediensychronisations-Logfile
 
-## Error messages
+## Error messages / dialogs
 
 sync-conflict = Es kann sich ausschließlich ein Client von Anki mit ihrem Konto synchronisieren. Bitte warten Sie einige Minuten und versuchen Sie es anschließend erneut.
 sync-server-error = Es ist ein Problem mit AnkiWeb aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.
@@ -36,16 +34,25 @@ sync-conflict-explanation =
     Wenn Sie »Hochladen« auswählen, wird Anki Ihre Stapel nach AnkiWeb hochladen, und alle Änderungen, die Sie im AnkiWeb oder Ihren anderen Geräten seit der letzten Synchronisation gemacht haben, gehen verloren.
     
     Nachdem die Stapel auf allen Geräten synchron sind, werden zukünftige Rezensionen und neu hinzugefügte Karten automatisch zusammengeführt.
-sync-download-from-ankiweb = Von AnkiWeb herunterladen
-sync-upload-to-ankiweb = Zu AnkiWeb hochladen
-sync-cancel-button = Abbrechen
-sync-downloading-from-ankiweb = Von AnkiWeb herunterladen  …
-sync-uploading-to-ankiweb = Zu AnkiWeb wird hochgeladen …
-sync-syncing = Synchronisation wird durchgeführt …
-sync-checking = Überprüfung läuft …
 sync-ankiweb-id-label = AnkiWeb-Kennung:
 sync-password-label = Passwort:
 sync-account-required =
     <h1>Anmeldung erforderlich</h1>
     Um die Sammlung zu synchronisieren ist die Anmeldung zu einem kostenfreien Nutzerkonto notwendig, <a href="{ $link }">Registrierung hier</a>. Danach bitte hier Benutzernamen und Passwort eingeben.
+
+## Buttons
+
+sync-media-log-button = Medien-Logfile
+sync-abort-button = Abbrechen
+sync-download-from-ankiweb = Von AnkiWeb herunterladen
+sync-upload-to-ankiweb = Zu AnkiWeb hochladen
+sync-cancel-button = Abbrechen
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = Von AnkiWeb herunterladen  …
+sync-uploading-to-ankiweb = Zu AnkiWeb wird hochgeladen …
+sync-syncing = Synchronisation wird durchgeführt …
+sync-checking = Überprüfung läuft …
 sync-connecting = Verbindungsaufbau …
+sync-added-updated-count = Hinzugefügt/geändert: { $up } ↑ { $down } ↓
