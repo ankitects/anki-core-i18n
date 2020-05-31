@@ -10,3 +10,5 @@ card-templates-front-preview = پیش‌نمایش جلو
 card-templates-back-preview = پیش‌نمایش پشت
 card-templates-preview-box = پیش‌نمایش
 card-templates-template-box = قالب
+card-templates-sample-cloze = این یک { "{{c1::" }نمونه{ "}}" } کارت جاخالی است.
+card-templates-fill-empty = پر کردن فیلدهای خالی

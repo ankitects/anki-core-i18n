@@ -25,3 +25,6 @@ card-template-rendering-no-such-field = '{ $found }' یافت شد، ولی هی
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = جلوی این کارت خالی است.
+card-template-rendering-missing-cloze =
+    کارت شمارۀ { $number } کلوز یافت نشد.
+    شما می‌توانید از ابزار کارت‌های خالی برای حذف این کارت خالی استفاده کنید.

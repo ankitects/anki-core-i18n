@@ -1,2 +1,2 @@
-
-filtering-is-due = موعد مرور
+# True if a card is due/ready for review
+filtering-is-due = مرور
