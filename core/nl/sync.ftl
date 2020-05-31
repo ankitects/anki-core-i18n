@@ -20,3 +20,4 @@ sync-password-label = Wachtwoord:
 sync-account-required =
     <h1>Account vereist</h1>
     Een gratis account is vereist om uw collectie gesynchroniseerd te houden. Gelieve eerst een account <a href="{ $link }">aan te vragen</a>, vooraleer onderstaande gegevens in te vullen.
+sync-connecting = Bezig met verbinden...

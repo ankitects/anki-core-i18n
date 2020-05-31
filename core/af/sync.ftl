@@ -19,3 +19,4 @@ sync-password-label = Wagwoord:
 sync-account-required =
     <h1>Rekening Vereis</h1>
      'n Gratis rekening is nodig om jou versameling te sinchroniseer.  <a href="{ $link }">Teken</ a> aan vir 'n rekening, dan vul jy jou besonderhede hieronder in.
+sync-connecting = Koppel tans...

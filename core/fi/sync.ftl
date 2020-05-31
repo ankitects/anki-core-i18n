@@ -20,3 +20,4 @@ sync-password-label = Salasana:
 sync-account-required =
     <h1>Käyttäjätili vaaditaan</h1>
     Tarvitset ilmaisen käyttäjätilin, että voi pitää kokoelmasi synkronoituna. <a href="{ $link }">Perusta</a> käyttäjätili ja syötä sitten tietosi alle.
+sync-connecting = Yhdistetään...

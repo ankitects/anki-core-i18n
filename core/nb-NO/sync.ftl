@@ -11,3 +11,4 @@ sync-password-label = Passord:
 sync-account-required =
     <h1>Konto nødvendig</h1>
     En gratis konto er nødvendig for å synkronisere dine ting.  <a href="{ $link }">Registrer deg</a> for en konto, og skriv inn dine data under.
+sync-connecting = Kobler til...

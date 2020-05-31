@@ -28,4 +28,5 @@ sync-ankiweb-id-label = plicme fi la .ankiueb.
 sync-password-label = mipri jaspu
 sync-account-required =
     <h1>.i sarcu fa lo du'u da jaspu do</h1>
-    {"."}i lo du'u da jaspu do cu sarcu lo du'u co'a datni sarxe fa ro karda .i ko <a href="{ $link }">co'a se jaspu</a> je cu samci'a lo plicme je lo jaspu lo cnita
+    { "." }i lo du'u da jaspu do cu sarcu lo du'u co'a datni sarxe fa ro karda .i ko <a href="{ $link }">co'a se jaspu</a> je cu samci'a lo plicme je lo jaspu lo cnita
+sync-connecting = .i ca'o co'a samjo'e

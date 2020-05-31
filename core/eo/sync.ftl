@@ -21,3 +21,4 @@ sync-password-label = Pasvorto:
 sync-account-required =
     <h1>Konto necesas</h1>
     Senkosta konto necesas por teni vian kolekton samtempigita. Bonvolu <a href="{ $link }">ensaluti</a> por konto, poste entajpu viajn indikojn malsupre.
+sync-connecting = Konektado...

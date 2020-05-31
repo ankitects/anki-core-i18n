@@ -11,3 +11,4 @@ sync-password-label = Geslo:
 sync-account-required =
     <h1>Zahtevan je račun</h1>
     Če želite vašo zbirko sinhronizirati, potrebujete brezplačen račun. <a href="{ $link }">Prijavite se</a> za brezplačen račun, nato pa spodaj vnesite podatke.
+sync-connecting = Povezovanje ...

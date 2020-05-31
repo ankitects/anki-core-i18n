@@ -48,3 +48,4 @@ sync-password-label = Senhal :
 sync-account-required =
     <h1>Compte requesit</h1>
     Vos cal aver un compte per poder sincronizar vòstra colleccion. Mercé de <a href="{ $link }">crear un compte</a> gratuitament, puèi entratz las informacions de connexion çaijós.
+sync-connecting = Connexion en cors...

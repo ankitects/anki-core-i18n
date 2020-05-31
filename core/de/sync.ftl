@@ -48,3 +48,4 @@ sync-password-label = Passwort:
 sync-account-required =
     <h1>Anmeldung erforderlich</h1>
     Um die Sammlung zu synchronisieren ist die Anmeldung zu einem kostenfreien Nutzerkonto notwendig, <a href="{ $link }">Registrierung hier</a>. Danach bitte hier Benutzernamen und Passwort eingeben.
+sync-connecting = Verbindungsaufbau …

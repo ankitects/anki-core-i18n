@@ -17,3 +17,4 @@ sync-password-label = Adgangskode:
 sync-account-required =
     <h1>Der kræves en konto</h1>
     Der kræves en fri konto for at bevare din samling synkroniseret. <a href="{ $link }">Tilmeld dig venligst</<> for en konto, og indtast dernæst dine detaljer nedenfor.
+sync-connecting = Tilkobler...

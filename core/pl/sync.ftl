@@ -48,3 +48,4 @@ sync-password-label = Hasło:
 sync-account-required =
     <h1>Wymagane konto</h1>
     Wymagane jest posiadanie darmowego konta, aby Twoja kolekcja mogła być synchronizowana. <a href="{ $link }">Zarejestruj</a> konto, a następnie wprowadź poniżej swoje dane.
+sync-connecting = Łączenie...

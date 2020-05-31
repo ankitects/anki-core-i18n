@@ -47,3 +47,4 @@ sync-ankiweb-id-label = ID AnkiWeb:
 sync-account-required =
     <h1>Account necessario</h1>
     È necessario un account gratuito per mantenere sincronizzata la tua collezione. <a href="{ $link }">Iscriviti</a> per un account, poi inserisci i tuoi dati qui sotto.
+sync-connecting = Connessione...

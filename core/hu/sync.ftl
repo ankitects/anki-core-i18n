@@ -48,3 +48,4 @@ sync-password-label = Jelszó:
 sync-account-required =
     <h1>Felhasználói fiók szükséges</h1>
     A gyűjteményed szinkronizálásához ingyenes felhasználói fiókra van szükség. Kérlek, <a href="{ $link }">regisztrálj</a> magadnak egyet, majd add meg az adatait.
+sync-connecting = Kapcsolódás...

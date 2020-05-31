@@ -20,3 +20,4 @@ sync-password-label = Mật khẩu:
 sync-account-required =
     <h1>Yêu cầu tài khoản</h1>
     Bạn cần có tài khoản (miễn phí) để đồng bộ bộ sưu tập. Xin vui lòng <a href="{ $link }">đăng ký</a> tài khoản rồi nhập thông tin chi tiết vào phía dưới.
+sync-connecting = Đang kết nối...

@@ -18,3 +18,4 @@ sync-password-label = Constrasinal:
 sync-account-required =
     <h1>Requírese unha conta</h1>
     Requírese unha conta gratuíta para manter a súa colección sincronizada. <a href="{ $link }">Rexístrese</a> e introduza os seus datos embaixo.
+sync-connecting = Conectando...

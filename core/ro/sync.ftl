@@ -10,3 +10,4 @@ sync-password-label = Parolă:
 sync-account-required =
     <h1>Cont obligatoriu</h1>
     Un cont gratuit este necesar pentru a păstra sincronizată colecția. Te rog, <a href="{ $link }">înscrie-te</a> pentru un cont, apoi introdu detaliile tale.
+sync-connecting = Se conectează...

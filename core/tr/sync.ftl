@@ -13,3 +13,4 @@ sync-password-label = Şifre:
 sync-account-required =
     <h1>Hesap Gerekli</h1>
     Koleksiyonunuzun eşitlenmesi için ücretsiz hesap açmanız gerekiyor.  Lütfen  <a href="{ $link }">hesap açın</a> ve bilgilerinizi yazın.
+sync-connecting = Bağlantı kuruluyor...

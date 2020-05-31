@@ -20,3 +20,4 @@ sync-password-label = Heslo:
 sync-account-required =
     <h1>Je vyžadován účet</h1>
     Pro synchronizaci vaši kolekce je vyžadován účet (dostupný zdarma). <a href="{ $link }">Zaregistrujte si</a> účet a pak zadejte své údaje níže.
+sync-connecting = Připojování...

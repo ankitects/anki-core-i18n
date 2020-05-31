@@ -20,3 +20,4 @@ sync-password-label = 비밀번호:
 sync-account-required =
     <h1>계정이 필요합니다</h1>
     무료 계정이 있어야 사용자의 모음집을 동기화할 수 있습니다. <a href="{ $link }">사용자 등록</a>을 한 뒤, 필요한 정보를 아래에 입력하세요.
+sync-connecting = 연결 중...

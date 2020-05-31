@@ -16,3 +16,4 @@ sync-password-label = Pasahitza
 sync-account-required =
     <h1>Kontua beharrezkoa da</h1>
     Doako kontu bat eskatzen da zure bilduma sinkronizatuta mantentzeko. Mesedez <a href="{ $link }">Izena eman</a> kontu bat lortzeko, ondoren sartu zure xehetasunak azpian.
+sync-connecting = Konektatzen...
