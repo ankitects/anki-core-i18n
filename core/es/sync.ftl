@@ -14,12 +14,10 @@ sync-media-aborted = Sincronización multimedia abortada.
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = Sincronización multimedia deshabilitada.
-sync-abort-button = Abortar
-sync-media-log-button = Registro de Archivos Multimedia
 # Title of the screen that shows syncing progress history
 sync-media-log-title = Registro de Sincronización de Archivos Multimedia
 
-## Error messages
+## Error messages / dialogs
 
 sync-conflict = Sólo una copia de Anki puede sincronizar a tu cuenta a la vez. Por favor, espera unos minutos y vuelve a intentarlo de nuevo.
 sync-server-error = AnkiWeb ha encontrado un problema. Por favor, intentalo de nuevo en unos minutos.
@@ -36,16 +34,25 @@ sync-conflict-explanation =
     Si eliges subir, Anki subirá tu colección a AnkiWeb, y se perderá cualquier cambio que hayas hecho en AnkiWeb o en tus otros dispositivos desde la última sincronización.
     
     Después de que todos los dispositivos se hayan sincronizado, los futuros repasos y las tarjetas añadidas podrán ser combinados automáticamente.
-sync-download-from-ankiweb = Descargar desde AnkiWeb
-sync-upload-to-ankiweb = Subir a AnkiWeb
-sync-cancel-button = Cancelar
-sync-downloading-from-ankiweb = Descargando desde AnkiWeb...
-sync-uploading-to-ankiweb = Subiendo a AnkiWeb...
-sync-syncing = Sincronizando...
-sync-checking = Comprobando…
 sync-ankiweb-id-label = ID de AnkiWeb:
 sync-password-label = Contraseña:
 sync-account-required =
     <h1>Se requiere una cuenta</h1>
     Se requiere una cuenta gratuita para mantener tu colección sincronizada. Por favor, <a href="{ $link }">regístrate</a> e introduce tus detalles aquí debajo.
+
+## Buttons
+
+sync-media-log-button = Registro de Archivos Multimedia
+sync-abort-button = Abortar
+sync-download-from-ankiweb = Descargar desde AnkiWeb
+sync-upload-to-ankiweb = Subir a AnkiWeb
+sync-cancel-button = Cancelar
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = Descargando desde AnkiWeb...
+sync-uploading-to-ankiweb = Subiendo a AnkiWeb...
+sync-syncing = Sincronizando...
+sync-checking = Comprobando…
 sync-connecting = Conectando...
+sync-added-updated-count = Añadido/modficado: { $up }↑ { $down }↓
