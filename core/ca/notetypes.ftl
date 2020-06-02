@@ -4,6 +4,7 @@ notetypes-front-field = Anvers
 notetypes-back-field = Revers
 notetypes-add-reverse-field = Afegir Revers
 notetypes-text-field = Text
+notetypes-back-extra-field = Revers Extra
 
 ## Default note type names
 
