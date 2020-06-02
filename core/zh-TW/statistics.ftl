@@ -15,27 +15,27 @@ statistics-average-answer-time = { $average-seconds }秒（{ statistics-cards-pe
 
 statistics-in-time-span-seconds =
     { $amount ->
-       *[other] { $amount }秒後
+       *[other] { $amount }秒內
     }
 statistics-in-time-span-minutes =
     { $amount ->
-       *[other] { $amount }分鐘後
+       *[other] { $amount }分鐘內
     }
 statistics-in-time-span-hours =
     { $amount ->
-       *[other] { $amount }小時後
+       *[other] { $amount }小時內
     }
 statistics-in-time-span-days =
     { $amount ->
-       *[other] { $amount }天後
+       *[other] { $amount }天內
     }
 statistics-in-time-span-months =
     { $amount ->
-       *[other] { $amount }個月後
+       *[other] { $amount }個月內
     }
 statistics-in-time-span-years =
     { $amount ->
-       *[other] { $amount }年後
+       *[other] { $amount }年內
     }
 
 ##
@@ -48,7 +48,7 @@ statistics-reviews = { $reviews }張複習卡
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    今天{ $unit ->
+    今天在{ $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
