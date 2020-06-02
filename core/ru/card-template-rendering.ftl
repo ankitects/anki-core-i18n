@@ -25,3 +25,6 @@ card-template-rendering-no-such-field = Использовано «{ $found }»,
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Лицевая сторона этой карточки пустая.
+card-template-rendering-missing-cloze =
+    Задание с пропусками { $number } не найдено в карточке.
+    Вы можете использовать инструмент "Пустые карточки" для удаления этой пустой карточки.

@@ -14,12 +14,10 @@ sync-media-aborted = Синхронизация медиафайлов отме�
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = Синхронизация медиафайлов отключена.
-sync-abort-button = Отменить
-sync-media-log-button = Журнал медиафайлов
 # Title of the screen that shows syncing progress history
 sync-media-log-title = Журнал синхронизации медиафайлов
 
-## Error messages
+## Error messages / dialogs
 
 sync-conflict = Только одна программа за раз может синхронизироваться с учётной записью. Подождите немного и попробуйте снова.
 sync-server-error = У AnkiWeb проблемы. Попробуйте позже.
@@ -36,16 +34,25 @@ sync-conflict-explanation =
     Если вы выберете выгрузку на AnkiWeb, то Anki выгрузит колоды на AnkiWeb, и все изменения, произведённые на AnkiWeb или других устройствах с момента последней синхронизации, будут утеряны.
     
     После того как все устройства будут синхронизированы, информация о просмотрах и новые карточки будут обновляться автоматически.
-sync-download-from-ankiweb = Загрузить с AnkiWeb
-sync-upload-to-ankiweb = Выгрузить на AnkiWeb
-sync-cancel-button = Отменить
-sync-downloading-from-ankiweb = Загружается с AnkiWeb...
-sync-uploading-to-ankiweb = Выгрузка на AnkiWeb...
-sync-syncing = Синхронизируется...
-sync-checking = Проверяется...
 sync-ankiweb-id-label = Логин на AnkiWeb:
 sync-password-label = Пароль:
 sync-account-required =
     <h1>Нужна учётная запись</h1>
     Для синхронизации коллекции необходима учётная запись. <a href="{ $link }">Создайте</a> учётную запись, и добавьте её внизу.
+
+## Buttons
+
+sync-media-log-button = Журнал медиафайлов
+sync-abort-button = Отменить
+sync-download-from-ankiweb = Загрузить с AnkiWeb
+sync-upload-to-ankiweb = Выгрузить на AnkiWeb
+sync-cancel-button = Отменить
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = Загружается с AnkiWeb...
+sync-uploading-to-ankiweb = Выгрузка на AnkiWeb...
+sync-syncing = Синхронизируется...
+sync-checking = Проверяется...
 sync-connecting = Подключается...
+sync-added-updated-count = Добавлено/изменено: { $up }↑ { $down }↓
