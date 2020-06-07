@@ -37,8 +37,8 @@ sync-conflict-explanation =
 sync-ankiweb-id-label = AnkiWeb ID：
 sync-password-label = 密碼:
 sync-account-required =
-    <h1>需要有帳號</h1>
-    要讓您的集合同步需要一個免費的帳號，請<a href="{ $link }">註冊</a>一個帳號，並且在下方輸入資料。
+    <h1>需要帳號</h1>
+    您需要先建立一個免費的帳號來同步您的集合。請先<a href="{ $link }">註冊</a>一個帳號，然後在下方輸入詳細資訊。
 
 ## Buttons
 

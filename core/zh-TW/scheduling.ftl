@@ -15,7 +15,7 @@ scheduling-answer-button-time-years = { $amount }年
 ## such as in the Interval column of the browse screen,
 ## and labels like "Total Time" in the card info screen.
 
-scheduling-time-span-seconds = { $amount }秒
+scheduling-time-span-seconds = { $amount }秒鐘
 scheduling-time-span-minutes = { $amount }分鐘
 scheduling-time-span-hours = { $amount }小時
 scheduling-time-span-days = { $amount }天

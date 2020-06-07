@@ -42,7 +42,7 @@ statistics-in-time-span-years =
 
 statistics-cards = { $cards }張卡片
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews }張複習卡
+statistics-reviews = { $reviews }張待複習卡片
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
