@@ -39,4 +39,4 @@ card-template-rendering-no-such-field =
 card-template-rendering-empty-front = The front of this card is blank.
 
 card-template-rendering-missing-cloze = No cloze { $number } found on card.
-  You can use the Empty Cards tool to remove this empty card.
+  Please either add a cloze deletion, or use the Empty Cards tool.
