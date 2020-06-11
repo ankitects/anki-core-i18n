@@ -26,7 +26,7 @@ scheduling-time-span-years = { $amount }年
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    下一張學習中的卡片將在{ $unit ->
+    下一張學習中的卡片將在 { $unit ->
         [seconds]
             { $amount ->
                 [one] { $amount } 秒
