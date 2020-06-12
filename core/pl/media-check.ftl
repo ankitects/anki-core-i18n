@@ -23,7 +23,7 @@ media-check-renamed-header = Nazwy niektórych plików zostały zmienione, aby z
 media-check-oversize-header = Plików ważących ponad 100MB nie można zsynchronizować z AnkiWeb.
 media-check-subfolder-header = Foldery w folderze plików nie są wspierane.
 media-check-missing-header = Użyte w kartach, ale brakujące w folderze z plikami:
-media-check-unused-header = Znaleziono następujące pliki w folderze plików, które nie są one używane w żadnych kartach:
+media-check-unused-header = Znaleziono następujące pliki w folderze plików, które nie są używane w żadnych kartach:
 
 ## Shown once for each file
 
