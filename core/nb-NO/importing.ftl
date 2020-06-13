@@ -1,1 +1,1 @@
-importing-failed = Klarte ikke å importere.
+importing-failed-debug-info = Import mislyktes. Feilsøkingsinfo:
