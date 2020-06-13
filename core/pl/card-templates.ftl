@@ -1,8 +1,8 @@
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] Poniższe zmiany dotkną { $count } notatkę używającą ten typ karty.
-        [few] Poniższe zmiany dotkną { $count } notatki używające ten typ karty.
-       *[other] Poniższe zmiany dotkną { $count } notatek używających ten typ karty.
+        [one] Poniższe zmiany będą miały wpływ na { $count } notatkę, która używa tego typu karty.
+        [few] Poniższe zmiany będą miały wpływ na { $count } notatki, które używają tego typu karty.
+       *[other] Poniższe zmiany będą miały wpływ na { $count } notatek, które używają tego typu karty.
     }
 card-templates-card-type = Typ karty:
 card-templates-front-template = Szablon przodu
@@ -12,5 +12,5 @@ card-templates-front-preview = Podgląd przodu
 card-templates-back-preview = Podgląd tyłu
 card-templates-preview-box = Podgląd
 card-templates-template-box = Szablon
+card-templates-sample-cloze = To jest { "{{c1::" }przykładowe{ "}}" } wypełnianie luki.
 card-templates-fill-empty = Wypełnij puste pola
-card-templates-sample-cloze = To {"{{c1::"}przykładowa{"}}"} luka do wypełnienia.

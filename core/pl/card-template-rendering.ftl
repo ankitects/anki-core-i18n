@@ -25,3 +25,6 @@ card-template-rendering-no-such-field = Znaleziono "{ $found }", ale brak pola o
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Przód tej karty jest pusty.
+card-template-rendering-missing-cloze =
+    Nie znaleziono luki { $number } na karcie.
+    Dodaj wypełnianie luki lub użyj narzędzia Puste Karty.
