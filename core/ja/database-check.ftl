@@ -6,4 +6,5 @@ database-check-card-properties = 無効なプロパティを持っている{ $co
 database-check-corrupt = コレクションが壊れています。マニュアルをご覧ください。
 database-check-missing-templates = テンプレートがない{ $count }枚のカードを削除しました。
 database-check-rebuilt = データベースを再構築し最適化しました。
-database-check-card-missing-note = ノートがない{$count}枚のカードを削除しました。
+database-check-card-missing-note = ノートがない{ $count }枚のカードを削除しました。
+database-check-title = データベースを確認

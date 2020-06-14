@@ -40,3 +40,4 @@ database-check-revlog-properties =
         [one] ${ count } Wiederholungseintrag mit ungültigen Eigenschaften wurde repariert.
        *[other] ${ count }  Wiederholungseinträge mit ungültigen Eigenschaften wurden repariert.
     }
+database-check-title = Datenbank überprüfen

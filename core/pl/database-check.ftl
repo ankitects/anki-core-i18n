@@ -12,6 +12,14 @@ database-check-missing-templates =
         [few] Usunięto { $count } karty z brakującym szablonem.
        *[other] Usunięto { $count } kart z brakującym szablonem.
     }
+database-check-rebuilt = Baza danych przebudowana i zoptymalizowana.
+database-check-card-missing-note =
+    { $count ->
+        [one] Usunięto { $count } kartę bez notatki.
+        [few] Usunięto { $count } karty bez notatki.
+       *[other] Usunięto { $count } kart bez notatki.
+    }
+database-check-title = Sprawdź bazę danych
 database-check-field-count =
     { $count ->
         [one] Naprawiono { $count } notatkę ze złą liczbą pól.

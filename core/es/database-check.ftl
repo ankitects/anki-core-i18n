@@ -40,6 +40,7 @@ database-check-revlog-properties =
         [one] { $count } entrada corregida de revisión con propiedades no válidas.
        *[other] { $count } entradas corregidas de revisiones con propiedades no válidas.
     }
+database-check-title = Verificar base de datos
 
 ## Progress info
 

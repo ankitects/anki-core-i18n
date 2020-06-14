@@ -40,3 +40,4 @@ database-check-revlog-properties =
         [one] Une revue a été réparé car ses propriétés étaient invalides.
        *[other] { $count } revues ont été réparés car leurs propriétés étaient invalides.
     }
+database-check-title = Vérifier la base de données
