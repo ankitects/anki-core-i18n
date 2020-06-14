@@ -9,3 +9,5 @@ card-stats-note-type = סוג הערה
 card-stats-deck-name = חפיסה
 card-stats-note-id = ID הערה
 card-stats-card-id = ID כרטיסייה
+card-stats-review-log-date = תאריך
+card-stats-review-log-type-review = סקירה

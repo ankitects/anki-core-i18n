@@ -8,3 +8,6 @@ card-stats-total-time = الوقت الكلي
 card-stats-card-template = نوع البطاقة
 card-stats-deck-name = مجموعة
 card-stats-card-id = مُعرف البطاقة
+card-stats-review-log-type = النوع
+card-stats-review-log-date = التاريخ
+card-stats-review-log-type-review = مراجعة

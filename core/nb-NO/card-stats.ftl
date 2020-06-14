@@ -11,3 +11,7 @@ card-stats-card-template = Korttype
 card-stats-note-type = Notattype
 card-stats-deck-name = Kortstokk
 card-stats-card-id = Kort ID
+card-stats-review-log-date = Dato
+card-stats-review-log-time-taken = Tid
+card-stats-review-log-type-review = Repeter
+card-stats-review-log-type-filtered = Filtrert
