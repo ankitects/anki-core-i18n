@@ -1,0 +1,14 @@
+card-stats-added = Bygevoeg
+card-stats-first-review = Eerste Hersienning
+card-stats-latest-review = Laaste hersienning
+card-stats-ease = Gemak
+card-stats-review-count = Hersienings
+card-stats-lapse-count = Gebreke
+card-stats-average-time = Gemiddelde Tyd
+card-stats-total-time = Totale Tyd
+card-stats-new-card-position = Posisie
+card-stats-card-template = Tipe kaart
+card-stats-note-type = Tipe Nota
+card-stats-deck-name = Kaartpak
+card-stats-note-id = Kaart ID
+card-stats-card-id = Kaart ID

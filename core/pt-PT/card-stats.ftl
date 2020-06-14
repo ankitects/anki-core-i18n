@@ -1,0 +1,15 @@
+card-stats-added = Adicionado
+card-stats-first-review = Primeira Revisão
+card-stats-latest-review = Revisão mais recente
+card-stats-interval = Intervalo
+card-stats-ease = Dificuldade
+card-stats-review-count = Revisões
+card-stats-lapse-count = Erros
+card-stats-average-time = Tempo médio
+card-stats-total-time = Tempo Total
+card-stats-new-card-position = Posição
+card-stats-card-template = Tipo de ficha
+card-stats-note-type = Tipo de Nota
+card-stats-deck-name = Baralho
+card-stats-note-id = ID nota
+card-stats-card-id = ID da ficha

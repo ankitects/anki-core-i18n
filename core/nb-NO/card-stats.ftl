@@ -1,0 +1,13 @@
+card-stats-added = Lagt til
+card-stats-first-review = Første repetisjon
+card-stats-interval = Intervall
+card-stats-ease = Innlæringsgrad
+card-stats-review-count = Gjennomganger
+card-stats-lapse-count = Feil
+card-stats-average-time = Gjennomsnittstid
+card-stats-total-time = Total tid
+card-stats-new-card-position = Posisjon
+card-stats-card-template = Korttype
+card-stats-note-type = Notattype
+card-stats-deck-name = Kortstokk
+card-stats-card-id = Kort ID

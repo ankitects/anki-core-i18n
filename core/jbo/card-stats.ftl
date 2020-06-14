@@ -1,0 +1,14 @@
+card-stats-added = se jmina
+card-stats-first-review = pa moi lo'i nu morji
+card-stats-latest-review = prula'i nu morji
+card-stats-ease = ni frili
+card-stats-review-count = morji
+card-stats-lapse-count = fliba lo ka morji
+card-stats-average-time = cnano fi lo'i temci
+card-stats-total-time = temci sumji
+card-stats-new-card-position = se pormoi
+card-stats-card-template = karda klesi
+card-stats-note-type = karda datni klesi
+card-stats-deck-name = karda selcmi
+card-stats-note-id = nacme'e lo karda datni
+card-stats-card-id = judri lo karda

@@ -1,0 +1,15 @@
+card-stats-added = Hozzáadva
+card-stats-first-review = Első ismétlés
+card-stats-latest-review = Legutóbbi ismétlés
+card-stats-interval = Időköz
+card-stats-ease = Könnyűség
+card-stats-review-count = Ismétlések
+card-stats-lapse-count = Elakadások
+card-stats-average-time = Átlagos idő
+card-stats-total-time = Időráfordítás összesen
+card-stats-new-card-position = Sorrendi hely
+card-stats-card-template = Kártyatípus
+card-stats-note-type = Jegyzettípus
+card-stats-deck-name = Csomag
+card-stats-note-id = Jegyzetazonosító
+card-stats-card-id = Kártyaazonosító

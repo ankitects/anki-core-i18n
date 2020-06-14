@@ -1,0 +1,15 @@
+card-stats-added = Lisätty
+card-stats-first-review = Ensimmäinen kertaus
+card-stats-latest-review = Viimeisin kertaus
+card-stats-interval = Kertausväli
+card-stats-ease = Helppous
+card-stats-review-count = Kertaukset
+card-stats-lapse-count = Virheet
+card-stats-average-time = Vastausnopeus
+card-stats-total-time = Kokonaisaika
+card-stats-new-card-position = Sijainti
+card-stats-card-template = Kortin tyyppi
+card-stats-note-type = Muistiinpanotyyppi
+card-stats-deck-name = Pakka
+card-stats-note-id = Muistiinpanon tunnus
+card-stats-card-id = Kortin tunnus

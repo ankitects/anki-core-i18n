@@ -1,0 +1,15 @@
+card-stats-added = Додато
+card-stats-first-review = Виђена први пут
+card-stats-latest-review = Последњи преглед
+card-stats-interval = Интервал
+card-stats-ease = Лакоћа
+card-stats-review-count = Понављања
+card-stats-lapse-count = Промашаји
+card-stats-average-time = Просечно време
+card-stats-total-time = Укупно време
+card-stats-new-card-position = Позиција
+card-stats-card-template = Тип карата
+card-stats-note-type = Тип белешке
+card-stats-deck-name = Шпил
+card-stats-note-id = ID белешке
+card-stats-card-id = ID карте

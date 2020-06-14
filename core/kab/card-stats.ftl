@@ -1,0 +1,10 @@
+card-stats-added = yettwarna
+card-stats-interval = Azilal
+card-stats-ease = Kkes
+card-stats-average-time = Akud alemmas
+card-stats-total-time = Akud asemday
+card-stats-new-card-position = Adig
+card-stats-card-template = Anaw n tkarḍa
+card-stats-deck-name = Akemmus
+card-stats-note-id = ID n tezmilt
+card-stats-card-id = ID n tkarḍa

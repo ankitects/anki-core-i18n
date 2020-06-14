@@ -1,0 +1,15 @@
+card-stats-added = Aldonita
+card-stats-first-review = Unua ripeto
+card-stats-latest-review = Plej lasta ripeto
+card-stats-interval = Intertempo
+card-stats-ease = Facileco
+card-stats-review-count = Ripetoj
+card-stats-lapse-count = Misrespondoj
+card-stats-average-time = Mezuma tempo
+card-stats-total-time = Suma tempo
+card-stats-new-card-position = Pozicio
+card-stats-card-template = Kartotipo
+card-stats-note-type = Nototipo
+card-stats-deck-name = Kartaro
+card-stats-note-id = Noto-identigilo
+card-stats-card-id = Karto-identigilo

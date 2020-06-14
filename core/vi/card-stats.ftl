@@ -1,0 +1,15 @@
+card-stats-added = Đã thêm
+card-stats-first-review = Ôn tập Lần đầu
+card-stats-latest-review = Ôn tập Sau cùng
+card-stats-interval = Khoảng cách
+card-stats-ease = Độ dễ
+card-stats-review-count = Ôn tập
+card-stats-lapse-count = Hỏng
+card-stats-average-time = Thời lượng Trung bình
+card-stats-total-time = Tổng Thời gian
+card-stats-new-card-position = Vị trí
+card-stats-card-template = Kiểu Thẻ
+card-stats-note-type = Kiểu Phiếu
+card-stats-deck-name = Bộ thẻ
+card-stats-note-id = Mã số Phiếu
+card-stats-card-id = Số Thẻ

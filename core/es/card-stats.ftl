@@ -1,0 +1,15 @@
+card-stats-added = Añadidas
+card-stats-first-review = Primer repaso
+card-stats-latest-review = Último repaso
+card-stats-interval = Intervalo
+card-stats-ease = Facilidad
+card-stats-review-count = Repasos
+card-stats-lapse-count = Olvidos
+card-stats-average-time = Tiempo promedio
+card-stats-total-time = Tiempo total
+card-stats-new-card-position = Posición
+card-stats-card-template = Tipo de tarjeta
+card-stats-note-type = Tipo de nota
+card-stats-deck-name = Mazo
+card-stats-note-id = ID de nota
+card-stats-card-id = ID de tarjeta

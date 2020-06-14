@@ -1,0 +1,15 @@
+card-stats-added = Dodano
+card-stats-first-review = Pierwsze przeglądnięcie
+card-stats-latest-review = Ostatnia powtórka
+card-stats-interval = Przerwa
+card-stats-ease = Łatwość
+card-stats-review-count = Powtórki
+card-stats-lapse-count = Pomyłki
+card-stats-average-time = Średni czas
+card-stats-total-time = Całkowity czas
+card-stats-new-card-position = Położenie
+card-stats-card-template = Typ karty
+card-stats-note-type = Typ notatki
+card-stats-deck-name = Talia
+card-stats-note-id = ID notatki
+card-stats-card-id = ID karty

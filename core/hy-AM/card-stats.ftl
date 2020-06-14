@@ -1,0 +1,15 @@
+card-stats-added = Ավելացվել է
+card-stats-first-review = Առաջին ցուցադրություն
+card-stats-latest-review = Վերջին կրկնություն
+card-stats-interval = Ժամանակամիջոց
+card-stats-ease = Հեշտություն
+card-stats-review-count = Կրկնություններ
+card-stats-lapse-count = Մոռացված
+card-stats-average-time = Միջին ժամանակը
+card-stats-total-time = Ընդհանուր ժամանակը
+card-stats-new-card-position = Հերթ
+card-stats-card-template = Քարտի տեսակ
+card-stats-note-type = Գրառման տեսակ
+card-stats-deck-name = Կապուկ
+card-stats-note-id = Գրառման ID
+card-stats-card-id = Քարտի ID

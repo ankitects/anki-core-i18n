@@ -1,0 +1,14 @@
+card-stats-added = Toegevoegd
+card-stats-first-review = Eerste herhaling
+card-stats-latest-review = Meest recente herhaling
+card-stats-ease = Gemakkelijkheidsgraad
+card-stats-review-count = Herhalingen
+card-stats-lapse-count = Vergissingen
+card-stats-average-time = Gemiddelde duur
+card-stats-total-time = Totale tijd
+card-stats-new-card-position = Positie
+card-stats-card-template = Kaarttype
+card-stats-note-type = Aantekeningstype
+card-stats-deck-name = Set
+card-stats-note-id = Aantekening-ID
+card-stats-card-id = Kaart-ID

@@ -1,0 +1,10 @@
+card-stats-added = اُضيفت
+card-stats-first-review = اول مراجعة
+card-stats-ease = تسهيل
+card-stats-review-count = مراجعات
+card-stats-lapse-count = هفوات
+card-stats-average-time = معدل الوقت
+card-stats-total-time = الوقت الكلي
+card-stats-card-template = نوع البطاقة
+card-stats-deck-name = مجموعة
+card-stats-card-id = مُعرف البطاقة

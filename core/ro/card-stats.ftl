@@ -1,0 +1,15 @@
+card-stats-added = Adăugat(e)
+card-stats-first-review = Prima recapitulare
+card-stats-latest-review = Ultimele repetiții
+card-stats-interval = Interval
+card-stats-ease = Ușurință
+card-stats-review-count = Repetiții
+card-stats-lapse-count = Rateuri
+card-stats-average-time = Media de timp
+card-stats-total-time = Timp total
+card-stats-new-card-position = Poziție
+card-stats-card-template = Tip card
+card-stats-note-type = Tip notă
+card-stats-deck-name = Pachet
+card-stats-note-id = ID notă
+card-stats-card-id = ID card

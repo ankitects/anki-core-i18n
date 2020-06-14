@@ -1,0 +1,14 @@
+card-stats-added = Přidáno
+card-stats-first-review = První opakování
+card-stats-latest-review = Poslední zkoušení
+card-stats-ease = Snadnost
+card-stats-review-count = Počet opakování
+card-stats-lapse-count = Chyby
+card-stats-average-time = Průměrný čas
+card-stats-total-time = Celkový čas
+card-stats-new-card-position = Umístění
+card-stats-card-template = Typ karty
+card-stats-note-type = Typ poznámky
+card-stats-deck-name = Balík
+card-stats-note-id = ID poznámky
+card-stats-card-id = ID karty

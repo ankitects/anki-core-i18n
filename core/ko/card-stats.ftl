@@ -1,0 +1,15 @@
+card-stats-added = 추가됨
+card-stats-first-review = 최초 복습
+card-stats-latest-review = 최근 복습
+card-stats-interval = 간격
+card-stats-ease = 수월함
+card-stats-review-count = 복습
+card-stats-lapse-count = 실패
+card-stats-average-time = 평균 시간
+card-stats-total-time = 전체 시간
+card-stats-new-card-position = 위치
+card-stats-card-template = 카드 유형
+card-stats-note-type = 노트 유형
+card-stats-deck-name = 뭉치
+card-stats-note-id = 노트 ID
+card-stats-card-id = 카드 ID

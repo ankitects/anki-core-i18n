@@ -1,0 +1,15 @@
+card-stats-added = Aggiunto
+card-stats-first-review = Prima ripetizione
+card-stats-latest-review = Ripetizione più recente
+card-stats-interval = Intervallo
+card-stats-ease = Facilità
+card-stats-review-count = Ripetizioni
+card-stats-lapse-count = Errori
+card-stats-average-time = Durata media
+card-stats-total-time = Durata totale
+card-stats-new-card-position = Posizione
+card-stats-card-template = Tipo di carta
+card-stats-note-type = Tipo di nota
+card-stats-deck-name = Mazzo
+card-stats-note-id = ID nota
+card-stats-card-id = ID carta

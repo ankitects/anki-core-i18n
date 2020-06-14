@@ -1,0 +1,11 @@
+card-stats-added = נוספו
+card-stats-first-review = סקירה ראשונה
+card-stats-ease = קלות
+card-stats-review-count = סקירות
+card-stats-average-time = זמן ממוצע
+card-stats-total-time = זמן כולל
+card-stats-card-template = סוג כרטיסייה
+card-stats-note-type = סוג הערה
+card-stats-deck-name = חפיסה
+card-stats-note-id = ID הערה
+card-stats-card-id = ID כרטיסייה

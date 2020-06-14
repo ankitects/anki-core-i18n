@@ -1,0 +1,15 @@
+card-stats-added = Engadida
+card-stats-first-review = Primeiro repaso
+card-stats-latest-review = Última revisión
+card-stats-interval = Intervalo
+card-stats-ease = Facilidade
+card-stats-review-count = Repasos
+card-stats-lapse-count = Períodos
+card-stats-average-time = Tempo medio
+card-stats-total-time = Tempo total
+card-stats-new-card-position = Posición
+card-stats-card-template = Tipo de tarxeta
+card-stats-note-type = Tipo de nota
+card-stats-deck-name = Feixe
+card-stats-note-id = ID da nota
+card-stats-card-id = ID da carta

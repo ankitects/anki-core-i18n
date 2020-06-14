@@ -1,0 +1,14 @@
+card-stats-added = Tillagda
+card-stats-first-review = Första repetitionen
+card-stats-latest-review = Senaste repetition
+card-stats-interval = Intervall
+card-stats-ease = Inlärningsgrad
+card-stats-review-count = Repetitioner
+card-stats-lapse-count = Bortglömda
+card-stats-average-time = Genomsnittlig Tid
+card-stats-total-time = Sammanlagd Tid
+card-stats-card-template = Korttyp
+card-stats-note-type = Nottyp
+card-stats-deck-name = Kortlek
+card-stats-note-id = Noterings-ID
+card-stats-card-id = Kort-ID

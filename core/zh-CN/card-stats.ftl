@@ -1,0 +1,15 @@
+card-stats-added = 已添加
+card-stats-first-review = 首次学习
+card-stats-latest-review = 最近的复习
+card-stats-interval = 间隔
+card-stats-ease = 难度系数
+card-stats-review-count = 复习
+card-stats-lapse-count = 失误次数
+card-stats-average-time = 平均用时
+card-stats-total-time = 总计用时
+card-stats-new-card-position = 位置
+card-stats-card-template = 卡片类型
+card-stats-note-type = 笔记类型
+card-stats-deck-name = 牌组
+card-stats-note-id = 笔记 ID
+card-stats-card-id = 卡片 ID

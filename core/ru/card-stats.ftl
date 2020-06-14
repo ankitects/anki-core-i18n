@@ -1,0 +1,15 @@
+card-stats-added = Добавлено
+card-stats-first-review = Просмотрена впервые
+card-stats-latest-review = Последнее повторение
+card-stats-interval = Интервал
+card-stats-ease = Лёгкость
+card-stats-review-count = Повторение
+card-stats-lapse-count = Забытые
+card-stats-average-time = Среднее время
+card-stats-total-time = Общее время
+card-stats-new-card-position = Позиция
+card-stats-card-template = Тип карточки
+card-stats-note-type = Тип записи
+card-stats-deck-name = Колода
+card-stats-note-id = ID записи
+card-stats-card-id = Идентификатор карточки
