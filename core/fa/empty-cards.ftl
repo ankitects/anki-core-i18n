@@ -8,3 +8,6 @@ empty-cards-deleted-count =
     تعداد{ $cards ->
        *[other] { $cards } کارت حذف شد.
     }
+empty-cards-delete-empty-cards = حذف کارت‌های خالی
+empty-cards-delete-empty-notes = حذف یادداشت‌های خالی
+empty-cards-deleting = در حال حذف...
