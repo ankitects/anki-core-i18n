@@ -45,7 +45,7 @@ media-check-files-remaining =
         [one] 1 plik
         [few] { $count } pliki
        *[other] { $count } plików
-    } - liczba pozostałych zakończenia.
+    } - liczba pozostałych do zakończenia.
 media-check-delete-unused-complete =
     { $count ->
         [one] 1 plik
