@@ -86,3 +86,5 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card }s/kartę)
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }s
