@@ -9,3 +9,6 @@ empty-cards-deleted-count =
         [one] wurde { $cards } Karte gelöscht.
        *[other] wurden { $cards } Karten gelöscht.
     }
+empty-cards-delete-empty-cards = Leere Karten löschen
+empty-cards-delete-empty-notes = Leere Notizen löschen
+empty-cards-deleting = Es wird gelöscht...
