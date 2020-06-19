@@ -8,3 +8,6 @@ empty-cards-deleted-count =
     已刪除{ $cards ->
        *[other] { $cards }張卡片。
     }
+empty-cards-delete-empty-cards = 刪除空白卡片
+empty-cards-delete-empty-notes = 刪除空白筆記
+empty-cards-deleting = 刪除中...
