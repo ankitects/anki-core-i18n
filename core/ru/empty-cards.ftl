@@ -10,3 +10,6 @@ empty-cards-deleted-count =
         [few] { $cards } карточки.
        *[other] { $cards } карточек.
     }
+empty-cards-delete-empty-cards = Удалить пустые карточки
+empty-cards-delete-empty-notes = Удалить пустые записи
+empty-cards-deleting = Удаление...
