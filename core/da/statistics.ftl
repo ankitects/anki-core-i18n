@@ -1,13 +1,18 @@
-
 statistics-due-date = I dag
-
 statistics-due-count = I dag
-statistics-cards-per-min = {$cards-per-minute} kort/minuttet
-statistics-cards = { $cards ->
-    [one] {$cards} kort
-   *[other] {$cards} kort
-  }
-statistics-reviews = { $reviews ->
-    [one] {$reviews} genopfrisk
-   *[other] {$reviews} genopfriskes
-  }
+statistics-cards-per-min = { $cards-per-minute } kort/minuttet
+statistics-cards =
+    { $cards ->
+        [one] { $cards } kort
+       *[other] { $cards } kort
+    }
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } genopfrisk
+       *[other] { $reviews } genopfriskes
+    }
+statistics-today-title = I dag
+statistics-today-again-count = Antal gentagelser:
+statistics-today-type-counts = Lær: { $learnCount }, Genopfrisk: { $reviewCount }, Lær påny: { $relearnCount }, Filtrerede: { $filteredCount }
+statistics-today-no-mature-cards = Der blev ikke studeret ældre kort i dag.
+statistics-today-correct-mature = Ret svar på ældre kort: { $correct }/{ $total } ({ $percent }%)

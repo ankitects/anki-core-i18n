@@ -37,9 +37,6 @@ statistics-in-time-span-years =
     { $amount ->
        *[other] در { $amount } سال
     }
-
-##
-
 statistics-cards =
     { $cards ->
         [one] { $cards } کارت
@@ -66,3 +63,8 @@ statistics-studied-today =
     }امروز مطالعه شده است ({ $secs-per-card } ثانیه/کارت)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds } ثانیه
+statistics-today-title = امروز
+statistics-today-again-count = شمارش مجدد:
+statistics-today-type-counts = یادگیری: { $learnCount }, مرورشده: { $reviewCount }, بازآموزی: { $relearnCount }, فیلترشده: { $filteredCount }
+statistics-today-no-mature-cards = هیچ کارت دائمی در مطالعه شده های امروز نبود.
+statistics-today-correct-mature = پاسخ های صحیح در کارتهای دائم: { $correct }/{ $total } ({ $percent }%)

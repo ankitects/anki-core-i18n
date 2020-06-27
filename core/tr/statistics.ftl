@@ -1,13 +1,18 @@
-
 statistics-due-date = Vade
-
 statistics-due-count = Vade
-statistics-cards-per-min = {$cards-per-minute} kart/dakika
-statistics-cards = { $cards ->
-    [one] {$cards} kart
-   *[other] {$cards} kart
-  }
-statistics-reviews = { $reviews ->
-    [one] {$reviews} inceleme
-   *[other] {$reviews} inceleme
-  }
+statistics-cards-per-min = { $cards-per-minute } kart/dakika
+statistics-cards =
+    { $cards ->
+        [one] { $cards } kart
+       *[other] { $cards } kart
+    }
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } inceleme
+       *[other] { $reviews } inceleme
+    }
+statistics-today-title = Bugün
+statistics-today-again-count = Tekrar sayısı:
+statistics-today-type-counts = Öğrenme: { $learnCount }, Gözden Geçirme: { $reviewCount }, Tekrar Öğrenme: { $relearnCount }, Filtrelenmiş: { $filteredCount }
+statistics-today-no-mature-cards = Bugün çalışılan geçmiş kart yok.
+statistics-today-correct-mature = Tamamlanmış kartlardaki doğru cevaplar: { $correct }/{ $total } ({ $percent }%)

@@ -47,9 +47,6 @@ statistics-in-time-span-years =
         [one] en { $amount } any
        *[other] en { $amount } anys
     }
-
-##
-
 statistics-cards =
     { $cards ->
         [one] { $cards } targeta
@@ -74,3 +71,9 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } uèi ({ $secs-per-card }s/card)
+statistics-today-title = Hodie
+statistics-today-again-count = Doblits :
+statistics-today-type-counts = Apprendite: { $learnCount }, Revidite: { $reviewCount }, Reapprendite: { $relearnCount }, Filtrate: { $filteredCount }
+statistics-today-no-cards = Cap carta es estada estudiada uèi
+statistics-today-no-mature-cards = Nulle cartas matur esseva studiate hodie.
+statistics-today-correct-mature = Corriger le responsas sur le cartas matur: { $correct }/{ $total } ({ $percent }%)

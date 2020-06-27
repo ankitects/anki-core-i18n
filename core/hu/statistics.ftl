@@ -43,9 +43,6 @@ statistics-in-time-span-years =
         [one] { $amount } év alatt
        *[other] { $amount } év alatt
     }
-
-##
-
 statistics-cards =
     { $cards ->
         [one] { $cards } kártyát
@@ -72,3 +69,9 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     }alatt a mai napon
     ({ $secs-per-card } mp/kártya)
+statistics-today-title = Ma
+statistics-today-again-count = „Újra” válaszok száma:
+statistics-today-type-counts = Tanulás: { $learnCount }, ismétlés: { $reviewCount }, újratanulás: { $relearnCount }, szűrtek száma: { $filteredCount }
+statistics-today-no-cards = Ma még nem tanultál.
+statistics-today-no-mature-cards = Ma még egyetlen veterán kártyát sem tanultál.
+statistics-today-correct-mature = Helyes válaszok a veterán kártyákra: { $correct }/{ $total } ({ $percent }%)

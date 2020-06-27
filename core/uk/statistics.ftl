@@ -55,9 +55,6 @@ statistics-in-time-span-years =
         [many] за { $amount } років
        *[other] за { $amount } років
     }
-
-##
-
 statistics-cards =
     { $cards ->
         [one] { $cards } картка
@@ -88,3 +85,8 @@ statistics-studied-today =
     } ({ $secs-per-card }s/картку)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }с
+statistics-today-title = Сьогодні
+statistics-today-again-count = Кількість карток з відповіддю "Знову":
+statistics-today-type-counts = Вивчити: { $learnCount }, Повторити: { $reviewCount }, Перевчити: { $relearnCount }, Відфільтровано: { $filteredCount }
+statistics-today-no-mature-cards = Сьогодні не було пройдено жодної зрілої картки.
+statistics-today-correct-mature = Правильні відповіді по зрілим карткам: { $correct }/{ $total } ({ $percent }%)

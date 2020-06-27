@@ -19,9 +19,6 @@ statistics-in-time-span-hours = { $amount }小时后
 statistics-in-time-span-days = { $amount }天后
 statistics-in-time-span-months = { $amount }月后
 statistics-in-time-span-years = { $amount }年后
-
-##
-
 statistics-cards = { $cards }张卡片
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
@@ -36,5 +33,10 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }（{ $secs-per-card }秒/张）
-statistics-reviews = {$reviews} 次复习
-
+statistics-reviews = { $reviews } 次复习
+statistics-today-title = 今天
+statistics-today-again-count = 重复计数:
+statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已过滤: { $filteredCount }
+statistics-today-no-cards = 今天无卡片被学习过
+statistics-today-no-mature-cards = 今天没有到期卡片被学习
+statistics-today-correct-mature = 熟练卡片的正确答案：{ $correct }/{ $total } ({ $percent }%)

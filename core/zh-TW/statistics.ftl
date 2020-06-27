@@ -37,9 +37,6 @@ statistics-in-time-span-years =
     { $amount ->
        *[other] { $amount }年內
     }
-
-##
-
 statistics-cards = { $cards }張卡片
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews }張待複習卡片
@@ -58,3 +55,8 @@ statistics-studied-today =
     }學習了{ statistics-cards }（每張卡片{ $secs-per-card }秒）
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }秒
+statistics-today-title = 今天
+statistics-today-again-count = 按了幾次「再一次」：%s
+statistics-today-type-counts = 學習：{ $learnCount }　複習：{ $reviewCount }　重複學習：{ $relearnCount }　已篩選：{ $filteredCount }
+statistics-today-no-mature-cards = 今天沒有學習熟練的卡片
+statistics-today-correct-mature = 熟練卡片的正確答案：{ $correct }/{ $total } ({ $percent }%)

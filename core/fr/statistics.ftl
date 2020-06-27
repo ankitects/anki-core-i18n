@@ -47,9 +47,6 @@ statistics-in-time-span-years =
         [one] en { $amount } année
        *[other] en { $amount } années
     }
-
-##
-
 statistics-cards =
     { $cards ->
         [one] { $cards } carte étudiée
@@ -76,3 +73,9 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } aujourd'hui
     ({ $secs-per-card }s/carte)
+statistics-today-title = Aujourd’hui
+statistics-today-again-count = Oublis :
+statistics-today-type-counts = Apprises : { $learnCount }, Revues : { $reviewCount }, Réapprises : { $relearnCount }, Filtrées : { $filteredCount }
+statistics-today-no-cards = Aucune carte étudiée aujourd'hui.
+statistics-today-no-mature-cards = Aucune carte mature n'a été étudiée aujourd'hui.
+statistics-today-correct-mature = Réponses exactes sur les cartes matures : { $correct }/{ $total } ({ $percent }%)

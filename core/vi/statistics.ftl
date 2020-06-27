@@ -1,7 +1,10 @@
-
 statistics-due-date = Đến hạn
-
 statistics-due-count = Đến hạn
-statistics-cards-per-min = {$cards-per-minute} thẻ / phút
-statistics-cards = {$cards} thẻ
-statistics-reviews = {$reviews} thẻ ôn tập
+statistics-cards-per-min = { $cards-per-minute } thẻ / phút
+statistics-cards = { $cards } thẻ
+statistics-reviews = { $reviews } thẻ ôn tập
+statistics-today-title = Hôm nay
+statistics-today-again-count = Học lại:
+statistics-today-type-counts = Học: { $learnCount }, Ôn: { $reviewCount }, Học lại: { $relearnCount }, Lọc: { $filteredCount }
+statistics-today-no-mature-cards = Chưa có thẻ trưởng thành học trong hôm nay.
+statistics-today-correct-mature = Số trả lời đúng thẻ trưởng thành: { $correct }/{ $total } ({ $percent }%)

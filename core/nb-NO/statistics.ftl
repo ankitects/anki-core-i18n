@@ -43,9 +43,6 @@ statistics-in-time-span-years =
         [one] i { $amount } år
        *[other] i { $amount } år
     }
-
-##
-
 statistics-cards =
     { $cards ->
         [one] { $cards } kort
@@ -72,3 +69,5 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } i dag
     ({ $secs-per-card }s/kort)
+statistics-today-title = I dag
+statistics-today-again-count = Gjentatt antall:
