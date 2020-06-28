@@ -20,6 +20,9 @@ statistics-in-time-span-days = { $amount }日後
 statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚のカード
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews } 枚の復習カード
 # Shown at the bottom of the deck list, and in the statistics screen.
@@ -35,6 +38,8 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }で学習しています ({ $secs-per-card }秒/枚)
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }秒
 statistics-today-title = 今日
 statistics-today-again-count = 忘却回数:
 statistics-today-type-counts = 基本学習: { $learnCount }枚、復習: { $reviewCount }枚、再基本学習: { $relearnCount }枚、フィルター: { $filteredCount }枚
@@ -47,25 +52,24 @@ statistics-counts-young-cards = 復習(未熟)
 statistics-counts-mature-cards = 復習(熟知)
 statistics-counts-suspended-cards = 保留
 statistics-counts-buried-cards = 延期
+statistics-counts-learning-cards = 基本学習（再基本学習も含む）
 statistics-range-all-time = 全期間
 statistics-range-deck = デッキ
 statistics-range-collection = コレクション
 statistics-range-search = 検索
 statistics-future-due-title = 予測
-statistics-reviews-title = 復習
-statistics-intervals-title = 間隔
-statistics-answer-buttons-title = 回答ボタン
-statistics-hours-title = 時間帯ごとの分析
-statistics-added-title = 追加
-statistics-axis-label-answer-count = 回答数
-statistics-axis-label-card-count = カード
-statistics-axis-label-review-time = 履歴（時間）
 statistics-future-due-subtitle = 復習期日が来るカードの枚数
+statistics-added-title = 追加
 statistics-added-subtitle = 新規カードの追加枚数
 statistics-reviews-count-subtitle = カードに回答した回数
 statistics-reviews-time-subtitle = カードの学習に費やした時間
-statistics-intervals-subtitle = 次の復習予定日
+statistics-answer-buttons-title = 回答ボタン
+# eg Button: 4
+statistics-answer-buttons-button-number = ボタン
 statistics-answer-buttons-subtitle = 各ボタンを押した回数
-statistics-hours-subtitle = 時間帯ごとの正解率
-statistics-counts-learning-cards = 基本学習（再基本学習も含む）
+statistics-reviews-title = 復習
 statistics-reviews-time-checkbox = 時間
+statistics-intervals-title = 間隔
+statistics-intervals-subtitle = 次の復習予定日
+statistics-hours-title = 時間帯ごとの分析
+statistics-hours-subtitle = 時間帯ごとの正解率
