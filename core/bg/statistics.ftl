@@ -17,3 +17,7 @@ statistics-today-again-count = Брой отговори "Отново":
 statistics-today-type-counts = Научение (нови): { $learnCount }, Преговорени: { $reviewCount }, Научени отново: { $relearnCount }, Филтрирани: { $filteredCount }
 statistics-today-no-mature-cards = Зрели карти не бяха учени днес.
 statistics-today-correct-mature = Правилни отговори на зрели карти: { $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = Общо карти
+statistics-counts-new-cards = Нови
+statistics-counts-mature-cards = Зрели
+statistics-range-all-time = целия живот на тестето

@@ -52,3 +52,6 @@ statistics-reviews =
     }
 statistics-today-title = Ass-a
 statistics-today-again-count = Siḍen tikkelt-nniḍen:
+statistics-counts-new-cards = Rnu
+statistics-counts-suspended-cards = Yeḥbes
+statistics-range-all-time = tudert n ukemmus

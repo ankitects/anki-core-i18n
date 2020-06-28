@@ -8,3 +8,7 @@ statistics-reviews =
 statistics-today-title = Danes
 statistics-today-again-count = Ponovno štetje:
 statistics-today-type-counts = Učenje: { $learnCount }, Pregled: { $reviewCount }, Ponovno učenje: { $relearnCount }, Filtrirano: { $filteredCount }
+statistics-counts-total-cards = Skupaj kartic
+statistics-counts-new-cards = Novo
+statistics-counts-young-cards = Sveže
+statistics-counts-mature-cards = Zrel

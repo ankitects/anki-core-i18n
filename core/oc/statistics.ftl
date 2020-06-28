@@ -22,3 +22,4 @@ statistics-reviews =
     }
 statistics-today-again-count = Doblits :
 statistics-today-no-cards = Cap carta es estada estudiada uèi
+statistics-counts-new-cards = Novèl

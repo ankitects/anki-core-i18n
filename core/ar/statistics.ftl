@@ -18,3 +18,5 @@ statistics-reviews =
        *[other] { $reviews } مذاكرات
     }
 statistics-today-again-count = %s :"عدد البطاقات المجابة بـ "مجددًا
+statistics-counts-suspended-cards = موقوف
+statistics-counts-buried-cards = مدفونة

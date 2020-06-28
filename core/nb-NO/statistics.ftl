@@ -71,3 +71,8 @@ statistics-studied-today =
     ({ $secs-per-card }s/kort)
 statistics-today-title = I dag
 statistics-today-again-count = Gjentatt antall:
+statistics-counts-new-cards = Ny
+statistics-counts-young-cards = Ung
+statistics-counts-mature-cards = Gamle
+statistics-counts-suspended-cards = Deaktivert
+statistics-counts-buried-cards = Begravde

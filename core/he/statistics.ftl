@@ -59,3 +59,7 @@ statistics-today-title = היום
 statistics-today-no-cards = לא נלמדו כרטיסיות היום.
 statistics-today-no-mature-cards = לא נלמדו כרטיסיות בוגרות היום.
 statistics-today-correct-mature = תשובות נכונות בכרטיסיות בוגרות: { $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = סך-הכל כרטיסיות
+statistics-counts-mature-cards = בוגר
+statistics-counts-suspended-cards = מושהה
+statistics-range-all-time = משך חיי חפיסה

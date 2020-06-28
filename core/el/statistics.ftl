@@ -12,3 +12,6 @@ statistics-reviews =
        *[other] { $reviews } αναθεωρήσεις
     }
 statistics-today-again-count = Επανακαταμέτρηση:
+statistics-counts-new-cards = Νέο
+statistics-counts-suspended-cards = Σε αναστολή
+statistics-range-all-time = ζωή της τράπουλας
