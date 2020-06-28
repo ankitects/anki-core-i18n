@@ -48,3 +48,6 @@ statistics-counts-mature-cards = 復習(熟知)
 statistics-counts-suspended-cards = 保留
 statistics-counts-buried-cards = 延期
 statistics-range-all-time = 全期間
+statistics-range-deck = デッキ
+statistics-range-collection = コレクション
+statistics-range-search = 検索

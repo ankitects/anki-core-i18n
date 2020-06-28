@@ -30,3 +30,6 @@ statistics-counts-young-cards = Свеже
 statistics-counts-mature-cards = Развијен
 statistics-counts-suspended-cards = Обустављено
 statistics-range-all-time = све време
+statistics-range-deck = пакет
+statistics-range-collection = колекција
+statistics-range-search = Тражи

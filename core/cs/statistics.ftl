@@ -79,3 +79,6 @@ statistics-counts-mature-cards = Zralé
 statistics-counts-suspended-cards = Odložené
 statistics-counts-buried-cards = Přeskočené
 statistics-range-all-time = stáří balíku
+statistics-range-deck = balík
+statistics-range-collection = kolekce
+statistics-range-search = Hledat

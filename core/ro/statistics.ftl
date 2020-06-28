@@ -71,3 +71,6 @@ statistics-counts-young-cards = Tinere
 statistics-counts-mature-cards = Matur(e)
 statistics-counts-suspended-cards = Suspendate
 statistics-range-all-time = viață pachet
+statistics-range-deck = pachet
+statistics-range-collection = colecție
+statistics-range-search = Caută

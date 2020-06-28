@@ -63,3 +63,6 @@ statistics-counts-mature-cards = Volwassen
 statistics-counts-suspended-cards = Opgeschort
 statistics-counts-buried-cards = Begraven
 statistics-range-all-time = levensduur set
+statistics-range-deck = set
+statistics-range-collection = collectie
+statistics-range-search = Zoeken

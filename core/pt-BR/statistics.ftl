@@ -64,3 +64,6 @@ statistics-counts-mature-cards = Maduro
 statistics-counts-suspended-cards = Suspenso
 statistics-counts-buried-cards = Enterrado
 statistics-range-all-time = sempre
+statistics-range-deck = baralho
+statistics-range-collection = coleção
+statistics-range-search = Procurar

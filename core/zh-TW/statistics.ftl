@@ -66,3 +66,6 @@ statistics-counts-young-cards = 年輕卡
 statistics-counts-mature-cards = 熟練
 statistics-counts-suspended-cards = 長久擱置
 statistics-range-all-time = 全部時間
+statistics-range-deck = 牌組
+statistics-range-collection = 收藏
+statistics-range-search = 搜尋

@@ -63,3 +63,6 @@ statistics-counts-mature-cards = Հասունները
 statistics-counts-suspended-cards = Հեռացվածները
 statistics-counts-buried-cards = Առանձնացված
 statistics-range-all-time = ամբողջ ընթացքում
+statistics-range-deck = կապուկ
+statistics-range-collection = հավաքածու
+statistics-range-search = Որոնում

@@ -63,3 +63,6 @@ statistics-counts-mature-cards = Maljuna
 statistics-counts-suspended-cards = Daŭre kaŝita
 statistics-counts-buried-cards = kaŝita por tago
 statistics-range-all-time = Ekde kreo
+statistics-range-deck = kartaro
+statistics-range-collection = kolekto
+statistics-range-search = Serĉi

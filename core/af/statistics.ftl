@@ -22,3 +22,6 @@ statistics-counts-young-cards = Jonk
 statistics-counts-mature-cards = Volwasse
 statistics-counts-suspended-cards = Opgeskorte
 statistics-range-all-time = kaartpak tydlyn
+statistics-range-deck = kaartpak
+statistics-range-collection = versameling
+statistics-range-search = Soek

@@ -84,3 +84,6 @@ statistics-counts-mature-cards = Maduras
 statistics-counts-suspended-cards = Suspendidas
 statistics-counts-buried-cards = Enterrados
 statistics-range-all-time = vida del mazo
+statistics-range-deck = mazo
+statistics-range-collection = colección
+statistics-range-search = Buscar

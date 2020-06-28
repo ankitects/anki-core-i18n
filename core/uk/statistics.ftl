@@ -96,3 +96,6 @@ statistics-counts-young-cards = Незрілі
 statistics-counts-mature-cards = Зрілі
 statistics-counts-suspended-cards = Відкладені
 statistics-range-all-time = тривалість життя колоди
+statistics-range-deck = колода
+statistics-range-collection = колекція
+statistics-range-search = Пошук

@@ -25,3 +25,6 @@ statistics-counts-young-cards = Mladé
 statistics-counts-mature-cards = Zrelé
 statistics-counts-suspended-cards = Odložené bokom
 statistics-range-all-time = existencia balíčka
+statistics-range-deck = balíček
+statistics-range-collection = zbierka
+statistics-range-search = Hľadať

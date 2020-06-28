@@ -63,3 +63,4 @@ statistics-counts-total-cards = סך-הכל כרטיסיות
 statistics-counts-mature-cards = בוגר
 statistics-counts-suspended-cards = מושהה
 statistics-range-all-time = משך חיי חפיסה
+statistics-range-deck = חפיסה

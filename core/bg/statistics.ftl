@@ -21,3 +21,6 @@ statistics-counts-total-cards = Общо карти
 statistics-counts-new-cards = Нови
 statistics-counts-mature-cards = Зрели
 statistics-range-all-time = целия живот на тестето
+statistics-range-deck = тесте
+statistics-range-collection = колекцията
+statistics-range-search = Търсене

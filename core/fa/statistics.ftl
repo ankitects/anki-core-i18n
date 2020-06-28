@@ -74,3 +74,6 @@ statistics-counts-young-cards = موقت
 statistics-counts-mature-cards = دائم
 statistics-counts-suspended-cards = معلق شده
 statistics-range-all-time = عمر دسته
+statistics-range-deck = دسته
+statistics-range-collection = مجموعه
+statistics-range-search = جست و جو

@@ -23,3 +23,6 @@ statistics-counts-mature-cards = Varmat
 statistics-counts-suspended-cards = Hyllytetyt
 statistics-counts-buried-cards = Haudattu
 statistics-range-all-time = pakan elinkaari
+statistics-range-deck = pakka
+statistics-range-collection = kokoelma
+statistics-range-search = Etsi

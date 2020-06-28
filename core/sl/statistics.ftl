@@ -12,3 +12,6 @@ statistics-counts-total-cards = Skupaj kartic
 statistics-counts-new-cards = Novo
 statistics-counts-young-cards = Sveže
 statistics-counts-mature-cards = Zrel
+statistics-range-deck = paket
+statistics-range-collection = zbirka
+statistics-range-search = Iskanje

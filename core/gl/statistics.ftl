@@ -22,3 +22,6 @@ statistics-counts-young-cards = Novo/a
 statistics-counts-mature-cards = Antigas
 statistics-counts-suspended-cards = Suspendida
 statistics-range-all-time = vida do feixe
+statistics-range-deck = feixe
+statistics-range-collection = colección
+statistics-range-search = Busca

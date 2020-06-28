@@ -55,3 +55,6 @@ statistics-today-again-count = Siḍen tikkelt-nniḍen:
 statistics-counts-new-cards = Rnu
 statistics-counts-suspended-cards = Yeḥbes
 statistics-range-all-time = tudert n ukemmus
+statistics-range-deck = akemmus
+statistics-range-collection = tagrumma
+statistics-range-search = Nadi

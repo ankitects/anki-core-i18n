@@ -82,3 +82,6 @@ statistics-counts-mature-cards = Alte Karten
 statistics-counts-suspended-cards = Ausgesetzt
 statistics-counts-buried-cards = Zurückgestellt
 statistics-range-all-time = Stapel-Lebensdauer
+statistics-range-deck = Stapel
+statistics-range-collection = Sammlung
+statistics-range-search = Suche

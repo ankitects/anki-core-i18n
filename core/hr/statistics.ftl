@@ -9,3 +9,6 @@ statistics-cards =
 statistics-counts-new-cards = Novo
 statistics-counts-suspended-cards = Suspendirano
 statistics-range-all-time = životni vijek špila
+statistics-range-deck = špil
+statistics-range-collection = komplet
+statistics-range-search = Pretraživanje

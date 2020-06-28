@@ -98,3 +98,6 @@ statistics-counts-mature-cards = Закреплённые
 statistics-counts-suspended-cards = Исключённые
 statistics-counts-buried-cards = Отложены
 statistics-range-all-time = всё время
+statistics-range-deck = пакет
+statistics-range-collection = коллекция
+statistics-range-search = Поиск

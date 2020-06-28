@@ -79,3 +79,6 @@ statistics-counts-young-cards = Giovani
 statistics-counts-suspended-cards = Sospese
 statistics-counts-buried-cards = Seppellito
 statistics-range-all-time = vita del mazzo
+statistics-range-deck = mazzo
+statistics-range-collection = collezione
+statistics-range-search = Cerca

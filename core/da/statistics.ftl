@@ -22,3 +22,6 @@ statistics-counts-young-cards = Ung
 statistics-counts-mature-cards = Moden
 statistics-counts-suspended-cards = Suspenderet
 statistics-range-all-time = levetid for kortsæt
+statistics-range-deck = kortsæt
+statistics-range-collection = samling
+statistics-range-search = Søg

@@ -21,3 +21,5 @@ statistics-counts-new-cards = Yeni
 statistics-counts-young-cards = Genç
 statistics-counts-mature-cards = Geçmiş
 statistics-counts-suspended-cards = Askıya Alındı
+statistics-range-deck = deste
+statistics-range-search = Ara

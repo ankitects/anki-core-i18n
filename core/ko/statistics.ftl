@@ -32,3 +32,6 @@ statistics-counts-mature-cards = 성숙한 카드
 statistics-counts-suspended-cards = 보류됨
 statistics-counts-buried-cards = 덮음
 statistics-range-all-time = 뭉치 일생
+statistics-range-deck = 뭉치
+statistics-range-collection = 모음집
+statistics-range-search = 찾기

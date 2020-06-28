@@ -86,3 +86,6 @@ statistics-counts-mature-cards = Mature
 statistics-counts-suspended-cards = Suspendu
 statistics-counts-buried-cards = Enfoui
 statistics-range-all-time = vie du paquet
+statistics-range-deck = paquet
+statistics-range-collection = collection
+statistics-range-search = Chercher

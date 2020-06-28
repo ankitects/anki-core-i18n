@@ -82,3 +82,6 @@ statistics-counts-mature-cards = Veterán
 statistics-counts-suspended-cards = Felfüggesztve
 statistics-counts-buried-cards = Elmentve
 statistics-range-all-time = csomag élettartama
+statistics-range-deck = csomag
+statistics-range-collection = gyűjtemény
+statistics-range-search = Keresés

@@ -27,3 +27,6 @@ statistics-counts-young-cards = Gazte
 statistics-counts-mature-cards = heldua
 statistics-counts-suspended-cards = Etenda
 statistics-range-all-time = Sortko bizitza
+statistics-range-deck = karta-sorta
+statistics-range-collection = bilduma
+statistics-range-search = Bilatu

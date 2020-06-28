@@ -47,3 +47,6 @@ statistics-counts-mature-cards = 熟练
 statistics-counts-suspended-cards = 已暂停
 statistics-counts-buried-cards = 被占用
 statistics-range-all-time = 牌组使用期
+statistics-range-deck = 牌组
+statistics-range-collection = 集合
+statistics-range-search = 搜索

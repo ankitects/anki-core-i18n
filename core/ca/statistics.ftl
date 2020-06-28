@@ -84,3 +84,6 @@ statistics-counts-mature-cards = Matur
 statistics-counts-suspended-cards = Suspendite
 statistics-counts-buried-cards = Inhumate
 statistics-range-all-time = vita del fasce
+statistics-range-deck = fasce
+statistics-range-collection = col·lecció
+statistics-range-search = Cercar

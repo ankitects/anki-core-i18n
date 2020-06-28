@@ -98,3 +98,6 @@ statistics-counts-mature-cards = Dojrzałe
 statistics-counts-suspended-cards = Zawieszone
 statistics-counts-buried-cards = Zakopane
 statistics-range-all-time = czas życia talii
+statistics-range-deck = talia
+statistics-range-collection = kolekcja
+statistics-range-search = Szukaj

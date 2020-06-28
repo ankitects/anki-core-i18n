@@ -76,3 +76,6 @@ statistics-counts-young-cards = Ung
 statistics-counts-mature-cards = Gamle
 statistics-counts-suspended-cards = Deaktivert
 statistics-counts-buried-cards = Begravde
+statistics-range-deck = kortstokk
+statistics-range-collection = samling
+statistics-range-search = Søk

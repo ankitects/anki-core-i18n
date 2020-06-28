@@ -32,3 +32,6 @@ statistics-counts-mature-cards = Mogna
 statistics-counts-suspended-cards = Uteslutet
 statistics-counts-buried-cards = Gömt
 statistics-range-all-time = kortlekens liv
+statistics-range-deck = kortlek
+statistics-range-collection = samling
+statistics-range-search = Sök

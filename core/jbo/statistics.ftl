@@ -46,3 +46,6 @@ statistics-counts-young-cards = na'e makcu
 statistics-counts-mature-cards = makcu
 statistics-counts-suspended-cards = se mipri
 statistics-counts-buried-cards = zasni se mipri
+statistics-range-deck = karda selcmi
+statistics-range-collection = karda selcmi selcmi
+statistics-range-search = sisku

@@ -14,3 +14,6 @@ statistics-counts-young-cards = Trẻ
 statistics-counts-mature-cards = Trưởng thành
 statistics-counts-suspended-cards = Dừng
 statistics-range-all-time = dòng đời bộ thẻ
+statistics-range-deck = bộ thẻ
+statistics-range-collection = bộ sưu tập
+statistics-range-search = Tìm
