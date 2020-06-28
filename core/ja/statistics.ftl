@@ -52,11 +52,21 @@ statistics-counts-young-cards = 復習(未熟)
 statistics-counts-mature-cards = 復習(熟知)
 statistics-counts-suspended-cards = 保留
 statistics-counts-buried-cards = 延期
+statistics-counts-early-cards = 期日前
 statistics-counts-learning-cards = 基本学習（再基本学習も含む）
+statistics-counts-relearning-cards = 学び直し
+statistics-counts-title = カード数
 statistics-range-all-time = 全期間
 statistics-range-deck = デッキ
 statistics-range-collection = コレクション
 statistics-range-search = 検索
+statistics-card-ease-title = カード難易度
+statistics-card-ease-subtitle = 難易度が低いほど、カードの頻出度が上がります。
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+       *[other] 難易度{ $percent }のカードが{ $cards }枚
+    }
 statistics-future-due-title = 予測
 statistics-future-due-subtitle = 復習期日が来るカードの枚数
 statistics-added-title = 追加
@@ -66,10 +76,42 @@ statistics-reviews-time-subtitle = カードの学習に費やした時間
 statistics-answer-buttons-title = 回答ボタン
 # eg Button: 4
 statistics-answer-buttons-button-number = ボタン
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = 回答数
 statistics-answer-buttons-subtitle = 各ボタンを押した回数
 statistics-reviews-title = 復習
 statistics-reviews-time-checkbox = 時間
+statistics-in-days-single =
+    { $days ->
+        [0] 今日
+        [1] 明日
+       *[other] { $days }日後
+    }
+statistics-in-days-range = { $daysStart }-{ $daysEnd }日後
+statistics-days-ago-single =
+    { $days ->
+        [1] 昨日
+       *[other] { $days }日前
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd }日後
+statistics-running-total = 合計累積
+statistics-cards-due =
+    { $cards ->
+       *[other] { $cards }枚学習予定
+    }
+statistics-backlog-checkbox = 期日超過
 statistics-intervals-title = 間隔
 statistics-intervals-subtitle = 次の復習予定日
+statistics-intervals-day-range =
+    { $cards ->
+       *[other] 間隔が{ $daysStart }~{ $daysEnd }日のカードが{ $cards }枚
+    }
+statistics-intervals-day-single =
+    { $cards ->
+       *[other] 間隔が{ $day }日のカードが{ $cards }枚
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }時~{ $hourEnd }時
+statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
 statistics-hours-title = 時間帯ごとの分析
 statistics-hours-subtitle = 時間帯ごとの正解率
