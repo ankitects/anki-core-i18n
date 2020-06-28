@@ -13,3 +13,5 @@ statistics-counts-young-cards = Noor
 statistics-counts-mature-cards = Vana
 statistics-counts-suspended-cards = Peatatud
 statistics-range-search = Otsi
+statistics-reviews-title = Kordamised
+statistics-added-title = Lisatud

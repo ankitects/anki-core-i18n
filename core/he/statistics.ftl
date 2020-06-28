@@ -64,3 +64,7 @@ statistics-counts-mature-cards = בוגר
 statistics-counts-suspended-cards = מושהה
 statistics-range-all-time = משך חיי חפיסה
 statistics-range-deck = חפיסה
+statistics-future-due-title = תחזית
+statistics-reviews-title = סקירות
+statistics-answer-buttons-title = כפתורי תשובה
+statistics-added-title = נוספו

@@ -15,3 +15,7 @@ statistics-counts-mature-cards = Zrel
 statistics-range-deck = paket
 statistics-range-collection = zbirka
 statistics-range-search = Iskanje
+statistics-future-due-title = Napoved
+statistics-intervals-title = Intervalie
+statistics-answer-buttons-title = Gumbi z odgovori
+statistics-hours-title = Razčlenitev po urah

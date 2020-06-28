@@ -10,3 +10,4 @@ statistics-reviews =
        *[other] { $reviews } recognitiones
     }
 statistics-range-deck = pila cartarum
+statistics-added-title = Additum esse

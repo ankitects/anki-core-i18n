@@ -12,3 +12,5 @@ statistics-range-all-time = životni vijek špila
 statistics-range-deck = špil
 statistics-range-collection = komplet
 statistics-range-search = Pretraživanje
+statistics-reviews-title = Ponavljanja
+statistics-added-title = Dodano

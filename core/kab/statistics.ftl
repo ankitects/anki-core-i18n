@@ -58,3 +58,6 @@ statistics-range-all-time = tudert n ukemmus
 statistics-range-deck = akemmus
 statistics-range-collection = tagrumma
 statistics-range-search = Nadi
+statistics-intervals-title = Izilalen
+statistics-answer-buttons-title = Tiqeffalin n tririt
+statistics-added-title = yettwarna

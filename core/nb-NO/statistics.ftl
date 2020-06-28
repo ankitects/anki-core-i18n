@@ -79,3 +79,7 @@ statistics-counts-buried-cards = Begravde
 statistics-range-deck = kortstokk
 statistics-range-collection = samling
 statistics-range-search = Søk
+statistics-reviews-title = Gjennomganger
+statistics-intervals-title = Intervaller
+statistics-answer-buttons-title = Svarknapper
+statistics-added-title = Lagt til

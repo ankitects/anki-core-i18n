@@ -20,3 +20,6 @@ statistics-reviews =
 statistics-today-again-count = %s :"عدد البطاقات المجابة بـ "مجددًا
 statistics-counts-suspended-cards = موقوف
 statistics-counts-buried-cards = مدفونة
+statistics-reviews-title = مراجعات
+statistics-answer-buttons-title = أزرار الإجابة
+statistics-added-title = اُضيفت

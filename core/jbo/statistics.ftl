@@ -49,3 +49,7 @@ statistics-counts-buried-cards = zasni se mipri
 statistics-range-deck = karda selcmi
 statistics-range-collection = karda selcmi selcmi
 statistics-range-search = sisku
+statistics-future-due-title = balvi
+statistics-reviews-title = morji
+statistics-answer-buttons-title = te spuda batkyuidje
+statistics-added-title = se jmina

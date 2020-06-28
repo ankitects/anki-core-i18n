@@ -23,3 +23,7 @@ statistics-reviews =
 statistics-today-again-count = Doblits :
 statistics-today-no-cards = Cap carta es estada estudiada uèi
 statistics-counts-new-cards = Novèl
+statistics-future-due-title = Previsions
+statistics-reviews-title = Revisions
+statistics-answer-buttons-title = Botons de responsa
+statistics-added-title = Apondut

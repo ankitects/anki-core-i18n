@@ -7,3 +7,4 @@ statistics-cards =
         [many] { $cards } cártaí
        *[other] { $cards } cártaí
     }
+statistics-added-title = Curtha leis
