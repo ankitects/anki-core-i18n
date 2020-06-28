@@ -61,3 +61,5 @@ statistics-range-search = Nadi
 statistics-intervals-title = Izilalen
 statistics-answer-buttons-title = Tiqeffalin n tririt
 statistics-added-title = yettwarna
+statistics-axis-label-answer-count = Tiririyin
+statistics-axis-label-card-count = Tikaṛḍiwin

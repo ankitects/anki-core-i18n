@@ -23,3 +23,5 @@ statistics-counts-buried-cards = مدفونة
 statistics-reviews-title = مراجعات
 statistics-answer-buttons-title = أزرار الإجابة
 statistics-added-title = اُضيفت
+statistics-axis-label-answer-count = الإجابات
+statistics-axis-label-card-count = البطاقات

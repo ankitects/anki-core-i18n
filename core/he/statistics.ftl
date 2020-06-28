@@ -68,3 +68,7 @@ statistics-future-due-title = תחזית
 statistics-reviews-title = סקירות
 statistics-answer-buttons-title = כפתורי תשובה
 statistics-added-title = נוספו
+statistics-axis-label-answer-count = תשובות
+statistics-axis-label-card-count = כרטיסיות
+statistics-added-subtitle = מספר הכרטיסיות החדשות שאתה הוספת.
+statistics-intervals-subtitle = עיקובים עד שסקירות מופיעות שנית.

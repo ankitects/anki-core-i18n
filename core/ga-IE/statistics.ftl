@@ -8,3 +8,5 @@ statistics-cards =
        *[other] { $cards } cártaí
     }
 statistics-added-title = Curtha leis
+statistics-axis-label-answer-count = Freagraí
+statistics-axis-label-card-count = Cártaí

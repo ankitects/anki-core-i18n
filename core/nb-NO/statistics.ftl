@@ -83,3 +83,5 @@ statistics-reviews-title = Gjennomganger
 statistics-intervals-title = Intervaller
 statistics-answer-buttons-title = Svarknapper
 statistics-added-title = Lagt til
+statistics-axis-label-answer-count = Svar
+statistics-axis-label-card-count = Kort

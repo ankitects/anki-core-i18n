@@ -27,3 +27,5 @@ statistics-future-due-title = Previsions
 statistics-reviews-title = Revisions
 statistics-answer-buttons-title = Botons de responsa
 statistics-added-title = Apondut
+statistics-axis-label-answer-count = Responsas
+statistics-axis-label-card-count = Cartas
