@@ -48,6 +48,9 @@ statistics-cards =
         [one] { $cards } card
        *[other] { $cards } cards
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
