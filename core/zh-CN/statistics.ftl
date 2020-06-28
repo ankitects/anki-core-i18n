@@ -66,3 +66,5 @@ statistics-reviews-time-subtitle = 答题用时
 statistics-intervals-subtitle = 延迟直到复习再次出现。
 statistics-answer-buttons-subtitle = 按下每个按钮的次数.
 statistics-hours-subtitle = 当天每小时的复习成功率
+statistics-counts-learning-cards = 正在进行的课程
+statistics-reviews-time-checkbox = 时间

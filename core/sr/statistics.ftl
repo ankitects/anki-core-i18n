@@ -49,3 +49,5 @@ statistics-reviews-time-subtitle = Време потрошено на одгов
 statistics-intervals-subtitle = Поново се појављује кашњење одзива.
 statistics-answer-buttons-subtitle = Колико пута сте притиснули свако дугме.
 statistics-hours-subtitle = Прегледајте свој успех за сваки сат у току дана
+statistics-counts-learning-cards = Учење
+statistics-reviews-time-checkbox = време

@@ -28,3 +28,4 @@ statistics-axis-label-card-count = Κάρτες
 statistics-reviews-count-subtitle = Ο αριθμός των ερωτήσεων που έχετε απαντήσει.
 statistics-reviews-time-subtitle = Ο χρόνος που πήρατε για να απαντήσετε στις ερωτήσεις.
 statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατήσει το κάθε κουμπί.
+statistics-counts-learning-cards = Εκμάθηση

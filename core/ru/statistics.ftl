@@ -117,3 +117,5 @@ statistics-reviews-time-subtitle = Время, затраченное на от�
 statistics-intervals-subtitle = Задержки перед следующим повторением.
 statistics-answer-buttons-subtitle = Сколько раз Вы нажали каждую кнопку.
 statistics-hours-subtitle = Доля удачных просмотров в определенный час
+statistics-counts-learning-cards = Изучаемые
+statistics-reviews-time-checkbox = Время

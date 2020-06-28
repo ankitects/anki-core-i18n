@@ -42,3 +42,5 @@ statistics-reviews-time-subtitle = Kysymyksiin vastaamiseen käytetty aika.
 statistics-intervals-subtitle = Viivästykset, joiden jälkeen kerrattavat kortit näytetään uudestaan.
 statistics-answer-buttons-subtitle = Kunkin painikkeen painalluskertojen määrä.
 statistics-hours-subtitle = Kertausten onnistumisaste tunneittain
+statistics-counts-learning-cards = Opiskeltavat
+statistics-reviews-time-checkbox = Aika

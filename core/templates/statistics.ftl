@@ -102,3 +102,5 @@ statistics-reviews-time-subtitle = The time taken to answer the questions.
 statistics-intervals-subtitle = Delays until reviews are shown again.
 statistics-answer-buttons-subtitle = The number of times you have pressed each button.
 statistics-hours-subtitle = Review success rate for each hour of the day.
+statistics-counts-learning-cards = Learning
+statistics-reviews-time-checkbox = Time

@@ -41,3 +41,5 @@ statistics-reviews-time-subtitle = Die tyd wat dit neem om die vrae te beantwoor
 statistics-intervals-subtitle = Vertragings tot hersienings weer getoon word.
 statistics-answer-buttons-subtitle = Die aantal kere wat jy elke knoppie gedruk het.
 statistics-hours-subtitle = Hersien sukses koers vir elke uur van die dag.
+statistics-counts-learning-cards = Leer
+statistics-reviews-time-checkbox = Tyd

@@ -51,3 +51,5 @@ statistics-reviews-time-subtitle = Hur lång tid det tagit att repetera korten.
 statistics-intervals-subtitle = Tid tills du får repetera ett kort igen.
 statistics-answer-buttons-subtitle = Antalet gånger du tryckt på varje knapp.
 statistics-hours-subtitle = Hur ofta du svarar rätt beroende på tidpunkt på dagen.
+statistics-counts-learning-cards = Nya
+statistics-reviews-time-checkbox = Tid

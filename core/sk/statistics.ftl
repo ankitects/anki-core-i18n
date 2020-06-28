@@ -43,3 +43,5 @@ statistics-reviews-time-subtitle = Čas na zodpovedanie otázok.
 statistics-intervals-subtitle = Čas, po ktorom budú opakované karty znovu zobrazené.
 statistics-answer-buttons-subtitle = Počet stlačení jednotlivých tlačidiel.
 statistics-hours-subtitle = Percento úspešnosti pre každú hodinu dňa.
+statistics-counts-learning-cards = Na učenie
+statistics-reviews-time-checkbox = Čas

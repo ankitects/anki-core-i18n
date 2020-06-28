@@ -82,3 +82,5 @@ statistics-reviews-time-subtitle = Պատասխանների վրա ծախսվա�
 statistics-intervals-subtitle = Հետաձգումները հաջորդ կրկնությունից առաջ:
 statistics-answer-buttons-subtitle = Յուրաքանչյուր կոճակը սեղմելու քանակը:
 statistics-hours-subtitle = Հաջողակ կրկնությունների բաժինը օրվա յուրաքանչյուր ժամի համար:
+statistics-counts-learning-cards = Սովորվող
+statistics-reviews-time-checkbox = Ժամ

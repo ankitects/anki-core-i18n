@@ -33,3 +33,5 @@ statistics-reviews-time-subtitle = Thời gian trả lời câu hỏi.
 statistics-intervals-subtitle = Thời gian giãn cách đến khi hiện thẻ ôn tập lần nữa
 statistics-answer-buttons-subtitle = Số lần nhấn mỗi nút.
 statistics-hours-subtitle = Tỷ lệ ôn tập thành công mỗi giờ trong ngày
+statistics-counts-learning-cards = Đang học
+statistics-reviews-time-checkbox = Thời gian

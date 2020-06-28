@@ -101,3 +101,5 @@ statistics-reviews-time-subtitle = Bis zur Beantwortung der Frage vergangene Zei
 statistics-intervals-subtitle = Zeit, bis Karten erneut angezeigt werden.
 statistics-answer-buttons-subtitle = Wie häufig welche Antwortmöglichkeit gewählt wurde.
 statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
+statistics-counts-learning-cards = Lernen
+statistics-reviews-time-checkbox = Zeit

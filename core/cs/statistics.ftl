@@ -98,3 +98,5 @@ statistics-reviews-time-subtitle = Čas na zodpovězení.
 statistics-intervals-subtitle = Prodleva, než budou opakování znova ukázány.
 statistics-answer-buttons-subtitle = Kolikrát jste vybrali každou odpověď.
 statistics-hours-subtitle = Procento úspěšnosti podle hodiny.
+statistics-counts-learning-cards = Učení
+statistics-reviews-time-checkbox = Čas

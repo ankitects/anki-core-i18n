@@ -115,3 +115,5 @@ statistics-reviews-time-subtitle = Час, витрачений, щоб відп
 statistics-intervals-subtitle = Час, через який будуть знову показуватися картки для повторювання.
 statistics-answer-buttons-subtitle = Кількість разів, що ви натисли кожну кнопку.
 statistics-hours-subtitle = Продивитися процент успішності на кожну годину дня.
+statistics-counts-learning-cards = Навчання
+statistics-reviews-time-checkbox = Час

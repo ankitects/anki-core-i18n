@@ -51,3 +51,5 @@ statistics-reviews-time-subtitle = 질문에 답을 하기까지 걸린 시간
 statistics-intervals-subtitle = 다음 번 복습 때까지 기다리는 시간.
 statistics-answer-buttons-subtitle = 각 버튼을 누른 횟수
 statistics-hours-subtitle = 하루 중 시간대 별 정답률.
+statistics-counts-learning-cards = 익힘 카드
+statistics-reviews-time-checkbox = 시간

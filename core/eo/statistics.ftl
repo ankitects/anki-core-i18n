@@ -82,3 +82,5 @@ statistics-reviews-time-subtitle = La tempo, kiu pasis por respondi la demandojn
 statistics-intervals-subtitle = Intertempoj ĝis ripetoj denove montriĝas.
 statistics-answer-buttons-subtitle = Nombro de fojoj kiam vi premis specifajn butonojn.
 statistics-hours-subtitle = Sukceso-proporcio al horoj de la tago
+statistics-counts-learning-cards = Lernado
+statistics-reviews-time-checkbox = Tempo

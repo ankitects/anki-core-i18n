@@ -85,3 +85,4 @@ statistics-answer-buttons-title = Svarknapper
 statistics-added-title = Lagt til
 statistics-axis-label-answer-count = Svar
 statistics-axis-label-card-count = Kort
+statistics-reviews-time-checkbox = Tid

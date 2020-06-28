@@ -82,3 +82,5 @@ statistics-reviews-time-subtitle = De tijd die u nam om vragen te beantwoorden.
 statistics-intervals-subtitle = Vertragingen totdat herhalingen weer getoond worden.
 statistics-answer-buttons-subtitle = Het aantal keer dat u de verschillende knoppen heeft ingedrukt.
 statistics-hours-subtitle = Succespercentage voor elk uur van de dag bekijken.
+statistics-counts-learning-cards = Aan het leren
+statistics-reviews-time-checkbox = Tijd

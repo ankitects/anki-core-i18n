@@ -98,3 +98,5 @@ statistics-reviews-time-subtitle = Tempo impiegato per rispondere alle domande.
 statistics-intervals-subtitle = Differimento della ripresentazione delle ripetizioni.
 statistics-answer-buttons-subtitle = Numero di volte che hai premuto ogni pulsante.
 statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno
+statistics-counts-learning-cards = In apprendimento
+statistics-reviews-time-checkbox = Durata

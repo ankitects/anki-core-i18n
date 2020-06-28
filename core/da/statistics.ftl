@@ -41,3 +41,5 @@ statistics-reviews-time-subtitle = Tiden du har taget om at svare på spørgsmå
 statistics-intervals-subtitle = Forsinkelse indtil genopfriskelser vises igen.
 statistics-answer-buttons-subtitle = Antal gange du har trykket på hver knap.
 statistics-hours-subtitle = Genopfrisk-succesrate per time af dagen.
+statistics-counts-learning-cards = Indlæring
+statistics-reviews-time-checkbox = Tid

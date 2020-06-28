@@ -85,3 +85,5 @@ statistics-reviews-time-subtitle = 答題佔用的時間
 statistics-intervals-subtitle = 延遲至複習卡再度出現
 statistics-answer-buttons-subtitle = 各按鈕已按鍵次數
 statistics-hours-subtitle = 當日每小時的複習成功率。
+statistics-counts-learning-cards = 學習中
+statistics-reviews-time-checkbox = 時間

@@ -7,3 +7,4 @@ statistics-future-due-title = हवामान
 statistics-answer-buttons-title = उत्तर बटण
 statistics-added-title = जोडले
 statistics-axis-label-answer-count = उत्तरं
+statistics-counts-learning-cards = शिक्षण

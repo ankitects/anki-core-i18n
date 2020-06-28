@@ -103,3 +103,5 @@ statistics-reviews-time-subtitle = Le tempore prendite a responder le questiones
 statistics-intervals-subtitle = Retarda usque le revistas es monstrate de novo
 statistics-answer-buttons-subtitle = Le numero de vices tu ha pulsate cata button.
 statistics-hours-subtitle = Revider le taxo de successo pro cata hora del die.
+statistics-counts-learning-cards = Apprender
+statistics-reviews-time-checkbox = Tempore

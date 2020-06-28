@@ -40,3 +40,5 @@ statistics-reviews-time-subtitle = Необходимото време за от
 statistics-intervals-subtitle = Време до следващия преговор
 statistics-answer-buttons-subtitle = Колко пъти сте натиснали всеки бутон.
 statistics-hours-subtitle = Успешен
+statistics-counts-learning-cards = В процес на научаване
+statistics-reviews-time-checkbox = Време

@@ -103,3 +103,5 @@ statistics-reviews-time-subtitle = El tiempo que has tardado en responder a las 
 statistics-intervals-subtitle = Tardanza hasta que los repasos se muestren de nuevo.
 statistics-answer-buttons-subtitle = El número de veces que has presionado cada botón.
 statistics-hours-subtitle = Porcentaje de repasos correctos a lo largo del día.
+statistics-counts-learning-cards = Aprendiendo
+statistics-reviews-time-checkbox = Tiempo

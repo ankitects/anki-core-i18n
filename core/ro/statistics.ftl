@@ -88,3 +88,4 @@ statistics-reviews-count-subtitle = Numărul de întrebări la care ai răspuns
 statistics-reviews-time-subtitle = Timpul de care a fost nevoie pentru a răspunde întrebărilor
 statistics-intervals-subtitle = Amână până când repetițiile sunt afișate din nou.
 statistics-answer-buttons-subtitle = De câte ori ați apăsat fiecare buton.
+statistics-counts-learning-cards = Învățate

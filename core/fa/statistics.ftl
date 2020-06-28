@@ -92,3 +92,5 @@ statistics-reviews-time-subtitle = زمانی که برای پاسخ به سؤا
 statistics-intervals-subtitle = تاوقتی که مرورها دوباره نشان داده شوند به تاخیر انداخته شود.
 statistics-answer-buttons-subtitle = تعداد دفعاتی که شما هر دکمه را فشرده اید.
 statistics-hours-subtitle = میزان موفقیت مرور در هر ساعت از روز
+statistics-counts-learning-cards = در حال یادگیری
+statistics-reviews-time-checkbox = زمان

@@ -15,3 +15,5 @@ statistics-range-search = Pretraživanje
 statistics-reviews-title = Ponavljanja
 statistics-added-title = Dodano
 statistics-axis-label-card-count = Kartice
+statistics-counts-learning-cards = Učenje
+statistics-reviews-time-checkbox = Vrijeme

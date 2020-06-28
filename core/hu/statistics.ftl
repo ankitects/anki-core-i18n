@@ -101,3 +101,5 @@ statistics-reviews-time-subtitle = A kérdések megválaszolásával eltöltött
 statistics-intervals-subtitle = A következő ismétlésig hátralevő idő
 statistics-answer-buttons-subtitle = Az egyes gombok lenyomásának száma
 statistics-hours-subtitle = Ismétlés sikerességének aránya a nap egyes óráiban
+statistics-counts-learning-cards = Tanulás
+statistics-reviews-time-checkbox = Idő

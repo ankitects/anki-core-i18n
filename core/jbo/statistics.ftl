@@ -61,3 +61,5 @@ statistics-reviews-count-subtitle = .i se zilkancu lo'i preti poi do pu spuda
 statistics-reviews-time-subtitle = .i temci fi lo nu spuda lo preti
 statistics-intervals-subtitle = .i temci fi lo nu za'u re'u bilga lo ka ce'u morji
 statistics-answer-buttons-subtitle = .i ro da poi batkyuidje zo'u se zilkancu lo'i nu do terca'a fi da
+statistics-counts-learning-cards = cilre
+statistics-reviews-time-checkbox = temci

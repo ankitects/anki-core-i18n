@@ -41,3 +41,5 @@ statistics-reviews-time-subtitle = O tempo que levou responder ás preguntas.
 statistics-intervals-subtitle = Atrasos ata que os repasos se amosen de novo.
 statistics-answer-buttons-subtitle = O número de veces que ten premido cada botón.
 statistics-hours-subtitle = Porcentaxe de repasos correctos ao longo do día.
+statistics-counts-learning-cards = Aprendendo
+statistics-reviews-time-checkbox = Hora

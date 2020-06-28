@@ -105,3 +105,5 @@ statistics-reviews-time-subtitle = Le temps passé à répondre selon le jour et
 statistics-intervals-subtitle = Le nombre de cartes en fonction de leur intervalle de révision.
 statistics-answer-buttons-subtitle = Le choix des divers boutons en fonction de l’ancienneté de la carte.
 statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heure du jour.
+statistics-counts-learning-cards = À repasser
+statistics-reviews-time-checkbox = Durée

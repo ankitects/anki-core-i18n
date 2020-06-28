@@ -46,3 +46,5 @@ statistics-reviews-time-subtitle = Galderei erantzuneko denbora
 statistics-intervals-subtitle = berrikusi arte epeak berriro erakutsiak dira
 statistics-answer-buttons-subtitle = botoi bakoitz sakatu duzuen aldi-kopurua
 statistics-hours-subtitle = eguneko orduaren arabera ongi egindako berrikuspen tasa
+statistics-counts-learning-cards = Ikasten
+statistics-reviews-time-checkbox = Denbora

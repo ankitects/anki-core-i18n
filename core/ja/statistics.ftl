@@ -67,3 +67,5 @@ statistics-reviews-time-subtitle = カードの学習に費やした時間
 statistics-intervals-subtitle = 次の復習予定日
 statistics-answer-buttons-subtitle = 各ボタンを押した回数
 statistics-hours-subtitle = 時間帯ごとの正解率
+statistics-counts-learning-cards = 基本学習（再基本学習も含む）
+statistics-reviews-time-checkbox = 時間

@@ -117,3 +117,5 @@ statistics-reviews-time-subtitle = Czas odpowiedzi na pytania.
 statistics-intervals-subtitle = Czas do kolejnego wyświetlenia.
 statistics-answer-buttons-subtitle = Liczba naciśnięć każdego przycisku.
 statistics-hours-subtitle = Odsetek poprawnych odpowiedzi w różnych porach dnia.
+statistics-counts-learning-cards = Uczone
+statistics-reviews-time-checkbox = Czas

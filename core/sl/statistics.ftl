@@ -27,3 +27,4 @@ statistics-reviews-time-subtitle = Čas porabljen za odgovore na vprašanja.
 statistics-intervals-subtitle = Odloži dokler se spet ne pokažejo pregledi.
 statistics-answer-buttons-subtitle = Število klikov na vsak gumb.
 statistics-hours-subtitle = Uspešnost pregleda za vse ure dneva.
+statistics-reviews-time-checkbox = Čas
