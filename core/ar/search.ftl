@@ -1,0 +1,1 @@
+search-card-modified = غُيِّر
