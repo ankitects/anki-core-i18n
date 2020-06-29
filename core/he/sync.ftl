@@ -1,15 +1,58 @@
-sync-media-check-required = שגיאה אירעה בזמן סינכרון מדיה. אנא השתמש ב- כלים>בדוק מדיה, ולאחר מכן סנכרן שוב כדי לתקן את השגיאה.
+### Messages shown when synchronizing with AnkiWeb.
+
+
+## Media synchronization
+
+sync-media-added-count = נוסף: ↓{ $up }↑ { $down }
+sync-media-removed-count = נמחק: ↓{ $up }↑ { $down }
+sync-media-checked-count = נבדקו: { $count }
+sync-media-starting = מתחיל סינכרון מדיה...
+sync-media-complete = סינכרון מדיה הסתיים.
+sync-media-failed = סינכרון מדיה נכשל.
+sync-media-aborting = מפסיק סינכרון מדיה...
+sync-media-aborted = סינכרון מדיה הופסק.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
+sync-media-disabled = סינכרון מדיה מבוטל.
+# Title of the screen that shows syncing progress history
+sync-media-log-title = יומן רישום סינכרון מדיה
+
+## Error messages / dialogs
+
+sync-conflict = רק עותק אחד של Anki יכול לסנכרן לחשבונך באותו הזמן. המתן מספר דקות ונסה שנית.
+sync-server-error = AnkiWeb נקלע לבעיה. נסה שנית בעוד מספר דקות.
+sync-client-too-old = גירסת התוכנה שלך ישנה מדי. עדכן לגירסה האחרונה כדי להמשיך לסנכרן.
 sync-wrong-pass = ID או סיסמה של AnkiWeb שגויים; אנא נסה/י שוב.
+sync-resync-required = נא סנכרן שנית. אם הודעה זו מופיעה שוב, פנה לאתר התמיכה.
+sync-must-wait-for-end = Anki מסנכרן עכשיו. המתן לסיום הסינכרון, ואז נסה שנית.
 sync-confirm-empty-download = למאגר המקומי אין כרטיסיות. להוריד מ-AnkiWeb?
-sync-download-from-ankiweb = הורד מ-AnkiWeb
-sync-upload-to-ankiweb = העלאה ל-AnkiWeb
-sync-cancel-button = ביטול
-sync-downloading-from-ankiweb = מוריד מ-AnkiWeb...
-sync-uploading-to-ankiweb = מעלה ל-AnkiWeb...
-sync-syncing = מסנכרן ...
-sync-checking = בודק...
+sync-conflict-explanation =
+    החפיסות כאן ובאתר AnkiWeb שונות באופן כזה שאינן יכולות להתמזג יחד, הכרחי לדרוס את החפיסות בצד אחד עם החפיסות שבצד האחר.
+    
+    אם תבחר להוריד, Anki יוריד את האוסף מAnkiWeb, וכל השינויים במחשבך מאז הסינכרון האחרון יאבדו.
+    
+    אם תבחר להעלות, Anki יעלה את האוסף שלך לAnkiWeb, וכל השינויים שעשית באתר או בשאר המכשירים מאז הסינכרון האחרון יאבדו.
+    
+    לאחר שכל המכשירים מסונכרנים, סקירות עתידיות וכרטיסים שנוספו יתמזגו אוטומטית.
+sync-ankiweb-id-label = מזהה AnkiWeb:
 sync-password-label = ססמה:
 sync-account-required =
     <h1>נדרש חשבון</h1>
     נדרש חשבון חינמי כדי לשמור על האוסף שלך מסונכרן. אנא <a href="{ $link }">הירשם</a> לקבלת חשבון, ולאחר מכן הכנס את פרטייך למטה.
+
+## Buttons
+
+sync-media-log-button = יומן רישום מדיה
+sync-abort-button = עצור
+sync-download-from-ankiweb = הורד מ-AnkiWeb
+sync-upload-to-ankiweb = העלאה ל-AnkiWeb
+sync-cancel-button = ביטול
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = מוריד מ-AnkiWeb...
+sync-uploading-to-ankiweb = מעלה ל-AnkiWeb...
+sync-syncing = מסנכרן ...
+sync-checking = בודק...
 sync-connecting = מתחבר...
+sync-added-updated-count = נוסף/השתנה: ↓{ $up }↑ { $down }

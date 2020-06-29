@@ -1,27 +1,57 @@
-database-check-fixed-non-normalized-tags =
-    { $count ->
-        [one] תגים קבועים להערה אחת.
-       *[other] תגים קבועים ל- { $count } הערות.
-    }
+database-check-corrupt = מאגר פגום. אנא ראה את המדריך.
+database-check-rebuilt = בסיס הנתונים התייעל ונבנה מחדש.
 database-check-card-properties =
     { $count ->
-        [one] תוקנה { $count } כרטיסייה עם מאפיינים שגויים.
-        [two] תוקנו { $count } כרטיסיות עם מאפיינים שגויים.
-        [many] תוקנו { $count } כרטיסיות עם מאפיינים שגויים.
-       *[other] תוקנו { $count } כרטיסיות עם מאפיינים שגויים.
+        [one] תוקן { $count } כרטיס עם מאפיינים שגויים.
+        [two] תוקנו { $count } כרטיסים עם מאפיינים שגויים.
+        [many] תוקנו { $count } כרטיסים עם מאפיינים שגויים.
+       *[other] תוקנו { $count } כרטיסים עם מאפיינים שגויים.
     }
-database-check-corrupt = מאגר פגום. אנא ראה את המדריך.
 database-check-missing-templates =
     { $count ->
-        [one] נמחקה { $count } כרטיסייה ללא תבנית.
-        [two] נמחקו { $count } כרטיסיות ללא תבנית.
-        [many] נמחקו { $count } כרטיסיות ללא תבנית.
-       *[other] נמחקו { $count } כרטיסיות ללא תבנית.
+        [one] נמחק { $count } כרטיס ללא תבנית.
+        [two] נמחקו { $count } כרטיסים ללא תבנית.
+        [many] נמחקו { $count } כרטיסים ללא תבנית.
+       *[other] נמחקו { $count } כרטיסים ללא תבנית.
     }
-database-check-rebuilt = בסיס הנתונים התייעל ונבנה מחדש.
-database-check-card-missing-note = { $count ->
-    [one] נמחקה {$count} כרטיסייה ללא הערה.
-    [two] נמחקו {$count} כרטיסיות ללא הערה.
-    [many] נמחקו {$count} כרטיסיות ללא הערה.
-   *[other] נמחקו {$count} כרטיסיות ללא הערה.
-  }
+database-check-field-count =
+    { $count ->
+        [one] תוקנו { $count } הערה עם מנין שדות שגוי.
+       *[other] תוקנו { $count } הערות עם מנין שדות שגוי.
+    }
+database-check-new-card-high-due =
+    { $count ->
+        [one] נמצא { $count } כרטיס חדש עם תאריך יעד גדול מ1,000,000 - שקול למקם אותו מחדש בחלון העיון.
+       *[other] נמצאו { $count } כרטיסים חדשים עם תאריך יעד גדול מ1,000,000 - שקול למקם אותם מחדש בחלון העיון.
+    }
+database-check-card-missing-note =
+    { $count ->
+        [one] נמחקה { $count } כרטיס ללא הערה.
+        [two] נמחקו { $count } כרטיסים ללא הערה.
+        [many] נמחקו { $count } כרטיסים ללא הערה.
+       *[other] נמחקו { $count } כרטיסים ללא הערה.
+    }
+database-check-duplicate-card-ords =
+    { $count ->
+        [one] נמחק כרטיס { $count } עם תבנית כפולה.
+       *[other] נמחקו { $count } כרטיסים עם תבנית כפולה.
+    }
+database-check-missing-decks =
+    { $count ->
+        [one] תוקנה { $count } חפיסה חסרה.
+       *[other] תוקנו { $count } חפיסות חסרות.
+    }
+database-check-revlog-properties =
+    { $count ->
+        [one] תוקנה { $count } סקירה עם מאפיינים שגויים.
+       *[other] תוקנו { $count } סקירות עם מאפיינים שגויים.
+    }
+
+## Progress info
+
+database-check-checking-integrity = בודק אוסף...
+database-check-rebuilding = בונה מחדש...
+database-check-checking-cards = בודק כרטיסים...
+database-check-checking-notes = בודק הערות...
+database-check-checking-history = בודק היסטוריה...
+database-check-title = בדוק בסיס נתונים
