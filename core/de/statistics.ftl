@@ -48,6 +48,9 @@ statistics-cards =
         [one] { $cards } Karte
        *[other] { $cards } Karten
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -81,25 +84,72 @@ statistics-counts-young-cards = Junge Karten
 statistics-counts-mature-cards = Alte Karten
 statistics-counts-suspended-cards = Ausgesetzt
 statistics-counts-buried-cards = Zurückgestellt
+statistics-counts-early-cards = Früh
+statistics-counts-learning-cards = Lernen
+statistics-counts-relearning-cards = Erneut lernend
+statistics-counts-title = Kartenzähler
 statistics-range-all-time = Stapel-Lebensdauer
 statistics-range-deck = Stapel
 statistics-range-collection = Sammlung
 statistics-range-search = Suche
+statistics-card-ease-title = Karten-Leichtigkeit
+statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] 1 Karte mit { $percent } Leichtigkeit
+       *[other] { $cards } Karten mit { $percent } Leichtigkeit
+    }
 statistics-future-due-title = Prognose
-statistics-reviews-title = Wiederholungen
-statistics-intervals-title = Intervalle
-statistics-answer-buttons-title = Antwortknopf
-statistics-hours-title = Gedächtnisleistung nach Tageszeit
-statistics-added-title = Hinzugefügt
-statistics-axis-label-answer-count = Antworten
-statistics-axis-label-card-count = Karten
-statistics-axis-label-review-time = Dauer
 statistics-future-due-subtitle = Anzahl der in Zukunft anfallenden Wiederholungen.
+statistics-added-title = Hinzugefügt
 statistics-added-subtitle = Die Anzahl der neu hinzugefügten Karten.
 statistics-reviews-count-subtitle = Anzahl der beantworteten Fragen.
 statistics-reviews-time-subtitle = Bis zur Beantwortung der Frage vergangene Zeit.
-statistics-intervals-subtitle = Zeit, bis Karten erneut angezeigt werden.
+statistics-answer-buttons-title = Antwortknopf
+# eg Button: 4
+statistics-answer-buttons-button-number = Knopf
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Male gedrückt
 statistics-answer-buttons-subtitle = Wie häufig welche Antwortmöglichkeit gewählt wurde.
-statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
-statistics-counts-learning-cards = Lernen
+statistics-reviews-title = Wiederholungen
 statistics-reviews-time-checkbox = Zeit
+statistics-in-days-single =
+    { $days ->
+        [0] Heute
+        [1] Morgen
+        [one] In { $days } Tag
+       *[other] In { $days } Tagen
+    }
+statistics-in-days-range = in { $daysStart }-{ $daysEnd }
+statistics-days-ago-single =
+    { $days ->
+        [1] Gestern
+        [one] vor { $days } Tag
+       *[other] vor { $days } Tagen
+    }
+statistics-days-ago-range = vor { $daysStart }-{ $daysEnd } Tagen
+statistics-running-total = Bis hierhin aufsummiert
+statistics-cards-due =
+    { $cards ->
+        [one] 1 Karte fällig
+       *[other] { $cards } Karten fällig
+    }
+statistics-backlog-checkbox = Rückstand
+statistics-intervals-title = Intervalle
+statistics-intervals-subtitle = Zeit, bis Karten erneut angezeigt werden.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] 1 Karte mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
+       *[other] { $cards } Karten mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] 1 Karte mit einem { $day }-Tag-Intervall
+       *[other] { $cards } Karten mit einem { $day }-Tag-Intervall
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = Von { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent }%)
+statistics-hours-title = Gedächtnisleistung nach Tageszeit
+statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
