@@ -1,3 +1,8 @@
 search-invalid = Invalid search - please check for typing mistakes.
-search-note-modified = Edited
-search-card-modified = Changed
+
+## Column labels in browse screen
+
+search-note-modified = Note Modified
+search-card-modified = Card Modified
+
+##
