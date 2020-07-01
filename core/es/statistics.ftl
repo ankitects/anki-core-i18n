@@ -52,6 +52,9 @@ statistics-cards =
         [one] { $cards } tarjeta
        *[other] { $cards } tarjetas
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -71,6 +74,8 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } hoy ({ $secs-per-card }s/tarjeta)
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }s
 statistics-today-title = Hoy
 statistics-today-again-count = Total de otra vez:
 statistics-today-type-counts = Aprender: { $learnCount }, Repasar: { $reviewCount }, Reaprender: { $relearnCount }, Filtradas: { $filteredCount }
@@ -83,25 +88,70 @@ statistics-counts-young-cards = Jóvenes
 statistics-counts-mature-cards = Maduras
 statistics-counts-suspended-cards = Suspendidas
 statistics-counts-buried-cards = Enterrados
+statistics-counts-early-cards = Temprano
+statistics-counts-learning-cards = Aprendiendo
+statistics-counts-relearning-cards = Reaprendiendo
+statistics-counts-title = Conteo de Tarjetas
 statistics-range-all-time = vida del mazo
 statistics-range-deck = mazo
 statistics-range-collection = colección
 statistics-range-search = Buscar
+statistics-card-ease-title = Facilidad de la Tarjeta
+statistics-card-ease-subtitle = Cómo más baja sea la facilidad, más frequentemente aparecerá la tarjeta.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] 1 tarjeta con { $percent } facilidad
+       *[other] { $cards } tarjetas con { $percent } facilidad
+    }
 statistics-future-due-title = Pronóstico
-statistics-reviews-title = Repasos
-statistics-intervals-title = Intervalos
-statistics-answer-buttons-title = Botones de respuesta
-statistics-hours-title = Distribución horaria
-statistics-added-title = Añadidas
-statistics-axis-label-answer-count = Respuestas
-statistics-axis-label-card-count = Tarjetas
-statistics-axis-label-review-time = Tiempo de repaso
 statistics-future-due-subtitle = El número de repasos programados en el futuro.
+statistics-added-title = Añadidas
 statistics-added-subtitle = El número de tarjetas nuevas que has añadido.
 statistics-reviews-count-subtitle = El número de preguntas que has respondido.
 statistics-reviews-time-subtitle = El tiempo que has tardado en responder a las preguntas.
-statistics-intervals-subtitle = Tardanza hasta que los repasos se muestren de nuevo.
+statistics-answer-buttons-title = Botones de respuesta
+# eg Button: 4
+statistics-answer-buttons-button-number = Botón
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Veces presionado
 statistics-answer-buttons-subtitle = El número de veces que has presionado cada botón.
-statistics-hours-subtitle = Porcentaje de repasos correctos a lo largo del día.
-statistics-counts-learning-cards = Aprendiendo
+statistics-reviews-title = Repasos
 statistics-reviews-time-checkbox = Tiempo
+statistics-in-days-single =
+    { $days ->
+        [0] Hoy
+        [1] Mañana
+       *[other] En { $days } dias
+    }
+statistics-in-days-range = En { $daysStart }-{ $daysEnd } dias
+statistics-days-ago-single =
+    { $days ->
+        [1] Ayer
+       *[other] { $days }  atrás
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } dias atrás
+statistics-running-total = Total acumulado
+statistics-cards-due =
+    { $cards ->
+        [one] 1 tarjeta vencida
+       *[other] { $cards } tarjetas vencidas
+    }
+statistics-backlog-checkbox = Acumulación
+statistics-intervals-title = Intervalos
+statistics-intervals-subtitle = Tardanza hasta que los repasos se muestren de nuevo.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] 1 tarjeta con un interval de { $daysStart }~{ $daysEnd } dias
+       *[other] { $cards } tarjetas con un interval de  { $daysStart }~{ $daysEnd } dias
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] 1 tarjeta con un interval de  { $day } dias
+       *[other] { $cards } tarjetas con un interval de { $day } dias
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = Desde { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } correcto ({ $percent }%)
+statistics-hours-title = Distribución horaria
+statistics-hours-subtitle = Porcentaje de repasos correctos a lo largo del día.
