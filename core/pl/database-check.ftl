@@ -1,4 +1,5 @@
-database-check-corrupt = Kolekcja jest uszkodzona. Prosimy o zapoznanie się z instrukcją.
+database-check-corrupt = Kolekcja jest uszkodzona. Przywróć ją z automatycznej kopii zapasowej.
+database-check-rebuilt = Baza danych przebudowana i zoptymalizowana.
 database-check-card-properties =
     { $count ->
         [one] Naprawiono { $count } kartę z nieprawidłowymi wartościami.
@@ -11,8 +12,6 @@ database-check-missing-templates =
         [few] Usunięto { $count } karty z brakującym szablonem.
        *[other] Usunięto { $count } kart z brakującym szablonem.
     }
-database-check-rebuilt = Baza danych przebudowana i zoptymalizowana.
-database-check-title = Sprawdź bazę danych
 database-check-field-count =
     { $count ->
         [one] Naprawiono { $count } notatkę ze złą liczbą pól.
@@ -57,3 +56,4 @@ database-check-rebuilding = Przebudowywanie....
 database-check-checking-cards = Sprawdzanie kart...
 database-check-checking-notes = Sprawdzanie notatek...
 database-check-checking-history = Sprawdzanie historii...
+database-check-title = Sprawdź bazę danych
