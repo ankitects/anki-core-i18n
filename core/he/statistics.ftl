@@ -168,5 +168,5 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = מ- { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } נכונים ({ $percent }%)
-statistics-hours-title = שגיאות לשעה
+statistics-hours-title = פילוח שעתי
 statistics-hours-subtitle = ניקוד הצלחה בסקירות לכל שעה ביום.
