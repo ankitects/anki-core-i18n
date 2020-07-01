@@ -42,6 +42,9 @@ statistics-cards =
         [one] { $cards } کارت
        *[other] { $cards } کارت
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -66,6 +69,7 @@ statistics-seconds-taken = { $seconds } ثانیه
 statistics-today-title = امروز
 statistics-today-again-count = شمارش مجدد:
 statistics-today-type-counts = یادگیری: { $learnCount }, مرورشده: { $reviewCount }, بازآموزی: { $relearnCount }, فیلترشده: { $filteredCount }
+statistics-today-no-cards = هیچ کارتی امروز مطالعه نشده است.
 statistics-today-no-mature-cards = هیچ کارت دائمی در مطالعه شده های امروز نبود.
 statistics-today-correct-mature = پاسخ های صحیح در کارتهای دائم: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = تمام کارت‌ها
@@ -73,24 +77,67 @@ statistics-counts-new-cards = جدید
 statistics-counts-young-cards = موقت
 statistics-counts-mature-cards = دائم
 statistics-counts-suspended-cards = معلق شده
+statistics-counts-buried-cards = دفن شده
+statistics-counts-early-cards = زود
+statistics-counts-learning-cards = در حال یادگیری
+statistics-counts-relearning-cards = بازآموزی
+statistics-counts-title = تعداد کارت
 statistics-range-all-time = عمر دسته
 statistics-range-deck = دسته
 statistics-range-collection = مجموعه
 statistics-range-search = جست و جو
+statistics-card-ease-title = سهولت کارت
+statistics-card-ease-subtitle = هرچقدر سهولت کارت کمتر باشد، کارت بیشتر نمایش داده می‌شود.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+       *[other] { $cards } کارت دارای { $percent } سهولت
+    }
 statistics-future-due-title = پیش‌بینی
-statistics-reviews-title = مرورها
-statistics-intervals-title = بازه های زمانی
-statistics-answer-buttons-title = دکمه‌های پاسخ
-statistics-hours-title = تفکیک ساعت به ساعت
-statistics-added-title = اضافه‌شده
-statistics-axis-label-answer-count = پاسخ‌ها
-statistics-axis-label-card-count = کارت‌ها
-statistics-axis-label-review-time = زمان مرور
 statistics-future-due-subtitle = تعداد مرورهایی که درآینده باید انجام دهید.
+statistics-added-title = اضافه‌شده
+statistics-added-subtitle = تعداد کارت‌های جدید که اضافه کردید.
 statistics-reviews-count-subtitle = تعداد سؤالاتی که شما پاسخ دادید.
 statistics-reviews-time-subtitle = زمانی که برای پاسخ به سؤالات صرف شده است.
-statistics-intervals-subtitle = تاوقتی که مرورها دوباره نشان داده شوند به تاخیر انداخته شود.
+statistics-answer-buttons-title = دکمه‌های پاسخ
+# eg Button: 4
+statistics-answer-buttons-button-number = دکمه
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = دفعۀ فشرده شده
 statistics-answer-buttons-subtitle = تعداد دفعاتی که شما هر دکمه را فشرده اید.
-statistics-hours-subtitle = میزان موفقیت مرور در هر ساعت از روز
-statistics-counts-learning-cards = در حال یادگیری
+statistics-reviews-title = مرورها
 statistics-reviews-time-checkbox = زمان
+statistics-in-days-single =
+    { $days ->
+        [0] امروز
+        [1] فردا
+       *[other] { $days } روز دیگر
+    }
+statistics-in-days-range = در طول { $daysStart }-{ $daysEnd } روز
+statistics-days-ago-single =
+    { $days ->
+        [1] دیروز
+       *[other] { $days } روز گذشته
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } روز گذشته
+statistics-running-total = تعداد کل
+statistics-cards-due =
+    { $cards ->
+       *[other] { $cards } کارت مرور
+    }
+statistics-backlog-checkbox = بک‌لاگ
+statistics-intervals-title = بازه های زمانی
+statistics-intervals-subtitle = تاوقتی که مرورها دوباره نشان داده شوند به تاخیر انداخته شود.
+statistics-intervals-day-range =
+    { $cards ->
+       *[other] { $cards } کارت دارای موعد مرور { $daysStart }~{ $daysEnd } روز
+    }
+statistics-intervals-day-single =
+    { $cards ->
+       *[other] { $cards } دارای موعد مرور { $day } روز
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = از { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } درست ({ $percent }%)
+statistics-hours-title = تفکیک ساعت به ساعت
+statistics-hours-subtitle = میزان موفقیت مرور در هر ساعت از روز
