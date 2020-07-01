@@ -62,6 +62,9 @@ statistics-cards =
         [many] { $cards } карточек
        *[other] { $cards } карточек
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -97,25 +100,26 @@ statistics-counts-young-cards = Свежие
 statistics-counts-mature-cards = Закреплённые
 statistics-counts-suspended-cards = Исключённые
 statistics-counts-buried-cards = Отложены
+statistics-counts-learning-cards = Изучаемые
 statistics-range-all-time = всё время
 statistics-range-deck = пакет
 statistics-range-collection = коллекция
 statistics-range-search = Поиск
 statistics-future-due-title = Прогноз
-statistics-reviews-title = Повторение
-statistics-intervals-title = Интервалы
-statistics-answer-buttons-title = Кнопки ответа
-statistics-hours-title = По часам
-statistics-added-title = Добавлено
-statistics-axis-label-answer-count = Ответы
-statistics-axis-label-card-count = Карточки
-statistics-axis-label-review-time = Время на повторения
 statistics-future-due-subtitle = Число повторений, запланированных на будущее.
+statistics-added-title = Добавлено
 statistics-added-subtitle = Количество новых карт, которые вы добавили.
 statistics-reviews-count-subtitle = Количество вопросов, на которые вы ответили.
 statistics-reviews-time-subtitle = Время, затраченное на ответы
-statistics-intervals-subtitle = Задержки перед следующим повторением.
+statistics-answer-buttons-title = Кнопки ответа
+# eg Button: 4
+statistics-answer-buttons-button-number = Кнопка
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Раз нажато
 statistics-answer-buttons-subtitle = Сколько раз Вы нажали каждую кнопку.
-statistics-hours-subtitle = Доля удачных просмотров в определенный час
-statistics-counts-learning-cards = Изучаемые
+statistics-reviews-title = Повторение
 statistics-reviews-time-checkbox = Время
+statistics-intervals-title = Интервалы
+statistics-intervals-subtitle = Задержки перед следующим повторением.
+statistics-hours-title = По часам
+statistics-hours-subtitle = Доля удачных просмотров в определенный час
