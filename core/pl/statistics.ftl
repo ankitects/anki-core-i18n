@@ -1,5 +1,5 @@
 # The date a card will be ready to review
-statistics-due-date = Oczekujące
+statistics-due-date = Oczekuje
 # The count of cards waiting to be reviewed
 statistics-due-count = Oczekujące
 # Shown in the Due column of the Browse screen when the card is a new card
@@ -62,6 +62,9 @@ statistics-cards =
         [many] { $cards } kart
        *[other] { $cards } kart
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -88,34 +91,87 @@ statistics-seconds-taken = { $seconds }s
 statistics-today-title = Dzisiaj
 statistics-today-again-count = Liczba pomyłek:
 statistics-today-type-counts = Uczone: { $learnCount }, Powtarzane: { $reviewCount }, Uczone ponownie: { $relearnCount }, Filtrowane: { $filteredCount }
-statistics-today-no-cards = Nie przeglądnięto dziś żadnych kart
+statistics-today-no-cards = Nie przejrzano dziś żadnych kart
 statistics-today-no-mature-cards = Nie przejrzano dziś żadnych dojrzałych kart.
 statistics-today-correct-mature = Poprawne odpowiedzi dojrzałych kart: { $correct }/{ $total } ({ $percent }%)
-statistics-counts-total-cards = Wszystkich kart
+statistics-counts-total-cards = Razem
 statistics-counts-new-cards = Nowe
 statistics-counts-young-cards = Młode
 statistics-counts-mature-cards = Dojrzałe
 statistics-counts-suspended-cards = Zawieszone
 statistics-counts-buried-cards = Zakopane
+statistics-counts-early-cards = Wczesne
+statistics-counts-learning-cards = Uczone
+statistics-counts-relearning-cards = Uczone Ponownie
+statistics-counts-title = Liczby kart
 statistics-range-all-time = czas życia talii
 statistics-range-deck = talia
 statistics-range-collection = kolekcja
 statistics-range-search = Szukaj
+statistics-card-ease-title = Łatwość karty
+statistics-card-ease-subtitle = Im mniejsza łatwość, tym karta będzie częściej pokazywana.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] 1 karta z łatwością { $percent }
+        [few] { $cards } kart z łatwością { $percent }
+       *[other] { $cards } kart z łatwością { $percent }
+    }
 statistics-future-due-title = Prognoza
-statistics-reviews-title = Powtórki
-statistics-intervals-title = Przerwy
-statistics-answer-buttons-title = Przyciski odpowiedzi
-statistics-hours-title = Podział godzinowy
-statistics-added-title = Dodano
-statistics-axis-label-answer-count = Odpowiedzi
-statistics-axis-label-card-count = Karty
-statistics-axis-label-review-time = Czas powtórki
 statistics-future-due-subtitle = Liczba powtórek oczekujących w przyszłości.
+statistics-added-title = Dodano
 statistics-added-subtitle = Liczba dodanych nowych kart.
 statistics-reviews-count-subtitle = Liczba pytań, na które odpowiedziano.
 statistics-reviews-time-subtitle = Czas odpowiedzi na pytania.
-statistics-intervals-subtitle = Czas do kolejnego wyświetlenia.
+statistics-answer-buttons-title = Przyciski odpowiedzi
+# eg Button: 4
+statistics-answer-buttons-button-number = Przycisk
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Liczba naciśnięć
 statistics-answer-buttons-subtitle = Liczba naciśnięć każdego przycisku.
-statistics-hours-subtitle = Odsetek poprawnych odpowiedzi w różnych porach dnia.
-statistics-counts-learning-cards = Uczone
+statistics-reviews-title = Powtórki
 statistics-reviews-time-checkbox = Czas
+statistics-in-days-single =
+    { $days ->
+        [0] Dziś
+        [1] Jutro
+        [one] za { $days } dzień
+        [few] za { $days } dni
+       *[other] za { $days } dni
+    }
+statistics-in-days-range = za { $daysStart }-{ $daysEnd } dni
+statistics-days-ago-single =
+    { $days ->
+        [1] Wczoraj
+        [one] { $days } dzień temu
+        [few] { $days } dni temu
+       *[other] { $days } dni temu
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } dni temu
+statistics-running-total = Razem
+statistics-cards-due =
+    { $cards ->
+        [one] 1 karta oczekuje
+        [few] { $cards } karty oczekują
+       *[other] { $cards } kart oczekuje
+    }
+statistics-backlog-checkbox = Zaległości
+statistics-intervals-title = Przerwy
+statistics-intervals-subtitle = Czas do kolejnego wyświetlenia.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] 1 karta z przerwą { $daysStart }~{ $daysEnd } dni
+        [few] { $cards } karty z przerwą { $daysStart }~{ $daysEnd } dni
+       *[other] { $cards } kart z przerwą { $daysStart }~{ $daysEnd } dni
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] 1 karta z przerwą { $day } dni
+        [few] { $cards } karty z przerwą { $day } dni
+       *[other] { $cards } kart z przerwą { $day } dni
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = Od { $hourStart }: 00~{ $hourEnd }: 00
+statistics-hours-correct = { $correct }/{ $total } poprawnych ({ $percent }%)
+statistics-hours-title = Podział godzinowy
+statistics-hours-subtitle = Odsetek poprawnych odpowiedzi w różnych porach dnia.
