@@ -26,5 +26,5 @@ card-template-rendering-no-such-field = נמצא '{ $found }', אך אין שד�
 # are missing.
 card-template-rendering-empty-front = התבנית הקדמית בכרטיסיה זו - ריקה
 card-template-rendering-missing-cloze =
-    לא נמצא השלם את החסר { $number } על הכרטיס.
+    לא נמצאו { $number } השלמות על הכרטיס.
     נא הוסף שדה השלם את החסר, או השתמש בכלי כרטיסים ריקים.
