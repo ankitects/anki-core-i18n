@@ -1,7 +1,7 @@
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] השינויים  ישפיעו על { $count } הערה שמשתמשת בסוג כרטיס זה.
-       *[other] השינויים  ישפיעו על  { $count }  הערות שמשתמשת בסוג כרטיס זה.
+        [one] השינויים  ישפיעו על { $count } רשומה שמשתמשת בסוג כרטיס זה.
+       *[other] השינויים  ישפיעו על  { $count }  רשומות שמשתמשת בסוג כרטיס זה.
     }
 card-templates-card-type = סוג כרטיס:
 card-templates-front-template = תבנית קדמית

@@ -2,7 +2,7 @@ search-invalid = חיפוש שגוי - אנא בדוק אחר טעויות הק�
 
 ## Column labels in browse screen
 
-search-note-modified = נערך
+search-note-modified = רשומה השתנתה
 search-card-modified = כרטיס שהשתנה
 
 ##

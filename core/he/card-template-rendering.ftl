@@ -5,7 +5,7 @@
 # Label of link users can click on
 card-template-rendering-more-info = מידע נוסף
 card-template-rendering-front-side-problem = יש בעיה בתבנית הקדמית:
-card-template-rendering-back-side-problem = בתבנית האחורית יש בעיה:
+card-template-rendering-back-side-problem = יש בעיה בתבנית האחורית:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = חסר '{ $missing }' ב- '{ $tag }'
@@ -20,7 +20,7 @@ card-template-rendering-wrong-conditional-closed = נמצא '{ $found }', במק
 card-template-rendering-conditional-not-open = '{ $found }' נמצא, אך חסר '{ $missing1 }' או '{ $missing2 }'
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
-card-template-rendering-no-such-field = נמצא '{ $found }', אך אין שדה שנקראת '{ $field }'
+card-template-rendering-no-such-field = נמצא '{ $found }', אך אין שדה שנקרא '{ $field }'
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.

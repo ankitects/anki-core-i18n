@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = תאריך יעד
 # The count of cards waiting to be reviewed
-statistics-due-count = מיועדים
+statistics-due-count = מתוכננים
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = חדשים #{ $number }
 
@@ -98,8 +98,8 @@ statistics-today-correct-mature = תשובות נכונות בכרטיסיות �
 statistics-counts-total-cards = סך-הכל כרטיסיות
 statistics-counts-new-cards = חדשים
 statistics-counts-young-cards = צעירים
-statistics-counts-mature-cards = בוגר
-statistics-counts-suspended-cards = מושהה
+statistics-counts-mature-cards = בוגרים
+statistics-counts-suspended-cards = מושהים
 statistics-counts-buried-cards = קבורים
 statistics-counts-early-cards = מוקדמים
 statistics-counts-learning-cards = נלמדים

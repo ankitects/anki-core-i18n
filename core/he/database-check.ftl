@@ -16,8 +16,8 @@ database-check-missing-templates =
     }
 database-check-field-count =
     { $count ->
-        [one] תוקנו { $count } הערה עם מנין שדות שגוי.
-       *[other] תוקנו { $count } הערות עם מנין שדות שגוי.
+        [one] תוקנה { $count } רשומה עם מנין שדות שגוי.
+       *[other] תוקנו { $count } רשומות עם מנין שדות שגוי.
     }
 database-check-new-card-high-due =
     { $count ->
@@ -26,10 +26,10 @@ database-check-new-card-high-due =
     }
 database-check-card-missing-note =
     { $count ->
-        [one] נמחקה { $count } כרטיס ללא הערה.
-        [two] נמחקו { $count } כרטיסים ללא הערה.
-        [many] נמחקו { $count } כרטיסים ללא הערה.
-       *[other] נמחקו { $count } כרטיסים ללא הערה.
+        [one] נמחקה { $count } כרטיס ללא רשומות.
+        [two] נמחקו { $count } כרטיסים ללא רשומות.
+        [many] נמחקו { $count } כרטיסים ללא רשומות.
+       *[other] נמחקו { $count } כרטיסים ללא רשומות.
     }
 database-check-duplicate-card-ords =
     { $count ->
@@ -52,6 +52,6 @@ database-check-revlog-properties =
 database-check-checking-integrity = בודק אוסף...
 database-check-rebuilding = בונה מחדש...
 database-check-checking-cards = בודק כרטיסים...
-database-check-checking-notes = בודק הערות...
+database-check-checking-notes = בודק רשומות...
 database-check-checking-history = בודק היסטוריה...
 database-check-title = בדוק בסיס נתונים

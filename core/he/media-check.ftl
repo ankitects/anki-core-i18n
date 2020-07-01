@@ -37,7 +37,7 @@ media-check-checked = נבדקו { $count }...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = מחק מדיה שאינם בשימוש?
+media-check-delete-unused-confirm = מחק מדיה שאינה בשימוש?
 media-check-files-remaining =
     { $count ->
         [one] 1 קובץ
