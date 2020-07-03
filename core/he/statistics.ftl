@@ -1,9 +1,9 @@
 # The date a card will be ready to review
 statistics-due-date = תאריך יעד
 # The count of cards waiting to be reviewed
-statistics-due-count = מתוכננים
+statistics-due-count = מתוזמנים
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = חדשים #{ $number }
+statistics-due-for-new-card = חדש #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -117,8 +117,8 @@ statistics-card-ease-tooltip =
         [one] כרטיס 1 עם { $percent } קלות
        *[other] { $cards } כרטיסים עם { $percent } קלות
     }
-statistics-future-due-title = תחזית יעד
-statistics-future-due-subtitle = מספר הסקירות המתוכננות בעתיד.
+statistics-future-due-title = תזמון עתידי
+statistics-future-due-subtitle = מספר הסקירות המתוזמנות בעתיד.
 statistics-added-title = נוספו
 statistics-added-subtitle = מספר הכרטיסיות החדשות שאתה הוספת.
 statistics-reviews-count-subtitle = מספר השאלות שענית עליהן.
@@ -149,8 +149,8 @@ statistics-days-ago-range = לפני { $daysStart }-{ $daysEnd } ימים
 statistics-running-total = סה"כ רצים
 statistics-cards-due =
     { $cards ->
-        [one] 1 כרטיס מתוכנן
-       *[other] { $cards } כרטיסים מתוכננים
+        [one] 1 כרטיס מתוזמן
+       *[other] { $cards } כרטיסים מתוזמנים
     }
 statistics-backlog-checkbox = הצטברות
 statistics-intervals-title = מרווחי זמן לסקירה
