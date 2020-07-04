@@ -24,7 +24,7 @@ card-template-rendering-no-such-field = נמצא '{ $found }', אך אין שד�
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = התבנית הקדמית בכרטיסיה זו - ריקה
+card-template-rendering-empty-front = התבנית הקדמית בכרטיס זה - ריקה
 card-template-rendering-missing-cloze =
     לא נמצאו { $number } השלמות על הכרטיס.
     נא הוסף שדה השלם את החסר, או השתמש בכלי כרטיסים ריקים.
