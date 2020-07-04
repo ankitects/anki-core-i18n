@@ -52,6 +52,9 @@ statistics-cards =
         [one] { $cards } targeta
        *[other] { $cards } targetes
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -83,25 +86,42 @@ statistics-counts-young-cards = Juvene
 statistics-counts-mature-cards = Matur
 statistics-counts-suspended-cards = Suspendite
 statistics-counts-buried-cards = Inhumate
+statistics-counts-learning-cards = Apprender
 statistics-range-all-time = vita del fasce
 statistics-range-deck = fasce
 statistics-range-collection = col·lecció
 statistics-range-search = Cercar
 statistics-future-due-title = Previsions
-statistics-reviews-title = Revisions
-statistics-intervals-title = Intervallos
-statistics-answer-buttons-title = Botons de responsa
-statistics-hours-title = Collapso horari
-statistics-added-title = Apondut
-statistics-axis-label-answer-count = Responsas
-statistics-axis-label-card-count = Cartas
-statistics-axis-label-review-time = Revider le tempore
 statistics-future-due-subtitle = Le numero de revisiones debite in le futur.
+statistics-added-title = Apondut
 statistics-added-subtitle = Le numero de nove cartas tu ha addite.
 statistics-reviews-count-subtitle = Le numero de questiones tu ha respondite.
 statistics-reviews-time-subtitle = Le tempore prendite a responder le questiones.
-statistics-intervals-subtitle = Retarda usque le revistas es monstrate de novo
+statistics-answer-buttons-title = Botons de responsa
+# eg Button: 4
+statistics-answer-buttons-button-number = Botó
 statistics-answer-buttons-subtitle = Le numero de vices tu ha pulsate cata button.
-statistics-hours-subtitle = Revider le taxo de successo pro cata hora del die.
-statistics-counts-learning-cards = Apprender
+statistics-reviews-title = Revisions
 statistics-reviews-time-checkbox = Tempore
+statistics-in-days-single =
+    { $days ->
+        [0] Avui
+        [1] Demà
+       *[other] En { $days } dies
+    }
+statistics-in-days-range = En { $daysStart }-{ $daysEnd } dies
+statistics-days-ago-single =
+    { $days ->
+        [1] Ahir
+       *[other] { $days }  enrere
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } dies enrere
+statistics-running-total = Total acumulat
+statistics-backlog-checkbox = Acumulació
+statistics-intervals-title = Intervallos
+statistics-intervals-subtitle = Retarda usque le revistas es monstrate de novo
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = Des de { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } correcte ({ $percent }%)
+statistics-hours-title = Collapso horari
+statistics-hours-subtitle = Revider le taxo de successo pro cata hora del die.
