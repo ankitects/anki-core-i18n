@@ -1,48 +1,83 @@
-scheduling-time-span-seconds = { $amount ->
-    [zero] {$amount} ثانية
-    [one] {$amount} ثانية
-    [two] {$amount} ثانية
-    [few] {$amount} ثواني
-    [many] {$amount} ثانية
-   *[other] {$amount} ثانية
-  }
-scheduling-time-span-minutes = { $amount ->
-    [zero] {$amount} دقيقة
-    [one] {$amount} دقيقة
-    [two] {$amount} دقيقة
-    [few] {$amount} دقائق
-    [many] {$amount} دقيقة
-   *[other] {$amount} دقيقة
-  }
-scheduling-time-span-hours = { $amount ->
-    [zero] {$amount} ساعة
-    [one] {$amount} ساعة
-    [two] {$amount} ساعة
-    [few] {$amount} ساعات
-    [many] {$amount} ساعة
-   *[other] {$amount} ساعة
-  }
-scheduling-time-span-days = { $amount ->
-    [zero] {$amount} يوم
-    [one] {$amount} يوم
-    [two] يومين ({$amount})
-    [few] {$amount} ايام
-    [many] {$amount} يوما
-   *[other] {$amount} يوم
-  }
-scheduling-time-span-months = { $amount ->
-    [zero] {$amount} شهر
-    [one] {$amount} شهور
-    [two] {$amount} شهور
-    [few] {$amount} شهور
-    [many] {$amount} شهور
-   *[other] {$amount} شهور
-  }
-scheduling-time-span-years = { $amount ->
-    [zero] {$amount} سنة
-    [one] {$amount} سنة
-    [two] {$amount} سنة
-    [few] {$amount} سنوات
-    [many] {$amount} سنة
-   *[other] {$amount} سنة
-  }
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
+scheduling-answer-button-time-seconds = { $amount } ثانية
+scheduling-answer-button-time-minutes = { $amount } دقيقة
+scheduling-answer-button-time-hours = { $amount } ساعة
+scheduling-answer-button-time-days = { $amount } يوم
+scheduling-answer-button-time-months = { $amount } شهر
+scheduling-answer-button-time-years = { $amount } سنة
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
+scheduling-time-span-seconds =
+    { $amount ->
+        [zero] { $amount } ثانية
+        [one] { $amount } ثانية
+        [two] { $amount } ثانية
+        [few] { $amount } ثواني
+        [many] { $amount } ثانية
+       *[other] { $amount } ثانية
+    }
+scheduling-time-span-minutes =
+    { $amount ->
+        [zero] { $amount } دقيقة
+        [one] { $amount } دقيقة
+        [two] { $amount } دقيقة
+        [few] { $amount } دقائق
+        [many] { $amount } دقيقة
+       *[other] { $amount } دقيقة
+    }
+scheduling-time-span-hours =
+    { $amount ->
+        [zero] { $amount } ساعة
+        [one] { $amount } ساعة
+        [two] { $amount } ساعة
+        [few] { $amount } ساعات
+        [many] { $amount } ساعة
+       *[other] { $amount } ساعة
+    }
+scheduling-time-span-days =
+    { $amount ->
+        [zero] { $amount } يوم
+        [one] { $amount } يوم
+        [two] يومين ({ $amount })
+        [few] { $amount } ايام
+        [many] { $amount } يوما
+       *[other] { $amount } يوم
+    }
+scheduling-time-span-months =
+    { $amount ->
+        [zero] { $amount } شهر
+        [one] { $amount } شهور
+        [two] { $amount } شهور
+        [few] { $amount } شهور
+        [many] { $amount } شهور
+       *[other] { $amount } شهور
+    }
+scheduling-time-span-years =
+    { $amount ->
+        [zero] { $amount } سنة
+        [one] { $amount } سنة
+        [two] { $amount } سنة
+        [few] { $amount } سنوات
+        [many] { $amount } سنة
+       *[other] { $amount } سنة
+    }
+
+## Shown in the "Congratulations!" message after study finishes.
+
+scheduling-learn-remaining =
+    { $remaining ->
+        [zero] لم يعد هناك أي بطاقة دراسة مستحقة اليوم.
+        [one] تبقى بطاقة دراسة واحدة مستحقة اليوم.
+        [two] تبقى بطاقتي دراسة مستحقتين اليوم.
+        [few] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
+        [many] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
+       *[other] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
+    }

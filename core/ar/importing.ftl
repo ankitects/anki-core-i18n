@@ -1,1 +1,1 @@
-importing-failed = فشل الااستيراد
+importing-failed-debug-info = فشل الاستيراد. معلومات التصحيح:
