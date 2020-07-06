@@ -7,7 +7,7 @@ statistics-due-for-new-card = חדש #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } כרטיסיות/דקה
+statistics-cards-per-min = { $cards-per-minute } כרטיסים/דקה
 statistics-average-answer-time = { $average-seconds }שניות ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
@@ -154,7 +154,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = הצטברות
 statistics-intervals-title = מרווחי זמן לסקירה
-statistics-intervals-subtitle = עיקובים עד שסקירות מופיעות שנית.
+statistics-intervals-subtitle = עיכובים עד שסקירות מופיעות שנית.
 statistics-intervals-day-range =
     { $cards ->
         [one] 1 כרטיס עם { $daysStart }~{ $daysEnd } ימים מרווח זמן

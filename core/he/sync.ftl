@@ -25,7 +25,7 @@ sync-client-too-old = גירסת התוכנה שלך ישנה מדי. עדכן �
 sync-wrong-pass = ID או סיסמה של AnkiWeb שגויים; אנא נסה/י שוב.
 sync-resync-required = נא סנכרן שנית. אם הודעה זו מופיעה שוב, פנה לאתר התמיכה.
 sync-must-wait-for-end = Anki מסנכרן עכשיו. המתן לסיום הסינכרון, ואז נסה שנית.
-sync-confirm-empty-download = באוסף המקומי אין כרטיסיות. להוריד מ-AnkiWeb?
+sync-confirm-empty-download = באוסף המקומי אין כרטיסים. להוריד מ-AnkiWeb?
 sync-conflict-explanation =
     החפיסות כאן ובאתר AnkiWeb שונות באופן כזה שאינן יכולות להתמזג יחד, הכרחי לדרוס את החפיסות בצד אחד עם החפיסות שבצד האחר.
     

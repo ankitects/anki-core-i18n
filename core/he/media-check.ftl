@@ -20,7 +20,7 @@ media-check-subfolder-count = תיקיות משנה: { $count }
 media-check-renamed-header = השתנה השם לכמה קבצים לצורך תאימות:
 media-check-oversize-header = קבצים הגדולים מ- 100MB אינם יכולים להיות מסונכרנים עם AnkiWeb.
 media-check-subfolder-header = תיקיות בתוך תיקיית המדיה אינן נתמכות.
-media-check-missing-header = בשימוש בכרטיסיות אך חסרות בתיקיית המדיה:
+media-check-missing-header = הקבצים הבאים בשימוש ע"י כרטיסים, אך חסרים בתיקיית המדיה:
 media-check-unused-header = הקבצים הבאים נמצאו בתוך תיקיית המדיה, אך אינם בשימוש על ידי שום כרטיס:
 
 ## Shown once for each file
