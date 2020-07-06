@@ -1,27 +1,211 @@
+# The date a card will be ready to review
+statistics-due-date = تاريخ الاستحقاق
+# The count of cards waiting to be reviewed
+statistics-due-count = مُستحَق
+# Shown in the Due column of the Browse screen when the card is a new card
+statistics-due-for-new-card = جديد #{ $number }
+
+## eg 16.8s (3.6 cards/minute)
+
 statistics-cards-per-min = { $cards-per-minute } بطاقات/دقيقة
+statistics-average-answer-time = { $average-seconds } ثانية ({ statistics-cards-per-min })
+
+## A span of time studying took place in, for example
+## "(studied 30 cards) in 3 minutes"
+
+statistics-in-time-span-seconds =
+    { $amount ->
+        [zero] خلال { $amount } ثانية
+        [one] خلال ثانية واحدة
+        [two] خلال ثانيتين
+        [few] خلال { $amount } ثوانٍ
+        [many] خلال { $amount } ثانية
+       *[other] خلال { $amount } ثانية
+    }
+statistics-in-time-span-minutes =
+    { $amount ->
+        [zero] خلال { $amount } دقيقة
+        [one] خلال دقيقة واحدة
+        [two] خلال دقيقتين
+        [few] خلال { $amount } دقائق
+        [many] خلال { $amount } دقيقة
+       *[other] خلال { $amount } دقيقة
+    }
+statistics-in-time-span-hours =
+    { $amount ->
+        [zero] خلال { $amount } ساعة
+        [one] خلال ساعة واحدة
+        [two] خلال ساعتين
+        [few] خلال { $amount } ساعات
+        [many] خلال { $amount } ساعة
+       *[other] خلال { $amount } ساعة
+    }
+statistics-in-time-span-days =
+    { $amount ->
+        [zero] خلال { $amount } يوم
+        [one] خلال يوم
+        [two] خلال يومين
+        [few] خلال { $amount } أيام
+        [many] خلال { $amount } يومًا
+       *[other] خلال { $amount } يوم
+    }
+statistics-in-time-span-months =
+    { $amount ->
+        [zero] خلال { $amount } شهر
+        [one] خلال شهر واحد
+        [two] خلال شهرين
+        [few] خلال { $amount } أشهر
+        [many] خلال { $amount } شهرًا
+       *[other] خلال { $amount } شهر
+    }
+statistics-in-time-span-years =
+    { $amount ->
+        [zero] خلال { $amount } سنة
+        [one] خلال سنة واحدة
+        [two] خلال سنتين
+        [few] خلال { $amount } سنين
+        [many] خلال { $amount } سنة
+       *[other] خلال { $amount } سنة
+    }
 statistics-cards =
     { $cards ->
         [zero] { $cards } بطاقة
-        [one] { $cards } بطاقات
-        [two] { $cards } بطاقات
+        [one] بطاقة واحدة
+        [two] بطاقتين
         [few] { $cards } بطاقات
-        [many] { $cards } بطاقات
-       *[other] { $cards } بطاقات
+        [many] { $cards } بطاقة
+       *[other] { $cards } بطاقة
     }
+
+##
+
+# a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
-        [zero] { $reviews } مذاكرة
-        [one] { $reviews } مذاكرة
-        [two] { $reviews } مذاكرات
-        [few] { $reviews } مذاكرات
-        [many] { $reviews } مذاكرات
-       *[other] { $reviews } مذاكرات
+        [zero] { $reviews } مراجعة
+        [one] مراجعة واحدة
+        [two] مراجعتين
+        [few] { $reviews } مراجعات
+        [many] { $reviews } مراجعة
+       *[other] { $reviews } مراجعة
     }
-statistics-today-again-count = %s :"عدد البطاقات المجابة بـ "مجددًا
-statistics-counts-suspended-cards = موقوف
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    درست { statistics-cards }{ $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } اليوم ({ $secs-per-card } ثانية/بطاقة)
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds } ثانية
+statistics-today-title = اليوم
+statistics-today-again-count = عدد البطاقات المجابة بـ "مجددًا":
+statistics-today-type-counts = تعلم: { $learnCount }، مراجعة: { $reviewCount }، تعلم مجددًا: { $relearnCount }، مصفّى: { $filteredCount }
+statistics-today-no-cards = لم تدرس أي بطاقة اليوم.
+statistics-today-no-mature-cards = لم تدرس أي بطاقة ناضجة اليوم.
+statistics-today-correct-mature = أجوبة صحيحة للبطاقات الناضجة: { $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = الإجمالي
+statistics-counts-new-cards = جديدة
+statistics-counts-young-cards = يافعة
+statistics-counts-mature-cards = ناضجة
+statistics-counts-suspended-cards = موقوفة
 statistics-counts-buried-cards = مدفونة
-statistics-reviews-title = مراجعات
-statistics-answer-buttons-title = أزرار الإجابة
+statistics-counts-early-cards = مبكرة
+statistics-counts-learning-cards = تعلّم
+statistics-counts-relearning-cards = تعلّم مجددًا
+statistics-counts-title = عدد البطاقات
+statistics-range-all-time = مدى حياة الرزمة
+statistics-range-deck = رزمة
+statistics-range-collection = مجموعة
+statistics-range-search = بحث
+statistics-card-ease-title = سهولة البطاقة
+statistics-card-ease-subtitle = كلما كانت السهولة منخفضة، ظهرت البطاقة مرات أكثر.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [zero] 0 بطاقة بنسبة سهولة { $percent }
+        [one] بطاقة واحدة بنسبة سهولة { $percent }
+        [two] بطاقتين بنسبة سهولة { $percent }
+        [few] { $cards } بطاقات بنسبة سهولة { $percent }
+        [many] { $cards } بطاقة بنسبة سهولة { $cards }
+       *[other] { $cards } بطاقة بنسبة سهولة { $cards }
+    }
+statistics-future-due-title = تاريخ الاستحقاق القادم
+statistics-future-due-subtitle = عدد المراجعات المستحقة في المستقبل.
 statistics-added-title = اُضيفت
-statistics-axis-label-answer-count = الإجابات
-statistics-axis-label-card-count = البطاقات
+statistics-added-subtitle = عدد البطاقات الجديدة التي أضفتها.
+statistics-reviews-count-subtitle = عدد الأسئلة التي أجبت عنها.
+statistics-reviews-time-subtitle = الوقت المستغرق للإجابة عن الأسئلة.
+statistics-answer-buttons-title = أزرار الإجابة
+# eg Button: 4
+statistics-answer-buttons-button-number = زر
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = عدد النقرات
+statistics-answer-buttons-subtitle = عدد نقرات كل زر.
+statistics-reviews-title = مراجعات
+statistics-reviews-time-checkbox = وقت
+statistics-in-days-single =
+    { $days ->
+        [0] اليوم
+        [1] غدًا
+        [zero] اليوم
+        [one] غدًا
+        [two] بعد غد
+        [few] بعد { $days } أيام
+        [many] بعد { $days } يومًا
+       *[other] بعد { $days } يوم
+    }
+statistics-in-days-range = بعد { $daysStart }-{ $daysEnd } يوم
+statistics-days-ago-single =
+    { $days ->
+        [1] البارحة
+        [zero] اليوم
+        [one] البارحة
+        [two] منذ يومين
+        [few] منذ { $days } أيام
+        [many] منذ { $days } يومًا
+       *[other] منذ { $days } يوم
+    }
+statistics-days-ago-range = منذ { $daysStart }-{ $daysEnd } يوم
+statistics-running-total = المحصلة الكلية
+statistics-cards-due =
+    { $cards ->
+        [zero] { $cards } بطاقة مستحقة
+        [one] بطاقة مستحقة واحدة
+        [two] بطاقتين مستحقتين
+        [few] { $cards } بطاقات مستحقة
+        [many] { $cards } بطاقة مستحقة
+       *[other] { $cards } بطاقة مستحقة
+    }
+statistics-backlog-checkbox = المتراكمات
+statistics-intervals-title = الفواصل الزمنية للمراجعة
+statistics-intervals-subtitle = الفواصل الزمنية بين المراجعات
+statistics-intervals-day-range =
+    { $cards ->
+        [zero] { $cards } بطاقة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
+        [one] بطاقة واحدة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
+        [two] بطاقتين بفاصل زمني { $daysStart }-{ $daysEnd } يوم
+        [few] { $cards } بطاقات بفاصل زمني { $daysStart }-{ $daysEnd } يوم
+        [many] { $cards } بطاقة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
+       *[other] { $cards } بطاقة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [zero] { $cards } بطاقة بفاصل زمني يمتد { $day } يوم
+        [one] بطاقة واحدة بفاصل زمني يمتد { $day } يوم
+        [two] بطاقتين بفاصل زمني يمتد { $day } يوم
+        [few] { $cards } بطاقات بفاصل زمني يمتد { $day } يوم
+        [many] { $cards } بطاقة بفاصل زمني يمتد { $day } يوم
+       *[other] { $cards } بطاقة بفاصل زمني يمتد { $day } يوم
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = خلال { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } صحيح ({ $percent }%)
+statistics-hours-title = التفصيل ساعة بساعة
+statistics-hours-subtitle = معدل المراجعات الناجحة لكل ساعة من اليوم.

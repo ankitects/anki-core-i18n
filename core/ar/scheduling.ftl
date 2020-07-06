@@ -72,12 +72,43 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    بطاقة الدراسة التالية ستكون جاهزة خلال { $unit ->
+        [seconds]
+            { $amount ->
+                [zero] 0 ثانية
+                [one] ثانية واحدة
+                [two] ثانيتين
+                [few] { $amount } ثوانٍ
+                [many] { $amount } ثانية
+               *[other] { $amount } ثانية
+            }
+        [minutes]
+            { $amount ->
+                [zero] 0 دقيقة
+                [one] دقيقة واحدة
+                [two] دقيقتين
+                [few] { $amount } دقائق
+                [many] { $amount } دقيقة
+               *[other] { $amount } دقيقة
+            }
+       *[hours]
+            { $amount ->
+                [zero] 0 ساعة
+                [one] ساعة واحدة
+                [two] ساعتين
+                [few] { $amount } ساعات
+                [many] { $amount } ساعة
+               *[other] { $amount } ساعة
+            }
+    }.
 scheduling-learn-remaining =
     { $remaining ->
         [zero] لم يعد هناك أي بطاقة دراسة مستحقة اليوم.
         [one] تبقى بطاقة دراسة واحدة مستحقة اليوم.
         [two] تبقى بطاقتي دراسة مستحقتين اليوم.
-        [few] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
+        [few] تبقى { $remaining } بطاقات دراسة مستحقة اليوم.
         [many] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
        *[other] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
     }
