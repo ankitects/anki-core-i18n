@@ -12,3 +12,4 @@ card-templates-back-preview = Vista prèvia del Revers
 card-templates-preview-box = Vista prèvia
 card-templates-template-box = Plantilla
 card-templates-sample-cloze = Ce es un { "{{c1::" }sample{ "}}" } cloze deletion.
+card-templates-fill-empty = Omplir els camps buits

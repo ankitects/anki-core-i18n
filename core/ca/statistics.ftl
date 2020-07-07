@@ -74,6 +74,8 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } uèi ({ $secs-per-card }s/card)
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }s
 statistics-today-title = Hodie
 statistics-today-again-count = Doblits :
 statistics-today-type-counts = Apprendite: { $learnCount }, Revidite: { $reviewCount }, Reapprendite: { $relearnCount }, Filtrate: { $filteredCount }
@@ -86,11 +88,24 @@ statistics-counts-young-cards = Juvene
 statistics-counts-mature-cards = Matur
 statistics-counts-suspended-cards = Suspendite
 statistics-counts-buried-cards = Inhumate
+statistics-counts-early-cards = Aviat
 statistics-counts-learning-cards = Apprender
+statistics-counts-relearning-cards = Reaprenent
+statistics-counts-title = Recompte de Targetes
 statistics-range-all-time = vita del fasce
+statistics-range-1-year-history = últims 12 mesOs
+statistics-range-all-history = tot l'historial
 statistics-range-deck = fasce
 statistics-range-collection = col·lecció
 statistics-range-search = Cercar
+statistics-card-ease-title = Facilitat de la Tarjeta
+statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] 1 tarjeta amb { $percent } facilitat
+       *[other] { $cards } tarjetes amb { $percent } facilitat
+    }
 statistics-future-due-title = Previsions
 statistics-future-due-subtitle = Le numero de revisiones debite in le futur.
 statistics-added-title = Apondut
@@ -100,6 +115,8 @@ statistics-reviews-time-subtitle = Le tempore prendite a responder le questiones
 statistics-answer-buttons-title = Botons de responsa
 # eg Button: 4
 statistics-answer-buttons-button-number = Botó
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Vegades premut
 statistics-answer-buttons-subtitle = Le numero de vices tu ha pulsate cata button.
 statistics-reviews-title = Revisions
 statistics-reviews-time-checkbox = Tempore
@@ -117,11 +134,29 @@ statistics-days-ago-single =
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } dies enrere
 statistics-running-total = Total acumulat
+statistics-cards-due =
+    { $cards ->
+        [one] 1 tarjeta vençuda
+       *[other] { $cards } tarjetes vençudes
+    }
 statistics-backlog-checkbox = Acumulació
 statistics-intervals-title = Intervallos
 statistics-intervals-subtitle = Retarda usque le revistas es monstrate de novo
+statistics-intervals-day-range =
+    { $cards ->
+        [one] 1 tarjeta amb un interval de { $daysStart }~{ $daysEnd } dies
+       *[other] { $cards } tarjetess amb un interval de  { $daysStart }~{ $daysEnd } dies
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] 1 tarjeta amb un interval de  { $day } dies
+       *[other] { $cards } tarjetas amb un interval de { $day } dies
+    }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Des de { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correcte ({ $percent }%)
 statistics-hours-title = Collapso horari
 statistics-hours-subtitle = Revider le taxo de successo pro cata hora del die.
+# shown when graph is empty
+statistics-no-data = SENSE DADES
+statistics-calendar-title = Calendari

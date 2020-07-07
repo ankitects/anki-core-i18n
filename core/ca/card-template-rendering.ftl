@@ -25,3 +25,6 @@ card-template-rendering-no-such-field = Trobat '{ $found }', peró no hi ha cap 
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = La partefrontal d'aquestaa tarjeta està en blanc.
+card-template-rendering-missing-cloze =
+    No s'ha trobat cap resposta anidada número  { $number } en la targeta.
+    Pot utilitzar "Buidar targetes" par eliminar aquesta targeta buida.
