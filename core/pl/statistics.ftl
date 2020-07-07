@@ -105,6 +105,8 @@ statistics-counts-learning-cards = Uczone
 statistics-counts-relearning-cards = Uczone Ponownie
 statistics-counts-title = Liczby kart
 statistics-range-all-time = czas życia talii
+statistics-range-1-year-history = ostatnie 12 miesięcy
+statistics-range-all-history = cała historia
 statistics-range-deck = talia
 statistics-range-collection = kolekcja
 statistics-range-search = Szukaj
@@ -175,3 +177,6 @@ statistics-hours-range = Od { $hourStart }: 00~{ $hourEnd }: 00
 statistics-hours-correct = { $correct }/{ $total } poprawnych ({ $percent }%)
 statistics-hours-title = Podział godzinowy
 statistics-hours-subtitle = Odsetek poprawnych odpowiedzi w różnych porach dnia.
+# shown when graph is empty
+statistics-no-data = BRAK DANYCH
+statistics-calendar-title = Kalendarz
