@@ -12,8 +12,8 @@ database-check-missing-templates =
     }
 database-check-field-count =
     { $count ->
-        [one] { $count } targeta corregida con número erróneo de campos.
-       *[other] { $count } targetas corregidas con número erróneo de campos.
+        [one] { $count } tarjeta corregida con número erróneo de campos.
+       *[other] { $count } tarjetas corregidas con número erróneo de campos.
     }
 database-check-new-card-high-due =
     { $count ->
@@ -40,7 +40,6 @@ database-check-revlog-properties =
         [one] { $count } entrada corregida de revisión con propiedades no válidas.
        *[other] { $count } entradas corregidas de revisiones con propiedades no válidas.
     }
-database-check-title = Verificar base de datos
 
 ## Progress info
 
@@ -49,3 +48,4 @@ database-check-rebuilding = Reconstruyendo...
 database-check-checking-cards = Comprobando tarjetas...
 database-check-checking-notes = Comprobando notas...
 database-check-checking-history = Comprobando historial...
+database-check-title = Verificar base de datos

@@ -93,6 +93,8 @@ statistics-counts-learning-cards = Aprendiendo
 statistics-counts-relearning-cards = Reaprendiendo
 statistics-counts-title = Conteo de Tarjetas
 statistics-range-all-time = vida del mazo
+statistics-range-1-year-history = últimos 12 meses
+statistics-range-all-history = todo el historial
 statistics-range-deck = mazo
 statistics-range-collection = colección
 statistics-range-search = Buscar
@@ -155,3 +157,6 @@ statistics-hours-range = Desde { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correcto ({ $percent }%)
 statistics-hours-title = Distribución horaria
 statistics-hours-subtitle = Porcentaje de repasos correctos a lo largo del día.
+# shown when graph is empty
+statistics-no-data = SIN DATOS
+statistics-calendar-title = Calendario
