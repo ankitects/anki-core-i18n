@@ -121,6 +121,8 @@ statistics-counts-learning-cards = تعلّم
 statistics-counts-relearning-cards = تعلّم مجددًا
 statistics-counts-title = عدد البطاقات
 statistics-range-all-time = مدى حياة الرزمة
+statistics-range-1-year-history = آخر 12 شهرًا
+statistics-range-all-history = كل التاريخ
 statistics-range-deck = رزمة
 statistics-range-collection = مجموعة
 statistics-range-search = بحث
@@ -209,3 +211,6 @@ statistics-hours-range = خلال { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } صحيح ({ $percent }%)
 statistics-hours-title = التفصيل ساعة بساعة
 statistics-hours-subtitle = معدل المراجعات الناجحة لكل ساعة من اليوم.
+# shown when graph is empty
+statistics-no-data = لا بيانات
+statistics-calendar-title = التقويم
