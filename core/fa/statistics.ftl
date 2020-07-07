@@ -83,6 +83,8 @@ statistics-counts-learning-cards = در حال یادگیری
 statistics-counts-relearning-cards = بازآموزی
 statistics-counts-title = تعداد کارت
 statistics-range-all-time = عمر دسته
+statistics-range-1-year-history = 12 ماه گذشته
+statistics-range-all-history = تاریخچه کامل
 statistics-range-deck = دسته
 statistics-range-collection = مجموعه
 statistics-range-search = جست و جو
@@ -141,3 +143,6 @@ statistics-hours-range = از { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } درست ({ $percent }%)
 statistics-hours-title = تفکیک ساعت به ساعت
 statistics-hours-subtitle = میزان موفقیت مرور در هر ساعت از روز
+# shown when graph is empty
+statistics-no-data = فاقد داده
+statistics-calendar-title = تقویم
