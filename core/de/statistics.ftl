@@ -89,6 +89,8 @@ statistics-counts-learning-cards = Lernen
 statistics-counts-relearning-cards = Erneut lernend
 statistics-counts-title = Kartenzähler
 statistics-range-all-time = Stapel-Lebensdauer
+statistics-range-1-year-history = letzte 12 Monate
+statistics-range-all-history = Gesamte Historie
 statistics-range-deck = Stapel
 statistics-range-collection = Sammlung
 statistics-range-search = Suche
@@ -153,3 +155,6 @@ statistics-hours-range = Von { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent }%)
 statistics-hours-title = Gedächtnisleistung nach Tageszeit
 statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
+# shown when graph is empty
+statistics-no-data = KEINE DATEN
+statistics-calendar-title = Kalender
