@@ -95,7 +95,7 @@ statistics-range-deck = Stapel
 statistics-range-collection = Sammlung
 statistics-range-search = Suche
 statistics-card-ease-title = Karten-Leichtigkeit
-statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
+statistics-card-ease-subtitle = Je geringer ihre Leichtigkeit, desto öfter wird eine Karte abgefragt.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
