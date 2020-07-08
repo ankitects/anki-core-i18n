@@ -75,6 +75,8 @@ statistics-counts-learning-cards = 學習中
 statistics-counts-relearning-cards = 重新學習中
 statistics-counts-title = 卡片計數
 statistics-range-all-time = 牌組總時間
+statistics-range-1-year-history = 過去 12 個月
+statistics-range-all-history = 全部歷史
 statistics-range-deck = 牌組
 statistics-range-collection = 集合
 statistics-range-search = 搜尋
@@ -133,3 +135,6 @@ statistics-hours-range = 從{ $hourStart }點~{ $hourEnd }點
 statistics-hours-correct = { $correct }/{ $total } 正確（{ $percent }%）
 statistics-hours-title = 每小時的分析
 statistics-hours-subtitle = 當天的每小時複習成功率
+# shown when graph is empty
+statistics-no-data = 沒有資料
+statistics-calendar-title = 行事曆
