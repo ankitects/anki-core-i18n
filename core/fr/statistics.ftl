@@ -52,6 +52,9 @@ statistics-cards =
         [one] { $cards } carte étudiée
        *[other] { $cards } cartes étudiées
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -73,6 +76,8 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } aujourd'hui
     ({ $secs-per-card }s/carte)
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }s
 statistics-today-title = Aujourd’hui
 statistics-today-again-count = Oublis :
 statistics-today-type-counts = Apprises : { $learnCount }, Revues : { $reviewCount }, Réapprises : { $relearnCount }, Filtrées : { $filteredCount }
@@ -85,25 +90,24 @@ statistics-counts-young-cards = Récentes
 statistics-counts-mature-cards = Mature
 statistics-counts-suspended-cards = Suspendu
 statistics-counts-buried-cards = Enfoui
+statistics-counts-learning-cards = À repasser
 statistics-range-all-time = vie du paquet
+statistics-range-1-year-history = 12 derniers mois
 statistics-range-deck = paquet
 statistics-range-collection = collection
 statistics-range-search = Chercher
 statistics-future-due-title = Charge de travail
-statistics-reviews-title = Révisions
-statistics-intervals-title = Intervalles
-statistics-answer-buttons-title = Boutons de réponse
-statistics-hours-title = Répartition horaire
-statistics-added-title = Ajouté
-statistics-axis-label-answer-count = Réponses
-statistics-axis-label-card-count = Cartes
-statistics-axis-label-review-time = Temps passé
 statistics-future-due-subtitle = Prévision du nombre de cartes à réviser selon leur jour d’échéance et leur statut.
+statistics-added-title = Ajouté
 statistics-added-subtitle = Le nombre de nouvelles cartes que vous avez ajoutées.
 statistics-reviews-count-subtitle = La part et le nombre de révisions selon le statut de la carte.
 statistics-reviews-time-subtitle = Le temps passé à répondre selon le jour et selon le statut de la carte.
-statistics-intervals-subtitle = Le nombre de cartes en fonction de leur intervalle de révision.
+statistics-answer-buttons-title = Boutons de réponse
 statistics-answer-buttons-subtitle = Le choix des divers boutons en fonction de l’ancienneté de la carte.
-statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heure du jour.
-statistics-counts-learning-cards = À repasser
+statistics-reviews-title = Révisions
 statistics-reviews-time-checkbox = Durée
+statistics-intervals-title = Intervalles
+statistics-intervals-subtitle = Le nombre de cartes en fonction de leur intervalle de révision.
+statistics-hours-title = Répartition horaire
+statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heure du jour.
+statistics-calendar-title = Calendrier
