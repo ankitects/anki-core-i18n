@@ -6,3 +6,4 @@ empty-cards-deleted-count =
         [one] { $cards } carta.
        *[other] { $cards } carte.
     }
+empty-cards-delete-empty-cards = Elimina le carte vuote

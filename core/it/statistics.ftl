@@ -48,6 +48,9 @@ statistics-cards =
         [one] { $cards } carta
        *[other] { $cards } carte
     }
+
+##
+
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -67,6 +70,8 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } oggi ({ $secs-per-card }s/carta)
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }s
 statistics-today-title = Oggi
 statistics-today-again-count = Carte fallite:
 statistics-today-type-counts = Impara: { $learnCount }, Ripeti: { $reviewCount }, Reimpara: { $relearnCount }, Filtrate: { $filteredCount }
@@ -78,25 +83,24 @@ statistics-counts-new-cards = Nuove
 statistics-counts-young-cards = Giovani
 statistics-counts-suspended-cards = Sospese
 statistics-counts-buried-cards = Seppellito
+statistics-counts-learning-cards = In apprendimento
 statistics-range-all-time = vita del mazzo
+statistics-range-1-year-history = ultimi 12 mesi
 statistics-range-deck = mazzo
 statistics-range-collection = collezione
 statistics-range-search = Cerca
 statistics-future-due-title = Previsioni
-statistics-reviews-title = Ripetizioni
-statistics-intervals-title = Intervalli
-statistics-answer-buttons-title = Pulsanti di risposta
-statistics-hours-title = Suddivisione per ora del giorno
-statistics-added-title = Aggiunto
-statistics-axis-label-answer-count = Risposte
-statistics-axis-label-card-count = Carte
-statistics-axis-label-review-time = Durata delle ripetizioni
 statistics-future-due-subtitle = Numero di ripetizioni che scadranno in futuro.
+statistics-added-title = Aggiunto
 statistics-added-subtitle = Numero di carte nuove che hai aggiunto.
 statistics-reviews-count-subtitle = Numero di domande alle quali hai risposto.
 statistics-reviews-time-subtitle = Tempo impiegato per rispondere alle domande.
-statistics-intervals-subtitle = Differimento della ripresentazione delle ripetizioni.
+statistics-answer-buttons-title = Pulsanti di risposta
 statistics-answer-buttons-subtitle = Numero di volte che hai premuto ogni pulsante.
-statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno
-statistics-counts-learning-cards = In apprendimento
+statistics-reviews-title = Ripetizioni
 statistics-reviews-time-checkbox = Durata
+statistics-intervals-title = Intervalli
+statistics-intervals-subtitle = Differimento della ripresentazione delle ripetizioni.
+statistics-hours-title = Suddivisione per ora del giorno
+statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno
+statistics-calendar-title = Calendario
