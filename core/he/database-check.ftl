@@ -43,8 +43,8 @@ database-check-missing-decks =
     }
 database-check-revlog-properties =
     { $count ->
-        [one] תוקנה { $count } סקירה עם מאפיינים שגויים.
-       *[other] תוקנו { $count } סקירות עם מאפיינים שגויים.
+        [one] תוקן { $count } רישום חזרה עם מאפיינים שגויים.
+       *[other] תוקנו { $count } רישומי חזרה עם מאפיינים שגויים.
     }
 
 ## Progress info

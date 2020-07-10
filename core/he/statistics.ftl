@@ -68,10 +68,10 @@ statistics-cards =
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
-        [one] { $reviews } סקירה
-        [two] { $reviews } סקירות
-        [many] { $reviews } סקירות
-       *[other] { $reviews } סקירות
+        [one] { $reviews } חזרה
+        [two] { $reviews } חזרות
+        [many] { $reviews } חזרות
+       *[other] { $reviews } חזרות
     }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
@@ -91,7 +91,7 @@ statistics-studied-today =
 statistics-seconds-taken = { $seconds }שניות
 statistics-today-title = היום
 statistics-today-again-count = מנין השגיאות:
-statistics-today-type-counts = נלמדו:{ $learnCount }, סקירות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
+statistics-today-type-counts = נלמדו:{ $learnCount }, חזרות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
 statistics-today-no-cards = לא נלמדו כרטיסיות היום.
 statistics-today-no-mature-cards = לא נלמדו כרטיסיות בוגרות היום.
 statistics-today-correct-mature = תשובות נכונות בכרטיסיות בוגרות: { $correct }/{ $total } ({ $percent }%)
@@ -106,6 +106,8 @@ statistics-counts-learning-cards = נלמדים
 statistics-counts-relearning-cards = נלמדים מחדש
 statistics-counts-title = מנייני כרטיסים
 statistics-range-all-time = משך חיי חפיסה
+statistics-range-1-year-history = בשנה האחרונה
+statistics-range-all-history = מאז ומתמיד
 statistics-range-deck = חפיסה
 statistics-range-collection = אוסף
 statistics-range-search = חיפוש
@@ -118,7 +120,7 @@ statistics-card-ease-tooltip =
        *[other] { $cards } כרטיסים עם { $percent } קלות
     }
 statistics-future-due-title = תזמון עתידי
-statistics-future-due-subtitle = מספר הסקירות המתוזמנות בעתיד.
+statistics-future-due-subtitle = מספר החזרות המתוזמנות בעתיד.
 statistics-added-title = נוספו
 statistics-added-subtitle = מספר הכרטיסיות החדשות שאתה הוספת.
 statistics-reviews-count-subtitle = מספר השאלות שענית עליהן.
@@ -129,7 +131,7 @@ statistics-answer-buttons-button-number = לחצן
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = מספר לחיצות
 statistics-answer-buttons-subtitle = מספר הפעמים שלחצת על כל לחצן.
-statistics-reviews-title = סקירות
+statistics-reviews-title = חזרות
 statistics-reviews-time-checkbox = זמן
 statistics-in-days-single =
     { $days ->
@@ -153,8 +155,8 @@ statistics-cards-due =
        *[other] { $cards } כרטיסים מתוזמנים
     }
 statistics-backlog-checkbox = הצטברות
-statistics-intervals-title = מרווחי זמן לסקירה
-statistics-intervals-subtitle = עיכובים עד שסקירות מופיעות שנית.
+statistics-intervals-title = מרווחי זמן בין החזרות
+statistics-intervals-subtitle = השהיות עד שהחזרות מופיעות שנית.
 statistics-intervals-day-range =
     { $cards ->
         [one] 1 כרטיס עם { $daysStart }~{ $daysEnd } ימים מרווח זמן
@@ -169,4 +171,7 @@ statistics-intervals-day-single =
 statistics-hours-range = מ- { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } נכונים ({ $percent }%)
 statistics-hours-title = פילוח שעתי
-statistics-hours-subtitle = ניקוד הצלחה בסקירות לכל שעה ביום.
+statistics-hours-subtitle = ניקוד הצלחה בחזרות לכל שעה ביום.
+# shown when graph is empty
+statistics-no-data = אין נתונים
+statistics-calendar-title = לוח שנה
