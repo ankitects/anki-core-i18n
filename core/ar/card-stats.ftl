@@ -20,4 +20,4 @@ card-stats-review-log-time-taken = الوقت
 card-stats-review-log-type-learn = تعلّم
 card-stats-review-log-type-review = مراجعة
 card-stats-review-log-type-relearn = تعلّم مجددًا
-card-stats-review-log-type-filtered = مُصفّى
+card-stats-review-log-type-filtered = مفلتر

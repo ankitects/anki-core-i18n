@@ -94,7 +94,7 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    درست { statistics-cards }{ $unit ->
+    درست { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
@@ -106,7 +106,7 @@ statistics-studied-today =
 statistics-seconds-taken = { $seconds } ثانية
 statistics-today-title = اليوم
 statistics-today-again-count = عدد البطاقات المجابة بـ "مجددًا":
-statistics-today-type-counts = تعلم: { $learnCount }، مراجعة: { $reviewCount }، تعلم مجددًا: { $relearnCount }، مصفّى: { $filteredCount }
+statistics-today-type-counts = تعلم: { $learnCount }، مراجعة: { $reviewCount }، تعلم مجددًا: { $relearnCount }، مفلتر: { $filteredCount }
 statistics-today-no-cards = لم تدرس أي بطاقة اليوم.
 statistics-today-no-mature-cards = لم تدرس أي بطاقة ناضجة اليوم.
 statistics-today-correct-mature = أجوبة صحيحة للبطاقات الناضجة: { $correct }/{ $total } ({ $percent }%)
