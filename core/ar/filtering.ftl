@@ -1,2 +1,2 @@
 # True if a card is due/ready for review
-filtering-is-due = مُستحَق
+filtering-is-due = مستحقة

@@ -9,4 +9,4 @@ deck-config-used-by-decks =
         [many] مستخدمة في { $decks } رزمة
        *[other] مستخدمة في { $decks } رزمة
     }
-deck-config-default-name = افتراضي
+deck-config-default-name = افتراضية
