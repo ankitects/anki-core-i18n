@@ -102,9 +102,12 @@ statistics-counts-suspended-cards = Исключённые
 statistics-counts-buried-cards = Отложены
 statistics-counts-learning-cards = Изучаемые
 statistics-range-all-time = всё время
+statistics-range-1-year-history = за 12 месяцев
+statistics-range-all-history = вся история
 statistics-range-deck = пакет
 statistics-range-collection = коллекция
 statistics-range-search = Поиск
+statistics-card-ease-title = Лёгкость карточки
 statistics-future-due-title = Прогноз
 statistics-future-due-subtitle = Число повторений, запланированных на будущее.
 statistics-added-title = Добавлено
@@ -121,5 +124,11 @@ statistics-reviews-title = Повторение
 statistics-reviews-time-checkbox = Время
 statistics-intervals-title = Интервалы
 statistics-intervals-subtitle = Задержки перед следующим повторением.
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = С { $hourStart }:00 до { $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } верных ({ $percent }%)
 statistics-hours-title = По часам
 statistics-hours-subtitle = Доля удачных просмотров в определенный час
+# shown when graph is empty
+statistics-no-data = Нет данных
+statistics-calendar-title = Календарь
