@@ -2,7 +2,7 @@
 
 notetypes-front-field = المقدمة
 notetypes-back-field = الخلف
-notetypes-add-reverse-field = أضف بطاقة معكوسة
+notetypes-add-reverse-field = إضافة بطاقة معكوسة
 notetypes-text-field = نص
 notetypes-back-extra-field = إضافي خلفي
 
