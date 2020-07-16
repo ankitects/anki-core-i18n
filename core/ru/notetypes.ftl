@@ -1,10 +1,10 @@
 ## Default field names in newly created note types
 
-notetypes-front-field = Лицевая сторона
-notetypes-back-field = Обратная сторона
+notetypes-front-field = Лицо
+notetypes-back-field = Оборот
 notetypes-add-reverse-field = Добавить обратную
 notetypes-text-field = Текст
-notetypes-back-extra-field = Обратная сторона (доп.)
+notetypes-back-extra-field = Дополнение оборота
 
 ## Default note type names
 

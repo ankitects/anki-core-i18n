@@ -4,8 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Больше информации
-card-template-rendering-front-side-problem = Проблема с шаблоном лицевой стороны:
-card-template-rendering-back-side-problem = Проблема с шаблоном обратной стороны:
+card-template-rendering-front-side-problem = Проблема с шаблоном лица:
+card-template-rendering-back-side-problem = Проблема с шаблоном оборота:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = В «{ $tag }» не хватает «{ $missing }»
@@ -24,7 +24,7 @@ card-template-rendering-no-such-field = Использовано «{ $found }»,
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = Лицевая сторона этой карточки пустая.
+card-template-rendering-empty-front = Лицо этой карточки пустое.
 card-template-rendering-missing-cloze =
     Задание с пропусками { $number } не найдено в карточке.
     Вы можете использовать инструмент "Пустые карточки" для удаления этой пустой карточки.

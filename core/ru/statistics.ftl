@@ -100,7 +100,10 @@ statistics-counts-young-cards = Свежие
 statistics-counts-mature-cards = Закреплённые
 statistics-counts-suspended-cards = Исключённые
 statistics-counts-buried-cards = Отложены
+statistics-counts-early-cards = Ранние
 statistics-counts-learning-cards = Изучаемые
+statistics-counts-relearning-cards = Переучиваемые
+statistics-counts-title = Количество карточек
 statistics-range-all-time = всё время
 statistics-range-1-year-history = за 12 месяцев
 statistics-range-all-history = вся история
@@ -122,6 +125,14 @@ statistics-answer-buttons-button-pressed = Раз нажато
 statistics-answer-buttons-subtitle = Сколько раз Вы нажали каждую кнопку.
 statistics-reviews-title = Повторение
 statistics-reviews-time-checkbox = Время
+statistics-days-ago-single =
+    { $days ->
+        [1] Вчера
+        [one] { $days } день назад
+        [few] { $days } дня назад
+       *[other] { $days } дней назад
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } дней назад
 statistics-intervals-title = Интервалы
 statistics-intervals-subtitle = Задержки перед следующим повторением.
 # hour range, eg "From 14:00-15:00"
