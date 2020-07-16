@@ -119,10 +119,10 @@ statistics-card-ease-tooltip =
         [one] כרטיס 1 עם { $percent } קלות
        *[other] { $cards } כרטיסים עם { $percent } קלות
     }
-statistics-future-due-title = תזמון עתידי
+statistics-future-due-title = תחזית
 statistics-future-due-subtitle = מספר החזרות המתוזמנות בעתיד.
 statistics-added-title = נוספו
-statistics-added-subtitle = מספר הכרטיסיות החדשות שאתה הוספת.
+statistics-added-subtitle = מספר הכרטיסים החדשים שהוספת.
 statistics-reviews-count-subtitle = מספר השאלות שענית עליהן.
 statistics-reviews-time-subtitle = הזמן שלקח לענות על השאלות.
 statistics-answer-buttons-title = כפתורי תשובה
@@ -148,7 +148,7 @@ statistics-days-ago-single =
        *[other] לפני { $days } ימים
     }
 statistics-days-ago-range = לפני { $daysStart }-{ $daysEnd } ימים
-statistics-running-total = סה"כ רצים
+statistics-running-total = סה"כ פעילים
 statistics-cards-due =
     { $cards ->
         [one] 1 כרטיס מתוזמן
