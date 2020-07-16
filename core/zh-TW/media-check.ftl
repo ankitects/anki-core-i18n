@@ -19,8 +19,8 @@ media-check-subfolder-count = 子資料夾數：{ $count }
 media-check-renamed-header = 部分檔案因相容性問題而被重新命名：
 media-check-oversize-header = 大於100MB的檔案無法同步到AnkiWeb。
 media-check-subfolder-header = 媒體資料夾內的資料夾不受支援。
-media-check-missing-header = 以下檔案被卡片使用，但在媒體資料夾內找不到：
-media-check-unused-header = 在媒體資料夾中找到了以下檔案，但沒有被任何卡片使用：
+media-check-missing-header = 在媒體資料夾中找不到以下被卡片使用的檔案：
+media-check-unused-header = 在媒體資料夾中找到了以下未被卡片使用的檔案：
 
 ## Shown once for each file
 
@@ -44,8 +44,8 @@ media-check-files-remaining =
     }
 media-check-delete-unused-complete =
     { $count ->
-       *[other] { $count }個檔案
-    }被移動到垃圾桶。
+       *[other] 已移動{ $count }個檔案
+    }到垃圾桶。
 media-check-trash-emptied = 已清空垃圾桶資料夾。
 media-check-trash-restored = 恢復已刪除檔案到媒體資料夾。
 

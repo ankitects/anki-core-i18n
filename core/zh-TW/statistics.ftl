@@ -63,8 +63,8 @@ statistics-today-again-count = 「再一次」計數：
 statistics-today-type-counts = 學習：{ $learnCount }　複習：{ $reviewCount }　重複學習：{ $relearnCount }　已篩選：{ $filteredCount }
 statistics-today-no-cards = 今天尚未學習任何卡片。
 statistics-today-no-mature-cards = 今天沒有學習熟練的卡片
-statistics-today-correct-mature = 熟練卡片的正確答案：{ $correct }/{ $total } ({ $percent }%)
-statistics-counts-total-cards = 卡片總數
+statistics-today-correct-mature = 回答正確的熟練卡片：{ $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = 總數
 statistics-counts-new-cards = 新卡片
 statistics-counts-young-cards = 未熟練
 statistics-counts-mature-cards = 熟練
@@ -90,7 +90,7 @@ statistics-card-ease-tooltip =
 statistics-future-due-title = 預測
 statistics-future-due-subtitle = 將來會到期的複習卡數量
 statistics-added-title = 已新增
-statistics-added-subtitle = 己新增的新卡片的數量
+statistics-added-subtitle = 新增卡片的數量
 statistics-reviews-count-subtitle = 您已經回答的題數
 statistics-reviews-time-subtitle = 答題佔用的時間
 statistics-answer-buttons-title = 回答按鈕
@@ -99,7 +99,7 @@ statistics-answer-buttons-button-number = 按鈕
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = 按鍵次數
 statistics-answer-buttons-subtitle = 各按鈕已按鍵次數
-statistics-reviews-title = 複習卡
+statistics-reviews-title = 待複習卡片
 statistics-reviews-time-checkbox = 時間
 statistics-in-days-single =
     { $days ->
@@ -133,8 +133,8 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = 從{ $hourStart }點~{ $hourEnd }點
 statistics-hours-correct = { $correct }/{ $total } 正確（{ $percent }%）
-statistics-hours-title = 每小時的分析
-statistics-hours-subtitle = 當天的每小時複習成功率
+statistics-hours-title = 每小時分析
+statistics-hours-subtitle = 當天每小時的複習成功率
 # shown when graph is empty
 statistics-no-data = 沒有資料
 statistics-calendar-title = 行事曆
