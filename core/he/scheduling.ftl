@@ -3,9 +3,9 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
-scheduling-answer-button-time-seconds = { $amount }ש'
-scheduling-answer-button-time-minutes = { $amount }ד'
-scheduling-answer-button-time-hours = { $amount }שע'
+scheduling-answer-button-time-seconds = { $amount } שניות
+scheduling-answer-button-time-minutes = { $amount } דקות
+scheduling-answer-button-time-hours = { $amount } שעות
 scheduling-answer-button-time-days = { $amount }י'
 scheduling-answer-button-time-months = { $amount }חודשים
 scheduling-answer-button-time-years = { $amount } שנים

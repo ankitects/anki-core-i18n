@@ -92,8 +92,8 @@ statistics-seconds-taken = { $seconds }שניות
 statistics-today-title = היום
 statistics-today-again-count = מנין השגיאות:
 statistics-today-type-counts = נלמדו:{ $learnCount }, חזרות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
-statistics-today-no-cards = לא נלמדו כרטיסיות היום.
-statistics-today-no-mature-cards = לא נלמדו כרטיסיות בוגרות היום.
+statistics-today-no-cards = לא נלמדו כרטיסים היום.
+statistics-today-no-mature-cards = לא נלמדו כרטיסים בוגרים היום.
 statistics-today-correct-mature = תשובות נכונות בכרטיסיות בוגרות: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = סך-הכל כרטיסיות
 statistics-counts-new-cards = חדשים
@@ -137,10 +137,10 @@ statistics-in-days-single =
     { $days ->
         [0] היום
         [1] מחר
-        [one] בתוך { $days } יום
-       *[other] בתוך { $days } ימים
+        [one] במשך { $days } יום
+       *[other] במשך { $days } ימים
     }
-statistics-in-days-range = בתוך { $daysStart }-{ $daysEnd } ימים
+statistics-in-days-range = במשך { $daysStart }-{ $daysEnd } ימים
 statistics-days-ago-single =
     { $days ->
         [1] אתמול
@@ -155,7 +155,7 @@ statistics-cards-due =
        *[other] { $cards } כרטיסים מתוזמנים
     }
 statistics-backlog-checkbox = הצטברות
-statistics-intervals-title = מרווחי זמן בין החזרות
+statistics-intervals-title = מרווחי-זמן בין חזרות
 statistics-intervals-subtitle = השהיות עד שהחזרות מופיעות שנית.
 statistics-intervals-day-range =
     { $cards ->
