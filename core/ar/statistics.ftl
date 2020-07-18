@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = تاريخ الاستحقاق
 # The count of cards waiting to be reviewed
-statistics-due-count = مُستحَق
+statistics-due-count = مستحقة
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = جديد #{ $number }
 
@@ -117,7 +117,7 @@ statistics-counts-mature-cards = ناضجة
 statistics-counts-suspended-cards = موقوفة
 statistics-counts-buried-cards = مدفونة
 statistics-counts-early-cards = مبكرة
-statistics-counts-learning-cards = تعلّم
+statistics-counts-learning-cards = في طور التعلم
 statistics-counts-relearning-cards = تعلّم مجددًا
 statistics-counts-title = عدد البطاقات
 statistics-range-all-time = مدى حياة الرزمة
