@@ -39,6 +39,8 @@ sync-password-label = Contraseña:
 sync-account-required =
     <h1>Se requiere una cuenta</h1>
     Se requiere una cuenta gratuita para mantener tu colección sincronizada. Por favor, <a href="{ $link }">regístrate</a> e introduce tus detalles aquí debajo.
+sync-sanity-check-failed = Por favor, use la función de Comprobar Base de Datos, después sincronize otra vez. Si los problemas persisten, por favor fuerce una sincronización completa en la ventana de preferencias.
+sync-clock-off = Imposible sincronizar - compruebe que su reloj tenga la hora correcta.
 
 ## Buttons
 
@@ -55,4 +57,4 @@ sync-uploading-to-ankiweb = Subiendo a AnkiWeb...
 sync-syncing = Sincronizando...
 sync-checking = Comprobando…
 sync-connecting = Conectando...
-sync-added-updated-count = Añadido/modficado: { $up }↑ { $down }↓
+sync-added-updated-count = Añadido/modificado: { $up }↑ { $down }↓
