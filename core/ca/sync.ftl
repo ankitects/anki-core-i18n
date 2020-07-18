@@ -39,6 +39,8 @@ sync-password-label = Senhal :
 sync-account-required =
     <h1>Compte requesit</h1>
     Vos cal aver un compte per poder sincronizar vòstra colleccion. Mercé de <a href="{ $link }">crear un compte</a> gratuitament, puèi entratz las informacions de connexion çaijós.
+sync-sanity-check-failed = Si us plau, feu servir la funció de Comprovar base de dades, després sincronizi una altra vegada. Si els problemes persisteixen, si us plau forci la sincronització completa a la finestra de preferències.
+sync-clock-off = Impossible sincronitzar - comprovi que el seu rellotge tingui l'hora correcta.
 
 ## Buttons
 
