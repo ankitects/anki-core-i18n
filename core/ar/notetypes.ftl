@@ -1,7 +1,7 @@
 ## Default field names in newly created note types
 
-notetypes-front-field = المقدمة
-notetypes-back-field = الخلف
+notetypes-front-field = أمام
+notetypes-back-field = خلف
 notetypes-add-reverse-field = إضافة بطاقة معكوسة
 notetypes-text-field = نص
 notetypes-back-extra-field = إضافي خلفي
