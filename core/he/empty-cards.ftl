@@ -5,7 +5,7 @@ empty-cards-preserve-notes-checkbox = השאר רשומות ללא כרטיסי�
 empty-cards-delete-button = מחק
 empty-cards-not-found = אין כרטיסים ריקים.
 empty-cards-deleted-count =
-    נמחק{ $cards ->
+    נמחק { $cards ->
         [one] { $cards } כרטיס.
        *[other] { $cards } כרטיסים.
     }
