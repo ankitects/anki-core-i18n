@@ -116,7 +116,7 @@ statistics-card-ease-subtitle = Im mniejsza łatwość, tym karta będzie częś
 statistics-card-ease-tooltip =
     { $cards ->
         [one] 1 karta z łatwością { $percent }
-        [few] { $cards } kart z łatwością { $percent }
+        [few] { $cards } karty z łatwością { $percent }
        *[other] { $cards } kart z łatwością { $percent }
     }
 statistics-future-due-title = Prognoza
