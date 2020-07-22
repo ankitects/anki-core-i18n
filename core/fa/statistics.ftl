@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = موعد مرور
+statistics-due-date = مرور
 # The count of cards waiting to be reviewed
-statistics-due-count = موعد مرور
+statistics-due-count = مرور
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = جدید #{ $number }
 
@@ -56,14 +56,15 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    { statistics-cards } عدد کارت{ $unit ->
+    امروز { statistics-cards } عدد کارت در{ $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }امروز مطالعه شده است ({ $secs-per-card } ثانیه/کارت)
+    }مطالعه شده است
+    ({ $secs-per-card } ثانیه/کارت)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds } ثانیه
 statistics-today-title = امروز
@@ -146,3 +147,11 @@ statistics-hours-subtitle = میزان موفقیت مرور در هر ساعت 
 # shown when graph is empty
 statistics-no-data = فاقد داده
 statistics-calendar-title = تقویم
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+
+
+##
+
