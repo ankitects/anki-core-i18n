@@ -152,6 +152,12 @@ statistics-calendar-title = تقویم
 ## time spent studying. For example, English would show "5s" for 5 seconds,
 ## "13.5m" for 13.5 minutes, and so on.
 
+statistics-elapsed-time-seconds = { $amount } ثانیه
+statistics-elapsed-time-minutes = { $amount } دقیقه
+statistics-elapsed-time-hours = { $amount } ساعت
+statistics-elapsed-time-days = { $amount } روز
+statistics-elapsed-time-months = { $amount } ماه
+statistics-elapsed-time-years = { $amount } سال
 
 ##
 
