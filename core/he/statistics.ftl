@@ -91,7 +91,7 @@ statistics-studied-today =
 statistics-seconds-taken = { $seconds }שניות
 statistics-today-title = היום
 statistics-today-again-count = מנין השגיאות:
-statistics-today-type-counts = נלמדו:{ $learnCount }, חזרות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
+statistics-today-type-counts = לימוד:{ $learnCount }, חזרות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
 statistics-today-no-cards = לא נלמדו כרטיסים היום.
 statistics-today-no-mature-cards = לא נלמדו כרטיסים בוגרים היום.
 statistics-today-correct-mature = תשובות נכונות בכרטיסים בוגרים: { $correct }/{ $total } ({ $percent }%)
@@ -104,7 +104,7 @@ statistics-counts-buried-cards = מוטמנים
 statistics-counts-early-cards = מוקדמים
 statistics-counts-learning-cards = נלמדים
 statistics-counts-relearning-cards = נלמדים מחדש
-statistics-counts-title = מנייני כרטיסים
+statistics-counts-title = מניין הכרטיסים
 statistics-range-all-time = משך חיי חפיסה
 statistics-range-1-year-history = בשנה האחרונה
 statistics-range-all-history = מאז ומתמיד
@@ -120,11 +120,11 @@ statistics-card-ease-tooltip =
        *[other] { $cards } כרטיסים עם { $percent } קלות
     }
 statistics-future-due-title = תחזית
-statistics-future-due-subtitle = מספר החזרות המתוזמנות בעתיד.
+statistics-future-due-subtitle = מספר החזרות המתוכננות בעתיד.
 statistics-added-title = נוספו
 statistics-added-subtitle = מספר הכרטיסים החדשים שהוספת.
 statistics-reviews-count-subtitle = מספר השאלות שענית עליהן.
-statistics-reviews-time-subtitle = הזמן שלקח לענות על השאלות.
+statistics-reviews-time-subtitle = הזמן שלקח לך לענות על השאלות.
 statistics-answer-buttons-title = כפתורי תשובה
 # eg Button: 4
 statistics-answer-buttons-button-number = לחצן
@@ -148,15 +148,15 @@ statistics-days-ago-single =
        *[other] לפני { $days } ימים
     }
 statistics-days-ago-range = לפני { $daysStart }-{ $daysEnd } ימים
-statistics-running-total = סה"כ פעילים
+statistics-running-total = סה"כ רץ
 statistics-cards-due =
     { $cards ->
         [one] 1 כרטיס מתוזמן
        *[other] { $cards } כרטיסים מתוזמנים
     }
-statistics-backlog-checkbox = הצטברות
-statistics-intervals-title = מרווחי-זמן בין חזרות
-statistics-intervals-subtitle = השהיות עד שהחזרות מופיעות שנית.
+statistics-backlog-checkbox = מצטבר
+statistics-intervals-title = מרווחי זמן
+statistics-intervals-subtitle = הזמן שעובר עד שחזרות מופיעות שנית.
 statistics-intervals-day-range =
     { $cards ->
         [one] 1 כרטיס עם { $daysStart }~{ $daysEnd } ימים מרווח זמן
@@ -175,3 +175,17 @@ statistics-hours-subtitle = ניקוד הצלחה בחזרות לכל שעה ב�
 # shown when graph is empty
 statistics-no-data = אין נתונים
 statistics-calendar-title = לוח שנה
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+
+statistics-elapsed-time-seconds = { $amount } שניות
+statistics-elapsed-time-minutes = { $amount } דקות
+statistics-elapsed-time-hours = { $amount } שעות
+statistics-elapsed-time-days = { $amount } ימים
+statistics-elapsed-time-months = { $amount } חודשים
+statistics-elapsed-time-years = { $amount } שנים
+
+##
+
