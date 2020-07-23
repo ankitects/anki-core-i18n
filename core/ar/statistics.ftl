@@ -214,3 +214,17 @@ statistics-hours-subtitle = معدل المراجعات الناجحة لكل س
 # shown when graph is empty
 statistics-no-data = لا بيانات
 statistics-calendar-title = التقويم
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+
+statistics-elapsed-time-seconds = { $amount } ثانية
+statistics-elapsed-time-minutes = { $amount } دقيقة
+statistics-elapsed-time-hours = { $amount } ساعة
+statistics-elapsed-time-days = { $amount } يوم
+statistics-elapsed-time-months = { $amount } شهر
+statistics-elapsed-time-years = { $amount } سنة
+
+##
+
