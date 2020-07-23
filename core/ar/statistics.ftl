@@ -103,7 +103,7 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } اليوم ({ $secs-per-card } ثانية/بطاقة)
 # eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds } ثانية
+statistics-seconds-taken = { $seconds } ث
 statistics-today-title = اليوم
 statistics-today-again-count = عدد البطاقات المجابة بـ "مجددًا":
 statistics-today-type-counts = تعلم: { $learnCount }، مراجعة: { $reviewCount }، تعلم مجددًا: { $relearnCount }، مفلتر: { $filteredCount }
@@ -218,13 +218,15 @@ statistics-calendar-title = التقويم
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
 ## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
 
-statistics-elapsed-time-seconds = { $amount } ثانية
-statistics-elapsed-time-minutes = { $amount } دقيقة
-statistics-elapsed-time-hours = { $amount } ساعة
-statistics-elapsed-time-days = { $amount } يوم
-statistics-elapsed-time-months = { $amount } شهر
-statistics-elapsed-time-years = { $amount } سنة
+statistics-elapsed-time-seconds = { $amount } ث
+statistics-elapsed-time-minutes = { $amount } د
+statistics-elapsed-time-hours = { $amount } س
+statistics-elapsed-time-days = { $amount } ي
+statistics-elapsed-time-months = { $amount } ش
+statistics-elapsed-time-years = { $amount } ع
 
 ##
 

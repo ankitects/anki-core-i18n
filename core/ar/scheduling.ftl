@@ -3,10 +3,10 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
-scheduling-answer-button-time-seconds = { $amount } ثانية
-scheduling-answer-button-time-minutes = { $amount } دقيقة
-scheduling-answer-button-time-hours = { $amount } ساعة
-scheduling-answer-button-time-days = { $amount } يوم
+scheduling-answer-button-time-seconds = { $amount } ث
+scheduling-answer-button-time-minutes = { $amount } د
+scheduling-answer-button-time-hours = { $amount } س
+scheduling-answer-button-time-days = { $amount } ي
 scheduling-answer-button-time-months = { $amount } شهر
 scheduling-answer-button-time-years = { $amount } سنة
 
