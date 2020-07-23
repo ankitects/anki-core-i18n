@@ -160,3 +160,17 @@ statistics-hours-subtitle = Porcentaje de repasos correctos a lo largo del día.
 # shown when graph is empty
 statistics-no-data = SIN DATOS
 statistics-calendar-title = Calendario
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+
+statistics-elapsed-time-seconds = { $amount }s
+statistics-elapsed-time-minutes = { $amount }m
+statistics-elapsed-time-hours = { $amount }h
+statistics-elapsed-time-days = { $amount }d
+statistics-elapsed-time-months = { $amount }me
+statistics-elapsed-time-years = { $amount }a
+
+##
+
