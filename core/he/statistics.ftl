@@ -88,7 +88,7 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } היום
 # eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }שניות
+statistics-seconds-taken = { $seconds } שניות
 statistics-today-title = היום
 statistics-today-again-count = מנין השגיאות:
 statistics-today-type-counts = לימוד:{ $learnCount }, חזרות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
@@ -179,13 +179,15 @@ statistics-calendar-title = לוח שנה
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
 ## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
 
-statistics-elapsed-time-seconds = { $amount } שניות
-statistics-elapsed-time-minutes = { $amount } דקות
-statistics-elapsed-time-hours = { $amount } שעות
-statistics-elapsed-time-days = { $amount } ימים
-statistics-elapsed-time-months = { $amount } חודשים
-statistics-elapsed-time-years = { $amount } שנים
+statistics-elapsed-time-seconds = { $amount } ש'
+statistics-elapsed-time-minutes = { $amount } ד'
+statistics-elapsed-time-hours = { $amount }שע'
+statistics-elapsed-time-days = { $amount } י'
+statistics-elapsed-time-months = { $amount }ח'
+statistics-elapsed-time-years = { $amount } שנ'
 
 ##
 
