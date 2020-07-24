@@ -7,8 +7,8 @@ scheduling-answer-button-time-seconds = { $amount } ث
 scheduling-answer-button-time-minutes = { $amount } د
 scheduling-answer-button-time-hours = { $amount } س
 scheduling-answer-button-time-days = { $amount } ي
-scheduling-answer-button-time-months = { $amount } شهر
-scheduling-answer-button-time-years = { $amount } سنة
+scheduling-answer-button-time-months = { $amount } ش
+scheduling-answer-button-time-years = { $amount } ع
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
