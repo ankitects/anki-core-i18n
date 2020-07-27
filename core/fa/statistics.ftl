@@ -151,6 +151,8 @@ statistics-calendar-title = تقویم
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
 ## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
 
 statistics-elapsed-time-seconds = { $amount } ثانیه
 statistics-elapsed-time-minutes = { $amount } دقیقه
@@ -161,3 +163,4 @@ statistics-elapsed-time-years = { $amount } سال
 
 ##
 
+statistics-error-fetching = دادۀ نامعتبر یافت شد - لطفاً از بررسی دیتابیس برای رفع مشکل استفاده کنید.

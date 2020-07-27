@@ -11,7 +11,7 @@ notetypes-back-extra-field = اضافی پشت
 notetypes-basic-name = پایه
 notetypes-basic-reversed-name = پایه (و کارت وارونه)
 notetypes-basic-optional-reversed-name = پایه (کارت انتخابی وارونه)
-notetypes-basic-type-answer-name = پایه (تاپ کردن پاسخ)
+notetypes-basic-type-answer-name = پایه (تایپ کردن پاسخ)
 notetypes-cloze-name = جاخالی
 
 ## Default card template names
