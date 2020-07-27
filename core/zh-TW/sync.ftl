@@ -39,6 +39,8 @@ sync-password-label = 密碼:
 sync-account-required =
     <h1>需要帳號</h1>
     您需要先建立一個免費的帳號來同步您的集合。請先<a href="{ $link }">註冊</a>一個帳號，然後在下方輸入詳細資訊。
+sync-sanity-check-failed = 請使用「檢查資料庫」功能，然後再次同步。若問題仍存在，請到偏好設定內強制完全同步。
+sync-clock-off = 無法同步——您的時鐘設定時間不準確。
 
 ## Buttons
 

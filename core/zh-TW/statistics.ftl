@@ -138,3 +138,20 @@ statistics-hours-subtitle = 當天每小時的複習成功率
 # shown when graph is empty
 statistics-no-data = 沒有資料
 statistics-calendar-title = 行事曆
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+statistics-elapsed-time-seconds = { $amount }秒
+statistics-elapsed-time-minutes = { $amount }分
+statistics-elapsed-time-hours = { $amount }時
+statistics-elapsed-time-days = { $amount }天
+statistics-elapsed-time-months = { $amount }個月
+statistics-elapsed-time-years = { $amount }年
+
+##
+
+statistics-error-fetching = 發現無效資料——請使用「檢查資料庫」來修正此問題。
