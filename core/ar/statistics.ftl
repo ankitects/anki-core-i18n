@@ -230,3 +230,4 @@ statistics-elapsed-time-years = { $amount } ع
 
 ##
 
+statistics-error-fetching = وُجِدت بيانات غير صالحة - استخدم خيار فحص قاعدة البيانات لحل المشكلة.
