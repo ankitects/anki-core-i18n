@@ -116,8 +116,8 @@ statistics-card-ease-subtitle = ככל שהקלות נמוכה יותר, כך ג
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] כרטיס 1 עם { $percent } קלות
-       *[other] { $cards } כרטיסים עם { $percent } קלות
+        [one] כרטיס 1 עם קלות { $percent }
+       *[other] { $cards } כרטיסים עם קלות { $percent }
     }
 statistics-future-due-title = תחזית
 statistics-future-due-subtitle = מספר החזרות המתוכננות בעתיד.
@@ -137,10 +137,10 @@ statistics-in-days-single =
     { $days ->
         [0] היום
         [1] מחר
-        [one] במשך { $days } יום
-       *[other] במשך { $days } ימים
+        [one] בעוד { $days } יום
+       *[other] בעוד { $days } ימים
     }
-statistics-in-days-range = במשך { $daysStart }-{ $daysEnd } ימים
+statistics-in-days-range = בעוד { $daysStart }-{ $daysEnd } ימים
 statistics-days-ago-single =
     { $days ->
         [1] אתמול
@@ -159,8 +159,8 @@ statistics-intervals-title = מרווחי זמן
 statistics-intervals-subtitle = הזמן שעובר עד שחזרות מופיעות שנית.
 statistics-intervals-day-range =
     { $cards ->
-        [one] 1 כרטיס עם { $daysStart }~{ $daysEnd } ימים מרווח זמן
-       *[other] { $cards } כרטיסים עם { $daysStart }~{ $daysEnd } ימים מרווח זמן
+        [one] 1 כרטיס עם מרווח זמן של { $daysStart }~{ $daysEnd } ימים
+       *[other] { $cards } כרטיסים עם מרווח זמן של { $daysStart }~{ $daysEnd } ימים
     }
 statistics-intervals-day-single =
     { $cards ->
