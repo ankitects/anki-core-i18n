@@ -38,7 +38,8 @@ scheduling-today-review-limit-reached =
     te morji .i .e'u do zukte lo ka ce'u zengau jy. kei lo nu do ba ca'o
     xamgu morji
 scheduling-today-new-limit-reached =
-    {"."}i su'o karda cu za'o cnino .i ku'i ca'o rinju lo djedi jimte .i do ka'e
+    { "." }i su'o karda cu za'o cnino .i ku'i ca'o rinju lo djedi jimte .i do ka'e
     tikygau dy jy. .i ku'i ko pensi lo du'u lo nu lo se zilkancu be lo'i
     karda poi cnino cu zenba cu rinka lo nu lo ni gunka poi ze'a ba
     se bilga do cu zmadu
+scheduling-buried-cards-were-delayed = .i su'o karda poi ckini ja cu zasni se mipri pu zi binxo lo ka ce'u jai balvi

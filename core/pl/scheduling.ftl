@@ -96,3 +96,4 @@ scheduling-today-review-limit-reached =
 scheduling-today-new-limit-reached =
     Jest dostępnych więcej nowych kart, lecz dzienny limit został osiągnięty. Możesz zwiększyć go w opcjach, ale miej na uwadze, że im więcej nowych kart poznajesz, tym większa będzie liczba kart
     do przejrzenia w najbliższym czasie.
+scheduling-buried-cards-were-delayed = Zostały jeszcze powiązane lub zakopane karty - czekają na następną sesję nauki.

@@ -81,3 +81,4 @@ scheduling-today-new-limit-reached =
     Van még új kártya, de elérte a napi limitet. Növelheti a limitet
     a beállításoknál, de kérjük, tartsa szem előtt, hogy minél több
     új kártyát vezet be, annál megterhelőbb lesz a rövid távú ismétlés.
+scheduling-buried-cards-were-delayed = Egyes kapcsolódó vagy félretett kártyákat későbbre halasztottunk.

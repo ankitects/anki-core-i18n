@@ -82,3 +82,4 @@ scheduling-today-new-limit-reached =
     ist erreicht. Der Grenzwert kann in den Einstellungen erhöht werden, aber
     bitte daran denken, dass die Anzahl kurzfristiger Wiederholungen
     umso größer wird, je mehr neue Karten eingesetzt werden.
+scheduling-buried-cards-were-delayed = Einige Karten wurden zurückgestellt. Sie werden in einer späteren Sitzung wieder gezeigt.

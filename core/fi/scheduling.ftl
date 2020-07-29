@@ -44,3 +44,4 @@ scheduling-today-new-limit-reached =
     vastaan. Voit kasvattaa ylärajaa valinnoissa, mutta pidä mielessä</ br>
     että mitä enemmän uusia kortteja alat opiskella sitä suuremmaksi</ br>
     lyhyen aikavälin kertauskuormasi tulee.
+scheduling-buried-cards-were-delayed = Joitakin kertaamiisi kortteihin liittyviä tai piilotettuja kortteja viivästettiin myöhempään istuntoon.

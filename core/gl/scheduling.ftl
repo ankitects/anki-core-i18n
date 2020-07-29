@@ -38,3 +38,4 @@ scheduling-today-new-limit-reached =
     Pode incrementar o límite nas opción, pero por favor,
     teña en mente que cantas máis cartas introduza, máis alta
     será a súa carga de traballo a curto prazo.
+scheduling-buried-cards-were-delayed = Algunhas cartas relacionadas ou soterradas foron atrasadas ata unha sesión posterior.

@@ -82,3 +82,4 @@ scheduling-today-new-limit-reached =
     reached. You can increase the limit in the options, but please
     bear in mind that the more new cards you introduce, the higher
     your short-term review workload will become.
+scheduling-buried-cards-were-delayed = Some related or buried cards were delayed until a later session.

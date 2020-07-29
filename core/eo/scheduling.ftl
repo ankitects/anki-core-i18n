@@ -43,3 +43,4 @@ scheduling-today-new-limit-reached =
     Ĉeestas ankoraŭ pli da kartoj, sed la taga limigo estis atingita. Vi povas
     kreski la limigon ĉe la opcioj, sed bonvolu teni en la kapo ke ju pli da kartoj
     vi enkondukas, des pli ŝarĝanta via mallongdaŭra ripetado estos.
+scheduling-buried-cards-were-delayed = Kelkaj rilataj aŭ portage kaŝitaj kartoj estis flankenmetitaj. Ili reaperos en posta seanco.

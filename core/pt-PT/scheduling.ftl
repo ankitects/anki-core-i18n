@@ -41,3 +41,4 @@ scheduling-today-new-limit-reached =
     Pode aumentar o limite nas opções, porém, tenha presente que
     quanto mais fichas novas estudar, maior será a sua carga de
     revisão a curto prazo.
+scheduling-buried-cards-were-delayed = Algumas fichas relacionadas ou ocultas foram atrasadas até uma próxima sessão.

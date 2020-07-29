@@ -52,3 +52,4 @@ scheduling-today-new-limit-reached =
     Dostupné sú aj ďalšie nové karty, ale bol dosiahnutý denný limit. 
     Môžete ho zvýšiť v nastaveniach, ale prosím majte na pamäti, 
     že tým sa v najbližšej dobe zvýši aj počet kariet na opakovanie.
+scheduling-buried-cards-were-delayed = Niektoré súvisiace alebo zahrabané karty boli posunuté na neskôr.

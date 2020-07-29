@@ -44,3 +44,4 @@ scheduling-today-new-limit-reached =
     Você pode aumentar o limite nas opções, porém, tenha em mente
     que quanto mais cartões novos você estudar, maior será sua carga
     de revisão a curto prazo.
+scheduling-buried-cards-were-delayed = Alguns cartões relacionados ou ocultos foram adiadas até que uma sessão mais tarde.

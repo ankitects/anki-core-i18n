@@ -82,3 +82,4 @@ scheduling-today-new-limit-reached =
     è stato raggiunto. Puoi aumentare il limite nelle opzioni, ma
     ricordati che più carte nuove introduci, più grande diventerà
     il tuo carico di lavoro per le ripetizioni a breve termine.
+scheduling-buried-cards-were-delayed = Alcune carte correlate o seppellite sono state rinviate ad una prossima sessione.

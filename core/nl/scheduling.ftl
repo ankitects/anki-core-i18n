@@ -37,3 +37,4 @@ scheduling-today-new-limit-reached =
     Er zijn meer nieuwe kaarten beschikbaar, maar de dagelijkse limiet
     is bereikt. U kunt de limiet in de instellingen verhogen, maar let er op
     dat dit uw werkdruk op de korte termijn zal verzwaren.
+scheduling-buried-cards-were-delayed = Enkele gerelateerde of begraven kaarten zijn uitgesteld tot een latere sessie.

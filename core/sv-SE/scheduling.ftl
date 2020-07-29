@@ -43,3 +43,4 @@ scheduling-today-new-limit-reached =
     per dag är nådd. Du kan ändra detta i inställningarna, men
     kom ihåg att ju fler nya kort du för in, desto tyngre
     blir arbetsbördan med fler repetitioner under den närmsta tiden.
+scheduling-buried-cards-were-delayed = Vissa relaterade eller gömda kort sköts upp till en senare session.

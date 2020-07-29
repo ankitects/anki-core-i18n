@@ -82,3 +82,4 @@ scheduling-today-new-limit-reached =
     Cette limite peut-être rehaussée (dans les options), mais n’oubliez pas
     que plus vous introduisez des cartes inédites, plus votre charge de
     travail à court terme sera intense.
+scheduling-buried-cards-were-delayed = Des cartes associées ou enfouies ont été repoussées à une prochaine session.

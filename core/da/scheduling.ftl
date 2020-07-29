@@ -44,3 +44,4 @@ scheduling-today-new-limit-reached =
     grænse er opbrugt. Du kan øge grænsen, men husk at
     jo flere kort du introducerer, jo flere genopfriskninger
     skal du foretage.
+scheduling-buried-cards-were-delayed = Nogle relaterede eller begravede kort blev udsat til en senere session.

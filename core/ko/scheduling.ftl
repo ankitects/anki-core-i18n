@@ -20,3 +20,4 @@ scheduling-today-new-limit-reached =
     도달했습니다. 옵션에서 제한량을 높일 수 있지만,
     새 카드를 더 많이 시작할수록 그에 따라 단기 복습량도
     늘어난다는 것을 주의하세요.
+scheduling-buried-cards-were-delayed = 관련된 카드 또는 덮어진 카드는 다음 세션까지 연기됩니다.

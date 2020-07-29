@@ -44,3 +44,4 @@ scheduling-today-new-limit-reached =
     当日限值。您可以在选项中增加限值，但请
     注意，您学习的新卡片越多，您所需的短期
     复习量就越大。
+scheduling-buried-cards-were-delayed = 一些相关或搁置卡片会被推迟到下一学习周期进行。

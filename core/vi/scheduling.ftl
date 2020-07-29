@@ -20,3 +20,4 @@ scheduling-today-new-limit-reached =
     Bạn có thể tăng thêm giới hạn trong phần tùy chọn, nhưng
     cần nhớ rằng bạn càng đưa ra nhiều thẻ mới thì gánh nặng ôn
     tập trong thời gian ngắn đối với bạn ngày càng cao hơn.
+scheduling-buried-cards-were-delayed = Vài thẻ liên quan hoặc thẻ chôn bị hoãn lại đến phiên sau.

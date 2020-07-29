@@ -39,3 +39,4 @@ scheduling-today-new-limit-reached =
     heldu da. Aukeretan muga handi dezakezu, baina mesedez
     hau gogoratu : zenbat eta karta berri gehiago sartzen duzu, 
     orduan eta epe motza duen berrikuspena gehiago kargatua izango da.
+scheduling-buried-cards-were-delayed = karta lotuta edo lurperatuta batzuk beste ekitaldi bat arte gibelatu dira

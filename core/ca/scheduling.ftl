@@ -82,3 +82,4 @@ scheduling-today-new-limit-reached =
     diari. Pots augmentar el límit en les opcions, però vés
     en compte que com més targetes noves introdueixis, més
     augmentarà la teva càrrega de treball a curt termini.
+scheduling-buried-cards-were-delayed = Algunes targetes relacionades o enterrades van ser ajornades a una sessió posterior.

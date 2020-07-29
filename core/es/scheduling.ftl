@@ -82,3 +82,4 @@ scheduling-today-new-limit-reached =
     diario. Puedes aumentar el límite en las opciones, pero ten
     en cuenta que cuantas más tarjetas nuevas introduzcas, más
     aumentará tu carga de trabajo a corto plazo.
+scheduling-buried-cards-were-delayed = Algunas tarjetas relacionadas o enterradas fueron aplazadas a una sesión posterior.
