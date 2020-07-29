@@ -47,3 +47,4 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] { $remaining }張學習中的卡片將於今天到期。
     }
+scheduling-congratulations-finished = 恭喜！您已完成本牌組當前的學習任務。

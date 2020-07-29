@@ -72,3 +72,4 @@ scheduling-learn-remaining =
         [one] Il reste une carte à apprendre pour plus tard dans la journée.
        *[other] Il reste { $remaining } cartes à apprendre pour plus tard dans la journée.
     }
+scheduling-congratulations-finished = Félicitations ! Vous en avez fini avec ce paquet pour l’instant.

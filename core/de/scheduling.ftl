@@ -72,3 +72,4 @@ scheduling-learn-remaining =
         [one] Es ist noch eine zu lernende Karte heute fällig.
        *[other] Es sind noch { $remaining } zu lernende Karten heute fällig.
     }
+scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist für jetzt geschafft.

@@ -92,3 +92,4 @@ scheduling-learn-remaining =
         [many] На сегодня остались { $remaining } карточек.
        *[other] На сегодня осталось { $remaining } карточек.
     }
+scheduling-congratulations-finished = Ура! На сегодня всё.

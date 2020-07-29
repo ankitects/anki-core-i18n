@@ -72,3 +72,4 @@ scheduling-learn-remaining =
         [one] A mai napra van még egy kártyája
        *[other] A mai napra még { $remaining } kártyája van.
     }
+scheduling-congratulations-finished = Gratulálok! Mára Ön végzett ezzel a paklival.

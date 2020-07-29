@@ -91,3 +91,4 @@ scheduling-learn-remaining =
         [few] На сьогодні залишилось { $remaining } картки.
        *[other] На сьогодні залишилось { $remaining } карток.
     }
+scheduling-congratulations-finished = Вітаємо! В даний момент ви закінчили роботу з цією колодою.

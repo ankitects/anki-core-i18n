@@ -35,3 +35,4 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] 今天将有{ $remaining }张学习中的卡片到期。
     }
+scheduling-congratulations-finished = 恭喜！你目前已经完成了这个记忆库。

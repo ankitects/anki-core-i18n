@@ -72,3 +72,4 @@ scheduling-learn-remaining =
         [one] Hay una tarjeta restante en la cola de aprendizaje más tarde para hoy.
        *[other] Hay { $remaining } tarjetas restantes en la cola de aprendizaje más tarde para hoy.
     }
+scheduling-congratulations-finished = ¡Enhorabuena! Has finalizado este mazo por hoy.

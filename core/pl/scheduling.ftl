@@ -88,3 +88,4 @@ scheduling-learn-remaining =
         [few] { $remaining } karty czekają na przejrzenie dziś w późniejszym czasie.
        *[other] { $remaining } kart czeka na przejrzenie dziś w późniejszym czasie.
     }
+scheduling-congratulations-finished = Gratulacje! Zakończono powtórki na dziś.

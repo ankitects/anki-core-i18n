@@ -84,3 +84,4 @@ scheduling-learn-remaining =
         [one] נותר כרטיס לימוד אחד מתוזמן ליותר מאוחר היום.
        *[other] נותרו { $remaining } כרטיסי לימוד מתוזמנים ליותר מאוחר היום.
     }
+scheduling-congratulations-finished = אשריך! סיימת את החפיסה לעת עתה.

@@ -112,3 +112,4 @@ scheduling-learn-remaining =
         [many] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
        *[other] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
     }
+scheduling-congratulations-finished = تهانينا! لقد انتهيت من هذه الرزمة الآن.

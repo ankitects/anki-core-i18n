@@ -71,3 +71,4 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] { $remaining } عدد کارت در مرحلۀ یادگیری برای امروز وجود دارند.
     }
+scheduling-congratulations-finished = تبریک! شما فعلاً این دسته را تمام کردید.

@@ -72,3 +72,4 @@ scheduling-learn-remaining =
         [one] Hi ha una tarjeta restant a la cua d'aprenentatge más tard per avui.
        *[other] Hi ha { $remaining } tarjetes restants a la cua d'aprenentatge más tard per avui.
     }
+scheduling-congratulations-finished = Enhorabona! De moment heu acabat amb aquest paquet.

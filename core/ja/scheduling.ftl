@@ -35,3 +35,4 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] 本日中に再び表示される学習中カードが{ $remaining }あります。
     }
+scheduling-congratulations-finished = おめでとうございます！　このデッキの今日の課題を全て達成しました！
