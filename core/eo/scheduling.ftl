@@ -39,3 +39,7 @@ scheduling-today-review-limit-reached =
     La hodiaŭa ripetlimigo estas atingita, sed ankoraŭ ĉeestas
     ripetendaj kartoj. Por memori optimume, bonvolu pripensi
     la altigon de la taga limigo ĉe la opcioj.
+scheduling-today-new-limit-reached =
+    Ĉeestas ankoraŭ pli da kartoj, sed la taga limigo estis atingita. Vi povas
+    kreski la limigon ĉe la opcioj, sed bonvolu teni en la kapo ke ju pli da kartoj
+    vi enkondukas, des pli ŝarĝanta via mallongdaŭra ripetado estos.

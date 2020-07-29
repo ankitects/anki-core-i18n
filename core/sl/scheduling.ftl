@@ -45,3 +45,7 @@ scheduling-today-review-limit-reached =
     Današnja meja pregledov je bila dosežena, vendar še vedno ostajajo
     kartice, ki čakajo na pregled. Za boljši spomin premislite o tem, da bi
     povečali dnevno mejo.
+scheduling-today-new-limit-reached =
+    Na voljo je še več novih kartic, vendar ste že dosegli dnevno
+    mejo. Lahko povišate mejo, toda upoštevajte, da s tem ko povečate
+    število kartic, bolj obremenite kratkoročni pregled.

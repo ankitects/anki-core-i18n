@@ -36,3 +36,8 @@ scheduling-today-review-limit-reached =
     O limite de revisão de hoje foi atingido, porém ainda existem fichas
     a serem revistas. Para melhorar a sua memória, considere aumentar
     o limite diário nas opções.
+scheduling-today-new-limit-reached =
+    Há mais fichas novas disponíveis, mas o limite diário foi atingido.
+    Pode aumentar o limite nas opções, porém, tenha presente que
+    quanto mais fichas novas estudar, maior será a sua carga de
+    revisão a curto prazo.

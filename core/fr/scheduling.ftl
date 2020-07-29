@@ -77,3 +77,8 @@ scheduling-today-review-limit-reached =
     La limite de révision a été atteinte pour aujourd’hui,  mais il y a encore des cartes
     en attente de révision. Pour une mémorisation optimale, pensez à augmenter
     la limite quotidienne dans les options.
+scheduling-today-new-limit-reached =
+    Il y a d’autres cartes inédites mais la limite quotidienne est atteinte.
+    Cette limite peut-être rehaussée (dans les options), mais n’oubliez pas
+    que plus vous introduisez des cartes inédites, plus votre charge de
+    travail à court terme sera intense.

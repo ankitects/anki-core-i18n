@@ -77,3 +77,8 @@ scheduling-today-review-limit-reached =
     Der Grenzwert für die heutigen Wiederholungen ist erreicht, weitere Karten warten jedoch
     noch darauf, wiederholt zu werden. Um die Gedächtnisleistung optimal zu nutzen,
     bitte die Erhöhung des Grenzwertes in den Einstellungen erwägen.
+scheduling-today-new-limit-reached =
+    Weitere neue Karten sind verfügbar, aber das Tageslimit
+    ist erreicht. Der Grenzwert kann in den Einstellungen erhöht werden, aber
+    bitte daran denken, dass die Anzahl kurzfristiger Wiederholungen
+    umso größer wird, je mehr neue Karten eingesetzt werden.

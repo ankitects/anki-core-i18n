@@ -15,3 +15,8 @@ scheduling-today-review-limit-reached =
     Đã đến giới hạn trong ngày hôm nay, nhưng vẫn còn nhiều thẻ
     đang chờ ôn tập. Để giúp trí nhớ hoạt động hiệu quả hơn, bạn
     có thể xem xét tăng giới hạn hàng ngày trong phần tùy chọn.
+scheduling-today-new-limit-reached =
+    Vẫn còn nhiều thẻ nữa, nhưng đã đến giới hạn hàng ngày.
+    Bạn có thể tăng thêm giới hạn trong phần tùy chọn, nhưng
+    cần nhớ rằng bạn càng đưa ra nhiều thẻ mới thì gánh nặng ôn
+    tập trong thời gian ngắn đối với bạn ngày càng cao hơn.

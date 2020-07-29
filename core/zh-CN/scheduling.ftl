@@ -39,3 +39,8 @@ scheduling-congratulations-finished = 恭喜！你目前已经完成了这个记
 scheduling-today-review-limit-reached =
     达到了今天的复习限制, 但是仍有卡片等待被复习.
     为了最佳化记忆, 可以考虑在设置中增大每日限制.
+scheduling-today-new-limit-reached =
+    您仍有新的卡片可以学习，但是已经达到
+    当日限值。您可以在选项中增加限值，但请
+    注意，您学习的新卡片越多，您所需的短期
+    复习量就越大。

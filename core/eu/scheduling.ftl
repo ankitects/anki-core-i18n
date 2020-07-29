@@ -34,3 +34,8 @@ scheduling-time-span-years =
     }
 scheduling-congratulations-finished = Zorionak! sorta hau amaitu duzu oraindik
 scheduling-today-review-limit-reached = Gaurko berrikuspen muga helduta da, baina oraindik karta batzuk berrikustekozain daude. Memorizazioa hobetzeko, aukeretan eguneroko muga handitzerik ez ahaztu
+scheduling-today-new-limit-reached =
+    Karta berri gehiagoa erabilgarria da, baina eguneroko muga orain
+    heldu da. Aukeretan muga handi dezakezu, baina mesedez
+    hau gogoratu : zenbat eta karta berri gehiago sartzen duzu, 
+    orduan eta epe motza duen berrikuspena gehiago kargatua izango da.

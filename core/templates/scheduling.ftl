@@ -77,3 +77,8 @@ scheduling-today-review-limit-reached =
     Today's review limit has been reached, but there are still cards
     waiting to be reviewed. For optimum memory, consider increasing
     the daily limit in the options.
+scheduling-today-new-limit-reached =
+    There are more new cards available, but the daily limit has been
+    reached. You can increase the limit in the options, but please
+    bear in mind that the more new cards you introduce, the higher
+    your short-term review workload will become.

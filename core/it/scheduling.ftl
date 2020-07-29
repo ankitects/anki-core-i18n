@@ -77,3 +77,8 @@ scheduling-today-review-limit-reached =
     Il limite delle ripetizioni per oggi è stato raggiunto, ma ci sono ancora carte che
     aspettano di essere ripetute. Per una memorizzazione ottimale, considera
     di aumentare il limite giornaliero nelle opzioni.
+scheduling-today-new-limit-reached =
+    Ci sono ulteriori carte nuove disponibili, ma il limite giornaliero
+    è stato raggiunto. Puoi aumentare il limite nelle opzioni, ma
+    ricordati che più carte nuove introduci, più grande diventerà
+    il tuo carico di lavoro per le ripetizioni a breve termine.

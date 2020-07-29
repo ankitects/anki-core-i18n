@@ -77,3 +77,8 @@ scheduling-today-review-limit-reached =
     Has arribat al límit actual de repassos, però encara hi ha targetes
     a l'espera de ser repassades. Per a una memorització òptima, considera
     augmentar el límit diari en les opcions.
+scheduling-today-new-limit-reached =
+    Hi ha més targetes noves disponibles, però has arribat al límit
+    diari. Pots augmentar el límit en les opcions, però vés
+    en compte que com més targetes noves introdueixis, més
+    augmentarà la teva càrrega de treball a curt termini.

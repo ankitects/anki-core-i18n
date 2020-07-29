@@ -48,3 +48,7 @@ scheduling-congratulations-finished = Blahoželáme! Nateraz ste tento balíček
 scheduling-today-review-limit-reached =
     Bol dosiahnutý denný limit, ale stále zostávajú nejaké karty na opakovanie.
     Pre optimálne zapamätanie zvážte zvýšenie tohto limitu v nastaveniach.
+scheduling-today-new-limit-reached =
+    Dostupné sú aj ďalšie nové karty, ale bol dosiahnutý denný limit. 
+    Môžete ho zvýšiť v nastaveniach, ale prosím majte na pamäti, 
+    že tým sa v najbližšej dobe zvýši aj počet kariet na opakovanie.

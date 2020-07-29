@@ -39,3 +39,8 @@ scheduling-today-review-limit-reached =
     A fost atinsă limita repetițiilor pentru astăzi, dar încă există carduri 
     care așteaptă să fie repetate. Pentru o memorare optimă, ia în considerare
     creșterea limitei zilnice în opțiuni.
+scheduling-today-new-limit-reached =
+    Mai există carduri noi valabile, dar a fost atinsă limita 
+    zilnică. În Opțiuni, poți mări limita, dar te rog să ții cont 
+    de faptul că, introducând mai multe carduri noi, volumul 
+    de muncă al repetițiilor pe termen scurt va deveni mai mare.

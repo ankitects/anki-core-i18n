@@ -77,3 +77,8 @@ scheduling-today-review-limit-reached =
     Has alcanzado el límite actual de repasos, pero todavía hay tarjetas
     a la espera de ser repasadas. Para una memorización óptima, considera
     aumentar el límite diario en las opciones.
+scheduling-today-new-limit-reached =
+    Hay más tarjetas nuevas disponibles, pero has alcanzado el límite
+    diario. Puedes aumentar el límite en las opciones, pero ten
+    en cuenta que cuantas más tarjetas nuevas introduzcas, más
+    aumentará tu carga de trabajo a corto plazo.

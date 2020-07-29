@@ -33,3 +33,8 @@ scheduling-today-review-limit-reached =
     O límite de revisión para hoxe foi acadado, pero aínda hai cartas
     pendentes de ser revisadas. Para unha óptima memoria, considere
     incrementar o límite diario nas opcións.
+scheduling-today-new-limit-reached =
+    Hai máis cartas dispoñíbeis pero o límite diario foi sobrepasado.
+    Pode incrementar o límite nas opción, pero por favor,
+    teña en mente que cantas máis cartas introduza, máis alta
+    será a súa carga de traballo a curto prazo.

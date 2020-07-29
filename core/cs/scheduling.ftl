@@ -49,3 +49,7 @@ scheduling-congratulations-finished = Gratuluji! Tento balík máte pro dnešek 
 scheduling-today-review-limit-reached =
     Byl dosažen denní limit, ale stále vám zbývají karty k opakování. Zvažte
     zvýšení denního limitu pro lepší zapamatování.
+scheduling-today-new-limit-reached =
+    Zbývají vám další nové karty, ale byl dosažen denní limit. Můžete ho
+    zvýšit, ale mějte na paměti, že čím víc nových karet naráz, tím víc
+    opakování.

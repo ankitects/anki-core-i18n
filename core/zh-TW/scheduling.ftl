@@ -51,3 +51,4 @@ scheduling-congratulations-finished = 恭喜！您已完成本牌組當前的學
 scheduling-today-review-limit-reached =
     今天的複習上限已經達到了，但還有卡片尚待複習。
     為達最佳記憶效果，可考慮在選項中增加每日複習上限。
+scheduling-today-new-limit-reached = 牌組裡還有其他新的卡片，但您已達到今日上限。您可以在選項中增加上限，但請注意，如果您設定更多新卡片，那麼您短期複習量的負荷就會隨之增加。

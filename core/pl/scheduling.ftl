@@ -93,3 +93,6 @@ scheduling-today-review-limit-reached =
     Dzisiejszy limit powtórki został osiągnięty, ale są jeszcze karty
     czekające na powtórkę. Dla najlepszego zapamiętywania,
     rozważ zwiększenie dziennego limitu w opcjach.
+scheduling-today-new-limit-reached =
+    Jest dostępnych więcej nowych kart, lecz dzienny limit został osiągnięty. Możesz zwiększyć go w opcjach, ale miej na uwadze, że im więcej nowych kart poznajesz, tym większa będzie liczba kart
+    do przejrzenia w najbliższym czasie.

@@ -39,3 +39,8 @@ scheduling-today-review-limit-reached =
     Dagens genopfrisknings-grænse er nået, men der er stadig kort
     der venter på at blive anmeldt. For at optimere hukommelsen
     bør du overveje at øge den daglige grænse.
+scheduling-today-new-limit-reached =
+    Der er flere nye kort tilgængelige, men den daglige 
+    grænse er opbrugt. Du kan øge grænsen, men husk at
+    jo flere kort du introducerer, jo flere genopfriskninger
+    skal du foretage.

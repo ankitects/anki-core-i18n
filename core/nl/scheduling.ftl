@@ -33,3 +33,7 @@ scheduling-today-review-limit-reached =
     Het maximum te herhalen kaarten is voor vandaag bereikt, maar er
     zijn nog steeds kaarten die voor vandaag gepland waren. Overweeg deze
     dagelijkse limiet in de instellingen te verhogen, om optimaal te leren.
+scheduling-today-new-limit-reached =
+    Er zijn meer nieuwe kaarten beschikbaar, maar de dagelijkse limiet
+    is bereikt. U kunt de limiet in de instellingen verhogen, maar let er op
+    dat dit uw werkdruk op de korte termijn zal verzwaren.

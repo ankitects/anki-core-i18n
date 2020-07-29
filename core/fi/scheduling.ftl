@@ -39,3 +39,8 @@ scheduling-today-review-limit-reached =
     Tämän päivän kertausyläraja on tullut vastaan, mutta jonossa on</ br>
     vielä kerrattavia kortteja. Harkitse päivittäisen ylärajan nostamista</ br>
     valinnoissa muistamisen optimoimiseksi.
+scheduling-today-new-limit-reached =
+    Pakassa on vielä uusia kortteja, mutta päivittäinen yläraja on tullut</ br>
+    vastaan. Voit kasvattaa ylärajaa valinnoissa, mutta pidä mielessä</ br>
+    että mitä enemmän uusia kortteja alat opiskella sitä suuremmaksi</ br>
+    lyhyen aikavälin kertauskuormasi tulee.
