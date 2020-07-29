@@ -35,3 +35,7 @@ scheduling-time-span-years =
        *[other] { $amount } jaroj
     }
 scheduling-congratulations-finished = Gratulon! Vi finis ĉi tiun kartaron por hodiaŭ.
+scheduling-today-review-limit-reached =
+    La hodiaŭa ripetlimigo estas atingita, sed ankoraŭ ĉeestas
+    ripetendaj kartoj. Por memori optimume, bonvolu pripensi
+    la altigon de la taga limigo ĉe la opcioj.

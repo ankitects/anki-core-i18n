@@ -72,3 +72,7 @@ scheduling-learn-remaining =
        *[other] { $remaining } عدد کارت در مرحلۀ یادگیری برای امروز وجود دارند.
     }
 scheduling-congratulations-finished = تبریک! شما فعلاً این دسته را تمام کردید.
+scheduling-today-review-limit-reached =
+    محدوده مرور امروز سر رسید شده است، اما هنوز کارتهایی وجود دارد
+    که منتظر برای مرور هستند. برای بهینه کردن حافظه،افزایش محدوده روزانه در اختیارات
+    را ملاحظه کنید.

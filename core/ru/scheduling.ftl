@@ -93,3 +93,7 @@ scheduling-learn-remaining =
        *[other] На сегодня осталось { $remaining } карточек.
     }
 scheduling-congratulations-finished = Ура! На сегодня всё.
+scheduling-today-review-limit-reached =
+    Сегодняшний лимит просмотров был достигнут, но некоторые
+    карточки ещё не были просмотрены.  Для оптимального запоминания
+    подумайте об увеличении дневного лимита просмотров в опциях.

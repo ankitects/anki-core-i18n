@@ -73,3 +73,7 @@ scheduling-learn-remaining =
        *[other] Hay { $remaining } tarjetas restantes en la cola de aprendizaje más tarde para hoy.
     }
 scheduling-congratulations-finished = ¡Enhorabuena! Has finalizado este mazo por hoy.
+scheduling-today-review-limit-reached =
+    Has alcanzado el límite actual de repasos, pero todavía hay tarjetas
+    a la espera de ser repasadas. Para una memorización óptima, considera
+    aumentar el límite diario en las opciones.

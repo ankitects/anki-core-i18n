@@ -35,3 +35,7 @@ scheduling-time-span-years =
        *[other] { $amount } de ani
     }
 scheduling-congratulations-finished = Felicitări! Ai terminat acest pachet pentru moment.
+scheduling-today-review-limit-reached =
+    A fost atinsă limita repetițiilor pentru astăzi, dar încă există carduri 
+    care așteaptă să fie repetate. Pentru o memorare optimă, ia în considerare
+    creșterea limitei zilnice în opțiuni.

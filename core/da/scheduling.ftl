@@ -35,3 +35,7 @@ scheduling-time-span-years =
        *[other] { $amount } år
     }
 scheduling-congratulations-finished = Tillykke! Du er færdig med dette kortsæt for i dag.
+scheduling-today-review-limit-reached =
+    Dagens genopfrisknings-grænse er nået, men der er stadig kort
+    der venter på at blive anmeldt. For at optimere hukommelsen
+    bør du overveje at øge den daglige grænse.

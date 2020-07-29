@@ -33,3 +33,4 @@ scheduling-time-span-years =
        *[other] { $amount } urte
     }
 scheduling-congratulations-finished = Zorionak! sorta hau amaitu duzu oraindik
+scheduling-today-review-limit-reached = Gaurko berrikuspen muga helduta da, baina oraindik karta batzuk berrikustekozain daude. Memorizazioa hobetzeko, aukeretan eguneroko muga handitzerik ez ahaztu

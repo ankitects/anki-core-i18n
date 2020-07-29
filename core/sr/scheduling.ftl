@@ -41,3 +41,4 @@ scheduling-time-span-years =
        *[other] { $amount } година
     }
 scheduling-congratulations-finished = Честитамо! Завршили сте овај шпил за сада.
+scheduling-today-review-limit-reached = Данашњи лимит за преглед је достигнут, али још увек постоје картице које чекају да буду прегледане. За оптимизацију меморије, размислите о повећању лимита у опцијама.

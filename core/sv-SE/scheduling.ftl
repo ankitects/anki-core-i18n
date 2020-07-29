@@ -34,3 +34,7 @@ scheduling-time-span-years =
        *[other] { $amount } år
     }
 scheduling-congratulations-finished = Grattis! Du är klar med den här kortleken för idag.
+scheduling-today-review-limit-reached =
+    Gränsen för hur många kort du får repetera per dag är nådd,
+    men det finns fortfarande kort att repetera. För optimal inlärning
+    överväg att öka gränsen i inställningarna för den här gruppen.

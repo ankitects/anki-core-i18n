@@ -29,3 +29,7 @@ scheduling-time-span-years =
        *[other] { $amount } anos
     }
 scheduling-congratulations-finished = Parabéns! Rematou este feixe polo de agora.
+scheduling-today-review-limit-reached =
+    O límite de revisión para hoxe foi acadado, pero aínda hai cartas
+    pendentes de ser revisadas. Para unha óptima memoria, considere
+    incrementar o límite diario nas opcións.

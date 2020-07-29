@@ -73,3 +73,7 @@ scheduling-learn-remaining =
        *[other] Il reste { $remaining } cartes à apprendre pour plus tard dans la journée.
     }
 scheduling-congratulations-finished = Félicitations ! Vous en avez fini avec ce paquet pour l’instant.
+scheduling-today-review-limit-reached =
+    La limite de révision a été atteinte pour aujourd’hui,  mais il y a encore des cartes
+    en attente de révision. Pour une mémorisation optimale, pensez à augmenter
+    la limite quotidienne dans les options.

@@ -45,3 +45,6 @@ scheduling-time-span-years =
        *[other] { $amount } roky
     }
 scheduling-congratulations-finished = Blahoželáme! Nateraz ste tento balíček dokončili.
+scheduling-today-review-limit-reached =
+    Bol dosiahnutý denný limit, ale stále zostávajú nejaké karty na opakovanie.
+    Pre optimálne zapamätanie zvážte zvýšenie tohto limitu v nastaveniach.

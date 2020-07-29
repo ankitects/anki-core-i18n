@@ -32,3 +32,7 @@ scheduling-time-span-years =
        *[other] { $amount } jare
     }
 scheduling-congratulations-finished = Veels geluk! Jy is vir eers klaar met hierdie kaartpak.
+scheduling-today-review-limit-reached =
+    Vandag se studie limiet is bereik, maar daar is nog kaarte
+    wat wag om hersien te word. Vir optimale geheue, oorweeg die verhoging van 
+    die daaglikse limiet onder opsies.

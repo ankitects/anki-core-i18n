@@ -41,3 +41,7 @@ scheduling-time-span-years =
        *[other] { $amount } leta
     }
 scheduling-congratulations-finished = Čestitam! S tem paketom ste za sedaj zaključili.
+scheduling-today-review-limit-reached =
+    Današnja meja pregledov je bila dosežena, vendar še vedno ostajajo
+    kartice, ki čakajo na pregled. Za boljši spomin premislite o tem, da bi
+    povečali dnevno mejo.

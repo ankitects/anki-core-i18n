@@ -11,3 +11,7 @@ scheduling-time-span-days = { $amount } ngày
 scheduling-time-span-months = { $amount } tháng
 scheduling-time-span-years = { $amount } năm
 scheduling-congratulations-finished = Xin chúc mừng! Hiện giờ bạn đã học xong bộ thẻ này.
+scheduling-today-review-limit-reached =
+    Đã đến giới hạn trong ngày hôm nay, nhưng vẫn còn nhiều thẻ
+    đang chờ ôn tập. Để giúp trí nhớ hoạt động hiệu quả hơn, bạn
+    có thể xem xét tăng giới hạn hàng ngày trong phần tùy chọn.

@@ -35,3 +35,7 @@ scheduling-time-span-years =
        *[other] { $amount } anos
     }
 scheduling-congratulations-finished = Parabéns! Você terminou este baralho por enquanto.
+scheduling-today-review-limit-reached =
+    O limite de revisão de hoje foi alcançado, porém ainda existem cartões
+    a serem revistos. Para melhorar sua memória, considere aumentar
+    o limite diário nas opções.

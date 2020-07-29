@@ -73,3 +73,7 @@ scheduling-learn-remaining =
        *[other] Hi ha { $remaining } tarjetes restants a la cua d'aprenentatge más tard per avui.
     }
 scheduling-congratulations-finished = Enhorabona! De moment heu acabat amb aquest paquet.
+scheduling-today-review-limit-reached =
+    Has arribat al límit actual de repassos, però encara hi ha targetes
+    a l'espera de ser repassades. Per a una memorització òptima, considera
+    augmentar el límit diari en les opcions.

@@ -73,3 +73,7 @@ scheduling-learn-remaining =
        *[other] There are { $remaining } learning cards due later today.
     }
 scheduling-congratulations-finished = Congratulations! You have finished this deck for now.
+scheduling-today-review-limit-reached =
+    Today's review limit has been reached, but there are still cards
+    waiting to be reviewed. For optimum memory, consider increasing
+    the daily limit in the options.

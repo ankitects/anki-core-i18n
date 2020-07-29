@@ -29,3 +29,7 @@ scheduling-time-span-years =
        *[other] { $amount } jaar
     }
 scheduling-congratulations-finished = Proficiat! U bent voorlopig klaar met deze set.
+scheduling-today-review-limit-reached =
+    Het maximum te herhalen kaarten is voor vandaag bereikt, maar er
+    zijn nog steeds kaarten die voor vandaag gepland waren. Overweeg deze
+    dagelijkse limiet in de instellingen te verhogen, om optimaal te leren.

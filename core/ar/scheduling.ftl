@@ -113,3 +113,6 @@ scheduling-learn-remaining =
        *[other] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
     }
 scheduling-congratulations-finished = تهانينا! لقد انتهيت من هذه الرزمة الآن.
+scheduling-today-review-limit-reached =
+    لقد وصلت إلى حد المراجعات اليوم، لكن ما زال هناك بطاقات بحاجة مراجعة.
+    لذاكرة مثلى، خذ بعين الاعتبار رفع الحد اليومي في الخيارات.

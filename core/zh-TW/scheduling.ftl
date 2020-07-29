@@ -48,3 +48,6 @@ scheduling-learn-remaining =
        *[other] { $remaining }張學習中的卡片將於今天到期。
     }
 scheduling-congratulations-finished = 恭喜！您已完成本牌組當前的學習任務。
+scheduling-today-review-limit-reached =
+    今天的複習上限已經達到了，但還有卡片尚待複習。
+    為達最佳記憶效果，可考慮在選項中增加每日複習上限。

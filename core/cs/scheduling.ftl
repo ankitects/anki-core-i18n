@@ -46,3 +46,6 @@ scheduling-time-span-years =
        *[other] { $amount } let
     }
 scheduling-congratulations-finished = Gratuluji! Tento balík máte pro dnešek hotov.
+scheduling-today-review-limit-reached =
+    Byl dosažen denní limit, ale stále vám zbývají karty k opakování. Zvažte
+    zvýšení denního limitu pro lepší zapamatování.

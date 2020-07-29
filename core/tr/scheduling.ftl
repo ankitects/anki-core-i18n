@@ -29,3 +29,7 @@ scheduling-time-span-years =
        *[other] { $amount } yıl
     }
 scheduling-congratulations-finished = Tebrikler! Bu desteyi şimdilik tamamladınız.
+scheduling-today-review-limit-reached =
+    Bugünün inceleme sınırına ulaşıldı, ancak gözden geçirilmek 
+    için bekleyen kartlar var. Optimum hafıza için, seçeneklerdeki 
+    günlük limiti arttırmayı düşünün.

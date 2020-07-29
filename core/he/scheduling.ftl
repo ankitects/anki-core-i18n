@@ -85,3 +85,7 @@ scheduling-learn-remaining =
        *[other] נותרו { $remaining } כרטיסי לימוד מתוזמנים ליותר מאוחר היום.
     }
 scheduling-congratulations-finished = אשריך! סיימת את החפיסה לעת עתה.
+scheduling-today-review-limit-reached =
+    הגעת למכסת החזרות היומית, אך עדיין יש
+    כרטיסים שממתינים לחזרה. לזכרון אופטימלי
+    אנא שקול להגדיל את המכסה היומית בהגדרות.

@@ -30,3 +30,6 @@ scheduling-time-span-years =
        *[other] { $amount } години
     }
 scheduling-congratulations-finished = Поздравления! Приключихте с това тесте засега.
+scheduling-today-review-limit-reached =
+    Достигнахте дневното ограничение за преговори, но има още карти за преглед.
+    За най-добра памет обмислете увеличаване на дневния лимит в опциите.

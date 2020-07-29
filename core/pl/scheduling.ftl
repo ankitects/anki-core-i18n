@@ -89,3 +89,7 @@ scheduling-learn-remaining =
        *[other] { $remaining } kart czeka na przejrzenie dziś w późniejszym czasie.
     }
 scheduling-congratulations-finished = Gratulacje! Zakończono powtórki na dziś.
+scheduling-today-review-limit-reached =
+    Dzisiejszy limit powtórki został osiągnięty, ale są jeszcze karty
+    czekające na powtórkę. Dla najlepszego zapamiętywania,
+    rozważ zwiększenie dziennego limitu w opcjach.

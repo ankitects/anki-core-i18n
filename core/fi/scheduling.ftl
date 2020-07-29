@@ -35,3 +35,7 @@ scheduling-time-span-years =
        *[other] { $amount } vuotta
     }
 scheduling-congratulations-finished = Onneksi olkoon! Olet käynyt tämän pakan kertaukset läpi toistaiseksi.
+scheduling-today-review-limit-reached =
+    Tämän päivän kertausyläraja on tullut vastaan, mutta jonossa on</ br>
+    vielä kerrattavia kortteja. Harkitse päivittäisen ylärajan nostamista</ br>
+    valinnoissa muistamisen optimoimiseksi.

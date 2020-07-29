@@ -33,3 +33,7 @@ scheduling-next-learn-due =
     } be li { $amount }
 scheduling-learn-remaining = .i { $remaining } da poi karda je cu jai se cilre zo'u do bilga lo ka ba morji da ca lo cabdei
 scheduling-congratulations-finished = .i do tadni pa karda selcmi mo'u .ui
+scheduling-today-review-limit-reached =
+    {"."}i ca'o rinju lo djedi ke morji jimte goi jy. .i ku'i su'o karda za'o bilga
+    te morji .i .e'u do zukte lo ka ce'u zengau jy. kei lo nu do ba ca'o
+    xamgu morji

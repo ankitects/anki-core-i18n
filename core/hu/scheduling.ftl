@@ -73,3 +73,7 @@ scheduling-learn-remaining =
        *[other] A mai napra még { $remaining } kártyája van.
     }
 scheduling-congratulations-finished = Gratulálok! Mára Ön végzett ezzel a paklival.
+scheduling-today-review-limit-reached =
+    A mai ismétlési limitet elérte, de vannak még ismételendő kártyák.
+    Az optimális memorizálás érdekében érdemes lehet a beállítások között
+    megnövelnie a napi limitet.

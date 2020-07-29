@@ -73,3 +73,7 @@ scheduling-learn-remaining =
        *[other] Ci sono { $remaining } carte da studiare più tardi in giornata.
     }
 scheduling-congratulations-finished = Congratulazioni! Hai completato questo mazzo per adesso.
+scheduling-today-review-limit-reached =
+    Il limite delle ripetizioni per oggi è stato raggiunto, ma ci sono ancora carte che
+    aspettano di essere ripetute. Per una memorizzazione ottimale, considera
+    di aumentare il limite giornaliero nelle opzioni.

@@ -36,3 +36,6 @@ scheduling-learn-remaining =
        *[other] 今天将有{ $remaining }张学习中的卡片到期。
     }
 scheduling-congratulations-finished = 恭喜！你目前已经完成了这个记忆库。
+scheduling-today-review-limit-reached =
+    达到了今天的复习限制, 但是仍有卡片等待被复习.
+    为了最佳化记忆, 可以考虑在设置中增大每日限制.
