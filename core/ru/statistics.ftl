@@ -3,7 +3,7 @@ statistics-due-date = К просмотру
 # The count of cards waiting to be reviewed
 statistics-due-count = К просмотру
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = Новых: { $number }
+statistics-due-for-new-card = Новая № { $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -143,3 +143,13 @@ statistics-hours-subtitle = Доля удачных просмотров в оп
 # shown when graph is empty
 statistics-no-data = Нет данных
 statistics-calendar-title = Календарь
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+
+##
+
