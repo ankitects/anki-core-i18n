@@ -158,3 +158,20 @@ statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
 # shown when graph is empty
 statistics-no-data = KEINE DATEN
 statistics-calendar-title = Kalender
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+statistics-elapsed-time-seconds = { $amount }s
+statistics-elapsed-time-minutes = { $amount } Min.
+statistics-elapsed-time-hours = { $amount }h
+statistics-elapsed-time-days = { $amount } T.
+statistics-elapsed-time-months = { $amount } Mon.
+statistics-elapsed-time-years = { $amount } J.
+
+##
+
+statistics-error-fetching = Ungültige Daten gefunden - bitte „Datenbank überprüfen“ zur Problembehebung benutzen.
