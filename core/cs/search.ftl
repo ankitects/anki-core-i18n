@@ -1,3 +1,9 @@
 search-invalid = Neplatné vyhledávání - prosím zkontrolujte překlepy.
-search-note-modified = Upraveno
-search-card-modified = Změněno
+
+## Column labels in browse screen
+
+search-note-modified = Poznámka upravena
+search-card-modified = Karta upravena
+
+##
+
