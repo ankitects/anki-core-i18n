@@ -66,5 +66,5 @@ statistics-axis-label-card-count = Tikaṛḍiwin
 statistics-reviews-time-checkbox = Akud
 statistics-total = Amatu
 statistics-days-studied = Ussan n tɣuri
-statistics-average-answer-time = Akud n tririt alemmas
+statistics-average-answer-time-label = Akud n tririt alemmas
 statistics-average = Talemmast

@@ -88,6 +88,6 @@ statistics-axis-label-card-count = Kort
 statistics-reviews-time-checkbox = Tid
 statistics-total = Totalt
 statistics-days-studied = Dager studert
-statistics-average-answer-time = Gjennomsnitlig svartid
+statistics-average-answer-time-label = Gjennomsnitlig svartid
 statistics-average = Middels
 statistics-due-tomorrow = Forfaller i morgen
