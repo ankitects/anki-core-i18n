@@ -13,3 +13,6 @@ card-templates-preview-box = Vorschau
 card-templates-template-box = Vorlage
 card-templates-sample-cloze = Dies ist ein { "{{c1::" }Beispiel{ "}}" } - Lückentext.
 card-templates-fill-empty = Leere Felder ausfüllen
+card-templates-invalid-template-number = Kartenvorlage { $number } hat ein Problem.
+card-templates-changes-saved = Änderungen gespeichert.
+card-templates-discard-changes = Änderungen verwerfen?
