@@ -164,3 +164,4 @@ statistics-days-studied = روزهای مطالعه شده
 statistics-average-answer-time = میانگین زمان پاسخگویی
 statistics-average = میانگین
 statistics-average-interval = میانگین بازه زمانی
+statistics-longest-interval = بیشترین بازۀ زمانی

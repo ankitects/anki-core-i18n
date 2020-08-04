@@ -155,3 +155,4 @@ statistics-days-studied = 學習天數
 statistics-average-answer-time = 平均答題時間
 statistics-average = 平均
 statistics-average-interval = 平均間隔
+statistics-longest-interval = 最長的間隔

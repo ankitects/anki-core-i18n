@@ -50,3 +50,4 @@ statistics-days-studied = Opiskelupäivät
 statistics-average-answer-time = Keskimääräinen vastausaika
 statistics-average = Keskiarvo
 statistics-average-interval = Keskimääräinen kertausväli
+statistics-longest-interval = Pisin kertausväli

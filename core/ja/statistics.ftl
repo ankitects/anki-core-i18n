@@ -118,3 +118,4 @@ statistics-days-studied = 学習日数
 statistics-average-answer-time = 平均所要時間
 statistics-average = 平均
 statistics-average-interval = 平均間隔
+statistics-longest-interval = 最長間隔

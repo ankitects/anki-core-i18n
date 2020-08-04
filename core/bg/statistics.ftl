@@ -48,3 +48,4 @@ statistics-days-studied = Учебни дни
 statistics-average-answer-time = Средно време на отговаряне
 statistics-average = Средно
 statistics-average-interval = Среден интервал
+statistics-longest-interval = Най-дълъг интервал

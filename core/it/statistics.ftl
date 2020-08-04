@@ -107,3 +107,4 @@ statistics-days-studied = Giorni di studio
 statistics-average-answer-time = Tempo medio di risposta
 statistics-average = Media
 statistics-average-interval = Intervallo medio
+statistics-longest-interval = Intervallo più lungo

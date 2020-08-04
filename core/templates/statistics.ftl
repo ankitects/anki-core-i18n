@@ -175,3 +175,4 @@ statistics-days-studied = Days studied
 statistics-average-answer-time = Average answer time
 statistics-average = Average
 statistics-average-interval = Average interval
+statistics-longest-interval = Longest interval

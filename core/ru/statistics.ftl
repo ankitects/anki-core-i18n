@@ -153,3 +153,4 @@ statistics-days-studied = Дней учёбы
 statistics-average-answer-time = Среднее время ответа
 statistics-average = В среднем
 statistics-average-interval = Средний интервал
+statistics-longest-interval = Самый длинный интервал

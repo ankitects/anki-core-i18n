@@ -69,3 +69,4 @@ statistics-days-studied = tadni djedi
 statistics-average-answer-time = cnano fi lo'i spuda temci
 statistics-average = cnano
 statistics-average-interval = cnano fi lo'i temci
+statistics-longest-interval = traji lo ka clani kei lo'i temci
