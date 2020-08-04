@@ -173,3 +173,4 @@ statistics-average-for-days-studied = Durchschnitt an Lerntagen
 statistics-total = Gesamt
 statistics-days-studied = Lerntage
 statistics-average-answer-time = Durchschnittliche Antwortzeit
+statistics-average = Durchschnitt

@@ -195,3 +195,4 @@ statistics-average-for-days-studied = Średnia dla dni, gdy się uczono
 statistics-total = Razem
 statistics-days-studied = Dni nauki
 statistics-average-answer-time = Średni czas odpowiedzi
+statistics-average = Średnia

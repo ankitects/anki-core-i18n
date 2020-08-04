@@ -6,3 +6,4 @@ statistics-future-due-title = ประมาณการ
 statistics-reviews-title = ตรวจทาน
 statistics-counts-learning-cards = การเรียนรู้
 statistics-total = ทั้งหมด
+statistics-average = ต้นทุนเฉลี่ย

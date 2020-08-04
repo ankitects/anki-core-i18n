@@ -45,3 +45,4 @@ statistics-average-for-days-studied = Ortalama çalışılan gün
 statistics-total = Toplam
 statistics-days-studied = Çalışılan günler
 statistics-average-answer-time = Ortalama cevap süresi
+statistics-average = Ortalama

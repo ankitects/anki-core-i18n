@@ -189,3 +189,4 @@ statistics-average-for-days-studied = ממוצע עבור ימים שנלמדו
 statistics-total = סך-הכל
 statistics-days-studied = ימי לימוד
 statistics-average-answer-time = זמן תשובה ממוצע
+statistics-average = ממוצע

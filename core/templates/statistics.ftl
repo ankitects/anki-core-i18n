@@ -173,3 +173,4 @@ statistics-average-for-days-studied = Average for days studied
 statistics-total = Total
 statistics-days-studied = Days studied
 statistics-average-answer-time = Average answer time
+statistics-average = Average

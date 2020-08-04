@@ -121,3 +121,4 @@ statistics-average-for-days-studied = Середній показник за д�
 statistics-total = Разом
 statistics-days-studied = Днів роботи з програмою
 statistics-average-answer-time = Середній час відповіді
+statistics-average = Середнє

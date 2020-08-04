@@ -18,3 +18,4 @@ statistics-added-title = Lisatud
 statistics-axis-label-answer-count = Vastused
 statistics-average-for-days-studied = Õpipäevade keskmine
 statistics-average-answer-time = Keskmine vastuse aeg
+statistics-average = Keskmine

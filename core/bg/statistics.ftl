@@ -46,3 +46,4 @@ statistics-average-for-days-studied = Средно за броя учебни д
 statistics-total = Общо
 statistics-days-studied = Учебни дни
 statistics-average-answer-time = Средно време на отговаряне
+statistics-average = Средно

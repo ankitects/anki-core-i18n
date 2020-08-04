@@ -11,3 +11,4 @@ statistics-counts-learning-cards = शिक्षण
 statistics-average-for-days-studied = शिकलेल्या दिवसांचे मध्यमान
 statistics-total = एकूण
 statistics-average-answer-time = मध्यामान उत्तर वेळ
+statistics-average = सरासरी

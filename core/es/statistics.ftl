@@ -175,3 +175,4 @@ statistics-average-for-days-studied = Promedio en los días estudiados
 statistics-total = Total
 statistics-days-studied = Días estudiados
 statistics-average-answer-time = Tiempo de respuesta promedio
+statistics-average = Promedio

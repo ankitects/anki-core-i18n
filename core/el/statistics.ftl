@@ -33,3 +33,4 @@ statistics-average-for-days-studied = Μέσος όρος για ημέρες μ
 statistics-total = Σύνολο
 statistics-days-studied = Ημέρες μελέτης
 statistics-average-answer-time = Μέσος χρόνος απάντησης
+statistics-average = Μέσος

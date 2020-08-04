@@ -88,3 +88,4 @@ statistics-average-for-days-studied = Gemiddelde voor dagen waarop je geleerd he
 statistics-total = Totaal
 statistics-days-studied = Dagen geleerd
 statistics-average-answer-time = Gemiddelde antwoordtijd
+statistics-average = Gemiddelde

@@ -162,3 +162,4 @@ statistics-average-for-days-studied = میانگین برای روزهای مط�
 statistics-total = کل
 statistics-days-studied = روزهای مطالعه شده
 statistics-average-answer-time = میانگین زمان پاسخگویی
+statistics-average = میانگین

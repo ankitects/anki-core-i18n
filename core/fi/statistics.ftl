@@ -48,3 +48,4 @@ statistics-average-for-days-studied = Opiskelupäivien keskiarvo
 statistics-total = Yhteensä
 statistics-days-studied = Opiskelupäivät
 statistics-average-answer-time = Keskimääräinen vastausaika
+statistics-average = Keskiarvo

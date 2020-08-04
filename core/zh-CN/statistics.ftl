@@ -72,3 +72,4 @@ statistics-average-for-days-studied = 平均
 statistics-total = 总计
 statistics-days-studied = 打卡天数
 statistics-average-answer-time = 平均回答用时
+statistics-average = 平均

@@ -49,3 +49,4 @@ statistics-average-for-days-studied = Priemer v dňoch štúdia
 statistics-total = Celkom
 statistics-days-studied = Podiel dní štúdia
 statistics-average-answer-time = Priemerný čas odpovede
+statistics-average = Priemer

@@ -229,3 +229,4 @@ statistics-average-for-days-studied = معدل أيام الدراسة
 statistics-total = إجمالي
 statistics-days-studied = أيام الدراسة
 statistics-average-answer-time = معدل زمن الإجابة
+statistics-average = المعدل

@@ -93,3 +93,4 @@ statistics-average-for-days-studied = Media zilelor studiate
 statistics-total = Total
 statistics-days-studied = Zile studiate
 statistics-average-answer-time = Timp mediu de răspuns
+statistics-average = Medie

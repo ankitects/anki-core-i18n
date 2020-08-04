@@ -88,3 +88,4 @@ statistics-average-for-days-studied = Meznombro por lerntagoj
 statistics-total = Sumo
 statistics-days-studied = Tagoj de lernado
 statistics-average-answer-time = Mezuma respondotempo
+statistics-average = Meznombro

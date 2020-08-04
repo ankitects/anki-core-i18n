@@ -32,3 +32,4 @@ statistics-average-for-days-studied = Povprečje za dneve študija
 statistics-total = Skupaj
 statistics-days-studied = Dnevi študija
 statistics-average-answer-time = Povprečen čas za odgovor
+statistics-average = Povprečje

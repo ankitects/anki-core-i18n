@@ -88,3 +88,4 @@ statistics-average-for-days-studied = Միջինը սովորած օրերի հ�
 statistics-total = Ընդհանուր
 statistics-days-studied = Սովորած օրերի մասնաբաժինը
 statistics-average-answer-time = Պատասխանելու միջին ժամանակը
+statistics-average = Միջինը

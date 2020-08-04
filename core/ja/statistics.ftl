@@ -116,3 +116,4 @@ statistics-average-for-days-studied = 各学習の平均
 statistics-total = 合計
 statistics-days-studied = 学習日数
 statistics-average-answer-time = 平均所要時間
+statistics-average = 平均
