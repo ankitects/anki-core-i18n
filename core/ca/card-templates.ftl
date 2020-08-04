@@ -13,3 +13,6 @@ card-templates-preview-box = Vista prèvia
 card-templates-template-box = Plantilla
 card-templates-sample-cloze = Ce es un { "{{c1::" }sample{ "}}" } cloze deletion.
 card-templates-fill-empty = Omplir els camps buits
+card-templates-invalid-template-number = La plantilla de tarjeta { $number } te un problema.
+card-templates-changes-saved = Canvis guardats.
+card-templates-discard-changes = Descartar canvis?
