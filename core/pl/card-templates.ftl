@@ -14,3 +14,6 @@ card-templates-preview-box = Podgląd
 card-templates-template-box = Szablon
 card-templates-sample-cloze = To jest { "{{c1::" }przykładowe{ "}}" } wypełnianie luki.
 card-templates-fill-empty = Wypełnij puste pola
+card-templates-invalid-template-number = Problem w { $number } szablonie.
+card-templates-changes-saved = Zmiany zapisane.
+card-templates-discard-changes = Porzucić zmiany?
