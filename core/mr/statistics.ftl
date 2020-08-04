@@ -12,3 +12,4 @@ statistics-average-for-days-studied = शिकलेल्या दिवस�
 statistics-total = एकूण
 statistics-average-answer-time = मध्यामान उत्तर वेळ
 statistics-average = सरासरी
+statistics-average-interval = मध्यमान मध्यांतर

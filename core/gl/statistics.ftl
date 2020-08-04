@@ -47,3 +47,4 @@ statistics-average-for-days-studied = Termo medio nos días estudiados
 statistics-days-studied = Días estudiados
 statistics-average-answer-time = Tempo medio de resposta
 statistics-average = Termo medio
+statistics-average-interval = Intervalo medio

@@ -56,3 +56,4 @@ statistics-total = укупно
 statistics-days-studied = Дана учења
 statistics-average-answer-time = Просечно време одговора
 statistics-average = Просечно
+statistics-average-interval = Просечни интервал

@@ -58,3 +58,4 @@ statistics-total = Totalt
 statistics-days-studied = Dagar med studier
 statistics-average-answer-time = Genomsnittlig svarstid
 statistics-average = Genomsnitt
+statistics-average-interval = Genomsnittligt intervall

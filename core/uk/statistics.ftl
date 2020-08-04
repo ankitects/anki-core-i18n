@@ -122,3 +122,4 @@ statistics-total = Разом
 statistics-days-studied = Днів роботи з програмою
 statistics-average-answer-time = Середній час відповіді
 statistics-average = Середнє
+statistics-average-interval = Середній інтервал

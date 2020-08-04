@@ -48,3 +48,4 @@ statistics-total = Totaal
 statistics-days-studied = Dae studeer
 statistics-average-answer-time = Gemiddelde antwoord tyd
 statistics-average = Gemiddeld
+statistics-average-interval = Gemiddelde pouse

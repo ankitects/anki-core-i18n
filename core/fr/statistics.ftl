@@ -113,3 +113,4 @@ statistics-total = Total
 statistics-days-studied = Jours travaillés
 statistics-average-answer-time = Durée de réponse moyenne
 statistics-average = Moyenne
+statistics-average-interval = Intervalle moyen

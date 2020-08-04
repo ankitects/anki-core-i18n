@@ -94,3 +94,4 @@ statistics-total = Total
 statistics-days-studied = Zile studiate
 statistics-average-answer-time = Timp mediu de răspuns
 statistics-average = Medie
+statistics-average-interval = Interval mediu

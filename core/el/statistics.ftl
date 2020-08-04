@@ -34,3 +34,4 @@ statistics-total = Σύνολο
 statistics-days-studied = Ημέρες μελέτης
 statistics-average-answer-time = Μέσος χρόνος απάντησης
 statistics-average = Μέσος
+statistics-average-interval = Μέσο ενδιάμεσο διάστημα

@@ -50,3 +50,4 @@ statistics-total = Celkom
 statistics-days-studied = Podiel dní štúdia
 statistics-average-answer-time = Priemerný čas odpovede
 statistics-average = Priemer
+statistics-average-interval = Priemerný interval

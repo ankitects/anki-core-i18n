@@ -48,3 +48,4 @@ statistics-total = Ialt
 statistics-days-studied = Dage du har studeret
 statistics-average-answer-time = Gennemsnitlig svartid
 statistics-average = Gennemsnit
+statistics-average-interval = Gennemsnits interval

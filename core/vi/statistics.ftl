@@ -40,3 +40,4 @@ statistics-total = Tổng
 statistics-days-studied = Số ngày đã học
 statistics-average-answer-time = Thời gian trả lời trung bình
 statistics-average = Trung bình
+statistics-average-interval = Khoảng cách trung bình

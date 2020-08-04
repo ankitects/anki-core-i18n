@@ -58,3 +58,4 @@ statistics-total = 전체
 statistics-days-studied = 공부한 기간
 statistics-average-answer-time = 평균 답변 시간
 statistics-average = 평균
+statistics-average-interval = 평균 복습 간격

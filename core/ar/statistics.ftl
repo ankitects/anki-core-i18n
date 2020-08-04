@@ -230,3 +230,4 @@ statistics-total = إجمالي
 statistics-days-studied = أيام الدراسة
 statistics-average-answer-time = معدل زمن الإجابة
 statistics-average = المعدل
+statistics-average-interval = معدل الفاصل الزمني

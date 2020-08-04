@@ -173,3 +173,4 @@ statistics-total = Total
 statistics-days-studied = Dies que heu estudiat
 statistics-average-answer-time = Temps de resposta promig
 statistics-average = Mitjana
+statistics-average-interval = Interval promitg

@@ -32,3 +32,4 @@ statistics-axis-label-card-count = Cartas
 statistics-days-studied = Jorns obrants
 statistics-average-answer-time = Durada de réponse moyenne
 statistics-average = Mejana
+statistics-average-interval = Interval mejan

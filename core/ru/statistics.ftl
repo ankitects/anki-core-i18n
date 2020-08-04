@@ -152,3 +152,4 @@ statistics-total = Всего
 statistics-days-studied = Дней учёбы
 statistics-average-answer-time = Среднее время ответа
 statistics-average = В среднем
+statistics-average-interval = Средний интервал

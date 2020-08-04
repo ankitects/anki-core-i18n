@@ -190,3 +190,4 @@ statistics-total = סך-הכל
 statistics-days-studied = ימי לימוד
 statistics-average-answer-time = זמן תשובה ממוצע
 statistics-average = ממוצע
+statistics-average-interval = מרווח ממוצע

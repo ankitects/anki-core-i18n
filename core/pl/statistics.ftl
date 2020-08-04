@@ -196,3 +196,4 @@ statistics-total = Razem
 statistics-days-studied = Dni nauki
 statistics-average-answer-time = Średni czas odpowiedzi
 statistics-average = Średnia
+statistics-average-interval = Średnia przerwa
