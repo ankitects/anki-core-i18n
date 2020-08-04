@@ -171,3 +171,4 @@ statistics-elapsed-time-years = { $amount } J.
 statistics-error-fetching = Ungültige Daten gefunden - bitte „Datenbank überprüfen“ zur Problembehebung benutzen.
 statistics-average-for-days-studied = Durchschnitt an Lerntagen
 statistics-total = Gesamt
+statistics-days-studied = Lerntage

@@ -29,3 +29,4 @@ statistics-answer-buttons-title = Botons de responsa
 statistics-added-title = Apondut
 statistics-axis-label-answer-count = Responsas
 statistics-axis-label-card-count = Cartas
+statistics-days-studied = Jorns obrants

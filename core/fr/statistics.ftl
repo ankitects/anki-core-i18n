@@ -110,3 +110,4 @@ statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heur
 statistics-calendar-title = Calendrier
 statistics-average-for-days-studied = Moyenne (par jour travaillé)&nbsp;
 statistics-total = Total
+statistics-days-studied = Jours travaillés

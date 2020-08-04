@@ -50,3 +50,4 @@ statistics-counts-learning-cards = Ikasten
 statistics-reviews-time-checkbox = Denbora
 statistics-average-for-days-studied = ikasitako egunaren batez bestekoa
 statistics-total = Guztira
+statistics-days-studied = Egun ikasitakoak

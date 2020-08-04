@@ -53,3 +53,4 @@ statistics-counts-learning-cards = Учење
 statistics-reviews-time-checkbox = време
 statistics-average-for-days-studied = Просечно за непропуштене дане
 statistics-total = укупно
+statistics-days-studied = Дана учења

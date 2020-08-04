@@ -46,3 +46,4 @@ statistics-counts-learning-cards = Opiskeltavat
 statistics-reviews-time-checkbox = Aika
 statistics-average-for-days-studied = Opiskelupäivien keskiarvo
 statistics-total = Yhteensä
+statistics-days-studied = Opiskelupäivät

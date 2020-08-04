@@ -102,3 +102,4 @@ statistics-counts-learning-cards = Učení
 statistics-reviews-time-checkbox = Čas
 statistics-average-for-days-studied = Průměr za studijní dny
 statistics-total = Celkem
+statistics-days-studied = Studováno dní

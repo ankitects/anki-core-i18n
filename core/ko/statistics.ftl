@@ -55,3 +55,4 @@ statistics-counts-learning-cards = 익힘 카드
 statistics-reviews-time-checkbox = 시간
 statistics-average-for-days-studied = 공부한 기간 동안 평균
 statistics-total = 전체
+statistics-days-studied = 공부한 기간

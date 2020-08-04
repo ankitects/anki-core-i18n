@@ -160,3 +160,4 @@ statistics-elapsed-time-years = { $amount } سال
 statistics-error-fetching = دادۀ نامعتبر یافت شد - لطفاً از بررسی دیتابیس برای رفع مشکل استفاده کنید.
 statistics-average-for-days-studied = میانگین برای روزهای مطالعه شده
 statistics-total = کل
+statistics-days-studied = روزهای مطالعه شده

@@ -31,3 +31,4 @@ statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατ�
 statistics-counts-learning-cards = Εκμάθηση
 statistics-average-for-days-studied = Μέσος όρος για ημέρες μελέτης
 statistics-total = Σύνολο
+statistics-days-studied = Ημέρες μελέτης

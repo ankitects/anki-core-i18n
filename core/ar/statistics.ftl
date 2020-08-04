@@ -227,3 +227,4 @@ statistics-elapsed-time-years = { $amount } ع
 statistics-error-fetching = وُجِدت بيانات غير صالحة - استخدم خيار فحص قاعدة البيانات لحل المشكلة.
 statistics-average-for-days-studied = معدل أيام الدراسة
 statistics-total = إجمالي
+statistics-days-studied = أيام الدراسة

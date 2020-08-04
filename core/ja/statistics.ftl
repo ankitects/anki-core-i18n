@@ -114,3 +114,4 @@ statistics-hours-title = 時間帯ごとの分析
 statistics-hours-subtitle = 時間帯ごとの正解率
 statistics-average-for-days-studied = 各学習の平均
 statistics-total = 合計
+statistics-days-studied = 学習日数

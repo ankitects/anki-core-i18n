@@ -151,3 +151,4 @@ statistics-elapsed-time-years = { $amount }年
 statistics-error-fetching = 發現無效資料——請使用「檢查資料庫」來修正此問題。
 statistics-average-for-days-studied = 平均值（實際學習天數）
 statistics-total = 總計
+statistics-days-studied = 學習天數

@@ -173,3 +173,4 @@ statistics-elapsed-time-years = { $amount }a
 statistics-error-fetching = Se han encontrado datos no vàlidos - por favor, ejecute Comprobar Base de Datos para resolver el problema.
 statistics-average-for-days-studied = Promedio en los días estudiados
 statistics-total = Total
+statistics-days-studied = Días estudiados

@@ -86,3 +86,4 @@ statistics-counts-learning-cards = Lernado
 statistics-reviews-time-checkbox = Tempo
 statistics-average-for-days-studied = Meznombro por lerntagoj
 statistics-total = Sumo
+statistics-days-studied = Tagoj de lernado

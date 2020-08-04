@@ -103,3 +103,4 @@ statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno
 statistics-calendar-title = Calendario
 statistics-average-for-days-studied = Media per i giorni di studio
 statistics-total = Totale
+statistics-days-studied = Giorni di studio
