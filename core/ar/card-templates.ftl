@@ -17,3 +17,6 @@ card-templates-preview-box = معاينة
 card-templates-template-box = القالب
 card-templates-sample-cloze = هذا { "{{c1::" }مثال{ "}}" } عن عبارات ملء الفراغات.
 card-templates-fill-empty = املأ الحقول الفارغة
+card-templates-invalid-template-number = هناك مشكلة في قالب البطاقة رقم { $number }.
+card-templates-changes-saved = حُفِظت التغييرات.
+card-templates-discard-changes = هل تريد طرح التغييرات؟
