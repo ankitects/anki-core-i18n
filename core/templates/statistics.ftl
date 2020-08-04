@@ -145,7 +145,7 @@ statistics-intervals-day-range =
 statistics-intervals-day-single =
     { $cards ->
         [one] 1 card with a { $day } day interval
-       *[other] { $cards } card with a { $day } day interval
+       *[other] { $cards } cards with a { $day } day interval
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = From { $hourStart }:00~{ $hourEnd }:00
@@ -180,3 +180,15 @@ statistics-due-tomorrow = Due tomorrow
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } of { $total } ({ $percent }%)
 statistics-average-over-period = If you studied every day
+statistics-reviews-per-day = { $count ->
+  [one] { $count } review/day
+  *[other] { $count } reviews/day
+  }
+statistics-minutes-per-day = { $count ->
+  [one] { $count } minute/day
+  *[other] { $count } minutes/day
+  }
+statistics-cards-per-day = { $count ->
+  [one] { $count } card/day
+  *[other] { $count } cards/day
+  }
