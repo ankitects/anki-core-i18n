@@ -85,3 +85,4 @@ statistics-hours-subtitle = Հաջողակ կրկնությունների բաժ
 statistics-counts-learning-cards = Սովորվող
 statistics-reviews-time-checkbox = Ժամ
 statistics-average-for-days-studied = Միջինը սովորած օրերի համար
+statistics-total = Ընդհանուր

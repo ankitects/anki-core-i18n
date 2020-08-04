@@ -46,3 +46,4 @@ statistics-hours-subtitle = Percento úspešnosti pre každú hodinu dňa.
 statistics-counts-learning-cards = Na učenie
 statistics-reviews-time-checkbox = Čas
 statistics-average-for-days-studied = Priemer v dňoch štúdia
+statistics-total = Celkom

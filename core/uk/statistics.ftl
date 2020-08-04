@@ -118,3 +118,4 @@ statistics-hours-subtitle = Продивитися процент успішно
 statistics-counts-learning-cards = Навчання
 statistics-reviews-time-checkbox = Час
 statistics-average-for-days-studied = Середній показник за дні роботи з програмою
+statistics-total = Разом

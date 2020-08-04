@@ -30,3 +30,4 @@ statistics-reviews-time-subtitle = Ο χρόνος που πήρατε για ν
 statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατήσει το κάθε κουμπί.
 statistics-counts-learning-cards = Εκμάθηση
 statistics-average-for-days-studied = Μέσος όρος για ημέρες μελέτης
+statistics-total = Σύνολο

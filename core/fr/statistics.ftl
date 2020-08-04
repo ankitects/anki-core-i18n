@@ -52,9 +52,6 @@ statistics-cards =
         [one] { $cards } carte étudiée
        *[other] { $cards } cartes étudiées
     }
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -112,3 +109,4 @@ statistics-hours-title = Répartition horaire
 statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heure du jour.
 statistics-calendar-title = Calendrier
 statistics-average-for-days-studied = Moyenne (par jour travaillé)&nbsp;
+statistics-total = Total

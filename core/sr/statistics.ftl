@@ -52,3 +52,4 @@ statistics-hours-subtitle = Прегледајте свој успех за св
 statistics-counts-learning-cards = Учење
 statistics-reviews-time-checkbox = време
 statistics-average-for-days-studied = Просечно за непропуштене дане
+statistics-total = укупно

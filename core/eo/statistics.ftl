@@ -85,3 +85,4 @@ statistics-hours-subtitle = Sukceso-proporcio al horoj de la tago
 statistics-counts-learning-cards = Lernado
 statistics-reviews-time-checkbox = Tempo
 statistics-average-for-days-studied = Meznombro por lerntagoj
+statistics-total = Sumo

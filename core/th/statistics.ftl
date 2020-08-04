@@ -5,3 +5,4 @@ statistics-counts-suspended-cards = ถูกแขวนแล้ว
 statistics-future-due-title = ประมาณการ
 statistics-reviews-title = ตรวจทาน
 statistics-counts-learning-cards = การเรียนรู้
+statistics-total = ทั้งหมด

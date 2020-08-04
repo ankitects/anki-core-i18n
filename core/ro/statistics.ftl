@@ -90,3 +90,4 @@ statistics-intervals-subtitle = Amână până când repetițiile sunt afișate 
 statistics-answer-buttons-subtitle = De câte ori ați apăsat fiecare buton.
 statistics-counts-learning-cards = Învățate
 statistics-average-for-days-studied = Media zilelor studiate
+statistics-total = Total

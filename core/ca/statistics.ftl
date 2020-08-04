@@ -52,9 +52,6 @@ statistics-cards =
         [one] { $cards } targeta
        *[other] { $cards } targetes
     }
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -171,7 +168,5 @@ statistics-elapsed-time-hours = { $amount }h
 statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
-
-
-
 statistics-average-for-days-studied = Mitjana dels dies estudiats
+statistics-total = Total

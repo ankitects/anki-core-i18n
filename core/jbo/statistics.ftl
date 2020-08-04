@@ -64,3 +64,4 @@ statistics-answer-buttons-subtitle = .i ro da poi batkyuidje zo'u se zilkancu lo
 statistics-counts-learning-cards = cilre
 statistics-reviews-time-checkbox = temci
 statistics-average-for-days-studied = cnano fi lo'i tadni djedi
+statistics-total = sumji

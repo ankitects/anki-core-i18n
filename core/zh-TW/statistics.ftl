@@ -38,9 +38,6 @@ statistics-in-time-span-years =
        *[other] { $amount }年內
     }
 statistics-cards = { $cards }張卡片
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews }張待複習卡片
 # Shown at the bottom of the deck list, and in the statistics screen.
@@ -151,8 +148,6 @@ statistics-elapsed-time-hours = { $amount }時
 statistics-elapsed-time-days = { $amount }天
 statistics-elapsed-time-months = { $amount }個月
 statistics-elapsed-time-years = { $amount }年
-
-
-
 statistics-error-fetching = 發現無效資料——請使用「檢查資料庫」來修正此問題。
 statistics-average-for-days-studied = 平均值（實際學習天數）
+statistics-total = 總計

@@ -62,9 +62,6 @@ statistics-cards =
         [many] { $cards } карточек
        *[other] { $cards } карточек
     }
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -150,7 +147,5 @@ statistics-calendar-title = Календарь
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
-
-
-
 statistics-average-for-days-studied = В среднем в день учёбы
+statistics-total = Всего

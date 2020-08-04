@@ -42,9 +42,6 @@ statistics-cards =
         [one] { $cards } کارت
        *[other] { $cards } کارت
     }
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -160,8 +157,6 @@ statistics-elapsed-time-hours = { $amount } ساعت
 statistics-elapsed-time-days = { $amount } روز
 statistics-elapsed-time-months = { $amount } ماه
 statistics-elapsed-time-years = { $amount } سال
-
-
-
 statistics-error-fetching = دادۀ نامعتبر یافت شد - لطفاً از بررسی دیتابیس برای رفع مشکل استفاده کنید.
 statistics-average-for-days-studied = میانگین برای روزهای مطالعه شده
+statistics-total = کل

@@ -64,3 +64,4 @@ statistics-added-title = yettwarna
 statistics-axis-label-answer-count = Tiririyin
 statistics-axis-label-card-count = Tikaṛḍiwin
 statistics-reviews-time-checkbox = Akud
+statistics-total = Amatu

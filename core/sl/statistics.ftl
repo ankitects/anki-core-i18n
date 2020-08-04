@@ -29,3 +29,4 @@ statistics-answer-buttons-subtitle = Število klikov na vsak gumb.
 statistics-hours-subtitle = Uspešnost pregleda za vse ure dneva.
 statistics-reviews-time-checkbox = Čas
 statistics-average-for-days-studied = Povprečje za dneve študija
+statistics-total = Skupaj

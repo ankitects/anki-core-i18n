@@ -104,3 +104,4 @@ statistics-hours-subtitle = Ismétlés sikerességének aránya a nap egyes ór�
 statistics-counts-learning-cards = Tanulás
 statistics-reviews-time-checkbox = Idő
 statistics-average-for-days-studied = Átlagos időráfordítás a tanulással töltött napokon
+statistics-total = Összesen

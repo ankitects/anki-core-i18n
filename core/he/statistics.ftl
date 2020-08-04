@@ -62,9 +62,6 @@ statistics-cards =
         [many] { $cards } כרטיסים
        *[other] { $cards } כרטיסים
     }
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -188,7 +185,5 @@ statistics-elapsed-time-hours = { $amount }שע'
 statistics-elapsed-time-days = { $amount } י'
 statistics-elapsed-time-months = { $amount }ח'
 statistics-elapsed-time-years = { $amount } שנ'
-
-
-
 statistics-average-for-days-studied = ממוצע עבור ימים שנלמדו
+statistics-total = סך-הכל

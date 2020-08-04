@@ -76,9 +76,6 @@ statistics-cards =
         [many] { $cards } بطاقة
        *[other] { $cards } بطاقة
     }
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -227,8 +224,6 @@ statistics-elapsed-time-hours = { $amount } س
 statistics-elapsed-time-days = { $amount } ي
 statistics-elapsed-time-months = { $amount } ش
 statistics-elapsed-time-years = { $amount } ع
-
-
-
 statistics-error-fetching = وُجِدت بيانات غير صالحة - استخدم خيار فحص قاعدة البيانات لحل المشكلة.
 statistics-average-for-days-studied = معدل أيام الدراسة
+statistics-total = إجمالي

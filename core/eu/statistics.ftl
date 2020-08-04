@@ -49,3 +49,4 @@ statistics-hours-subtitle = eguneko orduaren arabera ongi egindako berrikuspen t
 statistics-counts-learning-cards = Ikasten
 statistics-reviews-time-checkbox = Denbora
 statistics-average-for-days-studied = ikasitako egunaren batez bestekoa
+statistics-total = Guztira

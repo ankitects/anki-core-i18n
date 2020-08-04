@@ -48,9 +48,6 @@ statistics-cards =
         [one] { $cards } Karte
        *[other] { $cards } Karten
     }
-
-
-
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -171,8 +168,6 @@ statistics-elapsed-time-hours = { $amount }h
 statistics-elapsed-time-days = { $amount } T.
 statistics-elapsed-time-months = { $amount } Mon.
 statistics-elapsed-time-years = { $amount } J.
-
-
-
 statistics-error-fetching = Ungültige Daten gefunden - bitte „Datenbank überprüfen“ zur Problembehebung benutzen.
 statistics-average-for-days-studied = Durchschnitt an Lerntagen
+statistics-total = Gesamt

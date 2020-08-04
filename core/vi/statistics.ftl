@@ -36,3 +36,4 @@ statistics-hours-subtitle = Tỷ lệ ôn tập thành công mỗi giờ trong n
 statistics-counts-learning-cards = Đang học
 statistics-reviews-time-checkbox = Thời gian
 statistics-average-for-days-studied = Số ngày trung bình đã học
+statistics-total = Tổng

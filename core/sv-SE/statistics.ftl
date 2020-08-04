@@ -54,3 +54,4 @@ statistics-hours-subtitle = Hur ofta du svarar rätt beroende på tidpunkt på d
 statistics-counts-learning-cards = Nya
 statistics-reviews-time-checkbox = Tid
 statistics-average-for-days-studied = Genomsnitt för dagar med studier
+statistics-total = Totalt
