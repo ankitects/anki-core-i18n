@@ -87,3 +87,4 @@ statistics-reviews-time-checkbox = Ժամ
 statistics-average-for-days-studied = Միջինը սովորած օրերի համար
 statistics-total = Ընդհանուր
 statistics-days-studied = Սովորած օրերի մասնաբաժինը
+statistics-average-answer-time = Պատասխանելու միջին ժամանակը

@@ -161,3 +161,4 @@ statistics-error-fetching = دادۀ نامعتبر یافت شد - لطفاً �
 statistics-average-for-days-studied = میانگین برای روزهای مطالعه شده
 statistics-total = کل
 statistics-days-studied = روزهای مطالعه شده
+statistics-average-answer-time = میانگین زمان پاسخگویی

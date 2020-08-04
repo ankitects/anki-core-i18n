@@ -45,3 +45,4 @@ statistics-reviews-time-checkbox = Време
 statistics-average-for-days-studied = Средно за броя учебни дни
 statistics-total = Общо
 statistics-days-studied = Учебни дни
+statistics-average-answer-time = Средно време на отговаряне

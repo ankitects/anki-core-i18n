@@ -111,3 +111,4 @@ statistics-calendar-title = Calendrier
 statistics-average-for-days-studied = Moyenne (par jour travaillé)&nbsp;
 statistics-total = Total
 statistics-days-studied = Jours travaillés
+statistics-average-answer-time = Durée de réponse moyenne

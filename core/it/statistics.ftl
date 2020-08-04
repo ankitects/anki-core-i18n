@@ -104,3 +104,4 @@ statistics-calendar-title = Calendario
 statistics-average-for-days-studied = Media per i giorni di studio
 statistics-total = Totale
 statistics-days-studied = Giorni di studio
+statistics-average-answer-time = Tempo medio di risposta

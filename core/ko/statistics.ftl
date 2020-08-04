@@ -56,3 +56,4 @@ statistics-reviews-time-checkbox = 시간
 statistics-average-for-days-studied = 공부한 기간 동안 평균
 statistics-total = 전체
 statistics-days-studied = 공부한 기간
+statistics-average-answer-time = 평균 답변 시간

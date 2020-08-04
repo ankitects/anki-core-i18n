@@ -228,3 +228,4 @@ statistics-error-fetching = وُجِدت بيانات غير صالحة - است
 statistics-average-for-days-studied = معدل أيام الدراسة
 statistics-total = إجمالي
 statistics-days-studied = أيام الدراسة
+statistics-average-answer-time = معدل زمن الإجابة

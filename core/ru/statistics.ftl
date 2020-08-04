@@ -150,3 +150,4 @@ statistics-calendar-title = Календарь
 statistics-average-for-days-studied = В среднем в день учёбы
 statistics-total = Всего
 statistics-days-studied = Дней учёбы
+statistics-average-answer-time = Среднее время ответа

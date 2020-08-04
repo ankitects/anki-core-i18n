@@ -174,3 +174,4 @@ statistics-error-fetching = Se han encontrado datos no vàlidos - por favor, eje
 statistics-average-for-days-studied = Promedio en los días estudiados
 statistics-total = Total
 statistics-days-studied = Días estudiados
+statistics-average-answer-time = Tiempo de respuesta promedio

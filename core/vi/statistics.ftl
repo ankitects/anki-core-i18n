@@ -38,3 +38,4 @@ statistics-reviews-time-checkbox = Thời gian
 statistics-average-for-days-studied = Số ngày trung bình đã học
 statistics-total = Tổng
 statistics-days-studied = Số ngày đã học
+statistics-average-answer-time = Thời gian trả lời trung bình

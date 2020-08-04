@@ -45,3 +45,4 @@ statistics-counts-learning-cards = Aprendendo
 statistics-reviews-time-checkbox = Hora
 statistics-average-for-days-studied = Termo medio nos días estudiados
 statistics-days-studied = Días estudiados
+statistics-average-answer-time = Tempo medio de resposta

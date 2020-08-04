@@ -103,3 +103,4 @@ statistics-reviews-time-checkbox = Čas
 statistics-average-for-days-studied = Průměr za studijní dny
 statistics-total = Celkem
 statistics-days-studied = Studováno dní
+statistics-average-answer-time = Průměrný čas odpovědi

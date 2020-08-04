@@ -106,3 +106,4 @@ statistics-reviews-time-checkbox = Idő
 statistics-average-for-days-studied = Átlagos időráfordítás a tanulással töltött napokon
 statistics-total = Összesen
 statistics-days-studied = Tanulással töltött napok
+statistics-average-answer-time = Átlagos válaszadási idő

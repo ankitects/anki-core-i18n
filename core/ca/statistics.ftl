@@ -171,3 +171,4 @@ statistics-elapsed-time-years = { $amount }a
 statistics-average-for-days-studied = Mitjana dels dies estudiats
 statistics-total = Total
 statistics-days-studied = Dies que heu estudiat
+statistics-average-answer-time = Temps de resposta promig

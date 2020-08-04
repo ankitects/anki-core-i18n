@@ -172,3 +172,4 @@ statistics-error-fetching = Invalid data found - please use Check Database to fi
 statistics-average-for-days-studied = Average for days studied
 statistics-total = Total
 statistics-days-studied = Days studied
+statistics-average-answer-time = Average answer time

@@ -30,3 +30,4 @@ statistics-added-title = Apondut
 statistics-axis-label-answer-count = Responsas
 statistics-axis-label-card-count = Cartas
 statistics-days-studied = Jorns obrants
+statistics-average-answer-time = Durada de réponse moyenne

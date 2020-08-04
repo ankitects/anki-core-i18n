@@ -46,3 +46,4 @@ statistics-reviews-time-checkbox = Tyd
 statistics-average-for-days-studied = Gemiddeld vir aantal dae studeer
 statistics-total = Totaal
 statistics-days-studied = Dae studeer
+statistics-average-answer-time = Gemiddelde antwoord tyd

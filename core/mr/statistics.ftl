@@ -10,3 +10,4 @@ statistics-axis-label-answer-count = उत्तरं
 statistics-counts-learning-cards = शिक्षण
 statistics-average-for-days-studied = शिकलेल्या दिवसांचे मध्यमान
 statistics-total = एकूण
+statistics-average-answer-time = मध्यामान उत्तर वेळ

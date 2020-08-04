@@ -54,3 +54,4 @@ statistics-reviews-time-checkbox = време
 statistics-average-for-days-studied = Просечно за непропуштене дане
 statistics-total = укупно
 statistics-days-studied = Дана учења
+statistics-average-answer-time = Просечно време одговора

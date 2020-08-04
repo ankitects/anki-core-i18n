@@ -46,3 +46,4 @@ statistics-reviews-time-checkbox = Tid
 statistics-average-for-days-studied = Gennemsnit for dage med studier
 statistics-total = Ialt
 statistics-days-studied = Dage du har studeret
+statistics-average-answer-time = Gennemsnitlig svartid

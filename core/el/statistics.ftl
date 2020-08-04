@@ -32,3 +32,4 @@ statistics-counts-learning-cards = Εκμάθηση
 statistics-average-for-days-studied = Μέσος όρος για ημέρες μελέτης
 statistics-total = Σύνολο
 statistics-days-studied = Ημέρες μελέτης
+statistics-average-answer-time = Μέσος χρόνος απάντησης
