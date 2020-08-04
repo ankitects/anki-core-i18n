@@ -53,3 +53,4 @@ statistics-average = Priemer
 statistics-average-interval = Priemerný interval
 statistics-longest-interval = Najdlhší interval
 statistics-due-tomorrow = Na skúšanie zajtra
+statistics-average-over-period = Pri každodennom štúdiu

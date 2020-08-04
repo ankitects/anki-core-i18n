@@ -111,3 +111,4 @@ statistics-average = Átlagos
 statistics-average-interval = Átlagos időköz
 statistics-longest-interval = Leghosszabb időköz
 statistics-due-tomorrow = Holnap esedékes
+statistics-average-over-period = Ha mindennap tanulna

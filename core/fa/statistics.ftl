@@ -166,3 +166,4 @@ statistics-average = میانگین
 statistics-average-interval = میانگین بازه زمانی
 statistics-longest-interval = بیشترین بازۀ زمانی
 statistics-due-tomorrow = موعد مرور فردا
+statistics-average-over-period = اگر شما هر روز مطالعه نموده‌اید

@@ -59,3 +59,4 @@ statistics-average = Просечно
 statistics-average-interval = Просечни интервал
 statistics-longest-interval = Најдужи интервал
 statistics-due-tomorrow = Рок сутра
+statistics-average-over-period = Ако сте учили сваки дан

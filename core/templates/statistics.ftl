@@ -177,3 +177,4 @@ statistics-average = Average
 statistics-average-interval = Average interval
 statistics-longest-interval = Longest interval
 statistics-due-tomorrow = Due tomorrow
+statistics-average-over-period = If you studied every day

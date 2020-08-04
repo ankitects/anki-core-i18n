@@ -92,3 +92,4 @@ statistics-average = Gemiddelde
 statistics-average-interval = Gemiddeld interval
 statistics-longest-interval = Langste interval
 statistics-due-tomorrow = Morgen verwacht
+statistics-average-over-period = Als je elke dag had geleerd

@@ -125,3 +125,4 @@ statistics-average = Середнє
 statistics-average-interval = Середній інтервал
 statistics-longest-interval = Найдовший інтервал
 statistics-due-tomorrow = Очікуються завтра
+statistics-average-over-period = Якби ви вчились щодня

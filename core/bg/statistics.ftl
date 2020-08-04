@@ -50,3 +50,4 @@ statistics-average = Средно
 statistics-average-interval = Среден интервал
 statistics-longest-interval = Най-дълъг интервал
 statistics-due-tomorrow = За преглед утре
+statistics-average-over-period = Ако учехте всеки ден

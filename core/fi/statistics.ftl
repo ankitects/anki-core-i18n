@@ -52,3 +52,4 @@ statistics-average = Keskiarvo
 statistics-average-interval = Keskimääräinen kertausväli
 statistics-longest-interval = Pisin kertausväli
 statistics-due-tomorrow = Erääntyy huomenna
+statistics-average-over-period = Jos olisit opiskellut joka päivä

@@ -157,3 +157,4 @@ statistics-average = 平均
 statistics-average-interval = 平均間隔
 statistics-longest-interval = 最長的間隔
 statistics-due-tomorrow = 明天到期
+statistics-average-over-period = 平均值（如果每天都學習）

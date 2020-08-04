@@ -199,3 +199,4 @@ statistics-average = Średnia
 statistics-average-interval = Średnia przerwa
 statistics-longest-interval = Najdłuższa przerwa
 statistics-due-tomorrow = Na jutro
+statistics-average-over-period = Gdyby uczono się codziennie

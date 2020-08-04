@@ -233,3 +233,4 @@ statistics-average = المعدل
 statistics-average-interval = معدل الفاصل الزمني
 statistics-longest-interval = الفاصل الزمني الأطول
 statistics-due-tomorrow = مستحقة غدًا
+statistics-average-over-period = إذا درست كل يوم

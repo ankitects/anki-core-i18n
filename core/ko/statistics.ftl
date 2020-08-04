@@ -61,3 +61,4 @@ statistics-average = 평균
 statistics-average-interval = 평균 복습 간격
 statistics-longest-interval = 최대 복습 간격
 statistics-due-tomorrow = 내일 만기
+statistics-average-over-period = 매일 공부한다면

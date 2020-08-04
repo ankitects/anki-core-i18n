@@ -35,3 +35,4 @@ statistics-days-studied = Ημέρες μελέτης
 statistics-average-answer-time-label = Μέσος χρόνος απάντησης
 statistics-average = Μέσος
 statistics-average-interval = Μέσο ενδιάμεσο διάστημα
+statistics-average-over-period = Αν μελετούσες κάθε μέρα

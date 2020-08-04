@@ -97,3 +97,4 @@ statistics-average = Medie
 statistics-average-interval = Interval mediu
 statistics-longest-interval = Cel mai lung interval
 statistics-due-tomorrow = Programate pentru mâine
+statistics-average-over-period = Dacă ai studiat în fiecare zi

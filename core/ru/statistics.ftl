@@ -155,3 +155,4 @@ statistics-average = В среднем
 statistics-average-interval = Средний интервал
 statistics-longest-interval = Самый длинный интервал
 statistics-due-tomorrow = На завтра
+statistics-average-over-period = Если бы вы учились каждый день

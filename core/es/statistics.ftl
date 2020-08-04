@@ -179,3 +179,4 @@ statistics-average = Promedio
 statistics-average-interval = Intervalo promedio
 statistics-longest-interval = Intervalo más largo
 statistics-due-tomorrow = Programadas para mañana
+statistics-average-over-period = Si hubieses estudiado todos los días

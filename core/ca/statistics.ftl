@@ -176,3 +176,4 @@ statistics-average = Mitjana
 statistics-average-interval = Interval promitg
 statistics-longest-interval = Interval més llarg.
 statistics-due-tomorrow = Programades per demà
+statistics-average-over-period = SI haguèssis estudiat tots els dies.
