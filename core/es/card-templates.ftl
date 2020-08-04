@@ -13,3 +13,6 @@ card-templates-preview-box = Previsualizar
 card-templates-template-box = Plantilla
 card-templates-sample-cloze = Esto es un  { "{{c1::" }ejemplo{ "}}" } de respuesta anidada.
 card-templates-fill-empty = Rellenar campos vacíos
+card-templates-invalid-template-number = La plantilla de tarjeta { $number } tiene un problema.
+card-templates-changes-saved = Cambios guardados.
+card-templates-discard-changes = Descartar cambios?
