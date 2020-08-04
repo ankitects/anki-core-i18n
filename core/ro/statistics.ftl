@@ -96,3 +96,4 @@ statistics-average-answer-time = Timp mediu de răspuns
 statistics-average = Medie
 statistics-average-interval = Interval mediu
 statistics-longest-interval = Cel mai lung interval
+statistics-due-tomorrow = Programate pentru mâine

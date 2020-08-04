@@ -49,3 +49,4 @@ statistics-average-answer-time = Средно време на отговарян
 statistics-average = Средно
 statistics-average-interval = Среден интервал
 statistics-longest-interval = Най-дълъг интервал
+statistics-due-tomorrow = За преглед утре

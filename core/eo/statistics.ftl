@@ -91,3 +91,4 @@ statistics-average-answer-time = Mezuma respondotempo
 statistics-average = Meznombro
 statistics-average-interval = Mezuma intertempo
 statistics-longest-interval = Plej longa intertempo
+statistics-due-tomorrow = Lernenda morgaŭ

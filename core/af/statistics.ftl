@@ -50,3 +50,4 @@ statistics-average-answer-time = Gemiddelde antwoord tyd
 statistics-average = Gemiddeld
 statistics-average-interval = Gemiddelde pouse
 statistics-longest-interval = langste tussenpouse
+statistics-due-tomorrow = Môre uitstaande

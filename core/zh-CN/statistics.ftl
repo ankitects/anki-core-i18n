@@ -75,3 +75,4 @@ statistics-average-answer-time = 平均回答用时
 statistics-average = 平均
 statistics-average-interval = 平均间隔
 statistics-longest-interval = 最长间隔
+statistics-due-tomorrow = 明天到期

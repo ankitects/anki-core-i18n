@@ -198,3 +198,4 @@ statistics-average-answer-time = Średni czas odpowiedzi
 statistics-average = Średnia
 statistics-average-interval = Średnia przerwa
 statistics-longest-interval = Najdłuższa przerwa
+statistics-due-tomorrow = Na jutro

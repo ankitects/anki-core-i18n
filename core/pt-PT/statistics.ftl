@@ -80,3 +80,4 @@ statistics-average-answer-time = Tempo médio de resposta
 statistics-average = Média
 statistics-average-interval = Intervalo médio
 statistics-longest-interval = Maior intervalo
+statistics-due-tomorrow = A rever amanhã

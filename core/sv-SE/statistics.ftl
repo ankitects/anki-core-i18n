@@ -60,3 +60,4 @@ statistics-average-answer-time = Genomsnittlig svarstid
 statistics-average = Genomsnitt
 statistics-average-interval = Genomsnittligt intervall
 statistics-longest-interval = Längsta intervall
+statistics-due-tomorrow = Schemalagda imorgon

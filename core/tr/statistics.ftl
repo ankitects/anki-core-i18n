@@ -48,3 +48,4 @@ statistics-average-answer-time = Ortalama cevap süresi
 statistics-average = Ortalama
 statistics-average-interval = Ortalama aralık
 statistics-longest-interval = En uzun süre
+statistics-due-tomorrow = Yarına kadar

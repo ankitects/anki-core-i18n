@@ -60,3 +60,4 @@ statistics-average-answer-time = 평균 답변 시간
 statistics-average = 평균
 statistics-average-interval = 평균 복습 간격
 statistics-longest-interval = 최대 복습 간격
+statistics-due-tomorrow = 내일 만기

@@ -52,3 +52,4 @@ statistics-average-answer-time = Priemerný čas odpovede
 statistics-average = Priemer
 statistics-average-interval = Priemerný interval
 statistics-longest-interval = Najdlhší interval
+statistics-due-tomorrow = Na skúšanie zajtra

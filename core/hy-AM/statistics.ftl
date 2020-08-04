@@ -91,3 +91,4 @@ statistics-average-answer-time = Պատասխանելու միջին ժաման�
 statistics-average = Միջինը
 statistics-average-interval = Միջին ժամանակամիջոցը
 statistics-longest-interval = Ամենաերկար ժամանակամիջոցը
+statistics-due-tomorrow = Վաղը կրկնելիք

@@ -35,3 +35,4 @@ statistics-average-answer-time = Povprečen čas za odgovor
 statistics-average = Povprečje
 statistics-average-interval = Povprečni interval
 statistics-longest-interval = Najdaljši interval
+statistics-due-tomorrow = Zapadejo jutri

@@ -176,3 +176,4 @@ statistics-average-answer-time = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
 statistics-average-interval = Mittleres Intervall
 statistics-longest-interval = Längstes Intervall
+statistics-due-tomorrow = Morgen fällig

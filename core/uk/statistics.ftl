@@ -124,3 +124,4 @@ statistics-average-answer-time = Середній час відповіді
 statistics-average = Середнє
 statistics-average-interval = Середній інтервал
 statistics-longest-interval = Найдовший інтервал
+statistics-due-tomorrow = Очікуються завтра

@@ -178,3 +178,4 @@ statistics-average-answer-time = Tiempo de respuesta promedio
 statistics-average = Promedio
 statistics-average-interval = Intervalo promedio
 statistics-longest-interval = Intervalo más largo
+statistics-due-tomorrow = Programadas para mañana

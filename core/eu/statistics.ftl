@@ -55,3 +55,4 @@ statistics-average-answer-time = Erantzuteko batez besteko denbora
 statistics-average = Batez bestekoa
 statistics-average-interval = batezbesteko tartea
 statistics-longest-interval = tarte handiena
+statistics-due-tomorrow = Biharko zor izanda

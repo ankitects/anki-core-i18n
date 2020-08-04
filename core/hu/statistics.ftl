@@ -110,3 +110,4 @@ statistics-average-answer-time = Átlagos válaszadási idő
 statistics-average = Átlagos
 statistics-average-interval = Átlagos időköz
 statistics-longest-interval = Leghosszabb időköz
+statistics-due-tomorrow = Holnap esedékes

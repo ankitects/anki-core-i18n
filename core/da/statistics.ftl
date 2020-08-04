@@ -50,3 +50,4 @@ statistics-average-answer-time = Gennemsnitlig svartid
 statistics-average = Gennemsnit
 statistics-average-interval = Gennemsnits interval
 statistics-longest-interval = Længste interval
+statistics-due-tomorrow = Tidsfrist i morgen

@@ -90,3 +90,4 @@ statistics-total = Totalt
 statistics-days-studied = Dager studert
 statistics-average-answer-time = Gjennomsnitlig svartid
 statistics-average = Middels
+statistics-due-tomorrow = Forfaller i morgen

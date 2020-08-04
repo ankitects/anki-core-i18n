@@ -107,3 +107,4 @@ statistics-average-answer-time = Průměrný čas odpovědi
 statistics-average = Průměr
 statistics-average-interval = Průměrný interval
 statistics-longest-interval = Nejdelší interval
+statistics-due-tomorrow = Zítra ke zkoušení

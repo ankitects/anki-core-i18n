@@ -192,3 +192,4 @@ statistics-average-answer-time = זמן תשובה ממוצע
 statistics-average = ממוצע
 statistics-average-interval = מרווח ממוצע
 statistics-longest-interval = מרווח הזמן הארוך ביותר
+statistics-due-tomorrow = מתוזמן למחר
