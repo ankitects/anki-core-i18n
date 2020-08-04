@@ -103,3 +103,4 @@ statistics-answer-buttons-subtitle = Az egyes gombok lenyomásának száma
 statistics-hours-subtitle = Ismétlés sikerességének aránya a nap egyes óráiban
 statistics-counts-learning-cards = Tanulás
 statistics-reviews-time-checkbox = Idő
+statistics-average-for-days-studied = Átlagos időráfordítás a tanulással töltött napokon

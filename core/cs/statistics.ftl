@@ -100,3 +100,4 @@ statistics-answer-buttons-subtitle = Kolikrát jste vybrali každou odpověď.
 statistics-hours-subtitle = Procento úspěšnosti podle hodiny.
 statistics-counts-learning-cards = Učení
 statistics-reviews-time-checkbox = Čas
+statistics-average-for-days-studied = Průměr za studijní dny

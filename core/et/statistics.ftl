@@ -16,3 +16,4 @@ statistics-range-search = Otsi
 statistics-reviews-title = Kordamised
 statistics-added-title = Lisatud
 statistics-axis-label-answer-count = Vastused
+statistics-average-for-days-studied = Õpipäevade keskmine

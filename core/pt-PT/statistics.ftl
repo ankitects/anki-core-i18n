@@ -74,3 +74,4 @@ statistics-answer-buttons-subtitle = Quantas vezes você escolheu cada botão.
 statistics-hours-subtitle = Rever a taxa de sucesso para cada hora do dia.
 statistics-counts-learning-cards = Aprendizagem
 statistics-reviews-time-checkbox = Tempo
+statistics-average-for-days-studied = Média dos dias estudados

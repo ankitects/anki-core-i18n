@@ -53,3 +53,4 @@ statistics-answer-buttons-subtitle = 각 버튼을 누른 횟수
 statistics-hours-subtitle = 하루 중 시간대 별 정답률.
 statistics-counts-learning-cards = 익힘 카드
 statistics-reviews-time-checkbox = 시간
+statistics-average-for-days-studied = 공부한 기간 동안 평균

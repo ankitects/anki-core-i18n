@@ -51,3 +51,4 @@ statistics-answer-buttons-subtitle = Колико пута сте притисн
 statistics-hours-subtitle = Прегледајте свој успех за сваки сат у току дана
 statistics-counts-learning-cards = Учење
 statistics-reviews-time-checkbox = време
+statistics-average-for-days-studied = Просечно за непропуштене дане

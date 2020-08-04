@@ -89,3 +89,4 @@ statistics-reviews-time-subtitle = Timpul de care a fost nevoie pentru a răspun
 statistics-intervals-subtitle = Amână până când repetițiile sunt afișate din nou.
 statistics-answer-buttons-subtitle = De câte ori ați apăsat fiecare buton.
 statistics-counts-learning-cards = Învățate
+statistics-average-for-days-studied = Media zilelor studiate

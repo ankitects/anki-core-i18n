@@ -41,3 +41,4 @@ statistics-answer-buttons-subtitle = Her düğmeye bastığınız sayı.
 statistics-hours-subtitle = Günün her saati için başarı oranını inceleyin.
 statistics-counts-learning-cards = Öğrenme
 statistics-reviews-time-checkbox = Zaman
+statistics-average-for-days-studied = Ortalama çalışılan gün

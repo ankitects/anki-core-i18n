@@ -84,3 +84,4 @@ statistics-answer-buttons-subtitle = Het aantal keer dat u de verschillende knop
 statistics-hours-subtitle = Succespercentage voor elk uur van de dag bekijken.
 statistics-counts-learning-cards = Aan het leren
 statistics-reviews-time-checkbox = Tijd
+statistics-average-for-days-studied = Gemiddelde voor dagen waarop je geleerd hebt

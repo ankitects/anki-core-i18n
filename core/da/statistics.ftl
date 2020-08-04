@@ -43,3 +43,4 @@ statistics-answer-buttons-subtitle = Antal gange du har trykket på hver knap.
 statistics-hours-subtitle = Genopfrisk-succesrate per time af dagen.
 statistics-counts-learning-cards = Indlæring
 statistics-reviews-time-checkbox = Tid
+statistics-average-for-days-studied = Gennemsnit for dage med studier

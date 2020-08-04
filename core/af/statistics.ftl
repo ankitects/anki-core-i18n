@@ -43,3 +43,4 @@ statistics-answer-buttons-subtitle = Die aantal kere wat jy elke knoppie gedruk 
 statistics-hours-subtitle = Hersien sukses koers vir elke uur van die dag.
 statistics-counts-learning-cards = Leer
 statistics-reviews-time-checkbox = Tyd
+statistics-average-for-days-studied = Gemiddeld vir aantal dae studeer

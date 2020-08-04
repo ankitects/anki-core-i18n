@@ -43,3 +43,4 @@ statistics-answer-buttons-subtitle = O número de veces que ten premido cada bot
 statistics-hours-subtitle = Porcentaxe de repasos correctos ao longo do día.
 statistics-counts-learning-cards = Aprendendo
 statistics-reviews-time-checkbox = Hora
+statistics-average-for-days-studied = Termo medio nos días estudiados

@@ -44,3 +44,4 @@ statistics-answer-buttons-subtitle = Kunkin painikkeen painalluskertojen määr�
 statistics-hours-subtitle = Kertausten onnistumisaste tunneittain
 statistics-counts-learning-cards = Opiskeltavat
 statistics-reviews-time-checkbox = Aika
+statistics-average-for-days-studied = Opiskelupäivien keskiarvo

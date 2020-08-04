@@ -68,3 +68,4 @@ statistics-answer-buttons-subtitle = 按下每个按钮的次数.
 statistics-hours-subtitle = 当天每小时的复习成功率
 statistics-counts-learning-cards = 正在进行的课程
 statistics-reviews-time-checkbox = 时间
+statistics-average-for-days-studied = 平均

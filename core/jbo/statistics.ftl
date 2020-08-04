@@ -63,3 +63,4 @@ statistics-intervals-subtitle = .i temci fi lo nu za'u re'u bilga lo ka ce'u mor
 statistics-answer-buttons-subtitle = .i ro da poi batkyuidje zo'u se zilkancu lo'i nu do terca'a fi da
 statistics-counts-learning-cards = cilre
 statistics-reviews-time-checkbox = temci
+statistics-average-for-days-studied = cnano fi lo'i tadni djedi

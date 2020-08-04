@@ -84,3 +84,4 @@ statistics-answer-buttons-subtitle = Nombro de fojoj kiam vi premis specifajn bu
 statistics-hours-subtitle = Sukceso-proporcio al horoj de la tago
 statistics-counts-learning-cards = Lernado
 statistics-reviews-time-checkbox = Tempo
+statistics-average-for-days-studied = Meznombro por lerntagoj

@@ -21,7 +21,7 @@ statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚のカード
 
-##
+
 
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews } 枚の復習カード
@@ -115,3 +115,4 @@ statistics-hours-range = { $hourStart }時~{ $hourEnd }時
 statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
 statistics-hours-title = 時間帯ごとの分析
 statistics-hours-subtitle = 時間帯ごとの正解率
+statistics-average-for-days-studied = 各学習の平均

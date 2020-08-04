@@ -63,7 +63,7 @@ statistics-cards =
        *[other] { $cards } kart
     }
 
-##
+
 
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -194,6 +194,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }mc
 statistics-elapsed-time-years = { $amount }r
 
-##
+
 
 statistics-error-fetching = Znaleziono nieprawidłowe dane - użyj opcji Sprawdź Bazę Danych, aby naprawić ten problem.
+statistics-average-for-days-studied = Średnia dla dni, gdy się uczono

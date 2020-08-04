@@ -84,3 +84,4 @@ statistics-answer-buttons-subtitle = Յուրաքանչյուր կոճակը ս�
 statistics-hours-subtitle = Հաջողակ կրկնությունների բաժինը օրվա յուրաքանչյուր ժամի համար:
 statistics-counts-learning-cards = Սովորվող
 statistics-reviews-time-checkbox = Ժամ
+statistics-average-for-days-studied = Միջինը սովորած օրերի համար

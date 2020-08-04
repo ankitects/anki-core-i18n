@@ -53,7 +53,7 @@ statistics-cards =
        *[other] { $cards } tarjetas
     }
 
-##
+
 
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -174,6 +174,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
 
-##
+
 
 statistics-error-fetching = Se han encontrado datos no vàlidos - por favor, ejecute Comprobar Base de Datos para resolver el problema.
+statistics-average-for-days-studied = Promedio en los días estudiados
