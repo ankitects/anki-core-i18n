@@ -148,6 +148,9 @@ statistics-elapsed-time-hours = { $amount }時
 statistics-elapsed-time-days = { $amount }天
 statistics-elapsed-time-months = { $amount }個月
 statistics-elapsed-time-years = { $amount }年
+
+##
+
 statistics-error-fetching = 發現無效資料——請使用「檢查資料庫」來修正此問題。
 statistics-average-for-days-studied = 平均值（實際學習天數）
 statistics-total = 總計
@@ -157,4 +160,18 @@ statistics-average = 平均
 statistics-average-interval = 平均間隔
 statistics-longest-interval = 最長的間隔
 statistics-due-tomorrow = 明天到期
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount }/{ $total }（{ $percent }%）
 statistics-average-over-period = 平均值（如果每天都學習）
+statistics-reviews-per-day =
+    { $count ->
+       *[other] { $count }次複習/天
+    }
+statistics-minutes-per-day =
+    { $count ->
+       *[other] { $count }分鐘/天
+    }
+statistics-cards-per-day =
+    { $count ->
+       *[other] { $count }張卡片/天
+    }

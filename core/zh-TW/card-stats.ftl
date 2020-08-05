@@ -1,5 +1,5 @@
 card-stats-added = 已新增
-card-stats-first-review = 首次復習日期
+card-stats-first-review = 首次複習日期
 card-stats-latest-review = 最近的複習
 card-stats-interval = 間隔
 card-stats-ease = 容易度
