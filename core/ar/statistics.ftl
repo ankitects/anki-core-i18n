@@ -224,6 +224,9 @@ statistics-elapsed-time-hours = { $amount } س
 statistics-elapsed-time-days = { $amount } ي
 statistics-elapsed-time-months = { $amount } ش
 statistics-elapsed-time-years = { $amount } ع
+
+##
+
 statistics-error-fetching = وُجِدت بيانات غير صالحة - استخدم خيار فحص قاعدة البيانات لحل المشكلة.
 statistics-average-for-days-studied = معدل أيام الدراسة
 statistics-total = إجمالي
@@ -233,4 +236,33 @@ statistics-average = المعدل
 statistics-average-interval = معدل الفاصل الزمني
 statistics-longest-interval = الفاصل الزمني الأطول
 statistics-due-tomorrow = مستحقة غدًا
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } من { $total } ({ $percent }%)
 statistics-average-over-period = إذا درست كل يوم
+statistics-reviews-per-day =
+    { $count ->
+        [zero] لا مراجعات في اليوم
+        [one] مراجعة واحدة في اليوم
+        [two] مراجعتان في اليوم
+        [few] { $count } مراجعات في اليوم
+        [many] { $count } مراجعة في اليوم
+       *[other] { $count } مراجعة في اليوم
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [zero] { $count } دقيقة في اليوم
+        [one] دقيقة واحدة في اليوم
+        [two] دقيقتان في اليوم
+        [few] { $count } دقائق في اليوم
+        [many] { $count } دقيقة في اليوم
+       *[other] { $count } دقيقة في اليوم
+    }
+statistics-cards-per-day =
+    { $count ->
+        [zero] { $count } بطاقة في اليوم
+        [one] بطاقة واحدة في اليوم
+        [two] بطاقتان في اليوم
+        [few] { $count } بطاقات في اليوم
+        [many] { $count } بطاقة في اليوم
+       *[other] { $count } بطاقة في اليوم
+    }
