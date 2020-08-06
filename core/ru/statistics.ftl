@@ -122,6 +122,15 @@ statistics-answer-buttons-button-pressed = Раз нажато
 statistics-answer-buttons-subtitle = Сколько раз Вы нажали каждую кнопку.
 statistics-reviews-title = Повторение
 statistics-reviews-time-checkbox = Время
+statistics-in-days-single =
+    { $days ->
+        [0] Сегодня
+        [1] Завтра
+        [one] за { $days } день
+        [few] за { $days } дня
+       *[other] за { $days } дней
+    }
+statistics-in-days-range = за { $daysStart }-{ $daysEnd } дней
 statistics-days-ago-single =
     { $days ->
         [1] Вчера
@@ -132,6 +141,18 @@ statistics-days-ago-single =
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } дней назад
 statistics-intervals-title = Интервалы
 statistics-intervals-subtitle = Задержки перед следующим повторением.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] 1 карточка с перерывом в { $daysStart }~{ $daysEnd } дней
+        [few] { $cards } карточки с перерывом в { $daysStart }~{ $daysEnd } дней
+       *[other] { $cards } карточек с перерывом в { $daysStart }~{ $daysEnd } дней
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] 1 карточка с перерывом в { $day } дней
+        [few] { $cards } карточки с перерывом в { $day } дней
+       *[other] { $cards } карточек с перерывом в { $day } дней
+    }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = С { $hourStart }:00 до { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } верных ({ $percent }%)
@@ -147,6 +168,16 @@ statistics-calendar-title = Календарь
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount } с
+statistics-elapsed-time-minutes = { $amount } мин.
+statistics-elapsed-time-hours = { $amount } ч.
+statistics-elapsed-time-days = { $amount } дн.
+statistics-elapsed-time-months = { $amount } мес.
+statistics-elapsed-time-years = { $amount } г.
+
+##
+
+statistics-error-fetching = Найдены недопустимые данные - используйте "Проверить базу данных" для исправления проблемы.
 statistics-average-for-days-studied = В среднем в день учёбы
 statistics-total = Всего
 statistics-days-studied = Дней учёбы
@@ -155,4 +186,24 @@ statistics-average = В среднем
 statistics-average-interval = Средний интервал
 statistics-longest-interval = Самый длинный интервал
 statistics-due-tomorrow = На завтра
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } из { $total } ({ $percent }%)
 statistics-average-over-period = Если бы вы учились каждый день
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } просмотр за день
+        [few] { $count } просмотра за день
+       *[other] { $count } просмотров за день
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } минута за день
+        [few] { $count } минуты за день
+       *[other] { $count } минут за день
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } карточка за день
+        [few] { $count } карточки за день
+       *[other] { $count } карточек за день
+    }
