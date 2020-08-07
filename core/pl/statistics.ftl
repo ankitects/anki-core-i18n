@@ -190,6 +190,9 @@ statistics-elapsed-time-hours = { $amount }g
 statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }mc
 statistics-elapsed-time-years = { $amount }r
+
+##
+
 statistics-error-fetching = Znaleziono nieprawidłowe dane - użyj opcji Sprawdź Bazę Danych, aby naprawić ten problem.
 statistics-average-for-days-studied = Średnia dla dni, gdy się uczono
 statistics-total = Razem
@@ -199,4 +202,24 @@ statistics-average = Średnia
 statistics-average-interval = Średnia przerwa
 statistics-longest-interval = Najdłuższa przerwa
 statistics-due-tomorrow = Na jutro
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
 statistics-average-over-period = Gdyby uczono się codziennie
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } powtórka/dzień
+        [few] { $count } powtórki/dzień
+       *[other] { $count } powtórek/dzień
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } minuta/dzień
+        [few] { $count } minuty/dzień
+       *[other] { $count } minut/dzień
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } karta/dzień
+        [few] { $count } karty/dzień
+       *[other] { $count } kart/dzień
+    }
