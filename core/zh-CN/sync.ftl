@@ -49,3 +49,4 @@ sync-account-required =
     <h1>需先注册</h1>
     你需要一个免费帐号来同步你的数据. 请<a href="{ $link }">注册</a> 一个帐号,并在下方填写详细资料。
 sync-connecting = 正在连接...
+sync-log-out-button = 注销

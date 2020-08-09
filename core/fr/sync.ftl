@@ -49,3 +49,4 @@ sync-account-required =
     <h1>Compte requis</h1>
     Vous devez posséder un compte pour pouvoir synchroniser votre collection. Merci de <a href="{ $link }">créer un compte</a> gratuitement, puis entrez les informations de connexion ci-dessous.
 sync-connecting = Connexion...
+sync-log-out-button = Déconnexion

@@ -1,5 +1,6 @@
 ### Messages shown when synchronizing with AnkiWeb.
 
+
 ## Media synchronization
 
 sync-media-added-count = Added: { $up }↑ { $down }↓
@@ -57,3 +58,4 @@ sync-syncing = Syncing...
 sync-checking = Checking...
 sync-connecting = Connecting...
 sync-added-updated-count = Added/modified: { $up }↑ { $down }↓
+sync-log-out-button = Log Out

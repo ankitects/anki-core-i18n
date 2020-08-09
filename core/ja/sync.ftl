@@ -45,3 +45,4 @@ sync-account-required =
     <h1>アカウントが必要です</h1>
     コレクションを同期するには無料のアカウントが必要です。<a href="{ $link }">登録</a> して、下の項目を入力して下さい。
 sync-connecting = 接続中...
+sync-log-out-button = ログアウト
