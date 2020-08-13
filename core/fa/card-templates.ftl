@@ -12,3 +12,11 @@ card-templates-preview-box = پیش‌نمایش
 card-templates-template-box = قالب
 card-templates-sample-cloze = این یک { "{{c1::" }نمونه{ "}}" } کارت جاخالی است.
 card-templates-fill-empty = پر کردن فیلدهای خالی
+card-templates-night-mode = حالت شب
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = فعال کردن کلاس موبایل
+card-templates-preview-settings = گزینه‌ها
+card-templates-invalid-template-number = قالب کارت { $number } مشکل دارد.
+card-templates-changes-saved = تغییرات ذخیره شد.
+card-templates-discard-changes = لغو تغییرات؟

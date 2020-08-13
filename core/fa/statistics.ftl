@@ -157,6 +157,9 @@ statistics-elapsed-time-hours = { $amount } ساعت
 statistics-elapsed-time-days = { $amount } روز
 statistics-elapsed-time-months = { $amount } ماه
 statistics-elapsed-time-years = { $amount } سال
+
+##
+
 statistics-error-fetching = دادۀ نامعتبر یافت شد - لطفاً از بررسی دیتابیس برای رفع مشکل استفاده کنید.
 statistics-average-for-days-studied = میانگین برای روزهای مطالعه شده
 statistics-total = کل
@@ -166,4 +169,18 @@ statistics-average = میانگین
 statistics-average-interval = میانگین بازه زمانی
 statistics-longest-interval = بیشترین بازۀ زمانی
 statistics-due-tomorrow = موعد مرور فردا
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } از { $total } ({ $percent }%)
 statistics-average-over-period = اگر شما هر روز مطالعه نموده‌اید
+statistics-reviews-per-day =
+    { $count ->
+       *[other] { $count } مرور/روز
+    }
+statistics-minutes-per-day =
+    { $count ->
+       *[other] { $count } دقیقه/روز
+    }
+statistics-cards-per-day =
+    { $count ->
+       *[other] { $count } کارت/روز
+    }
