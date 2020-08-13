@@ -170,6 +170,9 @@ statistics-elapsed-time-hours = { $amount }h
 statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
+
+##
+
 statistics-error-fetching = S'han trobat dades no vàlides - sisplau, executi Comprovar Base de Dades per resoldre el problema.
 statistics-average-for-days-studied = Mitjana dels dies estudiats
 statistics-total = Total
@@ -179,4 +182,21 @@ statistics-average = Mitjana
 statistics-average-interval = Interval promitg
 statistics-longest-interval = Interval més llarg.
 statistics-due-tomorrow = Programades per demà
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
 statistics-average-over-period = SI haguèssis estudiat tots els dies.
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } revisió/dia
+       *[other] { $count } revisions/dia
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } minut/dia
+       *[other] { $count } minuts/dia
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } tarjeta/dia
+       *[other] { $count } tarjetae/dia
+    }

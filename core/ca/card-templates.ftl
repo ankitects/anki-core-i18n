@@ -13,6 +13,11 @@ card-templates-preview-box = Vista prèvia
 card-templates-template-box = Plantilla
 card-templates-sample-cloze = Ce es un { "{{c1::" }sample{ "}}" } cloze deletion.
 card-templates-fill-empty = Omplir els camps buits
+card-templates-night-mode = Mode Nocturn
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Afagir Classe de CSS per a dispositius mòbils
+card-templates-preview-settings = Opcions
 card-templates-invalid-template-number = La plantilla de tarjeta { $number } te un problema.
 card-templates-changes-saved = Canvis guardats.
 card-templates-discard-changes = Descartar canvis?
