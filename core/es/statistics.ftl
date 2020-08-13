@@ -170,6 +170,9 @@ statistics-elapsed-time-hours = { $amount }h
 statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
+
+##
+
 statistics-error-fetching = Se han encontrado datos no válidos - por favor, ejecute Comprobar Base de Datos para resolver el problema.
 statistics-average-for-days-studied = Promedio en los días estudiados
 statistics-total = Total
@@ -179,4 +182,21 @@ statistics-average = Promedio
 statistics-average-interval = Intervalo promedio
 statistics-longest-interval = Intervalo más largo
 statistics-due-tomorrow = Programadas para mañana
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
 statistics-average-over-period = Si hubieses estudiado todos los días
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } revisión/día
+       *[other] { $count } revisiones/día
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } minuto/día
+       *[other] { $count } minutos/día
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } tarjeta/día
+       *[other] { $count } tarjetas/día
+    }

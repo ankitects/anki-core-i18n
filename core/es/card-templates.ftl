@@ -13,6 +13,11 @@ card-templates-preview-box = Previsualizar
 card-templates-template-box = Plantilla
 card-templates-sample-cloze = Esto es un  { "{{c1::" }ejemplo{ "}}" } de respuesta anidada.
 card-templates-fill-empty = Rellenar campos vacíos
+card-templates-night-mode = Modo Nocturno
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Añadir Clase de CSS para dispositivos Moviles
+card-templates-preview-settings = Opciones
 card-templates-invalid-template-number = La plantilla de tarjeta { $number } tiene un problema.
 card-templates-changes-saved = Cambios guardados.
 card-templates-discard-changes = Descartar cambios?
