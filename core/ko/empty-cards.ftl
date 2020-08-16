@@ -1,3 +1,2 @@
-empty-cards-card-line =
-    빈 카드 번호: {$card-numbers}
-    필드: {$fields}
+empty-cards-window-title = 빈 카드
+empty-cards-delete-button = 삭제
