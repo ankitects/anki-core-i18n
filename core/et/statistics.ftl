@@ -19,3 +19,4 @@ statistics-axis-label-answer-count = Vastused
 statistics-average-for-days-studied = Õpipäevade keskmine
 statistics-average-answer-time-label = Keskmine vastuse aeg
 statistics-average = Keskmine
+statistics-average-ease = Keskmine kergustase

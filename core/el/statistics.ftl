@@ -36,3 +36,4 @@ statistics-average-answer-time-label = Μέσος χρόνος απάντηση�
 statistics-average = Μέσος
 statistics-average-interval = Μέσο ενδιάμεσο διάστημα
 statistics-average-over-period = Αν μελετούσες κάθε μέρα
+statistics-average-ease = Μέσος όρος ευκολίας

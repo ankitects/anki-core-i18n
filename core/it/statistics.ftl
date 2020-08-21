@@ -110,3 +110,4 @@ statistics-average-interval = Intervallo medio
 statistics-longest-interval = Intervallo più lungo
 statistics-due-tomorrow = Da ripetere domani
 statistics-average-over-period = Se avessi studiato ogni giorno
+statistics-average-ease = Facilità media

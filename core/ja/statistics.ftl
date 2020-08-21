@@ -121,3 +121,4 @@ statistics-average-interval = 平均間隔
 statistics-longest-interval = 最長間隔
 statistics-due-tomorrow = 明日が期日のカード
 statistics-average-over-period = 毎日学習した場合の平均
+statistics-average-ease = 易しさの平均値

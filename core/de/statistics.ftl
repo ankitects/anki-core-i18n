@@ -178,3 +178,4 @@ statistics-average-interval = Mittleres Intervall
 statistics-longest-interval = Längstes Intervall
 statistics-due-tomorrow = Morgen fällig
 statistics-average-over-period = Wenn jeden Tag gelernt würde
+statistics-average-ease = Durchschnittliche Leichtigkeit

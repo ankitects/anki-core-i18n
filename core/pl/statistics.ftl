@@ -191,7 +191,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }mc
 statistics-elapsed-time-years = { $amount }r
 
-##
+
 
 statistics-error-fetching = Znaleziono nieprawidłowe dane - użyj opcji Sprawdź Bazę Danych, aby naprawić ten problem.
 statistics-average-for-days-studied = Średnia dla dni, gdy się uczono
@@ -223,3 +223,4 @@ statistics-cards-per-day =
         [few] { $count } karty/dzień
        *[other] { $count } kart/dzień
     }
+statistics-average-ease = Średnia łatwość

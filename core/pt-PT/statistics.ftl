@@ -82,3 +82,4 @@ statistics-average-interval = Intervalo médio
 statistics-longest-interval = Maior intervalo
 statistics-due-tomorrow = A rever amanhã
 statistics-average-over-period = Se você estudou todos os dias
+statistics-average-ease = Dificuldade média

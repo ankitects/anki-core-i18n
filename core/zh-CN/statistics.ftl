@@ -77,3 +77,4 @@ statistics-average-interval = 平均间隔
 statistics-longest-interval = 最长间隔
 statistics-due-tomorrow = 明天到期
 statistics-average-over-period = 如果你每天学习
+statistics-average-ease = 平均难度

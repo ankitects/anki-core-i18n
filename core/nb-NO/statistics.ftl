@@ -92,3 +92,4 @@ statistics-average-answer-time-label = Gjennomsnitlig svartid
 statistics-average = Middels
 statistics-due-tomorrow = Forfaller i morgen
 statistics-average-over-period = Hvis du skulle studere hver dag
+statistics-average-ease = Middels vanskelighetsgrad

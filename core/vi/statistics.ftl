@@ -44,3 +44,4 @@ statistics-average-interval = Khoảng cách trung bình
 statistics-longest-interval = Khoảng lâu nhất
 statistics-due-tomorrow = Đến hạn ngày mai
 statistics-average-over-period = Nếu học hàng ngày thì
+statistics-average-ease = Độ dễ trung bình

@@ -50,3 +50,4 @@ statistics-average-interval = Ortalama aralık
 statistics-longest-interval = En uzun süre
 statistics-due-tomorrow = Yarına kadar
 statistics-average-over-period = Eğer her gün çalıştıysanız
+statistics-average-ease = Ortalama kolaylık

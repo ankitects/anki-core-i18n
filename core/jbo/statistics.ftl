@@ -72,3 +72,4 @@ statistics-average-interval = cnano fi lo'i temci
 statistics-longest-interval = traji lo ka clani kei lo'i temci
 statistics-due-tomorrow = morji ca lo bavlamdei
 statistics-average-over-period = se vanbi lo nu do tadni ca ro djedi da'i
+statistics-average-ease = cnano fi lo'i ni frili

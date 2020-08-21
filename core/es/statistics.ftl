@@ -171,7 +171,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
 
-##
+
 
 statistics-error-fetching = Se han encontrado datos no válidos - por favor, ejecute Comprobar Base de Datos para resolver el problema.
 statistics-average-for-days-studied = Promedio en los días estudiados
@@ -200,3 +200,4 @@ statistics-cards-per-day =
         [one] { $count } tarjeta/día
        *[other] { $count } tarjetas/día
     }
+statistics-average-ease = Facilidad promedio

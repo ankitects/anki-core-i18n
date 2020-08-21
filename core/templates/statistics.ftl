@@ -169,7 +169,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }mo
 statistics-elapsed-time-years = { $amount }y
 
-##
+
 
 statistics-error-fetching = Invalid data found - please use Check Database to fix the problem.
 statistics-average-for-days-studied = Average for days studied
@@ -183,15 +183,19 @@ statistics-due-tomorrow = Due tomorrow
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } of { $total } ({ $percent }%)
 statistics-average-over-period = Average over period
-statistics-reviews-per-day = { $count ->
-  [one] { $count } review/day
-  *[other] { $count } reviews/day
-  }
-statistics-minutes-per-day = { $count ->
-  [one] { $count } minute/day
-  *[other] { $count } minutes/day
-  }
-statistics-cards-per-day = { $count ->
-  [one] { $count } card/day
-  *[other] { $count } cards/day
-  }
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } review/day
+       *[other] { $count } reviews/day
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } minute/day
+       *[other] { $count } minutes/day
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } card/day
+       *[other] { $count } cards/day
+    }
+statistics-average-ease = Average ease

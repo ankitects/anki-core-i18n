@@ -117,3 +117,4 @@ statistics-average-interval = Intervalle moyen
 statistics-longest-interval = Intervalle le plus long
 statistics-due-tomorrow = Prévues pour demain
 statistics-average-over-period = Moyenne (tous jours confondus)&nbsp;
+statistics-average-ease = Facilité moyenne

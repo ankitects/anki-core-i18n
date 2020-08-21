@@ -175,7 +175,7 @@ statistics-elapsed-time-days = { $amount } дн.
 statistics-elapsed-time-months = { $amount } мес.
 statistics-elapsed-time-years = { $amount } г.
 
-##
+
 
 statistics-error-fetching = Найдены недопустимые данные - используйте "Проверить базу данных" для исправления проблемы.
 statistics-average-for-days-studied = В среднем в день учёбы
@@ -207,3 +207,4 @@ statistics-cards-per-day =
         [few] { $count } карточки за день
        *[other] { $count } карточек за день
     }
+statistics-average-ease = Средняя лёгкость

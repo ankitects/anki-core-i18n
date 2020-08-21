@@ -37,3 +37,4 @@ statistics-average-interval = Povprečni interval
 statistics-longest-interval = Najdaljši interval
 statistics-due-tomorrow = Zapadejo jutri
 statistics-average-over-period = Če bi študirali vsak dan
+statistics-average-ease = Povprečna enostavnost

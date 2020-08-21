@@ -93,3 +93,4 @@ statistics-average-interval = Mezuma intertempo
 statistics-longest-interval = Plej longa intertempo
 statistics-due-tomorrow = Lernenda morgaŭ
 statistics-average-over-period = Se vi lernus ĉiutage
+statistics-average-ease = Mezuma facileco

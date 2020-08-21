@@ -153,7 +153,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }m.
 statistics-elapsed-time-years = { $amount }a
 
-##
+
 
 statistics-error-fetching = Dados inválidos encontrados - use Verificar Banco de Dados para corrigir o problema.
 statistics-average-for-days-studied = Média dos dias estudados
@@ -182,3 +182,4 @@ statistics-cards-per-day =
         [one] { $count } cartão/dia
        *[other] { $count } cartões/dia
     }
+statistics-average-ease = Dificuldade média

@@ -93,3 +93,4 @@ statistics-average-interval = Միջին ժամանակամիջոցը
 statistics-longest-interval = Ամենաերկար ժամանակամիջոցը
 statistics-due-tomorrow = Վաղը կրկնելիք
 statistics-average-over-period = Եթե ամեն օր սովորեիք
+statistics-average-ease = Միջին հեշտություն

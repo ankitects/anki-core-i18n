@@ -109,3 +109,4 @@ statistics-average-interval = Průměrný interval
 statistics-longest-interval = Nejdelší interval
 statistics-due-tomorrow = Zítra ke zkoušení
 statistics-average-over-period = Při každodenním studiu
+statistics-average-ease = Průměrná snadnost

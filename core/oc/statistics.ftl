@@ -33,3 +33,4 @@ statistics-days-studied = Jorns obrants
 statistics-average-answer-time-label = Durada de réponse moyenne
 statistics-average = Mejana
 statistics-average-interval = Interval mejan
+statistics-average-ease = Facilitat mejana

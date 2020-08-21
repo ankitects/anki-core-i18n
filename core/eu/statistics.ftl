@@ -57,3 +57,4 @@ statistics-average-interval = batezbesteko tartea
 statistics-longest-interval = tarte handiena
 statistics-due-tomorrow = Biharko zor izanda
 statistics-average-over-period = egunero ikasi baduzu
+statistics-average-ease = Erraztasun batezbestekoa

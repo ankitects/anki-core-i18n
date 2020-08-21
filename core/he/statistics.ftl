@@ -194,3 +194,4 @@ statistics-average-interval = מרווח ממוצע
 statistics-longest-interval = מרווח הזמן הארוך ביותר
 statistics-due-tomorrow = מתוזמן למחר
 statistics-average-over-period = אם למדת כל יום
+statistics-average-ease = קלות ממוצעת

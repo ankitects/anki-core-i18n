@@ -171,7 +171,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
 
-##
+
 
 statistics-error-fetching = S'han trobat dades no vàlides - sisplau, executi Comprovar Base de Dades per resoldre el problema.
 statistics-average-for-days-studied = Mitjana dels dies estudiats
@@ -200,3 +200,4 @@ statistics-cards-per-day =
         [one] { $count } tarjeta/dia
        *[other] { $count } tarjetae/dia
     }
+statistics-average-ease = Facilitat mitjana

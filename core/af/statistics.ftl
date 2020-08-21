@@ -52,3 +52,4 @@ statistics-average-interval = Gemiddelde pouse
 statistics-longest-interval = langste tussenpouse
 statistics-due-tomorrow = Môre uitstaande
 statistics-average-over-period = As jy elke dag  studeer het
+statistics-average-ease = Gemiddelde gemak

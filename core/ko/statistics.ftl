@@ -129,7 +129,7 @@ statistics-elapsed-time-days = { $amount }일
 statistics-elapsed-time-months = { $amount }달
 statistics-elapsed-time-years = { $amount }년
 
-##
+
 
 statistics-error-fetching = 잘못된 데이터가 발견됨 - 데이터베이스 확인을 사용하여 문제를 해결하십시오.
 statistics-average-for-days-studied = 공부한 기간 동안 평균
@@ -155,3 +155,4 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } 카드/일
     }
+statistics-average-ease = 평균 수월함

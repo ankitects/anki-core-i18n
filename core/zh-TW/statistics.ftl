@@ -149,7 +149,7 @@ statistics-elapsed-time-days = { $amount }天
 statistics-elapsed-time-months = { $amount }個月
 statistics-elapsed-time-years = { $amount }年
 
-##
+
 
 statistics-error-fetching = 發現無效資料——請使用「檢查資料庫」來修正此問題。
 statistics-average-for-days-studied = 平均值（實際學習天數）
@@ -175,3 +175,4 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count }張卡片/天
     }
+statistics-average-ease = 中等容易度
