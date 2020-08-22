@@ -32,7 +32,7 @@ statistics-in-time-span-years =
        *[other] en { $amount } år
     }
 statistics-studied-today =
-    Studerade{ statistics-cards } { $unit ->
+    Studerade { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
