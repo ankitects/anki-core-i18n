@@ -1,6 +1,36 @@
 statistics-due-date = Aktuella
 statistics-due-count = Aktuella
 statistics-cards-per-min = { $cards-per-minute } kort/minut
+statistics-in-time-span-seconds =
+    { $amount ->
+        [one] en { $amount } sekund
+       *[other] en { $amount } sekunder
+    }
+statistics-in-time-span-minutes =
+    { $amount ->
+        [one] en { $amount } minut
+       *[other] en { $amount } minuter
+    }
+statistics-in-time-span-hours =
+    { $amount ->
+        [one] en { $amount } timme
+       *[other] en { $amount } timmar
+    }
+statistics-in-time-span-days =
+    { $amount ->
+        [one] en { $amount } dag
+       *[other] en { $amount } dagar
+    }
+statistics-in-time-span-months =
+    { $amount ->
+        [one] en { $amount } månad
+       *[other] en { $amount } månader
+    }
+statistics-in-time-span-years =
+    { $amount ->
+        [one] en { $amount } år
+       *[other] en { $amount } år
+    }
 statistics-studied-today =
     Studerade{ statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
