@@ -25,3 +25,6 @@ card-template-rendering-no-such-field = 找到了 '{ $found }'，但是字段 '{
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = 正面是空白
+card-template-rendering-missing-cloze =
+    卡片上找不到填空{ $number }。¶
+    请用添加一个填空，或使用“工具-空卡片”来移除此卡片。

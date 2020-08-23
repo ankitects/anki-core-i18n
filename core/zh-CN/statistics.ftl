@@ -20,6 +20,8 @@ statistics-in-time-span-days = { $amount }天后
 statistics-in-time-span-months = { $amount }月后
 statistics-in-time-span-years = { $amount }年后
 statistics-cards = { $cards }张卡片
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews = { $reviews } 次复习
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -33,7 +35,8 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }（{ $secs-per-card }秒/张）
-statistics-reviews = { $reviews } 次复习
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }秒
 statistics-today-title = 今天
 statistics-today-again-count = 重复计数:
 statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已过滤: { $filteredCount }
@@ -46,28 +49,74 @@ statistics-counts-young-cards = 新的
 statistics-counts-mature-cards = 熟练
 statistics-counts-suspended-cards = 已暂停
 statistics-counts-buried-cards = 被占用
+statistics-counts-early-cards = 提前
+statistics-counts-learning-cards = 正在进行的课程
+statistics-counts-relearning-cards = 重新学习中
+statistics-counts-title = 卡片数量
 statistics-range-all-time = 牌组使用期
+statistics-range-1-year-history = 过去 12 个月
+statistics-range-all-history = 全部历史
 statistics-range-deck = 牌组
 statistics-range-collection = 集合
 statistics-range-search = 搜索
+statistics-card-ease-title = 卡片简易度
+statistics-card-ease-subtitle = 卡片的简易度越低，其出现的频率就越高。
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+       *[other] { $cards }张简易度为{ $percent }的卡片
+    }
 statistics-future-due-title = 预测
-statistics-reviews-title = 复习
-statistics-intervals-title = 间隔
-statistics-answer-buttons-title = 回答按钮
-statistics-hours-title = 每小时的分析
-statistics-added-title = 已添加
-statistics-axis-label-answer-count = 答案
-statistics-axis-label-card-count = 卡片
-statistics-axis-label-review-time = 复习时间
 statistics-future-due-subtitle = 将来到期的复习的数目
+statistics-added-title = 已添加
 statistics-added-subtitle = 您添加的卡片的数目。
 statistics-reviews-count-subtitle = 已经回答的问题的数量。
 statistics-reviews-time-subtitle = 答题用时
-statistics-intervals-subtitle = 延迟直到复习再次出现。
+statistics-answer-buttons-title = 回答按钮
+# eg Button: 4
+statistics-answer-buttons-button-number = 按钮
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = 按下每个按钮的次数
 statistics-answer-buttons-subtitle = 按下每个按钮的次数.
-statistics-hours-subtitle = 当天每小时的复习成功率
-statistics-counts-learning-cards = 正在进行的课程
+statistics-reviews-title = 复习
 statistics-reviews-time-checkbox = 时间
+statistics-in-days-single =
+    { $days ->
+        [0] 今天
+        [1] 明天
+       *[other] { $days }天后
+    }
+statistics-in-days-range = { $daysStart }－{ $daysEnd }天后
+statistics-days-ago-single =
+    { $days ->
+        [1] 昨天
+       *[other] { $days }天前
+    }
+statistics-days-ago-range = { $daysStart }－{ $daysEnd }天前
+statistics-running-total = 累计
+statistics-intervals-title = 间隔
+statistics-intervals-subtitle = 延迟直到复习再次出现。
+statistics-hours-title = 每小时的分析
+statistics-hours-subtitle = 当天每小时的复习成功率
+# shown when graph is empty
+statistics-no-data = 没有数据
+statistics-calendar-title = 日程表
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+statistics-elapsed-time-seconds = { $amount }秒
+statistics-elapsed-time-minutes = { $amount }分
+statistics-elapsed-time-hours = { $amount }小时
+statistics-elapsed-time-days = { $amount }天
+statistics-elapsed-time-months = { $amount }个月
+statistics-elapsed-time-years = { $amount }年
+
+##
+
 statistics-average-for-days-studied = 平均
 statistics-total = 总计
 statistics-days-studied = 打卡天数
