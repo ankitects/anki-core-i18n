@@ -11,6 +11,8 @@ database-check-card-missing-note = 已刪除{ $count }張遺失筆記的卡片�
 database-check-duplicate-card-ords = 已刪除{ $count }張模板重複的卡片。
 database-check-missing-decks = 已修正{ $count }個缺失的牌組。
 database-check-revlog-properties = 已修正{ $count }張含有無效內容的待複習卡片。
+# "db-check" is always in English
+database-check-notetypes-recovered = 有一或多個筆記類型遺失。使用這些類型的筆記類型已被「db-check」開頭的筆記類型取代，但欄位名稱和卡片設計已遺失，因此建議您回復自動備份。
 
 ## Progress info
 
