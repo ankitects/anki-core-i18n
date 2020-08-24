@@ -34,6 +34,8 @@ database-check-revlog-properties =
     { $count ->
        *[other] تعداد { $count } ورودی مرور دارای مشخصات اشتباه تعمیر شد.
     }
+# "db-check" is always in English
+database-check-notetypes-recovered = یک یا چند نوع یادداشت یافت نشد. یادداشت‌هایی که از آنها استفاده می‌کردند نام دیگری که با "db-check" شروع می شوند داده شد، ولی نام فیلدها و قالب کارت از بین رفته است. پس شاید بهتر باشد که از یک بک آپ خودکار استفاده کنید.
 
 ## Progress info
 
