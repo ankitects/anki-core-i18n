@@ -117,6 +117,7 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
+statistics-error-fetching = 发现无效数据——请使用“检查数据库”来修复此问题。
 statistics-average-for-days-studied = 平均
 statistics-total = 总计
 statistics-days-studied = 打卡天数
@@ -125,5 +126,19 @@ statistics-average = 平均
 statistics-average-interval = 平均间隔
 statistics-longest-interval = 最长间隔
 statistics-due-tomorrow = 明天到期
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount }/{ $total }({ $percent }%)
 statistics-average-over-period = 如果你每天学习
+statistics-reviews-per-day =
+    { $count ->
+       *[other] { $count }次复习/天
+    }
+statistics-minutes-per-day =
+    { $count ->
+       *[other] { $count }分钟/天
+    }
+statistics-cards-per-day =
+    { $count ->
+       *[other] { $count }张卡片/天
+    }
 statistics-average-ease = 平均难度
