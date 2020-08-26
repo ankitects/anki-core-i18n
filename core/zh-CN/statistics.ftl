@@ -94,8 +94,24 @@ statistics-days-ago-single =
     }
 statistics-days-ago-range = { $daysStart }－{ $daysEnd }天前
 statistics-running-total = 累计
+statistics-cards-due =
+    { $cards ->
+       *[other] 张卡片到期
+    }
+statistics-backlog-checkbox = 待处理
 statistics-intervals-title = 间隔
 statistics-intervals-subtitle = 延迟直到复习再次出现。
+statistics-intervals-day-range =
+    { $cards ->
+       *[other] { $cards }张间隔为{ $daysStart }到{ $daysEnd }天的卡片
+    }
+statistics-intervals-day-single =
+    { $cards ->
+       *[other] { $cards }张间隔为{ $day }天的卡片
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = 从{ $hourStart }点到{ $hourEnd }点
+statistics-hours-correct = { $correct }/{ $total } 正确 ({ $percent }%)
 statistics-hours-title = 每小时的分析
 statistics-hours-subtitle = 当天每小时的复习成功率
 # shown when graph is empty

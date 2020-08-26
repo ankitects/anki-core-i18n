@@ -9,6 +9,10 @@ database-check-field-count =
 database-check-new-card-high-due = 已找到{ $count }张到期数字>=1,000,000的新卡片——考虑在浏览界面中重新定位它们。
 database-check-card-missing-note = 已删除 { $count } 没有笔记的卡片.
 database-check-duplicate-card-ords = 已删除{ $count }张模板重复的卡片。
+database-check-missing-decks = 已修复{ $count }个缺失的牌组。
+database-check-revlog-properties = 已修复{ $count }张含有无效属性的待复习卡片。
+# "db-check" is always in English
+database-check-notetypes-recovered = 有一或多个笔记类型缺失。使用這些类型的笔记的类型已被 “db-check” 开头的笔记类型取代，但字段名称和卡片设计已丢失，因此建议您从自动备份中恢复。
 
 ## Progress info
 

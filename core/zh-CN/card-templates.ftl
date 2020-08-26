@@ -10,6 +10,9 @@ card-templates-template-box = 模板
 card-templates-sample-cloze = 这是一个 { "{{c1::" }示例{ "}}" } 的完形填空。
 card-templates-fill-empty = 填入空字段
 card-templates-night-mode = 夜间模式
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = 添加移动设备的类
 card-templates-preview-settings = 选项
 card-templates-invalid-template-number = 卡片模板{ $number }有问题
 card-templates-changes-saved = 更改已保存
