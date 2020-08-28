@@ -40,6 +40,8 @@ database-check-revlog-properties =
         [one] ${ count } Wiederholungseintrag mit ungültigen Eigenschaften wurde repariert.
        *[other] ${ count }  Wiederholungseinträge mit ungültigen Eigenschaften wurden repariert.
     }
+# "db-check" is always in English
+database-check-notetypes-recovered = Eine oder mehrere Notiztypen fehlten. Den Notizen, die diese genutzt haben, wurden neue Notizentypen beginnend mit "db-check" zugewiesen, aber Feldnamen und Kartendesign sind verloren gegangen. Es könnte besser sein, eine Sicherungskopie zu nutzen.
 
 ## Progress info
 

@@ -168,6 +168,9 @@ statistics-elapsed-time-hours = { $amount }h
 statistics-elapsed-time-days = { $amount } T.
 statistics-elapsed-time-months = { $amount } Mon.
 statistics-elapsed-time-years = { $amount } J.
+
+##
+
 statistics-error-fetching = Ungültige Daten gefunden - bitte „Datenbank überprüfen“ zur Problembehebung benutzen.
 statistics-average-for-days-studied = Durchschnitt an Lerntagen
 statistics-total = Gesamt
@@ -177,5 +180,22 @@ statistics-average = Durchschnitt
 statistics-average-interval = Mittleres Intervall
 statistics-longest-interval = Längstes Intervall
 statistics-due-tomorrow = Morgen fällig
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent }%)
 statistics-average-over-period = Wenn jeden Tag gelernt würde
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } Wiederholung/Tag
+       *[other] { $count } Wiederholungen/Tag
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } Minute/Tag
+       *[other] { $count } Minuten/Tag
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } Karte/Tag
+       *[other] { $count } Karten/Tag
+    }
 statistics-average-ease = Durchschnittliche Leichtigkeit
