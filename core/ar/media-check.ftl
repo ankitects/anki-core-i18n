@@ -70,7 +70,7 @@ media-check-all-latex-rendered = تمت معالجة كل معادلات LaTeX.
 ## Buttons
 
 media-check-delete-unused = احذف الملفات غير المستخدمة
-media-check-render-latex = تجري معادلة معادلات LaTeX
+media-check-render-latex = معالجة LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = أفرغ مجلد المهملات
 # button to move deleted files from the trash back into the media folder

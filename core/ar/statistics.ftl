@@ -102,7 +102,7 @@ statistics-studied-today =
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds } ث
 statistics-today-title = اليوم
-statistics-today-again-count = عدد البطاقات المجابة بـ "مجددًا":
+statistics-today-again-count = عدد البطاقات المجابة بـ «مجددًا»:
 statistics-today-type-counts = تعلم: { $learnCount }، مراجعة: { $reviewCount }، تعلم مجددًا: { $relearnCount }، مفلتر: { $filteredCount }
 statistics-today-no-cards = .لم تدرس أي بطاقة اليوم
 statistics-today-no-mature-cards = .لم تدرس أي بطاقة ناضجة اليوم
@@ -111,11 +111,11 @@ statistics-counts-total-cards = الإجمالي
 statistics-counts-new-cards = جديدة
 statistics-counts-young-cards = يافعة
 statistics-counts-mature-cards = ناضجة
-statistics-counts-suspended-cards = موقوفة
+statistics-counts-suspended-cards = معلقة
 statistics-counts-buried-cards = مدفونة
 statistics-counts-early-cards = مبكرة
 statistics-counts-learning-cards = في طور التعلم
-statistics-counts-relearning-cards = تعلّم مجددًا
+statistics-counts-relearning-cards = في طور إعادة التعلم
 statistics-counts-title = عدد البطاقات
 statistics-range-all-time = مدى حياة الرزمة
 statistics-range-1-year-history = آخر 12 شهرًا
@@ -225,7 +225,7 @@ statistics-elapsed-time-days = { $amount } ي
 statistics-elapsed-time-months = { $amount } ش
 statistics-elapsed-time-years = { $amount } ع
 
-
+##
 
 statistics-error-fetching = وُجِدت بيانات غير صالحة - استخدم خيار فحص قاعدة البيانات لحل المشكلة.
 statistics-average-for-days-studied = معدل أيام الدراسة
