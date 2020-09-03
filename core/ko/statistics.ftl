@@ -58,12 +58,12 @@ statistics-range-all-history = 모든 기록
 statistics-range-deck = 뭉치
 statistics-range-collection = 모음집
 statistics-range-search = 찾기
-statistics-card-ease-title = 카드 쉬움 간격
-statistics-card-ease-subtitle = 카드 쉬움 간격이 낮을수록 카드가 자주 등장하게 된다.
+statistics-card-ease-title = 카드 복습 주기
+statistics-card-ease-subtitle = 카드 복습 주기가 짧을수록 자주 복습
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-       *[other] { $percent } 쉬움 간격의 { $cards }개 카드
+       *[other] { $percent } 복습 주기의 { $cards }개 카드
     }
 statistics-future-due-title = 예상
 statistics-future-due-subtitle = 앞으로 공부할 복습량
@@ -97,21 +97,22 @@ statistics-cards-due =
     { $cards ->
        *[other] { $cards }개 카드 예정됨
     }
-statistics-intervals-title = 복습 간격
-statistics-intervals-subtitle = 다음 번 복습 때까지 기다리는 시간.
+statistics-backlog-checkbox = 기일 초과
+statistics-intervals-title = 복습 주기
+statistics-intervals-subtitle = 다음 번 복습 때까지 기다리는 시간
 statistics-intervals-day-range =
     { $cards ->
-       *[other] { $daysStart }~{ $daysEnd }일 간격의 { $cards }개 카드
+       *[other] { $daysStart }~{ $daysEnd }일 복습 주기의 { $cards }개 카드
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] { $day }일 간격의 { $cards }개 카드
+       *[other] { $day }일 복습 주기의 { $cards }개 카드
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } 정답 ({ $percent }%)
 statistics-hours-title = 시간대별 분석
-statistics-hours-subtitle = 하루 중 시간대 별 정답률.
+statistics-hours-subtitle = 하루 중 시간대별 정답률
 # shown when graph is empty
 statistics-no-data = 데이터 없음
 statistics-calendar-title = 달력
@@ -129,7 +130,7 @@ statistics-elapsed-time-days = { $amount }일
 statistics-elapsed-time-months = { $amount }달
 statistics-elapsed-time-years = { $amount }년
 
-
+##
 
 statistics-error-fetching = 잘못된 데이터가 발견됨 - 데이터베이스 확인을 사용하여 문제를 해결하십시오.
 statistics-average-for-days-studied = 공부한 기간 동안 평균
@@ -137,8 +138,8 @@ statistics-total = 전체
 statistics-days-studied = 공부한 기간
 statistics-average-answer-time-label = 평균 답변 시간
 statistics-average = 평균
-statistics-average-interval = 평균 복습 간격
-statistics-longest-interval = 최대 복습 간격
+statistics-average-interval = 평균 복습 주기
+statistics-longest-interval = 최대 복습 주기
 statistics-due-tomorrow = 내일 만기
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total }개 중 { $amount }개 ({ $percent }%)
