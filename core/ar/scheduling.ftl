@@ -120,4 +120,11 @@ scheduling-today-new-limit-reached =
     هناك مزيد من البطاقات الجديدة، لكنك وصلت إلى الحد اليومي.
     تستطيع رفع الحد من خلال الخيارات، لكن ضع في عين الاعتبار
     أنه كلما رفعت الحد اليومي للبطاقات الجديدة، كان عبء المراجعات على المدى القصير أعلى.
-scheduling-buried-cards-were-delayed = أُوجِلت بعض البطاقات المدفونة أو ذات الصلة إلى جلسة لاحقة.
+scheduling-buried-cards-found = دُفِنت بطاقة أو أكثر، وستظهر غدًا. تستطيع { $unburyThem } إذا كنت تريد رؤيتها حالًا.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = نكشها
+scheduling-how-to-custom-study = إذا كنت تريد الدراسة خارج الجدول المعتاد، استخدم ميزة { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = الدراسة المخصصة

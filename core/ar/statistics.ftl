@@ -3,7 +3,7 @@ statistics-due-date = تاريخ الاستحقاق
 # The count of cards waiting to be reviewed
 statistics-due-count = مستحقة
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = جديد #{ $number }
+statistics-due-for-new-card = جديدة #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
