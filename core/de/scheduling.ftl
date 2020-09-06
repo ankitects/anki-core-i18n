@@ -82,4 +82,11 @@ scheduling-today-new-limit-reached =
     ist erreicht. Der Grenzwert kann in den Einstellungen erhöht werden, aber
     bitte daran denken, dass die Anzahl kurzfristiger Wiederholungen
     umso größer wird, je mehr neue Karten eingesetzt werden.
-scheduling-buried-cards-were-delayed = Einige Karten wurden zurückgestellt. Sie werden in einer späteren Sitzung wieder gezeigt.
+scheduling-buried-cards-found = Eine oder mehrere Karten wurden zurückgestellt und werden morgen gezeigt. Die Zurückstellung kann { $unburyThem } werden, um sie direkt anzuzeigen.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = aufgehoben
+scheduling-how-to-custom-study = Wenn außerhalb des regulären Zeitplans gelernt werden soll, kann die { $customStudy }-Funktion genutzt werden.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = Benutzerdefiniertes Lernen
