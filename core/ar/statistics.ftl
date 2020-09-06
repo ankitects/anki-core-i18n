@@ -206,7 +206,7 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = خلال { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } صحيح ({ $percent }%)
-statistics-hours-title = التفصيل ساعة بساعة
+statistics-hours-title = تفصيل لكل ساعة
 statistics-hours-subtitle = معدل المراجعات الناجحة لكل ساعة من اليوم.
 # shown when graph is empty
 statistics-no-data = لا بيانات
