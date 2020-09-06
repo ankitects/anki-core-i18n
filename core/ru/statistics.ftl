@@ -82,7 +82,7 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }  ({ $secs-per-card }с/карточка)
+    } ({ $secs-per-card } с/карточка)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }с
 statistics-today-title = Сегодня
@@ -175,7 +175,7 @@ statistics-elapsed-time-days = { $amount } дн.
 statistics-elapsed-time-months = { $amount } мес.
 statistics-elapsed-time-years = { $amount } г.
 
-
+##
 
 statistics-error-fetching = Найдены недопустимые данные - используйте "Проверить базу данных" для исправления проблемы.
 statistics-average-for-days-studied = В среднем в день учёбы
