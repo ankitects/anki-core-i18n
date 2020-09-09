@@ -54,20 +54,20 @@ scheduling-time-span-days =
 scheduling-time-span-months =
     { $amount ->
         [zero] { $amount } شهر
-        [one] { $amount } شهور
-        [two] { $amount } شهور
+        [one] شهر واحد
+        [two] شهران
         [few] { $amount } شهور
-        [many] { $amount } شهور
-       *[other] { $amount } شهور
+        [many] { $amount } شهرًا
+       *[other] { $amount } شهر
     }
 scheduling-time-span-years =
     { $amount ->
-        [zero] { $amount } سنة
-        [one] { $amount } سنة
-        [two] { $amount } سنة
-        [few] { $amount } سنوات
-        [many] { $amount } سنة
-       *[other] { $amount } سنة
+        [zero] { $amount } عام
+        [one] عام واحد
+        [two] عامان
+        [few] { $amount } أعوام
+        [many] { $amount } عامًا
+       *[other] { $amount } عام
     }
 
 ## Shown in the "Congratulations!" message after study finishes.

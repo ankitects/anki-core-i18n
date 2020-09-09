@@ -60,12 +60,12 @@ statistics-in-time-span-months =
     }
 statistics-in-time-span-years =
     { $amount ->
-        [zero] خلال { $amount } سنة
-        [one] خلال سنة واحدة
-        [two] خلال سنتين
-        [few] خلال { $amount } سنين
-        [many] خلال { $amount } سنة
-       *[other] خلال { $amount } سنة
+        [zero] خلال { $amount } عام
+        [one] خلال عام واحدة
+        [two] خلال عامين
+        [few] خلال { $amount } أعوام
+        [many] خلال { $amount } عامًا
+       *[other] خلال { $amount } عام
     }
 statistics-cards =
     { $cards ->
@@ -104,8 +104,8 @@ statistics-seconds-taken = { $seconds } ث
 statistics-today-title = اليوم
 statistics-today-again-count = عدد البطاقات المجابة بـ «مجددًا»:
 statistics-today-type-counts = تعلم: { $learnCount }، مراجعة: { $reviewCount }، تعلم مجددًا: { $relearnCount }، مفلتر: { $filteredCount }
-statistics-today-no-cards = .لم تدرس أي بطاقة اليوم
-statistics-today-no-mature-cards = .لم تدرس أي بطاقة ناضجة اليوم
+statistics-today-no-cards = لم تدرس أي بطاقة اليوم.
+statistics-today-no-mature-cards = لم تدرس أي بطاقة ناضجة اليوم.
 statistics-today-correct-mature = أجوبة صحيحة للبطاقات الناضجة: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = الإجمالي
 statistics-counts-new-cards = جديدة
@@ -241,7 +241,7 @@ statistics-amount-of-total-with-percentage = { $amount } من { $total } ({ $per
 statistics-average-over-period = إذا درست كل يوم
 statistics-reviews-per-day =
     { $count ->
-        [zero] لا مراجعات في اليوم
+        [zero] لا مراجعات
         [one] مراجعة واحدة في اليوم
         [two] مراجعتان في اليوم
         [few] { $count } مراجعات في اليوم

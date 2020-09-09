@@ -1,4 +1,4 @@
-card-stats-added = أُضيفت
+card-stats-added = تاريخ الإضافة
 card-stats-first-review = أول مراجعة
 card-stats-latest-review = آخر مراجعة
 card-stats-interval = الفاصل الزمني
@@ -12,7 +12,7 @@ card-stats-card-template = نوع البطاقة
 card-stats-note-type = نوع الملحوظة
 card-stats-deck-name = رزمة
 card-stats-note-id = مُعرّف الملحوظة
-card-stats-card-id = مُعرف البطاقة
+card-stats-card-id = مُعرّف البطاقة
 card-stats-review-log-rating = التقييم
 card-stats-review-log-type = النوع
 card-stats-review-log-date = التاريخ
