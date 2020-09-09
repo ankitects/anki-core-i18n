@@ -82,4 +82,11 @@ scheduling-today-new-limit-reached =
     diario. Puedes aumentar el límite en las opciones, pero ten
     en cuenta que cuantas más tarjetas nuevas introduzcas, más
     aumentará tu carga de trabajo a corto plazo.
-scheduling-buried-cards-were-delayed = Algunas tarjetas relacionadas o enterradas fueron aplazadas a una sesión posterior.
+scheduling-buried-cards-found = Una o más tarjetas fueron enterradas y se mostrarán mañana. Puede { $unburyThem } si desea verlos de inmediato.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = desenterrarlas
+scheduling-how-to-custom-study = Si desea estudiar fuera del horario habitual, puede utilizar la función { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = estudio personalizado
