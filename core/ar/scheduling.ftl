@@ -105,12 +105,12 @@ scheduling-next-learn-due =
     }.
 scheduling-learn-remaining =
     { $remaining ->
-        [zero] لم يعد هناك أي بطاقة دراسة مستحقة اليوم.
-        [one] تبقى بطاقة دراسة واحدة مستحقة اليوم.
-        [two] تبقى بطاقتي دراسة مستحقتين اليوم.
-        [few] تبقى { $remaining } بطاقات دراسة مستحقة اليوم.
-        [many] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
-       *[other] تبقى { $remaining } بطاقة دراسة مستحقة اليوم.
+        [zero] لم يعد هناك أي بطاقة تعلم مستحقة اليوم.
+        [one] تبقى بطاقة تعلم واحدة مستحقة اليوم.
+        [two] تبقى بطاقتا تعلم مستحقتان اليوم.
+        [few] تبقى { $remaining } بطاقات تعلم مستحقة اليوم.
+        [many] تبقى { $remaining } بطاقة تعلم مستحقة اليوم.
+       *[other] تبقى { $remaining } بطاقة تعلم مستحقة اليوم.
     }
 scheduling-congratulations-finished = تهانينا! لقد انتهيت من هذه الرزمة الآن.
 scheduling-today-review-limit-reached =
