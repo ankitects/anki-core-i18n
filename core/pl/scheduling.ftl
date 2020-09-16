@@ -96,4 +96,11 @@ scheduling-today-review-limit-reached =
 scheduling-today-new-limit-reached =
     Jest dostępnych więcej nowych kart, lecz dzienny limit został osiągnięty. Możesz zwiększyć go w opcjach, ale miej na uwadze, że im więcej nowych kart poznajesz, tym większa będzie liczba kart
     do przejrzenia w najbliższym czasie.
-scheduling-buried-cards-were-delayed = Zostały jeszcze powiązane lub zakopane karty - czekają na następną sesję nauki.
+scheduling-buried-cards-found = Jedna lub więcej kart zostało zakopanych, przez co zostaną pokazane jutro. Możesz { $unburyThem }, jeśli chcesz zobaczyć te karty teraz.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = odkopać je
+scheduling-how-to-custom-study = Aby uczyć się poza normalnym rozkładem możesz użyć opcji { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = Nauka Własna
