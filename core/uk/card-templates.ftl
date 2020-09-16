@@ -14,3 +14,5 @@ card-templates-preview-box = Попередній перегляд
 card-templates-template-box = Шаблон
 card-templates-sample-cloze = Ось { "{{c1::" } зразок { "}}" } завдання з пропусками.
 card-templates-fill-empty = Заповніть пусті поля
+card-templates-night-mode = Нічний режим
+card-templates-preview-settings = Налаштування
