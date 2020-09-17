@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Réidh
+statistics-due-date = Dlite
 # The count of cards waiting to be reviewed
-statistics-due-count = Réidh
+statistics-due-count = Dlite
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Nua #{ $number }
 
@@ -114,20 +114,20 @@ statistics-range-all-time = Uile
 statistics-range-1-year-history = Le 12 mhí anuas
 statistics-range-all-history = Riamh
 statistics-range-deck = Paca
-statistics-range-collection = Cnúsamh
+statistics-range-collection = Cnuasach
 statistics-range-search = Cuardú
-statistics-card-ease-title = Éascacht Chártaí
-statistics-card-ease-subtitle = Dá ísle éascacht cárta áirithe, is ea is minice a bhfeictear é.
+statistics-card-ease-title = Éascaíocht Chártaí
+statistics-card-ease-subtitle = Dá ísle éascaíocht cárta áirithe, is ea is minice a bhfeictear é.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] 1 cárta le éascacht { $percent }
-        [two] { $cards } chárta le éascacht { $percent }
-        [few] { $cards } chárta le éascacht { $percent }
-        [many] { $cards } gcárta le éascacht { $percent }
-       *[other] { $cards } cárta le éascacht { $percent }
+        [one] 1 cárta le éascaíocht { $percent }
+        [two] { $cards } chárta le éascaíocht { $percent }
+        [few] { $cards } chárta le éascaíocht { $percent }
+        [many] { $cards } gcárta le éascaíocht { $percent }
+       *[other] { $cards } cárta le éascaíocht { $percent }
     }
-statistics-future-due-title = Réidh sa Todhchaí
+statistics-future-due-title = Dlite sa Todhchaí
 statistics-future-due-subtitle = Líon na n-athbhreithnithe a bheidh le déanamh amach anseo
 statistics-added-title = Curtha leis
 statistics-added-subtitle = Líon na gcártaí nua a chuir tú leis an bpaca.
@@ -165,11 +165,11 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } lá ó shin
 statistics-running-total = Iomlán reatha
 statistics-cards-due =
     { $cards ->
-        [one] Cárta amháin réidh
-        [two] { $cards } chárta réidh
-        [few] { $cards } chárta réidh
-        [many] { $cards } gcárta réidh
-       *[other] { $cards } chárta réidh
+        [one] Cárta amháin dlite
+        [two] { $cards } chárta dlite
+        [few] { $cards } chárta dlite
+        [many] { $cards } gcárta dlite
+       *[other] { $cards } chárta dlite
     }
 statistics-backlog-checkbox = Riaráiste
 statistics-intervals-title = Eatramh Abhreithnithe
@@ -250,4 +250,4 @@ statistics-cards-per-day =
         [many] { $count } gcarta/lá
        *[other] { $count } carta/lá
     }
-statistics-average-ease = Méanéascacht
+statistics-average-ease = Méanéascaíocht

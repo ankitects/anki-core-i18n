@@ -21,7 +21,7 @@ media-check-subfolder-count = Fofhillteáin: { $count }
 ## Shown at the top of each section
 
 media-check-renamed-header = Cuireadh ainmneacha nua ar chomhaid áirithe ar son comhoiriúnachta:
-media-check-oversize-header = Ní féidir comhaid os cionn 100MB a shioncronú le hAnkiWeb.
+media-check-oversize-header = Ní féidir comhaid os cionn 100MB a shioncronú le AnkiWeb.
 media-check-subfolder-header = Ní féidir fillteáin a bheith san fhillteán meán.
 media-check-missing-header = Tagraíonn cártaí do na comhaid seo a leanas, nach bhfuil san fhillteán meán:
 media-check-unused-header = Tá na comhaid seo san fhillteán meán, ach ní thagraíonn cártaí ar bith dhóibh.
@@ -58,9 +58,18 @@ media-check-delete-unused-complete =
        *[other] { $count } comhad
     } curtha sa bhruscar.
 media-check-trash-emptied = Tá an fillteán bruscair folmhaithe.
+media-check-trash-restored = Comhaid scriosta aischurtha don fhillteán meán.
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = Gach LaTeX rindreáilte.
 
 ## Buttons
 
+media-check-delete-unused = Scrios ábhar nach n-úsáidtear
+media-check-render-latex = Rindreáil LaTeX
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = Folmhaigh bruscar
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = Aischuir ábhar a scriosadh
+media-check-check-media-action = Seiceáil meáin
