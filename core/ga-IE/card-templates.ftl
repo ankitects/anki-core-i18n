@@ -16,7 +16,7 @@ card-templates-preview-box = Réamhamharc
 card-templates-template-box = Teimpléad
 card-templates-sample-cloze = Sliocht iomlanaithe { "{{c1::" }samplach{ "}}" } is ea é seo.
 card-templates-fill-empty = Líon Isteach Réimsí Folmha
-card-templates-night-mode = Modh na hÓiche
+card-templates-night-mode = Modh Oíche
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = Cuir Aicme Mhóibíleach leis
