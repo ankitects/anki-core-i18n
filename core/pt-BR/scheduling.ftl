@@ -82,4 +82,7 @@ scheduling-today-new-limit-reached =
     Você pode aumentar o limite nas opções, porém, tenha em mente
     que quanto mais cartões novos você estudar, maior será sua carga
     de revisão a curto prazo.
-scheduling-buried-cards-were-delayed = Alguns cartões relacionados ou ocultos foram adiadas até que uma sessão mais tarde.
+scheduling-how-to-custom-study = Se você deseja estudar fora do horário regular, você pode usar o recurso { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = estudo personalizado
