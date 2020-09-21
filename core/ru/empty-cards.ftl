@@ -8,7 +8,8 @@ empty-cards-deleted-count =
     Удалено { $cards ->
         [one] { $cards } карточка.
         [few] { $cards } карточки.
-       *[other] { $cards } карточ[few] { $cards } карточки.ек.
+        [many] { $cards } карточек.
+       *[other] { $cards } карточек.
     }
 empty-cards-delete-empty-cards = Удалить пустые карточки
 empty-cards-delete-empty-notes = Удалить пустые записи
