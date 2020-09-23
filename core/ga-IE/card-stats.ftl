@@ -21,3 +21,4 @@ card-stats-review-log-type-learn = Foghlaim
 card-stats-review-log-type-review = Athbhreithniú
 card-stats-review-log-type-relearn = Athfhoghlaim
 card-stats-review-log-type-filtered = Scagtha
+card-stats-review-log-type-manual = Lámhleabhar
