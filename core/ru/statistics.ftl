@@ -108,6 +108,15 @@ statistics-range-deck = пакет
 statistics-range-collection = коллекция
 statistics-range-search = Поиск
 statistics-card-ease-title = Лёгкость карточки
+statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карта.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] 1 карта с { $percent } легкости
+        [few] { $cards } карты с { $percent } легкости
+        [many] { $cards } карт с { $percent } легкости
+       *[other] { $cards } карт с { $percent } легкости
+    }
 statistics-future-due-title = Прогноз
 statistics-future-due-subtitle = Число повторений, запланированных на будущее.
 statistics-added-title = Добавлено
@@ -128,6 +137,7 @@ statistics-in-days-single =
         [1] Завтра
         [one] за { $days } день
         [few] за { $days } дня
+        [many] за { $days } дней
        *[other] за { $days } дней
     }
 statistics-in-days-range = за { $daysStart }-{ $daysEnd } дней
@@ -136,21 +146,32 @@ statistics-days-ago-single =
         [1] Вчера
         [one] { $days } день назад
         [few] { $days } дня назад
+        [many] { $days } дней назад
        *[other] { $days } дней назад
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } дней назад
+statistics-running-total = Пройдено всего
+statistics-cards-due =
+    { $cards ->
+        [one] 1 карта за
+        [few] { $cards } карты за
+        [many] { $cards } карт за
+       *[other] { $cards } карт за
+    }
 statistics-intervals-title = Интервалы
 statistics-intervals-subtitle = Задержки перед следующим повторением.
 statistics-intervals-day-range =
     { $cards ->
         [one] 1 карточка с перерывом в { $daysStart }~{ $daysEnd } дней
         [few] { $cards } карточки с перерывом в { $daysStart }~{ $daysEnd } дней
+        [many] { $cards } карточек с перерывом в { $daysStart }~{ $daysEnd } дней
        *[other] { $cards } карточек с перерывом в { $daysStart }~{ $daysEnd } дней
     }
 statistics-intervals-day-single =
     { $cards ->
         [one] 1 карточка с перерывом в { $day } дней
         [few] { $cards } карточки с перерывом в { $day } дней
+        [many] { $cards } карточек с перерывом в { $day } дней
        *[other] { $cards } карточек с перерывом в { $day } дней
     }
 # hour range, eg "From 14:00-15:00"
@@ -193,18 +214,21 @@ statistics-reviews-per-day =
     { $count ->
         [one] { $count } просмотр за день
         [few] { $count } просмотра за день
+        [many] { $count } просмотров за день
        *[other] { $count } просмотров за день
     }
 statistics-minutes-per-day =
     { $count ->
         [one] { $count } минута за день
         [few] { $count } минуты за день
+        [many] { $count } минут за день
        *[other] { $count } минут за день
     }
 statistics-cards-per-day =
     { $count ->
         [one] { $count } карточка за день
         [few] { $count } карточки за день
+        [many] { $count } карточек за день
        *[other] { $count } карточек за день
     }
 statistics-average-ease = Средняя лёгкость

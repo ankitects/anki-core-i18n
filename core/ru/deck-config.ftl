@@ -4,6 +4,7 @@ deck-config-used-by-decks =
     используется { $decks ->
         [one] 1 колодой
         [few] { $decks } колодами
+        [many] { $decks } колодами
        *[other] { $decks } колодами
     }
 deck-config-default-name = По умолчанию
