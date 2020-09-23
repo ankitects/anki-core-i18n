@@ -21,3 +21,4 @@ card-stats-review-log-type-learn = في طور التعلم
 card-stats-review-log-type-review = مراجعة
 card-stats-review-log-type-relearn = في طور إعادة التعلم
 card-stats-review-log-type-filtered = مفلتر
+card-stats-review-log-type-manual = يدوي
