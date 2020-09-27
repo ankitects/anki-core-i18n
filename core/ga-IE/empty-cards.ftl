@@ -1,9 +1,9 @@
 empty-cards-for-note-type = Cártaí folmha do { $notetype }:
 empty-cards-count-line = { $empty_count } as { $existing_count } cártaí folmha ({ $template_names }).
 empty-cards-window-title = Cártaí Folmha
-empty-cards-preserve-notes-checkbox = Coinnigh nótái nach bhfuil cárta bailí acu.
+empty-cards-preserve-notes-checkbox = Coinnigh nótaí nach bhfuil cárta bailí acu.
 empty-cards-delete-button = Scrios
-empty-cards-not-found = Níl aon cártaí folmha.
+empty-cards-not-found = Níl aon chárta folamh.
 empty-cards-deleted-count =
     Scriosadh  { $cards ->
         [one] cárta amháin.

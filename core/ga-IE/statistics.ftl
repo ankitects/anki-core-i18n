@@ -8,7 +8,7 @@ statistics-due-for-new-card = Nua #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } cártaí/nóiméad
-statistics-average-answer-time = { $average-seconds }soicind ({ statistics-cards-per-min })
+statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -23,7 +23,7 @@ statistics-in-time-span-seconds =
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] i nóiméad amháin
+        [one] in { $amount } nóiméad
         [two] in { $amount } nóiméad
         [few] i { $amount } nóiméad
         [many] i { $amount } nóiméad
@@ -55,7 +55,7 @@ statistics-in-time-span-months =
     }
 statistics-in-time-span-years =
     { $amount ->
-        [one] in { $amount } bliain
+        [one] in { $amount } bhliain
         [two] in { $amount } bhliain
         [few] i { $amount } bliana
         [many] i { $amount } mbliana
@@ -83,7 +83,7 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Athbhreithniú déanta ar { statistics-cards }{ $unit ->
+    Staidéar déanta ar { statistics-cards }{ $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
@@ -97,8 +97,8 @@ statistics-seconds-taken = { $seconds }s
 statistics-today-title = Inniu
 statistics-today-again-count = Arís:
 statistics-today-type-counts = Foghlaim: { $learnCount }, Athbhreithniú: { $reviewCount }, Athfhoghlaim: { $relearnCount }, Scagtha: { $filteredCount }
-statistics-today-no-cards = Níl athbhreithniú déanta ar aon chártaí inniu
-statistics-today-no-mature-cards = Níl athbhreithniú déanta ar aon chártaí aibí inniu
+statistics-today-no-cards = Níl staidéar déanta ar aon chártaí inniu
+statistics-today-no-mature-cards = Níl staidéar déanta ar aon chártaí aibí inniu.
 statistics-today-correct-mature = Freagraí cearta ar chártaí aibí: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Iomlán
 statistics-counts-new-cards = Nua
@@ -133,7 +133,7 @@ statistics-added-title = Curtha leis
 statistics-added-subtitle = Líon na gcártaí nua a chuir tú leis an bpaca.
 statistics-reviews-count-subtitle = Líon na gceisteanna ar thug tú freagra dóibh.
 statistics-reviews-time-subtitle = An méid ama caite ag freagrú na gceisteanna.
-statistics-answer-buttons-title = Cnaipí Freagraí
+statistics-answer-buttons-title = Cnaipí Freagra
 # eg Button: 4
 statistics-answer-buttons-button-number = Cnaipe
 # eg Times pressed: 123
@@ -169,11 +169,11 @@ statistics-cards-due =
         [two] { $cards } chárta dlite
         [few] { $cards } chárta dlite
         [many] { $cards } gcárta dlite
-       *[other] { $cards } chárta dlite
+       *[other] { $cards } cárta dlite
     }
 statistics-backlog-checkbox = Riaráiste
 statistics-intervals-title = Eatramh Abhreithnithe
-statistics-intervals-subtitle = Cé chomh fhada a bheidh le fanacht idir amharcanna ar chártaí
+statistics-intervals-subtitle = Cé chomh fhada le fanacht idir athbhreithnithe.
 statistics-intervals-day-range =
     { $cards ->
         [one] Cárta amháin le eatramh { $daysStart }~{ $daysEnd }
@@ -184,11 +184,11 @@ statistics-intervals-day-range =
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] Cárta amháin le eatramh { $day }
-        [two] { $cards } chárta le eatramh { $day }
-        [few] { $cards } chárta le eatramh { $day }
-        [many] { $cards } gcárta le eatramh { $day }
-       *[other] { $cards } cárta le eatramh { $day }
+        [one] Cárta amháin le eatramh { $day } lá
+        [two] { $cards } chárta le eatramh { $day } lá
+        [few] { $cards } chárta le eatramh { $day } lá
+        [many] { $cards } gcárta le eatramh { $day } lá
+       *[other] { $cards } cárta le eatramh { $day } lá
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Ó { $hourStart }:00~{ $hourEnd }:00

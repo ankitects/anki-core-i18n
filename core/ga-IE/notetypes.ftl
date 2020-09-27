@@ -1,10 +1,10 @@
 ## Default field names in newly created note types
 
 notetypes-front-field = Tosach
-notetypes-back-field = Cúil
-notetypes-add-reverse-field = Cuir le Cúil
+notetypes-back-field = Cúl
+notetypes-add-reverse-field = Cuir le Cúl
 notetypes-text-field = Téacs
-notetypes-back-extra-field = Cúil Bhreis
+notetypes-back-extra-field = Cúl Breis
 
 ## Default note type names
 

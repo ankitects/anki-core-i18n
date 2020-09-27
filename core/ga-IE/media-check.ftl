@@ -58,7 +58,7 @@ media-check-delete-unused-complete =
        *[other] { $count } comhad
     } curtha sa bhruscar.
 media-check-trash-emptied = Tá an fillteán bruscair folmhaithe.
-media-check-trash-restored = Comhaid scriosta aischurtha don fhillteán meán.
+media-check-trash-restored = Aischuireadh comhaid scriosta san fhillteán meán.
 
 ## Rendering LaTeX
 

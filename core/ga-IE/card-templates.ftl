@@ -8,10 +8,10 @@ card-templates-changes-will-affect-notes =
     }
 card-templates-card-type = Cineál Cárta:
 card-templates-front-template = Téimpléad Tosaigh
-card-templates-back-template = Teimpléad Chúil
+card-templates-back-template = Teimpléad Cúil
 card-templates-template-styling = Stíleáil
-card-templates-front-preview = Réamhamharc Thosaigh
-card-templates-back-preview = Réamhamharc Chúil
+card-templates-front-preview = Réamhamharc Tosaigh
+card-templates-back-preview = Réamhamharc Cúil
 card-templates-preview-box = Réamhamharc
 card-templates-template-box = Teimpléad
 card-templates-sample-cloze = Sliocht iomlanaithe { "{{c1::" }samplach{ "}}" } is ea é seo.

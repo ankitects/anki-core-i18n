@@ -24,7 +24,7 @@ card-template-rendering-no-such-field = '{ $found }' aimsithe, ach níl réimse 
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = Tá aghaidh an chárta seo bán
+card-template-rendering-empty-front = Tá tosach an chárta seo bán
 card-template-rendering-missing-cloze =
     Níl iomlánú { $number } ar an gcárta seo.
-    Cuir iomlánú nua leis, nó úsáid an uirlis 'Cártaí Folmha' chun é a scriosú.
+    Cuir iomlánú nua leis, nó úsáid an uirlis 'Cártaí Folmha' chun é a scriosadh.

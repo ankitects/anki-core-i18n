@@ -1,5 +1,5 @@
 database-check-corrupt = Tá comhad an chnuasaigh truaillithe. Déan aischur ó chúltaca.
-database-check-rebuilt = Bunachar sonraigh atógtha agus optamaithe.
+database-check-rebuilt = Bunachar sonraí atógtha agus optamaithe.
 database-check-card-properties =
     { $count ->
         [one] Deisíodh { $count } airí cárta neambhailí.
@@ -18,19 +18,19 @@ database-check-missing-templates =
     }
 database-check-field-count =
     { $count ->
-        [one] Deisíodh { $count } nóta le áireamh réimsí mícheart
-        [two] Deisíodh { $count } nóta le áireamh réimsí mícheart
-        [few] Deisíodh { $count } nóta le áireamh réimsí mícheart
-        [many] Deisíodh { $count } nóta le áireamh réimsí mícheart
-       *[other] Deisíodh { $count } nóta le áireamh réimsí mícheart
+        [one] Deisíodh { $count } nóta le líon mícheart de réimsí
+        [two] Deisíodh { $count } nóta le líon mícheart de réimsí
+        [few] Deisíodh { $count } nóta le líon mícheart de réimsí
+        [many] Deisíodh { $count } nóta le líon mícheart de réimsí
+       *[other] Deisíodh { $count } nóta le líon mícheart de réimsí
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] Aimsíodh { $count } cárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar é a aistriú, faoi 'Brabhsáil'
-        [two] Aimsíodh { $count } chárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'
-        [few] Aimsíodh { $count } chárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'
-        [many] Aimsíodh { $count } gcárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'
-       *[other] Aimsíodh { $count } chárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'
+        [one] Aimsíodh { $count } cárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar é a aistriú, faoi 'Brabhsáil'.
+        [two] Aimsíodh { $count } chárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'.
+        [few] Aimsíodh { $count } chárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'.
+        [many] Aimsíodh { $count } gcárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'.
+       *[other] Aimsíodh { $count } cárta nua le uimhir dlite >= 1,000,000 - smaoinigh ar iad a aistriú, faoi 'Brabhsáil'.
     }
 database-check-card-missing-note =
     { $count ->
@@ -42,11 +42,11 @@ database-check-card-missing-note =
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] Scriosash { $count } cárta le teimpléad dúblach.
-        [two] Scriosash { $count } chárta le teimpléad dúblach.
-        [few] Scriosash { $count } chárta le teimpléad dúblach.
-        [many] Scriosash { $count } gcárta le teimpléad dúblach.
-       *[other] Scriosash { $count } cárta le teimpléad dúblach.
+        [one] Scriosadh { $count } cárta le teimpléad dúblach.
+        [two] Scriosadh { $count } chárta le teimpléad dúblach.
+        [few] Scriosadh { $count } chárta le teimpléad dúblach.
+        [many] Scriosadh { $count } gcárta le teimpléad dúblach.
+       *[other] Scriosadh { $count } cárta le teimpléad dúblach.
     }
 database-check-missing-decks =
     { $count ->

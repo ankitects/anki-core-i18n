@@ -95,18 +95,21 @@ scheduling-learn-remaining =
         [many] Tá { $remaining } gcárta foghlama fós le teacht inniu.
        *[other] Tá { $remaining } cárta foghlama fós le teacht inniu.
     }
-scheduling-congratulations-finished = Comhghairdeas!  Tá an paca seo críochnaithe agat go fóill.
-scheduling-today-review-limit-reached = Tá srian laethúil na n-athbhreithnithe bainte amach d'inniu, ach tá cártaí ann fós atá dlite. B'fhéidir go bhfheilfeadh sé an srian laethúil a ardú sna roghanna.
+scheduling-congratulations-finished = Comhghairdeas! Tá an paca seo críochnaithe agat.
+scheduling-today-review-limit-reached =
+    Tá srian laethúil na n-athbhreithnithe bainte amach, ach tá cártaí 
+    ann fós atá dlite. B'fhéidir go bhfheilfeadh sé an srian laethúil
+    a ardú sna roghanna.
 scheduling-today-new-limit-reached =
     Tá tuilleadh cártaí ar fáil, ach tá an srian laethúil bainte amach.
     Is féidir an srian seo a chuir in airde sna 'roghanna', ach
     cuimhnigh go mbeidh níos mó oibre agat sa chás sin - go 
     háirithe nuair a chuireann tú cártaí nua leis an gcóras.
-scheduling-buried-cards-found = Cuireadh cárta (nó cártaí) i bhfolach - taispeánfar amárach iad.  Is féidir { $unburyThem } más fearr leat iad a fheiceáil anois díreach.
+scheduling-buried-cards-found = Cuireadh cárta (nó cártaí) i bhfolach - taispeánfar amárach iad. Is féidir { $unburyThem } más fearr leat iad a fheiceáil anois díreach.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = iad a tharraingt amach
-scheduling-how-to-custom-study = Má tá fonn ort staidéar a dhéanamh taobh amuigh den ghnáth sceideal, bain úsáid as { $customStudy }.
+scheduling-how-to-custom-study = Má tá fonn ort staidéar a dhéanamh taobh amuigh den ghnáthsceideal, úsáid { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Staidéar ar Leith
