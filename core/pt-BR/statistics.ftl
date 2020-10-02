@@ -90,6 +90,14 @@ statistics-range-all-history = todo histórico
 statistics-range-deck = baralho
 statistics-range-collection = coleção
 statistics-range-search = Procurar
+statistics-card-ease-title = Facilidade do Cartão
+statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente aparecerá o cartão.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] 1 cartão com { $percent } de facilidade
+       *[other] { $cards } cartões com { $percent } de facilidade
+    }
 statistics-future-due-title = Previsão
 statistics-future-due-subtitle = Quantas revisões agendadas para o futuro.
 statistics-added-title = Adicionado
@@ -119,6 +127,12 @@ statistics-days-ago-single =
        *[other] { $days } dias atrás
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } dias atrás
+statistics-running-total = Total acumulado
+statistics-cards-due =
+    { $cards ->
+        [one] 1 cartão vencido
+       *[other] { $cards } cartões vencidos
+    }
 statistics-intervals-title = Intervalos
 statistics-intervals-subtitle = Intervalos entre as revisões.
 statistics-intervals-day-range =
@@ -153,7 +167,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }m.
 statistics-elapsed-time-years = { $amount }a
 
-
+##
 
 statistics-error-fetching = Dados inválidos encontrados - use Verificar Banco de Dados para corrigir o problema.
 statistics-average-for-days-studied = Média dos dias estudados

@@ -49,6 +49,7 @@ media-check-delete-unused-complete =
        *[other] { $count } arquivos
     } movido para a lixeira.
 media-check-trash-emptied = A pasta da lixeira agora está vazia.
+media-check-trash-restored = Arquivos excluídos foram restaurados para a pasta de mídia.
 
 ## Rendering LaTeX
 

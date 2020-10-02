@@ -15,6 +15,11 @@ database-check-field-count =
         [one] Consertada { $count } nota com contagem do campo errada.
        *[other] Consertadas { $count } notas com contagem do campo errada.
     }
+database-check-new-card-high-due =
+    { $count ->
+        [one] { $count } novo cartão encontrado com um número de vencimento >= 1,000,000 - considere reposicioná-lo na janela do Painel.
+       *[other] { $count } novos cartões encontrados com um número de vencimento >= 1,000,000 - considere reposicioná-los na janela do Painel.
+    }
 database-check-card-missing-note =
     { $count ->
         [one] Excluído { $count } cartão com nota faltando.
@@ -35,6 +40,8 @@ database-check-revlog-properties =
         [one] Consertado { $count } entrada de revisão com propriedades inválidas.
        *[other] Consertados { $count } entradas de revisão com propriedades inválidas.
     }
+# "db-check" is always in English
+database-check-notetypes-recovered = Faltava um ou mais tipos de notas. As notas que usavam esses tipos ausentes receberam novos tipos de notas começando com "db-check", mas os nomes de campo e o design do cartão foram perdidos, por isso talvez seja melhor restaurar a partir de uma cópia de segurança automática.
 
 ## Progress info
 

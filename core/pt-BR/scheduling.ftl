@@ -82,6 +82,10 @@ scheduling-today-new-limit-reached =
     Você pode aumentar o limite nas opções, porém, tenha em mente
     que quanto mais cartões novos você estudar, maior será sua carga
     de revisão a curto prazo.
+scheduling-buried-cards-found = Um ou mais cartões foram enterrados, e serão mostrados amanhã. Você pode { $unburyThem } caso queira vê-los imediatamente.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = desenterrá-los
 scheduling-how-to-custom-study = Se você deseja estudar fora do horário regular, você pode usar o recurso { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
