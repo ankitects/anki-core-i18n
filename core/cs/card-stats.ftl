@@ -1,6 +1,6 @@
 card-stats-added = Přidáno
 card-stats-first-review = První opakování
-card-stats-latest-review = Poslední zkoušení
+card-stats-latest-review = Poslední opakování
 card-stats-ease = Snadnost
 card-stats-review-count = Počet opakování
 card-stats-lapse-count = Chyby
@@ -20,4 +20,3 @@ card-stats-review-log-type-learn = Učení
 card-stats-review-log-type-review = Opakování
 card-stats-review-log-type-relearn = Znovu učené
 card-stats-review-log-type-filtered = Filtrováno
-card-stats-review-log-type-rescheduled = Přeplánovat
