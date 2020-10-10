@@ -14,6 +14,9 @@ card-templates-template-box = Modelo
 card-templates-sample-cloze = Isto é uma { "{{c1::" }exemplo{ "}}" } omissão de palavras.
 card-templates-fill-empty = Preencher Campos Vazios
 card-templates-night-mode = Modo Noturno
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Adicionar classe CSS para dispositivos móveis
 card-templates-preview-settings = Opções
 card-templates-invalid-template-number = O modelo do cartão { $number } tem um problema.
 card-templates-changes-saved = Alterações salvas.
