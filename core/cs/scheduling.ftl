@@ -91,7 +91,7 @@ scheduling-learn-remaining =
         [few] Ještě dnes budou dostupné { $remaining } zbývající karty k zopakování.
        *[other] Ještě dnes bude dostupných { $remaining } zbývajících karet k zopakování.
     }
-scheduling-congratulations-finished = Gratuluji! Tento balík máte pro dnešek hotov.
+scheduling-congratulations-finished = Gratuluji! Tento balík máte prozatím hotov.
 scheduling-today-review-limit-reached =
     Byl dosažen denní limit, ale stále vám zbývají karty k opakování. Zvažte
     zvýšení denního limitu pro lepší zapamatování.

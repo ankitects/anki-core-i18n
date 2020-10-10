@@ -12,6 +12,7 @@ card-templates-template-styling = Styl
 card-templates-front-preview = Náhled líce
 card-templates-back-preview = Náhled rubu
 card-templates-preview-box = Náhled
+card-templates-template-box = Šablona
 card-templates-sample-cloze = Toto je { "{{c1::" }sample{ "}}" } doplňovačka.
 card-templates-fill-empty = Vyplnit prázdná pole
 card-templates-night-mode = Noční režim
@@ -19,3 +20,6 @@ card-templates-night-mode = Noční režim
 # on a mobile device.
 card-templates-add-mobile-class = Zobrazit jako na mobilu
 card-templates-preview-settings = Možnosti
+card-templates-invalid-template-number = Šablona karty { $number } má problém.
+card-templates-changes-saved = Změny uloženy.
+card-templates-discard-changes = Zahodit změny?
