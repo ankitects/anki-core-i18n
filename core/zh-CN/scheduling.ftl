@@ -35,13 +35,20 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] 今天将有{ $remaining }张学习中的卡片到期。
     }
-scheduling-congratulations-finished = 恭喜！你目前已经完成了这个记忆库。
+scheduling-congratulations-finished = 恭喜！你目前已经完成了这个牌组。
 scheduling-today-review-limit-reached =
     达到了今天的复习限制, 但是仍有卡片等待被复习.
     为了最佳化记忆, 可以考虑在设置中增大每日限制.
 scheduling-today-new-limit-reached =
     您仍有新的卡片可以学习，但是已经达到
-    当日限值。您可以在选项中增加限值，但请
+    当日限值。您可以在学习计划中增加限值，但请
     注意，您学习的新卡片越多，您所需的短期
     复习量就越大。
-scheduling-buried-cards-were-delayed = 一些相关或搁置卡片会被推迟到下一学习周期进行。
+scheduling-buried-cards-found = 一或多张卡片已经被暂时搁置，并会在明天出现。如果你想要立即看到这些卡片，你可以{ $unburyThem }
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = 取消暂时搁置
+scheduling-how-to-custom-study = 如果你想要在日常安排外学习，请使用{ $customStudy }功能。
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = 自定义学习

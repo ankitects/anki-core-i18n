@@ -157,4 +157,4 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count }张卡片/天
     }
-statistics-average-ease = 平均难度
+statistics-average-ease = 平均简易度

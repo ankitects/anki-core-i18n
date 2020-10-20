@@ -29,16 +29,16 @@ sync-confirm-empty-download = 本地集合没有任何卡片，您需要从 Anki
 sync-conflict-explanation =
     您的牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。
     
-    如果您选择下载，那么Anki会从Ankiweb下载牌组，而您电脑上最后一次同步后的更改将会丢失。
+    如果您选择下载，那么Anki会从Ankiweb下载集合，而您电脑上最后一次同步后的更改将会丢失。
     
-    如果您选择上传，那么Anki会上传牌组至Ankiweb，而您Ankiweb或其他设备上最后一次同步后的更改将会丢失。
+    如果您选择上传，那么Anki会上传集合至Ankiweb，而您Ankiweb或其他设备上最后一次同步后的更改将会丢失。
     
     当所有设备完成同步后，将来复习和新增的卡片将会被自动合并。
 sync-ankiweb-id-label = 用户名
 sync-password-label = 密码：
 sync-account-required =
     <h1>需先注册</h1>
-    你需要一个免费帐号来同步你的数据. 请<a href="{ $link }">注册</a> 一个帐号,并在下方填写详细资料。
+    你需要一个免费帐号来同步你的集合. 请<a href="{ $link }">注册</a> 一个帐号,并在下方填写详细资料。
 sync-sanity-check-failed = 请使用“检查数据库”功能，然后再次同步。若问题依然存在，请到首选项內強制完全同步。
 sync-clock-off = 无法同步——您的时钟没有调到正确的时间
 
