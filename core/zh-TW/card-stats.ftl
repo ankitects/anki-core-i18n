@@ -21,3 +21,4 @@ card-stats-review-log-type-learn = 新學習的卡
 card-stats-review-log-type-review = 複習
 card-stats-review-log-type-relearn = 重複學習
 card-stats-review-log-type-filtered = 已篩選
+card-stats-review-log-type-manual = 手動
