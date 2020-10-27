@@ -59,7 +59,7 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Estudado { statistics-cards } { $unit ->
+    Estudado(s) { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
@@ -77,11 +77,12 @@ statistics-today-no-mature-cards = Hoje não foram estudados cartões antigos.
 statistics-today-correct-mature = Resposta correta em cartões antigos: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Total de cartões
 statistics-counts-new-cards = Novos
-statistics-counts-young-cards = Jovem
-statistics-counts-mature-cards = Maduro
-statistics-counts-suspended-cards = Suspenso
-statistics-counts-buried-cards = Enterrado
-statistics-counts-learning-cards = Aprendizagem
+statistics-counts-young-cards = Recentes
+statistics-counts-mature-cards = Maduros
+statistics-counts-suspended-cards = Suspensos
+statistics-counts-buried-cards = Ocultos
+statistics-counts-early-cards = Adiantados
+statistics-counts-learning-cards = Aprendendo
 statistics-counts-relearning-cards = Reaprendendo
 statistics-counts-title = Contagem de Cartão
 statistics-range-all-time = sempre
@@ -99,17 +100,17 @@ statistics-card-ease-tooltip =
        *[other] { $cards } cartões com { $percent } de facilidade
     }
 statistics-future-due-title = Previsão
-statistics-future-due-subtitle = Quantas revisões agendadas para o futuro.
+statistics-future-due-subtitle = O número de revisões agendadas para o futuro.
 statistics-added-title = Adicionado
 statistics-added-subtitle = O número de novos cartões que você adicionou.
-statistics-reviews-count-subtitle = Quantas questões você já respondeu.
+statistics-reviews-count-subtitle = O número de questões que você já respondeu.
 statistics-reviews-time-subtitle = O tempo gasto para responder às questões.
 statistics-answer-buttons-title = Botões de Resposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Botão
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Vezes pressionadas
-statistics-answer-buttons-subtitle = Quantas vezes você escolheu cada botão.
+statistics-answer-buttons-subtitle = O número de vezes que você escolheu cada botão.
 statistics-reviews-title = Revisões
 statistics-reviews-time-checkbox = Tempo
 statistics-in-days-single =
@@ -133,6 +134,7 @@ statistics-cards-due =
         [one] 1 cartão vencido
        *[other] { $cards } cartões vencidos
     }
+statistics-backlog-checkbox = Acumulado
 statistics-intervals-title = Intervalos
 statistics-intervals-subtitle = Intervalos entre as revisões.
 statistics-intervals-day-range =
