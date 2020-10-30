@@ -185,6 +185,10 @@ statistics-elapsed-time-hours = { $amount }שע'
 statistics-elapsed-time-days = { $amount } י'
 statistics-elapsed-time-months = { $amount }ח'
 statistics-elapsed-time-years = { $amount } שנ'
+
+##
+
+statistics-error-fetching = נמצאו נתונים שגויים - בדוק את מסד הנתונים בכדי לתקן את הבעיה.
 statistics-average-for-days-studied = ממוצע עבור ימים שנלמדו
 statistics-total = סך-הכל
 statistics-days-studied = ימי לימוד
@@ -193,5 +197,22 @@ statistics-average = ממוצע
 statistics-average-interval = מרווח ממוצע
 statistics-longest-interval = מרווח הזמן הארוך ביותר
 statistics-due-tomorrow = מתוזמן למחר
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } מתוך { $total } ({ $percent }%)
 statistics-average-over-period = אם למדת כל יום
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } חזרה ליום
+       *[other] { $count } חזרות ליום
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } דקה ליום
+       *[other] { $count } דקות ליום
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } כרטיס ליום
+       *[other] { $count } כרטיסים ליום
+    }
 statistics-average-ease = קלות ממוצעת

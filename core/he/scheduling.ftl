@@ -94,4 +94,11 @@ scheduling-today-new-limit-reached =
     תוכל להגדיל את המכסה בהגדרות, אך שים לב כי
     ככל שתציג יותר כרטיסים חדשים, כך יגדל העומס 
     של החזרות שלך בטווח הקצר.
-scheduling-buried-cards-were-delayed = חלק מהכרטיסים המיוחסים או הקבורים נדחו לתקופה מאוחרת יותר.
+scheduling-buried-cards-found = כרטיס אחד או יותר"הוטמנו" ויוצגו מחר. תוכל { $unburyThem } אם תרצה לראות אותם כעת.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = להוציא אותם מ"הטמנה"
+scheduling-how-to-custom-study = אם אתה רוצה ללמוד מחוץ לתוכנית הרגילה, תוכל להשתמש באפשרות { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = לימוד מותאם
