@@ -1,2 +1,1 @@
-importing-failed = Import selhal.
-importing-failed-debug-info = Import selhal. Informace o ladění:
+importing-failed-debug-info = Import selhal. Ladicí informace:

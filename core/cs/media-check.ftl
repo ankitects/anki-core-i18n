@@ -56,10 +56,12 @@ media-check-trash-restored = Odstraněné soubory byly obnoveny do složky s mul
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = Všechen LaTeX vyrenderován.
 
 ## Buttons
 
 media-check-delete-unused = Vymazat nepoužívané soubory
+media-check-render-latex = Renderovat LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = Vysypat koš
 # button to move deleted files from the trash back into the media folder
