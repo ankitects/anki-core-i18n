@@ -14,12 +14,10 @@ sync-media-aborted = Synchronisation des médias abandonnée.
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = Synchronisation des médias désactivée.
-sync-abort-button = Abandonner
-sync-media-log-button = Logs des médias
 # Title of the screen that shows syncing progress history
 sync-media-log-title = Logs de synchronisation des médias
 
-## Error messages
+## Error messages / dialogs
 
 sync-conflict = Une seule copie d’Anki à la fois peut être synchronisée à votre compte. Veuillez patienter quelques minutes et réessayez.
 sync-server-error = AnkiWeb a recontré un problème. Veuillez réessayer dans quelques minutes.
@@ -36,17 +34,28 @@ sync-conflict-explanation =
     Si vous choisissez d'uploader, Anki va envoyer votre collection vers AnkiWeb, et toutes les modifications que vous avez apportées sur AnkiWeb ou vos autres appareils depuis la dernière synchronisation pour ces appareils seront perdues.
     
     Après que tous les appareils soient synchronisés, les futurs révisions et les cartes ajoutées peuvent être fusionnées automatiquement.
-sync-download-from-ankiweb = Télécharger depuis Ankiweb
-sync-upload-to-ankiweb = Envoyer vers Ankiweb
-sync-cancel-button = Annuler
-sync-downloading-from-ankiweb = Téléchargement depuis Ankiweb...
-sync-uploading-to-ankiweb = Téléversement vers AnkiWeb...
-sync-syncing = Synchronisation...
-sync-checking = Vérification...
 sync-ankiweb-id-label = Identifiant Anki :
 sync-password-label = Mot de passe :
 sync-account-required =
     <h1>Compte requis</h1>
     Vous devez posséder un compte pour pouvoir synchroniser votre collection. Merci de <a href="{ $link }">créer un compte</a> gratuitement, puis entrez les informations de connexion ci-dessous.
+sync-sanity-check-failed = Veuillez utiliser la fonction "vérifier la base de donnée" puis synchroniser. Si le problème persiste, forcer une synchronisation complète dans la fenêtre des préfèrences.
+sync-clock-off = Impossible de synchroniser - Votre horloge n'est pas à la bonne heure.
+
+## Buttons
+
+sync-media-log-button = Logs des médias
+sync-abort-button = Abandonner
+sync-download-from-ankiweb = Télécharger depuis Ankiweb
+sync-upload-to-ankiweb = Envoyer vers Ankiweb
+sync-cancel-button = Annuler
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = Téléchargement depuis Ankiweb...
+sync-uploading-to-ankiweb = Téléversement vers AnkiWeb...
+sync-syncing = Synchronisation...
+sync-checking = Vérification...
 sync-connecting = Connexion...
+sync-added-updated-count = Ajoutés/modifiés: { $up }↑ { $down }↓
 sync-log-out-button = Déconnexion

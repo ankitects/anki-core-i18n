@@ -87,12 +87,24 @@ statistics-counts-young-cards = Récentes
 statistics-counts-mature-cards = Mature
 statistics-counts-suspended-cards = Suspendu
 statistics-counts-buried-cards = Enfoui
+statistics-counts-early-cards = Début
 statistics-counts-learning-cards = À repasser
+statistics-counts-relearning-cards = Réapprentissage
+statistics-counts-title = nombre de cartes
 statistics-range-all-time = vie du paquet
 statistics-range-1-year-history = 12 derniers mois
+statistics-range-all-history = tout l'historique
 statistics-range-deck = paquet
 statistics-range-collection = collection
 statistics-range-search = Chercher
+statistics-card-ease-title = Facilité de la carte
+statistics-card-ease-subtitle = Plus la facilité est basse, plus souvent elle va apparaître.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] 1 carte avec { $percent } de facilité.
+       *[other] { $cards } cartes avec { $percent } de facilité.
+    }
 statistics-future-due-title = Charge de travail
 statistics-future-due-subtitle = Prévision du nombre de cartes à réviser selon leur jour d’échéance et leur statut.
 statistics-added-title = Ajouté
@@ -100,14 +112,72 @@ statistics-added-subtitle = Le nombre de nouvelles cartes que vous avez ajoutée
 statistics-reviews-count-subtitle = La part et le nombre de révisions selon le statut de la carte.
 statistics-reviews-time-subtitle = Le temps passé à répondre selon le jour et selon le statut de la carte.
 statistics-answer-buttons-title = Boutons de réponse
+# eg Button: 4
+statistics-answer-buttons-button-number = Bouton
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = nombre de fois pressés
 statistics-answer-buttons-subtitle = Le choix des divers boutons en fonction de l’ancienneté de la carte.
 statistics-reviews-title = Révisions
 statistics-reviews-time-checkbox = Durée
+statistics-in-days-single =
+    { $days ->
+        [0] Aujourd'hui
+        [1] Demain
+        [one] Dans { $days } jours
+       *[other] Dans { $days } jours
+    }
+statistics-in-days-range = Dans { $daysStart }-{ $daysEnd } jours
+statistics-days-ago-single =
+    { $days ->
+        [1] Hier
+        [one] il y a { $days } jours
+       *[other] il y a { $days } jours
+    }
+statistics-days-ago-range = Il y a { $daysStart }-{ $daysEnd } jours
+statistics-running-total = Total cumulé
+statistics-cards-due =
+    { $cards ->
+        [one] 1 carte  expirée
+       *[other] { $cards } cartes  expirées
+    }
+statistics-backlog-checkbox = cumul
 statistics-intervals-title = Intervalles
 statistics-intervals-subtitle = Le nombre de cartes en fonction de leur intervalle de révision.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] 1 carte avec un intervalle de { $daysStart }~{ $daysEnd } jours
+       *[other] { $cards } cartes avec un intervalle de { $daysStart }~{ $daysEnd } jours
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] 1 carte avec un intervalle de { $day } jours
+       *[other] { $cards } cartes avec un intervalle de { $day } jours
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = De { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } correct ({ $percent }%)
 statistics-hours-title = Répartition horaire
 statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heure du jour.
+# shown when graph is empty
+statistics-no-data = PAS DE DONNEE
 statistics-calendar-title = Calendrier
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+statistics-elapsed-time-seconds = { $amount }s
+statistics-elapsed-time-minutes = { $amount }m
+statistics-elapsed-time-hours = { $amount }h
+statistics-elapsed-time-days = { $amount }d
+statistics-elapsed-time-months = { $amount }mois
+statistics-elapsed-time-years = { $amount }année
+
+##
+
+statistics-error-fetching = Donnée non valide - veuillez utiliser "Vérifier la base de données" pour résoudre le problème
 statistics-average-for-days-studied = Moyenne (par jour travaillé)&nbsp;
 statistics-total = Total
 statistics-days-studied = Jours travaillés
@@ -116,5 +186,22 @@ statistics-average = Moyenne
 statistics-average-interval = Intervalle moyen
 statistics-longest-interval = Intervalle le plus long
 statistics-due-tomorrow = Prévues pour demain
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } du { $total } ({ $percent }%)
 statistics-average-over-period = Moyenne (tous jours confondus)&nbsp;
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } révision/jour
+       *[other] { $count } révisions/jour
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } minute/jour
+       *[other] { $count } minutes/jour
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } carte/jour
+       *[other] { $count } cartes/jour
+    }
 statistics-average-ease = Facilité moyenne

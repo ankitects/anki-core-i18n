@@ -25,3 +25,4 @@ card-template-rendering-no-such-field = « { $found } » a été trouvé, mais i
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Le recto de cette carte est vide.
+card-template-rendering-missing-cloze = Aucun résultat n'ont été trouvé pour { $number } sur la carte. Vous pouvez utiliser "supprimer la carte" pour enlever cette carte vide.

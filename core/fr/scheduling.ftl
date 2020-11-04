@@ -82,4 +82,11 @@ scheduling-today-new-limit-reached =
     Cette limite peut-être rehaussée (dans les options), mais n’oubliez pas
     que plus vous introduisez des cartes inédites, plus votre charge de
     travail à court terme sera intense.
-scheduling-buried-cards-were-delayed = Des cartes associées ou enfouies ont été repoussées à une prochaine session.
+scheduling-buried-cards-found = Une ou plusieurs cartes on été bloquée et seront affichée demain. Vous pouvez  { $unburyThem } si vous souhaitez les voir maintenant.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = Débloquez les
+scheduling-how-to-custom-study = Si vous souhaitez réviser hors du calendrier habituel, vous pouvez utiliser la fonction { $customStudy }
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = Révisions particulières
