@@ -1,4 +1,5 @@
 card-stats-added = जोड़े गए
+card-stats-first-review = पहली समीक्षा
 card-stats-latest-review = सब से हाल का समीक्षा
 card-stats-interval = मध्यान्तर
 card-stats-ease = आसानी
