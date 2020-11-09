@@ -9,9 +9,9 @@ notetypes-back-extra-field = 背面額外
 ## Default note type names
 
 notetypes-basic-name = 基本型
-notetypes-basic-reversed-name = 基本型（含反向卡片）
-notetypes-basic-optional-reversed-name = 基本型（可選用反向卡片）
-notetypes-basic-type-answer-name = 基本型（輸入答案）
+notetypes-basic-reversed-name = 基本型 (含反向卡片)
+notetypes-basic-optional-reversed-name = 基本型 (可選用反向卡片)
+notetypes-basic-type-answer-name = 基本型 (輸入答案)
 notetypes-cloze-name = 克漏字
 
 ## Default card template names

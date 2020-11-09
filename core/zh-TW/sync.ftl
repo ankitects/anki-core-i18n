@@ -3,9 +3,9 @@
 
 ## Media synchronization
 
-sync-media-added-count = 已新增：{ $up }↑ { $down }↓
-sync-media-removed-count = 已移除：{ $up }↑ { $down }↓
-sync-media-checked-count = 已檢查：{ $count }
+sync-media-added-count = 已新增: { $up }↑ { $down }↓
+sync-media-removed-count = 已移除: { $up }↑ { $down }↓
+sync-media-checked-count = 已檢查: { $count }
 sync-media-starting = 正在開始同步媒體...
 sync-media-complete = 媒體同步完成。
 sync-media-failed = 媒體同步失敗。
@@ -19,13 +19,13 @@ sync-media-log-title = 媒體同步記錄
 
 ## Error messages / dialogs
 
-sync-conflict = 一次只能同步一份Anki複本到您的帳號。請稍候幾分鐘，然後再試一次。
-sync-server-error = AnkiWeb遇到了一個問題。請在幾分鐘後再試一次。
-sync-client-too-old = 您的Anki版本太舊。請更新至最新版本以繼續同步。
-sync-wrong-pass = AnkiWeb ID或者密碼錯誤；請再試一次。
+sync-conflict = 一次只能同步一份 Anki 複本到您的帳號。請稍候幾分鐘，然後再試一次。
+sync-server-error = AnkiWeb 遇到了一個問題。請在幾分鐘後再試一次。
+sync-client-too-old = 您的 Anki 版本太舊。請更新至最新版本以繼續同步。
+sync-wrong-pass = AnkiWeb ID 或者密碼錯誤；請再試一次。
 sync-resync-required = 請再次同步。若此訊息持續出現，請回報至支援網站。
-sync-must-wait-for-end = Anki正在同步。請等待同步完成，然後再試一次。
-sync-confirm-empty-download = 此裝置上的集合沒有任何卡片，是否要從AnkiWeb下載？
+sync-must-wait-for-end = Anki 正在同步。請等待同步完成，然後再試一次。
+sync-confirm-empty-download = 本地集合沒有任何卡片，是否要從 AnkiWeb 下載？
 sync-conflict-explanation =
     您本地的牌組與 AnkiWeb 牌組之間的差異無法合併，因此需要以某一方的牌組來覆寫另一方的牌組。
     
@@ -34,7 +34,7 @@ sync-conflict-explanation =
     如果您選的是上傳， Anki 會上傳您的集合至 AnkiWeb，而您的AnkiWeb 或其他裝置上次同步以後的變動將會遺失。
     
     當所有的裝置都同步以後，新增的卡片和複習的卡片都能自動合併。
-sync-ankiweb-id-label = AnkiWeb ID：
+sync-ankiweb-id-label = AnkiWeb ID:
 sync-password-label = 密碼:
 sync-account-required =
     <h1>需要帳號</h1>
@@ -57,5 +57,5 @@ sync-uploading-to-ankiweb = 正在上傳到AnkiWeb...
 sync-syncing = 同步中...
 sync-checking = 檢查中...
 sync-connecting = 連線中...
-sync-added-updated-count = 已新增/修改：{ $up }↑ { $down }↓
+sync-added-updated-count = 已新增/修改: { $up }↑ { $down }↓
 sync-log-out-button = 登出

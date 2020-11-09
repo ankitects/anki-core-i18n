@@ -8,7 +8,7 @@ statistics-due-for-new-card = 新 #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute }張卡片/分鐘
-statistics-average-answer-time = { $average-seconds }秒（{ statistics-cards-per-min }）
+statistics-average-answer-time = { $average-seconds }秒 ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -45,28 +45,28 @@ statistics-reviews = { $reviews }張待複習卡片
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    今天在{ $unit ->
+    今天在 { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }學習了{ statistics-cards }（每張卡片{ $secs-per-card }秒）
+    } 學習了 { statistics-cards } (每張卡片 { $secs-per-card } 秒)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }秒
 statistics-today-title = 今天
-statistics-today-again-count = 「再一次」計數：
-statistics-today-type-counts = 學習：{ $learnCount }　複習：{ $reviewCount }　重複學習：{ $relearnCount }　已篩選：{ $filteredCount }
-statistics-today-no-cards = 今天尚未學習任何卡片。
+statistics-today-again-count = 「再一次」計數:
+statistics-today-type-counts = 新學習卡片: { $learnCount }　複習的卡片: { $reviewCount }　重學習卡片: { $relearnCount }　篩選的卡片: { $filteredCount }
+statistics-today-no-cards = 今天尚未學習任何卡片
 statistics-today-no-mature-cards = 今天沒有學習熟練的卡片
-statistics-today-correct-mature = 回答正確的熟練卡片：{ $correct }/{ $total } ({ $percent }%)
+statistics-today-correct-mature = 回答正確的熟練卡片: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 總數
 statistics-counts-new-cards = 新卡片
 statistics-counts-young-cards = 未熟練
 statistics-counts-mature-cards = 熟練
-statistics-counts-suspended-cards = 已暫時停止
-statistics-counts-buried-cards = 已暫時隱藏
+statistics-counts-suspended-cards = 已擱置
+statistics-counts-buried-cards = 已暫停
 statistics-counts-early-cards = 提前學習
 statistics-counts-learning-cards = 學習中
 statistics-counts-relearning-cards = 重新學習中
@@ -111,25 +111,25 @@ statistics-days-ago-single =
        *[other] { $days }天前
     }
 statistics-days-ago-range = { $daysStart }－{ $daysEnd }天前
-statistics-running-total = 計算加總
+statistics-running-total = 當前總數
 statistics-cards-due =
     { $cards ->
        *[other] { $cards }張卡片到期
     }
-statistics-backlog-checkbox = 待處理項目
-statistics-intervals-title = 間隔
+statistics-backlog-checkbox = 積壓卡片
+statistics-intervals-title = 複習間隔
 statistics-intervals-subtitle = 待複習卡片再次出現前的延遲
 statistics-intervals-day-range =
     { $cards ->
-       *[other] { $cards }張間隔為{ $daysStart }~{ $daysEnd }天的卡片
+       *[other] { $cards } 張間隔為 { $daysStart }~{ $daysEnd } 天的卡片
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] { $cards }張間隔為{ $day }天的卡片
+       *[other] { $cards } 張間隔為 { $day } 天的卡片
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = 從{ $hourStart }點~{ $hourEnd }點
-statistics-hours-correct = { $correct }/{ $total } 正確（{ $percent }%）
+statistics-hours-correct = { $correct }/{ $total } 正確 ({ $percent }%)
 statistics-hours-title = 每小時分析
 statistics-hours-subtitle = 當天每小時的複習成功率
 # shown when graph is empty
@@ -149,10 +149,10 @@ statistics-elapsed-time-days = { $amount }天
 statistics-elapsed-time-months = { $amount }個月
 statistics-elapsed-time-years = { $amount }年
 
-
+##
 
 statistics-error-fetching = 發現無效資料——請使用「檢查資料庫」來修正此問題。
-statistics-average-for-days-studied = 平均值（實際學習天數）
+statistics-average-for-days-studied = 平均值 (實際學習天數)
 statistics-total = 總計
 statistics-days-studied = 學習天數
 statistics-average-answer-time-label = 平均答題時間
@@ -161,8 +161,8 @@ statistics-average-interval = 平均間隔
 statistics-longest-interval = 最長的間隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount }/{ $total }（{ $percent }%）
-statistics-average-over-period = 平均值（如果每天都學習）
+statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
+statistics-average-over-period = 平均值 (如果每天都學習)
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count }次複習/天
