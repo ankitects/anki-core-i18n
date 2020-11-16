@@ -1,1 +1,1 @@
-findreplace-notes-updated = 在{ $total }則筆記中更新了 { $changed }則
+findreplace-notes-updated = 已更新 { $changed }/{ $total } 則筆記

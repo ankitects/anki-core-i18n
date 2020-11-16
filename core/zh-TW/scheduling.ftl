@@ -3,24 +3,24 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
-scheduling-answer-button-time-seconds = { $amount }秒
-scheduling-answer-button-time-minutes = { $amount }分
-scheduling-answer-button-time-hours = { $amount }時
-scheduling-answer-button-time-days = { $amount }天
-scheduling-answer-button-time-months = { $amount }個月
-scheduling-answer-button-time-years = { $amount }年
+scheduling-answer-button-time-seconds = { $amount } 秒
+scheduling-answer-button-time-minutes = { $amount } 分
+scheduling-answer-button-time-hours = { $amount } 時
+scheduling-answer-button-time-days = { $amount } 天
+scheduling-answer-button-time-months = { $amount } 個月
+scheduling-answer-button-time-years = { $amount } 年
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
 ## such as in the Interval column of the browse screen,
 ## and labels like "Total Time" in the card info screen.
 
-scheduling-time-span-seconds = { $amount }秒鐘
-scheduling-time-span-minutes = { $amount }分鐘
-scheduling-time-span-hours = { $amount }小時
-scheduling-time-span-days = { $amount }天
-scheduling-time-span-months = { $amount }個月
-scheduling-time-span-years = { $amount }年
+scheduling-time-span-seconds = { $amount } 秒鐘
+scheduling-time-span-minutes = { $amount } 分鐘
+scheduling-time-span-hours = { $amount } 小時
+scheduling-time-span-days = { $amount } 天
+scheduling-time-span-months = { $amount } 個月
+scheduling-time-span-years = { $amount } 年
 
 ## Shown in the "Congratulations!" message after study finishes.
 
@@ -45,7 +45,7 @@ scheduling-next-learn-due =
     }後準備就緒。
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] { $remaining }張學習中的卡片將於今天到期。
+       *[other] { $remaining } 張學習中的卡片將於今天到期。
     }
 scheduling-congratulations-finished = 恭喜！您已完成本牌組當前的學習任務。
 scheduling-today-review-limit-reached =

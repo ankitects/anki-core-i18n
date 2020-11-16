@@ -32,7 +32,7 @@ media-check-unused-file = 未使用: { $filename }
 
 ## Progress
 
-media-check-checked = 已檢查{ $count }...
+media-check-checked = 已檢查 { $count }...
 
 ## Deleting unused media
 
@@ -40,23 +40,23 @@ media-check-delete-unused-confirm = 要刪除未使用的媒體檔嗎？
 media-check-files-remaining =
     剩餘
     { $count ->
-       *[other] { $count }個檔案。
+       *[other] { $count } 個檔案。
     }
 media-check-delete-unused-complete =
     { $count ->
-       *[other] 已移動{ $count }個檔案
+       *[other] 已移動 { $count } 個檔案
     }到垃圾桶。
 media-check-trash-emptied = 已清空垃圾桶資料夾。
 media-check-trash-restored = 恢復已刪除檔案到媒體資料夾。
 
 ## Rendering LaTeX
 
-media-check-all-latex-rendered = 已轉譯所有LaTeX。
+media-check-all-latex-rendered = 已轉譯所有 LaTeX。
 
 ## Buttons
 
 media-check-delete-unused = 刪除未使用檔案
-media-check-render-latex = 轉譯LaTeX
+media-check-render-latex = 轉譯 LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = 清空垃圾桶
 # button to move deleted files from the trash back into the media folder
