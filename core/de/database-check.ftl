@@ -37,8 +37,13 @@ database-check-missing-decks =
     }
 database-check-revlog-properties =
     { $count ->
-        [one] ${ count } Wiederholungseintrag mit ungültigen Eigenschaften wurde repariert.
-       *[other] ${ count }  Wiederholungseinträge mit ungültigen Eigenschaften wurden repariert.
+        [one] { $count } Wiederholungseintrag mit ungültigen Eigenschaften wurde repariert.
+       *[other] { $count } Wiederholungseinträge mit ungültigen Eigenschaften wurden repariert.
+    }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] { $count } Notiz mit ungültigen UTF-8-Zeichen wurden repariert.
+       *[other] { $count } Notizen mit ungültigen UTF-8-Zeichen wurden repariert.
     }
 # "db-check" is always in English
 database-check-notetypes-recovered = Eine oder mehrere Notiztypen fehlten. Den Notizen, die diese genutzt haben, wurden neue Notizentypen beginnend mit "db-check" zugewiesen, aber Feldnamen und Kartendesign sind verloren gegangen. Es könnte besser sein, eine Sicherungskopie zu nutzen.
