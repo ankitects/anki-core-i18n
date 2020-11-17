@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = Anki kann Benutzerprofil nicht lesen. Persönliche Einstellungen wurden nicht übernommen.
+profiles-anki-could-not-rename-your-profile = Anki konnte Ihr Profil nicht umbenennen, weil es den Profilordner nicht umbenennen konnte. Bitte stellen Sie sicher, dass sie Schreibberechtigung auf Dokumente/Anki haben und kein anderes Programm auf Ihren Profilordner zugreift und versuchen Sie es dann erneut.
+profiles-folder-already-exists = Der Ordner existiert bereits.
+profiles-open = &Öffnen
+profiles-open-backup = Sicherungskopie öffnen
+profiles-please-remove-the-folder-and = Bitte den Ordner { $val } löschen und erneut versuchen.
+profiles-profile-corrupt = Benutzerprofil defekt
+profiles-profiles = Profile
+profiles-quit = Beenden
+profiles-user-1 = Benutzer 1

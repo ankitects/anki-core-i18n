@@ -1,0 +1,14 @@
+fields-add-field = Ajouter un champ
+fields-delete-field-from = Retirer le champ de { $val } ?
+fields-editing-font = Police d’écriture
+fields-field = Champ :
+fields-field-name = Nom du champ :
+fields-fields-for = Champs pour { $val }
+fields-font = Police :
+fields-new-position-1 = Nouvelle position (1...{ $val }) :
+fields-notes-require-at-least-one-field = Pas de note sans remplir de champ !
+fields-remember-last-input-when-adding = Conserver le contenu lors de l’ajout
+fields-reverse-text-direction-rtl = Sens de lecture inversé (DàG)
+fields-size = Taille :
+fields-sort-by-this-field-in-the = Trier selon ce champ dans l’explorateur
+fields-that-field-name-is-already-used = Le nom de ce champ est déjà pris.

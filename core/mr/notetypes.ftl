@@ -3,3 +3,7 @@ notetypes-text-field = पाठ्य
 notetypes-basic-name = मूळ
 notetypes-basic-reversed-name = मूळ (व उलट पत्ता)
 notetypes-basic-optional-reversed-name = मूळ (वैकल्पिक उलट पत्ता)
+notetypes-add = जोडा: { $val }
+notetypes-copy = { $val } प्रत
+notetypes-footer = तळटीप
+notetypes-header = शिर्षटीप

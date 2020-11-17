@@ -1,0 +1,14 @@
+fields-add-field = 필드 추가
+fields-delete-field-from = { $val }에서 필드를 삭제할까요?
+fields-editing-font = 글꼴
+fields-field = 필드:
+fields-field-name = 필드 이름:
+fields-fields-for = { $val }의 필드
+fields-font = 글꼴:
+fields-new-position-1 = 새 위치 (1...{ $val }):
+fields-notes-require-at-least-one-field = 노트는 적어도 하나 이상의 필드가 필요합니다.
+fields-remember-last-input-when-adding = 이전에 입력한 내용 유지
+fields-reverse-text-direction-rtl = 글씨 좌우 뒤집기 (RTL)
+fields-size = 크기:
+fields-sort-by-this-field-in-the = 탐색기에서 이 필드를 기준으로 정렬
+fields-that-field-name-is-already-used = 이미 사용 중인 필드 이름입니다.

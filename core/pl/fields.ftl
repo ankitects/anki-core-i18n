@@ -1,0 +1,14 @@
+fields-add-field = Dodaj pole
+fields-delete-field-from = Usunąć pole z { $val }?
+fields-editing-font = Czcionka edycji
+fields-field = Pole:
+fields-field-name = Nazwa pola:
+fields-fields-for = Pola dla { $val }
+fields-font = Czcionka:
+fields-new-position-1 = Nowa pozycja (1...{ $val }):
+fields-notes-require-at-least-one-field = W notatce wymagane jest przynajmniej jedno pole.
+fields-remember-last-input-when-adding = Zapamiętuj ostatnią wartość przy dodawaniu
+fields-reverse-text-direction-rtl = Odwrotny kierunek tekstu (RTL)
+fields-size = Rozmiar:
+fields-sort-by-this-field-in-the = Sortuj w przeglądarce według tego pola
+fields-that-field-name-is-already-used = Ta nazwa pola jest już używana.

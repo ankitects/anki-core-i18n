@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = 프로필 자료를 읽을 수 없었슨니다. 윈도우 크기와 싱크를 위한 로그인 정보가 사라졌습니다.
+profiles-anki-could-not-rename-your-profile = Anki가 하드디스크에 있는 프로필 폴더의 이름을 바꿀 수 없습니다. 내 문서/Anki 폴더에 쓰기 권한을 가지고 있는지 확인하고, 다른 프로그램이 프로필 폴더를 접근 중은 아닌지 확인한 후 다시 시도하세요.
+profiles-folder-already-exists = 이미 존재하는 폴더입니다.
+profiles-open = 열기
+profiles-open-backup = 백업 열기...
+profiles-please-remove-the-folder-and = { $val } 폴더를 삭제한 후 다시 시도해 주세요.
+profiles-profile-corrupt = 오류 있는 프로파일
+profiles-profiles = 프로필
+profiles-quit = 닫기
+profiles-user-1 = 사용자 1

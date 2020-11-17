@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = הוספה (קיצור מקשים: ctrl+enter)
+adding-added = נוספו
+adding-close-and-lose-current-input = סגור תוך השלכת השינויים?
+adding-edit = ערוך את "{ $val }"
+adding-history = היסטוריה
+adding-note-deleted = (רשומה נמחקה)
+adding-shortcut = קיצור דרך: { $val }
+adding-the-first-field-is-empty = השדה הראשון ריק.
+adding-you-have-a-cloze-deletion-note = סוג הרשומה הוא השלמת החסר, אך אין שום חסר להשלמה. להמשיך?

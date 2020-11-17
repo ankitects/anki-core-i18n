@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = Anki nie było w stanie odczytać twoich danych profilowych. Rozmiar okna i dane logowania do synchronizacji zostały zapomniane.
+profiles-anki-could-not-rename-your-profile = Anki nie było w stanie zmienić nazwę Twojego profilu, ponieważ nie udało się zmienić nazwy folderu z profilem na dysku. Upewnij się, że masz uprawnienia do zapisu do Dokumenty/Anki i że żadne inne programy nie korzystają z folderów profilu, a następnie spróbuj ponownie.
+profiles-folder-already-exists = Folder już istnieje.
+profiles-open = Otwórz
+profiles-open-backup = Otwórz kopię zapasową...
+profiles-please-remove-the-folder-and = Usuń folder { $val } i spróbuj ponownie.
+profiles-profile-corrupt = Profil uszkodzony
+profiles-profiles = Profile
+profiles-quit = Zamknij
+profiles-user-1 = Użytkownik 1

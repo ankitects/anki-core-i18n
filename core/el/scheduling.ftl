@@ -29,3 +29,19 @@ scheduling-time-span-years =
        *[other] { $amount } χρόνια
     }
 scheduling-congratulations-finished = Συγχαρητηρία! Ολοκληρώσατε αυτή την τράπουλα για την ώρα.
+scheduling-at-least-one-step-is-required = Τουλάχιστον ένα βήμα απαιτείται.
+scheduling-automatically-play-audio = Αυτόματη ενεργοποίηση ήχου
+scheduling-days = ημέρες
+scheduling-description = Περιγραφή
+scheduling-easy-bonus = Εύκολο bonus
+scheduling-end = (τέλος)
+scheduling-general = Γενικά
+scheduling-ignore-answer-times-longer-than = Αγνόησε απαντήσεις μεγαλύτερες από
+scheduling-learning = Εκμάθηση
+scheduling-new-cards = Νέες Κάρτες
+scheduling-review = Επιθεώρηση
+scheduling-reviews = Επιθεωρήσεις
+scheduling-seconds = δευτερόλεπτα
+scheduling-steps-in-minutes = Βήματα (σε λεπτά)
+scheduling-steps-must-be-numbers = Βήματα πρέπει να είναι αριθμοί.
+scheduling-tag-only = Ετικέτα μόνο

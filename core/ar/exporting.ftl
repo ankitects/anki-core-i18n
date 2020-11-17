@@ -1,0 +1,17 @@
+exporting-all-decks = كل الرزم
+exporting-anki-20-deck = رزمة أنكي 2.0
+exporting-anki-collection-package = حزمة مجموعة أنكي
+exporting-anki-deck-package = حزمة رزمة أنكي
+exporting-cards-in-plain-text = بطاقات بصيغة نصية
+exporting-collection = مجموعة
+exporting-collection-exported = تم تصدير المجموعة.
+exporting-couldnt-save-file = لا يمكن حفظ الملف: { $val }
+exporting-export = تصدير....
+exporting-export-format = <b>صيغة التصدير</b>:
+exporting-include = <b>اشتمل</b>
+exporting-include-html-and-media-references = تضمين HTML ومراجع الوسائط
+exporting-include-media = تضمين الوسائط
+exporting-include-scheduling-information = تضمين معلومات الجدولة
+exporting-include-tags = تضمين الوسوم
+exporting-notes-in-plain-text = ملحوظات بصيغة نصية
+exporting-selected-notes = الملحوظات المحددة

@@ -1,0 +1,15 @@
+exporting-all-decks = Todos os Baralhos
+exporting-anki-20-deck = Baralho Anki 2.0
+exporting-anki-collection-package = Pacote de coleção de Anki
+exporting-anki-deck-package = Pacote Anki Baralho
+exporting-cards-in-plain-text = Fichas em texto simples
+exporting-collection = coleção
+exporting-collection-exported = Coleção exportada.
+exporting-couldnt-save-file = Não foi possível salvar o ficheiro: { $val }
+exporting-export = Exportar...
+exporting-export-format = <b>Formato a exportar</b>:
+exporting-include = <b>Incluir</b>:
+exporting-include-media = Incluir média
+exporting-include-scheduling-information = Incluir informações de agendamento
+exporting-include-tags = Incluir etiquetas
+exporting-notes-in-plain-text = Notas em Texto Puro

@@ -1,0 +1,14 @@
+fields-add-field = Alan Ekle
+fields-delete-field-from = { $val } dan itibaren haneleri sil
+fields-editing-font = Yazı tipi düzenlemesi
+fields-field = Alan:
+fields-field-name = Alan adı:
+fields-fields-for = { $val } için alanlar
+fields-font = Yazı tipi:
+fields-new-position-1 = Yeni sıralama (1...{ $val }):
+fields-notes-require-at-least-one-field = En az bir alan gereken notlar.
+fields-remember-last-input-when-adding = Eklerken son girişi hatırla
+fields-reverse-text-direction-rtl = Yazı yönünü değiştir (RTL)
+fields-size = Boyut:
+fields-sort-by-this-field-in-the = Tarayıcıda bu alana göre sırala
+fields-that-field-name-is-already-used = Bu alan adı zaten kullanılmış.

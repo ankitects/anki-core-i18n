@@ -24,3 +24,6 @@ scheduling-time-span-years = { $amount ->
     [one] {$amount} annus
    *[other] {$amount} anni
   }
+scheduling-days = dies
+scheduling-end = (finis)
+scheduling-seconds = secundae

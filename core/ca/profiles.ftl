@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = Anki no ha pogut consultar les dades del seu perfil. S'han oblidat les mides de les finestres i la informació d'accés a la sincronizació.
+profiles-anki-could-not-rename-your-profile = Anki no ha pogut renombrar el teu perfil, atès que no ha pogut renombrar la carpeta del perfil en el disc. Assegura't de que tens permís d'escriptura a Documents/Anki i que no hi ha altre sprogrames accedint-hi i torna-ho a intantar.
+profiles-folder-already-exists = Aquesta carpeta ja existeix.
+profiles-open = Obre
+profiles-open-backup = Obrir una còpia de seguretat...
+profiles-please-remove-the-folder-and = Sisplau, elimina la carpeta { $val } i intenti de nou.
+profiles-profile-corrupt = Profilo corrupte
+profiles-profiles = Perfils
+profiles-quit = Surt
+profiles-user-1 = Usuari 1

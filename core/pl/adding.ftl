@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = Dodaj (skrót: ctrl+enter)
+adding-added = Dodano
+adding-close-and-lose-current-input = Zamknąć i porzucić aktualne dane?
+adding-edit = Edytuj "{ $val }"
+adding-history = Historia
+adding-note-deleted = (Notatka usunięta)
+adding-shortcut = Skrót: { $val }
+adding-the-first-field-is-empty = Pierwsze pole jest puste.
+adding-you-have-a-cloze-deletion-note = Wybrano typ Luka, ale nie ma żadnych luk do wypełnienia. Kontynuować?

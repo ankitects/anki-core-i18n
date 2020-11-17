@@ -1,0 +1,14 @@
+fields-add-field = إضافة حقل
+fields-delete-field-from = هل تريد حذف الحقل من { $val }؟
+fields-editing-font = خط التحرير
+fields-field = حقل:
+fields-field-name = اسم الحقل:
+fields-fields-for = حقول { $val }
+fields-font = خط:
+fields-new-position-1 = الموضع الجديد: (1...{ $val }):
+fields-notes-require-at-least-one-field = تتطلب الملحوظات حقلًا واحدًا على الأقل.
+fields-remember-last-input-when-adding = تذكّر المدخلات الأخيرة عند الإضافة
+fields-reverse-text-direction-rtl = قلب اتجاه النص (من اليمين إلى اليسار)
+fields-size = حجم:
+fields-sort-by-this-field-in-the = فرز حسب هذا الحقل في المتصفح
+fields-that-field-name-is-already-used = اسم الحقل مستخدم بالفعل.

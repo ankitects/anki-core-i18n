@@ -22,3 +22,12 @@ scheduling-time-span-years = { $amount ->
     [one] {$amount} aasta
    *[other] {$amount} aastat
   }
+scheduling-automatically-play-audio = Mängi heli automaatselt
+scheduling-days = päevad
+scheduling-end = (lõpp)
+scheduling-lapses = Ajavahemik
+scheduling-review = Korda
+scheduling-reviews = Kordamised
+scheduling-show-new-cards-before-reviews = Näita uusi kaarte enne kordamist
+scheduling-show-new-cards-in-order-added = Näita uusi kaarte lisamise järjekorras
+scheduling-show-new-cards-in-random-order = Näita uusi kaarte suvalises järjekorras

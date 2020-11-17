@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = Hinzufügen (Tastenkürzel: Strg+Eingabe)
+adding-added = Hinzugefügt
+adding-close-and-lose-current-input = Schließen und aktuelle Eingabe verwerfen?
+adding-edit = { $val }...
+adding-history = Verlauf
+adding-note-deleted = (Notiz gelöscht)
+adding-shortcut = Tastenkürzel: { $val }
+adding-the-first-field-is-empty = Das erste Feld ist leer.
+adding-you-have-a-cloze-deletion-note = 'Lückentext' als Notiztyp gewählt, aber keinen Lückentext eingegeben. Trotzdem fortfahren?

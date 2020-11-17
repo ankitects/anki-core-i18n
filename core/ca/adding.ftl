@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = Afegir (drecera: ctrl+retorn)
+adding-added = S'ha afegit
+adding-close-and-lose-current-input = Tancar i perdre l'entrada actual?
+adding-edit = Editar "{ $val }"
+adding-history = Història
+adding-note-deleted = (Nota esborrada)
+adding-shortcut = Drecera: { $val }
+adding-the-first-field-is-empty = El primer camp està buit.
+adding-you-have-a-cloze-deletion-note = Tens un tipus de nota de Blancs per omplir però no has inserit cap blanc. Vols continuar?

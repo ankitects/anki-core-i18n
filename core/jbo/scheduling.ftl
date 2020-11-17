@@ -43,3 +43,22 @@ scheduling-today-new-limit-reached =
     karda poi cnino cu zenba cu rinka lo nu lo ni gunka poi ze'a ba
     se bilga do cu zmadu
 scheduling-buried-cards-were-delayed = .i su'o karda poi ckini ja cu zasni se mipri pu zi binxo lo ka ce'u jai balvi
+scheduling-automatically-play-audio = nu zmiku lo ka ce'u te snavi
+scheduling-bury-related-new-cards-until-the = zasni mipri pu'o lo bavlamdei ro karda poi ckini je cu cnino
+scheduling-bury-related-reviews-until-the-next = zasni mipri pu'o lo bavlamdei ro se morji poi ckini
+scheduling-days = djedi
+scheduling-description = ve skicu
+scheduling-end = fanmo
+scheduling-lapses = fliba lo ka morji
+scheduling-lapses2 = fliba lo ka morji
+scheduling-learning = cilre
+scheduling-leech-threshold = toldju jimte
+scheduling-new-cards = karda je cu cnino
+scheduling-new-options-group-name = basti fi lo ka cmene lo te tcimi'e selcmi
+scheduling-options-group = te tcimi'e selcmi
+scheduling-order = se porsi
+scheduling-review = morji
+scheduling-reviews = morji
+scheduling-seconds = snidu
+scheduling-show-answer-timer = nu lo spuda temci cu visycu'i
+scheduling-your-changes-will-affect-multiple-decks = .i za'u pa karda selcmi pu'o binxo .i pa da poi karda selcmi je cu se cuxna zo'u ga na ja do djica lo ka ce'u bixygau da po'o gi ko cupra pa te tcimi'e selcmi poi cnino

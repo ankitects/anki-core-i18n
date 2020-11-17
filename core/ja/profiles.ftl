@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = プロファイルデータを読み込むことができません。ウィンドウサイズと同期のためのログイン詳細が除去されています。
+profiles-anki-could-not-rename-your-profile = プロファイルの名前を変更できませんでした。ディスク上のプロファイルフォルダの名前が変更できないためです。Documents/Anki フォルダへの書き込み権限を設定していて、他のプログラムからプロファイルフォルダへアクセスしていないことを確認してから、もう一度実行してください。
+profiles-folder-already-exists = 使用済みのフォルダー名です。
+profiles-open = 開く
+profiles-open-backup = バックアップを開く...
+profiles-please-remove-the-folder-and = フォルダー { $val } を削除してから、もう一度実行してください。
+profiles-profile-corrupt = プロファイルの破損
+profiles-profiles = プロファイル
+profiles-quit = 終了
+profiles-user-1 = ユーザー 1

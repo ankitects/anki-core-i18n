@@ -1,0 +1,12 @@
+editing-add-media = Dodaj večpredstavnostno datoteko
+editing-cut = Izreži
+editing-edit-current = Uredi trenutno
+editing-edit-html = Uredi HTML
+editing-fields = Polja
+editing-html-editor = Urejevalnik HTML
+editing-latex-equation = LaTeX enačba
+editing-latex-math-env = LaTeX matematična spr.
+editing-media = Večpredstavnostna datoteka
+editing-paste = Prilepi
+editing-show-duplicates = Prikaži dvojnike
+editing-tags = Oznake

@@ -1,0 +1,15 @@
+editing-add-media = Adaugă fişierul multimedia
+editing-an-error-occurred-while-opening = A apărut o eroare la deschiderea { $val }
+editing-cards = Carduri
+editing-cut = Tăiere
+editing-edit-current = Editează curent
+editing-edit-html = Editează HTML
+editing-fields = Câmpuri
+editing-html-editor = Editor HTML
+editing-jump-to-tags-with-ctrlandshiftandt = Sări la etichete cu Ctrl+Shift+T
+editing-latex = LaTeX
+editing-latex-equation = Ecuație LaTeX
+editing-latex-math-env = Mediu matematic LaTex
+editing-media = Media
+editing-paste = Lipește
+editing-tags = Etichete

@@ -1,0 +1,10 @@
+fields-add-field = Adaugă câmp
+fields-delete-field-from = Ștergi câmpul de la { $val }?
+fields-editing-font = Editare font
+fields-field = Câmp:
+fields-field-name = Nume câmp:
+fields-fields-for = Câmpuri pentru { $val }
+fields-font = Font:
+fields-new-position-1 = Poziție nouă (1...{ $val }):
+fields-reverse-text-direction-rtl = Direcție inversată a textului
+fields-size = Mărime:

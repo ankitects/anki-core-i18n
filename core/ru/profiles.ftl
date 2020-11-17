@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = Anki не смогла прочесть ваш профиль. Размеры окон и учётная запись сброшены.
+profiles-anki-could-not-rename-your-profile = Anki не смогла переименовать ваш профиль, потому что не смогла переименовать папку на диске. Проверьте, что у вас права записи в «Документы» и папку Anki и что другие программы не используют эти папку. Потом попробуйте снова.
+profiles-folder-already-exists = Папка уже существует.
+profiles-open = Открыть
+profiles-open-backup = Открыть резервную копию...
+profiles-please-remove-the-folder-and = Удалите папку { $val } и попробуйте снова.
+profiles-profile-corrupt = Профиль повреждён
+profiles-profiles = Профили
+profiles-quit = Выйти
+profiles-user-1 = 1-й пользователь

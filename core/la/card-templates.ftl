@@ -1,0 +1,3 @@
+card-templates-add-card-type = Adde genus cartae...
+card-templates-off =  (inactivum)
+card-templates-on =  (activum)

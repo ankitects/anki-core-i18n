@@ -1,0 +1,10 @@
+studying-again = पुन्हा
+studying-bury = गाडा
+studying-easy = सोपे
+studying-edit = संपादित करा
+studying-empty = रिकामे
+studying-good = चांगले
+studying-hard = कठीण
+studying-more = अधिक
+studying-show-answer = उत्तर दाखवा
+studying-suspend = निलंबित करा

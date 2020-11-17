@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = Anki לא הצליח לקרוא את נתוני הפרופיל שלך. ממדי החלון ופרטי התחברות הסנכרון שלך נשכחו.
+profiles-anki-could-not-rename-your-profile = Anki לא הצליח לשנות את שם הפרופיל שלך בגלל שהוא לא הצליח לשנות את שם תיקיית הפרופיל על הדיסק. אנא וודא שיש לך הרשאת כתיבה ל-Documents/Anki ושום תוכנות אחרות לא ניגשות לתיקיות הפרופיל שלך, ולאחר מכן נסה שנית.
+profiles-folder-already-exists = תיקייה כבר קיימת.
+profiles-open = פתח
+profiles-open-backup = פתח גיבוי...
+profiles-please-remove-the-folder-and = מחק את התיקייה { $val } ונסה שוב.
+profiles-profile-corrupt = הפרופיל פגום
+profiles-profiles = פרופילים
+profiles-quit = יציאה
+profiles-user-1 = משתמש 1

@@ -1,0 +1,17 @@
+editing-add-media = Thêm dữ liệu Phương tiện
+editing-an-error-occurred-while-opening = Có lỗi xảy ra khi mở { $val }
+editing-cards = Thẻ
+editing-cut = Cắt
+editing-edit-current = Sửa Ghi chú Hiện hành
+editing-edit-html = Sửa HTML
+editing-fields = Trường tin
+editing-html-editor = Trình soạn thảo HTML
+editing-jump-to-tags-with-ctrlandshiftandt = Nhảy đến nhãn với Ctrl+Shift+T
+editing-latex-equation = Phương trình LaTeX
+editing-latex-math-env = Môi trường toán LaTeX
+editing-media = Phương tiện
+editing-paste = Dán
+editing-show-duplicates = Hiện Thẻ trùng
+editing-tags = Nhãn
+editing-to-make-a-cloze-deletion-on = Để tạo chỗ điền trống trong phiếu hiện có, trước tiên cần chuyển nó sang kiểu phiếu điền chỗ trống, bằng cách chọn Chỉnh sửa>Đổi Kiểu Phiếu.
+editing-warning-cloze-deletions-will-not-work = Cảnh báo, nút tạo chỗ trống sẽ không hoạt động được cho đến khi bạn chuyển kiểu phiếu ở trên cùng sang kiểu Điền chỗ trống.

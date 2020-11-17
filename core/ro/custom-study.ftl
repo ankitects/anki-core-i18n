@@ -1,0 +1,16 @@
+custom-study-cards = carduri
+custom-study-cards-from-the-deck = carduri din pachet
+custom-study-choose-tags = Alege etichetele
+custom-study-custom-study-session = Sesiunea de studiu personalizat
+custom-study-due-cards-only = Doar cardurile programate
+custom-study-increase-todays-new-card-limit = Crește limita cardurilor noi de astăzi
+custom-study-increase-todays-new-card-limit-by = Mărește limita cardurilor noi de astăzi la
+custom-study-increase-todays-review-card-limit = Mărește limita cardurilor repetate astăzi
+custom-study-increase-todays-review-limit-by = Mărește limita repetițiilor de astăzi la
+custom-study-new-cards-only = Doar carduri noi
+custom-study-no-cards-matched-the-criteria-you = Niciun card nu s-a potrivit cu criteriul pe care l-ai oferit
+custom-study-ok = OK
+custom-study-preview-new-cards = Previzualizare carduri noi
+custom-study-preview-new-cards-added-in-the = Previzualizare carduri noi adăugate în ultima/ultimele
+custom-study-select = Selectează
+custom-study-selective-study = Studiu selectiv

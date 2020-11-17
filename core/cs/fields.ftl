@@ -1,0 +1,14 @@
+fields-add-field = Přidat pole
+fields-delete-field-from = Vymazat pole z { $val }?
+fields-editing-font = Písmo
+fields-field = Pole:
+fields-field-name = Jméno pole:
+fields-fields-for = Pole pro { $val }
+fields-font = Písmo:
+fields-new-position-1 = Nová pozice (1...{ $val }):
+fields-notes-require-at-least-one-field = Poznámky vyžadují alespoň jedno pole.
+fields-remember-last-input-when-adding = Při přidávání si pamatovat poslední vstup
+fields-reverse-text-direction-rtl = Text zprava doleva (RTL)
+fields-size = Velikost:
+fields-sort-by-this-field-in-the = Setřídit prohlížeč dle tohoto pole
+fields-that-field-name-is-already-used = Takové pole už existuje.

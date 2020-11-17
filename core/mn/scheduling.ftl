@@ -32,3 +32,10 @@ scheduling-time-span-years = { $amount ->
     [one] {$amount} жил
    *[other] {$amount} жил
   }
+scheduling-days = өдрүүд
+scheduling-lapses = Цаг алдалт
+scheduling-review = Давталт
+scheduling-reviews = Давталтууд
+scheduling-show-new-cards-before-reviews = Шинэ картыг бүх хуучин картын өмнө үзэх
+scheduling-show-new-cards-in-order-added = Шинэ картыг нэмсэн дарааллаар үзэх
+scheduling-show-new-cards-in-random-order = Шинэ картыг санамсаргүй дарааллаар үзэх

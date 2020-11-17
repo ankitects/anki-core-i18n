@@ -22,3 +22,13 @@ scheduling-time-span-years = { $amount ->
     [one] {$amount} aseggas
    *[other] {$amount} iseggasen
   }
+scheduling-days = ussan
+scheduling-description = Aseglem
+scheduling-end = (tagara)
+scheduling-general = Amatu
+scheduling-order = Amizzwer
+scheduling-parent-limit = (talast tamarawt: { $val })
+scheduling-review = Cegger
+scheduling-seconds = tasinin
+scheduling-steps-in-minutes = Imecwaṛen (s tesdatin)
+scheduling-steps-must-be-numbers = Yesssefk imecwaṛen ad ilin d imḍanen.

@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = 추가 (단축키: ctrl+enter)
+adding-added = 추가됨
+adding-close-and-lose-current-input = 입력한 내용을 포기하고 창을 닫을까요?
+adding-edit = "{ $val }" 수정하기
+adding-history = 내력
+adding-note-deleted = (노트 삭제됨)
+adding-shortcut = 단축키: { $val }
+adding-the-first-field-is-empty = 첫째 필드가 비어있습니다.
+adding-you-have-a-cloze-deletion-note = 빈칸 유형의 노트를 지정했지만 빈칸이 뚫리지 않았습니다. 계속 진행할까요?

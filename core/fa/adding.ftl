@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = افزودن (میانبر: کنترل+اینتر)
+adding-added = اضافه‌شده
+adding-close-and-lose-current-input = بستن و از دست دادن اطلاعات ورودی جاری؟
+adding-edit = ویرایش "{ $val }"‌
+adding-history = تاریخچه
+adding-note-deleted = (یادداشت حذف شد)
+adding-shortcut = میانبر: ‪{ $val }
+adding-the-first-field-is-empty = اولین فیلد خالی است.
+adding-you-have-a-cloze-deletion-note = یک نوع یادداشت با جای خالی دارید اما هیچ جای خالی ایجاد نشده است.ادامه می دهید؟

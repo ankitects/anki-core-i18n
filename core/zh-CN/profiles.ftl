@@ -1,0 +1,10 @@
+profiles-anki-could-not-read-your-profile = Anki无法读取您的资料数据。窗口大小和您的同步登录细节已丢失。
+profiles-anki-could-not-rename-your-profile = 因为Anki不能重命名你的配置文件夹，所以不能重命名你的配置文件。请确定你有文档/Anki文件夹的写权限，同时没有其它程序正在访问你的配置文件目录后，再重试。
+profiles-folder-already-exists = 文件夹已存在.
+profiles-open = 打开
+profiles-open-backup = 打开备份...
+profiles-please-remove-the-folder-and = 请删除目录 { $val } 后再重试。
+profiles-profile-corrupt = 资料损坏。
+profiles-profiles = 个人配置文件
+profiles-quit = 退出
+profiles-user-1 = 用户1

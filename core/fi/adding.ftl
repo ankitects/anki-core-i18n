@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = Lisää (pikanäppäinyhdistelmä: Ctrl + enter)
+adding-added = Lisätty
+adding-close-and-lose-current-input = Avoinna olevan kortin tiedot katoavat. Haluatko sulkea ikkunan?
+adding-edit = Muokkaa "{ $val }"
+adding-history = Historia
+adding-note-deleted = (Muistiinpano poistettu)
+adding-shortcut = Oikotie: { $val }
+adding-the-first-field-is-empty = Ensimmäinen kenttä on tyhjä.
+adding-you-have-a-cloze-deletion-note = Sinulla on aukkotehtävätyyppi, mutta et ole tehnyt yhtään aukkotehtävää. Jatketaanko?

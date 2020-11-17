@@ -1,0 +1,15 @@
+editing-add-media = Medya Ekle
+editing-an-error-occurred-while-opening = { $val } 'i açarken bir hata oluştu.
+editing-cards = Kartlar
+editing-cut = Kes
+editing-edit-current = Mevcut olanı düzenle
+editing-edit-html = HTML'yi düzenle
+editing-fields = Alanlar
+editing-html-editor = HTML Düzenleyici
+editing-jump-to-tags-with-ctrlandshiftandt = Ctrl+Shift+T ile etiketlere geçiş yapın
+editing-latex-equation = LaTeX eşitliği
+editing-latex-math-env = LaTeX matematik ort.
+editing-media = İçerik
+editing-paste = Yapıştır
+editing-show-duplicates = Yinelenenleri Göster
+editing-tags = Etiketler

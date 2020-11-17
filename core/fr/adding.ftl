@@ -1,0 +1,9 @@
+adding-add-shortcut-ctrlandenter = Ajouter (raccourci : Ctrl+Entrée)
+adding-added = Ajouté
+adding-close-and-lose-current-input = Fermer en perdant la saisie en cours ?
+adding-edit = Modifier « { $val } »
+adding-history = Historique
+adding-note-deleted = (Note effacée)
+adding-shortcut = Raccourci : { $val }
+adding-the-first-field-is-empty = Le premier champ est vide
+adding-you-have-a-cloze-deletion-note = Le type de carte est « Texte à trous » mais vous n’avez pas choisi de mot à cacher. Continuer quand même ?

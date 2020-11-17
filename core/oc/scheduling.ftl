@@ -22,3 +22,13 @@ scheduling-time-span-years = { $amount ->
     [one] {$amount} an
    *[other] {$amount} ans
   }
+scheduling-at-least-one-step-is-required = Al mens una etapa es requesida.
+scheduling-automatically-play-audio = Jogar l’àudio automaticament
+scheduling-days = jorns
+scheduling-description = Descripcion
+scheduling-end = (fin)
+scheduling-new-cards = Cartas novèlas
+scheduling-parent-limit = (limit parent : { $val })
+scheduling-review = Contrarotlar
+scheduling-reviews = Revisions
+scheduling-seconds = segondas
