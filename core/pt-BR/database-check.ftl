@@ -40,6 +40,11 @@ database-check-revlog-properties =
         [one] Consertado { $count } entrada de revisão com propriedades inválidas.
        *[other] Consertados { $count } entradas de revisão com propriedades inválidas.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] { $count } nota corrigida com caracteres UTF-8 inválidos.
+       *[other] { $count } notas corrigidas com caracteres UTF-8 inválidos.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Faltava um ou mais tipos de notas. As notas que usavam esses tipos ausentes receberam novos tipos de notas começando com "db-check", mas os nomes de campo e o design do cartão foram perdidos, por isso talvez seja melhor restaurar a partir de uma cópia de segurança automática.
 
