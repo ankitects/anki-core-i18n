@@ -30,3 +30,21 @@ importing-this-will-delete-your-existing-collection = S tem boste izbrisali vaš
 importing-unable-to-import-from-a-readonly = Uvoz iz datoteke, ki je označena samo za branje, ni mogoč.
 importing-unknown-file-format = Neznana oblika datoteke.
 importing-update-existing-notes-when-first-field = Posodobi obstoječe zapiske, ko se prvi polji ujemata
+importing-note-added = { $count ->
+    [one] Dodanih { $count } zapiskov
+    [two] Dodan { $count } zapisek
+    [few] Dodana { $count } zapiska
+   *[other] Dodanih { $count } zapiskov
+  }
+importing-note-imported = { $count ->
+    [one] Uvoženih { $count } zapiskov.
+    [two] Uvožen { $count } zapisek.
+    [few] Uvožena { $count } zapiska.
+   *[other] Uvoženi { $count } zapiski.
+  }
+importing-note-updated = { $count ->
+    [one] Posodobljenih { $count } zapiskov
+    [two] Posodobljen { $count } zapisek
+    [few] Posodobljena { $count } zapiska
+   *[other] Posodobljeni { $count } zapiski
+  }

@@ -31,3 +31,7 @@ scheduling-reviews = Kordamised
 scheduling-show-new-cards-before-reviews = Näita uusi kaarte enne kordamist
 scheduling-show-new-cards-in-order-added = Näita uusi kaarte lisamise järjekorras
 scheduling-show-new-cards-in-random-order = Näita uusi kaarte suvalises järjekorras
+scheduling-deck-updated = { $count ->
+    [one] { $count } kaardipakk värskendatud.
+   *[other] { $count } kaardipakki värskendatud.
+  }

@@ -131,3 +131,7 @@ scheduling-steps-must-be-numbers = I passi devono essere numeri.
 scheduling-tag-only = Etichetta soltanto
 scheduling-the-default-configuration-cant-be-removed = La configurazione predefinita non può essere rimossa.
 scheduling-your-changes-will-affect-multiple-decks = I tuoi cambiamenti avranno effetto su più mazzi. Se vuoi cambiare solo il mazzo corrente, aggiungi dapprima un nuovo gruppo di opzioni.
+scheduling-deck-updated = { $count ->
+    [one] { $count } mazzo aggiornato.
+   *[other] { $count } mazzi aggiornati.
+  }

@@ -43,3 +43,17 @@ card-templates-on = (i bhfeidhm)
 card-templates-remove-card-type = Bain Amach Cineál Cárta...
 card-templates-rename-card-type = Athainmnigh Cineál Cárta...
 card-templates-reposition-card-type = Bog Cineál Cárta...
+card-templates-card-count = { $count ->
+    [one] { $count } cárta
+    [two] { $count } cártaí
+    [few] { $count } chárta
+    [many] { $count } gcárta
+   *[other] { $count } cárta
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Cruthóidh é seo { $count } chárta amháin. Lean ar aghaidh?
+    [two] Cruthóidh é seo { $count } chárta. Lean ar aghaidh?
+    [few] Cruthóidh é seo { $count } chárta. Lean ar aghaidh?
+    [many] Cruthóidh é seo { $count } gcárta. Lean ar aghaidh?
+   *[other] Cruthóidh é seo { $count } cárta. Lean ar aghaidh?
+  }

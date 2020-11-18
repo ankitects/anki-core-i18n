@@ -81,3 +81,15 @@ browsing-toggle-mark = nu se tcita binxo
 browsing-toggle-suspend = nu se mipri binxo
 browsing-type-here-to-search = .i zukte lo ka ce'u samci'a fi ti vau lo ka ce'u sisku .i lo nu katcygau la'o zoi. Enter .zoi rinka lo nu catlu lo karda selcmi poi se cuxna
 browsing-whole-collection = mulno ke karda selcmi selcmi
+browsing-group = { $count ->
+   *[other] { $count } selcmi
+  }
+browsing-note-count = { $count ->
+   *[other] { $count } karda datni
+  }
+browsing-note-deleted = { $count ->
+   *[other] .i mo'u vimcu { $count } karda datni
+  }
+browsing-selected = { $count ->
+   *[other] .i cuxna { $count } da
+  }

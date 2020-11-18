@@ -102,3 +102,19 @@ browsing-treat-input-as-regular-expression = התייחס לערך המוזן כ
 browsing-type-here-to-search = <הקלד כאן ע"מ לחפש; הקש אנטר להצגת חפיסה נוכחית>
 browsing-whole-collection = כלל המאגר
 browsing-you-must-have-at-least-one = חייבת להיות לך לפחות עמודה אחת.
+browsing-group = { $count ->
+    [one] { $count } קבוצה
+   *[other] { $count } קבוצות
+  }
+browsing-note-count = { $count ->
+    [one] { $count } רשומה
+   *[other] { $count } רשומות
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } רשומה נמחקה.
+   *[other] { $count } רשומות נמחקו.
+  }
+browsing-selected = { $count ->
+    [one] { $count } נבחר
+   *[other] { $count } נבחרו
+  }

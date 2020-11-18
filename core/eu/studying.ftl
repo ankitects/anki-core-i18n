@@ -33,3 +33,15 @@ studying-to-review = Berrikusteko
 studying-type-answer-unknown-field = Eremu ezezagunai : { $val }
 studying-unbury = Lurpetik jalgi
 studying-you-havent-recorded-your-voice-yet = Ez duzu zure ahotsa grabatu oraindik.
+studying-card-studied-in = { $count ->
+    [one] Karta { $count } ikasita
+   *[other] { $count } karta ikasita
+  }
+studying-minute = { $count ->
+    [one] Minutu { $count }.
+   *[other] { $count } minutu.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] oharra eta bere { $count } karta ezabatuta dira
+   *[other] oharra eta bere { $count } kartak ezabatutak dira
+  }

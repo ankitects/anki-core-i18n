@@ -6,3 +6,11 @@ exporting-export = Sifeḍ...
 exporting-export-format = <b>Amasal n usifeḍ</b>:
 exporting-include = <b>Seddu</b>:
 exporting-include-tags = Seddu ticraḍ
+exporting-card-exported = { $count ->
+    [one] { $count } tkarḍa tettusifeḍ.
+   *[other] { $count } tkarḍiwin ttusifeḍen.
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } tezmilt tettusifeḍ.
+   *[other] { $count } tizmilinttusifḍent.
+  }

@@ -27,3 +27,7 @@ decks-reschedule-cards-based-on-my-answers = Reprogramar tarxetas en función da
 decks-study = Estudar
 decks-study-deck = Estudar un feixe
 decks-the-provided-search-did-not-match = A busca solicitada non devolveu ningunha tarxeta. Quere revisalo?
+decks-it-has-card = { $count ->
+    [one]  Ten { $count } tarxeta.
+   *[other]  Ten { $count } tarxetas.
+  }

@@ -42,3 +42,18 @@ studying-type-answer-unknown-field = Napíšte odpoveď: neznáme pole { $val }
 studying-unbury = Vyhrabať
 studying-what-would-you-like-to-unbury = Čo by ste chceli vyhrabať?
 studying-you-havent-recorded-your-voice-yet = Zatiaľ ste nenahrali svoj hlas.
+studying-card-studied-in = { $count ->
+    [one] naučených { $count } kariet
+    [few] naučená { $count } karta
+   *[other] naučené { $count } karty
+  }
+studying-minute = { $count ->
+    [one] { $count } minút.
+    [few] { $count } minútu.
+   *[other] { $count } minúty.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Poznámka a jej { $count } kariet odstránených.
+    [few] Poznámka a jej { $count } karta odstránené.
+   *[other] Poznámka a jej { $count } karty odstránené.
+  }

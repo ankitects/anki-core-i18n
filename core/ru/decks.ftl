@@ -31,3 +31,8 @@ decks-reschedule-cards-based-on-my-answers = Перепланировать ка
 decks-study = Учить
 decks-study-deck = Учить колоду
 decks-the-provided-search-did-not-match = Нет карточек, удовлетворяющих условиям поиска. Желаете задать новые?
+decks-it-has-card = { $count ->
+    [one]  Содержит { $count } карточку.
+    [few]  Содержит { $count } карточки.
+   *[other]  Содержит { $count } карточек.
+  }

@@ -35,3 +35,15 @@ studying-to-review = Kerrattavat
 studying-type-answer-unknown-field = Kirjoita vastaus: tuntematon kenttä { $val }
 studying-unbury = Poista piilotus
 studying-you-havent-recorded-your-voice-yet = Et ole vielä nauhoittanut ääntäsi.
+studying-card-studied-in = { $count ->
+    [one] { $count } kortti opiskeltu ajassa
+   *[other] { $count } korttia opiskeltu ajassa
+  }
+studying-minute = { $count ->
+    [one] { $count } minuutti.
+   *[other] { $count } minuuttia.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Muistiinpano ja sen { $count } kortti poistettu.
+   *[other] Muistiinpano ja sen { $count } korttia poistettu.
+  }

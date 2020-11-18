@@ -31,3 +31,6 @@ decks-reschedule-cards-based-on-my-answers = 基于我在此牌组中的回答�
 decks-study = 学习
 decks-study-deck = 学习牌组
 decks-the-provided-search-did-not-match = 您的搜索不能匹配任何卡片。您愿意修改一下您的
+decks-it-has-card = { $count ->
+   *[other]  有 { $count }张卡片
+  }

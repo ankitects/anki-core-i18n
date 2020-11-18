@@ -25,3 +25,11 @@ card-templates-on =  (ligado)
 card-templates-remove-card-type = Eliminar tipo de ficha...
 card-templates-rename-card-type = Eliminar tipo de ficha...
 card-templates-reposition-card-type = Tipo de Carta de Reposição...
+card-templates-card-count = { $count ->
+    [one] { $count } ficha
+   *[other] { $count } fichas
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Isto criará { $count } ficha. Continuar?
+   *[other] Isto criará { $count } fichas. Continuar?
+  }

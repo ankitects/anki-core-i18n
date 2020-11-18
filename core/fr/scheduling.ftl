@@ -138,3 +138,7 @@ scheduling-steps-must-be-numbers = Les pas doivent être des nombres.
 scheduling-tag-only = Marquer (*)
 scheduling-the-default-configuration-cant-be-removed = La configuration par défaut ne peut pas être supprimée.
 scheduling-your-changes-will-affect-multiple-decks = Votre modification aura un impact sur plusieurs paquets. Si vous souhaitez modifier uniquement le paquet sélectionné, veuillez d’abord ajouter un nouveau profil de réglages.
+scheduling-deck-updated = { $count ->
+    [one] { $count } paquet mis à jour.
+   *[other] { $count } paquets mis à jour.
+  }

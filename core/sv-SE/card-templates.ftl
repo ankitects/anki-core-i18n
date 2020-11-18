@@ -28,3 +28,11 @@ card-templates-off =  (av)
 card-templates-on =  (på)
 card-templates-remove-card-type = Ta bort korttyp...
 card-templates-rename-card-type = Döp om korttyp...
+card-templates-card-count = { $count ->
+    [one] { $count } kort
+   *[other] { $count } kort
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Detta kommer att skapa { $count } kort. Fortsätt?
+   *[other] Detta kommer att skapa { $count } kort. Fortsätt?
+  }

@@ -101,3 +101,8 @@ scheduling-steps-must-be-numbers = Kroky musia byť v číslach.
 scheduling-tag-only = Iba štítok
 scheduling-the-default-configuration-cant-be-removed = Predvolená konfigurácia sa nedá odstrániť.
 scheduling-your-changes-will-affect-multiple-decks = Vaše zmeny budú mať vplyv na viacero balíčkov. Ak chcete zmeniť iba nastavenia aktuálneho balíčka, vytvorte, prosím, najskôr novú skupinu nastavení.
+scheduling-deck-updated = { $count ->
+    [one] { $count } balíčkov aktualizovaných.
+    [few] { $count } balíček aktualizovaný.
+   *[other] { $count } balíčky aktualizované.
+  }

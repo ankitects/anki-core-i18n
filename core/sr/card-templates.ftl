@@ -19,3 +19,13 @@ card-templates-flip = Преврни
 card-templates-form = Образац
 card-templates-off =  искљ.
 card-templates-on =  укљ.
+card-templates-card-count = { $count ->
+    [one] { $count } карата
+    [few] { $count } карте
+   *[other] { $count } карата
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Ово ће створити { $count } картицу. Наставити?
+    [few] Ово ће створити { $count } картице. Наставити?
+   *[other] Ово ће створити { $count } картице. Наставити?
+  }

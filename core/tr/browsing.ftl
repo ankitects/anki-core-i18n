@@ -72,3 +72,19 @@ browsing-target-field = Hedef alan:
 browsing-today = Bugün
 browsing-type-here-to-search = <aramak için buraya basın; açık destede görmek için giriş tuşuna basın>
 browsing-you-must-have-at-least-one = En az bir sütun olmalıdır.
+browsing-group = { $count ->
+    [one] { $count } grup
+   *[other] { $count } grup
+  }
+browsing-note-count = { $count ->
+    [one] { $count } not
+   *[other] { $count } not
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } not silindi.
+   *[other] { $count } not silindi.
+  }
+browsing-selected = { $count ->
+    [one] { $count } seçili öğe
+   *[other] { $count } seçili öğe
+  }

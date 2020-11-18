@@ -10,3 +10,9 @@ exporting-include-media = Vključi medijske datoteke
 exporting-include-scheduling-information = Vključi podatke za časovno planiranje
 exporting-include-tags = Vključi oznake
 exporting-notes-in-plain-text = Zapiski v golem besedilu
+exporting-card-exported = { $count ->
+    [one] Izvoženo { $count } kartic.
+    [two] Izvožena { $count } kartica.
+    [few] Izvoženi { $count } kartici.
+   *[other] Izvoženo { $count } kartic.
+  }

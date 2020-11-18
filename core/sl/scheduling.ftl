@@ -85,3 +85,9 @@ scheduling-steps-in-minutes = Koraki (v minutah)
 scheduling-steps-must-be-numbers = Koraki morajo biti številke.
 scheduling-tag-only = Samo oznaka
 scheduling-the-default-configuration-cant-be-removed = Privzeta konfiguracija ne možno odstraniti.
+scheduling-deck-updated = { $count ->
+    [one] { $count } paketov posodobljenih.
+    [two] { $count } paket posodobljen.
+    [few] { $count } paketa posodobljena.
+   *[other] { $count } paketov posodobljenih.
+  }

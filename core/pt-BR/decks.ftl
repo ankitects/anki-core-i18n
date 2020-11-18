@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Reagendar cartões baseado nas minh
 decks-study = Estudar
 decks-study-deck = Estudar Baralho
 decks-the-provided-search-did-not-match = A pesquisa não encontrou nenhum cartão. Gostaria de alterá-la?
+decks-it-has-card = { $count ->
+    [one]  Existe { $count } cartão.
+   *[other]  Existem { $count } cartões.
+  }

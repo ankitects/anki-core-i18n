@@ -10,3 +10,6 @@ scheduling-end = (เสร็จสิ้น)
 scheduling-learning = การเรียนรู้
 scheduling-review = บทวิจารณ์
 scheduling-reviews = ตรวจทาน
+scheduling-deck-updated = { $count ->
+   *[other] อัพเดต { $count } ชุดคำศัพท์
+  }

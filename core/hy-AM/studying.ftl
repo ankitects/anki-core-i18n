@@ -39,3 +39,15 @@ studying-type-answer-unknown-field = Գրեք պատասխանը՝ անհայտ 
 studying-unbury = Վերադարձնել առանձնացվածները
 studying-what-would-you-like-to-unbury = Ո՞ր առանձնացված քարտերն եք ուզում վերադարձնել:
 studying-you-havent-recorded-your-voice-yet = Դուք դեռ չեք ձայնագրել Ձեր ձայնը:
+studying-card-studied-in = { $count ->
+    [one] { $count } քարտ սովորեցիք
+   *[other] { $count } քարտ սովորեցիք
+  }
+studying-minute = { $count ->
+    [one] { $count } րոպե:
+   *[other] { $count } րոպե:
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Գրառումը և { $count } քարտ ջնջվեցին:
+   *[other] Գրառումը և { $count } քարտ ջնջվեցին:
+  }

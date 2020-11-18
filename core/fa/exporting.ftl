@@ -15,3 +15,12 @@ exporting-include-scheduling-information = اطلاعات زمان‌بندی ن
 exporting-include-tags = برچسب‌ها شامل شوند
 exporting-notes-in-plain-text = یادداشت در فرمت ساده (Plain Text)
 exporting-selected-notes = یادداشت‌های انتخاب شده
+exporting-card-exported = { $count ->
+   *[other] { $count } کارت صادر شد.
+  }
+exporting-exported-media-file = { $count ->
+   *[other] تعداد { $count } فایل رسانه صادر شد
+  }
+exporting-note-exported = { $count ->
+   *[other] { $count } یادداشت صادر شد.
+  }

@@ -36,3 +36,12 @@ studying-suspend-note = mipri pa karda datni
 studying-to-review = morji
 studying-unbury = nu to'e ke zasni mipri
 studying-what-would-you-like-to-unbury = .i do djica lo du'u co'u zasni mipri ma
+studying-card-studied-in = { $count ->
+   *[other] .i mo'u tadni { $count } karda ca
+  }
+studying-minute = { $count ->
+   *[other] mentu li { $count }
+  }
+studying-note-and-its-card-deleted = { $count ->
+   *[other] .i vimcu pa karda datni je { $count } karda pe ri mo'u
+  }

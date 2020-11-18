@@ -40,3 +40,11 @@ card-templates-on =  פעיל
 card-templates-remove-card-type = הסר סוג כרטיס...
 card-templates-rename-card-type = שנה שם סוג כרטיס...
 card-templates-reposition-card-type = שנה מיקום סוג כרטיס...
+card-templates-card-count = { $count ->
+    [one] { $count } כרטיס
+   *[other] { $count } כרטיסים
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] זה ייצור { $count } כרטיס. להמשיך?
+   *[other] זה ייצור { $count } כרטיסים. להמשיך?
+  }

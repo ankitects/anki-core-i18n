@@ -34,3 +34,15 @@ studying-to-review = Para repasar
 studying-type-answer-unknown-field = Tipo de resposta: campo descoñecido { $val }
 studying-unbury = Reincorporar
 studying-you-havent-recorded-your-voice-yet = Aínda non gravou a súa voz.
+studying-card-studied-in = { $count ->
+    [one] { $count } tarxeta estudiada en
+   *[other] { $count } tarxetas estudiadas en
+  }
+studying-minute = { $count ->
+    [one] { $count } minuto.
+   *[other] { $count } minutos.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] A nota e a súa { $count } tarxeta foi eliminada.
+   *[other] A nota e as súas { $count } tarxetas foron eliminadas.
+  }

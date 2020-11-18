@@ -52,3 +52,43 @@ importing-unable-to-import-from-a-readonly = يتعذر الاستيراد من 
 importing-unknown-file-format = صيغة ملف غير معروفة.
 importing-update-existing-notes-when-first-field = تحديث الملحوظات الموجودة عند تطابق الحقل الأول
 importing-updated = تم التحديث
+importing-note-added = { $count ->
+    [zero] أضيفت { $count } ملحوظة
+    [one] أضيفت { $count } ملحوظة
+    [two] أضيفت { $count } ملحوظة
+    [few] أضيفت { $count } ملحوظات
+    [many] أضيفت { $count } ملحوظة
+   *[other] أضيفت { $count } ملحوظة
+  }
+importing-note-imported = { $count ->
+    [zero] تم استيراد { $count } ملحوظة.
+    [one] تم استيراد { $count } ملحوظة.
+    [two] تم استيراد { $count } ملحوظة.
+    [few] تم استيراد { $count } ملحوظات.
+    [many] تم استيراد { $count } ملحوظة.
+   *[other] تم استيراد { $count } ملحوظة.
+  }
+importing-note-unchanged = { $count ->
+    [zero] { $count } ملحوظة لم تُغيّر
+    [one] { $count } ملحوظة لم تُغيّر
+    [two] { $count } ملحوظة لم تُغيّر
+    [few] { $count } ملحوظات لم تُغيّر
+    [many] { $count } ملحوظة لم تُغيّر
+   *[other] { $count } ملحوظة لم تُغيّر
+  }
+importing-note-updated = { $count ->
+    [zero] تم تحديث { $count } ملحوظة
+    [one] تم تحديث { $count } ملحوظة
+    [two] تم تحديث { $count } ملحوظة
+    [few] تم تحديث { $count } ملحوظات
+    [many] تم تحديث { $count } ملحوظة
+   *[other] تم تحديث { $count } ملحوظة
+  }
+importing-processed-media-file = { $count ->
+    [zero] عولج { $count } ملف وسائط
+    [one] عولج { $count } ملف وسائط
+    [two] عولج { $count } ملف وسائط
+    [few] عولج { $count } ملفات وسائط
+    [many] عولج { $count } ملف وسائط
+   *[other] عولج { $count } ملف وسائط
+  }

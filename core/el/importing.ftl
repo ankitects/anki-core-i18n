@@ -16,3 +16,19 @@ importing-mapped-to-tags = σε αντιστοιχία προς  <b>Ετικέτ
 importing-rows-had-num1d-fields-expected-num2d = '%(row)s' είχε %(num1)d πεδία, αναμένωντας %(num2)d
 importing-semicolon = Άνω τελεία
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
+importing-note-added = { $count ->
+    [one] { $count } σημείωση προστέθηκε
+   *[other] { $count } σημειώσεις προστέθηκαν
+  }
+importing-note-imported = { $count ->
+    [one] { $count } σημείωση εισήχθηκε.
+   *[other] { $count } σημειώσεις εισήχθησαν.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } σημείωση χωρίς μεταβολή
+   *[other] { $count } σημειώσεις χωρίς μεταβολή
+  }
+importing-note-updated = { $count ->
+    [one] { $count } σημείωση ενημερώθηκε
+   *[other] { $count } σημειώσεις ενημερώθηκαν
+  }

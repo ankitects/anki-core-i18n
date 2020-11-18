@@ -28,3 +28,7 @@ decks-reschedule-cards-based-on-my-answers = Sorta honetan egindakoak erantzunen
 decks-study = Ikasi
 decks-study-deck = Sorta ikasi
 decks-the-provided-search-did-not-match = ez dago bilaketa horrekin datorren kartarik. Aldatu nahi duzu?
+decks-it-has-card = { $count ->
+    [one]  Karta { $count } du.
+   *[other]  { $count } karta ditu.
+  }

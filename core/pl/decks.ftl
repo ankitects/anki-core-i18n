@@ -31,3 +31,8 @@ decks-reschedule-cards-based-on-my-answers = Zmień plan na podstawie odpowiedzi
 decks-study = Nauka
 decks-study-deck = Nauka talii
 decks-the-provided-search-did-not-match = Nie znaleziono kart odpowiadającym kryteriom wyszukiwania. Chcesz spróbować z innym hasłem?
+decks-it-has-card = { $count ->
+    [one]  Ma { $count } kartę.
+    [few]  Ma { $count } karty.
+   *[other]  Ma { $count } kart.
+  }

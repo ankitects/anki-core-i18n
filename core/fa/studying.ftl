@@ -42,3 +42,12 @@ studying-type-answer-unknown-field = نوع جواب: فیلد ناشناخته 
 studying-unbury = لغو تعلیق
 studying-what-would-you-like-to-unbury = مایل به لغو دفن کدام کارت‌ها هستید؟
 studying-you-havent-recorded-your-voice-yet = هنوز صدای ضبط شده تان را ندارید.
+studying-card-studied-in = { $count ->
+   *[other] { $count } کارت مطالعه شده در
+  }
+studying-minute = { $count ->
+   *[other] { $count } دقیقه.
+  }
+studying-note-and-its-card-deleted = { $count ->
+   *[other] یادداشت و { $count } کارت آن حذف شدند.
+  }

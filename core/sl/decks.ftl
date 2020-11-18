@@ -23,3 +23,9 @@ decks-reschedule-cards-based-on-my-answers = Prerazporedi kartice glede na moje 
 decks-study = Študiraj
 decks-study-deck = Paket za učenje
 decks-the-provided-search-did-not-match = Izraz za iskanje ni našel nobenih kartic. Bi ga radi popravili?
+decks-it-has-card = { $count ->
+    [one]  Vsebuje { $count } kartic.
+    [two]  Vsebuje { $count } kartico.
+    [few]  Vsebuje { $count } kartici.
+   *[other]  Vsebuje { $count } kartic.
+  }

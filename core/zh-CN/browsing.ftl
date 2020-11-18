@@ -102,3 +102,15 @@ browsing-treat-input-as-regular-expression = 以正则表达式输入
 browsing-type-here-to-search = <在这里输入进行搜索，点击回车键显示牌组>
 browsing-whole-collection = 全部集合
 browsing-you-must-have-at-least-one = 必须至少有一列.
+browsing-group = { $count ->
+   *[other] { $count }种组合
+  }
+browsing-note-count = { $count ->
+   *[other] { $count }条笔记
+  }
+browsing-note-deleted = { $count ->
+   *[other] 删除 { $count } 条笔记
+  }
+browsing-selected = { $count ->
+   *[other] 选中 { $count } 个
+  }

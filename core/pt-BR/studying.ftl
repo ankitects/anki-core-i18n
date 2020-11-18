@@ -42,3 +42,15 @@ studying-type-answer-unknown-field = Tipo de resposta: campo desconhecido { $val
 studying-unbury = Desocultar
 studying-what-would-you-like-to-unbury = O que você gostaria de desenterrar?
 studying-you-havent-recorded-your-voice-yet = Você ainda não gravou sua voz.
+studying-card-studied-in = { $count ->
+    [one] { $count } cartão estudado em
+   *[other] { $count } cartões estudados em
+  }
+studying-minute = { $count ->
+    [one] { $count } minuto.
+   *[other] { $count } minutos.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] A nota e seu { $count } cartão foram excluídos.
+   *[other] A nota e seus { $count } cartões foram excluídos.
+  }

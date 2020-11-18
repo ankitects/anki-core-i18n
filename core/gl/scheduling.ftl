@@ -84,3 +84,7 @@ scheduling-steps-must-be-numbers = Os pasos deben ser números.
 scheduling-tag-only = Só as etiquetas
 scheduling-the-default-configuration-cant-be-removed = A configuración predeterminada non pode ser retirada.
 scheduling-your-changes-will-affect-multiple-decks = Os seus cambios afectarán a varios feixes. Se quere cambiar unicamente o feixe actual, engada primeiro un novo grupo de opcións.
+scheduling-deck-updated = { $count ->
+    [one] { $count } feixe actualizado.
+   *[other] { $count } feixes actualizados.
+  }

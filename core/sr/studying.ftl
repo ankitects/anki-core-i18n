@@ -33,3 +33,18 @@ studying-to-review = За понављање
 studying-type-answer-unknown-field = Напишите одговор: непознато поље { $val }
 studying-unbury = Одвезано
 studying-you-havent-recorded-your-voice-yet = Још нисте снимили свој глас.
+studying-card-studied-in = { $count ->
+    [one] { $count } карта прегледана за
+    [few] { $count } карте прегледане за
+   *[other] { $count } карата прегледано за
+  }
+studying-minute = { $count ->
+    [one] { $count } минут.
+    [few] { $count } минута.
+   *[other] { $count } минута.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Белешка и  { $count } карта су обрисане.
+    [few] Белешка и { $count } карте су обрисане.
+   *[other] Белешка и { $count } карата је обрисано.
+  }

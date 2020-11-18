@@ -75,3 +75,19 @@ browsing-treat-input-as-regular-expression = Fortolk inddata som regulære udtry
 browsing-type-here-to-search = <indtast her for at søge; tryk retur for at vise aktuel kortsæt>
 browsing-whole-collection = Hele samlingen
 browsing-you-must-have-at-least-one = Du skal have mindst en søjle
+browsing-group = { $count ->
+    [one] { $count } gruppe
+   *[other] { $count } grupper
+  }
+browsing-note-count = { $count ->
+    [one] { $count } noter
+   *[other] { $count } noter
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } note blev slettet.
+   *[other] { $count } noter blev slettet.
+  }
+browsing-selected = { $count ->
+    [one] { $count } valgt
+   *[other] { $count } valgte
+  }

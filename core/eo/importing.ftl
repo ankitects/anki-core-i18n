@@ -51,3 +51,23 @@ importing-unable-to-import-from-a-readonly = Enporto el nurlega dosiero ne estas
 importing-unknown-file-format = Nekonata dosierformato.
 importing-update-existing-notes-when-first-field = Ĝisdatigi ekzistantan noton, kiam la unua kampo kongruas kun
 importing-updated = Ĝisdatigita
+importing-note-added = { $count ->
+    [one] { $count } noto estas aldonita
+   *[other] { $count } notoj estas aldonitaj
+  }
+importing-note-imported = { $count ->
+    [one] { $count } noto estas enportita.
+   *[other] { $count } notoj estas enportitaj.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } noto restas senŝanĝa
+   *[other] { $count } notoj restas senŝanĝaj
+  }
+importing-note-updated = { $count ->
+    [one] { $count } noto estas ĝisdatigita
+   *[other] { $count } notoj estas ĝisdatigitaj
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } prilaborita aŭdovidaĵo
+   *[other] { $count } prilaboritaj aŭdovidaĵoj
+  }

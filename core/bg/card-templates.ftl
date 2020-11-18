@@ -15,3 +15,7 @@ card-templates-enter-new-card-position-1 = Въведете нова позиц�
 card-templates-flip = Обръщане
 card-templates-off =  (изключено)
 card-templates-on =  (включено)
+card-templates-card-count = { $count ->
+    [one] { $count } карта
+   *[other] { $count } карти
+  }

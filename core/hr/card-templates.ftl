@@ -12,3 +12,8 @@ card-templates-enter-new-card-position-1 = Unesi novu poziciju karte (1...{ $val
 card-templates-form = Obrazac
 card-templates-off =  (isklj)
 card-templates-on =  (uklj)
+card-templates-card-count = { $count ->
+    [one] { $count } kartica
+    [few] { $count } kartica
+   *[other] { $count } kartica
+  }

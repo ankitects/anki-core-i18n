@@ -11,3 +11,12 @@ exporting-include-html-and-media-references = nu vasru lo lerpoi pe la .xetmel. 
 exporting-include-media = nu vasru lo te ganvi
 exporting-include-scheduling-information = nu vasru lo tcikygau datni
 exporting-include-tags = nu vasru lo tcita
+exporting-card-exported = { $count ->
+   *[other] .i mo'u barbei { $count } karda
+  }
+exporting-exported-media-file = { $count ->
+   *[other] .i mo'u barbei { $count } ganvi datnyvei
+  }
+exporting-note-exported = { $count ->
+   *[other] .i mo'u barbei { $count } karda datni
+  }

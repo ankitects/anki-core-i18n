@@ -7,3 +7,8 @@ exporting-include = <b>Uključi</b>:
 exporting-include-media = Uključi medijske datoteke
 exporting-include-scheduling-information = Uključi informacije o vremenskom rasporedu
 exporting-include-tags = Uključi oznake
+exporting-card-exported = { $count ->
+    [one] { $count } kartica izvezena.
+    [few] { $count } kartica izvezeno.
+   *[other] { $count } kartica izvezeno.
+  }

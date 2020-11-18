@@ -102,3 +102,23 @@ browsing-treat-input-as-regular-expression = Traktuj wartość pola jako wyraże
 browsing-type-here-to-search = <pisz tutaj, aby wyszukać; wciśnij enter, by pokazać aktualną talię>
 browsing-whole-collection = Cała kolekcja
 browsing-you-must-have-at-least-one = Musi istnieć przynajmniej jedna kolumna.
+browsing-group = { $count ->
+    [one] { $count } grupa
+    [few] { $count } grupy
+   *[other] { $count } grup
+  }
+browsing-note-count = { $count ->
+    [one] { $count } notatka
+    [few] { $count } notatki
+   *[other] { $count } notatek
+  }
+browsing-note-deleted = { $count ->
+    [one] Usunięto { $count } notatkę.
+    [few] Usunięto { $count } notatki.
+   *[other] Usunięto { $count } notatek.
+  }
+browsing-selected = { $count ->
+    [one] { $count } wybrana
+    [few] { $count } wybrane
+   *[other] { $count } wybranych
+  }

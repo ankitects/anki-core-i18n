@@ -19,3 +19,7 @@ browsing-replace-with = <b>Asenda sellega</b>:
 browsing-reschedule = Ajasta  uuesti
 browsing-suspended = Peatatud
 browsing-treat-input-as-regular-expression = Kohtle sisendit kui regulaaravaldist
+browsing-group = { $count ->
+    [one] { $count } grupp
+   *[other] { $count } gruppi
+  }

@@ -15,3 +15,15 @@ exporting-include-scheduling-information = Ütemezési adatokkal együtt
 exporting-include-tags = Címkékkel együtt
 exporting-notes-in-plain-text = Jegyzetek formázatlan szövegként
 exporting-selected-notes = Kijelölt jegyzetek
+exporting-card-exported = { $count ->
+    [one] { $count } kártya exportálva.
+   *[other] { $count } kártya exportálva.
+  }
+exporting-exported-media-file = { $count ->
+    [one] { $count } médiafájl exportálva
+   *[other] { $count } médiafájl exportálva
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } jegyzet exportálva.
+   *[other] { $count } jegyzet exportálva.
+  }

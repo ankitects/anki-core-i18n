@@ -42,3 +42,24 @@ studying-type-answer-unknown-field = Réimse anaithnithid { $val }
 studying-unbury = Tarraing amach (ábhar atá i bhfolach)
 studying-what-would-you-like-to-unbury = Céard ar mhaith leat tarraingt amach?
 studying-you-havent-recorded-your-voice-yet = Níor thaifead tú do ghuth fós.
+studying-card-studied-in = { $count ->
+    [one] Staidéar déanta ar { $count } cárta i
+    [two] Staidéar déanta ar { $count } chárta i
+    [few] Staidéar déanta ar { $count } chárta i
+    [many] Staidéar déanta ar { $count } gcárta i
+   *[other] Staidéar déanta ar { $count } cárta i
+  }
+studying-minute = { $count ->
+    [one] { $count } nóiméad
+    [two] { $count } nóiméad.
+    [few] { $count } nóiméad.
+    [many] { $count } nóiméad.
+   *[other] { $count } nóiméad.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Nóta agus a ({ $count }) chárta scriosta.
+    [two] Nóta agus a { $count } chárta scriosta.
+    [few] Nóta agus a { $count } chárta scriosta.
+    [many] Nóta agus a { $count } gcárta scriosta.
+   *[other] Nóta agus a { $count } cárta scriosta.
+  }

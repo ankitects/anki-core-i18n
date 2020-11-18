@@ -42,3 +42,15 @@ studying-type-answer-unknown-field = Antwort eingeben: Unbekanntes Feld { $val }
 studying-unbury = Zurückstellen aufheben
 studying-what-would-you-like-to-unbury = Was möchten Sie nicht weiter zurückgestellt haben?
 studying-you-havent-recorded-your-voice-yet = Stimme noch nicht aufgezeichnet
+studying-card-studied-in = { $count ->
+    [one] { $count } Karte in
+   *[other] { $count } Karten in
+  }
+studying-minute = { $count ->
+    [one] { $count } Minute gelernt.
+   *[other] { $count } Minuten gelernt.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Notiz und { $count } zugehörige Karte gelöscht.
+   *[other] Notiz und { $count } zugehörige Karten gelöscht.
+  }

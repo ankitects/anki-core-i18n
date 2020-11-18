@@ -19,3 +19,19 @@ importing-rows-had-num1d-fields-expected-num2d = '%(row)s' ɣur-s %(num1)d n wur
 importing-skipped = Yettawazgel
 importing-tab = Iccer
 importing-updated = Yettwalqem
+importing-note-added = { $count ->
+    [one] { $count } tezmilt tettwarna
+   *[other] { $count } tizmilin ttwarnant
+  }
+importing-note-imported = { $count ->
+    [one] { $count } tezmilt tettwakter.
+   *[other] { $count } tezmilint ttwaktrent.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } tezmilt ur nbeddel
+   *[other] { $count } tezmillin ur nbeddel
+  }
+importing-note-updated = { $count ->
+    [one] { $count } n tezmilt tettwalqem
+   *[other] { $count } tezmilin ttwaleqment
+  }

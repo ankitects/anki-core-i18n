@@ -23,3 +23,19 @@ importing-supermemo-xml-export-xml = Supermemo XML-eksportering (*.xml)
 importing-tab = Tab
 importing-unknown-file-format = Ukjent filformat.
 importing-updated = Oppdatert
+importing-note-added = { $count ->
+    [one] { $count } notat lagt inn.
+   *[other] { $count } notater lagt inn.
+  }
+importing-note-imported = { $count ->
+    [one] { $count } notat importert.
+   *[other] { $count } notater importert.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } notat ikke uendret
+   *[other] { $count } notater ikke endret
+  }
+importing-note-updated = { $count ->
+    [one] { $count } notat oppdatert.
+   *[other] { $count } notater oppdatert.
+  }

@@ -151,3 +151,8 @@ scheduling-steps-must-be-numbers = Кроки мають бути числами
 scheduling-tag-only = Лише мітка
 scheduling-the-default-configuration-cant-be-removed = Конфігурацію за замовчуванням не можна видаляти.
 scheduling-your-changes-will-affect-multiple-decks = Ваші зміни вплинуть на кілька колод. Якщо ви хочете змінити лише поточну колоду, спочатку треба додати нову групу налаштувань.
+scheduling-deck-updated = { $count ->
+    [one] { $count } колоду оновлено.
+    [few] { $count } колод оновлено.
+   *[other] { $count } колод оновлено.
+  }

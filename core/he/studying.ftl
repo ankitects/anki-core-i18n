@@ -42,3 +42,15 @@ studying-type-answer-unknown-field = סוג תשובה: שדה בלתי ידוע
 studying-unbury = הוצא מהטמנה
 studying-what-would-you-like-to-unbury = האם תרצה להוציא מהטמנה?
 studying-you-havent-recorded-your-voice-yet = לא הקלטת את קולך עדיין.
+studying-card-studied-in = { $count ->
+    [one] { $count } כרטיס נלמד ב
+   *[other] { $count } כרטיסים נלמדו ב
+  }
+studying-minute = { $count ->
+    [one] { $count } דקה.
+   *[other] { $count } דקות.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] רשומה ו-{ $count } כרטיס שלה נמחקה.
+   *[other] רשומה ו-{ $count } כרטיסים שלה נמחקו.
+  }

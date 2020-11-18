@@ -21,3 +21,11 @@ card-templates-form = Forma
 card-templates-off =  (itzalita)
 card-templates-on =  (piztuta)
 card-templates-remove-card-type = Karta mota ezabatu...
+card-templates-card-count = { $count ->
+    [one] Karta { $count }
+   *[other] { $count } karta
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Hau { $count } karta sortuko du. Jarraitu?
+   *[other] Hau { $count } kartak sortuko du. Jarraitu?
+  }

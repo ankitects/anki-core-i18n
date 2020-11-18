@@ -55,3 +55,7 @@ scheduling-seconds = sekunder
 scheduling-show-new-cards-before-reviews = Vis nye kort før gjennomganger
 scheduling-show-new-cards-in-order-added = Vis nye kort i den rekkefølgen de ble lagt til
 scheduling-show-new-cards-in-random-order = Vis nye kort i tilfeldig rekkefølge
+scheduling-deck-updated = { $count ->
+    [one] { $count } kortstokk oppdatert.
+   *[other] { $count } kortstokker oppdatert.
+  }

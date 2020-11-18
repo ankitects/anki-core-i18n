@@ -85,3 +85,6 @@ scheduling-steps-must-be-numbers = 익힘 단계는 반드시 숫자로 지정�
 scheduling-tag-only = 태그만 달기
 scheduling-the-default-configuration-cant-be-removed = 기본 설정은 삭제할 수 없습니다.
 scheduling-your-changes-will-affect-multiple-decks = 이 변경은 모든 뭉치에 영향을 미칩니다. 만약 현재 뭉치만 바꾸시려면, 먼저 새로운 옵션 그룹을 생성하세요.
+scheduling-deck-updated = { $count ->
+   *[other] { $count }뭉치를 업데이트했습니다.
+  }

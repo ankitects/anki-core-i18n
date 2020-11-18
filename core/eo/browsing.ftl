@@ -99,3 +99,19 @@ browsing-treat-input-as-regular-expression = Trakti enigon kiel regulan esprimon
 browsing-type-here-to-search = <tajpi ĉi tie por serĉi; premi la enen-klavon(Enter) por montri la aktualan kartaron>
 browsing-whole-collection = Tuta kolekto
 browsing-you-must-have-at-least-one = Oni devas havi almenaŭ unu kolonon.
+browsing-group = { $count ->
+    [one] { $count } grupo
+   *[other] { $count } grupoj
+  }
+browsing-note-count = { $count ->
+    [one] { $count } noto
+   *[other] { $count } notoj
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } noto estas forigita.
+   *[other] { $count } notoj estas forigitaj.
+  }
+browsing-selected = { $count ->
+    [one] { $count } elektita
+   *[other] { $count } elektitaj
+  }

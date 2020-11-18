@@ -40,3 +40,23 @@ importing-this-will-delete-your-existing-collection = Olet poistamassa olemassa 
 importing-unable-to-import-from-a-readonly = Vain luku -tilassa olevaa tiedostoa ei voida tuoda.
 importing-unknown-file-format = Tuntematon tiedostotyyppi
 importing-update-existing-notes-when-first-field = Päivitä olemassa olevat muistiinpanot kun ensimmäinen kenttä täsmää
+importing-note-added = { $count ->
+    [one] { $count } muistiinpano lisätty
+   *[other] { $count } muistiinpanoa lisätty
+  }
+importing-note-imported = { $count ->
+    [one] { $count } muistiinpano tuotu
+   *[other] { $count } muistiinpanoa tuotu
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } muistiinpano säilyi muuttumattomana
+   *[other] { $count } muistiinpanoa säilyi muuttumattomana
+  }
+importing-note-updated = { $count ->
+    [one] { $count } muistiinpano päivitetty
+   *[other] { $count } muistiinpanoa päivitetty
+  }
+importing-processed-media-file = { $count ->
+    [one] Käsiteltiin { $count } mediatiedosto
+   *[other] Käsiteltiin { $count } mediatiedostoa
+  }

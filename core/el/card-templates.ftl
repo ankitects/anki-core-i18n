@@ -11,3 +11,7 @@ card-templates-cloze = Κλείσιμο
 card-templates-form = Φόρμα
 card-templates-off =  (κλειστό)
 card-templates-on =  (ανοιχτό)
+card-templates-card-count = { $count ->
+    [one] { $count } κάρτα
+   *[other] { $count } κάρτες
+  }

@@ -102,3 +102,23 @@ browsing-treat-input-as-regular-expression = Považovať vstup za regulárny vý
 browsing-type-here-to-search = <zadajte text, ktorý chcete vyhľadať; stlačením klávesy enter zobrazíte aktuálny balíček>
 browsing-whole-collection = Celá zbierka
 browsing-you-must-have-at-least-one = Je potrebný aspoň jeden stĺpec.
+browsing-group = { $count ->
+    [one] { $count } skupín
+    [few] { $count } skupina
+   *[other] { $count } skupiny
+  }
+browsing-note-count = { $count ->
+    [one] { $count } poznámok
+    [few] { $count } poznámka
+   *[other] { $count } poznámky
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } poznámok odstránených.
+    [few] { $count } poznámka odstránená.
+   *[other] { $count } poznámky odstránené.
+  }
+browsing-selected = { $count ->
+    [one] { $count } vybraných
+    [few] { $count } vybraná
+   *[other] { $count } vybrané
+  }

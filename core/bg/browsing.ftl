@@ -72,3 +72,19 @@ browsing-treat-input-as-regular-expression = Възприемане на вхо�
 browsing-type-here-to-search = <текст за търсене, натиснете Enter за отваряне на текущото тесте>
 browsing-whole-collection = Цялата колекция
 browsing-you-must-have-at-least-one = Трябва да имате поне една колона.
+browsing-group = { $count ->
+    [one] { $count } група
+   *[other] { $count } групи
+  }
+browsing-note-count = { $count ->
+    [one] { $count } бележка
+   *[other] { $count } бележки
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } бележка беше изтрита.
+   *[other] Бяха изтрити { $count } бележки.
+  }
+browsing-selected = { $count ->
+    [one] { $count } избрани
+   *[other] { $count } избрани
+  }

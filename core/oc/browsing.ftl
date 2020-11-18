@@ -27,3 +27,19 @@ browsing-nothing = Pas res
 browsing-replace-with = <b>Remplaçar per</b> :
 browsing-studied-today = Estudiat uèi
 browsing-type-here-to-search = < Entratz aicí vòstra recèrca o alara quichatz Entrada per veire lo paquet actual entièr >
+browsing-group = { $count ->
+    [one] { $count } grop
+   *[other] { $count } gropes
+  }
+browsing-note-count = { $count ->
+    [one] { $count } nòta
+   *[other] { $count } nòtas
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } nòta suprimida.
+   *[other] { $count } nòtas suprimidas.
+  }
+browsing-selected = { $count ->
+    [one] { $count } seleccionada
+   *[other] { $count } seleccionadas
+  }

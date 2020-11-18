@@ -42,3 +42,15 @@ studying-type-answer-unknown-field = Válasz megadása: ismeretlen { $val } mez�
 studying-unbury = Félretevés megszüntetése
 studying-what-would-you-like-to-unbury = Mit szeretne tartani?
 studying-you-havent-recorded-your-voice-yet = Még nem vetted fel a hangodat.
+studying-card-studied-in = { $count ->
+    [one] { $count } kártyát tanult meg
+   *[other] { $count } kártyát tanult meg
+  }
+studying-minute = { $count ->
+    [one] { $count } perc alatt.
+   *[other] { $count } perc alatt.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] A jegyzet és a hozzá tartozó { $count } kártya törölve.
+   *[other] A jegyzet és a hozzá tartozó { $count } kártya törölve.
+  }

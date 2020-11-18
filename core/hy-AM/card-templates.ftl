@@ -30,3 +30,11 @@ card-templates-on =  (միաց.)
 card-templates-remove-card-type = Հեռացնել քարտի տեսակը...
 card-templates-rename-card-type = Վերանվանել քարտի տեսակը...
 card-templates-reposition-card-type = Վերատեղադրել քարտի տեսակը...
+card-templates-card-count = { $count ->
+    [one] { $count } քարտ
+   *[other] { $count } քարտ
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Սա կստեղծի { $count } քարտը: Շարունակե՞լ:
+   *[other] Սա կստեղծի { $count } քարտը: Շարունակե՞լ:
+  }

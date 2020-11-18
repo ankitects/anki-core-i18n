@@ -53,3 +53,28 @@ importing-unable-to-import-from-a-readonly = Nedá sa importovať - súbor je ib
 importing-unknown-file-format = Neznámy formát súboru.
 importing-update-existing-notes-when-first-field = Aktualizovať existujúce poznámky, ak je prvé pole rovnaké
 importing-updated = Aktualizované
+importing-note-added = { $count ->
+    [one] { $count } poznámok pridaných
+    [few] { $count } poznámka pridaná
+   *[other] { $count } poznámky pridané
+  }
+importing-note-imported = { $count ->
+    [one] { $count } poznámok importovaných.
+    [few] { $count } poznámka importovaná.
+   *[other] { $count } poznámky importované.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } poznámok nezmenených
+    [few] { $count } poznámka nezmenená
+   *[other] { $count } poznámky nezmenené
+  }
+importing-note-updated = { $count ->
+    [one] { $count } poznámka aktualizovaná
+    [few] { $count } poznámky aktualizované
+   *[other] { $count } poznámky aktualizované
+  }
+importing-processed-media-file = { $count ->
+    [one] Spracovaných { $count } multimediálnych súborov
+    [few] Spracovaný { $count } multimediálny súbor
+   *[other] Spracované { $count } multimediálne súbory
+  }

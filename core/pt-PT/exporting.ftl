@@ -13,3 +13,15 @@ exporting-include-media = Incluir média
 exporting-include-scheduling-information = Incluir informações de agendamento
 exporting-include-tags = Incluir etiquetas
 exporting-notes-in-plain-text = Notas em Texto Puro
+exporting-card-exported = { $count ->
+    [one] { $count } ficha exportada.
+   *[other] { $count } fichas exportadas.
+  }
+exporting-exported-media-file = { $count ->
+    [one] { $count } ficheiro de média exportado
+   *[other] { $count } ficheiros de média exportados
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } nota exportada.
+   *[other] { $count } notas exportadas.
+  }

@@ -108,3 +108,6 @@ scheduling-steps-must-be-numbers = 學習階段值必須為數字。
 scheduling-tag-only = 只貼上標籤
 scheduling-the-default-configuration-cant-be-removed = 無法刪除預設的設定。
 scheduling-your-changes-will-affect-multiple-decks = 此變更將會影響多個牌組，若您只想變更當前牌組，請先新增一個選項群組。
+scheduling-deck-updated = { $count ->
+   *[other] 已更新{ $count }牌組。
+  }

@@ -33,3 +33,15 @@ studying-to-review = Til genopfriskning
 studying-type-answer-unknown-field = Skriv svar: ukendt felt { $val }
 studying-unbury = Grav frem igen
 studying-you-havent-recorded-your-voice-yet = Du har endnu ikke optaget din stemme endnu.
+studying-card-studied-in = { $count ->
+    [one] { $count } kort blev blev studeret i
+   *[other] { $count } kort blev blev studeret i
+  }
+studying-minute = { $count ->
+    [one] { $count } minut.
+   *[other] { $count } minutter.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Note og dets { $count } kort er slettet.
+   *[other] Note og dets { $count } kort er slettet.
+  }

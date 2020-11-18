@@ -15,3 +15,18 @@ exporting-include-scheduling-information = Включити інформацію
 exporting-include-tags = Включити мітки
 exporting-notes-in-plain-text = Нотатки у неформатованому тексті
 exporting-selected-notes = Вибрані нотатки
+exporting-card-exported = { $count ->
+    [one] { $count } картку експортовано.
+    [few] { $count } карток експортовано.
+   *[other] { $count } карток експортовано.
+  }
+exporting-exported-media-file = { $count ->
+    [one] Експортовано { $count } медіафайли
+    [few] Експортовано { $count } медіафайли
+   *[other] Експортовано { $count } медіафайли
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } нотатку експортовано.
+    [few] { $count } нотаток експортовано.
+   *[other] { $count } нотаток експортовано.
+  }

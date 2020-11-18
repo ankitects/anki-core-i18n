@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = תזמן כרטיסים מחדש ע
 decks-study = למד
 decks-study-deck = למד חפיסה
 decks-the-provided-search-did-not-match = החיפוש הנתון אינו תואם לאף כרטיס. האם ברצונך לשנותו?
+decks-it-has-card = { $count ->
+    [one] קיים { $count } כרטיס.
+   *[other]  קיימות { $count } כרטיסיות.
+  }

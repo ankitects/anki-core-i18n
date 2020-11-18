@@ -24,3 +24,13 @@ card-templates-on =  (povoliť)
 card-templates-remove-card-type = Odobrať typ karty...
 card-templates-rename-card-type = Premenovať typ karty...
 card-templates-reposition-card-type = Zmeniť poradie typu karty...
+card-templates-card-count = { $count ->
+    [one] { $count } kariet
+    [few] { $count } karta
+   *[other] { $count } karty
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Bude vytvorených { $count } kariet. Pokračovať?
+    [few] Bude vytvorená { $count } karta. Pokračovať?
+   *[other] Budú vytvorené { $count } karty. Pokračovať?
+  }

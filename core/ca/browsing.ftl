@@ -102,3 +102,19 @@ browsing-treat-input-as-regular-expression = Tracta l'entrada com una expressió
 browsing-type-here-to-search = <escriu aquí per cercar; prem la tecla de retorn per veure el mall actual>
 browsing-whole-collection = Col·lecció sencera
 browsing-you-must-have-at-least-one = Hi ha d'haver almenys una columna.
+browsing-group = { $count ->
+    [one] { $count } grup
+   *[other] { $count } grups
+  }
+browsing-note-count = { $count ->
+    [one] { $count } nota
+   *[other] { $count } notes
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } nota eliminada.
+   *[other] { $count } notes eliminades.
+  }
+browsing-selected = { $count ->
+    [one] { $count } seleccionada
+   *[other] { $count } seleccionades
+  }

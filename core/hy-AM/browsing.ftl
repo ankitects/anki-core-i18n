@@ -102,3 +102,19 @@ browsing-treat-input-as-regular-expression = Ընդունել այս մուտք�
 browsing-type-here-to-search = <այստեղ մուտքագրեք որոնման պայմանները, սեղմեք Enter ընթացիկ կապուկի պարունակությունը ցուցադրելու համար>
 browsing-whole-collection = Ամբողջ հավաքածուն
 browsing-you-must-have-at-least-one = Դուք պետք է առնվազն մեկ սյունակ ունենալ:
+browsing-group = { $count ->
+    [one] { $count } խումբ
+   *[other] { $count } խումբ
+  }
+browsing-note-count = { $count ->
+    [one] { $count } գրառում
+   *[other] { $count } գրառում
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } գրառում ջնջվեց:
+   *[other] { $count } գրառում ջնջվեց:
+  }
+browsing-selected = { $count ->
+    [one] { $count } ընտրված է
+   *[other] { $count } ընտրված է
+  }

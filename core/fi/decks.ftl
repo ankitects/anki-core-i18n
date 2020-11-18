@@ -27,3 +27,7 @@ decks-reschedule-cards-based-on-my-answers = Ajasta kortit uudestaan perustuen v
 decks-study = Opiskele
 decks-study-deck = Opiskele pakkaa
 decks-the-provided-search-did-not-match = Annetut hakuehdot eivät vastanneet yhtään korttia. Haluatko korjata hakuehtojasi?
+decks-it-has-card = { $count ->
+    [one]  Siinä on { $count } kortti.
+   *[other]  Siinä on { $count } korttia.
+  }

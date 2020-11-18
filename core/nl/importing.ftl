@@ -51,3 +51,23 @@ importing-unable-to-import-from-a-readonly = Kan een alleen-lezen bestand niet i
 importing-unknown-file-format = Onbekend bestandsformaat
 importing-update-existing-notes-when-first-field = Bestaande aantekeningen aanpassen als het eerste veld overeenkomt
 importing-updated = Bijgewerkt
+importing-note-added = { $count ->
+    [one] { $count } aantekening toegevoegd
+   *[other] { $count } aantekeningen toegevoegd
+  }
+importing-note-imported = { $count ->
+    [one] { $count } aantekening geïmporteerd.
+   *[other] { $count } aantekeningen geïmporteerd.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } aantekening ongewijzigd
+   *[other] { $count } aantekeningen ongewijzigd
+  }
+importing-note-updated = { $count ->
+    [one] { $count } aantekening bijgewerkt
+   *[other] { $count } aantekeningen bijgewerkt
+  }
+importing-processed-media-file = { $count ->
+    [one] Verwerkte { $count } mediabestand
+   *[other] Verwerkte { $count } mediabestanden
+  }

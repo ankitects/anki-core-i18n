@@ -62,3 +62,6 @@ scheduling-reviews = morji
 scheduling-seconds = snidu
 scheduling-show-answer-timer = nu lo spuda temci cu visycu'i
 scheduling-your-changes-will-affect-multiple-decks = .i za'u pa karda selcmi pu'o binxo .i pa da poi karda selcmi je cu se cuxna zo'u ga na ja do djica lo ka ce'u bixygau da po'o gi ko cupra pa te tcimi'e selcmi poi cnino
+scheduling-deck-updated = { $count ->
+   *[other] .i mo'u ningau { $count } karda selcmi
+  }

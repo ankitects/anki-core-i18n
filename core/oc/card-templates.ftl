@@ -9,3 +9,7 @@ card-templates-flip = Revirar
 card-templates-form = Formulari
 card-templates-off =  (inactiu)
 card-templates-on =  (actiu)
+card-templates-card-count = { $count ->
+    [one] { $count } carta
+   *[other] { $count } cartas
+  }

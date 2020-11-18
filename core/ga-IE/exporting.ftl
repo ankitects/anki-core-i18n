@@ -15,3 +15,24 @@ exporting-include-scheduling-information = Sonraí sceidealaithe san áireamh
 exporting-include-tags = Clibeanna san áireamh
 exporting-notes-in-plain-text = Nótaí gnáth-théacs
 exporting-selected-notes = Nótaí Roghnaithe
+exporting-card-exported = { $count ->
+    [one] { $count } cárta easpórtáilte.
+    [two] { $count } chárta easpórtáilte.
+    [few] { $count } chárta easpórtáilte.
+    [many] { $count } gcárta easpórtáilte.
+   *[other] { $count } cárta easpórtáilte.
+  }
+exporting-exported-media-file = { $count ->
+    [one] { $count } comhad meáin easpórtáilte
+    [two] { $count } chomhad meán easpórtáilte
+    [few] { $count } chomhad meán easpórtáilte
+    [many] { $count } gcomhad meán easpórtáilte
+   *[other] { $count } comhad meán easpórtáilte
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } nóta easpórtáilte.
+    [two] { $count } nóta easpórtáilte.
+    [few] { $count } nóta easpórtáilte.
+    [many] { $count } nóta easpórtáilte.
+   *[other] { $count } nóta easpórtáilte.
+  }

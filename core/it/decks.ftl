@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Ripianifica le carte considerando l
 decks-study = Studia
 decks-study-deck = Studia il mazzo
 decks-the-provided-search-did-not-match = La ricerca non ha fornito nessun risultato. Vuoi modificare i criteri di ricerca?
+decks-it-has-card = { $count ->
+    [one]  Ha { $count } carta.
+   *[other]  Ha { $count } carte.
+  }

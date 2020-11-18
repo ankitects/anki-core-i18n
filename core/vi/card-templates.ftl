@@ -18,3 +18,6 @@ card-templates-flip = Lật
 card-templates-form = Biểu mẫu
 card-templates-off =  (tắt)
 card-templates-on =  (bật)
+card-templates-card-count = { $count ->
+   *[other] { $count } thẻ
+  }

@@ -40,3 +40,11 @@ card-templates-on =  (attivato)
 card-templates-remove-card-type = Rimuovi tipo di carta...
 card-templates-rename-card-type = Rinomina tipo di carte...
 card-templates-reposition-card-type = Riposiziona tipo di carte...
+card-templates-card-count = { $count ->
+    [one] { $count } carta
+   *[other] { $count } carte
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Verrà creata { $count } carte. Proseguire?
+   *[other] Verranno create { $count } carte. Proseguire?
+  }

@@ -10,3 +10,7 @@ decks-minutes = minutter
 decks-no-deck = [ingen kortstokk]
 decks-please-select-something = Du må velge noe.
 decks-study = Studer
+decks-it-has-card = { $count ->
+    [one]  Den har { $count } kort.
+   *[other]  Den har { $count } kort.
+  }

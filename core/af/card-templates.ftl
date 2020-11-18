@@ -17,3 +17,7 @@ card-templates-flip = Draai om
 card-templates-form = Vorm
 card-templates-off =  (af)
 card-templates-on =  (aan)
+card-templates-card-count = { $count ->
+    [one] { $count } kaart
+   *[other] { $count } kaarte
+  }

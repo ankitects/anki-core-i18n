@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Reprogramar targetes en funció de 
 decks-study = Estudiar
 decks-study-deck = Estudiar mall
 decks-the-provided-search-did-not-match = La cerca sol·licitada no retorna cap targeta. Voleu revisar-la?
+decks-it-has-card = { $count ->
+    [one]  Té { $count } targeta.
+   *[other]  Té { $count } targetes.
+  }

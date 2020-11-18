@@ -22,3 +22,11 @@ browsing-nothing = काही नाही
 browsing-replace-with = <b>याने अदलाबदल करा</b>:
 browsing-reschedule = पुन्हा अनुसूचित करा
 browsing-treat-input-as-regular-expression = आदानला रेग्यूलर एक्सप्रेशन माना
+browsing-note-count = { $count ->
+    [one] { $count } टीप
+   *[other] { $count } टिपा
+  }
+browsing-selected = { $count ->
+    [one] { $count } निवडला
+   *[other] { $count } निवडले
+  }

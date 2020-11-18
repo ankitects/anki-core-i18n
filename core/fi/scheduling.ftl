@@ -91,3 +91,7 @@ scheduling-steps-must-be-numbers = Vaiheiden täytyy olla numeroita.
 scheduling-tag-only = Liitä vain tunniste
 scheduling-the-default-configuration-cant-be-removed = Oletusasetuksia ei voi poistaa.
 scheduling-your-changes-will-affect-multiple-decks = Muutoksesi vaikuttavat useisiin pakkoihin. Jos haluat muuttaa vain nykyistä pakkaa, lisää ensin uusi valintaryhmä.
+scheduling-deck-updated = { $count ->
+    [one] { $count } pakka päivitetty.
+   *[other] { $count } pakkaa päivitetty.
+  }

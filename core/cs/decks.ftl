@@ -31,3 +31,8 @@ decks-reschedule-cards-based-on-my-answers = Přeplánování karet založené n
 decks-study = Studovat
 decks-study-deck = Studijní balíky
 decks-the-provided-search-did-not-match = Zadaná vyhledávací kritéria neodpovídají žádným kartám. Chcete je upravit?
+decks-it-has-card = { $count ->
+    [one]  Má { $count } kartu.
+    [few]  Má { $count } karty.
+   *[other]  Má { $count } karet.
+  }

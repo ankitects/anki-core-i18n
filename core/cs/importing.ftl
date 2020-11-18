@@ -51,3 +51,28 @@ importing-unable-to-import-from-a-readonly = Nelze importovat ze souboru s práv
 importing-unknown-file-format = Neznámý formát souboru.
 importing-update-existing-notes-when-first-field = Aktualizovat existující poznámku, když je první pole stejné
 importing-updated = Aktualizováno
+importing-note-added = { $count ->
+    [one] { $count } poznámka přidána
+    [few] { $count } poznámky přidány
+   *[other] { $count } poznámek přidáno
+  }
+importing-note-imported = { $count ->
+    [one] { $count } poznámka importována.
+    [few] { $count } poznámky importovány.
+   *[other] { $count } poznámek importováno.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } poznámka nezměněna
+    [few] { $count } poznámky nezměněny
+   *[other] { $count } poznámek nezměněno
+  }
+importing-note-updated = { $count ->
+    [one] { $count } poznámka aktualizována
+    [few] { $count } poznámky aktualizovány
+   *[other] { $count } poznámek aktualizováno
+  }
+importing-processed-media-file = { $count ->
+    [one] Zpracován { $count } soubor médií
+    [few] Zpracovány { $count } soubory médií
+   *[other] Zpracováno { $count } souborů medií
+  }

@@ -15,3 +15,11 @@ studying-study-now = Μελέτησε τώρα
 studying-suspend = Αναστολή
 studying-suspend-note = Αναστολή σημείωσης
 studying-you-havent-recorded-your-voice-yet = Δεν έχετε ηχογραφήσει τη φωνή σας ακόμα
+studying-card-studied-in = { $count ->
+    [one] { $count } κάρτα μελετήθηκε στο
+   *[other] { $count } κάρτες μελετήθηκαν στο
+  }
+studying-minute = { $count ->
+    [one] { $count } λεπτό
+   *[other] { $count } λεπτά
+  }

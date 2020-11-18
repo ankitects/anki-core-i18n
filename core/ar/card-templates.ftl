@@ -44,3 +44,19 @@ card-templates-on =  (مفعل)
 card-templates-remove-card-type = حذف نوع البطاقة...
 card-templates-rename-card-type = تغيير اسم نوع البطاقة...
 card-templates-reposition-card-type = تغيير موضع نوع البطاقة...
+card-templates-card-count = { $count ->
+    [zero] { $count } بطاقة
+    [one] { $count } بطاقة
+    [two] { $count } بطاقة
+    [few] { $count } بطاقات
+    [many] { $count } بطاقة
+   *[other] { $count } بطاقة
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [zero] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+    [one] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+    [two] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+    [few] سينشئ هذا { $count } بطاقات. هل تريد الاستمرار؟
+    [many] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+   *[other] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+  }

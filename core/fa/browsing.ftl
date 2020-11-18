@@ -102,3 +102,15 @@ browsing-treat-input-as-regular-expression = تلقی ورودی به عنوان
 browsing-type-here-to-search = <جهت جستجو اینجا تایپ کنید; برای نمایش دسته فعلی اینتر را فشار دهید>
 browsing-whole-collection = تمام مجموعه
 browsing-you-must-have-at-least-one = حداقل باید یک ستون داشته باشید.
+browsing-group = { $count ->
+   *[other] { $count } گروه
+  }
+browsing-note-count = { $count ->
+   *[other] { $count } یادداشت
+  }
+browsing-note-deleted = { $count ->
+   *[other] { $count } کارت حذف شد.
+  }
+browsing-selected = { $count ->
+   *[other] { $count } انتخاب شد
+  }

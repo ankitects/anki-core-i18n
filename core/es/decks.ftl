@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Reprogramar tarjetas en función de
 decks-study = Estudiar
 decks-study-deck = Estudiar mazo
 decks-the-provided-search-did-not-match = La búsqueda solicitada no devolvió ninguna tarjeta. ¿Deseas revisarla?
+decks-it-has-card = { $count ->
+    [one]  Tiene { $count } tarjeta.
+   *[other]  Tiene { $count } tarjetas.
+  }

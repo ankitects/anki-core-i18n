@@ -100,3 +100,23 @@ browsing-treat-input-as-regular-expression = Розглядати введенн
 browsing-type-here-to-search = <для пошуку наберіть запит тут; натисніть ввід, щоб показати поточну колоду>
 browsing-whole-collection = Вся колеція
 browsing-you-must-have-at-least-one = Треба, щоб була принаймні одна колонка.
+browsing-group = { $count ->
+    [one] { $count } група
+    [few] { $count } груп
+   *[other] { $count } груп
+  }
+browsing-note-count = { $count ->
+    [one] { $count } нотатка
+    [few] { $count } нотатки
+   *[other] { $count } нотатки
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } нотатку вилучено.
+    [few] { $count } нотаток вилучено.
+   *[other] { $count } нотаток вилучено.
+  }
+browsing-selected = { $count ->
+    [one] { $count } вибрано
+    [few] { $count } вибрано
+   *[other] { $count } вибрано
+  }

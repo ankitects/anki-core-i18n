@@ -40,3 +40,11 @@ card-templates-on =  (activat)
 card-templates-remove-card-type = Eliminar tipus de targueta...
 card-templates-rename-card-type = Canviar el nom del tipus de targueta...
 card-templates-reposition-card-type = Reposicionar tipus de tarjeta...
+card-templates-card-count = { $count ->
+    [one] { $count } targeta
+   *[other] { $count } targetes
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] AIxó crearà { $count } targeta. Continuar?
+   *[other] Aixó crearà { $count } targetes. Continuar?
+  }

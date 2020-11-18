@@ -30,3 +30,15 @@ studying-suspend-note = Notu Askıya Al
 studying-to-review = İncelenecek
 studying-type-answer-unknown-field = Cevap yazın: bilinmeyen alan { $val }
 studying-you-havent-recorded-your-voice-yet = Sesinizi henüz kaydetmediniz.
+studying-card-studied-in = { $count ->
+    [one] { $count } kartın çalışılma süresi:
+   *[other] { $count } kartın çalışılma süresi:
+  }
+studying-minute = { $count ->
+    [one] { $count } dakika.
+   *[other] { $count } dakika.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Not ve ona ait { $count } kart silindi.
+   *[other] Not ve ona ait { $count } kart silindi.
+  }

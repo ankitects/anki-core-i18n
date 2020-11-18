@@ -79,3 +79,23 @@ browsing-treat-input-as-regular-expression = Третирај унос као р
 browsing-type-here-to-search = <унесите овде услов за претраживање; притисните Еnter за приказ текућег шпила>
 browsing-whole-collection = Цела колекција
 browsing-you-must-have-at-least-one = Морате имати бар једну колону.
+browsing-group = { $count ->
+    [one] { $count } група
+    [few] { $count } групе
+   *[other] { $count } група
+  }
+browsing-note-count = { $count ->
+    [one] { $count } белешка
+    [few] { $count } белешке
+   *[other] { $count } белешки
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } белешка је избрисана
+    [few] { $count } белешке су избрисане
+   *[other] { $count } белешки избрисано.
+  }
+browsing-selected = { $count ->
+    [one] { $count } изабрана
+    [few] { $count } изабране
+   *[other] { $count } изабрано
+  }

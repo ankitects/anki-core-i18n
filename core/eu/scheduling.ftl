@@ -85,3 +85,7 @@ scheduling-steps-must-be-numbers = Urratask zenbakiak izan behar dute
 scheduling-tag-only = Etiketatu (*)
 scheduling-the-default-configuration-cant-be-removed = Itxura lehentsia ezin da ezabatu
 scheduling-your-changes-will-affect-multiple-decks = zure aldaketeek hainbat sorta eragingo dituzte.Uneko sorta aldatu nahi baduzu, lehenbizi aukerako talde berri bat gehitu ezazu mesedez
+scheduling-deck-updated = { $count ->
+    [one] Sorta { $count } eguneratuta.
+   *[other] { $count } sorta eguneratuta.
+  }

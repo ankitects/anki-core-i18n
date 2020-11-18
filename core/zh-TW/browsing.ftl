@@ -102,3 +102,15 @@ browsing-treat-input-as-regular-expression = 以正規表達式處理輸入
 browsing-type-here-to-search = <在此處輸入文字以搜尋，或按下 Enter 鍵來顯示當前牌組>
 browsing-whole-collection = 整個集合
 browsing-you-must-have-at-least-one = 至少需要有一行。
+browsing-group = { $count ->
+   *[other] { $count } 種組合
+  }
+browsing-note-count = { $count ->
+   *[other] { $count } 則筆記
+  }
+browsing-note-deleted = { $count ->
+   *[other] 已刪除{ $count }則筆記。
+  }
+browsing-selected = { $count ->
+   *[other] 已選取 { $count } 張
+  }

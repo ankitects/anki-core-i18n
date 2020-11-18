@@ -39,3 +39,15 @@ studying-type-answer-unknown-field = Entajpu respondon: nekonata kampo { $val }
 studying-unbury = Malkaŝi
 studying-what-would-you-like-to-unbury = Kion vi volas malkaŝi?
 studying-you-havent-recorded-your-voice-yet = Vi ankoraŭ ne registris vian sonon.
+studying-card-studied-in = { $count ->
+    [one] { $count } karto estis lernata en
+   *[other] { $count } kartoj estis lernataj en
+  }
+studying-minute = { $count ->
+    [one] { $count } minuto.
+   *[other] { $count } minutoj.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Noto kaj ĝia { $count } karto estas forigita.
+   *[other] Noto kaj ĝia { $count } kartoj estas forigitaj.
+  }

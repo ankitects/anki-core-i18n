@@ -138,3 +138,7 @@ scheduling-steps-must-be-numbers = Bitte Zahlen eingeben.
 scheduling-tag-only = Nur verschlagworten
 scheduling-the-default-configuration-cant-be-removed = Die Standardeinstellungen können nicht gelöscht werden.
 scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst eine neue Optionengruppe erstellen.
+scheduling-deck-updated = { $count ->
+    [one] { $count } Stapel wurde aktualisiert.
+   *[other] { $count } Stapel wurden aktualisiert.
+  }

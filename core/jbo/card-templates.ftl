@@ -23,3 +23,9 @@ card-templates-on =  to katci toi
 card-templates-remove-card-type = nu vimcu lo karda klesi
 card-templates-rename-card-type = basti fi lo ka cmene lo karda klesi
 card-templates-reposition-card-type = basti fi lo ka se pormoi lo karda klesi
+card-templates-card-count = { $count ->
+   *[other] { $count } karda
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+   *[other] .i cupra { $count } karda ba .i xu do djica
+  }

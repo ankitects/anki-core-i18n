@@ -72,3 +72,18 @@ browsing-treat-input-as-regular-expression = Șirul este expresie regulată
 browsing-type-here-to-search = <tastați aici pentru a căuta; apăsați enter pentru a afișa pachetul curent>
 browsing-whole-collection = Întreaga colecție
 browsing-you-must-have-at-least-one = Trebuie să ai cel puțin o coloană.
+browsing-group = { $count ->
+    [one] { $count } grup
+    [few] { $count } grupuri
+   *[other] { $count } grupuri
+  }
+browsing-note-count = { $count ->
+    [one] { $count } notiță
+    [few] { $count } notițe
+   *[other] { $count } notițe
+  }
+browsing-selected = { $count ->
+    [one] { $count } selectată
+    [few] { $count } selectate
+   *[other] { $count } selectate
+  }

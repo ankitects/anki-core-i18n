@@ -102,3 +102,23 @@ browsing-treat-input-as-regular-expression = Трактовать текущий
 browsing-type-here-to-search = <введите здесь поисковый запрос или нажмите «Ввод», чтобы показать текущую колоду>
 browsing-whole-collection = Вся коллекция
 browsing-you-must-have-at-least-one = Вы должны иметь хотя бы один столбец.
+browsing-group = { $count ->
+    [one] { $count } группа
+    [few] { $count } группы
+   *[other] { $count } групп
+  }
+browsing-note-count = { $count ->
+    [one] { $count } запись
+    [few] { $count } записи
+   *[other] { $count } записей
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } запись удалена.
+    [few] { $count } записи удалены.
+   *[other] { $count } записей удалены.
+  }
+browsing-selected = { $count ->
+    [one] { $count } выбрана
+    [few] { $count } выбраны
+   *[other] { $count } выбраны
+  }

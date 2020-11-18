@@ -53,3 +53,23 @@ importing-unable-to-import-from-a-readonly = Impossibile importare da un file di
 importing-unknown-file-format = Formato del file sconosciuto.
 importing-update-existing-notes-when-first-field = Aggiorna le note esistenti se il primo campo corrisponde
 importing-updated = Aggiornato
+importing-note-added = { $count ->
+    [one] { $count } nota aggiunta
+   *[other] { $count } note aggiunte
+  }
+importing-note-imported = { $count ->
+    [one] { $count } nota importata.
+   *[other] { $count } note importate.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } nota invariata
+   *[other] { $count } note invariate
+  }
+importing-note-updated = { $count ->
+    [one] { $count } nota aggiornata
+   *[other] { $count } note aggiornate
+  }
+importing-processed-media-file = { $count ->
+    [one] Processato { $count } file multimediale
+   *[other] Processati { $count } file multimediali
+  }

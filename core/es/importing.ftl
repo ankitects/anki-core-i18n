@@ -53,3 +53,23 @@ importing-unable-to-import-from-a-readonly = No es posible importar desde un arc
 importing-unknown-file-format = Formato de archivo desconocido.
 importing-update-existing-notes-when-first-field = Actualizar las tarjetas existentes cuando el primer campo coincida
 importing-updated = Actualizado
+importing-note-added = { $count ->
+    [one] { $count } nota añadida
+   *[other] { $count } notas añadidas
+  }
+importing-note-imported = { $count ->
+    [one] { $count } nota importada.
+   *[other] { $count } notas importadas.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } nota inalterada
+   *[other] { $count } notas inalteradas
+  }
+importing-note-updated = { $count ->
+    [one] { $count } nota actualizada
+   *[other] { $count } notas actualizadas
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } archivo multimedia procesado
+   *[other] { $count } archivos multimedia procesados
+  }

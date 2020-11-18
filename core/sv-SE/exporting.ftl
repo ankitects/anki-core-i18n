@@ -12,3 +12,15 @@ exporting-include-media = Inkludera media
 exporting-include-scheduling-information = Inkludera schemaläggningsinformation
 exporting-include-tags = Inkludera etiketter
 exporting-notes-in-plain-text = Noter i oformaterad text
+exporting-card-exported = { $count ->
+    [one] { $count } kort exporterat.
+   *[other] { $count } kort exporterade.
+  }
+exporting-exported-media-file = { $count ->
+    [one] Exporterade { $count } mediafil
+   *[other] Exporterade { $count } mediafiler
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } not exporterad.
+   *[other] { $count } noter exporterade.
+  }

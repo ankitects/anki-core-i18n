@@ -19,3 +19,7 @@ card-templates-flip = Voltear
 card-templates-form = Formulario
 card-templates-off =  (desactivado)
 card-templates-on =  (activado)
+card-templates-card-count = { $count ->
+    [one] { $count } tarxeta
+   *[other] { $count } tarxetas
+  }

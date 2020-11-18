@@ -38,3 +38,19 @@ importing-this-will-delete-your-existing-collection = Dette vil slette din eksis
 importing-unable-to-import-from-a-readonly = Kan ikke importere fra en skrivebeskyttet fil.
 importing-unknown-file-format = Ukendt filformat
 importing-update-existing-notes-when-first-field = Opdatér eksisterende noter når første felt matches
+importing-note-added = { $count ->
+    [one] { $count } note tilføjet
+   *[other] { $count } noter tilføjet
+  }
+importing-note-imported = { $count ->
+    [one] { $count } note importeret.
+   *[other] { $count } noter importeret.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } note er uændret
+   *[other] { $count } noter er uændrede
+  }
+importing-note-updated = { $count ->
+    [one] { $count } note opdateret
+   *[other] { $count } noter opdateret
+  }

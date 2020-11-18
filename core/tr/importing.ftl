@@ -39,3 +39,23 @@ importing-this-file-does-not-appear-to = Bu dosya geçerli bir .apkg dosyası gi
 importing-this-will-delete-your-existing-collection = Bu, mevcut koleksiyonunuzu silecer ve içe aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?
 importing-unable-to-import-from-a-readonly = Salt okunur bir dosyadan içe aktarılamıyor.
 importing-unknown-file-format = Bilinmeyen dosya biçimi.
+importing-note-added = { $count ->
+    [one] { $count } not eklendi
+   *[other] { $count } not eklendi
+  }
+importing-note-imported = { $count ->
+    [one] { $count } not içe aktarıldı.
+   *[other] { $count } not içe aktarıldı.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } not değişmedi
+   *[other] { $count } notlar değişmedi
+  }
+importing-note-updated = { $count ->
+    [one] { $count } not güncellendi.
+   *[other] { $count } not güncellendi.
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } medya dosyası işlendi.
+   *[other] { $count } medya dosyaları işlendi.
+  }

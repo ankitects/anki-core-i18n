@@ -11,3 +11,11 @@ exporting-include-media = Incluír os ficheiros multimedia
 exporting-include-scheduling-information = Incluír información de planificación
 exporting-include-tags = Incluir etiquetas
 exporting-notes-in-plain-text = Notas en texto simple
+exporting-card-exported = { $count ->
+    [one] { $count } tarxeta exportada.
+   *[other] { $count } tarxetas exportadas.
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } nota exportada.
+   *[other] { $count } notas exportadas.
+  }

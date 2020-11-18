@@ -38,3 +38,15 @@ importing-this-will-delete-your-existing-collection = Thao tác này sẽ xóa b
 importing-unable-to-import-from-a-readonly = Không thể nhập được từ tập tin chỉ đọc.
 importing-unknown-file-format = Định dạng tập tin không xác định.
 importing-update-existing-notes-when-first-field = Cập nhật các phiếu hiện tại khi so khớp trường tin đầu tiên
+importing-note-added = { $count ->
+   *[other] Đã thêm { $count } phiếu
+  }
+importing-note-imported = { $count ->
+   *[other] Đã nhập { $count } phiếu.
+  }
+importing-note-unchanged = { $count ->
+   *[other] { $count } phiếu không đổi
+  }
+importing-note-updated = { $count ->
+   *[other] Đã cập nhật { $count } phiếu
+  }

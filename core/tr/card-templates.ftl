@@ -15,3 +15,7 @@ card-templates-enter-new-card-position-1 = Yeni kart sırasını girin (1...{ $v
 card-templates-flip = Çevir
 card-templates-off =  (kapalı)
 card-templates-on =  (açık)
+card-templates-card-count = { $count ->
+    [one] { $count } kart
+   *[other] { $count } kart
+  }

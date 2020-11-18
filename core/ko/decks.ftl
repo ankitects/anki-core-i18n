@@ -31,3 +31,6 @@ decks-reschedule-cards-based-on-my-answers = 이 뭉치에서 선택한 답 버�
 decks-study = 공부
 decks-study-deck = 공부할 뭉치
 decks-the-provided-search-did-not-match = 제시한 검색어에 해당하는 카드가 없습니다. 검색어를 수정하겠습니까?
+decks-it-has-card = { $count ->
+   *[other]  { $count }카드가 들어 있습니다.
+  }

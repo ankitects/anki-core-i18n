@@ -100,3 +100,6 @@ scheduling-steps-must-be-numbers = 步伐必须是数字.
 scheduling-tag-only = 仅标记
 scheduling-the-default-configuration-cant-be-removed = 默认配置不能被删除.
 scheduling-your-changes-will-affect-multiple-decks = 你的改变将会影响到很多牌组. 如果你只想要改变当前牌组, 请先添加一个学习计划组.
+scheduling-deck-updated = { $count ->
+   *[other] 上传了{ $count }个牌组
+  }

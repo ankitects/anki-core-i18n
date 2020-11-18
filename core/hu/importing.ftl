@@ -53,3 +53,23 @@ importing-unable-to-import-from-a-readonly = Csak olvasható fájlból nem lehet
 importing-unknown-file-format = Ismeretlen fájlformátum.
 importing-update-existing-notes-when-first-field = Meglévő jegyzet frissítése, ha első mezője egyezik
 importing-updated = Frissítve
+importing-note-added = { $count ->
+    [one] { $count } jegyzet hozzáadva
+   *[other] { $count } jegyzet hozzáadva
+  }
+importing-note-imported = { $count ->
+    [one] { $count } jegyzet importálva.
+   *[other] { $count } jegyzet importálva.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } jegyzet változatlan
+   *[other] { $count } jegyzet változatlan
+  }
+importing-note-updated = { $count ->
+    [one] { $count } jegyzet frissítve
+   *[other] { $count } jegyzet frissítve
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } médiafájl feldolgozva
+   *[other] { $count } médiafájl feldolgozva
+  }

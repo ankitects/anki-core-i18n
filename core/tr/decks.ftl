@@ -23,3 +23,7 @@ decks-random = Rastgele
 decks-reschedule-cards-based-on-my-answers = Bu destedeki cevaplarım üzerine dayanarak kartları yeniden programla
 decks-study = Çalış
 decks-the-provided-search-did-not-match = Sağlanan arama, hiçbir kartla eşleşmedi. Gözden geçirmek ister misiniz?
+decks-it-has-card = { $count ->
+    [one]  { $count } kart bulunuyor.
+   *[other]  { $count } kart bulunuyor.
+  }

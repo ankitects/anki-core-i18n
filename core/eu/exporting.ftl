@@ -11,3 +11,15 @@ exporting-include-media = Sartu euskarria
 exporting-include-scheduling-information = Sartu antolaketako informazioa
 exporting-include-tags = Sartu etiketak
 exporting-notes-in-plain-text = Oharrak testu arruntean
+exporting-card-exported = { $count ->
+    [one] Karta { $count } esportatuta.
+   *[other] { $count } karta esportatuta.
+  }
+exporting-exported-media-file = { $count ->
+    [one] euskarri fitxategi esportatua { $count }
+   *[other] { $count } euskarri fitxategi esportatuak
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } ohar esportatuta
+   *[other] { $count } ohar esportatuta
+  }

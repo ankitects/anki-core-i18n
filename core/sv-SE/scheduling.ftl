@@ -87,3 +87,7 @@ scheduling-steps-must-be-numbers = Steg måste vara siffror
 scheduling-tag-only = Tagga bara
 scheduling-the-default-configuration-cant-be-removed = Den förvalda konfigurationen kan inte tas bort.
 scheduling-your-changes-will-affect-multiple-decks = Dina ändringar kommer påverka flera kortlekar. Om du endast vill ändra nuvarande kortlek, vänligen lägg till en ny alternativgrupp först.
+scheduling-deck-updated = { $count ->
+    [one] { $count } kortlek uppdaterad.
+   *[other] { $count } kortlekar uppdaterade.
+  }

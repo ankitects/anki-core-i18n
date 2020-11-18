@@ -102,3 +102,19 @@ browsing-treat-input-as-regular-expression = Eingabe als regulären Ausdruck beh
 browsing-type-here-to-search = <Suchbegriff hier eingeben; Eingabetaste drücken, um alle Karten des aktuellen Stapels anzuzeigen>
 browsing-whole-collection = Gesamte Sammlung
 browsing-you-must-have-at-least-one = Mindestens eine Spalte muss angezeigt werden.
+browsing-group = { $count ->
+    [one] { $count } Gruppe
+   *[other] { $count } Gruppen
+  }
+browsing-note-count = { $count ->
+    [one] { $count } Notiz
+   *[other] { $count } Notizen
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } Notiz gelöscht
+   *[other] { $count } Notizen gelöscht
+  }
+browsing-selected = { $count ->
+    [one] { $count } ausgewählt
+   *[other] { $count } ausgewählt
+  }

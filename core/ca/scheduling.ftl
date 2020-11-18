@@ -131,3 +131,7 @@ scheduling-steps-must-be-numbers = Els pasos han de ser números.
 scheduling-tag-only = Només etiquetar
 scheduling-the-default-configuration-cant-be-removed = La configuració per defecte no pot ser eliminada.
 scheduling-your-changes-will-affect-multiple-decks = Els teus canvis afectaran a diversos malls. Si vols canviar únicament el mall actual, afegeix primer un nou grup d'opcions.
+scheduling-deck-updated = { $count ->
+    [one] { $count } mall actualitzat.
+   *[other] { $count } malls actualitzats.
+  }

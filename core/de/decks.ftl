@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Meine Antworten in diesem Auswahlst
 decks-study = Lernen
 decks-study-deck = Stapel lernen
 decks-the-provided-search-did-not-match = Es wurden keine Karten gefunden, die zu dieser Auswahl passen. Sollen die Kriterien geändert werden?
+decks-it-has-card = { $count ->
+    [one]  Dort befindet sich { $count } Karte.
+   *[other]  Dort befinden sich { $count } Karten.
+  }

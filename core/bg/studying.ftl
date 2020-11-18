@@ -24,3 +24,15 @@ studying-this-is-a-special-deck-for = Това е специално тесте 
 studying-to-review = За преглед
 studying-unbury = Изравяне
 studying-you-havent-recorded-your-voice-yet = Не сте записали все още своя глас.
+studying-card-studied-in = { $count ->
+    [one] { $count } карта научена за
+   *[other] { $count } карти научени за
+  }
+studying-minute = { $count ->
+    [one] { $count } минута
+   *[other] { $count } минути
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Бележката и неийната { $count } карта бяха изтрити.
+   *[other] Бележката и неийните { $count } карти бяха изтрити.
+  }

@@ -27,3 +27,23 @@ importing-mapped-to-tags = transformat în <b>etichete</b>
 importing-mnemosyne-20-deck-db = Pachet Mnemosyne 2.0 (*.db)
 importing-rows-had-num1d-fields-expected-num2d = '%(row)s' are %(num1)d câmpuri, din %(num2)d prevăzute
 importing-supermemo-xml-export-xml = XML exportat din Supermemo (*.xml)
+importing-note-added = { $count ->
+    [one] { $count } notă adăugată
+    [few] { $count } note adăugate
+   *[other] { $count } note adăugate
+  }
+importing-note-imported = { $count ->
+    [one] { $count } notă importată.
+    [few] { $count } note importate.
+   *[other] { $count } note importate.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } notă nemodificată
+    [few] { $count } note nemodificate
+   *[other] { $count } de note nemodificate
+  }
+importing-note-updated = { $count ->
+    [one] { $count } notă actualizată
+    [few] { $count } note actualizate
+   *[other] { $count } note actualize
+  }

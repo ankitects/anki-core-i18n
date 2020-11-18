@@ -31,3 +31,23 @@ importing-this-will-delete-your-existing-collection = Това ще изтрие
 importing-unable-to-import-from-a-readonly = Не може да се импортира от файл, достъпен само за четене.
 importing-unknown-file-format = Неразпознат файлов формат.
 importing-update-existing-notes-when-first-field = Обновяване на съществуващи бележки, когато първото поле пасва.
+importing-note-added = { $count ->
+    [one] { $count } бележка беше добавена
+   *[other] { $count } бележки бяха добавени
+  }
+importing-note-imported = { $count ->
+    [one] { $count } бележка беше импортирана.
+   *[other] { $count } бележки бяха импортирани.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } бележка не беше променена
+   *[other] { $count } бележки не бяха променени
+  }
+importing-note-updated = { $count ->
+    [one] { $count } бележка беше обновена
+   *[other] { $count } бележки бяха обновени
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } медиен файл беше обработен.
+   *[other] { $count } медийни файла бяха обработени.
+  }

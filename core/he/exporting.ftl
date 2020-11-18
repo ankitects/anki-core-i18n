@@ -15,3 +15,15 @@ exporting-include-scheduling-information = כלול מידע על מועדים �
 exporting-include-tags = כלול תגיות
 exporting-notes-in-plain-text = רשומות בטקסט רגיל
 exporting-selected-notes = רשומות נבחרות
+exporting-card-exported = { $count ->
+    [one] { $count } כרטיס יוצא.
+   *[other] { $count } כרטיסים יוצאו.
+  }
+exporting-exported-media-file = { $count ->
+    [one] { $count } קובץ מדיה יוצא
+   *[other] { $count } קבצי מדיה יוצאו
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } רשומה יוצאה.
+   *[other] { $count } רשומות יוצאו.
+  }

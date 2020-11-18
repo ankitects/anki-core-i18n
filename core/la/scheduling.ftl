@@ -27,3 +27,7 @@ scheduling-time-span-years = { $amount ->
 scheduling-days = dies
 scheduling-end = (finis)
 scheduling-seconds = secundae
+scheduling-deck-updated = { $count ->
+    [one] { $count } cartarum pila missa.
+   *[other] { $count } cartarum pilae missae.
+  }

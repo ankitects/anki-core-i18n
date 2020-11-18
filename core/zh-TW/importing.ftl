@@ -52,3 +52,18 @@ importing-unable-to-import-from-a-readonly = 無法匯入唯讀檔案。
 importing-unknown-file-format = 未知檔案格式。
 importing-update-existing-notes-when-first-field = 第一個欄位相符時，更新現有筆記
 importing-updated = 已更新
+importing-note-added = { $count ->
+   *[other] 已新增{ $count }則筆記
+  }
+importing-note-imported = { $count ->
+   *[other] 已匯入{ $count }則筆記。
+  }
+importing-note-unchanged = { $count ->
+   *[other] { $count }則筆記沒有變更
+  }
+importing-note-updated = { $count ->
+   *[other] 更新了 { $count } 筆資料
+  }
+importing-processed-media-file = { $count ->
+   *[other] 己處理 { $count } 個媒體檔
+  }

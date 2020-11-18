@@ -21,3 +21,18 @@ studying-suspend = Suspendiraj
 studying-suspend-note = Suspendiraj bilješku
 studying-to-review = Za ponavljanje
 studying-you-havent-recorded-your-voice-yet = Još niste snimili svoj glas.
+studying-card-studied-in = { $count ->
+    [one] { $count } kartica učena u
+    [few] { $count } kartica učeno u
+   *[other] { $count } kartica učeno u
+  }
+studying-minute = { $count ->
+    [one] { $count } minuta.
+    [few] { $count } minute.
+   *[other] { $count } minuta.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Bilješka i pripadajuća karta { $count } obrisani.
+    [few] Bilješka i pripadajuće karte { $count } obrisane.
+   *[other] Bilješka i pripadajuće karte { $count } obrisane.
+  }

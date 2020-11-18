@@ -41,3 +41,18 @@ studying-to-review = Повторит
 studying-type-answer-unknown-field = Введення  відповіді з клавіатури: невідоме поле { $val }
 studying-unbury = Розкопати
 studying-you-havent-recorded-your-voice-yet = Ви ще не записали ваш голос.
+studying-card-studied-in = { $count ->
+    [one] { $count } катка вивчена за
+    [few] { $count } картки вивчені за
+   *[other] { $count } картки вивчені за
+  }
+studying-minute = { $count ->
+    [one] { $count } хвилина.
+    [few] { $count } хвилин.
+   *[other] { $count } хвилин.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Нотатку та її  { $count } картку видалено.
+    [few] Нотатку та її  { $count } карток видалено.
+   *[other] Нотатку та її  { $count } карток видалено.
+  }

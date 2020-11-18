@@ -31,3 +31,11 @@ decks-reschedule-cards-based-on-my-answers = إعادة جدولة البطاق�
 decks-study = دراسة
 decks-study-deck = دراسة رزمة
 decks-the-provided-search-did-not-match = لم يطابق الفلتر المعطى أي بطاقة. هل تريد تعديله؟
+decks-it-has-card = { $count ->
+    [zero]  فيها { $count } بطاقة.
+    [one]  فيها { $count } بطاقة.
+    [two]  فيها { $count } بطاقة.
+    [few]  فيها { $count } بطاقة.
+    [many]  فيها { $count } بطاقة.
+   *[other]  فيها { $count } بطاقة.
+  }

@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Replanifier les cartes selon mes r�
 decks-study = Étudier
 decks-study-deck = Étudier le paquet
 decks-the-provided-search-did-not-match = Aucune carte ne correspond à cette recherche. Voulez-vous la modifier ?
+decks-it-has-card = { $count ->
+    [one]  Contient { $count } carte.
+   *[other]  Contient { $count } cartes.
+  }

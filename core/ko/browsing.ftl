@@ -102,3 +102,15 @@ browsing-treat-input-as-regular-expression = 정규식으로 취급
 browsing-type-here-to-search = <찾을 내용을 이 곳에 입력하세요. 이대로 엔터 키를 누르면 현재 뭉치를 표시합니다.>
 browsing-whole-collection = 모음집 전체
 browsing-you-must-have-at-least-one = 적어도 세로열 하나는 반드시 필요합니다.
+browsing-group = { $count ->
+   *[other] { $count }그룹
+  }
+browsing-note-count = { $count ->
+   *[other] { $count }노트
+  }
+browsing-note-deleted = { $count ->
+   *[other] { $count }노트를 삭제했습니다.
+  }
+browsing-selected = { $count ->
+   *[other] { $count }개 선택
+  }

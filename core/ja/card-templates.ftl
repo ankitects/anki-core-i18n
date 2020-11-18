@@ -26,3 +26,9 @@ card-templates-on =  (有効)
 card-templates-remove-card-type = このカードタイプを削除
 card-templates-rename-card-type = このカードタイプ名を変更...
 card-templates-reposition-card-type = このカードタイプの順序を変更...
+card-templates-card-count = { $count ->
+   *[other] { $count }枚のカード
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+   *[other] { $count }枚のカードが作成されます。続行しますか？
+  }

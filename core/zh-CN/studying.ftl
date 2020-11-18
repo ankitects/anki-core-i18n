@@ -42,3 +42,12 @@ studying-type-answer-unknown-field = 键入答案：未知域 { $val }
 studying-unbury = 取消搁置
 studying-what-would-you-like-to-unbury = 您想撤回焚毁操作吗？
 studying-you-havent-recorded-your-voice-yet = 你还没有录制你的声音.
+studying-card-studied-in = { $count ->
+   *[other] 学习了{ $count }张卡片，用时
+  }
+studying-minute = { $count ->
+   *[other] { $count } 分钟
+  }
+studying-note-and-its-card-deleted = { $count ->
+   *[other] 笔记及它的{ $count }张卡片被删除.
+  }

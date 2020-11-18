@@ -87,3 +87,7 @@ scheduling-steps-must-be-numbers = Passos devem ser números.
 scheduling-tag-only = Somente Etiquetas
 scheduling-the-default-configuration-cant-be-removed = A configuração padrão não pode ser excluída.
 scheduling-your-changes-will-affect-multiple-decks = Suas mudanças afetam múltiplos decks. Se você quer modificar apenas o deck atual, por favor, adicione novas opções de grupo primeiro.
+scheduling-deck-updated = { $count ->
+    [one] { $count } baralho atualizado.
+   *[other] { $count } baralhos atualizados
+  }

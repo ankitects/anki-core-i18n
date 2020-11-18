@@ -27,3 +27,6 @@ decks-reschedule-cards-based-on-my-answers = Lập lịch lại thẻ các dựa
 decks-study = Học tập
 decks-study-deck = Học Bộ thẻ
 decks-the-provided-search-did-not-match = Yêu cầu tìm kiếm bạn cung cấp không khớp với bất kỳ thẻ nào. Bạn có muốn sửa lại không?
+decks-it-has-card = { $count ->
+   *[other]  Có { $count } thẻ.
+  }

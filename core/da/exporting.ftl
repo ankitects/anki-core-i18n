@@ -11,3 +11,11 @@ exporting-include-media = Inkluder medie
 exporting-include-scheduling-information = Inkluder planlægningsinformation
 exporting-include-tags = Inkluder etiketter
 exporting-notes-in-plain-text = Notat i ren tekst
+exporting-card-exported = { $count ->
+    [one] { $count } kort blev eksporteret.
+   *[other] { $count } kort blev eksporteret.
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } note blev eksporteret.
+   *[other] { $count } noter blev eksporteret.
+  }

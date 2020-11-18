@@ -55,3 +55,23 @@ importing-unable-to-import-from-a-readonly = לא ניתן לייבא מקובץ
 importing-unknown-file-format = סוג קובץ לא מוכר.
 importing-update-existing-notes-when-first-field = עדכן רשומות קיימות כאשר השדה הראשון תואם
 importing-updated = עודכן
+importing-note-added = { $count ->
+    [one] { $count } רשומה נוספה
+   *[other] { $count } רשומות נוספו
+  }
+importing-note-imported = { $count ->
+    [one] { $count } רשומה יובאה.
+   *[other] { $count } רשומות יובאו.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } רשומה לא השתנתה
+   *[other] { $count } רשומות לא השתנו
+  }
+importing-note-updated = { $count ->
+    [one] { $count } רשומה עודכנה
+   *[other] { $count } רשומות עודכנו
+  }
+importing-processed-media-file = { $count ->
+    [one] עובד { $count } קובץ מדיה
+   *[other] עובדו { $count } קבצי מדיה
+  }

@@ -12,3 +12,8 @@ exporting-include-media = Include media
 exporting-include-scheduling-information = Include planificarea
 exporting-include-tags = Include etichete
 exporting-selected-notes = Șterge notițele
+exporting-card-exported = { $count ->
+    [one] { $count } card export at.
+    [few] { $count } carduri exportate.
+   *[other] { $count } carduri exportate.
+  }

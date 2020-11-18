@@ -42,3 +42,12 @@ studying-type-answer-unknown-field = 解答キー入力: 不明なフィール�
 studying-unbury = 延期を解除
 studying-what-would-you-like-to-unbury = 何を延期解除しますか？
 studying-you-havent-recorded-your-voice-yet = まだ録音してません。
+studying-card-studied-in = { $count ->
+   *[other] 今日は{ $count }枚のカードを
+  }
+studying-minute = { $count ->
+   *[other] { $count } 分学習しました。
+  }
+studying-note-and-its-card-deleted = { $count ->
+   *[other] ノートと{ $count }枚のカードを削除しました。
+  }

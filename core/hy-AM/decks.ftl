@@ -31,3 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Վերահերթագրել քարտ
 decks-study = Սովորել
 decks-study-deck = Սովորել կապուկը
 decks-the-provided-search-did-not-match = Որոնման տվյալներով ոչ մի քարտ չգտնվեց: Ուզո՞ւմ եք փոխել նրանք:
+decks-it-has-card = { $count ->
+    [one]  Պարունակում է { $count } քարտ:
+   *[other]  Պարունակում է { $count } քարտ:
+  }

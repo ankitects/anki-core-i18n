@@ -42,3 +42,13 @@ card-templates-on =  (povoleno)
 card-templates-remove-card-type = Odebrat typ karty...
 card-templates-rename-card-type = Přejmenovat typ karty...
 card-templates-reposition-card-type = Změnit pořadí typu karty...
+card-templates-card-count = { $count ->
+    [one] { $count } karta
+    [few] { $count } karet
+   *[other] { $count } karet
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Bude vytvořena { $count } karta. Pokračovat?
+    [few] Budou vytvořeny { $count } karty. Pokračovat?
+   *[other] Bude vytvořeno { $count } karet. Pokračovat?
+  }

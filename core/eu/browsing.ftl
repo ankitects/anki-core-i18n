@@ -80,3 +80,19 @@ browsing-treat-input-as-regular-expression = Sarrera adierazpen erregular batent
 browsing-type-here-to-search = <idatzi hemen bilatzeko; sakatu sartu uneko bilduma erakusteko>
 browsing-whole-collection = Bilduma osoa
 browsing-you-must-have-at-least-one = Gutxienez zutabe bat izan behar duzu.
+browsing-group = { $count ->
+    [one] Talde { $count }
+   *[other] { $count } talde
+  }
+browsing-note-count = { $count ->
+    [one] Ohar { $count }
+   *[other] { $count } ohar
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } nota ezabatuta
+   *[other] { $count } nota ezabatuta
+  }
+browsing-selected = { $count ->
+    [one] { $count } hautatuta
+   *[other] { $count } hautatuta
+  }

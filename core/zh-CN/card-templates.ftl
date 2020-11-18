@@ -36,3 +36,9 @@ card-templates-on = (开)
 card-templates-remove-card-type = 移除卡片类型…
 card-templates-rename-card-type = 重命名卡片类型…
 card-templates-reposition-card-type = 改变卡片类型…
+card-templates-card-count = { $count ->
+   *[other] { $count }张卡片
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+   *[other] 本次操作将创建 { $count } 张卡片，继续吗？
+  }

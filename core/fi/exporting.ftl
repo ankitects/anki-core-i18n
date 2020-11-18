@@ -13,3 +13,15 @@ exporting-include-media = Sisältää mediatiedostoja
 exporting-include-scheduling-information = Liitä ajastustiedot
 exporting-include-tags = Liitä tunnisteet:
 exporting-notes-in-plain-text = Muistiinpanot pelkkänä tekstinä
+exporting-card-exported = { $count ->
+    [one] { $count } kortti tuotu.
+   *[other] { $count } korttia tuotu.
+  }
+exporting-exported-media-file = { $count ->
+    [one] Tuotiin { $count } mediatiedosto
+   *[other] Tuotiin { $count } mediatiedostoa
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } muistiinpano tuotu.
+   *[other] { $count } muistiinpanoa tuoto.
+  }

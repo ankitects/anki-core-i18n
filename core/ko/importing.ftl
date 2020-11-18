@@ -51,3 +51,18 @@ importing-unable-to-import-from-a-readonly = 읽기 전용 파일은 가져올 �
 importing-unknown-file-format = 알 수 없는 파일 형식.
 importing-update-existing-notes-when-first-field = 첫 필드가 일치할 경우 기존의 노트를 업데이트
 importing-updated = 업데이트됨
+importing-note-added = { $count ->
+   *[other] { $count }노트를 추가했습니다.
+  }
+importing-note-imported = { $count ->
+   *[other] 노트  { $count }개를 가져왔습니다.
+  }
+importing-note-unchanged = { $count ->
+   *[other] 노트 { $count }개는 변경되지 않았습니다.
+  }
+importing-note-updated = { $count ->
+   *[other] { $count }노트를 업데이트했습니다.
+  }
+importing-processed-media-file = { $count ->
+   *[other] { $count }개의 미디어 파일을 처리함
+  }

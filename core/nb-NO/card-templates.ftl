@@ -11,3 +11,7 @@ card-templates-card-types-for = Korttyper for { $val }
 card-templates-delete-the-as-card-type-and = Slette korttypen '%(a)s' og dens %(b)s?
 card-templates-off =  (av)
 card-templates-on =  (på)
+card-templates-card-count = { $count ->
+    [one] { $count } kort
+   *[other] { $count } kort
+  }

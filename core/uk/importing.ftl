@@ -52,3 +52,28 @@ importing-this-will-delete-your-existing-collection = Це видалить ва
 importing-unable-to-import-from-a-readonly = Неможливо імпортувати файл, призначений лише для зчитування.
 importing-unknown-file-format = Невідомий формат файлу.
 importing-update-existing-notes-when-first-field = Оновити існуючі нотатки, коли співпадають перше поле
+importing-note-added = { $count ->
+    [one] { $count } нотатку додано
+    [few] { $count } нотток додано
+   *[other] { $count } нотток додано
+  }
+importing-note-imported = { $count ->
+    [one] { $count } нотатку імпортовано.
+    [few] { $count } нотаток імпортовано.
+   *[other] { $count } нотаток імпортовано.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } нотатка без змін
+    [few] { $count } нотаток без змін
+   *[other] { $count } нотаток без змін
+  }
+importing-note-updated = { $count ->
+    [one] { $count } нотатку оновлено
+    [few] { $count } нотаток оновлено
+   *[other] { $count } нотаток оновлено
+  }
+importing-processed-media-file = { $count ->
+    [one] Оброблено { $count } медіафайл
+    [few] Оброблено { $count } медіафайл
+   *[other] Оброблено { $count } медіафайл
+  }

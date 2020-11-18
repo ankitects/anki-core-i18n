@@ -17,3 +17,7 @@ card-templates-flip = Vend
 card-templates-form = Formular
 card-templates-off =  (slået fra)
 card-templates-on =  (slået til)
+card-templates-card-count = { $count ->
+    [one] { $count } kort
+   *[other] { $count } kort
+  }

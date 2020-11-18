@@ -42,3 +42,27 @@ studying-type-answer-unknown-field = أدخل الجواب: حقل غير معر
 studying-unbury = نكش
 studying-what-would-you-like-to-unbury = ما الذي تريد نكشه؟
 studying-you-havent-recorded-your-voice-yet = لم تسجّل صوتك بعد.
+studying-card-studied-in = { $count ->
+    [zero] درست { $count } بطاقة خلال
+    [one] درست { $count } بطاقة خلال
+    [two] درست { $count } بطاقة خلال
+    [few] درست { $count } بطاقات خلال
+    [many] درست { $count } بطاقة خلال
+   *[other] درست { $count } بطاقة خلال
+  }
+studying-minute = { $count ->
+    [zero] { $count } دقيقة.
+    [one] { $count } دقيقة.
+    [two] { $count } دقيقة.
+    [few] { $count } دقائق.
+    [many] { $count } دقيقة.
+   *[other] { $count } دقيقة.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [zero] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+    [one] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+    [two] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+    [few] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+    [many] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+   *[other] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+  }

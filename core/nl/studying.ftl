@@ -39,3 +39,15 @@ studying-type-answer-unknown-field = Type antwoord: onbekend veld { $val }
 studying-unbury = Graaf op
 studying-what-would-you-like-to-unbury = Wat zou u willen opgraven?
 studying-you-havent-recorded-your-voice-yet = U heeft uw stem nog niet opgenomen.
+studying-card-studied-in = { $count ->
+    [one] { $count } kaart geleerd in
+   *[other] { $count } kaarten geleerd in
+  }
+studying-minute = { $count ->
+    [one] { $count } minuut.
+   *[other] { $count } minuten.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Aantekening en de bijbehorende { $count } kaart verwijderd.
+   *[other] Aantekening en de bijbehorende { $count } kaarten verwijderd.
+  }

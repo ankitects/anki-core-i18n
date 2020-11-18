@@ -33,3 +33,15 @@ studying-to-review = Om Te Hersien
 studying-type-answer-unknown-field = Tipe antwoord: onbekende veld { $val }
 studying-unbury = Opgrawe
 studying-you-havent-recorded-your-voice-yet = Jy het nog nie jou stem opgeneem nie.
+studying-card-studied-in = { $count ->
+    [one] { $count } kaart gestudeer in
+   *[other] { $count } kaarte gestudeer in
+  }
+studying-minute = { $count ->
+    [one] { $count } minuut.
+   *[other] { $count } minute.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Nota en sy { $count } kaart geskrap.
+   *[other] Nota en sy { $count } kaarte geskrap.
+  }

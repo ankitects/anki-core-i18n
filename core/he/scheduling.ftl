@@ -150,3 +150,7 @@ scheduling-steps-must-be-numbers = צעדים מוכרחים להיות מספר
 scheduling-tag-only = סמן בלבד
 scheduling-the-default-configuration-cant-be-removed = תצורת ברירת המחדל אינה ניתנת למחיקה.
 scheduling-your-changes-will-affect-multiple-decks = השינויים שתבצע ישפיעו על מספר חפיסות. אם אתה מעוניין לשנות רק את החפיסה הנוכחית, אנא הוסף קבוצת אפשרויות חדשה קודם.
+scheduling-deck-updated = { $count ->
+    [one] { $count } חפיסה עודכנה.
+   *[other] { $count } חפיסות עודכנו.
+  }

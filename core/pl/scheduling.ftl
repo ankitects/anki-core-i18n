@@ -152,3 +152,8 @@ scheduling-steps-must-be-numbers = Kroki muszą być liczbami.
 scheduling-tag-only = Tylko etykieta
 scheduling-the-default-configuration-cant-be-removed = Usunięcie domyślnej konfiguracji nie jest możliwe.
 scheduling-your-changes-will-affect-multiple-decks = Twoje zmiany dotkną wiele talii. Jeśli chcesz zmienić tylko aktualną talię, dodaj najpierw nową grupę opcji.
+scheduling-deck-updated = { $count ->
+    [one] Zaktualizowano { $count } talię.
+    [few] Zaktualizowano { $count } talie.
+   *[other] Zaktualizowano { $count } talii.
+  }

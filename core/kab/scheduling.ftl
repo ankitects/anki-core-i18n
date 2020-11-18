@@ -32,3 +32,7 @@ scheduling-review = Cegger
 scheduling-seconds = tasinin
 scheduling-steps-in-minutes = Imecwaṛen (s tesdatin)
 scheduling-steps-must-be-numbers = Yesssefk imecwaṛen ad ilin d imḍanen.
+scheduling-deck-updated = { $count ->
+    [one] { $count } ukemmus yettwalqem.
+   *[other] { $count } ikemmusen  ttwaleqmen.
+  }

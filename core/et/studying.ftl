@@ -7,3 +7,7 @@ studying-hard = Raske
 studying-more = Veel
 studying-show-answer = Näita vastust
 studying-suspend = Peata
+studying-minute = { $count ->
+    [one] { $count } minut.
+   *[other] { $count } minutit.
+  }

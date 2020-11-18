@@ -42,3 +42,12 @@ studying-type-answer-unknown-field = 답 입력: 알 수 없는 필드 { $val }
 studying-unbury = 덮기 해제
 studying-what-would-you-like-to-unbury = 어떤 것을 파내시겠습니까?
 studying-you-havent-recorded-your-voice-yet = 음성을 녹음하지 않았습니다.
+studying-card-studied-in = { $count ->
+   *[other] { $count } 카드를 공부한 시간
+  }
+studying-minute = { $count ->
+   *[other] { $count }분.
+  }
+studying-note-and-its-card-deleted = { $count ->
+   *[other] 노트와 그에 속한 카드 { $count }개가 삭제되었습니다.
+  }

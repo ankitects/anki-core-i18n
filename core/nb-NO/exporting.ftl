@@ -10,3 +10,11 @@ exporting-export-format = <b>Eksportformat</b>:
 exporting-include = <b>Inkluder</b>:
 exporting-include-scheduling-information = Inkluder planlegginginformasjon
 exporting-include-tags = Inkluder etiketter
+exporting-card-exported = { $count ->
+    [one] { $count } kort eksportert.
+   *[other] { $count } kort eksportert.
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } notat eksportert
+   *[other] { $count } notater eksportert
+  }

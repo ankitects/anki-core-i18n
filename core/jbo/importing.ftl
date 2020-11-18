@@ -34,3 +34,18 @@ importing-this-file-does-not-appear-to = .i da goi dy. simlu lo ka ce'u na'e dra
 importing-this-will-delete-your-existing-collection = .i lo karda selcmi selcmi ba se vimcu je ba se basti lo se datnyvei be lo ca se nerbei be do .i xu do birti
 importing-unable-to-import-from-a-readonly = .i ka'e nai nerbei lo datnyvei poi ka'e se tcidu po'o
 importing-unknown-file-format = .i na djuno fi lo datnyvei klesi
+importing-note-added = { $count ->
+   *[other] .i mo'u jmina { $count } karda datni
+  }
+importing-note-imported = { $count ->
+   *[other] .i mo'u nerbei { $count } karda datni
+  }
+importing-note-unchanged = { $count ->
+   *[other] .i { $count } karda datni cu stodi
+  }
+importing-note-updated = { $count ->
+   *[other] .i mo'u ningau { $count } karda datni
+  }
+importing-processed-media-file = { $count ->
+   *[other] .i mo'u nerbei { $count } te ganvi
+  }

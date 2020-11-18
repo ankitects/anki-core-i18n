@@ -12,3 +12,19 @@ browsing-font-size = <b>Magnitudo formae litterae</b>:
 browsing-line-size = <b>Longitudo lineae</b>:
 browsing-new = (novum)
 browsing-replace-with = <b>Substitue ab </b>:
+browsing-group = { $count ->
+    [one] { $count } circulus
+   *[other] { $count } circuli
+  }
+browsing-note-count = { $count ->
+    [one] { $count } nota
+   *[other] { $count } notae
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } nota deleta.
+   *[other] { $count } notae deletae.
+  }
+browsing-selected = { $count ->
+    [one] { $count } electum
+   *[other] { $count } electa
+  }

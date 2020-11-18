@@ -39,3 +39,19 @@ importing-this-will-delete-your-existing-collection = Isto eliminará a súa col
 importing-unable-to-import-from-a-readonly = Non é posíbel importar desde un ficheiro de só lectura.
 importing-unknown-file-format = Formato de ficheiro descoñecido.
 importing-update-existing-notes-when-first-field = Actualizar as tarxetas existentes cando coincida o primeiro campo
+importing-note-added = { $count ->
+    [one] { $count } nota engadida
+   *[other] { $count } notas engadidas
+  }
+importing-note-imported = { $count ->
+    [one] { $count } nota importada.
+   *[other] { $count } notas importadas.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } nota sen cambios
+   *[other] { $count } notas sen cambios
+  }
+importing-note-updated = { $count ->
+    [one] { $count } nota actualizada
+   *[other] { $count } notas actualizadas
+  }

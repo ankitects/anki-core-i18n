@@ -36,3 +36,15 @@ studying-to-review = Att repetera
 studying-type-answer-unknown-field = Skriv svar: okänt fält { $val }
 studying-unbury = Visa gömda
 studying-you-havent-recorded-your-voice-yet = Du har inte spelat in din röst ännu.
+studying-card-studied-in = { $count ->
+    [one] { $count } kort studerat i
+   *[other] { $count } kort studerade under
+  }
+studying-minute = { $count ->
+    [one] { $count } minut.
+   *[other] { $count } minuter.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Not och dess { $count } kort togs bort.
+   *[other] Noter och dess { $count } kort togs bort.
+  }

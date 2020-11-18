@@ -23,3 +23,11 @@ studying-note-suspended = Notat suspendert.
 studying-show-answer = Vis svar
 studying-space = Mellomrom
 studying-suspend = Suspender
+studying-card-studied-in = { $count ->
+    [one] { $count } kort studert på
+   *[other] { $count } kort studert på
+  }
+studying-minute = { $count ->
+    [one] { $count } minutt.
+   *[other] { $count } minutter.
+  }

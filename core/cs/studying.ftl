@@ -41,3 +41,18 @@ studying-to-review = K opakování
 studying-type-answer-unknown-field = Napište odpověd: neznámé pole { $val }
 studying-unbury = Zrušit přeskočení
 studying-you-havent-recorded-your-voice-yet = Zatím jste nezaznamenali svůj hlas.
+studying-card-studied-in = { $count ->
+    [one] naučena { $count } karta
+    [few] naučeny { $count } karty
+   *[other] naučeno { $count } karet
+  }
+studying-minute = { $count ->
+    [one] { $count } minuta.
+    [few] { $count } minuty.
+   *[other] { $count } minut.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Poznámka a její karta { $count } smazána.
+    [few] Poznámka a její karty { $count } smazány.
+   *[other] Poznámka a její karty { $count } smazány.
+  }

@@ -15,3 +15,18 @@ exporting-include-scheduling-information = Zachovat informace o plánování
 exporting-include-tags = Zahrnout štítky
 exporting-notes-in-plain-text = Poznámka jako prostý text
 exporting-selected-notes = Vybrané poznámky
+exporting-card-exported = { $count ->
+    [one] exportována { $count } karta.
+    [few] exportováno { $count } karet.
+   *[other] exportováno { $count } karet.
+  }
+exporting-exported-media-file = { $count ->
+    [one] Exportován { $count } soubor médií
+    [few] Exportovány { $count } soubory médií
+   *[other] Exportováno { $count } souborů médií
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } poznámka exportována.
+    [few] { $count } poznámky exportovány.
+   *[other] { $count } poznámek exportováno.
+  }

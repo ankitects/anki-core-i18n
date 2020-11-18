@@ -60,3 +60,18 @@ browsing-target-field = Ciljno polje:
 browsing-type-here-to-search = <ovdje unesite za pretraživanje; pritisnite enter za prikaz aktualnog špila>
 browsing-whole-collection = Cijeli komplet
 browsing-you-must-have-at-least-one = Morate imati barem jedan stupac.
+browsing-group = { $count ->
+    [one] { $count } grupa
+    [few] { $count } grupe
+   *[other] { $count } grupa
+  }
+browsing-note-count = { $count ->
+    [one] { $count } bilješka
+    [few] { $count } bilješke
+   *[other] { $count } bilješki
+  }
+browsing-selected = { $count ->
+    [one] { $count } odabrano
+    [few] { $count } odabrane
+   *[other] { $count } odabrano
+  }

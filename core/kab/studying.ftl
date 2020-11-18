@@ -19,3 +19,11 @@ studying-space = Tallunt
 studying-study-now = Ɣer tura
 studying-suspend = Ḥbes di leεḍil
 studying-to-review = Ad ittucegger
+studying-card-studied-in = { $count ->
+    [one] { $count } tkarḍa tettwaɣra deg
+   *[other] { $count } tkarḍiwin ttwaɣrant deg
+  }
+studying-minute = { $count ->
+    [one] { $count } tasdat.
+   *[other] { $count } tisdatin.
+  }

@@ -41,3 +41,23 @@ importing-unable-to-import-from-a-readonly = Није успео увоз из �
 importing-unknown-file-format = Непознат формат датотеке.
 importing-update-existing-notes-when-first-field = Ажурирај постојеће белешке када се прво поље подудара
 importing-updated = Ажурирано
+importing-note-added = { $count ->
+    [one] { $count } белешка додата
+    [few] { $count } белешке додате
+   *[other] { $count } бележака додато
+  }
+importing-note-imported = { $count ->
+    [one] { $count } белешка извезена.
+    [few] { $count } белешке извезене.
+   *[other] { $count } бележака извезено.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } напомена је неизмењена
+    [few] { $count } напомене су неизмењене
+   *[other] { $count } напомене су неизмењене
+  }
+importing-note-updated = { $count ->
+    [one] { $count } белешка обновљена
+    [few] { $count } белешке обновљене
+   *[other] { $count } бележака обновљено
+  }

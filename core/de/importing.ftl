@@ -53,3 +53,23 @@ importing-unable-to-import-from-a-readonly = Import nicht möglich: Die Datei is
 importing-unknown-file-format = Unbekannter Dateityp.
 importing-update-existing-notes-when-first-field = Notizen mit übereinstimmendem erstem Feld aktualisieren
 importing-updated = Aktualisiert
+importing-note-added = { $count ->
+    [one] { $count } Notiz wurde hinzugefügt
+   *[other] { $count } Notizen wurden hinzugefügt
+  }
+importing-note-imported = { $count ->
+    [one] { $count } Notiz wurde importiert.
+   *[other] { $count } Notizen wurden importiert.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } Notiz unverändert
+   *[other] { $count } Notizen unverändert
+  }
+importing-note-updated = { $count ->
+    [one] { $count } Notiz wurde aktualisiert
+   *[other] { $count } Notizen wurden aktualisiert
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } verarbeitete Mediendatei
+   *[other] { $count } verarbeitete Mediendateien
+  }

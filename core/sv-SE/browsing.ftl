@@ -93,3 +93,19 @@ browsing-treat-input-as-regular-expression = Behandla inmatning som ett reguljä
 browsing-type-here-to-search = <skriv här för att söka; tryck enter för att visa aktuell kortlek>
 browsing-whole-collection = Hela samlingen
 browsing-you-must-have-at-least-one = Du måste ha minst en kolumn.
+browsing-group = { $count ->
+    [one] { $count } grupp
+   *[other] { $count } grupper
+  }
+browsing-note-count = { $count ->
+    [one] { $count } not
+   *[other] { $count } noter
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } not raderad.
+   *[other] { $count } noter raderade.
+  }
+browsing-selected = { $count ->
+    [one] { $count } vald
+   *[other] { $count } valda
+  }

@@ -74,3 +74,7 @@ scheduling-steps-in-minutes = Adımlar (dakikada)
 scheduling-steps-must-be-numbers = Adımlar sayı olmalıdır.
 scheduling-tag-only = Sadece Etiket
 scheduling-the-default-configuration-cant-be-removed = Varsayılan yapılandırma kaldırılamaz.
+scheduling-deck-updated = { $count ->
+    [one] { $count } deste güncellendi.
+   *[other] { $count } deste güncellendi.
+  }

@@ -30,3 +30,6 @@ decks-reschedule-cards-based-on-my-answers = このデッキの解答に基づ�
 decks-study = 学習
 decks-study-deck = デッキを学習する
 decks-the-provided-search-did-not-match = 指定した検索項目は、どのカードにも一致しませんでした。検索項目を変えてみてください。
+decks-it-has-card = { $count ->
+   *[other]  { $count }枚のカードが含まれています。
+  }

@@ -15,3 +15,12 @@ exporting-include-scheduling-information = 包含学习进度信息
 exporting-include-tags = 包含标签
 exporting-notes-in-plain-text = 纯文本格式的笔记
 exporting-selected-notes = 选择的笔记
+exporting-card-exported = { $count ->
+   *[other] 导出了{ $count }张卡片
+  }
+exporting-exported-media-file = { $count ->
+   *[other] 导出了{ $count }个媒体文件
+  }
+exporting-note-exported = { $count ->
+   *[other] 导出了{ $count }条笔记
+  }

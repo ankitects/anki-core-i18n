@@ -52,3 +52,38 @@ importing-unable-to-import-from-a-readonly = Ní féidir iompórtáil ó chomhad
 importing-unknown-file-format = Formáid anaithnid.
 importing-update-existing-notes-when-first-field = Nuashonraigh nótaí más ionann luach an chéad réimse
 importing-updated = Nuashonraithe
+importing-note-added = { $count ->
+    [one] { $count } nóta curtha leis
+    [two] { $count } nóta curtha leis
+    [few] { $count } nóta curtha leis
+    [many] { $count } nóta curtha leis
+   *[other] { $count } nóta curtha leis
+  }
+importing-note-imported = { $count ->
+    [one] { $count } nóta iompórtáilte.
+    [two] { $count } nóta iompórtáilte.
+    [few] { $count } nóta iompórtáilte.
+    [many] { $count } nóta iompórtáilte.
+   *[other] { $count } nóta iompórtáilte.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } nóta gan athrú
+    [two] { $count } nóta gan athrú
+    [few] { $count } nóta gan athrú
+    [many] { $count } nóta gan athrú
+   *[other] { $count } nóta gan athrú
+  }
+importing-note-updated = { $count ->
+    [one] { $count } nóta nuashonraithe
+    [two] { $count } nóta nuashonraithe
+    [few] { $count } nóta nuashonraithe
+    [many] { $count } nóta nuashonraithe
+   *[other] { $count } nóta nuashonraithe
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } chomhad meáin próiseálte
+    [two] { $count } chomhad meáin próiseálte
+    [few] { $count } chomhad meáin próiseálte
+    [many] { $count } gcomhad meáin próiseálte
+   *[other] { $count } comhad meáin próiseálte
+  }

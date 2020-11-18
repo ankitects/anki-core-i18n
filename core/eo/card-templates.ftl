@@ -30,3 +30,11 @@ card-templates-on =  ŝaltita
 card-templates-remove-card-type = Forigi kartotipon
 card-templates-rename-card-type = Alinomi kartotipon...
 card-templates-reposition-card-type = Repozicii kartotipon...
+card-templates-card-count = { $count ->
+    [one] { $count } karto
+   *[other] { $count } kartoj
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Tio kreos { $count } karton. Daŭrigi?
+   *[other] Tio kreos { $count } kartojn. Daŭrigi?
+  }

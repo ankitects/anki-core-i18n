@@ -29,3 +29,11 @@ card-templates-on =  (aan)
 card-templates-remove-card-type = Kaarttype verwijderen ...
 card-templates-rename-card-type = Kaarttype hernoemen...
 card-templates-reposition-card-type = Kaarttype herplaatsen...
+card-templates-card-count = { $count ->
+    [one] { $count } kaart
+   *[other] { $count } kaarten
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Dit zal { $count } kaart aanmaken. Verdergaan?
+   *[other] Dit zal { $count } kaarten aanmaken. Verdergaan?
+  }

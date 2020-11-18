@@ -14,3 +14,15 @@ exporting-include-media = Ներառել մեդիանիշքերը
 exporting-include-scheduling-information = Ներառել ժամանակացույցի տեղեկությունները
 exporting-include-tags = Ներառել պիտակները
 exporting-notes-in-plain-text = Գրառումները պարզ գրվածքի տեսքով
+exporting-card-exported = { $count ->
+    [one] { $count } քարտ արտահանվեց:
+   *[other] { $count } քարտ արտահանվեց:
+  }
+exporting-exported-media-file = { $count ->
+    [one] Արտահանվեց { $count } մեդիա նիշքը
+   *[other] Արտահանվեց { $count } մեդիա նիշքը
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } գրառում արտահանվեց:
+   *[other] { $count } գրառում արտահանվեց:
+  }

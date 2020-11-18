@@ -45,3 +45,7 @@ scheduling-seconds = δευτερόλεπτα
 scheduling-steps-in-minutes = Βήματα (σε λεπτά)
 scheduling-steps-must-be-numbers = Βήματα πρέπει να είναι αριθμοί.
 scheduling-tag-only = Ετικέτα μόνο
+scheduling-deck-updated = { $count ->
+    [one] { $count } τράπουλα ενημερώθηκε.
+   *[other] { $count } τράπουλες ενημερώθηκαν.
+  }

@@ -26,3 +26,7 @@ decks-reschedule-cards-based-on-my-answers = Planlæg kort påny baseret på min
 decks-study = Studér
 decks-study-deck = Studér kortsæt
 decks-the-provided-search-did-not-match = Den foretagne søgning gav ingen match med kort. Ønsker du at tilpasse den?
+decks-it-has-card = { $count ->
+    [one]  Den har { $count } kort.
+   *[other]  Den har { $count } kort.
+  }

@@ -96,3 +96,19 @@ browsing-treat-input-as-regular-expression = Invoer behandelen als reguliere exp
 browsing-type-here-to-search = <typ hier om te zoeken; druk op enter om de huidige set te tonen>
 browsing-whole-collection = Volledige collectie
 browsing-you-must-have-at-least-one = U moet minstens één kolom hebben.
+browsing-group = { $count ->
+    [one] { $count } groep
+   *[other] { $count } groepen
+  }
+browsing-note-count = { $count ->
+    [one] { $count } aantekening
+   *[other] { $count } aantekeningen
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } aantekening verwijderd.
+   *[other] { $count } aantekeningen verwijderd.
+  }
+browsing-selected = { $count ->
+    [one] { $count } geselecteerd
+   *[other] { $count } geselecteerd
+  }

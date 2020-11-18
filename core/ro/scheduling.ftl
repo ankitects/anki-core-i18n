@@ -82,3 +82,8 @@ scheduling-show-new-cards-in-random-order = Arată cărțile noi în ordine alea
 scheduling-starting-ease = Start ușurință
 scheduling-steps-in-minutes = Pași (în minute)
 scheduling-steps-must-be-numbers = Pașii trebuie să fie numere.
+scheduling-deck-updated = { $count ->
+    [one] { $count } pachet actualizat.
+    [few] { $count } pachete actualizate.
+   *[other] { $count } pachete actualizate.
+  }

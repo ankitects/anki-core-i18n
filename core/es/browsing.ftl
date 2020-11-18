@@ -102,3 +102,19 @@ browsing-treat-input-as-regular-expression = Tratar inserción como expresión r
 browsing-type-here-to-search = <escribe aquí para buscar; presiona enter para mostrar el mazo actual>
 browsing-whole-collection = Colección entera
 browsing-you-must-have-at-least-one = Tiene que haber al menos una columna.
+browsing-group = { $count ->
+    [one] { $count } grupo
+   *[other] { $count } grupos
+  }
+browsing-note-count = { $count ->
+    [one] { $count } nota
+   *[other] { $count } notas
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } nota eliminada.
+   *[other] { $count } notas eliminadas.
+  }
+browsing-selected = { $count ->
+    [one] { $count } seleccionada
+   *[other] { $count } seleccionadas
+  }

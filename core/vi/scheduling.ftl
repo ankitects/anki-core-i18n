@@ -66,3 +66,6 @@ scheduling-steps-must-be-numbers = Bước phải là số
 scheduling-tag-only = Chỉ gắn Nhãn
 scheduling-the-default-configuration-cant-be-removed = Không thể loại bỏ cấu hình mặc định.
 scheduling-your-changes-will-affect-multiple-decks = Thay đổi của bạn sẽ tác động đến nhiều bộ thẻ. Nếu bạn chỉ muốn thay đổi bộ thẻ hiện tại, vui lòng thêm vào một nhóm tuỳ chọn mới trước.
+scheduling-deck-updated = { $count ->
+   *[other] Đã cập nhật { $count } bộ thẻ.
+  }

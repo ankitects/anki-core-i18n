@@ -11,3 +11,9 @@ exporting-include-media = Bao gồm dữ liệu phương tiện
 exporting-include-scheduling-information = Bao gồm thông tin lập lịch
 exporting-include-tags = Bao gồm nhãn
 exporting-notes-in-plain-text = Các phiếu dạng Văn bản Thô
+exporting-card-exported = { $count ->
+   *[other] Đã xuất { $count } thẻ.
+  }
+exporting-note-exported = { $count ->
+   *[other] Đã trích xuất { $count } phiếu.
+  }

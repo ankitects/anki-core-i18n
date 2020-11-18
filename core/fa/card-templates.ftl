@@ -39,3 +39,9 @@ card-templates-on = (روشن)
 card-templates-remove-card-type = پاک کردن نوع کارت...
 card-templates-rename-card-type = نامگذاری مجدد نوع کارت...
 card-templates-reposition-card-type = تغییر مکان نوع کارت...
+card-templates-card-count = { $count ->
+   *[other] { $count } کارت
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+   *[other] این عمل { $count } کارت را تولید خواهد کرد. ادامه؟
+  }

@@ -25,3 +25,21 @@ studying-this-is-a-special-deck-for = Ta poseben paket je namenjen za učenje zu
 studying-to-review = Za pregled
 studying-type-answer-unknown-field = Vnesi odgovor: neznano polje { $val }
 studying-you-havent-recorded-your-voice-yet = Niste še posneli svojega glasu.
+studying-card-studied-in = { $count ->
+    [one] { $count } kartic naštudiranih v
+    [two] { $count } kartica naštudirana v
+    [few] { $count } kartici naštudirani v
+   *[other] { $count } kartic naštudiranih v
+  }
+studying-minute = { $count ->
+    [one] { $count } minut.
+    [two] { $count } minuta.
+    [few] { $count } minuti.
+   *[other] { $count } minut.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Zapisek in njegovih { $count } kartic je bilo izbrisanih.
+    [two] Zapisek in njegova { $count } kartica sta bili izbrisana.
+    [few] zapisek in njegovi { $count } kartici so bili izbrisani.
+   *[other] Zapisek in njene { $count } kartice so bilo izbrisane.
+  }

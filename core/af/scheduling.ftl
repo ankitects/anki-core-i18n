@@ -86,3 +86,7 @@ scheduling-steps-must-be-numbers = Stappe moet getalle wees.
 scheduling-tag-only = Slegs Etiket
 scheduling-the-default-configuration-cant-be-removed = Die verstekwaarde kan nie verwyder word nie.
 scheduling-your-changes-will-affect-multiple-decks = Jou veranderinge affekteer meer as een kaartpak. Indien jy net die huidige kaartpak wil verander, kies asseblief eers 'n nuwe opsie groep.
+scheduling-deck-updated = { $count ->
+    [one] { $count } kaart pak opgedateer.
+   *[other] { $count } kaart pakke opgedateer.
+  }

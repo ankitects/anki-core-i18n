@@ -76,3 +76,19 @@ browsing-treat-input-as-regular-expression = Behandel teks as 'n stringpatroon-u
 browsing-type-here-to-search = <tik hier om te soek, druk enter om die volgende pak te vertoon>
 browsing-whole-collection = Hele Versameling
 browsing-you-must-have-at-least-one = Jy moet ten minste één kolom hê.
+browsing-group = { $count ->
+    [one] { $count } groep
+   *[other] { $count } groepe
+  }
+browsing-note-count = { $count ->
+    [one] { $count } nota
+   *[other] { $count } notas
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } nota verwyder.
+   *[other] { $count } notas verwyder.
+  }
+browsing-selected = { $count ->
+    [one] { $count } geselekteer
+   *[other] { $count } geselekteer
+  }

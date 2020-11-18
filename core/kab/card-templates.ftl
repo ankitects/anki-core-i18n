@@ -10,3 +10,7 @@ card-templates-flip = Tuttya
 card-templates-form = Seg
 card-templates-off =  (insa)
 card-templates-on =  (irmed)
+card-templates-card-count = { $count ->
+    [one] { $count } n tkarḍa
+   *[other] { $count } n tkarḍiwin
+  }

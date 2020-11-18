@@ -32,3 +32,7 @@ scheduling-parent-limit = (limit parent : { $val })
 scheduling-review = Contrarotlar
 scheduling-reviews = Revisions
 scheduling-seconds = segondas
+scheduling-deck-updated = { $count ->
+    [one] { $count } paquet mes a jorn.
+   *[other] { $count } paquets meses a jorn.
+  }

@@ -101,3 +101,15 @@ browsing-treat-input-as-regular-expression = 入力条件に正規表現を使�
 browsing-type-here-to-search = <ここに入力すると検索します; enter を押すと現在のデッキを表示します>
 browsing-whole-collection = コレクション全体
 browsing-you-must-have-at-least-one = 最低でも一つの列は必要です。
+browsing-group = { $count ->
+   *[other] { $count } グループ
+  }
+browsing-note-count = { $count ->
+   *[other] { $count } 個のノート
+  }
+browsing-note-deleted = { $count ->
+   *[other] { $count }個のノートを削除しました。
+  }
+browsing-selected = { $count ->
+   *[other] { $count }枚を選択
+  }

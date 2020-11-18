@@ -16,3 +16,8 @@ card-templates-flip = Inversează
 card-templates-form = Formular
 card-templates-off =  (oprit)
 card-templates-on =  (pornit)
+card-templates-card-count = { $count ->
+    [one] { $count } card
+    [few] { $count } carduri
+   *[other] { $count } carduri
+  }

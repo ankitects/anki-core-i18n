@@ -50,3 +50,18 @@ importing-unable-to-import-from-a-readonly = 読み込み専用ファイルは�
 importing-unknown-file-format = ファイルの種類が不明。
 importing-update-existing-notes-when-first-field = 最初のフィールドが一致した場合、既存のノートを更新する。
 importing-updated = 更新
+importing-note-added = { $count ->
+   *[other] { $count } 個のノートを追加しました。
+  }
+importing-note-imported = { $count ->
+   *[other] { $count } 個のノートを読み込みました。
+  }
+importing-note-unchanged = { $count ->
+   *[other] { $count } 個のノートを変更しませんでした
+  }
+importing-note-updated = { $count ->
+   *[other] { $count } 個のノートを更新しました。
+  }
+importing-processed-media-file = { $count ->
+   *[other] { $count }のメディアファイルを処理
+  }

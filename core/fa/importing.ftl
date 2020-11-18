@@ -52,3 +52,18 @@ importing-unable-to-import-from-a-readonly = قادر به وارد کردن ا�
 importing-unknown-file-format = شکل‌بندی فایل ناشناخته می‌باشد.
 importing-update-existing-notes-when-first-field = وقتی اولین فیلد مطابقت داده شد یادداشت های موجود را بروز رسانی کن.
 importing-updated = به‌روزرسانی شد
+importing-note-added = { $count ->
+   *[other] { $count } یادداشت اضافه شد
+  }
+importing-note-imported = { $count ->
+   *[other] { $count } یادداشت وارد شده.
+  }
+importing-note-unchanged = { $count ->
+   *[other] { $count } یادداشت بدون تغییر ماند.
+  }
+importing-note-updated = { $count ->
+   *[other] { $count } یادداشت بروز شد
+  }
+importing-processed-media-file = { $count ->
+   *[other] تعداد { $count } فایل رسانه پردازش شد
+  }

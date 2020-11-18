@@ -136,3 +136,6 @@ scheduling-steps-must-be-numbers = مراحل باید عدد باشند.
 scheduling-tag-only = فقط برچسب
 scheduling-the-default-configuration-cant-be-removed = تنظیمات پیش فرض قابل حذف نیست.
 scheduling-your-changes-will-affect-multiple-decks = تغییرات شما بر روی چندین دسته تأثیر خواهد گذاشت. اگر می‌خواهید تغییرات فقط بر روی دستۀ فعلی تأثیر بگذارد، لطفا ابتدا یک گروه اختیارات جدید اضافه کنید.
+scheduling-deck-updated = { $count ->
+   *[other] { $count } دسته بروز شد.
+  }

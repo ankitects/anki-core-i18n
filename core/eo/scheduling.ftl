@@ -91,3 +91,7 @@ scheduling-steps-must-be-numbers = Paŝoj devas esti nombroj.
 scheduling-tag-only = Aldoni nur etikedon
 scheduling-the-default-configuration-cant-be-removed = La apriora agordo ne povas esti forigita.
 scheduling-your-changes-will-affect-multiple-decks = Viaj ŝanĝoj efikos sur multaj kartaroj. Se vi nur volas ŝanĝi la aktualan kartaron, bonvolu unue aldoni novan opciogrupon.
+scheduling-deck-updated = { $count ->
+    [one] { $count } kartaro estas ĝisdatigita.
+   *[other] { $count } kartaroj estas ĝisdatigitaj.
+  }

@@ -18,3 +18,6 @@ decks-reschedule-cards-based-on-my-answers = lo ckini be lo ba te spuda be mi cu
 decks-study = tadni
 decks-study-deck = tadni pa karda selcmi
 decks-the-provided-search-did-not-match = .i lo se sisku cu ckaji no karda .i xu do djica lo ka ce'u basygau fi sy.
+decks-it-has-card = { $count ->
+   *[other]  .i { $count } mei fi lo karda
+  }

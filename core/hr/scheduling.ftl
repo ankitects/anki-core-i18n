@@ -62,3 +62,8 @@ scheduling-steps-in-minutes = Koraka (u minutama)
 scheduling-steps-must-be-numbers = Koraci moraju biti brojevi.
 scheduling-tag-only = Samo oznaka
 scheduling-the-default-configuration-cant-be-removed = Standardna konfiguracija se ne može ukloniti.
+scheduling-deck-updated = { $count ->
+    [one] { $count } špil aktualiziran.
+    [few] { $count } špila aktualizirana.
+   *[other] { $count } špilova aktualizirano.
+  }

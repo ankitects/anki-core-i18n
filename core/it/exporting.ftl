@@ -15,3 +15,15 @@ exporting-include-scheduling-information = Includi informazioni pianificazione
 exporting-include-tags = Includi etichette
 exporting-notes-in-plain-text = Note in testo semplice
 exporting-selected-notes = Note selezionate
+exporting-card-exported = { $count ->
+    [one] { $count } carta esportata.
+   *[other] { $count } carte esportate.
+  }
+exporting-exported-media-file = { $count ->
+    [one] Esportato { $count } file multimediale
+   *[other] Esportati { $count } file multimediali
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } nota esportata.
+   *[other] { $count } note esportate.
+  }

@@ -102,3 +102,35 @@ browsing-treat-input-as-regular-expression = عامل المدخلات كتعب�
 browsing-type-here-to-search = <اكتب هنا للبحث؛ اضغط زر enter لعرض الرزمة الحالية>
 browsing-whole-collection = كل المجموعة
 browsing-you-must-have-at-least-one = يجب أن يكون هناك عمود واحد على الأقل.
+browsing-group = { $count ->
+    [zero] { $count } مجموعة
+    [one] { $count } مجموعة
+    [two] { $count } مجموعة
+    [few] { $count } مجموعات
+    [many] { $count } مجموعة
+   *[other] { $count } مجموعة
+  }
+browsing-note-count = { $count ->
+    [zero] { $count } ملحوظة
+    [one] { $count } ملحوظة
+    [two] { $count } ملحوظة
+    [few] { $count } ملحوظات
+    [many] { $count } ملحوظة
+   *[other] { $count } ملحوظة
+  }
+browsing-note-deleted = { $count ->
+    [zero] حُذفت { $count } ملحوظة.
+    [one] حُذفت { $count } ملحوظة.
+    [two] حُذفت { $count } ملحوظة.
+    [few] حُذفت { $count } ملحوظات.
+    [many] حُذفت { $count } ملحوظة.
+   *[other] حُذفت { $count } ملحوظة.
+  }
+browsing-selected = { $count ->
+    [zero] { $count } محددة
+    [one] { $count } محددة
+    [two] { $count } محددتين
+    [few] { $count } محددة
+    [many] { $count } محددة
+   *[other] { $count } محددة
+  }

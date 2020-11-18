@@ -39,3 +39,23 @@ importing-this-will-delete-your-existing-collection = Hark zure bilduma ezabatuk
 importing-unable-to-import-from-a-readonly = Irakurketa soilerako fitxategitik ezin da inportatu
 importing-unknown-file-format = Fitxategi-formatu ezezaguna.
 importing-update-existing-notes-when-first-field = Lehengo eremu bat datorrenean existitzen den ohar eguneratu
+importing-note-added = { $count ->
+    [one] Ohar { $count } erantsita
+   *[other] { $count } ohar erantsita
+  }
+importing-note-imported = { $count ->
+    [one] Ohar { $count } inportatuta.
+   *[other] { $count } ohar inportatuta.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } ohar berdin
+   *[other] { $count } ohar berdin
+  }
+importing-note-updated = { $count ->
+    [one] Ohar { $count } eguneratuta
+   *[other] { $count } ohar eguneratuta
+  }
+importing-processed-media-file = { $count ->
+    [one] Euskarri fixtategi prozesatua { $count }
+   *[other] Euskarri fixtategi prozesatuak { $count }
+  }

@@ -85,3 +85,7 @@ scheduling-steps-must-be-numbers = Leerstappen moeten in minuten worden ingevoer
 scheduling-tag-only = Alleen taggen
 scheduling-the-default-configuration-cant-be-removed = De standaardconfiguratie kan niet verwijderd worden.
 scheduling-your-changes-will-affect-multiple-decks = Uw aanpassingen zullen een effect hebben op verschillende sets. Als u enkel deze set wenst te veranderen, gelieve eerst een nieuwe optiegroep aan te maken.
+scheduling-deck-updated = { $count ->
+    [one] { $count } set bijgewerkt.
+   *[other] { $count } sets bijgewerkt.
+  }

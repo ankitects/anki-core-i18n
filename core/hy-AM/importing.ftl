@@ -51,3 +51,23 @@ importing-unable-to-import-from-a-readonly = Չհաջողվեց ներմուծե
 importing-unknown-file-format = Նիշքի անհայտ ձևաչափ:
 importing-update-existing-notes-when-first-field = Թարմացնել առկա գրառումները առաջին դաշտի համընկման դեպքում:
 importing-updated = Թարմացված
+importing-note-added = { $count ->
+    [one] { $count } գրառում է ավելացվեց
+   *[other] { $count } գրառում է ավելացվեց
+  }
+importing-note-imported = { $count ->
+    [one] { $count } գրառում ներմուծվեց:
+   *[other] { $count } գրառում ներմուծվեց:
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } գրառում չփոխվեց
+   *[other] { $count } գրառում չփոխվեց
+  }
+importing-note-updated = { $count ->
+    [one] { $count } գրառում թարմացվեց
+   *[other] { $count } գրառում թարմացվեց
+  }
+importing-processed-media-file = { $count ->
+    [one] Մշակված մեդիա նիշք { $count }
+   *[other] Մշակված մեդիա նիշք { $count }
+  }

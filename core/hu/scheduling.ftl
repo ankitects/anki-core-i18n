@@ -130,3 +130,7 @@ scheduling-steps-must-be-numbers = A lépéseknek számoknak kell lenniük.
 scheduling-tag-only = Csak címke
 scheduling-the-default-configuration-cant-be-removed = Az alapértelmezett beállítás nem törölhető.
 scheduling-your-changes-will-affect-multiple-decks = A módosításai több paklit is érintenek. Ha csak az aktuális paklit szeretné módosítani, kérjük, hozzon létre előbb ehhez egy új opciócsoportot.
+scheduling-deck-updated = { $count ->
+    [one] { $count } pakli frissítve.
+   *[other] { $count } pakli frissítve.
+  }

@@ -161,3 +161,10 @@ scheduling-steps-must-be-numbers = Úsáid uimhreacha do céimeanna.
 scheduling-tag-only = Clibeáil Amháin
 scheduling-the-default-configuration-cant-be-removed = Ní féidir réamhshocruithe a bhaint.
 scheduling-your-changes-will-affect-multiple-decks = Beidh tionchar ag na hathruithe seo ar roinnt pacaí. Chun an paca seo amháin a athrú, cruthaigh roghaghrúpa nua.
+scheduling-deck-updated = { $count ->
+    [one] { $count } paca amháin nuashonraithe.
+    [two] { $count } phaca nuashonraithe.
+    [few] { $count } phaca nuashonraithe.
+    [many] { $count } bpaca nuashonraithe.
+   *[other] { $count } paca nuashonraithe.
+  }

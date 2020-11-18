@@ -29,3 +29,9 @@ card-templates-on =  (켜짐)
 card-templates-remove-card-type = 카드 유형 삭제...
 card-templates-rename-card-type = 카드 유형 이름 변경
 card-templates-reposition-card-type = 카드 유형 위치 변경...
+card-templates-card-count = { $count ->
+   *[other] { $count }카드
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+   *[other] 이는 { $count }개의 카드를 만들 것입니다. 진행할까요?
+  }

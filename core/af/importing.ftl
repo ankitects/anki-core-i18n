@@ -38,3 +38,23 @@ importing-this-will-delete-your-existing-collection = Dit sal jou bestaande vers
 importing-unable-to-import-from-a-readonly = Onmoontlik om 'n lees-alleen lêer in te voer.
 importing-unknown-file-format = Onbekende lêer formaat.
 importing-update-existing-notes-when-first-field = Dateer bestaande notas op wanneer die eerste veld pas
+importing-note-added = { $count ->
+    [one] { $count } nota bygevoeg
+   *[other] { $count } notas bygevoeg
+  }
+importing-note-imported = { $count ->
+    [one] { $count } nota ingevoer.
+   *[other] { $count } notas ingevoer.
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } nota onveranderd
+   *[other] { $count } notas onveranderd
+  }
+importing-note-updated = { $count ->
+    [one] { $count } nota opgedateer
+   *[other] { $count } notas opgedateer
+  }
+importing-processed-media-file = { $count ->
+    [one] { $count } Media lêer geprosesseer
+   *[other] { $count } Media lêers geprosesseer
+  }

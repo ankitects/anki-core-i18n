@@ -86,3 +86,19 @@ browsing-treat-input-as-regular-expression = Tulkitse syöte säännöllisenä l
 browsing-type-here-to-search = <kirjoita tähän hakusana tai paina enteriä nähdäksesi nykyisen pakan>
 browsing-whole-collection = Koko kokoelma
 browsing-you-must-have-at-least-one = Pitää olla vähintään yksi sarake.
+browsing-group = { $count ->
+    [one] { $count } ryhmä
+   *[other] { $count } ryhmää
+  }
+browsing-note-count = { $count ->
+    [one] { $count } muistiinpano
+   *[other] { $count } muistiinpanoa
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } muistiinpano poistettu.
+   *[other] { $count } muistiinpanoa poistettu.
+  }
+browsing-selected = { $count ->
+    [one] { $count } valittu
+   *[other] { $count } valittua
+  }

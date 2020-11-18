@@ -14,3 +14,15 @@ exporting-include-media = Inkluzivi aŭdovidaĵojn
 exporting-include-scheduling-information = Inkluzivi lerntempajn informojn
 exporting-include-tags = Inkluzivi etikedojn
 exporting-notes-in-plain-text = Notoj en plata teksto
+exporting-card-exported = { $count ->
+    [one] { $count } karto estas elportita.
+   *[other] { $count } kartoj estas elportitaj.
+  }
+exporting-exported-media-file = { $count ->
+    [one] { $count } aŭdovidaĵo estas elportita
+   *[other] { $count } aŭdovidaĵoj estas elportitaj
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } noto estas elportita
+   *[other] { $count } notoj estas elportitaj
+  }

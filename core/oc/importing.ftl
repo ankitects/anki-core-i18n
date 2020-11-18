@@ -11,3 +11,19 @@ importing-ignored = <ignorat>
 importing-rows-had-num1d-fields-expected-num2d = « %(row)s » aviá %(num1)d camps al luòc dels %(num2)d previstes
 importing-semicolon = Punt-virgula
 importing-supermemo-xml-export-xml = Supermemo exportat en XML (*.xml)
+importing-note-added = { $count ->
+    [one] { $count } nòta mai
+   *[other] { $count } nòtas mai
+  }
+importing-note-imported = { $count ->
+    [one] { $count } nòta introdusida
+   *[other] { $count } nòtas introdusidas
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } nòta incambiada
+   *[other] { $count } nòtas incambiadas
+  }
+importing-note-updated = { $count ->
+    [one] { $count } nòta mesa a jorn
+   *[other] { $count } nòtas mesas a jorn
+  }

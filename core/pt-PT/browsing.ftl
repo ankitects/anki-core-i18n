@@ -96,3 +96,19 @@ browsing-treat-input-as-regular-expression = Tratar texto como expressão regula
 browsing-type-here-to-search = <digite aqui para pesquisar; tecle enter para mostrar o baralho atual>
 browsing-whole-collection = Coleção inteira
 browsing-you-must-have-at-least-one = É preciso ter pelo menos uma coluna.
+browsing-group = { $count ->
+    [one] { $count } grupo
+   *[other] { $count } grupos
+  }
+browsing-note-count = { $count ->
+    [one] { $count } nota
+   *[other] { $count } notas
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } nota eliminada.
+   *[other] { $count } notas eliminadas.
+  }
+browsing-selected = { $count ->
+    [one] { $count } selecionado
+   *[other] { $count } selecionados
+  }

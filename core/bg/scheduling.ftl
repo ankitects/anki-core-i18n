@@ -73,3 +73,7 @@ scheduling-show-new-cards-in-random-order = Показване на новите
 scheduling-starting-ease = Начална лекота
 scheduling-the-default-configuration-cant-be-removed = Конфигурацията по подразбиране не може да бъде изтрита.
 scheduling-your-changes-will-affect-multiple-decks = Промените ще повлияят на няколко тестета. За да промените само текущото тесте, създайте нова група от опции.
+scheduling-deck-updated = { $count ->
+    [one] { $count } тесте беше обновено
+   *[other] { $count } тестета бяха обновени
+  }

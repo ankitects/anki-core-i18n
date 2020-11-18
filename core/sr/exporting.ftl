@@ -11,3 +11,13 @@ exporting-include-media = Укључујући медија датотеке
 exporting-include-scheduling-information = Укључи у извоз информацију о распореду
 exporting-include-tags = Заједно са ознакама
 exporting-notes-in-plain-text = Белешке у прост текст
+exporting-card-exported = { $count ->
+    [one] { $count } карта извезена.
+    [few] { $count } карте извезене.
+   *[other] { $count } карата извезено.
+  }
+exporting-note-exported = { $count ->
+    [one] { $count } белешка је извезена.
+    [few] { $count } белешке су извезене.
+   *[other] { $count } белешки извезено.
+  }

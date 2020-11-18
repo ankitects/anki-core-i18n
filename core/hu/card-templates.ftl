@@ -30,3 +30,11 @@ card-templates-on =  (be)
 card-templates-remove-card-type = Kártyatípus eltávolítása ...
 card-templates-rename-card-type = Kártyatípus átnevezése ...
 card-templates-reposition-card-type = Helyzetkártya típusa ...
+card-templates-card-count = { $count ->
+    [one] { $count } kártya
+   *[other] { $count } kártya
+  }
+card-templates-this-will-create-card-proceed = { $count ->
+    [one] Ez { $count } kártyát fog létrehozni. Folytatni kívánja?
+   *[other] Ez { $count } kártyát fog létrehozni. Folytatni kívánja?
+  }

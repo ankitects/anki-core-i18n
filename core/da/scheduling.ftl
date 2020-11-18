@@ -90,3 +90,7 @@ scheduling-steps-must-be-numbers = Trin skal være tal.
 scheduling-tag-only = Mærkat kun
 scheduling-the-default-configuration-cant-be-removed = Standardkonfigurationen kan ikke fjernes.
 scheduling-your-changes-will-affect-multiple-decks = Dine ændringer vil påvirke flere kortsæt. Hvis du blot ønsker at ændre den nuværende kortsæt, så skal du først tilføje en ny tilvalgsgruppe.
+scheduling-deck-updated = { $count ->
+    [one] { $count } kortsæt blev opdateret
+   *[other] { $count } kortsæt blev opdateret
+  }

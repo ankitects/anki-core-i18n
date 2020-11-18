@@ -88,3 +88,6 @@ scheduling-steps-must-be-numbers = 学習ステップは数字で指定してく
 scheduling-tag-only = タグを付けるだけ
 scheduling-the-default-configuration-cant-be-removed = 既定の設定「Default」は削除できません。
 scheduling-your-changes-will-affect-multiple-decks = この変更は複数のデッキに影響が及びます。現在のデッキのみに変更を加えたい時には、まず最初にオプショングループを新規追加してください。
+scheduling-deck-updated = { $count ->
+   *[other] { $count } 個のデッキを更新しました。
+  }

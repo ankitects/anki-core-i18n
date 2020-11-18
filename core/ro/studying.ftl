@@ -26,3 +26,13 @@ studying-suspend = Suspendă
 studying-suspend-note = Suspendă notă
 studying-to-review = De revăzut
 studying-you-havent-recorded-your-voice-yet = Nu ți-ai înregistrat încă vocea.
+studying-card-studied-in = { $count ->
+    [one] { $count } card studiat în
+    [few] { $count } carduri studiate în
+   *[other] { $count } carduri studiate în
+  }
+studying-minute = { $count ->
+    [one] { $count } minut.
+    [few] { $count } minute.
+   *[other] { $count } minute.
+  }

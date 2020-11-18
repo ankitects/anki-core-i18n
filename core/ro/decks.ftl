@@ -24,3 +24,8 @@ decks-order-added = Ordine carburi adăugate
 decks-order-due = Ordine dată scadentă
 decks-random = Aleator
 decks-study-deck = Studiază pachet
+decks-it-has-card = { $count ->
+    [one]  Are { $count } card.
+    [few]  Are { $count } carduri.
+   *[other]  Are { $count } carduri.
+  }

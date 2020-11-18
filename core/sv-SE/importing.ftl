@@ -42,3 +42,23 @@ importing-this-will-delete-your-existing-collection = Detta kommer att ta bort d
 importing-unable-to-import-from-a-readonly = Kan inte importera från en skrivskyddad fil.
 importing-unknown-file-format = Okänt filformat.
 importing-update-existing-notes-when-first-field = Uppdatera existerande noter när det första fältet matchar
+importing-note-added = { $count ->
+    [one] { $count } not tillagd
+   *[other] { $count } noter tillagda
+  }
+importing-note-imported = { $count ->
+    [one] { $count } not importerad
+   *[other] { $count } noter importerade
+  }
+importing-note-unchanged = { $count ->
+    [one] { $count } not oförändrad
+   *[other] { $count } noter oförändrade
+  }
+importing-note-updated = { $count ->
+    [one] { $count } not uppdaterad
+   *[other] { $count } noter uppdaterade
+  }
+importing-processed-media-file = { $count ->
+    [one] Bearbetade { $count } mediafil
+   *[other] Bearbetade { $count } mediafiler
+  }

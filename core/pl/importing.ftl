@@ -53,3 +53,28 @@ importing-unable-to-import-from-a-readonly = Nie można zaimportować z pliku ty
 importing-unknown-file-format = Nieznany format pliku.
 importing-update-existing-notes-when-first-field = Aktualizuj istniejące notatki jeżeli zgadzają się pierwsze pola
 importing-updated = Zaktualizowane
+importing-note-added = { $count ->
+    [one] dodano { $count } notatkę
+    [few] dodano { $count } notatki
+   *[other] dodano { $count } notatek
+  }
+importing-note-imported = { $count ->
+    [one] zaimportowano { $count } notatkę.
+    [few] zaimportowano { $count } notatki.
+   *[other] zaimportowano { $count } notatek.
+  }
+importing-note-unchanged = { $count ->
+    [one] nie zmieniono { $count } notatki
+    [few] nie zmieniono { $count } notatek
+   *[other] nie zmieniono { $count } notatek
+  }
+importing-note-updated = { $count ->
+    [one] zaktualizowano { $count } notatkę
+    [few] zaktualizowano { $count } notatki
+   *[other] zaktualizowano { $count } notatek
+  }
+importing-processed-media-file = { $count ->
+    [one] Przetworzono { $count } plik
+    [few] Przetworzono { $count } pliki
+   *[other] Przetworzono { $count } plików
+  }

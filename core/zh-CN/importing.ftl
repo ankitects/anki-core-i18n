@@ -53,3 +53,18 @@ importing-unable-to-import-from-a-readonly = 不能从只读文件中导入。
 importing-unknown-file-format = 未知的文件格式.
 importing-update-existing-notes-when-first-field = 当首字段匹配时更新现有笔记
 importing-updated = 已更新
+importing-note-added = { $count ->
+   *[other] 添加了{ $count }条笔记
+  }
+importing-note-imported = { $count ->
+   *[other] 导入了{ $count }条笔记
+  }
+importing-note-unchanged = { $count ->
+   *[other] { $count } 条笔记不变
+  }
+importing-note-updated = { $count ->
+   *[other] 更新了{ $count }条笔记
+  }
+importing-processed-media-file = { $count ->
+   *[other] 已处理{ $count }个媒体文件
+  }

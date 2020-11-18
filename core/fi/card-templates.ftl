@@ -21,3 +21,7 @@ card-templates-flip = Käännä ympäri
 card-templates-form = Lomake
 card-templates-off =  (pois päältä)
 card-templates-on =  (päällä)
+card-templates-card-count = { $count ->
+    [one] { $count } kortti
+   *[other] { $count } korttia
+  }

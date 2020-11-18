@@ -102,3 +102,19 @@ browsing-treat-input-as-regular-expression = A bevitt szöveg reguláris kifejez
 browsing-type-here-to-search = <itt adja meg, amit keres; az aktuális pakli megnyitásához nyomjon Entert>
 browsing-whole-collection = Teljes gyűjtemény
 browsing-you-must-have-at-least-one = Legalább egy oszlopnak lennie kell.
+browsing-group = { $count ->
+    [one] { $count } csoport
+   *[other] { $count } csoport
+  }
+browsing-note-count = { $count ->
+    [one] { $count } jegyzet
+   *[other] { $count } jegyzet
+  }
+browsing-note-deleted = { $count ->
+    [one] { $count } jegyzet törölve.
+   *[other] { $count } jegyzet törölve.
+  }
+browsing-selected = { $count ->
+    [one] { $count } kiválasztva
+   *[other] { $count } kiválasztva
+  }

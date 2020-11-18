@@ -42,3 +42,18 @@ studying-type-answer-unknown-field = Wpisz odpowiedź: nieznane pole { $val }
 studying-unbury = Odkop
 studying-what-would-you-like-to-unbury = Co chcesz odkopać?
 studying-you-havent-recorded-your-voice-yet = Nie nagrałeś jeszcze swojego głosu.
+studying-card-studied-in = { $count ->
+    [one] Przejrzano { $count } kartę w
+    [few] Przejrzano { $count } karty w
+   *[other] Przejrzano { $count } kart w
+  }
+studying-minute = { $count ->
+    [one] { $count } minuta.
+    [few] { $count } minuty.
+   *[other] { $count } minut.
+  }
+studying-note-and-its-card-deleted = { $count ->
+    [one] Usunięto notatkę i jej { $count } kartę.
+    [few] Usunięto notatkę i jej { $count } karty.
+   *[other] Usunięto notatkę i jej { $count } kart.
+  }
