@@ -94,3 +94,6 @@ statistics-longest-interval = Plej longa intertempo
 statistics-due-tomorrow = Lernenda morgaŭ
 statistics-average-over-period = Se vi lernus ĉiutage
 statistics-average-ease = Mezuma facileco
+statistics-save-pdf = Konservi kiel PDF
+statistics-saved = Konservita.
+statistics-stats = statistikoj

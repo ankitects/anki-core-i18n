@@ -61,3 +61,6 @@ statistics-longest-interval = Најдужи интервал
 statistics-due-tomorrow = Рок сутра
 statistics-average-over-period = Ако сте учили сваки дан
 statistics-average-ease = Просечна лакоћа
+statistics-save-pdf = Сачувај као PDF
+statistics-saved = Сачувано.
+statistics-stats = статистика

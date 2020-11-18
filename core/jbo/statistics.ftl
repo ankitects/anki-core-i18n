@@ -73,3 +73,6 @@ statistics-longest-interval = traji lo ka clani kei lo'i temci
 statistics-due-tomorrow = morji ca lo bavlamdei
 statistics-average-over-period = se vanbi lo nu do tadni ca ro djedi da'i
 statistics-average-ease = cnano fi lo'i ni frili
+statistics-save-pdf = rejgau pa me la me py dy fy.
+statistics-saved = .i mo'u rejgau
+statistics-stats = datni

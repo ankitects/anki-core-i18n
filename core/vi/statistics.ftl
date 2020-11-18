@@ -45,3 +45,4 @@ statistics-longest-interval = Khoảng lâu nhất
 statistics-due-tomorrow = Đến hạn ngày mai
 statistics-average-over-period = Nếu học hàng ngày thì
 statistics-average-ease = Độ dễ trung bình
+statistics-stats = thống kê

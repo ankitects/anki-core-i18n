@@ -93,3 +93,6 @@ statistics-average = Middels
 statistics-due-tomorrow = Forfaller i morgen
 statistics-average-over-period = Hvis du skulle studere hver dag
 statistics-average-ease = Middels vanskelighetsgrad
+statistics-save-pdf = Lagre PDF
+statistics-saved = Lagret.
+statistics-stats = statistikk

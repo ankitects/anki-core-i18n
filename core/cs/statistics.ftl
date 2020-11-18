@@ -224,3 +224,5 @@ statistics-cards-per-day =
        *[other] { $count } karet/den
     }
 statistics-average-ease = Průměrná snadnost
+statistics-save-pdf = Uložit PDF
+statistics-saved = Uloženo.

@@ -157,3 +157,6 @@ statistics-cards-per-day =
        *[other] { $count } 카드/일
     }
 statistics-average-ease = 평균 수월함
+statistics-save-pdf = PDF로 저장
+statistics-saved = 저장됨.
+statistics-stats = 통계

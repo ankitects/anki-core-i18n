@@ -94,3 +94,6 @@ statistics-longest-interval = Langste interval
 statistics-due-tomorrow = Morgen verwacht
 statistics-average-over-period = Als je elke dag had geleerd
 statistics-average-ease = Gemiddelde gemak
+statistics-save-pdf = Opslaan als PDF
+statistics-saved = Opgeslagen.
+statistics-stats = statistieken

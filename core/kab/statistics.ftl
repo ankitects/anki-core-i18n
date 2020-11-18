@@ -68,3 +68,5 @@ statistics-total = Amatu
 statistics-days-studied = Ussan n tɣuri
 statistics-average-answer-time-label = Akud n tririt alemmas
 statistics-average = Talemmast
+statistics-saved = Yekles.
+statistics-stats = tiddadanin

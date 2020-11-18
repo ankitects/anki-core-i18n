@@ -51,3 +51,5 @@ statistics-longest-interval = En uzun süre
 statistics-due-tomorrow = Yarına kadar
 statistics-average-over-period = Eğer her gün çalıştıysanız
 statistics-average-ease = Ortalama kolaylık
+statistics-save-pdf = PDF Kaydet
+statistics-stats = İstatistikler

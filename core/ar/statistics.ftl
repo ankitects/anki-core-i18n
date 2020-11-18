@@ -267,3 +267,6 @@ statistics-cards-per-day =
        *[other] { $count } بطاقة في اليوم
     }
 statistics-average-ease = معدل السهولة
+statistics-save-pdf = حفظ كـ PDF
+statistics-saved = تم الحفظ.
+statistics-stats = إحصائيات

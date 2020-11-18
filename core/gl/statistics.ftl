@@ -52,3 +52,4 @@ statistics-longest-interval = Intervalo máis largo
 statistics-due-tomorrow = Obrigadas para mañá
 statistics-average-over-period = Se tivera estudado todos os días
 statistics-average-ease = Termo medio de facilidade
+statistics-stats = estatísticas

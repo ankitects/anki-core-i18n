@@ -53,3 +53,4 @@ statistics-longest-interval = Længste interval
 statistics-due-tomorrow = Tidsfrist i morgen
 statistics-average-over-period = Hvis du studerer hver dag
 statistics-average-ease = Gennemsnitlig lethed
+statistics-stats = statistik

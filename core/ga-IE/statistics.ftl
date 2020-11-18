@@ -251,3 +251,6 @@ statistics-cards-per-day =
        *[other] { $count } carta/lá
     }
 statistics-average-ease = Méanéascaíocht
+statistics-save-pdf = Sábháil PDF
+statistics-saved = Sábháilte.
+statistics-stats = staitisticí

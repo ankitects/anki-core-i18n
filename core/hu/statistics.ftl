@@ -113,3 +113,6 @@ statistics-longest-interval = Leghosszabb időköz
 statistics-due-tomorrow = Holnap esedékes
 statistics-average-over-period = Ha mindennap tanulna
 statistics-average-ease = Átlagos könnyűség
+statistics-save-pdf = Mentés PDF-ként
+statistics-saved = Mentve.
+statistics-stats = statisztikák

@@ -185,3 +185,6 @@ statistics-cards-per-day =
        *[other] { $count } کارت/روز
     }
 statistics-average-ease = میانگین آسانی
+statistics-save-pdf = ذخیره PDF
+statistics-saved = ذخیره شد.
+statistics-stats = آمار

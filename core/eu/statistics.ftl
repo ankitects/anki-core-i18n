@@ -58,3 +58,6 @@ statistics-longest-interval = tarte handiena
 statistics-due-tomorrow = Biharko zor izanda
 statistics-average-over-period = egunero ikasi baduzu
 statistics-average-ease = Erraztasun batezbestekoa
+statistics-save-pdf = Gorde PDF
+statistics-saved = Gordetuta
+statistics-stats = estatistikak

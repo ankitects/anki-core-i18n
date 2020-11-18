@@ -176,3 +176,6 @@ statistics-cards-per-day =
        *[other] { $count } 張卡片/天
     }
 statistics-average-ease = 中等容易度
+statistics-save-pdf = 儲存為 PDF 檔
+statistics-saved = 已儲存。
+statistics-stats = 統計

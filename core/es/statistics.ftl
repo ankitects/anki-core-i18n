@@ -201,3 +201,6 @@ statistics-cards-per-day =
        *[other] { $count } tarjetas/día
     }
 statistics-average-ease = Facilidad promedio
+statistics-save-pdf = Guardar PDF
+statistics-saved = Guardado.
+statistics-stats = estadísticas

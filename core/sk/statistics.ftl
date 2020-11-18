@@ -55,3 +55,6 @@ statistics-longest-interval = Najdlhší interval
 statistics-due-tomorrow = Na skúšanie zajtra
 statistics-average-over-period = Pri každodennom štúdiu
 statistics-average-ease = Priemerná jednoduchosť
+statistics-save-pdf = Uložiť PDF
+statistics-saved = Uložené.
+statistics-stats = stat

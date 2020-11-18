@@ -93,3 +93,5 @@ statistics-longest-interval = Längsta intervall
 statistics-due-tomorrow = Schemalagda imorgon
 statistics-average-over-period = Om du skulle studera varje dag
 statistics-average-ease = Genomsnittlig lätthet
+statistics-save-pdf = Spara PDF
+statistics-stats = statistik

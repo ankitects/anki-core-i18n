@@ -94,3 +94,6 @@ statistics-longest-interval = Ամենաերկար ժամանակամիջոցը
 statistics-due-tomorrow = Վաղը կրկնելիք
 statistics-average-over-period = Եթե ամեն օր սովորեիք
 statistics-average-ease = Միջին հեշտություն
+statistics-save-pdf = Պահել PDF-ում
+statistics-saved = Պահված է:
+statistics-stats = վիճակագրություն

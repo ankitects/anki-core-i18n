@@ -99,3 +99,4 @@ statistics-longest-interval = Cel mai lung interval
 statistics-due-tomorrow = Programate pentru mâine
 statistics-average-over-period = Dacă ai studiat în fiecare zi
 statistics-average-ease = Ușurință medie
+statistics-saved = Salvat.

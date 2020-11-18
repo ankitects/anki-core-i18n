@@ -54,3 +54,4 @@ statistics-longest-interval = Pisin kertausväli
 statistics-due-tomorrow = Erääntyy huomenna
 statistics-average-over-period = Jos olisit opiskellut joka päivä
 statistics-average-ease = Keskimääräinen helppous
+statistics-stats = tilastot
