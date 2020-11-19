@@ -57,7 +57,7 @@ browsing-move-cards-to-deck = 移動卡片到牌組:
 browsing-nd-names = %(n)d: %(name)s
 browsing-new = (新卡片)
 browsing-new-note-type = 新的筆記類型:
-browsing-no-flag = 無旗標
+browsing-no-flag = 沒有旗標
 browsing-note = 筆記
 browsing-notes-tagged = 已對筆記貼上標籤。
 browsing-nothing = 無
@@ -102,15 +102,16 @@ browsing-treat-input-as-regular-expression = 以正規表達式處理輸入
 browsing-type-here-to-search = <在此處輸入文字以搜尋，或按下 Enter 鍵來顯示當前牌組>
 browsing-whole-collection = 整個集合
 browsing-you-must-have-at-least-one = 至少需要有一行。
-browsing-group = { $count ->
-   *[other] { $count } 種組合
-  }
-browsing-note-count = { $count ->
-   *[other] { $count } 則筆記
-  }
-browsing-note-deleted = { $count ->
-   *[other] 已刪除{ $count }則筆記。
-  }
-browsing-selected = { $count ->
-   *[other] 已選取 { $count } 張
-  }
+browsing-group =
+    { $count ->
+       *[other] { $count } 種組合
+    }
+browsing-note-count =
+    { $count ->
+       *[other] { $count } 則筆記
+    }
+browsing-note-deleted =
+    { $count ->
+       *[other] 已刪除{ $count }則筆記。
+    }
+browsing-window-title = 瀏覽 (已選取 { $selected } 張卡片，共 { $total } 張)

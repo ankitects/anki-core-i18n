@@ -2,10 +2,10 @@ importing-failed-debug-info = 匯入失敗。除錯資訊:
 importing-aborted = 已終止: { $val }
 importing-added-duplicate-with-first-field = 已新增第一個欄位重複的複本: { $val }
 importing-allow-html-in-fields = 允許在欄位中使用HTML語法
-importing-anki-files-are-from-a-very = .anki檔是非常舊的 Anki 版本所使用的格式。您可以使用 Anki 2.0 來匯入，可在 Anki 網站上取得。
+importing-anki-files-are-from-a-very = .anki 檔是非常舊的 Anki 版本所使用的格式。您可以使用 Anki 2.0 來匯入，可在 Anki 網站上取得。
 importing-anki2-files-are-not-directly-importable = .anki2 檔無法直接匯入——請匯入您收到的 .apkg 檔或 .zip 檔。
 importing-appeared-twice-in-file = 檔案中出現兩次: { $val }
-importing-by-default-anki-will-detect-the = Anki 會自動偵測欄位間的間隔字元，像是定位字元 (tab) 或是逗號。 假如 Anki 偵測錯誤的話，您可以在此輸入。 用 \t 以代表 tab。
+importing-by-default-anki-will-detect-the = Anki 會自動偵測欄位間的間隔字元，像是定位字元 (tab) 或是逗號。假如 Anki 偵測錯誤的話，您可以在此輸入。用 \t 以代表 tab。
 importing-change = 變更
 importing-colon = 冒號
 importing-comma = 逗號
@@ -52,18 +52,23 @@ importing-unable-to-import-from-a-readonly = 無法匯入唯讀檔案。
 importing-unknown-file-format = 未知檔案格式。
 importing-update-existing-notes-when-first-field = 第一個欄位相符時，更新現有筆記
 importing-updated = 已更新
-importing-note-added = { $count ->
-   *[other] 已新增{ $count }則筆記
-  }
-importing-note-imported = { $count ->
-   *[other] 已匯入{ $count }則筆記。
-  }
-importing-note-unchanged = { $count ->
-   *[other] { $count }則筆記沒有變更
-  }
-importing-note-updated = { $count ->
-   *[other] 更新了 { $count } 筆資料
-  }
-importing-processed-media-file = { $count ->
-   *[other] 己處理 { $count } 個媒體檔
-  }
+importing-note-added =
+    { $count ->
+       *[other] 已新增{ $count }則筆記
+    }
+importing-note-imported =
+    { $count ->
+       *[other] 已匯入{ $count }則筆記。
+    }
+importing-note-unchanged =
+    { $count ->
+       *[other] { $count }則筆記沒有變更
+    }
+importing-note-updated =
+    { $count ->
+       *[other] 更新了 { $count } 筆資料
+    }
+importing-processed-media-file =
+    { $count ->
+       *[other] 己處理 { $count } 個媒體檔
+    }

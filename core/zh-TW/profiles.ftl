@@ -1,4 +1,4 @@
-profiles-anki-could-not-read-your-profile = Anki無法讀取您的設定檔資料。視窗大小和您的同步登入詳細資訊已遺失。
+profiles-anki-could-not-read-your-profile = Anki 無法讀取您的設定檔資料。視窗大小和您的同步登入詳細資訊已遺失。
 profiles-anki-could-not-rename-your-profile = 由於無法重新命名硬碟上設定檔的資料夾，所以無法重新命名設定檔。請在確認您擁有寫入到 Document/Anki 的權限以及沒有其他程式在讀取此資料夾後重試。
 profiles-folder-already-exists = 資料夾已存在。
 profiles-open = 開啟

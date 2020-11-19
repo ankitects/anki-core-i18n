@@ -71,9 +71,9 @@ statistics-counts-early-cards = 提前學習
 statistics-counts-learning-cards = 學習中
 statistics-counts-relearning-cards = 重新學習中
 statistics-counts-title = 卡片計數
-statistics-range-all-time = 牌組總時間
+statistics-range-all-time = 全部時間
 statistics-range-1-year-history = 過去 12 個月
-statistics-range-all-history = 全部歷史
+statistics-range-all-history = 全部歷史記錄
 statistics-range-deck = 牌組
 statistics-range-collection = 集合
 statistics-range-search = 搜尋
@@ -86,7 +86,7 @@ statistics-card-ease-tooltip =
     }
 statistics-future-due-title = 預測
 statistics-future-due-subtitle = 將來會到期的複習卡數量
-statistics-added-title = 已新增
+statistics-added-title = 新增
 statistics-added-subtitle = 新增卡片的數量
 statistics-reviews-count-subtitle = 您回答過的題目數量
 statistics-reviews-time-subtitle = 答題佔用的時間
@@ -128,7 +128,7 @@ statistics-intervals-day-single =
        *[other] { $cards } 張間隔為 { $day } 天的卡片
     }
 # hour range, eg "From 14:00-15:00"
-statistics-hours-range = { $hourStart } 點~ { $hourEnd } 點
+statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = 正確率: { $correct }/{ $total } ({ $percent }%)
 statistics-hours-title = 每小時分析
 statistics-hours-subtitle = 當天每小時的複習成功率

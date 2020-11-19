@@ -21,7 +21,7 @@ card-templates-invalid-template-number = 卡片模板 { $number } 存在問題�
 card-templates-changes-saved = 已儲存變更。
 card-templates-discard-changes = 捨棄變更？
 card-templates-add-card-type = 新增卡片類型...
-card-templates-anki-couldnt-find-the-line-between = Anki找不到問題和答案之間的水平線，請手動調整模板以交換問題和答案。
+card-templates-anki-couldnt-find-the-line-between = Anki 找不到問題和答案之間的水平線，請手動調整模板以交換問題和答案。
 card-templates-at-least-one-card-type-is = 需要至少一個卡片類型。
 card-templates-browser-appearance = 瀏覽器外觀...
 card-templates-card = 卡片 { $val }
@@ -34,14 +34,16 @@ card-templates-enter-deck-to-place-new = 您想將新的 { $val } 卡片放在�
 card-templates-enter-new-card-position-1 = 輸入新的卡片順序 (1...{ $val }):
 card-templates-flip = 反轉
 card-templates-form = 表單
-card-templates-off =  (關閉)
-card-templates-on =  (開啟)
+card-templates-off = (關閉)
+card-templates-on = (開啟)
 card-templates-remove-card-type = 移除卡片類型...
 card-templates-rename-card-type = 重新命名卡片類型
 card-templates-reposition-card-type = 卡片類型復位...
-card-templates-card-count = { $count ->
-   *[other] { $count }張卡片
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-   *[other] 這將會建立{ $count }張卡片。繼續嗎？
-  }
+card-templates-card-count =
+    { $count ->
+       *[other] { $count }張卡片
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+       *[other] 這將會建立{ $count }張卡片。繼續嗎？
+    }

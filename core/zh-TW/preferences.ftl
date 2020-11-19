@@ -5,7 +5,7 @@ preferences-backups2 = 個備份
 preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span style=" font-weight:600;">備份</span><br/>Anki 將在每次關閉時，為您的集合建立備份。</p></body></html>
 preferences-basic = 基本
 preferences-change-deck-depending-on-note-type = 依照筆記類型來更改牌組
-preferences-changes-will-take-effect-when-you = 變更將在您重新啟動Anki時生效。
+preferences-changes-will-take-effect-when-you = 變更將在您重新啟動 Anki 時生效。
 preferences-hardware-acceleration-faster-may-cause-display = 硬體加速 (更快，可能造成顯示問題)
 preferences-hours-past-midnight = 點
 preferences-interface-language = 介面語言:
@@ -18,7 +18,7 @@ preferences-next-day-starts-at = 次日始於凌晨
 preferences-night-mode = 夜晚模式
 preferences-note-media-is-not-backed-up = 注意: 媒體不會被備份。保險起見，請定期備份 Anki 資料夾。
 preferences-on-next-sync-force-changes-in = 下次同步時，強制單向變更
-preferences-paste-clipboard-images-as-png = 以PNG格式貼上剪貼簿圖像
+preferences-paste-clipboard-images-as-png = 以 PNG 格式貼上剪貼簿圖像
 preferences-paste-without-shift-key-strips-formatting = 不按 Shift 鍵時以純文字貼上
 preferences-periodically-sync-media = 定期同步媒體
 preferences-please-restart-anki-to-complete-language = 請重啟 Anki 以完成語言變更。

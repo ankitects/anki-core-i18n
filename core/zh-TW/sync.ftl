@@ -29,9 +29,9 @@ sync-confirm-empty-download = 本地集合沒有任何卡片，是否要從 Anki
 sync-conflict-explanation =
     您本地的牌組與 AnkiWeb 牌組之間的差異無法合併，因此需要以某一方的牌組來覆寫另一方的牌組。
     
-    如果您選的是下載， Anki 會從 AnkiWeb 下載您的集合，而您電腦上次同步以後的變動將會遺失。
+    如果您選的是下載，Anki 會從 AnkiWeb 下載您的集合，而您電腦上次同步以後的變動將會遺失。
     
-    如果您選的是上傳， Anki 會上傳您的集合至 AnkiWeb，而您的AnkiWeb 或其他裝置上次同步以後的變動將會遺失。
+    如果您選的是上傳，Anki 會上傳您的集合至 AnkiWeb，而您的 AnkiWeb 或其他裝置上次同步以後的變動將會遺失。
     
     當所有的裝置都同步以後，新增的卡片和複習的卡片都能自動合併。
 sync-ankiweb-id-label = AnkiWeb ID:
