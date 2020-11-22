@@ -26,7 +26,7 @@ importing-mapped-to = ánh xạ với <b>{ $val }</b>
 importing-mapped-to-tags = ánh xạ với <b>Nhãn</b>
 importing-mnemosyne-20-deck-db = Bộ thẻ Mnemosyne 2.0 (*.db)
 importing-pauker-18-lesson-paugz = Bài học Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' có %(num1)d trường tin, yêu cầu %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' có { $found } trường tin, yêu cầu { $expected }
 importing-selected-file-was-not-in-utf8 = Tập tin được chọn không có định dạng UTF-8. Vui lòng tham khảo phần nhập vào của tài liệu hướng dẫn.
 importing-semicolon = Dấu chấm phẩy
 importing-supermemo-xml-export-xml = Tập tin xuất XML của Sumermemo (*.xml)
@@ -38,15 +38,19 @@ importing-this-will-delete-your-existing-collection = Thao tác này sẽ xóa b
 importing-unable-to-import-from-a-readonly = Không thể nhập được từ tập tin chỉ đọc.
 importing-unknown-file-format = Định dạng tập tin không xác định.
 importing-update-existing-notes-when-first-field = Cập nhật các phiếu hiện tại khi so khớp trường tin đầu tiên
-importing-note-added = { $count ->
-   *[other] Đã thêm { $count } phiếu
-  }
-importing-note-imported = { $count ->
-   *[other] Đã nhập { $count } phiếu.
-  }
-importing-note-unchanged = { $count ->
-   *[other] { $count } phiếu không đổi
-  }
-importing-note-updated = { $count ->
-   *[other] Đã cập nhật { $count } phiếu
-  }
+importing-note-added =
+    { $count ->
+       *[other] Đã thêm { $count } phiếu
+    }
+importing-note-imported =
+    { $count ->
+       *[other] Đã nhập { $count } phiếu.
+    }
+importing-note-unchanged =
+    { $count ->
+       *[other] { $count } phiếu không đổi
+    }
+importing-note-updated =
+    { $count ->
+       *[other] Đã cập nhật { $count } phiếu
+    }

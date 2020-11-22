@@ -43,7 +43,7 @@ browsing-first-card = Erste Karte
 browsing-flag = Markierung
 browsing-font = <b>Schriftart</b>:
 browsing-font-size = <b>Schriftgröße</b>:
-browsing-found-as-across-bs = %(a)s in %(b)s gefunden.
+browsing-found-as-across-bs = { $part } in { $whole } gefunden.
 browsing-home = Pos1
 browsing-ignore-case = Groß-/Kleinschreibung ignorieren
 browsing-in = <b>In</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Liniengröße</b>:
 browsing-manage-note-types = &Notiztypen verwalten…
 browsing-move-cards = Karten verschieben
 browsing-move-cards-to-deck = Karten verschieben nach:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (neu)
 browsing-new-note-type = Neuer Notiztyp:
 browsing-no-flag = keine Markierung
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = Eingabe als regulären Ausdruck beh
 browsing-type-here-to-search = <Suchbegriff hier eingeben; Eingabetaste drücken, um alle Karten des aktuellen Stapels anzuzeigen>
 browsing-whole-collection = Gesamte Sammlung
 browsing-you-must-have-at-least-one = Mindestens eine Spalte muss angezeigt werden.
-browsing-group = { $count ->
-    [one] { $count } Gruppe
-   *[other] { $count } Gruppen
-  }
-browsing-note-count = { $count ->
-    [one] { $count } Notiz
-   *[other] { $count } Notizen
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } Notiz gelöscht
-   *[other] { $count } Notizen gelöscht
-  }
-browsing-selected = { $count ->
-    [one] { $count } ausgewählt
-   *[other] { $count } ausgewählt
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } Gruppe
+       *[other] { $count } Gruppen
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } Notiz
+       *[other] { $count } Notizen
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } Notiz gelöscht
+       *[other] { $count } Notizen gelöscht
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } ausgewählt
+       *[other] { $count } ausgewählt
+    }

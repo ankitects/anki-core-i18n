@@ -26,7 +26,7 @@ importing-mapped-to = afbilledet til <b>{ $val }</b>
 importing-mapped-to-tags = afbilledet til <b>Mærker</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 kortsæt (*.db)
 importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' havde %(num1)d felter, forventede %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' havde { $found } felter, forventede { $expected }
 importing-selected-file-was-not-in-utf8 = Den valgte vil var ikke i formatet UTF-8. Læs venligst manualens importsektion .
 importing-semicolon = Semikolon
 importing-supermemo-xml-export-xml = Supermemo XML-eksport (*.xml)
@@ -38,19 +38,23 @@ importing-this-will-delete-your-existing-collection = Dette vil slette din eksis
 importing-unable-to-import-from-a-readonly = Kan ikke importere fra en skrivebeskyttet fil.
 importing-unknown-file-format = Ukendt filformat
 importing-update-existing-notes-when-first-field = Opdatér eksisterende noter når første felt matches
-importing-note-added = { $count ->
-    [one] { $count } note tilføjet
-   *[other] { $count } noter tilføjet
-  }
-importing-note-imported = { $count ->
-    [one] { $count } note importeret.
-   *[other] { $count } noter importeret.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } note er uændret
-   *[other] { $count } noter er uændrede
-  }
-importing-note-updated = { $count ->
-    [one] { $count } note opdateret
-   *[other] { $count } noter opdateret
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } note tilføjet
+       *[other] { $count } noter tilføjet
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } note importeret.
+       *[other] { $count } noter importeret.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } note er uændret
+       *[other] { $count } noter er uændrede
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } note opdateret
+       *[other] { $count } noter opdateret
+    }

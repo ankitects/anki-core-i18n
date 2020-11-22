@@ -27,7 +27,7 @@ importing-mapped-to-tags = Eşlenmiş <b>Etiketler</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 Deste (*.db)
 importing-multicharacter-separators-are-not-supported-please = Çok karakterli ayırıcılar desteklenmiyor. Lütfen yalnızca bir karakter girin.
 importing-pauker-18-lesson-paugz = Pauker 1.8 Dersi (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' içinde %(num1)d alan vardı, beklenen %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' içinde { $found } alan vardı, beklenen { $expected }
 importing-selected-file-was-not-in-utf8 = Seçilen dosya UTF-8 biçiminde değildi. Lütfen klavuzdaki içe aktarma bölümüne bakın.
 importing-semicolon = Noktalı Virgül
 importing-supermemo-xml-export-xml = Supermemo XML dışa aktarma (*.xml)
@@ -39,23 +39,28 @@ importing-this-file-does-not-appear-to = Bu dosya geçerli bir .apkg dosyası gi
 importing-this-will-delete-your-existing-collection = Bu, mevcut koleksiyonunuzu silecer ve içe aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?
 importing-unable-to-import-from-a-readonly = Salt okunur bir dosyadan içe aktarılamıyor.
 importing-unknown-file-format = Bilinmeyen dosya biçimi.
-importing-note-added = { $count ->
-    [one] { $count } not eklendi
-   *[other] { $count } not eklendi
-  }
-importing-note-imported = { $count ->
-    [one] { $count } not içe aktarıldı.
-   *[other] { $count } not içe aktarıldı.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } not değişmedi
-   *[other] { $count } notlar değişmedi
-  }
-importing-note-updated = { $count ->
-    [one] { $count } not güncellendi.
-   *[other] { $count } not güncellendi.
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } medya dosyası işlendi.
-   *[other] { $count } medya dosyaları işlendi.
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } not eklendi
+       *[other] { $count } not eklendi
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } not içe aktarıldı.
+       *[other] { $count } not içe aktarıldı.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } not değişmedi
+       *[other] { $count } notlar değişmedi
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } not güncellendi.
+       *[other] { $count } not güncellendi.
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } medya dosyası işlendi.
+       *[other] { $count } medya dosyaları işlendi.
+    }

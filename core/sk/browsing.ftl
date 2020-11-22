@@ -43,7 +43,7 @@ browsing-first-card = Prvá karta
 browsing-flag = Príznak
 browsing-font = <b>Písmo</b>:
 browsing-font-size = <b>Veľkosť písma</b>:
-browsing-found-as-across-bs = Nájdených %(a)s medzi %(b)s.
+browsing-found-as-across-bs = Nájdených { $part } medzi { $whole }.
 browsing-home = Domov
 browsing-ignore-case = Ignorovať veľkosť písmen
 browsing-in = <b>V</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Veľkosť riadka</b>:
 browsing-manage-note-types = Spravovať typy poznámok...
 browsing-move-cards = Presunúť karty
 browsing-move-cards-to-deck = Presunúť karty do balíčka:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = nový
 browsing-new-note-type = Nový typ poznámky:
 browsing-no-flag = Žiadny príznak
@@ -102,23 +102,27 @@ browsing-treat-input-as-regular-expression = Považovať vstup za regulárny vý
 browsing-type-here-to-search = <zadajte text, ktorý chcete vyhľadať; stlačením klávesy enter zobrazíte aktuálny balíček>
 browsing-whole-collection = Celá zbierka
 browsing-you-must-have-at-least-one = Je potrebný aspoň jeden stĺpec.
-browsing-group = { $count ->
-    [one] { $count } skupín
-    [few] { $count } skupina
-   *[other] { $count } skupiny
-  }
-browsing-note-count = { $count ->
-    [one] { $count } poznámok
-    [few] { $count } poznámka
-   *[other] { $count } poznámky
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } poznámok odstránených.
-    [few] { $count } poznámka odstránená.
-   *[other] { $count } poznámky odstránené.
-  }
-browsing-selected = { $count ->
-    [one] { $count } vybraných
-    [few] { $count } vybraná
-   *[other] { $count } vybrané
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } skupín
+        [few] { $count } skupina
+       *[other] { $count } skupiny
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } poznámok
+        [few] { $count } poznámka
+       *[other] { $count } poznámky
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } poznámok odstránených.
+        [few] { $count } poznámka odstránená.
+       *[other] { $count } poznámky odstránené.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } vybraných
+        [few] { $count } vybraná
+       *[other] { $count } vybrané
+    }

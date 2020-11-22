@@ -32,23 +32,25 @@ card-templates-card-types = Typy karet
 card-templates-card-types-for = Typy karet pro { $val }
 card-templates-cloze = Doplňovačka { $val }
 card-templates-deck-override = Přepsat balík...
-card-templates-delete-the-as-card-type-and = Vymazat typ karty '%(a)s' a jeho %(b)s?
+card-templates-delete-the-as-card-type-and = Vymazat typ karty '{ $template }' a jeho { $cards }?
 card-templates-enter-deck-to-place-new = Zadejte balík pro umístění { $val } nových karet, nebo nechte prázdné:
 card-templates-enter-new-card-position-1 = Pozice nové karty (1...{ $val })
 card-templates-flip = Překlopit
 card-templates-form = Formulář
-card-templates-off =  (zakázáno)
-card-templates-on =  (povoleno)
+card-templates-off = (zakázáno)
+card-templates-on = (povoleno)
 card-templates-remove-card-type = Odebrat typ karty...
 card-templates-rename-card-type = Přejmenovat typ karty...
 card-templates-reposition-card-type = Změnit pořadí typu karty...
-card-templates-card-count = { $count ->
-    [one] { $count } karta
-    [few] { $count } karet
-   *[other] { $count } karet
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [one] Bude vytvořena { $count } karta. Pokračovat?
-    [few] Budou vytvořeny { $count } karty. Pokračovat?
-   *[other] Bude vytvořeno { $count } karet. Pokračovat?
-  }
+card-templates-card-count =
+    { $count ->
+        [one] { $count } karta
+        [few] { $count } karet
+       *[other] { $count } karet
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Bude vytvořena { $count } karta. Pokračovat?
+        [few] Budou vytvořeny { $count } karty. Pokračovat?
+       *[other] Bude vytvořeno { $count } karet. Pokračovat?
+    }

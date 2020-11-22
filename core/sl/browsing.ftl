@@ -26,7 +26,7 @@ browsing-find-duplicates = Poišči dvojnike
 browsing-first-card = Prva kartica
 browsing-font = <b>Pisava</b>:
 browsing-font-size = <b>Velikost pisave</b>:
-browsing-found-as-across-bs = Najdenih %(a)s čez %(b)s.
+browsing-found-as-across-bs = Najdenih { $part } čez { $whole }.
 browsing-home = Domov
 browsing-ignore-case = Velikost črk ni pomembna
 browsing-in = <b>V</b>
@@ -63,15 +63,17 @@ browsing-treat-input-as-regular-expression = Obravnavaj vnos kot običajno izjav
 browsing-type-here-to-search = <vnesite sem, če želite poiskati; pritisnite enter za prikaz trenutnega paketa>
 browsing-whole-collection = Celotna zbirka
 browsing-you-must-have-at-least-one = Imeti morate vsaj en stolpec.
-browsing-group = { $count ->
-    [one] { $count } skupin
-    [two] { $count } skupina
-    [few] { $count } skupini
-   *[other] { $count } skupin
-  }
-browsing-selected = { $count ->
-    [one] { $count } izbran
-    [two] { $count } izbranih
-    [few] { $count } izbrani
-   *[other] { $count } izbrani
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } skupin
+        [two] { $count } skupina
+        [few] { $count } skupini
+       *[other] { $count } skupin
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } izbran
+        [two] { $count } izbranih
+        [few] { $count } izbrani
+       *[other] { $count } izbrani
+    }

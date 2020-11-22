@@ -30,21 +30,23 @@ card-templates-card-types = סוגי כרטיסים
 card-templates-card-types-for = סוגי כרטיסים עבור { $val }
 card-templates-cloze = השלם את החסר { $val }
 card-templates-deck-override = שכתוב חפיסה...
-card-templates-delete-the-as-card-type-and = מחק את סוג כרטיס '%(a)s' ואת %(b)s שלו?
+card-templates-delete-the-as-card-type-and = מחק את סוג כרטיס '{ $template }' ואת { $cards } שלו?
 card-templates-enter-deck-to-place-new = הקלד חפיסה להכניס { $val } כרטיסים חדשים לתוכה, או השאר ריק:
 card-templates-enter-new-card-position-1 = הכנס מיקום כרטיס חדש (1...{ $val }):
 card-templates-flip = הפוך
 card-templates-form = טופס
-card-templates-off =  כבוי
-card-templates-on =  פעיל
+card-templates-off = כבוי
+card-templates-on = פעיל
 card-templates-remove-card-type = הסר סוג כרטיס...
 card-templates-rename-card-type = שנה שם סוג כרטיס...
 card-templates-reposition-card-type = שנה מיקום סוג כרטיס...
-card-templates-card-count = { $count ->
-    [one] { $count } כרטיס
-   *[other] { $count } כרטיסים
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [one] זה ייצור { $count } כרטיס. להמשיך?
-   *[other] זה ייצור { $count } כרטיסים. להמשיך?
-  }
+card-templates-card-count =
+    { $count ->
+        [one] { $count } כרטיס
+       *[other] { $count } כרטיסים
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] זה ייצור { $count } כרטיס. להמשיך?
+       *[other] זה ייצור { $count } כרטיסים. להמשיך?
+    }

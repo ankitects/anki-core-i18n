@@ -39,7 +39,7 @@ browsing-first-card = Första kortet
 browsing-flag = Märk
 browsing-font = <b>Typsnitt</b>:
 browsing-font-size = <b>Typsnittsstorlek</b>:
-browsing-found-as-across-bs = Hittade %(a)s i %(b)s.
+browsing-found-as-across-bs = Hittade { $part } i { $whole }.
 browsing-home = Hem
 browsing-ignore-case = Ignorera skiftläge
 browsing-in = <b>I</b>:
@@ -93,19 +93,23 @@ browsing-treat-input-as-regular-expression = Behandla inmatning som ett reguljä
 browsing-type-here-to-search = <skriv här för att söka; tryck enter för att visa aktuell kortlek>
 browsing-whole-collection = Hela samlingen
 browsing-you-must-have-at-least-one = Du måste ha minst en kolumn.
-browsing-group = { $count ->
-    [one] { $count } grupp
-   *[other] { $count } grupper
-  }
-browsing-note-count = { $count ->
-    [one] { $count } not
-   *[other] { $count } noter
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } not raderad.
-   *[other] { $count } noter raderade.
-  }
-browsing-selected = { $count ->
-    [one] { $count } vald
-   *[other] { $count } valda
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grupp
+       *[other] { $count } grupper
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } not
+       *[other] { $count } noter
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } not raderad.
+       *[other] { $count } noter raderade.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } vald
+       *[other] { $count } valda
+    }

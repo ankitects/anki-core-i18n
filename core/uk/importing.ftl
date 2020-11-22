@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Записи не імпортов�
 importing-notes-updated-as-file-had-newer = Записи оновлено, як файл новішої версії: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Пакунок Anki колода/колекція (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' вміщує %(num1)d полів, очікуючих %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' вміщує { $found } полів, очікуючих { $expected }
 importing-selected-file-was-not-in-utf8 = Обнаний файл не був у форматі UTF-8. Перегляньте розділ "Імпортування" в інструкції користувача.
 importing-semicolon = Крапка з комою
 importing-skipped = Пропущені
@@ -52,28 +52,33 @@ importing-this-will-delete-your-existing-collection = Це видалить ва
 importing-unable-to-import-from-a-readonly = Неможливо імпортувати файл, призначений лише для зчитування.
 importing-unknown-file-format = Невідомий формат файлу.
 importing-update-existing-notes-when-first-field = Оновити існуючі нотатки, коли співпадають перше поле
-importing-note-added = { $count ->
-    [one] { $count } нотатку додано
-    [few] { $count } нотток додано
-   *[other] { $count } нотток додано
-  }
-importing-note-imported = { $count ->
-    [one] { $count } нотатку імпортовано.
-    [few] { $count } нотаток імпортовано.
-   *[other] { $count } нотаток імпортовано.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } нотатка без змін
-    [few] { $count } нотаток без змін
-   *[other] { $count } нотаток без змін
-  }
-importing-note-updated = { $count ->
-    [one] { $count } нотатку оновлено
-    [few] { $count } нотаток оновлено
-   *[other] { $count } нотаток оновлено
-  }
-importing-processed-media-file = { $count ->
-    [one] Оброблено { $count } медіафайл
-    [few] Оброблено { $count } медіафайл
-   *[other] Оброблено { $count } медіафайл
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } нотатку додано
+        [few] { $count } нотток додано
+       *[other] { $count } нотток додано
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } нотатку імпортовано.
+        [few] { $count } нотаток імпортовано.
+       *[other] { $count } нотаток імпортовано.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } нотатка без змін
+        [few] { $count } нотаток без змін
+       *[other] { $count } нотаток без змін
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } нотатку оновлено
+        [few] { $count } нотаток оновлено
+       *[other] { $count } нотаток оновлено
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Оброблено { $count } медіафайл
+        [few] Оброблено { $count } медіафайл
+       *[other] Оброблено { $count } медіафайл
+    }

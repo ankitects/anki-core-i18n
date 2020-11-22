@@ -26,7 +26,7 @@ importing-mapped-to = lotuta <b> { $val }</b>
 importing-mapped-to-tags = lotuta <b>Etiketeekin</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 karta-sorta (*.db)
 importing-pauker-18-lesson-paugz = Pauker 1.8 ikastaroa (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' %(num1)d eremu zituzten, %(num2)d espero ziren
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' { $found } eremu zituzten, { $expected } espero ziren
 importing-selected-file-was-not-in-utf8 = Fitxategi aukeratuta ez dago UTF-8 formatuan. Mesedez, gidaliburuaren inportatu-atala ikus ezazu.
 importing-semicolon = Puntu eta koma
 importing-supermemo-xml-export-xml = Supermemotik datorren XML(*.xml)
@@ -39,23 +39,28 @@ importing-this-will-delete-your-existing-collection = Hark zure bilduma ezabatuk
 importing-unable-to-import-from-a-readonly = Irakurketa soilerako fitxategitik ezin da inportatu
 importing-unknown-file-format = Fitxategi-formatu ezezaguna.
 importing-update-existing-notes-when-first-field = Lehengo eremu bat datorrenean existitzen den ohar eguneratu
-importing-note-added = { $count ->
-    [one] Ohar { $count } erantsita
-   *[other] { $count } ohar erantsita
-  }
-importing-note-imported = { $count ->
-    [one] Ohar { $count } inportatuta.
-   *[other] { $count } ohar inportatuta.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } ohar berdin
-   *[other] { $count } ohar berdin
-  }
-importing-note-updated = { $count ->
-    [one] Ohar { $count } eguneratuta
-   *[other] { $count } ohar eguneratuta
-  }
-importing-processed-media-file = { $count ->
-    [one] Euskarri fixtategi prozesatua { $count }
-   *[other] Euskarri fixtategi prozesatuak { $count }
-  }
+importing-note-added =
+    { $count ->
+        [one] Ohar { $count } erantsita
+       *[other] { $count } ohar erantsita
+    }
+importing-note-imported =
+    { $count ->
+        [one] Ohar { $count } inportatuta.
+       *[other] { $count } ohar inportatuta.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } ohar berdin
+       *[other] { $count } ohar berdin
+    }
+importing-note-updated =
+    { $count ->
+        [one] Ohar { $count } eguneratuta
+       *[other] { $count } ohar eguneratuta
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Euskarri fixtategi prozesatua { $count }
+       *[other] Euskarri fixtategi prozesatuak { $count }
+    }

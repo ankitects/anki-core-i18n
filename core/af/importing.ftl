@@ -26,7 +26,7 @@ importing-mapped-to = koppel aan <b> { $val } </ b>
 importing-mapped-to-tags = gekoppel aan <b>Etikette</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2,0 Kaartpak (*.db)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Les (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' het %(num1)d velde gehad, het %(num2)d verwag
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' het { $found } velde gehad, het { $expected } verwag
 importing-selected-file-was-not-in-utf8 = Gekose lêer was nie in UTF-8 formaat nie. Sien asb die invoer afdeling van die handleiding.
 importing-semicolon = Kommapunt
 importing-supermemo-xml-export-xml = Supermemo XML uitvoer (*.xml)
@@ -38,23 +38,28 @@ importing-this-will-delete-your-existing-collection = Dit sal jou bestaande vers
 importing-unable-to-import-from-a-readonly = Onmoontlik om 'n lees-alleen lêer in te voer.
 importing-unknown-file-format = Onbekende lêer formaat.
 importing-update-existing-notes-when-first-field = Dateer bestaande notas op wanneer die eerste veld pas
-importing-note-added = { $count ->
-    [one] { $count } nota bygevoeg
-   *[other] { $count } notas bygevoeg
-  }
-importing-note-imported = { $count ->
-    [one] { $count } nota ingevoer.
-   *[other] { $count } notas ingevoer.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } nota onveranderd
-   *[other] { $count } notas onveranderd
-  }
-importing-note-updated = { $count ->
-    [one] { $count } nota opgedateer
-   *[other] { $count } notas opgedateer
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } Media lêer geprosesseer
-   *[other] { $count } Media lêers geprosesseer
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } nota bygevoeg
+       *[other] { $count } notas bygevoeg
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } nota ingevoer.
+       *[other] { $count } notas ingevoer.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } nota onveranderd
+       *[other] { $count } notas onveranderd
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } nota opgedateer
+       *[other] { $count } notas opgedateer
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } Media lêer geprosesseer
+       *[other] { $count } Media lêers geprosesseer
+    }

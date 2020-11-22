@@ -36,7 +36,7 @@ importing-notes-that-could-not-be-imported = Notes que no s'han pogut importat d
 importing-notes-updated-as-file-had-newer = Notes actualitzades, l'arxiu contenía una versió més recent: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mall d'anki comprès/ Col·lecció (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Llicó de Pauker (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' amb %(num1)d camps, s'esperava %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' amb { $found } camps, s'esperava { $expected }
 importing-selected-file-was-not-in-utf8 = L'arxiu seleccionat no estava en format UTF-8. Si us plau, llegeix la secció "importació" del manual.
 importing-semicolon = Punt i coma
 importing-skipped = Omès
@@ -52,23 +52,28 @@ importing-unable-to-import-from-a-readonly = No és possible importar des d'un f
 importing-unknown-file-format = Format de fitxer desconegut.
 importing-update-existing-notes-when-first-field = Actualitzar les targetes existents quan el primer camp coincideixi
 importing-updated = Actualitzat
-importing-note-added = { $count ->
-    [one] { $count } nota afegida
-   *[other] { $count } notes afegides
-  }
-importing-note-imported = { $count ->
-    [one] { $count } nota importada.
-   *[other] { $count } notes importedes.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } nota inalterada
-   *[other] { $count } notes inalterades
-  }
-importing-note-updated = { $count ->
-    [one] { $count } nota actualitzada
-   *[other] { $count } notes actualitzades
-  }
-importing-processed-media-file = { $count ->
-    [one] Processat { $count } axriu multimèdia
-   *[other] Processats { $count } axrius multimèdia
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } nota afegida
+       *[other] { $count } notes afegides
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } nota importada.
+       *[other] { $count } notes importedes.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } nota inalterada
+       *[other] { $count } notes inalterades
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } nota actualitzada
+       *[other] { $count } notes actualitzades
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Processat { $count } axriu multimèdia
+       *[other] Processats { $count } axrius multimèdia
+    }

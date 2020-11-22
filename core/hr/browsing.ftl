@@ -26,7 +26,7 @@ browsing-find-and-replace = Pronađi i zamijeni
 browsing-find-duplicates = Pronađi duplikate
 browsing-first-card = Prva karta
 browsing-font-size = <b>Veličina slova</b>:
-browsing-found-as-across-bs = Pronađeno %(a)s u %(b)s.
+browsing-found-as-across-bs = Pronađeno { $part } u { $whole }.
 browsing-home = Naslovna
 browsing-ignore-case = Ignoriraj veličinu slova
 browsing-in = <b>U</b>:
@@ -60,18 +60,21 @@ browsing-target-field = Ciljno polje:
 browsing-type-here-to-search = <ovdje unesite za pretraživanje; pritisnite enter za prikaz aktualnog špila>
 browsing-whole-collection = Cijeli komplet
 browsing-you-must-have-at-least-one = Morate imati barem jedan stupac.
-browsing-group = { $count ->
-    [one] { $count } grupa
-    [few] { $count } grupe
-   *[other] { $count } grupa
-  }
-browsing-note-count = { $count ->
-    [one] { $count } bilješka
-    [few] { $count } bilješke
-   *[other] { $count } bilješki
-  }
-browsing-selected = { $count ->
-    [one] { $count } odabrano
-    [few] { $count } odabrane
-   *[other] { $count } odabrano
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grupa
+        [few] { $count } grupe
+       *[other] { $count } grupa
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } bilješka
+        [few] { $count } bilješke
+       *[other] { $count } bilješki
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } odabrano
+        [few] { $count } odabrane
+       *[other] { $count } odabrano
+    }

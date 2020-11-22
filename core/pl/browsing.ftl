@@ -43,7 +43,7 @@ browsing-first-card = Pierwsza karta
 browsing-flag = Dodaj flagę
 browsing-font = <b>Czcionka</b>:
 browsing-font-size = <b>Rozmiar czcionki</b>:
-browsing-found-as-across-bs = Znaleziono %(a)s spośród %(b)s.
+browsing-found-as-across-bs = Znaleziono { $part } spośród { $whole }.
 browsing-home = Ekran główny
 browsing-ignore-case = Ignoruj wielkość liter
 browsing-in = <b>W</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Rozmiar linii</b>:
 browsing-manage-note-types = Zarządzaj typami notatek
 browsing-move-cards = Przenieś karty
 browsing-move-cards-to-deck = Przenieś karty do talii:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (nowa)
 browsing-new-note-type = Nowy typ notatki:
 browsing-no-flag = Brak flagi
@@ -102,23 +102,27 @@ browsing-treat-input-as-regular-expression = Traktuj wartość pola jako wyraże
 browsing-type-here-to-search = <pisz tutaj, aby wyszukać; wciśnij enter, by pokazać aktualną talię>
 browsing-whole-collection = Cała kolekcja
 browsing-you-must-have-at-least-one = Musi istnieć przynajmniej jedna kolumna.
-browsing-group = { $count ->
-    [one] { $count } grupa
-    [few] { $count } grupy
-   *[other] { $count } grup
-  }
-browsing-note-count = { $count ->
-    [one] { $count } notatka
-    [few] { $count } notatki
-   *[other] { $count } notatek
-  }
-browsing-note-deleted = { $count ->
-    [one] Usunięto { $count } notatkę.
-    [few] Usunięto { $count } notatki.
-   *[other] Usunięto { $count } notatek.
-  }
-browsing-selected = { $count ->
-    [one] { $count } wybrana
-    [few] { $count } wybrane
-   *[other] { $count } wybranych
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grupa
+        [few] { $count } grupy
+       *[other] { $count } grup
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } notatka
+        [few] { $count } notatki
+       *[other] { $count } notatek
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] Usunięto { $count } notatkę.
+        [few] Usunięto { $count } notatki.
+       *[other] Usunięto { $count } notatek.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } wybrana
+        [few] { $count } wybrane
+       *[other] { $count } wybranych
+    }

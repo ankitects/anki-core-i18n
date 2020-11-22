@@ -29,7 +29,7 @@ importing-mapped-to-tags = parades ihop med <b>etiketter</b>
 importing-mnemosyne-20-deck-db = Kortlek för Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatorer med fler än ett tecken stöds inte. Skriv in endast ett tecken.
 importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' hade %(num1)d fält, förväntat antal är %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hade { $found } fält, förväntat antal är { $expected }
 importing-selected-file-was-not-in-utf8 = Den valda filen var inte i UTF-8-format. Se avsnittet i manualen om att importera.
 importing-semicolon = Semikolon
 importing-supermemo-xml-export-xml = XML-export för Supermemo (*.xml)
@@ -42,23 +42,28 @@ importing-this-will-delete-your-existing-collection = Detta kommer att ta bort d
 importing-unable-to-import-from-a-readonly = Kan inte importera från en skrivskyddad fil.
 importing-unknown-file-format = Okänt filformat.
 importing-update-existing-notes-when-first-field = Uppdatera existerande noter när det första fältet matchar
-importing-note-added = { $count ->
-    [one] { $count } not tillagd
-   *[other] { $count } noter tillagda
-  }
-importing-note-imported = { $count ->
-    [one] { $count } not importerad
-   *[other] { $count } noter importerade
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } not oförändrad
-   *[other] { $count } noter oförändrade
-  }
-importing-note-updated = { $count ->
-    [one] { $count } not uppdaterad
-   *[other] { $count } noter uppdaterade
-  }
-importing-processed-media-file = { $count ->
-    [one] Bearbetade { $count } mediafil
-   *[other] Bearbetade { $count } mediafiler
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } not tillagd
+       *[other] { $count } noter tillagda
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } not importerad
+       *[other] { $count } noter importerade
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } not oförändrad
+       *[other] { $count } noter oförändrade
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } not uppdaterad
+       *[other] { $count } noter uppdaterade
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Bearbetade { $count } mediafil
+       *[other] Bearbetade { $count } mediafiler
+    }

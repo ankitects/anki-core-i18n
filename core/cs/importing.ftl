@@ -35,7 +35,7 @@ importing-notes-skipped-as-theyre-already-in = Přeskočené poznámky, které j
 importing-notes-that-could-not-be-imported = Poznámky, které nemohly být importovány, protože se změnil typ poznámky: { $val }
 importing-notes-updated-as-file-had-newer = Poznámky aktualizovány, protože soubor měl novější verzi: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balík/kolekce (*.apkg *.colpkg *.zip)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' mělo %(num1)d polí, namísto očekávaných %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' mělo { $found } polí, namísto očekávaných { $expected }
 importing-selected-file-was-not-in-utf8 = Vybraný soubor není ve formátu UTF-8. Blíže viz manuál kapitola Import.
 importing-semicolon = Středník
 importing-skipped = Přeskočeno
@@ -51,28 +51,33 @@ importing-unable-to-import-from-a-readonly = Nelze importovat ze souboru s práv
 importing-unknown-file-format = Neznámý formát souboru.
 importing-update-existing-notes-when-first-field = Aktualizovat existující poznámku, když je první pole stejné
 importing-updated = Aktualizováno
-importing-note-added = { $count ->
-    [one] { $count } poznámka přidána
-    [few] { $count } poznámky přidány
-   *[other] { $count } poznámek přidáno
-  }
-importing-note-imported = { $count ->
-    [one] { $count } poznámka importována.
-    [few] { $count } poznámky importovány.
-   *[other] { $count } poznámek importováno.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } poznámka nezměněna
-    [few] { $count } poznámky nezměněny
-   *[other] { $count } poznámek nezměněno
-  }
-importing-note-updated = { $count ->
-    [one] { $count } poznámka aktualizována
-    [few] { $count } poznámky aktualizovány
-   *[other] { $count } poznámek aktualizováno
-  }
-importing-processed-media-file = { $count ->
-    [one] Zpracován { $count } soubor médií
-    [few] Zpracovány { $count } soubory médií
-   *[other] Zpracováno { $count } souborů medií
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } poznámka přidána
+        [few] { $count } poznámky přidány
+       *[other] { $count } poznámek přidáno
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } poznámka importována.
+        [few] { $count } poznámky importovány.
+       *[other] { $count } poznámek importováno.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } poznámka nezměněna
+        [few] { $count } poznámky nezměněny
+       *[other] { $count } poznámek nezměněno
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } poznámka aktualizována
+        [few] { $count } poznámky aktualizovány
+       *[other] { $count } poznámek aktualizováno
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Zpracován { $count } soubor médií
+        [few] Zpracovány { $count } soubory médií
+       *[other] Zpracováno { $count } souborů medií
+    }

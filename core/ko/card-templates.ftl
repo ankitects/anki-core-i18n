@@ -19,19 +19,21 @@ card-templates-card-types = 카드 유형
 card-templates-card-types-for = { $val }의 카드 유형
 card-templates-cloze = 빈칸 뚫기 { $val }
 card-templates-deck-override = 덱 전체 적용
-card-templates-delete-the-as-card-type-and = '%(a)s'카드 유형과 함께, %(b)s카드를 삭제하시겠습니까?
+card-templates-delete-the-as-card-type-and = '{ $template }'카드 유형과 함께, { $cards }카드를 삭제하시겠습니까?
 card-templates-enter-deck-to-place-new = { $val }의 새로운 카드를 넣을 뭉치를 입력하거나, 빈 칸으로 남겨 두세요:
 card-templates-enter-new-card-position-1 = 새 카드 위치를 입력하세요 (1...{ $val }):
 card-templates-flip = 뒤집기
 card-templates-form = 양식
-card-templates-off =  (꺼짐)
-card-templates-on =  (켜짐)
+card-templates-off = (꺼짐)
+card-templates-on = (켜짐)
 card-templates-remove-card-type = 카드 유형 삭제...
 card-templates-rename-card-type = 카드 유형 이름 변경
 card-templates-reposition-card-type = 카드 유형 위치 변경...
-card-templates-card-count = { $count ->
-   *[other] { $count }카드
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-   *[other] 이는 { $count }개의 카드를 만들 것입니다. 진행할까요?
-  }
+card-templates-card-count =
+    { $count ->
+       *[other] { $count }카드
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+       *[other] 이는 { $count }개의 카드를 만들 것입니다. 진행할까요?
+    }

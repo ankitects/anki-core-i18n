@@ -42,7 +42,7 @@ browsing-first-card = 最初のカード
 browsing-flag = フラグを付ける
 browsing-font = <b>フォント</b>：
 browsing-font-size = <b>フォントサイズ</b>：
-browsing-found-as-across-bs = %(b)s の中に %(a)s が見つかりました。
+browsing-found-as-across-bs = { $whole } の中に { $part } が見つかりました。
 browsing-home = ホーム
 browsing-ignore-case = 大文字小文字を区別しない
 browsing-in = <b>対象</b>:
@@ -53,7 +53,7 @@ browsing-line-size = <b>行のサイズ</b>:
 browsing-manage-note-types = ノートタイプを管理...
 browsing-move-cards = カードを移動
 browsing-move-cards-to-deck = カードをデッキに移動：
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (新規)
 browsing-new-note-type = 変更後のノートタイプ:
 browsing-no-flag = フラグなし
@@ -101,15 +101,19 @@ browsing-treat-input-as-regular-expression = 入力条件に正規表現を使�
 browsing-type-here-to-search = <ここに入力すると検索します; enter を押すと現在のデッキを表示します>
 browsing-whole-collection = コレクション全体
 browsing-you-must-have-at-least-one = 最低でも一つの列は必要です。
-browsing-group = { $count ->
-   *[other] { $count } グループ
-  }
-browsing-note-count = { $count ->
-   *[other] { $count } 個のノート
-  }
-browsing-note-deleted = { $count ->
-   *[other] { $count }個のノートを削除しました。
-  }
-browsing-selected = { $count ->
-   *[other] { $count }枚を選択
-  }
+browsing-group =
+    { $count ->
+       *[other] { $count } グループ
+    }
+browsing-note-count =
+    { $count ->
+       *[other] { $count } 個のノート
+    }
+browsing-note-deleted =
+    { $count ->
+       *[other] { $count }個のノートを削除しました。
+    }
+browsing-selected =
+    { $count ->
+       *[other] { $count }枚を選択
+    }

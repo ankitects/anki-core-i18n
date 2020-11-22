@@ -43,7 +43,7 @@ browsing-first-card = Primeiro Cartão
 browsing-flag = Marcador
 browsing-font = <b>Fonte</b>:
 browsing-font-size = <b>Tamanho da Fonte</b>:
-browsing-found-as-across-bs = Encontrar %(a)s através de %(b)s.
+browsing-found-as-across-bs = Encontrar { $part } através de { $whole }.
 browsing-home = Início
 browsing-ignore-case = Ignorar maiúsculas / minúsculas
 browsing-in = <b>Em</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Tamanho da Linha</b>:
 browsing-manage-note-types = Gerenciar Tipos de Notas...
 browsing-move-cards = Mover Cartões
 browsing-move-cards-to-deck = Mover cartões para o baralho:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (novo)
 browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sem Marcador
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = Tratar texto como expressão regula
 browsing-type-here-to-search = <digite aqui para pesquisar; tecle enter para mostrar o baralho atual>
 browsing-whole-collection = Coleção inteira
 browsing-you-must-have-at-least-one = É preciso ter ao menos uma coluna.
-browsing-group = { $count ->
-    [one] { $count } grupo
-   *[other] { $count } grupos
-  }
-browsing-note-count = { $count ->
-    [one] { $count } nota
-   *[other] { $count } notas
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } nota apagada.
-   *[other] { $count } notas apagadas.
-  }
-browsing-selected = { $count ->
-    [one] { $count } selecionado
-   *[other] { $count } selecionados
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grupo
+       *[other] { $count } grupos
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } nota
+       *[other] { $count } notas
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } nota apagada.
+       *[other] { $count } notas apagadas.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } selecionado
+       *[other] { $count } selecionados
+    }

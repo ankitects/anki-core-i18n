@@ -36,7 +36,7 @@ importing-notes-skipped-as-theyre-already-in = 이미 컬렉션에 있기 때문
 importing-notes-that-could-not-be-imported = 노트 타입이 바뀌었기 때문에 불러올 수 없는 노트 : { $val }
 importing-notes-updated-as-file-had-newer = 파일이 최신 버전을 가졌기 때문에 업데이트된 노트 : { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 압축된 앙키 덱/컬렉션 (*.apkg *.colpkg *.zip)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s'째 줄의 필드는 %(num1)d개. 예상한 필드는 %(num2)d개.
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }'째 줄의 필드는 { $found }개. 예상한 필드는 { $expected }개.
 importing-selected-file-was-not-in-utf8 = 선택한 파일이 UTF-8 형식이 아닙니다. 매뉴얼의 가져오기 부분을 참고해 주세요.
 importing-semicolon = 쌍반점
 importing-skipped = 건너뜀
@@ -51,18 +51,23 @@ importing-unable-to-import-from-a-readonly = 읽기 전용 파일은 가져올 �
 importing-unknown-file-format = 알 수 없는 파일 형식.
 importing-update-existing-notes-when-first-field = 첫 필드가 일치할 경우 기존의 노트를 업데이트
 importing-updated = 업데이트됨
-importing-note-added = { $count ->
-   *[other] { $count }노트를 추가했습니다.
-  }
-importing-note-imported = { $count ->
-   *[other] 노트  { $count }개를 가져왔습니다.
-  }
-importing-note-unchanged = { $count ->
-   *[other] 노트 { $count }개는 변경되지 않았습니다.
-  }
-importing-note-updated = { $count ->
-   *[other] { $count }노트를 업데이트했습니다.
-  }
-importing-processed-media-file = { $count ->
-   *[other] { $count }개의 미디어 파일을 처리함
-  }
+importing-note-added =
+    { $count ->
+       *[other] { $count }노트를 추가했습니다.
+    }
+importing-note-imported =
+    { $count ->
+       *[other] 노트  { $count }개를 가져왔습니다.
+    }
+importing-note-unchanged =
+    { $count ->
+       *[other] 노트 { $count }개는 변경되지 않았습니다.
+    }
+importing-note-updated =
+    { $count ->
+       *[other] { $count }노트를 업데이트했습니다.
+    }
+importing-processed-media-file =
+    { $count ->
+       *[other] { $count }개의 미디어 파일을 처리함
+    }

@@ -26,7 +26,7 @@ importing-mapped-to = пресликано у <b>{ $val }</b>
 importing-mapped-to-tags = пресликано у <b>ознаке</b>
 importing-mnemosyne-20-deck-db = Шпил Mnemosyne 2.0 Deck (*.db)
 importing-pauker-18-lesson-paugz = Лекција Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' садржи %(num1)d поља, очекујућих %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' садржи { $found } поља, очекујућих { $expected }
 importing-selected-file-was-not-in-utf8 = Изабрана датотека није у UTF-8 формату. Молимо, погледајте одељак за увоз у упутству.
 importing-semicolon = Тачка-зарез
 importing-skipped = Прескочено
@@ -41,23 +41,27 @@ importing-unable-to-import-from-a-readonly = Није успео увоз из �
 importing-unknown-file-format = Непознат формат датотеке.
 importing-update-existing-notes-when-first-field = Ажурирај постојеће белешке када се прво поље подудара
 importing-updated = Ажурирано
-importing-note-added = { $count ->
-    [one] { $count } белешка додата
-    [few] { $count } белешке додате
-   *[other] { $count } бележака додато
-  }
-importing-note-imported = { $count ->
-    [one] { $count } белешка извезена.
-    [few] { $count } белешке извезене.
-   *[other] { $count } бележака извезено.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } напомена је неизмењена
-    [few] { $count } напомене су неизмењене
-   *[other] { $count } напомене су неизмењене
-  }
-importing-note-updated = { $count ->
-    [one] { $count } белешка обновљена
-    [few] { $count } белешке обновљене
-   *[other] { $count } бележака обновљено
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } белешка додата
+        [few] { $count } белешке додате
+       *[other] { $count } бележака додато
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } белешка извезена.
+        [few] { $count } белешке извезене.
+       *[other] { $count } бележака извезено.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } напомена је неизмењена
+        [few] { $count } напомене су неизмењене
+       *[other] { $count } напомене су неизмењене
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } белешка обновљена
+        [few] { $count } белешке обновљене
+       *[other] { $count } бележака обновљено
+    }

@@ -13,5 +13,5 @@ importing-map-to = { $val } ला मांडा
 importing-map-to-tags = टॅगना मांडा
 importing-mapped-to = <b>{ $val }</b> ला मांडले
 importing-mapped-to-tags = <b>टॅग</b>ना मांडले
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' मध्ये %(num1)d रकाने होते, %(num2)d अपेक्षीत होते
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' मध्ये { $found } रकाने होते, { $expected } अपेक्षीत होते
 importing-supermemo-xml-export-xml = सुपरमेमो एक्सएमएल निर्यात (*.xml)

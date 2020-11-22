@@ -32,23 +32,25 @@ card-templates-card-types = Типы карточек
 card-templates-card-types-for = Типы карточек для { $val }
 card-templates-cloze = Задание с пропусками { $val }
 card-templates-deck-override = Подмена колоды...
-card-templates-delete-the-as-card-type-and = Удалить тип карточек '%(a)s' и его %(b)s?
+card-templates-delete-the-as-card-type-and = Удалить тип карточек '{ $template }' и его { $cards }?
 card-templates-enter-deck-to-place-new = Укажите колоду для новых { $val } карточек, или оставьте поле пустым:
 card-templates-enter-new-card-position-1 = Введите позиция новых карточек (1...{ $val }):
 card-templates-flip = Перевернуть
 card-templates-form = Форма
-card-templates-off =  (выкл.)
-card-templates-on =  (вкл.)
+card-templates-off = (выкл.)
+card-templates-on = (вкл.)
 card-templates-remove-card-type = Удалить тип карточек...
 card-templates-rename-card-type = Переименовать тип карточек...
 card-templates-reposition-card-type = Переместить тип карточек...
-card-templates-card-count = { $count ->
-    [one] { $count } карточка
-    [few] { $count } карточки
-   *[other] { $count } карточек
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [one] Будет создана { $count } карточка. Продолжить?
-    [few] Будут созданы { $count } карточки. Продолжить?
-   *[other] Будет создано { $count } карточек. Продолжить?
-  }
+card-templates-card-count =
+    { $count ->
+        [one] { $count } карточка
+        [few] { $count } карточки
+       *[other] { $count } карточек
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Будет создана { $count } карточка. Продолжить?
+        [few] Будут созданы { $count } карточки. Продолжить?
+       *[other] Будет создано { $count } карточек. Продолжить?
+    }

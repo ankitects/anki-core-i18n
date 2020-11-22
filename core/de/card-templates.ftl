@@ -30,21 +30,23 @@ card-templates-card-types = Kartentypen
 card-templates-card-types-for = Kartentypen für { $val }
 card-templates-cloze = Lückentext { $val }
 card-templates-deck-override = Stapel überschreiben …
-card-templates-delete-the-as-card-type-and = Kartentyp '%(a)s' und seine %(b)s löschen?
+card-templates-delete-the-as-card-type-and = Kartentyp '{ $template }' und seine { $cards } löschen?
 card-templates-enter-deck-to-place-new = Name des Stapel, in dem neue { $val }-Karten hinzugefügt werden sollen (Feld kann frei bleiben):
 card-templates-enter-new-card-position-1 = Neue Kartenposition eingeben (1 … { $val }):
 card-templates-flip = Seiten vertauschen
 card-templates-form = Formular
-card-templates-off =  (aus)
-card-templates-on =  (ein)
+card-templates-off = (aus)
+card-templates-on = (ein)
 card-templates-remove-card-type = Kartentyp entfernen …
 card-templates-rename-card-type = Kartentyp umbenennen …
 card-templates-reposition-card-type = Position des Kartentyps ändern…
-card-templates-card-count = { $count ->
-    [one] { $count } Karte
-   *[other] { $count } Karten
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [one] Dieser Vorgang wird { $count } Karte erstellen. Möchten Sie fortfahren?
-   *[other] Dieser Vorgang wird { $count } Karten erstellen. Möchten Sie fortfahren?
-  }
+card-templates-card-count =
+    { $count ->
+        [one] { $count } Karte
+       *[other] { $count } Karten
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Dieser Vorgang wird { $count } Karte erstellen. Möchten Sie fortfahren?
+       *[other] Dieser Vorgang wird { $count } Karten erstellen. Möchten Sie fortfahren?
+    }

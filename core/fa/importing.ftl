@@ -36,7 +36,7 @@ importing-notes-that-could-not-be-imported = تعداد یادداشت‌های�
 importing-notes-updated-as-file-had-newer = تعداد یادداشت‌هایی که به‌روزرسانی شدند چون فایل نسخۀ جدید آنها را داشت: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = دسته/مجموعۀ آنکی بسته‌بندی شد (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = درس pauker 1.8 (*.pau.qz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' %(num1)d عدد فیلد داشت، تعداد فیلد‌های مورد انتظار: %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' { $found } عدد فیلد داشت، تعداد فیلد‌های مورد انتظار: { $expected }
 importing-selected-file-was-not-in-utf8 = فایل انتخاب شده در فرمت UTF-8 نبود. لطفاً بخش وارد کردن در راهنما را مطالعه کنید.
 importing-semicolon = نقطه ویرگول
 importing-skipped = رد شد
@@ -52,18 +52,23 @@ importing-unable-to-import-from-a-readonly = قادر به وارد کردن ا�
 importing-unknown-file-format = شکل‌بندی فایل ناشناخته می‌باشد.
 importing-update-existing-notes-when-first-field = وقتی اولین فیلد مطابقت داده شد یادداشت های موجود را بروز رسانی کن.
 importing-updated = به‌روزرسانی شد
-importing-note-added = { $count ->
-   *[other] { $count } یادداشت اضافه شد
-  }
-importing-note-imported = { $count ->
-   *[other] { $count } یادداشت وارد شده.
-  }
-importing-note-unchanged = { $count ->
-   *[other] { $count } یادداشت بدون تغییر ماند.
-  }
-importing-note-updated = { $count ->
-   *[other] { $count } یادداشت بروز شد
-  }
-importing-processed-media-file = { $count ->
-   *[other] تعداد { $count } فایل رسانه پردازش شد
-  }
+importing-note-added =
+    { $count ->
+       *[other] { $count } یادداشت اضافه شد
+    }
+importing-note-imported =
+    { $count ->
+       *[other] { $count } یادداشت وارد شده.
+    }
+importing-note-unchanged =
+    { $count ->
+       *[other] { $count } یادداشت بدون تغییر ماند.
+    }
+importing-note-updated =
+    { $count ->
+       *[other] { $count } یادداشت بروز شد
+    }
+importing-processed-media-file =
+    { $count ->
+       *[other] تعداد { $count } فایل رسانه پردازش شد
+    }

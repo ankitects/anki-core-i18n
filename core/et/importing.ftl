@@ -11,5 +11,5 @@ importing-map-to = Liida väljadele { $val }
 importing-map-to-tags = Liida märksõnadega
 importing-mapped-to = liidetud väljadele <b>{ $val }</b>-ga
 importing-mapped-to-tags = liidetud <b>siltidega</b>
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' omasid %(num1)d välja, väljaarvatud %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' omasid { $found } välja, väljaarvatud { $expected }
 importing-supermemo-xml-export-xml = Supermemo XML eksport (*.xml)

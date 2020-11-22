@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Notizen, die nicht importiert werde
 importing-notes-updated-as-file-had-newer = Aktualisierte Notizen, da die Datei eine neuere Version ist: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' hat %(num1)d Felder, erwartet waren %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hat { $found } Felder, erwartet waren { $expected }
 importing-selected-file-was-not-in-utf8 = Die gewählte Datei war nicht im UTF-8-Format. Für weitere Hinweise bitte den Abschnitt »Import« in der Bedienungsanleitung beachten.
 importing-semicolon = Semikolon
 importing-skipped = Übersprungen
@@ -53,23 +53,28 @@ importing-unable-to-import-from-a-readonly = Import nicht möglich: Die Datei is
 importing-unknown-file-format = Unbekannter Dateityp.
 importing-update-existing-notes-when-first-field = Notizen mit übereinstimmendem erstem Feld aktualisieren
 importing-updated = Aktualisiert
-importing-note-added = { $count ->
-    [one] { $count } Notiz wurde hinzugefügt
-   *[other] { $count } Notizen wurden hinzugefügt
-  }
-importing-note-imported = { $count ->
-    [one] { $count } Notiz wurde importiert.
-   *[other] { $count } Notizen wurden importiert.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } Notiz unverändert
-   *[other] { $count } Notizen unverändert
-  }
-importing-note-updated = { $count ->
-    [one] { $count } Notiz wurde aktualisiert
-   *[other] { $count } Notizen wurden aktualisiert
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } verarbeitete Mediendatei
-   *[other] { $count } verarbeitete Mediendateien
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } Notiz wurde hinzugefügt
+       *[other] { $count } Notizen wurden hinzugefügt
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } Notiz wurde importiert.
+       *[other] { $count } Notizen wurden importiert.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } Notiz unverändert
+       *[other] { $count } Notizen unverändert
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } Notiz wurde aktualisiert
+       *[other] { $count } Notizen wurden aktualisiert
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } verarbeitete Mediendatei
+       *[other] { $count } verarbeitete Mediendateien
+    }

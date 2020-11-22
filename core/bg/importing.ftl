@@ -20,7 +20,7 @@ importing-invalid-file-please-restore-from-backup = Невалиден файл.
 importing-map-to = Превръщане в { $val }
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 Тесте (*.db)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Урок (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' има %(num1)d полета, очакват се %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' има { $found } полета, очакват се { $expected }
 importing-selected-file-was-not-in-utf8 = Избраният файл не е във формат UTF-8. Моля, проверете в ръководството секцията за импортиране.
 importing-semicolon = Точка и запетая
 importing-tab = Табулация
@@ -31,23 +31,28 @@ importing-this-will-delete-your-existing-collection = Това ще изтрие
 importing-unable-to-import-from-a-readonly = Не може да се импортира от файл, достъпен само за четене.
 importing-unknown-file-format = Неразпознат файлов формат.
 importing-update-existing-notes-when-first-field = Обновяване на съществуващи бележки, когато първото поле пасва.
-importing-note-added = { $count ->
-    [one] { $count } бележка беше добавена
-   *[other] { $count } бележки бяха добавени
-  }
-importing-note-imported = { $count ->
-    [one] { $count } бележка беше импортирана.
-   *[other] { $count } бележки бяха импортирани.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } бележка не беше променена
-   *[other] { $count } бележки не бяха променени
-  }
-importing-note-updated = { $count ->
-    [one] { $count } бележка беше обновена
-   *[other] { $count } бележки бяха обновени
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } медиен файл беше обработен.
-   *[other] { $count } медийни файла бяха обработени.
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } бележка беше добавена
+       *[other] { $count } бележки бяха добавени
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } бележка беше импортирана.
+       *[other] { $count } бележки бяха импортирани.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } бележка не беше променена
+       *[other] { $count } бележки не бяха променени
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } бележка беше обновена
+       *[other] { $count } бележки бяха обновени
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } медиен файл беше обработен.
+       *[other] { $count } медийни файла бяха обработени.
+    }

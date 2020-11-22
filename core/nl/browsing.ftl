@@ -40,7 +40,7 @@ browsing-first-card = Eerste kaart
 browsing-flag = Vlag
 browsing-font = <b>Lettertype</b>:
 browsing-font-size = <b>Grootte lettertype</b>:
-browsing-found-as-across-bs = %(a)s in %(b)s gevonden.
+browsing-found-as-across-bs = { $part } in { $whole } gevonden.
 browsing-home = Start
 browsing-ignore-case = Hoofd-/kleine letters negeren
 browsing-last-card = Laatste kaart
@@ -96,19 +96,23 @@ browsing-treat-input-as-regular-expression = Invoer behandelen als reguliere exp
 browsing-type-here-to-search = <typ hier om te zoeken; druk op enter om de huidige set te tonen>
 browsing-whole-collection = Volledige collectie
 browsing-you-must-have-at-least-one = U moet minstens één kolom hebben.
-browsing-group = { $count ->
-    [one] { $count } groep
-   *[other] { $count } groepen
-  }
-browsing-note-count = { $count ->
-    [one] { $count } aantekening
-   *[other] { $count } aantekeningen
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } aantekening verwijderd.
-   *[other] { $count } aantekeningen verwijderd.
-  }
-browsing-selected = { $count ->
-    [one] { $count } geselecteerd
-   *[other] { $count } geselecteerd
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } groep
+       *[other] { $count } groepen
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } aantekening
+       *[other] { $count } aantekeningen
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } aantekening verwijderd.
+       *[other] { $count } aantekeningen verwijderd.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } geselecteerd
+       *[other] { $count } geselecteerd
+    }

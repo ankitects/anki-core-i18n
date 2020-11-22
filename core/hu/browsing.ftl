@@ -43,7 +43,7 @@ browsing-first-card = Els&ő kártya
 browsing-flag = Jelölés
 browsing-font = <b>Betűtípus</b>:
 browsing-font-size = <b>Betűméret</b>:
-browsing-found-as-across-bs = %(b)s közül %(a)s találat.
+browsing-found-as-across-bs = { $whole } közül { $part } találat.
 browsing-home = Kezdőlap
 browsing-ignore-case = Kis- vagy nagybetű nem számít
 browsing-in = <b>Ebben</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Sorméret</b>:
 browsing-manage-note-types = &Jegyzettípusok kezelése...
 browsing-move-cards = Kártyák áthelyezése
 browsing-move-cards-to-deck = Kártyák áthelyezése ebbe a pakliba:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (új)
 browsing-new-note-type = Új jegyzettípus:
 browsing-no-flag = Nincs jelölés
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = A bevitt szöveg reguláris kifejez
 browsing-type-here-to-search = <itt adja meg, amit keres; az aktuális pakli megnyitásához nyomjon Entert>
 browsing-whole-collection = Teljes gyűjtemény
 browsing-you-must-have-at-least-one = Legalább egy oszlopnak lennie kell.
-browsing-group = { $count ->
-    [one] { $count } csoport
-   *[other] { $count } csoport
-  }
-browsing-note-count = { $count ->
-    [one] { $count } jegyzet
-   *[other] { $count } jegyzet
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } jegyzet törölve.
-   *[other] { $count } jegyzet törölve.
-  }
-browsing-selected = { $count ->
-    [one] { $count } kiválasztva
-   *[other] { $count } kiválasztva
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } csoport
+       *[other] { $count } csoport
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } jegyzet
+       *[other] { $count } jegyzet
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } jegyzet törölve.
+       *[other] { $count } jegyzet törölve.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } kiválasztva
+       *[other] { $count } kiválasztva
+    }

@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = 无法作为注释类型导入的�
 importing-notes-updated-as-file-had-newer = 因文件有新版本而更新的笔记：{ $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 打包的 Anki 牌组/集合 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 课件 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' 行有 %(num1)d 个字段, 预期 %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' 行有 { $found } 个字段, 预期 { $expected }
 importing-selected-file-was-not-in-utf8 = 选择的文件不是UTF-8格式的。请查看帮助文档的导入部分。
 importing-semicolon = 分号
 importing-skipped = 已跳过
@@ -53,18 +53,23 @@ importing-unable-to-import-from-a-readonly = 不能从只读文件中导入。
 importing-unknown-file-format = 未知的文件格式.
 importing-update-existing-notes-when-first-field = 当首字段匹配时更新现有笔记
 importing-updated = 已更新
-importing-note-added = { $count ->
-   *[other] 添加了{ $count }条笔记
-  }
-importing-note-imported = { $count ->
-   *[other] 导入了{ $count }条笔记
-  }
-importing-note-unchanged = { $count ->
-   *[other] { $count } 条笔记不变
-  }
-importing-note-updated = { $count ->
-   *[other] 更新了{ $count }条笔记
-  }
-importing-processed-media-file = { $count ->
-   *[other] 已处理{ $count }个媒体文件
-  }
+importing-note-added =
+    { $count ->
+       *[other] 添加了{ $count }条笔记
+    }
+importing-note-imported =
+    { $count ->
+       *[other] 导入了{ $count }条笔记
+    }
+importing-note-unchanged =
+    { $count ->
+       *[other] { $count } 条笔记不变
+    }
+importing-note-updated =
+    { $count ->
+       *[other] 更新了{ $count }条笔记
+    }
+importing-processed-media-file =
+    { $count ->
+       *[other] 已处理{ $count }个媒体文件
+    }

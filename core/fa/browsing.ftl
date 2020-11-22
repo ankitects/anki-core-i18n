@@ -43,7 +43,7 @@ browsing-first-card = اولین کارت
 browsing-flag = نشان
 browsing-font = <b>فونت</b>:
 browsing-font-size = <b>سایز فونت</b>:
-browsing-found-as-across-bs = پیدا شده%(a)s سرتاسر %(b)s.
+browsing-found-as-across-bs = پیدا شده{ $part } سرتاسر { $whole }.
 browsing-home = خانه
 browsing-ignore-case = نادیده گرفتن مورد
 browsing-in = <b>در</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>اندازه خطوط</b>:
 browsing-manage-note-types = مدیریت نوع یادداشت...
 browsing-move-cards = انتقال کارت‌ها
 browsing-move-cards-to-deck = انتقال کارت‌ها به دسته:
-browsing-nd-names = %(n)d:%(name)s
+browsing-nd-names = { $num }:{ $name }
 browsing-new = (جدید)
 browsing-new-note-type = نوع کارت جدید:
 browsing-no-flag = بدون نشان
@@ -102,15 +102,19 @@ browsing-treat-input-as-regular-expression = تلقی ورودی به عنوان
 browsing-type-here-to-search = <جهت جستجو اینجا تایپ کنید; برای نمایش دسته فعلی اینتر را فشار دهید>
 browsing-whole-collection = تمام مجموعه
 browsing-you-must-have-at-least-one = حداقل باید یک ستون داشته باشید.
-browsing-group = { $count ->
-   *[other] { $count } گروه
-  }
-browsing-note-count = { $count ->
-   *[other] { $count } یادداشت
-  }
-browsing-note-deleted = { $count ->
-   *[other] { $count } کارت حذف شد.
-  }
-browsing-selected = { $count ->
-   *[other] { $count } انتخاب شد
-  }
+browsing-group =
+    { $count ->
+       *[other] { $count } گروه
+    }
+browsing-note-count =
+    { $count ->
+       *[other] { $count } یادداشت
+    }
+browsing-note-deleted =
+    { $count ->
+       *[other] { $count } کارت حذف شد.
+    }
+browsing-selected =
+    { $count ->
+       *[other] { $count } انتخاب شد
+    }

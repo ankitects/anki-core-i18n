@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Գրառումներ, որոնք չ
 importing-notes-updated-as-file-had-newer = Գրառումներ, որոնք թարմացվել են, քանի որ նիշքը ավելի նոր տարբերակներ էին պարունակում՝ { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Anki-ի փաթեթավորված կապուկ/հավաքածու (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 դաս (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s'-ը պարունակում է %(num1)d տող, սպասվում էր %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }'-ը պարունակում է { $found } տող, սպասվում էր { $expected }
 importing-selected-file-was-not-in-utf8 = Ընտրված նիշքը UTF-8 կոդավորումով չէր: Կարդացեք ներմուծման մասին ձեռնարկի մեջ:
 importing-semicolon = Կետ-ստորակետ
 importing-skipped = Բաց թողնված
@@ -51,23 +51,28 @@ importing-unable-to-import-from-a-readonly = Չհաջողվեց ներմուծե
 importing-unknown-file-format = Նիշքի անհայտ ձևաչափ:
 importing-update-existing-notes-when-first-field = Թարմացնել առկա գրառումները առաջին դաշտի համընկման դեպքում:
 importing-updated = Թարմացված
-importing-note-added = { $count ->
-    [one] { $count } գրառում է ավելացվեց
-   *[other] { $count } գրառում է ավելացվեց
-  }
-importing-note-imported = { $count ->
-    [one] { $count } գրառում ներմուծվեց:
-   *[other] { $count } գրառում ներմուծվեց:
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } գրառում չփոխվեց
-   *[other] { $count } գրառում չփոխվեց
-  }
-importing-note-updated = { $count ->
-    [one] { $count } գրառում թարմացվեց
-   *[other] { $count } գրառում թարմացվեց
-  }
-importing-processed-media-file = { $count ->
-    [one] Մշակված մեդիա նիշք { $count }
-   *[other] Մշակված մեդիա նիշք { $count }
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } գրառում է ավելացվեց
+       *[other] { $count } գրառում է ավելացվեց
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } գրառում ներմուծվեց:
+       *[other] { $count } գրառում ներմուծվեց:
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } գրառում չփոխվեց
+       *[other] { $count } գրառում չփոխվեց
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } գրառում թարմացվեց
+       *[other] { $count } գրառում թարմացվեց
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Մշակված մեդիա նիշք { $count }
+       *[other] Մշակված մեդիա նիշք { $count }
+    }

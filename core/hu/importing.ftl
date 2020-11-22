@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Jegyzetek, amelyeket nem lehetett i
 importing-notes-updated-as-file-had-newer = A jegyzetek frissítve, mivel a fájl újabb verziójú volt: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Tömörített Anki-pakli/-gyűjtemény (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 lecke (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' mezőinek száma %(num1)d, ennyinek kéne lennie: %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' mezőinek száma { $found }, ennyinek kéne lennie: { $expected }
 importing-selected-file-was-not-in-utf8 = A kiválasztott fájl nem UTF-8 formátumú. Kérjük, nézze meg az útmutató importálásra vonatkozó részét.
 importing-semicolon = Pontosvessző
 importing-skipped = Kihagyva
@@ -53,23 +53,28 @@ importing-unable-to-import-from-a-readonly = Csak olvasható fájlból nem lehet
 importing-unknown-file-format = Ismeretlen fájlformátum.
 importing-update-existing-notes-when-first-field = Meglévő jegyzet frissítése, ha első mezője egyezik
 importing-updated = Frissítve
-importing-note-added = { $count ->
-    [one] { $count } jegyzet hozzáadva
-   *[other] { $count } jegyzet hozzáadva
-  }
-importing-note-imported = { $count ->
-    [one] { $count } jegyzet importálva.
-   *[other] { $count } jegyzet importálva.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } jegyzet változatlan
-   *[other] { $count } jegyzet változatlan
-  }
-importing-note-updated = { $count ->
-    [one] { $count } jegyzet frissítve
-   *[other] { $count } jegyzet frissítve
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } médiafájl feldolgozva
-   *[other] { $count } médiafájl feldolgozva
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } jegyzet hozzáadva
+       *[other] { $count } jegyzet hozzáadva
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } jegyzet importálva.
+       *[other] { $count } jegyzet importálva.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } jegyzet változatlan
+       *[other] { $count } jegyzet változatlan
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } jegyzet frissítve
+       *[other] { $count } jegyzet frissítve
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } médiafájl feldolgozva
+       *[other] { $count } médiafájl feldolgozva
+    }

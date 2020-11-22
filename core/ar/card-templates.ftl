@@ -34,29 +34,31 @@ card-templates-card-types = أنواع البطاقات
 card-templates-card-types-for = أنواع البطاقات لـ { $val }
 card-templates-cloze = ملء فراغات { $val }
 card-templates-deck-override = رزمة مهيمنة...
-card-templates-delete-the-as-card-type-and = هل تريد حذف نوع البطاقة '%(a)s'، و %(b)s؟
+card-templates-delete-the-as-card-type-and = هل تريد حذف نوع البطاقة '{ $template }'، و { $cards }؟
 card-templates-enter-deck-to-place-new = أدخل اسم الرزمة التي تريد وضع { $val } بطاقة جديدة فيها، أو اترك الحقل فارغًا:
 card-templates-enter-new-card-position-1 = أدخل موضع البطاقة الجديد (1...{ $val }):
 card-templates-flip = قلب
 card-templates-form = نموذج
-card-templates-off =  (غير مفعل)
-card-templates-on =  (مفعل)
+card-templates-off = (غير مفعل)
+card-templates-on = (مفعل)
 card-templates-remove-card-type = حذف نوع البطاقة...
 card-templates-rename-card-type = تغيير اسم نوع البطاقة...
 card-templates-reposition-card-type = تغيير موضع نوع البطاقة...
-card-templates-card-count = { $count ->
-    [zero] { $count } بطاقة
-    [one] { $count } بطاقة
-    [two] { $count } بطاقة
-    [few] { $count } بطاقات
-    [many] { $count } بطاقة
-   *[other] { $count } بطاقة
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [zero] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
-    [one] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
-    [two] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
-    [few] سينشئ هذا { $count } بطاقات. هل تريد الاستمرار؟
-    [many] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
-   *[other] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
-  }
+card-templates-card-count =
+    { $count ->
+        [zero] { $count } بطاقة
+        [one] { $count } بطاقة
+        [two] { $count } بطاقة
+        [few] { $count } بطاقات
+        [many] { $count } بطاقة
+       *[other] { $count } بطاقة
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [zero] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+        [one] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+        [two] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+        [few] سينشئ هذا { $count } بطاقات. هل تريد الاستمرار؟
+        [many] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+       *[other] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
+    }

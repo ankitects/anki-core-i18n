@@ -43,7 +43,7 @@ browsing-first-card = Перша картка
 browsing-flag = Прапорець
 browsing-font = <b>Шрифт</b>:
 browsing-font-size = <b>Розмір шрифту</b>:
-browsing-found-as-across-bs = Знайдено %(a)s в %(b)s.
+browsing-found-as-across-bs = Знайдено { $part } в { $whole }.
 browsing-home = Домівка
 browsing-ignore-case = Без урахування регістру
 browsing-in = <b>В</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Розмір рядка</b>:
 browsing-manage-note-types = Управління типами нотаток...
 browsing-move-cards = Перемістити картки
 browsing-move-cards-to-deck = Перемістити картки в колоду:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (новi)
 browsing-new-note-type = Новий тип нотаток:
 browsing-no-flag = Без прапорців
@@ -100,23 +100,27 @@ browsing-treat-input-as-regular-expression = Розглядати введенн
 browsing-type-here-to-search = <для пошуку наберіть запит тут; натисніть ввід, щоб показати поточну колоду>
 browsing-whole-collection = Вся колеція
 browsing-you-must-have-at-least-one = Треба, щоб була принаймні одна колонка.
-browsing-group = { $count ->
-    [one] { $count } група
-    [few] { $count } груп
-   *[other] { $count } груп
-  }
-browsing-note-count = { $count ->
-    [one] { $count } нотатка
-    [few] { $count } нотатки
-   *[other] { $count } нотатки
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } нотатку вилучено.
-    [few] { $count } нотаток вилучено.
-   *[other] { $count } нотаток вилучено.
-  }
-browsing-selected = { $count ->
-    [one] { $count } вибрано
-    [few] { $count } вибрано
-   *[other] { $count } вибрано
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } група
+        [few] { $count } груп
+       *[other] { $count } груп
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } нотатка
+        [few] { $count } нотатки
+       *[other] { $count } нотатки
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } нотатку вилучено.
+        [few] { $count } нотаток вилучено.
+       *[other] { $count } нотаток вилучено.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } вибрано
+        [few] { $count } вибрано
+       *[other] { $count } вибрано
+    }

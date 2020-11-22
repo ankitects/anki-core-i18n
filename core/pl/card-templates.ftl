@@ -31,23 +31,25 @@ card-templates-card-types = Typy kart
 card-templates-card-types-for = Typy kart dla { $val }
 card-templates-cloze = Luka { $val }
 card-templates-deck-override = Nadpisz talię...
-card-templates-delete-the-as-card-type-and = Usunąć typ kart '%(a)s' i jego %(b)s?
+card-templates-delete-the-as-card-type-and = Usunąć typ kart '{ $template }' i jego { $cards }?
 card-templates-enter-deck-to-place-new = Wprowadź talię do wprowadzenia nowych kart { $val } lub pozostaw puste pole:
 card-templates-enter-new-card-position-1 = Wprowadź nową pozycję karty (1...{ $val }):
 card-templates-flip = Odwróć
 card-templates-form = Formularz
-card-templates-off =  (wył)
-card-templates-on =  (wł)
+card-templates-off = (wył)
+card-templates-on = (wł)
 card-templates-remove-card-type = Usuń typ karty...
 card-templates-rename-card-type = Zmień nazwę typu karty...
 card-templates-reposition-card-type = Zmień pozycję typu karty...
-card-templates-card-count = { $count ->
-    [one] { $count } karta
-    [few] { $count } karty
-   *[other] { $count } kart
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [one] Zostanie stworzona { $count } karta. Kontynuować?
-    [few] Zostaną stworzone { $count } karty. Kontynuować?
-   *[other] Zostanie stworzonych { $count } kart. Kontynuować?
-  }
+card-templates-card-count =
+    { $count ->
+        [one] { $count } karta
+        [few] { $count } karty
+       *[other] { $count } kart
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Zostanie stworzona { $count } karta. Kontynuować?
+        [few] Zostaną stworzone { $count } karty. Kontynuować?
+       *[other] Zostanie stworzonych { $count } kart. Kontynuować?
+    }

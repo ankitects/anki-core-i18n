@@ -34,7 +34,7 @@ browsing-find-duplicates = Buscar duplicados
 browsing-first-card = Primeira tarxeta
 browsing-font = <b>Tipo de letra</b>:
 browsing-font-size = <b>Tamaño da letra</b>:
-browsing-found-as-across-bs = Atoparonse %(a)s ao longo de %(b)s.
+browsing-found-as-across-bs = Atoparonse { $part } ao longo de { $whole }.
 browsing-home = Inicio
 browsing-ignore-case = Ignorar as maiúsculas
 browsing-in = <b>En</b>:
@@ -81,19 +81,23 @@ browsing-treat-input-as-regular-expression = Tratar a entrada como expresión re
 browsing-type-here-to-search = <escriba aquí para buscar; prema Intro para amosar o feixe actual>
 browsing-whole-collection = Colección enteira
 browsing-you-must-have-at-least-one = Ten que haber polol menos unha columna.
-browsing-group = { $count ->
-    [one] { $count } grupo
-   *[other] { $count } grupos
-  }
-browsing-note-count = { $count ->
-    [one] { $count } nota
-   *[other] { $count } notas
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } nota eliminada.
-   *[other] { $count } notas eliminadas.
-  }
-browsing-selected = { $count ->
-    [one] { $count } seleccionada
-   *[other] { $count } seleccionadas
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grupo
+       *[other] { $count } grupos
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } nota
+       *[other] { $count } notas
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } nota eliminada.
+       *[other] { $count } notas eliminadas.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } seleccionada
+       *[other] { $count } seleccionadas
+    }

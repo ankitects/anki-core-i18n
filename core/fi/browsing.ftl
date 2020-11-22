@@ -39,7 +39,7 @@ browsing-find-duplicates = Etsi kaksoiskappaleet
 browsing-first-card = Ensimmäinen kortti
 browsing-font = <b>Fontti</b>:
 browsing-font-size = <b>Fonttikoko</b>:
-browsing-found-as-across-bs = Löytyi %(a)s, joissa on %(b)s.
+browsing-found-as-across-bs = Löytyi { $part }, joissa on { $whole }.
 browsing-home = Aloitussivu
 browsing-ignore-case = Älä huomioi kirjasinkokoa
 browsing-in = <b>Kenttä</b>
@@ -86,19 +86,23 @@ browsing-treat-input-as-regular-expression = Tulkitse syöte säännöllisenä l
 browsing-type-here-to-search = <kirjoita tähän hakusana tai paina enteriä nähdäksesi nykyisen pakan>
 browsing-whole-collection = Koko kokoelma
 browsing-you-must-have-at-least-one = Pitää olla vähintään yksi sarake.
-browsing-group = { $count ->
-    [one] { $count } ryhmä
-   *[other] { $count } ryhmää
-  }
-browsing-note-count = { $count ->
-    [one] { $count } muistiinpano
-   *[other] { $count } muistiinpanoa
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } muistiinpano poistettu.
-   *[other] { $count } muistiinpanoa poistettu.
-  }
-browsing-selected = { $count ->
-    [one] { $count } valittu
-   *[other] { $count } valittua
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } ryhmä
+       *[other] { $count } ryhmää
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } muistiinpano
+       *[other] { $count } muistiinpanoa
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } muistiinpano poistettu.
+       *[other] { $count } muistiinpanoa poistettu.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } valittu
+       *[other] { $count } valittua
+    }

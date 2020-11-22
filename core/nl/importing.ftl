@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Aantekeningen die niet konden worde
 importing-notes-updated-as-file-had-newer = Aantekeningen bijgewerkt, omdat bestand een nieuwere versie had: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Ingepakte Anki-set/verzameling (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 les (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = %(row)s' bevatten %(num1)d velden, verwachtte er %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = { $row }' bevatten { $found } velden, verwachtte er { $expected }
 importing-selected-file-was-not-in-utf8 = De geselecteerde file was niet in het UTF-8 formaat. Gelieve de importeersectie in de handleiding erop na te lezen.
 importing-semicolon = Puntkomma
 importing-skipped = Overgeslagen
@@ -51,23 +51,28 @@ importing-unable-to-import-from-a-readonly = Kan een alleen-lezen bestand niet i
 importing-unknown-file-format = Onbekend bestandsformaat
 importing-update-existing-notes-when-first-field = Bestaande aantekeningen aanpassen als het eerste veld overeenkomt
 importing-updated = Bijgewerkt
-importing-note-added = { $count ->
-    [one] { $count } aantekening toegevoegd
-   *[other] { $count } aantekeningen toegevoegd
-  }
-importing-note-imported = { $count ->
-    [one] { $count } aantekening geïmporteerd.
-   *[other] { $count } aantekeningen geïmporteerd.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } aantekening ongewijzigd
-   *[other] { $count } aantekeningen ongewijzigd
-  }
-importing-note-updated = { $count ->
-    [one] { $count } aantekening bijgewerkt
-   *[other] { $count } aantekeningen bijgewerkt
-  }
-importing-processed-media-file = { $count ->
-    [one] Verwerkte { $count } mediabestand
-   *[other] Verwerkte { $count } mediabestanden
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } aantekening toegevoegd
+       *[other] { $count } aantekeningen toegevoegd
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } aantekening geïmporteerd.
+       *[other] { $count } aantekeningen geïmporteerd.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } aantekening ongewijzigd
+       *[other] { $count } aantekeningen ongewijzigd
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } aantekening bijgewerkt
+       *[other] { $count } aantekeningen bijgewerkt
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Verwerkte { $count } mediabestand
+       *[other] Verwerkte { $count } mediabestanden
+    }

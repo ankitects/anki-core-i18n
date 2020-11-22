@@ -5,12 +5,13 @@ card-templates-anki-couldnt-find-the-line-between = Anki ur yezmir ara ad d-yaf 
 card-templates-card = Takarḍa { $val }
 card-templates-card-types = Anawen n tkarḍa
 card-templates-card-types-for = Anawen n tkarḍa i { $val }
-card-templates-delete-the-as-card-type-and = Kkes anaw n tkarḍa '%(a)s', d %(b)s yines?
+card-templates-delete-the-as-card-type-and = Kkes anaw n tkarḍa '{ $template }', d { $cards } yines?
 card-templates-flip = Tuttya
 card-templates-form = Seg
-card-templates-off =  (insa)
-card-templates-on =  (irmed)
-card-templates-card-count = { $count ->
-    [one] { $count } n tkarḍa
-   *[other] { $count } n tkarḍiwin
-  }
+card-templates-off = (insa)
+card-templates-on = (irmed)
+card-templates-card-count =
+    { $count ->
+        [one] { $count } n tkarḍa
+       *[other] { $count } n tkarḍiwin
+    }

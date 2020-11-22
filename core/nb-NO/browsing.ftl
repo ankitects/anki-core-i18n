@@ -43,7 +43,7 @@ browsing-interval = Intervall
 browsing-last-card = Siste kortet
 browsing-learning = (lært)
 browsing-line-size = <b>Linjestørrelse</b>:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (ny)
 browsing-note = Notat
 browsing-nothing = Ingenting
@@ -57,19 +57,23 @@ browsing-today = I dag
 browsing-treat-input-as-regular-expression = Behandle input som regular expression
 browsing-type-here-to-search = <skriv her for søk; trykk enter for å vise kortstokken>
 browsing-whole-collection = Hele samlingen
-browsing-group = { $count ->
-    [one] { $count } gruppe
-   *[other] { $count } grupper
-  }
-browsing-note-count = { $count ->
-    [one] { $count } notat
-   *[other] { $count } notater
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } notat slettet.
-   *[other] { $count } notater slettet.
-  }
-browsing-selected = { $count ->
-    [one] { $count } valgt
-   *[other] { $count } valgt
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } gruppe
+       *[other] { $count } grupper
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } notat
+       *[other] { $count } notater
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } notat slettet.
+       *[other] { $count } notater slettet.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } valgt
+       *[other] { $count } valgt
+    }

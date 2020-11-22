@@ -30,7 +30,7 @@ browsing-find-duplicates = Vind Duplikate
 browsing-first-card = Eerste kaart
 browsing-font = <b>Karaktertipe</ b>:
 browsing-font-size = <b> Karaktertipe Grootte</ b>:
-browsing-found-as-across-bs = %(a)s gevind oor %(b)s.
+browsing-found-as-across-bs = { $part } gevind oor { $whole }.
 browsing-home = Tuis
 browsing-ignore-case = Ignoreer geval
 browsing-in = <b> in </ b>:
@@ -76,19 +76,23 @@ browsing-treat-input-as-regular-expression = Behandel teks as 'n stringpatroon-u
 browsing-type-here-to-search = <tik hier om te soek, druk enter om die volgende pak te vertoon>
 browsing-whole-collection = Hele Versameling
 browsing-you-must-have-at-least-one = Jy moet ten minste één kolom hê.
-browsing-group = { $count ->
-    [one] { $count } groep
-   *[other] { $count } groepe
-  }
-browsing-note-count = { $count ->
-    [one] { $count } nota
-   *[other] { $count } notas
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } nota verwyder.
-   *[other] { $count } notas verwyder.
-  }
-browsing-selected = { $count ->
-    [one] { $count } geselekteer
-   *[other] { $count } geselekteer
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } groep
+       *[other] { $count } groepe
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } nota
+       *[other] { $count } notas
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } nota verwyder.
+       *[other] { $count } notas verwyder.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } geselekteer
+       *[other] { $count } geselekteer
+    }

@@ -17,25 +17,29 @@ importing-map-to = Koble til { $val }
 importing-map-to-tags = Koble til etiketter
 importing-mapped-to = koblet sammen med <b>{ $val }</b>
 importing-mapped-to-tags = koblet sammen med <b>etiketter</b>
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' hadde %(num1)d felt, forventet %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hadde { $found } felt, forventet { $expected }
 importing-semicolon = Semikolon
 importing-supermemo-xml-export-xml = Supermemo XML-eksportering (*.xml)
 importing-tab = Tab
 importing-unknown-file-format = Ukjent filformat.
 importing-updated = Oppdatert
-importing-note-added = { $count ->
-    [one] { $count } notat lagt inn.
-   *[other] { $count } notater lagt inn.
-  }
-importing-note-imported = { $count ->
-    [one] { $count } notat importert.
-   *[other] { $count } notater importert.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } notat ikke uendret
-   *[other] { $count } notater ikke endret
-  }
-importing-note-updated = { $count ->
-    [one] { $count } notat oppdatert.
-   *[other] { $count } notater oppdatert.
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } notat lagt inn.
+       *[other] { $count } notater lagt inn.
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } notat importert.
+       *[other] { $count } notater importert.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } notat ikke uendret
+       *[other] { $count } notater ikke endret
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } notat oppdatert.
+       *[other] { $count } notater oppdatert.
+    }

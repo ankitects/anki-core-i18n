@@ -43,7 +43,7 @@ browsing-first-card = Առաջին քարտ
 browsing-flag = Դրոշ
 browsing-font = <b>Տառատեսակ</b>՝
 browsing-font-size = <b>Տառաչափ</b>՝
-browsing-found-as-across-bs = Գտնվեց %(a)s %(b)sից:
+browsing-found-as-across-bs = Գտնվեց { $part } { $whole }ից:
 browsing-home = Տուն
 browsing-ignore-case = Անտեսել տառաչափը
 browsing-in = <b>Որոնել այստեղ</b>՝
@@ -54,7 +54,7 @@ browsing-line-size = <b>Գծերի չափը</b>՝
 browsing-manage-note-types = Գրառումների տեսակները...
 browsing-move-cards = Տեղափոխել քարտերը
 browsing-move-cards-to-deck = Տեղափոխել քարտերը կապուկի մեջ՝
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (նոր)
 browsing-new-note-type = Գրառման նոր տեսակ՝
 browsing-no-flag = Դրոշ չկա
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = Ընդունել այս մուտք�
 browsing-type-here-to-search = <այստեղ մուտքագրեք որոնման պայմանները, սեղմեք Enter ընթացիկ կապուկի պարունակությունը ցուցադրելու համար>
 browsing-whole-collection = Ամբողջ հավաքածուն
 browsing-you-must-have-at-least-one = Դուք պետք է առնվազն մեկ սյունակ ունենալ:
-browsing-group = { $count ->
-    [one] { $count } խումբ
-   *[other] { $count } խումբ
-  }
-browsing-note-count = { $count ->
-    [one] { $count } գրառում
-   *[other] { $count } գրառում
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } գրառում ջնջվեց:
-   *[other] { $count } գրառում ջնջվեց:
-  }
-browsing-selected = { $count ->
-    [one] { $count } ընտրված է
-   *[other] { $count } ընտրված է
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } խումբ
+       *[other] { $count } խումբ
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } գրառում
+       *[other] { $count } գրառում
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } գրառում ջնջվեց:
+       *[other] { $count } գրառում ջնջվեց:
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } ընտրված է
+       *[other] { $count } ընտրված է
+    }

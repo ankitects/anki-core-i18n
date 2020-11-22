@@ -29,7 +29,7 @@ card-templates-card-types = انواع کارت‌ها
 card-templates-card-types-for = نوع کارت‌ها برای { $val }
 card-templates-cloze = جاخالی { $val }
 card-templates-deck-override = ابطال دسته...
-card-templates-delete-the-as-card-type-and = حذف '%(a)s' نوع کارت، و %(b)s آن؟
+card-templates-delete-the-as-card-type-and = حذف '{ $template }' نوع کارت، و { $cards } آن؟
 card-templates-enter-deck-to-place-new = برای قرادادن { $val } کارت جدید دسته‌ای را وارد کنید، یا خالی بگذارید:
 card-templates-enter-new-card-position-1 = موقعیت کارت جدید را وارد کنید (1...{ $val }):
 card-templates-flip = برگرداندن
@@ -39,9 +39,11 @@ card-templates-on = (روشن)
 card-templates-remove-card-type = پاک کردن نوع کارت...
 card-templates-rename-card-type = نامگذاری مجدد نوع کارت...
 card-templates-reposition-card-type = تغییر مکان نوع کارت...
-card-templates-card-count = { $count ->
-   *[other] { $count } کارت
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-   *[other] این عمل { $count } کارت را تولید خواهد کرد. ادامه؟
-  }
+card-templates-card-count =
+    { $count ->
+       *[other] { $count } کارت
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+       *[other] این عمل { $count } کارت را تولید خواهد کرد. ادامه؟
+    }

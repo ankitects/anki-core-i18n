@@ -49,7 +49,7 @@ browsing-learning = ca'o cilre
 browsing-line-size = <b>
 browsing-move-cards = nu muvgau lo karda
 browsing-move-cards-to-deck = .i lo karda cu muvdu lo di'e karda selcmi
-browsing-nd-names = %(n)d moi me'e zoi zoi. %(name)s .zoi
+browsing-nd-names = { $num } moi me'e zoi zoi. { $name } .zoi
 browsing-new = cnino
 browsing-new-note-type = basti fi lo ka karda datni klesi
 browsing-no-flag = no da lanci tcita
@@ -81,15 +81,19 @@ browsing-toggle-mark = nu se tcita binxo
 browsing-toggle-suspend = nu se mipri binxo
 browsing-type-here-to-search = .i zukte lo ka ce'u samci'a fi ti vau lo ka ce'u sisku .i lo nu katcygau la'o zoi. Enter .zoi rinka lo nu catlu lo karda selcmi poi se cuxna
 browsing-whole-collection = mulno ke karda selcmi selcmi
-browsing-group = { $count ->
-   *[other] { $count } selcmi
-  }
-browsing-note-count = { $count ->
-   *[other] { $count } karda datni
-  }
-browsing-note-deleted = { $count ->
-   *[other] .i mo'u vimcu { $count } karda datni
-  }
-browsing-selected = { $count ->
-   *[other] .i cuxna { $count } da
-  }
+browsing-group =
+    { $count ->
+       *[other] { $count } selcmi
+    }
+browsing-note-count =
+    { $count ->
+       *[other] { $count } karda datni
+    }
+browsing-note-deleted =
+    { $count ->
+       *[other] .i mo'u vimcu { $count } karda datni
+    }
+browsing-selected =
+    { $count ->
+       *[other] .i cuxna { $count } da
+    }

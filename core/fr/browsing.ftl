@@ -43,7 +43,7 @@ browsing-first-card = Première carte
 browsing-flag = Marquer
 browsing-font = <b>Police</b> :
 browsing-font-size = <b>Taille de la police</b> :
-browsing-found-as-across-bs = %(a)s doublons parmi %(b)s.
+browsing-found-as-across-bs = { $part } doublons parmi { $whole }.
 browsing-home = Accueil
 browsing-ignore-case = Ignorer la casse
 browsing-in = <b>dans</b> :
@@ -54,7 +54,7 @@ browsing-line-size = <b>Longueur de ligne</b> :
 browsing-manage-note-types = Gérer les types de notes...
 browsing-move-cards = Déplacer les cartes
 browsing-move-cards-to-deck = Déplacer les cartes dans le paquet :
-browsing-nd-names = %(n)d : %(name)s
+browsing-nd-names = { $num } : { $name }
 browsing-new = (inédite)
 browsing-new-note-type = Nouveau type de note :
 browsing-no-flag = Aucun marqueur
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = Traiter la saisie comme une express
 browsing-type-here-to-search = < Entrez ici votre recherche ou bien appuyez sur Entrée pour voir le paquet actuel entier >
 browsing-whole-collection = Toute la collection
 browsing-you-must-have-at-least-one = Vous devez avoir au moins une colonne.
-browsing-group = { $count ->
-    [one] { $count } groupe
-   *[other] { $count } groupes
-  }
-browsing-note-count = { $count ->
-    [one] { $count } note
-   *[other] { $count } notes
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } note a été supprimée.
-   *[other] { $count } notes ont été supprimées.
-  }
-browsing-selected = { $count ->
-    [one] { $count } sélectionnée
-   *[other] { $count } sélectionnées
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } groupe
+       *[other] { $count } groupes
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } note
+       *[other] { $count } notes
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } note a été supprimée.
+       *[other] { $count } notes ont été supprimées.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } sélectionnée
+       *[other] { $count } sélectionnées
+    }

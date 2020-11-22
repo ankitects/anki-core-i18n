@@ -16,19 +16,23 @@ browsing-font-size = <b>Saiz font</b>:
 browsing-in = <b>Dalam</b>:
 browsing-learning = (belajar)
 browsing-line-size = <b>Saiz garisan</b>:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (baru)
 browsing-replace-with = <b>Gantikan dengan</b>:
 browsing-type-here-to-search = <taip di sini untuk cari; tekan enter untuk tunjukkan dek semasa>
-browsing-group = { $count ->
-   *[other] { $count } kumpulan
-  }
-browsing-note-count = { $count ->
-   *[other] { $count } nota
-  }
-browsing-note-deleted = { $count ->
-   *[other] { $count } nota dipadam.
-  }
-browsing-selected = { $count ->
-   *[other] { $count } dipilih
-  }
+browsing-group =
+    { $count ->
+       *[other] { $count } kumpulan
+    }
+browsing-note-count =
+    { $count ->
+       *[other] { $count } nota
+    }
+browsing-note-deleted =
+    { $count ->
+       *[other] { $count } nota dipadam.
+    }
+browsing-selected =
+    { $count ->
+       *[other] { $count } dipilih
+    }

@@ -30,7 +30,7 @@ browsing-find-duplicates = Tìm Thẻ trùng
 browsing-first-card = Thẻ Đầu
 browsing-font = <b>Kiểu chữ</b>:
 browsing-font-size = <b>Cỡ chữ</b>:
-browsing-found-as-across-bs = Tìm thấy %(a)s trên %(b)s.
+browsing-found-as-across-bs = Tìm thấy { $part } trên { $whole }.
 browsing-home = Gốc
 browsing-ignore-case = Bỏ qua phân biệt hoa thường
 browsing-in = <b>Trong</b>:
@@ -77,15 +77,19 @@ browsing-treat-input-as-regular-expression = Xử lý dữ liệu nhập theo d�
 browsing-type-here-to-search = <gõ vào đây để tìm kiếm; nhấn Enter để hiển thị bộ thẻ hiện hành>
 browsing-whole-collection = Cả Bộ sưu tập
 browsing-you-must-have-at-least-one = Bạn phải có ít nhất một cột.
-browsing-group = { $count ->
-   *[other] { $count } nhóm
-  }
-browsing-note-count = { $count ->
-   *[other] { $count } phiếu
-  }
-browsing-note-deleted = { $count ->
-   *[other] Đã xóa { $count } phiếu.
-  }
-browsing-selected = { $count ->
-   *[other] { $count } được chọn
-  }
+browsing-group =
+    { $count ->
+       *[other] { $count } nhóm
+    }
+browsing-note-count =
+    { $count ->
+       *[other] { $count } phiếu
+    }
+browsing-note-deleted =
+    { $count ->
+       *[other] Đã xóa { $count } phiếu.
+    }
+browsing-selected =
+    { $count ->
+       *[other] { $count } được chọn
+    }

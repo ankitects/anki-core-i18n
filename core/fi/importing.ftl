@@ -27,7 +27,7 @@ importing-mapped-to = liitetty kenttään <b>{ $val }</b>
 importing-mapped-to-tags = liitetty <b>tunnisteisiin</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 -pakka (*.db)
 importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s':ssa oli %(num1)d kenttää, pitäisi olla %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }':ssa oli { $found } kenttää, pitäisi olla { $expected }
 importing-selected-file-was-not-in-utf8 = Valittu tiedosto ei ollut UTF-8-muodossa. Katso käyttöohjeen tuonti-osio.
 importing-semicolon = Puolipiste
 importing-supermemo-xml-export-xml = Supermemo XML -vienti (*.xml)
@@ -40,23 +40,28 @@ importing-this-will-delete-your-existing-collection = Olet poistamassa olemassa 
 importing-unable-to-import-from-a-readonly = Vain luku -tilassa olevaa tiedostoa ei voida tuoda.
 importing-unknown-file-format = Tuntematon tiedostotyyppi
 importing-update-existing-notes-when-first-field = Päivitä olemassa olevat muistiinpanot kun ensimmäinen kenttä täsmää
-importing-note-added = { $count ->
-    [one] { $count } muistiinpano lisätty
-   *[other] { $count } muistiinpanoa lisätty
-  }
-importing-note-imported = { $count ->
-    [one] { $count } muistiinpano tuotu
-   *[other] { $count } muistiinpanoa tuotu
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } muistiinpano säilyi muuttumattomana
-   *[other] { $count } muistiinpanoa säilyi muuttumattomana
-  }
-importing-note-updated = { $count ->
-    [one] { $count } muistiinpano päivitetty
-   *[other] { $count } muistiinpanoa päivitetty
-  }
-importing-processed-media-file = { $count ->
-    [one] Käsiteltiin { $count } mediatiedosto
-   *[other] Käsiteltiin { $count } mediatiedostoa
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } muistiinpano lisätty
+       *[other] { $count } muistiinpanoa lisätty
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } muistiinpano tuotu
+       *[other] { $count } muistiinpanoa tuotu
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } muistiinpano säilyi muuttumattomana
+       *[other] { $count } muistiinpanoa säilyi muuttumattomana
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } muistiinpano päivitetty
+       *[other] { $count } muistiinpanoa päivitetty
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Käsiteltiin { $count } mediatiedosto
+       *[other] Käsiteltiin { $count } mediatiedostoa
+    }

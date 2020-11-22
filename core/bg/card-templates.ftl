@@ -9,13 +9,14 @@ card-templates-at-least-one-card-type-is = Необходим е поне еди
 card-templates-card = Карта { $val }
 card-templates-card-types = Видове карти
 card-templates-card-types-for = Типове карти за { $val }
-card-templates-delete-the-as-card-type-and = Изтриване на типа карти '%(a)s' и неговите %(b)s?
+card-templates-delete-the-as-card-type-and = Изтриване на типа карти '{ $template }' и неговите { $cards }?
 card-templates-enter-deck-to-place-new = Изберете тесте за { $val }те нови карти, или оставете празно:
 card-templates-enter-new-card-position-1 = Въведете нова позиция за картата (1..{ $val })
 card-templates-flip = Обръщане
-card-templates-off =  (изключено)
-card-templates-on =  (включено)
-card-templates-card-count = { $count ->
-    [one] { $count } карта
-   *[other] { $count } карти
-  }
+card-templates-off = (изключено)
+card-templates-on = (включено)
+card-templates-card-count =
+    { $count ->
+        [one] { $count } карта
+       *[other] { $count } карти
+    }

@@ -36,7 +36,7 @@ importing-notes-that-could-not-be-imported = Nótaí nár iompórtáladh de bhar
 importing-notes-updated-as-file-had-newer = Nótaí nuashonraithe (leagan níos úire sa chomhad): { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paca/Cnuascach Anki i bpacáiste (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Ceacht Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = Líon na réimsí ag '%(row)s': %(num1)d (seachas %(num2)d)
+importing-rows-had-num1d-fields-expected-num2d = Líon na réimsí ag '{ $row }': { $found } (seachas { $expected })
 importing-selected-file-was-not-in-utf8 = Cathfidh an comhad a bheith i bhformáid UTF-8. Féach ar "Iompórtáil" sa lámhleabhar.
 importing-semicolon = Leathstad
 importing-skipped = Fágtha ar lár
@@ -52,38 +52,43 @@ importing-unable-to-import-from-a-readonly = Ní féidir iompórtáil ó chomhad
 importing-unknown-file-format = Formáid anaithnid.
 importing-update-existing-notes-when-first-field = Nuashonraigh nótaí más ionann luach an chéad réimse
 importing-updated = Nuashonraithe
-importing-note-added = { $count ->
-    [one] { $count } nóta curtha leis
-    [two] { $count } nóta curtha leis
-    [few] { $count } nóta curtha leis
-    [many] { $count } nóta curtha leis
-   *[other] { $count } nóta curtha leis
-  }
-importing-note-imported = { $count ->
-    [one] { $count } nóta iompórtáilte.
-    [two] { $count } nóta iompórtáilte.
-    [few] { $count } nóta iompórtáilte.
-    [many] { $count } nóta iompórtáilte.
-   *[other] { $count } nóta iompórtáilte.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } nóta gan athrú
-    [two] { $count } nóta gan athrú
-    [few] { $count } nóta gan athrú
-    [many] { $count } nóta gan athrú
-   *[other] { $count } nóta gan athrú
-  }
-importing-note-updated = { $count ->
-    [one] { $count } nóta nuashonraithe
-    [two] { $count } nóta nuashonraithe
-    [few] { $count } nóta nuashonraithe
-    [many] { $count } nóta nuashonraithe
-   *[other] { $count } nóta nuashonraithe
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } chomhad meáin próiseálte
-    [two] { $count } chomhad meáin próiseálte
-    [few] { $count } chomhad meáin próiseálte
-    [many] { $count } gcomhad meáin próiseálte
-   *[other] { $count } comhad meáin próiseálte
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } nóta curtha leis
+        [two] { $count } nóta curtha leis
+        [few] { $count } nóta curtha leis
+        [many] { $count } nóta curtha leis
+       *[other] { $count } nóta curtha leis
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } nóta iompórtáilte.
+        [two] { $count } nóta iompórtáilte.
+        [few] { $count } nóta iompórtáilte.
+        [many] { $count } nóta iompórtáilte.
+       *[other] { $count } nóta iompórtáilte.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } nóta gan athrú
+        [two] { $count } nóta gan athrú
+        [few] { $count } nóta gan athrú
+        [many] { $count } nóta gan athrú
+       *[other] { $count } nóta gan athrú
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } nóta nuashonraithe
+        [two] { $count } nóta nuashonraithe
+        [few] { $count } nóta nuashonraithe
+        [many] { $count } nóta nuashonraithe
+       *[other] { $count } nóta nuashonraithe
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } chomhad meáin próiseálte
+        [two] { $count } chomhad meáin próiseálte
+        [few] { $count } chomhad meáin próiseálte
+        [many] { $count } gcomhad meáin próiseálte
+       *[other] { $count } comhad meáin próiseálte
+    }

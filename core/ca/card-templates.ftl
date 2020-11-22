@@ -30,21 +30,23 @@ card-templates-card-types = Tipus de targetes
 card-templates-card-types-for = Tipus de targetes per { $val }
 card-templates-cloze = Resposta anidada { $val }
 card-templates-deck-override = Superposició de mall...
-card-templates-delete-the-as-card-type-and = Eliminar el tipus de targeta %(a)s' i els seus %(b)s?
+card-templates-delete-the-as-card-type-and = Eliminar el tipus de targeta { $template }' i els seus { $cards }?
 card-templates-enter-deck-to-place-new = Selecciona el mall en què voleu col·locar les { $val } noves targetes, o deixeu -ho en blanc:
 card-templates-enter-new-card-position-1 = Entra la nova posició de la targeta (1...{ $val }):
 card-templates-flip = Gireu
 card-templates-form = Formulari
-card-templates-off =  (desactivat)
-card-templates-on =  (activat)
+card-templates-off = (desactivat)
+card-templates-on = (activat)
 card-templates-remove-card-type = Eliminar tipus de targueta...
 card-templates-rename-card-type = Canviar el nom del tipus de targueta...
 card-templates-reposition-card-type = Reposicionar tipus de tarjeta...
-card-templates-card-count = { $count ->
-    [one] { $count } targeta
-   *[other] { $count } targetes
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [one] AIxó crearà { $count } targeta. Continuar?
-   *[other] Aixó crearà { $count } targetes. Continuar?
-  }
+card-templates-card-count =
+    { $count ->
+        [one] { $count } targeta
+       *[other] { $count } targetes
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] AIxó crearà { $count } targeta. Continuar?
+       *[other] Aixó crearà { $count } targetes. Continuar?
+    }

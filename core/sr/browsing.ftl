@@ -31,7 +31,7 @@ browsing-find-duplicates = Нађи дупликате
 browsing-first-card = Прва карта
 browsing-font = <b>Слова</b>:
 browsing-font-size = <b>Величина слова</b>:
-browsing-found-as-across-bs = Нађено %(a)s у %(b)s.
+browsing-found-as-across-bs = Нађено { $part } у { $whole }.
 browsing-home = Почетна
 browsing-ignore-case = Игнориши величину слова
 browsing-in = <b>Где тражити</b>:
@@ -79,23 +79,27 @@ browsing-treat-input-as-regular-expression = Третирај унос као р
 browsing-type-here-to-search = <унесите овде услов за претраживање; притисните Еnter за приказ текућег шпила>
 browsing-whole-collection = Цела колекција
 browsing-you-must-have-at-least-one = Морате имати бар једну колону.
-browsing-group = { $count ->
-    [one] { $count } група
-    [few] { $count } групе
-   *[other] { $count } група
-  }
-browsing-note-count = { $count ->
-    [one] { $count } белешка
-    [few] { $count } белешке
-   *[other] { $count } белешки
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } белешка је избрисана
-    [few] { $count } белешке су избрисане
-   *[other] { $count } белешки избрисано.
-  }
-browsing-selected = { $count ->
-    [one] { $count } изабрана
-    [few] { $count } изабране
-   *[other] { $count } изабрано
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } група
+        [few] { $count } групе
+       *[other] { $count } група
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } белешка
+        [few] { $count } белешке
+       *[other] { $count } белешки
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } белешка је избрисана
+        [few] { $count } белешке су избрисане
+       *[other] { $count } белешки избрисано.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } изабрана
+        [few] { $count } изабране
+       *[other] { $count } изабрано
+    }

@@ -26,7 +26,7 @@ card-templates-card-types = 卡片类型
 card-templates-card-types-for = { $val }的卡片类型
 card-templates-cloze = 填空题 { $val }
 card-templates-deck-override = 集合覆盖…
-card-templates-delete-the-as-card-type-and = 确定删除'%(a)s'卡片类型和它的%(b)s吗？
+card-templates-delete-the-as-card-type-and = 确定删除'{ $template }'卡片类型和它的{ $cards }吗？
 card-templates-enter-deck-to-place-new = 打开牌组以放入 { $val } 张新卡片, 或者留空:
 card-templates-enter-new-card-position-1 = 键入新卡片位置 (1...{ $val }):
 card-templates-flip = 翻
@@ -36,9 +36,11 @@ card-templates-on = (开)
 card-templates-remove-card-type = 移除卡片类型…
 card-templates-rename-card-type = 重命名卡片类型…
 card-templates-reposition-card-type = 改变卡片类型…
-card-templates-card-count = { $count ->
-   *[other] { $count }张卡片
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-   *[other] 本次操作将创建 { $count } 张卡片，继续吗？
-  }
+card-templates-card-count =
+    { $count ->
+       *[other] { $count }张卡片
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+       *[other] 本次操作将创建 { $count } 张卡片，继续吗？
+    }

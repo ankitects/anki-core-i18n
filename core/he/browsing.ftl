@@ -43,7 +43,7 @@ browsing-first-card = כרטיס ראשון
 browsing-flag = סמן בדגל
 browsing-font = <b>גופן</b>:
 browsing-font-size = <b>גודל גופן</b>:
-browsing-found-as-across-bs = נמצא %(a)s מעבר ל%(b)s.
+browsing-found-as-across-bs = נמצא { $part } מעבר ל{ $whole }.
 browsing-home = בית
 browsing-ignore-case = התעלם מרישיות
 browsing-in = <b>בתוך</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>גודל קו</b>:
 browsing-manage-note-types = נהל סוגי רשומות...
 browsing-move-cards = העבר כרטיסים
 browsing-move-cards-to-deck = העבר כרטיסים לחפיסה:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (חדש)
 browsing-new-note-type = סוג רשומה חדש:
 browsing-no-flag = לא מסומן בדגל
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = התייחס לערך המוזן כ
 browsing-type-here-to-search = <הקלד כאן ע"מ לחפש; הקש אנטר להצגת חפיסה נוכחית>
 browsing-whole-collection = כלל המאגר
 browsing-you-must-have-at-least-one = חייבת להיות לך לפחות עמודה אחת.
-browsing-group = { $count ->
-    [one] { $count } קבוצה
-   *[other] { $count } קבוצות
-  }
-browsing-note-count = { $count ->
-    [one] { $count } רשומה
-   *[other] { $count } רשומות
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } רשומה נמחקה.
-   *[other] { $count } רשומות נמחקו.
-  }
-browsing-selected = { $count ->
-    [one] { $count } נבחר
-   *[other] { $count } נבחרו
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } קבוצה
+       *[other] { $count } קבוצות
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } רשומה
+       *[other] { $count } רשומות
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } רשומה נמחקה.
+       *[other] { $count } רשומות נמחקו.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } נבחר
+       *[other] { $count } נבחרו
+    }

@@ -43,7 +43,7 @@ browsing-first-card = Primera tarjeta
 browsing-flag = Marca
 browsing-font = <b>Fuente</b>:
 browsing-font-size = <b>Tamaño de la fuente</b>:
-browsing-found-as-across-bs = %(a)s encontradas a lo largo de %(b)s.
+browsing-found-as-across-bs = { $part } encontradas a lo largo de { $whole }.
 browsing-home = Inicio
 browsing-ignore-case = Ignorar mayúsculas
 browsing-in = <b>En</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Tamaño de la línea</b>:
 browsing-manage-note-types = Administrar tipos de nota...
 browsing-move-cards = Mover tarjetas
 browsing-move-cards-to-deck = Mover tarjetas al mazo:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (nueva)
 browsing-new-note-type = Nuevo tipo de nota:
 browsing-no-flag = Sin Marca
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = Tratar inserción como expresión r
 browsing-type-here-to-search = <escribe aquí para buscar; presiona enter para mostrar el mazo actual>
 browsing-whole-collection = Colección entera
 browsing-you-must-have-at-least-one = Tiene que haber al menos una columna.
-browsing-group = { $count ->
-    [one] { $count } grupo
-   *[other] { $count } grupos
-  }
-browsing-note-count = { $count ->
-    [one] { $count } nota
-   *[other] { $count } notas
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } nota eliminada.
-   *[other] { $count } notas eliminadas.
-  }
-browsing-selected = { $count ->
-    [one] { $count } seleccionada
-   *[other] { $count } seleccionadas
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grupo
+       *[other] { $count } grupos
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } nota
+       *[other] { $count } notas
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } nota eliminada.
+       *[other] { $count } notas eliminadas.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } seleccionada
+       *[other] { $count } seleccionadas
+    }

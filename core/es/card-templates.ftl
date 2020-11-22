@@ -30,21 +30,23 @@ card-templates-card-types = Tipos de tarjeta
 card-templates-card-types-for = Tipos de tarjeta para { $val }
 card-templates-cloze = Respuesta anidada { $val }
 card-templates-deck-override = Superposició de mazo...
-card-templates-delete-the-as-card-type-and = ¿Eliminar el tipo de tarjeta '%(a)s', y sus %(b)s?
+card-templates-delete-the-as-card-type-and = ¿Eliminar el tipo de tarjeta '{ $template }', y sus { $cards }?
 card-templates-enter-deck-to-place-new = Introduce el mazo en el que quieras colocar las { $val } tarjetas nuevas, o deja el campo vacío:
 card-templates-enter-new-card-position-1 = Introduce la nueva posición de la tarjeta (1...{ $val }):
 card-templates-flip = Invertir
 card-templates-form = Formulario
-card-templates-off =  (desactivado)
-card-templates-on =  (activado)
+card-templates-off = (desactivado)
+card-templates-on = (activado)
 card-templates-remove-card-type = Eliminar tipo de tarjeta...
 card-templates-rename-card-type = Cambiar nombre de tipo de tarjeta...
 card-templates-reposition-card-type = Reposicionar tipo de tarjeta...
-card-templates-card-count = { $count ->
-    [one] { $count } tarjeta
-   *[other] { $count } tarjetas
-  }
-card-templates-this-will-create-card-proceed = { $count ->
-    [one] Se creará { $count } tarjeta. ¿Seguir?
-   *[other] Se crearán { $count } tarjetas. ¿Seguir?
-  }
+card-templates-card-count =
+    { $count ->
+        [one] { $count } tarjeta
+       *[other] { $count } tarjetas
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Se creará { $count } tarjeta. ¿Seguir?
+       *[other] Se crearán { $count } tarjetas. ¿Seguir?
+    }

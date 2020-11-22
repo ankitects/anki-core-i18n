@@ -20,7 +20,7 @@ importing-map-to-tags = Poveži z oznakami
 importing-mapped-to = povezano z <b>{ $val }</b>
 importing-mapped-to-tags = povezano z <b>Oznakami</b>
 importing-mnemosyne-20-deck-db = Paket Mnemosyne 2.0 (*.db)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' je vsebovalo %(num1)d polja, pričakovano pa %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' je vsebovalo { $found } polja, pričakovano pa { $expected }
 importing-semicolon = Podpičje
 importing-supermemo-xml-export-xml = Izvoz Supermemo XML(*.xml)
 importing-tab = Zavihek
@@ -30,21 +30,24 @@ importing-this-will-delete-your-existing-collection = S tem boste izbrisali vaš
 importing-unable-to-import-from-a-readonly = Uvoz iz datoteke, ki je označena samo za branje, ni mogoč.
 importing-unknown-file-format = Neznana oblika datoteke.
 importing-update-existing-notes-when-first-field = Posodobi obstoječe zapiske, ko se prvi polji ujemata
-importing-note-added = { $count ->
-    [one] Dodanih { $count } zapiskov
-    [two] Dodan { $count } zapisek
-    [few] Dodana { $count } zapiska
-   *[other] Dodanih { $count } zapiskov
-  }
-importing-note-imported = { $count ->
-    [one] Uvoženih { $count } zapiskov.
-    [two] Uvožen { $count } zapisek.
-    [few] Uvožena { $count } zapiska.
-   *[other] Uvoženi { $count } zapiski.
-  }
-importing-note-updated = { $count ->
-    [one] Posodobljenih { $count } zapiskov
-    [two] Posodobljen { $count } zapisek
-    [few] Posodobljena { $count } zapiska
-   *[other] Posodobljeni { $count } zapiski
-  }
+importing-note-added =
+    { $count ->
+        [one] Dodanih { $count } zapiskov
+        [two] Dodan { $count } zapisek
+        [few] Dodana { $count } zapiska
+       *[other] Dodanih { $count } zapiskov
+    }
+importing-note-imported =
+    { $count ->
+        [one] Uvoženih { $count } zapiskov.
+        [two] Uvožen { $count } zapisek.
+        [few] Uvožena { $count } zapiska.
+       *[other] Uvoženi { $count } zapiski.
+    }
+importing-note-updated =
+    { $count ->
+        [one] Posodobljenih { $count } zapiskov
+        [two] Posodobljen { $count } zapisek
+        [few] Posodobljena { $count } zapiska
+       *[other] Posodobljeni { $count } zapiski
+    }

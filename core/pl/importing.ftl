@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Notatki niezaimportowane, gdyż zmi
 importing-notes-updated-as-file-had-newer = Notatki zaktualizowane nowszą wersją z pliku: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Spakowana kolekcja/talia Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lekcja Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' ma %(num1)d pól, oczekiwano %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ma { $found } pól, oczekiwano { $expected }
 importing-selected-file-was-not-in-utf8 = Wybrany plik nie używa kodowania UTF-8. Przeczytaj rozdział o imporcie w instrukcji
 importing-semicolon = Średnik
 importing-skipped = Pominięte
@@ -53,28 +53,33 @@ importing-unable-to-import-from-a-readonly = Nie można zaimportować z pliku ty
 importing-unknown-file-format = Nieznany format pliku.
 importing-update-existing-notes-when-first-field = Aktualizuj istniejące notatki jeżeli zgadzają się pierwsze pola
 importing-updated = Zaktualizowane
-importing-note-added = { $count ->
-    [one] dodano { $count } notatkę
-    [few] dodano { $count } notatki
-   *[other] dodano { $count } notatek
-  }
-importing-note-imported = { $count ->
-    [one] zaimportowano { $count } notatkę.
-    [few] zaimportowano { $count } notatki.
-   *[other] zaimportowano { $count } notatek.
-  }
-importing-note-unchanged = { $count ->
-    [one] nie zmieniono { $count } notatki
-    [few] nie zmieniono { $count } notatek
-   *[other] nie zmieniono { $count } notatek
-  }
-importing-note-updated = { $count ->
-    [one] zaktualizowano { $count } notatkę
-    [few] zaktualizowano { $count } notatki
-   *[other] zaktualizowano { $count } notatek
-  }
-importing-processed-media-file = { $count ->
-    [one] Przetworzono { $count } plik
-    [few] Przetworzono { $count } pliki
-   *[other] Przetworzono { $count } plików
-  }
+importing-note-added =
+    { $count ->
+        [one] dodano { $count } notatkę
+        [few] dodano { $count } notatki
+       *[other] dodano { $count } notatek
+    }
+importing-note-imported =
+    { $count ->
+        [one] zaimportowano { $count } notatkę.
+        [few] zaimportowano { $count } notatki.
+       *[other] zaimportowano { $count } notatek.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] nie zmieniono { $count } notatki
+        [few] nie zmieniono { $count } notatek
+       *[other] nie zmieniono { $count } notatek
+    }
+importing-note-updated =
+    { $count ->
+        [one] zaktualizowano { $count } notatkę
+        [few] zaktualizowano { $count } notatki
+       *[other] zaktualizowano { $count } notatek
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Przetworzono { $count } plik
+        [few] Przetworzono { $count } pliki
+       *[other] Przetworzono { $count } plików
+    }

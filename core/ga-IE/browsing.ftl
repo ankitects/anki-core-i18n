@@ -43,7 +43,7 @@ browsing-first-card = Céad Cárta
 browsing-flag = Brat
 browsing-font = <b>Cló</b>:
 browsing-font-size = <b>Clómhéid</b>:
-browsing-found-as-across-bs = %(a)s aimsithe thar %(b)s.
+browsing-found-as-across-bs = { $part } aimsithe thar { $whole }.
 browsing-home = Baile
 browsing-ignore-case = Déan neamhaird ar cás
 browsing-in = <b>I</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Méid Líne</b>:
 browsing-manage-note-types = Bainistigh Cineálacha Nótaí...
 browsing-move-cards = Aistrigh Cártaí
 browsing-move-cards-to-deck = Aistrigh cártaí go paca:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (nua)
 browsing-new-note-type = Cineál nua nóta:
 browsing-no-flag = Gan Brat
@@ -102,31 +102,35 @@ browsing-treat-input-as-regular-expression = Slonn rialta (regex) atá san ionch
 browsing-type-here-to-search = <clóscríobh anseo chun cuardach; bruigh an eochair iontrála chun an paca roghnaithe a thaispeáint>
 browsing-whole-collection = Cnuasach Iomlán
 browsing-you-must-have-at-least-one = Teastaíonn colún amháin (ar a laghad).
-browsing-group = { $count ->
-    [one] { $count } grúpa
-    [two] { $count } ghrúpa
-    [few] { $count } ghrúpa
-    [many] { $count } ngrúpa
-   *[other] { $count } grúpa
-  }
-browsing-note-count = { $count ->
-    [one] { $count } nóta
-    [two] { $count } nóta
-    [few] { $count } nóta
-    [many] { $count } nóta
-   *[other] { $count } nóta
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } nóta scriosta.
-    [two] { $count } nóta scriosta.
-    [few] { $count } nóta scriosta.
-    [many] { $count } nóta scriosta.
-   *[other] { $count } nóta scriosta.
-  }
-browsing-selected = { $count ->
-    [one] { $count } roghnaithe
-    [two] { $count } roghnaithe
-    [few] { $count } roghnaithe
-    [many] { $count } roghnaithe
-   *[other] { $count } roghnaithe
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grúpa
+        [two] { $count } ghrúpa
+        [few] { $count } ghrúpa
+        [many] { $count } ngrúpa
+       *[other] { $count } grúpa
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } nóta
+        [two] { $count } nóta
+        [few] { $count } nóta
+        [many] { $count } nóta
+       *[other] { $count } nóta
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } nóta scriosta.
+        [two] { $count } nóta scriosta.
+        [few] { $count } nóta scriosta.
+        [many] { $count } nóta scriosta.
+       *[other] { $count } nóta scriosta.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } roghnaithe
+        [two] { $count } roghnaithe
+        [few] { $count } roghnaithe
+        [many] { $count } roghnaithe
+       *[other] { $count } roghnaithe
+    }

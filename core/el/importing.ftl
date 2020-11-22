@@ -13,22 +13,26 @@ importing-map-to = Χάρτης στο { $val }
 importing-map-to-tags = Χάρτης σε Ετικέτες
 importing-mapped-to = σε αντιστοιχία προς <b>{ $val }</b>
 importing-mapped-to-tags = σε αντιστοιχία προς  <b>Ετικέτες</b>
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' είχε %(num1)d πεδία, αναμένωντας %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } πεδία, αναμένωντας { $expected }
 importing-semicolon = Άνω τελεία
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
-importing-note-added = { $count ->
-    [one] { $count } σημείωση προστέθηκε
-   *[other] { $count } σημειώσεις προστέθηκαν
-  }
-importing-note-imported = { $count ->
-    [one] { $count } σημείωση εισήχθηκε.
-   *[other] { $count } σημειώσεις εισήχθησαν.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } σημείωση χωρίς μεταβολή
-   *[other] { $count } σημειώσεις χωρίς μεταβολή
-  }
-importing-note-updated = { $count ->
-    [one] { $count } σημείωση ενημερώθηκε
-   *[other] { $count } σημειώσεις ενημερώθηκαν
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } σημείωση προστέθηκε
+       *[other] { $count } σημειώσεις προστέθηκαν
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } σημείωση εισήχθηκε.
+       *[other] { $count } σημειώσεις εισήχθησαν.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } σημείωση χωρίς μεταβολή
+       *[other] { $count } σημειώσεις χωρίς μεταβολή
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } σημείωση ενημερώθηκε
+       *[other] { $count } σημειώσεις ενημερώθηκαν
+    }

@@ -43,7 +43,7 @@ browsing-first-card = Первая карточка
 browsing-flag = Флаг
 browsing-font = <b>Шрифт</b>:
 browsing-font-size = <b>Размер шрифта</b>:
-browsing-found-as-across-bs = Найдено %(a)s среди %(b)s.
+browsing-found-as-across-bs = Найдено { $part } среди { $whole }.
 browsing-home = Home
 browsing-ignore-case = Игнорировать регистр
 browsing-in = <b>Где искать</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>Высота строки</b>:
 browsing-manage-note-types = Управлять типами записей…
 browsing-move-cards = Переместить карточки
 browsing-move-cards-to-deck = Переместить карточки в колоду:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (новые)
 browsing-new-note-type = Новый тип записи:
 browsing-no-flag = Без флага
@@ -102,23 +102,27 @@ browsing-treat-input-as-regular-expression = Трактовать текущий
 browsing-type-here-to-search = <введите здесь поисковый запрос или нажмите «Ввод», чтобы показать текущую колоду>
 browsing-whole-collection = Вся коллекция
 browsing-you-must-have-at-least-one = Вы должны иметь хотя бы один столбец.
-browsing-group = { $count ->
-    [one] { $count } группа
-    [few] { $count } группы
-   *[other] { $count } групп
-  }
-browsing-note-count = { $count ->
-    [one] { $count } запись
-    [few] { $count } записи
-   *[other] { $count } записей
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } запись удалена.
-    [few] { $count } записи удалены.
-   *[other] { $count } записей удалены.
-  }
-browsing-selected = { $count ->
-    [one] { $count } выбрана
-    [few] { $count } выбраны
-   *[other] { $count } выбраны
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } группа
+        [few] { $count } группы
+       *[other] { $count } групп
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } запись
+        [few] { $count } записи
+       *[other] { $count } записей
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } запись удалена.
+        [few] { $count } записи удалены.
+       *[other] { $count } записей удалены.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } выбрана
+        [few] { $count } выбраны
+       *[other] { $count } выбраны
+    }

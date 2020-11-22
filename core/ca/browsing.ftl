@@ -43,7 +43,7 @@ browsing-first-card = Primera targeta
 browsing-flag = Marcar
 browsing-font = <b>Lletra</b>:
 browsing-font-size = <b>Mida de la lletra</b>:
-browsing-found-as-across-bs = S'han trobat %(a)s d'entre %(b)s.
+browsing-found-as-across-bs = S'han trobat { $part } d'entre { $whole }.
 browsing-home = Inici
 browsing-ignore-case = Ignoreu les majúscules
 browsing-in = <b>A</b> :
@@ -54,7 +54,7 @@ browsing-line-size = <b>Mida de la línia</b>:
 browsing-manage-note-types = Gestiona els Tipus de Nota...
 browsing-move-cards = Moure cartes
 browsing-move-cards-to-deck = Moure les cartes al mall:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (nou)
 browsing-new-note-type = Nou tipus de nota
 browsing-no-flag = Sense Marca
@@ -102,19 +102,23 @@ browsing-treat-input-as-regular-expression = Tracta l'entrada com una expressió
 browsing-type-here-to-search = <escriu aquí per cercar; prem la tecla de retorn per veure el mall actual>
 browsing-whole-collection = Col·lecció sencera
 browsing-you-must-have-at-least-one = Hi ha d'haver almenys una columna.
-browsing-group = { $count ->
-    [one] { $count } grup
-   *[other] { $count } grups
-  }
-browsing-note-count = { $count ->
-    [one] { $count } nota
-   *[other] { $count } notes
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } nota eliminada.
-   *[other] { $count } notes eliminades.
-  }
-browsing-selected = { $count ->
-    [one] { $count } seleccionada
-   *[other] { $count } seleccionades
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } grup
+       *[other] { $count } grups
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } nota
+       *[other] { $count } notes
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } nota eliminada.
+       *[other] { $count } notes eliminades.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } seleccionada
+       *[other] { $count } seleccionades
+    }

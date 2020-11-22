@@ -39,7 +39,7 @@ importing-notes-that-could-not-be-imported = רשומות שלא יובאו מש
 importing-notes-updated-as-file-had-newer = רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' ישנם %(num1)d שדות, מצופים %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ישנם { $found } שדות, מצופים { $expected }
 importing-selected-file-was-not-in-utf8 = הקובץ שנבחר אינו בפורמט UTF-8. ראה אודות ייבוא במדריך למשתמש.
 importing-semicolon = פסיק נקודה
 importing-skipped = דולג(ו)
@@ -55,23 +55,28 @@ importing-unable-to-import-from-a-readonly = לא ניתן לייבא מקובץ
 importing-unknown-file-format = סוג קובץ לא מוכר.
 importing-update-existing-notes-when-first-field = עדכן רשומות קיימות כאשר השדה הראשון תואם
 importing-updated = עודכן
-importing-note-added = { $count ->
-    [one] { $count } רשומה נוספה
-   *[other] { $count } רשומות נוספו
-  }
-importing-note-imported = { $count ->
-    [one] { $count } רשומה יובאה.
-   *[other] { $count } רשומות יובאו.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } רשומה לא השתנתה
-   *[other] { $count } רשומות לא השתנו
-  }
-importing-note-updated = { $count ->
-    [one] { $count } רשומה עודכנה
-   *[other] { $count } רשומות עודכנו
-  }
-importing-processed-media-file = { $count ->
-    [one] עובד { $count } קובץ מדיה
-   *[other] עובדו { $count } קבצי מדיה
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } רשומה נוספה
+       *[other] { $count } רשומות נוספו
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } רשומה יובאה.
+       *[other] { $count } רשומות יובאו.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } רשומה לא השתנתה
+       *[other] { $count } רשומות לא השתנו
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } רשומה עודכנה
+       *[other] { $count } רשומות עודכנו
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] עובד { $count } קובץ מדיה
+       *[other] עובדו { $count } קבצי מדיה
+    }

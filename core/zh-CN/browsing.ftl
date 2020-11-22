@@ -43,7 +43,7 @@ browsing-first-card = 第一张卡片
 browsing-flag = 标注
 browsing-font = <b>字体</b>:
 browsing-font-size = <b>字体大小</b>:
-browsing-found-as-across-bs = 在 %(b)s 中找到 %(a)s 。
+browsing-found-as-across-bs = 在 { $whole } 中找到 { $part } 。
 browsing-home = 首页
 browsing-ignore-case = 忽略大小写
 browsing-in = <b>选择字段</b>:
@@ -54,7 +54,7 @@ browsing-line-size = <b>行大小</b>:
 browsing-manage-note-types = 管理笔记类型…
 browsing-move-cards = 移动卡片
 browsing-move-cards-to-deck = 移动卡片到牌组:
-browsing-nd-names = %(n)d: %(name)s
+browsing-nd-names = { $num }: { $name }
 browsing-new = (新)
 browsing-new-note-type = 新笔记类型:
 browsing-no-flag = 无标注
@@ -102,15 +102,19 @@ browsing-treat-input-as-regular-expression = 以正则表达式输入
 browsing-type-here-to-search = <在这里输入进行搜索，点击回车键显示牌组>
 browsing-whole-collection = 全部集合
 browsing-you-must-have-at-least-one = 必须至少有一列.
-browsing-group = { $count ->
-   *[other] { $count }种组合
-  }
-browsing-note-count = { $count ->
-   *[other] { $count }条笔记
-  }
-browsing-note-deleted = { $count ->
-   *[other] 删除 { $count } 条笔记
-  }
-browsing-selected = { $count ->
-   *[other] 选中 { $count } 个
-  }
+browsing-group =
+    { $count ->
+       *[other] { $count }种组合
+    }
+browsing-note-count =
+    { $count ->
+       *[other] { $count }条笔记
+    }
+browsing-note-deleted =
+    { $count ->
+       *[other] 删除 { $count } 条笔记
+    }
+browsing-selected =
+    { $count ->
+       *[other] 选中 { $count } 个
+    }

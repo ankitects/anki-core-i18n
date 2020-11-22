@@ -30,7 +30,7 @@ browsing-find-duplicates = Find dubletter
 browsing-first-card = Første kort
 browsing-font = <b>Skrifttype</b>:
 browsing-font-size = <b>Skriftstørrelse</b>:
-browsing-found-as-across-bs = Fandt %(a)s på tværs af %(b)s.
+browsing-found-as-across-bs = Fandt { $part } på tværs af { $whole }.
 browsing-home = Start
 browsing-ignore-case = Ignorer versal
 browsing-in = <b>I</b>:
@@ -75,19 +75,23 @@ browsing-treat-input-as-regular-expression = Fortolk inddata som regulære udtry
 browsing-type-here-to-search = <indtast her for at søge; tryk retur for at vise aktuel kortsæt>
 browsing-whole-collection = Hele samlingen
 browsing-you-must-have-at-least-one = Du skal have mindst en søjle
-browsing-group = { $count ->
-    [one] { $count } gruppe
-   *[other] { $count } grupper
-  }
-browsing-note-count = { $count ->
-    [one] { $count } noter
-   *[other] { $count } noter
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } note blev slettet.
-   *[other] { $count } noter blev slettet.
-  }
-browsing-selected = { $count ->
-    [one] { $count } valgt
-   *[other] { $count } valgte
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } gruppe
+       *[other] { $count } grupper
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } noter
+       *[other] { $count } noter
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } note blev slettet.
+       *[other] { $count } noter blev slettet.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } valgt
+       *[other] { $count } valgte
+    }

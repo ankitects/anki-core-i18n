@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Notoj, kiuj ne estas enportebla, ĉ
 importing-notes-updated-as-file-had-newer = Notoj estas ĝisdatigitaj, ĉar dosiero havas pli novan version: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakita Anki-Kartaro/Kolekto (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Leciono de Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' havis %(num1)d kampojn, anstataŭ la atendita %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' havis { $found } kampojn, anstataŭ la atendita { $expected }
 importing-selected-file-was-not-in-utf8 = La elektita dosiero ne havis la datumaranĝon UTF-8. Bonvolu atenti la ĉapitron "Import" en la manlibro.
 importing-semicolon = Punktokomo
 importing-skipped = Preterpasita
@@ -51,23 +51,28 @@ importing-unable-to-import-from-a-readonly = Enporto el nurlega dosiero ne estas
 importing-unknown-file-format = Nekonata dosierformato.
 importing-update-existing-notes-when-first-field = Ĝisdatigi ekzistantan noton, kiam la unua kampo kongruas kun
 importing-updated = Ĝisdatigita
-importing-note-added = { $count ->
-    [one] { $count } noto estas aldonita
-   *[other] { $count } notoj estas aldonitaj
-  }
-importing-note-imported = { $count ->
-    [one] { $count } noto estas enportita.
-   *[other] { $count } notoj estas enportitaj.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } noto restas senŝanĝa
-   *[other] { $count } notoj restas senŝanĝaj
-  }
-importing-note-updated = { $count ->
-    [one] { $count } noto estas ĝisdatigita
-   *[other] { $count } notoj estas ĝisdatigitaj
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } prilaborita aŭdovidaĵo
-   *[other] { $count } prilaboritaj aŭdovidaĵoj
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } noto estas aldonita
+       *[other] { $count } notoj estas aldonitaj
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } noto estas enportita.
+       *[other] { $count } notoj estas enportitaj.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } noto restas senŝanĝa
+       *[other] { $count } notoj restas senŝanĝaj
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } noto estas ĝisdatigita
+       *[other] { $count } notoj estas ĝisdatigitaj
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } prilaborita aŭdovidaĵo
+       *[other] { $count } prilaboritaj aŭdovidaĵoj
+    }

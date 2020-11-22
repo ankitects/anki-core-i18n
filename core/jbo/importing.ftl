@@ -25,7 +25,7 @@ importing-notes-added-from-file = .i da poi datnyvei zo'u mo'u jmina { $val } ka
 importing-notes-found-in-file = .i da poi datnyvei zo'u mo'u facki lo du'u da krasi { $val } karda datni
 importing-notes-updated-as-file-had-newer = .i ningau { $val } karda datni se ki'u lo nu da datnyvei fi lo cnino zmadu
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = me la .ankis. ku karda selcmi bakfu (*.apkg *.colpkg *.zip)
-importing-rows-had-num1d-fields-expected-num2d = .i la'o zoi. %(row)s .zoi se srana %(num1)d datnyvau .i nitcu lo se %(num2)d mei
+importing-rows-had-num1d-fields-expected-num2d = .i la'o zoi. { $row } .zoi se srana { $found } datnyvau .i nitcu lo se { $expected } mei
 importing-selected-file-was-not-in-utf8 = .i pa datnyvei poi se cuxna cu datni tarmi na'e la'o zoi. UTF-8 .zoi .i ko tcidu lo nu nerbei kei te fendi be lo djunoi
 importing-semicolon = ';'
 importing-tab = '\t'
@@ -34,18 +34,23 @@ importing-this-file-does-not-appear-to = .i da goi dy. simlu lo ka ce'u na'e dra
 importing-this-will-delete-your-existing-collection = .i lo karda selcmi selcmi ba se vimcu je ba se basti lo se datnyvei be lo ca se nerbei be do .i xu do birti
 importing-unable-to-import-from-a-readonly = .i ka'e nai nerbei lo datnyvei poi ka'e se tcidu po'o
 importing-unknown-file-format = .i na djuno fi lo datnyvei klesi
-importing-note-added = { $count ->
-   *[other] .i mo'u jmina { $count } karda datni
-  }
-importing-note-imported = { $count ->
-   *[other] .i mo'u nerbei { $count } karda datni
-  }
-importing-note-unchanged = { $count ->
-   *[other] .i { $count } karda datni cu stodi
-  }
-importing-note-updated = { $count ->
-   *[other] .i mo'u ningau { $count } karda datni
-  }
-importing-processed-media-file = { $count ->
-   *[other] .i mo'u nerbei { $count } te ganvi
-  }
+importing-note-added =
+    { $count ->
+       *[other] .i mo'u jmina { $count } karda datni
+    }
+importing-note-imported =
+    { $count ->
+       *[other] .i mo'u nerbei { $count } karda datni
+    }
+importing-note-unchanged =
+    { $count ->
+       *[other] .i { $count } karda datni cu stodi
+    }
+importing-note-updated =
+    { $count ->
+       *[other] .i mo'u ningau { $count } karda datni
+    }
+importing-processed-media-file =
+    { $count ->
+       *[other] .i mo'u nerbei { $count } te ganvi
+    }

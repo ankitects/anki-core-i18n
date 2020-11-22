@@ -34,7 +34,7 @@ importing-notes-skipped-as-theyre-already-in = すでにコレクション内に
 importing-notes-that-could-not-be-imported = ノートタイプが変更されたためインポートできなかったノート：{ $val }
 importing-notes-updated-as-file-had-newer = ファイル内に最新版が存在するためアップデートされたノート：{ $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
-importing-rows-had-num1d-fields-expected-num2d = 「%(row)s」には %(num1)d 個のフィールドがありました。予想では %(num2)d 個でした。
+importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」には { $found } 個のフィールドがありました。予想では { $expected } 個でした。
 importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルの Importing (読み込み) に関する項目をご覧ください。
 importing-semicolon = セミコロン
 importing-skipped = 除外
@@ -50,18 +50,23 @@ importing-unable-to-import-from-a-readonly = 読み込み専用ファイルは�
 importing-unknown-file-format = ファイルの種類が不明。
 importing-update-existing-notes-when-first-field = 最初のフィールドが一致した場合、既存のノートを更新する。
 importing-updated = 更新
-importing-note-added = { $count ->
-   *[other] { $count } 個のノートを追加しました。
-  }
-importing-note-imported = { $count ->
-   *[other] { $count } 個のノートを読み込みました。
-  }
-importing-note-unchanged = { $count ->
-   *[other] { $count } 個のノートを変更しませんでした
-  }
-importing-note-updated = { $count ->
-   *[other] { $count } 個のノートを更新しました。
-  }
-importing-processed-media-file = { $count ->
-   *[other] { $count }のメディアファイルを処理
-  }
+importing-note-added =
+    { $count ->
+       *[other] { $count } 個のノートを追加しました。
+    }
+importing-note-imported =
+    { $count ->
+       *[other] { $count } 個のノートを読み込みました。
+    }
+importing-note-unchanged =
+    { $count ->
+       *[other] { $count } 個のノートを変更しませんでした
+    }
+importing-note-updated =
+    { $count ->
+       *[other] { $count } 個のノートを更新しました。
+    }
+importing-processed-media-file =
+    { $count ->
+       *[other] { $count }のメディアファイルを処理
+    }

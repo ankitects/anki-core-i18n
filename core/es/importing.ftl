@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Notas que no pudieron importarse de
 importing-notes-updated-as-file-had-newer = Notas actualizadas; existía una nueva versión del archivo: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazo de Anki comprimido/ Colección (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lección Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '%(row)s' tenía %(num1)d campos, se esperaban %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tenía { $found } campos, se esperaban { $expected }
 importing-selected-file-was-not-in-utf8 = El archivo seleccionado no estaba en formato UTF-8. Por favor, lee la sección "importación" del manual.
 importing-semicolon = Punto y coma
 importing-skipped = Saltado
@@ -53,23 +53,28 @@ importing-unable-to-import-from-a-readonly = No es posible importar desde un arc
 importing-unknown-file-format = Formato de archivo desconocido.
 importing-update-existing-notes-when-first-field = Actualizar las tarjetas existentes cuando el primer campo coincida
 importing-updated = Actualizado
-importing-note-added = { $count ->
-    [one] { $count } nota añadida
-   *[other] { $count } notas añadidas
-  }
-importing-note-imported = { $count ->
-    [one] { $count } nota importada.
-   *[other] { $count } notas importadas.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } nota inalterada
-   *[other] { $count } notas inalteradas
-  }
-importing-note-updated = { $count ->
-    [one] { $count } nota actualizada
-   *[other] { $count } notas actualizadas
-  }
-importing-processed-media-file = { $count ->
-    [one] { $count } archivo multimedia procesado
-   *[other] { $count } archivos multimedia procesados
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } nota añadida
+       *[other] { $count } notas añadidas
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } nota importada.
+       *[other] { $count } notas importadas.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } nota inalterada
+       *[other] { $count } notas inalteradas
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } nota actualizada
+       *[other] { $count } notas actualizadas
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } archivo multimedia procesado
+       *[other] { $count } archivos multimedia procesados
+    }

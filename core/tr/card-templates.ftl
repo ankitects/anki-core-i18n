@@ -9,13 +9,14 @@ card-templates-card = Kart { $val }
 card-templates-card-types = Kart Tipleri
 card-templates-card-types-for = { $val } için Kart Tipleri
 card-templates-cloze = Kapat
-card-templates-delete-the-as-card-type-and = '%(a)s' kart tipi ve ona ait %(b)s silinsin mi?
+card-templates-delete-the-as-card-type-and = '{ $template }' kart tipi ve ona ait { $cards } silinsin mi?
 card-templates-enter-deck-to-place-new = Desteye yeni { $val } kartları yerleştirin, ya da boş bırakın:
 card-templates-enter-new-card-position-1 = Yeni kart sırasını girin (1...{ $val }):
 card-templates-flip = Çevir
-card-templates-off =  (kapalı)
-card-templates-on =  (açık)
-card-templates-card-count = { $count ->
-    [one] { $count } kart
-   *[other] { $count } kart
-  }
+card-templates-off = (kapalı)
+card-templates-on = (açık)
+card-templates-card-count =
+    { $count ->
+        [one] { $count } kart
+       *[other] { $count } kart
+    }

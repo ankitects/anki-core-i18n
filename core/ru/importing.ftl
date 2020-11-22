@@ -37,7 +37,7 @@ importing-notes-that-could-not-be-imported = Записи, которые не �
 importing-notes-updated-as-file-had-newer = Записи, которые обновлены: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Упакованная колода/коллекция Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = В '%(row)s' %(num1)d полей, но должно быть %(num2)d
+importing-rows-had-num1d-fields-expected-num2d = В '{ $row }' { $found } полей, но должно быть { $expected }
 importing-selected-file-was-not-in-utf8 = Выбранный файл не в кодировке UTF-8. Пожалуйста, прочтите раздел об импорте в руководстве.
 importing-semicolon = Точка с запятой
 importing-skipped = Пропущено
@@ -53,28 +53,33 @@ importing-unable-to-import-from-a-readonly = Не удалось импорти�
 importing-unknown-file-format = Неизвестный формат файла.
 importing-update-existing-notes-when-first-field = Обновлять существующие записи, когда первое поле совпадает
 importing-updated = Обновлено
-importing-note-added = { $count ->
-    [one] { $count } запись добавлена
-    [few] { $count } записи добавлены
-   *[other] { $count } записей добавлены
-  }
-importing-note-imported = { $count ->
-    [one] { $count } запись импортирована.
-    [few] { $count } записи импортированы.
-   *[other] { $count } записей импортированы.
-  }
-importing-note-unchanged = { $count ->
-    [one] { $count } запись не изменена
-    [few] { $count } записи не изменены
-   *[other] { $count } записей не изменены
-  }
-importing-note-updated = { $count ->
-    [one] { $count } запись обновлена
-    [few] { $count } записи обновлены
-   *[other] { $count } записей обновлены
-  }
-importing-processed-media-file = { $count ->
-    [one] Обработан { $count } медиафайл
-    [few] Обработано { $count } медиафайла
-   *[other] Обработаны { $count } медиафайлов
-  }
+importing-note-added =
+    { $count ->
+        [one] { $count } запись добавлена
+        [few] { $count } записи добавлены
+       *[other] { $count } записей добавлены
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } запись импортирована.
+        [few] { $count } записи импортированы.
+       *[other] { $count } записей импортированы.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } запись не изменена
+        [few] { $count } записи не изменены
+       *[other] { $count } записей не изменены
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } запись обновлена
+        [few] { $count } записи обновлены
+       *[other] { $count } записей обновлены
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Обработан { $count } медиафайл
+        [few] Обработано { $count } медиафайла
+       *[other] Обработаны { $count } медиафайлов
+    }

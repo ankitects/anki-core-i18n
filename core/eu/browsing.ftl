@@ -33,7 +33,7 @@ browsing-find-duplicates = Bilatu bikoiztuak
 browsing-first-card = Lehengo karta
 browsing-font = <b>Letra-tipoa</b>:
 browsing-font-size = <b>Letra-tipoaren neurria</b>:
-browsing-found-as-across-bs = %(b)s -en zehar %(a)s aurkituta
+browsing-found-as-across-bs = { $whole } -en zehar { $part } aurkituta
 browsing-home = Direktorio Pertsonala
 browsing-ignore-case = Ezikusi maius./minus.
 browsing-in = <b>Hemen</b>:
@@ -80,19 +80,23 @@ browsing-treat-input-as-regular-expression = Sarrera adierazpen erregular batent
 browsing-type-here-to-search = <idatzi hemen bilatzeko; sakatu sartu uneko bilduma erakusteko>
 browsing-whole-collection = Bilduma osoa
 browsing-you-must-have-at-least-one = Gutxienez zutabe bat izan behar duzu.
-browsing-group = { $count ->
-    [one] Talde { $count }
-   *[other] { $count } talde
-  }
-browsing-note-count = { $count ->
-    [one] Ohar { $count }
-   *[other] { $count } ohar
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } nota ezabatuta
-   *[other] { $count } nota ezabatuta
-  }
-browsing-selected = { $count ->
-    [one] { $count } hautatuta
-   *[other] { $count } hautatuta
-  }
+browsing-group =
+    { $count ->
+        [one] Talde { $count }
+       *[other] { $count } talde
+    }
+browsing-note-count =
+    { $count ->
+        [one] Ohar { $count }
+       *[other] { $count } ohar
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } nota ezabatuta
+       *[other] { $count } nota ezabatuta
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } hautatuta
+       *[other] { $count } hautatuta
+    }
