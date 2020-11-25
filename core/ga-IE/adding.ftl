@@ -1,4 +1,4 @@
-adding-add-shortcut-ctrlandenter = Cuir Leis (aicearra: Ctrl+Enter)
+adding-add-shortcut-ctrlandenter = Cuir Leis (aicearra: ctrl+enter)
 adding-added = Curtha leis
 adding-close-and-lose-current-input = Dún (agus caill ionchur atá ar bun)?
 adding-edit = Cuir in eagar "{ $val }"
@@ -6,4 +6,4 @@ adding-history = Stair
 adding-note-deleted = (Nóta scriosta)
 adding-shortcut = Aicearra: { $val }
 adding-the-first-field-is-empty = Tá an chéad réimse folamh.
-adding-you-have-a-cloze-deletion-note = Is 'sliocht iomlánú' e an cineál seo nóta, ach níl sliocht iomlánú curtha ann. Lean ar aghaidh?
+adding-you-have-a-cloze-deletion-note = Is den chineál 'sliocht iomlánaithe' é an nóta seo, ach níl aon bhearna le hiomlánú curtha ann. Lean ar aghaidh?

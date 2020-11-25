@@ -1,13 +1,13 @@
 # The date a card will be ready to review
-statistics-due-date = Dlite
+statistics-due-date = Le staidéar
 # The count of cards waiting to be reviewed
-statistics-due-count = Dlite
+statistics-due-count = Le staidéar
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Nua #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } cártaí/nóiméad
+statistics-cards-per-min = { $cards-per-minute } cárta/nóiméad
 statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
@@ -15,51 +15,51 @@ statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-m
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] in { $amount } soicind
-        [two] in { $amount } shoicind
-        [few] i { $amount } shoicind
-        [many] i { $amount } soicind
-       *[other] i { $amount } soicind
+        [one] ar feadh { $amount } soicind
+        [two] ar feadh { $amount } shoicind
+        [few] ar feadh { $amount } shoicind
+        [many] ar feadh { $amount } soicind
+       *[other] ar feadh { $amount } soicind
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] in { $amount } nóiméad
-        [two] in { $amount } nóiméad
-        [few] i { $amount } nóiméad
-        [many] i { $amount } nóiméad
-       *[other] i { $amount } nóiméad
+        [one] ar feadh { $amount } nóiméad
+        [two] ar feadh { $amount } nóiméad
+        [few] ar feadh { $amount } nóiméad
+        [many] ar feadh { $amount } nóiméad
+       *[other] ar feadh { $amount } nóiméad
     }
 statistics-in-time-span-hours =
     { $amount ->
-        [one] in { $amount } uair an chloig
-        [two] in { $amount } uair an chloig
-        [few] i { $amount } uair an chloig
-        [many] i { $amount } n-uair an chloig
-       *[other] i { $amount } uair an chloig
+        [one] ar feadh { $amount } uair an chloig
+        [two] ar feadh { $amount } uair an chloig
+        [few] ar feadh { $amount } huaire an chloig
+        [many] ar feadh { $amount } n-uaire an chloig
+       *[other] ar feadh { $amount } uair an chloig
     }
 statistics-in-time-span-days =
     { $amount ->
-        [one] in { $amount } lá
-        [two] in { $amount } lá
-        [few] i { $amount } lá
-        [many] i { $amount } lá
-       *[other] i { $amount } lá
+        [one] ar feadh { $amount } lá
+        [two] ar feadh { $amount } lá
+        [few] ar feadh { $amount } lá
+        [many] ar feadh { $amount } lá
+       *[other] ar feadh { $amount } lá
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] in { $amount } mí
-        [two] in { $amount } mí
-        [few] i { $amount } mí
-        [many] i { $amount } mí
-       *[other] i { $amount } mí
+        [one] ar feadh { $amount } mí
+        [two] ar feadh { $amount } mhí
+        [few] ar feadh { $amount } mhí
+        [many] ar feadh { $amount } mí
+       *[other] ar feadh { $amount } mí
     }
 statistics-in-time-span-years =
     { $amount ->
-        [one] in { $amount } bhliain
-        [two] in { $amount } bhliain
-        [few] i { $amount } bliana
-        [many] i { $amount } mbliana
-       *[other] i { $amount } bliain
+        [one] ar feadh { $amount } bhliain
+        [two] ar feadh { $amount } bhliain
+        [few] ar feadh { $amount } bliana
+        [many] ar feadh { $amount } mbliana
+       *[other] ar feadh { $amount } bliain
     }
 statistics-cards =
     { $cards ->
@@ -96,9 +96,9 @@ statistics-studied-today =
 statistics-seconds-taken = { $seconds }s
 statistics-today-title = Inniu
 statistics-today-again-count = Arís:
-statistics-today-type-counts = Foghlaim: { $learnCount }, Athbhreithniú: { $reviewCount }, Athfhoghlaim: { $relearnCount }, Scagtha: { $filteredCount }
-statistics-today-no-cards = Níl staidéar déanta ar aon chártaí inniu
-statistics-today-no-mature-cards = Níl staidéar déanta ar aon chártaí aibí inniu.
+statistics-today-type-counts = Foghlaim: { $learnCount }, Athbhreithnigh: { $reviewCount }, Athfhoghlaim: { $relearnCount }, Scagtha: { $filteredCount }
+statistics-today-no-cards = Níl staidéar déanta ar aon chárta inniu
+statistics-today-no-mature-cards = Níl staidéar déanta ar aon chárta aibí inniu.
 statistics-today-correct-mature = Freagraí cearta ar chártaí aibí: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Iomlán
 statistics-counts-new-cards = Nua
@@ -110,11 +110,11 @@ statistics-counts-early-cards = Luath
 statistics-counts-learning-cards = Á bhfoghlaim
 statistics-counts-relearning-cards = Á n-athfoghlaim
 statistics-counts-title = Líonta Cártaí
-statistics-range-all-time = Uile
-statistics-range-1-year-history = Le 12 mhí anuas
-statistics-range-all-history = Riamh
-statistics-range-deck = Paca
-statistics-range-collection = Cnuasach
+statistics-range-all-time = uile
+statistics-range-1-year-history = le 12 mhí anuas
+statistics-range-all-history = riamh
+statistics-range-deck = paca
+statistics-range-collection = cnuasach
 statistics-range-search = Cuardú
 statistics-card-ease-title = Éascaíocht Chártaí
 statistics-card-ease-subtitle = Dá ísle éascaíocht cárta áirithe, is ea is minice a bhfeictear é.
@@ -127,13 +127,13 @@ statistics-card-ease-tooltip =
         [many] { $cards } gcárta le éascaíocht { $percent }
        *[other] { $cards } cárta le éascaíocht { $percent }
     }
-statistics-future-due-title = Dlite sa Todhchaí
+statistics-future-due-title = Le Staidéar sa Todhchaí
 statistics-future-due-subtitle = Líon na n-athbhreithnithe a bheidh le déanamh amach anseo
 statistics-added-title = Curtha leis
 statistics-added-subtitle = Líon na gcártaí nua a chuir tú leis an bpaca.
-statistics-reviews-count-subtitle = Líon na gceisteanna ar thug tú freagra dóibh.
-statistics-reviews-time-subtitle = An méid ama caite ag freagrú na gceisteanna.
-statistics-answer-buttons-title = Cnaipí Freagra
+statistics-reviews-count-subtitle = Líon na gceisteanna ar thug tú freagra orthu.
+statistics-reviews-time-subtitle = An méid ama caite ag freagairt na gceisteanna.
+statistics-answer-buttons-title = Cnaipí Freagartha
 # eg Button: 4
 statistics-answer-buttons-button-number = Cnaipe
 # eg Times pressed: 123
@@ -165,38 +165,38 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } lá ó shin
 statistics-running-total = Iomlán reatha
 statistics-cards-due =
     { $cards ->
-        [one] Cárta amháin dlite
-        [two] { $cards } chárta dlite
-        [few] { $cards } chárta dlite
-        [many] { $cards } gcárta dlite
-       *[other] { $cards } cárta dlite
+        [one] Cárta amháin le staidéar
+        [two] { $cards } chárta le staidéar
+        [few] { $cards } chárta le staidéar
+        [many] { $cards } gcárta le staidéar
+       *[other] { $cards } cárta le staidéar
     }
 statistics-backlog-checkbox = Riaráiste
-statistics-intervals-title = Eatramh Abhreithnithe
+statistics-intervals-title = Eatraimh Abhreithnithe
 statistics-intervals-subtitle = Cé chomh fhada le fanacht idir athbhreithnithe.
 statistics-intervals-day-range =
     { $cards ->
-        [one] Cárta amháin le eatramh { $daysStart }~{ $daysEnd }
-        [two] { $cards } chárta le eatramh { $daysStart }~{ $daysEnd }
-        [few] { $cards } chárta le eatramh { $daysStart }~{ $daysEnd }
-        [many] { $cards } gcárta le eatramh { $daysStart }~{ $daysEnd }
-       *[other] { $cards } cárta le eatramh { $daysStart }~{ $daysEnd }
+        [one] Cárta amháin agus eatramh { $daysStart }~{ $daysEnd } aige
+        [two] { $cards } chárta agus eatramh { $daysStart }~{ $daysEnd } acu
+        [few] { $cards } chárta agus eatramh { $daysStart }~{ $daysEnd } acu
+        [many] { $cards } gcárta agus eatramh { $daysStart }~{ $daysEnd } acu
+       *[other] { $cards } cárta agus eatramh { $daysStart }~{ $daysEnd } acu
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] Cárta amháin le eatramh { $day } lá
-        [two] { $cards } chárta le eatramh { $day } lá
-        [few] { $cards } chárta le eatramh { $day } lá
-        [many] { $cards } gcárta le eatramh { $day } lá
-       *[other] { $cards } cárta le eatramh { $day } lá
+        [one] Cárta amháin agus eatramh { $day } lá aige
+        [two] { $cards } chárta agus eatramh { $day } lá acu
+        [few] { $cards } chárta agus eatramh { $day } lá acu
+        [many] { $cards } gcárta agus eatramh { $day } lá acu
+       *[other] { $cards } cárta agus eatramh { $day } lá acu
     }
 # hour range, eg "From 14:00-15:00"
-statistics-hours-range = Ó { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-range = Ó { $hourStart }.00~{ $hourEnd }.00
 statistics-hours-correct = { $correct }/{ $total } ceart ({ $percent }%)
 statistics-hours-title = Miondealú de réir uaire
 statistics-hours-subtitle = Staitisticí de réir gach uair an chloig den lá.
 # shown when graph is empty
-statistics-no-data = Dada le taispeáint
+statistics-no-data = GAN SONRAÍ
 statistics-calendar-title = Féilire
 
 ## An amount of elapsed time, used in the graphs to show the amount of
@@ -214,7 +214,7 @@ statistics-elapsed-time-years = { $amount }b
 
 ##
 
-statistics-error-fetching = Sonraí neamhbhailí - úsáid 'Seiceáil Sonraí' chun an fadhb a réitiú.
+statistics-error-fetching = Sonraí neamhbhailí - bain triail as 'Seiceáil Sonraí' chun an deacracht a scaoileadh.
 statistics-average-for-days-studied = Meán (laethanta gníomhacha)
 statistics-total = Iomlán
 statistics-days-studied = Laethanta gníomhacha
@@ -222,17 +222,17 @@ statistics-average-answer-time-label = Am meánach chun freagra a thabhairt
 statistics-average = Meán
 statistics-average-interval = Meáneatramh
 statistics-longest-interval = Eatramh is faide
-statistics-due-tomorrow = Dlite amárach
+statistics-due-tomorrow = Le staidéar amárach
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } as { $total } ({ $percent }%)
 statistics-average-over-period = Meán le linn tréimhse
 statistics-reviews-per-day =
     { $count ->
-        [one] { $count } abhreithniú / lá
-        [two] { $count } abhreithniú / lá
-        [few] { $count } abhreithniú / lá
-        [many] { $count } n-abhreithniú / lá
-       *[other] { $count } abhreithniú / lá
+        [one] { $count } abhreithniú/lá
+        [two] { $count } abhreithniú/lá
+        [few] { $count } abhreithniú/lá
+        [many] { $count } n-abhreithniú/lá
+       *[other] { $count } abhreithniú/lá
     }
 statistics-minutes-per-day =
     { $count ->

@@ -1,2 +1,2 @@
 # True if a card is due/ready for review
-filtering-is-due = Dlite
+filtering-is-due = Le Staidéar

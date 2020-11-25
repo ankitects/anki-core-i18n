@@ -68,7 +68,7 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    Beidh an chéad cárta eile dlite i gceann { $unit ->
+    Beidh an chéad cárta eile le staidéar i gceann { $unit ->
         [Seconds]
             { $amount ->
                 [one] { $amount } soicind
@@ -90,7 +90,7 @@ scheduling-next-learn-due =
 scheduling-learn-remaining =
     { $remaining ->
         [one] Tá cárta foghlama amháin fós le teacht inniu.
-        [two] Tá { $remaining } chárta foghlama fós le teacht inniu.
+        [two] Tá { $remaining } chárta fhoghlama fós le teacht inniu.
         [few] Tá { $remaining } chárta foghlama fós le teacht inniu.
         [many] Tá { $remaining } gcárta foghlama fós le teacht inniu.
        *[other] Tá { $remaining } cárta foghlama fós le teacht inniu.
@@ -98,57 +98,57 @@ scheduling-learn-remaining =
 scheduling-congratulations-finished = Comhghairdeas! Tá an paca seo críochnaithe agat.
 scheduling-today-review-limit-reached =
     Tá srian laethúil na n-athbhreithnithe bainte amach, ach tá cártaí 
-    ann fós atá dlite. B'fhéidir go bhfheilfeadh sé an srian laethúil
+    ann fós atá le staidéar. B'fhéidir go bhfheilfeadh sé an srian laethúil
     a ardú sna roghanna.
 scheduling-today-new-limit-reached =
-    Tá tuilleadh cártaí ar fáil, ach tá an srian laethúil bainte amach.
+    Tá tuilleadh cártaí nua ar fáil, ach tá an srian laethúil bainte amach.
     Is féidir an srian seo a chuir in airde sna 'roghanna', ach
-    cuimhnigh go mbeidh níos mó oibre agat sa chás sin - go 
-    háirithe nuair a chuireann tú cártaí nua leis an gcóras.
+    cuimhnigh go gcuirfidh sé le dua na laethanta beaga atá 
+    amach romhat níos mó díobh a dhéanamh inniu.
 scheduling-buried-cards-found = Cuireadh cárta (nó cártaí) i bhfolach - taispeánfar amárach iad. Is féidir { $unburyThem } más fearr leat iad a fheiceáil anois díreach.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = iad a tharraingt amach
-scheduling-how-to-custom-study = Má tá fonn ort staidéar a dhéanamh taobh amuigh den ghnáthsceideal, úsáid { $customStudy }.
+scheduling-how-to-custom-study = Má tá fonn ort staidéar a dhéanamh taobh amuigh den ghnáthsceideal, téigh i mbun { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Staidéar ar Leith
 scheduling-always-include-question-side-when-replaying = Cas an cheist i gcónaí nuair a athsheinntear fuaim.
 scheduling-at-least-one-step-is-required = Teastaíonn ar a laghad céim amháin.
-scheduling-automatically-play-audio = Cas fuaimeanna go uathoibríoch
+scheduling-automatically-play-audio = Cas fuaimeanna go huathoibríoch
 scheduling-bury-related-new-cards-until-the = Cuir cartaí nua gaolmhara i bhfolach go dtí an lá dar gcionn
 scheduling-bury-related-reviews-until-the-next = Cuir athbhreithnithe gaolmhara i bhfolach go dtí an lá dar gcionn
 scheduling-days = lá
 scheduling-description = Cur síos
-scheduling-description-to-show-on-overview-screen = Cur síos le taispeáint ar scáileán achoimre, don phaca reatha:
-scheduling-easy-bonus = Bónas éasca
-scheduling-easy-interval = Eatramh éasca
+scheduling-description-to-show-on-overview-screen = Cur síos le taispeáint ar scáileán achoimre, i gcás an phaca reatha:
+scheduling-easy-bonus = Bónas 'Éasca'
+scheduling-easy-interval = Eatramh 'Éasca'
 scheduling-end = (críoch)
 scheduling-general = Ginearálta
 scheduling-graduating-interval = Uaseatramh
-scheduling-hard-interval = Eatramh deacair
-scheduling-ignore-answer-times-longer-than = Déan neamhaird ar freagraí a thógann os cionn
+scheduling-hard-interval = Eatramh 'Deacair'
+scheduling-ignore-answer-times-longer-than = Déan neamhaird ar fhreagraí a thógann os cionn
 scheduling-interval-modifier = Athraitheoir eatraimh
 scheduling-lapses = Clistí
 scheduling-lapses2 = clistí
 scheduling-learning = Á bhfoghlaim
-scheduling-leech-action = Beart do súmairí
-scheduling-leech-threshold = Tairseach súmairí
-scheduling-maximum-interval = Eatraimh is faide
+scheduling-leech-action = Le déanamh le súmairí
+scheduling-leech-threshold = Tairseach na súmaireachta
+scheduling-maximum-interval = Eatramh is faide is féidir
 scheduling-maximum-reviewsday = Athbhreithniú/lá is airde
-scheduling-minimum-interval = Eatraimh is giorra
-scheduling-mix-new-cards-and-reviews = Meascaigh cártaí nua agus athbhreithnithe
+scheduling-minimum-interval = Eatramh is giorra is féidir
+scheduling-mix-new-cards-and-reviews = Cuir cártaí nua agus athbhreithnithe trí chéile
 scheduling-new-cards = Cártaí Nua
 scheduling-new-cardsday = Cártaí nua/lá
-scheduling-new-interval = Eatramh nua
+scheduling-new-interval = Eatramh 'Nua'
 scheduling-new-options-group-name = Ainm do roghaghrúa nua:
 scheduling-options-group = Roghaghrúpa:
 scheduling-order = Ord
-scheduling-parent-limit = (srian ar máithreacha: { $val })
+scheduling-parent-limit = (srian ar mháithreacha: { $val })
 scheduling-review = Athbhreithniú
 scheduling-reviews = Athbhreithnithe
 scheduling-seconds = soicind
-scheduling-set-all-decks-below-to = Iompaigh gach paca faoi { $val } chuig an grúpa roghanna seo?
+scheduling-set-all-decks-below-to = Iompaigh gach paca faoi { $val } chuig an ngrúpa roghanna seo?
 scheduling-set-for-all-subdecks = Socraigh do gach fo-phaca
 scheduling-show-answer-timer = Taispeáin clog
 scheduling-show-new-cards-after-reviews = Taispeáin cártaí nua tar éis athbhreithnithe
@@ -159,12 +159,13 @@ scheduling-starting-ease = Éascacht thosaigh
 scheduling-steps-in-minutes = Céimeanna (nóiméid)
 scheduling-steps-must-be-numbers = Úsáid uimhreacha do céimeanna.
 scheduling-tag-only = Clibeáil Amháin
-scheduling-the-default-configuration-cant-be-removed = Ní féidir réamhshocruithe a bhaint.
+scheduling-the-default-configuration-cant-be-removed = Ní féidir an leagan réamhshocraithe a bhaint.
 scheduling-your-changes-will-affect-multiple-decks = Beidh tionchar ag na hathruithe seo ar roinnt pacaí. Chun an paca seo amháin a athrú, cruthaigh roghaghrúpa nua.
-scheduling-deck-updated = { $count ->
-    [one] { $count } paca amháin nuashonraithe.
-    [two] { $count } phaca nuashonraithe.
-    [few] { $count } phaca nuashonraithe.
-    [many] { $count } bpaca nuashonraithe.
-   *[other] { $count } paca nuashonraithe.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } paca amháin nuashonraithe.
+        [two] { $count } phaca nuashonraithe.
+        [few] { $count } phaca nuashonraithe.
+        [many] { $count } bpaca nuashonraithe.
+       *[other] { $count } paca nuashonraithe.
+    }

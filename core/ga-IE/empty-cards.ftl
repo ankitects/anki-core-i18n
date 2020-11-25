@@ -1,5 +1,12 @@
-empty-cards-for-note-type = Cártaí folmha do { $notetype }:
-empty-cards-count-line = { $empty_count } as { $existing_count } cártaí folmha ({ $template_names }).
+empty-cards-for-note-type = Cártaí folmha de chuid { $notetype }:
+empty-cards-count-line =
+    { $existing_count ->
+        [one] { $existing_count } cárta folamh ({ $template_names }).
+        [two] { $empty_count } as { $existing_count } chárta fholamh ({ $template_names }).
+        [few] { $empty_count } as { $existing_count } chárta folamh ({ $template_names }).
+        [many] { $empty_count } as { $existing_count } gcárta folamh ({ $template_names }).
+       *[other] { $empty_count } as { $existing_count } cárta folamh ({ $template_names }).
+    }
 empty-cards-window-title = Cártaí Folmha
 empty-cards-preserve-notes-checkbox = Coinnigh nótaí nach bhfuil cárta bailí acu.
 empty-cards-delete-button = Scrios

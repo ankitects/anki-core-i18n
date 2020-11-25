@@ -4,7 +4,7 @@ notetypes-front-field = Tosach
 notetypes-back-field = Cúl
 notetypes-add-reverse-field = Cuir le Cúl
 notetypes-text-field = Téacs
-notetypes-back-extra-field = Cúl Breis
+notetypes-back-extra-field = Cúl Breise
 
 ## Default note type names
 
@@ -23,13 +23,13 @@ notetypes-add-note-type = Cuir Cineál Nóta Leis
 notetypes-cards = Cártaí...
 notetypes-clone = Clónáil: { $val }
 notetypes-copy = cóip { $val }
-notetypes-create-scalable-images-with-dvisvgm = Crughaigh íomhánna inscálaithe le dvisvgm
+notetypes-create-scalable-images-with-dvisvgm = Cruthaigh íomhánna inscálaithe le dvisvgm
 notetypes-delete-this-note-type-and-all = Scrios an cineál seo nóta agus a chuid cártaí go léir?
-notetypes-delete-this-unused-note-type = Scrios an cineál nóta neamhúsáidte seo?
+notetypes-delete-this-unused-note-type = Scrios an cineál nóta gan úsáid seo?
 notetypes-fields = Réimsí...
 notetypes-footer = Buntásc
 notetypes-header = Ceanntásc
 notetypes-note-types = Cineálacha Nótaí
 notetypes-options = Roghanna...
-notetypes-please-add-another-note-type-first = Cur cineál eile nóta ar dtús.
+notetypes-please-add-another-note-type-first = Cur cineál eile nóta leis ar dtús.
 notetypes-type = Cineál
