@@ -6,17 +6,52 @@ media-check-window-title = Seiceáil Meáin
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count =
     Fillteán bruscair:{ $count ->
-        [one] comhad amháin, { $megs }MB
+        [one] { $count } chomhad amháin, { $megs }MB
         [two] { $count } chomhad, { $megs }MB
         [few] { $count } chomhad, { $megs }MB
         [many] { $count } gcomhad, { $megs }MB
        *[other] { $count } comhad, { $megs }MB
     }
-media-check-missing-count = Comhaid ar iarraidh: { $count }
-media-check-unused-count = Comhaid gan úsáid: { $count }
-media-check-renamed-count = Comhaid athainmnithe: { $count }
-media-check-oversize-count = Os cionn 100MB: { $count }
-media-check-subfolder-count = Fofhillteáin: { $count }
+media-check-missing-count =
+    Comhaid ar iarraidh: { $count ->
+        [one] { $count } cheann amháin
+        [two] { $count } cheann
+        [few] { $count } cinn
+        [many] { $count } gcinn
+       *[other] { $count } ceann
+    }
+media-check-unused-count =
+    Comhaid gan úsáid: { $count ->
+        [one] { $count } cheann amháin
+        [two] { $count } cheann
+        [few] { $count } cinn
+        [many] { $count } gcinn
+       *[other] { $count } ceann
+    }
+media-check-renamed-count =
+    Comhaid athainmnithe: { $count ->
+        [one] { $count } cheann amháin
+        [two] { $count } cheann
+        [few] { $count } cinn
+        [many] { $count } gcinn
+       *[other] { $count } ceann
+    }
+media-check-oversize-count =
+    Os cionn 100MB: { $count ->
+        [one] { $count } cheann amháin
+        [two] { $count } cheann
+        [few] { $count } cinn
+        [many] { $count } gcinn
+       *[other] { $count } ceann
+    }
+media-check-subfolder-count =
+    Fofhillteáin: { $count ->
+        [one] { $count } cheann amháin
+        [two] { $count } cheann
+        [few] { $count } cinn
+        [many] { $count } gcinn
+       *[other] { $count } ceann
+    }
 
 ## Shown at the top of each section
 
@@ -36,14 +71,21 @@ media-check-unused-file = Gan úsáid: { $filename }
 
 ## Progress
 
-media-check-checked = Seicáilte: { $count } ...
+media-check-checked =
+    Seicáilte: { $count ->
+        [one] { $count } cheann amháin
+        [two] { $count } cheann
+        [few] { $count } cinn
+        [many] { $count } gcinn
+       *[other] { $count } ceann
+    }...
 
 ## Deleting unused media
 
 media-check-delete-unused-confirm = Scrios meáin gan úsáid?
 media-check-files-remaining =
     { $count ->
-        [one] Comhad amháin
+        [one] { $count } chomhad amháin
         [two] { $count } chomhad
         [few] { $count } chomhad
         [many] { $count } gcomhad
@@ -51,7 +93,7 @@ media-check-files-remaining =
     } fágtha
 media-check-delete-unused-complete =
     { $count ->
-        [one] Comhad amháin
+        [one] { $count } chomhad amháin
         [two] { $count } chomhad
         [few] { $count } chomhad
         [many] { $count } gcomhad

@@ -44,7 +44,7 @@ studying-what-would-you-like-to-unbury = Céard ba mhaith leat a tharraingt amac
 studying-you-havent-recorded-your-voice-yet = Níor thaifead tú do ghuth fós.
 studying-card-studied-in =
     { $count ->
-        [one] Staidéar déanta ar { $count } cárta le linn
+        [one] Staidéar déanta ar { $count } chárta amháin le linn
         [two] Staidéar déanta ar { $count } chárta le linn
         [few] Staidéar déanta ar { $count } chárta le linn
         [many] Staidéar déanta ar { $count } gcárta le linn
@@ -52,7 +52,7 @@ studying-card-studied-in =
     }
 studying-minute =
     { $count ->
-        [one] { $count } nóiméad
+        [one] { $count } nóiméad amháin.
         [two] { $count } nóiméad.
         [few] { $count } nóiméad.
         [many] { $count } nóiméad.
@@ -60,7 +60,7 @@ studying-minute =
     }
 studying-note-and-its-card-deleted =
     { $count ->
-        [one] Nóta agus an ({ $count }) chárta a bhí aige scriosta.
+        [one] Nóta agus an { $count } chárta amháin a bhí aige scriosta.
         [two] Nóta agus an { $count } chárta a bhí aige scriosta.
         [few] Nóta agus na { $count } chárta a bhí aige scriosta.
         [many] Nóta agus na { $count } gcárta a bhí aige scriosta.

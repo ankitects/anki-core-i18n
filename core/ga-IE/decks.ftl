@@ -33,7 +33,7 @@ decks-study-deck = Paca Staidéir
 decks-the-provided-search-did-not-match = Níor aimsíodh aon chárta a bhí ag teacht leis na sainithe a tugadh. Athraigh na sainithe?
 decks-it-has-card =
     { $count ->
-        [one] Tá { $count } chárta mar chuid de.
+        [one] Tá { $count } chárta amháin mar chuid de.
         [two] Tá { $count } chárta mar chuid de.
         [few] Tá { $count } chárta mar chuid de.
         [many] Tá { $count } gcárta mar chuid de.

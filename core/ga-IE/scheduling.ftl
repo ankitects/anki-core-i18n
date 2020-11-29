@@ -17,7 +17,7 @@ scheduling-answer-button-time-years = { $amount }b
 
 scheduling-time-span-seconds =
     { $amount ->
-        [one] { $amount } soicind
+        [one] { $amount } shoicind amháin
         [two] { $amount } shoicind
         [few] { $amount } shoicind
         [many] { $amount } soicind
@@ -25,7 +25,7 @@ scheduling-time-span-seconds =
     }
 scheduling-time-span-minutes =
     { $amount ->
-        [one] { $amount } nóiméad
+        [one] { $amount } nóiméad amháin
         [two] { $amount } nóiméad
         [few] { $amount } nóiméad
         [many] { $amount } nóiméad
@@ -33,7 +33,7 @@ scheduling-time-span-minutes =
     }
 scheduling-time-span-hours =
     { $amount ->
-        [one] { $amount } uair
+        [one] { $amount } uair amháin
         [two] { $amount } uair
         [few] { $amount } huaire
         [many] { $amount } n-uaire
@@ -41,7 +41,7 @@ scheduling-time-span-hours =
     }
 scheduling-time-span-days =
     { $amount ->
-        [one] { $amount } lá
+        [one] { $amount } lá amháin
         [two] { $amount } lá
         [few] { $amount } lá
         [many] { $amount } lá
@@ -49,7 +49,7 @@ scheduling-time-span-days =
     }
 scheduling-time-span-months =
     { $amount ->
-        [one] { $amount } mí
+        [one] { $amount } mhí amháin
         [two] { $amount } mhí
         [few] { $amount } mhí
         [many] { $amount } mí
@@ -57,7 +57,7 @@ scheduling-time-span-months =
     }
 scheduling-time-span-years =
     { $amount ->
-        [one] { $amount } bliain
+        [one] { $amount } bhliain amháin
         [two] { $amount } bhliain
         [few] { $amount } bliana
         [many] { $amount } mbliana
@@ -71,7 +71,7 @@ scheduling-next-learn-due =
     Beidh an chéad cárta eile le staidéar i gceann { $unit ->
         [Seconds]
             { $amount ->
-                [one] { $amount } soicind
+                [one] { $amount } shoicind
                 [two] { $amount } shoicind
                 [few] { $amount } shoicind
                 [many] { $amount } soicind
@@ -89,7 +89,7 @@ scheduling-next-learn-due =
     }.
 scheduling-learn-remaining =
     { $remaining ->
-        [one] Tá cárta foghlama amháin fós le teacht inniu.
+        [one] Tá { $remaining } chárta foghlama amháin fós le teacht inniu.
         [two] Tá { $remaining } chárta fhoghlama fós le teacht inniu.
         [few] Tá { $remaining } chárta foghlama fós le teacht inniu.
         [many] Tá { $remaining } gcárta foghlama fós le teacht inniu.
@@ -163,7 +163,7 @@ scheduling-the-default-configuration-cant-be-removed = Ní féidir an leagan ré
 scheduling-your-changes-will-affect-multiple-decks = Beidh tionchar ag na hathruithe seo ar roinnt pacaí. Chun an paca seo amháin a athrú, cruthaigh roghaghrúpa nua.
 scheduling-deck-updated =
     { $count ->
-        [one] { $count } paca amháin nuashonraithe.
+        [one] { $count } phaca amháin nuashonraithe.
         [two] { $count } phaca nuashonraithe.
         [few] { $count } phaca nuashonraithe.
         [many] { $count } bpaca nuashonraithe.

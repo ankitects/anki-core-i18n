@@ -104,7 +104,7 @@ browsing-whole-collection = Cnuasach Iomlán
 browsing-you-must-have-at-least-one = Ní foláir an t-aon cholún amháin ar a laghad.
 browsing-group =
     { $count ->
-        [one] { $count } grúpa
+        [one] { $count } ghrúpa amháin
         [two] { $count } ghrúpa
         [few] { $count } ghrúpa
         [many] { $count } ngrúpa
@@ -112,7 +112,7 @@ browsing-group =
     }
 browsing-note-count =
     { $count ->
-        [one] { $count } nóta
+        [one] { $count } nóta amháin
         [two] { $count } nóta
         [few] { $count } nóta
         [many] { $count } nóta
@@ -120,7 +120,7 @@ browsing-note-count =
     }
 browsing-note-deleted =
     { $count ->
-        [one] { $count } nóta scriosta.
+        [one] { $count } nóta amháin scriosta.
         [two] { $count } nóta scriosta.
         [few] { $count } nóta scriosta.
         [many] { $count } nóta scriosta.

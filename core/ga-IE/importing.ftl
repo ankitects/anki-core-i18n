@@ -29,11 +29,46 @@ importing-mapped-to = mapáilte ar <b>{ $val }</b>
 importing-mapped-to-tags = mapáilte ar <b>Chlibeanna</b>
 importing-mnemosyne-20-deck-db = Paca Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Ní ghlactar le deighilteoirí ilcharactararacha. Cuir isteach carachtar amháin.
-importing-notes-added-from-file = Nótaí nua ó chomhad: { $val }
-importing-notes-found-in-file = Nótaí sa chomhad: { $val }
-importing-notes-skipped-as-theyre-already-in = Nótaí a bhí sa chnuasach cheana féin: { $val }
-importing-notes-that-could-not-be-imported = Nótaí nár iompórtáladh de bharr athrú chineál nóta: { $val }
-importing-notes-updated-as-file-had-newer = Nótaí nuashonraithe (leagan níos úire sa chomhad): { $val }
+importing-notes-added-from-file =
+    Nótaí nua ó chomhad: { $val ->
+        [one] { $val } cheann amháin
+        [two] { $val } cheann
+        [few] { $val } cinn
+        [many] { $val } gcinn
+       *[other] { $val } ceann
+    }
+importing-notes-found-in-file =
+    Nótaí sa chomhad: { $val ->
+        [one] { $val } cheann amháin
+        [two] { $val } cheann
+        [few] { $val } cinn
+        [many] { $val } gcinn
+       *[other] { $val } ceann
+    }
+importing-notes-skipped-as-theyre-already-in =
+    Nótaí a bhí sa chnuasach cheana féin: { $val ->
+        [one] { $val } cheann amháin
+        [two] { $val } cheann
+        [few] { $val } cinn
+        [many] { $val } gcinn
+       *[other] { $val } ceann
+    }
+importing-notes-that-could-not-be-imported =
+    Nótaí nár iompórtáladh de bharr athrú chineál nóta: { $val ->
+        [one] { $val } cheann amháin
+        [two] { $val } cheann
+        [few] { $val } cinn
+        [many] { $val } gcinn
+       *[other] { $val } ceann
+    }
+importing-notes-updated-as-file-had-newer =
+    Nótaí nuashonraithe (leagan níos úire sa chomhad): { $val ->
+        [one] { $val } cheann amháin
+        [two] { $val } cheann
+        [few] { $val } cinn
+        [many] { $val } gcinn
+       *[other] { $val } ceann
+    }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paca/Cnuascach Anki i bpacáiste (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Ceacht Pauker 1.8 (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = Líon na réimsí ag '{ $row }': { $found } (ainneoin súil le { $expected })
@@ -54,7 +89,7 @@ importing-update-existing-notes-when-first-field = Nuashonraigh an nóta atá an
 importing-updated = Nuashonraithe
 importing-note-added =
     { $count ->
-        [one] { $count } nóta curtha leis
+        [one] { $count } nóta amháin curtha leis
         [two] { $count } nóta curtha leis
         [few] { $count } nóta curtha leis
         [many] { $count } nóta curtha leis
@@ -62,7 +97,7 @@ importing-note-added =
     }
 importing-note-imported =
     { $count ->
-        [one] { $count } nóta iompórtáilte.
+        [one] { $count } nóta amháin iompórtáilte.
         [two] { $count } nóta iompórtáilte.
         [few] { $count } nóta iompórtáilte.
         [many] { $count } nóta iompórtáilte.
@@ -70,7 +105,7 @@ importing-note-imported =
     }
 importing-note-unchanged =
     { $count ->
-        [one] { $count } nóta gan athrú
+        [one] { $count } nóta amháin gan athrú
         [two] { $count } nóta gan athrú
         [few] { $count } nóta gan athrú
         [many] { $count } nóta gan athrú
@@ -78,7 +113,7 @@ importing-note-unchanged =
     }
 importing-note-updated =
     { $count ->
-        [one] { $count } nóta nuashonraithe
+        [one] { $count } nóta amháin nuashonraithe
         [two] { $count } nóta nuashonraithe
         [few] { $count } nóta nuashonraithe
         [many] { $count } nóta nuashonraithe
@@ -86,7 +121,7 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] { $count } chomhad meáin próiseálte
+        [one] { $count } chomhad meáin amháin próiseálte
         [two] { $count } chomhad mheáin próiseálte
         [few] { $count } chomhad meáin próiseálte
         [many] { $count } gcomhad meáin próiseálte

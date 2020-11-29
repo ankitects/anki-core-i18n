@@ -17,7 +17,7 @@ exporting-notes-in-plain-text = Nótaí gnáth-théacs
 exporting-selected-notes = Nótaí Roghnaithe
 exporting-card-exported =
     { $count ->
-        [one] { $count } cárta easpórtáilte.
+        [one] { $count } chárta amháin easpórtáilte.
         [two] { $count } chárta easpórtáilte.
         [few] { $count } chárta easpórtáilte.
         [many] { $count } gcárta easpórtáilte.
@@ -25,7 +25,7 @@ exporting-card-exported =
     }
 exporting-exported-media-file =
     { $count ->
-        [one] { $count } comhad meáin easpórtáilte
+        [one] { $count } chomhad meáin amháin easpórtáilte
         [two] { $count } chomhad meán easpórtáilte
         [few] { $count } chomhad meán easpórtáilte
         [many] { $count } gcomhad meán easpórtáilte
@@ -33,7 +33,7 @@ exporting-exported-media-file =
     }
 exporting-note-exported =
     { $count ->
-        [one] { $count } nóta easpórtáilte.
+        [one] { $count } nóta amháin easpórtáilte.
         [two] { $count } nóta easpórtáilte.
         [few] { $count } nóta easpórtáilte.
         [many] { $count } nóta easpórtáilte.

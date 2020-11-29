@@ -5,7 +5,14 @@
 
 sync-media-added-count = Curtha isteach: { $up }↑ { $down }↓
 sync-media-removed-count = Bainte amach: { $up }↑ { $down }↓
-sync-media-checked-count = Seiceáilte: { $count }
+sync-media-checked-count =
+    Seiceáilte: { $count ->
+        [one] { $count } cheann amháin
+        [two] { $count } cheann
+        [few] { $count } cinn
+        [many] { $count } gcinn
+       *[other] { $count } ceann
+    }
 sync-media-starting = Sioncronú meán ag tosú..
 sync-media-complete = Sioncronú meán críochnaithe.
 sync-media-failed = Theip ar shioncronú meán.

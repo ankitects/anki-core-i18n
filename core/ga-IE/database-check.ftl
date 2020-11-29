@@ -9,32 +9,34 @@ database-check-card-properties =
        *[other] Deisíodh { $count } airí cárta neamhbhailí.
     }
 database-check-missing-templates =
+    Scriosadh 
     { $count ->
-        [one] Scriosadh { $count } cárta a raibh a theimpléad ar iarraidh
-        [two] Scriosadh { $count } chárta a raibh a dteimpléad ar iarraidh
-        [few] Scriosadh { $count } chárta a raibh a dteimpléad ar iarraidh
-        [many] Scriosadh { $count } gcárta a raibh a dteimpléad ar iarraidh
-       *[other] Scriosadh { $count } cárta a raibh a dteimpléad ar iarraidh
+        [one] { $count } chárta amháin a raibh a theimpléad ar iarraidh
+        [two] { $count } chárta a raibh a dteimpléad ar iarraidh
+        [few] { $count } chárta a raibh a dteimpléad ar iarraidh
+        [many] { $count } gcárta a raibh a dteimpléad ar iarraidh
+       *[other] { $count } cárta a raibh a dteimpléad ar iarraidh
     }
 database-check-field-count =
     { $count ->
-        [one] Deisíodh { $count } nóta agus líon mícheart de réimsí aige
-        [two] Deisíodh { $count } nóta agus líon mícheart de réimsí acu
-        [few] Deisíodh { $count } nóta agus líon mícheart de réimsí acu
-        [many] Deisíodh { $count } nóta agus líon mícheart de réimsí acu
-       *[other] Deisíodh { $count } nóta agus líon mícheart de réimsí acu
+        [one] Deisíodh { $count } nóta amháin agus líon mícheart de réimsí aige.
+        [two] Deisíodh { $count } nóta agus líon mícheart de réimsí acu.
+        [few] Deisíodh { $count } nóta agus líon mícheart de réimsí acu.
+        [many] Deisíodh { $count } nóta agus líon mícheart de réimsí acu.
+       *[other] Deisíodh { $count } nóta agus líon mícheart de réimsí acu.
     }
 database-check-new-card-high-due =
-    { $count ->
-        [one] Aimsíodh { $count } cárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 aige - d'fhéadfaí é a bhogadh faoi 'Brabhsáil'.
-        [two] Aimsíodh { $count } chárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad a bhogadh faoi 'Brabhsáil'.
-        [few] Aimsíodh { $count } chárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad a bhogadh faoi 'Brabhsáil'.
-        [many] Aimsíodh { $count } gcárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad a bhogadh faoi 'Brabhsáil'.
-       *[other] Aimsíodh { $count } cárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad a bhogadh faoi 'Brabhsáil'.
-    }
+    Aimsíodh 
+       { $count ->
+        [one] { $count } chárta amháin nua a bhfuil uimhir 'le staidéar' >= 1,000,000 aige - d'fhéadfaí é
+        [two] { $count } chárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad
+        [few] { $count } chárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad
+        [many] { $count } gcárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad
+       *[other] { $count } cárta nua a bhfuil uimhir 'le staidéar' >= 1,000,000 acu - d'fhéadfaí iad
+    } a bhogadh faoi 'Brabhsáil'.
 database-check-card-missing-note =
     { $count ->
-        [one] Scriosadh { $count } cárta a raibh a nóta ar iarraidh
+        [one] Scriosadh { $count } chárta amháin a raibh a nóta ar iarraidh
         [two] Scriosadh { $count } chárta a raibh a nóta ar iarraidh
         [few] Scriosadh { $count } chárta a raibh a nóta ar iarraidh
         [many] Scriosadh { $count } gcárta a raibh a nóta ar iarraidh
@@ -42,7 +44,7 @@ database-check-card-missing-note =
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] Scriosadh { $count } cárta a raibh teimpléad dúblach aige.
+        [one] Scriosadh { $count } chárta amháin a raibh teimpléad dúblach aige.
         [two] Scriosadh { $count } chárta a raibh teimpléad dúblach acu.
         [few] Scriosadh { $count } chárta a raibh teimpléad dúblach acu.
         [many] Scriosadh { $count } gcárta a raibh teimpléad dúblach acu.
@@ -50,7 +52,7 @@ database-check-duplicate-card-ords =
     }
 database-check-missing-decks =
     { $count ->
-        [one] Deisíodh { $count } paca a bhí ar iarraidh.
+        [one] Deisíodh { $count } phaca amháin a bhí ar iarraidh.
         [two] Deisíodh { $count } phaca a bhí ar iarraidh.
         [few] Deisíodh { $count } phaca a bhí ar iarraidh.
         [many] Deisíodh { $count } bpaca a bhí ar iarraidh.
@@ -58,7 +60,7 @@ database-check-missing-decks =
     }
 database-check-revlog-properties =
     { $count ->
-        [one] Deisíodh { $count } iontráil athbhreithnithe a raibh a airí neamhbhailí.
+        [one] Deisíodh { $count } iontráil athbhreithnithe amháin a raibh a airí neamhbhailí.
         [two] Deisíodh { $count } iontráil athbhreithnithe a raibh a n-airí neamhbhailí.
         [few] Deisíodh { $count } iontráil athbhreithnithe a raibh a n-airí neamhbhailí.
         [many] Deisíodh { $count } n-iontráil athbhreithnithe a raibh a n-airí neamhbhailí.
@@ -66,7 +68,7 @@ database-check-revlog-properties =
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-        [one] Deisíodh { $count } nóta a raibh carachtair neamhbhailí utf8 ann.
+        [one] Deisíodh { $count } nóta amháin a raibh carachtair neamhbhailí utf8 ann.
         [two] Deisíodh { $count } nóta a raibh carachtair neamhbhailí utf8 iontu.
         [few] Deisíodh { $count } nóta a raibh carachtair neamhbhailí utf8 iontu.
         [many] Deisíodh { $count } nóta a raibh carachtair neamhbhailí utf8 iontu.

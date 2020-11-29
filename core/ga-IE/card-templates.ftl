@@ -1,11 +1,11 @@
 card-templates-changes-will-affect-notes =
-    { $count ->
-        [one] Beidh tionchar ag na hathruithe thíos ar an aon nóta amháin den chineál seo cárta.
-        [two] Beidh tionchar ag na hathruithe thíos ar an dá nóta den chineál seo cárta.
-        [few] Beidh tionchar ag na hathruithe thíos ar na { $count } nóta den chineál seo cárta.
-        [many] Beidh tionchar ag na hathruithe thíos ar na { $count } nóta den chineál seo cárta.
-       *[other] Beidh tionchar ag na hathruithe thíos ar an { $count } nóta den chineál seo cárta.
-    }
+    Beidh tionchar ag na hathruithe thíos ar { $count ->
+        [one] an aon nóta amháin
+        [two] an dá nóta
+        [few] na { $count } nóta
+        [many] na { $count } nóta
+       *[other] na { $count } nóta
+    } den chineál seo cárta.
 card-templates-card-type = Cineál Cárta:
 card-templates-front-template = Téimpléad Tosaigh
 card-templates-back-template = Teimpléad Cúil
@@ -45,17 +45,18 @@ card-templates-rename-card-type = Athainmnigh Cineál Cárta...
 card-templates-reposition-card-type = Bog Cineál Cárta...
 card-templates-card-count =
     { $count ->
-        [one] { $count } cárta
+        [one] { $count } chárta amháin
         [two] { $count } chárta
         [few] { $count } chárta
         [many] { $count } gcárta
        *[other] { $count } cárta
     }
 card-templates-this-will-create-card-proceed =
-    { $count ->
-        [one] Cruthófar { $count } chárta amháin. Lean ar aghaidh?
-        [two] Cruthófar { $count } chárta. Lean ar aghaidh?
-        [few] Cruthófar { $count } chárta. Lean ar aghaidh?
-        [many] Cruthófar { $count } gcárta. Lean ar aghaidh?
-       *[other] Cruthófar { $count } cárta. Lean ar aghaidh?
-    }
+    Cruthófar 
+       { $count ->
+        [one] { $count } chárta amháin.
+        [two] { $count } chárta.
+        [few] { $count } chárta.
+        [many] { $count } gcárta.
+       *[other] { $count } cárta.
+    } Lean ar aghaidh?
