@@ -117,8 +117,4 @@ browsing-note-deleted =
         [one] { $count } Notiz gelöscht
        *[other] { $count } Notizen gelöscht
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } ausgewählt
-       *[other] { $count } ausgewählt
-    }
+browsing-window-title = Durchsuchen ({ $selected } von { $total } Karten ausgewählt)
