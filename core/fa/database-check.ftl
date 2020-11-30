@@ -34,6 +34,10 @@ database-check-revlog-properties =
     { $count ->
        *[other] تعداد { $count } ورودی مرور دارای مشخصات اشتباه تعمیر شد.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+       *[other] تعداد { $count } یادداشت با کاراکترهای اشتباه utf8 اصلاح شدند.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = یک یا چند نوع یادداشت یافت نشد. یادداشت‌هایی که از آنها استفاده می‌کردند نام دیگری که با "db-check" شروع می شوند داده شد، ولی نام فیلدها و قالب کارت از بین رفته است. پس شاید بهتر باشد که از یک بک آپ خودکار استفاده کنید.
 

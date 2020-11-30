@@ -114,7 +114,4 @@ browsing-note-deleted =
     { $count ->
        *[other] { $count } کارت حذف شد.
     }
-browsing-selected =
-    { $count ->
-       *[other] { $count } انتخاب شد
-    }
+browsing-window-title = جستجو (تعداد { $selected } از { $total } کارت انتخاب شده‌اند)
