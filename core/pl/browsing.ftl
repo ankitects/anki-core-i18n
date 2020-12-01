@@ -120,9 +120,4 @@ browsing-note-deleted =
         [few] Usunięto { $count } notatki.
        *[other] Usunięto { $count } notatek.
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } wybrana
-        [few] { $count } wybrane
-       *[other] { $count } wybranych
-    }
+browsing-window-title = Przeglądaj (wybrano { $selected } z { $total } kart)

@@ -48,6 +48,12 @@ database-check-revlog-properties =
         [few] Naprawiono { $count } wpisy powtórki z niewłaściwymi właściwościami.
        *[other] Naprawiono { $count } wpisów powtórek z niewłaściwymi właściwościami.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] Naprawiono { $count } notatkę z nieprawidłowymi znakami utf8.
+        [few] Naprawiono { $count } notatki z nieprawidłowymi znakami utf8.
+       *[other] Naprawiono { $count } notatek z nieprawidłowymi znakami utf8.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Brakuje jednego lub więcej typów notatek. Notatkom, które je używały nadano nowe typy notatek, zaczynające się od "db-check", jednak nazwy pól oraz wygląd kart został utracony, więc lepszą opcją może być odtworzenie automatycznej kopii zapasowej.
 
