@@ -114,4 +114,4 @@ media-check-render-latex = Rindreáil LaTeX
 media-check-empty-trash = Folmhaigh bruscar
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Aischuir ábhar a scriosadh
-media-check-check-media-action = Seiceáil meáin
+media-check-check-media-action = Seiceáil Meáin

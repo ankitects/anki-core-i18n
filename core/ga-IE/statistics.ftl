@@ -83,15 +83,15 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Staidéar déanta ar { statistics-cards }{ $unit ->
+    Staidéar déanta ar { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }inniu
-    ({ $secs-per-card }soicind/cárta
+    } inniu
+    ({ $secs-per-card }soicind/cárta)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }s
 statistics-today-title = Inniu
@@ -117,7 +117,7 @@ statistics-range-deck = paca
 statistics-range-collection = cnuasach
 statistics-range-search = Cuardú
 statistics-card-ease-title = Éascaíocht Chártaí
-statistics-card-ease-subtitle = Dá ísle éascaíocht cárta áirithe, is ea is minice a bhfeictear é.
+statistics-card-ease-subtitle = Dá ísle éascaíocht cárta áirithe, is ea is minice a fheictear é.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -127,7 +127,7 @@ statistics-card-ease-tooltip =
         [many] { $cards } gcárta agus éascaíocht { $percent } acu
        *[other] { $cards } cárta agus éascaíocht { $percent } acu
     }
-statistics-future-due-title = Le Staidéar sa Todhchaí
+statistics-future-due-title = Le Staidéar Amach Anseo
 statistics-future-due-subtitle = Líon na n-athbhreithnithe a bheidh le déanamh amach anseo
 statistics-added-title = Curtha leis
 statistics-added-subtitle = Líon na gcártaí nua a chuir tú leis an bpaca.
