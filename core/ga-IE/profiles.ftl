@@ -1,4 +1,4 @@
-profiles-anki-could-not-read-your-profile = Níor éirigh le Anki sonraí do phróifíle a léamh. Tá méid na bhfuinneog agus do chuid dintiúir sioncrónaithe dearmadta.
+profiles-anki-could-not-read-your-profile = Níor éirigh le Anki sonraí do phróifíle a léamh. Tá méid na bhfuinneog agus do chuid dintiúr sioncronaithe dearmadta.
 profiles-anki-could-not-rename-your-profile = Níor éirigh le Anki an phróifíl a athainmniú, de bharr nárbh fhéidir an fillteán próifíle a athainmniú ar do ríomhaire. Déan cinnte go bhfuil cead scríofa comhaid agat ar Documents/Anki agus nach bhfuil bogearra ar bith eile ag obair le do chuid fillteáin phróifíle. Ansin bain triail eile as.
 profiles-folder-already-exists = Fillteán ann cheana féin.
 profiles-open = Oscail
