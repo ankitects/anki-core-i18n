@@ -15,7 +15,7 @@ media-check-trash-count =
     }
 media-check-missing-count = ملفات مفقودة: { $count }
 media-check-unused-count = ملفات غير مستخدمة: { $count }
-media-check-renamed-count = ملفات معاد تسميتها: { $count }
+media-check-renamed-count = عدد الملفات التي أعيدت تسميتها: { $count }
 media-check-oversize-count = أكبر من 100 ميغابايت: { $count }
 media-check-subfolder-count = مجلدات فرعية: { $count }
 
