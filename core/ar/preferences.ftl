@@ -2,7 +2,7 @@ preferences-anki-21-scheduler-beta = مجدول أنكي 2.1 (تجريبي)
 preferences-automatically-sync-on-profile-openclose = مزامنة تلقائية عند فتح الملف الشخصي وإغلاقه
 preferences-backups = نُسخ احتياطية
 preferences-backups2 = نسخ احتياطية
-preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span style=" font-weight:600;">النسخ الاحتياطي</span><br/>ينشئ أنكي نسخة احتياطية من مجموعتك كلما أُغلِق.</p></body></html>
+preferences-backupsanki-will-create-a-backup-of = <html><head/><body dir="rtl"><p><span style=" font-weight:600;">النسخ الاحتياطي</span><br/>ينشئ أنكي نسخة احتياطية من مجموعتك كلما أُغلِق.</p></body></html>
 preferences-basic = أساسي
 preferences-change-deck-depending-on-note-type = تغيير الرزمة اعتمادًا على نوع الملحوظة
 preferences-changes-will-take-effect-when-you = ستجري التغييرات عند إعادة تشغيل أنكي.
