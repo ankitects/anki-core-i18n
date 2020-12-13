@@ -187,12 +187,12 @@ statistics-intervals-title = الفواصل الزمنية للمراجعة
 statistics-intervals-subtitle = الفواصل الزمنية بين المراجعات
 statistics-intervals-day-range =
     { $cards ->
-        [zero] { $cards } بطاقة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
-        [one] بطاقة واحدة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
-        [two] بطاقتين بفاصل زمني { $daysStart }-{ $daysEnd } يوم
-        [few] { $cards } بطاقات بفاصل زمني { $daysStart }-{ $daysEnd } يوم
-        [many] { $cards } بطاقة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
-       *[other] { $cards } بطاقة بفاصل زمني { $daysStart }-{ $daysEnd } يوم
+        [zero] { $cards } بطاقة بفاصل { $daysStart }-{ $daysEnd } يوم
+        [one] بطاقة واحدة بفاصل { $daysStart }-{ $daysEnd } يوم
+        [two] بطاقتان بفاصل { $daysStart }-{ $daysEnd } يوم
+        [few] { $cards } بطاقات بفاصل { $daysStart }-{ $daysEnd } يوم
+        [many] { $cards } بطاقة بفاصل { $daysStart }-{ $daysEnd } يوم
+       *[other] { $cards } بطاقة بفاصل { $daysStart }-{ $daysEnd } يوم
     }
 statistics-intervals-day-single =
     { $cards ->
