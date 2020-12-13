@@ -17,7 +17,7 @@ statistics-in-time-span-seconds = { $amount }秒
 statistics-in-time-span-minutes = { $amount }分
 statistics-in-time-span-hours = { $amount }時間後
 statistics-in-time-span-days = { $amount }日後
-statistics-in-time-span-months = { $amount }か月後
+statistics-in-time-span-months = { $amount }ヵ月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚のカード
 # a count of how many cards have been answered, eg "Total: 34 reviews"
@@ -112,6 +112,16 @@ statistics-hours-range = { $hourStart }時~{ $hourEnd }時
 statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
 statistics-hours-title = 時間帯ごとの分析
 statistics-hours-subtitle = 時間帯ごとの正解率
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+
+##
+
 statistics-average-for-days-studied = 各学習の平均
 statistics-total = 合計
 statistics-days-studied = 学習日数
