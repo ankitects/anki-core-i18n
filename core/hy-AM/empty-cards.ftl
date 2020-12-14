@@ -1,3 +1,3 @@
-empty-cards-card-line =
-    Դատարկ քարտերի համարները՝ {$card-numbers}
-    Դաշտեր՝ {$fields}
+empty-cards-window-title = Դատարկ քարտեր
+empty-cards-delete-button = Ջնջել
+empty-cards-not-found = Դատարկ քարտեր չկան:
