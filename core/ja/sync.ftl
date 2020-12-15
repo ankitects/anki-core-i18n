@@ -14,12 +14,10 @@ sync-media-aborted = メディア同期を中断しました。
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = メディア同期が無効化されています。
-sync-abort-button = 中断
-sync-media-log-button = メディアログ
 # Title of the screen that shows syncing progress history
 sync-media-log-title = メディア同期ログ
 
-## Error messages
+## Error messages / dialogs
 
 sync-conflict = Ankiのアカウントへの同期を異なる端末から同時に行うことはできません。しばらく時間をおいて再度お試しください。
 sync-server-error = AnkiWebに問題が発生しました。しばらくしてからもう一度お試しください。
@@ -32,17 +30,26 @@ sync-conflict-explanation =
     ダウンロードを選択すると、AnkiWeb からコレクションをダウンロードします。前回の同期以降にこのコンピュータ上で行った変更は失われます。
     アップロードを選択すると、AnkiWeb にコレクションをアップロードします。前回の同期以降に AnkiWeb 上や他のデバイスで行った変更は失われます。
     全てのデバイスで同期した後は、復習やカードの追加は自動的に統合します。
-sync-download-from-ankiweb = AnkiWeb からダウンロード
-sync-upload-to-ankiweb = AnkiWeb にアップロード
-sync-cancel-button = キャンセル
-sync-downloading-from-ankiweb = AnkiWeb からダウンロードしています...
-sync-uploading-to-ankiweb = AnkiWeb にアップロード中...
-sync-syncing = 同期中...
-sync-checking = チェック中...
 sync-ankiweb-id-label = Ankiウェブ ID:
 sync-password-label = パスワード:
 sync-account-required =
     <h1>アカウントが必要です</h1>
     コレクションを同期するには無料のアカウントが必要です。<a href="{ $link }">登録</a> して、下の項目を入力して下さい。
+
+## Buttons
+
+sync-media-log-button = メディアログ
+sync-abort-button = 中断
+sync-download-from-ankiweb = AnkiWeb からダウンロード
+sync-upload-to-ankiweb = AnkiWeb にアップロード
+sync-cancel-button = キャンセル
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = AnkiWeb からダウンロードしています...
+sync-uploading-to-ankiweb = AnkiWeb にアップロード中...
+sync-syncing = 同期中...
+sync-checking = チェック中...
 sync-connecting = 接続中...
+sync-added-updated-count = 追加/変更： { $up }↑ { $down }↓
 sync-log-out-button = ログアウト
