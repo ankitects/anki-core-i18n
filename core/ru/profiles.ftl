@@ -8,3 +8,6 @@ profiles-profile-corrupt = Профиль повреждён
 profiles-profiles = Профили
 profiles-quit = Выйти
 profiles-user-1 = 1-й пользователь
+profiles-confirm-lang-choice = Вы точно хотите переключить язык интерфейса Anki на { $lang }?
+profiles-prefs-corrupt-title = Настройки повреждены
+profiles-profile-does-not-exist = Запрошенный профиль не существует

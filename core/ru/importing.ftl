@@ -1,4 +1,3 @@
-importing-failed = Не удалось импортировать.
 importing-failed-debug-info = Не удалось импортировать. Отладочная информация:
 importing-aborted = Прервано: { $val }
 importing-added-duplicate-with-first-field = Добавлен повтор с первым полем: { $val }
@@ -26,8 +25,8 @@ importing-importing-complete = Импорт завершён.
 importing-invalid-file-please-restore-from-backup = Недопустимый файл. Восстановите из резервной копии.
 importing-map-to = Сопоставить { $val }
 importing-map-to-tags = Сопоставить меткам
-importing-mapped-to = отображать на <b>{ $val }</b>
-importing-mapped-to-tags = отображать на <b>метки</b>
+importing-mapped-to = сопоставить <b>{ $val }</b>
+importing-mapped-to-tags = сопоставить <b>меткам</b>
 importing-mnemosyne-20-deck-db = Колода Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Разделители из нескольких символов не поддерживаются. Введите только один символ.
 importing-notes-added-from-file = Записи, добавленные из файла: { $val }

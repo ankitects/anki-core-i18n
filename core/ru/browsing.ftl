@@ -120,9 +120,4 @@ browsing-note-deleted =
         [few] { $count } записи удалены.
        *[other] { $count } записей удалены.
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } выбрана
-        [few] { $count } выбраны
-       *[other] { $count } выбраны
-    }
+browsing-window-title = Посмотреть (выбрано { $selected } из { $total } карточек)
