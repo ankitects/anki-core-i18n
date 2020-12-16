@@ -1,5 +1,5 @@
 decks-add-new-deck-ctrlandn = 新增牌組 (Ctrl+N)
-decks-are-you-sure-you-wish-to = 您確定您要刪除 { $val }?
+decks-are-you-sure-you-wish-to = 您確定您要刪除 { $val }？
 decks-build = 建立
 decks-cards-selected-by = 張卡片，選擇方式為
 decks-create-deck = 建立牌組
@@ -31,6 +31,7 @@ decks-reschedule-cards-based-on-my-answers = 依據我在本牌組的回答狀�
 decks-study = 學習
 decks-study-deck = 學習牌組
 decks-the-provided-search-did-not-match = 無任何卡片符合此搜尋條件，您要試著修改嗎？
-decks-it-has-card = { $count ->
-   *[other] 有{ $count }張卡片。
-  }
+decks-it-has-card =
+    { $count ->
+       *[other] 有 { $count } 張卡片。
+    }

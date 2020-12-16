@@ -17,13 +17,13 @@ exporting-notes-in-plain-text = 純文字的筆記
 exporting-selected-notes = 已選取的筆記
 exporting-card-exported =
     { $count ->
-       *[other] 已匯出{ $count }張卡片。
+       *[other] 已匯出 { $count } 張卡片。
     }
 exporting-exported-media-file =
     { $count ->
-       *[other] 己匯出{ $count } 個媒體檔
+       *[other] 己匯出 { $count } 個媒體檔
     }
 exporting-note-exported =
     { $count ->
-       *[other] 已匯出{ $count }則筆記。
+       *[other] 已匯出 { $count } 則筆記。
     }

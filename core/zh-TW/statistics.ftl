@@ -104,7 +104,7 @@ statistics-in-days-single =
         [1] 明天
        *[other] { $days } 天後
     }
-statistics-in-days-range = { $daysStart }－{ $daysEnd } 天後
+statistics-in-days-range = { $daysStart }-{ $daysEnd } 天後
 statistics-days-ago-single =
     { $days ->
         [1] 昨天

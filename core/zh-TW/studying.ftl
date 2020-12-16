@@ -42,12 +42,15 @@ studying-type-answer-unknown-field = 輸入答案: 未知的欄位 { $val }
 studying-unbury = 取消暫停
 studying-what-would-you-like-to-unbury = 您想取消暫停什麼？
 studying-you-havent-recorded-your-voice-yet = 您尚未錄製自己的聲音。
-studying-card-studied-in = { $count ->
-   *[other] 學習 { $count } 張卡片: 花費
-  }
-studying-minute = { $count ->
-   *[other] { $count }分鐘。
-  }
-studying-note-and-its-card-deleted = { $count ->
-   *[other] 已刪除一則筆記以及{ $count }張關聯的卡片。
-  }
+studying-card-studied-in =
+    { $count ->
+       *[other] 學習 { $count } 張卡片: 花費
+    }
+studying-minute =
+    { $count ->
+       *[other] { $count } 分鐘。
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+       *[other] 已刪除筆記及 { $count } 張與其關聯的卡片。
+    }

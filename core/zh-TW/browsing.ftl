@@ -99,7 +99,7 @@ browsing-today = 今天
 browsing-toggle-mark = 切換標記
 browsing-toggle-suspend = 切換擱置狀態
 browsing-treat-input-as-regular-expression = 以正規表達式處理輸入
-browsing-type-here-to-search = <在此處輸入文字以搜尋，或按下 Enter 鍵來顯示當前牌組>
+browsing-type-here-to-search = <在此處輸入文字以搜尋；按下 Enter 鍵來顯示當前牌組>
 browsing-whole-collection = 整個集合
 browsing-you-must-have-at-least-one = 至少需要有一行。
 browsing-group =
@@ -112,6 +112,6 @@ browsing-note-count =
     }
 browsing-note-deleted =
     { $count ->
-       *[other] 已刪除{ $count }則筆記。
+       *[other] 已刪除 { $count } 則筆記。
     }
 browsing-window-title = 瀏覽 (已選取 { $selected } 張卡片，共 { $total } 張)
