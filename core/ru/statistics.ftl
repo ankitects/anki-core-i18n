@@ -112,7 +112,7 @@ statistics-card-ease-subtitle = Чем ниже легкость, тем чащ�
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] 1 карта с { $percent } легкости
+        [one] { $cards } карта с { $percent } легкости
         [few] { $cards } карты с { $percent } легкости
         [many] { $cards } карт с { $percent } легкости
        *[other] { $cards } карт с { $percent } легкости
@@ -153,7 +153,7 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } дней назад
 statistics-running-total = Пройдено всего
 statistics-cards-due =
     { $cards ->
-        [one] 1 карта за
+        [one] { $cards } карта за
         [few] { $cards } карты за
         [many] { $cards } карт за
        *[other] { $cards } карт за
@@ -162,14 +162,14 @@ statistics-intervals-title = Интервалы
 statistics-intervals-subtitle = Задержки перед следующим повторением.
 statistics-intervals-day-range =
     { $cards ->
-        [one] 1 карточка с перерывом в { $daysStart }~{ $daysEnd } дней
+        [one] { $cards } карточка с перерывом в { $daysStart }~{ $daysEnd } дней
         [few] { $cards } карточки с перерывом в { $daysStart }~{ $daysEnd } дней
         [many] { $cards } карточек с перерывом в { $daysStart }~{ $daysEnd } дней
        *[other] { $cards } карточек с перерывом в { $daysStart }~{ $daysEnd } дней
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] 1 карточка с перерывом в { $day } дней
+        [one] { $cards } карточка с перерывом в { $day } дней
         [few] { $cards } карточки с перерывом в { $day } дней
         [many] { $cards } карточек с перерывом в { $day } дней
        *[other] { $cards } карточек с перерывом в { $day } дней
