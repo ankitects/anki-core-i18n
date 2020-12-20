@@ -21,3 +21,4 @@ card-stats-review-log-type-learn = 基本学習
 card-stats-review-log-type-review = 復習
 card-stats-review-log-type-relearn = 再基本学習
 card-stats-review-log-type-filtered = フィルター
+card-stats-review-log-type-manual = 手動変更
