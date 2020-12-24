@@ -55,6 +55,7 @@ browsing-new-note-type = basti fi lo ka karda datni klesi
 browsing-no-flag = no da lanci tcita
 browsing-note = karda datni
 browsing-notes-tagged = .i tcita pa karda datni co'a
+browsing-nothing = noda
 browsing-only-new-cards-can-be-repositioned = .i ka'e basygau fi lo se pormoi be lo karda poi cnino po'o
 browsing-please-give-your-filter-a-name = .i ko samci'a pa cmene be lo julne
 browsing-please-select-cards-from-only-one = .i ko cuxna fi lo'i karda pe pa je nai za'u pa karda datni klesi
@@ -92,8 +93,4 @@ browsing-note-count =
 browsing-note-deleted =
     { $count ->
        *[other] .i mo'u vimcu { $count } karda datni
-    }
-browsing-selected =
-    { $count ->
-       *[other] .i cuxna { $count } da
     }
