@@ -102,7 +102,7 @@ scheduling-easy-bonus = Bônus por ser Fácil
 scheduling-easy-interval = Intervalo fácil
 scheduling-end = (fim)
 scheduling-general = Geral
-scheduling-graduating-interval = Repetir 'Bom' em
+scheduling-graduating-interval = Intervalo de graduação
 scheduling-hard-interval = Intervalo árduo
 scheduling-ignore-answer-times-longer-than = Ignorar resposta dada acima de
 scheduling-interval-modifier = Modificar o intervalo
@@ -112,7 +112,7 @@ scheduling-learning = Aprendizagem
 scheduling-leech-action = Ação sanguessuga
 scheduling-leech-threshold = Limite sanguessuga
 scheduling-maximum-interval = Intervalo máximo
-scheduling-maximum-reviewsday = revisões máximas/dia
+scheduling-maximum-reviewsday = Revisões máximas/dia
 scheduling-minimum-interval = Intervalo mínimo
 scheduling-mix-new-cards-and-reviews = Misturar cartões novos e a revisar
 scheduling-new-cards = Cartões Novos
@@ -132,13 +132,14 @@ scheduling-show-new-cards-after-reviews = Mostrar novos cartões depois das revi
 scheduling-show-new-cards-before-reviews = Mostrar novos cartões antes das revisões
 scheduling-show-new-cards-in-order-added = Mostrar novos cartões na ordem em que foram adicionados
 scheduling-show-new-cards-in-random-order = Mostrar novos cartões em ordem aleatória
-scheduling-starting-ease = Multiplicador de dias
+scheduling-starting-ease = Facilidade inicial
 scheduling-steps-in-minutes = Passos (em minutos)
 scheduling-steps-must-be-numbers = Passos devem ser números.
 scheduling-tag-only = Somente Etiquetas
 scheduling-the-default-configuration-cant-be-removed = A configuração padrão não pode ser excluída.
 scheduling-your-changes-will-affect-multiple-decks = Suas mudanças afetam múltiplos baralhos. Se você quer modificar apenas o baralho atual, por favor, adicione novas opções de grupo primeiro.
-scheduling-deck-updated = { $count ->
-    [one] { $count } baralho atualizado.
-   *[other] { $count } baralhos atualizados
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } baralho atualizado.
+       *[other] { $count } baralhos atualizados
+    }
