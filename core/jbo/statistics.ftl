@@ -46,23 +46,37 @@ statistics-counts-young-cards = na'e makcu
 statistics-counts-mature-cards = makcu
 statistics-counts-suspended-cards = se mipri
 statistics-counts-buried-cards = zasni se mipri
+statistics-counts-learning-cards = cilre
 statistics-range-deck = karda selcmi
 statistics-range-collection = karda selcmi selcmi
 statistics-range-search = sisku
 statistics-future-due-title = balvi
-statistics-reviews-title = morji
-statistics-answer-buttons-title = te spuda batkyuidje
-statistics-added-title = se jmina
-statistics-axis-label-answer-count = te spuda
-statistics-axis-label-card-count = karda
 statistics-future-due-subtitle = .i se zilkancu lo'i karda poi jai se bilga fai lo ka ce'u ba morji
+statistics-added-title = se jmina
 statistics-added-subtitle = .i se zilkancu lo'i karda poi cnino poi do pu jmina
 statistics-reviews-count-subtitle = .i se zilkancu lo'i preti poi do pu spuda
 statistics-reviews-time-subtitle = .i temci fi lo nu spuda lo preti
-statistics-intervals-subtitle = .i temci fi lo nu za'u re'u bilga lo ka ce'u morji
+statistics-answer-buttons-title = te spuda batkyuidje
 statistics-answer-buttons-subtitle = .i ro da poi batkyuidje zo'u se zilkancu lo'i nu do terca'a fi da
-statistics-counts-learning-cards = cilre
+statistics-reviews-title = morji
 statistics-reviews-time-checkbox = temci
+statistics-in-days-single =
+    { $days ->
+        [0] cabdei
+        [1] bavlamdei
+       *[other] ba'o li { $days } djedi
+    }
+statistics-intervals-subtitle = .i temci fi lo nu za'u re'u bilga lo ka ce'u morji
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+
+##
+
 statistics-average-for-days-studied = cnano fi lo'i tadni djedi
 statistics-total = sumji
 statistics-days-studied = tadni djedi
