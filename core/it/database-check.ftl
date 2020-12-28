@@ -19,3 +19,4 @@ database-check-card-missing-note =
 ## Progress info
 
 database-check-checking-integrity = Sto controllando la collezione...
+database-check-title = Controlla il database
