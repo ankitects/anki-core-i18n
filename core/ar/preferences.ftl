@@ -6,7 +6,6 @@ preferences-backupsanki-will-create-a-backup-of = <html><head/><body dir="rtl"><
 preferences-basic = أساسي
 preferences-change-deck-depending-on-note-type = تغيير الرزمة اعتمادًا على نوع الملحوظة
 preferences-changes-will-take-effect-when-you = ستجري التغييرات عند إعادة تشغيل أنكي.
-preferences-hardware-acceleration-faster-may-cause-display = تسريع عتاد الجهاز (أسرع، لكن قد يسبب مشاكل في العرض)
 preferences-hours-past-midnight = ساعة بعد منتصف الليل
 preferences-interface-language = لغة الواجهة:
 preferences-interrupt-current-audio-when-answering = إيقاف التسجيل الصوتي الحالي عند الإجابة
@@ -33,7 +32,7 @@ preferences-synchronisation = <b>مزامنة</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>مزامنة</b><br> ليست مفعلة حاليًا؛ اضغط زر المزامنة في النافذة الرئيسية للتفعيل.
 preferences-synchronize-audio-and-images-too = مزامنة التسجيلات الصوتية والصور أيضًا
 preferences-this-will-reset-any-cards-in = سيؤدي هذا إلى إعادة البطاقات في طور التعلم إلى بطاقات جديدة، ومسح الرزم المفلترة، وتغيير إصدار المجدول. هل تريد الاستمرار؟
-preferences-timebox-time-limit = مهلة مربع الوقت
+preferences-timebox-time-limit = مهلة تقسيم المهام
 preferences-user-interface-size = حجم واجهة المستخدم
 preferences-when-adding-default-to-current-deck = معاملة الرزمة الحالية كرزمة افتراضية عند إضافة بطاقات
 preferences-you-can-restore-backups-via-fileswitch = تستطيع استعادة النسخ الاحتياطية من خلال ملف>تبديل الملف الشخصي.
