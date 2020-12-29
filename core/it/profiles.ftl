@@ -8,3 +8,4 @@ profiles-profile-corrupt = Profilo corrotto
 profiles-profiles = Profili
 profiles-quit = Esci
 profiles-user-1 = Utente 1
+profiles-profile-does-not-exist = Il profilo richiesto non esiste.

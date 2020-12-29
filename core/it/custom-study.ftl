@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Per favore, prima rinomina il mazzo di studio personalizzato esistente.
 custom-study-all-cards-in-random-order-dont = Tutte le carte in ordine casuale (non ripianificare)
 custom-study-all-review-cards-in-random-order = Tutte le ripetizioni in ordine casuale
 custom-study-cards = carte

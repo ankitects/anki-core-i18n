@@ -78,6 +78,7 @@ statistics-today-correct-mature = Carte mature corrette: { $correct }/{ $total }
 statistics-counts-total-cards = Carte totali
 statistics-counts-new-cards = Nuove
 statistics-counts-young-cards = Giovani
+statistics-counts-mature-cards = Mature
 statistics-counts-suspended-cards = Sospese
 statistics-counts-buried-cards = Seppellito
 statistics-counts-learning-cards = In apprendimento
@@ -93,6 +94,8 @@ statistics-added-subtitle = Numero di carte nuove che hai aggiunto.
 statistics-reviews-count-subtitle = Numero di domande alle quali hai risposto.
 statistics-reviews-time-subtitle = Tempo impiegato per rispondere alle domande.
 statistics-answer-buttons-title = Pulsanti di risposta
+# eg Button: 4
+statistics-answer-buttons-button-number = Pulsante
 statistics-answer-buttons-subtitle = Numero di volte che hai premuto ogni pulsante.
 statistics-reviews-title = Ripetizioni
 statistics-reviews-time-checkbox = Durata
@@ -101,6 +104,16 @@ statistics-intervals-subtitle = Differimento della ripresentazione delle ripetiz
 statistics-hours-title = Suddivisione per ora del giorno
 statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno
 statistics-calendar-title = Calendario
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+
+##
+
 statistics-average-for-days-studied = Media per i giorni di studio
 statistics-total = Totale
 statistics-days-studied = Giorni di studio

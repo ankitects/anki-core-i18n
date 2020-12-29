@@ -117,8 +117,4 @@ browsing-note-deleted =
         [one] { $count } nota eliminata.
        *[other] { $count } note eliminate.
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } selezionata
-       *[other] { $count } selezionate
-    }
+browsing-window-title = Sfoglia ({ $selected } delle { $total } carte selezionate)

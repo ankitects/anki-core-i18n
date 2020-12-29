@@ -7,3 +7,5 @@ empty-cards-deleted-count =
        *[other] { $cards } carte.
     }
 empty-cards-delete-empty-cards = Elimina le carte vuote
+empty-cards-delete-empty-notes = Elimina le note vuote
+empty-cards-deleting = Eliminazione in corso...

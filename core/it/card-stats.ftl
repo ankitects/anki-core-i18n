@@ -21,4 +21,4 @@ card-stats-review-log-type-learn = Impara
 card-stats-review-log-type-review = Ripetizione
 card-stats-review-log-type-relearn = Reimpara
 card-stats-review-log-type-filtered = Filtrato
-card-stats-review-log-type-rescheduled = Cambia la data
+card-stats-review-log-type-manual = Manuale

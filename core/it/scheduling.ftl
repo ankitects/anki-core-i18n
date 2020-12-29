@@ -82,7 +82,10 @@ scheduling-today-new-limit-reached =
     è stato raggiunto. Puoi aumentare il limite nelle opzioni, ma
     ricordati che più carte nuove introduci, più grande diventerà
     il tuo carico di lavoro per le ripetizioni a breve termine.
-scheduling-buried-cards-were-delayed = Alcune carte correlate o seppellite sono state rinviate ad una prossima sessione.
+scheduling-buried-cards-found = Una o più carte sono state seppellite e verranno mostrate domani. Puoi { $unburyThem } se desideri vederle immediatamente.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = studio personalizzato
 scheduling-always-include-question-side-when-replaying = Includi sempre il lato con la domanda quando si riproduce nuovamente l'audio
 scheduling-at-least-one-step-is-required = È richiesto almeno un passo.
 scheduling-automatically-play-audio = Riproduci automaticamente l'audio
@@ -131,7 +134,8 @@ scheduling-steps-must-be-numbers = I passi devono essere numeri.
 scheduling-tag-only = Etichetta soltanto
 scheduling-the-default-configuration-cant-be-removed = La configurazione predefinita non può essere rimossa.
 scheduling-your-changes-will-affect-multiple-decks = I tuoi cambiamenti avranno effetto su più mazzi. Se vuoi cambiare solo il mazzo corrente, aggiungi dapprima un nuovo gruppo di opzioni.
-scheduling-deck-updated = { $count ->
-    [one] { $count } mazzo aggiornato.
-   *[other] { $count } mazzi aggiornati.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } mazzo aggiornato.
+       *[other] { $count } mazzi aggiornati.
+    }
