@@ -27,4 +27,4 @@ card-template-rendering-no-such-field = Trovato '{ $found }', ma non c'è un cam
 card-template-rendering-empty-front = Il fronte di questa carta è vuoto.
 card-template-rendering-missing-cloze =
     Non è stato trovato il cloze { $number } sulla carta.
-    Per favore, aggiungi una cloze deletion o usa lo strumento carte vuote.
+    Aggiungi una cloze deletion o usa lo strumento carte vuote.
