@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Odwrotny kierunek tekstu (RTL)
 fields-size = Rozmiar:
 fields-sort-by-this-field-in-the = Sortuj w przeglądarce według tego pola
 fields-that-field-name-is-already-used = Ta nazwa pola jest już używana.
+fields-name-first-letter-not-valid = Nazwa pola nie powinna zaczynać się znakami #, ^ lub /.
+fields-name-invalid-letter = Nazwa pola nie powinna zawierać :, ”, { ani }.
