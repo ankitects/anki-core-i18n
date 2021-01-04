@@ -94,6 +94,7 @@ browsing-step = الخطوة:
 browsing-studied-today = دُرِست اليوم
 browsing-suspended = معلقة
 browsing-tag-duplicates = إضافة وسم للملحوظات المكررة
+browsing-tag-rename-warning-empty = لا تستطيع إعادة تسمية وسم ليس له أي ملحوظة.
 browsing-target-field = الحقل المعني:
 browsing-today = اليوم
 browsing-toggle-mark = وضع/إزالة علامة

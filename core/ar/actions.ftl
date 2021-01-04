@@ -24,6 +24,7 @@ actions-rebuild = إعادة إنشاء
 actions-red-flag = مؤشر أحمر
 actions-rename = إعادة تسمية
 actions-rename-deck = تغيير اسم الرزمة
+actions-rename-tag = إعادة تسمية الوسم
 actions-replay-audio = إعادة تشغيل الصوت
 actions-reposition = تغيير الموضع
 actions-save = حفظ
