@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Textrichtung umkehren
 fields-size = Größe:
 fields-sort-by-this-field-in-the = In der Kartenverwaltung nach diesem Feld sortieren
 fields-that-field-name-is-already-used = Dieser Feldname ist schon vergeben.
+fields-name-first-letter-not-valid = Der Feldname sollte nicht mit #, ^ oder / beginnen.
+fields-name-invalid-letter = Der Feldname sollte kein :, ", { "{" } oder { "}" } enthalten.

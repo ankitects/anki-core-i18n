@@ -94,6 +94,7 @@ browsing-step = Lernstufe:
 browsing-studied-today = Heute gesehen
 browsing-suspended = Ausgesetzt
 browsing-tag-duplicates = Doppelte verschlagworten
+browsing-tag-rename-warning-empty = Sie können ein Schlagwort nicht umbenennen, welchem keine Notizen zugeordnet sind.
 browsing-target-field = Zielfeld:
 browsing-today = Heute
 browsing-toggle-mark = Kennzeichnung aktivieren/deaktivieren
