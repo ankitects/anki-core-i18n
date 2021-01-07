@@ -117,6 +117,7 @@ statistics-counts-early-cards = مبكرة
 statistics-counts-learning-cards = في طور التعلم
 statistics-counts-relearning-cards = في طور إعادة التعلم
 statistics-counts-title = عدد البطاقات
+statistics-counts-separate-suspended-buried-cards = فصل البطاقات المعلقة/المدفونة
 statistics-range-all-time = مدى حياة الرزمة
 statistics-range-1-year-history = آخر 12 شهرًا
 statistics-range-all-history = كل التاريخ
