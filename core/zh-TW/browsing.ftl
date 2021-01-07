@@ -94,6 +94,7 @@ browsing-step = 學習階段:
 browsing-studied-today = 今天已學習的
 browsing-suspended = 已擱置
 browsing-tag-duplicates = 把重複的卡片貼上標籤
+browsing-tag-rename-warning-empty = 無法重新命名沒有筆記的標籤。
 browsing-target-field = 目標欄位:
 browsing-today = 今天
 browsing-toggle-mark = 切換標記

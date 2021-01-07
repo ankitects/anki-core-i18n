@@ -13,4 +13,4 @@ fields-size = 大小:
 fields-sort-by-this-field-in-the = 依此欄位在卡片瀏覽器中排序
 fields-that-field-name-is-already-used = 此欄位名稱已被使用。
 fields-name-first-letter-not-valid = 欄位名稱不應始於「#」、「^」或「/」。
-fields-name-invalid-letter = 欄位名稱不應包含「:」、「"」、"{ " 或 " }"。
+fields-name-invalid-letter = 欄位名稱不應包含「:」、「"」、{ "「{」" }或 { "「}」" }。
