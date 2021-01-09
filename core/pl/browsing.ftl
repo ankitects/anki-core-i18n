@@ -94,6 +94,7 @@ browsing-step = Krok:
 browsing-studied-today = Przejrzane dzisiaj
 browsing-suspended = Zawieszone
 browsing-tag-duplicates = Nadaj etykiety duplikatom
+browsing-tag-rename-warning-empty = Nie możesz zmienić nazwy etykiety nieprzypisanej do żadnej notatki.
 browsing-target-field = Pole docelowe:
 browsing-today = Dzisiaj
 browsing-toggle-mark = Przełącz wyróżnienie

@@ -101,6 +101,7 @@ statistics-counts-early-cards = Wczesne
 statistics-counts-learning-cards = Uczone
 statistics-counts-relearning-cards = Uczone Ponownie
 statistics-counts-title = Liczby kart
+statistics-counts-separate-suspended-buried-cards = Oddziel zawieszone/zakopane karty
 statistics-range-all-time = ogół
 statistics-range-1-year-history = ostatnie 12 miesięcy
 statistics-range-all-history = cała historia
@@ -191,7 +192,7 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }mc
 statistics-elapsed-time-years = { $amount }r
 
-
+##
 
 statistics-error-fetching = Znaleziono nieprawidłowe dane - użyj opcji Sprawdź Bazę Danych, aby naprawić ten problem.
 statistics-average-for-days-studied = Średnia dla dni, gdy się uczono
