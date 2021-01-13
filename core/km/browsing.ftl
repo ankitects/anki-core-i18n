@@ -103,3 +103,11 @@ browsing-treat-input-as-regular-expression = ចាត់ទុកការប�
 browsing-type-here-to-search = <សរសេរទីនេះដើម្បីស្វែងរក; ចុចenter ដើម្បីបង្ហាញកាតកំពុងប្រើ>
 browsing-whole-collection = បណ្តុំទាំងមូល
 browsing-you-must-have-at-least-one = ត្រូវមានជួរយ៉ាងហោចមួយ។
+browsing-group =
+    { $count ->
+       *[other] ផ្សេងទៀត (ឧទាហរណ៍ ០)
+    }
+browsing-note-count =
+    { $count ->
+       *[other] ផ្សេងទៀត (ឧទាហរណ៍ ០)
+    }
