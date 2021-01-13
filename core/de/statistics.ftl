@@ -85,6 +85,7 @@ statistics-counts-early-cards = Früh
 statistics-counts-learning-cards = Lernen
 statistics-counts-relearning-cards = Erneut lernend
 statistics-counts-title = Kartenzähler
+statistics-counts-separate-suspended-buried-cards = Separat ausgesetzte/zurückgestellte Karten
 statistics-range-all-time = Stapel-Lebensdauer
 statistics-range-1-year-history = letzte 12 Monate
 statistics-range-all-history = Gesamte Historie
