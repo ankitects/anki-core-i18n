@@ -1,4 +1,3 @@
-importing-failed = Імпорт не вдався.
 importing-failed-debug-info = Імпортування не вдалося. Інформація для зневаджування:
 importing-aborted = Відхилено: { $val }
 importing-added-duplicate-with-first-field = Додано дублікат з однаковим першим полем: { $val }
@@ -52,6 +51,7 @@ importing-this-will-delete-your-existing-collection = Це видалить ва
 importing-unable-to-import-from-a-readonly = Неможливо імпортувати файл, призначений лише для зчитування.
 importing-unknown-file-format = Невідомий формат файлу.
 importing-update-existing-notes-when-first-field = Оновити існуючі нотатки, коли співпадають перше поле
+importing-updated = Оновлено
 importing-note-added =
     { $count ->
         [one] { $count } нотатку додано

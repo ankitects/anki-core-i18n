@@ -94,6 +94,7 @@ browsing-step = Крок:
 browsing-studied-today = Пройдено сьогодні
 browsing-suspended = Відкладені
 browsing-tag-duplicates = Дублікати міток
+browsing-tag-rename-warning-empty = Ви не можете перейменувати примітку, яка не має записів
 browsing-target-field = Цільове поле:
 browsing-today = Сьогодні
 browsing-treat-input-as-regular-expression = Розглядати введення як регулярний вираз
@@ -117,10 +118,4 @@ browsing-note-deleted =
         [one] { $count } нотатку вилучено.
         [few] { $count } нотаток вилучено.
        *[other] { $count } нотаток вилучено.
-    }
-browsing-selected =
-    { $count ->
-        [one] { $count } вибрано
-        [few] { $count } вибрано
-       *[other] { $count } вибрано
     }

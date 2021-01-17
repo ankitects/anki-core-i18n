@@ -18,6 +18,7 @@ editing-jump-to-tags-with-ctrlandshiftandt = Перейти до міток з  
 editing-latex = LaTeX
 editing-latex-equation = Рівняння LaTeX
 editing-latex-math-env = Математичне оточення LaTeX
+editing-mathjax-block = MathJax блок
 editing-mathjax-chemistry = MathJax для хімії
 editing-mathjax-inline = MathJax в рядку
 editing-media = Медіа-файли
@@ -30,4 +31,5 @@ editing-subscript-ctrland = Нижній індекс (Ctrl+=)
 editing-superscript-ctrlandand = Верхній індекс (Ctrl++)
 editing-tags = Мітки
 editing-to-make-a-cloze-deletion-on = Для створення картки з тестом з пробілами по існуючій нотатці, спочатку потрібно змінити її тип на тип тесту з пробілами командою "Редагування>Змінити тип нотатки..."
+editing-underline-text-ctrlandu = Підкреслити текст (Cntrl+U)
 editing-warning-cloze-deletions-will-not-work = Увага! Тести з пробілами не спрацюють, поки ви не зміните тип вгорі на Тест з пробілами.

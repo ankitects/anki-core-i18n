@@ -21,4 +21,4 @@ card-stats-review-log-type-learn = Вчити
 card-stats-review-log-type-review = Проглянути
 card-stats-review-log-type-relearn = Вчити знову
 card-stats-review-log-type-filtered = Відфільтровані
-card-stats-review-log-type-rescheduled = Змінити розклад
+card-stats-review-log-type-manual = Посібник

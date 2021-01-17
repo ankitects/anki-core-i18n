@@ -51,6 +51,12 @@ database-check-revlog-properties =
         [few] Виправлено { $count } перегляди з неправильно введеними властивостями.
        *[other] Виправлено { $count } переглядів з неправильно введеними властивостями.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] Виправлено символи UTF-8 в { $count } записі.
+        [few] Виправлено символи UTF-8 в { $count } записах.
+       *[other] Виправлено символи UTF-8 в { $count } записах.
+    }
 
 ## Progress info
 

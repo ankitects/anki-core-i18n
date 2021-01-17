@@ -95,28 +95,68 @@ statistics-counts-new-cards = Нові
 statistics-counts-young-cards = Незрілі
 statistics-counts-mature-cards = Зрілі
 statistics-counts-suspended-cards = Відкладені
+statistics-counts-early-cards = Раніше
+statistics-counts-learning-cards = Навчання
+statistics-counts-relearning-cards = Перевивчаємі
+statistics-counts-title = Кількість карток
+statistics-counts-separate-suspended-buried-cards = Відокремити призупинені/відкладені картки
 statistics-range-all-time = тривалість життя колоди
+statistics-range-1-year-history = За остані 12 місяців
+statistics-range-all-history = За весь час
 statistics-range-deck = колода
 statistics-range-collection = колекція
 statistics-range-search = Пошук
+statistics-card-ease-title = Легкість картки
 statistics-future-due-title = Прогноз
-statistics-reviews-title = Повторення
-statistics-intervals-title = Інтервали
-statistics-answer-buttons-title = Кнопки відповіді
-statistics-hours-title = Погодинна розбивка
-statistics-added-title = Додано
-statistics-axis-label-answer-count = Відповіді
-statistics-axis-label-card-count = Картки
-statistics-axis-label-review-time = Час повторень
 statistics-future-due-subtitle = Кількість повторень, очікуваних у майбутньому.
+statistics-added-title = Додано
 statistics-added-subtitle = Число доданих вами нових карток.
 statistics-reviews-count-subtitle = Кількість питань, на які ви відповіли.
 statistics-reviews-time-subtitle = Час, витрачений, щоб відповісти на питання.
-statistics-intervals-subtitle = Час, через який будуть знову показуватися картки для повторювання.
+statistics-answer-buttons-title = Кнопки відповіді
+# eg Button: 4
+statistics-answer-buttons-button-number = Кнопка
 statistics-answer-buttons-subtitle = Кількість разів, що ви натисли кожну кнопку.
-statistics-hours-subtitle = Продивитися процент успішності на кожну годину дня.
-statistics-counts-learning-cards = Навчання
+statistics-reviews-title = Повторення
 statistics-reviews-time-checkbox = Час
+statistics-in-days-single =
+    { $days ->
+        [0] Сьогодні
+        [1] Завтра
+        [one] За { $days } день
+        [few] За { $days } дня
+       *[other] За { $days } днів
+    }
+statistics-in-days-range = За { $daysStart }-{ $daysEnd } дні
+statistics-days-ago-single =
+    { $days ->
+        [1] Вчора
+        [one] { $days } день тому
+        [few] { $days } дні тому
+       *[other] { $days } днів тому
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } днів тому
+statistics-running-total = Загалом
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } картка очікує
+        [few] { $cards } картки очікує
+       *[other] { $cards } карток очікує
+    }
+statistics-intervals-title = Інтервали
+statistics-intervals-subtitle = Час, через який будуть знову показуватися картки для повторювання.
+statistics-hours-title = Погодинна розбивка
+statistics-hours-subtitle = Продивитися процент успішності на кожну годину дня.
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+
+##
+
 statistics-average-for-days-studied = Середній показник за дні роботи з програмою
 statistics-total = Разом
 statistics-days-studied = Днів роботи з програмою

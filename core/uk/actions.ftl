@@ -24,6 +24,7 @@ actions-rebuild = Перебудувати
 actions-red-flag = Червоний прапорець
 actions-rename = Перейменувати
 actions-rename-deck = Перейменувати колоду
+actions-rename-tag = Перейменувати примітку
 actions-replay-audio = Прослухати ще раз
 actions-reposition = Змінити розташування
 actions-save = Зберегти

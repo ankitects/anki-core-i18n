@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Зворотній напрямок текс
 fields-size = Розмір:
 fields-sort-by-this-field-in-the = Сортувати по цьому полю у навігаторі
 fields-that-field-name-is-already-used = Назва поля вже використовується.
+fields-name-first-letter-not-valid = Назва поля не може починатися на #, ^ чи /.
+fields-name-invalid-letter = Назва поля не може містити :, ", { "{" } чи { "}" }.

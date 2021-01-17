@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Будь ласка, спочатку перейменуйте існуючу колоду власного навчання.
 custom-study-all-cards-in-random-order-dont = Всі картки у випадковому порядку (без перепланування)
 custom-study-all-review-cards-in-random-order = Всі повторювані картки у випадковому порядку
 custom-study-cards = картки
