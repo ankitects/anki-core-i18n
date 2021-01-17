@@ -8,3 +8,4 @@ profiles-profile-corrupt = Профіль пошкоджено.
 profiles-profiles = Профілі
 profiles-quit = Вийти
 profiles-user-1 = Користувач 1
+profiles-prefs-corrupt-title = Налаштування пошкоджені

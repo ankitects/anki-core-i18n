@@ -97,6 +97,8 @@ browsing-tag-duplicates = Дублікати міток
 browsing-tag-rename-warning-empty = Ви не можете перейменувати примітку, яка не має записів
 browsing-target-field = Цільове поле:
 browsing-today = Сьогодні
+browsing-toggle-mark = Позначити чи зняти позначку
+browsing-toggle-suspend = Призупинити/Поновити
 browsing-treat-input-as-regular-expression = Розглядати введення як регулярний вираз
 browsing-type-here-to-search = <для пошуку наберіть запит тут; натисніть ввід, щоб показати поточну колоду>
 browsing-whole-collection = Вся колеція
@@ -104,18 +106,24 @@ browsing-you-must-have-at-least-one = Треба, щоб була принайм
 browsing-group =
     { $count ->
         [one] { $count } група
-        [few] { $count } груп
+        [few] { $count } групи
        *[other] { $count } груп
     }
 browsing-note-count =
     { $count ->
-        [one] { $count } нотатка
-        [few] { $count } нотатки
-       *[other] { $count } нотатки
+        [one] { $count } запис
+        [few] { $count } записи
+       *[other] { $count } записві
     }
 browsing-note-deleted =
     { $count ->
-        [one] { $count } нотатку вилучено.
-        [few] { $count } нотаток вилучено.
-       *[other] { $count } нотаток вилучено.
+        [one] { $count } запис вилучено.
+        [few] { $count } записи вилучено.
+       *[other] { $count } записів вилучено.
+    }
+browsing-window-title =
+    { $total ->
+        [one] Переглянути (Обрано { $selected } з { $total } картки)
+        [few] Переглянути (Обрано { $selected } з { $total } карток)
+       *[other] Переглянути (Обрано { $selected } з { $total } карток)
     }

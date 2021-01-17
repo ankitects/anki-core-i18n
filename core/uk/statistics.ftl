@@ -141,12 +141,31 @@ statistics-cards-due =
     { $cards ->
         [one] { $cards } картка очікує
         [few] { $cards } картки очікує
+        [many] { $cards } карток очікує
        *[other] { $cards } карток очікує
     }
 statistics-intervals-title = Інтервали
 statistics-intervals-subtitle = Час, через який будуть знову показуватися картки для повторювання.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } картка з проміжком { $daysStart }~{ $daysEnd } дні
+        [few] { $cards } картки з проміжком { $daysStart }~{ $daysEnd } дні
+       *[other] { $cards } карток з проміжком { $daysStart }~{ $daysEnd } дні
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } картка з проміжком { $day } день
+        [few] { $cards } картки з проміжком { $day } день
+       *[other] { $cards } карток з проміжком { $day } день
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = З { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } правильно ({ $percent }%)
 statistics-hours-title = Погодинна розбивка
 statistics-hours-subtitle = Продивитися процент успішності на кожну годину дня.
+# shown when graph is empty
+statistics-no-data = НЕМАЄ ДАНИХ
+statistics-calendar-title = Календар
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -154,9 +173,16 @@ statistics-hours-subtitle = Продивитися процент успішно
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount }с
+statistics-elapsed-time-minutes = { $amount }хв
+statistics-elapsed-time-hours = { $amount }год
+statistics-elapsed-time-days = { $amount }д
+statistics-elapsed-time-months = { $amount }міс
+statistics-elapsed-time-years = { $amount }р
 
 ##
 
+statistics-error-fetching = Помилка пошуку – будь ласка, перевірте, чи Ваш пошук правильний, або скористайтесь перевіркою бази даних.
 statistics-average-for-days-studied = Середній показник за дні роботи з програмою
 statistics-total = Разом
 statistics-days-studied = Днів роботи з програмою
@@ -165,7 +191,27 @@ statistics-average = Середнє
 statistics-average-interval = Середній інтервал
 statistics-longest-interval = Найдовший інтервал
 statistics-due-tomorrow = Очікуються завтра
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } з { $total } ({ $percent }%)
 statistics-average-over-period = Якби ви вчились щодня
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } перегляд/добу
+        [few] { $count } перегляди/добу
+       *[other] { $count } переглядів/добу
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } хвилину/добу
+        [few] { $count } хвилини/добу
+       *[other] { $count } хвилин/добу
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } картка/добу
+        [few] { $count } картки/добу
+       *[other] { $count } карток/добу
+    }
 statistics-average-ease = Середня легкість
 statistics-save-pdf = Зберегти в форматі PDF
 statistics-saved = Збережено.

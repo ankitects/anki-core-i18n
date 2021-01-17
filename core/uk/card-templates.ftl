@@ -15,7 +15,11 @@ card-templates-template-box = Шаблон
 card-templates-sample-cloze = Ось { "{{c1::" } зразок { "}}" } завдання з пропусками.
 card-templates-fill-empty = Заповніть пусті поля
 card-templates-night-mode = Нічний режим
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Додати мобільний тип
 card-templates-preview-settings = Налаштування
+card-templates-invalid-template-number = Проблема з { $number } шаблоном
 card-templates-changes-saved = Збережено зміни.
 card-templates-discard-changes = Скасувати зміни?
 card-templates-add-card-type = Додати тип картки…
