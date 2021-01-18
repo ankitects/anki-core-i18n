@@ -35,3 +35,4 @@ preferences-this-will-reset-any-cards-in = Буде скинуто усі кар
 preferences-timebox-time-limit = Встановити ліміт таймера
 preferences-user-interface-size = Розмір інтерфейсу
 preferences-when-adding-default-to-current-deck = Додавати у поточну колоду за замовчуванням
+preferences-you-can-restore-backups-via-fileswitch = Ви можете відновити резервні копії: Файл > змінити профіль.

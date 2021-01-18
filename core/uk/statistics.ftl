@@ -88,6 +88,7 @@ statistics-seconds-taken = { $seconds }с
 statistics-today-title = Сьогодні
 statistics-today-again-count = Кількість карток з відповіддю "Знову":
 statistics-today-type-counts = Вивчити: { $learnCount }, Повторити: { $reviewCount }, Перевчити: { $relearnCount }, Відфільтровано: { $filteredCount }
+statistics-today-no-cards = Не повторено жодної картки.
 statistics-today-no-mature-cards = Сьогодні не було пройдено жодної зрілої картки.
 statistics-today-correct-mature = Правильні відповіді по зрілим карткам: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Загальна кількість карток
@@ -95,6 +96,7 @@ statistics-counts-new-cards = Нові
 statistics-counts-young-cards = Незрілі
 statistics-counts-mature-cards = Зрілі
 statistics-counts-suspended-cards = Відкладені
+statistics-counts-buried-cards = Відкладені
 statistics-counts-early-cards = Раніше
 statistics-counts-learning-cards = Навчання
 statistics-counts-relearning-cards = Перевивчаємі
@@ -107,6 +109,14 @@ statistics-range-deck = колода
 statistics-range-collection = колекція
 statistics-range-search = Пошук
 statistics-card-ease-title = Легкість картки
+statistics-card-ease-subtitle = Чим менша легкість, тим частіше з'являтиметься картка.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] { $cards } картка з легкістю { $percent }
+        [few] { $cards } картки з легкістю { $percent }
+       *[other] { $cards } карток з легкістю { $percent }
+    }
 statistics-future-due-title = Прогноз
 statistics-future-due-subtitle = Кількість повторень, очікуваних у майбутньому.
 statistics-added-title = Додано
@@ -116,6 +126,8 @@ statistics-reviews-time-subtitle = Час, витрачений, щоб відп
 statistics-answer-buttons-title = Кнопки відповіді
 # eg Button: 4
 statistics-answer-buttons-button-number = Кнопка
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Разів натиснуто
 statistics-answer-buttons-subtitle = Кількість разів, що ви натисли кожну кнопку.
 statistics-reviews-title = Повторення
 statistics-reviews-time-checkbox = Час
@@ -144,6 +156,7 @@ statistics-cards-due =
         [many] { $cards } карток очікує
        *[other] { $cards } карток очікує
     }
+statistics-backlog-checkbox = Відставання
 statistics-intervals-title = Інтервали
 statistics-intervals-subtitle = Час, через який будуть знову показуватися картки для повторювання.
 statistics-intervals-day-range =

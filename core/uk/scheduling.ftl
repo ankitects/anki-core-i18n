@@ -102,6 +102,11 @@ scheduling-today-new-limit-reached =
     але, будь ласка, не забувайте: чим більше нових карток
     ви запровадите у навчальний цикл, тим більше карток вам
     доведеться повторювати за короткий період.
+scheduling-buried-cards-found = Одна або декілька карток відкладено до завтра. Ви можете { $unburyThem }, якщо бажаєте побачити зараз.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = повернути їх
+scheduling-how-to-custom-study = Якщо Ви бажаєте вивчати не лише за розкладом, то можете скористатись { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = додаткове навчання
