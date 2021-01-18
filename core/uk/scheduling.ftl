@@ -102,7 +102,9 @@ scheduling-today-new-limit-reached =
     але, будь ласка, не забувайте: чим більше нових карток
     ви запровадите у навчальний цикл, тим більше карток вам
     доведеться повторювати за короткий період.
-scheduling-buried-cards-were-delayed = Деякі пов'язані або поховані картки було відкладено до наступного сеансу.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = додаткове навчання
 scheduling-always-include-question-side-when-replaying = Завжди показувати сторону картки з питанням під час відтворення аудіо
 scheduling-at-least-one-step-is-required = Необхідно принаймні один крок.
 scheduling-automatically-play-audio = Автоматично програвати звук
@@ -151,8 +153,9 @@ scheduling-steps-must-be-numbers = Кроки мають бути числами
 scheduling-tag-only = Лише мітка
 scheduling-the-default-configuration-cant-be-removed = Конфігурацію за замовчуванням не можна видаляти.
 scheduling-your-changes-will-affect-multiple-decks = Ваші зміни вплинуть на кілька колод. Якщо ви хочете змінити лише поточну колоду, спочатку треба додати нову групу налаштувань.
-scheduling-deck-updated = { $count ->
-    [one] { $count } колоду оновлено.
-    [few] { $count } колод оновлено.
-   *[other] { $count } колод оновлено.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } колоду оновлено.
+        [few] { $count } колод оновлено.
+       *[other] { $count } колод оновлено.
+    }

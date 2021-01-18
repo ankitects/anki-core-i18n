@@ -23,6 +23,7 @@ preferences-periodically-sync-media = Періодично синхронізу�
 preferences-please-restart-anki-to-complete-language = Перезапустіть Anki для завершення зміни мови.
 preferences-preferences = Налаштування
 preferences-scheduling = Змінити розклад
+preferences-show-learning-cards-with-larger-steps = Показувати вивчанні картки з більшим кроком раніше за повторюванні
 preferences-show-next-review-time-above-answer = Показувати час наступного повторення над кнопками відповіді
 preferences-show-play-buttons-on-cards-with = Показати кнопку «Програти» на картках із звуком
 preferences-show-remaining-card-count-during-review = Показувати кількість карток, що залишилися, під час повторення
