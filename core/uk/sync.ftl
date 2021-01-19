@@ -48,7 +48,7 @@ sync-media-log-button = Журнал медіа
 sync-abort-button = Перервати
 sync-download-from-ankiweb = Завантажити з AnkiWeb
 sync-upload-to-ankiweb = Відправити на AnkiWeb
-sync-cancel-button = Відмінити
+sync-cancel-button = Скасувати
 
 ## Normal sync progress
 

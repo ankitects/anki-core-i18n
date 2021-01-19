@@ -1,6 +1,6 @@
 actions-add = Додати
 actions-blue-flag = Синій прапорець
-actions-cancel = Відмінити
+actions-cancel = Скасувати
 actions-choose = Вибрати
 actions-close = Закрити
 actions-copy = Копіювати
