@@ -30,4 +30,4 @@ actions-reposition = Змінити розташування
 actions-save = Зберегти
 actions-search = Пошук
 actions-shortcut-key = Гаряча клавіша: { $val }
-actions-suspend-card = Відкласти картку
+actions-suspend-card = Призупинити картку

@@ -15,7 +15,7 @@ decks-import-file = Імпортувати файл
 decks-increasing-intervals = Зростаючі інтервали
 decks-latest-added-first = Спочатку додані останніми
 decks-limit-to = Обмежити
-decks-minutes = хвилин(и)
+decks-minutes = хв
 decks-most-lapses = Найбільше невдач
 decks-name-for-deck = Назва колоди:
 decks-new-deck-name = Нова назва колоди:
@@ -31,8 +31,9 @@ decks-reschedule-cards-based-on-my-answers = Змінити розклад ка�
 decks-study = Вчити
 decks-study-deck = Вчити колоду
 decks-the-provided-search-did-not-match = По вказаним критеріям пошуку не знайшлося карток. Ви хочете ії змінити?
-decks-it-has-card = { $count ->
-    [one]  Містить { $count } картку.
-    [few]  Містить { $count } карток.
-   *[other]  Містить { $count } карток.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Містить { $count } картку.
+        [few] Містить { $count } карток.
+       *[other] Містить { $count } карток.
+    }

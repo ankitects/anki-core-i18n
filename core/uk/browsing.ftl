@@ -1,4 +1,4 @@
-browsing-add-notes = Додати запис…
+browsing-add-notes = Додати нотатку…
 browsing-add-tags = Додавання міток
 browsing-add-tags2 = Додати теги...
 browsing-added-today = Додано сьогодні
@@ -92,9 +92,9 @@ browsing-sorting-on-this-column-is-not = Сортування в цій коло
 browsing-start-position = Початкова позиція:
 browsing-step = Крок:
 browsing-studied-today = Пройдено сьогодні
-browsing-suspended = Відкладені
+browsing-suspended = Призупинені
 browsing-tag-duplicates = Дублікати міток
-browsing-tag-rename-warning-empty = Ви не можете перейменувати примітку, яка не має записів
+browsing-tag-rename-warning-empty = Ви не можете перейменувати примітку, яка немає записів
 browsing-target-field = Цільове поле:
 browsing-today = Сьогодні
 browsing-toggle-mark = Позначити чи зняти позначку
@@ -111,15 +111,15 @@ browsing-group =
     }
 browsing-note-count =
     { $count ->
-        [one] { $count } запис
-        [few] { $count } записи
-       *[other] { $count } записві
+        [one] { $count } нотатка
+        [few] { $count } нотатки
+       *[other] { $count } нотаток
     }
 browsing-note-deleted =
     { $count ->
-        [one] { $count } запис вилучено.
-        [few] { $count } записи вилучено.
-       *[other] { $count } записів вилучено.
+        [one] { $count } нотатку вилучено.
+        [few] { $count } нотатки вилучено.
+       *[other] { $count } нотаток вилучено.
     }
 browsing-window-title =
     { $total ->

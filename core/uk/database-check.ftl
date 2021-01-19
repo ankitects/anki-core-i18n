@@ -16,9 +16,9 @@ database-check-missing-templates =
     }
 database-check-field-count =
     { $count ->
-        [one] Виправлено %d запис з невірною кількістю полів.
-        [few] Виправлено %d записи з невірною кількістю полів.
-       *[other] Виправлено %d записів з невірною кількістю полів.
+        [one] Виправлено { $count } нотатку з невірною кількістю полів.
+        [few] Виправлено { $count } нотатки з невірною кількістю полів.
+       *[other] Виправлено { $count } нотаток з невірною кількістю полів.
     }
 database-check-new-card-high-due =
     { $count ->
@@ -53,18 +53,17 @@ database-check-revlog-properties =
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-        [one] Виправлено символи UTF-8 в { $count } записі.
-        [few] Виправлено символи UTF-8 в { $count } записах.
-       *[other] Виправлено символи UTF-8 в { $count } записах.
+        [one] Виправлено символи UTF-8 в { $count } нотатці.
+       *[other] Виправлено символи UTF-8 в { $count } нотатках.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Не вистачає одного або більше типів запису. Записи, які їх використовували тепер використовують новий тип записів, який починається на «db-check», але назви полів та вигляд карток втрачено, можливо, краще відновити з автоматичного резервного копіювання.
+database-check-notetypes-recovered = Не вистачає одного або більше типів нотаток. Нотатки, які їх використовували тепер використовують новий тип нотаток, який починається на «db-check», але назви полів та вигляд карток втрачено, можливо, краще відновити з автоматичного резервного копіювання.
 
 ## Progress info
 
 database-check-checking-integrity = Перевірка колекції…
 database-check-rebuilding = Перебудова…
 database-check-checking-cards = Перевірка карток…
-database-check-checking-notes = Перевірка записів…
+database-check-checking-notes = Перевірка нотаток…
 database-check-checking-history = Перевірка історії…
 database-check-title = Перевірити базу даних
