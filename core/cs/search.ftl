@@ -10,6 +10,7 @@ search-misplaced-or = Bylo nalezeno `or`, ale nespojuje dva vyhledávací výraz
 search-empty-group = Byla nalezena skupina `(...)`, ale v závorkách nebylo nic, co by se dalo hledat. Chcete-li hledat závorky, dejte je do uvozovek `"( )"`.
 search-unopened-group = Byla nalezena uzavírací závorka `)`, ale nebyla před ní žádná otevírací závorka `(`. Chcete-li hledat `)`, dejte ji do uvozovek nebo přidejte zpětné lomítko: `")"` nebo `\)`.
 search-unclosed-group = Byla nalezena otevírací závorka `(`, ale nebyla za ní žádná uzavírací závorka `)`. Chcete-li hledat `(`, dejte ji do uvozovek nebo přidejte zpětné lomítko: `"("` nebo `\(`.
+search-empty-quote = Byla nalezena dvojice uvozovek `""`, ale nebylo v nich nic, co by se dalo hledat. Chcete-li hledat uvozovky, přidejte zpětné lomítko `\"\"`.
 
 ## Column labels in browse screen
 
