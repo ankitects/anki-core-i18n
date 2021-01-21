@@ -25,6 +25,7 @@ actions-red-flag = rote Markierung
 actions-rename = Umbenennen
 actions-rename-deck = Stapel umbenennen
 actions-rename-tag = Schlagwort umbenennen
+actions-remove-tag = Schlagwort entfernen
 actions-replay-audio = Erneut abspielen
 actions-reposition = Position ändern
 actions-save = Speichern
