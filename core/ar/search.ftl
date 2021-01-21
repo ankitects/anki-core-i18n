@@ -22,6 +22,7 @@ search-invalid-number = توقعت رقمًا في "`{ $context }`"، لكني �
 search-invalid-whole-number = توقعت رقمًا صحيحًا في "`{ $context }`"، لكني وجدت "`{ $provided }`".
 search-invalid-positive-whole-number = توقعت رقمًا إيجابيًا صحيحًا في "`{ $context }`"، لكني وجدت "`{ $provided }`".
 search-invalid-negative-whole-number = توقعت رقمًا صحيحًا أصغر أو يساوي 0 في "`{ $context }`"، لكني وجدت "`{ $provided }`".
+search-invalid-answer-button = توقعت زر إجابة بين 1-4 في "`{ $context }`"، لكني وجدت "`{ $provided }`".
 
 ## Column labels in browse screen
 
