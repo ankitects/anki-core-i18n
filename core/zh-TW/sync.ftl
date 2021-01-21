@@ -3,9 +3,9 @@
 
 ## Media synchronization
 
-sync-media-added-count = 已新增: { $up }↑ { $down }↓
-sync-media-removed-count = 已移除: { $up }↑ { $down }↓
-sync-media-checked-count = 已檢查: { $count }
+sync-media-added-count = 已新增：{ $up }↑ { $down }↓
+sync-media-removed-count = 已移除：{ $up }↑ { $down }↓
+sync-media-checked-count = 已檢查：{ $count }
 sync-media-starting = 正在開始同步媒體...
 sync-media-complete = 媒體同步完成。
 sync-media-failed = 媒體同步失敗。
@@ -57,5 +57,5 @@ sync-uploading-to-ankiweb = 正在上傳到 AnkiWeb...
 sync-syncing = 同步中...
 sync-checking = 檢查中...
 sync-connecting = 連線中...
-sync-added-updated-count = 已新增/修改: { $up }↑ { $down }↓
+sync-added-updated-count = 已新增/修改：{ $up }↑ { $down }↓
 sync-log-out-button = 登出

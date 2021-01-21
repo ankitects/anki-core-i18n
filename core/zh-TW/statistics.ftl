@@ -56,11 +56,11 @@ statistics-studied-today =
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds } 秒
 statistics-today-title = 今天
-statistics-today-again-count = 「重來」計數:
-statistics-today-type-counts = 新學習卡片: { $learnCount }　複習的卡片: { $reviewCount }　重學習卡片: { $relearnCount }　篩選的卡片: { $filteredCount }
+statistics-today-again-count = 「重來」計數：
+statistics-today-type-counts = 新學習卡片：{ $learnCount }．複習的卡片：{ $reviewCount }．重學習卡片：{ $relearnCount }．篩選的卡片：{ $filteredCount }
 statistics-today-no-cards = 今天尚未學習任何卡片
 statistics-today-no-mature-cards = 今天沒有學習熟練的卡片
-statistics-today-correct-mature = 回答正確的熟練卡片: { $correct }/{ $total } ({ $percent }%)
+statistics-today-correct-mature = 回答正確的熟練卡片：{ $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 總數
 statistics-counts-new-cards = 新卡片
 statistics-counts-young-cards = 未熟練
@@ -130,7 +130,7 @@ statistics-intervals-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = 正確率: { $correct }/{ $total } ({ $percent }%)
+statistics-hours-correct = 正確率：{ $correct }/{ $total } ({ $percent }%)
 statistics-hours-title = 每小時分析
 statistics-hours-subtitle = 當天每小時的複習成功率
 # shown when graph is empty

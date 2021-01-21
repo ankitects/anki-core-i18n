@@ -5,30 +5,30 @@ media-check-window-title = 檢查媒體檔
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count =
-    垃圾桶資料夾: { $count ->
+    垃圾桶資料夾：{ $count ->
        *[other] { $count } 個檔案，{ $megs } MB
     }
-media-check-missing-count = 遺失檔案數: { $count }
-media-check-unused-count = 未使用檔案數: { $count }
-media-check-renamed-count = 重新命名檔案數: { $count }
-media-check-oversize-count = 大於 100MB 的檔案數: { $count }
-media-check-subfolder-count = 子資料夾數: { $count }
+media-check-missing-count = 遺失檔案數：{ $count }
+media-check-unused-count = 未使用檔案數：{ $count }
+media-check-renamed-count = 重新命名檔案數：{ $count }
+media-check-oversize-count = 大於 100MB 的檔案數：{ $count }
+media-check-subfolder-count = 子資料夾數：{ $count }
 
 ## Shown at the top of each section
 
-media-check-renamed-header = 部分檔案因相容性問題而被重新命名:
+media-check-renamed-header = 部分檔案因相容性問題而被重新命名：
 media-check-oversize-header = 大於 100MB 的檔案無法同步到 AnkiWeb。
 media-check-subfolder-header = 媒體資料夾內的資料夾不受支援。
-media-check-missing-header = 在媒體資料夾中找不到以下被卡片使用的檔案:
-media-check-unused-header = 在媒體資料夾中找到了以下未被卡片使用的檔案:
+media-check-missing-header = 在媒體資料夾中找不到以下被卡片使用的檔案：
+media-check-unused-header = 在媒體資料夾中找到了以下未被卡片使用的檔案：
 
 ## Shown once for each file
 
-media-check-renamed-file = 重新命名: { $old } -> { $new }
-media-check-oversize-file = 大於 100MB: { $filename }
-media-check-subfolder-file = 資料夾: { $filename }
-media-check-missing-file = 遺失: { $filename }
-media-check-unused-file = 未使用: { $filename }
+media-check-renamed-file = 重新命名：{ $old } -> { $new }
+media-check-oversize-file = 大於 100MB：{ $filename }
+media-check-subfolder-file = 資料夾：{ $filename }
+media-check-missing-file = 遺失：{ $filename }
+media-check-unused-file = 未使用：{ $filename }
 
 ## Progress
 

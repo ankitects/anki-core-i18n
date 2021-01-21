@@ -2,7 +2,7 @@ card-templates-changes-will-affect-notes =
     { $count ->
        *[other] 以下變更將會影響 { $count } 則使用此卡片類型的筆記。
     }
-card-templates-card-type = 卡片類型:
+card-templates-card-type = 卡片類型：
 card-templates-front-template = 正面模板
 card-templates-back-template = 背面模板
 card-templates-template-styling = 樣式
@@ -30,15 +30,15 @@ card-templates-card-types-for = { $val }的卡片類型
 card-templates-cloze = 克漏字 { $val }
 card-templates-deck-override = 覆寫牌組...
 card-templates-delete-the-as-card-type-and = 刪除「{ $template }」卡片類型，以及它的 { $cards }？
-card-templates-enter-deck-to-place-new = 您想將新的 { $val } 卡片放在哪個牌組 (此欄位可留空):
-card-templates-enter-new-card-position-1 = 輸入新的卡片順序 (1...{ $val }):
+card-templates-enter-deck-to-place-new = 請輸入要將新的 { $val } 卡片放入的牌組名稱（可留空）：
+card-templates-enter-new-card-position-1 = 輸入新的卡片順序（1...{ $val }）：
 card-templates-flip = 反轉
 card-templates-form = 表單
 card-templates-off = (關閉)
 card-templates-on = (開啟)
 card-templates-remove-card-type = 移除卡片類型...
 card-templates-rename-card-type = 重新命名卡片類型
-card-templates-reposition-card-type = 卡片類型復位...
+card-templates-reposition-card-type = 調整卡片類型順序...
 card-templates-card-count =
     { $count ->
        *[other] { $count } 張卡片

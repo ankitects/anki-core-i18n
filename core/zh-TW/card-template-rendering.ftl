@@ -4,8 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = 更多資訊
-card-template-rendering-front-side-problem = 正面模板存在一個問題:
-card-template-rendering-back-side-problem = 背面模板存在一個問題:
+card-template-rendering-front-side-problem = 正面模板存在一個問題：
+card-template-rendering-back-side-problem = 背面模板存在一個問題：
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = 「{ $tag }」中缺少「{ $missing }」

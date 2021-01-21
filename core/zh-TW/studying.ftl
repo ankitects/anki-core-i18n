@@ -38,13 +38,13 @@ studying-suspend = 擱置
 studying-suspend-note = 擱置筆記
 studying-this-is-a-special-deck-for = 這是一個專門用來學習額外進度的牌組。
 studying-to-review = 待複習
-studying-type-answer-unknown-field = 輸入答案: 未知的欄位 { $val }
+studying-type-answer-unknown-field = 輸入答案：未知欄位 { $val }
 studying-unbury = 取消暫停
 studying-what-would-you-like-to-unbury = 您想取消暫停什麼？
 studying-you-havent-recorded-your-voice-yet = 您尚未錄製自己的聲音。
 studying-card-studied-in =
     { $count ->
-       *[other] 學習 { $count } 張卡片: 花費
+       *[other] 學習了 { $count } 張卡片：花費
     }
 studying-minute =
     { $count ->

@@ -12,7 +12,17 @@ search-unopened-group = 找到一個右括號「)」但在其之前缺少左括�
 search-unclosed-group = 找到一個左括號「(」但在其之後缺少右括號「)」。若您想搜尋左括號「(」本身，請將其置於雙引號中或在前面加上反斜線：「"("」或「\(」。
 search-empty-quote = 找到一組雙引號「""」但括號內沒有可供搜尋的內容。若您想搜尋雙引號本身，請在前面加上反斜線：「\"\"」。
 search-unclosed-quote = 找到一個雙引號「"」但在其之後缺少第二個引號來結束。若您想搜尋雙引號「"」本身，請在前面加上反斜線：「\"」。
+search-missing-key = 找到一個冒號「:」但在其之前缺少關鍵字。若您想搜尋冒號「:」本身，請在前面加上反斜線：「\:」。
+search-unknown-escape = 逸出序列「{ $val }」未定義。若您想搜尋反斜線本身「\」，請在前面再加上反斜「\\」。
+search-invalid-argument = ｢{ $term }｣收到了一條無效引數 '`{ $argument }`'。
+search-invalid-flag = ｢flag:」後必須接上有效旗標序號：「1」（紅色）、「2」（橙色）、「3」（綠色）、「4」（藍色）或「0」（無旗標）。
+search-invalid-prop-operator = ｢prop:{ $val }」後必須接上以下比較運算子之一：「=」、「!=」、「<」、「>」、「<=」、或「>=」。
 search-invalid-other = 請檢查有無輸入錯誤。
+search-invalid-number = "`{ $context }`" 中應有數字，但找到 "`{ $provided }`"。
+search-invalid-whole-number = "`{ $context }`" 中應有整數，但找到 "`{ $provided }`"。
+search-invalid-positive-whole-number = "`{ $context }`" 中應有正整數，但找到 "`{ $provided }`"。
+search-invalid-negative-whole-number = "`{ $context }`" 中應有0或負整數，但找到 "`{ $provided }`"。
+search-invalid-answer-button = "`{ $context }`" 中的1-4之間應有回答按鈕，但找到 "`{ $provided }`"。
 
 ## Column labels in browse screen
 

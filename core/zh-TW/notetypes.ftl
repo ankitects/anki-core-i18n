@@ -18,10 +18,10 @@ notetypes-cloze-name = 克漏字
 
 notetypes-card-1-name = 卡片 1
 notetypes-card-2-name = 卡片 2
-notetypes-add = 新增: { $val }
+notetypes-add = 新增：{ $val }
 notetypes-add-note-type = 新增筆記類型
 notetypes-cards = 卡片
-notetypes-clone = 複製: { $val }
+notetypes-clone = 複製：{ $val }
 notetypes-copy = { $val } 複本
 notetypes-create-scalable-images-with-dvisvgm = 以dvisvgm建立可縮放的圖像
 notetypes-delete-this-note-type-and-all = 刪除此筆記類型，及其中所有卡片？
