@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Text zprava doleva (RTL)
 fields-size = Velikost:
 fields-sort-by-this-field-in-the = Setřídit prohlížeč dle tohoto pole
 fields-that-field-name-is-already-used = Takové pole už existuje.
+fields-name-first-letter-not-valid = Název pole by neměl začínat #, ^ nebo /.
+fields-name-invalid-letter = Název pole by neměl obsahovat :, ", { "{" } nebo { "}" }.

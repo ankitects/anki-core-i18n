@@ -120,9 +120,4 @@ browsing-note-deleted =
         [few] { $count } poznámky smazány.
        *[other] { $count } poznámek smazáno.
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } vybrána
-        [few] { $count } vybrány
-       *[other] { $count } vybráno
-    }
+browsing-window-title = Prohlížet ({ $selected } z { $total } karet vybráno)

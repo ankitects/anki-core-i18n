@@ -7,3 +7,7 @@ profiles-please-remove-the-folder-and = Odstraňte prosím složku { $val } a zk
 profiles-profiles = Profily
 profiles-quit = Ukončit
 profiles-user-1 = Uživatel 1
+profiles-confirm-lang-choice = Opravdu si přejete zobrazit rozhraní Anki v { $lang }?
+profiles-prefs-corrupt-title = Nastavení poškozeno
+profiles-prefs-file-is-corrupt = Anki soubor prefs21.db byl poškozen a byl znovu vytvořen. Jestliže jste používali více profilů, prosím přidejte je zpět tak, že použijete stejné názvy, abyste obnovili vaše karty.
+profiles-profile-does-not-exist = Požadovaný profil neexistuje.
