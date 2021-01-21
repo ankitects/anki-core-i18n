@@ -4,13 +4,17 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = Neplatné vyhledávání: { $reason }
-search-misplaced-and = Bylo nalezeno `and`, ale nespojuje dva vyhledávací výrazy. Chcete-li hledat toto slovo, dejte ho do uvozovek `"and"`.
-search-misplaced-or = Bylo nalezeno `or`, ale nespojuje dva vyhledávací výrazy. Chcete-li hledat toto slovo, dejte ho do uvozovek `"or"`.
+search-misplaced-and = bylo nalezeno `and`, ale nespojuje dva vyhledávací výrazy. Chcete-li hledat toto slovo, dejte ho do uvozovek `"and"`.
+search-misplaced-or = bylo nalezeno `or`, ale nespojuje dva vyhledávací výrazy. Chcete-li hledat toto slovo, dejte ho do uvozovek `"or"`.
 # Here, the ellipsis "..." may be localised.
-search-empty-group = Byla nalezena skupina `(...)`, ale v závorkách nebylo nic, co by se dalo hledat. Chcete-li hledat závorky, dejte je do uvozovek `"( )"`.
-search-unopened-group = Byla nalezena uzavírací závorka `)`, ale nebyla před ní žádná otevírací závorka `(`. Chcete-li hledat `)`, dejte ji do uvozovek nebo přidejte zpětné lomítko: `")"` nebo `\)`.
-search-unclosed-group = Byla nalezena otevírací závorka `(`, ale nebyla za ní žádná uzavírací závorka `)`. Chcete-li hledat `(`, dejte ji do uvozovek nebo přidejte zpětné lomítko: `"("` nebo `\(`.
-search-empty-quote = Byla nalezena dvojice uvozovek `""`, ale nebylo v nich nic, co by se dalo hledat. Chcete-li hledat uvozovky, přidejte zpětné lomítko `\"\"`.
+search-empty-group = byla nalezena skupina `(...)`, ale v závorkách nebylo nic, co by se dalo hledat. Chcete-li hledat závorky, dejte je do uvozovek `"( )"`.
+search-unopened-group = byla nalezena uzavírací závorka `)`, ale nebyla před ní žádná otevírací závorka `(`. Chcete-li hledat `)`, dejte ji do uvozovek nebo přidejte zpětné lomítko: `")"` nebo `\)`.
+search-unclosed-group = byla nalezena otevírací závorka `(`, ale nebyla za ní žádná uzavírací závorka `)`. Chcete-li hledat `(`, dejte ji do uvozovek nebo přidejte zpětné lomítko: `"("` nebo `\(`.
+search-empty-quote = byla nalezena dvojice uvozovek `""`, ale nebylo v nich nic, co by se dalo hledat. Chcete-li hledat uvozovky, přidejte zpětné lomítko `\"\"`.
+search-unclosed-quote = byla nalezena uvozovka `"`, ale nebyla zde druhá, která by ji uzavřela. Chcete-li hledat `"`, přidejte zpětné lomítko: `\"`.
+search-missing-key = byla nalezena dvojtečka `:`, ale nepředcházelo jí žádné klíčové slovo. Chcete-li hledat `:`, přidejte zpětné lomítko: `\:`.
+search-invalid-flag = za `flag:` musí být platné číslo příznaku: `1` (červený), `2` (oranžový), `3` (zelený), `4` (modrý) nebo `0` (žádný příznak).
+search-invalid-prop-operator = za `prop:{ $val }` musí být jeden z následujících operátorů porovnání: `=`, `!=`, `<`, `>`, `<=` nebo `>=`.
 search-invalid-other = Prosím zkontrolujte překlepy.
 
 ## Column labels in browse screen
