@@ -25,6 +25,7 @@ actions-red-flag = 紅色旗標
 actions-rename = 重新命名
 actions-rename-deck = 重新命名牌組
 actions-rename-tag = 重新命名標籤
+actions-remove-tag = 移除標籤
 actions-replay-audio = 重播音訊
 actions-reposition = 移動順序
 actions-save = 儲存
