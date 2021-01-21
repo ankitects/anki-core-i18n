@@ -3,7 +3,7 @@ decks-are-you-sure-you-wish-to = 您確定您要刪除 { $val }？
 decks-build = 建立
 decks-cards-selected-by = 張卡片，選擇方式為
 decks-create-deck = 建立牌組
-decks-custom-steps-in-minutes = 自訂學習階段 (分鐘)
+decks-custom-steps-in-minutes = 自訂學習階段（分鐘）
 decks-deck = 牌組
 decks-decreasing-intervals = 間隔由大至小排列
 decks-delete-deck = 刪除牌組
@@ -30,7 +30,7 @@ decks-repeat-failed-cards-after = 過後重複失敗的卡片
 decks-reschedule-cards-based-on-my-answers = 依據我在本牌組的回答狀況來重新排程卡片
 decks-study = 學習
 decks-study-deck = 學習牌組
-decks-the-provided-search-did-not-match = 無任何卡片符合此搜尋條件，您要試著修改嗎？
+decks-the-provided-search-did-not-match = 無任何卡片符合此搜尋條件。是否修改條件？
 decks-it-has-card =
     { $count ->
        *[other] 有 { $count } 張卡片。

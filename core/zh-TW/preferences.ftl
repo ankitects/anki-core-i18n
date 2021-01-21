@@ -1,4 +1,4 @@
-preferences-anki-21-scheduler-beta = Anki 2.1 排程器 (測試版)
+preferences-anki-21-scheduler-beta = Anki 2.1 排程器（測試版）
 preferences-automatically-sync-on-profile-openclose = 在開啟或關閉設定檔時自動進行同步
 preferences-backups = 備份
 preferences-backups2 = 個備份
@@ -20,7 +20,7 @@ preferences-on-next-sync-force-changes-in = 下次同步時，強制單向變更
 preferences-paste-clipboard-images-as-png = 以 PNG 格式貼上剪貼簿圖像
 preferences-paste-without-shift-key-strips-formatting = 不按 Shift 鍵時以純文字貼上
 preferences-periodically-sync-media = 定期同步媒體
-preferences-please-restart-anki-to-complete-language = 請重啟 Anki 以完成語言變更。
+preferences-please-restart-anki-to-complete-language = 請重啟 Anki 完成語言變更。
 preferences-preferences = 偏好設定
 preferences-scheduling = 排程
 preferences-show-learning-cards-with-larger-steps = 先顯示學習階段比待複習卡片間隔更長的學習中卡片

@@ -34,8 +34,8 @@ sync-conflict-explanation =
     如果您選的是上傳，Anki 會上傳您的集合至 AnkiWeb，而您的 AnkiWeb 或其他裝置上次同步以後的變動將會遺失。
     
     當所有的裝置都同步以後，新增的卡片和複習的卡片都能自動合併。
-sync-ankiweb-id-label = AnkiWeb ID:
-sync-password-label = 密碼:
+sync-ankiweb-id-label = AnkiWeb ID：
+sync-password-label = 密碼：
 sync-account-required =
     <h1>需要帳號</h1>
     您需要先建立一個免費的帳號來同步您的集合。請先<a href="{ $link }">註冊</a>一個帳號，然後在下方輸入詳細資訊。
