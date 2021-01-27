@@ -12,3 +12,4 @@ fields-reverse-text-direction-rtl = Cas an téacs droim ar ais
 fields-size = Méid:
 fields-sort-by-this-field-in-the = Bíodh an réimse seo mar bhunús sórtála sa bhrabhsálaí
 fields-that-field-name-is-already-used = Tá an t-ainm sin ar réimse eile cheana féin.
+fields-name-first-letter-not-valid = Níor cheart go mbeadh #, ^ nó / ag tús ainm an réimse.

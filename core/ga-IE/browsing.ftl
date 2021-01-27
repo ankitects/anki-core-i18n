@@ -94,6 +94,7 @@ browsing-step = Céim:
 browsing-studied-today = Staidéartha inniu
 browsing-suspended = Ar fionraí
 browsing-tag-duplicates = Clibeáil Dúblaigh
+browsing-tag-rename-warning-empty = Clib nach bhfuil in úsáid, ní féidir a hathainmniú.
 browsing-target-field = Sprioc-réimse:
 browsing-today = Inniu
 browsing-toggle-mark = Scoránaigh Marc
