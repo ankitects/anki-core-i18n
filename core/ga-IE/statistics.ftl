@@ -110,6 +110,7 @@ statistics-counts-early-cards = Luath
 statistics-counts-learning-cards = Á bhfoghlaim
 statistics-counts-relearning-cards = Á n-athfoghlaim
 statistics-counts-title = Líonta Cártaí
+statistics-counts-separate-suspended-buried-cards = Cuir na cártaí atá ar fiontraí/i bhfolach i leataobh
 statistics-range-all-time = uile
 statistics-range-1-year-history = le 12 mhí anuas
 statistics-range-all-history = riamh
