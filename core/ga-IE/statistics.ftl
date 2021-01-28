@@ -91,7 +91,7 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } inniu
-    ({ $secs-per-card }soicind/cárta)
+    ({ $secs-per-card } s/cárta)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }s
 statistics-today-title = Inniu
@@ -108,7 +108,7 @@ statistics-counts-suspended-cards = Ar fionraí
 statistics-counts-buried-cards = I bhfolach
 statistics-counts-early-cards = Luath
 statistics-counts-learning-cards = Á bhfoghlaim
-statistics-counts-relearning-cards = Á n-athfoghlaim
+statistics-counts-relearning-cards = Á n-athfhoghlaim
 statistics-counts-title = Líonta Cártaí
 statistics-counts-separate-suspended-buried-cards = Cuir na cártaí atá ar fiontraí/i bhfolach i leataobh
 statistics-range-all-time = uile
@@ -116,7 +116,7 @@ statistics-range-1-year-history = le 12 mhí anuas
 statistics-range-all-history = riamh
 statistics-range-deck = paca
 statistics-range-collection = cnuasach
-statistics-range-search = Cuardú
+statistics-range-search = Cuardaigh
 statistics-card-ease-title = Éascaíocht Chártaí
 statistics-card-ease-subtitle = Dá ísle éascaíocht cárta áirithe, is ea is minice a fheictear é.
 # eg "3 cards with 150-170% ease"
@@ -139,7 +139,7 @@ statistics-answer-buttons-title = Cnaipí Freagartha
 statistics-answer-buttons-button-number = Cnaipe
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Brúite
-statistics-answer-buttons-subtitle = Cé mhéid uair ar bhrúigh tú gach cnaipe
+statistics-answer-buttons-subtitle = Cé mhéad uair a bhrúigh tú gach cnaipe.
 statistics-reviews-title = Athbhreithnithe
 statistics-reviews-time-checkbox = Am
 statistics-in-days-single =
@@ -173,8 +173,8 @@ statistics-cards-due =
        *[other] { $cards } cárta le staidéar
     }
 statistics-backlog-checkbox = Riaráiste
-statistics-intervals-title = Eatraimh Abhreithnithe
-statistics-intervals-subtitle = Cé chomh fhada le fanacht idir athbhreithnithe.
+statistics-intervals-title = Eatraimh Athbhreithnithe
+statistics-intervals-subtitle = Cé chomh fada le fanacht idir athbhreithnithe.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } chárta amháin agus eatramh { $daysStart }~{ $daysEnd } aige
@@ -226,14 +226,14 @@ statistics-longest-interval = Eatramh is faide
 statistics-due-tomorrow = Le staidéar amárach
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } as { $total } ({ $percent }%)
-statistics-average-over-period = Meán le linn tréimhse
+statistics-average-over-period = Meán (an tréimhse uile)
 statistics-reviews-per-day =
     { $count ->
-        [one] { $count } abhreithniú/lá
-        [two] { $count } abhreithniú/lá
-        [few] { $count } abhreithniú/lá
-        [many] { $count } n-abhreithniú/lá
-       *[other] { $count } abhreithniú/lá
+        [one] { $count } athbhreithniú/lá
+        [two] { $count } athbhreithniú/lá
+        [few] { $count } athbhreithniú/lá
+        [many] { $count } n-athbhreithniú/lá
+       *[other] { $count } athbhreithniú/lá
     }
 statistics-minutes-per-day =
     { $count ->
