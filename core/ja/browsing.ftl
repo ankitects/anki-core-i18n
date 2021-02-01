@@ -93,6 +93,7 @@ browsing-step = 間隔:
 browsing-studied-today = 今日学習したカード
 browsing-suspended = 保留
 browsing-tag-duplicates = 重複にタグを付ける
+browsing-tag-rename-warning-empty = ノートのないタグ名を変更することはできません
 browsing-target-field = 対象フィールド:
 browsing-today = 今日
 browsing-toggle-mark = マークを付ける/除去する
@@ -112,8 +113,4 @@ browsing-note-count =
 browsing-note-deleted =
     { $count ->
        *[other] { $count }個のノートを削除しました。
-    }
-browsing-selected =
-    { $count ->
-       *[other] { $count }枚を選択
     }
