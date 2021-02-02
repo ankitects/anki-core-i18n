@@ -1,3 +1,6 @@
+custom-study-must-rename-deck = すでに存在しているカスタム学習デッキの名前を変更してください。
+custom-study-all-cards-in-random-order-dont = すべてのカードを無作為に並べる（スケジュール変更なし）
+custom-study-all-review-cards-in-random-order = すべての復習カードを無作為に並べる
 custom-study-cards = 枚
 custom-study-cards-from-the-deck = 選択中のデッキから取得
 custom-study-choose-tags = タグを選択

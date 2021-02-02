@@ -116,6 +116,7 @@ statistics-hours-title = 時間帯ごとの分析
 statistics-hours-subtitle = 時間帯ごとの正解率
 # shown when graph is empty
 statistics-no-data = データなし
+statistics-calendar-title = カレンダー
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -123,6 +124,12 @@ statistics-no-data = データなし
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount }秒
+statistics-elapsed-time-minutes = { $amount }分
+statistics-elapsed-time-hours = { $amount }時間
+statistics-elapsed-time-days = { $amount }日
+statistics-elapsed-time-months = { $amount }か月
+statistics-elapsed-time-years = { $amount }年
 
 ##
 
@@ -134,6 +141,8 @@ statistics-average = 平均
 statistics-average-interval = 平均間隔
 statistics-longest-interval = 最長間隔
 statistics-due-tomorrow = 明日が期日のカード
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
 statistics-average-over-period = 毎日学習した場合の平均
 statistics-average-ease = 易しさの平均値
 statistics-save-pdf = PDFで保存

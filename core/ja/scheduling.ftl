@@ -40,6 +40,9 @@ scheduling-today-review-limit-reached =
     復習カードはまだ残ってますが、今日の出題上限に達しました。
     適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。
 scheduling-today-new-limit-reached = まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = カスタム学習
 scheduling-always-include-question-side-when-replaying = 解答の音声・動画の前に質問の音声・動画も再生
 scheduling-at-least-one-step-is-required = 最低でも一つのステップが必要です。
 scheduling-automatically-play-audio = 音声を自動再生する
