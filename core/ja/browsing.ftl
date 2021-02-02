@@ -24,6 +24,7 @@ browsing-change-to = { $val } を以下に変更:
 browsing-clear-unused = 使用されていないタグを削除
 browsing-clear-unused-tags = 使用されていないタグを削除
 browsing-created = 作成日
+browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = 現在のデッキ
 browsing-current-note-type = 現在のノートタイプ:
 browsing-delete-notes = ノートを削除する
@@ -114,3 +115,4 @@ browsing-note-deleted =
     { $count ->
        *[other] { $count }個のノートを削除しました。
     }
+browsing-window-title = 検索（{ $total }枚のカード中{ $selected }枚を選択中）

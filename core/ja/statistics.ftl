@@ -114,6 +114,8 @@ statistics-hours-range = { $hourStart }時~{ $hourEnd }時
 statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
 statistics-hours-title = 時間帯ごとの分析
 statistics-hours-subtitle = 時間帯ごとの正解率
+# shown when graph is empty
+statistics-no-data = データなし
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,

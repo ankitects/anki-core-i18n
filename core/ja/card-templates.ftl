@@ -8,6 +8,15 @@ card-templates-back-preview = 裏面のプレビュー
 card-templates-preview-box = プレビュー
 card-templates-template-box = テンプレート
 card-templates-sample-cloze = これは { "{{c1::" }sample{ "}}" } 穴埋め問題です。
+card-templates-fill-empty = 空欄のフィールドを埋める
+card-templates-night-mode = 夜間モード
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = モバイルクラスを追加
+card-templates-preview-settings = オプション
+card-templates-invalid-template-number = カードテンプレート{ $number }に問題があります。
+card-templates-changes-saved = 変更を保存しました。
+card-templates-discard-changes = 変更を破棄しますか。
 card-templates-add-card-type = カードタイプを追加...
 card-templates-anki-couldnt-find-the-line-between = Anki は質問と答えの間に罫線を見つけられませんでした。質問と答えを切り替えるには、テンプレートを手動で調整してください。
 card-templates-at-least-one-card-type-is = 最低一つのカードタイプが必要です。
