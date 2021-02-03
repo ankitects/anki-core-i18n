@@ -1,6 +1,7 @@
 ## Errors shown when invalid search input is encountered.
-## Text wrapped in `backticks` is literal search input, and should generally not to be altered.
-## It's ok to change quotes however, eg:
+## Backticks change the text formatting, so please don't change the backticks.
+## Text inside backticks should not be changed unless noted.
+## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = Neplatné vyhledávání: { $reason }
@@ -16,6 +17,14 @@ search-missing-key = byla nalezena dvojtečka `:`, ale nepředcházelo jí žád
 search-invalid-flag = za `flag:` musí být platné číslo příznaku: `1` (červený), `2` (oranžový), `3` (zelený), `4` (modrý) nebo `0` (žádný příznak).
 search-invalid-prop-operator = za `prop:{ $val }` musí být jeden z následujících operátorů porovnání: `=`, `!=`, `<`, `>`, `<=` nebo `>=`.
 search-invalid-other = Prosím zkontrolujte překlepy.
+
+## eg. expected a number in "due>5x", but found "5x"
+
+search-invalid-number = očekáváno číslo v „`{ $context }`“, ale nalezeno „`{ $provided }`“.
+search-invalid-whole-number = očekáváno celé číslo v „`{ $context }`“, ale nalezeno „`{ $provided }`“.
+search-invalid-positive-whole-number = očekáváno kladné celé číslo v „`{ $context }`“, ale nalezeno „`{ $provided }`“.
+search-invalid-negative-whole-number = očekáváno celé číslo menší než 0 včetně v „`{ $context }`“, ale nalezeno „`{ $provided }`“.
+search-invalid-answer-button = očekáváno tlačítko odpovědi mezi 1-4 v „`{ $context }`“, ale nalezeno „`{ $provided }`“.
 
 ## Column labels in browse screen
 
