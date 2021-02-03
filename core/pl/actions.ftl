@@ -25,6 +25,7 @@ actions-red-flag = Czerwona flaga
 actions-rename = Zmień nazwę
 actions-rename-deck = Zmień nazwę talii
 actions-rename-tag = Zmień nazwę etykiety
+actions-remove-tag = Usuń etykietę
 actions-replay-audio = Odtwórz dźwięk
 actions-reposition = Zmień pozycję
 actions-save = Zapisz
