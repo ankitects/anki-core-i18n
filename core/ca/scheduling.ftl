@@ -82,7 +82,14 @@ scheduling-today-new-limit-reached =
     diari. Pots augmentar el límit en les opcions, però vés
     en compte que com més targetes noves introdueixis, més
     augmentarà la teva càrrega de treball a curt termini.
-scheduling-buried-cards-were-delayed = Algunes targetes relacionades o enterrades van ser ajornades a una sessió posterior.
+scheduling-buried-cards-found = Una o més tarjetes van ser enterrades i es mostraran demà. Pots { $unburyThem } si voleu veure'ls immediatament.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = desenterrar-les
+scheduling-how-to-custom-study = Si vols estudiar fora de l’horari habitual, pots utilitzar la funció { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = estudi personalitzat
 scheduling-always-include-question-side-when-replaying = Incloure sempre la cara de la pregunta quan es torni a reproduir l'áudio
 scheduling-at-least-one-step-is-required = Es requereix una passa com a mínim.
 scheduling-automatically-play-audio = Reprodueix l'àudio automàticament
@@ -131,7 +138,8 @@ scheduling-steps-must-be-numbers = Els pasos han de ser números.
 scheduling-tag-only = Només etiquetar
 scheduling-the-default-configuration-cant-be-removed = La configuració per defecte no pot ser eliminada.
 scheduling-your-changes-will-affect-multiple-decks = Els teus canvis afectaran a diversos malls. Si vols canviar únicament el mall actual, afegeix primer un nou grup d'opcions.
-scheduling-deck-updated = { $count ->
-    [one] { $count } mall actualitzat.
-   *[other] { $count } malls actualitzats.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } mall actualitzat.
+       *[other] { $count } malls actualitzats.
+    }

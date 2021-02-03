@@ -83,10 +83,12 @@ browsing-reposition = Reposicionar...
 browsing-reposition-new-cards = Reposicionar noves targetes
 browsing-reschedule = Torna a planificar
 browsing-save-current-filter = Guardar el filtre actual...
+browsing-search-bar-hint = Cerca targetes /notes (escriu text i prem Retorn)
 browsing-search-in = Buscar en :
 browsing-search-within-formatting-slow = Buscar en elements de format (lent)
 browsing-shift-position-of-existing-cards = Canviar la posició de les targetes existents
 browsing-sidebar = Barra lateral
+browsing-sidebar-filter = Filtre de la barra lateral
 browsing-sort-field = Camp ordenat
 browsing-sorting-on-this-column-is-not = No és possible canviar l'ordre en aquesta columna. Si us plau, tria una altra.
 browsing-start-position = Posició inicial:
@@ -94,12 +96,12 @@ browsing-step = Pas:
 browsing-studied-today = Estudiades avui.
 browsing-suspended = Suspès
 browsing-tag-duplicates = Etiquetar duplicats
+browsing-tag-rename-warning-empty = No es pot canviar el nom d'una etiqueta que no tingui notes.
 browsing-target-field = Camp destí:
 browsing-today = Avui
 browsing-toggle-mark = Commuta Marcar
 browsing-toggle-suspend = Commuta Suspendre
 browsing-treat-input-as-regular-expression = Tracta l'entrada com una expressió regular
-browsing-type-here-to-search = <escriu aquí per cercar; prem la tecla de retorn per veure el mall actual>
 browsing-whole-collection = Col·lecció sencera
 browsing-you-must-have-at-least-one = Hi ha d'haver almenys una columna.
 browsing-group =
@@ -117,8 +119,11 @@ browsing-note-deleted =
         [one] { $count } nota eliminada.
        *[other] { $count } notes eliminades.
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } seleccionada
-       *[other] { $count } seleccionades
-    }
+browsing-window-title = Navega ({ $selected } de { $total } targetes seleccionades)
+browsing-sidebar-expand-children = Expandir Fills
+browsing-sidebar-collapse-children = Col·lapsar Fills
+browsing-sidebar-decks = Malls
+browsing-sidebar-tags = Etiquetes
+browsing-sidebar-notetypes = Tipus de notes
+browsing-sidebar-saved-searches = Cerques Guardades
+browsing-sidebar-save-current-search = Guardar la Búsqueda Actual

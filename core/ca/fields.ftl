@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Text de dreta a esquerra (RTL)
 fields-size = Mida:
 fields-sort-by-this-field-in-the = Ordenar segons aquest camp al navegador
 fields-that-field-name-is-already-used = Aquest nom de camp ja està en ús.
+fields-name-first-letter-not-valid = El com del camp no hauria de començar per #, ^ or /.
+fields-name-invalid-letter = El nom del camp no hauria de contenir :, ", { "{" } or { "}" }.

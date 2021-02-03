@@ -89,6 +89,7 @@ statistics-counts-early-cards = Aviat
 statistics-counts-learning-cards = Apprender
 statistics-counts-relearning-cards = Reaprenent
 statistics-counts-title = Recompte de Targetes
+statistics-counts-separate-suspended-buried-cards = Separeu cartes suspeses / enterrades
 statistics-range-all-time = vita del fasce
 statistics-range-1-year-history = últims 12 mesOs
 statistics-range-all-history = tot l'historial
@@ -171,9 +172,8 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
 
+##
 
-
-statistics-error-fetching = S'han trobat dades no vàlides - sisplau, executi Comprovar Base de Dades per resoldre el problema.
 statistics-average-for-days-studied = Mitjana dels dies estudiats
 statistics-total = Total
 statistics-days-studied = Dies que heu estudiat

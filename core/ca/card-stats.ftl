@@ -21,4 +21,4 @@ card-stats-review-log-type-learn = Apprender
 card-stats-review-log-type-review = Contrarotlar
 card-stats-review-log-type-relearn = Reapprender
 card-stats-review-log-type-filtered = Filtrate
-card-stats-review-log-type-rescheduled = Re-programmation
+card-stats-review-log-type-manual = Manual

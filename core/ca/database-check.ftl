@@ -40,6 +40,13 @@ database-check-revlog-properties =
         [one] { $count } entrada corregida de revisió amb propietats no vàlidas.
        *[other] { $count } entrades corregides de revisió amb propietats no vàlidas.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] S'ha corregit { $count } la nota amb caràcters utf8 no vàlids.
+       *[other] S'han corregit  { $count } notes amb caràcters utf8 no vàlids.
+    }
+# "db-check" is always in English
+database-check-notetypes-recovered = Faltan un o més tipus de notes. A les notes que les feien servir s'han assignat nous tipus de notes el qual el seu nom comença amb "db-check", però els noms dels camps i el disseny de la targeta s'han perdut, pel que és millor que restableixi des d'una copia de seguretat automàtica.
 
 ## Progress info
 
