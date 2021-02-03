@@ -94,12 +94,12 @@ browsing-step = Krok:
 browsing-studied-today = Dnes nastudováno
 browsing-suspended = Odložené
 browsing-tag-duplicates = Duplikátní štítky
+browsing-tag-rename-warning-empty = Nelze přejmenovat štítek, který nemá žádné poznámky.
 browsing-target-field = Cílové pole:
 browsing-today = Dnes
 browsing-toggle-mark = Přepnout označení
 browsing-toggle-suspend = Přepnout odložení
 browsing-treat-input-as-regular-expression = Pokládat vstup za regulární výraz
-browsing-type-here-to-search = <zadejte text k vyhledání; stiskněte klávesu Enter pro zobrazení aktuálního balíku>
 browsing-whole-collection = Celá kolekce
 browsing-you-must-have-at-least-one = Je třeba alespoň jeden sloupec.
 browsing-group =
@@ -121,3 +121,8 @@ browsing-note-deleted =
        *[other] { $count } poznámek smazáno.
     }
 browsing-window-title = Prohlížet ({ $selected } z { $total } karet vybráno)
+browsing-sidebar-decks = Balíky
+browsing-sidebar-tags = Štítky
+browsing-sidebar-notetypes = Typy poznámek
+browsing-sidebar-saved-searches = Uložená hledání
+browsing-sidebar-save-current-search = Uložit současné hledání
