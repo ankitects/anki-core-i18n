@@ -1,6 +1,13 @@
 ## Shown at the top of the media check screen
 
 media-check-window-title = メディアを確認
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count =
+    ゴミ箱フォルダ：{ $count ->
+       *[other] { $count }ファイル、{ $megs }MB
+    }
 media-check-missing-count = 見つからないファイル数：{ $count }
 media-check-unused-count = 使用されていないファイル数：{ $count }
 media-check-renamed-count = 名前を変更したファイル数：{ $count }

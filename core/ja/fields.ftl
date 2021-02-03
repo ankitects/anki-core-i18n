@@ -12,3 +12,4 @@ fields-reverse-text-direction-rtl = 右から左入力 (RTL)
 fields-size = サイズ:
 fields-sort-by-this-field-in-the = このフィールドでソート(並び替え)する
 fields-that-field-name-is-already-used = そのフィールド名は既に使用しています。
+fields-name-first-letter-not-valid = フィールド名の始めに「#」「^」「/」を使用することはできません。

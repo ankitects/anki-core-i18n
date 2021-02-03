@@ -83,6 +83,7 @@ browsing-reposition = 新規カードの表示順序を変更...
 browsing-reposition-new-cards = 新規カードの表示順序を変更
 browsing-reschedule = スケジュールを変更
 browsing-save-current-filter = このフィルターを保存
+browsing-search-bar-hint = カード・ノートを検索（文字を入力し、Enterキー）
 browsing-search-in = 検索対象：
 browsing-search-within-formatting-slow = 書式済みの内容の中まで検索 (速度が低下します)
 browsing-shift-position-of-existing-cards = 既存のカードの順序を移動する
@@ -116,3 +117,10 @@ browsing-note-deleted =
        *[other] { $count }個のノートを削除しました。
     }
 browsing-window-title = 検索（{ $total }枚のカード中{ $selected }枚を選択中）
+browsing-sidebar-expand-children = 子ノードを開く
+browsing-sidebar-collapse-children = 子ノードを折りたたむ
+browsing-sidebar-decks = デッキ
+browsing-sidebar-tags = タグ
+browsing-sidebar-notetypes = ノートタイプ
+browsing-sidebar-saved-searches = 保存した検索
+browsing-sidebar-save-current-search = 検索を保存
