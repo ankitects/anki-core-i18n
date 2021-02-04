@@ -83,6 +83,7 @@ browsing-reposition = 調整順序...
 browsing-reposition-new-cards = 調整新卡片順序
 browsing-reschedule = 重新排程
 browsing-save-current-filter = 儲存當前篩選器...
+browsing-search-bar-hint = 搜尋卡片/筆記（輸入文字，然後按下 Enter 鍵）
 browsing-search-in = 搜尋範圍：
 browsing-search-within-formatting-slow = 搜尋（含格式，較慢）
 browsing-shift-position-of-existing-cards = 調整現有卡片的順序
@@ -116,6 +117,8 @@ browsing-note-deleted =
        *[other] 已刪除 { $count } 則筆記。
     }
 browsing-window-title = 瀏覽（已選取 { $selected } 張卡片，共 { $total } 張）
+browsing-sidebar-expand-children = 展開子系
+browsing-sidebar-collapse-children = 摺疊子系
 browsing-sidebar-decks = 牌組
 browsing-sidebar-tags = 標籤
 browsing-sidebar-notetypes = 筆記類型

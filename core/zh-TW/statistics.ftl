@@ -60,7 +60,7 @@ statistics-today-again-count = 「重來」計數：
 statistics-today-type-counts = 新學習卡片：{ $learnCount }．複習的卡片：{ $reviewCount }．重學習卡片：{ $relearnCount }．篩選的卡片：{ $filteredCount }
 statistics-today-no-cards = 今天尚未學習任何卡片
 statistics-today-no-mature-cards = 今天沒有學習熟練的卡片
-statistics-today-correct-mature = 回答正確的熟練卡片：{ $correct }/{ $total }（{ $percent }%）
+statistics-today-correct-mature = 回答正確的熟練卡片：{ $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 總數
 statistics-counts-new-cards = 新卡片
 statistics-counts-young-cards = 未熟練
@@ -130,7 +130,7 @@ statistics-intervals-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = 正確率：{ $correct }/{ $total }（{ $percent }%）
+statistics-hours-correct = 正確率：{ $correct }/{ $total } ({ $percent }%)
 statistics-hours-title = 每小時分析
 statistics-hours-subtitle = 當天每小時的複習成功率
 # shown when graph is empty
@@ -152,7 +152,6 @@ statistics-elapsed-time-years = { $amount } 年
 
 ##
 
-statistics-error-fetching = 發現無效資料——請使用「檢查資料庫」來修正此問題。
 statistics-average-for-days-studied = 平均值（只計算實際學習天數）
 statistics-total = 總計
 statistics-days-studied = 學習天數
@@ -162,7 +161,7 @@ statistics-average-interval = 平均間隔
 statistics-longest-interval = 最長的間隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount }/{ $total }（{ $percent }%）
+statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
 statistics-average-over-period = 平均值（包含沒有學習的天數）
 statistics-reviews-per-day =
     { $count ->

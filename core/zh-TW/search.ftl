@@ -15,9 +15,9 @@ search-empty-quote = 找到一組雙引號「""」但括號內沒有可供搜尋
 search-unclosed-quote = 找到一個雙引號「"」但在其之後缺少第二個引號來結束。若您想搜尋雙引號「"」本身，請在前面加上反斜線：「\"」。
 search-missing-key = 找到一個冒號「:」但在其之前缺少關鍵字。若您想搜尋冒號「:」本身，請在前面加上反斜線：「\:」。
 search-unknown-escape = 逸出序列「{ $val }」未定義。若您想搜尋反斜線本身「\」，請在前面再加上反斜「\\」。
-search-invalid-argument = ｢{ $term }｣收到了一條無效引數 '`{ $argument }`'。
-search-invalid-flag = ｢flag:」後必須接上有效旗標序號：「1」（紅色）、「2」（橙色）、「3」（綠色）、「4」（藍色）或「0」（無旗標）。
-search-invalid-prop-operator = ｢prop:{ $val }」後必須接上以下比較運算子之一：「=」、「!=」、「<」、「>」、「<=」、或「>=」。
+search-invalid-argument = `{ $term }` 收到了一條無效引數 '`{ $argument }`'。
+search-invalid-flag = 「flag:」後必須接上有效旗標序號：「1」（紅色）、「2」（橙色）、「3」（綠色）、「4」（藍色）或「0」（無旗標）。
+search-invalid-prop-operator = 「prop:{ $val }」後必須接上以下比較運算子之一：「=」、「!=」、「<」、「>」、「<=」、或「>=」。
 search-invalid-other = 請檢查有無輸入錯誤。
 
 ## eg. expected a number in "due>5x", but found "5x"
