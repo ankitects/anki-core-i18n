@@ -12,7 +12,7 @@ card-templates-preview-box = 預覽
 card-templates-template-box = 模板
 card-templates-sample-cloze = 這是一個克漏字空格{ "{{c1::" }範例{ "}}" }。
 card-templates-fill-empty = 填充空白欄位
-card-templates-night-mode = 夜晚模式
+card-templates-night-mode = 夜間模式
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = 新增行動裝置類別 (class)
