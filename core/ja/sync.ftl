@@ -36,7 +36,8 @@ sync-password-label = パスワード:
 sync-account-required =
     <h1>アカウントが必要です</h1>
     コレクションを同期するには無料のアカウントが必要です。<a href="{ $link }">登録</a> して、下の項目を入力して下さい。
-sync-sanity-check-failed = [データベースをチェック機能を使用し、
+sync-sanity-check-failed = データベースをチェック機能を使用した後、再度同期してください。問題が続くようであれば、設定画面より一方向に変更を強制実行してください。
+sync-clock-off = 同期できません。あなたの時計の時間が正しく設定されていません。
 
 ## Buttons
 
