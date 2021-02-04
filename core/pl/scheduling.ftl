@@ -103,7 +103,7 @@ scheduling-unbury-them = odkopać je
 scheduling-how-to-custom-study = Aby uczyć się poza normalnym rozkładem możesz użyć opcji { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
-scheduling-custom-study = Nauka Własna
+scheduling-custom-study = Nauka własna
 scheduling-always-include-question-side-when-replaying = Zawsze dołączaj stronę pytania przy odtwarzaniu nagrania
 scheduling-at-least-one-step-is-required = Wymagany jest przynajmniej jeden krok.
 scheduling-automatically-play-audio = Automatycznie odtwarzaj dźwięk
@@ -152,8 +152,9 @@ scheduling-steps-must-be-numbers = Kroki muszą być liczbami.
 scheduling-tag-only = Tylko etykieta
 scheduling-the-default-configuration-cant-be-removed = Usunięcie domyślnej konfiguracji nie jest możliwe.
 scheduling-your-changes-will-affect-multiple-decks = Twoje zmiany dotkną wiele talii. Jeśli chcesz zmienić tylko aktualną talię, dodaj najpierw nową grupę opcji.
-scheduling-deck-updated = { $count ->
-    [one] Zaktualizowano { $count } talię.
-    [few] Zaktualizowano { $count } talie.
-   *[other] Zaktualizowano { $count } talii.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] Zaktualizowano { $count } talię.
+        [few] Zaktualizowano { $count } talie.
+       *[other] Zaktualizowano { $count } talii.
+    }
