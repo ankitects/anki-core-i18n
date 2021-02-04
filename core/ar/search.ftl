@@ -1,6 +1,7 @@
 ## Errors shown when invalid search input is encountered.
-## Text wrapped in `backticks` is literal search input, and should generally not to be altered.
-## It's ok to change quotes however, eg:
+## Backticks change the text formatting, so please don't change the backticks.
+## Text inside backticks should not be changed unless noted.
+## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = بحث غير صالح: { $reason }
@@ -18,6 +19,9 @@ search-invalid-argument = أعطي `{ $term }` مدخلًا غير صالح '`{ 
 search-invalid-flag = يجب أن تتبع `flag:` برقم مؤشر صالح: `1` (أحمر)، `2` (برتقالي)، `3` (أخضر)، `4` (أزرق)، أو `0` (لا مؤشر).
 search-invalid-prop-operator = يجب أن تتبع `prop:{ $val }` بواحد من رموز عمليات المقارنة التالية: `=`، `!=`، `<`، `>`، `<=`، أو `>=`.
 search-invalid-other = يرجى التحقق من عدم وجود أخطاء كتابية.
+
+## eg. expected a number in "due>5x", but found "5x"
+
 search-invalid-number = توقعت رقمًا في "`{ $context }`"، لكني وجدت "`{ $provided }`".
 search-invalid-whole-number = توقعت رقمًا صحيحًا في "`{ $context }`"، لكني وجدت "`{ $provided }`".
 search-invalid-positive-whole-number = توقعت رقمًا إيجابيًا صحيحًا في "`{ $context }`"، لكني وجدت "`{ $provided }`".
@@ -31,3 +35,5 @@ search-card-modified = تاريخ تعديل البطاقة
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = عرض في المتصفح
