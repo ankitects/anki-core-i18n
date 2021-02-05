@@ -1,4 +1,5 @@
 empty-cards-for-note-type = { $notetype }の白紙カード：
+empty-cards-count-line = { $existing_count }枚中{ $empty_count }枚のカードが白紙（{ $template_names }）
 empty-cards-window-title = 白紙カード
 empty-cards-preserve-notes-checkbox = 有効なカードのないノートを保持する
 empty-cards-delete-button = 削除
