@@ -1,3 +1,4 @@
+empty-cards-for-note-type = { $notetype }の白紙カード：
 empty-cards-window-title = 白紙カード
 empty-cards-preserve-notes-checkbox = 有効なカードのないノートを保持する
 empty-cards-delete-button = 削除
