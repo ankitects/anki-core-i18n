@@ -53,6 +53,7 @@ statistics-counts-early-cards = 期日前
 statistics-counts-learning-cards = 基本学習
 statistics-counts-relearning-cards = 再基本学習
 statistics-counts-title = カード数
+statistics-counts-separate-suspended-buried-cards = 保留・延期カードを分ける
 statistics-range-all-time = 全期間
 statistics-range-1-year-history = １年間
 statistics-range-all-history = 全期間

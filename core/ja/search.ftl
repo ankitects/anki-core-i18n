@@ -16,3 +16,5 @@ search-card-modified = 変更日
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = 検索ブラウザで見る
