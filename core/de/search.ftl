@@ -35,3 +35,5 @@ search-card-modified = Lernfortschritt geändert
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = In der Kartenverwaltung anschauen
