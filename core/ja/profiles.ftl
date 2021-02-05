@@ -8,3 +8,6 @@ profiles-profile-corrupt = プロファイルの破損
 profiles-profiles = プロファイル
 profiles-quit = 終了
 profiles-user-1 = ユーザー 1
+profiles-confirm-lang-choice = Ankiのインターフェイスを{ $lang }で表示します。本当によろしいですか？
+profiles-prefs-corrupt-title = 設定の破損
+profiles-profile-does-not-exist = 要求されたプロファイルは存在しません。

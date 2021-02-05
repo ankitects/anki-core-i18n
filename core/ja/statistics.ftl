@@ -145,6 +145,18 @@ statistics-due-tomorrow = 明日が期日のカード
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
 statistics-average-over-period = 毎日学習した場合の平均
+statistics-reviews-per-day =
+    { $count ->
+       *[other] { $count }回／日
+    }
+statistics-minutes-per-day =
+    { $count ->
+       *[other] { $count }分／日
+    }
+statistics-cards-per-day =
+    { $count ->
+       *[other] { $count }枚／日
+    }
 statistics-average-ease = 易しさの平均値
 statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
