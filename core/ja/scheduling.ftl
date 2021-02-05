@@ -55,6 +55,7 @@ scheduling-bury-related-new-cards-until-the = 関連する新規カードを翌�
 scheduling-bury-related-reviews-until-the-next = 関連カードの復習を翌日まで延期する
 scheduling-days = 日
 scheduling-description = 説明
+scheduling-description-to-show-on-overview-screen = 現在のデッキの概要画面に表示される記述：
 scheduling-easy-bonus = 簡単と答えた時のボーナス
 scheduling-easy-interval = 簡単と回答してから復習開始までの間隔
 scheduling-end = (終了)

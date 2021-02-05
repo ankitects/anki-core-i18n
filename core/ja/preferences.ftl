@@ -8,6 +8,7 @@ preferences-change-deck-depending-on-note-type = カード追加の時、ノー�
 preferences-changes-will-take-effect-when-you = Ankiを再起動させると変更内容が反映されます。
 preferences-hours-past-midnight = 時
 preferences-interface-language = インターフェースの言語
+preferences-interrupt-current-audio-when-answering = 解答時に音声を中断する
 preferences-keep = 保存ファイル数
 preferences-learn-ahead-limit = 学習の前倒しの限度
 preferences-mins = 分

@@ -7,6 +7,7 @@ decks-custom-steps-in-minutes = カスタム学習ステップ（分）
 decks-deck = デッキ
 decks-decreasing-intervals = 間隔が大きい順
 decks-delete-deck = デッキを削除
+decks-enable-second-filter = ２つめのフィルタを有効
 decks-filter = フィルター：
 decks-filter-2 = フィルター２
 decks-get-shared = 共有デッキをダウンロード
@@ -30,6 +31,7 @@ decks-reschedule-cards-based-on-my-answers = このデッキの解答に基づ�
 decks-study = 学習
 decks-study-deck = デッキを学習する
 decks-the-provided-search-did-not-match = 指定した検索項目は、どのカードにも一致しませんでした。検索項目を変えてみてください。
-decks-it-has-card = { $count ->
-   *[other]  { $count }枚のカードが含まれています。
-  }
+decks-it-has-card =
+    { $count ->
+       *[other] { $count }枚のカードが含まれています。
+    }
