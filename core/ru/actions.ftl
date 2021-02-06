@@ -30,3 +30,4 @@ actions-save = Сохранить
 actions-search = Поиск
 actions-shortcut-key = Горячая клавиша: { $val }
 actions-suspend-card = Исключить карточку
+actions-set-due-date = Задать срок

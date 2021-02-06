@@ -30,3 +30,4 @@ actions-save = Salva
 actions-search = Cerca
 actions-shortcut-key = Tasto di scorciatoia: { $val }
 actions-suspend-card = Sospendi la carta
+actions-set-due-date = Imposta la data di scadenza

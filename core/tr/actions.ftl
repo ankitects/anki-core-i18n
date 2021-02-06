@@ -25,3 +25,4 @@ actions-save = Kaydet
 actions-search = Ara
 actions-shortcut-key = Kısayol tuşu: { $val }
 actions-suspend-card = Kartı Askıya Al
+actions-set-due-date = Son Tarihi Ayarla

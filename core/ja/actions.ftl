@@ -32,3 +32,4 @@ actions-save = 保存
 actions-search = 検索
 actions-shortcut-key = ショートカットキーは「{ $val }」
 actions-suspend-card = カードを保留
+actions-set-due-date = 期日設定

@@ -30,3 +30,4 @@ actions-save = ذخیره
 actions-search = جست‌و‌جو
 actions-shortcut-key = کلید میانبر: { $val }
 actions-suspend-card = معلق کردن کارت
+actions-set-due-date = انتخاب موعد مرور

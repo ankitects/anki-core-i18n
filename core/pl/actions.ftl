@@ -32,3 +32,4 @@ actions-save = Zapisz
 actions-search = Szukaj
 actions-shortcut-key = Skrót klawiszowy: { $val }
 actions-suspend-card = Zawieś kartę
+actions-set-due-date = Ustaw termin

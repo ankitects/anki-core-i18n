@@ -30,3 +30,4 @@ actions-save = Enregistrer
 actions-search = Chercher
 actions-shortcut-key = Raccourci : { $val }
 actions-suspend-card = Suspendre la carte
+actions-set-due-date = Définir une date d'échéance

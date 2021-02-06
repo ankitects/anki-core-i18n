@@ -32,3 +32,4 @@ actions-save = حفظ
 actions-search = بحث
 actions-shortcut-key = اختصار: { $val }
 actions-suspend-card = تعليق البطاقة
+actions-set-due-date = ضبط تاريخ الاستحقاق

@@ -30,3 +30,4 @@ actions-save = 保存
 actions-search = 搜索
 actions-shortcut-key = 快捷键: { $val }
 actions-suspend-card = 暂停卡片
+actions-set-due-date = 指定何时到期
