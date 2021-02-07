@@ -39,7 +39,7 @@ statistics-in-time-span-years =
     }
 statistics-cards = { $cards } 張卡片
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews } 張待複習卡片
+statistics-reviews = { $reviews } 張複習卡
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -119,7 +119,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = 積壓卡片
 statistics-intervals-title = 複習間隔
-statistics-intervals-subtitle = 待複習卡片再次出現前的延遲
+statistics-intervals-subtitle = 複習卡再次出現前的延遲
 statistics-intervals-day-range =
     { $cards ->
        *[other] { $cards } 張間隔為 { $daysStart }~{ $daysEnd } 天的卡片
