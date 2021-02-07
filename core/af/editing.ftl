@@ -1,5 +1,5 @@
 editing-add-media = Voeg Media By
-editing-an-error-occurred-while-opening = 'n Fout het plaasgevind  tydens die oopmaak van { $val }
+editing-an-error-occurred-while-opening = 'n Fout het voorgekom tydens die oopmaak van { $val }
 editing-cards = Kaarte
 editing-cut = Knip
 editing-edit-current = Wysig Huidige
@@ -8,7 +8,7 @@ editing-fields = Velde
 editing-html-editor = HTML Wysiger
 editing-jump-to-tags-with-ctrlandshiftandt = Spring na etikette met Ctrl+Shift+T
 editing-latex-equation = LaTeX vergelyking
-editing-latex-math-env = LaTeX wiskunde omgewing.
+editing-latex-math-env = LaTeX wiskunde omgewing
 editing-paste = Plak
 editing-show-duplicates = Wys Duplikate
 editing-tags = Etikette

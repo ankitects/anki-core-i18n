@@ -1,2 +1,2 @@
-search-note-modified = Gewysig
-search-card-modified = Gewysig
+search-note-modified = Nota Gewysig
+search-card-modified = Kaart Gewysig
