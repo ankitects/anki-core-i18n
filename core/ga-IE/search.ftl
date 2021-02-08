@@ -35,3 +35,5 @@ search-card-modified = Cárta Athraithe
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = Breathnaigh sa bhrabhsálaí
