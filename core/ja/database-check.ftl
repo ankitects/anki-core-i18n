@@ -6,6 +6,10 @@ database-check-field-count =
     { $count ->
        *[other] 正しくないフィールド数をもつ{ $count }個のノートを修正しました。
     }
+database-check-new-card-high-due =
+    { $count ->
+       *[other] 期日番号が>= 1,000,000の新規カードが{ $count }枚みつかりました。検索画面より再配置を実行することをおすすめします。
+    }
 database-check-card-missing-note = ノートのないカードを{ $count }枚削除しました。
 database-check-duplicate-card-ords =
     { $count ->
@@ -23,6 +27,8 @@ database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] 無効なutf8の文字が含まれる{ $count }個のノートを修正しました。
     }
+# "db-check" is always in English
+database-check-notetypes-recovered = ひとつかそれ以上のノートタイプがみつかりません。そのノートタイプを使用したノートには、"db-check"で始まる新しいノートタイプが与えられましたが、フィールド名やカードデザインの情報は失われています。そのため、自動バックアップから復元することをおすすめします。
 
 ## Progress info
 

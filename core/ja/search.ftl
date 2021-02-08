@@ -14,11 +14,19 @@ search-unclosed-group = 検索で`(`が使用されていますが、それに�
 search-empty-quote = 検索で二重引用符`""`が使用されていますが、引用符内に検索するものがありません。二重引用符の記号自体を検索したい場合は、手前にバックスラッシュをつけてください：`\"\"`
 search-unclosed-quote = 　検索で二重引用符`"`が使用されていますが、それを閉じるもう片方がみつかりません。`"`の記号自体を検索したい場合は、手前にバックスラッシュをつけてください：`\"`
 search-missing-key = 検索でコロン`:`が使用されていますが、その手前にキーワードがありません。`:`の記号自体を検索したい場合は、手前にバックスラッシュをつけてください：`\:`
+search-unknown-escape = エスケープシーケンス`{ $val }`は定義されていません。バックスラッシュ`\`自体を検索したい場合は、前にもう一つ付け加えてください：`\\`
+search-invalid-argument = `{ $term }` に無効な引数 '`{ $argument }`'が使用されています。
 search-invalid-flag = `flag:`に続けて有効なフラグ番号を入力してください：`1` (赤) `2` (橙) `3` (緑) `4` (青) `0` (フラグなし)
+search-invalid-prop-operator = `prop:{ $val }`の後には、以下の比較演算子のうちのいずれかが続く必要があります：`=`, `!=`, `<`, `>`, `<=` , `>=`
 search-invalid-other = 入力ミスがないか確認してください。
 
 ## eg. expected a number in "due>5x", but found "5x"
 
+search-invalid-number = "`{ $context }`"の数字であるべき箇所に "`{ $provided }`"が入力されています。
+search-invalid-whole-number = "`{ $context }`"の整数であるべき箇所に"`{ $provided }`"が入力されています。
+search-invalid-positive-whole-number = "`{ $context }`"の正の整数であるべき箇所に "`{ $provided }`"が入力されています。
+search-invalid-negative-whole-number = "`{ $context }`"の0かそれ未満の整数であるべき箇所に"`{ $provided }`"が入力されています。
+search-invalid-answer-button = "`{ $context }`"の回答ボタン1-4の間であるべき箇所に"`{ $provided }`"が入力されています。
 
 ## Column labels in browse screen
 
