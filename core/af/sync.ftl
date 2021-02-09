@@ -1,5 +1,5 @@
-sync-media-check-required = 'n Probleem het plaasgevind met media sinchronisasie. Gebruik asb Nutsprogramme>Ondersoek media, sinchroniseer dan weer om te korrigeer.
-sync-wrong-pass = AnkiWeb ID of die wagwoord was verkeerd probeer asseblief weer.
+sync-media-check-required = 'n Probleem het plaasgevind met media sinkronisering. Gebruik asseblief Nutsprogramme>Ondersoek media, sinchroniseer dan weer om te korrigeer.
+sync-wrong-pass = Die AnkiWeb ID of wagwoord was verkeerd probeer asseblief weer.
 sync-conflict-explanation =
     Die verskil tussen jou versamelinge hier en op AnkiWeb is van so n aard dat dit nie saamgesmeld kan word nie. Jy gaan een moet oorskryf met die ander.
     
@@ -13,10 +13,10 @@ sync-upload-to-ankiweb = Laai op na Ankiweb
 sync-cancel-button = Kanselleer
 sync-downloading-from-ankiweb = Besig om af te laai vanaf AnkiWeb...
 sync-uploading-to-ankiweb = Laai tans op na AnkiWeb...
-sync-syncing = Sinchroniseer...
+sync-syncing = Sinkroniseer...
 sync-checking = Besig om na te gaan...
 sync-password-label = Wagwoord:
 sync-account-required =
     <h1>Rekening Vereis</h1>
-     'n Gratis rekening is nodig om jou versameling te sinchroniseer.  <a href="{ $link }">Teken</ a> aan vir 'n rekening, dan vul jy jou besonderhede hieronder in.
+     'n Gratis AnkiWeb rekening is nodig om jou versameling te sinkroniseer.  <a href="{ $link }">Teken</ a> aan vir 'n rekening, dan vul jy jou besonderhede hieronder in.
 sync-connecting = Koppel tans...
