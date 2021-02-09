@@ -63,6 +63,9 @@ scheduling-how-to-custom-study = 若您想要在常規排程外學習更多內�
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = 自訂學習
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = 重播音訊時總是包含問題面
 scheduling-at-least-one-step-is-required = 至少要有一個學習階段。
 scheduling-automatically-play-audio = 自動播放音訊檔
@@ -114,4 +117,20 @@ scheduling-your-changes-will-affect-multiple-decks = 此變更將會影響多個
 scheduling-deck-updated =
     { $count ->
        *[other] 已更新 { $count } 個牌組。
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+       *[other] 要在多少天后顯示卡片？
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = 今天
+    1! = 明天+重設複習間隔
+    3-7 = 隨機選擇 3－7 天
+scheduling-set-due-date-done =
+    { $cards ->
+       *[other] 已為 { $cards } 張卡片設定到期日。
+    }
+scheduling-forgot-cards =
+    { $cards ->
+       *[other] 已忘記 { $card } 張卡片。
     }

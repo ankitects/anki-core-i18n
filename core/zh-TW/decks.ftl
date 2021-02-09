@@ -33,5 +33,5 @@ decks-study-deck = 學習牌組
 decks-the-provided-search-did-not-match = 無任何卡片符合此搜尋條件。是否修改條件？
 decks-it-has-card =
     { $count ->
-       *[other] 有 { $count } 張卡片。
+       *[other] 牌組內有 { $count } 張卡片。
     }

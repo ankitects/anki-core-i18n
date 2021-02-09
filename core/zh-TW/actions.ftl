@@ -33,3 +33,4 @@ actions-search = 搜尋
 actions-shortcut-key = 快速鍵：{ $val }
 actions-suspend-card = 擱置卡片
 actions-set-due-date = 設定到期日
+actions-forget = 忘記
