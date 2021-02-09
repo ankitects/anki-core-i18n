@@ -143,3 +143,22 @@ scheduling-deck-updated =
         [one] { $count } deck updated.
        *[other] { $count } decks updated.
     }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Show card in how many days?
+       *[other] Show cards in how many days?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = today
+    1! = tomorrow+reset review interval
+    3-7 = random choice of 3-7 days
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Set due date of { $cards } card.
+       *[other] Set due date of { $cards } cards.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Forgot { $card } card.
+       *[other] Forgot { $cards } cards.
+    }
