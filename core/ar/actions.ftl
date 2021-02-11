@@ -33,3 +33,4 @@ actions-search = بحث
 actions-shortcut-key = اختصار: { $val }
 actions-suspend-card = تعليق البطاقة
 actions-set-due-date = ضبط تاريخ الاستحقاق
+actions-forget = نسيان

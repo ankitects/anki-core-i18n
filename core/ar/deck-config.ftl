@@ -10,3 +10,5 @@ deck-config-used-by-decks =
        *[other] مستخدمة في { $decks } رزمة
     }
 deck-config-default-name = افتراضية
+deck-config-description-markdown = تفعيل markdown+HTML بسيط
+deck-config-description-markdown-hint = سيظهر كنص في أنكي 2.1.40 وما تحت.
