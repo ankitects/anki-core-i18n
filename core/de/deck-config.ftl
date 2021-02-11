@@ -6,3 +6,5 @@ deck-config-used-by-decks =
        *[other] { $decks } Stapeln
     }
 deck-config-default-name = Standard
+deck-config-description-markdown = Markdown + sauberes HTML aktivieren
+deck-config-description-markdown-hint = Wird als Text in Anki 2.1.40 und älter erscheinen

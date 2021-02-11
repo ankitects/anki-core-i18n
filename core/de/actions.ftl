@@ -33,3 +33,4 @@ actions-search = Suche
 actions-shortcut-key = Tastenkürzel: { $val }
 actions-suspend-card = Karte aussetzen
 actions-set-due-date = Fälligkeitsdatum auswählen
+actions-forget = &Vergessen

@@ -90,6 +90,9 @@ scheduling-how-to-custom-study = Wenn außerhalb des regulären Zeitplans gelern
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Benutzerdefiniertes Lernen
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Immer die Frageseite bei wiederholtem Abspielen von Audiodateien beifügen
 scheduling-at-least-one-step-is-required = Mindestens eine Lernstufe ist erforderlich.
 scheduling-automatically-play-audio = Audiodateien automatisch abspielen
@@ -138,7 +141,27 @@ scheduling-steps-must-be-numbers = Bitte Zahlen eingeben.
 scheduling-tag-only = Nur verschlagworten
 scheduling-the-default-configuration-cant-be-removed = Die Standardeinstellungen können nicht gelöscht werden.
 scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst eine neue Optionengruppe erstellen.
-scheduling-deck-updated = { $count ->
-    [one] { $count } Stapel wurde aktualisiert.
-   *[other] { $count } Stapel wurden aktualisiert.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } Stapel wurde aktualisiert.
+       *[other] { $count } Stapel wurden aktualisiert.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Karte in wie vielen Tagen anzeigen?
+       *[other] Karten in wie vielen Tagen anzeigen?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = heute
+    1! = morgen+Wiederholintervall zurücksetzen
+    3-7 = zufällige Auswahl von 3-7 Tagen
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Fälligkeitsdatum von { $cards } Karte gesetzt.
+       *[other] Fälligkeitsdatum von { $cards } Karten gesetzt.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] { $card } Karte vergessen.
+       *[other] { $cards } Karten vergessen.
+    }
