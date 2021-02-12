@@ -126,3 +126,4 @@ browsing-again-today = 今天按「重來」
 browsing-edited-today = 今天編輯
 browsing-sidebar-due-today = 今天到期
 browsing-sidebar-untagged = 沒有標籤
+browsing-sidebar-overdue = 逾期
