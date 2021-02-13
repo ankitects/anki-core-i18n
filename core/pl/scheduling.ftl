@@ -104,6 +104,9 @@ scheduling-how-to-custom-study = Aby uczyć się poza normalnym rozkładem może
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Nauka własna
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Zawsze dołączaj stronę pytania przy odtwarzaniu nagrania
 scheduling-at-least-one-step-is-required = Wymagany jest przynajmniej jeden krok.
 scheduling-automatically-play-audio = Automatycznie odtwarzaj dźwięk
@@ -157,4 +160,14 @@ scheduling-deck-updated =
         [one] Zaktualizowano { $count } talię.
         [few] Zaktualizowano { $count } talie.
        *[other] Zaktualizowano { $count } talii.
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = dziś
+    1! = jutro+ usuń przerwę powtórek
+    3-7 = losowy wybór w zakresie 3-7 dni
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Zapomniano { $card } kartę.
+        [few] Zapomniano { $cards } karty.
+       *[other] Zapomniano { $cards } kart.
     }
