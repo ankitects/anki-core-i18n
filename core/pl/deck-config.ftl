@@ -8,3 +8,5 @@ deck-config-used-by-decks =
        *[other] używa { $decks } talii
     }
 deck-config-default-name = Domyślna
+deck-config-description-markdown = Włącz markdown + czysty HTML
+deck-config-description-markdown-hint = Pojawi się jako tekst w wersji Anki 2.1.40 i niższej.

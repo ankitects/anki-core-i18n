@@ -161,10 +161,22 @@ scheduling-deck-updated =
         [few] Zaktualizowano { $count } talie.
        *[other] Zaktualizowano { $count } talii.
     }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Za ile dni pokazać kartę?
+        [few] Za ile dni pokazać karty?
+       *[other] Za ile dni pokazać karty?
+    }
 scheduling-set-due-date-prompt-hint =
     0 = dziś
     1! = jutro+ usuń przerwę powtórek
     3-7 = losowy wybór w zakresie 3-7 dni
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Ustaw termin przejrzenia { $cards } karty.
+        [few] Ustaw termin przejrzenia { $cards } kart.
+       *[other] Ustaw termin przejrzenia { $cards } kart.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Zapomniano { $card } kartę.
