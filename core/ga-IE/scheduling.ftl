@@ -113,6 +113,9 @@ scheduling-how-to-custom-study = Má tá fonn ort staidéar a dhéanamh taobh am
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Staidéar ar Leith
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Cas an cheist i gcónaí nuair a athsheinntear fuaim.
 scheduling-at-least-one-step-is-required = Teastaíonn ar a laghad céim amháin.
 scheduling-automatically-play-audio = Cas fuaimeanna go huathoibríoch
@@ -168,4 +171,32 @@ scheduling-deck-updated =
         [few] { $count } phaca nuashonraithe.
         [many] { $count } bpaca nuashonraithe.
        *[other] { $count } paca nuashonraithe.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Taispeáin an cárta seo i gceann cé mhéad lá?
+        [two] Taispeáin na cártaí seo i gceann cé mhéad lá?
+        [few] Taispeáin na cártaí seo i gceann cé mhéad lá?
+        [many] Taispeáin na cártaí seo i gceann cé mhéad lá?
+       *[other] Taispeáin na cártaí seo i gceann cé mhéad lá?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = inniu
+    1! = amárach+athshocraigh eatramh athbhreithnithe
+    3-7 = rogha randamach idir 3-7 lá
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Socraigh dáta staidéir { $cards } chárta amháin.
+        [two] Socraigh dáta staidéir { $cards } chárta.
+        [few] Socraigh dáta staidéir { $cards } chárta.
+        [many] Socraigh dáta staidéir { $cards } gcárta.
+       *[other] Socraigh dáta staidéir { $cards } cárta.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Ligtear { $card } chárta amháin i ndearmad.
+        [two] Ligtear { $card } chárta i ndearmad.
+        [few] Ligtear { $card } chárta i ndearmad.
+        [many] Ligtear { $card } gcárta i ndearmad.
+       *[other] Ligtear { $card } cárta i ndearmad.
     }

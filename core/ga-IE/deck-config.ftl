@@ -9,3 +9,5 @@ deck-config-used-by-decks =
        *[other] { $decks } paca
     }
 deck-config-default-name = Réamhshocrú
+deck-config-description-markdown = Cur markdown+clean HTML i bhfeidhm
+deck-config-description-markdown-hint = Feicfear mar théacs iad in Anki 2.1.40 nó leaganacha níos sine.

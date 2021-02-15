@@ -33,3 +33,4 @@ actions-search = Cuardaigh
 actions-shortcut-key = Cnaipe aicearra: { $val }
 actions-suspend-card = Cuir Cárta ar Fionraí
 actions-set-due-date = Socraigh Dáta Staidéir
+actions-forget = Lig i nDearmad
