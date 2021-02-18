@@ -129,3 +129,4 @@ browsing-again-today = Heute fehlgeschlagen
 browsing-edited-today = Bearbeitet
 browsing-sidebar-due-today = Fällig
 browsing-sidebar-untagged = Unmarkiert
+browsing-sidebar-overdue = Überfällig
