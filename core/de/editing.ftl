@@ -14,7 +14,7 @@ editing-edit-html = HTML eingeben
 editing-fields = Felder
 editing-html-editor = HTML-Editor
 editing-italic-text-ctrlandi = Kursiv ausgezeichneter Text (Strg+I)
-editing-jump-to-tags-with-ctrlandshiftandt = Schlagworte mit Strg+Umschalt+T bearbeiten
+editing-jump-to-tags-with-ctrlandshiftandt = Mit Strg+Umschalt+T zu den Schlagwörtern springen
 editing-latex = LaTeX
 editing-latex-equation = LaTeX-Formel
 editing-latex-math-env = LaTeX-Mathematikumgebung
@@ -29,7 +29,7 @@ editing-set-foreground-colour-f7 = Vordergrundfarbe festlegen (F7)
 editing-show-duplicates = Doppelte anzeigen
 editing-subscript-ctrland = Tiefgestellter Text (Strg+=)
 editing-superscript-ctrlandand = Hochgestellter Text (Strg++)
-editing-tags = Schlagworte
+editing-tags = Schlagwörter
 editing-to-make-a-cloze-deletion-on = Um einen Lückentext zu einer bereits vorhandenen Notiz hinzuzufügen, muss dieser erst der Notiztyp Lückentext zugewiesen werden. Dazu wählen Sie oben links in diesem Menü: 'Bearbeiten > Notiztyp ändern'
 editing-underline-text-ctrlandu = Text unterstreichen (Strg+U)
 editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur korrekt angezeigt, wenn oben als Notiztyp »Lückentext« gewählt wird.

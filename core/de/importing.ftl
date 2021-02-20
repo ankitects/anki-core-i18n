@@ -1,4 +1,3 @@
-importing-failed = Import fehlgeschlagen.
 importing-failed-debug-info = Import fehlgeschlagen. Die Fehlermeldung lautet:
 importing-aborted = Abgebrochen: { $val }
 importing-added-duplicate-with-first-field = Doppeltes zu { $val } hinzugefügt
@@ -25,9 +24,9 @@ importing-import-options = Einstellungen importieren
 importing-importing-complete = Import abgeschlossen.
 importing-invalid-file-please-restore-from-backup = Ungültige Datei. Bitte eine Sicherungskopie öffnen.
 importing-map-to = { $val } zuordnen
-importing-map-to-tags = Schlagworte zuordnen
+importing-map-to-tags = Schlagwörter zuordnen
 importing-mapped-to = abgebildet auf <b>{ $val }</b>
-importing-mapped-to-tags = abgebildet auf <b>Schlagworte</b>
+importing-mapped-to-tags = abgebildet auf <b>Schlagwörter</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Ein aus mehreren Zeichen zusammengesetzter Separator zum Trennen von Datenfeldern wird nicht unterstützt. Bitte geben Sie nur ein Zeichen als Separator ein.
 importing-notes-added-from-file = Notizen hinzugefügt von Datei: { $val }
