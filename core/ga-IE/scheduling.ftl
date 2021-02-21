@@ -114,6 +114,14 @@ scheduling-how-to-custom-study = Má tá fonn ort staidéar a dhéanamh taobh am
 # "... you can use the custom study feature."
 scheduling-custom-study = Staidéar ar Leith
 
+## Scheduler upgrade
+
+scheduling-update-soon = Cuireann Anki 2.1 aiste nua staidéir ar fáil a scaoileann deacrachtaí éagsúla a bhain le leaganacha níos sine. Moltar an aiste nua seo a chur i bhfeidhm.
+scheduling-update-done = Cuireadh an aiste staidéir nua i bhfeidhm.
+scheduling-update-button = Cuir i bhfeidhm
+scheduling-update-later-button = Fan scaitheamh eile
+scheduling-update-more-info-button = Tuilleadh eolais
+
 ## Other scheduling strings
 
 scheduling-always-include-question-side-when-replaying = Cas an cheist i gcónaí nuair a athsheinntear fuaim.

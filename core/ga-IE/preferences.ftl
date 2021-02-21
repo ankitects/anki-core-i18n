@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Sceidealóir Anki 2.1 (beta)
 preferences-automatically-sync-on-profile-openclose = Déan sioncronú go huathoibríoch nuair a dhúntar/osclaítear próifíl
 preferences-backups = Cóipeanna Cúltaca
 preferences-backups2 = cóip chúltaca
@@ -36,3 +35,4 @@ preferences-timebox-time-limit = Teorainn ama don tréimhse shocraithe
 preferences-user-interface-size = Méid an chomhéadain
 preferences-when-adding-default-to-current-deck = Cuir cártaí nua leis an bpaca atá oscailte mar réamhshocrú
 preferences-you-can-restore-backups-via-fileswitch = Chun cóipeanna cúltaca a thabhairt ar ais: Comhad>Athraigh Próifíl
+preferences-legacy-timezone-handling = Seanchóras oibrithe na n-amchrios (lochtach, ach éigeantach do leaganacha AnkiDroid <= 2.14)
