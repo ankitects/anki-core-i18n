@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = مجدول أنكي 2.1 (تجريبي)
 preferences-automatically-sync-on-profile-openclose = مزامنة تلقائية عند فتح الملف الشخصي وإغلاقه
 preferences-backups = نُسخ احتياطية
 preferences-backups2 = نسخ احتياطية
@@ -36,3 +35,4 @@ preferences-timebox-time-limit = مهلة تقسيم المهام
 preferences-user-interface-size = حجم واجهة المستخدم
 preferences-when-adding-default-to-current-deck = معاملة الرزمة الحالية كرزمة افتراضية عند إضافة بطاقات
 preferences-you-can-restore-backups-via-fileswitch = تستطيع استعادة النسخ الاحتياطية من خلال ملف>تبديل الملف الشخصي.
+preferences-legacy-timezone-handling = طريقة المعالجة القديمة للمناطق الزمنية (فيها أخطاء، لكنها متطلبة لإصدارات أنكيدرويد من 2.14 وأقدم)

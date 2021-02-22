@@ -129,6 +129,14 @@ scheduling-how-to-custom-study = إذا كنت تريد الدراسة خارج 
 # "... you can use the custom study feature."
 scheduling-custom-study = الدراسة المخصصة
 
+## Scheduler upgrade
+
+scheduling-update-soon = يأتي أنكي 2.1 مع مجدول جديد يصلح عددًا من المشاكل الموجودة في النسخ السابقة. ينصح بالترقية إليه.
+scheduling-update-done = تمت ترقية المجدول بنجاح.
+scheduling-update-button = ترقية
+scheduling-update-later-button = لاحقًا
+scheduling-update-more-info-button = تعلم المزيد
+
 ## Other scheduling strings
 
 scheduling-always-include-question-side-when-replaying = تضمين أصوات جانب السؤال عند إعادة تشغيل الملفات الصوتية دائمًا
