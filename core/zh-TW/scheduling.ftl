@@ -64,6 +64,14 @@ scheduling-how-to-custom-study = 若您想要在常規排程外學習更多內�
 # "... you can use the custom study feature."
 scheduling-custom-study = 自訂學習
 
+## Scheduler upgrade
+
+scheduling-update-soon = Anki 2.1 隨附了新版排程器，解決了舊版本 Anki 的一些問題。推薦更新到新版排程器。
+scheduling-update-done = 已成功更新排程器。
+scheduling-update-button = 更新
+scheduling-update-later-button = 稍後
+scheduling-update-more-info-button = 進一步了解
+
 ## Other scheduling strings
 
 scheduling-always-include-question-side-when-replaying = 重播音訊時總是包含問題面

@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Anki 2.1 排程器（測試版）
 preferences-automatically-sync-on-profile-openclose = 在開啟或關閉設定檔時自動進行同步
 preferences-backups = 備份
 preferences-backups2 = 個備份
@@ -36,3 +35,4 @@ preferences-timebox-time-limit = 計時器設定
 preferences-user-interface-size = 使用者介面大小
 preferences-when-adding-default-to-current-deck = 新增時，預設加入當前牌組
 preferences-you-can-restore-backups-via-fileswitch = 您可以透過「檔案」>「切換設定檔」來恢復備份。
+preferences-legacy-timezone-handling = 舊版時區處理（易出錯，但 AnkiDroid 2.14 及以下版本必須使用）
