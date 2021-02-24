@@ -105,6 +105,14 @@ scheduling-how-to-custom-study = Aby uczyć się poza normalnym rozkładem może
 # "... you can use the custom study feature."
 scheduling-custom-study = Nauka własna
 
+## Scheduler upgrade
+
+scheduling-update-soon = W Anki 2.1 zaimplementowano nowego planistę, który naprawia liczne błędy poprzednich wersji Anki. Zalecane jest uaktualnienie planisty do nowszej wersji.
+scheduling-update-done = Pomyślnie uaktualniono planistę.
+scheduling-update-button = Uaktualnij
+scheduling-update-later-button = Później
+scheduling-update-more-info-button = Dowiedz się więcej
+
 ## Other scheduling strings
 
 scheduling-always-include-question-side-when-replaying = Zawsze dołączaj stronę pytania przy odtwarzaniu nagrania

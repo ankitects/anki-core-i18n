@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Planista Anki 2.1 (beta)
 preferences-automatically-sync-on-profile-openclose = Automatycznie synchronizuj przy otwarciu/zamknięciu profilu
 preferences-backups = Kopie zapasowe
 preferences-backups2 = kopii zapasowych
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <b>Kopie zapasowe</b><br>Przy 
 preferences-basic = Ogólne
 preferences-change-deck-depending-on-note-type = Zmień talię na podstawie typu notatki
 preferences-changes-will-take-effect-when-you = Zmiany będą miały skutek kiedy ponownie uruchomisz Anki.
-preferences-hardware-acceleration-faster-may-cause-display = Przyspieszanie sprzętowe (szybsze, możliwe błędy wyświetlania)
 preferences-hours-past-midnight = godziny po północy
 preferences-interface-language = Język interfejsu:
 preferences-interrupt-current-audio-when-answering = Przerywaj odtwarzany dźwięk podczas powtórki
@@ -37,3 +35,4 @@ preferences-timebox-time-limit = Limit czasowy na sesję
 preferences-user-interface-size = Rozmiar interfejsu
 preferences-when-adding-default-to-current-deck = Dodawaj domyślnie do aktualnej talii
 preferences-you-can-restore-backups-via-fileswitch = Możesz przywrócić kopie zapasowe poprzez Plik>Przełącz profil.
+preferences-legacy-timezone-handling = Przestarzała obsługa stref czasowych (posiadająca błędy, lecz wymagana do obsługi AnkiDroid <=  2.14)
