@@ -13,6 +13,9 @@ search-invalid-other = Sprawdź, czy nie ma literówek.
 ## eg. expected a number in "due>5x", but found "5x"
 
 search-invalid-number = oczekiwano liczby w "`{ $context }`", lecz znaleziono "`{ $provided }`".
+search-invalid-whole-number = oczekiwano liczby całkowitej w "`{ $context } "`, lecz znaleziono "`{ $provided } "`.
+search-invalid-positive-whole-number = oczekiwano dodatniej liczby całkowitej w "`{ $context } "`, lecz znaleziono "`{ $provided } "`.
+search-invalid-negative-whole-number = oczekiwano liczby całkowitej mniejszej lub równej 0 w "`{ $context } "`, lecz znaleziono "`{ $provided } "`.
 search-invalid-answer-button = oczekiwano przycisku odpowiedzi w granicach 1-4 w "`{ $context }`", lecz znaleziono "`{ $provided }`".
 
 ## Column labels in browse screen
