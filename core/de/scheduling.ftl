@@ -91,6 +91,14 @@ scheduling-how-to-custom-study = Wenn außerhalb des regulären Zeitplans gelern
 # "... you can use the custom study feature."
 scheduling-custom-study = Benutzerdefiniertes Lernen
 
+## Scheduler upgrade
+
+scheduling-update-soon = Anki 2.1 kommt mit einem neuen Zeitplaner, welcher eine Anzahl von Problemen aus vorherigen Versionen von Anki löst. Das Updaten auf diesen wird empfohlen.
+scheduling-update-done = Zeitplaner erfolgreich geupdated.
+scheduling-update-button = Updaten
+scheduling-update-later-button = Später
+scheduling-update-more-info-button = Mehr lernen
+
 ## Other scheduling strings
 
 scheduling-always-include-question-side-when-replaying = Immer die Frageseite bei wiederholtem Abspielen von Audiodateien beifügen

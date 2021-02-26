@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Anki 2.1-Zeitplaner (Beta)
 preferences-automatically-sync-on-profile-openclose = Beim Öffnen/Schließen eines Profils automatisch synchronisieren
 preferences-backups = Sicherungskopien
 preferences-backups2 = Sicherungskopien
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span st
 preferences-basic = Einfach
 preferences-change-deck-depending-on-note-type = Stapel abhängig vom Notiztyp zuweisen
 preferences-changes-will-take-effect-when-you = Die Änderungen werden nach einem Neustart von Anki wirksam.
-preferences-hardware-acceleration-faster-may-cause-display = Hardwarebeschleunigung aktivieren (schneller, kann Darstellungsprobleme verursachen)
 preferences-hours-past-midnight = Stunden nach Mitternacht
 preferences-interface-language = Sprache der Benutzeroberfläche:
 preferences-interrupt-current-audio-when-answering = Audiowiedergabe beim Antworten unterbrechen
@@ -37,3 +35,4 @@ preferences-timebox-time-limit = Zeitbegrenzung für Sitzungen
 preferences-user-interface-size = Schriftgröße der Benutzeroberfläche
 preferences-when-adding-default-to-current-deck = Beim Hinzufügen aktuellen Stapel als Standard festlegen
 preferences-you-can-restore-backups-via-fileswitch = Sie können eine Sicherungskopie über den Menüpunkt Datei>"Profil wechseln"  wiederherstellen
+preferences-legacy-timezone-handling = Veralteter Umgang mit Zeitzonen (fehleranfällig, aber für AnkiDroid <= 2.14 vorausgesetzt)
