@@ -31,6 +31,7 @@ decks-reschedule-cards-based-on-my-answers = إعادة جدولة البطاق�
 decks-study = دراسة
 decks-study-deck = دراسة رزمة
 decks-the-provided-search-did-not-match = لم يطابق الفلتر المعطى أي بطاقة. هل تريد تعديله؟
+decks-unmovable-cards = إظهار البطاقات المستثناة
 decks-it-has-card =
     { $count ->
         [zero] ليس فيها أي بطاقة.
