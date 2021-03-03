@@ -5,3 +5,5 @@ deck-config-used-by-decks =
        *[other] { $decks } عدد دسته
     }
 deck-config-default-name = پیش‌فرض
+deck-config-description-markdown = فعال کردن مارک‌داون+پاک کردن اچ تی ام ال
+deck-config-description-markdown-hint = در آنکی 2.1.40 و نسخه‌های پایین‌تر به صورت متن ساده نشان داده خواهد شد.

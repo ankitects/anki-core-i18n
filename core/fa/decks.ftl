@@ -31,6 +31,8 @@ decks-reschedule-cards-based-on-my-answers = کارت‌ها بر اساس پا�
 decks-study = مطالعه
 decks-study-deck = مطالعۀ دسته
 decks-the-provided-search-did-not-match = هیچ کارتی با این مشخصات یافت نشد. تغییر جستجو؟
-decks-it-has-card = { $count ->
-   *[other] حاوی { $count } کارت.
-  }
+decks-unmovable-cards = نمایش همه کارت‌های صرف نظر شده
+decks-it-has-card =
+    { $count ->
+       *[other] حاوی { $count } کارت.
+    }

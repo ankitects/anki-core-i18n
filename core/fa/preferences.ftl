@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = زمانبندی کارت‌ها به روش Anki 2.1 (بتا)
 preferences-automatically-sync-on-profile-openclose = همگام‌سازی خودکار با بازکردن/بستن پروفایل.
 preferences-backups = پشتیبان‌ها
 preferences-backups2 = پشتیبان‌ها
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <b>پشتیبان‌گیری</
 preferences-basic = پایه
 preferences-change-deck-depending-on-note-type = تغییر دسته براساس نوع یادداشت
 preferences-changes-will-take-effect-when-you = تغییرات بعد از اینکه شمال آنکی را ری‌استارت کردید اعمال خواهند شد.
-preferences-hardware-acceleration-faster-may-cause-display = شتاب‌دهی سخت‌افزاری (سریع‌تر، احتمال بروز مشکلات نمایشی)
 preferences-hours-past-midnight = ساعت از نیمه شب گذشته
 preferences-interface-language = زبان رابط کاربری:
 preferences-interrupt-current-audio-when-answering = توقف پخش صدا هنگام نمایش پاسخ
@@ -37,3 +35,4 @@ preferences-timebox-time-limit = بازۀ زمانی هشدار مطالعه
 preferences-user-interface-size = اندازۀ رابط کاربری
 preferences-when-adding-default-to-current-deck = هنگام افزدون کارت جدید، دسته فعلی به عنوان پیش فرض باشد
 preferences-you-can-restore-backups-via-fileswitch = شما می‌توانید فایل‌های پشتیبان را از مسیر فایل>تغییر پروفایل بازگردانی کنید.
+preferences-legacy-timezone-handling = مدیریت بازه زمانی قدیمی (دارای باگ، ولی برای AnkiDroid قدیمی‌تر از 2.14 ضروری است)

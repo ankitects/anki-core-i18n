@@ -88,6 +88,17 @@ scheduling-how-to-custom-study = اگر می خواهید خارج از برنا
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = مطالعه سفارشی
+
+## Scheduler upgrade
+
+scheduling-update-soon = آنکی 2.1 دارای سیستم زمانبندی جدید است که تعدادی از مشکلات نسخه‌های قبلی آنکی را حل می‌کند. به‌روزرسانی آن توصیه می‌شود.
+scheduling-update-done = سیستم زمانبندی با موفقیت به‌روزرسانی شد.
+scheduling-update-button = به‌روزرسانی
+scheduling-update-later-button = بعداً
+scheduling-update-more-info-button = اطلاعات بیشتر
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = در هنگام پخش صدا، قسمت سوال همیشه پخش شود
 scheduling-at-least-one-step-is-required = حداقل یک مرحله لازم است.
 scheduling-automatically-play-audio = پخش خودکار صدا
@@ -136,6 +147,23 @@ scheduling-steps-must-be-numbers = مراحل باید عدد باشند.
 scheduling-tag-only = فقط برچسب
 scheduling-the-default-configuration-cant-be-removed = تنظیمات پیش فرض قابل حذف نیست.
 scheduling-your-changes-will-affect-multiple-decks = تغییرات شما بر روی چندین دسته تأثیر خواهد گذاشت. اگر می‌خواهید تغییرات فقط بر روی دستۀ فعلی تأثیر بگذارد، لطفا ابتدا یک گروه اختیارات جدید اضافه کنید.
-scheduling-deck-updated = { $count ->
-   *[other] { $count } دسته بروز شد.
-  }
+scheduling-deck-updated =
+    { $count ->
+       *[other] { $count } دسته بروز شد.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+       *[other] نمایش کارت بعد از چند روز؟
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = امروز
+    1! = فردا + بازنشانی بازه‌های مرور
+    3-7 = در 3 تا 7 روز آینده
+scheduling-set-due-date-done =
+    { $cards ->
+       *[other] تنظیم تاریخ مرور { $cards } عدد کارت.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+       *[other] تعداد { $card } کارت فراموش شده بود.
+    }

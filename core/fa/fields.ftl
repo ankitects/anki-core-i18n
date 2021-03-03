@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = جهت متن معکوس (راست به چپ
 fields-size = اندازه:
 fields-sort-by-this-field-in-the = بر اساس این فیلد در مرورگر مرتب کن
 fields-that-field-name-is-already-used = نام فیلد قبلا استفاده شده است.
+fields-name-first-letter-not-valid = نام فیلد نباید با #، ^ یا / شروع شود.
+fields-name-invalid-letter = نام فیلد نباید حاوی :، { "{" } یا { "}" } باشد.
