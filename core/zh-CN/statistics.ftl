@@ -3,7 +3,7 @@ statistics-due-date = 到期
 # The count of cards waiting to be reviewed
 statistics-due-count = 到期
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = 新卡
+statistics-due-for-new-card = 新卡 #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -133,7 +133,6 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
-statistics-error-fetching = 发现无效数据——请使用“检查数据库”来修复此问题。
 statistics-average-for-days-studied = 平均
 statistics-total = 总计
 statistics-days-studied = 打卡天数
