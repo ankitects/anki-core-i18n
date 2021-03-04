@@ -7,3 +7,5 @@ undo-action-redone = { $action } Redone
 
 undo-answer-card = Answer Card
 
+undo-undo = Undo
+undo-redo = Redo
