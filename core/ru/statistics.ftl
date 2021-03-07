@@ -101,6 +101,7 @@ statistics-counts-early-cards = Ранние
 statistics-counts-learning-cards = Изучаемые
 statistics-counts-relearning-cards = Переучиваемые
 statistics-counts-title = Количество карточек
+statistics-counts-separate-suspended-buried-cards = Отдельные исключённые/отложенные карточки
 statistics-range-all-time = всё время
 statistics-range-1-year-history = за 12 месяцев
 statistics-range-all-history = вся история
@@ -158,6 +159,7 @@ statistics-cards-due =
         [many] { $cards } карт за
        *[other] { $cards } карт за
     }
+statistics-backlog-checkbox = Отставание
 statistics-intervals-title = Интервалы
 statistics-intervals-subtitle = Задержки перед следующим повторением.
 statistics-intervals-day-range =
@@ -198,7 +200,6 @@ statistics-elapsed-time-years = { $amount } г.
 
 ##
 
-statistics-error-fetching = Найдены недопустимые данные - используйте "Проверить базу данных" для исправления проблемы.
 statistics-average-for-days-studied = В среднем в день учёбы
 statistics-total = Всего
 statistics-days-studied = Дней учёбы

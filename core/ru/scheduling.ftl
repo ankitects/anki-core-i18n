@@ -181,3 +181,19 @@ scheduling-set-due-date-prompt =
         [few] Через сколько дней показать карточки?
        *[other] Через сколько дней показать карточки?
     }
+scheduling-set-due-date-prompt-hint =
+    0 = завтра¶
+    1! = завтра+интервал сброса обзоров¶
+    3-7 = случайный выбор 3-7 дней
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Установить срок просмотра { $cards } карточки.
+        [few] Установить срок просмотра { $cards } карточек.
+       *[other] Установить срок просмотра { $cards } карточек.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Забытая { $card } карточка.
+        [few] Забытые { $card } карточки.
+       *[other] Забытые { $card } карточки.
+    }
