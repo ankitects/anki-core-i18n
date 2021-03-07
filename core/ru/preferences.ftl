@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Бета-версия планировщика Anki 2.1
 preferences-automatically-sync-on-profile-openclose = Автоматически синхронизировать при открытии и закрытии профиля
 preferences-backups = Резервные копии
 preferences-backups2 = резервных копий
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <b>Резервные копи
 preferences-basic = Основная
 preferences-change-deck-depending-on-note-type = Изменить колоду в зависимости от типа записи
 preferences-changes-will-take-effect-when-you = Изменения вступят в силу при перезапуске Anki.
-preferences-hardware-acceleration-faster-may-cause-display = Аппаратное ускорение (может вызвать проблемы)
 preferences-hours-past-midnight = ч. после полуночи
 preferences-interface-language = Язык интерфейса:
 preferences-interrupt-current-audio-when-answering = Прерывать аудио при ответе
@@ -37,3 +35,4 @@ preferences-timebox-time-limit = Лимит ограничения времен�
 preferences-user-interface-size = Размер интерфейса
 preferences-when-adding-default-to-current-deck = По умолчанию помещать создаваемое в текущую колоду
 preferences-you-can-restore-backups-via-fileswitch = Вы можете восстановить резервную копию через «Файл» — «Сменить профиль».
+preferences-legacy-timezone-handling = Устаревшая обработка часовых поясов (ошибка, но требуется для AnkiDroid <= 2.14)

@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Направление текста спра
 fields-size = Размер:
 fields-sort-by-this-field-in-the = Сортировать список по этому полю
 fields-that-field-name-is-already-used = Заданное имя уже используется
+fields-name-first-letter-not-valid = Имя поля не должно начинаться с #, ^ или /.
+fields-name-invalid-letter = Имя поля не должно содержать :, ",  { "{" } или { "}" }.

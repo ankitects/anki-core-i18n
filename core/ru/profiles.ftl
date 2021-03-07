@@ -9,5 +9,7 @@ profiles-profiles = Профили
 profiles-quit = Выйти
 profiles-user-1 = 1-й пользователь
 profiles-confirm-lang-choice = Вы точно хотите переключить язык интерфейса Anki на { $lang }?
+profiles-could-not-create-data-folder = Anki не смогла создать свою папку данных. Пожалуйста, ознакомьтесь с разделом "Местоположение файлов" в руководстве и убедитесь, что местоположение не "только для чтения".
 profiles-prefs-corrupt-title = Настройки повреждены
+profiles-prefs-file-is-corrupt = Файл Anki pres21.db был повреждён и восстановлен. Если вы использовали несколько профилей, пожалуйста, добавьте их обратно, используя те же имена для восстановления карточек.
 profiles-profile-does-not-exist = Запрошенный профиль не существует
