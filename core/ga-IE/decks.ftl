@@ -31,6 +31,7 @@ decks-reschedule-cards-based-on-my-answers = Athsceidealaigh cártaí de réir f
 decks-study = Déan staidéar
 decks-study-deck = Paca Staidéir
 decks-the-provided-search-did-not-match = Níor aimsíodh aon chárta a bhí ag teacht leis na sainithe a tugadh. Athraigh na sainithe?
+decks-unmovable-cards = Taispeáin aon chárta a fágadh as
 decks-it-has-card =
     { $count ->
         [one] Tá { $count } chárta amháin mar chuid de.
