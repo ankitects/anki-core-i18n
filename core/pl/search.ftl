@@ -7,8 +7,10 @@
 search-invalid-search = Nieprawidłowe wyszukiwanie: { $reason }
 search-misplaced-and = znaleziono `and`, jednak nie łączy ono dwóch wyszukiwanych terminów. Jeśli chcesz znaleźć konkretnie to słowo, umieść je w cudzysłowie: `"and"`.
 search-misplaced-or = znaleziono `or`, jednak nie łączy ono dwóch wyszukiwanych terminów. Jeśli chcesz znaleźć konkretnie to słowo, umieść je w cudzysłowie: `"or"`.
+search-missing-key = pojawił się dwukropek `:` niepoprzedzony słowem kluczowym. Jeśli chcesz wyszukać znak `:`, poprzedź go ukośnikiem: `\:`.
 search-invalid-argument = `{ $term }` nadano nieprawidłowy  argument '`{ $argument } '`.
 search-invalid-flag = Po tekście wyszukiwania `flag:` należy wpisać prawidłowy numer flagi:  "1" (czerwony),  "2" (pomarańczowy), "3" (zielony), "4" (niebieski) lub "0" (brak flagi).
+search-invalid-prop-operator = po `prop:{ $val }` musi następować jeden z operatorów porównania: `=`, `!=`, `<`, `>`, `<=` lub `>=`.
 search-invalid-other = Sprawdź, czy nie ma literówek.
 
 ## eg. expected a number in "due>5x", but found "5x"
