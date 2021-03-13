@@ -1,6 +1,6 @@
 importing-failed-debug-info = Theip ar iompórtáil.  Sonraí dífhabhtaithe:
 importing-aborted = Tobscortha: { $val }
-importing-added-duplicate-with-first-field = Cuirtear dúblach leis, agus '{ $val }' mar chéad réimse aige.
+importing-added-duplicate-with-first-field = Dúblach atá sa chárta a cuireadh leis agus é seo mar chéad réimse aige: { $val }
 importing-allow-html-in-fields = Ceadaigh HTML i réimsí
 importing-anki-files-are-from-a-very = Baineann comhaid .anki le leagan fíorshean de Anki. Is féidir iad a iompórtáil le Anki 2.0, atá ar fáil ar láithreán gréasáin Anki.
 importing-anki2-files-are-not-directly-importable = Ní féidir iompórtáil díreach a dhéanamh ar chomhaid .anki2. Déan iompórtáil ar an gcomhad .apkg nó .zip ina n-áit.
