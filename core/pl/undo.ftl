@@ -9,7 +9,7 @@ undo-action-redone = Ponowiono { $action }
 
 ## Action that can be undone
 
-undo-answer-card = Odpowiedz na kartę
+undo-answer-card = Odpowiedzenie na kartę
 undo-unbury-unsuspend = Odkopanie/odwieszenie
 undo-add-note = Dodanie notatki
 undo-update-tag = Aktualizacja etykiety
