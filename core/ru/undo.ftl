@@ -10,7 +10,7 @@ undo-action-redone = { $action } Повторено
 ## Action that can be undone
 
 undo-answer-card = Карточка ответа
-undo-unbury-unsuspend = Включить
+undo-unbury-unsuspend = Вернуть/Включить
 undo-add-note = Добавить запись
 undo-update-tag = Обновить метку
 undo-update-note = Обновить запись

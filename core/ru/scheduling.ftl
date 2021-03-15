@@ -173,7 +173,7 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } колода обновлена.
         [few] { $count } колоды обновлены.
-       *[other] { $count } колод обновлены.
+       *[other] { $count } колод обновлено.
     }
 scheduling-set-due-date-prompt =
     { $cards ->

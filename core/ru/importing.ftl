@@ -56,29 +56,29 @@ importing-note-added =
     { $count ->
         [one] { $count } запись добавлена
         [few] { $count } записи добавлены
-       *[other] { $count } записей добавлены
+       *[other] { $count } записей добавлено
     }
 importing-note-imported =
     { $count ->
         [one] { $count } запись импортирована.
         [few] { $count } записи импортированы.
-       *[other] { $count } записей импортированы.
+       *[other] { $count } записей импортировано.
     }
 importing-note-unchanged =
     { $count ->
         [one] { $count } запись не изменена
         [few] { $count } записи не изменены
-       *[other] { $count } записей не изменены
+       *[other] { $count } записей не изменено
     }
 importing-note-updated =
     { $count ->
         [one] { $count } запись обновлена
         [few] { $count } записи обновлены
-       *[other] { $count } записей обновлены
+       *[other] { $count } записей обновлено
     }
 importing-processed-media-file =
     { $count ->
         [one] Обработан { $count } медиафайл
         [few] Обработано { $count } медиафайла
-       *[other] Обработаны { $count } медиафайлов
+       *[other] Обработано { $count } медиафайлов
     }
