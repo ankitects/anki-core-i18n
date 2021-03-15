@@ -113,7 +113,7 @@ browsing-note-deleted =
     { $count ->
         [one] { $count } запись удалена.
         [few] { $count } записи удалены.
-       *[other] { $count } записей удалены.
+       *[other] { $count } записей удалено.
     }
 browsing-window-title = Посмотреть (выбрано { $selected } из { $total } карточек)
 browsing-sidebar-expand-children = Развернуть группу
