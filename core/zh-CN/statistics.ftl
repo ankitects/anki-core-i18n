@@ -53,6 +53,7 @@ statistics-counts-early-cards = 提前
 statistics-counts-learning-cards = 正在进行的课程
 statistics-counts-relearning-cards = 重新学习中
 statistics-counts-title = 卡片数量
+statistics-counts-separate-suspended-buried-cards = 分开统计搁置/暂停的卡片
 statistics-range-all-time = 牌组使用期
 statistics-range-1-year-history = 过去 12 个月
 statistics-range-all-history = 全部历史

@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = 文字反向(RTL)
 fields-size = 大小：
 fields-sort-by-this-field-in-the = 在浏览器中按照此字段排序
 fields-that-field-name-is-already-used = 卡片该面的文字已被使用。
+fields-name-first-letter-not-valid = 字段名称不能以 #、^ 或 / 开头。
+fields-name-invalid-letter = 字段名称不应包含「:」、「"」、{ "「{」" } 或 { "「}」" }。

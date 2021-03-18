@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Anki2.1 记忆算法（测试版）
 preferences-automatically-sync-on-profile-openclose = 打开本地帐户时自动同步
 preferences-backups = 备份
 preferences-backups2 = 备份
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <b>备份</b><br>每次关闭�
 preferences-basic = 基础
 preferences-change-deck-depending-on-note-type = 根据笔记类型改变牌组
 preferences-changes-will-take-effect-when-you = 重启Anki后改变将会生效。
-preferences-hardware-acceleration-faster-may-cause-display = 硬件加速（更快速，可能导致显示问题）
 preferences-hours-past-midnight = 点 (凌晨)
 preferences-interface-language = 界面语言:
 preferences-interrupt-current-audio-when-answering = 回答卡片时中断当前音频播放
@@ -37,3 +35,4 @@ preferences-timebox-time-limit = 时间框的时间限制
 preferences-user-interface-size = 用户界面尺寸
 preferences-when-adding-default-to-current-deck = 当添加时，默认是当前牌组
 preferences-you-can-restore-backups-via-fileswitch = 您可以通过 文件->切换用户 来恢复备份。
+preferences-legacy-timezone-handling = 旧版时区处理（有问题，但 AnkiDroid 2.14 及以下版本必须使用）

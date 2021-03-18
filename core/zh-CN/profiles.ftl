@@ -8,3 +8,7 @@ profiles-profile-corrupt = 资料损坏。
 profiles-profiles = 个人配置文件
 profiles-quit = 退出
 profiles-user-1 = 用户1
+profiles-confirm-lang-choice = 确定要以 { $lang } 来显示 Anki 的界面吗？
+profiles-could-not-create-data-folder = 无法建立保存 Anki 数据的文件夹。请参考用户手册中的“文件位置” (File Locations) 一节，并确保该位置 Anki 可写。
+profiles-prefs-corrupt-title = 首选项损坏
+profiles-profile-does-not-exist = 请求的配置文件不存在

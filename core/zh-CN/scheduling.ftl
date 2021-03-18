@@ -52,6 +52,15 @@ scheduling-how-to-custom-study = 如果你想要在日常安排外学习，请�
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = 自定义学习
+
+## Scheduler upgrade
+
+scheduling-update-button = 更新
+scheduling-update-later-button = 稍后
+scheduling-update-more-info-button = 更多信息
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = 播放音频时总是包括问题面
 scheduling-at-least-one-step-is-required = 请至少选择一个难易度
 scheduling-automatically-play-audio = 自动播放音频
@@ -100,6 +109,15 @@ scheduling-steps-must-be-numbers = 步伐必须是数字.
 scheduling-tag-only = 仅标记
 scheduling-the-default-configuration-cant-be-removed = 默认配置不能被删除.
 scheduling-your-changes-will-affect-multiple-decks = 你的改变将会影响到很多牌组. 如果你只想要改变当前牌组, 请先添加一个学习计划组.
-scheduling-deck-updated = { $count ->
-   *[other] 上传了{ $count }个牌组
-  }
+scheduling-deck-updated =
+    { $count ->
+       *[other] 上传了{ $count }个牌组
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+       *[other] 要在多少天后显示卡片？
+    }
+scheduling-forgot-cards =
+    { $cards ->
+       *[other] 已忘记 { $cards } 张卡片。
+    }
