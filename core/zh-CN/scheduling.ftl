@@ -119,6 +119,14 @@ scheduling-set-due-date-prompt =
     { $cards ->
        *[other] 要在多少天后显示卡片？
     }
+scheduling-set-due-date-prompt-hint =
+    0 = 今天
+    1! = 明天+重设复习间隔
+    3-7 = 随机选择 3-7 天
+scheduling-set-due-date-done =
+    { $cards ->
+       *[other] 已为 { $cards } 张卡片设置到期日。
+    }
 scheduling-forgot-cards =
     { $cards ->
        *[other] 已忘记 { $cards } 张卡片。

@@ -15,6 +15,10 @@ search-invalid-other = 请检查是否有输入错误。
 
 ## eg. expected a number in "due>5x", but found "5x"
 
+search-invalid-number = "`{ $context }`"  中应为数字，但实际却是 "`{ $provided }`" 。
+search-invalid-whole-number = "`{ $context }`"  中应为整数，但实际却是 "`{ $provided }`" 。
+search-invalid-positive-whole-number = "`{ $context }`"  中应为正整数，但实际却是 "`{ $provided }`" 。
+search-invalid-negative-whole-number = "`{ $context }`"  中应为负整数或零，但实际却是 "`{ $provided }`" 。
 
 ## Column labels in browse screen
 
