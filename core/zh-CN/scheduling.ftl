@@ -55,6 +55,8 @@ scheduling-custom-study = 自定义学习
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 搭载了新版的安排算法，解决了旧版本 Anki 中的一些问题。推荐更新。
+scheduling-update-done = 已成功更新安排算法。
 scheduling-update-button = 更新
 scheduling-update-later-button = 稍后
 scheduling-update-more-info-button = 更多信息
