@@ -26,5 +26,5 @@ card-template-rendering-no-such-field = وُجد '{ $found }'، لكن ليس ه
 # are missing.
 card-template-rendering-empty-front = مقدمة هذه البطاقة فارغة.
 card-template-rendering-missing-cloze =
-    عبارة ملأ الفراغات رقم { $number } غير موجودة في البطاقة.
+    عبارة ملء الفراغات رقم { $number } غير موجودة في البطاقة.
     الرجاء إضافة عبارة، أو استخدام أداة البطاقات الفارغة.
