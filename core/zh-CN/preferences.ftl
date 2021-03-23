@@ -1,7 +1,7 @@
-preferences-automatically-sync-on-profile-openclose = 打开本地帐户时自动同步
+preferences-automatically-sync-on-profile-openclose = 打开和关闭账户时自动同步
 preferences-backups = 备份
 preferences-backups2 = 备份
-preferences-backupsanki-will-create-a-backup-of = <b>备份</b><br>每次关闭和同步之后Anki都会对你的集合进行备份
+preferences-backupsanki-will-create-a-backup-of = <b>备份</b><br>每次关闭和同步之后Anki都会对你的笔记进行备份
 preferences-basic = 基础
 preferences-change-deck-depending-on-note-type = 根据笔记类型改变牌组
 preferences-changes-will-take-effect-when-you = 重启Anki后改变将会生效。
