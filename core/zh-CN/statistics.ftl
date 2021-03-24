@@ -3,7 +3,7 @@ statistics-due-date = 到期
 # The count of cards waiting to be reviewed
 statistics-due-count = 到期
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = 新卡 #{ $number }
+statistics-due-for-new-card = 未学习 #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -44,13 +44,13 @@ statistics-today-no-cards = 今天无卡片被学习过
 statistics-today-no-mature-cards = 今天没有到期卡片被学习
 statistics-today-correct-mature = 熟练卡片的正确答案：{ $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 所有卡片
-statistics-counts-new-cards = 新建
-statistics-counts-young-cards = 新的
-statistics-counts-mature-cards = 熟练
+statistics-counts-new-cards = 未学习
+statistics-counts-young-cards = 欠熟练
+statistics-counts-mature-cards = 已熟练
 statistics-counts-suspended-cards = 已暂停
-statistics-counts-buried-cards = 被占用
+statistics-counts-buried-cards = 搁置中
 statistics-counts-early-cards = 提前
-statistics-counts-learning-cards = 正在进行的课程
+statistics-counts-learning-cards = 学习中
 statistics-counts-relearning-cards = 重新学习中
 statistics-counts-title = 卡片数量
 statistics-counts-separate-suspended-buried-cards = 分开统计搁置/暂停的卡片
@@ -79,8 +79,8 @@ statistics-answer-buttons-button-number = 按钮
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = 按下每个按钮的次数
 statistics-answer-buttons-subtitle = 按下每个按钮的次数.
-statistics-reviews-title = 复习
-statistics-reviews-time-checkbox = 时间
+statistics-reviews-title = 复习次数
+statistics-reviews-time-checkbox = 用时
 statistics-in-days-single =
     { $days ->
         [0] 今天
@@ -99,9 +99,9 @@ statistics-cards-due =
     { $cards ->
        *[other] 张卡片到期
     }
-statistics-backlog-checkbox = 待处理
-statistics-intervals-title = 间隔
-statistics-intervals-subtitle = 延迟直到复习再次出现。
+statistics-backlog-checkbox = 超期
+statistics-intervals-title = 复习间隔
+statistics-intervals-subtitle = 推迟直到复习再次出现。
 statistics-intervals-day-range =
     { $cards ->
        *[other] { $cards }张间隔为{ $daysStart }到{ $daysEnd }天的卡片
@@ -134,9 +134,9 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
-statistics-average-for-days-studied = 平均
+statistics-average-for-days-studied = 近阶段学习平均数
 statistics-total = 总计
-statistics-days-studied = 打卡天数
+statistics-days-studied = 学习天数
 statistics-average-answer-time-label = 平均回答用时
 statistics-average = 平均
 statistics-average-interval = 平均间隔
@@ -144,7 +144,7 @@ statistics-longest-interval = 最长间隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total }({ $percent }%)
-statistics-average-over-period = 如果你每天学习
+statistics-average-over-period = 近阶段平均数
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count }次复习/天
