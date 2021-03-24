@@ -30,8 +30,8 @@ search-invalid-answer-button = "`{ $context }`" 中应为 1-4 的回答按钮，
 
 ## Column labels in browse screen
 
-search-note-modified = 已编辑
-search-card-modified = 已更改
+search-note-modified = 笔记已更改
+search-card-modified = 卡片已更改
 
 ##
 
