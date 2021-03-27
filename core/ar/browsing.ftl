@@ -14,6 +14,15 @@ browsing-card = بطاقة
 browsing-card-list = قائمة البطاقات
 browsing-card-state = حالة البطاقة
 browsing-cards-cant-be-manually-moved-into = لا يمكن نقل البطاقات يدويًا إلى رزمة مفلترة.
+browsing-cards-deleted =
+    { $count ->
+        [zero] ولا بطاقة حذفت.
+        [one] حذفت بطاقة واحدة.
+        [two] حذفت بطاقتان.
+        [few] حذفت { $count } بطاقات.
+        [many] حذفت { $count } بطاقة.
+       *[other] حذفت { $count } بطاقة.
+    }
 browsing-change-deck = تغيير الرزمة
 browsing-change-deck2 = تغيير الرزمة...
 browsing-change-note-type = تغيير نوع الملحوظة
@@ -21,6 +30,7 @@ browsing-change-note-type2 = تغيير نوع الملحوظة...
 browsing-change-to = تغيير { $val } الى:
 browsing-clear-unused = حذف الوسوم غير المستخدمة
 browsing-clear-unused-tags = حذف الوسوم غير المستخدمة
+browsing-confirm-saved-search-overwrite = توجد عبارة بحث محفوظة لها اسم { $name } بالفعل. هل تريد استبدالها؟
 browsing-created = تاريخ الإنشاء
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = الرزمة الحالية
@@ -70,14 +80,11 @@ browsing-question = سؤال
 browsing-queue-bottom = أسفل الصف: { $val }
 browsing-queue-top = أعلى الصف: { $val }
 browsing-randomize-order = ترتيب عشوائي
-browsing-remove-current-filter = احذف الفلتر الحالي...
-browsing-remove-from-your-saved-searches = هل تريد حذف { $val } من فلاترك المحفوظة؟
 browsing-remove-tags = حذف وسوم...
 browsing-replace-with = <b>استبدال بـ</b>:
 browsing-reposition = تغيير الموضع...
 browsing-reposition-new-cards = تغيير موضع البطاقات الجديدة
 browsing-reschedule = إعادة جدولة
-browsing-save-current-filter = حفظ الفلتر الحالي...
 browsing-search-bar-hint = بحث في البطاقات/الملحوظات (أدخل نصًا، ثم اضغط Enter)
 browsing-search-in = بحث في:
 browsing-search-within-formatting-slow = البحث خلال المحتوى المنسق (بطيء)
@@ -95,6 +102,7 @@ browsing-target-field = الحقل المعني:
 browsing-toggle-mark = وضع/إزالة علامة
 browsing-toggle-suspend = تفعيل/تعليق
 browsing-treat-input-as-regular-expression = عامل المدخلات كتعبير نمطي
+browsing-update-saved-search = تحديث بعبارة البحث الحالية
 browsing-whole-collection = كل المجموعة
 browsing-you-must-have-at-least-one = يجب أن يكون هناك عمود واحد على الأقل.
 browsing-group =
@@ -124,7 +132,18 @@ browsing-note-deleted =
         [many] حُذفت { $count } ملحوظة.
        *[other] حُذفت { $count } ملحوظة.
     }
+browsing-notes-updated =
+    { $count ->
+        [zero] ولا ملحوظة حدثت.
+        [one] حُدثت ملحوظة واحدة.
+        [two] حُدثت ملحوظتان.
+        [few] حُدثت { $count } ملحوظات.
+        [many] حُدثت { $count } ملحوظة.
+       *[other] حُدثت { $count } ملحوظة.
+    }
 browsing-window-title = تصفح ({ $selected } من أصل { $total } بطاقة محددة)
+browsing-sidebar-expand = إسدال
+browsing-sidebar-collapse = طي
 browsing-sidebar-expand-children = توسيع الفروع
 browsing-sidebar-collapse-children = طوي الفروع
 browsing-sidebar-decks = رزم
@@ -142,3 +161,31 @@ browsing-edited-today = معدلة اليوم
 browsing-sidebar-due-today = مستحقة
 browsing-sidebar-untagged = غير موسوم
 browsing-sidebar-overdue = متأخر
+browsing-row-deleted = (محذوف)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [zero] لم يُحذف أي وسم غير مستخدم.
+        [one] حُذف وسم واحد غير مستخدم.
+        [two] حُذف وسمان غير مستخدمان.
+        [few] حُذفت { $count } وسوم غير مستخدمة.
+        [many] حُذف { $count } وسم غير مستخدم.
+       *[other] حُذف { $count } وسم غير مستخدم.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [zero] لم يتم تغيير موضع أي بطاقة جديدة.
+        [one] تم تغيير موضع بطاقة جديدة واحدة.
+        [two] تم تغيير موضع بطاقتين جديدتين.
+        [few] تم تغيير موضع { $count } بطاقات جديدة.
+        [many] تم تغيير موضع { $count } بطاقة جديدة.
+       *[other] تم تغيير موضع { $count } بطاقة جديدة.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [zero] لم يتم تغيير اسم أي رزمة.
+        [one] تم تغيير اسم رزمة واحدة.
+        [two] تم تغيير أسماء رزمتين.
+        [few] تم تغيير أسماء { $count } رزمات.
+        [many] تم تغيير أسماء { $count } رزمة.
+       *[other] تم تغيير أسماء { $count } رزمة.
+    }
