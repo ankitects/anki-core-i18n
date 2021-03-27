@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Add New Deck (Ctrl+N)
-decks-are-you-sure-you-wish-to = Are you sure you wish to delete { $val }?
 decks-build = Build
 decks-cards-selected-by = cards selected by
 decks-create-deck = Create Deck
@@ -30,10 +29,5 @@ decks-repeat-failed-cards-after = Repeat failed cards after
 decks-reschedule-cards-based-on-my-answers = Reschedule cards based on my answers in this deck
 decks-study = Study
 decks-study-deck = Study Deck
-decks-the-provided-search-did-not-match = The provided search did not match any cards. Would you like to revise it?
+decks-filtered-deck-search-empty = No cards matched the provided search. Some cards may have been excluded because they are in a different filtered deck, or suspended.
 decks-unmovable-cards = Show any excluded cards
-decks-it-has-card =
-    { $count ->
-        [one] It has { $count } card.
-       *[other] It has { $count } cards.
-    }
