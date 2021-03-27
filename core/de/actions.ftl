@@ -1,4 +1,6 @@
 actions-add = Hinzufügen
+actions-all-selected = Alle ausgewählt
+actions-any-selected = Keine ausgewählt
 actions-blue-flag = blaue Markierung
 actions-cancel = Abbrechen
 actions-choose = Auswählen
@@ -30,6 +32,7 @@ actions-replay-audio = Erneut abspielen
 actions-reposition = Position ändern
 actions-save = Speichern
 actions-search = Suche
+actions-select = Auswählen
 actions-shortcut-key = Tastenkürzel: { $val }
 actions-suspend-card = Karte aussetzen
 actions-set-due-date = Fälligkeitsdatum auswählen

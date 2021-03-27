@@ -14,6 +14,11 @@ browsing-card = Karte
 browsing-card-list = Kartenliste
 browsing-card-state = Kartenstatus
 browsing-cards-cant-be-manually-moved-into = Karten können nicht manuell in einen Auswahlstapel verschoben werden.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } Karte gelöscht.
+       *[other] { $count } Karten gelöscht.
+    }
 browsing-change-deck = Verschieben
 browsing-change-deck2 = In einen anderen Stapel verschieben…
 browsing-change-note-type = Notiztyp ändern
@@ -21,6 +26,7 @@ browsing-change-note-type2 = Notiztyp ändern…
 browsing-change-to = Ändere { $val } in:
 browsing-clear-unused = Verwaiste Schlagwörter entfernen
 browsing-clear-unused-tags = Verwaiste Schlagwörter löschen
+browsing-confirm-saved-search-overwrite = Ein gespeicherter Suchbegriff mit dem Namen { $name } existiert bereits. Soll dieser überschrieben werden?
 browsing-created = Erstellt
 browsing-ctrlandshiftande = Strg+Umschalt+E
 browsing-current-deck = Aktueller Stapel
@@ -70,14 +76,11 @@ browsing-question = Frage
 browsing-queue-bottom = Ende der Warteschlange: { $val }
 browsing-queue-top = Anfang der Warteschlange: { $val }
 browsing-randomize-order = Zufällige Reihenfolge
-browsing-remove-current-filter = Aktuellen Filter entfernen …
-browsing-remove-from-your-saved-searches = Möchten Sie { $val } von Ihren gespeicherten Suchmustern entfernen?
 browsing-remove-tags = Schlagwörter entfernen…
 browsing-replace-with = <b>Ersetzen durch</b>:
 browsing-reposition = Position ändern…
 browsing-reposition-new-cards = Position neuer Karten ändern
 browsing-reschedule = Neu planen
-browsing-save-current-filter = Aktuellen Filter speichern …
 browsing-search-bar-hint = Karten/Notizen suchen (Text eingeben, dann Eingabetaste drücken)
 browsing-search-in = Suchen in:
 browsing-search-within-formatting-slow = Mit Formatierung suchen (langsam)
@@ -95,6 +98,7 @@ browsing-target-field = Zielfeld:
 browsing-toggle-mark = Kennzeichnung aktivieren/deaktivieren
 browsing-toggle-suspend = Karte(n) ein-/aussetzen
 browsing-treat-input-as-regular-expression = Eingabe als regulären Ausdruck behandeln
+browsing-update-saved-search = Mit aktuellem Suchbegriff überschreiben
 browsing-whole-collection = Gesamte Sammlung
 browsing-you-must-have-at-least-one = Mindestens eine Spalte muss angezeigt werden.
 browsing-group =
@@ -112,14 +116,21 @@ browsing-note-deleted =
         [one] { $count } Notiz gelöscht
        *[other] { $count } Notizen gelöscht
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } Notiz aktualisiert.
+       *[other] { $count } Notizen aktualisiert.
+    }
 browsing-window-title = Durchsuchen ({ $selected } von { $total } Karten ausgewählt)
+browsing-sidebar-expand = Ausklappen
+browsing-sidebar-collapse = Einklappen
 browsing-sidebar-expand-children = Kindelemente ausklappen
 browsing-sidebar-collapse-children = Kindelemente einklappen
 browsing-sidebar-decks = Stapel
 browsing-sidebar-tags = Schlagwörter
 browsing-sidebar-notetypes = Notiztypen
 browsing-sidebar-saved-searches = Gespeicherte Suchbegriffe
-browsing-sidebar-save-current-search = Aktuelle Suche speichern
+browsing-sidebar-save-current-search = Aktuellen Suchbegriff speichern
 browsing-sidebar-card-state = Kartenstatus
 browsing-sidebar-flags = Markierungen
 browsing-today = Heute
@@ -130,3 +141,19 @@ browsing-edited-today = Bearbeitet
 browsing-sidebar-due-today = Fällig
 browsing-sidebar-untagged = Unmarkiert
 browsing-sidebar-overdue = Überfällig
+browsing-row-deleted = (gelöscht)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] { $count } unbenutztes Schlagwort gelöscht.
+       *[other] { $count } unbenutzte Schlagwörter gelöscht.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Positon von { $count } neuen Karte geändert.
+       *[other] Position von { $count } neuen Karten geändert.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } Stapel umbenannt.
+       *[other] { $count } Stapel umbenannt.
+    }

@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Neuen Stapel hinzufügen (Strg+N)
-decks-are-you-sure-you-wish-to = Sind Sie sich sicher, dass Sie { $val } löschen möchten?
 decks-build = Erstellen
 decks-cards-selected-by = Karten, ausgewählt nach
 decks-create-deck = Stapel erstellen
@@ -30,10 +29,5 @@ decks-repeat-failed-cards-after = Erfolglos gelernte Karten wiederholen nach
 decks-reschedule-cards-based-on-my-answers = Meine Antworten in diesem Auswahlstapel sollen die Zeitplanung von Karten beeinflussen
 decks-study = Lernen
 decks-study-deck = Stapel lernen
-decks-the-provided-search-did-not-match = Es wurden keine Karten gefunden, die zu dieser Auswahl passen. Sollen die Kriterien geändert werden?
+decks-filtered-deck-search-empty = Es wurden keine Karten mit dem angegebenen Suchbegriff gefunden. Bestimmte Karten könnten von der Suche ausgeschlossen gewesen sein, weil sie sich in einem anderen benutzerdefinierten Stapel befinden oder ausgesetzt sind.
 decks-unmovable-cards = Alle ausgeschlossenen Karten anzeigen
-decks-it-has-card =
-    { $count ->
-        [one] Dort befindet sich { $count } Karte.
-       *[other] Dort befinden sich { $count } Karten.
-    }
