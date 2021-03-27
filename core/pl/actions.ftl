@@ -30,6 +30,7 @@ actions-replay-audio = Odtwórz dźwięk
 actions-reposition = Zmień pozycję
 actions-save = Zapisz
 actions-search = Szukaj
+actions-select = Wybierz
 actions-shortcut-key = Skrót klawiszowy: { $val }
 actions-suspend-card = Zawieś kartę
 actions-set-due-date = Ustaw termin

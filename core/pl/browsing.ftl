@@ -70,14 +70,11 @@ browsing-question = Pytanie
 browsing-queue-bottom = Koniec kolejki: { $val }
 browsing-queue-top = Początek kolejki: { $val }
 browsing-randomize-order = Kolejnośc losowa
-browsing-remove-current-filter = Usuń aktualny filtr...
-browsing-remove-from-your-saved-searches = Usunąć { $val } z zapisanych wyszukiwań?
 browsing-remove-tags = Usuń etykiety...
 browsing-replace-with = <b>Zastąp przez</b>:
 browsing-reposition = Zmień pozycję...
 browsing-reposition-new-cards = Zmień pozycję nowych kart
 browsing-reschedule = Zmień plan
-browsing-save-current-filter = Zapisz aktualny filtr...
 browsing-search-bar-hint = Szukaj kart/notatek (wpisz tekst, a następnie naciśnij Enter)
 browsing-search-in = Szukaj w:
 browsing-search-within-formatting-slow = Szukaj z formatowaniem (wolne)
@@ -116,6 +113,7 @@ browsing-note-deleted =
        *[other] Usunięto { $count } notatek.
     }
 browsing-window-title = Przeglądaj (wybrano { $selected } z { $total } kart)
+browsing-sidebar-expand = Rozwiń
 browsing-sidebar-expand-children = Rozwiń podtalie
 browsing-sidebar-collapse-children = Zwiń podtalie
 browsing-sidebar-decks = Talie
