@@ -1,4 +1,6 @@
 actions-add = إضافة
+actions-all-selected = كل المحدد
+actions-any-selected = أي من المحدد
 actions-blue-flag = مؤشر أزرق
 actions-cancel = إلغاء
 actions-choose = اختيار
@@ -30,6 +32,7 @@ actions-replay-audio = إعادة تشغيل الصوت
 actions-reposition = تغيير الموضع
 actions-save = حفظ
 actions-search = بحث
+actions-select = تحديد
 actions-shortcut-key = اختصار: { $val }
 actions-suspend-card = تعليق البطاقة
 actions-set-due-date = ضبط تاريخ الاستحقاق
