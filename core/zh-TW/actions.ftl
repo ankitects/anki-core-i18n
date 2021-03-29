@@ -1,4 +1,6 @@
 actions-add = 新增
+actions-all-selected = 所有選取的
+actions-any-selected = 任何選取的
 actions-blue-flag = 藍色旗標
 actions-cancel = 取消
 actions-choose = 選擇
@@ -30,6 +32,7 @@ actions-replay-audio = 重播音訊
 actions-reposition = 調整順序
 actions-save = 儲存
 actions-search = 搜尋
+actions-select = 選取
 actions-shortcut-key = 快速鍵：{ $val }
 actions-suspend-card = 擱置卡片
 actions-set-due-date = 設定到期日

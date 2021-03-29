@@ -14,6 +14,10 @@ browsing-card = 卡片
 browsing-card-list = 卡片清單
 browsing-card-state = 卡片狀態
 browsing-cards-cant-be-manually-moved-into = 卡片無法手動移動到篩選牌組
+browsing-cards-deleted =
+    { $count ->
+       *[other] 已刪除 { $count } 張卡片。
+    }
 browsing-change-deck = 變更牌組
 browsing-change-deck2 = 變更牌組...
 browsing-change-note-type = 變更筆記類型
@@ -21,6 +25,7 @@ browsing-change-note-type2 = 變更筆記類型...
 browsing-change-to = 變更 { $val } 到：
 browsing-clear-unused = 清理未使用的
 browsing-clear-unused-tags = 清理未使用的標籤
+browsing-confirm-saved-search-overwrite = 已經存在名稱為 { $name } 的搜尋條件。要覆寫它嗎？
 browsing-created = 建立日期
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = 當前牌組
@@ -70,14 +75,11 @@ browsing-question = 問題
 browsing-queue-bottom = 佇列底端：{ $val }
 browsing-queue-top = 佇列頂端：{ $val }
 browsing-randomize-order = 隨機順序
-browsing-remove-current-filter = 移除當前篩選器...
-browsing-remove-from-your-saved-searches = 是否將{ $val }從您已儲存的搜尋條件中移除？
 browsing-remove-tags = 移除標籤...
 browsing-replace-with = <b>取代為</b>：
 browsing-reposition = 調整順序...
 browsing-reposition-new-cards = 調整新卡片順序
 browsing-reschedule = 重新排程
-browsing-save-current-filter = 儲存當前篩選器...
 browsing-search-bar-hint = 搜尋卡片/筆記（輸入文字，然後按下 Enter 鍵）
 browsing-search-in = 搜尋範圍：
 browsing-search-within-formatting-slow = 搜尋（含格式，較慢）
@@ -109,7 +111,13 @@ browsing-note-deleted =
     { $count ->
        *[other] 已刪除 { $count } 則筆記。
     }
+browsing-notes-updated =
+    { $count ->
+       *[other] 已更新 { $count } 則筆記。
+    }
 browsing-window-title = 瀏覽（已選取 { $selected } 張卡片，共 { $total } 張）
+browsing-sidebar-expand = 展開
+browsing-sidebar-collapse = 摺疊
 browsing-sidebar-expand-children = 展開子系
 browsing-sidebar-collapse-children = 摺疊子系
 browsing-sidebar-decks = 牌組
@@ -127,3 +135,8 @@ browsing-edited-today = 今天編輯
 browsing-sidebar-due-today = 今天到期
 browsing-sidebar-untagged = 沒有標籤
 browsing-sidebar-overdue = 逾期
+browsing-row-deleted = （已刪除）
+browsing-reparented-decks =
+    { $count ->
+       *[other] 已重新命名 { $count } 個牌組。
+    }
