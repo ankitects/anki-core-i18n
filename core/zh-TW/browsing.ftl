@@ -136,6 +136,14 @@ browsing-sidebar-due-today = 今天到期
 browsing-sidebar-untagged = 沒有標籤
 browsing-sidebar-overdue = 逾期
 browsing-row-deleted = （已刪除）
+browsing-removed-unused-tags-count =
+    { $count ->
+       *[other] 已移除 { $count } 個未使用的標籤。
+    }
+browsing-changed-new-position =
+    { $count ->
+       *[other] 已變更 { $count } 張新卡片的順序。
+    }
 browsing-reparented-decks =
     { $count ->
        *[other] 已重新命名 { $count } 個牌組。
