@@ -97,6 +97,7 @@ browsing-target-field = 目標欄位：
 browsing-toggle-mark = 切換標記
 browsing-toggle-suspend = 切換擱置狀態
 browsing-treat-input-as-regular-expression = 以正規表達式處理輸入
+browsing-update-saved-search = 更新為當前搜尋條件
 browsing-whole-collection = 整個集合
 browsing-you-must-have-at-least-one = 至少需要有一行。
 browsing-group =
