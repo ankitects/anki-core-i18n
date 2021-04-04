@@ -1,4 +1,6 @@
 actions-add = Dodaj
+actions-all-selected = Wszystkie wybrane
+actions-any-selected = Jakiekolwiek wybrane
 actions-blue-flag = Niebieska flaga
 actions-cancel = Anuluj
 actions-choose = Wybierz

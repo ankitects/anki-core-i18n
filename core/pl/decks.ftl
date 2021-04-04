@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Dodaj nową talię (Ctrl+N)
-decks-are-you-sure-you-wish-to = Czy jesteś pewien, że chcesz usunąć { $val }?
 decks-build = Buduj
 decks-cards-selected-by = Wybrane karty:
 decks-create-deck = Utwórz talię
@@ -30,11 +29,5 @@ decks-repeat-failed-cards-after = Powtórz karty z błędną odpowiedzią po
 decks-reschedule-cards-based-on-my-answers = Zmień plan na podstawie odpowiedzi w tej talii
 decks-study = Nauka
 decks-study-deck = Nauka talii
-decks-the-provided-search-did-not-match = Nie znaleziono kart odpowiadającym kryteriom wyszukiwania. Chcesz spróbować z innym hasłem?
+decks-filtered-deck-search-empty = Nie znaleziono kart zgodnych z wyszukiwaniem. Wyszukiwanie niektórych kart może być wykluczone ponieważ są one zawieszone lub znajdują się w innej talii filtrowanej.
 decks-unmovable-cards = Pokaż jakiekolwiek wykluczone karty
-decks-it-has-card =
-    { $count ->
-        [one] Ma { $count } kartę.
-        [few] Ma { $count } karty.
-       *[other] Ma { $count } kart.
-    }

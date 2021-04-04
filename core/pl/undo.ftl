@@ -1,3 +1,6 @@
+### The strings in this file are currently in development,
+### and you may want to skip translating them for now.
+
 undo-undo = Cofnij
 undo-redo = Ponów
 # eg "Undo Answer Card"
@@ -11,6 +14,7 @@ undo-action-redone = Ponowiono { $action }
 
 undo-answer-card = Odpowiedzenie na kartę
 undo-unbury-unsuspend = Odkopanie/odwieszenie
+undo-add-deck = Dodanie talii
 undo-add-note = Dodanie notatki
 undo-update-tag = Aktualizacja etykiety
 undo-update-note = Aktualizacja notatki

@@ -14,6 +14,12 @@ browsing-card = Karta
 browsing-card-list = Lista kart
 browsing-card-state = Stan karty
 browsing-cards-cant-be-manually-moved-into = Karty nie mogą być przeniesione ręcznie do talii filtrowanej.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } karta usunięta.
+        [few] { $count } karty usunięte.
+       *[other] { $count } kart usuniętych.
+    }
 browsing-change-deck = Zmień talię
 browsing-change-deck2 = Zmień talię...
 browsing-change-note-type = Zmień typ notatki
@@ -21,6 +27,7 @@ browsing-change-note-type2 = Zmień typ notatki...
 browsing-change-to = Zmień { $val } na:
 browsing-clear-unused = Wyczyść nieużywane
 browsing-clear-unused-tags = Usuń nieużywane etykiety
+browsing-confirm-saved-search-overwrite = Zapisane wyszukiwanie o nazwie { $name } już istnieje. Czy chcesz je nadpisać?
 browsing-created = Utworzona
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Aktualna talia
@@ -92,6 +99,7 @@ browsing-target-field = Pole docelowe:
 browsing-toggle-mark = Przełącz wyróżnienie
 browsing-toggle-suspend = Przełącz zawieszenie
 browsing-treat-input-as-regular-expression = Traktuj wartość pola jako wyrażenie regularne
+browsing-update-saved-search = Aktualizuj obecnym wyszukiwaniem
 browsing-whole-collection = Cała kolekcja
 browsing-you-must-have-at-least-one = Musi istnieć przynajmniej jedna kolumna.
 browsing-group =
@@ -112,8 +120,15 @@ browsing-note-deleted =
         [few] Usunięto { $count } notatki.
        *[other] Usunięto { $count } notatek.
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } notatka zaktualizowana.
+        [few] { $count } notatki zaktualizowane .
+       *[other] { $count } notatek zaktualizowanych.
+    }
 browsing-window-title = Przeglądaj (wybrano { $selected } z { $total } kart)
 browsing-sidebar-expand = Rozwiń
+browsing-sidebar-collapse = Złóż
 browsing-sidebar-expand-children = Rozwiń podtalie
 browsing-sidebar-collapse-children = Zwiń podtalie
 browsing-sidebar-decks = Talie
@@ -131,3 +146,22 @@ browsing-edited-today = Edytowane dzisiaj
 browsing-sidebar-due-today = Na dziś
 browsing-sidebar-untagged = Bez etykiety
 browsing-sidebar-overdue = Zaległe
+browsing-row-deleted = (usunięto)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Usunięto { $count } nieużywaną etykietę.
+        [few] Usunięto { $count } nieużywane etykiety.
+       *[other] Usunięto { $count } nieużywanych etykiet.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Zmieniono pozycję { $count } nowej karty .
+        [few] Zmieniono pozycję { $count } nowych kart.
+       *[other] Zmieniono pozycję { $count } nowych kart.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Zmieniono nazwę { $count } talii.
+        [few] Zmieniono nazwę { $count } talii.
+       *[other] Zmieniono nazwę { $count } talii.
+    }
