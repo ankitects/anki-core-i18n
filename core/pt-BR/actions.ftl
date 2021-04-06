@@ -1,4 +1,5 @@
 actions-add = Adicionar
+actions-all-selected = Todos selecionados
 actions-blue-flag = Marcador Azul
 actions-cancel = Cancelar
 actions-choose = Escolher

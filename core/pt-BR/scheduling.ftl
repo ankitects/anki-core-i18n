@@ -90,6 +90,12 @@ scheduling-how-to-custom-study = Se você deseja estudar fora do horário regula
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = estudo personalizado
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Sempre incluir a área da questão quando o áudio é reproduzido
 scheduling-at-least-one-step-is-required = Ao menos um passo é necessário.
 scheduling-automatically-play-audio = Tocar áudio automaticamente
@@ -105,7 +111,7 @@ scheduling-general = Geral
 scheduling-graduating-interval = Intervalo de graduação
 scheduling-hard-interval = Intervalo árduo
 scheduling-ignore-answer-times-longer-than = Ignorar resposta dada acima de
-scheduling-interval-modifier = Modificar o intervalo
+scheduling-interval-modifier = Modificador de intervalo
 scheduling-lapses = Falhas
 scheduling-lapses2 = falhas
 scheduling-learning = Aprendizagem
