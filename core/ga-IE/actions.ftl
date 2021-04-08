@@ -1,4 +1,6 @@
 actions-add = Cuir Leis
+actions-all-selected = Gach rud roghnaithe
+actions-any-selected = A bhfuil roghnaithe
 actions-blue-flag = Bratach ghorm
 actions-cancel = Cealaigh
 actions-choose = Roghnaigh
@@ -30,6 +32,7 @@ actions-replay-audio = Cas Fuaim Arís
 actions-reposition = Bog
 actions-save = Sábháil
 actions-search = Cuardaigh
+actions-select = Roghnaigh
 actions-shortcut-key = Cnaipe aicearra: { $val }
 actions-suspend-card = Cuir Cárta ar Fionraí
 actions-set-due-date = Socraigh Dáta Staidéir

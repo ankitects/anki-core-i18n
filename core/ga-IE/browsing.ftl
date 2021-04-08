@@ -14,6 +14,14 @@ browsing-card = Cárta
 browsing-card-list = Liosta Cártaí
 browsing-card-state = Staid Chárta
 browsing-cards-cant-be-manually-moved-into = Ní féidir cártaí a bhogadh isteach i bpaca scagtha de láimh.
+browsing-cards-deleted =
+    { $count ->
+        [one] cárta amháin scriosta.
+        [two] { $count } chárta scriosta.
+        [few] { $count } chárta scriosta.
+        [many] { $count } gcárta scriosta.
+       *[other] { $count } cárta scriosta.
+    }
 browsing-change-deck = Athraigh Paca
 browsing-change-deck2 = Athraigh Paca...
 browsing-change-note-type = Athraigh Cineál Nóta
@@ -21,6 +29,7 @@ browsing-change-note-type2 = Athraigh Cineál Nóta...
 browsing-change-to = Athraigh { $val } go:
 browsing-clear-unused = Glan Ábhar Gan Úsáid
 browsing-clear-unused-tags = Glan Clibeanna Gan Úsáid
+browsing-confirm-saved-search-overwrite = Sábháladh cuardach agus an t-ainm { $name } air cheana féin. An mian leat an cuardach nua seo a chur ina ionad?
 browsing-created = Cruthaithe
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Paca reatha
@@ -70,14 +79,11 @@ browsing-question = Ceist
 browsing-queue-bottom = Bun scuaine: { $val }
 browsing-queue-top = Barr scuaine; { $val }
 browsing-randomize-order = Cuir in ord randamach
-browsing-remove-current-filter = Bain an Scagaire Seo...
-browsing-remove-from-your-saved-searches = Bain { $val } ó chuardaigh sábháilte?
 browsing-remove-tags = Bain Clibeanna...
 browsing-replace-with = <b>Athchuir</b>:
 browsing-reposition = Bog...
 browsing-reposition-new-cards = Bog Cártaí Nua
 browsing-reschedule = Athsceidealaigh
-browsing-save-current-filter = Sábháil an Scagaire Seo...
 browsing-search-bar-hint = Cuardaigh cártaí/nótaí (scríobh téacs agus brúigh Enter)
 browsing-search-in = Cuardaigh i:
 browsing-search-within-formatting-slow = Cuardaigh taobh istigh den fhormáidiú (mall)
@@ -95,6 +101,7 @@ browsing-target-field = Sprioc-réimse:
 browsing-toggle-mark = Scoránaigh Marc
 browsing-toggle-suspend = Scoránaigh 'Ar Fionraí'
 browsing-treat-input-as-regular-expression = Tuigtear an t-ionchur seo mar shlonn rialta (regex).
+browsing-update-saved-search = Nuashonraigh de réir Chuardaigh Reatha
 browsing-whole-collection = Cnuasach Iomlán
 browsing-you-must-have-at-least-one = Ní foláir an t-aon cholún amháin ar a laghad.
 browsing-group =
@@ -121,6 +128,14 @@ browsing-note-deleted =
         [many] { $count } nóta scriosta.
        *[other] { $count } nóta scriosta.
     }
+browsing-notes-updated =
+    { $count ->
+        [one] nóta amháin nuashonraithe.
+        [two] { $count } nóta nuashonraithe.
+        [few] { $count } nóta nuashonraithe.
+        [many] { $count } nóta nuashonraithe.
+       *[other] { $count } nóta nuashonraithe.
+    }
 browsing-window-title =
     { $total ->
         [one] Brabhsáil ({ $selected } as { $total } cárta roghnaithe)
@@ -129,6 +144,8 @@ browsing-window-title =
         [many] Brabhsáil ({ $selected } as { $total } gcárta roghnaithe)
        *[other] Brabhsáil ({ $selected } as { $total } cárta roghnaithe)
     }
+browsing-sidebar-expand = Leathnaigh
+browsing-sidebar-collapse = Díleathnaigh
 browsing-sidebar-expand-children = Leathnaigh Mac-chártaí
 browsing-sidebar-collapse-children = Díleathnaigh Mac-chártaí
 browsing-sidebar-decks = Pacaí
@@ -146,3 +163,28 @@ browsing-edited-today = Curtha in Eagar Inniu
 browsing-sidebar-due-today = Le Staidéar Inniu
 browsing-sidebar-untagged = Gan Chlib
 browsing-sidebar-overdue = Thar Téarma
+browsing-row-deleted = (scriosta)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Baineadh clib amháin a bhí díomhaoin.
+        [two] Baineadh { $count } chlib a bhí díomhaoin.
+        [few] Baineadh { $count } chlib a bhí díomhaoin.
+        [many] Baineadh { $count } gclib a bhí díomhaoin.
+       *[other] Baineadh { $count } clib a bhí díomhaoin.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Athraíodh ord aon chárta nua amháin.
+        [two] Athraíodh ord { $count } chárta nua.
+        [few] Athraíodh ord { $count } chárta nua.
+        [many] Athraíodh ord { $count } gcárta nua.
+       *[other] Athraíodh ord { $count } cárta nua.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Athainmníodh paca amháin.
+        [two] Athainmníodh { $count } phaca.
+        [few] Athainmníodh { $count } phaca.
+        [many] Athainmníodh { $count } bpaca.
+       *[other] Athainmníodh { $count } paca.
+    }

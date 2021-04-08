@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Cuir Paca Nua Leis (Ctrl+N)
-decks-are-you-sure-you-wish-to = An bhfuil tú cinnte gur mian leat { $val } a scriosadh?
 decks-build = Leagan
 decks-cards-selected-by = cártaí roghnaithe de réir
 decks-create-deck = Cruthaigh Paca
@@ -30,13 +29,5 @@ decks-repeat-failed-cards-after = Athdhéan cártaí mícheart tar éis
 decks-reschedule-cards-based-on-my-answers = Athsceidealaigh cártaí de réir freagraí don phaca seo
 decks-study = Déan staidéar
 decks-study-deck = Paca Staidéir
-decks-the-provided-search-did-not-match = Níor aimsíodh aon chárta a bhí ag teacht leis na sainithe a tugadh. Athraigh na sainithe?
+decks-filtered-deck-search-empty = Níl aon cárta ann a thagann leis an gcuardach. D'fhéadfadh gur fágadh roinnt cártaí as an áireamh de dheasca iad a bheith ar fiontraí nó mar chuid de phaca scagtha eile.
 decks-unmovable-cards = Taispeáin aon chárta a fágadh as
-decks-it-has-card =
-    { $count ->
-        [one] Tá { $count } chárta amháin mar chuid de.
-        [two] Tá { $count } chárta mar chuid de.
-        [few] Tá { $count } chárta mar chuid de.
-        [many] Tá { $count } gcárta mar chuid de.
-       *[other] Tá { $count } cárta mar chuid de.
-    }
