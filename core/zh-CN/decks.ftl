@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = 添加新的牌组
-decks-are-you-sure-you-wish-to = 您确定要删除{ $val }？
 decks-build = 创建动态牌组
 decks-cards-selected-by = 卡片选择按
 decks-create-deck = 创建牌组
@@ -30,9 +29,5 @@ decks-repeat-failed-cards-after = 在 { $val } 后重复失败的卡片
 decks-reschedule-cards-based-on-my-answers = 保留学习记录
 decks-study = 学习
 decks-study-deck = 选择一个牌组学习
-decks-the-provided-search-did-not-match = 未匹配到卡片，是否愿意修改一下？
+decks-filtered-deck-search-empty = 沒有卡片符合提供的搜索条件。位于不同筛选牌组的卡片或已搁置的卡片可能已经被排除。
 decks-unmovable-cards = 显示任何已排除的卡片
-decks-it-has-card =
-    { $count ->
-       *[other] 有 { $count }张卡片
-    }

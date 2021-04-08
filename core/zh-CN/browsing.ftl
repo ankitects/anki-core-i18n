@@ -14,6 +14,10 @@ browsing-card = 卡片
 browsing-card-list = 卡片列表
 browsing-card-state = 卡片状态
 browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到过滤牌组
+browsing-cards-deleted =
+    { $count ->
+       *[other] 已删除 { $count } 张卡片。
+    }
 browsing-change-deck = 更改所属牌组
 browsing-change-deck2 = 更改所属牌组…
 browsing-change-note-type = 改变笔记模板
@@ -21,6 +25,7 @@ browsing-change-note-type2 = 改变笔记模板…
 browsing-change-to = 将{ $val }改为：
 browsing-clear-unused = 删除未使用的
 browsing-clear-unused-tags = 删除未使用的标签
+browsing-confirm-saved-search-overwrite = 已存在名为 { $name } 的搜索条件。要覆盖它吗？
 browsing-created = 添加日期
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = 当前牌组
@@ -70,14 +75,11 @@ browsing-question = 问题
 browsing-queue-bottom = 队尾: { $val }
 browsing-queue-top = 队首: { $val }
 browsing-randomize-order = 随机顺序
-browsing-remove-current-filter = 移除当前筛选条件…
-browsing-remove-from-your-saved-searches = 将 { $val } 从您保存的搜索中移除？
 browsing-remove-tags = 移除标签…
 browsing-replace-with = <b>替换</b>:
 browsing-reposition = 重新排序...
 browsing-reposition-new-cards = 重新排列新卡片
 browsing-reschedule = 重新安排进度
-browsing-save-current-filter = 保存当前筛选条件…
 browsing-search-bar-hint = 搜索卡片/笔记（输入文本，然后按回车键）
 browsing-search-in = 搜寻位置：
 browsing-search-within-formatting-slow = 用格式搜索（耗时长）
@@ -93,8 +95,9 @@ browsing-tag-duplicates = 复制标签
 browsing-tag-rename-warning-empty = 无法重命名没有笔记的标签。
 browsing-target-field = 目标栏目:
 browsing-toggle-mark = 添加/移除标记
-browsing-toggle-suspend = 打开/取消暂停
+browsing-toggle-suspend = 暂停/取消暂停
 browsing-treat-input-as-regular-expression = 以正则表达式输入
+browsing-update-saved-search = 更新为当前搜索条件
 browsing-whole-collection = 全部集合
 browsing-you-must-have-at-least-one = 必须至少有一列.
 browsing-group =
@@ -109,7 +112,13 @@ browsing-note-deleted =
     { $count ->
        *[other] 删除 { $count } 条笔记
     }
+browsing-notes-updated =
+    { $count ->
+       *[other] 已更新 { $count } 条笔记。
+    }
 browsing-window-title = 浏览（已选取 { $selected } 张卡片，共 { $total } 张）
+browsing-sidebar-expand = 展开
+browsing-sidebar-collapse = 折叠
 browsing-sidebar-expand-children = 展开子节点
 browsing-sidebar-collapse-children = 折叠子节点
 browsing-sidebar-decks = 牌组
@@ -127,3 +136,16 @@ browsing-edited-today = 今天编辑的
 browsing-sidebar-due-today = 今天到期的
 browsing-sidebar-untagged = 无标签的
 browsing-sidebar-overdue = 超期的
+browsing-row-deleted = （已删除）
+browsing-removed-unused-tags-count =
+    { $count ->
+       *[other] 已移除 { $count } 个未使用的标记。
+    }
+browsing-changed-new-position =
+    { $count ->
+       *[other] 已改变 { $count } 张新卡片的顺序。
+    }
+browsing-reparented-decks =
+    { $count ->
+       *[other] 已重命名 { $count } 个牌组。
+    }

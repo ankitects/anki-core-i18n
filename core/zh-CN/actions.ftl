@@ -1,4 +1,6 @@
 actions-add = 添加
+actions-all-selected = 所有选中的
+actions-any-selected = 任何选中的
 actions-blue-flag = 蓝色标记
 actions-cancel = 取消
 actions-choose = 选择
@@ -30,6 +32,7 @@ actions-replay-audio = 重新播放音频
 actions-reposition = 重新排序
 actions-save = 保存
 actions-search = 搜索
+actions-select = 选择
 actions-shortcut-key = 快捷键: { $val }
 actions-suspend-card = 暂停卡片
 actions-set-due-date = 指定何时到期

@@ -27,14 +27,14 @@ statistics-reviews = { $reviews } 次复习
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    今天学习了{ statistics-cards } { $unit ->
+    今天在 { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }（{ $secs-per-card }秒/张）
+    }学习了 { statistics-cards } （每张卡片 { $secs-per-card } 秒）
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }秒
 statistics-today-title = 今天
