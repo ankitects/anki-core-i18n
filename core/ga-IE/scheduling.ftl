@@ -95,7 +95,7 @@ scheduling-learn-remaining =
         [many] Tá { $remaining } gcárta foghlama fós le teacht inniu.
        *[other] Tá { $remaining } cárta foghlama fós le teacht inniu.
     }
-scheduling-congratulations-finished = Maith thú! Tá an paca seo críochnaithe agat.
+scheduling-congratulations-finished = Maith thú! Tá staidéar an phaca seo i gcrích agat.
 scheduling-today-review-limit-reached =
     Tá srian laethúil na n-athbhreithnithe bainte amach, ach tá cártaí 
     ann fós atá le staidéar. B'fhéidir go bhfheilfeadh sé an srian laethúil
