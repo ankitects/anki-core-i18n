@@ -72,9 +72,33 @@ scheduling-learn-remaining =
         [one] ଆଜି ପାଇଁ ଗୋଟିଏ ଶିକ୍ଷା କାର୍ଡ ବାକି ଅଛି।
        *[other] ଆଜି ପାଇଁ { $remaining }ଟି ଶିକ୍ଷା କାର୍ଡ ବାକି ଅଛି।
     }
+scheduling-congratulations-finished = ଅଭିନନ୍ଦନ! ଆପଣ ବର୍ତ୍ତମାନ ପାଇଁ ଏହି ଡେକ୍ ସମାପ୍ତ କରିଛନ୍ତି।
+scheduling-today-review-limit-reached =
+    ଆଜିର ସମୀକ୍ଷା ସୀମା ରେ ପହଞ୍ଚିଯାଇଛି, କିନ୍ତୁ ଏବେ ବି
+    କାର୍ଡ ସମୀକ୍ଷା କରିବାକୁ ଅପେକ୍ଷା କରୁଛି। ସର୍ବୋତ୍ସାହ୍ୟ ସ୍ମୃତି ପାଇଁ,
+    ବିକଳ୍ପଗୁଡ଼ିକରେ ଦୈନିକ ସୀମା ବୃଦ୍ଧି କରିବାକୁ ବିଚାର କରନ୍ତୁ।
+scheduling-today-new-limit-reached =
+    ଅଧିକ ନୂଆ କାର୍ଡ ଉପଲବ୍ଧ ଅଛି, କିନ୍ତୁ ଦୈନିକ ସୀମା ପହଞ୍ଚିସାରିଛି।
+    ଆପଣ ବିକଳ୍ପଗୁଡ଼ିକରେ ସୀମା ବୃଦ୍ଧି କରିପାରିବେ, କିନ୍ତୁ ଦୟାକରି
+    ମନେରଖନ୍ତୁ ଯେ ଆପଣ ଯେତେ ନୂତନ କାର୍ଡ ଉପସ୍ଥାପନ କରିବେ,
+    ଆପଣଙ୍କ ସ୍ୱଳ୍ପ ମିଆଦି ସମୀକ୍ଷା କାର୍ଯ୍ୟ ଭାର ଅଧିକ ହେବ।
+scheduling-buried-cards-found = ଗୋଟିଏ କିମ୍ବା ଅଧିକ କାର୍ଡ ସ୍ଥଗିତ ରଖାଗଲା, ଏବଂ ଆସନ୍ତାକାଲି ପ୍ରଦର୍ଶିତ ହେବ। ଯଦି ଆପଣ ସେମାନଙ୍କୁ ତୁରନ୍ତ ଦେଖିବାକୁ ଚାହାଁନ୍ତି ତେବେ ଆପଣ ସେମାନଙ୍କୁ { $unburyThem } କରିପାରିବେ।
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = ସେମାନଙ୍କୁ ଫେରାଇ ଆଣ
+scheduling-how-to-custom-study = ଯଦି ଆପଣ ନିୟମିତ କାର୍ଯ୍ୟସୂଚୀ ବାହାରେ ଅଧ୍ୟୟନ କରିବାକୁ ଚାହାଁନ୍ତି, ତେବେ ଆପଣ { $customStudy } ବୈଶିଷ୍ଟ୍ୟ ବ୍ୟବହାର କରିପାରିବେ ।
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = ଇଚ୍ଛାରୂପିତ ଅଧ୍ୟୟନ
 
 ## Scheduler upgrade
 
+scheduling-update-done = କାର୍ଯ୍ୟସୂଚୀ ସଫଳତାର ସହିତ ଅଦ୍ୟତନ ହେଲା।
+scheduling-update-button = ଅଦ୍ୟତନ କରନ୍ତୁ
+scheduling-update-later-button = ପରେ
+scheduling-update-more-info-button = ଅଧିକ ଜାଣନ୍ତୁ
 
 ## Other scheduling strings
 
+scheduling-new-cards = ନୂତନ କାର୍ଡଗୁଡ଼ିକ
+scheduling-review = ସମୀକ୍ଷା
