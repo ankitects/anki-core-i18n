@@ -1,3 +1,6 @@
+### The strings in this file are currently in development,
+### and you may want to skip translating them for now.
+
 undo-undo = Rückgängig machen
 undo-redo = Rückgängigmachung zurücknehmen
 # eg "Undo Answer Card"
@@ -11,7 +14,12 @@ undo-action-redone = { $action } wieder ausgeführt
 
 undo-answer-card = Karte beantworten
 undo-unbury-unsuspend = Zurückstellung/Aussetzen aufheben
+undo-add-deck = Sta­pel hin­zu­fü­gen
 undo-add-note = Notiz hinzufügen
 undo-update-tag = Schlagwort aktualisieren
 undo-update-note = Notiz aktualisieren
 undo-update-card = Karte aktualisieren
+undo-update-deck = Stapel aktualisieren
+undo-forget-card = Karte vergessen
+undo-set-flag = markieren
+undo-build-filtered-deck = Deck erstellen
