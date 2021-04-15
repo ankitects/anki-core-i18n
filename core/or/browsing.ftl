@@ -1,5 +1,6 @@
 browsing-add-notes = ନୋଟଗୁଡ଼ିକୁ ଯୋଗ କରନ୍ତୁ...
 browsing-add-tags = ଟ୍ୟାଗ୍ ଯୋଡ଼ନ୍ତୁ
+browsing-addon = ଆଡ୍-ଅନ୍
 browsing-all-card-types = ସମସ୍ତ କାର୍ଡ ପ୍ରକାର
 browsing-all-fields = ସମସ୍ତ କ୍ଷେତ୍ର
 browsing-answer = ଉତ୍ତର
@@ -11,6 +12,11 @@ browsing-card = କାର୍ଡ
 browsing-card-list = କାର୍ଡ ତାଲିକା
 browsing-card-state = କାର୍ଡ ଅବସ୍ଥା
 browsing-cards-cant-be-manually-moved-into = କାର୍ଡଗୁଡ଼ିକୁ ହସ୍ତକୃତ ଭାବରେ ଏକ ଛାଣକ ଡେକ୍ ରେ ସ୍ଥାନାନ୍ତରିତ କରାଯାଇପାରିବ ନାହିଁ।
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count }ଟିଏ କାର୍ଡ୍ ବିଲୋପ ହୋଇଛି।
+       *[other] { $count }ଟି କାର୍ଡ୍ ବିଲୋପ ହୋଇଛି।
+    }
 browsing-change-deck = ଡେକ୍ ପରିବର୍ତ୍ତନ କରନ୍ତୁ
 browsing-change-deck2 = ଡେକ୍ ପରିବର୍ତ୍ତନ...
 browsing-change-note-type = ନୋଟ୍ ପ୍ରକାର ପରିବର୍ତ୍ତନ କରନ୍ତୁ
