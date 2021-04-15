@@ -30,9 +30,13 @@ media-check-unused-file = ଅବ୍ୟବହୃତ: { $filename }
 ## Deleting unused media
 
 media-check-delete-unused-confirm = ଅବ୍ୟବହୃତ ମିଡ଼ିଆ ବିଲୋପ କରିବେ କି?
+media-check-trash-emptied = ଆବର୍ଜନା ଫୋଲ୍ଡର୍ ବର୍ତ୍ତମାନ ଖାଲି ଅଛି।
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = ସମସ୍ତ LaTeX ପରିବେଷଣ କରାଯାଇଛି।
 
 ## Buttons
 
+media-check-delete-unused = ଅବ୍ୟବହୃତ ବିଲୋପ କରନ୍ତୁ
+media-check-check-media-action = ମିଡ଼ିଆ ଯାଞ୍ଚ
