@@ -4,3 +4,4 @@ exporting-anki-collection-package = Anki ସଂଗ୍ରହ ପ୍ୟାକେ�
 exporting-anki-deck-package = Anki ଡେକ୍ ପ୍ୟାକେଜ୍
 exporting-cards-in-plain-text = Plain Text ରେ କାର୍ଡ
 exporting-collection = ସଂଗ୍ରହ
+exporting-collection-exported = ସଂଗ୍ରହ ରପ୍ତାନି ହୋଇଛି।
