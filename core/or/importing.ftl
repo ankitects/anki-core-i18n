@@ -1,2 +1,16 @@
+importing-failed-debug-info = ଆମଦାନୀ ବିଫଳ ହୋଇଛି। ତ୍ରୁଟି ନିବାରଣ ସୂଚନା:
+importing-aborted = ପରିତ୍ୟାଗ ହୋଇଛି: { $val }
+importing-added-duplicate-with-first-field = ପ୍ରଥମ କ୍ଷେତ୍ର ସହିତ ନକଲ ଯୋଡ଼ାଗଲା: { $val }
+importing-allow-html-in-fields = କ୍ଷେତ୍ରଗୁଡ଼ିକରେ HTML କୁ ଅନୁମତି ଦିଅନ୍ତୁ
+importing-anki-files-are-from-a-very = ଏହି .anki ଫାଇଲଗୁଡ଼ିକ Anki ର ଏକ ପୁରାତନ ସଂସ୍କରଣରୁ ଆସିଛି। Anki ୱେବସାଇଟରେ ଉପଲବ୍ଧ ଥିବା Anki 2.0 ସହିତ ଆପଣ ସେଗୁଡିକୁ ଆମଦାନୀ କରିପାରିବେ।
+importing-anki2-files-are-not-directly-importable = .anki2 ଫାଇଲଗୁଡିକ ସିଧାସଳଖ ଆମଦାନୀ ଯୋଗ୍ୟ ନୁହେଁ - ଦୟାକରି ଆପଣ ଏହା ପରିବର୍ତ୍ତେ ପ୍ରାପ୍ତ କରିଥିବା .apkg କିମ୍ୱା .zip ଫାଇଲ୍ ଆମଦାନୀ କରନ୍ତୁ।
+importing-appeared-twice-in-file = ଫାଇଲରେ ଦୁଇଥର ଦେଖାଗଲା: { $val }
 importing-comma = କମା
+importing-empty-first-field = ପ୍ରଥମ କ୍ଷେତ୍ର ଖାଲି: { $val }
 importing-identical = ସମାନ
+importing-pauker-18-lesson-paugz = Pauker 1.8 ଶିକ୍ଷା (*.pau.gz)
+importing-skipped = ଛଡ଼ାଗଲା
+importing-supermemo-xml-export-xml = Supermemo XML ରପ୍ତାନି (*.xml)
+importing-tab = ଟ୍ୟାବ୍
+importing-the-provided-file-is-not-a = ପ୍ରଦତ୍ତ ଫାଇଲଟି ଏକ ବୈଧ .apkg ଫାଇଲ ନୁହେଁ।
+importing-unknown-file-format = ଅଜ୍ଞାତ ଫାଇଲ୍ ଫର୍ମାଟ୍।
