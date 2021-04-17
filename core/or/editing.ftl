@@ -16,3 +16,6 @@ editing-latex = LaTeX
 editing-latex-equation = LaTeX ସମୀକରଣ
 editing-latex-math-env = LaTeX ଗଣିତ ପରିବେଶ
 editing-mathjax-chemistry = MathJax ରସାୟନ ବିଜ୍ଞାନ
+editing-media = ମିଡ଼ିଆ
+editing-record-audio-f5 = ଅଡ଼ିଓ ରେକର୍ଡ଼ କରନ୍ତୁ (F5)
+editing-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ
