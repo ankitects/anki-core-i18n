@@ -1,3 +1,17 @@
+editing-add-media = ମିଡ଼ିଆ ଯୋଡ଼ନ୍ତୁ
+editing-an-error-occurred-while-opening = { $val } ଖୋଲିବା ସମୟରେ ଏକ ତ୍ରୁଟି ଘଟିଛି
+editing-attach-picturesaudiovideo-f3 = ପ୍ରତିଛବି/ଅଡ଼ିଓ/ଭିଡ଼ିଓ ସଂଲଗ୍ନ କରନ୍ତୁ (F3)
+editing-bold-text-ctrlandb = ପାଠ୍ୟ ଗାଢ଼ କରନ୍ତୁ (Ctrl+B)
+editing-cards = କାର୍ଡଗୁଡ଼ିକ
+editing-change-colour-f8 = ରଙ୍ଗ ପରିବର୍ତ୍ତନ କରନ୍ତୁ (F8)
+editing-cloze-deletion-ctrlandshiftandc = କ୍ଲୋଜ୍ ବିଲୋପ (Ctrl+Shift+C)
+editing-couldnt-record-audio-have-you-installed = ଅଡ଼ିଓ ରେକର୍ଡ଼ କରାଯାଇ ପାରିଲା ନାହିଁ। ଆପଣ 'lame' ସଂସ୍ଥାପନ କରିଛନ୍ତି କି?
+editing-customize-card-templates-ctrlandl = କାର୍ଡ ଟେମ୍ପଲେଟ୍ ଇଚ୍ଛାରୂପଣ କରନ୍ତୁ (Ctrl+L)
+editing-customize-fields = କ୍ଷେତ୍ରଗୁଡ଼ିକ ଇଚ୍ଛାରୂପଣ କରନ୍ତୁ
+editing-edit-html = HTML ସମ୍ପାଦନା
+editing-fields = କ୍ଷେତ୍ରଗୁଡିକ
+editing-html-editor = HTML ସମ୍ପାଦକ
+editing-italic-text-ctrlandi = ପାଠ୍ୟ ଇଟାଲିକ୍ କରନ୍ତୁ (Ctrl+I)
 editing-latex = LaTeX
 editing-latex-equation = LaTeX ସମୀକରଣ
 editing-latex-math-env = LaTeX ଗଣିତ ପରିବେଶ
