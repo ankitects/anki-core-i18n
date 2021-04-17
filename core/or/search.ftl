@@ -8,6 +8,7 @@ search-invalid-search = ଅବୈଧ ସନ୍ଧାନ: { $reason }
 
 ## eg. expected a number in "due>5x", but found "5x"
 
+search-invalid-answer-button = "`{ $context }`"ରେ 1-4 ମଧ୍ୟରୁ ଏକ ଉତ୍ତର ବଟନ୍ ଆଶା କରାଯାଇଥିଲା, କିନ୍ତୁ "`{ $provided }`" ପାଇଲା।
 
 ## Column labels in browse screen
 
