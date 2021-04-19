@@ -109,6 +109,9 @@ browsing-sidebar-flags = ପତାକାଗୁଡ଼ିକ
 browsing-today = ଆଜି
 browsing-studied-today = ଅଧ୍ୟୟନ କରିଛନ୍ତି
 browsing-added-today = ଯୋଡ଼ାଯାଇଛି
+browsing-again-today = ପୁଣି
+browsing-edited-today = ସମ୍ପାଦିତ
+browsing-sidebar-untagged = ଟ୍ୟାଗ ବିହୀନ
 browsing-removed-unused-tags-count =
     { $count ->
         [one] { $count }ଟିଏ ଅବ୍ୟବହୃତ ଟ୍ୟାଗ୍ ଅପସାରଣ କରାଯାଇଛି।
