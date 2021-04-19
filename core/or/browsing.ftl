@@ -41,7 +41,10 @@ browsing-find = <b>ଖୋଜନ୍ତୁ</b>:
 browsing-first-card = ପ୍ରଥମ କାର୍ଡ
 browsing-flag = ପତାକା
 browsing-home = ଘର
+browsing-in = <b>ୟା ଭିତରେ</b>:
+browsing-interval = ଅନ୍ତରାଳ
 browsing-last-card = ଶେଷ କାର୍ଡ
+browsing-learning = (ଶିଖୁଛନ୍ତି)
 browsing-move-cards = କାର୍ଡଗୁଡ଼ିକ ଘୁଞ୍ଚାନ୍ତୁ
 browsing-nd-names = { $num }: { $name }
 browsing-new = (ନୂତନ)
@@ -49,7 +52,51 @@ browsing-new-note-type = ନୂତନ ନୋଟ୍ ପ୍ରକାର:
 browsing-note = ନୋଟ୍
 browsing-nothing = କିଛି ନାହିଁ
 browsing-please-give-your-filter-a-name = ଦୟାକରି ଆପଣଙ୍କର ଫିଲ୍ଟରକୁ ଗୋଟିଏ ନାମ ଦିଅନ୍ତୁ:
+browsing-please-select-cards-from-only-one = ଦୟାକରି କେବଳ ଗୋଟିଏ ନୋଟ୍ ପ୍ରକାରରୁ କାର୍ଡଗୁଡ଼ିକ ଚୟନ କରନ୍ତୁ।
 browsing-question = ପ୍ରଶ୍ନ
+browsing-remove-tags = ଟ୍ୟାଗଗୁଡ଼ିକ ଅପସାରଣ କରନ୍ତୁ...
+browsing-reschedule = ପୁନଃନିର୍ଦ୍ଧାରଣ କରନ୍ତୁ
+browsing-step = ପଦାଙ୍କ:
+browsing-suspended = ନିଲମ୍ବିତ ଅଛି
+browsing-target-field = ଲକ୍ଷ୍ୟ କ୍ଷେତ୍ର:
+browsing-toggle-mark = ଚିହ୍ନ ଟୋଗଲ୍ କରନ୍ତୁ
+browsing-toggle-suspend = ନିଲମ୍ବନ ଟୋଗଲ୍ କରନ୍ତୁ
+browsing-treat-input-as-regular-expression = ଇନପୁଟ୍ କୁ ନିୟମିତ ଅଭିବ୍ୟକ୍ତି ଭାବରେ ବିବେଚନା କରନ୍ତୁ
+browsing-update-saved-search = ସାମ୍ପ୍ରତିକ ସନ୍ଧାନ ସହିତ ଅଦ୍ୟତନ କରନ୍ତୁ
+browsing-whole-collection = ପୁରା ସଂଗ୍ରହ
+browsing-you-must-have-at-least-one = ଆପଣଙ୍କ ପାଖରେ ଅତି କମରେ ଗୋଟିଏ ସ୍ତମ୍ଭ ରହିବା ଆବଶ୍ୟକ।
+browsing-group =
+    { $count ->
+        [one] { $count }ଟିଏ ଗୋଷ୍ଠୀ
+       *[other] { $count }ଟି ଗୋଷ୍ଠୀ
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count }ଟିଏ ନୋଟ୍
+       *[other] { $count }ଟି ନୋଟ୍
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count }ଟିଏ ନୋଟ୍ ବିଲୋପ ହୋଇଛି।
+       *[other] { $count }ଟି ନୋଟ୍ ବିଲୋପ ହୋଇଛି।
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count }ଟିଏ ନୋଟ୍ ଅଦ୍ୟତନ ହୋଇଛି।
+       *[other] { $count }ଟି ନୋଟ୍ ଅଦ୍ୟତନ ହୋଇଛି।
+    }
 browsing-sidebar-expand = ବିସ୍ତାର କରନ୍ତୁ
 browsing-sidebar-collapse = ସଂକୋଚନ କରନ୍ତୁ
+browsing-sidebar-decks = ଡେକଗୁଡ଼ିକ
+browsing-sidebar-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ
+browsing-sidebar-notetypes = ନୋଟ୍ ପ୍ରକାରଗୁଡ଼ିକ
+browsing-sidebar-saved-searches = ସଞ୍ଚିତ ସନ୍ଧାନଗୁଡ଼ିକ
+browsing-sidebar-save-current-search = ସାମ୍ପ୍ରତିକ ସନ୍ଧାନ ସଞ୍ଚୟ କରନ୍ତୁ
+browsing-sidebar-card-state = କାର୍ଡ ଅବସ୍ଥା
+browsing-sidebar-flags = ପତାକାଗୁଡ଼ିକ
 browsing-today = ଆଜି
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] { $count }ଟିଏ ଅବ୍ୟବହୃତ ଟ୍ୟାଗ୍ ଅପସାରଣ କରାଯାଇଛି।
+       *[other] { $count }ଟି ଅବ୍ୟବହୃତ ଟ୍ୟାଗ୍ ଅପସାରଣ କରାଯାଇଛି।
+    }
