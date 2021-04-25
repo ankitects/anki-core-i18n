@@ -69,6 +69,7 @@ browsing-nd-names = { $num }: { $name }
 browsing-new = (جديدة)
 browsing-new-note-type = نوع الملحوظة الجديد:
 browsing-no-flag = لا مؤشر
+browsing-no-selection = لم تحدد أي بطاقات أو ملحوظات.
 browsing-note = ملحوظة
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = مل
@@ -152,7 +153,7 @@ browsing-notes-updated =
 browsing-window-title = تصفح ({ $selected } من أصل { $total } بطاقة محددة)
 browsing-sidebar-expand = إسدال
 browsing-sidebar-collapse = طي
-browsing-sidebar-expand-children = توسيع الفروع
+browsing-sidebar-expand-children = إسدال الفروع
 browsing-sidebar-collapse-children = طوي الفروع
 browsing-sidebar-decks = رزم
 browsing-sidebar-tags = وسوم

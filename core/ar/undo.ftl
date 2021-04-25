@@ -1,3 +1,6 @@
+### The strings in this file are currently in development,
+### and you may want to skip translating them for now.
+
 undo-undo = تراجع
 undo-redo = إعادة تطبيق
 # eg "Undo Answer Card"
@@ -11,7 +14,13 @@ undo-action-redone = إعادة تطبيق { $action }
 
 undo-answer-card = الإجابة عن بطاقة
 undo-unbury-unsuspend = نكش/تفعيل
+undo-add-deck = إضافة رزمة
 undo-add-note = إضافة ملحوظة
 undo-update-tag = تحديث وسم
 undo-update-note = تحديث ملحوظة
 undo-update-card = تحديث بطاقة
+undo-update-deck = تحديث رزمة
+undo-forget-card = نسيان بطاقة
+undo-set-flag = وضع مؤشر
+undo-build-filtered-deck = بناء رزمة
+undo-expand-collapse = إسدال/طي
