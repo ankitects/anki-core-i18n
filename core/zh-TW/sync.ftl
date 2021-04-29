@@ -27,13 +27,13 @@ sync-resync-required = 請再次同步。若此訊息持續出現，請回報至
 sync-must-wait-for-end = Anki 正在同步。請等待同步完成，然後再試一次。
 sync-confirm-empty-download = 本地集合沒有任何卡片，是否要從 AnkiWeb 下載？
 sync-conflict-explanation =
-    您本地的牌組與 AnkiWeb 牌組之間的差異無法合併，因此需要以某一方的牌組來覆寫另一方的牌組。
+    本地牌組與 AnkiWeb 牌組之間的差異無法合併，因此必須以覆寫本地或 AnkiWeb 上的牌組。
     
-    如果您選的是下載，Anki 會從 AnkiWeb 下載您的集合，而您電腦上次同步以後的變動將會遺失。
+    若您選擇下載，Anki 會從 AnkiWeb 下載集合，而自上次同步以後，您在電腦做出的所有變更將會遺失。
     
-    如果您選的是上傳，Anki 會上傳您的集合至 AnkiWeb，而您的 AnkiWeb 或其他裝置上次同步以後的變動將會遺失。
+    若您選擇上傳，Anki 會將集合上傳至 AnkiWeb，而自上次同步至此裝置以後，您在 AnkiWeb 或其他裝置做出的所有變更將會遺失。
     
-    當所有的裝置都同步以後，新增的卡片和複習的卡片都能自動合併。
+    當所有的裝置都同步以後，未來的複習及新增的卡片都能自動合併。
 sync-ankiweb-id-label = AnkiWeb ID：
 sync-password-label = 密碼：
 sync-account-required =

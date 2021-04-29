@@ -78,12 +78,12 @@ statistics-range-all-history = 全部歷史記錄
 statistics-range-deck = 牌組
 statistics-range-collection = 集合
 statistics-range-search = 搜尋
-statistics-card-ease-title = 卡片容易度
-statistics-card-ease-subtitle = 卡片的容易度越低，出現的頻率就越高
+statistics-card-ease-title = 卡片輕鬆度
+statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-       *[other] { $cards } 張容易度為 { $percent } 的卡片
+       *[other] { $cards } 張輕鬆度為 { $percent } 的卡片
     }
 statistics-future-due-title = 預測
 statistics-future-due-subtitle = 將來會到期的複習卡數量
@@ -175,7 +175,7 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } 張卡片/天
     }
-statistics-average-ease = 中等容易度
+statistics-average-ease = 平均輕鬆度
 statistics-save-pdf = 儲存為 PDF 檔
 statistics-saved = 已儲存。
 statistics-stats = 統計
