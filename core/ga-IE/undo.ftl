@@ -23,3 +23,4 @@ undo-update-deck = Nuashonraigh Paca
 undo-forget-card = Lig Cárta i nDearmad
 undo-set-flag = Socraigh Bratach
 undo-build-filtered-deck = Tiomsaigh Paca
+undo-expand-collapse = Leathnaigh/Díleathnaigh

@@ -7,10 +7,14 @@ browsing-all-fields = Gach Réimse
 browsing-answer = Freagra
 browsing-any-cards-mapped-to-nothing-will = Scriosfar aon chárta nach bhfuil mapáilte ar aon rud. Má tá aon nóta ann nach bhfuil aon chárta fágtha mar chuid de, beidh sé caillte. An bhfuil tú cinnte gur mian leat leanúint ar aghaidh?
 browsing-any-flag = Bratach ar bith
+browsing-average-ease = Meánéascaíocht
+browsing-average-interval = Meáneatramh
 browsing-browser-appearance = Cuma an Bhrabhsálaí
 browsing-browser-options = Roghanna Brabhsálaí
 browsing-buried = I bhFolach
 browsing-card = Cárta
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
 browsing-card-list = Liosta Cártaí
 browsing-card-state = Staid Chárta
 browsing-cards-cant-be-manually-moved-into = Ní féidir cártaí a bhogadh isteach i bpaca scagtha de láimh.
@@ -64,7 +68,10 @@ browsing-nd-names = { $num }: { $name }
 browsing-new = (nua)
 browsing-new-note-type = Cineál nua nóta:
 browsing-no-flag = Gan Bhratach
+browsing-no-selection = Níor roghnaíodh aon chárta ná nóta.
 browsing-note = Nóta
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
 browsing-notes-tagged = Nótaí clibeáilte.
 browsing-nothing = Rud ar bith
 browsing-only-new-cards-can-be-repositioned = Is iad na cártaí nua amháin is féidir a bhogadh.
@@ -98,11 +105,20 @@ browsing-suspended = Ar fionraí
 browsing-tag-duplicates = Clibeáil Dúblaigh
 browsing-tag-rename-warning-empty = Clib nach bhfuil in úsáid, ní féidir a hathainmniú.
 browsing-target-field = Sprioc-réimse:
+browsing-toggle-showing-cards-notes = Taispeáin/Ná Taispeáin Cártaí/Nótaí
 browsing-toggle-mark = Scoránaigh Marc
 browsing-toggle-suspend = Scoránaigh 'Ar Fionraí'
 browsing-treat-input-as-regular-expression = Tuigtear an t-ionchur seo mar shlonn rialta (regex).
 browsing-update-saved-search = Nuashonraigh de réir Chuardaigh Reatha
 browsing-whole-collection = Cnuasach Iomlán
+browsing-window-title-notes =
+    { $total ->
+        [one] Brabhsáil ({ $selected } as { $total } nóta amháin roghnaithe)
+        [two] Brabhsáil ({ $selected } as { $total } nóta roghnaithe)
+        [few] Brabhsáil ({ $selected } as { $total } nóta roghnaithe)
+        [many] Brabhsáil ({ $selected } as { $total } nóta roghnaithe)
+       *[other] Brabhsáil ({ $selected } as { $total } nóta roghnaithe)
+    }
 browsing-you-must-have-at-least-one = Ní foláir an t-aon cholún amháin ar a laghad.
 browsing-group =
     { $count ->
@@ -138,7 +154,7 @@ browsing-notes-updated =
     }
 browsing-window-title =
     { $total ->
-        [one] Brabhsáil ({ $selected } as { $total } cárta roghnaithe)
+        [one] Brabhsáil ({ $selected } as { $total } chárta amháin roghnaithe)
         [two] Brabhsáil ({ $selected } as { $total } chárta roghnaithe)
         [few] Brabhsáil ({ $selected } as { $total } chárta roghnaithe)
         [many] Brabhsáil ({ $selected } as { $total } gcárta roghnaithe)
@@ -160,6 +176,7 @@ browsing-studied-today = Staidéartha inniu
 browsing-added-today = Curtha Leis Inniu
 browsing-again-today = Arís inniu
 browsing-edited-today = Curtha in Eagar Inniu
+browsing-sidebar-first-review = Chéad Athbhreithniú
 browsing-sidebar-due-today = Le Staidéar Inniu
 browsing-sidebar-untagged = Gan Chlib
 browsing-sidebar-overdue = Thar Téarma

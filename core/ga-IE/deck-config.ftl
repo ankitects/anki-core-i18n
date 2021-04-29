@@ -11,3 +11,4 @@ deck-config-used-by-decks =
 deck-config-default-name = Réamhshocrú
 deck-config-description-markdown = Cur markdown+clean HTML i bhfeidhm
 deck-config-description-markdown-hint = Feicfear mar théacs iad in Anki 2.1.40 nó leaganacha níos sine.
+deck-config-title = Sainroghanna Paca
