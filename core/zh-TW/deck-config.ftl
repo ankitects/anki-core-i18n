@@ -4,3 +4,4 @@ deck-config-used-by-decks = 被 { $decks } 個牌組使用
 deck-config-default-name = 預設
 deck-config-description-markdown = 啟用 markdown+清理 HTML
 deck-config-description-markdown-hint = 在 Anki 2.1.40 及以下版本將會顯示為文字。
+deck-config-title = 牌組選項

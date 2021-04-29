@@ -23,3 +23,4 @@ undo-update-deck = 更新牌組
 undo-forget-card = 忘記卡片
 undo-set-flag = 設定旗標
 undo-build-filtered-deck = 建立牌組
+undo-expand-collapse = 展開/摺疊
