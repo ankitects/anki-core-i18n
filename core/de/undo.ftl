@@ -23,3 +23,4 @@ undo-update-deck = Stapel aktualisieren
 undo-forget-card = Karte vergessen
 undo-set-flag = markieren
 undo-build-filtered-deck = Deck erstellen
+undo-expand-collapse = Aus-/Einklappen
