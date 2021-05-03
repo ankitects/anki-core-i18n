@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = מתזמן Anki 2.1 (גרסת בטא)
 preferences-automatically-sync-on-profile-openclose = סנכרן אוטומטית בעת פתיחה\סגירה של פרופיל
 preferences-backups = גיבויים
 preferences-backups2 = גיבויים
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <b>גיבויים</b><br>Anki 
 preferences-basic = בסיסי
 preferences-change-deck-depending-on-note-type = שנה חפיסה בהתאם לסוג רשומה
 preferences-changes-will-take-effect-when-you = השינויים ייכנסו לתוקף כשתתחיל את Anki מחדש.
-preferences-hardware-acceleration-faster-may-cause-display = האצת חומרה (מהיר יותר, עשוי לגרום לבעיות תצוגה)
 preferences-hours-past-midnight = שעות לאחר חצות
 preferences-interface-language = שפת ממשק:
 preferences-interrupt-current-audio-when-answering = הפסק שמע נוכחי בעת תשובה
@@ -37,3 +35,4 @@ preferences-timebox-time-limit = הגבלת זמן בתיבת הזמן
 preferences-user-interface-size = גודל ממשק המשתמש
 preferences-when-adding-default-to-current-deck = בעת הוספה, ברירת המחדל היא הוספה לחפיסה הנוכחית
 preferences-you-can-restore-backups-via-fileswitch = באפשרותך לשחזר מגיבוי דרך קובץ>החלף פרופיל.
+preferences-legacy-timezone-handling = תאריך ושעה ידניים (פחות יציב, אך נדרש עבור AnkiDroid בגרסאות <= 2.14).

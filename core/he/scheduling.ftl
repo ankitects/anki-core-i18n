@@ -102,6 +102,17 @@ scheduling-how-to-custom-study = אם אתה רוצה ללמוד מחוץ לתו
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = לימוד מותאם
+
+## Scheduler upgrade
+
+scheduling-update-soon = אנקי בגרסה 2.1 מגיע עם מתזמן חדש, שתיקן מספר בעיות שהיו קיימות בגרסאות הישנות. מומלץ לעדכן.
+scheduling-update-done = המתזמן עודכן בהצלחה.
+scheduling-update-button = עדכון
+scheduling-update-later-button = מאוחר יותר
+scheduling-update-more-info-button = למד עוד
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = כלול תמיד את צד השאלה כאשר אודיו מופעל שנית
 scheduling-at-least-one-step-is-required = נדרש לפחות צעד אחד.
 scheduling-automatically-play-audio = נגן אודיו אוטומטית
@@ -150,7 +161,27 @@ scheduling-steps-must-be-numbers = צעדים מוכרחים להיות מספר
 scheduling-tag-only = סמן בלבד
 scheduling-the-default-configuration-cant-be-removed = תצורת ברירת המחדל אינה ניתנת למחיקה.
 scheduling-your-changes-will-affect-multiple-decks = השינויים שתבצע ישפיעו על מספר חפיסות. אם אתה מעוניין לשנות רק את החפיסה הנוכחית, אנא הוסף קבוצת אפשרויות חדשה קודם.
-scheduling-deck-updated = { $count ->
-    [one] { $count } חפיסה עודכנה.
-   *[other] { $count } חפיסות עודכנו.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } חפיסה עודכנה.
+       *[other] { $count } חפיסות עודכנו.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] בעוד כמה ימים להציג את הכרטיס?
+       *[other] בעוד כמה ימים להציג את הכרטיסים?
+    }
+scheduling-set-due-date-prompt-hint =
+    0=היום
+    1!=מחר+איפוס המרווח בין חזרות
+    3-7=בחירה אקראית בין 3 ל-7 ימים.
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] הגדר תאריך יעד לכרטיס { $cards }.
+       *[other] הגדר תאריך יעד ל{ $cards } כרטיסים.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] שכח כרטיס { $cards }.
+       *[other] שכח { $cards } כרטיסים.
+    }
