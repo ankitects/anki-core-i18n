@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = הוסף חפיסה חדשה (Ctrl+N)
-decks-are-you-sure-you-wish-to = האם אתה בטוח שברצונך למחוק את { $val }?
 decks-build = בנה
 decks-cards-selected-by = כרטיסים נבחרים לפי
 decks-create-deck = צור חפיסה
@@ -30,8 +29,5 @@ decks-repeat-failed-cards-after = חזור על הכרטיסיות שנכשלו 
 decks-reschedule-cards-based-on-my-answers = תזמן כרטיסים מחדש על בסיס התשובות שלי בחפיסה זו.
 decks-study = למד
 decks-study-deck = למד חפיסה
-decks-the-provided-search-did-not-match = החיפוש הנתון אינו תואם לאף כרטיס. האם ברצונך לשנותו?
-decks-it-has-card = { $count ->
-    [one] קיים { $count } כרטיס.
-   *[other]  קיימות { $count } כרטיסיות.
-  }
+decks-filtered-deck-search-empty = אין כרטיסים שתואמים לחיפוש המבוקש. יתכן שחלק מהכרטיסים לא נכללו בחיפוש משום שהם בחפיסה מסוננת אחרת, או שהם מושהים.
+decks-unmovable-cards = הצג רק כרטיסים שאינם כלולים

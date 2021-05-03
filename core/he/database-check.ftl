@@ -46,6 +46,11 @@ database-check-revlog-properties =
         [one] תוקן { $count } רישום חזרה עם מאפיינים שגויים.
        *[other] תוקנו { $count } רישומי חזרה עם מאפיינים שגויים.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] תוקנה רשומה { $count } עם תווי utf8 שאינם חוקיים.
+       *[other] תוקנו { $count } רשומות עם תווי utf8 שאינם חוקיים.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = אחד או יותר מסוגי הרשומות היו חסרים. הרשומות שהשתמשו בהם קיבלו סוג רשומה חדשה מתחיל במילים "db-check", אך שמות השדות ועיצוב הכרטיס נאבדו. מומלץ לשחזר מהגיבוי האוטומטי.
 

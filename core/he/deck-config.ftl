@@ -6,3 +6,5 @@ deck-config-used-by-decks =
        *[other] { $decks } חפיסות
     }
 deck-config-default-name = ברירת-מחדל
+deck-config-description-markdown-hint = יופיע כטקסט ב-Anki בגירסאות 2.1.40 ומעלה.
+deck-config-title = אפשרויות חפיסה
