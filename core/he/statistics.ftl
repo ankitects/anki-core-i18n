@@ -102,6 +102,7 @@ statistics-counts-early-cards = מוקדמים
 statistics-counts-learning-cards = נלמדים
 statistics-counts-relearning-cards = נלמדים מחדש
 statistics-counts-title = מניין הכרטיסים
+statistics-counts-separate-suspended-buried-cards = הפרד בין כרטיסים מושהים למוטמנים.
 statistics-range-all-time = משך חיי חפיסה
 statistics-range-1-year-history = בשנה האחרונה
 statistics-range-all-history = מאז ומתמיד
@@ -188,7 +189,6 @@ statistics-elapsed-time-years = { $amount } שנ'
 
 ##
 
-statistics-error-fetching = נמצאו נתונים שגויים - בדוק את מסד הנתונים בכדי לתקן את הבעיה.
 statistics-average-for-days-studied = ממוצע עבור ימים שנלמדו
 statistics-total = סך-הכל
 statistics-days-studied = ימי לימוד

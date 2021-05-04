@@ -17,9 +17,16 @@ search-missing-key = נמצאו נקודתיים ללא מילת מפתח. אם 
 search-unknown-escape = הביטוי '{ $val }' אינו מוכר. אם ברצונך לחפש טקסט הכולל לוכסן הפוך '\', הקדם אליו לוכסן נוסף '\\'.
 search-invalid-argument = בעבור '{ $term }' התקבל ערך שגוי '{ $argument }'.
 search-invalid-flag = אחרי ':flag' חייב להופיע מספר חוקי: '1' (אדום), '2' (כתום), '3' (ירוק), '4' (כחול) או '0' (ללא דגל).
+search-invalid-prop-operator = לאחר `prop:{ $val }` חייב להופיע אחד מהביטויים הבאים: `=`، `!=`، `<`، `>`، `<=`، או `>=`.
+search-invalid-other = נא לבדוק שגיאות הקלדה
 
 ## eg. expected a number in "due>5x", but found "5x"
 
+search-invalid-number = אמור להיות מספר ב "'{ $context }'", אך נמצא "'{ $provided }'".
+search-invalid-whole-number = אמור להיות מספר שלם ב "'{ $context }'", אך נמצא "'{ $provided }'".
+search-invalid-positive-whole-number = אמור להיות מספר חיובי ב "'{ $context }'", אך נמצא "'{ $provided }'".
+search-invalid-negative-whole-number = אמור להיות מספר שלם קטן או שווה ל0, ב"'{ $context }'", אך נמצא "'{ $provided }'".
+search-invalid-answer-button = אמור להיות כפתור תשובה בין 1-4 ב"'{ $context }'", אך נמצא "'{ $provided }'".
 
 ## Column labels in browse screen
 
@@ -28,3 +35,5 @@ search-card-modified = כרטיס השתנה
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = הצג בדפדפן
