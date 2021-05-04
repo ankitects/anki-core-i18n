@@ -22,3 +22,5 @@ undo-update-card = עדכון כרטיס
 undo-update-deck = עדכון חפיסה
 undo-forget-card = שכח כרטיס
 undo-set-flag = הגדרת דגל
+undo-build-filtered-deck = בניית חפיסה
+undo-expand-collapse = הרחב/צמצם
