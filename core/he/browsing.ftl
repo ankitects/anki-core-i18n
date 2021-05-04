@@ -102,6 +102,7 @@ browsing-suspended = מושהה
 browsing-tag-duplicates = כפילויות תגים
 browsing-tag-rename-warning-empty = לא ניתן לשנות תגית שאין לה רשומות.
 browsing-target-field = שדה יעד:
+browsing-toggle-showing-cards-notes = סמן כרטיסים/רשומות מוצגים
 browsing-toggle-mark = סמן
 browsing-toggle-suspend = השהה
 browsing-treat-input-as-regular-expression = התייחס לערך המוזן כביטוי רגולרי
