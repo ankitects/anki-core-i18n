@@ -11,7 +11,7 @@ deck-config-title = 牌組選項
 deck-config-daily-limits = 每日上限
 deck-config-new-limit-tooltip =
     當有新卡片可供學習時，一天中引入新卡片的最大數量。
-    引入新的學習資料會增加您短期內的複習量負荷，因此
+    引入新的學習資料會增加您短期內的複習工作量，因此
     該選項通常應比您的複習上限小至少 10 倍。
 deck-config-review-limit-tooltip = 當有複習卡準備就緒時，一天中顯示複習卡的最大數量。
 
@@ -36,8 +36,8 @@ deck-config-easy-interval-tooltip =
 
 deck-config-relearning-steps = 重新學習階段
 deck-config-relearning-steps-tooltip =
-    零或多段延遲，用空白分隔。在複習卡按下「重來」按鈕後，
-    預設將會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將
+    零或多段延遲，用空白分隔。在預設設定下，複習卡按下「重來」
+    按鈕後，將會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將
     改變間隔，而不會進入重新學習狀態。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     複習卡被標記為榨時卡之前，需要按下「重來」的次數。
@@ -52,24 +52,66 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-burying-title = 暫停
+deck-config-bury-tooltip =
+    要/不要將相同筆記的其他卡片（如反向卡片，
+    相鄰的克漏字空格）延遲至第二天。
 
 ## Timer section
 
+deck-config-timer-title = 計時器
+deck-config-maximum-answer-secs = 最大回答秒數
+deck-config-maximum-answer-secs-tooltip =
+    為單次複習記錄的最大秒數。若回答超過此時間（假設您離開了螢幕前），
+    那麼您花費的時間將會被記為您所設定的上限。
+deck-config-show-answer-timer-tooltip =
+    在複習畫面，顯示一個計時器，計算您
+    複習每張卡片所花費的秒數。
 
 ## Audio section
 
+deck-config-audio-title = 音訊
+deck-config-disable-autoplay = 不要自動播放音訊
+deck-config-always-include-question-audio-tooltip = 當查看卡片答案面時執行了重播動作，要/不要包含問題音訊。
 
 ## Advanced section
 
+deck-config-advanced-title = 進階選項
+deck-config-maximum-interval-tooltip =
+    複習卡將等待的最大天數。當複習卡達到上限時，
+    「困難」、「良好」和「簡單」的延遲將會一致。
+    此選項設定得越短，您的工作量將會越多。
+deck-config-starting-ease-tooltip =
+    新卡片的起始輕鬆度乘數。在預設設定下，在一張新學習的卡片
+    按下「良好」按鈕將使下次複習前的延遲為上次的 2.5 倍。
+deck-config-easy-bonus-tooltip = 一個額外的乘數，套用於複習卡按下「簡單」後的間隔。
+deck-config-interval-modifier-tooltip =
+    此乘數套用於所有複習卡，細微的調整能使 Anki 排程更為保守/激進。
+    請在變更此選項前參閱使用手冊。
+deck-config-hard-interval-tooltip = 套用於複習卡回答「困難」後的間隔的乘數。
+deck-config-new-interval-tooltip = 套用於複習卡回答「重來」後的間隔的乘數。
+deck-config-minimum-interval-tooltip = 複習卡回答「困難」後的最小間隔。
 
 ## Adding/renaming
 
+deck-config-add-group = 新增選項群組
+deck-config-name-prompt = 名稱：
+deck-config-rename-group = 重新命名群組
 
 ## Removing
 
+deck-config-remove-group = 移除群組
+deck-config-confirm-normal = 確定要移除{ $name }嗎？
+-deck-config-will-require-full-sync = 這將需要您進行一次單向同步。
+# You don't need to translate this
+deck-config-confirm-full =
+    { deck-config-confirm-normal }
+    { -deck-config-will-require-full-sync }
 
 ## Other Buttons
 
+deck-config-save-button = 儲存
+deck-config-save-to-all-children = 儲存到所有下層
+deck-config-revert-button-tooltip = 將此設定回復為預設值。
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -79,3 +121,13 @@ deck-config-description-markdown-hint = 在 Anki 2.1.40 及以下版本將會顯
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    一個上層牌組的上限為{ $cards ->
+       *[other] { $cards } 張卡片
+    }，將會複寫此上限。
+deck-config-reviews-too-low =
+    若每天新增 { $cards ->
+       *[other] { $cards } 張新卡片
+    }，您的複習上限至少應為 { $expected }。
+deck-config-learning-step-above-graduating-interval = 畢業間隔至少應該和最後一個學習階段一樣長。
+deck-config-good-above-easy = 簡單間隔至少應該和畢業間隔一樣長。
