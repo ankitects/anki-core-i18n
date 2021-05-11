@@ -81,7 +81,7 @@ deck-config-maximum-interval-tooltip =
     「困難」、「良好」和「簡單」的延遲將會一致。
     此選項設定得越短，您的工作量將會越多。
 deck-config-starting-ease-tooltip =
-    新卡片的起始輕鬆度乘數。在預設設定下，在一張新學習的卡片
+    新卡片的起始輕鬆度乘數。在預設設定下，在一張剛學完的卡片
     按下「良好」按鈕將使下次複習前的延遲為上次的 2.5 倍。
 deck-config-easy-bonus-tooltip = 一個額外的乘數，套用於複習卡按下「簡單」後的間隔。
 deck-config-interval-modifier-tooltip =
