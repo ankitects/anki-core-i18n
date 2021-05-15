@@ -15,7 +15,7 @@ deck-config-title = Stapeloptionen
 deck-config-daily-limits = Täglicher Grenzwert
 deck-config-new-limit-tooltip =
     Die maximale Anzahl an neuen Karten, die an einem Tag eingeführt werden sollen, wenn neue Karten zur Verfügung stehen.
-    Da neues Material Ihre kurzfristige Beanspruchung für Wiederholungen steigert, sollte dies typischerweise mindestens 10-mal so wenig sein wie Ihr Grenzwert für Wiederholungen.
+    Da neues Material Ihr Arbeitspensum für kurzfristige Wiederholungen steigert, sollte dies typischerweise mindestens 10-mal so gering sein wie Ihr Grenzwert für Wiederholungen.
 deck-config-review-limit-tooltip =
     Die maximale Anzahl an Wiederholkarten, die an einem Tag angezeigt werden soll,
     wenn Karten für die Wiederholung bereitstehen.
@@ -25,6 +25,11 @@ deck-config-review-limit-tooltip =
 deck-config-learning-steps = Lernstufen
 # Please don't translate '5m' or '2d'
 -deck-config-delay-hint = Verzögerungen können in Minuten (z.B. "5m") oder Tagen (z.B. "2d") angegeben werden.
+deck-config-learning-steps-tooltip =
+    Eine oder mehrere Verzögerungen, durch Leerzeichen voneinander getrennt. Die erste Verzögerung wird benutzt, 
+    wenn Sie den "Nochmals"-Knopf auf einer neuen Karte drücken, und beträgt standardmäßig 1 Minute.
+    Der "Gut"-Knopf lässt die Karte voranschreiten. Die Verzögerung beträgt dann standardmäßig 10 Minuten.
+    Wenn eine Karte alle Schritte durchlaufen hat, dann wird diese eine Wiederholkarte und wird an einem anderen Tag wieder erscheinen. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Die Anzahl an abzuwartenden Tagen, bevor eine Karte, die mit "Gut" in der finalen Lernstufe  bewertet wurde, wieder angezeigt wird.
 deck-config-easy-interval-tooltip = Die abzuwartende Anzahl an Karten, bevor eine Karte wieder angezeigt wird, nachdem der "Einfach"-Knopf benutzt wurde, um die Karten direkt aus dem Lernen herauszunehmen.
 
@@ -32,6 +37,10 @@ deck-config-easy-interval-tooltip = Die abzuwartende Anzahl an Karten, bevor ein
 
 deck-config-relearning-steps = Schritte für das erneute Lernen
 deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des "Nochmal"-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie erneut erlernt wird. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Die Anzahl, wie oft "Nochmals" gedrückt werden muss, um eine Wiederholkarte als
+    Lernbremse einzustufen. Lernbremsen sind Karten, die besonders viel von Ihrer Zeit beanspruchen. 
+    Wenn eine Karte als Lernbremse eingestuft wird, dann ist es eine gute Idee, diese zu überarbeiten, zu löschen oder eine Gedächtnisstütze (Eselbrücke) auszudenken, die Ihnen hilft, sich an sie zu erinnern.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     <b>nur für Schlagwort</b>: Ein Schlagwort "leech" für die Notiz hinzufügen und ein Pop-up anzeigen.<br>
@@ -46,17 +55,24 @@ deck-config-bury-tooltip = Ob andere Karten der gleichen Notiz (z.B. umgekehrte 
 
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Maximal Sekunden zum Antworten
+deck-config-maximum-answer-secs-tooltip =
+    Die maximale Anzahl an Sekunden zum Aufzeichnen für eine Wiederholung. Wenn die Antwort
+    diese Zeit überschreitet (weil Sie beispielsweise nicht auf den Bildschirm geschaut haben), dann wird die zur Antwort benötigte Zeitdauer als gesetzter Grenzwert aufgezeichnet.
 deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
 
 ## Audio section
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Audio nicht automatisch abspielen
-deck-config-always-include-question-audio-tooltip = Ob das Audio auf der Frageseite auch abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
+deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
 
 ## Advanced section
 
 deck-config-advanced-title = Erweitert
+deck-config-maximum-interval-tooltip =
+    Die maximale Anzahl an Tagen, die eine Wiederholkarte warten wird. Wenn Wiederholungen
+    ihren Grenzwert erreicht haben, erhalten "Schwer", "Gut" und "Leicht" alle die gleiche Verzögerung.
+    Je kürzer Sie dies setzen, desto größer wird Ihr Arbeitspensum.
 deck-config-starting-ease-tooltip = Der Leichtigkeitsmultiplikator, mit dem neue Karten beginnen. Standardmäßig wird der "Gut"-Knopf bei neu gelernten Karten die nächste Wiederholung um den Faktor 2.5 verglichen zur vorherigen Verzögerungen verzögern.
 deck-config-easy-bonus-tooltip = Ein zusätzlicher Multiplikator, welcher auf das Intervall einer Wiederholkarte angewendet wird, wenn Sie diese als "Einfach" einstufen.
 deck-config-interval-modifier-tooltip =
