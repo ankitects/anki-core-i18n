@@ -23,6 +23,7 @@ card-templates-changes-saved = ପରିବର୍ତ୍ତନଗୁଡିକ ସ
 card-templates-discard-changes = ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ପରିତ୍ୟାଗ କରିବେ କି?
 card-templates-add-card-type = କାର୍ଡ ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ...
 card-templates-card = ପତ୍ର { $val }
+card-templates-flip = ଓଲଟାଅ
 card-templates-card-count =
     { $count ->
         [one] { $count }ଟିଏ ପତ୍ର

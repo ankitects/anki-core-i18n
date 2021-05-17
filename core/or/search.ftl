@@ -5,6 +5,7 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = ଅବୈଧ ସନ୍ଧାନ: { $reason }
+search-invalid-flag = `ପତାକା:`କୁ ଏକ ବୈଧ ପତାକା ସଂଖ୍ୟା ଅନୁସରଣ କରିବା ଆବଶ୍ୟକ: `1` (ନାଲି), `2` (କମଳା), `3` (ସବୁଜ), `4` (ନୀଳ) କିମ୍ବା `0` (ପତାକା ନାହିଁ).
 
 ## eg. expected a number in "due>5x", but found "5x"
 
