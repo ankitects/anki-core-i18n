@@ -27,7 +27,7 @@ editing-mathjax-block = MathJax 區塊
 editing-mathjax-chemistry = MathJax 化學方程式
 editing-mathjax-inline = 行內 MathJax
 editing-media = 媒體
-editing-ordered-list = 排序清單
+editing-ordered-list = 有序清單
 editing-outdent = 減少縮排
 editing-paste = 貼上
 editing-record-audio = 錄製音訊
@@ -39,7 +39,7 @@ editing-superscript = 上標
 editing-tags = 標籤
 editing-to-make-a-cloze-deletion-on = 若要在現有的筆記上建立克漏字空格，您必須先透過「筆記」>「變更筆記類型」將其變更為克漏字類型。
 editing-underline-text = 為文字加上底線
-editing-unordered-list = 未排序清單
+editing-unordered-list = 無序清單
 editing-warning-cloze-deletions-will-not-work = 警告，除非您將上方的類型改成克漏字，否則克漏字空格將不會生效。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
