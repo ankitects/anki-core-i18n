@@ -25,11 +25,19 @@ deck-config-daily-limits = ଦୈନିକ ସୀମା
 
 ## Timer section
 
+deck-config-timer-title = ଟାଇମର୍
+deck-config-maximum-answer-secs = ସର୍ବାଧିକ ଉତ୍ତର ସେକେଣ୍ଡ
+deck-config-show-answer-timer-tooltip =
+    ସମୀକ୍ଷା ସ୍କ୍ରିନରେ, ଏକ ଟାଇମର୍ ଦେଖାନ୍ତୁ ଯାହା ପ୍ରତ୍ୟେକ କାର୍ଡ ସମୀକ୍ଷା କରିବାକୁ ଆପଣ
+    ନେଉଥିବା ସେକେଣ୍ଡର ସଂଖ୍ୟା ଗଣନା କରେ।
 
 ## Audio section
 
 deck-config-audio-title = ଅଡ଼ିଓ
 deck-config-disable-autoplay = ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅଡ଼ିଓ ଚଲାନ୍ତୁ ନାହିଁ
+deck-config-always-include-question-audio-tooltip =
+    ଏକ କାର୍ଡର ଉତ୍ତର ପାର୍ଶ୍ୱକୁ ଦେଖିବାବେଳେ ରିପ୍ଲେ କ୍ରିୟା ବ୍ୟବହୃତ ହେଲେ
+    ପ୍ରଶ୍ନ ଅଡ଼ିଓ ଅନ୍ତର୍ଭୁକ୍ତ ହେବା ଉଚିତ କି ନୁହେଁ।
 
 ## Advanced section
 
