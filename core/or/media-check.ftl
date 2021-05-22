@@ -16,6 +16,7 @@ media-check-subfolder-count = ଉପଫୋଲ୍ଡରଗୁଡ଼ିକ: { $cou
 
 ## Shown at the top of each section
 
+media-check-subfolder-header = ମିଡ଼ିଆ ଫୋଲ୍ଡର ଭିତରେ ଥିବା ଫୋଲ୍ଡରଗୁଡ଼ିକ ସମର୍ଥିତ ନୁହେଁ।
 
 ## Shown once for each file
 
@@ -26,10 +27,21 @@ media-check-unused-file = ଅବ୍ୟବହୃତ: { $filename }
 
 ## Progress
 
+media-check-checked = ଯାଞ୍ଚ କରାଯାଇଛି { $count }...
 
 ## Deleting unused media
 
 media-check-delete-unused-confirm = ଅବ୍ୟବହୃତ ମିଡ଼ିଆ ବିଲୋପ କରିବେ କି?
+media-check-files-remaining =
+    { $count ->
+        [one] { $count }ଟିଏ ଫାଇଲ୍
+       *[other] { $count }ଟି ଫାଇଲ୍
+    } ବାକି ରହିଛି।
+media-check-delete-unused-complete =
+    { $count ->
+        [one] { $count }ଟିଏ ଫାଇଲ୍
+       *[other] { $count }ଟି ଫାଇଲ୍
+    } ଆବର୍ଜନାକୁ ଚାଲିଗଲା।
 media-check-trash-emptied = ଆବର୍ଜନା ଫୋଲ୍ଡର୍ ବର୍ତ୍ତମାନ ଖାଲି ଅଛି।
 
 ## Rendering LaTeX
@@ -39,4 +51,6 @@ media-check-all-latex-rendered = ସମସ୍ତ LaTeX ପରିବେଷଣ କ
 ## Buttons
 
 media-check-delete-unused = ଅବ୍ୟବହୃତ ବିଲୋପ କରନ୍ତୁ
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = ଆବର୍ଜନା ଖାଲି କରନ୍ତୁ
 media-check-check-media-action = ମିଡ଼ିଆ ଯାଞ୍ଚ

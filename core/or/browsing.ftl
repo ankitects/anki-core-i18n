@@ -15,8 +15,8 @@ browsing-card-state = କାର୍ଡ ଅବସ୍ଥା
 browsing-cards-cant-be-manually-moved-into = କାର୍ଡଗୁଡ଼ିକୁ ହସ୍ତକୃତ ଭାବରେ ଏକ ଛାଣକ ଡେକ୍ ରେ ସ୍ଥାନାନ୍ତରିତ କରାଯାଇପାରିବ ନାହିଁ।
 browsing-cards-deleted =
     { $count ->
-        [one] { $count }ଟିଏ କାର୍ଡ୍ ବିଲୋପ ହୋଇଛି।
-       *[other] { $count }ଟି କାର୍ଡ୍ ବିଲୋପ ହୋଇଛି।
+        [one] { $count }ଟିଏ କାର୍ଡ ବିଲୋପ ହୋଇଛି।
+       *[other] { $count }ଟି କାର୍ଡ ବିଲୋପ ହୋଇଛି।
     }
 browsing-change-deck = ଡେକ୍ ପରିବର୍ତ୍ତନ କରନ୍ତୁ
 browsing-change-deck2 = ଡେକ୍ ପରିବର୍ତ୍ତନ...
