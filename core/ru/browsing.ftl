@@ -5,17 +5,27 @@ browsing-addon = Дополнение
 browsing-all-card-types = Все типы карточек
 browsing-all-fields = Все поля
 browsing-answer = Ответ
-browsing-any-cards-mapped-to-nothing-will = Несопоставленные карты будут удалены. Записи, оставшиеся без карт, будут утеряны. Продолжить?
-browsing-any-flag = Любой флаг
-browsing-browser-appearance = Вид списка
-browsing-browser-options = Параметры списка
-browsing-buried = Отложены
+browsing-any-cards-mapped-to-nothing-will = Несопоставленные карточки будут удалены. Записи, оставшиеся без карточек, будут утеряны. Продолжить?
+browsing-any-flag = Любой флажок
+browsing-average-ease = Средняя сложность
+browsing-average-interval = Средний интервал
+browsing-browser-appearance = Вид поисковика
+browsing-browser-options = Параметры поисковика
+browsing-buried = Отложенные
 browsing-card = Карточка
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = К
 browsing-card-list = Список карточек
 browsing-card-state = Состояние карточки
 browsing-cards-cant-be-manually-moved-into = Нельзя вручную переместить карточку в фильтрованную колоду.
-browsing-change-deck = В другую колоду
-browsing-change-deck2 = В другую колоду...
+browsing-cards-deleted =
+    { $count ->
+        [one] карточка удалена.
+        [few] карточки удалено.
+       *[other] карточек удалено.
+    }
+browsing-change-deck = Сменить колоду
+browsing-change-deck2 = Сменить колоду...
 browsing-change-note-type = Изменить тип записи
 browsing-change-note-type2 = Изменить тип записи...
 browsing-change-to = Изменить { $val } на:
@@ -70,14 +80,11 @@ browsing-question = Вопрос
 browsing-queue-bottom = Конец очереди: { $val }
 browsing-queue-top = Начало очереди: { $val }
 browsing-randomize-order = В случайном порядке
-browsing-remove-current-filter = Удалить текущий фильтр...
-browsing-remove-from-your-saved-searches = Удалить { $val } из сохраненных поисков?
 browsing-remove-tags = Снять метки...
 browsing-replace-with = <b>Заменить на</b>:
 browsing-reposition = Переместить...
 browsing-reposition-new-cards = Переместить новые карты
 browsing-reschedule = Перепланировать
-browsing-save-current-filter = Сохранить текущий фильтр...
 browsing-search-bar-hint = Поиск карточек/записей (введите текст, затем нажмите Enter)
 browsing-search-in = Искать в:
 browsing-search-within-formatting-slow = Поиск с форматированием (медленно)
