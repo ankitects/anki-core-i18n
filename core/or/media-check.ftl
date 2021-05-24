@@ -17,6 +17,7 @@ media-check-subfolder-count = ଉପଫୋଲ୍ଡରଗୁଡ଼ିକ: { $cou
 ## Shown at the top of each section
 
 media-check-subfolder-header = ମିଡ଼ିଆ ଫୋଲ୍ଡର ଭିତରେ ଥିବା ଫୋଲ୍ଡରଗୁଡ଼ିକ ସମର୍ଥିତ ନୁହେଁ।
+media-check-unused-header = ନିମ୍ନଲିଖିତ ଫାଇଲଗୁଡ଼ିକ ମିଡ଼ିଆ ଫୋଲ୍ଡରରେ ମିଳିଥିଲା, କିନ୍ତୁ କୌଣସି କାର୍ଡରେ ବ୍ୟବହାର ହୋଇଥିବା ପରି ମନେ ହେଉ ନାହିଁ:
 
 ## Shown once for each file
 

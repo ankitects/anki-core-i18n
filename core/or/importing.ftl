@@ -15,4 +15,5 @@ importing-skipped = ଛଡ଼ାଗଲା
 importing-supermemo-xml-export-xml = Supermemo XML ରପ୍ତାନି (*.xml)
 importing-tab = ଟ୍ୟାବ୍
 importing-the-provided-file-is-not-a = ପ୍ରଦତ୍ତ ଫାଇଲଟି ଏକ ବୈଧ .apkg ଫାଇଲ ନୁହେଁ।
+importing-this-file-does-not-appear-to = ଏହି ଫାଇଲ୍ ଏକ ବୈଧ .apkg ଫାଇଲ୍ ପରି ମନେ ହେଉ ନାହିଁ। ଯଦି ଆପଣ AnkiWeb ରୁ ଡାଉନଲୋଡ୍ ହୋଇଥିବା ଏକ ଫାଇଲ୍ ରୁ ଏହି ତ୍ରୁଟି ପ୍ରାପ୍ତ କରୁଛନ୍ତି, ତେବେ ସମ୍ଭାବନା ଅଛି ଯେ ଆପଣଙ୍କ ଡାଉନଲୋଡ୍ ବିଫଳ ହୋଇଛି। ଦୟାକରି ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ, ଏବଂ ଯଦି ସମସ୍ୟା ଜାରି ରହେ, ଦୟାକରି ଏକ ଭିନ୍ନ ବ୍ରାଉଜର୍ ସହ ପୁନଃଚେଷ୍ଟା କରନ୍ତୁ।
 importing-unknown-file-format = ଅଜ୍ଞାତ ଫାଇଲ୍ ଫର୍ମାଟ୍।
