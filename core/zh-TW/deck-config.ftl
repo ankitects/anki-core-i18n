@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+
+## Top section
+
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks = 被 { $decks } 個牌組使用
@@ -14,11 +17,18 @@ deck-config-new-limit-tooltip =
     引入新的學習資料會增加您短期內的複習工作量，因此
     該選項通常應比您的複習上限小至少 10 倍。
 deck-config-review-limit-tooltip = 當有複習卡準備就緒時，一天中顯示複習卡的最大數量。
+deck-config-limit-deck-v3 =
+    學習牌組時，若其含有子牌組，則對子牌組分別設定的上限決定了從特定牌組中
+    抽出的最大卡片數量。而學習中的牌組設定的上限決定了卡片將會顯示的總數。
+deck-config-limit-new-bound-by-reviews =
+    複習上限會影響新卡片上限。例如，若您的複習上限設為 200，
+    且您有 190 張卡片待複習，則最多只有 10 張新卡片會顯示。
+    若您已達到複習上限，則不會再顯示新卡片。
 
 ## New Cards section
 
 deck-config-learning-steps = 學習階段
-# Please don't translate '5m' or '2d'
+# Please don't translate `5m` or `2d`
 -deck-config-delay-hint = 延遲時間可為分鐘（如「5m」）或天（如「2d」）。
 deck-config-learning-steps-tooltip =
     一或多段延遲，用空白分隔。第一段延遲將為您學習新卡片時，
@@ -31,6 +41,13 @@ deck-config-graduating-interval-tooltip =
 deck-config-easy-interval-tooltip =
     當按下「簡單」按鈕，直接跳過學習階段後
     再次顯示卡片前需要等待的天數。
+deck-config-new-insertion-order = 插入順序
+deck-config-new-insertion-order-tooltip =
+    控制新增卡片時，新卡片被指派的順序（到期 #）。
+    卡片到期數字越小，學習時顯示的順序就越前。
+    變更此選項將自動更新已存在的新卡片順序。
+deck-config-new-insertion-order-sequential = 循序（最舊的卡片在前）
+deck-config-new-insertion-order-random = 隨機
 
 ## Lapses section
 
@@ -51,10 +68,16 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-burying-title = 暫停
+deck-config-bury-title = 暫停
+deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
+deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
 deck-config-bury-tooltip =
     要/不要將相同筆記的其他卡片（如反向卡片，
     相鄰的克漏字空格）延遲至第二天。
+
+## Ordering section
+
+deck-config-ordering-title = 顯示順序
 
 ## Timer section
 
@@ -101,16 +124,10 @@ deck-config-rename-group = 重新命名群組
 
 deck-config-remove-group = 移除群組
 deck-config-confirm-normal = 確定要移除{ $name }嗎？
--deck-config-will-require-full-sync = 這將需要您進行一次單向同步。
-# You don't need to translate this
-deck-config-confirm-full =
-    { deck-config-confirm-normal }
-    { -deck-config-will-require-full-sync }
 
 ## Other Buttons
 
 deck-config-save-button = 儲存
-deck-config-save-to-all-children = 儲存到所有下層
 deck-config-revert-button-tooltip = 將此設定回復為預設值。
 
 ## These strings are shown via the Description button at the bottom of the

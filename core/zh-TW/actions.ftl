@@ -52,3 +52,4 @@ actions-expand-collapse = 展開/摺疊
 actions-add-notetype = 新增筆記類型
 actions-remove-notetype = 移除筆記類型
 actions-update-notetype = 更新筆記類型
+actions-update-config = 更新設定檔

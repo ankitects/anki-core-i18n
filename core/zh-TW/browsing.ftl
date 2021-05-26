@@ -125,6 +125,10 @@ browsing-notes-updated =
     { $count ->
        *[other] 已更新 { $count } 則筆記。
     }
+browsing-cards-updated =
+    { $count ->
+       *[other] 已更新 { $count } 張卡片。
+    }
 browsing-window-title = 瀏覽（已選取 { $selected } 張卡片，共 { $total } 張）
 browsing-sidebar-expand = 展開
 browsing-sidebar-collapse = 摺疊
