@@ -21,4 +21,4 @@ card-stats-review-log-type-learn = Học
 card-stats-review-log-type-review = Ôn tập
 card-stats-review-log-type-relearn = Học lại
 card-stats-review-log-type-filtered = Đã lọc
-card-stats-review-log-type-rescheduled = Lập lịch lại
+card-stats-review-log-type-manual = Thủ công
