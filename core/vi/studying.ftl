@@ -1,4 +1,7 @@
 studying-again = Lại
+studying-all-buried-cards = Tất cả Thẻ tạm hoãn
+studying-audio-5s = Tua âm thanh -5s
+studying-audio-and5s = Tua âm thanh +5s
 studying-bury = Tạm hoãn
 studying-bury-card = Tạm hoãn Thẻ
 studying-bury-note = Tạm hoãn Phiếu
@@ -33,12 +36,15 @@ studying-to-review = Cần Ôn
 studying-type-answer-unknown-field = Kiểu trả lời: trường tin không biết { $val }
 studying-unbury = Bỏ tạm hoãn
 studying-you-havent-recorded-your-voice-yet = Bạn chưa thu tiếng.
-studying-card-studied-in = { $count ->
-   *[other] Đã học { $count } thẻ trong
-  }
-studying-minute = { $count ->
-   *[other] { $count } phút.
-  }
-studying-note-and-its-card-deleted = { $count ->
-   *[other] Đã xóa phiếu và { $count } thẻ liên kết.
-  }
+studying-card-studied-in =
+    { $count ->
+       *[other] Đã học { $count } thẻ trong
+    }
+studying-minute =
+    { $count ->
+       *[other] { $count } phút.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+       *[other] Đã xóa phiếu và { $count } thẻ liên kết.
+    }
