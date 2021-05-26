@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Hướng văn bản ngược (phải qua tr�
 fields-size = Cỡ:
 fields-sort-by-this-field-in-the = Sắp xếp theo trường này trong trình duyệt
 fields-that-field-name-is-already-used = Tên trường tin này đã được dùng.
+fields-name-first-letter-not-valid = Tên trường không được bắt đầu bằng #, ^ hoặc /.
+fields-name-invalid-letter = Tên trường không được chứa :, ", { "{" } hoặc { "} " }.

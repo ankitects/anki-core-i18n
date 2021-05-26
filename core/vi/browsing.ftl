@@ -14,10 +14,14 @@ browsing-browser-options = Tùy chọn Trình duyệt
 browsing-buried = Tạm hoãn
 browsing-card = Thẻ
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
+browsing-card-initial = T
 browsing-card-list = Danh sách Thẻ
 browsing-card-state = Trạng thái Thẻ
 browsing-cards-cant-be-manually-moved-into = Không thể di chuyển thủ công thẻ vào bộ thẻ lọc.
+browsing-cards-deleted =
+    { $count ->
+       *[other] { $count } Thẻ đã bị xóa.
+    }
 browsing-change-deck = Đổi Bộ thẻ
 browsing-change-deck2 = Đổi Bộ thẻ...
 browsing-change-note-type = Đổi Kiểu Phiếu
@@ -117,7 +121,45 @@ browsing-note-deleted =
     { $count ->
        *[other] Đã xóa { $count } phiếu.
     }
+browsing-notes-updated =
+    { $count ->
+       *[other] { $count } phiếu đã cập nhật.
+    }
+browsing-cards-updated =
+    { $count ->
+       *[other] { $count } thẻ đã cập nhật.
+    }
+browsing-window-title = Duyệt ({ $selected } của { $total } Thẻ được chọn)
+browsing-sidebar-expand = Mở rộng
+browsing-sidebar-collapse = Thu gọn
+browsing-sidebar-expand-children = Mở rộng Tập con
+browsing-sidebar-collapse-children = Thu gọn Tập con
+browsing-sidebar-decks = Bộ thẻ
+browsing-sidebar-tags = Dấu
+browsing-sidebar-notetypes = Loại Phiếu
+browsing-sidebar-saved-searches = Tìm kiếm đã lưu
+browsing-sidebar-save-current-search = Tìm kiếm đã lưu gần đây
+browsing-sidebar-card-state = Trạng thái Thẻ
+browsing-sidebar-flags = Cờ
 browsing-today = Hôm nay
 browsing-studied-today = Đã học Hôm nay
 browsing-added-today = Đã thêm Hôm nay
 browsing-again-today = Học lại Hôm nay
+browsing-edited-today = Đã sửa hôm nay
+browsing-sidebar-first-review = Ôn tập đầu
+browsing-sidebar-due-today = Đến hạn
+browsing-sidebar-untagged = Đã bỏ Dấu
+browsing-sidebar-overdue = Quá hạn
+browsing-row-deleted = (đã xóa)
+browsing-removed-unused-tags-count =
+    { $count ->
+       *[other] Đã xóa { $count } Dấu không sử dụng
+    }
+browsing-changed-new-position =
+    { $count ->
+       *[other] Đã thay đổi vị trí của { $count } Thẻ mới.
+    }
+browsing-reparented-decks =
+    { $count ->
+       *[other] Đã đổi tên { $count } bộ thẻ.
+    }
