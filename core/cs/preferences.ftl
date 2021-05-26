@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Anki 2.1 plánovač (beta)
 preferences-automatically-sync-on-profile-openclose = Automaticky synchronizovat při otevření a zavření profilu
 preferences-backups = Zálohy
 preferences-backups2 = zálohy
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <b>Zálohy</b><br>Anki vytvoř
 preferences-basic = Základní
 preferences-change-deck-depending-on-note-type = Změnit balík v závislosti na typu poznámky
 preferences-changes-will-take-effect-when-you = Změny se projeví až po restartování Anki.
-preferences-hardware-acceleration-faster-may-cause-display = Hardwarová akcelerace (rychlejší, může způsobovat problémy se zobrazením)
 preferences-hours-past-midnight = hodin po půlnoci
 preferences-interface-language = Jazyk rozhraní:
 preferences-interrupt-current-audio-when-answering = Po odpovědi přerušit aktuální audio
@@ -24,6 +22,7 @@ preferences-periodically-sync-media = Pravidelně synchronizovat multimédia
 preferences-please-restart-anki-to-complete-language = Pro dokončení změny jazyka prosím Anki restartujte.
 preferences-preferences = Předvolby
 preferences-scheduling = Plánování
+preferences-show-learning-cards-with-larger-steps = Zobrazit karty k učení s delšími kroky před opakováním
 preferences-show-next-review-time-above-answer = Zobrazovat čas do příštího opakování nad tlačítky
 preferences-show-play-buttons-on-cards-with = Zobrazovat tlačítka přehrát na kartách, které obsahují audio
 preferences-show-remaining-card-count-during-review = Zobrazovat počet zbývajících karet během opakování
@@ -36,3 +35,4 @@ preferences-timebox-time-limit = Limit pro časový box
 preferences-user-interface-size = Velikost uživatelského rozhraní
 preferences-when-adding-default-to-current-deck = Při přidávání standardně nastaven aktuální balík
 preferences-you-can-restore-backups-via-fileswitch = Můžete obnovit ze zálohy přes Soubor > Přepnout profil.
+preferences-legacy-timezone-handling = Zastaralé zpracování časového pásma (zabugované, ale požadováno pro AnkiDroid <= 2.14)

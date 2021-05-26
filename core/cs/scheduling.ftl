@@ -87,9 +87,9 @@ scheduling-next-learn-due =
     }.
 scheduling-learn-remaining =
     { $remaining ->
-        [one] Ještě dnes bude dostupná jedna zbývající karta k zopakování.
-        [few] Ještě dnes budou dostupné { $remaining } zbývající karty k zopakování.
-       *[other] Ještě dnes bude dostupných { $remaining } zbývajících karet k zopakování.
+        [one] Ještě dnes bude dostupná jedna zbývající karta k učení.
+        [few] Ještě dnes budou dostupné { $remaining } zbývající karty k učení.
+       *[other] Ještě dnes bude dostupných { $remaining } zbývajících karet k učení.
     }
 scheduling-congratulations-finished = Gratuluji! Tento balík máte prozatím hotov.
 scheduling-today-review-limit-reached =
@@ -107,6 +107,12 @@ scheduling-how-to-custom-study = Jestliže chcete studovat mimo pravidelné plá
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = vlastní studium
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Vždy zahrnout stranu s otázkou při přehrávání zvuku
 scheduling-at-least-one-step-is-required = Je vyžadován alespoň jeden krok.
 scheduling-automatically-play-audio = Automaticky přehrát zvuk
@@ -155,8 +161,9 @@ scheduling-steps-must-be-numbers = Kroky musí být v číslech.
 scheduling-tag-only = Jen štítek
 scheduling-the-default-configuration-cant-be-removed = Vychozí konfiguraci nelze odstranit.
 scheduling-your-changes-will-affect-multiple-decks = Vaše změny ovlivní vícero balíků. Pokud chcete změnit pouze současný balík, přidejte nejdřív novou skupinu nastavení.
-scheduling-deck-updated = { $count ->
-    [one] { $count } balík aktualizován.
-    [few] { $count } balíky aktualizovány.
-   *[other] { $count } balíků aktualizováno.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } balík aktualizován.
+        [few] { $count } balíky aktualizovány.
+       *[other] { $count } balíků aktualizováno.
+    }
