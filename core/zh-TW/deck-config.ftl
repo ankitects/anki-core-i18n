@@ -78,6 +78,38 @@ deck-config-bury-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = 顯示順序
+deck-config-new-gather-priority = 新卡片收集優先順序
+deck-config-new-gather-priority-tooltip =
+    `牌組`：依每個子牌組的順序收集卡片，且當選取的牌組超出上限時停止。
+    此選項較快，且可使位置較前的子牌組的優先度更高。
+    
+    `順序`：從未整理前的所有牌組收集卡片。這會確保即便上層牌組的
+    上限不夠高，無法顯示所有牌組的卡片，最舊的卡片也能最先顯示。
+deck-config-new-gather-priority-deck = 牌組
+deck-config-new-gather-priority-position = 順序
+deck-config-new-card-sort-order = 新卡片排序順序
+deck-config-new-card-sort-order-tooltip =
+    卡片被收集後的排序方法。在預設設定下，Anki 先按照卡片模板排序，
+    以避免相同筆記的多張卡片連續出現。
+deck-config-sort-order-card-template-then-position = 先按照卡片模板，然後按照順序
+deck-config-sort-order-card-template-then-random = 先按照卡片模板，然後隨機
+deck-config-sort-order-position = 順序（關聯卡片會在一起）
+deck-config-sort-order-random = 隨機
+deck-config-new-review-priority = 新卡片/複習卡優先順序
+deck-config-new-review-priority-tooltip = 新卡片在複習卡之前還是之後顯示。
+deck-config-interday-step-priority = 跨天學習/複習優先順序
+deck-config-interday-step-priority-tooltip = 當跨越天數學習時，正在（重新）學習的卡片顯示的順序。
+deck-config-review-mix-mix-with-reviews = 與複習卡混合
+deck-config-review-mix-show-after-reviews = 在複習卡之後顯示
+deck-config-review-mix-show-before-reviews = 在複習卡之前顯示
+deck-config-review-sort-order = 複習卡排序順序
+deck-config-review-sort-order-tooltip =
+    預設的順序會將等待最久的卡片優先顯示，這樣若您積壓了複習卡時，
+    等待最久的卡片將會第一個出現。若您積壓了大量卡片，需要更多時間
+    來清理時，您可能需要換一種更合適的排序順序。
+deck-config-sort-order-due-date-then-random = 先按照到期日期，然後隨機
+deck-config-sort-order-ascending-intervals = 間隔由小至大
+deck-config-sort-order-descending-intervals = 間隔由大至小
 
 ## Timer section
 
@@ -119,15 +151,21 @@ deck-config-minimum-interval-tooltip = 複習卡回答「困難」後的最小�
 deck-config-add-group = 新增選項群組
 deck-config-name-prompt = 名稱：
 deck-config-rename-group = 重新命名群組
+deck-config-clone-group = 複製預設
 
 ## Removing
 
 deck-config-remove-group = 移除群組
 deck-config-confirm-normal = 確定要移除{ $name }嗎？
+deck-config-will-require-full-sync =
+    此變動會使您下一次同步您的集合時，需要完整上傳您的資料庫。如果同步的話，
+    您其他的裝置上尚未同步的複習卡片或其他變動的部分將會遺失。
+deck-config-confirm-remove-name = 確定要移除{ $name }嗎？
 
 ## Other Buttons
 
 deck-config-save-button = 儲存
+deck-config-save-to-all-subdecks = 儲存至所有子牌組
 deck-config-revert-button-tooltip = 將此設定回復為預設值。
 
 ## These strings are shown via the Description button at the bottom of the
@@ -148,3 +186,4 @@ deck-config-reviews-too-low =
     }，您的複習上限至少應為 { $expected }。
 deck-config-learning-step-above-graduating-interval = 畢業間隔至少應該和最後一個學習階段一樣長。
 deck-config-good-above-easy = 簡單間隔至少應該和畢業間隔一樣長。
+deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔至少應該和最後一個重新學習階段一樣長。
