@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+
+## Top section
+
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
@@ -23,7 +26,7 @@ deck-config-review-limit-tooltip =
 ## New Cards section
 
 deck-config-learning-steps = Lernstufen
-# Please don't translate '5m' or '2d'
+# Please don't translate `5m` or `2d`
 -deck-config-delay-hint = Verzögerungen können in Minuten (z.B. "5m") oder Tagen (z.B. "2d") angegeben werden.
 deck-config-learning-steps-tooltip =
     Eine oder mehrere Verzögerungen, durch Leerzeichen voneinander getrennt. Die erste Verzögerung wird benutzt, 
@@ -32,6 +35,9 @@ deck-config-learning-steps-tooltip =
     Wenn eine Karte alle Schritte durchlaufen hat, dann wird diese eine Wiederholkarte und wird an einem anderen Tag wieder erscheinen. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Die Anzahl an abzuwartenden Tagen, bevor eine Karte, die mit "Gut" in der finalen Lernstufe  bewertet wurde, wieder angezeigt wird.
 deck-config-easy-interval-tooltip = Die abzuwartende Anzahl an Karten, bevor eine Karte wieder angezeigt wird, nachdem der "Einfach"-Knopf benutzt wurde, um die Karten direkt aus dem Lernen herauszunehmen.
+deck-config-new-insertion-order = Einfügereihenfolge
+deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
+deck-config-new-insertion-order-random = Zufällig
 
 ## Lapses section
 
@@ -48,8 +54,33 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-burying-title = Zurückstellen
+deck-config-bury-title = Zurückstellen
+deck-config-bury-new-siblings = Neue Geschwisterkarten bis zum nächsten Tag zurückstellen
+deck-config-bury-review-siblings = Wiederhol-Geschwisterkarten bis zum nächsten Tag zurückstellen
 deck-config-bury-tooltip = Ob andere Karten der gleichen Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte) auf den nächsten Tag geschoben werden.
+
+## Ordering section
+
+deck-config-ordering-title = Anzeigereihenfolge
+deck-config-new-gather-priority = Neue Karten erhalten Priorität
+deck-config-new-gather-priority-deck = Stapel
+deck-config-new-gather-priority-position = Position
+deck-config-new-card-sort-order = Neue Kartensortierreihenfolge
+deck-config-sort-order-card-template-then-position = Kartenvorlage, dann Postion
+deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
+deck-config-sort-order-position = Position (Geschwisterkarten zusammen)
+deck-config-sort-order-random = Zufällig
+deck-config-new-review-priority = Neu/Wiederholung-Priorität
+deck-config-new-review-priority-tooltip = Wann neue Karten relativ zu Wiederholkarten angezeigt werden.
+deck-config-interday-step-priority = Zwischentag-Lern/Wiederhol-Priorität
+deck-config-interday-step-priority-tooltip = Wann (erneute) Lernkarten angezeigt werden, die die Taggrenze überschreiten
+deck-config-review-mix-mix-with-reviews = Mit Wiederholungen vermischen
+deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
+deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
+deck-config-review-sort-order = Wiederholsortierreihenfolge
+deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
+deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
+deck-config-sort-order-descending-intervals = Absteigende Intervalle
 
 ## Timer section
 
@@ -88,17 +119,18 @@ deck-config-minimum-interval-tooltip = Das minimale Intervall für eine Wiederho
 deck-config-add-group = Gruppe hinzufügen
 deck-config-name-prompt = Name:
 deck-config-rename-group = Gruppe umbenennen
+deck-config-clone-group = Voreinstellung kopieren
 
 ## Removing
 
 deck-config-remove-group = Gruppe entfernen
 deck-config-confirm-normal = { $name } entfernen?
--deck-config-will-require-full-sync = Dies erfordert eine Synchronisation in eine Richtung.
+deck-config-confirm-remove-name = { $name } entfernen?
 
 ## Other Buttons
 
 deck-config-save-button = Speichern
-deck-config-save-to-all-children = Für allen untergeordneten Elementen speichern
+deck-config-save-to-all-subdecks = Für alle Unterstapel speichern
 deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurücksetzen
 
 ## These strings are shown via the Description button at the bottom of the

@@ -52,3 +52,4 @@ actions-expand-collapse = Aus-/Einklappen
 actions-add-notetype = Notiztyp hinzufügen
 actions-remove-notetype = Notiztyp entfernen
 actions-update-notetype = Notiztyp aktualisieren
+actions-update-config = Konfiguration aktualisieren
