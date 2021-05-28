@@ -22,7 +22,8 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip =
     Die maximale Anzahl an Wiederholkarten, die an einem Tag angezeigt werden soll,
     wenn Karten für die Wiederholung bereitstehen.
-deck-config-limit-deck-v3 = Wenn Sie ein Stapel lernen, der Unterstapel hat, dann steuern die in jedem Unterstapel gesetzten Grenzwerte die maximale Anzahl an Karten, die genau von diesem Stapel herangezogen werden.
+deck-config-limit-deck-v3 = Wenn Sie einen Stapel lernen, der Unterstapel hat, dann steuern die in jedem Unterstapel gesetzten Grenzwerte die maximale Anzahl an Karten, die genau von diesem Stapel herangezogen werden. Die ausgewählten Stapelgrenzwerte steuern die Gesamtanzahl an Karten, die angezeigt werden.
+deck-config-limit-new-bound-by-reviews = Der Grenzwert für Wiederholungen beeinflusst den Grenzwert für neue Karten. Wenn Sie beispielsweise Ihren Grenzwert für Wiederholungen auf 200 gesetzt haben und 190 Karten warten auf ihre Wiederholung, dann werden maximal 10 neue Karten neu eingeführt. Wenn der Grenzwert für Wiederholungen erreicht wurde, dann werden keine neuen Karten angezeigt.
 
 ## New Cards section
 
@@ -65,6 +66,10 @@ deck-config-bury-tooltip = Ob andere Karten der gleichen Notiz (z.B. umgekehrte 
 
 deck-config-ordering-title = Anzeigereihenfolge
 deck-config-new-gather-priority = Neue Karten erhalten Priorität
+deck-config-new-gather-priority-tooltip =
+    `Stapel`: sammelt nacheinander Karten von jedem Unterstapel and hört auf, wenn der Grenzwert von dem ausgewählten Stapel überschritten wurde. Dies ist schneller und erlaubt Ihnen, Unterstapel zu priorisieren, die weiter oben sind.
+    
+    `Position`: sammelt Karten von allen Stapeln bevor sie sortiert werden. Dies stellt sicher, dass die ältesten Karten zuerst angezeigt werden, auch wenn der übergeordnete Grenzwert nicht groß genug ist, um Karten von allen Stapeln anzuzeigen.
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-position = Position
 deck-config-new-card-sort-order = Neue Kartensortierreihenfolge
