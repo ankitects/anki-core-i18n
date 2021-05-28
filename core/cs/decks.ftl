@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Přidat nový balík (Ctrl+N)
-decks-are-you-sure-you-wish-to = Jste si jist, že chcete vymazat { $val }?
 decks-build = Sestavit
 decks-cards-selected-by = karet setříděných podle
 decks-create-deck = Vytvořit balík
@@ -25,14 +24,8 @@ decks-order-added = Pořadí přidání
 decks-order-due = Pořadí opakování
 decks-please-select-something = Prosím proveďte výběr.
 decks-random = Náhodně
-decks-relative-overdueness = Relativní opožděnost
+decks-relative-overdueness = Relativní zpožděnost
 decks-repeat-failed-cards-after = Zopakovat chybné kartičky poté
 decks-reschedule-cards-based-on-my-answers = Přeplánování karet založené na mých odpovědích v tomto balíku
 decks-study = Studovat
 decks-study-deck = Studijní balíky
-decks-the-provided-search-did-not-match = Zadaná vyhledávací kritéria neodpovídají žádným kartám. Chcete je upravit?
-decks-it-has-card = { $count ->
-    [one]  Má { $count } kartu.
-    [few]  Má { $count } karty.
-   *[other]  Má { $count } karet.
-  }

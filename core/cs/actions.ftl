@@ -32,3 +32,5 @@ actions-save = Uložit
 actions-search = Hledat
 actions-shortcut-key = Zkratka: { $val }
 actions-suspend-card = Odložit kartu
+actions-set-due-date = Nastavit datum zkoušení
+actions-forget = Zapomenout

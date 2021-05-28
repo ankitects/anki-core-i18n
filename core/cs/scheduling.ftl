@@ -167,3 +167,25 @@ scheduling-deck-updated =
         [few] { $count } balíky aktualizovány.
        *[other] { $count } balíků aktualizováno.
     }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Zobrazit kartu za kolik dní?
+        [few] Zobrazit karty za kolik dní?
+       *[other] Zobrazit karty za kolik dní?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = dnes
+    1! = zítra+obnovit interval opakování
+    3-7 = náhodný výběr 3-7 dní
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Nastavit datum zkoušení { $cards } karty.
+        [few] Nastavit datum zkoušení { $cards } karet.
+       *[other] Nastavit datum zkoušení { $cards } karet.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Zapomenuta { $cards } karta.
+        [few] Zapomenuty { $cards } karty.
+       *[other] Zapomenuto { $cards } karet.
+    }
