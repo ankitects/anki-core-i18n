@@ -22,6 +22,7 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip =
     Die maximale Anzahl an Wiederholkarten, die an einem Tag angezeigt werden soll,
     wenn Karten für die Wiederholung bereitstehen.
+deck-config-limit-deck-v3 = Wenn Sie ein Stapel lernen, der Unterstapel hat, dann steuern die in jedem Unterstapel gesetzten Grenzwerte die maximale Anzahl an Karten, die genau von diesem Stapel herangezogen werden.
 
 ## New Cards section
 
@@ -36,6 +37,7 @@ deck-config-learning-steps-tooltip =
 deck-config-graduating-interval-tooltip = Die Anzahl an abzuwartenden Tagen, bevor eine Karte, die mit "Gut" in der finalen Lernstufe  bewertet wurde, wieder angezeigt wird.
 deck-config-easy-interval-tooltip = Die abzuwartende Anzahl an Karten, bevor eine Karte wieder angezeigt wird, nachdem der "Einfach"-Knopf benutzt wurde, um die Karten direkt aus dem Lernen herauszunehmen.
 deck-config-new-insertion-order = Einfügereihenfolge
+deck-config-new-insertion-order-tooltip = Steuert die Position (fällig #), die neuen Karten zugewiesen wird, wenn Sie diese hinzufügen. Karten mit einer niedrigeren Fälligkeitsnummer werden beim Lernen  zuerst angezeigt. Wenn Sie diese Option ändern, dann werden alle bereits vorhandenen Positionen von neuen Karten aktualisiert.
 deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
 
@@ -66,6 +68,7 @@ deck-config-new-gather-priority = Neue Karten erhalten Priorität
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-position = Position
 deck-config-new-card-sort-order = Neue Kartensortierreihenfolge
+deck-config-new-card-sort-order-tooltip = Wie Karten sortiert werden, nachdem sie gesammelt wurden. Standardmäßig sortiert Anki zuerst nach Kartenvorlage, um zu vermeiden, dass mehrere Karten von der gleichen Notiz hintereinander angezeigt werden.
 deck-config-sort-order-card-template-then-position = Kartenvorlage, dann Postion
 deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
 deck-config-sort-order-position = Position (Geschwisterkarten zusammen)
@@ -78,6 +81,7 @@ deck-config-review-mix-mix-with-reviews = Mit Wiederholungen vermischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
 deck-config-review-sort-order = Wiederholsortierreihenfolge
+deck-config-review-sort-order-tooltip = Die Standardreihenfolge priorisiert Karten, die am längsten gewartet haben. Wenn Sie einen Rückstand an Wiederholungen haben, werden dadurch diejenigen, die am längsten gewartet haben, zuerst angezeigt. Wenn Sie einen großen Rückstand haben, der mehr als einige Tage benötigt, um ihn aufzuholen, dann finden Sie ggf. eine andere Sortierreihenfolge vorteilhafter.
 deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
 deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
 deck-config-sort-order-descending-intervals = Absteigende Intervalle
@@ -125,6 +129,7 @@ deck-config-clone-group = Voreinstellung kopieren
 
 deck-config-remove-group = Gruppe entfernen
 deck-config-confirm-normal = { $name } entfernen?
+deck-config-will-require-full-sync = Die angefragte Änderung wird ein vollständiges Hochladen der Datenbank bei der nächsten Synchronisation Ihrer Sammlung benötigen. Wenn Sie Wiederholungen oder andere Änderungen auf einem anderen Gerät haben, die hier noch nicht synchronisiert sind, dann werden diese verloren gehen.
 deck-config-confirm-remove-name = { $name } entfernen?
 
 ## Other Buttons
@@ -153,3 +158,4 @@ deck-config-reviews-too-low =
     }, dann sollte Ihr Grenzwert für Wiederholungen mindestens { $expected } betragen.
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens genauso lang sein wie Ihre finale Lernstufe.
 deck-config-good-above-easy = Das Einfach-Intervall sollte mindestens genauso lang sein wie das Aufstiegsintervall.
+deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall für Fehlschläge sollte mindestens so lange sein wie Ihr finaler Schritt für das erneute Lernen.
