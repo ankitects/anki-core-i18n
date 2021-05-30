@@ -101,6 +101,7 @@ statistics-counts-early-cards = Předčasné
 statistics-counts-learning-cards = Učení
 statistics-counts-relearning-cards = Znovu učené
 statistics-counts-title = Počet karet
+statistics-counts-separate-suspended-buried-cards = Rozdělit vyřazené/přeskočené karty
 statistics-range-all-time = stáří balíku
 statistics-range-1-year-history = posledních 12 měsíců
 statistics-range-all-history = celá historie
@@ -193,7 +194,6 @@ statistics-elapsed-time-years = { $amount } let
 
 ##
 
-statistics-error-fetching = Nalezena neplatná data - prosím použijte Zkontrolovat databázi, abyste problém opravili.
 statistics-average-for-days-studied = Průměr za studijní dny
 statistics-total = Celkem
 statistics-days-studied = Studováno dní

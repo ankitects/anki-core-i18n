@@ -35,6 +35,7 @@ actions-shortcut-key = Zkratka: { $val }
 actions-suspend-card = Odložit kartu
 actions-set-due-date = Nastavit datum zkoušení
 actions-forget = Zapomenout
+actions-unbury-unsuspend = Zrušit přeskočení/vyřazení
 actions-add-deck = Přidat balík
 actions-update-tag = Aktualizovat štítek
 actions-update-note = Aktualizovat poznámku

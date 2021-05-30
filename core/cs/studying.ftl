@@ -2,7 +2,7 @@ studying-again = Znovu
 studying-all-buried-cards = Všechny přeskočené karty
 studying-audio-5s = Zvuk -5 s
 studying-audio-and5s = Zvuk +5 s
-studying-buried-siblings = Pohřbení sourozenci
+studying-buried-siblings = Přeskočené příbuzné karty
 studying-bury = Přeskočit
 studying-bury-card = Přeskočit kartu
 studying-bury-note = Přeskočit poznámku
@@ -41,18 +41,21 @@ studying-to-review = K opakování
 studying-type-answer-unknown-field = Napište odpověd: neznámé pole { $val }
 studying-unbury = Zrušit přeskočení
 studying-you-havent-recorded-your-voice-yet = Zatím jste nezaznamenali svůj hlas.
-studying-card-studied-in = { $count ->
-    [one] naučena { $count } karta
-    [few] naučeny { $count } karty
-   *[other] naučeno { $count } karet
-  }
-studying-minute = { $count ->
-    [one] { $count } minuta.
-    [few] { $count } minuty.
-   *[other] { $count } minut.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Poznámka a její karta { $count } smazána.
-    [few] Poznámka a její karty { $count } smazány.
-   *[other] Poznámka a její karty { $count } smazány.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] naučena { $count } karta
+        [few] naučeny { $count } karty
+       *[other] naučeno { $count } karet
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } minuta.
+        [few] { $count } minuty.
+       *[other] { $count } minut.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+        [one] Poznámka a její karta { $count } smazána.
+        [few] Poznámka a její karty { $count } smazány.
+       *[other] Poznámka a její karty { $count } smazány.
+    }
