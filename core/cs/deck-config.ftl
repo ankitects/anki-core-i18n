@@ -35,6 +35,9 @@ deck-config-learning-steps-tooltip =
     Tlačítko `Dobré` posune kartu do dalšího kroku, který je ve výchozím nastavení 10 minut.
     Jakmile se projdou všechny kroky, karta se stane opakovanou kartou a 
     objeví se v jiný den. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    Počet dní, které se čeká, než se karta zobrazí znovu po stisknutí tlačítka `Dobré` 
+    během posledního kroku učení.
 deck-config-new-insertion-order = Pořadí vkládání
 deck-config-new-insertion-order-sequential = Postupně (nejstarší karty první)
 deck-config-new-insertion-order-random = Náhodně
