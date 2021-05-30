@@ -28,11 +28,11 @@ deck-config-review-limit-tooltip =
 
 deck-config-learning-steps = Kroky učení
 # Please don't translate `5m` or `2d`
--deck-config-delay-hint = Zpoždění mohou být v minutách (např. „5m“) nebo dnech (např. „2d“).
+-deck-config-delay-hint = Zpoždění mohou být v minutách (např. `5m`) nebo dnech (např. `2d`).
 deck-config-learning-steps-tooltip =
     Jedno nebo více zpoždění oddělených mezerami. První zpoždění se použije,
-    když na nové kartě stisknete tlačítko „Znovu“, a ve výchozím nastavení je 1 minuta.
-    Tlačítko „Dobré“ posune kartu do dalšího kroku, který je ve výchozím nastavení 10 minut.
+    když na nové kartě stisknete tlačítko `Znovu`, a ve výchozím nastavení je 1 minuta.
+    Tlačítko `Dobré` posune kartu do dalšího kroku, který je ve výchozím nastavení 10 minut.
     Jakmile se projdou všechny kroky, karta se stane opakovanou kartou a 
     objeví se v jiný den. { -deck-config-delay-hint }
 deck-config-new-insertion-order = Pořadí vkládání

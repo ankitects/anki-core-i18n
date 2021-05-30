@@ -18,6 +18,12 @@ browsing-card-initial = K
 browsing-card-list = Seznam karet
 browsing-card-state = Stav karty
 browsing-cards-cant-be-manually-moved-into = Karty nemůžou být ručně převedeny do filtrovaného balíku.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } karta odstraněna.
+        [few] { $count } karty odstraněny.
+       *[other] { $count } karet odstraněno.
+    }
 browsing-change-deck = Změnit balík
 browsing-change-deck2 = Změnit balík...
 browsing-change-note-type = Změň typ poznámky
@@ -25,6 +31,7 @@ browsing-change-note-type2 = Změnit typ poznámky...
 browsing-change-to = Změnit { $val } na:
 browsing-clear-unused = Vymazat nepoužívané
 browsing-clear-unused-tags = Vymazat nepoužívané štítky
+browsing-confirm-saved-search-overwrite = Uložené hledání s názvem { $name } již existuje. Chcete ho přepsat?
 browsing-created = Vytvořeno
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Současný balík
@@ -59,6 +66,7 @@ browsing-nd-names = { $num }: { $name }
 browsing-new = (nové)
 browsing-new-note-type = Nový typ poznámky:
 browsing-no-flag = Žádný příznak
+browsing-no-selection = Nejsou vybrány žádné karty nebo poznámky.
 browsing-note = Poznámka
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = P
@@ -100,6 +108,7 @@ browsing-toggle-mark = Přepnout označení
 browsing-toggle-suspend = Přepnout odložení
 browsing-treat-input-as-regular-expression = Pokládat vstup za regulární výraz
 browsing-whole-collection = Celá kolekce
+browsing-window-title-notes = Prohlížet ({ $selected } z { $total } poznámek vybráno)
 browsing-you-must-have-at-least-one = Je třeba alespoň jeden sloupec.
 browsing-group =
     { $count ->
@@ -119,7 +128,23 @@ browsing-note-deleted =
         [few] { $count } poznámky smazány.
        *[other] { $count } poznámek smazáno.
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } poznámka aktualizována.
+        [few] { $count } poznámky aktualizovány.
+       *[other] { $count } poznámek aktualizováno.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } karta aktualizována.
+        [few] { $count } karty aktualizovány.
+       *[other] { $count } karet aktualizováno.
+    }
 browsing-window-title = Prohlížet ({ $selected } z { $total } karet vybráno)
+browsing-sidebar-expand = Rozbalit
+browsing-sidebar-collapse = Sbalit
+browsing-sidebar-expand-children = Rozbalit podřízené
+browsing-sidebar-collapse-children = Sbalit podřízené
 browsing-sidebar-decks = Balíky
 browsing-sidebar-tags = Štítky
 browsing-sidebar-notetypes = Typy poznámek
@@ -135,3 +160,21 @@ browsing-edited-today = Upraveno
 browsing-sidebar-due-today = Ke zkoušení
 browsing-sidebar-untagged = Neoznačeno
 browsing-sidebar-overdue = Zpožděno
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Odstraněn { $count } nepoužívaný štítek.
+        [few] Odstraněny { $count } nepoužívané štítky.
+       *[other] Odstraněno { $count } nepoužívaných štítků.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Změněno pořadí { $count } nové karty.
+        [few] Změněno pořadí { $count } nových karet.
+       *[other] Změněno pořadí { $count } nových karet.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Přejmenován { $count } balík.
+        [few] Přejmenovány { $count } balíky.
+       *[other] Přejmenováno { $count } balíků.
+    }
