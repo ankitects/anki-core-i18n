@@ -27,6 +27,8 @@ deck-config-review-limit-tooltip =
 ## New Cards section
 
 deck-config-learning-steps = Kroky učení
+# Please don't translate `5m` or `2d`
+-deck-config-delay-hint = Zpoždění mohou být v minutách (např. „5m“) nebo dnech (např. „2d“).
 deck-config-learning-steps-tooltip =
     Jedno nebo více zpoždění oddělených mezerami. První zpoždění se použije,
     když na nové kartě stisknete tlačítko „Znovu“, a ve výchozím nastavení je 1 minuta.
@@ -39,6 +41,7 @@ deck-config-new-insertion-order-random = Náhodně
 
 ## Lapses section
 
+deck-config-relearning-steps = Kroky znovu učených
 
 ## Burying section
 
@@ -54,12 +57,17 @@ deck-config-bury-tooltip =
 
 ## Timer section
 
+deck-config-timer-title = Časovač
+deck-config-maximum-answer-secs = Maximální čas odpovědi v sekundách
 
 ## Audio section
 
+deck-config-audio-title = Zvuk
+deck-config-disable-autoplay = Nepřehrávat zvuk automaticky
 
 ## Advanced section
 
+deck-config-advanced-title = Pokročilé
 
 ## Adding/renaming
 
