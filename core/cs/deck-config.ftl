@@ -42,12 +42,28 @@ deck-config-easy-interval-tooltip =
     Počet dní, které se čeká, než se karta zobrazí znovu po stisknutí tlačítka `Snadné`, 
     které okamžitě vyjme kartu z učení.
 deck-config-new-insertion-order = Pořadí vkládání
+deck-config-new-insertion-order-tooltip =
+    Řídí pořadí (ke zkoušení #), v jakém jsou nové karty umístěny, když přidáte nové karty.
+    Karty s nižším číslem zkoušení budou zobrazeny první během studia. Změna
+    tohoto nastavení automaticky aktualizuje stávající pořadí nových karet.
 deck-config-new-insertion-order-sequential = Postupně (nejstarší karty první)
 deck-config-new-insertion-order-random = Náhodně
 
 ## Lapses section
 
 deck-config-relearning-steps = Kroky znovu učených
+deck-config-relearning-steps-tooltip = Žádné nebo více zpoždění oddělených mezerami. Ve výchozím nastavení stisknutí tlačítka `Znovu` na kartě k opakování zobrazí tuto kartu znovu za 10 minut. Nejsou-li uvedena žádná zpoždění, kartě se změní interval, aniž by se stala znovu učenou. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Počet stisknutí `Znovu` na kartě k zopakování předtím, než je označeno jako 
+    pijavice. Pijavice jsou karty, které spotřebovávají hodně času a když je karta 
+    označena jako pijavice, je dobrý nápad ji přepsat, smazat nebo se zamyslet 
+    nad mnemotechnickou pomůckou, která pomůže si ji zapamatovat.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Jen štítek`: Přidá k poznámce štítech „leech“ a zobrazí vyskakovací okno.
+    
+    `Vyřadit kartu`: Navíc k označení poznámky schová kartu, dokud nebude 
+    ručně zrušeno vyřazení.
 
 ## Burying section
 
@@ -74,6 +90,7 @@ deck-config-disable-autoplay = Nepřehrávat zvuk automaticky
 ## Advanced section
 
 deck-config-advanced-title = Pokročilé
+deck-config-minimum-interval-tooltip = Minimální interval daný kartě k zopakování po odpovědi `Znovu`.
 
 ## Adding/renaming
 
