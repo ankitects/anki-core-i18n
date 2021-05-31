@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Planificateur Anki 2.1 (beta)
 preferences-automatically-sync-on-profile-openclose = Synchroniser automatiquement à l’ouverture et à la fermeture
 preferences-backups = Sauvegardes
 preferences-backups2 = sauvegardes
@@ -6,7 +5,6 @@ preferences-backupsanki-will-create-a-backup-of = <b>Sauvegardes</b><br>Anki va 
 preferences-basic = Basique
 preferences-change-deck-depending-on-note-type = Changer le paquet selon le type de note
 preferences-changes-will-take-effect-when-you = Les modifications prendront effet au redémarrage d'Anki.
-preferences-hardware-acceleration-faster-may-cause-display = Accélération matérielle (plus rapide, peut entraîner des problèmes d’affichage)
 preferences-hours-past-midnight = heure(s) après minuit
 preferences-interface-language = Langue de l’interface
 preferences-interrupt-current-audio-when-answering = Interrompre l’audio en cours de lecture lors de la réponse
@@ -20,6 +18,7 @@ preferences-note-media-is-not-backed-up = Information : les médias ne sont pas
 preferences-on-next-sync-force-changes-in = À la prochaine synchronisation, forcer les changements dans une direction.
 preferences-paste-clipboard-images-as-png = Coller les images du presse-papier en PNG.
 preferences-paste-without-shift-key-strips-formatting = Coller sans maintenir la touche Maj retire le formatage
+preferences-periodically-sync-media = Synchroniser périodiquement les médias
 preferences-please-restart-anki-to-complete-language = S’il vous plait, redémarrez Anki pour finaliser le changement de langue.
 preferences-preferences = Préférences
 preferences-scheduling = Replanifier
@@ -36,3 +35,4 @@ preferences-timebox-time-limit = Montrer la progression toutes les
 preferences-user-interface-size = Taille de l’interface
 preferences-when-adding-default-to-current-deck = Ajouter par défaut au paquet courant
 preferences-you-can-restore-backups-via-fileswitch = Vous pouvez restaurer les sauvegardes en passant par Fichier > Changer de compte.
+preferences-legacy-timezone-handling = Ancienne gestion des fuseaux horaires (bugué, mais nécessaire pour AnkiDroid <= 2.14)

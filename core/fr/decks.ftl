@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Ajouter un nouveau paquet (Ctrl+N)
-decks-are-you-sure-you-wish-to = Êtes-vous sûr(e) de vouloir supprimer { $val } ?
 decks-build = Générer
 decks-cards-selected-by = cartes sélectionnées par
 decks-create-deck = Créer un paquet
@@ -30,8 +29,5 @@ decks-repeat-failed-cards-after = Répéter les cartes non connues plus tard.
 decks-reschedule-cards-based-on-my-answers = Replanifier les cartes selon mes réponses dans ce paquet
 decks-study = Étudier
 decks-study-deck = Étudier le paquet
-decks-the-provided-search-did-not-match = Aucune carte ne correspond à cette recherche. Voulez-vous la modifier ?
-decks-it-has-card = { $count ->
-    [one]  Contient { $count } carte.
-   *[other]  Contient { $count } cartes.
-  }
+decks-filtered-deck-search-empty = Aucune carte trouvée pour la recherche fournie. Certaines cartes peuvent avoir été exclues parce qu'elles se trouvent dans un autre paquet filtré, ou suspendues.
+decks-unmovable-cards = Montrer les cartes exclues

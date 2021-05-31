@@ -91,6 +91,7 @@ statistics-counts-early-cards = Début
 statistics-counts-learning-cards = À repasser
 statistics-counts-relearning-cards = Réapprentissage
 statistics-counts-title = nombre de cartes
+statistics-counts-separate-suspended-buried-cards = Séparer les cartes suspendues/enfouies
 statistics-range-all-time = vie du paquet
 statistics-range-1-year-history = 12 derniers mois
 statistics-range-all-history = tout l'historique
@@ -177,7 +178,6 @@ statistics-elapsed-time-years = { $amount }année
 
 ##
 
-statistics-error-fetching = Donnée non valide - veuillez utiliser "Vérifier la base de données" pour résoudre le problème
 statistics-average-for-days-studied = Moyenne (par jour travaillé)&nbsp;
 statistics-total = Total
 statistics-days-studied = Jours travaillés

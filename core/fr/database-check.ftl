@@ -40,6 +40,11 @@ database-check-revlog-properties =
         [one] Une revue a été réparé car ses propriétés étaient invalides.
        *[other] { $count } revues ont été réparés car leurs propriétés étaient invalides.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] note réparée avec des caractères utf8 invalides
+       *[other] notes réparées avec des caractères utf8 invalides
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Un ou plusieurs types de notes sont manquants. Les notes qui y sont liés ont reçus un nouveau type commençant par "db-check". Les noms de champ et design de carte ont été perdus, vous devriez restaurer votre précédente sauvegarde automatique.
 

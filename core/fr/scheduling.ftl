@@ -90,6 +90,17 @@ scheduling-how-to-custom-study = Si vous souhaitez réviser hors du calendrier h
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Révisions particulières
+
+## Scheduler upgrade
+
+scheduling-update-soon = Anki 2.1 contient un nouveau planificateur, qui corrige un certain nombre de problèmes rencontrés par les versions précédentes d'Anki. Il est recommandé de le mettre à jour.
+scheduling-update-done = Le planificateur a été mis à jour avec succès.
+scheduling-update-button = Mettre à jour
+scheduling-update-later-button = Plus tard
+scheduling-update-more-info-button = En savoir plus
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Toujours inclure le côté question lors de la relecture audio
 scheduling-at-least-one-step-is-required = Au moins une étape est requise.
 scheduling-automatically-play-audio = Jouer l’audio automatiquement
@@ -138,7 +149,27 @@ scheduling-steps-must-be-numbers = Les pas doivent être des nombres.
 scheduling-tag-only = Marquer (*)
 scheduling-the-default-configuration-cant-be-removed = La configuration par défaut ne peut pas être supprimée.
 scheduling-your-changes-will-affect-multiple-decks = Votre modification aura un impact sur plusieurs paquets. Si vous souhaitez modifier uniquement le paquet sélectionné, veuillez d’abord ajouter un nouveau profil de réglages.
-scheduling-deck-updated = { $count ->
-    [one] { $count } paquet mis à jour.
-   *[other] { $count } paquets mis à jour.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } paquet mis à jour.
+       *[other] { $count } paquets mis à jour.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Montrer la carte dans combien de jours ?
+       *[other] Montrer les cartes dans combien de jours ?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = aujourd'hui
+    1! = demain + réinitialiser l'intervalle de révision
+    3-7 = choix aléatoire entre 3-7 jours
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Définir la date d'échéance de la carte.
+       *[other] Définir la date d'échéance de { $cards } cartes.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Oublier la carte.
+       *[other] Oublier { $cards } cartes.
+    }
