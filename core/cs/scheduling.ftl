@@ -159,7 +159,7 @@ scheduling-starting-ease = Počáteční 'snadnost'
 scheduling-steps-in-minutes = Kroky (v minutách)
 scheduling-steps-must-be-numbers = Kroky musí být v číslech.
 scheduling-tag-only = Jen štítek
-scheduling-the-default-configuration-cant-be-removed = Vychozí konfiguraci nelze odstranit.
+scheduling-the-default-configuration-cant-be-removed = Výchozí konfiguraci nelze odstranit.
 scheduling-your-changes-will-affect-multiple-decks = Vaše změny ovlivní vícero balíků. Pokud chcete změnit pouze současný balík, přidejte nejdřív novou skupinu nastavení.
 scheduling-deck-updated =
     { $count ->

@@ -76,31 +76,67 @@ deck-config-bury-tooltip =
 
 ## Ordering section
 
+deck-config-sort-order-random = Náhodně
 
 ## Timer section
 
 deck-config-timer-title = Časovač
 deck-config-maximum-answer-secs = Maximální čas odpovědi v sekundách
+deck-config-maximum-answer-secs-tooltip =
+    Maximální počet sekund, které se zaznamenají u jednoho opakování. 
+    Jestliže odpověď přesahuje tento čas (protože například odejdete od 
+    obrazovky), bude zaznamenán nastavený limit.
+deck-config-show-answer-timer-tooltip =
+    Na obrazovce opakování zobrazit časovač, který počítá sekundy 
+    strávené opakováním každé karty.
 
 ## Audio section
 
 deck-config-audio-title = Zvuk
 deck-config-disable-autoplay = Nepřehrávat zvuk automaticky
+deck-config-always-include-question-audio-tooltip =
+    Zda má být zvuk v otázce přehrán, když se zvuk přehrává znovu během 
+    prohlížení strany karty s odpovědí.
 
 ## Advanced section
 
 deck-config-advanced-title = Pokročilé
+deck-config-maximum-interval-tooltip =
+    Maximální počet dní, po které bude karta ke zkoušení čekat. Když opakování 
+    dosáhnou limitu, `Těžké`, `Dobré` a `Snadné` přesunou kartu stejně. 
+    Čím kratší tento limit bude, tím větší bude pracovní zátěž.
+deck-config-starting-ease-tooltip =
+    Snadnost coby násobitel, se kterým nové karty začínají. Ve výchozím nastavení, 
+    tlačítko `Dobré` na nově naučené kartě přesune následující opakování 
+    o 2,5 × předchozí prodleva.
+deck-config-easy-bonus-tooltip =
+    Extra násobitel, který se aplikuje na interval karet k zopakování, když je 
+    hodnotíte jako `Snadné`.
+deck-config-interval-modifier-tooltip =
+    Tento násobitel se aplikuje na všechna opakování a menší přenastavení lze 
+    použít k tomu, aby byl Anki více konzervativní nebo agresivní ve svém 
+    plánování. Prosím prostudujte si manuál před změnou tohoto nastavení.
+deck-config-hard-interval-tooltip = Násobitel, který se aplikuje na interval opakování, když se odpoví `Těžké`.
+deck-config-new-interval-tooltip = Násobitel, který se aplikuje na interval opakování, když se odpoví `Znovu`.
 deck-config-minimum-interval-tooltip = Minimální interval daný kartě k zopakování po odpovědi `Znovu`.
 
 ## Adding/renaming
 
+deck-config-add-group = Přidat nastavení
+deck-config-name-prompt = Název
+deck-config-rename-group = Přejmenovat nastavení
+deck-config-clone-group = Klonovat nastavení
 
 ## Removing
 
+deck-config-remove-group = Odstranit nastavení
+deck-config-confirm-normal = Odstranit { $name }?
+deck-config-confirm-remove-name = Odstranit { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Uložit
+deck-config-save-to-all-subdecks = Uložit pro všechny podřízené balíky
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -108,3 +144,4 @@ deck-config-save-button = Uložit
 
 ## Warnings shown to the user
 
+deck-config-good-above-easy = Snadný interval by měl být nejméně stejně dlouhý jako interval absolvování.
