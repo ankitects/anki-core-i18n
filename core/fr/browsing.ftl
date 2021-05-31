@@ -1,6 +1,6 @@
 browsing-add-notes = Ajouter des notes...
-browsing-add-tags = Ajouter des marqueurs
-browsing-add-tags2 = Ajouter des marqueurs...
+browsing-add-tags = Ajouter des tags
+browsing-add-tags2 = Ajouter des tags...
 browsing-addon = Greffon
 browsing-all-card-types = Toutes les sortes de cartes
 browsing-all-fields = Tous les champs
@@ -29,19 +29,19 @@ browsing-change-note-type = Modifier le type de note
 browsing-change-note-type2 = Modifier le type de la note...
 browsing-change-to = Transformer { $val } en :
 browsing-clear-unused = Supprimer les inutilisés
-browsing-clear-unused-tags = Supprimer les marqueurs inutilisés
+browsing-clear-unused-tags = Supprimer les tags inutilisés
 browsing-confirm-saved-search-overwrite = Une recherche enregistrée avec le nom { $name } existe déjà. Voulez-vous la remplacer ?
 browsing-created = Créée
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Paquet actuel
 browsing-current-note-type = Type de note actuel
 browsing-delete-notes = Supprimer les notes
-browsing-delete-tags = Supprimer les marqueurs
+browsing-delete-tags = Supprimer les tags
 browsing-duplicate = doublon
 browsing-ease = Facilité
 browsing-end = Fin
-browsing-enter-tags-to-add = Saisir le(s) marqueurs(s) à ajouter :
-browsing-enter-tags-to-delete = Supprimer via les marqueurs :
+browsing-enter-tags-to-add = Saisir le(s) tag(s) à ajouter :
+browsing-enter-tags-to-delete = Supprimer via les tags :
 browsing-filtered = (filtrée)
 browsing-find = <b>Trouver</b> :
 browsing-find-and-replace = Chercher et remplacer
@@ -69,7 +69,7 @@ browsing-no-selection = Aucune carte ou note sélectionnée.
 browsing-note = Note
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-notes-tagged = Marqueurs ajoutés.
+browsing-notes-tagged = Tags ajoutés.
 browsing-nothing = Rien
 browsing-only-new-cards-can-be-repositioned = Seules les nouvelles cartes peuvent être repositionnées.
 browsing-optional-filter = Filtre optionnel :
@@ -83,7 +83,7 @@ browsing-question = Question
 browsing-queue-bottom = Fin de la file d’attente : { $val }
 browsing-queue-top = Début de la file d’attente : { $val }
 browsing-randomize-order = Ordre aléatoire
-browsing-remove-tags = Supprimer les marqueurs...
+browsing-remove-tags = Supprimer les tags...
 browsing-replace-with = <b>Remplacer par</b> :
 browsing-reposition = Repositionner...
 browsing-reposition-new-cards = Repositionner les nouvelles cartes
@@ -99,7 +99,7 @@ browsing-sorting-on-this-column-is-not = Le tri sur cette colonne n’est pas pe
 browsing-start-position = Position de départ :
 browsing-step = Pas :
 browsing-suspended = Suspendu
-browsing-tag-duplicates = Marquer les doublons
+browsing-tag-duplicates = Taguer les doublons
 browsing-tag-rename-warning-empty = Vous ne pouvez pas renommer un tag qui n'a pas de notes.
 browsing-target-field = Champ visé :
 browsing-toggle-showing-cards-notes = Afficher les cartes/notes
@@ -125,7 +125,50 @@ browsing-note-deleted =
         [one] { $count } note a été supprimée.
        *[other] { $count } notes ont été supprimées.
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } note mise à jour.
+       *[other] { $count } notes mises à jour.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } carte mise à jour.
+       *[other] { $count } cartes mises à jour.
+    }
+browsing-window-title = Parcourir ({ $selected } sur { $total } cartes sélectionnées)
+browsing-sidebar-expand = Développer
+browsing-sidebar-collapse = Réduire
+browsing-sidebar-expand-children = Développer les enfants
+browsing-sidebar-collapse-children = Réduire les enfants
+browsing-sidebar-decks = Paquets
+browsing-sidebar-tags = Tags
+browsing-sidebar-notetypes = Types de notes
+browsing-sidebar-saved-searches = Recherches enregistrées
+browsing-sidebar-save-current-search = Enregistrer la recherche actuelle
+browsing-sidebar-card-state = État de la carte
+browsing-sidebar-flags = Marqueurs
 browsing-today = Aujourd’hui
 browsing-studied-today = Étudiées aujourd’hui
 browsing-added-today = Ajouté aujourd’hui
 browsing-again-today = À nouveau aujourd’hui
+browsing-edited-today = Modifié
+browsing-sidebar-first-review = Première Révsion
+browsing-sidebar-due-today = Dû
+browsing-sidebar-untagged = Sans tag
+browsing-sidebar-overdue = En retard
+browsing-row-deleted = (supprimé)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] { $count } tag non utilisé supprimé.
+       *[other] { $count } tags non utilisés supprimés.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Position changée pour { $count } nouvelle carte.
+       *[other] Positions changées pour { $count } nouvelles cartes.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } paquet renommé.
+       *[other] { $count } paquets renommés.
+    }
