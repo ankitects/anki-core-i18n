@@ -38,6 +38,9 @@ deck-config-learning-steps-tooltip =
 deck-config-graduating-interval-tooltip =
     Počet dní, které se čeká, než se karta zobrazí znovu po stisknutí tlačítka `Dobré` 
     během posledního kroku učení.
+deck-config-easy-interval-tooltip =
+    Počet dní, které se čeká, než se karta zobrazí znovu po stisknutí tlačítka `Snadné`, 
+    které okamžitě vyjme kartu z učení.
 deck-config-new-insertion-order = Pořadí vkládání
 deck-config-new-insertion-order-sequential = Postupně (nejstarší karty první)
 deck-config-new-insertion-order-random = Náhodně
