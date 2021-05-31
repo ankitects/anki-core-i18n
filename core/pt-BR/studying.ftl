@@ -40,7 +40,7 @@ studying-this-is-a-special-deck-for = Este é um baralho especial para estudar f
 studying-to-review = A Revisar
 studying-type-answer-unknown-field = Tipo de resposta: campo desconhecido { $val }
 studying-unbury = Desocultar
-studying-what-would-you-like-to-unbury = O que você gostaria de desenterrar?
+studying-what-would-you-like-to-unbury = O que você gostaria de desocultar?
 studying-you-havent-recorded-your-voice-yet = Você ainda não gravou sua voz.
 studying-card-studied-in =
     { $count ->

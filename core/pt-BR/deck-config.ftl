@@ -38,6 +38,7 @@ deck-config-disable-autoplay = Não reproduzir o áudio automaticamente
 
 ## Advanced section
 
+deck-config-advanced-title = Avançado
 
 ## Adding/renaming
 
