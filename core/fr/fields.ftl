@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Sens de lecture inversé (DàG)
 fields-size = Taille :
 fields-sort-by-this-field-in-the = Trier selon ce champ dans l’explorateur
 fields-that-field-name-is-already-used = Le nom de ce champ est déjà pris.
+fields-name-first-letter-not-valid = Le nom du champ ne doit pas commencer avec #, ^ ou /.
+fields-name-invalid-letter = Le nom du champ ne doit pas contenir :, ", { "{" } ou { "}" }.
