@@ -1,3 +1,19 @@
-search-invalid = Procura inválida - por favor, veja se há erros de escrita.
+## Errors shown when invalid search input is encountered.
+## Backticks change the text formatting, so please don't change the backticks.
+## Text inside backticks should not be changed unless noted.
+## It's ok to change quotes outside of backticks however, eg:
+## "`{ $context }`" => 「`{ $context }`」
+
+
+## eg. expected a number in "due>5x", but found "5x"
+
+
+## Column labels in browse screen
+
 search-note-modified = Editado
 search-card-modified = Alterado
+
+##
+
+# Tooltip for search lines outside browser
+search-view-in-browser = Visualizar no navegador

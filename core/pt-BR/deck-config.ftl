@@ -34,6 +34,7 @@ deck-config-daily-limits = Limites Diários
 
 ## Audio section
 
+deck-config-disable-autoplay = Não reproduzir o áudio automaticamente
 
 ## Advanced section
 
@@ -43,9 +44,11 @@ deck-config-daily-limits = Limites Diários
 
 ## Removing
 
+deck-config-confirm-remove-name = Remover { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Salvar
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.

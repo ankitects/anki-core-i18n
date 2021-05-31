@@ -1,9 +1,9 @@
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] As alterações abaixo afetarão a { $count } nota que usa este tipo de carta.
-       *[other] As alterações abaixo afetarão as { $count } notas que usam este tipo de carta.
+        [one] As alterações abaixo afetarão a { $count } nota que usa este tipo de cartão.
+       *[other] As alterações abaixo afetarão as { $count } notas que usam este tipo de cartão.
     }
-card-templates-card-type = Tipo da Carta:
+card-templates-card-type = Tipo do Cartão:
 card-templates-front-template = Modelo da Frente
 card-templates-back-template = Modelo do Verso
 card-templates-template-styling = Estilo

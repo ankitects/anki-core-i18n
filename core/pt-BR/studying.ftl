@@ -24,7 +24,7 @@ studying-it-has-been-suspended = Isto foi suspenso.
 studying-manually-buried-cards = Ocultar cartões manualmente
 studying-mark-note = Nota de Marca
 studying-more = Mais
-studying-no-cards-are-due-yet = Nenhum card é devido ainda.
+studying-no-cards-are-due-yet = Nenhum cartão para ser revisado ainda.
 studying-note-buried = Nota ocultada.
 studying-note-suspended = Nota suspensa.
 studying-pause-audio = Pausar áudio
@@ -42,15 +42,18 @@ studying-type-answer-unknown-field = Tipo de resposta: campo desconhecido { $val
 studying-unbury = Desocultar
 studying-what-would-you-like-to-unbury = O que você gostaria de desenterrar?
 studying-you-havent-recorded-your-voice-yet = Você ainda não gravou sua voz.
-studying-card-studied-in = { $count ->
-    [one] { $count } cartão estudado em
-   *[other] { $count } cartões estudados em
-  }
-studying-minute = { $count ->
-    [one] { $count } minuto.
-   *[other] { $count } minutos.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] A nota e seu { $count } cartão foram excluídos.
-   *[other] A nota e seus { $count } cartões foram excluídos.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } cartão estudado em
+       *[other] { $count } cartões estudados em
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } minuto.
+       *[other] { $count } minutos.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+        [one] A nota e seu { $count } cartão foram excluídos.
+       *[other] A nota e seus { $count } cartões foram excluídos.
+    }

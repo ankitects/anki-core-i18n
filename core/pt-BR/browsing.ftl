@@ -1,9 +1,7 @@
 browsing-add-notes = Adicionar Notas...
 browsing-add-tags = Adicionar etiquetas
 browsing-add-tags2 = Adicionar Etiquetas...
-browsing-added-today = Adicionado hoje
 browsing-addon = Extensão
-browsing-again-today = Repetir Hoje
 browsing-all-card-types = Todos os Tipos de Cartões
 browsing-all-fields = Todos os Campos
 browsing-answer = Resposta
@@ -11,8 +9,10 @@ browsing-any-cards-mapped-to-nothing-will = Todos os cartões em branco serão e
 browsing-any-flag = Qualquer emblema
 browsing-browser-appearance = Aparência do Painel
 browsing-browser-options = Opções do Painel de Cartões
-browsing-buried = Enterrado
+browsing-buried = Oculto
 browsing-card = Cartão
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
 browsing-card-list = Lista de Cartões
 browsing-card-state = Estado do Cartão
 browsing-cards-cant-be-manually-moved-into = Os cartões não podem ser movidos manualmente dentro de um baralho filtrado.
@@ -34,7 +34,6 @@ browsing-ease = Dificuldade
 browsing-end = Fim
 browsing-enter-tags-to-add = Digite as etiquetas a adicionar:
 browsing-enter-tags-to-delete = Digite as etiquetas a apagar:
-browsing-filter = Filtrar...
 browsing-filtered = (filtrado)
 browsing-find = <b>Localizar</b>:
 browsing-find-and-replace = Localizar e substituir
@@ -66,8 +65,6 @@ browsing-optional-filter = Flitro Opcional
 browsing-override-back-template = Substituir modelo do verso:
 browsing-override-font = Substituir frente:
 browsing-override-front-template = Substituir modelo da frente:
-browsing-place-at-end-of-new-card = Colocar no fim da fila de novos cartões.
-browsing-place-in-review-queue-with-interval = Colocar na fila de revisão com intervalo entre:
 browsing-please-give-your-filter-a-name = Por favor, dê um nome ao seu filtro:
 browsing-please-select-cards-from-only-one = Por favor, escolhar cartões de somente um tipo de nota.
 browsing-preview-selected-card = Pré-vizualizar os cartão selecionado ({ $val }).
@@ -75,14 +72,11 @@ browsing-question = Pergunta
 browsing-queue-bottom = Último da fila: { $val }
 browsing-queue-top = Primeiro da fila: { $val }
 browsing-randomize-order = Ordem aleatória
-browsing-remove-current-filter = Remover Filtro Atual...
-browsing-remove-from-your-saved-searches = Remover { $val } de suas pesquisas salvas?
 browsing-remove-tags = Remover Etiquetas...
 browsing-replace-with = <b>Substituir Por</b>:
 browsing-reposition = Reposicionar...
 browsing-reposition-new-cards = Reposicionar Novos Cartões
 browsing-reschedule = Reagendar
-browsing-save-current-filter = Salvar Filtro Atual...
 browsing-search-in = Procurar em:
 browsing-search-within-formatting-slow = Procurar com formatação (lento)
 browsing-shift-position-of-existing-cards = Alterar posição dos cartões existentes
@@ -91,15 +85,12 @@ browsing-sort-field = Classificar Campo
 browsing-sorting-on-this-column-is-not = Não é possível classificar esta coluna. Por favor, escolha outra.
 browsing-start-position = Posição inicial:
 browsing-step = Passo:
-browsing-studied-today = Estudados Hoje
 browsing-suspended = Suspenso
 browsing-tag-duplicates = Etiquetas Duplicadas
 browsing-target-field = Campo alvo:
-browsing-today = Hoje
 browsing-toggle-mark = Marcar/Desmarcar
 browsing-toggle-suspend = Suspender (sim/não)
 browsing-treat-input-as-regular-expression = Tratar texto como expressão regular
-browsing-type-here-to-search = <digite aqui para pesquisar; tecle enter para mostrar o baralho atual>
 browsing-whole-collection = Coleção inteira
 browsing-you-must-have-at-least-one = É preciso ter ao menos uma coluna.
 browsing-group =
@@ -117,8 +108,7 @@ browsing-note-deleted =
         [one] { $count } nota apagada.
        *[other] { $count } notas apagadas.
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } selecionado
-       *[other] { $count } selecionados
-    }
+browsing-today = Hoje
+browsing-studied-today = Estudados Hoje
+browsing-added-today = Adicionado hoje
+browsing-again-today = Repetir Hoje

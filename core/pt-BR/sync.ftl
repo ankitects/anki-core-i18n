@@ -25,7 +25,7 @@ sync-client-too-old = Sua versão do Anki é muito antiga. Atualize para a vers�
 sync-wrong-pass = O Usuário AnkiWeb ou senha está incorreto; por favor, tente outra vez.
 sync-resync-required = Sincronize novamente. Se esta mensagem continuar aparecendo, poste no site de suporte.
 sync-must-wait-for-end = O Anki está sincronizando no momento. Aguarde a conclusão da sincronização e tente novamente.
-sync-confirm-empty-download = A coleção local não possui cartas. Baixar de AnkiWeb?
+sync-confirm-empty-download = A coleção local não possui cartões. Baixar de AnkiWeb?
 sync-conflict-explanation =
     Seus baralhos aqui e no AnkiWeb diferem tanto que não podem ser mesclados, então é necessário que um deles sobrescreva o outro.
     
