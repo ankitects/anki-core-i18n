@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = Пусто
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Следующие изменения затронут { $count } запись, использующую этот тип карточек.

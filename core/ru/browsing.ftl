@@ -135,6 +135,12 @@ browsing-notes-updated =
         [few] { $count } записи обновлены.
        *[other] { $count } записей обновлено.
     }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } карточка обновлена.
+        [few] { $count } карточки обновлены.
+       *[other] { $count } карточек обновлено.
+    }
 browsing-window-title = Посмотреть (выбрано { $selected } из { $total } карточек)
 browsing-sidebar-expand = Развернуть
 browsing-sidebar-collapse = Свернуть
