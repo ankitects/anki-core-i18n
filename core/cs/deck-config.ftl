@@ -131,12 +131,14 @@ deck-config-clone-group = Klonovat nastavení
 
 deck-config-remove-group = Odstranit nastavení
 deck-config-confirm-normal = Odstranit { $name }?
+deck-config-will-require-full-sync = Požadovaná změna způsobí kompletní nahrání databáze na server při příští synchronizaci Vaší kolekce. Máte-li opakování nebo jiné změny na jiném zařízení, které ještě nebyly synchronizovány, budou ztraceny.
 deck-config-confirm-remove-name = Odstranit { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Uložit
 deck-config-save-to-all-subdecks = Uložit pro všechny podřízené balíky
+deck-config-revert-button-tooltip = Obnovit toto nastavení na výchozí hodnotu.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -144,4 +146,18 @@ deck-config-save-to-all-subdecks = Uložit pro všechny podřízené balíky
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Rodičovský balík má limit { $cards ->
+        [one] { $cards } karta
+        [few] { $cards } karty
+       *[other] { $cards } karet
+    }, což přepíše tento limit.
+deck-config-reviews-too-low =
+    Když se { $cards ->
+        [one] přidává { $cards } nová karta každý den
+        [few] přidávají { $cards } nové karty každý den
+       *[other] přidává { $cards } nových karet každý den
+    }, limit opakování by měl být nejméně { $expected }.
+deck-config-learning-step-above-graduating-interval = Interval absolvování by měl být nejméně stejně dlouhý jako poslední krok učení.
 deck-config-good-above-easy = Snadný interval by měl být nejméně stejně dlouhý jako interval absolvování.
+deck-config-relearning-steps-above-minimum-interval = Minimální interval chyby by měl být nejméně stejně dlouhý jako poslední krok znovu učených.

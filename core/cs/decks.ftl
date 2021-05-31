@@ -29,3 +29,4 @@ decks-repeat-failed-cards-after = Zopakovat chybné kartičky poté
 decks-reschedule-cards-based-on-my-answers = Přeplánování karet založené na mých odpovědích v tomto balíku
 decks-study = Studovat
 decks-study-deck = Studijní balíky
+decks-unmovable-cards = Zobrazit všechny vyloučené karty
