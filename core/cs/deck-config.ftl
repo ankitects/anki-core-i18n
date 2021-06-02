@@ -117,6 +117,9 @@ deck-config-review-sort-order-tooltip =
     nevyřízená opakování, nejdéle čekající karty se zobrazí první. Jestliže máte 
     velké množství nevyřízených opakování, která zaberou více, než několik málo 
     dní, můžete shledat alternativní pořadí řazení vhodnější.
+deck-config-sort-order-due-date-then-random = Datum zkoušení, poté náhodně
+deck-config-sort-order-ascending-intervals = Intervaly vzestupně
+deck-config-sort-order-descending-intervals = Intervaly sestupně
 
 ## Timer section
 

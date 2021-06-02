@@ -29,4 +29,5 @@ decks-repeat-failed-cards-after = Zopakovat chybné kartičky poté
 decks-reschedule-cards-based-on-my-answers = Přeplánování karet založené na mých odpovědích v tomto balíku
 decks-study = Studovat
 decks-study-deck = Studijní balíky
+decks-filtered-deck-search-empty = Vyhledávání neodpovídají žádné karty. Některé karty mohly být vyloučeny, protože jsou v jiném filtrovaném balíku nebo vyřazené.
 decks-unmovable-cards = Zobrazit všechny vyloučené karty
