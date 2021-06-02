@@ -12,6 +12,7 @@ deck-config-used-by-decks =
        *[other] používá { $decks } balíků
     }
 deck-config-default-name = Výchozí
+deck-config-title = Možnosti balíku
 
 ## Daily limits section
 
@@ -23,6 +24,14 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip =
     Maximální počet karet k zopakování za den,
     jestliže jsou karty připraveny k zopakování.
+deck-config-limit-deck-v3 =
+    Při studování balíku, který má podřízené balíky, limity nastavené pro každý 
+    podřízený balík řídí maximální počet karet vzatých z daného balíku. 
+    Zvolené limity balíků řídí celkový počet karet, které se zobrazí.
+deck-config-limit-new-bound-by-reviews =
+    Limit opakování ovlivní limit nových karet. Například, jestliže je limit opakování 
+    nastaven na 200, a čeká vás 190 opakování, bude zobrazeno maximálně 10 nových 
+    karet. Jestliže se dosáhne limitu opakování, žádné nové karty se nezobrazí.
 
 ## New Cards section
 
@@ -76,7 +85,38 @@ deck-config-bury-tooltip =
 
 ## Ordering section
 
+deck-config-new-gather-priority = Priorita nabírání nových karet
+deck-config-new-gather-priority-tooltip =
+    `Balík`: nabírá karty z každého podřízeného balíku v pořadí a přestane, když 
+    se překročí limit vybraného balíku. Toto je rychlejší a umožňuje to upřednostnit 
+    podřízené balíky, které jsou výše.
+    
+    `Umístění`: nabírá karty ze všech balíků předtím, než se uspořádají. To 
+    zajistí, že nejstarší karty budou zobrazeny první, a to i když rodičovský limit 
+    není dostatečně vysoký, aby se zobrazily karty ze všech balíků.
+deck-config-new-gather-priority-deck = Balík
+deck-config-new-gather-priority-position = Umístění
+deck-config-new-card-sort-order = Pořadí řazení nových karet
+deck-config-new-card-sort-order-tooltip =
+    Jak jsou karty řazeny poté, co byly nabrány. Ve výchozím nastavení, Anki řadí 
+    nejdříve podle šablony karty, aby se zabránilo zobrazení více karet stejné 
+    poznámky v řadě za sebou.
+deck-config-sort-order-card-template-then-position = Šablona karty, poté umístění
+deck-config-sort-order-card-template-then-random = Šablona karty, poté náhodně
+deck-config-sort-order-position = Umístění (příbuzné karty spolu)
 deck-config-sort-order-random = Náhodně
+deck-config-new-review-priority = Priorita nové/opakování
+deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu ke kartám k opakování.
+deck-config-interday-step-priority-tooltip = Kdy zobrazit (znovu) učené karty, které překračují denní limit.
+deck-config-review-mix-mix-with-reviews = Smíchat s opakováním
+deck-config-review-mix-show-after-reviews = Zobrazit po opakování
+deck-config-review-mix-show-before-reviews = Zobrazit před opakováním
+deck-config-review-sort-order = Pořadí řazení opakování
+deck-config-review-sort-order-tooltip =
+    Výchozí řazení upřednostňuje karty, které čekaly nejdéle, takže jestliže máte 
+    nevyřízená opakování, nejdéle čekající karty se zobrazí první. Jestliže máte 
+    velké množství nevyřízených opakování, která zaberou více, než několik málo 
+    dní, můžete shledat alternativní pořadí řazení vhodnější.
 
 ## Timer section
 
