@@ -186,6 +186,7 @@ deck-config-revert-button-tooltip = Obnovit toto nastavení na výchozí hodnotu
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-markdown = Povolit markdown + čisté HTML
 
 ## Warnings shown to the user
 
