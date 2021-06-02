@@ -111,6 +111,7 @@ scheduling-custom-study = vlastní studium
 ## Scheduler upgrade
 
 scheduling-update-soon = Anki 2.1 přináší nový plánovač, který opravuje několik problémů, které měly předchozí verze Anki. Aktualizace se doporučuje.
+scheduling-update-done = Plánovač úspěšně aktualizován.
 scheduling-update-button = Aktualizovat
 scheduling-update-later-button = Později
 scheduling-update-more-info-button = Dozvědět se více

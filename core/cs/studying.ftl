@@ -40,6 +40,7 @@ studying-this-is-a-special-deck-for = Toto je speciální balík pro studium mim
 studying-to-review = K opakování
 studying-type-answer-unknown-field = Napište odpověd: neznámé pole { $val }
 studying-unbury = Zrušit přeskočení
+studying-what-would-you-like-to-unbury = U čeho byste chtěli zrušit přeskočení?
 studying-you-havent-recorded-your-voice-yet = Zatím jste nezaznamenali svůj hlas.
 studying-card-studied-in =
     { $count ->
