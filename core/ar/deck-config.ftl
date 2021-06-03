@@ -27,6 +27,13 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip =
     العدد الأقصى لبطاقات المراجعة المعروضة في اليوم،
     إذا كانت أي بطاقات جاهزة للمراجعة.
+deck-config-limit-deck-v3 =
+    عند دراسة رزمة لها رزم فرعية، الحدود المضبوطة
+    لكل رزمة فرعية تتحكم بالعدد الأقصى للبطاقات المأخوذة من تلك الرزمة.
+    تتحكم حدود الرزمة المحددة بالعدد الإجمالي للبطاقات التي ستظهر.
+deck-config-limit-new-bound-by-reviews =
+    يؤثر حد المراجعة بحد البطاقات الجديدة. مثلًا، إذا كان حد المراجعة 200،
+    ولديك 190 مراجعة بالانتظار، ستُعرض لك 10 بطاقات جديدة كحد أقصى.
 
 ## New Cards section
 
@@ -44,6 +51,11 @@ deck-config-easy-interval-tooltip =
     عدد الأيام الفاصلة قبل إظهار بطاقة مجددًا، بعد أن تضغط على زر «سهل»
     لتخريج البطاقة فورًا من طور التعلم.
 deck-config-new-insertion-order = ترتيب الإضافة
+deck-config-new-insertion-order-tooltip =
+    يتحكم بالموضع (عدد الاستحقاق) الذي تأخذه البطاقات الجديدة عند إضافتها.
+    البطاقات ذات أعداد الاستحقاق الأصغر تظهر أولًا عند الدراسة. تغيير
+    هذا الخيار يحدث مواضع البطاقات الجديدة الموجودة تلقائيًا.
+deck-config-new-insertion-order-sequential = متسلسل (البطاقات الأقدم أولًا)
 deck-config-new-insertion-order-random = عشوائي
 
 ## Lapses section
@@ -75,16 +87,42 @@ deck-config-bury-tooltip = ما إذا كانت البطاقات الأخرى ا
 ## Ordering section
 
 deck-config-ordering-title = ترتيب العرض
+deck-config-new-gather-priority = أولوية جلب البطاقات الجديدة
+deck-config-new-gather-priority-tooltip =
+    `الرزمة`: يجلب البطاقات من كل رزمة فرعية بالترتيب،
+    ويتوقف عندما يُستنزف حد الرزمة المحددة. هذا أسرع،
+    ويسمح لك بإعطاء أولوية للرزم الفرعية الأقرب للأعلى.
+    
+    `الموضع`: يجلب البطاقات من كل  الرزم قبل فرزها.
+    يضمن هذا أن البطاقات الأقدم ستظهر أولًا، حتى لو لم يكن
+    حد الوالد مرتفعًا كفاية لرؤية بطاقات من كل الرزم.
 deck-config-new-gather-priority-deck = الرزمة
 deck-config-new-gather-priority-position = الموضع
 deck-config-new-card-sort-order = ترتيب فرز البطاقات الجديدة
+deck-config-new-card-sort-order-tooltip =
+    كيفية فرز البطاقات بعد جلبها. بشكل افتراضي، يفرز أنكي
+    حسب قالب البطاقة أولًا لمنع البطاقات المتعددة لملحوظة واحدة من
+    الظهور بالتتابع.
+deck-config-sort-order-card-template-then-position = قالب البطاقة، ثم الموضع
+deck-config-sort-order-card-template-then-random = قالب البطاقة، ثم عشوائي
 deck-config-sort-order-position = الموضع (الشقيقات معًا)
 deck-config-sort-order-random = عشوائي
 deck-config-new-review-priority = أولوية البطاقات الجديدة/المراجعات
 deck-config-new-review-priority-tooltip = وقت إظهار البطاقات الجديدة بالنسبة لبطاقات المراجعة.
+deck-config-interday-step-priority = أفضلية بطاقات التعلم ذات الخطوات التي تتجاوز اليوم الواحد والمراجعات
+deck-config-interday-step-priority-tooltip = وقت إظهار بطاقات التعلم/إعادة التعلم التي تتجاوز خطواتها اليوم الواحد.
 deck-config-review-mix-mix-with-reviews = خلط مع المراجعات
 deck-config-review-mix-show-after-reviews = إظهار بعد المراجعات
 deck-config-review-mix-show-before-reviews = إظهار قبل المراجعات
+deck-config-review-sort-order = ترتيب فرز المراجعات
+deck-config-review-sort-order-tooltip =
+    يفضّل الترتيب الافتراضي البطاقات التي انتظرت لمدة أطول، لذلك
+    إذا كانت لديك مراجعات متراكمة، ستظهر المراجعات التي انتظرت أطول أولًا.
+    إذا كان لديك تراكم كبير يأخذ أكثر من عدة أيام لإنهائه، فقد تفضل
+    ترتيبات الفرز البديلة.
+deck-config-sort-order-due-date-then-random = تاريخ الاستحقاق، ثم عشوائي
+deck-config-sort-order-ascending-intervals = فواصل متزايدة
+deck-config-sort-order-descending-intervals = فواصل متناقصة
 
 ## Timer section
 
@@ -132,11 +170,14 @@ deck-config-minimum-interval-tooltip = الفاصل الأدنى المعطى ل
 deck-config-add-group = إضافة مجموعة
 deck-config-name-prompt = اسم:
 deck-config-rename-group = إعادة تسمية المجموعة
+deck-config-clone-group = استنساخ المجموعة
 
 ## Removing
 
 deck-config-remove-group = حذف المجموعة
 deck-config-confirm-normal = هل تريد حذف { $name }؟
+deck-config-will-require-full-sync = يتطلب التغيير المطلوب مزامنة كاملة. إذا أجريت تغييرات في جهاز آخر لم تزامنها إلى هذا الجهاز بعد، فالرجاء فعل ذلك قبل الاستمرار.
+deck-config-confirm-remove-name = هل تريد حذف { $name }؟
 
 ## Other Buttons
 
@@ -172,3 +213,4 @@ deck-config-reviews-too-low =
     }، يجب أن يكون حد مراجعتك على الأقل { $expected }.
 deck-config-learning-step-above-graduating-interval = فاصل التخرج يجب أن يكون على الأقل بطول خطوة التعلم الأخيرة.
 deck-config-good-above-easy = يجب أن يكون فاصل البطاقات السهلة على الأقل بطول فاصل التخرج.
+deck-config-relearning-steps-above-minimum-interval = فاصل السقطات الأقصر يجب أن يكون على الأقل بطول خطوة إعادة التعلم الأخيرة.
