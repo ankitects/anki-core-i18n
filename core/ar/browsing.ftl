@@ -150,6 +150,15 @@ browsing-notes-updated =
         [many] حُدثت { $count } ملحوظة.
        *[other] حُدثت { $count } ملحوظة.
     }
+browsing-cards-updated =
+    { $count ->
+        [zero] لم يتم تحديث أي بطاقة.
+        [one] تم تحديث بطاقة واحدة.
+        [two] تم تحديث بطاقتين.
+        [few] تم تحديث { $count } بطاقات.
+        [many] تم تحديث { $count } بطاقة.
+       *[other] تم تحديث { $count } بطاقة.
+    }
 browsing-window-title = تصفح ({ $selected } من أصل { $total } بطاقة محددة)
 browsing-sidebar-expand = إسدال
 browsing-sidebar-collapse = طي

@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+
+## Top section
+
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
@@ -28,7 +31,7 @@ deck-config-review-limit-tooltip =
 ## New Cards section
 
 deck-config-learning-steps = خطوات التعلم
-# Please don't translate '5m' or '2d'
+# Please don't translate `5m` or `2d`
 -deck-config-delay-hint = يمكن أن تكون الفواصل بوحدة الدقائق ("5m" مثلًا) أو الأيام ("2d" مثلًا).
 deck-config-learning-steps-tooltip =
     فاصل زمني واحد أو أكثر، مفصولة بفراغات. يستخدم الفاصل الأول
@@ -40,6 +43,8 @@ deck-config-graduating-interval-tooltip = عدد الأيام الفاصلة ق�
 deck-config-easy-interval-tooltip =
     عدد الأيام الفاصلة قبل إظهار بطاقة مجددًا، بعد أن تضغط على زر «سهل»
     لتخريج البطاقة فورًا من طور التعلم.
+deck-config-new-insertion-order = ترتيب الإضافة
+deck-config-new-insertion-order-random = عشوائي
 
 ## Lapses section
 
@@ -62,8 +67,24 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-burying-title = الدفن
+deck-config-bury-title = الدفن
+deck-config-bury-new-siblings = دفن البطاقات الشقيقة الجديدة حتى اليوم التالي
+deck-config-bury-review-siblings = دفن بطاقات المراجعة الشقيقة حتى اليوم التالي
 deck-config-bury-tooltip = ما إذا كانت البطاقات الأخرى العائدة للملحوظة نفسها (بطاقات معكوسة، أو عبارات ملء فراغات مجاورة مثلًا) يتم تأخيرها حتى اليوم التالي.
+
+## Ordering section
+
+deck-config-ordering-title = ترتيب العرض
+deck-config-new-gather-priority-deck = الرزمة
+deck-config-new-gather-priority-position = الموضع
+deck-config-new-card-sort-order = ترتيب فرز البطاقات الجديدة
+deck-config-sort-order-position = الموضع (الشقيقات معًا)
+deck-config-sort-order-random = عشوائي
+deck-config-new-review-priority = أولوية البطاقات الجديدة/المراجعات
+deck-config-new-review-priority-tooltip = وقت إظهار البطاقات الجديدة بالنسبة لبطاقات المراجعة.
+deck-config-review-mix-mix-with-reviews = خلط مع المراجعات
+deck-config-review-mix-show-after-reviews = إظهار بعد المراجعات
+deck-config-review-mix-show-before-reviews = إظهار قبل المراجعات
 
 ## Timer section
 
@@ -116,16 +137,11 @@ deck-config-rename-group = إعادة تسمية المجموعة
 
 deck-config-remove-group = حذف المجموعة
 deck-config-confirm-normal = هل تريد حذف { $name }؟
--deck-config-will-require-full-sync = يتطلب هذا مزامنة كاملة.
-# You don't need to translate this
-deck-config-confirm-full =
-    { deck-config-confirm-normal }
-    { -deck-config-will-require-full-sync }
 
 ## Other Buttons
 
 deck-config-save-button = حفظ
-deck-config-save-to-all-children = حفظ لكل المجموعات الفرعية
+deck-config-save-to-all-subdecks = حفظ في كل الرزم الفرعية
 deck-config-revert-button-tooltip = استرجاع قيمة الإعداد الافتراضية.
 
 ## These strings are shown via the Description button at the bottom of the
