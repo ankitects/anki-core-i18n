@@ -69,10 +69,10 @@ deck-config-leech-threshold-tooltip =
     nad mnemotechnickou pomůckou, která pomůže si ji zapamatovat.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Jen štítek`: Přidá k poznámce štítech „leech“ a zobrazí vyskakovací okno.
+    `Pouze označit štítkem`: Přidá k poznámce štítech „leech“ a zobrazí vyskakovací okno.
     
-    `Vyřadit kartu`: Navíc k označení poznámky schová kartu, dokud nebude 
-    ručně zrušeno vyřazení.
+    `Vyřadit kartu`: Navíc k označení poznámky schová kartu, dokud nebude vyřazení
+    ručně zrušeno.
 
 ## Burying section
 
