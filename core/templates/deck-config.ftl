@@ -36,8 +36,8 @@ deck-config-limit-new-bound-by-reviews =
 ## New Cards section
 
 deck-config-learning-steps = Learning steps
-# Please don't translate `5m` or `2d`
--deck-config-delay-hint = Delays can be in minutes (eg `5m`), or days (eg `2d`).
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Delays are typically minutes (eg `1m`) or days (eg `2d`), but hours (eg `1h`) and seconds (eg `30s`) are also supported.
 deck-config-learning-steps-tooltip =
     One or more delays, separated by spaces. The first delay will be used
     when you press the `Again` button on a new card, and is 1 minute by default.
@@ -122,8 +122,11 @@ deck-config-review-sort-order-tooltip =
     The default order prioritizes cards that have been waiting longest, so that
     if you have a backlog of reviews, the longest-waiting ones will appear
     first. If you have a large backlog that will take more than a few days to
-    clear, you may find the alternate sort orders preferable.
+    clear, or wish to see cards in subdeck order, you may find the alternate
+    sort orders preferable.
 deck-config-sort-order-due-date-then-random = Due date, then random
+deck-config-sort-order-due-date-then-deck = Due date, then deck
+deck-config-sort-order-deck-then-due-date = Deck, then due date
 deck-config-sort-order-ascending-intervals = Ascending intervals
 deck-config-sort-order-descending-intervals = Descending intervals
 
@@ -180,10 +183,9 @@ deck-config-clone-group = Clone Preset
 deck-config-remove-group = Remove Preset
 deck-config-confirm-normal = Remove { $name }?
 deck-config-will-require-full-sync =
-    The requested change will require a full upload of the database when you
-    next synchronize your collection. If you have reviews or other changes
-    waiting on another device that haven't been synchronized here yet, they will
-    be lost.
+    The requested change will require a one-way sync. If you have made changes
+    on another device, and not synced them to this device yet, please do so before
+    you proceed.
 deck-config-confirm-remove-name = Remove { $name }?
 
 ## Other Buttons
@@ -213,3 +215,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = The graduating interval should be at least as long as your final learning step.
 deck-config-good-above-easy = The easy interval should be at least as long as the graduating interval.
 deck-config-relearning-steps-above-minimum-interval = The minimum lapse interval should be at least as long as your final relearning step.
+
+## Selecting a deck
+
+deck-config-which-deck = Which deck would you like?
