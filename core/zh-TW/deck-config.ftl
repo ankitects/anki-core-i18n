@@ -28,7 +28,7 @@ deck-config-limit-new-bound-by-reviews =
 ## New Cards section
 
 deck-config-learning-steps = 學習階段
-# Please don't translate `5m` or `2d`
+# Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 延遲時間可為分鐘（如「5m」）或天（如「2d」）。
 deck-config-learning-steps-tooltip =
     一或多段延遲，用空白分隔。第一段延遲將為您學習新卡片時，
@@ -108,6 +108,8 @@ deck-config-review-sort-order-tooltip =
     等待最久的卡片將會第一個出現。若您積壓了大量卡片，需要更多時間
     來清理時，您可能需要換一種更合適的排序順序。
 deck-config-sort-order-due-date-then-random = 先按照到期日期，然後隨機
+deck-config-sort-order-due-date-then-deck = 先按照到期日期，然後按照牌組
+deck-config-sort-order-deck-then-due-date = 先按照牌組，然後按照到期日期
 deck-config-sort-order-ascending-intervals = 間隔由小至大
 deck-config-sort-order-descending-intervals = 間隔由大至小
 
@@ -187,3 +189,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = 畢業間隔至少應該和最後一個學習階段一樣長。
 deck-config-good-above-easy = 簡單間隔至少應該和畢業間隔一樣長。
 deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔至少應該和最後一個重新學習階段一樣長。
+
+## Selecting a deck
+
+deck-config-which-deck = 您想要哪個牌組？
