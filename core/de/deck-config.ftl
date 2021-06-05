@@ -28,7 +28,7 @@ deck-config-limit-new-bound-by-reviews = Der Grenzwert für Wiederholungen beein
 ## New Cards section
 
 deck-config-learning-steps = Lernstufen
-# Please don't translate `5m` or `2d`
+# Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Verzögerungen können in Minuten (z.B. "5m") oder Tagen (z.B. "2d") angegeben werden.
 deck-config-learning-steps-tooltip =
     Eine oder mehrere Verzögerungen, durch Leerzeichen voneinander getrennt. Die erste Verzögerung wird benutzt, 
@@ -88,6 +88,8 @@ deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
 deck-config-review-sort-order = Wiederholsortierreihenfolge
 deck-config-review-sort-order-tooltip = Die Standardreihenfolge priorisiert Karten, die am längsten gewartet haben. Wenn Sie einen Rückstand an Wiederholungen haben, werden dadurch diejenigen, die am längsten gewartet haben, zuerst angezeigt. Wenn Sie einen großen Rückstand haben, der mehr als einige Tage benötigt, um ihn aufzuholen, dann finden Sie ggf. eine andere Sortierreihenfolge vorteilhafter.
 deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
+deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
+deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
 deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
 deck-config-sort-order-descending-intervals = Absteigende Intervalle
 
@@ -164,3 +166,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens genauso lang sein wie Ihre finale Lernstufe.
 deck-config-good-above-easy = Das Einfach-Intervall sollte mindestens genauso lang sein wie das Aufstiegsintervall.
 deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall für Fehlschläge sollte mindestens so lange sein wie Ihr finaler Schritt für das erneute Lernen.
+
+## Selecting a deck
+
+deck-config-which-deck = Welchen Stapel möchten Sie gerne?

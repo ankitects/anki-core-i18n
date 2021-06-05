@@ -16,7 +16,7 @@ search-unclosed-quote = Es wurde ein öffnendes Anführungszeichen `"` gefunden,
 search-missing-key = Es wurde ein Doppelpunkt `:` gefunden, davor jedoch kein Schlüsselbegriff. Sie können nach dem Symbol `:` suchen, indem Sie einen umgekehrten Schrägstrich voranstellen: `\:`.
 search-unknown-escape = Die Escape-Sequenz `{ $val }` ist nicht definiert. Sie können nach einem umgekehrten Schrägstrich `\` suchen, indem Sie einen weiteren voranstellen: `\\`.
 search-invalid-argument = `{ $term }` wurde der ungültige Wert „`{ $argument }`“ übergeben.
-search-invalid-flag = Auf `flag:` muss eine gültige Markierungsnummer folgen: `1` (rot), `2` (orange), `3` (grün), `4` (blau) oder `0` (keine Markierung).
+search-invalid-flag-2 = Nach `flag:` muss eine gültige Flag-/Markierungsnummer eingetragen werden : `1` (rot), `2` (orange), `3` (grün), `4` (blau), `5` (pink), `6` (türkis), `7` (lila) or `0` (keine Markierung).
 search-invalid-prop-operator = Auf `prop:{ $val }` muss einer der folgenden Vergleichsoperatoren folgen: `=`, `!=`, `<`, `>`, `<=` oder `>=`.
 search-invalid-other = Bitte auf Tippfehler prüfen.
 
