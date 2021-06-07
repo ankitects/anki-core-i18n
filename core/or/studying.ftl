@@ -1,4 +1,8 @@
 studying-again = ପୁଣି
+studying-all-buried-cards = ସମସ୍ତ ଥଗିତ ହୋଇଥିବା କାର୍ଡ
+studying-audio-5s = ଅଡ଼ିଓ -5ସେ
+studying-audio-and5s = ଅଡ଼ିଓ +5ସେ
+studying-buried-siblings = ସ୍ଥଗିତ ହୋଇଥିବା ଭାଇଭଉଣୀ
 studying-bury = ସ୍ଥଗିତ ରଖନ୍ତୁ
 studying-bury-card = କାର୍ଡ ସ୍ଥଗିତ କରନ୍ତୁ
 studying-bury-note = ନୋଟ୍ ସ୍ଥଗିତ କରନ୍ତୁ
@@ -16,6 +20,7 @@ studying-show-answer = ଉତ୍ତର ଦେଖନ୍ତୁ
 studying-study-now = ବର୍ତ୍ତମାନ ଅଧ୍ୟୟନ କରନ୍ତୁ
 studying-suspend = ନିଲମ୍ବନ କରନ୍ତୁ
 studying-suspend-note = ନୋଟ୍ ନିଲମ୍ବିତ କରନ୍ତୁ
+studying-to-review = ସମୀକ୍ଷା କରିବାକୁ
 studying-unbury = ସ୍ଥଗିତରୁ ଫେରାଇ ଆଣ
 studying-what-would-you-like-to-unbury = ଆପଣ କ'ଣ ସ୍ଥଗିତରୁ ଫେରାଇ ଆଣିବାକୁ ଚାହାଁନ୍ତି?
 studying-you-havent-recorded-your-voice-yet = ଆପଣ ଏପର୍ଯ୍ୟନ୍ତ ନିଜ ସ୍ୱର ରେକର୍ଡ କରିନାହାଁନ୍ତି।
