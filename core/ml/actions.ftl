@@ -1,0 +1,47 @@
+actions-add = ചേര്‍ക്കുക
+actions-all-selected = മൊത്തം തിരഞ്ഞെടുത്തത്
+actions-cancel = റദ്ദാക്കുക
+actions-choose = തിരഞ്ഞെടുക്കുക
+actions-close = അവസാനിപ്പിക്കുക
+actions-copy = പകര്‍ത്തുക
+actions-delete = ഇല്ലാതാക്കുക
+actions-export = കയറ്റുമതി
+actions-filter = ഫിൽറ്റർ ചെയ്യുക
+actions-help = സഹായം
+actions-import = ഇറക്കുമതി
+actions-manage = നിയന്ത്രിക്കുക
+actions-name = പേര്:
+actions-new = പുതിയത്
+actions-new-name = പുതിയ പേര്:
+actions-options = ഐച്ഛികങ്ങൾ
+actions-preview = തിരനോട്ടം
+actions-rebuild = വീണ്ടും പണിയുക
+actions-rename = പേരു മാറ്റുക
+actions-rename-deck = ഡെക്കിന്റെ പേര് മാറ്റുക
+actions-rename-tag = ടാഗ് പുനർനാമകരണം
+actions-remove-tag = ഡെക്ക് പുനർനാമകരണം
+actions-save = സംരക്ഷിക്കുക
+actions-search = തിരയുക
+actions-select = തിരഞ്ഞെടുക്കുക
+actions-forget = മറക്കുക
+actions-add-deck = ഡെക്ക് ചേർക്കുക
+actions-add-note = കുറിപ്പ് ചേർക്കുക
+actions-update-tag = ടാഗ് പുതുക്കുക
+actions-update-note = കുറിപ്പ് പുതുക്കുക
+actions-update-card = കാർഡ് പുതുക്കുക
+actions-update-deck = ഡെക്ക് പുതുക്കുക
+actions-expand-collapse = വികസിപ്പിക്കുക/ചുരുക്കുക
+actions-add-notetype = കുറിപ്പ് തരം ചേർക്കുക
+actions-remove-notetype = കുറിപ്പ് തരം നീക്കം ചെയ്യുക
+
+## Flags
+
+actions-flag-number = ഫ്ലാഗുചെയ്യുക { $number }
+actions-flag-red = ചുവപ്പ്
+actions-flag-orange = ഓറഞ്ച്
+actions-flag-green = പച്ച
+actions-flag-blue = നീല
+actions-flag-pink = പിങ്ക്
+actions-flag-turquoise = നീലരത്നം
+actions-flag-purple = പര്‍പ്പിള്‍
+actions-set-flag = ഫ്ലാഗ് സജ്ജമാക്കുക
