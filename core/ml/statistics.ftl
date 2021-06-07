@@ -54,6 +54,14 @@ statistics-reviews =
         [one] { $reviews } അവലോകനം
        *[other] { $reviews } അവലോകനങ്ങൾ
     }
+# eg, "Time taken to review card: 5s"
+statistics-seconds-taken = { $seconds }s
+statistics-today-title = ഇന്ന്
+statistics-today-again-count = വീണ്ടും എണ്ണുക:
+statistics-today-type-counts = പഠിക്കുക: { $learnCount }, അവലോകനം: { $reviewCount }, വീണ്ടും പഠിക്കുക: { $relearnCount }, ഫിൽറ്റർ ചെയ്തത്: { $filteredCount }
+statistics-today-no-cards = ഇന്ന് കാർഡുകളൊന്നും പഠിച്ചിട്ടില്ല.
+statistics-today-no-mature-cards = മുതിർന്ന കാർഡുകളൊന്നും ഇന്ന് പഠിച്ചിട്ടില്ല.
+statistics-today-correct-mature = മുതിർന്ന കാർഡുകളിൽ ശരിയായ ഉത്തരങ്ങൾ: { $correct }/{ $total }({ $percent }%)
 statistics-counts-total-cards = മൊത്തം
 statistics-counts-new-cards = പുതിയത്
 statistics-counts-young-cards = പ്രായം-കുറഞ്ഞത്
@@ -79,6 +87,12 @@ statistics-card-ease-tooltip =
         [one] { $cards } കാർഡ് { $percent } എളുപ്പം
        *[other] { $cards } കാർഡുകൾ { $percent } എളുപ്പം
     }
+statistics-future-due-title = ഭാവി ഡ്യൂ
+statistics-future-due-subtitle = ഭാവിയിൽ ലഭിക്കേണ്ട അവലോകനങ്ങളുടെ എണ്ണം.
+statistics-added-title = ചേർത്തു
+statistics-added-subtitle = നിങ്ങൾ ചേർത്ത പുതിയ കാർഡുകളുടെ എണ്ണം.
+statistics-reviews-count-subtitle = നിങ്ങൾ ഉത്തരം നൽകിയ ചോദ്യങ്ങളുടെ എണ്ണം.
+statistics-reviews-time-subtitle = ചോദ്യങ്ങൾക്ക് ഉത്തരം നൽകാൻ എടുത്ത സമയം.
 statistics-answer-buttons-title = ഉത്തര ബട്ടൺ
 # eg Button: 4
 statistics-answer-buttons-button-number = ബട്ടൺ
@@ -87,6 +101,45 @@ statistics-answer-buttons-button-pressed = അമർത്തിയ തവണ
 statistics-answer-buttons-subtitle = എത്രത്തോളം തവണ ഓരോ ബട്ടണും നിങ്ങൾ അമർത്തിയിരിക്കുന്നു
 statistics-reviews-title = അവലോകനങ്ങൾ
 statistics-reviews-time-checkbox = സമയം
+statistics-in-days-single =
+    { $days ->
+        [0] ഇന്ന്
+        [1] നാളെ
+        [one] { $days } ദിവസത്തിൽ
+       *[other] { $days } ദിവസങ്ങളിൽ
+    }
+statistics-in-days-range = { $daysStart }-{ $daysEnd } ദിവസങ്ങളിൽ
+statistics-days-ago-single =
+    { $days ->
+        [1] ഇന്നലെ
+        [one] { $days } ദിവസം മുൻപ്
+       *[other] { $days } ദിവസങ്ങൾക്ക് മുൻപ്
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } ദിവസങ്ങൾക്ക് മുൻപ്
+statistics-running-total = ആകെ പ്രവർത്തന സമയം
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } കാർഡ് ഡ്യൂ
+       *[other] { $cards } കാർഡുകൾ ഡ്യൂ
+    }
+statistics-backlog-checkbox = ബാക്ക്‌ലോഗ്
+statistics-intervals-title = അവലോകന ഇടവേളകൾ
+statistics-intervals-subtitle = അവലോകനങ്ങൾ വീണ്ടും കാണിക്കുന്നത് വരെയുള്ള കാലതാമസം.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $daysStart }~{ $daysEnd } ദിവസങ്ങളുടെ ഇടവേളയുള്ള { $cards } കാർഡ്
+       *[other] { $daysStart }~{ $daysEnd } ദിവസങ്ങളുടെ ഇടവേളയുള്ള { $cards } കാർഡുകൾ
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $day } ദിവസങ്ങളുടെ ഇടവേളയുള്ള { $cards } കാർഡ്
+       *[other] { $day } ദിവസങ്ങളുടെ ഇടവേളയുള്ള { $cards } കാർഡുകൾ
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }:00 തൊട്ട് ~{ $hourEnd }:00 വരെ
+statistics-hours-correct = { $correct }/{ $total } ശെരി ({ $percent }%)
+statistics-hours-title = മണിക്കൂർ കണക്കിലെ ബ്രേക്ക്ഡൗൺ
+statistics-hours-subtitle = ദിവസത്തിലെ ഓരോ മണിക്കൂറിലും വിജയ നിരക്ക് അവലോകനം ചെയ്യുക.
 # shown when graph is empty
 statistics-no-data = ഡാറ്റാ ഇല്ല
 statistics-calendar-title = കലണ്ടര്‍
@@ -114,6 +167,8 @@ statistics-average = ശരാശരി
 statistics-average-interval = ശരാശരി ഇടവേള
 statistics-longest-interval = ഏറ്റവും നീണ്ട ഇടവേള
 statistics-due-tomorrow = അവസാന തീയതി നാളെ
+statistics-average-over-period = കാലയളവിലെ ശരാശരി
+statistics-average-ease = ശരാശരി അനായാസം
 statistics-save-pdf = PDF സംരക്ഷിക്കുക
 statistics-saved = സംരക്ഷിച്ചു
 statistics-stats = സ്ഥിതിവിവരക്കണക്കുകൾ
