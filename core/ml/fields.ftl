@@ -1,0 +1,12 @@
+fields-add-field = മണ്ഡലം ചേർക്കുക
+fields-delete-field-from = മണ്ഡലം ഒഴിവാക്കേണ്ടത് { $val }-ൽ നിന്നാണോ?
+fields-editing-font = ഫോണ്ട് ചിട്ടപ്പെടുത്തികൊണ്ടിരിക്കുന്നു
+fields-field = മണ്ഡലം:
+fields-field-name = മണ്ഡലത്തിന്റെ പേര്:
+fields-fields-for = { $val }-നു വേണ്ടിയുള്ള മണ്ഡലങ്ങൾ
+fields-font = ഫോണ്ട്:
+fields-new-position-1 = പുതിയ സ്ഥാനം (1...{ $val }):
+fields-notes-require-at-least-one-field = കുറിപ്പുകൾക്ക് കുറഞ്ഞത് ഒരു മണ്ഡലമെങ്കിലും ആവശ്യമാണ്.
+fields-that-field-name-is-already-used = ആ മണ്ഡലത്തിന്റെ പേര് ഒരുവട്ടം ഉപയോഗിച്ച് കഴിഞ്ഞതാണ്.
+fields-name-first-letter-not-valid = മണ്ഡലത്തിന്റെ പേര് #,^ അല്ലെങ്കിൽ / തുടങ്ങിയവയിൽ ആരംഭിക്കരുത്.
+fields-name-invalid-letter = മണ്ഡലത്തിന്റെ പേരിൽ , ", { "{" } or { "}" } തുടങ്ങിയവ ഉണ്ടായിരിക്കരുത്.
