@@ -98,8 +98,8 @@ deck-config-sort-order-descending-intervals = Absteigende Intervalle
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Maximal Sekunden zum Antworten
 deck-config-maximum-answer-secs-tooltip =
-    Die maximale Anzahl an Sekunden zum Aufzeichnen für eine Wiederholung. Wenn die Antwort
-    diese Zeit überschreitet (weil Sie beispielsweise nicht auf den Bildschirm geschaut haben), dann wird die zur Antwort benötigte Zeitdauer als gesetzter Grenzwert aufgezeichnet.
+    Die maximale Anzahl an Sekunden, die bei einer einzelnen Wiederholung erfasst wird. Wenn die Antwort
+    diese Zeit überschreitet (weil Sie beispielsweise nicht auf den Bildschirm geschaut haben), dann wird die für die Antwort benötigte, zu vermerkende Zeitdauer auf diesen Höchstwert (herunter)gesetzt.
 deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
 
 ## Audio section
@@ -115,7 +115,7 @@ deck-config-maximum-interval-tooltip =
     Die maximale Anzahl an Tagen, die eine Wiederholkarte warten wird. Wenn Wiederholungen
     ihren Grenzwert erreicht haben, erhalten "Schwer", "Gut" und "Leicht" alle die gleiche Verzögerung.
     Je kürzer Sie dies setzen, desto größer wird Ihr Arbeitspensum.
-deck-config-starting-ease-tooltip = Der Leichtigkeitsmultiplikator, mit dem neue Karten beginnen. Standardmäßig wird der "Gut"-Knopf bei neu gelernten Karten die nächste Wiederholung um den Faktor 2.5 verglichen zur vorherigen Verzögerungen verzögern.
+deck-config-starting-ease-tooltip = Der Leichtigkeitsmultiplikator, mit dem neue Karten beginnen. Standardmäßig wird der "Gut"-Knopf bei neu gelernten Karten die nächste Wiederholung um den Faktor 2.5 verglichen zur vorherigen Verzögerung verzögern.
 deck-config-easy-bonus-tooltip = Ein zusätzlicher Multiplikator, welcher auf das Intervall einer Wiederholkarte angewendet wird, wenn Sie diese als "Einfach" einstufen.
 deck-config-interval-modifier-tooltip =
     Dieser Multiplikator wird auf allen Wiederholungen angewendet, und kleinere Anpassungen können benutzt werden, 
@@ -142,7 +142,7 @@ deck-config-confirm-remove-name = { $name } entfernen?
 ## Other Buttons
 
 deck-config-save-button = Speichern
-deck-config-save-to-all-subdecks = Für alle Unterstapel speichern
+deck-config-save-to-all-subdecks = Auf alle Unterstapel anwenden
 deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurücksetzen
 
 ## These strings are shown via the Description button at the bottom of the
