@@ -30,6 +30,7 @@ deck-config-limit-deck-v3 =
 
 ## New Cards section
 
+deck-config-learning-steps = പഠിക്കാനുള്ള ഘട്ടങ്ങൾ
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = കാലതാമസം സാധാരണയായി മിനിറ്റുകൾ (ഉദാ. `1 മി`) അല്ലെങ്കിൽ ദിവസങ്ങൾ (ഉദാ.` 2 ഡി`) ആണ്, എന്നാൽ മണിക്കൂറുകളും (ഉദാ. `1 എച്ച്`) സെക്കൻഡും (ഉദാ.` 30 സെ`) പിന്തുണയ്‌ക്കുന്നു.
 deck-config-new-insertion-order-sequential = അനുക്രമം (ആദ്യം പഴയ കാർഡുകൾ)

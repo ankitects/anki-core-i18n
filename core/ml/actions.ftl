@@ -31,16 +31,23 @@ actions-search = തിരയുക
 actions-select = തിരഞ്ഞെടുക്കുക
 actions-shortcut-key = കുറുക്കുവഴി കീ: { $val }
 actions-suspend-card = കാർഡ് താൽക്കാലികമായി നിർത്തുക
+actions-set-due-date = നിശ്ചിത തീയതി സജ്ജമാക്കുക
 actions-forget = മറക്കുക
+actions-answer-card = ഉത്തര കാർഡ്
+actions-unbury-unsuspend = അൺബറി / അൺസെസ്പെൻഡ്
 actions-add-deck = ഡെക്ക് ചേർക്കുക
 actions-add-note = കുറിപ്പ് ചേർക്കുക
 actions-update-tag = ടാഗ് പുതുക്കുക
 actions-update-note = കുറിപ്പ് പുതുക്കുക
 actions-update-card = കാർഡ് പുതുക്കുക
 actions-update-deck = ഡെക്ക് പുതുക്കുക
+actions-forget-card = കാർഡ് മറക്കുക
+actions-build-filtered-deck = ഡെക്ക് നിർമ്മിക്കുക
 actions-expand-collapse = വികസിപ്പിക്കുക/ചുരുക്കുക
 actions-add-notetype = കുറിപ്പ് തരം ചേർക്കുക
 actions-remove-notetype = കുറിപ്പ് തരം നീക്കം ചെയ്യുക
+actions-update-notetype = കുറിപ്പ് തരം പുതുക്കുക
+actions-update-config = കോൺഫിഗറേഷൻ പുതുക്കുക
 
 ## Flags
 

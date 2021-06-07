@@ -20,6 +20,13 @@ card-templates-night-mode = രാത്രി മോഡ്
 # on a mobile device.
 card-templates-add-mobile-class = മൊബൈൽ ക്ലാസ് ചേർക്കുക
 card-templates-preview-settings = ഐച്ഛികങ്ങൾ
+card-templates-invalid-template-number = കുറിപ്പ് തരം  '{ $notetype }'-ലെ കാർഡ് ടെംപ്ലേറ്റ് { $number }-ന് ഒരു പ്രശ്നമുണ്ട്.
+card-templates-identical-front = മുൻവശം കാർഡ് ടെംപ്ലേറ്റിന് ({ $number }) സമാനമാണ്.
+card-templates-no-front-field = കാർഡ് ടെംപ്ലേറ്റിന്റെ മുൻവശത്ത് ഒരു മണ്ഡലം മാറ്റിസ്ഥാപിക്കൽ കണ്ടെത്തുമെന്ന് പ്രതീക്ഷിക്കുന്നു.
+card-templates-missing-cloze =
+    കാർഡ് ടെംപ്ലേറ്റിന്റെ മുന്നിലും പിന്നിലും 
+    '{ "{{" }cloze:Text{ "}}" }'  അല്ലെങ്കിൽ സമാനമായത് കണ്ടെത്തുമെന്ന് പ്രതീക്ഷിക്കുന്നു.
+card-templates-extraneous-cloze = 'ക്ലോസ്:' ക്ലോസ് കുറിപ്പ് തരങ്ങളിൽ മാത്രമേ ഉപയോഗിക്കാൻ കഴിയൂ.
 card-templates-see-preview = കൂടുതൽ വിവരങ്ങൾക്ക് പ്രിവ്യൂ കാണുക.
 card-templates-changes-saved = മാറ്റങ്ങൾ സംരക്ഷിച്ചു.
 card-templates-discard-changes = മാറ്റങ്ങൾ ഉപേക്ഷിക്കണോ?
@@ -32,6 +39,7 @@ card-templates-card-types = കാർഡ് തരങ്ങൾ
 card-templates-card-types-for = { $val } എന്നതിനുള്ള കാർഡ് തരങ്ങൾ
 card-templates-cloze = ക്ലോസ് { $val }
 card-templates-deck-override = ഡെക്ക് ഓവർറൈഡ് ചെയ്യുക...
+card-templates-delete-the-as-card-type-and = '{ $template }' കാർഡ് തരവും അതിന്റെ { $cards } കാർഡുകളും ഇല്ലാതാക്കണോ?
 card-templates-enter-deck-to-place-new = പുതിയ { $val } കാർഡുകൾ സ്ഥാപിക്കാൻ ഡെക്ക് നൽകുക, അല്ലെങ്കിൽ ശൂന്യമായി ഇടുക:
 card-templates-enter-new-card-position-1 = പുതിയ കാർഡ് സ്ഥാനം നൽകുക (1 ... { $val }):
 card-templates-flip = തിരിക്കുക
@@ -41,6 +49,11 @@ card-templates-on = (ഓൺ)
 card-templates-remove-card-type = കാർഡ് തരം നീക്കംചെയ്യുക ...
 card-templates-rename-card-type = കാർഡ് തരം പേരുമാറ്റുക ...
 card-templates-reposition-card-type = കാർഡ് തരം സ്ഥാനം മാറ്റുക ...
+card-templates-card-count =
+    { $count ->
+        [one] { $count } കാർഡ്
+       *[other] { $count } കാർഡുകൾ
+    }
 card-templates-this-will-create-card-proceed =
     { $count ->
         [one] ഇത് { $count } കാർഡ് സൃഷ്ടിക്കും. മുന്നോട്ട് പോകണോ?
