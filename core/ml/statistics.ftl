@@ -54,6 +54,20 @@ statistics-reviews =
         [one] { $reviews } അവലോകനം
        *[other] { $reviews } അവലോകനങ്ങൾ
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    { statistics-cards } പഠിച്ചു{ $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } ഇന്ന്
+    ({ $secs-per-card }s/കാർഡ്)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }s
 statistics-today-title = ഇന്ന്
@@ -167,7 +181,24 @@ statistics-average = ശരാശരി
 statistics-average-interval = ശരാശരി ഇടവേള
 statistics-longest-interval = ഏറ്റവും നീണ്ട ഇടവേള
 statistics-due-tomorrow = അവസാന തീയതി നാളെ
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $total }-ൽ { $amount } ({ $percent }%)
 statistics-average-over-period = കാലയളവിലെ ശരാശരി
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } അവലോകനം / ദിവസം
+       *[other] { $count } അവലോകനങ്ങൾ / ദിവസം
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } മിനിറ്റ്/ദിവസം
+       *[other] { $count } മിനിറ്റുകൾ/ദിവസം
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } കാർഡ്/ദിവസം
+       *[other] { $count } കാർഡുകൾ/ദിവസം
+    }
 statistics-average-ease = ശരാശരി അനായാസം
 statistics-save-pdf = PDF സംരക്ഷിക്കുക
 statistics-saved = സംരക്ഷിച്ചു

@@ -48,13 +48,26 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] അവശേഷിക്കുന്ന പഠന കാർഡ് ഇന്നത്തേക്ക് ഡ്യൂ ആണ്.
+       *[other] അവശേഷിക്കുന്ന { $remaining } പഠന കാർഡുകൾ ഇന്നത്തേക്ക് ഡ്യൂ ആണ്
+    }
 scheduling-congratulations-finished = അഭിനന്ദനങ്ങൾ! നിങ്ങൾ ഇപ്പോഴത്തേക്ക് ഈ ഡെക്ക് പൂർത്തിയാക്കി.
+scheduling-today-review-limit-reached = ഇന്നത്തെ അവലോകന പരിധിയിലെത്തി, പക്ഷേ അവലോകനം ചെയ്യാൻ കാത്തിരിക്കുന്ന കാർഡുകൾ ഇപ്പോഴും ഉണ്ട്. ഒപ്റ്റിമൽ മെമ്മറിയ്ക്കായി, ഓപ്ഷനുകളിൽ ദൈനംദിന പരിധി വർദ്ധിപ്പിക്കുന്നത് പരിഗണിക്കുക.
+scheduling-today-new-limit-reached = കൂടുതൽ പുതിയ കാർഡുകൾ ലഭ്യമാണ്, പക്ഷേ പ്രതിദിന പരിധിയിലെത്തി. ഓപ്‌ഷനുകളിൽ‌ നിങ്ങൾ‌ക്ക് പരിധി വർദ്ധിപ്പിക്കാൻ‌ കഴിയും, പക്ഷേ നിങ്ങൾ‌ കൂടുതൽ‌ പുതിയ കാർ‌ഡുകൾ‌ അവതരിപ്പിക്കുമ്പോൾ‌ നിങ്ങളുടെ ഹ്രസ്വകാല അവലോകന വർ‌ക്ക്ലോഡ് ഉയരുമെന്ന് ദയവായി ഓർമ്മിക്കുക.
+scheduling-buried-cards-found = ഒന്നോ അതിലധികമോ കാർഡുകൾ കുഴിച്ചിട്ടു, അവ നാളെ കാണിക്കും. നിങ്ങൾക്ക് ഉടനടി കാണണമെങ്കിൽ { $unburyThem }-നു സാധിക്കും.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = കുഴിച്ചിട്ടത് തിരിച്ചെടുക്കുക
+scheduling-how-to-custom-study = പതിവ് ഷെഡ്യൂളിന് പുറത്ത് പഠിക്കാൻ നിങ്ങൾ ആഗ്രഹിക്കുന്നുവെങ്കിൽ, നിങ്ങൾക്ക് { $customStudy } സവിശേഷത ഉപയോഗിക്കാം.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = ഇഷ്‌ടാനുസൃത പഠനം
 
 ## Scheduler upgrade
 
+scheduling-update-soon = മുമ്പത്തെ Anki പതിപ്പുകളിലുണ്ടായിരുന്ന നിരവധി പ്രശ്‌നങ്ങൾ പരിഹരിക്കുന്ന ഒരു പുതിയ ഷെഡ്യൂളറുമായി Anki 2.1 വരുന്നു. ഇതിലേക്ക് അപ്‌ഡേറ്റ് ചെയ്യുന്നത് ശുപാർശ ചെയ്യുന്നു.
 scheduling-update-done = ഷെഡ്യൂളർ വിജയകരമായി അപ്‌ഡേറ്റുചെയ്‌തു.
 scheduling-update-button = പുതുക്കുക
 scheduling-update-later-button = പിന്നീട്
@@ -81,6 +94,9 @@ scheduling-interval-modifier = ഇടവേള പരിഷ്കരണി
 scheduling-lapses = വീഴ്ചകൾ
 scheduling-lapses2 = വീഴ്ചകൾ
 scheduling-learning = പഠിച്ചുകൊണ്ടിരിക്കുന്നു
+scheduling-leech-action = ലീച്ച് പ്രവർത്തനം
+scheduling-leech-threshold = ലീച്ച് പരിധി
+scheduling-maximum-interval = പരമാവധി ഇടവേള
 scheduling-maximum-reviewsday = പരമാവധി അവലോകനങ്ങൾ / ദിവസം
 scheduling-minimum-interval = കുറഞ്ഞ ഇടവേള
 scheduling-mix-new-cards-and-reviews = പുതിയ കാർഡുകളും അവലോകനങ്ങളും മിക്സ് ചെയ്യുക
@@ -90,6 +106,7 @@ scheduling-new-interval = പുതിയ ഇടവേള
 scheduling-new-options-group-name = പുതിയ ഓപ്ഷൻ ഗ്രൂപ്പിന്റെ പേര്:
 scheduling-options-group = ഓപ്ഷൻസ് ഗ്രൂപ്പ്:
 scheduling-order = ക്രമം
+scheduling-parent-limit = (പാരന്റ് പരിധി: { $val })
 scheduling-review = അവലോകനം
 scheduling-reviews = അവലോകനങ്ങൾ
 scheduling-seconds = സെക്കന്റുകള്‍
@@ -115,4 +132,13 @@ scheduling-set-due-date-prompt =
     { $cards ->
         [one] എത്ര ദിവസത്തിനുള്ളിൽ കാർഡ് കാണിക്കുക?
        *[other] എത്ര ദിവസത്തിനുള്ളിൽ കാർഡ് കാണിക്കുക?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = ഇന്ന്¶
+    1! = നാളെ + അവലോകന ഇടവേള പുനസജ്ജമാക്കുക¶
+    3-7 = 3-7 ദിവസത്തെ ക്രമരഹിതമായ തിരഞ്ഞെടുപ്പ്
+scheduling-forgot-cards =
+    { $cards ->
+        [one] { $cards } കാർഡ് മറന്നു
+       *[other] { $cards } കാർഡുകൾ മറന്നു
     }
