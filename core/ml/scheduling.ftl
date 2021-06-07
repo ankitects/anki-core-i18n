@@ -48,6 +48,25 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    അടുത്ത പഠന കാർഡ് ഇതിനകം തയ്യാറാകും { $unit ->
+        [seconds]
+            { $amount ->
+                [one] { $amount } സെക്കൻഡ്
+               *[other] { $amount } സെക്കൻഡുകൾ
+            }
+        [minutes]
+            { $amount ->
+                [one] { $amount } മിനിറ്റ്
+               *[other] { $amount } മിനുട്ടുകൾ
+            }
+       *[hours]
+            { $amount ->
+                [one] { $amount } മണിക്കൂർ
+               *[other] { $amount } മണിക്കൂറുകൾ
+            }
+    }.
 scheduling-learn-remaining =
     { $remaining ->
         [one] അവശേഷിക്കുന്ന പഠന കാർഡ് ഇന്നത്തേക്ക് ഡ്യൂ ആണ്.
@@ -137,6 +156,11 @@ scheduling-set-due-date-prompt-hint =
     0 = ഇന്ന്¶
     1! = നാളെ + അവലോകന ഇടവേള പുനസജ്ജമാക്കുക¶
     3-7 = 3-7 ദിവസത്തെ ക്രമരഹിതമായ തിരഞ്ഞെടുപ്പ്
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] { $cards } കാർഡിന്റെ നിശ്ചിത തീയതി സജ്ജമാക്കുക
+       *[other] { $cards } കാർഡുകളുടെ നിശ്ചിത തീയതി സജ്ജമാക്കുക
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] { $cards } കാർഡ് മറന്നു
