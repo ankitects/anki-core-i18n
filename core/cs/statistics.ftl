@@ -226,3 +226,4 @@ statistics-cards-per-day =
 statistics-average-ease = Průměrná snadnost
 statistics-save-pdf = Uložit PDF
 statistics-saved = Uloženo.
+statistics-stats = statistika
