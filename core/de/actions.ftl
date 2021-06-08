@@ -48,6 +48,7 @@ actions-add-notetype = Notiztyp hinzufügen
 actions-remove-notetype = Notiztyp entfernen
 actions-update-notetype = Notiztyp aktualisieren
 actions-update-config = Konfiguration aktualisieren
+actions-card-info = Kar­ten­inf­or­ma­ti­on
 
 ## Flags
 

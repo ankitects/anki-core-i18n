@@ -53,3 +53,4 @@ actions-add-notetype = إضافة نوع ملحوظة
 actions-remove-notetype = حذف نوع ملحوظة
 actions-update-notetype = تحديث نوع ملحوظة
 actions-update-config = تحديث إعداد
+actions-card-info = معلومات البطاقة

@@ -43,3 +43,4 @@ actions-update-card = Atualizar Cartão
 actions-update-deck = Atualizar Baralho
 actions-forget-card = Esquecer Cartão
 actions-update-config = Atualizar Configurações
+actions-card-info = Informação do Cartão

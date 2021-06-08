@@ -31,3 +31,4 @@ actions-search = Buscar
 actions-shortcut-key = Tecla de atajo: { $val }
 actions-suspend-card = Suspender tarjeta
 actions-set-due-date = Establecer fecha de vencimiento
+actions-card-info = Información de la tarjeta

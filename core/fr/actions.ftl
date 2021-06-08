@@ -53,3 +53,4 @@ actions-add-notetype = Ajouter un type de note
 actions-remove-notetype = Enlever le type de note
 actions-update-notetype = Modifier le type de note
 actions-update-config = Modifier la configuration
+actions-card-info = Info carte

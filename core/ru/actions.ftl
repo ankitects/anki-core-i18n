@@ -53,3 +53,4 @@ actions-add-notetype = Добавить тип записи
 actions-remove-notetype = Удалить тип записи
 actions-update-notetype = Обновить тип записи
 actions-update-config = Обновить конфигурацию
+actions-card-info = Сведения о карточке

@@ -37,3 +37,4 @@ actions-shortcut-key = 快捷键: { $val }
 actions-suspend-card = 暂停卡片
 actions-set-due-date = 指定何时到期
 actions-forget = 忘记
+actions-card-info = 卡片信息

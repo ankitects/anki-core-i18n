@@ -52,3 +52,4 @@ actions-expand-collapse = Fairsingigh/Leacaigh
 actions-add-notetype = Cuir Cineál Nótaí Leis
 actions-remove-notetype = Bain Cineál Nótaí
 actions-update-notetype = Nuashonraigh Cineál Nótaí
+actions-card-info = Sonraí Cárta

@@ -37,3 +37,4 @@ actions-shortcut-key = Skrót klawiszowy: { $val }
 actions-suspend-card = Zawieś kartę
 actions-set-due-date = Ustaw termin
 actions-forget = Zapomnij
+actions-card-info = Informacje o karcie
