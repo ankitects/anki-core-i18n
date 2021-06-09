@@ -147,6 +147,7 @@ browsing-added-today = 今天新增
 browsing-again-today = 今天「重來」
 browsing-edited-today = 今天編輯
 browsing-sidebar-first-review = 首次複習
+browsing-sidebar-rescheduled = 已重新排程
 browsing-sidebar-due-today = 今天到期
 browsing-sidebar-untagged = 沒有標籤
 browsing-sidebar-overdue = 逾期
