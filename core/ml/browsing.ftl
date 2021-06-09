@@ -155,6 +155,7 @@ browsing-added-today = ചേർത്തു
 browsing-again-today = വീണ്ടും
 browsing-edited-today = ചിട്ടപ്പെടുത്തി
 browsing-sidebar-first-review = ആദ്യ അവലോകനം
+browsing-sidebar-rescheduled = വീണ്ടും ഷെഡ്യൂൾചെയ്തു
 browsing-sidebar-due-today = അവസാന തീയതി
 browsing-sidebar-untagged = ടാഗ് നീക്കിയവ
 browsing-sidebar-overdue = കാലാവധി കഴിഞ്ഞത്
