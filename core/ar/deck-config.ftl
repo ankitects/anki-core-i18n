@@ -38,7 +38,7 @@ deck-config-limit-new-bound-by-reviews =
 ## New Cards section
 
 deck-config-learning-steps = خطوات التعلم
-# Please don't translate `5m` or `2d`
+# Please don't translate `1m`, `2d`
 -deck-config-delay-hint = يمكن أن تكون الفواصل بوحدة الدقائق ("5m" مثلًا) أو الأيام ("2d" مثلًا).
 deck-config-learning-steps-tooltip =
     فاصل زمني واحد أو أكثر، مفصولة بفراغات. يستخدم الفاصل الأول
@@ -97,15 +97,18 @@ deck-config-new-gather-priority-tooltip =
     يضمن هذا أن البطاقات الأقدم ستظهر أولًا، حتى لو لم يكن
     حد الوالد مرتفعًا كفاية لرؤية بطاقات من كل الرزم.
 deck-config-new-gather-priority-deck = الرزمة
-deck-config-new-gather-priority-position = الموضع
+deck-config-new-gather-priority-position-lowest-first = الموضع (الأصغر أولًا)
+deck-config-new-gather-priority-position-highest-first = الموضع (الأكبر أولًا)
 deck-config-new-card-sort-order = ترتيب فرز البطاقات الجديدة
 deck-config-new-card-sort-order-tooltip =
     كيفية فرز البطاقات بعد جلبها. بشكل افتراضي، يفرز أنكي
     حسب قالب البطاقة أولًا لمنع البطاقات المتعددة لملحوظة واحدة من
     الظهور بالتتابع.
-deck-config-sort-order-card-template-then-position = قالب البطاقة، ثم الموضع
+deck-config-sort-order-card-template-then-lowest-position = قالب البطاقة، ثم الموضع الأصغر
+deck-config-sort-order-card-template-then-highest-position = قالب البطاقة، ثم الموضع الأعلى
 deck-config-sort-order-card-template-then-random = قالب البطاقة، ثم عشوائي
-deck-config-sort-order-position = الموضع (الشقيقات معًا)
+deck-config-sort-order-lowest-position = أصغر موضع
+deck-config-sort-order-highest-position = أعلى موضع
 deck-config-sort-order-random = عشوائي
 deck-config-new-review-priority = أولوية البطاقات الجديدة/المراجعات
 deck-config-new-review-priority-tooltip = وقت إظهار البطاقات الجديدة بالنسبة لبطاقات المراجعة.
@@ -121,6 +124,8 @@ deck-config-review-sort-order-tooltip =
     إذا كان لديك تراكم كبير يأخذ أكثر من عدة أيام لإنهائه، فقد تفضل
     ترتيبات الفرز البديلة.
 deck-config-sort-order-due-date-then-random = تاريخ الاستحقاق، ثم عشوائي
+deck-config-sort-order-due-date-then-deck = تاريخ الاستحقاق، ثم الرزمة
+deck-config-sort-order-deck-then-due-date = الرزمة، ثم تاريخ الاستحقاق
 deck-config-sort-order-ascending-intervals = فواصل متزايدة
 deck-config-sort-order-descending-intervals = فواصل متناقصة
 
@@ -214,3 +219,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = فاصل التخرج يجب أن يكون على الأقل بطول خطوة التعلم الأخيرة.
 deck-config-good-above-easy = يجب أن يكون فاصل البطاقات السهلة على الأقل بطول فاصل التخرج.
 deck-config-relearning-steps-above-minimum-interval = فاصل السقطات الأقصر يجب أن يكون على الأقل بطول خطوة إعادة التعلم الأخيرة.
+
+## Selecting a deck
+
+deck-config-which-deck = ما الرزمة التي تريدها؟

@@ -177,6 +177,7 @@ browsing-added-today = مضافة اليوم
 browsing-again-today = البطاقات المجابة بـ «مجددًا» اليوم
 browsing-edited-today = معدلة اليوم
 browsing-sidebar-first-review = أول مراجعة
+browsing-sidebar-rescheduled = معاد جدولتها
 browsing-sidebar-due-today = مستحقة
 browsing-sidebar-untagged = غير موسوم
 browsing-sidebar-overdue = متأخر
