@@ -31,6 +31,7 @@ actions-shortcut-key = Zkratka: { $val }
 actions-suspend-card = Vyřadit kartu
 actions-set-due-date = Nastavit datum zkoušení
 actions-forget = Zapomenout
+actions-answer-card = Zodpovědět kartu
 actions-unbury-unsuspend = Zrušit přeskočení/vyřazení
 actions-add-deck = Přidat balík
 actions-add-note = Přidat poznámku
@@ -40,6 +41,7 @@ actions-update-card = Aktualizovat kartu
 actions-update-deck = Aktualizovat balík
 actions-forget-card = Zapomenout kartu
 actions-build-filtered-deck = Sestavit balík
+actions-expand-collapse = Rozbalit/sbalit
 actions-add-notetype = Přidat typ poznámky
 actions-remove-notetype = Odstranit typ poznámky
 actions-update-notetype = Aktualizovat typ poznámky
@@ -48,6 +50,7 @@ actions-card-info = Informace o kartě
 
 ## Flags
 
+actions-flag-number = Příznak { $number }
 actions-flag-red = Červený
 actions-flag-orange = Oranžový
 actions-flag-green = Zelený
