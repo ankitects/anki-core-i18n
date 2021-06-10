@@ -102,3 +102,7 @@ scheduling-update-more-info-button = ଅଧିକ ଜାଣନ୍ତୁ
 
 scheduling-new-cards = ନୂତନ କାର୍ଡଗୁଡ଼ିକ
 scheduling-review = ସମୀକ୍ଷା
+scheduling-set-due-date-prompt-hint =
+    0 = ଆଜି
+    1! = ଆସନ୍ତାକାଲି+ସମୀକ୍ଷା ଅନ୍ତରାଳ ପୁନଃସେଟ୍ କର
+    3-7 = 3-7 ଦିନ ଭିତରୁ ଅନିୟମିତ ପସନ୍ଦ
