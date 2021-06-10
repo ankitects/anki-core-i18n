@@ -36,7 +36,7 @@ deck-config-limit-new-bound-by-reviews =
 ## New Cards section
 
 deck-config-learning-steps = Kroky učení
-# Please don't translate `5m` or `2d`
+# Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Zpoždění mohou být v minutách (např. `5m`) nebo dnech (např. `2d`).
 deck-config-learning-steps-tooltip =
     Jedno nebo více zpoždění oddělených mezerami. První zpoždění se použije,
@@ -85,6 +85,7 @@ deck-config-bury-tooltip =
 
 ## Ordering section
 
+deck-config-ordering-title = Pořadí zobrazování
 deck-config-new-gather-priority = Priorita nabírání nových karet
 deck-config-new-gather-priority-tooltip =
     `Balík`: nabírá karty z každého podřízeného balíku v pořadí a přestane, když 
@@ -95,18 +96,22 @@ deck-config-new-gather-priority-tooltip =
     zajistí, že nejstarší karty budou zobrazeny první, a to i když rodičovský limit 
     není dostatečně vysoký, aby se zobrazily karty ze všech balíků.
 deck-config-new-gather-priority-deck = Balík
-deck-config-new-gather-priority-position = Umístění
+deck-config-new-gather-priority-position-lowest-first = Umístění (nejnižší první)
+deck-config-new-gather-priority-position-highest-first = Umístění (nejvyšší první)
 deck-config-new-card-sort-order = Pořadí řazení nových karet
 deck-config-new-card-sort-order-tooltip =
     Jak jsou karty řazeny poté, co byly nabrány. Ve výchozím nastavení, Anki řadí 
     nejdříve podle šablony karty, aby se zabránilo zobrazení více karet stejné 
     poznámky v řadě za sebou.
-deck-config-sort-order-card-template-then-position = Šablona karty, poté umístění
+deck-config-sort-order-card-template-then-lowest-position = Šablona karty, poté nejnižší umístění
+deck-config-sort-order-card-template-then-highest-position = Šablona karty, poté nejvyšší umístění
 deck-config-sort-order-card-template-then-random = Šablona karty, poté náhodně
-deck-config-sort-order-position = Umístění (příbuzné karty spolu)
+deck-config-sort-order-lowest-position = Nejnižší umístění
+deck-config-sort-order-highest-position = Nejvyšší umístění
 deck-config-sort-order-random = Náhodně
 deck-config-new-review-priority = Priorita nové/opakování
 deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu ke kartám k opakování.
+deck-config-interday-step-priority = Priorita učení/opakování v jednom dni
 deck-config-interday-step-priority-tooltip = Kdy zobrazit (znovu) učené karty, které překračují denní limit.
 deck-config-review-mix-mix-with-reviews = Smíchat s opakováním
 deck-config-review-mix-show-after-reviews = Zobrazit po opakování
@@ -118,6 +123,8 @@ deck-config-review-sort-order-tooltip =
     velké množství nevyřízených opakování, která zaberou více, než několik málo 
     dní, můžete shledat alternativní pořadí řazení vhodnější.
 deck-config-sort-order-due-date-then-random = Datum zkoušení, poté náhodně
+deck-config-sort-order-due-date-then-deck = Datum zkoušení, poté balík
+deck-config-sort-order-deck-then-due-date = Balík, poté datum zkoušení
 deck-config-sort-order-ascending-intervals = Intervaly vzestupně
 deck-config-sort-order-descending-intervals = Intervaly sestupně
 
@@ -205,3 +212,6 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Interval absolvování by měl být nejméně stejně dlouhý jako poslední krok učení.
 deck-config-good-above-easy = Snadný interval by měl být nejméně stejně dlouhý jako interval absolvování.
 deck-config-relearning-steps-above-minimum-interval = Minimální interval chyby by měl být nejméně stejně dlouhý jako poslední krok znovu učených.
+
+## Selecting a deck
+
