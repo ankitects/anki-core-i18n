@@ -1,5 +1,4 @@
 actions-add = Přidat
-actions-blue-flag = Modrý příznak
 actions-cancel = Zrušit
 actions-choose = Zvolit
 actions-close = Zavřít
@@ -9,7 +8,6 @@ actions-decks = Balíky
 actions-delete = Smazat
 actions-export = Exportovat
 actions-filter = Filtrovat
-actions-green-flag = Zelený příznak
 actions-help = Nápověda
 actions-import = Importovat
 actions-manage = Spravovat...
@@ -18,10 +16,8 @@ actions-new = Nové
 actions-new-name = Nový název:
 actions-options = Možnosti
 actions-options-for = Možnosti pro { $val }
-actions-orange-flag = Oranžový příznak
 actions-preview = Náhled
 actions-rebuild = Znovu sestavit
-actions-red-flag = Červený příznak
 actions-rename = Přejmenovat
 actions-rename-deck = Přejmenovat balík
 actions-rename-tag = Přejmenovat štítek
@@ -43,9 +39,20 @@ actions-update-note = Aktualizovat poznámku
 actions-update-card = Aktualizovat kartu
 actions-update-deck = Aktualizovat balík
 actions-forget-card = Zapomenout kartu
-actions-set-flag = Nastavit příznak
 actions-build-filtered-deck = Sestavit balík
 actions-add-notetype = Přidat typ poznámky
 actions-remove-notetype = Odstranit typ poznámky
 actions-update-notetype = Aktualizovat typ poznámky
 actions-update-config = Aktualizovat nastavení
+actions-card-info = Informace o kartě
+
+## Flags
+
+actions-flag-red = Červený
+actions-flag-orange = Oranžový
+actions-flag-green = Zelený
+actions-flag-blue = Modrý
+actions-flag-pink = Růžový
+actions-flag-turquoise = Tyrkysový
+actions-flag-purple = Purpurový
+actions-set-flag = Nastavit příznak
