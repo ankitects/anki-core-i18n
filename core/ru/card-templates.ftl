@@ -23,6 +23,7 @@ card-templates-night-mode = Темный режим
 card-templates-add-mobile-class = Как на мобильном
 card-templates-preview-settings = Настройки
 card-templates-invalid-template-number = Проблема с шаблоном карточки { $number }
+card-templates-identical-front = Лицевая сторона идентична шаблону карточки { $number }.
 card-templates-changes-saved = Изменения сохранены.
 card-templates-discard-changes = Отменить изменения?
 card-templates-add-card-type = Добавить тип карточек...
