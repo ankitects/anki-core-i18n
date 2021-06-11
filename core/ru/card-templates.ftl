@@ -24,6 +24,10 @@ card-templates-add-mobile-class = Как на мобильном
 card-templates-preview-settings = Настройки
 card-templates-invalid-template-number = Проблема с шаблоном карточки { $number }
 card-templates-identical-front = Лицевая сторона идентична шаблону карточки { $number }.
+card-templates-no-front-field = Предполагается, что на лицевой стороне шаблона карточки будет отображена замена поля.
+card-templates-missing-cloze = Предполагается, что на лицевой и обратной стороне шаблона карточки будет '{ "{{" }пробел:Текст{ "}}" }' или что-то похожее .
+card-templates-extraneous-cloze = "пробелы:" может использоваться только для типов заметок "заполнить пробелы".
+card-templates-see-preview = Дополнительная информация в предпросмотре.
 card-templates-changes-saved = Изменения сохранены.
 card-templates-discard-changes = Отменить изменения?
 card-templates-add-card-type = Добавить тип карточек...
@@ -42,9 +46,9 @@ card-templates-flip = Перевернуть
 card-templates-form = Форма
 card-templates-off = (выкл.)
 card-templates-on = (вкл.)
-card-templates-remove-card-type = Удалить тип карточек...
-card-templates-rename-card-type = Переименовать тип карточек...
-card-templates-reposition-card-type = Переместить тип карточек...
+card-templates-remove-card-type = Удалить тип карточки...
+card-templates-rename-card-type = Переименовать тип карточки...
+card-templates-reposition-card-type = Переместить тип карточки...
 card-templates-card-count =
     { $count ->
         [one] { $count } карточка
