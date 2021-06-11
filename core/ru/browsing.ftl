@@ -159,6 +159,7 @@ browsing-added-today = Добавлено
 browsing-again-today = Снова
 browsing-edited-today = Отредактировано
 browsing-sidebar-first-review = Первый просмотр
+browsing-sidebar-rescheduled = Перенесено
 browsing-sidebar-due-today = Пора
 browsing-sidebar-untagged = Без метки
 browsing-sidebar-overdue = Просрочено
