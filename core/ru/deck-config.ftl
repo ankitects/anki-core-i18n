@@ -102,6 +102,7 @@ deck-config-advanced-title = Дополнительно
 
 ## Adding/renaming
 
+deck-config-name-prompt = Название
 
 ## Removing
 

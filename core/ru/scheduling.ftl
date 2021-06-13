@@ -106,10 +106,10 @@ scheduling-buried-cards-found = Одна или несколько карточ�
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = вернуть их
-scheduling-how-to-custom-study = Хотите заниматься вне основного расписания, воспользуйтесь функцией { $customStudy }.
+scheduling-how-to-custom-study = Если вы хотите заниматься вне расписания, начните { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
-scheduling-custom-study = пользовательского изучения
+scheduling-custom-study = дополнительное занятие
 
 ## Scheduler upgrade
 
