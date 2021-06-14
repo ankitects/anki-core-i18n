@@ -13,12 +13,12 @@ statistics-average-answer-time = { $average-seconds } 秒 ({ statistics-cards-pe
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
-statistics-in-time-span-seconds = { $amount }秒后
+statistics-in-time-span-seconds = { $amount }秒内
 statistics-in-time-span-minutes = { $amount }分钟后
 statistics-in-time-span-hours = { $amount }小时后
-statistics-in-time-span-days = { $amount }天后
-statistics-in-time-span-months = { $amount }月后
-statistics-in-time-span-years = { $amount }年后
+statistics-in-time-span-days = { $amount }天内
+statistics-in-time-span-months = { $amount }月内
+statistics-in-time-span-years = { $amount }年内
 statistics-cards = { $cards }张卡片
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews } 次复习
@@ -85,9 +85,9 @@ statistics-in-days-single =
     { $days ->
         [0] 今天
         [1] 明天
-       *[other] { $days }天后
+       *[other] { $days }天内
     }
-statistics-in-days-range = { $daysStart }－{ $daysEnd }天后
+statistics-in-days-range = { $daysStart }－{ $daysEnd }天内
 statistics-days-ago-single =
     { $days ->
         [1] 昨天
