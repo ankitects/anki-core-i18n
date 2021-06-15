@@ -103,7 +103,7 @@ scheduling-buried-cards-found = Jedna nebo více karet byly přeskočeny a budou
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = zrušit přeskočení
-scheduling-how-to-custom-study = Jestliže chcete studovat mimo pravidelné plánování, můžete použít funkci { $customStudy }.
+scheduling-how-to-custom-study = Jestliže chcete studovat mimo pravidelný plán, můžete použít funkci { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = vlastní studium

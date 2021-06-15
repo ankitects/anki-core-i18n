@@ -107,6 +107,7 @@ browsing-toggle-showing-cards-notes = Přepnout zobrazení Karet/Poznámek
 browsing-toggle-mark = Přepnout označení
 browsing-toggle-suspend = Přepnout vyřazení
 browsing-treat-input-as-regular-expression = Pokládat vstup za regulární výraz
+browsing-update-saved-search = Aktualizovat současným hledáním
 browsing-whole-collection = Celá kolekce
 browsing-window-title-notes = Prohlížet ({ $selected } z { $total } poznámek vybráno)
 browsing-you-must-have-at-least-one = Je třeba alespoň jeden sloupec.

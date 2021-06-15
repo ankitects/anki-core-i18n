@@ -21,6 +21,9 @@ card-templates-night-mode = Noční režim
 card-templates-add-mobile-class = Zobrazit jako na mobilu
 card-templates-preview-settings = Možnosti
 card-templates-invalid-template-number = Šablona karty { $number } má problém.
+card-templates-identical-front = Přední strana je stejná jako šablona karty { $number }.
+card-templates-extraneous-cloze = „doplňovačka:“ lze použít pouze na typu poznámek doplňovačka.
+card-templates-see-preview = Pro více informací viz náhled.
 card-templates-changes-saved = Změny uloženy.
 card-templates-discard-changes = Zahodit změny?
 card-templates-add-card-type = Přidat typ karty...
@@ -45,7 +48,7 @@ card-templates-reposition-card-type = Změnit pořadí typu karty...
 card-templates-card-count =
     { $count ->
         [one] { $count } karta
-        [few] { $count } karet
+        [few] { $count } karty
        *[other] { $count } karet
     }
 card-templates-this-will-create-card-proceed =
