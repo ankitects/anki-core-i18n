@@ -86,14 +86,17 @@ deck-config-new-gather-priority-tooltip =
     `順序`：從未整理前的所有牌組收集卡片。這會確保即便上層牌組的
     上限不夠高，無法顯示所有牌組的卡片，最舊的卡片也能最先顯示。
 deck-config-new-gather-priority-deck = 牌組
-deck-config-new-gather-priority-position = 順序
+deck-config-new-gather-priority-position-lowest-first = 順序（最低的最早）
+deck-config-new-gather-priority-position-highest-first = 順序（最高的最早）
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip =
     卡片被收集後的排序方法。在預設設定下，Anki 先按照卡片模板排序，
     以避免相同筆記的多張卡片連續出現。
-deck-config-sort-order-card-template-then-position = 先按照卡片模板，然後按照順序
+deck-config-sort-order-card-template-then-lowest-position = 先按照卡片模板，然後按照最低順序
+deck-config-sort-order-card-template-then-highest-position = 先按照卡片模板，然後按照最高順序
 deck-config-sort-order-card-template-then-random = 先按照卡片模板，然後隨機
-deck-config-sort-order-position = 順序（關聯卡片會在一起）
+deck-config-sort-order-lowest-position = 最低順序
+deck-config-sort-order-highest-position = 最高順序
 deck-config-sort-order-random = 隨機
 deck-config-new-review-priority = 新卡片/複習卡優先順序
 deck-config-new-review-priority-tooltip = 新卡片在複習卡之前還是之後顯示。
