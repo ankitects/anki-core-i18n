@@ -10,6 +10,7 @@ studying-continue = ଜାରି ରଖନ୍ତୁ
 studying-delete-note = ନୋଟ୍ ଅପସାରଣ କରନ୍ତୁ
 studying-easy = ସହଜ
 studying-edit = ସମ୍ପାଦନା
+studying-empty = ଖାଲି
 studying-finish = ସମାପ୍ତ
 studying-flag-card = କାର୍ଡକୁ ଏକ ପତାକା ନ୍ୟସ୍ତ କରନ୍ତୁ
 studying-good = ଭଲ
