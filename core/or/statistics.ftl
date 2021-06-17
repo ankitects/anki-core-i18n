@@ -1,3 +1,5 @@
+# The date a card will be ready to review
+statistics-due-date = ଧାର୍ଯ୍ୟ ତାରିଖ
 # The count of cards waiting to be reviewed
 statistics-due-count = ବାକି ଅଛି
 # Shown in the Due column of the Browse screen when the card is a new card
@@ -71,6 +73,7 @@ statistics-studied-today =
 statistics-seconds-taken = { $seconds }ସେ
 statistics-today-title = ଆଜି
 statistics-today-again-count = ପୁନର୍ବାର ଗଣନା:
+statistics-today-type-counts = ଶିଖୁଛନ୍ତି: { $learnCount }, ସମୀକ୍ଷା: { $reviewCount }, ପୁନଃ ଶିକ୍ଷାଧିନ: { $relearnCount }, ଶୋଧିତ: { $filteredCount }
 statistics-today-no-cards = ଆଜି କୌଣସି କାର୍ଡ ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
 statistics-today-no-mature-cards = ଆଜି କୌଣସି ପରିପକ୍ୱ କାର୍ଡ ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
 statistics-today-correct-mature = ପରିପକ୍ୱ ପତ୍ରଗୁଡ଼ିକରେ ସଠିକ୍ ଉତ୍ତର ଶତକଡ଼ା: { $correct }/{ $total } ({ $percent }%)
@@ -93,6 +96,14 @@ statistics-range-collection = ସଂଗ୍ରହ
 statistics-range-search = ସନ୍ଧାନ
 statistics-card-ease-title = କାର୍ଡ ସହଜତା
 statistics-card-ease-subtitle = ସହଜତା ଯେତେ କମ୍ ହେବ, ଏକ କାର୍ଡ ସେତେ ଅଧିକ ଥର ଦୃଶ୍ୟମାନ ହେବ।
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] { $percent } ସହଜତା ସହିତ { $cards }ଟିଏ ପତ୍ର
+       *[other] { $percent } ସହଜତା ସହିତ { $cards }ଟି ପତ୍ର
+    }
+statistics-future-due-title = ଭବିଷ୍ୟତ ଦେୟ
+statistics-future-due-subtitle = ଭବିଷ୍ୟତରେ ଧାର୍ଯ୍ୟ ସମୀକ୍ଷା ସଂଖ୍ୟା।
 statistics-added-subtitle = ଆପଣ ଯୋଡିଥିବା ନୂତନ କାର୍ଡ ସଂଖ୍ୟା।
 statistics-reviews-count-subtitle = ଆପଣ ଉତ୍ତର ଦେଇଥିବା ପ୍ରଶ୍ନର ସଂଖ୍ୟା।
 statistics-reviews-time-subtitle = ପ୍ରଶ୍ନଗୁଡ଼ିକର ଉତ୍ତର ଦେବାକୁ ନିଆଯାଇଥିବା ସମୟ।
@@ -102,9 +113,45 @@ statistics-answer-buttons-button-number = ବଟନ୍
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = କେତେଥର ଦବାଗଲା
 statistics-answer-buttons-subtitle = ଆପଣ ପ୍ରତ୍ୟେକ ବଟନ୍ କୁ କେତେଥର ଦବାଇଛନ୍ତି।
+statistics-reviews-title = ସମୀକ୍ଷା
 statistics-reviews-time-checkbox = ସମୟ
+statistics-in-days-single =
+    { $days ->
+        [0] ଆଜି
+        [1] ଆସନ୍ତାକାଲି
+       *[other] { $days } ଦିନ ମଧ୍ୟରେ
+    }
+statistics-in-days-range = { $daysStart }-{ $daysEnd } ଦିନରେ
+statistics-days-ago-single =
+    { $days ->
+        [1] ଗତକାଲି
+       *[other] { $days } ଦିନ ପୂର୍ବେ
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } ଦିନ ପୂର୍ବେ
+statistics-running-total = ଚାଲୁଥିବା ସମୁଦାୟ
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards }ଟିଏ ପତ୍ର ବାକି ଅଛି
+       *[other] { $cards }ଟି ପତ୍ର ବାକି ଅଛି
+    }
+statistics-backlog-checkbox = ବ୍ୟାକ୍‍‌ଲଗ୍
+statistics-intervals-title = ସମୀକ୍ଷା ଅନ୍ତରାଳ
+statistics-intervals-subtitle = ସମୀକ୍ଷାଗୁଡ଼ିକ ପୁନର୍ବାର ଦେଖାଯିବା ପର୍ଯ୍ୟନ୍ତ ବିଳମ୍ବ।
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $daysStart }~{ $daysEnd } ଦିନ ବ୍ୟବଧାନ ସହିତ { $cards }ଟିଏ ପତ୍ର
+       *[other] { $daysStart }~{ $daysEnd } ଦିନ ବ୍ୟବଧାନ ସହିତ { $cards }ଟି ପତ୍ର
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $day } ଦିନ ବ୍ୟବଧାନ ସହିତ { $cards }ଟିଏ ପତ୍ର
+       *[other] { $day } ଦିନ ବ୍ୟବଧାନ ସହିତ { $cards }ଟି ପତ୍ର
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00 ରୁ
 statistics-hours-correct = { $correct }/{ $total } ଠିକ୍‌ ({ $percent }%)
 statistics-hours-title = ଘଣ୍ଟାକ୍ରମେ ଦେଖିବା
+statistics-hours-subtitle = ଦିନର ପ୍ରତ୍ୟେକ ଘଣ୍ଟା ପାଇଁ ସମୀକ୍ଷା ସଫଳତା ହାର।
 # shown when graph is empty
 statistics-no-data = କୌଣସି ଡାଟା ନାହିଁ
 statistics-calendar-title = କ୍ୟାଲେଣ୍ଡର୍
@@ -134,6 +181,22 @@ statistics-longest-interval = ଦୀର୍ଘତମ ଅନ୍ତରାଳ
 statistics-due-tomorrow = ଆସନ୍ତାକାଲି ପାଇଁ ବାକି
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total } ରୁ { $amount } ({ $percent }%)
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } ସମୀକ୍ଷା/ଦିନ
+       *[other] { $count }ଟି ସମୀକ୍ଷା/ଦିନ
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } ମିନିଟ୍/ଦିନ
+       *[other] { $count } ମିନିଟ୍/ଦିନ
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count }ଟିଏ ପତ୍ର/ଦିନ
+       *[other] { $count }ଟି ପତ୍ର/ଦିନ
+    }
+statistics-average-ease = ହାରାହାରି ସହଜତା
 statistics-save-pdf = PDF ସଂରକ୍ଷଣ କରନ୍ତୁ
 statistics-saved = ସଞ୍ଚୟ ହୋଇଛି।
 statistics-stats = ପରିସଂଖ୍ୟାନ
