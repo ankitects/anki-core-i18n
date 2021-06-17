@@ -46,6 +46,12 @@ statistics-cards =
         [one] { $cards }ଟିଏ କାର୍ଡ
        *[other] { $cards }ଟି କାର୍ଡ
     }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews }ଟିଏ ସମୀକ୍ଷା
+       *[other] { $reviews }ଟି ସମୀକ୍ଷା
+    }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -67,6 +73,8 @@ statistics-today-title = ଆଜି
 statistics-today-again-count = ପୁନର୍ବାର ଗଣନା:
 statistics-today-no-cards = ଆଜି କୌଣସି କାର୍ଡ ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
 statistics-today-no-mature-cards = ଆଜି କୌଣସି ପରିପକ୍ୱ କାର୍ଡ ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
+statistics-today-correct-mature = ପରିପକ୍ୱ ପତ୍ରଗୁଡ଼ିକରେ ସଠିକ୍ ଉତ୍ତର ଶତକଡ଼ା: { $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = ସମୁଦାୟ
 statistics-counts-new-cards = ନୂତନ
 statistics-counts-young-cards = ଯୁବ
 statistics-counts-mature-cards = ପରିପକ୍ୱ
@@ -95,6 +103,7 @@ statistics-answer-buttons-button-number = ବଟନ୍
 statistics-answer-buttons-button-pressed = କେତେଥର ଦବାଗଲା
 statistics-answer-buttons-subtitle = ଆପଣ ପ୍ରତ୍ୟେକ ବଟନ୍ କୁ କେତେଥର ଦବାଇଛନ୍ତି।
 statistics-reviews-time-checkbox = ସମୟ
+statistics-hours-correct = { $correct }/{ $total } ଠିକ୍‌ ({ $percent }%)
 statistics-hours-title = ଘଣ୍ଟାକ୍ରମେ ଦେଖିବା
 # shown when graph is empty
 statistics-no-data = କୌଣସି ଡାଟା ନାହିଁ
@@ -116,12 +125,15 @@ statistics-elapsed-time-years = { $amount }ବ
 ##
 
 statistics-average-for-days-studied = ଅଧ୍ୟୟନ କରାଯାଇଥିବା ଦିନଗୁଡ଼ିକ ପାଇଁ ହାରାହାରି
+statistics-total = ମୋଟ
 statistics-days-studied = ଅଧ୍ୟୟନ ଦିନସଂଖ୍ୟା
 statistics-average-answer-time-label = ହାରାହାରି ଉତ୍ତର ସମୟ
 statistics-average = ହାରାହାରି
 statistics-average-interval = ହାରାହାରି ଅନ୍ତରାଳ
 statistics-longest-interval = ଦୀର୍ଘତମ ଅନ୍ତରାଳ
 statistics-due-tomorrow = ଆସନ୍ତାକାଲି ପାଇଁ ବାକି
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $total } ରୁ { $amount } ({ $percent }%)
 statistics-save-pdf = PDF ସଂରକ୍ଷଣ କରନ୍ତୁ
 statistics-saved = ସଞ୍ଚୟ ହୋଇଛି।
 statistics-stats = ପରିସଂଖ୍ୟାନ
