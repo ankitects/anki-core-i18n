@@ -153,6 +153,7 @@ browsing-added-today = Heute hinzugefügt
 browsing-again-today = Heute fehlgeschlagen
 browsing-edited-today = Bearbeitet
 browsing-sidebar-first-review = Erste Wiederholung
+browsing-sidebar-rescheduled = Umgeplant
 browsing-sidebar-due-today = Fällig
 browsing-sidebar-untagged = Unmarkiert
 browsing-sidebar-overdue = Überfällig
