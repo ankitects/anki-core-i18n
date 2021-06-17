@@ -104,6 +104,7 @@ statistics-card-ease-tooltip =
     }
 statistics-future-due-title = ଭବିଷ୍ୟତ ଦେୟ
 statistics-future-due-subtitle = ଭବିଷ୍ୟତରେ ଧାର୍ଯ୍ୟ ସମୀକ୍ଷା ସଂଖ୍ୟା।
+statistics-added-title = ଯୋଡ଼ାଯାଇଛି
 statistics-added-subtitle = ଆପଣ ଯୋଡିଥିବା ନୂତନ କାର୍ଡ ସଂଖ୍ୟା।
 statistics-reviews-count-subtitle = ଆପଣ ଉତ୍ତର ଦେଇଥିବା ପ୍ରଶ୍ନର ସଂଖ୍ୟା।
 statistics-reviews-time-subtitle = ପ୍ରଶ୍ନଗୁଡ଼ିକର ଉତ୍ତର ଦେବାକୁ ନିଆଯାଇଥିବା ସମୟ।
@@ -181,6 +182,7 @@ statistics-longest-interval = ଦୀର୍ଘତମ ଅନ୍ତରାଳ
 statistics-due-tomorrow = ଆସନ୍ତାକାଲି ପାଇଁ ବାକି
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total } ରୁ { $amount } ({ $percent }%)
+statistics-average-over-period = ଅବଧି ମଧ୍ୟରେ ହାରାହାରି
 statistics-reviews-per-day =
     { $count ->
         [one] { $count } ସମୀକ୍ଷା/ଦିନ

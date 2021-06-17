@@ -30,6 +30,10 @@ deck-config-new-insertion-order = ସନ୍ନିବେଶ କ୍ରମ
 
 ## Ordering section
 
+deck-config-new-card-sort-order = ନୂତନ ପତ୍ର ସଜାଇବା କ୍ରମ
+deck-config-review-mix-mix-with-reviews = ସମୀକ୍ଷାଗୁଡ଼ିକ ସହ ମିଶ୍ରଣ କରନ୍ତୁ
+deck-config-review-mix-show-after-reviews = ସମୀକ୍ଷା ପରେ ଦେଖାନ୍ତୁ
+deck-config-review-mix-show-before-reviews = ସମୀକ୍ଷା ପୂର୍ବରୁ ଦେଖାନ୍ତୁ
 
 ## Timer section
 
