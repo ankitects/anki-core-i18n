@@ -111,3 +111,8 @@ scheduling-set-due-date-prompt-hint =
     0 = ଆଜି
     1! = ଆସନ୍ତାକାଲି+ସମୀକ୍ଷା ଅନ୍ତରାଳ ପୁନଃସେଟ୍ କର
     3-7 = 3-7 ଦିନ ଭିତରୁ ଅନିୟମିତ ପସନ୍ଦ
+scheduling-forgot-cards =
+    { $cards ->
+        [one] { $cards }ଟିଏ ପତ୍ର ଭୁଲିଯାଇଛି।
+       *[other] { $cards }ଟି ପତ୍ର ଭୁଲିଯାଇଛି।
+    }

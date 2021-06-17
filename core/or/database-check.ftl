@@ -5,6 +5,16 @@ database-check-missing-templates =
         [one] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟିଏ କାର୍ଡ ବିଲୋପ କରାଯାଇଛି।
        *[other] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟି କାର୍ଡ ବିଲୋପ କରାଯାଇଛି।
     }
+database-check-card-missing-note =
+    { $count ->
+        [one] ନିଖୋଜ ନୋଟ୍ ସହିତ { $count }ଟିଏ ପତ୍ର ବିଲୋପ କରାଯାଇଛିି।
+       *[other] ନିଖୋଜ ନୋଟ୍ ସହିତ { $count }ଟି ପତ୍ର ବିଲୋପ କରାଯାଇଛିି।
+    }
+database-check-duplicate-card-ords =
+    { $count ->
+        [one] ନକଲି ଟେମ୍ପଲେଟ୍ ସହ { $count }ଟିଏ ପତ୍ର ବିଲୋପ ହୋଇଛି।
+       *[other] ନକଲି ଟେମ୍ପଲେଟ୍ ସହ { $count }ଟି ପତ୍ର ବିଲୋପ ହୋଇଛି।
+    }
 
 ## Progress info
 
