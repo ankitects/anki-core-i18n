@@ -101,7 +101,12 @@ scheduling-update-more-info-button = ଅଧିକ ଜାଣନ୍ତୁ
 ## Other scheduling strings
 
 scheduling-new-cards = ନୂତନ କାର୍ଡଗୁଡ଼ିକ
+scheduling-new-cardsday = ନୂତନ ପତ୍ର/ଦିନ
 scheduling-review = ସମୀକ୍ଷା
+scheduling-show-new-cards-after-reviews = ସମୀକ୍ଷା ପରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
+scheduling-show-new-cards-before-reviews = ସମୀକ୍ଷା ପୂର୍ବରୁ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
+scheduling-show-new-cards-in-order-added = ଯୋଡ଼ାଯାଇଥିବା କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
+scheduling-show-new-cards-in-random-order = ଅନିୟମିତ କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-set-due-date-prompt-hint =
     0 = ଆଜି
     1! = ଆସନ୍ତାକାଲି+ସମୀକ୍ଷା ଅନ୍ତରାଳ ପୁନଃସେଟ୍ କର

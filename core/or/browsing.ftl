@@ -99,6 +99,12 @@ browsing-notes-updated =
         [one] { $count }ଟିଏ ନୋଟ୍ ଅଦ୍ୟତନ ହୋଇଛି।
        *[other] { $count }ଟି ନୋଟ୍ ଅଦ୍ୟତନ ହୋଇଛି।
     }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count }ଟିଏ ପତ୍ର ଅପଡେଟ୍ ହୋଇଛି।
+       *[other] { $count }ଟି ପତ୍ର ଅପଡେଟ୍ ହୋଇଛି।
+    }
+browsing-window-title = ବ୍ରାଉଜ୍ କରନ୍ତୁ ({ $total }ଟି ପତ୍ରମଧ୍ୟରୁ { $selected }ଟି ମନୋନୀତ)
 browsing-sidebar-expand = ବିସ୍ତାର କରନ୍ତୁ
 browsing-sidebar-collapse = ସଂକୋଚନ କରନ୍ତୁ
 browsing-sidebar-decks = ଡେକଗୁଡ଼ିକ

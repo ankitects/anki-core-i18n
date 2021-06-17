@@ -1,8 +1,8 @@
 custom-study-must-rename-deck = ଦୟାକରି ପ୍ରଥମେ ବିଦ୍ୟମାନ ଇଚ୍ଛାରୂପିତ ଅଧ୍ୟୟନ ଡେକ୍ ର ନାମ ପରିବର୍ତ୍ତନ କରନ୍ତୁ।
 custom-study-all-cards-in-random-order-dont = ସମସ୍ତ କାର୍ଡ ଅନିୟମିତ କ୍ରମରେ (ପୁନଃନିର୍ଦ୍ଧାରଣ କରନ୍ତୁ ନାହିଁ)
 custom-study-all-review-cards-in-random-order = ସମସ୍ତ ସମୀକ୍ଷା କାର୍ଡଗୁଡ଼ିକ ଅନିୟମିତ କ୍ରମରେ
-custom-study-cards = କାର୍ଡଗୁଡ଼ିକ
-custom-study-cards-from-the-deck = ଡେକ୍ ରୁ କାର୍ଡ
+custom-study-cards = ପତ୍ରଗୁଡ଼ିକ
+custom-study-cards-from-the-deck = ଡେକ୍ ରୁ ପତ୍ରଗୁଡ଼ିକ
 custom-study-choose-tags = ଟ୍ୟାଗ୍ ବାଛନ୍ତୁ
 custom-study-custom-study-session = ଇଚ୍ଛାରୂପିତ ଅଧ୍ୟୟନ ଅଧିବେଶନ
 custom-study-increase-todays-new-card-limit = ଆଜିର ନୂତନ କାର୍ଡ ସୀମା ବୃଦ୍ଧି କରନ୍ତୁ

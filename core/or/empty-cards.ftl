@@ -5,9 +5,9 @@ empty-cards-preserve-notes-checkbox = କୌଣସି ବୈଧ କାର୍ଡ 
 empty-cards-delete-button = ଅପସାରଣ କରନ୍ତୁ
 empty-cards-not-found = କୌଣସି ଖାଲି କାର୍ଡ ନାହିଁ।
 empty-cards-deleted-count =
-    ଅପସାରଣ କରାଯାଇଛି { $cards ->
-        [one] { $cards } କାର୍ଡ
-       *[other] { $cards }ଟି କାର୍ଡ
+    { $cards ->
+        [one] { $cards }ଟିଏ ପତ୍ର ବିଲୋପ ହେଲା।
+       *[other] { $cards }ଟି ପତ୍ର ବିଲୋପ ହେଲା।
     }
 empty-cards-delete-empty-cards = ଖାଲି କାର୍ଡଗୁଡ଼ିକୁ ଅପସାରଣ କରନ୍ତୁ
 empty-cards-delete-empty-notes = ଖାଲି ନୋଟଗୁଡ଼ିକୁ ଅପସାରଣ କରନ୍ତୁ

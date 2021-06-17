@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+
+## Top section
+
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
@@ -16,11 +19,16 @@ deck-config-daily-limits = ଦୈନିକ ସୀମା
 
 ## New Cards section
 
+deck-config-learning-steps = ଶିଖିବା ପଦକ୍ଷେପ
+deck-config-new-insertion-order = ସନ୍ନିବେଶ କ୍ରମ
 
 ## Lapses section
 
 
 ## Burying section
+
+
+## Ordering section
 
 
 ## Timer section
@@ -52,7 +60,6 @@ deck-config-name-prompt = ନାମ:
 
 deck-config-remove-group = ଗୋଷ୍ଠୀ ଅପସାରଣ କରନ୍ତୁ
 deck-config-confirm-normal = { $name } କୁ ଅପସାରଣ କରିବେ କି?
--deck-config-will-require-full-sync = ଏହା ଏକପାଖିଆ ସିଙ୍କ ଆବଶ୍ୟକ କରିବ।
 
 ## Other Buttons
 
@@ -64,4 +71,7 @@ deck-config-description-markdown = Markdown+clean HTML ସକ୍ଷମ କରନ
 deck-config-description-markdown-hint = Anki 2.1.40 ଏବଂ ତା'ଠାରୁ କମ୍ ରେ ପାଠ୍ୟ ଭାବରେ ଦୃଶ୍ୟମାନ ହେବ।
 
 ## Warnings shown to the user
+
+
+## Selecting a deck
 
