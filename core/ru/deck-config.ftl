@@ -32,6 +32,10 @@ deck-config-learning-steps-tooltip = Одна и более отсрочки, о
 deck-config-graduating-interval-tooltip = Количество дней до того, как карточка будет показана снова, после нажатия варианта "Хорошо" на заключительном этапе обучения.
 deck-config-easy-interval-tooltip = Количество дней до того, как карточка появится снова, после выбора варианта "Легко" для того, чтобы моментально убрать карточку из списка обучения.
 deck-config-new-insertion-order = Порядок введения
+deck-config-new-insertion-order-tooltip =
+    Управляет очередью (пора #), в которую ставятся новые карточки при их добавлении.¶
+    Карточки с меньшим номером будут показаны первыми во время изучения. Изменение
+    этой опции автоматически обновит существующую последовательность показа новых карточек.
 deck-config-new-insertion-order-sequential = Последовательный (сначала старые карточки)
 deck-config-new-insertion-order-random = Случайный
 
@@ -57,18 +61,26 @@ deck-config-bury-tooltip = Будут ли другие карточки той 
 
 deck-config-ordering-title = Порядок отображения
 deck-config-new-gather-priority = Приоритет сбора новых карточек
+deck-config-new-gather-priority-tooltip =
+    `Колода`: собирает карточки из всех внутренних колод по порядку и останавливается как только
+    превышен лимит, установленной в выбранной колоде. Это быстрее и позволяет 
+    отдать предпочтение внутренним колодам, которые ближе к вершине.¶
+    ¶
+    `Очередь`: собирает карточки из всех колод до их сортировки. Благодаря
+    этому карточки отображаются в строгом порядке, даже если лимит материнской
+    колоды недостаточно высок, чтобы показывать карточки из всех колод.
 deck-config-new-gather-priority-deck = Колода
 deck-config-new-gather-priority-position-lowest-first = Позиция (сначала самая нижняя)
 deck-config-new-gather-priority-position-highest-first = Позиция (сначала самая верхняя)
 deck-config-new-card-sort-order = Порядок сортировки новых карточек
-deck-config-new-card-sort-order-tooltip = Сортировка карточек после их сбора. По умолчанию Anki сортирует сначала по шаблону карточки, чтобы избежать последовательного отображения нескольких карточек одной и той же заметки.
-deck-config-sort-order-card-template-then-lowest-position = Шаблон карточки, затем самая нижняя позиция
-deck-config-sort-order-card-template-then-highest-position = Шаблон карточки, затем самая верхняя позиция
+deck-config-new-card-sort-order-tooltip = Сортировка карточек после их сбора. По умолчанию, Anki сортирует¶ сначала по шаблону карточки, чтобы избежать последовательного отображения¶ нескольких карточек одной и той же заметки.
+deck-config-sort-order-card-template-then-lowest-position = Шаблон карточки, затем начало очереди
+deck-config-sort-order-card-template-then-highest-position = Шаблон карточки, затем конец очереди
 deck-config-sort-order-card-template-then-random = Шаблон карточки, затем произвольно
-deck-config-sort-order-lowest-position = Самая нижняя позиция
-deck-config-sort-order-highest-position = Самая верхняя позиция
+deck-config-sort-order-lowest-position = Начало очереди
+deck-config-sort-order-highest-position = Конец очереди
 deck-config-sort-order-random = Произвольно
-deck-config-new-review-priority = Приоритет нового/проверки
+deck-config-new-review-priority = Приоритет новых/проверочных
 deck-config-new-review-priority-tooltip = Когда показывать новые карточки в зависимости от карточек проверки.
 deck-config-interday-step-priority = Приоритет изучения/проверки в течение дня
 deck-config-interday-step-priority-tooltip = Когда показывать карточки (повторного) изучения, завершенные сразу после полуночи.
@@ -99,16 +111,46 @@ deck-config-always-include-question-audio-tooltip = Стоит ли добави
 ## Advanced section
 
 deck-config-advanced-title = Дополнительно
+deck-config-maximum-interval-tooltip =
+    Максимальное число дней ожидания карточки проверки. Когда количество проверок¶
+    достигнет предела, кнопки "Трудно", "Хорошо" и "Легко" станут откладывать карточки на одинаковое время.¶
+    Чем короче это время, тем больше нагрузки на ученика.
+deck-config-starting-ease-tooltip =
+    Множитель легкости, с которого начинаются новые карточки. По умолчанию, кнопка "Хорошо", выбранная на
+    недавно изученной карточке, отложит её проверку на время в 2,5 раза больше предыдущей задержки.
+deck-config-easy-bonus-tooltip =
+    Дополнительный множитель, который применяется к интервалу проверочной карточки при выборе¶
+    кнопка "Легко".
+deck-config-interval-modifier-tooltip =
+    Этот множитель применяется ко всем проверочным карточкам; с помощью небольших изменений
+    планирование Anki станет менее или более жестким.  Пожалуйста, ознакомьтесь
+    с руководством до того, как менять эту опцию.
+deck-config-hard-interval-tooltip = Множитель применяется к интервалу проверки при нажатии кнопки "Трудно".
+deck-config-new-interval-tooltip = Множитель применяется к интервалу проверки при нажатии кнопки "Снова".
+deck-config-minimum-interval-tooltip = Минимальный интервал, применяемый к карточке проверки при нажатии кнопки "Снова".
 
 ## Adding/renaming
 
+deck-config-add-group = Добавить предустановку
 deck-config-name-prompt = Название
+deck-config-rename-group = Переименовать предустановку
+deck-config-clone-group = Клонировать предустановку
 
 ## Removing
 
+deck-config-remove-group = Удалить предустановку
+deck-config-confirm-normal = Удалить { $name }?
+deck-config-will-require-full-sync =
+    Запрошенное изменение потребует односторонней синхронизации. Если изменения внесены
+    на другом устройстве и еще не были синхронизированы с данным устройством, синхронизация
+    необходима.
+deck-config-confirm-remove-name = Удалить { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Сохранить
+deck-config-save-to-all-subdecks = Сохранить во все внутренние колоды
+deck-config-revert-button-tooltip = Вернуть параметр к значению по умолчанию.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -118,6 +160,20 @@ deck-config-description-markdown-hint = Будет отображаться ка
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Лимит материнской колоды{ $cards ->
+        [one] { $cards } карточка
+        [few] { $cards } карточки(ек)
+       *[other] { $cards } карточек
+    }, которое отменит данный лимит.
+deck-config-reviews-too-low =
+    При добавлении{ $cards ->
+        [one] { $cards } новой карточки в день
+        [few] { $cards } новых карточек в день
+       *[other] { $cards } новых карточек в день
+    }, лимит карточек проверки должен быть не менее { $expected }.
+deck-config-learning-step-above-graduating-interval = Интервал окончания должен как минимум равняться завершающему шагу обучения.
+deck-config-good-above-easy = Легкий интервал должен как минимум равняться интервалу окончания.
 deck-config-relearning-steps-above-minimum-interval = Минимальное время перерыва не должно быть короче заключительного шага в повторном изучении.
 
 ## Selecting a deck
