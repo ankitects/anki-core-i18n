@@ -7,3 +7,5 @@ adding-note-deleted = (Notiz gelöscht)
 adding-shortcut = Tastenkürzel: { $val }
 adding-the-first-field-is-empty = Das erste Feld ist leer.
 adding-you-have-a-cloze-deletion-note = 'Lückentext' als Notiztyp gewählt, aber keinen Lückentext eingegeben. Trotzdem fortfahren?
+adding-cloze-outside-cloze-notetype = Lückentexte können nur bei Lückentext-Notiztypen verwendet werden.
+adding-cloze-outside-cloze-field = Lückentexte können nur in Feldern benutzt werden, die den Filter 'cloze:' benutzen. Das ist normalerweise das erste Feld.

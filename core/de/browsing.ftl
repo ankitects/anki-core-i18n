@@ -27,6 +27,7 @@ browsing-change-deck = Verschieben
 browsing-change-deck2 = In einen anderen Stapel verschieben…
 browsing-change-note-type = Notiztyp ändern
 browsing-change-note-type2 = Notiztyp ändern…
+browsing-change-notetype = Notiztyp ändern
 browsing-change-to = Ändere { $val } in:
 browsing-clear-unused = Verwaiste Schlagwörter entfernen
 browsing-clear-unused-tags = Verwaiste Schlagwörter löschen
