@@ -150,6 +150,8 @@ deck-config-interval-modifier-tooltip =
 deck-config-hard-interval-tooltip = 套用於複習卡回答「困難」後的間隔的乘數。
 deck-config-new-interval-tooltip = 套用於複習卡回答「重來」後的間隔的乘數。
 deck-config-minimum-interval-tooltip = 複習卡回答「困難」後的最小間隔。
+deck-config-custom-scheduling = 自訂排程
+deck-config-custom-scheduling-tooltip = 影響整個集合。請謹慎使用！
 
 ## Adding/renaming
 

@@ -26,6 +26,7 @@ browsing-change-deck = 變更牌組
 browsing-change-deck2 = 變更牌組...
 browsing-change-note-type = 變更筆記類型
 browsing-change-note-type2 = 變更筆記類型...
+browsing-change-notetype = 變更筆記類型
 browsing-change-to = 變更 { $val } 到：
 browsing-clear-unused = 清理未使用的
 browsing-clear-unused-tags = 清理未使用的標籤

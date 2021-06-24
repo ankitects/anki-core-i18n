@@ -7,3 +7,4 @@ errors-100-tags-max =
     最多只能選取 100 個標籤。列出您想要的標籤通常
     比列出不想要的更簡單，且若您選取了上層標籤，
     則無需再選取下層標籤。
+errors-multiple-notetypes-selected = 請僅從一種筆記類型選取筆記。

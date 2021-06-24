@@ -36,3 +36,5 @@ preferences-user-interface-size = 使用者介面大小
 preferences-when-adding-default-to-current-deck = 新增時，預設加入當前牌組
 preferences-you-can-restore-backups-via-fileswitch = 您可以透過「檔案」>「切換設定檔」來恢復備份。
 preferences-legacy-timezone-handling = 舊版時區處理（易出錯，但 AnkiDroid 2.14 及以下版本必須使用）
+preferences-default-search-text = 預設搜尋文字
+preferences-default-search-text-example = 例如：'deck:current '
