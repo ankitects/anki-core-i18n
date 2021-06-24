@@ -36,3 +36,5 @@ preferences-user-interface-size = حجم واجهة المستخدم
 preferences-when-adding-default-to-current-deck = معاملة الرزمة الحالية كرزمة افتراضية عند إضافة بطاقات
 preferences-you-can-restore-backups-via-fileswitch = تستطيع استعادة النسخ الاحتياطية من خلال ملف>تبديل الملف الشخصي.
 preferences-legacy-timezone-handling = طريقة المعالجة القديمة للمناطق الزمنية (فيها أخطاء، لكنها متطلبة لإصدارات أنكيدرويد من 2.14 وأقدم)
+preferences-default-search-text = نص البحث الافتراضي
+preferences-default-search-text-example = مثال: 'deck:current '

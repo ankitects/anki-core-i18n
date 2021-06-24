@@ -31,6 +31,7 @@ browsing-change-deck = تغيير الرزمة
 browsing-change-deck2 = تغيير الرزمة...
 browsing-change-note-type = تغيير نوع الملحوظة
 browsing-change-note-type2 = تغيير نوع الملحوظة...
+browsing-change-notetype = تغيير نوع الملحوظة
 browsing-change-to = تغيير { $val } الى:
 browsing-clear-unused = حذف الوسوم غير المستخدمة
 browsing-clear-unused-tags = حذف الوسوم غير المستخدمة
