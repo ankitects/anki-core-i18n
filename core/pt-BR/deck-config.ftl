@@ -28,12 +28,15 @@ deck-config-daily-limits = Limites Diários
 
 ## Ordering section
 
+deck-config-new-gather-priority-deck = Baralho
+deck-config-sort-order-random = Aleatório
 
 ## Timer section
 
 
 ## Audio section
 
+deck-config-audio-title = Áudio
 deck-config-disable-autoplay = Não reproduzir o áudio automaticamente
 
 ## Advanced section
@@ -42,9 +45,11 @@ deck-config-advanced-title = Avançado
 
 ## Adding/renaming
 
+deck-config-name-prompt = Nome
 
 ## Removing
 
+deck-config-confirm-normal = Remover { $name }?
 deck-config-confirm-remove-name = Remover { $name }?
 
 ## Other Buttons
@@ -56,4 +61,7 @@ deck-config-save-button = Salvar
 
 
 ## Warnings shown to the user
+
+
+## Selecting a deck
 

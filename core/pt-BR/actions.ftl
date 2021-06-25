@@ -1,6 +1,5 @@
 actions-add = Adicionar
 actions-all-selected = Todos selecionados
-actions-blue-flag = Marcador Azul
 actions-cancel = Cancelar
 actions-choose = Escolher
 actions-close = Fechar
@@ -10,7 +9,6 @@ actions-decks = Baralhos
 actions-delete = Excluir
 actions-export = Exportar
 actions-filter = Filtro
-actions-green-flag = Marcador Verde
 actions-help = Ajuda
 actions-import = Importar
 actions-manage = Gerenciar...
@@ -19,10 +17,8 @@ actions-new = Novos
 actions-new-name = Novo nome:
 actions-options = Opções
 actions-options-for = Opções para { $val }
-actions-orange-flag = Marcador Laranja
 actions-preview = Pré-visualização
 actions-rebuild = Recriar
-actions-red-flag = Marcador Vermelho
 actions-rename = Renomear
 actions-rename-deck = Renomear Baralho
 actions-rename-tag = Renomear Tag
@@ -44,3 +40,13 @@ actions-update-deck = Atualizar Baralho
 actions-forget-card = Esquecer Cartão
 actions-update-config = Atualizar Configurações
 actions-card-info = Informação do Cartão
+
+## Flags
+
+actions-flag-red = Vermelho
+actions-flag-orange = Laranja
+actions-flag-green = Verde
+actions-flag-blue = Azul
+actions-flag-pink = Rosa
+actions-flag-turquoise = Turquesa
+actions-flag-purple = Roxo

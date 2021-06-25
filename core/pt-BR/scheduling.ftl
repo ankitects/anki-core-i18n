@@ -93,6 +93,8 @@ scheduling-custom-study = estudo personalizado
 
 ## Scheduler upgrade
 
+scheduling-update-button = Atualizar
+scheduling-update-later-button = Mais tarde
 
 ## Other scheduling strings
 

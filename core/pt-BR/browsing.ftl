@@ -16,6 +16,11 @@ browsing-card-initial = C
 browsing-card-list = Lista de Cartões
 browsing-card-state = Estado do Cartão
 browsing-cards-cant-be-manually-moved-into = Os cartões não podem ser movidos manualmente dentro de um baralho filtrado.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } cartão deletado.
+       *[other] { $count } cartões deletados.
+    }
 browsing-change-deck = Mudar Baralho
 browsing-change-deck2 = Mudar Baralho...
 browsing-change-note-type = Mudar Tipo de Nota
@@ -58,6 +63,8 @@ browsing-new = (novo)
 browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sem Marcador
 browsing-note = Nota
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
 browsing-notes-tagged = Notas marcadas.
 browsing-nothing = Nada
 browsing-only-new-cards-can-be-repositioned = Somente os cartões novos podem ser reposicionados.
@@ -108,7 +115,31 @@ browsing-note-deleted =
         [one] { $count } nota apagada.
        *[other] { $count } notas apagadas.
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } nota atualizada.
+       *[other] { $count } notas atualizadas.
+    }
+browsing-sidebar-expand = Expandir
+browsing-sidebar-collapse = Recolher
+browsing-sidebar-decks = Baralhos
+browsing-sidebar-tags = Etiquetas
+browsing-sidebar-notetypes = Tipos de nota
+browsing-sidebar-saved-searches = Pesquisas salvas
+browsing-sidebar-save-current-search = Salvar pesquisa atual
 browsing-today = Hoje
 browsing-studied-today = Estudados Hoje
 browsing-added-today = Adicionado hoje
 browsing-again-today = Repetir Hoje
+browsing-edited-today = Editados
+browsing-row-deleted = (apagado)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] { $count } etiqueta não usada removida.
+       *[other] { $count } etiquetas não usadas removidas.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } baralho renomeado.
+       *[other] { $count } baralhos renomeados.
+    }
