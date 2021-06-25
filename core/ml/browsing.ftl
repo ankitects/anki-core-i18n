@@ -27,6 +27,7 @@ browsing-change-deck = ഡെക്ക് മാറ്റുക
 browsing-change-deck2 = ഡെക്ക് മാറ്റുക...
 browsing-change-note-type = കുറിപ്പ് തരം മാറ്റുക
 browsing-change-note-type2 = കുറിപ്പ് തരം മാറ്റുക...
+browsing-change-notetype = കുറിപ്പ് തരം മാറ്റുക
 browsing-change-to = { $val } ഇതിലേക്ക് മാറ്റുക:
 browsing-clear-unused = ഉപയോഗിക്കാത്തവ മായ്ക്കുക
 browsing-clear-unused-tags = ഉപയോഗിക്കാത്ത ടാഗുകൾ മായ്ക്കുക

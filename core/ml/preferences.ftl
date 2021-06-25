@@ -36,3 +36,5 @@ preferences-user-interface-size = ഉപയോക്തൃ ഇന്റർഫേ
 preferences-when-adding-default-to-current-deck = ചേർക്കുമ്പോൾ, നിലവിലെ ഡെക്കിലേക്ക് സ്ഥിരസ്ഥിതി ചെയ്യുക
 preferences-you-can-restore-backups-via-fileswitch = ഫയൽ> സ്വിച്ച് പ്രൊഫൈൽ വഴി നിങ്ങൾക്ക് ബാക്കപ്പുകൾ പുനസ്ഥാപിക്കാൻ കഴിയും.
 preferences-legacy-timezone-handling = ലെഗസി സമയമേഖല കൈകാര്യം ചെയ്യൽ (പ്രശ്ന സുലഭം, പക്ഷേ Ankidroid-നു ആവശ്യമാണ് <= 2.14)
+preferences-default-search-text = സ്ഥിരസ്ഥിതിയിലുള്ള തിരച്ചിൽ വാചകം
+preferences-default-search-text-example = ഉദാ. 'ഡെക്ക്: നിലവിലുള്ളത്'
