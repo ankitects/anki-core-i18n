@@ -28,6 +28,7 @@ browsing-change-deck = Změnit balík
 browsing-change-deck2 = Změnit balík...
 browsing-change-note-type = Změň typ poznámky
 browsing-change-note-type2 = Změnit typ poznámky...
+browsing-change-notetype = Změnit typ poznámky
 browsing-change-to = Změnit { $val } na:
 browsing-clear-unused = Vymazat nepoužívané
 browsing-clear-unused-tags = Vymazat nepoužívané štítky
@@ -163,6 +164,7 @@ browsing-sidebar-rescheduled = Přeplánováno
 browsing-sidebar-due-today = Ke zkoušení
 browsing-sidebar-untagged = Neoznačeno
 browsing-sidebar-overdue = Zpožděno
+browsing-row-deleted = (smazáno)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Odstraněn { $count } nepoužívaný štítek.

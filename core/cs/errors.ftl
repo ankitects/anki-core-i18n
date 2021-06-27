@@ -7,3 +7,4 @@ errors-100-tags-max =
     Lze vybrat maximálně 100 štítků. Vybírat 
     štítky které chcete místo štítků které nechcete je obvykle jednodušší a není 
     třeba vybírat podřízené štítky, jestliže jste vybrali nadřazený štítek.
+errors-multiple-notetypes-selected = Prosím, vyberte poznámky pouze od jednoho typu poznámky.

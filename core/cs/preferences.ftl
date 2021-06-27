@@ -36,3 +36,5 @@ preferences-user-interface-size = Velikost uživatelského rozhraní
 preferences-when-adding-default-to-current-deck = Při přidávání standardně nastaven aktuální balík
 preferences-you-can-restore-backups-via-fileswitch = Můžete obnovit ze zálohy přes Soubor > Přepnout profil.
 preferences-legacy-timezone-handling = Zastaralé zpracování časového pásma (zabugované, ale požadováno pro AnkiDroid <= 2.14)
+preferences-default-search-text = Výchozí text vyhledání
+preferences-default-search-text-example = např. „deck:current“
