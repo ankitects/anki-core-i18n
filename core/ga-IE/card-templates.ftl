@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = folamh
 card-templates-changes-will-affect-notes =
     Beidh tionchar ag na hathruithe thíos ar { $count ->
         [one] an aon nóta amháin
@@ -22,6 +24,11 @@ card-templates-night-mode = Modh Oíche
 card-templates-add-mobile-class = Cuir Aicme Fhóin Phóca leis
 card-templates-preview-settings = Roghanna
 card-templates-invalid-template-number = Tá teimpléad { $number } lochtach.
+card-templates-identical-front = Is ionann tosach an chárta agus teimpléad cártaí { $number }.
+card-templates-no-front-field = Bítear ag súil le malartú réimse ar thosach an teimpléid chártaí.
+card-templates-missing-cloze = Bítear ag súil le '{ "{{" }cloze:Text{ "}}" }' nó a leithéid sin ar thosach agus ar chúl theimpléad an chárta.
+card-templates-extraneous-cloze = Ní féidir 'cloze:' a oibriú ach amháin ar nótaí iomlánaithe
+card-templates-see-preview = Féach an réamhamharc le haghaidh tuilleadh eolais.
 card-templates-changes-saved = Athruithe sábhailte.
 card-templates-discard-changes = Caith uait na hathruithe?
 card-templates-add-card-type = Cuir Cineál Cárta Leis...

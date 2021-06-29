@@ -30,6 +30,7 @@ browsing-change-deck = Athraigh Paca
 browsing-change-deck2 = Athraigh Paca...
 browsing-change-note-type = Athraigh Cineál Nóta
 browsing-change-note-type2 = Athraigh Cineál Nóta...
+browsing-change-notetype = Athraigh Cineál Nóta
 browsing-change-to = Athraigh { $val } go:
 browsing-clear-unused = Glan Ábhar Gan Úsáid
 browsing-clear-unused-tags = Glan Clibeanna Gan Úsáid
@@ -152,6 +153,14 @@ browsing-notes-updated =
         [many] { $count } nóta nuashonraithe.
        *[other] { $count } nóta nuashonraithe.
     }
+browsing-cards-updated =
+    { $count ->
+        [one] chárta amháin nuashonraithe.
+        [two] { $count } chárta  nuashonraithe.
+        [few] { $count } chárta nuashonraithe.
+        [many] { $count } gcárta nuashonraithe.
+       *[other] { $count } cárta nuashonraithe.
+    }
 browsing-window-title =
     { $total ->
         [one] Brabhsáil ({ $selected } as { $total } chárta amháin roghnaithe)
@@ -177,6 +186,7 @@ browsing-added-today = Curtha Leis Inniu
 browsing-again-today = Arís inniu
 browsing-edited-today = Curtha in Eagar Inniu
 browsing-sidebar-first-review = Chéad Athbhreithniú
+browsing-sidebar-rescheduled = Athsceidealaithe
 browsing-sidebar-due-today = Le Staidéar Inniu
 browsing-sidebar-untagged = Gan Chlib
 browsing-sidebar-overdue = Thar Téarma
