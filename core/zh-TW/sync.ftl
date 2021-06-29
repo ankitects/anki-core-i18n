@@ -41,6 +41,10 @@ sync-account-required =
     您需要先建立一個免費的帳號來同步您的集合。請先<a href="{ $link }">註冊</a>一個帳號，然後在下方輸入詳細資訊。
 sync-sanity-check-failed = 請使用「檢查資料庫」功能，然後再次同步。若問題仍存在，請到偏好設定內強制完全同步。
 sync-clock-off = 無法同步——您的時鐘設定時間不準確。
+sync-upload-too-large =
+    您的集合檔案過大，無法傳送至 AnkiWeb。您可以透過移除不需要的牌組
+    （可以先匯出牌組）來減少檔案大小，並使用檢查資料庫來縮減檔案大小。
+    （{ $details }）
 
 ## Buttons
 
