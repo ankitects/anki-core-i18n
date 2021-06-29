@@ -36,3 +36,5 @@ preferences-user-interface-size = Méid an chomhéadain
 preferences-when-adding-default-to-current-deck = Cuir cártaí nua leis an bpaca atá oscailte mar réamhshocrú
 preferences-you-can-restore-backups-via-fileswitch = Chun cóipeanna cúltaca a thabhairt ar ais: Comhad>Athraigh Próifíl
 preferences-legacy-timezone-handling = Seanchóras oibrithe na n-amchrios (lochtach, ach éigeantach do leaganacha AnkiDroid <= 2.14)
+preferences-default-search-text = Buntéacs cuardaigh
+preferences-default-search-text-example = m.s. 'desk:current'

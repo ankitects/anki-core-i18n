@@ -171,8 +171,8 @@ browsing-window-title =
     }
 browsing-sidebar-expand = Leathnaigh
 browsing-sidebar-collapse = Díleathnaigh
-browsing-sidebar-expand-children = Leathnaigh Mac-chártaí
-browsing-sidebar-collapse-children = Díleathnaigh Mac-chártaí
+browsing-sidebar-expand-children = Leathnaigh Fochártaí
+browsing-sidebar-collapse-children = Díleathnaigh Fochártaí
 browsing-sidebar-decks = Pacaí
 browsing-sidebar-tags = Clibeanna
 browsing-sidebar-notetypes = Cineálacha Nótaí

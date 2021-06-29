@@ -48,6 +48,11 @@ sync-account-required =
     Teastaíonn cuntas saor in aisce chun do chnuasach a choinneáil sioncronaithe.  <a href="{ $link }">Cruthaigh cuntas</a> duit féin, ansin cuir isteach do chuid sonraí thíos.
 sync-sanity-check-failed = Úsáid an fheidhm 'Seiceáil Bunachar Sonraí', ansin déan sioncronú arís.  Mura réitíonn sé seo an fhadhb, déan sioncronú iomlán faoi 'Roghanna'
 sync-clock-off = Ní féidir sioncronú a dhéanamh - tá an t-am mícheart ar an gclog.
+sync-upload-too-large =
+    Tá comhad do chnuasaigh rómhór chun é a uaslódáil chuig AnkiWeb.
+    Chun a mhéid a laghdú, bain aon phaca nach dteastaíonn (d'fhéadfá
+    iad a easpórtáil ar dtús), agus ansin roghnaigh 'Seiceáil an Bunachar
+    Sonraí' chun méid an chomhaid a nuashonrú. ({ $details })
 
 ## Buttons
 

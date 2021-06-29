@@ -56,6 +56,10 @@ deck-config-easy-interval-tooltip =
     Feicfear an cárta seo arís tar éis an t-eatramh seo (laethanta) tar éis duit
     an cnaipe 'Éasca' a roghnú agus tú ag foghlaim cárta nua.
 deck-config-new-insertion-order = Ord ionsáite
+deck-config-new-insertion-order-tooltip =
+    Socraítear suíomh (# staidéir) aon chárta nua a chuireann tú leis. An cárta
+    a bhfuil an uimhir staidéir is ísle aige, feicfear i dtosach é. Má athraítear
+    an socrú seo athrófar suíomh do chuid cárta nuaí go huathoibríoch.
 deck-config-new-insertion-order-sequential = In ord (is sine i dtosach)
 deck-config-new-insertion-order-random = Gan ord (ord randamach)
 
@@ -183,6 +187,7 @@ deck-config-custom-scheduling-tooltip = Téann sé seo i bhfeidhm ar an gcnuasac
 deck-config-add-group = Cuir Grúpa leis
 deck-config-name-prompt = Ainm:
 deck-config-rename-group = Athainmnigh Grúpa
+deck-config-clone-group = Déan Cóip de Ghrúpa
 
 ## Removing
 
@@ -215,7 +220,7 @@ deck-config-daily-limit-will-be-capped =
         [few] { $cards } chárta
         [many] { $cards } gcárta
        *[other] { $cards } cárta
-    }i bhfeidhm ag máthairphaca a bhfuil an paca seo mar chuid de. Tabharfar tús áite do shrian na máithreach.
+    } i bhfeidhm ag mórphaca a bhfuil an paca seo mar chuid de. Tabharfar tús áite do shrian an mhórphaca.
 deck-config-reviews-too-low =
     Más mian leat go bhfeicfeá{ $cards ->
         [one] { $cards } chárta nua gach uile lá
@@ -230,3 +235,4 @@ deck-config-relearning-steps-above-minimum-interval = Bíodh an t-eatramh is gio
 
 ## Selecting a deck
 
+deck-config-which-deck = Cé acu paca atá i gceist agat?

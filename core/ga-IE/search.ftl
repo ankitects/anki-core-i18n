@@ -16,7 +16,7 @@ search-unclosed-quote = Bhí uaschamóg `"` sa chuardach,  ach ní raibh aon dar
 search-missing-key = Bhí idirstad `:` sa chuardach,  ach ní raibh aon eochairfhocal roimhe. Más mian leat cuardach a dhéanamh ar idirstad mar dhea, bíodh cúlslais roimhe: `\:`.
 search-unknown-escape = Níor tuigeadh an seachamh éalaithe `{ $val }`.  Más mian leat cuardach a dhéanamh ar chúlslais mar dhea, bíodh cúlslais eile roimpi: `\\`.
 search-invalid-argument = Ní bailí '`{ $argument }`' mar argóint tar éis `{ $term }`.
-search-invalid-flag = Ní mór uimhir bhailí brataí a lua tar éis `flag:`, mar atá: `1` (dearg), `2` (buí), `3` (glas uaine), `4` (gorm) or `0` (gan bhratach).
+search-invalid-flag-2 = Teastaíonn uimhir bhrataí atá bailí tar éis`bratach:` .i. : `1` (dearg), `2` (buí), `3` (glas uaine), `4` (gorm), `5` (bándearg), `6` (gormghlas), `7` (corcra) nó `0` (gan bhratach).
 search-invalid-prop-operator = Ní mór oibritheoir comparáide a lua tar éis `prop:{ $val }`, mar atá: `=`, `!=`, `<`, `>`, `<=` or `>=`.
 search-invalid-other = féach an bhfuil aon bhotún cló ann.
 
