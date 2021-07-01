@@ -41,6 +41,9 @@ sync-account-required =
     Um die Sammlung zu synchronisieren ist die Anmeldung zu einem kostenfreien Nutzerkonto notwendig, <a href="{ $link }">Registrierung hier</a>. Danach bitte hier Benutzernamen und Passwort eingeben.
 sync-sanity-check-failed = Bitte benutzen Sie die Funktion „Datenbank überprüfen“ und synchronisieren Sie anschließend. Wenn das Problem weiterhin besteht, dann erzwingen Sie bitte eine vollständige Sychronisation in den Einstellungen.
 sync-clock-off = Synchronisation kann nicht durchgeführt werden - Ihre System-Uhrzeit ist nicht richtig eingestellt.
+sync-upload-too-large =
+    Ihre Sammlungsdatei ist zu groß, um sie zu AnkiWeb zu senden. Sie können die
+    Größe verringeren, indem Sie ungewünschte Stapel (optional zuvor noch exportieren) löschen und dann die Funktion 'Datenbank überprüfen' nutzen, um die Dateigröße zu verringern. ({ $details })
 
 ## Buttons
 

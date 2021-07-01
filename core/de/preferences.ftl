@@ -36,3 +36,5 @@ preferences-user-interface-size = Schriftgröße der Benutzeroberfläche
 preferences-when-adding-default-to-current-deck = Beim Hinzufügen aktuellen Stapel als Standard festlegen
 preferences-you-can-restore-backups-via-fileswitch = Sie können eine Sicherungskopie über den Menüpunkt Datei > "Profil wechseln"  wiederherstellen.
 preferences-legacy-timezone-handling = Veralteter Umgang mit Zeitzonen (fehleranfällig, aber für AnkiDroid <= 2.14 vorausgesetzt)
+preferences-default-search-text = Standardmäßig eingestellter Suchtext
+preferences-default-search-text-example = z.B. 'deck:current'
