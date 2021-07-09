@@ -39,7 +39,7 @@ deck-config-limit-new-bound-by-reviews =
 
 deck-config-learning-steps = خطوات التعلم
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = يمكن أن تكون الفواصل بوحدة الدقائق ("5m" مثلًا) أو الأيام ("2d" مثلًا).
+-deck-config-delay-hint = الفواصل عادة ما تكون بالدقائق (`1m` مثلًا)، لكن الساعات (`1h` مثلًا) والثواني (`30s` مثلًا) مدعومة أيضًا.
 deck-config-learning-steps-tooltip =
     فاصل زمني واحد أو أكثر، مفصولة بفراغات. يستخدم الفاصل الأول
     عندما تضغط على زر «مجددًا» على بطاقة جديدة، وهو دقيقة واحدة بشكل افتراضي.
