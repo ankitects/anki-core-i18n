@@ -41,6 +41,10 @@ sync-account-required =
     Pro synchronizaci vaši kolekce je vyžadován účet (dostupný zdarma). <a href="{ $link }">Zaregistrujte si</a> účet a pak zadejte své údaje níže.
 sync-sanity-check-failed = Prosím použijte funkci Zkontrolovat databázi, poté synchronizujte znovu. Jestliže problém přetrvává, prosím vynuťte úplnou synchronizaci na obrazovce předvolby.
 sync-clock-off = Nelze synchronizovat - vaše hodiny nemají nastaveny správný čas.
+sync-upload-too-large =
+    Soubor s vaší kolekcí je příliš velký, než aby se dal poslat na AnkiWeb. Můžete ho 
+    zmenšit tak, že odstraníte nechtěné balíky (nejdříve si je můžete exportovat) a poté 
+    použijete Zkontrolovat databázi, což zmenší velikost souboru. ({ $details })
 
 ## Buttons
 
