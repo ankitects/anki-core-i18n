@@ -105,7 +105,7 @@ deck-config-new-card-sort-order-tooltip =
     حسب قالب البطاقة أولًا لمنع البطاقات المتعددة لملحوظة واحدة من
     الظهور بالتتابع.
 deck-config-sort-order-card-template-then-lowest-position = قالب البطاقة، ثم الموضع الأصغر
-deck-config-sort-order-card-template-then-highest-position = قالب البطاقة، ثم الموضع الأعلى
+deck-config-sort-order-card-template-then-highest-position = قالب البطاقة، ثم الموضع الأكبر
 deck-config-sort-order-card-template-then-random = قالب البطاقة، ثم عشوائي
 deck-config-sort-order-lowest-position = أصغر موضع
 deck-config-sort-order-highest-position = أعلى موضع
@@ -160,7 +160,7 @@ deck-config-starting-ease-tooltip =
     مضاعف السهولة التي تبدأ به البطاقات السهلة. بشكل افتراضي، زر «جيد»
     في بطاقة متعلمة حديثًا يؤخر المراجعة التالية بـ 2.5 أضعاف الفاصل السابق.
 deck-config-easy-bonus-tooltip =
-    مضاعف إضافي يطبق على فاصل بطاقة مراجعة عندما
+    مضاعف إضافي يطبق على فاصل بطاقة مراجعة عند
     تقييمها كسهلة.
 deck-config-interval-modifier-tooltip =
     يطبق هذا المضاعف على كل المراجعات، ويمكن تعديله بشكل طفيف
