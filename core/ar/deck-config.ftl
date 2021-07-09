@@ -132,7 +132,7 @@ deck-config-sort-order-descending-intervals = فواصل متناقصة
 ## Timer section
 
 deck-config-timer-title = مؤقت
-deck-config-maximum-answer-secs = المدى القصوى للإجابة بالثواني
+deck-config-maximum-answer-secs = المدة القصوى للإجابة بالثواني
 deck-config-maximum-answer-secs-tooltip =
     عدد الثواني الأقصى المسجل لمراجعة واحدة. إذا كانت مدة الإجابة
     تفوق هذا الوقت (لأنك تركت جهازك مثلًا)، يُسجل الوقت المأخوذ
