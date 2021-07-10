@@ -1,4 +1,6 @@
 actions-add = Přidat
+actions-all-selected = Všechny vybrané
+actions-any-selected = Kterýkoli vybraný
 actions-cancel = Zrušit
 actions-choose = Zvolit
 actions-close = Zavřít
