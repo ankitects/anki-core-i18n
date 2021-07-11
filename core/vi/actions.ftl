@@ -1,7 +1,6 @@
 actions-add = Thêm
 actions-all-selected = Chọn tất cả
 actions-any-selected = Chọn bất kì
-actions-blue-flag = Cờ lam
 actions-cancel = Hủy
 actions-choose = Chọn
 actions-close = Đóng
@@ -11,7 +10,6 @@ actions-decks = Bộ thẻ
 actions-delete = Xóa
 actions-export = Xuất
 actions-filter = Lọc
-actions-green-flag = Cờ xanh
 actions-help = Trợ giúp
 actions-import = Nhập
 actions-manage = Quản lý...
@@ -44,10 +42,22 @@ actions-update-note = Cập nhật Phiếu
 actions-update-card = Cập nhật Thẻ
 actions-update-deck = Cập nhật Bộ thẻ
 actions-forget-card = Quên thẻ
-actions-set-flag = Đặt cờ
 actions-build-filtered-deck = Lập bộ thẻ
 actions-expand-collapse = Mở rộng/Thu gọn
 actions-add-notetype = Thêm Kiểu Phiếu
 actions-remove-notetype = Xóa Kiểu Phiếu
 actions-update-notetype = Cập nhật Kiểu phiếu
 actions-update-config = Cập nhật cấu hình
+actions-card-info = Thông tin thẻ
+
+## Flags
+
+actions-flag-number = Cờ
+actions-flag-red = Đỏ
+actions-flag-orange = Cam
+actions-flag-green = Xanh lá
+actions-flag-blue = Xanh da trời
+actions-flag-pink = Hồng
+actions-flag-turquoise = Ngọc lam
+actions-flag-purple = Tím
+actions-set-flag = Đặt cờ

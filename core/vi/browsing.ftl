@@ -147,6 +147,7 @@ browsing-added-today = Đã thêm Hôm nay
 browsing-again-today = Học lại Hôm nay
 browsing-edited-today = Đã sửa hôm nay
 browsing-sidebar-first-review = Ôn tập đầu
+browsing-sidebar-rescheduled = Đặt lịch lại
 browsing-sidebar-due-today = Đến hạn
 browsing-sidebar-untagged = Đã bỏ Dấu
 browsing-sidebar-overdue = Quá hạn
