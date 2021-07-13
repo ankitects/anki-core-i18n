@@ -94,21 +94,21 @@ deck-config-new-gather-priority-tooltip =
     ويسمح لك بإعطاء أولوية للرزم الفرعية الأقرب للأعلى.
     
     `الموضع`: يجلب البطاقات من كل  الرزم قبل فرزها.
-    يضمن هذا أن البطاقات الأقدم ستظهر أولًا، حتى لو لم يكن
+    يضمن هذا أن البطاقات ستظهر حسب موضعها (رقم الاستحقاق)، حتى لو لم يكن
     حد الوالد مرتفعًا كفاية لرؤية بطاقات من كل الرزم.
 deck-config-new-gather-priority-deck = الرزمة
-deck-config-new-gather-priority-position-lowest-first = الموضع (الأصغر أولًا)
-deck-config-new-gather-priority-position-highest-first = الموضع (الأكبر أولًا)
+deck-config-new-gather-priority-position-lowest-first = مواضع متصاعدة
+deck-config-new-gather-priority-position-highest-first = مواضع متناقصة
 deck-config-new-card-sort-order = ترتيب فرز البطاقات الجديدة
 deck-config-new-card-sort-order-tooltip =
     كيفية فرز البطاقات بعد جلبها. بشكل افتراضي، يفرز أنكي
     حسب قالب البطاقة أولًا لمنع البطاقات المتعددة لملحوظة واحدة من
     الظهور بالتتابع.
-deck-config-sort-order-card-template-then-lowest-position = قالب البطاقة، ثم الموضع الأصغر
-deck-config-sort-order-card-template-then-highest-position = قالب البطاقة، ثم الموضع الأكبر
+deck-config-sort-order-card-template-then-lowest-position = قالب البطاقة، ثم الموضع المتصاعد
+deck-config-sort-order-card-template-then-highest-position = قالب البطاقة، ثم الموضع المتناقص
 deck-config-sort-order-card-template-then-random = قالب البطاقة، ثم عشوائي
-deck-config-sort-order-lowest-position = أصغر موضع
-deck-config-sort-order-highest-position = أعلى موضع
+deck-config-sort-order-lowest-position = موضع متصاعد
+deck-config-sort-order-highest-position = موضع متناقص
 deck-config-sort-order-random = عشوائي
 deck-config-new-review-priority = أولوية البطاقات الجديدة/المراجعات
 deck-config-new-review-priority-tooltip = وقت إظهار البطاقات الجديدة بالنسبة لبطاقات المراجعة.
@@ -128,6 +128,9 @@ deck-config-sort-order-due-date-then-deck = تاريخ الاستحقاق، ثم
 deck-config-sort-order-deck-then-due-date = الرزمة، ثم تاريخ الاستحقاق
 deck-config-sort-order-ascending-intervals = فواصل متزايدة
 deck-config-sort-order-descending-intervals = فواصل متناقصة
+deck-config-display-order-will-use-current-deck =
+    سيستخدم أنكي ترتيب العرض من الرزمة 
+    التي تحددها لدراستها، وليس أي رزمة فرعية لها.
 
 ## Timer section
 
