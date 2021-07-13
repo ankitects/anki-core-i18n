@@ -95,6 +95,10 @@ deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
 deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
 deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
 deck-config-sort-order-descending-intervals = Absteigende Intervalle
+deck-config-display-order-will-use-current-deck =
+    Anki wird die Anzeigereihenfolge von dem Stapel, den Sie 
+    zum Lernen ausgewählt haben, und keine Unterstapel, 
+    die dieser Stapel hat, benutzen.
 
 ## Timer section
 
