@@ -37,7 +37,7 @@ deck-config-limit-new-bound-by-reviews =
 
 deck-config-learning-steps = Kroky učení
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Zpoždění mohou být v minutách (např. `5m`) nebo dnech (např. `2d`).
+-deck-config-delay-hint = Zpoždění jsou obvykle v minutách (např. `1m`) nebo dnech (např. `2d`), ale hodiny (např `1h`) a sekundy (např. `30s`) jsou také podporovány.
 deck-config-learning-steps-tooltip =
     Jedno nebo více zpoždění oddělených mezerami. První zpoždění se použije,
     když na nové kartě stisknete tlačítko `Znovu`, a ve výchozím nastavení je 1 minuta.
