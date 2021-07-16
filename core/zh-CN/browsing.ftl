@@ -12,7 +12,7 @@ browsing-average-interval = 平均间隔
 browsing-browser-appearance = 浏览器外观
 browsing-browser-options = 浏览器选项
 browsing-buried = 被搁置
-browsing-card = 卡片
+browsing-card = 卡片类型
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = 卡
 browsing-card-list = 卡片列表
@@ -66,7 +66,7 @@ browsing-new = (未学习)
 browsing-new-note-type = 新笔记模板:
 browsing-no-flag = 无标记
 browsing-no-selection = 未选中卡片或笔记。
-browsing-note = 笔记
+browsing-note = 笔记类型
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 笔
 browsing-notes-tagged = 已添加标签的笔记

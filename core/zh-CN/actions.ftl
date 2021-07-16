@@ -47,6 +47,7 @@ actions-expand-collapse = 展开/折叠
 actions-add-notetype = 添加笔记类型
 actions-remove-notetype = 删除笔记类型
 actions-update-notetype = 更新笔记类型
+actions-update-config = 更新设置
 actions-card-info = 卡片信息
 
 ## Flags

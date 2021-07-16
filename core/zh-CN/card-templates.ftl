@@ -21,6 +21,7 @@ card-templates-identical-front = 正面与卡片模板 { $number } 相同。
 card-templates-no-front-field = 卡片模板正面应有字段替换。
 card-templates-missing-cloze = 卡片正面和背面应有 '{ "{{" }cloze:Text{ "}}" }'  或类似的文字。
 card-templates-extraneous-cloze = 'cloze:' 只能用于填空题笔记类型。
+card-templates-see-preview = 查看预览以获得更多信息。
 card-templates-changes-saved = 更改已保存
 card-templates-discard-changes = 放弃更改
 card-templates-add-card-type = 添加卡片模板…

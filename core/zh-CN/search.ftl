@@ -16,7 +16,7 @@ search-unclosed-quote = 找到一个双引号`"`，但在其后缺少第二个�
 search-missing-key = 找到一个冒号`:`，但前面缺少关键字。如果您想搜索冒号本身，请在前面加一个反斜杠：`\:`。
 search-unknown-escape = 转义序列 `{ $val }` 未定义。如果您想搜索反斜杠`\`本身，请在前面再加一个反斜杠：`\\`。
 search-invalid-argument = { $term } 收到了一个无效的参数 { $argument }。
-search-invalid-flag = `flag:` 后必须跟一个有效的标注序号：`1`（红色）、`2`（橙色）、`3`（绿色）、`4`（蓝色）或`0`（无标注）。
+search-invalid-flag-2 = `flag:`后必须跟上有效标记序号：`1`（红色）、`2`（橙色）、`3`（绿色）、`4`（蓝色）、`5`（粉色）、`6`（青色）、`7`（紫色）或`0`（无标记）。
 search-invalid-prop-operator = `prop:{ $val }` 后面必须是下列比较运算符之一：`=`、`!=`、`<`、`>`、`<=`或`>=`。
 search-invalid-other = 请检查是否有输入错误。
 
@@ -30,7 +30,7 @@ search-invalid-answer-button = "`{ $context }`" 中应为 1-4 的回答按钮，
 
 ## Column labels in browse screen
 
-search-note-modified = 笔记已更改
+search-note-modified = 笔记修改日期
 search-card-modified = 卡片已更改
 
 ##
