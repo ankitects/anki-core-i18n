@@ -56,3 +56,4 @@ actions-flag-orange = 橙色
 actions-flag-green = 绿色
 actions-flag-blue = 蓝色
 actions-flag-pink = 粉色
+actions-flag-purple = 紫色

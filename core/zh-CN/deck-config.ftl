@@ -7,9 +7,11 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks = 应用于 { $decks } 个牌组
 deck-config-default-name = 系统预置
+deck-config-title = 牌组选项
 
 ## Daily limits section
 
+deck-config-daily-limits = 每日上限
 
 ## New Cards section
 
@@ -28,9 +30,17 @@ deck-config-bury-review-siblings = 搁置相关复习卡片到下一天
 
 ## Ordering section
 
+deck-config-new-gather-priority-deck = 牌组
+deck-config-sort-order-random = 随机
+deck-config-sort-order-due-date-then-random = 先按照到期日期，然后随机
+deck-config-sort-order-due-date-then-deck = 先按照到期日期，然后按照牌组
+deck-config-sort-order-deck-then-due-date = 先按照牌组，然后按照到期日期
+deck-config-sort-order-ascending-intervals = 间隔由小到大
+deck-config-sort-order-descending-intervals = 间隔由大到小
 
 ## Timer section
 
+deck-config-maximum-answer-secs = 最大回答时间(秒)
 
 ## Audio section
 
@@ -39,6 +49,8 @@ deck-config-disable-autoplay = 不自动播放音频
 ## Advanced section
 
 deck-config-advanced-title = 高级设置
+deck-config-custom-scheduling = 自定义排期
+deck-config-custom-scheduling-tooltip = 影响整个集合。请谨慎使用！
 
 ## Adding/renaming
 

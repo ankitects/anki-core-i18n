@@ -24,6 +24,7 @@ browsing-change-deck = 更改所属牌组
 browsing-change-deck2 = 更改所属牌组…
 browsing-change-note-type = 改变笔记模板
 browsing-change-note-type2 = 改变笔记模板…
+browsing-change-notetype = 改变笔记类型
 browsing-change-to = 将{ $val }改为：
 browsing-clear-unused = 删除未使用的
 browsing-clear-unused-tags = 删除未使用的标签
