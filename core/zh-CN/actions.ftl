@@ -44,6 +44,9 @@ actions-update-deck = 更新牌组
 actions-forget-card = 忘记卡片
 actions-build-filtered-deck = 建立牌组
 actions-expand-collapse = 展开/折叠
+actions-add-notetype = 添加笔记类型
+actions-remove-notetype = 删除笔记类型
+actions-update-notetype = 更新笔记类型
 actions-card-info = 卡片信息
 
 ## Flags
