@@ -9,17 +9,21 @@ exporting-couldnt-save-file = 파일을 저장할 수 없습니다: { $val }
 exporting-export = 내보내기...
 exporting-export-format = <b>내보내기 형식</b>:
 exporting-include = <b>포함</b>:
+exporting-include-html-and-media-references = HTML과 미디어 참조 포함
 exporting-include-media = 미디어 포함
 exporting-include-scheduling-information = 복습 일정 포함
 exporting-include-tags = 태그 포함
 exporting-notes-in-plain-text = 텍스트 파일로 정리한 노트
 exporting-selected-notes = 선택된 노트
-exporting-card-exported = { $count ->
-   *[other] { $count }카드를 내보냈습니다.
-  }
-exporting-exported-media-file = { $count ->
-   *[other] { $count }개 미디어 파일을 내보냈습니다.
-  }
-exporting-note-exported = { $count ->
-   *[other] { $count }노트를 내보냈습니다.
-  }
+exporting-card-exported =
+    { $count ->
+       *[other] { $count }카드를 내보냈습니다.
+    }
+exporting-exported-media-file =
+    { $count ->
+       *[other] { $count }개 미디어 파일을 내보냈습니다.
+    }
+exporting-note-exported =
+    { $count ->
+       *[other] { $count }노트를 내보냈습니다.
+    }

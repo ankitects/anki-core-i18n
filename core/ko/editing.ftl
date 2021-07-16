@@ -1,33 +1,54 @@
 editing-add-media = 미디어 넣기
+editing-align-left = 왼쪽으로 정렬
+editing-align-right = 오른쪽으로 정렬
 editing-an-error-occurred-while-opening = { $val }를 여는동안 에러가 발생하였습니다.
-editing-attach-picturesaudiovideo-f3 = 사진/오디오/비디오 추가(F3)
-editing-bold-text-ctrlandb = 볼드체(Ctrl +B)
+editing-attach-picturesaudiovideo = 사진/오디오/둥영상 첨부
+editing-bold-text = 볼드 글씨
 editing-cards = 카드
-editing-change-colour-f8 = 색깔 바꾸기(F8)
-editing-cloze-deletion-ctrlandshiftandc = 빈칸 뚫기 (Ctrl+Shift+C)
+editing-center = 중앙
+editing-change-color = 색상 변경
+editing-cloze-deletion = 칸 삭제
 editing-couldnt-record-audio-have-you-installed = 오디오를 녹음할 수 없음. 'lame'을 설치하겠습니까?
-editing-customize-card-templates-ctrlandl = 카드 탬플릿 맞춤 설정
+editing-customize-card-templates = 카드 템플릿 수정
 editing-customize-fields = 필드 맞춤 설정
 editing-cut = 잘라내기
 editing-edit-current = 현재 카드 편집
 editing-edit-html = HTML 편집
 editing-fields = 필드
 editing-html-editor = HTML 편집기
-editing-italic-text-ctrlandi = 기울임꼴 (Ctrl+I)
+editing-indent = 들여쓰기
+editing-italic-text = 기울임 글씨
 editing-jump-to-tags-with-ctrlandshiftandt = Ctrl+Shift+T를 눌러 태그로 이동
 editing-latex = LaTeX
+editing-latex-equation = LaTeX 공식
+editing-latex-math-env = LaTeX 수학 환경.
 editing-mathjax-block = MathJax 공간
 editing-mathjax-chemistry = MathJax 화학
 editing-mathjax-inline = MathJax 인라인
 editing-media = 미디어
+editing-outdent = 내여쓰기
 editing-paste = 붙여넣기
-editing-record-audio-f5 = 소리 녹음하기 (F5)
-editing-remove-formatting-ctrlandr = 포맷 지우기
-editing-set-foreground-colour-f7 = 외향 색 설명하기
+editing-record-audio = 오디오 녹음
+editing-remove-formatting = 글씨 포맷 제거
 editing-show-duplicates = 중복된 항목 보기
-editing-subscript-ctrland = 아래 첨자 (Ctrl+=)
-editing-superscript-ctrlandand = 위 첨자 (Ctrl++)
+editing-subscript = 아래 첨자
+editing-superscript = 위 첨자
 editing-tags = 태그
 editing-to-make-a-cloze-deletion-on = 이미 존재하는 노트에 빈칸 뚫기를 만들려면, 편집>노트 유형 바꾸기를 통해서 빈칸(cloze) 유형으로 먼저 바꾸어야 합니다.
-editing-underline-text-ctrlandu = 밑줄 (Ctrl+U)
+editing-underline-text = 밑줄 글씨
 editing-warning-cloze-deletions-will-not-work = 빈칸 뚫기는 화면 위쪽에서 유형을 빈칸(Cloze)으로 선택해야만 동작합니다.
+
+## You don't need to translate these strings, as they will be replaced with different ones soon.
+
+editing-bold-text-ctrlandb = 볼드체(Ctrl +B)
+editing-italic-text-ctrlandi = 기울임꼴 (Ctrl+I)
+editing-underline-text-ctrlandu = 밑줄 (Ctrl+U)
+editing-subscript-ctrland = 아래 첨자 (Ctrl+=)
+editing-superscript-ctrlandand = 위 첨자 (Ctrl++)
+editing-remove-formatting-ctrlandr = 포맷 지우기
+editing-record-audio-f5 = 소리 녹음하기 (F5)
+editing-attach-picturesaudiovideo-f3 = 사진/오디오/비디오 추가(F3)
+editing-cloze-deletion-ctrlandshiftandc = 빈칸 뚫기 (Ctrl+Shift+C)
+editing-change-colour-f8 = 색깔 바꾸기(F8)
+editing-set-foreground-colour-f7 = 외향 색 설명하기
+editing-customize-card-templates-ctrlandl = 카드 탬플릿 맞춤 설정
