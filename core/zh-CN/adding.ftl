@@ -7,3 +7,5 @@ adding-note-deleted = 笔记已删除
 adding-shortcut = 快捷键: { $val }
 adding-the-first-field-is-empty = 首字段为空.
 adding-you-have-a-cloze-deletion-note = 你选择了填空题模板，但是还没有挖空。继续吗？
+adding-cloze-outside-cloze-notetype = 挖空只能用于填空题笔记类型。
+adding-cloze-outside-cloze-field = 挖空只能用于使用了 'cloze:' 筛选器的字段。通常是第一个字段。

@@ -30,8 +30,15 @@ deck-config-bury-review-siblings = 搁置相关复习卡片到下一天
 
 ## Ordering section
 
+deck-config-ordering-title = 展示顺序
 deck-config-new-gather-priority-deck = 牌组
+deck-config-new-card-sort-order = 新卡片排序顺序
 deck-config-sort-order-random = 随机
+deck-config-new-review-priority-tooltip = 新卡片在复习卡片之前还是之后展示。
+deck-config-review-mix-mix-with-reviews = 与复习卡片混合
+deck-config-review-mix-show-after-reviews = 在复习卡片之后展示
+deck-config-review-mix-show-before-reviews = 在复习卡片之前展示
+deck-config-review-sort-order = 复习卡片排序顺序
 deck-config-sort-order-due-date-then-random = 先按照到期日期，然后随机
 deck-config-sort-order-due-date-then-deck = 先按照到期日期，然后按照牌组
 deck-config-sort-order-deck-then-due-date = 先按照牌组，然后按照到期日期

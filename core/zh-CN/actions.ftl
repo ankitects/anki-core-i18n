@@ -51,9 +51,12 @@ actions-card-info = 卡片信息
 
 ## Flags
 
+actions-flag-number = 标记 { $number }
 actions-flag-red = 红色
 actions-flag-orange = 橙色
 actions-flag-green = 绿色
 actions-flag-blue = 蓝色
 actions-flag-pink = 粉色
+actions-flag-turquoise = 青色
 actions-flag-purple = 紫色
+actions-set-flag = 设定标记

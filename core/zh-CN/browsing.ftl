@@ -13,6 +13,8 @@ browsing-browser-appearance = 浏览器外观
 browsing-browser-options = 浏览器选项
 browsing-buried = 被搁置
 browsing-card = 卡片
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = 卡
 browsing-card-list = 卡片列表
 browsing-card-state = 卡片状态
 browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到过滤牌组
@@ -63,7 +65,10 @@ browsing-nd-names = { $num }: { $name }
 browsing-new = (未学习)
 browsing-new-note-type = 新笔记模板:
 browsing-no-flag = 无标记
+browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = 笔
 browsing-notes-tagged = 已添加标签的笔记
 browsing-nothing = 无
 browsing-only-new-cards-can-be-repositioned = 只有新卡片可以被重新排序.
@@ -97,11 +102,13 @@ browsing-suspended = 已暂停
 browsing-tag-duplicates = 复制标签
 browsing-tag-rename-warning-empty = 无法重命名没有笔记的标签。
 browsing-target-field = 目标栏目:
+browsing-toggle-showing-cards-notes = 切换显示卡片/笔记
 browsing-toggle-mark = 添加/移除标记
 browsing-toggle-suspend = 暂停/取消暂停
 browsing-treat-input-as-regular-expression = 以正则表达式输入
 browsing-update-saved-search = 更新为当前搜索条件
 browsing-whole-collection = 全部集合
+browsing-window-title-notes = 浏览（已选取 { $selected } 条笔记，共 { $total } 条）
 browsing-you-must-have-at-least-one = 必须至少有一列.
 browsing-group =
     { $count ->
@@ -118,6 +125,10 @@ browsing-note-deleted =
 browsing-notes-updated =
     { $count ->
        *[other] 已更新 { $count } 条笔记。
+    }
+browsing-cards-updated =
+    { $count ->
+       *[other] 已更新 { $count } 张卡片。
     }
 browsing-window-title = 浏览（已选取 { $selected } 张卡片，共 { $total } 张）
 browsing-sidebar-expand = 展开
@@ -136,6 +147,8 @@ browsing-studied-today = 今天学习的
 browsing-added-today = 今天添加的
 browsing-again-today = 今天再来一次的
 browsing-edited-today = 今天编辑的
+browsing-sidebar-first-review = 首次复习
+browsing-sidebar-rescheduled = 已重新排期
 browsing-sidebar-due-today = 今天到期的
 browsing-sidebar-untagged = 无标签的
 browsing-sidebar-overdue = 超期的

@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = 空格
 card-templates-changes-will-affect-notes = { $count } 张使用此卡片类型的笔记将会受影响
 card-templates-card-type = 卡片模板：
 card-templates-front-template = 正面模版
@@ -15,6 +17,10 @@ card-templates-night-mode = 夜间模式
 card-templates-add-mobile-class = 添加移动设备的类
 card-templates-preview-settings = 选项
 card-templates-invalid-template-number = 卡片模板{ $number }有问题
+card-templates-identical-front = 正面与卡片模板 { $number } 相同。
+card-templates-no-front-field = 卡片模板正面应有字段替换。
+card-templates-missing-cloze = 卡片正面和背面应有 '{ "{{" }cloze:Text{ "}}" }'  或类似的文字。
+card-templates-extraneous-cloze = 'cloze:' 只能用于填空题笔记类型。
 card-templates-changes-saved = 更改已保存
 card-templates-discard-changes = 放弃更改
 card-templates-add-card-type = 添加卡片模板…
