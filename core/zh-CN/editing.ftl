@@ -37,10 +37,10 @@ editing-show-duplicates = 查看重复的卡片
 editing-subscript = 下标
 editing-superscript = 上标
 editing-tags = 标签
-editing-to-make-a-cloze-deletion-on = 要为现有的笔记制作一个挖空，你需要通过“笔记>更改笔记类型”，把笔记更改成填空题的类型。
+editing-to-make-a-cloze-deletion-on = 要为现有的笔记制作一个挖空，你需要通过“笔记>更改笔记模板”，把笔记更改成填空题的模板。
 editing-underline-text = 下划线
 editing-unordered-list = 无序列表
-editing-warning-cloze-deletions-will-not-work = 警告，在你把上方的笔记类型改成 "完形填空" 之前，你的完形填空的填空内容将不会发挥功能。
+editing-warning-cloze-deletions-will-not-work = 警告，在你把上方的笔记模板改成 "填空题" 之前，你的挖空将不会生效。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
