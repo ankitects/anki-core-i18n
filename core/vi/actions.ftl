@@ -23,6 +23,7 @@ actions-rebuild = Tái tạo
 actions-rename = Đổi tên
 actions-rename-deck = Đổi tên Bộ thẻ
 actions-rename-tag = Đổi tên Dấu
+actions-rename-with-parents = Đổi tên Thẻ mẹ
 actions-remove-tag = Xóa Dấu
 actions-replay-audio = Phát lại Âm thanh
 actions-reposition = Định vị lại
