@@ -26,6 +26,7 @@ browsing-change-deck = Đổi Bộ thẻ
 browsing-change-deck2 = Đổi Bộ thẻ...
 browsing-change-note-type = Đổi Kiểu Phiếu
 browsing-change-note-type2 = Đổi Kiểu Phiếu...
+browsing-change-notetype = Đổi Kiểu Phiếu
 browsing-change-to = Đổi { $val } thành:
 browsing-clear-unused = Xóa Thẻ không sử dụng
 browsing-clear-unused-tags = Xóa Dấu không sử dụng
