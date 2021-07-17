@@ -6,7 +6,7 @@ browsing-all-card-types = 所有卡片类型
 browsing-all-fields = 所有字段
 browsing-answer = 答案
 browsing-any-cards-mapped-to-nothing-will = 所有孤立的卡片都会被删除，没有保存到卡片中的笔记也会丢失，您确定要继续么？
-browsing-any-flag = 所有标记
+browsing-any-flag = 所有旗标
 browsing-average-ease = 平均简易度
 browsing-average-interval = 平均间隔
 browsing-browser-appearance = 浏览器外观
@@ -47,7 +47,7 @@ browsing-find = <b>查找</b>
 browsing-find-and-replace = 查找并替换
 browsing-find-duplicates = 查找重复
 browsing-first-card = 第一张卡片
-browsing-flag = 标记
+browsing-flag = 旗标
 browsing-font = <b>字体</b>:
 browsing-font-size = <b>字体大小</b>:
 browsing-found-as-across-bs = 在 { $whole } 中找到 { $part } 。
@@ -64,7 +64,7 @@ browsing-move-cards-to-deck = 移动卡片到牌组:
 browsing-nd-names = { $num }: { $name }
 browsing-new = (未学习)
 browsing-new-note-type = 新笔记模板:
-browsing-no-flag = 无标记
+browsing-no-flag = 无旗标
 browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记类型
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
@@ -103,7 +103,7 @@ browsing-tag-duplicates = 复制标签
 browsing-tag-rename-warning-empty = 无法重命名没有笔记的标签。
 browsing-target-field = 目标栏目:
 browsing-toggle-showing-cards-notes = 切换显示卡片/笔记
-browsing-toggle-mark = 添加/移除标记
+browsing-toggle-mark = 添加/移除旗标
 browsing-toggle-suspend = 暂停/取消暂停
 browsing-treat-input-as-regular-expression = 以正则表达式输入
 browsing-update-saved-search = 更新为当前搜索条件
@@ -141,11 +141,11 @@ browsing-sidebar-notetypes = 笔记模板
 browsing-sidebar-saved-searches = 已保存的搜索条件
 browsing-sidebar-save-current-search = 保存当前搜索条件
 browsing-sidebar-card-state = 卡片状态
-browsing-sidebar-flags = 标记
+browsing-sidebar-flags = 旗标
 browsing-today = 今天
 browsing-studied-today = 今天学习的
 browsing-added-today = 今天添加的
-browsing-again-today = 今天再来一次的
+browsing-again-today = 今天忘记的
 browsing-edited-today = 今天编辑的
 browsing-sidebar-first-review = 首次复习
 browsing-sidebar-rescheduled = 已重新排期
@@ -155,7 +155,7 @@ browsing-sidebar-overdue = 超期的
 browsing-row-deleted = （已删除）
 browsing-removed-unused-tags-count =
     { $count ->
-       *[other] 已移除 { $count } 个未使用的标记。
+       *[other] 已移除 { $count } 个未使用的标签。
     }
 browsing-changed-new-position =
     { $count ->

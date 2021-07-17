@@ -57,14 +57,14 @@ deck-config-relearning-steps-tooltip =
     按钮后，将会在 10 分钟后重新展示。若没有提供延迟，卡片则将会
     直接改变间隔，而不会进入重新学习。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    复习卡片被标记为记忆难点之前，需要按下「重来」的次数。
+    复习卡片被标记为记忆难点之前，需要按下「忘记」的次数。
     记忆难点是耗费您大量时间的卡片，当卡片被标记为记忆难点时，
     最好的方法是重写卡片、将其删除，或是编写一段缩写、口诀之类
     的助记符号来帮助你记住这种卡片。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    「仅标记」：对笔记加上「记忆难点」的标签，并弹出一个提示。
-    「暂停卡片」：对笔记加上标签，并隐藏卡片，直到卡片被手动取消暂停。
+    「仅打标签」：对笔记打上「记忆难点」的标签，并弹出一个提示。
+    「暂停卡片」：对笔记打上标签，并隐藏卡片，直到卡片被手动取消暂停。
 
 ## Burying section
 
@@ -149,7 +149,7 @@ deck-config-interval-modifier-tooltip =
     此乘数应用于所有复习卡片，细微的调整能使 Anki 安排更为保守/激进。
     请在更改此选项前参考使用手册。
 deck-config-hard-interval-tooltip = 用于回答「困难」后的复习间隔乘数。
-deck-config-new-interval-tooltip = 用于回答「重来」后的复习间隔乘数。
+deck-config-new-interval-tooltip = 用于回答「忘记」后的复习间隔乘数。
 deck-config-minimum-interval-tooltip = 复习卡片回答「困难」后的最小间隔。
 deck-config-custom-scheduling = 自定义排期
 deck-config-custom-scheduling-tooltip = 影响整个集合。请谨慎使用！
