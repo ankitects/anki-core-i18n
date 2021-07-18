@@ -93,13 +93,17 @@ scheduling-custom-study = ଇଚ୍ଛାରୂପିତ ଅଧ୍ୟୟନ
 
 ## Scheduler upgrade
 
-scheduling-update-done = କାର୍ଯ୍ୟସୂଚୀ ସଫଳତାର ସହିତ ଅଦ୍ୟତନ ହେଲା।
+scheduling-update-soon = Anki 2.1 ଏକ ନୂତନ ଅନୁସୂଚକ ସହିତ ଆସିଥାଏ, ଯାହା ପୂର୍ବ Anki ସଂସ୍କରଣରେ ଥିବା ଅନେକ ସମସ୍ୟାକୁ ସମାଧାନ କରେ। ଏହାକୁ ଅଦ୍ୟତନ କରିବା ସୁପାରିଶ କରାଯାଇଛି।
+scheduling-update-done = ଅନୁସୂଚକ ସଫଳତାର ସହିତ ଅଦ୍ୟତନ ହେଲା।
 scheduling-update-button = ଅଦ୍ୟତନ କରନ୍ତୁ
 scheduling-update-later-button = ପରେ
 scheduling-update-more-info-button = ଅଧିକ ଜାଣନ୍ତୁ
 
 ## Other scheduling strings
 
+scheduling-automatically-play-audio = ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅଡ଼ିଓ ଚଲାନ୍ତୁ
+scheduling-description = ବର୍ଣ୍ଣନା
+scheduling-description-to-show-on-overview-screen = ସାମ୍ପ୍ରତିକ ଡେକ୍ ପାଇଁ ଓଭରଭ୍ୟୁ ସ୍କ୍ରିନରେ ଦେଖାଇବାକୁ ବର୍ଣ୍ଣନା:
 scheduling-new-cards = ନୂତନ କାର୍ଡଗୁଡ଼ିକ
 scheduling-new-cardsday = ନୂତନ ପତ୍ର/ଦିନ
 scheduling-review = ସମୀକ୍ଷା
