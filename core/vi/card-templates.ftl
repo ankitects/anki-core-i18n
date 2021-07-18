@@ -24,6 +24,7 @@ card-templates-card = Thẻ { $val }
 card-templates-card-types = Các Kiểu Thẻ
 card-templates-card-types-for = Kiểu Thẻ { $val }
 card-templates-cloze = Điền chỗ trống
+card-templates-deck-override = Ghi đè Bộ thẻ...
 card-templates-delete-the-as-card-type-and = Bạn muốn xoá kiểu thẻ '{ $template }' và { $cards } của nó?
 card-templates-enter-deck-to-place-new = Nhập bộ thẻ để thêm thẻ mới kiểu { $val }, hoặc để trống:
 card-templates-enter-new-card-position-1 = Nhập vị trí thẻ mới (1...{ $val }):

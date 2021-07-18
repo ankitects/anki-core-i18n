@@ -1,6 +1,6 @@
 browsing-add-notes = Thêm phiếu...
 browsing-add-tags = Thêm Nhãn
-browsing-add-tags2 = Thêm dấu...
+browsing-add-tags2 = Thêm Nhãn...
 browsing-addon = Tiện ích
 browsing-all-card-types = Mọi loại thẻ
 browsing-all-fields = Mọi Trường tin
@@ -29,7 +29,7 @@ browsing-change-note-type2 = Đổi Kiểu Phiếu...
 browsing-change-notetype = Đổi Kiểu Phiếu
 browsing-change-to = Đổi { $val } thành:
 browsing-clear-unused = Xóa Thẻ không sử dụng
-browsing-clear-unused-tags = Xóa Dấu không sử dụng
+browsing-clear-unused-tags = Xóa Nhãn không sử dụng
 browsing-confirm-saved-search-overwrite = Đã tồn tại một tìm kiếm đã lưu với tên { $name }. Bạn có muốn ghi đè lên nó?
 browsing-created = Đã tạo
 browsing-ctrlandshiftande = Ctrl+Shift+E
@@ -83,7 +83,7 @@ browsing-question = Câu hỏi
 browsing-queue-bottom = Cuối hàng đợi: { $val }
 browsing-queue-top = Đầu hàng đợi: { $val }
 browsing-randomize-order = Trộn ngẫu nhiên thứ tự
-browsing-remove-tags = Xóa dấu...
+browsing-remove-tags = Xóa Nhãn...
 browsing-replace-with = <b>Thay Bằng</b>:
 browsing-reposition = Định vị lại...
 browsing-reposition-new-cards = Định vị lại Thẻ Mới
@@ -100,7 +100,7 @@ browsing-start-position = Vị trí bắt đầu:
 browsing-step = Bước:
 browsing-suspended = Dừng
 browsing-tag-duplicates = Nhãn Trùng
-browsing-tag-rename-warning-empty = Bạn không thể đổi tên Dấu mà không có Phiếu.
+browsing-tag-rename-warning-empty = Bạn không thể đổi tên Nhãn mà không có Phiếu.
 browsing-target-field = Trường tin đích:
 browsing-toggle-showing-cards-notes = Chuyển đổi cách hiển thị Thẻ/Phiếu
 browsing-toggle-mark = Chuyển đổi Dấu
@@ -136,7 +136,7 @@ browsing-sidebar-collapse = Thu gọn
 browsing-sidebar-expand-children = Mở rộng Tập con
 browsing-sidebar-collapse-children = Thu gọn Tập con
 browsing-sidebar-decks = Bộ thẻ
-browsing-sidebar-tags = Dấu
+browsing-sidebar-tags = Nhãn
 browsing-sidebar-notetypes = Loại Phiếu
 browsing-sidebar-saved-searches = Tìm kiếm đã lưu
 browsing-sidebar-save-current-search = Tìm kiếm đã lưu gần đây
@@ -150,12 +150,12 @@ browsing-edited-today = Đã sửa hôm nay
 browsing-sidebar-first-review = Ôn tập đầu
 browsing-sidebar-rescheduled = Đặt lịch lại
 browsing-sidebar-due-today = Đến hạn
-browsing-sidebar-untagged = Đã bỏ Dấu
+browsing-sidebar-untagged = Đã bỏ Nhãn
 browsing-sidebar-overdue = Quá hạn
 browsing-row-deleted = (đã xóa)
 browsing-removed-unused-tags-count =
     { $count ->
-       *[other] Đã xóa { $count } Dấu không sử dụng
+       *[other] Đã xóa { $count } Nhãn không sử dụng
     }
 browsing-changed-new-position =
     { $count ->
