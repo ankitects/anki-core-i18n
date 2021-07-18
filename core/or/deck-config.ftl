@@ -30,6 +30,9 @@ deck-config-new-insertion-order = ସନ୍ନିବେଶ କ୍ରମ
 
 ## Ordering section
 
+deck-config-ordering-title = ପ୍ରଦର୍ଶନ କ୍ରମ
+deck-config-new-gather-priority = ନୂତନ ପତ୍ର ପ୍ରାଥମିକତା ସଂଗ୍ରହ କରେ
+deck-config-new-gather-priority-deck = ଡେକ୍
 deck-config-new-card-sort-order = ନୂତନ ପତ୍ର ସଜାଇବା କ୍ରମ
 deck-config-review-mix-mix-with-reviews = ସମୀକ୍ଷାଗୁଡ଼ିକ ସହ ମିଶ୍ରଣ କରନ୍ତୁ
 deck-config-review-mix-show-after-reviews = ସମୀକ୍ଷା ପରେ ଦେଖାନ୍ତୁ
@@ -64,6 +67,7 @@ deck-config-name-prompt = ନାମ:
 
 deck-config-remove-group = ଗୋଷ୍ଠୀ ଅପସାରଣ କରନ୍ତୁ
 deck-config-confirm-normal = { $name } କୁ ଅପସାରଣ କରିବେ କି?
+deck-config-confirm-remove-name = { $name } କୁ ଅପସାରଣ କରିବେ କି?
 
 ## Other Buttons
 
