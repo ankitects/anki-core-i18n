@@ -7,8 +7,8 @@ database-check-card-properties =
     }
 database-check-missing-templates =
     { $count ->
-        [one] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟିଏ କାର୍ଡ ବିଲୋପ କରାଯାଇଛି।
-       *[other] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟି କାର୍ଡ ବିଲୋପ କରାଯାଇଛି।
+        [one] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟିଏ ପତ୍ର ବିଲୋପ କରାଯାଇଛି।
+       *[other] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟି ପତ୍ର ବିଲୋପ କରାଯାଇଛି।
     }
 database-check-field-count =
     { $count ->
@@ -24,6 +24,16 @@ database-check-duplicate-card-ords =
     { $count ->
         [one] ନକଲି ଟେମ୍ପଲେଟ୍ ସହ { $count }ଟିଏ ପତ୍ର ବିଲୋପ ହୋଇଛି।
        *[other] ନକଲି ଟେମ୍ପଲେଟ୍ ସହ { $count }ଟି ପତ୍ର ବିଲୋପ ହୋଇଛି।
+    }
+database-check-missing-decks =
+    { $count ->
+        [one] { $count }ଟିଏ ନିଖୋଜ ଡେକ୍ ସ୍ଥିର ହୋଇଛି।
+       *[other] { $count }ଟି ନିଖୋଜ ଡେକ୍ ସ୍ଥିର ହୋଇଛି।
+    }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] ଅବୈଧ UTF-8 ବର୍ଣ୍ଣ ସହିତ { $count }ଟିଏ ନୋଟ୍ ସ୍ଥିର ହୋଇଛି।
+       *[other] ଅବୈଧ UTF-8 ବର୍ଣ୍ଣ ସହିତ { $count }ଟି ନୋଟ୍ ସ୍ଥିର ହୋଇଛି।
     }
 
 ## Progress info
