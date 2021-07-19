@@ -1,9 +1,19 @@
 database-check-corrupt = ସଂଗ୍ରହ ଫାଇଲ୍ ତ୍ରୁଟିଗ୍ରସ୍ତ। ଦୟାକରି ଏକ ସ୍ୱୟଂଚାଳିତ ବ୍ୟାକଅପ୍ ରୁ ପୁନରୁଦ୍ଧାର କରନ୍ତୁ।
 database-check-rebuilt = ଡାଟାବେସ୍ ପୁନଃନିର୍ମାଣ ଏବଂ ଅପ୍ଟିମାଇଜ୍ ହୋଇଛି।
+database-check-card-properties =
+    { $count ->
+        [one] { $count }ଟିଏ ଅବୈଧ ପତ୍ର ଗୁଣଧର୍ମ ସ୍ଥିର ହୋଇଛି।
+       *[other] { $count }ଟି ଅବୈଧ ପତ୍ର ଗୁଣଧର୍ମ ସ୍ଥିର ହୋଇଛି।
+    }
 database-check-missing-templates =
     { $count ->
         [one] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟିଏ କାର୍ଡ ବିଲୋପ କରାଯାଇଛି।
        *[other] ନିଖୋଜ ଟେମ୍ପଲେଟ୍ ସହିତ { $count }ଟି କାର୍ଡ ବିଲୋପ କରାଯାଇଛି।
+    }
+database-check-field-count =
+    { $count ->
+        [one] ଭୁଲ୍ କ୍ଷେତ୍ର ଗଣନା ସହିତ { $count }ଟିଏ ନୋଟ୍ ସ୍ଥିର ହୋଇଛି।
+       *[other] ଭୁଲ୍ କ୍ଷେତ୍ର ଗଣନା ସହିତ { $count }ଟି ନୋଟ୍ ସ୍ଥିର ହୋଇଛି।
     }
 database-check-card-missing-note =
     { $count ->
