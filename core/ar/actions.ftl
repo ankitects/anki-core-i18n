@@ -23,6 +23,7 @@ actions-rebuild = إعادة إنشاء
 actions-rename = إعادة تسمية
 actions-rename-deck = تغيير اسم الرزمة
 actions-rename-tag = إعادة تسمية الوسم
+actions-rename-with-parents = تغيير الاسم الكامل
 actions-remove-tag = حذف الوسم
 actions-replay-audio = إعادة تشغيل الصوت
 actions-reposition = تغيير الموضع
