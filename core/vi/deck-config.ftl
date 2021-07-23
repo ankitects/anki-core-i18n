@@ -25,6 +25,11 @@ deck-config-limit-deck-v3 =
     Khi học một bộ bài có Tập con chứa bên trong nó, giới hạn đặt trên mỗi
     Tập con điều chỉnh số Thẻ tối đa được rút ra từ bộ bài cụ thể đó.
     Giới hạn của bộ bài được chọn điều chỉnh tổng số Thẻ sẽ xuất hiện.
+deck-config-limit-new-bound-by-reviews =
+    Giới hạn ôn tập ảnh hưởng đến giới hạn mới. Ví dụ, nếu giới hạn xem xét của bạn là
+    đặt thành 200 và bạn có 190 thẻ ôn tập đang chờ, tối đa 10 thẻ mới sẽ
+    được giới thiệu. Nếu bạn đã đạt đến giới hạn ôn tập, sẽ không có thẻ mới
+    được xem.
 
 ## New Cards section
 
@@ -45,11 +50,8 @@ deck-config-bury-review-siblings = Hoãn các thẻ anh em của thẻ ôn tập
 deck-config-ordering-title = Thứ tự hiển thị
 deck-config-new-gather-priority = Ưu tiên nhóm thẻ mới
 deck-config-new-gather-priority-deck = Bộ thẻ
-deck-config-new-gather-priority-position = Vị trí
 deck-config-new-card-sort-order = Thứ tự sắp xếp thẻ mới
-deck-config-sort-order-card-template-then-position = Mẫu thẻ, sau đó là vị trí
 deck-config-sort-order-card-template-then-random = Mẫu thẻ, sau đó là ngẫu nhiên
-deck-config-sort-order-position = Sắp xếp (nhóm các Thẻ anh em lại)
 deck-config-sort-order-random = Ngẫu nhiên
 deck-config-new-review-priority = Ưu tiên thẻ mới/ôn tập
 deck-config-new-review-priority-tooltip = Thời điểm hiển thị thẻ mới liên quan đến thẻ ôn tập.
@@ -102,3 +104,7 @@ deck-config-reviews-too-low =
     Nếu thêm{ $cards ->
        *[other] thẻ mới mỗi ngày
     }, giới hạn ôn tập nên đặt ít nhất
+
+## Selecting a deck
+
+deck-config-which-deck = Bạn muốn bộ thẻ nào?
