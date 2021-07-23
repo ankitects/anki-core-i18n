@@ -7,3 +7,5 @@ adding-note-deleted = (Đã xóa phiếu)
 adding-shortcut = Phím tắt: { $val }
 adding-the-first-field-is-empty = Trường tin đầu tiên trống.
 adding-you-have-a-cloze-deletion-note = Bạn có một kiểu Phiếu Điền chỗ trống nhưng chưa tạo chỗ trống nào. Bạn có muốn tiếp tục không?
+adding-cloze-outside-cloze-notetype = Xóa khoảng điền chỉ có thể được sử dụng trên loại phiếu điền.
+adding-cloze-outside-cloze-field = Xóa khoảng điền chỉ có thể được sử dụng trong những trường sử dụng lọc 'điền từ'. Đây thường là trường đầu tiên.

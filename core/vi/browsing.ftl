@@ -91,6 +91,7 @@ browsing-reschedule = Lập lịch lại
 browsing-search-bar-hint = Tìm kiếm Thẻ/Phiếu (nhập văn bản, sau đó nhấn Enter)
 browsing-search-in = Tìm kiếm ở:
 browsing-search-within-formatting-slow = Tìm trong định dạng (chậm)
+browsing-selected-notes-only = Chỉ các phiếu được chọn
 browsing-shift-position-of-existing-cards = Dịch chuyển vị trí các thẻ hiện hữu
 browsing-sidebar = Thanh bên
 browsing-sidebar-filter = Thanh bộ lọc bên
