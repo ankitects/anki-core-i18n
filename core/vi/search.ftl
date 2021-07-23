@@ -26,6 +26,7 @@ search-invalid-number = dự tính một số trong "`{ $context }`", nhưng đ�
 search-invalid-whole-number = dự tính một số nguyên trong "`{ $context }`", nhưng đã tìm thấy "`{ $provided }`".
 search-invalid-positive-whole-number = dự tính một số nguyên dương trong "`{ $context }`", nhưng đã tìm thấy "`{ $provided }`".
 search-invalid-negative-whole-number = dự tính một số nguyên nhỏ hơn hoặc bằng 0 trong "`{ $context }`", nhưng đã tìm thấy "`{ $provided }`".
+search-invalid-answer-button = dự tính một đáp án trong khoảng từ 1-4 trong "`{ $context }`", nhưng lại tìm thấy "`{ $context }`",
 
 ## Column labels in browse screen
 

@@ -1,8 +1,8 @@
-importing-failed = Nhập thất bại.
 importing-failed-debug-info = Nhập thất bại. Thông tin gỡ lỗi:
 importing-aborted = Đã huỷ: { $val }
 importing-added-duplicate-with-first-field = Đã thêm thẻ trùng với trường đầu tiên: { $val }
 importing-allow-html-in-fields = Cho phép HTML trong trường tin
+importing-anki-files-are-from-a-very = Các tệp .anki là từ một phiên bản rất cũ của Anki. Bạn có thể nhập chúng bằng Anki 2.0, có sẵn trên trang web Anki.
 importing-appeared-twice-in-file = Xuất hiện 2 lần trong tập tin: { $val }
 importing-by-default-anki-will-detect-the = Mặc định, Anki sẽ phát hiện ký tự giữa các trường tin, ví dụ như tab, phẩy...v.v Nếu Anki phát hiện không chính xác, bạn có thể nhập vào đây. Dùng \t để biểu diễn ký tự tab.
 importing-change = Thay đổi
@@ -53,4 +53,8 @@ importing-note-unchanged =
 importing-note-updated =
     { $count ->
        *[other] Đã cập nhật { $count } phiếu
+    }
+importing-processed-media-file =
+    { $count ->
+       *[other] Xử lý { $count } thư mục phương tiện
     }
