@@ -127,6 +127,9 @@ deck-config-sort-order-due-date-then-deck = Datum zkoušení, poté balík
 deck-config-sort-order-deck-then-due-date = Balík, poté datum zkoušení
 deck-config-sort-order-ascending-intervals = Intervaly vzestupně
 deck-config-sort-order-descending-intervals = Intervaly sestupně
+deck-config-display-order-will-use-current-deck =
+    Anki použije pořadí zobrazování balíku, který jste vybrali 
+    k učení, a ne podřízených balíků, které může mít.
 
 ## Timer section
 
