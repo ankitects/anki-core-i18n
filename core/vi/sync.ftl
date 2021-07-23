@@ -11,10 +11,21 @@ sync-media-complete = Đồng bộ hóa phương tiện đã hoàn tất.
 sync-media-failed = Đồng bộ hóa phương tiện không thành công.
 sync-media-aborting = Đang hủy đồng bộ hóa phương tiện...
 sync-media-aborted = Đã hủy đồng bộ hóa phương tiện.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
+sync-media-disabled = Đã tắt đồng bộ hóa phương tiện.
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Nhật ký đồng bộ hóa phương tiện
 
 ## Error messages / dialogs
 
+sync-conflict = Chỉ một bản sao của Anki có thể đồng bộ hóa với tài khoản của bạn trong cùng một lúc. Vui lòng đợi một vài phút, sau đó thử lại.
+sync-server-error = AnkiWeb đã gặp sự cố. Vui lòng thử lại trong vài phút.
+sync-client-too-old = Phiên bản Anki của bạn quá cũ. Vui lòng cập nhật lên phiên bản mới nhất để tiếp tục đồng bộ hóa.
 sync-wrong-pass = ID hoặc mật khẩu Anki Web không chính xác; xin vui lòng thử lại.
+sync-resync-required = Vui lòng đồng bộ lại. Nếu thông báo này tiếp tục xuất hiện, vui lòng đăng trên trang web hỗ trợ.
+sync-must-wait-for-end = Anki hiện đang đồng bộ hóa. Vui lòng đợi quá trình đồng bộ hóa hoàn tất, sau đó thử lại.
+sync-confirm-empty-download = Bộ sưu tập gốc không có thẻ. Tải xuống từ AnkiWeb?
 sync-conflict-explanation =
     Bộ thẻ của bạn ở đây và trên AnkiWeb khác nhau đến nỗi không thể kết hợp với nhau được, vì vậy cần phải ghi đè một bộ lên bộ còn lại.
     
@@ -28,9 +39,17 @@ sync-password-label = Mật khẩu:
 sync-account-required =
     <h1>Yêu cầu tài khoản</h1>
     Bạn cần có tài khoản (miễn phí) để đồng bộ bộ sưu tập. Xin vui lòng <a href="{ $link }">đăng ký</a> tài khoản rồi nhập thông tin chi tiết vào phía dưới.
+sync-sanity-check-failed = Vui lòng sử dụng chức năng Kiểm tra Cơ sở dữ liệu, sau đó đồng bộ hóa lại. Nếu sự cố vẫn tiếp diễn, vui lòng buộc đồng bộ hóa hoàn toàn trong màn hình tùy chọn.
+sync-clock-off = Không thể đồng bộ hóa - đồng hồ của bạn không được đặt đúng giờ.
+sync-upload-too-large =
+    Tệp bộ sưu tập của bạn quá lớn để gửi đến AnkiWeb. Bạn có thể giảm kích thước
+    bằng cách loại bỏ bất kỳ bộ bài không mong muốn nào (tùy chọn xuất chúng trước), và 
+    sau đó sử dụng Kiểm tra Cơ sở dữ liệu để thu nhỏ kích thước tệp xuống. ({ $details })
 
 ## Buttons
 
+sync-media-log-button = Nhật ký Phương tiện
+sync-abort-button = Hủy bỏ
 sync-download-from-ankiweb = Tải xuống từ AnkiWeb
 sync-upload-to-ankiweb = Tải lên AnkiWeb
 sync-cancel-button = Hủy
