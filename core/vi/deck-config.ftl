@@ -89,29 +89,93 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Thứ tự hiển thị
 deck-config-new-gather-priority = Ưu tiên nhóm thẻ mới
+deck-config-new-gather-priority-tooltip =
+    `Bộ thẻ`: tập hợp các thẻ từ mỗi bộ thẻ con theo thứ tự và dừng khi
+    giới hạn của bộ thẻ được chọn bị vượt quá. Như vậy sẽ nhanh hơn và cho phép bạn
+    sắp xếp ưu tiên các bộ thẻ con gần đầu hơn.
+    
+    `Vị trí`: tập hợp các thẻ từ tất cả các bộ thẻ trước khi chúng được sắp xếp. Điều này
+    đảm bảo các thẻ xuất hiện ở vị trí cố định (do #) thứ tự, ngay cả khi giới hạn mẹ là
+    không đủ cao để xem các thẻ từ tất cả các bộ thẻ.
 deck-config-new-gather-priority-deck = Bộ thẻ
+deck-config-new-gather-priority-position-lowest-first = Vị trí tăng dần
+deck-config-new-gather-priority-position-highest-first = Vị trí giảm dần
 deck-config-new-card-sort-order = Thứ tự sắp xếp thẻ mới
+deck-config-new-card-sort-order-tooltip =
+    Làm thế nào các thẻ được sắp xếp sau khi chúng được tập hợp. Theo mặc định, Anki sắp xếp
+    theo mẫu thẻ trước, để tránh nhiều thẻ của cùng một phiếu giống nhau
+    xuất hiện nối tiếp nhau.
+deck-config-sort-order-card-template-then-lowest-position = Theo mẫu thẻ, sau đó là vị trí tăng dần
+deck-config-sort-order-card-template-then-highest-position = Theo mẫu thẻ, sau đó là vị trí giảm dần
 deck-config-sort-order-card-template-then-random = Mẫu thẻ, sau đó là ngẫu nhiên
+deck-config-sort-order-lowest-position = Vị trí tăng dần
+deck-config-sort-order-highest-position = Vị trí giảm dần
 deck-config-sort-order-random = Ngẫu nhiên
 deck-config-new-review-priority = Ưu tiên thẻ mới/ôn tập
 deck-config-new-review-priority-tooltip = Thời điểm hiển thị thẻ mới liên quan đến thẻ ôn tập.
+deck-config-interday-step-priority = Ưu tiên học/ôn tập trong ngày
+deck-config-interday-step-priority-tooltip = Khi nào hiển thị (lại) các thẻ học tập vượt qua ranh giới trong ngày.
 deck-config-review-mix-mix-with-reviews = Trộn các thẻ ôn tập
 deck-config-review-mix-show-after-reviews = Xem sau các thẻ ôn tập
 deck-config-review-mix-show-before-reviews = Xem trước các thẻ ôn tập
 deck-config-review-sort-order = Xem lại thứ tự sắp xếp
+deck-config-review-sort-order-tooltip =
+    Thứ tự mặc định ưu tiên các thẻ bị xếp vào hàng đợi lâu nhất, do đó
+    Nếu bạn có bị tồn đọng thẻ ôn tập, những hàng đợi lâu nhất sẽ xuất hiện
+    đầu tiên. Nếu bạn có một lượng lớn tồn đọng sẽ mất hơn vài ngày để giải quyết
+    sạch sẽ, hoặc nếu muốn xem các thẻ theo thứ tự bộ thẻ con, bạn có thể tìm thẻ thay thế
+    sắp xếp thứ tự thích hợp.
+deck-config-sort-order-due-date-then-random = Theo ngày đến hạn, sau đó ngẫu nhiên
+deck-config-sort-order-due-date-then-deck = Theo ngày đến hạn, sau đó theo bộ thẻ
+deck-config-sort-order-deck-then-due-date = Theo bộ thẻ, sau đó theo ngày đến hạn
+deck-config-sort-order-ascending-intervals = Theo khoảng cách tăng dần
+deck-config-sort-order-descending-intervals = Theo khoảng cách giảm dần
+deck-config-display-order-will-use-current-deck =
+    Anki sẽ sử dụng thứ tự hiển thị từ bộ thẻ mà bạn
+    chọn để học, chứ không phải bất kỳ bộ thẻ con có thể có nào khác.
 
 ## Timer section
 
+deck-config-timer-title = Bộ hẹn giờ
+deck-config-maximum-answer-secs = Số giây trả lời tối đa
+deck-config-maximum-answer-secs-tooltip =
+    Số giây tối đa được ghi lại cho một thẻ ôn tập đơn. Nếu một câu trả lời
+    vượt quá thời gian này (vì bạn đã thoát ra khỏi màn hình chẳng hạn), 
+    thời gian thực hiện sẽ được ghi lại dưới dạng giới hạn bạn đã đặt.
+deck-config-show-answer-timer-tooltip =
+    Trong màn hình xem lại, hiển thị bộ đếm số giây bạn
+    ôn tập từng thẻ.
 
 ## Audio section
 
+deck-config-audio-title = Âm thanh
+deck-config-disable-autoplay = Không tự động phát âm thanh
+deck-config-always-include-question-audio-tooltip =
+    Liệu câu hỏi dạng âm thanh có nên được đưa vào khi tác vụ Phát lại
+    được sử dụng hay không trong lúc nhìn vào mặt trả lời của thẻ.
 
 ## Advanced section
 
 deck-config-advanced-title = Nâng cao
+deck-config-maximum-interval-tooltip =
+    Số ngày tối đa mà một thẻ ôn tập sẽ đợi. Khi các thẻ ôn tập
+    đạt đến giới hạn, `Khó`, `Tốt` và `Dễ` đều sẽ có cùng độ trễ .
+    Bạn đặt càng ngắn, khối lượng công việc của bạn sẽ càng lớn.
+deck-config-starting-ease-tooltip =
+    Thẻ mới bắt đầu với bội số dễ. Theo mặc định, nút `Tốt` trên một
+    thẻ mới đã học sẽ hoãn lần ôn tập tiếp theo gấp 2,5 lần độ trễ trước đó.
+deck-config-easy-bonus-tooltip =
+    Một bội số bổ sung được áp dụng cho khoảng thời gian của thẻ ôn tập khi bạn xếp 
+    chúng vào `Dễ`.
+deck-config-interval-modifier-tooltip =
+    Bội số này được áp dụng cho tất cả các thẻ ôn tập và các điều chỉnh thứ cấp có thể được sử dụng 
+    để làm cho Anki thận trọng hơn hoặc tích cực hơn trong việc tự lập lịch trình. Vui lòng xem
+    hướng dẫn sử dụng trước khi thay đổi tùy chọn này.
 deck-config-hard-interval-tooltip = Cấp số được áp dụng cho một khoảng thời gian ôn tập khi trả lời `Khó`.
 deck-config-new-interval-tooltip = Cấp số được áp dụng cho một khoảng thời gian ôn tập khi trả lời `Lại`.
 deck-config-minimum-interval-tooltip = Khoảng thời gian tối thiểu được cung cấp cho thẻ ôn tập sau khi trả lời `Lại '.
+deck-config-custom-scheduling = Tùy chỉnh lên lịch
+deck-config-custom-scheduling-tooltip = Ảnh hưởng đến toàn bộ bộ sưu tập. Sử dụng bạn sẽ có nguy cơ gặp rủi ro!
 
 ## Adding/renaming
 
@@ -136,14 +200,21 @@ deck-config-revert-button-tooltip = Khôi phục cài đặt gốc.
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-markdown-hint = Sẽ xuất hiện dưới dạng văn bản trên Anki 2.1.40 trở xuống.
+deck-config-description-new-handling = Anki 2.1.41+ Chuyển hướng
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Bộ bài mẹ có giới hạn là { $cards ->
+       *[other] { $cards } thẻ
+    }sẽ ghi đè lên giới hạn này.
 deck-config-reviews-too-low =
     Nếu thêm{ $cards ->
        *[other] thẻ mới mỗi ngày
     }, giới hạn ôn tập nên đặt ít nhất
+deck-config-learning-step-above-graduating-interval = Khoảng thời gian hoàn thành ít nhất phải dài bằng bước học cuối cùng của bạn.
+deck-config-good-above-easy = Khoảng thời gian dễ ít nhất phải dài bằng khoảng thời gian hoàn thành.
+deck-config-relearning-steps-above-minimum-interval = Khoảng thời gian trôi đi tối thiểu ít nhất phải dài bằng bước học lại cuối cùng của bạn.
 
 ## Selecting a deck
 
