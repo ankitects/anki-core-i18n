@@ -33,17 +33,57 @@ deck-config-limit-new-bound-by-reviews =
 
 ## New Cards section
 
+deck-config-learning-steps = Bước học
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Độ trễ thường là phút (vd `1m`) hoặc ngày (vd: `2d`), nhưng giờ (vd `1h`) và giây (vd`30s`) cũng được hỗ trợ.
+deck-config-learning-steps-tooltip =
+    Một hoặc nhiều lần trì hoãn, được phân tách bằng dấu cách. Thời gian trễ đầu tiên sẽ được sử dụng
+    khi bạn nhấn nút `Lại` trên thẻ mới, và theo mặc định là 1 phút.
+    Nút `Tốt` sẽ chuyển sang bước tiếp theo, theo mặc định là 10 phút.
+    Khi tất cả các bước đã được thông qua, thẻ này sẽ trở thành một thẻ ôn tập, và
+    sẽ xuất hiện vào một ngày khác. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    Số ngày phải chờ trước khi hiển thị lại thẻ, sau khi nút `Tốt`
+    được nhấn vào bước học cuối cùng.
+deck-config-easy-interval-tooltip =
+    Số ngày phải chờ trước khi hiển thị lại thẻ, sau khi nút `Dễ`
+    được sử dụng để xóa ngay một thẻ khỏi quá trình học.
+deck-config-new-insertion-order = Lệnh chèn
+deck-config-new-insertion-order-tooltip =
+    Kiểm soát vị trí (do #) thẻ mới được chỉ định khi bạn thêm thẻ mới.
+    Các thẻ có số đến hạn thấp hơn sẽ được hiển thị đầu tiên khi học. Thay đổi
+    tùy chọn này sẽ tự động cập nhật vị trí hiện có của các thẻ mới.
 deck-config-new-insertion-order-sequential = Tuần tự (thẻ cũ nhất trước)
 deck-config-new-insertion-order-random = Ngẫu nhiên
 
 ## Lapses section
 
+deck-config-relearning-steps = Bước học lại
+deck-config-relearning-steps-tooltip =
+    Độ trễ bằng 0 hoặc nhiều hơn, được phân tách bằng dấu cách. Theo mặc định, nhấn nút `Lại`
+    trên thẻ ôn tập sẽ hiển thị lại sau 10 phút. Nếu không có sự chậm trễ
+    xen vào, thẻ sẽ thay đổi khoảng thời gian, mà không cần nhập
+    phân chia lại. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Số lần `Lại` cần được nhấn vào thẻ ôn tập trước khi nó được
+    được đánh dấu là một con đỉa. Đỉa là loại thẻ ngốn rất nhiều thời gian của bạn, và
+    khi một thẻ được đánh dấu là một con đỉa, bạn nên viết lại nó, xóa nó, hoặc
+    nghĩ ra một phương pháp ghi nhớ để giúp bạn nhớ nó.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Chỉ Nhãn`: Thêm nhãn "đỉa" vào phiếu và hiển thị cửa sổ bật lên.
+    
+    `Ngừng Thẻ`: Ngoài việc gắn nhãn cho phiếu, hãy ẩn thẻ cho đến khi nó
+    không bị tạm dừng theo cách thủ công.
 
 ## Burying section
 
 deck-config-bury-title = Đang tạm hoãn
 deck-config-bury-new-siblings = Hoãn các thẻ anh em của thẻ mới cho tới ngày tiếp theo
 deck-config-bury-review-siblings = Hoãn các thẻ anh em của thẻ ôn tập cho tới ngày tiếp theo
+deck-config-bury-tooltip =
+    Cho dù các thẻ khác cùng phiếu (vd các thẻ đảo, liền kề
+    với khoảng điền) sẽ bị trì hoãn cho đến ngày hôm sau.
 
 ## Ordering section
 
