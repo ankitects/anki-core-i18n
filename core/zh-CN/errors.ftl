@@ -8,3 +8,4 @@ errors-100-tags-max =
     列出不想要的更简单，怯弱您选取了上层标签，则无需
     再选取下层标签。
 errors-multiple-notetypes-selected = 请仅从一种笔记模板选取笔记。
+errors-please-check-database = 请使用“检查数据库”功能，然后再试一次。

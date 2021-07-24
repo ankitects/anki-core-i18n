@@ -71,7 +71,7 @@ browsing-note = 笔记模板
 browsing-note-initial = 笔
 browsing-notes-tagged = 已添加标签的笔记
 browsing-nothing = 无
-browsing-only-new-cards-can-be-repositioned = 只有新卡片可以被重新排序.
+browsing-only-new-cards-can-be-repositioned = 只有新卡片可以被重排位置。
 browsing-optional-filter = 可选过滤器：
 browsing-override-back-template = 忽略背面模版
 browsing-override-font = 覆盖字体：
@@ -85,14 +85,14 @@ browsing-queue-top = 队首: { $val }
 browsing-randomize-order = 随机顺序
 browsing-remove-tags = 移除标签…
 browsing-replace-with = <b>替换</b>:
-browsing-reposition = 重新排序...
-browsing-reposition-new-cards = 重新排列新卡片
+browsing-reposition = 重排位置...
+browsing-reposition-new-cards = 重排新卡片的位置
 browsing-reschedule = 重新安排进度
 browsing-search-bar-hint = 搜索卡片/笔记（输入文本，然后按回车键）
 browsing-search-in = 搜寻位置：
 browsing-search-within-formatting-slow = 用格式搜索（耗时长）
 browsing-selected-notes-only = 仅选中的笔记
-browsing-shift-position-of-existing-cards = 改变已存在卡片状态
+browsing-shift-position-of-existing-cards = 改变现有卡片的位置
 browsing-sidebar = 侧边栏
 browsing-sidebar-filter = 侧边栏筛选条件
 browsing-sort-field = 排序字段
@@ -160,7 +160,7 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-       *[other] 已改变 { $count } 张新卡片的顺序。
+       *[other] 已改变 { $count } 张新卡片的位置。
     }
 browsing-reparented-decks =
     { $count ->

@@ -101,7 +101,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = 超期
 statistics-intervals-title = 复习间隔
-statistics-intervals-subtitle = 复习卡片再次出现前的延迟。
+statistics-intervals-subtitle = 复习卡片再次出现前的间隔。
 statistics-intervals-day-range =
     { $cards ->
        *[other] { $cards }张间隔为{ $daysStart }到{ $daysEnd }天的卡片
