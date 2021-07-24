@@ -8,3 +8,4 @@ errors-100-tags-max =
     các nhãn bạn muốn thay vì những nhãn bạn không muốn đơn giản hơn, và
     không cần chọn nhãn con nếu bạn đã chọn nhãn mẹ.
 errors-multiple-notetypes-selected = Vui lòng chọn phiếu chỉ từ một loại phiếu.
+errors-please-check-database = Vui lòng sử dụng tác vụ Kiểm tra cơ sở dữ liệu, sau đó thử lại.

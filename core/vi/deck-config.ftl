@@ -201,6 +201,10 @@ deck-config-revert-button-tooltip = Khôi phục cài đặt gốc.
 ## overview screen.
 
 deck-config-description-new-handling = Anki 2.1.41+ Chuyển hướng
+deck-config-description-new-handling-hint =
+    Xử lý đầu vào như đánh dấu và làm sạch đầu vào HTML. Khi được bật, các
+    mô tả cũng sẽ được hiển thị trên màn hình chào mừng.
+    Đánh dấu sẽ xuất hiện dưới dạng văn bản trên bản Anki 2.1.40 trở xuống.
 
 ## Warnings shown to the user
 

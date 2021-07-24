@@ -1,5 +1,9 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
 card-templates-blank = trống
+card-templates-changes-will-affect-notes =
+    { $count ->
+       *[other] Những thay đổi bên dưới sẽ ảnh hưởng đến { $count } phiếu sử dụng loại thẻ này.
+    }
 card-templates-card-type = Loại thẻ:
 card-templates-front-template = Kiểu mẫu Mặt trước
 card-templates-back-template = Kiểu mẫu Mặt sau
@@ -11,8 +15,15 @@ card-templates-template-box = Mẫu
 card-templates-sample-cloze = Đây là  phần điền vào chỗ trống { "{{c1::" }sample{ "}}" }.
 card-templates-fill-empty = Hãy điền vào những trường trống
 card-templates-night-mode = Chế độ ban đêm
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Thêm lớp di động
 card-templates-preview-settings = Tùy chọn
+card-templates-invalid-template-number = Mẫu thẻ số { $number } trong phiếu loại '{ $notetype }' gặp sự cố.
 card-templates-identical-front = Mặt trước giống mẫu thẻ { $number }
+card-templates-no-front-field = Dự kiến ​​sẽ tìm thấy trường thay thế ở mặt trước của thẻ mẫu.
+card-templates-missing-cloze = Dự kiến ​​sẽ tìm thấy '{ "{{" }cloze:Text{ "}}" }' hoặc tương tự ở mặt trước và mặt sau của thẻ mẫu.
+card-templates-extraneous-cloze = 'cloze:' chỉ có thể được sử dụng trên loại phiếu điền.
 card-templates-see-preview = Xem bản xem trước để có thêm thông tin.
 card-templates-changes-saved = Những thay đổi đã được lưu.
 card-templates-discard-changes = Hủy bỏ thay đổi?
