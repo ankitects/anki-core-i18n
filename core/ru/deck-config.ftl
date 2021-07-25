@@ -94,6 +94,9 @@ deck-config-sort-order-due-date-then-deck = Подошел срок, затем 
 deck-config-sort-order-deck-then-due-date = Колода, затем те, чей срок подошел
 deck-config-sort-order-ascending-intervals = Возрастающие интервалы
 deck-config-sort-order-descending-intervals = Сокращающиеся интервалы
+deck-config-display-order-will-use-current-deck =
+    Anki будет использовать порядок отображения из колоды, которую вы
+    выберете для изучения, а не из имеющихся в ней подразделов.
 
 ## Timer section
 
@@ -128,6 +131,8 @@ deck-config-interval-modifier-tooltip =
 deck-config-hard-interval-tooltip = Множитель применяется к интервалу проверки при нажатии кнопки "Трудно".
 deck-config-new-interval-tooltip = Множитель применяется к интервалу проверки при нажатии кнопки "Снова".
 deck-config-minimum-interval-tooltip = Минимальный интервал, применяемый к карточке проверки при нажатии кнопки "Снова".
+deck-config-custom-scheduling = Настройка планирования
+deck-config-custom-scheduling-tooltip = Влияет на всю коллекцию. Используйте на свой страх и риск!
 
 ## Adding/renaming
 
@@ -155,8 +160,7 @@ deck-config-revert-button-tooltip = Вернуть параметр к знач�
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-markdown = Включить markdown+clean HTML
-deck-config-description-markdown-hint = Будет отображаться как текст в Anki 2.1.40 и ниже.
+deck-config-description-new-handling = Anki 2.1.41+ обработка
 
 ## Warnings shown to the user
 

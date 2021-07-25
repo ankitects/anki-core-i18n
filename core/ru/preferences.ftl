@@ -36,3 +36,5 @@ preferences-user-interface-size = Размер интерфейса
 preferences-when-adding-default-to-current-deck = По умолчанию помещать создаваемое в текущую колоду
 preferences-you-can-restore-backups-via-fileswitch = Вы можете восстановить резервную копию через «Файл» — «Сменить профиль».
 preferences-legacy-timezone-handling = Устаревшая обработка часовых поясов (с ошибками, но требуется для AnkiDroid <= 2.14)
+preferences-default-search-text = Текст поиска по умолчанию
+preferences-default-search-text-example = например, 'колода:текущая '
