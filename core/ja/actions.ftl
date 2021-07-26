@@ -30,7 +30,12 @@ actions-shortcut-key = ショートカットキーは「{ $val }」
 actions-suspend-card = カードを保留
 actions-set-due-date = 期日設定
 actions-add-note = ノートを追加
-actions-update-tag = タグを更新する
+actions-update-tag = タグを更新
+actions-update-note = ノートを更新
+actions-update-card = カードを更新
+actions-update-deck = デッキを更新
+actions-update-notetype = ノートタイプを更新
+actions-update-config = 設定を更新
 actions-card-info = カード情報
 
 ## Flags

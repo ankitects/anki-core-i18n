@@ -1,10 +1,7 @@
 browsing-add-notes = ノートを追加...
 browsing-add-tags = タグを追加
 browsing-add-tags2 = タグを追加...
-browsing-added-today = 今日追加したカード
 browsing-addon = アドオン
-browsing-again-today = 今日間違えたカード
-browsing-edited-today = 今日編集したカード
 browsing-all-card-types = 全てのカードタイプ
 browsing-all-fields = 全てのフィールド
 browsing-answer = 解答
@@ -66,8 +63,6 @@ browsing-optional-filter = オプションフィルター：
 browsing-override-back-template = 解答のテンプレート:
 browsing-override-font = フォント:
 browsing-override-front-template = 質問のテンプレート:
-browsing-place-at-end-of-new-card = 新規カードの最後に設定
-browsing-place-in-review-queue-with-interval = 次の期間内に復習を設定
 browsing-please-give-your-filter-a-name = このフィルターに名前を付けてください:
 browsing-please-select-cards-from-only-one = 一つのノートタイプからカードを選択してください。
 browsing-preview-selected-card = 選択したカードをプレビューする  ({ $val })
@@ -75,14 +70,11 @@ browsing-question = 質問
 browsing-queue-bottom = 最後: { $val }
 browsing-queue-top = 先頭: { $val }
 browsing-randomize-order = ランダムに並べ替える
-browsing-remove-current-filter = このフィルターを削除
-browsing-remove-from-your-saved-searches = フィルター「{ $val }」を削除しますか？
 browsing-remove-tags = タグを除去...
 browsing-replace-with = <b>置換文字列</b>：
 browsing-reposition = 新規カードの表示順序を変更...
 browsing-reposition-new-cards = 新規カードの表示順序を変更
 browsing-reschedule = スケジュールを変更
-browsing-save-current-filter = このフィルターを保存
 browsing-search-bar-hint = カード・ノートを検索（文字を入力し、Enterキー）
 browsing-search-in = 検索対象：
 browsing-search-within-formatting-slow = 書式済みの内容の中まで検索 (速度が低下します)
@@ -93,15 +85,14 @@ browsing-sort-field = ソートフィールド
 browsing-sorting-on-this-column-is-not = この列で並び替えることはできません。別の列を選択してください。
 browsing-start-position = 開始位置:
 browsing-step = 間隔:
-browsing-studied-today = 今日学習したカード
 browsing-suspended = 保留
 browsing-tag-duplicates = 重複にタグを付ける
 browsing-tag-rename-warning-empty = ノートのないタグ名を変更することはできません
 browsing-target-field = 対象フィールド:
-browsing-today = 今日
 browsing-toggle-mark = マークを付ける/除去する
 browsing-toggle-suspend = 保留/保留解除 を切り替える
 browsing-treat-input-as-regular-expression = 入力条件に正規表現を使う
+browsing-update-saved-search = 現在の検索で更新
 browsing-whole-collection = コレクション全体
 browsing-you-must-have-at-least-one = 最低でも一つの列は必要です。
 browsing-group =
@@ -116,6 +107,14 @@ browsing-note-deleted =
     { $count ->
        *[other] { $count }個のノートを削除しました。
     }
+browsing-notes-updated =
+    { $count ->
+       *[other] { $count }個のノートを更新しました。
+    }
+browsing-cards-updated =
+    { $count ->
+       *[other] { $count }枚のカードを更新しました。
+    }
 browsing-window-title = 検索（{ $total }枚のカード中{ $selected }枚を選択中）
 browsing-sidebar-expand-children = 子ノードを開く
 browsing-sidebar-collapse-children = 子ノードを折りたたむ
@@ -126,6 +125,9 @@ browsing-sidebar-saved-searches = 保存した検索
 browsing-sidebar-save-current-search = 検索を保存
 browsing-sidebar-card-state = カードの状態
 browsing-sidebar-flags = フラグ
-browsing-sidebar-recent = 履歴
+browsing-today = 今日
+browsing-studied-today = 今日学習したカード
+browsing-added-today = 今日追加したカード
+browsing-again-today = 今日間違えたカード
+browsing-edited-today = 今日編集したカード
 browsing-sidebar-due-today = 今日が期日
-browsing-sidebar-due-tomorrow = 明日が期日
