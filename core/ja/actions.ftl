@@ -1,5 +1,4 @@
 actions-add = 追加
-actions-blue-flag = 青フラグ
 actions-cancel = キャンセル
 actions-choose = 選択
 actions-close = 閉じる
@@ -9,7 +8,6 @@ actions-decks = デッキ
 actions-delete = 削除
 actions-export = 書き出す
 actions-filter = フィルター
-actions-green-flag = 緑フラグ
 actions-help = ヘルプ
 actions-import = 読み込む
 actions-manage = 管理...
@@ -18,10 +16,8 @@ actions-new = 新規
 actions-new-name = 新しい名前:
 actions-options = オプション
 actions-options-for = { $val } のオプション
-actions-orange-flag = 橙フラグ
 actions-preview = プレビュー
 actions-rebuild = 再構築
-actions-red-flag = 赤フラグ
 actions-rename = 名前を変更
 actions-rename-deck = デッキ名を変更
 actions-rename-tag = タグ名を変更
@@ -33,4 +29,9 @@ actions-search = 検索
 actions-shortcut-key = ショートカットキーは「{ $val }」
 actions-suspend-card = カードを保留
 actions-set-due-date = 期日設定
+actions-add-note = ノートを追加
+actions-update-tag = タグを更新する
 actions-card-info = カード情報
+
+## Flags
+
