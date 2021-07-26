@@ -1,4 +1,6 @@
 actions-add = 追加
+actions-all-selected = 選択条件すべてを含む
+actions-any-selected = 選択条件を含む
 actions-cancel = キャンセル
 actions-choose = 選択
 actions-close = 閉じる
@@ -31,14 +33,29 @@ actions-shortcut-key = ショートカットキーは「{ $val }」
 actions-suspend-card = カードを保留
 actions-set-due-date = 期日設定
 actions-forget = 破棄
+actions-answer-card = カードを回答
+actions-unbury-unsuspend = 延期解除/保留解除
+actions-add-deck = デッキを追加
 actions-add-note = ノートを追加
 actions-update-tag = タグを更新
 actions-update-note = ノートを更新
 actions-update-card = カードを更新
 actions-update-deck = デッキを更新
+actions-build-filtered-deck = デッキを構築
+actions-expand-collapse = 展開/折りたたみ
+actions-add-notetype = ノートタイプを追加
+actions-remove-notetype = ノートタイプを削除
 actions-update-notetype = ノートタイプを更新
 actions-update-config = 設定を更新
 actions-card-info = カード情報
 
 ## Flags
 
+actions-flag-number = フラグ{ $number }
+actions-flag-red = 赤
+actions-flag-orange = 橙
+actions-flag-green = 緑
+actions-flag-blue = 青
+actions-flag-pink = ピンク
+actions-flag-turquoise = 水色
+actions-flag-purple = 紫

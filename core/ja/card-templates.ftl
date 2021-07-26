@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = 空白
 card-templates-changes-will-affect-notes = ここでの内容の変更は、このカードタイプを使用している{ $count }個のノートに影響を与えます。
 card-templates-card-type = カードタイプ:
 card-templates-front-template = 表面のテンプレート
@@ -15,6 +17,7 @@ card-templates-night-mode = 夜間モード
 card-templates-add-mobile-class = モバイルクラスを追加
 card-templates-preview-settings = オプション
 card-templates-invalid-template-number = カードテンプレート{ $number }に問題があります。
+card-templates-extraneous-cloze = 「cloze:」（穴埋め）は穴埋めのノートタイプでのみ使用できます。
 card-templates-changes-saved = 変更を保存しました。
 card-templates-discard-changes = 変更を破棄しますか。
 card-templates-add-card-type = カードタイプを追加...

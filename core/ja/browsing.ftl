@@ -7,20 +7,30 @@ browsing-all-fields = 全てのフィールド
 browsing-answer = 解答
 browsing-any-cards-mapped-to-nothing-will = Nothing に設定したカードは削除されます。ノートにカードが残っていない場合は、そのノートが失われます。それでも処理を続行しますか。
 browsing-any-flag = フラグあり
+browsing-average-ease = 易しさ平均
+browsing-average-interval = 間隔平均
 browsing-browser-appearance = 検索の表示設定
 browsing-browser-options = 検索オプション
 browsing-buried = 延期
 browsing-card = カード
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
 browsing-card-list = カード一覧
 browsing-card-state = カードの状態
 browsing-cards-cant-be-manually-moved-into = フィルターデッキには手動でカードを移動できません。
+browsing-cards-deleted =
+    { $count ->
+       *[other] { $count }枚のカードを削除しました。
+    }
 browsing-change-deck = デッキを変更
 browsing-change-deck2 = デッキを変更...
 browsing-change-note-type = ノートタイプを変更
 browsing-change-note-type2 = ノートタイプを変更...
+browsing-change-notetype = ノートタイプを変更
 browsing-change-to = { $val } を以下に変更:
 browsing-clear-unused = 使用されていないタグを削除
 browsing-clear-unused-tags = 使用されていないタグを削除
+browsing-confirm-saved-search-overwrite = 「{ $name }」という名前の検索保存はすでに存在します。上書きしますか？
 browsing-created = 作成日
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = 現在のデッキ
@@ -55,7 +65,10 @@ browsing-nd-names = { $num }: { $name }
 browsing-new = (新規)
 browsing-new-note-type = 変更後のノートタイプ:
 browsing-no-flag = フラグなし
+browsing-no-selection = カードまたはノートが選択されていません。
 browsing-note = ノート
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
 browsing-notes-tagged = ノートにタグを付けました。
 browsing-nothing = なし
 browsing-only-new-cards-can-be-repositioned = 新規カードだけが表示順を変更できます。
@@ -78,6 +91,7 @@ browsing-reschedule = スケジュールを変更
 browsing-search-bar-hint = カード・ノートを検索（文字を入力し、Enterキー）
 browsing-search-in = 検索対象：
 browsing-search-within-formatting-slow = 書式済みの内容の中まで検索 (速度が低下します)
+browsing-selected-notes-only = 選択中のノートのみ
 browsing-shift-position-of-existing-cards = 既存のカードの順序を移動する
 browsing-sidebar = サイドバー
 browsing-sidebar-filter = サイドバーフィルター
