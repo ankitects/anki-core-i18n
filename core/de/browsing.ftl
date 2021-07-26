@@ -92,6 +92,7 @@ browsing-reschedule = Neu planen
 browsing-search-bar-hint = Karten/Notizen suchen (Text eingeben, dann Eingabetaste drücken)
 browsing-search-in = Suchen in:
 browsing-search-within-formatting-slow = Mit Formatierung suchen (langsam)
+browsing-selected-notes-only = Nur ausgewählte Notizen
 browsing-shift-position-of-existing-cards = Position existierender Karten verändern
 browsing-sidebar = Seitenleiste
 browsing-sidebar-filter = Seitenleiste-Filter

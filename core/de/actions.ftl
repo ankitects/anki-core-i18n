@@ -23,6 +23,7 @@ actions-rebuild = Neu erstellen
 actions-rename = Umbenennen
 actions-rename-deck = Stapel umbenennen
 actions-rename-tag = Schlagwort umbenennen
+actions-rename-with-parents = Mit übergeordneten Elementen umbenennen
 actions-remove-tag = Schlagwort entfernen
 actions-replay-audio = Erneut abspielen
 actions-reposition = Position ändern
