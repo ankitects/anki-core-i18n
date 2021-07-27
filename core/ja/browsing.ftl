@@ -103,11 +103,13 @@ browsing-suspended = 保留
 browsing-tag-duplicates = 重複にタグを付ける
 browsing-tag-rename-warning-empty = ノートのないタグ名を変更することはできません
 browsing-target-field = 対象フィールド:
+browsing-toggle-showing-cards-notes = カード/ノート表示を切り替える
 browsing-toggle-mark = マークを付ける/除去する
 browsing-toggle-suspend = 保留/保留解除 を切り替える
 browsing-treat-input-as-regular-expression = 入力条件に正規表現を使う
 browsing-update-saved-search = 現在の検索で更新
 browsing-whole-collection = コレクション全体
+browsing-window-title-notes = 検索（{ $total }個のノート中{ $selected }個を選択中）
 browsing-you-must-have-at-least-one = 最低でも一つの列は必要です。
 browsing-group =
     { $count ->
@@ -130,6 +132,8 @@ browsing-cards-updated =
        *[other] { $count }枚のカードを更新しました。
     }
 browsing-window-title = 検索（{ $total }枚のカード中{ $selected }枚を選択中）
+browsing-sidebar-expand = 広げる
+browsing-sidebar-collapse = 折りたたむ
 browsing-sidebar-expand-children = 子ノードを開く
 browsing-sidebar-collapse-children = 子ノードを折りたたむ
 browsing-sidebar-decks = デッキ
@@ -144,4 +148,21 @@ browsing-studied-today = 今日学習したカード
 browsing-added-today = 今日追加したカード
 browsing-again-today = 今日間違えたカード
 browsing-edited-today = 今日編集したカード
+browsing-sidebar-first-review = 最初の学習
+browsing-sidebar-rescheduled = スケジュール変更
 browsing-sidebar-due-today = 今日が期日
+browsing-sidebar-untagged = タグなし
+browsing-sidebar-overdue = 期限超過
+browsing-row-deleted = (削除)
+browsing-removed-unused-tags-count =
+    { $count ->
+       *[other] 使用していないタグを{ $count }個削除しました。
+    }
+browsing-changed-new-position =
+    { $count ->
+       *[other] 新規カードの位置を{ $count }枚変更しました。
+    }
+browsing-reparented-decks =
+    { $count ->
+       *[other] デッキ名を{ $count }個を変更しました。
+    }
