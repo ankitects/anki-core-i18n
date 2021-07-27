@@ -44,6 +44,7 @@ deck-config-advanced-title = 詳細設定
 
 ## Adding/renaming
 
+deck-config-name-prompt = 名前
 
 ## Removing
 

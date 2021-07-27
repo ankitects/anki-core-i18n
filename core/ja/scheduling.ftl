@@ -48,6 +48,17 @@ scheduling-how-to-custom-study = 通常のスケジュール外で学習した�
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = カスタム学習
+
+## Scheduler upgrade
+
+scheduling-update-soon = Anki 2.1 では新しいスケジューラーが使用されています。古いバージョンで発生した問題の多くが解決されているため、アップデートすることをおすすめします。
+scheduling-update-done = スケジューラーをアップデートしました。
+scheduling-update-button = アップデート
+scheduling-update-later-button = 後で
+scheduling-update-more-info-button = 詳細
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = 解答の音声・動画の前に質問の音声・動画も再生
 scheduling-at-least-one-step-is-required = 最低でも一つのステップが必要です。
 scheduling-automatically-play-audio = 音声を自動再生する
@@ -99,4 +110,12 @@ scheduling-your-changes-will-affect-multiple-decks = この変更は複数のデ
 scheduling-deck-updated =
     { $count ->
        *[other] { $count } 個のデッキを更新しました。
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+       *[other] 何日後にカードを表示しますか？
+    }
+scheduling-forgot-cards =
+    { $cards ->
+       *[other] { $cards }枚のカードをリセットしました。
     }
