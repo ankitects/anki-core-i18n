@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = デッキを新規追加 (Ctrl+N)
-decks-are-you-sure-you-wish-to = 本当に { $val } を削除しますか？
 decks-build = 作成
 decks-cards-selected-by = 枚。出題方法：
 decks-create-deck = デッキを作成
@@ -30,8 +29,5 @@ decks-repeat-failed-cards-after = 後で間違えたカードをやり直す
 decks-reschedule-cards-based-on-my-answers = このデッキの解答に基づいてカードをスケジュールし直す
 decks-study = 学習
 decks-study-deck = デッキを学習する
-decks-the-provided-search-did-not-match = 指定した検索項目は、どのカードにも一致しませんでした。検索項目を変えてみてください。
-decks-it-has-card =
-    { $count ->
-       *[other] { $count }枚のカードが含まれています。
-    }
+decks-filtered-deck-search-empty = 検索条件に一致するカードがありません。別のフィルターデッキ内にあるカードや保留中のカードが除外されている可能性があります。
+decks-unmovable-cards = 除外されたカードをすべて表示
