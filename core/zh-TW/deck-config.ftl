@@ -115,6 +115,9 @@ deck-config-sort-order-due-date-then-deck = 先按照到期日期，然後按照
 deck-config-sort-order-deck-then-due-date = 先按照牌組，然後按照到期日期
 deck-config-sort-order-ascending-intervals = 間隔由小至大
 deck-config-sort-order-descending-intervals = 間隔由大至小
+deck-config-display-order-will-use-current-deck =
+    Anki 的顯示順序將採用自您選取學習的牌組，
+    若有子牌組，則子牌組的順序將被無視。
 
 ## Timer section
 
@@ -179,6 +182,10 @@ deck-config-revert-button-tooltip = 將此設定回復為預設值。
 ## overview screen.
 
 deck-config-description-new-handling = Anki 2.1.41+ 處理方式
+deck-config-description-new-handling-hint =
+    輸入將被視為 Markdown，而 HTML 輸入將被清除。當啟用時，
+    描述也會在恭喜畫面顯示。Markdown 在 Anki 2.1.40及以下版本
+    將會以文字出現。
 
 ## Warnings shown to the user
 
