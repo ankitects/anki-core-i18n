@@ -25,8 +25,9 @@ deck-config-learning-steps = 学習ステップ
 deck-config-learning-steps-tooltip = １回あるいは複数回のステップを、半角スペースをはさんで入力します。最初のステップは、新規カードの学習で「`もう一度`」ボタンを押した場合に適用され、デフォルトでは1分後に再び表示されるように入力されています。次のステップは、新規カードの学習で「`正解`」ボタンを押した場合に適用され、デフォルトでは10分後に再び表示されるように入力されています。すべてのステップをパスすると、そのカードは復習カードとなり、別の日に表示されます。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 学習ステップの最後で「`正解`」ボタンが押された場合に、そのカードが再び表示されるまでの日数。
 deck-config-easy-interval-tooltip = 「`簡単`」ボタンが押され、直ちに学習カードから復習カードへと切り替わった場合に、そのカードが再び表示されるまでの日数。
-deck-config-new-insertion-order = 導入する順列
-deck-config-new-insertion-order-tooltip = カード作成順
+deck-config-new-insertion-order = 導入する順序
+deck-config-new-insertion-order-tooltip = 新規カードを追加したとき、そのカードに与えられる位置（新規カード番号）の決め方を選択できます。新規カード番号が低い順にカードは表示されます。このオプションを変更すると、直ちに新規カードの位置が更新されます。
+deck-config-new-insertion-order-sequential = 追加順
 deck-config-new-insertion-order-random = ランダム
 
 ## Lapses section
