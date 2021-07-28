@@ -12,6 +12,7 @@ deck-config-title = デッキ設定
 ## Daily limits section
 
 deck-config-daily-limits = １日の上限
+deck-config-new-limit-tooltip = １日に導入される新規カードの最大枚数。導入する新規カードの枚数が増加するにつれ直近の復習量が一時的に増加し、過度な学習負荷につながります。そのため、新規カードの最大枚数は１日の復習カード上限の１０分の１以下にすることをおすすめします。
 
 ## New Cards section
 
