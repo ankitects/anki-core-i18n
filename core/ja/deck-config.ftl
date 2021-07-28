@@ -37,8 +37,8 @@ deck-config-relearning-steps-tooltip = ０回あるいは複数回のステッ�
 deck-config-leech-threshold-tooltip = 復習カードを無駄（定着困難）と認定するまでに「`もう一度`」ボタンを押す回数。無駄（定着困難）カードは、あなたの時間をたくさん浪費しているカードです。カードが無駄（定着困難）とマークされた場合、そのカードを再編集するか、削除するか、あるいは記憶を助けるニーモニックを考えるなど、対策を講じることをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    「`タグのみ`」を選択した場合、そのノートに「leech」のタグがつき、ポップアップが表示されます。
-    「`カードを保留`」を選択した場合、そのノートに「leech」のタグがつき、さらに手動で保留を解除するまではカードが表示されません。
+    `タグのみ`：そのノートに「leech」のタグがつき、ポップアップが表示されます。
+    `カードを保留`：そのノートに「leech」のタグがつき、さらに手動で保留を解除するまではカードが表示されません。
 
 ## Burying section
 
@@ -56,14 +56,21 @@ deck-config-sort-order-random = ランダム
 ## Timer section
 
 deck-config-timer-title = タイマー
+deck-config-maximum-answer-secs = 最大回答秒数
+deck-config-maximum-answer-secs-tooltip =
+    カード学習に要した時間として記録する１件の回答の最大秒数。
+    この秒数を超えた場合（例えば、カード学習の途中でスクリーンから離れた場合など）、ここで設定した最大秒数がそのカードの回答に要した時間として記録されます。
+deck-config-show-answer-timer-tooltip = カード学習画面に、それぞれのカードの回答に要した時間をカウントするタイマーを表示します。
 
 ## Audio section
 
-deck-config-audio-title = 音声
+deck-config-audio-title = オーディオ
+deck-config-disable-autoplay = オーディオを自動再生しない
+deck-config-always-include-question-audio-tooltip = 答え側のカードが表示されているときに再生ボタンを押した場合、質問側のオーディオも再生するのか、ここで選択することができます。
 
 ## Advanced section
 
-deck-config-advanced-title = 詳細設定
+deck-config-advanced-title = 詳細
 
 ## Adding/renaming
 
