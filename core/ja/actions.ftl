@@ -23,6 +23,7 @@ actions-rebuild = 再構築
 actions-rename = 名前を変更
 actions-rename-deck = デッキ名を変更
 actions-rename-tag = タグ名を変更
+actions-rename-with-parents = 親デッキも併せて名前を変更
 actions-remove-tag = タグを削除
 actions-replay-audio = オーディオを再生
 actions-reposition = 並び替える
