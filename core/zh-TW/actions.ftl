@@ -23,6 +23,7 @@ actions-rebuild = 重建
 actions-rename = 重新命名
 actions-rename-deck = 重新命名牌組
 actions-rename-tag = 重新命名標籤
+actions-rename-with-parents = 重新命名（包括上層牌組）
 actions-remove-tag = 移除標籤
 actions-replay-audio = 重播音訊
 actions-reposition = 調整順序

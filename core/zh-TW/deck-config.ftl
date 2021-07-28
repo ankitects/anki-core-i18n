@@ -178,8 +178,7 @@ deck-config-revert-button-tooltip = 將此設定回復為預設值。
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-markdown = 啟用 markdown+清理 HTML
-deck-config-description-markdown-hint = 在 Anki 2.1.40 及以下版本將會顯示為文字。
+deck-config-description-new-handling = Anki 2.1.41+ 處理方式
 
 ## Warnings shown to the user
 

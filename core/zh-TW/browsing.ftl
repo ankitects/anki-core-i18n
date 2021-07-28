@@ -91,6 +91,7 @@ browsing-reschedule = 重新排程
 browsing-search-bar-hint = 搜尋卡片/筆記（輸入文字，然後按下 Enter 鍵）
 browsing-search-in = 搜尋範圍：
 browsing-search-within-formatting-slow = 搜尋（含格式，較慢）
+browsing-selected-notes-only = 僅已選取的筆記
 browsing-shift-position-of-existing-cards = 調整現有卡片的順序
 browsing-sidebar = 側邊欄
 browsing-sidebar-filter = 側邊欄篩選器
