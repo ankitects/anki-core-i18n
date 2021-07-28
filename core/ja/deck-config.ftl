@@ -71,6 +71,10 @@ deck-config-always-include-question-audio-tooltip = 答え側のカードが表�
 ## Advanced section
 
 deck-config-advanced-title = 詳細
+deck-config-maximum-interval-tooltip = 復習カードが再び表示されるまでの日数の最大値。設定した上限に達した場合、そのカードの`難しい`、`正解`、`簡単`のいずれのボタンでも同じ日数が表示されることがあります。ここでの設定日数を短くするほど、学習負荷がかかります。
+deck-config-minimum-interval-tooltip = 復習カードに`もう一度`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの日数の最小値。
+deck-config-custom-scheduling = カスタムスケジューリング
+deck-config-custom-scheduling-tooltip = すべてのコレクションに影響します。ご自分の責任でご使用ください！
 
 ## Adding/renaming
 
@@ -91,6 +95,7 @@ deck-config-save-button = 保存
 
 ## Warnings shown to the user
 
+deck-config-relearning-steps-above-minimum-interval = 復習間隔の最小日数には、最低でも再学習ステップの最終ステップの間隔と同じ長さの間隔が必要です。
 
 ## Selecting a deck
 
