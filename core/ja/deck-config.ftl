@@ -33,6 +33,12 @@ deck-config-new-insertion-order-random = ランダム
 ## Lapses section
 
 deck-config-relearning-steps = 再学習ステップ
+deck-config-relearning-steps-tooltip = ０回あるいは複数回のステップを、半角スペースをはさんで入力します。デフォルトでは、復習カードで「`もう一度`」ボタンを押すと、10分後に再び表示されるように入力されています。何も入力されていない場合は、そのカードは再学習ステップに入らずに学習間隔が変更されます。{ -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = 復習カードを無駄（定着困難）と認定するまでに「`もう一度`」ボタンを押す回数。無駄（定着困難）カードは、あなたの時間をたくさん浪費しているカードです。カードが無駄（定着困難）とマークされた場合、そのカードを再編集するか、削除するか、あるいは記憶を助けるニーモニックを考えるなど、対策を講じることをおすすめします。
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    「`タグのみ`」を選択した場合、そのノートに「leech」のタグがつき、ポップアップが表示されます。
+    「`カードを保留`」を選択した場合、そのノートに「leech」のタグがつき、さらに手動で保留を解除するまではカードが表示されません。
 
 ## Burying section
 

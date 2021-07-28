@@ -8,7 +8,7 @@ studying-bury-card = カードを延期
 studying-bury-note = ノートを延期
 studying-card-buried = カードを延期しました。
 studying-card-suspended = カードを保留しました
-studying-card-was-a-leech = 無駄なカードでした。
+studying-card-was-a-leech = このカードは定着困難です。
 studying-cards-will-be-automatically-returned-to = カードは復習が済んだら元のデッキに自動的に戻ります。
 studying-continue = 継続
 studying-delete-note = ノートを削除
@@ -42,12 +42,15 @@ studying-type-answer-unknown-field = 解答キー入力: 不明なフィール�
 studying-unbury = 延期を解除
 studying-what-would-you-like-to-unbury = 何を延期解除しますか？
 studying-you-havent-recorded-your-voice-yet = まだ録音してません。
-studying-card-studied-in = { $count ->
-   *[other] 今日は{ $count }枚のカードを
-  }
-studying-minute = { $count ->
-   *[other] { $count } 分学習しました。
-  }
-studying-note-and-its-card-deleted = { $count ->
-   *[other] ノートと{ $count }枚のカードを削除しました。
-  }
+studying-card-studied-in =
+    { $count ->
+       *[other] 今日は{ $count }枚のカードを
+    }
+studying-minute =
+    { $count ->
+       *[other] { $count } 分学習しました。
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+       *[other] ノートと{ $count }枚のカードを削除しました。
+    }
