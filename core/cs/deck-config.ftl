@@ -198,7 +198,11 @@ deck-config-revert-button-tooltip = Obnovit toto nastavení na výchozí hodnotu
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-markdown = Povolit markdown + čisté HTML
+deck-config-description-new-handling = Anki 2.1.41+ zpracování
+deck-config-description-new-handling-hint =
+    Považuje vstup za markdown a čistí HTML vstup. Když je 
+    povoleno, popis se také zobrazí na obrazovce gratulace.
+    Markdown se objeví jako text v Anki 2.1.40 a méně.
 
 ## Warnings shown to the user
 

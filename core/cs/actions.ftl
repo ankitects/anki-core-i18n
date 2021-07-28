@@ -23,6 +23,7 @@ actions-rebuild = Znovu sestavit
 actions-rename = Přejmenovat
 actions-rename-deck = Přejmenovat balík
 actions-rename-tag = Přejmenovat štítek
+actions-rename-with-parents = Přejmenovat včetně nadřazených
 actions-remove-tag = Odstranit štítek
 actions-replay-audio = Přehrát zvuk
 actions-reposition = Změnit pořadí
