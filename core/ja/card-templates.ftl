@@ -18,6 +18,7 @@ card-templates-add-mobile-class = モバイルクラスを追加
 card-templates-preview-settings = オプション
 card-templates-invalid-template-number = カードテンプレート{ $number }に問題があります。
 card-templates-identical-front = 表面側がカードテンプレート{ $number }と同一です。
+card-templates-no-front-field = 表面のカードテンプレートには「{ "{{表面}}" }」といったフィールドを指定する置換え文字列が必要です。
 card-templates-extraneous-cloze = 「cloze:」（穴埋め）は穴埋めのノートタイプでのみ使用できます。
 card-templates-see-preview = 詳細はプレビューをご覧ください。
 card-templates-changes-saved = 変更を保存しました。
