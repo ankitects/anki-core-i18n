@@ -42,9 +42,14 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
+deck-config-bury-title = 延期
+deck-config-bury-new-siblings = 新規カードの兄弟を翌日に延期する
+deck-config-bury-review-siblings = 復習カードの兄弟を翌日に延期する
+deck-config-bury-tooltip = 同じノートから作られたカード（裏表反転カード、同じノートの別の穴埋め問題など）の学習を翌日に延期します。
 
 ## Ordering section
 
+deck-config-ordering-title = 表示順序
 deck-config-new-gather-priority-deck = デッキ
 deck-config-sort-order-random = ランダム
 
