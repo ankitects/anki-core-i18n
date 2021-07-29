@@ -51,7 +51,25 @@ deck-config-bury-tooltip = 同じノートから作られたカード（裏表�
 
 deck-config-ordering-title = 表示順序
 deck-config-new-gather-priority-deck = デッキ
+deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
+deck-config-new-gather-priority-position-highest-first = 位置（降順）
+deck-config-new-card-sort-order-tooltip = カードが集められた後、それらをどのように並べるか選択できます。デフォルトでは、同一ノートから作成されたカードを続けて表示するのを防ぐため、まずはカードテンプレートによって並び替えを行うようになっています。
+deck-config-sort-order-card-template-then-lowest-position = カードテンプレートの後、位置（昇順）
+deck-config-sort-order-card-template-then-highest-position = カードテンプレートの後、位置（降順）
+deck-config-sort-order-card-template-then-random = カードテンプレートの後、ランダム
+deck-config-sort-order-lowest-position = 位置（昇順）
+deck-config-sort-order-highest-position = 位置（降順）
 deck-config-sort-order-random = ランダム
+deck-config-new-review-priority = 新規/復習の優先順序
+deck-config-new-review-priority-tooltip = 新規カードを、復習カードとの関連でいつ表示するのか選択できます。
+deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
+deck-config-review-mix-show-after-reviews = 復習の後に表示
+deck-config-review-mix-show-before-reviews = 復習の前に表示
+deck-config-sort-order-due-date-then-random = 期日の後、ランダム
+deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
+deck-config-sort-order-deck-then-due-date = デッキの後、期日
+deck-config-sort-order-ascending-intervals = 間隔（昇順）
+deck-config-sort-order-descending-intervals = 間隔（降順）
 
 ## Timer section
 
@@ -99,3 +117,4 @@ deck-config-relearning-steps-above-minimum-interval = 復習間隔の最小日�
 
 ## Selecting a deck
 
+deck-config-which-deck = どのデッキを選択しますか？
