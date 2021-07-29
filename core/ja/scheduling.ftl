@@ -82,6 +82,7 @@ scheduling-leech-action = 無駄（定着困難）カードへの処置
 scheduling-leech-threshold = 無駄（定着困難）カードと判定する忘却回数
 scheduling-maximum-interval = 復習間隔の上限
 scheduling-maximum-reviewsday = 一日あたりの復習カード出題枚数の上限
+scheduling-minimum-interval = 復習間隔の下限
 scheduling-mix-new-cards-and-reviews = 新規カードと学習カードを混ぜる
 scheduling-new-cards = 新規カード
 scheduling-new-cardsday = 一日あたりの新規カード出題枚数の上限
@@ -113,6 +114,14 @@ scheduling-deck-updated =
 scheduling-set-due-date-prompt =
     { $cards ->
        *[other] 何日後にカードを表示しますか？
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = 今日
+    1! = 明日+復習間隔をリセット
+    3-7 = 3-7日からランダムに選択
+scheduling-set-due-date-done =
+    { $cards ->
+       *[other] { $cards }枚のカードの期日を設定しました。
     }
 scheduling-forgot-cards =
     { $cards ->

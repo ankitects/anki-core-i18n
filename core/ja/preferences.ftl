@@ -1,4 +1,3 @@
-preferences-anki-21-scheduler-beta = Anki 2.1 スケジューラー（ベータ版）
 preferences-automatically-sync-on-profile-openclose = プロファイルを開閉する際に自動的に同期する
 preferences-backups = バックアップ
 preferences-backups2 = バックアップ
@@ -36,3 +35,6 @@ preferences-timebox-time-limit = タイムボックスの時間枠
 preferences-user-interface-size = ユーザーインターフェースのサイズ
 preferences-when-adding-default-to-current-deck = カード追加の時、現在のデッキを既定にする
 preferences-you-can-restore-backups-via-fileswitch = 「ファイル」→「プロファイル切替」でバックアップを復元することができます。
+preferences-legacy-timezone-handling = 旧時間帯ハンドリング (バグあり、ただしAnkiDroid 2.14以前のバージョンでは必須)
+preferences-default-search-text = ブラウザのデフォルト
+preferences-default-search-text-example = 例：'deck:current '
