@@ -135,9 +135,20 @@ deck-config-revert-button-tooltip = この設定をデフォルトに戻す。
 ## overview screen.
 
 deck-config-description-new-handling = Anki 2.1.41+ ハンドリング
+deck-config-description-new-handling-hint =
+    入力をマークダウンとして扱い、HTML入力を除去します。有効化された場合、おめでとう画面でもこの詳細が表示されます。
+    マークダウンは Anki 2.1.40 とそれ以下のバージョンではテクストとして表示されます。
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    親デッキの上限が{ $cards ->
+       *[other] { $cards }枚
+    }に設定されているため、そこでの上限がここにも適用されます。
+deck-config-reviews-too-low =
+    新規カードを１日に{ $cards ->
+       *[other] { $cards }枚導入するには、
+    }復習の上限が最低でも{ $expected }である必要があります。
 deck-config-learning-step-above-graduating-interval = 最終ステップから復習開始までの間隔は、最低でも最終ステップと同じ長さの間隔が必要です。
 deck-config-good-above-easy = 簡単と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
 deck-config-relearning-steps-above-minimum-interval = 復習間隔の最小日数には、最低でも再学習ステップの最終ステップの間隔と同じ長さの間隔が必要です。
