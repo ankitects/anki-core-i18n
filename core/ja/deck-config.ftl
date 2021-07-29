@@ -67,10 +67,15 @@ deck-config-sort-order-highest-position = 位置（降順）
 deck-config-sort-order-random = ランダム
 deck-config-new-review-priority = 新規/復習の優先順序
 deck-config-new-review-priority-tooltip = 新規カードを、復習カードとの関連でいつ表示するのか選択できます。
+deck-config-interday-step-priority = 日付をまたいだ学習（再学習）/復習の優先順序
+deck-config-interday-step-priority-tooltip = 日付をまたいだ学習（再学習）カードをどのタイミングで表示するかを選択できます。
 deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
 deck-config-review-mix-show-after-reviews = 復習の後に表示
 deck-config-review-mix-show-before-reviews = 復習の前に表示
 deck-config-review-sort-order = 復習カードの並び順
+deck-config-review-sort-order-tooltip =
+    デフォルトでは、最も長い時間を待機したカードが優先されるため、待機時間の長い順にカードが表示されます。
+    復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合、あるいはサブデッキの順番でカード学習をしたい場合など、お好みで別の並び順を選択することができます。
 deck-config-sort-order-due-date-then-random = 期日の後、ランダム
 deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
 deck-config-sort-order-deck-then-due-date = デッキの後、期日
@@ -107,16 +112,21 @@ deck-config-custom-scheduling-tooltip = すべてのコレクションに影響�
 
 ## Adding/renaming
 
+deck-config-add-group = プリセットを追加
 deck-config-name-prompt = 名前
+deck-config-rename-group = プリセットの名前を変更
+deck-config-clone-group = 同一のプリセットを追加
 
 ## Removing
 
+deck-config-remove-group = プリセットを削除
 deck-config-confirm-normal = { $name }を削除しますか？
 deck-config-confirm-remove-name = { $name }を削除しますか？
 
 ## Other Buttons
 
 deck-config-save-button = 保存
+deck-config-save-to-all-subdecks = すべてのサブデッキで保存
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
