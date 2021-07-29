@@ -90,6 +90,11 @@ deck-config-always-include-question-audio-tooltip = 答え側のカードが表�
 
 deck-config-advanced-title = 詳細
 deck-config-maximum-interval-tooltip = 復習カードが再び表示されるまでの日数の最大値。設定した上限に達した場合、そのカードの`難しい`、`正解`、`簡単`のいずれのボタンでも同じ日数が表示されることがあります。ここでの設定日数を短くするほど、学習負荷がかかります。
+deck-config-starting-ease-tooltip = 学習（再学習）ステップを完了した後の最初の復習時に適用される乗数。デフォルトでは、そこで「正解」と回答すると、前回の間隔に乗数2.5が適用されます。
+deck-config-easy-bonus-tooltip = 復習カードに「簡単」と回答した際、そのカードの復習間隔に追加して適用される乗数。
+deck-config-interval-modifier-tooltip = ここで設定する乗数はすべての復習に適用され、Ankiのスケジューリングの間隔をお好みに合わせて微調整することができます。この設定を変更する際にはマニュアルをご確認ください。
+deck-config-hard-interval-tooltip = 「難しい」と回答した際、復習間隔に適用される乗数。
+deck-config-new-interval-tooltip = 「もう一度」と回答した際、復習間隔に適用される乗数。
 deck-config-minimum-interval-tooltip = 復習カードに`もう一度`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの日数の最小値。
 deck-config-custom-scheduling = カスタムスケジューリング
 deck-config-custom-scheduling-tooltip = すべてのコレクションに影響します。ご自分の責任でご使用ください！
