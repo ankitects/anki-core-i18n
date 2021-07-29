@@ -81,6 +81,7 @@ deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
 deck-config-sort-order-deck-then-due-date = デッキの後、期日
 deck-config-sort-order-ascending-intervals = 間隔（昇順）
 deck-config-sort-order-descending-intervals = 間隔（降順）
+deck-config-display-order-will-use-current-deck = Ankiでは、選択中のデッキで設定された順序でカードが表示されます。デッキ内のサブデッキで異なる設定がされている場合でも同様です。
 
 ## Timer section
 
@@ -121,19 +122,24 @@ deck-config-clone-group = 同一のプリセットを追加
 
 deck-config-remove-group = プリセットを削除
 deck-config-confirm-normal = { $name }を削除しますか？
+deck-config-will-require-full-sync = この変更を行うには、一方の状態をもう片方に上書きする同期が必要です。他のデバイスでのカード学習や変更をまだ同期していない場合は、そちらを済ませてからこちらの同期を実行してください。
 deck-config-confirm-remove-name = { $name }を削除しますか？
 
 ## Other Buttons
 
 deck-config-save-button = 保存
 deck-config-save-to-all-subdecks = すべてのサブデッキで保存
+deck-config-revert-button-tooltip = この設定をデフォルトに戻す。
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ ハンドリング
 
 ## Warnings shown to the user
 
+deck-config-learning-step-above-graduating-interval = 最終ステップから復習開始までの間隔は、最低でも最終ステップと同じ長さの間隔が必要です。
+deck-config-good-above-easy = 簡単と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
 deck-config-relearning-steps-above-minimum-interval = 復習間隔の最小日数には、最低でも再学習ステップの最終ステップの間隔と同じ長さの間隔が必要です。
 
 ## Selecting a deck
