@@ -50,9 +50,14 @@ deck-config-bury-tooltip = 同じノートから作られたカード（裏表�
 ## Ordering section
 
 deck-config-ordering-title = 表示順序
+deck-config-new-gather-priority = 新規カード回収時の優先順序
+deck-config-new-gather-priority-tooltip =
+    `デッキ`：その日に学習する新規カードが各サブデッキからサブデッキの並び順で回収され、選択中のデッキの上限に達した時点で新規カードの回収を終了します。この設定は速度が最も速く、サブデッキの並び順の上の方の優先順序が高くなります。
+    `位置`：はじめに選択中のデッキ内にあるすべての新規カードが回収されます。この方法では新規カード番号（位置）が優先されるため、選択中のデッキの上限が低く設定されていても、それぞれのサブデッキからまんべんなくカードを表示することができます。
 deck-config-new-gather-priority-deck = デッキ
 deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
 deck-config-new-gather-priority-position-highest-first = 位置（降順）
+deck-config-new-card-sort-order = 回収された新規カードの並び順
 deck-config-new-card-sort-order-tooltip = カードが集められた後、それらをどのように並べるか選択できます。デフォルトでは、同一ノートから作成されたカードを続けて表示するのを防ぐため、まずはカードテンプレートによって並び替えを行うようになっています。
 deck-config-sort-order-card-template-then-lowest-position = カードテンプレートの後、位置（昇順）
 deck-config-sort-order-card-template-then-highest-position = カードテンプレートの後、位置（降順）
@@ -65,6 +70,7 @@ deck-config-new-review-priority-tooltip = 新規カードを、復習カード�
 deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
 deck-config-review-mix-show-after-reviews = 復習の後に表示
 deck-config-review-mix-show-before-reviews = 復習の前に表示
+deck-config-review-sort-order = 復習カードの並び順
 deck-config-sort-order-due-date-then-random = 期日の後、ランダム
 deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
 deck-config-sort-order-deck-then-due-date = デッキの後、期日
