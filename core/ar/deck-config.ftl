@@ -198,8 +198,11 @@ deck-config-revert-button-tooltip = استرجاع قيمة الإعداد ال�
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-markdown = تفعيل markdown+HTML بسيط
-deck-config-description-markdown-hint = سيظهر كنص في أنكي 2.1.40 وما تحت.
+deck-config-description-new-handling = طريقة أنكي 2.1.41+
+deck-config-description-new-handling-hint =
+    عامل النص بلغة Markdown، ونظّف مدخلات HTML. سيظهر الوصف
+    في شاشة التهنئة أيضًا عندما يكون هذا الخيار مفعلًا.
+    تظهر أكواد Markdown كنص عادي في أنكي 2.1.40 والإصدارات الأقدم.
 
 ## Warnings shown to the user
 
