@@ -144,7 +144,7 @@ browsing-sidebar-save-current-search = 検索を保存
 browsing-sidebar-card-state = カードの状態
 browsing-sidebar-flags = フラグ
 browsing-today = 今日
-browsing-studied-today = 今日学習したカード
+browsing-studied-today = 今日勉強したカード
 browsing-added-today = 今日追加したカード
 browsing-again-today = 今日間違えたカード
 browsing-edited-today = 今日編集したカード
@@ -152,7 +152,7 @@ browsing-sidebar-first-review = 最初の学習
 browsing-sidebar-rescheduled = スケジュール変更
 browsing-sidebar-due-today = 今日が期日
 browsing-sidebar-untagged = タグなし
-browsing-sidebar-overdue = 期限超過
+browsing-sidebar-overdue = 期日超過
 browsing-row-deleted = (削除)
 browsing-removed-unused-tags-count =
     { $count ->

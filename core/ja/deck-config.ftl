@@ -177,7 +177,7 @@ deck-config-reviews-too-low =
        *[other] { $cards }枚導入するには、
     }復習の上限が最低でも{ $expected }である必要があります。
 deck-config-learning-step-above-graduating-interval = 最終ステップから復習開始までの間隔は、最低でも最終ステップと同じ長さの間隔が必要です。
-deck-config-good-above-easy = 簡単と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
+deck-config-good-above-easy = 「簡単」と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
 deck-config-relearning-steps-above-minimum-interval = 忘却カードの復習開始までの間隔は、最低でも再学習ステップの最終ステップと同じ長さの間隔が必要です。
 
 ## Selecting a deck
