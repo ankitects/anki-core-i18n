@@ -75,25 +75,28 @@ deck-config-new-gather-priority-tooltip =
 deck-config-new-gather-priority-deck = デッキ
 deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
 deck-config-new-gather-priority-position-highest-first = 位置（降順）
-deck-config-new-card-sort-order = 集められた新規カードの並び順
-deck-config-new-card-sort-order-tooltip = カードが集められた後、それらをどのように並べるか選択できます。デフォルトでは、同一ノートから作成されたカードを続けて表示するのを防ぐため、まずはカードテンプレートによって並び替えを行うようになっています。
-deck-config-sort-order-card-template-then-lowest-position = カードテンプレートの後、位置（昇順）
-deck-config-sort-order-card-template-then-highest-position = カードテンプレートの後、位置（降順）
-deck-config-sort-order-card-template-then-random = カードテンプレートの後、ランダム
+deck-config-new-card-sort-order = 集められた新規カードのソート方法
+deck-config-new-card-sort-order-tooltip =
+    その日の学習のために集められた新規カードをどのように並べるのか選択できます。
+    
+    デフォルトでは、同一ノートから作成されたカードを続けて表示することを防ぐため、まずはカードテンプレート別（例えば、裏表反転ノートの表面カードなど）に並べられます。
+deck-config-sort-order-card-template-then-lowest-position = カードテンプレ後、位置（昇順）
+deck-config-sort-order-card-template-then-highest-position = カードテンプレ後、位置（降順）
+deck-config-sort-order-card-template-then-random = カードテンプレ後、ランダム
 deck-config-sort-order-lowest-position = 位置（昇順）
 deck-config-sort-order-highest-position = 位置（降順）
 deck-config-sort-order-random = ランダム
-deck-config-new-review-priority = 新規/復習の優先順序
+deck-config-new-review-priority = 新規カード表示のタイミング
 deck-config-new-review-priority-tooltip = 新規カードを、復習カードとの関連でいつ表示するのか選択できます。
-deck-config-interday-step-priority = 日付をまたいだ学習（再学習）/復習の優先順序
+deck-config-interday-step-priority = 日付をまたいだ学習（再学習）カード表示のタイミング
 deck-config-interday-step-priority-tooltip = 日付をまたいだ学習（再学習）カードをどのタイミングで表示するかを選択できます。
 deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
 deck-config-review-mix-show-after-reviews = 復習の後に表示
 deck-config-review-mix-show-before-reviews = 復習の前に表示
-deck-config-review-sort-order = 復習カードの並び順
+deck-config-review-sort-order = 復習カードのソート方法
 deck-config-review-sort-order-tooltip =
     デフォルトでは、最も長い時間を待機したカードが優先されるため、待機時間の長い順にカードが表示されます。
-    復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合、あるいはサブデッキの順番でカード学習をしたい場合など、お好みで別の並び順を選択することができます。
+    復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合、あるいはサブデッキの順番でカード学習をしたい場合など、お好みで別のソート方法を選択することができます。
 deck-config-sort-order-due-date-then-random = 期日の後、ランダム
 deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
 deck-config-sort-order-deck-then-due-date = デッキの後、期日
@@ -104,10 +107,11 @@ deck-config-display-order-will-use-current-deck = Ankiでは、選択中のデ�
 ## Timer section
 
 deck-config-timer-title = タイマー
-deck-config-maximum-answer-secs = 最大回答秒数
+deck-config-maximum-answer-secs = 最長回答秒数
 deck-config-maximum-answer-secs-tooltip =
-    カード学習に要した時間として記録する１件の回答の最大秒数。
-    この秒数を超えた場合（例えば、カード学習の途中でスクリーンから離れた場合など）、ここで設定した最大秒数がそのカードの回答に要した時間として記録されます。
+    カード学習に要した時間として記録する１件の回答の最長秒数。
+    
+    この秒数を超えた場合（例えば、カード学習の途中でスクリーンから離れた場合など）、ここで設定した最長秒数がそのカードの回答に要した時間として記録されます。
 deck-config-show-answer-timer-tooltip = カード学習画面に、それぞれのカードの回答に要した時間をカウントするタイマーを表示します。
 
 ## Audio section
@@ -119,7 +123,12 @@ deck-config-always-include-question-audio-tooltip = 答え側のカードが表�
 ## Advanced section
 
 deck-config-advanced-title = 詳細
-deck-config-maximum-interval-tooltip = 復習カードが再び表示されるまでの日数の最大値。設定した上限に達した場合、そのカードの`難しい`、`正解`、`簡単`のいずれのボタンでも同じ日数が表示されることがあります。ここでの設定日数を短くするほど、学習負荷がかかります。
+deck-config-maximum-interval-tooltip =
+    復習カードが再び表示されるまでの日数の最大値。
+    
+    設定した上限に達した場合、そのカードの「`難しい`」「`正解`」「`簡単`」のいずれのボタンでも同じ日数が表示されることがあります。
+    
+    ここでの設定日数を短くするほど、学習負荷がかかります。
 deck-config-starting-ease-tooltip = 学習（再学習）ステップを完了した後の最初の復習時に適用される乗数。デフォルトでは、そこで「正解」と回答すると、前回の間隔に乗数2.5が適用されます。
 deck-config-easy-bonus-tooltip = 復習カードに「簡単」と回答した際、そのカードの復習間隔に追加して適用される乗数。
 deck-config-interval-modifier-tooltip = ここで設定する乗数はすべての復習に適用され、Ankiのスケジューリングの間隔をお好みに合わせて微調整することができます。この設定を変更する際にはマニュアルをご確認ください。
