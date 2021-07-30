@@ -31,7 +31,7 @@ deck-config-learning-steps-tooltip =
     最初のステップは、新規カードの学習で「`もう一度`」ボタンを押した場合に適用され、デフォルトでは1分後に再び表示されるように入力されています。次のステップは、新規カードの学習で「`正解`」ボタンを押した場合に適用され、デフォルトでは10分後に再び表示されるように入力されています。すべてのステップをパスすると、そのカードは復習カードとなり、別の日に表示されます。
     
     { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = 学習ステップの最後で「`正解`」ボタンが押された場合に、そのカードが再び表示されるまでの日数。
+deck-config-graduating-interval-tooltip = 設定した最後の学習ステップで「`正解`」ボタンが押された場合に、そのカードが再び表示されるまでの日数。
 deck-config-easy-interval-tooltip = 「`簡単`」ボタンが押され、直ちに学習カードから復習カードへと切り替わった場合に、そのカードが再び表示されるまでの日数。
 deck-config-new-insertion-order = 導入する順序
 deck-config-new-insertion-order-tooltip = 新規カードを追加したとき、そのカードに与えられる位置（新規カード番号）の決め方を選択できます。新規カード番号が低い順にカードは表示されます。このオプションを変更すると、直ちに新規カードの位置が更新されます。
@@ -41,11 +41,20 @@ deck-config-new-insertion-order-random = ランダム
 ## Lapses section
 
 deck-config-relearning-steps = 再学習ステップ
-deck-config-relearning-steps-tooltip = ０回あるいは複数回のステップを、半角スペースをはさんで入力します。デフォルトでは、復習カードで「`もう一度`」ボタンを押すと、10分後に再び表示されるように入力されています。何も入力されていない場合は、そのカードは再学習ステップに入らずに学習間隔が変更されます。{ -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = 復習カードを無駄（定着困難）と認定するまでに「`もう一度`」ボタンを押す回数。無駄（定着困難）カードは、あなたの時間をたくさん浪費しているカードです。カードが無駄（定着困難）とマークされた場合、そのカードを再編集するか、削除するか、あるいは記憶を助けるニーモニックを考えるなど、対策を講じることをおすすめします。
+deck-config-relearning-steps-tooltip =
+    ０回あるいは複数回のステップを、半角スペースをはさんで入力します。
+    
+    デフォルトでは、復習カードで「`もう一度`」ボタンを押すと、10分後に再び表示されるように入力されています。何も入力されていない場合は、そのカードは再学習ステップに入らずに学習間隔が変更されます。
+    
+    { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    復習カードを無駄（定着困難）と判定するまでに「`もう一度`」ボタンを押す回数。
+    
+    無駄（定着困難）カードは、あなたの時間をたくさん浪費しているカードです。カードが無駄（定着困難）と判定された場合、そのカードを再編集するか、削除するか、あるいは記憶を助けるニーモニックを考えるなど、対策を講じることをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `タグのみ`：そのノートに「leech」のタグがつき、ポップアップが表示されます。
+    
     `カードを保留`：そのノートに「leech」のタグがつき、さらに手動で保留を解除するまではカードが表示されません。
 
 ## Burying section
@@ -58,14 +67,15 @@ deck-config-bury-tooltip = 同じノートから作られたカード（裏表�
 ## Ordering section
 
 deck-config-ordering-title = 表示順序
-deck-config-new-gather-priority = 新規カード回収時の優先順序
+deck-config-new-gather-priority = 新規カードを集めるときの優先順序
 deck-config-new-gather-priority-tooltip =
-    `デッキ`：その日に学習する新規カードが各サブデッキからサブデッキの並び順で回収され、選択中のデッキの上限に達した時点で新規カードの回収を終了します。この設定は速度が最も速く、サブデッキの並び順の上の方の優先順序が高くなります。
-    `位置`：はじめに選択中のデッキ内にあるすべての新規カードが回収されます。この方法では新規カード番号（位置）が優先されるため、選択中のデッキの上限が低く設定されていても、それぞれのサブデッキからまんべんなくカードを表示することができます。
+    `デッキ`：その日に学習する新規カードがそれぞれのサブデッキからサブデッキの並び順で集められ、選択中のデッキの一日あたりのカード出題枚数の上限に達した時点で集めるのを終了します。この設定は速度が最も速く、サブデッキの並び順の上の方の優先順序が高くなる特徴があります。
+    
+    `位置`：はじめに選択中のデッキ内にあるすべての新規カードが集められます。この方法では新規カード番号（位置）が優先されるため、選択中のデッキの一日あたりのカード出題枚数の上限が低く設定されていても、それぞれのサブデッキからまんべんなくカードを表示することができます。
 deck-config-new-gather-priority-deck = デッキ
 deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
 deck-config-new-gather-priority-position-highest-first = 位置（降順）
-deck-config-new-card-sort-order = 回収された新規カードの並び順
+deck-config-new-card-sort-order = 集められた新規カードの並び順
 deck-config-new-card-sort-order-tooltip = カードが集められた後、それらをどのように並べるか選択できます。デフォルトでは、同一ノートから作成されたカードを続けて表示するのを防ぐため、まずはカードテンプレートによって並び替えを行うようになっています。
 deck-config-sort-order-card-template-then-lowest-position = カードテンプレートの後、位置（昇順）
 deck-config-sort-order-card-template-then-highest-position = カードテンプレートの後、位置（降順）
@@ -115,7 +125,7 @@ deck-config-easy-bonus-tooltip = 復習カードに「簡単」と回答した�
 deck-config-interval-modifier-tooltip = ここで設定する乗数はすべての復習に適用され、Ankiのスケジューリングの間隔をお好みに合わせて微調整することができます。この設定を変更する際にはマニュアルをご確認ください。
 deck-config-hard-interval-tooltip = 「難しい」と回答した際、復習間隔に適用される乗数。
 deck-config-new-interval-tooltip = 「もう一度」と回答した際、復習間隔に適用される乗数。
-deck-config-minimum-interval-tooltip = 復習カードに`もう一度`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの日数の最小値。
+deck-config-minimum-interval-tooltip = 復習カードに`もう一度`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの最短日数。
 deck-config-custom-scheduling = カスタムスケジューリング
 deck-config-custom-scheduling-tooltip = すべてのコレクションに影響します。ご自分の責任でご使用ください！
 
@@ -159,7 +169,7 @@ deck-config-reviews-too-low =
     }復習の上限が最低でも{ $expected }である必要があります。
 deck-config-learning-step-above-graduating-interval = 最終ステップから復習開始までの間隔は、最低でも最終ステップと同じ長さの間隔が必要です。
 deck-config-good-above-easy = 簡単と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
-deck-config-relearning-steps-above-minimum-interval = 復習間隔の最小日数には、最低でも再学習ステップの最終ステップの間隔と同じ長さの間隔が必要です。
+deck-config-relearning-steps-above-minimum-interval = 忘却カードの復習開始までの間隔は、最低でも再学習ステップの最終ステップと同じ長さの間隔が必要です。
 
 ## Selecting a deck
 
