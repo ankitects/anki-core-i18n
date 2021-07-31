@@ -32,7 +32,7 @@ deck-config-learning-steps = 学习阶段
 -deck-config-delay-hint = 间隔时间可为分钟（如「5m」）或天（如「2d」），且小时（如「1h」）和秒（如「30s」）也支持。
 deck-config-learning-steps-tooltip =
     一或多段间隔，用空格分隔。第一段间隔为您学习新卡片时，
-    按下「重來」按钮后的间隔时间，默认值为 1 分钟。按下「良好」按钮
+    按下「忘记」按钮后的间隔时间，默认值为 1 分钟。按下「良好」按钮
     将会前进到下一个阶段，默认值为 10 分钟。一旦通过了所有阶段，
     卡片将会成为复习卡片，并将会择日出现。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
@@ -53,7 +53,7 @@ deck-config-new-insertion-order-random = 随机
 
 deck-config-relearning-steps = 重新学习阶段
 deck-config-relearning-steps-tooltip =
-    零或多段间隔，用空格分隔。在默认设置下，复习卡片按下「重來」
+    零或多段间隔，用空格分隔。在默认设置下，复习卡片按下「忘记」
     按钮后，将会在 10 分钟后重新展示。若没有提供间隔，卡片则将会
     直接使用遗忘间隔，而不会进入重新学习阶段。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
