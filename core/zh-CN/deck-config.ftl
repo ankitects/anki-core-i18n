@@ -179,6 +179,11 @@ deck-config-revert-button-tooltip = 将此设置重置为默认值。
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ 处理方式
+deck-config-description-new-handling-hint =
+    输入将被当作 Markdown，而 HTML 输入将被清除。当生效时，
+    描述也会在恭喜界面显示。Markdown 在 Anki 2.1.40及以下版本
+    将会以纯文本的形式显示。
 
 ## Warnings shown to the user
 
