@@ -1,5 +1,4 @@
 actions-add = ଯୋଡ଼ନ୍ତୁ
-actions-blue-flag = ନୀଳ ପତାକା
 actions-cancel = ବାତିଲ୍
 actions-choose = ବାଛନ୍ତୁ
 actions-close = ବନ୍ଦ କରନ୍ତୁ
@@ -9,7 +8,6 @@ actions-decks = ଡେକଗୁଡ଼ିକ
 actions-delete = ଅପସାରଣ କରନ୍ତୁ
 actions-export = ରପ୍ତାନି
 actions-filter = ଛାଣନ୍ତୁ
-actions-green-flag = ସବୁଜ ପତାକା
 actions-help = ସହାୟତା
 actions-import = ଆମଦାନୀ
 actions-manage = ପରିଚାଳନା କରନ୍ତୁ...
@@ -18,10 +16,8 @@ actions-new = ନୂତନ
 actions-new-name = ନୂତନ ନାମ:
 actions-options = ବିକଳ୍ପଗୁଡ଼ିକ
 actions-options-for = { $val } ପାଇଁ ବିକଳ୍ପଗୁଡ଼ିକ
-actions-orange-flag = କମଳା ପତାକା
 actions-preview = ପୂର୍ବାବଲୋକନ
 actions-rebuild = ପୁନଃନିର୍ମାଣ
-actions-red-flag = ନାଲି ପତାକା
 actions-rename = ପୁନଃନାମକରଣ କରନ୍ତୁ
 actions-rename-deck = ଡେକ୍ କୁ ପୁନଃ ନାମକରଣ କରନ୍ତୁ
 actions-rename-tag = ଟ୍ୟାଗକୁ ପୁନଃ ନାମକରଣ କରନ୍ତୁ
@@ -41,9 +37,20 @@ actions-update-note = ନୋଟ୍ ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-update-card = କାର୍ଡ ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-update-deck = ଡେକ୍ ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-forget-card = କାର୍ଡ ଭୁଲିଯାଆନ୍ତୁ
-actions-set-flag = ପତାକା ନ୍ୟସ୍ତ କରନ୍ତୁ
 actions-build-filtered-deck = ଡେକ୍ ନିର୍ମାଣ କରନ୍ତୁ
 actions-add-notetype = ନୋଟ୍-ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ
 actions-remove-notetype = ନୋଟ୍-ପ୍ରକାର ଅପସାରଣ କରନ୍ତୁ
 actions-update-notetype = ନୋଟ୍-ପ୍ରକାର ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-update-config = ବିନ୍ୟାସ ଅଦ୍ୟତନ କରନ୍ତୁ
+
+## Flags
+
+actions-flag-number = ପତାକା { $number }
+actions-flag-red = ନାଲି
+actions-flag-orange = କମଳା
+actions-flag-green = ସବୁଜ
+actions-flag-blue = ନୀଳ
+actions-flag-pink = ଗୋଲାପୀ
+actions-flag-turquoise = ଫୀରୋଜା
+actions-flag-purple = ବାଇଗଣୀ
+actions-set-flag = ପତାକା ନ୍ୟସ୍ତ କରନ୍ତୁ

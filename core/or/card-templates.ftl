@@ -19,6 +19,7 @@ card-templates-night-mode = ରାତ୍ରି ମୋଡ୍
 card-templates-add-mobile-class = ମୋବାଇଲ୍ କ୍ଲାସ୍ ଯୋଡନ୍ତୁ
 card-templates-preview-settings = ବିକଳ୍ପଗୁଡ଼ିକ
 card-templates-invalid-template-number = କାର୍ଡ ଟେମ୍ପଲେଟ୍ { $number } ରେ ଏକ ସମସ୍ୟା ଅଛି।
+card-templates-see-preview = ଅଧିକ ସୂଚନା ପାଇଁ ପୂର୍ବାବଲୋକନ ଦେଖନ୍ତୁ।
 card-templates-changes-saved = ପରିବର୍ତ୍ତନଗୁଡିକ ସଞ୍ଚୟ ହୋଇଛି।
 card-templates-discard-changes = ପରିବର୍ତ୍ତନଗୁଡ଼ିକୁ ପରିତ୍ୟାଗ କରିବେ କି?
 card-templates-add-card-type = କାର୍ଡ ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ...
