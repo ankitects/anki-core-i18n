@@ -30,6 +30,11 @@ database-check-missing-decks =
         [one] { $count }ଟିଏ ନିଖୋଜ ଡେକ୍ ସ୍ଥିର ହୋଇଛି।
        *[other] { $count }ଟି ନିଖୋଜ ଡେକ୍ ସ୍ଥିର ହୋଇଛି।
     }
+database-check-revlog-properties =
+    { $count ->
+        [one] ଅବୈଧ ଗୁଣଧର୍ମ ସହ { $count }ଟିଏ ସମୀକ୍ଷା ଏଣ୍ଟ୍ରି ସ୍ଥିର ହୋଇଛି।
+       *[other] ଅବୈଧ ଗୁଣଧର୍ମ ସହ { $count }ଟି ସମୀକ୍ଷା ଏଣ୍ଟ୍ରି ସ୍ଥିର ହୋଇଛି।
+    }
 database-check-notes-with-invalid-utf8 =
     { $count ->
         [one] ଅବୈଧ UTF-8 ବର୍ଣ୍ଣ ସହିତ { $count }ଟିଏ ନୋଟ୍ ସ୍ଥିର ହୋଇଛି।

@@ -29,7 +29,13 @@ studying-show-answer = ଉତ୍ତର ଦେଖନ୍ତୁ
 studying-study-now = ବର୍ତ୍ତମାନ ଅଧ୍ୟୟନ କରନ୍ତୁ
 studying-suspend = ନିଲମ୍ବନ କରନ୍ତୁ
 studying-suspend-note = ନୋଟ୍ ନିଲମ୍ବିତ କରନ୍ତୁ
+studying-this-is-a-special-deck-for = ସାଧାରଣ ଅନୁସୂଚୀ ବାହାରେ ଅଧ୍ୟୟନ କରିବା ପାଇଁ ଏହା ଏକ ସ୍ୱତନ୍ତ୍ର ଡେକ୍।
 studying-to-review = ସମୀକ୍ଷା କରିବାକୁ
 studying-unbury = ସ୍ଥଗିତରୁ ଫେରାଇ ଆଣ
 studying-what-would-you-like-to-unbury = ଆପଣ କ'ଣ ସ୍ଥଗିତରୁ ଫେରାଇ ଆଣିବାକୁ ଚାହାଁନ୍ତି?
 studying-you-havent-recorded-your-voice-yet = ଆପଣ ଏପର୍ଯ୍ୟନ୍ତ ନିଜ ସ୍ୱର ରେକର୍ଡ କରିନାହାଁନ୍ତି।
+studying-minute =
+    { $count ->
+        [one] { $count } ମିନିଟ୍।
+       *[other] { $count } ମିନିଟ୍।
+    }

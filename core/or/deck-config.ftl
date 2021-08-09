@@ -21,6 +21,7 @@ deck-config-daily-limits = ଦୈନିକ ସୀମା
 
 deck-config-learning-steps = ଶିଖିବା ପଦକ୍ଷେପ
 deck-config-new-insertion-order = ସନ୍ନିବେଶ କ୍ରମ
+deck-config-new-insertion-order-sequential = କ୍ରମିକ (ପ୍ରଥମେ ପୁରାତନ ପତ୍ର)
 
 ## Lapses section
 
@@ -75,11 +76,14 @@ deck-config-confirm-remove-name = { $name } କୁ ଅପସାରଣ କରି�
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-markdown = Markdown+clean HTML ସକ୍ଷମ କରନ୍ତୁ
-deck-config-description-markdown-hint = Anki 2.1.40 ଏବଂ ତା'ଠାରୁ କମ୍ ରେ ପାଠ୍ୟ ଭାବରେ ଦୃଶ୍ୟମାନ ହେବ।
+deck-config-description-new-handling = Anki 2.1.41+ ନିୟନ୍ତ୍ରଣ
+deck-config-description-new-handling-hint =
+    ଇନପୁଟ୍ କୁ Markdown ଭାବରେ ବିବେଚନା କରେ, ଏବଂ HTML ଇନପୁଟ୍ ସଫା କରେ। ସକ୍ଷମ ହୋଇଥିବା ବେଳେ, ଅଭିନନ୍ଦନ ସ୍କ୍ରିନରେ ବର୍ଣ୍ଣନା ମଧ୍ୟ ଦେଖାଯିବ।
+    Markdown Anki 2.1.40 ଏବଂ ତା’ଠାରୁ କମ୍ ରେ ପାଠ୍ୟ ଭାବରେ ଦୃଶ୍ୟମାନ ହେବ।
 
 ## Warnings shown to the user
 
 
 ## Selecting a deck
 
+deck-config-which-deck = ଆପଣ କେଉଁ ଡେକ୍ ପସନ୍ଦ କରିବେ?

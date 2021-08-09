@@ -5,6 +5,7 @@ decks-deck = ଡେକ୍
 decks-decreasing-intervals = କମୁଥିବା ବ୍ୟବଧାନ
 decks-delete-deck = ଡେକ୍ ବିଲୋପ କରନ୍ତୁ
 decks-enable-second-filter = ଦ୍ୱିତୀୟ ଫିଲ୍ଟର୍ ସକ୍ଷମ କରନ୍ତୁ
+decks-get-shared = ଅଂଶୀଦାର ହୋଇଥିବା ଡେକ୍ ପାଆନ୍ତୁ
 decks-import-file = ଫାଇଲ୍ ଆମଦାନୀ କରନ୍ତୁ
 decks-increasing-intervals = ବଢ଼ୁଥିବା ବ୍ୟବଧାନ
 decks-latest-added-first = ସର୍ବଶେଷରେ ଯୋଡ଼ା ଯାଇଥିବା ପ୍ରଥମେ

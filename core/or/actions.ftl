@@ -42,6 +42,7 @@ actions-add-notetype = ନୋଟ୍-ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ
 actions-remove-notetype = ନୋଟ୍-ପ୍ରକାର ଅପସାରଣ କରନ୍ତୁ
 actions-update-notetype = ନୋଟ୍-ପ୍ରକାର ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-update-config = ବିନ୍ୟାସ ଅଦ୍ୟତନ କରନ୍ତୁ
+actions-card-info = ପତ୍ର ସୂଚନା
 
 ## Flags
 
