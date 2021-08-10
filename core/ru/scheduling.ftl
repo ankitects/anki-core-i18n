@@ -102,7 +102,7 @@ scheduling-today-new-limit-reached =
     Вы можете увеличить лимит в настройках, но, пожалуйста,
     имейте в виду, что чем больше новых карточек вы просмотрите,
     тем больше вам надо будет повторять в ближайшее время.
-scheduling-buried-cards-found = Одна или несколько карточек отложены и будут показаны завтра. Вы можете { $unburyThem } если хотите увидеть их сейчас.
+scheduling-buried-cards-found = Одна или несколько карточек отложены и будут показаны завтра. Вы можете { $unburyThem }, если хотите увидеть их сейчас.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = вернуть их
