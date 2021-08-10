@@ -29,5 +29,5 @@ decks-repeat-failed-cards-after = Повторить забытые карточ
 decks-reschedule-cards-based-on-my-answers = Перепланировать карточки на основе моих ответов в этой колоде
 decks-study = Учить
 decks-study-deck = Учить колоду
-decks-filtered-deck-search-empty = Совпадений не найдено. Карточки могли быть исключены (если они из другой отфильтрованной колоды) или отложены.
+decks-filtered-deck-search-empty = Совпадений не найдено. Карточки могли быть исключены или находиться в другой отфильтрованной колоде.
 decks-unmovable-cards = Показать все исключённые карточки
