@@ -64,6 +64,7 @@ deck-config-always-include-question-audio-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = ବିକଶିତ
+deck-config-custom-scheduling-tooltip = ସମଗ୍ର ସଂଗ୍ରହକୁ ପ୍ରଭାବିତ କରେ। ଆପଣଙ୍କ ନିଜ ଦାୟିତ୍ୱରେ ବ୍ୟବହାର କରନ୍ତୁ!
 
 ## Adding/renaming
 
