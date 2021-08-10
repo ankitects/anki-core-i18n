@@ -1,5 +1,6 @@
 actions-add = ଯୋଡ଼ନ୍ତୁ
 actions-all-selected = ସମସ୍ତ ମନୋନୀତ
+actions-any-selected = ଯେକୌଣସି ମନୋନୀତ
 actions-cancel = ବାତିଲ୍
 actions-choose = ବାଛନ୍ତୁ
 actions-close = ବନ୍ଦ କରନ୍ତୁ
@@ -26,6 +27,7 @@ actions-remove-tag = ଟ୍ୟାଗ୍ ଅପସାରଣ କରନ୍ତୁ
 actions-replay-audio = ଅଡିଓ ପୁଣି ଚଲାନ୍ତୁ
 actions-save = ସଞ୍ଚୟ
 actions-search = ଖୋଜନ୍ତୁ
+actions-select = ଚୟନ କରନ୍ତୁ
 actions-shortcut-key = Shortcut key: { $val }
 actions-suspend-card = କାର୍ଡ ନିଲମ୍ବିତ କରନ୍ତୁ
 actions-forget = ଭୁଲିଯାଅ

@@ -38,6 +38,8 @@ card-templates-delete-the-as-card-type-and = '{ $template }' କାର୍ଡ ପ
 card-templates-enter-deck-to-place-new = ନୂତନ { $val } କାର୍ଡଗୁଡ଼ିକ ରଖିବା ପାଇଁ ଡେକ୍ ପ୍ରବେଶ କରନ୍ତୁ, କିମ୍ବା ଖାଲି ଛାଡ଼ିଦିଅନ୍ତୁ:
 card-templates-enter-new-card-position-1 = ନୂତନ କାର୍ଡ ସ୍ଥିତି ପ୍ରବେଶ କରନ୍ତୁ (1...{ $val }):
 card-templates-flip = ଓଲଟାଅ
+card-templates-remove-card-type = ପତ୍ର ପ୍ରକାର ଅପସାରଣ କରନ୍ତୁ...
+card-templates-rename-card-type = ପତ୍ର ପ୍ରକାରର ନାମ ପରିବର୍ତ୍ତନ କରନ୍ତୁ...
 card-templates-card-count =
     { $count ->
         [one] { $count }ଟିଏ ପତ୍ର

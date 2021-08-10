@@ -16,6 +16,9 @@ deck-config-title = ଡେକ୍ ବିକଳ୍ପଗୁଡ଼ିକ
 ## Daily limits section
 
 deck-config-daily-limits = ଦୈନିକ ସୀମା
+deck-config-review-limit-tooltip =
+    ଗୋଟିଏ ଦିନରେ ଦେଖାଇବାକୁ ସର୍ବାଧିକ ସମୀକ୍ଷା ପତ୍ରର ସଂଖ୍ୟା,
+    ଯଦି ପତ୍ରଗୁଡ଼ିକ ସମୀକ୍ଷା ପାଇଁ ପ୍ରସ୍ତୁତ ଅଟନ୍ତି।
 
 ## New Cards section
 
