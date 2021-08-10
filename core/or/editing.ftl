@@ -22,6 +22,7 @@ editing-mathjax-chemistry = MathJax ରସାୟନବିଜ୍ଞାନ
 editing-media = ମିଡ଼ିଆ
 editing-record-audio = ଅଡ଼ିଓ ରେକର୍ଡ କର
 editing-remove-formatting = ଫର୍ମାଟିଂ ଅପସାରଣ କର
+editing-show-duplicates = ନକଲ ଦେଖାନ୍ତୁ
 editing-subscript = ପାଦାଙ୍କ
 editing-superscript = ଉର୍ଦ୍ଧଲିପି
 editing-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ

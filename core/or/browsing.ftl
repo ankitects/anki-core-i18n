@@ -74,10 +74,19 @@ browsing-question = ପ୍ରଶ୍ନ
 browsing-remove-tags = ଟ୍ୟାଗଗୁଡ଼ିକ ଅପସାରଣ କରନ୍ତୁ...
 browsing-replace-with = <b>ୟା ସହ ବିସ୍ଥାପନ</b>:
 browsing-reschedule = ପୁନଃନିର୍ଦ୍ଧାରଣ କରନ୍ତୁ
+browsing-search-bar-hint = ପତ୍ର/ନୋଟ୍ ସନ୍ଧାନ କର (ପାଠ୍ୟ ଟାଇପ୍ କରି ଏଣ୍ଟର୍ ଦାବନ୍ତୁ)
+browsing-search-in = ଏଥିରେ ସନ୍ଧାନ କରନ୍ତୁ:
+browsing-search-within-formatting-slow = ଫର୍ମାଟିଂ ମଧ୍ୟରେ ସନ୍ଧାନ କରନ୍ତୁ (ଧୀର ଅଟେ)
+browsing-sidebar = ପାର୍ଶ୍ୱଦଣ୍ଡିକା
+browsing-sidebar-filter = ପାର୍ଶ୍ୱଦଣ୍ଡିକା ଶୋଧକ
+browsing-sorting-on-this-column-is-not = ଏହି ସ୍ତମ୍ଭରେ ସର୍ଟ କରିବା ସମର୍ଥିତ ନୁହେଁ। ଦୟାକରି ଅନ୍ୟକୁ ବାଛନ୍ତୁ।
+browsing-start-position = ଆରମ୍ଭ ସ୍ଥିତି:
 browsing-step = ପଦାଙ୍କ:
 browsing-suspended = ନିଲମ୍ବିତ ଅଛି
+browsing-tag-duplicates = ନକଲ ଟ୍ୟାଗ୍ କରନ୍ତୁ
 browsing-tag-rename-warning-empty = ଆପଣ ଏକ ନୋଟ୍ ନଥିବା ଟ୍ୟାଗର ନାମ ପରିବର୍ତ୍ତନ କରିପାରିବେ ନାହିଁ।
 browsing-target-field = ଲକ୍ଷ୍ୟ କ୍ଷେତ୍ର:
+browsing-toggle-showing-cards-notes = ପତ୍ର/ନୋଟ୍ ଦେଖାଇବା ଟୋଗଲ୍ କରନ୍ତୁ
 browsing-toggle-mark = ଚିହ୍ନ ଟୋଗଲ୍ କରନ୍ତୁ
 browsing-toggle-suspend = ନିଲମ୍ବନ ଟୋଗଲ୍ କରନ୍ତୁ
 browsing-treat-input-as-regular-expression = ଇନପୁଟ୍ କୁ ନିୟମିତ ଅଭିବ୍ୟକ୍ତି ଭାବରେ ବିବେଚନା କରନ୍ତୁ
@@ -127,8 +136,14 @@ browsing-again-today = ପୁଣି
 browsing-edited-today = ସମ୍ପାଦିତ
 browsing-sidebar-first-review = ପ୍ରଥମ ସମୀକ୍ଷା
 browsing-sidebar-untagged = ଟ୍ୟାଗ ବିହୀନ
+browsing-row-deleted = (ବିଲୋପିତ)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] { $count }ଟିଏ ଅବ୍ୟବହୃତ ଟ୍ୟାଗ୍ ଅପସାରଣ କରାଯାଇଛି।
        *[other] { $count }ଟି ଅବ୍ୟବହୃତ ଟ୍ୟାଗ୍ ଅପସାରଣ କରାଯାଇଛି।
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] { $count }ଟିଏ ନୂତନ ପତ୍ରର ସ୍ଥିତି ପରିବର୍ତ୍ତନ ହୋଇଛି।
+       *[other] { $count }ଟି ନୂତନ ପତ୍ରର ସ୍ଥିତି ପରିବର୍ତ୍ତନ ହୋଇଛି।
     }
