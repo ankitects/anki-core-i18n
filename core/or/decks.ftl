@@ -14,6 +14,7 @@ decks-minutes = ମିନିଟ୍
 decks-name-for-deck = ଡେକ୍ ପାଇଁ ନାମ:
 decks-new-deck-name = ନୂତନ ଡେକ୍ ନାମ:
 decks-no-deck = [ଡେକ୍ ନାହିଁ]
+decks-please-select-something = ଦୟାକରି କିଛି ଚୟନ କରନ୍ତୁ।
 decks-random = ଅନିୟମିତ
 decks-study = ଅଧ୍ୟୟନ
 decks-study-deck = ଅଧ୍ୟୟନ ଡେକ୍

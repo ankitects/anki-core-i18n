@@ -31,6 +31,7 @@ deck-config-new-insertion-order-sequential = କ୍ରମିକ (ପ୍ରଥମ
 
 ## Burying section
 
+deck-config-bury-title = ସ୍ଥଗିତ କରିବା
 
 ## Ordering section
 
@@ -38,6 +39,8 @@ deck-config-ordering-title = ପ୍ରଦର୍ଶନ କ୍ରମ
 deck-config-new-gather-priority = ନୂତନ ପତ୍ର ପ୍ରାଥମିକତା ସଂଗ୍ରହ କରେ
 deck-config-new-gather-priority-deck = ଡେକ୍
 deck-config-new-card-sort-order = ନୂତନ ପତ୍ର ସଜାଇବା କ୍ରମ
+deck-config-new-review-priority = ନୂତନ/ସମୀକ୍ଷା ପ୍ରାଥମିକତା
+deck-config-new-review-priority-tooltip = ସମୀକ୍ଷା ପତ୍ର ସମ୍ପର୍କରେ କେବେ ନୂତନ ପତ୍ର ଦେଖାଇବେ।
 deck-config-review-mix-mix-with-reviews = ସମୀକ୍ଷାଗୁଡ଼ିକ ସହ ମିଶ୍ରଣ କରନ୍ତୁ
 deck-config-review-mix-show-after-reviews = ସମୀକ୍ଷା ପରେ ଦେଖାନ୍ତୁ
 deck-config-review-mix-show-before-reviews = ସମୀକ୍ଷା ପୂର୍ବରୁ ଦେଖାନ୍ତୁ

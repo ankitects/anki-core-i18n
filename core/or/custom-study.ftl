@@ -22,4 +22,5 @@ custom-study-review-cards-forgotten-in-last = ଶେଷରେ ଭୁଲିଯା
 custom-study-review-forgotten-cards = ଭୁଲିଯାଇଥିବା କାର୍ଡଗୁଡ଼ିକୁ ସମୀକ୍ଷା କରନ୍ତୁ
 custom-study-select = ଚୟନ କରନ୍ତୁ
 custom-study-select-tags-to-exclude = ବାଦ୍ ଦେବା ପାଇଁ ଟ୍ୟାଗ୍ ଚୟନ କରନ୍ତୁ:
+custom-study-selective-study = ମନୋନୀତ ଅଧ୍ୟୟନ
 custom-study-study-by-card-state-or-tag = କାର୍ଡ ସ୍ଥିତି କିମ୍ବା ଟ୍ୟାଗ୍ ଦ୍ୱାରା ଅଧ୍ୟୟନ କରନ୍ତୁ

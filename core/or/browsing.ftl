@@ -60,6 +60,7 @@ browsing-nd-names = { $num }: { $name }
 browsing-new = (ନୂତନ)
 browsing-new-note-type = ନୂତନ ନୋଟ୍ ପ୍ରକାର:
 browsing-no-flag = ପତାକା ନାହିଁ
+browsing-no-selection = କୌଣସି ପତ୍ର କିମ୍ୱା ନୋଟ୍ ଚୟନ କରାଯାଇ ନାହିଁ।
 browsing-note = ନୋଟ୍
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ନୋ
