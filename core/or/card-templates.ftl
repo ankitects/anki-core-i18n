@@ -14,7 +14,7 @@ card-templates-back-preview = ପଛ ଦୃଶ୍ୟ
 card-templates-preview-box = ପୂର୍ବାବଲୋକନ
 card-templates-template-box = ଟେମ୍ପଲେଟ୍
 card-templates-sample-cloze = ଏହା ଏକ { "{{c1::" }ନମୁନା{ "}}" } କ୍ଲୋଜ ବିଲୋପ।
-card-templates-fill-empty = ଖାଲି କ୍ଷେତ୍ରଗୁଡିକ ପୂରଣ କରନ୍ତୁ
+card-templates-fill-empty = ଖାଲି କ୍ଷେତ୍ରଗୁଡ଼ିକ ପୂରଣ କରନ୍ତୁ
 card-templates-night-mode = ରାତ୍ରି ମୋଡ୍
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.

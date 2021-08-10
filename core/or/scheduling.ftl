@@ -104,6 +104,8 @@ scheduling-update-more-info-button = ଅଧିକ ଜାଣନ୍ତୁ
 scheduling-automatically-play-audio = ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅଡ଼ିଓ ଚଲାନ୍ତୁ
 scheduling-description = ବର୍ଣ୍ଣନା
 scheduling-description-to-show-on-overview-screen = ସାମ୍ପ୍ରତିକ ଡେକ୍ ପାଇଁ ଓଭରଭ୍ୟୁ ସ୍କ୍ରିନରେ ଦେଖାଇବାକୁ ବର୍ଣ୍ଣନା:
+scheduling-end = (ଶେଷ)
+scheduling-general = ସାଧାରଣ
 scheduling-new-cards = ନୂତନ କାର୍ଡଗୁଡ଼ିକ
 scheduling-new-cardsday = ନୂତନ ପତ୍ର/ଦିନ
 scheduling-review = ସମୀକ୍ଷା
@@ -111,6 +113,16 @@ scheduling-show-new-cards-after-reviews = ସମୀକ୍ଷା ପରେ ନୂ
 scheduling-show-new-cards-before-reviews = ସମୀକ୍ଷା ପୂର୍ବରୁ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-in-order-added = ଯୋଡ଼ାଯାଇଥିବା କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-in-random-order = ଅନିୟମିତ କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count }ଟିଏ ଡେକ୍ ଅଦ୍ୟତନ ହୋଇଛି।
+       *[other] { $count }ଟି ଡେକ୍ ଅଦ୍ୟତନ ହୋଇଛି।
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] କେତେ ଦିନ ମଧ୍ୟରେ ପତ୍ର ଦେଖାନ୍ତୁ?
+       *[other] କେତେ ଦିନ ମଧ୍ୟରେ ପତ୍ରଗୁଡ଼ିକୁ ଦେଖାନ୍ତୁ?
+    }
 scheduling-set-due-date-prompt-hint =
     0 = ଆଜି
     1! = ଆସନ୍ତାକାଲି+ସମୀକ୍ଷା ଅନ୍ତରାଳ ପୁନଃସେଟ୍ କର
