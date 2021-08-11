@@ -170,7 +170,7 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards } Karten
     }, welcher diesen Grenzwert überschreiben wird.
 deck-config-reviews-too-low =
-    Wenn{ $cards ->
+    Wenn { $cards ->
         [one] { $cards } neue Karte jeden Tag hinzugefügt wird
        *[other] { $cards } neue Karten jeden Tag hinzugefügt werden
     }, dann sollte Ihr Grenzwert für Wiederholungen mindestens { $expected } betragen.
