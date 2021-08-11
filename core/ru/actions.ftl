@@ -23,6 +23,7 @@ actions-rebuild = Обновить
 actions-rename = Переименовать
 actions-rename-deck = Переименовать колоду
 actions-rename-tag = Переименовать метку
+actions-rename-with-parents = Переименовать с материнскими
 actions-remove-tag = Удалить метку
 actions-replay-audio = Воспроизвести снова
 actions-reposition = Переместить

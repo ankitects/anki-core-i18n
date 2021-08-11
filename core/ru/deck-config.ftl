@@ -163,9 +163,9 @@ deck-config-description-new-handling-hint =
 deck-config-daily-limit-will-be-capped =
     Лимит материнской колоды{ $cards ->
         [one] { $cards } карточка
-        [few] { $cards } карточки(ек)
+        [few] { $cards } карточки
        *[other] { $cards } карточек
-    }, которое отменит данный лимит.
+    }, которое заменит данный лимит.
 deck-config-reviews-too-low =
     При добавлении { $cards ->
         [one] { $cards } новой карточки в день
