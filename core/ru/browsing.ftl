@@ -9,8 +9,8 @@ browsing-any-cards-mapped-to-nothing-will = Несопоставленные к�
 browsing-any-flag = Любой флажок
 browsing-average-ease = Средняя сложность
 browsing-average-interval = Средний интервал
-browsing-browser-appearance = Вид поисковика
-browsing-browser-options = Параметры поисковика
+browsing-browser-appearance = Вид списка карточек
+browsing-browser-options = Параметры списка карточек
 browsing-buried = Отложенные
 browsing-card = Карточка
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
@@ -97,6 +97,7 @@ browsing-selected-notes-only = Только выбранные заметки
 browsing-shift-position-of-existing-cards = Изменить место имеющихся карточек
 browsing-sidebar = Боковая панель
 browsing-sidebar-filter = Фильтр боковой панели
+browsing-sort-field = Поле сортировки
 browsing-sorting-on-this-column-is-not = Невозможно сортировать данную колонку. Выберите другую.
 browsing-start-position = Начало:
 browsing-step = Шаг:
@@ -110,7 +111,7 @@ browsing-toggle-suspend = Включить
 browsing-treat-input-as-regular-expression = Сделать текущий ввод шаблоном.
 browsing-update-saved-search = Обновить поиск
 browsing-whole-collection = Вся коллекция
-browsing-window-title-notes = Поиск (выбрано ({ $selected } из { $total } записей)
+browsing-window-title-notes = Список карточек (выбрано { $selected } из { $total } записей)
 browsing-you-must-have-at-least-one = Необходимо иметь хотя бы один столбец.
 browsing-group =
     { $count ->
