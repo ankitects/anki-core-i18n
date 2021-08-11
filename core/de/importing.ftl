@@ -1,6 +1,6 @@
 importing-failed-debug-info = Import fehlgeschlagen. Die Fehlermeldung lautet:
 importing-aborted = Abgebrochen: { $val }
-importing-added-duplicate-with-first-field = Doppeltes zu { $val } hinzugefügt
+importing-added-duplicate-with-first-field = Duplikat mit erstem Feld { $val } hinzugefügt
 importing-allow-html-in-fields = HTML in Feldern zulassen
 importing-anki-files-are-from-a-very = .anki-Dateien stammen von einer sehr alten Version von Anki. Sie können diese mit Anki 2.0 importieren. Diese Version steht Ihnen auf der Webseite von Anki zur Verfügung.
 importing-anki2-files-are-not-directly-importable = .anki2-Dateien können nicht direkt importiert werden - bitte importieren Sie die .apkg- oder .zip-Datei, die Sie stattdessen erhalten haben.
