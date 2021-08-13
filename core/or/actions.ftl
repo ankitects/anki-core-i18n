@@ -41,6 +41,7 @@ actions-update-card = କାର୍ଡ ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-update-deck = ଡେକ୍ ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-forget-card = କାର୍ଡ ଭୁଲିଯାଆନ୍ତୁ
 actions-build-filtered-deck = ଡେକ୍ ନିର୍ମାଣ କରନ୍ତୁ
+actions-expand-collapse = ପ୍ରସାରଣ/ସଂକୋଚନ
 actions-add-notetype = ନୋଟ୍-ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ
 actions-remove-notetype = ନୋଟ୍-ପ୍ରକାର ଅପସାରଣ କରନ୍ତୁ
 actions-update-notetype = ନୋଟ୍-ପ୍ରକାର ଅଦ୍ୟତନ କରନ୍ତୁ
