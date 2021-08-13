@@ -22,6 +22,7 @@ preferences-please-restart-anki-to-complete-language = ଭାଷା ପରିବ
 preferences-preferences = ଅଗ୍ରାଧିକାରସମୂହ
 preferences-show-next-review-time-above-answer = ଉତ୍ତର ବଟନ୍ ଉପରେ ପରବର୍ତ୍ତୀ ସମୀକ୍ଷା ସମୟ ଦେଖାନ୍ତୁ
 preferences-show-play-buttons-on-cards-with = ଅଡିଓ ଗଚ୍ଛିତ କାର୍ଡରେ ପ୍ଲେ ବଟନ୍ ଦେଖାନ୍ତୁ
+preferences-this-will-reset-any-cards-in = ଏହା ଶିଖିବାରେ ଯେକୌଣସି ପତ୍ରକୁ ପୁନଃସେଟ୍ କରିବ, ଶୋଧିତ ଡେକ୍‍ଗୁଡ଼ିକୁ ସଫା କରିବ, ଏବଂ ଅନୁସୂଚକ ସଂସ୍କରଣକୁ ପରିବର୍ତ୍ତନ କରିବ। ଅଗ୍ରସର ହେବେ?
 preferences-timebox-time-limit = ଟାଇମ୍ ବକ୍ସ ସମୟ ସୀମା
 preferences-user-interface-size = ଉପଭୋକ୍ତା ଇଣ୍ଟରଫେସ୍ ଆକାର
 preferences-legacy-timezone-handling = ପୁରୁଣା ସମୟ କ୍ଷେତ୍ର ପରିଚାଳନା (ତୃଟିପୂର୍ଣ୍ଣ ଅଟେ, କିନ୍ତୁ AnkiDroid <= 2.14 ପାଇଁ ଆବଶ୍ୟକ)
