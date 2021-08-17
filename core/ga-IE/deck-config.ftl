@@ -139,6 +139,10 @@ deck-config-sort-order-due-date-then-deck = De réir dáta staidéir, ansin de r
 deck-config-sort-order-deck-then-due-date = De réir (fo)paca, ansin de réir dáta staidéir
 deck-config-sort-order-ascending-intervals = De réir eatraimh (is lú ar dtús)
 deck-config-sort-order-descending-intervals = De réir eatraimh (is mó ar dtús)
+deck-config-display-order-will-use-current-deck =
+    Cloífear leis an ord taispeána a bhaineann leis an
+    bpaca a roghnaigh tú seachas ord taispeána a
+    bhfophacaí (más ann dóibh).
 
 ## Timer section
 
@@ -208,8 +212,11 @@ deck-config-revert-button-tooltip = Fill ar réamhshocrú sa chás seo.
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-markdown = Cur markdown+clean HTML i bhfeidhm
-deck-config-description-markdown-hint = Feicfear mar théacs iad in Anki 2.1.40 nó leaganacha níos sine.
+deck-config-description-new-handling = Anki 2.1.41 + córas
+deck-config-description-new-handling-hint =
+    Glacfar ionchur mar Markdown agus glanfar ionchur HTML. Agus é
+    roghnaithe, taispeánfar cur síos an phaca ar an scáileán 'Maith thú!'.
+    Feicfear Markdown mar théacs i leagan 2.1.40 nó níos lú d'Anki.
 
 ## Warnings shown to the user
 

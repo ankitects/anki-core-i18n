@@ -23,6 +23,7 @@ actions-rebuild = Tóg arís
 actions-rename = Athainmnigh
 actions-rename-deck = Athainmnigh Paca
 actions-rename-tag = Athainmnigh Clib
+actions-rename-with-parents = Athainmnigh le Mórphaca
 actions-remove-tag = Bain Clib
 actions-replay-audio = Cas Fuaim Arís
 actions-reposition = Bog

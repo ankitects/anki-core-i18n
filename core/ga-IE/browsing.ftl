@@ -95,6 +95,7 @@ browsing-reschedule = Athsceidealaigh
 browsing-search-bar-hint = Cuardaigh cártaí/nótaí (scríobh téacs agus brúigh Enter)
 browsing-search-in = Cuardaigh i:
 browsing-search-within-formatting-slow = Cuardaigh taobh istigh den fhormáidiú (mall)
+browsing-selected-notes-only = Ach amháin nótaí roghnaithe
 browsing-shift-position-of-existing-cards = Aistrigh cártaí atá ann cheana féin
 browsing-sidebar = Taobh-bharra
 browsing-sidebar-filter = Scagaire Taobh-bharra
