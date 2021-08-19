@@ -106,7 +106,7 @@ statistics-counts-young-cards = Óg
 statistics-counts-mature-cards = Aibí
 statistics-counts-suspended-cards = Ar fionraí
 statistics-counts-buried-cards = I bhfolach
-statistics-counts-early-cards = Luath
+statistics-counts-filtered-cards = Scagtha
 statistics-counts-learning-cards = Á bhfoghlaim
 statistics-counts-relearning-cards = Á n-athfhoghlaim
 statistics-counts-title = Líonta Cártaí
@@ -215,7 +215,6 @@ statistics-elapsed-time-years = { $amount }b
 
 ##
 
-statistics-error-fetching = Sonraí neamhbhailí - bain triail as 'Seiceáil Sonraí' chun an deacracht a scaoileadh.
 statistics-average-for-days-studied = Meán (laethanta gníomhacha)
 statistics-total = Iomlán
 statistics-days-studied = Laethanta gníomhacha

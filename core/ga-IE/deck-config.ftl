@@ -160,6 +160,7 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Fuaim
 deck-config-disable-autoplay = Ná seinntear fuaim go huathoibríoch
+deck-config-skip-question-when-replaying = Ná bac leis an gceist nuair atá an freagra á athsheinm
 deck-config-always-include-question-audio-tooltip =
     Cé acu an seinnfear fuaim na ceiste arís nó nach seinnfear nuair a
     chastar arís fuaim an fhreagra.

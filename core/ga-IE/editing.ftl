@@ -39,6 +39,7 @@ editing-subscript = Foscript
 editing-superscript = Forscript
 editing-tags = Clibeanna
 editing-to-make-a-cloze-deletion-on = Chun sliocht iomlánú a dhéanamh ar nóta, caithfear cineál an nóta a athrú i dtosach, trí 'Nótaí>Athraigh Cineál Nóta'
+editing-toggle-sticky = Greamaitheach (scorán)
 editing-underline-text = Folínigh
 editing-unordered-list = Liosta gan ord
 editing-warning-cloze-deletions-will-not-work = Rabhadh, ní bheidh aon mhaith sna sleachta iomlánaithe go dtí go mbeidh an cineál 'Iomlánú' roghnaithe thuas.
