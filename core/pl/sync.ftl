@@ -41,6 +41,10 @@ sync-account-required =
     Wymagane jest posiadanie darmowego konta, aby Twoja kolekcja mogła być synchronizowana. <a href="{ $link }">Zarejestruj</a> konto, a następnie wprowadź poniżej swoje dane.
 sync-sanity-check-failed = Użyj opcji Sprawdź bazę danych, a następnie zsynchronizuj ponownie. Jeśli problem nie ustępuje wymuś  w ustawieniach pełną synchronizację.
 sync-clock-off = Nie można zsynchronizować - twój zegar nie ma ustawionego poprawnego czasu.
+sync-upload-too-large =
+    Twoja kolekcja jest za duża, żeby przesłać ją do AnkiWeb. Możesz zmniejszyć
+    jej rozmiar usuwając niepotrzebne talie (opcjonalnie eksportując je wcześniej),
+    a następnie używając opcji Sprawdź bazę danych, by zmniejszyć rozmiar pliku. ({ $details })
 
 ## Buttons
 

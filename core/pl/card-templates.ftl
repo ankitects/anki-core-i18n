@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = puste
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Poniższe zmiany będą miały wpływ na { $count } notatkę, która używa tego typu karty.
@@ -20,6 +22,7 @@ card-templates-night-mode = Tryb nocny
 card-templates-add-mobile-class = Dodaj typ "Mobile"
 card-templates-preview-settings = Opcje
 card-templates-invalid-template-number = Problem w { $number } szablonie.
+card-templates-see-preview = Wejdź na podgląd, by zobaczyć więcej.
 card-templates-changes-saved = Zmiany zapisane.
 card-templates-discard-changes = Porzucić zmiany?
 card-templates-add-card-type = Dodaj typ karty...

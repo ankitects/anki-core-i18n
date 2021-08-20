@@ -97,7 +97,7 @@ statistics-counts-young-cards = Młode
 statistics-counts-mature-cards = Dojrzałe
 statistics-counts-suspended-cards = Zawieszone
 statistics-counts-buried-cards = Zakopane
-statistics-counts-early-cards = Wczesne
+statistics-counts-filtered-cards = Filtrowane
 statistics-counts-learning-cards = Uczone
 statistics-counts-relearning-cards = Uczone Ponownie
 statistics-counts-title = Liczby kart
@@ -194,7 +194,6 @@ statistics-elapsed-time-years = { $amount }r
 
 ##
 
-statistics-error-fetching = Znaleziono nieprawidłowe dane - użyj opcji Sprawdź Bazę Danych, aby naprawić ten problem.
 statistics-average-for-days-studied = Średnia dla dni, gdy się uczono
 statistics-total = Razem
 statistics-days-studied = Dni nauki

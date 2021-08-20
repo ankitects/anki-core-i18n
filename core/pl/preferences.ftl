@@ -36,3 +36,5 @@ preferences-user-interface-size = Rozmiar interfejsu
 preferences-when-adding-default-to-current-deck = Dodawaj domyślnie do aktualnej talii
 preferences-you-can-restore-backups-via-fileswitch = Możesz przywrócić kopie zapasowe poprzez Plik>Przełącz profil.
 preferences-legacy-timezone-handling = Przestarzała obsługa stref czasowych (posiadająca błędy, lecz wymagana do obsługi AnkiDroid <=  2.14)
+preferences-default-search-text = Domyślny tekst wyszukiwania
+preferences-default-search-text-example = np. "deck:current "
