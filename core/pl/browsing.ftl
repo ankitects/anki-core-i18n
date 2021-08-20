@@ -69,6 +69,8 @@ browsing-new-note-type = Nowy typ notatki:
 browsing-no-flag = Brak flagi
 browsing-no-selection = Nie wybrano kart ani notatek.
 browsing-note = Notatka
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
 browsing-notes-tagged = Notatki oznaczone etykietą
 browsing-nothing = Nic
 browsing-only-new-cards-can-be-repositioned = Można zmieniać pozycję tylko nowych kart.
@@ -91,6 +93,7 @@ browsing-reschedule = Zmień plan
 browsing-search-bar-hint = Szukaj kart/notatek (wpisz tekst, a następnie naciśnij Enter)
 browsing-search-in = Szukaj w:
 browsing-search-within-formatting-slow = Szukaj z formatowaniem (wolne)
+browsing-selected-notes-only = Tylko wybrane notatki
 browsing-shift-position-of-existing-cards = Zmień pozycję istniejących kart
 browsing-sidebar = Pasek boczny
 browsing-sidebar-filter = Filtr paska bocznego
@@ -102,11 +105,13 @@ browsing-suspended = Zawieszone
 browsing-tag-duplicates = Nadaj etykiety duplikatom
 browsing-tag-rename-warning-empty = Nie możesz zmienić nazwy etykiety nieprzypisanej do żadnej notatki.
 browsing-target-field = Pole docelowe:
+browsing-toggle-showing-cards-notes = Przełącz pokazywanie kart/notatek
 browsing-toggle-mark = Przełącz wyróżnienie
 browsing-toggle-suspend = Przełącz zawieszenie
 browsing-treat-input-as-regular-expression = Traktuj wartość pola jako wyrażenie regularne
 browsing-update-saved-search = Aktualizuj obecnym wyszukiwaniem
 browsing-whole-collection = Cała kolekcja
+browsing-window-title-notes = Przeglądaj (wybrano { $selected } z { $total } notatek)
 browsing-you-must-have-at-least-one = Musi istnieć przynajmniej jedna kolumna.
 browsing-group =
     { $count ->
@@ -132,6 +137,12 @@ browsing-notes-updated =
         [few] { $count } notatki zaktualizowane .
        *[other] { $count } notatek zaktualizowanych.
     }
+browsing-cards-updated =
+    { $count ->
+        [one] zaktualizowano { $count } kartę.
+        [few] zaktualizowano { $count } karty.
+       *[other] zaktualizowano { $count } kart.
+    }
 browsing-window-title = Przeglądaj (wybrano { $selected } z { $total } kart)
 browsing-sidebar-expand = Rozwiń
 browsing-sidebar-collapse = Złóż
@@ -149,6 +160,8 @@ browsing-studied-today = Przejrzane dzisiaj
 browsing-added-today = Dodane dzisiaj
 browsing-again-today = Dzisiejsze pomyłki
 browsing-edited-today = Edytowane dzisiaj
+browsing-sidebar-first-review = Pierwsze przeglądnięcie
+browsing-sidebar-rescheduled = Zmieniono plan
 browsing-sidebar-due-today = Na dziś
 browsing-sidebar-untagged = Bez etykiety
 browsing-sidebar-overdue = Zaległe

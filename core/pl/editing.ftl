@@ -39,6 +39,7 @@ editing-subscript = Indeks dolny
 editing-superscript = indeks górny
 editing-tags = Etykiety
 editing-to-make-a-cloze-deletion-on = Aby wprowadzić wypełnianie luk do istniejącej notatki, musisz zmienić jej typ na lukę poprzez Notatki>Zmień typ notatki
+editing-toggle-sticky = Przełącz przyklejenie
 editing-underline-text = Podkreślenie
 editing-unordered-list = Lista nieuporządkowana
 editing-warning-cloze-deletions-will-not-work = Uwaga: wypełnianie luk nie będzie działać, jeśli nie ustawisz typu na górze na Luka.
