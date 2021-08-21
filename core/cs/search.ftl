@@ -15,6 +15,7 @@ search-empty-quote = byla nalezena dvojice uvozovek `""`, ale nebylo v nich nic,
 search-unclosed-quote = byla nalezena uvozovka `"`, ale nebyla zde druhá, která by ji uzavřela. Chcete-li hledat `"`, přidejte zpětné lomítko: `\"`.
 search-missing-key = byla nalezena dvojtečka `:`, ale nepředcházelo jí žádné klíčové slovo. Chcete-li hledat `:`, přidejte zpětné lomítko: `\:`.
 search-unknown-escape = úniková sekvence `{ $val }` není definována. Chcete-li hledat zpětné lomítko `\`, přidejte ještě jedno: `\\`.
+search-invalid-argument = `{ $term }` má neplatný argument „`{ $argument }`“.
 search-invalid-flag-2 = Za `flag:` musí být platné číslo příznaku: `1` (červený), `2` (oranžový), `3` (zelený), `4` (modrý), `5` (růžový), `6` (tyrkysový), `7` (purpurový) nebo `0` (žádný příznak).
 search-invalid-prop-operator = za `prop:{ $val }` musí být jeden z následujících operátorů porovnání: `=`, `!=`, `<`, `>`, `<=` nebo `>=`.
 search-invalid-other = Prosím zkontrolujte překlepy.
