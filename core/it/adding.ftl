@@ -7,3 +7,5 @@ adding-note-deleted = (Nota eliminata)
 adding-shortcut = Scorciatoia: { $val }
 adding-the-first-field-is-empty = Il primo campo è vuoto.
 adding-you-have-a-cloze-deletion-note = Hai una nota di tipo testo da completare ma non hai inserito nessun testo da completare. Proseguire?
+adding-cloze-outside-cloze-notetype = Testo da completare può essere utilizzato solo per note di tipo testo da completare
+adding-cloze-outside-cloze-field = Testo da completare può essere utilizzato solo in campi che usano il filtro 'cloze:'. Solitamente è il primo campo.
