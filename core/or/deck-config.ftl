@@ -57,6 +57,7 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = ଅଡ଼ିଓ
 deck-config-disable-autoplay = ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅଡ଼ିଓ ଚଲାନ୍ତୁ ନାହିଁ
+deck-config-skip-question-when-replaying = ଉତ୍ତର ପୁନଃଚାଳନ କରିବା ସମୟରେ ପ୍ରଶ୍ନ ସ୍କିପ୍ କରନ୍ତୁ
 deck-config-always-include-question-audio-tooltip =
     ଏକ କାର୍ଡର ଉତ୍ତର ପାର୍ଶ୍ୱକୁ ଦେଖିବାବେଳେ ରିପ୍ଲେ କ୍ରିୟା ବ୍ୟବହୃତ ହେଲେ
     ପ୍ରଶ୍ନ ଅଡ଼ିଓ ଅନ୍ତର୍ଭୁକ୍ତ ହେବା ଉଚିତ କି ନୁହେଁ।

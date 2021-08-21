@@ -108,6 +108,7 @@ scheduling-end = (ଶେଷ)
 scheduling-general = ସାଧାରଣ
 scheduling-maximum-interval = ସର୍ବାଧିକ ବ୍ୟବଧାନ
 scheduling-maximum-reviewsday = ସର୍ବାଧିକ ସମୀକ୍ଷା/ଦିନ
+scheduling-mix-new-cards-and-reviews = ନୂତନ ପତ୍ର ଏବଂ ସମୀକ୍ଷାଗୁଡ଼ିକ ମିଶ୍ରଣ କରନ୍ତୁ
 scheduling-new-cards = ନୂତନ କାର୍ଡଗୁଡ଼ିକ
 scheduling-new-cardsday = ନୂତନ ପତ୍ର/ଦିନ
 scheduling-review = ସମୀକ୍ଷା
