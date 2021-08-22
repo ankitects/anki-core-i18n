@@ -24,6 +24,7 @@ deck-config-review-limit-tooltip =
     wenn Karten für die Wiederholung bereitstehen.
 deck-config-limit-deck-v3 = Wenn Sie einen Stapel lernen, der Unterstapel hat, dann steuern die in jedem Unterstapel gesetzten Grenzwerte die maximale Anzahl an Karten, die genau von diesem Stapel herangezogen werden. Die ausgewählten Stapelgrenzwerte steuern die Gesamtanzahl an Karten, die angezeigt werden.
 deck-config-limit-new-bound-by-reviews = Der Grenzwert für Wiederholungen beeinflusst den Grenzwert für neue Karten. Wenn Sie beispielsweise Ihren Grenzwert für Wiederholungen auf 200 gesetzt haben und 190 Karten warten auf ihre Wiederholung, dann werden maximal 10 neue Karten neu eingeführt. Wenn der Grenzwert für Wiederholungen erreicht wurde, dann werden keine neuen Karten angezeigt.
+deck-config-limit-interday-bound-by-reviews = Der Grenzwert für Wiederholungen betrifft auch die Zwischentag-Lernkarten. Wenn der Grenzwert angewendet wird, dann werden die Zwischentag-Lernkarten zuerst abgerufen, danach die Wiederholungen und zum Schluss die neuen Karten.
 
 ## New Cards section
 
@@ -81,10 +82,15 @@ deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
 deck-config-sort-order-lowest-position = Niedrigste Position
 deck-config-sort-order-highest-position = Höchste Position
 deck-config-sort-order-random = Zufällig
+deck-config-sort-order-template-then-gather = Kartenvorlage, danach Reihenfolge entsprechend der aufgenommenen Elemente
+deck-config-sort-order-gather = Reihenfolge entsprechend der aufgenommenen Elemente
 deck-config-new-review-priority = Neu/Wiederholung-Priorität
 deck-config-new-review-priority-tooltip = Wann neue Karten relativ zu Wiederholkarten angezeigt werden.
 deck-config-interday-step-priority = Zwischentag-Lern/Wiederhol-Priorität
-deck-config-interday-step-priority-tooltip = Wann (erneute) Lernkarten angezeigt werden, die die Taggrenze überschreiten
+deck-config-interday-step-priority-tooltip =
+    Wann (erneute) Lernkarten angezeigt werden, die die Taggrenze überschreiten.
+    
+    Der Grenzwert für Wiederholungen wird immer zuerst auf die Zwischentag-Lernkarten angewendet, und danach auf die Wiederholungen. Diese Option steuert die Reihenfolge, in welcher die aufgenommenen Karten angezeigt werden, aber Zwischentag-Lernkarten werden immer an erster Stelle aufgenommen.
 deck-config-review-mix-mix-with-reviews = Mit Wiederholungen vermischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
@@ -95,6 +101,8 @@ deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
 deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
 deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
 deck-config-sort-order-descending-intervals = Absteigende Intervalle
+deck-config-sort-order-ascending-ease = Aufsteigende Leichtigkeit
+deck-config-sort-order-descending-ease = Absteigende Leichtigkeit
 deck-config-display-order-will-use-current-deck =
     Anki wird die Anzeigereihenfolge von dem Stapel, den Sie 
     zum Lernen ausgewählt haben, und keine Unterstapel, 
@@ -113,6 +121,7 @@ deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, 
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Audio nicht automatisch abspielen
+deck-config-skip-question-when-replaying = Frage beim erneuten Abspielen der Antwort überspringen
 deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
 
 ## Advanced section

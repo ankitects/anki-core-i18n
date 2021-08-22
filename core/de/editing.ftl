@@ -39,6 +39,7 @@ editing-subscript = Tiefstellen
 editing-superscript = Hochstellen
 editing-tags = Schlagwörter
 editing-to-make-a-cloze-deletion-on = Um einen Lückentext zu einer bereits vorhandenen Notiz hinzuzufügen, muss dieser erst der Notiztyp Lückentext zugewiesen werden. Dazu wählen Sie oben links in diesem Menü: 'Bearbeiten > Notiztyp ändern'
+editing-toggle-sticky = Beibehalten ein-/ausschalten
 editing-underline-text = Text unterstreichen
 editing-unordered-list = Ungeordnete Liste
 editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur korrekt angezeigt, wenn oben als Notiztyp »Lückentext« gewählt wird.
