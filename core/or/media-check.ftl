@@ -54,4 +54,6 @@ media-check-all-latex-rendered = ସମସ୍ତ LaTeX ପରିବେଷଣ କ
 media-check-delete-unused = ଅବ୍ୟବହୃତ ବିଲୋପ କରନ୍ତୁ
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = ଆବର୍ଜନା ଖାଲି କରନ୍ତୁ
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = ବିଲୋପ ହୋଇଥିବା ପୁନରୁଦ୍ଧାର କରନ୍ତୁ
 media-check-check-media-action = ମିଡ଼ିଆ ଯାଞ୍ଚ

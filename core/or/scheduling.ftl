@@ -118,10 +118,12 @@ scheduling-review = ସମୀକ୍ଷା
 scheduling-reviews = ସମୀକ୍ଷା
 scheduling-seconds = ସେକେଣ୍ଡ
 scheduling-set-all-decks-below-to = { $val } ତଳେ ଥିବା ସମସ୍ତ ଡେକଗୁଡ଼ିକୁ ଏହି ବିକଳ୍ପ ଗୋଷ୍ଠୀକୁ ସେଟ୍ କରିବେ କି?
+scheduling-show-answer-timer = ଉତ୍ତର ଟାଇମର୍ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-after-reviews = ସମୀକ୍ଷା ପରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-before-reviews = ସମୀକ୍ଷା ପୂର୍ବରୁ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-in-order-added = ଯୋଡ଼ାଯାଇଥିବା କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-in-random-order = ଅନିୟମିତ କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
+scheduling-starting-ease = ପ୍ରାରମ୍ଭିକ ସହଜତା
 scheduling-the-default-configuration-cant-be-removed = ଡିଫଲ୍ଟ ବିନ୍ୟାସୀକରଣ ଅପସାରଣ ହୋଇପାରିବ ନାହିଁ।
 scheduling-deck-updated =
     { $count ->

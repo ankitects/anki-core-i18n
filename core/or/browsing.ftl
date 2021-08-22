@@ -48,6 +48,7 @@ browsing-first-card = ପ୍ରଥମ କାର୍ଡ
 browsing-flag = ପତାକା
 browsing-font = <b>ଫଣ୍ଟ</b>:
 browsing-font-size = <b>ଫଣ୍ଟ ଆକାର</b>:
+browsing-found-as-across-bs = { $whole } ରେ { $part } ମିଳିଲା।
 browsing-home = ଗୃହ
 browsing-in = <b>ୟା ଭିତରେ</b>:
 browsing-interval = ଅନ୍ତରାଳ

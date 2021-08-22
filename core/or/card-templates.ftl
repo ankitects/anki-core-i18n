@@ -23,6 +23,7 @@ card-templates-preview-settings = ବିକଳ୍ପଗୁଡ଼ିକ
 card-templates-invalid-template-number = କାର୍ଡ ଟେମ୍ପଲେଟ୍ { $number } ରେ ଏକ ସମସ୍ୟା ଅଛି।
 card-templates-identical-front = ସମ୍ମୁଖ ପାର୍ଶ୍ୱ ପତ୍ର ଟେମ୍ପଲେଟ୍ { $number } ସହିତ ସମାନ ଅଟେ।
 card-templates-no-front-field = ସାମ୍ନା ପତ୍ର ଟେମ୍ପଲେଟ୍ ରେ ଏକ କ୍ଷେତ୍ର ପ୍ରତିସ୍ଥାପନ ପାଇବାକୁ ଆଶା କରାଯାଉଛି।
+card-templates-missing-cloze = ପତ୍ର ଟେମ୍ପଲେଟ୍ ର ସାମ୍ନା ଏବଂ ପଛରେ '{ "{{" }cloze:Text{ "}}" }' କିମ୍ୱା ଏହି ପରି କିଛି ଦେଖିବାକୁ ଆଶା କରାଯାଉଛି।
 card-templates-extraneous-cloze = 'cloze:' କେବଳ କ୍ଲୋଜ୍ ନୋଟ୍ ପ୍ରକାରରେ ବ୍ୟବହୃତ ହୋଇପାରିବ।
 card-templates-see-preview = ଅଧିକ ସୂଚନା ପାଇଁ ପୂର୍ବାବଲୋକନ ଦେଖନ୍ତୁ।
 card-templates-changes-saved = ପରିବର୍ତ୍ତନଗୁଡିକ ସଞ୍ଚୟ ହୋଇଛି।
