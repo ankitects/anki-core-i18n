@@ -29,3 +29,4 @@ preferences-timebox-time-limit = ଟାଇମ୍ ବକ୍ସ ସମୟ ସୀ�
 preferences-user-interface-size = ଉପଭୋକ୍ତା ଇଣ୍ଟରଫେସ୍ ଆକାର
 preferences-legacy-timezone-handling = ପୁରୁଣା ସମୟ କ୍ଷେତ୍ର ପରିଚାଳନା (ତୃଟିପୂର୍ଣ୍ଣ ଅଟେ, କିନ୍ତୁ AnkiDroid <= 2.14 ପାଇଁ ଆବଶ୍ୟକ)
 preferences-default-search-text = ଡିଫଲ୍ଟ ସନ୍ଧାନ ପାଠ୍ୟ
+preferences-default-search-text-example = ଉଦାହରଣ: 'deck:current '

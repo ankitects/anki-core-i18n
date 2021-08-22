@@ -101,6 +101,7 @@ scheduling-update-more-info-button = ଅଧିକ ଜାଣନ୍ତୁ
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = ଅଡ଼ିଓ ପୁନଃଚାଳନ କରିବା ସମୟରେ ସର୍ବଦା ପ୍ରଶ୍ନ ପାର୍ଶ୍ୱ ଅନ୍ତର୍ଭୁକ୍ତ କରନ୍ତୁ
 scheduling-automatically-play-audio = ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅଡ଼ିଓ ଚଲାନ୍ତୁ
 scheduling-description = ବର୍ଣ୍ଣନା
 scheduling-description-to-show-on-overview-screen = ସାମ୍ପ୍ରତିକ ଡେକ୍ ପାଇଁ ଓଭରଭ୍ୟୁ ସ୍କ୍ରିନରେ ଦେଖାଇବାକୁ ବର୍ଣ୍ଣନା:
