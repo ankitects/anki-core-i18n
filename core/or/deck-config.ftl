@@ -23,6 +23,8 @@ deck-config-review-limit-tooltip =
 ## New Cards section
 
 deck-config-learning-steps = ଶିଖିବା ପଦକ୍ଷେପ
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = ବିଳମ୍ବ ସାଧାରଣତଃ ମିନିଟ୍ (ଉଦାହରଣ `1ମି`) କିମ୍ବା ଦିନ (ଉଦାହରଣ `2ଦି`), କିନ୍ତୁ ଘଣ୍ଟା (ଉଦାହରଣ `1ଘ`) ଏବଂ ସେକେଣ୍ଡ (ଉଦାହରଣ `30ସେ`) ମଧ୍ୟ ସମର୍ଥିତ।
 deck-config-new-insertion-order = ସନ୍ନିବେଶ କ୍ରମ
 deck-config-new-insertion-order-sequential = କ୍ରମିକ (ପ୍ରଥମେ ପୁରାତନ ପତ୍ର)
 
