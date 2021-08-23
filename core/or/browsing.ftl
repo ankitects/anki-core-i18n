@@ -15,7 +15,7 @@ browsing-card = କାର୍ଡ
 browsing-card-initial = ପ
 browsing-card-list = କାର୍ଡ ତାଲିକା
 browsing-card-state = କାର୍ଡ ଅବସ୍ଥା
-browsing-cards-cant-be-manually-moved-into = କାର୍ଡଗୁଡ଼ିକୁ ହସ୍ତକୃତ ଭାବରେ ଏକ ଛାଣକ ଡେକ୍ ରେ ସ୍ଥାନାନ୍ତରିତ କରାଯାଇପାରିବ ନାହିଁ।
+browsing-cards-cant-be-manually-moved-into = ପତ୍ରଗୁଡ଼ିକୁ ହସ୍ତକୃତ ଭାବରେ ଏକ ଶୋଧିତ ତାସଖଣ୍ଡ କୁ ସ୍ଥାନାନ୍ତରିତ କରାଯାଇପାରିବ ନାହିଁ।
 browsing-cards-deleted =
     { $count ->
         [one] { $count }ଟିଏ କାର୍ଡ ବିଲୋପ ହୋଇଛି।
@@ -69,10 +69,11 @@ browsing-note = ନୋଟ୍
 browsing-note-initial = ନୋ
 browsing-notes-tagged = ନୋଟଗୁଡ଼ିକ ଟ୍ୟାଗ୍ ହୋଇଛି।
 browsing-nothing = କିଛି ନାହିଁ
+browsing-optional-filter = ବୈକଳ୍ପିକ ଶୋଧକ:
 browsing-override-back-template = ପଛ ଟେମ୍ପଲେଟ୍ ଓଭରରାଇଡ୍ କରନ୍ତୁ:
 browsing-override-font = ଫଣ୍ଟକୁ ଓଭରରାଇଡ୍ କରନ୍ତୁ:
 browsing-override-front-template = ସାମ୍ନା ଟେମ୍ପଲେଟ୍ ଓଭରରାଇଡ୍ କରନ୍ତୁ:
-browsing-please-give-your-filter-a-name = ଦୟାକରି ଆପଣଙ୍କର ଫିଲ୍ଟରକୁ ଗୋଟିଏ ନାମ ଦିଅନ୍ତୁ:
+browsing-please-give-your-filter-a-name = ଦୟାକରି ଆପଣଙ୍କ ଶୋଧକ କୁ ଏକ ନାମ ଦିଅନ୍ତୁ:
 browsing-please-select-cards-from-only-one = ଦୟାକରି କେବଳ ଗୋଟିଏ ନୋଟ୍ ପ୍ରକାରରୁ କାର୍ଡଗୁଡ଼ିକ ଚୟନ କରନ୍ତୁ।
 browsing-preview-selected-card = ମନୋନୀତ ପତ୍ର ({ $val })ର ପୂର୍ବାବଲୋକନ
 browsing-question = ପ୍ରଶ୍ନ

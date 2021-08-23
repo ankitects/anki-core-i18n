@@ -20,5 +20,5 @@ card-stats-review-log-time-taken = ସମୟ
 card-stats-review-log-type-learn = ଶିଖୁଛନ୍ତି
 card-stats-review-log-type-review = ସମୀକ୍ଷା
 card-stats-review-log-type-relearn = ପୁନଃ ଶିକ୍ଷାଧିନ
-card-stats-review-log-type-filtered = ଫିଲ୍ଟର୍ ହୋଇଛି
+card-stats-review-log-type-filtered = ଶୋଧିତ
 card-stats-review-log-type-manual = ମାନୁଆଲ୍
