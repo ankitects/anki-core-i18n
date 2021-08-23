@@ -41,6 +41,7 @@ browsing-ease = ସହଜତା
 browsing-end = ଶେଷ
 browsing-enter-tags-to-add = ଯୋଡ଼ିବାକୁ ଟ୍ୟାଗଗୁଡ଼ିକ ପ୍ରବେଶ କରନ୍ତୁ:
 browsing-enter-tags-to-delete = ବିଲୋପ କରିବାକୁ ଟ୍ୟାଗଗୁଡ଼ିକ ପ୍ରବେଶ କରନ୍ତୁ:
+browsing-filtered = (ଶୋଧିତ)
 browsing-find = <b>ଖୋଜନ୍ତୁ</b>:
 browsing-find-and-replace = ସନ୍ଧାନ ଏବଂ ବିସ୍ଥାପନ
 browsing-find-duplicates = ନକଲ ଗୁଡ଼ିକ ସନ୍ଧାନ କରନ୍ତୁ
