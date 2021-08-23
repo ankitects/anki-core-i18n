@@ -7,6 +7,7 @@ browsing-all-fields = ସମସ୍ତ କ୍ଷେତ୍ର
 browsing-answer = ଉତ୍ତର
 browsing-any-cards-mapped-to-nothing-will = କୌଣସି ଜିନିଷକୁ ମ୍ୟାପ୍ ନହୋଇ ଥିବା ପତ୍ରସବୁ ବିଲୋପ ହେବ। ଯଦି କୌଣସି ନୋଟ୍ ର ଅବଶିଷ୍ଟ ପତ୍ର ନଥାଏ, ତେବେ ଏହା ନଷ୍ଟ ହୋଇଯିବ। ଆପଣ ଜାରି ରଖିବାକୁ ଚାହୁଁଛନ୍ତି କି?
 browsing-any-flag = ଯେକୌଣସି ପତାକା
+browsing-average-ease = ହାରାହାରି ସହଜତା
 browsing-browser-appearance = ବ୍ରାଉଜର୍ ଆବିର୍ଭାବ
 browsing-browser-options = ବ୍ରାଉଜର୍ ବିକଳ୍ପଗୁଡ଼ିକ
 browsing-buried = ସ୍ଥଗିତ ଅଛି
