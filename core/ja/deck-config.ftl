@@ -102,6 +102,8 @@ deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
 deck-config-sort-order-deck-then-due-date = デッキの後、期日
 deck-config-sort-order-ascending-intervals = 間隔（昇順）
 deck-config-sort-order-descending-intervals = 間隔（降順）
+deck-config-sort-order-ascending-ease = 易しさ昇順
+deck-config-sort-order-descending-ease = 易しさ降順
 deck-config-display-order-will-use-current-deck = Ankiでは、選択中のデッキで設定された順序でカードが表示されます。デッキ内のサブデッキで異なる設定がされている場合でも同様です。
 
 ## Timer section
