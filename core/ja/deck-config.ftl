@@ -19,6 +19,7 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip = 一日に表示される期日を迎えた復習カードの最大枚数。
 deck-config-limit-deck-v3 = サブデッキを含むデッキを選択して学習する場合、それぞれのサブデッキから引き出されるカードの最大枚数は、それぞれのサブデッキで設定された上限によります。選択中のデッキのカードの合計枚数には、そのデッキで設定した上限が適用されます。
 deck-config-limit-new-bound-by-reviews = 一日あたりの復習カード出題枚数の上限は、一日あたりの新規カード出題枚数の上限に影響を与えます。例えば、一日あたりの復習カード出題枚数の上限を200に設定し、期日を迎えたカードが190枚ある場合、最大10枚の新規カードが新たに導入されます。しかし、期日を迎えたカードの枚数が設定した上限を超えている場合、その日に新規カードは新たに導入されません。
+deck-config-limit-interday-bound-by-reviews = 復習の上限は、日付をまたいだ学習（再学習）カードにも適用されます。上限を適用するとき、まず日付をまたいだ学習（再学習）カードが集められ、次に復習カード、最後に新規カードの順で集められます。
 
 ## New Cards section
 
@@ -86,6 +87,8 @@ deck-config-sort-order-card-template-then-random = カードテンプレ後、�
 deck-config-sort-order-lowest-position = 位置（昇順）
 deck-config-sort-order-highest-position = 位置（降順）
 deck-config-sort-order-random = ランダム
+deck-config-sort-order-template-then-gather = カードテンプレ後、集められた順番
+deck-config-sort-order-gather = 集められた順番
 deck-config-new-review-priority = 新規カード表示のタイミング
 deck-config-new-review-priority-tooltip = 新規カードを、復習カードとの関連でいつ表示するのか選択できます。
 deck-config-interday-step-priority = 日付をまたいだ学習（再学習）カード表示のタイミング
@@ -120,6 +123,7 @@ deck-config-show-answer-timer-tooltip = カード学習画面に、それぞれ�
 
 deck-config-audio-title = オーディオ
 deck-config-disable-autoplay = オーディオを自動再生しない
+deck-config-skip-question-when-replaying = 答えを再生するときに質問は再生しない
 deck-config-always-include-question-audio-tooltip = 答え側のカードが表示されているときに再生ボタンを押した場合、質問側のオーディオも再生するのか、ここで選択することができます。
 
 ## Advanced section
