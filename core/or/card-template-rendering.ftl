@@ -24,7 +24,7 @@ card-template-rendering-no-such-field = '{ $found }' ମିଳିଲା, କି�
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = ଏହି କାର୍ଡର ସାମ୍ନା ଖାଲି ଅଛି।
+card-template-rendering-empty-front = ଏହି ପତ୍ରର ସାମ୍ନା ଭାଗ ଖାଲି ଅଛି।
 card-template-rendering-missing-cloze =
     କାର୍ଡ ରେ କୌଣସି କ୍ଲୋଜ୍ { $number } ମିଳିଲା ନାହିଁ।
     ଦୟାକରି ଗୋଟିଏ କ୍ଲୋଜ୍ ଡିଲିସନ୍ ଯୋଗ କରନ୍ତୁ, କିମ୍ବା ଖାଲି କାର୍ଡ ଉପକରଣ ବ୍ୟବହାର କରନ୍ତୁ।
