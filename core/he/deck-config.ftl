@@ -53,7 +53,7 @@ deck-config-graduating-interval-tooltip =
 deck-config-easy-interval-tooltip =
     מספר הימים להמתין לפני הצגת כרטיס שוב, לאחר הלחצן 'קל'¶
     משמש להסרה מיידית של כרטיס מהלמידה.
-deck-config-new-insertion-order = סדר ההכנסה
+deck-config-new-insertion-order = סדר ההכנסה של כרטיסים חדשים
 deck-config-new-insertion-order-tooltip =
     שולט במיקום (due #) שהוקצה לכרטיסים חדשים בעת הוספת כרטיסים חדשים .¶
     כרטיסים עם מספר חזרות נמוך יותר יוצגו תחילה בעת הלימוד. שינוי¶
@@ -194,23 +194,52 @@ deck-config-custom-scheduling-tooltip = משפיע על כל האוסף. השת�
 
 ## Adding/renaming
 
-deck-config-add-group = הוסף מראש
+deck-config-add-group = הוסף תיאור
 deck-config-name-prompt = שם
-deck-config-rename-group = שנה שם מראש
-deck-config-clone-group = שכפל מראש
+deck-config-rename-group = שנה תיאור
+deck-config-clone-group = שכפל תיאור
 
 ## Removing
 
+deck-config-remove-group = הסר תיאור
+deck-config-confirm-normal = למחוק { $name }?
+deck-config-will-require-full-sync =
+    השינוי המבוקש ידרוש סנכרון חד כיווני. אם ביצעת שינויים¶
+    במכשיר אחר, וטרם סנכרנת אותם למכשיר זה, אנא עשה זאת לפני¶
+    שאתה ממשיך.
+deck-config-confirm-remove-name = למחוק { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = שמור
+deck-config-save-to-all-subdecks = שמור לכל תתי החפיסות
+deck-config-revert-button-tooltip = שחזר הגדרה זו לברירת המחדל שלה.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = תפעול של אנקי2.1.41+
+deck-config-description-new-handling-hint =
+    מתייחס לקלט כאל סימון, ומנקה קלט HTML. כשהוא מופעל ,¶
+    התיאור יוצג גם במסך "סיימת חפיסה" .¶
+    הסימון יופיע כטקסט ב- Anki 2.1.40 ומטה.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    לחפיסה המכילה חפיסה זאת יש מגבלה של { $cards ->
+        [one] { $cards } כרטיס
+       *[other] { $cards } כרטיסים
+    }, לעבור את הגבול הזה.
+deck-config-reviews-too-low =
+    אם תוסיף { $cards ->
+        [one] { $cards } כרטיס חדש בכל יום
+       *[other] { $cards } כרטיסים חדשים בכל יום
+    }מגבלת החזרות שלך צריכה להיות לפחות { $expected }
+deck-config-learning-step-above-graduating-interval = מרווח הסיום צריך להיות ארוך לפחות כמו שלב הלמידה הסופי שלך.
+deck-config-good-above-easy = המרווח הקל צריך להיות ארוך לפחות כמו מרווח הסיום.
+deck-config-relearning-steps-above-minimum-interval = מרווח הזמן המזערי המינימלי צריך להיות לפחות כמו שלב הלימוד מחדש הסופי שלך.
 
 ## Selecting a deck
 
+deck-config-which-deck = איזה סיפון היית רוצה?

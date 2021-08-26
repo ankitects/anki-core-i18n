@@ -98,7 +98,7 @@ statistics-counts-young-cards = צעירים
 statistics-counts-mature-cards = בוגרים
 statistics-counts-suspended-cards = מושהים
 statistics-counts-buried-cards = מוטמנים
-statistics-counts-early-cards = מוקדמים
+statistics-counts-filtered-cards = מסונן
 statistics-counts-learning-cards = נלמדים
 statistics-counts-relearning-cards = נלמדים מחדש
 statistics-counts-title = מניין הכרטיסים
@@ -180,10 +180,10 @@ statistics-calendar-title = לוח שנה
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
-statistics-elapsed-time-seconds = { $amount } ש'
+statistics-elapsed-time-seconds = { $amount } שניות
 statistics-elapsed-time-minutes = { $amount } ד'
 statistics-elapsed-time-hours = { $amount }שע'
-statistics-elapsed-time-days = { $amount } י'
+statistics-elapsed-time-days = { $amount } ימים
 statistics-elapsed-time-months = { $amount }ח'
 statistics-elapsed-time-years = { $amount } שנ'
 

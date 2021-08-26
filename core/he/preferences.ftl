@@ -36,3 +36,5 @@ preferences-user-interface-size = גודל ממשק המשתמש
 preferences-when-adding-default-to-current-deck = בעת הוספה, ברירת המחדל היא הוספה לחפיסה הנוכחית
 preferences-you-can-restore-backups-via-fileswitch = באפשרותך לשחזר מגיבוי דרך קובץ>החלף פרופיל.
 preferences-legacy-timezone-handling = תאריך ושעה ידניים (פחות יציב, אך נדרש עבור AnkiDroid בגרסאות <= 2.14).
+preferences-default-search-text = טקסט או פקודת ברירת המחדל לחיפוש
+preferences-default-search-text-example = למשל: 'deck:current ' (להצגת חפיסה נוכחית)

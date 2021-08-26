@@ -6,7 +6,7 @@
 scheduling-answer-button-time-seconds = { $amount } שניות
 scheduling-answer-button-time-minutes = { $amount } דקות
 scheduling-answer-button-time-hours = { $amount } שעות
-scheduling-answer-button-time-days = { $amount }י'
+scheduling-answer-button-time-days = { $amount }ימים
 scheduling-answer-button-time-months = { $amount }חודשים
 scheduling-answer-button-time-years = { $amount } שנים
 
