@@ -27,6 +27,7 @@ browsing-change-deck = שנה חפיסה
 browsing-change-deck2 = שנה חפיסה...
 browsing-change-note-type = שנה סוג רשומה
 browsing-change-note-type2 = שנה סוג רשומה...
+browsing-change-notetype = שנה סוג רשומה
 browsing-change-to = שנה { $val } ל:
 browsing-clear-unused = נקה לא בשימוש
 browsing-clear-unused-tags = נקה תגיות שאינן בשימוש
@@ -91,6 +92,7 @@ browsing-reschedule = קביעת מועד חדש
 browsing-search-bar-hint = חיפוש כרטיסים/רשומות (הקלד, ואז הקש אנטר)
 browsing-search-in = חיפוש ב:
 browsing-search-within-formatting-slow = חפש עם עיצוב (איטי)
+browsing-selected-notes-only = רשומות נבחרות בלבד
 browsing-shift-position-of-existing-cards = מיקום הזחה של כרטיסים קיימים
 browsing-sidebar = סרגל צד
 browsing-sidebar-filter = מסנן סרגל צד
@@ -130,6 +132,11 @@ browsing-notes-updated =
         [one] רשומה { $count } עודכנה.
        *[other] עודכנו { $count } רשומות.
     }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } כרטיס עודכן.
+       *[other] { $count } כרטיסים עודכנו.
+    }
 browsing-window-title = דפדוף (נבחרו { $selected } מתוך { $total } כרטיסים)
 browsing-sidebar-expand = הרחב
 browsing-sidebar-collapse = כווץ
@@ -148,6 +155,7 @@ browsing-added-today = התווסף היום
 browsing-again-today = שוב היום
 browsing-edited-today = נערכו
 browsing-sidebar-first-review = חזרה ראשונה
+browsing-sidebar-rescheduled = תוזמן מחדש
 browsing-sidebar-due-today = תאריך יעד
 browsing-sidebar-untagged = ללא תגית
 browsing-sidebar-overdue = באיחור

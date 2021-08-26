@@ -1,4 +1,4 @@
-actions-add = הוספה
+actions-add = הוסף
 actions-all-selected = כל אלו שנבחרו
 actions-any-selected = כל אחד שנבחר
 actions-cancel = ביטול
@@ -23,6 +23,7 @@ actions-rebuild = בנה מחדש
 actions-rename = שנה שם
 actions-rename-deck = שנה שם חפיסה
 actions-rename-tag = שנה תגית
+actions-rename-with-parents = שנה שם עם הורים
 actions-remove-tag = הסר תגית
 actions-replay-audio = נגן אודיו מחדש
 actions-reposition = שנה מיקום
@@ -52,3 +53,12 @@ actions-card-info = מידע כרטיס
 
 ## Flags
 
+actions-flag-number = דגל#{ $number }
+actions-flag-red = אדום
+actions-flag-orange = כתום
+actions-flag-green = ירוק
+actions-flag-blue = כחול
+actions-flag-pink = ורוד
+actions-flag-turquoise = טורקיז
+actions-flag-purple = סגול
+actions-set-flag = הגדר דגל

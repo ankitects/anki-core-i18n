@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = ריק
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] השינויים  ישפיעו על { $count } רשומה שמשתמשת בסוג כרטיס זה.
@@ -19,6 +21,11 @@ card-templates-night-mode = מצב מוחשך
 card-templates-add-mobile-class = הוסף מחלקת "נייד"
 card-templates-preview-settings = אפשרויות
 card-templates-invalid-template-number = יש בעיה בתבנית { $number }.
+card-templates-identical-front = הצד הקדמי זהה לתבנית הכרטיס { $number }.
+card-templates-no-front-field = צפוי למצוא תחליף שדה בצד הקדמי של תבנית הכרטיס.
+card-templates-missing-cloze = צפוי למצוא את '{ "{{" }cloze:Text{ "}}" }' או דומה בחלקו הקדמי והאחורי של תבנית הכרטיס.
+card-templates-extraneous-cloze = 'cloze:' ניתן לשימוש רק ברשומות מסוג 'cloze'.
+card-templates-see-preview = עיין בתצוגה המקדימה למידע נוסף.
 card-templates-changes-saved = השינויים נשמרו
 card-templates-discard-changes = לבטל שינויים?
 card-templates-add-card-type = הוסף סוג כרטיס...

@@ -7,3 +7,5 @@ adding-note-deleted = (רשומה נמחקה)
 adding-shortcut = קיצור דרך: { $val }
 adding-the-first-field-is-empty = השדה הראשון ריק.
 adding-you-have-a-cloze-deletion-note = סוג הרשומה הוא השלמת החסר, אך אין שום חסר להשלמה. להמשיך?
+adding-cloze-outside-cloze-notetype = ניתן להשתמש במחיקת Cloze רק על רשומות של Cloze .
+adding-cloze-outside-cloze-field = ניתן להשתמש במחיקת Cloze רק בשדות המשתמשים במסנן 'cloze:'. בדרך כלל זהו השדה הראשון.
