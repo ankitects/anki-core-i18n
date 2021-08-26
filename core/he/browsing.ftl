@@ -5,13 +5,13 @@ browsing-addon = תוסף
 browsing-all-card-types = כל סוגי הכרטיסים
 browsing-all-fields = כל השדות
 browsing-answer = תשובה
-browsing-any-cards-mapped-to-nothing-will = כל כרטיס שאינו משוייך לכלום תימחק. אם לרשומה לא נותרו כרטיסים, היא תימחק. האם אתה בטוח שברצונך להמשיך?
+browsing-any-cards-mapped-to-nothing-will = כל כרטיס שאינו משוייך לכלום ימחק. אם לרשומה לא נותרו כרטיסים, היא תימחק. האם אתה בטוח שברצונך להמשיך?
 browsing-any-flag = כל דגל
 browsing-average-ease = קלות ממוצעת
 browsing-average-interval = מרווח זמן ממוצע
 browsing-browser-appearance = מראה דפדפן
 browsing-browser-options = אפשרויות חיפוש
-browsing-buried = נקברו
+browsing-buried = טמונים
 browsing-card = כרטיס
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = כ

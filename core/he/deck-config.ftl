@@ -24,7 +24,7 @@ deck-config-review-limit-tooltip =
     המספר המרבי של כרטיסי הביקורת להצגה ביום, ¶
     אם הכרטיסים מוכנים לבדיקה.
 deck-config-limit-deck-v3 =
-    כאשר לומדים סיפון שיש בתוכו תת -חפיסות, המגבלות שנקבעות על כל¶
+    כאשר לומדים חפיסה שיש בתוכה תת -חפיסות, המגבלות שנקבעות על כל¶
     תת -חפיסה לשלוט במספר הקלפים המרבי שנמשך מאותה חפיסה .¶
     גבולות החפיסה שנבחרו שולטים על סך הקלפים שיוצגו.
 deck-config-limit-new-bound-by-reviews =
@@ -242,4 +242,4 @@ deck-config-relearning-steps-above-minimum-interval = מרווח הזמן המז
 
 ## Selecting a deck
 
-deck-config-which-deck = איזה סיפון היית רוצה?
+deck-config-which-deck = איזו חפיסה הינך רוצה?
