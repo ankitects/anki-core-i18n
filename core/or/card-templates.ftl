@@ -18,7 +18,7 @@ card-templates-fill-empty = ଖାଲି କ୍ଷେତ୍ରଗୁଡ଼ିକ
 card-templates-night-mode = ରାତ୍ରି ମୋଡ୍
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
-card-templates-add-mobile-class = ମୋବାଇଲ୍ କ୍ଲାସ୍ ଯୋଡନ୍ତୁ
+card-templates-add-mobile-class = ମୋବାଇଲ୍ କ୍ଲାସ୍ ଯୋଡ଼ନ୍ତୁ
 card-templates-preview-settings = ବିକଳ୍ପଗୁଡ଼ିକ
 card-templates-invalid-template-number = କାର୍ଡ ଟେମ୍ପଲେଟ୍ { $number } ରେ ଏକ ସମସ୍ୟା ଅଛି।
 card-templates-identical-front = ସମ୍ମୁଖ ପାର୍ଶ୍ୱ ପତ୍ର ଟେମ୍ପଲେଟ୍ { $number } ସହିତ ସମାନ ଅଟେ।
