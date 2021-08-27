@@ -34,6 +34,9 @@ deck-config-limit-deck-v3 =
 deck-config-limit-new-bound-by-reviews =
     يؤثر حد المراجعة بحد البطاقات الجديدة. مثلًا، إذا كان حد المراجعة 200،
     ولديك 190 مراجعة بالانتظار، ستُعرض لك 10 بطاقات جديدة كحد أقصى.
+deck-config-limit-interday-bound-by-reviews =
+    يؤثر حد المراجعة أيضا ببطاقات التعلم التي تتجاوز خطواتها اليوم الواحد. عند تطبيق الحد،
+    تجلب بطاقات التعلم هذه أولًا، ثم المراجعات، وأخيرًا البطاقات الجديدة.
 
 ## New Cards section
 
@@ -110,6 +113,8 @@ deck-config-sort-order-card-template-then-random = قالب البطاقة، ث�
 deck-config-sort-order-lowest-position = موضع متصاعد
 deck-config-sort-order-highest-position = موضع متناقص
 deck-config-sort-order-random = عشوائي
+deck-config-sort-order-template-then-gather = قالب البطاقة، ثم ترتيب الجلب
+deck-config-sort-order-gather = ترتيب الجلب
 deck-config-new-review-priority = أولوية البطاقات الجديدة/المراجعات
 deck-config-new-review-priority-tooltip = وقت إظهار البطاقات الجديدة بالنسبة لبطاقات المراجعة.
 deck-config-interday-step-priority = أفضلية بطاقات التعلم ذات الخطوات التي تتجاوز اليوم الواحد والمراجعات
@@ -128,6 +133,8 @@ deck-config-sort-order-due-date-then-deck = تاريخ الاستحقاق، ثم
 deck-config-sort-order-deck-then-due-date = الرزمة، ثم تاريخ الاستحقاق
 deck-config-sort-order-ascending-intervals = فواصل متزايدة
 deck-config-sort-order-descending-intervals = فواصل متناقصة
+deck-config-sort-order-ascending-ease = سهولة متصاعدة
+deck-config-sort-order-descending-ease = سهولة متناقصة
 deck-config-display-order-will-use-current-deck =
     سيستخدم أنكي ترتيب العرض من الرزمة 
     التي تحددها لدراستها، وليس أي رزمة فرعية لها.
@@ -148,6 +155,7 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = الصوت
 deck-config-disable-autoplay = لا تشغل الصوت تلقائيًا
+deck-config-skip-question-when-replaying = تجاهل أصوات جانب السؤال عند تشغيل أصوات جانب الجواب
 deck-config-always-include-question-audio-tooltip =
     ما إذا كان يجب تضمين أصوات السؤال عند الضغط على زر إعادة تشغيل الصوت
     في جانب السؤال من بطاقة.

@@ -39,6 +39,7 @@ editing-subscript = خط تحتي
 editing-superscript = خط فوقي
 editing-tags = وسوم
 editing-to-make-a-cloze-deletion-on = لصنع عبارة ملء فراغات في ملحوظة موجودة، عليك تغيير نوعها إلى نوع ملء الفراغات أولًا، عبر 'ملحوظات>تغيير نوع الملحوظة'
+editing-toggle-sticky = تفعيل/إيقاف ثبات النص
 editing-underline-text = خط تحت النص
 editing-unordered-list = قائمة غير مرقمة
 editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء الفراغات لن تعمل حتى تغيّر النوع في الأعلى إلى نوع ملء الفراغات.
