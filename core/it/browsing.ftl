@@ -159,8 +159,19 @@ browsing-sidebar-rescheduled = Ripianificate
 browsing-sidebar-due-today = In scadenza
 browsing-sidebar-untagged = Non contrassegnate
 browsing-sidebar-overdue = Scadute
+browsing-row-deleted = (eliminata)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Rimossa { $count } etichetta inutilizzata.
        *[other] Rimosse { $count } etichette inutilizzate.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Cambiata la posizione di  { $count } nuova carta.
+       *[other] Cambiata la posizione di  { $count } nuove carte.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Rinominato { $count } mazzo.
+       *[other] Rinominati { $count } mazzi.
     }
