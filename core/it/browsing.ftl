@@ -127,8 +127,40 @@ browsing-note-deleted =
         [one] { $count } nota eliminata.
        *[other] { $count } note eliminate.
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } nota aggiornata.
+       *[other] { $count } note aggiornate.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } carta aggiornata.
+       *[other] { $count } carte aggiornate.
+    }
 browsing-window-title = Sfoglia ({ $selected } delle { $total } carte selezionate)
+browsing-sidebar-expand = Espandi
+browsing-sidebar-collapse = Comprimi
+browsing-sidebar-expand-children = Espandi figli
+browsing-sidebar-collapse-children = Comprimi figli
+browsing-sidebar-decks = Mazzi
+browsing-sidebar-tags = Etichette
+browsing-sidebar-notetypes = Tipi di note
+browsing-sidebar-saved-searches = Ricerche salvate
+browsing-sidebar-save-current-search = Salva ricerca corrente
+browsing-sidebar-card-state = Stato della carta
+browsing-sidebar-flags = Contrassegni
 browsing-today = Oggi
 browsing-studied-today = Studiate oggi
 browsing-added-today = Aggiunte oggi
 browsing-again-today = Fallite oggi
+browsing-edited-today = Modificate
+browsing-sidebar-first-review = Prima ripetizione
+browsing-sidebar-rescheduled = Ripianificate
+browsing-sidebar-due-today = In scadenza
+browsing-sidebar-untagged = Non contrassegnate
+browsing-sidebar-overdue = Scadute
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Rimossa { $count } etichetta inutilizzata.
+       *[other] Rimosse { $count } etichette inutilizzate.
+    }
