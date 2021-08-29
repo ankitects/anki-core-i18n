@@ -1,4 +1,4 @@
-preferences-automatically-sync-on-profile-openclose = Автоматически синхронизировать при открытии и закрытии профиля
+preferences-automatically-sync-on-profile-openclose = Автоматически синхронизировать при смене профиля
 preferences-backups = Резервные копии
 preferences-backups2 = резервных копий
 preferences-backupsanki-will-create-a-backup-of = <b>Резервные копии</b><br>Anki делает резервную копию коллекции при закрытии и синхронизации.
@@ -18,8 +18,8 @@ preferences-note-media-is-not-backed-up = Примечание: медиафай
 preferences-on-next-sync-force-changes-in = При следующей синхронизации перезаписать в одном направлении
 preferences-paste-clipboard-images-as-png = Вставлять изображения из буфера как PNG
 preferences-paste-without-shift-key-strips-formatting = Вставка без клавиши Shift убирает форматирование
-preferences-periodically-sync-media = Периодические синхронизировать медиаданные
-preferences-please-restart-anki-to-complete-language = Перезагрузите Anki для завершения смены языка.
+preferences-periodically-sync-media = Периодически синхронизировать медиаданные
+preferences-please-restart-anki-to-complete-language = Перезагрузите Anki, чтобы переключить язык.
 preferences-preferences = Настройки
 preferences-scheduling = Расписание
 preferences-show-learning-cards-with-larger-steps = Показывать изучаемые карточки с большими шагами до повторяемых
