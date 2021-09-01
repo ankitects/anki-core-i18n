@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = خالی
 card-templates-changes-will-affect-notes =
     { $count ->
        *[other] تغییرات زیر { $count } عدد یادداشت که این نوع کارت را استفاده می‌کنند تغییر خواهد داد.
@@ -18,6 +20,11 @@ card-templates-night-mode = حالت شب
 card-templates-add-mobile-class = فعال کردن کلاس موبایل
 card-templates-preview-settings = گزینه‌ها
 card-templates-invalid-template-number = قالب کارت { $number } مشکل دارد.
+card-templates-identical-front = طرف جلو با قالب کارت { $number } یکسان است.
+card-templates-no-front-field = جایگذاری فیلد باید در قالب جلوی کارت وجود داشته باشد.
+card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' باید در جلو و پشت قالب کارت وجود داشته باشد.
+card-templates-extraneous-cloze = امکان استفاده از 'cloze:' فقط در نوع یادداشت جاخالی وجود دارد.
+card-templates-see-preview = برای کسب اطلاعات بیشتر به پیش‌نمایش مراجعه کنید.
 card-templates-changes-saved = تغییرات ذخیره شد.
 card-templates-discard-changes = لغو تغییرات؟
 card-templates-add-card-type = افزودن نوع کارت...

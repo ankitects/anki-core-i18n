@@ -7,3 +7,5 @@ adding-note-deleted = (یادداشت حذف شد)
 adding-shortcut = میانبر: ‪{ $val }
 adding-the-first-field-is-empty = اولین فیلد خالی است.
 adding-you-have-a-cloze-deletion-note = یک نوع یادداشت با جای خالی دارید اما هیچ جای خالی ایجاد نشده است.ادامه می دهید؟
+adding-cloze-outside-cloze-notetype = امکان استفاده از جای خالی فقط روی یادداشت‌های نوع جاخالی (کلوز) وجود دارد.
+adding-cloze-outside-cloze-field = امکان استفاده از جای خالی فقط در فیلد‌هایی که فیلتر 'cloze:' دارند ممکن است. این فیلد معمولاً نخستین فیلد است.
