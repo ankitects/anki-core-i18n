@@ -175,9 +175,13 @@ deck-config-show-answer-timer-tooltip =
 deck-config-audio-title = صدا
 deck-config-disable-autoplay = صدا به صورت خودکار پخش نشود
 deck-config-skip-question-when-replaying = هنگام پخش پاسخ، سوال رد شود
+deck-config-always-include-question-audio-tooltip =
+    اینکه هنگام استفاده از پخش صدا در هنگام نمایش پاسخ
+    صدای موجود در طرف سوال نیز پخش شود یا نه.
 
 ## Advanced section
 
+deck-config-advanced-title = پیشرفته
 
 ## Adding/renaming
 
