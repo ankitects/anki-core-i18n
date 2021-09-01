@@ -65,12 +65,58 @@ deck-config-new-insertion-order-random = تصادفی
 ## Lapses section
 
 deck-config-relearning-steps = قدم‌های یادگیری مجدد
+deck-config-relearning-steps-tooltip =
+    هیچ یا چند قدم یادگیری که با فاصله (Space) جدا شده‌اند. فشار دادن
+    دکمه `دوباره` روی یک کارت در مرحله مرور، باعث نمایش دوباره
+    آن کارت 10 دقیقه بعد خواهد شد. اگر هیچ قدمی وارد نشود، بازه
+    مرور کارت بدون وارد شدن به مرحله یادگیری مجدد تغییر خواهد کرد. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    تعداد دفعاتی که باید دکمه `دوباره` روی یک کارت فشار داده شود
+    تا یک کارت به عنوان کارت سخت علامت زده شود. کارت‌های سخت
+    کارت‌هایی هستند که مقدار زیادی از زمان شما را به خود اختصاص می‌دهند.
+    هنگامی که یک کارت به عنوان کارت سخت علامت زده می‌شود، بهتر است این
+    کارت را دوباره بنویسید، حذف کنید یا راهی برای به خاطر سپردن آن کارت 
+    پیدا کنید.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `فقط علامت زده شود`: یک برچسب `leech` به کارت اضافه کرده و یک
+    پیام برای شما نمایش می‌دهد
+    
+    `تعلیق کارت`: علاوه بر علامت‌گذاری کارت، باعث تعلیق کارت می‌شود.
+    این کارت تا زمانی که به صورت دستی لغو تعلیق شود، نمایش داده نخواهد شد.
 
 ## Burying section
 
+deck-config-bury-title = دفن کردن
+deck-config-bury-new-siblings = کارت‌های جدید مرتبط تا روز بعد دفن شوند
+deck-config-bury-review-siblings = کارت‌های مرور مرتبط تا روز بعد دفن شوند
+deck-config-bury-tooltip =
+    کارت‌هایی که از یک نوع هستند (مثلاً کارت‌های جاخالی که از یک
+    یادداشت ساخته می‌شوند) با تأخیر نمایش داده شوند یا خیر.
 
 ## Ordering section
 
+deck-config-ordering-title = ترتیب نمایش
+deck-config-new-gather-priority = ترتیب جمع‌آوری کارت‌های جدید
+deck-config-new-gather-priority-tooltip =
+    `دسته`: کارت‌ها را به ترتیب از هر زیردسته جمع‌آوری می‌کند و زمانی که
+    به حد دسته رسید، متوقف می‌شود. این کار سریع‌تر است و به شما کمک می‌کند
+    که دسته‌ها را به ترتیب نزدیکی به بالا اولویت‌بندی کنید.
+    
+    `موقعیت`: کارت‌ها را از همه دسته‌ها قبل از مرتب‌سازی جمع‌آوری می‌کند. این کار
+    باعث نمایش کارت‌ها به ترتیب موقعیت (due #) می‌شود حتی اگر کارت در دسته‌ای
+    قرار دارد که به بالا نزدیک‌تر نیست.
+deck-config-new-gather-priority-deck = دسته
+deck-config-new-gather-priority-position-lowest-first = ترتیب صعودی
+deck-config-new-gather-priority-position-highest-first = ترتیب نزولی
+deck-config-new-card-sort-order = ترتیب نمایش کارت‌های جدید
+deck-config-new-card-sort-order-tooltip =
+    ترتیب نمایش کارت‌ها بعد از جمع‌آوری. آنکی به صورت پیش‌فرض
+    و جهت جلوگیری از نمایش چندین کارت از یک یادداشت به صورت متوالی
+    کارت‌ها را ابتدا به ترتیب قالب کارت مرتب می‌کند.
+deck-config-sort-order-card-template-then-lowest-position = قالب کارت، سپس ترتیب صعودی
+deck-config-sort-order-card-template-then-highest-position = قالب کارت، سپس ترتیب نزولی
+deck-config-sort-order-card-template-then-random = قالب کارت، سپس به صورت تصادفی
 
 ## Timer section
 
