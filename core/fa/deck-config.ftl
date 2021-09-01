@@ -117,12 +117,64 @@ deck-config-new-card-sort-order-tooltip =
 deck-config-sort-order-card-template-then-lowest-position = قالب کارت، سپس ترتیب صعودی
 deck-config-sort-order-card-template-then-highest-position = قالب کارت، سپس ترتیب نزولی
 deck-config-sort-order-card-template-then-random = قالب کارت، سپس به صورت تصادفی
+deck-config-sort-order-lowest-position = ترتیب صعودی
+deck-config-sort-order-highest-position = ترتیب نزولی
+deck-config-sort-order-random = تصادفی
+deck-config-sort-order-template-then-gather = قالب کارت، سپس به ترتیب جمع‌آوری
+deck-config-sort-order-gather = به ترتیب جمع‌آوری
+deck-config-new-review-priority = ترتیب کارت جدید/مرور
+deck-config-new-review-priority-tooltip = زمان نمایش کارت‌های جدید در ارتباط با کارت‌های مرور.
+deck-config-interday-step-priority = ترتیب نمایش کارت‌های یادگیری/مرور روزانه
+deck-config-interday-step-priority-tooltip =
+    زمان نمایش کارت‌های یادگیری (مجدد) هنگامی که
+    زمان مرور از حد یک روز بیشتر شود.
+    
+    حد مرور همیشه ابتدا به کارت‌های یادگیری با زمان مرور
+    کمتر از یک روز و سپس به کارت‌های مرور اعمال می‌شود.
+    این گزینه ترتیب نمایش کارت‌های جمع‌آوری شده را تعیین می‌کند،
+    ولی کارت‌هایی که در مرحله یادگیری دارند و زمان مرورشان کمتر از
+    یک روز است همواره ابتدا نمایش داده خواهند شد.
+deck-config-review-mix-mix-with-reviews = ترکیب با کارت‌های مرور
+deck-config-review-mix-show-after-reviews = نمایش بعد از کارت‌های مرور
+deck-config-review-mix-show-before-reviews = نمایش قبل از کارت‌های مرور
+deck-config-review-sort-order = ترتیب مرور
+deck-config-review-sort-order-tooltip =
+    ترتیب نمایش پیش‌فرض کارت‌هایی را ابتدا نمایش می‌دهد که مدت زمان
+    بیشتری نمایش داده نشده‌اند، تا اگر کارت‌های عقب افتاده دارید، کارت‌هایی
+    که زمان بیشتری منتظر بوده‌اند ابتدا نمایش داده شوند. اگر تعداد کارت‌های
+    عقب افتاده شما بیش از اندازه زیاد است و مرور کامل آنها بیشتر از چند روز
+    طول می‌کشد، یا اگر می‌خواهید کارت‌ها به ترتیب زیردسته‌ها نمایش داده شوند
+    ممکن است از ترتیب‌های نمیش دیگر بیشتر خوشتان بیاید.
+deck-config-sort-order-due-date-then-random = زمان مرور، سپس تصادفی
+deck-config-sort-order-due-date-then-deck = زمان مرور، سپس به ترتیب دسته
+deck-config-sort-order-deck-then-due-date = دسته، سپس به ترتیب تاریخ مرور
+deck-config-sort-order-ascending-intervals = افزایش بازه زمانی
+deck-config-sort-order-descending-intervals = کاهش بازه زمانی
+deck-config-sort-order-ascending-ease = افزایش سختی
+deck-config-sort-order-descending-ease = کاهش سختی
+deck-config-display-order-will-use-current-deck =
+    آنکی از ترتیب نمایش کارت‌ها در دسته انتخاب شده
+    استفاده خواهد کرد و از ترتیب نمایش کارت‌ها در 
+    زیر دسته‌ها استفاده نخواهد کرد.
 
 ## Timer section
 
+deck-config-timer-title = زمان سنج
+deck-config-maximum-answer-secs = حداکثر زمان پاسخ (ثانیه)
+deck-config-maximum-answer-secs-tooltip =
+    حداکثر زمان به ثانیه که برای مرور یک کارت ثبت خواهد شد. اگر
+    زمان بیشتری برای مرور یک کارت ثبت شود (برای مثال به دلیل اینکه
+    شما پشت سیستم نبودید) این زمان حداکثر به عنوان زمان مرور کارت
+    ثبت خواهد شد.
+deck-config-show-answer-timer-tooltip =
+    در صفحه مرور کارت‌ها، یک زمان سنج نشان می‌دهد که زمانی که
+    صرف مرور یک کارت می‌شود (به ثانیه) را نشان می‌دهد.
 
 ## Audio section
 
+deck-config-audio-title = صدا
+deck-config-disable-autoplay = صدا به صورت خودکار پخش نشود
+deck-config-skip-question-when-replaying = هنگام پخش پاسخ، سوال رد شود
 
 ## Advanced section
 
