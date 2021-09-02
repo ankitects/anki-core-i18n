@@ -187,9 +187,9 @@ scheduling-set-due-date-prompt-hint =
     3-7 = случайный выбор 3-7 дней
 scheduling-set-due-date-done =
     { $cards ->
-        [one] Установить срок просмотра { $cards } карточки.
-        [few] Установить срок просмотра { $cards } карточек.
-       *[other] Установить срок просмотра { $cards } карточек.
+        [one] Установлено расписание { $cards } карточки.
+        [few] Установлено расписание { $cards } карточек.
+       *[other] Установлено расписание { $cards } карточек.
     }
 scheduling-forgot-cards =
     { $cards ->
