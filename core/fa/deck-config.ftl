@@ -212,19 +212,51 @@ deck-config-custom-scheduling-tooltip = همه مجموعه را تحت تأثی
 
 ## Adding/renaming
 
+deck-config-add-group = افزودن پیش‌تنظیم
+deck-config-name-prompt = نام
+deck-config-rename-group = نامگذاری مجدد پیش‌تنظیم
+deck-config-clone-group = تکثیر پیش‌تنظیم
 
 ## Removing
 
+deck-config-remove-group = حذف پیش‌تنظیم
+deck-config-confirm-normal = حذف { $name }؟
+deck-config-will-require-full-sync =
+    تغییرات موردنظر شما نیاز به همگام‌سازی یک طرفه خواهند داشت. اگر
+    تغییراتی روی دستگاه‌های دیگر دارید که هنوز با این دستگاه همگام‌سازی
+    نشده‌اند، لطفاً قبل از ادامه این عمل، این تغییرات را با این دستگاه همگام‌سازی کنید.
+deck-config-confirm-remove-name = حذف { $name }؟
 
 ## Other Buttons
 
+deck-config-save-button = ذخیره
+deck-config-save-to-all-subdecks = ذخیره در همه زیردسته‌ها
+deck-config-revert-button-tooltip = بازنشانی این گزینه به مقدار پیش‌فرض.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = رسیدگی آنکی 2.1.41+
+deck-config-description-new-handling-hint =
+    با ورودی همانند markdown رفتار خواهد کرد و HTML را مرتب
+    خواهد کرد. هنگامی که این گزینه فعال شود، توضیحات در صفحه‌ها
+    تبریک نیز نمایش داده خواهند شد. در نسخه‌های آنکی قدیمی‌تر از 2.1.40
+    markdown به صورت متن خام نمایش داده خواهد شد.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    محدودیت دسته والد{ $cards ->
+       *[other] { $cards } کارت است
+    }، که این مقدار را لغو خواهد کرد.
+deck-config-reviews-too-low =
+    در صورتی که روزانه { $cards ->
+       *[other] { $cards } کارت اضافه می‌کنید
+    }، حد مرور شما باید حداقل { $expected } باشد.
+deck-config-learning-step-above-graduating-interval = بازه زمانی فارغ شدن کارت باید حداقل هم‌اندازه با آخرین قدم یادگیری شما باشد.
+deck-config-good-above-easy = بازه زمانی آسان باید حداقل هم‌اندازه با بازه زمانی فارغ شدن کارت باشد.
+deck-config-relearning-steps-above-minimum-interval = بازه زمانی فراموشی کارت باید حداقل هم‌اندازه با آخرین قدم یادگیری مجدد شما باشد.
 
 ## Selecting a deck
 
+deck-config-which-deck = کدام دسته را انتخاب می‌کنید؟

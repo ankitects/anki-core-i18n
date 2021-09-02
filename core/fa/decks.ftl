@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = افزودن دسته جدید (Ctrl+N)
-decks-are-you-sure-you-wish-to = آیا از حذف { $val } اطمینان دارید؟
 decks-build = ایجاد کردن
 decks-cards-selected-by = کارت | ترتیب نمایش:
 decks-create-deck = ایجاد دسته
@@ -30,9 +29,5 @@ decks-repeat-failed-cards-after = تکرار کارت‌های ناموفق بع
 decks-reschedule-cards-based-on-my-answers = کارت‌ها بر اساس پاسخ من در این دسته زمانبندی شود
 decks-study = مطالعه
 decks-study-deck = مطالعۀ دسته
-decks-the-provided-search-did-not-match = هیچ کارتی با این مشخصات یافت نشد. تغییر جستجو؟
+decks-filtered-deck-search-empty = هیچ کارتی مطابق با جستجوی شما پیدا نشد. ممکن است برخی از کارت‌ها به دلیل اینکه در دسته فیلتر شده دیگری قرار دارند یا معلق شده‌اند از نتیجه جستجو خارج شده باشند.
 decks-unmovable-cards = نمایش همه کارت‌های صرف نظر شده
-decks-it-has-card =
-    { $count ->
-       *[other] حاوی { $count } کارت.
-    }
