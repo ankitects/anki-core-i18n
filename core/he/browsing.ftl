@@ -110,7 +110,7 @@ browsing-toggle-suspend = השהה
 browsing-treat-input-as-regular-expression = התייחס לערך המוזן כביטוי רגולרי
 browsing-update-saved-search = עדכן עם חיפוש נוכחי
 browsing-whole-collection = כלל המאגר
-browsing-window-title-notes = דיפדוף (נבחרו { $selected } מתוך { $total } רשומות)
+browsing-window-title-notes = דפדוף (נבחרו { $selected } מתוך { $total } רשומות)
 browsing-you-must-have-at-least-one = חייבת להיות לך לפחות עמודה אחת.
 browsing-group =
     { $count ->
