@@ -90,7 +90,7 @@ deck-config-bury-tooltip = ما إذا كانت البطاقات الأخرى ا
 ## Ordering section
 
 deck-config-ordering-title = ترتيب العرض
-deck-config-new-gather-priority = أولوية جلب البطاقات الجديدة
+deck-config-new-gather-priority = ترتيب جلب البطاقات الجديدة
 deck-config-new-gather-priority-tooltip =
     `الرزمة`: يجلب البطاقات من كل رزمة فرعية بالترتيب،
     ويتوقف عندما يُستنزف حد الرزمة المحددة. هذا أسرع،
@@ -115,10 +115,15 @@ deck-config-sort-order-highest-position = موضع متناقص
 deck-config-sort-order-random = عشوائي
 deck-config-sort-order-template-then-gather = قالب البطاقة، ثم ترتيب الجلب
 deck-config-sort-order-gather = ترتيب الجلب
-deck-config-new-review-priority = أولوية البطاقات الجديدة/المراجعات
+deck-config-new-review-priority = ترتيب البطاقات الجديدة/المراجعات
 deck-config-new-review-priority-tooltip = وقت إظهار البطاقات الجديدة بالنسبة لبطاقات المراجعة.
-deck-config-interday-step-priority = أفضلية بطاقات التعلم ذات الخطوات التي تتجاوز اليوم الواحد والمراجعات
-deck-config-interday-step-priority-tooltip = وقت إظهار بطاقات التعلم/إعادة التعلم التي تتجاوز خطواتها اليوم الواحد.
+deck-config-interday-step-priority = ترتيب بطاقات التعلم ذات الخطوات التي تتجاوز اليوم الواحد والمراجعات
+deck-config-interday-step-priority-tooltip =
+    وقت إظهار بطاقات التعلم/إعادة التعلم التي تتجاوز خطواتها اليوم الواحد.
+    
+    يطبق حد المراجعة على بطاقات التعلم التي تتجاوز خطواتها اليوم الواحد أولًا دومًا،
+    ثم المراجعات. يسمح هذا الخيار بالتحكم بترتيب إظهار البطاقات المجلوبة،
+    لكن بطاقات التعلم سابقة الذكر تُجلب أولًا دومًا.
 deck-config-review-mix-mix-with-reviews = خلط مع المراجعات
 deck-config-review-mix-show-after-reviews = إظهار بعد المراجعات
 deck-config-review-mix-show-before-reviews = إظهار قبل المراجعات
