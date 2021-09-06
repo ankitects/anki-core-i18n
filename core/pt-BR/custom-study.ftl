@@ -25,4 +25,4 @@ custom-study-reviews-due-in-deck-over-today = Limite de revisões pendentes no b
 custom-study-select = Selecionar
 custom-study-select-tags-to-exclude = Excluir cartões com as etiquetas:
 custom-study-selective-study = Estudo Seletivo
-custom-study-study-by-card-state-or-tag = Estudando pelo status do cartão ou etiqueta
+custom-study-study-by-card-state-or-tag = Estudar pelo status do cartão ou etiqueta

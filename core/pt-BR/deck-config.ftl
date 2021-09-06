@@ -15,7 +15,7 @@ deck-config-title = Opções do Baralho
 
 ## Daily limits section
 
-deck-config-daily-limits = Limites Diários
+deck-config-daily-limits = Limites diários
 
 ## New Cards section
 

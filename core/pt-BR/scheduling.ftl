@@ -86,7 +86,7 @@ scheduling-buried-cards-found = Um ou mais cartões foram ocultados, e serão mo
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = mostrá-los
-scheduling-how-to-custom-study = Se você deseja estudar fora do horário regular, você pode usar o recurso { $customStudy }.
+scheduling-how-to-custom-study = Se você deseja estudar fora do horário regular, você pode usar o recurso de { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = estudo personalizado
@@ -123,7 +123,7 @@ scheduling-maximum-interval = Intervalo máximo
 scheduling-maximum-reviewsday = Revisões máximas/dia
 scheduling-minimum-interval = Intervalo mínimo
 scheduling-mix-new-cards-and-reviews = Misturar cartões novos e a revisar
-scheduling-new-cards = Cartões Novos
+scheduling-new-cards = Cartões novos
 scheduling-new-cardsday = Novos cartões/dia
 scheduling-new-interval = Novo intervalo
 scheduling-new-options-group-name = Novo nome do grupo de opções:

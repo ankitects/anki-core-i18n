@@ -1,8 +1,7 @@
-decks-add-new-deck-ctrlandn = Criar Novo Baralho (Ctrl+N)
-decks-are-you-sure-you-wish-to = Você tem certeza que deseja excluir { $val }?
+decks-add-new-deck-ctrlandn = Criar um novo baralho (Ctrl+N)
 decks-build = Criar
 decks-cards-selected-by = cartões selecionados por
-decks-create-deck = Criar Baralho
+decks-create-deck = Criar baralho
 decks-custom-steps-in-minutes = Etapas personalizadas (em minutos)
 decks-deck = Baralho
 decks-decreasing-intervals = Mais distantes a estudar/revisar
@@ -10,8 +9,8 @@ decks-delete-deck = Excluir Baralho
 decks-enable-second-filter = Habilite o segundo filtro
 decks-filter = Filtro:
 decks-filter-2 = Filtro 2
-decks-get-shared = Obter Compartilhado
-decks-import-file = Importar Arquivo
+decks-get-shared = Obter compartilhados
+decks-import-file = Importar arquivo
 decks-increasing-intervals = Mais próximos a estudar/revisar
 decks-latest-added-first = Criados há menos tempo
 decks-limit-to = Limitar a
@@ -29,9 +28,4 @@ decks-relative-overdueness = Atrasos relativos
 decks-repeat-failed-cards-after = Repita os cartões com falha depois
 decks-reschedule-cards-based-on-my-answers = Reagendar cartões baseado nas minhas respostas neste baralho
 decks-study = Estudar
-decks-study-deck = Estudar Baralho
-decks-the-provided-search-did-not-match = A pesquisa não encontrou nenhum cartão. Gostaria de alterá-la?
-decks-it-has-card = { $count ->
-    [one]  Existe { $count } cartão.
-   *[other]  Existem { $count } cartões.
-  }
+decks-study-deck = Estudar baralho

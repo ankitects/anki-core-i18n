@@ -81,17 +81,16 @@ statistics-counts-young-cards = Recentes
 statistics-counts-mature-cards = Maduros
 statistics-counts-suspended-cards = Suspensos
 statistics-counts-buried-cards = Ocultos
-statistics-counts-early-cards = Adiantados
 statistics-counts-learning-cards = Aprendendo
 statistics-counts-relearning-cards = Reaprendendo
-statistics-counts-title = Contagem de Cartão
+statistics-counts-title = Contagem de cartão
 statistics-range-all-time = sempre
 statistics-range-1-year-history = últimos 12 meses
 statistics-range-all-history = todo histórico
 statistics-range-deck = baralho
 statistics-range-collection = coleção
 statistics-range-search = Procurar
-statistics-card-ease-title = Facilidade do Cartão
+statistics-card-ease-title = Facilidade do cartão
 statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente aparecerá o cartão.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -105,7 +104,7 @@ statistics-added-title = Adicionado
 statistics-added-subtitle = O número de novos cartões que você adicionou.
 statistics-reviews-count-subtitle = O número de questões que você já respondeu.
 statistics-reviews-time-subtitle = O tempo gasto para responder às questões.
-statistics-answer-buttons-title = Botões de Resposta
+statistics-answer-buttons-title = Botões de resposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Botão
 # eg Times pressed: 123
@@ -171,7 +170,6 @@ statistics-elapsed-time-years = { $amount }a
 
 ##
 
-statistics-error-fetching = Dados inválidos encontrados - use Verificar Banco de Dados para corrigir o problema.
 statistics-average-for-days-studied = Média dos dias estudados
 statistics-total = Total
 statistics-days-studied = Dias estudados

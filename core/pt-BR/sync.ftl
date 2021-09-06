@@ -25,7 +25,7 @@ sync-client-too-old = Sua versão do Anki é muito antiga. Atualize para a vers�
 sync-wrong-pass = O Usuário AnkiWeb ou senha está incorreto; por favor, tente outra vez.
 sync-resync-required = Sincronize novamente. Se esta mensagem continuar aparecendo, poste no site de suporte.
 sync-must-wait-for-end = O Anki está sincronizando no momento. Aguarde a conclusão da sincronização e tente novamente.
-sync-confirm-empty-download = A coleção local não possui cartões. Baixar de AnkiWeb?
+sync-confirm-empty-download = A coleção local não possui cartões. Baixar do AnkiWeb?
 sync-conflict-explanation =
     Seus baralhos aqui e no AnkiWeb diferem tanto que não podem ser mesclados, então é necessário que um deles sobrescreva o outro.
     
@@ -37,9 +37,9 @@ sync-conflict-explanation =
 sync-ankiweb-id-label = Usuário AnkiWeb:
 sync-password-label = Senha:
 sync-account-required =
-    <h1>Requer conta</h1>
-    Uma conta grátis é necessária para manter sua coleção sincronizada. Por favor, <a href="{ $link }">registre-se</a> e então insira detalhes abaixo.
-sync-sanity-check-failed = Use a função Verificar Banco de Dados e sincronize novamente. Se o problema persistir, force uma sincronização completa na tela de preferências.
+    <h1>Requer uma conta</h1>
+    Uma conta grátis é necessária para manter sua coleção sincronizada. Por favor, <a href="{ $link }">registre-se</a> e então insira os detalhes abaixo.
+sync-sanity-check-failed = Use a função Verificar banco de dados e sincronize novamente. Se o problema persistir, force uma sincronização completa na tela de preferências.
 sync-clock-off = Não foi possível sincronizar - seu relógio não está definido para a hora correta.
 
 ## Buttons
