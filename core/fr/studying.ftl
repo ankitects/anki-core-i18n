@@ -22,7 +22,7 @@ studying-good = Correct
 studying-hard = Difficile
 studying-it-has-been-suspended = La carte a été suspendue.
 studying-manually-buried-cards = Cartes enfouies manuellement
-studying-mark-note = Marquez la note
+studying-mark-note = Marquer la note
 studying-more = Autres choix
 studying-no-cards-are-due-yet = Aucune carte n’est arrivée à échéance pour le moment.
 studying-note-buried = Note enterrée.
@@ -42,15 +42,18 @@ studying-type-answer-unknown-field = Champ inconnu { $val }
 studying-unbury = Exhumer
 studying-what-would-you-like-to-unbury = Que voudriez-vous déterrer ?
 studying-you-havent-recorded-your-voice-yet = Vous ne vous êtes pas encore enregistré.
-studying-card-studied-in = { $count ->
-    [one] { $count } carte étudiée en
-   *[other] { $count } cartes étudiées en
-  }
-studying-minute = { $count ->
-    [one] { $count } minute.
-   *[other] { $count } minutes.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] La note et sa carte { $count } ont été supprimées.
-   *[other] La note et ses cartes { $count } ont été supprimées.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } carte étudiée en
+       *[other] { $count } cartes étudiées en
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } minute.
+       *[other] { $count } minutes.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+        [one] La note et sa carte { $count } ont été supprimées.
+       *[other] La note et ses cartes { $count } ont été supprimées.
+    }
