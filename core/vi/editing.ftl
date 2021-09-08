@@ -43,6 +43,7 @@ editing-subscript = Chỉ số dưới
 editing-superscript = Chỉ số trên
 editing-tags = Nhãn
 editing-to-make-a-cloze-deletion-on = Để tạo chỗ điền trống trong phiếu hiện có, trước tiên cần chuyển nó sang kiểu phiếu điền chỗ trống, bằng cách chọn Chỉnh sửa>Đổi Kiểu Phiếu.
+editing-toggle-sticky = Bật/tắt tính năng giữ lại những lần tìm kiếm
 editing-underline-text = Gạch chân văn bản
 editing-unordered-list = Danh sách không được yêu cầu
 editing-warning-cloze-deletions-will-not-work = Cảnh báo, nút tạo chỗ trống sẽ không hoạt động được cho đến khi bạn chuyển kiểu phiếu ở trên cùng sang kiểu Điền chỗ trống.
