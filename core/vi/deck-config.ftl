@@ -130,6 +130,8 @@ deck-config-sort-order-due-date-then-deck = Theo ngày đến hạn, sau đó th
 deck-config-sort-order-deck-then-due-date = Theo bộ thẻ, sau đó theo ngày đến hạn
 deck-config-sort-order-ascending-intervals = Theo khoảng cách tăng dần
 deck-config-sort-order-descending-intervals = Theo khoảng cách giảm dần
+deck-config-sort-order-ascending-ease = Bội số tăng dần
+deck-config-sort-order-descending-ease = Bội số giảm dần
 deck-config-display-order-will-use-current-deck =
     Anki sẽ sử dụng thứ tự hiển thị từ bộ thẻ mà bạn
     chọn để học, chứ không phải bất kỳ bộ thẻ con có thể có nào khác.
@@ -150,6 +152,7 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Âm thanh
 deck-config-disable-autoplay = Không tự động phát âm thanh
+deck-config-skip-question-when-replaying = Bỏ qua câu hỏi khi phát lại câu trả lời
 deck-config-always-include-question-audio-tooltip =
     Liệu câu hỏi dạng âm thanh có nên được đưa vào khi tác vụ Phát lại
     được sử dụng hay không trong lúc nhìn vào mặt trả lời của thẻ.
