@@ -2,7 +2,7 @@ studying-again = Снова
 studying-all-buried-cards = Все отложенные карточки
 studying-audio-5s = Аудио -5 с
 studying-audio-and5s = Аудио +5 с
-studying-buried-siblings = Отложенные связанные карточки
+studying-buried-siblings = Отложенные связанные
 studying-bury = Отложить
 studying-bury-card = Отложить карточку
 studying-bury-note = Отложить запись
@@ -42,18 +42,21 @@ studying-type-answer-unknown-field = Напишите ответ: неизвес
 studying-unbury = Вернуть
 studying-what-would-you-like-to-unbury = Какие вы хотите вернуть?
 studying-you-havent-recorded-your-voice-yet = Вы ещё не записали своего голоса.
-studying-card-studied-in = { $count ->
-    [one] { $count } карточка изучена за
-    [few] { $count } карточки изучены за
-   *[other] { $count } карточек изучены за
-  }
-studying-minute = { $count ->
-    [one] { $count } минуту.
-    [few] { $count } минуты.
-   *[other] { $count } минут.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Запись и { $count } карточка удалены.
-    [few] Запись и { $count } карточки удалены.
-   *[other] Запись и { $count } карточек удалены.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } карточка изучена за
+        [few] { $count } карточки изучены за
+       *[other] { $count } карточек изучены за
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } минуту.
+        [few] { $count } минуты.
+       *[other] { $count } минут.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+        [one] Запись и { $count } карточка удалены.
+        [few] Запись и { $count } карточки удалены.
+       *[other] Запись и { $count } карточек удалены.
+    }
