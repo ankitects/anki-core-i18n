@@ -1,3 +1,4 @@
+editing-actual-size = Переключить размер
 editing-add-media = Добавить медиафайл
 editing-align-left = Выровнять по левому краю
 editing-align-right = Выровнять по правому краю
@@ -15,6 +16,8 @@ editing-cut = Вырезать
 editing-edit-current = Редактировать
 editing-edit-html = Править HTML
 editing-fields = Поля
+editing-float-left = Слева
+editing-float-right = Справа
 editing-html-editor = Редактор HTML
 editing-indent = Увеличить отступ
 editing-italic-text = Курсив
