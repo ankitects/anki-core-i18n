@@ -30,6 +30,7 @@ deck-config-limit-new-bound-by-reviews =
     đặt thành 200 và bạn có 190 thẻ ôn tập đang chờ, tối đa 10 thẻ mới sẽ
     được giới thiệu. Nếu bạn đã đạt đến giới hạn ôn tập, sẽ không có thẻ mới
     được xem.
+deck-config-limit-interday-bound-by-reviews = Giới hạn ôn tập cũng sẽ áp dụng cho những thẻ cần học trong ngày. Khi áp dụng giới hạn, hệ thống sẽ hiển thị thẻ trong ngày trước, sau đó ôn lại, và cuối cùng là những thẻ mới.
 
 ## New Cards section
 
@@ -102,7 +103,7 @@ deck-config-new-gather-priority-position-lowest-first = Vị trí tăng dần
 deck-config-new-gather-priority-position-highest-first = Vị trí giảm dần
 deck-config-new-card-sort-order = Thứ tự sắp xếp thẻ mới
 deck-config-new-card-sort-order-tooltip =
-    Làm thế nào các thẻ được sắp xếp sau khi chúng được tập hợp. Theo mặc định, Anki sắp xếp
+    Cách các thẻ được sắp xếp sau khi chúng được tập hợp. Theo mặc định, Anki sắp xếp
     theo mẫu thẻ trước, để tránh nhiều thẻ của cùng một phiếu giống nhau
     xuất hiện nối tiếp nhau.
 deck-config-sort-order-card-template-then-lowest-position = Theo mẫu thẻ, sau đó là vị trí tăng dần
@@ -111,6 +112,8 @@ deck-config-sort-order-card-template-then-random = Mẫu thẻ, sau đó là ng�
 deck-config-sort-order-lowest-position = Vị trí tăng dần
 deck-config-sort-order-highest-position = Vị trí giảm dần
 deck-config-sort-order-random = Ngẫu nhiên
+deck-config-sort-order-template-then-gather = Theo mẫu thẻ, rồi đến thứ tự tập hợp thẻ
+deck-config-sort-order-gather = Theo thứ tự tập hợp thẻ
 deck-config-new-review-priority = Ưu tiên thẻ mới/ôn tập
 deck-config-new-review-priority-tooltip = Thời điểm hiển thị thẻ mới liên quan đến thẻ ôn tập.
 deck-config-interday-step-priority = Ưu tiên học/ôn tập trong ngày
