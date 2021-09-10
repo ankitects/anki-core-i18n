@@ -27,7 +27,7 @@ studying-more = المزيد
 studying-no-cards-are-due-yet = لا توجد بطاقات مستحقة بعد.
 studying-note-buried = دُفِنت الملحوظة.
 studying-note-suspended = عُلِّقت الملحوظة.
-studying-pause-audio = إيقاف التسجيل الصوتي
+studying-pause-audio = إيقاف الصوت
 studying-please-run-toolsempty-cards = استخدم أدوات>بحث عن بطاقات فارغة
 studying-record-own-voice = تسجيل صوتك
 studying-replay-own-voice = إعادة تشغيل صوتك
@@ -42,27 +42,30 @@ studying-type-answer-unknown-field = أدخل الجواب: حقل غير معر
 studying-unbury = نكش
 studying-what-would-you-like-to-unbury = ما الذي تريد نكشه؟
 studying-you-havent-recorded-your-voice-yet = لم تسجّل صوتك بعد.
-studying-card-studied-in = { $count ->
-    [zero] درست { $count } بطاقة خلال
-    [one] درست { $count } بطاقة خلال
-    [two] درست { $count } بطاقة خلال
-    [few] درست { $count } بطاقات خلال
-    [many] درست { $count } بطاقة خلال
-   *[other] درست { $count } بطاقة خلال
-  }
-studying-minute = { $count ->
-    [zero] { $count } دقيقة.
-    [one] { $count } دقيقة.
-    [two] { $count } دقيقة.
-    [few] { $count } دقائق.
-    [many] { $count } دقيقة.
-   *[other] { $count } دقيقة.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [zero] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-    [one] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-    [two] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-    [few] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-    [many] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-   *[other] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-  }
+studying-card-studied-in =
+    { $count ->
+        [zero] درست { $count } بطاقة خلال
+        [one] درست { $count } بطاقة خلال
+        [two] درست { $count } بطاقة خلال
+        [few] درست { $count } بطاقات خلال
+        [many] درست { $count } بطاقة خلال
+       *[other] درست { $count } بطاقة خلال
+    }
+studying-minute =
+    { $count ->
+        [zero] { $count } دقيقة.
+        [one] { $count } دقيقة.
+        [two] { $count } دقيقة.
+        [few] { $count } دقائق.
+        [many] { $count } دقيقة.
+       *[other] { $count } دقيقة.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+        [zero] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+        [one] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+        [two] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+        [few] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+        [many] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+       *[other] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
+    }
