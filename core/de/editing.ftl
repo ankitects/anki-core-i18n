@@ -1,3 +1,4 @@
+editing-actual-size = In tatsächlicher Größe anzeigen/nicht anzeigen
 editing-add-media = Medien hinzufügen
 editing-align-left = Links ausrichten
 editing-align-right = Rechts ausrichten
@@ -15,6 +16,9 @@ editing-cut = Ausschneiden
 editing-edit-current = Angezeigte Karte bearbeiten
 editing-edit-html = HTML eingeben
 editing-fields = Felder
+editing-float-left = Nach links gleiten
+editing-float-right = Nach rechts gleiten
+editing-float-none = Nicht gleiten
 editing-html-editor = HTML-Editor
 editing-indent = Einrückung vergrößern
 editing-italic-text = Kursiver Text
