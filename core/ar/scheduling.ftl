@@ -139,9 +139,9 @@ scheduling-update-more-info-button = تعلم المزيد
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = تضمين أصوات جانب السؤال عند إعادة تشغيل الملفات الصوتية دائمًا
+scheduling-always-include-question-side-when-replaying = تضمين جانب السؤال دومًا عندما إعادة تشغيل الصوت
 scheduling-at-least-one-step-is-required = يلزم خطوة واحدة على الأقل.
-scheduling-automatically-play-audio = تشغيل التسجيلات الصوتية تلقائيًا
+scheduling-automatically-play-audio = تشغيل الصوت تلقائيًا
 scheduling-bury-related-new-cards-until-the = دفن البطاقات الجديدة ذات الصلة حتى اليوم التالي
 scheduling-bury-related-reviews-until-the-next = دفن المراجعات ذات الصلة حتى اليوم التالي
 scheduling-days = أيام
@@ -154,7 +154,7 @@ scheduling-general = عام
 scheduling-graduating-interval = الفاصل الزمني بين آخر خطوة وأول مراجعة
 scheduling-hard-interval = الفاصل الزمني للبطاقات الصعبة
 scheduling-ignore-answer-times-longer-than = تجاهل فترات الإجابة التي هي أطول من
-scheduling-interval-modifier = مُعدِّل الفاصل الزمني
+scheduling-interval-modifier = مضاعف الفاصل الزمني
 scheduling-lapses = سقطات
 scheduling-lapses2 = سقطات
 scheduling-learning = في طور التعلم
