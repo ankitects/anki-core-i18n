@@ -9,3 +9,4 @@ fields-new-position-1 = ନୂତନ ସ୍ଥିତି (1...{ $val }):
 fields-size = ଆକାର:
 fields-that-field-name-is-already-used = ସେହି କ୍ଷେତ୍ର ନାମ ପୂର୍ବରୁ ବ୍ୟବହୃତ ହୋଇଛି।
 fields-name-first-letter-not-valid = କ୍ଷେତ୍ର ନାମ #, ^ କିମ୍ବା / ସହିତ ଆରମ୍ଭ ହେବା ଉଚିତ୍ ନୁହେଁ।
+fields-name-invalid-letter = କ୍ଷେତ୍ର ନାମରେ , ", { "{" } or { "}" } ରହିବା ଉଚିତ୍ ନୁହେଁ।
