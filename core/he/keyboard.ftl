@@ -1,2 +1,2 @@
-keyboard-ctrl = Ctrl (קונטרול)
-keyboard-shift = Shift (שיפט)
+keyboard-ctrl = Ctrl
+keyboard-shift = Shift
