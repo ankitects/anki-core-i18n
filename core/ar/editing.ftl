@@ -1,3 +1,4 @@
+editing-actual-size = ضبط الحجم الفعلي
 editing-add-media = إضافة وسائط
 editing-align-left = محاذاة إلى اليسار
 editing-align-right = محاذاة إلى اليمين
@@ -15,6 +16,9 @@ editing-cut = قص
 editing-edit-current = تحرير البطاقة الحالية
 editing-edit-html = تحرير HTML
 editing-fields = الحقول
+editing-float-left = محاذاة لليسار
+editing-float-right = محاذاة لليمين
+editing-float-none = لا محاذاة
 editing-html-editor = محرر HTML
 editing-indent = زيادة الإزاحة
 editing-italic-text = خط مائل
