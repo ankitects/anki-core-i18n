@@ -109,10 +109,17 @@ deck-config-sort-order-card-template-then-random = Šablona karty, poté náhodn
 deck-config-sort-order-lowest-position = Nejnižší umístění
 deck-config-sort-order-highest-position = Nejvyšší umístění
 deck-config-sort-order-random = Náhodně
+deck-config-sort-order-template-then-gather = Šablona karty, poté v pořadí nabrání
+deck-config-sort-order-gather = V pořadí nabrání
 deck-config-new-review-priority = Priorita nové/opakování
 deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu ke kartám k opakování.
 deck-config-interday-step-priority = Priorita učení/opakování v jednom dni
-deck-config-interday-step-priority-tooltip = Kdy zobrazit (znovu) učené karty, které překračují denní limit.
+deck-config-interday-step-priority-tooltip =
+    Kdy zobrazit (znovu) učené karty, které překračují do dalšího dne.
+    
+    Limit opakování se vždy použije jako první na učené karty, které překračují do dalšího 
+    dne, a poté na opakování. Tato volba řídí pořadí, v jakém jsou nabrané karty zobrazeny, 
+    ale učené karty překračující do dalšího dne budou vždy nabrány jako první.
 deck-config-review-mix-mix-with-reviews = Smíchat s opakováním
 deck-config-review-mix-show-after-reviews = Zobrazit po opakování
 deck-config-review-mix-show-before-reviews = Zobrazit před opakováním
@@ -127,6 +134,8 @@ deck-config-sort-order-due-date-then-deck = Datum zkoušení, poté balík
 deck-config-sort-order-deck-then-due-date = Balík, poté datum zkoušení
 deck-config-sort-order-ascending-intervals = Intervaly vzestupně
 deck-config-sort-order-descending-intervals = Intervaly sestupně
+deck-config-sort-order-ascending-ease = Snadnost vzestupně
+deck-config-sort-order-descending-ease = Snadnost sestupně
 deck-config-display-order-will-use-current-deck =
     Anki použije pořadí zobrazování balíku, který jste vybrali 
     k učení, a ne podřízených balíků, které může mít.
@@ -147,6 +156,7 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Zvuk
 deck-config-disable-autoplay = Nepřehrávat zvuk automaticky
+deck-config-skip-question-when-replaying = Přeskočit otázku, když se přehrává odpověď
 deck-config-always-include-question-audio-tooltip =
     Zda má být zvuk v otázce přehrán, když se zvuk přehrává znovu během 
     prohlížení strany karty s odpovědí.
