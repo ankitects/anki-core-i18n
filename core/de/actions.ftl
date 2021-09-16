@@ -50,6 +50,7 @@ actions-remove-notetype = Notiztyp entfernen
 actions-update-notetype = Notiztyp aktualisieren
 actions-update-config = Konfiguration aktualisieren
 actions-card-info = Karteninformation
+actions-previous-card-info = Vorherige Karte - Info
 
 ## Flags
 
