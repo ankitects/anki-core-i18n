@@ -50,6 +50,7 @@ actions-remove-notetype = Odstranit typ poznámky
 actions-update-notetype = Aktualizovat typ poznámky
 actions-update-config = Aktualizovat nastavení
 actions-card-info = Informace o kartě
+actions-previous-card-info = Informace o předchozí kartě
 
 ## Flags
 

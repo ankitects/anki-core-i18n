@@ -86,7 +86,7 @@ deck-config-bury-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = Pořadí zobrazování
-deck-config-new-gather-priority = Priorita nabírání nových karet
+deck-config-new-gather-priority = Pořadí nabírání nových karet
 deck-config-new-gather-priority-tooltip =
     `Balík`: nabírá karty z každého podřízeného balíku v pořadí a přestane, když 
     se překročí limit vybraného balíku. Toto je rychlejší a umožňuje to upřednostnit 
@@ -111,9 +111,9 @@ deck-config-sort-order-highest-position = Nejvyšší umístění
 deck-config-sort-order-random = Náhodně
 deck-config-sort-order-template-then-gather = Šablona karty, poté v pořadí nabrání
 deck-config-sort-order-gather = V pořadí nabrání
-deck-config-new-review-priority = Priorita nové/opakování
+deck-config-new-review-priority = Pořadí nové/opakování
 deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu ke kartám k opakování.
-deck-config-interday-step-priority = Priorita učení/opakování v jednom dni
+deck-config-interday-step-priority = Pořadí učení/opakování mezi dny
 deck-config-interday-step-priority-tooltip =
     Kdy zobrazit (znovu) učené karty, které překračují do dalšího dne.
     
