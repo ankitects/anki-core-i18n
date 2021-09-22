@@ -139,6 +139,8 @@ deck-config-sort-order-due-date-then-deck = De réir dáta staidéir, ansin de r
 deck-config-sort-order-deck-then-due-date = De réir (fo)paca, ansin de réir dáta staidéir
 deck-config-sort-order-ascending-intervals = De réir eatraimh (is lú ar dtús)
 deck-config-sort-order-descending-intervals = De réir eatraimh (is mó ar dtús)
+deck-config-sort-order-ascending-ease = Ag dul i ndeacracht
+deck-config-sort-order-descending-ease = Ag dul in éascaíocht
 deck-config-display-order-will-use-current-deck =
     Cloífear leis an ord taispeána a bhaineann leis an
     bpaca a roghnaigh tú seachas ord taispeána a
