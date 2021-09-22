@@ -50,6 +50,7 @@ actions-remove-notetype = Bain Cineál Nótaí
 actions-update-notetype = Nuashonraigh Cineál Nótaí
 actions-update-config = Nuashonraigh Cumraíocht
 actions-card-info = Sonraí Cárta
+actions-previous-card-info = Sonraí an Cárta Roimhe
 
 ## Flags
 

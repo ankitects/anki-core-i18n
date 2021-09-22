@@ -1,3 +1,4 @@
+editing-actual-size = Scoránaigh méid
 editing-add-media = Cuir Meáin Leis
 editing-align-left = Ailínigh ar chlé
 editing-align-right = Ailínigh ar dheis
@@ -15,6 +16,9 @@ editing-cut = Gearr
 editing-edit-current = Cuir ábhar reatha in Eagar
 editing-edit-html = Cuir HTML in eagar
 editing-fields = Réimsí
+editing-float-left = Íomhá ar chlé
+editing-float-right = Íomhá ar dheis
+editing-float-none = Íomhá mar a bhfuil
 editing-html-editor = Eagarthóir HTML
 editing-indent = Méadaigh an eang
 editing-italic-text = Cló iodálach

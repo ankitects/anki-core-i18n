@@ -36,6 +36,10 @@ deck-config-limit-new-bound-by-reviews =
     Cuir i gcás, más é 200 an t-uasmhéid athbhreithnithe agus 190 athbhreithniú
     le déanamh agat, ní chuirfear ar fáil ach amháin 10 gcárta nua. Má tá an
     t-uasmhéid baint amach, ní chuirfear aon chárta nua ar fáil.
+deck-config-limit-interday-bound-by-reviews =
+    Cuirtear cártaí atá á bhfoghlaim fós san áireamh san uasmhéid athbhreithnithe.
+    Agus an uasmhéid á cur i bhfeidhm, comhairfear na cártaí atá á bhfoghlaim ar dtús,
+    ansin athbhreithnithe, agus ar deireadh cártaí nua.
 
 ## New Cards section
 
@@ -120,6 +124,8 @@ deck-config-sort-order-card-template-then-random = Teimpléad cárta, ansin ord 
 deck-config-sort-order-lowest-position = Suíomh is ísle
 deck-config-sort-order-highest-position = Suíomh is uaisle
 deck-config-sort-order-random = Ord randamach
+deck-config-sort-order-template-then-gather = Teimpléad cárta, ansin ord bailithe
+deck-config-sort-order-gather = Ord bailithe
 deck-config-new-review-priority = Tosaíoch do nua/athbhreithniú
 deck-config-new-review-priority-tooltip = Cén áit a bhfeicfear cártaí nua (i gcoibhneas na gcártaí athbhreithnithe)
 deck-config-interday-step-priority = Tosaíoch an fhoghlamtha/athbhreithnithe ile-lae
