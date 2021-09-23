@@ -43,8 +43,17 @@ deck-config-bury-review-siblings = Zakop przeglądane podobne do następnego dni
 ## Ordering section
 
 deck-config-ordering-title = Kolejność wyświetlania
+deck-config-new-gather-priority = Porządek zbierania nowych kart
 deck-config-new-gather-priority-deck = Talia
 deck-config-new-card-sort-order = Kolejność nowych kart
+deck-config-review-sort-order = Porządek przeglądania
+deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowy
+deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
+deck-config-sort-order-deck-then-due-date = Talia, potem zaplanowana data
+deck-config-sort-order-ascending-intervals = Po rosnącym odstępie
+deck-config-sort-order-descending-intervals = Po malejącym odstępie
+deck-config-sort-order-ascending-ease = Po rosnącej łatwości
+deck-config-sort-order-descending-ease = Po malejącej łatwości
 
 ## Timer section
 
@@ -60,6 +69,7 @@ deck-config-skip-question-when-replaying = Pomiń pytanie przy ponownym odtwarza
 ## Advanced section
 
 deck-config-advanced-title = Zaawansowane
+deck-config-custom-scheduling = Własne planowanie
 
 ## Adding/renaming
 
