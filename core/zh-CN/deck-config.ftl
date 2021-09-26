@@ -98,6 +98,8 @@ deck-config-sort-order-card-template-then-random = 先按照卡片模板，然�
 deck-config-sort-order-lowest-position = 按位置升序
 deck-config-sort-order-highest-position = 按位置降序
 deck-config-sort-order-random = 随机
+deck-config-sort-order-template-then-gather = 先按照卡片模板，然后按收集顺序
+deck-config-sort-order-gather = 按收集顺序
 deck-config-new-review-priority = 新卡片/复习卡片优先顺序
 deck-config-new-review-priority-tooltip = 新卡片在复习卡片之前还是之后展示。
 deck-config-interday-step-priority = 跨天学习/复习优先顺序
@@ -115,6 +117,8 @@ deck-config-sort-order-due-date-then-deck = 先按照到期日期，然后按照
 deck-config-sort-order-deck-then-due-date = 先按照牌组，然后按照到期日期
 deck-config-sort-order-ascending-intervals = 间隔由小到大
 deck-config-sort-order-descending-intervals = 间隔由大到小
+deck-config-sort-order-ascending-ease = 按简易度从小到大
+deck-config-sort-order-descending-ease = 按简易度从大到小
 deck-config-display-order-will-use-current-deck =
     Anki 将使用您选择的牌组的显示顺序，
     而不是它可能有的子牌组。
