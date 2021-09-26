@@ -32,6 +32,10 @@ deck-config-limit-new-bound-by-reviews =
     Limit opakování ovlivní limit nových karet. Například, jestliže je limit opakování 
     nastaven na 200, a čeká vás 190 opakování, bude zobrazeno maximálně 10 nových 
     karet. Jestliže se dosáhne limitu opakování, žádné nové karty se nezobrazí.
+deck-config-limit-interday-bound-by-reviews =
+    Limit opakování také ovlivní učené karty, které překračují do dalšího dne. 
+    Když se uplatní limit, karty, které překračují do dalšího dne, jsou nabrány 
+    první, poté opakování a nakonec nové karty.
 
 ## New Cards section
 

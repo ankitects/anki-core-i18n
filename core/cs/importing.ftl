@@ -35,6 +35,7 @@ importing-notes-skipped-as-theyre-already-in = Přeskočené poznámky, které j
 importing-notes-that-could-not-be-imported = Poznámky, které nemohly být importovány, protože se změnil typ poznámky: { $val }
 importing-notes-updated-as-file-had-newer = Poznámky aktualizovány, protože soubor měl novější verzi: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balík/kolekce (*.apkg *.colpkg *.zip)
+importing-pauker-18-lesson-paugz = Pauker 1.8 lekce (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = „{ $row }“ mělo { $found } polí, namísto očekávaných { $expected }
 importing-selected-file-was-not-in-utf8 = Vybraný soubor není ve formátu UTF-8. Blíže viz manuál kapitola Import.
 importing-semicolon = Středník
