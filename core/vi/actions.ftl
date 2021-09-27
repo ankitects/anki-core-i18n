@@ -50,6 +50,7 @@ actions-remove-notetype = Xóa Kiểu Phiếu
 actions-update-notetype = Cập nhật Kiểu phiếu
 actions-update-config = Cập nhật cấu hình
 actions-card-info = Thông tin thẻ
+actions-previous-card-info = Thông tin thẻ trước
 
 ## Flags
 
