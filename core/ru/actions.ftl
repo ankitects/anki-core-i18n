@@ -50,6 +50,7 @@ actions-remove-notetype = Удалить тип записи
 actions-update-notetype = Обновить тип записи
 actions-update-config = Обновить конфигурацию
 actions-card-info = Сведения о карточке
+actions-previous-card-info = Сведения о предыдущей
 
 ## Flags
 
