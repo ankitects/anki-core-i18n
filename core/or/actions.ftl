@@ -47,6 +47,7 @@ actions-remove-notetype = ନୋଟ୍-ପ୍ରକାର ଅପସାରଣ କ
 actions-update-notetype = ନୋଟ୍-ପ୍ରକାର ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-update-config = ବିନ୍ୟାସ ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-card-info = ପତ୍ର ସୂଚନା
+actions-previous-card-info = ପୂର୍ବବର୍ତ୍ତୀ ପତ୍ର ସୂଚନା
 
 ## Flags
 
