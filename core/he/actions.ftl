@@ -17,7 +17,7 @@ actions-name = שם:
 actions-new = חדשים
 actions-new-name = שם חדש:
 actions-options = אפשרויות
-actions-options-for = אפשריות ל-{ $val }
+actions-options-for = אפשרויות ל-{ $val }
 actions-preview = תצוגה מקדימה
 actions-rebuild = בנה מחדש
 actions-rename = שנה שם
@@ -50,6 +50,7 @@ actions-remove-notetype = הסר סוג רשומה
 actions-update-notetype = עדכן סוג רשומה
 actions-update-config = עדכן הגדרה
 actions-card-info = מידע כרטיס
+actions-previous-card-info = מידע כרטיס קודם
 
 ## Flags
 

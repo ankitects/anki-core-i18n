@@ -1,3 +1,4 @@
+editing-actual-size = שנה גודל
 editing-add-media = הוסף מדיה
 editing-align-left = יישור לשמאל
 editing-align-right = יישור לימין
@@ -15,6 +16,9 @@ editing-cut = גזור
 editing-edit-current = ערוך נוכחי
 editing-edit-html = ערוך HTML
 editing-fields = שדות
+editing-float-left = הצמד לשמאל
+editing-float-right = הצמד לימין
+editing-float-none = ללא הצמדה
 editing-html-editor = עורך HTML
 editing-indent = הגדל הזחה
 editing-italic-text = טקסט נטוי

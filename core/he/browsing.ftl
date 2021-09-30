@@ -23,8 +23,8 @@ browsing-cards-deleted =
         [one] כרטיס { $count } נמחק.
        *[other] { $count } כרטיסים נמחקו.
     }
-browsing-change-deck = שנה חפיסה
-browsing-change-deck2 = שנה חפיסה...
+browsing-change-deck = העבר חפיסה
+browsing-change-deck2 = העבר חפיסה...
 browsing-change-note-type = שנה סוג רשומה
 browsing-change-note-type2 = שנה סוג רשומה...
 browsing-change-notetype = שנה סוג רשומה
@@ -44,16 +44,16 @@ browsing-end = סוף
 browsing-enter-tags-to-add = הזן תגיות להוספה:
 browsing-enter-tags-to-delete = הזן תגיות למחיקה:
 browsing-filtered = (מסונן)
-browsing-find = <b>מצא</b>:
-browsing-find-and-replace = מצא והחלף
-browsing-find-duplicates = מצא כפילויות
+browsing-find = <b>חפש</b>:
+browsing-find-and-replace = חפש והחלף
+browsing-find-duplicates = חפש כפילויות
 browsing-first-card = כרטיס ראשון
 browsing-flag = סמן בדגל
 browsing-font = <b>גופן</b>:
 browsing-font-size = <b>גודל גופן</b>:
 browsing-found-as-across-bs = נמצא { $part } מעבר ל{ $whole }.
 browsing-home = בית
-browsing-ignore-case = התעלם מרישיות
+browsing-ignore-case = התעלם מאותיות רישיות
 browsing-in = <b>בתוך</b>:
 browsing-interval = מרווח-זמן
 browsing-last-card = כרטיס אחרון
@@ -70,18 +70,17 @@ browsing-no-selection = לא נבחרו כרטיסים או רשומות.
 browsing-note = רשומה
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ר
-browsing-notes-tagged = רשומות תוייגו.
+browsing-notes-tagged = רשומות מתויגות.
 browsing-nothing = כלום
-browsing-only-new-cards-can-be-repositioned = רק כרטיסים חדשים יכולים להיות ממוקמים מחדש.
 browsing-optional-filter = סינון אופציונלי
 browsing-override-back-template = דריסת תבנית גב:
 browsing-override-font = דריסת גופן:
 browsing-override-front-template = דריסת תבנית חזית:
-browsing-please-give-your-filter-a-name = נא הכנס שם עבור הסינון שלך:
+browsing-please-give-your-filter-a-name = נא הכנס שם עבור המסנן שלך:
 browsing-please-select-cards-from-only-one = נא בחר כרטיסים מסוג רשומה אחד בלבד.
-browsing-preview-selected-card = תצוגה מקדימה כרטיסייה נבחרת ({ $val })
+browsing-preview-selected-card = תצוגה מקדימה לכרטיסייה נבחרת ({ $val })
 browsing-question = שאלה
-browsing-queue-bottom = תחתית התור: { $val }
+browsing-queue-bottom = סוף התור: { $val }
 browsing-queue-top = ראש התור: { $val }
 browsing-randomize-order = סדר אקראי
 browsing-remove-tags = הסר תגיות...
@@ -93,15 +92,15 @@ browsing-search-bar-hint = חיפוש כרטיסים/רשומות (הקלד, ו�
 browsing-search-in = חיפוש ב:
 browsing-search-within-formatting-slow = חפש עם עיצוב (איטי)
 browsing-selected-notes-only = רשומות נבחרות בלבד
-browsing-shift-position-of-existing-cards = מיקום הזחה של כרטיסים קיימים
+browsing-shift-position-of-existing-cards = שינוי מיקום הכרטיסים הקיימים
 browsing-sidebar = סרגל צד
 browsing-sidebar-filter = מסנן סרגל צד
 browsing-sort-field = שדה מיון
-browsing-sorting-on-this-column-is-not = מיון בעמודה זו אינו נתמך. בחר עמודה אחרת.
+browsing-sorting-on-this-column-is-not = סדר בעמודה זו אינו נתמך. נסה בעמודה אחרת.
 browsing-start-position = נקודת התחלה:
 browsing-step = צעד:
 browsing-suspended = מושהה
-browsing-tag-duplicates = כפילויות תגים
+browsing-tag-duplicates = תגים כפולים
 browsing-tag-rename-warning-empty = לא ניתן לשנות תגית שאין לה רשומות.
 browsing-target-field = שדה יעד:
 browsing-toggle-showing-cards-notes = סמן כרטיסים/רשומות מוצגים
@@ -152,10 +151,10 @@ browsing-sidebar-flags = דגלים
 browsing-today = היום
 browsing-studied-today = נלמדו היום
 browsing-added-today = התווסף היום
-browsing-again-today = שוב היום
-browsing-edited-today = נערכו
-browsing-sidebar-first-review = חזרה ראשונה
-browsing-sidebar-rescheduled = תוזמן מחדש
+browsing-again-today = לחצן "שוב" היום
+browsing-edited-today = נערכו היום
+browsing-sidebar-first-review = חזרה ראשונה היום
+browsing-sidebar-rescheduled = תוזמן מחדש היום
 browsing-sidebar-due-today = תאריך יעד
 browsing-sidebar-untagged = ללא תגית
 browsing-sidebar-overdue = באיחור
@@ -175,3 +174,7 @@ browsing-reparented-decks =
         [one] השתנה השם של חפיסה { $count }.
        *[other] השתנה השם של { $count } חפיסות.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = רק כרטיסים חדשים יכולים להיות ממוקמים מחדש.

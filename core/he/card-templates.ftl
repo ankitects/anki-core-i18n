@@ -54,6 +54,6 @@ card-templates-card-count =
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-        [one] זה ייצור { $count } כרטיס. להמשיך?
-       *[other] זה ייצור { $count } כרטיסים. להמשיך?
+        [one] פעולה זאת תיצור { $count } כרטיס. להמשיך?
+       *[other] פעולה זאת תיצור { $count } כרטיסים. להמשיך?
     }

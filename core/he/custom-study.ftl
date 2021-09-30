@@ -1,7 +1,7 @@
 custom-study-must-rename-deck = יש לשנות תחילה את השם של חפיסת הלימוד המותאם הקיימת.
 custom-study-all-cards-in-random-order-dont = כל הכרטיסים בסדר אקראי (ללא תזמון מחדש)
 custom-study-all-review-cards-in-random-order = כל הכרטיסים לחזרה בסדר אקראי
-custom-study-cards = כרטיסיות
+custom-study-cards = כרטיסים
 custom-study-cards-from-the-deck = כרטיסים מהחפיסה
 custom-study-choose-tags = בחר תגיות
 custom-study-custom-study-session = אוסף לימוד מותאם
