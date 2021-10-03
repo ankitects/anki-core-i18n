@@ -1,6 +1,8 @@
 browsing-add-notes = Notiz hinzufügen…
 browsing-add-tags = Schlagwörter hinzufügen
 browsing-add-tags2 = Schlagwörter hinzufügen…
+browsing-add-to-selected-notes = Zu den ausgewählten Notizen hinzufügen
+browsing-remove-from-selected-notes = Von den ausgewählten Notizen entfernen
 browsing-addon = Erweiterung
 browsing-all-card-types = Alle Kartentypen
 browsing-all-fields = Alle Felder
@@ -72,7 +74,6 @@ browsing-note = Notiz
 browsing-note-initial = N
 browsing-notes-tagged = Schlagwörter hinzugefügt.
 browsing-nothing = Keine
-browsing-only-new-cards-can-be-repositioned = Die Position kann nur für neue Karten geändert werden.
 browsing-optional-filter = Optionaler Filter:
 browsing-override-back-template = Vorlage für Rückseite festlegen:
 browsing-override-font = Schriftart festlegen:
@@ -150,6 +151,13 @@ browsing-sidebar-save-current-search = Aktuellen Suchbegriff speichern
 browsing-sidebar-card-state = Kartenstatus
 browsing-sidebar-flags = Markierungen
 browsing-today = Heute
+browsing-tooltip-card-modified = Das letzte Mal, bei dem Änderungen an der Karte vorgenommen wurden, inklusive Wiederholungen, Markierungen und Stapeländerungen
+browsing-tooltip-note-modified = Das letzte Mal, bei dem Änderungen an einer Notiz vorgenommen wurden, normalerweise Bearbeitung der Feldinhalte oder Schlagwörter
+browsing-tooltip-card = Der Name der Kartenvorlage einer Karte
+browsing-tooltip-cards = Die Anzahl an Karten, die eine Notiz hat
+browsing-tooltip-notetype = Der Name des Notiztyps einer Notiz
+browsing-tooltip-question = Die Vorderseite der Karte, anpassbar über den Kartenvorlageneditor
+browsing-tooltip-answer = Die Rückseite der Karte, anpassbar über den Kartenvorlageeditor
 browsing-studied-today = Heute gesehen
 browsing-added-today = Heute hinzugefügt
 browsing-again-today = Heute fehlgeschlagen
@@ -175,3 +183,7 @@ browsing-reparented-decks =
         [one] { $count } Stapel umbenannt.
        *[other] { $count } Stapel umbenannt.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = Die Position kann nur für neue Karten geändert werden.
