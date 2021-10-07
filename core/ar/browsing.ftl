@@ -1,6 +1,8 @@
 browsing-add-notes = إضافة ملحوظات...
 browsing-add-tags = إضافة وسوم
 browsing-add-tags2 = إضافة وسوم...
+browsing-add-to-selected-notes = أضف إلى الملحوظات المحددة
+browsing-remove-from-selected-notes = احذف من الملحوظات المحددة
 browsing-addon = إضافة
 browsing-all-card-types = كل أنواع البطاقات
 browsing-all-fields = كل الحقول
@@ -76,7 +78,6 @@ browsing-note = ملحوظة
 browsing-note-initial = مل
 browsing-notes-tagged = أُضيف وسم إلى الملحوظات.
 browsing-nothing = ﻻ شيء
-browsing-only-new-cards-can-be-repositioned = يمكن إعادة موضعة البطاقات الجديدة فقط.
 browsing-optional-filter = فلتر اختياري:
 browsing-override-back-template = استبدال القالب الخلفي:
 browsing-override-font = تغيير الخط:
@@ -174,6 +175,13 @@ browsing-sidebar-save-current-search = حفظ البحث الحالي
 browsing-sidebar-card-state = حالة البطاقة
 browsing-sidebar-flags = مؤشرات
 browsing-today = اليوم
+browsing-tooltip-card-modified = وقت آخر تعديل على بطاقة، بما فيه المراجعات، والمؤشرات، وتغييرات الرزمة.
+browsing-tooltip-note-modified = وقت آخر تعديل على ملحوظة، غالبا على محتوى الحقول أو الوسوم
+browsing-tooltip-card = اسم قالب بطاقة
+browsing-tooltip-cards = عدد البطاقات التي تنتمي لملحوظة
+browsing-tooltip-notetype = اسم نوع الملحوظة
+browsing-tooltip-question = الجانب الأمامي للبطاقة، يمكن تعديله من خلال محرر قوالب البطاقات
+browsing-tooltip-answer = الجانب الخلفي للبطاقة، يمكن تعديله من خلال محرر قوالب البطاقات
 browsing-studied-today = دُرِست اليوم
 browsing-added-today = مضافة اليوم
 browsing-again-today = البطاقات المجابة بـ «مجددًا» اليوم
@@ -211,3 +219,7 @@ browsing-reparented-decks =
         [many] تم تغيير أسماء { $count } رزمة.
        *[other] تم تغيير أسماء { $count } رزمة.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = يمكن إعادة موضعة البطاقات الجديدة فقط.
