@@ -93,8 +93,11 @@ scheduling-custom-study = estudo personalizado
 
 ## Scheduler upgrade
 
+scheduling-update-soon = O Anki 2.1 vem com um novo agendador, que corrige uma série de problemas que as versões anteriores do Anki tinham. É recomendável atualizar para ele.
+scheduling-update-done = Agendador atualizado com sucesso.
 scheduling-update-button = Atualizar
 scheduling-update-later-button = Mais tarde
+scheduling-update-more-info-button = Saber Mais
 
 ## Other scheduling strings
 
@@ -150,4 +153,23 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } baralho atualizado.
        *[other] { $count } baralhos atualizados
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Mostrar cartão em quantos dias?
+       *[other] Mostrar cartões em quantos dias?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = hoje
+    1! = amanhã+redefinição do intervalo de revisão
+    3-7 = escolha aleatória entre 3-7 dias
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Definir a data de vencimento de { $cards } cartão.
+       *[other] Definir a data de vencimento de { $cards } cartões.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Esqueceu-se de { $cards } carta.
+       *[other] Esqueceu-se de { $cards } cartas.
     }

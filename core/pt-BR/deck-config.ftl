@@ -220,9 +220,18 @@ deck-config-description-new-handling-hint =
 
 deck-config-daily-limit-will-be-capped =
     Um baralho principal tem um limite de { $cards ->
-        [one] { $cards } carta
-       *[other] { $cards } cartas
+        [one] { $cards } cartão
+       *[other] { $cards } cartões
     }, que substituirá esse limite.
+deck-config-reviews-too-low =
+    Adicionando{ $cards ->
+        [one] { $cards } novo cartão a cada dia
+       *[other] { $cards } novos cartões a cada dia
+    }, seu limite de revisão deve ser de pelo menos { $expected }.
+deck-config-learning-step-above-graduating-interval = O intervalo de graduação deve ser pelo menos tão longo quanto sua etapa final de aprendizagem.
+deck-config-good-above-easy = O intervalo de facilidade deve ser pelo menos tão longo quanto o intervalo de graduação.
+deck-config-relearning-steps-above-minimum-interval = O intervalo mínimo de lapso deve ser pelo menos tão longo quanto sua etapa final de reaprendizagem.
 
 ## Selecting a deck
 
+deck-config-which-deck = Qual baralho você gostaria?

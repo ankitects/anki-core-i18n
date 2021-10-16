@@ -8,7 +8,7 @@ browsing-answer = Resposta
 browsing-any-cards-mapped-to-nothing-will = Todos os cartões em branco serão excluídos. Se uma nota não tiver um cartão referente, será descartada. Você tem certeza que quer continuar?
 browsing-any-flag = Qualquer emblema
 browsing-browser-appearance = Aparência do Painel
-browsing-browser-options = Opções do painel de cartões
+browsing-browser-options = Opções do Painel
 browsing-buried = Oculto
 browsing-card = Cartão
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
@@ -67,7 +67,6 @@ browsing-note = Nota
 browsing-note-initial = N
 browsing-notes-tagged = Notas marcadas.
 browsing-nothing = Nada
-browsing-only-new-cards-can-be-repositioned = Somente os cartões novos podem ser reposicionados.
 browsing-optional-filter = Flitro Opcional
 browsing-override-back-template = Substituir modelo do verso:
 browsing-override-font = Substituir frente:
@@ -144,3 +143,7 @@ browsing-reparented-decks =
         [one] { $count } baralho renomeado.
        *[other] { $count } baralhos renomeados.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = Somente os cartões novos podem ser reposicionados.

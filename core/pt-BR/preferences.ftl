@@ -35,3 +35,6 @@ preferences-timebox-time-limit = Tempo limite
 preferences-user-interface-size = Tamanho da interface do usuário
 preferences-when-adding-default-to-current-deck = Ao criar, o padrão é o baralho atual
 preferences-you-can-restore-backups-via-fileswitch = Você pode restaurar as cópias de seguranças em Arquivo>Mudar perfil.
+preferences-legacy-timezone-handling = Gerenciamento de fuso horário antigo (com erros, mas necessário para o AnkiDroid <= 2.14)
+preferences-default-search-text = Termo de pesquisa padrão
+preferences-default-search-text-example = ex. 'deck: current'
