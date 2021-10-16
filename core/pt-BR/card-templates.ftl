@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = vazio
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] As alterações abaixo afetarão a { $count } nota que usa este tipo de cartão.
@@ -19,6 +21,11 @@ card-templates-night-mode = Modo Noturno
 card-templates-add-mobile-class = Adicionar classe CSS para dispositivos móveis
 card-templates-preview-settings = Opções
 card-templates-invalid-template-number = O modelo do cartão { $number } tem um problema.
+card-templates-identical-front = O lado frontal é idêntico ao modelo do cartão { $number }.
+card-templates-no-front-field = Esperado encontrar um substituto de campo na frente do modelo do cartão.
+card-templates-missing-cloze = Espera-se encontrar{ "{{" } cloze:Text{ "}}" }' ou algo semelhante no modelo frontal e no modelo do verso.
+card-templates-extraneous-cloze = 'cloze:' apenas pode ser usado em tipos de nota "Omissão de Palavras".
+card-templates-see-preview = Veja a pré-visualização para mais informações.
 card-templates-changes-saved = Alterações salvas.
 card-templates-discard-changes = Descartar alterações?
 card-templates-add-card-type = Adicionar Tipo de Cartão...

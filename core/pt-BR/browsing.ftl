@@ -1,12 +1,16 @@
 browsing-add-notes = Adicionar Notas...
 browsing-add-tags = Adicionar etiquetas
 browsing-add-tags2 = Adicionar Etiquetas...
+browsing-add-to-selected-notes = Adicionar às Notas Selecionadas
+browsing-remove-from-selected-notes = Remover das Notas Selecionadas
 browsing-addon = Extensão
 browsing-all-card-types = Todos os tipos de cartões
 browsing-all-fields = Todos os Campos
 browsing-answer = Resposta
 browsing-any-cards-mapped-to-nothing-will = Todos os cartões em branco serão excluídos. Se uma nota não tiver um cartão referente, será descartada. Você tem certeza que quer continuar?
 browsing-any-flag = Qualquer emblema
+browsing-average-ease = Facilidade Média
+browsing-average-interval = Intervalo Médio
 browsing-browser-appearance = Aparência do Painel
 browsing-browser-options = Opções do Painel
 browsing-buried = Oculto
@@ -25,9 +29,11 @@ browsing-change-deck = Mudar Baralho
 browsing-change-deck2 = Mudar Baralho...
 browsing-change-note-type = Mudar Tipo de Nota
 browsing-change-note-type2 = Mudar Tipo de Nota...
+browsing-change-notetype = Mudar Tipo de Nota
 browsing-change-to = Mudar { $val } para:
 browsing-clear-unused = Limpar Não-usado
 browsing-clear-unused-tags = Limpar Etiquetas Não-usadas
+browsing-confirm-saved-search-overwrite = Uma pesquisa salva com o nome { $name } já existe. Você deseja substituí-la?
 browsing-created = Criado
 browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Baralho atual
@@ -62,6 +68,7 @@ browsing-nd-names = { $num }: { $name }
 browsing-new = (novo)
 browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sem Marcador
+browsing-no-selection = Nenhum cartão ou nota selecionados.
 browsing-note = Nota
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
@@ -83,21 +90,28 @@ browsing-replace-with = <b>Substituir Por</b>:
 browsing-reposition = Reposicionar...
 browsing-reposition-new-cards = Reposicionar novos cartões
 browsing-reschedule = Reagendar
+browsing-search-bar-hint = Pesquisar cartões/notas (digite algo e pressione 'Enter')
 browsing-search-in = Procurar em:
 browsing-search-within-formatting-slow = Procurar com formatação (lento)
+browsing-selected-notes-only = Apenas notas selecionadas
 browsing-shift-position-of-existing-cards = Alterar posição dos cartões existentes
 browsing-sidebar = Barra lateral
+browsing-sidebar-filter = Filtro da barra lateral
 browsing-sort-field = Classificar campo
 browsing-sorting-on-this-column-is-not = Não é possível classificar esta coluna. Por favor, escolha outra.
 browsing-start-position = Posição inicial:
 browsing-step = Passo:
 browsing-suspended = Suspenso
 browsing-tag-duplicates = Etiquetas Duplicadas
+browsing-tag-rename-warning-empty = Você não pode renomear uma etiqueta que não possui notas.
 browsing-target-field = Campo alvo:
+browsing-toggle-showing-cards-notes = Alternar Exibição de Cartões/Notas
 browsing-toggle-mark = Marcar/Desmarcar
 browsing-toggle-suspend = Suspender (sim/não)
 browsing-treat-input-as-regular-expression = Tratar texto como expressão regular
+browsing-update-saved-search = Atualizar com a pesquisa atual
 browsing-whole-collection = Coleção inteira
+browsing-window-title-notes = Navegar ({ $selected } de { $total } notas selecionadas)
 browsing-you-must-have-at-least-one = É preciso ter ao menos uma coluna.
 browsing-group =
     { $count ->
@@ -119,24 +133,50 @@ browsing-notes-updated =
         [one] { $count } nota atualizada.
        *[other] { $count } notas atualizadas.
     }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } cartão atualizado.
+       *[other] { $count } cartões atualizados.
+    }
+browsing-window-title = Navegar ({ $selected } de { $total } cartões selecionados)
 browsing-sidebar-expand = Expandir
 browsing-sidebar-collapse = Recolher
+browsing-sidebar-expand-children = Expandir Filhos
+browsing-sidebar-collapse-children = Recolher Filhos
 browsing-sidebar-decks = Baralhos
 browsing-sidebar-tags = Etiquetas
 browsing-sidebar-notetypes = Tipos de nota
 browsing-sidebar-saved-searches = Pesquisas salvas
 browsing-sidebar-save-current-search = Salvar pesquisa atual
 browsing-sidebar-card-state = Estado do cartão
+browsing-sidebar-flags = Bandeiras
 browsing-today = Hoje
+browsing-tooltip-card-modified = A última vez que alterações foram feitas em um cartão, incluindo revisões, bandeiras e mudanças de baralho
+browsing-tooltip-note-modified = A última vez que as alterações foram feitas em uma nota, geralmente o conteúdo do campo ou edições de etiqueta
+browsing-tooltip-card = O nome do modelo de um cartão
+browsing-tooltip-cards = O número de cartas que uma nota possui
+browsing-tooltip-notetype = O nome do tipo de uma nota
+browsing-tooltip-question = A parte frontal de um cartão, personalizável no editor de modelos de cartão
+browsing-tooltip-answer = Verso de um cartão, personalizável no editor de modelos de cartão
 browsing-studied-today = Estudados Hoje
 browsing-added-today = Adicionado hoje
 browsing-again-today = Repetir Hoje
 browsing-edited-today = Editados
+browsing-sidebar-first-review = Primeira Revisão
+browsing-sidebar-rescheduled = Reagendado
+browsing-sidebar-due-today = Revisar
+browsing-sidebar-untagged = Sem Etiqueta
+browsing-sidebar-overdue = Atrasado
 browsing-row-deleted = (apagado)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] { $count } etiqueta não usada removida.
        *[other] { $count } etiquetas não usadas removidas.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Posição alterada de { $count } novo cartão.
+       *[other] Posição alterada de { $count } novos cartões.
     }
 browsing-reparented-decks =
     { $count ->

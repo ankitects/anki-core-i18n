@@ -41,6 +41,11 @@ sync-account-required =
     Uma conta grátis é necessária para manter sua coleção sincronizada. Por favor, <a href="{ $link }">registre-se</a> e então insira os detalhes abaixo.
 sync-sanity-check-failed = Use a função Verificar banco de dados e sincronize novamente. Se o problema persistir, force uma sincronização completa na tela de preferências.
 sync-clock-off = Não foi possível sincronizar - seu relógio não está definido para a hora correta.
+sync-upload-too-large =
+    Seu arquivo de coleção é muito grande para ser enviado ao AnkiWeb. Você
+    pode reduzir seu tamanho removendo quaisquer baralhos indesejados 
+    (opcionalmente, exportando-os primeiro), e em seguida, usando 'Verificar Banco 
+    de Dados' para reduzir o tamanho do arquivo. ({ $details })
 
 ## Buttons
 

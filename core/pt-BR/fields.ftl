@@ -12,3 +12,5 @@ fields-reverse-text-direction-rtl = Direção do texto invertida (RTL)
 fields-size = Tamanho:
 fields-sort-by-this-field-in-the = Classificar os cartões no Painel por este campo
 fields-that-field-name-is-already-used = Este nome de campo já está em uso.
+fields-name-first-letter-not-valid = O nome do campo não deve iniciar com #, ^ ou /.ﾠ
+fields-name-invalid-letter = O nome do campo não deve conter :, ", { "{" } ou { "}" }.

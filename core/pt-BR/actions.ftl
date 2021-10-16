@@ -35,6 +35,7 @@ actions-suspend-card = Suspender Cartão
 actions-set-due-date = Definir Data de Revisão
 actions-forget = Esquecerﾠ
 actions-answer-card = Responder Cartão
+actions-unbury-unsuspend = Remover Ocultação/Suspensão
 actions-add-deck = Adicionar Baralho
 actions-add-note = Adicionar Nota
 actions-update-tag = Atualizar Tag
@@ -42,11 +43,18 @@ actions-update-note = Atualizar Nota
 actions-update-card = Atualizar Cartão
 actions-update-deck = Atualizar baralho
 actions-forget-card = Esquecer Cartão
+actions-build-filtered-deck = Criar Baralho
+actions-expand-collapse = Expandir/Recolher
+actions-add-notetype = Adicionar Tipo de Notaﾠ
+actions-remove-notetype = Remover Tipo de Nota
+actions-update-notetype = Atualizar Tipo de Notaﾠ
 actions-update-config = Atualizar Configurações
 actions-card-info = Informação do Cartão
+actions-previous-card-info = Informação do Cartão Anterior
 
 ## Flags
 
+actions-flag-number = Bandeira { $number }
 actions-flag-red = Vermelho
 actions-flag-orange = Laranja
 actions-flag-green = Verde
@@ -54,3 +62,4 @@ actions-flag-blue = Azul
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turquesa
 actions-flag-purple = Roxo
+actions-set-flag = Definir Bandeira
