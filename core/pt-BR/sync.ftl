@@ -25,15 +25,15 @@ sync-client-too-old = Sua versão do Anki é muito antiga. Atualize para a vers�
 sync-wrong-pass = O Usuário AnkiWeb ou senha está incorreto; por favor, tente outra vez.
 sync-resync-required = Sincronize novamente. Se esta mensagem continuar aparecendo, poste no site de suporte.
 sync-must-wait-for-end = O Anki está sincronizando no momento. Aguarde a conclusão da sincronização e tente novamente.
-sync-confirm-empty-download = A coleção local não possui cartões. Baixar do AnkiWeb?
+sync-confirm-empty-download = A coleção local não possui cartas. Baixar do 'AnkiWeb'?
 sync-conflict-explanation =
-    Seus baralhos aqui e no AnkiWeb diferem tanto que não podem ser mesclados, então é necessário que um deles sobrescreva o outro.
+    Seus baralhos aqui e no 'AnkiWeb' diferem tanto que não podem ser mesclados, então é necessário que um deles sobrescreva o outro.
     
-    Se você escolher baixar, o Anki trará a coleção do AnkiWeb e todas as mudanças que você tiver feito desde a última sincronização serão perdidas.
+    Se você escolher baixar, o 'Anki' trará a coleção do 'AnkiWeb' e todas as mudanças que você tiver feito desde a última sincronização serão perdidas.
     
-    Se você escolher enviar, o Anki copiará sua coleção para o AnkiWeb e todas as mudanças que você tenha feito no AnkiWeb ou em outros aparelhos desde a última sincronização serão perdidas.
+    Se você escolher enviar, o 'Anki' copiará sua coleção para o AnkiWeb e todas as mudanças que você tenha feito no 'AnkiWeb' ou em outros aparelhos desde a última sincronização serão perdidas.
     
-    Depois que todos os aparelhos estiverem sincronizados, as futuras revisões e os cartões adicionados serão mesclados automaticamente.
+    Depois que todos os aparelhos estiverem sincronizados, as futuras revisões e as cartas adicionadas serão mescladas automaticamente.
 sync-ankiweb-id-label = Usuário AnkiWeb:
 sync-password-label = Senha:
 sync-account-required =

@@ -11,5 +11,5 @@ profiles-user-1 = Usuário 1
 profiles-confirm-lang-choice = Tem certeza de que deseja exibir a interface do Anki em { $lang }?
 profiles-could-not-create-data-folder = O Anki não conseguiu criar sua pasta de dados. Consulte a seção 'Locais dos Arquivos' do manual e certifique-se de que o local não seja somente leitura.
 profiles-prefs-corrupt-title = Preferências Corrompidas
-profiles-prefs-file-is-corrupt = O arquivo 'prefs21.db' do Anki estava corrompido e foi recriado. Se você estava usando vários perfis, adicione-os novamente usando os mesmos nomes para recuperar seus cartões.
+profiles-prefs-file-is-corrupt = O arquivo 'prefs21.db' do Anki estava corrompido e foi recriado. Se você estava usando vários perfis, adicione-os novamente usando os mesmos nomes para recuperar suas cartas.
 profiles-profile-does-not-exist = O perfil solicitado não existe.

@@ -31,7 +31,7 @@ search-invalid-answer-button = botão de resposta entre 1-4 em "`{ $context }`" 
 ## Column labels in browse screen
 
 search-note-modified = Nota Modificada
-search-card-modified = Cartão Alterado
+search-card-modified = Carta Alterada
 
 ##
 

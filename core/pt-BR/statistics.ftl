@@ -7,7 +7,7 @@ statistics-due-for-new-card = Novo #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } cartões/minuto
+statistics-cards-per-min = { $cards-per-minute } cartas/minuto
 statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
@@ -45,8 +45,8 @@ statistics-in-time-span-years =
     }
 statistics-cards =
     { $cards ->
-        [one] { $cards } cartão
-       *[other] { $cards } cartões
+        [one] { $cards } carta
+       *[other] { $cards } cartas
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -59,7 +59,7 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Estudado(s) { statistics-cards } { $unit ->
+    Estudada(s) { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
@@ -72,9 +72,9 @@ statistics-seconds-taken = { $seconds }s
 statistics-today-title = Hoje
 statistics-today-again-count = Contagem de repetições:
 statistics-today-type-counts = Aprendidos: { $learnCount }, Revisados: { $reviewCount }, Reaprendidos: { $relearnCount }, Filtrados: { $filteredCount }
-statistics-today-no-cards = Nenhum cartão foi estudado hoje
-statistics-today-no-mature-cards = Hoje não foram estudados cartões antigos.
-statistics-today-correct-mature = Resposta correta em cartões antigos: { $correct }/{ $total } ({ $percent }%)
+statistics-today-no-cards = Nenhuma carta foi estudada hoje
+statistics-today-no-mature-cards = Nenhuma carta antiga foi estudada hoje.
+statistics-today-correct-mature = Resposta correta em cartas antigas: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Total de cartões
 statistics-counts-new-cards = Novos
 statistics-counts-young-cards = Recentes
@@ -84,26 +84,26 @@ statistics-counts-buried-cards = Ocultos
 statistics-counts-filtered-cards = Filtrados
 statistics-counts-learning-cards = Aprendendo
 statistics-counts-relearning-cards = Reaprendendo
-statistics-counts-title = Contagem de cartão
-statistics-counts-separate-suspended-buried-cards = Separar cartões suspensos/ocultos
+statistics-counts-title = Contagem de Cartas
+statistics-counts-separate-suspended-buried-cards = Separar cartas suspensas/ocultas
 statistics-range-all-time = sempre
 statistics-range-1-year-history = últimos 12 meses
 statistics-range-all-history = todo histórico
 statistics-range-deck = baralho
 statistics-range-collection = coleção
 statistics-range-search = Procurar
-statistics-card-ease-title = Facilidade do cartão
-statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente aparecerá o cartão.
+statistics-card-ease-title = Facilidade da Carta
+statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente a carta aparecerá.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] 1 cartão com { $percent } de facilidade
-       *[other] { $cards } cartões com { $percent } de facilidade
+        [one] Uma carta com { $percent } de facilidade
+       *[other] { $cards } cartas com { $percent } de facilidade
     }
 statistics-future-due-title = Previsão
 statistics-future-due-subtitle = O número de revisões agendadas para o futuro.
 statistics-added-title = Adicionado
-statistics-added-subtitle = O número de novos cartões que você adicionou.
+statistics-added-subtitle = O número de novas cartas que você adicionou.
 statistics-reviews-count-subtitle = O número de questões que você já respondeu.
 statistics-reviews-time-subtitle = O tempo gasto para responder às questões.
 statistics-answer-buttons-title = Botões de resposta
@@ -132,21 +132,21 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } dias atrás
 statistics-running-total = Total acumulado
 statistics-cards-due =
     { $cards ->
-        [one] 1 cartão vencido
-       *[other] { $cards } cartões vencidos
+        [one] Uma carta de revisão
+       *[other] { $cards } cartas de revisão
     }
 statistics-backlog-checkbox = Acumulado
 statistics-intervals-title = Intervalos
 statistics-intervals-subtitle = Intervalos entre as revisões.
 statistics-intervals-day-range =
     { $cards ->
-        [one] 1 cartão com um intervalo de { $daysStart }~{ $daysEnd } dia
-       *[other] { $cards } cartões com um intervalo de { $daysStart }~{ $daysEnd } dia
+        [one] Uma carta com um intervalo de { $daysStart }~{ $daysEnd } dias
+       *[other] { $cards } cartas com um intervalo de { $daysStart }~{ $daysEnd } dias
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] 1 cartão com um intervalo de { $day } dia
-       *[other] { $cards } cartões com um intervalo de { $day }
+        [one] Uma carta com um intervalo de { $day } dia(s)
+       *[other] { $cards } cartas com um intervalo de { $day } dia(s)
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = De { $hourStart }:00~{ $hourEnd }:00
@@ -195,8 +195,8 @@ statistics-minutes-per-day =
     }
 statistics-cards-per-day =
     { $count ->
-        [one] { $count } cartão/dia
-       *[other] { $count } cartões/dia
+        [one] { $count } carta/dia
+       *[other] { $count } cartas/dia
     }
 statistics-average-ease = Dificuldade média
 statistics-save-pdf = Salvar PDF

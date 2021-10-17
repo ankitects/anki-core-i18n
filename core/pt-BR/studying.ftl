@@ -1,18 +1,18 @@
 studying-again = Errei
-studying-all-buried-cards = Todos cartões ocultos
+studying-all-buried-cards = Todas Cartas Ocultas
 studying-audio-5s = Áudio -5s
 studying-audio-and5s = Áudio +5s
 studying-buried-siblings = Irmãos Enterrados
 studying-bury = Ocultar
-studying-bury-card = Ocultar Cartão
+studying-bury-card = Ocultar Carta
 studying-bury-note = Ocultar Nota
-studying-card-buried = Cartão ocultado.
-studying-card-suspended = Cartão suspenso.
-studying-card-was-a-leech = Cartão era um sanguessuga.
-studying-cards-will-be-automatically-returned-to = Os cartões voltarão automaticamente aos seus baralhos originais depois da revisão.
+studying-card-buried = Carta ocultada.
+studying-card-suspended = Carta suspensa.
+studying-card-was-a-leech = A carta era um sanguessuga.
+studying-cards-will-be-automatically-returned-to = As cartas voltarão automaticamente aos seus baralhos originais depois da revisão.
 studying-continue = Avançar
 studying-delete-note = Excluir Nota
-studying-deleting-this-deck-from-the-deck = Ao excluir esse baralho da lista, todos os cartões restantes voltarão ao baralho original.
+studying-deleting-this-deck-from-the-deck = Ao excluir esse baralho da lista, todas as cartas restantes voltarão ao baralho original.
 studying-easy = Fácil
 studying-edit = Editar
 studying-empty = Devolver cartões
@@ -21,14 +21,14 @@ studying-flag-card = Carta de Marcador
 studying-good = Bom
 studying-hard = Difícil
 studying-it-has-been-suspended = Isto foi suspenso.
-studying-manually-buried-cards = Ocultar cartões manualmente
+studying-manually-buried-cards = Cartas Ocultadas Manualmente
 studying-mark-note = Nota de Marca
 studying-more = Mais
-studying-no-cards-are-due-yet = Nenhum cartão para ser revisado ainda.
+studying-no-cards-are-due-yet = Nenhuma carta para ser revisada ainda.
 studying-note-buried = Nota ocultada.
 studying-note-suspended = Nota suspensa.
 studying-pause-audio = Pausar áudio
-studying-please-run-toolsempty-cards = Por favor, vá até Ferramentas > Cartões vazios.
+studying-please-run-toolsempty-cards = Por favor, vá até Ferramentas > Cartas Vazias.
 studying-record-own-voice = Gravar Própria Voz
 studying-replay-own-voice = Repetir Própria Voz
 studying-show-answer = Mostrar resposta
@@ -44,8 +44,8 @@ studying-what-would-you-like-to-unbury = O que você gostaria de desocultar?
 studying-you-havent-recorded-your-voice-yet = Você ainda não gravou sua voz.
 studying-card-studied-in =
     { $count ->
-        [one] { $count } cartão estudado em
-       *[other] { $count } cartões estudados em
+        [one] { $count } carta estudada em
+       *[other] { $count } cartas estudadas em
     }
 studying-minute =
     { $count ->
@@ -54,6 +54,6 @@ studying-minute =
     }
 studying-note-and-its-card-deleted =
     { $count ->
-        [one] A nota e seu { $count } cartão foram excluídos.
-       *[other] A nota e seus { $count } cartões foram excluídos.
+        [one] A nota e sua { $count } carta foram excluídas.
+       *[other] A nota e suas { $count } cartas foram excluídas.
     }
