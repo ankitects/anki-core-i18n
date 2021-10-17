@@ -17,16 +17,24 @@ deck-config-title = Opções do Baralho
 
 deck-config-daily-limits = Limites Diários
 deck-config-new-limit-tooltip =
-    O número máximo de cartões a serem introduzidos em um único dia, caso estes estejam disponíveis.
+    O número máximo de cartas a serem introduzidas em um único dia, caso estes estejam disponíveis.
     Visto que novos materiais aumentarão sua carga de revisão no curto prazo, esta opção, tipicamente, deveria, pelo menos, ser 10x menor do que seu limite de revisões.
-deck-config-review-limit-tooltip = O número máximo de cartões de revisão a serem mostrados em um dia, caso os cartões estejam prontos para serem revisados.
+deck-config-review-limit-tooltip = O número máximo de cartas de revisão a serem mostradas em um dia, caso estejam prontas para serem revisados.
 deck-config-limit-deck-v3 =
-    Ao estudar um baralho que contenha sub-baralhos, os limites definidos em cada sub-baralho controlam o número máximo de cartões que serão retirados do respectivo sub-baralho.
-    Os limites do baralho selecionado controlam o total de cartões que serão mostrados.
-deck-config-limit-new-bound-by-reviews = O limite de revisões afeta o limite de novos cartões. Por exemplo, se o seu limite de revisões está definido em 200, e há 190 revisões a espera, um máximo de 10 novos cartões serão introduzidos. Se o seu limite de revisões foi atingido, nenhum cartão novo será mostrado.
+    Ao estudar um baralho que contenha sub-baralhos, os limites definidos em
+    cada sub-baralho controlam o número máximo de cartas que serão retiradas do 
+    respectivo sub-baralho.
+    Os limites do baralho selecionado controlam o total de cartas que serão mostradas.
+deck-config-limit-new-bound-by-reviews =
+    O limite de revisões afeta o limite de novas cartas. Por exemplo, se o seu limite
+    de revisões está definido em 200, e há 190 revisões a espera, um máximo de 10
+    novas cartas serão introduzidas. Se o seu limite de revisões foi atingido, 
+    nenhuma carta nova será mostrada.
 deck-config-limit-interday-bound-by-reviews =
-    O limite de revisão também afeta os cartões de aprendizagem entre os dias subsequentes. Ao aplicar o limite,
-    os cartões de aprendizagem entre os dias subsequentes são buscados primeiro, depois as revisões e, finalmente, os novos cartões.
+    O limite de revisão também afeta as cartas de aprendizagem entre os dias
+    subsequentes. Ao aplicar o limite, as cartas de aprendizagem entre os dias 
+    subsequentes são buscadas primeiro, depois as revisões e, finalmente, 
+    as novas cartas.
 
 ## New Cards section
 
@@ -35,36 +43,39 @@ deck-config-learning-steps = Etapas de aprendizagem
 -deck-config-delay-hint = Atrasos são normalmente minutos (ex. `1m`) ou dias (ex.`2d`), mas horas (ex. `1h`) e segundos (ex.`30s`) também são suportados.
 deck-config-learning-steps-tooltip =
     Um ou mais atrasos, separados por espaços. O primeiro atraso será usado
-    quando você pressiona o botão `Errei` em um novo cartão, e leva 1 minuto por padrão.
+    quando você pressiona o botão `Errei` em uma nova carta, e leva 1 minuto por padrão.
     O botão `Bom` avançará para a próxima etapa, que é de 10 minutos por padrão.
-    Depois que todas as etapas forem aprovadas, o cartão se tornará um cartão de revisão e
+    Depois que todas as etapas forem aprovadas, a carta se tornará uma carta de revisão e
     aparecerá em um dia diferente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
-    O número de dias de espera antes de mostrar um cartão novamente, após o botão `Bom`
-    ser pressionado na etapa final da aprendizagem.
+    O número de dias de espera antes de mostrar uma carta novamente, após o botão 
+    `Bom` ser pressionado na etapa final da aprendizagem.
 deck-config-easy-interval-tooltip =
-    O número de dias de espera antes de mostrar um cartão novamente, após o botão `Fácil`
-    ser usado para remover imediatamente um cartão do aprendizado.
+    O número de dias de espera antes de mostrar uma carta novamente, após o botão 
+    `Fácil` ser usado para remover imediatamente uma carta do aprendizado.
 deck-config-new-insertion-order = Ordem de inserção
 deck-config-new-insertion-order-tooltip =
-    Controla a posição (# da revisão) em que novos cartões são atribuídos quando você adiciona novos cartões.
-    Os cartões com um número de revisão menor serão mostrados primeiro durante o estudo. Alterar
-    esta opção atualizará automaticamente a posição existente de novos cartões.
-deck-config-new-insertion-order-sequential = Sequencial (cartões mais antigos primeiro)
+    Controla a posição (# da revisão) em que novas cartas são atribuídas quando 
+    você adiciona novas cartas. As cartas com um número de revisão menor
+    serão mostradas primeiro durante o estudo. Alterar esta opção atualizará
+    automaticamente a posição existente de novas cartas.
+deck-config-new-insertion-order-sequential = Sequencial (cartas mais antigas primeiro)
 deck-config-new-insertion-order-random = Aleatório
 
 ## Lapses section
 
 deck-config-relearning-steps = Etapas de reaprendizagem
 deck-config-relearning-steps-tooltip =
-    Zero ou mais atrasos, separados por espaços. Por padrão, pressionando o botão `Errei`
-    em um cartão de revisão o mostrará novamente 10 minutos depois. Se não houver atrasos, 
-    o cartão terá seu intervalo alterado, sem entrar na reaprendizagem. { -deck-config-delay-hint }
+    Zero ou mais atrasos, separados por espaços. Por padrão, pressionando
+    o botão `Errei` em uma carta de revisão o mostrará novamente 10
+    minutos depois. Se não houver atrasos, a carta terá seu intervalo alterado,
+    sem entrar na reaprendizagem. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    O número de vezes que `Errei` precisa ser pressionado em um cartão de revisão antes de ser
-    marcado como um sanguessuga. Sanguessugas são cartas que consomem muito do seu tempo e
-    quando um cartão é marcado como sanguessuga, é uma boa ideia reescrevê-lo, excluí-lo ou
-    pensar em um mnemônico para ajudá-lo a se lembrar dele.
+    O número de vezes que `Errei` precisa ser pressionado em uma carta de
+    revisão antes de ser marcada como um sanguessuga. Sanguessugas são
+    cartas que consomem muito do seu tempo e quando uma carta é marcada
+    como sanguessuga, é uma boa ideia reescrevê-la, excluí-la ou pensar em 
+    um mnemônico para ajudá-lo a se lembrar dela.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Somente Etiquetas`: Adiciona uma etiqueta "leech" à nota e exibe um pop-up.

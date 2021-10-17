@@ -2,13 +2,13 @@ database-check-corrupt = A coleção está corrompida. Por favor, veja o manual.
 database-check-rebuilt = Banco de dados reconstruído e otimizado.
 database-check-card-properties =
     { $count ->
-        [one] { $count } cartão com propriedades inválidas foi concertado.
-       *[other] { $count } cartões com propriedades inválidas foram concertados.
+        [one] { $count } carta com propriedades inválidas foi concertada.
+       *[other] { $count } cartas com propriedades inválidas foram concertadas.
     }
 database-check-missing-templates =
     { $count ->
-        [one] Excluído { $count } cartão com o modelo perdido.
-       *[other] Excluídos { $count } cartões com o modelo perdido.
+        [one] { $count } carta excluída com o modelo perdido.
+       *[other] { $count } cartas excluídas com o modelo perdido.
     }
 database-check-field-count =
     { $count ->
@@ -17,18 +17,18 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] { $count } novo cartão encontrado com um número de vencimento >= 1,000,000 - considere reposicioná-lo na janela do Painel.
-       *[other] { $count } novos cartões encontrados com um número de vencimento >= 1,000,000 - considere reposicioná-los na janela do Painel.
+        [one] { $count } nova carta encontrada com um número de vencimento >= 1,000,000 - considere reposicioná-lo na janela do Painel.
+       *[other] { $count } novas cartas encontradas com um número de vencimento >= 1,000,000 - considere reposicioná-los na janela do Painel.
     }
 database-check-card-missing-note =
     { $count ->
-        [one] Excluído { $count } cartão com nota faltando.
-       *[other] Excluído { $count } cartões com nota faltando.
+        [one] { $count } carta excluída com nota faltando.
+       *[other] { $count } cartas excluídas com nota faltando.
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] Excluído { $count } cartão com modelo duplicado.
-       *[other] Excluídos { $count } cartões com modelo duplicado.
+        [one] { $count } carta excluída com modelo duplicado.
+       *[other] { $count } cartas excluídas com modelo duplicado.
     }
 database-check-missing-decks =
     { $count ->
@@ -46,13 +46,13 @@ database-check-notes-with-invalid-utf8 =
        *[other] { $count } notas corrigidas com caracteres UTF-8 inválidos.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Faltava um ou mais tipos de notas. As notas que usavam esses tipos ausentes receberam novos tipos de notas começando com "db-check", mas os nomes de campo e o design do cartão foram perdidos, por isso talvez seja melhor restaurar a partir de uma cópia de segurança automática.
+database-check-notetypes-recovered = Faltava um ou mais tipos de notas. As notas que usavam esses tipos ausentes receberam novos tipos de notas começando com "db-check", mas os nomes de campo e o projeto da carta foram perdidos, por isso talvez seja melhor restaurar a partir de uma cópia de segurança automática.
 
 ## Progress info
 
 database-check-checking-integrity = Verificando coleção...
 database-check-rebuilding = Recriando...
-database-check-checking-cards = Verificando cartões...
+database-check-checking-cards = Verificando cartas...
 database-check-checking-notes = Verificando notas...
 database-check-checking-history = Verificando histórico...
 database-check-title = Verificando Banco de Dados

@@ -31,26 +31,26 @@ actions-save = Salvar
 actions-search = Procurar
 actions-select = Selecionar
 actions-shortcut-key = Tecla de Atalho: { $val }
-actions-suspend-card = Suspender Cartão
+actions-suspend-card = Suspender Carta
 actions-set-due-date = Definir Data de Revisão
 actions-forget = Esquecerﾠ
-actions-answer-card = Responder Cartão
+actions-answer-card = Responder Carta
 actions-unbury-unsuspend = Remover Ocultação/Suspensão
 actions-add-deck = Adicionar Baralho
 actions-add-note = Adicionar Nota
 actions-update-tag = Atualizar Tag
 actions-update-note = Atualizar Nota
-actions-update-card = Atualizar Cartão
+actions-update-card = Atualizar Carta
 actions-update-deck = Atualizar baralho
-actions-forget-card = Esquecer Cartão
+actions-forget-card = Esquecer Carta
 actions-build-filtered-deck = Criar Baralho
 actions-expand-collapse = Expandir/Recolher
 actions-add-notetype = Adicionar Tipo de Notaﾠ
 actions-remove-notetype = Remover Tipo de Nota
 actions-update-notetype = Atualizar Tipo de Notaﾠ
 actions-update-config = Atualizar Configurações
-actions-card-info = Informação do Cartão
-actions-previous-card-info = Informação do Cartão Anterior
+actions-card-info = Informação da Carta
+actions-previous-card-info = Informação da Carta Anterior
 
 ## Flags
 

@@ -4,26 +4,26 @@ browsing-add-tags2 = Adicionar Etiquetas...
 browsing-add-to-selected-notes = Adicionar às Notas Selecionadas
 browsing-remove-from-selected-notes = Remover das Notas Selecionadas
 browsing-addon = Extensão
-browsing-all-card-types = Todos os tipos de cartões
+browsing-all-card-types = Todos os Tipos de Cartas
 browsing-all-fields = Todos os Campos
 browsing-answer = Resposta
-browsing-any-cards-mapped-to-nothing-will = Todos os cartões em branco serão excluídos. Se uma nota não tiver um cartão referente, será descartada. Você tem certeza que quer continuar?
+browsing-any-cards-mapped-to-nothing-will = Todos as cartas em branco serão excluídas. Se uma nota não tiver uma carta referente, será descartada. Você tem certeza que quer continuar?
 browsing-any-flag = Qualquer emblema
 browsing-average-ease = Facilidade Média
 browsing-average-interval = Intervalo Médio
 browsing-browser-appearance = Aparência do Painel
 browsing-browser-options = Opções do Painel
 browsing-buried = Oculto
-browsing-card = Cartão
+browsing-card = Carta
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C
-browsing-card-list = Lista de cartões
-browsing-card-state = Estado do cartão
-browsing-cards-cant-be-manually-moved-into = Os cartões não podem ser movidos manualmente dentro de um baralho filtrado.
+browsing-card-list = Lista de Cartas
+browsing-card-state = Estado da Carta
+browsing-cards-cant-be-manually-moved-into = As cartas não podem ser movidas manualmente para um baralho filtrado.
 browsing-cards-deleted =
     { $count ->
-        [one] { $count } cartão deletado.
-       *[other] { $count } cartões deletados.
+        [one] { $count } carta deletada.
+       *[other] { $count } cartas deletadas.
     }
 browsing-change-deck = Mudar Baralho
 browsing-change-deck2 = Mudar Baralho...
@@ -49,7 +49,7 @@ browsing-filtered = (filtrado)
 browsing-find = <b>Localizar</b>:
 browsing-find-and-replace = Localizar e substituir
 browsing-find-duplicates = Encontrar Duplicatas
-browsing-first-card = Primeiro cartão
+browsing-first-card = Primeira Carta
 browsing-flag = Marcador
 browsing-font = <b>Fonte</b>:
 browsing-font-size = <b>Tamanho da Fonte</b>:
@@ -58,17 +58,17 @@ browsing-home = Início
 browsing-ignore-case = Ignorar maiúsculas / minúsculas
 browsing-in = <b>Em</b>:
 browsing-interval = Intervalo
-browsing-last-card = Último cartão
+browsing-last-card = Última Carta
 browsing-learning = (estudando)
 browsing-line-size = <b>Tamanho da Linha</b>:
 browsing-manage-note-types = Gerenciar tipos de notas...
-browsing-move-cards = Mover cartões
-browsing-move-cards-to-deck = Mover cartões para o baralho:
+browsing-move-cards = Mover Cartas
+browsing-move-cards-to-deck = Mover cartas para o baralho:
 browsing-nd-names = { $num }: { $name }
 browsing-new = (novo)
 browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sem Marcador
-browsing-no-selection = Nenhum cartão ou nota selecionados.
+browsing-no-selection = Nenhuma carta ou nota selecionada.
 browsing-note = Nota
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
@@ -79,8 +79,8 @@ browsing-override-back-template = Substituir modelo do verso:
 browsing-override-font = Substituir frente:
 browsing-override-front-template = Substituir modelo da frente:
 browsing-please-give-your-filter-a-name = Por favor, dê um nome ao seu filtro:
-browsing-please-select-cards-from-only-one = Por favor, escolhar cartões de somente um tipo de nota.
-browsing-preview-selected-card = Pré-vizualizar os cartão selecionado ({ $val }).
+browsing-please-select-cards-from-only-one = Selecione cartas de apenas um tipo de nota.
+browsing-preview-selected-card = Pré-Vizualizar a Carta Selecionada ({ $val }).
 browsing-question = Pergunta
 browsing-queue-bottom = Último da fila: { $val }
 browsing-queue-top = Primeiro da fila: { $val }
@@ -88,13 +88,13 @@ browsing-randomize-order = Ordem aleatória
 browsing-remove-tags = Remover Etiquetas...
 browsing-replace-with = <b>Substituir Por</b>:
 browsing-reposition = Reposicionar...
-browsing-reposition-new-cards = Reposicionar novos cartões
+browsing-reposition-new-cards = Reposicionar Novas Cartas
 browsing-reschedule = Reagendar
-browsing-search-bar-hint = Pesquisar cartões/notas (digite algo e pressione 'Enter')
+browsing-search-bar-hint = Pesquisar cartas/notas (digite algo e pressione 'Enter')
 browsing-search-in = Procurar em:
 browsing-search-within-formatting-slow = Procurar com formatação (lento)
 browsing-selected-notes-only = Apenas notas selecionadas
-browsing-shift-position-of-existing-cards = Alterar posição dos cartões existentes
+browsing-shift-position-of-existing-cards = Alterar posição das cartas existentes
 browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Filtro da barra lateral
 browsing-sort-field = Classificar campo
@@ -105,7 +105,7 @@ browsing-suspended = Suspenso
 browsing-tag-duplicates = Etiquetas Duplicadas
 browsing-tag-rename-warning-empty = Você não pode renomear uma etiqueta que não possui notas.
 browsing-target-field = Campo alvo:
-browsing-toggle-showing-cards-notes = Alternar Exibição de Cartões/Notas
+browsing-toggle-showing-cards-notes = Alternar Exibição de Cartas/Notas
 browsing-toggle-mark = Marcar/Desmarcar
 browsing-toggle-suspend = Suspender (sim/não)
 browsing-treat-input-as-regular-expression = Tratar texto como expressão regular
@@ -135,10 +135,10 @@ browsing-notes-updated =
     }
 browsing-cards-updated =
     { $count ->
-        [one] { $count } cartão atualizado.
-       *[other] { $count } cartões atualizados.
+        [one] { $count } carta atualizada.
+       *[other] { $count } cartas atualizadas.
     }
-browsing-window-title = Navegar ({ $selected } de { $total } cartões selecionados)
+browsing-window-title = Navegar ({ $selected } de { $total } cartas selecionadas)
 browsing-sidebar-expand = Expandir
 browsing-sidebar-collapse = Recolher
 browsing-sidebar-expand-children = Expandir Filhos
@@ -148,16 +148,16 @@ browsing-sidebar-tags = Etiquetas
 browsing-sidebar-notetypes = Tipos de nota
 browsing-sidebar-saved-searches = Pesquisas salvas
 browsing-sidebar-save-current-search = Salvar pesquisa atual
-browsing-sidebar-card-state = Estado do cartão
+browsing-sidebar-card-state = Estado da Carta
 browsing-sidebar-flags = Bandeiras
 browsing-today = Hoje
-browsing-tooltip-card-modified = A última vez que alterações foram feitas em um cartão, incluindo revisões, bandeiras e mudanças de baralho
+browsing-tooltip-card-modified = A última vez que alterações foram feitas em uma carta, incluindo revisões, bandeiras e mudanças de baralho
 browsing-tooltip-note-modified = A última vez que as alterações foram feitas em uma nota, geralmente o conteúdo do campo ou edições de etiqueta
-browsing-tooltip-card = O nome do modelo de um cartão
+browsing-tooltip-card = O nome do modelo de uma carta
 browsing-tooltip-cards = O número de cartas que uma nota possui
 browsing-tooltip-notetype = O nome do tipo de uma nota
-browsing-tooltip-question = A parte frontal de um cartão, personalizável no editor de modelos de cartão
-browsing-tooltip-answer = Verso de um cartão, personalizável no editor de modelos de cartão
+browsing-tooltip-question = A parte frontal de uma carta, personalizável no editor de modelos de carta
+browsing-tooltip-answer = Verso de uma carta, personalizável no editor de modelos de carta
 browsing-studied-today = Estudados Hoje
 browsing-added-today = Adicionado hoje
 browsing-again-today = Repetir Hoje
@@ -175,8 +175,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Posição alterada de { $count } novo cartão.
-       *[other] Posição alterada de { $count } novos cartões.
+        [one] Posição alterada de { $count } nova carta.
+       *[other] Posição alterada de { $count } novas cartas.
     }
 browsing-reparented-decks =
     { $count ->
@@ -186,4 +186,4 @@ browsing-reparented-decks =
 
 ## obsolete; no need to translate
 
-browsing-only-new-cards-can-be-repositioned = Somente os cartões novos podem ser reposicionados.
+browsing-only-new-cards-can-be-repositioned = Somente as cartas novas podem ser reposicionadas.
