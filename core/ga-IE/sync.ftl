@@ -3,8 +3,8 @@
 
 ## Media synchronization
 
-sync-media-added-count = Curtha isteach: { $up }↑ { $down }↓
-sync-media-removed-count = Bainte amach: { $up }↑ { $down }↓
+sync-media-added-count = Curtha leis: { $up }↑ { $down }↓
+sync-media-removed-count = Scriosta: { $up }↑ { $down }↓
 sync-media-checked-count =
     Seiceáilte: { $count ->
         [one] { $count } cheann amháin
@@ -69,5 +69,5 @@ sync-uploading-to-ankiweb = Ag Uaslódáil Chuig AnkiWeb ...
 sync-syncing = Ag sioncronú...
 sync-checking = Ag seiceáil...
 sync-connecting = Ag ceangal...
-sync-added-updated-count = Curtha leis / athraithe: { $up }↑ { $down }↓
+sync-added-updated-count = Curtha leis/athraithe: { $up }↑ { $down }↓
 sync-log-out-button = Logáil Amach

@@ -1,6 +1,8 @@
 browsing-add-notes = Cuir Nótaí Leis...
 browsing-add-tags = Cuir Clibeanna Leis
 browsing-add-tags2 = Cuir Clibeanna Leis...
+browsing-add-to-selected-notes = Cuir le Nótaí Roghnaithe
+browsing-remove-from-selected-notes = Bain de Nótaí Roghnaithe
 browsing-addon = Breiseán
 browsing-all-card-types = Gach Cineál Cárta
 browsing-all-fields = Gach Réimse
@@ -30,7 +32,7 @@ browsing-change-deck = Athraigh Paca
 browsing-change-deck2 = Athraigh Paca...
 browsing-change-note-type = Athraigh Cineál Nóta
 browsing-change-note-type2 = Athraigh Cineál Nóta...
-browsing-change-notetype = Athraigh Cineál Nóta
+browsing-change-notetype = Athraigh Cineál Nótaí
 browsing-change-to = Athraigh { $val } go:
 browsing-clear-unused = Glan Ábhar Gan Úsáid
 browsing-clear-unused-tags = Glan Clibeanna Gan Úsáid
@@ -75,7 +77,6 @@ browsing-note = Nóta
 browsing-note-initial = N
 browsing-notes-tagged = Nótaí clibeáilte.
 browsing-nothing = Rud ar bith
-browsing-only-new-cards-can-be-repositioned = Is iad na cártaí nua amháin is féidir a bhogadh.
 browsing-optional-filter = Scagaire roghnach:
 browsing-override-back-template = Sáraigh teimpléad cúil:
 browsing-override-font = Sáraigh clófhoireann:
@@ -182,6 +183,13 @@ browsing-sidebar-save-current-search = Sábháil Cuardach Reatha
 browsing-sidebar-card-state = Staid Chárta
 browsing-sidebar-flags = Bratacha
 browsing-today = Inniu
+browsing-tooltip-card-modified = An uair is deireanaí a athraíodh an cárta .i. athbhreithnithe, bratacha, athruithe paca, srl.
+browsing-tooltip-note-modified = An uair is deireanaí a athraíodh an nóta .i. athruithe ar na réimsí nó ar na clibeanna, srl.
+browsing-tooltip-card = Ainm theimpléad cártaí an chárta
+browsing-tooltip-cards = An líon cártaí atá ag nóta
+browsing-tooltip-notetype = Ainm chineál nótaí an nóta
+browsing-tooltip-question = Tosach an chárta, arna shaincheapadh san eagarthóir theimpléid chártaí
+browsing-tooltip-answer = Cúl an chárta, arna shaincheapadh san eagarthóir theimpléid chártaí
 browsing-studied-today = Staidéartha inniu
 browsing-added-today = Curtha Leis Inniu
 browsing-again-today = Arís inniu
@@ -216,3 +224,7 @@ browsing-reparented-decks =
         [many] Athainmníodh { $count } bpaca.
        *[other] Athainmníodh { $count } paca.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = Is iad na cártaí nua amháin is féidir a bhogadh.
