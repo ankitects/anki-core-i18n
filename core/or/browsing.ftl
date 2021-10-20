@@ -1,6 +1,8 @@
 browsing-add-notes = ନୋଟଗୁଡ଼ିକୁ ଯୋଗ କରନ୍ତୁ...
 browsing-add-tags = ଟ୍ୟାଗ୍ ଯୋଡ଼ନ୍ତୁ
 browsing-add-tags2 = ଟ୍ୟାଗ୍ ଯୋଡ଼ନ୍ତୁ...
+browsing-add-to-selected-notes = ବଚ୍ଛିତ ନୋଟରେ ଯୋଡ଼ନ୍ତୁ
+browsing-remove-from-selected-notes = ବଚ୍ଛିତ ନୋଟରୁ ଅପସାରଣ କରନ୍ତୁ
 browsing-addon = ଆଡ୍-ଅନ୍
 browsing-all-card-types = ସମସ୍ତ ପତ୍ର ପ୍ରକାର
 browsing-all-fields = ସମସ୍ତ କ୍ଷେତ୍ର
@@ -141,7 +143,7 @@ browsing-sidebar-card-state = ପତ୍ର ଅବସ୍ଥା
 browsing-sidebar-flags = ପତାକାଗୁଡ଼ିକ
 browsing-today = ଆଜି
 browsing-tooltip-card-modified = ସମୀକ୍ଷା, ପତାକା ଓ ଡେକ୍ ପରିବର୍ତ୍ତନ ସହିତ ଶେଷ ଥର ପାଇଁ ଏକ ପତ୍ରରେ କେବେ ପରିବର୍ତ୍ତନ କରାଯାଇଥିଲା
-browsing-tooltip-note-modified = ସାଧାରଣତଃ କ୍ଷେତ୍ର ବିଷୟବସ୍ତୁ କିମ୍ୱା ଟ୍ୟାଗ୍ ସମ୍ପାଦନ ସହିତ ଶେଷ ଥର ପାଇଁ ଏକ ନୋଟରେ କେବେ ପରିବର୍ତ୍ତନ କରାଯାଇଥିଲା
+browsing-tooltip-note-modified = କ୍ଷେତ୍ର ବିଷୟବସ୍ତୁ କିମ୍ୱା ଟ୍ୟାଗ୍ ସମ୍ପାଦନ ସହିତ ଶେଷ ଥର ପାଇଁ ଏକ ନୋଟରେ କେବେ ପରିବର୍ତ୍ତନ କରାଯାଇଥିଲା
 browsing-tooltip-card = ଏକ ପତ୍ରର ପତ୍ର ଟେମ୍ପଲେଟ୍ ର ନାମ
 browsing-tooltip-cards = ଗୋଟିଏ ନୋଟ୍ ର ପତ୍ର ସଂଖ୍ୟା
 browsing-tooltip-notetype = ଏକ ନୋଟ୍ ର ନୋଟ୍ ପ୍ରକାରର ନାମ

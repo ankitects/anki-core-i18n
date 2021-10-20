@@ -90,6 +90,10 @@ deck-config-always-include-question-audio-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = ବିକଶିତ
+deck-config-interval-modifier-tooltip =
+    ଏହି ଗୁଣକ ସମସ୍ତ ସମୀକ୍ଷାରେ ପ୍ରୟୋଗ କରାଯାଏ, ଏବଂ Ankiକୁ ନିଜର ନିର୍ଦ୍ଧାରଣରେ ଅଧିକ ରକ୍ଷଣଶୀଳ କିମ୍ବା ଆକ୍ରମଣାତ୍ମକ କରିବା ପାଇଁ
+    ସାମାନ୍ୟ ଆଡଜଷ୍ଟମେଣ୍ଟ ବ୍ୟବହାର କରାଯାଇପାରିବ। ଏହି ବିକଳ୍ପ ପରିବର୍ତ୍ତନ କରିବା ପୂର୍ବରୁ ଦୟାକରି
+    ମାନୁଆଲ୍ ଦେଖନ୍ତୁ।
 deck-config-custom-scheduling-tooltip = ସମଗ୍ର ସଂଗ୍ରହକୁ ପ୍ରଭାବିତ କରେ। ଆପଣଙ୍କ ନିଜ ଦାୟିତ୍ୱରେ ବ୍ୟବହାର କରନ୍ତୁ!
 
 ## Adding/renaming
