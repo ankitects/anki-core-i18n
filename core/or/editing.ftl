@@ -1,3 +1,4 @@
+editing-actual-size = ପ୍ରକୃତ ଆକାର ଟୋଗଲ୍ କର
 editing-add-media = ମିଡ଼ିଆ ଯୋଡ଼ନ୍ତୁ
 editing-align-left = ବାମକୁ ଶ୍ରେଣୀବଦ୍ଧ କର
 editing-align-right = ଡାହାଣକୁ ଶ୍ରେଣୀବଦ୍ଧ କର
@@ -22,10 +23,13 @@ editing-mathjax-chemistry = MathJax ରସାୟନବିଜ୍ଞାନ
 editing-media = ମିଡ଼ିଆ
 editing-record-audio = ଅଡ଼ିଓ ରେକର୍ଡ କର
 editing-remove-formatting = ଫର୍ମାଟିଂ ଅପସାରଣ କର
+editing-set-text-color = ପାଠ୍ୟ ରଙ୍ଗ ସେଟ୍ କରିବା
+editing-set-text-highlight-color = ପାଠ୍ୟ ହାଇଲାଇଟ୍ ରଙ୍ଗ ସେଟ୍ କରିବା
 editing-show-duplicates = ନକଲ ଦେଖାନ୍ତୁ
 editing-subscript = ପାଦାଙ୍କ
 editing-superscript = ଉର୍ଦ୍ଧଲିପି
 editing-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ
+editing-toggle-sticky = Sticky ଟୋଗଲ୍ କରନ୍ତୁ
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
