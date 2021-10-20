@@ -1,6 +1,8 @@
 browsing-add-notes = Přidat poznámky...
 browsing-add-tags = Přidat štítky
 browsing-add-tags2 = Přidat štítky...
+browsing-add-to-selected-notes = Přidat do vybraných poznámek
+browsing-remove-from-selected-notes = Odstranit z vybraných poznámek
 browsing-addon = Doplněk
 browsing-all-card-types = Všechny typy karet
 browsing-all-fields = Všechna pole
@@ -73,7 +75,6 @@ browsing-note = Poznámka
 browsing-note-initial = P
 browsing-notes-tagged = Poznámky oštítkovány.
 browsing-nothing = Nic
-browsing-only-new-cards-can-be-repositioned = Přemístěny mohou být jen nové karty.
 browsing-optional-filter = Volitelný filtr:
 browsing-override-back-template = Přepsat šablonu rubu:
 browsing-override-font = Přepsat typ písma:
@@ -156,6 +157,13 @@ browsing-sidebar-save-current-search = Uložit současné hledání
 browsing-sidebar-card-state = Stav karty
 browsing-sidebar-flags = Příznaky
 browsing-today = Dnes
+browsing-tooltip-card-modified = Kdy naposledy byla karta upravena, včetně opakování, příznaků a změny balíku
+browsing-tooltip-note-modified = Kdy naposledy byla poznámka změněna, obvykle obsah polí nebo úpravy štítků
+browsing-tooltip-card = Název šablony pro kartu
+browsing-tooltip-cards = Počet karet, které poznámka má
+browsing-tooltip-notetype = Název typu poznámky
+browsing-tooltip-question = Líc karty, který lze upravit v editoru šablony karty
+browsing-tooltip-answer = Rub karty, který lze upravit v editoru šablony karty
 browsing-studied-today = Dnes nastudováno
 browsing-added-today = Dnes přidáno
 browsing-again-today = Dnes znovu
@@ -184,3 +192,7 @@ browsing-reparented-decks =
         [few] Přejmenovány { $count } balíky.
        *[other] Přejmenováno { $count } balíků.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = Přemístěny mohou být jen nové karty.

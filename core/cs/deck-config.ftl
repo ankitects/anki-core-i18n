@@ -238,3 +238,4 @@ deck-config-relearning-steps-above-minimum-interval = Minimální interval chyby
 
 ## Selecting a deck
 
+deck-config-which-deck = Který balík požadujete?
