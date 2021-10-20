@@ -107,6 +107,8 @@ scheduling-description = ବର୍ଣ୍ଣନା
 scheduling-description-to-show-on-overview-screen = ସାମ୍ପ୍ରତିକ ଡେକ୍ ପାଇଁ ଓଭରଭ୍ୟୁ ସ୍କ୍ରିନରେ ଦେଖାଇବାକୁ ବର୍ଣ୍ଣନା:
 scheduling-end = (ଶେଷ)
 scheduling-general = ସାଧାରଣ
+scheduling-leech-action = ଜୋକ (leech) କାର୍ଯ୍ୟ
+scheduling-leech-threshold = ଜୋକ (leech) ଦୁଆରସୀମା
 scheduling-maximum-interval = ସର୍ବାଧିକ ବ୍ୟବଧାନ
 scheduling-maximum-reviewsday = ସର୍ବାଧିକ ସମୀକ୍ଷା/ଦିନ
 scheduling-mix-new-cards-and-reviews = ନୂତନ ପତ୍ର ଏବଂ ସମୀକ୍ଷାଗୁଡ଼ିକ ମିଶ୍ରଣ କରନ୍ତୁ
@@ -125,6 +127,7 @@ scheduling-show-new-cards-before-reviews = ସମୀକ୍ଷା ପୂର୍ବ
 scheduling-show-new-cards-in-order-added = ଯୋଡ଼ାଯାଇଥିବା କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-in-random-order = ଅନିୟମିତ କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-starting-ease = ପ୍ରାରମ୍ଭିକ ସହଜତା
+scheduling-tag-only = କେବଳ ଟ୍ୟାଗ୍ କରନ୍ତୁ
 scheduling-the-default-configuration-cant-be-removed = ଡିଫଲ୍ଟ ବିନ୍ୟାସୀକରଣ ଅପସାରଣ ହୋଇପାରିବ ନାହିଁ।
 scheduling-deck-updated =
     { $count ->

@@ -8,6 +8,7 @@ studying-bury-card = ପତ୍ର ସ୍ଥଗିତ କରନ୍ତୁ
 studying-bury-note = ନୋଟ୍ ସ୍ଥଗିତ କରନ୍ତୁ
 studying-card-buried = ପତ୍ରଟିକୁ ସ୍ଥଗିତ କରି ଦିଆଗଲା
 studying-card-suspended = ପତ୍ରଟିକୁ ନିଲମ୍ବିତ କରି ଦିଆଗଲା
+studying-card-was-a-leech = ପତ୍ର ଏକ ଜୋକ (leech) ଥିଲା।
 studying-cards-will-be-automatically-returned-to = ଆପଣ ସମୀକ୍ଷା କରିବା ପରେ ପତ୍ରଗୁଡ଼ିକ ସ୍ୱତଃସ୍ପୃତ ଭାବେ ସେମାନଙ୍କର ମୂଳ ଡେକ୍ କୁ ଫେରସ୍ତ ହେବେ।
 studying-continue = ଜାରି ରଖନ୍ତୁ
 studying-delete-note = ନୋଟ୍ ଅପସାରଣ କରନ୍ତୁ

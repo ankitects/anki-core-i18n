@@ -34,6 +34,13 @@ deck-config-new-insertion-order-sequential = କ୍ରମିକ (ପ୍ରଥମ
 
 ## Lapses section
 
+deck-config-leech-threshold-tooltip = ଏକ ଜୋକ (leech) ବୋଲି ଚିହ୍ନିତ ହେବା ପୂର୍ବରୁ ଏକ ସମୀକ୍ଷା ପତ୍ରରେ କେତେଥର `ପୁଣି` ଦବାଇବା ଆବଶ୍ୟକ। ଜୋକ ହେଉଛି ପତ୍ର ଯାହା ଆପଣଙ୍କର ବହୁତ ସମୟ ଖାଇଥାଏ, ଏବଂ ଯେତେବେଳେ ଏକ ପତ୍ର ଏକ ଜୋକ ବୋଲି ଚିହ୍ନିତ ହୁଏ, ଏହାକୁ ପୁନଃଲିଖନ କରିବା, ଏହାକୁ ବିଲୋପ କରିବା, କିମ୍ବା ଏହାକୁ ମନେ ରଖିବା ପାଇଁ ଏକ mnemonic ଭାବିବା ଏକ ଉତ୍ତମ ବିଚାର।
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `କେବଳ ଟ୍ୟାଗ୍ କରନ୍ତୁ`: ନୋଟ୍ ରେ ଏକ "leech" ଟ୍ୟାଗ୍ ଯୋଡ଼ାଯାଇ, ଏକ ପପ୍-ଅପ୍ ପ୍ରଦର୍ଶନ କରାଯିବ।
+    
+    `ପତ୍ର ନିଲମ୍ବିତ କରନ୍ତୁ`: ନୋଟ୍ ଟ୍ୟାଗ୍ କରିବା ବ୍ୟତୀତ, ପତ୍ରକୁ ହସ୍ତକୃତ ଭାବରେ ଅନିଲମ୍ବିତ ନକରାଯିବା
+    ପର୍ଯ୍ୟନ୍ତ ଲୁଚାଯିବ।
 
 ## Burying section
 
