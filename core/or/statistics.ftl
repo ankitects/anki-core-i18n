@@ -7,7 +7,7 @@ statistics-due-for-new-card = ନୂତନ #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } କାର୍ଡ/ମିନିଟ୍
+statistics-cards-per-min = { $cards-per-minute } ପତ୍ର/ମିନିଟ୍
 statistics-average-answer-time = { $average-seconds }ସେ ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
@@ -45,8 +45,8 @@ statistics-in-time-span-years =
     }
 statistics-cards =
     { $cards ->
-        [one] { $cards }ଟିଏ କାର୍ଡ
-       *[other] { $cards }ଟି କାର୍ଡ
+        [one] { $cards }ଟିଏ ପତ୍ର
+       *[other] { $cards }ଟି ପତ୍ର
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -67,15 +67,15 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }
-    { statistics-cards } କାର୍ଡ ଅଧ୍ୟୟନ କଲେ
-    ({ $secs-per-card }ସେ/card)
+    { statistics-cards } ପତ୍ର ଅଧ୍ୟୟନ କଲେ
+    ({ $secs-per-card }ସେ/ପତ୍ର)
 # eg, "Time taken to review card: 5s"
 statistics-seconds-taken = { $seconds }ସେ
 statistics-today-title = ଆଜି
 statistics-today-again-count = ପୁନର୍ବାର ଗଣନା:
 statistics-today-type-counts = ଶିଖୁଛନ୍ତି: { $learnCount }, ସମୀକ୍ଷା: { $reviewCount }, ପୁନଃ ଶିକ୍ଷାଧିନ: { $relearnCount }, ଶୋଧିତ: { $filteredCount }
-statistics-today-no-cards = ଆଜି କୌଣସି କାର୍ଡ ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
-statistics-today-no-mature-cards = ଆଜି କୌଣସି ପରିପକ୍ୱ କାର୍ଡ ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
+statistics-today-no-cards = ଆଜି କୌଣସି ପତ୍ର ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
+statistics-today-no-mature-cards = ଆଜି କୌଣସି ପରିପକ୍ୱ ପତ୍ର ଅଧ୍ୟୟନ କରାଯାଇ ନାହିଁ।
 statistics-today-correct-mature = ପରିପକ୍ୱ ପତ୍ରଗୁଡ଼ିକରେ ସଠିକ୍ ଉତ୍ତର ଶତକଡ଼ା: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = ସମୁଦାୟ
 statistics-counts-new-cards = ନୂତନ
@@ -86,16 +86,16 @@ statistics-counts-buried-cards = ସ୍ଥଗିତ ଅଛି
 statistics-counts-filtered-cards = ଶୋଧିତ
 statistics-counts-learning-cards = ଶିଖୁଛନ୍ତି
 statistics-counts-relearning-cards = ପୁନଃ ଶିକ୍ଷାଧିନ
-statistics-counts-title = କାର୍ଡ ଗଣନା
-statistics-counts-separate-suspended-buried-cards = ସ୍ଥଗିତ/ନିଲମ୍ବିତ କାର୍ଡଗୁଡ଼ିକୁ ଅଲଗା କରନ୍ତୁ
+statistics-counts-title = ପତ୍ର ଗଣନା
+statistics-counts-separate-suspended-buried-cards = ସ୍ଥଗିତ/ନିଲମ୍ବିତ ପତ୍ରଗୁଡ଼ିକୁ ଅଲଗା କରନ୍ତୁ
 statistics-range-all-time = ସମସ୍ତ
 statistics-range-1-year-history = ଗତ 12 ମାସ
 statistics-range-all-history = ସମସ୍ତ ଇତିବୃତ୍ତି
 statistics-range-deck = ଡେକ୍
 statistics-range-collection = ସଂଗ୍ରହ
 statistics-range-search = ସନ୍ଧାନ
-statistics-card-ease-title = କାର୍ଡ ସହଜତା
-statistics-card-ease-subtitle = ସହଜତା ଯେତେ କମ୍ ହେବ, ଏକ କାର୍ଡ ସେତେ ଅଧିକ ଥର ଦୃଶ୍ୟମାନ ହେବ।
+statistics-card-ease-title = ପତ୍ର ସହଜତା
+statistics-card-ease-subtitle = ସହଜତା ଯେତେ କମ୍ ହେବ, ଏକ ପତ୍ର ସେତେ ଅଧିକ ଥର ଦୃଶ୍ୟମାନ ହେବ।
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -105,7 +105,7 @@ statistics-card-ease-tooltip =
 statistics-future-due-title = ଭବିଷ୍ୟତ ଦେୟ
 statistics-future-due-subtitle = ଭବିଷ୍ୟତରେ ଧାର୍ଯ୍ୟ ସମୀକ୍ଷା ସଂଖ୍ୟା।
 statistics-added-title = ଯୋଡ଼ାଯାଇଛି
-statistics-added-subtitle = ଆପଣ ଯୋଡିଥିବା ନୂତନ କାର୍ଡ ସଂଖ୍ୟା।
+statistics-added-subtitle = ଆପଣ ଯୋଡିଥିବା ନୂତନ ପତ୍ର ସଂଖ୍ୟା।
 statistics-reviews-count-subtitle = ଆପଣ ଉତ୍ତର ଦେଇଥିବା ପ୍ରଶ୍ନର ସଂଖ୍ୟା।
 statistics-reviews-time-subtitle = ପ୍ରଶ୍ନଗୁଡ଼ିକର ଉତ୍ତର ଦେବାକୁ ନିଆଯାଇଥିବା ସମୟ।
 statistics-answer-buttons-title = ଉତ୍ତର ବଟନ୍

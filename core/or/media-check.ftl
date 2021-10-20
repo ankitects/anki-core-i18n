@@ -20,7 +20,7 @@ media-check-subfolder-count = ଉପଫୋଲ୍ଡରଗୁଡ଼ିକ: { $cou
 media-check-renamed-header = ସୁସଙ୍ଗତତା ପାଇଁ କିଛି ଫାଇଲ୍ ପୁନଃନାମକରଣ କରାଯାଇଛି:
 media-check-oversize-header = 100MB ରୁ ଅଧିକ ଫାଇଲଗୁଡ଼ିକୁ AnkiWeb ସହିତ ସିଙ୍କ୍ ହୋଇପାରିବ ନାହିଁ।
 media-check-subfolder-header = ମିଡ଼ିଆ ଫୋଲ୍ଡର ଭିତରେ ଥିବା ଫୋଲ୍ଡରଗୁଡ଼ିକ ସମର୍ଥିତ ନୁହେଁ।
-media-check-unused-header = ନିମ୍ନଲିଖିତ ଫାଇଲଗୁଡ଼ିକ ମିଡ଼ିଆ ଫୋଲ୍ଡରରେ ମିଳିଥିଲା, କିନ୍ତୁ କୌଣସି କାର୍ଡରେ ବ୍ୟବହାର ହୋଇଥିବା ପରି ମନେ ହେଉ ନାହିଁ:
+media-check-unused-header = ନିମ୍ନଲିଖିତ ଫାଇଲଗୁଡ଼ିକ ମିଡ଼ିଆ ଫୋଲ୍ଡରରେ ମିଳିଥିଲା, କିନ୍ତୁ କୌଣସି ପତ୍ରରେ ବ୍ୟବହାର ହୋଇଥିବା ପରି ମନେ ହେଉ ନାହିଁ:
 
 ## Shown once for each file
 

@@ -2,7 +2,7 @@ exporting-all-decks = ସମସ୍ତ ଡେକ୍
 exporting-anki-20-deck = Anki 2.0 ଡେକ୍
 exporting-anki-collection-package = Anki ସଂଗ୍ରହ ପ୍ୟାକେଜ୍
 exporting-anki-deck-package = Anki ଡେକ୍ ପ୍ୟାକେଜ୍
-exporting-cards-in-plain-text = ସାଧା ପାଠ୍ୟରେ କାର୍ଡ
+exporting-cards-in-plain-text = ସାଧା ପାଠ୍ୟରେ ପତ୍ର
 exporting-collection = ସଂଗ୍ରହ
 exporting-collection-exported = ସଂଗ୍ରହ ରପ୍ତାନି ହୋଇଛି।
 exporting-couldnt-save-file = ଫାଇଲକୁ ସଂରକ୍ଷଣ କରିପାରିଲା ନାହିଁ: { $val }
@@ -17,8 +17,8 @@ exporting-notes-in-plain-text = ସାଧା ପାଠ୍ୟରେ ନୋଟ୍
 exporting-selected-notes = ବଚ୍ଛିତ ନୋଟ୍
 exporting-card-exported =
     { $count ->
-        [one] { $count }ଟିଏ କାର୍ଡ ରପ୍ତାନୀ ହୋଇଛି।
-       *[other] { $count }ଟି କାର୍ଡ ରପ୍ତାନି କରାଯାଇଛି।
+        [one] { $count }ଟିଏ ପତ୍ର ରପ୍ତାନୀ ହୋଇଛି।
+       *[other] { $count }ଟି ପତ୍ର ରପ୍ତାନି କରାଯାଇଛି।
     }
 exporting-exported-media-file =
     { $count ->

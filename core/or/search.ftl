@@ -16,7 +16,7 @@ search-invalid-answer-button = "`{ $context }`"ରେ 1-4 ମଧ୍ୟରୁ ଏ
 ## Column labels in browse screen
 
 search-note-modified = ନୋଟ୍ ସଂଶୋଧିତ
-search-card-modified = କାର୍ଡ ସଂଶୋଧିତ
+search-card-modified = ପତ୍ର ସଂଶୋଧିତ
 
 ##
 

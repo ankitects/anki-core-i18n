@@ -50,7 +50,7 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    ପରବର୍ତ୍ତୀ ଶିକ୍ଷା କାର୍ଡ { $unit ->
+    ପରବର୍ତ୍ତୀ ଶିକ୍ଷା ପତ୍ର { $unit ->
         [seconds]
             { $amount ->
                 [one] { $amount } ସେକେଣ୍ଡ
@@ -69,20 +69,20 @@ scheduling-next-learn-due =
     }ରେ ପ୍ରସ୍ତୁତ ହେବ।
 scheduling-learn-remaining =
     { $remaining ->
-        [one] ଆଜି ପାଇଁ ଗୋଟିଏ ଶିକ୍ଷା କାର୍ଡ ବାକି ଅଛି।
-       *[other] ଆଜି ପାଇଁ { $remaining }ଟି ଶିକ୍ଷା କାର୍ଡ ବାକି ଅଛି।
+        [one] ଆଜି ପାଇଁ ଗୋଟିଏ ଶିକ୍ଷା ପତ୍ର ବାକି ଅଛି।
+       *[other] ଆଜି ପାଇଁ { $remaining }ଟି ଶିକ୍ଷା ପତ୍ର ବାକି ଅଛି।
     }
 scheduling-congratulations-finished = ଅଭିନନ୍ଦନ! ଆପଣ ବର୍ତ୍ତମାନ ପାଇଁ ଏହି ଡେକ୍ ସମାପ୍ତ କରିଛନ୍ତି।
 scheduling-today-review-limit-reached =
     ଆଜିର ସମୀକ୍ଷା ସୀମା ରେ ପହଞ୍ଚିଯାଇଛି, କିନ୍ତୁ ଏବେ ବି
-    କାର୍ଡ ସମୀକ୍ଷା କରିବାକୁ ଅପେକ୍ଷା କରୁଛି। ସର୍ବୋତ୍ସାହ୍ୟ ସ୍ମୃତି ପାଇଁ,
+    ପତ୍ର ସମୀକ୍ଷା କରିବାକୁ ଅପେକ୍ଷା କରୁଛି। ସର୍ବୋତ୍ସାହ୍ୟ ସ୍ମୃତି ପାଇଁ,
     ବିକଳ୍ପଗୁଡ଼ିକରେ ଦୈନିକ ସୀମା ବୃଦ୍ଧି କରିବାକୁ ବିଚାର କରନ୍ତୁ।
 scheduling-today-new-limit-reached =
-    ଅଧିକ ନୂଆ କାର୍ଡ ଉପଲବ୍ଧ ଅଛି, କିନ୍ତୁ ଦୈନିକ ସୀମା ପହଞ୍ଚିସାରିଛି।
+    ଅଧିକ ନୂଆ ପତ୍ର ଉପଲବ୍ଧ ଅଛି, କିନ୍ତୁ ଦୈନିକ ସୀମା ପହଞ୍ଚିସାରିଛି।
     ଆପଣ ବିକଳ୍ପଗୁଡ଼ିକରେ ସୀମା ବୃଦ୍ଧି କରିପାରିବେ, କିନ୍ତୁ ଦୟାକରି
-    ମନେରଖନ୍ତୁ ଯେ ଆପଣ ଯେତେ ନୂତନ କାର୍ଡ ଉପସ୍ଥାପନ କରିବେ,
+    ମନେରଖନ୍ତୁ ଯେ ଆପଣ ଯେତେ ନୂତନ ପତ୍ର ଉପସ୍ଥାପନ କରିବେ,
     ଆପଣଙ୍କ ସ୍ୱଳ୍ପ ମିଆଦି ସମୀକ୍ଷା କାର୍ଯ୍ୟ ଭାର ଅଧିକ ହେବ।
-scheduling-buried-cards-found = ଗୋଟିଏ କିମ୍ବା ଅଧିକ କାର୍ଡ ସ୍ଥଗିତ ରଖାଗଲା, ଏବଂ ଆସନ୍ତାକାଲି ପ୍ରଦର୍ଶିତ ହେବ। ଯଦି ଆପଣ ସେମାନଙ୍କୁ ତୁରନ୍ତ ଦେଖିବାକୁ ଚାହାଁନ୍ତି ତେବେ ଆପଣ ସେମାନଙ୍କୁ { $unburyThem } କରିପାରିବେ।
+scheduling-buried-cards-found = ଗୋଟିଏ କିମ୍ବା ଅଧିକ ପତ୍ର ସ୍ଥଗିତ ରଖାଗଲା, ଏବଂ ଆସନ୍ତାକାଲି ପ୍ରଦର୍ଶିତ ହେବ। ଯଦି ଆପଣ ସେମାନଙ୍କୁ ତୁରନ୍ତ ଦେଖିବାକୁ ଚାହାଁନ୍ତି ତେବେ ଆପଣ ସେମାନଙ୍କୁ { $unburyThem } କରିପାରିବେ।
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = ସେମାନଙ୍କୁ ଫେରାଇ ଆଣ
@@ -110,7 +110,7 @@ scheduling-general = ସାଧାରଣ
 scheduling-maximum-interval = ସର୍ବାଧିକ ବ୍ୟବଧାନ
 scheduling-maximum-reviewsday = ସର୍ବାଧିକ ସମୀକ୍ଷା/ଦିନ
 scheduling-mix-new-cards-and-reviews = ନୂତନ ପତ୍ର ଏବଂ ସମୀକ୍ଷାଗୁଡ଼ିକ ମିଶ୍ରଣ କରନ୍ତୁ
-scheduling-new-cards = ନୂତନ କାର୍ଡଗୁଡ଼ିକ
+scheduling-new-cards = ନୂତନ ପତ୍ରଗୁଡ଼ିକ
 scheduling-new-cardsday = ନୂତନ ପତ୍ର/ଦିନ
 scheduling-new-options-group-name = ନୂତନ ବିକଳ୍ପ ଗୋଷ୍ଠୀ ନାମ:
 scheduling-options-group = ବିକଳ୍ପ ଗୋଷ୍ଠୀ:

@@ -1,5 +1,5 @@
 studying-again = ପୁଣି
-studying-all-buried-cards = ସମସ୍ତ ଥଗିତ ହୋଇଥିବା ପତ୍ର
+studying-all-buried-cards = ସମସ୍ତ ସ୍ଥଗିତ ପତ୍ର
 studying-audio-5s = ଅଡ଼ିଓ -5ସେ
 studying-audio-and5s = ଅଡ଼ିଓ +5ସେ
 studying-buried-siblings = ସ୍ଥଗିତ ହୋଇଥିବା ଭାଇଭଉଣୀ

@@ -21,4 +21,4 @@ decks-random = ଅନିୟମିତ
 decks-study = ଅଧ୍ୟୟନ
 decks-study-deck = ଅଧ୍ୟୟନ ଡେକ୍
 decks-filtered-deck-search-empty = ପ୍ରଦତ୍ତ ସନ୍ଧାନ ସହିତ କୌଣସି ପତ୍ର ମେଳ ଖାଉ ନାହିଁ। କିଛି ପତ୍ର କୁ ବାଦ ଦିଆଯାଇଥାଇପାରେ କାରଣ ସେଗୁଡ଼ିକ ଏକ ଭିନ୍ନ ଶୋଧିତ ତାସଖଣ୍ଡ ରେ ଅଛି, କିମ୍ୱା ନିଲମ୍ବିତ ହୋଇଅଛି।
-decks-unmovable-cards = ସବୁ ବହିଷ୍କୃତ କାର୍ଡ ଦେଖାନ୍ତୁ
+decks-unmovable-cards = ସବୁ ବହିଷ୍କୃତ ପତ୍ର ଦେଖାନ୍ତୁ
