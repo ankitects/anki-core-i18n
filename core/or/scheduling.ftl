@@ -102,6 +102,7 @@ scheduling-update-more-info-button = ଅଧିକ ଜାଣନ୍ତୁ
 ## Other scheduling strings
 
 scheduling-always-include-question-side-when-replaying = ଅଡ଼ିଓ ପୁନଃଚାଳନ କରିବା ସମୟରେ ସର୍ବଦା ପ୍ରଶ୍ନ ପାର୍ଶ୍ୱ ଅନ୍ତର୍ଭୁକ୍ତ କରନ୍ତୁ
+scheduling-at-least-one-step-is-required = ଅତି କମରେ ୧ଟିଏ ପାହୁଣ୍ଡ ଆବଶ୍ୟକ
 scheduling-automatically-play-audio = ସ୍ୱୟଂଚାଳିତ ଭାବରେ ଅଡ଼ିଓ ଚଲାନ୍ତୁ
 scheduling-description = ବର୍ଣ୍ଣନା
 scheduling-description-to-show-on-overview-screen = ସାମ୍ପ୍ରତିକ ଡେକ୍ ପାଇଁ ଓଭରଭ୍ୟୁ ସ୍କ୍ରିନରେ ଦେଖାଇବାକୁ ବର୍ଣ୍ଣନା:
@@ -133,6 +134,8 @@ scheduling-show-new-cards-before-reviews = ସମୀକ୍ଷା ପୂର୍ବ
 scheduling-show-new-cards-in-order-added = ଯୋଡ଼ାଯାଇଥିବା କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-show-new-cards-in-random-order = ଅନିୟମିତ କ୍ରମରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ ଦେଖାନ୍ତୁ
 scheduling-starting-ease = ପ୍ରାରମ୍ଭିକ ସହଜତା
+scheduling-steps-in-minutes = ପାହୁଣ୍ଡ (ମିନିଟ୍ ରେ)
+scheduling-steps-must-be-numbers = ପାହୁଣ୍ଡଟି ସଂଖ୍ୟା ହେବା ଜରୁରୀ।
 scheduling-tag-only = କେବଳ ଟ୍ୟାଗ୍ କରନ୍ତୁ
 scheduling-the-default-configuration-cant-be-removed = ଡିଫଲ୍ଟ ବିନ୍ୟାସୀକରଣ ଅପସାରଣ ହୋଇପାରିବ ନାହିଁ।
 scheduling-deck-updated =

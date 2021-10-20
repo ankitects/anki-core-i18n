@@ -26,7 +26,7 @@ deck-config-limit-deck-v3 =
 
 ## New Cards section
 
-deck-config-learning-steps = ଶିଖିବା ପଦକ୍ଷେପ
+deck-config-learning-steps = ଶିଖିବା ପାହୁଣ୍ଡ
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = ବିଳମ୍ବ ସାଧାରଣତଃ ମିନିଟ୍ (ଯଥା `1ମି`) କିମ୍ବା ଦିନ (ଯଥା `2ଦି`), କିନ୍ତୁ ଘଣ୍ଟା (ଯଥା `1ଘ`) ଏବଂ ସେକେଣ୍ଡ (ଯଥା `30ସେ`) ମଧ୍ୟ ସମର୍ଥିତ।
 deck-config-new-insertion-order = ସନ୍ନିବେଶ କ୍ରମ
@@ -34,6 +34,7 @@ deck-config-new-insertion-order-sequential = କ୍ରମିକ (ପ୍ରଥମ
 
 ## Lapses section
 
+deck-config-relearning-steps = ପୁନଃଶିକ୍ଷଣ ପାହୁଣ୍ଡ
 deck-config-leech-threshold-tooltip = ଏକ ଜୋକ (leech) ବୋଲି ଚିହ୍ନିତ ହେବା ପୂର୍ବରୁ ଏକ ସମୀକ୍ଷା ପତ୍ରରେ କେତେଥର `ପୁଣି` ଦବାଇବା ଆବଶ୍ୟକ। ଜୋକ ହେଉଛି ପତ୍ର ଯାହା ଆପଣଙ୍କର ବହୁତ ସମୟ ଖାଇଥାଏ, ଏବଂ ଯେତେବେଳେ ଏକ ପତ୍ର ଏକ ଜୋକ ବୋଲି ଚିହ୍ନିତ ହୁଏ, ଏହାକୁ ପୁନଃଲିଖନ କରିବା, ଏହାକୁ ବିଲୋପ କରିବା, କିମ୍ବା ଏହାକୁ ମନେ ରଖିବା ପାଇଁ ଏକ mnemonic ଭାବିବା ଏକ ଉତ୍ତମ ବିଚାର।
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =

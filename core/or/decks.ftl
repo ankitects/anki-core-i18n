@@ -1,6 +1,7 @@
 decks-add-new-deck-ctrlandn = ନୂତନ ଡେକ୍ ଯୋଡ଼ନ୍ତୁ (Ctrl+N)
 decks-build = ନିର୍ମାଣ କରନ୍ତୁ
 decks-create-deck = ଡେକ୍ ସୃଷ୍ଟି କରନ୍ତୁ
+decks-custom-steps-in-minutes = କଷ୍ଟମ୍ ପାହୁଣ୍ଡ (ମିନିଟ୍ ରେ)
 decks-deck = ଡେକ୍
 decks-decreasing-intervals = କମୁଥିବା ଅନ୍ତରାଳ
 decks-delete-deck = ଡେକ୍ ବିଲୋପ କରନ୍ତୁ
