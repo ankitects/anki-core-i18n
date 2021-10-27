@@ -6,9 +6,13 @@ studying-buried-siblings = כרטיסים תואמים ש"הוטמנו"
 studying-bury = הסתר
 studying-bury-card = "הטמן" כרטיס
 studying-bury-note = "הטמן" רשומה
-studying-card-buried = כרטיס "הוטמן".
 studying-card-suspended = כרטיס הושהה.
 studying-card-was-a-leech = הכרטיס היה "עלוקה".
+studying-cards-buried =
+    { $count ->
+        [one] כרטיס אחד הוטמן.
+       *[other] { $count } כרטיסים הוטמנו.
+    }
 studying-cards-will-be-automatically-returned-to = כרטיסים יוחזרו אוטומטית לחפיסות המקוריות שלהם לאחר שתסקור אותם.
 studying-continue = המשך
 studying-delete-note = מחק רשומה
@@ -25,7 +29,6 @@ studying-manually-buried-cards = כרטיסים ש"הוטמנו" ידנית
 studying-mark-note = סמן רשומה
 studying-more = עוד
 studying-no-cards-are-due-yet = עדיין אין כרטיסים מתוזמנים.
-studying-note-buried = רשומה "הוטמנה".
 studying-note-suspended = רשומה הושהתה.
 studying-pause-audio = הפסק אודיו
 studying-please-run-toolsempty-cards = הפעל כלים>כרטיסים ריקים
@@ -42,15 +45,18 @@ studying-type-answer-unknown-field = סוג תשובה: שדה בלתי ידוע
 studying-unbury = הוצא מהטמנה
 studying-what-would-you-like-to-unbury = האם תרצה להוציא מהטמנה?
 studying-you-havent-recorded-your-voice-yet = לא הקלטת את קולך עדיין.
-studying-card-studied-in = { $count ->
-    [one] { $count } כרטיס נלמד ב
-   *[other] { $count } כרטיסים נלמדו ב
-  }
-studying-minute = { $count ->
-    [one] { $count } דקה.
-   *[other] { $count } דקות.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] רשומה ו-{ $count } כרטיס שלה נמחקה.
-   *[other] רשומה ו-{ $count } כרטיסים שלה נמחקו.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } כרטיס נלמד ב
+       *[other] { $count } כרטיסים נלמדו ב
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } דקה.
+       *[other] { $count } דקות.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+        [one] רשומה ו-{ $count } כרטיס שלה נמחקה.
+       *[other] רשומה ו-{ $count } כרטיסים שלה נמחקו.
+    }

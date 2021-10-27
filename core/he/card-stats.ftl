@@ -22,3 +22,9 @@ card-stats-review-log-type-review = חזרה
 card-stats-review-log-type-relearn = ‏‏לימוד חוזר
 card-stats-review-log-type-filtered = מסונן
 card-stats-review-log-type-manual = ידני
+card-stats-no-card = (אין כרטיסים להצגה.)
+
+## Window Titles
+
+card-stats-current-card = כרטיס נוכחי ({ $context })
+card-stats-previous-card = כרטיס קודם ({ $context })
