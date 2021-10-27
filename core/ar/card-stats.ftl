@@ -22,3 +22,9 @@ card-stats-review-log-type-review = مراجعة
 card-stats-review-log-type-relearn = في طور إعادة التعلم
 card-stats-review-log-type-filtered = مفلتر
 card-stats-review-log-type-manual = يدوي
+card-stats-no-card = (لا توجد بطاقة لعرضها.)
+
+## Window Titles
+
+card-stats-current-card = البطاقة الحالية ({ $context })
+card-stats-previous-card = البطاقة السابقة ({ $context })

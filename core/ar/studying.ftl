@@ -6,9 +6,17 @@ studying-buried-siblings = شقيقات مدفونة
 studying-bury = دفن
 studying-bury-card = دفن البطاقة
 studying-bury-note = دفن الملحوظة
-studying-card-buried = دُفِنت البطاقة.
 studying-card-suspended = عُلِّقت البطاقة.
 studying-card-was-a-leech = كانت البطاقة بطاقة مستعصية.
+studying-cards-buried =
+    { $count ->
+        [zero] لم يتم دفن أي بطاقة.
+        [one] دفنت بطاقة واحدة.
+        [two] دفنت بطاقتان.
+        [few] دفنت { $count } بطاقات.
+        [many] دفنت { $count } بطاقة.
+       *[other] دفنت { $count } بطاقة.
+    }
 studying-cards-will-be-automatically-returned-to = ستعود البطاقات إلى رزمها الأصلية بعد أن تراجعها.
 studying-continue = تابع
 studying-delete-note = حذف الملحوظة
@@ -25,7 +33,6 @@ studying-manually-buried-cards = البطاقات المدفونة يدويًا
 studying-mark-note = تعليم الملحوظة
 studying-more = المزيد
 studying-no-cards-are-due-yet = لا توجد بطاقات مستحقة بعد.
-studying-note-buried = دُفِنت الملحوظة.
 studying-note-suspended = عُلِّقت الملحوظة.
 studying-pause-audio = إيقاف الصوت
 studying-please-run-toolsempty-cards = استخدم أدوات>بحث عن بطاقات فارغة
