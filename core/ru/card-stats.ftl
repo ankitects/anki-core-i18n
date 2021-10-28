@@ -22,3 +22,9 @@ card-stats-review-log-type-review = Повторяемые
 card-stats-review-log-type-relearn = Переучиваемые
 card-stats-review-log-type-filtered = Отфильтрованые
 card-stats-review-log-type-manual = Ручной
+card-stats-no-card = (Нет карточек для показа)
+
+## Window Titles
+
+card-stats-current-card = Текущая карточка ({ $context })
+card-stats-previous-card = Предыдущая карточка ({ $context })

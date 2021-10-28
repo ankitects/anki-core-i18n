@@ -6,9 +6,14 @@ studying-buried-siblings = Отложенные связанные
 studying-bury = Отложить
 studying-bury-card = Отложить карточку
 studying-bury-note = Отложить запись
-studying-card-buried = Карточка отложена.
 studying-card-suspended = Карточка исключена.
 studying-card-was-a-leech = Карточка была приставучей.
+studying-cards-buried =
+    { $count ->
+        [one] Отложена { $count } карточка
+        [few] Отложены { $count } карточки
+       *[other] Отложено { $count } карточек
+    }
 studying-cards-will-be-automatically-returned-to = Карточки автоматически вернутся в свои колоды после повторения.
 studying-continue = Продолжить
 studying-delete-note = Удалить запись
@@ -25,7 +30,6 @@ studying-manually-buried-cards = Отложенные вручную
 studying-mark-note = Отметить запись
 studying-more = Ещё
 studying-no-cards-are-due-yet = Нет карточек на сегодня.
-studying-note-buried = Запись отложена.
 studying-note-suspended = Запись исключена.
 studying-pause-audio = Аудио на паузу
 studying-please-run-toolsempty-cards = Выберите в меню «Инструменты»—«Пустые карточки»

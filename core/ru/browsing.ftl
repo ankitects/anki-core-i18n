@@ -1,6 +1,8 @@
 browsing-add-notes = Добавить записи...
 browsing-add-tags = Добавить метки
 browsing-add-tags2 = Добавить метки...
+browsing-add-to-selected-notes = Добавить к выбранным записям
+browsing-remove-from-selected-notes = Удалить из выбранных записей
 browsing-addon = Дополнение
 browsing-all-card-types = Все типы карточек
 browsing-all-fields = Все поля
@@ -73,7 +75,6 @@ browsing-note = Запись
 browsing-note-initial = З
 browsing-notes-tagged = Записи помечены.
 browsing-nothing = Ничего
-browsing-only-new-cards-can-be-repositioned = Можно переместить только новые карточки.
 browsing-optional-filter = Дополнительный фильтр:
 browsing-override-back-template = Подменить шаблон оборотной стороны:
 browsing-override-font = Подменить шрифт:
@@ -93,7 +94,7 @@ browsing-reschedule = Позже
 browsing-search-bar-hint = Поиск карточек/записей (введите текст, затем нажмите Enter)
 browsing-search-in = Искать в:
 browsing-search-within-formatting-slow = Поиск по форматированию (медленно)
-browsing-selected-notes-only = Только выбранные заметки
+browsing-selected-notes-only = Только выбранные записи
 browsing-shift-position-of-existing-cards = Изменить место имеющихся карточек
 browsing-sidebar = Боковая панель
 browsing-sidebar-filter = Фильтр боковой панели
@@ -156,6 +157,13 @@ browsing-sidebar-save-current-search = Сохранить поиск
 browsing-sidebar-card-state = Состояние карточки
 browsing-sidebar-flags = Флажки
 browsing-today = Сегодня
+browsing-tooltip-card-modified = Время последнего изменения карточки, включая просмотр, изменение флагов и перенос в другие колоды
+browsing-tooltip-note-modified = Время последнего изменения записи, обычно изменение меток или содержимого полей
+browsing-tooltip-card = Название шаблона карточки
+browsing-tooltip-cards = Количество карточек у записи
+browsing-tooltip-notetype = Название типа записи
+browsing-tooltip-question = Лицо карточки, настраиваемое в редакторе шаблона карточек
+browsing-tooltip-answer = Оборот карточки, настраиваемой в редакторе шаблона карточек
 browsing-studied-today = Изучено
 browsing-added-today = Добавлено
 browsing-again-today = Снова
@@ -184,3 +192,7 @@ browsing-reparented-decks =
         [few] Переименованы { $count } колоды.
        *[other] Переименовано { $count } колод.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = Можно переместить только новые карточки.
