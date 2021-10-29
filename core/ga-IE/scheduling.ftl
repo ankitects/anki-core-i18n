@@ -174,11 +174,11 @@ scheduling-the-default-configuration-cant-be-removed = Ní féidir an leagan ré
 scheduling-your-changes-will-affect-multiple-decks = Beidh tionchar ag na hathruithe seo ar roinnt pacaí. Chun an paca seo amháin a athrú, cruthaigh roghaghrúpa nua.
 scheduling-deck-updated =
     { $count ->
-        [one] { $count } phaca amháin nuashonraithe.
-        [two] { $count } phaca nuashonraithe.
-        [few] { $count } phaca nuashonraithe.
-        [many] { $count } bpaca nuashonraithe.
-       *[other] { $count } paca nuashonraithe.
+        [one] Nuashonraíodh { $count } phaca amháin.
+        [two] Nuashonraíodh { $count } phaca.
+        [few] Nuashonraíodh { $count } phaca.
+        [many] Nuashonraíodh { $count } bpaca.
+       *[other] Nuashonraíodh { $count } paca.
     }
 scheduling-set-due-date-prompt =
     { $cards ->

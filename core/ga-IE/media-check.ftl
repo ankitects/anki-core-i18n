@@ -85,20 +85,20 @@ media-check-checked =
 media-check-delete-unused-confirm = Scrios meáin gan úsáid?
 media-check-files-remaining =
     { $count ->
-        [one] { $count } chomhad amháin
-        [two] { $count } chomhad
-        [few] { $count } chomhad
-        [many] { $count } gcomhad
-       *[other] { $count } comhad
+        [one] Tá { $count } chomhad amháin
+        [two] Tá { $count } chomhad
+        [few] Tá { $count } chomhad
+        [many] Tá { $count } gcomhad
+       *[other] Tá { $count } comhad
     } fágtha
 media-check-delete-unused-complete =
     { $count ->
-        [one] { $count } chomhad amháin
-        [two] { $count } chomhad
-        [few] { $count } chomhad
-        [many] { $count } gcomhad
-       *[other] { $count } comhad
-    } curtha sa bhruscar.
+        [one] Cuireadh { $count } chomhad amháin
+        [two] Cuireadh { $count } chomhad
+        [few] Cuireadh { $count } chomhad
+        [many] Cuireadh { $count } gcomhad
+       *[other] Cuireadh { $count } comhad
+    } sa bhruscar.
 media-check-trash-emptied = Tá an fillteán bruscair folmhaithe.
 media-check-trash-restored = Aischuireadh comhaid scriosta san fhillteán meán.
 

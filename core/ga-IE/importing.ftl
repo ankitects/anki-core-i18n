@@ -89,19 +89,19 @@ importing-update-existing-notes-when-first-field = Nuashonraigh an nóta atá an
 importing-updated = Nuashonraithe
 importing-note-added =
     { $count ->
-        [one] { $count } nóta amháin curtha leis
-        [two] { $count } nóta curtha leis
-        [few] { $count } nóta curtha leis
-        [many] { $count } nóta curtha leis
-       *[other] { $count } nóta curtha leis
+        [one] Cuireadh { $count } nóta amháin curtha
+        [two] Cuireadh { $count } nóta leis
+        [few] Cuireadh { $count } nóta leis
+        [many] Cuireadh { $count } nóta leis
+       *[other] Cuireadh { $count } nóta leis
     }
 importing-note-imported =
     { $count ->
-        [one] { $count } nóta amháin iompórtáilte.
-        [two] { $count } nóta iompórtáilte.
-        [few] { $count } nóta iompórtáilte.
-        [many] { $count } nóta iompórtáilte.
-       *[other] { $count } nóta iompórtáilte.
+        [one] Iompórtáladh { $count } nóta amháin.
+        [two] Iompórtáladh { $count } nóta.
+        [few] Iompórtáladh { $count } nóta.
+        [many] Iompórtáladh { $count } nóta.
+       *[other] Iompórtáladh { $count } nóta.
     }
 importing-note-unchanged =
     { $count ->
@@ -113,17 +113,17 @@ importing-note-unchanged =
     }
 importing-note-updated =
     { $count ->
-        [one] { $count } nóta amháin nuashonraithe
-        [two] { $count } nóta nuashonraithe
-        [few] { $count } nóta nuashonraithe
-        [many] { $count } nóta nuashonraithe
-       *[other] { $count } nóta nuashonraithe
+        [one] Nuashonraíodh { $count } nóta amháin
+        [two] Nuashonraíodh { $count } nóta
+        [few] Nuashonraíodh { $count } nóta
+        [many] Nuashonraíodh { $count } nóta
+       *[other] Nuashonraíodh { $count } nóta
     }
 importing-processed-media-file =
     { $count ->
-        [one] { $count } chomhad meáin amháin próiseálte
-        [two] { $count } chomhad mheáin próiseálte
-        [few] { $count } chomhad meáin próiseálte
-        [many] { $count } gcomhad meáin próiseálte
-       *[other] { $count } comhad meáin próiseálte
+        [one] Próiseáladh { $count } chomhad meáin amháin
+        [two] Próiseáladh { $count } chomhad mheáin
+        [few] Próiseáladh { $count } chomhad meáin
+        [many] Próiseáladh { $count } gcomhad meáin
+       *[other] Próiseáladh { $count } comhad meáin
     }

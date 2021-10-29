@@ -17,25 +17,25 @@ exporting-notes-in-plain-text = Nótaí gnáth-théacs
 exporting-selected-notes = Nótaí Roghnaithe
 exporting-card-exported =
     { $count ->
-        [one] { $count } chárta amháin easpórtáilte.
-        [two] { $count } chárta easpórtáilte.
-        [few] { $count } chárta easpórtáilte.
-        [many] { $count } gcárta easpórtáilte.
-       *[other] { $count } cárta easpórtáilte.
+        [one] Easpórtáladh { $count } chárta amháin.
+        [two] Easpórtáladh { $count } chárta.
+        [few] Easpórtáladh { $count } chárta.
+        [many] Easpórtáladh { $count } gcárta.
+       *[other] Easpórtáladh { $count } cárta.
     }
 exporting-exported-media-file =
     { $count ->
-        [one] { $count } chomhad meáin amháin easpórtáilte
-        [two] { $count } chomhad meán easpórtáilte
-        [few] { $count } chomhad meán easpórtáilte
-        [many] { $count } gcomhad meán easpórtáilte
-       *[other] { $count } comhad meán easpórtáilte
+        [one] Easpórtáladh { $count } chomhad meáin amháin
+        [two] Easpórtáladh { $count } chomhad meán
+        [few] Easpórtáladh { $count } chomhad meán
+        [many] Easpórtáladh { $count } gcomhad meán
+       *[other] Easpórtáladh { $count } comhad meán
     }
 exporting-note-exported =
     { $count ->
-        [one] { $count } nóta amháin easpórtáilte.
-        [two] { $count } nóta easpórtáilte.
-        [few] { $count } nóta easpórtáilte.
-        [many] { $count } nóta easpórtáilte.
-       *[other] { $count } nóta easpórtáilte.
+        [one] Easpórtáladh { $count } nóta amháin.
+        [two] Easpórtáladh { $count } nóta.
+        [few] Easpórtáladh { $count } nóta.
+        [many] Easpórtáladh { $count } nóta.
+       *[other] Easpórtáladh { $count } nóta.
     }

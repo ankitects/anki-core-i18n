@@ -22,11 +22,11 @@ browsing-card-state = Staid Chárta
 browsing-cards-cant-be-manually-moved-into = Ní féidir cártaí a bhogadh isteach i bpaca scagtha de láimh.
 browsing-cards-deleted =
     { $count ->
-        [one] cárta amháin scriosta.
-        [two] { $count } chárta scriosta.
-        [few] { $count } chárta scriosta.
-        [many] { $count } gcárta scriosta.
-       *[other] { $count } cárta scriosta.
+        [one] Scriosadh { $count } chárta amháin.
+        [two] Scriosadh { $count } chárta.
+        [few] Scriosadh { $count } chárta.
+        [many] Scriosadh { $count } gcárta.
+       *[other] Scriosadh { $count } cárta.
     }
 browsing-change-deck = Athraigh Paca
 browsing-change-deck2 = Athraigh Paca...
@@ -141,27 +141,27 @@ browsing-note-count =
     }
 browsing-note-deleted =
     { $count ->
-        [one] { $count } nóta amháin scriosta.
-        [two] { $count } nóta scriosta.
-        [few] { $count } nóta scriosta.
-        [many] { $count } nóta scriosta.
-       *[other] { $count } nóta scriosta.
+        [one] Scriosadh { $count } nóta amháin.
+        [two] Scriosadh { $count } nóta.
+        [few] Scriosadh { $count } nóta.
+        [many] Scriosadh { $count } nóta.
+       *[other] Scriosadh { $count } nóta.
     }
 browsing-notes-updated =
     { $count ->
-        [one] nóta amháin nuashonraithe.
-        [two] { $count } nóta nuashonraithe.
-        [few] { $count } nóta nuashonraithe.
-        [many] { $count } nóta nuashonraithe.
-       *[other] { $count } nóta nuashonraithe.
+        [one] Nuashonraíodh { $count } nóta amháin.
+        [two] Nuashonraíodh { $count } nóta.
+        [few] Nuashonraíodh { $count } nóta.
+        [many] Nuashonraíodh { $count } nóta.
+       *[other] Nuashonraíodh { $count } nóta.
     }
 browsing-cards-updated =
     { $count ->
-        [one] chárta amháin nuashonraithe.
-        [two] { $count } chárta  nuashonraithe.
-        [few] { $count } chárta nuashonraithe.
-        [many] { $count } gcárta nuashonraithe.
-       *[other] { $count } cárta nuashonraithe.
+        [one] Nuashonraíodh { $count } chárta amháin.
+        [two] Nuashonraíodh { $count } chárta.
+        [few] Nuashonraíodh { $count } chárta.
+        [many] Nuashonraíodh { $count } gcárta.
+       *[other] Nuashonraíodh { $count } cárta.
     }
 browsing-window-title =
     { $total ->
@@ -210,7 +210,7 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Athraíodh ord aon chárta nua amháin.
+        [one] Athraíodh ord { $count } chárta nua amháin.
         [two] Athraíodh ord { $count } chárta nua.
         [few] Athraíodh ord { $count } chárta nua.
         [many] Athraíodh ord { $count } gcárta nua.
@@ -218,7 +218,7 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-        [one] Athainmníodh paca amháin.
+        [one] Athainmníodh { $count } phaca amháin.
         [two] Athainmníodh { $count } phaca.
         [few] Athainmníodh { $count } phaca.
         [many] Athainmníodh { $count } bpaca.

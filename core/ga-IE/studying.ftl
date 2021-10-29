@@ -6,9 +6,16 @@ studying-buried-siblings = Deirfiúrchártaí i bhFolach
 studying-bury = Cuir i bhFolach
 studying-bury-card = Cuir Cárta i bhFolach
 studying-bury-note = Cuir Nóta i bhFolach
-studying-card-buried = Cárta i bhfolach.
 studying-card-suspended = Cárta ar fionraí.
 studying-card-was-a-leech = Súmaire ab é an cárta.
+studying-cards-buried =
+    { $count ->
+        [one] Cuireadh { $count } chárta amháin i bhfolach.
+        [two] Cuireadh { $count } chárta i bhfolach.
+        [few] Cuireadh { $count } chárta i bhfolach.
+        [many] Cuireadh { $count } gcárta i bhfolach.
+       *[other] Cuireadh { $count } cárta i bhfolach.
+    }
 studying-cards-will-be-automatically-returned-to = Cuirfear gach cárta ar ais sa phaca céanna as ar tháinig sé tar éis duit athbhreithniú a dhéanamh air.
 studying-continue = Lean ar aghaidh
 studying-delete-note = Scrios Nóta
@@ -25,7 +32,6 @@ studying-manually-buried-cards = Cártaí curtha i bhfolach de láimh
 studying-mark-note = Marcáil Nóta
 studying-more = Tuilleadh
 studying-no-cards-are-due-yet = Níl cárta ar bith le staidéar fós.
-studying-note-buried = Nóta i bhfolach.
 studying-note-suspended = Nóta ar fionraí.
 studying-pause-audio = Cuir Fuaim ar Sos
 studying-please-run-toolsempty-cards = Úsáid Úirlisí->Cártaí Folmha

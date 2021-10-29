@@ -22,3 +22,9 @@ card-stats-review-log-type-review = Athbhreithnigh
 card-stats-review-log-type-relearn = Athfhoghlaim
 card-stats-review-log-type-filtered = Scagtha
 card-stats-review-log-type-manual = Lámhleabhar
+card-stats-no-card = (Níl aon chárta a bhaineann.)
+
+## Window Titles
+
+card-stats-current-card = Cárta Reatha ({ $context })
+card-stats-previous-card = Cárta Roimhe ({ $context })
