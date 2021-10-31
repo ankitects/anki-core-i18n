@@ -124,6 +124,7 @@ scheduling-new-interval = ନୂତନ ଅନ୍ତରାଳ
 scheduling-new-options-group-name = ନୂତନ ବିକଳ୍ପ ଗୋଷ୍ଠୀ ନାମ:
 scheduling-options-group = ବିକଳ୍ପ ଗୋଷ୍ଠୀ:
 scheduling-order = କ୍ରମ
+scheduling-parent-limit = (ସର୍ବାଧିକ ସୀମା: { $val })
 scheduling-review = ସମୀକ୍ଷା
 scheduling-reviews = ସମୀକ୍ଷା
 scheduling-seconds = ସେକେଣ୍ଡ
@@ -152,6 +153,11 @@ scheduling-set-due-date-prompt-hint =
     0 = ଆଜି
     1! = ଆସନ୍ତାକାଲି+ସମୀକ୍ଷା ଅନ୍ତରାଳ ପୁନଃସେଟ୍ କର
     3-7 = 3-7 ଦିନ ଭିତରୁ ଅନିୟମିତ ପସନ୍ଦ
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] { $cards }ଟିଏ ପତ୍ରର ଧାର୍ଯ୍ୟ ତାରିଖ ସେଟ୍ କରନ୍ତୁ।
+       *[other] { $cards }ଟି ପତ୍ରର ଧାର୍ଯ୍ୟ ତାରିଖ ସେଟ୍ କରନ୍ତୁ।
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] { $cards }ଟିଏ ପତ୍ର ଭୁଲିଯାଇଛି।

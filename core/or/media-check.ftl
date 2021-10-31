@@ -24,6 +24,7 @@ media-check-unused-header = ନିମ୍ନଲିଖିତ ଫାଇଲଗୁଡ
 
 ## Shown once for each file
 
+media-check-renamed-file = ନାମ ବଦଳାଇଦିଆଗଲା: { $old } -> { $new }
 media-check-oversize-file = 100MB ରୁ ଅଧିକ: { $filename }
 media-check-subfolder-file = ଫୋଲ୍ଡର: { $filename }
 media-check-missing-file = ନିଖୋଜ: { $filename }

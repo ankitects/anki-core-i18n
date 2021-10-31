@@ -6,9 +6,13 @@ studying-buried-siblings = ସ୍ଥଗିତ ହୋଇଥିବା ଭାଇଭ
 studying-bury = ସ୍ଥଗିତ ରଖନ୍ତୁ
 studying-bury-card = ପତ୍ର ସ୍ଥଗିତ କରନ୍ତୁ
 studying-bury-note = ନୋଟ୍ ସ୍ଥଗିତ କରନ୍ତୁ
-studying-card-buried = ପତ୍ରଟିକୁ ସ୍ଥଗିତ କରି ଦିଆଗଲା
 studying-card-suspended = ପତ୍ରଟିକୁ ନିଲମ୍ବିତ କରି ଦିଆଗଲା
 studying-card-was-a-leech = ପତ୍ର ଏକ ଜୋକ (leech) ଥିଲା।
+studying-cards-buried =
+    { $count ->
+        [one] { $count }ଟିଏ ପତ୍ର ସ୍ଥଗିତ କରାଗଲା।
+       *[other] { $count }ଟି ପତ୍ର ସ୍ଥଗିତ କରାଗଲା।
+    }
 studying-cards-will-be-automatically-returned-to = ଆପଣ ସମୀକ୍ଷା କରିବା ପରେ ପତ୍ରଗୁଡ଼ିକ ସ୍ୱତଃସ୍ପୃତ ଭାବେ ସେମାନଙ୍କର ମୂଳ ଡେକ୍ କୁ ଫେରସ୍ତ ହେବେ।
 studying-continue = ଜାରି ରଖନ୍ତୁ
 studying-delete-note = ନୋଟ୍ ଅପସାରଣ କରନ୍ତୁ
@@ -25,7 +29,6 @@ studying-manually-buried-cards = ହସ୍ତକୃତ ଭାବେ ସ୍ଥଗ
 studying-mark-note = ନୋଟ ଚିନ୍ହିତ କରନ୍ତୁ
 studying-more = ଅଧିକ
 studying-no-cards-are-due-yet = ଏପର୍ଯ୍ୟନ୍ତ କୌଣସି ପତ୍ର ବାକି ନାହିଁ।
-studying-note-buried = ନୋଟଟିକୁ ସ୍ଥଗିତ କରି ଦିଆଗଲା
 studying-note-suspended = ନୋଟଟିକୁ ନିଲମ୍ବିତ କରି ଦିଆଗଲା
 studying-pause-audio = ଅଡ଼ିଓ ବିରତ କର
 studying-please-run-toolsempty-cards = ଦୟାକରି ଉପକରଣଗୁଡ଼ିକ> ଖାଲି ପତ୍ରଗୁଡ଼ିକ ଚଲାନ୍ତୁ।

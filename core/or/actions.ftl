@@ -30,6 +30,7 @@ actions-search = ଖୋଜନ୍ତୁ
 actions-select = ଚୟନ କରନ୍ତୁ
 actions-shortcut-key = Shortcut key: { $val }
 actions-suspend-card = ପତ୍ର ନିଲମ୍ବିତ କରନ୍ତୁ
+actions-set-due-date = ଧାର୍ଯ୍ୟ ତାରିଖ ସେଟ୍ କରନ୍ତୁ
 actions-forget = ଭୁଲିଯାଅ
 actions-answer-card = ଉତ୍ତର ପତ୍ର
 actions-unbury-unsuspend = ସ୍ଥଗିତରୁ ଫେରାଇ ଆଣ/ଅନିଲମ୍ବିତ କରନ୍ତୁ
