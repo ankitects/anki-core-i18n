@@ -47,6 +47,9 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = ସ୍ଥଗିତ କରିବା
 deck-config-bury-new-siblings = ସମ୍ପୃକ୍ତ ନୂତନ ପତ୍ରଗୁଡ଼ିକୁ ତା' ବାସିଦିନ ପର୍ଯ୍ୟନ୍ତ ସ୍ଥଗିତ କରନ୍ତୁ
 deck-config-bury-review-siblings = ସମ୍ପୃକ୍ତ ସମୀକ୍ଷାଗୁଡ଼ିକୁ ତା' ବାସିଦିନ ପର୍ଯ୍ୟନ୍ତ ସ୍ଥଗିତ କରନ୍ତୁ
+deck-config-bury-tooltip =
+    ସମାନ ନୋଟର ଅନ୍ୟ ପତ୍ରଗୁଡ଼ିକ (ଯଥା ଓଲଟା ପତ୍ର,
+    ସଂଲଗ୍ନ କ୍ଲୋଜ୍ ବିଲୋପ) ପରଦିନ ପର୍ଯ୍ୟନ୍ତ ବିଳମ୍ବ ହେବ କି ନାହିଁ।
 
 ## Ordering section
 
