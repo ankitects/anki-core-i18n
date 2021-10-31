@@ -96,7 +96,7 @@ browsing-start-position = ଆରମ୍ଭ ସ୍ଥିତି:
 browsing-step = ପାହୁଣ୍ଡ:
 browsing-suspended = ନିଲମ୍ବିତ ଅଛି
 browsing-tag-duplicates = ନକଲ ଗୁଡ଼ିକ ଟ୍ୟାଗ୍ କରନ୍ତୁ
-browsing-tag-rename-warning-empty = ଆପଣ ଏକ ନୋଟ୍ ନଥିବା ଟ୍ୟାଗର ନାମ ପରିବର୍ତ୍ତନ କରିପାରିବେ ନାହିଁ।
+browsing-tag-rename-warning-empty = ଆପଣ ଏକ ନୋଟ୍ ନଥିବା ଟ୍ୟାଗ୍ ର ନାମ ବଦଳାଇ ପାରିବେ ନାହିଁ।
 browsing-target-field = ଲକ୍ଷ୍ୟ କ୍ଷେତ୍ର:
 browsing-toggle-showing-cards-notes = ପତ୍ର/ନୋଟ୍ ଦେଖାଇବା ଟୋଗଲ୍ କରନ୍ତୁ
 browsing-toggle-mark = ଚିହ୍ନ ଟୋଗଲ୍ କରନ୍ତୁ
@@ -165,6 +165,11 @@ browsing-changed-new-position =
     { $count ->
         [one] { $count }ଟିଏ ନୂତନ ପତ୍ରର ସ୍ଥିତି ପରିବର୍ତ୍ତନ ହୋଇଛି।
        *[other] { $count }ଟି ନୂତନ ପତ୍ରର ସ୍ଥିତି ପରିବର୍ତ୍ତନ ହୋଇଛି।
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count }ଟିଏ ଡେକ୍ ର ନାମ ବଦଳାଇଦିଆଗଲା।
+       *[other] { $count }ଟି ଡେକ୍ ର ନାମ ବଦଳାଇଦିଆଗଲା।
     }
 
 ## obsolete; no need to translate

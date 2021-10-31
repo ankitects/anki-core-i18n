@@ -1,4 +1,4 @@
-custom-study-must-rename-deck = ଦୟାକରି ପ୍ରଥମେ ବିଦ୍ୟମାନ ଇଚ୍ଛାରୂପିତ ଅଧ୍ୟୟନ ଡେକ୍ ର ନାମ ପରିବର୍ତ୍ତନ କରନ୍ତୁ।
+custom-study-must-rename-deck = ଦୟାକରି ପ୍ରଥମେ ବିଦ୍ୟମାନ କଷ୍ଟମ୍ ଅଧ୍ୟୟନ ଡେକ୍ ର ନାମ ବଦଳାନ୍ତୁ।
 custom-study-all-cards-in-random-order-dont = ସମସ୍ତ ପତ୍ର ଅନିୟମିତ କ୍ରମରେ (ପୁନଃନିର୍ଦ୍ଧାରଣ କରନ୍ତୁ ନାହିଁ)
 custom-study-all-review-cards-in-random-order = ସମସ୍ତ ସମୀକ୍ଷା ପତ୍ରଗୁଡ଼ିକ ଅନିୟମିତ କ୍ରମରେ
 custom-study-cards = ପତ୍ରଗୁଡ଼ିକ
