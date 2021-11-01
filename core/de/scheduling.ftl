@@ -72,7 +72,7 @@ scheduling-learn-remaining =
         [one] Es ist noch eine zu lernende Karte heute fällig.
        *[other] Es sind noch { $remaining } zu lernende Karten heute fällig.
     }
-scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist für jetzt geschafft.
+scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
 scheduling-today-review-limit-reached =
     Der Grenzwert für die heutigen Wiederholungen ist erreicht, weitere Karten warten jedoch
     noch darauf, wiederholt zu werden. Um die Gedächtnisleistung optimal zu nutzen,
