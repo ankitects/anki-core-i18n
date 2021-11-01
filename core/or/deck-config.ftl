@@ -56,21 +56,21 @@ deck-config-bury-tooltip =
 deck-config-ordering-title = ପ୍ରଦର୍ଶନ କ୍ରମ
 deck-config-new-gather-priority-deck = ଡେକ୍
 deck-config-new-gather-priority-position-lowest-first = ଆରୋହଣ ସ୍ଥିତି
-deck-config-new-gather-priority-position-highest-first = ଅବତରଣ ସ୍ଥିତି
+deck-config-new-gather-priority-position-highest-first = ଅବରୋହଣ ସ୍ଥିତି
 deck-config-new-card-sort-order = ନୂତନ ପତ୍ର ସଜାଇବା କ୍ରମ
 deck-config-sort-order-card-template-then-lowest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଆରୋହଣ ସ୍ଥିତି
-deck-config-sort-order-card-template-then-highest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଅବତରଣ ସ୍ଥିତି
+deck-config-sort-order-card-template-then-highest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଅବରୋହଣ ସ୍ଥିତି
 deck-config-sort-order-lowest-position = ଆରୋହଣ ସ୍ଥିତି
-deck-config-sort-order-highest-position = ଅବତରଣ ସ୍ଥିତି
+deck-config-sort-order-highest-position = ଅବରୋହଣ ସ୍ଥିତି
 deck-config-new-review-priority = ନୂତନ/ସମୀକ୍ଷା କ୍ରମ
 deck-config-new-review-priority-tooltip = ସମୀକ୍ଷା ପତ୍ର ସମ୍ପର୍କରେ କେବେ ନୂତନ ପତ୍ର ଦେଖାଇବେ।
 deck-config-review-mix-mix-with-reviews = ସମୀକ୍ଷାଗୁଡ଼ିକ ସହ ମିଶ୍ରଣ କରନ୍ତୁ
 deck-config-review-mix-show-after-reviews = ସମୀକ୍ଷା ପରେ ଦେଖାନ୍ତୁ
 deck-config-review-mix-show-before-reviews = ସମୀକ୍ଷା ପୂର୍ବରୁ ଦେଖାନ୍ତୁ
 deck-config-sort-order-ascending-intervals = ଆରୋହଣ ଅନ୍ତରାଳ
-deck-config-sort-order-descending-intervals = ଅବତରଣ ଅନ୍ତରାଳ
+deck-config-sort-order-descending-intervals = ଅବରୋହଣ ଅନ୍ତରାଳ
 deck-config-sort-order-ascending-ease = ଆରୋହଣ ସହଜତା
-deck-config-sort-order-descending-ease = ଅବତରଣ ସହଜତା
+deck-config-sort-order-descending-ease = ଅବରୋହଣ ସହଜତା
 
 ## Timer section
 
