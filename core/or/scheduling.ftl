@@ -89,7 +89,7 @@ scheduling-unbury-them = ସେମାନଙ୍କୁ ଫେରାଇ ଆଣ
 scheduling-how-to-custom-study = ଯଦି ଆପଣ ନିୟମିତ କାର୍ଯ୍ୟସୂଚୀ ବାହାରେ ଅଧ୍ୟୟନ କରିବାକୁ ଚାହାଁନ୍ତି, ତେବେ ଆପଣ { $customStudy } ବୈଶିଷ୍ଟ୍ୟ ବ୍ୟବହାର କରିପାରିବେ ।
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
-scheduling-custom-study = ଇଚ୍ଛାରୂପିତ ଅଧ୍ୟୟନ
+scheduling-custom-study = କଷ୍ଟମ୍ ଅଧ୍ୟୟନ
 
 ## Scheduler upgrade
 
