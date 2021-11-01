@@ -1,7 +1,7 @@
 actions-add = ଯୋଡ଼ନ୍ତୁ
 actions-all-selected = ସମସ୍ତ ମନୋନୀତ
 actions-any-selected = ଯେକୌଣସି ମନୋନୀତ
-actions-cancel = ବାତିଲ୍‌ କର
+actions-cancel = ବାତିଲ୍ କର
 actions-choose = ବାଛନ୍ତୁ
 actions-close = ବନ୍ଦ କରନ୍ତୁ
 actions-copy = ନକଲ କରନ୍ତୁ

@@ -49,7 +49,7 @@ sync-media-log-button = ମିଡ଼ିଆ ଲଗ୍
 sync-abort-button = ପରିତ୍ୟାଗ
 sync-download-from-ankiweb = AnkiWeb ରୁ ଡାଉନଲୋଡ୍ କରନ୍ତୁ
 sync-upload-to-ankiweb = AnkiWeb କୁ ଅପଲୋଡ୍ କରନ୍ତୁ
-sync-cancel-button = ବାତିଲ୍‌ କର
+sync-cancel-button = ବାତିଲ୍ କର
 
 ## Normal sync progress
 
