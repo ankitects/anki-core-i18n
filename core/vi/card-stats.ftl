@@ -22,3 +22,9 @@ card-stats-review-log-type-review = Ôn tập
 card-stats-review-log-type-relearn = Học lại
 card-stats-review-log-type-filtered = Đã lọc
 card-stats-review-log-type-manual = Thủ công
+card-stats-no-card = (Không có thẻ để hiển thị.)
+
+## Window Titles
+
+card-stats-current-card = Thẻ hiện tại ({ $context })
+card-stats-previous-card = Thẻ trước ({ $context })

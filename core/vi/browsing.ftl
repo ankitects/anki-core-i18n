@@ -1,6 +1,8 @@
 browsing-add-notes = Thêm phiếu...
 browsing-add-tags = Thêm Nhãn
 browsing-add-tags2 = Thêm Nhãn...
+browsing-add-to-selected-notes = Thêm vào Phiếu đã chọn
+browsing-remove-from-selected-notes = Xóa khỏi Phiếu đã chọn
 browsing-addon = Tiện ích
 browsing-all-card-types = Mọi loại thẻ
 browsing-all-fields = Mọi Trường tin
@@ -71,7 +73,6 @@ browsing-note = Phiếu
 browsing-note-initial = P
 browsing-notes-tagged = Đã gắn nhãn cho phiếu.
 browsing-nothing = Không gì
-browsing-only-new-cards-can-be-repositioned = Chỉ có thể định vị lại thẻ mới.
 browsing-optional-filter = Bộ lọc tùy chọn:
 browsing-override-back-template = Thay thế kiểu mẫu mặt sau:
 browsing-override-font = Thay thế kiểu chữ:
@@ -144,6 +145,13 @@ browsing-sidebar-save-current-search = Tìm kiếm đã lưu gần đây
 browsing-sidebar-card-state = Trạng thái Thẻ
 browsing-sidebar-flags = Cờ
 browsing-today = Hôm nay
+browsing-tooltip-card-modified = Lần thay đổi cuối cùng được thực hiện đối với một thẻ, bao gồm những thay đổi với thẻ ôn tập, cờ và bộ thẻ
+browsing-tooltip-note-modified = Các thay đổi cuối cùng được thực hiện đối với phiếu, thường là trường nội dung hoặc chỉnh sửa nhãn
+browsing-tooltip-card = Tên của mẫu thẻ của thẻ
+browsing-tooltip-cards = Số lượng thẻ trong một phiếu
+browsing-tooltip-notetype = Tên của mẫu phiếu của phiếu
+browsing-tooltip-question = Mặt trước của thẻ, có thể tùy chỉnh trong trình chỉnh sửa mẫu thẻ
+browsing-tooltip-answer = Mặt sau của thẻ, có thể tùy chỉnh trong trình chỉnh sửa mẫu thẻ
 browsing-studied-today = Đã học Hôm nay
 browsing-added-today = Đã thêm Hôm nay
 browsing-again-today = Học lại Hôm nay
@@ -166,3 +174,7 @@ browsing-reparented-decks =
     { $count ->
        *[other] Đã đổi tên { $count } bộ thẻ.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = Chỉ có thể định vị lại thẻ mới.

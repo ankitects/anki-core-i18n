@@ -6,9 +6,12 @@ studying-buried-siblings = Thẻ anh em bị hoãn
 studying-bury = Tạm hoãn
 studying-bury-card = Tạm hoãn Thẻ
 studying-bury-note = Tạm hoãn Phiếu
-studying-card-buried = Đã hoãn thẻ.
 studying-card-suspended = Đã dừng thẻ.
 studying-card-was-a-leech = Thẻ bám.
+studying-cards-buried =
+    { $count ->
+       *[other] { $count } thẻ đã hoãn.
+    }
 studying-cards-will-be-automatically-returned-to = Thẻ sẽ được tự động chuyển lại bộ thẻ gốc sau khi ôn tập.
 studying-continue = Tiếp
 studying-delete-note = Xóa Phiếu
@@ -25,7 +28,6 @@ studying-manually-buried-cards = Thẻ được Tạm hoãn thủ công
 studying-mark-note = Đánh dấu Phiếu
 studying-more = Thêm
 studying-no-cards-are-due-yet = Chưa có thẻ nợ.
-studying-note-buried = Đã tạm hoãn phiếu.
 studying-note-suspended = Đã dừng phiếu.
 studying-pause-audio = Dừng âm thanh
 studying-please-run-toolsempty-cards = Vui lòng chạy Công cụ > Thẻ Trống
