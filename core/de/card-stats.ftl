@@ -22,3 +22,9 @@ card-stats-review-log-type-review = Wiederholen
 card-stats-review-log-type-relearn = Erneut lernen
 card-stats-review-log-type-filtered = Auswahlstapel
 card-stats-review-log-type-manual = Manuell
+card-stats-no-card = (Keine Karte zum Anzeigen.)
+
+## Window Titles
+
+card-stats-current-card = Aktuelle Karte ({ $context })
+card-stats-previous-card = Vorherige Karte ({ $context })

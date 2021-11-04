@@ -6,9 +6,13 @@ studying-buried-siblings = Zurückgestellte Geschwisterkarten
 studying-bury = Zurückstellen
 studying-bury-card = Karte zurückstellen
 studying-bury-note = Notiz zurückstellen
-studying-card-buried = Karte zurückgestellt.
 studying-card-suspended = Karte wurde ausgesetzt.
 studying-card-was-a-leech = Karte war eine Lernbremse.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } Karte zurückgestellt.
+       *[other] { $count } Karten zurückgestellt.
+    }
 studying-cards-will-be-automatically-returned-to = Gelernte Karten kehren automatisch in ihren Heimatstapel zurück.
 studying-continue = Fortsetzen
 studying-delete-note = Notiz löschen
@@ -25,7 +29,6 @@ studying-manually-buried-cards = Manuell zurückgestellte Karten
 studying-mark-note = Notiz kennzeichnen
 studying-more = Mehr
 studying-no-cards-are-due-yet = Es sind noch keine Karten fällig.
-studying-note-buried = Notiz zurückgestellt.
 studying-note-suspended = Notiz ausgesetzt.
 studying-pause-audio = Audio anhalten
 studying-please-run-toolsempty-cards = Bitte Extras → Leere Karten ausführen.
@@ -42,15 +45,18 @@ studying-type-answer-unknown-field = Antwort eingeben: Unbekanntes Feld { $val }
 studying-unbury = Zurückstellen aufheben
 studying-what-would-you-like-to-unbury = Was möchten Sie nicht weiter zurückgestellt haben?
 studying-you-havent-recorded-your-voice-yet = Stimme noch nicht aufgezeichnet
-studying-card-studied-in = { $count ->
-    [one] { $count } Karte in
-   *[other] { $count } Karten in
-  }
-studying-minute = { $count ->
-    [one] { $count } Minute gelernt.
-   *[other] { $count } Minuten gelernt.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Notiz und { $count } zugehörige Karte gelöscht.
-   *[other] Notiz und { $count } zugehörige Karten gelöscht.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } Karte in
+       *[other] { $count } Karten in
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } Minute gelernt.
+       *[other] { $count } Minuten gelernt.
+    }
+studying-note-and-its-card-deleted =
+    { $count ->
+        [one] Notiz und { $count } zugehörige Karte gelöscht.
+       *[other] Notiz und { $count } zugehörige Karten gelöscht.
+    }
