@@ -177,8 +177,8 @@ scheduling-set-due-date-prompt-hint =
     3-7=בחירה אקראית בין 3 ל-7 ימים.
 scheduling-set-due-date-done =
     { $cards ->
-        [one] הגדר תאריך יעד לכרטיס { $cards }.
-       *[other] הגדר תאריך יעד ל{ $cards } כרטיסים.
+        [one] הוגדר תאריך יעד לכרטיס אחד.
+       *[other] הוגדר תאריך יעד ל{ $cards } כרטיסים.
     }
 scheduling-forgot-cards =
     { $cards ->
