@@ -1,5 +1,4 @@
 database-check-corrupt = La collezione è corrotta. Consulta il manuale.
-database-check-rebuilt = Database ricostruito e ottimizzato.
 database-check-card-properties =
     { $count ->
         [one] Corretta { $count } carta con proprietà non valide.

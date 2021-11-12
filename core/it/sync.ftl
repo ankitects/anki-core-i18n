@@ -4,7 +4,7 @@
 ## Media synchronization
 
 sync-media-added-count = Aggiunte: { $up }↑ { $down }↓
-sync-media-removed-count = Rimosse: { $up }↑ { $down }↓
+sync-media-removed-count = Rimosso: { $up }↑ { $down }↓
 sync-media-checked-count = Verificate: { $count }
 sync-media-starting = Avvio della sincronizzazione dei file multimediali...
 sync-media-complete = Sincronizzazione dei file multimediali completa.
@@ -15,7 +15,7 @@ sync-media-aborted = Sincronizzazione dei file multimediali annullata.
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = Sincronizzazione dei file multimediali disattivata.
 # Title of the screen that shows syncing progress history
-sync-media-log-title = Registro delle sincronizzazioni dei file multimediali
+sync-media-log-title = Resoconto sincronizzazione
 
 ## Error messages / dialogs
 

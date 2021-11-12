@@ -72,7 +72,6 @@ browsing-note = Nota
 browsing-note-initial = N
 browsing-notes-tagged = Note etichettate.
 browsing-nothing = Niente
-browsing-only-new-cards-can-be-repositioned = Solo le carte nuove possono essere riposizionate.
 browsing-optional-filter = Filtro opzionale:
 browsing-override-back-template = Sovrascrivi modello retro:
 browsing-override-font = Sovrascrivi carattere:
@@ -162,7 +161,7 @@ browsing-sidebar-overdue = Scadute
 browsing-row-deleted = (eliminata)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Rimossa { $count } etichetta inutilizzata.
+        [one] Rimosso { $count } etichetta inutilizzata.
        *[other] Rimosse { $count } etichette inutilizzate.
     }
 browsing-changed-new-position =
@@ -175,3 +174,7 @@ browsing-reparented-decks =
         [one] Rinominato { $count } mazzo.
        *[other] Rinominati { $count } mazzi.
     }
+
+## obsolete; no need to translate
+
+browsing-only-new-cards-can-be-repositioned = Solo le carte nuove possono essere riposizionate.
