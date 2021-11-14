@@ -34,13 +34,13 @@ deck-config-limit-interday-bound-by-reviews =
 
 ## New Cards section
 
-deck-config-learning-steps = Этапы изучения
+deck-config-learning-steps = Шаги при учёбе
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Отсрочки возможны в минутах или днях
 deck-config-learning-steps-tooltip = Одна и более отсрочки, отделенные пробелами. Первая отсрочка включится при выборе варианта "Снова" у новой карточки (1 минута по умолчанию). Выбор варианта "Хорошо" отсрочит следующий этап на 10 минут по умолчанию. После прохождения всех стадий, новая карточка станет карточкой просмотра и появится снова в другой день. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Количество дней до показа карточки, если на последнем шаге изучения была нажата кнопка «Хорошо».
 deck-config-easy-interval-tooltip = Количество дней до показа карточки, если она была сразу же убрана из изучаемых кнопкой «Легко».
-deck-config-new-insertion-order = Порядок введения
+deck-config-new-insertion-order = Порядок добавления
 deck-config-new-insertion-order-tooltip =
     Управляет положением новых карточек в очереди.
     Карточки с меньшим номером будут показаны раньше.
@@ -50,7 +50,7 @@ deck-config-new-insertion-order-random = Случайный
 
 ## Lapses section
 
-deck-config-relearning-steps = Этапы повторного изучения
+deck-config-relearning-steps = Шаги при переучивании
 deck-config-relearning-steps-tooltip = Ноль и более отсрочек, разделенных пробелами. По умолчанию, нажав кнопку "Снова" на карточке повторения, она появится снова через 10 минут. Если период отсрочки не указан, то интервал, через который карточка появится снова, будет изменен без ввода повторения. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = Кнопка "Снова" на карточке повторения была нажата столько раз, что карточка превратилась в пиявку. Пиявки - это карточки, которые отнимают много времени. Когда карточка превращается в пиявку, её следует переписать, удалить или придумать мнемонику, которая поможет её запомнить.
 # See actions-suspend-card and scheduling-tag-only for the wording
