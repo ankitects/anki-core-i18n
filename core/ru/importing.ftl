@@ -5,7 +5,10 @@ importing-allow-html-in-fields = Разрешить HTML в полях
 importing-anki-files-are-from-a-very = Эти файлы .anki для старой версии Anki. Их можно импортировать через Anki 2.0, доступной на сайте.
 importing-anki2-files-are-not-directly-importable = Эти файлы .anki2 нельзя импортировать напрямую. Импортируйте .apkg или .zip, которые вы получили.
 importing-appeared-twice-in-file = Дважды встречается в файле: { $val }
-importing-by-default-anki-will-detect-the = По умолчанию Anki будет обнаруживать разделители полей: табуляцию, запятую, и т. д. Если Anki определит разделитель неверно, введите его здесь. Табуляция обозначается \t.
+importing-by-default-anki-will-detect-the =
+    По умолчанию Anki будет обнаруживать разделители полей: табуляцию, запятую и т. д.
+    Если Anki определит разделитель неверно, введите его здесь.
+    Табуляция обозначается \t.
 importing-change = Изменить
 importing-colon = Двоеточие
 importing-comma = Запятая
