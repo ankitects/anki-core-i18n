@@ -132,8 +132,8 @@ browsing-cards-updated =
        *[other] { $count }ଟି ପତ୍ର ଅପଡେଟ୍ ହୋଇଛି।
     }
 browsing-window-title = ବ୍ରାଉଜ୍ କରନ୍ତୁ ({ $total }ଟି ପତ୍ରମଧ୍ୟରୁ { $selected }ଟି ମନୋନୀତ)
-browsing-sidebar-expand = ବିସ୍ତାର କରନ୍ତୁ
-browsing-sidebar-collapse = ସଂକୋଚନ କରନ୍ତୁ
+browsing-sidebar-expand = ପ୍ରସାରଣ
+browsing-sidebar-collapse = ସଙ୍କୋଚନ
 browsing-sidebar-decks = ଡେକଗୁଡ଼ିକ
 browsing-sidebar-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ
 browsing-sidebar-notetypes = ନୋଟ୍ ପ୍ରକାରଗୁଡ଼ିକ
