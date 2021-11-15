@@ -1,4 +1,4 @@
-adding-add-shortcut-ctrlandenter = ଯୋଡ଼ନ୍ତୁ (ସର୍ଟକଟ୍: ctrl+enter)
+adding-add-shortcut-ctrlandenter = ଯୋଡ଼ନ୍ତୁ (ସର୍ଟକଟ୍: ctrl+enter)
 adding-added = ଯୋଡ଼ାଗଲା
 adding-close-and-lose-current-input = ବନ୍ଦ କରନ୍ତୁ ଏବଂ ସାମ୍ପ୍ରତିକ ଇନପୁଟ୍ ହରାନ୍ତୁ?
 adding-edit = "{ $val }" ସମ୍ପାଦନ କରନ୍ତୁ

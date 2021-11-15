@@ -2,7 +2,7 @@
 
 notetypes-front-field = ସାମ୍ନା
 notetypes-back-field = ପଛ
-notetypes-add-reverse-field = ଓଲଟା ଯୋଡ଼ନ୍ତୁ
+notetypes-add-reverse-field = ଓଲଟା ଯୋଡ଼ନ୍ତୁ
 notetypes-text-field = ପାଠ୍ୟ
 notetypes-back-extra-field = ପଛ ଅତିରିକ୍ତ
 
@@ -18,8 +18,8 @@ notetypes-cloze-name = କ୍ଲୋଜ୍
 
 notetypes-card-1-name = ପତ୍ର 1
 notetypes-card-2-name = ପତ୍ର 2
-notetypes-add = ଯୋଡ଼ନ୍ତୁ: { $val }
-notetypes-add-note-type = ନୋଟ୍ ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ
+notetypes-add = ଯୋଡ଼ନ୍ତୁ: { $val }
+notetypes-add-note-type = ନୋଟ୍ ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ
 notetypes-cards = ପତ୍ରଗୁଡ଼ିକ...
 notetypes-clone = ପ୍ରତିଲିପି ତିଆରି କରନ୍ତୁ: { $val }
 notetypes-copy = { $val } ନକଲ
@@ -31,5 +31,5 @@ notetypes-footer = ନିମ୍ନଭାଗ
 notetypes-header = ଶୀର୍ଷ ଲେଖା
 notetypes-note-types = ନୋଟ୍ ପ୍ରକାରଗୁଡ଼ିକ
 notetypes-options = ବିକଳ୍ପଗୁଡ଼ିକ...
-notetypes-please-add-another-note-type-first = ଦୟାକରି ପ୍ରଥମେ ଅନ୍ୟ ଏକ ନୋଟ୍ ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ।
+notetypes-please-add-another-note-type-first = ଦୟାକରି ପ୍ରଥମେ ଅନ୍ୟ ଏକ ନୋଟ୍ ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ।
 notetypes-type = ପ୍ରକାର

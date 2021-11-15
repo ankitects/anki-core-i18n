@@ -1,5 +1,5 @@
 editing-actual-size = ପ୍ରକୃତ ଆକାର ଟୋଗଲ୍ କର
-editing-add-media = ମିଡ଼ିଆ ଯୋଡ଼ନ୍ତୁ
+editing-add-media = ମିଡ଼ିଆ ଯୋଡ଼ନ୍ତୁ
 editing-align-left = ବାମକୁ ଶ୍ରେଣୀବଦ୍ଧ କର
 editing-align-right = ଡାହାଣକୁ ଶ୍ରେଣୀବଦ୍ଧ କର
 editing-an-error-occurred-while-opening = { $val } ଖୋଲିବା ସମୟରେ ଏକ ତ୍ରୁଟି ଘଟିଛି
