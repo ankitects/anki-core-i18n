@@ -6,9 +6,14 @@ studying-buried-siblings = Přeskočené příbuzné karty
 studying-bury = Přeskočit
 studying-bury-card = Přeskočit kartu
 studying-bury-note = Přeskočit poznámku
-studying-card-buried = Karta přeskočena.
 studying-card-suspended = Karta vyřazena.
 studying-card-was-a-leech = Karta zařazena mezi pijavice.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } karta přeskočena.
+        [few] { $count } karty přeskočeny.
+       *[other] { $count } karet přeskočeno.
+    }
 studying-cards-will-be-automatically-returned-to = Po zopakování budou karty automaticky vráceny do jejich originálního balíku.
 studying-continue = Pokračovat
 studying-delete-note = Odstranit poznámku
@@ -25,7 +30,6 @@ studying-manually-buried-cards = Ručně přeskočené karty
 studying-mark-note = Označit poznámku
 studying-more = Více
 studying-no-cards-are-due-yet = Žádné karty k opakování.
-studying-note-buried = Poznámka přeskočena.
 studying-note-suspended = Poznámka vyřazena.
 studying-pause-audio = Pozastavit zvuk
 studying-please-run-toolsempty-cards = Prosím spusťte Nástroje>Prázdné karty

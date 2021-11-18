@@ -36,6 +36,7 @@ editing-subscript = Dolní index
 editing-superscript = Horní index
 editing-tags = Štítky
 editing-to-make-a-cloze-deletion-on = Chcete-li přidat doplňovačku do existující poznámky, musíte její typ nejdřív změnit na doplňovačku přes „Poznámky > Změnit typ poznámky“.
+editing-toggle-sticky = Přepnout přichycení
 editing-underline-text = Podtržený text
 editing-unordered-list = Odrážkový seznam
 editing-warning-cloze-deletions-will-not-work = Pozor, doplňovačky nebudou fungovat, dokud nezměníte typ výše na Doplňovačku.

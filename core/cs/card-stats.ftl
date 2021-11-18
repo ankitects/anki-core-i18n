@@ -22,3 +22,9 @@ card-stats-review-log-type-review = Opakování
 card-stats-review-log-type-relearn = Znovu učené
 card-stats-review-log-type-filtered = Filtrováno
 card-stats-review-log-type-manual = Manuální
+card-stats-no-card = (Žádná karta k zobrazení.)
+
+## Window Titles
+
+card-stats-current-card = Současná karta ({ $context })
+card-stats-previous-card = Předchozí karta ({ $context })
