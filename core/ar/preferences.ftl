@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = ستُفعَّل بعض ال�
 preferences-synchronisation = <b>مزامنة</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>مزامنة</b><br> ليست مفعلة حاليًا؛ اضغط زر المزامنة في النافذة الرئيسية للتفعيل.
 preferences-synchronize-audio-and-images-too = مزامنة التسجيلات الصوتية والصور أيضًا
-preferences-this-will-reset-any-cards-in = سيؤدي هذا إلى إعادة البطاقات في طور التعلم إلى بطاقات جديدة، ومسح الرزم المفلترة، وتغيير إصدار المجدول. هل تريد الاستمرار؟
 preferences-timebox-time-limit = مهلة تقسيم المهام
 preferences-user-interface-size = حجم واجهة المستخدم
 preferences-when-adding-default-to-current-deck = معاملة الرزمة الحالية كرزمة افتراضية عند إضافة بطاقات
@@ -38,3 +37,4 @@ preferences-you-can-restore-backups-via-fileswitch = تستطيع استعادة
 preferences-legacy-timezone-handling = طريقة المعالجة القديمة للمناطق الزمنية (فيها أخطاء، لكنها متطلبة لإصدارات أنكيدرويد من 2.14 وأقدم)
 preferences-default-search-text = نص البحث الافتراضي
 preferences-default-search-text-example = مثال: 'deck:current '
+preferences-v3-scheduler = مجدول V3

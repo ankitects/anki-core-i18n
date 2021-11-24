@@ -30,6 +30,7 @@ editing-latex-math-env = بيئة LaTeX الرياضية
 editing-mathjax-block = كتلة MathJax
 editing-mathjax-chemistry = MathJax كيمياء
 editing-mathjax-inline = MathJax مضمَّن
+editing-mathjax-placeholder = اضغط { $accept } للموافقة، { $newline } لإضافة سطر جديد.
 editing-media = وسائط
 editing-ordered-list = قائمة مرقمة
 editing-outdent = خفض الإزاحة
@@ -50,16 +51,3 @@ editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = خط غامق (Ctrl+B)
-editing-italic-text-ctrlandi = خط مائل (Ctrl+I)
-editing-underline-text-ctrlandu = ضع خطًا تحت النص (Ctrl+U)
-editing-subscript-ctrland = رمز سفلي (Ctrl+=)
-editing-superscript-ctrlandand = رمز علوي (Ctrl++)
-editing-remove-formatting-ctrlandr = أزل التنسيق (Ctrl+R)
-editing-record-audio-f5 = سجّل صوتًا (F5)
-editing-attach-picturesaudiovideo-f3 = ألحق صور/ملفات صوتية/فيديو (F3)
-editing-cloze-deletion-ctrlandshiftandc = عبارة ملء فراغات (Ctrl+Shift+C)
-editing-change-colour-f8 = غيّر اللون (F8)
-editing-set-foreground-colour-f7 = ضبط لون النص (F7)
-editing-customize-card-templates-ctrlandl = خصص قوالب البطاقات (Ctrl+L)
-editing-set-foreground-color = ضبط لون الخط

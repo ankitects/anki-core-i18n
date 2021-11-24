@@ -136,6 +136,9 @@ scheduling-update-done = تمت ترقية المجدول بنجاح.
 scheduling-update-button = ترقية
 scheduling-update-later-button = لاحقًا
 scheduling-update-more-info-button = تعلم المزيد
+scheduling-update-required =
+    يجب تحديث مجموعتك إلى مجدول V2.
+    انقر { scheduling-update-more-info-button } قبل المتابعة.
 
 ## Other scheduling strings
 
@@ -146,7 +149,6 @@ scheduling-bury-related-new-cards-until-the = دفن البطاقات الجدي
 scheduling-bury-related-reviews-until-the-next = دفن المراجعات ذات الصلة حتى اليوم التالي
 scheduling-days = أيام
 scheduling-description = وصف
-scheduling-description-to-show-on-overview-screen = وصف خاص بالرزمة الحالية يظهر في نافذة الموجز:
 scheduling-easy-bonus = مكافأة البطاقات السهلة
 scheduling-easy-interval = الفاصل الزمني للبطاقات السهلة
 scheduling-end = (النهاية)
