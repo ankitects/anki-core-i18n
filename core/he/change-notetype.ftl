@@ -1,5 +1,8 @@
 change-notetype-current = נוכחי
 change-notetype-new = חדש
+change-notetype-nothing = (כלום)
+change-notetype-collapse = כווץ
+change-notetype-expand = הרחב
 change-notetype-will-discard-content = יבטל תוכן בשדות הבאים:
 change-notetype-will-discard-cards = יסיר את הכרטיסים הבאים:
 change-notetype-fields = שדות

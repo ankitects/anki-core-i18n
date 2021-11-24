@@ -30,6 +30,7 @@ editing-latex-math-env = סביבת מתמטיקה באמצעות LaTeX
 editing-mathjax-block = בלוק MathJax
 editing-mathjax-chemistry = כימיה באמצעות MathJax
 editing-mathjax-inline = MathJax כחלק משורה
+editing-mathjax-placeholder = לחץ על { $accept } כדי לאשר, { $newline } עבור שורה חדשה.
 editing-media = מדיה
 editing-ordered-list = רשימה (מספרים)
 editing-outdent = הקטן הזחה
@@ -50,16 +51,3 @@ editing-warning-cloze-deletions-will-not-work = אזהרה, השלם את החס
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = טקסט מודגש (Ctrl+B)
-editing-italic-text-ctrlandi = טקסט נטוי (Ctrl+I)
-editing-underline-text-ctrlandu = סמן טקסט בקו תחתון (Ctrl+U)
-editing-subscript-ctrland = כתב תחתון (Ctrl+=)
-editing-superscript-ctrlandand = כתב עליון (Ctrl++)
-editing-remove-formatting-ctrlandr = הסר עיצוב (Ctrl+R)
-editing-record-audio-f5 = הקלט אודיו (F5)
-editing-attach-picturesaudiovideo-f3 = צרף תמונה\אודיו\ווידאו (F3)
-editing-cloze-deletion-ctrlandshiftandc = השלם את החסר (Ctrl+Shift+C)
-editing-change-colour-f8 = שנה צבע (F8)
-editing-set-foreground-colour-f7 = הגדר צבע חזית (F7)
-editing-customize-card-templates-ctrlandl = התאם אישית תבניות של כרטיסים (Ctrl+L)
-editing-set-foreground-color = קבע צבע חזית

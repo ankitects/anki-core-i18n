@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = מספר הגדרות יחו�
 preferences-synchronisation = <b>סנכרון</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>סנכרון</b><br> לא מופעל כרגע; לחץ על כפתור "סנכרן" בחלון הראשי כדי להפעיל.‏
 preferences-synchronize-audio-and-images-too = סנכרן גם אודיו ותמונות
-preferences-this-will-reset-any-cards-in = זה יאפס את הכרטיסים שבלימוד כעת, ינקה את החפיסות המסוננות, וישנה את גירסת המתזמן. להמשיך?
 preferences-timebox-time-limit = הגבלת זמן בתיבת הזמן
 preferences-user-interface-size = גודל ממשק המשתמש
 preferences-when-adding-default-to-current-deck = בעת הוספה, ברירת המחדל היא הוספה לחפיסה הנוכחית
@@ -38,3 +37,4 @@ preferences-you-can-restore-backups-via-fileswitch = באפשרותך לשחזר
 preferences-legacy-timezone-handling = תאריך ושעה ידניים (פחות יציב, אך נדרש עבור AnkiDroid בגרסאות <= 2.14).
 preferences-default-search-text = טקסט או פקודת ברירת המחדל לחיפוש
 preferences-default-search-text-example = למשל: 'deck:current ' (להצגת חפיסה נוכחית)
+preferences-v3-scheduler = מתזמן V3

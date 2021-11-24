@@ -110,6 +110,9 @@ scheduling-update-done = המתזמן עודכן בהצלחה.
 scheduling-update-button = עדכון
 scheduling-update-later-button = מאוחר יותר
 scheduling-update-more-info-button = למד עוד
+scheduling-update-required =
+    המאגר שלך זקוק לעדכון למתזמן V2.
+    בחר { scheduling-update-more-info-button } בטרם תמשיך.
 
 ## Other scheduling strings
 
@@ -120,7 +123,6 @@ scheduling-bury-related-new-cards-until-the = "הטמן" כרטיסים חדשי
 scheduling-bury-related-reviews-until-the-next = "הטמנת" חזרות קשורות עד יום למחרת
 scheduling-days = ימים
 scheduling-description = תיאור
-scheduling-description-to-show-on-overview-screen = תיאור להצגה במסך הסקירה, לחפיסה זאת:
 scheduling-easy-bonus = בונוס עבור "קל"
 scheduling-easy-interval = מרווח-זמן של "קל"
 scheduling-end = (סוף)
