@@ -118,6 +118,9 @@ scheduling-update-done = Планировщик успешно обновлён.
 scheduling-update-button = Обновление
 scheduling-update-later-button = Позже
 scheduling-update-more-info-button = Узнать больше
+scheduling-update-required =
+    Вашу коллекцию нужно обновить до планировщика V2.
+    Выберите { scheduling-update-more-info-button }, чтобы продолжить.
 
 ## Other scheduling strings
 
@@ -128,7 +131,6 @@ scheduling-bury-related-new-cards-until-the = Откладывать связа�
 scheduling-bury-related-reviews-until-the-next = Откладывать повторение связанных карточек до следующего дня
 scheduling-days = дней
 scheduling-description = Описание
-scheduling-description-to-show-on-overview-screen = Описание для показа на экране обзора текущей колоды:
 scheduling-easy-bonus = Множитель для «Легко»
 scheduling-easy-interval = Интервал для «Легко»
 scheduling-end = (конец)

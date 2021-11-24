@@ -1,5 +1,8 @@
 change-notetype-current = Текущая
 change-notetype-new = Новая
+change-notetype-nothing = (Ничего)
+change-notetype-collapse = Свернуть
+change-notetype-expand = Развернуть
 change-notetype-will-discard-content = Удалит содержание следующих полей:
 change-notetype-will-discard-cards = Удалит следующие карточки:
 change-notetype-fields = Поля

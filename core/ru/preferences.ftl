@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = Некоторые парам
 preferences-synchronisation = <b>Сихронизация</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Синхронизация</b><br> Выключена. Чтобы включить её, щёлкните кнопку в главном окне.
 preferences-synchronize-audio-and-images-too = Синхронизировать аудио и изображения
-preferences-this-will-reset-any-cards-in = Будут сброшены все изучаемые карточки, очищены фильтрованные колоды и изменена версия планировщика. Продолжить?
 preferences-timebox-time-limit = Лимит ограничения времени
 preferences-user-interface-size = Размер интерфейса
 preferences-when-adding-default-to-current-deck = Добавлять в текущую колоду
@@ -38,3 +37,4 @@ preferences-you-can-restore-backups-via-fileswitch = Вы можете восс�
 preferences-legacy-timezone-handling = Устаревшая обработка часовых поясов (с ошибками, но требуется для AnkiDroid <= 2.14)
 preferences-default-search-text = Текст поиска по умолчанию
 preferences-default-search-text-example = например, 'deck:current ' для выбора текущей колоды
+preferences-v3-scheduler = Планировщик V3
