@@ -30,6 +30,7 @@ editing-latex-math-env = Окружение LaTeX
 editing-mathjax-block = MathJax с выключкой
 editing-mathjax-chemistry = MathJax для химии
 editing-mathjax-inline = MathJax в строке
+editing-mathjax-placeholder = Нажмите { $accept } для подтверждения или { $newline } для новой строки
 editing-media = Медиафайлы
 editing-ordered-list = Упорядоченный список
 editing-outdent = Сократить отступ
@@ -50,16 +51,3 @@ editing-warning-cloze-deletions-will-not-work = Внимание! Заполне
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = Жирный шрифт (Ctrl+B)
-editing-italic-text-ctrlandi = Курсив (Ctrl+I)
-editing-underline-text-ctrlandu = Подчеркнуть текст (Ctrl+U)
-editing-subscript-ctrland = Нижний индекс (Ctrl+=)
-editing-superscript-ctrlandand = Верхний индекс (Ctrl++)
-editing-remove-formatting-ctrlandr = Удалить форматирование (Ctrl+R)
-editing-record-audio-f5 = Запись аудио (F5)
-editing-attach-picturesaudiovideo-f3 = Прикрепить изображение, аудио, видео (F3)
-editing-cloze-deletion-ctrlandshiftandc = Задание с пропусками (Ctrl+Shift+C)
-editing-change-colour-f8 = Изменить цвет (F8)
-editing-set-foreground-colour-f7 = Повторить последний использованный цвет шрифта (F7)
-editing-customize-card-templates-ctrlandl = Настроить шаблоны карточек (Ctrl+L)
-editing-set-foreground-color = Установить цвет переднего плана
