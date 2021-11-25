@@ -16,7 +16,7 @@ database-check-notes-with-invalid-utf8 =
        *[other] 已修正 { $count } 則帶有無效 utf8 字元的筆記。
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = 有一或多個筆記類型遺失。使用這些類型的筆記類型已被「db-check」開頭的筆記類型取代，但欄位名稱和卡片設計已遺失，因此建議您回復自動備份。
+database-check-notetypes-recovered = 有一或多個筆記類型遺失。使用這些類型的筆記已被「db-check」開頭的類型取代，但欄位名稱和卡片設計已遺失，因此建議你回復自動備份。
 
 ## Progress info
 

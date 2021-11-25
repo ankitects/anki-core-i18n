@@ -42,11 +42,11 @@ editing-show-duplicates = 顯示重複項目
 editing-subscript = 下標
 editing-superscript = 上標
 editing-tags = 標籤
-editing-to-make-a-cloze-deletion-on = 若要在現有的筆記上建立克漏字空格，您必須先透過「筆記」>「變更筆記類型」將其變更為克漏字類型。
+editing-to-make-a-cloze-deletion-on = 若要在現有的筆記上建立克漏字空格，你必須先透過「筆記」>「變更筆記類型」將其變更為克漏字類型。
 editing-toggle-sticky = 凍結/取消凍結欄位
 editing-underline-text = 為文字加上底線
 editing-unordered-list = 無序清單
-editing-warning-cloze-deletions-will-not-work = 警告，除非您將上方的類型改成克漏字，否則克漏字空格將不會生效。
+editing-warning-cloze-deletions-will-not-work = 警告，除非你將上方的類型改成克漏字，否則克漏字空格將不會生效。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

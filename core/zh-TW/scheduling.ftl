@@ -47,19 +47,19 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] { $remaining } 張學習中的卡片將於今天到期。
     }
-scheduling-congratulations-finished = 恭喜！您已完成本牌組當前的學習任務。
+scheduling-congratulations-finished = 恭喜！你已完成本牌組當前的學習任務。
 scheduling-today-review-limit-reached =
     今天的複習上限已經達到了，但還有卡片尚待複習。
     為達最佳記憶效果，可考慮在選項中增加每日複習上限。
 scheduling-today-new-limit-reached =
-    牌組裡還有更多新卡片可以學習，但您已達到今天的上限。
-    您可以在選項中增加上限，但請記住，更多的新卡片意味著
-    您需要在短期內完成更多的複習量。
-scheduling-buried-cards-found = 有卡片已被暫停，並將會在明天出現。如果您想要立即學習這些卡片，可以{ $unburyThem }。
+    牌組裡還有更多新卡片可以學習，但你已達到今日上限。
+    你可以在選項中增加上限，但請記住，更多的新卡片意味著
+    你需要在短期內完成更多的複習量。
+scheduling-buried-cards-found = 有卡片已被暫停，並將會在明天出現。如果你想要立即學習這些卡片，可以{ $unburyThem }。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = 取消暫停
-scheduling-how-to-custom-study = 若您想要在常規排程外學習更多內容，請使用{ $customStudy }功能。
+scheduling-how-to-custom-study = 若你想要在常規排程外學習更多內容，請使用{ $customStudy }功能。
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = 自訂學習
@@ -71,6 +71,9 @@ scheduling-update-done = 已成功更新排程器。
 scheduling-update-button = 更新
 scheduling-update-later-button = 稍後
 scheduling-update-more-info-button = 進一步了解
+scheduling-update-required =
+    你的集合需要升級至 V2 排程器。
+    請選取{ scheduling-update-more-info-button }後再繼續。
 
 ## Other scheduling strings
 
@@ -81,7 +84,6 @@ scheduling-bury-related-new-cards-until-the = 明天前暫停關聯的新卡片
 scheduling-bury-related-reviews-until-the-next = 明天前暫停關聯的複習卡
 scheduling-days = 天
 scheduling-description = 描述
-scheduling-description-to-show-on-overview-screen = 當前牌組在概覽畫面上的描述：
 scheduling-easy-bonus = 簡單卡片的間隔倍率
 scheduling-easy-interval = 簡單卡片間隔
 scheduling-end = （結束）
@@ -121,7 +123,7 @@ scheduling-steps-in-minutes = 學習階段（分鐘）
 scheduling-steps-must-be-numbers = 學習階段值必須為數字。
 scheduling-tag-only = 僅加上標籤
 scheduling-the-default-configuration-cant-be-removed = 無法刪除預設的設定。
-scheduling-your-changes-will-affect-multiple-decks = 此變更將會影響多個牌組，若您只想變更當前牌組，請先新增一個選項群組。
+scheduling-your-changes-will-affect-multiple-decks = 此變更將會影響多個牌組，若你只想變更當前牌組，請先新增一個選項群組。
 scheduling-deck-updated =
     { $count ->
        *[other] 已更新 { $count } 個牌組。

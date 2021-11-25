@@ -53,8 +53,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }學習了 { statistics-cards }（每張卡片 { $secs-per-card } 秒）
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds } 秒
 statistics-today-title = 今天
 statistics-today-again-count = 「重來」計數：
 statistics-today-type-counts = 新學習卡片：{ $learnCount } ‧ 複習的卡片：{ $reviewCount } ‧ 重學習卡片：{ $relearnCount } ‧ 篩選的卡片：{ $filteredCount }
@@ -67,7 +65,7 @@ statistics-counts-young-cards = 未熟練
 statistics-counts-mature-cards = 熟練
 statistics-counts-suspended-cards = 已擱置
 statistics-counts-buried-cards = 已暫停
-statistics-counts-early-cards = 提前學習
+statistics-counts-filtered-cards = 已篩選
 statistics-counts-learning-cards = 學習中
 statistics-counts-relearning-cards = 重新學習中
 statistics-counts-title = 卡片計數
@@ -89,7 +87,7 @@ statistics-future-due-title = 預測
 statistics-future-due-subtitle = 將來會到期的複習卡數量
 statistics-added-title = 新增
 statistics-added-subtitle = 新增卡片的數量
-statistics-reviews-count-subtitle = 您回答過的題目數量
+statistics-reviews-count-subtitle = 你回答過的題目數量
 statistics-reviews-time-subtitle = 答題佔用的時間
 statistics-answer-buttons-title = 回答按鈕
 # eg Button: 4
@@ -158,7 +156,6 @@ statistics-days-studied = 學習天數
 statistics-average-answer-time-label = 平均答題時間
 statistics-average = 平均
 statistics-average-interval = 平均間隔
-statistics-longest-interval = 最長的間隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)

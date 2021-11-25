@@ -6,6 +6,6 @@ adding-history = 歷史記錄
 adding-note-deleted = （筆記已刪除）
 adding-shortcut = 快速鍵：{ $val }
 adding-the-first-field-is-empty = 第一個欄位是空的。
-adding-you-have-a-cloze-deletion-note = 您有克漏字筆記類型，但尚無任何克漏字空格，確定要繼續？
+adding-you-have-a-cloze-deletion-note = 筆記類型含有克漏字，但沒有克漏字空格，要繼續嗎？
 adding-cloze-outside-cloze-notetype = 克漏字空格只能用於克漏字筆記類型。
 adding-cloze-outside-cloze-field = 克漏字空格只能用於使用了 'cloze:' 篩選器的欄位。通常為第一個欄位
