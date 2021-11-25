@@ -1,11 +1,10 @@
 browsing-add-notes = 新增筆記...
-browsing-add-tags = 新增標籤
 browsing-add-tags2 = 新增標籤...
+browsing-add-to-selected-notes = 新增至選取的筆記
+browsing-remove-from-selected-notes = 從已選取的筆記中移除
 browsing-addon = 附加元件
-browsing-all-card-types = 所有卡片類型
 browsing-all-fields = 所有欄位
 browsing-answer = 答案
-browsing-any-cards-mapped-to-nothing-will = 空白卡片會被刪除，而筆記如果沒有在卡片上也會遺失。您確定要繼續嗎？
 browsing-any-flag = 任何旗標
 browsing-average-ease = 平均輕鬆度
 browsing-average-interval = 平均間隔
@@ -16,7 +15,6 @@ browsing-card = 卡片
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = 卡
 browsing-card-list = 卡片清單
-browsing-card-state = 卡片狀態
 browsing-cards-cant-be-manually-moved-into = 卡片無法手動移動到篩選牌組
 browsing-cards-deleted =
     { $count ->
@@ -27,19 +25,14 @@ browsing-change-deck2 = 變更牌組...
 browsing-change-note-type = 變更筆記類型
 browsing-change-note-type2 = 變更筆記類型...
 browsing-change-notetype = 變更筆記類型
-browsing-change-to = 變更 { $val } 到：
-browsing-clear-unused = 清理未使用的
 browsing-clear-unused-tags = 清理未使用的標籤
 browsing-confirm-saved-search-overwrite = 已經存在名稱為 { $name } 的搜尋條件。要覆寫它嗎？
 browsing-created = 建立日期
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = 當前牌組
 browsing-current-note-type = 當前筆記類型：
 browsing-delete-notes = 刪除筆記
-browsing-delete-tags = 刪除標籤
 browsing-duplicate = 重複
 browsing-ease = 輕鬆度
-browsing-end = 結束
 browsing-enter-tags-to-add = 輸入要新增的標籤：
 browsing-enter-tags-to-delete = 輸入要刪除的標籤：
 browsing-filtered = （已篩選）
@@ -51,7 +44,6 @@ browsing-flag = 旗標
 browsing-font = <b>字型</b>：
 browsing-font-size = <b>字型大小</b>：
 browsing-found-as-across-bs = 在 { $whole } 中找到 { $part } 。
-browsing-home = 首頁
 browsing-ignore-case = 忽略大小寫
 browsing-in = <b>位於</b>：
 browsing-interval = 間隔
@@ -61,7 +53,6 @@ browsing-line-size = <b>線條大小</b>：
 browsing-manage-note-types = 管理筆記類型...
 browsing-move-cards = 移動卡片
 browsing-move-cards-to-deck = 移動卡片到牌組：
-browsing-nd-names = { $num }: { $name }
 browsing-new = （新卡片）
 browsing-new-note-type = 新的筆記類型：
 browsing-no-flag = 沒有旗標
@@ -69,15 +60,11 @@ browsing-no-selection = 未選取卡片或筆記。
 browsing-note = 筆記
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 筆
-browsing-notes-tagged = 已為筆記加上標籤。
-browsing-nothing = 無
-browsing-only-new-cards-can-be-repositioned = 僅新卡片能調整順序。
 browsing-optional-filter = 可選篩選器：
 browsing-override-back-template = 覆寫背面模板：
 browsing-override-font = 覆寫字型：
 browsing-override-front-template = 覆寫正面模板：
 browsing-please-give-your-filter-a-name = 請命名篩選器：
-browsing-please-select-cards-from-only-one = 請僅從一種筆記類型選取卡片。
 browsing-preview-selected-card = 預覽已選取卡片（{ $val }）
 browsing-question = 問題
 browsing-queue-bottom = 佇列底端：{ $val }
@@ -119,10 +106,6 @@ browsing-note-count =
     { $count ->
        *[other] { $count } 則筆記
     }
-browsing-note-deleted =
-    { $count ->
-       *[other] 已刪除 { $count } 則筆記。
-    }
 browsing-notes-updated =
     { $count ->
        *[other] 已更新 { $count } 則筆記。
@@ -144,6 +127,9 @@ browsing-sidebar-save-current-search = 儲存當前搜尋條件
 browsing-sidebar-card-state = 卡片狀態
 browsing-sidebar-flags = 旗標
 browsing-today = 今日卡片
+browsing-tooltip-card = 卡片的卡片模板名稱
+browsing-tooltip-cards = 筆記擁有的卡片數量
+browsing-tooltip-notetype = 筆記的筆記類型名稱
 browsing-studied-today = 今天學習
 browsing-added-today = 今天新增
 browsing-again-today = 今天「重來」
@@ -166,3 +152,6 @@ browsing-reparented-decks =
     { $count ->
        *[other] 已重新命名 { $count } 個牌組。
     }
+
+## obsolete; no need to translate
+

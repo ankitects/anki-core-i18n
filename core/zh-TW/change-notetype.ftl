@@ -1,5 +1,8 @@
 change-notetype-current = 當前
 change-notetype-new = 新增
+change-notetype-nothing = （無）
+change-notetype-collapse = 摺疊
+change-notetype-expand = 展開
 change-notetype-will-discard-content = 將捨棄以下欄位的內容：
 change-notetype-will-discard-cards = 將移除以下卡片：
 change-notetype-fields = 欄位

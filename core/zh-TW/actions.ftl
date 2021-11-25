@@ -33,7 +33,6 @@ actions-select = 選取
 actions-shortcut-key = 快速鍵：{ $val }
 actions-suspend-card = 擱置卡片
 actions-set-due-date = 設定到期日
-actions-forget = 忘記
 actions-answer-card = 回答卡片
 actions-unbury-unsuspend = 取消暫停/取消擱置
 actions-add-deck = 新增牌組
@@ -44,12 +43,12 @@ actions-update-card = 更新卡片
 actions-update-deck = 更新牌組
 actions-forget-card = 忘記卡片
 actions-build-filtered-deck = 建立牌組
-actions-expand-collapse = 展開/摺疊
 actions-add-notetype = 新增筆記類型
 actions-remove-notetype = 移除筆記類型
 actions-update-notetype = 更新筆記類型
 actions-update-config = 更新設定檔
 actions-card-info = 卡片資訊
+actions-previous-card-info = 上一張卡片資訊
 
 ## Flags
 

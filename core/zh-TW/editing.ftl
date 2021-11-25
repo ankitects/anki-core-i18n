@@ -1,3 +1,4 @@
+editing-actual-size = 啟用/停用以實際尺寸顯示
 editing-add-media = 新增媒體
 editing-align-left = 靠左對齊
 editing-align-right = 靠右對齊
@@ -42,22 +43,10 @@ editing-subscript = 下標
 editing-superscript = 上標
 editing-tags = 標籤
 editing-to-make-a-cloze-deletion-on = 若要在現有的筆記上建立克漏字空格，您必須先透過「筆記」>「變更筆記類型」將其變更為克漏字類型。
+editing-toggle-sticky = 凍結/取消凍結欄位
 editing-underline-text = 為文字加上底線
 editing-unordered-list = 無序清單
 editing-warning-cloze-deletions-will-not-work = 警告，除非您將上方的類型改成克漏字，否則克漏字空格將不會生效。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = 粗體 (Ctrl+B)
-editing-italic-text-ctrlandi = 斜體 (Ctrl+I)
-editing-underline-text-ctrlandu = 底線 (Ctrl+U)
-editing-subscript-ctrland = 下標 (Ctrl+=)
-editing-superscript-ctrlandand = 上標 (Ctrl++)
-editing-remove-formatting-ctrlandr = 移除格式 (Ctrl+R)
-editing-record-audio-f5 = 錄製音訊 (F5)
-editing-attach-picturesaudiovideo-f3 = 附加圖片/音訊/影片 (F3)
-editing-cloze-deletion-ctrlandshiftandc = 建立克漏字空格 (Ctrl+Shift+C)
-editing-change-colour-f8 = 變更顏色 (F8)
-editing-set-foreground-colour-f7 = 設定前景色彩 (F7)
-editing-customize-card-templates-ctrlandl = 自訂卡片模板 (Ctrl+L)
-editing-set-foreground-color = 設定前景色彩
