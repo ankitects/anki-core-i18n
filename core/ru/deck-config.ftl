@@ -91,7 +91,7 @@ deck-config-sort-order-random = Произвольно
 deck-config-sort-order-template-then-gather = Шаблон карточки, потом порядок отбора
 deck-config-sort-order-gather = Порядок отбора
 deck-config-new-review-priority = Приоритет новых/проверочных
-deck-config-new-review-priority-tooltip = Когда показывать новые карточки в зависимости от карточек проверки.
+deck-config-new-review-priority-tooltip = Когда показывать новые карточки относительно повторяемых
 deck-config-interday-step-priority = Приоритет изучения/проверки в течение дня
 deck-config-interday-step-priority-tooltip = Когда показывать карточки (повторного) изучения, завершенные сразу после полуночи.
 deck-config-review-mix-mix-with-reviews = Смешать с повторяемыми
@@ -154,7 +154,6 @@ deck-config-clone-group = Клонировать предустановку
 ## Removing
 
 deck-config-remove-group = Удалить предустановку
-deck-config-confirm-normal = Удалить { $name }?
 deck-config-will-require-full-sync =
     Запрошенное изменение потребует односторонней синхронизации. Если изменения внесены
     на другом устройстве и еще не были синхронизированы с данным устройством, синхронизация
