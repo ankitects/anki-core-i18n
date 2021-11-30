@@ -1,13 +1,10 @@
 browsing-add-notes = הוסף רשומות...
-browsing-add-tags = הוסף תגיות
 browsing-add-tags2 = הוספת תגיות...
-browsing-add-to-selected-notes = הוסף להערות נבחרות
-browsing-remove-from-selected-notes = הסר מההערות הנבחרות
+browsing-add-to-selected-notes = הוסף לרשומות נבחרות
+browsing-remove-from-selected-notes = הסר מהרשומות הנבחרות
 browsing-addon = תוסף
-browsing-all-card-types = כל סוגי הכרטיסים
 browsing-all-fields = כל השדות
 browsing-answer = תשובה
-browsing-any-cards-mapped-to-nothing-will = כל כרטיס שאינו משוייך לכלום ימחק. אם לרשומה לא נותרו כרטיסים, היא תימחק. האם אתה בטוח שברצונך להמשיך?
 browsing-any-flag = כל דגל
 browsing-average-ease = קלות ממוצעת
 browsing-average-interval = מרווח זמן ממוצע
@@ -18,7 +15,6 @@ browsing-card = כרטיס
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = כ
 browsing-card-list = רשימת כרטיסים
-browsing-card-state = מצב כרטיס
 browsing-cards-cant-be-manually-moved-into = לא ניתן להעביר ידנית כרטיסים לתוך חפיסה מסוננת.
 browsing-cards-deleted =
     { $count ->
@@ -30,19 +26,14 @@ browsing-change-deck2 = העבר חפיסה...
 browsing-change-note-type = שנה סוג רשומה
 browsing-change-note-type2 = שנה סוג רשומה...
 browsing-change-notetype = שנה סוג רשומה
-browsing-change-to = שנה { $val } ל:
-browsing-clear-unused = נקה לא בשימוש
 browsing-clear-unused-tags = נקה תגיות שאינן בשימוש
 browsing-confirm-saved-search-overwrite = חיפוש שמור עם השם { $name } כבר קיים. האם לשכתב אותו?
 browsing-created = תאריך יצירה
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = חפיסה נוכחית
 browsing-current-note-type = סוג רשומה נוכחי:
 browsing-delete-notes = מחק רשומות
-browsing-delete-tags = מחק תגיות
 browsing-duplicate = שכפל
 browsing-ease = קלות
-browsing-end = סוף
 browsing-enter-tags-to-add = הזן תגיות להוספה:
 browsing-enter-tags-to-delete = הזן תגיות למחיקה:
 browsing-filtered = (מסונן)
@@ -54,7 +45,6 @@ browsing-flag = סמן בדגל
 browsing-font = <b>גופן</b>:
 browsing-font-size = <b>גודל גופן</b>:
 browsing-found-as-across-bs = נמצא { $part } מעבר ל{ $whole }.
-browsing-home = בית
 browsing-ignore-case = התעלם מאותיות רישיות
 browsing-in = <b>בתוך</b>:
 browsing-interval = מרווח-זמן
@@ -64,7 +54,6 @@ browsing-line-size = <b>גודל קו</b>:
 browsing-manage-note-types = נהל סוגי רשומות...
 browsing-move-cards = העבר כרטיסים
 browsing-move-cards-to-deck = העבר כרטיסים לחפיסה:
-browsing-nd-names = { $num }: { $name }
 browsing-new = (חדש)
 browsing-new-note-type = סוג רשומה חדש:
 browsing-no-flag = לא מסומן בדגל
@@ -72,14 +61,11 @@ browsing-no-selection = לא נבחרו כרטיסים או רשומות.
 browsing-note = רשומה
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ר
-browsing-notes-tagged = רשומות מתויגות.
-browsing-nothing = כלום
 browsing-optional-filter = סינון אופציונלי
 browsing-override-back-template = דריסת תבנית גב:
 browsing-override-font = דריסת גופן:
 browsing-override-front-template = דריסת תבנית חזית:
 browsing-please-give-your-filter-a-name = נא הכנס שם עבור המסנן שלך:
-browsing-please-select-cards-from-only-one = נא בחר כרטיסים מסוג רשומה אחד בלבד.
 browsing-preview-selected-card = תצוגה מקדימה לכרטיסייה נבחרת ({ $val })
 browsing-question = שאלה
 browsing-queue-bottom = סוף התור: { $val }
@@ -105,7 +91,7 @@ browsing-suspended = מושהה
 browsing-tag-duplicates = תגים כפולים
 browsing-tag-rename-warning-empty = לא ניתן לשנות תגית שאין לה רשומות.
 browsing-target-field = שדה יעד:
-browsing-toggle-showing-cards-notes = סמן כרטיסים/רשומות מוצגים
+browsing-toggle-showing-cards-notes = תצוגת כרטיסים/רשומות
 browsing-toggle-mark = סמן
 browsing-toggle-suspend = השהה
 browsing-treat-input-as-regular-expression = התייחס לערך המוזן כביטוי רגולרי
@@ -122,11 +108,6 @@ browsing-note-count =
     { $count ->
         [one] { $count } רשומה
        *[other] { $count } רשומות
-    }
-browsing-note-deleted =
-    { $count ->
-        [one] { $count } רשומה נמחקה.
-       *[other] { $count } רשומות נמחקו.
     }
 browsing-notes-updated =
     { $count ->
@@ -186,4 +167,3 @@ browsing-reparented-decks =
 
 ## obsolete; no need to translate
 
-browsing-only-new-cards-can-be-repositioned = רק כרטיסים חדשים יכולים להיות ממוקמים מחדש.
