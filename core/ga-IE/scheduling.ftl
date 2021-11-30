@@ -121,6 +121,9 @@ scheduling-update-done = Cuireadh an aiste staidéir nua i bhfeidhm.
 scheduling-update-button = Cuir i bhfeidhm
 scheduling-update-later-button = Fan scaitheamh eile
 scheduling-update-more-info-button = Tuilleadh eolais
+scheduling-update-required =
+    Ní foláir Sceidealú LGN2 a chur i bhfeidhm ar an gcnuasach seo.
+    Breathnaigh { scheduling-update-more-info-button } anois.
 
 ## Other scheduling strings
 
@@ -131,7 +134,6 @@ scheduling-bury-related-new-cards-until-the = Cuir cartaí nua gaolmhara i bhfol
 scheduling-bury-related-reviews-until-the-next = Cuir athbhreithnithe gaolmhara i bhfolach go dtí an lá dar gcionn
 scheduling-days = lá
 scheduling-description = Cur síos
-scheduling-description-to-show-on-overview-screen = Cur síos le taispeáint ar scáileán achoimre, i gcás an phaca reatha:
 scheduling-easy-bonus = Bónas 'Éasca'
 scheduling-easy-interval = Eatramh 'Éasca'
 scheduling-end = (críoch)

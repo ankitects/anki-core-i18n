@@ -1,5 +1,8 @@
 change-notetype-current = Reatha
 change-notetype-new = Nua
+change-notetype-nothing = (Gan Aon Rud Eile)
+change-notetype-collapse = Díleathnaigh
+change-notetype-expand = Leathnaigh
 change-notetype-will-discard-content = Scriosfar sonraí sna réimsí a leanas:
 change-notetype-will-discard-cards = Scriosfar na cártaí seo a leanas:
 change-notetype-fields = Réimsí

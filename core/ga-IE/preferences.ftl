@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = Tiocfaidh socruithe áirithe 
 preferences-synchronisation = <b>Sioncronú</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Sioncronú</b><br> Níl sioncronú ar fáil faoi láthair; cliceáil an cnaipe 'Sioncronú' sa phríomhfhuinneog chun é a chur ar fáil.
 preferences-synchronize-audio-and-images-too = Sioncronaigh fuaim agus iomhánna freisin
-preferences-this-will-reset-any-cards-in = Athshocróidh sé seo cártaí atá á bhfoghlaim, glanfaidh sé pacaí scagtha, agus athróidh sé leagan an sceidealóra. Lean ar aghaidh?
 preferences-timebox-time-limit = Teorainn ama don tréimhse shocraithe
 preferences-user-interface-size = Méid an chomhéadain
 preferences-when-adding-default-to-current-deck = Cuir cártaí nua leis an bpaca atá oscailte mar réamhshocrú
@@ -38,3 +37,4 @@ preferences-you-can-restore-backups-via-fileswitch = Chun cóipeanna cúltaca a 
 preferences-legacy-timezone-handling = Seanchóras oibrithe na n-amchrios (lochtach, ach éigeantach do leaganacha AnkiDroid <= 2.14)
 preferences-default-search-text = Buntéacs cuardaigh
 preferences-default-search-text-example = m.s. 'desk:current'
+preferences-v3-scheduler = Sceidealú LGN3

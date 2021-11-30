@@ -30,6 +30,7 @@ editing-latex-math-env = Timpeallacht mata LaTeX.
 editing-mathjax-block = MathJax bloc
 editing-mathjax-chemistry = MathJax Ceimic
 editing-mathjax-inline = MathJax inlíne
+editing-mathjax-placeholder = Roghnaigh { $accept } chun glacadh leis agus { $newline } chun dul chuig líne nua.
 editing-media = Meáin
 editing-ordered-list = Liosta in ord
 editing-outdent = Laghdaigh an eang
@@ -50,16 +51,3 @@ editing-warning-cloze-deletions-will-not-work = Rabhadh, ní bheidh aon mhaith s
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = Téacs trom (Ctrl+B)
-editing-italic-text-ctrlandi = Cló iodálach (Ctrl+I)
-editing-underline-text-ctrlandu = Folínigh (Ctrl+U)
-editing-subscript-ctrland = Foscript (Ctrl+=)
-editing-superscript-ctrlandand = Forscript (Ctrl++)
-editing-remove-formatting-ctrlandr = Bain foirmáidiú (Ctrl+R)
-editing-record-audio-f5 = Déan taifead ar fhuaim (F5)
-editing-attach-picturesaudiovideo-f3 = Cuir pictiúir/fuaim/fís leis (F3)
-editing-cloze-deletion-ctrlandshiftandc = Sliocht Iomlánaithe (Ctrl+Shift+C)
-editing-change-colour-f8 = Athraigh dath (F8)
-editing-set-foreground-colour-f7 = Socraigh dath an tosaigh (F7)
-editing-customize-card-templates-ctrlandl = Saincheap Teimpléid Chártaí (Ctrl+L)
-editing-set-foreground-color = Socraigh dath an tosaigh
