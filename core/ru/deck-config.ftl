@@ -66,73 +66,67 @@ deck-config-ordering-title = Порядок отображения
 deck-config-new-gather-priority = Порядок отбора новых
 deck-config-new-gather-priority-tooltip =
     `По колоде`: отбирает карточки по порядку из каждой подколоды и останавливается, когда достигнут лимит для выбранной колоды. Это быстрее и позволяет дать больший приоритет верхним подколодам.
-    `По положению`: сначала отбирает карточки из всех колод, потом сортирует. В этом случае карточки всегда идут строго по положению в очереди, даже если лимит материнской колоды слишком низкий, чтобы показать карточки из всех колод.
+    `По номеру`: сначала отбирает карточки из всех колод, потом сортирует. В этом случае карточки всегда идут строго по номеру в очереди, даже если лимит материнской колоды слишком низкий, чтобы показать карточки из всех колод.
 deck-config-new-gather-priority-deck = По колоде
-deck-config-new-gather-priority-position-lowest-first = По возрастанию
-deck-config-new-gather-priority-position-highest-first = По убыванию
-deck-config-new-card-sort-order = Порядок сортировки новых
-deck-config-sort-order-card-template-then-lowest-position = По шаблону и по возрастанию
-deck-config-sort-order-card-template-then-highest-position = По шаблону и по убыванию
-deck-config-sort-order-card-template-then-random = По шаблону, потом случайно
-deck-config-sort-order-lowest-position = По возрастанию
-deck-config-sort-order-highest-position = По убыванию
-deck-config-sort-order-random = Случайно
-deck-config-sort-order-template-then-gather = Шаблон карточки, потом порядок отбора
-deck-config-sort-order-gather = Порядок отбора
+deck-config-new-gather-priority-position-lowest-first = По возрастанию номеров
+deck-config-new-gather-priority-position-highest-first = По убыванию номеров
+deck-config-new-card-sort-order = Порядок новых
+deck-config-new-card-sort-order-tooltip = Как сортируются карточки после отбора. По умолчанию, Anki сначала сортирует по шаблону карточки, чтобы не показывать подряд несколько карточек одной записи.
+deck-config-sort-order-card-template-then-lowest-position = По шаблону, потом по возрастанию номеров
+deck-config-sort-order-card-template-then-highest-position = По шаблону, потом по убыванию номеров
+deck-config-sort-order-card-template-then-random = По шаблону, потом случайный
+deck-config-sort-order-lowest-position = По возрастанию номеров
+deck-config-sort-order-highest-position = По убыванию номеров
+deck-config-sort-order-random = Случайный
+deck-config-sort-order-template-then-gather = По шаблону, потом по порядку отбора
+deck-config-sort-order-gather = По порядку отбора
 deck-config-new-review-priority = Порядок новых и повторяемых
-deck-config-new-review-priority-tooltip = Когда показывать новые карточки относительно повторяемых
+deck-config-new-review-priority-tooltip = Когда показывать новые карточки по отношению к повторяемым.
 deck-config-interday-step-priority = Порядок перенесённых
 deck-config-interday-step-priority-tooltip =
     Когда показывать изучаемые и переучиваемые, которые переносятся на следующий день.
     Лимит повторяемых сначала применяется к перенесённым изучаемым, после — к повторяемым. Этот параметр управляет порядком показа, но отбираются перенесённые изучаемые всегда первыми.
-deck-config-review-mix-mix-with-reviews = Смешать с повторяемыми
-deck-config-review-mix-show-after-reviews = Показать после повторяемых
-deck-config-review-mix-show-before-reviews = Показать раньше повторяемых
-deck-config-review-sort-order = Порядок сортировки повторений
-deck-config-review-sort-order-tooltip = Порядок по умолчанию ставит в приоритет наиболее старые карточки, чтобы в случае накопившихся карточек повторения сначала появились именно они. Если накопившихся карточек так много, что их повторение может занять больше нескольких дней, или если нужно отобразить карточки в порядке внутренних колод, чередуемый порядок сортировки может оказаться более удобным.
-deck-config-sort-order-due-date-then-random = Подошел срок, затем выбранные случайным образом
-deck-config-sort-order-due-date-then-deck = Подошел срок, затем колода
-deck-config-sort-order-deck-then-due-date = Колода, затем те, чей срок подошел
-deck-config-sort-order-ascending-intervals = Возрастающие интервалы
-deck-config-sort-order-descending-intervals = Сокращающиеся интервалы
-deck-config-sort-order-ascending-ease = Увеличивающаяся лёгкость
-deck-config-sort-order-descending-ease = Уменьшающаяся лёгкость
-deck-config-display-order-will-use-current-deck =
-    Anki будет использовать порядок отображения из колоды, которую вы
-    выберете для изучения, а не из имеющихся в ней подразделов.
+deck-config-review-mix-mix-with-reviews = Перемежать с повторяемыми
+deck-config-review-mix-show-after-reviews = Показывать после повторяемых
+deck-config-review-mix-show-before-reviews = Показывать до повторяемых
+deck-config-review-sort-order = Порядок повторяемых
+deck-config-review-sort-order-tooltip = По умолчанию первыми идут старые карточки. Если у вас накопилось много карточек, то первыми будут те, что в очереди дольше всего. Если просмотр накопившихся займёт несколько дней или вы хотите повторять карточки в порядке подколод, то другой порядок может подойти лучше.
+deck-config-sort-order-due-date-then-random = По сроку, потом случайный
+deck-config-sort-order-due-date-then-deck = По сроку, потом по колоде
+deck-config-sort-order-deck-then-due-date = По колоде, потом по сроку
+deck-config-sort-order-ascending-intervals = По возрастанию интервалов
+deck-config-sort-order-descending-intervals = По убыванию интервалов
+deck-config-sort-order-ascending-ease = По увеличению лёгкости
+deck-config-sort-order-descending-ease = По уменьшению лёгкости
+deck-config-display-order-will-use-current-deck = Anki будет использовать порядок отображения из колоды, которую вы выбрали для учёбы, а не из её подколод.
 
 ## Timer section
 
 deck-config-timer-title = Таймер
-deck-config-maximum-answer-secs = Максимальное число секунд на ответ
-deck-config-maximum-answer-secs-tooltip = Максимальное число секунд на ответ. Если время подачи ответа превысит это число (например, если вы отошли), заданное число будет считаться временем ответа.
-deck-config-show-answer-timer-tooltip = На экране повторения отобразите таймер, который покажет, сколько секунд затрачено на повторение одной карточки.
+deck-config-maximum-answer-secs = Максимум секунд для ответа
+deck-config-maximum-answer-secs-tooltip = Максимум секунд для одного ответа. Если время ответа больше этого значения (например, если вы отошли от компьютера), то записанным временем будет заданный максимум.
+deck-config-show-answer-timer-tooltip = Показывать на экране учёбы секундомер, который засекает, сколько времени уходит у вас на ответ.
 
 ## Audio section
 
-deck-config-audio-title = Аудио
-deck-config-disable-autoplay = Не включать аудио автоматически
+deck-config-audio-title = Звук
+deck-config-disable-autoplay = Не воспроизводить звук автоматически
 deck-config-skip-question-when-replaying = Пропускать вопрос при воспроизведении ответа
-deck-config-always-include-question-audio-tooltip = Стоит ли добавить аудио из карточки с вопросом при нажатии повторного просмотра карточки с ответом.
+deck-config-always-include-question-audio-tooltip = Будет ли озвучиваться вопрос, если включено повторное произведение при просмотре ответа
 
 ## Advanced section
 
-deck-config-advanced-title = Дополнительно
-deck-config-maximum-interval-tooltip = Наибольшее число дней до следующего показа повторяемых. По достижении этого лимита «Трудно», «Хорошо» и «Легко» будут давать одинаковую задержку. Чем меньше число, тем больше будет учебная нагрузка.
-deck-config-starting-ease-tooltip =
-    Множитель легкости, с которого начинаются новые карточки. По умолчанию, кнопка "Хорошо", выбранная на
-    недавно изученной карточке, отложит её проверку на время в 2,5 раза больше предыдущей задержки.
-deck-config-easy-bonus-tooltip =
-    Дополнительный множитель, который применяется к интервалу проверочной карточки при выборе¶
-    кнопка "Легко".
+deck-config-advanced-title = Дополнительные
+deck-config-maximum-interval-tooltip = Максимум дней до следующего показа повторяемых. По достижении этого лимита `Трудно`, `Хорошо` и `Легко` будут назначать одинаковые интервалы. Чем меньше число, тем больше будет ваша учебная нагрузка.
+deck-config-starting-ease-tooltip = Множитель лёгкости для новых карточек. По умолчанию `Хорошо` увеличивает интервал повторения в 2,5 раза.
+deck-config-easy-bonus-tooltip = Дополнительный множитель для интервала повторяемой карточки, когда вы нажимаете `Легко`.
 deck-config-interval-modifier-tooltip =
-    Этот множитель применяется ко всем проверочным карточкам; с помощью небольших изменений
-    планирование Anki станет менее или более жестким.  Пожалуйста, ознакомьтесь
-    с руководством до того, как менять эту опцию.
-deck-config-hard-interval-tooltip = Множитель применяется к интервалу проверки при нажатии кнопки "Трудно".
-deck-config-new-interval-tooltip = Множитель применяется к интервалу проверки при нажатии кнопки "Снова".
-deck-config-minimum-interval-tooltip = Минимальный интервал, применяемый к карточке проверки при нажатии кнопки "Снова".
-deck-config-custom-scheduling = Настройка планирования
+    Этот множитель применяется ко всем повторяемым карточкам. С его помощью планировщик Anki можно сделать менее или более агрессивным.
+    Ознакомьтесь с руководством до того, как изменять его.
+deck-config-hard-interval-tooltip = Множитель для интервала повторяемой карточки при нажатии `Трудно`.
+deck-config-new-interval-tooltip = Множитель для интервала повторяемой карточки при нажатии `Снова`.
+deck-config-minimum-interval-tooltip = Минимальный интервал для повторяемой карточки при нажатии `Снова`.
+deck-config-custom-scheduling = Особое планирование
 deck-config-custom-scheduling-tooltip = Влияет на всю коллекцию. Используйте на свой страх и риск!
 
 ## Adding/renaming
