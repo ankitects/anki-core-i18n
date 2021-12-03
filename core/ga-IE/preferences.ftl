@@ -37,4 +37,8 @@ preferences-you-can-restore-backups-via-fileswitch = Chun cóipeanna cúltaca a 
 preferences-legacy-timezone-handling = Seanchóras oibrithe na n-amchrios (lochtach, ach éigeantach do leaganacha AnkiDroid <= 2.14)
 preferences-default-search-text = Buntéacs cuardaigh
 preferences-default-search-text-example = m.s. 'desk:current'
+preferences-theme-label = Dathfhoireann: { $theme }
+preferences-theme-follow-system = Réir an Ghléis
+preferences-theme-light = Sorcha
+preferences-theme-dark = Dorcha
 preferences-v3-scheduler = Sceidealú LGN3
