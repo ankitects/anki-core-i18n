@@ -1,5 +1,5 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
-card-templates-blank = leer
+card-templates-blank = Punkt Punkt Punkt
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Unten vorgenommene Änderungen werden { $count } Notiz betreffen, die diesen Kartentyp verwenden.
@@ -33,7 +33,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki konnte die Trennlinie z
 card-templates-at-least-one-card-type-is = Mindestens ein Kartentyp muss vorhanden sein.
 card-templates-browser-appearance = Darstellung in der Kartenverwaltung…
 card-templates-card = Karte { $val }
-card-templates-card-types = Kartentypen
 card-templates-card-types-for = Kartentypen für { $val }
 card-templates-cloze = Lückentext { $val }
 card-templates-deck-override = Stapel überschreiben …
