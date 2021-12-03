@@ -13,31 +13,27 @@ deck-config-used-by-decks =
        *[other] { $decks } колодами
     }
 deck-config-default-name = По умолчанию
-deck-config-title = Настройки колоды
+deck-config-title = Параметры колоды
 
 ## Daily limits section
 
-deck-config-daily-limits = Ежедневный лимит
+deck-config-daily-limits = Дневные лимиты
 deck-config-new-limit-tooltip =
     Наибольшее число новых карточек в день, если они есть.
-    Так как новый материал увеличивает количество повторений в последующие дни, это число обычно в 10 раз меньше максимума повторений в день.
+    Так как новый материал увеличивает объём повторений в ближайшие дни, это число обычно должно быть в 10 раз меньше максимума повторений в день.
 deck-config-review-limit-tooltip = Наибольшее число повторяемых карточек в день, если они есть.
-deck-config-limit-deck-v3 =
-    При просмотре колоды с подколодами, лимиты каждой подколоды
-    устанавливают максимальное количество карточек, которые будут выбраны
-    из каждой отдельной подколоды. Лимиты самой колоды влияют на общее
-    количество показываемых карточек.
-deck-config-limit-new-bound-by-reviews = Максимальное число карточек проверки влияет на максимальное число новых карточек. Например, если лимит карточек проверки 200, а в очереди на проверку стоит 190 карточек, максимальное число новых карточек будет равно 10. Если лимит карточек проверки достигнут, новых карточек не появится.
+deck-config-limit-deck-v3 = При изучении колоды с подколодами, лимиты каждой подколоды устанавливают максимальное количество карточек, которые будут выбраны из этой подколоды. Лимиты самой колоды влияют на общее количество показываемых карточек.
+deck-config-limit-new-bound-by-reviews = Лимит повторяемых влияет на лимит новых. Например, если лимит повторений 200 и в очереди 190 повторяемых, то в очередь будет добавлено не более 10 новых. Если лимит повторений достигнут, то новые не будут показаны.
 deck-config-limit-interday-bound-by-reviews =
     Лимит повторяемых влияет на карточки, перенесённые на другой день. Когда применяется лимит,
     перенесённые отбираются первыми, затем повторяемые и, наконец, новые.
 
 ## New Cards section
 
-deck-config-learning-steps = Шаги при учёбе
+deck-config-learning-steps = Шаги изучаемых
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Отсрочки возможны в минутах или днях
-deck-config-learning-steps-tooltip = Одна и более отсрочки, отделенные пробелами. Первая отсрочка включится при выборе варианта "Снова" у новой карточки (1 минута по умолчанию). Выбор варианта "Хорошо" отсрочит следующий этап на 10 минут по умолчанию. После прохождения всех стадий, новая карточка станет карточкой просмотра и появится снова в другой день. { -deck-config-delay-hint }
+deck-config-learning-steps-tooltip = Один или более интервалов, разделённых пробелами. Первый будет назначен, когда вы нажмёте «Снова» на новой карточке (по умолчанию 1 минута). Нажатие «Хорошо» назначит карточке следующий интервал (по умолчанию 10 минут). Когда карточка пройдёт все шаги, она станет повторяемой и появится в другой день. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Количество дней до показа карточки, если на последнем шаге изучения была нажата кнопка «Хорошо».
 deck-config-easy-interval-tooltip = Количество дней до показа карточки, если она была сразу же убрана из изучаемых кнопкой «Легко».
 deck-config-new-insertion-order = Порядок добавления
@@ -78,19 +74,19 @@ deck-config-new-gather-priority-tooltip =
     карточки всегда идут в строком порядке очереди, даже если лимит
     материнской колоды слишком низкий, чтобы показать карточки из всех колод.
 deck-config-new-gather-priority-deck = Колода
-deck-config-new-gather-priority-position-lowest-first = Позиция (сначала самая нижняя)
-deck-config-new-gather-priority-position-highest-first = Позиция (сначала самая верхняя)
-deck-config-new-card-sort-order = Порядок сортировки новых карточек
-deck-config-new-card-sort-order-tooltip = Сортировка карточек после их сбора. По умолчанию, Anki сортирует¶ сначала по шаблону карточки, чтобы избежать последовательного отображения¶ нескольких карточек одной и той же заметки.
-deck-config-sort-order-card-template-then-lowest-position = Шаблон карточки, затем начало очереди
-deck-config-sort-order-card-template-then-highest-position = Шаблон карточки, затем конец очереди
-deck-config-sort-order-card-template-then-random = Шаблон карточки, затем произвольно
-deck-config-sort-order-lowest-position = Начало очереди
-deck-config-sort-order-highest-position = Конец очереди
-deck-config-sort-order-random = Произвольно
+deck-config-new-gather-priority-position-lowest-first = По возрастанию
+deck-config-new-gather-priority-position-highest-first = По убыванию
+deck-config-new-card-sort-order = Порядок сортировки новых
+deck-config-new-card-sort-order-tooltip = Сортировка карточки после отбора. По умолчанию Anki сначала сортирует карточки по шаблону, чтобы не показывать подряд несколько карточек из одной записи.
+deck-config-sort-order-card-template-then-lowest-position = По шаблону и по возрастанию
+deck-config-sort-order-card-template-then-highest-position = По шаблону и по убыванию
+deck-config-sort-order-card-template-then-random = По шаблону, потом случайно
+deck-config-sort-order-lowest-position = По возрастанию
+deck-config-sort-order-highest-position = По убыванию
+deck-config-sort-order-random = Случайно
 deck-config-sort-order-template-then-gather = Шаблон карточки, потом порядок отбора
 deck-config-sort-order-gather = Порядок отбора
-deck-config-new-review-priority = Приоритет новых/проверочных
+deck-config-new-review-priority = Порядок новых и повторяемых
 deck-config-new-review-priority-tooltip = Когда показывать новые карточки относительно повторяемых
 deck-config-interday-step-priority = Приоритет изучения/проверки в течение дня
 deck-config-interday-step-priority-tooltip = Когда показывать карточки (повторного) изучения, завершенные сразу после полуночи.

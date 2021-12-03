@@ -21,7 +21,7 @@ card-templates-night-mode = Темный режим
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = Как на мобильном
-card-templates-preview-settings = Настройки
+card-templates-preview-settings = Параметры
 card-templates-invalid-template-number = Проблема с шаблоном карточки { $number }
 card-templates-identical-front = Лицевая сторона идентична шаблону карточки { $number }.
 card-templates-no-front-field = Предполагается, что на лицевой стороне шаблона карточки будет отображена замена поля.
@@ -35,7 +35,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki не нашла стр�
 card-templates-at-least-one-card-type-is = Должен быть хотя бы один тип карточки.
 card-templates-browser-appearance = Вид списка карточек...
 card-templates-card = Карточка { $val }
-card-templates-card-types = Типы карточек
 card-templates-card-types-for = Типы карточек для { $val }
 card-templates-cloze = Задание с пропусками { $val }
 card-templates-deck-override = Подмена колоды...

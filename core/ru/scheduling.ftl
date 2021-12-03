@@ -151,8 +151,8 @@ scheduling-mix-new-cards-and-reviews = Перемешивать новые и п
 scheduling-new-cards = Новые карточки
 scheduling-new-cardsday = Новых карточек в день
 scheduling-new-interval = Новый интервал
-scheduling-new-options-group-name = Имя новой группы настроек:
-scheduling-options-group = Конфигурация
+scheduling-new-options-group-name = Название нового набора:
+scheduling-options-group = Набор настроек:
 scheduling-order = Порядок
 scheduling-parent-limit = (лимит материнской: { $val })
 scheduling-review = Повторение
@@ -170,7 +170,7 @@ scheduling-steps-in-minutes = Шаги (в минутах)
 scheduling-steps-must-be-numbers = Шаги указываются в виде чисел.
 scheduling-tag-only = Только пометить
 scheduling-the-default-configuration-cant-be-removed = Стандартные настройки не могут быть удалены.
-scheduling-your-changes-will-affect-multiple-decks = Изменения затронут несколько колод. Если вы хотите поменять только текущую колоду, пожалуйста, добавьте новую группу настроек.
+scheduling-your-changes-will-affect-multiple-decks = Изменения затронут несколько колод. Если вы хотите поменять только текущую колоду, пожалуйста, добавьте новый набор настроек.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } колода обновлена.

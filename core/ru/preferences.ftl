@@ -37,4 +37,8 @@ preferences-you-can-restore-backups-via-fileswitch = Вы можете восс�
 preferences-legacy-timezone-handling = Устаревшая обработка часовых поясов (с ошибками, но требуется для AnkiDroid <= 2.14)
 preferences-default-search-text = Текст поиска по умолчанию
 preferences-default-search-text-example = например, 'deck:current ' для выбора текущей колоды
+preferences-theme-label = Тема: { $theme }
+preferences-theme-follow-system = Как в системе
+preferences-theme-light = Светлая
+preferences-theme-dark = Тёмная
 preferences-v3-scheduler = Планировщик V3
