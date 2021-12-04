@@ -37,4 +37,8 @@ preferences-you-can-restore-backups-via-fileswitch = באפשרותך לשחזר
 preferences-legacy-timezone-handling = תאריך ושעה ידניים (פחות יציב, אך נדרש עבור AnkiDroid בגרסאות <= 2.14).
 preferences-default-search-text = טקסט או פקודת ברירת המחדל לחיפוש
 preferences-default-search-text-example = למשל: 'deck:current ' (להצגת חפיסה נוכחית)
+preferences-theme-label = ערכת נושא
+preferences-theme-follow-system = עקוב אחר מערכת
+preferences-theme-light = יום
+preferences-theme-dark = חושך
 preferences-v3-scheduler = מתזמן V3
