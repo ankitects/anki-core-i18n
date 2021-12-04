@@ -45,7 +45,7 @@ deck-config-new-insertion-order-random = Случайный
 
 ## Lapses section
 
-deck-config-relearning-steps = Шаги при переучивании
+deck-config-relearning-steps = Шаги переучиваемых
 deck-config-relearning-steps-tooltip = Ноль или более интервалов, разделённых пробелами. По умолчанию, когда вы нажмёте `Снова` на повторяемой карточке, она будет показана снова через 10 минут. Если интервалы не заданы, её срок изменится без перевода в переучиваемые. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = Количество нажатий `Снова`, после которого повторяемая карточка помечается как приставучая. Такие карточки тратят ваше время, и их стоит переделать, удалить или подкрепить мнемоническим правилом.
 # See actions-suspend-card and scheduling-tag-only for the wording
@@ -139,26 +139,22 @@ deck-config-clone-group = Клонировать предустановку
 ## Removing
 
 deck-config-remove-group = Удалить предустановку
-deck-config-will-require-full-sync =
-    Запрошенное изменение потребует односторонней синхронизации. Если изменения внесены
-    на другом устройстве и еще не были синхронизированы с данным устройством, синхронизация
-    необходима.
+deck-config-will-require-full-sync = Запрошенное изменение потребует односторонней синхронизации. Если изменения вы вносили изменения  на другом устройстве и не синхронизировали их с этим, сделайте это перед тем, как продолжать.
 deck-config-confirm-remove-name = Удалить { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Сохранить
-deck-config-save-to-all-subdecks = Сохранить во все внутренние колоды
-deck-config-revert-button-tooltip = Вернуть параметр к значению по умолчанию.
+deck-config-save-to-all-subdecks = Сохранить во все подколоды
+deck-config-revert-button-tooltip = Сбросить параметр
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Anki 2.1.41+ обработка
+deck-config-description-new-handling = Обработка, как в Anki 2.1.41+
 deck-config-description-new-handling-hint =
-    Воспринимает вводимую информацию как написанную на облегченном языке разметки markdown и стирает информацию, написанную в HTML. Когда данный параметр включен, ¶
-    его описание будет также выведено на экран с поздравлениями.¶
-    Markdown появится в виде текста в Anki 2.1.40 и более ранних версиях.
+    Считает ввод разметкой Markdown и очищает HTML-ввод. Если включена, описание также будет показано на экране с поздравлением.
+    Markdown будет показан как текст в Anki версий не выше 2.1.40.
 
 ## Warnings shown to the user
 
@@ -174,9 +170,9 @@ deck-config-reviews-too-low =
         [few] { $cards } новых карточек в день
        *[other] { $cards } новых карточек в день
     }, лимит повторяемых должен быть не менее { $expected }.
-deck-config-learning-step-above-graduating-interval = Интервал окончания должен как минимум равняться завершающему шагу обучения.
-deck-config-good-above-easy = Легкий интервал должен как минимум равняться интервалу окончания.
-deck-config-relearning-steps-above-minimum-interval = Минимальное время перерыва не должно быть короче заключительного шага в повторном изучении.
+deck-config-learning-step-above-graduating-interval = Интервал перевода не должен быть короче последнего шага изучаемых.
+deck-config-good-above-easy = Интервал лёгких не должен быть короче интервала перевода.
+deck-config-relearning-steps-above-minimum-interval = Минимальный интервал забытых не должен быть короче последнего шага переучиваемых.
 
 ## Selecting a deck
 
