@@ -30,6 +30,7 @@ editing-latex-math-env = LaTeX 數學環境
 editing-mathjax-block = MathJax 區塊
 editing-mathjax-chemistry = MathJax 化學方程式
 editing-mathjax-inline = 行內 MathJax
+editing-mathjax-placeholder = 按{ $accept }以接受，按{ $newline }以換行。
 editing-media = 媒體
 editing-ordered-list = 有序清單
 editing-outdent = 減少縮排

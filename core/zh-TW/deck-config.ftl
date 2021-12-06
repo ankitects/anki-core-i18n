@@ -98,10 +98,16 @@ deck-config-sort-order-card-template-then-random = 先按照卡片模板，然�
 deck-config-sort-order-lowest-position = 最低順序
 deck-config-sort-order-highest-position = 最高順序
 deck-config-sort-order-random = 隨機
+deck-config-sort-order-template-then-gather = 先按照卡片模板，然後按照收集排序
+deck-config-sort-order-gather = 收集排序
 deck-config-new-review-priority = 新卡片/複習卡優先順序
 deck-config-new-review-priority-tooltip = 新卡片在複習卡之前還是之後顯示。
 deck-config-interday-step-priority = 跨天學習/複習優先順序
-deck-config-interday-step-priority-tooltip = 當跨越天數學習時，正在（重新）學習的卡片顯示的順序。
+deck-config-interday-step-priority-tooltip =
+    當跨越天數學習時，正在（重新）學習的卡片顯示的順序。
+    
+    複習上限永遠優先套用於跨天學習卡片，然後才是複習卡。
+    此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
 deck-config-review-mix-mix-with-reviews = 與複習卡混合
 deck-config-review-mix-show-after-reviews = 在複習卡之後顯示
 deck-config-review-mix-show-before-reviews = 在複習卡之前顯示
@@ -115,6 +121,8 @@ deck-config-sort-order-due-date-then-deck = 先按照到期日期，然後按照
 deck-config-sort-order-deck-then-due-date = 先按照牌組，然後按照到期日期
 deck-config-sort-order-ascending-intervals = 間隔由小至大
 deck-config-sort-order-descending-intervals = 間隔由大至小
+deck-config-sort-order-ascending-ease = 輕鬆度遞增
+deck-config-sort-order-descending-ease = 輕鬆度遞減
 deck-config-display-order-will-use-current-deck =
     Anki 將採用你選取學習的牌組的顯示順序，
     任何子牌組的順序將被無視。
@@ -134,6 +142,7 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 不要自動播放音訊
+deck-config-skip-question-when-replaying = 重播答案時跳過問題
 deck-config-always-include-question-audio-tooltip = 當查看卡片答案面時執行了重播動作，要/不要包含問題音訊。
 
 ## Advanced section

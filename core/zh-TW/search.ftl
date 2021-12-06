@@ -30,8 +30,8 @@ search-invalid-answer-button = 「`{ $context }`」中的1-4之間應有回答�
 
 ## Column labels in browse screen
 
-search-note-modified = 已編輯
-search-card-modified = 已改變
+search-note-modified = 筆記修改日期
+search-card-modified = 卡片修改日期
 
 ##
 
