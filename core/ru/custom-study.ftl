@@ -21,6 +21,7 @@ custom-study-review-ahead = Просмотреть вперед (вне днев
 custom-study-review-ahead-by = Просмотреть вперед на
 custom-study-review-cards-forgotten-in-last = Пересмотреть карточки, забытые в прошлом
 custom-study-review-forgotten-cards = Повторить забытые карточки
+custom-study-reviews-due-in-deck-over-today = Повторяемых сверх лимита на сегодня: { $val }
 custom-study-select = Выбрать
 custom-study-select-tags-to-exclude = Выберите исключаемые метки:
 custom-study-selective-study = Выборочное обучение
