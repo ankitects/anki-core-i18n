@@ -5,6 +5,7 @@ actions-cancel = Cealaigh
 actions-choose = Roghnaigh
 actions-close = Dún
 actions-copy = Cóipeáil
+actions-create-copy = Déan Cóip
 actions-custom-study = Staidéar ar Leith
 actions-decks = Pacaí
 actions-delete = Scrios
@@ -33,7 +34,6 @@ actions-select = Roghnaigh
 actions-shortcut-key = Cnaipe aicearra: { $val }
 actions-suspend-card = Cuir Cárta ar Fionraí
 actions-set-due-date = Socraigh Dáta Staidéir
-actions-forget = Lig i nDearmad
 actions-answer-card = Freagair Cárta
 actions-unbury-unsuspend = Tarraing Amach/Bain as Fiontraí
 actions-add-deck = Cuir Paca leis
@@ -44,13 +44,15 @@ actions-update-card = Nuashonraigh Cárta
 actions-update-deck = Nuashonraigh Paca
 actions-forget-card = Lig Cárta i nDearmad
 actions-build-filtered-deck = Tiomsaigh Paca
-actions-expand-collapse = Fairsingigh/Leacaigh
 actions-add-notetype = Cuir Cineál Nótaí Leis
 actions-remove-notetype = Bain Cineál Nótaí
 actions-update-notetype = Nuashonraigh Cineál Nótaí
 actions-update-config = Nuashonraigh Cumraíocht
 actions-card-info = Sonraí Cárta
 actions-previous-card-info = Sonraí an Cárta Roimhe
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
