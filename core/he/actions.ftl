@@ -5,6 +5,7 @@ actions-cancel = ביטול
 actions-choose = בחר
 actions-close = סגירה
 actions-copy = העתק
+actions-create-copy = צור עותק
 actions-custom-study = לימוד מותאם
 actions-decks = חפיסות
 actions-delete = מחק
@@ -33,7 +34,6 @@ actions-select = בחירה
 actions-shortcut-key = מקש קיצור: { $val }
 actions-suspend-card = השהה כרטיס
 actions-set-due-date = הגדר תאריך יעד
-actions-forget = שכח
 actions-answer-card = ענה על כרטיס
 actions-unbury-unsuspend = הוצא מהטמנה/השהיה
 actions-add-deck = הוסף חפיסה
@@ -44,13 +44,15 @@ actions-update-card = עדכן כרטיס
 actions-update-deck = עדכן חפיסה
 actions-forget-card = שכח כרטיס
 actions-build-filtered-deck = בנה חפיסה
-actions-expand-collapse = הרחב/כווץ
 actions-add-notetype = הוסף סוג רשומה
 actions-remove-notetype = הסר סוג רשומה
 actions-update-notetype = עדכן סוג רשומה
 actions-update-config = עדכן הגדרה
 actions-card-info = מידע כרטיס
 actions-previous-card-info = מידע כרטיס קודם
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
