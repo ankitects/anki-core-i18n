@@ -5,6 +5,7 @@ actions-cancel = Abbrechen
 actions-choose = Auswählen
 actions-close = Schließen
 actions-copy = Kopieren
+actions-create-copy = Kopie erstellen
 actions-custom-study = Benutzerdefiniertes Lernen
 actions-decks = Stapelübersicht
 actions-delete = Löschen
@@ -33,7 +34,6 @@ actions-select = Auswählen
 actions-shortcut-key = Tastenkürzel: { $val }
 actions-suspend-card = Karte aussetzen
 actions-set-due-date = Fälligkeitsdatum auswählen
-actions-forget = &Vergessen
 actions-answer-card = Karte beantworten
 actions-unbury-unsuspend = Zurückstellen/Aussetzen aufheben
 actions-add-deck = Stapel hinzufügen
@@ -44,13 +44,15 @@ actions-update-card = Karte aktualisieren
 actions-update-deck = Stapel aktualisieren
 actions-forget-card = Karte vergessen
 actions-build-filtered-deck = Stapel zusammenstellen
-actions-expand-collapse = Aus-/Einklappen
 actions-add-notetype = Notiztyp hinzufügen
 actions-remove-notetype = Notiztyp entfernen
 actions-update-notetype = Notiztyp aktualisieren
 actions-update-config = Konfiguration aktualisieren
 actions-card-info = Karteninformation
 actions-previous-card-info = Vorherige Karte - Info
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 

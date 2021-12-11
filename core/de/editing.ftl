@@ -30,6 +30,7 @@ editing-latex-math-env = LaTeX-Mathematikumgebung
 editing-mathjax-block = Abgesetzes MathJax-Element
 editing-mathjax-chemistry = MathJax-Chemieformel
 editing-mathjax-inline = Inzeiliges MathJax-Element
+editing-mathjax-placeholder = Zum Akzeptieren { $accept } drücken, für eine neue Zeile { $newline } drücken
 editing-media = Medien
 editing-ordered-list = Geordnete Liste
 editing-outdent = Einrückung verringern
@@ -50,16 +51,3 @@ editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur ko
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = Fett ausgezeichneter Text (Strg+B)
-editing-italic-text-ctrlandi = Kursiv ausgezeichneter Text (Strg+I)
-editing-underline-text-ctrlandu = Text unterstreichen (Strg+U)
-editing-subscript-ctrland = Tiefgestellter Text (Strg+=)
-editing-superscript-ctrlandand = Hochgestellter Text (Strg++)
-editing-remove-formatting-ctrlandr = Formatierung entfernen (Strg+R)
-editing-record-audio-f5 = Audio aufnehmen (F5)
-editing-attach-picturesaudiovideo-f3 = Bilder/Audio/Video anfügen (F3)
-editing-cloze-deletion-ctrlandshiftandc = Lückentext (Strg+Umschalt+C)
-editing-change-colour-f8 = Farbe ändern (F8)
-editing-set-foreground-colour-f7 = Vordergrundfarbe festlegen (F7)
-editing-customize-card-templates-ctrlandl = Vorlagen für Karten anpassen (Strg+L)
-editing-set-foreground-color = Textfarbe setzen

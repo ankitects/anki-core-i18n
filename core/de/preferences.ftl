@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = Einige Einstellungen werden e
 preferences-synchronisation = <b>Synchronisierung</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synchronisierung</b><br> Im Moment nicht aktiviert; bitte im Hauptfenster den »Synchronisieren«-Knopf klicken, um sie zu aktivieren.
 preferences-synchronize-audio-and-images-too = Tonaufnahmen und Bilder ebenfalls synchronisieren
-preferences-this-will-reset-any-cards-in = Dieser Vorgang wird alle bereits im Lernmodus befindlichen Karten zurücksetzen, gefilterte Stapel löschen und die Version des Zeitplaners ändern. Möchten Sie fortfahren?
 preferences-timebox-time-limit = Zeitbegrenzung für Sitzungen
 preferences-user-interface-size = Schriftgröße der Benutzeroberfläche
 preferences-when-adding-default-to-current-deck = Beim Hinzufügen aktuellen Stapel als Standard festlegen
@@ -38,3 +37,8 @@ preferences-you-can-restore-backups-via-fileswitch = Sie können eine Sicherungs
 preferences-legacy-timezone-handling = Veralteter Umgang mit Zeitzonen (fehleranfällig, aber für AnkiDroid <= 2.14 vorausgesetzt)
 preferences-default-search-text = Standardmäßig eingestellter Suchtext
 preferences-default-search-text-example = z.B. 'deck:current'
+preferences-theme-label = Theme: { $theme }
+preferences-theme-follow-system = System befolgen
+preferences-theme-light = Hell
+preferences-theme-dark = Dunkel
+preferences-v3-scheduler = V3-Zeitplaner

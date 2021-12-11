@@ -98,6 +98,9 @@ scheduling-update-done = Zeitplaner erfolgreich geupdated.
 scheduling-update-button = Updaten
 scheduling-update-later-button = Später
 scheduling-update-more-info-button = Mehr lernen
+scheduling-update-required =
+    Ihre Sammlung muss an den V2-Zeitplaner angepasst werden.
+    Bitte vor dem Fortfahren { scheduling-update-more-info-button } auswählen.
 
 ## Other scheduling strings
 
@@ -108,7 +111,6 @@ scheduling-bury-related-new-cards-until-the = Verwandte neue Karten nicht am sel
 scheduling-bury-related-reviews-until-the-next = Verwandte Karten nicht am selben Tag wiederholen, sondern bis zum Folgetag zurückstellen
 scheduling-days = Tage
 scheduling-description = Beschreibung
-scheduling-description-to-show-on-overview-screen = Beschreibung für den aktuellen Stapel, die im Hauptmenü angezeigt wird:
 scheduling-easy-bonus = Leichtigkeitsbonus
 scheduling-easy-interval = Intervall für einfache Karten
 scheduling-end = (Ende)

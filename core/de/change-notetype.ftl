@@ -1,5 +1,8 @@
 change-notetype-current = Aktuell
 change-notetype-new = Neu
+change-notetype-nothing = (Nichts)
+change-notetype-collapse = Einklappen
+change-notetype-expand = Ausklappen
 change-notetype-will-discard-content = Der Inhalt in den folgenden Feldern wird verworfen:
 change-notetype-will-discard-cards = Die folgenden Karten werden entfernt:
 change-notetype-fields = Felder
