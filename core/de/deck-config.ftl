@@ -37,7 +37,7 @@ deck-config-learning-steps-tooltip =
     Der "Gut"-Knopf lässt die Karte voranschreiten. Die Verzögerung beträgt dann standardmäßig 10 Minuten.
     Wenn eine Karte alle Schritte durchlaufen hat, dann wird diese eine Wiederholkarte und wird an einem anderen Tag wieder erscheinen. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Die Anzahl an abzuwartenden Tagen, bevor eine Karte, die mit "Gut" in der finalen Lernstufe  bewertet wurde, wieder angezeigt wird.
-deck-config-easy-interval-tooltip = Die abzuwartende Anzahl an Karten, bevor eine Karte wieder angezeigt wird, nachdem der "Einfach"-Knopf benutzt wurde, um die Karten direkt aus dem Lernen herauszunehmen.
+deck-config-easy-interval-tooltip = Die Anzahl Tage, bis eine Karte wieder gezeigt wird, nachdem die `Einfach`-Taste benutzt wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
 deck-config-new-insertion-order-tooltip = Steuert die Position (fällig #), die neuen Karten zugewiesen wird, wenn Sie diese hinzufügen. Karten mit einer niedrigeren Fälligkeitsnummer werden beim Lernen  zuerst angezeigt. Wenn Sie diese Option ändern, dann werden alle bereits vorhandenen Positionen von neuen Karten aktualisiert.
 deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
@@ -153,7 +153,6 @@ deck-config-clone-group = Voreinstellung kopieren
 ## Removing
 
 deck-config-remove-group = Gruppe entfernen
-deck-config-confirm-normal = { $name } entfernen?
 deck-config-will-require-full-sync = Die angefragte Änderung wird ein vollständiges Hochladen der Datenbank bei der nächsten Synchronisation Ihrer Sammlung benötigen. Wenn Sie Wiederholungen oder andere Änderungen auf einem anderen Gerät haben, die hier noch nicht synchronisiert sind, dann werden diese verloren gehen.
 deck-config-confirm-remove-name = { $name } entfernen?
 
