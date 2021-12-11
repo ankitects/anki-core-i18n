@@ -5,6 +5,7 @@ actions-cancel = إلغاء
 actions-choose = اختيار
 actions-close = إغلاق
 actions-copy = نسخ
+actions-create-copy = إنشاء نسخة
 actions-custom-study = دراسة مخصصة
 actions-decks = رزم
 actions-delete = حذف
@@ -33,7 +34,6 @@ actions-select = تحديد
 actions-shortcut-key = اختصار: { $val }
 actions-suspend-card = تعليق البطاقة
 actions-set-due-date = ضبط تاريخ الاستحقاق
-actions-forget = نسيان
 actions-answer-card = الإجابة عن بطاقة
 actions-unbury-unsuspend = نكش/تفعيل
 actions-add-deck = إضافة رزمة
@@ -44,13 +44,15 @@ actions-update-card = تحديث بطاقة
 actions-update-deck = تحديث رزمة
 actions-forget-card = نسيان بطاقة
 actions-build-filtered-deck = بناء رزمة
-actions-expand-collapse = إسدال/طي
 actions-add-notetype = إضافة نوع ملحوظة
 actions-remove-notetype = حذف نوع ملحوظة
 actions-update-notetype = تحديث نوع ملحوظة
 actions-update-config = تحديث إعداد
 actions-card-info = معلومات البطاقة
 actions-previous-card-info = معلومات البطاقة السابقة
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
