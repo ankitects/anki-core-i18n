@@ -150,25 +150,25 @@ scheduling-bury-related-reviews-until-the-next = دفن المراجعات ذا�
 scheduling-days = أيام
 scheduling-description = وصف
 scheduling-easy-bonus = مكافأة البطاقات السهلة
-scheduling-easy-interval = الفاصل الزمني للبطاقات السهلة
+scheduling-easy-interval = فاصل البطاقات السهلة
 scheduling-end = (النهاية)
 scheduling-general = عام
-scheduling-graduating-interval = الفاصل الزمني بين آخر خطوة وأول مراجعة
-scheduling-hard-interval = الفاصل الزمني للبطاقات الصعبة
+scheduling-graduating-interval = فاصل التخرج
+scheduling-hard-interval = فاصل البطاقات الصعبة
 scheduling-ignore-answer-times-longer-than = تجاهل فترات الإجابة التي هي أطول من
-scheduling-interval-modifier = مضاعف الفاصل الزمني
+scheduling-interval-modifier = مضاعف الفاصل
 scheduling-lapses = سقطات
 scheduling-lapses2 = سقطات
 scheduling-learning = في طور التعلم
 scheduling-leech-action = تدبير البطاقات المستعصية
 scheduling-leech-threshold = عتبة البطاقات المستعصية
-scheduling-maximum-interval = الفاصل الزمني الأقصى
+scheduling-maximum-interval = الفاصل الأقصى
 scheduling-maximum-reviewsday = عدد المراجعات الأقصى في اليوم
-scheduling-minimum-interval = الفاصل الزمني الأصغر
+scheduling-minimum-interval = الفاصل الأصغر
 scheduling-mix-new-cards-and-reviews = خلط البطاقات الجديدة والمراجعات
 scheduling-new-cards = بطاقات جديدة
 scheduling-new-cardsday = عدد البطاقات الجديدة في اليوم
-scheduling-new-interval = الفاصل الزمني الجديد
+scheduling-new-interval = الفاصل الجديد
 scheduling-new-options-group-name = اسم مجموعة الخيارات الجديدة:
 scheduling-options-group = مجموعة الخيارات:
 scheduling-order = الترتيب

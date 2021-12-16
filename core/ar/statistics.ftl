@@ -99,8 +99,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } اليوم ({ $secs-per-card } ثانية/بطاقة)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds } ث
 statistics-today-title = اليوم
 statistics-today-again-count = عدد البطاقات المجابة بـ «مجددًا»:
 statistics-today-type-counts = تعلم: { $learnCount }، مراجعة: { $reviewCount }، تعلم مجددًا: { $relearnCount }، مفلتر: { $filteredCount }
@@ -184,8 +182,8 @@ statistics-cards-due =
        *[other] { $cards } بطاقة مستحقة
     }
 statistics-backlog-checkbox = المتراكمات
-statistics-intervals-title = الفواصل الزمنية للمراجعة
-statistics-intervals-subtitle = الفواصل الزمنية بين المراجعات
+statistics-intervals-title = فواصل المراجعة
+statistics-intervals-subtitle = الفواصل بين المراجعات
 statistics-intervals-day-range =
     { $cards ->
         [zero] { $cards } بطاقة بفاصل { $daysStart }-{ $daysEnd } يوم
@@ -234,7 +232,6 @@ statistics-days-studied = أيام الدراسة
 statistics-average-answer-time-label = معدل زمن الإجابة
 statistics-average = المعدل
 statistics-average-interval = معدل الفاصل الزمني
-statistics-longest-interval = الفاصل الزمني الأطول
 statistics-due-tomorrow = مستحقة غدًا
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } من { $total } ({ $percent }%)
