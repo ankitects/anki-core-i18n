@@ -20,7 +20,7 @@ card-templates-night-mode = Nachtmodus
 # on a mobile device.
 card-templates-add-mobile-class = CSS-Klasse für mobile Endgeräte hinzufügen
 card-templates-preview-settings = Optionen
-card-templates-invalid-template-number = Kartenvorlage { $number } hat ein Problem.
+card-templates-invalid-template-number = Kartenvorlage { $number } von Notiztyp "{ $notetype }" hat ein Problem.
 card-templates-identical-front = Die Vorderseite ist identisch mit der Kartenvorlage { $number }.
 card-templates-no-front-field = Es wurde erwartet, ein Feldersatz auf der Vorderseite der Kartenvorlage vorzufinden.
 card-templates-missing-cloze = Es wurde erwartet, '{ "{{" }cloze:Text{ "}}" }' oder Ähnliches auf der Vorder- und Rückseite der Kartenvorlage vorzufinden.
