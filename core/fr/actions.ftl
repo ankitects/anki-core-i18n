@@ -6,7 +6,7 @@ actions-choose = Choisir
 actions-close = Fermer
 actions-copy = Copier
 actions-create-copy = Créer une copie
-actions-custom-study = Révisions particulières
+actions-custom-study = Révisions personnalisées
 actions-decks = Paquets
 actions-delete = Supprimer
 actions-export = Exporter
@@ -15,7 +15,7 @@ actions-help = Aide
 actions-import = Importer
 actions-manage = Gérer...
 actions-name = Nom :
-actions-new = Nouvelle
+actions-new = Nouvelles
 actions-new-name = Nouveau nom :
 actions-options = Options
 actions-options-for = Options pour { $val }
@@ -49,6 +49,9 @@ actions-update-notetype = Modifier le type de note
 actions-update-config = Modifier la configuration
 actions-card-info = Info carte
 actions-previous-card-info = Informations de la carte précédente
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action } ...
 
 ## Flags
 

@@ -73,8 +73,6 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } aujourd'hui
     ({ $secs-per-card }s/carte)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }s
 statistics-today-title = Aujourd’hui
 statistics-today-again-count = Oublis :
 statistics-today-type-counts = Apprises : { $learnCount }, Revues : { $reviewCount }, Réapprises : { $relearnCount }, Filtrées : { $filteredCount }
@@ -82,12 +80,12 @@ statistics-today-no-cards = Aucune carte étudiée aujourd'hui.
 statistics-today-no-mature-cards = Aucune carte mature n'a été étudiée aujourd'hui.
 statistics-today-correct-mature = Réponses exactes sur les cartes matures : { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Nombre total de cartes
-statistics-counts-new-cards = Inédites
+statistics-counts-new-cards = Nouvelles
 statistics-counts-young-cards = Récentes
 statistics-counts-mature-cards = Mature
-statistics-counts-suspended-cards = Suspendu
+statistics-counts-suspended-cards = Suspendues
 statistics-counts-buried-cards = Enfoui
-statistics-counts-early-cards = Début
+statistics-counts-filtered-cards = Filtré
 statistics-counts-learning-cards = À repasser
 statistics-counts-relearning-cards = Réapprentissage
 statistics-counts-title = nombre de cartes
@@ -184,7 +182,6 @@ statistics-days-studied = Jours travaillés
 statistics-average-answer-time-label = Durée de réponse moyenne
 statistics-average = Moyenne
 statistics-average-interval = Intervalle moyen
-statistics-longest-interval = Intervalle le plus long
 statistics-due-tomorrow = Prévues pour demain
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } du { $total } ({ $percent }%)

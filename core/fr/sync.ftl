@@ -39,8 +39,9 @@ sync-password-label = Mot de passe :
 sync-account-required =
     <h1>Compte requis</h1>
     Vous devez posséder un compte pour pouvoir synchroniser votre collection. Merci de <a href="{ $link }">créer un compte</a> gratuitement, puis entrez les informations de connexion ci-dessous.
-sync-sanity-check-failed = Veuillez utiliser la fonction "vérifier la base de donnée" puis synchroniser. Si le problème persiste, forcer une synchronisation complète dans la fenêtre des préfèrences.
+sync-sanity-check-failed = Veuillez utiliser la fonction "Vérifier la base de données" puis synchroniser. Si le problème persiste, forcer une synchronisation complète dans la fenêtre des préférences.
 sync-clock-off = Impossible de synchroniser - Votre horloge n'est pas à la bonne heure.
+sync-upload-too-large = Votre fichier de collection est trop large pour être envoyer à AnkiWeb. Vous pouvez réduire sa¶ taille en retirant tous les paquets indésirables (optionnellement en les exportant en premier), et¶ ensuite en utilisant la fonction "Vérifier la base de données" pour réduire la taille du fichier. ({ $details })
 
 ## Buttons
 

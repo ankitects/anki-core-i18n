@@ -30,9 +30,11 @@ preferences-some-settings-will-take-effect-after = Certains réglages ne s’app
 preferences-synchronisation = <b>Synchronisation</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synchronisation</b><br> Désactivée pour le moment ; pour l’activer cliquez sur le bouton de synchronisation dans la fenêtre principale.
 preferences-synchronize-audio-and-images-too = Synchroniser l’audio et les images également
-preferences-this-will-reset-any-cards-in = Ceci réinitialisera toutes les cartes et cours d’apprentissage, supprimera les paquets filtrés et changera la version du planificateur. Voulez-vous continuer ?
 preferences-timebox-time-limit = Montrer la progression toutes les
 preferences-user-interface-size = Taille de l’interface
 preferences-when-adding-default-to-current-deck = Ajouter par défaut au paquet courant
 preferences-you-can-restore-backups-via-fileswitch = Vous pouvez restaurer les sauvegardes en passant par Fichier > Changer de compte.
 preferences-legacy-timezone-handling = Ancienne gestion des fuseaux horaires (bugué, mais nécessaire pour AnkiDroid <= 2.14)
+preferences-theme-light = Clair
+preferences-theme-dark = Sombre
+preferences-v3-scheduler = Planificateur V3

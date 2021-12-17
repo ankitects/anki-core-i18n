@@ -7,7 +7,7 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     utilisé par { $decks ->
-        [one] 1 paquet
+        [one] { $decks } paquet
        *[other] { $decks } paquets
     }
 deck-config-default-name = Par défaut
