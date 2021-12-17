@@ -7,3 +7,5 @@ adding-note-deleted = (Note effacée)
 adding-shortcut = Raccourci : { $val }
 adding-the-first-field-is-empty = Le premier champ est vide
 adding-you-have-a-cloze-deletion-note = Le type de carte est « Texte à trous » mais vous n’avez pas choisi de mot à cacher. Continuer quand même ?
+adding-cloze-outside-cloze-notetype = Vous pouvez cacher des mots qu'avec le type de carte "texte à trous".
+adding-cloze-outside-cloze-field = Vous pouvez cacher des mots uniquement dans un champs qui utilise le filtre 'cloze:'. C'est généralement le premier champ.

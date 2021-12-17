@@ -32,11 +32,12 @@ deck-config-limit-new-bound-by-reviews =
     fixée à 200, et que vous avez 190 révisions en attente, un maximum de 10 nouvelles cartes seront
     introduites. Si la limite de révision est atteinte, aucune nouvelle carte ne sera
     montrée.
+deck-config-limit-interday-bound-by-reviews = La limite de révision journalière affecte aussi les cartes en apprentissage interjournalières. Quand la limite est appliquée, ¶ cartes en apprentissages interjournalières sont collectées en première, ensuite celles à réviser, et finalement les nouvelles cartes.
 
 ## New Cards section
 
 deck-config-learning-steps = Étapes d'apprentissage
-# Please don't translate `5m` or `2d`
+# Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Les délais peuvent être en minutes (ex `5m`), ou en jours (ex `2d`).
 deck-config-learning-steps-tooltip =
     Un ou plusieurs délais, séparés par des espaces. Le premier délai sera utilisé
@@ -91,4 +92,7 @@ deck-config-relearning-steps = Étapes de ré-apprentissages
 
 
 ## Warnings shown to the user
+
+
+## Selecting a deck
 

@@ -1,11 +1,10 @@
 browsing-add-notes = Ajouter des notes...
-browsing-add-tags = Ajouter des tags
 browsing-add-tags2 = Ajouter des tags...
+browsing-add-to-selected-notes = Ajouter aux Notes Sélectionnées
+browsing-remove-from-selected-notes = Supprimer des Notes Sélectionnées
 browsing-addon = Greffon
-browsing-all-card-types = Toutes les sortes de cartes
 browsing-all-fields = Tous les champs
 browsing-answer = Réponse
-browsing-any-cards-mapped-to-nothing-will = Toute carte qui n’est reliée à rien sera supprimée. Si une note n’a plus de cartes restantes, elle sera perdue. Procéder tout de même ?
 browsing-any-flag = Tous les marqueurs
 browsing-average-ease = Facilité Moy.
 browsing-average-interval = Interval Moy.
@@ -16,7 +15,6 @@ browsing-card = Carte
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C
 browsing-card-list = Liste des cartes
-browsing-card-state = État de la carte
 browsing-cards-cant-be-manually-moved-into = Les cartes ne peuvent être déplacées manuellement dans un paquet filtré.
 browsing-cards-deleted =
     { $count ->
@@ -28,19 +26,14 @@ browsing-change-deck2 = Changer de paquet...
 browsing-change-note-type = Modifier le type de note
 browsing-change-note-type2 = Modifier le type de la note...
 browsing-change-notetype = Modifier le type de note
-browsing-change-to = Transformer { $val } en :
-browsing-clear-unused = Supprimer les inutilisés
 browsing-clear-unused-tags = Supprimer les tags inutilisés
 browsing-confirm-saved-search-overwrite = Une recherche enregistrée avec le nom { $name } existe déjà. Voulez-vous la remplacer ?
 browsing-created = Créée
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Paquet actuel
 browsing-current-note-type = Type de note actuel
 browsing-delete-notes = Supprimer les notes
-browsing-delete-tags = Supprimer les tags
 browsing-duplicate = doublon
 browsing-ease = Facilité
-browsing-end = Fin
 browsing-enter-tags-to-add = Saisir le(s) tag(s) à ajouter :
 browsing-enter-tags-to-delete = Supprimer via les tags :
 browsing-filtered = (filtrée)
@@ -52,7 +45,6 @@ browsing-flag = Marquer
 browsing-font = <b>Police</b> :
 browsing-font-size = <b>Taille de la police</b> :
 browsing-found-as-across-bs = { $part } doublons parmi { $whole }.
-browsing-home = Accueil
 browsing-ignore-case = Ignorer la casse
 browsing-in = <b>dans</b> :
 browsing-interval = Intervalle
@@ -62,23 +54,18 @@ browsing-line-size = <b>Longueur de ligne</b> :
 browsing-manage-note-types = Gérer les types de notes...
 browsing-move-cards = Déplacer les cartes
 browsing-move-cards-to-deck = Déplacer les cartes dans le paquet :
-browsing-nd-names = { $num } : { $name }
-browsing-new = (inédite)
+browsing-new = (nouvelle)
 browsing-new-note-type = Nouveau type de note :
 browsing-no-flag = Aucun marqueur
 browsing-no-selection = Aucune carte ou note sélectionnée.
 browsing-note = Note
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-notes-tagged = Tags ajoutés.
-browsing-nothing = Rien
-browsing-only-new-cards-can-be-repositioned = Seules les nouvelles cartes peuvent être repositionnées.
 browsing-optional-filter = Filtre optionnel :
 browsing-override-back-template = Remplacer le modèle verso
 browsing-override-font = Remplacer la police
 browsing-override-front-template = Remplacer le modèle recto
 browsing-please-give-your-filter-a-name = S.v.p. donnez un nom à votre filtre :
-browsing-please-select-cards-from-only-one = Veuillez ne sélectionner que des cartes qui ont un même type de note.
 browsing-preview-selected-card = Prévisualiser les cartes sélectionnées ({ $val })
 browsing-question = Question
 browsing-queue-bottom = Fin de la file d’attente : { $val }
@@ -92,6 +79,7 @@ browsing-reschedule = Replanifier
 browsing-search-bar-hint = Rechercher des cartes/notes (tapez du texte, puis pressez Entrée)
 browsing-search-in = Rechercher dans :
 browsing-search-within-formatting-slow = Rechercher avec le formatage (lent)
+browsing-selected-notes-only = Uniquement les notes sélectionnées
 browsing-shift-position-of-existing-cards = Changer la position de cartes existantes
 browsing-sidebar = Barre latérale
 browsing-sidebar-filter = Filtre de la barre latérale
@@ -121,11 +109,6 @@ browsing-note-count =
         [one] { $count } note
        *[other] { $count } notes
     }
-browsing-note-deleted =
-    { $count ->
-        [one] { $count } note a été supprimée.
-       *[other] { $count } notes ont été supprimées.
-    }
 browsing-notes-updated =
     { $count ->
         [one] { $count } note mise à jour.
@@ -149,6 +132,8 @@ browsing-sidebar-save-current-search = Enregistrer la recherche actuelle
 browsing-sidebar-card-state = État de la carte
 browsing-sidebar-flags = Marqueurs
 browsing-today = Aujourd’hui
+browsing-tooltip-card-modified = La dernière fois que des changements ont été effectués sur une carte, révisions, marqueurs et modifications de paquets inclus
+browsing-tooltip-cards = Le nombre de carte qu'une note possède
 browsing-studied-today = Étudiées aujourd’hui
 browsing-added-today = Ajouté aujourd’hui
 browsing-again-today = À nouveau aujourd’hui
@@ -174,3 +159,6 @@ browsing-reparented-decks =
         [one] { $count } paquet renommé.
        *[other] { $count } paquets renommés.
     }
+
+## obsolete; no need to translate
+
