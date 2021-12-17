@@ -6,9 +6,13 @@ studying-buried-siblings = Enfouir les cartes connexes
 studying-bury = Enfouir
 studying-bury-card = Enfouir la carte
 studying-bury-note = Enfouir la note
-studying-card-buried = Carte enfouie.
-studying-card-suspended = Carte exclue.
+studying-card-suspended = Carte suspendue.
 studying-card-was-a-leech = Cette carte est pénible.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } carte enfouie.
+       *[other] { $count } cartes enfouies.
+    }
 studying-cards-will-be-automatically-returned-to = Les cartes reviendront à leurs paquets d’origine après révision.
 studying-continue = Continuer
 studying-delete-note = Supprimer la note
@@ -25,7 +29,6 @@ studying-manually-buried-cards = Cartes enfouies manuellement
 studying-mark-note = Marquer la note
 studying-more = Autres choix
 studying-no-cards-are-due-yet = Aucune carte n’est arrivée à échéance pour le moment.
-studying-note-buried = Note enterrée.
 studying-note-suspended = Note suspendue.
 studying-pause-audio = Pause audio
 studying-please-run-toolsempty-cards = Merci d’utiliser le menu Outils > Cartes vides
@@ -51,9 +54,4 @@ studying-minute =
     { $count ->
         [one] { $count } minute.
        *[other] { $count } minutes.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] La note et sa carte { $count } ont été supprimées.
-       *[other] La note et ses cartes { $count } ont été supprimées.
     }
