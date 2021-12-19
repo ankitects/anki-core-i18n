@@ -172,6 +172,6 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] { $card } Karte vergessen.
+        [one] { $cards } Karte vergessen.
        *[other] { $cards } Karten vergessen.
     }
