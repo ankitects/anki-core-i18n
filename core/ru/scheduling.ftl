@@ -195,7 +195,7 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] Забытая { $card } карточка.
-        [few] Забытые { $card } карточки.
-       *[other] Забытые { $card } карточки.
+        [one] Забытая { $cards } карточка.
+        [few] Забытые { $cards } карточки.
+       *[other] Забытые { $cards } карточки.
     }

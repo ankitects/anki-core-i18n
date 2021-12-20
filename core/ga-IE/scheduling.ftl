@@ -204,9 +204,9 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] Ligtear { $card } chárta amháin i ndearmad.
-        [two] Ligtear { $card } chárta i ndearmad.
-        [few] Ligtear { $card } chárta i ndearmad.
-        [many] Ligtear { $card } gcárta i ndearmad.
-       *[other] Ligtear { $card } cárta i ndearmad.
+        [one] Ligtear { $cards } chárta amháin i ndearmad.
+        [two] Ligtear { $cards } chárta i ndearmad.
+        [few] Ligtear { $cards } chárta i ndearmad.
+        [many] Ligtear { $cards } gcárta i ndearmad.
+       *[other] Ligtear { $cards } cárta i ndearmad.
     }

@@ -222,10 +222,10 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [zero] نسيان { $card } بطاقة.
+        [zero] نسيان { $cards } بطاقة.
         [one] نسيان بطاقة واحدة.
         [two] نسيان بطاقتين.
-        [few] نسيان { $card } بطاقات.
-        [many] نسيان { $card } بطاقة.
-       *[other] نسيان { $card } بطاقة.
+        [few] نسيان { $cards } بطاقات.
+        [many] نسيان { $cards } بطاقة.
+       *[other] نسيان { $cards } بطاقة.
     }
