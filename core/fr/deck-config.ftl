@@ -88,10 +88,21 @@ deck-config-sort-order-highest-position = Ordre décroissant
 deck-config-sort-order-random = Aléatoirement
 deck-config-sort-order-template-then-gather = Modèle de carte, puis dans l'ordre de la collecte
 deck-config-sort-order-gather = Dans l'ordre collectée
+deck-config-new-review-priority = Ordre nouvelle/à réviser
+deck-config-review-mix-mix-with-reviews = Mélanger avec les cartes à réviser
+deck-config-review-mix-show-after-reviews = Afficher après les cartes à réviser
+deck-config-review-mix-show-before-reviews = Afficher avant les cartes à réviser
+deck-config-review-sort-order = Ordre de classement des cartes à réviser
+deck-config-sort-order-due-date-then-random = Date d'échéance, puis aléatoirement
+deck-config-sort-order-due-date-then-deck = Date d'échéance, puis dans l'ordre du paquet
+deck-config-sort-order-deck-then-due-date = Dans l'ordre du paquet, puis par date d'échéance
 deck-config-sort-order-ascending-intervals = Intervalles croissants
 deck-config-sort-order-descending-intervals = Intervalles décroissants
 deck-config-sort-order-ascending-ease = Facilité croissante
 deck-config-sort-order-descending-ease = Facilité décroissante
+deck-config-display-order-will-use-current-deck =
+    Anki va utiliser l'ordre d'affichage du paquet que vous¶
+    avez sélectionné pour étudier, et non ceux des sous-paquets qu'il peut avoir.
 
 ## Timer section
 
@@ -101,6 +112,7 @@ deck-config-maximum-answer-secs = Temps de réponse maximum
 ## Audio section
 
 deck-config-audio-title = Audio
+deck-config-disable-autoplay = Ne pas lire les fichiers audio automatiquement
 
 ## Advanced section
 

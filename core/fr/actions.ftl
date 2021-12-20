@@ -24,6 +24,7 @@ actions-rebuild = Reconstruire
 actions-rename = Renommer
 actions-rename-deck = Renommer le paquet
 actions-rename-tag = Renommer le tag
+actions-rename-with-parents = Renommer avec les parents
 actions-remove-tag = Enlever le tag
 actions-replay-audio = Rejouer le son
 actions-reposition = Repositionner
