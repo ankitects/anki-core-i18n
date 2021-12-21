@@ -5,6 +5,7 @@ actions-cancel = Отменить
 actions-choose = Выбрать
 actions-close = Закрыть
 actions-copy = Копировать
+actions-create-copy = Сделать копию
 actions-custom-study = Учить ещё
 actions-decks = Колоды
 actions-delete = Удалить
@@ -49,6 +50,9 @@ actions-update-notetype = Обновить тип записи
 actions-update-config = Обновить конфигурацию
 actions-card-info = Сведения о карточке
 actions-previous-card-info = Сведения о предыдущей
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }
 
 ## Flags
 
