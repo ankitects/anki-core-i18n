@@ -1,3 +1,4 @@
+editing-actual-size = Přepnout skutečnou velikost
 editing-add-media = Přidat média
 editing-align-left = Zarovnat vlevo
 editing-align-right = Zarovnat vpravo
@@ -15,6 +16,9 @@ editing-cut = Vyjmout
 editing-edit-current = Upravit tuto kartu
 editing-edit-html = Upravit HTML
 editing-fields = Pole
+editing-float-left = Obtékání zprava
+editing-float-right = Obtékání zleva
+editing-float-none = Bez obtékání
 editing-html-editor = HTML editor
 editing-indent = Zvětšit odsazení
 editing-italic-text = Kurzíva
@@ -23,6 +27,7 @@ editing-justify = Do bloku
 editing-latex = LaTeX
 editing-latex-equation = Rovnice v LaTeXu
 editing-latex-math-env = Matem. proměnná LaTeXu
+editing-mathjax-placeholder = Stiskněte { $accept } pro potvrzení, { $newline } pro nový řádek.
 editing-media = Média
 editing-ordered-list = Číslovaný seznam
 editing-outdent = Zmenšit odsazení
@@ -43,16 +48,3 @@ editing-warning-cloze-deletions-will-not-work = Pozor, doplňovačky nebudou fun
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = Tučný text (Ctrl+B)
-editing-italic-text-ctrlandi = Kurzíva (Ctrl+I)
-editing-underline-text-ctrlandu = Podtržený text (Ctrl+U)
-editing-subscript-ctrland = Dolní index (Ctrl+=)
-editing-superscript-ctrlandand = Horní index (Ctrl++)
-editing-remove-formatting-ctrlandr = Odstranit formátování (Ctrl+R)
-editing-record-audio-f5 = Nahrát zvuk (F5)
-editing-attach-picturesaudiovideo-f3 = Připojit obrázky/zvuk/video (F3)
-editing-cloze-deletion-ctrlandshiftandc = Doplňovačka (Ctrl+Shift+C)
-editing-change-colour-f8 = Změnit barvu (F8)
-editing-set-foreground-colour-f7 = Nastavit barvu popředí (F7)
-editing-customize-card-templates-ctrlandl = Přizpůsobit šablony karet (Ctrl+L)
-editing-set-foreground-color = Nastavit barvu popředí

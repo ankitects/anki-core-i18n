@@ -115,6 +115,9 @@ scheduling-update-done = Plánovač úspěšně aktualizován.
 scheduling-update-button = Aktualizovat
 scheduling-update-later-button = Později
 scheduling-update-more-info-button = Dozvědět se více
+scheduling-update-required =
+    Vaše kolekce se musí povýšit na V2 plánovač.
+    Než budete pokračovat, prosím vyberte { scheduling-update-more-info-button }.
 
 ## Other scheduling strings
 
@@ -125,7 +128,6 @@ scheduling-bury-related-new-cards-until-the = Přeskočit příbuzné nové kart
 scheduling-bury-related-reviews-until-the-next = Přeskočit příbuzná opakování do příštího dne
 scheduling-days = dny/dní
 scheduling-description = Popisek
-scheduling-description-to-show-on-overview-screen = Popisek, který se zobrazí na obrazovce přehledu; pro současný balík:
 scheduling-easy-bonus = Bonus pro snadné
 scheduling-easy-interval = Interval pro snadné
 scheduling-end = (konec)

@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = Některá nastavení se proje
 preferences-synchronisation = <b>Synchronizace</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synchronizace</b><br> Neni momentálně povolena; pro zapnutí kliknětě na tlačítko „Synchronizace“ v hlavním okně.
 preferences-synchronize-audio-and-images-too = Synchronizovat i obrázky a zvuky
-preferences-this-will-reset-any-cards-in = To obnoví všechny karty v procesu učení, vyprázdní filtrované balíky a změní verzi plánovače. Pokračovat?
 preferences-timebox-time-limit = Limit pro časový box
 preferences-user-interface-size = Velikost uživatelského rozhraní
 preferences-when-adding-default-to-current-deck = Při přidávání standardně nastaven aktuální balík
@@ -38,3 +37,8 @@ preferences-you-can-restore-backups-via-fileswitch = Můžete obnovit ze zálohy
 preferences-legacy-timezone-handling = Zastaralé zpracování časového pásma (zabugované, ale požadováno pro AnkiDroid <= 2.14)
 preferences-default-search-text = Výchozí text vyhledání
 preferences-default-search-text-example = např. „deck:current“
+preferences-theme-label = Vzhled: { $theme }
+preferences-theme-follow-system = Podle systému
+preferences-theme-light = Světlý
+preferences-theme-dark = Tmavý
+preferences-v3-scheduler = V3 plánovač

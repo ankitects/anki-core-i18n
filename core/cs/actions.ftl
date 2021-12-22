@@ -5,6 +5,7 @@ actions-cancel = Zrušit
 actions-choose = Zvolit
 actions-close = Zavřít
 actions-copy = Kopírovat
+actions-create-copy = Vytvořit kopii
 actions-custom-study = Vlastní studium
 actions-decks = Balíky
 actions-delete = Smazat
@@ -33,7 +34,6 @@ actions-select = Vybrat
 actions-shortcut-key = Zkratka: { $val }
 actions-suspend-card = Vyřadit kartu
 actions-set-due-date = Nastavit datum zkoušení
-actions-forget = Zapomenout
 actions-answer-card = Zodpovědět kartu
 actions-unbury-unsuspend = Zrušit přeskočení/vyřazení
 actions-add-deck = Přidat balík
@@ -44,13 +44,15 @@ actions-update-card = Aktualizovat kartu
 actions-update-deck = Aktualizovat balík
 actions-forget-card = Zapomenout kartu
 actions-build-filtered-deck = Sestavit balík
-actions-expand-collapse = Rozbalit/sbalit
 actions-add-notetype = Přidat typ poznámky
 actions-remove-notetype = Odstranit typ poznámky
 actions-update-notetype = Aktualizovat typ poznámky
 actions-update-config = Aktualizovat nastavení
 actions-card-info = Informace o kartě
 actions-previous-card-info = Informace o předchozí kartě
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
