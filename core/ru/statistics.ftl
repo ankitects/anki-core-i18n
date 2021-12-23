@@ -83,8 +83,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card } с/карточка)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }с
 statistics-today-title = Сегодня
 statistics-today-again-count = Возвратов:
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
@@ -96,7 +94,7 @@ statistics-counts-new-cards = Новые
 statistics-counts-young-cards = Свежие
 statistics-counts-mature-cards = Закреплённые
 statistics-counts-suspended-cards = Исключённые
-statistics-counts-buried-cards = Отложены
+statistics-counts-buried-cards = Отложенные
 statistics-counts-filtered-cards = Отфильтрованные
 statistics-counts-learning-cards = Изучаемые
 statistics-counts-relearning-cards = Переучиваемые
@@ -108,7 +106,7 @@ statistics-range-all-history = вся история
 statistics-range-deck = пакет
 statistics-range-collection = коллекция
 statistics-range-search = Поиск
-statistics-card-ease-title = Лёгкость карточки
+statistics-card-ease-title = Лёгкость карточек
 statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карта.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -119,8 +117,8 @@ statistics-card-ease-tooltip =
        *[other] { $cards } карт с { $percent } легкости
     }
 statistics-future-due-title = Прогноз
-statistics-future-due-subtitle = Число повторений, запланированных на будущее.
-statistics-added-title = Добавлено
+statistics-future-due-subtitle = Число повторяемых в последующие дни.
+statistics-added-title = Добавленные
 statistics-added-subtitle = Количество новых карт, которые вы добавили.
 statistics-reviews-count-subtitle = Количество вопросов, на которые вы ответили.
 statistics-reviews-time-subtitle = Время, затраченное на ответы
@@ -129,7 +127,7 @@ statistics-answer-buttons-title = Кнопки ответа
 statistics-answer-buttons-button-number = Кнопка
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Раз нажато
-statistics-answer-buttons-subtitle = Сколько раз Вы нажали каждую кнопку.
+statistics-answer-buttons-subtitle = Сколько раз вы нажали каждую кнопку.
 statistics-reviews-title = Повторение
 statistics-reviews-time-checkbox = Время
 statistics-in-days-single =
@@ -151,7 +149,7 @@ statistics-days-ago-single =
        *[other] { $days } дней назад
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } дней назад
-statistics-running-total = Пройдено всего
+statistics-running-total = Промежуточная сумма
 statistics-cards-due =
     { $cards ->
         [one] { $cards } карта за
@@ -180,7 +178,7 @@ statistics-intervals-day-single =
 statistics-hours-range = С { $hourStart }:00 до { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } верных ({ $percent }%)
 statistics-hours-title = По часам
-statistics-hours-subtitle = Доля удачных просмотров в определенный час
+statistics-hours-subtitle = Доля удачных повторений в определенный час
 # shown when graph is empty
 statistics-no-data = Нет данных
 statistics-calendar-title = Календарь
@@ -206,7 +204,6 @@ statistics-days-studied = Дней учёбы
 statistics-average-answer-time-label = Среднее время ответа
 statistics-average = В среднем
 statistics-average-interval = Средний интервал
-statistics-longest-interval = Самый длинный интервал
 statistics-due-tomorrow = На завтра
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } из { $total } ({ $percent }%)
