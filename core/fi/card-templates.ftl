@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = tyhjä
 card-templates-card-type = Korttityyppi:
 card-templates-front-template = Etupuolen malline
 card-templates-back-template = Kääntöpuolen malline
@@ -11,7 +13,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki ei löytänyt kysymykse
 card-templates-at-least-one-card-type-is = Vähintään yksi korttityyppi on annettava.
 card-templates-browser-appearance = Selaimen ulkoasu...
 card-templates-card = Kortti { $val }
-card-templates-card-types = Korttityypit
 card-templates-card-types-for = Korttityypit kohteessa { $val }
 card-templates-cloze = Aukkotehtävä
 card-templates-delete-the-as-card-type-and = Poistetaanko '{ $template }'-korttityyppi ja sen { $cards }?

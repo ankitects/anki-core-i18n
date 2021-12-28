@@ -1,14 +1,23 @@
+## Default field names in newly created note types
+
 notetypes-front-field = Etupuoli
 notetypes-back-field = Kääntöpuoli
-notetypes-add-reverse-field = Lisää kääntöpuoli
+notetypes-add-reverse-field = Lisää käänteinen
 notetypes-text-field = Teksti
-notetypes-basic-name = Perusasetukset
-notetypes-basic-reversed-name = Perusmalli (ja käännetty kortti)
-notetypes-basic-optional-reversed-name = Perusmalli (valinnainen käännetty kortti)
+notetypes-back-extra-field = Kääntöpuolen lisäteksti
+
+## Default note type names
+
+notetypes-basic-name = Perusmalli
+notetypes-basic-reversed-name = Perusmalli (ja käänteinen kortti)
+notetypes-basic-optional-reversed-name = Perusmalli (valinnainen käänteinen kortti)
+notetypes-basic-type-answer-name = Perusmalli (kirjoita vastaus)
 notetypes-cloze-name = Aukkotehtävä
-notetypes-basic-type-answer-name = Perus (kirjoita vastaus)
-notetypes-card-2-name = Kortti 2
+
+## Default card template names
+
 notetypes-card-1-name = Kortti 1
+notetypes-card-2-name = Kortti 2
 notetypes-add = Lisää: { $val }
 notetypes-add-note-type = Lisää muistiinpanotyyppi
 notetypes-cards = Kortit...
