@@ -21,4 +21,8 @@ card-stats-review-log-type-learn = Opitut
 card-stats-review-log-type-review = Kertaus
 card-stats-review-log-type-relearn = Uudelleenopitut
 card-stats-review-log-type-filtered = Suodatettu
-card-stats-review-log-type-rescheduled = Uudelleenajastus
+
+## Window Titles
+
+card-stats-current-card = Nykyinen kortti ({ $context })
+card-stats-previous-card = Edellinen kortti ({ $context })
