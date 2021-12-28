@@ -25,4 +25,5 @@ preferences-synchronisation = <b>Synkronointi</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synkronointi</b><br> Synkronointi ei ole päällä. Klikkaa Synkronoi-painiketta pääikkunassa laittaaksesi sen päälle.
 preferences-synchronize-audio-and-images-too = Synkronoi myös äänitiedostot ja kuvat
 preferences-timebox-time-limit = Määritetyn ajan yläraja
+preferences-user-interface-size = Käyttöliittymän koko
 preferences-when-adding-default-to-current-deck = Kun lisätään, on oletuksena nykyinen pakka
