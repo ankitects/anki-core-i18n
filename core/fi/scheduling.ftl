@@ -48,6 +48,30 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    Seuraava kortti on valmis opiskeltavaksi { $unit ->
+        [seconds]
+            { $amount ->
+                [one] { $amount } sekunnin
+               *[other] { $amount } sekunnin
+            }
+        [minutes]
+            { $amount ->
+                [one] { $amount } minuutin
+               *[other] { $amount } minuutin
+            }
+       *[hours]
+            { $amount ->
+                [one] { $amount } tunnin
+               *[other] { $amount } tunnin
+            }
+    } kuluttua.
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Jäljellä on vielä yksi kortti, joka erääntyy myöhemmin tänään.
+       *[other] Jäljellä on vielä { $remaining } korttia, jotka erääntyvät myöhemmin tänään.
+    }
 scheduling-congratulations-finished = Onneksi olkoon! Olet käynyt tämän pakan kertaukset läpi toistaiseksi.
 scheduling-today-review-limit-reached =
     Tämän päivän kertausyläraja on tullut vastaan, mutta jonossa on</ br>
@@ -58,9 +82,25 @@ scheduling-today-new-limit-reached =
     vastaan. Voit kasvattaa ylärajaa valinnoissa, mutta pidä mielessä</ br>
     että mitä enemmän uusia kortteja alat opiskella sitä suuremmaksi</ br>
     lyhyen aikavälin kertauskuormasi tulee.
+scheduling-buried-cards-found = Yksi tai useampi kortti piilotettiin, ja ne näytetään huomenna. Voit { $unburyThem }, jos haluat nähdä ne heti.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = poistaa niiden piilotuksen
+scheduling-how-to-custom-study = Jos haluat opiskella normaalin aikataulun ulkopuolella, voit käyttää { $customStudy } -toimintoa.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = mukautettu opiskelu
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1:n mukana tulee uusi aikataulutusohjelma, joka korjaa useita ongelmia, joita aiemmissa Anki-versioissa oli. Siihen päivittäminen on suositeltavaa.
+scheduling-update-done = Aikataulutusohjelman päivitys onnistui.
+scheduling-update-button = Päivitä
+scheduling-update-later-button = Myöhemmin
+scheduling-update-more-info-button = Lisätietoja
+scheduling-update-required =
+    Kokoelmasi on päivitettävä käyttämään V2-aikataulutusohjelmaa.
+    Valitse { scheduling-update-more-info-button } ennen kuin jatkat.
 
 ## Other scheduling strings
 
