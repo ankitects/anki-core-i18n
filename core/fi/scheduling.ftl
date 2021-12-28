@@ -167,8 +167,8 @@ scheduling-set-due-date-prompt-hint =
     3–7 = valitaan satunnaisesti 3–7 päivän väliltä
 scheduling-set-due-date-done =
     { $cards ->
-        [one] Aseta { $cards } kortin erääntymispäivä.
-       *[other] Aseta { $cards } kortin erääntymispäivä.
+        [one] Aseta { $cards } kortin eräpäivä.
+       *[other] Aseta { $cards } kortin eräpäivä.
     }
 scheduling-forgot-cards =
     { $cards ->
