@@ -22,6 +22,7 @@ preferences-periodically-sync-media = Synkronoi media ajoittain
 preferences-please-restart-anki-to-complete-language = Käynnistä Anki uudelleen, niin että kielivalinnan muutos tulee voimaan.
 preferences-preferences = Asetukset
 preferences-scheduling = Ajasta uudelleen
+preferences-show-learning-cards-with-larger-steps = Näytä opittavat kortit joilla on suuremmat askeleet ennen kertausta
 preferences-show-next-review-time-above-answer = Näytä seuraava kertausaika vastauspainikkeiden yläpuolella
 preferences-show-play-buttons-on-cards-with = Näytä toistopainike korteissa, joissa on ääni
 preferences-show-remaining-card-count-during-review = Näytä jäljellä olevien korttien lukumäärä kertauksen aikana

@@ -17,6 +17,7 @@ search-missing-key = kaksoispiste `:` löytyi, mutta sen edeltä ei löytynyt av
 search-unknown-escape = koodinvaihtojaksoa `{ $val }` ei ole määritelty. Jos haluat hakea kirjaimellisesti kenoviivaa `\`, lisää sen eteen toinen: `\\`.
 search-invalid-argument = `{ $term }` sai virheellisen argumentin '`{ $argument }`'.
 search-invalid-flag-2 = `flag:`-merkinnän jälkeen on tultava kelvollinen lipun numero: `1` (punainen), `2` (oranssi), `3` (vihreä), `4` (sininen), `5` (pinkki), `6` (turkoosi), `7` (violetti) tai `0` (ei lippua).
+search-invalid-prop-operator = `prop:{ $val }`-merkinnän jälkeen on tultava yksi seuraavista vertailuoperaattoreista: `=`, `!=`, `<`, `>`, `<=` tai `>=`.
 search-invalid-other = tarkista kirjoitusvirheet.
 
 ## eg. expected a number in "due>5x", but found "5x"
