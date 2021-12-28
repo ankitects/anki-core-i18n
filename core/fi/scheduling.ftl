@@ -1,9 +1,20 @@
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
 scheduling-answer-button-time-seconds = { $amount } s
 scheduling-answer-button-time-minutes = { $amount } min
 scheduling-answer-button-time-hours = { $amount } h
 scheduling-answer-button-time-days = { $amount } vrk
 scheduling-answer-button-time-months = { $amount } kk
 scheduling-answer-button-time-years = { $amount } v
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
 scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } sekunti
@@ -34,6 +45,9 @@ scheduling-time-span-years =
         [one] { $amount } vuosi
        *[other] { $amount } vuotta
     }
+
+## Shown in the "Congratulations!" message after study finishes.
+
 scheduling-congratulations-finished = Onneksi olkoon! Olet käynyt tämän pakan kertaukset läpi toistaiseksi.
 scheduling-today-review-limit-reached =
     Tämän päivän kertausyläraja on tullut vastaan, mutta jonossa on</ br>
@@ -44,7 +58,12 @@ scheduling-today-new-limit-reached =
     vastaan. Voit kasvattaa ylärajaa valinnoissa, mutta pidä mielessä</ br>
     että mitä enemmän uusia kortteja alat opiskella sitä suuremmaksi</ br>
     lyhyen aikavälin kertauskuormasi tulee.
-scheduling-buried-cards-were-delayed = Joitakin kertaamiisi kortteihin liittyviä tai piilotettuja kortteja viivästettiin myöhempään istuntoon.
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Sisällytä aina kysymyspuoli, kun äänitettä toistetaan
 scheduling-at-least-one-step-is-required = Vaaditaan vähintään yksi vaihe.
 scheduling-automatically-play-audio = Toista äänitiedosto automaattisesti
@@ -57,6 +76,7 @@ scheduling-easy-interval = Helppo kertausväli
 scheduling-end = (loppu)
 scheduling-general = Yleistä
 scheduling-graduating-interval = Valmistujaiskertausväli
+scheduling-hard-interval = Vaikea kertausväli
 scheduling-ignore-answer-times-longer-than = Älä huomioi pidempiä vastausaikoja kuin
 scheduling-interval-modifier = Kertausvälimuokkaaja
 scheduling-lapses = Virheet
@@ -91,7 +111,27 @@ scheduling-steps-must-be-numbers = Vaiheiden täytyy olla numeroita.
 scheduling-tag-only = Liitä vain tunniste
 scheduling-the-default-configuration-cant-be-removed = Oletusasetuksia ei voi poistaa.
 scheduling-your-changes-will-affect-multiple-decks = Muutoksesi vaikuttavat useisiin pakkoihin. Jos haluat muuttaa vain nykyistä pakkaa, lisää ensin uusi valintaryhmä.
-scheduling-deck-updated = { $count ->
-    [one] { $count } pakka päivitetty.
-   *[other] { $count } pakkaa päivitetty.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } pakka päivitetty.
+       *[other] { $count } pakkaa päivitetty.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Kuinka monen päivän kuluttua kortti näytetään?
+       *[other] Kuinka monen päivän kuluttua kortti näytetään?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = tänään
+    1! = huomenna + nollaa kertausväli
+    3–7 = valitaan satunnaisesti 3–7 päivän väliltä
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Aseta { $cards } kortin erääntymispäivä.
+       *[other] Aseta { $cards } kortin erääntymispäivä.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Unohda { $cards } kortti.
+       *[other] Unohda { $cards } korttia.
+    }

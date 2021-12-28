@@ -2,10 +2,13 @@
 statistics-due-date = Erääntyvät
 # The count of cards waiting to be reviewed
 statistics-due-count = Erääntyvät
+# Shown in the Due column of the Browse screen when the card is a new card
+statistics-due-for-new-card = Uudet nro { $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } korttia/minuutissa
+statistics-average-answer-time = { $average-seconds } s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -51,10 +54,25 @@ statistics-reviews =
         [one] { $reviews } kertaus
        *[other] { $reviews } kertausta
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Tänään opiskeltiin { statistics-cards }
+    { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } ({ $secs-per-card } s/kortti)
 statistics-today-title = Tänään
 statistics-today-again-count = Uudelleen näyttettäväksi pyydettyjen korttien lukumäärä:
 statistics-today-type-counts = Opitut: { $learnCount }, Kerratut: { $reviewCount }, Uudelleen opitut: { $relearnCount }, Suodatetut: { $filteredCount }
-statistics-today-no-mature-cards = Yhtään varmaa korttia ei opiskeltu tänään.
+statistics-today-no-cards = Tänään ei ole opiskeltu yhtään korttia.
+statistics-today-no-mature-cards = Tänään ei opiskeltu yhtään varmaa korttia.
 statistics-today-correct-mature = Varmojen korttien oikeat vastaukset: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Kortteja yhteensä
 statistics-counts-new-cards = Uudet
@@ -68,11 +86,19 @@ statistics-counts-relearning-cards = Uudelleen opiskeltavat
 statistics-counts-title = Korttien lukumäärät
 statistics-counts-separate-suspended-buried-cards = Erota hyllytetyt ja haudatut kortit
 statistics-range-all-time = pakan elinkaari
-statistics-range-1-year-history = viime 12 kuukautta
+statistics-range-1-year-history = viimeiset 12 kuukautta
 statistics-range-all-history = koko historia
 statistics-range-deck = pakka
 statistics-range-collection = kokoelma
 statistics-range-search = Etsi
+statistics-card-ease-title = Korttien helppous
+statistics-card-ease-subtitle = Mitä pienempi helppous, sitä useammin kortti ilmestyy kerrattavaksi.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] { $cards } kortti { $percent } helppoudella
+       *[other] { $cards } korttia { $percent } helppoudella
+    }
 statistics-future-due-title = Ennuste
 statistics-future-due-subtitle = Tulevaisuudessa erääntyvien kertausten määrä.
 statistics-added-title = Lisätty
@@ -80,11 +106,50 @@ statistics-added-subtitle = Uusien lisäämiesi korttien lukumäärä.
 statistics-reviews-count-subtitle = Vastaamiesi kysymysten määrä.
 statistics-reviews-time-subtitle = Kysymyksiin vastaamiseen käytetty aika.
 statistics-answer-buttons-title = Vastauspainikkeet
+# eg Button: 4
+statistics-answer-buttons-button-number = Painike
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Painalluskerrat
 statistics-answer-buttons-subtitle = Kunkin painikkeen painalluskertojen määrä.
 statistics-reviews-title = Kertaukset
 statistics-reviews-time-checkbox = Aika
+statistics-in-days-single =
+    { $days ->
+        [0] Tänään
+        [1] Huomenna
+        [one] { $days } päivän kuluttua
+       *[other] { $days } päivän kuluttua
+    }
+statistics-in-days-range = { $daysStart }–{ $daysEnd } päivän kuluttua
+statistics-days-ago-single =
+    { $days ->
+        [1] Eilen
+        [one] { $days } päivä sitten
+       *[other] { $days } päivää sitten
+    }
+statistics-days-ago-range = { $daysStart }–{ $daysEnd } päivää sitten
+statistics-running-total = Juokseva summa
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } kortti erääntyy
+       *[other] { $cards } korttia erääntyy
+    }
+statistics-backlog-checkbox = Rästiin jääneet
 statistics-intervals-title = Kertausvälit
 statistics-intervals-subtitle = Viivästykset, joiden jälkeen kerrattavat kortit näytetään uudestaan.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } kortti { $daysStart }–{ $daysEnd } päivän viivästyksellä
+       *[other] { $cards } korttia { $daysStart }–{ $daysEnd } päivän viivästyksellä
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } kortti { $daysStart }–{ $daysEnd } päivän viivästyksellä
+       *[other] { $cards } korttia { $daysStart }–{ $daysEnd } päivän viivästyksellä
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }.00–{ $hourEnd }.00
+statistics-hours-correct = { $correct }/{ $total } oikein ({ $percent } %)
 statistics-hours-title = Tuntijakauma
 statistics-hours-subtitle = Kertausten onnistumisaste tunneittain
 # shown when graph is empty
