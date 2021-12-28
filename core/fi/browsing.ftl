@@ -1,35 +1,39 @@
 browsing-add-notes = Lisää muistiinpanoja...
-browsing-add-tags = Lisää tunnisteita
 browsing-add-tags2 = Lisää tunnisteita...
-browsing-added-today = Lisätty tänään
-browsing-again-today = Uudestaan tänään
-browsing-all-card-types = Kaikki korttien tyypit
+browsing-add-to-selected-notes = Lisää valittuihin muistiinpanoihin
+browsing-remove-from-selected-notes = Poista valituista muistiinpanoista
+browsing-addon = Lisäosa
 browsing-all-fields = Kaikki kentät
 browsing-answer = Vastaus
-browsing-any-cards-mapped-to-nothing-will = Kortit, joita ei ole liitetty mihinkään, poistetaan. Jos muistiinpanoon ei liity jäljelle jääviä kortteja, se katoaa. Oletko varma, että haluat jatkaa?
 browsing-any-flag = Mikä tahansa lippu
+browsing-average-ease = Keskim. helppous
+browsing-average-interval = Keskim. kertausväli
 browsing-browser-appearance = Selaimen ulkoasu
 browsing-browser-options = Selainasetukset
-browsing-buried = Haudattu
+browsing-buried = Piilotettu
 browsing-card = Kortti
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
 browsing-card-list = Korttiluettelo
-browsing-card-state = Kortin tila
 browsing-cards-cant-be-manually-moved-into = Kortteja ei voi siirtää manuaalisesti suodatettuun pakkaan.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } kortti poistettu.
+       *[other] { $count } korttia poistettu.
+    }
 browsing-change-deck = Vaihda pakkaa
 browsing-change-deck2 = Vaida pakkaa...
 browsing-change-note-type = Vaihda muistiinpanotyyppiä
 browsing-change-note-type2 = Vaihda muistiinpanotyyppiä...
-browsing-change-to = { $val } →
-browsing-clear-unused = Tyhjennä käyttämättömät
+browsing-change-notetype = Vaihda muistiinpanotyyppiä
 browsing-clear-unused-tags = Poista käyttämättömät tunnisteet
+browsing-confirm-saved-search-overwrite = Tallennettu haku nimellä { $name } on jo olemassa. Haluatko korvata sen?
 browsing-created = Luomisaika
 browsing-current-deck = Nykyinen pakka
 browsing-current-note-type = Nykyinen muistiinpanotyyppi:
 browsing-delete-notes = Poista muistiinpanot
-browsing-delete-tags = Poista tunnisteet
 browsing-duplicate = kaksoiskappale
 browsing-ease = Helppous
-browsing-end = Lopetus
 browsing-enter-tags-to-add = Lisättävät tunnisteet:
 browsing-enter-tags-to-delete = Poistettavat tunnisteet:
 browsing-filtered = (suodatettu)
@@ -37,10 +41,10 @@ browsing-find = <b>Etsi</b>
 browsing-find-and-replace = Etsi ja korvaa
 browsing-find-duplicates = Etsi kaksoiskappaleet
 browsing-first-card = Ensimmäinen kortti
+browsing-flag = Lippu
 browsing-font = <b>Fontti</b>:
 browsing-font-size = <b>Fonttikoko</b>:
 browsing-found-as-across-bs = Löytyi { $part }, joissa on { $whole }.
-browsing-home = Aloitussivu
 browsing-ignore-case = Älä huomioi kirjasinkokoa
 browsing-in = <b>Kenttä</b>
 browsing-interval = Kertausväli
@@ -52,16 +56,16 @@ browsing-move-cards = Siirrä kortit
 browsing-move-cards-to-deck = Siirrä kortit pakkaan:
 browsing-new = (uusi)
 browsing-new-note-type = Uusi muistiinpanotyyppi:
+browsing-no-flag = Ei lippua
+browsing-no-selection = Ei valittuja kortteja tai muistiinpanoja.
 browsing-note = Muistiinpano
-browsing-notes-tagged = Merkityt muistiinpanot
-browsing-nothing = ei mitään
-browsing-only-new-cards-can-be-repositioned = Vain uusien korttien sijaintia pakassa voi muuttaa.
-browsing-override-back-template = Syrjäytä kääntöpuolen malline:
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = M
+browsing-optional-filter = Valinnainen suodatin:
+browsing-override-back-template = Syrjäytä kääntöpuolen malli:
 browsing-override-font = Syrjäytä fontti:
-browsing-override-front-template = Syrjäytä etupuolen malline:
-browsing-place-at-end-of-new-card = Sijoita uuden korttijonon loppuun
-browsing-place-in-review-queue-with-interval = Aseta kertausjonoon kertausvälillä:
-browsing-please-select-cards-from-only-one = Valitse vain yhden muistiinpanotyypin kortteja.
+browsing-override-front-template = Syrjäytä etupuolen malli:
+browsing-please-give-your-filter-a-name = Nimeä suodatin:
 browsing-preview-selected-card = Esikatsele valittuja kortteja ({ $val })
 browsing-question = Kysymys
 browsing-queue-bottom = Jonon loppu: { $val }
@@ -71,19 +75,20 @@ browsing-replace-with = <b>Korvaus</b>
 browsing-reposition = Uuden sijainnin määrittäminen...
 browsing-reposition-new-cards = Määritä uusi sijainti pakassa uusille korteille
 browsing-reschedule = Ajasta uudelleen
+browsing-search-bar-hint = Etsi kortteja/muistiinpanoja (kirjoita tekstiä ja paina Enter-näppäintä)
 browsing-search-within-formatting-slow = Etsi muotoiluista (hidas)
+browsing-selected-notes-only = Vain valitut muistiinpanot
 browsing-shift-position-of-existing-cards = Vaihda olemassa olevien korttien sijaintia
+browsing-sidebar = Sivupalkki
+browsing-sidebar-filter = Sivupalkin suodatin
 browsing-sort-field = Lajittelukenttä
 browsing-sorting-on-this-column-is-not = Lajittelu tämän sarakkeen mukaan ei ole mahdollista. Valitse toinen sarake.
 browsing-start-position = Aloitussijainti:
 browsing-step = Vaihe:
-browsing-studied-today = Opiskeltu tänään
 browsing-suspended = Hyllytetyt
 browsing-tag-duplicates = Lisää tunniste kaksoiskappaleisiin
 browsing-target-field = Kohdekenttä:
-browsing-today = Tänään
 browsing-treat-input-as-regular-expression = Tulkitse syöte säännöllisenä lausekkeena
-browsing-type-here-to-search = <kirjoita tähän hakusana tai paina enteriä nähdäksesi nykyisen pakan>
 browsing-whole-collection = Koko kokoelma
 browsing-you-must-have-at-least-one = Pitää olla vähintään yksi sarake.
 browsing-group =
@@ -96,13 +101,21 @@ browsing-note-count =
         [one] { $count } muistiinpano
        *[other] { $count } muistiinpanoa
     }
-browsing-note-deleted =
-    { $count ->
-        [one] { $count } muistiinpano poistettu.
-       *[other] { $count } muistiinpanoa poistettu.
-    }
-browsing-selected =
-    { $count ->
-        [one] { $count } valittu
-       *[other] { $count } valittua
-    }
+browsing-sidebar-flags = Liput
+browsing-today = Tänään
+browsing-tooltip-card-modified = Viimeisin kerta, kun korttiin tehtiin muutoksia, mukaan lukien kertaukset ja muutokset lippuihin ja pakkaan.
+browsing-tooltip-card = Kortin korttimallin nimi
+browsing-tooltip-question = Kortin etupuoli, muokattavissa korttimallien muokkausnäkymässä.
+browsing-tooltip-answer = Kortin kääntöpuoli, muokattavissa korttimallien muokkausnäkymässä.
+browsing-studied-today = Opiskeltu tänään
+browsing-added-today = Lisätty tänään
+browsing-again-today = Uudestaan tänään
+browsing-edited-today = Muokattu tänään
+browsing-sidebar-first-review = Ensimmäinen kertaus
+browsing-sidebar-rescheduled = Ajastettu uudelleen
+browsing-sidebar-due-today = Erääntyvät
+browsing-sidebar-untagged = Tunnisteettomat
+browsing-sidebar-overdue = Rästissä
+
+## obsolete; no need to translate
+
