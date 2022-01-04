@@ -20,7 +20,7 @@ media-check-subfolder-count = Подпапок: { $count }
 ## Shown at the top of each section
 
 media-check-renamed-header = Переименованные для совместимости:
-media-check-oversize-header = Файлы размером больше 100 МБ не могут быть загружены на AnkiWeb.
+media-check-oversize-header = Файлы больше 100 МБ не могут быть синхронизированы с AnkiWeb.
 media-check-subfolder-header = Медиапапка не должна содержать другие папки.
 media-check-missing-header = Эти файлы прикреплены к карточкам, но отсутствуют в медиапапке:
 media-check-unused-header = Эти файлы в медиапапке, но не прикреплены ни к одной карточке:
