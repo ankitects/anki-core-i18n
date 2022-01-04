@@ -22,7 +22,7 @@ studying-easy = Легко
 studying-edit = Править
 studying-empty = Очистить
 studying-finish = Завершить
-studying-flag-card = Поставить флаг
+studying-flag-card = Поставить флажок
 studying-good = Хорошо
 studying-hard = Трудно
 studying-it-has-been-suspended = Исключена.
@@ -57,10 +57,4 @@ studying-minute =
         [one] { $count } минуту.
         [few] { $count } минуты.
        *[other] { $count } минут.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] Запись и { $count } карточка удалены.
-        [few] Запись и { $count } карточки удалены.
-       *[other] Запись и { $count } карточек удалены.
     }
