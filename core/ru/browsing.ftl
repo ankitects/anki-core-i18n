@@ -124,7 +124,7 @@ browsing-cards-updated =
         [few] { $count } карточки обновлены.
        *[other] { $count } карточек обновлено.
     }
-browsing-window-title = Посмотреть (выбрано { $selected } из { $total } карточек)
+browsing-window-title = Список карточек (выбрано { $selected } из { $total } записей)
 browsing-sidebar-expand = Развернуть
 browsing-sidebar-collapse = Свернуть
 browsing-sidebar-expand-children = Развернуть группу
