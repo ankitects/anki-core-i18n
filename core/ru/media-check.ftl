@@ -39,7 +39,7 @@ media-check-checked = Проверено { $count }...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = Удалить неиспользуемые медиаресурсы?
+media-check-delete-unused-confirm = Удалить неиспользуемые медиафайлы?
 media-check-files-remaining =
     { $count ->
         [one] 1 файл
