@@ -5,6 +5,7 @@ actions-cancel = 取消
 actions-choose = 選擇
 actions-close = 關閉
 actions-copy = 複製
+actions-create-copy = 建立複本
 actions-custom-study = 自訂學習
 actions-decks = 牌組
 actions-delete = 刪除
@@ -49,6 +50,9 @@ actions-update-notetype = 更新筆記類型
 actions-update-config = 更新設定檔
 actions-card-info = 卡片資訊
 actions-previous-card-info = 上一張卡片資訊
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 

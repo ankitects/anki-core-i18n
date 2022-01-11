@@ -4,6 +4,7 @@ fields-editing-font = 編輯時使用的字型
 fields-field = 欄位：
 fields-field-name = 欄位名稱：
 fields-description = 描述
+fields-description-placeholder = 在編輯畫面中，顯示在欄位名稱旁邊的工具提示
 fields-fields-for = { $val } 的欄位
 fields-font = 字型：
 fields-new-position-1 = 新位置 (1...{ $val })：
