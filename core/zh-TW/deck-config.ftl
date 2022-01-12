@@ -86,7 +86,7 @@ deck-config-new-gather-priority-tooltip =
     `牌組`：依每個子牌組的順序收集卡片，且當選取的牌組超出上限時停止。
     此選項較快，且可使位置較前的子牌組的優先度更高。
     
-    `順序`：從未整理前的所有牌組收集卡片。這會確保即便上層牌組的
+    `順序`：從未整理前的所有牌組收集卡片。這會確保即便父牌組的
     上限不夠高，無法顯示所有牌組的卡片，最舊的卡片也能最先顯示。
 deck-config-new-gather-priority-deck = 牌組
 deck-config-new-gather-priority-position-lowest-first = 順序（最低的最早）
@@ -201,9 +201,9 @@ deck-config-description-new-handling-hint =
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    一個上層牌組的上限為{ $cards ->
+    一個父牌組的上限為{ $cards ->
        *[other] { $cards } 張卡片
-    }，將會複寫此上限。
+    }，將會覆寫此上限。
 deck-config-reviews-too-low =
     若每天新增 { $cards ->
        *[other] { $cards } 張新卡片
