@@ -2,7 +2,7 @@
 
 notetypes-front-field = 正面
 notetypes-back-field = 背面
-notetypes-add-reverse-field = 新增反向卡片
+notetypes-add-reverse-field = 加入反向卡片
 notetypes-text-field = 文字
 notetypes-back-extra-field = 背面額外
 
