@@ -13,7 +13,9 @@ actions-manage = Кіраваць...
 actions-name = Назва:
 actions-new = Новыя
 actions-save = Захаваць
+actions-search = Пошук
 actions-select = Выбраць
+actions-set-due-date = Задаць тэрмін
 actions-add-deck = Дадаць калоду
 actions-add-note = Дадаць нататку
 # By convention, the name of a menu action is suffixed with "..." if additional
