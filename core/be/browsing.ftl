@@ -15,10 +15,12 @@ browsing-card = Картка
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = К
 browsing-card-list = Спіс картак
+browsing-cards-cant-be-manually-moved-into = Карткі не могуць быць перамешчаныя ўручную ў фільтраваную калоду.
 browsing-cards-deleted =
     { $count ->
         [one] { $count } картка выдалена.
         [few] { $count } карткі выдалены.
+        [many] { $count } картак выдалена.
        *[other] { $count } картак выдалена.
     }
 browsing-change-deck = Змяніць калоду
@@ -48,7 +50,7 @@ browsing-ignore-case = Ігнараваць рэгістр
 browsing-in = <b>У</b>:
 browsing-interval = Інтэрвал
 browsing-last-card = Апошняя картка
-browsing-learning = (на вывучэнні)
+browsing-learning = (вывучаюцца)
 browsing-line-size = <b>Памер радка</b>:
 browsing-manage-note-types = Кіраваць тыпамі нататак
 browsing-move-cards = Перамясціць карткі
@@ -98,6 +100,7 @@ browsing-update-saved-search = Абнавіць з бягучым пошукам
 browsing-whole-collection = Уся калекцыя
 browsing-window-title-notes = Праглядзець (выбрана { $selected } з { $total } нататак)
 browsing-window-title = Праглядзець (выбрана { $selected } з { $total } картак)
+browsing-edited-today = Рэдагавана
 
 ## obsolete; no need to translate
 
