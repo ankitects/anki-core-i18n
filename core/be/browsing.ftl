@@ -24,7 +24,17 @@ browsing-current-deck = Бягучая калода
 browsing-delete-notes = Выдаліць нататкі
 browsing-duplicate = дублікат
 browsing-ease = Лёгкасць
+browsing-enter-tags-to-add = Увядзіце цэтлікі да дадання:
+browsing-enter-tags-to-delete = Увядзіце цэтлікі да выдалення:
 browsing-filtered = (адфільтраваныя)
+browsing-find = <b>Знайсці</b>:
+browsing-find-and-replace = Знайсці і замяніць
+browsing-find-duplicates = Знайсці дублікаты
+browsing-first-card = Першая картка
+browsing-flag = Сцяжок
+browsing-font = <b>Шрыфт</b>:
+browsing-font-size = <b>Памер шрыфту</b>:
+browsing-found-as-across-bs = Знойдзена { $part } паміж { $whole }.
 
 ## obsolete; no need to translate
 
