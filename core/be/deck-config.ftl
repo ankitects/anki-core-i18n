@@ -9,9 +9,11 @@
 
 ## New Cards section
 
+deck-config-learning-steps = Крокі вывучэння
 
 ## Lapses section
 
+deck-config-relearning-steps = Крокі паўторнага вывучэння
 
 ## Burying section
 

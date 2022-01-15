@@ -60,6 +60,14 @@ statistics-cards =
         [many] { $cards } картак
        *[other] { $cards } картак
     }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } перагляд
+        [few] { $reviews } перагляды
+        [many] { $reviews } пераглядаў
+       *[other] { $reviews } пераглядаў
+    }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -73,6 +81,18 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card } с/картку)
+statistics-today-title = Сёння
+statistics-today-again-count = Колькасць забытых картак:
+statistics-today-type-counts = Вывучаецца: { $learnCount }, на перагляд: { $reviewCount }, на паўторнае вывучэнне: { $relearnCount }, фільтраваных: { $filteredCount }
+statistics-counts-total-cards = Усяго картак
+statistics-counts-new-cards = Новыя
+statistics-counts-young-cards = Маладыя карткі
+statistics-counts-mature-cards = Сталыя карткі
+statistics-counts-suspended-cards = Прыпыненыя
+statistics-counts-buried-cards = Адкладзеныя
+statistics-counts-filtered-cards = Фільтраваныя
+statistics-counts-learning-cards = Вывучаюцца
+statistics-counts-relearning-cards = Вывучаюцца паўторна
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,

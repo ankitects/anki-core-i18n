@@ -62,7 +62,7 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    Наступная картка будзе гатова праз { $unit ->
+    Наступная вучэбная картка будзе гатова праз { $unit ->
         [seconds]
             { $amount ->
                 [one] { $amount } секунду
@@ -85,11 +85,19 @@ scheduling-next-learn-due =
                *[other] { $amount } гадзін
             }
     }
+scheduling-learn-remaining =
+    Сёння { $remaining ->
+        [one] засталася адна картка
+        [few] засталося { $remaining } карткі
+        [many] засталося { $remaining } картак
+       *[other] засталося { $remaining } картак
+    } на вывучэнне пазней.
 
 ## Scheduler upgrade
 
 
 ## Other scheduling strings
 
+scheduling-learning = Вывучаюцца
 scheduling-seconds = секунд
 scheduling-steps-in-minutes = Крокі (у хвілінах)
