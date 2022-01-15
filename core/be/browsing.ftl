@@ -8,6 +8,8 @@ browsing-answer = Адказ
 browsing-any-flag = Любы сцяжок
 browsing-average-ease = Сяр. лёгкасць
 browsing-average-interval = Сяр. інтэрвал
+browsing-browser-appearance = Выгляд браўзера
+browsing-browser-options = Параметры браўзера
 browsing-buried = Адкладзеныя
 browsing-card = Картка
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
@@ -77,6 +79,25 @@ browsing-search-bar-hint = Шукаць карткі/нататкі (увядз�
 browsing-search-in = Шукаць у:
 browsing-search-within-formatting-slow = Шукаць у фарматаванні (павольна)
 browsing-selected-notes-only = Толькі выбраныя нататкі
+browsing-shift-position-of-existing-cards = Змяніць пазіцыю існуючых картак
+browsing-sidebar = Бакавая панэль
+browsing-sidebar-filter = Фільтр бакавой панэлі
+browsing-sort-field = Поле сартавання
+browsing-sorting-on-this-column-is-not = Сартаванне гэтага слупка не падтрымліваецца. Выберыце іншы.
+browsing-start-position = Пачатковая пазіцыя:
+browsing-step = Крок:
+browsing-suspended = Прыпыненыя
+browsing-tag-duplicates = Пазначыць дублікаты цэтлікам
+browsing-tag-rename-warning-empty = Вы не можаце перайменаваць цэтлік, пад якім няма нататак.
+browsing-target-field = Мэтавае поле:
+browsing-toggle-showing-cards-notes = Пераключыць паказванне картак/нататак
+browsing-toggle-mark = Пазначыць/Зняць пазнаку
+browsing-toggle-suspend = Прыпыніць/Узнавіць
+browsing-treat-input-as-regular-expression = Трактаваць увод як рэгулярны выраз
+browsing-update-saved-search = Абнавіць з бягучым пошукам
+browsing-whole-collection = Уся калекцыя
+browsing-window-title-notes = Праглядзець (выбрана { $selected } з { $total } нататак)
+browsing-window-title = Праглядзець (выбрана { $selected } з { $total } картак)
 
 ## obsolete; no need to translate
 
