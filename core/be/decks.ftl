@@ -1,4 +1,14 @@
+decks-build = Сабраць
+decks-create-deck = Стварыць калоду
 decks-custom-steps-in-minutes = Наладжвальныя крокі (у хвілінах)
+decks-deck = Калода
+decks-delete-deck = Выдаліць калоду
 decks-enable-second-filter = Уключыць другі фільтр
+decks-filter = Фільтр:
+decks-filter-2 = Фільтр 2
 decks-import-file = Імпартаваць файл
 decks-minutes = хвілін
+decks-new-deck-name = Новая назва калоды:
+decks-no-deck = [няма калоды]
+decks-study = Вучыць
+decks-study-deck = Вучыць калоду
