@@ -19,6 +19,7 @@ card-templates-sample-cloze = Гэта { "{{c1::" }прыклад{ "}}" } зап
 card-templates-fill-empty = Запоўніць пустыя палі
 card-templates-night-mode = Начны рэжым
 card-templates-preview-settings = Параметры
+card-templates-invalid-template-number = Праблема з шаблонам карткі { $number } у тыпе нататак { $notetype }.
 card-templates-missing-cloze = Меркавалася знайсці «{ "{{" }cloze:Text{ "}}" }» або штосьці падобнае на пярэднім і заднім баку шаблону карткі.
 card-templates-extraneous-cloze = «cloze:» можа ўжывацца толькі ў нататках з прабеламі.
 card-templates-changes-saved = Змены захаваны.

@@ -63,7 +63,7 @@ browsing-note = Нататка
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = Н
 browsing-optional-filter = Дадатковы фільтр:
-browsing-override-back-template = Перавызначыць шаблон зваротнага боку:
+browsing-override-back-template = Перавызначыць шаблон адваротнага боку:
 browsing-override-font = Перавызначыць шрыфт:
 browsing-override-front-template = Перавызнычыць шаблон шрыфту:
 browsing-please-give-your-filter-a-name = Дайце імя вашаму шаблону:
@@ -100,6 +100,8 @@ browsing-update-saved-search = Абнавіць з бягучым пошукам
 browsing-whole-collection = Уся калекцыя
 browsing-window-title-notes = Праглядзець (выбрана { $selected } з { $total } нататак)
 browsing-window-title = Праглядзець (выбрана { $selected } з { $total } картак)
+browsing-sidebar-notetypes = Тыпы нататак
+browsing-tooltip-notetype = Назва тыпу для нататкі
 browsing-edited-today = Рэдагавана
 
 ## obsolete; no need to translate

@@ -1,6 +1,10 @@
 ## Default field names in newly created note types
 
+notetypes-front-field = Перад
+notetypes-back-field = Адваротны бок
 notetypes-add-reverse-field = Дадаць адваротную
+notetypes-text-field = Тэкст
+notetypes-back-extra-field = Дадатковы адваротны бок
 
 ## Default note type names
 
