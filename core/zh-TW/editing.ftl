@@ -7,7 +7,7 @@ editing-attach-picturesaudiovideo = 附加圖片/音訊/影片
 editing-bold-text = 粗體
 editing-cards = 卡片
 editing-center = 置中
-editing-change-color = 變更色彩
+editing-change-color = 更改色彩
 editing-cloze-deletion = 克漏字空格
 editing-couldnt-record-audio-have-you-installed = 無法錄製音訊。請檢查是否已安裝「lame」。
 editing-customize-card-templates = 自訂卡片模板
@@ -19,7 +19,6 @@ editing-fields = 欄位
 editing-float-left = 向左浮動
 editing-float-right = 向右浮動
 editing-float-none = 無浮動
-editing-html-editor = HTML 編輯器
 editing-indent = 增加縮排
 editing-italic-text = 斜體
 editing-jump-to-tags-with-ctrlandshiftandt = 跳至標籤 (Ctrl+Shift+T)
@@ -43,7 +42,7 @@ editing-show-duplicates = 顯示重複項目
 editing-subscript = 下標
 editing-superscript = 上標
 editing-tags = 標籤
-editing-to-make-a-cloze-deletion-on = 若要在現有的筆記上建立克漏字空格，你必須先透過「筆記」>「變更筆記類型」將其變更為克漏字類型。
+editing-to-make-a-cloze-deletion-on = 若要在現有的筆記上建立克漏字空格，你必須先透過「筆記」>「更改筆記類型」將其改為克漏字類型。
 editing-toggle-sticky = 凍結/取消凍結欄位
 editing-underline-text = 為文字加上底線
 editing-unordered-list = 無序清單
@@ -51,3 +50,4 @@ editing-warning-cloze-deletions-will-not-work = 警告，除非你將上方的�
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = HTML 編輯器

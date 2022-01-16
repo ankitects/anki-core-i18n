@@ -8,7 +8,7 @@ statistics-due-for-new-card = 新 #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } 張卡片/分鐘
-statistics-average-answer-time = { $average-seconds }秒（{ statistics-cards-per-min }）
+statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -52,7 +52,7 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }學習了 { statistics-cards }（每張卡片 { $secs-per-card } 秒）
+    }學習了 { statistics-cards } (每張卡片 { $secs-per-card }s)
 statistics-today-title = 今天
 statistics-today-again-count = 「重來」計數：
 statistics-today-type-counts = 新學習卡片：{ $learnCount } ‧ 複習的卡片：{ $reviewCount } ‧ 重學習卡片：{ $relearnCount } ‧ 篩選的卡片：{ $filteredCount }
@@ -128,7 +128,7 @@ statistics-intervals-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = 正確率：{ $correct }/{ $total } ({ $percent }%)
+statistics-hours-correct = { $correct }/{ $total } 正確 ({ $percent }%)
 statistics-hours-title = 每小時分析
 statistics-hours-subtitle = 當天每小時的複習成功率
 # shown when graph is empty
@@ -150,7 +150,7 @@ statistics-elapsed-time-years = { $amount } 年
 
 ##
 
-statistics-average-for-days-studied = 平均值（只計算實際學習天數）
+statistics-average-for-days-studied = 平均值 (只計算實際學習天數)
 statistics-total = 總計
 statistics-days-studied = 學習天數
 statistics-average-answer-time-label = 平均答題時間
@@ -159,7 +159,7 @@ statistics-average-interval = 平均間隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
-statistics-average-over-period = 平均值（包含沒有學習的天數）
+statistics-average-over-period = 平均值 (包含沒有學習的天數)
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count } 次複習/天

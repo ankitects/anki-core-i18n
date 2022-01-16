@@ -1,5 +1,5 @@
 empty-cards-for-note-type = { $notetype } 的空白卡片：
-empty-cards-count-line = { $empty_count }/{ $existing_count } 張空白卡片（{ $template_names }）。
+empty-cards-count-line = { $empty_count }/{ $existing_count } 張空白卡片 ({ $template_names })。
 empty-cards-window-title = 空白卡片
 empty-cards-preserve-notes-checkbox = 請持續注意沒有有效卡片的問題。
 empty-cards-delete-button = 刪除

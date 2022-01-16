@@ -32,31 +32,31 @@ deck-config-limit-interday-bound-by-reviews =
 
 deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 延遲時間可為分鐘（如「5m」）或天（如「2d」）。
+-deck-config-delay-hint = 延遲時間通常為分鐘 (如 `5m`) 或天 (如 `2d`)，但也支援使用小時 (如 `1h`) 和秒 (如 `30s`)。
 deck-config-learning-steps-tooltip =
     一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下
-    「重來」按鈕後的延遲時間，預設值為 1 分鐘。按下「良好」按鈕
+    `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕
     將會前進到下一個階段，預設值為 10 分鐘。一旦通過了所有階段，
     卡片將會成為複習卡，並將會改天出現。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
-    當處於最後一個學習階段時，按下「良好」按鈕後，
+    當處於最後一個學習階段時，按下 `良好` 按鈕後，
     再次顯示卡片前需要等待的天數。
 deck-config-easy-interval-tooltip =
-    當按下「簡單」按鈕，直接跳過學習階段後
+    當按下 `簡單` 按鈕，直接跳過學習階段後
     再次顯示卡片前需要等待的天數。
 deck-config-new-insertion-order = 插入順序
 deck-config-new-insertion-order-tooltip =
-    控制新增卡片時，新卡片被指派的順序（到期 #）。
+    控制新增卡片時，新卡片被指派的順序 (到期 #)。
     卡片到期數字越小，學習時顯示的順序就越前。
     更改此選項將自動更新已存在的新卡片順序。
-deck-config-new-insertion-order-sequential = 循序（最舊的卡片在前）
+deck-config-new-insertion-order-sequential = 循序 (最舊的卡片在前)
 deck-config-new-insertion-order-random = 隨機
 
 ## Lapses section
 
 deck-config-relearning-steps = 重新學習階段
 deck-config-relearning-steps-tooltip =
-    零或多段延遲，用空白分隔。在預設設定下，複習卡按下「重來」
+    零或多段延遲，用空白分隔。在預設設定下，複習卡按下 `重來`
     按鈕後，將會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將
     改變間隔，而不會進入重新學習狀態。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
@@ -75,8 +75,8 @@ deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
 deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
 deck-config-bury-tooltip =
-    要/不要將相同筆記的其他卡片（如反向卡片，
-    相鄰的克漏字空格）延遲至第二天。
+    要/不要將相同筆記的其他卡片 (如反向卡片，
+    相鄰的克漏字空格) 延遲至第二天。
 
 ## Ordering section
 
@@ -89,8 +89,8 @@ deck-config-new-gather-priority-tooltip =
     `順序`：從未整理前的所有牌組收集卡片。這會確保即便父牌組的
     上限不夠高，無法顯示所有牌組的卡片，最舊的卡片也能最先顯示。
 deck-config-new-gather-priority-deck = 牌組
-deck-config-new-gather-priority-position-lowest-first = 順序（最低的最早）
-deck-config-new-gather-priority-position-highest-first = 順序（最高的最早）
+deck-config-new-gather-priority-position-lowest-first = 順序 (最低的最早)
+deck-config-new-gather-priority-position-highest-first = 順序 (最高的最早)
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip =
     卡片被收集後的排序方法。在預設設定下，Anki 先按照卡片模板排序，
@@ -107,7 +107,7 @@ deck-config-new-review-priority = 新卡片/複習卡優先順序
 deck-config-new-review-priority-tooltip = 新卡片在複習卡之前還是之後顯示。
 deck-config-interday-step-priority = 隔天學習/複習的優先順序
 deck-config-interday-step-priority-tooltip =
-    當跨越天數學習時，正在（重新）學習的卡片顯示的順序。
+    當跨越天數學習時，正在 (重新) 學習的卡片顯示的順序。
     
     複習上限永遠優先套用於隔天學習卡片，然後才是複習卡。
     此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
@@ -135,7 +135,7 @@ deck-config-display-order-will-use-current-deck =
 deck-config-timer-title = 計時器
 deck-config-maximum-answer-secs = 最大回答秒數
 deck-config-maximum-answer-secs-tooltip =
-    為單次複習記錄的最大秒數。若回答超過此時間（例如當你離開螢幕前），
+    為單次複習記錄的最大秒數。若回答超過此時間 (例如當你離開螢幕前)，
     那麼卡片花費的時間將會被記為你所設定的上限。
 deck-config-show-answer-timer-tooltip =
     在複習畫面顯示一個計時器，
@@ -153,18 +153,18 @@ deck-config-always-include-question-audio-tooltip = 當查看卡片答案面時�
 deck-config-advanced-title = 進階選項
 deck-config-maximum-interval-tooltip =
     複習卡將等待的最大天數。當複習卡達到上限時，
-    「困難」、「良好」和「簡單」的延遲將會一致。
+    `困難`、`良好` 和 `簡單` 的延遲將會一致。
     此選項設定得越短，你的工作量將會越多。
 deck-config-starting-ease-tooltip =
     新卡片的起始輕鬆度乘數。在預設設定下，在一張剛學完的卡片
-    按下「良好」按鈕將使下次複習前的延遲為上次的 2.5 倍。
-deck-config-easy-bonus-tooltip = 一個額外的乘數，套用於複習卡按下「簡單」後的間隔。
+    按下 `良好` 按鈕將使下次複習前的延遲為上次的 2.5 倍。
+deck-config-easy-bonus-tooltip = 一個額外的乘數，套用於複習卡按下 `簡單` 後的間隔。
 deck-config-interval-modifier-tooltip =
     此乘數套用於所有複習卡，細微的調整能使 Anki 排程更為保守/激進。
-    請在變更此選項前參閱使用手冊。
-deck-config-hard-interval-tooltip = 套用於複習卡回答「困難」後的間隔的乘數。
-deck-config-new-interval-tooltip = 套用於複習卡回答「重來」後的間隔的乘數。
-deck-config-minimum-interval-tooltip = 複習卡回答「困難」後的最小間隔。
+    請在更改此選項前參閱使用手冊。
+deck-config-hard-interval-tooltip = 套用於複習卡回答 `困難` 後的間隔的乘數。
+deck-config-new-interval-tooltip = 套用於複習卡回答 `重來` 後的間隔的乘數。
+deck-config-minimum-interval-tooltip = 複習卡回答 `困難` 後的最小間隔。
 deck-config-custom-scheduling = 自訂排程
 deck-config-custom-scheduling-tooltip = 影響整個集合。請謹慎使用！
 
@@ -179,9 +179,9 @@ deck-config-clone-group = 複製預設
 
 deck-config-remove-group = 移除群組
 deck-config-will-require-full-sync =
-    此變動將使你下次同步時需要單向強制變更。如果你在其他裝置上
-    做出變更，且尚未同步至此裝置，請先同步後再變更。
-deck-config-confirm-remove-name = 確定要移除{ $name }嗎？
+    此更動將使你下次同步時需要單向強制更動。如果你在其他裝置上
+    做出更動，且尚未同步至此裝置，請先同步後再更改。
+deck-config-confirm-remove-name = 移除{ $name }？
 
 ## Other Buttons
 

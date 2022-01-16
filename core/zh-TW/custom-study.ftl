@@ -1,5 +1,5 @@
 custom-study-must-rename-deck = 請先重新命名已存在的自訂學習牌組。
-custom-study-all-cards-in-random-order-dont = 隨機排列所有卡片（不重新排程）
+custom-study-all-cards-in-random-order-dont = 隨機排列所有卡片 (不重新排程)
 custom-study-all-review-cards-in-random-order = 隨機排列所有複習卡
 custom-study-cards = 卡片
 custom-study-cards-from-the-deck = 張牌組中的卡片

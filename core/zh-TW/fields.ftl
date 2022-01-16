@@ -1,5 +1,5 @@
 fields-add-field = 新增欄位
-fields-delete-field-from = 確定刪除{ $val }的欄位嗎？
+fields-delete-field-from = 刪除{ $val }的欄位？
 fields-editing-font = 編輯時使用的字型
 fields-field = 欄位：
 fields-field-name = 欄位名稱：

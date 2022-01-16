@@ -2,7 +2,7 @@
 card-templates-blank = 空格
 card-templates-changes-will-affect-notes =
     { $count ->
-       *[other] 以下更改將會影響 { $count } 則使用此卡片類型的筆記。
+       *[other] 以下更動將會影響 { $count } 則使用此卡片類型的筆記。
     }
 card-templates-card-type = 卡片類型：
 card-templates-front-template = 正面模板
@@ -25,8 +25,8 @@ card-templates-no-front-field = 卡片模板正面應有欄位替換。
 card-templates-missing-cloze = 卡片正面和背面應有'{ "{{" }cloze:Text{ "}}" }'或類似的文字。
 card-templates-extraneous-cloze = 'cloze:'只能用於克漏字筆記類型。
 card-templates-see-preview = 查看預覽以取得更多資訊。
-card-templates-changes-saved = 已儲存更改。
-card-templates-discard-changes = 捨棄更改？
+card-templates-changes-saved = 已儲存更動。
+card-templates-discard-changes = 捨棄所作更動
 card-templates-add-card-type = 新增卡片類型...
 card-templates-anki-couldnt-find-the-line-between = Anki 找不到問題和答案之間的水平線，請手動調整模板以交換問題和答案。
 card-templates-at-least-one-card-type-is = 需要至少一個卡片類型。
@@ -35,13 +35,13 @@ card-templates-card = 卡片 { $val }
 card-templates-card-types-for = { $val }的卡片類型
 card-templates-cloze = 克漏字 { $val }
 card-templates-deck-override = 覆寫牌組...
-card-templates-delete-the-as-card-type-and = 刪除「{ $template }」卡片類型，以及它的 { $cards }？
-card-templates-enter-deck-to-place-new = 請輸入要將新的 { $val } 卡片放入的牌組名稱（可留空）：
-card-templates-enter-new-card-position-1 = 輸入新的卡片順序（1...{ $val }）：
+card-templates-delete-the-as-card-type-and = 刪除「{ $template }」卡片類型，及其 { $cards }？
+card-templates-enter-deck-to-place-new = 請輸入要將新的 { $val } 卡片放入的牌組名稱 (可留空)：
+card-templates-enter-new-card-position-1 = 輸入新的卡片順序 (1...{ $val }):
 card-templates-flip = 反轉
 card-templates-form = 表單
-card-templates-off = （關閉）
-card-templates-on = （開啟）
+card-templates-off = (關閉)
+card-templates-on = (開啟)
 card-templates-remove-card-type = 移除卡片類型...
 card-templates-rename-card-type = 重新命名卡片類型
 card-templates-reposition-card-type = 調整卡片類型順序...
@@ -51,5 +51,5 @@ card-templates-card-count =
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-       *[other] 此動作將建立 { $count } 張卡片。是否繼續？
+       *[other] 將建立 { $count } 張卡片。繼續？
     }

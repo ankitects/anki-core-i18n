@@ -29,9 +29,9 @@ sync-confirm-empty-download = 本地集合沒有任何卡片，是否要從 Anki
 sync-conflict-explanation =
     本地牌組與 AnkiWeb 牌組之間的差異無法合併，因此必須以覆寫本地或 AnkiWeb 上的牌組。
     
-    若你選擇下載，Anki 會從 AnkiWeb 下載集合，而自上次同步以後，你在電腦做出的所有變更將會遺失。
+    若你選擇下載，Anki 會從 AnkiWeb 下載集合，而自上次同步以後，你在電腦所作的更動將全部遺失。
     
-    若選擇上傳，Anki 會將集合上傳至 AnkiWeb，而自上次同步至此裝置以後，你在 AnkiWeb 或其他裝置做出的所有變更將會遺失。
+    若選擇上傳，Anki 會將集合上傳至 AnkiWeb，而自上次同步至此裝置以後，你在 AnkiWeb 或其他裝置所作的更動將全部遺失。
     
     當所有的裝置都同步以後，未來的複習及新增的卡片都能自動合併。
 sync-ankiweb-id-label = AnkiWeb ID：
@@ -43,8 +43,8 @@ sync-sanity-check-failed = 請使用「檢查資料庫」功能，然後再次�
 sync-clock-off = 無法同步——你的時鐘設定時間不正確。
 sync-upload-too-large =
     你的集合檔案過大，無法傳送至 AnkiWeb。你可以移除不需要的牌組
-    （可以先匯出牌組）來減少檔案大小，並使用檢查資料庫來縮減檔案大小。
-    （{ $details }）
+    (可以先匯出牌組) 來減少檔案大小，並使用檢查資料庫來縮減檔案大小。
+    ({ $details })
 
 ## Buttons
 
