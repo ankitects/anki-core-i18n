@@ -214,4 +214,4 @@ deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔至少�
 
 ## Selecting a deck
 
-deck-config-which-deck = 你想要哪個牌組？
+deck-config-which-deck = 請選擇牌組

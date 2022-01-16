@@ -25,7 +25,7 @@ sync-client-too-old = 你的 Anki 版本太舊。請更新至最新版本以繼�
 sync-wrong-pass = AnkiWeb ID 或者密碼錯誤；請再試一次。
 sync-resync-required = 請再次同步。若此訊息持續出現，請回報至支援網站。
 sync-must-wait-for-end = Anki 正在同步。請等待同步完成，然後再試一次。
-sync-confirm-empty-download = 本地集合沒有任何卡片，是否要從 AnkiWeb 下載？
+sync-confirm-empty-download = 本地集合沒有任何卡片。是否從 AnkiWeb 下載？
 sync-conflict-explanation =
     本地牌組與 AnkiWeb 牌組之間的差異無法合併，因此必須以覆寫本地或 AnkiWeb 上的牌組。
     
