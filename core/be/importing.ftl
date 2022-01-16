@@ -3,14 +3,14 @@ importing-aborted = Перарвана: { $val }
 importing-allow-html-in-fields = Дазволіць HTML у палях
 importing-appeared-twice-in-file = З'явілася ў файле двойчы: { $val }
 importing-change = Змяніць
-importing-colon = Двукроп'е
-importing-comma = Коска
-importing-empty-first-field = Першае поле пустое: { $val }
+importing-colon = Двукроп'я
+importing-comma = Коскі
+importing-empty-first-field = Першае пустое поле: { $val }
 importing-field-mapping = Супастаўленне палёў
 importing-field-of-file-is = Поле <b>{ $val }</b> з файлу з'яўляецца:
 importing-fields-separated-by = Палі падзелены з дапамогай: { $val }
 importing-file-version-unknown-trying-import-anyway = Версія файла невядома, спрабую імпартаваць усё роўна.
-importing-first-field-matched = Супала першае поле: { $val }
+importing-first-field-matched = Першае супаўшае поле: { $val }
 importing-identical = Аднолькавыя
 importing-ignore-field = Ігнараваць поле
 importing-ignore-lines-where-first-field-matches = Ігнараваць радкі, дзе першае поле супадае з існуючай нататкай
@@ -18,11 +18,23 @@ importing-ignored = <ігнаравана>
 importing-import-even-if-existing-note-has = Імпартаваць, нават калі існуе нататка з такім жа першым полем
 importing-import-options = Параметры імпарту
 importing-importing-complete = Імпартаванне завершана.
-importing-semicolon = Кропка з коскаю
+importing-invalid-file-please-restore-from-backup = Памылковы файл. Аднавіце яго з рэзервовай копіі.
+importing-map-to = Супаставіць да { $val }
+importing-map-to-tags = Супаставіць да цэтлікаў
+importing-mapped-to = супастаўлена да <b>{ $val }</b>
+importing-mapped-to-tags = супастаўлена да <b>цэтлікаў</b>
+importing-notes-added-from-file = Нататкі, дадзеныя з файла: { $val }
+importing-notes-found-in-file = Нататак знойдзена ў файле: { $val }
+importing-semicolon = Кропкі з коскаю
 importing-skipped = Прапушчана
 importing-supermemo-xml-export-xml = Экспарт XML для Supermemo (*.xml)
-importing-tab = Табуляцыя
+importing-tab = Табуляцыі
 importing-tag-modified-notes = Пазначыць змененыя нататкі цэтлікам:
+importing-the-first-field-of-the-note = Першае поле тыпу нататкі павінна быць супастаўленым.
+importing-the-provided-file-is-not-a = Паданы файл не з'яўляецца сапраўдным файлам .apkg.
+importing-unable-to-import-from-a-readonly = Немагчыма імпартаваць з файла толькі для чытання.
+importing-unknown-file-format = Невядомы фармат файла.
+importing-update-existing-notes-when-first-field = Абнавіць існуючыя нататкі, калі першае поле супадае
 importing-updated = Абноўлена
 importing-note-added =
     { $count ->
@@ -34,14 +46,28 @@ importing-note-added =
 importing-note-imported =
     { $count ->
         [one] Імпартавана { $count } нататка
-        [few] Імпартавана { $count } нататкі
+        [few] Імпартаваны { $count } нататкі
         [many] Імпартавана { $count } нататак
        *[other] Імпартавана { $count } нататак
     }.
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } нататка не змянілася
+        [few] { $count } нататкі не змяніліся
+        [many] { $count } нататак не змянілася
+       *[other] { $count } нататак не змянілася
+    }
 importing-note-updated =
     { $count ->
         [one] Абноўлена { $count } нататка
-        [few] Абноўлена { $count } нататкі
+        [few] Абноўлены { $count } нататкі
         [many] Абноўлена { $count } нататак
        *[other] Абноўлена { $count } нататак
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Апрацавана { $count } медыяфайл
+        [few] Апрацаваны { $count } медыяфайлы
+        [many] Апрацавана { $count } медыяфайлаў
+       *[other] Апрацавана { $count } медыяфайлаў
     }
