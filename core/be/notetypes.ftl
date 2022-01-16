@@ -3,7 +3,7 @@
 
 ## Default note type names
 
-notetypes-cloze-name = Тэст з прабеламі
+notetypes-cloze-name = З прабеламі
 
 ## Default card template names
 
