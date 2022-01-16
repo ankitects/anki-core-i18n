@@ -25,6 +25,7 @@ card-templates-at-least-one-card-type-is = Неабходны як мініму�
 card-templates-browser-appearance = Выгляд браўзера...
 card-templates-card = Картка { $val }
 card-templates-card-types-for = Тыпы картак для { $val }
+card-templates-cloze = Тэст з прабеламі { $val }
 card-templates-enter-new-card-position-1 = Увядзіце новую пазіцыю для карткі (1...{ $val }):
 card-templates-flip = Перавярнуць
 card-templates-off = (выкл.)
