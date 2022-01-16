@@ -48,7 +48,7 @@ deck-config-new-insertion-order = 插入順序
 deck-config-new-insertion-order-tooltip =
     控制新增卡片時，新卡片被指派的順序（到期 #）。
     卡片到期數字越小，學習時顯示的順序就越前。
-    變更此選項將自動更新已存在的新卡片順序。
+    更改此選項將自動更新已存在的新卡片順序。
 deck-config-new-insertion-order-sequential = 循序（最舊的卡片在前）
 deck-config-new-insertion-order-random = 隨機
 

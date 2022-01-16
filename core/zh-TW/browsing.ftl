@@ -20,11 +20,11 @@ browsing-cards-deleted =
     { $count ->
        *[other] 已刪除 { $count } 張卡片。
     }
-browsing-change-deck = 變更牌組
-browsing-change-deck2 = 變更牌組...
-browsing-change-note-type = 變更筆記類型
-browsing-change-note-type2 = 變更筆記類型...
-browsing-change-notetype = 變更筆記類型
+browsing-change-deck = 更改牌組
+browsing-change-deck2 = 更改牌組...
+browsing-change-note-type = 更改筆記類型
+browsing-change-note-type2 = 更改筆記類型...
+browsing-change-notetype = 更改筆記類型
 browsing-clear-unused-tags = 清理未使用的標籤
 browsing-confirm-saved-search-overwrite = 已經存在名稱為 { $name } 的搜尋條件。要覆寫它嗎？
 browsing-created = 建立日期
@@ -127,7 +127,7 @@ browsing-sidebar-save-current-search = 儲存當前搜尋條件
 browsing-sidebar-card-state = 卡片狀態
 browsing-sidebar-flags = 旗標
 browsing-today = 今日卡片
-browsing-tooltip-card-modified = 上一次卡片修改，包括複習、旗標和牌組變更
+browsing-tooltip-card-modified = 上一次卡片修改，包括複習、旗標和牌組更改
 browsing-tooltip-note-modified = 上一次筆記修改，通常為欄位內容或標籤編輯
 browsing-tooltip-card = 卡片的卡片模板名稱
 browsing-tooltip-cards = 筆記擁有的卡片數量
@@ -150,7 +150,7 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-       *[other] 已變更 { $count } 張新卡片的順序。
+       *[other] 已更改 { $count } 張新卡片的順序。
     }
 browsing-reparented-decks =
     { $count ->

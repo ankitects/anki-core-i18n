@@ -2,7 +2,7 @@
 card-templates-blank = 空格
 card-templates-changes-will-affect-notes =
     { $count ->
-       *[other] 以下變更將會影響 { $count } 則使用此卡片類型的筆記。
+       *[other] 以下更改將會影響 { $count } 則使用此卡片類型的筆記。
     }
 card-templates-card-type = 卡片類型：
 card-templates-front-template = 正面模板
@@ -25,14 +25,13 @@ card-templates-no-front-field = 卡片模板正面應有欄位替換。
 card-templates-missing-cloze = 卡片正面和背面應有'{ "{{" }cloze:Text{ "}}" }'或類似的文字。
 card-templates-extraneous-cloze = 'cloze:'只能用於克漏字筆記類型。
 card-templates-see-preview = 查看預覽以取得更多資訊。
-card-templates-changes-saved = 已儲存變更。
-card-templates-discard-changes = 是否捨棄變更？
+card-templates-changes-saved = 已儲存更改。
+card-templates-discard-changes = 捨棄更改？
 card-templates-add-card-type = 新增卡片類型...
 card-templates-anki-couldnt-find-the-line-between = Anki 找不到問題和答案之間的水平線，請手動調整模板以交換問題和答案。
 card-templates-at-least-one-card-type-is = 需要至少一個卡片類型。
 card-templates-browser-appearance = 瀏覽器預覽樣式...
 card-templates-card = 卡片 { $val }
-card-templates-card-types = 卡片類型
 card-templates-card-types-for = { $val }的卡片類型
 card-templates-cloze = 克漏字 { $val }
 card-templates-deck-override = 覆寫牌組...
