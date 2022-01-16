@@ -4,6 +4,9 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
+search-invalid-search = Памылковы пошук: { $reason }
+search-misplaced-and = знойдзена «and», але яно не злучае два пошукавых выраза. Калі вы хочаце шукаць само слова, абгарніце яго ў двукоссі: «"and"».
+search-misplaced-or = знойдзена «or», але яно не злучае два пошукавых выраза. Калі вы хочаце шукаць само слова, абгарніце яго ў двукоссі: «"or"».
 
 ## eg. expected a number in "due>5x", but found "5x"
 

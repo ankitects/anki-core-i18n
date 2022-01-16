@@ -1,0 +1,1 @@
+preferences-basic = Асноўнае
