@@ -23,6 +23,9 @@ editing-justify = Выраўнаваць па баках
 editing-latex = LaTeX
 editing-latex-equation = Ураўненне LaTeX
 editing-latex-math-env = Мат. асяроддзе LaTeX
+editing-mathjax-block = Блок MathJax
+editing-media = Медыя
+editing-ordered-list = Упарадкаваны спіс
 editing-to-make-a-cloze-deletion-on = Каб дадаць запаўненне прабела да існуючай нататкі, неабходна спачатку змяніць яе тып на «З прабеламі», праз «Нататкі > Змяніць тып нататкі»
 editing-warning-cloze-deletions-will-not-work = Увага, запаўненні прабелаў не будуць працаваць,пакуль вы не пераключыце тып на «З прабеламі» уверсе.
 
