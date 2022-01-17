@@ -9,6 +9,7 @@ editing-cards = Карткі
 editing-center = Па цэнтры
 editing-change-color = Змяніць колер
 editing-cloze-deletion = Запаўненне прабела
+editing-couldnt-record-audio-have-you-installed = Не атрымалася запісаць аўдыя. Вы ўсталявалі «lame»?
 editing-cut = Выразаць
 editing-edit-current = Рэдагаваць бягучую
 editing-edit-html = Рэдагаваць HTML
@@ -26,8 +27,24 @@ editing-latex-math-env = Мат. асяроддзе LaTeX
 editing-mathjax-block = Блок MathJax
 editing-media = Медыя
 editing-ordered-list = Упарадкаваны спіс
+editing-outdent = Паменшыць водступ
+editing-paste = Уставіць
+editing-record-audio = Запісаць аўдыя
+editing-remove-formatting = Выдаліць фармаціраванне
+editing-set-text-color = Задаць колер тэксту
+editing-set-text-highlight-color = Задаць колер падсветкі тэксту
+editing-show-duplicates = Паказаць дублікаты
+editing-subscript = Ніжні індэкс
+editing-superscript = Верхні індэкс
+editing-tags = Цэтлікі
 editing-to-make-a-cloze-deletion-on = Каб дадаць запаўненне прабела да існуючай нататкі, неабходна спачатку змяніць яе тып на «З прабеламі», праз «Нататкі > Змяніць тып нататкі»
+editing-toggle-html-editor = Пераключыць рэдактар HTML
+editing-toggle-sticky = Пераключыць заліпанне
+editing-toggle-visual-editor = Пераключыць візуальны рэдактар
+editing-underline-text = Падкрэслены тэкст
+editing-unordered-list = Неўпарадкаваны спіс
 editing-warning-cloze-deletions-will-not-work = Увага, запаўненні прабелаў не будуць працаваць,пакуль вы не пераключыце тып на «З прабеламі» уверсе.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = Рэдактак HTML
