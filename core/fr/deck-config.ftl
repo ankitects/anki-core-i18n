@@ -113,6 +113,7 @@ deck-config-maximum-answer-secs = Temps de réponse maximum
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Ne pas lire les fichiers audio automatiquement
+deck-config-skip-question-when-replaying = Sauter la question quand la réponse est rejouée
 
 ## Advanced section
 
