@@ -4,6 +4,24 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Больш інфармацыі
+card-template-rendering-front-side-problem = Праблема з шаблонам пярэдняга боку:
+card-template-rendering-back-side-problem = Праблема з шаблонам адваротнага боку:
+# when the user forgot to close a field reference,
+# eg, Missing '}}' in '{{Field'
+card-template-rendering-no-closing-brackets = У «{ $tag }» адсутнічае «{ $missing }»
+# when the user opened a conditional, but forgot to close it
+# eg, Missing '{{/Conditional}}'
+card-template-rendering-conditional-not-closed = Адсутнічае «{ $missing }»
+# when the user closed the wrong conditional
+# eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
+card-template-rendering-wrong-conditional-closed = Знойдзена «{ $found }», але чакалася «{ $expected }»
+# when the user closed a conditional that wasn't open
+# eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
+card-template-rendering-conditional-not-open = Знойдзена «{ $found }», але адсутнічае «{ $missing1 }» або «{ $missing2 }»
+# This message is shown when the front side of the card is blank,
+# either due to a badly-designed template, or because required fields
+# are missing.
+card-template-rendering-empty-front = Пярэдні бок гэтай карткі пусты.
 card-template-rendering-missing-cloze =
     Прабел { $number } не знойдзены на картцы.
     Дадайце запаўненне прабела або скарыстайцеся інструментам «Пустыя карткі».
