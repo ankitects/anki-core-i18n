@@ -1,6 +1,11 @@
+custom-study-all-review-cards-in-random-order = Усе карткі да перагляду ў выпадковым парадку
 custom-study-cards = карткі
 custom-study-cards-from-the-deck = карткі з калоды
 custom-study-choose-tags = Выбраць цэтлікі
+custom-study-new-cards-only = Толькі новыя карткі
 custom-study-ok = Добра
 custom-study-preview-new-cards = Перадпрагляд новых картак
+custom-study-review-forgotten-cards = Пераглядзець забытыя карткі
 custom-study-select = Выбраць
+custom-study-selective-study = Выбарачнае навучанне
+custom-study-study-by-card-state-or-tag = Вучыць паводле цэтліка або стану карткі

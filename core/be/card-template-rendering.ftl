@@ -18,6 +18,9 @@ card-template-rendering-wrong-conditional-closed = Знойдзена «{ $found
 # when the user closed a conditional that wasn't open
 # eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
 card-template-rendering-conditional-not-open = Знойдзена «{ $found }», але адсутнічае «{ $missing1 }» або «{ $missing2 }»
+# when the user referenced a field that doesn't exist
+# eg, Found '{{Field}}', but there is not field called 'Field'
+card-template-rendering-no-such-field = Знойдзена «{ $found }», але няма поля з назвай «{ $field }»
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
