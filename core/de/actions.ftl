@@ -49,7 +49,7 @@ actions-remove-notetype = Notiztyp entfernen
 actions-update-notetype = Notiztyp aktualisieren
 actions-update-config = Konfiguration aktualisieren
 actions-card-info = Karteninformation
-actions-previous-card-info = Vorherige Karte - Info
+actions-previous-card-info = Vorherige Karteninformation
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
