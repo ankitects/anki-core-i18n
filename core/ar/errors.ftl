@@ -9,3 +9,8 @@ errors-100-tags-max =
     لتحديد الوسوم الفرعية إذا حددت وسمها الأب.
 errors-multiple-notetypes-selected = يرجى تحديد ملحوظات من نوع ملحوظة واحد فقط.
 errors-please-check-database = استخدم ميزة فحص قاعدة البيانات ثم حاول مجددًا.
+
+## Card Rendering
+
+errors-bad-directive = خطأ في الأمر '{ $directive }': { $error }
+errors-option-not-set = '{ $option }' ليس مضبوطًا

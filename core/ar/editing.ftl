@@ -19,7 +19,6 @@ editing-fields = الحقول
 editing-float-left = محاذاة لليسار
 editing-float-right = محاذاة لليمين
 editing-float-none = لا محاذاة
-editing-html-editor = محرر HTML
 editing-indent = زيادة الإزاحة
 editing-italic-text = خط مائل
 editing-jump-to-tags-with-ctrlandshiftandt = انتقل إلى الوسوم باستخدام Ctrl+Shift+T
@@ -44,10 +43,13 @@ editing-subscript = خط تحتي
 editing-superscript = خط فوقي
 editing-tags = وسوم
 editing-to-make-a-cloze-deletion-on = لصنع عبارة ملء فراغات في ملحوظة موجودة، عليك تغيير نوعها إلى نوع ملء الفراغات أولًا، عبر 'ملحوظات>تغيير نوع الملحوظة'
+editing-toggle-html-editor = تفعيل محرر HTML أو إيقافه
 editing-toggle-sticky = تفعيل/إيقاف ثبات النص
+editing-toggle-visual-editor = تفعيل المحرر المرئي أو إيقافه
 editing-underline-text = خط تحت النص
 editing-unordered-list = قائمة غير مرقمة
 editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء الفراغات لن تعمل حتى تغيّر النوع في الأعلى إلى نوع ملء الفراغات.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = محرر HTML
