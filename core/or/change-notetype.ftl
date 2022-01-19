@@ -1,5 +1,7 @@
 change-notetype-current = ସାମ୍ପ୍ରତିକ
 change-notetype-new = ନୂତନ
+change-notetype-collapse = ସଙ୍କୋଚନ
+change-notetype-expand = ପ୍ରସାରଣ
 change-notetype-will-discard-content = ନିମ୍ନଲିଖିତ କ୍ଷେତ୍ରଗୁଡ଼ିକରେ ବିଷୟବସ୍ତୁକୁ ପରିତ୍ୟାଗ କରିବ:
 change-notetype-will-discard-cards = ନିମ୍ନଲିଖିତ ପତ୍ରଗୁଡ଼ିକୁ ଅପସାରଣ କରିବ:
 change-notetype-fields = କ୍ଷେତ୍ରଗୁଡ଼ିକ
