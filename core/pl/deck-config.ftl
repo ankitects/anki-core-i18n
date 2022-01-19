@@ -46,6 +46,9 @@ deck-config-ordering-title = Kolejność wyświetlania
 deck-config-new-gather-priority = Porządek zbierania nowych kart
 deck-config-new-gather-priority-deck = Talia
 deck-config-new-card-sort-order = Kolejność nowych kart
+deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
+deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
+deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
 deck-config-review-sort-order = Porządek przeglądania
 deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowy
 deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
@@ -77,13 +80,13 @@ deck-config-name-prompt = Nazwa
 
 ## Removing
 
-deck-config-confirm-normal = Usunąć { $name }?
 deck-config-confirm-remove-name = Usunąć { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Zapisz
 deck-config-save-to-all-subdecks = Zapisz do wszystkich podtalii
+deck-config-revert-button-tooltip = Przywróć to ustawienie do domyślnej wartości
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.

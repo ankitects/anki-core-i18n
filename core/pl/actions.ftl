@@ -5,6 +5,7 @@ actions-cancel = Anuluj
 actions-choose = Wybierz
 actions-close = Zamknij
 actions-copy = Kopiuj
+actions-create-copy = Stwórz kopię
 actions-custom-study = Nauka własna
 actions-decks = Talie
 actions-delete = Usuń
@@ -33,7 +34,6 @@ actions-select = Wybór
 actions-shortcut-key = Skrót klawiszowy: { $val }
 actions-suspend-card = Zawieszenie karty
 actions-set-due-date = Ustawienie termin
-actions-forget = Zapomnienie
 actions-answer-card = Odpowiedź do karty
 actions-unbury-unsuspend = Odkopanie/odwieszenie
 actions-add-deck = Dodanie talii
@@ -44,12 +44,12 @@ actions-update-card = Aktualizacja karty
 actions-update-deck = Aktualizacja talii
 actions-forget-card = Zapomnienie karty
 actions-build-filtered-deck = Zbudowanie talii
-actions-expand-collapse = Rozwinięcie/zwinięcie
 actions-add-notetype = Dodanie typu notatki
 actions-remove-notetype = Usunięcie typu notatki
 actions-update-notetype = Aktualizacja typu notatki
 actions-update-config = Aktualizacja konfiguracji
 actions-card-info = Informacje o karcie
+actions-previous-card-info = Informacje o poprzedniej karcie
 
 ## Flags
 

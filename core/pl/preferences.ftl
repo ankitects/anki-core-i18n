@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = Niektóre ustawienia zadział
 preferences-synchronisation = <b>Synchronizacja</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synchronizacja</b><br> Aktualnie wyłączona; kliknij przycisk synchronizacji w oknie głównym, aby ją włączyć.
 preferences-synchronize-audio-and-images-too = Synchronizuj również dźwięki i obrazy
-preferences-this-will-reset-any-cards-in = Zostaną usunięte karty w nauce, filtrowane talie będą wyczyszczone, a wersja planisty zmieniona. Kontynuować?
 preferences-timebox-time-limit = Limit czasowy na sesję
 preferences-user-interface-size = Rozmiar interfejsu
 preferences-when-adding-default-to-current-deck = Dodawaj domyślnie do aktualnej talii
@@ -38,3 +37,7 @@ preferences-you-can-restore-backups-via-fileswitch = Możesz przywrócić kopie 
 preferences-legacy-timezone-handling = Przestarzała obsługa stref czasowych (posiadająca błędy, lecz wymagana do obsługi AnkiDroid <=  2.14)
 preferences-default-search-text = Domyślny tekst wyszukiwania
 preferences-default-search-text-example = np. "deck:current "
+preferences-theme-follow-system = Używaj systemowego
+preferences-theme-light = Jasny
+preferences-theme-dark = Ciemny
+preferences-v3-scheduler = algorytm planowania V3

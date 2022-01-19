@@ -15,7 +15,6 @@ editing-cut = Wytnij
 editing-edit-current = Edytuj aktualną
 editing-edit-html = Edytuj HTML
 editing-fields = Pola
-editing-html-editor = Edytor HTML
 editing-indent = Zwiększ wcięcie
 editing-italic-text = Pochylenie
 editing-jump-to-tags-with-ctrlandshiftandt = Przeskocz do etykiet z Ctrl+Shift+T
@@ -39,6 +38,7 @@ editing-subscript = Indeks dolny
 editing-superscript = indeks górny
 editing-tags = Etykiety
 editing-to-make-a-cloze-deletion-on = Aby wprowadzić wypełnianie luk do istniejącej notatki, musisz zmienić jej typ na lukę poprzez Notatki>Zmień typ notatki
+editing-toggle-html-editor = Przełącz edytor HTML
 editing-toggle-sticky = Przełącz przyklejenie
 editing-underline-text = Podkreślenie
 editing-unordered-list = Lista nieuporządkowana
@@ -46,16 +46,4 @@ editing-warning-cloze-deletions-will-not-work = Uwaga: wypełnianie luk nie będ
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = Pogrubienie (Ctrl+B)
-editing-italic-text-ctrlandi = Pochylenie (Ctrl+I)
-editing-underline-text-ctrlandu = Podkreślenie (Ctrl+U)
-editing-subscript-ctrland = Indeks dolny (Ctrl+=)
-editing-superscript-ctrlandand = Indeks górny (Ctrl++)
-editing-remove-formatting-ctrlandr = Usuń formatowanie (Ctrl+R)
-editing-record-audio-f5 = Nagraj dźwięk (F5)
-editing-attach-picturesaudiovideo-f3 = Załącz obraz/dźwięk/wideo (F3)
-editing-cloze-deletion-ctrlandshiftandc = Luki (Ctrl+Shift+C)
-editing-change-colour-f8 = Zmień kolor (F8)
-editing-set-foreground-colour-f7 = Ustaw kolor czcionki (F7)
-editing-customize-card-templates-ctrlandl = Dostosuj szablony kart (Ctrl+L)
-editing-set-foreground-color = Ustaw kolor czcionki
+editing-html-editor = Edytor HTML
