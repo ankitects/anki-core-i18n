@@ -40,6 +40,7 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Парадак паказвання
 deck-config-new-gather-priority-deck = Калода
+deck-config-new-card-sort-order = Парадак сартавання новых картак
 deck-config-sort-order-random = Выпадковы
 
 ## Timer section
@@ -65,9 +66,11 @@ deck-config-rename-group = Перайменаваць перадвызначан
 ## Removing
 
 deck-config-remove-group = Выдаліць перадвызначаныя налады
+deck-config-confirm-remove-name = Выдаліць { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Захаваць
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
