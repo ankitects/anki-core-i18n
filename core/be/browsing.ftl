@@ -29,6 +29,7 @@ browsing-change-note-type = Змяніць тып нататкі
 browsing-change-note-type2 = Змяніць тып нататкі...
 browsing-change-notetype = Змяніць тып нататкі
 browsing-clear-unused-tags = Ачысціць неўжываныя цэтлікі
+browsing-confirm-saved-search-overwrite = Захаваны пошук пад назвай { $name } ужо існуе. Вы хочаце яго перазапісаць?
 browsing-created = Створана
 browsing-current-deck = Бягучая калода
 browsing-current-note-type = Бягучы тып нататкі:
@@ -99,10 +100,33 @@ browsing-treat-input-as-regular-expression = Трактаваць увод як 
 browsing-update-saved-search = Абнавіць з бягучым пошукам
 browsing-whole-collection = Уся калекцыя
 browsing-window-title-notes = Праглядзець (выбрана { $selected } з { $total } нататак)
+browsing-note-count =
+    { $count ->
+        [one] { $count } нататка
+        [few] { $count } нататкі
+        [many] { $count } нататак
+       *[other] { $count } нататак
+    }
 browsing-window-title = Праглядзець (выбрана { $selected } з { $total } картак)
+browsing-sidebar-decks = Калоды
+browsing-sidebar-tags = Цэтлікі
 browsing-sidebar-notetypes = Тыпы нататак
+browsing-sidebar-saved-searches = Захаваныя пошукі
+browsing-sidebar-save-current-search = Захаваць бягучы пошук
+browsing-sidebar-card-state = Стан карткі
+browsing-sidebar-flags = Сцяжкі
+browsing-today = Сёння
+browsing-tooltip-card = Назва шаблону для карткі
+browsing-tooltip-cards = Колькасць картак, якія ёсць у нататцы
 browsing-tooltip-notetype = Назва тыпу для нататкі
+browsing-studied-today = Вывучана
+browsing-added-today = Дададзена
+browsing-again-today = Зноў
 browsing-edited-today = Рэдагавана
+browsing-sidebar-first-review = Першы перагляд
+browsing-sidebar-untagged = Без цэтліка
+browsing-sidebar-overdue = Пратэрмінавана
+browsing-row-deleted = (выдалена)
 
 ## obsolete; no need to translate
 
