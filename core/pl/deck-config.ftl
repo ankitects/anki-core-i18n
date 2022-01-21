@@ -18,6 +18,8 @@ deck-config-title = Opcje talii
 ## Daily limits section
 
 deck-config-daily-limits = Dzienne limity
+deck-config-new-limit-tooltip = Maksymalna liczba nowych kart do pokazania na dzień. Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy, powinno to być co najmniej 10 razy mniej niż limit powtórek.
+deck-config-review-limit-tooltip = Maksymalna dzienna liczba powtórek.
 
 ## New Cards section
 
@@ -39,6 +41,7 @@ deck-config-relearning-steps = Kroki ponownej nauki
 deck-config-bury-title = Zakopywanie
 deck-config-bury-new-siblings = Zakop nowe podobne do następnego dnia
 deck-config-bury-review-siblings = Zakop przeglądane podobne do następnego dnia
+deck-config-bury-tooltip = Ta opcja kontroluje, czy karty z tej samej notatki(np. karty odwrotne lub sąsiadujące luki) zostaną odłożone do następnego dnia.
 
 ## Ordering section
 
@@ -57,11 +60,13 @@ deck-config-sort-order-ascending-intervals = Po rosnącym odstępie
 deck-config-sort-order-descending-intervals = Po malejącym odstępie
 deck-config-sort-order-ascending-ease = Po rosnącej łatwości
 deck-config-sort-order-descending-ease = Po malejącej łatwości
+deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
 
 ## Timer section
 
 deck-config-timer-title = Czasomierz
 deck-config-maximum-answer-secs = Maksymalna liczba sekund na odpowiedź
+deck-config-show-answer-timer-tooltip = Pokaż w trybie przeglądania stoper, który pokazuje, ile sekund zajmuje ci przejrzenie danej karty.
 
 ## Audio section
 
@@ -72,6 +77,12 @@ deck-config-skip-question-when-replaying = Pomiń pytanie przy ponownym odtwarza
 ## Advanced section
 
 deck-config-advanced-title = Zaawansowane
+deck-config-starting-ease-tooltip = Współczynnik łatwości nowych kart. Domyślnie, wciśnięcie "Dobra" na świeżo nauczonej karcie odłoży w czasie następną powtórkę o 2,5 raza dłużej, niż wynosił wcześniejszy interwał.
+deck-config-easy-bonus-tooltip = Dodatkowy mnożnik, który modyfikuje interwał karty powtórkowej, gdy ocenisz ją jako "Łatwa".
+deck-config-interval-modifier-tooltip = Ten mnożnik jest stosowany przy wszystkich powtórkach. Delikatne zmiany mogą być wykorzystane, aby sprawić, żeby Anki planowało powtórki bardziej agresywnie lub zachowawczo. Przeczytaj poradnik przed zmianą tego ustawienia.
+deck-config-hard-interval-tooltip = Mnożnik stosowany do interwału karty przy odpowiedzi "Trudna".
+deck-config-new-interval-tooltip = Mnożnik stosowany do interwału karty przy odpowiedzi "Powtórz".
+deck-config-minimum-interval-tooltip = Minimalny interwał przypisywany karcie powtórkowej przy odpowiedzi "Powtórz".
 deck-config-custom-scheduling = Własne planowanie
 
 ## Adding/renaming

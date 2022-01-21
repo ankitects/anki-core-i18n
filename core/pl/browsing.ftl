@@ -16,12 +16,6 @@ browsing-card = Karta
 browsing-card-initial = K
 browsing-card-list = Lista kart
 browsing-cards-cant-be-manually-moved-into = Karty nie mogą być przeniesione ręcznie do talii filtrowanej.
-browsing-cards-deleted =
-    { $count ->
-        [one] { $count } karta usunięta.
-        [few] { $count } karty usunięte.
-       *[other] { $count } kart usuniętych.
-    }
 browsing-change-deck = Zmień talię
 browsing-change-deck2 = Zmień talię...
 browsing-change-note-type = Zmień typ notatki
