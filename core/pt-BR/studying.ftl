@@ -6,9 +6,13 @@ studying-buried-siblings = Irmãos Enterrados
 studying-bury = Ocultar
 studying-bury-card = Ocultar Carta
 studying-bury-note = Ocultar Nota
-studying-card-buried = Carta ocultada.
 studying-card-suspended = Carta suspensa.
 studying-card-was-a-leech = A carta era um sanguessuga.
+studying-cards-buried =
+    { $count ->
+        [one] cartão ocultado.
+       *[other] cartões ocultados.
+    }
 studying-cards-will-be-automatically-returned-to = As cartas voltarão automaticamente aos seus baralhos originais depois da revisão.
 studying-continue = Avançar
 studying-delete-note = Excluir Nota
@@ -25,7 +29,6 @@ studying-manually-buried-cards = Cartas Ocultadas Manualmente
 studying-mark-note = Nota de Marca
 studying-more = Mais
 studying-no-cards-are-due-yet = Nenhuma carta para ser revisada ainda.
-studying-note-buried = Nota ocultada.
 studying-note-suspended = Nota suspensa.
 studying-pause-audio = Pausar áudio
 studying-please-run-toolsempty-cards = Por favor, vá até Ferramentas > Cartas Vazias.
@@ -51,9 +54,4 @@ studying-minute =
     { $count ->
         [one] { $count } minuto.
        *[other] { $count } minutos.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] A nota e sua { $count } carta foram excluídas.
-       *[other] A nota e suas { $count } cartas foram excluídas.
     }

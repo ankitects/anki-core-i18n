@@ -19,7 +19,6 @@ editing-fields = Campos
 editing-float-left = Flutuante à esquerda
 editing-float-right = Flutuante à direita
 editing-float-none = Não flutuante
-editing-html-editor = Editor HTML
 editing-indent = Aumentar a identação
 editing-italic-text = Texto em itálico
 editing-jump-to-tags-with-ctrlandshiftandt = Ir para etiquetas com Ctrl+Shift+T
@@ -30,6 +29,7 @@ editing-latex-math-env = Matemática LaTeX
 editing-mathjax-block = bloco MathJax
 editing-mathjax-chemistry = Utilizar formato de entrada MathJax para equações químicas
 editing-mathjax-inline = MathJax em linha
+editing-mathjax-placeholder = Pressione { $accept } para aceitar, { $newline } para nova linha.
 editing-media = Mídia
 editing-ordered-list = Lista ordenada
 editing-outdent = Diminuir a identação
@@ -43,23 +43,13 @@ editing-subscript = Subscrito
 editing-superscript = Sobrescrito
 editing-tags = Etiquetas
 editing-to-make-a-cloze-deletion-on = Para omitir palavras em uma nota existente, você precisa mudá-la para o tipo Omissão de Palavras primeiro, em 'Editar>Mudar Tipo de Nota'
+editing-toggle-html-editor = Alternar para Editor de HTML
 editing-toggle-sticky = Alternar cola
+editing-toggle-visual-editor = Alternar para Editor Visual
 editing-underline-text = Sublinhar texto
 editing-unordered-list = Lista não-ordenada
 editing-warning-cloze-deletions-will-not-work = Atenção, omissões de palavras não funcionarão até que você mude o tipo na parte superior para Omissão de Palavras.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = Texto em Negrito (Ctrl+B)
-editing-italic-text-ctrlandi = Texto em Itálico (Ctrl+I)
-editing-underline-text-ctrlandu = Texto Sublinhado (Ctrl+U)
-editing-subscript-ctrland = Subscrito (Ctrl+=)
-editing-superscript-ctrlandand = Superscrito (Ctrl++)
-editing-remove-formatting-ctrlandr = Remover Formatação (Ctrl+R)
-editing-record-audio-f5 = Gravar áudio (F5)
-editing-attach-picturesaudiovideo-f3 = Anexar imagens/áudio/vídeo (F3)
-editing-cloze-deletion-ctrlandshiftandc = Omissão de palavras (Ctrl+Shift+C)
-editing-change-colour-f8 = Mudar cor (F8)
-editing-set-foreground-colour-f7 = Definir cor de primeiro plano (F7)
-editing-customize-card-templates-ctrlandl = Personalizar Modelos de Carta (Ctrl + L)
-editing-set-foreground-color = Definir cor de primeiro plano
+editing-html-editor = Editor HTML

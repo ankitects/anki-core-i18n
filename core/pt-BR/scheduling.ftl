@@ -98,6 +98,9 @@ scheduling-update-done = Agendador atualizado com sucesso.
 scheduling-update-button = Atualizar
 scheduling-update-later-button = Mais tarde
 scheduling-update-more-info-button = Saber Mais
+scheduling-update-required =
+    Sua coleção precisa ser atualizada para o agendador V2.
+    Selecione { scheduling-update-more-info-button } antes de continuar.
 
 ## Other scheduling strings
 
@@ -108,7 +111,6 @@ scheduling-bury-related-new-cards-until-the = Ocultar cartas relacionadas até o
 scheduling-bury-related-reviews-until-the-next = Ocultar revisões relacionadas até o próximo dia
 scheduling-days = dias
 scheduling-description = Descrição
-scheduling-description-to-show-on-overview-screen = Descrição a ser exibida na tela de revisão, para o baralho atual:
 scheduling-easy-bonus = Bônus por ser Fácil
 scheduling-easy-interval = Intervalo fácil
 scheduling-end = (fim)

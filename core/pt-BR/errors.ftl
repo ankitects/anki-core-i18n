@@ -10,3 +10,8 @@ errors-100-tags-max =
     etiqueta pai.
 errors-multiple-notetypes-selected = Por favor, selecione notas de apenas um tipo de nota.
 errors-please-check-database = Por favor, use "Verificar banco de dados", então tente novamente.
+
+## Card Rendering
+
+errors-bad-directive = Erro na diretiva '{ $directive }': { $error }
+errors-option-not-set = '{ $option }' não definido

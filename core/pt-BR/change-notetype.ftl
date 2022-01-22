@@ -1,5 +1,8 @@
 change-notetype-current = Atual
 change-notetype-new = Novo
+change-notetype-nothing = (Nada)
+change-notetype-collapse = Recolher
+change-notetype-expand = Expandir
 change-notetype-will-discard-content = Será descartado o conteúdo dos seguintes campos:
 change-notetype-will-discard-cards = As seguintes cartas serão removidas:
 change-notetype-fields = Campos

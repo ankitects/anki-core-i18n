@@ -30,7 +30,6 @@ preferences-some-settings-will-take-effect-after = Algumas configurações só s
 preferences-synchronisation = <b>Sincronização</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Sincronização</b><br> Desabilitado; clique no botão de sincronização na janela principal para ativá-la.
 preferences-synchronize-audio-and-images-too = Sincronizar áudios e imagens também
-preferences-this-will-reset-any-cards-in = Esta ação irá apagar todos as cartas de aprendizado dos baralhos selecionados e consequentemente alterará a versão do agendador. Deseja continuar mesmo assim?
 preferences-timebox-time-limit = Tempo limite
 preferences-user-interface-size = Tamanho da interface do usuário
 preferences-when-adding-default-to-current-deck = Ao criar, o padrão é o baralho atual
@@ -38,3 +37,8 @@ preferences-you-can-restore-backups-via-fileswitch = Você pode restaurar as có
 preferences-legacy-timezone-handling = Gerenciamento de fuso horário antigo (com erros, mas necessário para o AnkiDroid <= 2.14)
 preferences-default-search-text = Termo de pesquisa padrão
 preferences-default-search-text-example = ex. 'deck: current'
+preferences-theme-label = Tema: { $theme }
+preferences-theme-follow-system = Conforme o Sistema
+preferences-theme-light = Claro
+preferences-theme-dark = Escuro
+preferences-v3-scheduler = Agendador V3
