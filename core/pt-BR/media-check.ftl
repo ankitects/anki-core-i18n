@@ -20,8 +20,8 @@ media-check-subfolder-count = Subpastas: { $count }
 media-check-renamed-header = Alguns arquivos foram renomeados para compatibilidade:
 media-check-oversize-header = Arquivos acima de 100MB não podem ser sincronizados com AnkiWeb.
 media-check-subfolder-header = As pastas dentro da pasta de mídia não são suportadas.
-media-check-missing-header = Os seguintes arquivos são referenciados por cartas, mas não foram encontrados na pasta de mídia:
-media-check-unused-header = Os seguintes arquivos foram encontrados na pasta de mídia, mas não parecem ser usados em nenhuma carta:
+media-check-missing-header = Os seguintes arquivos são referenciados por cartões, mas não foram encontrados na pasta de mídia:
+media-check-unused-header = Os seguintes arquivos foram encontrados na pasta de mídia, mas não parecem ser usados em nenhum cartão:
 
 ## Shown once for each file
 

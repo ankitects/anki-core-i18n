@@ -1,12 +1,12 @@
 studying-again = Errei
-studying-all-buried-cards = Todas Cartas Ocultas
+studying-all-buried-cards = Todos os Cartõs Ocultos
 studying-audio-5s = Áudio -5s
 studying-audio-and5s = Áudio +5s
 studying-buried-siblings = Irmãos Enterrados
 studying-bury = Ocultar
-studying-bury-card = Ocultar Carta
+studying-bury-card = Ocultar Cartão
 studying-bury-note = Ocultar Nota
-studying-card-suspended = Carta suspensa.
+studying-card-suspended = Cartão suspenso.
 studying-card-was-a-leech = O cartão era um sanguessuga.
 studying-cards-buried =
     { $count ->

@@ -187,7 +187,7 @@ deck-config-starting-ease-tooltip =
     o botão `Bom` em uma carta recém-aprendida atrasará a próxima revisão 
     em 2,5 vezes o atraso anterior.
 deck-config-easy-bonus-tooltip =
-    Um multiplicador extra que é aplicado ao intervalo de uma carta de
+    Um multiplicador extra que é aplicado ao intervalo de um cartão de
     revisão ao responder `Fácil`.
 deck-config-interval-modifier-tooltip =
     Este multiplicador é aplicado a todas as revisões, e pequenos ajustes podem 
@@ -195,7 +195,7 @@ deck-config-interval-modifier-tooltip =
     programação. Por favor, veja o manual antes de alterar esta opção.
 deck-config-hard-interval-tooltip = O multiplicador aplicado a um intervalo de revisão ao responder 'Difícil'.
 deck-config-new-interval-tooltip = O multiplicador aplicado a um intervalo de revisão ao responder `Errei`.
-deck-config-minimum-interval-tooltip = O intervalo mínimo dado a uma carta de revisão após responder `Errei`.
+deck-config-minimum-interval-tooltip = O intervalo mínimo dado a um cartão de revisão após responder `Errei`.
 deck-config-custom-scheduling = Agendamento personalizado
 deck-config-custom-scheduling-tooltip = Afeta toda a coleção. Use por conta e risco!
 
@@ -209,7 +209,6 @@ deck-config-clone-group = Clonar Predefinição
 ## Removing
 
 deck-config-remove-group = Remover Predefinição
-deck-config-confirm-normal = Remover { $name }?
 deck-config-will-require-full-sync =
     A alteração solicitada exigirá uma sincronização unilateral. Se você fez alterações
     em outro dispositivo e ainda não os sincronizou com este, faça isso antes de
@@ -235,13 +234,13 @@ deck-config-description-new-handling-hint =
 
 deck-config-daily-limit-will-be-capped =
     Um baralho pai tem um limite de { $cards ->
-        [one] { $cards } carta
-       *[other] { $cards } cartas
+        [one] { $cards } cartão
+       *[other] { $cards } cartões
     }, que substituirá esse limite.
 deck-config-reviews-too-low =
     Adicionando{ $cards ->
-        [one] { $cards } nova carta a cada dia
-       *[other] { $cards } novas cartas a cada dia
+        [one] { $cards } novo cartão a cada dia
+       *[other] { $cards } novos cartões a cada dia
     }, seu limite de revisão deve ser de pelo menos { $expected }.
 deck-config-learning-step-above-graduating-interval = O intervalo de graduação deve ser pelo menos tão longo quanto sua etapa final de aprendizagem.
 deck-config-good-above-easy = O intervalo de facilidade deve ser pelo menos tão longo quanto o intervalo de graduação.
