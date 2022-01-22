@@ -77,7 +77,7 @@ browsing-remove-tags = Выдаліць цэтлікі...
 browsing-replace-with = <b>Замяніць на</b>:
 browsing-reposition = Перамясціць...
 browsing-reposition-new-cards = Перамясціць новыя карткі
-browsing-reschedule = Змяніць час
+browsing-reschedule = Пераназначыць час
 browsing-search-bar-hint = Шукаць карткі/нататкі (увядзіце тэкст, затым націсніце Enter)
 browsing-search-in = Шукаць у:
 browsing-search-within-formatting-slow = Шукаць у фарматаванні (павольна)
@@ -100,6 +100,14 @@ browsing-treat-input-as-regular-expression = Трактаваць увод як 
 browsing-update-saved-search = Абнавіць з бягучым пошукам
 browsing-whole-collection = Уся калекцыя
 browsing-window-title-notes = Праглядзець (выбрана { $selected } з { $total } нататак)
+browsing-you-must-have-at-least-one = Вы павінны мець прынамсі адзін слупок.
+browsing-group =
+    { $count ->
+        [one] { $count } група
+        [few] { $count } групы
+        [many] { $count } груп
+       *[other] { $count } груп
+    }
 browsing-note-count =
     { $count ->
         [one] { $count } нататка
@@ -107,7 +115,25 @@ browsing-note-count =
         [many] { $count } нататак
        *[other] { $count } нататак
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } нататка абноўлена
+        [few] { $count } наткі абноўлены
+        [many] { $count } нататак абноўлена
+       *[other] { $count } нататак абноўлена
+    }.
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } картка абноўлена
+        [few] { $count } карткі абноўлены
+        [many] { $count } картак абноўлена
+       *[other] { $count } картак абноўлена
+    }.
 browsing-window-title = Праглядзець (выбрана { $selected } з { $total } картак)
+browsing-sidebar-expand = Разгарнуць
+browsing-sidebar-collapse = Згарнуць
+browsing-sidebar-expand-children = Разгарнуць даччыныя
+browsing-sidebar-collapse-children = Згарнуць даччыныя
 browsing-sidebar-decks = Калоды
 browsing-sidebar-tags = Цэтлікі
 browsing-sidebar-notetypes = Тыпы нататак
@@ -124,9 +150,32 @@ browsing-added-today = Дададзена
 browsing-again-today = Зноў
 browsing-edited-today = Рэдагавана
 browsing-sidebar-first-review = Першы перагляд
+browsing-sidebar-rescheduled = Перанесена
+browsing-sidebar-due-today = На сёння
 browsing-sidebar-untagged = Без цэтліка
 browsing-sidebar-overdue = Пратэрмінавана
 browsing-row-deleted = (выдалена)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Выдалены { $count } невыкарыстаны цэтлік
+        [few] Выдалена { $count } невыкарыстаныя цэтлікі
+        [many] Выдалена { $count } невыкарыстаных цэтлікаў
+       *[other] Выдалена { $count } невыкарыстаных цэтлікаў
+    }.
+browsing-changed-new-position =
+    { $count ->
+        [one] Зменена пазіцыя { $count } новай карткі.
+        [few] Зменена пазіцыя { $count } новых картак.
+        [many] Зменена пазіцыя { $count } новых картак.
+       *[other] Зменена пазіцыя { $count } новых картак.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Перайменавана { $count } калода
+        [few] Перайменаваны { $count } калоды
+        [many] Перайменавана { $count } калод
+       *[other] Перайменавана { $count } калод
+    }.
 
 ## obsolete; no need to translate
 

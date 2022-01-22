@@ -17,5 +17,6 @@ decks-no-deck = [няма калоды]
 decks-order-added = У парадку дадавання
 decks-please-select-something = Выберыце нешта.
 decks-random = Выпадковы
+decks-reschedule-cards-based-on-my-answers = Пераназначыць час картак на аснове маіх адказаў у гэтай калодзе.
 decks-study = Вучыць
 decks-study-deck = Вучыць калоду

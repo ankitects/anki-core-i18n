@@ -39,9 +39,12 @@ deck-config-bury-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = Парадак паказвання
+deck-config-new-gather-priority = Парадак збірання новых картак
 deck-config-new-gather-priority-deck = Калода
 deck-config-new-card-sort-order = Парадак сартавання новых картак
+deck-config-sort-order-card-template-then-random = Па шаблоне карткі, потым выпадковы
 deck-config-sort-order-random = Выпадковы
+deck-config-sort-order-gather = У парадку збірання
 
 ## Timer section
 

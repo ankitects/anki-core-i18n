@@ -92,12 +92,27 @@ scheduling-learn-remaining =
         [many] засталося { $remaining } картак
        *[other] засталося { $remaining } картак
     } на вывучэнне пазней.
+scheduling-buried-cards-found = Адна або больш картак былі адкладзены і будуць паказаны заўтра. Вы можаце { $unburyThem }, калі вы хочаце іх убачыць неадкладна.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = вярнуць іх
 
 ## Scheduler upgrade
 
+scheduling-update-button = Абнавіць
+scheduling-update-later-button = Пазней
 
 ## Other scheduling strings
 
+scheduling-end = (канец)
+scheduling-general = Агульныя
+scheduling-lapses = Недагляды
+scheduling-lapses2 = недаглядаў
 scheduling-learning = Вывучаюцца
+scheduling-new-cards = Новыя карткі
+scheduling-new-cardsday = Новых картак у дзень
+scheduling-order = Парадак
+scheduling-review = На перагляд
+scheduling-reviews = Перагляды
 scheduling-seconds = секунд
 scheduling-steps-in-minutes = Крокі (у хвілінах)

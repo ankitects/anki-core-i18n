@@ -6,3 +6,5 @@ studying-it-has-been-suspended = Была прыпынена.
 studying-manually-buried-cards = Адкладзеныя ўручную карткі
 studying-more = Больш
 studying-space = Прабел
+studying-unbury = Вярнуць
+studying-what-would-you-like-to-unbury = Што вы хочаце вярнуць?

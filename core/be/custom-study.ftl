@@ -1,3 +1,4 @@
+custom-study-all-cards-in-random-order-dont = Усе карткі ў выпадковым парадку (без пераназначэння часу)
 custom-study-all-review-cards-in-random-order = Усе карткі да перагляду ў выпадковым парадку
 custom-study-cards = карткі
 custom-study-cards-from-the-deck = карткі з калоды
