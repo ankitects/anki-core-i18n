@@ -18,6 +18,9 @@ deck-config-title = Параметры калоды
 ## Daily limits section
 
 deck-config-daily-limits = Дзённыя ліміты
+deck-config-review-limit-tooltip =
+    Максімальная колькасць картак на перагляд ў дзень,
+    калі карткі гатовыя да перагляду.
 
 ## New Cards section
 
