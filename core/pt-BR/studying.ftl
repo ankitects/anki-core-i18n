@@ -7,31 +7,31 @@ studying-bury = Ocultar
 studying-bury-card = Ocultar Carta
 studying-bury-note = Ocultar Nota
 studying-card-suspended = Carta suspensa.
-studying-card-was-a-leech = A carta era um sanguessuga.
+studying-card-was-a-leech = O cartão era um sanguessuga.
 studying-cards-buried =
     { $count ->
         [one] cartão ocultado.
        *[other] cartões ocultados.
     }
-studying-cards-will-be-automatically-returned-to = As cartas voltarão automaticamente aos seus baralhos originais depois da revisão.
+studying-cards-will-be-automatically-returned-to = Os cartões voltarão automaticamente aos seus baralhos originais depois da revisão.
 studying-continue = Avançar
 studying-delete-note = Excluir Nota
-studying-deleting-this-deck-from-the-deck = Ao excluir esse baralho da lista, todas as cartas restantes voltarão ao baralho original.
+studying-deleting-this-deck-from-the-deck = Ao excluir esse baralho da lista, todos os cartões restantes voltarão ao baralho original.
 studying-easy = Fácil
 studying-edit = Editar
 studying-empty = Devolver cartões
 studying-finish = Terminar
-studying-flag-card = Carta de Marcador
+studying-flag-card = Cartão de Marcador
 studying-good = Bom
 studying-hard = Difícil
 studying-it-has-been-suspended = Isto foi suspenso.
-studying-manually-buried-cards = Cartas Ocultadas Manualmente
+studying-manually-buried-cards = Cartões Ocultados Manualmente
 studying-mark-note = Nota de Marca
 studying-more = Mais
-studying-no-cards-are-due-yet = Nenhuma carta para ser revisada ainda.
+studying-no-cards-are-due-yet = Nenhum cartão para ser revisado ainda.
 studying-note-suspended = Nota suspensa.
 studying-pause-audio = Pausar áudio
-studying-please-run-toolsempty-cards = Por favor, vá até Ferramentas > Cartas Vazias.
+studying-please-run-toolsempty-cards = Por favor, vá até Ferramentas > Cartões Vazios.
 studying-record-own-voice = Gravar Própria Voz
 studying-replay-own-voice = Repetir Própria Voz
 studying-show-answer = Mostrar resposta
@@ -47,8 +47,8 @@ studying-what-would-you-like-to-unbury = O que você gostaria de desocultar?
 studying-you-havent-recorded-your-voice-yet = Você ainda não gravou sua voz.
 studying-card-studied-in =
     { $count ->
-        [one] { $count } carta estudada em
-       *[other] { $count } cartas estudadas em
+        [one] { $count } cartão estudado em
+       *[other] { $count } cartões estudados em
     }
 studying-minute =
     { $count ->

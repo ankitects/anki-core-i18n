@@ -1,60 +1,50 @@
 browsing-add-notes = Adicionar Notas...
-browsing-add-tags = Adicionar etiquetas
 browsing-add-tags2 = Adicionar Etiquetas...
 browsing-add-to-selected-notes = Adicionar às Notas Selecionadas
 browsing-remove-from-selected-notes = Remover das Notas Selecionadas
 browsing-addon = Extensão
-browsing-all-card-types = Todos os Tipos de Cartas
 browsing-all-fields = Todos os Campos
 browsing-answer = Resposta
-browsing-any-cards-mapped-to-nothing-will = Todos as cartas em branco serão excluídas. Se uma nota não tiver uma carta referente, será descartada. Você tem certeza que quer continuar?
 browsing-any-flag = Qualquer emblema
 browsing-average-ease = Facilidade Média
 browsing-average-interval = Intervalo Médio
 browsing-browser-appearance = Aparência do Painel
 browsing-browser-options = Opções do Painel
 browsing-buried = Oculto
-browsing-card = Carta
+browsing-card = Cartão
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C
-browsing-card-list = Lista de Cartas
-browsing-card-state = Estado da Carta
-browsing-cards-cant-be-manually-moved-into = As cartas não podem ser movidas manualmente para um baralho filtrado.
+browsing-card-list = Lista de Cartões
+browsing-cards-cant-be-manually-moved-into = Os cartões não podem ser movidos manualmente para um baralho filtrado.
 browsing-cards-deleted =
     { $count ->
-        [one] { $count } carta deletada.
-       *[other] { $count } cartas deletadas.
+        [one] { $count } cartão deletado.
+       *[other] { $count } cartões deletados.
     }
 browsing-change-deck = Mudar Baralho
 browsing-change-deck2 = Mudar Baralho...
 browsing-change-note-type = Mudar Tipo de Nota
 browsing-change-note-type2 = Mudar Tipo de Nota...
 browsing-change-notetype = Mudar Tipo de Nota
-browsing-change-to = Mudar { $val } para:
-browsing-clear-unused = Limpar Não-usado
 browsing-clear-unused-tags = Limpar Etiquetas Não-usadas
 browsing-confirm-saved-search-overwrite = Uma pesquisa salva com o nome { $name } já existe. Você deseja substituí-la?
 browsing-created = Criado
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Baralho atual
 browsing-current-note-type = Tipo de nota atual:
 browsing-delete-notes = Excluir Notas
-browsing-delete-tags = Apagar Etiquetas
 browsing-duplicate = duplicata
 browsing-ease = Dificuldade
-browsing-end = Fim
 browsing-enter-tags-to-add = Digite as etiquetas a adicionar:
 browsing-enter-tags-to-delete = Digite as etiquetas a apagar:
 browsing-filtered = (filtrado)
 browsing-find = <b>Localizar</b>:
 browsing-find-and-replace = Localizar e substituir
 browsing-find-duplicates = Encontrar Duplicatas
-browsing-first-card = Primeira Carta
+browsing-first-card = Primeira Cartão
 browsing-flag = Marcador
 browsing-font = <b>Fonte</b>:
 browsing-font-size = <b>Tamanho da Fonte</b>:
 browsing-found-as-across-bs = Encontrar { $part } através de { $whole }.
-browsing-home = Início
 browsing-ignore-case = Ignorar maiúsculas / minúsculas
 browsing-in = <b>Em</b>:
 browsing-interval = Intervalo
@@ -64,7 +54,6 @@ browsing-line-size = <b>Tamanho da Linha</b>:
 browsing-manage-note-types = Gerenciar tipos de notas...
 browsing-move-cards = Mover Cartas
 browsing-move-cards-to-deck = Mover cartas para o baralho:
-browsing-nd-names = { $num }: { $name }
 browsing-new = (novo)
 browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sem Marcador
@@ -72,14 +61,11 @@ browsing-no-selection = Nenhuma carta ou nota selecionada.
 browsing-note = Nota
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-notes-tagged = Notas marcadas.
-browsing-nothing = Nada
 browsing-optional-filter = Flitro Opcional
 browsing-override-back-template = Substituir modelo do verso:
 browsing-override-font = Substituir frente:
 browsing-override-front-template = Substituir modelo da frente:
 browsing-please-give-your-filter-a-name = Por favor, dê um nome ao seu filtro:
-browsing-please-select-cards-from-only-one = Selecione cartas de apenas um tipo de nota.
 browsing-preview-selected-card = Pré-Vizualizar a Carta Selecionada ({ $val }).
 browsing-question = Pergunta
 browsing-queue-bottom = Último da fila: { $val }
@@ -123,11 +109,6 @@ browsing-note-count =
         [one] { $count } nota
        *[other] { $count } notas
     }
-browsing-note-deleted =
-    { $count ->
-        [one] { $count } nota apagada.
-       *[other] { $count } notas apagadas.
-    }
 browsing-notes-updated =
     { $count ->
         [one] { $count } nota atualizada.
@@ -149,9 +130,9 @@ browsing-sidebar-notetypes = Tipos de nota
 browsing-sidebar-saved-searches = Pesquisas salvas
 browsing-sidebar-save-current-search = Salvar pesquisa atual
 browsing-sidebar-card-state = Estado da Carta
-browsing-sidebar-flags = Bandeiras
+browsing-sidebar-flags = Emblema
 browsing-today = Hoje
-browsing-tooltip-card-modified = A última vez que alterações foram feitas em uma carta, incluindo revisões, bandeiras e mudanças de baralho
+browsing-tooltip-card-modified = A última vez que alterações foram feitas em uma carta, incluindo revisões, emblemas e mudanças de baralho
 browsing-tooltip-note-modified = A última vez que as alterações foram feitas em uma nota, geralmente o conteúdo do campo ou edições de etiqueta
 browsing-tooltip-card = O nome do modelo de uma carta
 browsing-tooltip-cards = O número de cartas que uma nota possui
@@ -186,4 +167,3 @@ browsing-reparented-decks =
 
 ## obsolete; no need to translate
 
-browsing-only-new-cards-can-be-repositioned = Somente as cartas novas podem ser reposicionadas.

@@ -16,7 +16,7 @@ search-unclosed-quote = uma aspa dupla de abertura `" `foi encontrada, mas não 
 search-missing-key = dois pontos `:` foram encontrados, mas não havia nenhuma palavra-chave precedendo-o. Se você quiser pesquisar por um `:` literal, coloque uma barra invertida: `\:`.
 search-unknown-escape = a sequência de escape `{ $val }` não está definida. Se você deseja pesquisar por uma barra invertida literal `\`, acrescente outra: `\\`.
 search-invalid-argument = `{ $term }` recebeu um argumento inválido '`{ $argument }`'.
-search-invalid-flag-2 = `flag:` deve ser seguido por um número de flag válido: `1` (vermelho),` 2` (laranja), `3` (verde),` 4` (azul), `5` (rosa),` 6 `(turquesa),` 7` (roxo) ou `0` (sem bandeira).
+search-invalid-flag-2 = `flag:` deve ser seguido por um número de flag válido: `1` (vermelho),` 2` (laranja), `3` (verde),` 4` (azul), `5` (rosa),` 6 `(turquesa),` 7` (roxo) ou `0` (sem emblema).
 search-invalid-prop-operator = `prop:{ $val }` deve ser seguido por um dos seguintes operadores de comparação: `=`, `! =`, `<`, `>`, `<=` ou `> =`.
 search-invalid-other = Por favor, verifique se existem erros de digitação.
 
