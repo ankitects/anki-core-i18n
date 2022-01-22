@@ -24,7 +24,7 @@ card-template-rendering-no-such-field = Encontrado '{ $found }', mas não existe
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = A frente desta carta está em branco.
+card-template-rendering-empty-front = A parte da frente deste cartão está em branco.
 card-template-rendering-missing-cloze =
-    Nenhuma omissão { $number } encontrada na carta.
+    Nenhuma omissão { $number } encontrada no cartão.
     Adicione uma omissão de palavras ou use a ferramenta 'Cartas Vazias'.

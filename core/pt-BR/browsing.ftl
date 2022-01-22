@@ -48,16 +48,16 @@ browsing-found-as-across-bs = Encontrar { $part } através de { $whole }.
 browsing-ignore-case = Ignorar maiúsculas / minúsculas
 browsing-in = <b>Em</b>:
 browsing-interval = Intervalo
-browsing-last-card = Última Carta
+browsing-last-card = Último Cartão
 browsing-learning = (estudando)
 browsing-line-size = <b>Tamanho da Linha</b>:
 browsing-manage-note-types = Gerenciar tipos de notas...
-browsing-move-cards = Mover Cartas
-browsing-move-cards-to-deck = Mover cartas para o baralho:
+browsing-move-cards = Mover Cartões
+browsing-move-cards-to-deck = Mover cartões para o baralho:
 browsing-new = (novo)
 browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sem Marcador
-browsing-no-selection = Nenhuma carta ou nota selecionada.
+browsing-no-selection = Nenhum cartão ou nota selecionado.
 browsing-note = Nota
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
@@ -66,7 +66,7 @@ browsing-override-back-template = Substituir modelo do verso:
 browsing-override-font = Substituir frente:
 browsing-override-front-template = Substituir modelo da frente:
 browsing-please-give-your-filter-a-name = Por favor, dê um nome ao seu filtro:
-browsing-preview-selected-card = Pré-Vizualizar a Carta Selecionada ({ $val }).
+browsing-preview-selected-card = Pré-vizualizar o Cartão Selecionado ({ $val }).
 browsing-question = Pergunta
 browsing-queue-bottom = Último da fila: { $val }
 browsing-queue-top = Primeiro da fila: { $val }
@@ -74,13 +74,13 @@ browsing-randomize-order = Ordem aleatória
 browsing-remove-tags = Remover Etiquetas...
 browsing-replace-with = <b>Substituir Por</b>:
 browsing-reposition = Reposicionar...
-browsing-reposition-new-cards = Reposicionar Novas Cartas
+browsing-reposition-new-cards = Reposicionar Novos Cartões
 browsing-reschedule = Reagendar
-browsing-search-bar-hint = Pesquisar cartas/notas (digite algo e pressione 'Enter')
+browsing-search-bar-hint = Pesquisar cartões/notas (digite e pressione Enter)
 browsing-search-in = Procurar em:
 browsing-search-within-formatting-slow = Procurar com formatação (lento)
 browsing-selected-notes-only = Apenas notas selecionadas
-browsing-shift-position-of-existing-cards = Alterar posição das cartas existentes
+browsing-shift-position-of-existing-cards = Alterar posição dos cartões existentes
 browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Filtro da barra lateral
 browsing-sort-field = Classificar campo
@@ -91,7 +91,7 @@ browsing-suspended = Suspenso
 browsing-tag-duplicates = Etiquetas Duplicadas
 browsing-tag-rename-warning-empty = Você não pode renomear uma etiqueta que não possui notas.
 browsing-target-field = Campo alvo:
-browsing-toggle-showing-cards-notes = Alternar Exibição de Cartas/Notas
+browsing-toggle-showing-cards-notes = Alternar Exibição de Cartões/Notas
 browsing-toggle-mark = Marcar/Desmarcar
 browsing-toggle-suspend = Suspender (sim/não)
 browsing-treat-input-as-regular-expression = Tratar texto como expressão regular
@@ -116,10 +116,10 @@ browsing-notes-updated =
     }
 browsing-cards-updated =
     { $count ->
-        [one] { $count } carta atualizada.
-       *[other] { $count } cartas atualizadas.
+        [one] { $count } cartão atualizado.
+       *[other] { $count } cartões atualizados.
     }
-browsing-window-title = Navegar ({ $selected } de { $total } cartas selecionadas)
+browsing-window-title = Navegar ({ $selected } de { $total } cartões selecionados)
 browsing-sidebar-expand = Expandir
 browsing-sidebar-collapse = Recolher
 browsing-sidebar-expand-children = Expandir Filhos
@@ -129,16 +129,16 @@ browsing-sidebar-tags = Etiquetas
 browsing-sidebar-notetypes = Tipos de nota
 browsing-sidebar-saved-searches = Pesquisas salvas
 browsing-sidebar-save-current-search = Salvar pesquisa atual
-browsing-sidebar-card-state = Estado da Carta
+browsing-sidebar-card-state = Estado do Cartão
 browsing-sidebar-flags = Emblema
 browsing-today = Hoje
-browsing-tooltip-card-modified = A última vez que alterações foram feitas em uma carta, incluindo revisões, emblemas e mudanças de baralho
+browsing-tooltip-card-modified = A última vez que alterações foram feitas em um cartão, incluindo revisões, emblemas e mudanças de baralho
 browsing-tooltip-note-modified = A última vez que as alterações foram feitas em uma nota, geralmente o conteúdo do campo ou edições de etiqueta
-browsing-tooltip-card = O nome do modelo de uma carta
-browsing-tooltip-cards = O número de cartas que uma nota possui
+browsing-tooltip-card = O nome do modelo de um cartão
+browsing-tooltip-cards = O número de cartões que uma nota possui
 browsing-tooltip-notetype = O nome do tipo de uma nota
-browsing-tooltip-question = A parte frontal de uma carta, personalizável no editor de modelos de carta
-browsing-tooltip-answer = Verso de uma carta, personalizável no editor de modelos de carta
+browsing-tooltip-question = A parte da frente de um cartão, personalizável no editor de modelos de cartão
+browsing-tooltip-answer = A parte de trás de um cartão, personalizável no editor de modelos de cartão
 browsing-studied-today = Estudados Hoje
 browsing-added-today = Adicionado hoje
 browsing-again-today = Repetir Hoje
@@ -156,8 +156,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Posição alterada de { $count } nova carta.
-       *[other] Posição alterada de { $count } novas cartas.
+        [one] Posição alterada de { $count } novo cartão.
+       *[other] Posição alterada de { $count } novos cartões.
     }
 browsing-reparented-decks =
     { $count ->

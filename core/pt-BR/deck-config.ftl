@@ -17,24 +17,14 @@ deck-config-title = Opções do Baralho
 
 deck-config-daily-limits = Limites Diários
 deck-config-new-limit-tooltip =
-    O número máximo de cartas a serem introduzidas em um único dia, caso estes estejam disponíveis.
+    O número máximo de cartões a serem introduzidos em um único dia, caso estes estejam disponíveis.
     Visto que novos materiais aumentarão sua carga de revisão no curto prazo, esta opção, tipicamente, deveria, pelo menos, ser 10x menor do que seu limite de revisões.
-deck-config-review-limit-tooltip = O número máximo de cartas de revisão a serem mostradas em um dia, caso estejam prontas para serem revisados.
+deck-config-review-limit-tooltip = O número máximo de cartões "A revisar" a serem mostrados em um dia, caso os cartões estejam prontos para serem revisados.
 deck-config-limit-deck-v3 =
-    Ao estudar um baralho que contenha sub-baralhos, os limites definidos em
-    cada sub-baralho controlam o número máximo de cartas que serão retiradas do 
-    respectivo sub-baralho.
-    Os limites do baralho selecionado controlam o total de cartas que serão mostradas.
-deck-config-limit-new-bound-by-reviews =
-    O limite de revisões afeta o limite de novas cartas. Por exemplo, se o seu limite
-    de revisões está definido em 200, e há 190 revisões a espera, um máximo de 10
-    novas cartas serão introduzidas. Se o seu limite de revisões foi atingido, 
-    nenhuma carta nova será mostrada.
-deck-config-limit-interday-bound-by-reviews =
-    O limite de revisão também afeta as cartas de aprendizagem entre os dias
-    subsequentes. Ao aplicar o limite, as cartas de aprendizagem entre os dias 
-    subsequentes são buscadas primeiro, depois as revisões e, finalmente, 
-    as novas cartas.
+    Ao estudar um baralho que contenha sub-baralhos, os limites definidos em cada sub-baralho controlam o número máximo de cartões que serão retirados do respectivo sub-baralho.
+    Os limites do baralho selecionado controlam o total de cartões que serão mostrados.
+deck-config-limit-new-bound-by-reviews = O limite de revisões afeta o limite de novos cartões. Por exemplo, se o seu limite de revisões está definido em 200, e há 190 revisões a espera, um máximo de 10 novos cartões serão introduzidos. Se o seu limite de revisões foi atingido, nenhum cartão novo será mostrado.
+deck-config-limit-interday-bound-by-reviews = O limite de revisão também afeta os cartões de aprendizagem dos dias subsequentes. Ao aplicar o limite, os cartões de aprendizagem dos dias anteriores são buscados primeiro, depois as revisões e, finalmente, os novos cartões.
 
 ## New Cards section
 
@@ -43,45 +33,38 @@ deck-config-learning-steps = Etapas de aprendizagem
 -deck-config-delay-hint = Atrasos são normalmente minutos (ex. `1m`) ou dias (ex.`2d`), mas horas (ex. `1h`) e segundos (ex.`30s`) também são suportados.
 deck-config-learning-steps-tooltip =
     Um ou mais atrasos, separados por espaços. O primeiro atraso será usado
-    quando você pressiona o botão `Errei` em uma nova carta, e leva 1 minuto por padrão.
+    quando você pressiona o botão `Errei` em um novo cartão, e leva 1 minuto por padrão.
     O botão `Bom` avançará para a próxima etapa, que é de 10 minutos por padrão.
-    Depois que todas as etapas forem aprovadas, a carta se tornará uma carta de revisão e
+    Depois que todas as etapas forem aprovadas, o cartão se tornará um cartão de revisão e
     aparecerá em um dia diferente. { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip =
-    O número de dias de espera antes de mostrar uma carta novamente, após o botão 
-    `Bom` ser pressionado na etapa final da aprendizagem.
-deck-config-easy-interval-tooltip =
-    O número de dias de espera antes de mostrar uma carta novamente, após o botão 
-    `Fácil` ser usado para remover imediatamente uma carta do aprendizado.
+deck-config-graduating-interval-tooltip = O número de dias de espera antes de mostrar um cartão novamente, após o botão `Bom`é pressionado na etapa final de aprendizagem.
+deck-config-easy-interval-tooltip = O número de dias de espera antes de mostrar um cartão novamente, após o botão `Fácil` é usado para remover imediatamente um cartão do aprendizado.
 deck-config-new-insertion-order = Ordem de inserção
 deck-config-new-insertion-order-tooltip =
-    Controla a posição (# da revisão) em que novas cartas são atribuídas quando 
-    você adiciona novas cartas. As cartas com um número de revisão menor
-    serão mostradas primeiro durante o estudo. Alterar esta opção atualizará
-    automaticamente a posição existente de novas cartas.
-deck-config-new-insertion-order-sequential = Sequencial (cartas mais antigas primeiro)
+    Controla a posição (revisar#) em que novos cartões são atribuídos quando você adiciona novos cartões.
+    Os cartões com um número de revisão menor serão mostrados primeiro durante o estudo.
+    Alterar esta opção atualizará automaticamente a posição existente de novos cartões.
+deck-config-new-insertion-order-sequential = Sequencial (cartões mais antigos primeiro)
 deck-config-new-insertion-order-random = Aleatório
 
 ## Lapses section
 
 deck-config-relearning-steps = Etapas de reaprendizagem
 deck-config-relearning-steps-tooltip =
-    Zero ou mais atrasos, separados por espaços. Por padrão, pressionando
-    o botão `Errei` em uma carta de revisão o mostrará novamente 10
-    minutos depois. Se não houver atrasos, a carta terá seu intervalo alterado,
-    sem entrar na reaprendizagem. { -deck-config-delay-hint }
+    Zero ou mais atrasos, separados por espaços. Por padrão, pressionando o botão `Errei`
+    em um cartão de revisão o mostrará novamente 10 minutos depois. Se não houver atrasos, 
+    o cartão terá seu intervalo alterado, sem entrar na reaprendizagem. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    O número de vezes que `Errei` precisa ser pressionado em uma carta de
-    revisão antes de ser marcada como um sanguessuga. Sanguessugas são
-    cartas que consomem muito do seu tempo e quando uma carta é marcada
-    como sanguessuga, é uma boa ideia reescrevê-la, excluí-la ou pensar em 
-    um mnemônico para ajudá-lo a se lembrar dela.
+    O número de vezes que `Errei` precisa ser pressionado em um cartão de revisão antes de ser
+    marcado como um sanguessuga. Sanguessugas são cartas que consomem muito do seu tempo e
+    quando um cartão é marcado como sanguessuga, é uma boa ideia reescrevê-lo, excluí-lo ou
+    pensar em um mnemônico para ajudá-lo a se lembrar dele.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Somente Etiquetas`: Adiciona uma etiqueta "leech" à nota e exibe um pop-up.
     
-    `Suspender Carta`: Além de marcar a nota, esconde a carta até que seja
-    retirada manualmente da suspensão.
+    `Ocultar Cartão`: Além de marcar a nota, esconde o cartão até que seja
+    retirado manualmente da suspensão.
 
 ## Burying section
 
@@ -89,59 +72,58 @@ deck-config-bury-title = Ocultar
 deck-config-bury-new-siblings = Ocultar novos irmãos até o dia seguinte
 deck-config-bury-review-siblings = Ocultar irmãos de revisão até o dia seguinte
 deck-config-bury-tooltip =
-    Se outras cartas da mesma nota (ex. cartas invertidas, omissões
-    de palavras adjacentes) serão adiadas até o dia seguinte.
+    Se outros cartões da mesma nota (ex. cartões invertidos, omissões
+    de palavras adjacentes) serão adiados até o dia seguinte.
 
 ## Ordering section
 
 deck-config-ordering-title = Ordem de Exibição
-deck-config-new-gather-priority = Nova ordem de reunião de cartas
+deck-config-new-gather-priority = Nova ordem de reunião de cartões
 deck-config-new-gather-priority-tooltip =
-    `Baralho`: reúne cartas de cada sub-baralho em ordem e para quando o
+    `Baralho`: reúne os cartões de cada sub-baralho em ordem e para quando o
     limite do baralho selecionado for excedido. Isso é mais rápido e permite que você
     priorize sub-bralhos que estão mais próximos do topo.
     
-    `Posição`: reúne as cartas de todos os baralhos antes de serem classificadas. Isso
-    garante que os cartões apareçam em uma posição estrita (# da revisão), mesmo se o limite 
-    do aparentado não for  alto o suficiente para ver os cartões de todos os baralhos.
+    `Posição`: reúne os cartões de todos os baralhos antes de serem classificadas. Isso
+    garante que ele apareçam em uma posição estrita (# da revisão), mesmo se o limite 
+    do aparentado não for grande o suficiente para ver os cartões de todos os baralhos.
 deck-config-new-gather-priority-deck = Baralho
 deck-config-new-gather-priority-position-lowest-first = Posição ascendente
 deck-config-new-gather-priority-position-highest-first = Posição descendente
-deck-config-new-card-sort-order = Nova ordem de classificação de cartas
+deck-config-new-card-sort-order = Nova ordem de classificação de cartões
 deck-config-new-card-sort-order-tooltip =
-    Como as cartas são classificadas depois de reunidas. Por padrão, o Anki 
-    classifica pelo modelo da carta primeiro, para evitar que várias cartas com 
-    a mesma nota sejam mostradas em sucessão.
-deck-config-sort-order-card-template-then-lowest-position = Modelo da carta, então posição ascendente
-deck-config-sort-order-card-template-then-highest-position = Modelo da carta, então posição descendente
-deck-config-sort-order-card-template-then-random = Modelo da carta, então aleatório
+    Como os cartões são classificados depois de reunidos. Por padrão, o Anki classifica
+    primeiro pelo modelo do cartão, para evitar que vários cartões com a mesma nota 
+    sejam mostrado em sucessão.
+deck-config-sort-order-card-template-then-lowest-position = Modelo do cartão, então posição ascendente
+deck-config-sort-order-card-template-then-highest-position = Modelo do cartão, em seguida posição descendente
+deck-config-sort-order-card-template-then-random = Modelo do cartão, então aleatório
 deck-config-sort-order-lowest-position = Posição ascendente
 deck-config-sort-order-highest-position = Posição descendente
 deck-config-sort-order-random = Aleatório
-deck-config-sort-order-template-then-gather = Modelo da carta, então ordem da reunião
+deck-config-sort-order-template-then-gather = Modelo do cartão, então ordem da reunião
 deck-config-sort-order-gather = Ordem da reunião
 deck-config-new-review-priority = Ordem de novidade/revisão
-deck-config-new-review-priority-tooltip = Quando mostrar novas cartas em relação às cartas de revisão.
+deck-config-new-review-priority-tooltip = Quando mostrar novos cartões em relação aos cartões de revisão.
 deck-config-interday-step-priority = Ordem de aprendizagem/revisão entre dias subsequentes.
 deck-config-interday-step-priority-tooltip =
-    Quando mostrar as cartas de (re)aprendizagem que ultrapassam o limite
+    Quando mostrar os cartões de (re)aprendizagem que ultrapassam o limite
     de um dia.
     
     O limite de revisão é sempre aplicado primeiro às cartas de aprendizagem entre 
     dias subsequentes, e em seguida, à revisões. Esta opção controlará a ordem em
-    que as cartas reunidas são mostradas, mas as cartas de aprendizagem durante 
-    o dia sempre serão reunidas primeiro.
+    que os cartões reunidos são mostrados, mas os cartões de aprendizagem durante 
+    o dia sempre serão reunidos primeiro.
 deck-config-review-mix-mix-with-reviews = Misturar com revisões
 deck-config-review-mix-show-after-reviews = Mostrar depois de revisões
 deck-config-review-mix-show-before-reviews = Mostrar antes de revisões
 deck-config-review-sort-order = Ordem de classificação de revisões
 deck-config-review-sort-order-tooltip =
-    A ordem padrão prioriza as cartas que estão esperando há mais tempo, 
-    para que se você tiver um acúmulo de avaliações, as que aguardam mais 
-    tempo aparecerão primeiro. Se você tiver um grande acúmulo de cartas, 
-    levará mais do que alguns dias para limpar a fila, ou deseja ver as cartas
-    em ordem do sub-baralho, você pode encontrar as ordens de classificação
-    alternativas preferíveis.
+    A ordem padrão prioriza os cartões que estão esperando há mais tempo, para que
+    se você tiver um acúmulo de avaliações, as que aguardam mais tempo aparecerão
+    primeiro. Se você tiver um grande acúmulo de cartões, levará mais do que alguns dias para
+    limpar a fila, ou se desejar ver os cartões em ordem do sub-baralho, você pode encontrar as
+    ordens de classificação alternativas preferíveis.
 deck-config-sort-order-due-date-then-random = Data de revisão, então aleatório
 deck-config-sort-order-due-date-then-deck = Data de revisão, então baralho
 deck-config-sort-order-deck-then-due-date = Baralho, então data de revisão
@@ -164,7 +146,7 @@ deck-config-maximum-answer-secs-tooltip =
     registrado como o limite que você definiu.
 deck-config-show-answer-timer-tooltip =
     Na tela de revisão, mostra um cronômetro que conta o número de segundos 
-    que você está levando para revisar cada carta.
+    que você está levando para revisar cada cartão.
 
 ## Audio section
 
@@ -173,7 +155,7 @@ deck-config-disable-autoplay = Não reproduzir o áudio automaticamente
 deck-config-skip-question-when-replaying = Pular pergunta ao repetir a resposta
 deck-config-always-include-question-audio-tooltip =
     Se o áudio da pergunta deve ser incluído quando a ação 'Repetir' é
-    usada enquanto observa o lado da resposta de uma carta.
+    usada enquanto observa o lado da resposta de um cartão.
 
 ## Advanced section
 
@@ -183,8 +165,8 @@ deck-config-maximum-interval-tooltip =
     avaliações atingirem o limite, `Difícil`,`Bom` e `Fácil` darão o mesmo atraso.
     Quanto mais curto você definir isso, maior será sua carga de trabalho.
 deck-config-starting-ease-tooltip =
-    O multiplicador de facilidade com que as novas cartas começam. Por padrão, 
-    o botão `Bom` em uma carta recém-aprendida atrasará a próxima revisão 
+    O multiplicador de facilidade com que os novos cartões começam. Por padrão, 
+    o botão `Bom` em um cartão recém-aprendido atrasará a próxima revisão 
     em 2,5 vezes o atraso anterior.
 deck-config-easy-bonus-tooltip =
     Um multiplicador extra que é aplicado ao intervalo de um cartão de

@@ -28,5 +28,5 @@ decks-repeat-failed-cards-after = Repita os cartões com falha depois
 decks-reschedule-cards-based-on-my-answers = Reagendar cartões baseado nas minhas respostas neste baralho
 decks-study = Estudar
 decks-study-deck = Estudar baralho
-decks-filtered-deck-search-empty = Nenhum cartão correspondeu à pesquisa fornecida. Alguns cartões podem ter sido excluídos porque estão em um baralho filtrado diferente ou ocultos.
+decks-filtered-deck-search-empty = Nenhum cartão correspondeu à pesquisa fornecida. Alguns cartões podem ter sido excluídos porque estão em um baralho filtrado diferente ou suspensos.
 decks-unmovable-cards = Mostrar todos os cartões excluídos
