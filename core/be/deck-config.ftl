@@ -59,6 +59,7 @@ deck-config-disable-autoplay = Не прайграваць аўдыя аўтам
 ## Advanced section
 
 deck-config-advanced-title = Пашыраныя налады
+deck-config-custom-scheduling = Уласны расклад
 
 ## Adding/renaming
 
@@ -74,6 +75,7 @@ deck-config-confirm-remove-name = Выдаліць { $name }?
 ## Other Buttons
 
 deck-config-save-button = Захаваць
+deck-config-save-to-all-subdecks = Захаваць ва ўсе падкалоды
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
