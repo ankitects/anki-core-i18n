@@ -9,3 +9,8 @@ errors-100-tags-max =
     třeba vybírat podřízené štítky, jestliže jste vybrali nadřazený štítek.
 errors-multiple-notetypes-selected = Prosím, vyberte poznámky pouze od jednoho typu poznámky.
 errors-please-check-database = Prosím použijte funkci Zkontrolovat databázi, poté to zkuste znovu.
+
+## Card Rendering
+
+errors-bad-directive = Chyba v direktivě '{ $directive }': { $error }
+errors-option-not-set = '{ $option }' nenastaveno

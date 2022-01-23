@@ -19,7 +19,6 @@ editing-fields = Pole
 editing-float-left = Obtékání zprava
 editing-float-right = Obtékání zleva
 editing-float-none = Bez obtékání
-editing-html-editor = HTML editor
 editing-indent = Zvětšit odsazení
 editing-italic-text = Kurzíva
 editing-jump-to-tags-with-ctrlandshiftandt = Skočit na štítky přes Ctrl+Shift+T
@@ -44,10 +43,13 @@ editing-subscript = Dolní index
 editing-superscript = Horní index
 editing-tags = Štítky
 editing-to-make-a-cloze-deletion-on = Chcete-li přidat doplňovačku do existující poznámky, musíte její typ nejdřív změnit na doplňovačku přes „Poznámky > Změnit typ poznámky“.
+editing-toggle-html-editor = Přepnout editor HTML
 editing-toggle-sticky = Přepnout přichycení
+editing-toggle-visual-editor = Přepnout vizuální editor
 editing-underline-text = Podtržený text
 editing-unordered-list = Odrážkový seznam
 editing-warning-cloze-deletions-will-not-work = Pozor, doplňovačky nebudou fungovat, dokud nezměníte typ výše na Doplňovačku.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = HTML editor
