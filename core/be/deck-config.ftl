@@ -48,6 +48,10 @@ deck-config-new-card-sort-order = Парадак сартавання новых
 deck-config-sort-order-card-template-then-random = Па шаблоне карткі, потым выпадковы
 deck-config-sort-order-random = Выпадковы
 deck-config-sort-order-gather = У парадку збірання
+deck-config-review-mix-mix-with-reviews = Змешваць з пераглядамі
+deck-config-review-mix-show-after-reviews = Паказваць пасля пераглядаў
+deck-config-review-mix-show-before-reviews = Паказваць перад пераглядамі
+deck-config-review-sort-order = Парадак сартавання пераглядаў
 
 ## Timer section
 
@@ -86,6 +90,13 @@ deck-config-save-to-all-subdecks = Захаваць ва ўсе падкалод
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Бацькоўская калода мае абмежаванне ў { $cards ->
+        [one] { $cards } картку
+        [few] { $cards } карткі
+        [many] { $cards } картак
+       *[other] { $cards } картак
+    }, што перазапіша гэта абмежаванне.
 
 ## Selecting a deck
 
