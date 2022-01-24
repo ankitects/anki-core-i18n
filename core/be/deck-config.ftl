@@ -83,6 +83,7 @@ deck-config-confirm-remove-name = Выдаліць { $name }?
 
 deck-config-save-button = Захаваць
 deck-config-save-to-all-subdecks = Захаваць ва ўсе падкалоды
+deck-config-revert-button-tooltip = Аднавіць гэту наладу да значэння па змаўчанні
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
