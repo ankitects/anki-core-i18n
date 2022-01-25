@@ -1,13 +1,10 @@
 browsing-add-notes = Notiz hinzufügen…
-browsing-add-tags = Schlagwörter hinzufügen
 browsing-add-tags2 = Schlagwörter hinzufügen…
 browsing-add-to-selected-notes = Zu den ausgewählten Notizen hinzufügen
 browsing-remove-from-selected-notes = Von den ausgewählten Notizen entfernen
 browsing-addon = Erweiterung
-browsing-all-card-types = Alle Kartentypen
 browsing-all-fields = Alle Felder
 browsing-answer = Antwort
-browsing-any-cards-mapped-to-nothing-will = Alle leeren Karten werden gelöscht. Sind sämtliche Karten einer Notiz gelöscht, wird diese ebenfalls entfernt. Fortfahren?
 browsing-any-flag = beliebige Markierung
 browsing-average-ease = Durchschn. Leichtigkeit
 browsing-average-interval = Durchschn. Intervall
@@ -18,7 +15,6 @@ browsing-card = Karte
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = K
 browsing-card-list = Kartenliste
-browsing-card-state = Kartenstatus
 browsing-cards-cant-be-manually-moved-into = Karten können nicht manuell in einen Auswahlstapel verschoben werden.
 browsing-cards-deleted =
     { $count ->
@@ -30,19 +26,14 @@ browsing-change-deck2 = In einen anderen Stapel verschieben…
 browsing-change-note-type = Notiztyp ändern
 browsing-change-note-type2 = Notiztyp ändern…
 browsing-change-notetype = Notiztyp ändern
-browsing-change-to = Ändere { $val } in:
-browsing-clear-unused = Verwaiste Schlagwörter entfernen
 browsing-clear-unused-tags = Verwaiste Schlagwörter löschen
 browsing-confirm-saved-search-overwrite = Ein gespeicherter Suchbegriff mit dem Namen { $name } existiert bereits. Soll dieser überschrieben werden?
 browsing-created = Erstellt
-browsing-ctrlandshiftande = Strg+Umschalt+E
 browsing-current-deck = Aktueller Stapel
 browsing-current-note-type = Aktueller Notiztyp:
 browsing-delete-notes = Notizen löschen
-browsing-delete-tags = Schlagwörter löschen
 browsing-duplicate = doppelt
 browsing-ease = Leichtigkeit
-browsing-end = Ende
 browsing-enter-tags-to-add = Folgende Schlagwörter hinzufügen:
 browsing-enter-tags-to-delete = Folgende Schlagwörter löschen:
 browsing-filtered = (in Auswahlstapel)
@@ -54,7 +45,6 @@ browsing-flag = Markierung
 browsing-font = <b>Schriftart</b>:
 browsing-font-size = <b>Schriftgröße</b>:
 browsing-found-as-across-bs = { $part } in { $whole } gefunden.
-browsing-home = Pos1
 browsing-ignore-case = Groß-/Kleinschreibung ignorieren
 browsing-in = <b>In</b>:
 browsing-interval = Intervall
@@ -64,7 +54,6 @@ browsing-line-size = <b>Liniengröße</b>:
 browsing-manage-note-types = &Notiztypen verwalten…
 browsing-move-cards = Karten verschieben
 browsing-move-cards-to-deck = Karten verschieben nach:
-browsing-nd-names = { $num }: { $name }
 browsing-new = (neu)
 browsing-new-note-type = Neuer Notiztyp:
 browsing-no-flag = keine Markierung
@@ -72,14 +61,11 @@ browsing-no-selection = Keine Karten oder Notizen ausgewählt.
 browsing-note = Notiz
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-notes-tagged = Schlagwörter hinzugefügt.
-browsing-nothing = Keine
 browsing-optional-filter = Optionaler Filter:
 browsing-override-back-template = Vorlage für Rückseite festlegen:
 browsing-override-font = Schriftart festlegen:
 browsing-override-front-template = Vorlage für Vorderseite festlegen:
 browsing-please-give-your-filter-a-name = Bitte geben Sie Ihrem Filter einen Namen:
-browsing-please-select-cards-from-only-one = Bitte nur Karten desselben Notiztyps auswählen.
 browsing-preview-selected-card = Vorschau für ausgewählte Karte ({ $val })
 browsing-question = Frage
 browsing-queue-bottom = Ende der Warteschlange: { $val }
@@ -123,11 +109,6 @@ browsing-note-count =
         [one] { $count } Notiz
        *[other] { $count } Notizen
     }
-browsing-note-deleted =
-    { $count ->
-        [one] { $count } Notiz gelöscht
-       *[other] { $count } Notizen gelöscht
-    }
 browsing-notes-updated =
     { $count ->
         [one] { $count } Notiz aktualisiert.
@@ -146,7 +127,7 @@ browsing-sidebar-collapse-children = Untergeordnete Elemente einklappen
 browsing-sidebar-decks = Stapel
 browsing-sidebar-tags = Schlagwörter
 browsing-sidebar-notetypes = Notiztypen
-browsing-sidebar-saved-searches = Gespeicherte Suchbegriffe
+browsing-sidebar-saved-searches = Gespeicherte Suchen
 browsing-sidebar-save-current-search = Aktuellen Suchbegriff speichern
 browsing-sidebar-card-state = Kartenstatus
 browsing-sidebar-flags = Markierungen
@@ -186,4 +167,3 @@ browsing-reparented-decks =
 
 ## obsolete; no need to translate
 
-browsing-only-new-cards-can-be-repositioned = Die Position kann nur für neue Karten geändert werden.
