@@ -116,3 +116,4 @@ scheduling-review = На перагляд
 scheduling-reviews = Перагляды
 scheduling-seconds = секунд
 scheduling-steps-in-minutes = Крокі (у хвілінах)
+scheduling-the-default-configuration-cant-be-removed = Перадвызначаная канфігурацыя не можа быць выдалена.

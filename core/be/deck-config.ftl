@@ -12,7 +12,7 @@ deck-config-used-by-decks =
         [many] { $decks } калодамі
        *[other] { $decks } калод
     }
-deck-config-default-name = Па змаўчанні
+deck-config-default-name = Перадвызначаная
 deck-config-title = Параметры калоды
 
 ## Daily limits section
@@ -83,7 +83,7 @@ deck-config-confirm-remove-name = Выдаліць { $name }?
 
 deck-config-save-button = Захаваць
 deck-config-save-to-all-subdecks = Захаваць ва ўсе падкалоды
-deck-config-revert-button-tooltip = Аднавіць гэту наладу да значэння па змаўчанні
+deck-config-revert-button-tooltip = Аднавіць гэту наладу да перадвызначанага значэння
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
