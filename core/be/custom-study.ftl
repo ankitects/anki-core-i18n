@@ -8,5 +8,6 @@ custom-study-ok = Добра
 custom-study-preview-new-cards = Перадпрагляд новых картак
 custom-study-review-forgotten-cards = Пераглядзець забытыя карткі
 custom-study-select = Выбраць
+custom-study-select-tags-to-exclude = Выберыце цэтлікі да выключэння:
 custom-study-selective-study = Выбарачнае навучанне
 custom-study-study-by-card-state-or-tag = Вучыць паводле цэтліка або стану карткі
