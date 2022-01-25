@@ -1,3 +1,4 @@
+database-check-corrupt = Файл калекцыі пашкоджаны. Аднавіце яго з аўтаматычнай рэзервовай копіі.
 database-check-rebuilt = База даных перасобрана і аптымізавана.
 
 ## Progress info
