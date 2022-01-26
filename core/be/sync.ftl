@@ -3,6 +3,7 @@
 
 ## Media synchronization
 
+sync-media-added-count = Дададзена: { $up }↑ { $down }↓
 
 ## Error messages / dialogs
 
@@ -15,3 +16,4 @@ sync-cancel-button = Скасаваць
 
 sync-syncing = Сінхранізацыя...
 sync-checking = Праверка...
+sync-added-updated-count = Дададзена/зменена: { $up }↑ { $down }↓

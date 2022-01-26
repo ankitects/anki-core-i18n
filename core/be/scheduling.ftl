@@ -96,6 +96,9 @@ scheduling-buried-cards-found = Адна або больш картак былі
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = вярнуць іх
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = дапасаванае навучанне
 
 ## Scheduler upgrade
 

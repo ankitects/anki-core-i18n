@@ -93,6 +93,8 @@ statistics-counts-buried-cards = Адкладзеныя
 statistics-counts-filtered-cards = Фільтраваныя
 statistics-counts-learning-cards = Вывучаюцца
 statistics-counts-relearning-cards = Вывучаюцца паўторна
+statistics-added-title = Дададзена
+statistics-added-subtitle = Колькасць новых дададзеных вамі картак.
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
