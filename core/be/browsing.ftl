@@ -161,10 +161,10 @@ browsing-sidebar-overdue = Пратэрмінавана
 browsing-row-deleted = (выдалена)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Выдалены { $count } невыкарыстаны цэтлік
-        [few] Выдалена { $count } невыкарыстаныя цэтлікі
-        [many] Выдалена { $count } невыкарыстаных цэтлікаў
-       *[other] Выдалена { $count } невыкарыстаных цэтлікаў
+        [one] Выдалены { $count } неўжываны цэтлік
+        [few] Выдалена { $count } неўжываныя цэтлікі
+        [many] Выдалена { $count } неўжываных цэтлікаў
+       *[other] Выдалена { $count } неўжываных цэтлікаў
     }.
 browsing-changed-new-position =
     { $count ->
