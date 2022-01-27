@@ -29,5 +29,6 @@ studying-study-now = Вучыць зараз
 studying-suspend = Прыпыніць
 studying-suspend-note = Прыпыніць нататку
 studying-to-review = Да перагляду
+studying-type-answer-unknown-field = Увядзіце адказ: невядомае поле { $val }
 studying-unbury = Вярнуць
 studying-what-would-you-like-to-unbury = Што вы хочаце вярнуць?

@@ -1,3 +1,6 @@
+# Shown in the Due column of the Browse screen when the card is a new card
+statistics-due-for-new-card = Новая №{ $number }
+
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min =
@@ -93,8 +96,20 @@ statistics-counts-buried-cards = Адкладзеныя
 statistics-counts-filtered-cards = Фільтраваныя
 statistics-counts-learning-cards = Вывучаюцца
 statistics-counts-relearning-cards = Вывучаюцца паўторна
+statistics-range-all-time = агулам
+statistics-range-deck = калода
+statistics-range-collection = калекцыя
+statistics-range-search = Пошук
+statistics-card-ease-title = Лёгкасць карткі
 statistics-added-title = Дададзена
 statistics-added-subtitle = Колькасць новых дададзеных вамі картак.
+# eg Button: 4
+statistics-answer-buttons-button-number = Кнопка
+statistics-reviews-title = На перагляд
+statistics-reviews-time-checkbox = Час
+# shown when graph is empty
+statistics-no-data = НЯМА ДАНЫХ
+statistics-calendar-title = Каляндар
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -111,3 +126,7 @@ statistics-elapsed-time-years = { $amount } г.
 
 ##
 
+statistics-total = Усяго
+statistics-save-pdf = Захаваць PDF
+statistics-saved = Захавана.
+statistics-stats = статыстыка

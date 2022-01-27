@@ -107,6 +107,8 @@ scheduling-update-later-button = Пазней
 
 ## Other scheduling strings
 
+scheduling-days = дзён
+scheduling-description = Апісанне
 scheduling-end = (канец)
 scheduling-general = Агульныя
 scheduling-lapses = Недагляды
@@ -114,9 +116,14 @@ scheduling-lapses2 = недаглядаў
 scheduling-learning = Вывучаюцца
 scheduling-new-cards = Новыя карткі
 scheduling-new-cardsday = Новых картак у дзень
+scheduling-new-interval = Новы інтэрвал
+scheduling-new-options-group-name = Назва новай групы параметраў:
+scheduling-options-group = Група параметраў:
 scheduling-order = Парадак
 scheduling-review = На перагляд
 scheduling-reviews = Перагляды
 scheduling-seconds = секунд
+scheduling-set-for-all-subdecks = Задаць для ўсіх падкалод
 scheduling-steps-in-minutes = Крокі (у хвілінах)
+scheduling-tag-only = Толькі цэтлік
 scheduling-the-default-configuration-cant-be-removed = Перадвызначаная канфігурацыя не можа быць выдалена.

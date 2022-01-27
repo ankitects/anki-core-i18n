@@ -1,1 +1,10 @@
+fields-add-field = Дадаць поле
+fields-delete-field-from = Выдаліць поле з { $val }?
+fields-editing-font = Шрыфт рэдагавання
+fields-field = Поле:
+fields-field-name = Назва поля:
+fields-description = Апісанне
+fields-fields-for = Палі для { $val }
+fields-font = Шрыфт:
 fields-reverse-text-direction-rtl = Адваротны кірунак тэксту (RTL)
+fields-size = Памер:
