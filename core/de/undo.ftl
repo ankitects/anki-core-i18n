@@ -4,8 +4,8 @@
 undo-undo = Rückgängig machen
 undo-redo = Wiederherstellen
 # eg "Undo Answer Card"
-undo-undo-action = Letzte Aktion rückgängig machen: { $val }
+undo-undo-action = { $val } rückgängig machen
 # eg "Answer Card Undone"
 undo-action-undone = { $action } rückgängig gemacht
-undo-redo-action = Rückgängige gemachte Aktion { $action } wieder ausführen
+undo-redo-action = { $action } wieder ausführen
 undo-action-redone = { $action } wieder ausgeführt
