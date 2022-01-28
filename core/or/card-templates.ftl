@@ -33,7 +33,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki ପ୍ରଶ୍ନ ଏ�
 card-templates-at-least-one-card-type-is = ଅତିକମରେ ଗୋଟିଏ ପତ୍ର ପ୍ରକାର ଆବଶ୍ୟକ।
 card-templates-browser-appearance = ବ୍ରାଉଜର୍ ରୂପ...
 card-templates-card = ପତ୍ର { $val }
-card-templates-card-types = ପତ୍ର ପ୍ରକାରଗୁଡ଼ିକ
 card-templates-card-types-for = { $val } ପାଇଁ ପତ୍ର ପ୍ରକାରଗୁଡ଼ିକ
 card-templates-cloze = କ୍ଲୋଜ୍ { $val }
 card-templates-delete-the-as-card-type-and = '{ $template }' ପତ୍ର ପ୍ରକାର, ଏବଂ ଏହାର { $cards } ବିଲୋପ କରିବେ?
@@ -44,6 +43,7 @@ card-templates-off = (ବନ୍ଦ)
 card-templates-on = (ଚାଲୁ)
 card-templates-remove-card-type = ପତ୍ର ପ୍ରକାର ଅପସାରଣ କରନ୍ତୁ...
 card-templates-rename-card-type = ପତ୍ର ପ୍ରକାରର ନାମ ବଦଳାନ୍ତୁ...
+card-templates-reposition-card-type = ପତ୍ର ପ୍ରକାର ରିପୋଜିସନ୍ କରିବା...
 card-templates-card-count =
     { $count ->
         [one] { $count }ଟିଏ ପତ୍ର
