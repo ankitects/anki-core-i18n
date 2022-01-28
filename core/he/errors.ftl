@@ -9,3 +9,8 @@ errors-100-tags-max =
     אין צורך לבחור תתי תגים אם בחרת בתג האב.
 errors-multiple-notetypes-selected = אנא בחר רשומות מתוך סוג סוג אחד בלבד.
 errors-please-check-database = אנא השתמש בפעולת בדיקת מסד הנתונים ונסה שוב.
+
+## Card Rendering
+
+errors-bad-directive = שגיאה בהוראה '{ $directive }':{ $error }
+errors-option-not-set = האפשרות '{ $option }' לא הוגדרה

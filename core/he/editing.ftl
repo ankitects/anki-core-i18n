@@ -19,7 +19,6 @@ editing-fields = שדות
 editing-float-left = הצמד לשמאל
 editing-float-right = הצמד לימין
 editing-float-none = ללא הצמדה
-editing-html-editor = עורך HTML
 editing-indent = הגדל הזחה
 editing-italic-text = טקסט נטוי
 editing-jump-to-tags-with-ctrlandshiftandt = עבור לתגיות עם Ctrl+Shift+T
@@ -44,10 +43,13 @@ editing-subscript = כתב תחתי
 editing-superscript = ‏‏כתב עילי
 editing-tags = תגיות
 editing-to-make-a-cloze-deletion-on = ליצור השלם את החסר ברשומה קיימת, תצטרך לשנות את סוג הרשומה להשלם את החסר, דרך 'רשומות>שנה סוג רשומה'
+editing-toggle-html-editor = עורך HTML
 editing-toggle-sticky = שמור שדה לשאלה הבאה
+editing-toggle-visual-editor = עורך טקסט רגיל
 editing-underline-text = קו תחתון
 editing-unordered-list = רשימה (נקודות)
 editing-warning-cloze-deletions-will-not-work = אזהרה, השלם את החסר לא יעבוד עד שתשנה את הסוג למעלה להשלם את החסר.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = עורך HTML
