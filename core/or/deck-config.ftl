@@ -55,13 +55,13 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = ପ୍ରଦର୍ଶନ କ୍ରମ
 deck-config-new-gather-priority-deck = ଡେକ୍
-deck-config-new-gather-priority-position-lowest-first = ଆରୋହଣ ସ୍ଥିତି
-deck-config-new-gather-priority-position-highest-first = ଅବରୋହଣ ସ୍ଥିତି
+deck-config-new-gather-priority-position-lowest-first = ଆରୋହଣ ପୋଜିସନ୍
+deck-config-new-gather-priority-position-highest-first = ଅବରୋହଣ ପୋଜିସନ୍
 deck-config-new-card-sort-order = ନୂତନ ପତ୍ର ସଜାଇବା କ୍ରମ
-deck-config-sort-order-card-template-then-lowest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଆରୋହଣ ସ୍ଥିତି
-deck-config-sort-order-card-template-then-highest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଅବରୋହଣ ସ୍ଥିତି
-deck-config-sort-order-lowest-position = ଆରୋହଣ ସ୍ଥିତି
-deck-config-sort-order-highest-position = ଅବରୋହଣ ସ୍ଥିତି
+deck-config-sort-order-card-template-then-lowest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଆରୋହଣ ପୋଜିସନ୍
+deck-config-sort-order-card-template-then-highest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଅବରୋହଣ ପୋଜିସନ୍
+deck-config-sort-order-lowest-position = ଆରୋହଣ ପୋଜିସନ୍
+deck-config-sort-order-highest-position = ଅବରୋହଣ ପୋଜିସନ୍
 deck-config-new-review-priority = ନୂତନ/ସମୀକ୍ଷା କ୍ରମ
 deck-config-new-review-priority-tooltip = ସମୀକ୍ଷା ପତ୍ର ସମ୍ପର୍କରେ କେବେ ନୂତନ ପତ୍ର ଦେଖାଇବେ।
 deck-config-review-mix-mix-with-reviews = ସମୀକ୍ଷାଗୁଡ଼ିକ ସହ ମିଶ୍ରଣ କରନ୍ତୁ
@@ -114,7 +114,6 @@ deck-config-name-prompt = ନାମ:
 ## Removing
 
 deck-config-remove-group = ଗୋଷ୍ଠୀ ଅପସାରଣ କରନ୍ତୁ
-deck-config-confirm-normal = { $name } କୁ ଅପସାରଣ କରିବେ କି?
 deck-config-confirm-remove-name = { $name } କୁ ଅପସାରଣ କରିବେ କି?
 
 ## Other Buttons

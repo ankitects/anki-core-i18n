@@ -76,12 +76,12 @@ browsing-search-bar-hint = ପତ୍ର/ନୋଟ୍ ସନ୍ଧାନ କର (
 browsing-search-in = ଏଥିରେ ସନ୍ଧାନ କରନ୍ତୁ:
 browsing-search-within-formatting-slow = ଫର୍ମାଟିଂ ମଧ୍ୟରେ ସନ୍ଧାନ କରନ୍ତୁ (ଧୀର ଅଟେ)
 browsing-selected-notes-only = କେବଳ ମନୋନୀତ ନୋଟଗୁଡ଼ିକ
-browsing-shift-position-of-existing-cards = ବିଦ୍ୟମାନ ପତ୍ରଗୁଡ଼ିକର ସ୍ଥିତି ପରିବର୍ତ୍ତନ କରନ୍ତୁ
+browsing-shift-position-of-existing-cards = ବିଦ୍ୟମାନ ପତ୍ରଗୁଡ଼ିକର ପୋଜିସନ୍ ପରିବର୍ତ୍ତନ କରନ୍ତୁ
 browsing-sidebar = ପାର୍ଶ୍ୱଦଣ୍ଡିକା
 browsing-sidebar-filter = ପାର୍ଶ୍ୱଦଣ୍ଡିକା ଶୋଧକ
 browsing-sort-field = ସଜାଇବା କ୍ଷେତ୍ର
 browsing-sorting-on-this-column-is-not = ଏହି ସ୍ତମ୍ଭରେ ସର୍ଟ କରିବା ସମର୍ଥିତ ନୁହେଁ। ଦୟାକରି ଅନ୍ୟକୁ ବାଛନ୍ତୁ।
-browsing-start-position = ଆରମ୍ଭ ସ୍ଥିତି:
+browsing-start-position = ଆରମ୍ଭ ପୋଜିସନ୍:
 browsing-step = ପାହୁଣ୍ଡ:
 browsing-suspended = ନିଲମ୍ବିତ ଅଛି
 browsing-tag-duplicates = ନକଲ ଗୁଡ଼ିକ ଟ୍ୟାଗ୍ କରନ୍ତୁ
@@ -147,8 +147,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] { $count }ଟିଏ ନୂତନ ପତ୍ରର ସ୍ଥିତି ପରିବର୍ତ୍ତନ ହୋଇଛି।
-       *[other] { $count }ଟି ନୂତନ ପତ୍ରର ସ୍ଥିତି ପରିବର୍ତ୍ତନ ହୋଇଛି।
+        [one] { $count }ଟିଏ ନୂଆ ପତ୍ରର ପୋଜିସନ୍ ପରିବର୍ତ୍ତନ ହୋଇଛି।
+       *[other] { $count }ଟି ନୂଆ ପତ୍ରର ପୋଜିସନ୍ ପରିବର୍ତ୍ତନ ହୋଇଛି।
     }
 browsing-reparented-decks =
     { $count ->
