@@ -6,6 +6,8 @@ browsing-addon = Complemento
 browsing-all-fields = Todos los campos
 browsing-answer = Respuesta
 browsing-any-flag = Cualquier Marca
+browsing-average-ease = Facilidad media
+browsing-average-interval = Intervalo promedio
 browsing-browser-appearance = Apariencia del explorador
 browsing-browser-options = Opciones del explorador
 browsing-buried = Enterrados
@@ -132,9 +134,36 @@ browsing-sidebar-flags = Banderas
 browsing-today = Hoy
 browsing-tooltip-card-modified = La última vez que se realizaron cambios en una tarjeta, incluidas revisiones, banderas y cambios de mazo.
 browsing-tooltip-note-modified = La última vez que se realizaron cambios en una nota, generalmente en el contenido del campo o ediciones de etiquetas
+browsing-tooltip-card = El nombre de la plantilla de tarjeta (de la tarjeta)
+browsing-tooltip-cards = El número de Tarjetas que tiene una Nota
+browsing-tooltip-notetype = El nombre del tipo de nota (de una nota)
+browsing-tooltip-question = El anverso de una tarjeta, personalizable en el editor de plantillas de tarjetas
+browsing-tooltip-answer = El reverso de una tarjeta, personalizable en el editor de plantillas de tarjetas
 browsing-studied-today = Estudiadas hoy
 browsing-added-today = Añadidas hoy
 browsing-again-today = Olvidadas hoy
+browsing-edited-today = Editado
+browsing-sidebar-first-review = Primera revisión
+browsing-sidebar-rescheduled = Reprogramado
+browsing-sidebar-due-today = Revisar
+browsing-sidebar-untagged = Sin etiquetar
+browsing-sidebar-overdue = Atrasado
+browsing-row-deleted = (eliminado)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Se eliminó{ $count } etiqueta no utilizada.
+       *[other] Se eliminó { $count } etiquetas no utilizadas.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Cambió la posición de { $count } nueva tarjeta.
+       *[other] Cambió la posición de { $count } nuevas tarjetas.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } mazo renombrado
+       *[other] { $count } mazos renombrados
+    }
 
 ## obsolete; no need to translate
 

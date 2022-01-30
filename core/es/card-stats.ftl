@@ -21,4 +21,10 @@ card-stats-review-log-type-learn = Aprender
 card-stats-review-log-type-review = Repasar
 card-stats-review-log-type-relearn = Reaprender
 card-stats-review-log-type-filtered = Filtradas
-card-stats-review-log-type-rescheduled = Reprogramar
+card-stats-review-log-type-manual = Manual
+card-stats-no-card = (No hay tarjeta para mostrar).
+
+## Window Titles
+
+card-stats-current-card = Tarjeta actual ({ $context })
+card-stats-previous-card = Tarjeta anterior ({ $context })
