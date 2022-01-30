@@ -1,5 +1,6 @@
 actions-add = Añadir
 actions-all-selected = Todo seleccionado
+actions-any-selected = Nada seleccionado
 actions-cancel = Cancelar
 actions-choose = Seleccionar
 actions-close = Cerrar
@@ -36,12 +37,28 @@ actions-set-due-date = Establecer fecha de vencimiento
 actions-answer-card = Contestar tarjeta
 actions-unbury-unsuspend = Desenterrar/Dessuspender
 actions-add-deck = Añadir mazo
-actions-add-note = Añadir nota
+actions-add-note = Añadir Nota
 actions-update-tag = Actualizar etiqueta
 actions-update-note = Actualizar Nota
 actions-update-card = Actualizar Tarjeta
 actions-update-deck = Actualizar Mazo
+actions-forget-card = Olvidar Tarjeta
+actions-build-filtered-deck = Crear Mazo
+actions-add-notetype = Añadir Tipo de Nota
+actions-remove-notetype = Eliminar Tipo de Nota
+actions-update-notetype = Actualizar Tipo de Nota
+actions-update-config = Actualizar configuración
 actions-card-info = Información de la tarjeta
+actions-previous-card-info = Información de la tarjeta anterior
 
 ## Flags
 
+actions-flag-number = Bandera { $number }
+actions-flag-red = Rojo
+actions-flag-orange = Naranja
+actions-flag-green = Verde
+actions-flag-blue = Azul
+actions-flag-pink = Rosado
+actions-flag-turquoise = Turquesa
+actions-flag-purple = Morado
+actions-set-flag = Elegir Bandera
