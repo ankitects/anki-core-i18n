@@ -83,28 +83,130 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Îngropare
-deck-config-bury-new-siblings = Îngroapă noi frați până a doua zi
+deck-config-bury-new-siblings = Îngroapă carduri frați ”noi” până a doua zi
+deck-config-bury-review-siblings = Îngroapă carduri frați ”în revizuire” până a doua zi
+deck-config-bury-tooltip =
+    Dacă alte carduri care aparţin de aceeași notiţă ¶
+    (de exemplu carduri inversate, carduri cloze adiacente)¶
+    vor fi amânatăâe până a doua zi.
 
 ## Ordering section
 
+deck-config-ordering-title = Ordine de afişare
+deck-config-new-gather-priority = Ordine nouă de plasare a cardurilor
+deck-config-new-gather-priority-tooltip =
+    ”Pachet”: adună cardurile din fiecare sub-pachet, în ordine și se oprește când ¶
+    a fost depășită limita pachetului selectat. Acest lucru este mai rapid și vă permite¶
+    să prioritizaţi sub-pachetele care sunt mai aproape de vârf.¶
+    ¶
+    ”Poziție”: adună cardurile din toate pachetele înainte de a fi sortate. Aceasta¶
+    asigură cardurilor o apariţie strictă în ordinea poziției (due #), chiar dacă limita pentru părinte nu este¶
+    suficient de ridicată pentru a vedea cărțile din toate pachetele.
+deck-config-new-gather-priority-deck = Pachet
+deck-config-new-gather-priority-position-lowest-first = Poziție ascendentă
+deck-config-new-gather-priority-position-highest-first = Poziție descendentă
+deck-config-new-card-sort-order = Ordine de sortare după carduri noi
+deck-config-new-card-sort-order-tooltip =
+    Cum sunt sortate cardurile după ce au fost adunate. În mod implicit, Anki sortează¶
+    mai întâi după șablonul cardului, pentru a evita mai multe cărți ale aceleiași notiţe¶
+    să fie arătate succesiv.
+deck-config-sort-order-card-template-then-lowest-position = Șablon de card, apoi poziție ascendentă
+deck-config-sort-order-card-template-then-highest-position = Șablon de card, apoi poziție descendentă
+deck-config-sort-order-card-template-then-random = Șablon de card, apoi aleatoriu
+deck-config-sort-order-lowest-position = Poziţie ascendentă
+deck-config-sort-order-highest-position = Poziţie descendentă
+deck-config-sort-order-random = Aleatoriu
+deck-config-sort-order-template-then-gather = Șablon de card, apoi ordinea de colectare
+deck-config-sort-order-gather = Ordinea de colectare
+deck-config-new-review-priority = Ordine noi/în revizuire
+deck-config-new-review-priority-tooltip = Când să se afişeze carduri noi în raport cu cardurile  de revăzut.
+deck-config-interday-step-priority = Ordine de învățare/revizuire între zile
+deck-config-interday-step-priority-tooltip =
+    Când să se afişeze carduri de (re)învățare care depășesc graniţa unei zile.¶
+    ¶
+    Limita de revizuire este întotdeauna aplicată mai întâi cardurilor de învățare între zile și apoi celor de revăzut. ¶
+    Această opțiune va controla ordinea în care sunt afișate cardurile adunate,¶
+    dar cardurile de învățare între zile vor fi întotdeauna aranjate primele.
+deck-config-review-mix-mix-with-reviews = Amestecă cu cele de revăzut
+deck-config-review-mix-show-after-reviews = Arată după cardurile de revăzut
+deck-config-review-mix-show-before-reviews = Arată înainte de cardurile de revăzut
+deck-config-review-sort-order = Ordine de sortare după cardurile de revăzut
+deck-config-review-sort-order-tooltip =
+    Ordinea implicită acordă prioritate cardurilor care au așteptat cel mai mult timp, astfel încât¶
+    dacă se acumulează multe carduri de revăzut, cele mai vechi vor apărea mai întâi.¶
+    Dacă există o acumulare mare de carduri de revăzut şi va dura mai mult de câteva zile pentru a le parcurge pe toate,¶
+    sau vrei să parcurgi cardurile în ordinea sub-pachetelor, este posibil să găseşti mai utile modurile alternative de sortare.
+deck-config-sort-order-due-date-then-random = Data scadentă, apoi aleatoriu
+deck-config-sort-order-due-date-then-deck = Data scadentă, apoi pachetul
+deck-config-sort-order-deck-then-due-date = Pachetul, apoi data scadentă
+deck-config-sort-order-ascending-intervals = Intervale ascendente
+deck-config-sort-order-descending-intervals = Intervale descendente
+deck-config-sort-order-ascending-ease = Uşurinţă ascendentă
+deck-config-sort-order-descending-ease = Uşurinţă descendentă
+deck-config-display-order-will-use-current-deck =
+    Anki va folosi ordinea de afișare din pachetul pe care îl ¶
+    selectezi pentru studiu și nu orice sub-pachete pe care le-ar putea avea.
 
 ## Timer section
 
+deck-config-timer-title = Temporizator
+deck-config-maximum-answer-secs = Nr. maxim de secunde pentru răspuns
+deck-config-maximum-answer-secs-tooltip =
+    Numărul maxim de secunde de înregistrat pentru o singură revizuire. Dacă un răspuns¶
+    depășește acest timp (pentru că te-ai îndepărtat de ecran, de exemplu),¶
+    timpul necesar va fi înregistrat conform limitei pe care ai stabilit-o.
+deck-config-show-answer-timer-tooltip = În ecranul de revizuire, afișează un cronometru care numără de câte secunde ai nevoie pentru a răspunde la fiecare card.
 
 ## Audio section
 
+deck-config-audio-title = Audio
+deck-config-disable-autoplay = Nu rula fişierul audio în mod automat.
+deck-config-skip-question-when-replaying = Omite întrebarea când revezi răspunsul
+deck-config-always-include-question-audio-tooltip =
+    Dacă întrebarea audio ar trebui inclusă atunci când acțiunea Replay este¶
+    folosit în timp ce te uiţi la răspunsul unui card.
 
 ## Advanced section
 
+deck-config-advanced-title = Avansat
+deck-config-maximum-interval-tooltip =
+    Numărul maxim de zile pe care un card de revăzut îl va aștepta. Când numărul de revederi¶
+    au atins limita, `Greu`, `Bine` și `Ușor`, toate vor avea aceeași întârziere.¶
+    Cu cât setezi acest lucru mai scurt, cu atât volumul tău de lucru va fi mai mare.
+deck-config-starting-ease-tooltip =
+    Multiplicatorul de ușurință cu care încep cardurile noi. În mod implicit, butonul „Bine” de pe ¶
+    un card nou de învăţat va întârzia următoarea revizuire cu de 2,5 ori întârzierea anterioară.
+deck-config-easy-bonus-tooltip = Un multiplicator suplimentar care se aplică intervalului de revedere al unui card ¶ atunci când îl evaluezi ca `Ușor`.
+deck-config-interval-modifier-tooltip =
+    Acest multiplicator se aplică tuturor revederilor și pot fi utilizate ajustări minore¶
+    pentru a-l face pe Anki mai conservator sau mai agresiv în programarea sa. ¶
+     Te rog să consulţi manualul înainte de a schimba această opțiune.
+deck-config-hard-interval-tooltip = Multiplicatorul aplicat unui interval de revizuire atunci când răspunzi „Greu”.
+deck-config-new-interval-tooltip = Multiplicatorul aplicat unui interval de revizuire atunci când răspunzi „Din nou”.
+deck-config-minimum-interval-tooltip = Intervalul minim acordat unui card de recenzie după ce răspunzi „Din nou”.
+deck-config-custom-scheduling = Programare personalizată
+deck-config-custom-scheduling-tooltip = Aceasta afectează întreaga colecție. Foloseşte pe propria răspundere!
 
 ## Adding/renaming
 
+deck-config-add-group = Adaugă presetare
+deck-config-name-prompt = Nume
+deck-config-rename-group = Redenumeşte presetare
+deck-config-clone-group = Clonează presetare
 
 ## Removing
 
+deck-config-remove-group = Elimină presetare
+deck-config-will-require-full-sync =
+    Modificarea solicitată va necesita o sincronizare unidirecțională. Dacă ai făcut modificări¶
+    pe alt dispozitiv și nu le-ai sincronizat încă cu acest dispozitiv, te rog să faci acest lucru înainte de a continua.
+deck-config-confirm-remove-name = Elimin { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Salvează
+deck-config-save-to-all-subdecks = Salvează toate sub-pachetele
+deck-config-revert-button-tooltip = Restabileşte această setare la valoarea implicită.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -112,6 +214,22 @@ deck-config-bury-new-siblings = Îngroapă noi frați până a doua zi
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Un pachet părinte are o limită de { $cards ->
+        [one] { $cards } card
+        [few] { $cards } carduri
+       *[other] { $cards } carduri
+    }, care va/vor depăși această limită.
+deck-config-reviews-too-low =
+    dacă se adaugă{ $cards ->
+        [one] { $cards } card nou în fiecare zi
+        [few] { $cards } carduri noi în fiecare zi
+       *[other] { $cards } carduri noi în fiecare zi
+    }, limita ta de revizuire ar trebui să fie de cel puțin { $expected }.
+deck-config-learning-step-above-graduating-interval = Intervalul de gradare ar trebui să fie cel puțin la fel de lung ca etapa finală de învățare.
+deck-config-good-above-easy = Intervalul uşurinţă ar trebui să fie cel puțin la fel de lung ca intervalul de gradare.
+deck-config-relearning-steps-above-minimum-interval = Intervalul minim de interval ar trebui să fie cel puțin la fel de lung ca pasul final de reînvățare.
 
 ## Selecting a deck
 
+deck-config-which-deck = Ce pachet ai vrea?
