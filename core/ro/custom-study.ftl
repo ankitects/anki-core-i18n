@@ -1,3 +1,5 @@
+custom-study-must-rename-deck = Redenumeşte mai întâi pachetul de studiu personalizat existent.
+custom-study-all-cards-in-random-order-dont = Toate cardurile în ordine aleatorie (nu reprograma)
 custom-study-cards = carduri
 custom-study-cards-from-the-deck = carduri din pachet
 custom-study-choose-tags = Alege etichetele
