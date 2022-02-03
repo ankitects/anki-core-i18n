@@ -18,9 +18,9 @@ browsing-card-list = Listă carduri
 browsing-cards-cant-be-manually-moved-into = Cardurile nu pot fi mutate manual într-un pachet filtrat.
 browsing-cards-deleted =
     { $count ->
-        [one] unul (e.g. 1)
-        [few] câteva (e.g. 2)
-       *[other] altă variantă (e.g. 20)
+        [one] { $count } card şters.
+        [few] { $count } carduri şterse.
+       *[other] { $count } carduri şterse.
     }
 browsing-change-deck = Schimbă pachetul
 browsing-change-deck2 = Schimbă pachetul...

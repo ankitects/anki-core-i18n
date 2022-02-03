@@ -1,5 +1,11 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
 card-templates-blank = gol
+card-templates-changes-will-affect-notes =
+    { $count ->
+        [one] Modificările de mai jos vor afecta o notiţă care utilizează acest tip de card.
+        [few] Modificările de mai jos vor afecta { $count } notiţe  care utilizează acest tip de card.
+       *[other] Modificările de mai jos vor afecta { $count } notiţe  care utilizează acest tip de card.
+    }
 card-templates-card-type = Tipul cardului:
 card-templates-front-template = Șablon față
 card-templates-back-template = Șablon verso
@@ -8,6 +14,7 @@ card-templates-front-preview = Previzualizare față
 card-templates-back-preview = Previzualizare verso
 card-templates-preview-box = Previzualizare
 card-templates-template-box = Șablon
+card-templates-sample-cloze = Aceasta este un { "{{c1::" }eșantion{ "}}" } de ascundere tip cloze.
 card-templates-fill-empty = Completează câmpuri goale
 card-templates-night-mode = Mod ”noapte”
 # Add "mobile" class to card preview, so the card appears like it would
@@ -45,4 +52,10 @@ card-templates-card-count =
         [one] { $count } card
         [few] { $count } carduri
        *[other] { $count } carduri
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Aceasta va crea un card. Continui?
+        [few] Aceasta va crea { $count } carduri. Continui?
+       *[other] Aceasta va crea { $count } carduri. Continui?
     }
