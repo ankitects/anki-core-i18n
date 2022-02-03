@@ -50,6 +50,9 @@ actions-update-notetype = Actualizează tip-card
 actions-update-config = Actualizează Configurarea
 actions-card-info = Informații card
 actions-previous-card-info = Informațiile cardului anterior
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 

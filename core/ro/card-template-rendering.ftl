@@ -4,7 +4,7 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Mai multe informații
-card-template-rendering-front-side-problem = Șablonul față are o problemă
+card-template-rendering-front-side-problem = Șablonul față are o problemă:
 card-template-rendering-back-side-problem = Șablonul verso are o problemă:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
@@ -25,3 +25,4 @@ card-template-rendering-no-such-field = Găsite'{ $found }', dar  nu există nic
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Fața acestui card este goală.
+card-template-rendering-missing-cloze = Nu s-a găsit nicio selecție de tip ”cloze” pe acest card la numărul { $number }. Te rugăm ori să adaugi o selecție de tip ”cloze”, ori să folosești instrumentul  ”Carduri goale”.
