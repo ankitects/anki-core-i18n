@@ -10,3 +10,4 @@ errors-please-check-database = Käytä Tarkista tietokanta -toimintoa ja yritä 
 ## Card Rendering
 
 errors-bad-directive = Virhe käskyssä '{ $directive }': { $error }
+errors-option-not-set = Asetusta '{ $option }' ei ole asetettu

@@ -25,6 +25,8 @@ deck-config-review-limit-tooltip = Päivän aikana näytettävien kerrattavien k
 ## New Cards section
 
 deck-config-learning-steps = Oppimisaskeleet
+deck-config-graduating-interval-tooltip = Montako päivää on odotettava, ennen kuin kortti voidaan näyttää uudelleen sen jälkeen, kun "Hyvä"-painiketta on painettu viimeisessä oppimisvaiheessa.
+deck-config-easy-interval-tooltip = Montako päivää on odotettava, ennen kuin kortti näytetään uudelleen sen jälkeen, kun kortti on poistettu opittavista kortteista "Helppo"-painikkeella.
 deck-config-new-insertion-order = Lisäysjärjestys
 deck-config-new-insertion-order-sequential = Peräkkäinen (vanhimmat kortit ensin)
 deck-config-new-insertion-order-random = Satunnainen
@@ -38,6 +40,8 @@ deck-config-relearning-steps = Uudelleen oppimisen askeleet
 
 ## Ordering section
 
+deck-config-new-gather-priority-deck = Pakka
+deck-config-sort-order-random = Satunnainen
 
 ## Timer section
 
