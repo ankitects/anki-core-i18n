@@ -112,6 +112,18 @@ browsing-note-count =
         [few] { $count } notițe
        *[other] { $count } notițe
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } notiță actualizată.
+        [few] { $count } notițe actualizate.
+       *[other] { $count } notițe actualizate.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } card actualizat.
+        [few] { $count } carduri actualizate.
+       *[other] { $count } carduri actualizate.
+    }
 browsing-window-title = Frunzărește prin ({ $selected } din { $total } carduri selectate)
 browsing-sidebar-expand = Extinde
 browsing-sidebar-collapse = Restrânge
@@ -142,6 +154,24 @@ browsing-sidebar-due-today = De parcurs
 browsing-sidebar-untagged = Fără marcaje
 browsing-sidebar-overdue = Depășite ca termen
 browsing-row-deleted = (șterse)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] A fost eliminat { $count } marcaj nefolosit.
+        [few] Au fost eliminate { $count } marcaje nefolosite.
+       *[other] Au fost eliminate { $count } marcaje nefolosite.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] A fost schimbată poziția unui card nou.
+        [few] A fost schimbată poziția pentru { $count } carduri noi.
+       *[other] A fost schimbată poziția pentru { $count } carduri noi.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Un pachet a fost redenumit.
+        [few] { $count } pachete au fost redenumite.
+       *[other] { $count } pachete au fost redenumite.
+    }
 
 ## obsolete; no need to translate
 
