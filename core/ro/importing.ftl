@@ -1,8 +1,9 @@
-importing-failed = Import eșuat.
 importing-failed-debug-info = Import nereușit. Informații de depanare:
 importing-aborted = Nereușite: { $val }
 importing-added-duplicate-with-first-field = Adaugă duplicat cu primul câmp: { $val }
 importing-allow-html-in-fields = Permite HTML în câmpuri
+importing-anki-files-are-from-a-very = Fișierele .anki provin dintr-o versiune foarte veche a Anki. Le poţi importa cu suplimentul 175027074 sau cu Anki 2.0, disponibil pe site-ul Anki.
+importing-anki2-files-are-not-directly-importable = Fișierele .anki2 nu pot fi importate direct - te rog să imporţi fișierul .apkg sau .zip pe care l-ai primit..
 importing-appeared-twice-in-file = A apărut de două ori în fișierulȘ { $val }
 importing-by-default-anki-will-detect-the = Anki detectează caracterul dintre câmpuri, cum ar fi taburi, virgule, etc. Dacă Anki nu detectează corect caracterul, îl puteți specifica aici. Folosiți \t pentru tab.
 importing-change = Modifică

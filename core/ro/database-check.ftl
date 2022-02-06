@@ -44,9 +44,9 @@ database-check-missing-decks =
     }
 database-check-revlog-properties =
     { $count ->
-        [one] S-a remediat { $count } intrare de recapitulat cu proprietăți nevalide.
-        [few] S-au remediat { $count } intrări de recapitulat cu proprietăți nevalide.
-       *[other] S-au remediat { $count } intrări de recapitulat cu proprietăți nevalide.
+        [one] S-a remediat { $count } intrare de repetat cu proprietăți nevalide.
+        [few] S-au remediat { $count } intrări de repetat cu proprietăți nevalide.
+       *[other] S-au remediat { $count } intrări de repetat cu proprietăți nevalide.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
@@ -55,7 +55,7 @@ database-check-notes-with-invalid-utf8 =
        *[other] S-au remediat { $count } notiţe cu caractere utf8 nevalide.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Unul sau mai multe tipuri de notiţe lipseau. Notiţele care le-au folosit au primit noi tipuri de notiţe, începând cu „db-check”, dar numele câmpurilor și designul cardului s-au pierdut, așa că ar fi mai bine să restaurați dintr-o copie de rezervă automată.
+database-check-notetypes-recovered = Unul sau mai multe tipuri de notiţe lipseau. Notiţele care le-au folosit au primit noi tipuri de notiţe, începând cu „db-check”, dar numele câmpurilor și designul cardului s-au pierdut, așa că ar fi mai bine să restaurezi dintr-o copie de rezervă automată.
 
 ## Progress info
 

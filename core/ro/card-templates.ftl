@@ -14,7 +14,7 @@ card-templates-front-preview = Previzualizare față
 card-templates-back-preview = Previzualizare verso
 card-templates-preview-box = Previzualizare
 card-templates-template-box = Șablon
-card-templates-sample-cloze = Aceasta este un { "{{c1::" }eșantion{ "}}" } de ascundere tip cloze.
+card-templates-sample-cloze = Acesta este un { "{{c1::" }eșantion{ "}}" } de ascundere tip cloze.
 card-templates-fill-empty = Completează câmpuri goale
 card-templates-night-mode = Mod ”noapte”
 # Add "mobile" class to card preview, so the card appears like it would
