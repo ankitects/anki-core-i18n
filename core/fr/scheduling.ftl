@@ -98,6 +98,9 @@ scheduling-update-done = Le planificateur a été mis à jour avec succès.
 scheduling-update-button = Mettre à jour
 scheduling-update-later-button = Plus tard
 scheduling-update-more-info-button = En savoir plus
+scheduling-update-required =
+    Votre collection doit être mise à jour vers l'ordonnanceur V2.¶
+    Veuillez sélectionner { scheduling-update-more-info-button } avant de poursuivre.
 
 ## Other scheduling strings
 

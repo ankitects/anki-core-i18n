@@ -63,6 +63,17 @@ deck-config-new-insertion-order-random = Aléatoire
 
 deck-config-relearning-steps = Étapes de ré-apprentissages
 deck-config-relearning-steps-tooltip = Aucun ou plusieurs délais, séparés par des espaces. Par défaut, appuyer sur le bouton 'À revoir' ¶ d'une carte à réviser va l'afficher à nouveau 10 minutes plus tard. Si aucun délai ¶ n'a été fourni, la carte aura son intervalle modifié, sans entrer¶ en réapprentissage.  { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Le nombre de fois où il faut appuyer sur "Encore" sur une carte de revue avant qu'elle ne soit¶
+    avant qu'elle ne soit considérée comme une sangsue. Les sangsues sont des cartes qui vous font perdre beaucoup de temps, et¶
+    lorsqu'une carte est marquée comme une sangsue, c'est une bonne idée de la réécrire, de la supprimer, ou¶
+    de penser à un moyen mnémotechnique pour t'aider à t'en souvenir.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Étiquette seulement`: Ajoute un tag "leech" à la note, et affiche une pop-up.¶
+    ¶
+    `Suspendre la carte` : En plus de l'étiquetage de la note, cachez la carte jusqu'à ce qu'elle soit¶
+    qu'elle soit manuellement remise en suspension.
 
 ## Burying section
 
@@ -89,6 +100,8 @@ deck-config-sort-order-random = Aléatoirement
 deck-config-sort-order-template-then-gather = Modèle de carte, puis dans l'ordre de la collecte
 deck-config-sort-order-gather = Dans l'ordre collectée
 deck-config-new-review-priority = Ordre nouvelle/à réviser
+deck-config-new-review-priority-tooltip = Quand montrer les nouvelles cartes par rapport aux cartes de révision.
+deck-config-interday-step-priority = Ordre d'apprentissage/de révision interjournalier
 deck-config-review-mix-mix-with-reviews = Mélanger avec les cartes à réviser
 deck-config-review-mix-show-after-reviews = Afficher après les cartes à réviser
 deck-config-review-mix-show-before-reviews = Afficher avant les cartes à réviser
@@ -127,9 +140,13 @@ deck-config-custom-scheduling-tooltip = Cela affecte la totalité de la collecti
 
 ## Adding/renaming
 
+deck-config-name-prompt = Nom
+deck-config-rename-group = Renommer la présélection
+deck-config-clone-group = clonage Présélection
 
 ## Removing
 
+deck-config-remove-group = supprimer la présélection
 deck-config-confirm-remove-name = Supprimer { $name } ?
 
 ## Other Buttons

@@ -15,7 +15,6 @@ editing-cut = Couper
 editing-edit-current = Modifier la carte en cours
 editing-edit-html = Modifier le HTML
 editing-fields = Champs
-editing-html-editor = Vue en langage hypertexte
 editing-indent = Augmenter l'indentation
 editing-italic-text = Italique
 editing-jump-to-tags-with-ctrlandshiftandt = Aller aux tags avec Ctrl+Shift+T
@@ -26,13 +25,15 @@ editing-latex-math-env = Env. math. LaTeX
 editing-mathjax-block = Bloc de MathJax
 editing-mathjax-chemistry = MathJax chimie
 editing-mathjax-inline = MathJax en ligne
+editing-mathjax-placeholder = Appuyez sur { $accept } pour accepter, { $newline } pour une nouvelle ligne.
 editing-media = Médias
 editing-ordered-list = Liste ordonée
 editing-outdent = Diminuer l'indentation
 editing-paste = Coller
 editing-record-audio = Enregistrer l'audio
 editing-remove-formatting = Supprimer le formatage
-editing-set-foreground-color = Choisir une couleur
+editing-set-text-color = Définir la couleur du texte
+editing-set-text-highlight-color = Définir la couleur de la surbrillance du texte
 editing-show-duplicates = Afficher les doublons
 editing-subscript = Indice
 editing-superscript = Exposant
@@ -44,15 +45,4 @@ editing-warning-cloze-deletions-will-not-work = Attention, le texte à trous ne 
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = Gras (Ctrl-B)
-editing-italic-text-ctrlandi = Texte italique (Ctrl+I)
-editing-underline-text-ctrlandu = Souligné (Ctrl+U)
-editing-subscript-ctrland = Indice  (Ctrl+=)
-editing-superscript-ctrlandand = Exposant (Ctrl++)
-editing-remove-formatting-ctrlandr = Supprimer le formatage (Ctrl-R)
-editing-record-audio-f5 = Enregistrer un son (F5)
-editing-attach-picturesaudiovideo-f3 = Joindre des images/fichiers audios/vidéos (F3)
-editing-cloze-deletion-ctrlandshiftandc = Texte à trous (Ctrl+Shift+C)
-editing-change-colour-f8 = Changer de couleur (F8)
-editing-set-foreground-colour-f7 = Choisir une couleur (F7)
-editing-customize-card-templates-ctrlandl = Personnaliser les modèles de carte (Ctrl+L)
+editing-html-editor = Vue en langage hypertexte

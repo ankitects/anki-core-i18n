@@ -16,7 +16,7 @@ search-unclosed-quote = un double guillemet `"` a été trouvé, mais aucun autr
 search-missing-key = des deux points `:` ont été trouvé, mais il n'y avait pas de mot-clé avant. Si vous voulez chercher des deux points, ajoutez une barre oblique inversée avant : `\:`.
 search-unknown-escape = la séquence d'échappement `{ $val }` n'est pas définie. Si vous voulez chercher une barre oblique inversée `\`, ajoutez une autre barre avant: `\\`.
 search-invalid-argument = `{ $term }` a donné un argument invalide '`{ $argument }`'.
-search-invalid-flag = `flag:` doit être suivi par un chiffre de marqueur valide : `1` (rouge), `2` (orange), `3` (vert), `4` (bleu) or `0` (pas de marqueur).
+search-invalid-flag-2 = `drapeau:` doit être suivi d'un numéro de drapeau valide : `1` (rouge), `2` (orange), `3` (vert), `4` (bleu), `5` (rose), `6` (turquoise), `7` (violet) ou `0` (pas de drapeau).
 search-invalid-prop-operator = `prop:{ $val }` doit être suivi par l'un des opérateurs de comparaison suivant : `=`, `!=`, `<`, `>`, `<=` or `>=`.
 search-invalid-other = veuillez vérifier les fautes de frappes.
 
