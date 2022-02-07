@@ -35,6 +35,10 @@ preferences-user-interface-size = Taille de l’interface
 preferences-when-adding-default-to-current-deck = Ajouter par défaut au paquet courant
 preferences-you-can-restore-backups-via-fileswitch = Vous pouvez restaurer les sauvegardes en passant par Fichier > Changer de compte.
 preferences-legacy-timezone-handling = Ancienne gestion des fuseaux horaires (bugué, mais nécessaire pour AnkiDroid <= 2.14)
+preferences-default-search-text = Texte de recherche standard
+preferences-default-search-text-example = par exemple: 'deck:actuel'
+preferences-theme-label = Thème:{ $theme }
+preferences-theme-follow-system = Suivre le système
 preferences-theme-light = Clair
 preferences-theme-dark = Sombre
 preferences-v3-scheduler = Planificateur V3

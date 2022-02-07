@@ -132,6 +132,7 @@ deck-config-skip-question-when-replaying = Sauter la question quand la réponse 
 
 deck-config-advanced-title = Avancé
 deck-config-easy-bonus-tooltip = Un facteur supplémentaire qui est appliqué à l'intervalle d'une carte à réviser quand on répond¶ 'Facile'.
+deck-config-interval-modifier-tooltip = Ce multiplicateur est appliqué à tous les examens, et des ajustements mineurs peuvent être utilisés pour rendre Anki plus conservateur ou agressif dans son ordonnancement. Veuillez consulter le manuel avant de modifier cette option.
 deck-config-hard-interval-tooltip = Le facteur appliqué à l'intervalle d'une carte à réviser quand on répond 'Difficile'.
 deck-config-new-interval-tooltip = Le facteur appliqué à l'intervalle d'une carte à réviser quand on répond 'À revoir'.
 deck-config-minimum-interval-tooltip = L'intervalle minimum donné à une carte à réviser après avoir répondu 'À revoir'.
@@ -147,6 +148,7 @@ deck-config-clone-group = clonage Présélection
 ## Removing
 
 deck-config-remove-group = supprimer la présélection
+deck-config-will-require-full-sync = La modification demandée nécessitera une synchronisation à sens unique. Si vous avez effectué des modifications¶ sur un autre appareil et que vous ne les avez pas encore synchronisées avec cet appareil, veuillez le faire avant ¶de poursuivre.
 deck-config-confirm-remove-name = Supprimer { $name } ?
 
 ## Other Buttons
@@ -166,6 +168,14 @@ deck-config-daily-limit-will-be-capped =
         [one] { $cards } carte
        *[other] { $cards } cartes
     }, ce qui va outrepasser cette limite.
+deck-config-reviews-too-low =
+    Si l'on ajoute { $cards ->
+        [one] { $cards } nouvelle carte chaque jour
+       *[other] { $cards } nouvelle carte chaque jour
+    }, votre limite de révision doit être d'au moins { $expected }.
+deck-config-learning-step-above-graduating-interval = L'intervalle de graduation doit être au moins aussi long que votre dernière étape d'apprentissage.
+deck-config-good-above-easy = L'intervalle facile doit être au moins aussi long que l'intervalle gradué.
+deck-config-relearning-steps-above-minimum-interval = L'intervalle minimal doit être au moins aussi long que votre étape finale de réapprentissage.
 
 ## Selecting a deck
 
