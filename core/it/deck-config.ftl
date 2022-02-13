@@ -84,12 +84,17 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
+deck-config-bury-title = Occultamento
+deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
+deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
 deck-config-bury-tooltip =
     Se altre carte della stessa nota (es. carte inverse, cancellazioni cloze 
     adiacenti) saranno rimandate al giorno successivo.
 
 ## Ordering section
 
+deck-config-ordering-title = Ordine di presentazione
+deck-config-new-gather-priority = Ordine di raccolta delle nuove carte
 deck-config-new-gather-priority-tooltip =
     `Mazzo`: raggruppa carte da ciascun mazzo figlio in ordine, e si ferma quando
     viene superato il limite del mazzo selezionato. E' veloce, e ti permette
@@ -101,6 +106,7 @@ deck-config-new-gather-priority-tooltip =
 deck-config-new-gather-priority-deck = Mazzo
 deck-config-new-gather-priority-position-lowest-first = Ordine per posizione ascendente
 deck-config-new-gather-priority-position-highest-first = Ordine per posizione discendente
+deck-config-new-card-sort-order = Ordinamento delle nuove carte
 deck-config-sort-order-due-date-then-random = Data di scadenza, poi a caso
 deck-config-sort-order-due-date-then-deck = Data di scadenza, poi ordine del mazzo
 deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi per data di scadenza
