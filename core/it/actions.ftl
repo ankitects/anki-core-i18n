@@ -5,6 +5,7 @@ actions-cancel = Annulla
 actions-choose = Scegli
 actions-close = Chiudi
 actions-copy = Copia
+actions-create-copy = Crea Copia
 actions-custom-study = Studio personalizzato
 actions-decks = Mazzi
 actions-delete = Elimina
@@ -33,7 +34,6 @@ actions-select = Seleziona
 actions-shortcut-key = Tasto di scorciatoia: { $val }
 actions-suspend-card = Sospendi la carta
 actions-set-due-date = Imposta la data di scadenza
-actions-forget = Dimentica
 actions-answer-card = Rispondi carta
 actions-unbury-unsuspend = Disseppellisci/Annulla sospensione
 actions-add-deck = Aggiungi mazzo
@@ -44,12 +44,15 @@ actions-update-card = Aggiorna carta
 actions-update-deck = Aggiorna mazzo
 actions-forget-card = Dimentica carta
 actions-build-filtered-deck = Crea mazzo
-actions-expand-collapse = Espandi/Comprimi
 actions-add-notetype = Aggiungi tipo di nota
 actions-remove-notetype = Rimuovi tipo di nota
 actions-update-notetype = Aggiorna tipo di nota
 actions-update-config = Aggiorna configurazione
 actions-card-info = Info carta
+actions-previous-card-info = Info Carta Precedente
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
