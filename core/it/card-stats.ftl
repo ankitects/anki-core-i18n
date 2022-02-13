@@ -22,3 +22,9 @@ card-stats-review-log-type-review = Ripetizione
 card-stats-review-log-type-relearn = Reimpara
 card-stats-review-log-type-filtered = Filtrato
 card-stats-review-log-type-manual = Manuale
+card-stats-no-card = (Nessuna carta da visualizzare.)
+
+## Window Titles
+
+card-stats-current-card = Carta corrente ({ $context })
+card-stats-previous-card = Carta precedente ({ $context })
