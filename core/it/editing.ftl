@@ -1,19 +1,13 @@
 editing-add-media = Aggiungi media
 editing-an-error-occurred-while-opening = Si è verificato un errore durante l'apertura di { $val }
-editing-attach-picturesaudiovideo-f3 = Allega immagini/audio/video (F3)
-editing-bold-text-ctrlandb = Testo in grassetto (Ctrl+B)
 editing-cards = Carte
-editing-change-colour-f8 = Cambia colore (F8)
-editing-cloze-deletion-ctrlandshiftandc = Testo da completare (Ctrl+Shift+C)
+editing-cloze-deletion = Cancellazione cloze
 editing-couldnt-record-audio-have-you-installed = La registrazione audio non è stata possibile. Hai installato 'lame'?
-editing-customize-card-templates-ctrlandl = Personalizza i modelli delle carte (Ctrl+L)
 editing-customize-fields = Personalizza i campi
 editing-cut = Taglia
 editing-edit-current = Modifica corrente
 editing-edit-html = Modifica HTML
 editing-fields = Campi
-editing-html-editor = Editor HTML
-editing-italic-text-ctrlandi = Testo corsivo (Ctrl+I)
 editing-jump-to-tags-with-ctrlandshiftandt = Salta a etichette con Ctrl+Shift+T
 editing-latex = LaTeX
 editing-latex-equation = Equazione LaTeX
@@ -23,13 +17,11 @@ editing-mathjax-chemistry = MathJax chimica
 editing-mathjax-inline = MathJax in linea
 editing-media = File multimediale
 editing-paste = Incolla
-editing-record-audio-f5 = Registra audio (F5)
-editing-remove-formatting-ctrlandr = Rimuovi formattazione (Ctrl+R)
-editing-set-foreground-colour-f7 = Imposta colore primo piano (F7)
 editing-show-duplicates = Mostra i duplicati
-editing-subscript-ctrland = Pedice (Ctrl+=)
-editing-superscript-ctrlandand = Apice (Ctrl++)
 editing-tags = Etichette
-editing-to-make-a-cloze-deletion-on = Per inserire testo da completare in una nota esistente, devi dapprima cambiarla in una nota di tipo con testo da completare, attraverso Modifica>Cambia tipo di nota
-editing-underline-text-ctrlandu = Sottolinea testo (Ctrl+U)
-editing-warning-cloze-deletions-will-not-work = Attenzione, testo da completare non funzionerà fino a quando non cambierai in testo da completare il tipo in alto.
+editing-to-make-a-cloze-deletion-on = Per inserire una cancellazione cloze in una nota esistente, devi prima cambiarla in una nota di tipo cloze, attraverso Modifica>Cambia tipo di nota
+editing-warning-cloze-deletions-will-not-work = Attenzione, le cancellazioni cloze non funzioneranno fino a quando non cambierai in "Cloze" il tipo in alto.
+
+## You don't need to translate these strings, as they will be replaced with different ones soon.
+
+editing-html-editor = Editor HTML

@@ -1,4 +1,5 @@
 database-check-corrupt = La collezione è corrotta. Consulta il manuale.
+database-check-rebuilt = Database ricostruito e ottimizzato.
 database-check-card-properties =
     { $count ->
         [one] Corretta { $count } carta con proprietà non valide.
@@ -8,6 +9,11 @@ database-check-missing-templates =
     { $count ->
         [one] Cancellata { $count } carta con modello mancante.
        *[other] Cancellate { $count } carte con modello mancante.
+    }
+database-check-field-count =
+    { $count ->
+        [one] Risolta { $count } nota con conteggio dei campi errato.
+       *[other] Risolte { $count } note con conteggio dei campi errato.
     }
 database-check-card-missing-note =
     { $count ->

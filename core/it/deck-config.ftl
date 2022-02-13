@@ -17,12 +17,19 @@ deck-config-default-name = Predefinito
 
 ## New Cards section
 
+deck-config-new-insertion-order-tooltip =
+    Controlla la posizione (Scadenza #) alla quale le nuove carte vengono assegnate quando le aggiungi.
+    Carte con un numero di scadenza basso verranno mostrate prima durante lo studio. Cambiando
+    questa opzione aggiornerà automaticamente la posizione corrente delle nuove carte.
 
 ## Lapses section
 
 
 ## Burying section
 
+deck-config-bury-tooltip =
+    Se altre carte della stessa nota (es. carte inverse, cancellazioni cloze 
+    adiacenti) saranno rimandate al giorno successivo.
 
 ## Ordering section
 

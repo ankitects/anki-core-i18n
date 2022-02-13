@@ -1,14 +1,22 @@
+## Default field names in newly created note types
+
 notetypes-front-field = Fronte
 notetypes-back-field = Retro
 notetypes-add-reverse-field = Aggiungi inversa
 notetypes-text-field = Testo
+
+## Default note type names
+
 notetypes-basic-name = Basilare
 notetypes-basic-reversed-name = Basilare (e carta inversa)
 notetypes-basic-optional-reversed-name = Basilare (carta inversa opzionale)
-notetypes-cloze-name = Testo da completare
 notetypes-basic-type-answer-name = Basilare (digita la risposta)
-notetypes-card-2-name = Carta 2
+notetypes-cloze-name = Cloze
+
+## Default card template names
+
 notetypes-card-1-name = Carta 1
+notetypes-card-2-name = Carta 2
 notetypes-add = Aggiungi: { $val }
 notetypes-add-note-type = Aggiungi tipo di nota
 notetypes-cards = Carte...
