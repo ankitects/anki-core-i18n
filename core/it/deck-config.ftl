@@ -39,7 +39,7 @@ deck-config-limit-interday-bound-by-reviews =
 
 ## New Cards section
 
-deck-config-learning-steps = Fasi di apprendimento
+deck-config-learning-steps = Passi di apprendimento
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = I ritardi sono generalmente minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
 deck-config-learning-steps-tooltip =
@@ -145,37 +145,102 @@ deck-config-sort-order-ascending-intervals = Intervalli ascendenti
 deck-config-sort-order-descending-intervals = Intervalli decrescente
 deck-config-sort-order-ascending-ease = Facilità crescente
 deck-config-sort-order-descending-ease = Facilità decrescente
+deck-config-display-order-will-use-current-deck =
+    Anki userà l'ordine di apparizione dal mazzo che hai 
+    selezionato da studiare, e non da un suo mazzo figlio.
 
 ## Timer section
 
 deck-config-timer-title = Timer
+deck-config-maximum-answer-secs = Massimo di secondi per risposta
+deck-config-maximum-answer-secs-tooltip =
+    Il numero massimo di secondi da registrare per singolo ripasso. Se una risposta
+    supera questo tempo (per esempio perché ti sei allontanato dallo schermo),
+    verrà registrato il tempo massimo che hai impostato.
+deck-config-show-answer-timer-tooltip =
+    Nella schermata delle revisioni, mostra un timer che conta il numero di secondi
+    che stai impiegando per ripassare ciascuna carta.
 
 ## Audio section
 
 deck-config-audio-title = Audio
+deck-config-disable-autoplay = Non riprodurre audio automaticamente
+deck-config-skip-question-when-replaying = Salta la domanda quando la risposta viene ripetuta
+deck-config-always-include-question-audio-tooltip =
+    Se l'audio della domanda deve essere inclusa quando usi l'azione "Riproduci di nuovo"
+    mentre guardi alla risposta della carta.
 
 ## Advanced section
 
 deck-config-advanced-title = Avanzato
+deck-config-maximum-interval-tooltip =
+    Il massimo numero di giorni che una carta da ripassare deve aspettare. Quando
+    le revisioni hanno raggiunto il limite, `Difficile`, `Normale`, `Facile` daranno lo
+    stesso intervallo di tempo. Più basso lo imposti, maggiore sarà il tuo carico di lavoro.
+deck-config-starting-ease-tooltip =
+    Il moltiplicatore facilità con il quale iniziano le nuove carte. Di default, il bottone
+    `Facile` su una nuova carta imparata ritarderà la prossima revisione di 2.5 volte
+    l'intervallo precedente.
+deck-config-easy-bonus-tooltip =
+    Un moltiplicatore aggiuntivo che è applicato all'intervallo di una carta ripassata
+    quando la ritieni `Facile`.
+deck-config-interval-modifier-tooltip =
+    Questo moltiplicatore è applicato a tutte le revisioni, e piccoli aggiustamenti possono
+    essere usati per rendere la pianificazione di Anki più conservativa o aggressiva.
+    Consulta il manuale prima di cambiare questa opzione.
+deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una revisione quando la reputi `Difficile`.
+deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una revisione quando clicchi su `Ripeti`.
+deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver cliccato `Ripeti`.
+deck-config-custom-scheduling = Pianificazione personalizzata
+deck-config-custom-scheduling-tooltip = Influenza l'intera collezione. Usa a tuo rischio e pericolo!
 
 ## Adding/renaming
 
+deck-config-add-group = Aggiungi Predefinito
 deck-config-name-prompt = Nome
+deck-config-rename-group = Rinomina Predefinito
+deck-config-clone-group = Clona Predefinito
 
 ## Removing
 
+deck-config-remove-group = Rimuovi Predefinito
+deck-config-will-require-full-sync =
+    Il cambiamento richiesti richiede una sincronizzazione a senso unico. Se hai fatto
+    cambiamenti su un altro dispositivo, a non li hai ancora sincronizzati con questo
+    dispositivo, per favore fallo prima di procedere.
 deck-config-confirm-remove-name = Rimuovi { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Salva
+deck-config-save-to-all-subdecks = Salva su tutti i mazzi figli
+deck-config-revert-button-tooltip = Ripristina questa impostazione al suo valore predefinito.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Gestione Anki 2.1.41+
+deck-config-description-new-handling-hint =
+    Tratta l'input come markdown, e cancella l'input HTML.Quando abilitato, anche 
+    la descrizione sarà mostrata sulla schermata di congratulazioni.
+    Markdown apparirà come testo su versioni di Anki inferiori o uguali a 2.1.40.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Un mazzo parde ha un limite di { $cards ->
+        [one] { $cards } carta
+       *[other] { $cards } carte
+    }, che sovrascriverà questo limite.
+deck-config-reviews-too-low =
+    Se aggiungi { $cards ->
+        [one] { $cards } nuova carta al giorno
+       *[other] { $cards } nuove carte al giorno
+    }, il tuo limite di ripetizioni dovrebbe essere almeno { $expected }.
+deck-config-learning-step-above-graduating-interval = L'intervallo di promozione dovrebbe essere lungo almeno quanto la fase finale di apprendimento.
+deck-config-good-above-easy = L'intervallo delle carte facili dovrebbe essere lungo almeno quanto l'intervallo di promozione.
+deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto la fase finale di riapprendimento.
 
 ## Selecting a deck
 
+deck-config-which-deck = Quale mazzo desideri?
