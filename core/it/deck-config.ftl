@@ -42,13 +42,45 @@ deck-config-limit-interday-bound-by-reviews =
 deck-config-learning-steps = Fasi di apprendimento
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = I ritardi sono generalmente minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
+deck-config-learning-steps-tooltip =
+    Uno o più ritardi, separati da spazi. Il primo ritardo sarà usato
+    quando premi il bottone "Ripeti" su una nuova carta, di default 1 minuto.
+    Il bottone  "Normale" avanzerà alla fase successiva, di default 10 minuti.
+    Una volta che tutte le fasi sono state completate, la carta diventerà una carta
+    da ripassare, ed apparirà in un giorno differente. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    Il numero di giorni da aspettare prima di mostrare ancora la carta, dopo che il
+    bottone "Normale" è stato premuto nella fase di apprendimento finale.
+deck-config-easy-interval-tooltip =
+    Il numero di giorni da aspettare prima di mostrare di nuovo una carta, dopo che il
+    bottone "Facile" è usato per rimuovere immediatamente una carta dall'apprendimento.
+deck-config-new-insertion-order = Ordine di inserimento
 deck-config-new-insertion-order-tooltip =
     Controlla la posizione (Scadenza #) alla quale le nuove carte vengono assegnate quando le aggiungi.
     Carte con un numero di scadenza basso verranno mostrate prima durante lo studio. Cambiando
     questa opzione aggiornerà automaticamente la posizione corrente delle nuove carte.
+deck-config-new-insertion-order-sequential = Sequenziale (prima le carte più vecchie)
+deck-config-new-insertion-order-random = Casuale
 
 ## Lapses section
 
+deck-config-relearning-steps = Fasi di riapprendimento
+deck-config-relearning-steps-tooltip =
+    Zero o più ritardi, separati da spazi. Di default, premendo il bottone `Ripeti`
+    su una carta da ripassare la rimostrerà dopo 10 minuti. Se nessun ritardo
+    è specificato, la carta avrà il suo intervallo cambiato, senza entrare
+    la fase di riapprendimento. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Il numero di volte che `Ripeti` deve essere premuto su una carta da ripassare prima
+    che essa sia marcata come sanguisuga. Le sanguisughe sono carte che richiedono molto
+    del tuo temo, e quando una carta è marcata come sanguisuga, è una buona idea riscriverla,
+    cancellarla o pensare ad un espediente mnemonico per ricordarla.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Solo Etichetta`: Aggiungi l'etichetta `Sanguisuga` alla nota, e mostra un pop-up.
+    
+    `Sospendi Carta`: Oltre ad aggiungere l'etichetta, nascondi la carta fino a
+    quando non è rimossa manualmente dalla sospensione.
 
 ## Burying section
 
