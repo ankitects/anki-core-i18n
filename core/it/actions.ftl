@@ -23,9 +23,9 @@ actions-preview = Anteprima
 actions-rebuild = Ricrea
 actions-rename = Rinomina
 actions-rename-deck = Rinomina il mazzo
-actions-rename-tag = Rinomina tag
+actions-rename-tag = Rinomina etichetta
 actions-rename-with-parents = Rinomina coi genitori
-actions-remove-tag = Rimuovi tag
+actions-remove-tag = Rimuovi etichetta
 actions-replay-audio = Riproduci di nuovo l'audio
 actions-reposition = Riposiziona
 actions-save = Salva
@@ -56,7 +56,7 @@ actions-with-ellipsis = { $action }...
 
 ## Flags
 
-actions-flag-number = Etichetta { $number }
+actions-flag-number = Contrassegno { $number }
 actions-flag-red = Rosso
 actions-flag-orange = Arancione
 actions-flag-green = Verde
@@ -64,4 +64,4 @@ actions-flag-blue = Blu
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turchese
 actions-flag-purple = Viola
-actions-set-flag = Attiva etichetta
+actions-set-flag = Imposta contrassegno

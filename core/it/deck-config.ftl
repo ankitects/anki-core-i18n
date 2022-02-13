@@ -45,12 +45,12 @@ deck-config-learning-steps = Passi di apprendimento
 deck-config-learning-steps-tooltip =
     Uno o più ritardi, separati da spazi. Il primo ritardo sarà usato
     quando premi il bottone "Ripeti" su una nuova carta, di default 1 minuto.
-    Il bottone  "Normale" avanzerà alla fase successiva, di default 10 minuti.
-    Una volta che tutte le fasi sono state completate, la carta diventerà una carta
+    Il bottone  "Normale" avanzerà al passo successivo, di default 10 minuti.
+    Una volta che tutti i passi sono stati completati, la carta diventerà una carta
     da ripassare, ed apparirà in un giorno differente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Il numero di giorni da aspettare prima di mostrare ancora la carta, dopo che il
-    bottone "Normale" è stato premuto nella fase di apprendimento finale.
+    bottone "Normale" è stato premuto nel passo di apprendimento finale.
 deck-config-easy-interval-tooltip =
     Il numero di giorni da aspettare prima di mostrare di nuovo una carta, dopo che il
     bottone "Facile" è usato per rimuovere immediatamente una carta dall'apprendimento.
@@ -64,7 +64,7 @@ deck-config-new-insertion-order-random = Casuale
 
 ## Lapses section
 
-deck-config-relearning-steps = Fasi di riapprendimento
+deck-config-relearning-steps = Passi di riapprendimento
 deck-config-relearning-steps-tooltip =
     Zero o più ritardi, separati da spazi. Di default, premendo il bottone `Ripeti`
     su una carta da ripassare la rimostrerà dopo 10 minuti. Se nessun ritardo
@@ -237,9 +237,9 @@ deck-config-reviews-too-low =
         [one] { $cards } nuova carta al giorno
        *[other] { $cards } nuove carte al giorno
     }, il tuo limite di ripetizioni dovrebbe essere almeno { $expected }.
-deck-config-learning-step-above-graduating-interval = L'intervallo di promozione dovrebbe essere lungo almeno quanto la fase finale di apprendimento.
+deck-config-learning-step-above-graduating-interval = L'intervallo di promozione dovrebbe essere lungo almeno quanto il passo finale di apprendimento.
 deck-config-good-above-easy = L'intervallo delle carte facili dovrebbe essere lungo almeno quanto l'intervallo di promozione.
-deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto la fase finale di riapprendimento.
+deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto il passo finale di riapprendimento.
 
 ## Selecting a deck
 
