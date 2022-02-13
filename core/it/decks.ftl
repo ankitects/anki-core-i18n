@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Aggiungi un nuovo mazzo (Ctrl+N)
-decks-are-you-sure-you-wish-to = Sei sicuro di voler eliminare { $val }?
 decks-build = Crea
 decks-cards-selected-by = carte selezionate per
 decks-create-deck = Crea mazzo
@@ -17,7 +16,6 @@ decks-latest-added-first = Dapprima aggiunte più recentemente
 decks-limit-to = Limita a
 decks-minutes = minuti
 decks-most-lapses = Maggior numero di errori
-decks-name-for-deck = Nome per il mazzo:
 decks-new-deck-name = Nome del nuovo mazzo:
 decks-no-deck = [nessun mazzo]
 decks-oldest-seen-first = Più vecchie visualizzate per prime
@@ -30,8 +28,5 @@ decks-repeat-failed-cards-after = Ripeti carte fallite dopo
 decks-reschedule-cards-based-on-my-answers = Ripianifica le carte considerando le mie risposte in questo mazzo
 decks-study = Studia
 decks-study-deck = Studia il mazzo
-decks-the-provided-search-did-not-match = La ricerca non ha fornito nessun risultato. Vuoi modificare i criteri di ricerca?
-decks-it-has-card = { $count ->
-    [one]  Ha { $count } carta.
-   *[other]  Ha { $count } carte.
-  }
+decks-filtered-deck-search-empty = Nessuna carta corrisponde ai criteri di ricerca forniti. Alcune carte potrebbero essere state escluse perché sono in un differente mazzo filtrato, o sono sospese.
+decks-unmovable-cards = Mostra le carte escluse

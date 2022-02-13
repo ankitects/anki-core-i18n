@@ -104,12 +104,47 @@ deck-config-new-gather-priority-tooltip =
     garantisce la presentazione delle carte in un ordine preciso (Scadenza #), anche se
     il limite del mazzo padre non è alto abbastanza per mostrare le carte di tutti i mazzi.
 deck-config-new-gather-priority-deck = Mazzo
-deck-config-new-gather-priority-position-lowest-first = Ordine per posizione ascendente
-deck-config-new-gather-priority-position-highest-first = Ordine per posizione discendente
+deck-config-new-gather-priority-position-lowest-first = Ordine per posizione crescente
+deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
 deck-config-new-card-sort-order = Ordinamento delle nuove carte
+deck-config-new-card-sort-order-tooltip =
+    Come le carte sono ordinate dopo essere state raccolte. Di default, Anki ordina
+    prima secondo il modello di carta, per evitare che diverse carte della stessa nota
+    vengano mostrate una dopo l'altra.
+deck-config-sort-order-card-template-then-lowest-position = Modello di carta, poi per posizione crescente
+deck-config-sort-order-card-template-then-highest-position = Modello di carta, poi per posizione decrescente
+deck-config-sort-order-card-template-then-random = Modello di carta, poi in ordine casuale
+deck-config-sort-order-lowest-position = Posizione crescente
+deck-config-sort-order-highest-position = Posizione decrescente
+deck-config-sort-order-random = Casuale
+deck-config-sort-order-template-then-gather = Modello di carta, poi in ordine di raccolta
+deck-config-sort-order-gather = Ordine di raccolta
+deck-config-new-review-priority = Ordine nuovo/da rivedere
+deck-config-new-review-priority-tooltip = Quando mostrare nuove carte in relazione a quelle da ripassare
+deck-config-interday-step-priority = Orine di apprendimento/revisione intergiornaliero
+deck-config-interday-step-priority-tooltip =
+    Quando mostrare carte in (re)apprendimento che superano la soglia di un giorno.
+    
+    Il limite di revisione è sempre applicato prima alle carte in apprendimento intergiornaliero, 
+    e poi a quelle da ripassare. Questa opzione controllerà l'ordine secondo il quale le carte raccolte
+    verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre raccolte prima.
+deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
+deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
+deck-config-review-mix-show-before-reviews = Mostra dopo le carte da ripassare
+deck-config-review-sort-order = Ordine delle carte dal ripassare
+deck-config-review-sort-order-tooltip =
+    L'ordine di default dà priorità alle carte che sono in attesa da più tempo, così
+    se hai una lista di carte arretrate, quella che sta aspettando da più tempo
+    apparirà per prima. Se hai una lunga lista che richiederebbe più di qualche giorno
+    per essere completata, o desideri vedere le carte secondo l'ordine dei mazzi figli,
+    troverai più utili i metodi di ordinamento alternativi.
 deck-config-sort-order-due-date-then-random = Data di scadenza, poi a caso
 deck-config-sort-order-due-date-then-deck = Data di scadenza, poi ordine del mazzo
 deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi per data di scadenza
+deck-config-sort-order-ascending-intervals = Intervalli ascendenti
+deck-config-sort-order-descending-intervals = Intervalli decrescente
+deck-config-sort-order-ascending-ease = Facilità crescente
+deck-config-sort-order-descending-ease = Facilità decrescente
 
 ## Timer section
 
