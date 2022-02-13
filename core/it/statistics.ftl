@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = Scadenza
 # The count of cards waiting to be reviewed
-statistics-due-count = Scadenza
+statistics-due-count = Programmate
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Nuova #{ $number }
 
@@ -67,8 +67,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } oggi ({ $secs-per-card }s/carta)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }s
 statistics-today-title = Oggi
 statistics-today-again-count = Carte fallite:
 statistics-today-type-counts = Impara: { $learnCount }, Ripeti: { $reviewCount }, Reimpara: { $relearnCount }, Filtrate: { $filteredCount }
@@ -102,6 +100,11 @@ statistics-answer-buttons-button-number = Pulsante
 statistics-answer-buttons-subtitle = Numero di volte che hai premuto ogni pulsante.
 statistics-reviews-title = Ripetizioni
 statistics-reviews-time-checkbox = Durata
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } carta in programma
+       *[other] { $cards } carte in programma
+    }
 statistics-intervals-title = Intervalli
 statistics-intervals-subtitle = Differimento della ripresentazione delle ripetizioni.
 statistics-hours-title = Suddivisione per ora del giorno
@@ -123,7 +126,6 @@ statistics-days-studied = Giorni di studio
 statistics-average-answer-time-label = Tempo medio di risposta
 statistics-average = Media
 statistics-average-interval = Intervallo medio
-statistics-longest-interval = Intervallo più lungo
 statistics-due-tomorrow = Da ripetere domani
 statistics-average-over-period = Se avessi studiato ogni giorno
 statistics-average-ease = Facilità media

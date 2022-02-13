@@ -86,6 +86,12 @@ scheduling-buried-cards-found = Una o più carte sono state seppellite e verrann
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = studio personalizzato
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Includi sempre il lato con la domanda quando si riproduce nuovamente l'audio
 scheduling-at-least-one-step-is-required = È richiesto almeno un passo.
 scheduling-automatically-play-audio = Riproduci automaticamente l'audio
@@ -93,7 +99,6 @@ scheduling-bury-related-new-cards-until-the = Seppellisci le carte nuove correla
 scheduling-bury-related-reviews-until-the-next = Seppellisci le ripetizioni correlate fino al giorno seguente
 scheduling-days = giorni
 scheduling-description = Descrizione
-scheduling-description-to-show-on-overview-screen = Descrizione per mostrare la schermata panoramica, per il mazzo corrente:
 scheduling-easy-bonus = Bonus facile
 scheduling-easy-interval = Intervallo facile
 scheduling-end = (fine)
@@ -138,4 +143,9 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } mazzo aggiornato.
        *[other] { $count } mazzi aggiornati.
+    }
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Imposta la data di scadenza di { $cards } carta.
+       *[other] Imposta la data di scadenza di { $cards } carte.
     }
