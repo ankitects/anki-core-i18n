@@ -83,12 +83,24 @@ scheduling-today-new-limit-reached =
     ricordati che più carte nuove introduci, più grande diventerà
     il tuo carico di lavoro per le ripetizioni a breve termine.
 scheduling-buried-cards-found = Una o più carte sono state seppellite e verranno mostrate domani. Puoi { $unburyThem } se desideri vederle immediatamente.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = disseppellirle
+scheduling-how-to-custom-study = Se desideri studiare fuori dal programma abituale, puoi usare la funzione { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = studio personalizzato
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 viene fornito con un nuovo pianificatore, che risolve molti problemi delle precedenti versioni di Anki. Si raccomanda di aggiornare Anki a questa versione.
+scheduling-update-done = Pianificatore aggiornato con successo.
+scheduling-update-button = Aggiorna
+scheduling-update-later-button = Dopo
+scheduling-update-more-info-button = Scopri di più
+scheduling-update-required =
+    La tua collezione necessita l'aggiornamento al pianificatore V2.
+    Per favore seleziona { scheduling-update-more-info-button } prima di procedere.
 
 ## Other scheduling strings
 
@@ -144,8 +156,22 @@ scheduling-deck-updated =
         [one] { $count } mazzo aggiornato.
        *[other] { $count } mazzi aggiornati.
     }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Mostra la carta tra quanti giorni?
+       *[other] Mostra le carte tra quanti giorni?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = oggi¶
+    1! = domani+resetta l'intervallo di ripasso¶
+    3-7 = scelta casuale di 3-7 giorni
 scheduling-set-due-date-done =
     { $cards ->
         [one] Imposta la data di scadenza di { $cards } carta.
        *[other] Imposta la data di scadenza di { $cards } carte.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Dimenticata { $cards } carta.
+       *[other] Dimenticate { $cards } carte.
     }

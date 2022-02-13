@@ -39,6 +39,12 @@ sync-password-label = Password:
 sync-account-required =
     <h1>Account necessario</h1>
     È necessario un account gratuito per mantenere sincronizzata la tua collezione. <a href="{ $link }">Iscriviti</a> per un account, poi inserisci i tuoi dati qui sotto.
+sync-sanity-check-failed = Per favore usa la funziona "Controlla il Database", poi sincronizza ancora. Se il problema persiste, forza una sincronizzazione completa in Preferenze.
+sync-clock-off = Impossibile sincronizzare - il tuo orologio non è settato sull'ora giusta.
+sync-upload-too-large =
+    Il file della tua collezione è troppo grande per essere inviato ad AnkiWeb. Puoi ridurre
+    il suo peso rimuovendo mazzi non necessari (se vuoi puoi prima esportarli), e poi usa
+    Controlla il Database per ridurre la grandezza del file. ({ $details })
 
 ## Buttons
 
@@ -55,3 +61,5 @@ sync-uploading-to-ankiweb = Caricamento su AnkiWeb in corso...
 sync-syncing = Sincronizzazione in corso...
 sync-checking = Controllo in corso...
 sync-connecting = Connessione...
+sync-added-updated-count = Aggiunti/modificati: { $up }↑ { $down }↓
+sync-log-out-button = Disconnetti

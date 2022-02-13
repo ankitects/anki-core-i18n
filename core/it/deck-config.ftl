@@ -84,7 +84,7 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = Occultamento
+deck-config-bury-title = Sepoltura
 deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
 deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
 deck-config-bury-tooltip =

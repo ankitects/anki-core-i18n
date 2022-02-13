@@ -79,15 +79,25 @@ statistics-counts-young-cards = Giovani
 statistics-counts-mature-cards = Mature
 statistics-counts-suspended-cards = Sospese
 statistics-counts-buried-cards = Seppellito
+statistics-counts-filtered-cards = Filtrato
 statistics-counts-learning-cards = In apprendimento
 statistics-counts-relearning-cards = In apprendimento
 statistics-counts-title = Carte
+statistics-counts-separate-suspended-buried-cards = Separa le carte sospese/seppellite
 statistics-range-all-time = vita del mazzo
 statistics-range-1-year-history = ultimi 12 mesi
 statistics-range-all-history = tutto
 statistics-range-deck = mazzo
 statistics-range-collection = collezione
 statistics-range-search = Cerca
+statistics-card-ease-title = Facilità della carta
+statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] { $cards } carta con { $percent } di facilità
+       *[other] { $cards } carte con { $percent } di facilità
+    }
 statistics-future-due-title = Previsioni
 statistics-future-due-subtitle = Numero di ripetizioni che scadranno in futuro.
 statistics-added-title = Aggiunto

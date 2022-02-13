@@ -4,6 +4,7 @@ notetypes-front-field = Fronte
 notetypes-back-field = Retro
 notetypes-add-reverse-field = Aggiungi inversa
 notetypes-text-field = Testo
+notetypes-back-extra-field = Retro Extra
 
 ## Default note type names
 

@@ -6,9 +6,13 @@ studying-buried-siblings = Carte gemelle seppellite
 studying-bury = Seppellisci
 studying-bury-card = Seppellisci la carta
 studying-bury-note = Seppellisci la nota
-studying-card-buried = Carta seppellita.
 studying-card-suspended = Carta sospesa.
 studying-card-was-a-leech = La carta era una sanguisuga.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } carta seppellita.
+       *[other] { $count } carte seppellite.
+    }
 studying-cards-will-be-automatically-returned-to = Le carte ritorneranno automaticamente nel mazzo originale dopo che le hai ripetute.
 studying-continue = Continua
 studying-delete-note = Elimina la nota
@@ -25,7 +29,6 @@ studying-manually-buried-cards = Carte seppellite manualmente
 studying-mark-note = Contrassegna nota
 studying-more = Altro
 studying-no-cards-are-due-yet = Nessuna carta da ripetere al momento.
-studying-note-buried = Nota seppellita.
 studying-note-suspended = Nota sospesa.
 studying-pause-audio = Audio in pausa
 studying-please-run-toolsempty-cards = Esegui Strumenti>Carte vuote
@@ -42,15 +45,13 @@ studying-type-answer-unknown-field = Digita la risposta: campo sconosciuto { $va
 studying-unbury = Disseppellisci
 studying-what-would-you-like-to-unbury = Che cosa vuoi disseppellire?
 studying-you-havent-recorded-your-voice-yet = Non hai ancora registrato la tua voce.
-studying-card-studied-in = { $count ->
-    [one] { $count } carta studiata in
-   *[other] { $count } carte studiate in
-  }
-studying-minute = { $count ->
-    [one] { $count } minuto.
-   *[other] { $count } minuti.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Nota e { $count } sua carta eliminata.
-   *[other] Nota e { $count } sue carte eliminate.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } carta studiata in
+       *[other] { $count } carte studiate in
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } minuto.
+       *[other] { $count } minuti.
+    }
