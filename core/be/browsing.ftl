@@ -15,7 +15,7 @@ browsing-card = Картка
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = К
 browsing-card-list = Спіс картак
-browsing-cards-cant-be-manually-moved-into = Карткі не могуць быць перамешчаныя ўручную ў фільтраваную калоду.
+browsing-cards-cant-be-manually-moved-into = Карткі не могуць быць перамешчаны ўручную ў фільтраваную калоду.
 browsing-cards-deleted =
     { $count ->
         [one] { $count } картка выдалена.

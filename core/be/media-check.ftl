@@ -20,7 +20,7 @@ media-check-subfolder-count = Падпапак: { $count }
 ## Shown at the top of each section
 
 media-check-renamed-header = Некаторыя файлы былі перайменаваны для сумяшчальнасці:
-media-check-oversize-header = Файлы больш за 100 МБ не могуць быць сінхранізаваныя з AnkiWeb.
+media-check-oversize-header = Файлы больш за 100 МБ не могуць быць сінхранізаваны з AnkiWeb.
 
 ## Shown once for each file
 
