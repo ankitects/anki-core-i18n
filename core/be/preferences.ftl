@@ -1,10 +1,13 @@
 preferences-automatically-sync-on-profile-openclose = Аўтаматычна сінхранізаваць пры адкрыцці/закрыцці профілю
 preferences-backups = Рэзервовыя копіі
 preferences-backups2 = рэзервовыя копіі
+preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span style=" font-weight:600;">Рэзервовыя копіі</span><br/>Anki будзе ствараць рэзервовыя копіі вашай калекцыі пры кожным закрыцці праграмы.</p></body></html>
 preferences-basic = Асноўнае
 preferences-change-deck-depending-on-note-type = Змяніць калоду ў залежнасці ад тыпу нататкі
 preferences-changes-will-take-effect-when-you = Змены набудуць моц, калі вы перазапусціце Anki.
 preferences-interface-language = Мова інтэрфейсу:
+preferences-interrupt-current-audio-when-answering = Перарываць аўдыя падчас адказу
+preferences-keep = Захаваць
 preferences-mins = хв.
 preferences-network = Сетка
 preferences-next-day-starts-at = Наступны дзень пачынаецца а
@@ -16,8 +19,10 @@ preferences-please-restart-anki-to-complete-language = Перазапусціц�
 preferences-preferences = Параметры
 preferences-scheduling = Планаванне
 preferences-synchronisation = <b>Сінхранізацыя</b>
+preferences-synchronize-audio-and-images-too = Сінхранізаваць таксама аўдыя і відарысы
 preferences-user-interface-size = Памер інтэрфейсу
 preferences-when-adding-default-to-current-deck = Перадвызначана дадаваць да бягучай калоды
+preferences-you-can-restore-backups-via-fileswitch = Вы можаце аднавіць рэзервовую копію праз «Файл > Пераключыць профіль».
 preferences-default-search-text = Тэкст пошуку па змаўчанні
 preferences-default-search-text-example = напр. «deck:current »
 preferences-theme-label = Тэма: { $theme }
