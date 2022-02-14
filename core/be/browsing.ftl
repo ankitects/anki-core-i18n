@@ -100,7 +100,7 @@ browsing-treat-input-as-regular-expression = Трактаваць увод як 
 browsing-update-saved-search = Абнавіць з бягучым пошукам
 browsing-whole-collection = Уся калекцыя
 browsing-window-title-notes = Праглядзець (выбрана { $selected } з { $total } нататак)
-browsing-you-must-have-at-least-one = Вы павінны мець прынамсі адзін слупок.
+browsing-you-must-have-at-least-one = Вы павінны мець як мінімум адзін слупок.
 browsing-group =
     { $count ->
         [one] { $count } група
