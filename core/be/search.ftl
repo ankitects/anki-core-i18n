@@ -25,6 +25,8 @@ search-invalid-other = праверце наяўнасць памылак дру
 
 ## Column labels in browse screen
 
+search-note-modified = Нататка зменена
+search-card-modified = Картка зменена
 
 ##
 

@@ -97,14 +97,18 @@ statistics-counts-filtered-cards = Фільтраваныя
 statistics-counts-learning-cards = Вывучаюцца
 statistics-counts-relearning-cards = Вывучаюцца паўторна
 statistics-range-all-time = агулам
+statistics-range-all-history = уся гісторыя
 statistics-range-deck = калода
 statistics-range-collection = калекцыя
 statistics-range-search = Пошук
 statistics-card-ease-title = Лёгкасць карткі
 statistics-added-title = Дададзена
 statistics-added-subtitle = Колькасць новых дададзеных вамі картак.
+statistics-answer-buttons-title = Кнопкі адказу
 # eg Button: 4
 statistics-answer-buttons-button-number = Кнопка
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Колькасць націсканняў
 statistics-reviews-title = На перагляд
 statistics-reviews-time-checkbox = Час
 # shown when graph is empty
@@ -127,6 +131,7 @@ statistics-elapsed-time-years = { $amount } г.
 ##
 
 statistics-total = Усяго
+statistics-average-ease = Сярэдняя лёгкасць
 statistics-save-pdf = Захаваць PDF
 statistics-saved = Захавана.
 statistics-stats = статыстыка

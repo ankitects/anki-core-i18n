@@ -19,6 +19,7 @@ sync-media-log-title = Журнал сінхранізацыі медыя
 
 ## Error messages / dialogs
 
+sync-confirm-empty-download = У лакальнай калекцыі няма картка. Спампаваць іх з AnkiWeb?
 sync-ankiweb-id-label = Ідэнтыфікатар AnkiWeb:
 sync-password-label = Пароль:
 

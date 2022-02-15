@@ -104,6 +104,7 @@ scheduling-custom-study = дапасаванае навучанне
 
 scheduling-update-button = Абнавіць
 scheduling-update-later-button = Пазней
+scheduling-update-more-info-button = Даведацца больш
 
 ## Other scheduling strings
 

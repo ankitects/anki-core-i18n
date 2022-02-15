@@ -34,6 +34,7 @@ card-templates-deck-override = Перавызначэнне калоды...
 card-templates-delete-the-as-card-type-and = Выдаліць тып карткі «{ $template }» і яго { $cards }?
 card-templates-enter-new-card-position-1 = Увядзіце новую пазіцыю для карткі (1...{ $val }):
 card-templates-flip = Перавярнуць
+card-templates-form = Форма
 card-templates-off = (выкл.)
 card-templates-on = (укл.)
 card-templates-remove-card-type = Выдаліць тып карткі...
