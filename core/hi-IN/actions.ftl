@@ -1,4 +1,42 @@
 actions-add = जोड़ें
+actions-all-selected = सभी चुन लिया गया है
+actions-any-selected = कोई भी चुना हुआ
+actions-cancel = रद्द करें
+actions-choose = चुनें
+actions-close = बंद करें
+actions-copy = प्रतिलिपि बनाएँ
+actions-create-copy = नकल बनाएं
+actions-custom-study = कस्टम अध्ययन
+actions-decks = डेक्स
+actions-delete = हटायें
+actions-export = निर्यात करें
+actions-filter = फ़िल्टर करें
+actions-help = सहायता
+actions-import = आयात करें
+actions-manage = प्रबंधित करें...
+actions-name = नाम:
+actions-new = नया
+actions-new-name = नया नाम:
+actions-options = विकल्प
+actions-options-for = { $val } के लिए विकल्प
+actions-preview = पूर्व दर्शन
+actions-rebuild = फिर से बनाएँ
+actions-rename = पुन: नाम दें
+actions-rename-deck = डेक का नाम बदलें
+actions-rename-tag = टैग का नाम बदलें
+actions-rename-with-parents = माता-पिता के साथ नाम बदलें
+actions-remove-tag = टेग निकालें
+actions-replay-audio = ऑडियो फिर से चलाएं
+actions-reposition = स्थान बदलें
+actions-save = सहेजें
+actions-search = खोज करें
+actions-select = चयन करें
+actions-shortcut-key = शॉर्टकट कुंजी: { $val }
+actions-suspend-card = काड रद्द करें
+actions-set-due-date = नियत तिथि निर्धारित करें
+actions-answer-card = उत्तर कार्ड
+actions-build-filtered-deck = डेक बनाएँ
+actions-add-notetype = नोट टाइप जोड़ें
 
 ## Flags
 
