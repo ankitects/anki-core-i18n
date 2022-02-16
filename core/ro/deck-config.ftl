@@ -94,25 +94,31 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Ordine de afişare
 deck-config-new-gather-priority = Ordine nouă de plasare a cardurilor
-deck-config-new-gather-priority-tooltip =
-    ”Pachet”: adună cardurile din fiecare sub-pachet, în ordine și se oprește când ¶
-    a fost depășită limita pachetului selectat. Acest lucru este mai rapid și îţi permite¶
-    să prioritizezi sub-pachetele care sunt mai aproape de vârf.¶
-    ¶
-    ”Poziție”: adună cardurile din toate pachetele înainte de a fi sortate. Aceasta¶
-    asigură cardurilor o apariţie strictă în ordinea poziției (due #), chiar dacă limita pentru părinte nu este¶
-    suficient de ridicată pentru a vedea cardurile din toate pachetele.
 deck-config-new-gather-priority-deck = Pachet
 deck-config-new-gather-priority-position-lowest-first = Poziție ascendentă
 deck-config-new-gather-priority-position-highest-first = Poziție descendentă
+deck-config-new-gather-priority-random-notes = Notițe aleatorii
+deck-config-new-gather-priority-random-cards = Carduri aleatorii
 deck-config-new-card-sort-order = Ordine de sortare după carduri noi
-deck-config-new-card-sort-order-tooltip =
-    Cum sunt sortate cardurile după ce au fost adunate. În mod implicit, Anki sortează¶
-    mai întâi după șablonul cardului, pentru a evita mai multe arduri ale aceleiași notiţe¶
-    să fie arătate succesiv.
+deck-config-new-card-sort-order-tooltip-2 =
+    `Șablon de card`: Afișează cardurile în ordinea șablonului de card. Dacă ai ”îngroparea cardurilor frați”¶
+    dezactivată, acest lucru va asigura că toate cardurile față->spate sunt văzute înaintea oricăror carduri din spate->față.¶
+    ¶
+    „Ordinea adunată”: arată cardurile exact așa cum au fost adunate. Dacă „îngroparea cardurilor frați„ este dezactivată,¶
+    acest lucru va face, de obicei, ca toate cardurile unei notițe să fie văzute una după alta.¶
+    ¶
+    `Șablon de card, apoi aleatoriu`: La fel ca`Șablon de card`, dar amestecă cardurile fiecărui șablon.¶
+    Atunci când este combinată cu o ordine de adunare în poziție ascendentă, aceasta poate fi folosită pentru a afișa¶
+    cele mai vechi carduri într-o ordine aleatorie, de exemplu.¶
+    ¶
+    `Notă aleatorie, apoi șablon de card`: alege notițele la întâmplare, apoi îi arată pe toți frații lor¶
+    în ordine.¶
+    ¶
+    `Random`: amestecă complet cardurile adunate.
 deck-config-sort-order-card-template-then-lowest-position = Șablon de card, apoi poziție ascendentă
 deck-config-sort-order-card-template-then-highest-position = Șablon de card, apoi poziție descendentă
 deck-config-sort-order-card-template-then-random = Șablon de card, apoi aleatoriu
+deck-config-sort-order-random-note-then-template = Notiță aleatorie, apoi șablon de card
 deck-config-sort-order-lowest-position = Poziţie ascendentă
 deck-config-sort-order-highest-position = Poziţie descendentă
 deck-config-sort-order-random = Aleatoriu
@@ -233,3 +239,18 @@ deck-config-relearning-steps-above-minimum-interval = Intervalul minim de interv
 ## Selecting a deck
 
 deck-config-which-deck = Ce pachet ai vrea?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+
+deck-config-new-card-sort-order-tooltip =
+    Cum sunt sortate cardurile după ce au fost adunate. În mod implicit, Anki sortează¶
+    mai întâi după șablonul cardului, pentru a evita mai multe arduri ale aceleiași notiţe¶
+    să fie arătate succesiv.
+deck-config-new-gather-priority-tooltip =
+    ”Pachet”: adună cardurile din fiecare sub-pachet, în ordine și se oprește când ¶
+    a fost depășită limita pachetului selectat. Acest lucru este mai rapid și îţi permite¶
+    să prioritizezi sub-pachetele care sunt mai aproape de vârf.¶
+    ¶
+    ”Poziție”: adună cardurile din toate pachetele înainte de a fi sortate. Aceasta¶
+    asigură cardurilor o apariţie strictă în ordinea poziției (due #), chiar dacă limita pentru părinte nu este¶
+    suficient de ridicată pentru a vedea cardurile din toate pachetele.
