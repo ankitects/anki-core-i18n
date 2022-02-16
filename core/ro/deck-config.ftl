@@ -94,6 +94,23 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Ordine de afişare
 deck-config-new-gather-priority = Ordine nouă de plasare a cardurilor
+deck-config-new-gather-priority-tooltip-2 =
+    `Pachet`: adună cardurile din fiecare pachet în ordine, începând de sus. Cardurile din fiecare pachet sunt¶
+    ordonate in pozitie ascendentă. Dacă limita zilnică a pachetului selectat este atinsă, ordonarea lor¶
+    se poate opri înainte ca toate pachetele să fi fost verificate. Această comandă este cea mai rapidă în colecțiile mari și¶
+    îți permite să acorzi prioritate sub-pachetelor care sunt mai aproape de partea de sus.¶
+    ¶
+    `Poziție ascendentă`: ordonează carduri în funcție de poziția ascendentă (numărul programat), ceea ce este de obicei¶
+    cel mai vechi adăugat primul.¶
+    ¶
+    `Poziție descendentă`: adună carduri în funcție de poziția descendentă (numărul programat), ceea ce este de obicei¶
+    cel mai recent adăugat primul.¶
+    ¶
+    `Notițe aleatorii`: adună carduri de notițe aleatorii. Când îngroparea cardurilor frați este¶
+    dezactivată, acest lucru permite ca toate cardurile unei notițe să fie văzute într-o sesiune (de exemplu, atât card față->spate¶
+    și spate->față)¶
+    ¶
+    `Carduri aleatorii`: ordonează cardurile complet aleatoriu.
 deck-config-new-gather-priority-deck = Pachet
 deck-config-new-gather-priority-position-lowest-first = Poziție ascendentă
 deck-config-new-gather-priority-position-highest-first = Poziție descendentă
@@ -217,6 +234,10 @@ deck-config-revert-button-tooltip = Restabileşte această setare la valoarea im
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling-hint =
+    Tratează intrarea ca reducere și curăță intrarea HTML. Când este activat,¶
+    descrierea va fi afișată și pe ecranul de felicitări.¶
+    Reducerea va apărea ca text pe Anki 2.1.40 și mai jos.
 
 ## Warnings shown to the user
 
