@@ -66,6 +66,7 @@ deck-config-new-insertion-order-tooltip =
     שינוי הגדרה זו יעדכן אוטומטית את המיקום הקיים של כרטיסים חדשים.
 deck-config-new-insertion-order-sequential = לפי סדר הוספה (הכרטיסים הישנים ראשונים)
 deck-config-new-insertion-order-random = אקראי
+deck-config-new-insertion-order-random-with-v3 = עם מתזמן V3, עדיף להשאיר את הסט הזה לרצף, ולהתאים את סדר איסוף הכרטיסים החדש במקום זאת.
 
 ## Lapses section
 
@@ -100,25 +101,36 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = סדר תצוגה
 deck-config-new-gather-priority = סדר איסוף כרטיס חדש
-deck-config-new-gather-priority-tooltip =
-    'חפיסה': אוסף קלפים מכל תת -חפיסה לפי הסדר, ועוצר כאשר
-    יש חריגה מהמגבלה של החפיסה שנבחרה. זה מהיר יותר ומאפשר לך
-    לתעדף תת -חפיסות הקרובות יותר לחפיסה הראשונה.
+deck-config-new-gather-priority-tooltip-2 =
+    `חפיסה`: אוספת כרטיסים מכל חפיסה לפי הסדר, החל מלמעלה. כרטיסים מכל חפיסה נאספים בסדר עולה. אם הכמות עולה על ההגבלה היומית של החפיסה שנבחרה, ייתכן שהאיסוף ייפסק לפני שכל החפיסות נבדקו. הסדר הזה הוא המהיר ביותר באוספים גדולים, ומאפשר לך לתעדף תת-חפיסות הקרובות יותר לראש.
     
-    `מיקום`: אוסף קלפים מכל החפיסות לפני מיון. זה
-    מבטיח שהכרטיסים יופיעו בסדר קפדני  (due #), גם אם מגבלת האב היא
-    לא מספיק גבוהה כדי לראות קלפים מכל החפיסות.
+    'מיקום עולה': אוסף כרטיסים לפי מיקום עולה (due #), שהוא בדרך כלל הוותיק ביותר שנוסף ראשון.
+    
+    'מיקום יורד': אוסף כרטיסים לפי מיקום יורד (due #), שהוא בדרך כלל האחרון שהתווסף ראשון.
+    
+    `רשומות אקראיות`: אוסף כרטיסים של רשומות שנבחרו באקראי. כאשר קבורת אחים מושבתת, זה מאפשר לראות את כל הכרטיסים  של הרשומה בהפעלה (למשל, גם כרטיס קדמי->אחורי וגם אחורי->כרטיס קדמי)
+    
+    `כרטיסים אקראיים`: אוסף כרטיסים באופן אקראי לחלוטין.
 deck-config-new-gather-priority-deck = חפיסה
 deck-config-new-gather-priority-position-lowest-first = סדר עולה
 deck-config-new-gather-priority-position-highest-first = סדר עולה
+deck-config-new-gather-priority-random-notes = רשומות אקראיות
+deck-config-new-gather-priority-random-cards = כרטיסים אקראיים
 deck-config-new-card-sort-order = סדר מיון כרטיסים חדש
-deck-config-new-card-sort-order-tooltip =
-    כיצד ממיינים קלפים לאחר שנאספו. כברירת מחדל, אנקי ממיין
-    לפי תבנית הכרטיס תחילה, כדי להימנע מכך שכמה כרטיסים מאותה רשומה
-    יוצגו ברצף.
+deck-config-new-card-sort-order-tooltip-2 =
+    'תבנית כרטיס': מציג כרטיסים בסדר תבנית כרטיס. אם קבורת אחים מושבתת, זה יבטיח שכל הכרטיסים הקדמיים->אחוריים ייראו לפני כל הכרטיסים  האחוריים->קדמיים.
+    
+    'סדר נאסף': מציג כרטיסים בדיוק כפי שנאספו. אם קבורת אחים מושבתת, זה בדרך כלל יביא לכך שכל הכרטיסים  של הרשומה ייראו בזה אחר זה.
+    
+    'תבנית כרטיס, ואחר כך אקראי': כמו 'תבנית כרטיס', אבל מערבב את הכרטיסים של כל תבנית. בשילוב עם סדר איסוף במיקום עולה, ניתן להשתמש בזה כדי להציג את הכרטיסים הוותיקים ביותר בסדר אקראי למשל.
+    
+    `רשומה אקראית, ואז תבנית כרטיס`: בוחר רשומות באקראי, ואז מציג את כל האחים שלהן לפי הסדר.
+    
+    `אקראי`: מערבב במלואו את הכרטיסים שנאספו.
 deck-config-sort-order-card-template-then-lowest-position = תבנית כרטיס, ולאחר מכן מיקום עולה
 deck-config-sort-order-card-template-then-highest-position = תבנית כרטיס, ולאחר מכן מיקום יורד
 deck-config-sort-order-card-template-then-random = תבנית כרטיס, ולאחר מכן סדר אקראי
+deck-config-sort-order-random-note-then-template = רשומה אקראית. ואז, תבנית כרטיס
 deck-config-sort-order-lowest-position = עמדה עולה
 deck-config-sort-order-highest-position = עמדה יורדת
 deck-config-sort-order-random = אקראי
@@ -206,7 +218,6 @@ deck-config-clone-group = שכפל תיאור
 ## Removing
 
 deck-config-remove-group = הסר תיאור
-deck-config-confirm-normal = למחוק { $name }?
 deck-config-will-require-full-sync =
     השינוי המבוקש ידרוש סנכרון חד כיווני. אם ביצעת שינויים
     במכשיר אחר, וטרם סנכרנת אותם למכשיר זה, אנא עשה זאת לפני
@@ -247,3 +258,18 @@ deck-config-relearning-steps-above-minimum-interval = מרווח הזמן המז
 ## Selecting a deck
 
 deck-config-which-deck = איזו חפיסה הינך רוצה?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+
+deck-config-new-card-sort-order-tooltip =
+    כיצד ממיינים קלפים לאחר שנאספו. כברירת מחדל, אנקי ממיין
+    לפי תבנית הכרטיס תחילה, כדי להימנע מכך שכמה כרטיסים מאותה רשומה
+    יוצגו ברצף.
+deck-config-new-gather-priority-tooltip =
+    'חפיסה': אוסף קלפים מכל תת -חפיסה לפי הסדר, ועוצר כאשר
+    יש חריגה מהמגבלה של החפיסה שנבחרה. זה מהיר יותר ומאפשר לך
+    לתעדף תת -חפיסות הקרובות יותר לחפיסה הראשונה.
+    
+    `מיקום`: אוסף קלפים מכל החפיסות לפני מיון. זה
+    מבטיח שהכרטיסים יופיעו בסדר קפדני  (due #), גם אם מגבלת האב היא
+    לא מספיק גבוהה כדי לראות קלפים מכל החפיסות.
