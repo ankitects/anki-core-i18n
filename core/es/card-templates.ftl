@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = Vacío
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Los cambios debajo afectarán { $count } nota que utiliza este tipo de tarjeta.
@@ -19,6 +21,11 @@ card-templates-night-mode = Modo Nocturno
 card-templates-add-mobile-class = Añadir Clase de CSS para dispositivos Moviles
 card-templates-preview-settings = Opciones
 card-templates-invalid-template-number = La plantilla de tarjeta { $number } tiene un problema.
+card-templates-identical-front = El anverso es idéntico a la plantilla de tarjeta { $number }
+card-templates-no-front-field = Se espera encontrar un reemplazo de campo en el anverso de la plantilla de tarjeta.
+card-templates-missing-cloze = Se espera encontrar '{ "{{" }cloze:Text{ "}}" }' o similar en el anverso y reverso de la plantilla de tarjeta.
+card-templates-extraneous-cloze = 'cloze:' solo se puede usar en notas de tipo respuesta anidada.
+card-templates-see-preview = Consulte la vista previa para obtener más información.
 card-templates-changes-saved = Cambios guardados.
 card-templates-discard-changes = Descartar cambios?
 card-templates-add-card-type = Añadir tipo de tarjeta...
@@ -26,7 +33,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki no ha podido encontrar 
 card-templates-at-least-one-card-type-is = Se requiere como mínimo un tipo de tarjeta.
 card-templates-browser-appearance = Apariencia del navegador...
 card-templates-card = Tarjeta { $val }
-card-templates-card-types = Tipos de tarjeta
 card-templates-card-types-for = Tipos de tarjeta para { $val }
 card-templates-cloze = Respuesta anidada { $val }
 card-templates-deck-override = Superposició de mazo...
