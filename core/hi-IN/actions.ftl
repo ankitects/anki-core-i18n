@@ -37,6 +37,23 @@ actions-set-due-date = नियत तिथि निर्धारित क
 actions-answer-card = उत्तर कार्ड
 actions-build-filtered-deck = डेक बनाएँ
 actions-add-notetype = नोट टाइप जोड़ें
+actions-remove-notetype = नोट का प्रकार हटाएं
+actions-update-notetype = नोट का प्रकार अद्यतन करें
+actions-update-config = कॉन्फ़िगरेशन अपडेट करें
+actions-card-info = कार्ड की जानकारी
+actions-previous-card-info = पिछले कार्ड की जानकारी
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
+actions-flag-number = { $number } झंडा
+actions-flag-red = लाल
+actions-flag-orange = संतरा
+actions-flag-green = हरा
+actions-flag-blue = नीला
+actions-flag-pink = गुलाबी
+actions-flag-turquoise = फ़िरोज़ा
+actions-flag-purple = बैंगनी
+actions-set-flag = झंडा सेट करें
