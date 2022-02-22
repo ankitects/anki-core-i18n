@@ -24,6 +24,9 @@ deck-config-limit-new-bound-by-reviews =
     复习上限会影响新卡片上限。例如，若您的复习上限设为 200，
     且您有 190 张卡片待复习，则最多只有 10 张新卡片会展示。
     若您已达到复习上限，则不会再展示新卡片。
+deck-config-limit-interday-bound-by-reviews =
+    复习上限也会影响跨天学习的卡片。当应用限制时，跨天学习的卡片会优先被选取，
+    然后是复习卡片，最后是新卡片。
 
 ## New Cards section
 
@@ -103,6 +106,19 @@ deck-config-new-gather-priority-position-highest-first = 按位置降序
 deck-config-new-gather-priority-random-notes = 随机笔记
 deck-config-new-gather-priority-random-cards = 随机卡片
 deck-config-new-card-sort-order = 新卡片排序顺序
+deck-config-new-card-sort-order-tooltip-2 =
+    「卡片模板」：按照卡片模板的顺序显示卡片。如果搁置关联卡片功能被禁用，
+    这将确保所有「正面->背面」的卡片在任何「背面->正面」的卡片前被看到。
+    
+    「收集顺序」：准确显示卡片的收集顺序。如果搁置关联卡片功能被禁用，那么
+    这通常会导致一条笔记上的所有卡片被一个接一个地看到。
+    
+    「卡片模板，然后随机」：就像「卡片模板」一样，但对每个模板的卡片洗牌。
+    当与按位置升序排序结合时，这可以用来以随机顺序显示最旧的卡片。
+    
+    「随机笔记，然后按卡片模板」：随机抽取笔记，然后按顺序显示其所有的关联卡片。
+    
+    「随机」：将收集到的卡片完全洗牌。
 deck-config-sort-order-card-template-then-lowest-position = 先按照卡片模板，然后按位置升序
 deck-config-sort-order-card-template-then-highest-position = 先按照卡片模板，然后按位置降序
 deck-config-sort-order-card-template-then-random = 先按照卡片模板，然后随机
