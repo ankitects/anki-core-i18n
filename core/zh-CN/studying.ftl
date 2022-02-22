@@ -6,9 +6,12 @@ studying-buried-siblings = 搁置的关联卡片
 studying-bury = 搁置
 studying-bury-card = 搁置卡片
 studying-bury-note = 搁置笔记
-studying-card-buried = 已搁置的卡片
 studying-card-suspended = 已暂停的卡片
-studying-card-was-a-leech = 此卡片为记忆难点
+studying-card-was-a-leech = 此卡片为“水蛭”。
+studying-cards-buried =
+    { $count ->
+       *[other] 已搁置{ $count }卡片。
+    }
 studying-cards-will-be-automatically-returned-to = 卡片在复习完后将会自动回到原来的牌组中。
 studying-continue = 继续
 studying-delete-note = 删除笔记
@@ -25,7 +28,6 @@ studying-manually-buried-cards = 已手动搁置的卡片
 studying-mark-note = 标记笔记
 studying-more = 更多
 studying-no-cards-are-due-yet = 还没有卡片到期.
-studying-note-buried = 已搁置的笔记
 studying-note-suspended = 已暂停的笔记
 studying-pause-audio = 暂停音频
 studying-please-run-toolsempty-cards = 请运行 工具>清理空卡片
@@ -49,8 +51,4 @@ studying-card-studied-in =
 studying-minute =
     { $count ->
        *[other] { $count } 分钟
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-       *[other] 笔记及它的{ $count }张卡片被删除.
     }

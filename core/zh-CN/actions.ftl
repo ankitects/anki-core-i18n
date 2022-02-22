@@ -5,6 +5,7 @@ actions-cancel = 取消
 actions-choose = 选择
 actions-close = 关闭
 actions-copy = 复制
+actions-create-copy = 建立副本
 actions-custom-study = 自定义学习
 actions-decks = 牌组
 actions-delete = 删除
@@ -33,7 +34,6 @@ actions-select = 选择
 actions-shortcut-key = 快捷键: { $val }
 actions-suspend-card = 暂停卡片
 actions-set-due-date = 指定何时到期
-actions-forget = 忘记
 actions-answer-card = 回答卡片
 actions-unbury-unsuspend = 取消搁置/取消暂停
 actions-add-deck = 添加牌组
@@ -44,12 +44,15 @@ actions-update-card = 更新卡片
 actions-update-deck = 更新牌组
 actions-forget-card = 忘记卡片
 actions-build-filtered-deck = 建立牌组
-actions-expand-collapse = 展开/折叠
 actions-add-notetype = 添加笔记模板
 actions-remove-notetype = 删除笔记模板
 actions-update-notetype = 更新笔记模板
 actions-update-config = 更新设置
 actions-card-info = 卡片信息
+actions-previous-card-info = 上一张卡片信息
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 

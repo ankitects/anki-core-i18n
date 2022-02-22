@@ -60,6 +60,9 @@ scheduling-update-done = 已成功更新算法。
 scheduling-update-button = 更新
 scheduling-update-later-button = 稍后
 scheduling-update-more-info-button = 更多信息
+scheduling-update-required =
+    你的集合需要升级到 V2 调度算法
+    请选择{ scheduling-update-more-info-button }后再继续。
 
 ## Other scheduling strings
 
@@ -70,7 +73,6 @@ scheduling-bury-related-new-cards-until-the = 搁置相关新卡片到隔日
 scheduling-bury-related-reviews-until-the-next = 搁置相关复习到隔日
 scheduling-days = 天
 scheduling-description = 描述
-scheduling-description-to-show-on-overview-screen = 显示在概览界面上的当前牌组的描述：
 scheduling-easy-bonus = 简单奖励
 scheduling-easy-interval = 简单间隔
 scheduling-end = (完成)
@@ -82,8 +84,8 @@ scheduling-interval-modifier = 间隔调节乘数
 scheduling-lapses = 遗忘
 scheduling-lapses2 = 遗忘次数
 scheduling-learning = 学习中
-scheduling-leech-action = 难点处置
-scheduling-leech-threshold = 难点阈值
+scheduling-leech-action = “水蛭”处置
+scheduling-leech-threshold = “水蛭”阈值
 scheduling-maximum-interval = 最大间隔
 scheduling-maximum-reviewsday = 最大复习数/天
 scheduling-minimum-interval = 最小间隔

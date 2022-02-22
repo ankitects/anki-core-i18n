@@ -1,11 +1,10 @@
 browsing-add-notes = 添加笔记…
-browsing-add-tags = 添加标签
 browsing-add-tags2 = 添加标签...
+browsing-add-to-selected-notes = 添加到选取的笔记
+browsing-remove-from-selected-notes = 从选取的笔记中移除
 browsing-addon = 插件
-browsing-all-card-types = 所有卡片模板
 browsing-all-fields = 所有字段
 browsing-answer = 答案
-browsing-any-cards-mapped-to-nothing-will = 所有孤立的卡片都会被删除，没有保存到卡片中的笔记也会丢失，您确定要继续么？
 browsing-any-flag = 所有旗标
 browsing-average-ease = 平均简易度
 browsing-average-interval = 平均间隔
@@ -16,7 +15,6 @@ browsing-card = 卡片模板
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = 卡
 browsing-card-list = 卡片列表
-browsing-card-state = 卡片状态
 browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到过滤牌组
 browsing-cards-deleted =
     { $count ->
@@ -27,19 +25,14 @@ browsing-change-deck2 = 更改所属牌组…
 browsing-change-note-type = 改变笔记模板
 browsing-change-note-type2 = 改变笔记模板…
 browsing-change-notetype = 改变笔记模板
-browsing-change-to = 将{ $val }改为：
-browsing-clear-unused = 删除未使用的
 browsing-clear-unused-tags = 删除未使用的标签
 browsing-confirm-saved-search-overwrite = 已存在名为 { $name } 的搜索条件。要覆盖它吗？
 browsing-created = 添加日期
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = 当前牌组
 browsing-current-note-type = 当前笔记模板：
 browsing-delete-notes = 删除笔记
-browsing-delete-tags = 删除标签
 browsing-duplicate = 复制
 browsing-ease = 简易度
-browsing-end = 结束
 browsing-enter-tags-to-add = 输入要添加的标签：
 browsing-enter-tags-to-delete = 输入要删除的标签：
 browsing-filtered = 已过滤
@@ -51,7 +44,6 @@ browsing-flag = 旗标
 browsing-font = <b>字体</b>:
 browsing-font-size = <b>字体大小</b>:
 browsing-found-as-across-bs = 在 { $whole } 中找到 { $part } 。
-browsing-home = 首页
 browsing-ignore-case = 忽略大小写
 browsing-in = <b>选择字段</b>:
 browsing-interval = 间隔
@@ -61,7 +53,6 @@ browsing-line-size = <b>行大小</b>:
 browsing-manage-note-types = 管理笔记模板…
 browsing-move-cards = 移动卡片
 browsing-move-cards-to-deck = 移动卡片到牌组:
-browsing-nd-names = { $num }: { $name }
 browsing-new = (未学习)
 browsing-new-note-type = 新笔记模板:
 browsing-no-flag = 无旗标
@@ -69,15 +60,11 @@ browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记模板
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 笔
-browsing-notes-tagged = 已添加标签的笔记
-browsing-nothing = 无
-browsing-only-new-cards-can-be-repositioned = 只有新卡片可以被重排位置。
 browsing-optional-filter = 可选过滤器：
 browsing-override-back-template = 忽略背面模版
 browsing-override-font = 覆盖字体：
 browsing-override-front-template = 忽略正面模版
 browsing-please-give-your-filter-a-name = 请给筛选结果添加名称：
-browsing-please-select-cards-from-only-one = 请选择使用了相同模板的卡片.
 browsing-preview-selected-card = 预览选择的卡片 ({ $val })
 browsing-question = 问题
 browsing-queue-bottom = 队尾: { $val }
@@ -119,10 +106,6 @@ browsing-note-count =
     { $count ->
        *[other] { $count }条笔记
     }
-browsing-note-deleted =
-    { $count ->
-       *[other] 删除 { $count } 条笔记
-    }
 browsing-notes-updated =
     { $count ->
        *[other] 已更新 { $count } 条笔记。
@@ -144,6 +127,13 @@ browsing-sidebar-save-current-search = 保存当前搜索条件
 browsing-sidebar-card-state = 卡片状态
 browsing-sidebar-flags = 旗标
 browsing-today = 今天
+browsing-tooltip-card-modified = 上一次卡片修改，包括复习、旗标和牌组变化
+browsing-tooltip-note-modified = 上一次笔记修改，通常是字段内容或标签编辑
+browsing-tooltip-card = 卡片的卡片模板名称
+browsing-tooltip-cards = 笔记拥有的卡片数量
+browsing-tooltip-notetype = 笔记的笔记类型名称
+browsing-tooltip-question = 卡片正面，可在卡片模板编辑器中自定义
+browsing-tooltip-answer = 卡片背面，可在卡片模板编辑器中自定义
 browsing-studied-today = 今天学习的
 browsing-added-today = 今天添加的
 browsing-again-today = 今天忘记的
@@ -166,3 +156,6 @@ browsing-reparented-decks =
     { $count ->
        *[other] 已重命名 { $count } 个牌组。
     }
+
+## obsolete; no need to translate
+

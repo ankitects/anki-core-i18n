@@ -35,8 +35,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }学习了 { statistics-cards } （每张卡片 { $secs-per-card } 秒）
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }秒
 statistics-today-title = 今天
 statistics-today-again-count = 重复计数:
 statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已过滤: { $filteredCount }
@@ -49,7 +47,7 @@ statistics-counts-young-cards = 欠熟练
 statistics-counts-mature-cards = 已熟练
 statistics-counts-suspended-cards = 已暂停
 statistics-counts-buried-cards = 搁置中
-statistics-counts-early-cards = 提前
+statistics-counts-filtered-cards = 已筛选
 statistics-counts-learning-cards = 学习中
 statistics-counts-relearning-cards = 重新学习中
 statistics-counts-title = 卡片数量
@@ -140,7 +138,6 @@ statistics-days-studied = 学习天数
 statistics-average-answer-time-label = 平均回答用时
 statistics-average = 平均
 statistics-average-interval = 平均间隔
-statistics-longest-interval = 最长间隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total }({ $percent }%)
