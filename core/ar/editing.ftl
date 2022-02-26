@@ -55,4 +55,4 @@ editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء
 
 editing-html-editor = محرر HTML
 editing-set-text-color = ضبط لون النص
-editing-set-text-highlight-color = ضبط لون التظليل
+editing-set-text-highlight-color = ضبط لون تظليل النص
