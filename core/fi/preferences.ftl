@@ -42,3 +42,4 @@ preferences-theme-follow-system = Seuraa järjestelmän asetuksia
 preferences-theme-light = Vaalea
 preferences-theme-dark = Tumma
 preferences-v3-scheduler = V3-aikataulutusohjelma
+preferences-ignore-accents-in-search = Jätä aksentit huomiotta haun yhteydessä (hitaampi)

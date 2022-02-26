@@ -25,6 +25,8 @@ deck-config-review-limit-tooltip = Päivän aikana näytettävien kerrattavien k
 ## New Cards section
 
 deck-config-learning-steps = Oppimisaskeleet
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Viiveet ovat yleensä minuutteja (esim. `1m`) tai päiviä (esim. `2d`), mutta myös tunteja (esim. `1h`) ja sekunteja (esim. `30s`) voidaan käyttää.
 deck-config-graduating-interval-tooltip = Montako päivää on odotettava, ennen kuin kortti voidaan näyttää uudelleen sen jälkeen, kun "Hyvä"-painiketta on painettu viimeisessä oppimisvaiheessa.
 deck-config-easy-interval-tooltip = Montako päivää on odotettava, ennen kuin kortti näytetään uudelleen sen jälkeen, kun kortti on poistettu opittavista kortteista "Helppo"-painikkeella.
 deck-config-new-insertion-order = Lisäysjärjestys
@@ -73,3 +75,6 @@ deck-config-disable-autoplay = Älä toista ääniä automaattisesti
 ## Selecting a deck
 
 deck-config-which-deck = Minkä pakan haluaisit?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+

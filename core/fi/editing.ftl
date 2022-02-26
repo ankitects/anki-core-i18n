@@ -19,7 +19,6 @@ editing-fields = Kentät
 editing-float-left = Kelluta vasemmalle
 editing-float-right = Kelluta oikealle
 editing-float-none = Ei kellutusta
-editing-html-editor = HTML-muokkain
 editing-indent = Kasvata sisennystä
 editing-italic-text = Kursivoitu teksti
 editing-jump-to-tags-with-ctrlandshiftandt = Siirry tunnisteisiin painamalla Ctrl+Shift+T
@@ -37,17 +36,23 @@ editing-outdent = Vähennä sisennystä
 editing-paste = Liitä
 editing-record-audio = Tallenna ääntä
 editing-remove-formatting = Poista muotoilu
-editing-set-text-color = Aseta tekstin väri
-editing-set-text-highlight-color = Aseta tekstin korostusväri
+editing-select-remove-formatting = Valitse poistettava muotoilu
 editing-show-duplicates = Näytä kaksoiskappaleet
 editing-subscript = Alaindeksi
 editing-superscript = Yläindeksi
 editing-tags = Tunnisteet
+editing-text-color = Tekstin väri
+editing-text-highlight-color = Tekstin korostusväri
 editing-to-make-a-cloze-deletion-on = Voidaksesi tehdä aukkotehtävän olemassa olevasta muistiinpanosta, sinun täytyy ensin muuttaa se aukkotehtävätyypiksi: Muokkaa>Vaihda muistiinpanotyyppiä
+editing-toggle-html-editor = Näytä/piilota HTML-muokkausnäkymä
 editing-toggle-sticky = Tarttuminen päälle/pois
-editing-underline-text = Alleviivaa teksti
+editing-toggle-visual-editor = Näytä/piilota visuaalinen muokkausnäkymä
+editing-underline-text = Alleviivattu teksti
 editing-unordered-list = Numeroimaton luettelo
 editing-warning-cloze-deletions-will-not-work = Varoitus: aukkotehtävät eivät toimi ennen kun vaihdat tyypin ylhäältä aukkotehtäväksi.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = HTML-muokkain
+editing-set-text-color = Aseta tekstin väri
+editing-set-text-highlight-color = Aseta tekstin korostusväri
