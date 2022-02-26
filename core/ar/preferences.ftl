@@ -42,3 +42,4 @@ preferences-theme-follow-system = حسب النظام
 preferences-theme-light = ساطع
 preferences-theme-dark = داكن
 preferences-v3-scheduler = مجدول V3
+preferences-ignore-accents-in-search = تجاهل حركات الأحرف في البحث (أبطأ)

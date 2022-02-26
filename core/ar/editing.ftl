@@ -36,12 +36,13 @@ editing-outdent = خفض الإزاحة
 editing-paste = لصق
 editing-record-audio = تسجيل صوت
 editing-remove-formatting = إزالة التنسيق
-editing-set-text-color = ضبط لون النص
-editing-set-text-highlight-color = ضبط لون التظليل
+editing-select-remove-formatting = حدد التنسيق الذي تريد حذفه
 editing-show-duplicates = إظهار الملحوظات المكررة
 editing-subscript = خط تحتي
 editing-superscript = خط فوقي
 editing-tags = وسوم
+editing-text-color = لون النص
+editing-text-highlight-color = لون تظليل النص
 editing-to-make-a-cloze-deletion-on = لصنع عبارة ملء فراغات في ملحوظة موجودة، عليك تغيير نوعها إلى نوع ملء الفراغات أولًا، عبر 'ملحوظات>تغيير نوع الملحوظة'
 editing-toggle-html-editor = تفعيل محرر HTML أو إيقافه
 editing-toggle-sticky = تفعيل/إيقاف ثبات النص
@@ -53,3 +54,5 @@ editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = محرر HTML
+editing-set-text-color = ضبط لون النص
+editing-set-text-highlight-color = ضبط لون التظليل

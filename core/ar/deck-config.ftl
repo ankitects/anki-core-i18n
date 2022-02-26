@@ -88,6 +88,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = الدفن
 deck-config-bury-new-siblings = دفن البطاقات الشقيقة الجديدة حتى اليوم التالي
 deck-config-bury-review-siblings = دفن بطاقات المراجعة الشقيقة حتى اليوم التالي
+deck-config-bury-interday-learning-siblings = دفن بطاقات التعلم الشقيقة التي تتجاوز خطواتها اليوم
 deck-config-bury-tooltip = ما إذا كانت البطاقات الأخرى العائدة للملحوظة نفسها (بطاقات معكوسة، أو عبارات ملء فراغات مجاورة مثلًا) يتم تأخيرها حتى اليوم التالي.
 
 ## Ordering section
