@@ -29,9 +29,14 @@ deck-config-limit-deck-v3 =
 
 ## New Cards section
 
+deck-config-learning-steps = Etapas de aprendizaje
+deck-config-new-insertion-order = Orden de inserción
+deck-config-new-insertion-order-sequential = Secuencial (las tarjetas más antiguas primero)
+deck-config-new-insertion-order-random = Aleatorio
 
 ## Lapses section
 
+deck-config-relearning-steps = Etapas de reaprendizaje
 
 ## Burying section
 
@@ -40,12 +45,14 @@ deck-config-bury-new-siblings = Enterrar nuevos hermanos hasta el día siguiente
 
 ## Ordering section
 
+deck-config-ordering-title = Orden de visualización
 deck-config-new-gather-priority-deck = Mazo
 deck-config-new-gather-priority-position-lowest-first = Posición ascendente
 deck-config-new-gather-priority-position-highest-first = Posición descendente
 deck-config-new-gather-priority-random-notes = Notas aleatorias
 deck-config-new-gather-priority-random-cards = Tarjeta aleatoria
 deck-config-new-card-sort-order = Nuevo orden de clasificación de tarjetas
+deck-config-sort-order-card-template-then-lowest-position = Plantilla de tarjeta, luego posición ascendente
 deck-config-sort-order-card-template-then-random = Plantilla de tarjeta, luego aleatoria
 deck-config-sort-order-random-note-then-template = Nota aleatoria, luego plantilla de tarjeta
 deck-config-sort-order-lowest-position = Posición ascendente
@@ -59,6 +66,8 @@ deck-config-sort-order-gather = Orden de recogida
 
 ## Audio section
 
+deck-config-audio-title = Audio
+deck-config-disable-autoplay = No reproducir audio automáticamente
 
 ## Advanced section
 
