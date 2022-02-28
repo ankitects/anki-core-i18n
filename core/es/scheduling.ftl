@@ -90,6 +90,15 @@ scheduling-how-to-custom-study = Si desea estudiar fuera del horario habitual, p
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = estudio personalizado
+
+## Scheduler upgrade
+
+scheduling-update-button = Actualizar
+scheduling-update-later-button = Más tarde
+scheduling-update-more-info-button = Saber más
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Incluir siempre el lado de la pregunta cuando se vuelva a reproducir el audio
 scheduling-at-least-one-step-is-required = Se requiere al menos un paso.
 scheduling-automatically-play-audio = Reproducir sonido automáticamente
@@ -97,7 +106,6 @@ scheduling-bury-related-new-cards-until-the = Enterrar tarjetas nuevas relaciona
 scheduling-bury-related-reviews-until-the-next = Enterrar repasos relacionados hasta el día siguiente
 scheduling-days = días
 scheduling-description = Descripción
-scheduling-description-to-show-on-overview-screen = Descripción para mostrar en la pantalla de resumen, para el mazo actual:
 scheduling-easy-bonus = Bonus para fácil
 scheduling-easy-interval = Intervalo para fácil
 scheduling-end = (fin)
@@ -138,7 +146,13 @@ scheduling-steps-must-be-numbers = Los pasos deben ser números.
 scheduling-tag-only = Solo etiquetar
 scheduling-the-default-configuration-cant-be-removed = La configuración por defecto no puede ser eliminada.
 scheduling-your-changes-will-affect-multiple-decks = Tus cambios afectarán a varios mazos. Si deseas cambiar únicamente el mazo actual, añade primero un nuevo grupo de opciones.
-scheduling-deck-updated = { $count ->
-    [one] { $count } mazo actualizado.
-   *[other] { $count } mazos actualizados.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } mazo actualizado.
+       *[other] { $count } mazos actualizados.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] ¿Mostrar tarjeta en cuantos días?
+       *[other] ¿Mostrar tarjetas en cuántos días?
+    }

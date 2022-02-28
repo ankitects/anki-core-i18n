@@ -53,6 +53,7 @@ deck-config-new-gather-priority-random-notes = Notas aleatorias
 deck-config-new-gather-priority-random-cards = Tarjeta aleatoria
 deck-config-new-card-sort-order = Nuevo orden de clasificación de tarjetas
 deck-config-sort-order-card-template-then-lowest-position = Plantilla de tarjeta, luego posición ascendente
+deck-config-sort-order-card-template-then-highest-position = Plantilla de tarjeta, luego posición descendente
 deck-config-sort-order-card-template-then-random = Plantilla de tarjeta, luego aleatoria
 deck-config-sort-order-random-note-then-template = Nota aleatoria, luego plantilla de tarjeta
 deck-config-sort-order-lowest-position = Posición ascendente
@@ -60,9 +61,17 @@ deck-config-sort-order-highest-position = Posición descendente
 deck-config-sort-order-random = Aleatorio
 deck-config-sort-order-template-then-gather = Plantilla de tarjeta
 deck-config-sort-order-gather = Orden de recogida
+deck-config-review-mix-mix-with-reviews = Mezclar con las tarjetas para revisar
+deck-config-review-mix-show-after-reviews = Mostrar después de las tarjetas para revisar
+deck-config-review-mix-show-before-reviews = Mostrar antes de las tarjetas para revisar
+deck-config-display-order-will-use-current-deck =
+    Anki usará el orden de visualización del mazo seleccionado
+    para estudiar, y no los submazos que pueda tener.
 
 ## Timer section
 
+deck-config-timer-title = Temporizador
+deck-config-maximum-answer-secs = Tiempo máximo de respuesta en segundos
 
 ## Audio section
 
@@ -107,6 +116,7 @@ deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo co
 
 ## Selecting a deck
 
+deck-config-which-deck = ¿Qué mazo quieres?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 

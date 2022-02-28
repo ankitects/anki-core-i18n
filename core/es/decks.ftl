@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Añadir nuevo mazo (Ctrl+N)
-decks-are-you-sure-you-wish-to = ¿Estás seguro de que deseas eliminar { $val }?
 decks-build = Construir
 decks-cards-selected-by = tarjetas seleccionadas por
 decks-create-deck = Crear mazo
@@ -17,7 +16,6 @@ decks-latest-added-first = Últimas añadidas primero
 decks-limit-to = Limitar a
 decks-minutes = minutos
 decks-most-lapses = Más veces olvidadas
-decks-name-for-deck = Nombre para el mazo:
 decks-new-deck-name = Nombre del nuevo mazo:
 decks-no-deck = [sin baraja]
 decks-oldest-seen-first = Mostrar antes las más viejas
@@ -30,8 +28,5 @@ decks-repeat-failed-cards-after = Repetir tarjetas fallidas tras
 decks-reschedule-cards-based-on-my-answers = Reprogramar tarjetas en función de mis respuestas en este mazo
 decks-study = Estudiar
 decks-study-deck = Estudiar mazo
-decks-the-provided-search-did-not-match = La búsqueda solicitada no devolvió ninguna tarjeta. ¿Deseas revisarla?
-decks-it-has-card = { $count ->
-    [one]  Tiene { $count } tarjeta.
-   *[other]  Tiene { $count } tarjetas.
-  }
+decks-filtered-deck-search-empty = No se encontraron tarjetas coincidentes. Algunas tarjetas pueden quedar excluidas de la búsqueda porque están suspendidas o en un mazo filtrado diferente.
+decks-unmovable-cards = Mostrar cualquier tarjeta excluida

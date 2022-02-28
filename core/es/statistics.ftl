@@ -71,8 +71,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } hoy ({ $secs-per-card }s/tarjeta)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }s
 statistics-today-title = Hoy
 statistics-today-again-count = Total de otra vez:
 statistics-today-type-counts = Aprender: { $learnCount }, Repasar: { $reviewCount }, Reaprender: { $relearnCount }, Filtradas: { $filteredCount }
@@ -85,7 +83,7 @@ statistics-counts-young-cards = Jóvenes
 statistics-counts-mature-cards = Maduras
 statistics-counts-suspended-cards = Suspendidas
 statistics-counts-buried-cards = Enterrados
-statistics-counts-early-cards = Temprano
+statistics-counts-filtered-cards = Filtrado
 statistics-counts-learning-cards = Aprendiendo
 statistics-counts-relearning-cards = Reaprendiendo
 statistics-counts-title = Conteo de Tarjetas
@@ -171,16 +169,14 @@ statistics-elapsed-time-days = { $amount }d
 statistics-elapsed-time-months = { $amount }me
 statistics-elapsed-time-years = { $amount }a
 
+##
 
-
-statistics-error-fetching = Se han encontrado datos no válidos - por favor, ejecute Comprobar Base de Datos para resolver el problema.
 statistics-average-for-days-studied = Promedio en los días estudiados
 statistics-total = Total
 statistics-days-studied = Días estudiados
 statistics-average-answer-time-label = Tiempo de respuesta promedio
 statistics-average = Promedio
 statistics-average-interval = Intervalo promedio
-statistics-longest-interval = Intervalo más largo
 statistics-due-tomorrow = Programadas para mañana
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
