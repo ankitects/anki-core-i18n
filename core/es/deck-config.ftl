@@ -72,16 +72,30 @@ deck-config-disable-autoplay = No reproducir audio automáticamente
 ## Advanced section
 
 deck-config-advanced-title = Avanzado
+deck-config-easy-bonus-tooltip = Un multiplicador adicional que se aplica al intervalo de revisión de una tarjeta al responder `Fácil`.
+deck-config-hard-interval-tooltip = El multiplicador aplicado a un intervalo de revisión al responder 'Difícil'.
+deck-config-new-interval-tooltip = El multiplicador aplicado a un intervalo de revisión al responder `Otra vez`.
+deck-config-minimum-interval-tooltip = El intervalo mínimo dado a una tarjeta de revisión después de responder `Otra vez`.
 deck-config-custom-scheduling = Planificación personalizada
+deck-config-custom-scheduling-tooltip = Afecta a toda la colección. ¡Úselo bajo su propio riesgo!
 
 ## Adding/renaming
 
+deck-config-add-group = Agregar configuración
+deck-config-name-prompt = Nombre
+deck-config-rename-group = Renombrar configuración
+deck-config-clone-group = Clonar configuración
 
 ## Removing
 
+deck-config-remove-group = Remover configuración
+deck-config-confirm-remove-name = ¿Remover { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Guardar
+deck-config-save-to-all-subdecks = Guardar para todos los submazos
+deck-config-revert-button-tooltip = Restaure esta configuración a su valor predeterminado.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -89,6 +103,7 @@ deck-config-custom-scheduling = Planificación personalizada
 
 ## Warnings shown to the user
 
+deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo como el intervalo de graduación.
 
 ## Selecting a deck
 
