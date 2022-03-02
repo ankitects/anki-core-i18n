@@ -41,6 +41,10 @@ sync-account-required =
     Vos cal aver un compte per poder sincronizar vòstra colleccion. Mercé de <a href="{ $link }">crear un compte</a> gratuitament, puèi entratz las informacions de connexion çaijós.
 sync-sanity-check-failed = Si us plau, feu servir la funció de Comprovar base de dades, després sincronizi una altra vegada. Si els problemes persisteixen, si us plau forci la sincronització completa a la finestra de preferències.
 sync-clock-off = Impossible sincronitzar - comprovi que el seu rellotge tingui l'hora correcta.
+sync-upload-too-large =
+    El vostre fitxer de col·lecció és massa gran per enviar-lo a AnkiWeb. Podeu reduir-ne la seva mida 
+    treient els jocs de targetes no desitjades (opcionalment exportant-les primer) i després utilitzant Comprova La Base de Dades 
+    per reduir la mida del fitxer. ({ $details })
 
 ## Buttons
 

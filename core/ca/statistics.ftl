@@ -71,8 +71,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } uèi ({ $secs-per-card }s/card)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }s
 statistics-today-title = Hodie
 statistics-today-again-count = Doblits :
 statistics-today-type-counts = Apprendite: { $learnCount }, Revidite: { $reviewCount }, Reapprendite: { $relearnCount }, Filtrate: { $filteredCount }
@@ -85,7 +83,7 @@ statistics-counts-young-cards = Juvene
 statistics-counts-mature-cards = Matur
 statistics-counts-suspended-cards = Suspendite
 statistics-counts-buried-cards = Inhumate
-statistics-counts-early-cards = Aviat
+statistics-counts-filtered-cards = Filtrat
 statistics-counts-learning-cards = Apprender
 statistics-counts-relearning-cards = Reaprenent
 statistics-counts-title = Recompte de Targetes
@@ -180,7 +178,6 @@ statistics-days-studied = Dies que heu estudiat
 statistics-average-answer-time-label = Temps de resposta promig
 statistics-average = Mitjana
 statistics-average-interval = Interval promitg
-statistics-longest-interval = Interval més llarg.
 statistics-due-tomorrow = Programades per demà
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)

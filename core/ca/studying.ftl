@@ -6,9 +6,13 @@ studying-buried-siblings = Enterrar targuetes relacionades
 studying-bury = Enterrar
 studying-bury-card = Enterrar tarjeta
 studying-bury-note = Enterrar nota
-studying-card-buried = Targeta enterrada.
 studying-card-suspended = Fitxa suspesa
 studying-card-was-a-leech = La targeta era una sangonera.
+studying-cards-buried =
+    { $count ->
+        [one] targeta escapçada.
+       *[other] targetes escapçades.
+    }
 studying-cards-will-be-automatically-returned-to = Les targetes tornaran automàticament a les seves piles d'origen després que les repasseu.
 studying-continue = Contínua
 studying-delete-note = Elimina la nota
@@ -25,7 +29,6 @@ studying-manually-buried-cards = Targuetes enterrades manualment
 studying-mark-note = Marcar nota
 studying-more = Més
 studying-no-cards-are-due-yet = Encara no hi ha cartes pendents de revisar.
-studying-note-buried = Nota enterrada.
 studying-note-suspended = Nota suspesa.
 studying-pause-audio = Pausar audio
 studying-please-run-toolsempty-cards = Sisplau, executa Eines->Targetes buides
@@ -42,15 +45,13 @@ studying-type-answer-unknown-field = Escriure resposta: camp desconegut { $val }
 studying-unbury = Desenterrar
 studying-what-would-you-like-to-unbury = Què desitgues desenterrar?
 studying-you-havent-recorded-your-voice-yet = Encara no has gravat la teva veu.
-studying-card-studied-in = { $count ->
-    [one] { $count } targeta estudiada en
-   *[other] { $count } targetes estudiades en
-  }
-studying-minute = { $count ->
-    [one] { $count } minut.
-   *[other] { $count } minuts.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Nota i les seves { $count } cartes esborrades.
-   *[other] Notes i les seves { $count } cartes esborrades.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } targeta estudiada en
+       *[other] { $count } targetes estudiades en
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } minut.
+       *[other] { $count } minuts.
+    }
