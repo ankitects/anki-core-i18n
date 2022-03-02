@@ -1,5 +1,4 @@
 decks-add-new-deck-ctrlandn = Afegeix mall (Ctrl+N)
-decks-are-you-sure-you-wish-to = Segur que voleu eliminar { $val }?
 decks-build = Construeix
 decks-cards-selected-by = targetes seleccionades per
 decks-create-deck = Crear mall
@@ -17,7 +16,6 @@ decks-latest-added-first = Últimes afegides primer
 decks-limit-to = Limita a
 decks-minutes = minuts
 decks-most-lapses = Més lapses
-decks-name-for-deck = Nom del mall:
 decks-new-deck-name = Nou nom del mall:
 decks-no-deck = [sense mall]
 decks-oldest-seen-first = Veure primer les més antigues
@@ -30,8 +28,5 @@ decks-repeat-failed-cards-after = Repeteix les targuetes fallides després
 decks-reschedule-cards-based-on-my-answers = Reprogramar targetes en funció de les meves respostes en aquest mall
 decks-study = Estudiar
 decks-study-deck = Estudiar mall
-decks-the-provided-search-did-not-match = La cerca sol·licitada no retorna cap targeta. Voleu revisar-la?
-decks-it-has-card = { $count ->
-    [one]  Té { $count } targeta.
-   *[other]  Té { $count } targetes.
-  }
+decks-filtered-deck-search-empty = Cap targeta coincideixi amb la cerca proporcionada. És possible que algunes targetes s'hagin exclòs perquè es troben en un mall filtrat diferent o s'han suspès.
+decks-unmovable-cards = Mostra qualsevol de les targetes excloses

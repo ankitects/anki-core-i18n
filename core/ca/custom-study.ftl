@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Si us plau, canvieu primer el nom del mall de l'Estudi Personalitzat existent.
 custom-study-all-cards-in-random-order-dont = Totes les targetes en ordre aleatori (sense reprogramar)
 custom-study-all-review-cards-in-random-order = Totes les cargetes per repasar en ordre aleatori
 custom-study-cards = targetes
