@@ -36,6 +36,7 @@ editing-outdent = 減少縮排
 editing-paste = 貼上
 editing-record-audio = 錄製音訊
 editing-remove-formatting = 移除格式
+editing-select-remove-formatting = 選取要移除的格式
 editing-show-duplicates = 顯示重複項目
 editing-subscript = 下標
 editing-superscript = 上標
