@@ -1,4 +1,4 @@
-preferences-automatically-sync-on-profile-openclose = 在開啟或關閉設定檔時自動進行同步
+preferences-automatically-sync-on-profile-openclose = 打開/關閉設定檔時自動同步
 preferences-backups = 備份
 preferences-backups2 = 個備份
 preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span style=" font-weight:600;">備份</span><br/>Anki 將在每次關閉時，為你的集合建立備份。</p></body></html>
@@ -42,3 +42,4 @@ preferences-theme-follow-system = 跟隨系統設定
 preferences-theme-light = 淺色
 preferences-theme-dark = 深色
 preferences-v3-scheduler = V3 排程器
+preferences-ignore-accents-in-search = 搜尋時忽略字母的變音符號 (速度較慢)
