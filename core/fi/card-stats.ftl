@@ -20,7 +20,7 @@ card-stats-review-log-time-taken = Aika
 card-stats-review-log-type-learn = Opitut
 card-stats-review-log-type-review = Kertaus
 card-stats-review-log-type-relearn = Uudelleenopitut
-card-stats-review-log-type-filtered = Suodatettu
+card-stats-review-log-type-filtered = Suodatetut
 card-stats-review-log-type-manual = Manuaalinen
 card-stats-no-card = (Ei näytettävää korttia.)
 

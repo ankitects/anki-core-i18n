@@ -27,11 +27,11 @@ sync-resync-required = Synkronoi uudelleen. Jos tämä viesti näkyy toistuvasti
 sync-must-wait-for-end = Anki synkronoi parhaillaan. Odota, että synkronointi on valmis, ja yritä sitten uudelleen.
 sync-confirm-empty-download = Paikallisessa kokoelmassa ei ole kortteja. Ladataanko AnkiWebistä?
 sync-conflict-explanation =
-    Tässä olevat pakkasi ja pakkasi AnkiWebissä eroavat toisistaan sellaisella tavalla, ettei niitä voida yhdistää, joten on välttämätöntä kirjoittaa jommatkummat pakat yli jommillakummilla pakoilla.
+    Tällä laitteella olevat pakat ja AnkiWebissä olevat pakat eroavat toisistaan siten, että niitä ei voi yhdistää toisiinsa, joten on välttämätöntä korvata toisen puolen pakat toisen puolen pakoilla.
     
-    Jos valitset lataamisen AnkiWebistä, Anki lataa kokoelman AnkiWebistä ja kaikki mahdolliset edellisen synkronoinnin jälkeen tekemäsi muutokset katoavat.
+    Jos valitset lataamisen AnkiWebistä, Anki lataa kokoelman AnkiWebistä, ja kaikki muutokset, jotka olet tehnyt tällä laitteella edellisen synkronoinnin jälkeen, menetetään.
     
-    Jos valitset lähetyksen Ankiwebiin, Anki lähettää kokoelmasi AnkiWebiin ja kaikki mahdolliset muutokset, jotka olet tehnyt AnkiWebissä tai toisella laitteellasi edellisen synkronoinnin jälkeen, katoavat.
+    Jos valitset lähetyksen AnkiWebiin, Anki lähettää tämän laitteen tiedot AnkiWebiin, ja kaikki AnkiWebissä odottavat muutokset menetetään.
     
     Sen jälkeen kun kaikki laitteet ovat synkronoitu, tulevat kertaukset ja lisätyt kortit voidaan yhdistää automaattisesti.
 sync-ankiweb-id-label = AnkiWeb-käyttäjätunnus:
