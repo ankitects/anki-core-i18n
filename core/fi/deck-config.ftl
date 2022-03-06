@@ -30,8 +30,13 @@ deck-config-learning-steps = Oppimisaskeleet
 deck-config-graduating-interval-tooltip = Montako päivää on odotettava, ennen kuin kortti voidaan näyttää uudelleen sen jälkeen, kun "Hyvä"-painiketta on painettu viimeisessä oppimisvaiheessa.
 deck-config-easy-interval-tooltip = Montako päivää on odotettava, ennen kuin kortti näytetään uudelleen sen jälkeen, kun kortti on poistettu opittavista kortteista "Helppo"-painikkeella.
 deck-config-new-insertion-order = Lisäysjärjestys
+deck-config-new-insertion-order-tooltip =
+    Säätää paikkaa (erääntymisluku), johon lisäämäsi uudet kortit sijoitetaan.
+    Opiskeltaessa näytetään ensin kortit, joiden erääntymisluku on pieni. Tämän
+    asetuksen muuttaminen päivittää automaattisesti uusien korttien nykyisen sijainnin.
 deck-config-new-insertion-order-sequential = Peräkkäinen (vanhimmat kortit ensin)
 deck-config-new-insertion-order-random = Satunnainen
+deck-config-new-insertion-order-random-with-v3 = Kun V3-aikataulutusohjelma on käytössä, on parempi valita "Peräkkäinen" ja muuttaa uusien korttien keräysjärjetystä tämän sijaan.
 
 ## Lapses section
 
@@ -58,16 +63,26 @@ deck-config-disable-autoplay = Älä toista ääniä automaattisesti
 
 ## Adding/renaming
 
+deck-config-name-prompt = Nimi
 
 ## Removing
 
+deck-config-confirm-remove-name = Poistetaanko { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Tallenna
+deck-config-save-to-all-subdecks = Tallenna kaikkiin alipakkoihin
+deck-config-revert-button-tooltip = Palauta tämä asetus oletusarvoonsa.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+:n mukainen käsittelytapa
+deck-config-description-new-handling-hint =
+    Käsittelee syötettä markdownina ja puhdistaa HTML-syötteen. Kun tämä on käytössä,
+    kortin kuvaus näytetään myös onnitteluruudussa.
+    Markdown näkyy tekstinä Anki 2.1.40:ssä ja sitä vanhemmissa versioissa.
 
 ## Warnings shown to the user
 
