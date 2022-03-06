@@ -49,6 +49,8 @@ deck-config-relearning-steps = Uudelleen oppimisen askeleet
 
 deck-config-new-gather-priority-deck = Pakka
 deck-config-sort-order-random = Satunnainen
+deck-config-sort-order-due-date-then-random = Eräpäivän mukaan, sitten satunnaisesti
+deck-config-sort-order-due-date-then-deck = Eräpäivän mukaan, sitten pakasta
 
 ## Timer section
 

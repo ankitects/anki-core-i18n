@@ -15,33 +15,33 @@ statistics-average-answer-time = { $average-seconds } s ({ statistics-cards-per-
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] { $amount } sekunnin kuluttua
-       *[other] { $amount } sekunnin kuluttua
+        [one] { $amount } sekunnissa
+       *[other] { $amount } sekunnissa
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] { $amount } minuutin kuluttua
-       *[other] { $amount } minuutin kuluttua
+        [one] { $amount } minuutissa
+       *[other] { $amount } minuutissa
     }
 statistics-in-time-span-hours =
     { $amount ->
-        [one] { $amount } tunnin kuluttua
-       *[other] { $amount } tunnin kuluttua
+        [one] { $amount } tunnissa
+       *[other] { $amount } tunnissa
     }
 statistics-in-time-span-days =
     { $amount ->
-        [one] { $amount } päivän kuluttua
-       *[other] { $amount } päivän kuluttua
+        [one] { $amount } päivässä
+       *[other] { $amount } päivässä
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] { $amount } kuukauden kuluttua
-       *[other] { $amount } kuukauden kuluttua
+        [one] { $amount } kuukaudessa
+       *[other] { $amount } kuukaudessa
     }
 statistics-in-time-span-years =
     { $amount ->
-        [one] { $amount } vuoden kuluttua
-       *[other] { $amount } vuoden kuluttua
+        [one] { $amount } vuodessa
+       *[other] { $amount } vuodessa
     }
 statistics-cards =
     { $cards ->
