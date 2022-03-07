@@ -93,6 +93,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = טמונים
 deck-config-bury-new-siblings = טמון אחים חדשים עד למחרת
 deck-config-bury-review-siblings = טמון חזרות אחים עד למחרת
+deck-config-bury-interday-learning-siblings = הטמן אחים בלימוד בין יומיים
 deck-config-bury-tooltip =
     קלפים אחרים מאותו הערה (למשל כרטיסים הפוכים, סמוכים
     מחיקות cloze) יתעכבו עד למחרת.

@@ -42,3 +42,4 @@ preferences-theme-follow-system = עקוב אחר מערכת
 preferences-theme-light = יום
 preferences-theme-dark = חושך
 preferences-v3-scheduler = מתזמן V3
+preferences-ignore-accents-in-search = התעלם ממבטאים בחיפוש (איטי יותר)

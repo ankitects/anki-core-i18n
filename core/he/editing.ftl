@@ -36,12 +36,13 @@ editing-outdent = הקטן הזחה
 editing-paste = הדבק
 editing-record-audio = הקלט שמע
 editing-remove-formatting = הסר עיצוב
-editing-set-text-color = צבע טקסט
-editing-set-text-highlight-color = צבע רקע לטקסט
+editing-select-remove-formatting = בחר עיצוב להסרה
 editing-show-duplicates = הצג כפילויות
 editing-subscript = כתב תחתי
 editing-superscript = ‏‏כתב עילי
 editing-tags = תגיות
+editing-text-color = צבע טקסט
+editing-text-highlight-color = צבע רקע לטקסט
 editing-to-make-a-cloze-deletion-on = ליצור השלם את החסר ברשומה קיימת, תצטרך לשנות את סוג הרשומה להשלם את החסר, דרך 'רשומות>שנה סוג רשומה'
 editing-toggle-html-editor = עורך HTML
 editing-toggle-sticky = שמור שדה לשאלה הבאה
@@ -53,3 +54,5 @@ editing-warning-cloze-deletions-will-not-work = אזהרה, השלם את החס
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = עורך HTML
+editing-set-text-color = צבע טקסט
+editing-set-text-highlight-color = צבע רקע לטקסט
