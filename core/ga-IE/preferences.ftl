@@ -42,3 +42,4 @@ preferences-theme-follow-system = Réir an Ghléis
 preferences-theme-light = Sorcha
 preferences-theme-dark = Dorcha
 preferences-v3-scheduler = Sceidealú LGN3
+preferences-ignore-accents-in-search = Ná bactar le haicinn sa chuardach (níos moille)

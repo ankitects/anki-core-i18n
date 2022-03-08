@@ -19,7 +19,6 @@ editing-fields = Réimsí
 editing-float-left = Íomhá ar chlé
 editing-float-right = Íomhá ar dheis
 editing-float-none = Íomhá mar a bhfuil
-editing-html-editor = Eagarthóir HTML
 editing-indent = Méadaigh an eang
 editing-italic-text = Cló iodálach
 editing-jump-to-tags-with-ctrlandshiftandt = Léim go Clibeanna le Ctrl+Shift+T
@@ -36,18 +35,24 @@ editing-ordered-list = Liosta in ord
 editing-outdent = Laghdaigh an eang
 editing-paste = Greamaigh
 editing-record-audio = Déan taifead ar fhuaim
-editing-remove-formatting = Bain foirmáidiú
-editing-set-text-color = Socraigh dath an téacs
-editing-set-text-highlight-color = Socraigh dath aibhsithe an téacs
+editing-remove-formatting = Bain formáidiú
+editing-select-remove-formatting = Roghnaigh an formáidiú a bhainfear
 editing-show-duplicates = Taispeáin Dúblaigh
 editing-subscript = Foscript
 editing-superscript = Forscript
 editing-tags = Clibeanna
+editing-text-color = Dath an téacs
+editing-text-highlight-color = Dath aibhsithe an téacs
 editing-to-make-a-cloze-deletion-on = Chun sliocht iomlánú a dhéanamh ar nóta, caithfear cineál an nóta a athrú i dtosach, trí 'Nótaí>Athraigh Cineál Nóta'
+editing-toggle-html-editor = Scoránaigh Eagarthóir HTML
 editing-toggle-sticky = Greamaitheach (scorán)
+editing-toggle-visual-editor = Scoránaigh Eagarthóir Amhairc
 editing-underline-text = Folínigh
 editing-unordered-list = Liosta gan ord
 editing-warning-cloze-deletions-will-not-work = Rabhadh, ní bheidh aon mhaith sna sleachta iomlánaithe go dtí go mbeidh an cineál 'Iomlánú' roghnaithe thuas.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = Eagarthóir HTML
+editing-set-text-color = Socraigh dath an téacs
+editing-set-text-highlight-color = Socraigh dath aibhsithe an téacs
