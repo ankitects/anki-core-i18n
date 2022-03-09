@@ -36,12 +36,13 @@ editing-outdent = Сократить отступ
 editing-paste = Вставить
 editing-record-audio = Записать аудиофайл
 editing-remove-formatting = Удалить форматирование
-editing-set-text-color = Выбрать цвет текста
-editing-set-text-highlight-color = Выбрать цвет выделения
+editing-select-remove-formatting = Выбрать форматирование для удаления
 editing-show-duplicates = Показать повторы
 editing-subscript = Подстрочный знак
 editing-superscript = Надстрочный знак
 editing-tags = Метки
+editing-text-color = Цвет текста
+editing-text-highlight-color = Цвет выделения текста
 editing-to-make-a-cloze-deletion-on = Чтобы добавить заполнение пропусков к существующей записи, необходимо сначала изменить её тип на «Задание с пропусками», выбрав «Записи» — «Изменить тип записи».
 editing-toggle-html-editor = HTML-редактор
 editing-toggle-sticky = Сохранять значение
@@ -53,3 +54,5 @@ editing-warning-cloze-deletions-will-not-work = Внимание! Заполне
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = Редактор HTML
+editing-set-text-color = Выбрать цвет текста
+editing-set-text-highlight-color = Выбрать цвет выделения

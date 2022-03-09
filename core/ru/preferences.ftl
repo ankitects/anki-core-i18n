@@ -42,3 +42,10 @@ preferences-theme-follow-system = Как в системе
 preferences-theme-light = Светлая
 preferences-theme-dark = Тёмная
 preferences-v3-scheduler = Планировщик V3
+preferences-ignore-accents-in-search = Игнорировать диакритические знаки при поиске (медленнее)
+preferences-backup-explanation =
+    Anki периодически создает резервную копию ваших коллекций при выходе. После двух дней,
+    Anki начнет удалять некоторые из них для освобождения дискового пространства.
+preferences-daily-backups = Оставлять резервных копий ежедневно:
+preferences-weekly-backups = Оставлять резервных копий еженедельно:
+preferences-monthly-backups = Оставлять резервных копий ежемесячно:

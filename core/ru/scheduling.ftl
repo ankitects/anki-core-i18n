@@ -155,6 +155,8 @@ scheduling-new-options-group-name = Название нового набора:
 scheduling-options-group = Набор настроек:
 scheduling-order = Порядок
 scheduling-parent-limit = (лимит материнской: { $val })
+scheduling-reset-counts = Сбросить количество повторений и забытых
+scheduling-restore-position = Восстанавливать изначальную позицию где возможно
 scheduling-review = Повторяемые
 scheduling-reviews = Повторение
 scheduling-seconds = секунд
@@ -197,5 +199,5 @@ scheduling-forgot-cards =
     { $cards ->
         [one] Забытая { $cards } карточка.
         [few] Забытые { $cards } карточки.
-       *[other] Забытые { $cards } карточки.
+       *[other] Забытые { $cards } карточек.
     }

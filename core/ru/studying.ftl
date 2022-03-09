@@ -16,6 +16,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Карточки автоматически вернутся в свои колоды после повторения.
 studying-continue = Продолжить
+studying-counts-differ = Количество отличается от списка колод потому что включено откладывание. Некоторые карточки были исключены, и другие могли занять их место.
 studying-delete-note = Удалить запись
 studying-deleting-this-deck-from-the-deck = Удаление этой колоды из списка вернёт все оставшиеся карточки в их колоды.
 studying-easy = Легко

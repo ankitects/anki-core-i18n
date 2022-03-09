@@ -85,3 +85,5 @@ importing-processed-media-file =
         [few] Обработано { $count } медиафайла
        *[other] Обработано { $count } медиафайлов
     }
+importing-importing-collection = Импортирование коллекции...
+importing-failed-to-import-media-file = Не удалось импортировать медиафайл: { $debugInfo }
