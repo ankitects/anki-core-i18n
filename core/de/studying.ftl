@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Gelernte Karten kehren automatisch in ihren Heimatstapel zurück.
 studying-continue = Fortsetzen
+studying-counts-differ = Zählungen unterscheiden sich von der Stapelliste, weil Karten zurückgestellt werden. Gewisse Karten wurden ausgeschlossen und andere Karten haben ggf. ihre Position eingenommen.
 studying-delete-note = Notiz löschen
 studying-deleting-this-deck-from-the-deck = Wenn dieser Stapel entfernt wird, werden alle verbleibenden Karten wieder ihrem Heimatstapel zugeführt.
 studying-easy = Einfach
@@ -54,9 +55,4 @@ studying-minute =
     { $count ->
         [one] { $count } Minute gelernt.
        *[other] { $count } Minuten gelernt.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] Notiz und { $count } zugehörige Karte gelöscht.
-       *[other] Notiz und { $count } zugehörige Karten gelöscht.
     }

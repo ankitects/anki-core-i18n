@@ -36,12 +36,13 @@ editing-outdent = Einrückung verringern
 editing-paste = Einfügen
 editing-record-audio = Audio aufnehmen
 editing-remove-formatting = Formatierung löschen
-editing-set-text-color = Textfarbe setzen
-editing-set-text-highlight-color = Texthervorhebungsfarbe setzen
+editing-select-remove-formatting = Zu löschende Formatierung auswählen
 editing-show-duplicates = Duplikate anzeigen
 editing-subscript = Tiefstellen
 editing-superscript = Hochstellen
 editing-tags = Schlagwörter
+editing-text-color = Textfarbe
+editing-text-highlight-color = Texthervorhebungsfarbe
 editing-to-make-a-cloze-deletion-on = Um einen Lückentext zu einer bereits vorhandenen Notiz hinzuzufügen, muss dieser erst der Notiztyp Lückentext zugewiesen werden. Dazu wählen Sie oben links in diesem Menü: 'Bearbeiten > Notiztyp ändern'
 editing-toggle-html-editor = Setze HTML Editor um
 editing-toggle-sticky = Beibehalten ein-/ausschalten
@@ -53,3 +54,5 @@ editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur ko
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML-Editor
+editing-set-text-color = Textfarbe setzen
+editing-set-text-highlight-color = Texthervorhebungsfarbe setzen

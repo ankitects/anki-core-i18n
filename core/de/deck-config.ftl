@@ -67,18 +67,16 @@ deck-config-bury-tooltip = Ob andere Karten der gleichen Notiz (z.B. umgekehrte 
 
 deck-config-ordering-title = Anzeigereihenfolge
 deck-config-new-gather-priority = Priorität beim Sammeln neuer Karten
-deck-config-new-gather-priority-tooltip =
-    `Stapel`: sammelt nacheinander Karten von jedem Unterstapel and hört auf, wenn der Grenzwert von dem ausgewählten Stapel überschritten wurde. Dies ist schneller und erlaubt Ihnen, Unterstapel zu priorisieren, die weiter oben sind.
-    
-    `Position`: sammelt Karten von allen Stapeln bevor sie sortiert werden. Dies stellt sicher, dass die ältesten Karten zuerst angezeigt werden, auch wenn der übergeordnete Grenzwert nicht groß genug ist, um Karten von allen Stapeln anzuzeigen.
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-position-lowest-first = Position (niedrigste zuerst)
 deck-config-new-gather-priority-position-highest-first = Position (höchste zuerst)
+deck-config-new-gather-priority-random-notes = Zufällige Notizen
+deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Neue Kartensortierreihenfolge
-deck-config-new-card-sort-order-tooltip = Wie Karten sortiert werden, nachdem sie gesammelt wurden. Standardmäßig sortiert Anki zuerst nach Kartenvorlage, um zu vermeiden, dass mehrere Karten von der gleichen Notiz hintereinander angezeigt werden.
 deck-config-sort-order-card-template-then-lowest-position = Kartenvorlage, danach niedrigste Position
 deck-config-sort-order-card-template-then-highest-position = Kartenvorlage, danach höchste Position
 deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
+deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartenvorlage
 deck-config-sort-order-lowest-position = Niedrigste Position
 deck-config-sort-order-highest-position = Höchste Position
 deck-config-sort-order-random = Zufällig
@@ -189,3 +187,11 @@ deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall fü
 ## Selecting a deck
 
 deck-config-which-deck = Welchen Stapel möchten Sie gerne?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+
+deck-config-new-card-sort-order-tooltip = Wie Karten sortiert werden, nachdem sie gesammelt wurden. Standardmäßig sortiert Anki zuerst nach Kartenvorlage, um zu vermeiden, dass mehrere Karten von der gleichen Notiz hintereinander angezeigt werden.
+deck-config-new-gather-priority-tooltip =
+    `Stapel`: sammelt nacheinander Karten von jedem Unterstapel and hört auf, wenn der Grenzwert von dem ausgewählten Stapel überschritten wurde. Dies ist schneller und erlaubt Ihnen, Unterstapel zu priorisieren, die weiter oben sind.
+    
+    `Position`: sammelt Karten von allen Stapeln bevor sie sortiert werden. Dies stellt sicher, dass die ältesten Karten zuerst angezeigt werden, auch wenn der übergeordnete Grenzwert nicht groß genug ist, um Karten von allen Stapeln anzuzeigen.
