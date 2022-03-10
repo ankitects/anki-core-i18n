@@ -36,12 +36,13 @@ editing-outdent = 减少缩进
 editing-paste = 粘贴
 editing-record-audio = 录制音频
 editing-remove-formatting = 去除格式
-editing-set-text-color = 设置字体颜色
-editing-set-text-highlight-color = 设置高亮颜色
+editing-select-remove-formatting = 选择要移除的格式
 editing-show-duplicates = 查看重复的卡片
 editing-subscript = 下标
 editing-superscript = 上标
 editing-tags = 标签
+editing-text-color = 文字颜色
+editing-text-highlight-color = 高亮文字颜色
 editing-to-make-a-cloze-deletion-on = 要为现有的笔记制作一个挖空，你需要通过“笔记>更改笔记模板”，把笔记更改成填空题的模板。
 editing-toggle-html-editor = 打开/关闭 HTML 编辑器
 editing-toggle-sticky = 固定/取消固定
@@ -53,3 +54,5 @@ editing-warning-cloze-deletions-will-not-work = 警告，在你把上方的笔�
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML编辑器
+editing-set-text-color = 设置字体颜色
+editing-set-text-highlight-color = 设置高亮颜色

@@ -9,6 +9,7 @@ errors-100-tags-max =
     再选取子级标签。
 errors-multiple-notetypes-selected = 请仅从一种笔记模板选取笔记。
 errors-please-check-database = 请使用“检查数据库”功能，然后再试一次。
+errors-collection-too-new = 此集合需要较新版本的 Anki 才能打开。
 
 ## Card Rendering
 

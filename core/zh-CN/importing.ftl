@@ -72,3 +72,4 @@ importing-processed-media-file =
     { $count ->
        *[other] 已处理{ $count }个媒体文件
     }
+importing-importing-collection = 导入集合中…

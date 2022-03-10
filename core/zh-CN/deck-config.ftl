@@ -77,6 +77,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 搁置
 deck-config-bury-new-siblings = 搁置相关新卡片到下一天
 deck-config-bury-review-siblings = 搁置相关复习卡片到下一天
+deck-config-bury-interday-learning-siblings = 搁置相关跨天学习卡片到下一天
 deck-config-bury-tooltip =
     要/不要将同一笔记的其他卡片（如翻转卡片，
     相邻的挖空）推迟至第二天。
