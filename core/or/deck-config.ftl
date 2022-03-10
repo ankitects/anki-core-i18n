@@ -62,6 +62,7 @@ deck-config-sort-order-card-template-then-lowest-position = ପତ୍ର ଟେ�
 deck-config-sort-order-card-template-then-highest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଅବରୋହଣ ପୋଜିସନ୍
 deck-config-sort-order-lowest-position = ଆରୋହଣ ପୋଜିସନ୍
 deck-config-sort-order-highest-position = ଅବରୋହଣ ପୋଜିସନ୍
+deck-config-sort-order-template-then-gather = ପତ୍ର ଟେମ୍ପଲେଟ୍
 deck-config-new-review-priority = ନୂତନ/ସମୀକ୍ଷା କ୍ରମ
 deck-config-new-review-priority-tooltip = ସମୀକ୍ଷା ପତ୍ର ସମ୍ପର୍କରେ କେବେ ନୂତନ ପତ୍ର ଦେଖାଇବେ।
 deck-config-review-mix-mix-with-reviews = ସମୀକ୍ଷାଗୁଡ଼ିକ ସହ ମିଶ୍ରଣ କରନ୍ତୁ
@@ -134,3 +135,6 @@ deck-config-description-new-handling-hint =
 ## Selecting a deck
 
 deck-config-which-deck = ଆପଣ କେଉଁ ଡେକ୍ ପସନ୍ଦ କରିବେ?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+

@@ -13,7 +13,6 @@ editing-customize-card-templates = ପତ୍ର ଟେମ୍ପଲେଟ୍ କ�
 editing-customize-fields = କ୍ଷେତ୍ରଗୁଡ଼ିକୁ କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ
 editing-edit-html = HTML ସମ୍ପାଦନା
 editing-fields = କ୍ଷେତ୍ରଗୁଡ଼ିକ
-editing-html-editor = HTML ସମ୍ପାଦକ
 editing-jump-to-tags-with-ctrlandshiftandt = Ctrl+Shift+T ସହ ଟ୍ୟାଗକୁ ଯାଅ
 editing-justify = ଯର୍ଥାଥତା
 editing-latex = LaTeX
@@ -23,23 +22,15 @@ editing-mathjax-chemistry = MathJax ରସାୟନବିଜ୍ଞାନ
 editing-media = ମିଡ଼ିଆ
 editing-record-audio = ଅଡ଼ିଓ ରେକର୍ଡ କର
 editing-remove-formatting = ଫର୍ମାଟିଂ ଅପସାରଣ କର
-editing-set-text-color = ପାଠ୍ୟ ରଙ୍ଗ ସେଟ୍ କରିବା
-editing-set-text-highlight-color = ପାଠ୍ୟ ହାଇଲାଇଟ୍ ରଙ୍ଗ ସେଟ୍ କରିବା
 editing-show-duplicates = ନକଲ ଦେଖାନ୍ତୁ
 editing-subscript = ପାଦାଙ୍କ
 editing-superscript = ଉର୍ଦ୍ଧଲିପି
 editing-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ
+editing-text-color = ପାଠ୍ୟର ରଙ୍ଗ
 editing-toggle-sticky = Sticky ଟୋଗଲ୍ କରନ୍ତୁ
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = ପାଠ୍ୟ ଗାଢ଼ କରନ୍ତୁ (Ctrl+B)
-editing-italic-text-ctrlandi = ପାଠ୍ୟ ଇଟାଲିକ୍ କରନ୍ତୁ (Ctrl+I)
-editing-subscript-ctrland = ପାଦାଙ୍କ (Ctrl+=)
-editing-superscript-ctrlandand = ଉର୍ଦ୍ଧଲିପି (Ctrl++)
-editing-remove-formatting-ctrlandr = ଫର୍ମାଟିଂ ଅପସାରଣ କର (Ctrl+R)
-editing-record-audio-f5 = ଅଡ଼ିଓ ରେକର୍ଡ଼ କର (F5)
-editing-attach-picturesaudiovideo-f3 = ପ୍ରତିଛବି/ଅଡ଼ିଓ/ଭିଡ଼ିଓ ସଂଲଗ୍ନ କରନ୍ତୁ (F3)
-editing-cloze-deletion-ctrlandshiftandc = କ୍ଲୋଜ୍ ବିଲୋପ (Ctrl+Shift+C)
-editing-change-colour-f8 = ରଙ୍ଗ ପରିବର୍ତ୍ତନ କରନ୍ତୁ (F8)
-editing-customize-card-templates-ctrlandl = ପତ୍ର ଟେମ୍ପଲେଟ୍ କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ (Ctrl+L)
+editing-html-editor = HTML ସମ୍ପାଦକ
+editing-set-text-color = ପାଠ୍ୟ ରଙ୍ଗ ସେଟ୍ କରିବା
+editing-set-text-highlight-color = ପାଠ୍ୟ ହାଇଲାଇଟ୍ ରଙ୍ଗ ସେଟ୍ କରିବା
