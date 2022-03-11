@@ -2,6 +2,7 @@ editing-add-media = Añadir archivos multimedia
 editing-align-left = Alinear a la izquierda
 editing-align-right = Alinear a la derecha
 editing-an-error-occurred-while-opening = Ocurrió un error al abrir { $val }
+editing-attach-picturesaudiovideo = Adjuntar imágenes/audio/video
 editing-bold-text = Texto en negrita
 editing-cards = Tarjetas
 editing-center = Centrar

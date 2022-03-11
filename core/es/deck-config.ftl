@@ -42,6 +42,7 @@ deck-config-relearning-steps = Etapas de reaprendizaje
 
 deck-config-bury-title = Enterrar
 deck-config-bury-new-siblings = Enterrar nuevos hermanos hasta el día siguiente
+deck-config-bury-review-siblings = Enterrar tarjetas hermanas (nota) hasta el día siguiente
 
 ## Ordering section
 
