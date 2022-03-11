@@ -97,3 +97,5 @@ importing-processed-media-file =
         [many] عولج { $count } ملف وسائط
        *[other] عولج { $count } ملف وسائط
     }
+importing-importing-collection = يجري استيراد المجموعة...
+importing-failed-to-import-media-file = فشل استيراد ملف وسائط: { $debugInfo }

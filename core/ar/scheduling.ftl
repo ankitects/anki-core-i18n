@@ -173,6 +173,8 @@ scheduling-new-options-group-name = اسم مجموعة الخيارات الج�
 scheduling-options-group = مجموعة الخيارات:
 scheduling-order = الترتيب
 scheduling-parent-limit = (حد الرزمة الأم: { $val })
+scheduling-reset-counts = تصفير المراجعات وعدادات السقطات
+scheduling-restore-position = استرجاع الموضع الأصلي إذا أمكن
 scheduling-review = مراجعة
 scheduling-reviews = مراجعات
 scheduling-seconds = ‏‏ثوانِ

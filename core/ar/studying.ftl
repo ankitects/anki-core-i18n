@@ -19,6 +19,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = ستعود البطاقات إلى رزمها الأصلية بعد أن تراجعها.
 studying-continue = تابع
+studying-counts-differ = تختلف الأعداد عن الأعداد في قائمة الرزم لأن الدفن مفعل. تم إقصاء بعض البطاقات وقد تكون بعض البطاقات الأخرى قد أخذت مكانها.
 studying-delete-note = حذف الملحوظة
 studying-deleting-this-deck-from-the-deck = .سيؤدي حذف هذه الرزمة من قائمة الرزم إلى عودة كل البطاقات المتبقية إلى رزمتها الأصلية
 studying-easy = سهل
@@ -66,13 +67,4 @@ studying-minute =
         [few] { $count } دقائق.
         [many] { $count } دقيقة.
        *[other] { $count } دقيقة.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [zero] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-        [one] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-        [two] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-        [few] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-        [many] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
-       *[other] حُذفِت الملحوظة وبطاقاتها الـ { $count }.
     }
