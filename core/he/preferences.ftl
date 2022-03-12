@@ -43,3 +43,9 @@ preferences-theme-light = יום
 preferences-theme-dark = חושך
 preferences-v3-scheduler = מתזמן V3
 preferences-ignore-accents-in-search = התעלם ממבטאים בחיפוש (איטי יותר)
+preferences-backup-explanation =
+    אנקי מגבה מדי פעם את האוסף שלך כשהוא סגור. לאחר שהגיבויים הם בני יותר מ2,
+    Anki תתחיל להסיר חלק מהם כדי לפנות מקום בזיכרון.
+preferences-daily-backups = גיבויים יומיים לשמירה:
+preferences-weekly-backups = גיבויים שבועיים לשמירה:
+preferences-monthly-backups = גיבויים חודשיים לשמירה:

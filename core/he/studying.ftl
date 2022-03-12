@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = כרטיסים יוחזרו אוטומטית לחפיסות המקוריות שלהם לאחר שתסקור אותם.
 studying-continue = המשך
+studying-counts-differ = הספירה שונה מרשימת החפיסות, מכיוון שהטמנה מופעלת. חלק מהכרטיסים לא נכללו, ואחרים אולי תפסו את מקומם.
 studying-delete-note = מחק רשומה
 studying-deleting-this-deck-from-the-deck = מחיקת חפיסה זו מרשימת החפיסות תחזיר את כל הכרטיסים הנותרים לחפיסות המקוריות שלהן.
 studying-easy = קל
@@ -54,9 +55,4 @@ studying-minute =
     { $count ->
         [one] { $count } דקה.
        *[other] { $count } דקות.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] רשומה ו-{ $count } כרטיס שלה נמחקה.
-       *[other] רשומה ו-{ $count } כרטיסים שלה נמחקו.
     }

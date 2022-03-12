@@ -1,4 +1,3 @@
-importing-failed = יבוא נכשל.
 importing-failed-debug-info =
     יבוא נכשל.
     מידע Debugging:
@@ -80,3 +79,5 @@ importing-processed-media-file =
         [one] עובד { $count } קובץ מדיה
        *[other] עובדו { $count } קבצי מדיה
     }
+importing-importing-collection = מייבא אוסף...
+importing-failed-to-import-media-file = יבוא קובץ המדיה { $debugInfo } נכשל
