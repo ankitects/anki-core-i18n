@@ -6,6 +6,7 @@ errors-filtered-deck-required = Tätä toimintoa voidaan käyttää vain suodate
 errors-100-tags-max = Tunnisteita voidaan valita enintään 100 kappaletta. On yleensä yksinkertaisempaa luetella haluamasi tunnisteet niiden sijaan, joita et halua, eikä ole tarpeen valita lapsitunnisteita, jos olet valinnut vanhemman tunnisteen.
 errors-multiple-notetypes-selected = Valitse muistiinpanot vain yhdestä muistiinpanotyypistä.
 errors-please-check-database = Käytä Tarkista tietokanta -toimintoa ja yritä sitten uudelleen.
+errors-collection-too-new = Tämän kokoelman avaaminen edellyttää uudempaa Ankin versiota.
 
 ## Card Rendering
 

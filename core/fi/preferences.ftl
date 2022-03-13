@@ -43,3 +43,9 @@ preferences-theme-light = Vaalea
 preferences-theme-dark = Tumma
 preferences-v3-scheduler = V3-aikataulutusohjelma
 preferences-ignore-accents-in-search = Jätä aksentit huomiotta haun yhteydessä (hitaampi)
+preferences-backup-explanation =
+    Anki varmuuskopioi kokoelmasi säännöllisesti, kun se on suljettu. Kun varmuuskopiot ovat yli 2 päivää vanhoja,
+    Anki alkaa poistaa niistä joitakin vapauttaakseen levytilaa.
+preferences-daily-backups = Säilytettävien päivittäisten varmuuskopioiden määrä:
+preferences-weekly-backups = Säilytettävien viikottaisten varmuuskopioiden määrä:
+preferences-monthly-backups = Säilytettävien kuukausittaisten varmuuskopioiden määrä:

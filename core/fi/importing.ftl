@@ -77,3 +77,5 @@ importing-processed-media-file =
         [one] Käsiteltiin { $count } mediatiedosto
        *[other] Käsiteltiin { $count } mediatiedostoa
     }
+importing-importing-collection = Tuodaan kokoelmaa...
+importing-failed-to-import-media-file = Mediatiedoston tuominen ei onnistunut: { $debugInfo }
