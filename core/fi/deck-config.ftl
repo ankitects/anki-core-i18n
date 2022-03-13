@@ -132,29 +132,62 @@ deck-config-sort-order-gather = Keräysjärjestyksen mukaan
 deck-config-new-review-priority = Uusien ja kerrattavien keskinäinen järjestys
 deck-config-new-review-priority-tooltip = Milloin uudet kortit näytetään suhteessa kerrattaviin kortteihin.
 deck-config-interday-step-priority = Usean päivän aikana opittavien ja kerrattavien keskinäinen järjestys
+deck-config-interday-step-priority-tooltip =
+    Milloin näytetään opittavat kortit (tai uudelleen opittavat kortit), joita tarvitsee opiskellaan usean päivän ajan.
+    
+    Kertausten enimmäismäärää sovelletaan aina ensin usean päivän aikana opittaviin kortteihin, ja sitten kerrattaviin. Tämä asetus ohjaa järjestystä, jossa kerätyt kortit näytetään, mutta usean päivän aikana opittavat kortit kerätään aina ensin.
 deck-config-review-mix-mix-with-reviews = Sekoita kerrattavien kanssa
 deck-config-review-mix-show-after-reviews = Näytä kerrattavien korttien jälkeen
 deck-config-review-mix-show-before-reviews = Näytä ennen kerrattavia kortteja
+deck-config-review-sort-order = Kerrattavien korttien lajittelujärjestys
+deck-config-review-sort-order-tooltip = Oletusarvoisesti asetetaan etusijalle kortit, jotka ovat odottaneet pisimpään, joten jos kerrattavaa on paljon, pisimpään kertausta odottaneet kortit näytetään ensin. Jos kerrattavia kortteja on rästissä paljon, ja niiden läpikäymiseen kuluisi useampi päivä, tai jos haluat nähdä kortit alipakkojen mukaisessa järjestyksessä, vaihtoehtoinen lajittelujärjestys saattaa olla harkitsemisen arvoinen.
 deck-config-sort-order-due-date-then-random = Eräpäivän mukaan, sitten satunnaisesti
 deck-config-sort-order-due-date-then-deck = Eräpäivän mukaan, sitten pakasta
+deck-config-sort-order-deck-then-due-date = Pakan järjestyksen mukaan, sitten eräpäivän mukaan
+deck-config-sort-order-ascending-intervals = Kertausvälien mukaan nousevassa järjestyksessä
+deck-config-sort-order-descending-intervals = Kertausvälien mukaan laskevassa järjestyksessä
+deck-config-sort-order-ascending-ease = Helpoimmasta vaikeimpaan
+deck-config-sort-order-descending-ease = Vaikeimmasta helpoimpaan
+deck-config-display-order-will-use-current-deck = Anki käyttää sen pakan esitysjärjestystä, jonka valitset opiskeltavaksi, eikä sen mahdollisten alipakkojen esitysjärjestystä.
 
 ## Timer section
 
+deck-config-timer-title = Ajastin
+deck-config-maximum-answer-secs = Vastauksen enimmäiskesto sekunneissa
+deck-config-maximum-answer-secs-tooltip = Yksittäisen kertauksen enimmäiskesto tilastointia varten. Jos vastaus ylittää tämän ajan (esimerkiksi siksi, että lähdit pois näytön ääreltä), kulunut aika tallennetaan asettamasi raja-arvon mukaisesti.
+deck-config-show-answer-timer-tooltip = Näytä kertausnäkymässä ajastin, joka laskee, kuinka monta sekuntia käytät kunkin kortin kertaukseen.
 
 ## Audio section
 
 deck-config-audio-title = Ääni
 deck-config-disable-autoplay = Älä toista ääniä automaattisesti
+deck-config-skip-question-when-replaying = Ohita kysymys, kun vastausta toistetaan uudelleen
+deck-config-always-include-question-audio-tooltip = Toistetaanko vastauksen lisäksi myös kysymyksen ääni, kun Toista uudelleen -toimintoa käytetään kortin vastauspuolta tarkasteltaessa.
 
 ## Advanced section
 
+deck-config-advanced-title = Lisäasetukset
+deck-config-maximum-interval-tooltip = Suurin mahdollinen viive kertausten välillä, päivissä mitattuna. Kun kerrattava kortti on saavuttanut tämän rajan, `Vaikea`, `Hyvä` ja `Helppo` antavat kaikki saman viiveen. Mitä lyhyemmäksi asetat tämän, sitä suurempi työmääräsi on.
+deck-config-starting-ease-tooltip = Helppouskerroin, jonka uudet kortit saavat aluksi. Oletusarvoisesti `Hyvä`-painikkeen painaminen juuri opitussa kortissa viivästyttää seuraavaa kerausta 2,5-kertaisella viiveellä edelliseen verrattuna.
+deck-config-easy-bonus-tooltip = Lisäkerroin, jota sovelletaan kerrattaviin kortteihin, joissa käytät `Helppo`-painiketta.
+deck-config-interval-modifier-tooltip = Tätä kerrointa sovelletaan kaikkiin kertauksiin, ja pienillä säädöillä voidaan tehdä Ankin aikataulutusta varovaisemmaksi tai aggressiivisemmaksi. Lue käyttöopas, ennen kuin muutat tätä asetusta.
+deck-config-hard-interval-tooltip = Kertausväliin sovellettava kerroin, kun `Vaikea`-painiketta käytetään.
+deck-config-new-interval-tooltip = Kertausväliin sovellettava kerroin, kun `Uudelleen`-painiketta käytetään.
+deck-config-minimum-interval-tooltip = Kertausvälin vähimmäispituus, kun käytetään `Uudelleen`-painiketta.
+deck-config-custom-scheduling = Mukautettu aikataulutus
+deck-config-custom-scheduling-tooltip = Vaikuttaa koko kokoelmaan. Käytä omalla vastuulla!
 
 ## Adding/renaming
 
+deck-config-add-group = Lisää asetusmalli
 deck-config-name-prompt = Nimi
+deck-config-rename-group = Nimeä asetusmalli uudelleen
+deck-config-clone-group = Tee asetusmallista kopio
 
 ## Removing
 
+deck-config-remove-group = Poista asetusmalli
+deck-config-will-require-full-sync = Pyydetty muutos edellyttää yksisuuntaista synkronointia. Jos olet tehnyt muutoksia toisella laitteella etkä ole vielä synkronoinut niitä tähän laitteeseen, tee se ennen kuin ennen kuin jatkat.
 deck-config-confirm-remove-name = Poistetaanko { $name }?
 
 ## Other Buttons
@@ -174,6 +207,19 @@ deck-config-description-new-handling-hint =
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Yläpakan raja on { $cards ->
+        [one] { $cards } kortti
+       *[other] { $cards } korttia
+    }, ja se ohittaa tämän rajoituksen.
+deck-config-reviews-too-low =
+    Jos joka päivä lisätään { $cards ->
+        [one] { $cards } uusi kortti
+       *[other] { $cards } uutta korttia
+    }, kertausten enimmäismäärän tulisi olla vähintään { $expected }
+deck-config-learning-step-above-graduating-interval = Valmistumisen jälkeisen kertausvälin tulisi olla vähintään yhtä pitkä kuin viimeisen oppimisaskeleen.
+deck-config-good-above-easy = Helpon kortin kertausvälin tulisi olla vähintään yhtä pitkä kuin valmistumisen jälkeisen kertausvälin.
+deck-config-relearning-steps-above-minimum-interval = Vähimmäiskertausvälin tulisi olla ainakin yhtä suuri kuin viimeisen uudelleen oppimisen askeleen.
 
 ## Selecting a deck
 
@@ -181,3 +227,8 @@ deck-config-which-deck = Minkä pakan haluaisit?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
+deck-config-new-card-sort-order-tooltip = Näin kortit lajitellaan sen jälkeen, kun ne on kerätty. Oletusarvoisesti Anki lajittelee ensin korttimallien mukaan, jotta useita saman muistiinpanon kortteja ei jouduttaisi näyttämään peräkkäin.
+deck-config-new-gather-priority-tooltip =
+    `Pakan mukaan`: kortit kerätään alipakoista järjestyksesä, ja keräys lopetetaan, kun valitun pakan raja ylitetään. Tämä on nopeampaa, ja sallii lähellä yläpäätä olevien alipakkojen asettamisen etusijalle.
+    
+    `Sijainnin mukaan`: kortit kerätään kaikista pakoista, ennen kuin ne lajitellaan. Tämä varmistaa, että kortit esiintyvät täsmälleen erääntymisluvun mukaisessa järjestyksessä, vaikka yläpakan raja ei olisikaan tarpeeksi suuri, että kaikkien pakkojen kortit voitaisiin näyttää.

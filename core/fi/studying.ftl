@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Kortit palautetaan automaattisesti niiden alkuperäisiin pakkoihin kun olet kerrannut ne.
 studying-continue = Jatka
+studying-counts-differ = Luvut poikkeavat pakkaluettelosta, koska hautaaminen on käytössä. Joitakin kortteja on jätetty pois, ja niiden tilalle on saattanut tulla uusia kortteja.
 studying-delete-note = Poista muistiinpano
 studying-deleting-this-deck-from-the-deck = Tämän pakan poistaminen pakkalistasta palauttaa kaikki jäljellä olevat kortit niiden alkuperäisiin pakkoihin.
 studying-easy = Helppo
