@@ -1,5 +1,5 @@
 database-check-corrupt = Kokoelmatiedosto on vioittunut. Palauta tiedosto automaattisesta varmuuskopiosta.
-database-check-rebuilt = Tietokanta on rakennettu uudelleen ja optimoitu
+database-check-rebuilt = Tietokanta on rakennettu uudelleen ja optimoitu.
 database-check-card-properties =
     { $count ->
         [one] Korjattiin { $count } kortti, jossa oli virheellisiä ominaisuuksia.
@@ -22,28 +22,28 @@ database-check-new-card-high-due =
     }
 database-check-card-missing-note =
     { $count ->
-        [one] Poistettu { $count } kortti, josta puuttui muistiinpanot.
-       *[other] Poistettu { $count } korttia, joista puuttui muistiinpanot.
+        [one] Poistettiin { $count } kortti, johon ei liittynyt muistiinpanoa.
+       *[other] Poistettiin { $count } korttia, joihin ei liittynyt muistiinpanoa..
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] Poistettu { $count } kortti, josta oli kaksoismalli.
-       *[other] Poistettu { $count } korttia, joista oli kaksoismallit.
+        [one] Poistettiin { $count } kortti, josta oli kaksoismalli.
+       *[other] Poistettiin { $count } korttia, joista oli kaksoismallit.
     }
 database-check-missing-decks =
     { $count ->
-        [one] Korjattu { $count } puuttuva pakka.
-       *[other] Korjattu { $count } puuttuvaa pakkaa.
+        [one] Korjattiin { $count } puuttuva pakka.
+       *[other] Korjattiin { $count } puuttuvaa pakkaa.
     }
 database-check-revlog-properties =
     { $count ->
-        [one] Korjattu { $count } kertausmerkintä, jossa oli virheellisiä ominaisuuksia.
-       *[other] Korjattu { $count } kertausmerkintää, joissa oli virheellisiä ominaisuuksia.
+        [one] Korjattiin { $count } kertausmerkintä, jossa oli virheellisiä ominaisuuksia.
+       *[other] Korjattiin { $count } kertausmerkintää, joissa oli virheellisiä ominaisuuksia.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-        [one] Korjattu { $count } muistiinpano, jossa oli virheellisiä UTF-8-merkkejä.
-       *[other] Korjattu { $count } muistiinpanoa, joissa oli virheellisiä UTF-8-merkkejä.
+        [one] Korjattiin { $count } muistiinpano, jossa oli virheellisiä UTF-8-merkkejä.
+       *[other] Korjattiin { $count } muistiinpanoa, joissa oli virheellisiä UTF-8-merkkejä.
     }
 # "db-check" is always in English
 database-check-notetypes-recovered = Yksi tai useampi muistiinpanotyyppi puuttui. Niitä käyttäneille muistiinpanoille on annettu uudet muistiinpanotyypit, joiden nimet alkavat tunnuksella "db-check", mutta kenttien nimet ja kortin ulkoasu ovat kadonneet, joten saattaa olla parempi palauttaa muistiinpanot automaattisesta varmuuskopiosta.

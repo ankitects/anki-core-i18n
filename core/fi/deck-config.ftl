@@ -101,7 +101,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Laskevassa järjestyksessä`: kerää kortteja erääntymisluvun mukaan laskevassa järjestyksessä, jolloin yleensä uusimmat kortit kerätään ensin.
     
-    `Satunnaiset muistiinpanot`: kerää kortteja satunnaisesti valituista muistiinpanoista. Kun sisarkorttien hautaaminen on poistettu käytöstä, tämä mahdollistaa sen, että kaikki muistiinpanon kortit näkyvät samassa istunnossa (esim. sekä etu->taka että taka->etu -kortit)
+    `Satunnaiset muistiinpanot`: kerää kortteja satunnaisesti valituista muistiinpanoista. Kun sisarkorttien hautaaminen on poistettu käytöstä, tämä mahdollistaa sen, että kaikki muistiinpanon kortit näkyvät samassa istunnossa (esim. sekä etupuoli->kääntöpuoli että kääntöpuoli->etupuoli -kortit)
     
     `Satunnaiset kortit`: kerää kortteja täysin satunnaisesti.
 deck-config-new-gather-priority-deck = Pakan järjestyksen mukaan
@@ -111,7 +111,7 @@ deck-config-new-gather-priority-random-notes = Satunnaiset muistiinpanot
 deck-config-new-gather-priority-random-cards = Satunnaiset kortit
 deck-config-new-card-sort-order = Uusien korttien lajittelujärjestys
 deck-config-new-card-sort-order-tooltip-2 =
-    `Korttimallin mukaan`: Näyttää kortit korttimallien mukaisessa järjestyksessä. Jos sisarkorttien hautaaminen on pois käytöstä, tämä varmistaa, että kaikki etu->taka-kortit näkyvät ennen taka->etu-kortteja.
+    `Korttimallin mukaan`: Näyttää kortit korttimallien mukaisessa järjestyksessä. Jos sisarkorttien hautaaminen on pois käytöstä, tämä varmistaa, että kaikki etupuoli->kääntöpuoli-kortit näkyvät ennen kääntöpuoli->etupuoli-kortteja.
     
     `Keräysjärjestyksen mukaan`: Näyttää kortit täsmälleen siinä järjestyksessä kuin ne on kerätty. Jos sisarkorttien hautaaminen on pois käytöstä, tämä johtaa yleensä siihen, että kaikki muistiinpanon kortit näkyvät peräkkäin.
     
