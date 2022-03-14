@@ -98,7 +98,7 @@ browsing-treat-input-as-regular-expression = Tulkitse syöte säännöllisenä l
 browsing-update-saved-search = Päivitä vastaamaan nykyistä hakua
 browsing-whole-collection = Koko kokoelma
 browsing-window-title-notes = Selaa ({ $selected }/{ $total } muistiinpanoa valittuna)
-browsing-you-must-have-at-least-one = Pitää olla vähintään yksi sarake.
+browsing-you-must-have-at-least-one = Sarakkeita tulee olla vähintään yksi.
 browsing-group =
     { $count ->
         [one] { $count } ryhmä
@@ -151,13 +151,13 @@ browsing-sidebar-overdue = Rästissä
 browsing-row-deleted = (poistettu)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Poistettu { $count } käyttämätön tunniste.
-       *[other] Poistettu { $count } käyttämätöntä tunnistetta.
+        [one] Poistettiin { $count } käyttämätön tunniste.
+       *[other] Poistettiin { $count } käyttämätöntä tunnistetta.
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Muutettu { $count } uuden kortin sijainti.
-       *[other] Muutettu { $count } uuden kortin sijainti.
+        [one] Muutettiin { $count } uuden kortin sijainti.
+       *[other] Muutettiin { $count } uuden kortin sijainti.
     }
 browsing-reparented-decks =
     { $count ->

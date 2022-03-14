@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = Lisää (pikanäppäinyhdistelmä: Ctrl + enter)
 adding-added = Lisätty
-adding-close-and-lose-current-input = Avoinna olevan kortin tiedot katoavat. Haluatko sulkea ikkunan?
+adding-close-and-lose-current-input = Haluatko sulkea ikkunan? Avoinna olevan kortin tiedot katoavat.
 adding-edit = Muokkaa "{ $val }"
 adding-history = Historia
 adding-note-deleted = (Muistiinpano poistettu)

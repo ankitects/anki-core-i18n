@@ -1,4 +1,5 @@
-findreplace-notes-updated = { $total ->
-    [one] {$changed} {$total}:stä muistiinpanosta päivitetty.
-   *[other] {$changed} {$total}:stä muistiinpanosta päivitetty.
-  }
+findreplace-notes-updated =
+    { $total ->
+        [one] { $changed }/{ $total } muistiinpanosta päivitetty.
+       *[other] { $changed }/{ $total } muistiinpanosta päivitetty.
+    }
