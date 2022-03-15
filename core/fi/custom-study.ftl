@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Kasvata tämän päivän uusien ko
 custom-study-increase-todays-new-card-limit-by = Kasvata tämän päivän uusien korttien ylärajaa
 custom-study-increase-todays-review-card-limit = Kasvata tänään kerrattavien korttien ylärajaa
 custom-study-increase-todays-review-limit-by = Kasvata tänään kerrattavien korttien ylärajaa
-custom-study-new-cards-in-deck-over-today = Pakassa olevien tämän päivän jälkeen opittavien korttien määrä: { $val }
 custom-study-new-cards-only = Vain uudet kortit
 custom-study-no-cards-matched-the-criteria-you = Yksikään kortti ei vastaa annettuja ehtoja
 custom-study-ok = OK
@@ -21,8 +20,14 @@ custom-study-review-ahead = Kertaa etukäteen
 custom-study-review-ahead-by = Kertaa ennalta
 custom-study-review-cards-forgotten-in-last = Kertaa unohdetut kortit viimeiseltä
 custom-study-review-forgotten-cards = Kertaa unohdettuja kortteja
-custom-study-reviews-due-in-deck-over-today = Pakassa olevien tämän päivän jälkeen kerrattavien korttien määrä: { $val }
 custom-study-select = Valitse
 custom-study-select-tags-to-exclude = Valitse poissuljettavat tunnisteet:
 custom-study-selective-study = Valikoiva opiskelu
 custom-study-study-by-card-state-or-tag = Opiskele kortteja, joilla on tietty tila tai tunniste
+custom-study-available-new-cards = Uusia kortteja saatavilla: { $count }
+custom-study-available-review-cards = Kortteja saatavilla kerrattavaksi: { $count }
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-new-cards-in-deck-over-today = Pakassa olevien tämän päivän jälkeen opittavien korttien määrä: { $val }
+custom-study-reviews-due-in-deck-over-today = Pakassa olevien tämän päivän jälkeen kerrattavien korttien määrä: { $val }

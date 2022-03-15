@@ -220,6 +220,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Valmistumisen jälkeisen kertausvälin tulisi olla vähintään yhtä pitkä kuin viimeisen oppimisaskeleen.
 deck-config-good-above-easy = Helpon kortin kertausvälin tulisi olla vähintään yhtä pitkä kuin valmistumisen jälkeisen kertausvälin.
 deck-config-relearning-steps-above-minimum-interval = Vähimmäiskertausvälin tulisi olla ainakin yhtä suuri kuin viimeisen uudelleen oppimisen askeleen.
+deck-config-maximum-answer-secs-above-recommended = Anki ajoittaa kertaukset tehokkaammin, kun pidät kun pidät kysymykset lyhyinä.
 
 ## Selecting a deck
 

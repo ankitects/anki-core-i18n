@@ -5,6 +5,7 @@ exporting-anki-deck-package = Anki-pakkapakkaus
 exporting-cards-in-plain-text = Kortit muotoilemattomana tekstinä
 exporting-collection = kokoelma
 exporting-collection-exported = Kokoelma viety.
+exporting-colpkg-too-new = Päivitä Anki uusimpaan versioon ja tuo sitten .colpkg-tiedosto uudelleen.
 exporting-couldnt-save-file = Ei voitu tallentaa tiedostoa: { $val }
 exporting-export = Vie...
 exporting-export-format = <b>Vientimuoto</b>:
