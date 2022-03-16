@@ -8,3 +8,4 @@ profiles-profile-corrupt = El perfil está dañado
 profiles-profiles = Perfiles
 profiles-quit = Salir
 profiles-user-1 = Usuario 1
+profiles-confirm-lang-choice = ¿Estás seguro de que deseas mostrar la interfaz de Anki en { $lang }?

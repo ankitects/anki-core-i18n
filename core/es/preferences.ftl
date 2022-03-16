@@ -38,3 +38,4 @@ preferences-theme-label = Tema: { $theme }
 preferences-theme-follow-system = Seguir el sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Oscuro
+preferences-monthly-backups = Número de copias de seguridad mensuales a mantener:
