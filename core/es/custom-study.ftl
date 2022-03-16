@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Aumentar el límite de tarjetas nu
 custom-study-increase-todays-new-card-limit-by = Aumentar el límite de tarjetas nuevas para hoy en
 custom-study-increase-todays-review-card-limit = Aumentar el límite de repasos para hoy
 custom-study-increase-todays-review-limit-by = Aumentar el límite de repasos para hoy en
-custom-study-new-cards-in-deck-over-today = Tarjetas nuevas en el mazo por encima del límite de hoy: { $val }
 custom-study-new-cards-only = Sólo tarjetas nuevas
 custom-study-no-cards-matched-the-criteria-you = Ninguna tarjeta coincide con los criterios que has indicado.
 custom-study-ok = Aceptar
@@ -21,8 +20,14 @@ custom-study-review-ahead = Repasar por adelantado
 custom-study-review-ahead-by = Repasar por adelantado
 custom-study-review-cards-forgotten-in-last = Repasar tarjetas olvidadas en los últimos
 custom-study-review-forgotten-cards = Repasar tarjetas olvidadas
-custom-study-reviews-due-in-deck-over-today = Revisiones vencidas por encima del límite de hoy: { $val }
 custom-study-select = Seleccionar
 custom-study-select-tags-to-exclude = Selecciona las etiquetas a excluir:
 custom-study-selective-study = Estudio selectivo
 custom-study-study-by-card-state-or-tag = Estudiar según estado o etiqueta de la tarjeta
+custom-study-available-new-cards = Nuevas tarjetas disponibles: { $count }
+custom-study-available-review-cards = Tarjetas de revisión disponibles: { $count }
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-new-cards-in-deck-over-today = Tarjetas nuevas en el mazo por encima del límite de hoy: { $val }
+custom-study-reviews-due-in-deck-over-today = Revisiones vencidas por encima del límite de hoy: { $val }
