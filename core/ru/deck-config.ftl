@@ -61,6 +61,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Откладывание
 deck-config-bury-new-siblings = Откладывать новые связанные до завтра
 deck-config-bury-review-siblings = Откладывать повторяемые связанные до завтра
+deck-config-bury-interday-learning-siblings = Откладывать связанные изучаемые, которые переносятся
 deck-config-bury-tooltip = Будут ли другие карточки той же записи (например, обратные или с пропусками) отложены до следующего дня.
 
 ## Ordering section
@@ -175,6 +176,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Интервал перевода не должен быть короче последнего шага изучаемых.
 deck-config-good-above-easy = Интервал лёгких не должен быть короче интервала перевода.
 deck-config-relearning-steps-above-minimum-interval = Минимальный интервал забытых не должен быть короче последнего шага переучиваемых.
+deck-config-maximum-answer-secs-above-recommended = Anki планирует более эффективно, когда вопросы короткие.
 
 ## Selecting a deck
 
