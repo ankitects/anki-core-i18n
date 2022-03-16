@@ -29,14 +29,17 @@ deck-config-limit-deck-v3 =
 
 ## New Cards section
 
-deck-config-learning-steps = Etapas de aprendizaje
+deck-config-learning-steps = Pasos en la etapa de aprendizaje
+deck-config-graduating-interval-tooltip =
+    El número de días a esperar antes de volver a mostrar una tarjeta, después que el botón 
+    'Bien' se presiona en el último paso de la etapa de aprendizaje.
 deck-config-new-insertion-order = Orden de inserción
 deck-config-new-insertion-order-sequential = Secuencial (las tarjetas más antiguas primero)
 deck-config-new-insertion-order-random = Aleatorio
 
 ## Lapses section
 
-deck-config-relearning-steps = Etapas de reaprendizaje
+deck-config-relearning-steps = Pasos de reaprendizaje
 
 ## Burying section
 
@@ -78,6 +81,7 @@ deck-config-maximum-answer-secs = Tiempo máximo de respuesta en segundos
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = No reproducir audio automáticamente
+deck-config-skip-question-when-replaying = Saltar la pregunta al repetir la respuesta
 
 ## Advanced section
 
@@ -113,6 +117,7 @@ deck-config-revert-button-tooltip = Restaure esta configuración a su valor pred
 
 ## Warnings shown to the user
 
+deck-config-learning-step-above-graduating-interval = El intervalo de graduación debe ser al menos tan largo como el último paso de la etapa de aprendizaje.
 deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo como el intervalo de graduación.
 
 ## Selecting a deck

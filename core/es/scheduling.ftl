@@ -156,3 +156,7 @@ scheduling-set-due-date-prompt =
         [one] ¿Mostrar tarjeta en cuantos días?
        *[other] ¿Mostrar tarjetas en cuántos días?
     }
+scheduling-set-due-date-prompt-hint =
+    0 = hoy
+    1! = mañana + redefinición del intervalo de revisión
+    3-7 = elección aleatoria de 3-7 días

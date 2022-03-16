@@ -1,3 +1,4 @@
+editing-actual-size = Alternar tamaño real
 editing-add-media = Añadir archivos multimedia
 editing-align-left = Alinear a la izquierda
 editing-align-right = Alinear a la derecha

@@ -38,4 +38,7 @@ preferences-theme-label = Tema: { $theme }
 preferences-theme-follow-system = Seguir el sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Oscuro
+preferences-ignore-accents-in-search = Ignorar acentos en la búsqueda (más lento)
+preferences-daily-backups = Copias de seguridad diarias para mantener:
+preferences-weekly-backups = Copias de seguridad semanales para mantener:
 preferences-monthly-backups = Número de copias de seguridad mensuales a mantener:

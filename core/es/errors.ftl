@@ -9,6 +9,7 @@ errors-100-tags-max =
     es necesario seleccionar etiquetas secundarias si ha seleccionado una etiqueta principal.
 errors-multiple-notetypes-selected = Seleccione notas de un solo tipo de nota.
 errors-please-check-database = Utilice la acción Comprobar base de datos y vuelva a intentarlo.
+errors-collection-too-new = Esta colección requiere una versión más nueva de Anki para abrir.
 
 ## Card Rendering
 

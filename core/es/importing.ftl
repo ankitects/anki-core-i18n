@@ -1,4 +1,3 @@
-importing-failed = La importación falló.
 importing-failed-debug-info = La importación falló. Información de depuración:
 importing-aborted = Abortada: { $val }
 importing-added-duplicate-with-first-field = Añadida duplicada con primer campo: { $val }
@@ -78,3 +77,4 @@ importing-processed-media-file =
         [one] { $count } archivo multimedia procesado
        *[other] { $count } archivos multimedia procesados
     }
+importing-importing-collection = Importando colección...
