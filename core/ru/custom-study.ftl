@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Добавить новых на �
 custom-study-increase-todays-new-card-limit-by = Увеличить лимит новых на
 custom-study-increase-todays-review-card-limit = Добавить повторяемых на сегодня
 custom-study-increase-todays-review-limit-by = Увеличить лимит повторениемых на
-custom-study-new-cards-in-deck-over-today = Новые карточки в колоде сверх лимита: { $val }
 custom-study-new-cards-only = Только новые карточки
 custom-study-no-cards-matched-the-criteria-you = Нет карточек, подходящих под запрос.
 custom-study-ok = ОК
@@ -21,8 +20,14 @@ custom-study-review-ahead = Просмотреть вперед (вне днев
 custom-study-review-ahead-by = Просмотреть вперед на
 custom-study-review-cards-forgotten-in-last = Пересмотреть карточки, забытые в прошлом
 custom-study-review-forgotten-cards = Повторить забытые карточки
-custom-study-reviews-due-in-deck-over-today = Повторяемых сверх лимита на сегодня: { $val }
 custom-study-select = Выбрать
 custom-study-select-tags-to-exclude = Выберите исключаемые метки:
 custom-study-selective-study = Выборочное обучение
 custom-study-study-by-card-state-or-tag = Учить по состоянию карточки или по метке
+custom-study-available-new-cards = Доступно новых: { $count }
+custom-study-available-review-cards = Доступно повторяемых: { $count }
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-new-cards-in-deck-over-today = Новые карточки в колоде сверх лимита: { $val }
+custom-study-reviews-due-in-deck-over-today = Повторяемых сверх лимита на сегодня: { $val }
