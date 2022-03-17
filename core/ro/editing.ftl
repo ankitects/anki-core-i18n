@@ -33,12 +33,16 @@ editing-outdent = Redu indentarea
 editing-paste = Lipește
 editing-record-audio = Înregistrează audio
 editing-remove-formatting = Eliminare formatare
-editing-set-text-color = Stabileşte culoarea textului
-editing-set-text-highlight-color = Stabileşte culoarea de evidențiere a textului
 editing-show-duplicates = Arată dublurile
 editing-subscript = Indice
 editing-superscript = Superscript
 editing-tags = Marcaje
+editing-tags-add = Adaugă marcaj
+editing-tags-copy = Copiază marcaje
+editing-tags-remove = Elimină marcaje
+editing-tags-select-all = Selectează toate marcajele
+editing-text-color = Culoarea textului
+editing-text-highlight-color = Culoarea de evidențiere a textului
 editing-to-make-a-cloze-deletion-on = Pentru a face o ascundere cloze pe o notiţă existentă, trebuie să o schimbi mai întâi la tipul ”cloze”, prin „Notiţe> Schimbați tip notă”.
 editing-toggle-html-editor = Comută editorul HTML
 editing-toggle-sticky = Comută modul ”lipicios”
@@ -50,3 +54,5 @@ editing-warning-cloze-deletions-will-not-work = Atenție, ascunderile cloze nu v
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = Editor HTML
+editing-set-text-color = Stabileşte culoarea textului
+editing-set-text-highlight-color = Stabileşte culoarea de evidențiere a textului

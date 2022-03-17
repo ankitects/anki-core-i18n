@@ -4,3 +4,4 @@ media-for-security-reasons-is-not = Din rațiuni de securitate, '{ $val }' nu pe
 media-generated-file = Fișier generat: { $val }
 media-have-you-installed-latex-and-dvipngdvisvgm = Ați instalat  latex și dvipng/dvisvgm?
 media-recordingtime = Se înregistrează...<br>Timp: { $secs }
+media-sound-and-video-on-cards-will = Sunetul și video de pe plăci nu vor funcționa până când nu este instalat mpv sau mplayer.
