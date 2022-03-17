@@ -51,12 +51,12 @@ media-check-trash-restored = 已恢复删除的文件到媒体文件夹。
 
 ## Rendering LaTeX
 
-media-check-all-latex-rendered = 已绘制所有LaTeX。
+media-check-all-latex-rendered = 已渲染所有LaTeX。
 
 ## Buttons
 
 media-check-delete-unused = 删除未使用的文件
-media-check-render-latex = 绘制LaTeX
+media-check-render-latex = 渲染LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = 清空垃圾筒
 # button to move deleted files from the trash back into the media folder

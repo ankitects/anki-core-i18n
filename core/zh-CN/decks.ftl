@@ -1,5 +1,5 @@
 decks-add-new-deck-ctrlandn = 添加新的牌组
-decks-build = 创建动态牌组
+decks-build = 创建筛选牌组
 decks-cards-selected-by = 卡片选择按
 decks-create-deck = 创建牌组
 decks-custom-steps-in-minutes = 自定义步幅（以分钟计）
@@ -16,7 +16,6 @@ decks-latest-added-first = 最后添加的先复习
 decks-limit-to = 限制为
 decks-minutes = 分钟
 decks-most-lapses = 遗忘次数由大到小
-decks-name-for-deck = 牌组名字:
 decks-new-deck-name = 新牌组名称:
 decks-no-deck = [没有牌组]
 decks-oldest-seen-first = 优先查看最旧的

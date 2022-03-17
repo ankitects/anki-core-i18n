@@ -13,7 +13,7 @@ browsing-browser-options = 浏览器选项
 browsing-buried = 被搁置
 browsing-card = 卡片模板
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = 卡
+browsing-card-initial = 卡片
 browsing-card-list = 卡片列表
 browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到过滤牌组
 browsing-cards-deleted =
@@ -59,7 +59,7 @@ browsing-no-flag = 无旗标
 browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记模板
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = 笔
+browsing-note-initial = 笔记
 browsing-optional-filter = 可选过滤器：
 browsing-override-back-template = 忽略背面模版
 browsing-override-font = 覆盖字体：

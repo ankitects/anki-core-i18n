@@ -7,7 +7,7 @@ studying-bury = 搁置
 studying-bury-card = 搁置卡片
 studying-bury-note = 搁置笔记
 studying-card-suspended = 已暂停的卡片
-studying-card-was-a-leech = 此卡片为“水蛭”。
+studying-card-was-a-leech = 此卡片为记忆难点
 studying-cards-buried =
     { $count ->
        *[other] 已搁置{ $count }卡片。
@@ -35,7 +35,7 @@ studying-record-own-voice = 录制自己的声音
 studying-replay-own-voice = 重新播放自己的声音
 studying-show-answer = 显示答案
 studying-space = 空格键
-studying-study-now = 现在学习
+studying-study-now = 开始学习
 studying-suspend = 暂停
 studying-suspend-note = 暂停笔记
 studying-this-is-a-special-deck-for = 这是一个在正常计划外学习的特殊牌组。

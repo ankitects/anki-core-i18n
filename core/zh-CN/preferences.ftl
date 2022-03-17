@@ -41,4 +41,4 @@ preferences-theme-label = 主题：{ $theme }
 preferences-theme-follow-system = 跟随系统设置
 preferences-theme-light = 浅色
 preferences-theme-dark = 深色
-preferences-v3-scheduler = V3 调度算法
+preferences-v3-scheduler = 第3版调度算法
