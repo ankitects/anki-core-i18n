@@ -1,4 +1,4 @@
-editing-actual-size = Alternar tamaño real
+editing-actual-size = Activar/Desactivar tamaño real
 editing-add-media = Añadir archivos multimedia
 editing-align-left = Alinear a la izquierda
 editing-align-right = Alinear a la derecha
@@ -30,7 +30,7 @@ editing-mathjax-block = Bloque de MathJacx
 editing-mathjax-chemistry = Química MathJax
 editing-mathjax-inline = MathJacx en línea
 editing-media = Multimedia
-editing-ordered-list = Lista ordenada
+editing-ordered-list = Lista numerada
 editing-outdent = Disminuir la sangría
 editing-paste = Pegar
 editing-record-audio = Grabar audio
@@ -47,11 +47,11 @@ editing-tags-select-all = Seleccionar todas las etiquetas
 editing-text-color = Color de texto
 editing-text-highlight-color = Color de resaltado de texto
 editing-to-make-a-cloze-deletion-on = Para crear preguntas anidadas en una nota existente, primero debe cambiarla a un tipo de nota de Respuesta Anidada, mediante 'Editar>Cambiar tipo de nota'.
-editing-toggle-html-editor = Alternar editor HTML
-editing-toggle-sticky = Alternar el anclaje del texto
+editing-toggle-html-editor = Activar/Desactivar editor HTML
+editing-toggle-sticky = Activar/Desactivar anclaje del texto
 editing-toggle-visual-editor = Ocultar/mostrar el Editor Visual
 editing-underline-text = Subrayar texto
-editing-unordered-list = Lista desordenada
+editing-unordered-list = Lista con viñetas
 editing-warning-cloze-deletions-will-not-work = Cuidado, los huecos no funcionarán a menos que cambies el tipo de nota a Huecos.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
