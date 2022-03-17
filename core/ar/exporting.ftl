@@ -5,6 +5,7 @@ exporting-anki-deck-package = حزمة رزمة أنكي
 exporting-cards-in-plain-text = بطاقات بصيغة نصية
 exporting-collection = مجموعة
 exporting-collection-exported = تم تصدير المجموعة.
+exporting-colpkg-too-new = يرجى التحديث إلى آخر إصدار من أنكي ثم استيراد ملف .colpkg مجددًا.
 exporting-couldnt-save-file = لا يمكن حفظ الملف: { $val }
 exporting-export = تصدير....
 exporting-export-format = <b>صيغة التصدير</b>:

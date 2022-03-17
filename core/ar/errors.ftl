@@ -9,6 +9,7 @@ errors-100-tags-max =
     لتحديد الوسوم الفرعية إذا حددت وسمها الأب.
 errors-multiple-notetypes-selected = يرجى تحديد ملحوظات من نوع ملحوظة واحد فقط.
 errors-please-check-database = استخدم ميزة فحص قاعدة البيانات ثم حاول مجددًا.
+errors-please-check-media = استخدم ميزة فحص الوسائط ثم حاول مجددًا.
 errors-collection-too-new = تتطلب هذه المجموعة نسخة أحدث من أنكي ليتم فتحها.
 
 ## Card Rendering
