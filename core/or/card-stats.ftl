@@ -26,5 +26,5 @@ card-stats-no-card = (ପ୍ରଦର୍ଶନ କରିବାକୁ କୌଣ�
 
 ## Window Titles
 
-card-stats-current-card = ସାମ୍ପ୍ରତିକ ପତ୍ର ({ $context })
+card-stats-current-card = ଚଳିତ ପତ୍ର ({ $context })
 card-stats-previous-card = ପୂର୍ବ ପତ୍ର ({ $context })

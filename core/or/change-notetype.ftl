@@ -1,4 +1,4 @@
-change-notetype-current = ସାମ୍ପ୍ରତିକ
+change-notetype-current = ଚଳିତ
 change-notetype-new = ନୂତନ
 change-notetype-collapse = ସଙ୍କୋଚନ
 change-notetype-expand = ପ୍ରସାରଣ

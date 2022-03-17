@@ -142,7 +142,7 @@ scheduling-steps-in-minutes = ପାହୁଣ୍ଡ (ମିନିଟ୍ ରେ)
 scheduling-steps-must-be-numbers = ପାହୁଣ୍ଡଟି ସଂଖ୍ୟା ହେବା ଜରୁରୀ।
 scheduling-tag-only = କେବଳ ଟ୍ୟାଗ୍ କରନ୍ତୁ
 scheduling-the-default-configuration-cant-be-removed = ଡିଫଲ୍ଟ ବିନ୍ୟାସୀକରଣ ଅପସାରଣ ହୋଇପାରିବ ନାହିଁ।
-scheduling-your-changes-will-affect-multiple-decks = ଆପଣଙ୍କ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ଏକାଧିକ ଡେକ୍ କୁ ପ୍ରଭାବିତ କରିବ। ଯଦି ଆପଣ କେବଳ ସମ୍ପ୍ରତି ଡେକ୍ ପରିବର୍ତ୍ତନ କରିବାକୁ ଚାହୁଁଛନ୍ତି, ଦୟାକରି ପ୍ରଥମେ ଏକ ନୂତନ ବିକଳ୍ପ ଗୋଷ୍ଠୀ ଯୋଡ଼ନ୍ତୁ।
+scheduling-your-changes-will-affect-multiple-decks = ଆପଣଙ୍କ ପରିବର୍ତ୍ତନଗୁଡ଼ିକ ଏକାଧିକ ତାସଖଣ୍ଡକୁ ପ୍ରଭାବିତ କରିବ। ଯଦି ଆପଣ କେବଳ ଚଳିତ ତାସଖଣ୍ଡକୁ ପରିବର୍ତ୍ତନ କରିବାକୁ ଚାହୁଁଛନ୍ତି, ଦୟାକରି ପ୍ରଥମେ ଗୋଟେ ନୂଆ ବିକଳ୍ପ ଗୋଷ୍ଠୀ ଯୋଡ଼ନ୍ତୁ।
 scheduling-deck-updated =
     { $count ->
         [one] { $count }ଟିଏ ଡେକ୍ ଅଦ୍ୟତନ ହୋଇଛି।
