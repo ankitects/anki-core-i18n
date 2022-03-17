@@ -41,6 +41,7 @@ editing-show-duplicates = إظهار الملحوظات المكررة
 editing-subscript = خط تحتي
 editing-superscript = خط فوقي
 editing-tags = وسوم
+editing-tags-add = إضافة وسم
 editing-text-color = لون النص
 editing-text-highlight-color = لون تظليل النص
 editing-to-make-a-cloze-deletion-on = لصنع عبارة ملء فراغات في ملحوظة موجودة، عليك تغيير نوعها إلى نوع ملء الفراغات أولًا، عبر 'ملحوظات>تغيير نوع الملحوظة'

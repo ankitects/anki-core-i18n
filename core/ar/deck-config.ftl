@@ -266,6 +266,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = فاصل التخرج يجب أن يكون على الأقل بطول خطوة التعلم الأخيرة.
 deck-config-good-above-easy = يجب أن يكون فاصل البطاقات السهلة على الأقل بطول فاصل التخرج.
 deck-config-relearning-steps-above-minimum-interval = فاصل السقطات الأقصر يجب أن يكون على الأقل بطول خطوة إعادة التعلم الأخيرة.
+deck-config-maximum-answer-secs-above-recommended = يجدول أنكي مراجعاتك بشكل أكثر فعالية عندما تكون الأسئلة قصيرة.
 
 ## Selecting a deck
 

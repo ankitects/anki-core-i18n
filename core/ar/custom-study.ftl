@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = رفع حد البطاقات ال�
 custom-study-increase-todays-new-card-limit-by = رفع حد البطاقات الجديدة لليوم بـ
 custom-study-increase-todays-review-card-limit = رفع حد مراجعات اليوم
 custom-study-increase-todays-review-limit-by = رفع حد مراجعات اليوم بـ
-custom-study-new-cards-in-deck-over-today = عدد البطاقات الجديدة في الرزمة فوق الحد اليومي: { $val }
 custom-study-new-cards-only = البطاقات الجديدة فقط
 custom-study-no-cards-matched-the-criteria-you = لم تطابق أي بطاقة الشروط التي طلبتها.
 custom-study-ok = موافق
@@ -21,8 +20,14 @@ custom-study-review-ahead = المراجعة مبكرًا
 custom-study-review-ahead-by = المراجعة مبكرًا بمدة
 custom-study-review-cards-forgotten-in-last = مراجعة البطاقات المنسية في آخر
 custom-study-review-forgotten-cards = مراجعة البطاقات المنسية
-custom-study-reviews-due-in-deck-over-today = عدد المراجعات المستحقة في الرزمة فوق الحد اليومي: { $val }
 custom-study-select = تحديد
 custom-study-select-tags-to-exclude = حدد وسوم لإقصائها:
 custom-study-selective-study = دراسة انتقائية
 custom-study-study-by-card-state-or-tag = دراسة حسب حالة البطاقة أو الوسم
+custom-study-available-new-cards = البطاقات الجديدة المتوفرة: { $count }
+custom-study-available-review-cards = بطاقات المراجعة المتوفرة: { $count }
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-new-cards-in-deck-over-today = عدد البطاقات الجديدة في الرزمة فوق الحد اليومي: { $val }
+custom-study-reviews-due-in-deck-over-today = عدد المراجعات المستحقة في الرزمة فوق الحد اليومي: { $val }
