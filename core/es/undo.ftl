@@ -5,3 +5,6 @@ undo-undo = Deshacer
 undo-redo = Rehacer
 # eg "Undo Answer Card"
 undo-undo-action = Deshacer { $val }
+# eg "Answer Card Undone"
+undo-action-undone = { $action } deshecho
+undo-action-redone = { $action } rehecho
