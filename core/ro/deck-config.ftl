@@ -60,6 +60,9 @@ deck-config-new-insertion-order-tooltip =
     Schimbarea acestei opţiuni va actualiza automat poziția existentă a cardurilor noi.
 deck-config-new-insertion-order-sequential = Secvenţial (cele mai vechi carduri mai întâi)
 deck-config-new-insertion-order-random = Aleatoriu
+deck-config-new-insertion-order-random-with-v3 =
+    Cu planificatorul V3, este mai bine să lași acest set la secvențial și¶
+    în schimb, să ajustezi noua ordine de colectare a cardurilor.
 
 ## Lapses section
 
@@ -85,6 +88,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Îngropare
 deck-config-bury-new-siblings = Îngroapă carduri frați ”noi” până a doua zi
 deck-config-bury-review-siblings = Îngroapă carduri frați ”în repetare” până a doua zi
+deck-config-bury-interday-learning-siblings = Îngroapă cardurile frați în învățare dintre zile
 deck-config-bury-tooltip =
     Dacă alte carduri care aparţin de aceeași notiţă ¶
     (de exemplu carduri inversate, carduri cloze adiacente)¶
