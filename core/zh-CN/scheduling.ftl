@@ -15,10 +15,10 @@ scheduling-answer-button-time-years = { $amount }年
 ## such as in the Interval column of the browse screen,
 ## and labels like "Total Time" in the card info screen.
 
-scheduling-time-span-seconds = { $amount } 秒
+scheduling-time-span-seconds = { $amount }秒
 scheduling-time-span-minutes = { $amount }分钟
 scheduling-time-span-hours = { $amount }小时
-scheduling-time-span-days = { $amount } 天
+scheduling-time-span-days = { $amount }天
 scheduling-time-span-months = { $amount }个月
 scheduling-time-span-years = { $amount }年
 
@@ -97,6 +97,8 @@ scheduling-new-options-group-name = 新学习计划组名称:
 scheduling-options-group = 学习计划组:
 scheduling-order = 顺序
 scheduling-parent-limit = (父牌组限制: { $val })
+scheduling-reset-counts = 重置重复和失效计数
+scheduling-restore-position = 如可能，恢复原始位置。
 scheduling-review = 复习
 scheduling-reviews = 复习
 scheduling-seconds = 秒

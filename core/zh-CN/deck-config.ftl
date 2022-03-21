@@ -5,7 +5,7 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks = 应用于 { $decks } 个牌组
+deck-config-used-by-decks = 应用于{ $decks }个牌组
 deck-config-default-name = 系统预置
 deck-config-title = 牌组选项
 
