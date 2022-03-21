@@ -5,20 +5,20 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = 无效的搜索：{ $reason }
-search-misplaced-and = 找到一个未用来连接搜索项的「and」。若想搜索「and」这个单词本身，请将其置于双引号中：「"and"」。
-search-misplaced-or = 找到一个未用来连接搜索项的「or」。若想搜索「or」这个单词本身，请将其置于双引号中：「"or"」。
+search-misplaced-and = 搜索条件中包含一个「and」，但未用来连接搜索项。若想搜索「and」这个单词本身，请将其置于双引号中：「"and"」。
+search-misplaced-or = 搜索条件中包含一个「or」，但未用来连接搜索项。若想搜索「or」这个单词本身，请将其置于双引号中：「"or"」。
 # Here, the ellipsis "..." may be localised.
-search-empty-group = 发现了一组 `(...)`，但括号内并无可检索的内容。若您想搜索括号本身，请将其置于双引号中：`"( )"`。
-search-unopened-group = 找到一个右括号`)`，但在前面没有找到与之对应的左括号`(`。若您想搜索右括号本身，请将其置于双引号中或在其前面加上反斜杠：`")"`或`\)`。
-search-unclosed-group = 找到一个左括号`(`，但没有找到与之对应的右括号`)`。若您想搜索左括号本身，请将其置于双引号中或在其前面加上反斜杠：`"("`或`\(`。
-search-empty-quote = 找到一组双引号`""`，但引号里面没有搜索内容。如果您想搜索双引号本身，请在前面加上反斜杠：`\"\"`。
-search-unclosed-quote = 找到一个双引号`"`，但在其后缺少第二个双引号来结束。如果您想搜索双引号本身，请在前面加上反斜杠：`\"`。
-search-missing-key = 找到一个冒号`:`，但前面缺少关键字。如果您想搜索冒号本身，请在前面加一个反斜杠：`\:`。
-search-unknown-escape = 转义序列 `{ $val }` 未定义。如果您想搜索反斜杠`\`本身，请在前面再加一个反斜杠：`\\`。
-search-invalid-argument = { $term } 收到了一个无效的参数 { $argument }。
+search-empty-group = 搜索条件中包含一组「(...)」，但其括号内并无可搜索的内容。若想搜索括号本身，请将其置于双引号中：「"( )"」。
+search-unopened-group = 搜索条件中包含一个右括号「)」，但在其前未找到与其对应的左括号「(」。若想搜索右括号本身，请将其置于双引号中或在其前加上反斜杠：「")"」或「\)」。
+search-unclosed-group = 搜索条件中包含一个左括号「(」，但在其后未找到与其对应的右括号「)」。若想搜索左括号本身，请将其置于双引号中或在其前加上反斜杠：「"("」或「\(」。
+search-empty-quote = 搜索条件中包含一对双引号「""」，但其引号内并无可没有搜索内容。若想搜索双引号本身，请在其前加上反斜杠：「\"\"」。
+search-unclosed-quote = 搜索条件中包含一个双引号「"」，但未找到第二个双引号来结束。若想搜索双引号本身，请在其前加上反斜杠：「\"」。
+search-missing-key = 搜索条件中包含一个冒号「:」，但其之前未找到关键字。若想搜索冒号本身，请在其前加一个反斜杠：「\:」。
+search-unknown-escape = 转义字符「{ $val }」未定义。若想搜索反斜杠本身「\」，请在其前再加一个反斜杠：「\\」。
+search-invalid-argument = { $term } 被赋予了无效的参数 { $argument }。
 search-invalid-flag-2 = `flag:`后必须跟上有效旗标序号：`1`（红色）、`2`（橙色）、`3`（绿色）、`4`（蓝色）、`5`（粉色）、`6`（青色）、`7`（紫色）或`0`（无旗标）。
 search-invalid-prop-operator = `prop:{ $val }` 后面必须是下列比较运算符之一：`=`、`!=`、`<`、`>`、`<=`或`>=`。
-search-invalid-other = 请检查是否有输入错误。
+search-invalid-other = 请检查输入是否有误。
 
 ## eg. expected a number in "due>5x", but found "5x"
 
