@@ -3,11 +3,11 @@
 
 ## Media synchronization
 
-sync-media-added-count = 增加：{ $up }↑{ $down }↓
-sync-media-removed-count = 删除： { $up }↑ { $down }↓
-sync-media-checked-count = 已检查： { $count }
-sync-media-starting = 开始同步媒体…
-sync-media-complete = 媒体同步结束。
+sync-media-added-count = 已新增：{ $up }↑{ $down }↓
+sync-media-removed-count = 已删除：{ $up }↑ { $down }↓
+sync-media-checked-count = 已检查：{ $count }
+sync-media-starting = 开始媒体同步…
+sync-media-complete = 媒体同步完成。
 sync-media-failed = 媒体同步失败。
 sync-media-aborting = 正在中止媒体同步…
 sync-media-aborted = 媒体同步已中止。
@@ -19,28 +19,28 @@ sync-media-log-title = 媒体同步日志
 
 ## Error messages / dialogs
 
-sync-conflict = 一次只能同步一个Anki终端。 请等待几分钟，然后重试。
-sync-server-error = AnkiWeb遇到问题，请稍等几分钟后再试一次。
+sync-conflict = 仅可同时同步一个Anki终端。请稍等几分钟后重试。
+sync-server-error = AnkiWeb遇到问题，请稍等几分钟后重试。
 sync-client-too-old = 您的Anki版本过低。请更新到最新版本以继续同步。
 sync-wrong-pass = 用户名或密码错误，请重试。
-sync-resync-required = 请重新同步。如果此信息持续出现，请反馈到支持网站上。
-sync-must-wait-for-end = 当前 Anki 正在同步，请待同步完成后重试。
-sync-confirm-empty-download = 本地集合没有任何卡片，您需要从 AnkiWeb 下载吗？
+sync-resync-required = 请重新同步。如果此信息持续出现，请在支持网站上反馈。
+sync-must-wait-for-end = Anki正在同步，请等待同步完成后重试。
+sync-confirm-empty-download = 本地集合中没有任何卡片，立即从AnkiWeb上下载吗？
 sync-conflict-explanation =
-    您的牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。
+    您的本地牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。
     
-    如果您选择下载，那么Anki会从Ankiweb下载集合，而您电脑上最后一次同步后的更改将会丢失。
+    如选择下载，将从Ankiweb下载集合并覆盖本地集合，您电脑上最后一次同步后的更改将会丢失。
     
-    如果您选择上传，那么Anki会上传集合至Ankiweb，而您Ankiweb或其他设备上最后一次同步后的更改将会丢失。
+    如选择上传，本地集合将会上传并覆盖Ankiweb集合，您Ankiweb或其他设备上最后一次同步后的更改将会丢失。
     
     当所有设备完成同步后，将来复习和新增的卡片将会被自动合并。
-sync-ankiweb-id-label = 账号
+sync-ankiweb-id-label = 账号：
 sync-password-label = 密码：
 sync-account-required =
-    <h1>需先注册</h1>
-    你需要一个免费帐号来同步你的集合. 请<a href="{ $link }">注册</a> 一个帐号,并在下方填写详细资料。
-sync-sanity-check-failed = 请使用“检查数据库”功能，然后再次同步。若问题依然存在，请到设置中选中全量同步。
-sync-clock-off = 无法同步——您的时钟没有调到正确的时间
+    <h1>请您登录</h1>
+    您需要一个免费帐号以同步您的集合，请<a href="{ $link }">注册</a> 帐号，并在下方登录。
+sync-sanity-check-failed = 请使用「检查数据库」功能，然后再次同步。若问题仍然存在，请在设置界面中选中强制全量同步。
+sync-clock-off = 无法同步 - 您的时钟没有调到正确的时间。
 sync-upload-too-large =
     您的集合文件过大，无法传送至 AnkiWeb。您可以通过移除不需要的牌组
     （可以先导出牌组）来减小文件大小，并使用检查数据库来减小文件大小。

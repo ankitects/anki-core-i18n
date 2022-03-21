@@ -231,6 +231,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = 毕业间隔至少应该和最后一个学习阶段一样长。
 deck-config-good-above-easy = 简单间隔至少应该和毕业间隔一样长。
 deck-config-relearning-steps-above-minimum-interval = 最小遗忘间隔至少应该和最后一个重新学习阶段一样长。
+deck-config-maximum-answer-secs-above-recommended = 当您保持每个问题简短时，Anki可以更有效率的进行排程。
 
 ## Selecting a deck
 
