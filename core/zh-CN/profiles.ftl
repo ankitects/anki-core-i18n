@@ -14,3 +14,6 @@ profiles-prefs-corrupt-title = 设置损坏
 profiles-prefs-file-is-corrupt = Anki 的 prefs21.db 文件已损坏并被重新建立。若您使用过多个配置文件，新增相同名称的配置文件即可恢复您的卡片。
 profiles-profile-does-not-exist = 请求的账户不存在
 profiles-creating-backup = 正在创建备份...
+profiles-backup-created = 备份已创建。
+profiles-backup-creation-failed = 备份创建失败: { $reason }
+profiles-backup-unchanged = 上次备份后无变更。
