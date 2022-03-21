@@ -18,7 +18,7 @@ browsing-card-list = 卡片列表
 browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到过滤牌组
 browsing-cards-deleted =
     { $count ->
-       *[other] 已删除 { $count } 张卡片。
+       *[other] { $count } 张卡片已删除。
     }
 browsing-change-deck = 更改所属牌组
 browsing-change-deck2 = 更改所属牌组…

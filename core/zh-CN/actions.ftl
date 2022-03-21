@@ -24,16 +24,16 @@ actions-rebuild = 重建
 actions-rename = 重命名
 actions-rename-deck = 重命名牌组
 actions-rename-tag = 重命名标签
-actions-rename-with-parents = 重命名（连带父级）
+actions-rename-with-parents = 重命名（包括父级）
 actions-remove-tag = 移除标签
 actions-replay-audio = 重新播放音频
 actions-reposition = 重排位置
 actions-save = 保存
 actions-search = 搜索
 actions-select = 选择
-actions-shortcut-key = 快捷键: { $val }
+actions-shortcut-key = 快捷键：{ $val }
 actions-suspend-card = 暂停卡片
-actions-set-due-date = 指定何时到期
+actions-set-due-date = 设置到期时间
 actions-answer-card = 回答卡片
 actions-unbury-unsuspend = 取消搁置/取消暂停
 actions-add-deck = 添加牌组
@@ -53,11 +53,11 @@ actions-previous-card-info = 上一张卡片信息
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = 您的系统当前不支持此操作。
+actions-currently-unsupported = 您的系统目前不支持此操作。
 
 ## Flags
 
-actions-flag-number = 旗标 { $number }
+actions-flag-number = 旗标{ $number }
 actions-flag-red = 红色
 actions-flag-orange = 橙色
 actions-flag-green = 绿色
