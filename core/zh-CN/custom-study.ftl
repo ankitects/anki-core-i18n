@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = 增加今天的新卡片上限
 custom-study-increase-todays-new-card-limit-by = 增加了今天的新卡片上限
 custom-study-increase-todays-review-card-limit = 增加今天的复习卡片上限
 custom-study-increase-todays-review-limit-by = 增加了今天的复习卡片上限
-custom-study-new-cards-in-deck-over-today = 集合中的新卡片超出今日上限：{ $val }
 custom-study-new-cards-only = 仅新卡片
 custom-study-no-cards-matched-the-criteria-you = 没有卡片满足你提供的标准.
 custom-study-ok = 确定
@@ -21,8 +20,14 @@ custom-study-review-ahead = 提前复习
 custom-study-review-ahead-by = 提前复习按
 custom-study-review-cards-forgotten-in-last = 复习最后忘记的卡片
 custom-study-review-forgotten-cards = 复习忘记的卡片
-custom-study-reviews-due-in-deck-over-today = 集合中到期的复习数量超出今日上限：{ $val }
 custom-study-select = 选择
 custom-study-select-tags-to-exclude = 选择排除的标签：
 custom-study-selective-study = 选择性学习
 custom-study-study-by-card-state-or-tag = 按照卡片状态或者标签学习
+custom-study-available-new-cards = 可用的新卡片： { $count }
+custom-study-available-review-cards = 可用的复习卡片：{ $count }
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-new-cards-in-deck-over-today = 集合中的新卡片超出今日上限：{ $val }
+custom-study-reviews-due-in-deck-over-today = 集合中到期的复习数量超出今日上限：{ $val }
