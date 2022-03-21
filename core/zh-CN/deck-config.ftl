@@ -63,13 +63,13 @@ deck-config-relearning-steps-tooltip =
     按钮后，将会在 10 分钟后重新展示。若没有提供间隔，卡片则将会
     直接使用遗忘间隔，而不会进入重新学习阶段。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    复习卡片被标记为“水蛭”之前，需要按下「忘记」的次数。
-    “水蛭”是耗费您大量时间的卡片，当卡片被标记为“水蛭”时，
+    复习卡片被标记为记忆难点之前，需要按下「忘记」的次数。
+    记忆难点是耗费您大量时间的卡片，当卡片被标记为记忆难点时，
     最好的方法是重写卡片、将其删除，或是编写一段缩写、口诀之类
     的助记符号来帮助你记住这种卡片。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    「仅打标签」：对笔记打上「水蛭」的标签，并弹出一个提示。
+    「仅打标签」：对笔记打上「记忆难点」的标签，并弹出一个提示。
     「暂停卡片」：对笔记打上标签，并隐藏卡片，直到卡片被手动取消暂停。
 
 ## Burying section
