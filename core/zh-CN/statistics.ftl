@@ -14,10 +14,10 @@ statistics-average-answer-time = { $average-seconds } 秒 ({ statistics-cards-pe
 ## "(studied 30 cards) in 3 minutes"
 
 statistics-in-time-span-seconds = { $amount }秒内
-statistics-in-time-span-minutes = { $amount }分钟后
-statistics-in-time-span-hours = { $amount }小时后
+statistics-in-time-span-minutes = { $amount }分内
+statistics-in-time-span-hours = { $amount }小时内
 statistics-in-time-span-days = { $amount }天内
-statistics-in-time-span-months = { $amount }月内
+statistics-in-time-span-months = { $amount }个月内
 statistics-in-time-span-years = { $amount }年内
 statistics-cards = { $cards }张卡片
 # a count of how many cards have been answered, eg "Total: 34 reviews"
@@ -95,7 +95,7 @@ statistics-days-ago-range = { $daysStart }－{ $daysEnd }天前
 statistics-running-total = 累计
 statistics-cards-due =
     { $cards ->
-       *[other] 张卡片到期
+       *[other] { $cards } 张卡片到期
     }
 statistics-backlog-checkbox = 超期
 statistics-intervals-title = 复习间隔

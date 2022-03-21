@@ -13,7 +13,7 @@ browsing-browser-options = 浏览器选项
 browsing-buried = 被搁置
 browsing-card = 卡片模板
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = 卡片
+browsing-card-initial = 卡
 browsing-card-list = 卡片列表
 browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到过滤牌组
 browsing-cards-deleted =
@@ -59,7 +59,7 @@ browsing-no-flag = 无旗标
 browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记模板
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = 笔记
+browsing-note-initial = 笔
 browsing-optional-filter = 可选过滤器：
 browsing-override-back-template = 忽略背面模版
 browsing-override-font = 覆盖字体：
@@ -108,11 +108,11 @@ browsing-note-count =
     }
 browsing-notes-updated =
     { $count ->
-       *[other] 已更新 { $count } 条笔记。
+       *[other] { $count } 条笔记已更新 。
     }
 browsing-cards-updated =
     { $count ->
-       *[other] 已更新 { $count } 张卡片。
+       *[other] { $count } 张卡片已更新。
     }
 browsing-window-title = 浏览（已选取 { $selected } 张卡片，共 { $total } 张）
 browsing-sidebar-expand = 展开
@@ -138,7 +138,7 @@ browsing-studied-today = 今天学习的
 browsing-added-today = 今天添加的
 browsing-again-today = 今天忘记的
 browsing-edited-today = 今天编辑的
-browsing-sidebar-first-review = 首次复习
+browsing-sidebar-first-review = 首次复习的
 browsing-sidebar-rescheduled = 已重新排期
 browsing-sidebar-due-today = 今天到期的
 browsing-sidebar-untagged = 无标签

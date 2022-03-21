@@ -73,3 +73,4 @@ importing-processed-media-file =
        *[other] 已处理{ $count }个媒体文件
     }
 importing-importing-collection = 导入集合中…
+importing-failed-to-import-media-file = 导入媒体文件失败： { $debugInfo }
