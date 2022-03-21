@@ -38,28 +38,28 @@ statistics-studied-today =
 statistics-today-title = 今天
 statistics-today-again-count = 重复计数:
 statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已过滤: { $filteredCount }
-statistics-today-no-cards = 今天无卡片被学习过
-statistics-today-no-mature-cards = 今天没有到期卡片被学习
-statistics-today-correct-mature = 熟练卡片的正确答案：{ $correct }/{ $total } ({ $percent }%)
-statistics-counts-total-cards = 所有卡片
+statistics-today-no-cards = 今天尚未学习任何卡片。
+statistics-today-no-mature-cards = 今天没有学习熟练卡片。
+statistics-today-correct-mature = 回答正确的熟练卡片比例：{ $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = 总计
 statistics-counts-new-cards = 未学习
 statistics-counts-young-cards = 欠熟练
 statistics-counts-mature-cards = 已熟练
 statistics-counts-suspended-cards = 已暂停
-statistics-counts-buried-cards = 搁置中
+statistics-counts-buried-cards = 已搁置
 statistics-counts-filtered-cards = 已筛选
 statistics-counts-learning-cards = 学习中
-statistics-counts-relearning-cards = 重新学习中
+statistics-counts-relearning-cards = 重学中
 statistics-counts-title = 卡片数量
-statistics-counts-separate-suspended-buried-cards = 分开统计搁置/暂停的卡片
-statistics-range-all-time = 牌组使用期
-statistics-range-1-year-history = 过去 12 个月
-statistics-range-all-history = 全部历史
+statistics-counts-separate-suspended-buried-cards = 分开统计暂停/搁置的卡片
+statistics-range-all-time = 全部时间
+statistics-range-1-year-history = 近一年
+statistics-range-all-history = 全部
 statistics-range-deck = 牌组
 statistics-range-collection = 集合
 statistics-range-search = 搜索
 statistics-card-ease-title = 卡片简易度
-statistics-card-ease-subtitle = 卡片的简易度越低，其出现的频率就越高。
+statistics-card-ease-subtitle = 卡片简易度越低，其出现频率越高。
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -67,8 +67,8 @@ statistics-card-ease-tooltip =
     }
 statistics-future-due-title = 预测
 statistics-future-due-subtitle = 将来到期的复习的数目
-statistics-added-title = 已添加
-statistics-added-subtitle = 您添加的卡片的数目。
+statistics-added-title = 新增
+statistics-added-subtitle = 新增的卡片数量。
 statistics-reviews-count-subtitle = 已经回答的问题的数量。
 statistics-reviews-time-subtitle = 答题用时
 statistics-answer-buttons-title = 回答按钮
@@ -132,7 +132,7 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
-statistics-average-for-days-studied = 近阶段学习平均数
+statistics-average-for-days-studied = 平均值（只计学习天数）
 statistics-total = 总计
 statistics-days-studied = 学习天数
 statistics-average-answer-time-label = 平均回答用时
@@ -141,7 +141,7 @@ statistics-average-interval = 平均间隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total }({ $percent }%)
-statistics-average-over-period = 近阶段平均数
+statistics-average-over-period = 平均值 (包含未学习天数)
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count }次复习/天
@@ -155,6 +155,6 @@ statistics-cards-per-day =
        *[other] { $count }张卡片/天
     }
 statistics-average-ease = 平均简易度
-statistics-save-pdf = 保存为 PDF
-statistics-saved = 已保存
-statistics-stats = 状态
+statistics-save-pdf = 保存PDF
+statistics-saved = 已保存。
+statistics-stats = 统计
