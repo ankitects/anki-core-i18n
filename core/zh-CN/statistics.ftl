@@ -40,7 +40,7 @@ statistics-today-again-count = 重复计数:
 statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已过滤: { $filteredCount }
 statistics-today-no-cards = 今天尚未学习任何卡片。
 statistics-today-no-mature-cards = 今天没有学习熟练卡片。
-statistics-today-correct-mature = 回答正确的熟练卡片比例：{ $correct }/{ $total } ({ $percent }%)
+statistics-today-correct-mature = 回答正确的熟练卡片：{ $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 总计
 statistics-counts-new-cards = 未学习
 statistics-counts-young-cards = 欠熟练
@@ -75,7 +75,7 @@ statistics-answer-buttons-title = 回答按钮
 # eg Button: 4
 statistics-answer-buttons-button-number = 按钮
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = 按下每个按钮的次数
+statistics-answer-buttons-button-pressed = 按键次数
 statistics-answer-buttons-subtitle = 按下每个按钮的次数.
 statistics-reviews-title = 复习次数
 statistics-reviews-time-checkbox = 用时
@@ -97,24 +97,24 @@ statistics-cards-due =
     { $cards ->
        *[other] { $cards } 张卡片到期
     }
-statistics-backlog-checkbox = 超期
+statistics-backlog-checkbox = 积压
 statistics-intervals-title = 复习间隔
 statistics-intervals-subtitle = 复习卡片再次出现前的间隔。
 statistics-intervals-day-range =
     { $cards ->
-       *[other] { $cards }张间隔为{ $daysStart }到{ $daysEnd }天的卡片
+       *[other] { $cards }张间隔为{ $daysStart }~{ $daysEnd }天的卡片
     }
 statistics-intervals-day-single =
     { $cards ->
        *[other] { $cards }张间隔为{ $day }天的卡片
     }
 # hour range, eg "From 14:00-15:00"
-statistics-hours-range = 从{ $hourStart }点到{ $hourEnd }点
+statistics-hours-range = { $hourStart }时~{ $hourEnd }时
 statistics-hours-correct = { $correct }/{ $total } 正确 ({ $percent }%)
-statistics-hours-title = 每小时的分析
-statistics-hours-subtitle = 当天每小时的复习成功率
+statistics-hours-title = 逐小时分析
+statistics-hours-subtitle = 当天逐小时的复习成功率。
 # shown when graph is empty
-statistics-no-data = 没有数据
+statistics-no-data = 无数据
 statistics-calendar-title = 日程表
 
 ## An amount of elapsed time, used in the graphs to show the amount of
@@ -132,10 +132,10 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
-statistics-average-for-days-studied = 平均值（只计学习天数）
+statistics-average-for-days-studied = 平均值（只计实际学习天数）
 statistics-total = 总计
 statistics-days-studied = 学习天数
-statistics-average-answer-time-label = 平均回答用时
+statistics-average-answer-time-label = 平均作答用时
 statistics-average = 平均
 statistics-average-interval = 平均间隔
 statistics-due-tomorrow = 明天到期

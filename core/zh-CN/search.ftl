@@ -5,8 +5,8 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = 无效的搜索：{ $reason }
-search-misplaced-and = 发现了一个 `and`，但并未用来连接两个搜索项。若您想搜索这个单词本身，请将其置于双引号中：`"and"`。
-search-misplaced-or = 发现了一个 `or`，但并未用来连接两个搜索项。若您想搜索这个单词本身，请将其置于双引号中：`"or"`。
+search-misplaced-and = 找到一个未用来连接搜索项的「and」。若想搜索「and」这个单词本身，请将其置于双引号中：「"and"」。
+search-misplaced-or = 找到一个未用来连接搜索项的「or」。若想搜索「or」这个单词本身，请将其置于双引号中：「"or"」。
 # Here, the ellipsis "..." may be localised.
 search-empty-group = 发现了一组 `(...)`，但括号内并无可检索的内容。若您想搜索括号本身，请将其置于双引号中：`"( )"`。
 search-unopened-group = 找到一个右括号`)`，但在前面没有找到与之对应的左括号`(`。若您想搜索右括号本身，请将其置于双引号中或在其前面加上反斜杠：`")"`或`\)`。
