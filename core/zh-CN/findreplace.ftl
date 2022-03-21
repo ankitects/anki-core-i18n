@@ -1,1 +1,1 @@
-findreplace-notes-updated = 更新了{$total}条笔记中的{$changed}条
+findreplace-notes-updated = 已更新{ $changed }条笔记，共{ $total }条。

@@ -1,7 +1,7 @@
-exporting-all-decks = 所有的牌组
-exporting-anki-20-deck = Anki 2.0 版牌组
+exporting-all-decks = 所有牌组
+exporting-anki-20-deck = Anki 2.0 牌组
 exporting-anki-collection-package = Anki集合文件
-exporting-anki-deck-package = Anki 牌组包
+exporting-anki-deck-package = Anki牌组包
 exporting-cards-in-plain-text = 纯文本格式的卡片
 exporting-collection = 集合
 exporting-collection-exported = 集合导出成功
