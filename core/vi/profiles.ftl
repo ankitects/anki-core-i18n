@@ -13,3 +13,4 @@ profiles-could-not-create-data-folder = Anki không thể tạo thư mục dữ 
 profiles-prefs-corrupt-title = Tùy chỉnh bị hỏng
 profiles-prefs-file-is-corrupt = Tệp prefs21.db của Anki đã bị hỏng và đã được tạo lại. Nếu bạn đang sử dụng nhiều cấu hình, vui lòng thêm lại chúng bằng các tên giống nhau để khôi phục thẻ của bạn.
 profiles-profile-does-not-exist = Hồ sơ được yêu cầu không tồn tại.
+profiles-creating-backup = Tạo bản sao lưu...

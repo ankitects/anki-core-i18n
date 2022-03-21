@@ -9,3 +9,4 @@ profiles-user-1 = Карыстальнік 1
 profiles-confirm-lang-choice = Вы ўпэўнены, што хочаце пераключыць адлюстраванне інтэрфейсу Anki на { $lang }?
 profiles-prefs-corrupt-title = Параметры пашкоджаны
 profiles-profile-does-not-exist = Запытаны профіль не існуе.
+profiles-creating-backup = Стварэнне рэзервовай копіі...

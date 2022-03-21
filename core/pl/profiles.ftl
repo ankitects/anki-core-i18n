@@ -13,3 +13,4 @@ profiles-could-not-create-data-folder = Anki nie mogło utworzyć folderu z dany
 profiles-prefs-corrupt-title = Ustawienia uszkodzone
 profiles-prefs-file-is-corrupt = Plik Anki prefs21.db był uszkodzony i został utworzony ponownie. Jeśli korzystałeś z wielu profilów dodaj je ponownie używając tych samych nazw, aby odzyskać karty.
 profiles-profile-does-not-exist = Żądany profil nie istnieje.
+profiles-creating-backup = Tworzenie kopii zapasowej...

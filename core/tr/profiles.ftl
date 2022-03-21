@@ -5,3 +5,4 @@ profiles-please-remove-the-folder-and = Lütfen { $val } klasörünü kaldır ve
 profiles-profiles = Profiller
 profiles-quit = Çık
 profiles-user-1 = Kullanıcı 1
+profiles-creating-backup = Yedek Oluşturuluyor...

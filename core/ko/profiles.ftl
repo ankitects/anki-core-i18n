@@ -8,3 +8,4 @@ profiles-profile-corrupt = 오류 있는 프로파일
 profiles-profiles = 프로필
 profiles-quit = 닫기
 profiles-user-1 = 사용자 1
+profiles-creating-backup = 백업하는 중...

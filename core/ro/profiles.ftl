@@ -13,3 +13,4 @@ profiles-could-not-create-data-folder = Anki nu și-a putut crea folderul de dat
 profiles-prefs-corrupt-title = Preferințe corupte
 profiles-prefs-file-is-corrupt = Fișierul prefs21.db al lui Anki a fost corupt și a fost recreat. Dacă utilizați mai multe profiluri, adăugați-le înapoi folosind aceleași nume pentru a vă recupera cardurile.
 profiles-profile-does-not-exist = Profilul solicitat nu există.
+profiles-creating-backup = Se crează copie de rezervă...

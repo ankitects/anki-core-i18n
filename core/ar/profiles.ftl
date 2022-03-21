@@ -13,3 +13,4 @@ profiles-could-not-create-data-folder = لم يتمكن أنكي من إنشاء
 profiles-prefs-corrupt-title = التفضيلات تالفة
 profiles-prefs-file-is-corrupt = ملف prefs21.db لأنكي تالف وتمت إعادة إنشائه. إذا كنت تستخدم عدة ملفات شخصية، أعد إضافتها باستخدام الأسماء نفسها لاستعادة بطاقاتك.
 profiles-profile-does-not-exist = لا يتوفر الملف الشخصي المطلوب.
+profiles-creating-backup = إنشاء نسخة احتياطية...

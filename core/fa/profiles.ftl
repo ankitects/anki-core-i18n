@@ -13,3 +13,4 @@ profiles-could-not-create-data-folder = آنکی قادر به ایجاد پوش
 profiles-prefs-corrupt-title = تنظیمات خراب
 profiles-prefs-file-is-corrupt = فایل prefs21.db خراب بود و از نو ایجاد شد. اگر از چند پروفایل استفاده می‌کردید، لطفاً آنها را با نام‌های قبلی دوباره اضافه کنید تا کارت‌های موجود در آن پروفایل‌ها بازیابی شوند.
 profiles-profile-does-not-exist = پروفایل درخواست شده وجود ندارد.
+profiles-creating-backup = در حال تولید پشتیبان...

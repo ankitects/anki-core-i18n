@@ -13,3 +13,4 @@ profiles-could-not-create-data-folder = 无法建立保存 Anki 数据的文件�
 profiles-prefs-corrupt-title = 设置损坏
 profiles-prefs-file-is-corrupt = Anki 的 prefs21.db 文件已损坏并被重新建立。若您使用过多个配置文件，新增相同名称的配置文件即可恢复您的卡片。
 profiles-profile-does-not-exist = 请求的账户不存在
+profiles-creating-backup = 正在创建备份...
