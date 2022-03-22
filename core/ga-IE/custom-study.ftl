@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Ardaigh uasmhéid cártaí nua an 
 custom-study-increase-todays-new-card-limit-by = Ardaigh uasmhéid cártaí nua an lae inniu faoi
 custom-study-increase-todays-review-card-limit = Ardaigh uasmhéid athbhreithniithe cártaí an lae inniu
 custom-study-increase-todays-review-limit-by = Ardaigh uasmhéid athbhreithnithe cártaí an lae inniu faoi
-custom-study-new-cards-in-deck-over-today = Cártaí nua sa phaca thar srian an lae inniu: { $val }
 custom-study-new-cards-only = Cártaí nua amháin
 custom-study-no-cards-matched-the-criteria-you = Níl aon cárta ann a thagann leis na sainithe a luaigh tú.
 custom-study-ok = OK
@@ -21,8 +20,12 @@ custom-study-review-ahead = Athbhreithnigh roimh am
 custom-study-review-ahead-by = Athbhreithnigh roimh am go ceann
 custom-study-review-cards-forgotten-in-last = Athbhreithnigh cártaí atá dearmadta le
 custom-study-review-forgotten-cards = Athbhreithnigh ar chártaí dearmadta
-custom-study-reviews-due-in-deck-over-today = Cártaí le staidéar sa phaca thar srian an lae inniú: { $val }
 custom-study-select = Roghnaigh
-custom-study-select-tags-to-exclude = Roghnaí clibeanna le fágáil as:
+custom-study-select-tags-to-exclude = Roghnaigh clibeanna le fágáil as:
 custom-study-selective-study = Staidéar Roghnaitheach
 custom-study-study-by-card-state-or-tag = Déan staidéar de réir staid chárta nó de réir clibe
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-new-cards-in-deck-over-today = Cártaí nua sa phaca thar srian an lae inniu: { $val }
+custom-study-reviews-due-in-deck-over-today = Cártaí le staidéar sa phaca thar srian an lae inniú: { $val }
