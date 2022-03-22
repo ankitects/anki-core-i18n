@@ -7,7 +7,7 @@ studying-bury = 搁置
 studying-bury-card = 搁置卡片
 studying-bury-note = 搁置笔记
 studying-card-suspended = 已暂停的卡片。
-studying-card-was-a-leech = 此卡片为难记卡片。
+studying-card-was-a-leech = 此卡片为记忆难点。
 studying-cards-buried =
     { $count ->
        *[other] 已搁置{ $count }张卡片。
