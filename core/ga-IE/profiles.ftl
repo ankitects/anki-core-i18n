@@ -14,3 +14,6 @@ profiles-prefs-corrupt-title = Roghanna Truaillithe
 profiles-prefs-file-is-corrupt = Bhí an comhad prefs21.db de chuid Anki truaillithe agus rinneadh é a athchruthú. Dá mba rud é go raibh tú ag obair le níos mó ná próifíl amháin, cuir leis arís iad agus an t-ainm céanna orthu agus a bhí chun do chuid cártaí a athshlánú.
 profiles-profile-does-not-exist = Níl a leithéid de phróifíl ann.
 profiles-creating-backup = Cóip chúltaca á déanamh...
+profiles-backup-created = Cóip chúltacha déanta.
+profiles-backup-creation-failed = Theip ar chúltacú: { $reason }
+profiles-backup-unchanged = Gan athrú ón gcúltacú deireanach.

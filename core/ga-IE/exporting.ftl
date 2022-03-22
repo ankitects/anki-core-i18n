@@ -5,6 +5,7 @@ exporting-anki-deck-package = Pacáiste Paca Anki
 exporting-cards-in-plain-text = Cártaí i ngnáth-théacs
 exporting-collection = cnuasach
 exporting-collection-exported = Cnuasach easpórtáilte.
+exporting-colpkg-too-new = Nuashonraítear Anki i treo an leagan is deireanaí agus impórtáltar an comhad .colpkg arís.
 exporting-couldnt-save-file = Níorbh fhéidir comhad a shábháil: { $val }
 exporting-export = Easpórtáil...
 exporting-export-format = <b>Formáid easpórtála</b>:

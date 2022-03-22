@@ -121,9 +121,11 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] Próiseáladh { $count } chomhad meáin amháin
-        [two] Próiseáladh { $count } chomhad mheáin
-        [few] Próiseáladh { $count } chomhad meáin
-        [many] Próiseáladh { $count } gcomhad meáin
-       *[other] Próiseáladh { $count } comhad meáin
+        [one] Iompórtáladh { $count } chomhad meáin amháin
+        [two] Iompórtáladh { $count } chomhad mheáin
+        [few] Iompórtáladh { $count } chomhad meáin
+        [many] Iompórtáladh { $count } gcomhad meáin
+       *[other] Iompórtáladh { $count } comhad meáin
     }
+importing-importing-collection = Cnuasach á iompórtáil...
+importing-failed-to-import-media-file = Theip ar iompórtáil chomhad meáin: { $debugInfo }

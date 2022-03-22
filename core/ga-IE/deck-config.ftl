@@ -275,6 +275,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Bíodh an t-eatramh comhlíonta ar a laghad ar comhfhad leis an eatramh deiridh foghlamtha.
 deck-config-good-above-easy = Bíodh an t-eatramh 'Éasca' ar a laghad ar comhfhad leis an eatramh comhlíonta.
 deck-config-relearning-steps-above-minimum-interval = Bíodh an t-eatramh is giorra is féidir i gcás an chliste ar a laghad ar comhfhad leis an eatramh deiridh athfhoghlamtha.
+deck-config-maximum-answer-secs-above-recommended = Dá ghiorra do chuid ceisteanna is amhlaidh is éifeachtaí an aiste athbhreithnithe a shocróidh Anki.
 
 ## Selecting a deck
 

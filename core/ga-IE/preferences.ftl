@@ -43,3 +43,10 @@ preferences-theme-light = Sorcha
 preferences-theme-dark = Dorcha
 preferences-v3-scheduler = Sceidealú LGN3
 preferences-ignore-accents-in-search = Ná bactar le haicinn sa chuardach (níos moille)
+preferences-backup-explanation =
+    Déanann Anki cóipeanna cúltaca de do chnuasach go rialta. Agus na cóipeanna sin
+    níos sine ná 2 lá, tosófar ag scriosadh cuid díobh chun spás a choinneáil saor.
+preferences-daily-backups = Cóipeanna cúltaca laethúla le coinneáil:
+preferences-weekly-backups = Cóipeanna cúltaca seachtanúla le coinneáil:
+preferences-monthly-backups = Cóipeanna cúltaca míosúla le coinneáil:
+preferences-minutes-between-backups = Achar (nóim.) idir cúltacuithe uathoibríocha:

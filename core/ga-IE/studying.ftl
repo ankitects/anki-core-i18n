@@ -18,6 +18,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Cuirfear gach cárta ar ais sa phaca céanna as ar tháinig sé tar éis duit athbhreithniú a dhéanamh air.
 studying-continue = Lean ar aghaidh
+studying-counts-differ = Tá líon áirithe cártaí gaolmhara á gcur i bhfolach agus mar sin ní hionann an líon cártaí le liosta an phaca. D'fhéadfadh cártaí eile bheith ina n-ionad.
 studying-delete-note = Scrios Nóta
 studying-deleting-this-deck-from-the-deck = Má scriostar an paca seo ón liosta pacaí, cuirfear gach cárta ann (faoi seach) ar ais sa phaca a bhí sé ann ón gcéad lá.
 studying-easy = Éasca
@@ -63,12 +64,4 @@ studying-minute =
         [few] { $count } nóiméad.
         [many] { $count } nóiméad.
        *[other] { $count } nóiméad.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] Nóta agus an { $count } chárta amháin a bhí aige scriosta.
-        [two] Nóta agus an { $count } chárta a bhí aige scriosta.
-        [few] Nóta agus na { $count } chárta a bhí aige scriosta.
-        [many] Nóta agus na { $count } gcárta a bhí aige scriosta.
-       *[other] Nóta agus na { $count } cárta a bhí aige scriosta.
     }

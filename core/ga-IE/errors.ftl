@@ -10,6 +10,8 @@ errors-100-tags-max =
     a roghnú má tá an mórchlib roghnaithe agat cheana féin.
 errors-multiple-notetypes-selected = Ná roghnaítear ach nótaí d'aon chineál nóta amháin.
 errors-please-check-database = Sula mbaine tú triail eile as, Seiceáil an Bunachar Sonraí.
+errors-please-check-media = Sula mbaine tú triail eile as, Seiceáil Meáin.
+errors-collection-too-new = Tá do leagan Anki róshean chun an cnuasach seo a oscailt.
 
 ## Card Rendering
 

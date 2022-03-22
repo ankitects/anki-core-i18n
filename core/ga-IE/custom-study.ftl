@@ -24,6 +24,8 @@ custom-study-select = Roghnaigh
 custom-study-select-tags-to-exclude = Roghnaigh clibeanna le fágáil as:
 custom-study-selective-study = Staidéar Roghnaitheach
 custom-study-study-by-card-state-or-tag = Déan staidéar de réir staid chárta nó de réir clibe
+custom-study-available-new-cards = Cártaí nua ar fáil: { $count }
+custom-study-available-review-cards = Cártaí athbhreithnithe ar fáil: { $count }
 
 ## DEPRECATED - you do not need to translate these.
 
