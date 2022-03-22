@@ -22,7 +22,7 @@ card-stats-review-log-type-review = 复习
 card-stats-review-log-type-relearn = 重新学习
 card-stats-review-log-type-filtered = 已筛选
 card-stats-review-log-type-manual = 手动更改
-card-stats-no-card = （没有卡片可展示。）
+card-stats-no-card = （没有卡片可供展示。）
 
 ## Window Titles
 
