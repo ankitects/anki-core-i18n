@@ -7,4 +7,5 @@ undo-redo = Rehacer
 undo-undo-action = Deshacer { $val }
 # eg "Answer Card Undone"
 undo-action-undone = { $action } deshecho
+undo-redo-action = Rehacer { $action }
 undo-action-redone = { $action } rehecho

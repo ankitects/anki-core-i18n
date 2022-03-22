@@ -87,6 +87,7 @@ statistics-counts-filtered-cards = Filtrado
 statistics-counts-learning-cards = Aprendiendo
 statistics-counts-relearning-cards = Reaprendiendo
 statistics-counts-title = Conteo de Tarjetas
+statistics-counts-separate-suspended-buried-cards = Separar tarjetas suspendidas/enterradas
 statistics-range-all-time = vida del mazo
 statistics-range-1-year-history = últimos 12 meses
 statistics-range-all-history = todo el historial
