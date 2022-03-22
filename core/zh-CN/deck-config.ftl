@@ -25,8 +25,8 @@ deck-config-limit-new-bound-by-reviews =
     例如，若复习上限设为200，但尚由190张卡片待复习，则仅可展示至多10张新卡片。
     而若已达到复习上限，则不再展示新卡片。
 deck-config-limit-interday-bound-by-reviews =
-    复习上限也会影响跨天学习的卡片。
-    当应用复习上限时，将按「跨天学习卡片->复习卡片->新卡片」顺序展示。
+    复习上限同样会作用于跨日学习的卡片。
+    当应用复习上限时，将按「跨日学习卡片->复习卡片->新卡片」顺序展示。
 
 ## New Cards section
 
@@ -70,7 +70,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 搁置
 deck-config-bury-new-siblings = 搁置相关新卡片到下一天
 deck-config-bury-review-siblings = 搁置相关复习卡片到下一天
-deck-config-bury-interday-learning-siblings = 搁置相关跨天学习卡片到下一天
+deck-config-bury-interday-learning-siblings = 搁置相关跨日学习卡片到下一天
 deck-config-bury-tooltip = 是否将同一笔记的其他卡片（如翻转卡片，相邻的空格）推迟至第二天。
 
 ## Ordering section
@@ -121,12 +121,15 @@ deck-config-sort-order-template-then-gather = 内容模板
 deck-config-sort-order-gather = 聚集顺序
 deck-config-new-review-priority = 新卡片/复习卡片优先顺序
 deck-config-new-review-priority-tooltip = 何时显示与复习卡相关的新卡。
-deck-config-interday-step-priority = 跨天学习/复习优先顺序
-deck-config-interday-step-priority-tooltip = 跨天的(重新)学习卡片的展示顺序。
+deck-config-interday-step-priority = 跨日学习/复习优先顺序
+deck-config-interday-step-priority-tooltip =
+    何时展示跨日的正在（重新）学习的卡片。
+    复习上限先应用于跨日学习的卡片，再应用于复习卡片。
+    尽管此选项可调整聚集卡片的展示顺序，但始终优先聚集跨日卡片。
 deck-config-review-mix-mix-with-reviews = 与复习卡片混合
-deck-config-review-mix-show-after-reviews = 在复习卡片之后展示
-deck-config-review-mix-show-before-reviews = 在复习卡片之前展示
-deck-config-review-sort-order = 复习卡片排序顺序
+deck-config-review-mix-show-after-reviews = 在复习卡片后展示
+deck-config-review-mix-show-before-reviews = 在复习卡片前展示
+deck-config-review-sort-order = 复习卡片排列顺序
 deck-config-review-sort-order-tooltip =
     默认的顺序将会将等待最久的卡片优先展示，若您积压了复习卡片时，
     等待最久的卡片将会第一个出现。若您积压了大量卡片，需要更多时间
@@ -134,53 +137,56 @@ deck-config-review-sort-order-tooltip =
 deck-config-sort-order-due-date-then-random = 先按照到期日期，然后随机
 deck-config-sort-order-due-date-then-deck = 先按照到期日期，然后按照牌组
 deck-config-sort-order-deck-then-due-date = 先按照牌组，然后按照到期日期
-deck-config-sort-order-ascending-intervals = 间隔由小到大
-deck-config-sort-order-descending-intervals = 间隔由大到小
-deck-config-sort-order-ascending-ease = 按简易度从小到大
-deck-config-sort-order-descending-ease = 按简易度从大到小
+deck-config-sort-order-ascending-intervals = 间隔升序
+deck-config-sort-order-descending-intervals = 间隔降序
+deck-config-sort-order-ascending-ease = 简易度升序
+deck-config-sort-order-descending-ease = 简易度降序
 deck-config-display-order-will-use-current-deck =
-    Anki 将使用您选择的牌组的显示顺序，
-    而不是它可能有的子牌组。
+    将按所选牌组设定的顺序学习，
+    其全部子牌组的设定已被忽略。
 
 ## Timer section
 
 deck-config-timer-title = 计时器
-deck-config-maximum-answer-secs = 最大回答时间(秒)
+deck-config-maximum-answer-secs = 最长作答时间(秒)
 deck-config-maximum-answer-secs-tooltip =
     为单次复习记录的最大秒数。若回答超出此时间（假设您离开了屏幕前），
     那么您花费的时间将会记为您所设置的上限。
-deck-config-show-answer-timer-tooltip = 在复习页面，展示一个计时器，记录你复习每张卡片所花费的秒数。
+deck-config-show-answer-timer-tooltip =
+    在复习界面上显示一个计时器，
+    记录复习每张卡片所用的秒数。
 
 ## Audio section
 
 deck-config-audio-title = 音频
 deck-config-disable-autoplay = 不自动播放音频
 deck-config-skip-question-when-replaying = 重播答案时跳过问题
-deck-config-always-include-question-audio-tooltip = 当查看卡片答案时执行了重播动作，要/不要包含问题的音频。
+deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播音频操作，是否需包含问题的音频。
 
 ## Advanced section
 
 deck-config-advanced-title = 高级设置
 deck-config-maximum-interval-tooltip =
-    复习卡片将等待的最大天数。当复习卡片的间隔达到这个
-    上限时，「困难」、「良好」和「简单」的间隔将会一致。
-    此选项设置得越短，您的工作量将会越多。
+    复习卡片间隔的最大天数。
+    当复习卡片的间隔达到此天数时，
+    「困难」、「良好」和「简单」的间隔将会一致。
+    此间隔越短，工作量将越多。
 deck-config-starting-ease-tooltip =
-    新卡片的初始简易度乘数。在默认设置下，在一张刚学完的卡片
-    按下「良好」按钮将使下次复习前的间隔为上次的 2.5 倍。
-deck-config-easy-bonus-tooltip = 一个附加的乘数，应用于复习卡片按下「简单」后的间隔。
+    新卡片的初始简易度系数。
+    默认设置下，在刚学完的卡片上选择「良好」后，下次复习的间隔将为上次的2.5倍。
+deck-config-easy-bonus-tooltip = 额外的乘数，用于设定复习卡片时选择「简单」后的间隔。
 deck-config-interval-modifier-tooltip =
-    此乘数应用于所有复习卡片，细微的调整能使 Anki 安排更为保守/激进。
-    请在更改此选项前参考使用手册。
-deck-config-hard-interval-tooltip = 用于回答「困难」后的复习间隔乘数。
-deck-config-new-interval-tooltip = 用于回答「忘记」后的复习间隔乘数。
-deck-config-minimum-interval-tooltip = 复习卡片回答「困难」后的最小间隔。
-deck-config-custom-scheduling = 自定义排期
-deck-config-custom-scheduling-tooltip = 影响整个集合。请谨慎使用！
+    此乘数应用于所有复习卡片，微调即可使Anki排程更加保守或激进。
+    更改此选项前请务必参考使用手册。
+deck-config-hard-interval-tooltip = 选择「困难」后的复习间隔乘数。
+deck-config-new-interval-tooltip = 选择「忘记」后的复习间隔乘数。
+deck-config-minimum-interval-tooltip = 复习卡片选择「困难」后的最小间隔。
+deck-config-custom-scheduling = 自定义排程
+deck-config-custom-scheduling-tooltip = 该设置将影响所有集合。请务必谨慎使用！
 
 ## Adding/renaming
 
-deck-config-add-group = 添加预设配置
+deck-config-add-group = 新增预设配置
 deck-config-name-prompt = 名称
 deck-config-rename-group = 重命名预设配置
 deck-config-clone-group = 复制预设配置
@@ -189,9 +195,9 @@ deck-config-clone-group = 复制预设配置
 
 deck-config-remove-group = 删除预设配置
 deck-config-will-require-full-sync =
-    此更改会使您下一次同步集合时，需要完整上传您的数据库。如果同步的话，
-    您在其他设备上尚未同步的复习卡片或其他更改的部分将会丢失。
-deck-config-confirm-remove-name = 确定要删除{ $name }吗？
+    此变更需单向强制同步。
+    如有在其他设备上的变更尚未同步至此设备，请同步后再进行变更。
+deck-config-confirm-remove-name = 确定删除{ $name }吗？
 
 ## Other Buttons
 
@@ -204,37 +210,37 @@ deck-config-revert-button-tooltip = 将此设置重置为默认值。
 
 deck-config-description-new-handling = Anki 2.1.41+ 处理方式
 deck-config-description-new-handling-hint =
-    输入将被当作 Markdown，而 HTML 输入将被清除。当生效时，
-    描述也会在恭喜界面显示。Markdown 在 Anki 2.1.40及以下版本
-    将会以纯文本的形式显示。
+    输入将被视为Markdown，而输入的HTML将被清除。
+    启用后，描述也将显示在恭喜界面。
+    在Anki 2.1.40及以下版本Markdown将以纯文本的形式显示。
 
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    一个父牌组的上限为{ $cards ->
+    单个父牌组的上限为{ $cards ->
        *[other] { $cards } 张卡片
-    }，将会覆盖此上限。
+    }，此上限将被重设。
 deck-config-reviews-too-low =
     若每天新增{ $cards ->
        *[other] { $cards } 张新卡片
-    }，您的复习上限至少应为 { $expected }。
-deck-config-learning-step-above-graduating-interval = 毕业间隔至少应该和最后一个学习阶段一样长。
-deck-config-good-above-easy = 简单间隔至少应该和毕业间隔一样长。
-deck-config-relearning-steps-above-minimum-interval = 最小遗忘间隔至少应该和最后一个重新学习阶段一样长。
-deck-config-maximum-answer-secs-above-recommended = 当您保持每个问题简短时，Anki可以更有效率的进行排程。
+    }，复习上限至少应设为 { $expected }。
+deck-config-learning-step-above-graduating-interval = 毕业间隔不应少于最后一个学习阶段的时长。
+deck-config-good-above-easy = 简单间隔不应少于毕业间隔。
+deck-config-relearning-steps-above-minimum-interval = 最小遗忘间隔不应少于最后一个重新学习阶段的时长。
+deck-config-maximum-answer-secs-above-recommended = 当保持问题均简短时，排程可更有效率。
 
 ## Selecting a deck
 
-deck-config-which-deck = 您想要哪个牌组？
+deck-config-which-deck = 请选择牌组？
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
 deck-config-new-card-sort-order-tooltip =
-    卡片被收集后的排序方法。在默认设置下，Anki 先按照卡片内容模板排序，
-    以避免同一笔记的多张卡片连续展示。
+    卡片聚集后的排序方法。
+    默认设置下，为避免同一笔记的多张卡片连续展示，将先按内容模板排序。
 deck-config-new-gather-priority-tooltip =
-    `牌组`：按每个子牌组的顺序收集卡片，且当选取的牌组超出上限时停止。
-    此选项较快，且可使位置靠前的子牌组的优先度更高。
+    「牌组」：按顺序聚集每个子牌组的卡片，当选取的牌组超出上限时停止。
+    较快，并可使顶部牌组优先处理。
     
-    `位置`：从排序前的所有牌组收集卡片。这会确保即便父牌组的上限不够高，
-    无法展示所有牌组的卡片，卡片也能以严格位置（到期 #）最先展示。
+    「位置」：按牌组排序前从中聚集卡片。
+    可使较旧的卡片在父牌组上限较低无法从聚集每个子牌组中的卡片时，也能按位置顺序(due #) 优先显示。
