@@ -5,8 +5,8 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks = 应用于{ $decks }个牌组
-deck-config-default-name = 系统预置
+deck-config-used-by-decks = 已有{ $decks }个牌组使用
+deck-config-default-name = 系统默认
 deck-config-title = 牌组选项
 
 ## Daily limits section
@@ -37,14 +37,14 @@ deck-config-learning-steps-tooltip =
     间隔之间请用空格分隔。
     第一个间隔为学习新卡时，选择「忘记」后的间隔时间(默认1分钟)。
     第二个间隔为学习新卡时，选择「良好」后进入下一阶段的间隔时间(默认10 分钟)。
-    所有阶段都通过后，卡片将转为复习卡片择日出现。{ -deck-config-delay-hint }
+    所有阶段都通过后，卡片将转为复习卡片择日展示。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 在最后一个学习阶段选择「良好」后，卡片再次出现的间隔天数。
 deck-config-easy-interval-tooltip = 当选择「简单」直接跳过学习后，卡片再次出现的间隔天数。
 deck-config-new-insertion-order = 插入位置
 deck-config-new-insertion-order-tooltip =
-    控制添加新卡片时所指定的位置（到期 #）。
-    学习时将先展示期数字较小的卡片。
-    更改此选项将自动更新已存在的新卡片位置。
+    指定添加的新卡片的位置（到期 #）。
+    学习时将先展示到期数字较小的卡片。
+    更改此选项将自动更新现存新卡片位置。
 deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
 deck-config-new-insertion-order-random = 随机插入
 deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建议设为顺序插入，并以调整新卡片的聚集顺序代之。
@@ -53,7 +53,7 @@ deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建�
 
 deck-config-relearning-steps = 重新学习阶段
 deck-config-relearning-steps-tooltip =
-    多段间隔请用空格分隔。
+    多个间隔间请用空格分隔。
     默认设置下，复习卡片时选择「忘记」，卡片将10分钟后重新展示。
     若未设置间隔，卡片将调整间隔，而不进入重新学习阶段。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
@@ -68,9 +68,9 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 搁置
-deck-config-bury-new-siblings = 搁置相关新卡片到下一天
-deck-config-bury-review-siblings = 搁置相关复习卡片到下一天
-deck-config-bury-interday-learning-siblings = 搁置相关跨日学习卡片到下一天
+deck-config-bury-new-siblings = 搁置关联新卡片到下一天
+deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
+deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
 deck-config-bury-tooltip = 是否将同一笔记的其他卡片（如翻转卡片，相邻的空格）推迟至第二天。
 
 ## Ordering section
@@ -78,24 +78,24 @@ deck-config-bury-tooltip = 是否将同一笔记的其他卡片（如翻转卡�
 deck-config-ordering-title = 展示顺序
 deck-config-new-gather-priority = 新卡片聚集顺序
 deck-config-new-gather-priority-tooltip-2 =
-    「牌组」：从顶部开始，按顺序从每个牌组的顶部开始聚集卡片。
+    「按牌组排序」：从顶部开始，按顺序从每个牌组的顶部开始聚集卡片。
     每个牌组中的卡片按升序聚集。如达到所选牌组的单日上限，则可能没有检查所有的牌组。
     对于大型牌组，此方式是最快的，并可优先处理处于顶部的子牌组。
     
-    「位置升序」：按升序位置(due #)聚集卡片，旧卡片优先。
+    「按位置升序排序」：按升序位置(due #)聚集卡片，旧卡片优先。
     
-    「位置降序」：按降序位置(due #)聚集卡片，新卡片优先。
+    「按位置降序排序」：按降序位置(due #)聚集卡片，新卡片优先。
     
-    「随机笔记」：聚集随机选取的笔记中的卡片。
+    「随机排列笔记」：先随机排列选取的笔记，再从中聚集卡片。
     当搁置关联卡片功能被禁用时，可使一个笔记的所有卡片在一次练习中展示。
     （例如：使「正面->背面」和「背面->正面」在一次练习展示）
     
-    「随机卡片」：完全随机地聚集卡片。
-deck-config-new-gather-priority-deck = 牌组
-deck-config-new-gather-priority-position-lowest-first = 位置升序
-deck-config-new-gather-priority-position-highest-first = 位置降序
-deck-config-new-gather-priority-random-notes = 随机笔记
-deck-config-new-gather-priority-random-cards = 随机卡片
+    「随机排列卡片」：完全随机地聚集卡片。
+deck-config-new-gather-priority-deck = 按牌组排序
+deck-config-new-gather-priority-position-lowest-first = 按位置升序排序
+deck-config-new-gather-priority-position-highest-first = 按位置降序排序
+deck-config-new-gather-priority-random-notes = 随机排列笔记
+deck-config-new-gather-priority-random-cards = 随机排列卡片
 deck-config-new-card-sort-order = 新卡片排列顺序
 deck-config-new-card-sort-order-tooltip-2 =
     「内容模板」：按照内容模板的顺序显示卡片。
@@ -110,23 +110,23 @@ deck-config-new-card-sort-order-tooltip-2 =
     「随机笔记，后内容模板」：随机抽取笔记，然后按顺序展示其所有关联卡片。
     
     「随机」：完全打乱收集的所有卡片。
-deck-config-sort-order-card-template-then-lowest-position = 内容模板，后位置升序
-deck-config-sort-order-card-template-then-highest-position = 片内容模板，后位置降序
-deck-config-sort-order-card-template-then-random = 内容模板，后随机
-deck-config-sort-order-random-note-then-template = 随机笔记，后内容模板
-deck-config-sort-order-lowest-position = 位置升序
-deck-config-sort-order-highest-position = 位置降序
-deck-config-sort-order-random = 随机
-deck-config-sort-order-template-then-gather = 内容模板
-deck-config-sort-order-gather = 聚集顺序
-deck-config-new-review-priority = 新卡片/复习卡片优先顺序
-deck-config-new-review-priority-tooltip = 何时显示与复习卡相关的新卡。
-deck-config-interday-step-priority = 跨日学习/复习优先顺序
+deck-config-sort-order-card-template-then-lowest-position = 先按内容模板排序，再按位置升序排序
+deck-config-sort-order-card-template-then-highest-position = 先按内容模板排序，再按位置降序排序
+deck-config-sort-order-card-template-then-random = 先按内容模板排序，再按随机排序
+deck-config-sort-order-random-note-then-template = 先随机排序笔记，再按内容模板排序
+deck-config-sort-order-lowest-position = 按位置升序排序
+deck-config-sort-order-highest-position = 按位置降序排序
+deck-config-sort-order-random = 随机排序
+deck-config-sort-order-template-then-gather = 按内容模板排序
+deck-config-sort-order-gather = 按聚集顺序排序
+deck-config-new-review-priority = 新卡片展示顺序
+deck-config-new-review-priority-tooltip = 何时显示与复习卡片关联的新卡。
+deck-config-interday-step-priority = 跨日卡片展示顺序
 deck-config-interday-step-priority-tooltip =
     何时展示跨日的正在（重新）学习的卡片。
     复习上限先应用于跨日学习的卡片，再应用于复习卡片。
     尽管此选项可调整聚集卡片的展示顺序，但始终优先聚集跨日卡片。
-deck-config-review-mix-mix-with-reviews = 与复习卡片混合
+deck-config-review-mix-mix-with-reviews = 与复习卡片混合展示
 deck-config-review-mix-show-after-reviews = 在复习卡片后展示
 deck-config-review-mix-show-before-reviews = 在复习卡片前展示
 deck-config-review-sort-order = 复习卡片排列顺序
@@ -134,13 +134,13 @@ deck-config-review-sort-order-tooltip =
     默认的顺序将会将等待最久的卡片优先展示，若您积压了复习卡片时，
     等待最久的卡片将会第一个出现。若您积压了大量卡片，需要更多时间
     来清理，您可能需要换一种更合适的排序顺序。
-deck-config-sort-order-due-date-then-random = 先按照到期日期，然后随机
-deck-config-sort-order-due-date-then-deck = 先按照到期日期，然后按照牌组
-deck-config-sort-order-deck-then-due-date = 先按照牌组，然后按照到期日期
-deck-config-sort-order-ascending-intervals = 间隔升序
-deck-config-sort-order-descending-intervals = 间隔降序
-deck-config-sort-order-ascending-ease = 简易度升序
-deck-config-sort-order-descending-ease = 简易度降序
+deck-config-sort-order-due-date-then-random = 先按到期日期排序，再随机排序
+deck-config-sort-order-due-date-then-deck = 先按到期日期排序，再按牌组排序
+deck-config-sort-order-deck-then-due-date = 先按牌组排序，再按到期日期排序
+deck-config-sort-order-ascending-intervals = 按间隔升序排序
+deck-config-sort-order-descending-intervals = 按间隔降序排序
+deck-config-sort-order-ascending-ease = 按简易度升序排序
+deck-config-sort-order-descending-ease = 按简易度降序排序
 deck-config-display-order-will-use-current-deck =
     将按所选牌组设定的顺序学习，
     其全部子牌组的设定已被忽略。
@@ -212,7 +212,7 @@ deck-config-description-new-handling = Anki 2.1.41+ 处理方式
 deck-config-description-new-handling-hint =
     输入将被视为Markdown，而输入的HTML将被清除。
     启用后，描述也将显示在恭喜界面。
-    在Anki 2.1.40及以下版本Markdown将以纯文本的形式显示。
+    在Anki 2.1.40及以下版本Markdown将以纯文本的形式展示。
 
 ## Warnings shown to the user
 
@@ -243,4 +243,4 @@ deck-config-new-gather-priority-tooltip =
     较快，并可使顶部牌组优先处理。
     
     「位置」：按牌组排序前从中聚集卡片。
-    可使较旧的卡片在父牌组上限较低无法从聚集每个子牌组中的卡片时，也能按位置顺序(due #) 优先显示。
+    可使较旧的卡片在父牌组上限较低无法从聚集每个子牌组中的卡片时，也能按位置顺序(due #) 优先展示。
