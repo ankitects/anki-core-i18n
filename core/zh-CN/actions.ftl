@@ -53,7 +53,7 @@ actions-previous-card-info = 上一张卡片信息
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = 您的系统目前不支持此操作。
+actions-currently-unsupported = 当前系统不支持此操作。
 
 ## Flags
 
@@ -65,4 +65,4 @@ actions-flag-blue = 蓝色
 actions-flag-pink = 粉色
 actions-flag-turquoise = 青色
 actions-flag-purple = 紫色
-actions-set-flag = 设定旗标
+actions-set-flag = 设置旗标
