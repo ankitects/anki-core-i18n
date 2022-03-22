@@ -39,9 +39,20 @@ deck-config-limit-interday-bound-by-reviews =
 ## New Cards section
 
 deck-config-learning-steps = Pasos en la etapa de aprendizaje
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Los retrasos suelen ser minutos (por ejemplo, `1m`) o días (por ejemplo, `2d`), pero también se admiten horas (por ejemplo, `1h`) y segundos (por ejemplo, `30s`).
+deck-config-learning-steps-tooltip =
+    Uno o más intervalos, separados por espacios. El primer intervalo, que por 
+    defecto es de 1 minuto, será usado cuando usted presione el botón `Otra vez` 
+    en una nueva tarjeta. El botón `Bien` avanzará al siguiente paso, que es de 
+    10 minutos por defecto. Una vez superados todos los pasos, la tarjeta se 
+    convertirá en una tarjeta de revisión, y aparecerá en un día diferente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     El número de días a esperar antes de volver a mostrar una tarjeta, después que el botón 
     'Bien' se presiona en el último paso de la etapa de aprendizaje.
+deck-config-easy-interval-tooltip =
+    El número de días a esperar antes de volver a mostrar una tarjeta, después de presionar el botón `Fácil`
+    para inmediatamente remover una tarjeta de la etapa de aprendizaje.
 deck-config-new-insertion-order = Orden de inserción
 deck-config-new-insertion-order-sequential = Secuencial (las tarjetas más antiguas primero)
 deck-config-new-insertion-order-random = Aleatorio
