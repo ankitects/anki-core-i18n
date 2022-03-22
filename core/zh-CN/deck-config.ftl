@@ -14,62 +14,56 @@ deck-config-title = 牌组选项
 deck-config-daily-limits = 每日上限
 deck-config-new-limit-tooltip =
     当有新卡片可供学习时，单日可学习新卡片的最大数量。
-    因学习新卡片会增加短期复习量，应设为单日复习上限的10倍以下。
+    因学习新卡片会增加短期复习量，单日新卡学习上限应设为单日复习上限的10倍以下。
 deck-config-review-limit-tooltip = 当有复习卡片可供复习时，单日可复习卡片的最大数量。
 deck-config-limit-deck-v3 =
-    学习含子牌组的牌组时，从中取出卡片的最大数量取决于各个子牌组所分别设置的上限。
-    而出现的总卡片数取决于选中牌组的上限。
+    学习含子牌组的父牌组时，
+    从各个子牌组中抽取的卡片上限为各个子牌组自身所设置的上限。
+    而可抽取的卡片总数为父牌组自身所设置的上限。
 deck-config-limit-new-bound-by-reviews =
-    复习上限会影响新卡片上限。例如，若您的复习上限设为 200，
-    且您有 190 张卡片待复习，则最多只有 10 张新卡片会展示。
-    若您已达到复习上限，则不会再展示新卡片。
+    复习上限会影响新卡片上限。
+    例如，若复习上限设为200，但尚由190张卡片待复习，则仅可展示至多10张新卡片。
+    而若已达到复习上限，则不再展示新卡片。
 deck-config-limit-interday-bound-by-reviews =
-    复习上限也会影响跨天学习的卡片。当应用限制时，跨天学习的卡片会优先被选取，
-    然后是复习卡片，最后是新卡片。
+    复习上限也会影响跨天学习的卡片。
+    当应用复习上限时，将按「跨天学习卡片->复习卡片->新卡片」顺序展示。
 
 ## New Cards section
 
 deck-config-learning-steps = 学习阶段
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 间隔时间可为分钟（如「5m」）或天（如「2d」），且小时（如「1h」）和秒（如「30s」）也支持。
+-deck-config-delay-hint = 间隔时间通常应设为分钟(如5m)或天(如2d)，但亦可设为小时(如1h)或秒(如30s）。
 deck-config-learning-steps-tooltip =
-    一或多段间隔，用空格分隔。第一段间隔为您学习新卡片时，
-    按下「忘记」按钮后的间隔时间，默认值为 1 分钟。按下「良好」按钮
-    将会前进到下一个阶段，默认值为 10 分钟。一旦通过了所有阶段，
-    卡片将会成为复习卡片，并将会择日出现。{ -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip =
-    当处于最后一个学习阶段时，按下「良好」按钮后，
-    再次展示卡片前需要等待的天数。
-deck-config-easy-interval-tooltip =
-    当按下「简单」按钮，直接跳过学习阶段后
-    再次展示卡片前需要等待的天数。
-deck-config-new-insertion-order = 学习顺序
+    间隔之间请用空格分隔。
+    第一个间隔为学习新卡时，选择「忘记」后的间隔时间(默认1分钟)。
+    第二个间隔为学习新卡时，选择「良好」后进入下一阶段的间隔时间(默认10 分钟)。
+    所有阶段都通过后，卡片将转为复习卡片择日出现。{ -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = 在最后一个学习阶段选择「良好」后，卡片再次出现的间隔天数。
+deck-config-easy-interval-tooltip = 当选择「简单」直接跳过学习后，卡片再次出现的间隔天数。
+deck-config-new-insertion-order = 插入位置
 deck-config-new-insertion-order-tooltip =
-    控制新卡片在被添加时被指派的位置（到期 #）。
-    卡片到期数字越小，学习时展示的位置就越靠前。
-    改变此选项将自动更新已存在的新卡片位置。
-deck-config-new-insertion-order-sequential = 顺序（最老的卡片在前）
-deck-config-new-insertion-order-random = 随机
-deck-config-new-insertion-order-random-with-v3 =
-    在 V3 调度算法中，最好将其设置为顺序，并
-    调整新卡片收集顺序。
+    控制添加新卡片时所指派的新卡片位置（到期 #）。
+    学习时将先展示期数字较小的卡片。
+    更改此选项将自动更新已存在的新卡片位置。
+deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
+deck-config-new-insertion-order-random = 随机插入
+deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建议设为顺序插入，并以调整新卡片收集顺序代之。
 
 ## Lapses section
 
 deck-config-relearning-steps = 重新学习阶段
 deck-config-relearning-steps-tooltip =
-    零或多段间隔，用空格分隔。在默认设置下，复习卡片按下「忘记」
-    按钮后，将会在 10 分钟后重新展示。若没有提供间隔，卡片则将会
-    直接使用遗忘间隔，而不会进入重新学习阶段。{ -deck-config-delay-hint }
+    多段间隔请用空格分隔。
+    默认设置下，复习卡片时选择「忘记」，卡片将10分钟后重新展示。
+    若未设置间隔，卡片将调整间隔，而不进入重新学习阶段。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    复习卡片被标记为记忆难点之前，需要按下「忘记」的次数。
-    记忆难点是耗费您大量时间的卡片，当卡片被标记为记忆难点时，
-    最好的方法是重写卡片、将其删除，或是编写一段缩写、口诀之类
-    的助记符号来帮助你记住这种卡片。
+    复习卡片被标记为记忆难点之前，需要选择「忘记」的次数。
+    记忆难点是耗费大量时间的卡片，当卡片被标记为记忆难点时，
+    最好的方法将卡片重写、删除或利用缩写、口诀等助记方法辅助记忆。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    「仅打标签」：对笔记打上「记忆难点」的标签，并弹出一个提示。
-    「暂停卡片」：对笔记打上标签，并隐藏卡片，直到卡片被手动取消暂停。
+    「仅打标签」：将笔记打上「记忆难点」的标签，并弹出提示。
+    「暂停卡片」：将笔记打上标签，并隐藏卡片，直至手动取消暂停。
 
 ## Burying section
 
