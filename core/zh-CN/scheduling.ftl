@@ -72,26 +72,26 @@ scheduling-bury-related-new-cards-until-the = 搁置相关新卡片到隔日
 scheduling-bury-related-reviews-until-the-next = 搁置相关复习到隔日
 scheduling-days = 天
 scheduling-description = 描述
-scheduling-easy-bonus = 简单奖励
-scheduling-easy-interval = 简单间隔
+scheduling-easy-bonus = 「简单」卡片复习间隔乘数
+scheduling-easy-interval = 「简单」卡片再现间隔
 scheduling-end = （结束）
 scheduling-general = 总体
-scheduling-graduating-interval = 毕业间隔
-scheduling-hard-interval = 困难乘数
+scheduling-graduating-interval = 毕业卡片再现间隔
+scheduling-hard-interval = 「困难」卡片复习间隔乘数
 scheduling-ignore-answer-times-longer-than = 忽略回答时间上限：超过
-scheduling-interval-modifier = 间隔乘数
+scheduling-interval-modifier = 全局间隔乘数
 scheduling-lapses = 遗忘
-scheduling-lapses2 = 忘记次数
+scheduling-lapses2 = 遗忘次数
 scheduling-learning = 学习中
-scheduling-leech-action = 难点处置
-scheduling-leech-threshold = 难点阈值
+scheduling-leech-action = 难记卡片处理
+scheduling-leech-threshold = 难记卡片阈值
 scheduling-maximum-interval = 最大间隔
 scheduling-maximum-reviewsday = 每日复习卡片上限（张/天）
 scheduling-minimum-interval = 最小间隔
 scheduling-mix-new-cards-and-reviews = 混合新卡片和复习卡
 scheduling-new-cards = 新卡片
 scheduling-new-cardsday = 每日学习新卡片上限（张/天）
-scheduling-new-interval = 遗忘乘数
+scheduling-new-interval = 「重来」卡片复习间隔乘数
 scheduling-new-options-group-name = 新设置组名称：
 scheduling-options-group = 设置组：
 scheduling-order = 顺序
@@ -132,5 +132,5 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-       *[other] 已忘记 { $cards } 张卡片。
+       *[other] 已重置 { $cards } 张卡片。
     }
