@@ -26,6 +26,15 @@ deck-config-review-limit-tooltip =
 deck-config-limit-deck-v3 =
     Al estudiar un mazo que tiene submazos en su interior, los límites establecidos en cada submazo controlan el número máximo de tarjetas que serán obtenidas de ese mazo en particular.
     Los límites establecidos en el mazo principal controlan el total de cartas que se mostrarán.
+deck-config-limit-new-bound-by-reviews =
+    El límite de revisión afecta el límite de nuevas tarjetas. Por ejemplo, 
+    si su límite de revisiones está definido en 200 y tienes 190 revisiones esperando, 
+    un máximo de 10 tarjetas nuevas serán introducidas. Si su límite de revisiones 
+    fue alcanzado, no se mostrarán nuevas tarjetas.
+deck-config-limit-interday-bound-by-reviews =
+    El límite de revisión también afecta a las tarjetas de aprendizaje entre días. 
+    Al aplicar el límite, primero se obtienen las tarjetas de aprendizaje entre días, 
+    luego las revisiones y finalmente las tarjetas nuevas.
 
 ## New Cards section
 
