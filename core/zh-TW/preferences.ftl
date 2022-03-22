@@ -43,3 +43,5 @@ preferences-theme-light = 淺色
 preferences-theme-dark = 深色
 preferences-v3-scheduler = V3 排程器
 preferences-ignore-accents-in-search = 搜尋時忽略字母的變音符號 (速度較慢)
+preferences-backup-explanation = Anki 會定期備份你的集合。Anki 會不定時刪除 2 天以前的備份以節省硬碟空間。
+preferences-minutes-between-backups = 自動備份間隔 (分鐘):

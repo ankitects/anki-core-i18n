@@ -5,6 +5,7 @@ exporting-anki-deck-package = Anki 牌組包
 exporting-cards-in-plain-text = 純文字的卡片
 exporting-collection = 集合
 exporting-collection-exported = 已匯出集合。
+exporting-colpkg-too-new = 請更新 Anki 到最新版本後再嘗試匯入 .colpkg 檔。
 exporting-couldnt-save-file = 無法存檔：{ $val }
 exporting-export = 匯出...
 exporting-export-format = <b>匯出格式</b>：
