@@ -1,14 +1,14 @@
 database-check-corrupt = 集合文件已损坏。请从自动备份中恢复。
 database-check-rebuilt = 数据库已优化重建。
 database-check-card-properties = 已修复{ $count }条无效的卡片属性。
-database-check-missing-templates = 已删除{ $count }张缺失模板的卡片。
+database-check-missing-templates = 已删除{ $count }张缺失内容模板的卡片。
 database-check-field-count =
     { $count ->
        *[other] 已修复{ $count }条字段数量有误的笔记。
     }
 database-check-new-card-high-due = 已找到{ $count }张到期数字大于一百万的新卡片，建议在浏览界面重排其位置。
 database-check-card-missing-note = 已删除{ $count }张缺失笔记的卡片。
-database-check-duplicate-card-ords = 已删除{ $count }张模板重复的卡片。
+database-check-duplicate-card-ords = 已删除{ $count }张内容模板重复的卡片。
 database-check-missing-decks = 已修复{ $count }个缺失的牌组。
 database-check-revlog-properties = 已修复{ $count }张属性无效的复习卡片。
 database-check-notes-with-invalid-utf8 =

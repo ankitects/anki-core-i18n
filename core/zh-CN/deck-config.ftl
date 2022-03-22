@@ -13,13 +13,12 @@ deck-config-title = 牌组选项
 
 deck-config-daily-limits = 每日上限
 deck-config-new-limit-tooltip =
-    当有新卡片可供学习时，一天中引入新卡片的最大数量。
-    引入的新学习材料会增加您短期内的复习量，因此该设置
-    通常应比您的复习上限小至少 10 倍。
-deck-config-review-limit-tooltip = 当有复习卡片待复习时，一天内展示复习卡片的最大数量。
+    当有新卡片可供学习时，单日可学习新卡片的最大数量。
+    因学习新卡片会增加短期复习量，应设为单日复习上限的10倍以下。
+deck-config-review-limit-tooltip = 当有复习卡片可供复习时，单日可复习卡片的最大数量。
 deck-config-limit-deck-v3 =
-    学习牌组时，若其有子牌组，则对子牌组分別设置的上限决定了从特定牌组中
-    取出的最大卡片数量。而选中的牌组设置的上限决定了卡片将会展示的总量。
+    学习含子牌组的牌组时，从中取出卡片的最大数量取决于各个子牌组所分别设置的上限。
+    而出现的总卡片数取决于选中牌组的上限。
 deck-config-limit-new-bound-by-reviews =
     复习上限会影响新卡片上限。例如，若您的复习上限设为 200，
     且您有 190 张卡片待复习，则最多只有 10 张新卡片会展示。
@@ -78,9 +77,7 @@ deck-config-bury-title = 搁置
 deck-config-bury-new-siblings = 搁置相关新卡片到下一天
 deck-config-bury-review-siblings = 搁置相关复习卡片到下一天
 deck-config-bury-interday-learning-siblings = 搁置相关跨天学习卡片到下一天
-deck-config-bury-tooltip =
-    要/不要将同一笔记的其他卡片（如翻转卡片，
-    相邻的挖空）推迟至第二天。
+deck-config-bury-tooltip = 是否将同一笔记的其他卡片（如翻转卡片，相邻的空格）推迟至第二天。
 
 ## Ordering section
 
@@ -108,26 +105,26 @@ deck-config-new-gather-priority-random-notes = 随机笔记
 deck-config-new-gather-priority-random-cards = 随机卡片
 deck-config-new-card-sort-order = 新卡片排序顺序
 deck-config-new-card-sort-order-tooltip-2 =
-    「卡片模板」：按照卡片模板的顺序显示卡片。如果搁置关联卡片功能被禁用，
-    这将确保所有「正面->背面」的卡片在任何「背面->正面」的卡片前被看到。
+    「按内容模板顺序」：按照内容模板的顺序显示卡片。
+    如搁置关联卡片功能已禁用，可确保所有「正面->背面」的卡片先于「背面->正面」的卡片出现。
     
-    「收集顺序」：准确显示卡片的收集顺序。如果搁置关联卡片功能被禁用，那么
-    这通常会导致一条笔记上的所有卡片被一个接一个地看到。
+    「按收集顺序」：按照收集卡片的顺序显示卡片。
+    如搁置关联卡片功能已禁用，可确保一条笔记上的每个卡片依次出现。
     
-    「卡片模板，然后随机」：就像「卡片模板」一样，但对每个模板的卡片洗牌。
-    当与按位置升序排序结合时，这可以用来以随机顺序显示最旧的卡片。
+    「先按内容模板顺序，然后按随机顺序」：与「按内容模板顺序」相同，但将打乱每个卡片的内容模板顺序。
+    例如：当与「按位置升序」收集排序结合时，可用来以随机顺序显示最旧的卡片。
     
-    「随机笔记，然后按卡片模板」：随机抽取笔记，然后按顺序显示其所有的关联卡片。
+    「随机抽取笔记，然后按卡片模板」：随机抽取笔记，然后按顺序显示其所有关联卡片。
     
-    「随机」：将收集到的卡片完全洗牌。
-deck-config-sort-order-card-template-then-lowest-position = 先按照卡片模板，然后按位置升序
-deck-config-sort-order-card-template-then-highest-position = 先按照卡片模板，然后按位置降序
-deck-config-sort-order-card-template-then-random = 先按照卡片模板，然后随机
-deck-config-sort-order-random-note-then-template = 随机笔记，然后按卡片模板
+    「随机」：完全打乱收集的所有卡片。
+deck-config-sort-order-card-template-then-lowest-position = 先按照卡片内容模板，然后按位置升序
+deck-config-sort-order-card-template-then-highest-position = 先按照卡片内容模板，然后按位置降序
+deck-config-sort-order-card-template-then-random = 先按照卡片内容模板，然后随机
+deck-config-sort-order-random-note-then-template = 随机笔记，然后按卡片内容模板
 deck-config-sort-order-lowest-position = 按位置升序
 deck-config-sort-order-highest-position = 按位置降序
 deck-config-sort-order-random = 随机
-deck-config-sort-order-template-then-gather = 先按照卡片模板，然后按收集顺序
+deck-config-sort-order-template-then-gather = 先按照卡片内容模板，然后按收集顺序
 deck-config-sort-order-gather = 按收集顺序
 deck-config-new-review-priority = 新卡片/复习卡片优先顺序
 deck-config-new-review-priority-tooltip = 新卡片在复习卡片之前还是之后展示。
@@ -240,7 +237,7 @@ deck-config-which-deck = 您想要哪个牌组？
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
 deck-config-new-card-sort-order-tooltip =
-    卡片被收集后的排序方法。在默认设置下，Anki 先按照卡片模板排序，
+    卡片被收集后的排序方法。在默认设置下，Anki 先按照卡片内容模板排序，
     以避免同一笔记的多张卡片连续展示。
 deck-config-new-gather-priority-tooltip =
     `牌组`：按每个子牌组的顺序收集卡片，且当选取的牌组超出上限时停止。

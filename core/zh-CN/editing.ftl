@@ -10,7 +10,7 @@ editing-center = 居中对齐
 editing-change-color = 更改颜色
 editing-cloze-deletion = 设置空格
 editing-couldnt-record-audio-have-you-installed = 无法录制音频。请检查是否已安装“lame”？
-editing-customize-card-templates = 自定义卡片模板
+editing-customize-card-templates = 自定义卡片内容模板
 editing-customize-fields = 自定义字段
 editing-cut = 剪切
 editing-edit-current = 编辑当前
@@ -47,13 +47,13 @@ editing-tags-remove = 移除标签
 editing-tags-select-all = 全选标签
 editing-text-color = 文字颜色
 editing-text-highlight-color = 高亮文本颜色
-editing-to-make-a-cloze-deletion-on = 若要在现有笔记上设置空格，请通过「笔记」>「更改笔记模板」将笔记类型修改为填空题类型。
+editing-to-make-a-cloze-deletion-on = 若要在现有笔记上设置空格，请通过「笔记」>「更改笔记模板」将笔记模板修改为填空题模板。
 editing-toggle-html-editor = 打开/关闭 HTML 编辑器
 editing-toggle-sticky = 固定/取消固定
 editing-toggle-visual-editor = 打开/关闭可视化编辑器
 editing-underline-text = 下划线
 editing-unordered-list = 无序列表
-editing-warning-cloze-deletions-will-not-work = 警告，在将笔记类型修改为填空题模板前，设置的空置将不会生效。
+editing-warning-cloze-deletions-will-not-work = 警告，在将笔记模板修改为填空题模板前，设置的空格将不会生效。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -6,9 +6,7 @@ change-notetype-expand = 展开
 change-notetype-will-discard-content = 将舍弃以下字段的内容：
 change-notetype-will-discard-cards = 将删除以下卡片：
 change-notetype-fields = 字段
-change-notetype-templates = 模板
+change-notetype-templates = 内容模板
 change-notetype-to-from-cloze =
     当更改为/更改自填空题卡片模板时，卡片序号保持不变。
-    
-    若其更改为常规卡片模板，且挖空比可用的
-    卡片模板更多時，所有多余的卡片将会被移除。
+    若改为常规模板，而空格数比可用内容模板多时，将删除多余的卡片。

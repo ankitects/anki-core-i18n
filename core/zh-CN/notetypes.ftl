@@ -32,4 +32,4 @@ notetypes-header = 头部
 notetypes-note-types = 笔记模板
 notetypes-options = 选项
 notetypes-please-add-another-note-type-first = 请先添加另一个笔记模板。
-notetypes-type = 类型
+notetypes-type = 模板
