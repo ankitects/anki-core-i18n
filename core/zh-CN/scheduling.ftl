@@ -43,7 +43,7 @@ scheduling-today-new-limit-reached =
     仍有更多新卡片可供学习，但现已达今日上限。
     可在设置中提升学习上限。但应当注意：
     所学习的新卡片越多，短期内的复习量就会越大。
-scheduling-buried-cards-found = 一些卡片已被搁置，并会在明天出现。如想立即查看这些卡片，请{ $unburyThem }。
+scheduling-buried-cards-found = 搁置的卡片将在明天展示。如想立即查看，请{ $unburyThem }。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = 取消搁置
