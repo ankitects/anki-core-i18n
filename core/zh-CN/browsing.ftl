@@ -15,7 +15,7 @@ browsing-card = 卡片模板
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = 卡
 browsing-card-list = 卡片列表
-browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到过滤牌组
+browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到筛选牌组
 browsing-cards-deleted =
     { $count ->
        *[other] { $count } 张卡片已删除。
@@ -35,7 +35,7 @@ browsing-duplicate = 复制
 browsing-ease = 简易度
 browsing-enter-tags-to-add = 输入要添加的标签：
 browsing-enter-tags-to-delete = 输入要删除的标签：
-browsing-filtered = 已过滤
+browsing-filtered = 已筛选
 browsing-find = <b>查找</b>
 browsing-find-and-replace = 查找并替换
 browsing-find-duplicates = 查找重复
@@ -60,11 +60,11 @@ browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记模板
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 笔
-browsing-optional-filter = 可选过滤器：
-browsing-override-back-template = 忽略背面内容模版
-browsing-override-font = 覆盖字体：
-browsing-override-front-template = 忽略正面内容模版
-browsing-please-give-your-filter-a-name = 请给筛选结果添加名称：
+browsing-optional-filter = 可选筛选器：
+browsing-override-back-template = 忽略背面内容模版：
+browsing-override-font = 覆盖字体设置：
+browsing-override-front-template = 忽略正面内容模版：
+browsing-please-give-your-filter-a-name = 定义筛选器名称：
 browsing-preview-selected-card = 预览选择的卡片 ({ $val })
 browsing-question = 问题
 browsing-queue-bottom = 队尾: { $val }

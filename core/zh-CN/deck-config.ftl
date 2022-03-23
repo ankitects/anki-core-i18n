@@ -51,11 +51,11 @@ deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建�
 
 ## Lapses section
 
-deck-config-relearning-steps = 重新学习阶段
+deck-config-relearning-steps = 重学阶段
 deck-config-relearning-steps-tooltip =
     多个间隔间请用空格分隔。
     默认设置下，复习卡片时选择「重来」，卡片将10分钟后重新展示。
-    若未设置间隔，卡片将调整间隔，而不进入重新学习阶段。{ -deck-config-delay-hint }
+    若未设置间隔，卡片将调整间隔，而不进入重学阶段。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     复习卡片被标记为「记忆难点」之前，需要选择「重来」的次数。
     记忆难点是耗费大量时间的卡片，当卡片被标记为记忆难点时，
@@ -228,7 +228,7 @@ deck-config-reviews-too-low =
     }，复习上限至少应设为 { $expected }。
 deck-config-learning-step-above-graduating-interval = 毕业卡片再现间隔不应少于最后一个学习阶段的时长。
 deck-config-good-above-easy = 「简单」卡片再现间隔不应少于毕业卡片再现间隔。
-deck-config-relearning-steps-above-minimum-interval = 最小遗忘间隔不应少于最后一个重新学习阶段的时长。
+deck-config-relearning-steps-above-minimum-interval = 最小遗忘间隔不应少于最后一个重学阶段的时长。
 deck-config-maximum-answer-secs-above-recommended = 当保持问题均简短时，排程可更有效率。
 
 ## Selecting a deck

@@ -37,7 +37,7 @@ statistics-studied-today =
     }学习了 { statistics-cards } （每张卡片 { $secs-per-card } 秒）
 statistics-today-title = 今天
 statistics-today-again-count = 「重来」计数:
-statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已过滤: { $filteredCount }
+statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已筛选: { $filteredCount }
 statistics-today-no-cards = 今天尚未学习任何卡片。
 statistics-today-no-mature-cards = 今天没有学习熟练卡片。
 statistics-today-correct-mature = 回答正确的熟练卡片：{ $correct }/{ $total } ({ $percent }%)
