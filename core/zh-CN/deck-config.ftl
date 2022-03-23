@@ -163,7 +163,7 @@ deck-config-show-answer-timer-tooltip =
 deck-config-audio-title = 音频
 deck-config-disable-autoplay = 不自动播放音频
 deck-config-skip-question-when-replaying = 重播答案时跳过问题
-deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播音频操作，是否需包含问题的音频。
+deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播操作，是否需包含问题的音频。
 
 ## Advanced section
 

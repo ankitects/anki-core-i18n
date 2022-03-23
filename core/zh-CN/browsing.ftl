@@ -1,7 +1,7 @@
 browsing-add-notes = 添加笔记…
 browsing-add-tags2 = 添加标签...
 browsing-add-to-selected-notes = 添加到选取的笔记
-browsing-remove-from-selected-notes = 从选取的笔记中移除
+browsing-remove-from-selected-notes = 从选取的笔记中删除
 browsing-addon = 插件
 browsing-all-fields = 所有字段
 browsing-answer = 答案
@@ -70,13 +70,13 @@ browsing-question = 问题
 browsing-queue-bottom = 队尾: { $val }
 browsing-queue-top = 队首: { $val }
 browsing-randomize-order = 随机顺序
-browsing-remove-tags = 移除标签…
+browsing-remove-tags = 删除标签…
 browsing-replace-with = <b>替换</b>:
 browsing-reposition = 重排位置...
 browsing-reposition-new-cards = 重排新卡片的位置
 browsing-reschedule = 重新安排进度
 browsing-search-bar-hint = 搜索卡片/笔记（输入文本，然后按回车键）
-browsing-search-in = 搜寻位置：
+browsing-search-in = 搜索位置：
 browsing-search-within-formatting-slow = 用格式搜索（耗时长）
 browsing-selected-notes-only = 仅选中的笔记
 browsing-shift-position-of-existing-cards = 改变现有卡片的位置
@@ -146,7 +146,7 @@ browsing-sidebar-overdue = 超期的
 browsing-row-deleted = （已删除）
 browsing-removed-unused-tags-count =
     { $count ->
-       *[other] 已移除 { $count } 个未使用的标签。
+       *[other] 已删除 { $count } 个未使用的标签。
     }
 browsing-changed-new-position =
     { $count ->

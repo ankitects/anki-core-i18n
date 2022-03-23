@@ -65,7 +65,7 @@ scheduling-update-required =
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = 播放音频时总是包含问题面
+scheduling-always-include-question-side-when-replaying = 重播音频时总是包含问题面
 scheduling-at-least-one-step-is-required = 请至少选择一个难易度
 scheduling-automatically-play-audio = 自动播放音频
 scheduling-bury-related-new-cards-until-the = 搁置相关新卡片到隔日
