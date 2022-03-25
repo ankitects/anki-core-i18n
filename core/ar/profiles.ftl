@@ -14,3 +14,6 @@ profiles-prefs-corrupt-title = التفضيلات تالفة
 profiles-prefs-file-is-corrupt = ملف prefs21.db لأنكي تالف وتمت إعادة إنشائه. إذا كنت تستخدم عدة ملفات شخصية، أعد إضافتها باستخدام الأسماء نفسها لاستعادة بطاقاتك.
 profiles-profile-does-not-exist = لا يتوفر الملف الشخصي المطلوب.
 profiles-creating-backup = إنشاء نسخة احتياطية...
+profiles-backup-created = تم إنشاء النسخة الاحتياطية.
+profiles-backup-creation-failed = فشل إنشاء نسخة احتياطية: { $reason }
+profiles-backup-unchanged = لا تغييرات منذ آخر نسخة احتياطية.

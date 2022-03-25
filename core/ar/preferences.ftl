@@ -49,3 +49,4 @@ preferences-backup-explanation =
 preferences-daily-backups = عدد النسخ اليومية المحفوظة:
 preferences-weekly-backups = عدد النسخ الأسبوعية المحفوظة:
 preferences-monthly-backups = عدد النسخ الشهرية المحفوظة:
+preferences-minutes-between-backups = الدقائق بين النسخ التلقائية:
