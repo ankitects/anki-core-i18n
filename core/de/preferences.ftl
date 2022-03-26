@@ -47,3 +47,4 @@ preferences-backup-explanation = Anki erstellt regelmäßig Sicherungskopien Ihr
 preferences-daily-backups = Beizubehaltende tägliche Sicherungskopien:
 preferences-weekly-backups = Beizubehaltende wöchentliche Sicherungskopien:
 preferences-monthly-backups = Beizubehaltende monatliche Sicherungskopien:
+preferences-minutes-between-backups = Minuten zwischen automatisch erstellten Sicherungskopien:

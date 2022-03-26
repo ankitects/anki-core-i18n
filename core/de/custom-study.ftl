@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Heutigen Grenzwert für neue Karte
 custom-study-increase-todays-new-card-limit-by = Heutigen Grenzwert für neue Karten erhöhen um
 custom-study-increase-todays-review-card-limit = Heutigen Grenzwert für Wiederholungen erhöhen
 custom-study-increase-todays-review-limit-by = Heutigen Grenzwert für Wiederholungen erhöhen um
-custom-study-new-cards-in-deck-over-today = Über heutigen Grenzwert hinaus neu zu lernende Karten im Stapel: { $val }
 custom-study-new-cards-only = Nur neue Karten
 custom-study-no-cards-matched-the-criteria-you = Keine Karten stimmen mit den Kriterien überein.
 custom-study-ok = OK
@@ -21,8 +20,14 @@ custom-study-review-ahead = Vorauslernen
 custom-study-review-ahead-by = Vorauslernen um
 custom-study-review-cards-forgotten-in-last = Karten wiederholen, die vergessen wurden in den letzten
 custom-study-review-forgotten-cards = Vergessene Karten wiederholen
-custom-study-reviews-due-in-deck-over-today = Über heutigen Grenzwert hinaus zu wiederholende Karten im Stapel: { $val }
 custom-study-select = Zeige
 custom-study-select-tags-to-exclude = Auszuschließende Schlagwörter auswählen
 custom-study-selective-study = Lernauswahl
 custom-study-study-by-card-state-or-tag = Karten mit bestimmtem Status oder Schlagwörtern
+custom-study-available-new-cards = Verfügbare neue Karten: { $count }
+custom-study-available-review-cards = Verfügbare zu wiederholende Karten: { $count }
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-new-cards-in-deck-over-today = Über heutigen Grenzwert hinaus neu zu lernende Karten im Stapel: { $val }
+custom-study-reviews-due-in-deck-over-today = Über heutigen Grenzwert hinaus zu wiederholende Karten im Stapel: { $val }
