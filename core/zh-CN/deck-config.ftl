@@ -21,9 +21,9 @@ deck-config-limit-deck-v3 =
     从各个子牌组中抽取的卡片上限为各个子牌组自身所设置的上限。
     而可抽取的卡片总数为父牌组自身所设置的上限。
 deck-config-limit-new-bound-by-reviews =
-    复习上限会影响新卡片上限。
-    例如，若复习上限设为200，但尚由190张卡片待复习，则仅可展示至多10张新卡片。
-    而若已达到复习上限，则不再展示新卡片。
+    复习卡片上限会影响新卡片上限。
+    例如复习上限设为200，尚有190张卡片待复习，则至多可展示10张新卡片。
+    而若已达复习上限，则不再展示新卡片。
 deck-config-limit-interday-bound-by-reviews =
     复习上限同样会作用于跨日学习的卡片。
     当应用复习上限时，将按「跨日学习卡片->复习卡片->新卡片」顺序展示。
@@ -35,16 +35,16 @@ deck-config-learning-steps = 学习阶段
 -deck-config-delay-hint = 间隔时间通常应设为分钟(如5m)或天(如2d)，但亦可设为小时(如1h)或秒(如30s）。
 deck-config-learning-steps-tooltip =
     间隔之间请用空格分隔。
-    第一个间隔为学习新卡时，选择「重来」后的间隔时间(默认1分钟)。
+    第一个间隔为学习新卡时，选择「重来」后卡片再次展示的间隔时间(默认1分钟)。
     第二个间隔为学习新卡时，选择「良好」后进入下一阶段的间隔时间(默认10 分钟)。
-    所有阶段都通过后，卡片将转为复习卡片择日展示。{ -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = 在最后一个学习阶段选择「良好」后，卡片再次出现的间隔天数。
-deck-config-easy-interval-tooltip = 当选择「简单」直接跳过学习后，卡片再次出现的间隔天数。
+    通过所有阶段都后，卡片将转为复习卡片择日展示。{ -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = 在最后一个学习阶段选择「良好」后，再次展示卡片的间隔天数。
+deck-config-easy-interval-tooltip = 当选择「简单」直接跳过学习后，再次展示卡片的间隔天数。
 deck-config-new-insertion-order = 插入位置
 deck-config-new-insertion-order-tooltip =
-    指定添加的新卡片的位置（到期 #）。
+    控制添加新卡片的位置（到期 #）。
     学习时将先展示到期数字较小的卡片。
-    更改此选项将自动更新现存新卡片位置。
+    更改此选项将自动更新现存新卡片的位置。
 deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
 deck-config-new-insertion-order-random = 随机插入
 deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建议设为顺序插入，并以调整新卡片的聚集顺序代之。

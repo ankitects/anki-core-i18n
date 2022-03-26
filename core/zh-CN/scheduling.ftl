@@ -60,7 +60,7 @@ scheduling-update-button = 更新
 scheduling-update-later-button = 稍后
 scheduling-update-more-info-button = 更多信息
 scheduling-update-required =
-    你的集合需要升级到 V2 排程算法。
+    集合需要升级到 V2 排程算法。
     请选择{ scheduling-update-more-info-button }后再继续。
 
 ## Other scheduling strings
