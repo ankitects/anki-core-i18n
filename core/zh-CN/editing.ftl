@@ -13,6 +13,7 @@ editing-couldnt-record-audio-have-you-installed = 无法录制音频。请检查
 editing-customize-card-templates = 自定义卡片内容模板
 editing-customize-fields = 自定义字段
 editing-cut = 剪切
+editing-double-click-image = 双击图片
 editing-edit-current = 编辑当前
 editing-edit-html = 编辑HTML
 editing-fields = 字段
