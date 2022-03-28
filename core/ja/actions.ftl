@@ -5,6 +5,7 @@ actions-cancel = キャンセル
 actions-choose = 選択
 actions-close = 閉じる
 actions-copy = コピー
+actions-create-copy = コピーを作成
 actions-custom-study = カスタム学習
 actions-decks = デッキ
 actions-delete = 削除
@@ -33,7 +34,6 @@ actions-select = 選択
 actions-shortcut-key = ショートカットキーは「{ $val }」
 actions-suspend-card = カードを保留
 actions-set-due-date = 期日設定
-actions-forget = リセット
 actions-answer-card = カードを回答
 actions-unbury-unsuspend = 延期解除/保留解除
 actions-add-deck = デッキを追加
@@ -44,12 +44,12 @@ actions-update-card = カードを更新
 actions-update-deck = デッキを更新
 actions-forget-card = カードをリセットする
 actions-build-filtered-deck = デッキを構築
-actions-expand-collapse = 展開/折りたたみ
 actions-add-notetype = ノートタイプを追加
 actions-remove-notetype = ノートタイプを削除
 actions-update-notetype = ノートタイプを更新
 actions-update-config = 設定を更新
 actions-card-info = カード情報
+actions-previous-card-info = 直前カード情報
 
 ## Flags
 

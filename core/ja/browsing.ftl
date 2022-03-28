@@ -1,11 +1,10 @@
 browsing-add-notes = ノートを追加...
-browsing-add-tags = タグを追加
 browsing-add-tags2 = タグを追加...
+browsing-add-to-selected-notes = 選択中のノートに追加
+browsing-remove-from-selected-notes = 選択中のノートから削除
 browsing-addon = アドオン
-browsing-all-card-types = 全てのカードタイプ
 browsing-all-fields = 全てのフィールド
 browsing-answer = 解答
-browsing-any-cards-mapped-to-nothing-will = Nothing に設定したカードは削除されます。ノートにカードが残っていない場合は、そのノートが失われます。それでも処理を続行しますか。
 browsing-any-flag = フラグあり
 browsing-average-ease = 易しさ平均
 browsing-average-interval = 間隔平均
@@ -16,7 +15,6 @@ browsing-card = カード
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C
 browsing-card-list = カード一覧
-browsing-card-state = カードの状態
 browsing-cards-cant-be-manually-moved-into = フィルターデッキには手動でカードを移動できません。
 browsing-cards-deleted =
     { $count ->
@@ -27,19 +25,14 @@ browsing-change-deck2 = デッキを変更...
 browsing-change-note-type = ノートタイプを変更
 browsing-change-note-type2 = ノートタイプを変更...
 browsing-change-notetype = ノートタイプを変更
-browsing-change-to = { $val } を以下に変更:
-browsing-clear-unused = 使用されていないタグを削除
 browsing-clear-unused-tags = 使用されていないタグを削除
 browsing-confirm-saved-search-overwrite = 「{ $name }」という名前の検索保存はすでに存在します。上書きしますか？
 browsing-created = 作成日
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = 現在のデッキ
 browsing-current-note-type = 現在のノートタイプ:
 browsing-delete-notes = ノートを削除する
-browsing-delete-tags = タグを削除
 browsing-duplicate = 重複
 browsing-ease = 易しさ
-browsing-end = 終り
 browsing-enter-tags-to-add = タグを追加する：
 browsing-enter-tags-to-delete = タグを削除する：
 browsing-filtered = (フィルター)
@@ -51,7 +44,6 @@ browsing-flag = フラグを付ける
 browsing-font = <b>フォント</b>：
 browsing-font-size = <b>フォントサイズ</b>：
 browsing-found-as-across-bs = { $whole } の中に { $part } が見つかりました。
-browsing-home = ホーム
 browsing-ignore-case = 大文字小文字を区別しない
 browsing-in = <b>対象</b>:
 browsing-interval = 間隔
@@ -61,7 +53,6 @@ browsing-line-size = <b>行のサイズ</b>:
 browsing-manage-note-types = ノートタイプを管理...
 browsing-move-cards = カードを移動
 browsing-move-cards-to-deck = カードをデッキに移動：
-browsing-nd-names = { $num }: { $name }
 browsing-new = (新規)
 browsing-new-note-type = 変更後のノートタイプ:
 browsing-no-flag = フラグなし
@@ -69,15 +60,11 @@ browsing-no-selection = カードまたはノートが選択されていませ�
 browsing-note = ノート
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-notes-tagged = ノートにタグを付けました。
-browsing-nothing = なし
-browsing-only-new-cards-can-be-repositioned = 新規カードだけが表示順を変更できます。
 browsing-optional-filter = オプションフィルター：
 browsing-override-back-template = 解答のテンプレート:
 browsing-override-font = フォント:
 browsing-override-front-template = 質問のテンプレート:
 browsing-please-give-your-filter-a-name = このフィルターに名前を付けてください:
-browsing-please-select-cards-from-only-one = 同じノートタイプのカードを選択してください。
 browsing-preview-selected-card = 選択したカードをプレビューする  ({ $val })
 browsing-question = 質問
 browsing-queue-bottom = 最後: { $val }
@@ -118,10 +105,6 @@ browsing-group =
 browsing-note-count =
     { $count ->
        *[other] { $count } 個のノート
-    }
-browsing-note-deleted =
-    { $count ->
-       *[other] { $count }個のノートを削除しました。
     }
 browsing-notes-updated =
     { $count ->
@@ -166,3 +149,6 @@ browsing-reparented-decks =
     { $count ->
        *[other] デッキ名を{ $count }個を変更しました。
     }
+
+## obsolete; no need to translate
+

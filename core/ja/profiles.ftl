@@ -14,3 +14,4 @@ profiles-prefs-corrupt-title = 設定の破損
 profiles-prefs-file-is-corrupt = Ankiのprefs21.dbファイルが破損していたため再作成しました。複数のプロファイルをお持ちだった場合は、同じ名前を使用してそれらを再び追加しカードを復旧してください。
 profiles-profile-does-not-exist = 要求されたプロファイルは存在しません。
 profiles-creating-backup = バックアップを作成中…
+profiles-backup-created = バックアップを作成しました。
