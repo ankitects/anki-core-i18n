@@ -6,6 +6,6 @@ undo-redo = Refaire
 # eg "Undo Answer Card"
 undo-undo-action = Annuler { $val }
 # eg "Answer Card Undone"
-undo-action-undone = { $action } annulé
+undo-action-undone = { $action } annulée
 undo-redo-action = Refaire { $action }
 undo-action-redone = { $action } refaite
