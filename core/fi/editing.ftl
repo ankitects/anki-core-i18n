@@ -13,6 +13,7 @@ editing-couldnt-record-audio-have-you-installed = Äänen tallennus ei onnistunu
 editing-customize-card-templates = Mukauta korttimalleja
 editing-customize-fields = Mukauta kenttiä
 editing-cut = Leikkaa
+editing-double-click-image = kaksoisnapsauta kuvaa
 editing-edit-current = Muokkaa nykyistä
 editing-edit-html = Muokkaa HTML:ää
 editing-fields = Kentät
