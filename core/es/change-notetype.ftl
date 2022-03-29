@@ -10,5 +10,5 @@ change-notetype-templates = Plantillas
 change-notetype-to-from-cloze =
     Al cambiar una tarjeta hacía o desde el tipo Respuesta anidada, los números de tarjeta permanecen sin cambios.
     
-    Si se cambia a un tipo de nota normal y hay más huecos de respuesta anidada
+    Si se cambia a un tipo de nota normal y hay más nidos (huecos) de respuesta anidada
     que plantillas de tarjetas disponibles, se eliminarán todas las tarjetas sobrantes.

@@ -41,6 +41,11 @@ sync-account-required =
     Se requiere una cuenta gratuita para mantener tu colección sincronizada. Por favor, <a href="{ $link }">regístrate</a> e introduce tus detalles aquí debajo.
 sync-sanity-check-failed = Por favor, use la función de Comprobar Base de Datos, después sincronize otra vez. Si los problemas persisten, por favor fuerce una sincronización completa en la ventana de preferencias.
 sync-clock-off = Imposible sincronizar - compruebe que su reloj tenga la hora correcta.
+sync-upload-too-large =
+    Tu archivo de colección es demasiado grande para enviarlo a AnkiWeb. Puede reducir su tamaño 
+    eliminando los mazos no deseados (opcionalmente exportándolas primero, por seguridad)
+    y luego hacer clic en Comprobar base de datos (en el menú Herramientas) para reducir
+    el tamaño del archivo. ({ $details })
 
 ## Buttons
 

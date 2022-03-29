@@ -90,7 +90,7 @@ deck-config-bury-review-siblings = Enterrar tarjetas hermanas (de la nota).
 deck-config-bury-interday-learning-siblings = Enterrar a las tarjetas hermanas (de la nota) de aprendizaje entre días.
 deck-config-bury-tooltip =
     Si hay otras tarjetas hermanas de la misma nota (por ejemplo, anverso y reverso,
-    respuesta anidada con huecos secuenciales c1, c2, c...) se retrasarán hasta el día siguiente.
+    respuesta anidada con nidos secuenciales c1, c2, c...) se retrasarán hasta el día siguiente.
 
 ## Ordering section
 

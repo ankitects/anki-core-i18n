@@ -13,7 +13,7 @@ card-templates-front-preview = Vista previa del Anverso
 card-templates-back-preview = Vista previa del Reverso
 card-templates-preview-box = Previsualizar
 card-templates-template-box = Plantilla
-card-templates-sample-cloze = Esto es un  { "{{c1::" }ejemplo{ "}}" } de respuesta anidada.
+card-templates-sample-cloze = Esto es un { "{{c1::" }ejemplo{ "}}" } de respuesta anidada.
 card-templates-fill-empty = Rellenar campos vacíos
 card-templates-night-mode = Modo Nocturno
 # Add "mobile" class to card preview, so the card appears like it would

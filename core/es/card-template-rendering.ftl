@@ -26,5 +26,5 @@ card-template-rendering-no-such-field = Encontrado '{ $found }', pero no hay nin
 # are missing.
 card-template-rendering-empty-front = La parte frontal de esta tarjeta está en blanco.
 card-template-rendering-missing-cloze =
-    No se ha encontrado ningúna respuesta anidada número  { $number } en la tarjeta.
+    No se ha encontrado ningúna respuesta anidada número { $number } en la tarjeta.
     Puede usar "Vaciar tarjetas" para eliminar esta tarjeta vacía.

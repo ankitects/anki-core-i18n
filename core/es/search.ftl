@@ -12,6 +12,12 @@ search-empty-group = se encontró un grupo `(...)`, pero no había nada entre pa
 search-unopened-group = se encontró un paréntesis de cierre `)`, pero no había ningún paréntesis de apertura `(` precediéndolo. Si desea buscar un paréntesis  `)` literal, envuélvalo entre comillas dobles o anteponga una barra invertida: `")"` o ` \)`.
 search-unclosed-group = se encontró un paréntesis de apertura`)`, pero no había ningún paréntesis de cierre`(` precediéndolo. Si desea buscar un paréntesis `(` literal, envuélvalo entre comillas dobles o anteponga una barra invertida: `"("` o ` \(` .
 search-empty-quote = se encontró un par de comillas dobles `""`, pero no había nada entre ellas para buscar. Si desea buscar comillas dobles literales, anteponga barras invertidas: `\"\"` .
+search-unclosed-quote = se encontró comillas de apertura `"`, pero no se encontró comillas de cierre. Si solo desea buscar por `"` literal, anteponga una barra invertida: `\"`.
+search-missing-key = Se encontraron dos puntos `:`, pero no había ninguna palabra clave que lo precediera. Si desea buscar `:` literal, coloque una barra invertida: `\:`.
+search-unknown-escape = la secuencia de escape `{ $val }` no está definida. Si desea buscar una barra invertida literal `\`, anteponga otra: `\\`.
+search-invalid-argument = `{ $term }` recibió un parámetro inválido '`{ $argument }`' .
+search-invalid-flag-2 = `flag:` debe ir seguido de un número de bandera válido: `1` (rojo), `2` (naranja), `3` (verde), `4` (azul), `5` (rosa), `6 ` (turquesa), `7` (morado) o `0` (sin bandera).
+search-invalid-prop-operator = `prop:{ $val }` debe ir seguido de uno de los siguientes operadores de comparación: `=`, `!=`, `<`, `>`, `<=` o `>=`.
 search-invalid-other = Por favor, compruebe si hay errores tipográficos.
 
 ## eg. expected a number in "due>5x", but found "5x"
