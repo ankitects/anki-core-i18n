@@ -43,6 +43,10 @@ preferences-theme-light = Claro
 preferences-theme-dark = Oscuro
 preferences-v3-scheduler = Algoritmo de planificación V3
 preferences-ignore-accents-in-search = Ignorar acentos en la búsqueda (más lento)
+preferences-backup-explanation =
+    Anki periódicamente hace una copia de seguridad de tu colección. Después de que las 
+    copias de seguridad tengan más de 2 días, Anki comenzará a eliminar algunas de ellas 
+    para liberar espacio en el disco.
 preferences-daily-backups = Copias de seguridad diarias para mantener:
 preferences-weekly-backups = Copias de seguridad semanales para mantener:
 preferences-monthly-backups = Número de copias de seguridad mensuales a mantener:

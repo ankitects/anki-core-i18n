@@ -181,6 +181,10 @@ deck-config-display-order-will-use-current-deck =
 
 deck-config-timer-title = Temporizador
 deck-config-maximum-answer-secs = Tiempo máximo de respuesta en segundos
+deck-config-maximum-answer-secs-tooltip =
+    El número máximo de segundos registrados para una sola revisión. Si la respuesta excede
+     este tiempo (por ejemplo cuando sales de la pantalla), el tiempo empleado en la tarjeta se 
+    registrará hasta el límite que establezca.
 deck-config-show-answer-timer-tooltip =
     Mostrar un cronómetro en la pantalla de estudio, que muestra el número de segundos que
     te demoras en contestar una tarjeta.
@@ -195,7 +199,19 @@ deck-config-always-include-question-audio-tooltip = Si el audio de la pregunta d
 ## Advanced section
 
 deck-config-advanced-title = Avanzado
+deck-config-maximum-interval-tooltip =
+    El número máximo de días que esperará una tarjeta de revisión. Cuando las revisiones
+    hayan alcanzado el límite, `Difícil`, `Buena` y `Fácil` darán el mismo retraso. Cuanto 
+    más corto establezca esto, mayor será su carga de trabajo.
+deck-config-starting-ease-tooltip =
+    El multiplicador de facilidad con el que comienzan las nuevas tarjetas. De forma 
+    predeterminada, el botón 'Bien' en una tarjeta recién aprendida retrasará la 
+    próxima revisión en 2,5 veces la demora anterior.
 deck-config-easy-bonus-tooltip = Un multiplicador adicional que se aplica al intervalo de revisión de una tarjeta al responder `Fácil`.
+deck-config-interval-modifier-tooltip =
+    Este multiplicador se aplica a todas las revisiones y se pueden usar ajustes menores
+    para hacer que Anki sea más conservador o agresivo en su planificación. Por favor, 
+    consulte el manual antes de cambiar esta opción.
 deck-config-hard-interval-tooltip = El multiplicador aplicado a un intervalo de revisión al responder 'Difícil'.
 deck-config-new-interval-tooltip = El multiplicador aplicado a un intervalo de revisión al responder `Otra vez`.
 deck-config-minimum-interval-tooltip = El intervalo mínimo dado a una tarjeta de revisión después de responder `Otra vez`.
@@ -212,6 +228,9 @@ deck-config-clone-group = Clonar configuración
 ## Removing
 
 deck-config-remove-group = Remover configuración
+deck-config-will-require-full-sync =
+    El cambio solicitado requerirá una sincronización unidireccional. Si ha realizado cambios 
+    en otro dispositivo, y aún no los sincronizó con este dispositivo, hágalo antes de continuar.
 deck-config-confirm-remove-name = ¿Remover { $name }?
 
 ## Other Buttons
@@ -224,6 +243,10 @@ deck-config-revert-button-tooltip = Restaure esta configuración a su valor pred
 ## overview screen.
 
 deck-config-description-new-handling = Manejo de Anki 2.1.41+
+deck-config-description-new-handling-hint =
+    Trata la entrada como Markdown y limpia la entrada HTML. Cuando está habilitado, 
+    la descripción también se mostrará en la pantalla de felicitaciones. Markdown 
+    aparecerá como texto en Anki 2.1.40 y posteriores.
 
 ## Warnings shown to the user
 
@@ -232,6 +255,11 @@ deck-config-daily-limit-will-be-capped =
         [one] { $cards } tarjeta
        *[other] { $cards } tarjetas.
     }, que sobrescribirá este límite.
+deck-config-reviews-too-low =
+    Agregando{ $cards ->
+        [one] { $cards } una nueva tarjeta cada día
+       *[other] { $cards } nuevas tarjetas cada día
+    }, su límite de revisión debe ser por lo menos { $expected }.
 deck-config-learning-step-above-graduating-interval = El intervalo de graduación debe ser al menos tan largo como el último paso de la etapa de aprendizaje.
 deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo como el intervalo de graduación.
 deck-config-relearning-steps-above-minimum-interval = El intervalo mínimo debería ser al menos tan largo como el último paso de la etapa de reaprendizaje.
@@ -243,6 +271,10 @@ deck-config-which-deck = ¿Qué mazo quieres?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
+deck-config-new-card-sort-order-tooltip =
+    Cómo se clasifican las tarjetas después de que se han recompilado. Por defecto, 
+    Anki ordena por plantilla de tarjeta primero, para evitar múltiples tarjetas hermanas (de la 
+    misma nota) mostradas en sucesión.
 deck-config-new-gather-priority-tooltip =
     `Mazo`: reúne las cartas de cada submazo en orden y se detiene cuando se supera el 
     límite del mazo seleccionado. Esto es más rápido y le permite priorizar submazos que 

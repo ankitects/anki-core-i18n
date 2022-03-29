@@ -30,6 +30,7 @@ editing-latex-math-env = Entorno matemático LaTeX
 editing-mathjax-block = Bloque de MathJacx
 editing-mathjax-chemistry = Química MathJax
 editing-mathjax-inline = MathJacx en línea
+editing-mathjax-placeholder = Presione { $accept } para aceptar, { $newline } para nueva línea.
 editing-media = Multimedia
 editing-ordered-list = Lista numerada
 editing-outdent = Disminuir la sangría
