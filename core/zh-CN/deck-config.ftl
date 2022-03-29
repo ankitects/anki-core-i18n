@@ -63,6 +63,7 @@ deck-config-leech-threshold-tooltip =
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     「仅打标签」：将笔记打上「记忆难点」的标签，并弹出提示。
+    
     「暂停卡片」：将笔记打上标签，并隐藏卡片，直至手动取消暂停。
 
 ## Burying section
