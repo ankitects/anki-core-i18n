@@ -13,6 +13,7 @@ editing-couldnt-record-audio-have-you-installed = Níorbh fhéidir taifead fuaim
 editing-customize-card-templates = Saincheap Teimpléid Chártaí
 editing-customize-fields = Saincheap Réimsí
 editing-cut = Gearr
+editing-double-click-image = déchliceáil íomhá
 editing-edit-current = Cuir ábhar reatha in Eagar
 editing-edit-html = Cuir HTML in eagar
 editing-fields = Réimsí
