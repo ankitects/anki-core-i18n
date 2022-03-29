@@ -93,10 +93,14 @@ scheduling-custom-study = estudio personalizado
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 viene con un nuevo planificador, que soluciona una serie de problemas que tenían las versiones anteriores de Anki. Se recomienda actualizar a la nueva versión del programador.
 scheduling-update-done = Planificador actualizado con éxito.
 scheduling-update-button = Actualizar
 scheduling-update-later-button = Más tarde
 scheduling-update-more-info-button = Saber más
+scheduling-update-required =
+    Su colección debe actualizarse al planificador V2. Por favor, 
+    seleccione { scheduling-update-more-info-button } antes de continuar.
 
 ## Other scheduling strings
 
