@@ -190,6 +190,7 @@ deck-config-show-answer-timer-tooltip =
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = No reproducir audio automáticamente
 deck-config-skip-question-when-replaying = Saltar la pregunta al repetir la respuesta
+deck-config-always-include-question-audio-tooltip = Si el audio de la pregunta debe incluirse cuando se usa la acción Reproducir mientras se mira el lado de la respuesta de una tarjeta.
 
 ## Advanced section
 
@@ -233,6 +234,8 @@ deck-config-daily-limit-will-be-capped =
     }, que sobrescribirá este límite.
 deck-config-learning-step-above-graduating-interval = El intervalo de graduación debe ser al menos tan largo como el último paso de la etapa de aprendizaje.
 deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo como el intervalo de graduación.
+deck-config-relearning-steps-above-minimum-interval = El intervalo mínimo debería ser al menos tan largo como el último paso de la etapa de reaprendizaje.
+deck-config-maximum-answer-secs-above-recommended = Hacer preguntas breves (cortas, pequeñas) permite que Anki pueda programar sus revisiones de manera más eficiente.
 
 ## Selecting a deck
 
