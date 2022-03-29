@@ -76,22 +76,67 @@ deck-config-leech-threshold-tooltip =
     antes de que se marque como sanguijuela. Las sanguijuelas son cartas que consumen 
     mucho de tu tiempo, y cuando una carta está marcada como sanguijuela, es una buena
     idea reescribirla, borrarla o pensar en una mnemotécnica para ayudarte a recordarla.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Solo etiqueta`: agrega una etiqueta de "sanguijuela" a la nota y muestre una ventana emergente.
+    
+    `Suspender tarjeta`: agrega una etiqueta de "sanguijuela" y oculta la tarjeta hasta deshacerse manualmente la suspensión.
 
 ## Burying section
 
 deck-config-bury-title = Enterrar
-deck-config-bury-new-siblings = Enterrar nuevos hermanos hasta el día siguiente
-deck-config-bury-review-siblings = Enterrar tarjetas hermanas (nota) hasta el día siguiente
+deck-config-bury-new-siblings = Enterrar tarjetas hermanas nuevas (de la nota) hasta el día siguiente.
+deck-config-bury-review-siblings = Enterrar tarjetas hermanas (de la nota).
+deck-config-bury-interday-learning-siblings = Enterrar a las tarjetas hermanas (de la nota) de aprendizaje entre días.
+deck-config-bury-tooltip =
+    Si hay otras tarjetas hermanas de la misma nota (por ejemplo, anverso y reverso,
+    respuesta anidada con huecos secuenciales c1, c2, c...) se retrasarán hasta el día siguiente.
 
 ## Ordering section
 
 deck-config-ordering-title = Orden de visualización
+deck-config-new-gather-priority = Nuevo orden de recolección de tarjetas
+deck-config-new-gather-priority-tooltip-2 =
+    `Mazo`: reúne las cartas de cada mazo en orden, empezando por los que están en la parte superior. 
+    Las tarjetas de cada mazo se recompilan en posición ascendente. Si se alcanza el límite diario del mazo 
+    seleccionado, la recolección puede detenerse antes de que se hayan verificado todos los mazos. Este
+    orden es más rápido en colecciones grandes y le permite priorizar los submazos que están más cerca 
+    de la parte superior.
+    
+    `Posición ascendente`: ​​reúne cartas por posición ascendente (revisión #), que suele ser la tarjeta más
+    antigua primero.
+    
+    `Posición descendente`: ​​reúne cartas por posición descendente (debido a #), que suele ser la tarjeta 
+    más joven primero.
+    
+    `Notas aleatorias`: reúne tarjetas de notas seleccionadas al azar. Cuando el enterramiento de 
+    hermanos está deshabilitado, esto permite que se vean todas las tarjetas de una nota en una 
+    sesión (por ejemplo, una tarjeta anverso->reverso y reverso->anverso)
+    
+    `Tarjetas aleatorias`: reúne tarjetas de forma completamente aleatoria.
 deck-config-new-gather-priority-deck = Mazo
 deck-config-new-gather-priority-position-lowest-first = Posición ascendente
 deck-config-new-gather-priority-position-highest-first = Posición descendente
 deck-config-new-gather-priority-random-notes = Notas aleatorias
 deck-config-new-gather-priority-random-cards = Tarjeta aleatoria
 deck-config-new-card-sort-order = Nuevo orden de clasificación de tarjetas
+deck-config-new-card-sort-order-tooltip-2 =
+    `Plantilla de tarjeta`: muestra las cartas en orden de la plantilla de tarjeta. Si tiene deshabilitado 
+    el entierro de hermanos, esto asegurará que todas las tarjetas anverso→reverso se vean antes 
+    que las tarjetas reverso→anverso.
+    
+    `Orden de recompilación`: Muestra las cartas exactamente como fueron reunidas. Si el entierro 
+    de hermanos está deshabilitado, esto generalmente dará como resultado que todas las tarjetas 
+    de una nota se vean una tras otra.
+    
+    `Plantilla de tarjeta, luego aleatoria`: Igual que `Plantilla de cartas`, pero mezcla las cartas de 
+    cada plantilla. Cuando se combina con un orden de recolección de posición ascendente, esto se 
+    puede usar para mostrar las cartas más antiguas en un orden aleatorio, por ejemplo.
+    
+    `Nota aleatoria, luego plantilla de tarjeta`: recoge notas al azar y luego muestra todas sus 
+    hermanas en orden.
+    
+    `Random`: mezcla completamente las cartas recompiladas.
 deck-config-sort-order-card-template-then-lowest-position = Plantilla de tarjeta, luego posición ascendente
 deck-config-sort-order-card-template-then-highest-position = Plantilla de tarjeta, luego posición descendente
 deck-config-sort-order-card-template-then-random = Plantilla de tarjeta, luego aleatoria
@@ -100,7 +145,13 @@ deck-config-sort-order-lowest-position = Posición ascendente
 deck-config-sort-order-highest-position = Posición descendente
 deck-config-sort-order-random = Aleatorio
 deck-config-sort-order-template-then-gather = Plantilla de tarjeta
-deck-config-sort-order-gather = Orden de recogida
+deck-config-sort-order-gather = Orden de recolección
+deck-config-interday-step-priority-tooltip =
+    Cuándo mostrar tarjetas de (re)aprendizaje que cruzan un límite de día.
+    
+    El límite de revisión siempre se aplica primero a las tarjetas de aprendizaje entre días 
+    y luego a las revisiones. Esta opción controlará el orden en que se muestran las tarjetas 
+    recopiladas, pero las tarjetas de aprendizaje entre días siempre se recopilarán primero.
 deck-config-review-mix-mix-with-reviews = Mezclar con las tarjetas para revisar
 deck-config-review-mix-show-after-reviews = Mostrar después de las tarjetas para revisar
 deck-config-review-mix-show-before-reviews = Mostrar antes de las tarjetas para revisar
