@@ -42,6 +42,7 @@ deck-config-new-insertion-order = Einfügereihenfolge
 deck-config-new-insertion-order-tooltip = Steuert die Position (fällig #), die neuen Karten zugewiesen wird, wenn Sie diese hinzufügen. Karten mit einer niedrigeren Fälligkeitsnummer werden beim Lernen  zuerst angezeigt. Wenn Sie diese Option ändern, dann werden alle bereits vorhandenen Positionen von neuen Karten aktualisiert.
 deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
+deck-config-new-insertion-order-random-with-v3 = Wenn der V3-Zeitplaner genutzt wird, ist es ratsamer, diese Option auf Sequentiell zu belassen und stattdessen die Reihenfolge für die Zusammenstellung der neuen Karten anzupassen.
 
 ## Lapses section
 
@@ -66,7 +67,7 @@ deck-config-bury-tooltip = Ob andere Karten der gleichen Notiz (z.B. umgekehrte 
 ## Ordering section
 
 deck-config-ordering-title = Anzeigereihenfolge
-deck-config-new-gather-priority = Priorität beim Sammeln neuer Karten
+deck-config-new-gather-priority = Priorität bei der Zusammenstellung neuer Karten
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-position-lowest-first = Position (niedrigste zuerst)
 deck-config-new-gather-priority-position-highest-first = Position (höchste zuerst)
@@ -183,6 +184,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens genauso lang sein wie Ihre finale Lernstufe.
 deck-config-good-above-easy = Das Einfach-Intervall sollte mindestens genauso lang sein wie das Aufstiegsintervall.
 deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall für Fehlschläge sollte mindestens so lange sein wie Ihr finaler Schritt für das erneute Lernen.
+deck-config-maximum-answer-secs-above-recommended = Anki kann ihre Lernüberprüfungen besser planen, wenn Sie jede Frage kurz halten.
 
 ## Selecting a deck
 
