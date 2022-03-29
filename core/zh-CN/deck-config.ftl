@@ -148,8 +148,8 @@ deck-config-display-order-will-use-current-deck =
 
 ## Timer section
 
-deck-config-timer-title = 计时器
-deck-config-maximum-answer-secs = 作答时间上限(秒)
+deck-config-timer-title = 计时
+deck-config-maximum-answer-secs = 作答时间记录上限(秒)
 deck-config-maximum-answer-secs-tooltip =
     单次复习可记录的最大秒数。
     若回答时间超此限制（如离开屏幕前），
@@ -167,7 +167,7 @@ deck-config-always-include-question-audio-tooltip = 如查看答案时进行了�
 
 ## Advanced section
 
-deck-config-advanced-title = 高级设置
+deck-config-advanced-title = 高级
 deck-config-maximum-interval-tooltip =
     复习卡片间隔的最大天数。
     当复习卡片的间隔达到此天数时，
