@@ -137,7 +137,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Acumulación
 statistics-intervals-title = Intervalos
-statistics-intervals-subtitle = Tardanza hasta que los repasos se muestren de nuevo.
+statistics-intervals-subtitle = Intervalos antes de que vuelvan a aparecer las tarjetas de revisión
 statistics-intervals-day-range =
     { $cards ->
         [one] 1 tarjeta con un interval de { $daysStart }~{ $daysEnd } dias

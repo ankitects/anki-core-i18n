@@ -40,7 +40,7 @@ deck-config-limit-interday-bound-by-reviews =
 
 deck-config-learning-steps = Pasos en la etapa de aprendizaje
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Los retrasos suelen ser minutos (por ejemplo, `1m`) o días (por ejemplo, `2d`), pero también se admiten horas (por ejemplo, `1h`) y segundos (por ejemplo, `30s`).
+-deck-config-delay-hint = Los intervalos suelen ser minutos (por ejemplo, `1m`) o días (por ejemplo, `2d`), pero también se admiten horas (por ejemplo, `1h`) y segundos (por ejemplo, `30s`).
 deck-config-learning-steps-tooltip =
     Uno o más intervalos, separados por espacios. El primer intervalo, que por 
     defecto es de 1 minuto, será usado cuando usted presione el botón `Otra vez` 
@@ -54,12 +54,28 @@ deck-config-easy-interval-tooltip =
     El número de días a esperar antes de volver a mostrar una tarjeta, después de presionar el botón `Fácil`
     para inmediatamente remover una tarjeta de la etapa de aprendizaje.
 deck-config-new-insertion-order = Orden de inserción
+deck-config-new-insertion-order-tooltip =
+    Controla la posición (revisar #) que se asignan a las nuevas tarjetas cuando usted agrega nuevas tarjetas.
+    Las tarjetas con un número de revisión más bajo se mostrarán primero al estudiar.
+    Cambiar esta opción actualizará automáticamente la posición de las nuevas tarjetas ya existentes.
 deck-config-new-insertion-order-sequential = Secuencial (las tarjetas más antiguas primero)
 deck-config-new-insertion-order-random = Aleatorio
+deck-config-new-insertion-order-random-with-v3 =
+    Cuando el panificador V3 está habilitado, es mejor mantener seleccionado
+    la opción "Secuencial" y en su lugar, ajustar el Orden de visualización.
 
 ## Lapses section
 
 deck-config-relearning-steps = Pasos de reaprendizaje
+deck-config-relearning-steps-tooltip =
+    Cero o más intervalos, separados por espacios. De manera predeterminada, al presionar el 
+    botón "Otra vez" en una tarjeta de revisión, esta se mostrará nuevamente 10 minutos después.
+    Si no se proporciona ningún intervalo, se cambiará el intervalo de la tarjeta, sin entrar en reaprendizaje. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    La cantidad de veces que se debe presionar "Otra vez" en una tarjeta de revisión 
+    antes de que se marque como sanguijuela. Las sanguijuelas son cartas que consumen 
+    mucho de tu tiempo, y cuando una carta está marcada como sanguijuela, es una buena
+    idea reescribirla, borrarla o pensar en una mnemotécnica para ayudarte a recordarla.
 
 ## Burying section
 
