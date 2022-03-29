@@ -13,6 +13,7 @@ editing-couldnt-record-audio-have-you-installed = No se pudo grabar el audio. Ti
 editing-customize-card-templates = Personalizar plantillas de tarjetas
 editing-customize-fields = Personalizar campos
 editing-cut = Cortar
+editing-double-click-image = Haga doble clic en la imagen
 editing-edit-current = Editar actual
 editing-edit-html = Editar HTML
 editing-fields = Campos

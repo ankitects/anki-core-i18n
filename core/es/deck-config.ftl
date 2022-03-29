@@ -146,6 +146,9 @@ deck-config-sort-order-highest-position = Posición descendente
 deck-config-sort-order-random = Aleatorio
 deck-config-sort-order-template-then-gather = Plantilla de tarjeta
 deck-config-sort-order-gather = Orden de recolección
+deck-config-new-review-priority = Nuevos/revisiones (orden de estudio)
+deck-config-new-review-priority-tooltip = Cuándo mostrar nuevas tarjetas en relación con las tarjetas de revisión.
+deck-config-interday-step-priority = Aprendizaje entre días/revisiones (orden de estudio)
 deck-config-interday-step-priority-tooltip =
     Cuándo mostrar tarjetas de (re)aprendizaje que cruzan un límite de día.
     
@@ -155,6 +158,21 @@ deck-config-interday-step-priority-tooltip =
 deck-config-review-mix-mix-with-reviews = Mezclar con las tarjetas para revisar
 deck-config-review-mix-show-after-reviews = Mostrar después de las tarjetas para revisar
 deck-config-review-mix-show-before-reviews = Mostrar antes de las tarjetas para revisar
+deck-config-review-sort-order = Revisar orden de clasificación
+deck-config-review-sort-order-tooltip =
+    El orden predeterminado prioriza las tarjetas que llevan más tiempo esperando, 
+    de modo que si tiene una acumulación de revisiones, las que llevan más tiempo 
+    esperando aparecerán primero. Si tiene una gran acumulación de tarjetas que 
+    tardará más de unos pocos días en salir de la cola, o si desea ver las tarjetas en el 
+    orden de los submazos, es posible que usted prefiera los órdenes de clasificación 
+    alternativos.
+deck-config-sort-order-due-date-then-random = Fecha de revisión, luego aleatorio
+deck-config-sort-order-due-date-then-deck = Fecha de revisión, luego mazo
+deck-config-sort-order-deck-then-due-date = Mazo, luego fecha de revisión
+deck-config-sort-order-ascending-intervals = Intervalos ascendentes
+deck-config-sort-order-descending-intervals = Intervalos descendentes
+deck-config-sort-order-ascending-ease = Facilidad ascendente
+deck-config-sort-order-descending-ease = Facilidad descendente
 deck-config-display-order-will-use-current-deck =
     Anki usará el orden de visualización del mazo seleccionado
     para estudiar, y no los submazos que pueda tener.
@@ -163,6 +181,9 @@ deck-config-display-order-will-use-current-deck =
 
 deck-config-timer-title = Temporizador
 deck-config-maximum-answer-secs = Tiempo máximo de respuesta en segundos
+deck-config-show-answer-timer-tooltip =
+    Mostrar un cronómetro en la pantalla de estudio, que muestra el número de segundos que
+    te demoras en contestar una tarjeta.
 
 ## Audio section
 
@@ -201,9 +222,15 @@ deck-config-revert-button-tooltip = Restaure esta configuración a su valor pred
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Manejo de Anki 2.1.41+
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Un mazo principal tiene un límite de { $cards ->
+        [one] { $cards } tarjeta
+       *[other] { $cards } tarjetas.
+    }, que sobrescribirá este límite.
 deck-config-learning-step-above-graduating-interval = El intervalo de graduación debe ser al menos tan largo como el último paso de la etapa de aprendizaje.
 deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo como el intervalo de graduación.
 
@@ -213,3 +240,11 @@ deck-config-which-deck = ¿Qué mazo quieres?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
+deck-config-new-gather-priority-tooltip =
+    `Mazo`: reúne las cartas de cada submazo en orden y se detiene cuando se supera el 
+    límite del mazo seleccionado. Esto es más rápido y le permite priorizar submazos que 
+    están más cerca de la parte superior.
+    
+    `Posición`: reúne las cartas de todos los mazos antes de clasificarlos. Esto garantiza 
+    que las cartas aparezcan en el orden de una posición estricta (revisar #), incluso si el 
+    límite principal no es lo suficientemente alto para ver cartas de todos los mazos.

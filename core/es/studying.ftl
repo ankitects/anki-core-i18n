@@ -8,8 +8,14 @@ studying-bury-card = Enterrar tarjeta
 studying-bury-note = Enterrar nota
 studying-card-suspended = Tarjeta suspendida.
 studying-card-was-a-leech = La tarjeta era una sanguijuela.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } tarjeta enterrada.
+       *[other] { $count } tarjetas enterradas.
+    }
 studying-cards-will-be-automatically-returned-to = Las tarjetas se devolverán automáticamente a sus mazos originales una vez las hayas repasado.
 studying-continue = Siguiente
+studying-counts-differ = Los conteos difieren de la lista de mazos porque está habilitado el enterramiento. Algunas tarjetas han sido excluidas y otras pueden haber tomado su lugar.
 studying-delete-note = Eliminar nota
 studying-deleting-this-deck-from-the-deck = Al eliminar este mazo de la lista de mazos se devolverán todas las tarjetas restantes a su mazo original.
 studying-easy = Fácil

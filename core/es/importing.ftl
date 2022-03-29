@@ -78,3 +78,4 @@ importing-processed-media-file =
        *[other] { $count } archivos multimedia procesados
     }
 importing-importing-collection = Importando colección...
+importing-failed-to-import-media-file = No se pudo importar el archivo multimedia: { $debugInfo }

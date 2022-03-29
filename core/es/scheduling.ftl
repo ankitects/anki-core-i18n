@@ -93,6 +93,7 @@ scheduling-custom-study = estudio personalizado
 
 ## Scheduler upgrade
 
+scheduling-update-done = Planificador actualizado con éxito.
 scheduling-update-button = Actualizar
 scheduling-update-later-button = Más tarde
 scheduling-update-more-info-button = Saber más
@@ -130,6 +131,8 @@ scheduling-new-options-group-name = Nombre del nuevo grupo de opciones:
 scheduling-options-group = Grupo de opciones:
 scheduling-order = Orden
 scheduling-parent-limit = (límite precursor: { $val })
+scheduling-reset-counts = Restablecer recuentos de repeticiones y fallos
+scheduling-restore-position = Restaurar la posición original cuando sea posible
 scheduling-review = Repasar
 scheduling-reviews = Repasos
 scheduling-seconds = segundos
@@ -160,3 +163,13 @@ scheduling-set-due-date-prompt-hint =
     0 = hoy
     1! = mañana + redefinición del intervalo de revisión
     3-7 = elección aleatoria de 3-7 días
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Establecer fecha de revisión de { $cards } tarjeta.
+       *[other] Establecer fecha de revisión de { $cards } tarjetas.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Olvidó { $cards } tarjeta.
+       *[other] Olvidó { $cards } tarjetas.
+    }

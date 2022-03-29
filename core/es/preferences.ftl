@@ -34,11 +34,16 @@ preferences-timebox-time-limit = Límite de sesión de estudio
 preferences-user-interface-size = Tamaño de interfaz de usuario
 preferences-when-adding-default-to-current-deck = Al añadir, hacerlo en el mazo actual de manera predeterminada
 preferences-you-can-restore-backups-via-fileswitch = Puedes restaurar copias de seguridad con Archivo>Cambiar perfil.
+preferences-legacy-timezone-handling = Gestión de zonas horarias antiguas (con errores, pero necesario para AnkiDroid <= 2.14)
+preferences-default-search-text = Texto de búsqueda predeterminado
+preferences-default-search-text-example = Por ejemplo: 'deck:current '
 preferences-theme-label = Tema: { $theme }
 preferences-theme-follow-system = Seguir el sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Oscuro
+preferences-v3-scheduler = Algoritmo de planificación V3
 preferences-ignore-accents-in-search = Ignorar acentos en la búsqueda (más lento)
 preferences-daily-backups = Copias de seguridad diarias para mantener:
 preferences-weekly-backups = Copias de seguridad semanales para mantener:
 preferences-monthly-backups = Número de copias de seguridad mensuales a mantener:
+preferences-minutes-between-backups = Tiempo entre copias de seguridad automáticas (en minutos):
