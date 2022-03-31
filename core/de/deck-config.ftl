@@ -60,32 +60,53 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Zurückstellen
-deck-config-bury-new-siblings = Neue Geschwisterkarten bis zum nächsten Tag zurückstellen
-deck-config-bury-review-siblings = Wiederhol-Geschwisterkarten bis zum nächsten Tag zurückstellen
-deck-config-bury-tooltip = Ob andere Karten der gleichen Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte) auf den nächsten Tag geschoben werden.
+deck-config-bury-new-siblings = Neue Geschwister zurückstellen
+deck-config-bury-review-siblings = Geschwister in Wiederholung zurückstellen
+deck-config-bury-interday-learning-siblings = Geschwister in mehrtägigem Lernen zurückstellen
+deck-config-bury-tooltip = Ob andere Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte) bis zum nächsten Tag verschoben werden.
 
 ## Ordering section
 
 deck-config-ordering-title = Anzeigereihenfolge
-deck-config-new-gather-priority = Priorität bei der Zusammenstellung neuer Karten
+deck-config-new-gather-priority = Reihenfolge beim Sammeln neuer Karten
+deck-config-new-gather-priority-tooltip-2 =
+    `Stapel`: sammelt Karten der Reihe nach von jedem Stapel, oben beginnend. Für jeden Stapel werden Karten in aufsteigender Position gesammelt. Wenn der Grenzwert des ausgewählten Stapels erreicht ist, kann das Sammeln aufhören, bevor alle Stapel erreicht wurden. Diese Reihenfolge ist die schnellste für große Sammlungen und ermöglicht die Priorisierung von Stapeln, die weiter oben sind.
+    
+    `Aufsteigende Position`: sammelt Karten nach Position (Fälligkeitsnummer) in aufsteigender Reihenfolge. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
+    
+    `Absteigende Position`: sammelt Karten nach Position (Fälligkeitsnummer) in absteigender Reihenfolge. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
+    
+    `Zufällige Notizen`: sammelt Karten von zufällig ausgewählten Notizen. Wenn die Geschwisterzurückstellung deaktiviert ist, können so alle Karten einer Notiz in derselben Einheit gelernt werden (z.B. sowhl Vorderseite→Rückseite als auch Rückseite→Vorderseite),
+    
+    `Zufällige Karten`: sammelt Karten vollkommen zufällig.
 deck-config-new-gather-priority-deck = Stapel
-deck-config-new-gather-priority-position-lowest-first = Position (niedrigste zuerst)
-deck-config-new-gather-priority-position-highest-first = Position (höchste zuerst)
+deck-config-new-gather-priority-position-lowest-first = Aufsteigende Position
+deck-config-new-gather-priority-position-highest-first = Absteigende Position
 deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
-deck-config-new-card-sort-order = Neue Kartensortierreihenfolge
-deck-config-sort-order-card-template-then-lowest-position = Kartenvorlage, danach niedrigste Position
-deck-config-sort-order-card-template-then-highest-position = Kartenvorlage, danach höchste Position
+deck-config-new-card-sort-order = Sortierreihenfolge neuer Karten
+deck-config-new-card-sort-order-tooltip-2 =
+    `Kartenvorlage`: Zeigt Karten in Reihenfolge ihrer Vorlagennummer. Wenn die Geschwisterzurückstellung deaktiviert ist, werden so alle Vorderseite→Rückseite-Karten vor allen Rückseite→Vorderseite-Karten gezeigt.
+    
+    `Sammelreihenfolge`: Zeigt Karten genau wie sie gesammelt wurde. Wenn die Geschwisterzurückstellung deaktiviert ist, werden so typischerweise alle Karten einer Notiz nacheinander gezeigt.
+    
+    `Kartenvorlage, dann zufällig`: Wie `Kartenvorlage`, aber mischt die Karten jeder Vorlage. Kombiniert mit der Sammelreihenfolge in aufsteigender Position,  können so die ältesten Karten in zufälliger Reihenfolge gezeigt werden.
+    
+    `Zufällige Notiz, dann Kartenvorlage`: Wählt zufällige Notizen und zeigt für jede all ihre Geschwisterkarten der Reihe nach.
+    
+    `Zufällig`: Mischt die gesammelten Karten.
+deck-config-sort-order-card-template-then-lowest-position = Kartenvorlage, dann aufsteigende Position
+deck-config-sort-order-card-template-then-highest-position = Kartenvorlage, dann absteigende Position
 deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
 deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartenvorlage
-deck-config-sort-order-lowest-position = Niedrigste Position
-deck-config-sort-order-highest-position = Höchste Position
+deck-config-sort-order-lowest-position = Aufsteigende Position
+deck-config-sort-order-highest-position = Absteigende Position
 deck-config-sort-order-random = Zufällig
-deck-config-sort-order-template-then-gather = Kartenvorlage, danach Reihenfolge entsprechend der aufgenommenen Elemente
-deck-config-sort-order-gather = Reihenfolge entsprechend der aufgenommenen Elemente
-deck-config-new-review-priority = Neu/Wiederholung-Priorität
+deck-config-sort-order-template-then-gather = Kartenvorlage
+deck-config-sort-order-gather = Sammelreihenfolge
+deck-config-new-review-priority = Reihenfolge Neu/Wiederholung
 deck-config-new-review-priority-tooltip = Wann neue Karten relativ zu Wiederholkarten angezeigt werden.
-deck-config-interday-step-priority = Zwischentag-Lern/Wiederhol-Priorität
+deck-config-interday-step-priority = Reihenfolge Wiederholung/mehrtägiges Lernen
 deck-config-interday-step-priority-tooltip =
     Wann (erneute) Lernkarten angezeigt werden, die die Taggrenze überschreiten.
     
