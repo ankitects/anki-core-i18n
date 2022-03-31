@@ -13,6 +13,7 @@ editing-couldnt-record-audio-have-you-installed = لا يمكن تسجيل ال�
 editing-customize-card-templates = تخصيص قوالب البطاقات
 editing-customize-fields = خصص الحقول
 editing-cut = قص
+editing-double-click-image = انقر نقرتين على الصورة
 editing-edit-current = تحرير البطاقة الحالية
 editing-edit-html = تحرير HTML
 editing-fields = الحقول
