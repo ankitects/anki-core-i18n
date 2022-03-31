@@ -9,6 +9,7 @@ editing-cards = البطاقات
 editing-center = محاذاة إلى الوسط
 editing-change-color = تغيير اللون
 editing-cloze-deletion = ملء فراغات
+editing-cloze-deletion-repeat = ملء الفراغات (البطاقة نفسها)
 editing-couldnt-record-audio-have-you-installed = لا يمكن تسجيل الصوت. هل نصبّت 'lame'؟
 editing-customize-card-templates = تخصيص قوالب البطاقات
 editing-customize-fields = خصص الحقول
