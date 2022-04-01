@@ -22,12 +22,19 @@ actions-preview = 미리 보기
 actions-rebuild = 다시 모으기
 actions-rename = 이름 변경
 actions-rename-deck = 뭉치 이름 변경
+actions-rename-tag = 태그 이름 변경
 actions-replay-audio = 오디오 재생
 actions-reposition = 위치 변경
 actions-save = 저장하기
 actions-search = 찾기
+actions-select = 선택
 actions-shortcut-key = 단축키: { $val }
 actions-suspend-card = 카드 보류
+actions-set-due-date = 마감 날짜 설정
+actions-add-note = 노트 추가
+actions-update-note = 노트 업데이트
+actions-add-notetype = 노트 유형 추가
 
 ## Flags
 
+actions-flag-number = 플래그 { $number }
