@@ -22,9 +22,9 @@ browsing-cards-deleted =
     }
 browsing-change-deck = 更改所属牌组
 browsing-change-deck2 = 更改所属牌组…
-browsing-change-note-type = 改变笔记模板
-browsing-change-note-type2 = 改变笔记模板…
-browsing-change-notetype = 改变笔记模板
+browsing-change-note-type = 更改笔记模板
+browsing-change-note-type2 = 更改笔记模板…
+browsing-change-notetype = 更改笔记模板
 browsing-clear-unused-tags = 删除未使用的标签
 browsing-confirm-saved-search-overwrite = 已存在名为 { $name } 的搜索条件。要覆盖它吗？
 browsing-created = 添加日期
@@ -79,7 +79,7 @@ browsing-search-bar-hint = 搜索卡片/笔记（输入文本，然后按回车�
 browsing-search-in = 搜索位置：
 browsing-search-within-formatting-slow = 用格式搜索（耗时长）
 browsing-selected-notes-only = 仅选中的笔记
-browsing-shift-position-of-existing-cards = 改变现有卡片的位置
+browsing-shift-position-of-existing-cards = 更改现有卡片的位置
 browsing-sidebar = 侧边栏
 browsing-sidebar-filter = 侧边栏筛选条件
 browsing-sort-field = 排序字段
@@ -128,7 +128,7 @@ browsing-sidebar-card-state = 卡片状态
 browsing-sidebar-flags = 旗标
 browsing-today = 今天
 browsing-tooltip-card-modified = 上一次卡片修改，包括复习、旗标和牌组变化
-browsing-tooltip-note-modified = 上一次笔记修改，通常是字段内容或标签编辑
+browsing-tooltip-note-modified = 上一次笔记修改，通常是修改字段内容或编辑标签
 browsing-tooltip-card = 卡片从属的内容模板名称
 browsing-tooltip-cards = 笔记拥有的卡片数量
 browsing-tooltip-notetype = 笔记的笔记模板名称
@@ -150,7 +150,7 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-       *[other] 已改变 { $count } 张新卡片的位置。
+       *[other] 已更改 { $count } 张新卡片的位置。
     }
 browsing-reparented-decks =
     { $count ->

@@ -113,7 +113,7 @@ scheduling-steps-in-minutes = 步幅 （分钟）
 scheduling-steps-must-be-numbers = 步幅必须是数字。
 scheduling-tag-only = 仅加标签
 scheduling-the-default-configuration-cant-be-removed = 不能删除预置牌组。
-scheduling-your-changes-will-affect-multiple-decks = 此变更将会影响很多牌组。如仅想改变当前牌组，请先新增一组预设配置。
+scheduling-your-changes-will-affect-multiple-decks = 此变更将会影响很多牌组。如仅想更改当前牌组，请先新增一组预设配置。
 scheduling-deck-updated =
     { $count ->
        *[other] 已更新{ $count }个牌组。
