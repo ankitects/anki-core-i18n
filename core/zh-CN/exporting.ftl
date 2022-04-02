@@ -4,7 +4,7 @@ exporting-anki-collection-package = Anki集合文件
 exporting-anki-deck-package = Anki牌组包
 exporting-cards-in-plain-text = 纯文本格式的卡片
 exporting-collection = 集合
-exporting-collection-exported = 集合导出成功
+exporting-collection-exported = 已导出集合。
 exporting-colpkg-too-new = 请更新至Anki的最新版本，然后再次导入.colpkg文件。
 exporting-couldnt-save-file = 不能保存文件: { $val }
 exporting-export = 导出...
@@ -18,13 +18,13 @@ exporting-notes-in-plain-text = 纯文本格式的笔记
 exporting-selected-notes = 选中的笔记
 exporting-card-exported =
     { $count ->
-       *[other] 导出了{ $count }张卡片
+       *[other] 已导出{ $count }张卡片
     }
 exporting-exported-media-file =
     { $count ->
-       *[other] 导出了{ $count }个媒体文件
+       *[other] 已导出{ $count }个媒体文件
     }
 exporting-note-exported =
     { $count ->
-       *[other] 导出了{ $count }条笔记
+       *[other] 已导出{ $count }条笔记
     }

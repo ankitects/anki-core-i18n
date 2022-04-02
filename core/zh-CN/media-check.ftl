@@ -8,7 +8,7 @@ media-check-trash-count =
     垃圾文件夹：{ $count ->
        *[other] { $count } 个文件， { $megs }MB
     }
-media-check-missing-count = 缺少文件数：{ $count }
+media-check-missing-count = 缺失文件数：{ $count }
 media-check-unused-count = 未使用文件数：{ $count }
 media-check-renamed-count = 重命名文件数：{ $count }
 media-check-oversize-count = 超过100MB的文件数：{ $count }
@@ -16,8 +16,8 @@ media-check-subfolder-count = 子文件夹数：{ $count }
 
 ## Shown at the top of each section
 
-media-check-renamed-header = 一些文件因为兼容性问题被重命名：
-media-check-oversize-header = 超过100MB的文件将不能同步到AnkiWeb。
+media-check-renamed-header = 部分文件因兼容性问题被重命名：
+media-check-oversize-header = 超过100MB的文件无法同步到AnkiWeb。
 media-check-subfolder-header = 媒体文件夹不支持子文件夹。
 media-check-missing-header = 以下文件在卡片中被提及但在媒体文件夹里没找到：
 media-check-unused-header = 以下文件存在于媒体文件夹中，但是未被任何卡片使用：
