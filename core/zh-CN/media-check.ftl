@@ -19,15 +19,15 @@ media-check-subfolder-count = 子文件夹数：{ $count }
 media-check-renamed-header = 部分文件因兼容性问题被重命名：
 media-check-oversize-header = 超过100MB的文件无法同步到AnkiWeb。
 media-check-subfolder-header = 媒体文件夹不支持子文件夹。
-media-check-missing-header = 以下文件在卡片中被提及但在媒体文件夹里没找到：
-media-check-unused-header = 以下文件存在于媒体文件夹中，但是未被任何卡片使用：
+media-check-missing-header = 以下文件在卡片中被使用但在媒体文件夹里没找到：
+media-check-unused-header = 以下文件存在于媒体文件夹中，但未被任何卡片使用：
 
 ## Shown once for each file
 
 media-check-renamed-file = 重命名：{ $old }->{ $new }
 media-check-oversize-file = 大于100MB：{ $filename }
 media-check-subfolder-file = 文件夹：{ $filename }
-media-check-missing-file = 缺少：{ $filename }
+media-check-missing-file = 缺失：{ $filename }
 media-check-unused-file = 未被使用：{ $filename }
 
 ## Progress
@@ -38,10 +38,10 @@ media-check-checked = 已检查{ $count }…
 
 media-check-delete-unused-confirm = 确定删除未使用的多媒体文件吗？
 media-check-files-remaining =
+    剩余
     { $count ->
-        [one] 1 个文件
-       *[other] { $count } 个文件
-    }剩余
+       *[other] { $count } 个文件。
+    }
 media-check-delete-unused-complete =
     { $count ->
        *[other] { $count }个文件
