@@ -180,7 +180,7 @@ deck-config-starting-ease-tooltip =
 deck-config-easy-bonus-tooltip = 额外的乘数，用于设定复习卡片时选择「简单」后的间隔。
 deck-config-interval-modifier-tooltip =
     此乘数应用于所有复习卡片，微调即可使Anki排程更加保守或激进。
-    更改此选项前请务必参考使用手册。
+    更改此选项前请务必参考帮助文档。
 deck-config-hard-interval-tooltip = 选择「困难」后的复习间隔乘数。
 deck-config-new-interval-tooltip = 选择「重来」后的复习间隔乘数。
 deck-config-minimum-interval-tooltip = 复习卡片选择「重来」后的最小间隔。

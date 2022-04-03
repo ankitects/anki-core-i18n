@@ -5,11 +5,11 @@ media-check-window-title = 检查媒体
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count =
-    垃圾文件夹：{ $count ->
+    回收站：{ $count ->
        *[other] { $count } 个文件， { $megs }MB
     }
-media-check-missing-count = 缺失文件数：{ $count }
-media-check-unused-count = 未使用文件数：{ $count }
+media-check-missing-count = 缺失的文件数：{ $count }
+media-check-unused-count = 未被使用的文件数：{ $count }
 media-check-renamed-count = 重命名文件数：{ $count }
 media-check-oversize-count = 超过100MB的文件数：{ $count }
 media-check-subfolder-count = 子文件夹数：{ $count }
@@ -36,7 +36,7 @@ media-check-checked = 已检查{ $count }…
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = 确定删除未使用的多媒体文件吗？
+media-check-delete-unused-confirm = 确定删除未使用的媒体文件吗？
 media-check-files-remaining =
     剩余
     { $count ->
@@ -44,9 +44,9 @@ media-check-files-remaining =
     }
 media-check-delete-unused-complete =
     { $count ->
-       *[other] { $count }个文件
-    }移到垃圾筒
-media-check-trash-emptied = 垃圾文件夹已清空。
+       *[other] 已移动 { $count } 个文件
+    }至回收站。
+media-check-trash-emptied = 已清空回收站。
 media-check-trash-restored = 已恢复删除的文件到媒体文件夹。
 
 ## Rendering LaTeX
@@ -58,7 +58,7 @@ media-check-all-latex-rendered = 已渲染所有LaTeX。
 media-check-delete-unused = 删除未使用的文件
 media-check-render-latex = 渲染LaTeX
 # button to permanently delete media files from the trash folder
-media-check-empty-trash = 清空垃圾筒
+media-check-empty-trash = 清空回收站
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 恢复已删除
 media-check-check-media-action = 检查媒体
