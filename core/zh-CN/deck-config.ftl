@@ -47,7 +47,7 @@ deck-config-new-insertion-order-tooltip =
     更改此选项将自动更新现存新卡片的位置。
 deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
 deck-config-new-insertion-order-random = 随机插入
-deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建议设为顺序插入，并以调整新卡片的聚集顺序代之。
+deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建议设为顺序插入，并以调整新卡片的抽取顺序代之。
 
 ## Lapses section
 
@@ -77,21 +77,21 @@ deck-config-bury-tooltip = 是否将同一笔记的其他卡片（如翻转卡�
 ## Ordering section
 
 deck-config-ordering-title = 展示顺序
-deck-config-new-gather-priority = 新卡片聚集顺序
+deck-config-new-gather-priority = 新卡片抽取顺序
 deck-config-new-gather-priority-tooltip-2 =
-    「按牌组排序」：从顶部开始，按顺序从每个牌组的顶部开始聚集卡片。
-    每个牌组中的卡片按升序聚集。如达到所选牌组的单日上限，则可能没有检查所有的牌组。
+    「按牌组排序」：从顶部开始，按顺序从每个牌组的顶部开始抽取卡片。
+    每个牌组中的卡片按升序抽取。如达到所选牌组的单日上限，则可能没有检查所有的牌组。
     对于大型牌组，此方式是最快的，并可优先处理处于顶部的子牌组。
     
-    「按位置升序排序」：按升序位置(due #)聚集卡片，旧卡片优先。
+    「按位置升序排序」：按升序位置(due #)抽取卡片，旧卡片优先。
     
-    「按位置降序排序」：按降序位置(due #)聚集卡片，新卡片优先。
+    「按位置降序排序」：按降序位置(due #)抽取卡片，新卡片优先。
     
-    「随机排列笔记」：先随机排列选取的笔记，再从中聚集卡片。
+    「随机排列笔记」：先随机排列选取的笔记，再从中抽取卡片。
     当搁置关联卡片功能被禁用时，可使一个笔记的所有卡片在一次练习中展示。
     （例如：使「正面->背面」和「背面->正面」在一次练习展示）
     
-    「随机排列卡片」：完全随机地聚集卡片。
+    「随机排列卡片」：完全随机地抽取卡片。
 deck-config-new-gather-priority-deck = 按牌组排序
 deck-config-new-gather-priority-position-lowest-first = 按位置升序排序
 deck-config-new-gather-priority-position-highest-first = 按位置降序排序
@@ -102,11 +102,11 @@ deck-config-new-card-sort-order-tooltip-2 =
     「内容模板」：按照内容模板的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使所有「正面->背面」的卡片先于「背面->正面」的卡片展示。
     
-    「聚集顺序」：按照聚集卡片的顺序显示卡片。
+    「抽取顺序」：按照抽取卡片的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使一条笔记上的每个卡片依次出现。
     
     「先内容模板，后随机顺序」：与「按内容模板顺序」相同，但将打乱每个卡片的内容模板顺序。
-    例如：当与「位置升序」的聚集排序结合时，可用以随机顺序展示最旧的卡片。
+    例如：当与「位置升序」的抽取排序结合时，可用以随机顺序展示最旧的卡片。
     
     「随机笔记，后内容模板」：随机抽取笔记，然后按顺序展示其所有关联卡片。
     
@@ -119,14 +119,14 @@ deck-config-sort-order-lowest-position = 按位置升序排序
 deck-config-sort-order-highest-position = 按位置降序排序
 deck-config-sort-order-random = 随机排序
 deck-config-sort-order-template-then-gather = 按内容模板排序
-deck-config-sort-order-gather = 按聚集顺序排序
+deck-config-sort-order-gather = 按抽取顺序排序
 deck-config-new-review-priority = 新卡片展示顺序
 deck-config-new-review-priority-tooltip = 何时显示与复习卡片关联的新卡。
 deck-config-interday-step-priority = 跨日卡片展示顺序
 deck-config-interday-step-priority-tooltip =
     何时展示跨日的正在（重新）学习的卡片。
     复习上限先应用于跨日学习的卡片，再应用于复习卡片。
-    尽管此选项可调整聚集卡片的展示顺序，但始终优先聚集跨日卡片。
+    尽管此选项可调整抽取卡片的展示顺序，但始终优先抽取跨日卡片。
 deck-config-review-mix-mix-with-reviews = 与复习卡片混合展示
 deck-config-review-mix-show-after-reviews = 在复习卡片后展示
 deck-config-review-mix-show-before-reviews = 在复习卡片前展示
@@ -239,11 +239,11 @@ deck-config-which-deck = 请选择牌组？
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
 deck-config-new-card-sort-order-tooltip =
-    卡片聚集后的排序方法。
+    卡片抽取后的排序方法。
     默认设置下，为避免同一笔记的多张卡片连续展示，将先按内容模板排序。
 deck-config-new-gather-priority-tooltip =
-    「牌组」：按顺序聚集每个子牌组的卡片，当选取的牌组超出上限时停止。
+    「牌组」：按顺序抽取每个子牌组的卡片，当选取的牌组超出上限时停止。
     较快，并可使顶部牌组优先处理。
     
-    「位置」：按牌组排序前从中聚集卡片。
-    可使较旧的卡片在父牌组上限较低无法从聚集每个子牌组中的卡片时，也能按位置顺序(due #) 优先展示。
+    「位置」：按牌组排序前从中抽取卡片。
+    可使较旧的卡片在父牌组上限较低无法抽取每个子牌组中的卡片时，也能按位置顺序(due #) 优先展示。
