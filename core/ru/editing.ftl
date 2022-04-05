@@ -9,6 +9,7 @@ editing-cards = Карточки
 editing-center = Центр
 editing-change-color = Изменить цвет
 editing-cloze-deletion = Заполнить пропуск
+editing-cloze-deletion-repeat = Задание с пропуском (та же карточка)
 editing-couldnt-record-audio-have-you-installed = Не получается записать звук. У вас установлен "lame"?
 editing-customize-card-templates = Настроить шаблоны карточек
 editing-customize-fields = Настроить поля

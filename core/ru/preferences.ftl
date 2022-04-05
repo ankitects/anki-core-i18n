@@ -49,3 +49,4 @@ preferences-backup-explanation =
 preferences-daily-backups = Оставлять резервных копий ежедневно:
 preferences-weekly-backups = Оставлять резервных копий еженедельно:
 preferences-monthly-backups = Оставлять резервных копий ежемесячно:
+preferences-minutes-between-backups = Интервал между автоматическими копиями:

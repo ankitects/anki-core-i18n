@@ -14,3 +14,6 @@ profiles-prefs-corrupt-title = Настройки повреждены
 profiles-prefs-file-is-corrupt = Файл Anki pres21.db был повреждён и восстановлен. Если вы использовали несколько профилей, пожалуйста, добавьте их обратно, используя те же имена для восстановления карточек.
 profiles-profile-does-not-exist = Запрошенный профиль не существует
 profiles-creating-backup = Создание резервной копии...
+profiles-backup-created = Резервная копия создана.
+profiles-backup-creation-failed = Не удалось создать резервную копию: { $reason }
+profiles-backup-unchanged = Нет изменений с последнего раза
