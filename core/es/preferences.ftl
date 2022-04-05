@@ -36,7 +36,7 @@ preferences-when-adding-default-to-current-deck = Al añadir, hacerlo en el mazo
 preferences-you-can-restore-backups-via-fileswitch = Puedes restaurar copias de seguridad con Archivo>Cambiar perfil.
 preferences-legacy-timezone-handling = Gestión de zonas horarias antiguas (con errores, pero necesario para AnkiDroid <= 2.14)
 preferences-default-search-text = Texto de búsqueda predeterminado
-preferences-default-search-text-example = Por ejemplo: 'deck:current '
+preferences-default-search-text-example = Por ejemplo: 'mazo:actual '
 preferences-theme-label = Tema: { $theme }
 preferences-theme-follow-system = Seguir el sistema
 preferences-theme-light = Claro
