@@ -35,14 +35,11 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] 今天将有{ $remaining }张学习中的卡片到期。
     }
-scheduling-congratulations-finished = 恭喜！当前牌组现已完成。
+scheduling-congratulations-finished = 恭喜！您已完成当前牌组的学习！
 scheduling-today-review-limit-reached =
     已达到今日复习上限，但仍有卡片尚待复习。
     为达最佳记忆效果， 可考虑在设置中提升每日上限。
-scheduling-today-new-limit-reached =
-    仍有更多新卡片可供学习，但现已达今日上限。
-    可在设置中提升学习上限。但应当注意：
-    所学习的新卡片越多，短期内的复习量就会越大。
+scheduling-today-new-limit-reached = 尚有卡片可供学习，但已达今日学习上限，您可以在设置中提升学习上限。但需注意：学习的新卡片越多，短期内复习量就会越大。
 scheduling-buried-cards-found = 搁置的卡片将在明天展示。如想立即查看，请{ $unburyThem }。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
@@ -72,12 +69,12 @@ scheduling-bury-related-new-cards-until-the = 搁置相关新卡片到隔日
 scheduling-bury-related-reviews-until-the-next = 搁置相关复习到隔日
 scheduling-days = 天
 scheduling-description = 描述
-scheduling-easy-bonus = 「简单」卡片复习间隔乘数
+scheduling-easy-bonus = 复习时，选择「简单」后再次出现的间隔乘数
 scheduling-easy-interval = 「简单」卡片再现间隔
 scheduling-end = （结束）
 scheduling-general = 总体
 scheduling-graduating-interval = 毕业卡片再现间隔
-scheduling-hard-interval = 「困难」卡片复习间隔乘数
+scheduling-hard-interval = 复习时，选择「困难」后再次出现的间隔乘数
 scheduling-ignore-answer-times-longer-than = 忽略回答时间上限：超过
 scheduling-interval-modifier = 全局间隔乘数
 scheduling-lapses = 遗忘
@@ -85,13 +82,13 @@ scheduling-lapses2 = 遗忘次数
 scheduling-learning = 学习中
 scheduling-leech-action = 记忆难点处理
 scheduling-leech-threshold = 记忆难点阈值
-scheduling-maximum-interval = 最大间隔
+scheduling-maximum-interval = 复习卡片的最大间隔（天）
 scheduling-maximum-reviewsday = 每日复习卡片上限（张/天）
 scheduling-minimum-interval = 最小间隔
 scheduling-mix-new-cards-and-reviews = 混合新卡片和复习卡
 scheduling-new-cards = 新卡片
 scheduling-new-cardsday = 每日学习新卡片上限（张/天）
-scheduling-new-interval = 「重来」卡片复习间隔乘数
+scheduling-new-interval = 复习时，选择「重来」后再次出现的间隔乘数
 scheduling-new-options-group-name = 新设置组名称：
 scheduling-options-group = 设置组：
 scheduling-order = 顺序
