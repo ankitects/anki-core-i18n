@@ -92,10 +92,28 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Pořadí zobrazování
 deck-config-new-gather-priority = Pořadí nabírání nových karet
+deck-config-new-gather-priority-tooltip-2 =
+    `Balík`: získává karty z každého balíku v pořadí, začíná z vrchu. Karty z každého balíku jsou
+    získávány ve vzestupném pořadí. Jestliže se dosáhne denního limitu vybraného balíku, získávání 
+    karet se může zastavit dříve, než byly prověřeny všechny balíky. Toto řazení je nejrychlejší pro
+    velké kolekce a umožňuje upřednostňovat podřízené balíky, které jsou výše.
+    
+    `Umístění vzestupně`: získává karty podle pozice (ke zkoušení) vzestupně, což je obvykle
+    nejstarší přidané jako první.
+    
+    `Umístění sestupně`: získává karty podle pozice (ke zkoušení) sestupně, což je obvykle
+    nejnovější přidané jako první.
+    
+    `Poznámky náhodně`: získává karty z náhodně vybraných poznámek. Když je odkládání 
+    příbuzných karet zakázáno, umožňuje to vidět všechny karty jedné poznámky v jednom 
+    sezení (např. přední a zadní stranu karty)
+    
+    `Karty náhodně`: získává karty zcela náhodně.
 deck-config-new-gather-priority-deck = Balík
 deck-config-new-gather-priority-position-lowest-first = Umístění vzestupně
 deck-config-new-gather-priority-position-highest-first = Umístění sestupně
 deck-config-new-gather-priority-random-notes = Poznámky náhodně
+deck-config-new-gather-priority-random-cards = Karty náhodně
 deck-config-new-card-sort-order = Pořadí řazení nových karet
 deck-config-sort-order-card-template-then-random = Šablona karty, poté náhodně
 deck-config-sort-order-random = Náhodně
