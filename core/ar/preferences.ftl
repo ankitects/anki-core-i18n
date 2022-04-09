@@ -44,7 +44,7 @@ preferences-theme-dark = داكن
 preferences-v3-scheduler = مجدول V3
 preferences-ignore-accents-in-search = تجاهل حركات الأحرف في البحث (أبطأ)
 preferences-backup-explanation =
-    يأخذ أنكي نسخ احتياطية لمجموعتك بشكل دوري عندما تغلقه. سيبدأ أنكي بحذف بعض النسخ
+    يأخذ أنكي نسخ احتياطية لمجموعتك بشكل دوري. سيبدأ أنكي بحذف بعض النسخ
     لتوفير مساحة القرص بعد مضي أكثر من يومين على أخدها.
 preferences-daily-backups = عدد النسخ اليومية المحفوظة:
 preferences-weekly-backups = عدد النسخ الأسبوعية المحفوظة:
