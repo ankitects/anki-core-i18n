@@ -82,3 +82,5 @@ importing-processed-media-file =
         [few] Zpracovány { $count } soubory médií
        *[other] Zpracováno { $count } souborů medií
     }
+importing-importing-collection = Importuje se kolekce…
+importing-failed-to-import-media-file = Import mediálního souboru selhal: { $debugInfo }

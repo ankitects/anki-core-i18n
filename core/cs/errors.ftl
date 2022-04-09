@@ -9,6 +9,8 @@ errors-100-tags-max =
     třeba vybírat podřízené štítky, jestliže jste vybrali nadřazený štítek.
 errors-multiple-notetypes-selected = Prosím, vyberte poznámky pouze od jednoho typu poznámky.
 errors-please-check-database = Prosím použijte funkci Zkontrolovat databázi, poté to zkuste znovu.
+errors-please-check-media = Prosím použijte funkci Zkontrolovat média, poté to zkuste znovu.
+errors-collection-too-new = Otevření této kolekce vyžaduje novější verzi Anki.
 
 ## Card Rendering
 

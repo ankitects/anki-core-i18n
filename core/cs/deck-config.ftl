@@ -96,31 +96,50 @@ deck-config-bury-tooltip =
 deck-config-ordering-title = Pořadí zobrazování
 deck-config-new-gather-priority = Pořadí nabírání nových karet
 deck-config-new-gather-priority-tooltip-2 =
-    `Balík`: získává karty z každého balíku v pořadí, začíná z vrchu. Karty z každého balíku jsou
-    získávány ve vzestupném pořadí. Jestliže se dosáhne denního limitu vybraného balíku, získávání 
+    `Balík`: nabírá karty z každého balíku v pořadí, začíná z vrchu. Karty z každého balíku jsou
+    nabírány ve vzestupném pořadí. Jestliže se dosáhne denního limitu vybraného balíku, nabírání 
     karet se může zastavit dříve, než byly prověřeny všechny balíky. Toto řazení je nejrychlejší pro
     velké kolekce a umožňuje upřednostňovat podřízené balíky, které jsou výše.
     
-    `Umístění vzestupně`: získává karty podle pozice (ke zkoušení) vzestupně, což je obvykle
+    `Umístění vzestupně`: nabírá karty podle pozice (ke zkoušení) vzestupně, což je obvykle
     nejstarší přidané jako první.
     
-    `Umístění sestupně`: získává karty podle pozice (ke zkoušení) sestupně, což je obvykle
+    `Umístění sestupně`: nabírá karty podle pozice (ke zkoušení) sestupně, což je obvykle
     nejnovější přidané jako první.
     
-    `Poznámky náhodně`: získává karty z náhodně vybraných poznámek. Když je odkládání 
+    `Poznámky náhodně`: nabírá karty z náhodně vybraných poznámek. Když je odkládání 
     příbuzných karet zakázáno, umožňuje to vidět všechny karty jedné poznámky v jednom 
     sezení (např. přední a zadní stranu karty)
     
-    `Karty náhodně`: získává karty zcela náhodně.
+    `Karty náhodně`: nabírá karty zcela náhodně.
 deck-config-new-gather-priority-deck = Balík
 deck-config-new-gather-priority-position-lowest-first = Umístění vzestupně
 deck-config-new-gather-priority-position-highest-first = Umístění sestupně
 deck-config-new-gather-priority-random-notes = Poznámky náhodně
 deck-config-new-gather-priority-random-cards = Karty náhodně
 deck-config-new-card-sort-order = Pořadí řazení nových karet
-deck-config-sort-order-card-template-then-random = Šablona karty, poté náhodně
+deck-config-new-card-sort-order-tooltip-2 =
+    `Typ karty`: Zobrazuje karty v pořadí čísel typu karty. Jestliže je zakázáno odkládání příbuzných 
+    karet, toto zajistí, že se všechny přední strany karet zobrazí dříve, než zadní strany karet.
+    Toto je užitečné, když se mají všechny karty stejné poznámky zobrazovat ve stejném sezení, ale 
+    ne příliš blízko u sebe.
+    
+    `V pořadí nabrání`: Zobrazuje karty přesně tak, jak byly nabrány. Jestliže je zakázáno odkládání příbuzných 
+    karet, toto obvykle vede k tomu, že se všechny karty jedné poznámky zobrazí jedna po druhé.
+    
+    `Typ karty, poté náhodně`: Stejně jako `Typ karty`, ale zamíchá karty každého čísla typu karet. 
+    Jestliže použijete `Umístění vzestupně`, aby se nabraly nejstarší karty, mohli byste použít toto 
+    nastavení, abyste viděli tyto karty v náhodném pořadí, ale aby bylo stále zajištěno, že karty stejné 
+    poznámky nebudou příliš blízko u sebe.
+    
+    `Poznámky náhodně, poté typ karty`: Vybírá poznámky náhodně, poté zobrazí všechny jejich 
+    příbuzné karty v pořadí.
+    
+    `Náhodně`: Zcela zamíchá nabrané karty.
+deck-config-sort-order-card-template-then-random = Typ karty, poté náhodně
+deck-config-sort-order-random-note-then-template = Poznámky náhodně, poté typ karty
 deck-config-sort-order-random = Náhodně
-deck-config-sort-order-template-then-gather = Šablona karty, poté v pořadí nabrání
+deck-config-sort-order-template-then-gather = Typ karty
 deck-config-sort-order-gather = V pořadí nabrání
 deck-config-new-review-priority = Pořadí nové/opakování
 deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu ke kartám k opakování.
@@ -241,6 +260,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Interval absolvování by měl být nejméně stejně dlouhý jako poslední krok učení.
 deck-config-good-above-easy = Interval pro snadné by měl být nejméně stejně dlouhý jako interval absolvování.
 deck-config-relearning-steps-above-minimum-interval = Minimální interval chyby by měl být nejméně stejně dlouhý jako poslední krok znovu učených.
+deck-config-maximum-answer-secs-above-recommended = Anki může plánovat Vaše opakování účinněji, když máte krátké otázky.
 
 ## Selecting a deck
 
