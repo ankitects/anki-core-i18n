@@ -16,6 +16,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Po zopakování budou karty automaticky vráceny do jejich originálního balíku.
 studying-continue = Pokračovat
+studying-counts-differ = Počty se liší od seznamu balíků, protože přeskakování karet je povoleno. Některé karty byly vyloučeny a jiné mohou obsadit jejich místo.
 studying-delete-note = Odstranit poznámku
 studying-deleting-this-deck-from-the-deck = Vymazáním tohoto balíku se všechny zbývající karty vrátí do jejich originálního balíku.
 studying-easy = Snadné
@@ -57,10 +58,4 @@ studying-minute =
         [one] { $count } minuta.
         [few] { $count } minuty.
        *[other] { $count } minut.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] Poznámka a její karta { $count } smazána.
-        [few] Poznámka a její karty { $count } smazány.
-       *[other] Poznámka a její karty { $count } smazány.
     }
