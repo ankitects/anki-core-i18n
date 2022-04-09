@@ -74,7 +74,6 @@ scheduling-easy-interval = 「简单」卡片再现间隔
 scheduling-end = （结束）
 scheduling-general = 总体
 scheduling-graduating-interval = 毕业卡片再现间隔
-scheduling-hard-interval = 复习时，选择「困难」后再次出现的间隔乘数
 scheduling-ignore-answer-times-longer-than = 忽略回答时间上限：超过
 scheduling-interval-modifier = 全局间隔乘数
 scheduling-lapses = 遗忘
