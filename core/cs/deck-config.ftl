@@ -61,6 +61,9 @@ deck-config-new-insertion-order-tooltip =
     tohoto nastavení automaticky aktualizuje stávající pořadí nových karet.
 deck-config-new-insertion-order-sequential = Postupně (nejstarší karty první)
 deck-config-new-insertion-order-random = Náhodně
+deck-config-new-insertion-order-random-with-v3 =
+    S V3 plánovačem je lepší nechat toto nastavení na postupně 
+    a upravit místo toho pořadí nabíraní nových karet.
 
 ## Lapses section
 
