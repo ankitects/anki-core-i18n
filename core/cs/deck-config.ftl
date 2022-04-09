@@ -83,6 +83,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Přeskakování
 deck-config-bury-new-siblings = Odložit nové příbuzné karty na další den
 deck-config-bury-review-siblings = Odložit opakované příbuzné karty na další den
+deck-config-bury-interday-learning-siblings = Odložit učené příbuzné karty na další den
 deck-config-bury-tooltip =
     Zdali budou ostatní karty stejné poznámky (např. obrácené karty, 
     sousední doplňovačky) odloženy na další den.
@@ -91,27 +92,12 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Pořadí zobrazování
 deck-config-new-gather-priority = Pořadí nabírání nových karet
-deck-config-new-gather-priority-tooltip =
-    `Balík`: nabírá karty z každého podřízeného balíku v pořadí a přestane, když 
-    se překročí limit vybraného balíku. Toto je rychlejší a umožňuje to upřednostnit 
-    podřízené balíky, které jsou výše.
-    
-    `Umístění`: nabírá karty ze všech balíků předtím, než se uspořádají. To 
-    zajistí, že nejstarší karty budou zobrazeny první, a to i když rodičovský limit 
-    není dostatečně vysoký, aby se zobrazily karty ze všech balíků.
 deck-config-new-gather-priority-deck = Balík
-deck-config-new-gather-priority-position-lowest-first = Umístění (nejnižší první)
-deck-config-new-gather-priority-position-highest-first = Umístění (nejvyšší první)
+deck-config-new-gather-priority-position-lowest-first = Umístění vzestupně
+deck-config-new-gather-priority-position-highest-first = Umístění sestupně
+deck-config-new-gather-priority-random-notes = Poznámky náhodně
 deck-config-new-card-sort-order = Pořadí řazení nových karet
-deck-config-new-card-sort-order-tooltip =
-    Jak jsou karty řazeny poté, co byly nabrány. Ve výchozím nastavení, Anki řadí 
-    nejdříve podle šablony karty, aby se zabránilo zobrazení více karet stejné 
-    poznámky v řadě za sebou.
-deck-config-sort-order-card-template-then-lowest-position = Šablona karty, poté nejnižší umístění
-deck-config-sort-order-card-template-then-highest-position = Šablona karty, poté nejvyšší umístění
 deck-config-sort-order-card-template-then-random = Šablona karty, poté náhodně
-deck-config-sort-order-lowest-position = Nejnižší umístění
-deck-config-sort-order-highest-position = Nejvyšší umístění
 deck-config-sort-order-random = Náhodně
 deck-config-sort-order-template-then-gather = Šablona karty, poté v pořadí nabrání
 deck-config-sort-order-gather = V pořadí nabrání
@@ -199,7 +185,6 @@ deck-config-clone-group = Klonovat nastavení
 ## Removing
 
 deck-config-remove-group = Odstranit nastavení
-deck-config-confirm-normal = Odstranit { $name }?
 deck-config-will-require-full-sync = Požadovaná změna způsobí kompletní nahrání databáze na server při příští synchronizaci Vaší kolekce. Máte-li opakování nebo jiné změny na jiném zařízení, které ještě nebyly synchronizovány, budou ztraceny.
 deck-config-confirm-remove-name = Odstranit { $name }?
 
@@ -233,9 +218,12 @@ deck-config-reviews-too-low =
        *[other] přidává { $cards } nových karet každý den
     }, limit opakování by měl být nejméně { $expected }.
 deck-config-learning-step-above-graduating-interval = Interval absolvování by měl být nejméně stejně dlouhý jako poslední krok učení.
-deck-config-good-above-easy = Snadný interval by měl být nejméně stejně dlouhý jako interval absolvování.
+deck-config-good-above-easy = Interval pro snadné by měl být nejméně stejně dlouhý jako interval absolvování.
 deck-config-relearning-steps-above-minimum-interval = Minimální interval chyby by měl být nejméně stejně dlouhý jako poslední krok znovu učených.
 
 ## Selecting a deck
 
 deck-config-which-deck = Který balík požadujete?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+

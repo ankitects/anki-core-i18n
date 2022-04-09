@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Zvýšit dnešní limit nových ka
 custom-study-increase-todays-new-card-limit-by = Zvýšit dnešní limit nových karet o
 custom-study-increase-todays-review-card-limit = Zvýšit dnešní limit opakovaných karet
 custom-study-increase-todays-review-limit-by = Zvýšit dnešní limit opakovaných karet o
-custom-study-new-cards-in-deck-over-today = Nové karty v balíku převyšující dnešní limit: { $val }
 custom-study-new-cards-only = Jen nové karty
 custom-study-no-cards-matched-the-criteria-you = Žádná karta neodpovídá kritériu, které jste zadali.
 custom-study-ok = OK
@@ -21,8 +20,12 @@ custom-study-review-ahead = Opakovat dopředu
 custom-study-review-ahead-by = Opakovat dopředu o
 custom-study-review-cards-forgotten-in-last = Zopakujte karty zapomenuté v minulých
 custom-study-review-forgotten-cards = Opakovat zapomenuté karty
-custom-study-reviews-due-in-deck-over-today = Karty k zopakování v balíku převyšující dnešní limit: { $val }
 custom-study-select = Vybrat
 custom-study-select-tags-to-exclude = Vynechat štítky:
 custom-study-selective-study = Vlastní studium
 custom-study-study-by-card-state-or-tag = Studovat podle stavu karty nebo štítku
+custom-study-available-new-cards = Dostupné nové karty: { $count }
+custom-study-available-review-cards = Dostupné opakované karty: { $count }
+
+## DEPRECATED - you do not need to translate these.
+

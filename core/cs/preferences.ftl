@@ -1,19 +1,15 @@
 preferences-automatically-sync-on-profile-openclose = Automaticky synchronizovat při otevření a zavření profilu
 preferences-backups = Zálohy
-preferences-backups2 = zálohy
-preferences-backupsanki-will-create-a-backup-of = <b>Zálohy</b><br>Anki vytvoří zálohu kolekce pokaždé, když se zavře nebo synchronizuje.
 preferences-basic = Základní
 preferences-change-deck-depending-on-note-type = Změnit balík v závislosti na typu poznámky
 preferences-changes-will-take-effect-when-you = Změny se projeví až po restartování Anki.
 preferences-hours-past-midnight = hodin po půlnoci
 preferences-interface-language = Jazyk rozhraní:
 preferences-interrupt-current-audio-when-answering = Po odpovědi přerušit aktuální audio
-preferences-keep = Zachovat
 preferences-learn-ahead-limit = Učit se navíc
 preferences-mins = minut
 preferences-network = Síť
 preferences-next-day-starts-at = Další den začíná v
-preferences-night-mode = Noční režim
 preferences-note-media-is-not-backed-up = Upozornění: Média se nezálohují. Prosím vytvořte si pravidelné zálohy vašeho adresáře Anki.
 preferences-on-next-sync-force-changes-in = Při příští synchronizaci vynutit změny v jednom směru
 preferences-paste-clipboard-images-as-png = Vložit obrázek ze schránky jako PNG
@@ -42,3 +38,11 @@ preferences-theme-follow-system = Podle systému
 preferences-theme-light = Světlý
 preferences-theme-dark = Tmavý
 preferences-v3-scheduler = V3 plánovač
+preferences-ignore-accents-in-search = Ignorovat diakritiku ve vyhledávání (pomalejší)
+preferences-backup-explanation =
+    Anki pravidelně zálohuje Vaši kolekci. Jestliže jsou zálohy více než 2 dny staré,
+    Anki začne odstraňovat některé z nich, aby uvolnil místo na disku.
+preferences-daily-backups = Počet denních záloh, které se mají zachovat:
+preferences-weekly-backups = Počet týdenních záloh, které se mají zachovat:
+preferences-monthly-backups = Počet měsíčních záloh, které se mají zachovat:
+preferences-minutes-between-backups = Počet minut mezi automatickými zálohami:
