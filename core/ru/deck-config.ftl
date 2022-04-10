@@ -68,18 +68,21 @@ deck-config-bury-tooltip = Будут ли другие карточки той 
 
 deck-config-ordering-title = Порядок отображения
 deck-config-new-gather-priority = Порядок отбора новых
+deck-config-new-gather-priority-tooltip-2 =
+    `Колода`: отбирает карточки из каждой колоды по их порядку, начиная сверху. Карточки из каждой колоды отбираются по возрастанию.
+    Если достигнут дневной лимит выбранной колоды, отбор может остановиться до того, как все колоды будут пройдены. Этот вариант самый быстрый при работе с большими коллекциями и позволяет вам придавать больший вес верхним подколодам.
+    `По возрастанию`: отбирает карточки по возрастанию номера в очереди, и обычно старые добавляются первыми.
+    `По убыванию`: отбирает карты по убыванию номера в очереди, и обычно новые добавляются первыми.
+    `Случайные записи`: отбирает карточки случайных записей. Если связанные откладываются, то это позволяет повторить все карточки записи во время учёбного сеанса.
+    `Случайные карточки`: отбирает карточки случайным образом.
 deck-config-new-gather-priority-deck = По колоде
 deck-config-new-gather-priority-position-lowest-first = По возрастанию номеров
 deck-config-new-gather-priority-position-highest-first = По убыванию номеров
 deck-config-new-gather-priority-random-notes = Случайные записи
 deck-config-new-gather-priority-random-cards = Случайные карточки
 deck-config-new-card-sort-order = Порядок новых
-deck-config-sort-order-card-template-then-lowest-position = По шаблону, потом по возрастанию номеров
-deck-config-sort-order-card-template-then-highest-position = По шаблону, потом по убыванию номеров
 deck-config-sort-order-card-template-then-random = По шаблону, потом случайный
 deck-config-sort-order-random-note-then-template = Случайная запись, затем шаблон карточки
-deck-config-sort-order-lowest-position = По возрастанию номеров
-deck-config-sort-order-highest-position = По убыванию номеров
 deck-config-sort-order-random = Случайный
 deck-config-sort-order-template-then-gather = По шаблону, потом по порядку отбора
 deck-config-sort-order-gather = По порядку отбора
@@ -184,7 +187,3 @@ deck-config-which-deck = Какую колоду вы выбираете?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip = Как сортируются карточки после отбора. По умолчанию, Anki сначала сортирует по шаблону карточки, чтобы не показывать подряд несколько карточек одной записи.
-deck-config-new-gather-priority-tooltip =
-    `По колоде`: отбирает карточки по порядку из каждой подколоды и останавливается, когда достигнут лимит для выбранной колоды. Это быстрее и позволяет дать больший приоритет верхним подколодам.
-    `По номеру`: сначала отбирает карточки из всех колод, потом сортирует. В этом случае карточки всегда идут строго по номеру в очереди, даже если лимит материнской колоды слишком низкий, чтобы показать карточки из всех колод.
