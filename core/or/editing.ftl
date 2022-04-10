@@ -11,6 +11,7 @@ editing-cloze-deletion = କ୍ଲୋଜ୍ ବିଲୋପ
 editing-couldnt-record-audio-have-you-installed = ଅଡ଼ିଓ ରେକର୍ଡ଼ କରାଯାଇ ପାରିଲା ନାହିଁ। ଆପଣ 'lame' ସଂସ୍ଥାପନ କରିଛନ୍ତି କି?
 editing-customize-card-templates = ପତ୍ର ଟେମ୍ପଲେଟ୍ କଷ୍ଟମାଇଜ୍ କର
 editing-customize-fields = କ୍ଷେତ୍ରଗୁଡ଼ିକୁ କଷ୍ଟମାଇଜ୍ କରନ୍ତୁ
+editing-double-click-image = ପ୍ରତିଛବିକୁ ଦୁଇଥର-କ୍ଲିକ୍ କର
 editing-edit-html = HTML ସମ୍ପାଦନା
 editing-fields = କ୍ଷେତ୍ରଗୁଡ଼ିକ
 editing-jump-to-tags-with-ctrlandshiftandt = Ctrl+Shift+T ସହ ଟ୍ୟାଗକୁ ଯାଅ
@@ -32,5 +33,3 @@ editing-toggle-sticky = Sticky ଟୋଗଲ୍ କରନ୍ତୁ
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML ସମ୍ପାଦକ
-editing-set-text-color = ପାଠ୍ୟ ରଙ୍ଗ ସେଟ୍ କରିବା
-editing-set-text-highlight-color = ପାଠ୍ୟ ହାଇଲାଇଟ୍ ରଙ୍ଗ ସେଟ୍ କରିବା
