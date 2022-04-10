@@ -128,12 +128,8 @@ deck-config-new-card-sort-order-tooltip-2 =
     `רשומה אקראית, ואז תבנית כרטיס`: בוחר רשומות באקראי, ואז מציג את כל האחים שלהן לפי הסדר.
     
     `אקראי`: מערבב במלואו את הכרטיסים שנאספו.
-deck-config-sort-order-card-template-then-lowest-position = תבנית כרטיס, ולאחר מכן מיקום עולה
-deck-config-sort-order-card-template-then-highest-position = תבנית כרטיס, ולאחר מכן מיקום יורד
 deck-config-sort-order-card-template-then-random = תבנית כרטיס, ולאחר מכן סדר אקראי
 deck-config-sort-order-random-note-then-template = רשומה אקראית. ואז, תבנית כרטיס
-deck-config-sort-order-lowest-position = עמדה עולה
-deck-config-sort-order-highest-position = עמדה יורדת
 deck-config-sort-order-random = אקראי
 deck-config-sort-order-template-then-gather = תבנית כרטיס ולאחר מכן בסדר האסיפה
 deck-config-sort-order-gather = סדר האסיפה
@@ -255,6 +251,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = מרווח הסיום צריך להיות ארוך לפחות כמו שלב הלמידה הסופי שלך.
 deck-config-good-above-easy = המרווח הקל צריך להיות ארוך לפחות כמו מרווח הסיום.
 deck-config-relearning-steps-above-minimum-interval = מרווח הזמן המזערי המינימלי צריך להיות לפחות כמו שלב הלימוד מחדש הסופי שלך.
+deck-config-maximum-answer-secs-above-recommended = אנקי יכולה לתזמן את הביקורות שלך בצורה יעילה יותר כאשר אתה מקצר כל שאלה.
 
 ## Selecting a deck
 
@@ -262,15 +259,3 @@ deck-config-which-deck = איזו חפיסה הינך רוצה?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip =
-    כיצד ממיינים קלפים לאחר שנאספו. כברירת מחדל, אנקי ממיין
-    לפי תבנית הכרטיס תחילה, כדי להימנע מכך שכמה כרטיסים מאותה רשומה
-    יוצגו ברצף.
-deck-config-new-gather-priority-tooltip =
-    'חפיסה': אוסף קלפים מכל תת -חפיסה לפי הסדר, ועוצר כאשר
-    יש חריגה מהמגבלה של החפיסה שנבחרה. זה מהיר יותר ומאפשר לך
-    לתעדף תת -חפיסות הקרובות יותר לחפיסה הראשונה.
-    
-    `מיקום`: אוסף קלפים מכל החפיסות לפני מיון. זה
-    מבטיח שהכרטיסים יופיעו בסדר קפדני  (due #), גם אם מגבלת האב היא
-    לא מספיק גבוהה כדי לראות קלפים מכל החפיסות.

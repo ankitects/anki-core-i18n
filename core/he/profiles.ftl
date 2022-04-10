@@ -13,3 +13,7 @@ profiles-could-not-create-data-folder = לא ניתן ליצור את תיקיי
 profiles-prefs-corrupt-title = קובץ ההעדפות פגום
 profiles-prefs-file-is-corrupt = הקובץ prefs21.db נמצא פגום ולכן נוצר מחדש. אם היו לכם מספר פרופילי משתמש, צרו אותם מחדש באותם השמות כדי לשחזר את הכרטיסים.
 profiles-profile-does-not-exist = הפרופיל המבוקש לא נמצא.
+profiles-creating-backup = יוצר גיבוי...
+profiles-backup-created = הגיבוי נוצר בהצלחה.
+profiles-backup-creation-failed = הגיבוי נכשל:{ $reason }
+profiles-backup-unchanged = אין שינויים מהגיבוי האחרון.

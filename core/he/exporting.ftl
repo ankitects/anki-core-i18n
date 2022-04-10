@@ -5,6 +5,7 @@ exporting-anki-deck-package = חבילת חפיסת Anki
 exporting-cards-in-plain-text = כרטיסים בטקסט פשוט
 exporting-collection = אוסף
 exporting-collection-exported = התבצע ייצוא האוסף.
+exporting-colpkg-too-new = אנא עדכן לגרסה העדכנית ביותר של אנקי, ולאחר מכן ייבא שוב את קובץ ה-.colpkg (קובץ האוסף).
 exporting-couldnt-save-file = שמירת קובץ נכשלה: { $val }
 exporting-export = ייצוא...
 exporting-export-format = <b>תבנית ייצוא</b>:
@@ -15,15 +16,18 @@ exporting-include-scheduling-information = כלול מידע על מועדים �
 exporting-include-tags = כלול תגיות
 exporting-notes-in-plain-text = רשומות בטקסט רגיל
 exporting-selected-notes = רשומות נבחרות
-exporting-card-exported = { $count ->
-    [one] { $count } כרטיס יוצא.
-   *[other] { $count } כרטיסים יוצאו.
-  }
-exporting-exported-media-file = { $count ->
-    [one] { $count } קובץ מדיה יוצא
-   *[other] { $count } קבצי מדיה יוצאו
-  }
-exporting-note-exported = { $count ->
-    [one] { $count } רשומה יוצאה.
-   *[other] { $count } רשומות יוצאו.
-  }
+exporting-card-exported =
+    { $count ->
+        [one] { $count } כרטיס יוצא.
+       *[other] { $count } כרטיסים יוצאו.
+    }
+exporting-exported-media-file =
+    { $count ->
+        [one] { $count } קובץ מדיה יוצא
+       *[other] { $count } קבצי מדיה יוצאו
+    }
+exporting-note-exported =
+    { $count ->
+        [one] { $count } רשומה יוצאה.
+       *[other] { $count } רשומות יוצאו.
+    }

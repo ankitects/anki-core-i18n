@@ -9,6 +9,7 @@ errors-100-tags-max =
     אין צורך לבחור תתי תגים אם בחרת בתג האב.
 errors-multiple-notetypes-selected = אנא בחר רשומות מתוך סוג סוג אחד בלבד.
 errors-please-check-database = אנא השתמש בפעולת בדיקת מסד הנתונים ונסה שוב.
+errors-please-check-media = אנא השתמש בפעולה בדוק מדיה ולאחר מכן נסה שוב.
 errors-collection-too-new = נדרשת גירסה חדשה יותר של אנקי כדי לפתוח את האוסף הזה.
 
 ## Card Rendering
