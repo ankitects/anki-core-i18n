@@ -99,26 +99,23 @@ deck-config-new-gather-priority-random-notes = 随机排列笔记
 deck-config-new-gather-priority-random-cards = 随机排列卡片
 deck-config-new-card-sort-order = 新卡片排列顺序
 deck-config-new-card-sort-order-tooltip-2 =
-    「内容模板」：按照内容模板的顺序显示卡片。
+    「卡片模板」：按照卡片模板的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使所有「正面->背面」的卡片先于「背面->正面」的卡片展示。
+    该选项可使同一笔记的卡片在一次学习中展示出来，并确保其不会挨得太近。
     
     「抽取顺序」：按照抽取卡片的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使一条笔记上的每个卡片依次出现。
     
-    「先内容模板，后随机顺序」：与「按内容模板顺序」相同，但将打乱每个卡片的内容模板顺序。
-    例如：当与「位置升序」的抽取排序结合时，可用以随机顺序展示最旧的卡片。
+    「先卡片模板，后随机顺序」：与「卡片模板顺序」相似，但将打乱每个卡片模板的编号。
+    如您使用「位置升序」以抽取较旧的卡片，可以使用该选项以随机顺序展示卡片，同时可确保同一笔记的卡片不会挨得太近。
     
-    「随机笔记，后内容模板」：随机抽取笔记，然后按顺序展示其所有关联卡片。
+    「随机笔记，后卡片模板」：随机抽取笔记，然后按顺序展示其所有关联卡片。
     
     「随机」：完全打乱收集的所有卡片。
-deck-config-sort-order-card-template-then-lowest-position = 先按内容模板排序，再按位置升序排序
-deck-config-sort-order-card-template-then-highest-position = 先按内容模板排序，再按位置降序排序
-deck-config-sort-order-card-template-then-random = 先按内容模板排序，再按随机排序
-deck-config-sort-order-random-note-then-template = 先随机排序笔记，再按内容模板排序
-deck-config-sort-order-lowest-position = 按位置升序排序
-deck-config-sort-order-highest-position = 按位置降序排序
+deck-config-sort-order-card-template-then-random = 先按卡片模板排序，再按随机排序
+deck-config-sort-order-random-note-then-template = 先随机排序笔记，再按卡片模板排序
 deck-config-sort-order-random = 随机排序
-deck-config-sort-order-template-then-gather = 按内容模板排序
+deck-config-sort-order-template-then-gather = 按卡片模板排序
 deck-config-sort-order-gather = 按抽取顺序排序
 deck-config-new-review-priority = 新卡片展示顺序
 deck-config-new-review-priority-tooltip = 何时显示与复习卡片关联的新卡。
@@ -238,12 +235,3 @@ deck-config-which-deck = 请选择牌组？
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip =
-    卡片抽取后的排序方法。
-    默认设置下，为避免同一笔记的多张卡片连续展示，将先按内容模板排序。
-deck-config-new-gather-priority-tooltip =
-    「牌组」：按顺序抽取每个子牌组的卡片，当选取的牌组超出上限时停止。
-    较快，并可使顶部牌组优先处理。
-    
-    「位置」：按牌组排序前从中抽取卡片。
-    可使较旧的卡片在父牌组上限较低无法抽取每个子牌组中的卡片时，也能按位置顺序(due #) 优先展示。
