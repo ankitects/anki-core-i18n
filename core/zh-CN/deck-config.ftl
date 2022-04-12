@@ -79,44 +79,44 @@ deck-config-bury-tooltip = 是否将同一笔记的其他卡片（如翻转卡�
 deck-config-ordering-title = 展示顺序
 deck-config-new-gather-priority = 新卡片抽取顺序
 deck-config-new-gather-priority-tooltip-2 =
-    「按牌组排序」：从顶部开始，按顺序从每个牌组的顶部开始抽取卡片。
+    「按牌组顺序」：从顶部开始，按顺序从每个牌组的顶部开始抽取卡片。
     每个牌组中的卡片按升序抽取。如达到所选牌组的单日上限，则可能没有检查所有的牌组。
     对于大型牌组，此方式是最快的，并可优先处理处于顶部的子牌组。
     
-    「按位置升序排序」：按升序位置(due #)抽取卡片，旧卡片优先。
+    「按位置升序」：按升序位置(due #)抽取卡片，旧卡片优先。
     
-    「按位置降序排序」：按降序位置(due #)抽取卡片，新卡片优先。
+    「按位置降序」：按降序位置(due #)抽取卡片，新卡片优先。
     
     「随机排列笔记」：先随机排列选取的笔记，再从中抽取卡片。
     当搁置关联卡片功能被禁用时，可使一个笔记的所有卡片在一次练习中展示。
     （例如：使「正面->背面」和「背面->正面」在一次练习展示）
     
     「随机排列卡片」：完全随机地抽取卡片。
-deck-config-new-gather-priority-deck = 按牌组排序
-deck-config-new-gather-priority-position-lowest-first = 按位置升序排序
-deck-config-new-gather-priority-position-highest-first = 按位置降序排序
+deck-config-new-gather-priority-deck = 按牌组顺序
+deck-config-new-gather-priority-position-lowest-first = 按位置升序
+deck-config-new-gather-priority-position-highest-first = 按位置降序
 deck-config-new-gather-priority-random-notes = 随机排列笔记
 deck-config-new-gather-priority-random-cards = 随机排列卡片
 deck-config-new-card-sort-order = 新卡片排列顺序
 deck-config-new-card-sort-order-tooltip-2 =
-    「卡片模板」：按照卡片模板的顺序显示卡片。
+    「按卡片模板顺序」：按照卡片模板的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使所有「正面->背面」的卡片先于「背面->正面」的卡片展示。
     该选项可使同一笔记的卡片在一次学习中展示出来，并确保其不会挨得太近。
     
-    「抽取顺序」：按照抽取卡片的顺序显示卡片。
+    「按抽取顺序」：按照抽取卡片的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使一条笔记上的每个卡片依次出现。
     
-    「先卡片模板，后随机顺序」：与「卡片模板顺序」相似，但将打乱每个卡片模板的编号。
+    「先按卡片模板顺序，再随机」：与「卡片模板顺序」相似，但将打乱每个卡片模板的编号。
     如您使用「位置升序」以抽取较旧的卡片，可以使用该选项以随机顺序展示卡片，同时可确保同一笔记的卡片不会挨得太近。
     
-    「随机笔记，后卡片模板」：随机抽取笔记，然后按顺序展示其所有关联卡片。
+    「先随机排列笔记，再按卡片模板顺序」：随机抽取笔记，然后按顺序展示其所有关联卡片。
     
-    「随机」：完全打乱收集的所有卡片。
-deck-config-sort-order-card-template-then-random = 先按卡片模板排序，再按随机排序
-deck-config-sort-order-random-note-then-template = 先随机排序笔记，再按卡片模板排序
-deck-config-sort-order-random = 随机排序
-deck-config-sort-order-template-then-gather = 按卡片模板排序
-deck-config-sort-order-gather = 按抽取顺序排序
+    「随机排列」：完全打乱收集的所有卡片。
+deck-config-sort-order-card-template-then-random = 先按卡片模板顺序，再随机
+deck-config-sort-order-random-note-then-template = 先随机排列笔记，再按卡片模板顺序
+deck-config-sort-order-random = 随机排列
+deck-config-sort-order-template-then-gather = 按卡片模板顺序
+deck-config-sort-order-gather = 按抽取顺序
 deck-config-new-review-priority = 新卡片展示顺序
 deck-config-new-review-priority-tooltip = 何时显示与复习卡片关联的新卡。
 deck-config-interday-step-priority = 跨日卡片展示顺序
