@@ -33,7 +33,7 @@ sync-conflict-explanation =
     
     Wenn Sie »Hochladen« auswählen, wird Anki Ihre Stapel nach AnkiWeb hochladen, und alle Änderungen, die Sie im AnkiWeb oder Ihren anderen Geräten seit der letzten Synchronisation gemacht haben, gehen verloren.
     
-    Nachdem die Stapel auf allen Geräten synchron sind, werden zukünftige Rezensionen und neu hinzugefügte Karten automatisch zusammengeführt.
+    Nachdem die Stapel auf allen Geräten synchron sind, werden zukünftige Wiederholungen (von Karten) und neu hinzugefügte Karten automatisch zusammengeführt.
 sync-ankiweb-id-label = AnkiWeb-Kennung:
 sync-password-label = Passwort:
 sync-account-required =
