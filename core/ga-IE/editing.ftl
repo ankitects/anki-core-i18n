@@ -8,7 +8,8 @@ editing-bold-text = Téacs trom
 editing-cards = Cártaí
 editing-center = Láraigh
 editing-change-color = Malartaigh dath
-editing-cloze-deletion = Sliocht Iomlánaithe
+editing-cloze-deletion = Sliocht iomlánaithe (cárta nua)
+editing-cloze-deletion-repeat = Sliocht iomlánaithe (cárta céanna)
 editing-couldnt-record-audio-have-you-installed = Níorbh fhéidir taifead fuaime a dhéanamh. An bhfuil 'lame' suite?
 editing-customize-card-templates = Saincheap Teimpléid Chártaí
 editing-customize-fields = Saincheap Réimsí
@@ -59,5 +60,3 @@ editing-warning-cloze-deletions-will-not-work = Rabhadh, ní bheidh aon mhaith s
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = Eagarthóir HTML
-editing-set-text-color = Socraigh dath an téacs
-editing-set-text-highlight-color = Socraigh dath aibhsithe an téacs
