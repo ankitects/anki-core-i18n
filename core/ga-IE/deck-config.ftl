@@ -145,18 +145,14 @@ deck-config-new-card-sort-order-tooltip-2 =
     agus ansin feictear a gcuid deirfiúrchártaí in ord an teimpléid.
     
     `Ord randamach`: Feictear na cártaí uile a tháinig in ord randamach.
-deck-config-sort-order-card-template-then-lowest-position = Teimpléad cárta, ansin suíomh is ísle
-deck-config-sort-order-card-template-then-highest-position = Teimpléad cárta, ansin suíomh is uaisle
 deck-config-sort-order-card-template-then-random = Teimpléad cárta, ansin ord randamach
 deck-config-sort-order-random-note-then-template = Nóta randamach, ansin de réir theimpléad an chárta
-deck-config-sort-order-lowest-position = Suíomh is ísle
-deck-config-sort-order-highest-position = Suíomh is uaisle
 deck-config-sort-order-random = Ord randamach
 deck-config-sort-order-template-then-gather = Teimpléad cárta, ansin ord bailithe
 deck-config-sort-order-gather = Ord tagtha
-deck-config-new-review-priority = Tosaíoch do nua/athbhreithniú
+deck-config-new-review-priority = Tosaíocht do nua/athbhreithniú
 deck-config-new-review-priority-tooltip = Cén áit a bhfeicfear cártaí nua (i gcoibhneas na gcártaí athbhreithnithe)
-deck-config-interday-step-priority = Tosaíoch an fhoghlamtha/athbhreithnithe ile-lae
+deck-config-interday-step-priority = Tosaíocht an fhoghlamtha/athbhreithnithe ile-lae
 deck-config-interday-step-priority-tooltip = Cén áit a bhfeicfear cártaí (ath)foghlamtha ón lá roimhe.
 deck-config-review-mix-mix-with-reviews = Measctha tríd na hathbhreithnithe
 deck-config-review-mix-show-after-reviews = Chun cúil ar na hathbhreithnithe
@@ -283,17 +279,3 @@ deck-config-which-deck = Cé acu paca atá i gceist agat?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip =
-    An chaoi a scagtar na cártaí tar éis dóibh bheith tarraingthe amach. Gan
-    an rogha seo a bheith athraithe, scagtar de réir theimpléid an charta i
-    dtosach, chun nach bhfeicfear dhá chárta ó aon nóta amháin díreach 
-    i ndiaidh a chéile.
-deck-config-new-gather-priority-tooltip =
-    `Paca`: tarraingítear cártaí as na fophacaí in ord go dtí go mbaintear
-    uasmhéid cártaí an phaca amach. Bíonn an rogha seo níos sciobtha,
-    agus tugann sé tús áite do na fophacaí is túisce ar an liosta.
-    
-    `Suíomh`: tarraingítear cártaí as na fophacaí sula gcuirtear in ord iad.
-    Déanann sé seo go bhfeictear na cártaí in ord daingean de réir a suímh,
-    fiú amháin sa chás nach bhfeicfear cártaí ó gach uile fhophaca mar
-    gheall ar uasmhéid cártaí an mhórphaca.
