@@ -5,11 +5,11 @@ custom-study-cards = ପତ୍ରଗୁଡ଼ିକ
 custom-study-cards-from-the-deck = ଡେକ୍ ରୁ ପତ୍ରଗୁଡ଼ିକ
 custom-study-choose-tags = ଟ୍ୟାଗ୍ ବାଛନ୍ତୁ
 custom-study-custom-study-session = କଷ୍ଟମ୍ ଅଧ୍ୟୟନ ଅଧିବେଶନ
+custom-study-due-cards-only = କେବଳ ବଳକା ପତ୍ର
 custom-study-increase-todays-new-card-limit = ଆଜିର ନୂତନ ପତ୍ର ସୀମା ବୃଦ୍ଧି କରନ୍ତୁ
 custom-study-increase-todays-new-card-limit-by = ଏହା ଦ୍ୱାରା ଆଜିର ନୂତନ ପତ୍ର ସୀମା ବୃଦ୍ଧି କରନ୍ତୁ
 custom-study-increase-todays-review-card-limit = ଆଜିର ପତ୍ର ସମୀକ୍ଷା ସୀମା ବୃଦ୍ଧି କରନ୍ତୁ
 custom-study-increase-todays-review-limit-by = ଏହା ଦ୍ୱାରା ଆଜିର ପତ୍ର ସମୀକ୍ଷା ସୀମା ବୃଦ୍ଧି କରନ୍ତୁ
-custom-study-new-cards-in-deck-over-today = ଆଜିର ଦୈନିକ ସୀମା ଅନୁଯାୟୀ ଡେକ୍ ରେ ନୂତନ ପତ୍ରଗୁଡ଼ିକ: { $val }
 custom-study-new-cards-only = କେବଳ ନୂତନ ପତ୍ରଗୁଡ଼ିକ
 custom-study-no-cards-matched-the-criteria-you = ଆପଣ ପ୍ରଦାନ କରିଥିବା ମାନଦଣ୍ଡ ସହ କୌଣସି ପତ୍ର ମେଳ ଖାଉ ନାହିଁ।
 custom-study-ok = ଠିକ୍ ଅଛି
@@ -24,3 +24,6 @@ custom-study-select = ଚୟନ କରନ୍ତୁ
 custom-study-select-tags-to-exclude = ବାଦ୍ ଦେବା ପାଇଁ ଟ୍ୟାଗ୍ ଚୟନ କରନ୍ତୁ:
 custom-study-selective-study = ମନୋନୀତ ଅଧ୍ୟୟନ
 custom-study-study-by-card-state-or-tag = ପତ୍ର ଅବସ୍ଥା କିମ୍ବା ଟ୍ୟାଗ୍ ଅନୁଯାୟୀ ଅଧ୍ୟୟନ କରନ୍ତୁ
+
+## DEPRECATED - you do not need to translate these.
+
