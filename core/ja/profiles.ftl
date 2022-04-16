@@ -15,3 +15,5 @@ profiles-prefs-file-is-corrupt = Ankiのprefs21.dbファイルが破損してい
 profiles-profile-does-not-exist = 要求されたプロファイルは存在しません。
 profiles-creating-backup = バックアップを作成中…
 profiles-backup-created = バックアップを作成しました。
+profiles-backup-creation-failed = バックアップの作成に失敗しました: { $reason }
+profiles-backup-unchanged = 直近のバックアップから変更がありません。

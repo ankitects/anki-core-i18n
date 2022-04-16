@@ -6,9 +6,12 @@ studying-buried-siblings = 延期した兄弟カード
 studying-bury = 延期する
 studying-bury-card = カードを延期
 studying-bury-note = ノートを延期
-studying-card-buried = カードを延期しました。
 studying-card-suspended = カードを保留しました
 studying-card-was-a-leech = このカードは定着困難です。
+studying-cards-buried =
+    { $count ->
+       *[other] { $count }枚のカードを延期しました。
+    }
 studying-cards-will-be-automatically-returned-to = カードは復習が済んだら元のデッキに自動的に戻ります。
 studying-continue = 継続
 studying-delete-note = ノートを削除
@@ -25,7 +28,6 @@ studying-manually-buried-cards = 手動で延期したカード
 studying-mark-note = ノートにマーク
 studying-more = その他
 studying-no-cards-are-due-yet = このデッキの今日の課題はまだ残っていますが、どれもまだ学習予定時刻に達していません
-studying-note-buried = ノートを延期しました。
 studying-note-suspended = ノートを保留しました。
 studying-pause-audio = オーディオを一時停止
 studying-please-run-toolsempty-cards = [ツール] から [白紙カードをチェック] を実行してください。
@@ -49,8 +51,4 @@ studying-card-studied-in =
 studying-minute =
     { $count ->
        *[other] { $count } 分学習しました。
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-       *[other] ノートと{ $count }枚のカードを削除しました。
     }

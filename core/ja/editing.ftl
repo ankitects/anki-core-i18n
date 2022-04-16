@@ -37,7 +37,9 @@ editing-subscript = 下付き文字
 editing-superscript = 上付き文字
 editing-tags = タグ
 editing-tags-add = タグを追加
+editing-tags-copy = タグをコピー
 editing-tags-remove = タグを削除
+editing-tags-select-all = すべてのタグを選択
 editing-text-color = 文字色
 editing-text-highlight-color = 文字の背景色
 editing-to-make-a-cloze-deletion-on = このノートに穴埋め問題を作るには、まず今のノートタイプを穴埋め問題に対応したノートタイプに変更する必要があります。[編集] > [ノートタイプを変更]から、穴埋め問題に対応したノートタイプを選択してください。（Ankiインストール時から付属しているノートタイプのうちでは、「Cloze」が穴埋め問題に対応しています。）
@@ -51,5 +53,3 @@ editing-warning-cloze-deletions-will-not-work = 注意: 穴埋め問題は上部
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML エディタ
-editing-set-text-color = 文字の色を設定
-editing-set-text-highlight-color = ハイライトの色を設定
