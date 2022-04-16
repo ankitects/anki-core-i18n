@@ -6,11 +6,17 @@ studying-buried-siblings = Zakop podobne
 studying-bury = Zakop
 studying-bury-card = Zakop kartę
 studying-bury-note = Zakop notatkę
-studying-card-buried = Karta zakopana.
 studying-card-suspended = Karta zawieszona.
 studying-card-was-a-leech = Karta okazała się pijawką.
+studying-cards-buried =
+    { $count ->
+        [one] Zakopano { $count } kartę.
+        [few] Zakopano { $count } karty.
+       *[other] Zakopano { $count } kart.
+    }
 studying-cards-will-be-automatically-returned-to = Po zakończeniu powtórek, karty automatycznie powrócą do talii źródłowej.
 studying-continue = Kontynuuj
+studying-counts-differ = Liczby są różne od tych na liście talii, ponieważ jest włączone zakopywanie. Niektóre karty są pominięte, a inne mogą zająć ich miejsce.
 studying-delete-note = Usuń notatkę
 studying-deleting-this-deck-from-the-deck = Usunięcie tej talii z listy talii zwróci wszystkie pozostałe karty do ich oryginalnej talii.
 studying-easy = Łatwa
@@ -25,7 +31,6 @@ studying-manually-buried-cards = Ręcznie schowane karty
 studying-mark-note = Wyróżnij notatkę
 studying-more = Więcej
 studying-no-cards-are-due-yet = Nie oczekują jeszcze żadne karty.
-studying-note-buried = Notatka zakopana.
 studying-note-suspended = Notatka zawieszona.
 studying-pause-audio = Pauzuj dźwięk
 studying-please-run-toolsempty-cards = Uruchom Narzędzia>Puste karty
@@ -42,18 +47,15 @@ studying-type-answer-unknown-field = Wpisz odpowiedź: nieznane pole { $val }
 studying-unbury = Odkop
 studying-what-would-you-like-to-unbury = Co chcesz odkopać?
 studying-you-havent-recorded-your-voice-yet = Nie nagrałeś jeszcze swojego głosu.
-studying-card-studied-in = { $count ->
-    [one] Przejrzano { $count } kartę w
-    [few] Przejrzano { $count } karty w
-   *[other] Przejrzano { $count } kart w
-  }
-studying-minute = { $count ->
-    [one] { $count } minuta.
-    [few] { $count } minuty.
-   *[other] { $count } minut.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Usunięto notatkę i jej { $count } kartę.
-    [few] Usunięto notatkę i jej { $count } karty.
-   *[other] Usunięto notatkę i jej { $count } kart.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] Przejrzano { $count } kartę w
+        [few] Przejrzano { $count } karty w
+       *[other] Przejrzano { $count } kart w
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } minuta.
+        [few] { $count } minuty.
+       *[other] { $count } minut.
+    }

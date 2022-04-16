@@ -1,19 +1,15 @@
 preferences-automatically-sync-on-profile-openclose = Automatycznie synchronizuj przy otwarciu/zamknięciu profilu
 preferences-backups = Kopie zapasowe
-preferences-backups2 = kopii zapasowych
-preferences-backupsanki-will-create-a-backup-of = <b>Kopie zapasowe</b><br>Przy każdym wyłączeniu lub synchronizacji Anki będzie tworzyć kopie zapasową Twojej kolekcji.
 preferences-basic = Ogólne
 preferences-change-deck-depending-on-note-type = Zmień talię na podstawie typu notatki
 preferences-changes-will-take-effect-when-you = Zmiany będą miały skutek kiedy ponownie uruchomisz Anki.
 preferences-hours-past-midnight = godziny po północy
 preferences-interface-language = Język interfejsu:
 preferences-interrupt-current-audio-when-answering = Przerywaj odtwarzany dźwięk podczas powtórki
-preferences-keep = Zachowaj
 preferences-learn-ahead-limit = Limit nauki z wyprzedzeniem
 preferences-mins = minut
 preferences-network = Sieć
 preferences-next-day-starts-at = Nowy dzień zaczyna się
-preferences-night-mode = Tryb nocny
 preferences-note-media-is-not-backed-up = Uwaga: dźwięki i obrazy nie podlegają kopii zapasowej. Dla bezpieczeństwa danych należy co jakiś czas robić kopię zapasową folderu Anki.
 preferences-on-next-sync-force-changes-in = Przy następnej synchronizacji wymuś zmiany w jednym kierunku
 preferences-paste-clipboard-images-as-png = Wklej zdjęcia ze schowka jako PNG
@@ -37,7 +33,16 @@ preferences-you-can-restore-backups-via-fileswitch = Możesz przywrócić kopie 
 preferences-legacy-timezone-handling = Przestarzała obsługa stref czasowych (posiadająca błędy, lecz wymagana do obsługi AnkiDroid <=  2.14)
 preferences-default-search-text = Domyślny tekst wyszukiwania
 preferences-default-search-text-example = np. "deck:current "
+preferences-theme-label = Motyw: { $theme }
 preferences-theme-follow-system = Używaj systemowego
 preferences-theme-light = Jasny
 preferences-theme-dark = Ciemny
-preferences-v3-scheduler = algorytm planowania V3
+preferences-v3-scheduler = Algorytm planowania V3
+preferences-ignore-accents-in-search = Ignoruj znaki diakrytyczne przy wyszukiwaniu (spowalnia)
+preferences-backup-explanation =
+    Anki okresowo tworzy kopię zapasową kolekcji. Gdy kopie są starsze niż 2 dni,
+    Anki będzie je usuwać, by zaoszczędzić miejsce na dysku.
+preferences-daily-backups = Liczba kopii na dzień:
+preferences-weekly-backups = Liczba kopii na tydzień:
+preferences-monthly-backups = Liczba kopii na miesiąc:
+preferences-minutes-between-backups = Co ile minut kopia zapasowa:
