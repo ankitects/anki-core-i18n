@@ -83,8 +83,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card }s/kartę)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }s
 statistics-today-title = Dzisiaj
 statistics-today-again-count = Liczba pomyłek:
 statistics-today-type-counts = Uczone: { $learnCount }, Powtarzane: { $reviewCount }, Uczone ponownie: { $relearnCount }, Filtrowane: { $filteredCount }
@@ -99,7 +97,7 @@ statistics-counts-suspended-cards = Zawieszone
 statistics-counts-buried-cards = Zakopane
 statistics-counts-filtered-cards = Filtrowane
 statistics-counts-learning-cards = Uczone
-statistics-counts-relearning-cards = Uczone Ponownie
+statistics-counts-relearning-cards = Uczone ponownie
 statistics-counts-title = Liczby kart
 statistics-counts-separate-suspended-buried-cards = Oddziel zawieszone/zakopane karty
 statistics-range-all-time = ogół
@@ -200,7 +198,6 @@ statistics-days-studied = Dni nauki
 statistics-average-answer-time-label = Średni czas odpowiedzi
 statistics-average = Średnia
 statistics-average-interval = Średnia przerwa
-statistics-longest-interval = Najdłuższa przerwa
 statistics-due-tomorrow = Na jutro
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
