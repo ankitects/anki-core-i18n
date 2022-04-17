@@ -41,7 +41,7 @@ deck-config-relearning-steps = Kroki ponownej nauki
 deck-config-bury-title = Zakopywanie
 deck-config-bury-new-siblings = Zakop nowe podobne do następnego dnia
 deck-config-bury-review-siblings = Zakop przeglądane podobne do następnego dnia
-deck-config-bury-tooltip = Ta opcja kontroluje, czy karty z tej samej notatki(np. karty odwrotne lub sąsiadujące luki) zostaną odłożone do następnego dnia.
+deck-config-bury-tooltip = Ta opcja kontroluje, czy karty z tej samej notatki (np. karty odwrotne lub sąsiadujące luki) zostaną odłożone do następnego dnia.
 
 ## Ordering section
 
@@ -65,7 +65,7 @@ deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z 
 ## Timer section
 
 deck-config-timer-title = Czasomierz
-deck-config-maximum-answer-secs = Maksymalna liczba sekund na odpowiedź
+deck-config-maximum-answer-secs = Maksymalnie sekund na odpowiedź
 deck-config-show-answer-timer-tooltip = Pokaż w trybie przeglądania stoper, który pokazuje, ile sekund zajmuje ci przejrzenie danej karty.
 
 ## Audio section
@@ -113,4 +113,7 @@ deck-config-reviews-too-low =
     }, twój limit powinien wynosić przynajmniej { $expected }.
 
 ## Selecting a deck
+
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 

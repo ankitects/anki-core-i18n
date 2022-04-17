@@ -9,3 +9,9 @@ errors-100-tags-max =
     nie ma też potrzeby wybierać podetykietę, gdy nadrzędna jest wybrana.
 errors-multiple-notetypes-selected = Wybierze notatki z tylko jednego typu notatki.
 errors-please-check-database = Użyj opcji Sprawdź bazę danych i spróbuj ponownie.
+errors-please-check-media = Użyj opcji Sprawdź pliki i spróbuj ponownie.
+errors-collection-too-new = By otworzyć tę kolekcję potrzebujesz nowszej wersji Anki.
+
+## Card Rendering
+
+errors-option-not-set = nie ustawiono '{ $option }'
