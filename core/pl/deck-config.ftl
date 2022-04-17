@@ -24,7 +24,7 @@ deck-config-review-limit-tooltip = Maksymalna dzienna liczba powtórek.
 ## New Cards section
 
 deck-config-learning-steps = Kroki nauki
-deck-config-new-insertion-order = Porządek wstawiania
+deck-config-new-insertion-order = Kolejność wstawiania
 deck-config-new-insertion-order-tooltip =
     Kontroluje pozycję (due #) przypisaną nowym kartom gdy je dodajesz.
     Karty z niższym numerem będą pokazane najpierw przy nauce. Zmiana
@@ -46,13 +46,22 @@ deck-config-bury-tooltip = Ta opcja kontroluje, czy karty z tej samej notatki (n
 ## Ordering section
 
 deck-config-ordering-title = Kolejność wyświetlania
-deck-config-new-gather-priority = Porządek zbierania nowych kart
+deck-config-new-gather-priority = Kolejność zbierania nowych kart
 deck-config-new-gather-priority-deck = Talia
+deck-config-new-gather-priority-position-lowest-first = Pozycja rosnąco
+deck-config-new-gather-priority-position-highest-first = Pozycja malejąco
+deck-config-new-gather-priority-random-notes = Losowe notatki
+deck-config-new-gather-priority-random-cards = Losowe karty
 deck-config-new-card-sort-order = Kolejność nowych kart
+deck-config-sort-order-card-template-then-random = Typ karty, następnie losowo
+deck-config-sort-order-random-note-then-template = Losowa notatka, następnie typ karty
+deck-config-sort-order-random = Losowo
+deck-config-sort-order-template-then-gather = Typ karty
+deck-config-new-review-priority = Kolejność nowych/powtórek
 deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
 deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
 deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
-deck-config-review-sort-order = Porządek przeglądania
+deck-config-review-sort-order = Kolejność przeglądania
 deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowy
 deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
 deck-config-sort-order-deck-then-due-date = Talia, potem zaplanowana data
