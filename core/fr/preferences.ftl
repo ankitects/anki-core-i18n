@@ -1,19 +1,15 @@
 preferences-automatically-sync-on-profile-openclose = Synchroniser automatiquement à l’ouverture et à la fermeture
 preferences-backups = Sauvegardes
-preferences-backups2 = sauvegardes
-preferences-backupsanki-will-create-a-backup-of = <b>Sauvegardes</b><br>Anki va créer une sauvegarde de votre collection à chaque fois qu’il est fermé ou synchronisé.
 preferences-basic = Basique
 preferences-change-deck-depending-on-note-type = Changer le paquet selon le type de note
 preferences-changes-will-take-effect-when-you = Les modifications prendront effet au redémarrage d'Anki.
 preferences-hours-past-midnight = heure(s) après minuit
 preferences-interface-language = Langue de l’interface
 preferences-interrupt-current-audio-when-answering = Interrompre l’audio en cours de lecture lors de la réponse
-preferences-keep = Conserver
 preferences-learn-ahead-limit = Réviser en avance de
 preferences-mins = minute(s)
 preferences-network = Réseau
 preferences-next-day-starts-at = Le jour suivant démarre à
-preferences-night-mode = Mode nuit
 preferences-note-media-is-not-backed-up = Information : les médias ne sont pas restaurés. Il serait sage de sauvegarder régulièrement votre dossier Anki.
 preferences-on-next-sync-force-changes-in = À la prochaine synchronisation, forcer les changements dans une direction.
 preferences-paste-clipboard-images-as-png = Coller les images du presse-papier en PNG.
@@ -42,3 +38,11 @@ preferences-theme-follow-system = Suivre le système
 preferences-theme-light = Clair
 preferences-theme-dark = Sombre
 preferences-v3-scheduler = Planificateur V3
+preferences-ignore-accents-in-search = Ignorer les accents lors de la recherche (plus lent)
+preferences-backup-explanation =
+    Anki sauvegarde périodiquement votre collection. Lorsque les sauvegardes ont plus de 2 jours,¶
+    Anki commencera à supprimer certaines d'entre elles pour libérer de l'espace disque.
+preferences-daily-backups = Sauvegarde journalière à conserver:
+preferences-weekly-backups = Sauvegarde hebdomadaire à conserver:
+preferences-monthly-backups = Sauvegarde mensuel à conserver:
+preferences-minutes-between-backups = Minutes entre les sauvegardes automatiques :

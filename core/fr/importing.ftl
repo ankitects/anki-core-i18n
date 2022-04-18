@@ -77,3 +77,5 @@ importing-processed-media-file =
         [one] { $count } fichier média traité
        *[other] { $count } fichiers médias traités
     }
+importing-importing-collection = Importation de la collection...
+importing-failed-to-import-media-file = Échec de l’importation du fichier média: { $debugInfo }

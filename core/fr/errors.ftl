@@ -6,7 +6,10 @@ errors-filtered-deck-required = Cette action ne peut être utilisée que sur un 
 errors-100-tags-max = Un maximum de 100 étiquettes peut être sélectionné. Lister les ¶que vous voulez au lieu de celles que vous ne voulez pas est généralement plus simple, et il n'est ¶ pas nécessaire de sélectionner les étiquettes enfants si vous avez sélectionné une étiquette parent.
 errors-multiple-notetypes-selected = Merci de sélectionner des notes que d'un seul type.
 errors-please-check-database = S'il vous plaît, essayez la fonction "Vérifier la base de données", et réessayez à nouveau.
+errors-please-check-media = S'il vous plaît, utilisez la fonction "vérifier les médias...", et réessayez à nouveau.
+errors-collection-too-new = Cette collection nécessite une version plus récente d'Anki pour être ouverte.
 
 ## Card Rendering
 
+errors-bad-directive = Erreur dans la directive: '{ $directive }': { $error }
 errors-option-not-set = '{ $option }' n'est pas défini

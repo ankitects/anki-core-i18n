@@ -58,6 +58,9 @@ deck-config-new-insertion-order-tooltip =
     cette option va automatiquement modifier la position existante des nouvelles cartes.
 deck-config-new-insertion-order-sequential = Séquentiel (les plus vieilles cartes en premier)
 deck-config-new-insertion-order-random = Aléatoire
+deck-config-new-insertion-order-random-with-v3 =
+    Avec le scheduler V3, il est préférable de laisser ce paramètre sur séquentiel, et¶
+    ajuster plutôt le nouvel ordre de rassemblement des cartes.
 
 ## Lapses section
 
@@ -89,13 +92,11 @@ deck-config-new-gather-priority = Ordre de collecte des nouvelles cartes
 deck-config-new-gather-priority-deck = Paquet
 deck-config-new-gather-priority-position-lowest-first = Ordre croissant
 deck-config-new-gather-priority-position-highest-first = Ordre décroissant
+deck-config-new-gather-priority-random-notes = Notes aléatoires
+deck-config-new-gather-priority-random-cards = Cartes aléatoires
 deck-config-new-card-sort-order = Ordre de classement des nouvelles cartes
-deck-config-new-card-sort-order-tooltip = La façon dont les cartes sont classées après avoir été collectées. Par défaut, Anki les classent¶ en premier par modèle, pour éviter d'avoir plusieurs cartes de la même note d'être¶ affichées en succession.
-deck-config-sort-order-card-template-then-lowest-position = Modèle de carte, puis par ordre croissant
-deck-config-sort-order-card-template-then-highest-position = Modèle de carte, puis par ordre décroissant
 deck-config-sort-order-card-template-then-random = Modèle de carte, puis aléatoirement
-deck-config-sort-order-lowest-position = Ordre croissant
-deck-config-sort-order-highest-position = Ordre décroissant
+deck-config-sort-order-random-note-then-template = Carte aléatoire. puis type de carte
 deck-config-sort-order-random = Aléatoirement
 deck-config-sort-order-template-then-gather = Modèle de carte, puis dans l'ordre de la collecte
 deck-config-sort-order-gather = Dans l'ordre collectée
@@ -141,6 +142,7 @@ deck-config-custom-scheduling-tooltip = Cela affecte la totalité de la collecti
 
 ## Adding/renaming
 
+deck-config-add-group = Ajouter un préréglage
 deck-config-name-prompt = Nom
 deck-config-rename-group = Renommer la présélection
 deck-config-clone-group = clonage Présélection
@@ -176,7 +178,11 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = L'intervalle de graduation doit être au moins aussi long que votre dernière étape d'apprentissage.
 deck-config-good-above-easy = L'intervalle facile doit être au moins aussi long que l'intervalle gradué.
 deck-config-relearning-steps-above-minimum-interval = L'intervalle minimal doit être au moins aussi long que votre étape finale de réapprentissage.
+deck-config-maximum-answer-secs-above-recommended = Anki peut programmer vos révisions plus efficacement lorsque vous gardez chaque question courte.
 
 ## Selecting a deck
 
 deck-config-which-deck = Quel paquet voulez vous ?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+

@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Les cartes reviendront à leurs paquets d’origine après révision.
 studying-continue = Continuer
+studying-counts-differ = Le nombre de cartes diffères de la liste du paquet parce que l'enfouissement est activé. Certaines cartes ont été exclues, et d'autres peuvent avoir pris leur place.
 studying-delete-note = Supprimer la note
 studying-deleting-this-deck-from-the-deck = En supprimant le paquet de la liste des paquets, ses cartes reviendront à leur paquet d’origine.
 studying-easy = Facile

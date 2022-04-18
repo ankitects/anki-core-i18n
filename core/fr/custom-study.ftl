@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Accroître le quota de nouvelles c
 custom-study-increase-todays-new-card-limit-by = Accroître le quota de nouvelles cartes de
 custom-study-increase-todays-review-card-limit = Accroître le quota de cartes à revoir
 custom-study-increase-todays-review-limit-by = Accroître le quota de cartes à revoir de
-custom-study-new-cards-in-deck-over-today = Le nombre de nouvelles cartes dans le paquet dépasse la limite pour aujourd’hui : { $val }
 custom-study-new-cards-only = Seulement les nouvelles cartes
 custom-study-no-cards-matched-the-criteria-you = Aucune carte ne remplit les critères demandés.
 custom-study-ok = Valider
@@ -21,8 +20,12 @@ custom-study-review-ahead = Avancer la révision
 custom-study-review-ahead-by = Avancer la révision de
 custom-study-review-cards-forgotten-in-last = Revoir les cartes oubliées la dernière fois
 custom-study-review-forgotten-cards = Revoir les cartes oubliées
-custom-study-reviews-due-in-deck-over-today = Révisions requises par le paquet au delà de la limite d’aujourd’hui : { $val }
 custom-study-select = Sélection
 custom-study-select-tags-to-exclude = Ôter par les tags :
 custom-study-selective-study = Révision sélective
 custom-study-study-by-card-state-or-tag = Étude par carte ou par tag
+custom-study-available-new-cards = Nouvelles cartes disponibles : { $count }
+custom-study-available-review-cards = Cartes à réviser disponibles : { $count }
+
+## DEPRECATED - you do not need to translate these.
+

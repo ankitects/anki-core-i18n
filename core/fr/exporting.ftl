@@ -5,6 +5,7 @@ exporting-anki-deck-package = Tas de paquets ANKI
 exporting-cards-in-plain-text = Cartes avec texte en clair
 exporting-collection = collection
 exporting-collection-exported = Collection exportée.
+exporting-colpkg-too-new = Merci de mettre à jour anki avec la dernière version, puis d'importer à nouveau le fichier .colpkg .
 exporting-couldnt-save-file = Le fichier { $val } n’a pas pu être sauvegardé.
 exporting-export = Exporter...
 exporting-export-format = <b>Format d’exportation</b> :
