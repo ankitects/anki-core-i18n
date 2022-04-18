@@ -122,16 +122,33 @@ deck-config-display-order-will-use-current-deck =
 
 deck-config-timer-title = Chronomètre
 deck-config-maximum-answer-secs = Temps de réponse maximum
+deck-config-maximum-answer-secs-tooltip =
+    Le nombre maximum de secondes à enregistrer pour une seule révision. Si une réponse¶
+    dépasse ce temps (parce que vous vous êtes éloigné de l'écran par exemple),¶
+    le temps pris sera enregistré comme la limite que vous avez fixée.
+deck-config-show-answer-timer-tooltip =
+    Dans l'écran de révision, affichez une minuterie qui compte le nombre de secondes que vous¶
+    passez pour revoir chaque carte.
 
 ## Audio section
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Ne pas lire les fichiers audio automatiquement
 deck-config-skip-question-when-replaying = Sauter la question quand la réponse est rejouée
+deck-config-always-include-question-audio-tooltip =
+    Si le son de la question doit être inclus lorsque l'action Replay est¶
+    utilisée pendant que l'on regarde le côté réponse d'une carte.
 
 ## Advanced section
 
 deck-config-advanced-title = Avancé
+deck-config-maximum-interval-tooltip =
+    Le nombre maximum de jours d'attente pour une carte de révision. Lorsque les révisions ont¶
+    atteint la limite, `Difficile`, `Bien` et `facile` donneront tous le même délai.¶
+    Plus vous raccourcissez ce délai, plus votre charge de travail sera importante.
+deck-config-starting-ease-tooltip =
+    Le multiplicateur de facilité avec lequel les nouvelles cartes commencent. Par défaut, le bouton "Bien" d'une carte¶
+    nouvellement apprise retardera le prochain examen de 2,5 fois le délai précédent.
 deck-config-easy-bonus-tooltip = Un facteur supplémentaire qui est appliqué à l'intervalle d'une carte à réviser quand on répond¶ 'Facile'.
 deck-config-interval-modifier-tooltip = Ce multiplicateur est appliqué à tous les examens, et des ajustements mineurs peuvent être utilisés pour rendre Anki plus conservateur ou agressif dans son ordonnancement. Veuillez consulter le manuel avant de modifier cette option.
 deck-config-hard-interval-tooltip = Le facteur appliqué à l'intervalle d'une carte à réviser quand on répond 'Difficile'.
@@ -162,6 +179,11 @@ deck-config-revert-button-tooltip = Restaurer les paramètres par défauts.
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Gestion d'Anki 2.1.41+
+deck-config-description-new-handling-hint =
+    Traite les entrées comme du markdown, et nettoie les entrées HTML. Lorsqu'elle est activée, la¶
+    description s'affichera également sur l'écran de félicitations.¶
+    Markdown apparaîtra comme du texte sur Anki 2.1.40 et plus.
 
 ## Warnings shown to the user
 
