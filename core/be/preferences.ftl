@@ -1,17 +1,14 @@
 preferences-automatically-sync-on-profile-openclose = Аўтаматычна сінхранізаваць пры адкрыцці/закрыцці профілю
 preferences-backups = Рэзервовыя копіі
-preferences-backups2 = рэзервовыя копіі
-preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span style=" font-weight:600;">Рэзервовыя копіі</span><br/>Anki будзе ствараць рэзервовыя копіі вашай калекцыі пры кожным закрыцці праграмы.</p></body></html>
 preferences-basic = Асноўнае
 preferences-change-deck-depending-on-note-type = Змяніць калоду ў залежнасці ад тыпу нататкі
 preferences-changes-will-take-effect-when-you = Змены набудуць моц, калі вы перазапусціце Anki.
 preferences-interface-language = Мова інтэрфейсу:
 preferences-interrupt-current-audio-when-answering = Перарываць аўдыя падчас адказу
-preferences-keep = Захаваць
 preferences-mins = хв.
 preferences-network = Сетка
 preferences-next-day-starts-at = Наступны дзень пачынаецца а
-preferences-night-mode = Начны рэжым
+preferences-on-next-sync-force-changes-in = Пры наступнай сінхранізацыі прымусіць да зменаў у адным кірунку
 preferences-paste-clipboard-images-as-png = Устаўляць відарысы з буферу абмену як PNG
 preferences-paste-without-shift-key-strips-formatting = Устаўка без клавішы Shift пазбаўляе фарматавання
 preferences-periodically-sync-media = Перыядычна сінхранізаваць медыя

@@ -25,7 +25,7 @@ search-invalid-other = праверце наяўнасць памылак дру
 search-invalid-number = чакаўся лік у «`{ $context }`», але знойдзена «`{ $provided }`».
 search-invalid-whole-number = чакаўся цэлы лік у «`{ $context }`», але знойдзена «`{ $provided }`».
 search-invalid-positive-whole-number = чакаўся цэлы дадатны лік у «`{ $context }`», але знойдзена «`{ $provided }`».
-search-invalid-negative-whole-number = чакаўся цэлы лік меншы альбо роўны 0 у «`{ $context }`», але знойдзена «`{ $provided }`».
+search-invalid-negative-whole-number = чакаўся цэлы лік меншы або роўны 0 у «`{ $context }`», але знойдзена «`{ $provided }`».
 search-invalid-answer-button = чакалася кнопка адказу паміж 1-4 у «`{ $context }`», але знойдзена «`{ $provided }`».
 
 ## Column labels in browse screen

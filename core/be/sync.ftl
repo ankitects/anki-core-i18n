@@ -22,6 +22,7 @@ sync-media-log-title = Журнал сінхранізацыі медыя
 sync-confirm-empty-download = У лакальнай калекцыі няма картка. Спампаваць іх з AnkiWeb?
 sync-ankiweb-id-label = Ідэнтыфікатар AnkiWeb:
 sync-password-label = Пароль:
+sync-sanity-check-failed = Выкарыстайце функцыю «Праверыць базу даных», а затым сінхранізуйцеся зноў. Калі праблемы не знікаюць, прымусова зрабіце на экране параметраў поўную сінхранізацыю.
 
 ## Buttons
 
