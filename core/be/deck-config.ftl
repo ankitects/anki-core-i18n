@@ -50,11 +50,8 @@ deck-config-new-gather-priority-deck = Калода
 deck-config-new-gather-priority-position-lowest-first = Па ўзрастанні пазіцыі
 deck-config-new-gather-priority-position-highest-first = Па ўбыванні пазіцыі
 deck-config-new-card-sort-order = Парадак сартавання новых картак
-deck-config-sort-order-card-template-then-lowest-position = Па шаблоне карткі, потым па ўзрастанні пазіцыі
-deck-config-sort-order-card-template-then-highest-position = Па шаблоне карткі, потым па ўбыванні пазіцыі
 deck-config-sort-order-card-template-then-random = Па шаблоне карткі, потым выпадковы
-deck-config-sort-order-lowest-position = Па ўзрастанні пазіцыі
-deck-config-sort-order-highest-position = Па ўбыванні пазіцыі
+deck-config-sort-order-random-note-then-template = Выпадковая нататка, потым тып карткі
 deck-config-sort-order-random = Выпадковы
 deck-config-sort-order-template-then-gather = Па шаблоне каркі, потым па парадку збірання
 deck-config-sort-order-gather = У парадку збірання
@@ -71,6 +68,7 @@ deck-config-sort-order-ascending-intervals = Па ўзрастанні інтэ�
 deck-config-sort-order-descending-intervals = Па ўбыванні інтэрвалаў
 deck-config-sort-order-ascending-ease = Па ўзрастанні лёгкасці
 deck-config-sort-order-descending-ease = Па ўбыванні лёгкасці
+deck-config-sort-order-relative-overdueness = Адносная пратэрмінаванасць
 
 ## Timer section
 
@@ -123,3 +121,6 @@ deck-config-daily-limit-will-be-capped =
 ## Selecting a deck
 
 deck-config-which-deck = Якую калоду вы хочаце?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+
