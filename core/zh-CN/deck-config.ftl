@@ -140,6 +140,7 @@ deck-config-sort-order-ascending-intervals = 按间隔升序排序
 deck-config-sort-order-descending-intervals = 按间隔降序排序
 deck-config-sort-order-ascending-ease = 按简易度升序排序
 deck-config-sort-order-descending-ease = 按简易度降序排序
+deck-config-sort-order-relative-overdueness = 按相对超期程度
 deck-config-display-order-will-use-current-deck =
     将按所选牌组设定的顺序学习，
     其全部子牌组的设定已被忽略。
