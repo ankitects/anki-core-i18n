@@ -102,13 +102,16 @@ statistics-range-deck = калода
 statistics-range-collection = калекцыя
 statistics-range-search = Пошук
 statistics-card-ease-title = Лёгкасць карткі
+statistics-future-due-subtitle = Колькасць пераглядаў чаканых у будучыні.
 statistics-added-title = Дададзена
 statistics-added-subtitle = Колькасць новых дададзеных вамі картак.
+statistics-reviews-count-subtitle = Колькасць пытанняў, на якія вы адказалі.
 statistics-answer-buttons-title = Кнопкі адказу
 # eg Button: 4
 statistics-answer-buttons-button-number = Кнопка
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Колькасць націсканняў
+statistics-answer-buttons-subtitle = Колькасць націсканняў вамі кожнай кнопкі.
 statistics-reviews-title = На перагляд
 statistics-reviews-time-checkbox = Час
 # shown when graph is empty

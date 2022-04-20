@@ -1,6 +1,6 @@
 errors-invalid-input-empty = Памылковы ўвод.
 errors-invalid-input-details = Памылковы ўвод: { $details }
-errors-parse-number-fail = Лічба памылковая або па-за дапушчальным дыяпазонам.
+errors-parse-number-fail = Лік памылковы або па-за дапушчальным дыяпазонам.
 errors-filtered-parent-deck = Фільтраваныя калоды не могуць мець даччыныя калоды.
 errors-filtered-deck-required = Гэта дзеянне можа ўжывацца толькі да фільтраванай калоды.
 errors-100-tags-max =

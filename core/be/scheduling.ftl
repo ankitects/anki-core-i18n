@@ -126,5 +126,15 @@ scheduling-reviews = Перагляды
 scheduling-seconds = секунд
 scheduling-set-for-all-subdecks = Задаць для ўсіх падкалод
 scheduling-steps-in-minutes = Крокі (у хвілінах)
+scheduling-steps-must-be-numbers = Крокі павінны быць лікамі.
 scheduling-tag-only = Толькі цэтлік
 scheduling-the-default-configuration-cant-be-removed = Перадвызначаная канфігурацыя не можа быць выдалена.
+scheduling-set-due-date-prompt =
+    Праз колькі дзён паказаць { $cards ->
+        [one] картку
+       *[other] карткі
+    }?
+scheduling-set-due-date-prompt-hint =
+    0 = сёння
+    1! = заўтра+скінуць інтэрвал пераглядаў
+    3-7 = выпадковы выбар паміж 3-7 дзён
