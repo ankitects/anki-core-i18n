@@ -114,6 +114,7 @@ deck-config-sort-order-ascending-intervals = Intervalles croissants
 deck-config-sort-order-descending-intervals = Intervalles décroissants
 deck-config-sort-order-ascending-ease = Facilité croissante
 deck-config-sort-order-descending-ease = Facilité décroissante
+deck-config-sort-order-relative-overdueness = Échéance dépassée relative
 deck-config-display-order-will-use-current-deck =
     Anki va utiliser l'ordre d'affichage du paquet que vous¶
     avez sélectionné pour étudier, et non ceux des sous-paquets qu'il peut avoir.
