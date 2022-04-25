@@ -136,12 +136,8 @@ deck-config-new-card-sort-order-tooltip-2 =
     بالترتيب.
     
     `عشوائي`: يخلط البطاقات المجلوبة بشكل كامل.
-deck-config-sort-order-card-template-then-lowest-position = نوع البطاقة، ثم الموضع المتصاعد
-deck-config-sort-order-card-template-then-highest-position = نوع البطاقة، ثم الموضع المتناقص
 deck-config-sort-order-card-template-then-random = نوع البطاقة، ثم عشوائي
 deck-config-sort-order-random-note-then-template = فرز الملحوظات عشوائيًا، ثم نوع البطاقة
-deck-config-sort-order-lowest-position = موضع متصاعد
-deck-config-sort-order-highest-position = موضع متناقص
 deck-config-sort-order-random = عشوائي
 deck-config-sort-order-template-then-gather = نوع البطاقة
 deck-config-sort-order-gather = ترتيب الجلب
@@ -170,6 +166,7 @@ deck-config-sort-order-ascending-intervals = فواصل متزايدة
 deck-config-sort-order-descending-intervals = فواصل متناقصة
 deck-config-sort-order-ascending-ease = سهولة متصاعدة
 deck-config-sort-order-descending-ease = سهولة متناقصة
+deck-config-sort-order-relative-overdueness = التأخر النسبي
 deck-config-display-order-will-use-current-deck =
     سيستخدم أنكي ترتيب العرض من الرزمة 
     التي تحددها لدراستها، وليس أي رزمة فرعية لها.
@@ -277,15 +274,3 @@ deck-config-which-deck = ما الرزمة التي تريدها؟
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip =
-    كيفية فرز البطاقات بعد جلبها. بشكل افتراضي، يفرز أنكي
-    حسب قالب البطاقة أولًا لمنع البطاقات المتعددة لملحوظة واحدة من
-    الظهور بالتتابع.
-deck-config-new-gather-priority-tooltip =
-    `الرزمة`: يجلب البطاقات من كل رزمة فرعية بالترتيب،
-    ويتوقف عندما يُستنزف حد الرزمة المحددة. هذا أسرع،
-    ويسمح لك بإعطاء أولوية للرزم الفرعية الأقرب للأعلى.
-    
-    `الموضع`: يجلب البطاقات من كل  الرزم قبل فرزها.
-    يضمن هذا أن البطاقات ستظهر حسب موضعها (رقم الاستحقاق)، حتى لو لم يكن
-    حد الوالد مرتفعًا كفاية لرؤية بطاقات من كل الرزم.
