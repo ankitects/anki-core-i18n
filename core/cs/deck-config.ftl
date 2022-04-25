@@ -166,6 +166,7 @@ deck-config-sort-order-ascending-intervals = Intervaly vzestupně
 deck-config-sort-order-descending-intervals = Intervaly sestupně
 deck-config-sort-order-ascending-ease = Snadnost vzestupně
 deck-config-sort-order-descending-ease = Snadnost sestupně
+deck-config-sort-order-relative-overdueness = Relativní zpožděnost
 deck-config-display-order-will-use-current-deck =
     Anki použije pořadí zobrazování balíku, který jste vybrali 
     k učení, a ne podřízených balíků, které může mít.
