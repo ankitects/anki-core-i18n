@@ -95,12 +95,8 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Zufällige Notiz, dann Kartenvorlage`: Wählt zufällige Notizen und zeigt für jede all ihre Geschwisterkarten der Reihe nach.
     
     `Zufällig`: Mischt die gesammelten Karten.
-deck-config-sort-order-card-template-then-lowest-position = Kartenvorlage, dann aufsteigende Position
-deck-config-sort-order-card-template-then-highest-position = Kartenvorlage, dann absteigende Position
 deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
 deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartenvorlage
-deck-config-sort-order-lowest-position = Aufsteigende Position
-deck-config-sort-order-highest-position = Absteigende Position
 deck-config-sort-order-random = Zufällig
 deck-config-sort-order-template-then-gather = Kartenvorlage
 deck-config-sort-order-gather = Sammelreihenfolge
@@ -123,6 +119,7 @@ deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
 deck-config-sort-order-descending-intervals = Absteigende Intervalle
 deck-config-sort-order-ascending-ease = Aufsteigende Leichtigkeit
 deck-config-sort-order-descending-ease = Absteigende Leichtigkeit
+deck-config-sort-order-relative-overdueness = Relative Überfälligkeit
 deck-config-display-order-will-use-current-deck =
     Anki wird die Anzeigereihenfolge von dem Stapel, den Sie 
     zum Lernen ausgewählt haben, und keine Unterstapel, 
@@ -213,8 +210,3 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip = Wie Karten sortiert werden, nachdem sie gesammelt wurden. Standardmäßig sortiert Anki zuerst nach Kartenvorlage, um zu vermeiden, dass mehrere Karten von der gleichen Notiz hintereinander angezeigt werden.
-deck-config-new-gather-priority-tooltip =
-    `Stapel`: sammelt nacheinander Karten von jedem Unterstapel and hört auf, wenn der Grenzwert von dem ausgewählten Stapel überschritten wurde. Dies ist schneller und erlaubt Ihnen, Unterstapel zu priorisieren, die weiter oben sind.
-    
-    `Position`: sammelt Karten von allen Stapeln bevor sie sortiert werden. Dies stellt sicher, dass die ältesten Karten zuerst angezeigt werden, auch wenn der übergeordnete Grenzwert nicht groß genug ist, um Karten von allen Stapeln anzuzeigen.
