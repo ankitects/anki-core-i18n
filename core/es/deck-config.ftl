@@ -137,12 +137,8 @@ deck-config-new-card-sort-order-tooltip-2 =
     hermanas en orden.
     
     `Random`: mezcla completamente las cartas recompiladas.
-deck-config-sort-order-card-template-then-lowest-position = Plantilla de tarjeta, luego posición ascendente
-deck-config-sort-order-card-template-then-highest-position = Plantilla de tarjeta, luego posición descendente
 deck-config-sort-order-card-template-then-random = Plantilla de tarjeta, luego aleatoria
 deck-config-sort-order-random-note-then-template = Nota aleatoria, luego plantilla de tarjeta
-deck-config-sort-order-lowest-position = Posición ascendente
-deck-config-sort-order-highest-position = Posición descendente
 deck-config-sort-order-random = Aleatorio
 deck-config-sort-order-template-then-gather = Plantilla de tarjeta
 deck-config-sort-order-gather = Orden de recolección
@@ -173,6 +169,7 @@ deck-config-sort-order-ascending-intervals = Intervalos ascendentes
 deck-config-sort-order-descending-intervals = Intervalos descendentes
 deck-config-sort-order-ascending-ease = Facilidad ascendente
 deck-config-sort-order-descending-ease = Facilidad descendente
+deck-config-sort-order-relative-overdueness = Retraso relativo
 deck-config-display-order-will-use-current-deck =
     Anki usará el orden de visualización del mazo seleccionado
     para estudiar, y no los submazos que pueda tener.
@@ -271,15 +268,3 @@ deck-config-which-deck = ¿Qué mazo quieres?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip =
-    Cómo se clasifican las tarjetas después de que se han recompilado. Por defecto, 
-    Anki ordena por plantilla de tarjeta primero, para evitar múltiples tarjetas hermanas (de la 
-    misma nota) mostradas en sucesión.
-deck-config-new-gather-priority-tooltip =
-    `Mazo`: reúne las cartas de cada submazo en orden y se detiene cuando se supera el 
-    límite del mazo seleccionado. Esto es más rápido y le permite priorizar submazos que 
-    están más cerca de la parte superior.
-    
-    `Posición`: reúne las cartas de todos los mazos antes de clasificarlos. Esto garantiza 
-    que las cartas aparezcan en el orden de una posición estricta (revisar #), incluso si el 
-    límite principal no es lo suficientemente alto para ver cartas de todos los mazos.
