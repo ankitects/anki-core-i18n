@@ -35,8 +35,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }勉強しています ({ $secs-per-card }秒/枚)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }秒
 statistics-today-title = 今日
 statistics-today-again-count = 忘却回数:
 statistics-today-type-counts = 学習: { $learnCount }枚、復習: { $reviewCount }枚、再学習: { $relearnCount }枚、フィルター: { $filteredCount }枚
@@ -140,7 +138,6 @@ statistics-days-studied = 学習日数
 statistics-average-answer-time-label = 平均所要時間
 statistics-average = 平均
 statistics-average-interval = 平均間隔
-statistics-longest-interval = 最長間隔
 statistics-due-tomorrow = 明日が期日のカード
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
