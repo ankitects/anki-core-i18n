@@ -97,7 +97,7 @@ deck-config-new-gather-priority = Uusien korttien keräysjärjestys
 deck-config-new-gather-priority-tooltip-2 =
     `Pakan järjestyksen mukaan`: kerää kortteja jokaisesta pakasta järjestyksessä päällimmäisestä alkaen. Kortit kerätään kustakin pakasta nousevassa järjestyksessä (erääntymisluvun mukaan). Jos valitun pakan päivittäinen raja saavutetaan, kerääminen voidaan lopettaa ennen kuin kaikki pakat on tarkistettu. Tämä järjestys on nopein suurissa kokoelmissa, ja sen avulla voit asettaa etusijalle alipakat, jotka ovat lähempänä yläpäätä.
     
-    `Nousevassa järjestysksessä`: kerää kortteja erääntymisluvun mukaan nousevassa järjestyksessä, jolloin yleensä vanhimmat kortit kerätään ensin.
+    `Nousevassa järjestyksessä`: kerää kortteja erääntymisluvun mukaan nousevassa järjestyksessä, jolloin yleensä vanhimmat kortit kerätään ensin.
     
     `Laskevassa järjestyksessä`: kerää kortteja erääntymisluvun mukaan laskevassa järjestyksessä, jolloin yleensä uusimmat kortit kerätään ensin.
     
@@ -120,12 +120,8 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Satunnainen muistiinpano, sitten korttimallin mukaan`: Poimii muistiinpanoja satunnaisesti ja näyttää sitten kaikki niiden sisarkortit järjestyksesä.
     
     "Satunnainen": Sekoittaa kerätyt kortit täydellisesti.
-deck-config-sort-order-card-template-then-lowest-position = Korttimallin mukaan, sitten nousevassa järjestysksessä
-deck-config-sort-order-card-template-then-highest-position = Korttimallin mukaan, sitten laskevassa järjestyksessä
 deck-config-sort-order-card-template-then-random = Korttimallin mukaan, sitten satunnaisesti
 deck-config-sort-order-random-note-then-template = Satunnainen muistiinpano, sitten korttimallin mukaan
-deck-config-sort-order-lowest-position = Nousevassa järjestyksessä
-deck-config-sort-order-highest-position = Laskevassa järjestyksessä
 deck-config-sort-order-random = Satunnainen
 deck-config-sort-order-template-then-gather = Korttimallin mukaan
 deck-config-sort-order-gather = Keräysjärjestyksen mukaan
@@ -148,6 +144,7 @@ deck-config-sort-order-ascending-intervals = Kertausvälien mukaan nousevassa j�
 deck-config-sort-order-descending-intervals = Kertausvälien mukaan laskevassa järjestyksessä
 deck-config-sort-order-ascending-ease = Helpoimmasta vaikeimpaan
 deck-config-sort-order-descending-ease = Vaikeimmasta helpoimpaan
+deck-config-sort-order-relative-overdueness = Suhteellinen erääntyneisyys
 deck-config-display-order-will-use-current-deck = Anki käyttää sen pakan esitysjärjestystä, jonka valitset opiskeltavaksi, eikä sen mahdollisten alipakkojen esitysjärjestystä.
 
 ## Timer section
@@ -228,8 +225,3 @@ deck-config-which-deck = Minkä pakan haluaisit?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
-deck-config-new-card-sort-order-tooltip = Näin kortit lajitellaan sen jälkeen, kun ne on kerätty. Oletusarvoisesti Anki lajittelee ensin korttimallien mukaan, jotta useita saman muistiinpanon kortteja ei jouduttaisi näyttämään peräkkäin.
-deck-config-new-gather-priority-tooltip =
-    `Pakan mukaan`: kortit kerätään alipakoista järjestyksesä, ja keräys lopetetaan, kun valitun pakan raja ylitetään. Tämä on nopeampaa, ja sallii lähellä yläpäätä olevien alipakkojen asettamisen etusijalle.
-    
-    `Sijainnin mukaan`: kortit kerätään kaikista pakoista, ennen kuin ne lajitellaan. Tämä varmistaa, että kortit esiintyvät täsmälleen erääntymisluvun mukaisessa järjestyksessä, vaikka yläpakan raja ei olisikaan tarpeeksi suuri, että kaikkien pakkojen kortit voitaisiin näyttää.
