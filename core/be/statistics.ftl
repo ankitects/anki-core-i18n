@@ -96,6 +96,7 @@ statistics-counts-buried-cards = Адкладзеныя
 statistics-counts-filtered-cards = Фільтраваныя
 statistics-counts-learning-cards = Вывучаюцца
 statistics-counts-relearning-cards = Вывучаюцца паўторна
+statistics-counts-separate-suspended-buried-cards = Раздзяляць прыпыненыя/адкладзеныя карткі
 statistics-range-all-time = агулам
 statistics-range-all-history = уся гісторыя
 statistics-range-deck = калода
