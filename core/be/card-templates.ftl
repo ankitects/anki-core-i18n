@@ -18,6 +18,9 @@ card-templates-template-box = Шаблон
 card-templates-sample-cloze = Гэта { "{{c1::" }прыклад{ "}}" } запаўнення прабела.
 card-templates-fill-empty = Запоўніць пустыя палі
 card-templates-night-mode = Начны рэжым
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Дадаць «Мабільны» клас
 card-templates-preview-settings = Параметры
 card-templates-invalid-template-number = Праблема з шаблонам карткі { $number } у тыпе нататак { $notetype }.
 card-templates-missing-cloze = Меркавалася знайсці «{ "{{" }cloze:Text{ "}}" }» або штосьці падобнае на пярэднім і заднім баку шаблону карткі.
