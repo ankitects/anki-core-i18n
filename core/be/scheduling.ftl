@@ -111,8 +111,11 @@ scheduling-update-more-info-button = Даведацца больш
 ## Other scheduling strings
 
 scheduling-automatically-play-audio = Аўтаматычна прайграваць аўдыя
+scheduling-bury-related-new-cards-until-the = Адкладваць звязаныя новыя карткі да наступнага дня
+scheduling-bury-related-reviews-until-the-next = Адкладваць звязаныя перагляды да наступнага дня
 scheduling-days = дзён
 scheduling-description = Апісанне
+scheduling-easy-interval = Інтэрвал для лёгкіх
 scheduling-end = (канец)
 scheduling-general = Агульныя
 scheduling-hard-interval = Інтэрвал для цяжкіх
@@ -126,13 +129,14 @@ scheduling-minimum-interval = Мінімальны інтэрвал
 scheduling-mix-new-cards-and-reviews = Перамешваць карткі да перагляду з новымі
 scheduling-new-cards = Новыя карткі
 scheduling-new-cardsday = Новых картак у дзень
-scheduling-new-interval = Новы інтэрвал
+scheduling-new-interval = Інтэрвал для новых
 scheduling-new-options-group-name = Назва новай групы параметраў:
 scheduling-options-group = Група параметраў:
 scheduling-order = Парадак
 scheduling-review = На перагляд
 scheduling-reviews = Перагляды
 scheduling-seconds = секунд
+scheduling-set-all-decks-below-to = Прызначыць усе калоды ніжэй за { $val } да гэтай групы параметраў?
 scheduling-set-for-all-subdecks = Задаць для ўсіх падкалод
 scheduling-show-answer-timer = Паказваць час адказу
 scheduling-show-new-cards-after-reviews = Паказваць карткі да перагляду перад новымі
@@ -144,6 +148,13 @@ scheduling-steps-in-minutes = Крокі (у хвілінах)
 scheduling-steps-must-be-numbers = Крокі павінны быць лікамі.
 scheduling-tag-only = Толькі цэтлік
 scheduling-the-default-configuration-cant-be-removed = Перадвызначаная канфігурацыя не можа быць выдалена.
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } калода абноўлена
+        [few] { $count } калоды абноўлены
+        [many] { $count } калод абноўлена
+       *[other] { $count } калод абноўлена
+    }.
 scheduling-set-due-date-prompt =
     Праз колькі дзён паказаць { $cards ->
         [one] картку
@@ -153,3 +164,17 @@ scheduling-set-due-date-prompt-hint =
     0 = сёння
     1! = заўтра+скінуць інтэрвал пераглядаў
     3-7 = выпадковы выбар паміж 3-7 дзён
+scheduling-set-due-date-done =
+    Зададзены { $cards ->
+        [one] тэрмін { $cards } карткі
+        [few] тэрміны { $cards } картак
+        [many] тэрміны { $cards } картак
+       *[other] тэрмін { $cards } картак
+    }.
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Забыта { $cards } картка
+        [few] Забыты { $cards } карткі
+        [many] Забыта { $cards } картак
+       *[other] Забыта { $cards } картак
+    }.

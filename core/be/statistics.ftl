@@ -169,6 +169,7 @@ statistics-intervals-title = Інтэрвалы пераглядаў
 statistics-hours-range = З { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } правільных ({ $percent }%)
 statistics-hours-title = Разбіўка па гадзінах
+statistics-hours-subtitle = Пераглядзець ацэнку паспяховасці для кожнай гадзіны дня.
 # shown when graph is empty
 statistics-no-data = НЯМА ДАНЫХ
 statistics-calendar-title = Каляндар
