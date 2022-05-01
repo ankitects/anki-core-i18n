@@ -92,6 +92,7 @@ scheduling-learn-remaining =
         [many] засталося { $remaining } картак
        *[other] засталося { $remaining } картак
     } на вывучэнне пазней.
+scheduling-congratulations-finished = Віншуем! Вы завяршылі гэту калоду на дадзены момант.
 scheduling-buried-cards-found = Адна або больш картак былі адкладзены і будуць паказаны заўтра. Вы можаце { $unburyThem }, калі вы хочаце іх убачыць неадкладна.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
@@ -102,19 +103,27 @@ scheduling-custom-study = дапасаванае навучанне
 
 ## Scheduler upgrade
 
+scheduling-update-done = Планіроўшчык абноўлены.
 scheduling-update-button = Абнавіць
 scheduling-update-later-button = Пазней
 scheduling-update-more-info-button = Даведацца больш
 
 ## Other scheduling strings
 
+scheduling-automatically-play-audio = Аўтаматычна прайграваць аўдыя
 scheduling-days = дзён
 scheduling-description = Апісанне
 scheduling-end = (канец)
 scheduling-general = Агульныя
+scheduling-hard-interval = Інтэрвал для цяжкіх
+scheduling-interval-modifier = Мадыфікатар інтэрвалу
 scheduling-lapses = Недагляды
 scheduling-lapses2 = недаглядаў
 scheduling-learning = Вывучаюцца
+scheduling-maximum-interval = Максімальны інтэрвал
+scheduling-maximum-reviewsday = Максімум пераглядаў у дзень
+scheduling-minimum-interval = Мінімальны інтэрвал
+scheduling-mix-new-cards-and-reviews = Перамешваць карткі да перагляду з новымі
 scheduling-new-cards = Новыя карткі
 scheduling-new-cardsday = Новых картак у дзень
 scheduling-new-interval = Новы інтэрвал
@@ -125,6 +134,12 @@ scheduling-review = На перагляд
 scheduling-reviews = Перагляды
 scheduling-seconds = секунд
 scheduling-set-for-all-subdecks = Задаць для ўсіх падкалод
+scheduling-show-answer-timer = Паказваць час адказу
+scheduling-show-new-cards-after-reviews = Паказваць карткі да перагляду перад новымі
+scheduling-show-new-cards-before-reviews = Паказваць карткі да перагляду пасля новых
+scheduling-show-new-cards-in-order-added = Паказваць новыя карткі ў парадку дадавання
+scheduling-show-new-cards-in-random-order = Паказваць новыя карткі ў выпадковым парадку
+scheduling-starting-ease = Пачатковая лёгкасць
 scheduling-steps-in-minutes = Крокі (у хвілінах)
 scheduling-steps-must-be-numbers = Крокі павінны быць лікамі.
 scheduling-tag-only = Толькі цэтлік

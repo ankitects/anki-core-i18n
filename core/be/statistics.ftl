@@ -113,6 +113,7 @@ statistics-range-deck = калода
 statistics-range-collection = калекцыя
 statistics-range-search = Пошук
 statistics-card-ease-title = Лёгкасць карткі
+statistics-card-ease-subtitle = Чым ніжэй лёгкасці, тым часцей будзе з’яўляцца картка.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -144,6 +145,7 @@ statistics-in-days-single =
         [many] За { $days } дзён
        *[other] За { $days } дзён
     }
+statistics-in-days-range = За { $daysStart }-{ $daysEnd } дзён
 statistics-days-ago-single =
     { $days ->
         [1] Учора
@@ -153,6 +155,7 @@ statistics-days-ago-single =
        *[other] { $days } дзён таму
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } дзён таму
+statistics-running-total = Прамежкавы вынік
 statistics-cards-due =
     { $cards ->
         [one] { $cards } картка
@@ -162,6 +165,10 @@ statistics-cards-due =
     } чакае
 statistics-backlog-checkbox = Адставанне
 statistics-intervals-title = Інтэрвалы пераглядаў
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = З { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } правільных ({ $percent }%)
+statistics-hours-title = Разбіўка па гадзінах
 # shown when graph is empty
 statistics-no-data = НЯМА ДАНЫХ
 statistics-calendar-title = Каляндар
