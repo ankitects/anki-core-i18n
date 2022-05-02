@@ -73,4 +73,9 @@ importing-processed-media-file =
        *[other] 已导入{ $count }个媒体文件
     }
 importing-importing-collection = 正在导入集合…
+importing-importing-file = 正在导入文件...
 importing-failed-to-import-media-file = 媒体文件导入失败：{ $debugInfo }
+importing-processed-notes =
+    { $count ->
+       *[other] 已处理{ $count }条笔记
+    }
