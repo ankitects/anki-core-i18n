@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = تضمين HTML ومراجع ال�
 exporting-include-media = تضمين الوسائط
 exporting-include-scheduling-information = تضمين معلومات الجدولة
 exporting-include-tags = تضمين الوسوم
+exporting-support-older-anki-versions = يدعم إصدارات أنكي القديمة (أبطأ وينتج ملفات أكبر)
 exporting-notes-in-plain-text = ملحوظات بصيغة نصية
 exporting-selected-notes = الملحوظات المحددة
 exporting-card-exported =
