@@ -159,6 +159,7 @@ deck-config-sort-order-ascending-intervals = מרווחים עולים
 deck-config-sort-order-descending-intervals = מרווחים יורדים
 deck-config-sort-order-ascending-ease = קלות עולה
 deck-config-sort-order-descending-ease = קלות יורדת
+deck-config-sort-order-relative-overdueness = איחור יחסי
 deck-config-display-order-will-use-current-deck =
     אנקי ישתמש בסדר התצוגה מהחפיסה שאתה 
     בוחר ללמוד, ולא כל תת -חפיסה שיש לו.
