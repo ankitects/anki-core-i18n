@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Dû
+statistics-due-date = Due
 # The count of cards waiting to be reviewed
-statistics-due-count = Dû
+statistics-due-count = Dues
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Nouvelle n°{ $number }
 
@@ -82,10 +82,10 @@ statistics-today-correct-mature = Réponses exactes sur les cartes matures : { $
 statistics-counts-total-cards = Nombre total de cartes
 statistics-counts-new-cards = Nouvelles
 statistics-counts-young-cards = Récentes
-statistics-counts-mature-cards = Mature
+statistics-counts-mature-cards = Matures
 statistics-counts-suspended-cards = Suspendues
-statistics-counts-buried-cards = Enfoui
-statistics-counts-filtered-cards = Filtré
+statistics-counts-buried-cards = Enfouies
+statistics-counts-filtered-cards = Filtrées
 statistics-counts-learning-cards = À repasser
 statistics-counts-relearning-cards = Réapprentissage
 statistics-counts-title = nombre de cartes
@@ -176,7 +176,7 @@ statistics-elapsed-time-years = { $amount }année
 
 ##
 
-statistics-average-for-days-studied = Moyenne (par jour travaillé)&nbsp;
+statistics-average-for-days-studied = Moyenne (par jour travaillé)
 statistics-total = Total
 statistics-days-studied = Jours travaillés
 statistics-average-answer-time-label = Durée de réponse moyenne
@@ -185,7 +185,7 @@ statistics-average-interval = Intervalle moyen
 statistics-due-tomorrow = Prévues pour demain
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } du { $total } ({ $percent }%)
-statistics-average-over-period = Moyenne (tous jours confondus)&nbsp;
+statistics-average-over-period = Moyenne (tous jours confondus)
 statistics-reviews-per-day =
     { $count ->
         [one] { $count } révision/jour
