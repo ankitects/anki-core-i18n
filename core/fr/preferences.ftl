@@ -15,7 +15,7 @@ preferences-on-next-sync-force-changes-in = À la prochaine synchronisation, for
 preferences-paste-clipboard-images-as-png = Coller les images du presse-papier en PNG.
 preferences-paste-without-shift-key-strips-formatting = Coller sans maintenir la touche Maj retire le formatage
 preferences-periodically-sync-media = Synchroniser périodiquement les médias
-preferences-please-restart-anki-to-complete-language = S’il vous plait, redémarrez Anki pour finaliser le changement de langue.
+preferences-please-restart-anki-to-complete-language = Veuillez redémarrer Anki pour finaliser le changement de langue.
 preferences-preferences = Préférences
 preferences-scheduling = Replanifier
 preferences-show-learning-cards-with-larger-steps = Montrer les cartes en cours d’apprentissage avec de plus grand pas avant de les revoir
@@ -31,8 +31,8 @@ preferences-user-interface-size = Taille de l’interface
 preferences-when-adding-default-to-current-deck = Ajouter par défaut au paquet courant
 preferences-you-can-restore-backups-via-fileswitch = Vous pouvez restaurer les sauvegardes en passant par Fichier > Changer de compte.
 preferences-legacy-timezone-handling = Ancienne gestion des fuseaux horaires (bugué, mais nécessaire pour AnkiDroid <= 2.14)
-preferences-default-search-text = Texte de recherche standard
-preferences-default-search-text-example = par exemple: 'deck:actuel'
+preferences-default-search-text = Texte de recherche par défaut
+preferences-default-search-text-example = par exemple: 'deck:current'
 preferences-theme-label = Thème:{ $theme }
 preferences-theme-follow-system = Suivre le système
 preferences-theme-light = Clair
@@ -42,7 +42,7 @@ preferences-ignore-accents-in-search = Ignorer les accents lors de la recherche 
 preferences-backup-explanation =
     Anki sauvegarde périodiquement votre collection. Lorsque les sauvegardes ont plus de 2 jours,¶
     Anki commencera à supprimer certaines d'entre elles pour libérer de l'espace disque.
-preferences-daily-backups = Sauvegarde journalière à conserver:
-preferences-weekly-backups = Sauvegarde hebdomadaire à conserver:
-preferences-monthly-backups = Sauvegarde mensuel à conserver:
+preferences-daily-backups = Sauvegardes journalières à conserver:
+preferences-weekly-backups = Sauvegardes hebdomadaires à conserver:
+preferences-monthly-backups = Sauvegardes mensuelles à conserver:
 preferences-minutes-between-backups = Minutes entre les sauvegardes automatiques :

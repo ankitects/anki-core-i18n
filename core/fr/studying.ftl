@@ -2,12 +2,12 @@ studying-again = À revoir
 studying-all-buried-cards = Toutes les cartes enfouies
 studying-audio-5s = Audio -5s
 studying-audio-and5s = Audio +5s
-studying-buried-siblings = Enfouir les cartes connexes
+studying-buried-siblings = Cartes sœurs enfouies
 studying-bury = Enfouir
 studying-bury-card = Enfouir la carte
 studying-bury-note = Enfouir la note
 studying-card-suspended = Carte suspendue.
-studying-card-was-a-leech = Cette carte est pénible.
+studying-card-was-a-leech = Cette carte est une sangsue
 studying-cards-buried =
     { $count ->
         [one] { $count } carte enfouie.
@@ -15,7 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Les cartes reviendront à leurs paquets d’origine après révision.
 studying-continue = Continuer
-studying-counts-differ = Le nombre de cartes diffères de la liste du paquet parce que l'enfouissement est activé. Certaines cartes ont été exclues, et d'autres peuvent avoir pris leur place.
+studying-counts-differ = Le nombre de cartes diffère de la liste du paquet parce que l'enfouissement est activé. Certaines cartes ont été exclues, et d'autres peuvent avoir pris leur place.
 studying-delete-note = Supprimer la note
 studying-deleting-this-deck-from-the-deck = En supprimant le paquet de la liste des paquets, ses cartes reviendront à leur paquet d’origine.
 studying-easy = Facile

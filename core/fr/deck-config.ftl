@@ -30,7 +30,7 @@ deck-config-limit-interday-bound-by-reviews = La limite de révision journalièr
 
 deck-config-learning-steps = Étapes d'apprentissage
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Les délais peuvent être en minutes (par ex. `5m`), ou en jours (par ex. `2d`), mais les heures (par ex. `1h`) ou les secondes (par ex. `30s`) sont également acceptées.
+-deck-config-delay-hint = Les délais peuvent être en minutes (par ex. `5m`), ou en jours (par ex. `2d`), mais les heures (par ex. `1h`) ou les secondes (par ex. `30s`) sont également valides.
 deck-config-learning-steps-tooltip = Un ou plusieurs délais, séparés par des espaces. Le premier délai (par défaut 1 minutes) sera appliqué quand vous noterez une nouvelle carte comme étant `À revoir`. Le bouton `Correct` passera à l'étape suivante (par défaut 10 minutes). Une fois ces étapes franchies, la carte deviendra une carte de révision, et apparaîtra un autre jour. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Le nombre de jours à attendre avant de revoir une carte, si le bouton `Correct` est pressé à l'étape finale d'apprentissage.
 deck-config-easy-interval-tooltip = Le nombre de jours à attendre avant de revoir une carte, si le bouton `Facile` est pressé pour l'enlever immédiatement de l'apprentissage.
@@ -38,37 +38,35 @@ deck-config-new-insertion-order = Ordre d'insertion
 deck-config-new-insertion-order-tooltip = Contrôle la position (date d'échéance) assignée aux nouvelles cartes que vous ajoutez. Les cartes avec une plus faible position seront montrées en premier pendant l'étude. Changer cette option va automatiquement modifier la position existante des nouvelles cartes.
 deck-config-new-insertion-order-sequential = Séquentiel (les plus anciennes cartes d'abord)
 deck-config-new-insertion-order-random = Aléatoire
-deck-config-new-insertion-order-random-with-v3 =
-    Avec le scheduler V3, il est préférable de laisser ce paramètre sur séquentiel, et¶
-    ajuster plutôt le nouvel ordre de rassemblement des cartes.
+deck-config-new-insertion-order-random-with-v3 = Avec le planificateur v3, il est préférable de laisser ce paramètre en séquentiel, et d'ajuster plutôt le nouvel ordre de rassemblement des cartes.
 
 ## Lapses section
 
-deck-config-relearning-steps = Étapes de ré-apprentissages
-deck-config-relearning-steps-tooltip = Aucun ou plusieurs délais, séparés par des espaces. Par défaut, appuyer sur le bouton 'À revoir' ¶ d'une carte à réviser va l'afficher à nouveau 10 minutes plus tard. Si aucun délai ¶ n'a été fourni, la carte aura son intervalle modifié, sans entrer¶ en réapprentissage.  { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip =
-    Le nombre de fois où il faut appuyer sur "Encore" sur une carte de revue avant qu'elle ne soit¶
-    avant qu'elle ne soit considérée comme une sangsue. Les sangsues sont des cartes qui vous font perdre beaucoup de temps, et¶
-    lorsqu'une carte est marquée comme une sangsue, c'est une bonne idée de la réécrire, de la supprimer, ou¶
-    de penser à un moyen mnémotechnique pour t'aider à t'en souvenir.
+deck-config-relearning-steps = Étapes de ré-apprentissage
+deck-config-relearning-steps-tooltip = Aucun ou plusieurs délais, séparés par des espaces. Par défaut, presser le bouton 'À revoir' d'une carte à réviser l'affichera à nouveau 10 minutes plus tard. Si aucun délai n'a été fourni, la carte aura son intervalle modifié, sans entrer en réapprentissage.  { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = Le nombre de fois où il faut appuyer sur `À revoir` sur une carte à réviser avant qu'elle ne soit considérée comme une « sangsue ». Les sangsues sont des cartes qui vous font perdre beaucoup de temps, et lorsqu'une carte est marquée comme telle, il peut être opportun de la réécrire, de la supprimer, ou de chercher un moyen mnémotechnique pour mieux s'en souvenir.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Étiquette seulement`: Ajoute un tag "leech" à la note, et affiche une pop-up.¶
-    ¶
-    `Suspendre la carte` : En plus de l'étiquetage de la note, cachez la carte jusqu'à ce qu'elle soit¶
-    qu'elle soit manuellement remise en suspension.
+    `Taguer` : Ajoute un tag « sangsue » à la note, et affiche une pop-up.
+    `Suspendre la carte` : En plus de taguer la note, cache la carte jusqu'à ce qu'elle soit manuellement remise en jeu.
 
 ## Burying section
 
 deck-config-bury-title = Enfouissement
 deck-config-bury-new-siblings = Enfouir les nouvelles cartes sœurs
-deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser jusqu'au jour suivant
-deck-config-bury-tooltip = Si les autres cartes de la même note (eg cartes inversées, caches de mots adjacent) seront retardées jusqu'au jour suivant.
+deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser
+deck-config-bury-tooltip = Dans quelle mesurei les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
 
 ## Ordering section
 
 deck-config-ordering-title = Ordre d'Affichage
 deck-config-new-gather-priority = Ordre de collecte des nouvelles cartes
+deck-config-new-gather-priority-tooltip-2 =
+    `Paquet` : rassemble les cartes de chaque paquet dans l'ordre, en commençant par le haut. Les cartes de chaque paquet sont rassemblées par ordre croissant. Si la limite quotidienne du paquet choisi est atteinte, la collecte peut s'arrêter avant que tous les paquets aient été vérifiés. Cet ordre est le plus rapide pour les grandes collections, et permet de donner la priorité aux sous-paquets qui sont plus proches du sommet.¶
+    `Ordre croissant` : rassemble les cartes par position croissante (échéance), c.à.d. généralement les plus anciennes ajoutées en premier.¶
+    `Ordre décroissant` : rassemble les cartes par position décroissante (échéance), c.à.d. généralement les plus récentes ajoutées en premier.¶
+    `Notes aléatoires` : rassemble les cartes de notes choisies au hasard. Si l'enfouissement des cartes sœurs est désactivé, cela permet à toutes les cartes d'une même note d'apparaître dans une session (par ex. à la fois une carte recto->verso et une carte verso->recto)¶
+    `Cartes aléatoires` : rassemble les cartes complètement aléatoirement
 deck-config-new-gather-priority-deck = Paquet
 deck-config-new-gather-priority-position-lowest-first = Ordre croissant
 deck-config-new-gather-priority-position-highest-first = Ordre décroissant
