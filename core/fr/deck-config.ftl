@@ -51,7 +51,7 @@ deck-config-new-insertion-order-tooltip =
     Contrôle la position (dû #) des nouvelles cartes qui assignées quand vous ajoutez des nouvelles cartes.
     Les cartes avec une plus faible position seront montrées en premier pendant l'étude. Changer
     cette option va automatiquement modifier la position existante des nouvelles cartes.
-deck-config-new-insertion-order-sequential = Séquentiel (les plus vieilles cartes en premier)
+deck-config-new-insertion-order-sequential = Séquentiel (les plus anciennes cartes d'abord)
 deck-config-new-insertion-order-random = Aléatoire
 deck-config-new-insertion-order-random-with-v3 =
     Avec le scheduler V3, il est préférable de laisser ce paramètre sur séquentiel, et¶
@@ -76,7 +76,7 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Enfouissement
-deck-config-bury-new-siblings = Enfouir les cartes sœurs nouvelles jusqu'au jour suivant
+deck-config-bury-new-siblings = Enfouir les nouvelles cartes sœurs
 deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser jusqu'au jour suivant
 deck-config-bury-tooltip = Si les autres cartes de la même note (eg cartes inversées, caches de mots adjacent) seront retardées jusqu'au jour suivant.
 
@@ -189,10 +189,10 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards } cartes
     }, ce qui va outrepasser cette limite.
 deck-config-reviews-too-low =
-    Si l'on ajoute { $cards ->
-        [one] { $cards } nouvelle carte chaque jour
-       *[other] { $cards } nouvelle carte chaque jour
-    }, votre limite de révision doit être d'au moins { $expected }.
+    Pour rajouter{ $cards ->
+        [one] { $cards } carte inédite par jour
+       *[other] { $cards } cartes inédites par jour
+    }, vous devriez en réviser au moins { $expected } déjà vues.
 deck-config-learning-step-above-graduating-interval = L'intervalle de graduation doit être au moins aussi long que votre dernière étape d'apprentissage.
 deck-config-good-above-easy = L'intervalle facile doit être au moins aussi long que l'intervalle gradué.
 deck-config-relearning-steps-above-minimum-interval = L'intervalle minimal doit être au moins aussi long que votre étape finale de réapprentissage.
