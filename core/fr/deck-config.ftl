@@ -18,10 +18,7 @@ deck-config-title = Options du paquet
 deck-config-daily-limits = Limites journalières
 deck-config-new-limit-tooltip = Le nombre maximal de nouvelles cartes pouvant être introduites par jour (si de nouvelles cartes sont disponibles). Des cartes inédites peuvent augmenter votre charge de travail à court-terme, donc vous devriez éviter d'en introduire chaque jour plus de 10% de votre quota de révisions.
 deck-config-review-limit-tooltip = Le nombre maximal de cartes déjà vues pouvant être révisées par jour (si des cartes doivent être révisées).
-deck-config-limit-deck-v3 =
-    Quand vous étudiez un paquet qui a des sous-paquets, les limites de chaque
-    sous-paquet fixent le nombre maximal de cartes tirées de ce paquet.
-    Les limites du paquet sélectionné fixent le nombre total de cartes qui seront montrées.
+deck-config-limit-deck-v3 = Quand vous étudiez un paquet qui a des sous-paquets, les limites de chaque sous-paquet fixent le nombre maximal de cartes tirées de ce paquet. Les limites du paquet sélectionné fixent le nombre total de cartes qui seront montrées.
 deck-config-limit-new-bound-by-reviews =
     La limite de révision influence la nouvelle limite. Par exemple, si la limite de révision est
     fixée à 200, et que vous avez 190 révisions en attente, un maximum de 10 nouvelles cartes seront
@@ -33,24 +30,12 @@ deck-config-limit-interday-bound-by-reviews = La limite de révision journalièr
 
 deck-config-learning-steps = Étapes d'apprentissage
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Les délais peuvent être en minutes (ex `5m`), ou en jours (ex `2d`).
-deck-config-learning-steps-tooltip =
-    Un ou plusieurs délais, séparés par des espaces. Le premier délai sera utilisé
-    lorsque vous pressez le bouton `À revoir` sur une nouvelle carte, et est 1 minute par défaut.
-    Le bouton `Correct` avancera à l'étape suivante, qui est 10 minutes par défaut.
-    Une fois que ces étapes seront faites, la carte deviendra une carte de révision, et
-    apparaîtra un autre jour. { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip =
-    Le nombre de jours à attendre avant de voir la carte à nouveau, après que le bouton `Correct`
-    soit appuyé à l'étape finale d'apprentissage.
-deck-config-easy-interval-tooltip =
-    Le nombre de jours à attendre avant de voir la carte à nouveau, après que le bouton `Facile`
-    soit utilisé pour enlever immédiatement la carte de l'apprentissage.
+-deck-config-delay-hint = Les délais peuvent être en minutes (par ex. `5m`), ou en jours (par ex. `2d`), mais les heures (par ex. `1h`) ou les secondes (par ex. `30s`) sont également acceptées.
+deck-config-learning-steps-tooltip = Un ou plusieurs délais, séparés par des espaces. Le premier délai (par défaut 1 minutes) sera appliqué quand vous noterez une nouvelle carte comme étant `À revoir`. Le bouton `Correct` passera à l'étape suivante (par défaut 10 minutes). Une fois ces étapes franchies, la carte deviendra une carte de révision, et apparaîtra un autre jour. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = Le nombre de jours à attendre avant de revoir une carte, si le bouton `Correct` est pressé à l'étape finale d'apprentissage.
+deck-config-easy-interval-tooltip = Le nombre de jours à attendre avant de revoir une carte, si le bouton `Facile` est pressé pour l'enlever immédiatement de l'apprentissage.
 deck-config-new-insertion-order = Ordre d'insertion
-deck-config-new-insertion-order-tooltip =
-    Contrôle la position (dû #) des nouvelles cartes qui assignées quand vous ajoutez des nouvelles cartes.
-    Les cartes avec une plus faible position seront montrées en premier pendant l'étude. Changer
-    cette option va automatiquement modifier la position existante des nouvelles cartes.
+deck-config-new-insertion-order-tooltip = Contrôle la position (date d'échéance) assignée aux nouvelles cartes que vous ajoutez. Les cartes avec une plus faible position seront montrées en premier pendant l'étude. Changer cette option va automatiquement modifier la position existante des nouvelles cartes.
 deck-config-new-insertion-order-sequential = Séquentiel (les plus anciennes cartes d'abord)
 deck-config-new-insertion-order-random = Aléatoire
 deck-config-new-insertion-order-random-with-v3 =
