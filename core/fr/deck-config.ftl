@@ -24,7 +24,7 @@ deck-config-limit-new-bound-by-reviews =
     fixée à 200, et que vous avez 190 révisions en attente, un maximum de 10 nouvelles cartes seront
     introduites. Si la limite de révision est atteinte, aucune nouvelle carte ne sera
     montrée.
-deck-config-limit-interday-bound-by-reviews = La limite de révision journalière affecte aussi les cartes en apprentissage interjournalières. Quand la limite est appliquée, ¶ cartes en apprentissages interjournalières sont collectées en première, ensuite celles à réviser, et finalement les nouvelles cartes.
+deck-config-limit-interday-bound-by-reviews = La limite de révision journalière affecte aussi les cartes en apprentissage interjournalier. Quand la limite est appliquée, ¶ les cartes en apprentissage interjournalier sont collectées en première, ensuite celles à réviser, et finalement les nouvelles cartes.
 
 ## New Cards section
 
