@@ -16,17 +16,12 @@ deck-config-title = Options du paquet
 ## Daily limits section
 
 deck-config-daily-limits = Limites journalières
-deck-config-new-limit-tooltip =
-    Le nombre maximum de nouvelles cartes à introduire par jour.Si de nouvelles cartes sont disponibles.
-    Parce que de nouvelles cartes peuvent augmenter la charge de travail à court terme, cela doit normalement
-    être au moins 10 fois plus petit que la limite de révision.
-deck-config-review-limit-tooltip =
-    Le nombre maximum de cartes à revoir à montrer en un jour.
-    Si les cartes sont prêtes à être revue.
+deck-config-new-limit-tooltip = Le nombre maximal de nouvelles cartes pouvant être introduites par jour (si de nouvelles cartes sont disponibles). Des cartes inédites peuvent augmenter votre charge de travail à court-terme, donc vous devriez éviter d'en introduire chaque jour plus de 10% de votre quota de révisions.
+deck-config-review-limit-tooltip = Le nombre maximal de cartes déjà vues pouvant être révisées par jour (si des cartes doivent être révisées).
 deck-config-limit-deck-v3 =
     Quand vous étudiez un paquet qui a des sous-paquets, les limites de chaque
-    sous-paquets contrôle le nombre maximum de cartes tirées de ce paquet.
-    Les limites du paquet sélectionné contrôle le nombre total de cartes qui seront montrées.
+    sous-paquet fixent le nombre maximal de cartes tirées de ce paquet.
+    Les limites du paquet sélectionné fixent le nombre total de cartes qui seront montrées.
 deck-config-limit-new-bound-by-reviews =
     La limite de révision influence la nouvelle limite. Par exemple, si la limite de révision est
     fixée à 200, et que vous avez 190 révisions en attente, un maximum de 10 nouvelles cartes seront
