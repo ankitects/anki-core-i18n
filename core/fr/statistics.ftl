@@ -97,7 +97,7 @@ statistics-range-deck = paquet
 statistics-range-collection = collection
 statistics-range-search = Chercher
 statistics-card-ease-title = Facilité de la carte
-statistics-card-ease-subtitle = Plus la facilité est basse, plus souvent elle va apparaître.
+statistics-card-ease-subtitle = Moins une carte est facile, plus souvent elle apparaîtra.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
