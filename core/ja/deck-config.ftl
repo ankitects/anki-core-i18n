@@ -69,23 +69,13 @@ deck-config-bury-tooltip = 同じノートから作られたカード（裏表�
 
 deck-config-ordering-title = 表示順序
 deck-config-new-gather-priority = 新規カードを集めるときの優先順序
-deck-config-new-gather-priority-tooltip =
-    `デッキ`：その日に学習する新規カードがそれぞれのサブデッキからサブデッキの並び順で集められ、選択中のデッキの一日あたりのカード出題枚数の上限に達した時点で集めるのを終了します。この設定は速度が最も速く、サブデッキの並び順の上の方の優先順序が高くなる特徴があります。
-    
-    `位置`：はじめに選択中のデッキ内にあるすべての新規カードが集められます。この方法では新規カード番号（位置）が優先されるため、選択中のデッキの一日あたりのカード出題枚数の上限が低く設定されていても、それぞれのサブデッキからまんべんなくカードを表示することができます。
 deck-config-new-gather-priority-deck = デッキ
 deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
 deck-config-new-gather-priority-position-highest-first = 位置（降順）
+deck-config-new-gather-priority-random-notes = ノート単位でのランダム
+deck-config-new-gather-priority-random-cards = カード単位でのランダム
 deck-config-new-card-sort-order = 集められた新規カードのソート方法
-deck-config-new-card-sort-order-tooltip =
-    その日の学習のために集められた新規カードをどのように並べるのか選択できます。
-    
-    デフォルトでは、同一ノートから作成されたカードを続けて表示することを防ぐため、まずはカードテンプレート別（例えば、裏表反転ノートの表面カードなど）に並べられます。
-deck-config-sort-order-card-template-then-lowest-position = カードテンプレ後、位置（昇順）
-deck-config-sort-order-card-template-then-highest-position = カードテンプレ後、位置（降順）
 deck-config-sort-order-card-template-then-random = カードテンプレ後、ランダム
-deck-config-sort-order-lowest-position = 位置（昇順）
-deck-config-sort-order-highest-position = 位置（降順）
 deck-config-sort-order-random = ランダム
 deck-config-sort-order-template-then-gather = カードテンプレ後、集められた順番
 deck-config-sort-order-gather = 集められた順番
@@ -154,7 +144,6 @@ deck-config-clone-group = 同一のプリセットを追加
 ## Removing
 
 deck-config-remove-group = プリセットを削除
-deck-config-confirm-normal = { $name }を削除しますか？
 deck-config-will-require-full-sync = この変更を行うには、一方の状態をもう片方に上書きする同期が必要です。他のデバイスでのカード学習や変更をまだ同期していない場合は、そちらを済ませてからこちらの同期を実行してください。
 deck-config-confirm-remove-name = { $name }を削除しますか？
 
@@ -189,3 +178,6 @@ deck-config-relearning-steps-above-minimum-interval = 忘却カードの復習�
 ## Selecting a deck
 
 deck-config-which-deck = どのデッキを選択しますか？
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+

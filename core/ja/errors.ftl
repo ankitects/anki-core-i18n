@@ -9,3 +9,7 @@ errors-100-tags-max =
     また、親タグが選択されている場合、あらためて子タグを選択する必要はありません。
 errors-multiple-notetypes-selected = 同じノートタイプのノートを選択してください。
 errors-please-check-database = データベースをチェック機能を使用した後、再度お試しください。
+errors-please-check-media = 「メディアをチェック」機能を使用した後、再度お試しください。
+
+## Card Rendering
+

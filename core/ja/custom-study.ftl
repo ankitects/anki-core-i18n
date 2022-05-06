@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = 今日の新規カードの上限�
 custom-study-increase-todays-new-card-limit-by = 今日の新規カードの上限に上乗せ
 custom-study-increase-todays-review-card-limit = 今日の復習カードの上限を上げる
 custom-study-increase-todays-review-limit-by = 今日の復習カードの上限に上乗せ
-custom-study-new-cards-in-deck-over-today = デッキ内の今日の上限を超えている新規カード数：{ $val }
 custom-study-new-cards-only = 新規カードのみ
 custom-study-no-cards-matched-the-criteria-you = 指定した条件に一致するカードはありませんでした。
 custom-study-ok = OK
@@ -21,8 +20,10 @@ custom-study-review-ahead = 先取りして学習する
 custom-study-review-ahead-by = 先取りする日数
 custom-study-review-cards-forgotten-in-last = もう一度と回答したカードを復習:：過去
 custom-study-review-forgotten-cards = 忘却したカードを復習する
-custom-study-reviews-due-in-deck-over-today = デッキ内の今日の上限を超えている復習カード数：{ $val }
 custom-study-select = 選択枚数
 custom-study-select-tags-to-exclude = 除外するタグの選択:
 custom-study-selective-study = 選択学習
 custom-study-study-by-card-state-or-tag = カードの状態やタグを選んで学習する
+
+## DEPRECATED - you do not need to translate these.
+

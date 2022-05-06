@@ -50,6 +50,10 @@ actions-update-notetype = ノートタイプを更新
 actions-update-config = 設定を更新
 actions-card-info = カード情報
 actions-previous-card-info = 直前カード情報
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
+actions-currently-unsupported = このアクションは現在お使いのシステムでサポートされていません。
 
 ## Flags
 

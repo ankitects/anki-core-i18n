@@ -12,6 +12,7 @@ editing-couldnt-record-audio-have-you-installed = 音声を録音できません
 editing-customize-card-templates = カードテンプレートをカストマイズ
 editing-customize-fields = カスタムフィールド
 editing-cut = カット
+editing-double-click-image = 画像をダブルクリック
 editing-edit-current = 現在のノートを編集
 editing-edit-html = HTML を編集
 editing-fields = フィールド

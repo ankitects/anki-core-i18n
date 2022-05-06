@@ -22,3 +22,8 @@ card-stats-review-log-type-review = 復習
 card-stats-review-log-type-relearn = 再学習
 card-stats-review-log-type-filtered = フィルター
 card-stats-review-log-type-manual = 手動変更
+card-stats-no-card = （表示するカードがありません）
+
+## Window Titles
+
+card-stats-previous-card = 前のカード ({ $context })
