@@ -10,7 +10,7 @@ browsing-average-ease = Facilité Moy.
 browsing-average-interval = Interval Moy.
 browsing-browser-appearance = Apparence du navigateur
 browsing-browser-options = Options de l’explorateur
-browsing-buried = Enfoui
+browsing-buried = Enfouies
 browsing-card = Carte
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C

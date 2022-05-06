@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = Inclure des références HTML et m
 exporting-include-media = Inclure les médias
 exporting-include-scheduling-information = Inclure les données de planification
 exporting-include-tags = Inclure les tags
+exporting-support-older-anki-versions = Gérer les versions antérieures d'Anki (fichiers plus lents et/ou plus lourds)
 exporting-notes-in-plain-text = Notes en texte
 exporting-selected-notes = Notes selectionnées
 exporting-card-exported =
