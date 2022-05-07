@@ -47,7 +47,7 @@ deck-config-relearning-steps-tooltip = Aucun ou plusieurs délais, séparés par
 deck-config-leech-threshold-tooltip = Le nombre de fois où il faut appuyer sur `À revoir` sur une carte à réviser avant qu'elle ne soit considérée comme une « sangsue ». Les sangsues sont des cartes qui vous font perdre beaucoup de temps, et lorsqu'une carte est marquée comme telle, il peut être opportun de la réécrire, de la supprimer, ou de chercher un moyen mnémotechnique pour mieux s'en souvenir.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Taguer` : Ajoute un tag « sangsue » à la note, et affiche une pop-up.
+    `Taguer` : Ajoute un tag « sangsue » à la note, et affiche une pop-up.¶
     `Suspendre la carte` : En plus de taguer la note, cache la carte jusqu'à ce qu'elle soit manuellement remise en jeu.
 
 ## Burying section
@@ -55,7 +55,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Enfouissement
 deck-config-bury-new-siblings = Enfouir les nouvelles cartes sœurs
 deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser
-deck-config-bury-tooltip = Dans quelle mesurei les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
+deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
 
 ## Ordering section
 
@@ -172,7 +172,7 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards } cartes
     }, ce qui va outrepasser cette limite.
 deck-config-reviews-too-low =
-    Pour rajouter{ $cards ->
+    Pour rajouter { $cards ->
         [one] { $cards } carte inédite par jour
        *[other] { $cards } cartes inédites par jour
     }, vous devriez en réviser au moins { $expected } déjà vues.
