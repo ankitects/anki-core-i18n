@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = Sisällytä HTML ja mediaviittauks
 exporting-include-media = Sisältää mediatiedostoja
 exporting-include-scheduling-information = Liitä ajastustiedot
 exporting-include-tags = Liitä tunnisteet:
+exporting-support-older-anki-versions = Tuki vanhemmille Anki-versioille (hitaampi / suuremmat tiedostot)
 exporting-notes-in-plain-text = Muistiinpanot pelkkänä tekstinä
 exporting-selected-notes = Valitut muistiinpanot
 exporting-card-exported =
