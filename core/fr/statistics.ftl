@@ -88,7 +88,7 @@ statistics-counts-buried-cards = Enfouies
 statistics-counts-filtered-cards = Filtrées
 statistics-counts-learning-cards = À repasser
 statistics-counts-relearning-cards = Réapprentissage
-statistics-counts-title = nombre de cartes
+statistics-counts-title = Nombre de cartes
 statistics-counts-separate-suspended-buried-cards = Séparer les cartes suspendues/enfouies
 statistics-range-all-time = vie du paquet
 statistics-range-1-year-history = 12 derniers mois
@@ -106,7 +106,7 @@ statistics-card-ease-tooltip =
     }
 statistics-future-due-title = Charge de travail
 statistics-future-due-subtitle = Prévision du nombre de cartes à réviser selon leur jour d’échéance et leur statut.
-statistics-added-title = Ajouté
+statistics-added-title = Ajoutées
 statistics-added-subtitle = Le nombre de nouvelles cartes que vous avez ajoutées.
 statistics-reviews-count-subtitle = La part et le nombre de révisions selon le statut de la carte.
 statistics-reviews-time-subtitle = Le temps passé à répondre selon le jour et selon le statut de la carte.
@@ -114,7 +114,7 @@ statistics-answer-buttons-title = Boutons de réponse
 # eg Button: 4
 statistics-answer-buttons-button-number = Bouton
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = nombre de fois pressés
+statistics-answer-buttons-button-pressed = Nombre d'appuis
 statistics-answer-buttons-subtitle = Le choix des divers boutons en fonction de l’ancienneté de la carte.
 statistics-reviews-title = Révisions
 statistics-reviews-time-checkbox = Durée
@@ -154,7 +154,7 @@ statistics-intervals-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = De { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = { $correct }/{ $total } correct ({ $percent }%)
+statistics-hours-correct = { $correct }/{ $total } correctes ({ $percent }%)
 statistics-hours-title = Répartition horaire
 statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heure du jour.
 # shown when graph is empty
