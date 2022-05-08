@@ -4,6 +4,7 @@ fields-editing-font = フォントを編集
 fields-field = フィールド:
 fields-field-name = フィールド名:
 fields-description = 詳細
+fields-description-placeholder = エディター画面内の このフィールド名の右に、この内容のツールチップを表示します
 fields-fields-for = { $val } のフィールド
 fields-font = フォント:
 fields-new-position-1 = 新しい位置 (1...{ $val }):

@@ -72,3 +72,5 @@ importing-processed-media-file =
     { $count ->
        *[other] { $count }のメディアファイルを処理
     }
+importing-importing-collection = コレクションを読み込み中...
+importing-failed-to-import-media-file = メディアファイルのインポートに失敗しました: { $debugInfo }

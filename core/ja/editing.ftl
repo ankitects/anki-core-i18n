@@ -1,3 +1,4 @@
+editing-actual-size = 元のサイズを上限としてエディターの幅に合わせて表示/コンパクトサイズで表示
 editing-add-media = メディアを追加
 editing-align-left = 左寄り
 editing-align-right = 右寄り
@@ -16,6 +17,9 @@ editing-double-click-image = 画像をダブルクリック
 editing-edit-current = 現在のノートを編集
 editing-edit-html = HTML を編集
 editing-fields = フィールド
+editing-float-left = 左寄せ配置（後に続く内容は右側に回り込ませる）
+editing-float-right = 右寄せ配置（後に続く内容は左側に回り込ませる）
+editing-float-none = 左右への配置指定なし（後に続く内容の回り込みもなし）
 editing-indent = インデントを増やす
 editing-italic-text = イタリック
 editing-jump-to-tags-with-ctrlandshiftandt = Ctrl+Shift+T でタグフィールドに移動します。

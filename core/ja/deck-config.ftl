@@ -76,6 +76,7 @@ deck-config-new-gather-priority-random-notes = ノート単位でのランダム
 deck-config-new-gather-priority-random-cards = カード単位でのランダム
 deck-config-new-card-sort-order = 集められた新規カードのソート方法
 deck-config-sort-order-card-template-then-random = カードテンプレ後、ランダム
+deck-config-sort-order-random-note-then-template = ノート単位でのランダム、さらにノート内ではカードタイプ単位でのランダム
 deck-config-sort-order-random = ランダム
 deck-config-sort-order-template-then-gather = カードテンプレ後、集められた順番
 deck-config-sort-order-gather = 集められた順番

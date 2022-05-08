@@ -5,6 +5,7 @@ exporting-anki-deck-package = Anki デッキパッケージ
 exporting-cards-in-plain-text = テキストファイル形式のカード
 exporting-collection = コレクション
 exporting-collection-exported = コレクションを書き出しました。
+exporting-colpkg-too-new = Ankiの最新バージョンにアップデートしてから、もう一度.colpkgファイルをインポートしてください。
 exporting-couldnt-save-file = ファイル { $val } を保存できませんでした
 exporting-export = 書き出す...
 exporting-export-format = <b>ファイルの形式</b>

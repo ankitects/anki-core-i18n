@@ -24,6 +24,8 @@ custom-study-select = 選択枚数
 custom-study-select-tags-to-exclude = 除外するタグの選択:
 custom-study-selective-study = 選択学習
 custom-study-study-by-card-state-or-tag = カードの状態やタグを選んで学習する
+custom-study-available-new-cards = 現在出題可能な新規カード: { $count } 枚
+custom-study-available-review-cards = 現在出題可能な復習カード: { $count } 枚
 
 ## DEPRECATED - you do not need to translate these.
 
