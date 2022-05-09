@@ -63,6 +63,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 延期
 deck-config-bury-new-siblings = 新規カードの兄弟を翌日に延期する
 deck-config-bury-review-siblings = 復習カードの兄弟を翌日に延期する
+deck-config-bury-interday-learning-siblings = 日付をまたいだ兄弟学習カードを延期する
 deck-config-bury-tooltip = 同じノートから作られたカード（裏表反転カード、同じノートの別の穴埋め問題など）の学習を翌日に延期します。
 
 ## Ordering section
@@ -98,6 +99,7 @@ deck-config-sort-order-ascending-intervals = 間隔（昇順）
 deck-config-sort-order-descending-intervals = 間隔（降順）
 deck-config-sort-order-ascending-ease = 易しさ昇順
 deck-config-sort-order-descending-ease = 易しさ降順
+deck-config-sort-order-relative-overdueness = 期日超過が相対的に大きい順
 deck-config-display-order-will-use-current-deck = Ankiでは、選択中のデッキで設定された順序でカードが表示されます。デッキ内のサブデッキで異なる設定がされている場合でも同様です。
 
 ## Timer section
@@ -175,6 +177,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = 最終ステップから復習開始までの間隔は、最低でも最終ステップと同じ長さの間隔が必要です。
 deck-config-good-above-easy = 「簡単」と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
 deck-config-relearning-steps-above-minimum-interval = 忘却カードの復習開始までの間隔は、最低でも再学習ステップの最終ステップと同じ長さの間隔が必要です。
+deck-config-maximum-answer-secs-above-recommended = 質問を短くすることで、Ankiはより効率的な復習をスケジュールすることができます。
 
 ## Selecting a deck
 

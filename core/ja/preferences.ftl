@@ -42,3 +42,4 @@ preferences-ignore-accents-in-search = 検索する際にアクセント記号�
 preferences-daily-backups = 毎日保存するバックアップの数:
 preferences-weekly-backups = 毎週保存するバックアップの数:
 preferences-monthly-backups = 毎月保存するバックアップの数:
+preferences-minutes-between-backups = 自動バックアップの間隔（分）:

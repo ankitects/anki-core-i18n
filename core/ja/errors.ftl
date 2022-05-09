@@ -10,6 +10,7 @@ errors-100-tags-max =
 errors-multiple-notetypes-selected = 同じノートタイプのノートを選択してください。
 errors-please-check-database = データベースをチェック機能を使用した後、再度お試しください。
 errors-please-check-media = 「メディアをチェック」機能を使用した後、再度お試しください。
+errors-collection-too-new = このコレクションを開くには新しいバージョンのAnkiが必要です。
 
 ## Card Rendering
 
