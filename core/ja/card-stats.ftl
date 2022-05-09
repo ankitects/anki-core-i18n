@@ -26,4 +26,5 @@ card-stats-no-card = （表示するカードがありません）
 
 ## Window Titles
 
+card-stats-current-card = 現在のカード ({ $context })
 card-stats-previous-card = 前のカード ({ $context })

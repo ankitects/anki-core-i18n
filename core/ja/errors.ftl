@@ -13,3 +13,4 @@ errors-please-check-media = 「メディアをチェック」機能を使用し�
 
 ## Card Rendering
 
+errors-option-not-set = '{ $option }'  が設定されていません
