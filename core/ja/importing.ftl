@@ -81,3 +81,4 @@ importing-processed-notes =
     { $count ->
        *[other] { $count }個のノートを処理...
     }
+importing-unable-to-import-filename = { $filename }をインポートできません：このファイルのタイプはサポートされていません。

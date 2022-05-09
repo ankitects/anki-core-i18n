@@ -14,4 +14,5 @@ errors-collection-too-new = このコレクションを開くには新しいバ�
 
 ## Card Rendering
 
+errors-bad-directive = 指示のエラー'{ $directive }':{ $error }
 errors-option-not-set = '{ $option }'  が設定されていません

@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = HTMLとメディアの参照を含
 exporting-include-media = メディアファイルを含める
 exporting-include-scheduling-information = スケジュール情報を含める
 exporting-include-tags = タグを含める
+exporting-support-older-anki-versions = Ankiの古いバージョンをサポート（より遅い/より大きいファイル）
 exporting-notes-in-plain-text = テキストファイル形式のノート
 exporting-selected-notes = 選択中のノート
 exporting-card-exported =
