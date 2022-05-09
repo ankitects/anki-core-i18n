@@ -14,6 +14,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = カードは復習が済んだら元のデッキに自動的に戻ります。
 studying-continue = 継続
+studying-counts-differ = 延期機能が有効化されているため、デッキリストとカウントが異なります。いくつかのカードが除外され、その他はカウントされているという可能性があります。
 studying-delete-note = ノートを削除
 studying-deleting-this-deck-from-the-deck = このデッキを削除すると、残りのカードも全て元のデッキに戻ります。
 studying-easy = 簡単

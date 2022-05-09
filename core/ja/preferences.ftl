@@ -39,6 +39,7 @@ preferences-theme-light = ライト
 preferences-theme-dark = ダーク
 preferences-v3-scheduler = V3スケジューラ―
 preferences-ignore-accents-in-search = 検索する際にアクセント記号を無視する（検索速度低下）
+preferences-backup-explanation = Ankiは定期的にあなたのコレクションをバックアップします。2日以上経過したバックアップは、ディスクスペースを確保するために、その中のいくつかから削除されていきます。
 preferences-daily-backups = 毎日保存するバックアップの数:
 preferences-weekly-backups = 毎週保存するバックアップの数:
 preferences-monthly-backups = 毎月保存するバックアップの数:

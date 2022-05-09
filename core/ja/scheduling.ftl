@@ -56,6 +56,7 @@ scheduling-update-done = スケジューラーをアップデートしました�
 scheduling-update-button = アップデート
 scheduling-update-later-button = 後で
 scheduling-update-more-info-button = 詳細
+scheduling-update-required = あなたのコレクションは、V2スケジューラーにアップグレードする必要があります。続行する前に{ scheduling-update-more-info-button }を選択してください。
 
 ## Other scheduling strings
 
@@ -91,6 +92,7 @@ scheduling-options-group = オプショングループ
 scheduling-order = 順番
 scheduling-parent-limit = (元の最大出題数は { $val })
 scheduling-reset-counts = 学習頻度と忘却回数をリセット
+scheduling-restore-position = 可能な限り元の位置を復元する
 scheduling-review = 復習
 scheduling-reviews = 復習
 scheduling-seconds = 秒

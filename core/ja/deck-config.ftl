@@ -38,6 +38,7 @@ deck-config-new-insertion-order = 導入する順序
 deck-config-new-insertion-order-tooltip = 新規カードを追加したとき、そのカードに与えられる位置（新規カード番号）の決め方を選択できます。新規カード番号が低い順にカードは表示されます。このオプションを変更すると、直ちに新規カードの位置が更新されます。
 deck-config-new-insertion-order-sequential = 追加順
 deck-config-new-insertion-order-random = ランダム
+deck-config-new-insertion-order-random-with-v3 = V3スケジューラーでは、これを追加順のままにし、代わりに新規カードの収集方法を調整したほうがよいです。
 
 ## Lapses section
 
