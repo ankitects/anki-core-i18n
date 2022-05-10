@@ -10,6 +10,7 @@ errors-100-tags-max =
     etiqueta pai.
 errors-multiple-notetypes-selected = Por favor, selecione notas de apenas um tipo de nota.
 errors-please-check-database = Por favor, use "Verificar banco de dados", então tente novamente.
+errors-collection-too-new = Esta coleção requer uma versão mais recente do Anki para ser aberta
 
 ## Card Rendering
 
