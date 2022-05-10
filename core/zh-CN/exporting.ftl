@@ -29,3 +29,8 @@ exporting-note-exported =
     { $count ->
        *[other] 已导出{ $count }条笔记
     }
+exporting-exporting-file = 正在导出文件...
+exporting-processed-media-files =
+    { $count ->
+       *[other] 已处理{ $count }个媒体文件。。。
+    }
