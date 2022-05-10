@@ -64,7 +64,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 延期
 deck-config-bury-new-siblings = 新規カードの兄弟を翌日に延期する
 deck-config-bury-review-siblings = 復習カードの兄弟を翌日に延期する
-deck-config-bury-interday-learning-siblings = 日付をまたいだ兄弟学習カードを延期する
+deck-config-bury-interday-learning-siblings = 日付をまたいだ学習カードの兄弟を延期する
 deck-config-bury-tooltip = 同じノートから作られたカード（裏表反転カード、同じノートの別の穴埋め問題など）の学習を翌日に延期します。
 
 ## Ordering section
