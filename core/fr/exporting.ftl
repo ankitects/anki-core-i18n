@@ -1,7 +1,7 @@
 exporting-all-decks = Tous les paquets
 exporting-anki-20-deck = Paquet ANKI 2.0
 exporting-anki-collection-package = Collection des paquets Anki
-exporting-anki-deck-package = Tas de paquets ANKI
+exporting-anki-deck-package = Paquet de paquets Anki
 exporting-cards-in-plain-text = Cartes avec texte en clair
 exporting-collection = collection
 exporting-collection-exported = Collection exportée.
@@ -31,4 +31,10 @@ exporting-note-exported =
     { $count ->
         [one] { $count } note a été exportée.
        *[other] { $count } notes ont été exportées.
+    }
+exporting-exporting-file = Export du fichier...
+exporting-processed-media-files =
+    { $count ->
+        [one] { $count } fichier média traité...
+       *[other] { $count } fichiers média traités...
     }

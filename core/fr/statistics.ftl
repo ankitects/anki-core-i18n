@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = Due
 # The count of cards waiting to be reviewed
-statistics-due-count = Dues
+statistics-due-count = À réviser
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Nouvelle n°{ $number }
 
@@ -80,7 +80,7 @@ statistics-today-no-cards = Aucune carte étudiée aujourd'hui.
 statistics-today-no-mature-cards = Aucune carte mature n'a été étudiée aujourd'hui.
 statistics-today-correct-mature = Réponses exactes sur les cartes matures : { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Nombre total de cartes
-statistics-counts-new-cards = Nouvelles
+statistics-counts-new-cards = Inédites
 statistics-counts-young-cards = Récentes
 statistics-counts-mature-cards = Matures
 statistics-counts-suspended-cards = Suspendues

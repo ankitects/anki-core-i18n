@@ -122,8 +122,8 @@ deck-config-always-include-question-audio-tooltip =
 
 deck-config-advanced-title = Avancé
 deck-config-maximum-interval-tooltip =
-    Le nombre maximum de jours d'attente pour une carte de révision. Lorsque les révisions ont¶
-    atteint la limite, `Difficile`, `Bien` et `facile` donneront tous le même délai.¶
+    Le nombre maximum de jours d'attente pour une carte de révision. Lorsque les révisions ont
+    atteint la limite, `difficile`, `correct` et `facile` donneront tous le même délai.
     Plus vous raccourcissez ce délai, plus votre charge de travail sera importante.
 deck-config-starting-ease-tooltip =
     Le multiplicateur de facilité avec lequel les nouvelles cartes commencent. Par défaut, le bouton "Bien" d'une carte¶
