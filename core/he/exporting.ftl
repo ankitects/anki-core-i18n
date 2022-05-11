@@ -32,3 +32,9 @@ exporting-note-exported =
         [one] { $count } רשומה יוצאה.
        *[other] { $count } רשומות יוצאו.
     }
+exporting-exporting-file = מייצא קובץ...
+exporting-processed-media-files =
+    { $count ->
+        [one] קובץ מדיה עובד...
+       *[other] { $count } קובצי מדיה עובדו...
+    }
