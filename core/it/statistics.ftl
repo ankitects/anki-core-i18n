@@ -123,7 +123,7 @@ statistics-in-days-range = In { $daysStart }-{ $daysEnd } giorni
 statistics-days-ago-single =
     { $days ->
         [1] Ieri
-       *[other] giorni fa
+       *[other] { $days } giorni fa
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } giorni fa
 statistics-running-total = Totale accumulato
