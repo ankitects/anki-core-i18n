@@ -184,7 +184,7 @@ statistics-average = Moyenne
 statistics-average-interval = Intervalle moyen
 statistics-due-tomorrow = Prévues pour demain
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount } du { $total } ({ $percent }%)
+statistics-amount-of-total-with-percentage = { $amount } sur { $total } ({ $percent }%)
 statistics-average-over-period = Moyenne (tous jours confondus)
 statistics-reviews-per-day =
     { $count ->
