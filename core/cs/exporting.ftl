@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = Zahrnout HTML a odkazy na média
 exporting-include-media = Zahrnout média
 exporting-include-scheduling-information = Zachovat informace o plánování
 exporting-include-tags = Zahrnout štítky
+exporting-support-older-anki-versions = Podporovat starší verze Anki (pomalejší/větší soubory)
 exporting-notes-in-plain-text = Poznámka jako prostý text
 exporting-selected-notes = Vybrané poznámky
 exporting-card-exported =
@@ -24,13 +25,20 @@ exporting-card-exported =
     }
 exporting-exported-media-file =
     { $count ->
-        [one] Exportován { $count } soubor médií
-        [few] Exportovány { $count } soubory médií
-       *[other] Exportováno { $count } souborů médií
+        [one] Exportován { $count } mediální soubor
+        [few] Exportovány { $count } mediální soubory
+       *[other] Exportováno { $count } mediálních souborů
     }
 exporting-note-exported =
     { $count ->
         [one] { $count } poznámka exportována.
         [few] { $count } poznámky exportovány.
        *[other] { $count } poznámek exportováno.
+    }
+exporting-exporting-file = Exportuje se soubor...
+exporting-processed-media-files =
+    { $count ->
+        [one] Zpracován { $count } mediální soubor...
+        [few] Zpracovány { $count } mediální soubory...
+       *[other] Zpracováno { $count } mediálních souborů...
     }
