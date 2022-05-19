@@ -71,6 +71,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Ocultar
 deck-config-bury-new-siblings = Ocultar novos irmãos até o dia seguinte
 deck-config-bury-review-siblings = Ocultar irmãos de revisão até o dia seguinte
+deck-config-bury-interday-learning-siblings = Ocultar irmãos em aprendizado até o dia seguinte
 deck-config-bury-tooltip =
     Se outros cartões da mesma nota (ex. cartões invertidos, omissões
     de palavras adjacentes) serão adiados até o dia seguinte.
@@ -79,27 +80,13 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Ordem de Exibição
 deck-config-new-gather-priority = Nova ordem de reunião de cartões
-deck-config-new-gather-priority-tooltip =
-    `Baralho`: reúne os cartões de cada sub-baralho em ordem e para quando o
-    limite do baralho selecionado for excedido. Isso é mais rápido e permite que você
-    priorize sub-bralhos que estão mais próximos do topo.
-    
-    `Posição`: reúne os cartões de todos os baralhos antes de serem classificadas. Isso
-    garante que ele apareçam em uma posição estrita (# da revisão), mesmo se o limite 
-    do aparentado não for grande o suficiente para ver os cartões de todos os baralhos.
 deck-config-new-gather-priority-deck = Baralho
 deck-config-new-gather-priority-position-lowest-first = Posição ascendente
 deck-config-new-gather-priority-position-highest-first = Posição descendente
+deck-config-new-gather-priority-random-notes = Notas Aleatórias
+deck-config-new-gather-priority-random-cards = Cartões Aleatórios
 deck-config-new-card-sort-order = Nova ordem de classificação de cartões
-deck-config-new-card-sort-order-tooltip =
-    Como os cartões são classificados depois de reunidos. Por padrão, o Anki classifica
-    primeiro pelo modelo do cartão, para evitar que vários cartões com a mesma nota 
-    sejam mostrado em sucessão.
-deck-config-sort-order-card-template-then-lowest-position = Modelo do cartão, então posição ascendente
-deck-config-sort-order-card-template-then-highest-position = Modelo do cartão, em seguida posição descendente
 deck-config-sort-order-card-template-then-random = Modelo do cartão, então aleatório
-deck-config-sort-order-lowest-position = Posição ascendente
-deck-config-sort-order-highest-position = Posição descendente
 deck-config-sort-order-random = Aleatório
 deck-config-sort-order-template-then-gather = Modelo do cartão, então ordem da reunião
 deck-config-sort-order-gather = Ordem da reunião
@@ -231,3 +218,6 @@ deck-config-relearning-steps-above-minimum-interval = O intervalo mínimo de lap
 ## Selecting a deck
 
 deck-config-which-deck = Qual baralho você gostaria?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+

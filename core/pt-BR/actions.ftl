@@ -53,6 +53,7 @@ actions-previous-card-info = Informação do Cartão Anterior
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-currently-unsupported = Esta ação atualmente não é suportada em seu sistema.
 
 ## Flags
 
