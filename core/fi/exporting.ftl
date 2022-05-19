@@ -30,5 +30,11 @@ exporting-exported-media-file =
 exporting-note-exported =
     { $count ->
         [one] { $count } muistiinpano tuotu.
-       *[other] { $count } muistiinpanoa tuoto.
+       *[other] { $count } muistiinpanoa tuotu.
+    }
+exporting-exporting-file = Viedään tiedostoa...
+exporting-processed-media-files =
+    { $count ->
+        [one] { $count } mediatiedosto käsitelty...
+       *[other] { $count } mediatiedostoa käsitelty...
     }

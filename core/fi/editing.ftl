@@ -15,6 +15,7 @@ editing-customize-card-templates = Mukauta korttimalleja
 editing-customize-fields = Mukauta kenttiä
 editing-cut = Leikkaa
 editing-double-click-image = kaksoisnapsauta kuvaa
+editing-double-click-to-expand = (laajenna kaksoisnapsauttamalla)
 editing-edit-current = Muokkaa nykyistä
 editing-edit-html = Muokkaa HTML:ää
 editing-fields = Kentät
@@ -38,6 +39,7 @@ editing-outdent = Vähennä sisennystä
 editing-paste = Liitä
 editing-record-audio = Tallenna ääntä
 editing-remove-formatting = Poista muotoilu
+editing-restore-original-size = Palauta alkuperäinen koko
 editing-select-remove-formatting = Valitse poistettava muotoilu
 editing-show-duplicates = Näytä kaksoiskappaleet
 editing-subscript = Alaindeksi
@@ -60,5 +62,3 @@ editing-warning-cloze-deletions-will-not-work = Varoitus: aukkotehtävät eivät
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML-muokkain
-editing-set-text-color = Aseta tekstin väri
-editing-set-text-highlight-color = Aseta tekstin korostusväri
