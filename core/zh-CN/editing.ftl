@@ -15,6 +15,7 @@ editing-customize-card-templates = 自定义卡片内容模板
 editing-customize-fields = 自定义字段
 editing-cut = 剪切
 editing-double-click-image = 双击图片
+editing-double-click-to-expand = (双击展开)
 editing-edit-current = 编辑当前
 editing-edit-html = 编辑HTML
 editing-fields = 字段
@@ -38,6 +39,7 @@ editing-outdent = 减少缩进
 editing-paste = 粘贴
 editing-record-audio = 录制音频
 editing-remove-formatting = 清除格式
+editing-restore-original-size = 恢复原始大小
 editing-select-remove-formatting = 选择要清除的格式
 editing-show-duplicates = 查看重复的卡片
 editing-subscript = 下标
@@ -60,5 +62,3 @@ editing-warning-cloze-deletions-will-not-work = 警告，在将笔记模板修�
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML编辑器
-editing-set-text-color = 设置文字颜色
-editing-set-text-highlight-color = 设置高亮颜色
