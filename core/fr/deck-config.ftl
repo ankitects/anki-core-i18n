@@ -55,6 +55,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Enfouissement
 deck-config-bury-new-siblings = Enfouir les nouvelles cartes sœurs
 deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser
+deck-config-bury-interday-learning-siblings = Enfouir les cartes d'apprentissage interjournalier
 deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
 
 ## Ordering section

@@ -24,8 +24,11 @@ custom-study-select = Sélection
 custom-study-select-tags-to-exclude = Ôter par les tags :
 custom-study-selective-study = Révision sélective
 custom-study-study-by-card-state-or-tag = Étude par carte ou par tag
-custom-study-available-new-cards = Nouvelles cartes disponibles : { $count }
-custom-study-available-review-cards = Cartes à réviser disponibles : { $count }
+custom-study-available-new-cards-2 = Nouvelles cartes disponibles : { $countString }
+custom-study-available-review-cards-2 = Cartes à réviser disponibles : { $countString }
+custom-study-available-child-count = ({ $count } dans les sous-paquets)
 
 ## DEPRECATED - you do not need to translate these.
 
+custom-study-available-new-cards = Nouvelles cartes disponibles : { $count }
+custom-study-available-review-cards = Cartes à réviser disponibles : { $count }
