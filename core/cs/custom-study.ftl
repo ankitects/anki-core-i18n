@@ -24,8 +24,11 @@ custom-study-select = Vybrat
 custom-study-select-tags-to-exclude = Vynechat štítky:
 custom-study-selective-study = Vlastní studium
 custom-study-study-by-card-state-or-tag = Studovat podle stavu karty nebo štítku
-custom-study-available-new-cards = Dostupné nové karty: { $count }
-custom-study-available-review-cards = Dostupné opakované karty: { $count }
+custom-study-available-new-cards-2 = Dostupné nové karty: { $countString }
+custom-study-available-review-cards-2 = Dostupné opakované karty: { $countString }
+custom-study-available-child-count = ({ $count } v podřízených balících)
 
 ## DEPRECATED - you do not need to translate these.
 
+custom-study-available-new-cards = Dostupné nové karty: { $count }
+custom-study-available-review-cards = Dostupné opakované karty: { $count }
