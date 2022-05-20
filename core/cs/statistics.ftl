@@ -83,8 +83,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card } s/kartu)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds } s
 statistics-today-title = Dnes
 statistics-today-again-count = Počet Znovu:
 statistics-today-type-counts = Učit se: { $learnCount }, Opakovat: { $reviewCount }, Znovu se učit: { $relearnCount }, Filtrováno: { $filteredCount }
@@ -148,7 +146,7 @@ statistics-days-ago-single =
        *[other] Před { $days } dny
     }
 statistics-days-ago-range = Před { $daysStart }-{ $daysEnd } dny
-statistics-running-total = V řadě celkem
+statistics-running-total = Průběžně celkem
 statistics-cards-due =
     { $cards ->
         [one] 1 karta ke zkoušení
@@ -157,7 +155,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Resty
 statistics-intervals-title = Intervaly
-statistics-intervals-subtitle = Prodleva, než budou opakování znova ukázána.
+statistics-intervals-subtitle = Prodlevy, než budou opakování znovu zobrazeny.
 statistics-intervals-day-range =
     { $cards ->
         [one] 1 karta s intervalem { $daysStart }~{ $daysEnd } dní
@@ -200,7 +198,6 @@ statistics-days-studied = Studováno dní
 statistics-average-answer-time-label = Průměrný čas odpovědi
 statistics-average = Průměr
 statistics-average-interval = Průměrný interval
-statistics-longest-interval = Nejdelší interval
 statistics-due-tomorrow = Zítra ke zkoušení
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent } %)

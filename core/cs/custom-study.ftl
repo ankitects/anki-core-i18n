@@ -1,6 +1,6 @@
 custom-study-must-rename-deck = Prosím nejdříve přejmenujte stávající balík vlastního učení.
 custom-study-all-cards-in-random-order-dont = Všechny kartičky v náhodném pořadí (nepřehazovat)
-custom-study-all-review-cards-in-random-order = Všechny kartičky na opakování v náhodném pořadí
+custom-study-all-review-cards-in-random-order = Všechny opakované karty v náhodném pořadí
 custom-study-cards = karty
 custom-study-cards-from-the-deck = karty z balíku
 custom-study-choose-tags = Vyber štítky

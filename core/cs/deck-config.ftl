@@ -22,7 +22,7 @@ deck-config-new-limit-tooltip =
     Protože nový materiál zvýší Vaši krátkodobou zátěž při opakování, mělo 
     by to obvykle být nejméně 10× menší než limit opakování.
 deck-config-review-limit-tooltip =
-    Maximální počet karet k zopakování za den,
+    Maximální počet opakovaných karet za den,
     jestliže jsou karty připraveny k zopakování.
 deck-config-limit-deck-v3 =
     Při studování balíku, který má podřízené balíky, limity nastavené pro každý 
@@ -41,9 +41,9 @@ deck-config-limit-interday-bound-by-reviews =
 
 deck-config-learning-steps = Kroky učení
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Zpoždění jsou obvykle v minutách (např. `1m`) nebo dnech (např. `2d`), ale hodiny (např `1h`) a sekundy (např. `30s`) jsou také podporovány.
+-deck-config-delay-hint = Prodlevy jsou obvykle v minutách (např. `1m`) nebo dnech (např. `2d`), ale hodiny (např `1h`) a sekundy (např. `30s`) jsou také podporovány.
 deck-config-learning-steps-tooltip =
-    Jedno nebo více zpoždění oddělených mezerami. První zpoždění se použije,
+    Jedna nebo více prodlev oddělených mezerami. První prodleva se použije,
     když na nové kartě stisknete tlačítko `Znovu`, a ve výchozím nastavení je 1 minuta.
     Tlačítko `Dobré` posune kartu do dalšího kroku, který je ve výchozím nastavení 10 minut.
     Jakmile se projdou všechny kroky, karta se stane opakovanou kartou a 
@@ -68,10 +68,10 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Kroky znovu učených
-deck-config-relearning-steps-tooltip = Žádné nebo více zpoždění oddělených mezerami. Ve výchozím nastavení stisknutí tlačítka `Znovu` na kartě k opakování zobrazí tuto kartu znovu za 10 minut. Nejsou-li uvedena žádná zpoždění, kartě se změní interval, aniž by se stala znovu učenou. { -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = Žádná nebo více prodlev oddělených mezerami. Ve výchozím nastavení stisknutí tlačítka `Znovu` na opakované kartě zobrazí tuto kartu znovu za 10 minut. Nejsou-li uvedeny žádné prodlevy, kartě se změní interval, aniž by se stala znovu učenou. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    Počet stisknutí `Znovu` na kartě k zopakování předtím, než je označeno jako 
-    pijavice. Pijavice jsou karty, které spotřebovávají hodně času a když je karta 
+    Počet stisknutí `Znovu` na opakované kartě předtím, než je označena jako 
+    pijavice. Pijavice jsou karty, které spotřebovávají hodně času, a když je karta 
     označena jako pijavice, je dobrý nápad ji přepsat, smazat nebo se zamyslet 
     nad mnemotechnickou pomůckou, která pomůže si ji zapamatovat.
 # See actions-suspend-card and scheduling-tag-only for the wording
@@ -142,7 +142,7 @@ deck-config-sort-order-random = Náhodně
 deck-config-sort-order-template-then-gather = Typ karty
 deck-config-sort-order-gather = V pořadí nabrání
 deck-config-new-review-priority = Pořadí nové/opakování
-deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu ke kartám k opakování.
+deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu k opakovaným kartám.
 deck-config-interday-step-priority = Pořadí učení/opakování mezi dny
 deck-config-interday-step-priority-tooltip =
     Kdy zobrazit (znovu) učené karty, které překračují do dalšího dne.
@@ -196,15 +196,15 @@ deck-config-always-include-question-audio-tooltip =
 
 deck-config-advanced-title = Pokročilé
 deck-config-maximum-interval-tooltip =
-    Maximální počet dní, po které bude karta ke zkoušení čekat. Když opakování 
-    dosáhnou limitu, `Těžké`, `Dobré` a `Snadné` přesunou kartu stejně. 
+    Maximální počet dní, po které bude opakovaná karta čekat. Když opakování 
+    dosáhne limitu, `Těžké`, `Dobré` a `Snadné` udělí stejnou prodlevu. 
     Čím kratší tento limit bude, tím větší bude pracovní zátěž.
 deck-config-starting-ease-tooltip =
     Snadnost coby násobitel, se kterým nové karty začínají. Ve výchozím nastavení, 
     tlačítko `Dobré` na nově naučené kartě přesune následující opakování 
     o 2,5 × předchozí prodleva.
 deck-config-easy-bonus-tooltip =
-    Extra násobitel, který se aplikuje na interval karet k zopakování, když je 
+    Extra násobitel, který se aplikuje na interval opakovaných karet, když je 
     hodnotíte jako `Snadné`.
 deck-config-interval-modifier-tooltip =
     Tento násobitel se aplikuje na všechna opakování a menší přenastavení lze 
@@ -212,7 +212,7 @@ deck-config-interval-modifier-tooltip =
     plánování. Prosím prostudujte si manuál před změnou tohoto nastavení.
 deck-config-hard-interval-tooltip = Násobitel, který se aplikuje na interval opakování, když se odpoví `Těžké`.
 deck-config-new-interval-tooltip = Násobitel, který se aplikuje na interval opakování, když se odpoví `Znovu`.
-deck-config-minimum-interval-tooltip = Minimální interval daný kartě k zopakování po odpovědi `Znovu`.
+deck-config-minimum-interval-tooltip = Minimální interval daný opakované kartě po odpovědi `Znovu`.
 deck-config-custom-scheduling = Vlastní plánování
 deck-config-custom-scheduling-tooltip = Ovlivní celou kolekci. Používejte na vlastní nebezpečí!
 
