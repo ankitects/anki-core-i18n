@@ -1,4 +1,3 @@
-importing-failed = Importação falhou.
 importing-failed-debug-info = Importação falhou. Informações para depuração:
 importing-aborted = Abortado: { $val }
 importing-added-duplicate-with-first-field = Duplicata adicionada com o primeiro campo: { $val }
@@ -77,4 +76,13 @@ importing-processed-media-file =
     { $count ->
         [one] Processados { $count } arquivos de mídia
        *[other] Processados { $count } arquivos de mídia
+    }
+importing-importing-collection = Importando coleção...
+importing-importing-file = Importando arquivo...
+importing-extracting = Extraindo dados...
+importing-failed-to-import-media-file = Falha ao importar arquivo de mídia: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Processada { $count } nota...
+       *[other] Processadas { $count } notas...
     }

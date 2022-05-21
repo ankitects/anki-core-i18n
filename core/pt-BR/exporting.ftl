@@ -5,6 +5,7 @@ exporting-anki-deck-package = Pacote de Baralho do Anki
 exporting-cards-in-plain-text = Cartões em Texto Simples
 exporting-collection = coleção
 exporting-collection-exported = Coleção exportada.
+exporting-colpkg-too-new = Atualize para a versão mais recente do Anki e importe o arquivo .colpkg/.apkg novamente.
 exporting-couldnt-save-file = Não foi possível salvar o arquivo: { $val }
 exporting-export = Exportar...
 exporting-export-format = <b>Formato de exportação</b>:
@@ -30,3 +31,4 @@ exporting-note-exported =
         [one] { $count } nota exportada.
        *[other] { $count } notas exportadas.
     }
+exporting-exporting-file = Exportando arquivo...
