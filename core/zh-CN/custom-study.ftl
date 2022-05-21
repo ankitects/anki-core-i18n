@@ -24,10 +24,11 @@ custom-study-select = 选择
 custom-study-select-tags-to-exclude = 需要排除的标签：
 custom-study-selective-study = 选择性学习
 custom-study-study-by-card-state-or-tag = 按卡片状态或标签学习
-custom-study-available-new-cards = 可用的新卡片： { $count }
-custom-study-available-review-cards = 可用的复习卡片：{ $count }
+custom-study-available-new-cards-2 = 可用的新卡片：{ $countString }
+custom-study-available-review-cards-2 = 可用的复习卡片：{ $countString }
+custom-study-available-child-count = (子牌组中{ $count }张)
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-new-cards-in-deck-over-today = 牌组中超过今天上限的新卡片：{ $val }
-custom-study-reviews-due-in-deck-over-today = 牌组中超过今天上限的复习卡片：{ $val }
+custom-study-available-new-cards = 可用的新卡片： { $count }
+custom-study-available-review-cards = 可用的复习卡片：{ $count }
