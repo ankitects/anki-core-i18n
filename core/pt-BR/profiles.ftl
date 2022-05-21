@@ -14,3 +14,6 @@ profiles-prefs-corrupt-title = Preferências Corrompidas
 profiles-prefs-file-is-corrupt = O arquivo 'prefs21.db' do Anki estava corrompido e foi recriado. Se você estava usando vários perfis, adicione-os novamente usando os mesmos nomes para recuperar seus cartões.
 profiles-profile-does-not-exist = O perfil solicitado não existe.
 profiles-creating-backup = Criando cópia de segurança...
+profiles-backup-created = Cópia de segurança criada.
+profiles-backup-creation-failed = Falha ao criar cópia de segurança: { $reason }
+profiles-backup-unchanged = Nenhuma alteração desde o último backup.
