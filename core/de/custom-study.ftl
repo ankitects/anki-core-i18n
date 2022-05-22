@@ -24,10 +24,10 @@ custom-study-select = Zeige
 custom-study-select-tags-to-exclude = Auszuschließende Schlagwörter auswählen
 custom-study-selective-study = Lernauswahl
 custom-study-study-by-card-state-or-tag = Karten mit bestimmtem Status oder Schlagwörtern
-custom-study-available-new-cards = Verfügbare neue Karten: { $count }
-custom-study-available-review-cards = Verfügbare zu wiederholende Karten: { $count }
+custom-study-available-new-cards-2 = Verfügbare neue Karten: { $countString }
+custom-study-available-review-cards-2 = Verfügbare zu wiederholende Karten: { $countString }
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-new-cards-in-deck-over-today = Über heutigen Grenzwert hinaus neu zu lernende Karten im Stapel: { $val }
-custom-study-reviews-due-in-deck-over-today = Über heutigen Grenzwert hinaus zu wiederholende Karten im Stapel: { $val }
+custom-study-available-new-cards = Verfügbare neue Karten: { $count }
+custom-study-available-review-cards = Verfügbare zu wiederholende Karten: { $count }
