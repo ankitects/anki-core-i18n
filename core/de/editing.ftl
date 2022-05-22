@@ -15,6 +15,7 @@ editing-customize-card-templates = Kartenvorlagen anpassen
 editing-customize-fields = Felder anpassen
 editing-cut = Ausschneiden
 editing-double-click-image = Bild doppelklicken
+editing-double-click-to-expand = (zum Erweitern doppelklicken)
 editing-edit-current = Angezeigte Karte bearbeiten
 editing-edit-html = HTML eingeben
 editing-fields = Felder
@@ -38,6 +39,7 @@ editing-outdent = Einrückung verringern
 editing-paste = Einfügen
 editing-record-audio = Audio aufnehmen
 editing-remove-formatting = Formatierung löschen
+editing-restore-original-size = Originalgröße wiederherstellen
 editing-select-remove-formatting = Zu löschende Formatierung auswählen
 editing-show-duplicates = Duplikate anzeigen
 editing-subscript = Tiefstellen
@@ -60,5 +62,3 @@ editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur ko
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML-Editor
-editing-set-text-color = Textfarbe setzen
-editing-set-text-highlight-color = Texthervorhebungsfarbe setzen

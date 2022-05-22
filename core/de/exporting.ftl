@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = HTML und Verweise auf Mediendateie
 exporting-include-media = Einschließlich Medien
 exporting-include-scheduling-information = Einschließlich Zeitplanungsdaten (u.a. Fälligkeit von Karten)
 exporting-include-tags = Schlagwörter einschließen
+exporting-support-older-anki-versions = Unterstütze ältere Anki-Versionen (langsamere/größere Dateien)
 exporting-notes-in-plain-text = Notizen mit unformatiertem Text
 exporting-selected-notes = Ausgewählte Notizen
 exporting-card-exported =
@@ -30,4 +31,10 @@ exporting-note-exported =
     { $count ->
         [one] { $count } Notiz exportiert.
        *[other] { $count } Notizen exportiert.
+    }
+exporting-exporting-file = Exportiere Datei...
+exporting-processed-media-files =
+    { $count ->
+        [one] { $count } Mediendatei verarbeitet...
+       *[other] { $count } Mediendateien verarbeitet...
     }
