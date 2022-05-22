@@ -24,10 +24,11 @@ custom-study-select = Seleccionar
 custom-study-select-tags-to-exclude = Selecciona las etiquetas a excluir:
 custom-study-selective-study = Estudio selectivo
 custom-study-study-by-card-state-or-tag = Estudiar según estado o etiqueta de la tarjeta
-custom-study-available-new-cards = Nuevas tarjetas disponibles: { $count }
-custom-study-available-review-cards = Tarjetas de revisión disponibles: { $count }
+custom-study-available-new-cards-2 = Nuevas tarjetas disponibles: { $countString }
+custom-study-available-review-cards-2 = Tarjetas de revisión disponibles: { $countString }
+custom-study-available-child-count = ({ $count } en submazos)
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-new-cards-in-deck-over-today = Tarjetas nuevas en el mazo por encima del límite de hoy: { $val }
-custom-study-reviews-due-in-deck-over-today = Revisiones vencidas por encima del límite de hoy: { $val }
+custom-study-available-new-cards = Nuevas tarjetas disponibles: { $count }
+custom-study-available-review-cards = Tarjetas de revisión disponibles: { $count }

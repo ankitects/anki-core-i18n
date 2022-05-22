@@ -15,6 +15,7 @@ editing-customize-card-templates = Personalizar plantillas de tarjetas
 editing-customize-fields = Personalizar campos
 editing-cut = Cortar
 editing-double-click-image = Haga doble clic en la imagen
+editing-double-click-to-expand = (doble clic para expandir)
 editing-edit-current = Editar actual
 editing-edit-html = Editar HTML
 editing-fields = Campos
@@ -38,6 +39,7 @@ editing-outdent = Disminuir la sangría
 editing-paste = Pegar
 editing-record-audio = Grabar audio
 editing-remove-formatting = Quitar formato
+editing-restore-original-size = Restaurar tamaño original
 editing-select-remove-formatting = Seleccionar formato para eliminar
 editing-show-duplicates = Mostrar duplicados
 editing-subscript = Subíndice
@@ -60,5 +62,3 @@ editing-warning-cloze-deletions-will-not-work = Cuidado, los huecos no funcionar
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = Editor HTML
-editing-set-text-color = Establecer color de texto
-editing-set-text-highlight-color = Establecer color de resaltado de texto

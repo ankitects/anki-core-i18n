@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = Incluir referencias a HTML y archi
 exporting-include-media = Incluir archivos multimedia
 exporting-include-scheduling-information = Incluir información de programación
 exporting-include-tags = Incluir etiquetas
+exporting-support-older-anki-versions = Compatibilidad con versiones anteriores de Anki (archivos más lentos/más grandes)
 exporting-notes-in-plain-text = Notas en texto plano
 exporting-selected-notes = Notas Seleccionadas
 exporting-card-exported =
@@ -30,4 +31,10 @@ exporting-note-exported =
     { $count ->
         [one] { $count } nota exportada.
        *[other] { $count } notas exportadas.
+    }
+exporting-exporting-file = Exportando archivo...
+exporting-processed-media-files =
+    { $count ->
+        [one] { $count } archivo multimedia procesado...
+       *[other] { $count } archivos multimedia procesados...
     }
