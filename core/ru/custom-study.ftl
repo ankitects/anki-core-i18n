@@ -24,10 +24,11 @@ custom-study-select = Выбрать
 custom-study-select-tags-to-exclude = Выберите исключаемые метки:
 custom-study-selective-study = Выборочное обучение
 custom-study-study-by-card-state-or-tag = Учить по состоянию карточки или по метке
-custom-study-available-new-cards = Доступно новых: { $count }
-custom-study-available-review-cards = Доступно повторяемых: { $count }
+custom-study-available-new-cards-2 = Доступно новых: { $countString }
+custom-study-available-review-cards-2 = Доступно повторяемых: { $countString }
+custom-study-available-child-count = ({ $count } в подколодах)
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-new-cards-in-deck-over-today = Новые карточки в колоде сверх лимита: { $val }
-custom-study-reviews-due-in-deck-over-today = Повторяемых сверх лимита на сегодня: { $val }
+custom-study-available-new-cards = Доступно новых: { $count }
+custom-study-available-review-cards = Доступно повторяемых: { $count }

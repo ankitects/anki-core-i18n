@@ -14,6 +14,8 @@ editing-couldnt-record-audio-have-you-installed = Не получается за
 editing-customize-card-templates = Настроить шаблоны карточек
 editing-customize-fields = Настроить поля
 editing-cut = Вырезать
+editing-double-click-image = щёлкните дважды
+editing-double-click-to-expand = (щёлкните дважды, чтобы увеличить)
 editing-edit-current = Редактировать
 editing-edit-html = Править HTML
 editing-fields = Поля
@@ -37,6 +39,7 @@ editing-outdent = Сократить отступ
 editing-paste = Вставить
 editing-record-audio = Записать аудиофайл
 editing-remove-formatting = Удалить форматирование
+editing-restore-original-size = Восстановить размер
 editing-select-remove-formatting = Выбрать форматирование для удаления
 editing-show-duplicates = Показать повторы
 editing-subscript = Подстрочный знак
@@ -59,5 +62,3 @@ editing-warning-cloze-deletions-will-not-work = Внимание! Заполне
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = Редактор HTML
-editing-set-text-color = Выбрать цвет текста
-editing-set-text-highlight-color = Выбрать цвет выделения

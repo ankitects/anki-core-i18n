@@ -11,9 +11,10 @@ exporting-export = Экспортировать...
 exporting-export-format = <b>Формат экспорта</b>:
 exporting-include = <b>Содержит</b>:
 exporting-include-html-and-media-references = Вместе с HTML и ссылками на медиафайлы
-exporting-include-media = Вместе с медиафайлы
+exporting-include-media = Вместе с медиафайлами
 exporting-include-scheduling-information = Вместе с расписанием
 exporting-include-tags = Вместе с метками
+exporting-support-older-anki-versions = С поддержкой старых версий Anki
 exporting-notes-in-plain-text = Записи в текст
 exporting-selected-notes = Выделенные записи
 exporting-card-exported =
@@ -33,4 +34,11 @@ exporting-note-exported =
         [one] { $count } запись экспортирована.
         [few] { $count } записи экспортированы.
        *[other] { $count } записей экспортировано.
+    }
+exporting-exporting-file = Файл экспортируется...
+exporting-processed-media-files =
+    { $count ->
+        [one] Обработан { $count } медиафайл...
+        [few] Обработаны { $count } медиафайла...
+       *[other] Обработано { $count } медиафайлов...
     }
