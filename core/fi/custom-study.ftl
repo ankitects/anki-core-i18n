@@ -24,10 +24,11 @@ custom-study-select = Valitse
 custom-study-select-tags-to-exclude = Valitse poissuljettavat tunnisteet:
 custom-study-selective-study = Valikoiva opiskelu
 custom-study-study-by-card-state-or-tag = Opiskele kortteja, joilla on tietty tila tai tunniste
-custom-study-available-new-cards = Uusia kortteja saatavilla: { $count }
-custom-study-available-review-cards = Kortteja saatavilla kerrattavaksi: { $count }
+custom-study-available-new-cards-2 = Uusia kortteja saatavilla: { $countString }
+custom-study-available-review-cards-2 = Kortteja saatavilla kerrattavaksi: { $countString }
+custom-study-available-child-count = ({ $count } alipakoissa)
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-new-cards-in-deck-over-today = Pakassa olevien tämän päivän jälkeen opittavien korttien määrä: { $val }
-custom-study-reviews-due-in-deck-over-today = Pakassa olevien tämän päivän jälkeen kerrattavien korttien määrä: { $val }
+custom-study-available-new-cards = Uusia kortteja saatavilla: { $count }
+custom-study-available-review-cards = Kortteja saatavilla kerrattavaksi: { $count }
