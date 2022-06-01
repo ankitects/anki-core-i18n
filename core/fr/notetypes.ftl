@@ -1,3 +1,5 @@
+notetypes-notetype = Type de note
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Recto

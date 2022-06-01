@@ -1,6 +1,7 @@
 importing-failed-debug-info = Échec de l’importation. Informations de débogage :
 importing-aborted = Annulé : { $val }
 importing-added-duplicate-with-first-field = Un doublon a été ajouté avec comme premier champ : { $val }
+importing-all-supported-formats = Tous les formats gérés { $val }
 importing-allow-html-in-fields = Tolérer du HTML dans les champs
 importing-anki-files-are-from-a-very = Les fichiers .anki proviennent d’une version très ancienne d’Anki. Vous pouvez les importer avec Anki 2.0, disponible sur le site web d’Anki.
 importing-anki2-files-are-not-directly-importable = Les fichiers .anki2 ne sont pas directement importables. Veuillez importer le fichier .apkg ou .zip que vous avez reçu à la place.
@@ -8,11 +9,14 @@ importing-appeared-twice-in-file = Apparaît en double dans le fichier : { $val
 importing-by-default-anki-will-detect-the = Anki sait détecter les signes de ponctuation tels les virgules ou les tabulations. Mais si la détection automatique échoue, le caractère peut être entré manuellement ici. Pour écrire une tabulation, entrez \t.
 importing-change = Modifier
 importing-colon = Deux-points
+importing-column = Colonne { $var }
 importing-comma = Virgule
 importing-empty-first-field = Premier champ vierge : { $val }
+importing-field-separator = Séparateur de champ
 importing-field-mapping = Correspondance des champs
 importing-field-of-file-is = Le champ <b>{ $val }</b> du fichier est :
 importing-fields-separated-by = Champs séparés par : { $val }
+importing-file-must-contain-field-column = Le fichier doit contenir au moins une colonne qui puisse correspondre à un champ de note.
 importing-file-version-unknown-trying-import-anyway = Version de fichier inconnue, tentative d’importation malgré tout.
 importing-first-field-matched = Correspondant au premier champ : { $val }
 importing-identical = Identique
@@ -36,6 +40,8 @@ importing-notes-that-could-not-be-imported = Notes ne pouvant pas être importé
 importing-notes-updated-as-file-had-newer = Notes mises à jour car le fichier avait une version plus récente : { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Fichier de Paquet/Collection Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1,8 leçon
+# the '|' character
+importing-pipe = Barre verticale
 importing-rows-had-num1d-fields-expected-num2d = « { $row } » avait { $found } champs au lieu des { $expected } prévus
 importing-selected-file-was-not-in-utf8 = Le fichier sélectionné n’était pas au format UTF-8. Merci de consulter la section du manuel relative à l’import de fichiers.
 importing-semicolon = Point-virgule
@@ -87,4 +93,18 @@ importing-processed-notes =
         [one] { $count } note traitée...
        *[other] { $count } notes traitées...
     }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } carte traitée...
+       *[other] { $count } cartes traitées...
+    }
 importing-unable-to-import-filename = Impossible d'importer { $filename } : type de fichier non supporté
+importing-existing-notes = Notes existantes
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Dupliquer
+# "Existing notes: Preserve" (verb)
+importing-preserve = Préserver
+# "Existing notes: Update" (verb)
+importing-update = Mettre à jour
+importing-tag-all-notes = Marquer toutes les notes
+importing-tag-updated-notes = Marquer les notes mises à jour

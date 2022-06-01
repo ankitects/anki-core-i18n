@@ -74,6 +74,7 @@ deck-config-new-gather-priority-position-highest-first = Ordre décroissant
 deck-config-new-gather-priority-random-notes = Notes aléatoires
 deck-config-new-gather-priority-random-cards = Cartes aléatoires
 deck-config-new-card-sort-order = Ordre de classement des nouvelles cartes
+deck-config-new-card-sort-order-tooltip-2 = `Type de carte`: Affiche les cartes par ordre de numéro de type de carte. Si l'enfouissement des cartes sœurs est désactivé, ceci permets de s'assurer que toutes les cartes recto→verso seront vues avant les cartes verso→recto.
 deck-config-sort-order-card-template-then-random = Modèle de carte, puis aléatoirement
 deck-config-sort-order-random-note-then-template = Carte aléatoire. puis type de carte
 deck-config-sort-order-random = Aléatoirement
