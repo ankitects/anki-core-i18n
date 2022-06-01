@@ -74,7 +74,16 @@ deck-config-new-gather-priority-position-highest-first = Ordre décroissant
 deck-config-new-gather-priority-random-notes = Notes aléatoires
 deck-config-new-gather-priority-random-cards = Cartes aléatoires
 deck-config-new-card-sort-order = Ordre de classement des nouvelles cartes
-deck-config-new-card-sort-order-tooltip-2 = `Type de carte`: Affiche les cartes par ordre de numéro de type de carte. Si l'enfouissement des cartes sœurs est désactivé, ceci permets de s'assurer que toutes les cartes recto→verso seront vues avant les cartes verso→recto.
+deck-config-new-card-sort-order-tooltip-2 =
+    `Par type de carte`: Affiche les cartes par ordre de numéro de type de carte. Si l'enfouissement des cartes sœurs est désactivé, ceci permet de s'assurer que toutes les cartes recto→verso seront vues avant les cartes verso→recto. C'est utile pour avoir toutes les cartes d'une même note présentées dans une même session, sans être trop rapprochées les unes des autres.
+    
+    `Par ordre d'ajout`: Présente les cartes dans l'ordre exact dans lequel elles furent ajoutées. Si l'enfouissement des cartes sœurs est désactivé, cela résultera en ce que toutes les cartes d'une même note soit vues les unes après les autres.
+    
+    `Par type de carte, puis aléatoire`: Comme `Par type de carte`, mais mélange les cartes de chaque numéro de type de carte. Si vous utilisez `Ordre croissant` pour rassembler les les plus vieilles cartes, vous pourriez utiliser cette option pour voir ces cartes dans un ordre aléatoire, tout en s'assurant que les cartes d'une même note ne soient pas trop proches les unes des autres.
+    
+    `Notes aléatoires, puis par type de carte`: Choisit des notes au hasard, puis montre toutes leurs carte sœurs dans l'ordre.
+    
+    `Aléatoire`: Mélange complètement les cartes rassemblées.
 deck-config-sort-order-card-template-then-random = Modèle de carte, puis aléatoirement
 deck-config-sort-order-random-note-then-template = Carte aléatoire. puis type de carte
 deck-config-sort-order-random = Aléatoirement
@@ -83,10 +92,21 @@ deck-config-sort-order-gather = Dans l'ordre collectée
 deck-config-new-review-priority = Ordre nouvelle/à réviser
 deck-config-new-review-priority-tooltip = Quand montrer les nouvelles cartes par rapport aux cartes de révision.
 deck-config-interday-step-priority = Ordre d'apprentissage/de révision interjournalier
+deck-config-interday-step-priority-tooltip =
+    Quand montrer les cartes de (ré)apprentissage qui franchissent une limite de jour.
+    
+    La limite de révision est toujours appliquée en premier lieu aux cartes d'apprentissage inter-journalières, et
+    ensuite aux révisions. Cette option permet de contrôler l'ordre dans lequel les cartes rassemblées sont affichées,
+    mais les cartes d'apprentissage inter-journalier seront toujours rassemblées en premier.
 deck-config-review-mix-mix-with-reviews = Mélanger avec les cartes à réviser
 deck-config-review-mix-show-after-reviews = Afficher après les cartes à réviser
 deck-config-review-mix-show-before-reviews = Afficher avant les cartes à réviser
 deck-config-review-sort-order = Ordre de classement des cartes à réviser
+deck-config-review-sort-order-tooltip =
+    L'ordre par défaut donne la priorité aux cartes qui ont été en attente le plus longtemps, de sorte que
+    si vous avez un retard dans vos révisions, celles qui attendent depuis le plus longtemps apparaîtront
+    en premier. Si vous avez un retard important qui prendra plus que quelques jours à
+    résorber, ou si vous souhaitez voir les cartes dans l'ordre des sous-paquets, vous pouvez préférer les ordres de tri alternatifs.
 deck-config-sort-order-due-date-then-random = Date d'échéance, puis aléatoirement
 deck-config-sort-order-due-date-then-deck = Date d'échéance, puis dans l'ordre du paquet
 deck-config-sort-order-deck-then-due-date = Dans l'ordre du paquet, puis par date d'échéance
