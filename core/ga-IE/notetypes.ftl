@@ -1,3 +1,5 @@
+notetypes-notetype = Cineál Nóta
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Tosach

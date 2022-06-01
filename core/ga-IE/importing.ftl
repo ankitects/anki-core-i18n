@@ -1,6 +1,7 @@
 importing-failed-debug-info = Theip ar iompórtáil.  Sonraí dífhabhtaithe:
 importing-aborted = Tobscortha: { $val }
 importing-added-duplicate-with-first-field = Dúblach atá sa chárta a cuireadh leis agus é seo mar chéad réimse aige: { $val }
+importing-all-supported-formats = Formáidí a ghlactar { $val }
 importing-allow-html-in-fields = Ceadaigh HTML i réimsí
 importing-anki-files-are-from-a-very = Baineann comhaid .anki le leagan fíorshean de Anki. Is féidir iad a iompórtáil le Anki 2.0, atá ar fáil ar láithreán gréasáin Anki.
 importing-anki2-files-are-not-directly-importable = Ní féidir iompórtáil díreach a dhéanamh ar chomhaid .anki2. Déan iompórtáil ar an gcomhad .apkg nó .zip ina n-áit.
@@ -8,11 +9,14 @@ importing-appeared-twice-in-file = Faoi dhó sa chomhad: { $val }
 importing-by-default-anki-will-detect-the = De réir réamhshocraithe, braithfidh Anki an carachtar idir réimsí (táb nó camóg, cuir i gcás).  Má bhraitheann Anki an carachtar mícheart, is féidir é a chuir isteach anseo.  Bíodh \t ann in áit táib.
 importing-change = Athraigh
 importing-colon = Idirstad
+importing-column = Colún { $val }
 importing-comma = Camóg
 importing-empty-first-field = Chéad réimse folamh: { $val }
+importing-field-separator = Deighiltear réimsí le
 importing-field-mapping = Mapáil réimsí
 importing-field-of-file-is = Is é réimse <b>{ $val }</b> den chomhad ná:
 importing-fields-separated-by = Réimsí scartha ag: { $val }
+importing-file-must-contain-field-column = Teastaíonn colún amháin ar a laghad sa chomhad a bheidh mar réimse nótaí.
 importing-file-version-unknown-trying-import-anyway = Leagan comhaid anaithnid, iompórtáil ar bun mar sin féin.
 importing-first-field-matched = Chéad réimse faighte: { $val }
 importing-identical = Mar an gcéanna
@@ -71,6 +75,8 @@ importing-notes-updated-as-file-had-newer =
     }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paca/Cnuascach Anki i bpacáiste (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Ceacht Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Píopa
 importing-rows-had-num1d-fields-expected-num2d = Líon na réimsí ag '{ $row }': { $found } (ainneoin súil le { $expected })
 importing-selected-file-was-not-in-utf8 = Cathfidh an comhad a bheith i bhformáid UTF-8. Féach ar "Iompórtáil" sa lámhleabhar.
 importing-semicolon = Leathstad
@@ -128,4 +134,33 @@ importing-processed-media-file =
        *[other] Iompórtáladh { $count } comhad meáin
     }
 importing-importing-collection = Cnuasach á iompórtáil...
+importing-importing-file = Comhad á iompórtáil...
+importing-extracting = Sonraí á léamh...
+importing-gathering = Sonraí á mbailiú...
 importing-failed-to-import-media-file = Theip ar iompórtáil chomhad meáin: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Próiseáladh { $count } nóta amháin...
+        [two] Próiseáladh { $count } nóta...
+        [few] Próiseáladh { $count } nóta...
+        [many] Próiseáladh { $count } nóta...
+       *[other] Próiseáladh { $count } nóta...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Próiseáladh { $count } chárta amháin...
+        [two] Próiseáladh { $count } chárta...
+        [few] Próiseáladh { $count } chárta...
+        [many] Próiseáladh { $count } gcárta...
+       *[other] Próiseáladh { $count } cárta...
+    }
+importing-unable-to-import-filename = Níorbh fhéidir an comhad { $filename } a iompórtáil: ní ghlactar le comhaid den chineál sin
+importing-existing-notes = Nótaí atá ann cheana
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Bíodh an dá cheann ann
+# "Existing notes: Preserve" (verb)
+importing-preserve = Coinnigh an seanleagan
+# "Existing notes: Update" (verb)
+importing-update = Nuashonraigh
+importing-tag-all-notes = Cuir clib le gach nóta
+importing-tag-updated-notes = Cuir clib le nótaí a nuashonraíodh

@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = HTML agus tagairt meán san áirea
 exporting-include-media = Meáin san áireamh
 exporting-include-scheduling-information = Sonraí sceidealaithe san áireamh
 exporting-include-tags = Clibeanna san áireamh
+exporting-support-older-anki-versions = Oiriúnach do leaganacha níos sine de Anki (beidh an comhad níos mó)
 exporting-notes-in-plain-text = Nótaí gnáth-théacs
 exporting-selected-notes = Nótaí Roghnaithe
 exporting-card-exported =
@@ -39,4 +40,13 @@ exporting-note-exported =
         [few] Easpórtáladh { $count } nóta.
         [many] Easpórtáladh { $count } nóta.
        *[other] Easpórtáladh { $count } nóta.
+    }
+exporting-exporting-file = Comhad á easpórtáil...
+exporting-processed-media-files =
+    { $count ->
+        [one] Próiseáladh { $count } chomhad meáin amháin...
+        [two] Próiseáladh { $count } chomhad meáin...
+        [few] Próiseáladh { $count } chomhad meáin...
+        [many] Próiseáladh { $count } gcomhad meáin...
+       *[other] Próiseáladh { $count } comhad meáin...
     }

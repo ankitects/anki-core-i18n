@@ -171,6 +171,7 @@ deck-config-sort-order-ascending-intervals = De réir eatraimh (is lú ar dtús)
 deck-config-sort-order-descending-intervals = De réir eatraimh (is mó ar dtús)
 deck-config-sort-order-ascending-ease = Ag dul i ndeacracht
 deck-config-sort-order-descending-ease = Ag dul in éascaíocht
+deck-config-sort-order-relative-overdueness = De réir deireanaí
 deck-config-display-order-will-use-current-deck =
     Cloífear leis an ord taispeána a bhaineann leis an
     bpaca a roghnaigh tú seachas ord taispeána a

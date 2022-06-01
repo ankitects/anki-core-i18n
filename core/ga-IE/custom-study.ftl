@@ -24,10 +24,18 @@ custom-study-select = Roghnaigh
 custom-study-select-tags-to-exclude = Roghnaigh clibeanna le fágáil as:
 custom-study-selective-study = Staidéar Roghnaitheach
 custom-study-study-by-card-state-or-tag = Déan staidéar de réir staid chárta nó de réir clibe
-custom-study-available-new-cards = Cártaí nua ar fáil: { $count }
-custom-study-available-review-cards = Cártaí athbhreithnithe ar fáil: { $count }
+custom-study-available-new-cards-2 = Cártaí nua ar fáil: { $countString }
+custom-study-available-review-cards-2 = Cártaí athbhreithnithe ar fáil: { $countString }
+custom-study-available-child-count =
+    { $count ->
+        [one] ({ $count } cheann amháin i bhfophacaí)
+        [two] ({ $count } cheann i bhfophacaí)
+        [few] ({ $count } cinn i bhfophacaí)
+        [many] ({ $count } gcinn i bhfophacaí)
+       *[other] ({ $count } ceann i bhfophacaí)
+    }
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-new-cards-in-deck-over-today = Cártaí nua sa phaca thar srian an lae inniu: { $val }
-custom-study-reviews-due-in-deck-over-today = Cártaí le staidéar sa phaca thar srian an lae inniú: { $val }
+custom-study-available-new-cards = Cártaí nua ar fáil: { $count }
+custom-study-available-review-cards = Cártaí athbhreithnithe ar fáil: { $count }
