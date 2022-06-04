@@ -1,6 +1,7 @@
 importing-failed-debug-info = Tuonti epäonnistui. Vianmääritystietoa:
 importing-aborted = Keskeytetty: { $val }
 importing-added-duplicate-with-first-field = Lisätty ensimmäisen kentän kaksoiskappale: { $val }
+importing-all-supported-formats = Kaikki tuetut tiedostotyypit { $val }
 importing-allow-html-in-fields = Salli HTML kentissä
 importing-anki-files-are-from-a-very = .anki-tiedostot ovat todella vanhasta Ankin versiosta. Voit tuoda ne Anki 2.0 -versiolla, jonka voit ladata Ankin verkkosivulta.
 importing-anki2-files-are-not-directly-importable = .anki2-tiedostoja ei voida tuoda suoraan – tuo sen sijaan saamasi .apkg- tai .zip-tiedosto.
@@ -8,11 +9,14 @@ importing-appeared-twice-in-file = Esiintyi kahdesti tiedostossa: { $val }
 importing-by-default-anki-will-detect-the = Anki yrittää tunnistaa erotinmerkin automaattisesti. Jos menee pieleen, voit itse syöttää erottimen tähän (pilkku, puolipiste, jne.). Tab on \t
 importing-change = Muuta
 importing-colon = Kaksoispiste
+importing-column = Sarake { $val }
 importing-comma = Pilkku
 importing-empty-first-field = Tyhjä ensimmäinen kenttä: { $val }
+importing-field-separator = Kenttien erotin
 importing-field-mapping = Kenttäliitokset
 importing-field-of-file-is = Tiedoston <b>{ $val }.</b> kenttä on:
 importing-fields-separated-by = Kenttien erotin: { $val }
+importing-file-must-contain-field-column = Tiedoston tulee sisältää vähintään yksi sarake, joka vastaa jotakin muistiinpanon kenttää.
 importing-file-version-unknown-trying-import-anyway = Tuntematon tiedostoversio. Yritetään tuontia siitä huolimatta.
 importing-first-field-matched = Ensimmäinen kenttä täsmää: { $val }
 importing-identical = Identtinen
@@ -36,6 +40,8 @@ importing-notes-that-could-not-be-imported = Muistiinpanoja, joita ei voitu tuod
 importing-notes-updated-as-file-had-newer = Muistiinpanoja, jotka päivitettiin, koska tiedostossa oli uudempi versio: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakattu Anki-pakka/kokoelma (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
+# the '|' character
+importing-pipe = Putki
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }':ssa oli { $found } kenttää, pitäisi olla { $expected }
 importing-selected-file-was-not-in-utf8 = Valittu tiedosto ei ollut UTF-8-muodossa. Katso käyttöohjeen tuonti-osio.
 importing-semicolon = Puolipiste
@@ -87,4 +93,18 @@ importing-processed-notes =
         [one] { $count } muistiinpano käsitelty...
        *[other] { $count } muistiinpanoa käsitelty...
     }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } kortti käsitelty...
+       *[other] { $count } korttia käsitelty...
+    }
 importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta.
+importing-existing-notes = Olemassa olevat muistiinpanot
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Monista
+# "Existing notes: Preserve" (verb)
+importing-preserve = Säilytä
+# "Existing notes: Update" (verb)
+importing-update = Päivitä
+importing-tag-all-notes = Merkitse kaikki muistiinpanot tunnisteella
+importing-tag-updated-notes = Merkitse päivitetyt muistiinpanot tunnisteella
