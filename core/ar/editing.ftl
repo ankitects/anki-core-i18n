@@ -15,6 +15,7 @@ editing-customize-card-templates = تخصيص قوالب البطاقات
 editing-customize-fields = خصص الحقول
 editing-cut = قص
 editing-double-click-image = انقر نقرتين على الصورة
+editing-double-click-to-expand = (انقر نقرتين للإيساع)
 editing-edit-current = تحرير البطاقة الحالية
 editing-edit-html = تحرير HTML
 editing-fields = الحقول
@@ -38,6 +39,7 @@ editing-outdent = خفض الإزاحة
 editing-paste = لصق
 editing-record-audio = تسجيل صوت
 editing-remove-formatting = إزالة التنسيق
+editing-restore-original-size = استعادة الحجم الأصلي
 editing-select-remove-formatting = حدد التنسيق الذي تريد حذفه
 editing-show-duplicates = إظهار الملحوظات المكررة
 editing-subscript = خط تحتي
@@ -60,5 +62,3 @@ editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = محرر HTML
-editing-set-text-color = ضبط لون النص
-editing-set-text-highlight-color = ضبط لون تظليل النص

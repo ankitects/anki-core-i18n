@@ -1,6 +1,7 @@
 importing-failed-debug-info = فشل الاستيراد. معلومات التصحيح:
 importing-aborted = أُحبِط: { $val }
 importing-added-duplicate-with-first-field = أضيفت ملحوظة حقلها الأول مكرر: { $val }
+importing-all-supported-formats = كل الصيغ المدعومة { $val }
 importing-allow-html-in-fields = السماح بـ HTML في الحقول
 importing-anki-files-are-from-a-very = ملفات anki. تعود إلى إصدار قديم جدًا من أنكي. تستطيع استيرادها من خلال أنكي 2.0، متوفر على موقع أنكي على الإنترنت.
 importing-anki2-files-are-not-directly-importable = ملفات anki2. غير متوافقة - الرجاء استيراد ملف apkg. أو zip. الذي تلقيته بدلًا من ذلك.
@@ -8,11 +9,14 @@ importing-appeared-twice-in-file = ظهر مرتين في الملف: { $val }
 importing-by-default-anki-will-detect-the = يكتشف أنكي الرموز بين الحقول مثل التاب (tab)، والفاصلة، وما إلى ذلك افتراضيًا. إذا كان كشف أنكي عن هذه الرموز خاطئًا؛ تستطيع إدخالها هنا. استخدم t\ لتمثيل التاب.
 importing-change = تعديل
 importing-colon = نقطتان
+importing-column = عمود { $val }
 importing-comma = فاصلة
 importing-empty-first-field = الحقل الأول فارغ: { $val }
+importing-field-separator = فاصل الحقل
 importing-field-mapping = توزيع الحقول
 importing-field-of-file-is = الحقل رقم <b>{ $val }</b> من الملف هو:
 importing-fields-separated-by = الحقول مفصولة بـ: { $val }
+importing-file-must-contain-field-column = يجب أن يحتوي الملف على عمود واحد على الأقل يمكن توزيعه إلى حقل ملحوظة.
 importing-file-version-unknown-trying-import-anyway = إصدار الملف غير معروف، سيُحاول الاستيراد على أي حال.
 importing-first-field-matched = الحقل الأول مطابق: { $val }
 importing-identical = مطابق
@@ -36,6 +40,8 @@ importing-notes-that-could-not-be-imported = الملحوظات التي لا ي
 importing-notes-updated-as-file-had-newer = عدد الملحوظات المحدثة لأن الملف له إصدار أحدث: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = حزمة رزمة/مجموعة أنكي (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = درس Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = شريط عمودي
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' له { $found } حقل، لكن المتوقع وجود { $expected } حقل
 importing-selected-file-was-not-in-utf8 = الملف المحدد ليس بصيغة UTF-8. الرجاء الرجوع إلى قسم الاستيراد في دليل الاستخدام.
 importing-semicolon = فاصلة منقوطة
@@ -111,4 +117,22 @@ importing-processed-notes =
         [many] تمت معالجة { $count } ملحوظة...
        *[other] تمت معالجة { $count } ملحوظة...
     }
+importing-processed-cards =
+    { $count ->
+        [zero] لم تتم معالجة أي بطاقة...
+        [one] تمت معالجة بطاقة واحدة...
+        [two] تمت معالجة بطاقتين...
+        [few] تمت معالجة { $count } بطاقات...
+        [many] تمت معالجة { $count } بطاقة...
+       *[other] تمت معالجة { $count } بطاقة...
+    }
 importing-unable-to-import-filename = فشل استيراد { $filename }: نوع الملف غير مدعوم
+importing-existing-notes = الملحوظات الموجودة
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = استنساخ
+# "Existing notes: Preserve" (verb)
+importing-preserve = حفظ
+# "Existing notes: Update" (verb)
+importing-update = تحديث
+importing-tag-all-notes = وسم كل الملحوظات
+importing-tag-updated-notes = وسم الملحوظات المحدثة

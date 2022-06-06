@@ -26,6 +26,7 @@ custom-study-selective-study = دراسة انتقائية
 custom-study-study-by-card-state-or-tag = دراسة حسب حالة البطاقة أو الوسم
 custom-study-available-new-cards-2 = البطاقات الجديدة المتوفرة: { $countString }
 custom-study-available-review-cards-2 = بطاقات المراجعة المتوفرة: { $countString }
+custom-study-available-child-count = ({ $count } في الرزم الفرعية)
 
 ## DEPRECATED - you do not need to translate these.
 
