@@ -24,10 +24,10 @@ custom-study-select = تحديد
 custom-study-select-tags-to-exclude = حدد وسوم لإقصائها:
 custom-study-selective-study = دراسة انتقائية
 custom-study-study-by-card-state-or-tag = دراسة حسب حالة البطاقة أو الوسم
-custom-study-available-new-cards = البطاقات الجديدة المتوفرة: { $count }
-custom-study-available-review-cards = بطاقات المراجعة المتوفرة: { $count }
+custom-study-available-new-cards-2 = البطاقات الجديدة المتوفرة: { $countString }
+custom-study-available-review-cards-2 = بطاقات المراجعة المتوفرة: { $countString }
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-new-cards-in-deck-over-today = عدد البطاقات الجديدة في الرزمة فوق الحد اليومي: { $val }
-custom-study-reviews-due-in-deck-over-today = عدد المراجعات المستحقة في الرزمة فوق الحد اليومي: { $val }
+custom-study-available-new-cards = البطاقات الجديدة المتوفرة: { $count }
+custom-study-available-review-cards = بطاقات المراجعة المتوفرة: { $count }
