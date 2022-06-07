@@ -121,7 +121,7 @@ scheduling-set-due-date-prompt =
     }
 scheduling-set-due-date-prompt-hint =
     0 = 今天
-    1! = 明天+重设复习间隔
+    1! = 明天+将间隔更改为1天
     3-7 = 随机选择 3-7 天
 scheduling-set-due-date-done =
     { $cards ->
