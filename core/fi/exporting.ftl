@@ -38,3 +38,6 @@ exporting-processed-media-files =
         [one] { $count } mediatiedosto käsitelty...
        *[other] { $count } mediatiedostoa käsitelty...
     }
+exporting-include-deck = Sisällytä pakan nimi
+exporting-include-notetype = Sisällytä muistiinpanotyypin nimi
+exporting-include-guid = Sisällytä yksilöllinen tunniste
