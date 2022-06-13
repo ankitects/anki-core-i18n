@@ -3,6 +3,7 @@ importing-failed-debug-info =
     מידע Debugging:
 importing-aborted = בוטל: { $val }
 importing-added-duplicate-with-first-field = נוספה עם כפילות בשדה הראשון: { $val }
+importing-all-supported-formats = כל סוגי הקבצים הנתמכים { $val }
 importing-allow-html-in-fields = אפשר HTML בתוך שדות
 importing-anki-files-are-from-a-very = קבצי .anki מגרסה מאוד ישנה של Anki. אתה יכול לייבא אותם עם Anki 2.0, אשר זמין באתר של Anki.
 importing-anki2-files-are-not-directly-importable = לא ניתן לייבא ישירות קבצי .anki2 - במקום זאת, אנא ייבא את קובץ .apkg או .zip שקיבלת.
@@ -12,9 +13,11 @@ importing-change = שינוי
 importing-colon = נקודותיים
 importing-comma = פסיק
 importing-empty-first-field = שדה ראשון ריק: { $val }
+importing-field-separator = מפריד שדות
 importing-field-mapping = מיפוי שדות
 importing-field-of-file-is = שדה <b>{ $val }</b> של הקובץ הינו:
 importing-fields-separated-by = שדות מופרדים על-ידי: { $val }
+importing-file-must-contain-field-column = הקובץ חייב להכיל לפחות עמודה אחת שניתן למפות לשדה בכרטיס.
 importing-file-version-unknown-trying-import-anyway = גרסת קובץ לא ידועה, מנסה לייבא בכל-זאת.
 importing-first-field-matched = שדה ראשוני תואם: { $val }
 importing-identical = זהה
@@ -38,6 +41,8 @@ importing-notes-that-could-not-be-imported = רשומות שלא יובאו מש
 importing-notes-updated-as-file-had-newer = רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
+# the '|' character
+importing-pipe = צינור
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ישנם { $found } שדות, מצופים { $expected }
 importing-selected-file-was-not-in-utf8 = הקובץ שנבחר אינו בפורמט UTF-8. ראה אודות ייבוא במדריך למשתמש.
 importing-semicolon = פסיק נקודה
@@ -86,7 +91,22 @@ importing-gathering = אוסף מידע...
 importing-failed-to-import-media-file = יבוא קובץ המדיה { $debugInfo } נכשל
 importing-processed-notes =
     { $count ->
-        [one] מעבד הערה...
-       *[other] מעבד { $count } הערות...
+        [one] מעבד רשומה...
+       *[other] מעבד { $count } רשומות...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] מייבא כרטיס { $count }...
+       *[other] מייבא { $count } כרטיסים...
     }
 importing-unable-to-import-filename = { $filename } לא ניתן לייבוא: סוג הקובץ לא נתמך
+importing-existing-notes = כרטיסים קיימים
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = שכפל
+# "Existing notes: Preserve" (verb)
+importing-preserve = לשמור
+# "Existing notes: Update" (verb)
+importing-update = לעדכן
+importing-tag-all-notes = תיוג לכרטיסים
+importing-tag-updated-notes = תיוג לכרטיסים שיתעדכנו
+importing-file = קובץ

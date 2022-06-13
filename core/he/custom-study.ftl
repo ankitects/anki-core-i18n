@@ -31,4 +31,4 @@ custom-study-available-child-count = ({ $count }בתתי חפיסות)
 ## DEPRECATED - you do not need to translate these.
 
 custom-study-available-new-cards = כרטיסים חדשים זמינים:{ $count }
-custom-study-available-review-cards = כרטיסי ביקורת זמינים:{ $count }
+custom-study-available-review-cards = כרטיסים זמינים לחזרה:{ $count }

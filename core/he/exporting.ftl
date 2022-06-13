@@ -38,3 +38,6 @@ exporting-processed-media-files =
         [one] קובץ מדיה עובד...
        *[other] { $count } קובצי מדיה עובדו...
     }
+exporting-include-deck = כולל שם חפיסה
+exporting-include-notetype = כולל שם סוג-רשומה
+exporting-include-guid = כולל מזהה ייחודי

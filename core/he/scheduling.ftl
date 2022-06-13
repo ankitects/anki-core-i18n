@@ -94,7 +94,7 @@ scheduling-today-new-limit-reached =
     תוכל להגדיל את המכסה בהגדרות, אך שים לב כי
     ככל שתציג יותר כרטיסים חדשים, כך יגדל העומס 
     של החזרות שלך בטווח הקצר.
-scheduling-buried-cards-found = כרטיס אחד או יותר"הוטמנו" ויוצגו מחר. תוכל { $unburyThem } אם תרצה לראות אותם כעת.
+scheduling-buried-cards-found = כרטיס אחד או יותר "הוטמנו" ויוצגו מחר. תוכל { $unburyThem } אם תרצה לראות אותם כעת.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = להוציא אותם מ"הטמנה"
