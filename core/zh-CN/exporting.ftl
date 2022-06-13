@@ -34,3 +34,6 @@ exporting-processed-media-files =
     { $count ->
        *[other] 已处理{ $count }个媒体文件。。。
     }
+exporting-include-deck = 包含牌组名称
+exporting-include-notetype = 包含模板名称
+exporting-include-guid = 包含唯一标识符
