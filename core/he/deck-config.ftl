@@ -22,7 +22,7 @@ deck-config-new-limit-tooltip =
     שהכמות תהיה קטנה פי 10 ממגבלת החזרות הכללית שלך.
 deck-config-review-limit-tooltip =
     המספר המרבי של כרטיסים ללימוד וחזרה ביום,
-    (אם הכרטיסים מוכנים ללימוד וחזרה).
+    (אם הכרטיסים אמורים להופיע בלימוד וחזרה).
 deck-config-limit-deck-v3 =
     כאשר לומדים חפיסה שיש בתוכה תתי -חפיסות, המגבלות על החפיסה הראשית 
     יגבילו את הלימוד הכולל של החפיסה הראשית יחד עם תתי החפיסות.
@@ -161,8 +161,8 @@ deck-config-sort-order-ascending-ease = קלות עולה
 deck-config-sort-order-descending-ease = קלות יורדת
 deck-config-sort-order-relative-overdueness = איחור יחסי
 deck-config-display-order-will-use-current-deck =
-    אנקי ישתמש בסדר התצוגה מהחפיסה שאתה 
-    בוחר ללמוד, ולא כל תת -חפיסה שיש לו.
+    אנקי ישתמש בהגדרת סדר החזרות לפי החפיסה שאתה 
+    בוחר ללמוד, ולא לפי ההגדרות של תתי -החפיסה שלה.
 
 ## Timer section
 

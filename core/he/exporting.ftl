@@ -15,7 +15,7 @@ exporting-include-media = כלול מדיה
 exporting-include-scheduling-information = כלול מידע על מועדים קבועים מראש
 exporting-include-tags = כלול תגיות
 exporting-support-older-anki-versions = תמיכה בגרסאות Anki ישנות יותר (קבצים איטיים/גדולים יותר)
-exporting-notes-in-plain-text = רשומות בטקסט רגיל
+exporting-notes-in-plain-text = רשומות בטקסט פשוט
 exporting-selected-notes = רשומות נבחרות
 exporting-card-exported =
     { $count ->
