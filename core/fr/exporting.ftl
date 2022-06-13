@@ -38,3 +38,6 @@ exporting-processed-media-files =
         [one] { $count } fichier média traité...
        *[other] { $count } fichiers média traités...
     }
+exporting-include-deck = Inclure le nom du paquet
+exporting-include-notetype = Inclure le nom du type de note
+exporting-include-guid = Inclure l'identifiant unique
