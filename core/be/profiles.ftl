@@ -10,3 +10,5 @@ profiles-confirm-lang-choice = Вы ўпэўнены, што хочаце пер
 profiles-prefs-corrupt-title = Параметры пашкоджаны
 profiles-profile-does-not-exist = Запытаны профіль не існуе.
 profiles-creating-backup = Стварэнне рэзервовай копіі...
+profiles-backup-created = Рэзервовая копія створана.
+profiles-backup-unchanged = Няма змен з апошняй рэзервовай копіі.
