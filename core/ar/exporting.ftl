@@ -54,3 +54,6 @@ exporting-processed-media-files =
         [many] تمت معالجة { $count } ملف وسائط...
        *[other] تمت معالجة { $count } ملف وسائط...
     }
+exporting-include-deck = تضمين اسم الرزمة
+exporting-include-notetype = تضمين اسم نوع الملحوظة
+exporting-include-guid = تضمين المعرف الفريد
