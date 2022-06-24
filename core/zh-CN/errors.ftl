@@ -11,6 +11,7 @@ errors-multiple-notetypes-selected = 请仅从一种笔记模板选取笔记。
 errors-please-check-database = 请使用「检查数据库」功能，然后重试。
 errors-please-check-media = 请使用「检查媒体」功能，然后重试。
 errors-collection-too-new = 此集合需要更新版本的Anki才能打开。
+errors-invalid-ids = 改牌组包含有未来的时间戳。请联系牌组作者修复该问题。
 
 ## Card Rendering
 
