@@ -8,6 +8,7 @@ errors-multiple-notetypes-selected = Valitse muistiinpanot vain yhdestä muistii
 errors-please-check-database = Käytä Tarkista tietokanta -toimintoa ja yritä sitten uudelleen.
 errors-please-check-media = Käytä Tarkista media -toimintoa ja yritä sitten uudelleen.
 errors-collection-too-new = Tämän kokoelman avaaminen edellyttää uudempaa Ankin versiota.
+errors-invalid-ids = Tämä pakka sisältää tulevaisuuteen sijoittuvia aikaleimoja. Ota yhteyttä pakan tekijään ja pyydä häntä korjaamaan ongelma.
 
 ## Card Rendering
 
