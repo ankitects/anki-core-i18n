@@ -11,6 +11,7 @@ errors-multiple-notetypes-selected = Prosím, vyberte poznámky pouze od jednoho
 errors-please-check-database = Prosím použijte funkci Zkontrolovat databázi, poté to zkuste znovu.
 errors-please-check-media = Prosím použijte funkci Zkontrolovat média, poté to zkuste znovu.
 errors-collection-too-new = Otevření této kolekce vyžaduje novější verzi Anki.
+errors-invalid-ids = Tento balík obsahuje časová razítka v budoucnosti. Prosím kontaktujte autora balíku a požádejte ho o řešení problému.
 
 ## Card Rendering
 
