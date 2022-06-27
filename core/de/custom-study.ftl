@@ -26,6 +26,7 @@ custom-study-selective-study = Lernauswahl
 custom-study-study-by-card-state-or-tag = Karten mit bestimmtem Status oder Schlagwörtern
 custom-study-available-new-cards-2 = Verfügbare neue Karten: { $countString }
 custom-study-available-review-cards-2 = Verfügbare zu wiederholende Karten: { $countString }
+custom-study-available-child-count = ({ $count } in Unterstapel)
 
 ## DEPRECATED - you do not need to translate these.
 

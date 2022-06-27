@@ -1,3 +1,5 @@
+notetypes-notetype = Notiztyp
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Vorderseite

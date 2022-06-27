@@ -1,6 +1,7 @@
 importing-failed-debug-info = Import fehlgeschlagen. Die Fehlermeldung lautet:
 importing-aborted = Abgebrochen: { $val }
 importing-added-duplicate-with-first-field = Duplikat mit erstem Feld { $val } hinzugefügt
+importing-all-supported-formats = Alle unterstützten Formate { $val }
 importing-allow-html-in-fields = HTML in Feldern zulassen
 importing-anki-files-are-from-a-very = .anki-Dateien stammen von einer sehr alten Version von Anki. Sie können diese mit Anki 2.0 importieren. Diese Version steht Ihnen auf der Webseite von Anki zur Verfügung.
 importing-anki2-files-are-not-directly-importable = .anki2-Dateien können nicht direkt importiert werden - bitte importieren Sie die .apkg- oder .zip-Datei, die Sie stattdessen erhalten haben.
@@ -10,9 +11,11 @@ importing-change = Ändern
 importing-colon = Doppelpunkt
 importing-comma = Komma
 importing-empty-first-field = Erstes Feld ist leer: { $val }
+importing-field-separator = Feldtrenner
 importing-field-mapping = Feldzuordnung
 importing-field-of-file-is = Feld <b>{ $val }</b> der Datei ist:
 importing-fields-separated-by = Feldtrenner: { $val }
+importing-file-must-contain-field-column = Die Datei muss mindestens eine Spalte beinhalten, die einem Notizfeld zugeordnet werden kann.
 importing-file-version-unknown-trying-import-anyway = Die Dateiversion ist unbekannt. Es wird trotzdem versucht, den Import durchzuführen.
 importing-first-field-matched = Erstes Feld stimmt überein mit: { $val }
 importing-identical = Identisch
@@ -36,6 +39,8 @@ importing-notes-that-could-not-be-imported = Notizen, die nicht importiert werde
 importing-notes-updated-as-file-had-newer = Aktualisierte Notizen, da die Datei eine neuere Version ist: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
+# the '|' character
+importing-pipe = Pipe
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hat { $found } Felder, erwartet waren { $expected }
 importing-selected-file-was-not-in-utf8 = Die gewählte Datei war nicht im UTF-8-Format. Für weitere Hinweise bitte den Abschnitt »Import« in der Bedienungsanleitung beachten.
 importing-semicolon = Semikolon
@@ -87,4 +92,19 @@ importing-processed-notes =
         [one] { $count } Notiz verarbeitet...
        *[other] { $count } Notizen verarbeitet...
     }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } Karte verarbeitet...
+       *[other] { $count } Karten verarbeitet...
+    }
 importing-unable-to-import-filename = { $filename } kann nicht importiert werden: Dateityp nicht unterstützt
+importing-existing-notes = Vorhandene Notizen
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplizieren
+# "Existing notes: Preserve" (verb)
+importing-preserve = Behalten
+# "Existing notes: Update" (verb)
+importing-update = Aktualisieren
+importing-tag-all-notes = Alle Notizen verschlagworten
+importing-tag-updated-notes = Aktualisierte Notizen verschlagworten
+importing-file = Datei

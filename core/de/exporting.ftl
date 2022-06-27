@@ -38,3 +38,6 @@ exporting-processed-media-files =
         [one] { $count } Mediendatei verarbeitet...
        *[other] { $count } Mediendateien verarbeitet...
     }
+exporting-include-deck = Stapelname einbeziehen
+exporting-include-notetype = Notiztypnamen einbeziehen
+exporting-include-guid = Eindeutigen Bezeichner einbeziehen
