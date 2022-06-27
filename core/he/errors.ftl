@@ -11,6 +11,7 @@ errors-multiple-notetypes-selected = אנא בחר רשומות מתוך סוג 
 errors-please-check-database = אנא השתמש בפעולת בדיקת מסד הנתונים ונסה שוב.
 errors-please-check-media = אנא השתמש בפעולה בדוק מדיה ולאחר מכן נסה שוב.
 errors-collection-too-new = נדרשת גירסה חדשה יותר של אנקי כדי לפתוח את האוסף הזה.
+errors-invalid-ids = חפיסה זו מכילה חותמות זמן בעתיד. אנא צור קשר עם מחבר החפיסה ובקש ממנו לתקן את הבעיה.
 
 ## Card Rendering
 
