@@ -8,6 +8,7 @@ errors-multiple-notetypes-selected = Merci de sélectionner des notes que d'un s
 errors-please-check-database = S'il vous plaît, essayez la fonction "Vérifier la base de données", et réessayez à nouveau.
 errors-please-check-media = S'il vous plaît, utilisez la fonction "vérifier les médias...", et réessayez à nouveau.
 errors-collection-too-new = Cette collection nécessite une version plus récente d'Anki pour être ouverte.
+errors-invalid-ids = Ce paquet contient des horodatages situés dans le futur.  Veuillez contacter l'auteur du paquet pour lui signaler le problème.
 
 ## Card Rendering
 
