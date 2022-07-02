@@ -1,6 +1,7 @@
 importing-failed-debug-info = Import selhal. Ladicí informace:
 importing-aborted = Zrušeno: { $val }
 importing-added-duplicate-with-first-field = Přidána duplicita s prvním polem: { $val }
+importing-all-supported-formats = Všechny podporované formáty { $val }
 importing-allow-html-in-fields = Povolit  HTML v polích
 importing-anki-files-are-from-a-very = .anki soubory pocházejí z velmi staré verze Anki. Můžete je importovat pomocí Anki 2.0, který je dostupný na webových stránkách Anki.
 importing-anki2-files-are-not-directly-importable = .anki2 soubory nelze importovat přímo - prosím importujte místo toho .apkg nebo .zip soubor, který máte.
