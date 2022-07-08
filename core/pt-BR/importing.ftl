@@ -1,6 +1,7 @@
 importing-failed-debug-info = Importação falhou. Informações para depuração:
 importing-aborted = Abortado: { $val }
 importing-added-duplicate-with-first-field = Duplicata adicionada com o primeiro campo: { $val }
+importing-all-supported-formats = Todos os formatos suportados { $val }
 importing-allow-html-in-fields = Permitir HTML em campos
 importing-anki-files-are-from-a-very = arquivos .anki são de uma versão muito antiga do Anki. Você pode importá-los com o Anki 2.0, disponível no site do Anki
 importing-anki2-files-are-not-directly-importable = arquivos .anki2 não são diretamente importáveis - por favor, ao invés disso, importe o arquivo .apkg ou .zip que você recebeu
@@ -10,9 +11,11 @@ importing-change = Alterar
 importing-colon = Dois pontos
 importing-comma = Vírgula
 importing-empty-first-field = Primeiro campo vazio: { $val }
+importing-field-separator = Separador de campo
 importing-field-mapping = Mapeamento de campo
 importing-field-of-file-is = Campo <b>{ $val }</b> do arquivo é:
 importing-fields-separated-by = Campos separados por: { $val }
+importing-file-must-contain-field-column = O arquivo deve conter pelo menos uma coluna que possa ser mapeada para um campo de nota.
 importing-file-version-unknown-trying-import-anyway = Versão do arquivo desconhecida, tentando importar de qualquer maneira.
 importing-first-field-matched = Primeiro campo encontrado: { $val }
 importing-identical = Idêntico
@@ -80,10 +83,26 @@ importing-processed-media-file =
 importing-importing-collection = Importando coleção...
 importing-importing-file = Importando arquivo...
 importing-extracting = Extraindo dados...
+importing-gathering = Juntando informação...
 importing-failed-to-import-media-file = Falha ao importar arquivo de mídia: { $debugInfo }
 importing-processed-notes =
     { $count ->
         [one] Processada { $count } nota...
        *[other] Processadas { $count } notas...
     }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } Cartão processado
+       *[other] { $count } Cartões processados
+    }
 importing-unable-to-import-filename = Não foi possível importar { $filename }: tipo de arquivo não suportado
+importing-existing-notes = Notas existentes
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplicar
+# "Existing notes: Preserve" (verb)
+importing-preserve = Preservar
+# "Existing notes: Update" (verb)
+importing-update = Atualizar
+importing-tag-all-notes = Marcar todas as notas
+importing-tag-updated-notes = Marcas a notas atualizadas
+importing-file = Arquivo

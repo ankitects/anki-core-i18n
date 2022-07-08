@@ -1,5 +1,5 @@
-studying-again = Errei
-studying-all-buried-cards = Todos os Cartõs Ocultos
+studying-again = De novo
+studying-all-buried-cards = Todos os Cartões Ocultos
 studying-audio-5s = Áudio -5s
 studying-audio-and5s = Áudio +5s
 studying-buried-siblings = Irmãos Enterrados
@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Os cartões voltarão automaticamente aos seus baralhos originais depois da revisão.
 studying-continue = Avançar
+studying-counts-differ = As contagens diferem da lista de deck, porque o ocultar está ativado. Alguns cartões foram excluídos e outros podem ter o substituído.
 studying-delete-note = Excluir Nota
 studying-deleting-this-deck-from-the-deck = Ao excluir esse baralho da lista, todos os cartões restantes voltarão ao baralho original.
 studying-easy = Fácil

@@ -1,4 +1,4 @@
-custom-study-must-rename-deck = Por favor, primeiro renomeie o já existente baralho Estudo Personalizado.
+custom-study-must-rename-deck = Por favor, primeiro renomeie o já existente Baralho de Estudo Personalizado.
 custom-study-all-cards-in-random-order-dont = Todos os cartões em ordem aleatória (não reagendar)
 custom-study-all-review-cards-in-random-order = Todos os cartões estudados em ordem aleatória
 custom-study-cards = cartões
@@ -25,6 +25,10 @@ custom-study-select-tags-to-exclude = Excluir cartões com as etiquetas:
 custom-study-selective-study = Estudo Seletivo
 custom-study-study-by-card-state-or-tag = Estudar pelo status do cartão ou etiqueta
 custom-study-available-new-cards-2 = Novos cartões disponíveis: { $countString }
+custom-study-available-review-cards-2 = Cartões disponíveis para revisão:
+custom-study-available-child-count = em subdecks
 
 ## DEPRECATED - you do not need to translate these.
 
+custom-study-available-new-cards = Novos cartões disponiveis:
+custom-study-available-review-cards = Cartões disponíveis para revisão:

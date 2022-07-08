@@ -1,19 +1,15 @@
 preferences-automatically-sync-on-profile-openclose = Sincronizar automaticamente ao abrir/fechar perfil de usuário
 preferences-backups = Cópias de segurança
-preferences-backups2 = cópias de segurança
-preferences-backupsanki-will-create-a-backup-of = <b>Cópias de segurança</b><br>O Anki criará uma cópia de segurança da sua coleção cada vez que ela for fechada ou sincronizada.
 preferences-basic = Básico
 preferences-change-deck-depending-on-note-type = Mudar baralho dependendo do tipo de nota
 preferences-changes-will-take-effect-when-you = As alterações serão aplicadas depois que você reiniciar o Anki.
 preferences-hours-past-midnight = horas além da meia-noite
 preferences-interface-language = Idioma da interface:
 preferences-interrupt-current-audio-when-answering = Interromper o áudio atual ao responder
-preferences-keep = Manter
 preferences-learn-ahead-limit = Aprender além do limite
 preferences-mins = minutos
 preferences-network = Rede
 preferences-next-day-starts-at = Novo dia começa às
-preferences-night-mode = Modo noturno
 preferences-note-media-is-not-backed-up = Nota: A mídia não tem cópia de segurança. Por favor, copie periodicamente sua pasta Anki por segurança.
 preferences-on-next-sync-force-changes-in = Na próxima sincronização, obrigar mudanças em uma direção.
 preferences-paste-clipboard-images-as-png = Colar imagens da área de transferência como PNG
@@ -42,3 +38,11 @@ preferences-theme-follow-system = Conforme o Sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Escuro
 preferences-v3-scheduler = Agendador V3
+preferences-ignore-accents-in-search = Ignorar acentos na pesquisa (mais lento)
+preferences-backup-explanation =
+    Anki periodicamente faz backup de sua coleção. Depois que os backups tiverem mais de 2 dias,
+    O Anki começará a remover alguns deles para liberar espaço em disco.
+preferences-daily-backups = Backups diários para manter:
+preferences-weekly-backups = Backups semanais para manter:
+preferences-monthly-backups = Backups mensais para manter:
+preferences-minutes-between-backups = Minutos antes dos backups automáticos:

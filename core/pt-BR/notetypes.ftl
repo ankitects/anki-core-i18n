@@ -1,3 +1,5 @@
+notetypes-notetype = Tipo de nota
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Frente
