@@ -39,6 +39,8 @@ importing-notes-that-could-not-be-imported = Notas que não pudiam ser importada
 importing-notes-updated-as-file-had-newer = Notas atualizadas, pois o arquivo tinha uma versão mais recente: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Pipe
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tem { $found } campos, de { $expected } esperados
 importing-selected-file-was-not-in-utf8 = O arquivo selecionado não encontra-se no formato UTF-8. Por favor, veja no manual como fazer a importação corretamente.
 importing-semicolon = Ponto e vírgula

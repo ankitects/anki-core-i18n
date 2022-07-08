@@ -46,6 +46,7 @@ deck-config-new-insertion-order-tooltip =
     Alterar esta opção atualizará automaticamente a posição existente de novos cartões.
 deck-config-new-insertion-order-sequential = Sequencial (cartões mais antigos primeiro)
 deck-config-new-insertion-order-random = Aleatório
+deck-config-new-insertion-order-random-with-v3 = Com o  V3 scheduler, é melhor deixar este conjunto para sequencial, e ajuste a nova ordem de coleta de cartas.
 
 ## Lapses section
 
@@ -80,13 +81,36 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Ordem de Exibição
 deck-config-new-gather-priority = Nova ordem de reunião de cartões
+deck-config-new-gather-priority-tooltip-2 =
+    `Deck`: reúne as cartas de cada baralho em ordem, começando pelo topo. As cartas de cada baralho são reunidos em posição ascendente. Se o limite diário do baralho selecionado for atingido, podendo parar antes que todos os decks tenham sido verificados. Esta ordem é mais rápida em grandes coleções, e permite priorizar subdecks mais próximos do topo.
+    
+    `Posição ascendente`: reúne as cartas por posição ascendente (devido #), que normalmente é
+    o mais antigo adicionado primeiro.
+    
+    `Posição descendente`: reúne as cartas por posição descendente (devido #), que normalmente é o mais recente adicionado primeiro.
+    
+    `Notas aleatórias`: reúne cartões de notas selecionadas aleatoriamente. Quando enterrar irmãos é desabilitado, isso permite que todos os cartões de uma nota sejam vistos em uma sessão (por exemplo, frente->verso
+    e verso->cartão frontal)
+    
+    `Cartões aleatórios`: reúne os cartões de forma completamente aleatória.
 deck-config-new-gather-priority-deck = Baralho
 deck-config-new-gather-priority-position-lowest-first = Posição ascendente
 deck-config-new-gather-priority-position-highest-first = Posição descendente
 deck-config-new-gather-priority-random-notes = Notas Aleatórias
 deck-config-new-gather-priority-random-cards = Cartões Aleatórios
 deck-config-new-card-sort-order = Nova ordem de classificação de cartões
+deck-config-new-card-sort-order-tooltip-2 =
+    `Tipo de cartão`: Exibe os cartões na ordem do número do tipo de cartão. Se você tem irmão enterrando desabilitado, isso garantirá que todos os cartões frente→verso sejam vistos antes de qualquer cartão verso→frente. Isto é útil para ter todas as cartas da mesma nota mostradas na mesma sessão, mas não muito próximos um do outro.
+    
+    `Ordem reunida`: Mostra os cartões exatamente como foram reunidos. Se os "irmãos enterrados" estiver desabilitado, isso normalmente resultará em todos os cartões de uma nota sendo vistos um após o outro.
+    
+    `Tipo de cartão, então aleatório`: como `Tipo de cartão`, embaralha as cartas de cada carta número do tipo. Se você usar 'Posição ascendente' para reunir as cartas mais antigas, você pode usar esta configuração para ver esses cartões em uma ordem aleatória, mas ainda garantir cartões do mesmo note não fiquem muito próximos um do outro.
+    
+    `Nota aleatória, depois tipo de cartão`: Escolhe notas aleatoriamente e mostra todos os seus irmãos em ordem.
+    
+    `Random`: Embaralha totalmente as cartas reunidas.
 deck-config-sort-order-card-template-then-random = Modelo do cartão, então aleatório
+deck-config-sort-order-random-note-then-template = Nota aleatória e, em seguida, tipo de cartão
 deck-config-sort-order-random = Aleatório
 deck-config-sort-order-template-then-gather = Modelo do cartão, então ordem da reunião
 deck-config-sort-order-gather = Ordem da reunião
@@ -118,6 +142,7 @@ deck-config-sort-order-ascending-intervals = Intervalos ascendentes
 deck-config-sort-order-descending-intervals = Intervalos descendentes
 deck-config-sort-order-ascending-ease = Facilidade ascendente
 deck-config-sort-order-descending-ease = Facilidade descendente
+deck-config-sort-order-relative-overdueness = Atraso relativo
 deck-config-display-order-will-use-current-deck =
     O Anki usará a ordem de exibição do baralho que você 
     selecionar para estudar, e não de quaisquer sub-baralho 
@@ -214,6 +239,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = O intervalo de graduação deve ser pelo menos tão longo quanto sua etapa final de aprendizagem.
 deck-config-good-above-easy = O intervalo de facilidade deve ser pelo menos tão longo quanto o intervalo de graduação.
 deck-config-relearning-steps-above-minimum-interval = O intervalo mínimo de lapso deve ser pelo menos tão longo quanto sua etapa final de reaprendizagem.
+deck-config-maximum-answer-secs-above-recommended = Anki pode agendar suas avaliações com mais eficiência quando você utiliza perguntas curtas.
 
 ## Selecting a deck
 

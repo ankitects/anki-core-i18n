@@ -12,6 +12,7 @@ errors-multiple-notetypes-selected = Por favor, selecione notas de apenas um tip
 errors-please-check-database = Por favor, use "Verificar banco de dados", então tente novamente.
 errors-please-check-media = Por favor, use "Verificar mídia", então tente novamente.
 errors-collection-too-new = Esta coleção requer uma versão mais recente do Anki para ser aberta
+errors-invalid-ids = Este baralho contém registro de data e hora no futuro. Entre em contato com o autor do deck e peça para corrigir o problema.
 
 ## Card Rendering
 
