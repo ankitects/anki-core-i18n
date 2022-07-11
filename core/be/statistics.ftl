@@ -91,7 +91,7 @@ statistics-studied-today =
     } ({ $secs-per-card } с/картку)
 statistics-today-title = Сёння
 statistics-today-again-count = Колькасць забытых картак:
-statistics-today-type-counts = Вывучаецца: { $learnCount }, на перагляд: { $reviewCount }, на паўторнае вывучэнне: { $relearnCount }, фільтраваных: { $filteredCount }
+statistics-today-type-counts = Вывучаюцца: { $learnCount }, на перагляд: { $reviewCount }, на паўторнае вывучэнне: { $relearnCount }, фільтраваных: { $filteredCount }
 statistics-today-no-cards = Сёння карткі не праглядаліся.
 statistics-today-no-mature-cards = Сталыя карткі сёння не праглядаліся.
 statistics-today-correct-mature = Правільных адказаў да сталых картак: { $correct }/{ $total } ({ $percent }%)
