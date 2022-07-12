@@ -1,6 +1,7 @@
 importing-failed-debug-info = Не удалось импортировать. Отладочная информация:
 importing-aborted = Прервано: { $val }
 importing-added-duplicate-with-first-field = Добавлен повтор с первым полем: { $val }
+importing-all-supported-formats = Все поддерживаемые форматы { $val }
 importing-allow-html-in-fields = Разрешить HTML в полях
 importing-anki-files-are-from-a-very = Эти файлы .anki для старой версии Anki. Их можно импортировать через Anki 2.0, доступной на сайте.
 importing-anki2-files-are-not-directly-importable = Эти файлы .anki2 нельзя импортировать напрямую. Импортируйте .apkg или .zip, которые вы получили.
@@ -13,6 +14,7 @@ importing-change = Изменить
 importing-colon = Двоеточие
 importing-comma = Запятая
 importing-empty-first-field = Пустое первое поле: { $val }
+importing-field-separator = Разделитель полей
 importing-field-mapping = Сопоставление полей
 importing-field-of-file-is = Поле <b>{ $val }</b> файла:
 importing-fields-separated-by = Поля разделены: { $val }
@@ -39,6 +41,8 @@ importing-notes-that-could-not-be-imported = Записи, которые не �
 importing-notes-updated-as-file-had-newer = Записи, которые обновлены: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Упакованная колода/коллекция Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Черта
 importing-rows-had-num1d-fields-expected-num2d = В '{ $row }' { $found } полей, но должно быть { $expected }
 importing-selected-file-was-not-in-utf8 = Выбранный файл не в кодировке UTF-8. Пожалуйста, прочтите раздел об импорте в руководстве.
 importing-semicolon = Точка с запятой
@@ -97,3 +101,7 @@ importing-processed-notes =
        *[other] Обработано { $count } записей...
     }
 importing-unable-to-import-filename = Не удалось импортировать { $filename }: тип файлов не поддерживается
+importing-existing-notes = Существующие записи
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Повторы
+importing-file = Файл

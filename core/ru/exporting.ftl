@@ -42,3 +42,6 @@ exporting-processed-media-files =
         [few] Обработаны { $count } медиафайла...
        *[other] Обработано { $count } медиафайлов...
     }
+exporting-include-deck = Вместе с названием колоды
+exporting-include-notetype = Вместе с названием типа записи
+exporting-include-guid = Вместе с уникальным идентификатором
