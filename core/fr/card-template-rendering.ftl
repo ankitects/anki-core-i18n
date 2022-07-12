@@ -4,8 +4,10 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Plus d’informations
-card-template-rendering-front-side-problem = Le modèle du verso a un problème :
-card-template-rendering-back-side-problem = Le modèle du recto a un problème :
+card-template-rendering-front-side-problem = Le modèle du recto a un problème :
+card-template-rendering-back-side-problem = Le modèle du verso a un problème :
+card-template-rendering-browser-front-side-problem = Le modèle du recto spécifique au navigateur a un problème :
+card-template-rendering-browser-back-side-problem = Le modèle du verso spécifique au navigateur a un problème :
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Il manque « { $missing } » dans « { $tag } »
