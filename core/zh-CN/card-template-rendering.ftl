@@ -6,6 +6,8 @@
 card-template-rendering-more-info = 更多信息
 card-template-rendering-front-side-problem = 正面内容模板存在问题：
 card-template-rendering-back-side-problem = 背面内容模板存在问题：
+card-template-rendering-browser-front-side-problem = 特定浏览器的正面模板存在问题：
+card-template-rendering-browser-back-side-problem = 特定浏览器的背面模板存在问题：
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = '{ $tag }' 中缺少 '{ $missing }'
