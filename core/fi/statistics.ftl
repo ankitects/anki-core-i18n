@@ -151,7 +151,7 @@ statistics-intervals-day-single =
 statistics-hours-range = { $hourStart }.00–{ $hourEnd }.00
 statistics-hours-correct = { $correct }/{ $total } oikein ({ $percent } %)
 statistics-hours-title = Tuntijakauma
-statistics-hours-subtitle = Kertausten onnistumisaste tunneittain
+statistics-hours-subtitle = Kertausten onnistumisaste tunneittain.
 # shown when graph is empty
 statistics-no-data = EI TIETOJA
 statistics-calendar-title = Kalenteri

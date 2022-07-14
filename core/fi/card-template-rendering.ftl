@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Lisätietoja
 card-template-rendering-front-side-problem = Etupuolen mallissa on ongelma:
 card-template-rendering-back-side-problem = Kääntöpuolen mallissa on ongelma:
+card-template-rendering-browser-front-side-problem = Selainkohtaisessa etupuolen mallissa on ongelma:
+card-template-rendering-browser-back-side-problem = Selainkohtaisessa kääntöpuolen mallissa on ongelma:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Kohteesta '{ $tag }' puuttuu '{ $missing }'
