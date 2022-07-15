@@ -11,4 +11,5 @@ profiles-prefs-corrupt-title = Параметры пашкоджаны
 profiles-profile-does-not-exist = Запытаны профіль не існуе.
 profiles-creating-backup = Стварэнне рэзервовай копіі...
 profiles-backup-created = Рэзервовая копія створана.
+profiles-backup-creation-failed = Не ўдалося стварыць рэзервовую копію: { $reason }
 profiles-backup-unchanged = Няма змен з апошняй рэзервовай копіі.

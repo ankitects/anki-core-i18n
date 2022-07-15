@@ -42,6 +42,15 @@ database-check-missing-decks =
         [many] Выпраўлена { $count } адсутных калод
        *[other] Выпраўлена { $count } адсутных калод
     }.
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] Выпраўлена { $count } нататка
+        [few] Выпраўлены { $count } нататкі
+        [many] Выпраўлена { $count } нататак
+       *[other] Выпраўлена { $count } нататак
+    } з няправільнымі сімваламі utf8.
+# "db-check" is always in English
+database-check-notetypes-recovered = Адсутнічае адзін ці больш тыпаў нататак. Нататкам, што выкарыстоўвалі іх, былі наданы новыя тыпы нататак, якія пачынаюцца з «db-check», але назвы палёў і дызайн картак былі страчаны, таму можа лепей будзе аднавіцца з аўтаматычнай рэзервовай копіі.
 
 ## Progress info
 

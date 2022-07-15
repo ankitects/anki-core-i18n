@@ -133,6 +133,7 @@ scheduling-new-interval = Інтэрвал для новых
 scheduling-new-options-group-name = Назва новай групы параметраў:
 scheduling-options-group = Група параметраў:
 scheduling-order = Парадак
+scheduling-parent-limit = (бацькоўскі ліміт: { $val })
 scheduling-review = На перагляд
 scheduling-reviews = Перагляды
 scheduling-seconds = секунд

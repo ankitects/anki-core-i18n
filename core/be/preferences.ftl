@@ -5,6 +5,7 @@ preferences-change-deck-depending-on-note-type = Змяніць калоду ў 
 preferences-changes-will-take-effect-when-you = Змены набудуць моц, калі вы перазапусціце Anki.
 preferences-interface-language = Мова інтэрфейсу:
 preferences-interrupt-current-audio-when-answering = Перарываць аўдыя падчас адказу
+preferences-learn-ahead-limit = Ліміт вывучэння з апярэджаннем
 preferences-mins = хв.
 preferences-network = Сетка
 preferences-next-day-starts-at = Наступны дзень пачынаецца а

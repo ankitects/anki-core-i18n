@@ -45,6 +45,7 @@ editing-tags-copy = Скапіяваць цэтлікі
 editing-tags-remove = Выдаліць цэтлікі
 editing-tags-select-all = Выбраць усе цэтлікі
 editing-text-color = Колер тэксту
+editing-text-highlight-color = Колер вылучэння тэксту
 editing-to-make-a-cloze-deletion-on = Каб дадаць запаўненне прабела да існуючай нататкі, неабходна спачатку змяніць яе тып на «З прабеламі», праз «Нататкі > Змяніць тып нататкі»
 editing-toggle-html-editor = Пераключыць рэдактар HTML
 editing-toggle-sticky = Пераключыць заліпанне
