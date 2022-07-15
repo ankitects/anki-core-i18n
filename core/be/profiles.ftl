@@ -1,4 +1,6 @@
-profiles-folder-already-exists = Папка ужо існуе.
+profiles-anki-could-not-read-your-profile = Anki не змагла прачытаць даныя вашага профілю. Памеры вокнаў і вашы даныя ўваходу для сінхранізацыі былі забыты.
+profiles-anki-could-not-rename-your-profile = Anki не змагла перайменаваць ваш профіль з-за таго, што яна не змагла перайменаваць папку профілю на дыску. Пераканайцеся, што ў вас ёсць дазвол для запісу да «Дакументы/Anki» і што аніякія іншыя праграмы не спрабуюць атрымаць доступ да папак вашых профіляў, а затым паспрабуйце зноў.
+profiles-folder-already-exists = Папка ўжо існуе.
 profiles-open = Адкрыць
 profiles-open-backup = Адкрыць рэзервовую копію...
 profiles-please-remove-the-folder-and = Выдаліце папку { $val } і паспрабуйце зноў.
