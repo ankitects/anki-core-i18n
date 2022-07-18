@@ -13,6 +13,8 @@ editing-couldnt-record-audio-have-you-installed = 無法錄製音訊。請檢查
 editing-customize-card-templates = 自訂卡片模板
 editing-customize-fields = 自訂欄位
 editing-cut = 剪下
+editing-double-click-image = 按兩下影像
+editing-double-click-to-expand = (按兩下以展開)
 editing-edit-current = 編輯當前卡片
 editing-edit-html = 編輯 HTML
 editing-fields = 欄位
@@ -36,6 +38,7 @@ editing-outdent = 減少縮排
 editing-paste = 貼上
 editing-record-audio = 錄製音訊
 editing-remove-formatting = 移除格式
+editing-restore-original-size = 回復原始大小
 editing-select-remove-formatting = 選取要移除的格式
 editing-show-duplicates = 顯示重複項目
 editing-subscript = 下標
@@ -58,5 +61,3 @@ editing-warning-cloze-deletions-will-not-work = 警告，除非你將上方的�
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
 editing-html-editor = HTML 編輯器
-editing-set-text-color = 設定文字顏色
-editing-set-text-highlight-color = 設定重點文字顏色

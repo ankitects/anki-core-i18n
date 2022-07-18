@@ -28,3 +28,11 @@ exporting-note-exported =
     { $count ->
        *[other] 已匯出 { $count } 則筆記。
     }
+exporting-exporting-file = 匯出檔案中...
+exporting-processed-media-files =
+    { $count ->
+       *[other] 已處理 { $count } 份媒體檔...
+    }
+exporting-include-deck = 包含牌組名稱
+exporting-include-notetype = 包含卡片類型名稱
+exporting-include-guid = 包含唯一識別碼

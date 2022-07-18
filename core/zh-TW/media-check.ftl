@@ -47,7 +47,7 @@ media-check-delete-unused-complete =
        *[other] 已移動 { $count } 個檔案
     }到垃圾桶。
 media-check-trash-emptied = 已清空垃圾桶資料夾。
-media-check-trash-restored = 恢復已刪除檔案到媒體資料夾。
+media-check-trash-restored = 回復已刪除檔案到媒體資料夾。
 
 ## Rendering LaTeX
 
@@ -60,5 +60,5 @@ media-check-render-latex = 轉譯 LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = 清空垃圾桶
 # button to move deleted files from the trash back into the media folder
-media-check-restore-trash = 恢復已刪除檔案
+media-check-restore-trash = 回復已刪除檔案
 media-check-check-media-action = 檢查媒體檔

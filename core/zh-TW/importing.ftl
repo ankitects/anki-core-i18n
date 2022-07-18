@@ -1,6 +1,7 @@
 importing-failed-debug-info = 匯入失敗。除錯資訊：
 importing-aborted = 已中止：{ $val }
 importing-added-duplicate-with-first-field = 已新增第一個欄位重複的複本：{ $val }
+importing-all-supported-formats = 支援的所有格式 { $val }
 importing-allow-html-in-fields = 允許在欄位中使用 HTML 語法
 importing-anki-files-are-from-a-very = .anki 檔是非常舊的 Anki 版本所使用的格式。你可以使用附加元件 175027074 或是 Anki 2.0 來匯入，可在 Anki 網站上取得。
 importing-anki2-files-are-not-directly-importable = .anki2 檔無法直接匯入 - 請匯入你收到的 .apkg 檔或 .zip 檔。
@@ -10,6 +11,7 @@ importing-change = 更改
 importing-colon = 冒號
 importing-comma = 逗號
 importing-empty-first-field = 第一個欄位是空的：{ $val }
+importing-field-separator = 欄位分隔符號
 importing-field-mapping = 欄位對應
 importing-field-of-file-is = 檔案的第 <b>{ $val }</b> 個欄位為：
 importing-fields-separated-by = 用 { $val } 分隔欄位
@@ -22,7 +24,7 @@ importing-ignored = <忽略>
 importing-import-even-if-existing-note-has = 即使第一個欄位與現有筆記相同，也要匯入
 importing-import-options = 匯入選項
 importing-importing-complete = 匯入完成。
-importing-invalid-file-please-restore-from-backup = 檔案無效。請恢復備份。
+importing-invalid-file-please-restore-from-backup = 檔案無效。請回復備份。
 importing-map-to = 對應到 { $val }
 importing-map-to-tags = 對應到標籤
 importing-mapped-to = 對應到<b>{ $val }</b>
@@ -36,6 +38,8 @@ importing-notes-that-could-not-be-imported = 因更動筆記類型而無法匯�
 importing-notes-updated-as-file-had-newer = 因檔案有新版本而更新的筆記：{ $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 已封裝的 Anki 牌組/集合 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
+# the '|' character
+importing-pipe = 直立線符號 (|)
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」行有 { $found } 個欄位，預期 { $expected }
 importing-selected-file-was-not-in-utf8 = 已選取的檔案並非 UTF-8 格式，請參閱使用手冊的匯入 (Importing) 章節。
 importing-semicolon = 分號
@@ -73,4 +77,26 @@ importing-processed-media-file =
        *[other] 己處理 { $count } 個媒體檔
     }
 importing-importing-collection = 匯入集合中...
+importing-importing-file = 匯入檔案中...
+importing-extracting = 擷取資料中...
+importing-gathering = 蒐集資料中...
 importing-failed-to-import-media-file = 匯入媒體檔案失敗: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+       *[other] 已處理 { $count } 則筆記...
+    }
+importing-processed-cards =
+    { $count ->
+       *[other] 已處理 { $count } 張卡片...
+    }
+importing-unable-to-import-filename = 無法匯入 { $filename }：不支援此檔案類型
+importing-existing-notes = 現有筆記
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = 複製
+# "Existing notes: Preserve" (verb)
+importing-preserve = 不更改
+# "Existing notes: Update" (verb)
+importing-update = 更新
+importing-tag-all-notes = 為全部筆記加上標籤
+importing-tag-updated-notes = 為更新的筆記加上標籤
+importing-file = 檔案

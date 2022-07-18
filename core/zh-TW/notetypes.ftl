@@ -1,3 +1,5 @@
+notetypes-notetype = 筆記類型
+
 ## Default field names in newly created note types
 
 notetypes-front-field = 正面

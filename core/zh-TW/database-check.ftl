@@ -1,4 +1,4 @@
-database-check-corrupt = 集合檔案已損毀。請從自動備份恢復。
+database-check-corrupt = 集合檔案已損毀。請回復自動備份。
 database-check-rebuilt = 已重建並最佳化資料庫。
 database-check-card-properties = 已修正 { $count } 張屬性無效的卡片。
 database-check-missing-templates = 已刪除 { $count } 張遺失模板的卡片。
