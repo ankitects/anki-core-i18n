@@ -63,6 +63,6 @@ actions-flag-orange = 橙
 actions-flag-green = 緑
 actions-flag-blue = 青
 actions-flag-pink = ピンク
-actions-flag-turquoise = 水色
+actions-flag-turquoise = ターコイズ
 actions-flag-purple = 紫
 actions-set-flag = フラグをつける
