@@ -6,6 +6,8 @@
 card-template-rendering-more-info = מידע נוסף
 card-template-rendering-front-side-problem = יש בעיה בתבנית הקדמית:
 card-template-rendering-back-side-problem = יש בעיה בתבנית האחורית:
+card-template-rendering-browser-front-side-problem = דפדוף- נמצאה בעיה בצד הקדמי של הכרטיס.
+card-template-rendering-browser-back-side-problem = דפדוף- נמצאה בעיה בצד האחורי של הכרטיס.
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = חסר '{ $missing }' ב- '{ $tag }'
