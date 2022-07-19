@@ -60,14 +60,14 @@ deck-config-relearning-steps-tooltip =
     按鈕後，將會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將
     改變間隔，而不會進入重新學習狀態。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    複習卡被標記為榨時卡之前，需要按下「重來」的次數。
+    複習卡被標記為榨時卡之前，需要按下`重來`的次數。
     榨時卡是耗費你大量時間的卡片，當卡片被標記為
     榨時卡時，最好的方法是將重寫、刪除卡片，或是
     使用縮寫、口訣等的方式來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    <b>僅加上標籤</b>：對筆記加上「榨時卡」的標籤，並顯示一個彈出式視窗。<br>
-    <b>擱置卡片</b>：對筆記加上標籤，並隱藏卡片，直到卡片被手動取消擱置。
+    `僅加上標籤`：對筆記加上「榨時卡」的標籤，並顯示一個彈出式視窗。<br>
+    `擱置卡片`：對筆記加上標籤，並隱藏卡片，直到卡片被手動取消擱置。
 
 ## Burying section
 
