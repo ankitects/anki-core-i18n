@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Weitere Informationen
 card-template-rendering-front-side-problem = Die Vorlage für die Vorderseite hat ein Problem:
 card-template-rendering-back-side-problem = Die Vorlage für die Rückseite hat ein Problem:
+card-template-rendering-browser-front-side-problem = Browser-spezifische Vorlage für die Vorderseite hat ein Problem:
+card-template-rendering-browser-back-side-problem = Browser-spezifische Vorlage für die Rückseite hat ein Problem:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = '{ $missing }' fehlt in '{ $tag }'
