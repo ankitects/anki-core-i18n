@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Tuilleadh eolais
 card-template-rendering-front-side-problem = Teimpléad tosaigh lochtach:
 card-template-rendering-back-side-problem = Teimpléad cúil lochtach:
+card-template-rendering-browser-front-side-problem = Teimpléad tosaigh an bhrabhsálaithe seo lochtach:
+card-template-rendering-browser-back-side-problem = Teimpléad cúil an bhrabhsálaithe seo lochtach:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = '{ $missing }'  ar iarraidh i '{ $tag }'

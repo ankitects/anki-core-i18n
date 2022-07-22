@@ -1,4 +1,4 @@
-notetypes-notetype = Cineál Nóta
+notetypes-notetype = Cineál Nótaí
 
 ## Default field names in newly created note types
 

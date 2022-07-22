@@ -50,3 +50,6 @@ exporting-processed-media-files =
         [many] Próiseáladh { $count } gcomhad meáin...
        *[other] Próiseáladh { $count } comhad meáin...
     }
+exporting-include-deck = Ainm an phaca san áireamh
+exporting-include-notetype = Ainm an chineál nótaí san áireamh
+exporting-include-guid = Aitheantóir uathúil domhanda san áireamh

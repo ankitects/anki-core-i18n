@@ -40,6 +40,17 @@ deck-config-limit-interday-bound-by-reviews =
     Cuirtear cártaí atá á bhfoghlaim fós san áireamh san uasmhéid athbhreithnithe.
     Agus an uasmhéid á cur i bhfeidhm, comhairfear na cártaí atá á bhfoghlaim ar dtús,
     ansin athbhreithnithe, agus ar deireadh cártaí nua.
+deck-config-tab-description =
+    - `Grúpa`: Baineann an srian le gach paca sa ghrúpa.
+    - `An paca seo`: Baineann an srian leis an bpaca seo amháin.
+    - `Inniu amháin`: Athraítear srian an phaca seo go sealadach.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = Grúpa
+deck-config-deck-only = An paca seo
+deck-config-today-only = Inniu amháin
 
 ## New Cards section
 

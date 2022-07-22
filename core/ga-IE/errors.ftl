@@ -12,6 +12,7 @@ errors-multiple-notetypes-selected = Ná roghnaítear ach nótaí d'aon chineál
 errors-please-check-database = Sula mbaine tú triail eile as, Seiceáil an Bunachar Sonraí.
 errors-please-check-media = Sula mbaine tú triail eile as, Seiceáil Meáin.
 errors-collection-too-new = Tá do leagan Anki róshean chun an cnuasach seo a oscailt.
+errors-invalid-ids = Tá stampaí ama ag dul leis an bpaca seo atá lochtach. Déan teagmháil le húdar an phaca go ndeisítear iad.
 
 ## Card Rendering
 
