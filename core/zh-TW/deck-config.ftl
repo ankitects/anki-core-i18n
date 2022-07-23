@@ -27,6 +27,17 @@ deck-config-limit-new-bound-by-reviews =
 deck-config-limit-interday-bound-by-reviews =
     複習上限也會影響隔天學習的卡片。套用數量上限後，
     隔天學習的卡片會被優先擷取，接著是複習卡，最後是新卡片。
+deck-config-tab-description =
+    - `預設設定`：所有使用此預設設定的牌組的上限。
+    - `當前牌組`：當前牌組的上限。
+    - `僅限今天`：暫時更改當前牌組的的上限。
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = 預設設定
+deck-config-deck-only = 當前牌組
+deck-config-today-only = 僅限今天
 
 ## New Cards section
 
@@ -159,14 +170,14 @@ deck-config-custom-scheduling-tooltip = 影響整個集合。請謹慎使用！
 
 ## Adding/renaming
 
-deck-config-add-group = 新增選項群組
+deck-config-add-group = 新增預設設定
 deck-config-name-prompt = 名稱：
-deck-config-rename-group = 重新命名群組
-deck-config-clone-group = 複製預設
+deck-config-rename-group = 重新命名預設設定
+deck-config-clone-group = 複製預設設定
 
 ## Removing
 
-deck-config-remove-group = 移除群組
+deck-config-remove-group = 移除預設設定
 deck-config-will-require-full-sync =
     此更動將使你下次同步時需要單向強制更動。如果你在其他裝置上
     做出更動，且尚未同步至此裝置，請先同步後再更改。
