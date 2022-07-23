@@ -11,7 +11,9 @@ errors-multiple-notetypes-selected = 請僅從一種筆記類型選取筆記。
 errors-please-check-database = 請執行「檢查資料庫」動作，然後再試一次。
 errors-please-check-media = 請執行「檢查媒體」動作，然後再試一次。
 errors-collection-too-new = 此集合只能在更高版本的 Anki 中打開
+errors-invalid-ids = 牌組包含未來的時間戳記。請求助牌組作者解決問題。
 
 ## Card Rendering
 
+errors-bad-directive = 指示詞 '{ $directive }' 中出現錯誤: { $error }
 errors-option-not-set = 未設定 '{ $option }'

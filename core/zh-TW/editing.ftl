@@ -9,6 +9,7 @@ editing-cards = 卡片
 editing-center = 置中
 editing-change-color = 更改顏色
 editing-cloze-deletion = 克漏字空格
+editing-cloze-deletion-repeat = 克漏字空格 (相同卡片)
 editing-couldnt-record-audio-have-you-installed = 無法錄製音訊。請檢查是否已安裝「lame」。
 editing-customize-card-templates = 自訂卡片模板
 editing-customize-fields = 自訂欄位

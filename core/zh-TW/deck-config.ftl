@@ -18,7 +18,7 @@ deck-config-new-limit-tooltip =
     該選項通常應比複習上限小至少 10 倍。
 deck-config-review-limit-tooltip = 當有複習卡準備就緒時，一天中顯示複習卡的最大數量。
 deck-config-limit-deck-v3 =
-    學習牌組時，若其含有子牌組，則對子牌組分別設定的上限決定了從特定牌組中
+    學習牌組時，若其包含子牌組，則對子牌組分別設定的上限決定了從特定牌組中
     抽出的最大卡片數量。而學習中的牌組設定的上限決定了卡片將會顯示的總數。
 deck-config-limit-new-bound-by-reviews =
     複習上限會影響新卡片上限。例如，若複習上限設為 200，
@@ -96,24 +96,39 @@ deck-config-bury-tooltip =
 deck-config-ordering-title = 顯示順序
 deck-config-new-gather-priority = 新卡片收集順序
 deck-config-new-gather-priority-tooltip-2 =
-    `牌組`：在各個牌組中依順序，由上至下收集卡片。依照遞增順序收集各個牌組中的卡片。
+    `牌組順序`：在各個牌組中依順序，由上至下收集卡片。依照遞增順序收集各個牌組中的卡片。
     若選取的牌組已達每日上限，收集卡片時可能不會檢查到部分牌組。在較大的集合中，此選項
     的速度最快，並讓你能夠優先學習靠上的子牌組。
     
-    `遞增`：依遞增順序收集卡片 (到期 #)，通常依新增順序從早到晚排序。
+    `遞增順序`：依遞增順序收集卡片 (到期 #)，通常依新增順序從早到晚排序。
     
-    `遞減`：依遞增順序收集卡片 (遞減 #)，通常依新增順序從晚到早排序。
+    `遞減順序`：依遞增順序收集卡片 (遞減 #)，通常依新增順序從晚到早排序。
     
     `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有
     卡片可以在單次學習中同時出現 (如「正面->背面」和「背面->正面」兩張卡片同時出現)
     
     `隨機卡片`：完全隨機收集卡片。
-deck-config-new-gather-priority-deck = 牌組
-deck-config-new-gather-priority-position-lowest-first = 遞增
-deck-config-new-gather-priority-position-highest-first = 遞減
+deck-config-new-gather-priority-deck = 牌組順序
+deck-config-new-gather-priority-position-lowest-first = 遞增順序
+deck-config-new-gather-priority-position-highest-first = 遞減順序
 deck-config-new-gather-priority-random-notes = 隨機筆記
 deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
+deck-config-new-card-sort-order-tooltip-2 =
+    `卡片類型`：顯示順序按卡片類型的序號來排序。當停用暫停關聯卡片時，此選項將讓任何
+    「正面→背面」卡片在「背面→正面」之前顯示。若你要在單次學習中顯示同一則筆記的
+    所有卡片，此選項可以幫你拉開關聯卡片之間顯示的間隔。
+    
+    `收集順序`：按照收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的
+    所有卡片連續出現。
+    
+    `卡片類型，然後隨機`：類似`卡片類型`，但會在卡片類型序號相同的卡片之間隨機排序。
+    當使用`遞增順序`按建立時間從早到晚的順序收集卡片時，此選項可以隨機顯示這些卡片，
+    同時同一則筆記的不同卡片的顯示順序也不會太接近。
+    
+    `隨機筆記，然後卡片類型`：隨機挑選筆記，然後順序顯示所有關聯卡片。
+    
+    `隨機`：完全隨機顯示收集的卡片。
 deck-config-sort-order-card-template-then-random = 卡片類型，然後隨機
 deck-config-sort-order-random-note-then-template = 隨機筆記，然後卡片類型
 deck-config-sort-order-random = 隨機
@@ -136,8 +151,8 @@ deck-config-review-sort-order-tooltip =
     等待最久的卡片將會最早出現。若有大量卡片積壓，需要更多時間
     來清理時，你可能需要找另一種更合適的順序。
 deck-config-sort-order-due-date-then-random = 到期日期，然後隨機
-deck-config-sort-order-due-date-then-deck = 到期日期，然後牌組
-deck-config-sort-order-deck-then-due-date = 牌組，然後到期日期
+deck-config-sort-order-due-date-then-deck = 到期日期，然後牌組順序
+deck-config-sort-order-deck-then-due-date = 牌組順序，然後到期日期
 deck-config-sort-order-ascending-intervals = 間隔遞增
 deck-config-sort-order-descending-intervals = 間隔遞減
 deck-config-sort-order-ascending-ease = 輕鬆度遞增
@@ -228,6 +243,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = 畢業間隔至少應該和最後一個學習階段一樣長。
 deck-config-good-above-easy = 簡單間隔至少應該和畢業間隔一樣長。
 deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔至少應該和最後一個重新學習階段一樣長。
+deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡練，這樣 Anki 能更好為你排程複習。
 
 ## Selecting a deck
 

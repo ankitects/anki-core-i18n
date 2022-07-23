@@ -10,7 +10,7 @@ database-check-new-card-high-due = 已找到 { $count } 張到期序號 >= 1,000
 database-check-card-missing-note = 已刪除 { $count } 張遺失筆記的卡片。
 database-check-duplicate-card-ords = 已刪除 { $count } 張模板重複的卡片。
 database-check-missing-decks = 已修正 { $count } 個缺失的牌組。
-database-check-revlog-properties = 已修正 { $count } 張含有無效內容的複習卡。
+database-check-revlog-properties = 已修正 { $count } 張包含無效內容的複習卡。
 database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] 已修正 { $count } 則帶有無效 utf8 字元的筆記。

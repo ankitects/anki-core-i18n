@@ -15,6 +15,7 @@ importing-field-separator = 欄位分隔符號
 importing-field-mapping = 欄位對應
 importing-field-of-file-is = 檔案的第 <b>{ $val }</b> 個欄位為：
 importing-fields-separated-by = 用 { $val } 分隔欄位
+importing-file-must-contain-field-column = 檔案中應包含至少一行內容以對應到筆記欄位。
 importing-file-version-unknown-trying-import-anyway = 檔案版本未知，嘗試繼續匯入。
 importing-first-field-matched = 第一個欄位符合的：{ $val }
 importing-identical = 完全相同

@@ -14,6 +14,7 @@ exporting-include-html-and-media-references = 包含 HTML 和媒體引用
 exporting-include-media = 包含媒體檔
 exporting-include-scheduling-information = 包含排程資訊
 exporting-include-tags = 包含標籤
+exporting-support-older-anki-versions = 舊版 Anki 支援 (速度較慢/檔案更大)
 exporting-notes-in-plain-text = 純文字的筆記
 exporting-selected-notes = 已選取的筆記
 exporting-card-exported =
