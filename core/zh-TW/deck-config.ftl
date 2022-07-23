@@ -62,6 +62,7 @@ deck-config-new-insertion-order-tooltip =
     更改此選項將自動更新已存在的新卡片順序。
 deck-config-new-insertion-order-sequential = 循序 (最舊的卡片在前)
 deck-config-new-insertion-order-random = 隨機
+deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議將此選項保留為循序，改用新卡片收集順序調整。
 
 ## Lapses section
 
@@ -85,6 +86,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
 deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
+deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
 deck-config-bury-tooltip =
     要/不要將相同筆記的其他卡片 (如反向卡片，
     相鄰的克漏字空格) 延遲至第二天。
@@ -92,22 +94,36 @@ deck-config-bury-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = 顯示順序
-deck-config-new-gather-priority = 新卡片收集優先順序
+deck-config-new-gather-priority = 新卡片收集順序
+deck-config-new-gather-priority-tooltip-2 =
+    `牌組`：在各個牌組中依順序，由上至下收集卡片。依照遞增順序收集各個牌組中的卡片。
+    若選取的牌組已達每日上限，收集卡片時可能不會檢查到部分牌組。在較大的集合中，此選項
+    的速度最快，並讓你能夠優先學習靠上的子牌組。
+    
+    `遞增`：依遞增順序收集卡片 (到期 #)，通常依新增順序從早到晚排序。
+    
+    `遞減`：依遞增順序收集卡片 (遞減 #)，通常依新增順序從晚到早排序。
+    
+    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有
+    卡片可以在單次學習中同時出現 (如「正面->背面」和「背面->正面」兩張卡片同時出現)
+    
+    `隨機卡片`：完全隨機收集卡片。
 deck-config-new-gather-priority-deck = 牌組
-deck-config-new-gather-priority-position-lowest-first = 順序 (最低的最早)
-deck-config-new-gather-priority-position-highest-first = 順序 (最高的最早)
+deck-config-new-gather-priority-position-lowest-first = 遞增
+deck-config-new-gather-priority-position-highest-first = 遞減
 deck-config-new-gather-priority-random-notes = 隨機筆記
 deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
-deck-config-sort-order-card-template-then-random = 先按照卡片模板，然後隨機
+deck-config-sort-order-card-template-then-random = 卡片類型，然後隨機
+deck-config-sort-order-random-note-then-template = 隨機筆記，然後卡片類型
 deck-config-sort-order-random = 隨機
-deck-config-sort-order-template-then-gather = 先按照卡片模板，然後按照收集排序
-deck-config-sort-order-gather = 收集排序
+deck-config-sort-order-template-then-gather = 卡片類型
+deck-config-sort-order-gather = 收集順序
 deck-config-new-review-priority = 新卡片/複習卡優先順序
-deck-config-new-review-priority-tooltip = 新卡片在複習卡之前還是之後顯示。
+deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
 deck-config-interday-step-priority = 隔天學習/複習的優先順序
 deck-config-interday-step-priority-tooltip =
-    當跨越天數學習時，正在 (重新) 學習的卡片顯示的順序。
+    隔天學習時，(重新) 學習中的卡片的顯示順序。
     
     複習上限永遠優先套用於隔天學習卡片，然後才是複習卡。
     此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
@@ -119,13 +135,14 @@ deck-config-review-sort-order-tooltip =
     預設的順序會優先顯示等待最久的卡片，這樣當有複習卡積壓時，
     等待最久的卡片將會最早出現。若有大量卡片積壓，需要更多時間
     來清理時，你可能需要找另一種更合適的順序。
-deck-config-sort-order-due-date-then-random = 先按照到期日期，然後隨機
-deck-config-sort-order-due-date-then-deck = 先按照到期日期，然後按照牌組
-deck-config-sort-order-deck-then-due-date = 先按照牌組，然後按照到期日期
-deck-config-sort-order-ascending-intervals = 間隔由小至大
-deck-config-sort-order-descending-intervals = 間隔由大至小
+deck-config-sort-order-due-date-then-random = 到期日期，然後隨機
+deck-config-sort-order-due-date-then-deck = 到期日期，然後牌組
+deck-config-sort-order-deck-then-due-date = 牌組，然後到期日期
+deck-config-sort-order-ascending-intervals = 間隔遞增
+deck-config-sort-order-descending-intervals = 間隔遞減
 deck-config-sort-order-ascending-ease = 輕鬆度遞增
 deck-config-sort-order-descending-ease = 輕鬆度遞減
+deck-config-sort-order-relative-overdueness = 依相對逾期跨度
 deck-config-display-order-will-use-current-deck =
     Anki 將採用你選取學習的牌組的顯示順序，
     任何子牌組的順序將被無視。
