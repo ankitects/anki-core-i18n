@@ -1,4 +1,4 @@
-importing-failed-debug-info = 読み込みを失敗しました。デバッグ情報:
+importing-failed-debug-info = インポートに失敗しました。デバッグ情報:
 importing-aborted = 中断: { $val }
 importing-added-duplicate-with-first-field = 最初のフィールドが重複したノートを追加しました: { $val }
 importing-allow-html-in-fields = フィールドに HTML を使う
@@ -20,8 +20,8 @@ importing-ignore-field = フィールドを無視する
 importing-ignore-lines-where-first-field-matches = 最初のフィールドが既存のノートと一致する行は無視する
 importing-ignored = <無視する>
 importing-import-even-if-existing-note-has = 最初のフィールドが既存のノートと同じであっても読み込む
-importing-import-options = 読み込みオプション
-importing-importing-complete = 読み込みが完了しました。
+importing-import-options = インポートのオプション
+importing-importing-complete = インポートが完了しました。
 importing-invalid-file-please-restore-from-backup = ファイルが壊れています。バックアップから復元してください。
 importing-map-to = { $val } に割り当てる
 importing-map-to-tags = タグに割り当てる
@@ -37,7 +37,7 @@ importing-notes-updated-as-file-had-newer = ファイル内に最新版が存在
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」には { $found } 個のフィールドがありました。予想では { $expected } 個でした。
-importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルの Importing (読み込み) に関する項目をご覧ください。
+importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルのインポート (Importing) に関する項目をご覧ください。
 importing-semicolon = セミコロン
 importing-skipped = 除外
 importing-supermemo-xml-export-xml = Supermemo 用の XML 形式 (*.xml)
@@ -47,8 +47,8 @@ importing-text-separated-by-tabs-or-semicolons = テキスト(タブ区切りま
 importing-the-first-field-of-the-note = ノートタイプの最初のフィールドは割り当てなくてはなりません。
 importing-the-provided-file-is-not-a = 指定したファイルは正当な .apkg ファイルではありません。
 importing-this-file-does-not-appear-to = このファイルは、正当な .apkg ファイルではないようです。このエラーが AnkiWeb からダウンロードしたファイルで発生した場合、ダウンロードが失敗した可能性があります。再度ダウンロードしても、この問題が続くようであれば、別のブラウザからもう一度実行してください。
-importing-this-will-delete-your-existing-collection = この処理は、既存のコレクションを削除し、今から読み込むファイルのデータに置き換えます。本当に実行しますか？
-importing-unable-to-import-from-a-readonly = 読み込み専用ファイルは読み込めません。
+importing-this-will-delete-your-existing-collection = この処理は、既存のコレクションを削除し、今からインポートするファイルのデータに置き換えます。本当に実行しますか？
+importing-unable-to-import-from-a-readonly = 読み取り専用ファイルはインポートできません。
 importing-unknown-file-format = ファイルの種類が不明。
 importing-update-existing-notes-when-first-field = 最初のフィールドが一致した場合、既存のノートを更新する。
 importing-updated = 更新
@@ -58,7 +58,7 @@ importing-note-added =
     }
 importing-note-imported =
     { $count ->
-       *[other] { $count } 個のノートを読み込みました。
+       *[other] { $count } 個のノートをインポートしました。
     }
 importing-note-unchanged =
     { $count ->
@@ -72,7 +72,7 @@ importing-processed-media-file =
     { $count ->
        *[other] { $count }のメディアファイルを処理
     }
-importing-importing-collection = コレクションを読み込み中...
+importing-importing-collection = コレクションをインポート中...
 importing-importing-file = ファイルをインポート中...
 importing-extracting = データを摘出中...
 importing-gathering = データを収集中...
