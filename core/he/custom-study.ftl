@@ -24,11 +24,11 @@ custom-study-select = בחר
 custom-study-select-tags-to-exclude = בחר תגים שלא יכללו:
 custom-study-selective-study = לימוד סלקטיבי
 custom-study-study-by-card-state-or-tag = למד לפי מצב כרטיס או לפי תיוג
-custom-study-available-new-cards-2 = כרטיסים חדשים זמינים:{ $count }
-custom-study-available-review-cards-2 = כרטיסי זמינים למבחן:{ $count }
-custom-study-available-child-count = ({ $count }בתתי חפיסות)
+custom-study-available-new-cards-2 = כרטיסים חדשים זמינים: { $countString }
+custom-study-available-review-cards-2 = כרטיסים זמינים למבחן: { $countString }
+custom-study-available-child-count = ( { $count } בתתי חפיסות)
 
 ## DEPRECATED - you do not need to translate these.
 
-custom-study-available-new-cards = כרטיסים חדשים זמינים:{ $count }
-custom-study-available-review-cards = כרטיסים זמינים לחזרה:{ $count }
+custom-study-available-new-cards = כרטיסים חדשים זמינים: { $count } .
+custom-study-available-review-cards = כרטיסים זמינים לחזרה: { $count } .
