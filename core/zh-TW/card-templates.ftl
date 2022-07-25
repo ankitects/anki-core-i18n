@@ -17,7 +17,7 @@ card-templates-fill-empty = 填充空白欄位
 card-templates-night-mode = 夜間模式
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
-card-templates-add-mobile-class = 新增行動裝置類別 (class)
+card-templates-add-mobile-class = 預覽行動裝置模板
 card-templates-preview-settings = 選項
 card-templates-invalid-template-number = 卡片模板 { $number } 存在問題。
 card-templates-identical-front = 正面與卡片模板 { $number } 相同。

@@ -1,7 +1,7 @@
 preferences-automatically-sync-on-profile-openclose = 打開/關閉設定檔時自動同步
 preferences-backups = 備份
 preferences-basic = 基本
-preferences-change-deck-depending-on-note-type = 牌組取決於筆記類型
+preferences-change-deck-depending-on-note-type = 按筆記類型自動選擇牌組
 preferences-changes-will-take-effect-when-you = 更動將在重新啟動 Anki 後生效。
 preferences-hours-past-midnight = 點
 preferences-interface-language = 介面語言：
