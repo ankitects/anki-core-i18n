@@ -38,6 +38,13 @@ deck-config-limit-interday-bound-by-reviews =
     يؤثر حد المراجعة أيضا ببطاقات التعلم التي تتجاوز خطواتها اليوم الواحد. عند تطبيق الحد،
     تجلب بطاقات التعلم هذه أولًا، ثم المراجعات، وأخيرًا البطاقات الجديدة.
 
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = مجموعة الخيارات
+deck-config-deck-only = هذه الرزمة
+deck-config-today-only = اليوم فقط
+
 ## New Cards section
 
 deck-config-learning-steps = خطوات التعلم
