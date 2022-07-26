@@ -8,7 +8,6 @@ change-notetype-will-discard-cards = 將移除以下卡片：
 change-notetype-fields = 欄位
 change-notetype-templates = 模板
 change-notetype-to-from-cloze =
-    當更改為克漏字卡片類型，或從克漏字更改到其他類型時，卡片序號保持不變。
+    克漏字卡片更改為其他類型時，卡片序號保持不變，反之亦同。
     
-    若其更改為常規卡片類型，且克漏字空格比可用的
-    卡片模板更多時，所有多餘的卡片將會被移除。
+    若其更改為常規卡片類型，且克漏字空格比可用的卡片模板更多時，所有多餘的卡片將會被移除。
