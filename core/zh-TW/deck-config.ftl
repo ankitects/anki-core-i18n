@@ -15,12 +15,8 @@ deck-config-daily-limits = 每日上限
 deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。加入新的內容會使近期的複習量加重，因此該選項通常應設定為複習上限的 10 分之 1。
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
 deck-config-limit-deck-v3 = 學習牌組時，若其包含子牌組，子牌組在父牌組中顯示的卡片數量不會超過子牌組本身設定的上限。選取的牌組設定的數量上限包含所有子牌組的卡片。
-deck-config-limit-new-bound-by-reviews =
-    複習上限會影響新卡片上限。若複習上限設為 200，且有 190張卡片待複習，則最多只有 10 張新卡片會顯示。
-    若已達到複習上限，則不會再顯示新卡片。
-deck-config-limit-interday-bound-by-reviews =
-    複習上限也會影響隔天學習的卡片。套用數量上限後，
-    隔天學習的卡片會被優先擷取，接著是複習卡，最後是新卡片。
+deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到複習上限，則不會再顯示新卡片。
+deck-config-limit-interday-bound-by-reviews = 複習上限也會影響隔天學習的卡片。計算數量上限時，卡片擷取的優先順序為：隔天學習的卡片>複習卡>新卡片。
 deck-config-tab-description =
     - `預設設定`：所有使用此預設設定的牌組的上限。
     - `當前牌組`：當前牌組的上限。
