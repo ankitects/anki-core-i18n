@@ -6,6 +6,8 @@
 card-template-rendering-more-info = المزيد من المعلومات
 card-template-rendering-front-side-problem = هناك مشكلة في القالب الأمامي:
 card-template-rendering-back-side-problem = هناك مشكلة في القالب الخلفي:
+card-template-rendering-browser-front-side-problem = القالب الأمامي الخاص بالمتصفح فيه مشكلة:
+card-template-rendering-browser-back-side-problem = القالب الخلفي الخاص بالمتصفح فيه مشكلة:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = ينقص '{ $missing }' في '{ $tag }'
