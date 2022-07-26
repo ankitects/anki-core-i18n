@@ -57,7 +57,7 @@ editing-toggle-sticky = 凍結/取消凍結欄位
 editing-toggle-visual-editor = 打開/關閉視覺化編輯器
 editing-underline-text = 為文字加上底線
 editing-unordered-list = 無序清單
-editing-warning-cloze-deletions-will-not-work = 警告，除非你將上方的類型改成克漏字，否則克漏字空格將不會生效。
+editing-warning-cloze-deletions-will-not-work = 提示，若上方的類型不是克漏字，克漏字空格將不會生效。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

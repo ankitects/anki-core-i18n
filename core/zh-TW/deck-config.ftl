@@ -34,22 +34,11 @@ deck-config-today-only = 僅限今天
 deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 延遲時間通常為分鐘 (如 `5m`) 或天 (如 `2d`)，但也支援使用小時 (如 `1h`) 和秒 (如 `30s`)。
-deck-config-learning-steps-tooltip =
-    一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下
-    `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕
-    將會前進到下一個階段，預設值為 10 分鐘。一旦通過了所有階段，
-    卡片將會成為複習卡，並將會改天出現。{ -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip =
-    當處於最後一個學習階段時，按下 `良好` 按鈕後，
-    再次顯示卡片前需要等待的天數。
-deck-config-easy-interval-tooltip =
-    當按下 `簡單` 按鈕，直接跳過學習階段後
-    再次顯示卡片前需要等待的天數。
+deck-config-learning-steps-tooltip = 一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下 `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕將會前進到下一個階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將改天出現。{ -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，再次顯示卡片前需等待的天數。
+deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過學習階段後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
-deck-config-new-insertion-order-tooltip =
-    控制新增卡片時，新卡片被指派的順序 (到期 #)。
-    卡片到期數字越小，學習時顯示的順序就越前。
-    更改此選項將自動更新已存在的新卡片順序。
+deck-config-new-insertion-order-tooltip = 控制新卡片被指派的順序 (到期 #)。卡片到期序號越小，在學習時就越早顯示。更改此選項將自動更新現有新卡片順序。
 deck-config-new-insertion-order-sequential = 循序 (最舊的卡片在前)
 deck-config-new-insertion-order-random = 隨機
 deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議將此選項保留為循序，改用新卡片收集順序調整。
@@ -57,19 +46,13 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議
 ## Lapses section
 
 deck-config-relearning-steps = 重新學習階段
-deck-config-relearning-steps-tooltip =
-    零或多段延遲，用空白分隔。在預設設定下，複習卡按下 `重來`
-    按鈕後，將會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將
-    改變間隔，而不會進入重新學習狀態。{ -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip =
-    複習卡被標記為榨時卡之前，需要按下`重來`的次數。
-    榨時卡是耗費你大量時間的卡片，當卡片被標記為
-    榨時卡時，最好的方法是將重寫、刪除卡片，或是
-    使用縮寫、口訣等的方式來幫助記憶。
+deck-config-relearning-steps-tooltip = 零或多段延遲，用空白分隔。在複習卡按下 `重來`按鈕後，預設會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將改變間隔，而不會進入重新學習狀態。{ -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = 複習卡被標記為榨時卡之前，需要按下`重來`的次數。榨時卡耗費了你大量的時間，對待榨時卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `僅加上標籤`：對筆記加上「榨時卡」的標籤，並顯示一個彈出式視窗。<br>
-    `擱置卡片`：對筆記加上標籤，並隱藏卡片，直到卡片被手動取消擱置。
+    `僅加上標籤`：對筆記加上「榨時卡」標籤，並顯示一個彈出式視窗。
+    
+    `擱置卡片`：對筆記加上「榨時卡」標籤，並隱藏卡片，直到你手動取消擱置卡片。
 
 ## Burying section
 
@@ -77,25 +60,20 @@ deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
 deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
 deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
-deck-config-bury-tooltip =
-    要/不要將相同筆記的其他卡片 (如反向卡片，
-    相鄰的克漏字空格) 延遲至第二天。
+deck-config-bury-tooltip = 要/不要將相同筆記的其他卡片 (如反向卡片、相鄰的克漏字空格) 延遲至第二天顯示。
 
 ## Ordering section
 
 deck-config-ordering-title = 顯示順序
 deck-config-new-gather-priority = 新卡片收集順序
 deck-config-new-gather-priority-tooltip-2 =
-    `牌組順序`：在各個牌組中依順序，由上至下收集卡片。依照遞增順序收集各個牌組中的卡片。
-    若選取的牌組已達每日上限，收集卡片時可能不會檢查到部分牌組。在較大的集合中，此選項
-    的速度最快，並讓你能夠優先學習靠上的子牌組。
+    `牌組順序`：在各個牌組中依順序，由上至下收集卡片。依照遞增順序收集各個牌組中的卡片。若選取的牌組已達每日上限，收集卡片時可能不會檢查到部分牌組。在較大的集合中，此選項的速度最快，並讓你能夠優先學習靠上的子牌組。
     
     `遞增順序`：依遞增順序收集卡片 (到期 #)，通常依新增順序從早到晚排序。
     
     `遞減順序`：依遞增順序收集卡片 (遞減 #)，通常依新增順序從晚到早排序。
     
-    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有
-    卡片可以在單次學習中同時出現 (如「正面->背面」和「背面->正面」兩張卡片同時出現)
+    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現 (如「正面->背面」和「背面->正面」兩張卡片同時出現)
     
     `隨機卡片`：完全隨機收集卡片。
 deck-config-new-gather-priority-deck = 牌組順序
@@ -105,16 +83,11 @@ deck-config-new-gather-priority-random-notes = 隨機筆記
 deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip-2 =
-    `卡片類型`：顯示順序按卡片類型的序號來排序。當停用暫停關聯卡片時，此選項將讓任何
-    「正面→背面」卡片在「背面→正面」之前顯示。若你要在單次學習中顯示同一則筆記的
-    所有卡片，此選項可以幫你拉開關聯卡片之間顯示的間隔。
+    `卡片類型`：顯示順序按卡片類型的序號來排序。當停用暫停關聯卡片時，此選項將讓任何「正面→背面」卡片在「背面→正面」之前顯示。若你要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片之間顯示的間隔。
     
-    `收集順序`：按照收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的
-    所有卡片連續出現。
+    `收集順序`：按照收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
     
-    `卡片類型，然後隨機`：類似`卡片類型`，但會在卡片類型序號相同的卡片之間隨機排序。
-    當使用`遞增順序`按建立時間從早到晚的順序收集卡片時，此選項可以隨機顯示這些卡片，
-    同時同一則筆記的不同卡片的顯示順序也不會太接近。
+    `卡片類型，然後隨機`：類似`卡片類型`，但會在卡片類型序號相同的卡片之間隨機排序。當使用`遞增順序`按建立時間從早到晚的順序收集卡片時，此選項可以隨機顯示這些卡片，同時同一則筆記的不同卡片的顯示順序也不會太接近。
     
     `隨機筆記，然後卡片類型`：隨機挑選筆記，然後順序顯示所有關聯卡片。
     
@@ -130,16 +103,12 @@ deck-config-interday-step-priority = 隔天學習/複習的優先順序
 deck-config-interday-step-priority-tooltip =
     隔天學習時，(重新) 學習中的卡片的顯示順序。
     
-    複習上限永遠優先套用於隔天學習卡片，然後才是複習卡。
-    此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
+    複習上限永遠優先套用於隔天學習卡片，然後才是複習卡。此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
 deck-config-review-mix-mix-with-reviews = 與複習卡混合
 deck-config-review-mix-show-after-reviews = 在複習卡之後顯示
 deck-config-review-mix-show-before-reviews = 在複習卡之前顯示
 deck-config-review-sort-order = 複習卡排序順序
-deck-config-review-sort-order-tooltip =
-    預設的順序會優先顯示等待最久的卡片，這樣當有複習卡積壓時，
-    等待最久的卡片將會最早出現。若有大量卡片積壓，需要更多時間
-    來清理時，你可能需要找另一種更合適的順序。
+deck-config-review-sort-order-tooltip = 預設的順序會優先顯示等待最久的卡片，這樣當有複習卡積壓時，等待最久的卡片將會最早出現。若你需要好幾天的時間來清理積壓的內容，或者想要以子牌組順序顯示卡片，建議尋找其他更合適的順序。
 deck-config-sort-order-due-date-then-random = 到期日期，然後隨機
 deck-config-sort-order-due-date-then-deck = 到期日期，然後牌組順序
 deck-config-sort-order-deck-then-due-date = 牌組順序，然後到期日期
@@ -148,20 +117,14 @@ deck-config-sort-order-descending-intervals = 間隔遞減
 deck-config-sort-order-ascending-ease = 輕鬆度遞增
 deck-config-sort-order-descending-ease = 輕鬆度遞減
 deck-config-sort-order-relative-overdueness = 依相對逾期跨度
-deck-config-display-order-will-use-current-deck =
-    Anki 將採用你選取學習的牌組的顯示順序，
-    任何子牌組的順序將被無視。
+deck-config-display-order-will-use-current-deck = Anki 將採用你選取學習的牌組的顯示順序，任何子牌組的順序將被無視。
 
 ## Timer section
 
 deck-config-timer-title = 計時器
 deck-config-maximum-answer-secs = 最大回答秒數
-deck-config-maximum-answer-secs-tooltip =
-    為單次複習記錄的最大秒數。若回答超過此時間 (例如當你離開螢幕前)，
-    那麼卡片花費的時間將會被記為你所設定的上限。
-deck-config-show-answer-timer-tooltip =
-    在複習畫面顯示一個計時器，
-    計算複習每張卡片所花費的秒數。
+deck-config-maximum-answer-secs-tooltip = 為單次複習記錄的最大秒數。若回答超過此時間 (例如你離開螢幕時)，那麼卡片花費的時間將會被記為你所設定的上限。
+deck-config-show-answer-timer-tooltip = 在複習畫面顯示一個計時器，計算複習每張卡片所花費的秒數。
 
 ## Audio section
 
@@ -173,17 +136,10 @@ deck-config-always-include-question-audio-tooltip = 當查看卡片答案面時�
 ## Advanced section
 
 deck-config-advanced-title = 進階選項
-deck-config-maximum-interval-tooltip =
-    複習卡將等待的最大天數。當複習卡達到上限時，
-    `困難`、`良好` 和 `簡單` 的延遲將會一致。
-    此選項設定得越短，你的工作量將會越多。
-deck-config-starting-ease-tooltip =
-    新卡片的起始輕鬆度乘數。在預設設定下，在一張剛學完的卡片
-    按下 `良好` 按鈕將使下次複習前的延遲為上次的 2.5 倍。
+deck-config-maximum-interval-tooltip = 複習卡將等待的最大天數。當複習卡達到上限時，`困難`、`良好` 和 `簡單` 的延遲將會一致。此選項設定得越短，你的學習量將會越多。
+deck-config-starting-ease-tooltip = 新卡片的起始輕鬆度乘數。在一張剛學完的卡片按下 `良好` 按鈕後，下次複習前的延遲預設為上次的 2.5 倍。
 deck-config-easy-bonus-tooltip = 一個額外的乘數，套用於複習卡按下 `簡單` 後的間隔。
-deck-config-interval-modifier-tooltip =
-    此乘數套用於所有複習卡，細微的調整能使 Anki 排程更為保守/激進。
-    請在更改此選項前參閱使用手冊。
+deck-config-interval-modifier-tooltip = 此乘數套用於所有複習卡，對其稍作修改能使 Anki 排程更為保守/激進。請在更改此選項前參閱使用手冊。
 deck-config-hard-interval-tooltip = 套用於複習卡回答 `困難` 後的間隔的乘數。
 deck-config-new-interval-tooltip = 套用於複習卡回答 `重來` 後的間隔的乘數。
 deck-config-minimum-interval-tooltip = 複習卡回答 `困難` 後的最小間隔。
@@ -200,9 +156,7 @@ deck-config-clone-group = 複製預設設定
 ## Removing
 
 deck-config-remove-group = 移除預設設定
-deck-config-will-require-full-sync =
-    此更動將使你下次同步時需要單向強制更動。如果你在其他裝置上
-    做出更動，且尚未同步至此裝置，請先同步後再更改。
+deck-config-will-require-full-sync = 更改後，下次同步時將執行單向強制更動。若你在其他裝置上做出的更動尚未同步至此裝置，請先同步後再更改。
 deck-config-confirm-remove-name = 移除{ $name }？
 
 ## Other Buttons
@@ -215,17 +169,14 @@ deck-config-revert-button-tooltip = 將此設定回復為預設值。
 ## overview screen.
 
 deck-config-description-new-handling = Anki 2.1.41+ 處理方式
-deck-config-description-new-handling-hint =
-    輸入將被視為 Markdown，而 HTML 輸入將被清除。當啟用時，
-    描述也會在恭喜畫面顯示。Markdown 在 Anki 2.1.40及以下版本
-    將會以文字出現。
+deck-config-description-new-handling-hint = 以 Markdown 語言輸入，並清除 HTML 輸入。當啟用時，描述也會在恭喜畫面顯示。Markdown 在 Anki 2.1.40及以下版本將以純文字出現。
 
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
     一個父牌組的上限為{ $cards ->
        *[other] { $cards } 張卡片
-    }，將會覆寫此上限。
+    }，此上限將被覆寫。
 deck-config-reviews-too-low =
     若每天新增 { $cards ->
        *[other] { $cards } 張新卡片
