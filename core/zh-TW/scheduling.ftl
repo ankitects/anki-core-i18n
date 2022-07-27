@@ -48,14 +48,9 @@ scheduling-learn-remaining =
        *[other] { $remaining } 張學習中的卡片將於今天到期。
     }
 scheduling-congratulations-finished = 恭喜！你已完成本牌組當前的學習任務。
-scheduling-today-review-limit-reached =
-    今天的複習上限已經達到了，但還有卡片尚待複習。
-    為達最佳記憶效果，可考慮在選項中增加每日複習上限。
-scheduling-today-new-limit-reached =
-    牌組裡還有更多新卡片可以學習，但你已達到今日上限。
-    你可以在選項中增加上限，但請記住，更多的新卡片意味著
-    你需要在短期內完成更多的複習量。
-scheduling-buried-cards-found = 有卡片已被暫停，並將會在明天出現。如果你想要立即學習這些卡片，可以{ $unburyThem }。
+scheduling-today-review-limit-reached = 已經達到今天的複習上限，但還有卡片尚待複習。為達到理想記憶效果，你可以在選項中增加每日複習上限。
+scheduling-today-new-limit-reached = 還有更多新卡片可以學習，但你已經達到今日上限。你可以在選項中增加上限，但請記住，學習越多新卡片意味著短期內的複習量也越多。
+scheduling-buried-cards-found = 有卡片被暫停，被暫停的卡片會在明天出現。如果你想要立即學習這些卡片，可以{ $unburyThem }。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = 取消暫停
@@ -136,8 +131,8 @@ scheduling-set-due-date-prompt =
     }
 scheduling-set-due-date-prompt-hint =
     0 = 今天
-    1! = 明天+重設複習間隔
-    3-7 = 隨機選擇 3－7 天
+    1! = 明天+更改複習間隔為 1
+    3-7 = 隨機選擇 3-7 天
 scheduling-set-due-date-done =
     { $cards ->
        *[other] 已為 { $cards } 張卡片設定到期日。
