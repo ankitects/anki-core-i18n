@@ -27,6 +27,17 @@ deck-config-limit-new-bound-by-reviews =
 deck-config-limit-interday-bound-by-reviews =
     复习上限同样会作用于跨日学习的卡片。
     当应用复习上限时，将按「跨日学习卡片->复习卡片->新卡片」顺序展示。
+deck-config-tab-description =
+    -「预设配置」：上限共同适用于所有使用此预设配置的牌组。
+    -「当前牌组」：上限仅适用于当前牌组。
+    -「仅限今天」：上限仅为暂时应用于当前牌组。
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = 预设配置
+deck-config-deck-only = 当前牌组
+deck-config-today-only = 仅限今日
 
 ## New Cards section
 
