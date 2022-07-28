@@ -4,7 +4,7 @@ database-check-card-properties = 已修正 { $count } 張屬性無效的卡片�
 database-check-missing-templates = 已刪除 { $count } 張遺失模板的卡片。
 database-check-field-count =
     { $count ->
-       *[other] 已修正 { $count } 則有錯誤欄位數量的筆記。
+       *[other] 已修正 { $count } 則欄位計數有誤的筆記。
     }
 database-check-new-card-high-due = 已找到 { $count } 張到期序號 >= 1,000,000 的新卡片 - 請考慮在瀏覽器中調整它們的順序。
 database-check-card-missing-note = 已刪除 { $count } 張遺失筆記的卡片。
