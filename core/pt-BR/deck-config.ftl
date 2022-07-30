@@ -25,6 +25,17 @@ deck-config-limit-deck-v3 =
     Os limites do baralho selecionado controlam o total de cartões que serão mostrados.
 deck-config-limit-new-bound-by-reviews = O limite de revisões afeta o limite de novos cartões. Por exemplo, se o seu limite de revisões está definido em 200, e há 190 revisões a espera, um máximo de 10 novos cartões serão introduzidos. Se o seu limite de revisões foi atingido, nenhum cartão novo será mostrado.
 deck-config-limit-interday-bound-by-reviews = O limite de revisão também afeta os cartões de aprendizagem dos dias subsequentes. Ao aplicar o limite, os cartões de aprendizagem dos dias anteriores são buscados primeiro, depois as revisões e, finalmente, os novos cartões.
+deck-config-tab-description =
+    - "Preset": O limite é compartilhado com todos os decks usando este preset.
+    - "This deck": O limite é específico para este deck.
+    - "Somente hoje": Faça uma mudança temporária no limite deste deck.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = Preset
+deck-config-deck-only = Esse baralho
+deck-config-today-only = Somente hoje
 
 ## New Cards section
 
