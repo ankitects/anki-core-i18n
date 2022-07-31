@@ -35,6 +35,13 @@ deck-config-limit-interday-bound-by-reviews =
     Kertausten enimmäismäärä vaikuttaa myös usean päivän aikana opittaviin kortteihin. Kun rajoitusta sovelletaan,
     usean päivän aikana opittavat kortit haetaan ensin, sitten kerrattavat kortit, ja lopuksi uudet kortit.
 
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = Esiasetus
+deck-config-deck-only = Tämä pakka
+deck-config-today-only = Vain tänään
+
 ## New Cards section
 
 deck-config-learning-steps = Oppimisaskeleet
