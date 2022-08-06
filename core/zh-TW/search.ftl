@@ -4,16 +4,16 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
-search-invalid-search = 無效的搜尋：{ $reason }
-search-misplaced-and = 找到一個 `and` 但沒有用於連接兩個搜尋字詞。若要搜尋單字本身，請將其置於雙引號中：`"and"`。
-search-misplaced-or = 找到一個 `or` 但沒有用於連接兩個搜尋字詞。若要搜尋單字本身，請將其置於雙引號中：`"or"`。
+search-invalid-search = 無效搜尋：{ $reason }
+search-misplaced-and = 你輸入了一個 `and` 但沒有用它連結兩個搜尋字詞。若要搜尋單字本身，請將其置於雙引號中：`"and"`。
+search-misplaced-or = 你輸入了一個 `or` 但沒有用它連結兩個搜尋字詞。若要搜尋單字本身，請將其置於雙引號中：`"or"`。
 # Here, the ellipsis "..." may be localised.
-search-empty-group = 找到一組 `(...)` 但括號內沒有可供搜尋的內容。若要搜尋括號本身，請將其置於雙引號中：`"( )"`。
-search-unopened-group = 找到一個右括號 `)` 但在其之前缺少左括號 `(`。若要搜尋右括號 `)` 本身，請將其置於雙引號中或在前面加上反斜線：`")"` 或 `\)`。
-search-unclosed-group = 找到一個左括號 `(` 但在其之後缺少右括號 `)`。若要搜尋左括號 `(` 本身，請將其置於雙引號中或在前面加上反斜線：`"("` 或 `\(`。
-search-empty-quote = 找到一組雙引號 `""` 但括號內沒有可供搜尋的內容。若要搜尋雙引號本身，請在前面加上反斜線：`\"\"`。
-search-unclosed-quote = 找到一個雙引號 `"` 但在其之後缺少第二個引號來結束。若要搜尋雙引號 `"` 本身，請在前面加上反斜線：`\"`。
-search-missing-key = 找到一個冒號 `:` 但在其之前缺少關鍵字。若要搜尋冒號 `:` 本身，請在前面加上反斜線：`\:`。
+search-empty-group = 你輸入了一組 `(...)`，但括號內沒有可搜尋的內容。若要搜尋括號本身，請將其置於雙引號中：`"( )"`。
+search-unopened-group = 你輸入了一個右括號 `)`，但在其之前缺少左括號 `(`。若要搜尋右括號 `)` 本身，請將其置於雙引號中：`")"`，或在前面加上反斜線：`\)`。
+search-unclosed-group = 你輸入了一個左括號 `(`，但在其之後缺少右括號 `)`。若要搜尋左括號 `(` 本身，請將其置於雙引號中：`"("`，或在前面加上反斜線：`\(`。
+search-empty-quote = 你輸入了一對雙引號 `""`，但引號內沒有可搜尋的內容。若要搜尋雙引號本身，請在前面加上反斜線：`\"\"`。
+search-unclosed-quote = 你輸入了一個雙引號 `"`，但在其之後缺少另一個引號來結束。若要搜尋雙引號 `"` 本身，請在前面加上反斜線：`\"`。
+search-missing-key = 你輸入了一個冒號 `:`，但在其之前缺少關鍵字。若要搜尋冒號 `:` 本身，請在前面加上反斜線：`\:`。
 search-unknown-escape = 逸出序列 `{ $val }` 未定義。若要搜尋反斜線本身 `\`，請在前面再加上反斜線 `\\`。
 search-invalid-argument = `{ $term }` 收到了一條無效引數 '`{ $argument }`'。
 search-invalid-flag-2 = `flag:`後必須接上有效旗標序號：`1` (紅色), `2` (橙色), `3` (綠色), `4` (藍色), `5` (粉紅色), `6`, (淺粉藍色), `7` (紫色) 或`0` (無旗標)。
