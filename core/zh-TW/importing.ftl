@@ -42,7 +42,7 @@ importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
 # the '|' character
 importing-pipe = 直立線符號 (|)
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」行有 { $found } 個欄位，預期 { $expected }
-importing-selected-file-was-not-in-utf8 = 已選取的檔案並非 UTF-8 格式，請參閱使用手冊的匯入 (Importing) 章節。
+importing-selected-file-was-not-in-utf8 = 所選檔案不是 UTF-8 格式，請參閱使用手冊的匯入 (Importing) 章節。
 importing-semicolon = 分號
 importing-skipped = 已略過
 importing-supermemo-xml-export-xml = Supermemo XML 匯出檔 (*.xml)
