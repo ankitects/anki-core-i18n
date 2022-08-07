@@ -15,27 +15,27 @@ statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-m
 
 statistics-in-time-span-seconds =
     { $amount ->
-       *[other] { $amount } 秒內
+       *[other] { $amount } 秒
     }
 statistics-in-time-span-minutes =
     { $amount ->
-       *[other] { $amount } 分鐘內
+       *[other] { $amount } 分鐘
     }
 statistics-in-time-span-hours =
     { $amount ->
-       *[other] { $amount } 小時內
+       *[other] { $amount } 小時
     }
 statistics-in-time-span-days =
     { $amount ->
-       *[other] { $amount } 天內
+       *[other] { $amount } 天
     }
 statistics-in-time-span-months =
     { $amount ->
-       *[other] { $amount } 個月內
+       *[other] { $amount } 個月
     }
 statistics-in-time-span-years =
     { $amount ->
-       *[other] { $amount } 年內
+       *[other] { $amount } 年
     }
 statistics-cards = { $cards } 張卡片
 # a count of how many cards have been answered, eg "Total: 34 reviews"
@@ -45,14 +45,14 @@ statistics-reviews = { $reviews } 張複習卡
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    今天在 { $unit ->
+    今天學習了 { statistics-cards }，共花費 { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }學習了 { statistics-cards } (每張卡片 { $secs-per-card }s)
+    } (平均每張花費 { $secs-per-card } 秒)
 statistics-today-title = 今天
 statistics-today-again-count = 「重來」計數：
 statistics-today-type-counts = 新學習卡片：{ $learnCount } ‧ 複習的卡片：{ $reviewCount } ‧ 重學習卡片：{ $relearnCount } ‧ 篩選的卡片：{ $filteredCount }
