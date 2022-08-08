@@ -6,7 +6,7 @@
 sync-media-added-count = 已新增：{ $up }↑ { $down }↓
 sync-media-removed-count = 已移除：{ $up }↑ { $down }↓
 sync-media-checked-count = 已檢查：{ $count }
-sync-media-starting = 正在開始同步媒體...
+sync-media-starting = 開始同步媒體...
 sync-media-complete = 媒體同步完成。
 sync-media-failed = 媒體同步失敗。
 sync-media-aborting = 正在中止媒體同步...
@@ -24,7 +24,7 @@ sync-server-error = AnkiWeb 遇到了一個問題。請在幾分鐘後再試一�
 sync-client-too-old = 你的 Anki 版本太舊。請更新至最新版本以繼續同步。
 sync-wrong-pass = AnkiWeb ID 或者密碼錯誤；請再試一次。
 sync-resync-required = 請再次同步。若此訊息持續出現，請回報至支援網站。
-sync-must-wait-for-end = Anki 正在同步。請等待同步完成，然後再試一次。
+sync-must-wait-for-end = Anki 正在同步中。請等待同步完成，然後再試一次。
 sync-confirm-empty-download = 本地集合沒有任何卡片。是否從 AnkiWeb 下載？
 sync-conflict-explanation =
     無法合併本地牌組與 AnkiWeb 牌組之間的差異，因此必須覆寫其中一方。

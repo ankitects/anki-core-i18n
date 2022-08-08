@@ -4,7 +4,7 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
-search-invalid-search = 無效搜尋：{ $reason }
+search-invalid-search = 無效的搜尋條件：{ $reason }
 search-misplaced-and = 你輸入了一個 `and` 但沒有用它連結兩個搜尋字詞。若要搜尋單字本身，請將其置於雙引號中：`"and"`。
 search-misplaced-or = 你輸入了一個 `or` 但沒有用它連結兩個搜尋字詞。若要搜尋單字本身，請將其置於雙引號中：`"or"`。
 # Here, the ellipsis "..." may be localised.
