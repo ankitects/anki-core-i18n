@@ -83,8 +83,8 @@ statistics-card-ease-tooltip =
     { $cards ->
        *[other] { $cards } 張輕鬆度為 { $percent } 的卡片
     }
-statistics-future-due-title = 預測
-statistics-future-due-subtitle = 將來會到期的複習卡數量
+statistics-future-due-title = 將來到期
+statistics-future-due-subtitle = 將在未來到期的複習卡數量
 statistics-added-title = 新增
 statistics-added-subtitle = 新增卡片的數量
 statistics-reviews-count-subtitle = 你回答過的題目數量
