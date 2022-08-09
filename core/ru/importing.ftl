@@ -18,6 +18,7 @@ importing-field-separator = Разделитель полей
 importing-field-mapping = Сопоставление полей
 importing-field-of-file-is = Поле <b>{ $val }</b> файла:
 importing-fields-separated-by = Поля разделены: { $val }
+importing-file-must-contain-field-column = В файле должна быть хотя бы одна колонка, чтобы сопоставить её полю записи.
 importing-file-version-unknown-trying-import-anyway = Версия файла неизвестна. Пытается импортировать.
 importing-first-field-matched = Совпадающее первое поле: { $val }
 importing-identical = Одинаковые
@@ -100,8 +101,20 @@ importing-processed-notes =
         [few] Обработаны { $count } записи...
        *[other] Обработано { $count } записей...
     }
+importing-processed-cards =
+    { $count ->
+        [one] Обработана { $count } карточка...
+        [few] Обработаны { $count } карточек...
+       *[other] Обработано { $count } карточек...
+    }
 importing-unable-to-import-filename = Не удалось импортировать { $filename }: тип файлов не поддерживается
 importing-existing-notes = Существующие записи
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Повторы
+# "Existing notes: Preserve" (verb)
+importing-preserve = Сохранить
+# "Existing notes: Update" (verb)
+importing-update = Обновить
+importing-tag-all-notes = Пометить все
+importing-tag-updated-notes = Пометить обновлённые
 importing-file = Файл

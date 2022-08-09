@@ -27,6 +27,17 @@ deck-config-limit-deck-v3 =
     Лимиты самой колоды влияют на общее количество показываемых карточек.
 deck-config-limit-new-bound-by-reviews = Лимит повторяемых карточек влияет на лимит новых. Например, если лимит равен 200 и в очереди 190 повторяемых, то в очередь будет добавлено не более 10 новых. Если лимит повторяемых достигнут, то новые не будут показаны.
 deck-config-limit-interday-bound-by-reviews = Лимит повторяемых влияет на карточки, перенесённые на другой день. Когда применяется лимит, перенесённые отбираются первыми, затем повторяемые и, наконец, новые.
+deck-config-tab-description =
+    - `Предустановка`: Лимит действует на все колоды с этой установкой.¶
+    - `Эта колода`: Лимит только для этой колоды.¶
+    - `Только сегодня`: Временный лимит для этой колоды.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = Предустановка
+deck-config-deck-only = Эта колода
+deck-config-today-only = Только сегодня
 
 ## New Cards section
 
