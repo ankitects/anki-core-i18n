@@ -54,11 +54,11 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } (平均每張卡片花費 { $secs-per-card } 秒)
 statistics-today-title = 今天
-statistics-today-again-count = 「重來」計數：
-statistics-today-type-counts = 新學習卡片：{ $learnCount } ‧ 複習的卡片：{ $reviewCount } ‧ 重學習卡片：{ $relearnCount } ‧ 篩選的卡片：{ $filteredCount }
+statistics-today-again-count = 按下「重來」的次數:
+statistics-today-type-counts = 新學習: { $learnCount } 張 ‧ 複習: { $reviewCount } 張 ‧ 重新學習: { $relearnCount } 張 ‧ 篩選學習: { $filteredCount } 張
 statistics-today-no-cards = 今天尚未學習任何卡片
 statistics-today-no-mature-cards = 今天沒有學習熟練卡片
-statistics-today-correct-mature = 回答正確的熟練卡片：{ $correct }/{ $total } ({ $percent }%)
+statistics-today-correct-mature = 熟練卡片回答正確率: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 總計
 statistics-counts-new-cards = 新卡片
 statistics-counts-young-cards = 未熟練
