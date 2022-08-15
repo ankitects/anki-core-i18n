@@ -3,63 +3,62 @@
 
 ## Media synchronization
 
-sync-media-added-count = Afegit: { $up }↑ { $down }↓
+sync-media-added-count = Afegits: { $up }↑ { $down }↓
 sync-media-removed-count = Eliminats: { $up }↑ { $down }↓
 sync-media-checked-count = Comprovats: { $count }
-sync-media-starting = Iniciant la sincronizació de multimèdia....
-sync-media-complete = Sincronitació multimèdia completada.
-sync-media-failed = La sincronització multimédia ha fallat.
-sync-media-aborting = Abortant la sincronització multimèdia...
-sync-media-aborted = Sincronització multimèdia abortada.
+sync-media-starting = Iniciant la sincronizació dels fitxers multimèdia…
+sync-media-complete = Sincronitació dels fitxers multimèdia completada.
+sync-media-failed = La sincronització dels fitxers multimèdia ha fallat.
+sync-media-aborting = Avortant la sincronització dels fitxers multimèdia…
+sync-media-aborted = Sincronització dels fitxers multimèdia avortada.
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
-sync-media-disabled = Sincronització multimèdia deshabilitada.
+sync-media-disabled = La sincronització dels fitxers multimèdia està desactivada.
 # Title of the screen that shows syncing progress history
-sync-media-log-title = Registre de sincronització d'arxius Multimèdia
+sync-media-log-title = Registre de sincronització dels fitxers multimèdia
 
 ## Error messages / dialogs
 
-sync-conflict = Només una instància d'Anki pot sincronitzar-se a la teva compte alhora. Si us plau, espera uns minuts i torna-ho a intentar.
-sync-server-error = AnkiWeb ha trobat un problema. Si us plau, intenta-ho de nou en uns minuts.
-sync-client-too-old = La seva versió d'Anki és massa antiga. Si us plau, actualitzi a l'última versió abans de sincronitzar.
-sync-wrong-pass = La ID o la contresenya de AnkiWebson incorrectes; torni-ho a intentar.
-sync-resync-required = Si us plau, sincronitzi una altra vegada. Si l'error continua apareixent, si us plau, publiqui al lloc de suport.
-sync-must-wait-for-end = Anki s'està sincronitzant actualment. Esperi que es completi la sincronització i intenti novament.
-sync-confirm-empty-download = La colecció local no conté cap tarjeta. Desitgues descarregar-ne des de AnkiWeb?
+sync-conflict = No es pot sincronitzar més d'una instància d'Anki alhora al teu compte. Si us plau, espera uns minuts i torna-ho a intentar.
+sync-server-error = AnkiWeb ha trobat un problema. Si us plau, espera uns minuts i torna-ho a intentar.
+sync-client-too-old = La teva versió d'Anki és massa antiga. Si us plau, actualitza a l'última versió abans de sincronitzar.
+sync-wrong-pass = El teu identificador d'AnkiWeb o la contrasenya són incorrectes; si us plau, torna-ho a intentar.
+sync-resync-required = Si us plau, torna a sincronitzar les dades. Si l'error persisteix, publica un missatge al lloc de suport.
+sync-must-wait-for-end = Anki s'està sincronitzant ara mateix. Si us plau, espera que es completi la sincronització i torna-ho a intentar.
+sync-confirm-empty-download = La col·lecció local no conté cap targeta. Desitges descarregar-ne des d'AnkiWeb?
 sync-conflict-explanation =
-    Tu fasces ci e sur AnkiWeb differe in un tal modo que illos non pote ser integrate insimul, assi il necesse supplantar le fasces sur un latere con le fasces ex le altere.
+    Els teus malls locals i els teus malls d'AnkiWeb difereixen de tal manera que no és possible combinar-los. Per tant, cal sobreescriure un dels dos grups de malls amb els de l'altre.
     
-    Si tu elige discargar, Anki discargara le collection ex AnkiWeb, e qualcunque modificationes tu ha facite sur tu computer desde le ultime synchronisation essera perdite.
+    Si elegeixes l'opció Descarregar, Anki descarregarà la col·lecció des d'AnkiWeb i es perdrà qualsevol canvi que hagis fet en el teu ordinador des de l'última sincronització.
     
-    Si tu elige cargar, Anki cargara tu collection a AnkiWeb, e qualcunque modificationes tu ha facite sur AnkiWeb o sur tu altere dispositivos desde le ultime synchronisation a iste dispositivos, essera perdite.
+    Si elegeixes l'opció Carregar, Anki carregarà la teva col·lecció a AnkiWeb i es perdrà qualsevol canvi que hagis fet en AnkiWeb o en els teus altres dispositius des de l'última sincronització.
     
-    Post que tote le dispositivos es in synchronia, le revisiones futur e le cartas addite pote ser integrate automaticamente.
-sync-ankiweb-id-label = Identificant Anki :
-sync-password-label = Senhal :
+    Després que tots els dispositius s'hagin sincronitzat, es podran combinar automàticament tots els repassos futurs i les targetes afegides.
+sync-ankiweb-id-label = Identificador d'AnkiWeb:
+sync-password-label = Contrasenya:
 sync-account-required =
-    <h1>Compte requesit</h1>
-    Vos cal aver un compte per poder sincronizar vòstra colleccion. Mercé de <a href="{ $link }">crear un compte</a> gratuitament, puèi entratz las informacions de connexion çaijós.
-sync-sanity-check-failed = Si us plau, feu servir la funció de Comprovar base de dades, després sincronizi una altra vegada. Si els problemes persisteixen, si us plau forci la sincronització completa a la finestra de preferències.
-sync-clock-off = Impossible sincronitzar - comprovi que el seu rellotge tingui l'hora correcta.
+    <h1>Cal tenir un compte</h1>
+    Cal que tinguis un compte gratuït per a mantenir la teva col·lecció actualitzada. Si us plau, <a href="{ $link }">registra't</a> i insereix les teves dades a sota.
+sync-sanity-check-failed = Si us plau, fes servir la funció «Comprovar la base de dades» i després torna-la a sincronitzar. Si els problemes persisteixen, força la sincronització completa des de la finestra de preferències.
+sync-clock-off = No s'ha pogut sincronitzar la base de dades. Si us plau, comprova que el teu rellotge té l'hora correcta.
 sync-upload-too-large =
-    El vostre fitxer de col·lecció és massa gran per enviar-lo a AnkiWeb. Podeu reduir-ne la seva mida 
-    treient els jocs de targetes no desitjades (opcionalment exportant-les primer) i després utilitzant Comprova La Base de Dades 
-    per reduir la mida del fitxer. ({ $details })
+    El vostre fitxer de col·lecció és massa gran per enviar-lo a AnkiWeb. Podeu reduir-ne la mida 
+    treient els malls que no desitgeu (si voleu, podeu exportar-los abans) i, tot seguit, fent servir la funció «Comprova la base de dades» per a reduir la mida del fitxer. ({ $details })
 
 ## Buttons
 
-sync-media-log-button = Registre d'arxius Multimèdia
-sync-abort-button = Abortar
-sync-download-from-ankiweb = Discargar ex AnkiWeb
-sync-upload-to-ankiweb = Cargar a AnkiWeb
-sync-cancel-button = Anullar
+sync-media-log-button = Registre dels fitxers multimèdia
+sync-abort-button = Avortar
+sync-download-from-ankiweb = Descarregar des d'AnkiWeb
+sync-upload-to-ankiweb = Carregar a AnkiWeb
+sync-cancel-button = Cancel·lar
 
 ## Normal sync progress
 
-sync-downloading-from-ankiweb = Discargamento ex AnkiWeb...
-sync-uploading-to-ankiweb = Cargamento a AnkiWeb...
-sync-syncing = Synchronisation...
-sync-checking = Verificacion en cors...
-sync-connecting = Connexion en cors...
+sync-downloading-from-ankiweb = Descarregant des d'AnkiWeb…
+sync-uploading-to-ankiweb = Carregant a AnkiWeb…
+sync-syncing = Sincronitzant…
+sync-checking = Verificant…
+sync-connecting = Connectant…
 sync-added-updated-count = Afegit/modficat: { $up }↑ { $down }↓
-sync-log-out-button = Tancar sessió
+sync-log-out-button = Tancar la sessió

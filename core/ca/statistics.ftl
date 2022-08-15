@@ -63,18 +63,18 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Estudiat { statistics-cards } { $unit ->
+    Has estudiat { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    } uèi ({ $secs-per-card }s/card)
+    } avui ({ $secs-per-card }s/card)
 statistics-today-title = Hodie
 statistics-today-again-count = Doblits :
 statistics-today-type-counts = Apprendite: { $learnCount }, Revidite: { $reviewCount }, Reapprendite: { $relearnCount }, Filtrate: { $filteredCount }
-statistics-today-no-cards = Cap carta es estada estudiada uèi
+statistics-today-no-cards = Avui no has estudiat cap targeta.
 statistics-today-no-mature-cards = Nulle cartas matur esseva studiate hodie.
 statistics-today-correct-mature = Corriger le responsas sur le cartas matur: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Cartas total
