@@ -17,27 +17,27 @@ scheduling-answer-button-time-years = { $amount }a
 
 scheduling-time-span-seconds =
     { $amount ->
-        [one] { $amount } segon
+        [one] Un segon
        *[other] { $amount } segons
     }
 scheduling-time-span-minutes =
     { $amount ->
-        [one] { $amount } minut
+        [one] Un minut
        *[other] { $amount } minuts
     }
 scheduling-time-span-hours =
     { $amount ->
-        [one] { $amount } hora
+        [one] Un hora
        *[other] { $amount } hores
     }
 scheduling-time-span-days =
     { $amount ->
-        [one] { $amount } dia
+        [one] Un dia
        *[other] { $amount } dies
     }
 scheduling-time-span-months =
     { $amount ->
-        [one] { $amount } mes
+        [one] Un mes
        *[other] { $amount } mesos
     }
 scheduling-time-span-years =
@@ -90,6 +90,12 @@ scheduling-how-to-custom-study = Si vols estudiar fora de l’horari habitual, p
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = estudi personalitzat
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Incloure sempre la cara de la pregunta quan es torni a reproduir l'áudio
 scheduling-at-least-one-step-is-required = Es requereix una passa com a mínim.
 scheduling-automatically-play-audio = Reprodueix l'àudio automàticament
@@ -97,7 +103,6 @@ scheduling-bury-related-new-cards-until-the = Enterrar targetes noves relacionad
 scheduling-bury-related-reviews-until-the-next = Enterrar repasos relacionats fins a l'endemà
 scheduling-days = dies
 scheduling-description = Descripció
-scheduling-description-to-show-on-overview-screen = Descripció per mostrar en la pantalla de resum, pel mall actual:
 scheduling-easy-bonus = Bonus per Fàcil
 scheduling-easy-interval = Interval per Fàcil
 scheduling-end = (fi)

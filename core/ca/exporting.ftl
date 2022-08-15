@@ -1,29 +1,43 @@
-exporting-all-decks = Totes les piles
-exporting-anki-20-deck = Mall Anki 2.0
-exporting-anki-collection-package = Paquet de la col·lecció de l'Anki
-exporting-anki-deck-package = Mall de targuetes d'Anki
+exporting-all-decks = Tots els malls
+exporting-anki-20-deck = Mall d'Anki 2.0
+exporting-anki-collection-package = Paquet de la col·lecció d'Anki
+exporting-anki-deck-package = Paquet de malls d'Anki
 exporting-cards-in-plain-text = Targetes en text pla
 exporting-collection = col·lecció
-exporting-collection-exported = Colecció exportada
-exporting-couldnt-save-file = No s'ha pogut guardar l'arxiu: { $val }
-exporting-export = Exporta...
+exporting-collection-exported = S'ha exportat la colecció.
+exporting-colpkg-too-new = Actualitzeu Anki a l'última versió i torneu a importar el fitxer .colpkg/.apkg.
+exporting-couldnt-save-file = No s'ha pogut guardar el fitxer: { $val }
+exporting-export = Exporta…
 exporting-export-format = <b>Format d'exportació</b> :
 exporting-include = <b>Inclou</b>:
-exporting-include-html-and-media-references = Incloure referències HTML i arxius multimèdia
-exporting-include-media = Incloure multimèdia
-exporting-include-scheduling-information = Inclou informació de planificació
+exporting-include-html-and-media-references = Inclou les referències HTML i multimèdia
+exporting-include-media = Inclou els fitxers multimèdia
+exporting-include-scheduling-information = Inclou la informació de planificació
 exporting-include-tags = Inclou les etiquetes
-exporting-notes-in-plain-text = Notes en Text Plà
-exporting-selected-notes = Notes Seleccionades
-exporting-card-exported = { $count ->
-    [one] { $count } targeta exportada.
-   *[other] { $count } targetes exportades.
-  }
-exporting-exported-media-file = { $count ->
-    [one] { $count } Arxiu multimèdia  exportat.
-   *[other] { $count } Arxius multimèdia exportats.
-  }
-exporting-note-exported = { $count ->
-    [one] { $count } nota exportada.
-   *[other] { $count } notes exportades.
-  }
+exporting-support-older-anki-versions = Compatibilitat amb versions anteriors d'Anki (fitxers més lents i pesats)
+exporting-notes-in-plain-text = Notes en text pla
+exporting-selected-notes = Notes seleccionades
+exporting-card-exported =
+    { $count ->
+        [one] S'ha exportat una targeta.
+       *[other] S'han exportat { $count } targetes.
+    }
+exporting-exported-media-file =
+    { $count ->
+        [one] S'ha exportat un fitxer multimèdia.
+       *[other] S'han exportat { $count } fitxers multimèdia.
+    }
+exporting-note-exported =
+    { $count ->
+        [one] S'ha exportat una nota.
+       *[other] S'han exportat { $count } notes.
+    }
+exporting-exporting-file = Exportant el fitxer…
+exporting-processed-media-files =
+    { $count ->
+        [one] S'ha processat un fitxer multimèdia…
+       *[other] S'han processat { $count } fitxers multimèdia…
+    }
+exporting-include-deck = Inclou el nom del mall
+exporting-include-notetype = Inclou el nom del tipus de nota
+exporting-include-guid = Inclou l'identificador únic
