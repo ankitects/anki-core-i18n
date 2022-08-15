@@ -36,6 +36,8 @@ importing-notes-that-could-not-be-imported = Notas que no pudieron importarse de
 importing-notes-updated-as-file-had-newer = Notas actualizadas; existía una nueva versión del archivo: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazo de Anki comprimido/ Colección (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lección Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Barra vertical
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tenía { $found } campos, se esperaban { $expected }
 importing-selected-file-was-not-in-utf8 = El archivo seleccionado no estaba en formato UTF-8. Por favor, lee la sección "importación" del manual.
 importing-semicolon = Punto y coma
@@ -88,3 +90,13 @@ importing-processed-notes =
        *[other] { $count } notas procesadas...
     }
 importing-unable-to-import-filename = No fue posible importar { $filename }: tipo de archivo no compatible
+importing-existing-notes = Notas existentes
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplicar
+# "Existing notes: Preserve" (verb)
+importing-preserve = Conservar
+# "Existing notes: Update" (verb)
+importing-update = Actualizar
+importing-tag-all-notes = Etiquetar todas las notas
+importing-tag-updated-notes = Etiquetar las notas actualizadas
+importing-file = Archivo

@@ -36,6 +36,12 @@ deck-config-limit-interday-bound-by-reviews =
     Al aplicar el límite, primero se obtienen las tarjetas de aprendizaje entre días, 
     luego las revisiones y finalmente las tarjetas nuevas.
 
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-deck-only = Este mazo
+deck-config-today-only = Solo hoy
+
 ## New Cards section
 
 deck-config-learning-steps = Pasos en la etapa de aprendizaje
