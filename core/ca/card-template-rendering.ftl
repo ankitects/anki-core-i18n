@@ -6,7 +6,7 @@
 card-template-rendering-more-info = Més informació
 card-template-rendering-front-side-problem = La plantilla de l'anvers té un problema:
 card-template-rendering-back-side-problem = La plantilla del revers té un problema:
-card-template-rendering-browser-front-side-problem = La plantilla de l'anvers específica del navegador té un priblema:
+card-template-rendering-browser-front-side-problem = La plantilla de l'anvers específica del navegador té un problema:
 card-template-rendering-browser-back-side-problem = La plantilla del revers específica del navegador té un priblema:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'

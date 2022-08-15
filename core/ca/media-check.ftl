@@ -6,7 +6,7 @@ media-check-window-title = Comprova els fitxers multimèdia
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count =
     Carpeta de paperera: { $count ->
-        [one] 1 fitxer, { $megs } MB
+        [one] Un fitxer, { $megs } MB
        *[other] { $count } fitxers, { $megs } MB
     }
 media-check-missing-count = Fitxers que falten: { $count }

@@ -7,42 +7,42 @@ database-check-card-properties =
     }
 database-check-missing-templates =
     { $count ->
-        [one] S'ha suprimit { $count } targeta sense plantilla.
+        [one] S'ha suprimit una targeta sense plantilla.
        *[other] S'han suprimit { $count } targetes sense plantilla.
     }
 database-check-field-count =
     { $count ->
-        [one] S'ha corregit { $count } targeta que tenia un nombre erroni de camps.
+        [one] S'ha corregit una targeta que tenia un nombre erroni de camps.
        *[other] S'han corregit { $count } targetes que tenien un nombre erroni de camps.
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] S'ha trobat { $count } targeta el número de venciment de la qual és d'almenys un milió. Considereu reposicionar-la en la finestra «Navega».
+        [one] S'ha trobat una targeta el número de venciment de la qual és d'almenys un milió. Considereu reposicionar-la en la finestra «Navega».
        *[other] S'han trobat { $count } targetes el número de venciment de les quals és d'almenys un milió. Considereu reposicionar-les en la finestra «Navega».
     }
 database-check-card-missing-note =
     { $count ->
-        [one] S'ha suprimit { $count } targeta sense nota.
+        [one] S'ha suprimit una targeta sense nota.
        *[other] S'han suprimit { $count } targetes sense nota.
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] S'ha suprimit { $count } targeta amb plantilla duplicada.
+        [one] S'ha suprimit una targeta amb plantilla duplicada.
        *[other] S'han suprimit { $count } targetes amb plantilla duplicada.
     }
 database-check-missing-decks =
     { $count ->
-        [one] S'ha corregit { $count } mall que faltava.
+        [one] S'ha corregit un mall que faltava.
        *[other] S'han corregit { $count } malls que faltaven.
     }
 database-check-revlog-properties =
     { $count ->
-        [one] S'ha corregit { $count } entrada de repàs amb propietats invàlides.
+        [one] S'ha corregit un entrada de repàs amb propietats invàlides.
        *[other] S'han corregit { $count } entrades de repàs amb propietats invàlides.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-        [one] S'ha corregit { $count } nota amb caràcters UTF-8 invàlids.
+        [one] S'ha corregit una nota amb caràcters UTF-8 invàlids.
        *[other] S'han corregit { $count } notes amb caràcters UTF-8 invàlids.
     }
 # "db-check" is always in English

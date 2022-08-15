@@ -6,7 +6,7 @@ empty-cards-delete-button = Suprimeix
 empty-cards-not-found = No hi ha targetes buides.
 empty-cards-deleted-count =
     { $cards ->
-        [one] S'ha suprimit { $cards } targeta.
+        [one] S'ha suprimit una targeta.
        *[other] S'han suprimit { $cards } targetes.
     }
 empty-cards-delete-empty-cards = Suprimeix les targetes buides

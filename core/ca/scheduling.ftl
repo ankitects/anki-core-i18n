@@ -27,7 +27,7 @@ scheduling-time-span-minutes =
     }
 scheduling-time-span-hours =
     { $amount ->
-        [one] Un hora
+        [one] Una hora
        *[other] { $amount } hores
     }
 scheduling-time-span-days =
@@ -42,7 +42,7 @@ scheduling-time-span-months =
     }
 scheduling-time-span-years =
     { $amount ->
-        [one] { $amount } any
+        [one] Un any
        *[other] { $amount } anys
     }
 
@@ -50,101 +50,130 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    La pròxima tarjeta estarà disponible en { $unit ->
+    La pròxima targeta estarà disponible en { $unit ->
         [seconds]
             { $amount ->
-                [one] { $amount } segon
+                [one] un segon
                *[other] { $amount } segons
             }
         [minutes]
             { $amount ->
-                [one] { $amount } minut
+                [one] un minut
                *[other] { $amount } minuts
             }
        *[hours]
             { $amount ->
-                [one] { $amount } hora
+                [one] una hora
                *[other] { $amount } hores
             }
     }.
 scheduling-learn-remaining =
     { $remaining ->
-        [one] Hi ha una tarjeta restant a la cua d'aprenentatge más tard per avui.
-       *[other] Hi ha { $remaining } tarjetes restants a la cua d'aprenentatge más tard per avui.
+        [one] Queda una targeta en la cua d'aprenentatge más tard per a avui.
+       *[other] Queden { $remaining } targetes en la cua d'aprenentatge más tard per a avui.
     }
 scheduling-congratulations-finished = Enhorabona! De moment heu acabat amb aquest paquet.
 scheduling-today-review-limit-reached =
-    Has arribat al límit actual de repassos, però encara hi ha targetes
-    a l'espera de ser repassades. Per a una memorització òptima, considera
-    augmentar el límit diari en les opcions.
+    Heu arribat al límit diari de repassos, però encara hi ha targetes
+    a l'espera de ser repassades. Per a una memorització òptima, considereu
+    augmentar el límit diari en les preferències.
 scheduling-today-new-limit-reached =
-    Hi ha més targetes noves disponibles, però has arribat al límit
-    diari. Pots augmentar el límit en les opcions, però vés
-    en compte que com més targetes noves introdueixis, més
-    augmentarà la teva càrrega de treball a curt termini.
-scheduling-buried-cards-found = Una o més tarjetes van ser enterrades i es mostraran demà. Pots { $unburyThem } si voleu veure'ls immediatament.
+    Hi ha més targetes noves disponibles, però heu arribat al límit
+    diari. Podeu augmentar el límit en les preferències, però aneu
+    amb compte: com més targetes noves introduïu, més
+    augmentarà la vostra càrrega de treball a curt termini.
+scheduling-buried-cards-found = S'han enterrat una o més targetes, que es mostraran demà. Podeu { $unburyThem } si voleu veure-les immediatament.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = desenterrar-les
-scheduling-how-to-custom-study = Si vols estudiar fora de l’horari habitual, pots utilitzar la funció { $customStudy }.
+scheduling-how-to-custom-study = Si voleu estudiar fora de l’horari habitual, podeu utilitzar la funció { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = estudi personalitzat
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 conté un nou planificador que soluciona alguns problemes presents en versions anteriors d'Anki. Us recomanem que l'actualitzeu.
+scheduling-update-done = Planificador actualitzat amb èxit.
+scheduling-update-button = Actualitza
+scheduling-update-later-button = Més tard
+scheduling-update-more-info-button = Saber-ne més
+scheduling-update-required =
+    Heu d'actualitzar la vostra col·lecció al planificador V2.
+    Seleccioneu { scheduling-update-more-info-button } abans de continuar.
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = Incloure sempre la cara de la pregunta quan es torni a reproduir l'áudio
-scheduling-at-least-one-step-is-required = Es requereix una passa com a mínim.
+scheduling-always-include-question-side-when-replaying = Inclou sempre la cara de la pregunta quan es torni a reproduir l'àudio
+scheduling-at-least-one-step-is-required = Es requereix un pas com a mínim.
 scheduling-automatically-play-audio = Reprodueix l'àudio automàticament
-scheduling-bury-related-new-cards-until-the = Enterrar targetes noves relacionades fins a l'endemà
-scheduling-bury-related-reviews-until-the-next = Enterrar repasos relacionats fins a l'endemà
+scheduling-bury-related-new-cards-until-the = Enterra les targetes noves relacionades fins a l'endemà
+scheduling-bury-related-reviews-until-the-next = Enterrar els repassos relacionats fins a l'endemà
 scheduling-days = dies
 scheduling-description = Descripció
-scheduling-easy-bonus = Bonus per Fàcil
-scheduling-easy-interval = Interval per Fàcil
+scheduling-easy-bonus = Bonus per a Fàcil
+scheduling-easy-interval = Interval per a Fàcil
 scheduling-end = (fi)
 scheduling-general = Opcions generals
 scheduling-graduating-interval = Interval de graduació
 scheduling-hard-interval = Interval dificil
 scheduling-ignore-answer-times-longer-than = Ignoreu temps de resposta més llargs de
 scheduling-interval-modifier = Modificació de l'interval
-scheduling-lapses = Lapses
+scheduling-lapses = Oblits
 scheduling-lapses2 = oblits
 scheduling-learning = Aprenentatge
-scheduling-leech-action = Acció per sangoneres
+scheduling-leech-action = Acció per a les sangoneres
 scheduling-leech-threshold = Llindar de sangoneres
 scheduling-maximum-interval = Interval màxim
 scheduling-maximum-reviewsday = Repassos màxims/dia
 scheduling-minimum-interval = Interval mínim
-scheduling-mix-new-cards-and-reviews = Barrejar targetes noves amb repassos
+scheduling-mix-new-cards-and-reviews = Barreja targetes noves amb repassos
 scheduling-new-cards = Noves fitxes
 scheduling-new-cardsday = Noves cartes/dia
 scheduling-new-interval = Nou interval
-scheduling-new-options-group-name = Nou nom de grup d'opcions
+scheduling-new-options-group-name = Nou nom del grup d'opcions:
 scheduling-options-group = Opcions del grup:
 scheduling-order = Ordre
-scheduling-parent-limit = (parent limit: { $val })
+scheduling-parent-limit = (límit superior: { $val })
+scheduling-reset-counts = Reestableix els recomptes de repeticions i oblits
+scheduling-restore-position = Reestableix la posició original quan sigui possible
 scheduling-review = Revisa
-scheduling-reviews = Repasos
+scheduling-reviews = Repassos
 scheduling-seconds = segons
-scheduling-set-all-decks-below-to = ¿Assignar aquest grup d'opcions a tots els malls sota de { $val }?
-scheduling-set-for-all-subdecks = Assignar a totes les subbaralles
-scheduling-show-answer-timer = Mostrar temporitzador de resposta
-scheduling-show-new-cards-after-reviews = Mostra targetes noves després dels repassos
-scheduling-show-new-cards-before-reviews = Mostra les targetes noves abans de les altres
-scheduling-show-new-cards-in-order-added = Mostra les targetes noves pel ordre en que s'han afegit
-scheduling-show-new-cards-in-random-order = Mostra les targetes noves desendreçades
+scheduling-set-all-decks-below-to = Voleu assignar aquest grup d'opcions a tots els malls per sota de { $val }?
+scheduling-set-for-all-subdecks = Assigna a tots els malls secundaris
+scheduling-show-answer-timer = Mostra el temporitzador de resposta
+scheduling-show-new-cards-after-reviews = Mostra les targetes noves després dels repassos
+scheduling-show-new-cards-before-reviews = Mostra les targetes noves abans dels repassos
+scheduling-show-new-cards-in-order-added = Mostra les targetes noves d'acord amb l'ordre en què s'han afegit
+scheduling-show-new-cards-in-random-order = Mostra les targetes noves de manera aleatòria
 scheduling-starting-ease = Facilitat inicial
-scheduling-steps-in-minutes = Pasos (en minuts)
-scheduling-steps-must-be-numbers = Els pasos han de ser números.
-scheduling-tag-only = Només etiquetar
-scheduling-the-default-configuration-cant-be-removed = La configuració per defecte no pot ser eliminada.
-scheduling-your-changes-will-affect-multiple-decks = Els teus canvis afectaran a diversos malls. Si vols canviar únicament el mall actual, afegeix primer un nou grup d'opcions.
+scheduling-steps-in-minutes = Passos (en minuts)
+scheduling-steps-must-be-numbers = Els passos han de ser números.
+scheduling-tag-only = Etiqueta només
+scheduling-the-default-configuration-cant-be-removed = No podeu eliminar la configuració per defecte.
+scheduling-your-changes-will-affect-multiple-decks = Els vostres canvis afectaran a diversos malls. Si voleu canviar únicament el mall actual, afegiu primer un nou grup d'opcions.
 scheduling-deck-updated =
     { $count ->
-        [one] { $count } mall actualitzat.
-       *[other] { $count } malls actualitzats.
+        [one] S'ha actualitzat un mall.
+       *[other] S'han actualitzat { $count } malls.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] D'aquí a quants dies voleu mostrar aquesta targeta?
+       *[other] D'aquí a quants dies voleu mostrar aquestes targetes?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = avui
+    1! = demà + canviar l'interval a 1
+    3-7 = elecció aleatòria de 3 a 7 dies
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Estableix la data de repàs d'una targeta.
+       *[other] Estableix la data de repàs de { $cards } targetes.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Heu oblidat una targeta.
+       *[other] Heu oblidat { $cards } targetes.
     }
