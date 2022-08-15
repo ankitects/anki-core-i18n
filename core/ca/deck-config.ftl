@@ -11,9 +11,11 @@ deck-config-used-by-decks =
        *[other] { $decks } malls
     }
 deck-config-default-name = Per defecte
+deck-config-title = Opcions del mall
 
 ## Daily limits section
 
+deck-config-daily-limits = Límits diaris
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
