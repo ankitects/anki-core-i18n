@@ -8,7 +8,7 @@ change-notetype-will-discard-cards = S'eliminaran les targetes següents:
 change-notetype-fields = Camps
 change-notetype-templates = Plantilles
 change-notetype-to-from-cloze =
-    En canviar del tipus de Targeta de compleció a un altre o viceversa, els números de targeta no es veuran modificats.
+    En canviar del tipus de targeta amb buits a un altre o viceversa, els números de targeta no es veuran modificats.
     
     Si canvieu a un tipus de targeta normal i hi ha més buits
     que plantilles de targeta disponibles, s'eliminaran totes les targetes que sobren.
