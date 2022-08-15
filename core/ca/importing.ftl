@@ -37,46 +37,74 @@ importing-notes-found-in-file = Notes trobades en el fitxer: { $val }
 importing-notes-skipped-as-theyre-already-in = S'han omès les notes, atès que ja es troben en la vostra col·lecció: { $val }
 importing-notes-that-could-not-be-imported = Notes que no s'han pogut importar a causa d'un canvi de tipus de nota: { $val }
 importing-notes-updated-as-file-had-newer = Notes actualitzades, atès que el fitxer contenia una versió més recent: { $val }
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mall d'anki comprès/ Col·lecció (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Llicó de Pauker (*.pau.gz)
-importing-rows-had-num1d-fields-expected-num2d = '{ $row }' amb { $found } camps, s'esperava { $expected }
-importing-selected-file-was-not-in-utf8 = L'arxiu seleccionat no estava en format UTF-8. Si us plau, llegeix la secció "importació" del manual.
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mall d'Anki comprimit/Col·lecció (*.apkg *.colpkg *.zip)
+importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Barra vertical
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tenia { $found } camps, se n'esperaven { $expected }
+importing-selected-file-was-not-in-utf8 = El fitxer seleccionat no està en format UTF-8; llegiu la secció del manual referent a la importació per a més informació.
 importing-semicolon = Punt i coma
 importing-skipped = Omès
-importing-supermemo-xml-export-xml = Exporta a Supermemo XML (*.xml)
+importing-supermemo-xml-export-xml = XML exportat de Supermemo (*.xml)
 importing-tab = Tabulació
 importing-tag-modified-notes = Etiqueta les notes modificades:
 importing-text-separated-by-tabs-or-semicolons = Text separat per tabulacions o punt i coma (*)
-importing-the-first-field-of-the-note = El primer camp del tipus de nota ha de ser assignat a alguna cosa.
-importing-the-provided-file-is-not-a = L'arxiu proporcionat no és un arxiu .apkg valgut.
-importing-this-file-does-not-appear-to = Aquest fitxer no sembla ser un arxiu .apkg vàlid. Si estàs obtenint aquest error amb un arxiu descarregat des AnkiWeb, és possible que els vostres recursos en qüestió. Si us plau, torna a intentar-ho, i si el problema continua, torna a intentar-ho amb un altre navegador.
-importing-this-will-delete-your-existing-collection = Això eliminarà la teva col·lecció actual i la reemplaçarà amb les dades de l'arxiu que estàs important. Estàs segur?
+importing-the-first-field-of-the-note = El primer camp del tipus de nota ha d'assignar-se a alguna cosa.
+importing-the-provided-file-is-not-a = El fitxer proporcionat no és un fitxer .apkg vàlid.
+importing-this-file-does-not-appear-to = Sembla que aquest fitxer no és un fitxer .apkg vàlid. Si heu obtingut aquest error amb un fitxer descarregat des d'AnkiWeb, és possible que la descàrrega hagi fallat. Torneu-ho a intentar i, si el problema persisteix, intenteu-ho amb un altre navegador.
+importing-this-will-delete-your-existing-collection = S'eliminarà la vostra col·lecció actual i es reemplaçarà amb les dades del fitxer que voleu importar. N'esteu segur?
 importing-unable-to-import-from-a-readonly = No és possible importar des d'un fitxer de només lectura.
 importing-unknown-file-format = Format de fitxer desconegut.
-importing-update-existing-notes-when-first-field = Actualitzar les targetes existents quan el primer camp coincideixi
+importing-update-existing-notes-when-first-field = Actualitza les targetes existents quan el primer camp coincideixi
 importing-updated = Actualitzat
 importing-note-added =
     { $count ->
-        [one] { $count } nota afegida
-       *[other] { $count } notes afegides
+        [one] S'ha afegit una nota
+       *[other] S'han afegit { $count } notes
     }
 importing-note-imported =
     { $count ->
-        [one] { $count } nota importada.
-       *[other] { $count } notes importedes.
+        [one] S'ha importat una nota.
+       *[other] S'han importat { $count } notes.
     }
 importing-note-unchanged =
     { $count ->
-        [one] { $count } nota inalterada
-       *[other] { $count } notes inalterades
+        [one] No s'ha alterat una nota
+       *[other] No s'han alterat { $count } notes
     }
 importing-note-updated =
     { $count ->
-        [one] { $count } nota actualitzada
-       *[other] { $count } notes actualitzades
+        [one] S'ha actualitzat una nota
+       *[other] S'han actualitzat { $count } noes
     }
 importing-processed-media-file =
     { $count ->
-        [one] Processat { $count } axriu multimèdia
-       *[other] Processats { $count } axrius multimèdia
+        [one] S'ha processat un fitxer multimèdia
+       *[other] S'han processat { $count } fitxers multimèdia
     }
+importing-importing-collection = Important la col·lecció…
+importing-importing-file = Important el fitxer…
+importing-extracting = Extraient-ne les dades…
+importing-gathering = Reunint-ne les dades…
+importing-failed-to-import-media-file = No s'ha pogut importar el fitxer multimèdia: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] S'ha processat una nota…
+       *[other] S'han processat { $count } notes…
+    }
+importing-processed-cards =
+    { $count ->
+        [one] S'ha processat una targeta…
+       *[other] S'han processat { $count } targetes…
+    }
+importing-unable-to-import-filename = No s'ha pogut importar el fitxer { $filename }. Tipus de fitxer no compatible.
+importing-existing-notes = Notes existents
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplica
+# "Existing notes: Preserve" (verb)
+importing-preserve = Conserva
+# "Existing notes: Update" (verb)
+importing-update = Actualitza
+importing-tag-all-notes = Etiqueta totes les notes
+importing-tag-updated-notes = Etiqueta les notes actualitzades
+importing-file = Fitxer
