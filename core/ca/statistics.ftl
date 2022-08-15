@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Planificada
+statistics-due-date = Planificades
 # The count of cards waiting to be reviewed
-statistics-due-count = Vençuts
+statistics-due-count = Vençudes
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card =
     { $number ->
@@ -11,7 +11,7 @@ statistics-due-for-new-card =
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } cartes/minut
+statistics-cards-per-min = { $cards-per-minute } targetes per minut
 statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
@@ -24,7 +24,7 @@ statistics-in-time-span-seconds =
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] rn { $amount } minut
+        [one] en { $amount } minut
        *[other] en { $amount } minuts
     }
 statistics-in-time-span-hours =
@@ -56,14 +56,14 @@ statistics-cards =
 statistics-reviews =
     { $reviews ->
         [one] { $reviews } repàs
-       *[other] { $reviews } revisions
+       *[other] { $reviews } repassos
     }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Has estudiat { statistics-cards } { $unit ->
+    Heu estudiat { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
@@ -71,51 +71,51 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } avui ({ $secs-per-card }s/card)
-statistics-today-title = Hodie
-statistics-today-again-count = Doblits :
-statistics-today-type-counts = Apprendite: { $learnCount }, Revidite: { $reviewCount }, Reapprendite: { $relearnCount }, Filtrate: { $filteredCount }
-statistics-today-no-cards = Avui no has estudiat cap targeta.
-statistics-today-no-mature-cards = Nulle cartas matur esseva studiate hodie.
-statistics-today-correct-mature = Corriger le responsas sur le cartas matur: { $correct }/{ $total } ({ $percent }%)
-statistics-counts-total-cards = Cartas total
-statistics-counts-new-cards = Novèl
-statistics-counts-young-cards = Juvene
-statistics-counts-mature-cards = Matur
-statistics-counts-suspended-cards = Suspendite
-statistics-counts-buried-cards = Inhumate
-statistics-counts-filtered-cards = Filtrat
-statistics-counts-learning-cards = Apprender
+statistics-today-title = Avui
+statistics-today-again-count = Oblidades:
+statistics-today-type-counts = Apreses: { $learnCount }, Repassades: { $reviewCount }, Tornades a aprendre: { $relearnCount }, Filtrades: { $filteredCount }
+statistics-today-no-cards = Avui no heu estudiat cap targeta.
+statistics-today-no-mature-cards = Avui no heu estudiat cap targeta madura.
+statistics-today-correct-mature = Respostes correcotes en les targetes madures: { $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = Nombre total de targetes
+statistics-counts-new-cards = Noves
+statistics-counts-young-cards = Joves
+statistics-counts-mature-cards = Madures
+statistics-counts-suspended-cards = Suspeses
+statistics-counts-buried-cards = Enterrades
+statistics-counts-filtered-cards = Filtrades
+statistics-counts-learning-cards = Aprenent
 statistics-counts-relearning-cards = Reaprenent
-statistics-counts-title = Recompte de Targetes
-statistics-counts-separate-suspended-buried-cards = Separeu cartes suspeses / enterrades
-statistics-range-all-time = vita del fasce
-statistics-range-1-year-history = últims 12 mesOs
+statistics-counts-title = Recompte de targetes
+statistics-counts-separate-suspended-buried-cards = Separa les targetes suspeses/enterrades
+statistics-range-all-time = vida del mall
+statistics-range-1-year-history = últims 12 mesos
 statistics-range-all-history = tot l'historial
-statistics-range-deck = fasce
+statistics-range-deck = mall
 statistics-range-collection = col·lecció
 statistics-range-search = Cercar
-statistics-card-ease-title = Facilitat de la Tarjeta
+statistics-card-ease-title = Facilitat de la targeta
 statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] 1 tarjeta amb { $percent } facilitat
-       *[other] { $cards } tarjetes amb { $percent } facilitat
+        [one] 1 targeta amb { $percent } facilitat
+       *[other] { $cards } targetes amb { $percent } facilitat
     }
-statistics-future-due-title = Previsions
-statistics-future-due-subtitle = Le numero de revisiones debite in le futur.
-statistics-added-title = Apondut
-statistics-added-subtitle = Le numero de nove cartas tu ha addite.
-statistics-reviews-count-subtitle = Le numero de questiones tu ha respondite.
-statistics-reviews-time-subtitle = Le tempore prendite a responder le questiones.
-statistics-answer-buttons-title = Botons de responsa
+statistics-future-due-title = Previsió
+statistics-future-due-subtitle = Nombre de repassos futurs programats.
+statistics-added-title = Afegides
+statistics-added-subtitle = Nombre de targetes noves que heu afegit.
+statistics-reviews-count-subtitle = Nombre de preguntes que heu respost.
+statistics-reviews-time-subtitle = Temps que heu trigat a respondre les preguntes.
+statistics-answer-buttons-title = Botons de resposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Botó
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = Vegades premut
-statistics-answer-buttons-subtitle = Le numero de vices tu ha pulsate cata button.
-statistics-reviews-title = Revisions
-statistics-reviews-time-checkbox = Tempore
+statistics-answer-buttons-button-pressed = Vegades que l'heu premut
+statistics-answer-buttons-subtitle = Nombre de vegades que heu premut cada botó.
+statistics-reviews-title = Repassos
+statistics-reviews-time-checkbox = Durada
 statistics-in-days-single =
     { $days ->
         [0] Avui
@@ -128,31 +128,31 @@ statistics-days-ago-single =
         [1] Ahir
        *[other] { $days }  enrere
     }
-statistics-days-ago-range = { $daysStart }-{ $daysEnd } dies enrere
+statistics-days-ago-range = Fa { $daysStart }-{ $daysEnd } dies
 statistics-running-total = Total acumulat
 statistics-cards-due =
     { $cards ->
-        [one] 1 tarjeta vençuda
-       *[other] { $cards } tarjetes vençudes
+        [one] 1 targeta vençuda
+       *[other] { $cards } targetes vençudes
     }
 statistics-backlog-checkbox = Acumulació
-statistics-intervals-title = Intervallos
-statistics-intervals-subtitle = Retarda usque le revistas es monstrate de novo
+statistics-intervals-title = Intervals
+statistics-intervals-subtitle = Nombre de targetes en funció del seu interval de repàs.
 statistics-intervals-day-range =
     { $cards ->
-        [one] 1 tarjeta amb un interval de { $daysStart }~{ $daysEnd } dies
-       *[other] { $cards } tarjetess amb un interval de  { $daysStart }~{ $daysEnd } dies
+        [one] 1 targeta amb un interval de { $daysStart }~{ $daysEnd } dies
+       *[other] { $cards } targetes amb un interval de { $daysStart }~{ $daysEnd } dies
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] 1 tarjeta amb un interval de  { $day } dies
-       *[other] { $cards } tarjetas amb un interval de { $day } dies
+        [one] 1 targeta amb un interval de  { $day } dies
+       *[other] { $cards } targetes amb un interval de { $day } dies
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Des de { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = { $correct }/{ $total } correcte ({ $percent }%)
-statistics-hours-title = Collapso horari
-statistics-hours-subtitle = Revider le taxo de successo pro cata hora del die.
+statistics-hours-correct = { $correct }/{ $total } correctes ({ $percent }%)
+statistics-hours-title = Distribució horària
+statistics-hours-subtitle = Percentatge de repassos correctes al llarg del dia.
 # shown when graph is empty
 statistics-no-data = SENSE DADES
 statistics-calendar-title = Calendari
@@ -172,20 +172,20 @@ statistics-elapsed-time-years = { $amount }a
 
 ##
 
-statistics-average-for-days-studied = Mitjana dels dies estudiats
+statistics-average-for-days-studied = Mitjana per dia estudiat
 statistics-total = Total
 statistics-days-studied = Dies que heu estudiat
-statistics-average-answer-time-label = Temps de resposta promig
+statistics-average-answer-time-label = Temps de resposta mitjà
 statistics-average = Mitjana
-statistics-average-interval = Interval promitg
-statistics-due-tomorrow = Programades per demà
+statistics-average-interval = Interval mitjà
+statistics-due-tomorrow = Programades per a demà
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
-statistics-average-over-period = SI haguèssis estudiat tots els dies.
+statistics-average-over-period = Mitjana si haguéssiu estudiat tots els dies
 statistics-reviews-per-day =
     { $count ->
-        [one] { $count } revisió/dia
-       *[other] { $count } revisions/dia
+        [one] { $count } repàs/dia
+       *[other] { $count } repassos/dia
     }
 statistics-minutes-per-day =
     { $count ->
@@ -194,10 +194,10 @@ statistics-minutes-per-day =
     }
 statistics-cards-per-day =
     { $count ->
-        [one] { $count } tarjeta/dia
-       *[other] { $count } tarjetae/dia
+        [one] { $count } targeta/dia
+       *[other] { $count } targetes/dia
     }
 statistics-average-ease = Facilitat mitjana
-statistics-save-pdf = Guardar PDF
+statistics-save-pdf = Guarda en PDF
 statistics-saved = Guardat.
 statistics-stats = estadístiques

@@ -1,58 +1,58 @@
-database-check-corrupt = Le collection es corrupte. Per favor vide le manual.
-database-check-rebuilt = Base de datos reconstruite e optimisate
+database-check-corrupt = El fitxer de la col·lecció és corromput. Restaureu-lo des d'una còpia de seguretat automàtica.
+database-check-rebuilt = Base de dades reconstruïda i optimitzada.
 database-check-card-properties =
     { $count ->
-        [one] Fixate { $count } carta con proprietates non valide.
-       *[other] Fixate { $count } cartas con proprietates non valide.
+        [one] S'ha corregit { $count } targeta que tenia propietats invàlides.
+       *[other] S'han corregit { $count } targetes que tenien propietats invàlides.
     }
 database-check-missing-templates =
     { $count ->
-        [one] Cancellate { $count } carta con modello mancante.
-       *[other] Cancellate { $count } cartas con modello mancante.
+        [one] S'ha suprimit { $count } targeta sense plantilla.
+       *[other] S'han suprimit { $count } targetes sense plantilla.
     }
 database-check-field-count =
     { $count ->
-        [one] { $count } targeta corregida amb número erroni de camps.
-       *[other] { $count } targetes corregides amb número erroni de camps.
+        [one] S'ha corregit { $count } targeta que tenia un nombre erroni de camps.
+       *[other] S'han corregit { $count } targetes que tenien un nombre erroni de camps.
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] S'ha trobat { $count } tarjeta amb el número de vencimient >= 1,000,000 - consideri reposicionar-la en la vista d'explorador.
-       *[other] S'han trobat { $count } targetes amb el número de vencimient >= 1,000,000 - consideri reposicionar-les en la vista d'explorador.
+        [one] S'ha trobat { $count } targeta el número de venciment de la qual és d'almenys un milió. Considereu reposicionar-la en la finestra «Navega».
+       *[other] S'han trobat { $count } targetes el número de venciment de les quals és d'almenys un milió. Considereu reposicionar-les en la finestra «Navega».
     }
 database-check-card-missing-note =
     { $count ->
-        [one] Cancellate { $count } carta con nota mancante.
-       *[other] Cancellate { $count } cartas con nota mancante.
+        [one] S'ha suprimit { $count } targeta sense nota.
+       *[other] S'han suprimit { $count } targetes sense nota.
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] S'ha esborrat { $count } targeta amb plantilla duplicada.
-       *[other] S'han esborrat  { $count } targetes amb plantilla duplicada.
+        [one] S'ha suprimit { $count } targeta amb plantilla duplicada.
+       *[other] S'han suprimit { $count } targetes amb plantilla duplicada.
     }
 database-check-missing-decks =
     { $count ->
-        [one] S' ha corregit { $count } mall faltant.
-       *[other] S'han corregit { $count } malls faltants.
+        [one] S'ha corregit { $count } mall que faltava.
+       *[other] S'han corregit { $count } malls que faltaven.
     }
 database-check-revlog-properties =
     { $count ->
-        [one] { $count } entrada corregida de revisió amb propietats no vàlidas.
-       *[other] { $count } entrades corregides de revisió amb propietats no vàlidas.
+        [one] S'ha corregit { $count } entrada de repàs amb propietats invàlides.
+       *[other] S'han corregit { $count } entrades de repàs amb propietats invàlides.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-        [one] S'ha corregit { $count } la nota amb caràcters utf8 no vàlids.
-       *[other] S'han corregit  { $count } notes amb caràcters utf8 no vàlids.
+        [one] S'ha corregit { $count } nota amb caràcters UTF-8 invàlids.
+       *[other] S'han corregit { $count } notes amb caràcters UTF-8 invàlids.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Faltan un o més tipus de notes. A les notes que les feien servir s'han assignat nous tipus de notes el qual el seu nom comença amb "db-check", però els noms dels camps i el disseny de la targeta s'han perdut, pel que és millor que restableixi des d'una copia de seguretat automàtica.
+database-check-notetypes-recovered = Falten un o més tipus de notes. S'A les notes que les feien servir s'han assignat nous tipus de notes el qual el seu nom comença amb "db-check", però els noms dels camps i el disseny de la targeta s'han perdut, pel que és millor que restableixi des d'una copia de seguretat automàtica.
 
 ## Progress info
 
-database-check-checking-integrity = Comprovant col·lecció...
-database-check-rebuilding = Reconstruint...
-database-check-checking-cards = Comprovant targetes...
-database-check-checking-notes = Comprovant notes...
-database-check-checking-history = Comprovant historial...
-database-check-title = Verificar base de dades
+database-check-checking-integrity = Comprovant la col·lecció…
+database-check-rebuilding = Reconstruint…
+database-check-checking-cards = Comprovant les targetes…
+database-check-checking-notes = Comprovant les notes…
+database-check-checking-history = Comprovant l'historial…
+database-check-title = Verifica la base de dades
