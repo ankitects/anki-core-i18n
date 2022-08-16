@@ -51,7 +51,7 @@ sync-media-log-button = Registre dels fitxers multimèdia
 sync-abort-button = Avortar
 sync-download-from-ankiweb = Descarregar des d'AnkiWeb
 sync-upload-to-ankiweb = Carregar a AnkiWeb
-sync-cancel-button = Cancel·lar
+sync-cancel-button = Anul·la
 
 ## Normal sync progress
 

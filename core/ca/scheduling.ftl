@@ -104,9 +104,9 @@ scheduling-update-required =
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = Inclou sempre la cara de la pregunta quan es torni a reproduir l'àudio
+scheduling-always-include-question-side-when-replaying = Inclou sempre la cara de la pregunta quan se'n torni a reproduir el so
 scheduling-at-least-one-step-is-required = Es requereix un pas com a mínim.
-scheduling-automatically-play-audio = Reprodueix l'àudio automàticament
+scheduling-automatically-play-audio = Reprodueix el so automàticament
 scheduling-bury-related-new-cards-until-the = Enterra les targetes noves relacionades fins a l'endemà
 scheduling-bury-related-reviews-until-the-next = Enterrar els repassos relacionats fins a l'endemà
 scheduling-days = dies
