@@ -1,7 +1,7 @@
 adding-add-shortcut-ctrlandenter = Afegeix (drecera: Ctrl+retorn)
 adding-added = S'ha afegit
 adding-close-and-lose-current-input = Voleu tancar i perdre l'entrada actual?
-adding-edit = Edita "{ $val }"
+adding-edit = Edita «{ $val }»
 adding-history = Història
 adding-note-deleted = (Nota esborrada)
 adding-shortcut = Drecera: { $val }

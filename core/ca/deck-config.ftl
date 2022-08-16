@@ -29,9 +29,13 @@ deck-config-daily-limits = Límits diaris
 
 ## Burying section
 
+deck-config-bury-title = Enterrament
+deck-config-bury-new-siblings = Enterra les targetes germanes noves
 
 ## Ordering section
 
+deck-config-ordering-title = Ordre de visualització
+deck-config-sort-order-template-then-gather = Tipus de targeta
 
 ## Timer section
 
@@ -44,6 +48,7 @@ deck-config-daily-limits = Límits diaris
 
 ## Adding/renaming
 
+deck-config-name-prompt = Nom
 
 ## Removing
 
