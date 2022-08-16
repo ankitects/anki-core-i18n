@@ -1,83 +1,103 @@
-browsing-add-notes = Afegei Notes...
-browsing-add-tags2 = Afegeix etiquetes...
+browsing-add-notes = Afegeix notes…
+browsing-add-tags2 = Afegeix etiquetes…
+browsing-add-to-selected-notes = Afegeix a les notes seleccionades
+browsing-remove-from-selected-notes = Suprimeix de les notes seleccionades
 browsing-addon = Complement
 browsing-all-fields = Tots els camps
 browsing-answer = Resposta
 browsing-any-flag = Qualsevol marca
+browsing-average-ease = Facilitat mitjana
+browsing-average-interval = Interval mitjà
 browsing-browser-appearance = Aspecte del navegador
 browsing-browser-options = Opcions del navegador
 browsing-buried = Enterrades
 browsing-card = Targeta
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = T
 browsing-card-list = Llista de targetes
-browsing-cards-cant-be-manually-moved-into = Les targetes no es poden moure manualment a un mall filtrat.
-browsing-change-deck = Canviar de mall
-browsing-change-deck2 = Canviar mall...
-browsing-change-note-type = Canvia tipus de nota
-browsing-change-note-type2 = Canvia tipus de nota...
-browsing-clear-unused-tags = Neteja etiquetes no utilitzades
+browsing-cards-cant-be-manually-moved-into = No podeu moure les targetes manualment a un mall filtrat.
+browsing-cards-deleted =
+    { $count ->
+        [one] S'ha eliminat una targeta.
+       *[other] S'han eliminat { $count } targetes.
+    }
+browsing-change-deck = Canvia de mall
+browsing-change-deck2 = Canvia de mall…
+browsing-change-note-type = Canvia el tipus de nota
+browsing-change-note-type2 = Canvia el tipus de nota…
+browsing-change-notetype = Canvia el tipus de nota
+browsing-clear-unused-tags = Neteja les etiquetes no utilitzades
+browsing-confirm-saved-search-overwrite = Ja existeix una cerca guardada amb el nom «{ $name }». Voleu sobreescriure-la?
 browsing-created = S'ha afegit
 browsing-current-deck = Mall actual
 browsing-current-note-type = Tipus de nota actual:
 browsing-delete-notes = Elimina les notes
 browsing-duplicate = duplicat
 browsing-ease = Facilitat
-browsing-enter-tags-to-add = Entreu les etiquetes que voleu afegir:
-browsing-enter-tags-to-delete = Entreu les etiquetes que voleu suprimir:
-browsing-filtered = (filtrat)
-browsing-find = <b>Cerca</b> :
+browsing-enter-tags-to-add = Introduïu les etiquetes que voleu afegir:
+browsing-enter-tags-to-delete = Introduïu les etiquetes que voleu suprimir:
+browsing-filtered = (filtrada)
+browsing-find = <b>Cerca</b>:
 browsing-find-and-replace = Cerca i reemplaça
 browsing-find-duplicates = Cerca duplicats
 browsing-first-card = Primera targeta
-browsing-flag = Marcar
-browsing-font = <b>Lletra</b>:
+browsing-flag = Marca
+browsing-font = <b>Tipus de lletra</b>:
 browsing-font-size = <b>Mida de la lletra</b>:
 browsing-found-as-across-bs = S'han trobat { $part } d'entre { $whole }.
-browsing-ignore-case = Ignoreu les majúscules
-browsing-in = <b>A</b> :
+browsing-ignore-case = Ignora les majúscules
+browsing-in = <b>En</b> :
 browsing-interval = Interval
-browsing-last-card = Última targueta
+browsing-last-card = Última targeta
 browsing-learning = (aprenent)
 browsing-line-size = <b>Mida de la línia</b>:
-browsing-manage-note-types = Gestiona els Tipus de Nota...
-browsing-move-cards = Moure cartes
-browsing-move-cards-to-deck = Moure les cartes al mall:
-browsing-new = (nou)
-browsing-new-note-type = Nou tipus de nota
-browsing-no-flag = Sense Marca
+browsing-manage-note-types = Gestiona els tipus de nota…
+browsing-move-cards = Mou les targetes
+browsing-move-cards-to-deck = Mou les targetes al mall:
+browsing-new = (nova)
+browsing-new-note-type = Nou tipus de nota:
+browsing-no-flag = Sense marca
+browsing-no-selection = No heu seleccionat cap targeta o nota.
 browsing-note = Nota
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
 browsing-optional-filter = Filtre opcional:
-browsing-override-back-template = Substitueix plantilla del revers:
-browsing-override-font = Substitueix font:
-browsing-override-front-template = SObreescriute la plantilla del anvers.
-browsing-please-give-your-filter-a-name = Sisplau, anomena el filtre:
-browsing-preview-selected-card = Previsualitzar la targueta seleccionada ({ $val })
+browsing-override-back-template = Substitueix la plantilla del revers:
+browsing-override-font = Substitueix el tipus de lletra:
+browsing-override-front-template = Substitueix la plantilla de l'anvers:
+browsing-please-give-your-filter-a-name = Anomeneu el filtre:
+browsing-preview-selected-card = Previsualitza la targeta seleccionada ({ $val })
 browsing-question = Pregunta
-browsing-queue-bottom = Últim de la cua: { $val }
-browsing-queue-top = Primer de la cua: { $val }
-browsing-randomize-order = Ordre aleatòri
-browsing-remove-tags = Eliminar etiquetes...
+browsing-queue-bottom = Final de la cua: { $val }
+browsing-queue-top = Principi de la cua: { $val }
+browsing-randomize-order = Ordre aleatori
+browsing-remove-tags = Eliminar les etiquetes…
 browsing-replace-with = <b>Substitueix per</b>:
-browsing-reposition = Reposicionar...
-browsing-reposition-new-cards = Reposicionar noves targetes
+browsing-reposition = Reposiciona…
+browsing-reposition-new-cards = Reposiciona les noves targetes
 browsing-reschedule = Torna a planificar
-browsing-search-bar-hint = Cerca targetes /notes (escriu text i prem Retorn)
-browsing-search-in = Buscar en :
-browsing-search-within-formatting-slow = Buscar en elements de format (lent)
-browsing-shift-position-of-existing-cards = Canviar la posició de les targetes existents
+browsing-search-bar-hint = Cerca targetes o notes (escriviu un text i premeu Retorn)
+browsing-search-in = Cerca en:
+browsing-search-within-formatting-slow = Cerca en els elements de format (lent)
+browsing-selected-notes-only = Només les notes seleccionades
+browsing-shift-position-of-existing-cards = Canvia la posició de les targetes existents
 browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Filtre de la barra lateral
 browsing-sort-field = Camp ordenat
-browsing-sorting-on-this-column-is-not = No és possible canviar l'ordre en aquesta columna. Si us plau, tria una altra.
+browsing-sorting-on-this-column-is-not = No és possible canviar l'ordre en aquesta columna; trieu-ne una altra.
 browsing-start-position = Posició inicial:
 browsing-step = Pas:
-browsing-suspended = Suspès
-browsing-tag-duplicates = Etiquetar duplicats
-browsing-tag-rename-warning-empty = No es pot canviar el nom d'una etiqueta que no tingui notes.
-browsing-target-field = Camp destí:
-browsing-toggle-mark = Commuta Marcar
-browsing-toggle-suspend = Commuta Suspendre
+browsing-suspended = Suspeses
+browsing-tag-duplicates = Etiqueta els duplicats
+browsing-tag-rename-warning-empty = No podeu canviar el nom d'una etiqueta que no tingui notes.
+browsing-target-field = Camp de destinació:
+browsing-toggle-showing-cards-notes = Alterna entre les targetes i les notes
+browsing-toggle-mark = Marca/desmarca
+browsing-toggle-suspend = Suspèn/reprèn
 browsing-treat-input-as-regular-expression = Tracta l'entrada com una expressió regular
+browsing-update-saved-search = Actualitza amb la cerca actual
 browsing-whole-collection = Col·lecció sencera
+browsing-window-title-notes = Navega ({ $selected } de { $total } notes seleccionades)
 browsing-you-must-have-at-least-one = Hi ha d'haver almenys una columna.
 browsing-group =
     { $count ->
@@ -86,21 +106,64 @@ browsing-group =
     }
 browsing-note-count =
     { $count ->
-        [one] { $count } nota
+        [one] Una nota
        *[other] { $count } notes
     }
+browsing-notes-updated =
+    { $count ->
+        [one] S'ha actualitzat una nota.
+       *[other] S'ham actualitzat { $count } notes.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] S'ha actualitzat una targeta.
+       *[other] S'han actualitzat { $count } targetes.
+    }
 browsing-window-title = Navega ({ $selected } de { $total } targetes seleccionades)
-browsing-sidebar-expand-children = Expandir Fills
-browsing-sidebar-collapse-children = Col·lapsar Fills
+browsing-sidebar-expand = Expandeix
+browsing-sidebar-collapse = Redueix
+browsing-sidebar-expand-children = Expandeix els secundaris
+browsing-sidebar-collapse-children = Redueix els secundaris
 browsing-sidebar-decks = Malls
 browsing-sidebar-tags = Etiquetes
 browsing-sidebar-notetypes = Tipus de notes
-browsing-sidebar-saved-searches = Cerques Guardades
-browsing-sidebar-save-current-search = Guardar la Búsqueda Actual
+browsing-sidebar-saved-searches = Cerques guardades
+browsing-sidebar-save-current-search = Guarda la cerca actual
+browsing-sidebar-card-state = Estat de la targeta
+browsing-sidebar-flags = Marcadors
 browsing-today = Avui
-browsing-studied-today = Estudiades avui.
-browsing-added-today = Afegides avui
-browsing-again-today = De nou avui
+browsing-tooltip-card-modified = L'última vegada que vau modificar una targeta (incloent-hi repassos, marcadors i canvis de mall)
+browsing-tooltip-note-modified = L'última vegada que vau modificar una nota (generalment, el contingut d'un camp o les etiquetes)
+browsing-tooltip-card = El nom de la plantilla de la targeta
+browsing-tooltip-cards = El nombre de targetes que té una nota
+browsing-tooltip-notetype = El nom del tipus de nota
+browsing-tooltip-question = L'anvers d'una targeta, que es pot personalitzar en l'editor de plantilles
+browsing-tooltip-answer = El revers d'una targeta, que es pot personalitzar en l'editor de plantilles
+browsing-studied-today = Estudiades
+browsing-added-today = Afegides
+browsing-again-today = De nou
+browsing-edited-today = Modificades
+browsing-sidebar-first-review = Primer repàs
+browsing-sidebar-rescheduled = Replanificades
+browsing-sidebar-due-today = Vençudes
+browsing-sidebar-untagged = No etiquetades
+browsing-sidebar-overdue = En retard
+browsing-row-deleted = (esborrada)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] S'ha esborrat una etiqueta no utilizada.
+       *[other] S'han esborrat { $count } etiquetes no utilizades.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] S'ha modificat la posició d'una targeta nova.
+       *[other] S'ha modificat la posició de { $count } targetes noves.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] S'ha canviat el nom d'un mall.
+       *[other] S'ha canviat el nom de { $count } malls.
+    }
 
 ## obsolete; no need to translate
 

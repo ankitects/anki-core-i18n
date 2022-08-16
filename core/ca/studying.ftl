@@ -1,4 +1,4 @@
-studying-again = Una altra vegada
+studying-again = De nou
 studying-all-buried-cards = Totes les targetes enterrades
 studying-audio-5s = Audio –5s
 studying-audio-and5s = Audio +5s
