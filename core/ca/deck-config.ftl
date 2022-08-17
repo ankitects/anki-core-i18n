@@ -60,6 +60,9 @@ deck-config-learning-steps-tooltip =
 deck-config-graduating-interval-tooltip =
     El nombre de dies que han de passar fins que una targeta es torni a mostrar
     després que hàgiu premut el botó `Correcte`en l'últim pas de l'etapa d'aprenentatge.
+deck-config-easy-interval-tooltip =
+    El nombre de dies que s'esperarà per a tornar a mostrar una targeta
+    després que premeu el botó `Fàcil`per a retirar-la de l'aprenentatge immediatament.
 deck-config-new-insertion-order = Ordre d'inserció
 deck-config-new-insertion-order-sequential = Seqüencial (les targetes més antigues primer)
 deck-config-new-insertion-order-random = Aleatori

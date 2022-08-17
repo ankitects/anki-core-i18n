@@ -63,14 +63,14 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Heu estudiat { statistics-cards } { $unit ->
+    Avui heu estudiat { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    } avui ({ $secs-per-card }s/card)
+    }({ $secs-per-card } segons per targeta)
 statistics-today-title = Avui
 statistics-today-again-count = Oblidades:
 statistics-today-type-counts = Apreses: { $learnCount }, Repassades: { $reviewCount }, Tornades a aprendre: { $relearnCount }, Filtrades: { $filteredCount }

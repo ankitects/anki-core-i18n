@@ -11,8 +11,8 @@ notetypes-back-extra-field = Revers extra
 ## Default note type names
 
 notetypes-basic-name = Bàsica
-notetypes-basic-reversed-name = Bàsica (i carta reversa)
-notetypes-basic-optional-reversed-name = Bàsica (carta reversa opcional)
+notetypes-basic-reversed-name = Bàsica (i targeta inversa)
+notetypes-basic-optional-reversed-name = Bàsica (targeta inversa opcional)
 notetypes-basic-type-answer-name = Bàsica (escriure la resposta)
 notetypes-cloze-name = Text amb buits
 
