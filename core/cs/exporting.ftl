@@ -15,7 +15,7 @@ exporting-include-media = Zahrnout média
 exporting-include-scheduling-information = Zachovat informace o plánování
 exporting-include-tags = Zahrnout štítky
 exporting-support-older-anki-versions = Podporovat starší verze Anki (pomalejší/větší soubory)
-exporting-notes-in-plain-text = Poznámka jako prostý text
+exporting-notes-in-plain-text = Poznámky jako prostý text
 exporting-selected-notes = Vybrané poznámky
 exporting-card-exported =
     { $count ->
