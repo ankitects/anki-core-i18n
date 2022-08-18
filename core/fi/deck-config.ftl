@@ -34,6 +34,10 @@ deck-config-limit-new-bound-by-reviews =
 deck-config-limit-interday-bound-by-reviews =
     Kertausten enimmäismäärä vaikuttaa myös usean päivän aikana opittaviin kortteihin. Kun rajoitusta sovelletaan,
     usean päivän aikana opittavat kortit haetaan ensin, sitten kerrattavat kortit, ja lopuksi uudet kortit.
+deck-config-tab-description =
+    - `Esiasetus`: Raja jaetaan kaikille tätä esiasetusta käyttäville pakoille.
+    - `Tämä pakka`: Raja koskee vain tätä pakkaa.
+    - `Vain tänään`: Tee väliaikainen muutos tämän pakan rajaan.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
