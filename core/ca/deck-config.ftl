@@ -64,6 +64,10 @@ deck-config-easy-interval-tooltip =
     El nombre de dies que s'esperarà per a tornar a mostrar una targeta
     després que premeu el botó `Fàcil`per a retirar-la de l'aprenentatge immediatament.
 deck-config-new-insertion-order = Ordre d'inserció
+deck-config-new-insertion-order-tooltip =
+    Controla la posició (nombre de data de repàs) que s'assigna a les targetes noves quan les afegiu.
+    Les targetes que tinguin un nombre de data de repàs es mostraran primer quan estudieu.
+    Si modifiqueu aquesta opció, s'actualitzarà automàticament la posició de les noves targetes ja existents.
 deck-config-new-insertion-order-sequential = Seqüencial (les targetes més antigues primer)
 deck-config-new-insertion-order-random = Aleatori
 deck-config-new-insertion-order-random-with-v3 =
@@ -73,6 +77,21 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Passos de reaprenentatge
+deck-config-relearning-steps-tooltip =
+    Zero o més intervals, separats per espais. Per defecte, cada targeta de repàs
+    es tornarà a mostrar 10 minuts després que hàgiu premut el botó «De nou».
+    Si no proporcioneu cap interval, es modificarà l'interval de la targeta sense
+    entrar en el reaprenentatge. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    El nombre de vegades que heu de prémer «De nou» perquè es marqui una targeta de repàs
+    com a sangonera. Les sangoneres són targetes que consumeixen una gran part del vostre temps;
+    si una targeta està marcada com a sangonera, plantejeu-vos tornar-la a escriure, esborrar-la
+    o pensar en una regla mnemotècnica que us ajudi a recordar-la.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    «Només etiqueta»: Afegeix l'etiqueta «sangonera» a la nota i mostra una finestra emergent.
+    
+    «Suspèn la targeta»: Afegeix l'etiqueta «sangonera» a la nota i amaga la targeta fins que desfeu la suspensió manualment.
 
 ## Burying section
 
@@ -80,6 +99,9 @@ deck-config-bury-title = Enterrament
 deck-config-bury-new-siblings = Enterra les targetes relacionades noves
 deck-config-bury-review-siblings = Enterra les targetes relacionades per revisar
 deck-config-bury-interday-learning-siblings = Enterra les targetes relacionades d'aprenentatge entre dies
+deck-config-bury-tooltip =
+    Decidiu si voleu retardar fins a l'endemà altres targetes de la mateixa nota
+    (per exemple, targetes invereses o altres targetes amb buits).
 
 ## Ordering section
 
@@ -129,6 +151,9 @@ deck-config-skip-question-when-replaying = Salta la pregunta quan repeteixi la r
 ## Advanced section
 
 deck-config-advanced-title = Avançat
+deck-config-hard-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu «Difícil».
+deck-config-new-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu «De nou».
+deck-config-minimum-interval-tooltip = L'interval mínim que s'aplica a una targeta de repàs quan premeu «De nou».
 deck-config-custom-scheduling = Planificació personalitzada
 deck-config-custom-scheduling-tooltip = Atenció: afectarà a tota la col·lecció. Feu-la servir amb precaució!
 
@@ -142,6 +167,10 @@ deck-config-clone-group = Duplica la configuració
 ## Removing
 
 deck-config-remove-group = Suprimeix la configuració
+deck-config-will-require-full-sync =
+    Les modificacions que heu fet requereixen una sincronització unidireccional.
+    Abans de continuar, sincronitzeu els canvis que hàgiu fet en un altre dispositiu
+    si encara no els heu sincronitzats amb aquest dispositiu.
 deck-config-confirm-remove-name = Voleu eliminar { $name }?
 
 ## Other Buttons
@@ -154,9 +183,26 @@ deck-config-revert-button-tooltip = Restaura aquest paràmetre al seu valor per 
 ## overview screen.
 
 deck-config-description-new-handling = Gestió d'Anki 2.1.41+
+deck-config-description-new-handling-hint =
+    Tracta l'entrada com a Markdown i neteja l'entrada HTML. Quan aquesta opció
+    està activada, la descripció també es mostrarà en la pantalla de felicitacions.
+    Markdown apareixerà com a text en Anki 2.1.40 i inferiors.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Un mall principal té un límit { $cards ->
+        [one] d'una targeta
+       *[other] de { $cards } targetes
+    } que substituirà aquest límit.
+deck-config-reviews-too-low =
+    Si afegiu { $cards ->
+        [one] una targeta nova
+       *[other] { $cards } targetes noves
+    } cada dia, el vostre límit de repàs hauria de ser d'almenys { $expected }.
+deck-config-learning-step-above-graduating-interval = L'interval de graduació ha de ser almenys tan gran com l'últim pas de l'etapa d'aprenentatge.
+deck-config-good-above-easy = L'interval per a les targetes fàcils ha de ser almenys tan gran com l'interval de graduació.
+deck-config-relearning-steps-above-minimum-interval = L'interval mínim ha de ser almenys tan gran com l'últim pas de l'etapa de reaprenentatge.
 deck-config-maximum-answer-secs-above-recommended = Anki podrà planificar millor els vostres repassos si feu preguntes breus.
 
 ## Selecting a deck
