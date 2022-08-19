@@ -160,8 +160,8 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-prompt =
     { $cards ->
-        [one] D'aquí a quants dies voleu mostrar aquesta targeta?
-       *[other] D'aquí a quants dies voleu mostrar aquestes targetes?
+        [one] D'ací a quants dies voleu mostrar aquesta targeta?
+       *[other] D'ací a quants dies voleu mostrar aquestes targetes?
     }
 scheduling-set-due-date-prompt-hint =
     0 = avui
