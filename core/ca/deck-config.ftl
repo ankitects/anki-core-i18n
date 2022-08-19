@@ -141,16 +141,38 @@ deck-config-display-order-will-use-current-deck =
 
 deck-config-timer-title = Temporitzador
 deck-config-maximum-answer-secs = Temps màxim de resposta en segons
+deck-config-maximum-answer-secs-tooltip =
+    El nombre màxim de segons que s'enregistraran per a un sol repàs. Si la resposta
+    excedeix aquest temps (perquè, per exemple, heu deixat de fer servir l'ordinador
+    temporalment), el temps que s'enregistrarà serà el que seleccioneu com a límit.
+deck-config-show-answer-timer-tooltip =
+    Activa un cronòmetre en la finestra de repàs que mostra els segons
+    que tardes a repassar cada targeta.
 
 ## Audio section
 
 deck-config-audio-title = So
 deck-config-disable-autoplay = No reprodueixis el so automàticament
 deck-config-skip-question-when-replaying = Salta la pregunta quan repeteixi la resposta
+deck-config-always-include-question-audio-tooltip =
+    Decidiu si s'inclourà el so de la pregunta quan useu l'acció «Reproduir»
+    mentre consulteu la resposta d'una targeta.
 
 ## Advanced section
 
 deck-config-advanced-title = Avançat
+deck-config-maximum-interval-tooltip =
+    El nombre màxim de dies que una targeta per repassar romandrà a l'espera. Quan els repassos
+    hagin assolit el límit, tots els botons («Difícil, «Correcte» i «Fàcil») retardaran la targeta
+    el mateix nombre de dies. Com més curt siga aquest termini, més gran serà la vostra càrrega d'estudi.
+deck-config-starting-ease-tooltip =
+    El multiplicador de faciltat amb què comencen les noves targetes. Per defecte, es retardarà
+    2,5 vegades el pròxim repàs d'una targeta acabada d'aprendre quan premeu «Correcte».
+deck-config-easy-bonus-tooltip = Un multiplicador addicional que s'aplica a l'interval de revisió d'una targeta quan premeu «Fàcil».
+deck-config-interval-modifier-tooltip =
+    Aquest multiplicador s'aplica a tots els repassos. Podeu fer petites modificacions
+    perquè Anki sigui més conservador o agressiu a l'hora de planificar els repassos.
+    Consulteu el manual abans de modificar aquesta opció.
 deck-config-hard-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu «Difícil».
 deck-config-new-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu «De nou».
 deck-config-minimum-interval-tooltip = L'interval mínim que s'aplica a una targeta de repàs quan premeu «De nou».

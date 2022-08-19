@@ -33,7 +33,7 @@ media-check-unused-file = No utilitzat: { $filename }
 
 ## Progress
 
-media-check-checked = Comprovant { $count }…
+media-check-checked = S'estan comprovant { $count }…
 
 ## Deleting unused media
 
