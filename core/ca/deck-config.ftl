@@ -107,6 +107,16 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Ordre de visualització
 deck-config-new-gather-priority = Ordre de recopilació de les targetes noves
+deck-config-new-gather-priority-tooltip-2 =
+    «Mall»: mostra les targetes de cada mall per ordre, començant pel principi. Les targetes s'ordenen de manera ascendent. Si heu assolit el límit diari del mall seleccionat, la recol·lecció es detindrà abans que s'hagin verificat tots els malls. Aquest ordre és més ràpid en col·leccions grans i us permet de prioritzar els malls secundaris situats més a prop del principi.
+    
+    «Ordre ascendent»: mostra les targetes en ordre ascendent (número de repàs), que sol coincidir amb l'ordre en què han estat afegides.
+    
+    «Ordre descendent»: mostra les targetes en ordre descendent (número de repàs); generalment, es mostraran primer les últimes targetes que hàgiu afegit.
+    
+    «Notes aleatòries»: mostra targetes de notes seleccionades aleatòriament. Si heu desactivat l'opció d'enterrar les targetes relacionades, veureu totes les targetes d'una nota en una sola sessió (per exemple, veureu tant la targeta anvers → revers com la targeta inversa, revers → anvers).
+    
+    «Targetes aleatòries»: mostra les targetes de manera aleatòria.
 deck-config-new-gather-priority-deck = Mall
 deck-config-new-gather-priority-position-lowest-first = Posició ascendent
 deck-config-new-gather-priority-position-highest-first = Posició descendent
@@ -121,10 +131,22 @@ deck-config-sort-order-gather = Ordre de recopilació
 deck-config-new-review-priority = Ordre de noves i per repassar
 deck-config-new-review-priority-tooltip = Quan es mostraran les targetes noves en relació amb les targetes per repassar.
 deck-config-interday-step-priority = Ordre d'aprenentatge i de repàs entre dies
+deck-config-interday-step-priority-tooltip =
+    Quan es mostraran les targetes d'aprenentatge o reaprenentatge que superin el límit d'un dia.
+    
+    El límit de repàs sempre s'aplicarà primer a les targetes d'aprenentatge entre dies i després als
+    repassos. Aquesta opció controla l'ordre en què es mostren les targetes, tot i que les targetes
+    d'aprenentatge entre dies sempre es mostraran primer.
 deck-config-review-mix-mix-with-reviews = Barreja amb les targetes per repassar
 deck-config-review-mix-show-after-reviews = Mostra després de les targetes per repassar
 deck-config-review-mix-show-before-reviews = Mostra abans de les targetes per repassar
 deck-config-review-sort-order = Ordre de les targetes per repassar
+deck-config-review-sort-order-tooltip =
+    Amb l'ordre per defecte, es prioritzen les targetes que han estat en espera més temps;
+    d'aquesta manera, si aneu amb retard amb els repassos, les que duguin a l'espera més temps
+    apareixeran primer. Si heu acumulat un gran nombre de repassos que tardareu més d'un dia a
+    fer (o si prefereiu veure les targetes en l'ordre dels malls secundaris), proveu
+    els ordres de classificació alternatius.
 deck-config-sort-order-due-date-then-random = Data de repàs i després en ordre aleatori
 deck-config-sort-order-due-date-then-deck = Data de repàs i després mall
 deck-config-sort-order-deck-then-due-date = Mall i després data de repàs
