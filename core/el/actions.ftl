@@ -1,12 +1,12 @@
 actions-add = Πρόσθηκη
 actions-all-selected = Όλα επιλεγμένα
 actions-any-selected = Οποιοδήποτε επιλεγμένο
-actions-cancel = Ακύρωση
+actions-cancel = Άκυρο
 actions-choose = Επιλογή
 actions-close = Κλείσιμο
 actions-copy = Αντιγραφή
 actions-create-copy = Δημιουργία Αντιγράφου
-actions-custom-study = Προσαρμογή μελέτης
+actions-custom-study = Προσαρμοσμένη Μελέτη
 actions-decks = Τράπουλες
 actions-delete = Διαγραφή
 actions-export = Εξαγωγή
@@ -42,8 +42,17 @@ actions-update-tag = Ενημέρωση ετικέτας
 actions-update-note = Ενημέρωση καταχώρησης
 actions-update-card = Ενημέρωση κάρτας
 actions-update-deck = Ενημέρωση στοίβας
+actions-forget-card = Επανεκκίνηση κάρτας
+actions-build-filtered-deck = Χτίσιμο τράπουλας
+actions-add-notetype = Προσθήκη Προτύπου Καταχώρησης
+actions-remove-notetype = Διαγραφή Προτύπου Καταχώρησης
+actions-update-notetype = Ενημέρωση Προτύπου Καταχώρησης
+actions-update-config = Ενημέρωση Παραμέτρων
 actions-card-info = Πληροφορίες κάρτας
 actions-previous-card-info = Πληροφορίες προηγούμενης κάρτας
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 actions-currently-unsupported = Αυτή η ενέργεια δεν υποστηρίζεται στο σύστημά σας μέχρι στιγμής.
 
 ## Flags
@@ -56,3 +65,4 @@ actions-flag-blue = Μπλε
 actions-flag-pink = Ροζ
 actions-flag-turquoise = Τυρκουάζ
 actions-flag-purple = Μωβ
+actions-set-flag = Σήμανση
