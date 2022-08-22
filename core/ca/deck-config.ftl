@@ -123,9 +123,19 @@ deck-config-new-gather-priority-position-highest-first = Posició descendent
 deck-config-new-gather-priority-random-notes = Notes aleatòries
 deck-config-new-gather-priority-random-cards = Targetes aleatòries
 deck-config-new-card-sort-order = Nou ordre de classificació de les targetes
+deck-config-new-card-sort-order-tooltip-2 =
+    «Tipus de targeta»: mostra les targetes segons l'ordre del número de tipus de targeta. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes anvers→revers es mostraran abans que les targetes revers→anvers.
+    
+    «Ordre de recopilació»: mostra les targetes segons l'ordre en què s'han recopilat. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes d'una nota es mostraran seguides.
+    
+    «Tipus de la targeta i després aleatòriament»: semblant a «Tipus de targeta», tot i que mostra les targetes de cada tipus de targeta aleatòriament. Si feu servir l'opció «Posició ascendent» per a recopilar les targetes més antigues, podeu activar aquesta opció perquè aquestes targetes es mostrin de manera aleatòria. D'aquesta manera, les targetes d'una mateixa nota no es presentaran seguides.
+    
+    «Nota aleatòria i després tipus de la targeta»: mostra les notes aleatòriament i, després, totes les targetes relacionades en ordre.
+    
+    «Aleatòriament»: mostra les targetes recopilades de manera aleatòria.
 deck-config-sort-order-card-template-then-random = Tipus de la targeta i després aleatòriament
 deck-config-sort-order-random-note-then-template = Nota aleatòria i després tipus de la targeta
-deck-config-sort-order-random = Aleatori
+deck-config-sort-order-random = Aleatòriament
 deck-config-sort-order-template-then-gather = Tipus de targeta
 deck-config-sort-order-gather = Ordre de recopilació
 deck-config-new-review-priority = Ordre de noves i per repassar

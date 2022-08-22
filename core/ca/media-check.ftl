@@ -45,8 +45,8 @@ media-check-files-remaining =
     }
 media-check-delete-unused-complete =
     { $count ->
-        [one] Un fitxer mogut a la paperera de reciclatge.
-       *[other] { $count } fitxers moguts a la paperera de reciclatge.
+        [one] S'ha mogut un fitxer a la paperera de reciclatge.
+       *[other] S'han mogut { $count } fitxers a la paperera de reciclatge.
     }
 media-check-trash-emptied = La carpeta de la paperera és buida.
 media-check-trash-restored = S'han restaurat els fitxers esborrats a la carpeta dels fitxers multimèdia.
