@@ -76,7 +76,7 @@ browsing-replace-with = <b>Substitueix per</b>:
 browsing-reposition = Reposiciona…
 browsing-reposition-new-cards = Reposiciona les noves targetes
 browsing-reschedule = Torna a planificar
-browsing-search-bar-hint = Cerca targetes o notes (escriviu un text i premeu Retorn)
+browsing-search-bar-hint = Cerca targetes o notes (escriviu un text i premeu la tecla de retorn)
 browsing-search-in = Cerca en:
 browsing-search-within-formatting-slow = Cerca en els elements de format (lent)
 browsing-selected-notes-only = Només les notes seleccionades
@@ -97,7 +97,7 @@ browsing-toggle-suspend = Suspèn/reprèn
 browsing-treat-input-as-regular-expression = Tracta l'entrada com una expressió regular
 browsing-update-saved-search = Actualitza amb la cerca actual
 browsing-whole-collection = Col·lecció sencera
-browsing-window-title-notes = Navega ({ $selected } de { $total } notes seleccionades)
+browsing-window-title-notes = Navega (heu seleccionat { $selected } nota/notes de { $total })
 browsing-you-must-have-at-least-one = Hi ha d'haver almenys una columna.
 browsing-group =
     { $count ->
@@ -119,7 +119,7 @@ browsing-cards-updated =
         [one] S'ha actualitzat una targeta.
        *[other] S'han actualitzat { $count } targetes.
     }
-browsing-window-title = Navega ({ $selected } de { $total } targetes seleccionades)
+browsing-window-title = Navega (heu seleccionat { $selected } targeta/targetes de { $total })
 browsing-sidebar-expand = Expandeix
 browsing-sidebar-collapse = Redueix
 browsing-sidebar-expand-children = Expandeix els secundaris

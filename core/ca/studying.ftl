@@ -13,7 +13,7 @@ studying-cards-buried =
         [one] S'ha enterrat una targeta.
        *[other] S'han enterrat { $count } targetes.
     }
-studying-cards-will-be-automatically-returned-to = Les targetes tornaran automàticament a les seves piles d'origen després que les repasseu.
+studying-cards-will-be-automatically-returned-to = Les targetes tornaran automàticament als seus malls d'origen després que les hàgiu repassades.
 studying-continue = Continua
 studying-counts-differ = El recompte de targetes és diferent del de la llista del mall perquè heu activat l'enterrament. S'han exclòs algunes targetes i és possible que altres les hagin substituïdes.
 studying-delete-note = Suprimeix la nota
