@@ -8,7 +8,7 @@ errors-100-tags-max =
     és més senzill que enumereu les etiquetes que voleu en comptes d'aquelles que no voleu
     i no cal que seleccioneu les etiquetes secundàries si heu seleccionat una etiqueta principal.
 errors-multiple-notetypes-selected = Seleccioneu notes d'un sol tipus de nota.
-errors-please-check-database = Feu servir l'acció «Comprovar la base de dades» i torneu-ho a intentar.
+errors-please-check-database = Feu servir l'acció «Verifica la base de dades» i torneu-ho a intentar.
 errors-please-check-media = Feu servir l'acció «Comprovar multimèdia» i torneu-ho a intentar.
 errors-collection-too-new = Per a poder obrir aquesta col·lecció, necessiteu una versió més recent d'Anki.
 errors-invalid-ids = Aquest mall conté targetes datades en el futur; contacteu l'autor del mall i demaneu-li que resolgui el problema.

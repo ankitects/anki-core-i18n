@@ -39,11 +39,11 @@ sync-password-label = Contrasenya:
 sync-account-required =
     <h1>Cal tenir un compte</h1>
     Cal que tingueu un compte gratuït per a mantenir la vostra col·lecció actualitzada. <a href="{ $link }">Registreu-vos</a> i inseriu les vostres credencials a sota.
-sync-sanity-check-failed = Feu servir la funció «Comprovar la base de dades» i, tot seguit, torneu-la a sincronitzar. Si els problemes persisteixen, forceu la sincronització completa des de la finestra de preferències.
+sync-sanity-check-failed = Feu servir la funció «Verifica la base de dades» i, tot seguit, torneu-la a sincronitzar. Si els problemes persisteixen, forceu la sincronització completa des de la finestra de preferències.
 sync-clock-off = No s'ha pogut sincronitzar la base de dades. Comproveu que el rellotge del vostre dispositiu mostra l'hora correcta.
 sync-upload-too-large =
     El vostre fitxer de col·lecció és massa gran per enviar-lo a AnkiWeb. Podeu reduir-ne la mida 
-    treient els malls que no desitgeu (si voleu, podeu exportar-los abans) i, tot seguit, fent servir la funció «Comprova la base de dades» per a reduir la mida del fitxer. ({ $details })
+    treient els malls que no desitgeu (si voleu, podeu exportar-los abans) i, tot seguit, fent servir la funció «Verifica la base de dades» per a reduir la mida del fitxer. ({ $details })
 
 ## Buttons
 
