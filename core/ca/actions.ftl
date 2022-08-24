@@ -57,7 +57,7 @@ actions-currently-unsupported = El vostre sistema no és compatible amb aquesta 
 
 ## Flags
 
-actions-flag-number = Marcador { $number }
+actions-flag-number = Senyal { $number }
 actions-flag-red = Roig
 actions-flag-orange = Taronja
 actions-flag-green = Verd
@@ -65,4 +65,4 @@ actions-flag-blue = Blau
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turquesa
 actions-flag-purple = Morat
-actions-set-flag = Selecciona una bandera
+actions-set-flag = Selecciona un senyal

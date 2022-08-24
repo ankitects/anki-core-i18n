@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = Planificades
 # The count of cards waiting to be reviewed
-statistics-due-count = Vençudes
+statistics-due-count = Pendents
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card =
     { $number ->
@@ -132,8 +132,8 @@ statistics-days-ago-range = Fa { $daysStart }-{ $daysEnd } dies
 statistics-running-total = Total acumulat
 statistics-cards-due =
     { $cards ->
-        [one] 1 targeta vençuda
-       *[other] { $cards } targetes vençudes
+        [one] Una targeta pendent
+       *[other] { $cards } targetes pendents
     }
 statistics-backlog-checkbox = Acumulació
 statistics-intervals-title = Intervals

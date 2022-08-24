@@ -91,7 +91,7 @@ deck-config-leech-threshold-tooltip =
 deck-config-leech-action-tooltip =
     «Només etiqueta»: Afegeix l'etiqueta «sangonera» a la nota i mostra una finestra emergent.
     
-    «Suspèn la targeta»: Afegeix l'etiqueta «sangonera» a la nota i amaga la targeta fins que desfeu la suspensió manualment.
+    «Suspèn la targeta»: Afegeix l'etiqueta «sangonera» a la nota i amaga la targeta fins que anul·leu la suspensió manualment.
 
 ## Burying section
 
