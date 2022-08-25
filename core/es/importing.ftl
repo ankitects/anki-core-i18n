@@ -1,6 +1,7 @@
 importing-failed-debug-info = La importación falló. Información de depuración:
 importing-aborted = Abortada: { $val }
 importing-added-duplicate-with-first-field = Añadida duplicada con primer campo: { $val }
+importing-all-supported-formats = Todos los formatos compatibles { $val }
 importing-allow-html-in-fields = Permitir HTML en los campos
 importing-anki-files-are-from-a-very = Archivos de .anki son de una versión muy vieja de Anki. Puedes importarlos con Anki 2.0, disponible en el sitio web de Anki.
 importing-anki2-files-are-not-directly-importable = Los archivos .anki2 no se pueden importar directamente - por favor importe los archivos .apkg o .zip  que ha recibido en su lugar.
@@ -10,9 +11,11 @@ importing-change = Modificar
 importing-colon = Dos puntos
 importing-comma = Coma
 importing-empty-first-field = Primer campo vacio: { $val }
+importing-field-separator = Separador de camo
 importing-field-mapping = Asignar campos
 importing-field-of-file-is = El campo <b>{ $val }</b> del archivo es:
 importing-fields-separated-by = Campos separados por: { $val }
+importing-file-must-contain-field-column = El archivo debe contener al menos una columna que pueda asignarse a un campo de la nota.
 importing-file-version-unknown-trying-import-anyway = Versión del archivo desconocida, intentando abrir de todas formas.
 importing-first-field-matched = Primer campo coincidente: { $val }
 importing-identical = Idéntico
@@ -88,6 +91,11 @@ importing-processed-notes =
     { $count ->
         [one] { $count } nota procesada...
        *[other] { $count } notas procesadas...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Se ha procesado una tarjeta…
+       *[other] Se han procesado { $count } tarjetas…
     }
 importing-unable-to-import-filename = No fue posible importar { $filename }: tipo de archivo no compatible
 importing-existing-notes = Notas existentes

@@ -38,3 +38,6 @@ exporting-processed-media-files =
         [one] { $count } archivo multimedia procesado...
        *[other] { $count } archivos multimedia procesados...
     }
+exporting-include-deck = Incluye el nombre del mazo
+exporting-include-notetype = Incluye el nombre del tipo de nota
+exporting-include-guid = Incluye el identificador único
