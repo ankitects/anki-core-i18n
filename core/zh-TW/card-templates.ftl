@@ -2,7 +2,7 @@
 card-templates-blank = 空格
 card-templates-changes-will-affect-notes =
     { $count ->
-       *[other] 以下更動將會影響 { $count } 則使用此卡片類型的筆記。
+       *[other] 在下方做出的更動將影響 { $count } 則正在使用此卡片類型的筆記。
     }
 card-templates-card-type = 卡片類型：
 card-templates-front-template = 正面模板
