@@ -45,7 +45,7 @@ browsing-font = <b>Font</b>:
 browsing-font-size = <b>Ukuran Font</b>:
 browsing-found-as-across-bs = Cari { $part } pada { $whole }.
 browsing-ignore-case = Abaikan case
-browsing-in = <b>In</b>:
+browsing-in = <b>Dalam</b>:
 browsing-interval = Interval
 browsing-last-card = Kartu Terakhir
 browsing-learning = (sedang belajar)
@@ -70,6 +70,24 @@ browsing-question = Pertanyaan
 browsing-queue-bottom = Antrian Bawah: { $val }
 browsing-queue-top = Antrian Atas: { $val }
 browsing-randomize-order = Acak urutan
+browsing-remove-tags = Hapus Label...
+browsing-replace-with = <b>Ganti Dengan</b>:
+browsing-reposition = Reposisi...
+browsing-reposition-new-cards = Reposisi Kartu Baru
+browsing-reschedule = Jadwal ulang
+browsing-search-bar-hint = Cari kartu/catatan (ketikan teks, lalu tekan Enter)
+browsing-search-in = Cari dalam:
+browsing-search-within-formatting-slow = Cari dalam format (lama)
+browsing-selected-notes-only = Pilih hanya catatan
+browsing-shift-position-of-existing-cards = Geser kartu yang ada
+browsing-sidebar = Sidebar
+browsing-sidebar-filter = Filter Sidebar
+browsing-sort-field = Sortir bidang
+browsing-sorting-on-this-column-is-not = Sortir pada kolom ini tidak didukung. tolong pilih yang lain
+browsing-start-position = Mulai posisi:
+browsing-step = Step:
+browsing-suspended = Tercabut
+browsing-tag-duplicates = Label Duplikat
 
 ## obsolete; no need to translate
 
