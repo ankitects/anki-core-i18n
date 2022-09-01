@@ -10,7 +10,7 @@ browsing-average-ease = Rata" Ease
 browsing-average-interval = Rata" Interval
 browsing-browser-appearance = Tampilan Browser
 browsing-browser-options = Pengaturan Browser
-browsing-buried = Terpendam
+browsing-buried = Dipendam
 browsing-card = Kartu
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = K
