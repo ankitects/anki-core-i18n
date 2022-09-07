@@ -53,11 +53,14 @@ editing-text-color = Color del text
 editing-text-highlight-color = Color de ressaltat del texto
 editing-to-make-a-cloze-deletion-on = Si voleu crear buits en una nota existent, primer heu de canviar a un tipus de nota amb buits des del menú «Edita > Canvia el tipus de nota».
 editing-toggle-html-editor = Activa l'editor HTML
-editing-toggle-sticky = Activa l'ancoratge del text
 editing-toggle-visual-editor = Mostra l'editor visual
+editing-toggle-sticky = Activa l'ancoratge del text
+editing-expand-field = Expandeix el camp
+editing-collapse-field = Redueix el camp
 editing-underline-text = Subratlla el text
 editing-unordered-list = Llista desordenada
 editing-warning-cloze-deletions-will-not-work = Aneu amb compte: els buits no funcionaran fins que canvieu el tipus de nota a «Text amb buits».
+editing-toggle-mathjax-rendering = Activa la renderització MathJax
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
