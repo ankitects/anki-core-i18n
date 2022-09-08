@@ -53,11 +53,14 @@ editing-text-color = Textfarbe
 editing-text-highlight-color = Texthervorhebungsfarbe
 editing-to-make-a-cloze-deletion-on = Um einen Lückentext zu einer bereits vorhandenen Notiz hinzuzufügen, muss dieser erst der Notiztyp Lückentext zugewiesen werden. Dazu wählen Sie oben links in diesem Menü: 'Bearbeiten > Notiztyp ändern'
 editing-toggle-html-editor = Setze HTML Editor um
-editing-toggle-sticky = Beibehalten ein-/ausschalten
 editing-toggle-visual-editor = Setze den Optischen Editor um
+editing-toggle-sticky = Beibehalten ein-/ausschalten
+editing-expand-field = Feld ausklappen
+editing-collapse-field = Feld einklappen
 editing-underline-text = Text unterstreichen
 editing-unordered-list = Ungeordnete Liste
 editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur korrekt angezeigt, wenn oben als Notiztyp »Lückentext« gewählt wird.
+editing-toggle-mathjax-rendering = Mathjax-Rendering an-/abschalten
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
