@@ -11,6 +11,7 @@ actions-export = Esportatu
 actions-filter = Iragazia
 actions-help = Laguntza
 actions-import = Inportatu
+actions-manage = Kudeatu...
 actions-name = Izena:
 actions-new = Berria
 actions-new-name = Izen berria:
@@ -29,6 +30,24 @@ actions-search = Bilatu
 actions-select = Hautatu
 actions-shortcut-key = Tekla bizkor: { $val }
 actions-suspend-card = Karta eten
+actions-answer-card = Erantzun txartela
+actions-add-deck = Gehitu sorta
+actions-add-note = Gehitu oharra
+actions-update-tag = Eguneratu etiketa
+actions-update-note = Eguneratu oharra
+actions-update-card = Eguneratu txartela
+actions-update-deck = Eguneratu sorta
+actions-forget-card = Ahaztu txartela
+actions-build-filtered-deck = Sortu sorta
+actions-card-info = Txartelaren informazioa
+actions-previous-card-info = Aurreko txartelaren informazioa
 
 ## Flags
 
+actions-flag-red = Gorria
+actions-flag-orange = Laranja
+actions-flag-green = Berdea
+actions-flag-blue = Urdina
+actions-flag-pink = Arrosa
+actions-flag-turquoise = Turkesa
+actions-flag-purple = Morea
