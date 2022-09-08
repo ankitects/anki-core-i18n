@@ -12,6 +12,14 @@ deck-config-daily-limits = Eguneko mugak
 deck-config-review-limit-tooltip =
     Egunean gehienez erakutsiko diren berrikusteko txartelen kopurua,
     txartelak berrikusteko prest badaude.
+deck-config-limit-deck-v3 =
+    Azpisortak dituen sorta bat ikastean, azpisorta bakoitzean ezarritako mugek
+    sorta jakin horretatik hartutako gehieneko txartel-kopurua kontrolatzen dute.
+    Hautatutako sortaren mugek guztira erakutsiko diren txartelen kopurua kontrolatzen dute.
+deck-config-limit-new-bound-by-reviews =
+    Berrikuspen-mugak berrien mugari eragiten dio. Adibidez, 200eko berrikuspen-muga
+    baduzu ezarrita, eta 190 berrikuspen badituzu zain, gehienez 10 txartel berri aurkeztuko dira.
+    Berrikuspen-mugara iristean, ez da txartek berririk erakutsiko.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -19,6 +27,7 @@ deck-config-review-limit-tooltip =
 
 ## New Cards section
 
+deck-config-learning-steps = Ikasketa-urratsak
 
 ## Lapses section
 
