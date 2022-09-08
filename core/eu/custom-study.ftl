@@ -1,3 +1,4 @@
+custom-study-all-review-cards-in-random-order = Berrikusteko txartel guztiak ausaz ordenatuta
 custom-study-cards = kartak
 custom-study-cards-from-the-deck = sortako kartak
 custom-study-choose-tags = Etiketak Aukeratu
@@ -21,3 +22,7 @@ custom-study-select = Hautatu
 custom-study-select-tags-to-exclude = baztertzeko etiketak hautatu
 custom-study-selective-study = Hautatzeko errepasatzea
 custom-study-study-by-card-state-or-tag = Kartaz edo etiketaz Ikasi
+custom-study-available-child-count = ({ $count } azpisortetan)
+
+## DEPRECATED - you do not need to translate these.
+
