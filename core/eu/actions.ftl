@@ -1,14 +1,14 @@
 actions-add = Erantsi
 actions-cancel = Utzi
 actions-choose = Aukeratu
-actions-close = Irten
+actions-close = Itxi
 actions-copy = Kopiatu
 actions-create-copy = Sortu kopia
 actions-custom-study = Ikasketa itxuratuta
 actions-decks = Karta-sortak
 actions-delete = Ezabatu
 actions-export = Esportatu
-actions-filter = Iragazia
+actions-filter = Iragazi
 actions-help = Laguntza
 actions-import = Inportatu
 actions-manage = Kudeatu...
@@ -20,8 +20,9 @@ actions-options-for = { $val }-(r)en aukerak
 actions-preview = Aurrebista
 actions-rebuild = Berreraiki
 actions-rename = Berrizendatu
-actions-rename-deck = Sorta berrizendatu
+actions-rename-deck = Berrizendatu sorta
 actions-rename-tag = Berrizendatu etiketa
+actions-rename-with-parents = Berrizendatu gurasoekin
 actions-remove-tag = Kendu etiketa
 actions-replay-audio = Grabaketa berriro jarri
 actions-reposition = Berreposizionatu
@@ -39,8 +40,13 @@ actions-update-card = Eguneratu txartela
 actions-update-deck = Eguneratu sorta
 actions-forget-card = Ahaztu txartela
 actions-build-filtered-deck = Sortu sorta
+actions-add-notetype = Gehitu ohar-mota
+actions-remove-notetype = Kendu ohar-mota
+actions-update-notetype = Eguneratu ohar-mota
+actions-update-config = Eguneratu konfigurazioa
 actions-card-info = Txartelaren informazioa
 actions-previous-card-info = Aurreko txartelaren informazioa
+actions-currently-unsupported = Ekintza hau ez da bateragarria zure sistemarekin.
 
 ## Flags
 
