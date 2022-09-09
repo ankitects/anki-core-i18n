@@ -1,5 +1,5 @@
 browsing-add-notes = Gehitu oharrak...
-browsing-add-tags2 = Etiketak erantsi...
+browsing-add-tags2 = Gehitu etiketak...
 browsing-add-to-selected-notes = Gehitu hautatutako oharretara
 browsing-remove-from-selected-notes = Kendu hautatutako oharretatik
 browsing-addon = Gehigarria
@@ -7,7 +7,7 @@ browsing-all-fields = Eremu guztiak
 browsing-answer = Erantzuna
 browsing-average-ease = Batez besteko erraztasuna
 browsing-average-interval = Batez besteko tartea
-browsing-browser-appearance = Nabigatzailearen Itxura
+browsing-browser-appearance = Arakatzaileko itxura
 browsing-browser-options = Arakatzailearen aukerak
 browsing-card = Karta
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
@@ -18,6 +18,8 @@ browsing-change-deck = Aldatu karta-sorta
 browsing-change-deck2 = Aldatu sorta...
 browsing-change-note-type = Aldatu ohar-mota
 browsing-change-note-type2 = Aldatu ohar-mota...
+browsing-change-notetype = Aldatu ohar-mota
+browsing-clear-unused-tags = Garbitu erabili gabeko etiketak
 browsing-created = Sortuta
 browsing-current-deck = Uneko karta-sorta
 browsing-current-note-type = Uneko ohar-mota
