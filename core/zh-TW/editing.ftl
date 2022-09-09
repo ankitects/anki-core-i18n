@@ -53,11 +53,14 @@ editing-text-color = 文字顏色
 editing-text-highlight-color = 重點文字顏色
 editing-to-make-a-cloze-deletion-on = 若要在現有的筆記上建立克漏字空格，你必須先透過「筆記」>「更改筆記類型」將其改為克漏字類型。
 editing-toggle-html-editor = 打開/關閉 HTML 編輯器
-editing-toggle-sticky = 凍結/取消凍結欄位
 editing-toggle-visual-editor = 打開/關閉視覺化編輯器
+editing-toggle-sticky = 凍結/取消凍結欄位
+editing-expand-field = 展開欄位
+editing-collapse-field = 摺疊欄位
 editing-underline-text = 為文字加上底線
 editing-unordered-list = 無序清單
 editing-warning-cloze-deletions-will-not-work = 提示，若上方的類型不是克漏字，克漏字空格將不會生效。
+editing-toggle-mathjax-rendering = 啟用/停用 MathJax 轉譯
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
