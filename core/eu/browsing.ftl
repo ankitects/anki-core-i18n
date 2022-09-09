@@ -9,6 +9,7 @@ browsing-average-ease = Batez besteko erraztasuna
 browsing-average-interval = Batez besteko tartea
 browsing-browser-appearance = Arakatzaileko itxura
 browsing-browser-options = Arakatzailearen aukerak
+browsing-buried = Lurperatuta
 browsing-card = Karta
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = T
@@ -77,27 +78,35 @@ browsing-sorting-on-this-column-is-not = Ezin da zutabe honen arabera ordenatu. 
 browsing-start-position = Abiapuntua:
 browsing-step = Urratsa:
 browsing-suspended = Etenda
-browsing-tag-duplicates = Bizkoitutak etiketatu
+browsing-tag-duplicates = Etiketatu bikoiztuak
 browsing-tag-rename-warning-empty = Ezin duzu oharrik ez duen etiketa bat berrizendatu.
 browsing-target-field = Jomuga izanda eremua:
-browsing-treat-input-as-regular-expression = Sarrera adierazpen erregular batentzat hartu
+browsing-toggle-suspend = Eten/berrekin
+browsing-treat-input-as-regular-expression = Hartu sarrera adierazpen erregulartzat
 browsing-update-saved-search = Eguneratu uneko bilaketarekin
 browsing-whole-collection = Bilduma osoa
 browsing-window-title-notes = Arakatu ({ $selected } ohar hautatuta, { $total } guztira)
 browsing-you-must-have-at-least-one = Gutxienez zutabe bat izan behar duzu.
 browsing-group =
     { $count ->
-        [one] Talde { $count }
+        [one] Talde bat
        *[other] { $count } talde
     }
 browsing-note-count =
     { $count ->
-        [one] Ohar { $count }
+        [one] Ohar bat
        *[other] { $count } ohar
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] Ohar bat eguneratuta.
+       *[other] { $count } ohar eguneratuta.
     }
 browsing-window-title = Arakatu ({ $selected } txartel hautatuta, { $total } guztira)
 browsing-sidebar-expand = Zabaldu
 browsing-sidebar-collapse = Tolestu
+browsing-sidebar-expand-children = Zabaldu barrukoak
+browsing-sidebar-collapse-children = Tolestu barrukoak
 browsing-sidebar-decks = Sortak
 browsing-sidebar-tags = Etiketak
 browsing-sidebar-notetypes = Ohar-motak
@@ -111,6 +120,7 @@ browsing-tooltip-notetype = Ohar-motaren izena
 browsing-studied-today = Gaur ikasitakoak
 browsing-added-today = Gaur erantsita
 browsing-again-today = Gaur berriro
+browsing-row-deleted = (ezabatuta)
 
 ## obsolete; no need to translate
 
