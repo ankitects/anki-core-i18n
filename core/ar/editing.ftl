@@ -53,11 +53,14 @@ editing-text-color = لون النص
 editing-text-highlight-color = لون تظليل النص
 editing-to-make-a-cloze-deletion-on = لصنع عبارة ملء فراغات في ملحوظة موجودة، عليك تغيير نوعها إلى نوع ملء الفراغات أولًا، عبر 'ملحوظات>تغيير نوع الملحوظة'
 editing-toggle-html-editor = تفعيل محرر HTML أو إيقافه
-editing-toggle-sticky = تفعيل/إيقاف ثبات النص
 editing-toggle-visual-editor = تفعيل المحرر المرئي أو إيقافه
+editing-toggle-sticky = تفعيل/إيقاف ثبات النص
+editing-expand-field = إسدال الحقل
+editing-collapse-field = طي الحقل
 editing-underline-text = خط تحت النص
 editing-unordered-list = قائمة غير مرقمة
 editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء الفراغات لن تعمل حتى تغيّر النوع في الأعلى إلى نوع ملء الفراغات.
+editing-toggle-mathjax-rendering = تفعيل/إيقاف معالجة MathJax
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
