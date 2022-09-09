@@ -121,6 +121,11 @@ browsing-studied-today = Gaur ikasitakoak
 browsing-added-today = Gaur erantsita
 browsing-again-today = Gaur berriro
 browsing-row-deleted = (ezabatuta)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Erabili gabeko etiketa bat kendu da.
+       *[other] Erabili gabeko { $count } etiketa kendu dira.
+    }
 
 ## obsolete; no need to translate
 
