@@ -28,9 +28,12 @@ deck-config-limit-new-bound-by-reviews =
 ## New Cards section
 
 deck-config-learning-steps = Ikasketa-urratsak
+deck-config-new-insertion-order-sequential = Sekuentziala (txartel zaharrenak lehenik)
+deck-config-new-insertion-order-random = Ausaz
 
 ## Lapses section
 
+deck-config-relearning-steps = Berrikasketa-urratsak
 
 ## Burying section
 
