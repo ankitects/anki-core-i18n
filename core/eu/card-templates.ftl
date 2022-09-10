@@ -1,14 +1,19 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = hutsunea
 card-templates-card-type = Karta mota:
-card-templates-front-template = Aurreko txantxiloia
-card-templates-back-template = Atzera txantiloia
+card-templates-front-template = Aurrealdearen txantiloia
+card-templates-back-template = Atzealdearen txantiloia
 card-templates-template-styling = Estiloa
-card-templates-front-preview = Aurreko aurreikustea
-card-templates-back-preview = Atzera aurrebista
+card-templates-front-preview = Aurrealdearen aurrebista
+card-templates-back-preview = Atzealdearen aurrebista
 card-templates-preview-box = Aurrebista
 card-templates-template-box = Txantiloia
-card-templates-sample-cloze = Hau da { "{{c1::" }lagina{ "}}" } ezabatzea
+card-templates-sample-cloze = Hau hutsune baten { "{{c1::" }adibidea{ "}}" } da.
 card-templates-fill-empty = Bete eremu hutsak
 card-templates-night-mode = Gaueko modua
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Gehitu mugikorretarako CSS klasea
 card-templates-preview-settings = Aukerak
 card-templates-invalid-template-number = "{ $notetype }" ohar-motako { $number }. txartel-txantiloiak arazo bat du.
 card-templates-identical-front = Aurrealdea { $number }. txartel-txantiloiaren berdina da.
@@ -18,6 +23,7 @@ card-templates-discard-changes = Aldaketak baztertu?
 card-templates-add-card-type = Erantsi karta mota...
 card-templates-anki-couldnt-find-the-line-between = Ankik ezin izan du aurkitu galdera eta erantzunaren arteko lerroa. Mesedez doitu txantiloia eskuz galdera eta erantzuna trukatzeko.
 card-templates-at-least-one-card-type-is = behintzat karta mota bat beharrezkoa da
+card-templates-browser-appearance = Arakatzaileko itxura...
 card-templates-card = { $val } karta
 card-templates-card-types-for = { $val }-(r)entzako karta motak
 card-templates-cloze = hutsuneak betetzea
