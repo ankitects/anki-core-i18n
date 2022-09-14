@@ -112,7 +112,7 @@ browsing-note-count =
 browsing-notes-updated =
     { $count ->
         [one] S'ha actualitzat una nota.
-       *[other] S'ham actualitzat { $count } notes.
+       *[other] S'han actualitzat { $count } notes.
     }
 browsing-cards-updated =
     { $count ->
