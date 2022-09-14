@@ -174,7 +174,7 @@ deck-config-sort-order-descending-ease = Snadnost sestupně
 deck-config-sort-order-relative-overdueness = Relativní zpožděnost
 deck-config-display-order-will-use-current-deck =
     Anki použije pořadí zobrazování balíčku, který jste vybrali 
-    k učení, a ne podřízených balíčků, které může mít.
+    ke studiu, a ne podřízených balíčků, které může mít.
 
 ## Timer section
 

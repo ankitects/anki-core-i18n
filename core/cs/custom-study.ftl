@@ -1,10 +1,10 @@
-custom-study-must-rename-deck = Prosím nejdříve přejmenujte stávající balíček vlastního učení.
+custom-study-must-rename-deck = Prosím nejdříve přejmenujte stávající balíček vlastního studia.
 custom-study-all-cards-in-random-order-dont = Všechny kartičky v náhodném pořadí (nepřehazovat)
 custom-study-all-review-cards-in-random-order = Všechny opakované karty v náhodném pořadí
 custom-study-cards = karty
 custom-study-cards-from-the-deck = karty z balíčku
 custom-study-choose-tags = Vyber štítky
-custom-study-custom-study-session = Vlastní studijní sezení
+custom-study-custom-study-session = Dodatečné procvičování
 custom-study-due-cards-only = Jen karty k opakování
 custom-study-increase-todays-new-card-limit = Zvýšit dnešní limit nových karet
 custom-study-increase-todays-new-card-limit-by = Zvýšit dnešní limit nových karet o
