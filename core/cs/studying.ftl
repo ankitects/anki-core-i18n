@@ -14,11 +14,11 @@ studying-cards-buried =
         [few] { $count } karty přeskočeny.
        *[other] { $count } karet přeskočeno.
     }
-studying-cards-will-be-automatically-returned-to = Po zopakování budou karty automaticky vráceny do jejich originálního balíku.
+studying-cards-will-be-automatically-returned-to = Po zopakování budou karty automaticky vráceny do jejich originálního balíčku.
 studying-continue = Pokračovat
-studying-counts-differ = Počty se liší od seznamu balíků, protože přeskakování karet je povoleno. Některé karty byly vyloučeny a jiné mohou obsadit jejich místo.
+studying-counts-differ = Počty se liší od seznamu balíčků, protože přeskakování karet je povoleno. Některé karty byly vyloučeny a jiné mohou obsadit jejich místo.
 studying-delete-note = Odstranit poznámku
-studying-deleting-this-deck-from-the-deck = Vymazáním tohoto balíku se všechny zbývající karty vrátí do jejich originálního balíku.
+studying-deleting-this-deck-from-the-deck = Odstraněním tohoto balíčku se všechny zbývající karty vrátí do jejich originálního balíčku.
 studying-easy = Snadné
 studying-edit = Upravit
 studying-empty = Vyprázdnit
@@ -41,7 +41,7 @@ studying-space = Mezera
 studying-study-now = Studovat teď
 studying-suspend = Vyřadit
 studying-suspend-note = Vyřadit poznámku
-studying-this-is-a-special-deck-for = Toto je speciální balík pro studium mimo normální plán.
+studying-this-is-a-special-deck-for = Toto je speciální balíček pro studium mimo normální plán.
 studying-to-review = K opakování
 studying-type-answer-unknown-field = Napište odpověd: neznámé pole { $val }
 studying-unbury = Zrušit přeskočení

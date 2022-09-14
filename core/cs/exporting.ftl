@@ -1,7 +1,7 @@
-exporting-all-decks = Všechny balíky
-exporting-anki-20-deck = Anki 2.0 balík
+exporting-all-decks = Všechny balíčky
+exporting-anki-20-deck = Anki 2.0 balíček
 exporting-anki-collection-package = Balík Anki kolekce
-exporting-anki-deck-package = Balík Anki
+exporting-anki-deck-package = Balíček Anki
 exporting-cards-in-plain-text = Karty jako prostý text
 exporting-collection = kolekce
 exporting-collection-exported = Kolekce exportována.

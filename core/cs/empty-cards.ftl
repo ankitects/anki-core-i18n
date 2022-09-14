@@ -6,9 +6,9 @@ empty-cards-delete-button = Odstranit
 empty-cards-not-found = Žádné prázdné karty.
 empty-cards-deleted-count =
     { $cards ->
-        [one] Smazána { $cards } karta.
-        [few] Smazány { $cards } karty.
-       *[other] Smazáno { $cards } karet.
+        [one] Odstraněna { $cards } karta.
+        [few] Odstraněny { $cards } karty.
+       *[other] Odstraněno { $cards } karet.
     }
 empty-cards-delete-empty-cards = Odstranit prázdné karty
 empty-cards-delete-empty-notes = Odstranit prázdné poznámky

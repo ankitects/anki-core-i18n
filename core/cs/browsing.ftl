@@ -1,13 +1,10 @@
 browsing-add-notes = Přidat poznámky...
-browsing-add-tags = Přidat štítky
 browsing-add-tags2 = Přidat štítky...
 browsing-add-to-selected-notes = Přidat do vybraných poznámek
 browsing-remove-from-selected-notes = Odstranit z vybraných poznámek
 browsing-addon = Doplněk
-browsing-all-card-types = Všechny typy karet
 browsing-all-fields = Všechna pole
 browsing-answer = Odpověď
-browsing-any-cards-mapped-to-nothing-will = Karty mapované na prázný cíl budou smazány. Nezbývají-li už v poznámce žádné karty, bude poznámka ztracena. Opravdu chcete pokračovat?
 browsing-any-flag = Kterýkoli příznak
 browsing-average-ease = Prům. snadnost
 browsing-average-interval = Prům. interval
@@ -18,32 +15,26 @@ browsing-card = Karta
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = K
 browsing-card-list = Seznam karet
-browsing-card-state = Stav karty
-browsing-cards-cant-be-manually-moved-into = Karty nemůžou být ručně převedeny do filtrovaného balíku.
+browsing-cards-cant-be-manually-moved-into = Karty nemůžou být ručně převedeny do filtrovaného balíčku.
 browsing-cards-deleted =
     { $count ->
         [one] { $count } karta odstraněna.
         [few] { $count } karty odstraněny.
        *[other] { $count } karet odstraněno.
     }
-browsing-change-deck = Změnit balík
-browsing-change-deck2 = Změnit balík...
+browsing-change-deck = Změnit balíček
+browsing-change-deck2 = Změnit balíček...
 browsing-change-note-type = Změň typ poznámky
 browsing-change-note-type2 = Změnit typ poznámky...
 browsing-change-notetype = Změnit typ poznámky
-browsing-change-to = Změnit { $val } na:
-browsing-clear-unused = Vymazat nepoužívané
 browsing-clear-unused-tags = Vymazat nepoužívané štítky
 browsing-confirm-saved-search-overwrite = Uložené hledání s názvem { $name } již existuje. Chcete ho přepsat?
 browsing-created = Vytvořeno
-browsing-ctrlandshiftande = Ctrl+Shift+E
-browsing-current-deck = Současný balík
+browsing-current-deck = Současný balíček
 browsing-current-note-type = Současný typ poznámky:
 browsing-delete-notes = Odstranit poznámky
-browsing-delete-tags = Smazat štítky
 browsing-duplicate = duplikát
 browsing-ease = Snadnost
-browsing-end = Konec
 browsing-enter-tags-to-add = Zadejte štítky k přidání:
 browsing-enter-tags-to-delete = Zadejte štítky k odstranění:
 browsing-filtered = (filtrováno)
@@ -55,7 +46,6 @@ browsing-flag = Příznak
 browsing-font = <b>Písmo</b>:
 browsing-font-size = <b>Velikost písma</b>:
 browsing-found-as-across-bs = Nalezeno { $part } mezi { $whole }.
-browsing-home = Domů
 browsing-ignore-case = Ignorovat velikost písmen
 browsing-in = <b>V</b>:
 browsing-interval = Interval
@@ -64,8 +54,7 @@ browsing-learning = (učí se)
 browsing-line-size = <b>Velikost řádku</b>:
 browsing-manage-note-types = Správa typů poznámek...
 browsing-move-cards = Přemístit kartu
-browsing-move-cards-to-deck = Přemístit karty do balíku:
-browsing-nd-names = { $num }: { $name }
+browsing-move-cards-to-deck = Přemístit karty do balíčku:
 browsing-new = (nové)
 browsing-new-note-type = Nový typ poznámky:
 browsing-no-flag = Žádný příznak
@@ -73,14 +62,11 @@ browsing-no-selection = Nejsou vybrány žádné karty nebo poznámky.
 browsing-note = Poznámka
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = P
-browsing-notes-tagged = Poznámky oštítkovány.
-browsing-nothing = Nic
 browsing-optional-filter = Volitelný filtr:
 browsing-override-back-template = Přepsat šablonu rubu:
 browsing-override-font = Přepsat typ písma:
 browsing-override-front-template = Přepsat šablonu líce:
 browsing-please-give-your-filter-a-name = Prosím pojmenujte filtr:
-browsing-please-select-cards-from-only-one = Prosím, vyberte karty pouze od jednoho typu poznámky.
 browsing-preview-selected-card = Náhled vybrané karty ({ $val })
 browsing-question = Otázka
 browsing-queue-bottom = Konec fronty: { $val }
@@ -126,12 +112,6 @@ browsing-note-count =
         [few] { $count } poznámky
        *[other] { $count } poznámek
     }
-browsing-note-deleted =
-    { $count ->
-        [one] { $count } poznámka smazána.
-        [few] { $count } poznámky smazány.
-       *[other] { $count } poznámek smazáno.
-    }
 browsing-notes-updated =
     { $count ->
         [one] { $count } poznámka aktualizována.
@@ -149,7 +129,7 @@ browsing-sidebar-expand = Rozbalit
 browsing-sidebar-collapse = Sbalit
 browsing-sidebar-expand-children = Rozbalit podřízené
 browsing-sidebar-collapse-children = Sbalit podřízené
-browsing-sidebar-decks = Balíky
+browsing-sidebar-decks = Balíčky
 browsing-sidebar-tags = Štítky
 browsing-sidebar-notetypes = Typy poznámek
 browsing-sidebar-saved-searches = Uložená hledání
@@ -157,7 +137,7 @@ browsing-sidebar-save-current-search = Uložit současné hledání
 browsing-sidebar-card-state = Stav karty
 browsing-sidebar-flags = Příznaky
 browsing-today = Dnes
-browsing-tooltip-card-modified = Kdy naposledy byla karta upravena, včetně opakování, příznaků a změny balíku
+browsing-tooltip-card-modified = Kdy naposledy byla karta upravena, včetně opakování, příznaků a změny balíčku
 browsing-tooltip-note-modified = Kdy naposledy byla poznámka změněna, obvykle obsah polí nebo úpravy štítků
 browsing-tooltip-card = Název šablony pro kartu
 browsing-tooltip-cards = Počet karet, které poznámka má
@@ -173,7 +153,7 @@ browsing-sidebar-rescheduled = Přeplánováno
 browsing-sidebar-due-today = Ke zkoušení
 browsing-sidebar-untagged = Neoznačeno
 browsing-sidebar-overdue = Zpožděno
-browsing-row-deleted = (smazáno)
+browsing-row-deleted = (odstraněno)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Odstraněn { $count } nepoužívaný štítek.
@@ -188,11 +168,10 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-        [one] Přejmenován { $count } balík.
-        [few] Přejmenovány { $count } balíky.
-       *[other] Přejmenováno { $count } balíků.
+        [one] Přejmenován { $count } balíček.
+        [few] Přejmenovány { $count } balíčky.
+       *[other] Přejmenováno { $count } balíčků.
     }
 
 ## obsolete; no need to translate
 
-browsing-only-new-cards-can-be-repositioned = Přemístěny mohou být jen nové karty.

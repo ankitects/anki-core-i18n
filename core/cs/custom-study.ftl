@@ -1,8 +1,8 @@
-custom-study-must-rename-deck = Prosím nejdříve přejmenujte stávající balík vlastního učení.
+custom-study-must-rename-deck = Prosím nejdříve přejmenujte stávající balíček vlastního učení.
 custom-study-all-cards-in-random-order-dont = Všechny kartičky v náhodném pořadí (nepřehazovat)
 custom-study-all-review-cards-in-random-order = Všechny opakované karty v náhodném pořadí
 custom-study-cards = karty
-custom-study-cards-from-the-deck = karty z balíku
+custom-study-cards-from-the-deck = karty z balíčku
 custom-study-choose-tags = Vyber štítky
 custom-study-custom-study-session = Vlastní studijní sezení
 custom-study-due-cards-only = Jen karty k opakování
@@ -26,7 +26,7 @@ custom-study-selective-study = Vlastní studium
 custom-study-study-by-card-state-or-tag = Studovat podle stavu karty nebo štítku
 custom-study-available-new-cards-2 = Dostupné nové karty: { $countString }
 custom-study-available-review-cards-2 = Dostupné opakované karty: { $countString }
-custom-study-available-child-count = ({ $count } v podřízených balících)
+custom-study-available-child-count = ({ $count } v podřízených balíčcích)
 
 ## DEPRECATED - you do not need to translate these.
 

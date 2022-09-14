@@ -27,9 +27,9 @@ sync-resync-required = Prosím synchronizujte znova. Pokud se tato zpráva stál
 sync-must-wait-for-end = Anki se nyní synchronizuje. Prosím počkejte, dokud se synchronizace nedokončí, poté to zkuste znovu.
 sync-confirm-empty-download = Místní kolekce nemá žádné karty. Stáhnout z AnkiWebu?
 sync-conflict-explanation =
-    Vaše balíky zde a na AnkiWeb jsou rozdílné natolik, že nemohou být sloučeny, takže je nutné přepsat balíky jedné strany balíky druhou stranou.
+    Vaše balíčky zde a na AnkiWeb jsou rozdílné natolik, že nemohou být sloučeny, takže je nutné balíčky jedné strany přepsat balíčky druhé strany.
     
-    Jestliže zvolíte stáhnout, Anki stáhne kolekci z AnkiWeb a všechny změny, které jste provedli na tomto počítači od poslední synchronizace, budou ztraceny.
+    Jestliže zvolíte stáhnout, Anki stáhne kolekci z AnkiWeb a všechny změny, které jste provedli na tomto zařízení od poslední synchronizace, budou ztraceny.
     
     Pokud zvolíte nahrát, Anki odešle vaši kolekci na AnkiWeb a všechny změny, které jste provedli na AnkiWeb nebo jiných zařízeních od poslední synchronizace daného zařízení, budou ztraceny.
     
@@ -43,7 +43,7 @@ sync-sanity-check-failed = Prosím použijte funkci Zkontrolovat databázi, pot�
 sync-clock-off = Nelze synchronizovat - vaše hodiny nemají nastaveny správný čas.
 sync-upload-too-large =
     Soubor s vaší kolekcí je příliš velký, než aby se dal poslat na AnkiWeb. Můžete ho 
-    zmenšit tak, že odstraníte nechtěné balíky (nejdříve si je můžete exportovat) a poté 
+    zmenšit tak, že odstraníte nechtěné balíčky (nejdříve si je můžete exportovat) a poté 
     použijete Zkontrolovat databázi, což zmenší velikost souboru. ({ $details })
 
 ## Buttons

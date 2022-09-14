@@ -9,10 +9,10 @@ database-check-card-properties =
     }
 database-check-missing-templates =
     { $count ->
-        [one] Vymazána { $count } karta s chybějící šablonou.
-        [few] Vymazány { $count } karty s chybějící šablonou.
-        [many] Vymazáno { $count } karet s chybějící šablonou.
-       *[other] Vymazáno { $count } karet s chybějící šablonou.
+        [one] Odstraněna { $count } karta s chybějící šablonou.
+        [few] Odstraněny { $count } karty s chybějící šablonou.
+        [many] Odstraněno { $count } karet s chybějící šablonou.
+       *[other] Odstraněno { $count } karet s chybějící šablonou.
     }
 database-check-field-count =
     { $count ->
@@ -28,10 +28,10 @@ database-check-new-card-high-due =
     }
 database-check-card-missing-note =
     { $count ->
-        [one] Vymazána { $count } karta s chybějící poznámkou.
-        [few] Vymazány { $count } karty s chybějící poznámkou.
-        [many] Vymazáno { $count } karet s chybějící poznámkou.
-       *[other] Vymazáno { $count } karet s chybějící poznámkou.
+        [one] Odstraněna { $count } karta s chybějící poznámkou.
+        [few] Odstraněny { $count } karty s chybějící poznámkou.
+        [many] Odstraněno { $count } karet s chybějící poznámkou.
+       *[other] Odstraněno { $count } karet s chybějící poznámkou.
     }
 database-check-duplicate-card-ords =
     { $count ->
@@ -41,9 +41,9 @@ database-check-duplicate-card-ords =
     }
 database-check-missing-decks =
     { $count ->
-        [one] Opraven { $count } chybějící balík.
-        [few] Opraveny { $count } chybějící balíky.
-       *[other] Opraveno { $count } chybějících balíků.
+        [one] Opraven { $count } chybějící balíček.
+        [few] Opraveny { $count } chybějící balíčky.
+       *[other] Opraveno { $count } chybějících balíčků.
     }
 database-check-revlog-properties =
     { $count ->

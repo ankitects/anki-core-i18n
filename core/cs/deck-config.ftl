@@ -7,12 +7,12 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     { $decks ->
-        [one] používá 1 balík
-        [few] používají { $decks } balíky
-       *[other] používá { $decks } balíků
+        [one] používá 1 balíček
+        [few] používají { $decks } balíčky
+       *[other] používá { $decks } balíčků
     }
 deck-config-default-name = Výchozí
-deck-config-title = Možnosti balíku
+deck-config-title = Možnosti balíčku
 
 ## Daily limits section
 
@@ -25,9 +25,9 @@ deck-config-review-limit-tooltip =
     Maximální počet opakovaných karet za den,
     jestliže jsou karty připraveny k zopakování.
 deck-config-limit-deck-v3 =
-    Při studování balíku, který má podřízené balíky, limity nastavené pro každý 
-    podřízený balík řídí maximální počet karet vzatých z daného balíku. 
-    Zvolené limity balíků řídí celkový počet karet, které se zobrazí.
+    Při studování balíčku, který má podřízené balíčky, limity nastavené pro každý 
+    podřízený balíček řídí maximální počet karet vzatých z daného balíčku. 
+    Zvolené limity balíčků řídí celkový počet karet, které se zobrazí.
 deck-config-limit-new-bound-by-reviews =
     Limit opakování ovlivní limit nových karet. Například, jestliže je limit opakování 
     nastaven na 200, a čeká vás 190 opakování, bude zobrazeno maximálně 10 nových 
@@ -36,6 +36,10 @@ deck-config-limit-interday-bound-by-reviews =
     Limit opakování také ovlivní učené karty, které překračují do dalšího dne. 
     Když se uplatní limit, karty, které překračují do dalšího dne, jsou nabrány 
     první, poté opakování a nakonec nové karty.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
 
 ## New Cards section
 
@@ -72,7 +76,7 @@ deck-config-relearning-steps-tooltip = Žádná nebo více prodlev oddělených 
 deck-config-leech-threshold-tooltip =
     Počet stisknutí `Znovu` na opakované kartě předtím, než je označena jako 
     pijavice. Pijavice jsou karty, které spotřebovávají hodně času, a když je karta 
-    označena jako pijavice, je dobrý nápad ji přepsat, smazat nebo se zamyslet 
+    označena jako pijavice, je dobrý nápad ji přepsat, odstranit, nebo se zamyslet 
     nad mnemotechnickou pomůckou, která pomůže si ji zapamatovat.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -96,10 +100,10 @@ deck-config-bury-tooltip =
 deck-config-ordering-title = Pořadí zobrazování
 deck-config-new-gather-priority = Pořadí nabírání nových karet
 deck-config-new-gather-priority-tooltip-2 =
-    `Balík`: nabírá karty z každého balíku v pořadí, začíná z vrchu. Karty z každého balíku jsou
-    nabírány ve vzestupném pořadí. Jestliže se dosáhne denního limitu vybraného balíku, nabírání 
-    karet se může zastavit dříve, než byly prověřeny všechny balíky. Toto řazení je nejrychlejší pro
-    velké kolekce a umožňuje upřednostňovat podřízené balíky, které jsou výše.
+    `Balíček`: nabírá karty z každého balíčku v pořadí, začíná z vrchu. Karty z každého balíčku jsou
+    nabírány ve vzestupném pořadí. Jestliže se dosáhne denního limitu vybraného balíčku, nabírání 
+    karet se může zastavit dříve, než byly prověřeny všechny balíčky. Toto řazení je nejrychlejší pro
+    velké kolekce a umožňuje upřednostňovat podřízené balíčky, které jsou výše.
     
     `Umístění vzestupně`: nabírá karty podle pozice (ke zkoušení) vzestupně, což je obvykle
     nejstarší přidané jako první.
@@ -112,7 +116,7 @@ deck-config-new-gather-priority-tooltip-2 =
     sezení (např. přední a zadní stranu karty)
     
     `Karty náhodně`: nabírá karty zcela náhodně.
-deck-config-new-gather-priority-deck = Balík
+deck-config-new-gather-priority-deck = Balíček
 deck-config-new-gather-priority-position-lowest-first = Umístění vzestupně
 deck-config-new-gather-priority-position-highest-first = Umístění sestupně
 deck-config-new-gather-priority-random-notes = Poznámky náhodně
@@ -158,18 +162,19 @@ deck-config-review-sort-order-tooltip =
     Výchozí řazení upřednostňuje karty, které čekaly nejdéle, takže jestliže máte 
     nevyřízená opakování, nejdéle čekající karty se zobrazí první. Jestliže máte 
     velké množství nevyřízených opakování, která zaberou více, než několik málo 
-    dní, můžete shledat alternativní pořadí řazení vhodnější.
+    dní, nebo si přejte vidět karty v pořadí podřízených balíčků, můžete shledat 
+    alternativní pořadí řazení vhodnější.
 deck-config-sort-order-due-date-then-random = Datum zkoušení, poté náhodně
-deck-config-sort-order-due-date-then-deck = Datum zkoušení, poté balík
-deck-config-sort-order-deck-then-due-date = Balík, poté datum zkoušení
+deck-config-sort-order-due-date-then-deck = Datum zkoušení, poté balíček
+deck-config-sort-order-deck-then-due-date = Balíček, poté datum zkoušení
 deck-config-sort-order-ascending-intervals = Intervaly vzestupně
 deck-config-sort-order-descending-intervals = Intervaly sestupně
 deck-config-sort-order-ascending-ease = Snadnost vzestupně
 deck-config-sort-order-descending-ease = Snadnost sestupně
 deck-config-sort-order-relative-overdueness = Relativní zpožděnost
 deck-config-display-order-will-use-current-deck =
-    Anki použije pořadí zobrazování balíku, který jste vybrali 
-    k učení, a ne podřízených balíků, které může mít.
+    Anki použije pořadí zobrazování balíčku, který jste vybrali 
+    k učení, a ne podřízených balíčků, které může mít.
 
 ## Timer section
 
@@ -232,7 +237,7 @@ deck-config-confirm-remove-name = Odstranit { $name }?
 ## Other Buttons
 
 deck-config-save-button = Uložit
-deck-config-save-to-all-subdecks = Uložit pro všechny podřízené balíky
+deck-config-save-to-all-subdecks = Uložit pro všechny podřízené balíčky
 deck-config-revert-button-tooltip = Obnovit toto nastavení na výchozí hodnotu.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -247,7 +252,7 @@ deck-config-description-new-handling-hint =
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    Rodičovský balík má limit { $cards ->
+    Rodičovský balíček má limit { $cards ->
         [one] { $cards } karta
         [few] { $cards } karty
        *[other] { $cards } karet
@@ -265,7 +270,7 @@ deck-config-maximum-answer-secs-above-recommended = Anki může plánovat Vaše 
 
 ## Selecting a deck
 
-deck-config-which-deck = Který balík požadujete?
+deck-config-which-deck = Který balíček požadujete?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 

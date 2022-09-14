@@ -1,7 +1,7 @@
 preferences-automatically-sync-on-profile-openclose = Automaticky synchronizovat při otevření a zavření profilu
 preferences-backups = Zálohy
 preferences-basic = Základní
-preferences-change-deck-depending-on-note-type = Změnit balík v závislosti na typu poznámky
+preferences-change-deck-depending-on-note-type = Změnit balíček v závislosti na typu poznámky
 preferences-changes-will-take-effect-when-you = Změny se projeví až po restartování Anki.
 preferences-hours-past-midnight = hodin po půlnoci
 preferences-interface-language = Jazyk rozhraní:
@@ -28,7 +28,7 @@ preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synchroniza
 preferences-synchronize-audio-and-images-too = Synchronizovat i obrázky a zvuky
 preferences-timebox-time-limit = Limit pro časový box
 preferences-user-interface-size = Velikost uživatelského rozhraní
-preferences-when-adding-default-to-current-deck = Při přidávání standardně nastaven aktuální balík
+preferences-when-adding-default-to-current-deck = Při přidávání standardně nastaven aktuální balíček
 preferences-you-can-restore-backups-via-fileswitch = Můžete obnovit ze zálohy přes Soubor > Přepnout profil.
 preferences-legacy-timezone-handling = Zastaralé zpracování časového pásma (zabugované, ale požadováno pro AnkiDroid <= 2.14)
 preferences-default-search-text = Výchozí text vyhledání

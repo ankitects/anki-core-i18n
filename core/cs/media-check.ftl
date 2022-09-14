@@ -38,7 +38,7 @@ media-check-checked = Zkontrolováno { $count }...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = Vymazat nepoužívaná média?
+media-check-delete-unused-confirm = Odstranit nepoužívaná média?
 media-check-files-remaining =
     { $count ->
         [one] 1 soubor zbývá.

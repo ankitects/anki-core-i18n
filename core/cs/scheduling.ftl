@@ -91,7 +91,7 @@ scheduling-learn-remaining =
         [few] Ještě dnes budou dostupné { $remaining } zbývající karty k učení.
        *[other] Ještě dnes bude dostupných { $remaining } zbývajících karet k učení.
     }
-scheduling-congratulations-finished = Gratuluji! Tento balík máte prozatím hotov.
+scheduling-congratulations-finished = Gratuluji! Tento balíček máte prozatím hotov.
 scheduling-today-review-limit-reached =
     Byl dosažen denní limit, ale stále vám zbývají karty k opakování. Zvažte
     zvýšení denního limitu pro lepší zapamatování.
@@ -157,8 +157,8 @@ scheduling-restore-position = Obnovit původní pořadí, je-li to možné
 scheduling-review = Opakování
 scheduling-reviews = Počet opakování
 scheduling-seconds = sekund
-scheduling-set-all-decks-below-to = Přesunout všechny balíky pod { $val } do téhle skupiny?
-scheduling-set-for-all-subdecks = Nastavit pro všechny podřízené balíky
+scheduling-set-all-decks-below-to = Přesunout všechny balíčky pod { $val } do téhle skupiny?
+scheduling-set-for-all-subdecks = Nastavit pro všechny podřízené balíčky
 scheduling-show-answer-timer = Zobrazovat čas odpovědi
 scheduling-show-new-cards-after-reviews = Zobrazit nové karty až po opakování
 scheduling-show-new-cards-before-reviews = Zobraz nové karty před opakováním
@@ -169,12 +169,12 @@ scheduling-steps-in-minutes = Kroky (v minutách)
 scheduling-steps-must-be-numbers = Kroky musí být v číslech.
 scheduling-tag-only = Pouze označit štítkem
 scheduling-the-default-configuration-cant-be-removed = Výchozí konfiguraci nelze odstranit.
-scheduling-your-changes-will-affect-multiple-decks = Vaše změny ovlivní vícero balíků. Pokud chcete změnit pouze současný balík, přidejte nejdřív novou skupinu nastavení.
+scheduling-your-changes-will-affect-multiple-decks = Vaše změny ovlivní vícero balíčků. Pokud chcete změnit pouze současný balíček, přidejte nejdřív novou skupinu nastavení.
 scheduling-deck-updated =
     { $count ->
-        [one] { $count } balík aktualizován.
-        [few] { $count } balíky aktualizovány.
-       *[other] { $count } balíků aktualizováno.
+        [one] { $count } balíček aktualizován.
+        [few] { $count } balíčky aktualizovány.
+       *[other] { $count } balíčků aktualizováno.
     }
 scheduling-set-due-date-prompt =
     { $cards ->
