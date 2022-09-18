@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Lehenik, berrizendatu orain dagoen ikasketa pertsonalizaturako sorta.
 custom-study-all-review-cards-in-random-order = Berrikusteko txartel guztiak ausaz ordenatuta
 custom-study-cards = kartak
 custom-study-cards-from-the-deck = sortako kartak
