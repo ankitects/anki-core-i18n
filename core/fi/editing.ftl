@@ -53,11 +53,14 @@ editing-text-color = Tekstin väri
 editing-text-highlight-color = Tekstin korostusväri
 editing-to-make-a-cloze-deletion-on = Voidaksesi tehdä aukkotehtävän olemassa olevasta muistiinpanosta, sinun täytyy ensin muuttaa se aukkotehtävätyypiksi: Muokkaa>Vaihda muistiinpanotyyppiä
 editing-toggle-html-editor = Näytä/piilota HTML-muokkausnäkymä
-editing-toggle-sticky = Tarttuminen päälle/pois
 editing-toggle-visual-editor = Näytä/piilota visuaalinen muokkausnäkymä
+editing-toggle-sticky = Tarttuminen päälle/pois
+editing-expand-field = Laajenna kenttä
+editing-collapse-field = Pienennä kenttä
 editing-underline-text = Alleviivattu teksti
 editing-unordered-list = Numeroimaton luettelo
 editing-warning-cloze-deletions-will-not-work = Varoitus: aukkotehtävät eivät toimi ennen kun vaihdat tyypin ylhäältä aukkotehtäväksi.
+editing-toggle-mathjax-rendering = MathJaxin renderöinti päälle/pois
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
