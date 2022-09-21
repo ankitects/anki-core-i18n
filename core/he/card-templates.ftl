@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] פעולה זאת תיצור { $count } כרטיס. להמשיך?
        *[other] פעולה זאת תיצור { $count } כרטיסים. להמשיך?
     }
+card-templates-type-boxes-warning = תיבת הקלדה אחת בלבד נתמכת לכל תבנית כרטיס.

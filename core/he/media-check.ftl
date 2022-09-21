@@ -22,6 +22,10 @@ media-check-oversize-header = קבצים הגדולים מ- 100MB אינם יכ�
 media-check-subfolder-header = תיקיות בתוך תיקיית המדיה אינן נתמכות.
 media-check-missing-header = הקבצים הבאים בשימוש ע"י כרטיסים, אך חסרים בתיקיית המדיה:
 media-check-unused-header = הקבצים הבאים נמצאו בתוך תיקיית המדיה, אך אינם בשימוש על ידי שום כרטיס:
+media-check-template-references-field-header =
+    אנקי לא יכול לזהות קבצים בשימוש כאשר אתה משתמש בהפניות של { "{{Field}}" } בתגיות media/LaTeX. במקום זאת יש למקם את תגי המדיה/LaTeX על הערות בודדות.
+    
+    תבניות הפניה:
 
 ## Shown once for each file
 
@@ -30,6 +34,11 @@ media-check-oversize-file = גדול מ- 100MB: { $filename }
 media-check-subfolder-file = תיקייה: { $filename }
 media-check-missing-file = חסר:
 media-check-unused-file = לא בשימוש:
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }:{ $card_type }({ $side })
 
 ## Progress
 

@@ -46,3 +46,5 @@ preferences-daily-backups = גיבויים יומיים לשמירה:
 preferences-weekly-backups = גיבויים שבועיים לשמירה:
 preferences-monthly-backups = גיבויים חודשיים לשמירה:
 preferences-minutes-between-backups = מרווח דקות בין גיבויים אוטומטיים:
+preferences-reduce-motion = הפחת תנועה
+preferences-reduce-motion-tooltip = בטל אנימציות ומעברים שונים של ממשק המשתמש

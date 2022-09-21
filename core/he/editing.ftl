@@ -53,11 +53,14 @@ editing-text-color = צבע טקסט
 editing-text-highlight-color = צבע רקע לטקסט
 editing-to-make-a-cloze-deletion-on = ליצור השלם את החסר ברשומה קיימת, תצטרך לשנות את סוג הרשומה להשלם את החסר, דרך 'רשומות>שנה סוג רשומה'
 editing-toggle-html-editor = עורך HTML
-editing-toggle-sticky = שמור שדה לשאלה הבאה
 editing-toggle-visual-editor = הצגת עורך טקסט
+editing-toggle-sticky = שמור שדה לשאלה הבאה
+editing-expand-field = הרחב את השדה
+editing-collapse-field = כיווץ שדה
 editing-underline-text = קו תחתון
 editing-unordered-list = רשימה (נקודות)
 editing-warning-cloze-deletions-will-not-work = אזהרה, השלם את החסר לא יעבוד עד שתשנה את הסוג למעלה להשלם את החסר.
+editing-toggle-mathjax-rendering = החלף את העיבוד של MathJax
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
