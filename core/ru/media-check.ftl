@@ -24,6 +24,10 @@ media-check-oversize-header = Файлы больше 100 МБ не могут �
 media-check-subfolder-header = Медиапапка не должна содержать другие папки.
 media-check-missing-header = Эти файлы прикреплены к карточкам, но отсутствуют в медиапапке:
 media-check-unused-header = Эти файлы в медиапапке, но не прикреплены ни к одной карточке:
+media-check-template-references-field-header =
+    Anki не может обнаружить файлы, когда используются ссылки { "{{Field}}" } в медиа- или LaTeX-тегах. Медиа- и LaTeX-теги должны быть в отдельных записях.
+    
+    Ссылающиеся шаблоны:
 
 ## Shown once for each file
 
@@ -32,6 +36,11 @@ media-check-oversize-file = Больше, чем 100 МБ: { $filename }
 media-check-subfolder-file = Папка: { $filename }
 media-check-missing-file = Отсутствует: { $filename }
 media-check-unused-file = Не используется: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
