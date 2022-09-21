@@ -10,12 +10,14 @@ actions-custom-study = اپنی مرضی کے مطابق مطالعہ
 actions-decks = ڈیکس
 actions-delete = حذف کرنا
 actions-export = برآمد کرنا
+actions-filter = فلٹر کرنا
 actions-help = مدد
 actions-import = درآمد کرنا
-actions-name = نام
+actions-manage = منظم كرنا...
+actions-name = نام:
 actions-new = نیا
 actions-new-name = نیا نام:
-actions-options = ترتیبات
+actions-options = ترتیب
 actions-options-for = { $val } كى ترتیبات
 actions-preview = پیشگی
 actions-rebuild = دوبارہ بنانا
@@ -30,7 +32,22 @@ actions-search = تلاش کرنا
 actions-select = چننا
 actions-shortcut-key = شارٹ کٹ: { $val }
 actions-suspend-card = کارڈ كو معطل کرنا
+actions-set-due-date = تاریخ مقرر کرنا
+actions-answer-card = جواب دینا
 actions-unbury-unsuspend = بهال كرنا
+actions-add-deck = ڈیک اضافہ کرنا
+actions-add-note = نوٹ اضافہ کرنا
+actions-update-tag = ٹیگ كو اپ ڈیٹ كرنا
+actions-update-note = نوٹ كو اپ ڈیٹ كرنا
+actions-update-card = پتا كو اپ ڈیٹ كرنا
+actions-update-deck = ڈیک كو اپ ڈیٹ كرنا
+actions-forget-card = پتا كو بهولنا
+actions-build-filtered-deck = ڈیک بنانا
+actions-add-notetype = نوٹ كا قسم كو اضافہ کرنا
+actions-remove-notetype = نوٹ كا قسم كو حذف کرنا
+actions-update-notetype = نوٹ كا قسم كو اپ ڈیٹ كرنا
+actions-update-config = ترتیب كو اپ ڈیٹ كرنا
+actions-card-info = پتا کی معلومات
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = ... كو { $action }
@@ -38,6 +55,7 @@ actions-currently-unsupported = یہ عمل فی الحال آپ کے سسٹم �
 
 ## Flags
 
+actions-flag-number = نشان { $number }
 actions-flag-red = سرخ
 actions-flag-orange = نارنجی
 actions-flag-green = سبز
@@ -45,3 +63,4 @@ actions-flag-blue = نیلا
 actions-flag-pink = گلابی
 actions-flag-turquoise = نیلے سبز
 actions-flag-purple = جامنی
+actions-set-flag = نشان لگانا
