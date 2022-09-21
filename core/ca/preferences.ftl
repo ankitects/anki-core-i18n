@@ -46,3 +46,4 @@ preferences-daily-backups = Còpies de seguretat diàries que cal mantenir:
 preferences-weekly-backups = Còpies de seguretat setmanals que cal mantenir:
 preferences-monthly-backups = Còpies de seguretat mensuals que cal mantenir:
 preferences-minutes-between-backups = Minuts que ha d'haver-hi entre còpies de seguretat automàtiques:
+preferences-reduce-motion = Redueix el moviment
