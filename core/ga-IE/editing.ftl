@@ -53,11 +53,14 @@ editing-text-color = Dath an téacs
 editing-text-highlight-color = Dath aibhsithe an téacs
 editing-to-make-a-cloze-deletion-on = Chun sliocht iomlánú a dhéanamh ar nóta, caithfear cineál an nóta a athrú i dtosach, trí 'Nótaí>Athraigh Cineál Nóta'
 editing-toggle-html-editor = Scoránaigh Eagarthóir HTML
-editing-toggle-sticky = Greamaitheach (scorán)
 editing-toggle-visual-editor = Scoránaigh Eagarthóir Amhairc
+editing-toggle-sticky = Greamaitheach (scorán)
+editing-expand-field = Leathnaigh réimse
+editing-collapse-field = Díleathnaigh réimse
 editing-underline-text = Folínigh
 editing-unordered-list = Liosta gan ord
 editing-warning-cloze-deletions-will-not-work = Rabhadh, ní bheidh aon mhaith sna sleachta iomlánaithe go dtí go mbeidh an cineál 'Iomlánú' roghnaithe thuas.
+editing-toggle-mathjax-rendering = Scoránaigh Rindreáil MathJax
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

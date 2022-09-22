@@ -69,6 +69,11 @@ media-check-subfolder-file = Fillteán: { $filename }
 media-check-missing-file = Ar iarraidh: { $filename }
 media-check-unused-file = Gan úsáid: { $filename }
 
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
+
 ## Progress
 
 media-check-checked =

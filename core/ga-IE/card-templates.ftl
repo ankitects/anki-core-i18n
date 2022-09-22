@@ -36,7 +36,6 @@ card-templates-anki-couldnt-find-the-line-between = Níor aimsigh Anki an líne 
 card-templates-at-least-one-card-type-is = Ní foláir an t-aon chineál cárta amháin ar a laghad.
 card-templates-browser-appearance = Cuma an Bhrabhsálaí...
 card-templates-card = Cárta { $val }
-card-templates-card-types = Cineálacha Cártaí
 card-templates-card-types-for = Cineálacha Cartaí do { $val }
 card-templates-cloze = Iomlánú { $val }
 card-templates-deck-override = Sárú Paca...
@@ -67,3 +66,4 @@ card-templates-this-will-create-card-proceed =
         [many] { $count } gcárta.
        *[other] { $count } cárta.
     } Lean ar aghaidh?
+card-templates-type-boxes-warning = Ní cheadaítear níos mó ná bosca amháin clóscríofa ar theimpléad cártaí.
