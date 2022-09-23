@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] Ceci créera { $count } carte. Procéder?
        *[other] Ceci créera { $count } cartes. Procéder ?
     }
+card-templates-type-boxes-warning = Seule une zone de texte par modèle est prise en charge

@@ -25,6 +25,17 @@ deck-config-limit-new-bound-by-reviews =
     introduites. Si la limite de révision est atteinte, aucune nouvelle carte ne sera
     montrée.
 deck-config-limit-interday-bound-by-reviews = La limite de révision journalière affecte aussi les cartes en apprentissage interjournalier. Quand la limite est appliquée, ¶ les cartes en apprentissage interjournalier sont collectées en première, ensuite celles à réviser, et finalement les nouvelles cartes.
+deck-config-tab-description =
+    - `Préréglage`: La limite est partagée avec tous les paquets utilisant ce préréglage.
+    - `Ce paquet`: La limite est spécifique à ce paquet.
+    - `Juste aujourd'hui`: Modification temporaire de la limite de ce paquet.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = Préréglage
+deck-config-deck-only = Ce paquet
+deck-config-today-only = Juste aujourd'hui
 
 ## New Cards section
 

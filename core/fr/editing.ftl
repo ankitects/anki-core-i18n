@@ -53,12 +53,15 @@ editing-text-color = Couleur du texte
 editing-text-highlight-color = Couleur de la surbrillance du texte
 editing-to-make-a-cloze-deletion-on = Pour faire d’une carte déjà existante, un texte à trous, il faut passer par « Édition > Modifier le type de la note » et choisir « Texte à trous ».
 editing-toggle-html-editor = Afficher l'éditeur HTML
-editing-toggle-sticky = Utiliser le pin
 editing-toggle-visual-editor = Afficher l'éditeur visuel
+editing-toggle-sticky = Utiliser le pin
+editing-expand-field = Développer le champ
+editing-collapse-field = Réduire le champ
 editing-underline-text = Souligné
 editing-unordered-list = Liste non ordonnée
 editing-warning-cloze-deletions-will-not-work = Attention, le texte à trous ne fonctionnera pas tant que vous ne changez pas le type de carte en « Texte à trous » (en haut de la fenêtre).
+editing-toggle-mathjax-rendering = Activer le rendu `Mathjax`
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-html-editor = Vue en langage hypertexte
+editing-html-editor = Éditeur HTML
