@@ -42,6 +42,10 @@ media-check-oversize-header = Les fichiers de plus de 100 Mo ne peuvent être sy
 media-check-subfolder-header = Les fichiers contenus dans le dossier des médias ne sont pas pris en charge.
 media-check-missing-header = Utilisé par des cartes mais manquant dans le dossier média :
 media-check-unused-header = Les fichiers suivant ont été trouvés dans le dossier des médias, mais ne semblent être utilisés sur aucune carte :
+media-check-template-references-field-header =
+    Anki ne peut pas détecter les fichiers quand vous utilisez { "{{Field}}" } références dans les tags media/LaTeX. Les tags media/LaTeX doivent être placés sur des notes individuelles.
+    
+    Modèles faisant référence :
 
 ## Shown once for each file
 
@@ -50,6 +54,11 @@ media-check-oversize-file = Plus de 100 Mo : { $filename }
 media-check-subfolder-file = Fichier : { $filename }
 media-check-missing-file = Manquant : { $filename }
 media-check-unused-file = Inutilisé : { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
