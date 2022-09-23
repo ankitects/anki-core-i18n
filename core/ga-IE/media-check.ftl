@@ -60,6 +60,10 @@ media-check-oversize-header = Ní féidir comhaid os cionn 100MB a shioncronú l
 media-check-subfolder-header = Ní féidir fillteáin a bheith san fhillteán meán.
 media-check-missing-header = Tagraíonn cártaí do na comhaid seo a leanas, nach bhfuil san fhillteán meán:
 media-check-unused-header = Tá na comhaid seo san fhillteán meán, ach ní thagraíonn cárta ar bith dóibh:
+media-check-template-references-field-header =
+    Ní aithneoidh Anki na comhaid atá i gceist má dhéantar tagairt do { "{{Field}}" } i gclibeanna meán/LaTeX. B'fhearr na clibeanna meán/LaTeX a chur ar nótaí dá gcuid féin.
+    
+    Teimpléid atá i gceist:
 
 ## Shown once for each file
 
