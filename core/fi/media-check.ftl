@@ -22,6 +22,7 @@ media-check-oversize-header = Yli 100 Mt:n tiedostoja ei voida synkronoida AnkiW
 media-check-subfolder-header = Mediakansiossa olevia kansioita ei tueta.
 media-check-missing-header = Käytetty korteissa mutta puuttuu mediakansiosta:
 media-check-unused-header = Löytyy mediakansiosta, mutta ei käytössä missään korteissa:
+media-check-template-references-field-header = Anki ei voi tunnistaa käytettyjä tiedostoja, kun käytät { "{{Field}}" } -viittauksia media-/LaTeX-tunnisteissa. Media-/LaTeX-tunnisteet tulisi sen sijaan sijoittaa yksittäisiin muistiinpanoihin.
 
 ## Shown once for each file
 
@@ -30,6 +31,11 @@ media-check-oversize-file = Yli 100 Mt: { $filename }
 media-check-subfolder-file = Kansio: { $filename }
 media-check-missing-file = Puuttuu: { $filename }
 media-check-unused-file = Käyttämätön: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 

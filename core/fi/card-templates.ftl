@@ -31,13 +31,13 @@ card-templates-discard-changes = Hylätäänkö muutokset?
 card-templates-add-card-type = Lisää kortin tyyppi...
 card-templates-anki-couldnt-find-the-line-between = Anki ei löytänyt kysymyksen ja vastauksen välistä rajaa. Mukauta mallinetta manuaalisesti vaihtaaksesi kysymyksen ja vastauksen välisen rajan.
 card-templates-at-least-one-card-type-is = Vähintään yksi korttityyppi on annettava.
-card-templates-browser-appearance = Selaimen ulkoasu...
+card-templates-browser-appearance = Ulkoasu selaimessa...
 card-templates-card = Kortti { $val }
 card-templates-card-types-for = Korttityypit kohteessa { $val }
 card-templates-cloze = Aukkotehtävä
 card-templates-deck-override = Syrjäytä pakka...
 card-templates-delete-the-as-card-type-and = Poistetaanko '{ $template }'-korttityyppi ja sen { $cards }?
-card-templates-enter-deck-to-place-new = Syötä pakka, johon asetetaan uudet { $val } korttia tai jätä tyhjäksi:
+card-templates-enter-deck-to-place-new = Syötä pakka, johon asetetaan uudet { $val } -kortit tai jätä tyhjäksi:
 card-templates-enter-new-card-position-1 = Syötä kortin uusi sijainti (1...{ $val }):
 card-templates-flip = Käännä ympäri
 card-templates-form = Lomake
@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] Tämä luo { $count } kortin. Jatketaanko?
        *[other] Tämä luo { $count } korttia. Jatketaanko?
     }
+card-templates-type-boxes-warning = Korttimallissa voi olla vain yksi kirjoituskenttä.
