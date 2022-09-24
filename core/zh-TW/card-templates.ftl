@@ -53,3 +53,4 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] 將建立 { $count } 張卡片。繼續？
     }
+card-templates-type-boxes-warning = 一個卡片模板中僅支援加入一個文字框。
