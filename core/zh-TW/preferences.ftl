@@ -44,3 +44,4 @@ preferences-daily-backups = 保留備份 (每天):
 preferences-weekly-backups = 保留備份 (每週):
 preferences-monthly-backups = 保留備份 (每月):
 preferences-minutes-between-backups = 自動備份間隔 (分鐘):
+preferences-reduce-motion = 減少動態效果

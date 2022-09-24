@@ -30,6 +30,11 @@ media-check-subfolder-file = 資料夾：{ $filename }
 media-check-missing-file = 遺失：{ $filename }
 media-check-unused-file = 未使用：{ $filename }
 
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
+
 ## Progress
 
 media-check-checked = 已檢查 { $count }...
