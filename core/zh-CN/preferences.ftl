@@ -1,19 +1,15 @@
 preferences-automatically-sync-on-profile-openclose = 账户启动和关闭时自动同步
 preferences-backups = 备份
-preferences-backups2 = 备份
-preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span style=" font-weight:600;">备份</span><br/>Anki 将在每次关闭集合时会自动创建备份。</p></body></html>
 preferences-basic = 基本
 preferences-change-deck-depending-on-note-type = 添加卡片时，根据笔记模板自动选择牌组
 preferences-changes-will-take-effect-when-you = 变更将在重启Anki后生效。
 preferences-hours-past-midnight = 时
 preferences-interface-language = 界面语言：
 preferences-interrupt-current-audio-when-answering = 回答卡片时停止播放当前音频
-preferences-keep = 保留
 preferences-learn-ahead-limit = 提前学习的上限
 preferences-mins = 分钟
 preferences-network = 网络
 preferences-next-day-starts-at = 新的一天始于
-preferences-night-mode = 夜间模式
 preferences-note-media-is-not-backed-up = 注意：媒体文件未被备份，为确保安全请定期备份Anki文件夹.
 preferences-on-next-sync-force-changes-in = 下次同步时，强制单向覆盖
 preferences-paste-clipboard-images-as-png = 粘贴图片为PNG格式
@@ -48,3 +44,5 @@ preferences-daily-backups = 要保留的每日备份数量：
 preferences-weekly-backups = 要保留的每周备份数量：
 preferences-monthly-backups = 要保留的每月备份数量：
 preferences-minutes-between-backups = 自动备份的间隔时间(分钟)：
+preferences-reduce-motion = 减少动效
+preferences-reduce-motion-tooltip = 禁用用户界面的所有动画和过渡。

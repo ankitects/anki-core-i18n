@@ -50,3 +50,4 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] 本次操作将创建{ $count }张卡片，继续吗？
     }
+card-templates-type-boxes-warning = 一张卡片内容模板中仅支持加入一个输入框。

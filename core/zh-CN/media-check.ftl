@@ -21,6 +21,10 @@ media-check-oversize-header = 超过100MB的文件无法同步到AnkiWeb。
 media-check-subfolder-header = 媒体文件夹不支持子文件夹。
 media-check-missing-header = 以下文件在卡片中被使用但在媒体文件夹里没找到：
 media-check-unused-header = 以下文件存在于媒体文件夹中，但未被任何卡片使用：
+media-check-template-references-field-header =
+    当您在媒体/LaTeX标签中加入 { "{{Field}}" }来引用文件时，Anki将无法检测到引用的文件，请将媒体/LaTeX标签单独加入到每一个笔记当中。
+    
+    以下模板存在此问题：
 
 ## Shown once for each file
 
@@ -29,6 +33,11 @@ media-check-oversize-file = 大于100MB：{ $filename }
 media-check-subfolder-file = 文件夹：{ $filename }
 media-check-missing-file = 缺失：{ $filename }
 media-check-unused-file = 未被使用：{ $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
