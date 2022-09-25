@@ -25,3 +25,6 @@ card-template-rendering-no-such-field = '{ $found }' aurkitu da, baina ez dago '
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Txartel honen aurrealdea hutsik dago.
+card-template-rendering-missing-cloze =
+    Ez da { $number }. hutsunerik aurkitu txartelean.
+    Gehitu hutsune bat edo erabili "Txartel hutsak" tresna.

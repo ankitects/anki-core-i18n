@@ -1,6 +1,11 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
 card-templates-blank = hutsunea
-card-templates-card-type = Karta mota:
+card-templates-changes-will-affect-notes =
+    { $count ->
+        [one] Azpiko aldaketek txartel-mota hau erabiltzen duen ohar bati eragingo diote.
+       *[other] Azpiko aldaketek txartel-mota hau erabiltzen duten { $count } oharri eragingo diete.
+    }
+card-templates-card-type = Txartel-mota:
 card-templates-front-template = Aurrealdearen txantiloia
 card-templates-back-template = Atzealdearen txantiloia
 card-templates-template-styling = Estiloa
@@ -17,6 +22,9 @@ card-templates-add-mobile-class = Gehitu mugikorretarako CSS klasea
 card-templates-preview-settings = Aukerak
 card-templates-invalid-template-number = "{ $notetype }" ohar-motako { $number }. txartel-txantiloiak arazo bat du.
 card-templates-identical-front = Aurrealdea { $number }. txartel-txantiloiaren berdina da.
+card-templates-no-front-field = Eremu baten ordezkoa espero zen txartel-txantiloiaren aurrealdean.
+card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' edo antzekoa espero zen txartel-txantiloiaren aurrealdean eta atzealdean.
+card-templates-extraneous-cloze = Hutsuneak betetzeko ohar-motetan bakarrik erabil daiteke 'cloze:'.
 card-templates-see-preview = Informazio gehiago aurrebistan.
 card-templates-changes-saved = Aldaketak gorde dira.
 card-templates-discard-changes = Aldaketak baztertu?
