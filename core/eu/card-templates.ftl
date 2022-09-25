@@ -36,22 +36,23 @@ card-templates-card = { $val }. txartela
 card-templates-card-types-for = { $val } oharretarako txartel-motak
 card-templates-cloze = { $val }. hutsuneak betetzekoa
 card-templates-deck-override = Ordeztu sorta...
-card-templates-delete-the-as-card-type-and = '{ $template }'-ren kartako mota kendu, eta bere { $cards }?
-card-templates-enter-deck-to-place-new = non { $val } karta berriak jarriko duen sorta sartu edo huts utzi
+card-templates-delete-the-as-card-type-and = '{ $template }' txartel-mota kendu, eta bere { $cards }?
+card-templates-enter-deck-to-place-new = Sartu { $val } txartel berriak jartzeko sorta, edo utzi hutsik:
 card-templates-enter-new-card-position-1 = karta berriaren lekua sartu (1.. { $val }):
 card-templates-flip = Alderantzikatu
 card-templates-form = Inprimakia
 card-templates-off = (itzalita)
 card-templates-on = (piztuta)
-card-templates-remove-card-type = Karta mota ezabatu...
+card-templates-remove-card-type = Ezabatu txartel-mota...
 card-templates-rename-card-type = Berrizendatu txartel-mota...
 card-templates-card-count =
     { $count ->
-        [one] Karta { $count }
-       *[other] { $count } karta
+        [one] { $count } txartel
+       *[other] { $count } txartel
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-        [one] Hau { $count } karta sortuko du. Jarraitu?
-       *[other] Hau { $count } kartak sortuko du. Jarraitu?
+        [one] Honek txartel bat sortuko du. Jarraitu?
+       *[other] Honek { $count } txartel sortuko ditu. Jarraitu?
     }
+card-templates-type-boxes-warning = Idazteko koadro bakarra jar daiteke txartel-txantiloi bakoitzean.

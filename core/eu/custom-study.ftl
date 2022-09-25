@@ -1,10 +1,11 @@
 custom-study-must-rename-deck = Lehenik, berrizendatu orain dagoen ikasketa pertsonalizaturako sorta.
-custom-study-all-review-cards-in-random-order = Berrikusteko txartel guztiak ausaz ordenatuta
-custom-study-cards = kartak
-custom-study-cards-from-the-deck = sortako kartak
+custom-study-all-cards-in-random-order-dont = Txartel guztiak ausazko ordenan (ez birprogramatu)
+custom-study-all-review-cards-in-random-order = Berrikusteko txartel guztiak ausazko ordenan
+custom-study-cards = txartel
+custom-study-cards-from-the-deck = txartel sortatik
 custom-study-choose-tags = Aukeratu etiketak
 custom-study-custom-study-session = Ikasketa-saio pertsonalizatua
-custom-study-due-cards-only = Bakarrik zor izanda dauden kartak
+custom-study-due-cards-only = Berrikusteko txartelak bakarrik
 custom-study-increase-todays-new-card-limit = Gaurko karta berrietan muga handitu
 custom-study-increase-todays-new-card-limit-by = Gaurko karta berri mugako gehikuntza :
 custom-study-increase-todays-review-card-limit = gaurko kartako muga handitu
