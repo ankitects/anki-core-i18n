@@ -16,15 +16,19 @@ custom-study-ok = Ongi
 custom-study-preview-new-cards = Aurreikusi txartel berriak
 custom-study-preview-new-cards-added-in-the = Aurreikusi tarte honetan erantsitako txartel berriak: azken
 custom-study-require-one-or-more-of-these = Gutxienez etiketa hauetako bat dutenak bakarrik:
-custom-study-review-ahead = Berrikusi aurretiaz
-custom-study-review-ahead-by = Berrikuspen aurrerakada :
+custom-study-review-ahead = Aurreratu berrikuspena
+custom-study-review-ahead-by = Aurreratu berrikuspena
 custom-study-review-cards-forgotten-in-last = Berrikusi tarte honetan ahaztutako txartelak: azken
 custom-study-review-forgotten-cards = Berrikusi ahaztutako txartelak
 custom-study-select = Hautatu
 custom-study-select-tags-to-exclude = Hautatu baztertzeko etiketak:
-custom-study-selective-study = Hautatzeko errepasatzea
-custom-study-study-by-card-state-or-tag = Kartaz edo etiketaz Ikasi
+custom-study-selective-study = Ikasketa selektiboa
+custom-study-study-by-card-state-or-tag = Ikasi egoeraren edo etiketen arabera
+custom-study-available-new-cards-2 = Txartel berriak eskuragarri: { $countString }
+custom-study-available-review-cards-2 = Berrikusteko txartelak eskuragarri: { $countString }
 custom-study-available-child-count = ({ $count } azpisortetan)
 
 ## DEPRECATED - you do not need to translate these.
 
+custom-study-available-new-cards = Txartel berriak eskuragarri: { $count }
+custom-study-available-review-cards = Berrikusteko txartelak eskuragarri: { $count }
