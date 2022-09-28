@@ -14,7 +14,7 @@ editing-couldnt-record-audio-have-you-installed = 無法錄製音訊。請檢查
 editing-customize-card-templates = 自訂卡片模板
 editing-customize-fields = 自訂欄位
 editing-cut = 剪下
-editing-double-click-image = 按兩下影像
+editing-double-click-image = 按兩下圖像
 editing-double-click-to-expand = (按兩下以展開)
 editing-edit-current = 編輯當前卡片
 editing-edit-html = 編輯 HTML
@@ -61,6 +61,7 @@ editing-underline-text = 為文字加上底線
 editing-unordered-list = 無序清單
 editing-warning-cloze-deletions-will-not-work = 提示，若上方的類型不是克漏字，克漏字空格將不會生效。
 editing-toggle-mathjax-rendering = 啟用/停用 MathJax 轉譯
+editing-shrink-images = 縮小圖像
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
