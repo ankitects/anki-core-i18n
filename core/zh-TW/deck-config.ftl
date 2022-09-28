@@ -5,14 +5,14 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks = 被 { $decks } 個牌組使用
+deck-config-used-by-decks = { $decks } 個牌組正在使用
 deck-config-default-name = 預設
 deck-config-title = 牌組選項
 
 ## Daily limits section
 
 deck-config-daily-limits = 每日上限
-deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。加入新的內容會使近期的複習量加重，因此該選項通常應設定為複習上限的 10 分之 1 或更少。
+deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。加入新的內容會使近期的複習量加重，因此該選項通常應設定為複習上限的 10% 或更少。
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
 deck-config-limit-deck-v3 = 學習牌組時，若其包含子牌組，子牌組在父牌組中顯示的卡片數量不會超過子牌組本身設定的上限。選取的牌組設定的數量上限包含所有子牌組的卡片。
 deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到複習上限，則不會再顯示新卡片。
