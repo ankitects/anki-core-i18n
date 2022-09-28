@@ -23,6 +23,10 @@ media-check-oversize-header = Soubory větší jak 100 MB nelze synchronizovat s
 media-check-subfolder-header = Složky uvnitř složky s multimédii nejsou podporovány.
 media-check-missing-header = Následující soubory jsou použity na kartách, ale nebyly nalezeny ve složce s multimédii:
 media-check-unused-header = Následující soubory byly nalezeny ve složce s multimédii, ale nezdá se, že jsou použity na kartách:
+media-check-template-references-field-header =
+    Anki nemůže detekovat použité soubory, když používáte { "{{Field}}" } odkazy ve značkách media/LaTeX. Značky media/LaTeX by se místo toho měly umístit na jednotlivé poznámky.
+    
+    Šablony s odkazy:
 
 ## Shown once for each file
 
@@ -31,6 +35,11 @@ media-check-oversize-file = Přes 100 MB: { $filename }
 media-check-subfolder-file = Složka: { $filename }
 media-check-missing-file = Chybějící: { $filename }
 media-check-unused-file = Nepoužívané: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 

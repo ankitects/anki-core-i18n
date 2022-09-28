@@ -42,3 +42,6 @@ exporting-processed-media-files =
         [few] Zpracovány { $count } mediální soubory...
        *[other] Zpracováno { $count } mediálních souborů...
     }
+exporting-include-deck = Zahrnout název balíčku
+exporting-include-notetype = Zahrnout název typu poznámky
+exporting-include-guid = Zahrnout unikátní identifikátor

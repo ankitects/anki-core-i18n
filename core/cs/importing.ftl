@@ -15,6 +15,7 @@ importing-field-separator = Oddělovač polí
 importing-field-mapping = Přiřazení polí
 importing-field-of-file-is = Pole <b>{ $val }</b> souboru je:
 importing-fields-separated-by = Pole rozděleny pomocí: { $val }
+importing-file-must-contain-field-column = Soubor musí obsahovat alespoň jeden sloupec, který se může přiřadit k poli poznámky.
 importing-file-version-unknown-trying-import-anyway = Verze souboru neznámá, zkouším importovat.
 importing-first-field-matched = První pole se shodovalo: { $val }
 importing-identical = Totožný
@@ -48,7 +49,7 @@ importing-supermemo-xml-export-xml = Supermemo XML export (*.xml)
 importing-tab = Tabulátor
 importing-tag-modified-notes = Štítek modifikovaných poznámek:
 importing-text-separated-by-tabs-or-semicolons = Text oddělený tabulátory nebo středníky (*)
-importing-the-first-field-of-the-note = První pole typu poznámky musí být zobrazeno.
+importing-the-first-field-of-the-note = První pole typu poznámky musí být přiřazeno.
 importing-the-provided-file-is-not-a = Toto není validní soubor .apkg.
 importing-this-file-does-not-appear-to = Zdá se, že nejde o validní soubor .apkg. Pokud se vám tato chyba zobrazuje u souboru staženého z AnkiWeb, je možné, že nebyl stažen správně.
 importing-this-will-delete-your-existing-collection = Tímto se odstraní vaše současná kolekce a nahradí se daty ze souboru, který importujete. Jste si jistý?
@@ -96,6 +97,12 @@ importing-processed-notes =
         [one] Zpracována { $count } poznámka...
         [few] Zpracovány { $count } poznámky...
        *[other] Zpracováno { $count } poznámek...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Zpracována { $count } karta...
+        [few] Zpracovány { $count } karty...
+       *[other] Zpracováno { $count } karet...
     }
 importing-unable-to-import-filename = Nelze importovat { $filename }: typ souboru není podporován
 importing-existing-notes = Stávající poznámky
