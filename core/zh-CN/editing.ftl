@@ -61,6 +61,7 @@ editing-underline-text = 下划线
 editing-unordered-list = 无序列表
 editing-warning-cloze-deletions-will-not-work = 警告，在将笔记模板修改为填空题模板前，设置的空格将不会生效。
 editing-toggle-mathjax-rendering = 切换MathJax渲染
+editing-shrink-images = 缩小图像
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
