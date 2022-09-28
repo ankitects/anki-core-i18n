@@ -11,6 +11,7 @@ importing-change = Změnit
 importing-colon = Dvojtečka
 importing-comma = Čárka
 importing-empty-first-field = Prázdné první pole: { $val }
+importing-field-separator = Oddělovač polí
 importing-field-mapping = Přiřazení polí
 importing-field-of-file-is = Pole <b>{ $val }</b> souboru je:
 importing-fields-separated-by = Pole rozděleny pomocí: { $val }
@@ -37,6 +38,8 @@ importing-notes-that-could-not-be-imported = Poznámky, které nemohly být impo
 importing-notes-updated-as-file-had-newer = Poznámky aktualizovány, protože soubor měl novější verzi: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balíček/kolekce (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 lekce (*.pau.gz)
+# the '|' character
+importing-pipe = Svislá čára
 importing-rows-had-num1d-fields-expected-num2d = „{ $row }“ mělo { $found } polí, namísto očekávaných { $expected }
 importing-selected-file-was-not-in-utf8 = Vybraný soubor není ve formátu UTF-8. Blíže viz manuál kapitola Import.
 importing-semicolon = Středník
@@ -95,3 +98,13 @@ importing-processed-notes =
        *[other] Zpracováno { $count } poznámek...
     }
 importing-unable-to-import-filename = Nelze importovat { $filename }: typ souboru není podporován
+importing-existing-notes = Stávající poznámky
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplikovat
+# "Existing notes: Preserve" (verb)
+importing-preserve = Zachovat
+# "Existing notes: Update" (verb)
+importing-update = Aktualizovat
+importing-tag-all-notes = Označit všechny poznámky štítkem
+importing-tag-updated-notes = Označit aktualizované poznámky štítkem
+importing-file = Soubor

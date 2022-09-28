@@ -46,3 +46,5 @@ preferences-daily-backups = Počet denních záloh, které se mají zachovat:
 preferences-weekly-backups = Počet týdenních záloh, které se mají zachovat:
 preferences-monthly-backups = Počet měsíčních záloh, které se mají zachovat:
 preferences-minutes-between-backups = Počet minut mezi automatickými zálohami:
+preferences-reduce-motion = Omezit pohyb
+preferences-reduce-motion-tooltip = Zakázat různé animace a přechody uživatelského rozhraní
