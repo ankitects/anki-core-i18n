@@ -60,6 +60,7 @@ editing-collapse-field = Sbalit pole
 editing-underline-text = Podtržený text
 editing-unordered-list = Odrážkový seznam
 editing-warning-cloze-deletions-will-not-work = Pozor, doplňovačky nebudou fungovat, dokud nezměníte typ výše na Doplňovačku.
+editing-shrink-images = Zmenšit obrázky
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

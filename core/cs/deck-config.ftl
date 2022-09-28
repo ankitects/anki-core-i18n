@@ -36,10 +36,17 @@ deck-config-limit-interday-bound-by-reviews =
     Limit opakování také ovlivní učené karty, které překračují do dalšího dne. 
     Když se uplatní limit, karty, které překračují do dalšího dne, jsou nabrány 
     první, poté opakování a nakonec nové karty.
+deck-config-tab-description =
+    - `Předvolba`:  Limit je sdílen všemi balíčky, které používají tuto předvolbu.
+    - `Tento balíček`: Limit je specifický pro tento balíček.
+    - `Pouze dnes`: Provede dočasnou změnu limitu tohoto balíčku.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Předvolba
+deck-config-deck-only = Tento balíček
+deck-config-today-only = Pouze dnes
 
 ## New Cards section
 
