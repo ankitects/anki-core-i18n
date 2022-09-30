@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] Es crearà una targeta. Voleu continuar?
        *[other] Es crearan { $count } targetes. Voleu continuar?
     }
+card-templates-type-boxes-warning = Només podeu fer servir un quadre de text.

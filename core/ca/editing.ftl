@@ -61,6 +61,7 @@ editing-underline-text = Subratlla el text
 editing-unordered-list = Llista desordenada
 editing-warning-cloze-deletions-will-not-work = Aneu amb compte: els buits no funcionaran fins que canvieu el tipus de nota a «Text amb buits».
 editing-toggle-mathjax-rendering = Activa la renderització MathJax
+editing-shrink-images = Redueix les imatges
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
