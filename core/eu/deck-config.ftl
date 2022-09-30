@@ -31,10 +31,20 @@ deck-config-limit-new-bound-by-reviews =
     Berrikuspen-mugak berrien mugari eragiten dio. Adibidez, 200eko berrikuspen-muga
     baduzu ezarrita, eta 190 berrikuspen badituzu zain, gehienez 10 txartel berri aurkeztuko dira.
     Berrikuspen-mugara iristean, ez da txartel berririk erakutsiko.
+deck-config-limit-interday-bound-by-reviews =
+    Lehendik "Ikasten" egoeran zeuden txartelei ere eragiten die berrikuspen-mugak. Muga aplikatzean,
+    txartel horiek eskuratzen dira lehenik, berrikustekoak ondoren, eta berriak azkenik.
+deck-config-tab-description =
+    - `Aurrezarpena`: Aurrezarpen hau erabiltzen duten sorta guztietarako izango da muga.
+    - `Sorta hau`: Sorta honetarako bakarrik izango da muga.
+    - `Gaur bakarrik`: Aldatu sorta honen muga aldi baterako.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Aurrezarpena
+deck-config-deck-only = Sorta hau
+deck-config-today-only = Gaur bakarrik
 
 ## New Cards section
 
