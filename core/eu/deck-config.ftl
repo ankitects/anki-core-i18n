@@ -49,6 +49,8 @@ deck-config-today-only = Gaur bakarrik
 ## New Cards section
 
 deck-config-learning-steps = Ikasketa-urratsak
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Tarteak minutuak (adib. `1m`) edo egunak (`2d`) izan ohi dira, baina orduak (`1h`) eta segundoak (`30s`) ere erabil daitezke.
 deck-config-new-insertion-order-sequential = Sekuentziala (txartel zaharrenak lehenik)
 deck-config-new-insertion-order-random = Ausaz
 
