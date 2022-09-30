@@ -51,6 +51,19 @@ deck-config-today-only = Gaur bakarrik
 deck-config-learning-steps = Ikasketa-urratsak
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Tarteak minutuak (adib. `1m`) edo egunak (`2d`) izan ohi dira, baina orduak (`1h`) eta segundoak (`30s`) ere erabil daitezke.
+deck-config-learning-steps-tooltip =
+    Tarte bat edo gehiago, zuriunez banatuta. Lehen tartea txartel berri batean `Berriro` sakatzean
+    erabiliko da, eta minutu batekoa da lehenespenez.
+    `Ondo` botoiak hurrengo urratsera eramaten du, 10 minutukoa lehenespenez.
+    Behin urrats guztiak gaindituta, berrikusteko txartel bihurtuko da txartela, eta
+    beste egun batean agertuko da. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    Txartel bat berriro erakutsi arte itxaron beharreko egun kopurua, azken ikasketa-pausoan
+    `Ondo` botoia sakatu eta gero.
+deck-config-easy-interval-tooltip =
+    Txartel bat berriro erakutsi arte itxaron beharreko egun kopurua, `Erraza` botoia
+    sakatu eta gero txartelaren ikasketa berehala gainditzeko.
+deck-config-new-insertion-order = Txertatze-ordena
 deck-config-new-insertion-order-sequential = Sekuentziala (txartel zaharrenak lehenik)
 deck-config-new-insertion-order-random = Ausaz
 
