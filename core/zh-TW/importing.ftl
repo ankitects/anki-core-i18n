@@ -1,7 +1,7 @@
 importing-failed-debug-info = 匯入失敗。除錯資訊：
 importing-aborted = 已中止：{ $val }
 importing-added-duplicate-with-first-field = 已新增第一個欄位重複的複本：{ $val }
-importing-all-supported-formats = 支援的所有格式 { $val }
+importing-all-supported-formats = 所有支援格式 { $val }
 importing-allow-html-in-fields = 允許在欄位中使用 HTML 語法
 importing-anki-files-are-from-a-very = .anki 檔是非常舊的 Anki 版本所使用的格式。你可以使用附加元件 175027074 或是 Anki 2.0 來匯入，可在 Anki 網站上取得。
 importing-anki2-files-are-not-directly-importable = .anki2 檔無法直接匯入 - 請匯入你收到的 .apkg 檔或 .zip 檔。
