@@ -66,13 +66,32 @@ deck-config-easy-interval-tooltip =
 deck-config-new-insertion-order = Txertatze-ordena
 deck-config-new-insertion-order-sequential = Sekuentziala (txartel zaharrenak lehenik)
 deck-config-new-insertion-order-random = Ausaz
+deck-config-new-insertion-order-random-with-v3 =
+    V3 antolatzailearekin hobe da "Sekuentziala" aukera uztea, eta
+    karta berriak eskuratzeko ordena doitzea.
 
 ## Lapses section
 
 deck-config-relearning-steps = Berrikasketa-urratsak
+deck-config-relearning-steps-tooltip =
+    Zero tarte edo gehiago, zuriunez banatuta. Lehenespenez, `Berriro`botoia sakatu
+    eta 10 minutu geroago erakutsiko da berriro txartela. Ez baduzu tarterik zehazten,
+    txartelaren tartea aldatuko da, baina berrikasi beharrik gabe. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Txartel batean `Berriro` zenbat aldiz sakatu behar den, neketsu gisa markatu dadin.
+    Txartel neketsuek denbora eskatzen dizute; txartel batek marka hori jasotzen badu,
+    hobe duzu berridatzi, ezabatu edo gogoratzen lagunduko dizun mnemotekniko bat asmatu.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Etiketatu bakarrik`: Gehitu "neketsua" etiketa oharrari, eta erakutsi pop-up bat.
+    
+    `Eten txartela`: Oharra etiketatzeaz gainera, ezkutatu oharra eskuz berrekin arte.
 
 ## Burying section
 
+deck-config-bury-title = Lurperatzea
+deck-config-bury-new-siblings = Lurperatu haurride berriak
+deck-config-bury-review-siblings = Lurperatu berrikusteko haurrideak
 
 ## Ordering section
 
