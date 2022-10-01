@@ -92,9 +92,14 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Lurperatzea
 deck-config-bury-new-siblings = Lurperatu haurride berriak
 deck-config-bury-review-siblings = Lurperatu berrikusteko haurrideak
+deck-config-bury-tooltip =
+    Ohar bereko beste txartelak (adib. alderantzizko txartela, beste hutsuneak)
+    hurrengo egunera arte atzeratuko diren ala ez.
 
 ## Ordering section
 
+deck-config-ordering-title = Erakuste-ordena
+deck-config-new-gather-priority = Txartel berriak eskuratzeko ordena
 
 ## Timer section
 
