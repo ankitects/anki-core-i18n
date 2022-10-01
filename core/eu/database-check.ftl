@@ -15,6 +15,11 @@ database-check-field-count =
         [one] Eremu-kopuru okerra zuen ohar bat konponduta.
        *[other] Eremu-kopuru okerra zuten { $count } ohar konponduta.
     }
+database-check-new-card-high-due =
+    { $count ->
+        [one] Txartel berri bat aurkitu da 1.000.000 baino lehentasun-zenbaki handiagoarekin. Agian posizioz aldatu behar zenuke arakatzailean.
+       *[other] { $count } txartel berri aurkitu dira 1.000.000 baino lehentasun-zenbaki handiagoarekin. Agian posizioz aldatu behar zenituzke arakatzailean.
+    }
 database-check-card-missing-note =
     { $count ->
         [one] Oharrik gabeko txartel bat ezabatuta.

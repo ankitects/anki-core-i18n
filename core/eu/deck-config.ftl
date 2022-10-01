@@ -64,11 +64,15 @@ deck-config-easy-interval-tooltip =
     Txartel bat berriro erakutsi arte itxaron beharreko egun kopurua, `Erraza` botoia
     sakatu eta gero txartelaren ikasketa berehala gainditzeko.
 deck-config-new-insertion-order = Txertatze-ordena
+deck-config-new-insertion-order-tooltip =
+    Txartel berriak eranstean, horiei esleitzen zaien posizioa (lehentasun-zenbakia) kontrolatzen du.
+    Lehentasun-zenbaki txikiagoa duten txartelak lehenago erakutsiko dira ikastean. Aukera hau
+    aldatzeak automatikoki eguneratuko du lehendik dauden txartel berrien posizioa.
 deck-config-new-insertion-order-sequential = Sekuentziala (txartel zaharrenak lehenik)
 deck-config-new-insertion-order-random = Ausaz
 deck-config-new-insertion-order-random-with-v3 =
     V3 antolatzailearekin hobe da "Sekuentziala" aukera uztea, eta
-    karta berriak eskuratzeko ordena doitzea.
+    karta berriak biltzeko ordena doitzea.
 
 ## Lapses section
 
@@ -99,7 +103,7 @@ deck-config-bury-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = Erakuste-ordena
-deck-config-new-gather-priority = Txartel berriak eskuratzeko ordena
+deck-config-new-gather-priority = Txartel berriak biltzeko ordena
 
 ## Timer section
 

@@ -38,13 +38,14 @@ card-templates-cloze = { $val }. hutsuneak betetzekoa
 card-templates-deck-override = Ordeztu sorta...
 card-templates-delete-the-as-card-type-and = '{ $template }' txartel-mota kendu, eta bere { $cards }?
 card-templates-enter-deck-to-place-new = Sartu { $val } txartel berriak jartzeko sorta, edo utzi hutsik:
-card-templates-enter-new-card-position-1 = karta berriaren lekua sartu (1.. { $val }):
+card-templates-enter-new-card-position-1 = Sartu txartelaren posizio berria (1...{ $val }):
 card-templates-flip = Alderantzikatu
 card-templates-form = Inprimakia
 card-templates-off = (itzalita)
 card-templates-on = (piztuta)
 card-templates-remove-card-type = Ezabatu txartel-mota...
 card-templates-rename-card-type = Berrizendatu txartel-mota...
+card-templates-reposition-card-type = Aldatu posizioz txartel-mota...
 card-templates-card-count =
     { $count ->
         [one] { $count } txartel

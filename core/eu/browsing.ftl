@@ -73,14 +73,14 @@ browsing-queue-top = Ilarako lehena: { $val }
 browsing-randomize-order = Ausazko hurrenkera
 browsing-remove-tags = Kendu etiketak...
 browsing-replace-with = <b>Ordezkatu honekin</b>:
-browsing-reposition = Berreposizionatu
-browsing-reposition-new-cards = Karta berriak berreposizionatu
+browsing-reposition = Aldatu posizioz...
+browsing-reposition-new-cards = Aldatu posizioz txartel berriak
 browsing-reschedule = Birprogramatu
 browsing-search-bar-hint = Bilatu txartelak/oharrak (idatzi testua eta sakatu Sartu)
 browsing-search-in = Bilatu hemen:
 browsing-search-within-formatting-slow = formatuaz bilatzen (astitsu)
 browsing-selected-notes-only = Hautatutako oharrak bakarrik
-browsing-shift-position-of-existing-cards = existitzen diren karten kokapena aldatu
+browsing-shift-position-of-existing-cards = Mugitu beste txartelen posizioa
 browsing-sidebar = Alboko barra
 browsing-sidebar-filter = Alboko barrako iragazkia
 browsing-sort-field = Eremuaren arabera sailkatu
@@ -143,6 +143,11 @@ browsing-removed-unused-tags-count =
     { $count ->
         [one] Erabili gabeko etiketa bat kendu da.
        *[other] Erabili gabeko { $count } etiketa kendu dira.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Txartel berri bat posizioz aldatu da.
+       *[other] { $count } txartel berri posizioz aldatu dira.
     }
 browsing-reparented-decks =
     { $count ->
