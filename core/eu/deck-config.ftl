@@ -151,6 +151,32 @@ deck-config-sort-order-gather = Bildutako ordena
 deck-config-new-review-priority = Berrien eta berrikustekoen arteko ordena
 deck-config-new-review-priority-tooltip = Noiz erakutsi txartel berriak berrikustekoekin alderatuta.
 deck-config-interday-step-priority = Lehendik "Ikasten" egoeran zeudenen eta berrikustekoen arteko ordena
+deck-config-interday-step-priority-tooltip =
+    Noiz erakutsi lehendik "Ikasten" egoeran zeuden txartelak.
+    
+    Berrikuspen-mugak beti eragiten die lehenik txartel horiei, eta ondoren berrikuspenei. Aukera honek
+    kontrolatuko den zein ordenatan erakutsi bildutako txartelak, baina lehendik "Ikasten" egoeran zeuden
+    txartelak beti bilduko dira lehenik.
+deck-config-review-mix-mix-with-reviews = Nahasi berrikustekoekin
+deck-config-review-mix-show-after-reviews = Erakutsi berrikustekoen ondoren
+deck-config-review-mix-show-before-reviews = Erakutsi berrikustekoen aurretik
+deck-config-review-sort-order = Berrikustekoen ordena
+deck-config-review-sort-order-tooltip =
+    Ordena lehenetsiak lehentasuna ematen die denbora gehien zain daramaten txartelei. Horrela, berrikuspen
+    asko pilatu bazaizkizu, zain gehien daramatenak agertuko dira lehenik. Egun gutxi batzuetan berrikusi
+    ditzakezunak baino txartel gehiago pilatzen bazaizkizu, edo txartelak azpisorten arabera ordenatuta
+    ikusi nahi badituzu, beste aukerak probatu ditzakezu.
+deck-config-sort-order-due-date-then-random = Berrikuste-data, ondoren ausaz
+deck-config-sort-order-due-date-then-deck = Berrikuste-data, ondoren sorta
+deck-config-sort-order-deck-then-due-date = Sorta, ondoren berrikuste-data
+deck-config-sort-order-ascending-intervals = Tarteak gorantz
+deck-config-sort-order-descending-intervals = Tarteak beherantz
+deck-config-sort-order-ascending-ease = Erraztasuna gorantz
+deck-config-sort-order-descending-ease = Erraztasuna beherantz
+deck-config-sort-order-relative-overdueness = Atzerapen erlatiboa
+deck-config-display-order-will-use-current-deck =
+    Ankik ikasteko hautatzen duzun sortaren erakuste-ordena
+    erabiliko du, eta ez horrek izan litzakeen azpisortenak.
 
 ## Timer section
 
