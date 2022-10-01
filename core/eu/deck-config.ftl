@@ -125,6 +125,32 @@ deck-config-new-gather-priority-position-highest-first = Posizioa beherantz
 deck-config-new-gather-priority-random-notes = Ausazko oharrak
 deck-config-new-gather-priority-random-cards = Ausazko txartelak
 deck-config-new-card-sort-order = Txartel berrien ordena
+deck-config-new-card-sort-order-tooltip-2 =
+    `Txartel-mota`: txartel-motaren zenbakiaren araberako ordenan erakusten ditu txartelak. Haurrideen
+    lurperatzea desgaituta badago, honek bermatuko du aurrealdea→atzealdea txartel guztiak ikusiko direla
+    atzealdea→aurrealdea txartelik ikusi baino lehen. Baliagarria da ohar bereko txartel guztiak saio berean
+    ikusteko, baina ez elkarrengandik hurbilegi.
+    
+    `Bildutako ordena`: bildu bezalaxe erakusten ditu txartelak. Haurrideen lurperatzea desaktibatuta
+    badago, normalean, ohar bereko txartel guztiak elkarren jarraian ikustea eragingo du.
+    
+    `Txartel-mota, ondoren ausaz`: `Txartel-mota` bezala, baina txartel-mota bakoitzeko txartelak nahasten
+    ditu. `Posizioa gorantz` erabiltzen baduzu txartel zaharrenak biltzeko, aukera hau erabil dezakezu
+    txartel horiek ausaz ordenatuta ikusteko, baina bermatuz ohar bereko txartelak ez direla elkarrengandik
+    hurbilegi agertuko.
+    
+    `Ausazko oharra, ondoren txartel-mota`: oharrak ausaz hartzen ditu, eta bakoitzaren txartel guztiak
+    ordenan erakusten ditu.
+    
+    `Ausaz`: bildutako txartelak guztiz nahasten ditu.
+deck-config-sort-order-card-template-then-random = Txartel-mota, ondoren ausaz
+deck-config-sort-order-random-note-then-template = Ausazko oharra, ondoren txartel-mota
+deck-config-sort-order-random = Ausaz
+deck-config-sort-order-template-then-gather = Txartel-mota
+deck-config-sort-order-gather = Bildutako ordena
+deck-config-new-review-priority = Berrien eta berrikustekoen arteko ordena
+deck-config-new-review-priority-tooltip = Noiz erakutsi txartel berriak berrikustekoekin alderatuta.
+deck-config-interday-step-priority = Lehendik "Ikasten" egoeran zeudenen eta berrikustekoen arteko ordena
 
 ## Timer section
 
