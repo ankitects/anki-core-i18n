@@ -210,15 +210,37 @@ deck-config-starting-ease-tooltip =
     Txartel berrien hasierako erraztasun-biderkatzailea. Lehenespenez, `Ondo` botoia
     sakatzean, 2,5 bider aurreko tartea izango da ikasi berri duzun txartel baten hurrengo tartea.
 deck-config-easy-bonus-tooltip = `Erraza` sakatzean berrikusteko txartel baten tarteari aplikatzen zaion biderkatzaile gehigarria.
+deck-config-interval-modifier-tooltip =
+    Biderkatzaile hau berrikuspen guztiei aplikatzen zaie. Doikuntza txikiak egin daitezke
+    Ankik antolaketa kontserbadoreagoa edo agresiboagoa egin dezan. Kontsultatu
+    eskuliburua aukera hau aldatu baino lehen.
+deck-config-hard-interval-tooltip = `Zaila` sakatzean berrikuspen-tarteari aplikatzen zaion biderkatzailea.
+deck-config-new-interval-tooltip = `Berriro` sakatzean berrikuspen-tarteari aplikatzen zaion biderkatzailea.
+deck-config-minimum-interval-tooltip = `Berriro` sakatzean berrikusteko txartel bati eman dakiokeen tarte txikiena.
+deck-config-custom-scheduling = Antolaketa pertsonalizatua
+deck-config-custom-scheduling-tooltip = Bilduma osoari eragiten dio. Kontuz erabili!
 
 ## Adding/renaming
 
+deck-config-add-group = Gehitu aurrezarpena
+deck-config-name-prompt = Izena
+deck-config-rename-group = Berrizendatu aurrezarpena
+deck-config-clone-group = Klonatu aurrezarpena
 
 ## Removing
 
+deck-config-remove-group = Kendu aurrezarpena
+deck-config-will-require-full-sync =
+    Eskatutako aldaketak noranzko bakarreko sinkronizazio bat beharko du. Beste gailu batean
+    aldaketak egin badituzu, eta oraindik ez badituzu gailu honekin sinkronizatu, egin ezazu
+    jarraitu baino lehen.
+deck-config-confirm-remove-name = Kendu { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Gorde
+deck-config-save-to-all-subdecks = Gorde azpisorta guztietarako
+deck-config-revert-button-tooltip = Berrezarri ezarpenaren balio lehenetsia.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
