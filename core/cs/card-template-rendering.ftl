@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Více informací
 card-template-rendering-front-side-problem = Šablona líce má problém:
 card-template-rendering-back-side-problem = Šablona rubu má problém:
+card-template-rendering-browser-front-side-problem = Šablona líce prohlížeče má problém:
+card-template-rendering-browser-back-side-problem = Šablona rubu prohlížeče má problém:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Chybí „{ $missing }“ v „{ $tag }“

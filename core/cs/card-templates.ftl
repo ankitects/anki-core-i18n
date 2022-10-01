@@ -60,3 +60,4 @@ card-templates-this-will-create-card-proceed =
         [few] Budou vytvořeny { $count } karty. Pokračovat?
        *[other] Bude vytvořeno { $count } karet. Pokračovat?
     }
+card-templates-type-boxes-warning = Je podporováno pouze jedno pole pro psaní na kartě.
