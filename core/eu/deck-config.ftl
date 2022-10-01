@@ -97,8 +97,8 @@ deck-config-bury-title = Lurperatzea
 deck-config-bury-new-siblings = Lurperatu haurride berriak
 deck-config-bury-review-siblings = Lurperatu berrikusteko haurrideak
 deck-config-bury-tooltip =
-    Ohar bereko beste txartelak (adib. alderantzizko txartela, beste hutsuneak)
-    hurrengo egunera arte atzeratuko diren ala ez.
+    Ea ohar bereko beste txartelak (adib. alderantzizko txartela, beste hutsuneak)
+    hurrengo egunera arte atzeratuko diren.
 
 ## Ordering section
 
@@ -180,12 +180,36 @@ deck-config-display-order-will-use-current-deck =
 
 ## Timer section
 
+deck-config-timer-title = Kronometroa
+deck-config-maximum-answer-secs = Gehieneko erantzun-denbora, segundotan
+deck-config-maximum-answer-secs-tooltip =
+    Berrikuspen bakar baterako gehienez erregistratuko den segundo kopurua. Erantzun batek
+    denbora hori gainditzen badu (adibidez, pantailatik aldendu zarelako), ezarritako muga
+    erabiliko da erantzun-denbora erregistratzeko.
+deck-config-show-answer-timer-tooltip =
+    Erakutsi kronometroa berrikuspen-pantailan, txartel bakoitza berrikusteko
+    behar dituzun segundoak zenbatzen dituena.
 
 ## Audio section
 
+deck-config-audio-title = Audioa
+deck-config-disable-autoplay = Ez erreproduzitu audioa automatikoki
+deck-config-skip-question-when-replaying = Saltatu galdera erantzuna berriro erreproduzitzean.
+deck-config-always-include-question-audio-tooltip =
+    Ea galderaren audioa ere erreproduzituko den "Berriro erreproduzitu" sakatzean,
+    txartelaren erantzunari begira zaudela.
 
 ## Advanced section
 
+deck-config-advanced-title = Aurreratuak
+deck-config-maximum-interval-tooltip =
+    Berrikusteko txartel bat gehienez zain egongo den egun kopurua. Berrikuspenek
+    muga gainditzean, `Zaila`, `Ondo` eta `Erraza` botoiek berdin atzeratuko dute
+    txartela. Zenbat eta motzagoa tarte hau, orduan eta handiagoa zure lan-karga.
+deck-config-starting-ease-tooltip =
+    Txartel berrien hasierako erraztasun-biderkatzailea. Lehenespenez, `Ondo` botoia
+    sakatzean, 2,5 bider aurreko tartea izango da ikasi berri duzun txartel baten hurrengo tartea.
+deck-config-easy-bonus-tooltip = `Erraza` sakatzean berrikusteko txartel baten tarteari aplikatzen zaion biderkatzaile gehigarria.
 
 ## Adding/renaming
 
