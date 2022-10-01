@@ -104,6 +104,27 @@ deck-config-bury-tooltip =
 
 deck-config-ordering-title = Erakuste-ordena
 deck-config-new-gather-priority = Txartel berriak biltzeko ordena
+deck-config-new-gather-priority-tooltip-2 =
+    `Sorta`: sortaz sorta biltzen ditu txartelak, goikotik hasita. Sorta bakoitzeko txartelak
+    goranzko ordenan jasotzen dira. Hautatutako sortaren eguneko mugara iritsiz gero, bilketa
+    gelditu egingo da sorta guztiak arakatu baino lehen. Ordena hau da azkarrena bilduma handietan,
+    eta gorago dauden sortei lehentasuna emateko aukera ematen du.
+    
+    `Goranzko ordena`: goranzko lehentasun-zenbakiaren arabera biltzen ditu txartelak. Beraz, normalean, erantsitako txartel zaharrenak aurretik erakutsiko dira.
+    
+    `Beheranzko ordena`: beheranzko lehentasun-zenbakiaren arabera biltzen ditu txartelak. Beraz, normalean, erantsitako txartel berrienak aurretik erakutsiko dira.
+    
+    `Ausazko oharrak`: ausaz aukeratutako oharren txartelak biltzen ditu. Haurrideen lurperatzea
+    desgaituta dagoenean, honek aukera ematen du saio berean ikusteko ohar baten txartel guztiak
+    (adibidez, bai aurrealdea→atzealdea eta bai atzealdea→aurrealdea txartelak). 
+    
+    `Ausazko txartelak`: erabat ausaz biltzen ditu txartelak.
+deck-config-new-gather-priority-deck = Sorta
+deck-config-new-gather-priority-position-lowest-first = Goranzko ordena
+deck-config-new-gather-priority-position-highest-first = Beheranzko ordena
+deck-config-new-gather-priority-random-notes = Ausazko oharrak
+deck-config-new-gather-priority-random-cards = Ausazko txartelak
+deck-config-new-card-sort-order = Txartel berrien ordena
 
 ## Timer section
 
