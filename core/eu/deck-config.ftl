@@ -194,7 +194,7 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Audioa
 deck-config-disable-autoplay = Ez erreproduzitu audioa automatikoki
-deck-config-skip-question-when-replaying = Saltatu galdera erantzuna berriro erreproduzitzean.
+deck-config-skip-question-when-replaying = Saltatu galdera erantzuna berriro erreproduzitzean
 deck-config-always-include-question-audio-tooltip =
     Ea galderaren audioa ere erreproduzituko den "Berriro erreproduzitu" sakatzean,
     txartelaren erantzunari begira zaudela.
@@ -245,12 +245,32 @@ deck-config-revert-button-tooltip = Berrezarri ezarpenaren balio lehenetsia.
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ tratamendua
+deck-config-description-new-handling-hint =
+    Sarrera Markdown gisa tratatzen du eta HTML sarrera garbitzen du. Gaituta dagoenean,
+    deskribapena "Zorionak!" pantailan ere agertuko da. Markdown-a testu gisa agertuko da
+    Anki 2.1.40 eta aurrekoetan.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Sorta guraso batek { $cards ->
+        [one] txartel bakarreko
+       *[other] { $cards } txarteleko
+    } muga dauka. Horrek muga hau gainidatziko du.
+deck-config-reviews-too-low =
+    Egunero { $cards ->
+        [one] txartel berri bat gehitzen baduzu
+       *[other] { $cards } txartel berri gehitzen badituzu
+    }, berrikuspen-mugak { $expected }(e)koa izan behar luke gutxienez.
+deck-config-learning-step-above-graduating-interval = Graduatze-tarteak gutxienez azken ikasketa-urratsak bezain luzea izan behar luke.
+deck-config-good-above-easy = Errazetarako tarteak gutxienez graduatze-tarteak bezain luzea izan behar luke.
+deck-config-relearning-steps-above-minimum-interval = Gutxieneko tarteak azken berrikasketa-urratsak bezain luzea izan behar luke gutxienez.
+deck-config-maximum-answer-secs-above-recommended = Ankik era eraginkorragoan antolatu ditzake berrikuspenak galdera motzak idazten badituzu.
 
 ## Selecting a deck
 
+deck-config-which-deck = Zein sorta nahi duzu?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
