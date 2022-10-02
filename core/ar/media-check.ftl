@@ -26,6 +26,10 @@ media-check-oversize-header = لا تمكن مزامنة الملفات ذات �
 media-check-subfolder-header = المجلدات داخل مجلد الوسائط غير مدعومة.
 media-check-missing-header = الملفات التالية مشار إليها من قبل البطاقات، لكنها غير موجودة في مجلد الوسائط:
 media-check-unused-header = الملفات التالية موجودة في مجلد الوسائط، لكنها غير مستخدمة من قبل أي بطاقة:
+media-check-template-references-field-header =
+    لا يستطيع أنكي إيجاد الملفات المستخدمة عندما تستخدم مراجع { "{{Field}}" } في وسوم الوسائط/LaTeX. يجب وضع وسوم الوسائط/LaTeX في الملحوظات نفسها بدلًا من ذلك.
+    
+    القوالب المعنية:
 
 ## Shown once for each file
 
@@ -34,6 +38,11 @@ media-check-oversize-file = أكبر من 100 ميغابايت: { $filename }
 media-check-subfolder-file = مجلد: { $filename }
 media-check-missing-file = مفقود: { $filename }
 media-check-unused-file = غير مستخدم: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 

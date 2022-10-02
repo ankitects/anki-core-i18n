@@ -37,7 +37,6 @@ card-templates-anki-couldnt-find-the-line-between = أنكي لا يستطيع �
 card-templates-at-least-one-card-type-is = يلزم نوع بطاقة واحد على الأقل.
 card-templates-browser-appearance = مظهر المتصفّح...
 card-templates-card = البطاقة { $val }
-card-templates-card-types = أنواع البطاقات
 card-templates-card-types-for = أنواع البطاقات لـ { $val }
 card-templates-cloze = ملء فراغات { $val }
 card-templates-deck-override = رزمة مهيمنة...
@@ -69,3 +68,4 @@ card-templates-this-will-create-card-proceed =
         [many] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
        *[other] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
     }
+card-templates-type-boxes-warning = فقط حقل إدخال واحد في قالب البطاقات مدعوم

@@ -1,19 +1,15 @@
 preferences-automatically-sync-on-profile-openclose = مزامنة تلقائية عند فتح الملف الشخصي وإغلاقه
 preferences-backups = نُسخ احتياطية
-preferences-backups2 = نسخ احتياطية
-preferences-backupsanki-will-create-a-backup-of = <html><head/><body dir="rtl"><p><span style=" font-weight:600;">النسخ الاحتياطي</span><br/>ينشئ أنكي نسخة احتياطية من مجموعتك كلما أُغلِق.</p></body></html>
 preferences-basic = أساسي
 preferences-change-deck-depending-on-note-type = تغيير الرزمة اعتمادًا على نوع الملحوظة
 preferences-changes-will-take-effect-when-you = ستجري التغييرات عند إعادة تشغيل أنكي.
 preferences-hours-past-midnight = ساعة بعد منتصف الليل
 preferences-interface-language = لغة الواجهة:
 preferences-interrupt-current-audio-when-answering = إيقاف التسجيل الصوتي الحالي عند الإجابة
-preferences-keep = احتفظ بـ
 preferences-learn-ahead-limit = حد التعلم المبكر
 preferences-mins = دقيقة
 preferences-network = الشبكة
 preferences-next-day-starts-at = يبدأ اليوم التالي في
-preferences-night-mode = الوضع الليلي
 preferences-note-media-is-not-backed-up = ملحوظة: الوسائط غير منسوخة احتياطيًا. الرجاء نسخ مجلد أنكي الخاص بك احتياطيًا من وقت لآخر.
 preferences-on-next-sync-force-changes-in = فرض التغييرات في جانب واحد عند المزامنة التالية
 preferences-paste-clipboard-images-as-png = لصق الصور من الحافظة بصيغة PNG
@@ -50,3 +46,5 @@ preferences-daily-backups = عدد النسخ اليومية المحفوظة:
 preferences-weekly-backups = عدد النسخ الأسبوعية المحفوظة:
 preferences-monthly-backups = عدد النسخ الشهرية المحفوظة:
 preferences-minutes-between-backups = الدقائق بين النسخ التلقائية:
+preferences-reduce-motion = تقليل الأنميشن
+preferences-reduce-motion-tooltip = إيقاف تفعيل تأثيرات متحركة عديدة في واجهة المستخدم
