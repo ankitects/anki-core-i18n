@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = 到期
 # The count of cards waiting to be reviewed
-statistics-due-count = 到期
+statistics-due-count = 已到期
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = 新 #{ $number }
 
