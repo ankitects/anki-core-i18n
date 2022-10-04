@@ -63,6 +63,6 @@ actions-flag-orange = 橙色
 actions-flag-green = 綠色
 actions-flag-blue = 藍色
 actions-flag-pink = 粉紅色
-actions-flag-turquoise = 淺粉藍色
+actions-flag-turquoise = 青綠色
 actions-flag-purple = 紫色
 actions-set-flag = 設定旗標

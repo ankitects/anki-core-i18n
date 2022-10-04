@@ -16,7 +16,7 @@ search-unclosed-quote = 你輸入了一個雙引號 `"`，但在其之後缺少�
 search-missing-key = 你輸入了一個冒號 `:`，但在其之前缺少關鍵字。若要搜尋冒號 `:` 本身，請在前面加上反斜線：`\:`。
 search-unknown-escape = 逸出序列 `{ $val }` 未定義。若要搜尋反斜線本身 `\`，請在前面再加上反斜線 `\\`。
 search-invalid-argument = `{ $term }` 收到了一條無效引數 '`{ $argument }`'。
-search-invalid-flag-2 = `flag:`後必須接上有效旗標序號：`1` (紅色), `2` (橙色), `3` (綠色), `4` (藍色), `5` (粉紅色), `6`, (淺粉藍色), `7` (紫色) 或`0` (無旗標)。
+search-invalid-flag-2 = `flag:`後必須接上有效旗標序號：`1` (紅色), `2` (橙色), `3` (綠色), `4` (藍色), `5` (粉紅色), `6`, (青綠色), `7` (紫色) 或`0` (沒有旗標)。
 search-invalid-prop-operator = `prop:{ $val }` 後必須接上以下比較運算子之一：`=`, `!=`, `<`, `>`, `<=` 或 `>=`。
 search-invalid-other = 請檢查有無輸入錯誤。
 
