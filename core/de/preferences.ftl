@@ -1,19 +1,15 @@
 preferences-automatically-sync-on-profile-openclose = Beim Öffnen/Schließen eines Profils automatisch synchronisieren
 preferences-backups = Sicherungskopien
-preferences-backups2 = Sicherungskopien
-preferences-backupsanki-will-create-a-backup-of = <html><head/><body><p><span style=" font-weight:600;">Sicherungskopien</span><br/>Jedes Mal, wenn Anki geöffnet oder synchronisiert wird, erstellt es eine Sicherungskopie Ihrer Sammlung.</p></body></html>
 preferences-basic = Einfach
 preferences-change-deck-depending-on-note-type = Stapel abhängig vom Notiztyp zuweisen
 preferences-changes-will-take-effect-when-you = Die Änderungen werden nach einem Neustart von Anki wirksam.
 preferences-hours-past-midnight = Stunden nach Mitternacht
 preferences-interface-language = Sprache der Benutzeroberfläche:
 preferences-interrupt-current-audio-when-answering = Audiowiedergabe beim Antworten unterbrechen
-preferences-keep = Behalten
 preferences-learn-ahead-limit = Grenzwert für vorgezogenes Lernen
 preferences-mins = Min.
 preferences-network = Netzwerk
 preferences-next-day-starts-at = Neuer Tag beginnt um
-preferences-night-mode = Nachtmodus
 preferences-note-media-is-not-backed-up = Achtung: Von Medien wird keine Sicherungskopie erstellt. Bitte erstellen Sie daher sicherheitshalber regelmäßig Kopien des Anki-Ordners.
 preferences-on-next-sync-force-changes-in = Bei der nächsten Synchronisation Änderungen in eine Richtung erzwingen
 preferences-paste-clipboard-images-as-png = Bilder aus der Zwischenablage im PNG-Bildformat einfügen
@@ -48,3 +44,5 @@ preferences-daily-backups = Beizubehaltende tägliche Sicherungskopien:
 preferences-weekly-backups = Beizubehaltende wöchentliche Sicherungskopien:
 preferences-monthly-backups = Beizubehaltende monatliche Sicherungskopien:
 preferences-minutes-between-backups = Minuten zwischen automatisch erstellten Sicherungskopien:
+preferences-reduce-motion = Bewegung reduzieren
+preferences-reduce-motion-tooltip = Deaktiviert diverse Animationen und Übergangsanimationen auf der Benutzeroberfläche

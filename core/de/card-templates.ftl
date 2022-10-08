@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] Dieser Vorgang wird { $count } Karte erstellen. Möchten Sie fortfahren?
        *[other] Dieser Vorgang wird { $count } Karten erstellen. Möchten Sie fortfahren?
     }
+card-templates-type-boxes-warning = Es wird nur ein Eingabefeld pro Kartenvorlage unterstützt.

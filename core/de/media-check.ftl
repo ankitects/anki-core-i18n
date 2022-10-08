@@ -22,6 +22,10 @@ media-check-oversize-header = Dateien mit einer Größe über 100MB können nich
 media-check-subfolder-header = Ordner innerhalb des Medienordners werden nicht unterstützt.
 media-check-missing-header = In einigen Karten benutzt, aber nicht im Medienordner:
 media-check-unused-header = Die folgenden Dateien wurden im Medienordner gefunden, werden aber anscheinend von keiner Karte verwendet:
+media-check-template-references-field-header =
+    Anki kann keine benutzten Dateien erkennen, wenn Sie { "{{Field}}" }-Verweise in Medien/LaTeX-Tags verwenden. Die Media/LaTeX-Tags sollten stattdessen auf individuellen Notizen platziert werden.
+    
+    Vorlagen mit entsprechenden Verweisen:
 
 ## Shown once for each file
 
@@ -30,6 +34,11 @@ media-check-oversize-file = Über 100MB: { $filename }
 media-check-subfolder-file = Ordner: { $filename }
 media-check-missing-file = Fehlend: { $filename }
 media-check-unused-file = Unbenutzt: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
