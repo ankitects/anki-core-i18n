@@ -60,8 +60,9 @@ editing-collapse-field = כיווץ שדה
 editing-underline-text = קו תחתון
 editing-unordered-list = רשימה (נקודות)
 editing-warning-cloze-deletions-will-not-work = אזהרה, השלם את החסר לא יעבוד עד שתשנה את הסוג למעלה להשלם את החסר.
-editing-toggle-mathjax-rendering = החלף את העיבוד של MathJax
+editing-mathjax-preview = תצוגה מקדימה של MathJax
 editing-shrink-images = כווץ תמונות
+editing-close-html-tags = סגירה אוטומטית של תגיות HTML
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

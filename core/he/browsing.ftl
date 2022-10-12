@@ -12,6 +12,7 @@ browsing-browser-appearance = מראה דפדפן
 browsing-browser-options = אפשרויות חיפוש
 browsing-buried = טמונים
 browsing-card = כרטיס
+browsing-cards = כרטיסים
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = כ
 browsing-card-list = רשימת כרטיסים
@@ -59,6 +60,7 @@ browsing-new-note-type = סוג רשומה חדש:
 browsing-no-flag = לא מסומן בדגל
 browsing-no-selection = לא נבחרו כרטיסים או רשומות.
 browsing-note = רשומה
+browsing-notes = רשומות
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ר
 browsing-optional-filter = סינון אופציונלי

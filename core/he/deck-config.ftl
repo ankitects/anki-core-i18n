@@ -106,8 +106,8 @@ deck-config-bury-new-siblings = טמון אחים חדשים עד למחרת
 deck-config-bury-review-siblings = טמון חזרות אחים עד למחרת
 deck-config-bury-interday-learning-siblings = הטמן אחים בלימוד בין יומיים
 deck-config-bury-tooltip =
-    כרטיסים אחרים מאותה רשומה (למשל כרטיסים הפוכים, סמוכים
-    מחיקות השלם את החסר) ידחו למחר.
+    כרטיסים אחרים מאותה רשומה (למשל כרטיסים עם שתי רשומות,
+    השלם את החסר עם יותר מהסתרה אחת) ידחו למחר.
 
 ## Ordering section
 
