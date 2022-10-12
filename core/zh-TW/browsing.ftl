@@ -12,6 +12,7 @@ browsing-browser-appearance = 瀏覽器預覽樣式
 browsing-browser-options = 瀏覽器選項
 browsing-buried = 已暫停
 browsing-card = 卡片
+browsing-cards = 卡片
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = 卡
 browsing-card-list = 卡片清單
@@ -58,6 +59,7 @@ browsing-new-note-type = 新的筆記類型：
 browsing-no-flag = 沒有旗標
 browsing-no-selection = 未選取卡片或筆記。
 browsing-note = 筆記
+browsing-notes = 筆記
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 筆
 browsing-optional-filter = 可選篩選器：

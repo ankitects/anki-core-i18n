@@ -60,8 +60,9 @@ editing-collapse-field = 摺疊欄位
 editing-underline-text = 為文字加上底線
 editing-unordered-list = 無序清單
 editing-warning-cloze-deletions-will-not-work = 提示，若上方的類型不是克漏字，克漏字空格將不會生效。
-editing-toggle-mathjax-rendering = 啟用/停用 MathJax 轉譯
+editing-mathjax-preview = MathJax 預覽
 editing-shrink-images = 縮小圖像
+editing-close-html-tags = 自動閉合 HTML 標籤
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
