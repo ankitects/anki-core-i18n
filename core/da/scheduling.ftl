@@ -48,6 +48,30 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    Næste kort bliver klart om { $unit ->
+        [sekunder]
+            { $amount ->
+                [en] { $amount } sekund
+               *[andet] { $amount } sekunder
+            }
+        [minutter]
+            { $amount ->
+                [en] { $amount } minut
+               *[andet] { $amount } minutes
+            }
+       *[timer]
+            { $amount ->
+                [en] { $amount } time
+               *[andet] { $amount } timer
+            }
+    }.
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Der er et kort tilbage at lære i dag.
+       *[other] Der er { $remaining } kort tilbage at lære i dag.
+    }
 scheduling-congratulations-finished = Tillykke! Du er færdig med dette kortsæt for i dag.
 scheduling-today-review-limit-reached =
     Dagens genopfrisknings-grænse er nået, men der er stadig kort
@@ -58,18 +82,29 @@ scheduling-today-new-limit-reached =
     grænse er opbrugt. Du kan øge grænsen, men husk at
     jo flere kort du introducerer, jo flere genopfriskninger
     skal du foretage.
+scheduling-buried-cards-found = Et eller flere kort er blevet begravet, og vises igen i morgen. Du kan { $unburyThem } hvis du ønsker at se dem med det samme.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = grav ned
+scheduling-how-to-custom-study = Hvis du ønsker at studere uden for det almindelige skema, kan du bruge { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Brugerdefineret studium
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 kommer med et nyt planlægningssystem, som ordner nogle kendt problemer med tidligere Anki-versioner. Det anbefales at opdatere.
+scheduling-update-done = Skemaet opdateret.
 scheduling-update-button = Opdatér
 scheduling-update-later-button = Senere
 scheduling-update-more-info-button = Lær mere
+scheduling-update-required =
+    Din kollektion behøver opgraderes til V2-skemaet.
+    Vær venlig og vælg { scheduling-update-more-info-button } før du fortsætter.
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = Inkluder altid spørgsmålssiden når lyden genspilles.
 scheduling-at-least-one-step-is-required = Mindst et skridt er nødvendigt.
 scheduling-automatically-play-audio = Afspil lyden automatisk
 scheduling-bury-related-new-cards-until-the = Læg relaterede nye kort til side indtil næste dag
@@ -81,6 +116,7 @@ scheduling-easy-interval = Nemt interval
 scheduling-end = (slut)
 scheduling-general = Generelt
 scheduling-graduating-interval = Gradueringsinterval
+scheduling-hard-interval = Svært interval
 scheduling-ignore-answer-times-longer-than = Ignorer svartider længere end
 scheduling-interval-modifier = Interval-modifikator
 scheduling-lapses = Udfald
@@ -99,6 +135,8 @@ scheduling-new-options-group-name = Ny indstillings gruppenavn:
 scheduling-options-group = Indstillingsgruppe
 scheduling-order = Rækkefølge
 scheduling-parent-limit = (overordnet grænse: { $val })
+scheduling-reset-counts = Nulstil repetition og omgange.
+scheduling-restore-position = Nulstil originalpositionen hvis muligt.
 scheduling-review = Gennemgang
 scheduling-reviews = Genopfriskninger
 scheduling-seconds = sekunder
@@ -119,4 +157,18 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } kortsæt blev opdateret
        *[other] { $count } kortsæt blev opdateret
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Vis kort i hvor mange dage?
+       *[other] Vis kort i hvor mange dage?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = idag
+    1! = i morgen + skift interval til 1
+    3-7 = slumpmæssigt valg mellem 3-7 dage
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Glem { $cards } kort.
+       *[other] Glem { $cards } kort.
     }
