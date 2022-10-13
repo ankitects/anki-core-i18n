@@ -1,9 +1,20 @@
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
 scheduling-answer-button-time-seconds = { $amount } sek
 scheduling-answer-button-time-minutes = { $amount } min
 scheduling-answer-button-time-hours = { $amount } time
 scheduling-answer-button-time-days = { $amount } dag
 scheduling-answer-button-time-months = { $amount }mdr
 scheduling-answer-button-time-years = { $amount } år
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
 scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } sekund
@@ -34,6 +45,9 @@ scheduling-time-span-years =
         [one] { $amount } år
        *[other] { $amount } år
     }
+
+## Shown in the "Congratulations!" message after study finishes.
+
 scheduling-congratulations-finished = Tillykke! Du er færdig med dette kortsæt for i dag.
 scheduling-today-review-limit-reached =
     Dagens genopfrisknings-grænse er nået, men der er stadig kort
@@ -44,7 +58,18 @@ scheduling-today-new-limit-reached =
     grænse er opbrugt. Du kan øge grænsen, men husk at
     jo flere kort du introducerer, jo flere genopfriskninger
     skal du foretage.
-scheduling-buried-cards-were-delayed = Nogle relaterede eller begravede kort blev udsat til en senere session.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = Brugerdefineret studium
+
+## Scheduler upgrade
+
+scheduling-update-button = Opdatér
+scheduling-update-later-button = Senere
+scheduling-update-more-info-button = Lær mere
+
+## Other scheduling strings
+
 scheduling-at-least-one-step-is-required = Mindst et skridt er nødvendigt.
 scheduling-automatically-play-audio = Afspil lyden automatisk
 scheduling-bury-related-new-cards-until-the = Læg relaterede nye kort til side indtil næste dag
@@ -90,7 +115,8 @@ scheduling-steps-must-be-numbers = Trin skal være tal.
 scheduling-tag-only = Mærkat kun
 scheduling-the-default-configuration-cant-be-removed = Standardkonfigurationen kan ikke fjernes.
 scheduling-your-changes-will-affect-multiple-decks = Dine ændringer vil påvirke flere kortsæt. Hvis du blot ønsker at ændre den nuværende kortsæt, så skal du først tilføje en ny tilvalgsgruppe.
-scheduling-deck-updated = { $count ->
-    [one] { $count } kortsæt blev opdateret
-   *[other] { $count } kortsæt blev opdateret
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } kortsæt blev opdateret
+       *[other] { $count } kortsæt blev opdateret
+    }
