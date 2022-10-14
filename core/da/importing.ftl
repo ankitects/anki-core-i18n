@@ -1,4 +1,3 @@
-importing-failed = Import mislykkedes.
 importing-failed-debug-info = Import fejlede: fejlinformation:
 importing-aborted = Afbrød: { $val }
 importing-added-duplicate-with-first-field = Tilføjede dublet med første felt: { $val }
@@ -58,3 +57,13 @@ importing-note-updated =
         [one] { $count } note opdateret
        *[other] { $count } noter opdateret
     }
+importing-existing-notes = Eksisterende noter
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplicér
+# "Existing notes: Preserve" (verb)
+importing-preserve = Behold
+# "Existing notes: Update" (verb)
+importing-update = Opdater
+importing-tag-all-notes = Tagge alle noter
+importing-tag-updated-notes = Tagge opdaterede noter
+importing-file = Fil
