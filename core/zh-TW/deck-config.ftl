@@ -131,7 +131,7 @@ deck-config-show-answer-timer-tooltip = 在複習畫面顯示一個計時器，�
 deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 不要自動播放音訊
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
-deck-config-always-include-question-audio-tooltip = 當查看卡片答案面時執行了重播動作，要/不要包含問題音訊。
+deck-config-always-include-question-audio-tooltip = 在卡片答案面執行重播動作時，要/不要同時播放問題面上的音訊。
 
 ## Advanced section
 
