@@ -167,6 +167,11 @@ scheduling-set-due-date-prompt-hint =
     0 = idag
     1! = i morgen + skift interval til 1
     3-7 = slumpmæssigt valg mellem 3-7 dage
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Sæt sidste dato til { $cards } kort.
+       *[other] Sæt sidste dato til { $cards } kort.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Glem { $cards } kort.

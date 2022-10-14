@@ -1,3 +1,6 @@
+custom-study-must-rename-deck = Vær venlig og omdøb først den eksisterende, brugerdefinerede kortbunke.
+custom-study-all-cards-in-random-order-dont = Alle kort er i slumpmæssig rækkefølge (undgå omplanlægning af kort).
+custom-study-all-review-cards-in-random-order = Alle gennemgåede kort i slumpmæssig rækkefølge
 custom-study-cards = kort
 custom-study-cards-from-the-deck = kort fra kortsættet
 custom-study-choose-tags = Vælg mærker
@@ -21,3 +24,11 @@ custom-study-select = Vælg
 custom-study-select-tags-to-exclude = Vælg mærker som skal udelades:
 custom-study-selective-study = Selektivt studie
 custom-study-study-by-card-state-or-tag = Studér kortene efter kortenes tilstand eller mærke
+custom-study-available-new-cards-2 = Tilgængelige nye kort: { $countString }
+custom-study-available-review-cards-2 = Tilgængelige gennemgåede kort: { $countString }
+custom-study-available-child-count = { $count } i underkortbunker
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-available-new-cards = Tilgængelige nye kort: { $count }
+custom-study-available-review-cards = Tilgængelige kort til gennemgang: { $count }
