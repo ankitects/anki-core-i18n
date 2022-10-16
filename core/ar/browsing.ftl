@@ -12,6 +12,7 @@ browsing-browser-appearance = مظهر المتصفّح
 browsing-browser-options = خيارات المتصفح
 browsing-buried = مدفونة
 browsing-card = بطاقة
+browsing-cards = بطاقات
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = بط
 browsing-card-list = قائمة البطاقات
@@ -63,6 +64,7 @@ browsing-new-note-type = نوع الملحوظة الجديد:
 browsing-no-flag = لا مؤشر
 browsing-no-selection = لم تحدد أي بطاقات أو ملحوظات.
 browsing-note = ملحوظة
+browsing-notes = ملحوظات
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = مل
 browsing-optional-filter = فلتر اختياري:

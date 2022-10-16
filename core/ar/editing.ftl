@@ -60,8 +60,9 @@ editing-collapse-field = طي الحقل
 editing-underline-text = خط تحت النص
 editing-unordered-list = قائمة غير مرقمة
 editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء الفراغات لن تعمل حتى تغيّر النوع في الأعلى إلى نوع ملء الفراغات.
-editing-toggle-mathjax-rendering = تفعيل/إيقاف معالجة MathJax
+editing-mathjax-preview = معاينة MathJax
 editing-shrink-images = تقليص الصور
+editing-close-html-tags = إغلاق وسوم HTML تلقائيًا
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
