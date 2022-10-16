@@ -60,8 +60,9 @@ editing-collapse-field = Feld einklappen
 editing-underline-text = Text unterstreichen
 editing-unordered-list = Ungeordnete Liste
 editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur korrekt angezeigt, wenn oben als Notiztyp »Lückentext« gewählt wird.
-editing-toggle-mathjax-rendering = Mathjax-Rendering an-/abschalten
+editing-mathjax-preview = MathJax-Vorschau
 editing-shrink-images = Bilder verkleinern
+editing-close-html-tags = HTML-Tags automatisch schließen
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

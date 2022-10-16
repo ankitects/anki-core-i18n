@@ -12,6 +12,7 @@ browsing-browser-appearance = Darstellung in der Kartenverwaltung
 browsing-browser-options = Kartenverwaltungseinstellungen
 browsing-buried = Zurückgestellt
 browsing-card = Karte
+browsing-cards = Karten
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = K
 browsing-card-list = Kartenliste
@@ -59,6 +60,7 @@ browsing-new-note-type = Neuer Notiztyp:
 browsing-no-flag = keine Markierung
 browsing-no-selection = Keine Karten oder Notizen ausgewählt.
 browsing-note = Notiz
+browsing-notes = Notizen
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
 browsing-optional-filter = Optionaler Filter:
