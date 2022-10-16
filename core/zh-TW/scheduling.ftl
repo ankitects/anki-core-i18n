@@ -47,14 +47,14 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] { $remaining } 張學習中的卡片將於今天到期。
     }
-scheduling-congratulations-finished = 恭喜！你已完成本牌組當前的學習任務。
+scheduling-congratulations-finished = 恭喜！你已學完此牌組當前的內容。
 scheduling-today-review-limit-reached = 已經達到今天的複習上限，但還有卡片尚待複習。為達到理想記憶效果，你可以在選項中增加每日上限。
 scheduling-today-new-limit-reached = 還有更多新卡片可以學習，但你已經達到今天的上限。你可以在選項中增加上限，但請記住，學習越多新卡片意味著短期內的複習量也越多。
 scheduling-buried-cards-found = 有卡片被暫停，被暫停的卡片會在明天出現。如果你想要立即學習這些卡片，可以{ $unburyThem }。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = 取消暫停
-scheduling-how-to-custom-study = 若你想要在常規排程外學習更多內容，請使用{ $customStudy }功能。
+scheduling-how-to-custom-study = 要在正常排程外學習更多內容，請使用{ $customStudy }功能。
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = 自訂學習
@@ -105,7 +105,7 @@ scheduling-order = 順序
 scheduling-parent-limit = (父牌組上限：{ $val })
 scheduling-reset-counts = 重設重複和忘記次數
 scheduling-restore-position = 儘可能回復原始順序
-scheduling-review = 待複習
+scheduling-review = 複習
 scheduling-reviews = 待複習卡片
 scheduling-seconds = 秒
 scheduling-set-all-decks-below-to = 是否將 { $val } 裡的所有牌組都設為此選項群組？
