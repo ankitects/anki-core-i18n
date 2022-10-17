@@ -19,11 +19,15 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip = 一日に表示される期日を迎えた復習カードの最大枚数。
 deck-config-limit-deck-v3 = サブデッキを含むデッキを選択して学習する場合、それぞれのサブデッキから引き出されるカードの最大枚数は、それぞれのサブデッキで設定された上限によります。選択中のデッキのカードの合計枚数には、そのデッキで設定した上限が適用されます。
 deck-config-limit-new-bound-by-reviews = 一日あたりの復習カード出題枚数の上限は、一日あたりの新規カード出題枚数の上限に影響を与えます。例えば、一日あたりの復習カード出題枚数の上限を200に設定し、期日を迎えたカードが190枚ある場合、最大10枚の新規カードが新たに導入されます。しかし、期日を迎えたカードの枚数が設定した上限を超えている場合、その日に新規カードは新たに導入されません。
-deck-config-limit-interday-bound-by-reviews = 復習の上限は、日付をまたいだ学習（再学習）カードにも適用されます。上限を適用するとき、まず日付をまたいだ学習（再学習）カードが集められ、次に復習カード、最後に新規カードの順で集められます。
+deck-config-limit-interday-bound-by-reviews = 復習の上限は、日付をまたいだ習得中（または再習得中）カードにも適用されます。上限を適用するとき、まず日付をまたいだ習得中（再習得中）カードが集められ、次に復習カード、最後に新規カードの順で集められます。
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
 
 ## New Cards section
 
-deck-config-learning-steps = 学習ステップ
+deck-config-learning-steps = 習得ステップ
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = ステップは、分（例：`1m`）や日数（例：`2d`）で指定することがほとんどですが、時間（例：`1h`）や秒（例：`30s`）で指定することも可能です。
 deck-config-learning-steps-tooltip =
