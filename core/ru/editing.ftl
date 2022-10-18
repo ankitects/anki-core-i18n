@@ -47,11 +47,11 @@ editing-superscript = Надстрочный знак
 editing-tags = Метки
 editing-tags-add = Добавить метку
 editing-tags-copy = Копировать метку
-editing-tags-remove = Убрать метку
+editing-tags-remove = Удалить метки
 editing-tags-select-all = Выбрать все метки
 editing-text-color = Цвет текста
 editing-text-highlight-color = Цвет выделения текста
-editing-to-make-a-cloze-deletion-on = Чтобы добавить заполнение пропусков к существующей записи, необходимо сначала изменить её тип на «Задание с пропусками», выбрав «Записи» — «Изменить тип записи».
+editing-to-make-a-cloze-deletion-on = Чтобы добавить заполнение пропусков к существующей записи, необходимо сначала изменить её тип на «Задание с пропусками», выбрав «Записи» — «Сменить тип записи».
 editing-toggle-html-editor = HTML-редактор
 editing-toggle-visual-editor = Визуальный редактор
 editing-toggle-sticky = Сохранять значение
@@ -60,7 +60,6 @@ editing-collapse-field = Свернуть поле
 editing-underline-text = Подчеркивание
 editing-unordered-list = Неупорядоченный список
 editing-warning-cloze-deletions-will-not-work = Внимание! Заполнение пропусков не будет работать, пока вы не измените тип карточки на «Пропуски».
-editing-toggle-mathjax-rendering = Отрисовка MathJax
 editing-shrink-images = Уменьшить изображения
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.

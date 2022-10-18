@@ -2,18 +2,18 @@ notetypes-notetype = Тип записи
 
 ## Default field names in newly created note types
 
-notetypes-front-field = Лицо
-notetypes-back-field = Оборот
+notetypes-front-field = Front
+notetypes-back-field = Back
 notetypes-add-reverse-field = Добавить обратную
 notetypes-text-field = Текст
 notetypes-back-extra-field = Дополнение оборота
 
 ## Default note type names
 
-notetypes-basic-name = Основная
-notetypes-basic-reversed-name = Основная (с обратной карточкой)
-notetypes-basic-optional-reversed-name = Основная (обратная по выбору)
-notetypes-basic-type-answer-name = Основная (с вводом ответа)
+notetypes-basic-name = Простая
+notetypes-basic-reversed-name = Простая (с обратной карточкой)
+notetypes-basic-optional-reversed-name = Простая (с обратной по выбору)
+notetypes-basic-type-answer-name = Простая (с вводом ответа)
 notetypes-cloze-name = Задание с пропусками
 
 ## Default card template names
