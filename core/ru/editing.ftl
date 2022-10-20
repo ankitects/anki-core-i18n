@@ -60,7 +60,9 @@ editing-collapse-field = Свернуть поле
 editing-underline-text = Подчеркивание
 editing-unordered-list = Неупорядоченный список
 editing-warning-cloze-deletions-will-not-work = Внимание! Заполнение пропусков не будет работать, пока вы не измените тип карточки на «Пропуски».
+editing-mathjax-preview = Предпросмотр MathJax
 editing-shrink-images = Уменьшить изображения
+editing-close-html-tags = Закрывать теги HTML
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

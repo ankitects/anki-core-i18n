@@ -12,6 +12,7 @@ browsing-browser-appearance = Вид списка карточек
 browsing-browser-options = Параметры списка карточек
 browsing-buried = Отложенные
 browsing-card = Карточка
+browsing-cards = Карточки
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = К
 browsing-card-list = Список карточек
@@ -60,6 +61,7 @@ browsing-new-note-type = Новый тип записи:
 browsing-no-flag = Без флажка
 browsing-no-selection = Карточки или записи не выбраны.
 browsing-note = Запись
+browsing-notes = Записи
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = З
 browsing-optional-filter = Дополнительный фильтр:
