@@ -72,7 +72,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 延期
 deck-config-bury-new-siblings = 新規カードの兄弟を翌日に延期する
 deck-config-bury-review-siblings = 復習カードの兄弟を翌日に延期する
-deck-config-bury-interday-learning-siblings = 日付をまたいだ学習カードの兄弟を延期する
+deck-config-bury-interday-learning-siblings = 日付をまたいだ習得中カードの兄弟を延期する
 deck-config-bury-tooltip = 同じノートから作られたカード（裏表反転カード、同じノートの別の穴埋め問題など）の学習を翌日に延期します。
 
 ## Ordering section
@@ -92,7 +92,7 @@ deck-config-sort-order-template-then-gather = カードテンプレ後、集め�
 deck-config-sort-order-gather = 集められた順番
 deck-config-new-review-priority = 新規カード表示のタイミング
 deck-config-new-review-priority-tooltip = 新規カードを、復習カードとの関連でいつ表示するのか選択できます。
-deck-config-interday-step-priority = 日付をまたいだ学習（再学習）カード表示のタイミング
+deck-config-interday-step-priority = 日付をまたいだ習得中（再習得中）カード表示のタイミング
 deck-config-interday-step-priority-tooltip = 日付をまたいだ学習（再学習）カードをどのタイミングで表示するかを選択できます。
 deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
 deck-config-review-mix-show-after-reviews = 復習の後に表示
