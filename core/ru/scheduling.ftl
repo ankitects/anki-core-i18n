@@ -109,7 +109,7 @@ scheduling-unbury-them = вернуть их
 scheduling-how-to-custom-study = Если вы хотите заниматься вне расписания, начните { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
-scheduling-custom-study = дополнительное занятие
+scheduling-custom-study = допзанятие
 
 ## Scheduler upgrade
 

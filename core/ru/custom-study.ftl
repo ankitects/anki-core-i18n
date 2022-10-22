@@ -1,10 +1,10 @@
-custom-study-must-rename-deck = Сначала переименуйте существующую колоду дополнительного занятия.
+custom-study-must-rename-deck = Сначала переименуйте существующую колоду допзанятия.
 custom-study-all-cards-in-random-order-dont = Все карточки в случайном порядке (без перепланирования)
 custom-study-all-review-cards-in-random-order = Все повторяемые карточки в случайном порядке
 custom-study-cards = карточки
 custom-study-cards-from-the-deck = карточки из колоды
 custom-study-choose-tags = Выбрать метки
-custom-study-custom-study-session = Дополнительное занятие
+custom-study-custom-study-session = Допзанятие
 custom-study-due-cards-only = Только карточки к просмотру
 custom-study-increase-todays-new-card-limit = Добавить новых на сегодня
 custom-study-increase-todays-new-card-limit-by = Увеличить лимит новых на
