@@ -1,5 +1,5 @@
 custom-study-must-rename-deck = 請先重新命名已存在的自訂學習牌組。
-custom-study-all-cards-in-random-order-dont = 隨機排列所有卡片 (不重新排程)
+custom-study-all-cards-in-random-order-dont = 隨機排列所有卡片（不重新排程）
 custom-study-all-review-cards-in-random-order = 隨機排列所有複習卡
 custom-study-cards = 張卡片
 custom-study-cards-from-the-deck = 張牌組中的卡片
@@ -26,7 +26,7 @@ custom-study-selective-study = 選擇性學習
 custom-study-study-by-card-state-or-tag = 依卡片狀態或標籤來學習
 custom-study-available-new-cards-2 = 可用的新卡片數量：{ $countString }
 custom-study-available-review-cards-2 = 可用的複習卡數量：{ $countString }
-custom-study-available-child-count = ({ $count } 張位於子牌組中)
+custom-study-available-child-count = （{ $count } 張位於子牌組中）
 
 ## DEPRECATED - you do not need to translate these.
 

@@ -24,7 +24,7 @@ media-check-unused-header = 在媒體資料夾中找到了以下未被卡片使�
 media-check-template-references-field-header =
     當你在媒體/LaTeX 標籤中加入 { "{{欄位}}" } 來引用檔案時，Anki 將無法偵測引用的檔案。請將媒體/LaTeX 標籤單獨加入到每一則筆記中。
     
-    以下模板存在此問題:
+    以下模板存在此問題：
 
 ## Shown once for each file
 
@@ -37,7 +37,7 @@ media-check-unused-file = 未使用：{ $filename }
 ##
 
 # Eg "Basic: Card 1 (Front Template)"
-media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
+media-check-notetype-template = { $notetype }：{ $card_type }（{ $side }）
 
 ## Progress
 

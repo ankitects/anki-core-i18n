@@ -22,9 +22,9 @@ card-stats-review-log-type-review = 複習
 card-stats-review-log-type-relearn = 重新學習
 card-stats-review-log-type-filtered = 已篩選
 card-stats-review-log-type-manual = 手動
-card-stats-no-card = (沒有卡片可顯示)
+card-stats-no-card = （沒有卡片可顯示）
 
 ## Window Titles
 
-card-stats-current-card = 當前卡片 ({ $context })
-card-stats-previous-card = 上一張卡片 ({ $context })
+card-stats-current-card = 當前卡片（{ $context }）
+card-stats-previous-card = 上一張卡片（{ $context }）

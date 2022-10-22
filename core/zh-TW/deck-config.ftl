@@ -33,13 +33,13 @@ deck-config-today-only = 僅限今天
 
 deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 延遲時間通常為分鐘 (如 `5m`) 或天 (如 `2d`)，但也支援使用小時 (如 `1h`) 和秒 (如 `30s`)。
+-deck-config-delay-hint = 延遲時間通常為分鐘（如 `5m`）或天（如 `2d`），但也支援使用小時（如 `1h`）和秒（如 `30s`）。
 deck-config-learning-steps-tooltip = 一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下 `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕將會前進到下一個階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將改天出現。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，再次顯示卡片前需等待的天數。
 deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過學習階段後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
-deck-config-new-insertion-order-tooltip = 控制新卡片被指派的順序 (到期 #)。卡片到期序號越小，在學習時就越早顯示。更改此選項將自動更新現有新卡片順序。
-deck-config-new-insertion-order-sequential = 循序 (最舊的卡片在前)
+deck-config-new-insertion-order-tooltip = 控制新卡片被指派的順序（到期 #）。卡片到期序號越小，在學習時就越早顯示。更改此選項將自動更新現有新卡片順序。
+deck-config-new-insertion-order-sequential = 循序（最舊的卡片在前）
 deck-config-new-insertion-order-random = 隨機
 deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議將此選項保留為循序，改用新卡片收集順序調整。
 
@@ -60,7 +60,7 @@ deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
 deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
 deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
-deck-config-bury-tooltip = 要/不要將相同筆記的其他卡片 (如反向卡片、相鄰的克漏字空格) 延遲至第二天顯示。
+deck-config-bury-tooltip = 要/不要將相同筆記的其他卡片（如反向卡片、相鄰的克漏字空格）延遲至第二天顯示。
 
 ## Ordering section
 
@@ -69,11 +69,11 @@ deck-config-new-gather-priority = 新卡片收集順序
 deck-config-new-gather-priority-tooltip-2 =
     `牌組順序`：在各個牌組中依順序，由上至下收集卡片。依照遞增順序收集各個牌組中的卡片。若選取的牌組已達每日上限，收集卡片時可能不會檢查到部分牌組。在較大的集合中，此選項的速度最快，並讓你能夠優先學習靠上的子牌組。
     
-    `遞增順序`：依遞增順序收集卡片 (到期 #)，通常依新增順序從早到晚排序。
+    `遞增順序`：依遞增順序收集卡片（到期 #），通常依新增順序從早到晚排序。
     
-    `遞減順序`：依遞增順序收集卡片 (遞減 #)，通常依新增順序從晚到早排序。
+    `遞減順序`：依遞增順序收集卡片（遞減 #），通常依新增順序從晚到早排序。
     
-    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現 (如「正面->背面」和「背面->正面」兩張卡片同時出現)
+    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現（如「正面->背面」和「背面->正面」兩張卡片同時出現）
     
     `隨機卡片`：完全隨機收集卡片。
 deck-config-new-gather-priority-deck = 牌組順序
@@ -101,7 +101,7 @@ deck-config-new-review-priority = 新卡片/複習卡優先順序
 deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
 deck-config-interday-step-priority = 隔天學習/複習的優先順序
 deck-config-interday-step-priority-tooltip =
-    隔天學習時，(重新) 學習中的卡片的顯示順序。
+    隔天學習時，（重新）學習中的卡片的顯示順序。
     
     複習上限永遠優先套用於隔天學習卡片，然後才是複習卡。此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
 deck-config-review-mix-mix-with-reviews = 與複習卡混合
@@ -123,7 +123,7 @@ deck-config-display-order-will-use-current-deck = Anki 將採用你選取學習�
 
 deck-config-timer-title = 計時器
 deck-config-maximum-answer-secs = 最大回答秒數
-deck-config-maximum-answer-secs-tooltip = 為單次複習記錄的最大秒數。若回答超過此時間 (例如你離開螢幕時)，那麼卡片花費的時間將會被記為你所設定的上限。
+deck-config-maximum-answer-secs-tooltip = 為單次複習記錄的最大秒數。若回答超過此時間（例如可能你複習中途離開了螢幕一段時間），那麼卡片花費的時間將會被記為你所設定的上限。
 deck-config-show-answer-timer-tooltip = 在複習畫面顯示一個計時器，計算複習每張卡片所花費的秒數。
 
 ## Audio section

@@ -15,5 +15,5 @@ profiles-prefs-file-is-corrupt = Anki 已重新建立損毀的 prefs21.db 檔案
 profiles-profile-does-not-exist = 要求的設定檔不存在。
 profiles-creating-backup = 正在建立備份...
 profiles-backup-created = 已建立備份。
-profiles-backup-creation-failed = 備份建立失敗: { $reason }
+profiles-backup-creation-failed = 備份建立失敗：{ $reason }
 profiles-backup-unchanged = 上次備份後沒有變更。

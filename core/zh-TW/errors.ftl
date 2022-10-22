@@ -13,5 +13,5 @@ errors-inconsistent-db-state = 你的資料庫似乎前後不一。請使用「�
 
 ## Card Rendering
 
-errors-bad-directive = 指示詞 '{ $directive }' 中出現錯誤: { $error }
+errors-bad-directive = 指示詞 '{ $directive }' 中出現錯誤：{ $error }
 errors-option-not-set = 未設定 '{ $option }'

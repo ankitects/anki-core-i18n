@@ -1,6 +1,6 @@
 change-notetype-current = 當前欄位
 change-notetype-new = 新的欄位
-change-notetype-nothing = (無)
+change-notetype-nothing = （無）
 change-notetype-collapse = 摺疊
 change-notetype-expand = 展開
 change-notetype-will-discard-content = 以下欄位的內容將被捨棄：
