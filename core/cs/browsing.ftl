@@ -12,6 +12,7 @@ browsing-browser-appearance = Zobrazení v prohlížeči
 browsing-browser-options = Možnosti prohlížeče
 browsing-buried = Přeskočené
 browsing-card = Karta
+browsing-cards = Karty
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = K
 browsing-card-list = Seznam karet
@@ -60,6 +61,7 @@ browsing-new-note-type = Nový typ poznámky:
 browsing-no-flag = Žádný příznak
 browsing-no-selection = Nejsou vybrány žádné karty nebo poznámky.
 browsing-note = Poznámka
+browsing-notes = Poznámky
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = P
 browsing-optional-filter = Volitelný filtr:

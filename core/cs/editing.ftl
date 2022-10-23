@@ -60,8 +60,9 @@ editing-collapse-field = Sbalit pole
 editing-underline-text = Podtržený text
 editing-unordered-list = Odrážkový seznam
 editing-warning-cloze-deletions-will-not-work = Pozor, doplňovačky nebudou fungovat, dokud nezměníte typ výše na Doplňovačku.
-editing-toggle-mathjax-rendering = Přepnout zobrazení MathJax
+editing-mathjax-preview = Náhled MathJax
 editing-shrink-images = Zmenšit obrázky
+editing-close-html-tags = Automaticky uzavírat HTML tagy
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
