@@ -60,8 +60,9 @@ editing-collapse-field = Pienennä kenttä
 editing-underline-text = Alleviivattu teksti
 editing-unordered-list = Numeroimaton luettelo
 editing-warning-cloze-deletions-will-not-work = Varoitus: aukkotehtävät eivät toimi ennen kun vaihdat tyypin ylhäältä aukkotehtäväksi.
-editing-toggle-mathjax-rendering = MathJaxin renderöinti päälle/pois
+editing-mathjax-preview = MathJax-esikatselu
 editing-shrink-images = Kutista kuvatiedostot
+editing-close-html-tags = Sulje HTML-tägit automaattisesti
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -9,6 +9,7 @@ errors-please-check-database = Käytä Tarkista tietokanta -toimintoa ja yritä 
 errors-please-check-media = Käytä Tarkista media -toimintoa ja yritä sitten uudelleen.
 errors-collection-too-new = Tämän kokoelman avaaminen edellyttää uudempaa Ankin versiota.
 errors-invalid-ids = Tämä pakka sisältää tulevaisuuteen sijoittuvia aikaleimoja. Ota yhteyttä pakan tekijään ja pyydä häntä korjaamaan ongelma.
+errors-inconsistent-db-state = Tietokantasi näyttää olevan epäjohdonmukaisessa tilassa. Käytä Tarkista tietokanta -toimintoa.
 
 ## Card Rendering
 
