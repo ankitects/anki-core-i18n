@@ -26,14 +26,14 @@ scheduling-time-span-years = { $amount } 年
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    次の学習中カードは { $unit ->
+    次の習得中カードは { $unit ->
         [seconds] { $amount }秒
         [minutes] { $amount }分
        *[hours] { $amount }時間
     }後に表示されます。
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] 本日中に再び表示される学習中カードが{ $remaining }あります。
+       *[other] 本日中に再び表示される習得中カードが{ $remaining }あります。
     }
 scheduling-congratulations-finished = おめでとうございます！　このデッキの今日の課題を全て達成しました！
 scheduling-today-review-limit-reached =
@@ -77,7 +77,7 @@ scheduling-ignore-answer-times-longer-than = 統計に利用する解答時間�
 scheduling-interval-modifier = 復習ペースの調整
 scheduling-lapses = 忘却
 scheduling-lapses2 = 回
-scheduling-learning = 学習（再学習）中
+scheduling-learning = 習得（再習得）中
 scheduling-leech-action = 無駄（定着困難）カードへの処置
 scheduling-leech-threshold = 無駄（定着困難）カードと判定する忘却回数
 scheduling-maximum-interval = 復習間隔の上限

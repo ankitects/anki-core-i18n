@@ -34,12 +34,12 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }勉強しています ({ $secs-per-card }秒/枚)
+    }学習しています ({ $secs-per-card }秒/枚)
 statistics-today-title = 今日
 statistics-today-again-count = 忘却回数:
-statistics-today-type-counts = 学習: { $learnCount }枚、復習: { $reviewCount }枚、再学習: { $relearnCount }枚、フィルター: { $filteredCount }枚
-statistics-today-no-cards = 今日はまだ1枚もカードを勉強していません。
-statistics-today-no-mature-cards = 今日は復習（後期）カードは勉強していません。
+statistics-today-type-counts = 習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、フィルター: { $filteredCount }枚
+statistics-today-no-cards = 今日はまだ1枚もカードを学習していません。
+statistics-today-no-mature-cards = 今日は復習（後期）カードは学習していません。
 statistics-today-correct-mature = 復習（後期）の正解率: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = カードの合計枚数
 statistics-counts-new-cards = 新規
@@ -48,8 +48,8 @@ statistics-counts-mature-cards = 復習（後期）
 statistics-counts-suspended-cards = 保留
 statistics-counts-buried-cards = 延期
 statistics-counts-filtered-cards = フィルター適用
-statistics-counts-learning-cards = 学習中
-statistics-counts-relearning-cards = 再学習中
+statistics-counts-learning-cards = 習得中
+statistics-counts-relearning-cards = 再習得中
 statistics-counts-title = カード数
 statistics-counts-separate-suspended-buried-cards = 保留・延期カードを分ける
 statistics-range-all-time = 全期間
@@ -77,7 +77,7 @@ statistics-answer-buttons-button-number = ボタン
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = 回答数
 statistics-answer-buttons-subtitle = 各ボタンを押した回数
-statistics-reviews-title = 復習
+statistics-reviews-title = 学習
 statistics-reviews-time-checkbox = 時間
 statistics-in-days-single =
     { $days ->

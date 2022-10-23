@@ -137,7 +137,7 @@ deck-config-maximum-interval-tooltip =
     設定した上限に達した場合、そのカードの「`難しい`」「`正解`」「`簡単`」のいずれのボタンでも同じ日数が表示されることがあります。
     
     ここでの設定日数を短くするほど、学習負荷がかかります。
-deck-config-starting-ease-tooltip = 学習（再学習）ステップを完了した後の最初の復習時に適用される乗数。デフォルトでは、そこで「正解」と回答すると、前回の間隔に乗数2.5が適用されます。
+deck-config-starting-ease-tooltip = 習得（再習得）ステップを完了した後の最初の復習時に適用される乗数。デフォルトでは、そこで「正解」と回答すると、前回の間隔に乗数2.5が適用されます。
 deck-config-easy-bonus-tooltip = 復習カードに「簡単」と回答した際、そのカードの復習間隔に追加して適用される乗数。
 deck-config-interval-modifier-tooltip = ここで設定する乗数はすべての復習に適用され、Ankiのスケジューリングの間隔をお好みに合わせて微調整することができます。この設定を変更する際にはマニュアルをご確認ください。
 deck-config-hard-interval-tooltip = 「難しい」と回答した際、復習間隔に適用される乗数。
@@ -185,7 +185,7 @@ deck-config-reviews-too-low =
     }復習の上限が最低でも{ $expected }である必要があります。
 deck-config-learning-step-above-graduating-interval = 最終ステップから復習開始までの間隔は、最低でも最終ステップと同じ長さの間隔が必要です。
 deck-config-good-above-easy = 「簡単」と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
-deck-config-relearning-steps-above-minimum-interval = 忘却カードの復習開始までの間隔は、最低でも再学習ステップの最終ステップと同じ長さの間隔が必要です。
+deck-config-relearning-steps-above-minimum-interval = 忘却カードの復習開始までの間隔は、最低でも再習得ステップの最後のステップと同じ長さの間隔が必要です。
 deck-config-maximum-answer-secs-above-recommended = 質問を短くすることで、Ankiはより効率的な復習をスケジュールすることができます。
 
 ## Selecting a deck
