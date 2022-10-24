@@ -60,7 +60,9 @@ editing-collapse-field = Réduire le champ
 editing-underline-text = Souligné
 editing-unordered-list = Liste non ordonnée
 editing-warning-cloze-deletions-will-not-work = Attention, le texte à trous ne fonctionnera pas tant que vous ne changez pas le type de carte en « Texte à trous » (en haut de la fenêtre).
-editing-toggle-mathjax-rendering = Activer le rendu `Mathjax`
+editing-mathjax-preview = Aperçu MathJax
+editing-shrink-images = Rétrécir les images
+editing-close-html-tags = Fermer automatiquement les tags HTML
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

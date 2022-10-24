@@ -9,6 +9,7 @@ errors-please-check-database = S'il vous plaît, essayez la fonction "Vérifier 
 errors-please-check-media = S'il vous plaît, utilisez la fonction "vérifier les médias...", et réessayez à nouveau.
 errors-collection-too-new = Cette collection nécessite une version plus récente d'Anki pour être ouverte.
 errors-invalid-ids = Ce paquet contient des horodatages situés dans le futur.  Veuillez contacter l'auteur du paquet pour lui signaler le problème.
+errors-inconsistent-db-state = Votre base de données semble présenter des incohérences. Veuillez utiliser la fonction « Vérifier la base de données »
 
 ## Card Rendering
 

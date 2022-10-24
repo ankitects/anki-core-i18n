@@ -16,7 +16,9 @@ deck-config-title = Options du paquet
 ## Daily limits section
 
 deck-config-daily-limits = Limites journalières
-deck-config-new-limit-tooltip = Le nombre maximal de nouvelles cartes pouvant être introduites par jour (si de nouvelles cartes sont disponibles). Des cartes inédites peuvent augmenter votre charge de travail à court-terme, donc vous devriez éviter d'en introduire chaque jour plus de 10% de votre quota de révisions.
+deck-config-new-limit-tooltip =
+    Le nombre maximal de nouvelles cartes pouvant être introduites par jour (si de nouvelles cartes sont disponibles).
+    Des cartes inédites peuvent augmenter votre charge de travail à court-terme, donc vous devriez éviter d'en introduire chaque jour plus de 10% de votre quota de révisions.
 deck-config-review-limit-tooltip = Le nombre maximal de cartes déjà vues pouvant être révisées par jour (si des cartes doivent être révisées).
 deck-config-limit-deck-v3 = Quand vous étudiez un paquet qui a des sous-paquets, les limites de chaque sous-paquet fixent le nombre maximal de cartes tirées de ce paquet. Les limites du paquet sélectionné fixent le nombre total de cartes qui seront montrées.
 deck-config-limit-new-bound-by-reviews =
@@ -24,7 +26,7 @@ deck-config-limit-new-bound-by-reviews =
     fixée à 200, et que vous avez 190 révisions en attente, un maximum de 10 nouvelles cartes seront
     introduites. Si la limite de révision est atteinte, aucune nouvelle carte ne sera
     montrée.
-deck-config-limit-interday-bound-by-reviews = La limite de révision journalière affecte aussi les cartes en apprentissage interjournalier. Quand la limite est appliquée, ¶ les cartes en apprentissage interjournalier sont collectées en première, ensuite celles à réviser, et finalement les nouvelles cartes.
+deck-config-limit-interday-bound-by-reviews = La limite de révision journalière affecte aussi les cartes en apprentissage interjournalier. Quand la limite est appliquée, les cartes en apprentissage interjournalier sont collectées en premier, puis celles à réviser, et enfin les nouvelles cartes.
 deck-config-tab-description =
     - `Préréglage`: La limite est partagée avec tous les paquets utilisant ce préréglage.
     - `Ce paquet`: La limite est spécifique à ce paquet.
@@ -42,7 +44,7 @@ deck-config-today-only = Juste aujourd'hui
 deck-config-learning-steps = Étapes d'apprentissage
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Les délais peuvent être en minutes (par ex. `5m`), ou en jours (par ex. `2d`), mais les heures (par ex. `1h`) ou les secondes (par ex. `30s`) sont également valides.
-deck-config-learning-steps-tooltip = Un ou plusieurs délais, séparés par des espaces. Le premier délai (par défaut 1 minutes) sera appliqué quand vous noterez une nouvelle carte comme étant `À revoir`. Le bouton `Correct` passera à l'étape suivante (par défaut 10 minutes). Une fois ces étapes franchies, la carte deviendra une carte de révision, et apparaîtra un autre jour. { -deck-config-delay-hint }
+deck-config-learning-steps-tooltip = Un ou plusieurs délais, séparés par des espaces. Le premier délai (par défaut 1 minute) sera appliqué quand vous noterez une nouvelle carte comme étant `À revoir`. Le bouton `Correct` passera à l'étape suivante (par défaut 10 minutes). Une fois ces étapes franchies, la carte deviendra une carte de révision, et apparaîtra un autre jour. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Le nombre de jours à attendre avant de revoir une carte, si le bouton `Correct` est pressé à l'étape finale d'apprentissage.
 deck-config-easy-interval-tooltip = Le nombre de jours à attendre avant de revoir une carte, si le bouton `Facile` est pressé pour l'enlever immédiatement de l'apprentissage.
 deck-config-new-insertion-order = Ordre d'insertion
@@ -58,7 +60,7 @@ deck-config-relearning-steps-tooltip = Aucun ou plusieurs délais, séparés par
 deck-config-leech-threshold-tooltip = Le nombre de fois où il faut appuyer sur `À revoir` sur une carte à réviser avant qu'elle ne soit considérée comme une « sangsue ». Les sangsues sont des cartes qui vous font perdre beaucoup de temps, et lorsqu'une carte est marquée comme telle, il peut être opportun de la réécrire, de la supprimer, ou de chercher un moyen mnémotechnique pour mieux s'en souvenir.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Taguer` : Ajoute un tag « sangsue » à la note, et affiche une pop-up.¶
+    `Taguer` : Ajoute un tag « sangsue » à la note, et affiche une pop-up.
     `Suspendre la carte` : En plus de taguer la note, cache la carte jusqu'à ce qu'elle soit manuellement remise en jeu.
 
 ## Burying section
@@ -74,10 +76,10 @@ deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la mê
 deck-config-ordering-title = Ordre d'Affichage
 deck-config-new-gather-priority = Ordre de collecte des nouvelles cartes
 deck-config-new-gather-priority-tooltip-2 =
-    `Paquet` : rassemble les cartes de chaque paquet dans l'ordre, en commençant par le haut. Les cartes de chaque paquet sont rassemblées par ordre croissant. Si la limite quotidienne du paquet choisi est atteinte, la collecte peut s'arrêter avant que tous les paquets aient été vérifiés. Cet ordre est le plus rapide pour les grandes collections, et permet de donner la priorité aux sous-paquets qui sont plus proches du sommet.¶
-    `Ordre croissant` : rassemble les cartes par position croissante (échéance), c.à.d. généralement les plus anciennes ajoutées en premier.¶
-    `Ordre décroissant` : rassemble les cartes par position décroissante (échéance), c.à.d. généralement les plus récentes ajoutées en premier.¶
-    `Notes aléatoires` : rassemble les cartes de notes choisies au hasard. Si l'enfouissement des cartes sœurs est désactivé, cela permet à toutes les cartes d'une même note d'apparaître dans une session (par ex. à la fois une carte recto->verso et une carte verso->recto)¶
+    `Paquet` : rassemble les cartes de chaque paquet dans l'ordre, en commençant par le haut. Les cartes de chaque paquet sont rassemblées par ordre croissant. Si la limite quotidienne du paquet choisi est atteinte, la collecte peut s'arrêter avant que tous les paquets aient été vérifiés. Cet ordre est le plus rapide pour les grandes collections, et permet de donner la priorité aux sous-paquets qui sont plus proches du sommet.
+    `Ordre croissant` : rassemble les cartes par position croissante (échéance), c.à.d. généralement les plus anciennes ajoutées en premier.
+    `Ordre décroissant` : rassemble les cartes par position décroissante (échéance), c.à.d. généralement les plus récentes ajoutées en premier.
+    `Notes aléatoires` : rassemble les cartes de notes choisies au hasard. Si l'enfouissement des cartes sœurs est désactivé, cela permet à toutes les cartes d'une même note d'apparaître dans une session (par ex. à la fois une carte recto->verso et une carte verso->recto)
     `Cartes aléatoires` : rassemble les cartes complètement aléatoirement
 deck-config-new-gather-priority-deck = Paquet
 deck-config-new-gather-priority-position-lowest-first = Ordre croissant
@@ -135,8 +137,8 @@ deck-config-display-order-will-use-current-deck =
 deck-config-timer-title = Chronomètre
 deck-config-maximum-answer-secs = Temps de réponse maximum
 deck-config-maximum-answer-secs-tooltip =
-    Le nombre maximum de secondes à enregistrer pour une seule révision. Si une réponse¶
-    dépasse ce temps (parce que vous vous êtes éloigné de l'écran par exemple),¶
+    Le nombre maximum de secondes à enregistrer pour une seule révision. Si une réponse
+    dépasse ce temps (parce que vous vous êtes éloigné de l'écran par exemple),
     le temps pris sera enregistré comme la limite que vous avez fixée.
 deck-config-show-answer-timer-tooltip =
     Dans l'écran de révision, affichez une minuterie qui compte le nombre de secondes que vous¶
@@ -179,7 +181,7 @@ deck-config-clone-group = clonage Présélection
 ## Removing
 
 deck-config-remove-group = supprimer la présélection
-deck-config-will-require-full-sync = La modification demandée nécessitera une synchronisation à sens unique. Si vous avez effectué des modifications¶ sur un autre appareil et que vous ne les avez pas encore synchronisées avec cet appareil, veuillez le faire avant ¶de poursuivre.
+deck-config-will-require-full-sync = La modification demandée nécessitera une synchronisation à sens unique. Si vous avez effectué des modifications sur un autre appareil et que vous ne les avez pas encore synchronisées avec cet appareil, veuillez le faire avant de poursuivre.
 deck-config-confirm-remove-name = Supprimer { $name } ?
 
 ## Other Buttons
@@ -193,8 +195,7 @@ deck-config-revert-button-tooltip = Restaurer les paramètres par défauts.
 
 deck-config-description-new-handling = Gestion d'Anki 2.1.41+
 deck-config-description-new-handling-hint =
-    Traite les entrées comme du markdown, et nettoie les entrées HTML. Lorsqu'elle est activée, la¶
-    description s'affichera également sur l'écran de félicitations.¶
+    Traite les entrées comme du markdown, et nettoie les entrées HTML. Lorsqu'elle est activée, la description s'affichera également sur l'écran de félicitations.
     Markdown apparaîtra comme du texte sur Anki 2.1.40 et plus.
 
 ## Warnings shown to the user
