@@ -12,6 +12,7 @@ errors-please-check-database = אנא השתמש בפעולת בדיקת מסד 
 errors-please-check-media = אנא השתמש בפעולה בדוק מדיה ולאחר מכן נסה שוב.
 errors-collection-too-new = נדרשת גירסה חדשה יותר של אנקי כדי לפתוח את האוסף הזה.
 errors-invalid-ids = חפיסה זו מכילה חותמות זמן בעתיד. אנא צור קשר עם מחבר החפיסה ובקש ממנו לתקן את הבעיה.
+errors-inconsistent-db-state = מסד הנתונים שלך נראה במצב לא עקבי. אנא השתמש בפעולה בדוק מסד נתונים.
 
 ## Card Rendering
 
