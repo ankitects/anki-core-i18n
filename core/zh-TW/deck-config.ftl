@@ -60,7 +60,9 @@ deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
 deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
 deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
-deck-config-bury-tooltip = 要/不要將相同筆記的其他卡片（如反向卡片、相鄰的克漏字空格）延遲至第二天顯示。
+deck-config-bury-new-tooltip = 啟用後，回答卡片後會將相同筆記的其他`新卡片`（如反向卡片、相鄰的克漏字空格）推遲到第二天。
+deck-config-bury-review-tooltip = 啟用後，回答卡片後會將相同筆記的其他`複習卡`推遲到第二天。
+deck-config-bury-interday-learning-tooltip = 啟用後，回答卡片後，若相同筆記有其他`學習中`的卡片，且其間隔大於 1 天，則將該卡片推遲到第二天。
 
 ## Ordering section
 
@@ -130,8 +132,9 @@ deck-config-show-answer-timer-tooltip = 在複習畫面顯示一個計時器，�
 
 deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 不要自動播放音訊
+deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕，或使用播放音訊動作來手動播放。
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
-deck-config-always-include-question-audio-tooltip = 在卡片答案面執行重播動作時，要/不要同時播放問題面上的音訊。
+deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行播放動作時會同時播放問題面上的音訊。
 
 ## Advanced section
 
