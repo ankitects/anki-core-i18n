@@ -105,9 +105,13 @@ deck-config-bury-title = טמונים
 deck-config-bury-new-siblings = טמון אחים חדשים עד למחרת
 deck-config-bury-review-siblings = טמון חזרות אחים עד למחרת
 deck-config-bury-interday-learning-siblings = הטמן אחים בלימוד בין יומיים
-deck-config-bury-tooltip =
-    כרטיסים אחרים מאותה רשומה (למשל כרטיסים עם שתי רשומות,
-    השלם את החסר עם יותר מהסתרה אחת) ידחו למחר.
+deck-config-bury-new-tooltip =
+    האם כרטיסים  אחרים מאותה רשומה במצב `חדש`(למשל כרטיסים מתהפכים, השלם את החסר)
+     ידחו ליום הבא.
+deck-config-bury-review-tooltip = האם כרטיסים אחרים במצב `חזרה` מאותה רשומה ידחו ליום הבא.
+deck-config-bury-interday-learning-tooltip =
+    האם כרטיסים אחרים במצב `למידה` מאותה רשומה עם מרווחים של יותר מ 1 יום
+    ידחו ליום הבא.
 
 ## Ordering section
 
@@ -188,6 +192,9 @@ deck-config-show-answer-timer-tooltip = הצג במסך החזרה טיימר ה
 
 deck-config-audio-title = שמע
 deck-config-disable-autoplay = אל תפעיל שמע אוטומטית
+deck-config-disable-autoplay-tooltip =
+    כאשר מופעל, אנקי לא ינגן קבצי שמע באופן אוטומטי.
+    ניתן להפעיל אותו באופן ידני על ידי לחיצה/הקשה על סמל שמע, או על ידי שימוש בפעולת השמע שוב.
 deck-config-skip-question-when-replaying = דלג על השאלה בעת תשובה חוזרת
 deck-config-always-include-question-audio-tooltip =
     הגדרה זו קובעת האם יש לכלול את שמע השאלה כאשר אפשרות ההשמעה מחדש
