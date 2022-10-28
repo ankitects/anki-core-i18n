@@ -60,9 +60,9 @@ deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
 deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
 deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
-deck-config-bury-new-tooltip = 啟用後，回答卡片後會將相同筆記的其他`新卡片`（如反向卡片、相鄰的克漏字空格）推遲到第二天。
-deck-config-bury-review-tooltip = 啟用後，回答卡片後會將相同筆記的其他`複習卡`推遲到第二天。
-deck-config-bury-interday-learning-tooltip = 啟用後，回答卡片後，若相同筆記有其他`學習中`的卡片，且其間隔大於 1 天，則將該卡片推遲到第二天。
+deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
+deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
+deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則推遲到第二天。
 
 ## Ordering section
 
@@ -101,7 +101,7 @@ deck-config-sort-order-template-then-gather = 卡片類型
 deck-config-sort-order-gather = 收集順序
 deck-config-new-review-priority = 新卡片/複習卡優先順序
 deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
-deck-config-interday-step-priority = 隔天學習/複習的優先順序
+deck-config-interday-step-priority = 隔天學習/複習卡優先順序
 deck-config-interday-step-priority-tooltip =
     隔天學習時，（重新）學習中的卡片的顯示順序。
     
