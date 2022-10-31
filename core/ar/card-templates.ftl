@@ -24,7 +24,7 @@ card-templates-night-mode = الوضع الليلي
 # on a mobile device.
 card-templates-add-mobile-class = إضافة صنف الهاتف المحمول
 card-templates-preview-settings = خيارات
-card-templates-invalid-template-number = هناك مشكلة في قالب البطاقة رقم { $number }.
+card-templates-invalid-template-number = هناك مشكلة في قالب البطاقة رقم { $number } من نوع الملحوظة "{ $notetype }".
 card-templates-identical-front = الجانب الأمامي مطابق لقالب البطاقة { $number }.
 card-templates-no-front-field = كان من المتوقع إيجاد عبارة استبدال حقل في الجانب الأمامي لقالب البطاقة.
 card-templates-missing-cloze = كان من المتوقع إيجاد '{ "{{" }cloze:Text{ "}}" }' أو ما شابه في الجانبين الأمامي والخلفي لقالب البطاقة.
