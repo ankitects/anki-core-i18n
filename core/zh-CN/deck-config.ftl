@@ -83,7 +83,9 @@ deck-config-bury-title = 搁置
 deck-config-bury-new-siblings = 搁置关联新卡片到下一天
 deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
 deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
-deck-config-bury-tooltip = 是否将同一笔记的其他卡片（如翻转卡片，相邻的空格）推迟至第二天。
+deck-config-bury-new-tooltip = 同一笔记中的其他“新卡片”（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
+deck-config-bury-review-tooltip = 同一笔记中其他“复习”卡片是否推迟到第二天。
+deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于1天的“学习中”卡片是否推迟到第二天。
 
 ## Ordering section
 
@@ -172,6 +174,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = 音频
 deck-config-disable-autoplay = 不自动播放音频
+deck-config-disable-autoplay-tooltip =
+    启用后，音频将不会自动播放。
+    可通过点击音频播放按钮或使用重播动作来手动播放音频。
 deck-config-skip-question-when-replaying = 重播答案时跳过问题
 deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播操作，是否需包含问题的音频。
 
