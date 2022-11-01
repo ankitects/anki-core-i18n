@@ -102,6 +102,9 @@ deck-config-bury-new-tooltip =
     Jestli ostatní `nové` karty stejné poznámky (např. obrácené karty, sousední doplňovačky
     budou odloženy na další den.
 deck-config-bury-review-tooltip = Jestli ostatní `opakované` karty stejné poznámky budou odloženy na další den.
+deck-config-bury-interday-learning-tooltip =
+    Jestli ostatní `učené` karty stejné poznámky s intervalem >1 den 
+    budou odloženy na další den.
 
 ## Ordering section
 
@@ -200,6 +203,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Zvuk
 deck-config-disable-autoplay = Nepřehrávat zvuk automaticky
+deck-config-disable-autoplay-tooltip =
+    Je-li povoleno, Anki nepřehraje zvuk automaticky.
+    Je možné ho přehrát ručně kliknutím/stisknutím ikony zvuku nebo použitím akce přehrát zvuk.
 deck-config-skip-question-when-replaying = Přeskočit otázku, když se přehrává odpověď
 deck-config-always-include-question-audio-tooltip =
     Zda má být zvuk v otázce přehrán, když se zvuk přehrává znovu během 
