@@ -98,9 +98,10 @@ deck-config-bury-title = Přeskakování
 deck-config-bury-new-siblings = Odložit nové příbuzné karty na další den
 deck-config-bury-review-siblings = Odložit opakované příbuzné karty na další den
 deck-config-bury-interday-learning-siblings = Odložit učené příbuzné karty na další den
-deck-config-bury-tooltip =
-    Zdali budou ostatní karty stejné poznámky (např. obrácené karty, 
-    sousední doplňovačky) odloženy na další den.
+deck-config-bury-new-tooltip =
+    Jestli ostatní `nové` karty stejné poznámky (např. obrácené karty, sousední doplňovačky
+    budou odloženy na další den.
+deck-config-bury-review-tooltip = Jestli ostatní `opakované` karty stejné poznámky budou odloženy na další den.
 
 ## Ordering section
 
