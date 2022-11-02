@@ -12,6 +12,7 @@ browsing-browser-appearance = Aspecte del navegador
 browsing-browser-options = Opcions del navegador
 browsing-buried = Enterrades
 browsing-card = Targeta
+browsing-cards = Targetes
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = T
 browsing-card-list = Llista de targetes
@@ -59,6 +60,7 @@ browsing-new-note-type = Nou tipus de nota:
 browsing-no-flag = Cap senyal
 browsing-no-selection = No heu seleccionat cap targeta o nota.
 browsing-note = Nota
+browsing-notes = Notes
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
 browsing-optional-filter = Filtre opcional:
