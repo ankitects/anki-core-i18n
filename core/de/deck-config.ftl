@@ -74,7 +74,15 @@ deck-config-bury-title = Zurückstellen
 deck-config-bury-new-siblings = Neue Geschwister zurückstellen
 deck-config-bury-review-siblings = Geschwister in Wiederholung zurückstellen
 deck-config-bury-interday-learning-siblings = Geschwister in mehrtägigem Lernen zurückstellen
-deck-config-bury-tooltip = Ob andere Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte) bis zum nächsten Tag verschoben werden.
+deck-config-bury-new-tooltip =
+    Ob andere `neue` Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
+    bis zum nächsten Tag verschoben werden.
+deck-config-bury-review-tooltip =
+    Ob andere`zu wiederholende Karten` derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
+    bis zum nächsten Tag verschoben werden.
+deck-config-bury-interday-learning-tooltip =
+    Ob andere `zu lernende` Karten derselben Notiz mit Intervallen > 1 Tag
+    bis zum nächsten Tag verschoben werden.
 
 ## Ordering section
 
@@ -149,6 +157,9 @@ deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, 
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Audio nicht automatisch abspielen
+deck-config-disable-autoplay-tooltip =
+    Wenn aktiviert, wird Anki Audiodateien nicht automatisch abspielen.
+    Sie können manuell abgespielt werden, indem Sie auf das Audiosymbol klicken/drücken oder indem Sie die Aktion Audio erneut abspielen benutzen.
 deck-config-skip-question-when-replaying = Frage beim erneuten Abspielen der Antwort überspringen
 deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
 
