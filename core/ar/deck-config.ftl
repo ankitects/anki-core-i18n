@@ -100,7 +100,13 @@ deck-config-bury-title = الدفن
 deck-config-bury-new-siblings = دفن البطاقات الشقيقة الجديدة حتى اليوم التالي
 deck-config-bury-review-siblings = دفن بطاقات المراجعة الشقيقة حتى اليوم التالي
 deck-config-bury-interday-learning-siblings = دفن بطاقات التعلم الشقيقة التي تتجاوز خطواتها اليوم
-deck-config-bury-tooltip = ما إذا كانت البطاقات الأخرى العائدة للملحوظة نفسها (بطاقات معكوسة، أو عبارات ملء فراغات مجاورة مثلًا) يتم تأخيرها حتى اليوم التالي.
+deck-config-bury-new-tooltip =
+    يحدد ما إذا كان يجب تأخير البطاقات الأخرى "الجديدة" المنتمية للملحوظة نفسها
+    (مثل البطاقات المعكوسة، وعبارات ملء الفراغات المجاورة) إلى اليوم التالي.
+deck-config-bury-review-tooltip = يحدد ما إذا كان يجب تأخير بطاقات "المراجعة" الأخرى المنتمية للملحوظة نفسها إلى اليوم التالي.
+deck-config-bury-interday-learning-tooltip =
+    يحدد ما إذا كان يجب تأخير بطاقات "التعلم" الأخرى المنتمية للملحوظة نفسها
+    ذات الفواصل التي تتجاوز اليوم الواحد إلى اليوم التالي.
 
 ## Ordering section
 
@@ -198,6 +204,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = الصوت
 deck-config-disable-autoplay = لا تشغل الصوت تلقائيًا
+deck-config-disable-autoplay-tooltip =
+    عندما يكون هذا مفعلًا، لن يشغل أنكي المقاطع الصوتية تلقائيًا.
+    يمكن تشغيل المقاطع الصوتية يدويًا بالضغط على أيقونة الصوت، أو استخدام خيار إعادة تشغيل الصوت.
 deck-config-skip-question-when-replaying = تجاهل أصوات جانب السؤال عند تشغيل أصوات جانب الجواب
 deck-config-always-include-question-audio-tooltip =
     ما إذا كان يجب تضمين أصوات السؤال عند الضغط على زر إعادة تشغيل الصوت
