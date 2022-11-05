@@ -15,7 +15,7 @@ deck-config-daily-limits = 每日上限
 deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。加入新的內容會使近期的複習量加重，因此該選項通常應設定為複習上限的 10% 或更少。
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
 deck-config-limit-deck-v3 = 學習牌組時，若其包含子牌組，子牌組在父牌組中顯示的卡片數量不會超過子牌組本身設定的上限。選取的牌組設定的數量上限包含所有子牌組的卡片。
-deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到複習上限，則不會再顯示新卡片。
+deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
 deck-config-limit-interday-bound-by-reviews = 複習上限也會影響隔天學習的卡片。計算數量上限時，卡片擷取的優先順序為：隔天學習的卡片>複習卡>新卡片。
 deck-config-tab-description =
     - `預設設定`：所有使用此預設設定的牌組的上限。
@@ -33,9 +33,9 @@ deck-config-today-only = 僅限今天
 
 deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 延遲時間通常為分鐘（如 `5m`）或天（如 `2d`），但也支援使用小時（如 `1h`）和秒（如 `30s`）。
+-deck-config-delay-hint = 延遲時間通常使用分鐘（如 `5m`）或天（如 `2d`），但也支援小時（如 `1h`）和秒（如 `30s`）。
 deck-config-learning-steps-tooltip = 一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下 `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕將會前進到下一個階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將改天出現。{ -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，再次顯示卡片前需等待的天數。
+deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，卡片再次出現前需等待的天數。
 deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過學習階段後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
 deck-config-new-insertion-order-tooltip = 控制新卡片被指派的順序（到期 #）。卡片到期序號越小，在學習時就越早顯示。更改此選項將自動更新現有新卡片順序。
@@ -46,8 +46,8 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議
 ## Lapses section
 
 deck-config-relearning-steps = 重新學習階段
-deck-config-relearning-steps-tooltip = 零或多段延遲，用空白分隔。在複習卡按下 `重來`按鈕後，預設會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將改變間隔，而不會進入重新學習狀態。{ -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = 複習卡被標記為榨時卡之前，需要按下`重來`的次數。榨時卡耗費了你大量的時間，對待榨時卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
+deck-config-relearning-steps-tooltip = 零或多段延遲，用空白分隔。在複習卡按下 `重來` 按鈕後，預設會在 10 分鐘後重新出現。若沒有提供延遲，卡片則將改變間隔，但不會進入重新學習狀態。{ -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = 在複習卡按下 `重來` 多少次後將被標記為榨時卡。榨時卡耗費了你大量的時間，對待榨時卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `僅加上標籤`：對筆記加上「榨時卡」標籤，並顯示一個彈出式視窗。
@@ -62,7 +62,7 @@ deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
 deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
 deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
 deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
-deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則推遲到第二天。
+deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則將它再推遲 1 天。
 
 ## Ordering section
 
@@ -89,7 +89,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     
     `收集順序`：按照收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
     
-    `卡片類型，然後隨機`：類似`卡片類型`，但會在卡片類型序號相同的卡片之間隨機排序。當使用`遞增順序`按建立時間從早到晚的順序收集卡片時，此選項可以隨機顯示這些卡片，同時同一則筆記的不同卡片的顯示順序也不會太接近。
+    `卡片類型，然後隨機`：類似 `卡片類型`，但會在卡片類型序號相同的卡片之間隨機排序。當使用 `遞增順序` 按建立時間從早到晚的順序收集卡片時，此選項可以隨機顯示這些卡片，同時同一則筆記的不同卡片的顯示順序也不會太接近。
     
     `隨機筆記，然後卡片類型`：隨機挑選筆記，然後順序顯示所有關聯卡片。
     
@@ -105,7 +105,7 @@ deck-config-interday-step-priority = 隔天學習/複習卡優先順序
 deck-config-interday-step-priority-tooltip =
     隔天學習時，（重新）學習中的卡片的顯示順序。
     
-    複習上限永遠優先套用於隔天學習卡片，然後才是複習卡。此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
+    複習上限總是優先計算隔天學習的卡片，再套用到複習卡。此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
 deck-config-review-mix-mix-with-reviews = 與複習卡混合
 deck-config-review-mix-show-after-reviews = 在複習卡之後顯示
 deck-config-review-mix-show-before-reviews = 在複習卡之前顯示
@@ -134,7 +134,7 @@ deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 不要自動播放音訊
 deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕，或使用播放音訊動作來手動播放。
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
-deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行播放動作時會同時播放問題面上的音訊。
+deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行播放動作時將不會同時播放問題面上的音訊。
 
 ## Advanced section
 

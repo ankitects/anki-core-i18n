@@ -4,7 +4,7 @@
 ## Header
 
 # Tooltip for links to the manual
-help-open-manual-chapter = 在使用手冊中打開{ $name }
+help-open-manual-chapter = 在使用手冊中打開《{ $name }》
 
 ## Body
 
@@ -12,9 +12,9 @@ help-open-manual-chapter = 在使用手冊中打開{ $name }
 help-no-explanation =
     o_O 這個選項好像還沒有解釋。
     
-    你可以前往 { $link } 來幫我們補充此幫助頁面。
+    你可以前往《{ $link }》來幫我們補充此幫助頁面。
 
 ## Footer
 
 # Link to more detailed information in the manual
-help-for-more-info = 如欲取得更多資訊，請參閱使用手冊中的 { $link }。
+help-for-more-info = 如欲取得更多資訊，請參閱使用手冊中的《{ $link }》。
