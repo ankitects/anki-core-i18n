@@ -97,8 +97,14 @@ deck-config-bury-title = Hautaaminen
 deck-config-bury-new-siblings = Hautaa uudet sisarkortit
 deck-config-bury-review-siblings = Hautaa kerrattavat sisarkortit
 deck-config-bury-interday-learning-siblings = Hautaa usean päivän aikana opittavat sisarkortit
-deck-config-bury-tooltip =
-    Viivästetäänkö muita samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja, 
+deck-config-bury-new-tooltip =
+    Viivästetäänkö muita `uusia` samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja,
+    vierekkäisiä täyttötehtäviä) seuraavaan päivään.
+deck-config-bury-review-tooltip =
+    Viivästetäänkö muita `kerrattavia` samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja,
+    vierekkäisiä täyttötehtäviä) seuraavaan päivään.
+deck-config-bury-interday-learning-tooltip =
+    Viivästetäänkö muita `opiskeltavia` samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja,
     vierekkäisiä täyttötehtäviä) seuraavaan päivään.
 
 ## Ordering section
@@ -169,6 +175,9 @@ deck-config-show-answer-timer-tooltip = Näytä kertausnäkymässä ajastin, jok
 
 deck-config-audio-title = Ääni
 deck-config-disable-autoplay = Älä toista ääniä automaattisesti
+deck-config-disable-autoplay-tooltip =
+    Tämän ollessa käytössä Anki ei toista ääntä automaattisesti.¶
+    Äänen voi toistaa manuaalisesti klikkaamalla/napauttamalla äänikuvaketta tai käyttämällä toista ääni -toimintoa.
 deck-config-skip-question-when-replaying = Ohita kysymys, kun vastausta toistetaan uudelleen
 deck-config-always-include-question-audio-tooltip = Toistetaanko vastauksen lisäksi myös kysymyksen ääni, kun Toista uudelleen -toimintoa käytetään kortin vastauspuolta tarkasteltaessa.
 

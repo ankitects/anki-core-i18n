@@ -12,6 +12,7 @@ browsing-browser-appearance = Ulkoasu selaimessa
 browsing-browser-options = Selainasetukset
 browsing-buried = Piilotettu
 browsing-card = Kortti
+browsing-cards = Kortit
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = K
 browsing-card-list = Korttiluettelo
@@ -59,6 +60,7 @@ browsing-new-note-type = Uusi muistiinpanotyyppi:
 browsing-no-flag = Ei lippua
 browsing-no-selection = Ei valittuja kortteja tai muistiinpanoja.
 browsing-note = Muistiinpano
+browsing-notes = Muistiinpanot
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = M
 browsing-optional-filter = Valinnainen suodatin:
