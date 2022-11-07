@@ -35,6 +35,7 @@ actions-shortcut-key = शॉर्टकट कुंजी: { $val }
 actions-suspend-card = काड रद्द करें
 actions-set-due-date = नियत तिथि निर्धारित करें
 actions-answer-card = उत्तर कार्ड
+actions-unbury-unsuspend = अनबरी/अनसस्पेंड
 actions-build-filtered-deck = डेक बनाएँ
 actions-add-notetype = नोट टाइप जोड़ें
 actions-remove-notetype = नोट का प्रकार हटाएं
@@ -45,6 +46,7 @@ actions-previous-card-info = पिछले कार्ड की जानक
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-currently-unsupported = यह क्रिया वर्तमान में आपके सिस्टम पर समर्थित नहीं है।
 
 ## Flags
 
