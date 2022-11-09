@@ -53,6 +53,9 @@ browsing-last-card = अंतिम कार्ड
 browsing-learning = (सीख रहा हूँ)
 browsing-line-size = <b>रेखा आकार</b>:
 browsing-manage-note-types = नोट प्रकार प्रबंधित करें
+browsing-move-cards = कार्ड ले जाएँ
+browsing-move-cards-to-deck = कार्ड को डेक पर ले जाएं:
+browsing-new = (नया)
 
 ## obsolete; no need to translate
 
