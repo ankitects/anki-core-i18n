@@ -56,6 +56,26 @@ browsing-manage-note-types = नोट प्रकार प्रबंधि�
 browsing-move-cards = कार्ड ले जाएँ
 browsing-move-cards-to-deck = कार्ड को डेक पर ले जाएं:
 browsing-new = (नया)
+browsing-new-note-type = नया नोट प्रकार:
+browsing-no-flag = कोई झंडा नहीं
+browsing-no-selection = कोई कार्ड या नोट नहीं चुना गया।
+browsing-note = टिप्पणी
+browsing-notes = टिप्पणियाँ
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
+browsing-optional-filter = वैकल्पिक फ़िल्टर:
+browsing-override-back-template = वापस टेम्पलेट ओवरराइड करें:
+browsing-override-font = फ़ॉन्ट ओवरराइड करें:
+browsing-override-front-template = सामने वाले टेम्पलेट को ओवरराइड करें:
+browsing-please-give-your-filter-a-name = कृपया अपने फ़िल्टर को एक नाम दें:
+browsing-preview-selected-card = चयनित कार्ड का पूर्वावलोकन करें ({ $val })
+browsing-question = प्रश्न
+browsing-queue-bottom = कतार नीचे: { $val }
+browsing-queue-top = कतार में सबसे ऊपर: { $val }
+browsing-randomize-order = यादृच्छिक क्रम
+browsing-remove-tags = टैग हटाएं...
+browsing-replace-with = <b>इससे बदलें</b>:
+browsing-reposition = स्थिति बदलें...
 
 ## obsolete; no need to translate
 
