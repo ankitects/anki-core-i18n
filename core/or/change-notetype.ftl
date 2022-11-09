@@ -1,5 +1,6 @@
 change-notetype-current = ଚଳିତ
 change-notetype-new = ନୂତନ
+change-notetype-nothing = (କିଛି ନାହିଁ)
 change-notetype-collapse = ସଙ୍କୋଚନ
 change-notetype-expand = ପ୍ରସାରଣ
 change-notetype-will-discard-content = ନିମ୍ନଲିଖିତ କ୍ଷେତ୍ରଗୁଡ଼ିକରେ ବିଷୟବସ୍ତୁକୁ ପରିତ୍ୟାଗ କରିବ:

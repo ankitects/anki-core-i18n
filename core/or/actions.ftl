@@ -48,6 +48,9 @@ actions-update-notetype = ନୋଟ୍-ପ୍ରକାର ଅଦ୍ୟତନ କ
 actions-update-config = ବିନ୍ୟାସ ଅଦ୍ୟତନ କରନ୍ତୁ
 actions-card-info = ପତ୍ର ସୂଚନା
 actions-previous-card-info = ପୂର୍ବବର୍ତ୍ତୀ ପତ୍ର ସୂଚନା
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
