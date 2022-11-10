@@ -55,9 +55,14 @@ editing-to-make-a-cloze-deletion-on = Para crear preguntas anidadas en una nota 
 editing-toggle-html-editor = Activar/Desactivar editor HTML
 editing-toggle-visual-editor = Ocultar/mostrar el Editor Visual
 editing-toggle-sticky = Activar/Desactivar anclaje del texto
+editing-expand-field = Expandir campo
+editing-collapse-field = Colapsar campo
 editing-underline-text = Subrayar texto
 editing-unordered-list = Lista con viñetas
 editing-warning-cloze-deletions-will-not-work = Cuidado, los huecos no funcionarán a menos que cambies el tipo de nota a Huecos.
+editing-mathjax-preview = MathJax Vista previa
+editing-shrink-images = Reducir imágenes
+editing-close-html-tags = Etiquetas HTML de cierre automático
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

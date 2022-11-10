@@ -22,6 +22,10 @@ media-check-oversize-header = Archivos mayores de 100MB no se pueden sincronizar
 media-check-subfolder-header = Carpetas dentro de la carepta multimedia no son soportadas.
 media-check-missing-header = Los siguientes archivos son referenciados por tarjetas, no obstante no se encuentran en la carpeta multimedia:
 media-check-unused-header = Los siguientes archivos se encuentran en la carpeta multimedia, no obstante, no aparecen ser usados por ninguna tarjeta:
+media-check-template-references-field-header =
+    Anki no puede detectar archivos cuando usas { "{{Field}}" } referencias en etiquetas multimedia/LaTeX. En su lugar, etiquetas multimedia/LaTeX deben colocarse en notas individuales.
+    
+    Plantillas de referencia:
 
 ## Shown once for each file
 

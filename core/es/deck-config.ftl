@@ -103,6 +103,9 @@ deck-config-bury-new-tooltip =
     Si hay otras tarjetas 'nuevas' dentro de la misma nota (p. ej. tarjetas invertidas, respuestas anidadas adyacentes)
     se retrasarán hasta el día siguiente.
 deck-config-bury-review-tooltip = Si otras tarjetas de "revisión" de la misma nota, estas se retrasarán hasta el día siguiente.
+deck-config-bury-interday-learning-tooltip =
+    Si hay otras tarjetas de `aprendizaje` de la misma nota con intervalo mayor a 1 día
+    se retrasará hasta el día siguiente.
 
 ## Ordering section
 
@@ -202,6 +205,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = No reproducir audio automáticamente
+deck-config-disable-autoplay-tooltip =
+    Cuando está habilitado, Anki no reproducirá audio automáticamente.
+    Se puede reproducir manualmente haciendo clic/tocando en un ícono de audio, o usando la acción de reproducción de audio.
 deck-config-skip-question-when-replaying = Saltar la pregunta al repetir la respuesta
 deck-config-always-include-question-audio-tooltip = Si el audio de la pregunta debe incluirse cuando se usa la acción Reproducir mientras se mira el lado de la respuesta de una tarjeta.
 
