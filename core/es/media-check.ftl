@@ -31,6 +31,11 @@ media-check-subfolder-file = Carpeta: { $filename }
 media-check-missing-file = Falta: { $filename }
 media-check-unused-file = Sin usar: { $filename }
 
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
+
 ## Progress
 
 media-check-checked = Comprobado { $count }...

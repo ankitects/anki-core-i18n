@@ -35,10 +35,15 @@ deck-config-limit-interday-bound-by-reviews =
     El límite de revisión también afecta a las tarjetas de aprendizaje entre días. 
     Al aplicar el límite, primero se obtienen las tarjetas de aprendizaje entre días, 
     luego las revisiones y finalmente las tarjetas nuevas.
+deck-config-tab-description =
+    - `Preset`: el límite se comparte con todos los mazos que usan este preset.
+    - `Este mazo`: El límite es específico para este mazo.
+    - `Solo hoy`: Realiza un cambio temporal en el límite de este mazo.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Preset
 deck-config-deck-only = Este mazo
 deck-config-today-only = Solo hoy
 
@@ -94,9 +99,10 @@ deck-config-bury-title = Enterrar
 deck-config-bury-new-siblings = Enterrar tarjetas hermanas nuevas (de la nota) hasta el día siguiente.
 deck-config-bury-review-siblings = Enterrar tarjetas hermanas (de la nota).
 deck-config-bury-interday-learning-siblings = Enterrar a las tarjetas hermanas (de la nota) de aprendizaje entre días.
-deck-config-bury-tooltip =
-    Si hay otras tarjetas hermanas de la misma nota (por ejemplo, anverso y reverso,
-    respuesta anidada con nidos secuenciales c1, c2, c...) se retrasarán hasta el día siguiente.
+deck-config-bury-new-tooltip =
+    Si hay otras tarjetas 'nuevas' dentro de la misma nota (p. ej. tarjetas invertidas, respuestas anidadas adyacentes)
+    se retrasarán hasta el día siguiente.
+deck-config-bury-review-tooltip = Si otras tarjetas de "revisión" de la misma nota, estas se retrasarán hasta el día siguiente.
 
 ## Ordering section
 

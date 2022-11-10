@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] Se creará { $count } tarjeta. ¿Seguir?
        *[other] Se crearán { $count } tarjetas. ¿Seguir?
     }
+card-templates-type-boxes-warning = Solo se admite un cuadro de escritura por plantilla de tarjeta.
