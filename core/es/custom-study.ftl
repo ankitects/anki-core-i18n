@@ -1,4 +1,4 @@
-custom-study-must-rename-deck = Por favor, ante cambie el nombre del mazo de estudio personalizado.
+custom-study-must-rename-deck = Por favor, primero cambia el nombre del mazo de estudio personalizado.
 custom-study-all-cards-in-random-order-dont = Todas las tarjetas en orden aleatorio (sin replanificar)
 custom-study-all-review-cards-in-random-order = Todas las tarjetas en repaso en orden aleatorio
 custom-study-cards = tarjetas
