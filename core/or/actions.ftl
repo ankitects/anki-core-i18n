@@ -24,6 +24,7 @@ actions-rebuild = ପୁନଃନିର୍ମାଣ
 actions-rename = ନାମ ବଦଳାନ୍ତୁ
 actions-rename-deck = ଡେକ୍ ନାମ ବଦଳାନ୍ତୁ
 actions-rename-tag = ଟ୍ୟାଗ୍ ର ନାମ ବଦଳାନ୍ତୁ
+actions-rename-with-parents = ଶ୍ରେଣୀ ସହିତ ନାମ ପରିବର୍ତ୍ତନ କରନ୍ତୁ
 actions-remove-tag = ଟ୍ୟାଗ୍ ଅପସାରଣ କରନ୍ତୁ
 actions-replay-audio = ଅଡିଓ ପୁଣି ଚଲାନ୍ତୁ
 actions-reposition = ରିପୋଜିସନ୍ କର
@@ -52,6 +53,7 @@ actions-previous-card-info = ପୂର୍ବବର୍ତ୍ତୀ ପତ୍ର �
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-currently-unsupported = ଏହି କାର୍ଯ୍ୟ ବର୍ତ୍ତମାନ ଆପଣଙ୍କ ସିଷ୍ଟମରେ ସମର୍ଥିତ ନୁହେଁ।
 
 ## Flags
 
