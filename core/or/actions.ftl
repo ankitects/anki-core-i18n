@@ -5,6 +5,7 @@ actions-cancel = ବାତିଲ୍ କର
 actions-choose = ବାଛନ୍ତୁ
 actions-close = ବନ୍ଦ କରନ୍ତୁ
 actions-copy = ନକଲ କରନ୍ତୁ
+actions-create-copy = ନକଲ ତିଆରି କରନ୍ତୁ
 actions-custom-study = କଷ୍ଟମ୍ ଅଧ୍ୟୟନ
 actions-decks = ଡେକଗୁଡ଼ିକ
 actions-delete = ଅପସାରଣ କରନ୍ତୁ
