@@ -76,6 +76,96 @@ browsing-randomize-order = यादृच्छिक क्रम
 browsing-remove-tags = टैग हटाएं...
 browsing-replace-with = <b>इससे बदलें</b>:
 browsing-reposition = स्थिति बदलें...
+browsing-reposition-new-cards = नए कार्डों की स्थिति बदलें
+browsing-reschedule = पुनर्निर्धारित
+browsing-search-bar-hint = कार्ड/नोट खोजें (टेक्स्ट टाइप करें, फिर एंटर दबाएं)
+browsing-search-in = की खोज में:
+browsing-search-within-formatting-slow = स्वरूपण के भीतर खोजें (धीमा)
+browsing-selected-notes-only = केवल चयनित नोट्स
+browsing-shift-position-of-existing-cards = मौजूदा कार्ड की शिफ्ट स्थिति
+browsing-sidebar = साइडबार
+browsing-sidebar-filter = साइडबार फ़िल्टर
+browsing-sort-field = क्रमबद्ध क्षेत्र
+browsing-sorting-on-this-column-is-not = इस स्तंभ पर क्रमित करना समर्थित नहीं है। कृपया दूसरा चुनें।
+browsing-start-position = शुरुआत की स्थिति:
+browsing-step = कदम:
+browsing-suspended = निलंबित
+browsing-tag-duplicates = डुप्लीकेट टैग करें
+browsing-tag-rename-warning-empty = आप उस टैग का नाम नहीं बदल सकते जिसमें कोई नोट नहीं है।
+browsing-target-field = लक्ष्य क्षेत्र:
+browsing-toggle-showing-cards-notes = टॉगल कार्ड/नोट्स
+browsing-toggle-mark = टॉगल मार्क
+browsing-toggle-suspend = सस्पेंड टॉगल करें
+browsing-treat-input-as-regular-expression = इनपुट को नियमित अभिव्यक्ति के रूप में मानें
+browsing-update-saved-search = वर्तमान खोज के साथ अद्यतन करें
+browsing-whole-collection = पूरा संग्रह
+browsing-window-title-notes = ब्राउज़ करें ({ $total } में से { $selected } चुने गए नोट)
+browsing-you-must-have-at-least-one = आपके पास कम से कम एक कॉलम होना चाहिए।
+browsing-group =
+    { $count ->
+        [one] { $count } समूह
+       *[other] { $count } समूहों
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } टिप्पणी
+       *[other] { $count } टिप्पणियाँ
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } नोट अपडेट किया गया।
+       *[other] { $count } नोट्स अपडेट किए गए।
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } कार्ड अपडेट किया गया।
+       *[other] { $count } कार्ड अपडेट किए गए।
+    }
+browsing-window-title = ब्राउज़ करें ({ $total } में से { $selected } चुने गए कार्ड)
+browsing-sidebar-expand = बढ़ाना
+browsing-sidebar-collapse = गिर जाना
+browsing-sidebar-expand-children = बच्चों का विस्तार करें
+browsing-sidebar-collapse-children = बच्चों को संकुचित करें
+browsing-sidebar-decks = डेक्स
+browsing-sidebar-tags = टैग
+browsing-sidebar-notetypes = नोट प्रकार
+browsing-sidebar-saved-searches = सहेजी गई खोजों
+browsing-sidebar-save-current-search = वर्तमान खोज सहेजें
+browsing-sidebar-card-state = कार्ड की स्थिति
+browsing-sidebar-flags = झंडे
+browsing-today = आज
+browsing-tooltip-card-modified = पिछली बार एक कार्ड में बदलाव किए गए थे, जिसमें समीक्षाएं, झंडे और डेक परिवर्तन शामिल थे
+browsing-tooltip-note-modified = पिछली बार किसी नोट में परिवर्तन किए गए थे, आमतौर पर फ़ील्ड सामग्री या टैग संपादन
+browsing-tooltip-card = कार्ड के कार्ड टेम्पलेट का नाम
+browsing-tooltip-cards = एक नोट में जितने कार्ड होते हैं
+browsing-tooltip-notetype = नोट के नोट प्रकार का नाम
+browsing-tooltip-question = कार्ड के सामने की ओर, कार्ड टेम्पलेट संपादक में अनुकूलन योग्य
+browsing-tooltip-answer = कार्ड के पीछे की ओर, कार्ड टेम्पलेट संपादक में अनुकूलन योग्य
+browsing-studied-today = अध्ययन
+browsing-added-today = जोड़ा
+browsing-again-today = फिर से
+browsing-edited-today = संपादित
+browsing-sidebar-first-review = पहली समीक्षा
+browsing-sidebar-rescheduled = फिर से निर्धारित
+browsing-sidebar-due-today = बकाया
+browsing-sidebar-untagged = टैग नहीं किए गए
+browsing-sidebar-overdue = अतिदेय
+browsing-row-deleted = (हटाए गए)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] हटाया गया { $count } अप्रयुक्त टैग।
+       *[other] हटाए गए { $count } अप्रयुक्त टैग।
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] { $count } नए कार्ड की स्थिति बदली गई।
+       *[other] { $count } नए कार्डों की स्थिति बदली गई।
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } डेक का नाम बदला।
+       *[other] { $count } डेक का नाम बदला।
+    }
 
 ## obsolete; no need to translate
 

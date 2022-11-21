@@ -22,3 +22,9 @@ card-stats-review-log-type-review = समीक्षा करना
 card-stats-review-log-type-relearn = एक और बार सीखें
 card-stats-review-log-type-filtered = फ़िल्टर किया गया
 card-stats-review-log-type-manual = मैन्युअल
+card-stats-no-card = (प्रदर्शित करने के लिए कोई कार्ड नहीं है।)
+
+## Window Titles
+
+card-stats-current-card = वर्तमान कार्ड ({ $context })
+card-stats-previous-card = पिछला कार्ड ({ $context })

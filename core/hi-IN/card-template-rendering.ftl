@@ -6,6 +6,8 @@
 card-template-rendering-more-info = और जानकारी
 card-template-rendering-front-side-problem = फ्रंट टेम्प्लेट में समस्या है:
 card-template-rendering-back-side-problem = बैक टेम्प्लेट में समस्या है:
+card-template-rendering-browser-front-side-problem = ब्राउज़र-विशिष्ट फ्रंट टेम्प्लेट में समस्या है:
+card-template-rendering-browser-back-side-problem = ब्राउज़र-विशिष्ट बैक टेम्प्लेट में समस्या है:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = '{ $tag }' में '{ $missing }' गुम है
