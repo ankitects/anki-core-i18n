@@ -73,7 +73,9 @@ deck-config-bury-title = Откладывание
 deck-config-bury-new-siblings = Откладывать новые связанные до завтра
 deck-config-bury-review-siblings = Откладывать повторяемые связанные до завтра
 deck-config-bury-interday-learning-siblings = Откладывать связанные изучаемые, которые переносятся
-deck-config-bury-tooltip = Будут ли другие карточки той же записи (например, обратные или с пропусками) отложены до следующего дня.
+deck-config-bury-new-tooltip = Будут ли другие `новые` карточки той же записи (например, обратные или смежные с пропусками) отложены до следующего дня.
+deck-config-bury-review-tooltip = Будут ли другие `повторяемые` карточки той же записи отложены до следующего дня.
+deck-config-bury-interday-learning-tooltip = Будут ли другие `изучаемые` карточки той же записи с интервалом больше 1 дня отложены до следующего дня.
 
 ## Ordering section
 
