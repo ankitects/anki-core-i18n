@@ -8,6 +8,11 @@ help-open-manual-chapter = Открыть { $name } в руководстве.
 
 ## Body
 
+# Newly introduced settings may not have an explanation yet
+help-no-explanation =
+    Ой! Для этой настройки еще нет пояснения.
+    
+    Вы можете помочь нам добавив страницу помощи "{ $link }"
 
 ## Footer
 
