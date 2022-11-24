@@ -11,3 +11,5 @@ help-open-manual-chapter = Открыть { $name } в руководстве.
 
 ## Footer
 
+# Link to more detailed information in the manual
+help-for-more-info = Подробнее см. в разделе руководства { $link }.
