@@ -5,12 +5,12 @@ card-templates-changes-will-affect-notes =
         [one] Los cambios debajo afectarán { $count } nota que utiliza este tipo de tarjeta.
        *[other] Los cambios debajo afectarán { $count } notas que utilizan este tipo de tarjeta.
     }
-card-templates-card-type = Tipo de Tarjeta:
-card-templates-front-template = Plantilla del Anverso
-card-templates-back-template = Plantilla del Reverso
+card-templates-card-type = Tipo de tarjeta:
+card-templates-front-template = Plantilla del anverso
+card-templates-back-template = Plantilla del reverso
 card-templates-template-styling = Estilo
-card-templates-front-preview = Vista previa del Anverso
-card-templates-back-preview = Vista previa del Reverso
+card-templates-front-preview = Vista previa del anverso
+card-templates-back-preview = Vista previa del reverso
 card-templates-preview-box = Previsualizar
 card-templates-template-box = Plantilla
 card-templates-sample-cloze = Esto es un { "{{c1::" }ejemplo{ "}}" } de respuesta anidada.
@@ -27,7 +27,7 @@ card-templates-missing-cloze = Se espera encontrar '{ "{{" }cloze:Text{ "}}" }' 
 card-templates-extraneous-cloze = 'cloze:' solo se puede usar en notas de tipo respuesta anidada.
 card-templates-see-preview = Consulte la vista previa para obtener más información.
 card-templates-changes-saved = Cambios guardados.
-card-templates-discard-changes = Descartar cambios?
+card-templates-discard-changes = ¿Quieres descartar los cambios?
 card-templates-add-card-type = Añadir tipo de tarjeta...
 card-templates-anki-couldnt-find-the-line-between = Anki no ha podido encontrar la línea de separación entre la pregunta y la respuesta. Por favor, ajusta la plantilla manualmente para intercambiar la pregunta y la respuesta.
 card-templates-at-least-one-card-type-is = Se requiere como mínimo un tipo de tarjeta.
