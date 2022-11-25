@@ -12,6 +12,7 @@ errors-please-check-database = Feu servir l'acció «Verifica la base de dades»
 errors-please-check-media = Feu servir l'acció «Comprovar multimèdia» i torneu-ho a intentar.
 errors-collection-too-new = Per a poder obrir aquesta col·lecció, necessiteu una versió més recent d'Anki.
 errors-invalid-ids = Aquest mall conté targetes datades en el futur; contacteu l'autor del mall i demaneu-li que resolgui el problema.
+errors-inconsistent-db-state = Sembla que la base de dades presenta incoherències. Feu servir la funció «Verifica la base de dades».
 
 ## Card Rendering
 

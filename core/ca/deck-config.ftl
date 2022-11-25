@@ -66,7 +66,7 @@ deck-config-easy-interval-tooltip =
 deck-config-new-insertion-order = Ordre d'inserció
 deck-config-new-insertion-order-tooltip =
     Controla la posició (nombre de data de repàs) que s'assigna a les targetes noves quan les afegiu.
-    Les targetes que tinguin un nombre de data de repàs es mostraran primer quan estudieu.
+    Les targetes que tinguin un nombre de data de repàs més baix es mostraran primer quan estudieu.
     Si modifiqueu aquesta opció, s'actualitzarà automàticament la posició de les noves targetes ja existents.
 deck-config-new-insertion-order-sequential = Seqüencial (les targetes més antigues primer)
 deck-config-new-insertion-order-random = Aleatori
@@ -99,9 +99,6 @@ deck-config-bury-title = Enterrament
 deck-config-bury-new-siblings = Enterra les targetes relacionades noves
 deck-config-bury-review-siblings = Enterra les targetes relacionades per revisar
 deck-config-bury-interday-learning-siblings = Enterra les targetes relacionades d'aprenentatge entre dies
-deck-config-bury-tooltip =
-    Decidiu si voleu retardar fins a l'endemà altres targetes de la mateixa nota
-    (per exemple, targetes invereses o altres targetes amb buits).
 
 ## Ordering section
 
@@ -140,7 +137,7 @@ deck-config-sort-order-template-then-gather = Tipus de targeta
 deck-config-sort-order-gather = Ordre de recopilació
 deck-config-new-review-priority = Ordre de noves i per repassar
 deck-config-new-review-priority-tooltip = Quan es mostraran les targetes noves en relació amb les targetes per repassar.
-deck-config-interday-step-priority = Ordre d'aprenentatge i de repàs entre dies
+deck-config-interday-step-priority = Ordre d'aprenentatge entre dies i de repàs
 deck-config-interday-step-priority-tooltip =
     Quan es mostraran les targetes d'aprenentatge o reaprenentatge que superin el límit d'un dia.
     
