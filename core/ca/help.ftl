@@ -8,6 +8,11 @@ help-open-manual-chapter = Obre { $name } en el manual d'instruccions
 
 ## Body
 
+# Newly introduced settings may not have an explanation yet
+help-no-explanation =
+    Vaja! Sembla que no tenim cap explicació per a aquesta configuració.
+    
+    Podeu ajudar-nos a completar aquesta pàgina d'ajuda accedint a { $link }.
 
 ## Footer
 

@@ -42,7 +42,7 @@ media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
-media-check-checked = S'estan comprovant { $count }…
+media-check-checked = S'han comprovat { $count }…
 
 ## Deleting unused media
 

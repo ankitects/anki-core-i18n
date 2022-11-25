@@ -99,6 +99,11 @@ deck-config-bury-title = Enterrament
 deck-config-bury-new-siblings = Enterra les targetes relacionades noves
 deck-config-bury-review-siblings = Enterra les targetes relacionades per revisar
 deck-config-bury-interday-learning-siblings = Enterra les targetes relacionades d'aprenentatge entre dies
+deck-config-bury-new-tooltip = Decidiu si voleu retardar fins a l’endemà les altres targetes noves d'una nota, com ara les targetes inverses i les targetes amb buits adjacents.
+deck-config-bury-review-tooltip = Decidiu si voleu retardar fins a l'endemà les altres targetes per repassar d'una nota.
+deck-config-bury-interday-learning-tooltip =
+    Decidiu si voleu retardar fins a l'endemà les altres targetes d'aprenentatge d'una nota
+    que tinguen un interval major a un dia.
 
 ## Ordering section
 
@@ -182,6 +187,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = So
 deck-config-disable-autoplay = No reprodueixis el so automàticament
+deck-config-disable-autoplay-tooltip =
+    Si activeu aquesta opció, Anki no reproduirà els sons de manera automàtica.
+    Tanmateix, podreu reproduir-los manualment tocant o fent clic sobre l'icona de so. També podeu tornar a reproduir-los amb l'acció corresponent.
 deck-config-skip-question-when-replaying = Salta la pregunta quan repeteixi la resposta
 deck-config-always-include-question-audio-tooltip =
     Decidiu si s'inclourà el so de la pregunta quan useu l'acció «Reproduir»
