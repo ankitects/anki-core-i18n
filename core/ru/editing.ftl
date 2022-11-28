@@ -16,6 +16,7 @@ editing-customize-fields = Настроить поля
 editing-cut = Вырезать
 editing-double-click-image = щёлкните дважды
 editing-double-click-to-expand = (щёлкните дважды, чтобы увеличить)
+editing-double-click-to-collapse = Дважды щелкните чтобы свернуть
 editing-edit-current = Редактировать
 editing-edit-html = Править HTML
 editing-fields = Поля
