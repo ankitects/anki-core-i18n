@@ -16,6 +16,7 @@ editing-customize-fields = התאם אישית שדות
 editing-cut = גזור
 editing-double-click-image = לחץ פעמיים על התמונה
 editing-double-click-to-expand = (לחץ פעמיים כדי להרחיב)
+editing-double-click-to-collapse = לחיצה כפולה כדי לכווץ
 editing-edit-current = ערוך נוכחי
 editing-edit-html = ערוך HTML
 editing-fields = שדות
