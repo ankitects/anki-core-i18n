@@ -16,6 +16,7 @@ editing-customize-fields = Personalitza els camps
 editing-cut = Talla
 editing-double-click-image = feu doble clic en la imatge
 editing-double-click-to-expand = (feu doble clic per a expandir)
+editing-double-click-to-collapse = feu doble clic per a reduir
 editing-edit-current = Edita l'actual
 editing-edit-html = Edita l'HTML
 editing-fields = Camps
