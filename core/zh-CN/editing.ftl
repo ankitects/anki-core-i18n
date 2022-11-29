@@ -16,6 +16,7 @@ editing-customize-fields = 自定义字段
 editing-cut = 剪切
 editing-double-click-image = 双击图片
 editing-double-click-to-expand = (双击展开)
+editing-double-click-to-collapse = 双击折叠
 editing-edit-current = 编辑当前
 editing-edit-html = 编辑HTML
 editing-fields = 字段
