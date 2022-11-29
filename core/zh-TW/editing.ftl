@@ -16,6 +16,7 @@ editing-customize-fields = 自訂欄位
 editing-cut = 剪下
 editing-double-click-image = 按兩下圖像
 editing-double-click-to-expand = （按兩下以展開）
+editing-double-click-to-collapse = 按兩下以摺疊
 editing-edit-current = 編輯當前卡片
 editing-edit-html = 編輯 HTML
 editing-fields = 欄位
