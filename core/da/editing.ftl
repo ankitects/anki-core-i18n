@@ -1,3 +1,4 @@
+editing-actual-size = Til/fra faktisk størrelse
 editing-add-media = Tilføj medie
 editing-align-left = Venstrejusteret
 editing-align-right = Højrejusteret
@@ -54,6 +55,7 @@ editing-text-highlight-color = Farve på highlighted text
 editing-to-make-a-cloze-deletion-on = For at lave en cloze-sletning på en eksisterende note, så skal du først ændre den til en cloze-type, via Redigér>Skift notetype.
 editing-toggle-html-editor = Til/fra HTML editor
 editing-toggle-visual-editor = Til/fra visual editor
+editing-toggle-sticky = Til/fra klistret
 editing-expand-field = Expandér felt
 editing-collapse-field = Kollabér felt
 editing-underline-text = Understreget tekst
