@@ -1,5 +1,5 @@
 actions-add = 추가
-actions-all-selected = 선택된 전체
+actions-all-selected = 전체 선택됨
 actions-any-selected = 선택된 아무거나
 actions-cancel = 취소
 actions-choose = 선택
