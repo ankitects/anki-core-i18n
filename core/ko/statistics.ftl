@@ -27,7 +27,7 @@ statistics-reviews = { $reviews }복습
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    학습 { statistics-cards } { $unit ->
+    공부 { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
@@ -35,8 +35,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } 오늘({ $secs-per-card }s/card)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }초
 statistics-today-title = 오늘
 statistics-today-again-count = '다시'버튼을 누른 횟수:
 statistics-today-type-counts = 익힘: { $learnCount }, 복습: { $reviewCount }, 재익힘: { $relearnCount }, 여과됨:{ $filteredCount }
@@ -47,16 +45,16 @@ statistics-counts-total-cards = 전체 카드
 statistics-counts-new-cards = 새 카드
 statistics-counts-young-cards = 어린 카드
 statistics-counts-mature-cards = 성숙한 카드
-statistics-counts-suspended-cards = 보류됨
+statistics-counts-suspended-cards = 일시중단됨
 statistics-counts-buried-cards = 덮음
-statistics-counts-learning-cards = 익힘 카드
-statistics-counts-relearning-cards = 재익힘
+statistics-counts-learning-cards = 학습 카드
+statistics-counts-relearning-cards = 재학습 카드
 statistics-counts-title = 카드 수
 statistics-range-all-time = 뭉치 일생
 statistics-range-1-year-history = 최근 12달간
 statistics-range-all-history = 모든 기록
 statistics-range-deck = 뭉치
-statistics-range-collection = 모음집
+statistics-range-collection = 컬렉션
 statistics-range-search = 찾기
 statistics-card-ease-title = 카드 복습 주기
 statistics-card-ease-subtitle = 카드 복습 주기가 짧을수록 자주 복습
@@ -98,15 +96,15 @@ statistics-cards-due =
        *[other] { $cards }개 카드 예정됨
     }
 statistics-backlog-checkbox = 기일 초과
-statistics-intervals-title = 복습 주기
+statistics-intervals-title = 복습간격
 statistics-intervals-subtitle = 다음 번 복습 때까지 기다리는 시간
 statistics-intervals-day-range =
     { $cards ->
-       *[other] { $daysStart }~{ $daysEnd }일 복습 주기의 { $cards }개 카드
+       *[other] { $daysStart }~{ $daysEnd }일 복습주기의 { $cards }개 카드
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] { $day }일 복습 주기의 { $cards }개 카드
+       *[other] { $day }일 복습주기의 { $cards }개 카드
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
@@ -132,14 +130,12 @@ statistics-elapsed-time-years = { $amount }년
 
 ##
 
-statistics-error-fetching = 잘못된 데이터가 발견됨 - 데이터베이스 확인을 사용하여 문제를 해결하십시오.
 statistics-average-for-days-studied = 공부한 기간 동안 평균
 statistics-total = 전체
 statistics-days-studied = 공부한 기간
 statistics-average-answer-time-label = 평균 답변 시간
 statistics-average = 평균
-statistics-average-interval = 평균 복습 주기
-statistics-longest-interval = 최대 복습 주기
+statistics-average-interval = 평균 복습간격
 statistics-due-tomorrow = 내일 만기
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total }개 중 { $amount }개 ({ $percent }%)

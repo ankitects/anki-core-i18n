@@ -1,7 +1,7 @@
 card-stats-added = 추가됨
 card-stats-first-review = 최초 복습
 card-stats-latest-review = 최근 복습
-card-stats-interval = 간격
+card-stats-interval = 복습간격
 card-stats-ease = 수월함
 card-stats-review-count = 복습
 card-stats-lapse-count = 실패
@@ -21,4 +21,6 @@ card-stats-review-log-type-learn = 익힘
 card-stats-review-log-type-review = 복습
 card-stats-review-log-type-relearn = 재익힘
 card-stats-review-log-type-filtered = 여과됨
-card-stats-review-log-type-rescheduled = 일정 재조정
+
+## Window Titles
+

@@ -38,7 +38,7 @@ browsing-font-size = <b>글꼴 크기</b>:
 browsing-found-as-across-bs = { $part }을 { $whole }에 걸쳐 찾았습니다.
 browsing-ignore-case = 대소문자 무시
 browsing-in = <b>대상</b>:
-browsing-interval = 간격
+browsing-interval = 복습간격
 browsing-last-card = 마지막 카드
 browsing-learning = (학습중)
 browsing-line-size = <b>줄 간격</b>:
@@ -72,13 +72,13 @@ browsing-sort-field = 정렬 필드
 browsing-sorting-on-this-column-is-not = 이 세로열을 기준으로 정렬할 수 없습니다. 다른 열을 선택하세요.
 browsing-start-position = 시작 위치:
 browsing-step = 단계:
-browsing-suspended = 보류됨
+browsing-suspended = 일시중단됨
 browsing-tag-duplicates = 중복된 태그
 browsing-target-field = 목표 필드:
 browsing-toggle-mark = Mark(*) 하기
 browsing-toggle-suspend = 일시중단하기
 browsing-treat-input-as-regular-expression = 정규식으로 취급
-browsing-whole-collection = 모음집 전체
+browsing-whole-collection = 전체 컬렉션
 browsing-you-must-have-at-least-one = 적어도 세로열 하나는 반드시 필요합니다.
 browsing-group =
     { $count ->
@@ -89,9 +89,16 @@ browsing-note-count =
        *[other] { $count }노트
     }
 browsing-today = 오늘
-browsing-studied-today = 오늘 공부
-browsing-added-today = 오늘 추가
-browsing-again-today = 오늘 다시
+browsing-studied-today = 공부함
+browsing-added-today = 추가됨
+browsing-again-today = 다시
+browsing-edited-today = 수정됨
+browsing-sidebar-first-review = 첫 복습
+browsing-sidebar-rescheduled = 일정 재조정됨
+browsing-sidebar-due-today = 만기
+browsing-sidebar-untagged = 태그없음
+browsing-sidebar-overdue = 만기 지남
+browsing-row-deleted = (삭제됨)
 
 ## obsolete; no need to translate
 

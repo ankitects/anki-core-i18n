@@ -1,3 +1,17 @@
-search-invalid = 지원하지 않는 검색 - 철자 오류를 확인해주세요.
-search-note-modified = 편집
-search-card-modified = 변경
+## Errors shown when invalid search input is encountered.
+## Backticks change the text formatting, so please don't change the backticks.
+## Text inside backticks should not be changed unless noted.
+## It's ok to change quotes outside of backticks however, eg:
+## "`{ $context }`" => 「`{ $context }`」
+
+
+## eg. expected a number in "due>5x", but found "5x"
+
+
+## Column labels in browse screen
+
+search-note-modified = 노트 수정됨
+search-card-modified = 카드 수정됨
+
+##
+

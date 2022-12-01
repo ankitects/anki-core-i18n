@@ -37,6 +37,12 @@ scheduling-today-new-limit-reached =
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = 맞춤 공부
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = 오디오 재생시 질문 부분을 항상 포함
 scheduling-at-least-one-step-is-required = 적어도 하나의 단계는 반드시 필요합니다.
 scheduling-automatically-play-audio = 자동으로 오디오 재생
@@ -44,27 +50,24 @@ scheduling-bury-related-new-cards-until-the = 연관된 새 카드를 다음날�
 scheduling-bury-related-reviews-until-the-next = 연관된 복습 카드를 다음날까지 덮어두기
 scheduling-days = 일
 scheduling-description = 설명
-scheduling-description-to-show-on-overview-screen = 현재 덱에서 개요 화면에 표시할 설명:
 scheduling-easy-bonus = 쉬움 버튼 보너스
-scheduling-easy-interval = 복습 주기
+scheduling-easy-interval = 쉬움 복습간격
 scheduling-end = (종료)
 scheduling-general = 일반
-scheduling-graduating-interval = 졸업 간격
-scheduling-hard-interval = 어려움 반복 난이도 구간
+scheduling-graduating-interval = 졸업 복습간격
+scheduling-hard-interval = 어려움 복습간격
 scheduling-ignore-answer-times-longer-than = 답변 시간이 너무 길 경우 무시할 기준:
-scheduling-interval-modifier = 복습 주기 조정값
+scheduling-interval-modifier = 복습주기 조정값
 scheduling-lapses = 실패
 scheduling-lapses2 = 실패
-scheduling-learning = 익힘 카드
-scheduling-leech-action = 거머리 처리
-scheduling-leech-threshold = 거머리 기준
-scheduling-maximum-interval = 최대 복습 주기
+scheduling-learning = 학습 카드
+scheduling-maximum-interval = 최대 복습주기
 scheduling-maximum-reviewsday = 최대 복습량/일
-scheduling-minimum-interval = 최소 복습 주기
+scheduling-minimum-interval = 최소 복습주기
 scheduling-mix-new-cards-and-reviews = 새 카드와 복습 카드 섞기
 scheduling-new-cards = 새 카드
 scheduling-new-cardsday = 새 카드/일
-scheduling-new-interval = 새 복습 주기
+scheduling-new-interval = 새 복습주기
 scheduling-new-options-group-name = 새 옵션 그룹 이름:
 scheduling-options-group = 옵션 그룹:
 scheduling-order = 순서
@@ -85,6 +88,7 @@ scheduling-steps-must-be-numbers = 익힘 단계는 반드시 숫자로 지정�
 scheduling-tag-only = 태그만 달기
 scheduling-the-default-configuration-cant-be-removed = 기본 설정은 삭제할 수 없습니다.
 scheduling-your-changes-will-affect-multiple-decks = 이 변경은 모든 뭉치에 영향을 미칩니다. 만약 현재 뭉치만 바꾸시려면, 먼저 새로운 옵션 그룹을 생성하세요.
-scheduling-deck-updated = { $count ->
-   *[other] { $count }뭉치를 업데이트했습니다.
-  }
+scheduling-deck-updated =
+    { $count ->
+       *[other] { $count }뭉치를 업데이트했습니다.
+    }

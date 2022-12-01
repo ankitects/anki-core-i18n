@@ -25,7 +25,7 @@ sync-client-too-old = Anki 버전이 너무 오래되었습니다. 동기화를 
 sync-wrong-pass = AnkiWeb 아이디나 비밀번호가 틀렸습니다. 다시 시도하세요.
 sync-resync-required = 다시 동기화하십시오. 이 메시지가 계속 나타나면 지원 사이트에 게시하십시오.
 sync-must-wait-for-end = Anki가 동기화 중입니다. 동기화가 끝날 때까지 기다린 뒤 다시 시도하십시오.
-sync-confirm-empty-download = 지금 저장된 컬렉션에는 카드가 존재하지 않습니다. Ankiweb에서 다운로드할까요?
+sync-confirm-empty-download = 로컬의 컬렉션에는 카드가 존재하지 않습니다. AnkiWebAnkiweb에서 다운로드할까요?
 sync-conflict-explanation =
     이 기기에 저장된 내용과 AnkiWeb에 저장된 내용이 차이가 나기 때문에, 한쪽의 내용을 다른 쪽으로 덮어써야만 합니다.
     
@@ -37,13 +37,13 @@ sync-ankiweb-id-label = AnkiWeb 아이디:
 sync-password-label = 비밀번호:
 sync-account-required =
     <h1>계정이 필요합니다</h1>
-    무료 계정이 있어야 사용자의 모음집을 동기화할 수 있습니다. <a href="{ $link }">사용자 등록</a>을 한 뒤, 필요한 정보를 아래에 입력하세요.
+    무료 계정이 있어야 사용자의 컬렉션을 동기화할 수 있습니다. <a href="{ $link }">사용자 등록</a>을 한 뒤, 필요한 정보를 아래에 입력하세요.
 sync-sanity-check-failed = 데이터베이스 확인 기능을 사용한 다음 다시 동기화하십시오. 문제가 지속되면 기본 설정 화면에서 전체 동기화를 수행하십시오.
 sync-clock-off = 동기화할 수 없음 - 시계가 올바른 시간으로 설정되지 않음.
 sync-upload-too-large =
-    컬랙션 파일이 너무 커 AnkiWeb으로 전송할 수 없습니다. 파일의
-    크기를 줄이려면 필요가 없는 뭉치를 (먼저 내보내기한 후) 삭제한 다음,
-    데이터베이스 확인을 사용해서 파일 크기를 줄일 수 있습니다. ({ $details })
+    컬렉션 파일이 너무 커서 AnkiWeb으로 전송할 수 없습니다. 파일의
+    크기를 줄이려면 필요없는 뭉치를 (먼저 내보내기한 후) 삭제한 다음,
+    데이터베이스 체크하기를 통해 파일 크기를 줄일 수 있습니다. ({ $details })
 
 ## Buttons
 
