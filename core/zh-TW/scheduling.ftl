@@ -61,7 +61,7 @@ scheduling-custom-study = 自訂學習
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 隨附了新版排程器，解決了舊版本 Anki 的一些問題。推薦更新到新版排程器。
+scheduling-update-soon = Anki 2.1 升級了排程器，解決了舊版本 Anki 的一些問題。建議更新排程器。
 scheduling-update-done = 已成功更新排程器。
 scheduling-update-button = 更新
 scheduling-update-later-button = 稍後
