@@ -36,38 +36,38 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } 오늘({ $secs-per-card }s/card)
 statistics-today-title = 오늘
-statistics-today-again-count = '다시'버튼을 누른 횟수:
-statistics-today-type-counts = 익힘: { $learnCount }, 복습: { $reviewCount }, 재익힘: { $relearnCount }, 여과됨:{ $filteredCount }
+statistics-today-again-count = '다시' 버튼 누른 횟수:
+statistics-today-type-counts = 학습: { $learnCount }, 복습: { $reviewCount }, 재학습: { $relearnCount }, 필터됨:{ $filteredCount }
 statistics-today-no-cards = 오늘 학습한 카드가 없습니다.
-statistics-today-no-mature-cards = 오늘 학습한 성숙한 카드가 없습니다.
-statistics-today-correct-mature = 성숙한 카드 정답률: { $correct }/{ $total } ({ $percent }%)
+statistics-today-no-mature-cards = 오늘 학습한 성숙 카드가 없습니다.
+statistics-today-correct-mature = 성숙 카드 정답률: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = 전체 카드
 statistics-counts-new-cards = 새 카드
 statistics-counts-young-cards = 어린 카드
-statistics-counts-mature-cards = 성숙한 카드
+statistics-counts-mature-cards = 성숙 카드
 statistics-counts-suspended-cards = 일시중단됨
 statistics-counts-buried-cards = 덮음
 statistics-counts-learning-cards = 학습 카드
 statistics-counts-relearning-cards = 재학습 카드
-statistics-counts-title = 카드 수
-statistics-range-all-time = 뭉치 일생
+statistics-counts-title = 카드 갯수
+statistics-range-all-time = 전체
 statistics-range-1-year-history = 최근 12달간
 statistics-range-all-history = 모든 기록
 statistics-range-deck = 뭉치
 statistics-range-collection = 컬렉션
 statistics-range-search = 찾기
-statistics-card-ease-title = 카드 복습 주기
-statistics-card-ease-subtitle = 카드 복습 주기가 짧을수록 자주 복습
+statistics-card-ease-title = 카드 ease
+statistics-card-ease-subtitle = ease가 낮을수록 카드가 더 자주 등장합니다.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-       *[other] { $percent } 복습 주기의 { $cards }개 카드
+       *[other] { $percent } ease의 { $cards }개 카드
     }
 statistics-future-due-title = 예상
 statistics-future-due-subtitle = 앞으로 공부할 복습량
 statistics-added-title = 추가됨
 statistics-added-subtitle = 추가한 카드의 수
-statistics-reviews-count-subtitle = 그동안 답변한 질문 개수
+statistics-reviews-count-subtitle = 답변한 질문 수
 statistics-reviews-time-subtitle = 질문에 답을 하기까지 걸린 시간
 statistics-answer-buttons-title = 답 버튼
 # eg Button: 4
@@ -81,7 +81,7 @@ statistics-in-days-single =
     { $days ->
         [0] 오늘
         [1] 내일
-       *[other] { $days }일 뒤
+       *[other] { $days }일 이내
     }
 statistics-in-days-range = { $daysStart }-{ $daysEnd }일 뒤
 statistics-days-ago-single =
@@ -97,14 +97,14 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = 기일 초과
 statistics-intervals-title = 복습간격
-statistics-intervals-subtitle = 다음 번 복습 때까지 기다리는 시간
+statistics-intervals-subtitle = 복습카드가 다시 등장할 때까지의 간격
 statistics-intervals-day-range =
     { $cards ->
-       *[other] { $daysStart }~{ $daysEnd }일 복습주기의 { $cards }개 카드
+       *[other] { $daysStart }~{ $daysEnd }일의 복습 주기를 가진 { $cards }개 카드
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] { $day }일 복습주기의 { $cards }개 카드
+       *[other] { $day }일의 복습 주기를 가진 { $cards }개 카드
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
@@ -130,16 +130,16 @@ statistics-elapsed-time-years = { $amount }년
 
 ##
 
-statistics-average-for-days-studied = 공부한 기간 동안 평균
+statistics-average-for-days-studied = 공부기간 동안 평균
 statistics-total = 전체
-statistics-days-studied = 공부한 기간
+statistics-days-studied = 공부기간
 statistics-average-answer-time-label = 평균 답변 시간
 statistics-average = 평균
 statistics-average-interval = 평균 복습간격
 statistics-due-tomorrow = 내일 만기
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total }개 중 { $amount }개 ({ $percent }%)
-statistics-average-over-period = 매일 공부한다면
+statistics-average-over-period = 전체기간 평균
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count } 복습/일
@@ -152,7 +152,7 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } 카드/일
     }
-statistics-average-ease = 평균 수월함
+statistics-average-ease = 평균 ease
 statistics-save-pdf = PDF로 저장
 statistics-saved = 저장됨.
 statistics-stats = 통계

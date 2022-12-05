@@ -24,7 +24,7 @@ scheduling-time-span-years = { $amount }년
 
 ## Shown in the "Congratulations!" message after study finishes.
 
-scheduling-congratulations-finished = 축하합니다! 현재까지 이 뭉치에서 만기된 모든 카드를 공부했습니다.
+scheduling-congratulations-finished = 축하합니다! 현재까지 이 뭉치에서 만기인 모든 카드를 공부했습니다.
 scheduling-today-review-limit-reached =
     복습을 기다리는 카드가 더 있지만, 일일 제한량에
     도달했습니다. 최적의 암기 효과를 위해, 옵션에서
@@ -50,7 +50,7 @@ scheduling-bury-related-new-cards-until-the = 연관된 새 카드를 다음날�
 scheduling-bury-related-reviews-until-the-next = 연관된 복습 카드를 다음날까지 덮어두기
 scheduling-days = 일
 scheduling-description = 설명
-scheduling-easy-bonus = 쉬움 버튼 보너스
+scheduling-easy-bonus = 쉬움 보너스
 scheduling-easy-interval = 쉬움 복습간격
 scheduling-end = (종료)
 scheduling-general = 일반
@@ -82,9 +82,9 @@ scheduling-show-new-cards-after-reviews = 새 카드는 복습 카드보다 나�
 scheduling-show-new-cards-before-reviews = 새 카드는 복습 카드보다 먼저 등장
 scheduling-show-new-cards-in-order-added = 추가한 순서대로 새 카드 공부
 scheduling-show-new-cards-in-random-order = 무작위 순서로 새 카드 공부
-scheduling-starting-ease = 초기 수월함
-scheduling-steps-in-minutes = 익힘 단계(분 단위)
-scheduling-steps-must-be-numbers = 익힘 단계는 반드시 숫자로 지정하세요.
+scheduling-starting-ease = 초기 ease
+scheduling-steps-in-minutes = 학습 단계(분 단위)
+scheduling-steps-must-be-numbers = 학습 단계는 반드시 숫자로 지정하세요.
 scheduling-tag-only = 태그만 달기
 scheduling-the-default-configuration-cant-be-removed = 기본 설정은 삭제할 수 없습니다.
 scheduling-your-changes-will-affect-multiple-decks = 이 변경은 모든 뭉치에 영향을 미칩니다. 만약 현재 뭉치만 바꾸시려면, 먼저 새로운 옵션 그룹을 생성하세요.

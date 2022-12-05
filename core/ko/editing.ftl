@@ -1,7 +1,7 @@
 editing-add-media = 미디어 넣기
 editing-align-left = 왼쪽으로 정렬
 editing-align-right = 오른쪽으로 정렬
-editing-an-error-occurred-while-opening = { $val }를 여는동안 에러가 발생하였습니다.
+editing-an-error-occurred-while-opening = { $val }를 여는 동안 에러가 발생하였습니다.
 editing-attach-picturesaudiovideo = 사진/오디오/둥영상 첨부
 editing-bold-text = 볼드 글씨
 editing-cards = 카드
@@ -15,7 +15,6 @@ editing-cut = 잘라내기
 editing-edit-current = 현재 카드 편집
 editing-edit-html = HTML 편집
 editing-fields = 필드
-editing-html-editor = HTML 편집기
 editing-indent = 들여쓰기
 editing-italic-text = 기울임 글씨
 editing-jump-to-tags-with-ctrlandshiftandt = Ctrl+Shift+T를 눌러 태그로 이동
@@ -40,15 +39,4 @@ editing-warning-cloze-deletions-will-not-work = 빈칸 뚫기는 화면 위쪽�
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = 볼드체(Ctrl +B)
-editing-italic-text-ctrlandi = 기울임꼴 (Ctrl+I)
-editing-underline-text-ctrlandu = 밑줄 (Ctrl+U)
-editing-subscript-ctrland = 아래 첨자 (Ctrl+=)
-editing-superscript-ctrlandand = 위 첨자 (Ctrl++)
-editing-remove-formatting-ctrlandr = 포맷 지우기
-editing-record-audio-f5 = 소리 녹음하기 (F5)
-editing-attach-picturesaudiovideo-f3 = 사진/오디오/비디오 추가(F3)
-editing-cloze-deletion-ctrlandshiftandc = 빈칸 뚫기 (Ctrl+Shift+C)
-editing-change-colour-f8 = 색깔 바꾸기(F8)
-editing-set-foreground-colour-f7 = 외향 색 설명하기
-editing-customize-card-templates-ctrlandl = 카드 탬플릿 맞춤 설정
+editing-html-editor = HTML 편집기
