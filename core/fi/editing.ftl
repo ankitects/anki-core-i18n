@@ -16,6 +16,7 @@ editing-customize-fields = Mukauta kenttiä
 editing-cut = Leikkaa
 editing-double-click-image = kaksoisnapsauta kuvaa
 editing-double-click-to-expand = (laajenna kaksoisnapsauttamalla)
+editing-double-click-to-collapse = pienennä kaksoisnapsauttamalla
 editing-edit-current = Muokkaa nykyistä
 editing-edit-html = Muokkaa HTML:ää
 editing-fields = Kentät
