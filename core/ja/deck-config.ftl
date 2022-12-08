@@ -20,6 +20,10 @@ deck-config-review-limit-tooltip = 一日に表示される期日を迎えた復
 deck-config-limit-deck-v3 = サブデッキを含むデッキを選択して学習する場合、それぞれのサブデッキから引き出されるカードの最大枚数は、それぞれのサブデッキで設定された上限によります。選択中のデッキのカードの合計枚数には、そのデッキで設定した上限が適用されます。
 deck-config-limit-new-bound-by-reviews = 一日あたりのカード出題枚数の上限は、一日あたりの新規カード出題枚数の上限に影響を与えます。例えば、一日あたりのカード出題枚数の上限を200に設定し、期日を迎えたカードが190枚ある場合、最大10枚の新規カードが新たに導入されます。しかし、期日を迎えたカードの枚数が、一日あたりのカード出題枚数の上限を超えている場合、その日に新規カードは新たに導入されません。
 deck-config-limit-interday-bound-by-reviews = 一日あたりのカード出題枚数の上限は、日付をまたいだ習得中（または再習得中）カードにも適用されます。上限を適用するとき、まず日付をまたいだ習得中（再習得中）カードが集められ、次に復習カード、最後に新規カードの順で集められます。
+deck-config-tab-description =
+    - `プリセット`: この上限は、このプリセットを使用する全てのデッキで共有されます。¶
+    - `このデッキ`: この上限は、このデッキにのみ適用されます。¶
+    - `今日だけ`: このデッキの上限を一時的に変更します。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -164,9 +168,9 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards }枚
     }に設定されているため、そこでの上限がここにも適用されます。
 deck-config-reviews-too-low =
-    新規カードを一日に{ $cards ->
-       *[other] { $cards }枚導入するには、
-    }復習の上限が最低でも{ $expected }である必要があります。
+    新規カードを毎日{ $cards ->
+       *[other] { $cards }枚導入し、各カードの学習を継続していくには、
+    }一日あたりのカード出題枚数の上限を、{ $expected }枚か、それより多い枚数とするのが妥当です。
 deck-config-learning-step-above-graduating-interval = 最終ステップから復習開始までの間隔は、最低でも最終ステップと同じ長さの間隔が必要です。
 deck-config-good-above-easy = 「簡単」と回答してから復習開始までの間隔は、最低でも最終ステップから復習開始までの間隔と同じ長さの間隔が必要です。
 deck-config-relearning-steps-above-minimum-interval = 忘却カードの復習開始までの間隔は、最低でも再習得ステップの最後のステップと同じ長さの間隔が必要です。

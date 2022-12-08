@@ -11,3 +11,5 @@ help-open-manual-chapter = マニュアルの「{ $name }」の項目を読む
 
 ## Footer
 
+# Link to more detailed information in the manual
+help-for-more-info = 詳細は、マニュアルの { $link } の項目をご参照ください。
