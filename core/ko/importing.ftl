@@ -34,6 +34,7 @@ importing-notes-found-in-file = 파일에서 노트를 발견함 : { $val }
 importing-notes-skipped-as-theyre-already-in = 이미 컬렉션에 있기 때문에 노트를 추가하지 않았습니다 : { $val }
 importing-notes-that-could-not-be-imported = 노트 타입이 바뀌었기 때문에 불러올 수 없는 노트 : { $val }
 importing-notes-updated-as-file-had-newer = 파일이 최신 버전을 가졌기 때문에 업데이트된 노트 : { $val }
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = 압축된 Anki 덱/컬렉션 (*.apkg *.colpkg *.zip)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }'째 줄의 필드는 { $found }개. 예상한 필드는 { $expected }개.
 importing-selected-file-was-not-in-utf8 = 선택한 파일이 UTF-8 형식이 아닙니다. 매뉴얼의 가져오기 부분을 참고해 주세요.
 importing-semicolon = 쌍반점
