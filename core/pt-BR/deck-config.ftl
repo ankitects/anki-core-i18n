@@ -7,7 +7,7 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     usado por { $decks ->
-        [one] 1 baralho
+        [one] { $decks } baralho
        *[other] { $decks } baralhos
     }
 deck-config-default-name = Padrão
@@ -84,9 +84,7 @@ deck-config-bury-title = Ocultar
 deck-config-bury-new-siblings = Ocultar novos irmãos até o dia seguinte
 deck-config-bury-review-siblings = Ocultar irmãos de revisão até o dia seguinte
 deck-config-bury-interday-learning-siblings = Ocultar irmãos em aprendizado até o dia seguinte
-deck-config-bury-tooltip =
-    Se outros cartões da mesma nota (ex. cartões invertidos, omissões
-    de palavras adjacentes) serão adiados até o dia seguinte.
+deck-config-bury-review-tooltip = Outros cartões de `revisão` da mesma nota serão adiados até o dia seguinte.
 
 ## Ordering section
 

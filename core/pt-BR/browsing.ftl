@@ -12,6 +12,7 @@ browsing-browser-appearance = Aparência do Painel
 browsing-browser-options = Opções do Painel
 browsing-buried = Oculto
 browsing-card = Cartão
+browsing-cards = Cartões
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C
 browsing-card-list = Lista de Cartões
@@ -59,6 +60,7 @@ browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sem Marcador
 browsing-no-selection = Nenhum cartão ou nota selecionado.
 browsing-note = Nota
+browsing-notes = Notas
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
 browsing-optional-filter = Flitro Opcional

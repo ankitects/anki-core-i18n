@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] Isto criará { $count } cartão. Continuar?
        *[other] Isto criará { $count } cartões. Continuar?
     }
+card-templates-type-boxes-warning = Somente uma caixa de digitação por modelo de cartão é suportada.
