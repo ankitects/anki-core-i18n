@@ -65,4 +65,4 @@ actions-flag-blue = 青
 actions-flag-pink = ピンク
 actions-flag-turquoise = ターコイズ
 actions-flag-purple = 紫
-actions-set-flag = フラグをつける
+actions-set-flag = フラグの変更
