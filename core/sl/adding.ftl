@@ -7,3 +7,5 @@ adding-note-deleted = (Izbrisan zapisek)
 adding-shortcut = Bližnjica:{ $val }
 adding-the-first-field-is-empty = Prvo polje je prazno.
 adding-you-have-a-cloze-deletion-note = Izbran tip zapiska je z zaporo (cloze), vendar je niste ustvarili. Nadaljujem?
+adding-cloze-outside-cloze-notetype = Zaporo lahko ustvarite samo na tipu zapiska z zaporo.
+adding-cloze-outside-cloze-field = Zaporo lahko uporabite le v poljih, ki uporabljajo filter 'zapora:'. Običajno je to prvo polje.
