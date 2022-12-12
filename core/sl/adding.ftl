@@ -1,4 +1,9 @@
 adding-add-shortcut-ctrlandenter = Dodaj (bližnjica: Ctrl+Enter)
+adding-added = Dodano
 adding-close-and-lose-current-input = Zapri in razveljavi trenutni vnos?
+adding-edit = Uredi "{ $val }"
 adding-history = Zgodovina
+adding-note-deleted = (Izbrisan zapisek)
+adding-shortcut = Bližnjica:{ $val }
 adding-the-first-field-is-empty = Prvo polje je prazno.
+adding-you-have-a-cloze-deletion-note = Izbran tip zapiska je z zaporo (cloze), vendar je niste ustvarili. Nadaljujem?
