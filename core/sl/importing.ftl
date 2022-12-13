@@ -34,16 +34,29 @@ importing-mnemosyne-20-deck-db = Paket Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Več-znakovni ločilniki niso podprti. Prosimo, vnesite en sam znak.
 importing-notes-added-from-file = Zapiski dodani iz datoteke: { $val }
 importing-notes-found-in-file = Zapiski najdeni v datoteki: { $val }
+importing-notes-skipped-as-theyre-already-in = Zapiske smo preskočili, saj so že v vaši kolekciji: { $val }
+importing-notes-that-could-not-be-imported = Zapiske, ki jih ni bilo mogoče uvoziti, saj se je tip zapiska spremenil: { $val }
+importing-notes-updated-as-file-had-newer = Zapiski posodobljeni, ker je datoteka imela novo različico: { $val }
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zapakirana Anki zbirka/kolekcija (*.apkg *.colpkg *.zip)
+importing-pauker-18-lesson-paugz = Pauker lekija 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Pokončni znak '|'
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' je vsebovalo { $found } polja, pričakovano pa { $expected }
+importing-selected-file-was-not-in-utf8 = Izbrana datoteka ni bila v formatu UTF-8. Prosimo, oglejte si del priročnika, ki govori o uvažanju datotek.
 importing-semicolon = Podpičje
+importing-skipped = Preskočeno
 importing-supermemo-xml-export-xml = Izvoz Supermemo XML(*.xml)
 importing-tab = Zavihek
+importing-tag-modified-notes = Označi spremenjene zapiske:
 importing-text-separated-by-tabs-or-semicolons = Besedilo ločeno s tabulatorji ali podpičji (*)
 importing-the-first-field-of-the-note = Prvo polje tipa zapiska mora biti preslikano.
+importing-the-provided-file-is-not-a = Datoteka ni veljavna .apkg datoteka.
+importing-this-file-does-not-appear-to = Ta datoteka ni veljavna .apkg datoteka. Če to napako opazite pri datotekah, ki ste jih prenesli s strani AnkiWeb, obstaja možnost, da je bila napaka pri prenosu. Prosimo, pokusite znova, ob ponovni napaki pa uporabite drug brskalnik.
 importing-this-will-delete-your-existing-collection = S tem boste izbrisali vašo obstoječo zbirko in jo nadomestili s podatki iz datoteke, ki jo uvažate. Ali ste prepričani?
 importing-unable-to-import-from-a-readonly = Uvoz iz datoteke, ki je označena samo za branje, ni mogoč.
 importing-unknown-file-format = Neznana oblika datoteke.
 importing-update-existing-notes-when-first-field = Posodobi obstoječe zapiske, ko se prvi polji ujemata
+importing-updated = Posodobljeno
 importing-note-added =
     { $count ->
         [one] Dodanih { $count } zapiskov
@@ -65,3 +78,13 @@ importing-note-updated =
         [few] Posodobljena { $count } zapiska
        *[other] Posodobljeni { $count } zapiski
     }
+importing-existing-notes = Obstoječi zapiski
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Podvoji
+# "Existing notes: Preserve" (verb)
+importing-preserve = Ohrani
+# "Existing notes: Update" (verb)
+importing-update = Posodobi
+importing-tag-all-notes = Označi vse zapiske
+importing-tag-updated-notes = Označi posodobljene zapiske
+importing-file = Datoteka
