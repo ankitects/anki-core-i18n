@@ -1,10 +1,14 @@
 decks-add-new-deck-ctrlandn = Dodaj nov paket (Ctrl+N)
-decks-are-you-sure-you-wish-to = Ali ste prepričani, da želite izbrisati { $val }?
 decks-build = Zgradi
 decks-cards-selected-by = kartice izbrane od
 decks-create-deck = Ustvari paket
+decks-custom-steps-in-minutes = Koraki po izbiri (v minutah)
+decks-deck = Zbirka
 decks-decreasing-intervals = Padajoči intervali
 decks-delete-deck = Izbriši zbirko kartic
+decks-enable-second-filter = Omogoči še en filter
+decks-filter = Filter:
+decks-filter-2 = Filter 2
 decks-get-shared = Naloži javne zbirke
 decks-import-file = Uvozi datoteko
 decks-increasing-intervals = Vedno večji intervali
@@ -19,13 +23,9 @@ decks-order-added = Uredi dodane
 decks-order-due = Uredi zapadle
 decks-please-select-something = Izberite nekaj.
 decks-random = Naključno
+decks-relative-overdueness = Relativen potek roka
+decks-repeat-failed-cards-after = Ponovi kartice po
 decks-reschedule-cards-based-on-my-answers = Prerazporedi kartice glede na moje odgovore v tem paketu
 decks-study = Študiraj
 decks-study-deck = Paket za učenje
-decks-the-provided-search-did-not-match = Izraz za iskanje ni našel nobenih kartic. Bi ga radi popravili?
-decks-it-has-card = { $count ->
-    [one]  Vsebuje { $count } kartic.
-    [two]  Vsebuje { $count } kartico.
-    [few]  Vsebuje { $count } kartici.
-   *[other]  Vsebuje { $count } kartic.
-  }
+decks-unmovable-cards = Pokaži izločene kartice
