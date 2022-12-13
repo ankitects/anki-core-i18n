@@ -1,5 +1,11 @@
+profiles-anki-could-not-read-your-profile = Anki ni mogel dostopati do podatkov vašega profila. Velikosti oken in vpisni podatki za sinhronizacijo so bili izbrisani.
+profiles-anki-could-not-rename-your-profile = Anki ni mogel preimenovati vašega profila, ker ni mogel preimenovati profilne mape na disku. Prosimo, zagotovite, da ima Anki dovoljenje za spreminjanje mape Documents/Anki, in da drugi programi ne dostopajo do te mape. Nato poskusite znova.
 profiles-folder-already-exists = Mapa že obstaja.
 profiles-open = Odpri
+profiles-open-backup = Odpri rezervno kopijo...
+profiles-please-remove-the-folder-and = Prosimo, odstranite mapo { $val } in poskusite znova.
+profiles-profile-corrupt = Podatki profila so okvarjeni
 profiles-profiles = Profili
 profiles-quit = Zapri
 profiles-user-1 = Uporabnik 1
+profiles-confirm-lang-choice = Ali ste prepričani, da želite uporabniški vmesnik programa Anki prikazovati v { $lang }?
