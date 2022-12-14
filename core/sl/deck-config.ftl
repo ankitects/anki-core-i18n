@@ -40,10 +40,14 @@
 
 ## Other Buttons
 
+deck-config-save-button = Shrani
+deck-config-save-to-all-subdecks = Shrani v vse podrejene zbirke
+deck-config-revert-button-tooltip = To nastavitev povrni na privzeto vrednost.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Obdelava Anki 2.1.41+
 
 ## Warnings shown to the user
 
