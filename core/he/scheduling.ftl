@@ -186,6 +186,6 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] שכח כרטיס { $cards }.
+        [one] כרטיס { $cards } נשכח.
        *[other] שכח { $cards } כרטיסים.
     }
