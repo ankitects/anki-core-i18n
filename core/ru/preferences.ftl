@@ -1,6 +1,6 @@
 preferences-automatically-sync-on-profile-openclose = Автоматически синхронизировать при смене профиля
 preferences-backups = Резервные копии
-preferences-basic = Простая
+preferences-basic = Основные
 preferences-change-deck-depending-on-note-type = Выбрать колоду по типу записи
 preferences-changes-will-take-effect-when-you = Изменения вступят в силу при перезапуске Anki.
 preferences-hours-past-midnight = ч. после полуночи
