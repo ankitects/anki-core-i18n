@@ -49,10 +49,22 @@ actions-build-filtered-deck = 덱 만들기
 actions-add-notetype = 노트 유형 추가
 actions-remove-notetype = 노트 유형 삭제
 actions-update-notetype = 노트 유형 업데이트
+actions-update-config = 설정 업데이트
 actions-card-info = 카드 정보
 actions-previous-card-info = 이전 카드 정보
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
+actions-currently-unsupported = 귀하의 시스템에서 아직 지원하지 않는 작동입니다.
 
 ## Flags
 
 actions-flag-number = 플래그 { $number }
+actions-flag-red = 빨강
+actions-flag-orange = 주황
+actions-flag-green = 초록
+actions-flag-blue = 파랑
+actions-flag-pink = 핑크
+actions-flag-turquoise = 청록
+actions-flag-purple = 보라
 actions-set-flag = 플래그 설정

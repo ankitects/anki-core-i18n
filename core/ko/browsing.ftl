@@ -1,5 +1,7 @@
 browsing-add-notes = 노트 추가...
 browsing-add-tags2 = 태그 추가...
+browsing-add-to-selected-notes = 선택한 노트에 추가
+browsing-remove-from-selected-notes = 선택한 노트에서 제거
 browsing-addon = 확장 프로그램
 browsing-all-fields = 모든 필드
 browsing-answer = 답
@@ -10,8 +12,15 @@ browsing-browser-appearance = 탐색기에서 표시할 때
 browsing-browser-options = 탐색기 옵션
 browsing-buried = 덮음
 browsing-card = 카드
+browsing-cards = 카드
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
 browsing-card-list = 카드 목록
 browsing-cards-cant-be-manually-moved-into = 필터된 뭉치에 카드를 수동으로 옮길 수 없습니다.
+browsing-cards-deleted =
+    { $count ->
+       *[other] 카드 { $count }개를 삭제했습니다.
+    }
 browsing-change-deck = 뭉치 바꾸기
 browsing-change-deck2 = 뭉치 바꾸기...
 browsing-change-note-type = 노트 유형 바꾸기
