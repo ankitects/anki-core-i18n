@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = 공백
 card-templates-changes-will-affect-notes = 변경한 내용은 이 카드 유형이 적용된 { $count }개의 노트에 반영됩니다.
 card-templates-card-type = 카드 유형:
 card-templates-front-template = 앞면 서식
@@ -6,8 +8,13 @@ card-templates-template-styling = 스타일
 card-templates-front-preview = 앞면 미리보기
 card-templates-back-preview = 뒷면 미리보기
 card-templates-preview-box = 미리 보기
+card-templates-template-box = 템플릿
 card-templates-sample-cloze = 이것은 빈칸 뚫기 { "{{c1::" }예시{ "}}" }입니다.
+card-templates-fill-empty = 빈 필드 채우기
 card-templates-night-mode = 야간 모드
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = 모바일 클래스 추가
 card-templates-preview-settings = 옵션
 card-templates-changes-saved = 변경 사항이 저장됨.
 card-templates-add-card-type = 카드 형 추가...
@@ -15,7 +22,6 @@ card-templates-anki-couldnt-find-the-line-between = 질문과 답을 구분하�
 card-templates-at-least-one-card-type-is = 최소한 하나의 카드 유형이 필요합니다.
 card-templates-browser-appearance = 탐색기 모양...
 card-templates-card = 카드 { $val }
-card-templates-card-types = 카드 유형
 card-templates-card-types-for = { $val }의 카드 유형
 card-templates-cloze = 빈칸 뚫기 { $val }
 card-templates-deck-override = 덱 전체 적용

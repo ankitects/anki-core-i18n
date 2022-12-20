@@ -27,3 +27,6 @@ card-template-rendering-no-such-field = '{ $found }'를 찾았지만 '{ $field }
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = 카드의 앞면이 빈칸입니다.
+card-template-rendering-missing-cloze =
+    { $number }번 빈칸은 카드에 없습니다.
+    빈칸을 추가하거나, 빈 카드 도구를 사용하세요.
