@@ -2,6 +2,7 @@ card-stats-added = 추가됨
 card-stats-first-review = 첫 복습
 card-stats-latest-review = 최근 복습
 card-stats-interval = 복습간격
+card-stats-ease = ease
 card-stats-review-count = 복습횟수
 card-stats-lapse-count = 실패
 card-stats-average-time = 평균 시간
@@ -20,6 +21,10 @@ card-stats-review-log-type-learn = 학습
 card-stats-review-log-type-review = 복습
 card-stats-review-log-type-relearn = 재학습
 card-stats-review-log-type-filtered = 필터됨
+card-stats-review-log-type-manual = 수동
+card-stats-no-card = (표시할 카드가 없습니다.)
 
 ## Window Titles
 
+card-stats-current-card = 현재 카드 ({ $context })
+card-stats-previous-card = 이전 카드 ({ $context })

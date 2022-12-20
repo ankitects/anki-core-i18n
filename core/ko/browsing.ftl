@@ -33,7 +33,7 @@ browsing-current-deck = 현재 뭉치
 browsing-current-note-type = 현재 노트 유형:
 browsing-delete-notes = 노트 삭제
 browsing-duplicate = 복제
-browsing-ease = 난이도
+browsing-ease = ease
 browsing-enter-tags-to-add = 추가할 태그를 입력하세요:
 browsing-enter-tags-to-delete = 삭제할 태그를 입력하세요:
 browsing-filtered = (필터됨)
@@ -96,7 +96,9 @@ browsing-toggle-showing-cards-notes = 카드/노트 전환
 browsing-toggle-mark = Mark(*) 하기
 browsing-toggle-suspend = 일시중단하기
 browsing-treat-input-as-regular-expression = 정규식으로 취급
+browsing-update-saved-search = 현재 검색어로 업데이트
 browsing-whole-collection = 전체 컬렉션
+browsing-window-title-notes = 찾아보기 (노트 { $total }개 중 { $selected }개 선택함)
 browsing-you-must-have-at-least-one = 적어도 세로열 하나는 반드시 필요합니다.
 browsing-group =
     { $count ->
@@ -106,7 +108,34 @@ browsing-note-count =
     { $count ->
        *[other] { $count }노트
     }
+browsing-notes-updated =
+    { $count ->
+       *[other] 노트 { $count }개를 업데이트했습니다.
+    }
+browsing-cards-updated =
+    { $count ->
+       *[other] 카드 { $count }개를 업데이트했습니다.
+    }
+browsing-window-title = 찾아보기 (카드 { $total }개 중 { $selected }개 선택함)
+browsing-sidebar-expand = 펼치기
+browsing-sidebar-collapse = 접기
+browsing-sidebar-expand-children = 하위 항목 펼치기
+browsing-sidebar-collapse-children = 하위 항목 접기
+browsing-sidebar-decks = 데크
+browsing-sidebar-tags = 태그
+browsing-sidebar-notetypes = 노트 유형
+browsing-sidebar-saved-searches = 저장된 검색어
+browsing-sidebar-save-current-search = 현재 검색어 저장하기
+browsing-sidebar-card-state = 카드 상태
+browsing-sidebar-flags = 플래그
 browsing-today = 오늘
+browsing-tooltip-card-modified = 마지막으로 카드의 리뷰, 플래그나 데크 등이 변경된 때입니다
+browsing-tooltip-note-modified = 마지막으로 노트의 필드 내용이나 태그 등이 변경된 때입니다
+browsing-tooltip-card = 카드의 카드 탬플릿 이름
+browsing-tooltip-cards = 노트가 가진 카드의 수
+browsing-tooltip-notetype = 노트의 노트 유형 이름
+browsing-tooltip-question = 카드의 앞면- 카드 탬플릿 편집기에서 수정 가능
+browsing-tooltip-answer = 카드의 뒷면- 카드 탬플릿 편집기에서 수정 가능
 browsing-studied-today = 공부함
 browsing-added-today = 추가됨
 browsing-again-today = 다시
@@ -117,6 +146,18 @@ browsing-sidebar-due-today = 만기
 browsing-sidebar-untagged = 태그없음
 browsing-sidebar-overdue = 만기 지남
 browsing-row-deleted = (삭제됨)
+browsing-removed-unused-tags-count =
+    { $count ->
+       *[other] 사용하지 않는 태그 { $count }개를 삭제했습니다.
+    }
+browsing-changed-new-position =
+    { $count ->
+       *[other] 새로운 카드 { $count }개의 위치를 바꿨습니다.
+    }
+browsing-reparented-decks =
+    { $count ->
+       *[other] 데크 { $count }개의 이름을 바꿨습니다.
+    }
 
 ## obsolete; no need to translate
 
