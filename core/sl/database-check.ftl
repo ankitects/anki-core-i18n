@@ -21,6 +21,47 @@ database-check-field-count =
         [few] Popravljeni { $count } zapiski z napačnim številom vnosnih polj.
        *[other] Popravljenih { $count } zapiskov z napačnim številom vnosnih polj.
     }
+database-check-new-card-high-due =
+    { $count ->
+        [one] Našli smo { $count } novo kartico z rokom >=1,000,000 - premislite glede premestitve v zaslonu za brskanje.
+        [two] Našli smo { $count } novi kartici z rokom >=1,000,000 - premislite glede premestitve v zaslonu za brskanje.
+        [few] Našli smo { $count } nove kartice z rokom >=1,000,000 - premislite glede premestitve v zaslonu za brskanje.
+       *[other] Našli smo { $count } novih kartic z rokom >=1,000,000 - premislite glede premestitve v zaslonu za brskanje.
+    }
+database-check-card-missing-note =
+    { $count ->
+        [one] Izbrisanih kartic z manjkajočim zapiskom: { $count }.
+        [two] Izbrisanih kartic z manjkajočim zapiskom: { $count }.
+        [few] Izbrisanih kartic z manjkajočim zapiskom: { $count }.
+       *[other] Izbrisanih kartic z manjkajočim zapiskom: { $count }.
+    }
+database-check-duplicate-card-ords =
+    { $count ->
+        [one] Izbrisanih kartic s podvojeno predlogo: { $count }.
+        [two] Izbrisanih kartic s podvojeno predlogo: { $count }.
+        [few] Izbrisanih kartic s podvojeno predlogo: { $count }.
+       *[other] Izbrisanih kartic s podvojeno predlogo: { $count }.
+    }
+database-check-missing-decks =
+    { $count ->
+        [one] Popravljenih manjkajočih zbirk kartic: { $count }.
+        [two] Popravljenih manjkajočih zbirk kartic: { $count }.
+        [few] Popravljenih manjkajočih zbirk kartic: { $count }.
+       *[other] Popravljenih manjkajočih zbirk kartic: { $count }.
+    }
+database-check-revlog-properties =
+    { $count ->
+        [one] Popravljenih vnosov za ponavljanje z neveljavnimi lastnostmi: { $count }.
+        [two] Popravljenih vnosov za ponavljanje z neveljavnimi lastnostmi: { $count }.
+        [few] Popravljenih vnosov za ponavljanje z neveljavnimi lastnostmi: { $count }.
+       *[other] Popravljenih vnosov za ponavljanje z neveljavnimi lastnostmi: { $count }.
+    }
 
 ## Progress info
 
+database-check-checking-integrity = Preverjam kolekcijo...
+database-check-rebuilding = Ponovno ustvarjanje...
+database-check-checking-cards = Preverjanje kartic...
+database-check-checking-notes = Preverjanje zapisov...
+database-check-checking-history = Preverjanje zgodovine...
+database-check-title = Preveri podatkovno bazo
