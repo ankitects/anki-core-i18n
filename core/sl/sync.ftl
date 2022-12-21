@@ -25,9 +25,17 @@ sync-password-label = Geslo:
 sync-account-required =
     <h1>Zahtevan je račun</h1>
     Če želite vašo zbirko sinhronizirati, potrebujete brezplačen račun. <a href="{ $link }">Prijavite se</a> za brezplačen račun, nato pa spodaj vnesite podatke.
+sync-clock-off = Ni možno sinhronizirati - vaša ura ni nastavljena na pravi čas.
+sync-upload-too-large =
+    Vaša kolekcija presega dovoljeno velikost za pošiljanje na AnkiWeb.
+    Velikost lahko zmanjšate z odstranitvijo neuporabljenih zbirk (pred tem jih izvozite),
+    nato pa uporabite možnost 'Preveri podatkovno zbirko', da zmanjšate njeno velikost.
+    ({ $details })
 
 ## Buttons
 
+sync-media-log-button = Dnevnik medijskih datotek
+sync-abort-button = Prekliči
 sync-download-from-ankiweb = Naloži z AnkiWeb-a
 sync-upload-to-ankiweb = Prenos na AnkiWeb
 sync-cancel-button = Prekliči
@@ -39,4 +47,5 @@ sync-uploading-to-ankiweb = Prenos v AnkiWeb...
 sync-syncing = Sinhroniziranje...
 sync-checking = Preverjanje...
 sync-connecting = Povezovanje ...
+sync-added-updated-count = Dodano/spremenjeno: { $up }↑ { $down }↓
 sync-log-out-button = Izpiši se

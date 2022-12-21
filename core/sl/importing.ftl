@@ -71,12 +71,45 @@ importing-note-imported =
         [few] Uvožena { $count } zapiska.
        *[other] Uvoženi { $count } zapiski.
     }
+importing-note-unchanged =
+    { $count ->
+        [one] Nespremenjenih zapiskov: { $count }
+        [two] Nespremenjenih zapiskov: { $count }
+        [few] Nespremenjenih zapiskov: { $count }
+       *[other] Nespremenjenih zapiskov: { $count }
+    }
 importing-note-updated =
     { $count ->
         [one] Posodobljenih { $count } zapiskov
         [two] Posodobljen { $count } zapisek
         [few] Posodobljena { $count } zapiska
        *[other] Posodobljeni { $count } zapiski
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] Uvoženih medijskih datotek: { $count }
+        [two] Uvoženih medijskih datotek: { $count }
+        [few] Uvoženih medijskih datotek: { $count }
+       *[other] Uvoženih medijskih datotek: { $count }
+    }
+importing-importing-collection = Uvažanje kolekcije...
+importing-importing-file = Uvažanje datoteke...
+importing-extracting = Razširjanje podatkov...
+importing-gathering = Zbiranje podatkov...
+importing-failed-to-import-media-file = Uvažanje ni uspelo: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Procesiranih zapiskov: { $count }
+        [two] Procesiranih zapiskov: { $count }
+        [few] Procesiranih zapiskov: { $count }
+       *[other] Procesiranih zapiskov: { $count }
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Procesiranih kartic: { $count }
+        [two] Procesiranih kartic: { $count }
+        [few] Procesiranih kartic: { $count }
+       *[other] Procesiranih kartic: { $count }
     }
 importing-existing-notes = Obstoječi zapiski
 # "Existing notes: Duplicate" (verb)

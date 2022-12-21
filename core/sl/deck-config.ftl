@@ -92,21 +92,68 @@ deck-config-review-mix-mix-with-reviews = Pomešaj s ponovitvenimi
 deck-config-review-mix-show-after-reviews = Pokaži po ponovitvenih
 deck-config-review-mix-show-before-reviews = Pokaži pred ponovitvenimi
 deck-config-review-sort-order = Vrstni red ponovitvenih
+deck-config-sort-order-due-date-then-random = Po roku zapadlosti, nato naključno
+deck-config-sort-order-due-date-then-deck = Po roku zapadlosti, nato po zbirki
+deck-config-sort-order-deck-then-due-date = Po zbirki, nato po roku zapadlosti
+deck-config-sort-order-ascending-intervals = Naraščajoči intervali
+deck-config-sort-order-descending-intervals = Padajoči intervali
+deck-config-sort-order-ascending-ease = Naraščajoča težavnost
+deck-config-sort-order-descending-ease = Padajoča težavnost
+deck-config-sort-order-relative-overdueness = Relativna zapadlost roka
+deck-config-display-order-will-use-current-deck =
+    Anki bo uporabil vrstni red prikaza iz zbirke, ki 
+    jo izberete za učenje in ne po morebitnih podrejenih zbirkah.
 
 ## Timer section
 
+deck-config-timer-title = Časovnik
+deck-config-maximum-answer-secs = Omejitev odgovora v sekundah
 
 ## Audio section
 
+deck-config-audio-title = Zvok
+deck-config-disable-autoplay = Ne predvajaj zvoka samodejno
+deck-config-disable-autoplay-tooltip =
+    Ko je omogočeno, Anki ne bo predvajal samodejno zvoka.
+    Zvok lahko predvajate ročno s klikom/dotikom na ikono zvoka ali z uporabo akcije predvajanja zvoka.
+deck-config-skip-question-when-replaying = Pri ponovnem prikazu odgovora preskoči vprašanje
+deck-config-always-include-question-audio-tooltip =
+    Ali naj se zvok vprašanja tudi vključi pri uporabi funkcije Predvajaj
+    pri ogledu strani z odgovorom na kartici.
 
 ## Advanced section
 
+deck-config-advanced-title = Napredno
+deck-config-maximum-interval-tooltip =
+    Največje število dni, ko bo čakala kartica za ponavljanje. Ko ponavljanja
+    dosežejo mejo, odgovori 'Težko', 'Dobro' in 'Enostavno' pomenijo enak zamik.
+    Krajša kot je ta nastavitev, večji bo napor pri učenju.
+deck-config-starting-ease-tooltip =
+    Množilnik težavnosti, s katerim začnejo nove kartice. Privzeto gumb 'Dobro'
+    na novo naučeni kartici zamakne ponovitev za 2,5-kratnik prejšnjega zamika.
+deck-config-easy-bonus-tooltip =
+    Dodatni množilnik, ki je dodan k ponovljeni kartici, ko jo ocenite
+    z gumbom 'Enostavno'.
+deck-config-interval-modifier-tooltip =
+    Ta množilnik je dodan vsem ponovitvenim karticam, manjše prilagoditve pa
+    lahko uporabite, da naredite Anki bolj konzervativen ali agresiven pri razporejanju.
+    Pred spremembo te možnosti prosimo preberite navodila za uporabo programa.
+deck-config-hard-interval-tooltip = Ta množilnik se doda intervalu za ponovitev, kadar označite odgovor 'Težko'.
+deck-config-new-interval-tooltip = Ta množilnik se doda intervalu za ponovitev, kadar označite odgovor 'Ponovno'.
+deck-config-minimum-interval-tooltip = Najmanjši interval, ki se doda ponovitveni kartici pri odgovoru 'Ponovno'.
+deck-config-custom-scheduling = Razporejanje po meri
+deck-config-custom-scheduling-tooltip = Vpliva na celotno kolekcijo. Uporabite na svojo odgovornost!
 
 ## Adding/renaming
 
+deck-config-add-group = Dodaj prednastavitev
+deck-config-name-prompt = Ime
+deck-config-rename-group = Preimenuj pednastavitev
+deck-config-clone-group = Kloniraj prednastavitev
 
 ## Removing
 
+deck-config-remove-group = Odstrani prednastavitev
 
 ## Other Buttons
 
