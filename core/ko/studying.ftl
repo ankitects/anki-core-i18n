@@ -7,6 +7,7 @@ studying-bury = 덮기
 studying-bury-card = 카드 덮기
 studying-bury-note = 노트 덮기
 studying-card-suspended = 카드가 일시중단됨.
+studying-card-was-a-leech = Leech 카드였습니다.
 studying-cards-will-be-automatically-returned-to = 공부한 카드는 자동으로 원래 있던 뭉치로 돌아갑니다.
 studying-continue = 계속
 studying-delete-note = 노트 삭제
