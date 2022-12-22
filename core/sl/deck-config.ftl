@@ -53,6 +53,18 @@ deck-config-today-only = Samo danes
 deck-config-learning-steps = Učni koraki
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Zakasnitve so običajno minute (npr. '1m') ali dnevi (npr. '2d'), podprte pa so tudi ure (npr. '1h') in sekunde (npr. '30s').
+deck-config-learning-steps-tooltip =
+    En ali več zamikov, ločenih s presledki. Prvi zamik bo uporabljen ob pritisku
+    gumba 'Ponovno' na novi kartici in je privzeto 1 minuta. Gumb 'Dobro'
+    premakne kartico na naslednji korak, ki je privzeto 10 minut.
+    Ko gre kartica skozi vse korake, postane kartica za ponovitev in se pojavi
+    drug dan. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    Število dni, po katerih se kartica ponovno prikaže, zatem ko
+    je na končnem koraku učenja pritisnjen gumb 'Dobro'.
+deck-config-easy-interval-tooltip =
+    Število dni, po katerih se kartica ponovno prikaže, zatem ko
+    je pritisnjen gumb 'Dobro', s katerim se kartica takoj izloči iz postopka učenja.
 deck-config-new-insertion-order = Vrstni red vstavitve
 deck-config-new-insertion-order-sequential = Sekvencijsko (najstarejše kartice naprej)
 deck-config-new-insertion-order-random = Naključno
