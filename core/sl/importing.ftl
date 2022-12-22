@@ -111,6 +111,7 @@ importing-processed-cards =
         [few] Procesiranih kartic: { $count }
        *[other] Procesiranih kartic: { $count }
     }
+importing-unable-to-import-filename = Ni možno uvoziti { $filename }; vrsta datoteke ni podprta.
 importing-existing-notes = Obstoječi zapiski
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Podvoji

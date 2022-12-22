@@ -56,6 +56,15 @@ database-check-revlog-properties =
         [few] Popravljenih vnosov za ponavljanje z neveljavnimi lastnostmi: { $count }.
        *[other] Popravljenih vnosov za ponavljanje z neveljavnimi lastnostmi: { $count }.
     }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] Popravljenih zapiskov z neveljavnimi utf8 znaki: { $count }
+        [two] Popravljenih zapiskov z neveljavnimi utf8 znaki: { $count }
+        [few] Popravljenih zapiskov z neveljavnimi utf8 znaki: { $count }
+       *[other] Popravljenih zapiskov z neveljavnimi utf8 znaki: { $count }
+    }
+# "db-check" is always in English
+database-check-notetypes-recovered = Vsaj en tip zapiska manjka. Zapiski, ki so jih uporabljali, so dobili dodeljen nov tip zapiska, ki se pričenja z "db-check", toda imena polj in oblika kartice so bili izgubljeni. Predlagamo, da jih obnovite iz samodejne rezervne kopije.
 
 ## Progress info
 
