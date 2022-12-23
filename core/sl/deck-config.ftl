@@ -66,6 +66,10 @@ deck-config-easy-interval-tooltip =
     Število dni, po katerih se kartica ponovno prikaže, zatem ko
     je pritisnjen gumb 'Dobro', s katerim se kartica takoj izloči iz postopka učenja.
 deck-config-new-insertion-order = Vrstni red vstavitve
+deck-config-new-insertion-order-tooltip =
+    Nastavi pozicijo (rok #) novih kartic, ko jih dodajate.
+    Kartice z bližjim rokom bodo pri učenju prikazane najprej.
+    Sprememba te nastavitve bo samodejno posodobila obstoječo pozicijo novih kartic.
 deck-config-new-insertion-order-sequential = Sekvencijsko (najstarejše kartice naprej)
 deck-config-new-insertion-order-random = Naključno
 deck-config-new-insertion-order-random-with-v3 =
@@ -75,6 +79,15 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Koraki ponovnega učenja
+deck-config-relearning-steps-tooltip =
+    Nič ali več zamikov, ločenih s presledki. Privzeto bo pritisk na gumb 'Ponovno'
+    na ponovitveni kartici kartico prikazal čez 10 minut. Če ni določenih nobenih 
+    zamikov, bo kartici spremenjen interval, brez stanja ponovnega učenja. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Število potrebnih pritiskov na gumb 'Ponovno', preden je ponovitvena kartica
+    označena kot pijavka. Pijavke so kartice, ki vam jemljejo veliko časa pri ponavljanju.
+    Ko je kartica označena kot pijavka, bi jo bilo smiselno ponovno sestaviti, brisati
+    ali pa se domisliti mnemonične tehnike, ki vam bo pomagala pri zapomnitvi podatka.
 
 ## Burying section
 
