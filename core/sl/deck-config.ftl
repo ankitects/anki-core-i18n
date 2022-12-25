@@ -101,6 +101,13 @@ deck-config-bury-title = Zakopavanje
 deck-config-bury-new-siblings = Zakoplji nove sorodne kartice
 deck-config-bury-review-siblings = Zakoplji ponovitvene sorodne kartice
 deck-config-bury-interday-learning-siblings = Zakoplji sorodne kartice za učenje vnaprej
+deck-config-bury-new-tooltip =
+    Določi, ali bodo 'nove' kartice istega zapiska (npr. obratne kartice, kartice z zaporo besedila)
+    prestavljene do naslednjega dne.
+deck-config-bury-review-tooltip = Določa ali bodo kartice 'za ponovitev' istega zapiska prestavljene za en dan.
+deck-config-bury-interday-learning-tooltip =
+    Določa, ali bodo ostale kartice 'za učenje' istega zapiska z intarvali > 1 dan
+    prestavljene do naslednjega dne.
 
 ## Ordering section
 
@@ -119,6 +126,7 @@ deck-config-sort-order-template-then-gather = Tip kartice
 deck-config-sort-order-gather = Uredi zbrano
 deck-config-new-review-priority = Vrstni red nove/ponovitve
 deck-config-new-review-priority-tooltip = Kdaj naj se prikažejo nove kartice glede na ponovitvene kartice.
+deck-config-interday-step-priority = Vrstni red učenja/ponavljanja v istem dnevu
 deck-config-review-mix-mix-with-reviews = Pomešaj s ponovitvenimi
 deck-config-review-mix-show-after-reviews = Pokaži po ponovitvenih
 deck-config-review-mix-show-before-reviews = Pokaži pred ponovitvenimi
@@ -185,6 +193,7 @@ deck-config-clone-group = Kloniraj prednastavitev
 ## Removing
 
 deck-config-remove-group = Odstrani prednastavitev
+deck-config-confirm-remove-name = Odstranim { $name }?
 
 ## Other Buttons
 
@@ -199,6 +208,24 @@ deck-config-description-new-handling = Obdelava Anki 2.1.41+
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Nadrejena zbirka ima omejitev { $cards ->
+        [one] { $cards } kartice
+        [two] { $cards } kartic
+        [few] { $cards } kartic
+       *[other] { $cards } kartic
+    }, kar bo prepisalo to omejitev.
+deck-config-reviews-too-low =
+    Pri dodajanju { $cards ->
+        [one] { $cards } nove kartice vsak dan
+        [two] { $cards } novih kartic vsak dan
+        [few] { $cards } novih kartic vsak dan
+       *[other] { $cards } novih kartic vsak dan
+    } bi vaša omejitev ponovitev morala biti vsaj { $expected }.
+deck-config-learning-step-above-graduating-interval = Interval za dozoritev kartice bi moral biti vsaj tako dolg kot vaš zadnji učni korak.
+deck-config-good-above-easy = Interval za 'lahko' bi moral biti vsaj tako dolg kot interval za dozoritev.
+deck-config-relearning-steps-above-minimum-interval = Najmanjši interval za preskok bi moral biti vsaj tako dolg kot končni korak za ponovno učenje.
+deck-config-maximum-answer-secs-above-recommended = Anki vaše ponovitve lahko bolj učinkovito razporeja, kadar so vprašanja kratka.
 
 ## Selecting a deck
 

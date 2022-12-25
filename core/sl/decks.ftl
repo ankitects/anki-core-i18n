@@ -28,4 +28,5 @@ decks-repeat-failed-cards-after = Ponovi kartice po
 decks-reschedule-cards-based-on-my-answers = Prerazporedi kartice glede na moje odgovore v tem paketu
 decks-study = Študiraj
 decks-study-deck = Paket za učenje
+decks-filtered-deck-search-empty = Z iskalnim pogojem se ne ujema nobena kartica. Nekatere kartice so lahko izključene iz iskanja ker so v drugi filtrirani zbirki ali pa so suspendirane.
 decks-unmovable-cards = Pokaži izločene kartice

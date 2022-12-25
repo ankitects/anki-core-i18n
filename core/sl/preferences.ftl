@@ -30,3 +30,18 @@ preferences-timebox-time-limit = Časovna omejitev
 preferences-user-interface-size = Velikost uporabniškega vmesnika
 preferences-when-adding-default-to-current-deck = Med dodajanjem naj bo privzet trenutni paket
 preferences-you-can-restore-backups-via-fileswitch = Rezervne kopije lahko obnovite preko Datoteka>Zamenjaj profil.
+preferences-legacy-timezone-handling = Vgrajeno urejanje časovnega pasu (zatikajoče, vendar zahtevano za AnkiDroid <= 2.14)
+preferences-default-search-text = Privzet iskalni pojem
+preferences-default-search-text-example = npr. 'deck:current'
+preferences-theme-label = Tema: { $theme }
+preferences-theme-follow-system = Sledi sistemski
+preferences-theme-light = Svetla
+preferences-theme-dark = Temna
+preferences-v3-scheduler = Razporejevalnik V3
+preferences-ignore-accents-in-search = Spreglej naglase pri iskanju (počasnejše)
+preferences-backup-explanation =
+    Anki periodično varnostno kopira vašo kolekcijo. Ko so rezervne kopije starejše od 2 dni,
+    jih Anki samodejno odstranjuje za varčevanje s prostorom na disku.
+preferences-daily-backups = Obdrži toliko dnevnih rezervnih kopij:
+preferences-weekly-backups = Obdrži toliko tedenskih rezervnih kopij:
+preferences-monthly-backups = Obdrži toliko mesečnih rezervnih kopij:
