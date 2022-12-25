@@ -165,3 +165,17 @@ scheduling-set-due-date-prompt-hint =
     0 = danes
     1! = jutri + spremeni interval v 1
     3-7 = naključna izbira 3-7 dni
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Nastavi datum poteka za toliko kartic: { $cards }.
+        [two] Nastavi datum poteka za toliko kartic: { $cards }.
+        [few] Nastavi datum poteka za toliko kartic: { $cards }.
+       *[other] Nastavi datum poteka za toliko kartic: { $cards }.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Pozabljenih kartic: { $cards }.
+        [two] Pozabljenih kartic: { $cards }.
+        [few] Pozabljenih kartic: { $cards }.
+       *[other] Pozabljenih kartic: { $cards }.
+    }
