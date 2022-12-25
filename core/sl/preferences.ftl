@@ -45,3 +45,6 @@ preferences-backup-explanation =
 preferences-daily-backups = Obdrži toliko dnevnih rezervnih kopij:
 preferences-weekly-backups = Obdrži toliko tedenskih rezervnih kopij:
 preferences-monthly-backups = Obdrži toliko mesečnih rezervnih kopij:
+preferences-minutes-between-backups = Čas v minutah med samodejnim ustvarjanjem rezervne kopije:
+preferences-reduce-motion = Zmanjšaj premike
+preferences-reduce-motion-tooltip = Onemogoči animacije in prehode v uporabniškem vmesniku

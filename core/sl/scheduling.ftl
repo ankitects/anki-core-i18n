@@ -1,3 +1,20 @@
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
+scheduling-answer-button-time-seconds = { $amount }s
+scheduling-answer-button-time-minutes = { $amount }m
+scheduling-answer-button-time-hours = { $amount }h
+scheduling-answer-button-time-days = { $amount }dni
+scheduling-answer-button-time-months = { $amount }mes.
+scheduling-answer-button-time-years = { $amount }let
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
 scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } sekunda
@@ -40,6 +57,16 @@ scheduling-time-span-years =
         [few] { $amount } leti
        *[other] { $amount } leta
     }
+
+## Shown in the "Congratulations!" message after study finishes.
+
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Za kasneje danes ostaja še ena kartica za učenje.
+        [two] Za kasneje danes ostajata še { $remaining } kartici za učenje.
+        [few] Za kasneje danes ostajajo še { $remaining } kartice za učenje.
+       *[other] Za kasneje danes ostaja še { $remaining } kartic za učenje.
+    }
 scheduling-congratulations-finished = Čestitam! S tem paketom ste za sedaj zaključili.
 scheduling-today-review-limit-reached =
     Današnja meja pregledov je bila dosežena, vendar še vedno ostajajo
@@ -49,17 +76,47 @@ scheduling-today-new-limit-reached =
     Na voljo je še več novih kartic, vendar ste že dosegli dnevno
     mejo. Lahko povišate mejo, toda upoštevajte, da s tem ko povečate
     število kartic, bolj obremenite kratkoročni pregled.
+scheduling-buried-cards-found = Ena ali več kartic ste zakopali in bodo prikazane jutri. Lahko jih { $unburyThem }, če jih želite videti takoj.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = odkopljete
+scheduling-how-to-custom-study = Če želite nadaljevati z učenjem izven rednega urnika, lahko uporabite funkcijo { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = učenje po meri
+
+## Scheduler upgrade
+
+scheduling-update-soon = Anki 2.1 ima nov razporejevalnik, ki popravlja številne težave, ki so jih imele predhodne različice. Posodobitev na to verzijo je priporočljiva.
+scheduling-update-done = Razporejevalnik je bil uspešno posodobljen.
+scheduling-update-button = Posodobi
+scheduling-update-later-button = Kasneje
+scheduling-update-more-info-button = Izvedite več
+scheduling-update-required =
+    Vašo kolekcijo moramo posodobiti na razporejevalnik V2.
+    Prosimo, izberite { scheduling-update-more-info-button } pred nadaljevanjem.
+
+## Other scheduling strings
+
+scheduling-always-include-question-side-when-replaying = Pri predvajanju zvoka vedno vključite tudi stran z vprašanjem.
 scheduling-at-least-one-step-is-required = Zahtevan je vsaj en korak.
 scheduling-automatically-play-audio = Samodejno predvajaj zvok
+scheduling-bury-related-new-cards-until-the = Zakoplji sorodne nove kartice do naslednjega dne
+scheduling-bury-related-reviews-until-the-next = Zakoplji sorodne ponovitvene kartice do naslednjega dne
 scheduling-days = dni
 scheduling-description = Opis
 scheduling-easy-bonus = Dodatek za lahke
 scheduling-easy-interval = Enostaven interval
+scheduling-end = (konec)
 scheduling-general = Splošno
 scheduling-graduating-interval = Interval napredovanja
+scheduling-hard-interval = Težak interval
 scheduling-ignore-answer-times-longer-than = Spreglej odgovore, za katere je bilo porabljeno več kot
 scheduling-interval-modifier = Modifikator intervala
+scheduling-lapses = Spodrsljaji
 scheduling-lapses2 = spodrsljaji
+scheduling-learning = Učenje
+scheduling-leech-action = Akcija za pijavke
 scheduling-leech-threshold = Prag pijavk
 scheduling-maximum-interval = Največji interval
 scheduling-maximum-reviewsday = Maksimum ponovitev/dan
@@ -72,6 +129,10 @@ scheduling-new-options-group-name = Novo ime zbirke opcij:
 scheduling-options-group = Skupina možnosti:
 scheduling-order = Vrstni red
 scheduling-parent-limit = (omejitev nadrejenega: { $val })
+scheduling-reset-counts = Ponastavi števce ponovitev in spodrsljajev
+scheduling-restore-position = Kjer je možno, ponastavi originalne pozicije
+scheduling-review = Pregled
+scheduling-reviews = Pregledi
 scheduling-seconds = sekund
 scheduling-set-all-decks-below-to = Nastavim vse pakete pod { $val } za to skupino možnosti?
 scheduling-set-for-all-subdecks = Nastavi za vse podrejene pakete
@@ -85,9 +146,11 @@ scheduling-steps-in-minutes = Koraki (v minutah)
 scheduling-steps-must-be-numbers = Koraki morajo biti številke.
 scheduling-tag-only = Samo oznaka
 scheduling-the-default-configuration-cant-be-removed = Privzeta konfiguracija ne možno odstraniti.
-scheduling-deck-updated = { $count ->
-    [one] { $count } paketov posodobljenih.
-    [two] { $count } paket posodobljen.
-    [few] { $count } paketa posodobljena.
-   *[other] { $count } paketov posodobljenih.
-  }
+scheduling-your-changes-will-affect-multiple-decks = Vaše spremembe bodo vplivale na več zbirk. Če želite spreminjati le obstoječo zbirko, najprej dodajte skupino novih možnosti.
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } paketov posodobljenih.
+        [two] { $count } paket posodobljen.
+        [few] { $count } paketa posodobljena.
+       *[other] { $count } paketov posodobljenih.
+    }
