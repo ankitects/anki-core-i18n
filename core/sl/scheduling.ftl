@@ -154,3 +154,14 @@ scheduling-deck-updated =
         [few] { $count } paketa posodobljena.
        *[other] { $count } paketov posodobljenih.
     }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] V koliko dneh pokažem kartico?
+        [two] V koliko dneh pokažem kartici?
+        [few] V koliko dneh pokažem kartice?
+       *[other] V koliko dneh pokažem kartice?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = danes
+    1! = jutri + spremeni interval v 1
+    3-7 = naključna izbira 3-7 dni
