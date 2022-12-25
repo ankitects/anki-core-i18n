@@ -88,6 +88,12 @@ deck-config-leech-threshold-tooltip =
     označena kot pijavka. Pijavke so kartice, ki vam jemljejo veliko časa pri ponavljanju.
     Ko je kartica označena kot pijavka, bi jo bilo smiselno ponovno sestaviti, brisati
     ali pa se domisliti mnemonične tehnike, ki vam bo pomagala pri zapomnitvi podatka.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    'Samo označene': Dodaj oznako "pijavka" zapisku in prikaži pojavno okno.
+    
+    'Suspendiraj kartico': Poleg dodajanja oznake skrij kartico dokler ni ročno
+    odstranjena iz suspendiranih.
 
 ## Burying section
 
