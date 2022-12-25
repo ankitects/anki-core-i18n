@@ -7,7 +7,7 @@ scheduling-answer-button-time-seconds = { $amount }s
 scheduling-answer-button-time-minutes = { $amount }min(s)
 scheduling-answer-button-time-hours = { $amount }h
 scheduling-answer-button-time-days = { $amount }dia(s)
-scheduling-answer-button-time-months = { $amount }mês(meses)
+scheduling-answer-button-time-months = { $amount }mês(es)
 scheduling-answer-button-time-years = { $amount }a
 
 ## A span of time, such as the delay until a card is shown again, the
