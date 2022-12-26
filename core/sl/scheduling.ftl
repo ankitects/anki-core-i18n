@@ -60,6 +60,25 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    Naslednja kartica za učenje bo pripravljena v { $unit ->
+        [seconds]
+            { $amount ->
+                [one] { $amount } skundi
+               *[other] { $amount } sekundah
+            }
+        [minutes]
+            { $amount ->
+                [one] { $amount } minuti
+               *[other] { $amount } minutah
+            }
+       *[hours]
+            { $amount ->
+                [one] { $amount } uri
+               *[other] { $amount } urah
+            }
+    }.
 scheduling-learn-remaining =
     { $remaining ->
         [one] Za kasneje danes ostaja še ena kartica za učenje.

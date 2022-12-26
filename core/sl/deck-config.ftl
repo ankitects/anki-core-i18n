@@ -136,6 +136,25 @@ deck-config-new-gather-priority-position-highest-first = Pojemajoče
 deck-config-new-gather-priority-random-notes = Naključni zapiski
 deck-config-new-gather-priority-random-cards = Naključne kartice
 deck-config-new-card-sort-order = Vrstni red novih kartic
+deck-config-new-card-sort-order-tooltip-2 =
+    'Tip kartice': Prikaže kartice po vrstnem redu tipa kartice. Če je zakopavanje sorodnih kartic
+    izklopljeno, bo to zagotovilo, da bodo vse spredaj-zadaj kartice vidne pred zadaj-spredaj 
+    karticami. To je uporabno, kadar želite vse kartice enega zapiska videti v istem pregledu,
+    toda ne preveč blizu ene drugi.
+    
+    'Uredi kot zbrano': Pokaže kartice kot so bile zbrane. Če je zakopavanje sorodnih kartic
+    izklopljeno, bo to običajno povzročilo, da bodo vse kartice istega zapiska prikazane ena
+    za drugo.
+    
+    'Po tipu kartice, nato naključno': Podobno kot 'Tip kartice', ampak pomeša vse kartice
+    posameznega tipa kartice. Če uporabite 'Naraščajoča pozicija' za združevanje najstarejših
+    kartic, lahko to nastavitev uporabite da te kartice prikažete v naključnem vrstnem redu, toda
+    še vedno zagotovite, da se kartice istega zapiska ne pojavijo preveč skupaj.
+    
+    'Naključni zapisek, nato po tipu kartice': Izbere naključne zapiske, nato pa pokaže vse sorodne
+    v vrstnem redu tipa kartice.
+    
+    'Naključno': vse zbrane kartice pomeša naključno.
 deck-config-sort-order-card-template-then-random = Najprej tip kartice, nato naključno
 deck-config-sort-order-random-note-then-template = Naključen zapisek, nato tip kartice
 deck-config-sort-order-random = Naključno
@@ -144,10 +163,21 @@ deck-config-sort-order-gather = Uredi zbrano
 deck-config-new-review-priority = Vrstni red nove/ponovitve
 deck-config-new-review-priority-tooltip = Kdaj naj se prikažejo nove kartice glede na ponovitvene kartice.
 deck-config-interday-step-priority = Vrstni red učenja/ponavljanja v istem dnevu
+deck-config-interday-step-priority-tooltip =
+    Čas, ko prikažemo kartice za (ponovno) učenje, ki presegajo dnevno mejo.
+    
+    Omejitev za preglede vedno najprej velja za kartice, ki so na vrsti za učenje določen dan,
+    nato sledijo ponavljalne kartice. Ta možnost določa vrstni red prikaza zbranih kartic,
+    toda kartice za določen dan bodo vedno zbrane najprej.
 deck-config-review-mix-mix-with-reviews = Pomešaj s ponovitvenimi
 deck-config-review-mix-show-after-reviews = Pokaži po ponovitvenih
 deck-config-review-mix-show-before-reviews = Pokaži pred ponovitvenimi
 deck-config-review-sort-order = Vrstni red ponovitvenih
+deck-config-review-sort-order-tooltip =
+    Privzet vrstni red da prednost kartica, ki čakajo najdlje; če imate vklopljen dnevnik
+    pregledov, bodo najdlje čakajoče vidne najprej. Če imate zelo velik dnevnik, za katerega
+    bi potrebovali več dni, da ga pregledate, ali pa želite videti kartice v vrstnem redu
+    podrejenih zbirk, vam bo morda v pomoč druga možnost razporejanja.
 deck-config-sort-order-due-date-then-random = Po roku zapadlosti, nato naključno
 deck-config-sort-order-due-date-then-deck = Po roku zapadlosti, nato po zbirki
 deck-config-sort-order-deck-then-due-date = Po zbirki, nato po roku zapadlosti
@@ -164,6 +194,11 @@ deck-config-display-order-will-use-current-deck =
 
 deck-config-timer-title = Časovnik
 deck-config-maximum-answer-secs = Omejitev odgovora v sekundah
+deck-config-maximum-answer-secs-tooltip =
+    Največje število sekund za posamezen pregled kartice. Če odgovor presega
+    to število (ker npr. niste bili pred ekranom v tem času), bo potreben čas
+    nastavljen kot omejitev.
+deck-config-show-answer-timer-tooltip = V oknu za pregled prikaži časovnik, ki šteje, koliko sekund pregledujete vsako kartico.
 
 ## Audio section
 
@@ -210,6 +245,10 @@ deck-config-clone-group = Kloniraj prednastavitev
 ## Removing
 
 deck-config-remove-group = Odstrani prednastavitev
+deck-config-will-require-full-sync =
+    Zahtevana sprememba mora biti izvedena z enosmerno sinhronizacijo. Če ste
+    spremembe naredili na drugi napravi, in jih s to napravo še niste sinhronizirali,
+    vas prosimo, da to storite, preden nadaljujete.
 deck-config-confirm-remove-name = Odstranim { $name }?
 
 ## Other Buttons
@@ -222,6 +261,10 @@ deck-config-revert-button-tooltip = To nastavitev povrni na privzeto vrednost.
 ## overview screen.
 
 deck-config-description-new-handling = Obdelava Anki 2.1.41+
+deck-config-description-new-handling-hint =
+    Vnos obravnava kot 'markdown' in očisti vnos HTML značk. Kadar je ta možnost
+    omogočena, bo opis viden na zaslonu za čestitke.
+    Markdown je kot besedilo vidno v Ankiju 2.1.40 in nižje.
 
 ## Warnings shown to the user
 
