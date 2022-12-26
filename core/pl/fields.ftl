@@ -10,6 +10,7 @@ fields-font = Czcionka:
 fields-new-position-1 = Nowa pozycja (1...{ $val }):
 fields-notes-require-at-least-one-field = W notatce wymagane jest przynajmniej jedno pole.
 fields-reverse-text-direction-rtl = Odwrotny kierunek tekstu (RTL)
+fields-html-by-default = Domyślnie używaj edytora HTML
 fields-size = Rozmiar:
 fields-sort-by-this-field-in-the = Sortuj w przeglądarce według tego pola
 fields-that-field-name-is-already-used = Ta nazwa pola jest już używana.

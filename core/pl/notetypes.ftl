@@ -1,3 +1,5 @@
+notetypes-notetype = Typ notatki
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Przód

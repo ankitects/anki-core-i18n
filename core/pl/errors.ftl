@@ -11,6 +11,8 @@ errors-multiple-notetypes-selected = Wybierze notatki z tylko jednego typu notat
 errors-please-check-database = Użyj opcji Sprawdź bazę danych i spróbuj ponownie.
 errors-please-check-media = Użyj opcji Sprawdź pliki i spróbuj ponownie.
 errors-collection-too-new = By otworzyć tę kolekcję potrzebujesz nowszej wersji Anki.
+errors-invalid-ids = Talia zawiera daty z przyszłości. Skontaktuj się z autorem i poproś o naprawienie tego.
+errors-inconsistent-db-state = Baza danych jest niespójna. Użyj funkcji Sprawdź bazę danych.
 
 ## Card Rendering
 

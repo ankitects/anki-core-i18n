@@ -1,4 +1,3 @@
-importing-failed = Importowanie nie powiodło się.
 importing-failed-debug-info = Importowanie nie powiodło się. Informacja diagnostyczna:
 importing-aborted = Przerwane: { $val }
 importing-added-duplicate-with-first-field = Dodano duplikat z pierwszym polem: { $val }
@@ -11,6 +10,7 @@ importing-change = Zmień
 importing-colon = Dwukropek
 importing-comma = Przecinek
 importing-empty-first-field = Puste pierwsze pole: { $val }
+importing-field-separator = Separator pól
 importing-field-mapping = Odwzorowanie pól
 importing-field-of-file-is = Pole <b>{ $val }</b> z pliku jest:
 importing-fields-separated-by = Pola oddzielone o: { $val }
@@ -37,6 +37,8 @@ importing-notes-that-could-not-be-imported = Notatki niezaimportowane, gdyż zmi
 importing-notes-updated-as-file-had-newer = Notatki zaktualizowane nowszą wersją z pliku: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Spakowana kolekcja/talia Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lekcja Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Kreska pionowa
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ma { $found } pól, oczekiwano { $expected }
 importing-selected-file-was-not-in-utf8 = Wybrany plik nie używa kodowania UTF-8. Przeczytaj rozdział o imporcie w instrukcji
 importing-semicolon = Średnik
@@ -83,3 +85,19 @@ importing-processed-media-file =
         [few] Przetworzono { $count } pliki
        *[other] Przetworzono { $count } plików
     }
+importing-importing-collection = Import kolekcji...
+importing-importing-file = Import pliku...
+importing-extracting = Znajdowanie danych...
+importing-gathering = Zbieranie danych...
+importing-failed-to-import-media-file = Nie udało się zaimportować pliku: { $debugInfo }
+importing-unable-to-import-filename = Nie udało się zaimportować { $filename }: ten typ pliku nie jest obsługiwany
+importing-existing-notes = Istniejące notatki
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplikuj
+# "Existing notes: Preserve" (verb)
+importing-preserve = Nie zmieniaj
+# "Existing notes: Update" (verb)
+importing-update = Uaktualnij
+importing-tag-all-notes = Nadaj etykietę wszystkim notatkom
+importing-tag-updated-notes = Nadaj etykietę uaktualnionym notatkom
+importing-file = Plik

@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Zwiększenie dzisiejszego limitu n
 custom-study-increase-todays-new-card-limit-by = Zwiększ dzisiejszy limit nowych kart o
 custom-study-increase-todays-review-card-limit = Zwiększenie dzisiejszego limitu przejrzanych kart
 custom-study-increase-todays-review-limit-by = Zwiększ dzisiejszy limit przejrzanych kart o
-custom-study-new-cards-in-deck-over-today = Liczba nowych kart w talii ponad dzisiejszy limit: { $val }
 custom-study-new-cards-only = Tylko nowe karty
 custom-study-no-cards-matched-the-criteria-you = Żadne karty nie odpowiadają podanym kryteriom.
 custom-study-ok = OK
@@ -21,8 +20,15 @@ custom-study-review-ahead = Powtórka z wyprzedzeniem
 custom-study-review-ahead-by = Powtórz z wyprzedzeniem o
 custom-study-review-cards-forgotten-in-last = Powtórz karty zapomniane przez ostatnie
 custom-study-review-forgotten-cards = Powtórka zapomnianych kart
-custom-study-reviews-due-in-deck-over-today = Oczekujące powtórki w talii ponad dzisiejszy limit: { $val }
 custom-study-select = Wybierz
 custom-study-select-tags-to-exclude = Wybierz etykiety do wykluczenia:
 custom-study-selective-study = Selektywna nauka
 custom-study-study-by-card-state-or-tag = Powtórka według stanu karty lub etykiety
+custom-study-available-new-cards-2 = Dostępne nowe karty: { $countString }
+custom-study-available-review-cards-2 = Dostępne karty do powtórki: { $countString }
+custom-study-available-child-count = ({ $count } w podtaliach)
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-available-new-cards = Dostępne nowe karty: { $count }
+custom-study-available-review-cards = Dostępne karty do powtórki: { $count }

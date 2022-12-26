@@ -12,10 +12,17 @@ browsing-browser-appearance = Wygląd w przeglądarce
 browsing-browser-options = Opcje przeglądarki
 browsing-buried = Zakopane
 browsing-card = Karta
+browsing-cards = Karty
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = K
 browsing-card-list = Lista kart
 browsing-cards-cant-be-manually-moved-into = Karty nie mogą być przeniesione ręcznie do talii filtrowanej.
+browsing-cards-deleted =
+    { $count ->
+        [one] Usunięto { $count } kartę.
+        [few] Usunięto { $count } karty.
+       *[other] Usunięto { $count } kart.
+    }
 browsing-change-deck = Zmień talię
 browsing-change-deck2 = Zmień talię...
 browsing-change-note-type = Zmień typ notatki
@@ -54,6 +61,7 @@ browsing-new-note-type = Nowy typ notatki:
 browsing-no-flag = Brak flagi
 browsing-no-selection = Nie wybrano kart ani notatek.
 browsing-note = Notatka
+browsing-notes = Notatki
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
 browsing-optional-filter = Opcjonalny filtr:

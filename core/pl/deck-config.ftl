@@ -20,6 +20,17 @@ deck-config-title = Opcje talii
 deck-config-daily-limits = Dzienne limity
 deck-config-new-limit-tooltip = Maksymalna liczba nowych kart do pokazania na dzień. Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy, powinno to być co najmniej 10 razy mniej niż limit powtórek.
 deck-config-review-limit-tooltip = Maksymalna dzienna liczba powtórek.
+deck-config-tab-description =
+    - `Opcje`: Ten limit jest wspólny dla wszystkich talii używających tych opcji.
+    - `Ta talia`: Ten limit dotyczy jedynie tej talii.
+    - `Tylko dziś`: Tymczasowa zmiana limitu talii.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = Opcje
+deck-config-deck-only = Ta talia
+deck-config-today-only = Tylko dziś
 
 ## New Cards section
 
@@ -41,7 +52,6 @@ deck-config-relearning-steps = Kroki ponownej nauki
 deck-config-bury-title = Zakopywanie
 deck-config-bury-new-siblings = Zakop nowe podobne do następnego dnia
 deck-config-bury-review-siblings = Zakop przeglądane podobne do następnego dnia
-deck-config-bury-tooltip = Ta opcja kontroluje, czy karty z tej samej notatki (np. karty odwrotne lub sąsiadujące luki) zostaną odłożone do następnego dnia.
 
 ## Ordering section
 
@@ -96,10 +106,14 @@ deck-config-custom-scheduling = Własne planowanie
 
 ## Adding/renaming
 
+deck-config-add-group = Dodaj opcje
 deck-config-name-prompt = Nazwa
+deck-config-rename-group = Zmień nazwę opcji
+deck-config-clone-group = Klonuj opcje
 
 ## Removing
 
+deck-config-remove-group = Usuń opcje
 deck-config-confirm-remove-name = Usunąć { $name }?
 
 ## Other Buttons
@@ -111,6 +125,7 @@ deck-config-revert-button-tooltip = Przywróć to ustawienie do domyślnej warto
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Obsługa Anki 2.1.41+
 
 ## Warnings shown to the user
 
@@ -120,6 +135,7 @@ deck-config-reviews-too-low =
         [few] { $cards } karty dziennie
        *[other] { $cards } kart dziennie
     }, twój limit powinien wynosić przynajmniej { $expected }.
+deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie planować powtórki tylko pod warunkiem, że będziesz ustawiać krótkie pytania.
 
 ## Selecting a deck
 
