@@ -17,6 +17,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Kartice bodo samodejno vrnjene v izvirne pakete, ko jih boste pregledali.
 studying-continue = Nadaljuj
+studying-counts-differ = Štetje se razlikuje od štetja na seznamu zbirk, ker je omogočeno zakopavanje kartic. Nekatere kartice so bile izpuščene oz. so njihovo mesto zasedle druge kartice.
 studying-delete-note = Izbriši zapisek
 studying-deleting-this-deck-from-the-deck = Izbris tega paketa iz seznama paketov bo vrnil vse preostale kartice v njihove izvorne pakete.
 studying-easy = Enostavno

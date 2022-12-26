@@ -113,6 +113,23 @@ deck-config-bury-interday-learning-tooltip =
 
 deck-config-ordering-title = Vrstni red prikaza
 deck-config-new-gather-priority = Vrstni red zbiranja novih kartic
+deck-config-new-gather-priority-tooltip-2 =
+    'Zbirka': združuje kartice iz vsake zbirke v vrstnem redu, ki se začne pri vrhu. Kartice iz vsake zbirke so
+    zbrane v naraščajočem vrstnem redu (poziciji). Če je dosežen dnevni limit izbrane zbirke, se združevanje lahko
+    zaključi, še preden so bile pregledane vse zbirke. Tak vrstni red je najhitrejši v velikih kolekcijah in vam 
+    omogoča prioritiziranje podrejenih zbirk, ki so bolj pri vrhu.
+    
+    'Naraščajoča pozicija': združuje kartice po naraščajoči poziciji (# poteka), kar v praksi pomeni
+    najprej najstarejše dodane.
+    
+    'Padajoča pozicija': združuje kartice po padajoči poziciji (# poteka), kar v praksi pomeni
+    najprej zadnje dodane.
+    
+    'Naključni zapiski': združi kartice iz naklučno izbranih zapiskov. Kadar je zakopavanje sorodnih
+    izklopljeno, vam to omogoča prikaz vseh kartic enega zapiska znotraj enega pregleda (npr. obe,
+    spredaj->zadaj in zadaj->spredaj kartici).
+    
+    'Naključne kartice': združi popolnoma naključne kartice.
 deck-config-new-gather-priority-deck = Zbirka
 deck-config-new-gather-priority-position-lowest-first = Naraščajoče
 deck-config-new-gather-priority-position-highest-first = Pojemajoče
