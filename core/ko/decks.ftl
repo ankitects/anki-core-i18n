@@ -28,3 +28,5 @@ decks-repeat-failed-cards-after = 학습 실패한 카드를 다음에 반복하
 decks-reschedule-cards-based-on-my-answers = 이 뭉치에서 선택한 답 버튼에 기반하여 카드 일정 조정
 decks-study = 공부
 decks-study-deck = 공부할 뭉치
+decks-filtered-deck-search-empty = 검색어와 일치하는 카드가 없습니다. 일부 카드는 필터링된 다른 덱에 있거나 숨겨졌기 때문에 제외되었을 수 있습니다.
+decks-unmovable-cards = 제외된 카드도 표시

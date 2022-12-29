@@ -180,34 +180,95 @@ deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
 deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
 deck-config-sort-order-ascending-ease = ease 오름차순
 deck-config-sort-order-descending-ease = ease 내림차순
+deck-config-sort-order-relative-overdueness = 늦은 정도의 상대값
+deck-config-display-order-will-use-current-deck =
+    Anki는 하위 덱이 아닌 사용자가
+    학습할 덱의 표시 순서를 사용합니다.
 
 ## Timer section
 
+deck-config-timer-title = 타이머
+deck-config-maximum-answer-secs = 답할 최대 시간
+deck-config-maximum-answer-secs-tooltip =
+    한 카드를 학습할 때 주어진 최대 시간(초)입니다.
+    잠시 쉬느라 응답하는 데 시간을 넘겼다면,
+    소요 시간은 설정된 최대치로 기록됩니다.
+deck-config-show-answer-timer-tooltip = 학습할 때 각 카드마다 걸리는 시간(초)을 기록하는 타이머를 표시합니다.
 
 ## Audio section
 
+deck-config-audio-title = 오디오
+deck-config-disable-autoplay = 오디오 자동 재생 끄기
+deck-config-disable-autoplay-tooltip =
+    활성화하면 Anki가 오디오를 자동으로 재생하지 않습니다.
+    오디오 아이콘을 클릭/탭하거나 오디오 재생 동작으로 수동으로 재생할 수 있습니다.
+deck-config-skip-question-when-replaying = 답변 재생할 때 질문 건너뛰기
+deck-config-always-include-question-audio-tooltip = 카드의 답을 확인하면서 재생 동작을 사용할 때 질문 오디오도 재생해야 하는지를 나타냅니다.
 
 ## Advanced section
 
+deck-config-advanced-title = 고급
+deck-config-maximum-interval-tooltip =
+    복습 카드가 기다릴 최대 일수입니다. 복습의 한계에 다다르면
+    `어려움`, `알맞음`, `쉬움` 어느 것이든 동일한 지연이 발생합니다.
+    짧게 설정할수록 공부량이 늘어납니다.
+deck-config-starting-ease-tooltip =
+    새 카드가 처음에 가질 ease 승수입니다. 기본적으로 새로운 카드에 `알맞음`
+    버튼을 눌렀다면 직전 지연의 2.5배로 늘려 다음 학습 시기를 결정합니다.
+deck-config-easy-bonus-tooltip = 카드를 '쉬움'으로 평가할 때 복습 카드의 주기에 적용되는 추가적인 승수입니다.
+deck-config-interval-modifier-tooltip =
+    이 승수는 모든 학습에 적용되며, 조금씩 바꾸면 Anki의 일정이
+    느슨하게 또는 빡빡하게 조정될 수 있습니다. 이 옵션을
+    변경하기 전에 설명서를 참조하시기 바랍니다.
+deck-config-hard-interval-tooltip = 카드를 '어려움'으로 평가할 때 복습 카드의 주기에 적용되는 승수입니다.
+deck-config-new-interval-tooltip = 카드를 '다시'로 평가할 때 복습 카드의 주기에 적용되는 승수입니다.
+deck-config-minimum-interval-tooltip = 카드를 '다시'로 평가할 때 복습 카드에 적용할 최소한의 주기입니다.
+deck-config-custom-scheduling = 사용자 정의 스케줄링
+deck-config-custom-scheduling-tooltip = 컬렉션 전체에 영향을 미칩니다. 위험을 인지하고 사용하시기 바랍니다!
 
 ## Adding/renaming
 
+deck-config-add-group = 사전 설정 추가
+deck-config-name-prompt = 이름
+deck-config-rename-group = 사전 설정 이름 변경
+deck-config-clone-group = 사전 설정 복제
 
 ## Removing
 
+deck-config-remove-group = 사전 설정 제거
+deck-config-will-require-full-sync =
+    요청한 변경 사항을 적용하려면 단방향 동기화가 필요합니다. 다른 장치에서
+    변경한 내용을 이 장치에 아직 동기화하지 않은 경우, 계속하기 전에
+    먼저 동기화를 하시기 바랍니다.
+deck-config-confirm-remove-name = { $name }를 제거하시겠습니까?
 
 ## Other Buttons
 
+deck-config-save-button = 저장
+deck-config-save-to-all-subdecks = 모든 하위 덱에 저장
+deck-config-revert-button-tooltip = 이 설정을 기본값으로 복원
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ 다루기
+deck-config-description-new-handling-hint =
+    입력을 마크다운으로 처리하고 HTML 입력을 정리합니다. 활성화하면
+    설명이 축하 화면에도 나타납니다.
+    Anki 2.1.40 이하에서 마크다운은 텍스트로 보입니다.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped = 상위 덱이 { $cards }개로 이 최대치를 넘어섭니다.
+deck-config-reviews-too-low = 만약 매일 새로운 카드 { $cards }개를 추가한다면, 복습 최대치는 적어도 { $expected }개가 되어야 합니다.
+deck-config-learning-step-above-graduating-interval = 졸업 주기는 적어도 최종 학습 간격만큼은 되어야 합니다.
+deck-config-good-above-easy = 쉬움 주기는 적어도 졸업 주기만큼은 되어야 합니다.
+deck-config-relearning-steps-above-minimum-interval = 최소 반복 주기는 적어도 최종 복습 간격만큼은 되어야 합니다.
+deck-config-maximum-answer-secs-above-recommended = Anki는 각 질문이 짧을수록 리뷰 일정을 더 효율적으로 잡을 수 있습니다.
 
 ## Selecting a deck
 
+deck-config-which-deck = 어떤 덱을 고르시겠습니까?
 
 ## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
 
