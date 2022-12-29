@@ -18,7 +18,12 @@ card-templates-add-mobile-class = 모바일 클래스 추가
 card-templates-preview-settings = 옵션
 card-templates-invalid-template-number = '{ $notetype }' 노트 타입의 { $number }번 카드 템플릿에 문제가 있습니다.
 card-templates-identical-front = 앞면이 { $number }번 카드 템플릿과 동일합니다.
+card-templates-no-front-field = 카드 템플릿의 앞면에 교체 필드가 없습니다.
+card-templates-missing-cloze = 카드 템플릿의 앞면과 뒷면에 '{ "{{" }cloze:Text{ "}}" }' 등이 없습니다.
+card-templates-extraneous-cloze = 'cloze:'는 빈칸 채우기 유형의 노트에서만 쓸 수 있습니다.
+card-templates-see-preview = 자세한 내용은 미리 보기를 참고하시기 바랍니다.
 card-templates-changes-saved = 변경 사항이 저장됨.
+card-templates-discard-changes = 변경 사항을 취소하시겠습니까?
 card-templates-add-card-type = 카드 형 추가...
 card-templates-anki-couldnt-find-the-line-between = 질문과 답을 구분하는 선을 찾을 수 없습니다. 서식을 수동으로 수정해서 질문과 답을 바꾸세요.
 card-templates-at-least-one-card-type-is = 최소한 하나의 카드 유형이 필요합니다.
@@ -45,3 +50,4 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] 이는 { $count }개의 카드를 만들 것입니다. 진행할까요?
     }
+card-templates-type-boxes-warning = 카드 템플릿당 입력 상자는 하나만 넣을 수 있습니다.
