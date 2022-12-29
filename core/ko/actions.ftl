@@ -6,7 +6,7 @@ actions-choose = 선택
 actions-close = 닫기
 actions-copy = 복사하기
 actions-create-copy = 사본 만들기
-actions-custom-study = 맞춤형 공부
+actions-custom-study = 맞춤 스터디
 actions-decks = 덱
 actions-decrement-value = 값 감소
 actions-delete = 삭제
@@ -55,7 +55,7 @@ actions-previous-card-info = 이전 카드 정보
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = 귀하의 시스템에서 아직 지원하지 않는 작동입니다.
+actions-currently-unsupported = 귀하의 시스템에서 아직 지원하지 않는 동작입니다.
 
 ## Flags
 
@@ -64,7 +64,7 @@ actions-flag-red = 빨강
 actions-flag-orange = 주황
 actions-flag-green = 초록
 actions-flag-blue = 파랑
-actions-flag-pink = 핑크
+actions-flag-pink = 분홍
 actions-flag-turquoise = 청록
 actions-flag-purple = 보라
 actions-set-flag = 플래그 설정
