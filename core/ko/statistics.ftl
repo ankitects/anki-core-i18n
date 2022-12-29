@@ -27,14 +27,14 @@ statistics-reviews = { $reviews }복습
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    공부 { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } 오늘({ $secs-per-card }s/card)
+    오늘은 카드 { statistics-cards }개를 { $unit ->
+        [seconds] { statistics-in-time-span-seconds }초
+        [minutes] { statistics-in-time-span-minutes }분
+        [hours] { statistics-in-time-span-hours }시간
+        [days] { statistics-in-time-span-days }일
+        [months] { statistics-in-time-span-months }월
+       *[years] { statistics-in-time-span-years }년
+    }만에 공부했습니다. (카드당 { $secs-per-card }초)
 statistics-today-title = 오늘
 statistics-today-again-count = '다시' 버튼 누른 횟수:
 statistics-today-type-counts = 학습: { $learnCount }, 복습: { $reviewCount }, 재학습: { $relearnCount }, 필터됨:{ $filteredCount }
@@ -55,7 +55,7 @@ statistics-counts-separate-suspended-buried-cards = 숨긴/미룬 카드 분리�
 statistics-range-all-time = 전체
 statistics-range-1-year-history = 최근 12달간
 statistics-range-all-history = 모든 기록
-statistics-range-deck = 뭉치
+statistics-range-deck = 덱
 statistics-range-collection = 컬렉션
 statistics-range-search = 찾기
 statistics-card-ease-title = 카드 ease

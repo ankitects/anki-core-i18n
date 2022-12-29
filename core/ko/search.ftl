@@ -23,6 +23,10 @@ search-invalid-other = 오타가 있는지 확인해주세요.
 ## eg. expected a number in "due>5x", but found "5x"
 
 search-invalid-number = "`{ $context }`"에서 숫자를 예상했지만 "`{ $provided }`"을 찾았습니다.
+search-invalid-whole-number = "`{ $context }`"에서 범자연수를 예상했지만 "`{ $provided }`"을 찾았습니다.
+search-invalid-positive-whole-number = "`{ $context }`"에서 양수를 예상했지만 "`{ $provided }`"을 찾았습니다.
+search-invalid-negative-whole-number = "`{ $context }`"에서 0을 포함한 음수를 예상했지만 "`{ $provided }`"을 찾았습니다.
+search-invalid-answer-button = "`{ $context }`"에서 1~4 사이의 답변 버튼을 예상했지만 "`{ $provided }`"을 찾았습니다.
 
 ## Column labels in browse screen
 

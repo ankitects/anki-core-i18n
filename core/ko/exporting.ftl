@@ -1,7 +1,7 @@
-exporting-all-decks = 모든 뭉치
-exporting-anki-20-deck = Anki 2.0 뭉치
+exporting-all-decks = 모든 덱
+exporting-anki-20-deck = Anki 2.0 덱
 exporting-anki-collection-package = Anki 컬렉션 패키지
-exporting-anki-deck-package = Anki 뭉치 꾸러미
+exporting-anki-deck-package = Anki 덱 패키지
 exporting-cards-in-plain-text = 텍스트 파일로 정리한 카드
 exporting-collection = 컬렉션
 exporting-collection-exported = 컬렉션 내보내기 완료.

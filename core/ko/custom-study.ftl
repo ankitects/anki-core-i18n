@@ -2,7 +2,7 @@ custom-study-must-rename-deck = 기존 맞춤 스터디 덱의 이름을 먼저 
 custom-study-all-cards-in-random-order-dont = 무작위 순서의 모든 카드
 custom-study-all-review-cards-in-random-order = 모든 복습 카드를 무작위 순서로
 custom-study-cards = 카드
-custom-study-cards-from-the-deck = 뭉치의 카드
+custom-study-cards-from-the-deck = 덱의 카드
 custom-study-choose-tags = 태그 선택
 custom-study-custom-study-session = 맞춤 공부 세션
 custom-study-due-cards-only = 만기인 카드만
@@ -26,7 +26,7 @@ custom-study-selective-study = 선택적 공부
 custom-study-study-by-card-state-or-tag = 카드 상태 또는 태그별로 공부하기
 custom-study-available-new-cards-2 = 사용 가능한 새로운 카드: { $countString }
 custom-study-available-review-cards-2 = 사용 가능한 복습 카드: { $countString }
-custom-study-available-child-count = (하위 덱 아래 { $count }개)
+custom-study-available-child-count = (하위 덱에 { $count }개)
 
 ## DEPRECATED - you do not need to translate these.
 

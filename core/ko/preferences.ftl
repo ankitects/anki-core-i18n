@@ -1,7 +1,7 @@
 preferences-automatically-sync-on-profile-openclose = 프로필을 열고 닫을 때 자동 동기화
 preferences-backups = 백업
 preferences-basic = 기본
-preferences-change-deck-depending-on-note-type = 노트 유형에 따라 뭉치 바꾸기
+preferences-change-deck-depending-on-note-type = 노트 유형에 따라 덱 바꾸기
 preferences-changes-will-take-effect-when-you = 변경 사항은 앙키를 재시작한 뒤 적용됩니다.
 preferences-hours-past-midnight = 시간 뒤
 preferences-interface-language = 인터페이스 언어:
@@ -28,7 +28,7 @@ preferences-synchronizationnot-currently-enabled-click-the-sync = <b>동기화</
 preferences-synchronize-audio-and-images-too = 오디오와 이미지 동기화
 preferences-timebox-time-limit = 시간 제한
 preferences-user-interface-size = UI 크기
-preferences-when-adding-default-to-current-deck = 카드를 추가할 때, 현재 뭉치에 넣음
+preferences-when-adding-default-to-current-deck = 기본적으로 카드를 현재 덱에 추가하기
 preferences-you-can-restore-backups-via-fileswitch = 파일>프로필 전환을 통해 백업을 복구할 수 있습니다.
 preferences-legacy-timezone-handling = 레거시 시간대 처리 (버그가 있지만 AnkiDroid의 2.14 버전 이하에서 필요)
 preferences-default-search-text = 기본 검색어

@@ -32,7 +32,7 @@ scheduling-next-learn-due =
        *[hours] { $amount }시간
     } 뒤에 준비될 예정입니다.
 scheduling-learn-remaining = 오늘 해야할 남은 카드는 { $remaining }개입니다.
-scheduling-congratulations-finished = 축하합니다! 현재까지 이 뭉치에서 만기인 모든 카드를 공부했습니다.
+scheduling-congratulations-finished = 축하합니다! 이 덱에서 해야 하는 오늘 치 공부를 모두 마쳤습니다.
 scheduling-today-review-limit-reached =
     복습을 기다리는 카드가 더 있지만, 일일 제한량에
     도달했습니다. 최적의 암기 효과를 위해, 옵션에서
@@ -100,8 +100,8 @@ scheduling-restore-position = 가능하면 원래 위치로
 scheduling-review = 복습
 scheduling-reviews = 복습
 scheduling-seconds = 초
-scheduling-set-all-decks-below-to = { $val }의 모든 하위 뭉치에도 이 옵션 그룹을 지정할까요?
-scheduling-set-for-all-subdecks = 모든 하위 뭉치에도 적용
+scheduling-set-all-decks-below-to = { $val }의 모든 하위 덱에도 이 옵션 그룹을 지정하시겠습니까?
+scheduling-set-for-all-subdecks = 모든 하위 덱에도 적용
 scheduling-show-answer-timer = 답변 시간 표시
 scheduling-show-new-cards-after-reviews = 새 카드는 복습 카드보다 나중에 등장
 scheduling-show-new-cards-before-reviews = 새 카드는 복습 카드보다 먼저 등장
@@ -112,11 +112,8 @@ scheduling-steps-in-minutes = 학습 단계(분 단위)
 scheduling-steps-must-be-numbers = 학습 단계는 반드시 숫자로 지정하세요.
 scheduling-tag-only = 태그만 달기
 scheduling-the-default-configuration-cant-be-removed = 기본 설정은 삭제할 수 없습니다.
-scheduling-your-changes-will-affect-multiple-decks = 이 변경은 모든 뭉치에 영향을 미칩니다. 만약 현재 뭉치만 바꾸시려면, 먼저 새로운 옵션 그룹을 생성하세요.
-scheduling-deck-updated =
-    { $count ->
-       *[other] { $count }뭉치를 업데이트했습니다.
-    }
+scheduling-your-changes-will-affect-multiple-decks = 변경사항이 여러 덱에 영향을 미칩니다. 현재 덱만 바꾸시려면, 새로운 옵션 그룹부터 만드세요.
+scheduling-deck-updated = 덱 { $count }개를 업데이트했습니다.
 scheduling-set-due-date-prompt = 카드를 며칠 후에 보시겠습니까?
 scheduling-set-due-date-prompt-hint =
     0 = 오늘

@@ -5,10 +5,7 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks =
-    { $decks ->
-       *[other] { $decks }개 덱
-    }에서 사용됨
+deck-config-used-by-decks = { $decks }개 덱에서 사용 중
 deck-config-default-name = 기본
 deck-config-title = 덱 옵션
 
@@ -74,7 +71,7 @@ deck-config-new-insertion-order-random-with-v3 =
 
 ## Lapses section
 
-deck-config-relearning-steps = 재학습 단계
+deck-config-relearning-steps = 복습 단계
 deck-config-relearning-steps-tooltip =
     여러 지연 사이에 공백을 넣어 입력할 수 있어요. 기본적으로
     `다시` 버튼을 누르면 10분 뒤에 다시 보여줍니다. 만약 아무것도

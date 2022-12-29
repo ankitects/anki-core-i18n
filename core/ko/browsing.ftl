@@ -16,20 +16,20 @@ browsing-cards = 카드
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C
 browsing-card-list = 카드 목록
-browsing-cards-cant-be-manually-moved-into = 필터된 뭉치에 카드를 수동으로 옮길 수 없습니다.
+browsing-cards-cant-be-manually-moved-into = 카드를 필터링된 덱으로 직접 옮길 수는 없습니다.
 browsing-cards-deleted =
     { $count ->
        *[other] 카드 { $count }개를 삭제했습니다.
     }
-browsing-change-deck = 뭉치 바꾸기
-browsing-change-deck2 = 뭉치 바꾸기...
+browsing-change-deck = 덱 바꾸기
+browsing-change-deck2 = 덱 바꾸기...
 browsing-change-note-type = 노트 유형 바꾸기
 browsing-change-note-type2 = 노트 유형 바꾸기...
 browsing-change-notetype = 노트 유형 바꾸기
 browsing-clear-unused-tags = 사용되지 않는 태그들 지우기
 browsing-confirm-saved-search-overwrite = { $name }을 가진 저장된 검색어가 이미 존재합니다. 덮어쓰기할까요?
 browsing-created = 생성날짜
-browsing-current-deck = 현재 뭉치
+browsing-current-deck = 현재 덱
 browsing-current-note-type = 현재 노트 유형:
 browsing-delete-notes = 노트 삭제
 browsing-duplicate = 복제
@@ -53,7 +53,7 @@ browsing-learning = (학습중)
 browsing-line-size = <b>줄 간격</b>:
 browsing-manage-note-types = 노트 유형 관리...
 browsing-move-cards = 카드 이동
-browsing-move-cards-to-deck = 카드를 뭉치로 이동:
+browsing-move-cards-to-deck = 카드를 덱으로 이동:
 browsing-new = (새 카드)
 browsing-new-note-type = 새 노트 유형:
 browsing-no-flag = 플래그 없음
@@ -121,7 +121,7 @@ browsing-sidebar-expand = 펼치기
 browsing-sidebar-collapse = 접기
 browsing-sidebar-expand-children = 하위 항목 펼치기
 browsing-sidebar-collapse-children = 하위 항목 접기
-browsing-sidebar-decks = 데크
+browsing-sidebar-decks = 덱
 browsing-sidebar-tags = 태그
 browsing-sidebar-notetypes = 노트 유형
 browsing-sidebar-saved-searches = 저장된 검색어
@@ -129,7 +129,7 @@ browsing-sidebar-save-current-search = 현재 검색어 저장하기
 browsing-sidebar-card-state = 카드 상태
 browsing-sidebar-flags = 플래그
 browsing-today = 오늘
-browsing-tooltip-card-modified = 마지막으로 카드의 리뷰, 플래그나 데크 등이 변경된 때입니다
+browsing-tooltip-card-modified = 카드의 학습 상태, 플래그나 덱 등이 마지막으로 변경된 때입니다
 browsing-tooltip-note-modified = 마지막으로 노트의 필드 내용이나 태그 등이 변경된 때입니다
 browsing-tooltip-card = 카드의 카드 탬플릿 이름
 browsing-tooltip-cards = 노트가 가진 카드의 수
@@ -154,10 +154,7 @@ browsing-changed-new-position =
     { $count ->
        *[other] 새로운 카드 { $count }개의 위치를 바꿨습니다.
     }
-browsing-reparented-decks =
-    { $count ->
-       *[other] 데크 { $count }개의 이름을 바꿨습니다.
-    }
+browsing-reparented-decks = 덱 { $count }개의 이름을 바꿨습니다.
 
 ## obsolete; no need to translate
 

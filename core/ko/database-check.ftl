@@ -16,10 +16,7 @@ database-check-duplicate-card-ords =
     { $count ->
        *[other] 템플릿이 중복된 카드 { $count }개를 삭제했습니다.
     }
-database-check-missing-decks =
-    { $count ->
-       *[other] 누락된 덱 { $count }개를 고쳤습니다.
-    }
+database-check-missing-decks = 누락된 덱 { $count }개를 고쳤습니다.
 database-check-revlog-properties =
     { $count ->
        *[other] 잘못된 설정을 가진 복습 기록 { $count }개를 고쳤습니다.
