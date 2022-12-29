@@ -1,6 +1,7 @@
 importing-failed-debug-info = 가져오기 실패. 디버깅 정보:
 importing-aborted = 중단됨: { $val }
 importing-added-duplicate-with-first-field = 정렬 필드와 중복된 노트 추가: { $val }
+importing-all-supported-formats = 지원하는 모든 형식 { $val }
 importing-allow-html-in-fields = 필드 안에 HTML 허용
 importing-anki-files-are-from-a-very = .anki 파일은 이전 버전의 앙키에서 만든 것입니다.  Anki 2.0으로 해당 파일을 불러올 수 있습니다.
 importing-anki2-files-are-not-directly-importable = .anki2 파일은 직접 불러올수 없습니다. .apkg 또는 .zip 파일로 불러오기 바랍니다.
@@ -14,6 +15,7 @@ importing-field-separator = 필드 구분 기호
 importing-field-mapping = 필드 배정
 importing-field-of-file-is = 필드 <b>{ $val }</b:
 importing-fields-separated-by = 필드 구분자: { $val }
+importing-file-must-contain-field-column = 파일에는 노트 필드에 매핑할 수 있는 열이 하나 이상 포함되어 있어야 합니다.
 importing-file-version-unknown-trying-import-anyway = 알수없는 버전의 파일을 어찌됐든 가져오기
 importing-first-field-matched = 정렬 필드 일치: { $val }
 importing-identical = 동일
@@ -36,6 +38,7 @@ importing-notes-skipped-as-theyre-already-in = 이미 컬렉션에 있기 때문
 importing-notes-that-could-not-be-imported = 노트 타입이 바뀌었기 때문에 불러올 수 없는 노트 : { $val }
 importing-notes-updated-as-file-had-newer = 파일이 최신 버전을 가졌기 때문에 업데이트된 노트 : { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 압축된 Anki 덱/컬렉션 (*.apkg *.colpkg *.zip)
+importing-pauker-18-lesson-paugz = Pauker 1.8 Lesson (*.pau.gz)
 # the '|' character
 importing-pipe = 수직선
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }'째 줄의 필드는 { $found }개. 예상한 필드는 { $expected }개.

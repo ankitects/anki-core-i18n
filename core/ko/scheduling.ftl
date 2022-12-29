@@ -24,6 +24,14 @@ scheduling-time-span-years = { $amount }년
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    다음 학습 카드는 { $unit ->
+        [seconds] { $amount }초
+        [minutes] { $amount }분
+       *[hours] { $amount }시간
+    } 뒤에 준비될 예정입니다.
+scheduling-learn-remaining = 오늘 해야할 남은 카드는 { $remaining }개입니다.
 scheduling-congratulations-finished = 축하합니다! 현재까지 이 뭉치에서 만기인 모든 카드를 공부했습니다.
 scheduling-today-review-limit-reached =
     복습을 기다리는 카드가 더 있지만, 일일 제한량에
@@ -34,12 +42,25 @@ scheduling-today-new-limit-reached =
     도달했습니다. 옵션에서 제한량을 높일 수 있지만,
     새 카드를 더 많이 시작할수록 그에 따라 단기 복습량도
     늘어난다는 것을 주의하세요.
+scheduling-buried-cards-found = 하나 이상의 카드가 미뤄졌으며 내일 표시될 예정입니다. 즉시 보고 싶다면 { $unburyThem }할 수 있습니다.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = 미룸 해제
+scheduling-how-to-custom-study = 정규 일정 외의 시간에 공부하려면 { $customStudy } 기능을 사용할 수 있습니다.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = 맞춤 공부
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1은 과거 Anki 버전에서 발생했던 여러 문제를 해결하는 새로운 스케줄러와 함께 제공됩니다. 업데이트하는 걸 추천드립니다.
+scheduling-update-done = 스케줄러가 성공적으로 업데이트되었습니다.
+scheduling-update-button = 업데이트
+scheduling-update-later-button = 나중에
+scheduling-update-more-info-button = 더 알아보기
+scheduling-update-required =
+    컬렉션을 V2 스케줄러로 업그레이드해야 합니다.
+    계속하기 전에 { scheduling-update-more-info-button }을 누르세요.
 
 ## Other scheduling strings
 
@@ -74,6 +95,8 @@ scheduling-new-options-group-name = 새 옵션 그룹 이름:
 scheduling-options-group = 옵션 그룹:
 scheduling-order = 순서
 scheduling-parent-limit = (부모 제한: { $val })
+scheduling-reset-counts = 반복 및 경과 횟수 초기화
+scheduling-restore-position = 가능하면 원래 위치로
 scheduling-review = 복습
 scheduling-reviews = 복습
 scheduling-seconds = 초
@@ -94,3 +117,10 @@ scheduling-deck-updated =
     { $count ->
        *[other] { $count }뭉치를 업데이트했습니다.
     }
+scheduling-set-due-date-prompt = 카드를 며칠 후에 보시겠습니까?
+scheduling-set-due-date-prompt-hint =
+    0 = 오늘
+    1! = 내일 + 주기를 1로 변경
+    3-7 = 3~7일 중 임의로 선택
+scheduling-set-due-date-done = 카드 { $cards }개의 학습 기한을 설정하세요.
+scheduling-forgot-cards = 카드 { $cards }개를 초기화했습니다.
