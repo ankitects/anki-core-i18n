@@ -10,6 +10,7 @@ importing-change = 수정
 importing-colon = 쌍점
 importing-comma = 쉼표
 importing-empty-first-field = 비어 있는 첫 필드: { $val }
+importing-field-separator = 필드 구분 기호
 importing-field-mapping = 필드 배정
 importing-field-of-file-is = 필드 <b>{ $val }</b:
 importing-fields-separated-by = 필드 구분자: { $val }
@@ -35,12 +36,15 @@ importing-notes-skipped-as-theyre-already-in = 이미 컬렉션에 있기 때문
 importing-notes-that-could-not-be-imported = 노트 타입이 바뀌었기 때문에 불러올 수 없는 노트 : { $val }
 importing-notes-updated-as-file-had-newer = 파일이 최신 버전을 가졌기 때문에 업데이트된 노트 : { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 압축된 Anki 덱/컬렉션 (*.apkg *.colpkg *.zip)
+# the '|' character
+importing-pipe = 수직선
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }'째 줄의 필드는 { $found }개. 예상한 필드는 { $expected }개.
 importing-selected-file-was-not-in-utf8 = 선택한 파일이 UTF-8 형식이 아닙니다. 매뉴얼의 가져오기 부분을 참고해 주세요.
 importing-semicolon = 쌍반점
 importing-skipped = 건너뜀
 importing-supermemo-xml-export-xml = Supermemo XML (*.xml)
 importing-tab = 탭
+importing-tag-modified-notes = 수정된 노트 태그
 importing-text-separated-by-tabs-or-semicolons = 탭이나 쌍반점으로 구분한 텍스트 파일 (*)
 importing-the-first-field-of-the-note = 노트 유형의 첫 필드는 반드시 배정되야합니다.
 importing-the-provided-file-is-not-a = 유효한 .apkg 파일이 아닙니다.
@@ -70,3 +74,21 @@ importing-processed-media-file =
     { $count ->
        *[other] { $count }개의 미디어 파일을 처리함
     }
+importing-importing-collection = 컬렉션 가져오는 중...
+importing-importing-file = 파일 가져오는 중...
+importing-extracting = 데이터 추출하는 중...
+importing-gathering = 데이터 수집하는 중...
+importing-failed-to-import-media-file = 미디어 파일을 가져오는 데 실패했습니다. { $debuginfo }
+importing-processed-notes = 노트 { $count }개 처리 완료...
+importing-processed-cards = 카드 { $count }개 처리 완료...
+importing-unable-to-import-filename = { $filename }을 가져오지 못했습니다. 지원하지 않는 파일 유형입니다.
+importing-existing-notes = 기존 노트
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = 중복 허용
+# "Existing notes: Preserve" (verb)
+importing-preserve = 기존 그대로
+# "Existing notes: Update" (verb)
+importing-update = 덮어쓰기
+importing-tag-all-notes = 모든 노트 태그
+importing-tag-updated-notes = 덮어쓴 노트 태그
+importing-file = 파일

@@ -1,6 +1,10 @@
 ## Shown at the top of the media check screen
 
 media-check-window-title = 미디어 검사
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count = 휴지통: 파일 { $count }개, { $megs }MB
 media-check-missing-count = 잃어버린 파일: { $count }
 media-check-unused-count = 사용되지 않은 파일: { $count }
 media-check-renamed-count = 이름이 변경된 파일: { $count }
@@ -9,7 +13,9 @@ media-check-subfolder-count = 서브폴더: { $count }
 
 ## Shown at the top of each section
 
+media-check-renamed-header = 호환성을 위해 일부 파일의 이름을 바꿨습니다.
 media-check-oversize-header = 100MB 이상인 파일은 AnkiWeb에 동기화할 수 없음.
+media-check-subfolder-header = 미디어 폴더 속 하위 폴더는 지원하지 않습니다.
 media-check-missing-header = 카드에 사용되었지만, 미디어 폴더에 없는 파일:
 
 ## Shown once for each file
@@ -20,6 +26,11 @@ media-check-subfolder-file = 폴더: { $filename }
 media-check-missing-file = 잃어버림: { $filename }
 media-check-unused-file = 사용 안 됨: { $filename }
 
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
+
 ## Progress
 
 media-check-checked = 체크됨 { $count }...
@@ -27,6 +38,7 @@ media-check-checked = 체크됨 { $count }...
 ## Deleting unused media
 
 media-check-delete-unused-confirm = 사용되지 않는 미디어 파일을 지울까요?
+media-check-files-remaining = 파일 { $count }개 남았습니다.
 media-check-delete-unused-complete =
     { $count ->
        *[other] { $count }개의 파일이

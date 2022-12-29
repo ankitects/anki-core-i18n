@@ -27,3 +27,8 @@ exporting-note-exported =
     { $count ->
        *[other] { $count }노트를 내보냈습니다.
     }
+exporting-exporting-file = 파일 내보내는 중...
+exporting-processed-media-files = 미디어 파일 { $count }개 처리 완료...
+exporting-include-deck = 덱 이름을 입력하세요
+exporting-include-notetype = 노트 유형 이름을 입력하세요
+exporting-include-guid = 고유한 식별자를 입력하세요

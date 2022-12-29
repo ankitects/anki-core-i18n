@@ -1,9 +1,12 @@
+notetypes-notetype = 노트유형
+
 ## Default field names in newly created note types
 
 notetypes-front-field = 앞면
 notetypes-back-field = 뒷면
 notetypes-add-reverse-field = 반대 방향 추가
 notetypes-text-field = 내용
+notetypes-back-extra-field = 뒷면 추가 필드
 
 ## Default note type names
 
