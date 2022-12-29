@@ -58,6 +58,9 @@ deck-config-learning-steps-tooltip =
 deck-config-graduating-interval-tooltip =
     마지막 학습 단계에서 `알맞음` 버튼을 누른 후 카드를
     다시 보여주기 전까지 기다리는 일수입니다.
+deck-config-easy-interval-tooltip =
+    건너뛰기 위해 학습 중 `쉬움` 버튼을 누른 후 카드를
+    다시 보여주기 전까지 기다리는 일수입니다.
 deck-config-new-insertion-order = 삽입 순서
 deck-config-new-insertion-order-tooltip =
     새 카드를 추가할 때 어디에 넣을지(마감 순서)를 결정합니다.
@@ -72,6 +75,16 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = 재학습 단계
+deck-config-relearning-steps-tooltip =
+    여러 지연 사이에 공백을 넣어 입력할 수 있어요. 기본적으로
+    `다시` 버튼을 누르면 10분 뒤에 다시 보여줍니다. 만약 아무것도
+    입력하지 않으면 카드는 복습에 진입하지 않고
+    주기만 바뀌게 됩니다. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    카드를 복습하는 도중 '다시' 버튼을 몇 번이나 눌러야 leech로 변하는지를
+    나타냅니다. leech는 학습자의 시간을 지나치게 소비하는 카드로,
+    다시 쓰거나 없애거나 연상을 돕는 줄임말 등을
+    만들어 보는 걸 추천드립니다.
 
 ## Burying section
 
