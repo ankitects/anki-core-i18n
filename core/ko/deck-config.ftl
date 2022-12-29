@@ -110,8 +110,76 @@ deck-config-bury-interday-learning-tooltip =
 
 deck-config-ordering-title = 표시 순서
 deck-config-new-gather-priority = 새로운 카드의 수집 순서
+deck-config-new-gather-priority-tooltip-2 =
+    `덱`: 카드를 맨 위부터 순서대로 덱마다 수집합니다. 각 덱의 카드는
+    오름차순으로 모이게 됩니다. 선택한 덱의 일일 최대치에 도달하면 모든 덱을
+    확인하기 전에 수집이 중지될 수 있습니다. 이 방법은 컬렉션이 클수록 제일 빠르며,
+    위와 가까운 하위 덱이 우선되는 효과도 볼 수 있습니다.
+    
+    `오름차순`: 오름차순(마감 순서)로 카드를 모으는데, 이러면 대부분
+    가장 오래된 카드가 먼저 추가됩니다.
+    
+    `내림차순`: 내림차순(마감 순서)로 카드를 모으는데, 이러면 대부분
+    가장 최근의 카드가 먼저 추가됩니다.
+    
+    `랜덤 노트`: 임의로 선택한 노트의 카드를 수집합니다. 인접한 노트 미루기가
+    비활성화돼있다면, 한 세션에서 노트의 모든 카드를 볼 수도 있습니다.
+    (예시로 앞면->뒷면과 뒷면->앞면 카드 모두)
+    
+    `랜덤 카드`: 무작위적으로 카드를 모읍니다.
+deck-config-new-gather-priority-deck = 덱
+deck-config-new-gather-priority-position-lowest-first = 오름차순
+deck-config-new-gather-priority-position-highest-first = 내림차순
+deck-config-new-gather-priority-random-notes = 랜덤 노트
+deck-config-new-gather-priority-random-cards = 랜덤 카드
+deck-config-new-card-sort-order = 새로운 카드의 정렬 순서
+deck-config-new-card-sort-order-tooltip-2 =
+    `카드 유형`: 카드 유형 번호 순서대로 카드를 표시합니다. 인접한 카드 미루기를
+    비활성화한 경우, 모든 앞면→ 뒷면 카드가 뒷면→ 앞면 카드보다 먼저 표시됩니다.
+    한 세션에 동일한 노트의 모든 카드를 표시하되 서로 너무 가깝지 않도록
+    하고 싶을 때 유용합니다.
+    
+    `수집 순서`: 카드가 수집된 그대로 표시됩니다. 인접한 카드 미루기를
+    비활성화한 경우, 일반적으로 노트의 모든 카드가 차례로 표시됩니다.
+    
+    `카드 유형 후 랜덤`: 카드 유형처럼 카드 유형 번호 순서대로 카드를 섞습니다.
+    `오름차순`으로 가장 오래된 카드를 수집했다면 카드가 무작위로 나타나되
+    동일한 노트의 카드가 서로 너무 가깝지 않도록 할 수 있습니다.
+    
+    `랜덤 노트 후 카드 유형`: 랜덤으로 노트를 고른 후 인접한 모든 카드를
+    순서대로 보여줍니다.
+    
+    `랜덤`: 수집된 카드를 완전히 뒤섞습니다.
+deck-config-sort-order-card-template-then-random = 카드 유형 후 랜덤
+deck-config-sort-order-random-note-then-template = 랜덤 노트 후 카드 유형
+deck-config-sort-order-random = 랜덤
+deck-config-sort-order-template-then-gather = 카드 유형
+deck-config-sort-order-gather = 수집 순서
+deck-config-new-review-priority = 새/복습 카드 순서
+deck-config-new-review-priority-tooltip = 복습 카드 대비 새 카드를 보여줄 시기를 나타냅니다.
+deck-config-interday-step-priority = 주간 학습/복습 순서
+deck-config-interday-step-priority-tooltip =
+    하루의 경계를 넘는 학/복습 카드를 보여줄 시기를 나타냅니다.
+    
+    복습 한도는 항상 주간 학습 카드에 먼저 적용되고, 그 다음에
+    복습 카드에 적용됩니다. 이 옵션으로 수집된 카드가 표시되는 순서를
+    바꿀 수 있어도 주간 학습 카드가 항상 먼저 수집됩니다.
+deck-config-review-mix-mix-with-reviews = 복습 카드와 섞기
+deck-config-review-mix-show-after-reviews = 복습한 뒤에 표시
+deck-config-review-mix-show-before-reviews = 복습하기 전에 표시
+deck-config-review-sort-order = 복습 정렬 순서
+deck-config-review-sort-order-tooltip =
+    기본 순서는 가장 오래 기다린 카드를 먼저 보여줍니다.
+    그래서 복습을 밀리면 가장 오래된 카드가 먼저 나타납니다.
+    따라잡는 데 며칠이 걸리거나 카드를 하위 덱 순서대로
+    보려면 다른 정렬 순서를 사용하는 걸 추천합니다.
+deck-config-sort-order-due-date-then-random = 학습 기한 후 랜덤
+deck-config-sort-order-due-date-then-deck = 학습 기한 후 덱
+deck-config-sort-order-deck-then-due-date = 덱 후 학습 기한
 deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
 deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
+deck-config-sort-order-ascending-ease = ease 오름차순
+deck-config-sort-order-descending-ease = ease 내림차순
 
 ## Timer section
 
