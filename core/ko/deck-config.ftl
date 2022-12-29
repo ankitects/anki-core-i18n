@@ -85,12 +85,31 @@ deck-config-leech-threshold-tooltip =
     나타냅니다. leech는 학습자의 시간을 지나치게 소비하는 카드로,
     다시 쓰거나 없애거나 연상을 돕는 줄임말 등을
     만들어 보는 걸 추천드립니다.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `태그만`: 노트에 leech 태그를 달고 팝업을 표시합니다.
+    
+    `카드 숨기기`: 노트에 태그를 붙이는 것 외에도 카드를 수동으로
+    숨김 해제할 때까지 숨깁니다.
 
 ## Burying section
 
+deck-config-bury-title = 미루기
+deck-config-bury-new-siblings = 인접한 새 카드 미루기
+deck-config-bury-review-siblings = 인접한 복습 카드 미루기
+deck-config-bury-interday-learning-siblings = 인접한 주간 학습 카드 미루기
+deck-config-bury-new-tooltip =
+    동일한 노트의 다른 (역방향, 인접한 빈칸 채우기 등) `새` 카드를
+    다음 날까지 미룰지 여부를 나타냅니다.
+deck-config-bury-review-tooltip = 동일한 노트의 다른 `복습` 카드를 다음 날까지 미룰지 여부를 나타냅니다.
+deck-config-bury-interday-learning-tooltip =
+    주기가 하루 이상인 동일한 노트의 다른 `학습` 카드를
+    다음 날까지 미룰지 여부를 나타냅니다.
 
 ## Ordering section
 
+deck-config-ordering-title = 표시 순서
+deck-config-new-gather-priority = 새로운 카드의 수집 순서
 deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
 deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
 
