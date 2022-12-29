@@ -16,6 +16,8 @@ card-templates-night-mode = 야간 모드
 # on a mobile device.
 card-templates-add-mobile-class = 모바일 클래스 추가
 card-templates-preview-settings = 옵션
+card-templates-invalid-template-number = '{ $notetype }' 노트 타입의 { $number }번 카드 템플릿에 문제가 있습니다.
+card-templates-identical-front = 앞면이 { $number }번 카드 템플릿과 동일합니다.
 card-templates-changes-saved = 변경 사항이 저장됨.
 card-templates-add-card-type = 카드 형 추가...
 card-templates-anki-couldnt-find-the-line-between = 질문과 답을 구분하는 선을 찾을 수 없습니다. 서식을 수동으로 수정해서 질문과 답을 바꾸세요.
