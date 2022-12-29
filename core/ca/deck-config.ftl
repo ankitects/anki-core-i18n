@@ -97,7 +97,7 @@ deck-config-leech-action-tooltip =
 
 deck-config-bury-title = Enterrament
 deck-config-bury-new-siblings = Enterra les targetes relacionades noves
-deck-config-bury-review-siblings = Enterra les targetes relacionades per revisar
+deck-config-bury-review-siblings = Enterra les targetes relacionades per repassar
 deck-config-bury-interday-learning-siblings = Enterra les targetes relacionades d'aprenentatge entre dies
 deck-config-bury-new-tooltip = Decidiu si voleu retardar fins a l’endemà les altres targetes noves d'una nota, com ara les targetes inverses i les targetes amb buits adjacents.
 deck-config-bury-review-tooltip = Decidiu si voleu retardar fins a l'endemà les altres targetes per repassar d'una nota.

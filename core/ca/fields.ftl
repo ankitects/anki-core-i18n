@@ -1,6 +1,6 @@
 fields-add-field = Afegeix un camp
 fields-delete-field-from = Voleu eliminar el camp de { $val }?
-fields-editing-font = Editant el tipus de lletra
+fields-editing-font = Tipus de lletra d'edició
 fields-field = Camp:
 fields-field-name = Nom del camp:
 fields-description = Descripció
