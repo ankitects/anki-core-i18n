@@ -29,22 +29,20 @@ sync-confirm-empty-download = 本地集合为空，是否立即从AnkiWeb下载�
 sync-conflict-explanation =
     本地牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。
     
-    如选择下载，将从Ankiweb下载集合并覆盖本地集合，本地电脑上最后一次同步后的更改将会丢失。
+    如选择下载，将使用Ankiweb上的数据覆盖本地数据，本设备上未同步的更改将全部丢失。
     
-    如选择上传，本地集合将会上传并覆盖Ankiweb集合，Ankiweb或其他设备上最后一次同步后的更改将会丢失。
+    如选择上传，将使用本地数据覆盖Ankiweb上的数据，Ankiweb上的更改将全部丢失。
     
-    当所有设备完成同步后，将来复习和新增的卡片将会被自动合并。
-sync-ankiweb-id-label = 账号：
+    当所有设备同步完成后，之后的复习和新增卡片都能自动合并。
+sync-ankiweb-id-label = AnkiWeb账号：
 sync-password-label = 密码：
 sync-account-required =
-    <h1>请您登录</h1>
-    您需要一个免费帐号以同步您的集合，请<a href="{ $link }">注册</a> 帐号，并在下方登录。
+    <h1>需要账号</h1>
+    需要一个免费帐号以同步您的集合，请先<a href="{ $link }">注册</a> 帐号，并在下方登录。
 sync-sanity-check-failed = 请使用「检查数据库」功能，然后再次同步。若问题仍然存在，请在设置界面中选中强制全量同步。
-sync-clock-off = 无法同步 - 您的时钟时间设置不正确。
+sync-clock-off = 无法同步 - 本地时间设置错误。
 sync-upload-too-large =
-    集合文件过大，无法上传至AnkiWeb。
-    请移除不需要的牌组（可以先导出）以减小文件大小，
-    并使用「检查数据库」功能以缩小文件大小。
+    集合文件过大，无法上传至AnkiWeb。请删除不需要的牌组以减小文件大小（可先导出牌组），并使用「检查数据库」功能以缩小文件大小。
     （{ $details }）
 
 ## Buttons
@@ -62,5 +60,5 @@ sync-uploading-to-ankiweb = 正在上传到AnkiWeb...
 sync-syncing = 正在同步...
 sync-checking = 正在检查...
 sync-connecting = 正在连接...
-sync-added-updated-count = 已新增/已修改：{ $up }↑ { $down }↓
-sync-log-out-button = 注销登录
+sync-added-updated-count = 已新增/修改：{ $up }↑ { $down }↓
+sync-log-out-button = 退出登录

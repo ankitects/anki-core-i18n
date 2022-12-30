@@ -1,7 +1,7 @@
 studying-again = 重来
 studying-all-buried-cards = 所有已搁置的卡片
-studying-audio-5s = 音频后退5秒
-studying-audio-and5s = 音频前进5秒
+studying-audio-5s = 音频快退5秒
+studying-audio-and5s = 音频快进5秒
 studying-buried-siblings = 已搁置的关联卡片
 studying-bury = 搁置
 studying-bury-card = 搁置卡片
@@ -14,7 +14,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = 卡片在复习完后将会自动回到原来的牌组中。
 studying-continue = 继续
-studying-counts-differ = 计数与牌组列表不符是由于启用了搁置致使一些卡片被排除而另一些卡片取代了其位置。
+studying-counts-differ = 卡片计数与牌组列表不符是由于部分卡片被搁置而排除，其他卡片取代了其位置。
 studying-delete-note = 删除笔记
 studying-deleting-this-deck-from-the-deck = 从列表中删除该牌组后剩余的卡片将回到原牌组中。
 studying-easy = 简单
@@ -44,10 +44,10 @@ studying-to-review = 待复习
 studying-type-answer-unknown-field = 输入答案：未知字段 { $val }
 studying-unbury = 取消搁置
 studying-what-would-you-like-to-unbury = 您想取消搁置吗？
-studying-you-havent-recorded-your-voice-yet = 还没有录制自己的声音。
+studying-you-havent-recorded-your-voice-yet = 尚未录制自己的声音。
 studying-card-studied-in =
     { $count ->
-       *[other] 学习了{ $count }张卡片，用时
+       *[other] 已学习{ $count }张卡片，用时
     }
 studying-minute =
     { $count ->
