@@ -19,13 +19,13 @@ sync-media-log-title = 媒体同步日志
 
 ## Error messages / dialogs
 
-sync-conflict = 仅可同时同步一个Anki终端。请稍等几分钟后重试。
-sync-server-error = AnkiWeb遇到问题，请稍等几分钟后重试。
-sync-client-too-old = 您的Anki版本过低。请更新到最新版本以继续同步。
+sync-conflict = 仅能同时同步一个设备的数据，请稍后重试。
+sync-server-error = AnkiWeb服务出现错误，请稍后重试。
+sync-client-too-old = 当前Anki软件版本过低，请更新至最新版本以继续同步。
 sync-wrong-pass = 用户名或密码错误，请重试。
-sync-resync-required = 请重新同步。如果此信息持续出现，请在支持网站上反馈。
-sync-must-wait-for-end = Anki正在同步，请等待同步完成后重试。
-sync-confirm-empty-download = 本地集合中没有任何卡片，立即从AnkiWeb上下载吗？
+sync-resync-required = 请尝试再次同步。如此信息反复出现，请在支持网站上反馈。
+sync-must-wait-for-end = 当前正在同步，请在同步完成后重试。
+sync-confirm-empty-download = 本地集合为空，是否立即从AnkiWeb下载？
 sync-conflict-explanation =
     本地牌组与Ankiweb上的牌组存在不能合并的差异，所以必须覆盖其中之一。
     
