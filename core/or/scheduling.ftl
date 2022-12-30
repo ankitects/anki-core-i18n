@@ -128,6 +128,7 @@ scheduling-new-options-group-name = ନୂତନ ବିକଳ୍ପ ଗୋଷ୍
 scheduling-options-group = ବିକଳ୍ପ ଗୋଷ୍ଠୀ:
 scheduling-order = କ୍ରମ
 scheduling-parent-limit = (ସର୍ବାଧିକ ସୀମା: { $val })
+scheduling-restore-position = ଯେଉଁଠାରେ ସମ୍ଭଵ ମୂଳ ଅଵସ୍ଥିତି ପୁନରୁଦ୍ଧାର କରନ୍ତୁ
 scheduling-review = ସମୀକ୍ଷା
 scheduling-reviews = ସମୀକ୍ଷା
 scheduling-seconds = ସେକେଣ୍ଡ
