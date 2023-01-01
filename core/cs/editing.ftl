@@ -16,6 +16,7 @@ editing-customize-fields = Přizpůsobit pole
 editing-cut = Vyjmout
 editing-double-click-image = dvojklik na obrázek
 editing-double-click-to-expand = (dvojklikem rozbalit)
+editing-double-click-to-collapse = dvojklikem sbalit
 editing-edit-current = Upravit tuto kartu
 editing-edit-html = Upravit HTML
 editing-fields = Pole
