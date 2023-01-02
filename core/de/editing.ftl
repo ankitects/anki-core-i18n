@@ -16,6 +16,7 @@ editing-customize-fields = Felder anpassen
 editing-cut = Ausschneiden
 editing-double-click-image = Bild doppelklicken
 editing-double-click-to-expand = (zum Erweitern doppelklicken)
+editing-double-click-to-collapse = Zum Einklappen doppelklicken
 editing-edit-current = Angezeigte Karte bearbeiten
 editing-edit-html = HTML eingeben
 editing-fields = Felder
