@@ -28,7 +28,7 @@ deck-config-limit-new-bound-by-reviews =
     복습 최대치가 200으로 설정되어 있고 현재 190개가 밀렸다면,
     새로운 카드는 최대 10개만 보이게 됩니다. 복습 최대치에 도달한 경우
     새로운 카드는 학습할 수 없습니다.
-deck-config-limit-interday-bound-by-reviews = 복습 최대치는 주간 학습 카드에도 영향을 미칩니다. 최대치를 적용할 때 주간 학습 카드를 먼저 가져오고, 일일 복습 다음에 마지막으로 새 카드를 가져옵니다.
+deck-config-limit-interday-bound-by-reviews = 복습한도는 interday 학습 카드에도 영향을 미칩니다. 한도를 적용할 때 interday 학습 카드를 먼저 가져오고, 그 다음 복습카드, 마지막으로 새카드를 가져옵니다.
 deck-config-tab-description =
     - `사전 설정`: 사전 설정을 공유하는 모든 덱과 같은 최대치입니다.
     - `현재 덱`: 현재 덱에만 적용되는 최대치입니다.
@@ -86,15 +86,15 @@ deck-config-leech-threshold-tooltip =
 deck-config-leech-action-tooltip =
     `태그만`: 노트에 leech 태그를 달고 팝업을 표시합니다.
     
-    `카드 숨기기`: 노트에 태그를 붙이는 것 외에도 카드를 수동으로
-    숨김 해제할 때까지 숨깁니다.
+    `카드 일시중단`: 노트에 태그를 붙이는 것 외에도 카드를
+    직접 일시중단 해제할 때까지 숨깁니다.
 
 ## Burying section
 
 deck-config-bury-title = 미루기
 deck-config-bury-new-siblings = 인접한 새 카드 미루기
 deck-config-bury-review-siblings = 인접한 복습 카드 미루기
-deck-config-bury-interday-learning-siblings = 인접한 주간 학습 카드 미루기
+deck-config-bury-interday-learning-siblings = 인접한 interday 학습 카드 미루기
 deck-config-bury-new-tooltip =
     동일한 노트의 다른 (역방향, 인접한 빈칸 채우기 등) `새` 카드를
     다음 날까지 미룰지 여부를 나타냅니다.
@@ -154,13 +154,13 @@ deck-config-sort-order-template-then-gather = 카드 유형
 deck-config-sort-order-gather = 수집 순서
 deck-config-new-review-priority = 새/복습 카드 순서
 deck-config-new-review-priority-tooltip = 복습 카드 대비 새 카드를 보여줄 시기를 나타냅니다.
-deck-config-interday-step-priority = 주간 학습/복습 순서
+deck-config-interday-step-priority = interday 학습카드/복습카드 순서
 deck-config-interday-step-priority-tooltip =
-    하루의 경계를 넘는 학/복습 카드를 보여줄 시기를 나타냅니다.
+    하루의 경계를 넘는 학습카드/복습카드를 보여줄 시기를 나타냅니다.
     
-    복습 한도는 항상 주간 학습 카드에 먼저 적용되고, 그 다음에
-    복습 카드에 적용됩니다. 이 옵션으로 수집된 카드가 표시되는 순서를
-    바꿀 수 있어도 주간 학습 카드가 항상 먼저 수집됩니다.
+    복습 한도는 항상 interday 학습 카드에 먼저 적용되고, 그 다음에
+    복습 카드에 적용됩니다. 이 옵션은 수집된 카드가 표시되는 순서를
+    바꿀 수 있지만, interday 학습 카드가 항상 먼저 수집됩니다.
 deck-config-review-mix-mix-with-reviews = 복습 카드와 섞기
 deck-config-review-mix-show-after-reviews = 복습한 뒤에 표시
 deck-config-review-mix-show-before-reviews = 복습하기 전에 표시
