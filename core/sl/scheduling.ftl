@@ -65,7 +65,7 @@ scheduling-next-learn-due =
     Naslednja kartica za učenje bo pripravljena v { $unit ->
         [seconds]
             { $amount ->
-                [one] { $amount } skundi
+                [one] { $amount } sekundi
                *[other] { $amount } sekundah
             }
         [minutes]
@@ -78,7 +78,7 @@ scheduling-next-learn-due =
                 [one] { $amount } uri
                *[other] { $amount } urah
             }
-    }.
+    }-
 scheduling-learn-remaining =
     { $remaining ->
         [one] Za kasneje danes ostaja še ena kartica za učenje.
