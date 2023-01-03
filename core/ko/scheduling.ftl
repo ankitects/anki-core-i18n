@@ -45,7 +45,7 @@ scheduling-today-new-limit-reached =
 scheduling-buried-cards-found = 하나 이상의 카드가 미뤄졌으며 내일 표시될 예정입니다. 즉시 보고 싶다면 { $unburyThem }할 수 있습니다.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = 미룸 해제
+scheduling-unbury-them = 미루기 해제
 scheduling-how-to-custom-study = 정규 일정 외의 시간에 공부하려면 { $customStudy } 기능을 사용할 수 있습니다.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
@@ -67,8 +67,8 @@ scheduling-update-required =
 scheduling-always-include-question-side-when-replaying = 오디오 재생시 질문 부분을 항상 포함
 scheduling-at-least-one-step-is-required = 적어도 하나의 단계는 반드시 필요합니다.
 scheduling-automatically-play-audio = 자동으로 오디오 재생
-scheduling-bury-related-new-cards-until-the = 연관된 새 카드를 다음날까지 덮어두기
-scheduling-bury-related-reviews-until-the-next = 연관된 복습 카드를 다음날까지 덮어두기
+scheduling-bury-related-new-cards-until-the = 연관된 새 카드를 다음날까지 미루기
+scheduling-bury-related-reviews-until-the-next = 연관된 복습 카드를 다음날까지 미루기
 scheduling-days = 일
 scheduling-description = 설명
 scheduling-easy-bonus = 쉬움 보너스
