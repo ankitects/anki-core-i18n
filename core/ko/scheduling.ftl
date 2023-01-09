@@ -32,7 +32,7 @@ scheduling-next-learn-due =
        *[hours] { $amount }시간
     } 뒤에 준비될 예정입니다.
 scheduling-learn-remaining = 오늘 해야할 남은 카드는 { $remaining }개입니다.
-scheduling-congratulations-finished = 축하합니다! 이 덱에서 해야 하는 오늘 치 공부를 모두 마쳤습니다.
+scheduling-congratulations-finished = 축하합니다! 이 덱에서 해야하는 공부를 모두 마쳤습니다.
 scheduling-today-review-limit-reached =
     복습을 기다리는 카드가 더 있지만, 일일 제한량에
     도달했습니다. 최적의 암기 효과를 위해, 옵션에서

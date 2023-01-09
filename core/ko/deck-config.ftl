@@ -11,11 +11,11 @@ deck-config-title = 덱 옵션
 
 ## Daily limits section
 
-deck-config-daily-limits = 일일 최대치
+deck-config-daily-limits = 일일 한도
 deck-config-new-limit-tooltip =
-    하루에 보여줄 새로운 카드의 최대 개수입니다.
-    새로운 내용은 단기적으로 복습할 양을 늘리기 때문에
-    평소 공부할 수 있는 최대치보다 최소한 10배 이상 적어야 합니다.
+    하루에 보여줄 새 카드의 최대 개수입니다.
+    새로운 내용은 단기적인 복습량을 증가시키기 때문에
+    최대 복습량보다 최소한 10배 이상 작아야 합니다.
 deck-config-review-limit-tooltip =
     하루에 보여줄 최대 복습 카드 수입니다.
     복습할 카드가 있는 경우에 쓰입니다.
@@ -24,10 +24,10 @@ deck-config-limit-deck-v3 =
     각 덱에서 카드 몇 개를 뽑을지 결정합니다.
     상위 덱의 최대치는 보여줄 총 카드 개수를 결정합니다.
 deck-config-limit-new-bound-by-reviews =
-    복습 최대치는 새로운 카드 최대치에 영향을 미칩니다. 예를 들어,
-    복습 최대치가 200으로 설정되어 있고 현재 190개가 밀렸다면,
-    새로운 카드는 최대 10개만 보이게 됩니다. 복습 최대치에 도달한 경우
-    새로운 카드는 학습할 수 없습니다.
+    최대 복습량은 새 카드 한도에 영향을 미칩니다. 예를 들어,
+    최대 복습량이 200개로 설정되어 있고 현재 복습할 카드가 190개 있다면,
+    새 카드는 최대 10개까지 표시됩니다. 최대 복습량에 도달한 경우
+    새 카드는 표시되지 않습니다.
 deck-config-limit-interday-bound-by-reviews = 복습한도는 interday 학습 카드에도 영향을 미칩니다. 한도를 적용할 때 interday 학습 카드를 먼저 가져오고, 그 다음 복습카드, 마지막으로 새카드를 가져옵니다.
 deck-config-tab-description =
     - `사전 설정`: 사전 설정을 공유하는 모든 덱과 같은 최대치입니다.
@@ -241,7 +241,7 @@ deck-config-confirm-remove-name = { $name }를 제거하시겠습니까?
 
 ## Other Buttons
 
-deck-config-save-button = 저장
+deck-config-save-button = Save
 deck-config-save-to-all-subdecks = 모든 하위 덱에 저장
 deck-config-revert-button-tooltip = 이 설정을 기본값으로 복원
 

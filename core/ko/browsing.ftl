@@ -10,7 +10,7 @@ browsing-average-ease = 평균 Ease
 browsing-average-interval = 평균 복습간격
 browsing-browser-appearance = 탐색기에서 표시할 때
 browsing-browser-options = 탐색기 옵션
-browsing-buried = 덮음
+browsing-buried = 미뤄짐
 browsing-card = 카드
 browsing-cards = 카드
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
