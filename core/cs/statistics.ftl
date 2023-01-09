@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = Ke zkoušení
 # The count of cards waiting to be reviewed
-statistics-due-count = Ke zkoušení
+statistics-due-count = Zkoušení
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Nové #{ $number }
 
