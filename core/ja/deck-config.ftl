@@ -21,8 +21,8 @@ deck-config-limit-deck-v3 = サブデッキを含むデッキを選択して学�
 deck-config-limit-new-bound-by-reviews = 一日あたりのカード出題枚数の上限は、一日あたりの新規カード出題枚数の上限に影響を与えます。例えば、一日あたりのカード出題枚数の上限を200に設定し、期日を迎えたカードが190枚ある場合、最大10枚の新規カードが新たに導入されます。しかし、期日を迎えたカードの枚数が、一日あたりのカード出題枚数の上限を超えている場合、その日に新規カードは新たに導入されません。
 deck-config-limit-interday-bound-by-reviews = 一日あたりのカード出題枚数の上限は、日付をまたいだ習得中（または再習得中）カードにも適用されます。上限を適用するとき、まず日付をまたいだ習得中（再習得中）カードが集められ、次に復習カード、最後に新規カードの順で集められます。
 deck-config-tab-description =
-    - `プリセット`: この上限は、このプリセットを使用する全てのデッキで共有されます。¶
-    - `このデッキ`: この上限は、このデッキにのみ適用されます。¶
+    - `プリセット`: この上限は、このプリセットを使用する全てのデッキで共有されます。
+    - `このデッキ`: この上限は、このデッキにのみ適用されます。
     - `今日だけ`: このデッキの上限を一時的に変更します。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -37,6 +37,16 @@ deck-config-today-only = 今日だけ
 deck-config-learning-steps = 習得ステップ
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = ステップは、分（例：`1m`）や日数（例：`2d`）で指定することがほとんどですが、時間（例：`1h`）や秒（例：`30s`）で指定することも可能です。
+deck-config-learning-steps-tooltip =
+    １回あるいは複数回のステップを、半角スペースをはさんで入力します。
+    
+    最初のステップは、新規カードの学習で「`もう一度`」ボタンを押した場合に適用され、デフォルトでは1分後に再び表示されるように入力されています。
+    
+    次のステップは、新規カードの学習で「`正解`」ボタンを押した場合に適用され、デフォルトでは10分後に再び表示されるように入力されています。
+    
+    すべてのステップをパスすると、そのカードは復習カードとなり、別の日に表示されます。
+    
+    { -deck-config-delay-hint }
 deck-config-easy-interval-tooltip = 「`簡単`」ボタンが押され、習得中カードから復習カードへと直ちに切り替わった場合に、そのカードが再び表示されるまでの日数。
 deck-config-new-insertion-order = 導入する順序
 deck-config-new-insertion-order-tooltip = 新規カードを追加したとき、そのカードに与えられる位置（新規カード番号）の決め方を選択できます。新規カード番号が低い順にカードは表示されます。このオプションを変更すると、直ちに新規カードの位置が更新されます。
@@ -50,11 +60,11 @@ deck-config-relearning-steps = 再習得ステップ
 deck-config-relearning-steps-tooltip =
     ０回あるいは複数回のステップを、半角スペースをはさんで入力します。
     
-    デフォルトでは、復習カードで「`もう一度`」ボタンを押すと、10分後に再び表示されるように入力されています。何も入力されていない場合は、そのカードは再習得ステップに入らずに復習間隔が変更されます。
+    デフォルトでは、復習カードで「`やり直し`」ボタンを押すと、10分後に再び表示されるように入力されています。何も入力されていない場合は、そのカードは再習得ステップに入らずに復習間隔が変更されます。
     
     { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    復習カードを無駄（定着困難）と判定するまでに「`もう一度`」ボタンを押す回数。
+    復習カードを無駄（定着困難）と判定するまでに「`やり直し`」ボタンを押す回数。
     
     無駄（定着困難）カードは、あなたの時間をたくさん浪費しているカードです。カードが無駄（定着困難）と判定された場合、そのカードを再編集するか、削除するか、あるいは記憶を助けるニーモニックを考えるなど、対策を講じることをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
@@ -129,8 +139,8 @@ deck-config-advanced-title = 詳細
 deck-config-easy-bonus-tooltip = 復習カードに「簡単」と回答した際、そのカードの復習間隔に追加して適用される乗数。
 deck-config-interval-modifier-tooltip = ここで設定する乗数はすべての復習に適用され、Ankiのスケジューリングの間隔をお好みに合わせて微調整することができます。この設定を変更する際にはマニュアルをご確認ください。
 deck-config-hard-interval-tooltip = 「難しい」と回答した際、復習間隔に適用される乗数。
-deck-config-new-interval-tooltip = 「もう一度」と回答した際、復習間隔に適用される乗数。
-deck-config-minimum-interval-tooltip = 復習カードに`もう一度`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの最短日数。
+deck-config-new-interval-tooltip = 「やり直し」と回答した際、復習間隔に適用される乗数。
+deck-config-minimum-interval-tooltip = 復習カードに`やり直し`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの最短日数。
 deck-config-custom-scheduling = カスタムスケジューリング
 deck-config-custom-scheduling-tooltip = コレクション全体に影響します。ご自身の責任でご使用ください！
 

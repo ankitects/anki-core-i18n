@@ -1,4 +1,4 @@
-studying-again = もう一度
+studying-again = やり直し
 studying-all-buried-cards = 延期したすべてのカード
 studying-audio-5s = オーディオ-5秒
 studying-audio-and5s = オーディオ+5秒
