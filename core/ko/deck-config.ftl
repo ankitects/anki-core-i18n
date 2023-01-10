@@ -126,7 +126,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `랜덤 카드`: 무작위적으로 카드를 모읍니다.
 deck-config-new-gather-priority-deck = 덱
 deck-config-new-gather-priority-position-lowest-first = 오름차순
-deck-config-new-gather-priority-position-highest-first = 내림차순
 deck-config-new-gather-priority-random-notes = 랜덤 노트
 deck-config-new-gather-priority-random-cards = 랜덤 카드
 deck-config-new-card-sort-order = 새로운 카드의 정렬 순서
@@ -156,7 +155,7 @@ deck-config-new-review-priority = 새/복습 카드 순서
 deck-config-new-review-priority-tooltip = 복습 카드 대비 새 카드를 보여줄 시기를 나타냅니다.
 deck-config-interday-step-priority = interday 학습카드/복습카드 순서
 deck-config-interday-step-priority-tooltip =
-    하루의 경계를 넘는 학습카드/복습카드를 보여줄 시기를 나타냅니다.
+    하루의 경계를 넘는(interday) 학습카드/복습카드를 보여줄 시기를 나타냅니다.
     
     복습 한도는 항상 interday 학습 카드에 먼저 적용되고, 그 다음에
     복습 카드에 적용됩니다. 이 옵션은 수집된 카드가 표시되는 순서를
@@ -176,7 +175,6 @@ deck-config-sort-order-deck-then-due-date = 덱 후 학습 기한
 deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
 deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
 deck-config-sort-order-ascending-ease = ease 오름차순
-deck-config-sort-order-descending-ease = ease 내림차순
 deck-config-sort-order-relative-overdueness = 늦은 정도의 상대값
 deck-config-display-order-will-use-current-deck =
     Anki는 하위 덱이 아닌 사용자가
