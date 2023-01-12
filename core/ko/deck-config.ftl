@@ -92,9 +92,8 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 미루기
-deck-config-bury-new-siblings = 인접한 새 카드 미루기
-deck-config-bury-review-siblings = 인접한 복습 카드 미루기
-deck-config-bury-interday-learning-siblings = 인접한 interday 학습 카드 미루기
+deck-config-bury-new-siblings = 같은 노트에 있는 새 카드 미루기
+deck-config-bury-review-siblings = 같은 노트에 있는 복습카드 미루기
 deck-config-bury-new-tooltip =
     동일한 노트의 다른 (역방향, 인접한 빈칸 채우기 등) `새` 카드를
     다음 날까지 미룰지 여부를 나타냅니다.
