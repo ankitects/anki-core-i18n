@@ -24,22 +24,19 @@ deck-config-review-limit-tooltip =
     Il massimo numero giornaliero di carte da ripetere,
     se le carte sono pronte per essere ripassate.
 deck-config-limit-deck-v3 =
-    Quando si studia un mazzo che ha mazzi figli, i limiti imposti su ognuno
-    di essi controlla il massimo numero di carte estratte da quel particolare mazzo.
-    I limiti del mazzo padre controlla il numero totale di carte che verranno mostrate.
+    Quando si studia un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio controllano il numero massimo di carte estratte da quel particolare mazzo.
+    I limiti del mazzo padre controllano il totale delle carte che verranno mostrate.
 deck-config-limit-new-bound-by-reviews =
     Il limite di ripetizioni influenza il limite delle carte nuove. Per esempio, se il limite di
-    ripetizioni è 200, e hai 190 carte in attesa, massimo 10 nuove carte verranno
-    introdotte. Se il tuo limite di ripetizioni è stato raggiunto, nessuna nuova carta
-    verrà mostrata.
+    ripetizioni è 200, e hai 190 carte in attesa, verranno introdotte massimo 10 nuove carte. Se il tuo limite di ripetizioni è stato raggiunto, non verrà mostrata nessuna nuova carta.
 deck-config-limit-interday-bound-by-reviews =
     Il limite di ripetizioni infuenza anche le carte in apprendimento intergiornaliero.
     Quando si applica il limite, le prime ad esserne affette sono le carte in apprendimento intergiornaliero,
     poi le carte da ripetere, e infine le carte nuove.
 deck-config-tab-description =
-    - `Preset`: il limite è condiviso da tutti i mazzi che usano questo preset.¶
+    - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.¶
     - `Questo mazzo`: il limite è specifico per questo mazzo.¶
-    - `Solo oggi`: modifica temporanea del limite di questo mazzo.
+    - `Solo oggi`: apporta una modifica temporanea al limite di questo mazzo.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -105,9 +102,9 @@ deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in ap
 deck-config-bury-new-tooltip =
     Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)¶
     debbano essere rimandate fino al giorno successivo.
-deck-config-bury-review-tooltip = Scegli se le altre carte 'da ripetere' della stessa nota debbano essere rimandate fino al giorno successivo.
+deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
 deck-config-bury-interday-learning-tooltip =
-    Scegli se le altre carte 'in apprendimento' della stessa nota, con intervallo > 1 giorno¶
+    Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno¶
     debbano essere rimandate fino al giorno successivo.
 
 ## Ordering section
@@ -215,8 +212,8 @@ deck-config-clone-group = Clona Predefinito
 
 deck-config-remove-group = Rimuovi Predefinito
 deck-config-will-require-full-sync =
-    Il cambiamento richiesti richiede una sincronizzazione a senso unico. Se hai fatto
-    cambiamenti su un altro dispositivo, a non li hai ancora sincronizzati con questo
+    Il cambiamento richiesto richiede una sincronizzazione a senso unico. Se hai fatto
+    cambiamenti su un altro dispositivo, e non li hai ancora sincronizzati con questo
     dispositivo, per favore fallo prima di procedere.
 deck-config-confirm-remove-name = Rimuovi { $name }?
 

@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Maggiori informazioni
 card-template-rendering-front-side-problem = Il modello fronte ha un problema:
 card-template-rendering-back-side-problem = Il modello retro ha un problema:
+card-template-rendering-browser-front-side-problem = Il modello `fronte` specifico per il browser ha un problema:
+card-template-rendering-browser-back-side-problem = Il modello `retro` specifico per il browser ha un problema:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Manca '{ $missing }' in '{ $tag }'

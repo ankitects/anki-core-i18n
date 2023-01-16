@@ -1,6 +1,7 @@
 importing-failed-debug-info = Importazione fallita. Informazioni sul debug:
 importing-aborted = Interrotto: { $val }
 importing-added-duplicate-with-first-field = Aggiunto duplicato con primo campo: { $val }
+importing-all-supported-formats = Tutti i formati supportati { $val }
 importing-allow-html-in-fields = Consenti l'HTML nei campi
 importing-anki-files-are-from-a-very = I file .anki sono di una versione molto vecchia di Anki. Puoi importarli utilizzando Anki 2.0, disponibile sul sito di Anki.
 importing-anki2-files-are-not-directly-importable = I file .anki2 non sono importabili direttamente - importa invece i file .apkg o .zip che hai ricevuto.
@@ -14,6 +15,7 @@ importing-field-separator = Separatore di campo
 importing-field-mapping = Mappatura campi
 importing-field-of-file-is = Il campo <b>{ $val }</b> del file è:
 importing-fields-separated-by = Campi separati da: { $val }
+importing-file-must-contain-field-column = Il file deve contenere almeno una colonna che possa essere mappata al campo di una nota.
 importing-file-version-unknown-trying-import-anyway = Versione del file sconosciuta, tento ugualmente l'importazione.
 importing-first-field-matched = Primo campo corrispondente: { $val }
 importing-identical = Identico
@@ -37,6 +39,8 @@ importing-notes-that-could-not-be-imported = Note che non hanno potuto essere im
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazzo/Collezzione Anki impacchettato (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Barra verticale (Pipe)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' possiedono { $found } campi, mentre ci si aspettava { $expected }
 importing-selected-file-was-not-in-utf8 = Il file selezionato non era nel formato UTF-8. Consulta la sezione importazione del manuale.
 importing-semicolon = Punto e virgola
@@ -78,3 +82,29 @@ importing-processed-media-file =
         [one] Processato { $count } file multimediale
        *[other] Processati { $count } file multimediali
     }
+importing-importing-collection = Importazione della collezione...
+importing-importing-file = Importazione del file...
+importing-extracting = Estrazione dei dati...
+importing-gathering = Raccolta dei dati...
+importing-failed-to-import-media-file = Impossibile importare il file multimediale: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Processata { $count } nota...
+       *[other] Processate { $count } note...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Processata { $count } carta...
+       *[other] Processate { $count } carte...
+    }
+importing-unable-to-import-filename = Impossibile importare { $filename }: tipo di file non supportato
+importing-existing-notes = Note esistenti
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplica
+# "Existing notes: Preserve" (verb)
+importing-preserve = Mantieni
+# "Existing notes: Update" (verb)
+importing-update = Aggiorna
+importing-tag-all-notes = Etichetta tutte le note
+importing-tag-updated-notes = Etichetta le note aggiornate
+importing-file = File
