@@ -2,7 +2,7 @@
 card-templates-blank = vuoto
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] I cambiamenti qui sotto avranno effetto su { $count } nota (l'unica) che usa questo tipo di carta.
+        [one] I cambiamenti qui sotto avranno effetto su { $count } nota che usa questo tipo di carta.
        *[other] I cambiamenti qui sotto avranno effetto sulle { $count } note che usano questo tipo di carta.
     }
 card-templates-card-type = Tipo di carta:
@@ -20,7 +20,7 @@ card-templates-night-mode = Modalità notturna
 # on a mobile device.
 card-templates-add-mobile-class = Aggiungi classe Mobile (per simulare dispositivi mobili)
 card-templates-preview-settings = Opzioni
-card-templates-invalid-template-number = Il tipo di carta { $number } ha un problema.
+card-templates-invalid-template-number = Il template { $number } ha un problema.
 card-templates-identical-front = Il lato frontale è identico al modello { $number }
 card-templates-no-front-field = Ci dovrebbe essere una sostituzione di campo nel lato frontale del modello.
 card-templates-missing-cloze = Ci dovrebbe essere '{ "{{" }cloze:Text{ "}}" }' o simile sul fronte e retro del modello della carta.

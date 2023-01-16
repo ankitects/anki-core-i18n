@@ -36,6 +36,10 @@ deck-config-limit-interday-bound-by-reviews =
     Il limite di ripetizioni infuenza anche le carte in apprendimento intergiornaliero.
     Quando si applica il limite, le prime ad esserne affette sono le carte in apprendimento intergiornaliero,
     poi le carte da ripetere, e infine le carte nuove.
+deck-config-tab-description =
+    - `Preset`: il limite è condiviso da tutti i mazzi che usano questo preset.¶
+    - `Questo mazzo`: il limite è specifico per questo mazzo.¶
+    - `Solo oggi`: modifica temporanea del limite di questo mazzo.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -97,7 +101,14 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Sepoltura
 deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
 deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
-deck-config-bury-interday-learning-siblings = Seppellisci carte sorelle in apprendimento intergiornaliero
+deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in apprendimento intergiornaliero
+deck-config-bury-new-tooltip =
+    Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)¶
+    debbano essere rimandate fino al giorno successivo.
+deck-config-bury-review-tooltip = Scegli se le altre carte 'da ripetere' della stessa nota debbano essere rimandate fino al giorno successivo.
+deck-config-bury-interday-learning-tooltip =
+    Scegli se le altre carte 'in apprendimento' della stessa nota, con intervallo > 1 giorno¶
+    debbano essere rimandate fino al giorno successivo.
 
 ## Ordering section
 

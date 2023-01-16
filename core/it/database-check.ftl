@@ -22,12 +22,12 @@ database-check-new-card-high-due =
     }
 database-check-card-missing-note =
     { $count ->
-        [one] Eliminato { $count } carta con nota mancante.
-       *[other] Eliminato { $count } carte con nota mancante.
+        [one] Eliminata { $count } carta con nota mancante.
+       *[other] Eliminate { $count } carte con nota mancante.
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] Eliminate { $count } carte con modello duplicato.
+        [one] Eliminata { $count } carta con modello duplicato.
        *[other] Eliminate { $count } carte con modello duplicato.
     }
 database-check-missing-decks =
@@ -37,7 +37,7 @@ database-check-missing-decks =
     }
 database-check-revlog-properties =
     { $count ->
-        [one] Risolto { $count } voce di revisione con proprietà non valide.
+        [one] Risolta { $count } voce di revisione con proprietà non valide.
        *[other] Risolte { $count } voci di revisione con proprietà non valide.
     }
 database-check-notes-with-invalid-utf8 =

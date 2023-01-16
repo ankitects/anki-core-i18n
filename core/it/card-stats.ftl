@@ -1,4 +1,4 @@
-card-stats-added = Aggiunto
+card-stats-added = Carte Aggiunte
 card-stats-first-review = Prima ripetizione
 card-stats-latest-review = Ripetizione più recente
 card-stats-interval = Intervallo
