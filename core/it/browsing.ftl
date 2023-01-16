@@ -23,7 +23,7 @@ browsing-cards-deleted =
        *[other] { $count } carte eliminate.
     }
 browsing-change-deck = Cambia il mazzo
-browsing-change-deck2 = Cambia mazzo:
+browsing-change-deck2 = Cambia mazzo...
 browsing-change-note-type = Cambia il tipo di nota
 browsing-change-note-type2 = Cambia il tipo di nota...
 browsing-change-notetype = Cambia il tipo di nota
@@ -39,7 +39,7 @@ browsing-enter-tags-to-add = Inserisci etichette da aggiungere:
 browsing-enter-tags-to-delete = Inserisci etichette da eliminare:
 browsing-filtered = (filtrato)
 browsing-find = <b>Trova</b>:
-browsing-find-and-replace = Trova e sostituisci
+browsing-find-and-replace = Trova e Sostituisci
 browsing-find-duplicates = Trova i duplicati
 browsing-first-card = Prima carta
 browsing-flag = Contrassegno
@@ -94,7 +94,7 @@ browsing-tag-duplicates = Etichetta duplicati
 browsing-tag-rename-warning-empty = Non puoi rinominare un'etichetta che non ha nessuna nota.
 browsing-target-field = Campo bersaglio:
 browsing-toggle-showing-cards-notes = Alterna visualizzazione carte/note
-browsing-toggle-mark = Attiva/disattiva contrassegno
+browsing-toggle-mark = Attiva/disattiva marchio
 browsing-toggle-suspend = Attiva/disattiva sospensione
 browsing-treat-input-as-regular-expression = Considera l'immissione come espressione regolare
 browsing-update-saved-search = Aggiorna con ricerca corrente
