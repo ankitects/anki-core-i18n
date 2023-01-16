@@ -9,6 +9,8 @@ errors-100-tags-max =
     c'è bisogno di selezionare etichette figlie se hai selezionato una etichetta padre.
 errors-multiple-notetypes-selected = Per favore seleziona solo note di un solo tipo.
 errors-please-check-database = Per favore usa il comando "Controlla il database" e riprova.
+errors-please-check-media = Per favore usa il comando "Controlla file Multimediali" e riprova.
+errors-inconsistent-db-state = Il tuo database sembra essere in uno stato incoerente. Usa il comando "Controlla il database".
 
 ## Card Rendering
 
