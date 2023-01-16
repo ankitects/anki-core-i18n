@@ -12,6 +12,7 @@ browsing-browser-appearance = Aspetto del browser
 browsing-browser-options = Opzioni del browser
 browsing-buried = Seppellito
 browsing-card = Carta
+browsing-cards = Carte
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = C
 browsing-card-list = Elenco delle carte
@@ -59,6 +60,7 @@ browsing-new-note-type = Nuovo tipo di nota:
 browsing-no-flag = Nessun contrassegno
 browsing-no-selection = Nessuna carta o nota selezionata.
 browsing-note = Nota
+browsing-notes = Note
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
 browsing-optional-filter = Filtro opzionale:

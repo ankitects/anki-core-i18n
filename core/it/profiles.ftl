@@ -13,3 +13,7 @@ profiles-could-not-create-data-folder = Anki non ha potuto creare la sua cartell
 profiles-prefs-corrupt-title = Preferenze corrotte
 profiles-prefs-file-is-corrupt = Il file prefs21.db di Anki era corrotto ed è stato ricreato. Se stavi usando profili multipli, per favore aggiungili di nuovo usando gli stessi nomi di prima per poter recuperare le tue carte.
 profiles-profile-does-not-exist = Il profilo richiesto non esiste.
+profiles-creating-backup = Creazione Backup in corso...
+profiles-backup-created = Creato Backup.
+profiles-backup-creation-failed = Creazione Backup non riuscita: { $reason }
+profiles-backup-unchanged = Nessuna modifica dall'ultimo Backup.

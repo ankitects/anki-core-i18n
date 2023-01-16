@@ -8,10 +8,12 @@ actions-copy = Copia
 actions-create-copy = Crea Copia
 actions-custom-study = Studio personalizzato
 actions-decks = Mazzi
+actions-decrement-value = Diminuisci valore
 actions-delete = Elimina
 actions-export = Esporta
 actions-filter = Filtro
 actions-help = Aiuto
+actions-increment-value = Incrementa valore
 actions-import = Importa
 actions-manage = Gestisci...
 actions-name = Nome:
@@ -53,6 +55,7 @@ actions-previous-card-info = Info Carta Precedente
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-currently-unsupported = Questa azione al momento non è supportata sul tuo sistema.
 
 ## Flags
 

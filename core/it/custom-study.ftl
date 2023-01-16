@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Aumenta il limite odierno di carte
 custom-study-increase-todays-new-card-limit-by = Aumenta il limite odierno di carte nuove di
 custom-study-increase-todays-review-card-limit = Aumenta il limite odierno di ripetizioni
 custom-study-increase-todays-review-limit-by = Aumenta il limite odierno di ripetizioni di
-custom-study-new-cards-in-deck-over-today = Carte nuove nel mazzo oltre il limite odierno: { $val }
 custom-study-new-cards-only = Solo carte nuove
 custom-study-no-cards-matched-the-criteria-you = Nessuna carta soddisfa i criteri che hai indicato
 custom-study-ok = OK
@@ -21,8 +20,13 @@ custom-study-review-ahead = Ripeti in anticipo
 custom-study-review-ahead-by = Ripeti in anticipo di
 custom-study-review-cards-forgotten-in-last = Ripeti carte dimenticate negli ultimi
 custom-study-review-forgotten-cards = Ripeti carte dimenticate
-custom-study-reviews-due-in-deck-over-today = Da ripetere nel mazzo oltre il limite odierno: { $val }
 custom-study-select = Seleziona
 custom-study-select-tags-to-exclude = Seleziona etichette da escludere:
 custom-study-selective-study = Studio selettivo
 custom-study-study-by-card-state-or-tag = Studia per stato delle carte o etichetta
+custom-study-available-new-cards-2 = Carte nuove disponibili: { $countString }
+custom-study-available-review-cards-2 = Carte da ripetere disponibili: { $countString }
+custom-study-available-child-count = ({ $count } nei mazzi figli)
+
+## DEPRECATED - you do not need to translate these.
+
