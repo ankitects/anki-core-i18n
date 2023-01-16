@@ -22,6 +22,10 @@ media-check-oversize-header = File grandi più di 100MB non possono essere sincr
 media-check-subfolder-header = Le cartelle all'interno della cartella dei media non sono supportate.
 media-check-missing-header = Usato nelle carte ma mancante nella cartella multimediale:
 media-check-unused-header = I seguenti file sono stati trovati nella cartella dei media, ma sembra non siano stati utilizzati in nessuna carta:
+media-check-template-references-field-header =
+    Anki non è in grado di rilevare i file usati quando usi i riferimenti { "{{Field}}" } nei tag media/LaTeX. I tag media/LaTeX dovrebbero invece essere posizionati su singole note.¶
+    ¶
+    Modelli di riferimento:
 
 ## Shown once for each file
 

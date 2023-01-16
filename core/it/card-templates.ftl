@@ -20,7 +20,7 @@ card-templates-night-mode = Modalità notturna
 # on a mobile device.
 card-templates-add-mobile-class = Aggiungi una classe da applicare ai dispositivi mobili
 card-templates-preview-settings = Opzioni
-card-templates-invalid-template-number = Il template { $number } ha un problema.
+card-templates-invalid-template-number = Il modello { $number } ha un problema.
 card-templates-identical-front = Il lato frontale è identico al modello { $number }
 card-templates-no-front-field = Ci dovrebbe essere una sostituzione di campo nel lato frontale del modello.
 card-templates-missing-cloze = Ci dovrebbe essere '{ "{{" }cloze:Text{ "}}" }' o simile sul fronte e retro del modello della carta.
@@ -35,17 +35,17 @@ card-templates-browser-appearance = Aspetto del browser...
 card-templates-card = Carta { $val }
 card-templates-card-types-for = Tipi di carte per { $val }
 card-templates-cloze = Cloze { $val }
-card-templates-deck-override = Sovrascrivo mazzo...
+card-templates-deck-override = Sovrascrivi mazzo...
 card-templates-delete-the-as-card-type-and = Eliminare il modello '{ $template }' e il suo { $cards }?
-card-templates-enter-deck-to-place-new = Inserisci il mazzo dove mettere le nuove carte { $val }, o lascia vuoto:
+card-templates-enter-deck-to-place-new = Seleziona il mazzo dove mettere le nuove carte { $val }, o lascia vuoto:
 card-templates-enter-new-card-position-1 = Inserisci una nuova posizione della carta (1...{ $val }):
 card-templates-flip = Inverti
 card-templates-form = Modulo
 card-templates-off = (disattivato)
 card-templates-on = (attivato)
 card-templates-remove-card-type = Rimuovi tipo di carta...
-card-templates-rename-card-type = Rinomina tipo di carte...
-card-templates-reposition-card-type = Riposiziona tipo di carte...
+card-templates-rename-card-type = Rinomina tipo di carta...
+card-templates-reposition-card-type = Riposiziona tipo di carta...
 card-templates-card-count =
     { $count ->
         [one] { $count } carta
@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
         [one] Verrà creata { $count } carte. Proseguire?
        *[other] Verranno create { $count } carte. Proseguire?
     }
+card-templates-type-boxes-warning = Anki supporta solo una casella di digitazione per ciascuna carta.

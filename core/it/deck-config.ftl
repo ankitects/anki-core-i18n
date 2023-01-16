@@ -37,6 +37,13 @@ deck-config-limit-interday-bound-by-reviews =
     Quando si applica il limite, le prime ad esserne affette sono le carte in apprendimento intergiornaliero,
     poi le carte da ripetere, e infine le carte nuove.
 
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = Preset
+deck-config-deck-only = Questo mazzo
+deck-config-today-only = Solo oggi
+
 ## New Cards section
 
 deck-config-learning-steps = Passi di apprendimento
@@ -61,6 +68,9 @@ deck-config-new-insertion-order-tooltip =
     questa opzione aggiornerà automaticamente la posizione corrente delle nuove carte.
 deck-config-new-insertion-order-sequential = Sequenziale (prima le carte più vecchie)
 deck-config-new-insertion-order-random = Casuale
+deck-config-new-insertion-order-random-with-v3 =
+    Con lo scheduler V3, è meglio lasciarlo impostato su sequenziale, e¶
+    modificare invece l'ordine di raccolta delle nuove carte.
 
 ## Lapses section
 
@@ -87,41 +97,26 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Sepoltura
 deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
 deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
-deck-config-bury-tooltip =
-    Se altre carte della stessa nota (es. carte inverse, cancellazioni cloze 
-    adiacenti) saranno rimandate al giorno successivo.
+deck-config-bury-interday-learning-siblings = Seppellisci carte sorelle in apprendimento intergiornaliero
 
 ## Ordering section
 
 deck-config-ordering-title = Ordine di presentazione
 deck-config-new-gather-priority = Ordine di raccolta delle nuove carte
-deck-config-new-gather-priority-tooltip =
-    `Mazzo`: raggruppa carte da ciascun mazzo figlio in ordine, e si ferma quando
-    viene superato il limite del mazzo selezionato. E' veloce, e ti permette
-    di priorizzare i mazzi figli più in cima.
-    
-    `Posizione`: raggruppa carte da tutti i mazzi prima che esse vengano ordinate. Questo
-    garantisce la presentazione delle carte in un ordine preciso (Scadenza #), anche se
-    il limite del mazzo padre non è alto abbastanza per mostrare le carte di tutti i mazzi.
 deck-config-new-gather-priority-deck = Mazzo
 deck-config-new-gather-priority-position-lowest-first = Ordine per posizione crescente
 deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
+deck-config-new-gather-priority-random-notes = Casuale (note)
+deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordinamento delle nuove carte
-deck-config-new-card-sort-order-tooltip =
-    Come le carte sono ordinate dopo essere state raccolte. Di default, Anki ordina
-    prima secondo il modello di carta, per evitare che diverse carte della stessa nota
-    vengano mostrate una dopo l'altra.
-deck-config-sort-order-card-template-then-lowest-position = Modello di carta, poi per posizione crescente
-deck-config-sort-order-card-template-then-highest-position = Modello di carta, poi per posizione decrescente
 deck-config-sort-order-card-template-then-random = Modello di carta, poi in ordine casuale
-deck-config-sort-order-lowest-position = Posizione crescente
-deck-config-sort-order-highest-position = Posizione decrescente
+deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
 deck-config-sort-order-random = Casuale
 deck-config-sort-order-template-then-gather = Modello di carta, poi in ordine di raccolta
 deck-config-sort-order-gather = Ordine di raccolta
-deck-config-new-review-priority = Ordine nuovo/da rivedere
+deck-config-new-review-priority = Ordine nuove/da rivedere
 deck-config-new-review-priority-tooltip = Quando mostrare nuove carte in relazione a quelle da ripassare
-deck-config-interday-step-priority = Orine di apprendimento/revisione intergiornaliero
+deck-config-interday-step-priority = Ordine di apprendimento/revisione intergiornaliero
 deck-config-interday-step-priority-tooltip =
     Quando mostrare carte in (re)apprendimento che superano la soglia di un giorno.
     
@@ -131,7 +126,7 @@ deck-config-interday-step-priority-tooltip =
 deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
 deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
 deck-config-review-mix-show-before-reviews = Mostra dopo le carte da ripassare
-deck-config-review-sort-order = Ordine delle carte dal ripassare
+deck-config-review-sort-order = Ordine delle carte da ripassare
 deck-config-review-sort-order-tooltip =
     L'ordine di default dà priorità alle carte che sono in attesa da più tempo, così
     se hai una lista di carte arretrate, quella che sta aspettando da più tempo
@@ -142,9 +137,10 @@ deck-config-sort-order-due-date-then-random = Data di scadenza, poi a caso
 deck-config-sort-order-due-date-then-deck = Data di scadenza, poi ordine del mazzo
 deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi per data di scadenza
 deck-config-sort-order-ascending-intervals = Intervalli ascendenti
-deck-config-sort-order-descending-intervals = Intervalli decrescente
+deck-config-sort-order-descending-intervals = Intervalli decrescenti
 deck-config-sort-order-ascending-ease = Facilità crescente
 deck-config-sort-order-descending-ease = Facilità decrescente
+deck-config-sort-order-relative-overdueness = Ritardo relativo
 deck-config-display-order-will-use-current-deck =
     Anki userà l'ordine di apparizione dal mazzo che hai 
     selezionato da studiare, e non da un suo mazzo figlio.
@@ -165,7 +161,10 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Non riprodurre audio automaticamente
-deck-config-skip-question-when-replaying = Salta la domanda quando la risposta viene ripetuta
+deck-config-disable-autoplay-tooltip =
+    Se abilitato, Anki non riprodurrà l'audio automaticamente.¶
+    Può essere riprodotto manualmente facendo click/toccando un'icona audio, o utilizzando il comando di riproduzione audio.
+deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzione della risposta
 deck-config-always-include-question-audio-tooltip =
     Se l'audio della domanda deve essere inclusa quando usi l'azione "Riproduci di nuovo"
     mentre guardi alla risposta della carta.
@@ -221,14 +220,13 @@ deck-config-revert-button-tooltip = Ripristina questa impostazione al suo valore
 
 deck-config-description-new-handling = Gestione Anki 2.1.41+
 deck-config-description-new-handling-hint =
-    Tratta l'input come markdown, e cancella l'input HTML.Quando abilitato, anche 
-    la descrizione sarà mostrata sulla schermata di congratulazioni.
+    Tratta l'input come markdown, e cancella l'input HTML. Quando abilitato, la descrizione sarà mostrata anche sulla schermata di congratulazioni.
     Markdown apparirà come testo su versioni di Anki inferiori o uguali a 2.1.40.
 
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    Un mazzo parde ha un limite di { $cards ->
+    Un mazzo padre ha un limite di { $cards ->
         [one] { $cards } carta
        *[other] { $cards } carte
     }, che sovrascriverà questo limite.
@@ -240,7 +238,11 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = L'intervallo di promozione dovrebbe essere lungo almeno quanto il passo finale di apprendimento.
 deck-config-good-above-easy = L'intervallo delle carte facili dovrebbe essere lungo almeno quanto l'intervallo di promozione.
 deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto il passo finale di riapprendimento.
+deck-config-maximum-answer-secs-above-recommended = Anki può programmare le tue ripetizioni in modo più efficiente se mantieni ogni domanda breve.
 
 ## Selecting a deck
 
 deck-config-which-deck = Quale mazzo desideri?
+
+## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+
