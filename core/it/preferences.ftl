@@ -17,7 +17,7 @@ preferences-paste-without-shift-key-strips-formatting = Incolla senza formattazi
 preferences-periodically-sync-media = Sincronizza file multimediali periodicamente
 preferences-please-restart-anki-to-complete-language = Riavvia Anki per completare il cambiamento di lingua.
 preferences-preferences = Preferenze
-preferences-scheduling = Pianificazione
+preferences-scheduling = Pianifica
 preferences-show-learning-cards-with-larger-steps = Mostra le carte in apprendimento con passi più grandi prima delle ripetizioni
 preferences-show-next-review-time-above-answer = Mostra la prossima scadenza sopra i pulsanti di risposta
 preferences-show-play-buttons-on-cards-with = Mostra i pulsanti di riproduzione sulle carte con l'audio
@@ -39,7 +39,9 @@ preferences-theme-light = Chiaro
 preferences-theme-dark = Scuro
 preferences-v3-scheduler = Pianificatore V3
 preferences-ignore-accents-in-search = Ignora accenti nelle ricerche (più lento)
-preferences-backup-explanation = Anki crea periodicamente dei backup della tua collezione. Alcuni dei backup creati da più di 2 giorni¶ verranno via via rimossi per liberare spazio sul disco.
+preferences-backup-explanation =
+    Anki esegue periodicamente il backup della tua collezione. Dopo che i backup hanno più di 2 giorni,
+    Anki inizierà a rimuoverne alcuni per liberare spazio su disco.
 preferences-daily-backups = Backup giornalieri da conservare:
 preferences-weekly-backups = Backup settimanali da conservare:
 preferences-monthly-backups = Backup mensili da conservare:
