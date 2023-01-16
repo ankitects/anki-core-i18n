@@ -1,8 +1,8 @@
 studying-again = Ripeti
-studying-all-buried-cards = Tuttele carte seppellite
+studying-all-buried-cards = Tutte le carte seppellite
 studying-audio-5s = Audio -5s
 studying-audio-and5s = Audio +5s
-studying-buried-siblings = Carte gemelle seppellite
+studying-buried-siblings = Carte sorelle seppellite
 studying-bury = Seppellisci
 studying-bury-card = Seppellisci la carta
 studying-bury-note = Seppellisci la nota

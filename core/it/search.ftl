@@ -30,8 +30,8 @@ search-invalid-answer-button = previsto un pulsante di risposta tra 1-4 in "`{ $
 
 ## Column labels in browse screen
 
-search-note-modified = Modificato
-search-card-modified = Cambiato
+search-note-modified = Modificato (nota)
+search-card-modified = Modificato (carta)
 
 ##
 

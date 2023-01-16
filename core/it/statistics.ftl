@@ -100,7 +100,7 @@ statistics-card-ease-tooltip =
     }
 statistics-future-due-title = Previsioni
 statistics-future-due-subtitle = Numero di ripetizioni che scadranno in futuro.
-statistics-added-title = Aggiunto
+statistics-added-title = Carte Aggiunte
 statistics-added-subtitle = Numero di carte nuove che hai aggiunto.
 statistics-reviews-count-subtitle = Numero di domande alle quali hai risposto.
 statistics-reviews-time-subtitle = Tempo impiegato per rispondere alle domande.
