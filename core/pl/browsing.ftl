@@ -139,6 +139,7 @@ browsing-sidebar-save-current-search = Zapisz obecne wyszukiwanie
 browsing-sidebar-card-state = Stan karty
 browsing-sidebar-flags = Flagi
 browsing-today = Dzisiaj
+browsing-tooltip-card-modified = Ostatni raz dokonano zmian w karcie, w tym recenzji, flag i zmian w talii
 browsing-studied-today = Przejrzane dzisiaj
 browsing-added-today = Dodane dzisiaj
 browsing-again-today = Dzisiejsze pomyłki
