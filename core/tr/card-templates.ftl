@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = boş
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Aşağıdaki değişiklikler bu kart tipini kullanan { $count } kartı etkileyecek.
@@ -26,7 +28,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki, soruyla cevap arasınd
 card-templates-at-least-one-card-type-is = En az bir kart tipi gereklidir.
 card-templates-browser-appearance = Arayıcı Görünümü...
 card-templates-card = Kart { $val }
-card-templates-card-types = Kart Tipleri
 card-templates-card-types-for = { $val } için Kart Tipleri
 card-templates-cloze = Kapalı
 card-templates-deck-override = Deste Geçersiz Kıl...
