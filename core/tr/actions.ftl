@@ -21,6 +21,7 @@ actions-rebuild = Yeniden oluştur
 actions-rename = Yeniden adlandır
 actions-rename-deck = Desteyi Yeniden Adlandır
 actions-rename-tag = Etiketi Yeniden Adlandır
+actions-rename-with-parents = Üstlerle Yeniden Adlandır
 actions-replay-audio = Sesi Tekrarla
 actions-reposition = Yeniden Konumlandır
 actions-save = Kaydet
