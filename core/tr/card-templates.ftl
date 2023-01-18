@@ -20,7 +20,7 @@ card-templates-night-mode = Gece Modu
 # on a mobile device.
 card-templates-add-mobile-class = Mobil Sınıfı Ekle
 card-templates-preview-settings = Ayarlar
-card-templates-invalid-template-number = { $number } numaralı kart şablonunda bir hata var.
+card-templates-invalid-template-number = '{ $notetype }' not tipinin { $number } numaralı kart şablonunda bir hata var.
 card-templates-changes-saved = Değişiklikler kaydedildi.
 card-templates-discard-changes = Değişiklikleri iptal et?
 card-templates-add-card-type = Kart Tipi Ekle...
