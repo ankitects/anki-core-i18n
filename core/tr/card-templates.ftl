@@ -54,3 +54,4 @@ card-templates-this-will-create-card-proceed =
         [one] Bu { $count } kart oluşturacak. Devam etsin mi?
        *[other] Bu { $count } kart oluşturacak. Devam etsin mi?
     }
+card-templates-type-boxes-warning = Kart şablonu başına sadece bir yazma kutusu desteklenir.

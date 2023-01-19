@@ -8,6 +8,11 @@ help-open-manual-chapter = Kılavuzda { $name } aç
 
 ## Body
 
+# Newly introduced settings may not have an explanation yet
+help-no-explanation =
+    Eyvah! Bu ayar için henüz bir açıklama yok.
+    
+    Bu yardım sayfasını tamamlamamıza yardım edebilirsiniz. { $link }
 
 ## Footer
 
