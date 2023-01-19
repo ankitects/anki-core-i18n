@@ -22,6 +22,7 @@ actions-rename = Yeniden adlandır
 actions-rename-deck = Desteyi Yeniden Adlandır
 actions-rename-tag = Etiketi Yeniden Adlandır
 actions-rename-with-parents = Üstlerle Yeniden Adlandır
+actions-remove-tag = Etiketi Kaldır
 actions-replay-audio = Sesi Tekrarla
 actions-reposition = Yeniden Konumlandır
 actions-save = Kaydet
@@ -33,6 +34,7 @@ actions-set-due-date = Son Tarihi Ayarla
 actions-unbury-unsuspend = Gizlemeyi/Askıya Almayı Geri Al
 actions-add-deck = Deste Ekle
 actions-add-note = Not Ekle
+actions-update-tag = Etiketi Güncelle
 actions-update-note = Notu Güncelle
 actions-update-card = Kartı Güncelle
 actions-update-deck = Desteyi Güncelle
@@ -40,6 +42,7 @@ actions-card-info = Kart Bilgisi
 
 ## Flags
 
+actions-flag-number = { $number } Bayrak
 actions-flag-red = Kırmızı
 actions-flag-orange = Turuncu
 actions-flag-green = Yeşil
@@ -47,3 +50,4 @@ actions-flag-blue = Mavi
 actions-flag-pink = Pembe
 actions-flag-turquoise = Turkuaz
 actions-flag-purple = Mor
+actions-set-flag = Bayrakla İşaretle

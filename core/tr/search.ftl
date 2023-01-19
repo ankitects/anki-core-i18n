@@ -4,6 +4,7 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
+search-invalid-flag-2 = `flag:`dan sonra geçerli bir bayrak numarası gelmeli. Örneğin: `1` (kırmızı), `2` (turuncu), `3` (yeşil), `4` (mavi), `5` (pembe), `6` (turkuaz), `7` (mor) veya `0` (bayrak yok).
 
 ## eg. expected a number in "due>5x", but found "5x"
 
