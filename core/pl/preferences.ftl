@@ -46,3 +46,5 @@ preferences-daily-backups = Liczba kopii na dzień:
 preferences-weekly-backups = Liczba kopii na tydzień:
 preferences-monthly-backups = Liczba kopii na miesiąc:
 preferences-minutes-between-backups = Co ile minut kopia zapasowa:
+preferences-theme = Motyw
+preferences-editing = Edytowanie

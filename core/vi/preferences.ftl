@@ -38,3 +38,5 @@ preferences-you-can-restore-backups-via-fileswitch = Bạn có thể khôi phụ
 preferences-legacy-timezone-handling = Xử lý múi giờ cũ (lỗi, bắt buộc đối với AnkiDroid <= 2.14)
 preferences-default-search-text = Mẫu tìm kiếm mặc định
 preferences-default-search-text-example = vd. 'bộ thẻ:hiện tại '
+preferences-theme = Giao diện
+preferences-editing = Chỉnh sửa

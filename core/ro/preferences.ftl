@@ -47,3 +47,5 @@ preferences-backup-explanation =
 preferences-daily-backups = Backup-uri zilnice de păstrat:
 preferences-weekly-backups = Backup-uri săptămânale de păstrat:
 preferences-monthly-backups = Backup-uri lunare de păstrat:
+preferences-theme = Temă
+preferences-editing = Editare

@@ -46,3 +46,5 @@ preferences-monthly-backups = Beizubehaltende monatliche Sicherungskopien:
 preferences-minutes-between-backups = Minuten zwischen automatisch erstellten Sicherungskopien:
 preferences-reduce-motion = Animationen deaktivieren
 preferences-reduce-motion-tooltip = Deaktiviert diverse Animationen und Übergangsanimationen auf der Benutzeroberfläche
+preferences-theme = Theme
+preferences-editing = Bearbeiten

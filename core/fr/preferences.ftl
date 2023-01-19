@@ -48,3 +48,5 @@ preferences-monthly-backups = Sauvegardes mensuelles à conserver:
 preferences-minutes-between-backups = Minutes entre les sauvegardes automatiques :
 preferences-reduce-motion = Réduire le mouvement
 preferences-reduce-motion-tooltip = Désactiver les animations et transitions de l'interface utilisateur
+preferences-theme = Thème
+preferences-editing = Modification

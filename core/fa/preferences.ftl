@@ -36,3 +36,5 @@ preferences-user-interface-size = اندازۀ رابط کاربری
 preferences-when-adding-default-to-current-deck = هنگام افزدون کارت جدید، دسته فعلی به عنوان پیش فرض باشد
 preferences-you-can-restore-backups-via-fileswitch = شما می‌توانید فایل‌های پشتیبان را از مسیر فایل>تغییر پروفایل بازگردانی کنید.
 preferences-legacy-timezone-handling = مدیریت بازه زمانی قدیمی (دارای باگ، ولی برای AnkiDroid قدیمی‌تر از 2.14 ضروری است)
+preferences-theme = طرح
+preferences-editing = در حال ویرایش

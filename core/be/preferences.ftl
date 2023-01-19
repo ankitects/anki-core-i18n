@@ -38,3 +38,5 @@ preferences-daily-backups = Пакідаць штодзённых рэзерво
 preferences-weekly-backups = Пакідаць штотыднёвых рэзервовых копій:
 preferences-monthly-backups = Пакідаць штомесячных рэзервовых копій:
 preferences-minutes-between-backups = Хвілін паміж аўтаматычным рэзервовым капіяваннем:
+preferences-theme = Тэма
+preferences-editing = Рэдагаванне

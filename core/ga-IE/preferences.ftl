@@ -48,3 +48,5 @@ preferences-monthly-backups = Cóipeanna cúltaca míosúla le coinneáil:
 preferences-minutes-between-backups = Achar (nóim.) idir cúltacuithe uathoibríocha:
 preferences-reduce-motion = Maolaigh gluaiseacht
 preferences-reduce-motion-tooltip = Díchumasaigh beochaintí agus trasnálacha áirithe an chomhéadain
+preferences-theme = Modh
+preferences-editing = Cur in Eagar

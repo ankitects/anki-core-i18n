@@ -36,3 +36,4 @@ preferences-theme-label = ଥିମ୍: { $theme }
 preferences-theme-follow-system = ସିଷ୍ଟମ୍ କୁ ଅନୁସରଣ କରିବା
 preferences-theme-light = ହାଲୁକା
 preferences-theme-dark = ଗାଢ଼
+preferences-theme = ଥିମ୍

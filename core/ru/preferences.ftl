@@ -48,3 +48,5 @@ preferences-monthly-backups = Оставлять резервных копий �
 preferences-minutes-between-backups = Интервал между автоматическими копиями:
 preferences-reduce-motion = Меньше анимации
 preferences-reduce-motion-tooltip = Отключить анимацию и переходы в интерфейсе
+preferences-theme = Тема
+preferences-editing = Редактирование

@@ -48,3 +48,5 @@ preferences-monthly-backups = عدد النسخ الشهرية المحفوظة:
 preferences-minutes-between-backups = الدقائق بين النسخ التلقائية:
 preferences-reduce-motion = تقليل الأنميشن
 preferences-reduce-motion-tooltip = إيقاف تفعيل تأثيرات متحركة عديدة في واجهة المستخدم
+preferences-theme = السمة
+preferences-editing = تحرير

@@ -48,3 +48,5 @@ preferences-monthly-backups = Säilytettävien kuukausittaisten varmuuskopioiden
 preferences-minutes-between-backups = Automaattisten varmuuskopioiden välinen aika minuuteissa:
 preferences-reduce-motion = Vähennä liikettä
 preferences-reduce-motion-tooltip = Poistaa käytöstä useita käyttöliittymän animaatioita ja siirtymiä.
+preferences-theme = Teema
+preferences-editing = Muokkaus

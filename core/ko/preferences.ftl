@@ -48,3 +48,5 @@ preferences-monthly-backups = 저장할 월간 백업:
 preferences-minutes-between-backups = 자동 백업 간의 시간(분):
 preferences-reduce-motion = 시각적 효과 줄이기
 preferences-reduce-motion-tooltip = UI에서 다양한 애니메이션이나 전환 효과 등을 비활성화합니다.
+preferences-theme = 테마
+preferences-editing = 편집

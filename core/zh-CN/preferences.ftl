@@ -46,3 +46,5 @@ preferences-monthly-backups = 要保留的每月备份数量：
 preferences-minutes-between-backups = 自动备份的间隔时间(分钟)：
 preferences-reduce-motion = 减少动效
 preferences-reduce-motion-tooltip = 禁用用户界面的所有动画和过渡。
+preferences-theme = 主题
+preferences-editing = 编辑

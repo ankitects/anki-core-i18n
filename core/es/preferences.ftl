@@ -49,3 +49,5 @@ preferences-monthly-backups = Número de copias de seguridad mensuales a mantene
 preferences-minutes-between-backups = Tiempo entre copias de seguridad automáticas (en minutos):
 preferences-reduce-motion = Reducir el movimiento
 preferences-reduce-motion-tooltip = Deshabilita las animaciones y transiciones de la interfaz de usuario
+preferences-theme = Tema
+preferences-editing = Edición

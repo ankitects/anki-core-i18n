@@ -46,3 +46,5 @@ preferences-monthly-backups = 保留備份（每月）：
 preferences-minutes-between-backups = 自動備份間隔（分鐘）：
 preferences-reduce-motion = 減少動態效果
 preferences-reduce-motion-tooltip = 停用多種使用者介面中的動畫和過場效果
+preferences-theme = 佈景主題
+preferences-editing = 編輯
