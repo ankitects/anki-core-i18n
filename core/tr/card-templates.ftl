@@ -21,6 +21,9 @@ card-templates-night-mode = Gece Modu
 card-templates-add-mobile-class = Mobil Sınıfı Ekle
 card-templates-preview-settings = Ayarlar
 card-templates-invalid-template-number = '{ $notetype }' not tipinin { $number } numaralı kart şablonunda bir hata var.
+card-templates-identical-front = Ön yüz { $number } numaralı kart şablonuyla aynı.
+card-templates-missing-cloze = Kart şablonunun ön ve arkasında '{ "{{" }cloze:Text{ "}}" }' ya da benzer bir şey bulunması beklendi.
+card-templates-see-preview = Daha fazla bilgi için önizlemeye bakın.
 card-templates-changes-saved = Değişiklikler kaydedildi.
 card-templates-discard-changes = Değişiklikleri iptal et?
 card-templates-add-card-type = Kart Tipi Ekle...
@@ -29,7 +32,7 @@ card-templates-at-least-one-card-type-is = En az bir kart tipi gereklidir.
 card-templates-browser-appearance = Arayıcı Görünümü...
 card-templates-card = Kart { $val }
 card-templates-card-types-for = { $val } için Kart Tipleri
-card-templates-cloze = Kapalı
+card-templates-cloze = Boşluklu
 card-templates-deck-override = Deste Geçersiz Kıl...
 card-templates-delete-the-as-card-type-and = '{ $template }' kart tipi ve ona ait { $cards } silinsin mi?
 card-templates-enter-deck-to-place-new = Desteye yeni { $val } kartları yerleştirin, ya da boş bırakın:
@@ -45,4 +48,9 @@ card-templates-card-count =
     { $count ->
         [one] { $count } kart
        *[other] { $count } kart
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Bu { $count } kart oluşturacak. Devam etsin mi?
+       *[other] Bu { $count } kart oluşturacak. Devam etsin mi?
     }

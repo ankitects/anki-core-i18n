@@ -1,4 +1,5 @@
-findreplace-notes-updated = { $total ->
-    [one] Toplam {$changed} içinden {$total} not güncellendi.
-   *[other] Toplam {$changed} içinden {$total} not güncellendi.
-  }
+findreplace-notes-updated =
+    { $total ->
+        [one] Toplam { $total } içinden { $changed } not güncellendi.
+       *[other] Toplam { $total } içinden { $changed } not güncellendi.
+    }

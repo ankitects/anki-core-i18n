@@ -22,6 +22,9 @@ card-stats-review-log-type-review = Gözden Geçir
 card-stats-review-log-type-relearn = Tekrar Öğren
 card-stats-review-log-type-filtered = Filtrelenmiş
 card-stats-review-log-type-manual = Manuel
+card-stats-no-card = (Gösterilecek kart yok.)
 
 ## Window Titles
 
+card-stats-current-card = Mevcut Kart ({ $context })
+card-stats-previous-card = Önceki Kart ({ $context })
