@@ -20,9 +20,13 @@ deck-config-default-name = Öntanımlı
 
 ## Burying section
 
+deck-config-bury-new-siblings = Yeni kardeşleri gizle
+deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri gizle
+deck-config-bury-interday-learning-siblings = Günler arası öğrenimi kardeşleri gizle
 
 ## Ordering section
 
+deck-config-interday-step-priority = Günler arası öğrenimi/gözden geçirme sırası
 
 ## Timer section
 

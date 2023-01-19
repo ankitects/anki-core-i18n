@@ -3,6 +3,7 @@ browsing-all-fields = Tüm Alanlar
 browsing-answer = Cevap
 browsing-browser-appearance = Tarayıcı Görünümü
 browsing-browser-options = Tarayıcı Seçenekleri
+browsing-buried = Gizlendi
 browsing-card = Kart
 browsing-card-list = Kart Listesi
 browsing-cards-cant-be-manually-moved-into = Kartlar filtrelenmiş bir desteye manuel olarak taşınamaz.
@@ -76,6 +77,7 @@ browsing-sidebar-collapse-children = Altlarını Daralt
 browsing-today = Bugün
 browsing-added-today = Bugün Eklenenler
 browsing-again-today = Bugün tekrar edilenler
+browsing-sidebar-rescheduled = Yeniden planlandı
 browsing-reparented-decks =
     { $count ->
         [one] { $count } deste yeniden adlandırıldı.

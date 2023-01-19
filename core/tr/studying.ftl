@@ -1,9 +1,16 @@
 studying-again = Tekrar
+studying-all-buried-cards = Tüm Gizlenen Kartlar
+studying-buried-siblings = Gizlenen Kardeşler
 studying-bury = Gizle
 studying-bury-card = Kartı Gizle
 studying-bury-note = Notu Gizle
 studying-card-suspended = Kart askıya alındı.
 studying-card-was-a-leech = Kart bir sömürücüydü.
+studying-cards-buried =
+    { $count ->
+        [one] kart gizlendi.
+       *[other] kart gizlendi.
+    }
 studying-cards-will-be-automatically-returned-to = Kartlar incelemenizden sonra otomatik olarak orjinal destelerine döndürülecekler.
 studying-continue = Devam Et
 studying-delete-note = Notu Sil
@@ -15,6 +22,7 @@ studying-finish = Bitir
 studying-good = İyiydi
 studying-hard = Zordu
 studying-it-has-been-suspended = Askıya alınmıştır.
+studying-manually-buried-cards = Manuel Olarak Gizlenen Kartlar
 studying-more = Diğer
 studying-no-cards-are-due-yet = Henüz zamanı gelmiş kart yok.
 studying-note-suspended = Not askıya alındı.

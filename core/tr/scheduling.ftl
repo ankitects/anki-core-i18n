@@ -54,6 +54,10 @@ scheduling-unbury-them = gizlemeyi geri al
 
 ## Scheduler upgrade
 
+scheduling-update-done = Planlayıcı başarıyla güncellendi.
+scheduling-update-button = Güncelleştir
+scheduling-update-later-button = Daha sonra
+scheduling-update-more-info-button = Daha Fazla Öğren
 
 ## Other scheduling strings
 
@@ -88,7 +92,7 @@ scheduling-parent-limit = (ana kaynak limiti: { $val })
 scheduling-review = Gözden Geçir
 scheduling-reviews = Tekrarlar
 scheduling-seconds = saniye
-scheduling-set-for-all-subdecks = Bütün alt destler için uygula
+scheduling-set-for-all-subdecks = Tüm alt destler için uygula
 scheduling-show-answer-timer = Cevap zamanını göster
 scheduling-show-new-cards-after-reviews = Yeni kartları gözden geçirmelerden sonra göster
 scheduling-show-new-cards-before-reviews = Yeni kartları gözden geçirmelerden önce göster

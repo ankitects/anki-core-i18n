@@ -21,3 +21,7 @@ card-stats-review-log-type-learn = Öğrenme
 card-stats-review-log-type-review = Gözden Geçir
 card-stats-review-log-type-relearn = Tekrar Öğren
 card-stats-review-log-type-filtered = Filtrelenmiş
+card-stats-review-log-type-manual = Manuel
+
+## Window Titles
+

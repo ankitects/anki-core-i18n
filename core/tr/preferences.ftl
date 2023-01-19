@@ -1,10 +1,7 @@
 preferences-automatically-sync-on-profile-openclose = Açma/kapama anında profili otomatik olarak senkronize et
 preferences-backups = Yedekler
-preferences-backupsanki-will-create-a-backup-of = <b>Yedekler</b><br>Anki her kapandığında ya da senkronize edildiğinde koleksiyonunuzun yedeğini alacak.
 preferences-basic = Temel
 preferences-change-deck-depending-on-note-type = Not tipine göre desteyi değiştir
-preferences-interface-language = Arayüz dili:
-preferences-keep = Koru
 preferences-learn-ahead-limit = İleri limiti öğrenme
 preferences-mins = dk
 preferences-network = Ağ
@@ -21,3 +18,5 @@ preferences-some-settings-will-take-effect-after = Bazı ayarlar Anki yeniden ba
 preferences-synchronisation = <b>Eşitleme</b>
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Eşitleme</b><br> Henüz etkin değil. Ana pencerede eşitleme düğmesine tıklayarak etkinleştirin.
 preferences-synchronize-audio-and-images-too = Ses ve resimleri de senkronize edin
+preferences-v3-scheduler = V3 planlayıcı
+preferences-scheduler = Planlayıcı
