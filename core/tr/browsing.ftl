@@ -17,12 +17,13 @@ browsing-created = Oluşturuldu
 browsing-current-deck = Mevcut Deste
 browsing-current-note-type = Mevcut not tipi:
 browsing-delete-notes = Notu Sil
+browsing-duplicate = yinelenen
 browsing-ease = Kolaylık
 browsing-enter-tags-to-add = Eklenecek etiketleri girin :
 browsing-enter-tags-to-delete = Silinen etiketleri girin :
 browsing-find = <b>Bul</b>:
 browsing-find-and-replace = Bul ve Değiştir
-browsing-find-duplicates = Kopyaları Bul
+browsing-find-duplicates = Yinelenenleri Bul
 browsing-first-card = İlk Kart
 browsing-flag = Bayrak
 browsing-font = <b>Yazıtipi</b>:
@@ -62,6 +63,7 @@ browsing-start-position = Başlangıç konumu
 browsing-step = Adım:
 browsing-suspended = Askıya Alındı
 browsing-tag-duplicates = Yinelenenleri Etiketle
+browsing-tag-rename-warning-empty = Notu olmayan bir etiketi yeniden adlandıramazsınız.
 browsing-target-field = Hedef alan:
 browsing-toggle-showing-cards-notes = Kartları/Notları Aç/Kapat
 browsing-toggle-mark = İşareti Aç/Kapat
@@ -81,11 +83,19 @@ browsing-sidebar-expand = Genişlet
 browsing-sidebar-collapse = Daralt
 browsing-sidebar-expand-children = Altlarını Genişlet
 browsing-sidebar-collapse-children = Altlarını Daralt
+browsing-sidebar-tags = Etiketler
 browsing-sidebar-flags = Bayraklar
 browsing-today = Bugün
+browsing-tooltip-note-modified = Notun en son değiştiği zaman, genellikle alan içeriğiyle veya etiket düzenlemeleriyle.
 browsing-added-today = Bugün Eklenenler
 browsing-again-today = Bugün tekrar edilenler
 browsing-sidebar-rescheduled = Yeniden planlandı
+browsing-sidebar-untagged = Etiketlenmemiş
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] { $count } kullanılmayan etiket silindi.
+       *[other] { $count } kullanılmayan etiket silindi.
+    }
 browsing-reparented-decks =
     { $count ->
         [one] { $count } deste yeniden adlandırıldı.

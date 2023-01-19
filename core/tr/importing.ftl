@@ -1,4 +1,3 @@
-importing-failed = İçe Aktarma başarısız.
 importing-failed-debug-info = İçe aktarma gerçekleştirilemedi. Hata ayıklama bilgisi:
 importing-aborted = İptal Edildi: { $val }
 importing-added-duplicate-with-first-field = İlk alanın aynısı eklendi: { $val }
@@ -64,3 +63,5 @@ importing-processed-media-file =
         [one] { $count } medya dosyası işlendi.
        *[other] { $count } medya dosyaları işlendi.
     }
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Kopya oluştur

@@ -12,8 +12,13 @@ database-check-missing-templates =
     }
 database-check-card-missing-note =
     { $count ->
-        [one] İçeriksiz { $count } kart silindi.
-       *[other] İçeriksiz { $count } kart silindi.
+        [one] Notu olmayan { $count } kart silindi.
+       *[other] Notu olmayan { $count } kart silindi.
+    }
+database-check-duplicate-card-ords =
+    { $count ->
+        [one] Yinelenen şablonlarla { $count } kart silindi.
+       *[other] Yinelenen şablonlarla { $count } kart silindi.
     }
 
 ## Progress info

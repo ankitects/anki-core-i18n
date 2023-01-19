@@ -17,6 +17,11 @@ deck-config-default-name = Öntanımlı
 
 ## Lapses section
 
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Tag Only`: Nota bir "leech" etiketi ekle, bir açılır mesaj da göster.
+    
+    `Suspend Card`: Notu etiketlemeye ek olarak, kartı manuel olarak tekrar gösterilene kadar gizle.
 
 ## Burying section
 
