@@ -16,7 +16,7 @@ search-unclosed-quote = sono stati trovati dei doppi apici `"`, ma non c'erano a
 search-missing-key = Sono stati trovati dei due punti `:`, ma non erano preceduti da una parola chiave. Se vuoi cercare `:` come testo, prepono un backslash: `\:`.
 search-unknown-escape = La sequenza di escape `{ $val }` non è definita. Se vuoi cercare un backslash `\` nel testo, mettine due: `\\`.
 search-invalid-argument = `{ $term }` ha ricevuto un parametro non valido '`{ $argument }`'.
-search-invalid-flag-2 = `flag:` deve essere seguito da un numero di contrassegno valido: `1` (rosso), `2` (arancione), `3` (verde), `4` (blu), `5` (rosa), `6` (turchese), `7` (viola) o `0` (nessun contrassegno).
+search-invalid-flag-2 = `flag:` deve essere seguito da un numero di bandiera valido: `1` (rosso), `2` (arancione), `3` (verde), `4` (blu), `5` (rosa), `6` (turchese), `7` (viola) o `0` (nessuna bandiera).
 search-invalid-prop-operator = `prop:{ $val }` deve essere seguito da uno di questi operatori comparativi: `=`, `!=`, `<`, `>`, `<=` o `>=`.
 search-invalid-other = Controllare gli errori tipografici.
 

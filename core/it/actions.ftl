@@ -59,7 +59,7 @@ actions-currently-unsupported = Questa azione al momento non è supportata sul t
 
 ## Flags
 
-actions-flag-number = Contrassegno { $number }
+actions-flag-number = Bandiera { $number }
 actions-flag-red = Rosso
 actions-flag-orange = Arancione
 actions-flag-green = Verde
@@ -67,4 +67,4 @@ actions-flag-blue = Blu
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turchese
 actions-flag-purple = Viola
-actions-set-flag = Imposta contrassegno
+actions-set-flag = Imposta bandiera
