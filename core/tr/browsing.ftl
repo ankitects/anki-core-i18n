@@ -1,3 +1,4 @@
+browsing-addon = Eklenti
 browsing-all-fields = Tüm Alanlar
 browsing-answer = Cevap
 browsing-browser-appearance = Tarayıcı Görünümü
