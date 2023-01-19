@@ -1,7 +1,7 @@
 studying-again = Tekrar
-studying-bury-card = Gizli Kart
+studying-bury = Gizle
+studying-bury-card = Kartı Gizle
 studying-bury-note = Notu Gizle
-studying-card-buried = Kart Gizlendi.
 studying-card-suspended = Kart askıya alındı.
 studying-card-was-a-leech = Kart bir sömürücüydü.
 studying-cards-will-be-automatically-returned-to = Kartlar incelemenizden sonra otomatik olarak orjinal destelerine döndürülecekler.
@@ -14,10 +14,9 @@ studying-empty = Boşalt
 studying-finish = Bitir
 studying-good = İyiydi
 studying-hard = Zordu
-studying-it-has-been-suspended = Durdurulmuştur.
+studying-it-has-been-suspended = Askıya alınmıştır.
 studying-more = Diğer
 studying-no-cards-are-due-yet = Henüz zamanı gelmiş kart yok.
-studying-note-buried = Not saklandı.
 studying-note-suspended = Not askıya alındı.
 studying-please-run-toolsempty-cards = Lütfen Araçlar>Boş Kartlar çalıştırın
 studying-record-own-voice = Kendi Sesiniz Kaydedin
@@ -29,16 +28,16 @@ studying-suspend = Askıya Al
 studying-suspend-note = Notu Askıya Al
 studying-to-review = İncelenecek
 studying-type-answer-unknown-field = Cevap yazın: bilinmeyen alan { $val }
+studying-unbury = Gizlemeyi geri̇ al
+studying-what-would-you-like-to-unbury = Neyin gizlemesini geri almak istersiniz?
 studying-you-havent-recorded-your-voice-yet = Sesinizi henüz kaydetmediniz.
-studying-card-studied-in = { $count ->
-    [one] { $count } kartın çalışılma süresi:
-   *[other] { $count } kartın çalışılma süresi:
-  }
-studying-minute = { $count ->
-    [one] { $count } dakika.
-   *[other] { $count } dakika.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Not ve ona ait { $count } kart silindi.
-   *[other] Not ve ona ait { $count } kart silindi.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } kartın çalışılma süresi:
+       *[other] { $count } kartın çalışılma süresi:
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } dakika.
+       *[other] { $count } dakika.
+    }

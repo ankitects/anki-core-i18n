@@ -15,6 +15,7 @@ editing-media = İçerik
 editing-paste = Yapıştır
 editing-show-duplicates = Yinelenenleri Göster
 editing-tags = Etiketler
+editing-toggle-html-editor = HTML Düzenleyiciyi Aç/Kapat
 editing-expand-field = Alanı genişlet
 editing-collapse-field = Alanı daralt
 

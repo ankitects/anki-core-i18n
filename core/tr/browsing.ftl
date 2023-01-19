@@ -54,6 +54,9 @@ browsing-start-position = Başlangıç konumu
 browsing-step = Adım:
 browsing-suspended = Askıya Alındı
 browsing-target-field = Hedef alan:
+browsing-toggle-showing-cards-notes = Kartları/Notları Aç/Kapat
+browsing-toggle-mark = İşareti Aç/Kapat
+browsing-toggle-suspend = Askıya Alındı Aç/Kapat
 browsing-you-must-have-at-least-one = En az bir sütun olmalıdır.
 browsing-group =
     { $count ->

@@ -30,6 +30,7 @@ actions-select = Seç
 actions-shortcut-key = Kısayol tuşu: { $val }
 actions-suspend-card = Kartı Askıya Al
 actions-set-due-date = Son Tarihi Ayarla
+actions-unbury-unsuspend = Gizlemeyi/Askıya Almayı Geri Al
 actions-add-deck = Deste Ekle
 actions-add-note = Not Ekle
 actions-update-note = Notu Güncelle
