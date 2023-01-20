@@ -107,3 +107,8 @@ scheduling-deck-updated =
         [one] { $count } deste güncellendi.
        *[other] { $count } deste güncellendi.
     }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] { $cards } kart unutuldu.
+       *[other] { $cards } kart unutuldu.
+    }

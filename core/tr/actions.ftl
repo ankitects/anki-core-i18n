@@ -38,6 +38,7 @@ actions-update-tag = Etiketi Güncelle
 actions-update-note = Notu Güncelle
 actions-update-card = Kartı Güncelle
 actions-update-deck = Desteyi Güncelle
+actions-forget-card = Kartı Unut
 actions-card-info = Kart Bilgisi
 
 ## Flags

@@ -21,6 +21,7 @@ browsing-duplicate = yinelenen
 browsing-ease = Kolaylık
 browsing-enter-tags-to-add = Eklenecek etiketleri girin :
 browsing-enter-tags-to-delete = Silinen etiketleri girin :
+browsing-filtered = (filtrelenmiş)
 browsing-find = <b>Bul</b>:
 browsing-find-and-replace = Bul ve Değiştir
 browsing-find-duplicates = Yinelenenleri Bul
