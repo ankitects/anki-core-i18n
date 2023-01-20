@@ -1,4 +1,3 @@
-database-check-corrupt = Koleksiyon bozuldu. Lütfen kılavuzu okuyun.
 database-check-rebuilt = Veritabanı yapılandırıldı ve optimize edildi.
 database-check-card-properties =
     { $count ->

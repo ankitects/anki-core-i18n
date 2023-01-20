@@ -19,7 +19,7 @@ card-templates-night-mode = Gece Modu
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = Mobil Sınıfı Ekle
-card-templates-preview-settings = Ayarlar
+card-templates-preview-settings = Seçenekler
 card-templates-invalid-template-number = '{ $notetype }' not tipinin { $number } numaralı kart şablonunda bir hata var.
 card-templates-identical-front = Ön yüz { $number } numaralı kart şablonuyla aynı.
 card-templates-missing-cloze = Kart şablonunun ön ve arkasında '{ "{{" }cloze:Text{ "}}" }' ya da benzer bir şey bulunması beklendi.
