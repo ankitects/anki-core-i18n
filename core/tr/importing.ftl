@@ -1,4 +1,4 @@
-importing-failed-debug-info = İçe aktarma gerçekleştirilemedi. Hata ayıklama bilgisi:
+importing-failed-debug-info = İçeri aktarma gerçekleştirilemedi. Hata ayıklama bilgisi:
 importing-aborted = İptal Edildi: { $val }
 importing-added-duplicate-with-first-field = İlk alanın aynısı eklendi: { $val }
 importing-allow-html-in-fields = Alanlarda HTML kodlarına izin ver
@@ -15,9 +15,9 @@ importing-first-field-matched = İlk alan eşleşti: { $val }
 importing-ignore-field = Alanı gözardı et.
 importing-ignore-lines-where-first-field-matches = İlk alanı mevcut not ile eşleşen satırları yok say
 importing-ignored = <yoksay>
-importing-import-even-if-existing-note-has = Mevcut not aynı ilk alana sahip olmasına rağmen içe aktar
-importing-import-options = İçe aktarma seçenekleri
-importing-importing-complete = İçe aktarma tamamlandı.
+importing-import-even-if-existing-note-has = Mevcut not aynı ilk alana sahip olmasına rağmen içeri aktar
+importing-import-options = İçeri aktarma seçenekleri
+importing-importing-complete = İçeri aktarma tamamlandı.
 importing-invalid-file-please-restore-from-backup = Geçersiz dosya. Lütfen yedekten yükleyin.
 importing-map-to = Eşle { $val }
 importing-map-to-tags = Etiketleri Eşle
@@ -27,7 +27,7 @@ importing-mnemosyne-20-deck-db = Mnemosyne 2.0 Deste (*.db)
 importing-multicharacter-separators-are-not-supported-please = Çok karakterli ayırıcılar desteklenmiyor. Lütfen yalnızca bir karakter girin.
 importing-pauker-18-lesson-paugz = Pauker 1.8 Dersi (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' içinde { $found } alan vardı, beklenen { $expected }
-importing-selected-file-was-not-in-utf8 = Seçilen dosya UTF-8 biçiminde değildi. Lütfen klavuzdaki içe aktarma bölümüne bakın.
+importing-selected-file-was-not-in-utf8 = Seçilen dosya UTF-8 biçiminde değildi. Lütfen klavuzdaki içeri aktarma bölümüne bakın.
 importing-semicolon = Noktalı Virgül
 importing-supermemo-xml-export-xml = Supermemo XML dışa aktarma (*.xml)
 importing-tab = Sekme
@@ -35,8 +35,8 @@ importing-text-separated-by-tabs-or-semicolons = Sekmeler veya noktalı virgüll
 importing-the-first-field-of-the-note = Not tipinin ilk alanı eşlenmelidir.
 importing-the-provided-file-is-not-a = Sağlanan dosya geçerli bir .apkg dosyası değil.
 importing-this-file-does-not-appear-to = Bu dosya geçerli bir .apkg dosyası gibi görünmüyor. Bu hatayı AnkiWeb'den indirilen bir dosyadan alıyorsanız, indirme başarısız olmuş olabilir. Lütfen tekrar deneyin ve sorun devam ederse lütfen farklı bir tarayıcıyla yeniden deneyin.
-importing-this-will-delete-your-existing-collection = Bu, mevcut koleksiyonunuzu silecer ve içe aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?
-importing-unable-to-import-from-a-readonly = Salt okunur bir dosyadan içe aktarılamıyor.
+importing-this-will-delete-your-existing-collection = Bu, mevcut koleksiyonunuzu silecer ve içeri aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?
+importing-unable-to-import-from-a-readonly = Salt okunur bir dosyadan içeri aktarılamıyor.
 importing-unknown-file-format = Bilinmeyen dosya biçimi.
 importing-note-added =
     { $count ->
@@ -45,8 +45,8 @@ importing-note-added =
     }
 importing-note-imported =
     { $count ->
-        [one] { $count } not içe aktarıldı.
-       *[other] { $count } not içe aktarıldı.
+        [one] { $count } not içeri aktarıldı.
+       *[other] { $count } not içeri aktarıldı.
     }
 importing-note-unchanged =
     { $count ->
@@ -60,8 +60,8 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] { $count } medya dosyası işlendi.
-       *[other] { $count } medya dosyaları işlendi.
+        [one] { $count } medya dosyası içeri aktarıldı.
+       *[other] { $count } medya dosyası içeri aktarıldı.
     }
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Kopya oluştur
