@@ -1,4 +1,4 @@
-database-check-rebuilt = Veritabanı yapılandırıldı ve optimize edildi.
+database-check-rebuilt = Veritabanı yeniden oluşturuldu ve optimize edildi.
 database-check-card-properties =
     { $count ->
         [one] Geçersiz özelliklerle { $count } kart onarıldı.
@@ -22,3 +22,4 @@ database-check-duplicate-card-ords =
 
 ## Progress info
 
+database-check-rebuilding = Yeniden oluşturuyor...

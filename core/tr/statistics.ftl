@@ -23,7 +23,7 @@ statistics-reviews =
     }
 statistics-today-title = Bugün
 statistics-today-again-count = Tekrar sayısı:
-statistics-today-type-counts = Öğrenme: { $learnCount }, Gözden Geçirme: { $reviewCount }, Tekrar Öğrenme: { $relearnCount }, Filtrelenmiş: { $filteredCount }
+statistics-today-type-counts = Öğrenme: { $learnCount }, Gözden Geçirme: { $reviewCount }, Yeniden Öğrenme: { $relearnCount }, Filtrelenmiş: { $filteredCount }
 statistics-today-no-mature-cards = Bugün çalışılan geçmiş kart yok.
 statistics-today-correct-mature = Tamamlanmış kartlardaki doğru cevaplar: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Toplam kart
@@ -33,6 +33,7 @@ statistics-counts-mature-cards = Geçmiş
 statistics-counts-suspended-cards = Askıya Alındı
 statistics-counts-buried-cards = Gizlendi
 statistics-counts-learning-cards = Öğrenme
+statistics-counts-relearning-cards = Yeniden öğrenme
 statistics-counts-separate-suspended-buried-cards = Askıya alınan/Gizlenen kartları ayır
 statistics-range-deck = deste
 statistics-range-search = Ara

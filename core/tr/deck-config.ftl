@@ -17,6 +17,7 @@ deck-config-default-name = Öntanımlı
 
 ## Lapses section
 
+deck-config-relearning-steps = Yeniden öğrenme adımları
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Tag Only`: Nota bir "leech" etiketi ekle, bir açılır mesaj da göster.
@@ -44,6 +45,7 @@ deck-config-interday-step-priority = Günler arası öğrenimi/gözden geçirme 
 
 ## Adding/renaming
 
+deck-config-name-prompt = Ad
 
 ## Removing
 

@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Lütfen önce mevcut Özel Çalışma destesini önce yeniden adlandırın.
 custom-study-all-cards-in-random-order-dont = Tüm kartlar rastgele sırada (yeniden planlanmayacak)
 custom-study-choose-tags = Etiketleri Seçin
 custom-study-custom-study-session = Özel Çalışma Oturumu
