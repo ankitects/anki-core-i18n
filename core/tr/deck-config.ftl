@@ -7,10 +7,17 @@ deck-config-default-name = Öntanımlı
 
 ## Daily limits section
 
+deck-config-tab-description =
+    - `Ön ayar`: Limit, bu ön ayarı kullanan tüm destelerle paylaşılır.
+    - `Bu deste`: Limit, bu desteye özel.
+    - `Sadece bugün`: Bu deste için sınırı geçici olarak değiştir.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Ön ayar
+deck-config-deck-only = Bu deste
+deck-config-today-only = Sadece bugün
 
 ## New Cards section
 
@@ -45,10 +52,14 @@ deck-config-interday-step-priority = Günler arası öğrenimi/gözden geçirme 
 
 ## Adding/renaming
 
+deck-config-add-group = Ön Ayar Ekle
 deck-config-name-prompt = Ad
+deck-config-rename-group = Ön Ayarı Yeniden Adlandır
+deck-config-clone-group = Ön Ayarı Kopyala
 
 ## Removing
 
+deck-config-remove-group = Ön Ayarı Sil
 
 ## Other Buttons
 
