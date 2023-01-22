@@ -9,6 +9,7 @@ media-check-renamed-header = Bazı dosyalar uyumluluk için yeniden adlandırıl
 
 ## Shown once for each file
 
+media-check-renamed-file = Yeniden adlandırıldı: { $old } -> { $new }
 
 ##
 
