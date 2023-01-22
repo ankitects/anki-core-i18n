@@ -90,6 +90,7 @@ browsing-today = Bugün
 browsing-tooltip-note-modified = Notun en son değiştiği zaman, genellikle alan içeriğiyle veya etiket düzenlemeleriyle.
 browsing-added-today = Bugün Eklenenler
 browsing-again-today = Bugün tekrar edilenler
+browsing-sidebar-first-review = İlk Gözden Geçirme
 browsing-sidebar-rescheduled = Yeniden planlandı
 browsing-sidebar-untagged = Etiketlenmemiş
 browsing-removed-unused-tags-count =

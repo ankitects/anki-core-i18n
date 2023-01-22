@@ -44,9 +44,9 @@ scheduling-time-span-years =
 
 scheduling-congratulations-finished = Tebrikler! Bu desteyi şimdilik tamamladınız.
 scheduling-today-review-limit-reached =
-    Bugünün inceleme sınırına ulaşıldı, ancak gözden geçirilmek 
-    için bekleyen kartlar var. Optimum hafıza için, seçeneklerdeki 
-    günlük limiti arttırmayı düşünün.
+    Bugünün gözden geçirme sınırına ulaşıldı, ancak hâlâ gözden
+    geçirilmeyi bekleyen kartlar var. Optimum hafıza için,
+    seçeneklerdeki günlük sınırı arttırmayı düşünün.
 scheduling-buried-cards-found = Bir veya daha fazla kart gizlendi, yarın da gösterilecek. Onları hemen görmek istiyorsanız, { $unburyThem }abilirsiniz.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
@@ -88,7 +88,7 @@ scheduling-new-interval = Yeni süre
 scheduling-new-options-group-name = Yeni seçenekler grubu adı:
 scheduling-options-group = Seçenekler grubu:
 scheduling-order = Sıralama
-scheduling-parent-limit = (ana kaynak limiti: { $val })
+scheduling-parent-limit = (üst sınır: { $val })
 scheduling-review = Gözden Geçir
 scheduling-reviews = Tekrarlar
 scheduling-seconds = saniye

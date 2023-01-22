@@ -7,6 +7,7 @@ deck-config-default-name = Öntanımlı
 
 ## Daily limits section
 
+deck-config-daily-limits = Günlük Sınırlar
 deck-config-tab-description =
     - `Ön ayar`: Limit, bu ön ayarı kullanan tüm destelerle paylaşılır.
     - `Bu deste`: Limit, bu desteye özel.
@@ -43,6 +44,7 @@ deck-config-interday-step-priority = Günler arası öğrenimi/gözden geçirme 
 
 ## Timer section
 
+deck-config-maximum-answer-secs = Maksimum cevap saniyeleri
 
 ## Audio section
 
