@@ -13,6 +13,7 @@ exporting-include-html-and-media-references = Уключыць HTML і спас�
 exporting-include-media = Уключаць медыя
 exporting-include-scheduling-information = Уключаць інфармацыю аб раскладзе
 exporting-include-tags = Уключаць цэтлікі
+exporting-support-older-anki-versions = Падтрымка старэйшых версій Anki (павольней/большыя файлы)
 exporting-notes-in-plain-text = Нататкі чыстым тэкстам
 exporting-selected-notes = Выбраныя нататкі
 exporting-card-exported =

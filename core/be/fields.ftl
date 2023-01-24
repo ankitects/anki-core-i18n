@@ -10,6 +10,7 @@ fields-new-position-1 = Новая пазіцыя (1...{ $val }):
 fields-notes-require-at-least-one-field = Нататкі патрабуюць як мінімум аднаго поля.
 fields-reverse-text-direction-rtl = Адваротны кірунак тэксту (RTL)
 fields-collapse-by-default = Прадвызначана згортваць
+fields-html-by-default = Прадвызначана выкарыстоўваць рэдактар HTML
 fields-size = Памер:
 fields-sort-by-this-field-in-the = Сартаваць па гэтаму полю ў браўзеры
 fields-that-field-name-is-already-used = Гэта назва поля ўжо ўжываецца.
