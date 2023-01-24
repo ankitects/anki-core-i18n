@@ -66,10 +66,10 @@ media-check-all-latex-rendered = S'ha renderitzat tot LaTeX.
 
 ## Buttons
 
-media-check-delete-unused = Elimina els fitxers que no s'utilitzen
+media-check-delete-unused = Elimina els no utilitzats
 media-check-render-latex = Renderitza LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = Buida la paperera
 # button to move deleted files from the trash back into the media folder
-media-check-restore-trash = Restaura els fitxers eliminats
+media-check-restore-trash = Restaura els eliminats
 media-check-check-media-action = Verifica els fitxers multimèdia
