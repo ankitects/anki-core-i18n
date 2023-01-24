@@ -16,6 +16,7 @@ editing-customize-fields = Personalizar campos
 editing-cut = Cortar
 editing-double-click-image = Haga doble clic en la imagen
 editing-double-click-to-expand = (doble clic para expandir)
+editing-double-click-to-collapse = doble clic para reducir
 editing-edit-current = Editar actual
 editing-edit-html = Editar HTML
 editing-fields = Campos
