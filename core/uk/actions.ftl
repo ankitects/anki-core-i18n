@@ -1,5 +1,5 @@
 actions-add = Додати
-actions-blue-flag = Синій прапорець
+actions-all-selected = Усі вибрані
 actions-cancel = Скасувати
 actions-choose = Вибрати
 actions-close = Закрити
@@ -9,7 +9,6 @@ actions-decks = Колоди
 actions-delete = Видалити
 actions-export = Експорт колоди в інший формат
 actions-filter = Фільтр
-actions-green-flag = Зелений прапорець
 actions-help = Допомога
 actions-import = Імпорт
 actions-manage = Керування…
@@ -18,10 +17,8 @@ actions-new = Нові
 actions-new-name = Нова назва:
 actions-options = Опції
 actions-options-for = Налаштування для { $val }
-actions-orange-flag = Помаранчевий прапорець
 actions-preview = Попередній  вигляд
 actions-rebuild = Перебудувати
-actions-red-flag = Червоний прапорець
 actions-rename = Перейменувати
 actions-rename-deck = Перейменувати колоду
 actions-rename-tag = Перейменувати мітку
@@ -32,3 +29,6 @@ actions-save = Зберегти
 actions-search = Пошук
 actions-shortcut-key = Гаряча клавіша: { $val }
 actions-suspend-card = Призупинити картку
+
+## Flags
+
