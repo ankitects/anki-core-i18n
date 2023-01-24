@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Le carte ritorneranno automaticamente nel mazzo originale dopo che le hai ripetute.
 studying-continue = Continua
+studying-counts-differ = I conteggi differiscono da quelli dell'elenco dei mazzi, poiché la sepoltura è abilitata. Alcune carte sono state escluse e altre potrebbero aver preso il loro posto.
 studying-delete-note = Elimina la nota
 studying-deleting-this-deck-from-the-deck = L'eliminazione di questo mazzo dall'elenco dei mazzi riporterà tutte le carte rimanenti nel loro mazzo originale.
 studying-easy = Facile
