@@ -129,7 +129,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Ordine di raccolta`: Mostra le carte nell'ordine di raccolta. Se la sepoltura delle carte sorelle è disabilitata,¶ in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra. ¶
     `Modello di carta, quindi casuale`: Identico a `Modello di carta, poi ordine di raccolta`, ma le carte aventi lo stesso modello vengono mostrate in ordine casuale.¶ Se usi `Posizione crescente` per vedere le carte più vecchie per prime, ¶potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.¶
     `Nota casuale, quindi tipo di carta`: Raccoglie note in maniera casuale, quindi mostra tutte le loro carte, in ordine.¶
-    `Casuale`: La raccolta delle carte è completamente casuale.
+    `Casuale`: Mescola completamente le carte raccolte.
 deck-config-sort-order-card-template-then-random = Modello di carta, poi in ordine casuale
 deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
 deck-config-sort-order-random = Casuale
