@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = порожнеча
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Наступні зміни вплинуть на { $count } нотатку, який використовує цей тип картки.
@@ -27,7 +29,6 @@ card-templates-anki-couldnt-find-the-line-between = Анкі не вдалося
 card-templates-at-least-one-card-type-is = Необхідно принаймні один тип карток.
 card-templates-browser-appearance = Вигляд переглядача…
 card-templates-card = Картка { $val }
-card-templates-card-types = Типи карток
 card-templates-card-types-for = Типи карток для { $val }
 card-templates-cloze = Картка з пробілами
 card-templates-deck-override = Заміна колоди…

@@ -22,3 +22,8 @@ card-stats-review-log-type-review = Проглянути
 card-stats-review-log-type-relearn = Вчити знову
 card-stats-review-log-type-filtered = Відфільтровані
 card-stats-review-log-type-manual = Посібник
+
+## Window Titles
+
+card-stats-current-card = Поточна картка ({ $context })
+card-stats-previous-card = Минула картка ({ $context })

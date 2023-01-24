@@ -27,8 +27,19 @@ actions-replay-audio = Прослухати ще раз
 actions-reposition = Змінити розташування
 actions-save = Зберегти
 actions-search = Пошук
+actions-select = Вибрати
 actions-shortcut-key = Гаряча клавіша: { $val }
 actions-suspend-card = Призупинити картку
+actions-add-deck = Додати колоду
 
 ## Flags
 
+actions-flag-number = { $number } прапорець
+actions-flag-red = Червоний
+actions-flag-orange = Помаранчевий
+actions-flag-green = Зелений
+actions-flag-blue = Синій
+actions-flag-pink = Рожевий
+actions-flag-turquoise = Бірюзовий
+actions-flag-purple = Фіолетовий
+actions-set-flag = Встановити прапорець
