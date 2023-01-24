@@ -129,8 +129,8 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = 正確率： { $correct }/{ $total } ({ $percent }%)
-statistics-hours-title = 每小時分析
-statistics-hours-subtitle = 在每個小時複習的成功率
+statistics-hours-title = 分時解析
+statistics-hours-subtitle = 在一天中各個時間段所複習的成功率
 # shown when graph is empty
 statistics-no-data = 沒有資料
 statistics-calendar-title = 年曆
@@ -159,7 +159,7 @@ statistics-average-interval = 平均間隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
-statistics-average-over-period = 平均 (包含沒有學習的天數)
+statistics-average-over-period = 平均（包含沒有學習的天數）
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count } 次複習/天
