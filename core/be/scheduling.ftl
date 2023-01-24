@@ -148,7 +148,7 @@ scheduling-starting-ease = Пачатковая лёгкасць
 scheduling-steps-in-minutes = Крокі (у хвілінах)
 scheduling-steps-must-be-numbers = Крокі павінны быць лікамі.
 scheduling-tag-only = Толькі цэтлік
-scheduling-the-default-configuration-cant-be-removed = Перадвызначаная канфігурацыя не можа быць выдалена.
+scheduling-the-default-configuration-cant-be-removed = Прадвызначаная канфігурацыя не можа быць выдалена.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } калода абноўлена
@@ -159,7 +159,9 @@ scheduling-deck-updated =
 scheduling-set-due-date-prompt =
     Праз колькі дзён паказаць { $cards ->
         [one] картку
-       *[other] карткі
+        [few] карткі
+        [many] картак
+       *[other] картак
     }?
 scheduling-set-due-date-prompt-hint =
     0 = сёння

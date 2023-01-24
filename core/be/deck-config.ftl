@@ -12,7 +12,7 @@ deck-config-used-by-decks =
         [many] { $decks } калодамі
        *[other] { $decks } калод
     }
-deck-config-default-name = Перадвызначаная
+deck-config-default-name = Прадвызначаная
 deck-config-title = Параметры калоды
 
 ## Daily limits section
@@ -26,6 +26,10 @@ deck-config-limit-new-bound-by-reviews =
     ваш ліміт пераглядаў зададзены на 200 і вас чакае 190 пераглядаў,
     будзе ўведзена максімум 10 новых картак. Калі ваш ліміт пераглядаў
     будзе дасягнуты, аніякія новыя карткі не будуць паказаны.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
 
 ## New Cards section
 
@@ -44,9 +48,6 @@ deck-config-bury-title = Адкладванне
 deck-config-bury-new-siblings = Адкладваць новыя сястрынскія
 deck-config-bury-review-siblings = Адкладваць сястрынскія да перагляду
 deck-config-bury-interday-learning-siblings = Адкладваць сястрынскія карткі на вывучэнні, на іншыя дні
-deck-config-bury-tooltip =
-    Ці будуць іншыя карткі той жа самай нататкі (напр. адваротныя карткі або
-    сумежныя запаўненні пропускаў) будуць затрыманыя да наступнага дня.
 
 ## Ordering section
 
@@ -97,21 +98,21 @@ deck-config-custom-scheduling-tooltip = Уплывае на ўсю калекц�
 
 ## Adding/renaming
 
-deck-config-add-group = Дадаць перадвызначаныя налады
+deck-config-add-group = Дадаць прадвызначаныя налады
 deck-config-name-prompt = Назва
-deck-config-rename-group = Перайменаваць перадвызначаныя налады
-deck-config-clone-group = Кланіраваць перадвызначаныя налады
+deck-config-rename-group = Перайменаваць прадвызначаныя налады
+deck-config-clone-group = Кланіраваць прадвызначаныя налады
 
 ## Removing
 
-deck-config-remove-group = Выдаліць перадвызначаныя налады
+deck-config-remove-group = Выдаліць прадвызначаныя налады
 deck-config-confirm-remove-name = Выдаліць { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Захаваць
 deck-config-save-to-all-subdecks = Захаваць ва ўсе падкалоды
-deck-config-revert-button-tooltip = Аднавіць гэту наладу да перадвызначанага значэння
+deck-config-revert-button-tooltip = Аднавіць гэту наладу да прадвызначанага значэння
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
