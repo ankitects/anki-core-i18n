@@ -7,6 +7,14 @@ studying-bury = Адкласці
 studying-bury-card = Адкласці картку
 studying-bury-note = Адкласці нататку
 studying-card-suspended = Картка прыпынена.
+studying-cards-buried =
+    browsing-cards-updated =
+        { $count ->
+        [one] { $count } картка адкладзена
+        [few] { $count } карткі адкладзены
+        [many] { $count } картак адкладзена
+       *[other] { $count } картак адкладзена
+    }.
 studying-continue = Працягнуць
 studying-delete-note = Выдаліць нататку
 studying-easy = Лёгка

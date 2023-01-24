@@ -103,3 +103,4 @@ importing-preserve = Аберагаць
 # "Existing notes: Update" (verb)
 importing-update = Абнавіць
 importing-tag-all-notes = Пазначыць усе нататкі
+importing-file = Файл

@@ -9,6 +9,7 @@ errors-100-tags-max =
     Няма патрэбы выбіраць даччыныя цэтлікі, калі выбраны бацькоўскія.
 errors-multiple-notetypes-selected = Выберыце нататку толькі з аднаго тыпу нататак.
 errors-please-check-database = Скарыстайцеся дзеяннем «Праверка базы даных», затым паспрабуйце зноў.
+errors-please-check-media = Выкарыстайце дзеянне «Праверыць медыя» і паспрабуйце зноў.
 errors-collection-too-new = Каб адкрыць гэту калекцыю патрэбна навейшая версія Anki.
 
 ## Card Rendering

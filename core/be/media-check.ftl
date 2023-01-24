@@ -21,6 +21,7 @@ media-check-subfolder-count = Падпапак: { $count }
 
 media-check-renamed-header = Некаторыя файлы былі перайменаваны для сумяшчальнасці:
 media-check-oversize-header = Файлы больш за 100 МБ не могуць быць сінхранізаваны з AnkiWeb.
+media-check-subfolder-header = Папкі ў папцы для медыя не падтрымліваюцца
 
 ## Shown once for each file
 
@@ -29,6 +30,11 @@ media-check-oversize-file = Больш за 100 МБ: { $filename }
 media-check-subfolder-file = Папка: { $filename }
 media-check-missing-file = Адсутнічае: { $filename }
 media-check-unused-file = Неўжываны: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
@@ -55,10 +61,12 @@ media-check-trash-emptied = Сметніца цяпер пустая.
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = Увесь LaTeX апрацаваны.
 
 ## Buttons
 
 media-check-delete-unused = Выдаліць неўжываныя
+media-check-render-latex = Апрацоўваць LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = Ачысціць сметніцу
 # button to move deleted files from the trash back into the media folder

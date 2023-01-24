@@ -1,3 +1,5 @@
+notetypes-notetype = Тып нататкі
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Перад

@@ -100,6 +100,12 @@ deck-config-disable-autoplay = Не прайграваць аўдыя аўтам
 ## Advanced section
 
 deck-config-advanced-title = Пашыраныя налады
+deck-config-easy-bonus-tooltip =
+    Дадатковы множнік, які ўжываецца да інтэрвалу перагляду картак, калі вы ім
+    ставіце ацэнку «Лёгка».
+deck-config-hard-interval-tooltip = Множнік, які ўжываецца да інтэрвалу перагляду картак пры адказе «Цяжка».
+deck-config-new-interval-tooltip = Множнік, які ўжываецца да інтэрвалу перагляду картак пры адказе «Зноў».
+deck-config-minimum-interval-tooltip = Мінімальны інтэрвал, які надаецца картцы да перагляду пасля адказу «Зноў».
 deck-config-custom-scheduling = Уласны расклад
 deck-config-custom-scheduling-tooltip = Уплывае на ўсю калекцыю. Выкарыстоўвайце на ўласную рызыку!
 

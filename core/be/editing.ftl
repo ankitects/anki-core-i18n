@@ -36,6 +36,7 @@ editing-outdent = Паменшыць водступ
 editing-paste = Уставіць
 editing-record-audio = Запісаць аўдыя
 editing-remove-formatting = Выдаліць фармаціраванне
+editing-restore-original-size = Аднавіць арыгінальны памер
 editing-show-duplicates = Паказаць дублікаты
 editing-subscript = Ніжні індэкс
 editing-superscript = Верхні індэкс
@@ -56,6 +57,8 @@ editing-underline-text = Падкрэслены тэкст
 editing-unordered-list = Неўпарадкаваны спіс
 editing-warning-cloze-deletions-will-not-work = Увага, запаўненні прабелаў не будуць працаваць,пакуль вы не пераключыце тып на «З прабеламі» уверсе.
 editing-mathjax-preview = Перадпрагляд MathJax
+editing-shrink-images = Паменшыць відарысы
+editing-close-html-tags = Аўтаматычна закрываць тэгі HTML
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
