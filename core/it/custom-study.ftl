@@ -30,3 +30,5 @@ custom-study-available-child-count = ({ $count } nei mazzi figli)
 
 ## DEPRECATED - you do not need to translate these.
 
+custom-study-available-new-cards = Carte nuove disponibili: { $count }
+custom-study-available-review-cards = Carte da ripetere disponibili: { $count }
