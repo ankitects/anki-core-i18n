@@ -4,12 +4,15 @@ actions-cancel = Скасувати
 actions-choose = Вибрати
 actions-close = Закрити
 actions-copy = Копіювати
+actions-create-copy = Створити копію
 actions-custom-study = Додаткове навчання
 actions-decks = Колоди
+actions-decrement-value = Зменшити значення
 actions-delete = Видалити
 actions-export = Експорт колоди в інший формат
 actions-filter = Фільтр
 actions-help = Допомога
+actions-increment-value = Збільшити значення
 actions-import = Імпорт
 actions-manage = Керування…
 actions-name = Назва:
@@ -31,6 +34,9 @@ actions-select = Вибрати
 actions-shortcut-key = Гаряча клавіша: { $val }
 actions-suspend-card = Призупинити картку
 actions-add-deck = Додати колоду
+actions-add-notetype = Додати тип нотатки
+actions-remove-notetype = Видалити тип нотатки
+actions-update-notetype = Оновити тип нотатки
 
 ## Flags
 

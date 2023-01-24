@@ -110,6 +110,15 @@ scheduling-how-to-custom-study = Якщо Ви бажаєте вивчати н�
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = додаткове навчання
+
+## Scheduler upgrade
+
+scheduling-update-button = Оновлення
+scheduling-update-later-button = Пізніше
+scheduling-update-more-info-button = Вчити більше
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Завжди показувати сторону картки з питанням під час відтворення аудіо
 scheduling-at-least-one-step-is-required = Необхідно принаймні один крок.
 scheduling-automatically-play-audio = Автоматично програвати звук
@@ -117,7 +126,6 @@ scheduling-bury-related-new-cards-until-the = Відкладати пов'яза
 scheduling-bury-related-reviews-until-the-next = Відкладати пов'язані картки на повторення до наступного дня
 scheduling-days = днів
 scheduling-description = Опис
-scheduling-description-to-show-on-overview-screen = Опис для показу на екрані перегляду, для поточної колоди:
 scheduling-easy-bonus = Бонус легкості
 scheduling-easy-interval = Інтервал легкості
 scheduling-end = (кінець)
@@ -142,7 +150,7 @@ scheduling-new-options-group-name = Нова назва групи налашт�
 scheduling-options-group = Група налаштувань:
 scheduling-order = Порядок
 scheduling-parent-limit = (обмеження для батьківської колоди: { $val })
-scheduling-review = Проглянути
+scheduling-review = Повторювані
 scheduling-reviews = Повторення
 scheduling-seconds = секунд(и)
 scheduling-set-all-decks-below-to = Віднести усі колоди нижче  { $val } до цієї групи налаштувань?

@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = На сьогодні збільш
 custom-study-increase-todays-new-card-limit-by = На сьогодні збільшити обмеження для нових карток на
 custom-study-increase-todays-review-card-limit = На сьогодні збільшити обмеження для повторювальних карток
 custom-study-increase-todays-review-limit-by = На сьогодні збільшити обмеження для повторень на
-custom-study-new-cards-in-deck-over-today = Нових карток в колоді поза денним обмеженням: { $val }
 custom-study-new-cards-only = Лише нові картки
 custom-study-no-cards-matched-the-criteria-you = Жодна картка не відповідає вказаним критеріям.
 custom-study-ok = Добре!
@@ -21,8 +20,14 @@ custom-study-review-ahead = Повторити наперед
 custom-study-review-ahead-by = Повторити наперед на
 custom-study-review-cards-forgotten-in-last = Повторити картки, забуті за останні
 custom-study-review-forgotten-cards = Повторити забуті картки
-custom-study-reviews-due-in-deck-over-today = Повторити картки понад добове обмеженя: { $val }
 custom-study-select = Вибрати
 custom-study-select-tags-to-exclude = Вибрати мітки, які слід виключити:
 custom-study-selective-study = Вибіркове навчання
 custom-study-study-by-card-state-or-tag = Вчити за станом картки або міткою
+custom-study-available-new-cards-2 = Доступні нові картки: { $countString }
+custom-study-available-review-cards-2 = Доступні повторювані картки: { $countString }
+custom-study-available-child-count = ({ $count } в підколодах)
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-available-new-cards = Доступні нові картки: { $count }

@@ -32,6 +32,11 @@ media-check-subfolder-file = Тека: { $filename }
 media-check-missing-file = Пропущено: { $filename }
 media-check-unused-file = Не використовується: { $filename }
 
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
+
 ## Progress
 
 media-check-checked = Перевірено { $count }…

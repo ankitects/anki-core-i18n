@@ -13,3 +13,6 @@ profiles-could-not-create-data-folder = Anki не може створити цю
 profiles-prefs-corrupt-title = Налаштування пошкоджені
 profiles-prefs-file-is-corrupt = Пошкоджений файл Anki prefs21.db повторно створено. Якщо Ви використовуєте декілька профілів, будь ласка, додайте їх повторно використовуючи такі ж назви для відновлення Ваших карток.
 profiles-profile-does-not-exist = Запитаного профілю не існує.
+profiles-creating-backup = Створення резервної копії…
+profiles-backup-created = Резервну копію створено.
+profiles-backup-creation-failed = Не вдалося створити резервну копію: { $reason }

@@ -36,6 +36,8 @@ importing-notes-that-could-not-be-imported = Нотатки не імпорто�
 importing-notes-updated-as-file-had-newer = Нотатки оновлено, як файл новішої версії: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Пакунок Anki колода/колекція (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
+# the '|' character
+importing-pipe = Вертикальна риска (|)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' вміщує { $found } полів, очікуючих { $expected }
 importing-selected-file-was-not-in-utf8 = Обнаний файл не був у форматі UTF-8. Перегляньте розділ "Імпортування" в інструкції користувача.
 importing-semicolon = Крапка з комою
@@ -82,3 +84,21 @@ importing-processed-media-file =
         [few] Оброблено { $count } медіафайл
        *[other] Оброблено { $count } медіафайл
     }
+importing-importing-collection = Імпортування колекції…
+importing-importing-file = Імпортування файлу
+importing-extracting = Витягування даних…
+importing-processed-notes =
+    { $count ->
+        [one] Оброблено { $count } нотатку…
+        [few] Оброблено { $count } нотатки…
+       *[other] Оброблено { $count } нотаток…
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Оброблено { $count } картку…
+        [few] Оброблено { $count } картки…
+       *[other] Оброблено { $count } карток…
+    }
+importing-unable-to-import-filename = Неможливо імпортувати { $filename }: тип файлу не підтримується
+importing-existing-notes = Існуючі нотатки
+importing-file = Файл

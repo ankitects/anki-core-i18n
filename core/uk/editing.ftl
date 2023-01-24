@@ -1,19 +1,18 @@
 editing-add-media = Додати медіа-файл
+editing-align-left = Зліва
+editing-align-right = Справа
 editing-an-error-occurred-while-opening = Помилка під час відкриття { $val }
-editing-attach-picturesaudiovideo-f3 = Додати зображення/аудіо/відео (F3)
-editing-bold-text-ctrlandb = Жирний текст (Ctrl+B [латинське])
+editing-attach-picturesaudiovideo = Додати зображення/аудіо/відео
+editing-bold-text = Жирний текст
 editing-cards = Картки
-editing-change-colour-f8 = Змінити колір (F8)
-editing-cloze-deletion-ctrlandshiftandc = Пропущення для завдання з пропусками (Ctrl+Shift+C [латинське])
+editing-center = По центру
+editing-change-color = Змінити колір
 editing-couldnt-record-audio-have-you-installed = Не вдається записати звук. Чи встановлено у Вас «lame»?
-editing-customize-card-templates-ctrlandl = Редагувати шаблон карток (Ctrl+L)
 editing-customize-fields = Змінити поля
 editing-cut = Вирізати
 editing-edit-current = Редагувати поточну
 editing-edit-html = Редагувати HTML
 editing-fields = Поля
-editing-html-editor = Редактор HTML
-editing-italic-text-ctrlandi = Курсив (Ctrl+I[латинське])
 editing-jump-to-tags-with-ctrlandshiftandt = Перейти до міток з  Ctrl+Shift+T
 editing-latex = LaTeX
 editing-latex-equation = Рівняння LaTeX
@@ -23,13 +22,11 @@ editing-mathjax-chemistry = MathJax для хімії
 editing-mathjax-inline = MathJax в рядку
 editing-media = Медіа-файли
 editing-paste = Вставити
-editing-record-audio-f5 = Записати звук (F5)
-editing-remove-formatting-ctrlandr = Прибрати форматування (Ctrl+R)
-editing-set-foreground-colour-f7 = Встановити колір фону (F7)
 editing-show-duplicates = Показати дублікати
-editing-subscript-ctrland = Нижній індекс (Ctrl+=)
-editing-superscript-ctrlandand = Верхній індекс (Ctrl++)
 editing-tags = Мітки
 editing-to-make-a-cloze-deletion-on = Для створення картки з тестом з пробілами по існуючій нотатці, спочатку потрібно змінити її тип на тип тесту з пробілами командою "Редагування>Змінити тип нотатки..."
-editing-underline-text-ctrlandu = Підкреслити текст (Cntrl+U)
 editing-warning-cloze-deletions-will-not-work = Увага! Тести з пробілами не спрацюють, поки ви не зміните тип вгорі на Тест з пробілами.
+
+## You don't need to translate these strings, as they will be replaced with different ones soon.
+
+editing-html-editor = Редактор HTML
