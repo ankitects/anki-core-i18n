@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Павялічыць сённяш�
 custom-study-increase-todays-new-card-limit-by = Павялічыць сённяшні ліміт новых картак на
 custom-study-increase-todays-review-card-limit = Павялічыць сённяшні ліміт картак да перагляду
 custom-study-increase-todays-review-limit-by = Павялічыць сённяшні ліміт пераглядаў на
-custom-study-new-cards-in-deck-over-today = Новых картак у калодзе звыш сённяшняга ліміту: { $val }
 custom-study-new-cards-only = Толькі новыя карткі
 custom-study-no-cards-matched-the-criteria-you = Ніводная картка не адпавядае дадзеным вамі крытэрыям.
 custom-study-ok = ОК
@@ -21,8 +20,15 @@ custom-study-review-ahead = Пераглядзець датэрмінова
 custom-study-review-ahead-by = Пераглядзець датэрмінова на
 custom-study-review-cards-forgotten-in-last = Пераглядзець карткі, забытыя ў апошні
 custom-study-review-forgotten-cards = Пераглядзець забытыя карткі
-custom-study-reviews-due-in-deck-over-today = Картак у калодзе, якія чакаюць на перагляд, звыш сённяшняга ліміту: { $val }
 custom-study-select = Выбраць
 custom-study-select-tags-to-exclude = Выберыце цэтлікі да выключэння:
 custom-study-selective-study = Выбарачнае навучанне
 custom-study-study-by-card-state-or-tag = Вучыць паводле цэтліка або стану карткі
+custom-study-available-new-cards-2 = Даступна новых картак: { $countString }
+custom-study-available-review-cards-2 = Даступна картак да перагляду: { $countString }
+custom-study-available-child-count = ({ $count } у падкалодах)
+
+## DEPRECATED - you do not need to translate these.
+
+custom-study-available-new-cards = Даступна новых картак: { $count }
+custom-study-available-review-cards = Даступна картак да перагляду: { $count }

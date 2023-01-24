@@ -12,6 +12,7 @@ browsing-browser-appearance = Выгляд браўзера
 browsing-browser-options = Параметры браўзера
 browsing-buried = Адкладзеныя
 browsing-card = Картка
+browsing-cards = Карткі
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = К
 browsing-card-list = Спіс картак
@@ -61,6 +62,7 @@ browsing-new-note-type = Новы тып нататкі:
 browsing-no-flag = Без сцяжка
 browsing-no-selection = Ніводная картка або нататка не выбрана.
 browsing-note = Нататка
+browsing-notes = Нататкі
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = Н
 browsing-optional-filter = Дадатковы фільтр:

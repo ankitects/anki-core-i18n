@@ -48,11 +48,12 @@ editing-text-color = Колер тэксту
 editing-text-highlight-color = Колер вылучэння тэксту
 editing-to-make-a-cloze-deletion-on = Каб дадаць запаўненне прабела да існуючай нататкі, неабходна спачатку змяніць яе тып на «З прабеламі», праз «Нататкі > Змяніць тып нататкі»
 editing-toggle-html-editor = Пераключыць рэдактар HTML
-editing-toggle-sticky = Пераключыць заліпанне
 editing-toggle-visual-editor = Пераключыць візуальны рэдактар
+editing-toggle-sticky = Пераключыць заліпанне
 editing-underline-text = Падкрэслены тэкст
 editing-unordered-list = Неўпарадкаваны спіс
 editing-warning-cloze-deletions-will-not-work = Увага, запаўненні прабелаў не будуць працаваць,пакуль вы не пераключыце тып на «З прабеламі» уверсе.
+editing-mathjax-preview = Перадпрагляд MathJax
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

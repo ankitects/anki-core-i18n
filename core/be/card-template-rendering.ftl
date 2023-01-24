@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Больш інфармацыі
 card-template-rendering-front-side-problem = Праблема з шаблонам пярэдняга боку:
 card-template-rendering-back-side-problem = Праблема з шаблонам адваротнага боку:
+card-template-rendering-browser-front-side-problem = Браўзерная праблема з шаблонам пярэдняга боку карткі:
+card-template-rendering-browser-back-side-problem = Браўзерная праблема з шаблонам задняга боку карткі:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = У «{ $tag }» адсутнічае «{ $missing }»

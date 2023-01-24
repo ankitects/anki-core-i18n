@@ -36,3 +36,7 @@ exporting-note-exported =
         [many] { $count } нататак экспартавана.
        *[other] { $count } нататак экспартавана.
     }
+exporting-exporting-file = Экспартаванне файла...
+exporting-include-deck = Уключыць назву калоды
+exporting-include-notetype = Уключыць назву тыпу нататкі
+exporting-include-guid = Уключыць унікальны ідэнтыфікатар
