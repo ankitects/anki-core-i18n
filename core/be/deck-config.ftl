@@ -41,6 +41,9 @@ deck-config-today-only = Толькі сёння
 ## New Cards section
 
 deck-config-learning-steps = Крокі вывучэння
+deck-config-graduating-interval-tooltip =
+    Колькасць дзён чакання да таго, каб паказваць картку зноў пасля націскання на
+    кнопку «Добра» на апошнім навучальным кроку.
 deck-config-new-insertion-order = Парадак устаўкі
 deck-config-new-insertion-order-sequential = Паслядоўны (спачатку найстарэйшыя карткі)
 deck-config-new-insertion-order-random = Выпадковы
@@ -48,6 +51,17 @@ deck-config-new-insertion-order-random = Выпадковы
 ## Lapses section
 
 deck-config-relearning-steps = Крокі паўторнага вывучэння
+deck-config-leech-threshold-tooltip =
+    Колькасць націсканняў на «Зноў», патрэбная для таго, каб картка да перагляду
+    была пазначана як прыліплая. Прыліплыя карткі — гэта тыя, што забіраюць
+    шмат вашага часу. Такая пазнака сведчыць аб тым, што такія карткі патрабуюць
+    перапісвання, выдалення або прыдумляння мнеманічнага правіла для іх запамінання.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Толькі цэтлік`: Дадае цэтлік «прыліплай» да нататкі, і адлюстроўвае ўсплывальнае акно.
+    
+    `Прыпыніць картку`: У дадатак да надання нататцы цэтліка, хавае картку, пакуль
+    яна не будзе ўзноўлена ўручную.
 
 ## Burying section
 
@@ -141,6 +155,8 @@ deck-config-daily-limit-will-be-capped =
         [many] { $cards } картак
        *[other] { $cards } картак
     }, што перазапіша гэта абмежаванне.
+deck-config-learning-step-above-graduating-interval = Інтэрвал да выпуску павінен быць прынамсі такім жа доўгім, як і ваш фінальны навучальны крок.
+deck-config-good-above-easy = Інтэрвал для лёгкіх павінен быць прынамсі такім жа доўгім, як і інтэрвал да выпуску.
 
 ## Selecting a deck
 

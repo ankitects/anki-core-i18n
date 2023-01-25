@@ -110,19 +110,24 @@ scheduling-update-more-info-button = Даведацца больш
 
 ## Other scheduling strings
 
+scheduling-at-least-one-step-is-required = Неабходны прынамсі адзін крок
 scheduling-automatically-play-audio = Аўтаматычна прайграваць аўдыя
 scheduling-bury-related-new-cards-until-the = Адкладваць звязаныя новыя карткі да наступнага дня
 scheduling-bury-related-reviews-until-the-next = Адкладваць звязаныя перагляды да наступнага дня
 scheduling-days = дзён
 scheduling-description = Апісанне
+scheduling-easy-bonus = Бонус для лёгкіх
 scheduling-easy-interval = Інтэрвал для лёгкіх
 scheduling-end = (канец)
 scheduling-general = Агульныя
+scheduling-graduating-interval = Інтэрвал да выпуску
 scheduling-hard-interval = Інтэрвал для цяжкіх
 scheduling-interval-modifier = Мадыфікатар інтэрвалу
 scheduling-lapses = Недагляды
 scheduling-lapses2 = недаглядаў
 scheduling-learning = Вывучаюцца
+scheduling-leech-action = Дзеянне з прыліплымі
+scheduling-leech-threshold = Парог для прыліплых
 scheduling-maximum-interval = Максімальны інтэрвал
 scheduling-maximum-reviewsday = Максімум пераглядаў у дзень
 scheduling-minimum-interval = Мінімальны інтэрвал

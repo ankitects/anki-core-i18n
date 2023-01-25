@@ -7,6 +7,7 @@ studying-bury = Адкласці
 studying-bury-card = Адкласці картку
 studying-bury-note = Адкласці нататку
 studying-card-suspended = Картка прыпынена.
+studying-card-was-a-leech = Картка была прыліплай.
 studying-cards-buried =
     browsing-cards-updated =
         { $count ->
