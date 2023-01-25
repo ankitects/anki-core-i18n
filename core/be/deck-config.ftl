@@ -47,6 +47,9 @@ deck-config-graduating-interval-tooltip =
 deck-config-new-insertion-order = Парадак устаўкі
 deck-config-new-insertion-order-sequential = Паслядоўны (спачатку найстарэйшыя карткі)
 deck-config-new-insertion-order-random = Выпадковы
+deck-config-new-insertion-order-random-with-v3 =
+    З планіроўшчыкам V3 лепей пакідаць гэты набор паслядоўным і
+    замест гэтага дапасаваць парадак збірання новых картак.
 
 ## Lapses section
 
