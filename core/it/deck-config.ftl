@@ -34,8 +34,8 @@ deck-config-limit-interday-bound-by-reviews =
     Quando si applica il limite, le prime ad esserne affette sono le carte in apprendimento intergiornaliero,
     poi le carte da ripetere, e infine le carte nuove.
 deck-config-tab-description =
-    - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.¶
-    - `Questo mazzo`: il limite è specifico per questo mazzo.¶
+    - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.
+    - `Questo mazzo`: il limite è specifico per questo mazzo.
     - `Solo oggi`: apporta una modifica temporanea al limite di questo mazzo.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -69,9 +69,7 @@ deck-config-new-insertion-order-tooltip =
     questa opzione aggiornerà automaticamente la posizione corrente delle nuove carte.
 deck-config-new-insertion-order-sequential = Sequenziale (prima le carte più vecchie)
 deck-config-new-insertion-order-random = Casuale
-deck-config-new-insertion-order-random-with-v3 =
-    Con lo scheduler V3, è meglio lasciarlo impostato su sequenziale, e¶
-    modificare invece l'ordine di raccolta delle nuove carte.
+deck-config-new-insertion-order-random-with-v3 = Con lo scheduler V3, è meglio lasciarlo impostato su sequenziale, e modificare invece l'ordine di raccolta delle nuove carte.
 
 ## Lapses section
 
@@ -96,28 +94,19 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Sepoltura
-deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
-deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
+deck-config-bury-new-siblings = Seppellisci fino al giorno successivo le nuove carte sorelle
+deck-config-bury-review-siblings = Seppellisci fino al giorno successivo le carte sorelle da ripassare
 deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in apprendimento intergiornaliero
 deck-config-bury-new-tooltip =
-    Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)¶
+    Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)
     debbano essere rimandate fino al giorno successivo.
 deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
-deck-config-bury-interday-learning-tooltip =
-    Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno¶
-    debbano essere rimandate fino al giorno successivo.
+deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
 
 ## Ordering section
 
 deck-config-ordering-title = Ordine di presentazione
 deck-config-new-gather-priority = Ordine di raccolta delle nuove carte
-deck-config-new-gather-priority-tooltip-2 =
-    `Mazzo`: raccoglie carte da ogni mazzo in ordine, iniziando dalla cima. Le carte di ciascun mazzo sono raccolte in posizione crescente.
-    Se viene raggiunto il limite giornaliero del mazzo selezionato, la raccolta potrebbe interrompersi prima che siano stati controllati tutti i mazzi. Questo ordine è veloce soprattutto per collezioni di grandi dimensioni, e permette di dare la priorità ai mazzi figli più vicini alla cima dell'elenco. ¶
-    `Posizione ascendente`: raccoglie le carte in ordine crescente (scadenza #); in genere, ciò vuol dire dare la priorità alle carte aggiunte per prime. ¶
-    `Posizione discendente`: raccoglie le carte in ordine discendente (scadenza #); in genere ciò significa dare la priorità alle carte aggiunte per ultime. ¶
-    `Casuale (note)`: seleziona delle note in maniera casuale e quindi ne raccoglie le carte. Se la sepoltura delle carte sorelle è disabilitata, ciò permette di vedere tutte le carte di una nota in una singola sessione (es. sia la carta fronte->retro che la carta retro->fronte) ¶
-    `Casuale (carte)`: raccoglie carte in maniera completamente casuale.
 deck-config-new-gather-priority-deck = Mazzo
 deck-config-new-gather-priority-position-lowest-first = Ordine per posizione crescente
 deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
@@ -125,17 +114,21 @@ deck-config-new-gather-priority-random-notes = Casuale (note)
 deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordinamento delle nuove carte
 deck-config-new-card-sort-order-tooltip-2 =
-    `Modello di carta, poi in ordine di raccolta`: Mostra le carte seguendo l'ordine numerico dei modelli delle carte. Se la sepoltura delle carte sorelle è disabilitata,¶ questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte.¶ Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.¶
-    `Ordine di raccolta`: Mostra le carte nell'ordine di raccolta. Se la sepoltura delle carte sorelle è disabilitata,¶ in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra. ¶
-    `Modello di carta, quindi casuale`: Identico a `Modello di carta, poi ordine di raccolta`, ma le carte aventi lo stesso modello vengono mostrate in ordine casuale.¶ Se usi `Posizione crescente` per vedere le carte più vecchie per prime, ¶potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.¶
-    `Nota casuale, quindi tipo di carta`: Raccoglie note in maniera casuale, quindi mostra tutte le loro carte, in ordine.¶
+    `Modello di carta, poi in ordine di raccolta`: Mostra le carte seguendo l'ordine numerico dei modelli delle carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
+    
+    `Ordine di raccolta`: Mostra le carte nell'ordine di raccolta. Se la sepoltura delle carte sorelle è disabilitata, in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra.
+    
+    `Modello di carta, quindi casuale`: Identico a `Modello di carta, poi ordine di raccolta`, ma le carte aventi lo stesso modello vengono mostrate in ordine casuale. Se usi `Posizione crescente` per vedere le carte più vecchie per prime, potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.
+    
+    `Nota casuale, quindi tipo di carta`: Raccoglie note in maniera casuale, quindi mostra tutte le loro carte, in ordine.
+    
     `Casuale`: Mescola completamente le carte raccolte.
 deck-config-sort-order-card-template-then-random = Modello di carta, poi in ordine casuale
 deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
 deck-config-sort-order-random = Casuale
 deck-config-sort-order-template-then-gather = Modello di carta, poi in ordine di raccolta
 deck-config-sort-order-gather = Ordine di raccolta
-deck-config-new-review-priority = Ordine nuove/da rivedere
+deck-config-new-review-priority = Ordine nuove/da ripassare
 deck-config-new-review-priority-tooltip = Quando mostrare nuove carte in relazione a quelle da ripassare
 deck-config-interday-step-priority = Ordine di apprendimento/revisione intergiornaliero
 deck-config-interday-step-priority-tooltip =
@@ -157,7 +150,7 @@ deck-config-review-sort-order-tooltip =
 deck-config-sort-order-due-date-then-random = Data di scadenza, poi a caso
 deck-config-sort-order-due-date-then-deck = Data di scadenza, poi ordine del mazzo
 deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi per data di scadenza
-deck-config-sort-order-ascending-intervals = Intervalli ascendenti
+deck-config-sort-order-ascending-intervals = Intervalli crescenti
 deck-config-sort-order-descending-intervals = Intervalli decrescenti
 deck-config-sort-order-ascending-ease = Facilità crescente
 deck-config-sort-order-descending-ease = Facilità decrescente
@@ -183,7 +176,7 @@ deck-config-show-answer-timer-tooltip =
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Non riprodurre audio automaticamente
 deck-config-disable-autoplay-tooltip =
-    Se abilitato, Anki non riprodurrà l'audio automaticamente.¶
+    Se abilitato, Anki non riprodurrà l'audio automaticamente.
     Può essere riprodotto manualmente facendo click/toccando un'icona audio, o utilizzando il comando di riproduzione audio.
 deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzione della risposta
 deck-config-always-include-question-audio-tooltip =
