@@ -27,7 +27,7 @@ deck-config-limit-deck-v3 =
     Quando si studia un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio controllano il numero massimo di carte estratte da quel particolare mazzo.
     I limiti del mazzo padre controllano il totale delle carte che verranno mostrate.
 deck-config-limit-new-bound-by-reviews =
-    Il limite di ripetizioni influenza il limite delle carte nuove. Per esempio, se il limite di
+    Il limite di ripetizioni influenza il limite delle nuove carte. Per esempio, se il limite di
     ripetizioni è 200, e hai 190 carte in attesa, verranno introdotte massimo 10 nuove carte. Se il tuo limite di ripetizioni è stato raggiunto, non verrà mostrata nessuna nuova carta.
 deck-config-limit-interday-bound-by-reviews =
     Il limite di ripetizioni infuenza anche le carte in apprendimento intergiornaliero.
@@ -129,7 +129,7 @@ deck-config-sort-order-random = Casuale
 deck-config-sort-order-template-then-gather = Modello di carta, poi in ordine di raccolta
 deck-config-sort-order-gather = Ordine di raccolta
 deck-config-new-review-priority = Ordine nuove/da ripassare
-deck-config-new-review-priority-tooltip = Quando mostrare nuove carte in relazione a quelle da ripassare
+deck-config-new-review-priority-tooltip = Quando mostrare le nuove carte in relazione a quelle da ripassare
 deck-config-interday-step-priority = Ordine di apprendimento/revisione intergiornaliero
 deck-config-interday-step-priority-tooltip =
     Quando mostrare carte in (re)apprendimento che superano la soglia di un giorno.
