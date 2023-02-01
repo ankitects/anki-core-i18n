@@ -97,6 +97,7 @@ browsing-suspended = معلقة
 browsing-tag-duplicates = إضافة وسم للملحوظات المكررة
 browsing-tag-rename-warning-empty = لا تستطيع إعادة تسمية وسم ليس له أي ملحوظة.
 browsing-target-field = الحقل المعني:
+browsing-toggle-bury = دفن/نكش
 browsing-toggle-showing-cards-notes = تبديل عرض البطاقات/الملحوظات
 browsing-toggle-mark = وضع/إزالة علامة
 browsing-toggle-suspend = تفعيل/تعليق
