@@ -47,6 +47,7 @@ deck-config-learning-steps-tooltip =
     すべてのステップをパスすると、そのカードは復習カードとなり、別の日に表示されます。
     
     { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = 最後の習得ステップで「`正解`」ボタンが押された場合に、そのカードが再び表示されるまでの日数。
 deck-config-easy-interval-tooltip = 「`簡単`」ボタンが押され、習得中カードから復習カードへと直ちに切り替わった場合に、そのカードが再び表示されるまでの日数。
 deck-config-new-insertion-order = 導入する順序
 deck-config-new-insertion-order-tooltip = 新規カードを追加したとき、そのカードに与えられる位置（新規カード番号）の決め方を選択できます。新規カード番号が低い順にカードは表示されます。このオプションを変更すると、直ちに新規カードの位置が更新されます。
