@@ -93,6 +93,7 @@ browsing-suspended = Suspeses
 browsing-tag-duplicates = Etiqueta els duplicats
 browsing-tag-rename-warning-empty = No podeu canviar el nom d'una etiqueta que no tingui notes.
 browsing-target-field = Camp de destinació:
+browsing-toggle-bury = Enterra/desenterra
 browsing-toggle-showing-cards-notes = Alterna entre les targetes i les notes
 browsing-toggle-mark = Marca/desmarca
 browsing-toggle-suspend = Suspèn/reprèn
