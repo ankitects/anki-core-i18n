@@ -13,12 +13,12 @@ statistics-average-answer-time = { $average-seconds } 초 ({ statistics-cards-pe
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
-statistics-in-time-span-seconds = { $amount } 초 내
+statistics-in-time-span-seconds = { $amount }초 동안
 statistics-in-time-span-minutes = { $amount }분 동안
 statistics-in-time-span-hours = { $amount }시간 동안
 statistics-in-time-span-days = { $amount }일 동안
-statistics-in-time-span-months = { $amount } 달 내
-statistics-in-time-span-years = { $amount }년 내
+statistics-in-time-span-months = { $amount }달 동안
+statistics-in-time-span-years = { $amount }년 동안
 statistics-cards = { $cards }카드
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews }복습

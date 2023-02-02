@@ -45,13 +45,13 @@ deck-config-today-only = 오늘만
 
 deck-config-learning-steps = 학습 단계
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 지연은 일반적으로 분('1m') 또는 일('2d')이지만 시간('1h') 및 초('30s')도 지원됩니다.
+-deck-config-delay-hint = 복습간격은 일반적으로 분('1m') 또는 일('2d')이지만 시간('1h') 및 초('30s')도 지원됩니다.
 deck-config-learning-steps-tooltip =
-    여러 지연 사이에 공백을 넣어 입력하세요. 첫 번째 지연은
+    여러 복습간격 사이에 공백을 넣어 입력하세요. 첫번째 복습간격은
     새 카드의 `다시` 버튼을 누를 때 사용되며 기본적으로 1분입니다.
     `알맞음` 버튼을 누르면 다음 단계로 진행되며 기본적으로 10분입니다.
     모든 단계를 통과하면 카드는 복습 카드가 되고
-    다른 날짜에 나타날 것입니다. { -deck-config-delay-hint }
+    다른 날에 나타날 것입니다. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     마지막 학습 단계에서 `알맞음` 버튼을 누른 후 카드를
     다시 보여주기 전까지 기다리는 일수입니다.
@@ -60,8 +60,8 @@ deck-config-easy-interval-tooltip =
     다시 보여주기 전까지 기다리는 일수입니다.
 deck-config-new-insertion-order = 삽입 순서
 deck-config-new-insertion-order-tooltip =
-    새 카드를 추가할 때 어디에 넣을지(마감 순서)를 결정합니다.
-    마감 순서가 더 낮은 카드부터 공부하게 됩니다. 이 옵션을
+    새 카드를 추가할 때 어디에 넣을지(만기 순서)를 결정합니다.
+    만기 순서가 더 낮은 카드부터 공부하게 됩니다. 이 옵션을
     변경하면 새 카드의 기존 위치가 자동으로 업데이트됩니다.
 deck-config-new-insertion-order-sequential = 순차적 (오래된 카드부터)
 deck-config-new-insertion-order-random = 랜덤
@@ -73,10 +73,10 @@ deck-config-new-insertion-order-random-with-v3 =
 
 deck-config-relearning-steps = 복습 단계
 deck-config-relearning-steps-tooltip =
-    여러 지연 사이에 공백을 넣어 입력할 수 있어요. 기본적으로
+    여러 복습간격 사이에 공백을 넣어 입력할 수 있어요. 기본적으로
     `다시` 버튼을 누르면 10분 뒤에 다시 보여줍니다. 만약 아무것도
-    입력하지 않으면 카드는 복습에 진입하지 않고
-    주기만 바뀌게 됩니다. { -deck-config-delay-hint }
+    입력하지 않으면 카드는 재학습에 진입하지 않고
+    복습주기만 바뀌게 됩니다. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     카드를 복습하는 도중 '다시' 버튼을 몇 번이나 눌러야 leech로 변하는지를
     나타냅니다. leech는 학습자의 시간을 지나치게 소비하는 카드로,
@@ -107,22 +107,22 @@ deck-config-bury-interday-learning-tooltip =
 deck-config-ordering-title = 표시 순서
 deck-config-new-gather-priority = 새로운 카드의 수집 순서
 deck-config-new-gather-priority-tooltip-2 =
-    `덱`: 카드를 맨 위부터 순서대로 덱마다 수집합니다. 각 덱의 카드는
-    오름차순으로 모이게 됩니다. 선택한 덱의 일일 최대치에 도달하면 모든 덱을
-    확인하기 전에 수집이 중지될 수 있습니다. 이 방법은 컬렉션이 클수록 제일 빠르며,
-    위와 가까운 하위 덱이 우선되는 효과도 볼 수 있습니다.
+    `덱`: 맨 위에 있는 덱부터 순서대로 카드를 수집합니다. 각 덱의 카드는
+    오름차순으로 모이게 됩니다. 선택한 덱의 일일 최대 복습량에 도달하면 모든 덱을
+    확인하기 전에 모으기가 중지될 수 있습니다. 이 방법은 컬렉션이 클수록 제일 빠르며,
+    상단에 가까운 하위 덱이 우선되는 효과도 볼 수 있습니다.
     
-    `오름차순`: 오름차순(마감 순서)로 카드를 모으는데, 이러면 대부분
+    `오름차순`: 오름차순(만기 순서)로 카드를 모으는데, 이러면 대부분
     가장 오래된 카드가 먼저 추가됩니다.
     
     `내림차순`: 내림차순(마감 순서)로 카드를 모으는데, 이러면 대부분
     가장 최근의 카드가 먼저 추가됩니다.
     
-    `랜덤 노트`: 임의로 선택한 노트의 카드를 수집합니다. 인접한 노트 미루기가
-    비활성화돼있다면, 한 세션에서 노트의 모든 카드를 볼 수도 있습니다.
-    (예시로 앞면->뒷면과 뒷면->앞면 카드 모두)
+    `랜덤 노트`: 임의로 선택한 노트의 카드를 모읍니다. 같은 노트에 있는 카드 미루기가
+    비활성화되어있다면, 한 세션에서 노트의 모든 카드가 등장할 수도 있습니다.
+    (예를 들어, 앞면->뒷면과 뒷면->앞면 카드 모두)
     
-    `랜덤 카드`: 무작위적으로 카드를 모읍니다.
+    `랜덤 카드`: 무작위으로 카드를 모읍니다.
 deck-config-new-gather-priority-deck = 덱
 deck-config-new-gather-priority-position-lowest-first = 오름차순
 deck-config-new-gather-priority-random-notes = 랜덤 노트
@@ -203,12 +203,12 @@ deck-config-always-include-question-audio-tooltip = 카드의 답을 확인하�
 
 deck-config-advanced-title = 고급
 deck-config-maximum-interval-tooltip =
-    복습 카드가 기다릴 최대 일수입니다. 복습의 한계에 다다르면
-    `어려움`, `알맞음`, `쉬움` 어느 것이든 동일한 지연이 발생합니다.
+    복습카드가 기다릴 최대 일수입니다. 최대 복습주기에 다다르면
+    `어려움`, `알맞음`, `쉬움` 어느 것이든 동일한 복습주기를 나타냅니다.
     짧게 설정할수록 공부량이 늘어납니다.
 deck-config-starting-ease-tooltip =
-    새 카드가 처음에 가질 ease 승수입니다. 기본적으로 새로운 카드에 `알맞음`
-    버튼을 눌렀다면 직전 지연의 2.5배로 늘려 다음 학습 시기를 결정합니다.
+    새 카드가 처음에 가질 ease 값입니다. 기본적으로, 새로운 카드에 `알맞음`
+    버튼을 누르면 다음 복습간격은 직전 복습간격의 2.5배가 됩니다.
 deck-config-easy-bonus-tooltip = 카드를 '쉬움'으로 평가할 때 복습 카드의 주기에 적용되는 추가적인 승수입니다.
 deck-config-interval-modifier-tooltip =
     이 승수는 모든 학습에 적용되며, 조금씩 바꾸면 Anki의 일정이
