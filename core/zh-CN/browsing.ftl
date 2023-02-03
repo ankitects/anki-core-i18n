@@ -92,6 +92,7 @@ browsing-suspended = 已暂停
 browsing-tag-duplicates = 复制标签
 browsing-tag-rename-warning-empty = 无法重命名没有笔记的标签。
 browsing-target-field = 目标栏目:
+browsing-toggle-bury = 搁置/取消搁置
 browsing-toggle-showing-cards-notes = 切换显示卡片/笔记
 browsing-toggle-mark = 添加/移除标记
 browsing-toggle-suspend = 暂停/取消暂停
