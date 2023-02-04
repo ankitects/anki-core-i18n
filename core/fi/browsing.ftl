@@ -93,6 +93,7 @@ browsing-suspended = Hyllytetyt
 browsing-tag-duplicates = Lisää tunniste kaksoiskappaleisiin
 browsing-tag-rename-warning-empty = Tunnistetta, johon ei liity muistiinpanoja, ei voi nimetä uudelleen.
 browsing-target-field = Kohdekenttä:
+browsing-toggle-bury = Piilota tai poista piilotus
 browsing-toggle-showing-cards-notes = Vaihda korttien ja muistiinpanojen näyttämisen välillä
 browsing-toggle-mark = Merkitse tai poista merkintä
 browsing-toggle-suspend = Hyllytä tai poista hyllytys
