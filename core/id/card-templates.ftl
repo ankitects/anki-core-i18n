@@ -53,3 +53,4 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] Ini akan membuat { $count } kartu. Lanjutkan?
     }
+card-templates-type-boxes-warning = Hanya mendukung satu typing box per template kartu
