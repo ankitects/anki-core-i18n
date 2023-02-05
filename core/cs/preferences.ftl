@@ -62,5 +62,6 @@ preferences-browsing = Prohlížení
 preferences-default-deck = Výchozí balíček
 preferences-account = Účet AnkiWeb
 preferences-note = Poznámka
+preferences-scheduler = Plánovač
 preferences-user-interface = Uživatelské rozhraní
 preferences-import-export = Import/Export
