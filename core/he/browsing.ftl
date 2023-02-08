@@ -13,8 +13,6 @@ browsing-browser-options = אפשרויות חיפוש
 browsing-buried = טמונים
 browsing-card = כרטיס
 browsing-cards = כרטיסים
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = כ
 browsing-card-list = רשימת כרטיסים
 browsing-cards-cant-be-manually-moved-into = לא ניתן להעביר ידנית כרטיסים לתוך חפיסה מסוננת.
 browsing-cards-deleted =
@@ -61,8 +59,6 @@ browsing-no-flag = לא מסומן בדגל
 browsing-no-selection = לא נבחרו כרטיסים או רשומות.
 browsing-note = רשומה
 browsing-notes = רשומות
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = ר
 browsing-optional-filter = סינון אופציונלי
 browsing-override-back-template = דריסת תבנית גב:
 browsing-override-font = דריסת גופן:
@@ -93,6 +89,7 @@ browsing-suspended = מושהים
 browsing-tag-duplicates = תגים כפולים
 browsing-tag-rename-warning-empty = לא ניתן לשנות תגית שאין לה רשומות.
 browsing-target-field = שדה יעד:
+browsing-toggle-bury = הטמן
 browsing-toggle-showing-cards-notes = תצוגת כרטיסים/רשומות
 browsing-toggle-mark = סמן
 browsing-toggle-suspend = השהה
@@ -167,5 +164,9 @@ browsing-reparented-decks =
        *[other] השתנה השם של { $count } חפיסות.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = כ
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = ר

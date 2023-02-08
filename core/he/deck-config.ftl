@@ -102,16 +102,22 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = טמונים
-deck-config-bury-new-siblings = טמון אחים חדשים עד למחרת
-deck-config-bury-review-siblings = טמון חזרות אחים עד למחרת
-deck-config-bury-interday-learning-siblings = הטמן אחים בלימוד בין יומיים
-deck-config-bury-new-tooltip =
-    האם כרטיסים  אחרים מאותה רשומה במצב `חדש`(למשל כרטיסים מתהפכים, השלם את החסר)
-     ידחו ליום הבא.
-deck-config-bury-review-tooltip = האם כרטיסים אחרים במצב `חזרה` מאותה רשומה ידחו ליום הבא.
-deck-config-bury-interday-learning-tooltip =
-    האם כרטיסים אחרים במצב `למידה` מאותה רשומה עם מרווחים של יותר מ 1 יום
-    ידחו ליום הבא.
+deck-config-bury-siblings = הטמן אחים
+deck-config-do-not-bury = אל תטמין אחים
+deck-config-bury-if-new = הטמן אם במצב חדש
+deck-config-bury-if-new-or-review = הטמן אם במצב חדש או במצב חזרה
+deck-config-bury-if-new-review-or-interday = הטמן אם במצב חדש, חזרה, או במצב לימוד שהתפרס על פני יותר מיום אחד .
+deck-config-bury-tooltip =
+    אחים הם כרטיסים אחרים מאותה רשומה  (למשל כרטיסים מתהפכים, או
+    השלם את החסר אחרים מאותו טקסט).
+    
+    כאשר אפשרות זו כבויה, ייתכן שיראו כרטיסים מרובים מאותה רשומה באותו
+    יום. כאשר מופעל, אנקי יטמין אוטומטית את האחים, ותסתיר אותם עד היום
+    הבא. אפשרות זו מאפשרת לך לבחור אילו סוגי רשומות עשויים להיות מוטמנים
+     כאשר אתה עונה על אחד האחים שלהם.
+    
+    בעת שימוש במתזמן V3, ניתן גם לקבור כרטיסי למידה בין-יומיים. בין יומי
+    קלפי למידה הם קלפים עם שלב למידה נוכחי של יום אחד או יותר.
 
 ## Ordering section
 
@@ -275,5 +281,15 @@ deck-config-maximum-answer-secs-above-recommended = אנקי יכול לתזמן
 
 deck-config-which-deck = איזו חפיסה הינך רוצה?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = טמון אחים חדשים עד למחרת
+deck-config-bury-review-siblings = טמון חזרות אחים עד למחרת
+deck-config-bury-interday-learning-siblings = הטמן אחים בלימוד בין יומיים
+deck-config-bury-new-tooltip =
+    האם כרטיסים  אחרים מאותה רשומה במצב `חדש`(למשל כרטיסים מתהפכים, השלם את החסר)
+     ידחו ליום הבא.
+deck-config-bury-review-tooltip = האם כרטיסים אחרים במצב `חזרה` מאותה רשומה ידחו ליום הבא.
+deck-config-bury-interday-learning-tooltip =
+    האם כרטיסים אחרים במצב `למידה` מאותה רשומה עם מרווחים של יותר מ 1 יום
+    ידחו ליום הבא.
