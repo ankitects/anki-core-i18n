@@ -3,7 +3,7 @@
 
 ## Top section
 
-deck-config-default-name = Öntanımlı
+deck-config-default-name = Varsayılan
 
 ## Daily limits section
 
@@ -34,9 +34,6 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-new-siblings = Yeni kardeşleri gizle
-deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri gizle
-deck-config-bury-interday-learning-siblings = Günler arası öğrenimi kardeşleri gizle
 
 ## Ordering section
 
@@ -77,5 +74,8 @@ deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 ## Selecting a deck
 
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = Yeni kardeşleri gizle
+deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri gizle
+deck-config-bury-interday-learning-siblings = Günler arası öğrenimi kardeşleri gizle

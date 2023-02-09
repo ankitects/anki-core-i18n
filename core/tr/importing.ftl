@@ -33,7 +33,7 @@ importing-supermemo-xml-export-xml = Supermemo XML dışa aktarma (*.xml)
 importing-tab = Sekme
 importing-text-separated-by-tabs-or-semicolons = Sekmeler veya noktalı virgüllerle ayırılmış metin (*)
 importing-the-first-field-of-the-note = Not tipinin ilk alanı eşlenmelidir.
-importing-the-provided-file-is-not-a = Sağlanan dosya geçerli bir .apkg dosyası değil.
+importing-the-provided-file-is-not-a = Girdiğiniz dosya geçerli bir .apkg dosyası değil.
 importing-this-file-does-not-appear-to = Bu dosya geçerli bir .apkg dosyası gibi görünmüyor. Bu hatayı AnkiWeb'den indirilen bir dosyadan alıyorsanız, indirme başarısız olmuş olabilir. Lütfen tekrar deneyin ve sorun devam ederse lütfen farklı bir tarayıcıyla yeniden deneyin.
 importing-this-will-delete-your-existing-collection = Bu, mevcut koleksiyonunuzu silecer ve içeri aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?
 importing-unable-to-import-from-a-readonly = Salt okunur bir dosyadan içeri aktarılamıyor.
@@ -65,3 +65,6 @@ importing-processed-media-file =
     }
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Kopya oluştur
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
