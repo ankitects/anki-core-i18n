@@ -2,6 +2,8 @@
 statistics-due-date = Vade
 # The count of cards waiting to be reviewed
 statistics-due-count = Vade
+# Shown in the Due column of the Browse screen when the card is a new card
+statistics-due-for-new-card = Yeni #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
