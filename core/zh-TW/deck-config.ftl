@@ -57,12 +57,17 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 暫停
-deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
-deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
-deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
-deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
-deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
-deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則將它再推遲 1 天。
+deck-config-bury-siblings = 回答後暫停關聯卡片
+deck-config-do-not-bury = 回答後不暫停關聯卡片
+deck-config-bury-if-new = 暫停關聯的新卡片
+deck-config-bury-if-new-or-review = 暫停關聯的新卡片或複習卡
+deck-config-bury-if-new-review-or-interday = 暫停關聯的新卡片、複習卡或跨天學習卡片
+deck-config-bury-tooltip =
+    關聯卡片是指由同一則筆記建立的其他卡片（如正面/反面卡片，或同一則克漏字的其他空格）。
+    
+    停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動*暫停*關聯卡片，直到下一天前都不會出現。這個選項可以讓你選擇在回答時要暫停哪些卡片。
+    
+    使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。
 
 ## Ordering section
 
@@ -193,5 +198,11 @@ deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡練�
 
 deck-config-which-deck = 請選擇牌組
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
+deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
+deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
+deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
+deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
+deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則將它再推遲 1 天。
