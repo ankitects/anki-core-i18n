@@ -119,5 +119,5 @@ scheduling-set-due-date-prompt-hint =
     0 = 오늘
     1! = 내일 + 주기를 1로 변경
     3-7 = 3~7일 중 임의로 선택
-scheduling-set-due-date-done = 카드 { $cards }개의 학습 기한을 설정하세요.
+scheduling-set-due-date-done = 카드 { $cards }개의 만기 날짜 설정
 scheduling-forgot-cards = 카드 { $cards }개를 초기화했습니다.

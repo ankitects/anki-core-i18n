@@ -92,15 +92,6 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 미루기
-deck-config-bury-new-siblings = 같은 노트에 있는 새 카드 미루기
-deck-config-bury-review-siblings = 같은 노트에 있는 복습카드 미루기
-deck-config-bury-new-tooltip =
-    동일한 노트의 다른 (역방향, 인접한 빈칸 채우기 등) `새` 카드를
-    다음 날까지 미룰지 여부를 나타냅니다.
-deck-config-bury-review-tooltip = 동일한 노트의 다른 `복습` 카드를 다음 날까지 미룰지 여부를 나타냅니다.
-deck-config-bury-interday-learning-tooltip =
-    주기가 하루 이상인 동일한 노트의 다른 `학습` 카드를
-    다음 날까지 미룰지 여부를 나타냅니다.
 
 ## Ordering section
 
@@ -168,9 +159,9 @@ deck-config-review-sort-order-tooltip =
     그래서 복습을 밀리면 가장 오래된 카드가 먼저 나타납니다.
     따라잡는 데 며칠이 걸리거나 카드를 하위 덱 순서대로
     보려면 다른 정렬 순서를 사용하는 걸 추천합니다.
-deck-config-sort-order-due-date-then-random = 학습 기한 후 랜덤
-deck-config-sort-order-due-date-then-deck = 학습 기한 후 덱
-deck-config-sort-order-deck-then-due-date = 덱 후 학습 기한
+deck-config-sort-order-due-date-then-random = 만기 날짜 후 랜덤
+deck-config-sort-order-due-date-then-deck = 만기 날짜 후 덱
+deck-config-sort-order-deck-then-due-date = 덱 후 만기 날짜
 deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
 deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
 deck-config-sort-order-ascending-ease = ease 오름차순
@@ -264,5 +255,14 @@ deck-config-maximum-answer-secs-above-recommended = Anki는 각 질문이 짧을
 
 deck-config-which-deck = 어떤 덱을 고르시겠습니까?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = 같은 노트에 있는 새 카드 미루기
+deck-config-bury-review-siblings = 같은 노트에 있는 복습카드 미루기
+deck-config-bury-new-tooltip =
+    동일한 노트의 다른 (역방향, 인접한 빈칸 채우기 등) `새` 카드를
+    다음 날까지 미룰지 여부를 나타냅니다.
+deck-config-bury-review-tooltip = 동일한 노트의 다른 `복습` 카드를 다음 날까지 미룰지 여부를 나타냅니다.
+deck-config-bury-interday-learning-tooltip =
+    주기가 하루 이상인 동일한 노트의 다른 `학습` 카드를
+    다음 날까지 미룰지 여부를 나타냅니다.
