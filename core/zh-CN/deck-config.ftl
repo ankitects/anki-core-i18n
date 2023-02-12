@@ -80,12 +80,16 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 搁置
-deck-config-bury-new-siblings = 搁置关联新卡片到下一天
-deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
-deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
-deck-config-bury-new-tooltip = 同一笔记中的其他“新卡片”（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
-deck-config-bury-review-tooltip = 同一笔记中其他“复习”卡片是否推迟到第二天。
-deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于1天的“学习中”卡片是否推迟到第二天。
+deck-config-bury-siblings = 回答后搁置关联卡片
+deck-config-do-not-bury = 回答后不搁置关联卡片
+deck-config-bury-if-new = 搁置关联的新卡片
+deck-config-bury-if-new-or-review = 搁置关联的新卡片和复习卡片
+deck-config-bury-if-new-review-or-interday = 搁置关联的新卡片、复习卡片和跨日学习卡片
+deck-config-bury-tooltip =
+    关联卡片是指来自同一笔记的其他卡片（如正面/反面卡片、同一填空题笔记中的其他空格卡片）。
+    此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
+    此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
+    当使用V3排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。
 
 ## Ordering section
 
@@ -250,5 +254,11 @@ deck-config-maximum-answer-secs-above-recommended = 当保持问题均简短时�
 
 deck-config-which-deck = 请选择牌组？
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = 搁置关联新卡片到下一天
+deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
+deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
+deck-config-bury-new-tooltip = 同一笔记中的其他“新卡片”（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
+deck-config-bury-review-tooltip = 同一笔记中其他“复习”卡片是否推迟到第二天。
+deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于1天的“学习中”卡片是否推迟到第二天。
