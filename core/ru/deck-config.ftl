@@ -70,12 +70,11 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Откладывание
-deck-config-bury-new-siblings = Откладывать новые связанные до завтра
-deck-config-bury-review-siblings = Откладывать повторяемые связанные до завтра
-deck-config-bury-interday-learning-siblings = Откладывать связанные изучаемые, которые переносятся
-deck-config-bury-new-tooltip = Будут ли другие `новые` карточки той же записи (например, обратные или смежные с пропусками) отложены до следующего дня.
-deck-config-bury-review-tooltip = Будут ли другие `повторяемые` карточки той же записи отложены до следующего дня.
-deck-config-bury-interday-learning-tooltip = Будут ли другие `изучаемые` карточки той же записи с интервалом больше 1 дня отложены до следующего дня.
+deck-config-bury-siblings = Откладывать связанные
+deck-config-do-not-bury = Не откладывать связанные
+deck-config-bury-if-new = Откладывать новые
+deck-config-bury-if-new-or-review = Откладывать новые и повторяемые
+deck-config-bury-if-new-review-or-interday = Откладывать новые, повторяемые и перенесённые
 
 ## Ordering section
 
@@ -217,5 +216,11 @@ deck-config-maximum-answer-secs-above-recommended = Anki планирует бо
 
 deck-config-which-deck = Какую колоду вы выбираете?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = Откладывать новые связанные до завтра
+deck-config-bury-review-siblings = Откладывать повторяемые связанные до завтра
+deck-config-bury-interday-learning-siblings = Откладывать связанные изучаемые, которые переносятся
+deck-config-bury-new-tooltip = Будут ли другие `новые` карточки той же записи (например, обратные или смежные с пропусками) отложены до следующего дня.
+deck-config-bury-review-tooltip = Будут ли другие `повторяемые` карточки той же записи отложены до следующего дня.
+deck-config-bury-interday-learning-tooltip = Будут ли другие `изучаемые` карточки той же записи с интервалом больше 1 дня отложены до следующего дня.
