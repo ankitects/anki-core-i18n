@@ -13,8 +13,6 @@ browsing-browser-options = Kartenverwaltungseinstellungen
 browsing-buried = Zurückgestellt
 browsing-card = Karte
 browsing-cards = Karten
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = K
 browsing-card-list = Kartenliste
 browsing-cards-cant-be-manually-moved-into = Karten können nicht manuell in einen Auswahlstapel verschoben werden.
 browsing-cards-deleted =
@@ -61,8 +59,6 @@ browsing-no-flag = keine Markierung
 browsing-no-selection = Keine Karten oder Notizen ausgewählt.
 browsing-note = Notiz
 browsing-notes = Notizen
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = Optionaler Filter:
 browsing-override-back-template = Vorlage für Rückseite festlegen:
 browsing-override-font = Schriftart festlegen:
@@ -93,6 +89,7 @@ browsing-suspended = Ausgesetzt
 browsing-tag-duplicates = Duplikate verschlagworten
 browsing-tag-rename-warning-empty = Sie können ein Schlagwort nicht umbenennen, welchem keine Notizen zugeordnet sind.
 browsing-target-field = Zielfeld:
+browsing-toggle-bury = Zurückstellen ein/aus
 browsing-toggle-showing-cards-notes = Anzeige von Karten/Notizen umschalten
 browsing-toggle-mark = Kennzeichnung umschalten
 browsing-toggle-suspend = Aussetzung umschalten
@@ -167,5 +164,9 @@ browsing-reparented-decks =
        *[other] { $count } Stapel umbenannt.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

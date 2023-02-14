@@ -71,18 +71,17 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Zurückstellen
-deck-config-bury-new-siblings = Neue Geschwister zurückstellen
-deck-config-bury-review-siblings = Geschwister in Wiederholung zurückstellen
-deck-config-bury-interday-learning-siblings = Geschwister in mehrtägigem Lernen zurückstellen
-deck-config-bury-new-tooltip =
-    Ob andere `neue` Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
-    bis zum nächsten Tag verschoben werden.
-deck-config-bury-review-tooltip =
-    Ob andere`zu wiederholende Karten` derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
-    bis zum nächsten Tag verschoben werden.
-deck-config-bury-interday-learning-tooltip =
-    Ob andere `zu lernende` Karten derselben Notiz mit Intervallen > 1 Tag
-    bis zum nächsten Tag verschoben werden.
+deck-config-bury-siblings = Geschwisterkarten zurückstellen
+deck-config-do-not-bury = Geschwisterkarten nicht zurückstellen
+deck-config-bury-if-new = Zurückstellen, wenn neu
+deck-config-bury-if-new-or-review = Zurückstellen, wenn Karte neu oder zum Wiederholen
+deck-config-bury-if-new-review-or-interday = Zurückstellen, wenn Karte neu, zum Wiederholen oder Lernen über mehrere Tagen
+deck-config-bury-tooltip =
+    Geschwisterkarten sind andere Karten von der gleichen Notiz (z.B. Vorder- und Rückseite oder Lückentextkarten von dem gleichen Text).
+    
+    Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten beantworten.
+    
+    Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
 
 ## Ordering section
 
@@ -230,5 +229,17 @@ deck-config-maximum-answer-secs-above-recommended = Anki kann ihre Lernüberprü
 
 deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = Neue Geschwister zurückstellen
+deck-config-bury-review-siblings = Geschwister in Wiederholung zurückstellen
+deck-config-bury-interday-learning-siblings = Geschwister in mehrtägigem Lernen zurückstellen
+deck-config-bury-new-tooltip =
+    Ob andere `neue` Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
+    bis zum nächsten Tag verschoben werden.
+deck-config-bury-review-tooltip =
+    Ob andere`zu wiederholende Karten` derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
+    bis zum nächsten Tag verschoben werden.
+deck-config-bury-interday-learning-tooltip =
+    Ob andere `zu lernende` Karten derselben Notiz mit Intervallen > 1 Tag
+    bis zum nächsten Tag verschoben werden.
