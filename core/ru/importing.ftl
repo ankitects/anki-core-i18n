@@ -90,7 +90,6 @@ importing-processed-media-file =
         [few] Обработано { $count } медиафайла
        *[other] Обработано { $count } медиафайлов
     }
-importing-importing-collection = Импортирование коллекции...
 importing-importing-file = Файл импортируется...
 importing-extracting = Данные извлекаются...
 importing-gathering = Данные собираются...
@@ -107,10 +106,9 @@ importing-processed-cards =
         [few] Обработаны { $count } карточек...
        *[other] Обработано { $count } карточек...
     }
-importing-unable-to-import-filename = Не удалось импортировать { $filename }: тип файлов не поддерживается
 importing-existing-notes = Существующие записи
 # "Existing notes: Duplicate" (verb)
-importing-duplicate = Повторы
+importing-duplicate = Дублировать
 # "Existing notes: Preserve" (verb)
 importing-preserve = Сохранить
 # "Existing notes: Update" (verb)
@@ -118,3 +116,8 @@ importing-update = Обновить
 importing-tag-all-notes = Пометить все
 importing-tag-updated-notes = Пометить обновлённые
 importing-file = Файл
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Импортирование коллекции...
+importing-unable-to-import-filename = Не удалось импортировать { $filename }: тип файлов не поддерживается
