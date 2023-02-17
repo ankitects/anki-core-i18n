@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = 账户启动和关闭时自动同步
 preferences-backups = 备份
-preferences-basic = 基本
 preferences-change-deck-depending-on-note-type = 添加卡片时，根据笔记模板自动选择牌组
 preferences-changes-will-take-effect-when-you = 变更将在重启Anki后生效。
 preferences-hours-past-midnight = 时
@@ -62,8 +61,13 @@ preferences-editing = 编辑
 preferences-browsing = 浏览
 preferences-default-deck = 默认牌组
 preferences-account = AnkiWeb账户
-preferences-media = 媒体
 preferences-note = 注意
 preferences-scheduler = 排程
 preferences-user-interface = 用户界面
 preferences-import-export = 导入/导出
+preferences-network-timeout = 网络超时
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = 基本
+preferences-media = 媒体

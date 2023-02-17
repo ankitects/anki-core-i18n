@@ -77,7 +77,6 @@ importing-processed-media-file =
     { $count ->
        *[other] 已导入{ $count }个媒体文件
     }
-importing-importing-collection = 正在导入集合…
 importing-importing-file = 正在导入文件...
 importing-extracting = 数据提取中...
 importing-gathering = 数据收集中...
@@ -90,7 +89,6 @@ importing-processed-cards =
     { $count ->
        *[other] 已处理{ $count }张卡片...
     }
-importing-unable-to-import-filename = 未能导入{ $filename }：不支持的文件类型
 importing-existing-notes = 现有笔记
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = 复制
@@ -101,3 +99,9 @@ importing-update = 更新
 importing-tag-all-notes = 标记所有笔记
 importing-tag-updated-notes = 标记已更新的笔记
 importing-file = 文件
+importing-notetype-and-deck = 卡片模板和牌组
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = 正在导入集合…
+importing-unable-to-import-filename = 未能导入{ $filename }：不支持的文件类型
