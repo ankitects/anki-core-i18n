@@ -82,7 +82,6 @@ importing-processed-media-file =
         [one] S'ha processat un fitxer multimèdia
        *[other] S'han processat { $count } fitxers multimèdia
     }
-importing-importing-collection = S'està important la col·lecció…
 importing-importing-file = S'està important el fitxer…
 importing-extracting = Extraient-ne les dades…
 importing-gathering = Reunint-ne les dades…
@@ -97,7 +96,6 @@ importing-processed-cards =
         [one] S'ha processat una targeta…
        *[other] S'han processat { $count } targetes…
     }
-importing-unable-to-import-filename = No s'ha pogut importar el fitxer { $filename }. Tipus de fitxer no compatible.
 importing-existing-notes = Notes existents
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplica
@@ -108,3 +106,9 @@ importing-update = Actualitza
 importing-tag-all-notes = Etiqueta totes les notes
 importing-tag-updated-notes = Etiqueta les notes actualitzades
 importing-file = Fitxer
+importing-notetype-and-deck = Tipus de nota i mall
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = S'està important la col·lecció…
+importing-unable-to-import-filename = No s'ha pogut importar el fitxer { $filename }. Tipus de fitxer no compatible.
