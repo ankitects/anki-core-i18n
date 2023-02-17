@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = مزامنة تلقائية عند فتح الملف الشخصي وإغلاقه
 preferences-backups = نُسخ احتياطية
-preferences-basic = أساسي
 preferences-change-deck-depending-on-note-type = تغيير الرزمة اعتمادًا على نوع الملحوظة
 preferences-changes-will-take-effect-when-you = ستجري التغييرات عند إعادة تشغيل أنكي.
 preferences-hours-past-midnight = ساعة بعد منتصف الليل
@@ -58,15 +57,20 @@ preferences-appearance = المظهر
 preferences-general = عام
 preferences-style = النمط
 preferences-review = المراجعة
-preferences-reviewer = شاشة المراجعة
 preferences-distractions = المشتتات
 preferences-minimalist-mode = الوضع المبسط
 preferences-editing = تحرير
 preferences-browsing = التصفح
 preferences-default-deck = الرزمة الافتراضية
 preferences-account = حساب AnkiWeb
-preferences-media = الوسائط
 preferences-note = ملاحظة
 preferences-scheduler = المجدول
 preferences-user-interface = واجهة المستخدم
 preferences-import-export = الاستيراد/التصدير
+preferences-network-timeout = مهلة الشبكة
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = أساسي
+preferences-reviewer = شاشة المراجعة
+preferences-media = الوسائط

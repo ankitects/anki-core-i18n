@@ -102,7 +102,6 @@ importing-processed-media-file =
         [many] عولج { $count } ملف وسائط
        *[other] عولج { $count } ملف وسائط
     }
-importing-importing-collection = يجري استيراد المجموعة...
 importing-importing-file = يجري استيراد الملف...
 importing-extracting = يجري استخراج البيانات...
 importing-gathering = يجري جمع البيانات...
@@ -125,7 +124,6 @@ importing-processed-cards =
         [many] تمت معالجة { $count } بطاقة...
        *[other] تمت معالجة { $count } بطاقة...
     }
-importing-unable-to-import-filename = فشل استيراد { $filename }: نوع الملف غير مدعوم
 importing-existing-notes = الملحوظات الموجودة
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = استنساخ
@@ -136,3 +134,10 @@ importing-update = تحديث
 importing-tag-all-notes = وسم كل الملحوظات
 importing-tag-updated-notes = وسم الملحوظات المحدثة
 importing-file = ملف
+importing-match-scope = نطاق المقارنة
+importing-notetype-and-deck = نوع الملحوظة والرزمة
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = يجري استيراد المجموعة...
+importing-unable-to-import-filename = فشل استيراد { $filename }: نوع الملف غير مدعوم

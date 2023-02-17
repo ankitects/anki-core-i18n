@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = في طور إعادة التعلم
 card-stats-review-log-type-filtered = مفلتر
 card-stats-review-log-type-manual = يدوي
 card-stats-no-card = (لا توجد بطاقة لعرضها.)
+card-stats-custom-data = بيانات مخصصة
 
 ## Window Titles
 

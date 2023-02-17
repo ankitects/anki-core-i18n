@@ -97,16 +97,20 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = الدفن
-deck-config-bury-new-siblings = دفن البطاقات الشقيقة الجديدة حتى اليوم التالي
-deck-config-bury-review-siblings = دفن بطاقات المراجعة الشقيقة حتى اليوم التالي
-deck-config-bury-interday-learning-siblings = دفن بطاقات التعلم الشقيقة التي تتجاوز خطواتها اليوم
-deck-config-bury-new-tooltip =
-    يحدد ما إذا كان يجب تأخير البطاقات الأخرى "الجديدة" المنتمية للملحوظة نفسها
-    (مثل البطاقات المعكوسة، وعبارات ملء الفراغات المجاورة) إلى اليوم التالي.
-deck-config-bury-review-tooltip = يحدد ما إذا كان يجب تأخير بطاقات "المراجعة" الأخرى المنتمية للملحوظة نفسها إلى اليوم التالي.
-deck-config-bury-interday-learning-tooltip =
-    يحدد ما إذا كان يجب تأخير بطاقات "التعلم" الأخرى المنتمية للملحوظة نفسها
-    ذات الفواصل التي تتجاوز اليوم الواحد إلى اليوم التالي.
+deck-config-bury-siblings = ادفن الشقيقات
+deck-config-do-not-bury = لا تدفن الشقيقات
+deck-config-bury-if-new = دفن الجديدة
+deck-config-bury-if-new-or-review = دفن الجديدة والمراجعة
+deck-config-bury-if-new-review-or-interday = دفن الجديدة أو المراجعة أو في طور التعلم الذي يتجاوز اليوم
+deck-config-bury-tooltip =
+    الشقيقات هي البطاقات الأخرى التابعة للملحوظة نفسها (مثل بطاقات أمام/خلف،
+    أو عبارات ملء الفراغات من النص نفسه).
+    
+    عندما يكون هذا الخيار غير مفعل، يمكن أن تظهر بطاقات متعددة تابعة للملحوظة نفسها في اليوم نفسه.
+    عندما يكون مفعلًا، أنكي *يدفن* الشقيقات تلقائيًا، ويخفيها حتى اليوم التالي.
+    يسمح لك هذا الخيار باختيار أنواع البطاقات التي ستُدفن عندما تراجع واحدة من شقيقاتها.
+    
+    عند استخدام مجدول V3، يمكن أيضا دفن بطاقات التعلم ذات خطوات تتجاوز اليوم الواحد.
 
 ## Ordering section
 
@@ -292,5 +296,15 @@ deck-config-maximum-answer-secs-above-recommended = يجدول أنكي مراج
 
 deck-config-which-deck = ما الرزمة التي تريدها؟
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = دفن البطاقات الشقيقة الجديدة حتى اليوم التالي
+deck-config-bury-review-siblings = دفن بطاقات المراجعة الشقيقة حتى اليوم التالي
+deck-config-bury-interday-learning-siblings = دفن بطاقات التعلم الشقيقة التي تتجاوز خطواتها اليوم
+deck-config-bury-new-tooltip =
+    يحدد ما إذا كان يجب تأخير البطاقات الأخرى "الجديدة" المنتمية للملحوظة نفسها
+    (مثل البطاقات المعكوسة، وعبارات ملء الفراغات المجاورة) إلى اليوم التالي.
+deck-config-bury-review-tooltip = يحدد ما إذا كان يجب تأخير بطاقات "المراجعة" الأخرى المنتمية للملحوظة نفسها إلى اليوم التالي.
+deck-config-bury-interday-learning-tooltip =
+    يحدد ما إذا كان يجب تأخير بطاقات "التعلم" الأخرى المنتمية للملحوظة نفسها
+    ذات الفواصل التي تتجاوز اليوم الواحد إلى اليوم التالي.
