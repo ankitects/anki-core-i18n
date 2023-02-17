@@ -208,21 +208,21 @@ deck-config-always-include-question-audio-tooltip =
 deck-config-advanced-title = Avanzato
 deck-config-maximum-interval-tooltip =
     Il massimo numero di giorni che una carta da ripassare deve aspettare. Quando
-    le revisioni hanno raggiunto il limite, `Difficile`, `Normale`, `Facile` daranno lo
+    le ripetizioni hanno raggiunto il limite, `Difficile`, `Normale`, `Facile` daranno lo
     stesso intervallo di tempo. Più basso lo imposti, maggiore sarà il tuo carico di lavoro.
 deck-config-starting-ease-tooltip =
     Il moltiplicatore facilità con il quale iniziano le nuove carte. Di default, il bottone
-    `Facile` su una nuova carta imparata ritarderà la prossima revisione di 2.5 volte
+    `Facile` su una nuova carta imparata ritarderà la prossima ripetizione di 2,5 volte
     l'intervallo precedente.
 deck-config-easy-bonus-tooltip =
     Un moltiplicatore aggiuntivo che è applicato all'intervallo di una carta ripassata
     quando la ritieni `Facile`.
 deck-config-interval-modifier-tooltip =
-    Questo moltiplicatore è applicato a tutte le revisioni, e piccoli aggiustamenti possono
+    Questo moltiplicatore è applicato a tutte le ripetizioni, e piccoli aggiustamenti possono
     essere usati per rendere la pianificazione di Anki più conservativa o aggressiva.
     Consulta il manuale prima di cambiare questa opzione.
-deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una revisione quando la reputi `Difficile`.
-deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una revisione quando clicchi su `Ripeti`.
+deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una ripetizione quando la reputi `Difficile`.
+deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando clicchi su `Ripeti`.
 deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver cliccato `Ripeti`.
 deck-config-custom-scheduling = Pianificazione personalizzata
 deck-config-custom-scheduling-tooltip = Influenza l'intera collezione. Usa a tuo rischio e pericolo!

@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = Sincronizza automaticamente all'apertura/chiusura del profilo
 preferences-backups = Backup
-preferences-basic = Basilare
 preferences-change-deck-depending-on-note-type = Cambia mazzo a seconda del tipo di nota
 preferences-changes-will-take-effect-when-you = I cambiamenti avranno effetto dopo il riavvio di Anki.
 preferences-hours-past-midnight = ore dopo mezzanotte
@@ -10,7 +9,7 @@ preferences-learn-ahead-limit = Mostra in anticipo - Limite
 preferences-mins = min
 preferences-network = Rete
 preferences-next-day-starts-at = Il giorno successivo inizia
-preferences-media-is-not-backed-up = Non viene effettuato un backup dei file multimediali. Per sicurezza effettua un backup periodico della cartella di Anki.
+preferences-media-is-not-backed-up = I backup automatici non includono i file multimediali. Si prega di creare un backup periodico della cartella di Anki per garantire la sicurezza dei dati.
 preferences-on-next-sync-force-changes-in = Alla prossima sincronizzazione, forza i cambiamenti in una direzione
 preferences-paste-clipboard-images-as-png = Incolla immagini dagli appunti come png
 preferences-paste-without-shift-key-strips-formatting = Incolla senza tasto Maiusc rimuove la formattazione
@@ -27,7 +26,7 @@ preferences-tab-synchronisation = Sincronizzazione
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Sincronizzazione</b><br> Non abilitata correntemente; clicca il pulsante di sincronizzazione nella finestra principale per abilitarla.
 preferences-synchronize-audio-and-images-too = Sincronizza anche l'audio e le immagini
 preferences-timebox-time-limit = Limite di tempo per sessione
-preferences-user-interface-size = Misura dell'interfaccia utente
+preferences-user-interface-size = Dimensione dell'interfaccia utente
 preferences-when-adding-default-to-current-deck = Aggiungi le note nuove al mazzo corrente
 preferences-you-can-restore-backups-via-fileswitch = Ripristina i backup attraverso File>Cambia Profilo.
 preferences-legacy-timezone-handling = Vecchio sistema di gestione dei fusi orari (pieno di bug, ma richiesto da AnkiDroid <= 2.14)
@@ -60,11 +59,15 @@ preferences-style = Stile
 preferences-review = Ripetizioni
 preferences-distractions = Distrazioni
 preferences-minimalist-mode = Modalità minimalista
-preferences-browsing = Navigazione
+preferences-browsing = Sfoglia
 preferences-default-deck = Mazzo Default
 preferences-account = Account AnkiWeb
-preferences-media = File multimediali
 preferences-note = N.B.
 preferences-scheduler = Pianificatore
 preferences-user-interface = Interfaccia Utente
 preferences-import-export = Importa/Esporta
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Basilare
+preferences-media = File multimediali

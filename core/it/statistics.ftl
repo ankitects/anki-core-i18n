@@ -181,8 +181,8 @@ statistics-amount-of-total-with-percentage = { $amount } di { $total } ({ $perce
 statistics-average-over-period = Se avessi studiato ogni giorno
 statistics-reviews-per-day =
     { $count ->
-        [one] { $count } revisione/giorno
-       *[other] { $count } revisioni/giorno
+        [one] { $count } ripetizione/giorno
+       *[other] { $count } ripetizioni/giorno
     }
 statistics-minutes-per-day =
     { $count ->
