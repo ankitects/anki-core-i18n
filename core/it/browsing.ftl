@@ -13,8 +13,6 @@ browsing-browser-options = Opzioni del browser
 browsing-buried = Seppellito
 browsing-card = Carta
 browsing-cards = Carte
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
 browsing-card-list = Elenco delle carte
 browsing-cards-cant-be-manually-moved-into = Le carte non possono essere spostate manualmente in un mazzo filtrato.
 browsing-cards-deleted =
@@ -61,8 +59,6 @@ browsing-no-flag = Nessuna bandiera
 browsing-no-selection = Nessuna carta o nota selezionata.
 browsing-note = Nota
 browsing-notes = Note
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = Filtro opzionale:
 browsing-override-back-template = Sovrascrivi modello retro:
 browsing-override-font = Sovrascrivi carattere:
@@ -93,6 +89,7 @@ browsing-suspended = Sospese
 browsing-tag-duplicates = Etichetta duplicati
 browsing-tag-rename-warning-empty = Non puoi rinominare un'etichetta che non ha nessuna nota.
 browsing-target-field = Campo bersaglio:
+browsing-toggle-bury = Attiva/disattiva sepoltura
 browsing-toggle-showing-cards-notes = Alterna visualizzazione carte/note
 browsing-toggle-mark = Attiva/disattiva contrassegno
 browsing-toggle-suspend = Attiva/disattiva sospensione
@@ -139,8 +136,8 @@ browsing-tooltip-note-modified = L'ultima volta che sono state fatte modifiche a
 browsing-tooltip-card = Il nome del modello di una carta
 browsing-tooltip-cards = Il numero di carte di una nota
 browsing-tooltip-notetype = Il nome del tipo di nota
-browsing-tooltip-question = Il lato frontale di una carta, modificabile nell'editor del modello
-browsing-tooltip-answer = Il retro di una carta, modificabile nell'editor del modello
+browsing-tooltip-question = Il lato frontale di una carta, modificabile nell'editor dei modelli
+browsing-tooltip-answer = Il retro di una carta, modificabile nell'editor dei modelli
 browsing-studied-today = Studiate oggi
 browsing-added-today = Aggiunte oggi
 browsing-again-today = Fallite oggi
@@ -167,5 +164,9 @@ browsing-reparented-decks =
        *[other] Rinominati { $count } mazzi.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

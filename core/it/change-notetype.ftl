@@ -10,5 +10,5 @@ change-notetype-templates = Modelli
 change-notetype-to-from-cloze =
     Quando si cambia da o verso il tipo di nota "cloze", i numeri delle carte rimangono invariati.
     
-    Se si passa a un modello di nota normale, e ci sono più cancellazioni cloze
+    Se si passa a un tipo di nota normale, e ci sono più cancellazioni cloze
     che template disponibili, le carte in eccesso verranno rimosse.

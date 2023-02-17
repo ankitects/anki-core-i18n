@@ -21,7 +21,7 @@ deck-config-new-limit-tooltip =
     Visto che nuovo materiale aumenterà la quantità di lavoro a breve termine, questo dovrebbe
     essere almeno 10x più piccolo del numero di ripetizioni.
 deck-config-review-limit-tooltip =
-    Il massimo numero giornaliero di carte da ripetere,
+    Il massimo numero di carte da ripetere in un giorno,
     se le carte sono pronte per essere ripassate.
 deck-config-limit-deck-v3 =
     Quando si studia un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio controllano il numero massimo di carte estratte da quel particolare mazzo.
@@ -31,7 +31,7 @@ deck-config-limit-new-bound-by-reviews =
     ripetizioni è 200, e hai 190 carte in attesa, verranno introdotte massimo 10 nuove carte. Se il tuo limite di ripetizioni è stato raggiunto, non verrà mostrata nessuna nuova carta.
 deck-config-limit-interday-bound-by-reviews =
     Il limite di ripetizioni infuenza anche le carte in apprendimento intergiornaliero.
-    Quando si applica il limite, le prime ad esserne affette sono le carte in apprendimento intergiornaliero,
+    Quando si applica il limite, vengono raccolte prima le carte in apprendimento intergiornaliero,
     poi le carte da ripetere, e infine le carte nuove.
 deck-config-tab-description =
     - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.
@@ -94,19 +94,39 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Sepoltura
-deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
-deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
-deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in apprendimento intergiornaliero
-deck-config-bury-new-tooltip =
-    Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)
-    debbano essere rimandate fino al giorno successivo.
-deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
-deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
+deck-config-bury-siblings = Seppellisci carte sorelle
+deck-config-do-not-bury = Non seppellire carte sorelle
+deck-config-bury-if-new = Seppellisci se nuova
+deck-config-bury-if-new-or-review = Seppellisci se nuova o da ripetere
+deck-config-bury-if-new-review-or-interday = Seppellisci se nuova, da ripetere, o in apprendimento intergiornaliero
+deck-config-bury-tooltip =
+    La carte sorelle sono altre carte appartenenti alla stessa nota (es. carte fronte→retro e retro→fronte, 
+    oppure altre cancellazioni cloze dallo stesso testo).
+    
+    Quando questa opzione è disattivata, più carte dalla stessa nota possono essere visualizzate lo stesso giorno. 
+    Quando è attivata, Anki *seppellirà* automaticamente le carte sorelle, nascondendole fino al giorno successivo. 
+    Questa opzione ti consente di scegliere quali tipi di carte verranno sepolti quando si risponde ad una delle loro carte sorelle.
+    
+    Quando si utilizza lo scheduler V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
+    Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento corrente di uno o più giorni.
 
 ## Ordering section
 
 deck-config-ordering-title = Ordine di presentazione
 deck-config-new-gather-priority = Ordine di raccolta delle nuove carte
+deck-config-new-gather-priority-tooltip-2 =
+    `Mazzo`: raccoglie carte da ogni mazzo in ordine, iniziando dalla cima. Le carte di ciascun mazzo sono raccolte in posizione crescente. 
+    Se viene raggiunto il limite giornaliero del mazzo selezionato, la raccolta potrebbe interrompersi prima che siano stati controllati tutti i mazzi. 
+    Questo ordine è veloce soprattutto per collezioni di grandi dimensioni, e permette di dare la priorità ai mazzi figli più vicini alla cima dell'elenco.
+    
+    `Posizione crescente`: raccoglie le carte in ordine crescente (scadenza #); in genere, ciò vuol dire dare la priorità alle carte aggiunte per prime. 
+    
+    `Posizione decrescente`: raccoglie le carte in ordine decrescente (scadenza #); in genere ciò significa dare la priorità alle carte aggiunte più di recente.
+    
+    `Casuale (note)`: seleziona delle note in maniera casuale e quindi ne raccoglie le carte. 
+    Se la sepoltura delle carte sorelle è disabilitata, ciò permette di vedere tutte le carte di una nota in una singola sessione (es. sia la carta fronte→retro che la carta retro→fronte).
+    
+    `Casuale (carte)`: raccoglie carte in maniera completamente casuale.
 deck-config-new-gather-priority-deck = Mazzo
 deck-config-new-gather-priority-position-lowest-first = Ordine per posizione crescente
 deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
@@ -114,29 +134,29 @@ deck-config-new-gather-priority-random-notes = Casuale (note)
 deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordinamento delle nuove carte
 deck-config-new-card-sort-order-tooltip-2 =
-    `Modello di carta, poi in ordine di raccolta`: Mostra le carte seguendo l'ordine numerico dei modelli delle carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
+    `Tipo di carta, poi in ordine di raccolta`: Mostra le carte seguendo l'ordine dei tipi di carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
     
     `Ordine di raccolta`: Mostra le carte nell'ordine di raccolta. Se la sepoltura delle carte sorelle è disabilitata, in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra.
     
-    `Modello di carta, quindi casuale`: Identico a `Modello di carta, poi ordine di raccolta`, ma le carte aventi lo stesso modello vengono mostrate in ordine casuale. Se usi `Posizione crescente` per vedere le carte più vecchie per prime, potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.
+    `Tipo di carta, quindi casuale`: Identico a `Tipo di carta, poi ordine di raccolta`, ma le carte dello stesso tipo vengono mostrate in ordine casuale. Se usi `Posizione crescente` per vedere le carte più vecchie per prime, potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.
     
     `Nota casuale, quindi tipo di carta`: Raccoglie note in maniera casuale, quindi mostra tutte le loro carte, in ordine.
     
     `Casuale`: Mescola completamente le carte raccolte.
-deck-config-sort-order-card-template-then-random = Modello di carta, poi in ordine casuale
+deck-config-sort-order-card-template-then-random = Tipo di carta, poi in ordine casuale
 deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
 deck-config-sort-order-random = Casuale
-deck-config-sort-order-template-then-gather = Modello di carta, poi in ordine di raccolta
+deck-config-sort-order-template-then-gather = Tipo di carta, poi in ordine di raccolta
 deck-config-sort-order-gather = Ordine di raccolta
 deck-config-new-review-priority = Ordine nuove/da ripassare
-deck-config-new-review-priority-tooltip = Quando mostrare le nuove carte in relazione a quelle da ripassare
-deck-config-interday-step-priority = Ordine di apprendimento/revisione intergiornaliero
+deck-config-new-review-priority-tooltip = Quando mostrare le nuove carte in relazione a quelle da ripassare.
+deck-config-interday-step-priority = Ordine apprendimento intergiornaliero/ripetizioni
 deck-config-interday-step-priority-tooltip =
     Quando mostrare carte in (re)apprendimento che superano la soglia di un giorno.
     
     Il limite di revisione è sempre applicato prima alle carte in apprendimento intergiornaliero, 
-    e poi a quelle da ripassare. Questa opzione controllerà l'ordine secondo il quale le carte raccolte
-    verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre raccolte prima.
+    e solo poi a quelle da ripetere. Questa opzione controllerà l'ordine secondo il quale le carte raccolte
+    verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre raccolte per prime.
 deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
 deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
 deck-config-review-mix-show-before-reviews = Mostra dopo le carte da ripassare
@@ -156,8 +176,8 @@ deck-config-sort-order-ascending-ease = Facilità crescente
 deck-config-sort-order-descending-ease = Facilità decrescente
 deck-config-sort-order-relative-overdueness = Ritardo relativo
 deck-config-display-order-will-use-current-deck =
-    Anki userà l'ordine di apparizione dal mazzo che hai 
-    selezionato da studiare, e non da un suo mazzo figlio.
+    Anki userà l'ordine di apparizione del mazzo che hai 
+    selezionato da studiare, e non di suoi eventuali mazzi figli.
 
 ## Timer section
 
@@ -258,5 +278,13 @@ deck-config-maximum-answer-secs-above-recommended = Anki può programmare le tue
 
 deck-config-which-deck = Quale mazzo desideri?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
+deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
+deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in apprendimento intergiornaliero
+deck-config-bury-new-tooltip =
+    Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)
+    debbano essere rimandate fino al giorno successivo.
+deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
+deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
