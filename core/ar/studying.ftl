@@ -7,7 +7,7 @@ studying-bury = دفن
 studying-bury-card = دفن البطاقة
 studying-bury-note = دفن الملحوظة
 studying-card-suspended = عُلِّقت البطاقة.
-studying-card-was-a-leech = كانت البطاقة بطاقة مستعصية.
+studying-card-was-a-leech = كانت البطاقة مستعصية.
 studying-cards-buried =
     { $count ->
         [zero] لم يتم دفن أي بطاقة.
