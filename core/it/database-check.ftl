@@ -1,4 +1,4 @@
-database-check-corrupt = La collezione è corrotta. Consulta il manuale.
+database-check-corrupt = Il file della collezione è corrotto. Si prega di ripristinare da un backup automatico.
 database-check-rebuilt = Database ricostruito e ottimizzato.
 database-check-card-properties =
     { $count ->

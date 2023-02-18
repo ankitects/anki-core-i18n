@@ -154,7 +154,7 @@ deck-config-interday-step-priority = Ordine apprendimento intergiornaliero/ripet
 deck-config-interday-step-priority-tooltip =
     Quando mostrare carte in (re)apprendimento che superano la soglia di un giorno.
     
-    Il limite di revisione è sempre applicato prima alle carte in apprendimento intergiornaliero, 
+    Il limite di ripetizioni è sempre applicato prima alle carte in apprendimento intergiornaliero
     e solo poi a quelle da ripetere. Questa opzione controllerà l'ordine secondo il quale le carte raccolte
     verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre raccolte per prime.
 deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
