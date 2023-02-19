@@ -13,8 +13,6 @@ browsing-browser-options = 浏览器选项
 browsing-buried = 被搁置
 browsing-card = 卡片模板
 browsing-cards = 卡片
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = 卡
 browsing-card-list = 卡片列表
 browsing-cards-cant-be-manually-moved-into = 不能手动移动卡片到筛选牌组
 browsing-cards-deleted =
@@ -60,8 +58,6 @@ browsing-no-flag = 无旗标
 browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记模板
 browsing-notes = 笔记
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = 笔
 browsing-optional-filter = 可选筛选器：
 browsing-override-back-template = 忽略背面内容模版：
 browsing-override-font = 覆盖字体设置：
@@ -145,7 +141,7 @@ browsing-sidebar-first-review = 首次复习的
 browsing-sidebar-rescheduled = 已重新排期
 browsing-sidebar-due-today = 今天到期的
 browsing-sidebar-untagged = 无标签
-browsing-sidebar-overdue = 超期的
+browsing-sidebar-overdue = 逾期未复习的
 browsing-row-deleted = （已删除）
 browsing-removed-unused-tags-count =
     { $count ->
@@ -160,5 +156,9 @@ browsing-reparented-decks =
        *[other] 已重命名 { $count } 个牌组。
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = 卡
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = 笔
