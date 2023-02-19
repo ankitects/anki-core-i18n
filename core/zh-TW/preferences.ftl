@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = 打開/關閉設定檔時自動同步
 preferences-backups = 備份
-preferences-basic = 基本
 preferences-change-deck-depending-on-note-type = 牌組依筆記類型自動選擇
 preferences-changes-will-take-effect-when-you = 更動將在重新啟動 Anki 後生效。
 preferences-hours-past-midnight = 點
@@ -62,8 +61,13 @@ preferences-editing = 編輯
 preferences-browsing = 瀏覽
 preferences-default-deck = 預設牌組
 preferences-account = AnkiWeb 帳號
-preferences-media = 媒體
 preferences-note = 附註
 preferences-scheduler = 排程器
 preferences-user-interface = 使用者介面
 preferences-import-export = 匯入/匯出
+preferences-network-timeout = 網路逾時
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = 基本
+preferences-media = 媒體

@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = 重新學習
 card-stats-review-log-type-filtered = 已篩選
 card-stats-review-log-type-manual = 手動
 card-stats-no-card = （沒有卡片可顯示）
+card-stats-custom-data = 自訂資料
 
 ## Window Titles
 
