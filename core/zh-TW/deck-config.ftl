@@ -58,10 +58,10 @@ deck-config-leech-action-tooltip =
 
 deck-config-bury-title = 暫停
 deck-config-bury-siblings = 回答後暫停關聯卡片
-deck-config-do-not-bury = 回答後不暫停關聯卡片
-deck-config-bury-if-new = 暫停關聯的新卡片
-deck-config-bury-if-new-or-review = 暫停關聯的新卡片或複習卡
-deck-config-bury-if-new-review-or-interday = 暫停關聯的新卡片、複習卡或跨天學習卡片
+deck-config-do-not-bury = 不暫停關聯卡片
+deck-config-bury-if-new = 暫停新卡片
+deck-config-bury-if-new-or-review = 暫停新卡片/複習卡
+deck-config-bury-if-new-review-or-interday = 暫停新卡片/複習卡/跨天學習卡片
 deck-config-bury-tooltip =
     關聯卡片是指由同一則筆記建立的其他卡片（如正面/反面卡片，或同一則克漏字的其他空格）。
     
