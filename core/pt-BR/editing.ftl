@@ -53,11 +53,14 @@ editing-text-color = Cor do texto
 editing-text-highlight-color = Cor de destaque do texto
 editing-to-make-a-cloze-deletion-on = Para omitir palavras em uma nota existente, você precisa mudá-la para o tipo Omissão de Palavras primeiro, em 'Editar>Mudar Tipo de Nota'
 editing-toggle-html-editor = Alternar para Editor de HTML
-editing-toggle-sticky = Alternar cola
 editing-toggle-visual-editor = Alternar para Editor Visual
+editing-toggle-sticky = Alternar cola
+editing-expand-field = Expandir campo
+editing-collapse-field = Diminuir campo
 editing-underline-text = Sublinhar texto
 editing-unordered-list = Lista não-ordenada
 editing-warning-cloze-deletions-will-not-work = Atenção, omissões de palavras não funcionarão até que você mude o tipo na parte superior para Omissão de Palavras.
+editing-close-html-tags = Fechar automaticamente a tag HTML
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

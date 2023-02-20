@@ -20,7 +20,9 @@ preferences-scheduling = Agendamento
 preferences-show-learning-cards-with-larger-steps = Exibir os cartões de aprendizagem com intervalos maiores antes de efetuar novas revisões
 preferences-show-next-review-time-above-answer = Mostrar tempo da próxima revisão acima dos botões de resposta
 preferences-show-play-buttons-on-cards-with = Mostrar botões de reprodução nos cartões com áudio
+preferences-show-remaining-card-count = Mostrar a contagem de cartas restantes
 preferences-some-settings-will-take-effect-after = Algumas configurações só surtirão efeito quando você reiniciar o Anki
+preferences-tab-synchronisation = Sincronização
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Sincronização</b><br> Desabilitado; clique no botão de sincronização na janela principal para ativá-la.
 preferences-synchronize-audio-and-images-too = Sincronizar áudios e imagens também
 preferences-timebox-time-limit = Tempo limite
@@ -45,7 +47,25 @@ preferences-monthly-backups = Backups mensais para manter:
 preferences-minutes-between-backups = Minutos antes dos backups automáticos:
 preferences-reduce-motion = Reduzir animações
 preferences-reduce-motion-tooltip = Desative várias animações e transições da interface do usuário
+preferences-custom-sync-url-disclaimer = Para usuários avançados - por favor veja o manual
+preferences-hide-top-bar-during-review = Ocultar a barra acima durante o review
+preferences-hide-bottom-bar-during-review = Ocultar a barra abaixo durante o review
+preferences-always = Sempre
+preferences-full-screen-only = Apenas tela cheia
+preferences-appearance = Aparência
+preferences-general = Geral
+preferences-style = Estilo
+preferences-review = Review
+preferences-distractions = Distrações
+preferences-minimalist-mode = Modo minimalista
 preferences-editing = Editando
+preferences-browsing = Procurando
+preferences-default-deck = Deck padrão
+preferences-account = Conta AnkiWeb
+preferences-note = Nota
+preferences-scheduler = Agendamento
+preferences-user-interface = Interface do usuário
+preferences-import-export = Importar/Exportar
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
