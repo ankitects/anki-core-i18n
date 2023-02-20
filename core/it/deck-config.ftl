@@ -96,9 +96,9 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Sepoltura
 deck-config-bury-siblings = Seppellisci carte sorelle
 deck-config-do-not-bury = Non seppellire carte sorelle
-deck-config-bury-if-new = Seppellisci se nuova
-deck-config-bury-if-new-or-review = Seppellisci se nuova o da ripetere
-deck-config-bury-if-new-review-or-interday = Seppellisci se nuova, da ripetere, o in apprendimento intergiornaliero
+deck-config-bury-if-new = Seppellisci se nuove
+deck-config-bury-if-new-or-review = Seppellisci se nuove o da ripetere
+deck-config-bury-if-new-review-or-interday = Seppellisci se nuove, da ripetere, o in apprendimento intergiornaliero
 deck-config-bury-tooltip =
     La carte sorelle sono altre carte appartenenti alla stessa nota (es. carte fronte→retro e retro→fronte, 
     oppure altre cancellazioni cloze dallo stesso testo).
