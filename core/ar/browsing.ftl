@@ -13,8 +13,6 @@ browsing-browser-options = خيارات المتصفح
 browsing-buried = مدفونة
 browsing-card = بطاقة
 browsing-cards = بطاقات
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = بط
 browsing-card-list = قائمة البطاقات
 browsing-cards-cant-be-manually-moved-into = لا يمكن نقل البطاقات يدويًا إلى رزمة مفلترة.
 browsing-cards-deleted =
@@ -65,8 +63,6 @@ browsing-no-flag = لا مؤشر
 browsing-no-selection = لم تحدد أي بطاقات أو ملحوظات.
 browsing-note = ملحوظة
 browsing-notes = ملحوظات
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = مل
 browsing-optional-filter = فلتر اختياري:
 browsing-override-back-template = استبدال القالب الخلفي:
 browsing-override-font = تغيير الخط:
@@ -94,7 +90,7 @@ browsing-sorting-on-this-column-is-not = الفرز حسب هذا العمود �
 browsing-start-position = موضع البدء:
 browsing-step = الخطوة:
 browsing-suspended = معلقة
-browsing-tag-duplicates = إضافة وسم للملحوظات المكررة
+browsing-tag-duplicates = وسم الملحوظات المكررة
 browsing-tag-rename-warning-empty = لا تستطيع إعادة تسمية وسم ليس له أي ملحوظة.
 browsing-target-field = الحقل المعني:
 browsing-toggle-bury = دفن/نكش
@@ -200,5 +196,9 @@ browsing-reparented-decks =
        *[other] تم تغيير أسماء { $count } رزمة.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = بط
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = مل
