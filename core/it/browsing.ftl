@@ -90,7 +90,6 @@ browsing-tag-duplicates = Etichetta duplicati
 browsing-tag-rename-warning-empty = Non puoi rinominare un'etichetta che non ha nessuna nota.
 browsing-target-field = Campo bersaglio:
 browsing-toggle-bury = Attiva/disattiva sepoltura
-browsing-toggle-showing-cards-notes = Alterna visualizzazione carte/note
 browsing-toggle-mark = Attiva/disattiva contrassegno
 browsing-toggle-suspend = Attiva/disattiva sospensione
 browsing-treat-input-as-regular-expression = Considera l'immissione come espressione regolare
