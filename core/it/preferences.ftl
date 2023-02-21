@@ -9,11 +9,11 @@ preferences-learn-ahead-limit = Mostra in anticipo - Limite
 preferences-mins = min
 preferences-network = Rete
 preferences-next-day-starts-at = Il giorno successivo inizia
-preferences-media-is-not-backed-up = I backup automatici non includono i file multimediali. Si prega di creare un backup periodico della cartella di Anki per garantire la sicurezza dei dati.
+preferences-media-is-not-backed-up = I backup automatici non includono i file multimediali. Si consiglia di effettuare un backup periodico della cartella di Anki per garantire la sicurezza dei dati.
 preferences-on-next-sync-force-changes-in = Alla prossima sincronizzazione, forza i cambiamenti in una direzione
 preferences-paste-clipboard-images-as-png = Incolla immagini dagli appunti come png
 preferences-paste-without-shift-key-strips-formatting = Incolla senza tasto Maiusc rimuove la formattazione
-preferences-periodically-sync-media = Sincronizza file multimediali periodicamente
+preferences-periodically-sync-media = Sincronizza periodicamente i file multimediali
 preferences-please-restart-anki-to-complete-language = Riavvia Anki per completare il cambiamento di lingua.
 preferences-preferences = Preferenze
 preferences-scheduling = Pianifica
@@ -70,4 +70,5 @@ preferences-import-export = Importa/Esporta
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Basilare
+preferences-reviewer = Reviewer
 preferences-media = File multimediali
