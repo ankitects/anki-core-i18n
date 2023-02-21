@@ -99,6 +99,7 @@ importing-update = 更新
 importing-tag-all-notes = 标记所有笔记
 importing-tag-updated-notes = 标记已更新的笔记
 importing-file = 文件
+importing-match-scope = 匹配范围
 importing-notetype-and-deck = 卡片模板和牌组
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
