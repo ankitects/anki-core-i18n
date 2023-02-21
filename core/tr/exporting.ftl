@@ -1,6 +1,7 @@
 exporting-all-decks = Tüm Desteler
 exporting-anki-20-deck = Anki 2.0 Destesi
-exporting-anki-deck-package = Anki deste paketi
+exporting-anki-collection-package = Anki Koleksiyon Paketi
+exporting-anki-deck-package = Anki Deste Paketi
 exporting-cards-in-plain-text = Düz Metindeki Kartlar
 exporting-couldnt-save-file = Dosya kaydedilemedi: { $val }
 exporting-export = Dışarıya Aktar...

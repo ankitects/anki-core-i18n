@@ -25,6 +25,7 @@ importing-mapped-to = eşlenmiş <b>{ $val }</b>
 importing-mapped-to-tags = Eşlenmiş <b>Etiketler</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 Deste (*.db)
 importing-multicharacter-separators-are-not-supported-please = Çok karakterli ayırıcılar desteklenmiyor. Lütfen yalnızca bir karakter girin.
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlenmiş Anki Destesi/Koleksiyonu (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Dersi (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' içinde { $found } alan vardı, beklenen { $expected }
 importing-selected-file-was-not-in-utf8 = Seçilen dosya UTF-8 biçiminde değildi. Lütfen klavuzdaki içeri aktarma bölümüne bakın.
