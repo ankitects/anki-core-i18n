@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = Переучиваемые
 card-stats-review-log-type-filtered = Отфильтрованые
 card-stats-review-log-type-manual = Ручной
 card-stats-no-card = (Нет карточек для показа)
+card-stats-custom-data = Особые данные
 
 ## Window Titles
 

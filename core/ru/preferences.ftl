@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = Автоматически синхронизировать при смене профиля
 preferences-backups = Резервные копии
-preferences-basic = Основные
 preferences-change-deck-depending-on-note-type = Выбрать колоду по типу записи
 preferences-changes-will-take-effect-when-you = Изменения вступят в силу при перезапуске Anki.
 preferences-hours-past-midnight = ч. после полуночи
@@ -64,8 +63,13 @@ preferences-editing = Редактирование
 preferences-browsing = Список
 preferences-default-deck = Колода по умолчанию
 preferences-account = Учётная запись AnkiWeb
-preferences-media = Медиа
 preferences-note = Записи
 preferences-scheduler = Расписание
 preferences-user-interface = Интерфейс
 preferences-import-export = Импорт и экспорт
+preferences-network-timeout = Ожидание сети
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Основные
+preferences-media = Медиа

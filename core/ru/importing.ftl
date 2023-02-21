@@ -116,6 +116,7 @@ importing-update = Обновить
 importing-tag-all-notes = Пометить все
 importing-tag-updated-notes = Пометить обновлённые
 importing-file = Файл
+importing-notetype-and-deck = Тип записи и колода
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
