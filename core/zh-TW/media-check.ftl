@@ -71,3 +71,7 @@ media-check-empty-trash = 清空垃圾桶
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 回復已刪除檔案
 media-check-check-media-action = 檢查媒體檔
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = 媒體檔遺失
+# add a tag to notes with missing media
+media-check-add-tag = 為遺失媒體檔的筆記加上標籤
