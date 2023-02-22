@@ -60,7 +60,7 @@ actions-currently-unsupported = Questa azione al momento non è supportata sul t
 ## Flags
 
 actions-flag-number = Bandiera { $number }
-actions-flag-red = Rosso
+actions-flag-red = Rossa
 actions-flag-orange = Arancione
 actions-flag-green = Verde
 actions-flag-blue = Blu
