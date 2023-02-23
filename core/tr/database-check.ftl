@@ -1,4 +1,4 @@
-database-check-rebuilt = Veritabanı yeniden oluşturuldu ve optimize edildi.
+database-check-rebuilt = Veri tabanı yeniden oluşturuldu ve optimize edildi.
 database-check-card-properties =
     { $count ->
         [one] Geçersiz özelliklerle { $count } kart onarıldı.
