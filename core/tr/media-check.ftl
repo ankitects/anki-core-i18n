@@ -13,6 +13,8 @@ media-check-renamed-file = Yeniden adlandırıldı: { $old } -> { $new }
 
 ##
 
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
