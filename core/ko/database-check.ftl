@@ -9,7 +9,7 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-       *[other] 만기 순서가 100만 이상인 { $count }개의 카드를 찾았습니다. 찾아보기 메뉴에서 순서를 앞당기는 것을 고려해보세요.
+       *[other] 만기 순서가 100만 이상인 { $count }개의 카드를 찾았습니다. 탐색 메뉴에서 순서를 앞당기는 것을 고려해보세요.
     }
 database-check-card-missing-note = 노트가 사라진 { $count }카드를 삭제했습니다.
 database-check-duplicate-card-ords =

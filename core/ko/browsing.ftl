@@ -13,19 +13,17 @@ browsing-browser-options = 탐색기 옵션
 browsing-buried = 미뤄짐
 browsing-card = 카드
 browsing-cards = 카드
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
 browsing-card-list = 카드 목록
 browsing-cards-cant-be-manually-moved-into = 카드를 필터링된 덱으로 직접 옮길 수는 없습니다.
 browsing-cards-deleted =
     { $count ->
        *[other] 카드 { $count }개를 삭제했습니다.
     }
-browsing-change-deck = 덱 바꾸기
-browsing-change-deck2 = 덱 바꾸기...
-browsing-change-note-type = 노트 유형 바꾸기
-browsing-change-note-type2 = 노트 유형 바꾸기...
-browsing-change-notetype = 노트 유형 바꾸기
+browsing-change-deck = 덱 변경
+browsing-change-deck2 = 덱 변경...
+browsing-change-note-type = 노트 유형 변경
+browsing-change-note-type2 = 노트 유형 변경...
+browsing-change-notetype = 노트 유형 변경
 browsing-clear-unused-tags = 사용되지 않는 태그들 지우기
 browsing-confirm-saved-search-overwrite = { $name }을 가진 저장된 검색어가 이미 존재합니다. 덮어쓰기할까요?
 browsing-created = 생성날짜
@@ -60,8 +58,6 @@ browsing-no-flag = 플래그 없음
 browsing-no-selection = 선택한 카드나 노트가 없습니다.
 browsing-note = 노트
 browsing-notes = 노트
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = 필터 선택
 browsing-override-back-template = 뒷면 서식 교체:
 browsing-override-font = 글꼴 교체:
@@ -98,7 +94,7 @@ browsing-toggle-suspend = 일시중단하기
 browsing-treat-input-as-regular-expression = 정규식으로 취급
 browsing-update-saved-search = 현재 검색어로 업데이트
 browsing-whole-collection = 전체 컬렉션
-browsing-window-title-notes = 찾아보기 (노트 { $total }개 중 { $selected }개 선택함)
+browsing-window-title-notes = 탐색 (노트 { $total }개 중 { $selected }개 선택함)
 browsing-you-must-have-at-least-one = 적어도 세로열 하나는 반드시 필요합니다.
 browsing-group =
     { $count ->
@@ -116,7 +112,7 @@ browsing-cards-updated =
     { $count ->
        *[other] 카드 { $count }개를 업데이트했습니다.
     }
-browsing-window-title = 찾아보기 (카드 { $total }개 중 { $selected }개 선택함)
+browsing-window-title = 탐색 (카드 { $total }개 중 { $selected }개 선택함)
 browsing-sidebar-expand = 펼치기
 browsing-sidebar-collapse = 접기
 browsing-sidebar-expand-children = 하위 항목 펼치기
@@ -156,5 +152,9 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks = 덱 { $count }개의 이름을 바꿨습니다.
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
