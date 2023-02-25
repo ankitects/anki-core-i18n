@@ -30,7 +30,7 @@ search-invalid-answer-button = ожидаемая кнопка ответа ме
 
 ## Column labels in browse screen
 
-search-note-modified = Заметка изменена
+search-note-modified = Запись изменена
 search-card-modified = Карточка изменена
 
 ##
