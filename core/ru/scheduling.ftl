@@ -65,24 +65,24 @@ scheduling-next-learn-due =
     Следующаяя карточка будет доступна через { $unit ->
         [seconds]
             { $amount ->
-                [one] { $amount } секунду
-                [few] { $amount } секунды
-                [many] { $amount } секунд
-               *[other] { $amount } секунд
+                [one] { $amount } секунду.
+                [few] { $amount } секунды.
+                [many] { $amount } секунд.
+               *[other] { $amount } секунд.
             }
         [minutes]
             { $amount ->
-                [one] { $amount } минуту
-                [few] { $amount } минуты
-                [many] { $amount } минут
-               *[other] { $amount } минут
+                [one] { $amount } минуту.
+                [few] { $amount } минуты.
+                [many] { $amount } минут.
+               *[other] { $amount } минут.
             }
        *[hours]
             { $amount ->
-                [one] { $amount } час
-                [few] { $amount } часа
-                [many] { $amount } часов
-               *[other] { $amount } часов
+                [one] { $amount } час.
+                [few] { $amount } часа.
+                [many] { $amount } часов.
+               *[other] { $amount } часов.
             }
     }
 scheduling-learn-remaining =
