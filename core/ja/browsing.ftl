@@ -12,8 +12,7 @@ browsing-browser-appearance = 検索の表示設定
 browsing-browser-options = 検索オプション
 browsing-buried = 延期
 browsing-card = カード
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
+browsing-cards = カード
 browsing-card-list = カード一覧
 browsing-cards-cant-be-manually-moved-into = フィルターデッキには手動でカードを移動できません。
 browsing-cards-deleted =
@@ -58,8 +57,7 @@ browsing-new-note-type = 変更後のノートタイプ:
 browsing-no-flag = フラグなし
 browsing-no-selection = カードまたはノートが選択されていません。
 browsing-note = ノート
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
+browsing-notes = ノート
 browsing-optional-filter = オプションフィルター：
 browsing-override-back-template = 解答のテンプレート:
 browsing-override-font = フォント:
@@ -157,5 +155,9 @@ browsing-reparented-decks =
        *[other] デッキ名を{ $count }個を変更しました。
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
