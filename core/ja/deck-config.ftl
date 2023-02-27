@@ -77,9 +77,6 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 延期
-deck-config-bury-new-siblings = 新規カードの兄弟を翌日に延期する
-deck-config-bury-review-siblings = 復習カードの兄弟を翌日に延期する
-deck-config-bury-interday-learning-siblings = 日付をまたいだ習得中カードの兄弟を延期する
 
 ## Ordering section
 
@@ -88,8 +85,8 @@ deck-config-new-gather-priority = 新規カードを集めるときの優先順�
 deck-config-new-gather-priority-deck = デッキ
 deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
 deck-config-new-gather-priority-position-highest-first = 位置（降順）
-deck-config-new-gather-priority-random-notes = ノート単位でのランダム
-deck-config-new-gather-priority-random-cards = カード単位でのランダム
+deck-config-new-gather-priority-random-notes = ランダム（ノート単位）
+deck-config-new-gather-priority-random-cards = ランダム（カード単位）
 deck-config-new-card-sort-order = 集められた新規カードのソート方法
 deck-config-sort-order-card-template-then-random = カードテンプレ後、ランダム
 deck-config-sort-order-random-note-then-template = ノート単位でのランダム、さらにノート内ではカードタイプ単位でのランダム
@@ -191,5 +188,8 @@ deck-config-maximum-answer-secs-above-recommended = 質問を短くすること�
 
 deck-config-which-deck = どのデッキを選択しますか？
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-new-siblings = 新規カードの兄弟を翌日に延期する
+deck-config-bury-review-siblings = 復習カードの兄弟を翌日に延期する
+deck-config-bury-interday-learning-siblings = 日付をまたいだ習得中カードの兄弟を延期する
