@@ -47,4 +47,4 @@ preferences-editing = 편집
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-preferences-basic = 기본
+preferences-basic = Basic

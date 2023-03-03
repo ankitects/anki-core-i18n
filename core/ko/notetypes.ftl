@@ -10,11 +10,11 @@ notetypes-back-extra-field = Back Extra
 
 ## Default note type names
 
-notetypes-basic-name = 기본
-notetypes-basic-reversed-name = 기본 (역방향 카드 포함)
-notetypes-basic-optional-reversed-name = 기본 (선택적 역방향 카드)
-notetypes-basic-type-answer-name = 기본 (답 입력)
-notetypes-cloze-name = 빈칸 뚫기
+notetypes-basic-name = Basic
+notetypes-basic-reversed-name = Basic (and reversed card)
+notetypes-basic-optional-reversed-name = Basic (optional reversed card)
+notetypes-basic-type-answer-name = Basic (type in the answer)
+notetypes-cloze-name = Cloze
 
 ## Default card template names
 
