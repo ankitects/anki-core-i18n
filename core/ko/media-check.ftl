@@ -57,10 +57,10 @@ media-check-all-latex-rendered = 모든 LaTeX가 렌더링 됨.
 
 ## Buttons
 
-media-check-delete-unused = 카드에 쓰이지 않은 잉여파일 지우기
+media-check-delete-unused = Delete Unused
 media-check-render-latex = LaTeX 렌더링
 # button to permanently delete media files from the trash folder
-media-check-empty-trash = 쓰레기통 비우기
+media-check-empty-trash = Empty Trash
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 삭제 파일 복구
 media-check-check-media-action = 미디어 검사
