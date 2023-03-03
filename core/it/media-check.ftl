@@ -72,4 +72,8 @@ media-check-render-latex = Renderizza LaTeX
 media-check-empty-trash = Svuota cestino
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Ripristina i file eliminati
-media-check-check-media-action = Controlla file Multimediali
+media-check-check-media-action = Controlla file multimediali
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = media-mancanti
+# add a tag to notes with missing media
+media-check-add-tag = Etichetta mancanti

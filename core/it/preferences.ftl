@@ -59,6 +59,7 @@ preferences-style = Stile
 preferences-review = Ripetizioni
 preferences-distractions = Distrazioni
 preferences-minimalist-mode = Modalità minimalista
+preferences-editing = Modifica
 preferences-browsing = Sfoglia
 preferences-default-deck = Mazzo Default
 preferences-account = Account AnkiWeb
@@ -66,6 +67,8 @@ preferences-note = N.B.
 preferences-scheduler = Pianificatore
 preferences-user-interface = Interfaccia Utente
 preferences-import-export = Importa/Esporta
+preferences-reset-window-sizes = Ripristina dimensioni finestre
+preferences-reset-window-sizes-complete = Le dimensioni e le posizioni delle finestre sono state ripristinate.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
