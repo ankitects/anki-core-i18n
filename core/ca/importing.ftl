@@ -106,6 +106,7 @@ importing-update = Actualitza
 importing-tag-all-notes = Etiqueta totes les notes
 importing-tag-updated-notes = Etiqueta les notes actualitzades
 importing-file = Fitxer
+importing-match-scope = Abast de correspondència
 importing-notetype-and-deck = Tipus de nota i baralla
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

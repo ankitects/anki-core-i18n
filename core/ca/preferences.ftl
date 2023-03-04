@@ -67,6 +67,9 @@ preferences-note = Nota
 preferences-scheduler = Planificador
 preferences-user-interface = Interfície d'usuari
 preferences-import-export = Importar/Exportar
+preferences-network-timeout = Temps d’espera de la xarxa
+preferences-reset-window-sizes = Reestableix la mida de les finestres
+preferences-reset-window-sizes-complete = S’ha reestablert la mida i la posició de les finestres.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

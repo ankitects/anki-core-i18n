@@ -98,6 +98,18 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Enterrament
 deck-config-bury-siblings = Enterra les targetes relacionades
 deck-config-do-not-bury = No enterris les targetes relacionades
+deck-config-bury-if-new = Enterra les noves
+deck-config-bury-if-new-or-review = Enterra les noves o per repasar
+deck-config-bury-if-new-review-or-interday = Enterra les noves, per repassar o les d’aprenentatge entre dies.
+deck-config-bury-tooltip =
+    Les targetes relacionades són aquelles que pertanyen a una mateixa nota, com ara les targetes inverses o les que contenen diversos buits en un mateix text.
+    
+    Si desactiveu aquesta opció, podríeu veure diverses targetes d’una mateixa nota en un sol dia.
+    Si l’activeu, Anki *enterrarà* automàticament les targetes relacionades i les amagarà fins al dia següent.
+    Aquesta opció permet d’elegir quin tipus de targetes s’enterraran quan respongueu una targeta relacionada.
+    
+    Si feu servir la V3 del planificador, també és possible enterrar les targetes d’aprenentatge entre dies.
+    Les targetes d’aprenentatge entre dies tenen un pas d’aprenentatge d’un o més dies.
 
 ## Ordering section
 

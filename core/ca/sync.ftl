@@ -27,13 +27,13 @@ sync-resync-required = Torneu a sincronitzar les dades. Si l'error persisteix, p
 sync-must-wait-for-end = Anki s'està sincronitzant ara mateix. Espereu que es completi la sincronització i torneu-ho a intentar.
 sync-confirm-empty-download = La col·lecció local no conté cap targeta. Desitgeu descarregar-ne des d'AnkiWeb?
 sync-conflict-explanation =
-    Els vostres malls locals i els vostres malls d'AnkiWeb difereixen de tal manera que no és possible combinar-los. Per tant, cal sobreescriure un dels dos grups de malls amb els de l'altre.
+    Les baralles locals i les d’AnkiWeb no coincideixen, de manera que no és possible combinar-les. Per tant, cal sobreescriure un dels dos grups de baralles amb els de l’altre.
     
-    Si elegiu l'opció «Descarregar», Anki descarregarà la col·lecció des d'AnkiWeb i perdreu qualsevol canvi que hàgiu fet en el vostre ordinador des de l'última sincronització.
+    Si seleccioneu «Descarrega», Anki descarregarà la col·lecció des d’AnkiWeb i perdreu qualsevol canvi que hàgiu fet en el vostre ordinador des de l’última sincronització.
     
-    Si elegiu l'opció «Carregar», Anki carregarà la vostra col·lecció a AnkiWeb i perdreu qualsevol canvi que hàgiu fet en AnkiWeb o en qualsevol altre dispositiu des de l'última sincronització.
+    Si seleccioneu «Carrega», Anki carregarà la vostra col·lecció a AnkiWeb i perdreu qualsevol canvi que hàgiu fet en AnkiWeb o en qualsevol altre dispositiu des de l’última sincronització.
     
-    Després que tots els dispositius s'hagin sincronitzat, podreu combinar automàticament tots els repassos futurs i les targetes afegides.
+    Després de sincronitzar tots els dispositius, podreu combinar automàticament tots els repassos futurs i les targetes afegides.
 sync-ankiweb-id-label = Identificador d'AnkiWeb:
 sync-password-label = Contrasenya:
 sync-account-required =
@@ -42,8 +42,8 @@ sync-account-required =
 sync-sanity-check-failed = Feu servir la funció «Verifica la base de dades» i, tot seguit, torneu-la a sincronitzar. Si els problemes persisteixen, forceu la sincronització completa des de la finestra de preferències.
 sync-clock-off = No s'ha pogut sincronitzar la base de dades. Comproveu que el rellotge del vostre dispositiu mostra l'hora correcta.
 sync-upload-too-large =
-    El vostre fitxer de col·lecció és massa gran per enviar-lo a AnkiWeb. Podeu reduir-ne la mida 
-    treient els malls que no desitgeu (si voleu, podeu exportar-los abans) i, tot seguit, fent servir la funció «Verifica la base de dades» per a reduir la mida del fitxer. ({ $details })
+    El fitxer de col·lecció és massa gran per carregar-lo a AnkiWeb. Podeu reduir-ne la mida 
+    treient les baralles que no utilitzeu (si voleu, podeu exportar-les abans) i, tot seguit, fent servir la funció «Verifica la base de dades» per a reduir la mida del fitxer. ({ $details })
 
 ## Buttons
 
