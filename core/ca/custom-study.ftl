@@ -1,8 +1,8 @@
-custom-study-must-rename-deck = Abans, heu de canviar el nom del mall d'estudi personalitzat existent.
+custom-study-must-rename-deck = Abans, heu de canviar el nom de la baralla d’estudi personalitzat existent.
 custom-study-all-cards-in-random-order-dont = Totes les targetes en ordre aleatori (sense reprogramar)
 custom-study-all-review-cards-in-random-order = Totes les cargetes per repassar en ordre aleatori
 custom-study-cards = targetes
-custom-study-cards-from-the-deck = targetes del mall
+custom-study-cards-from-the-deck = targetes de la baralla
 custom-study-choose-tags = Selecciona les etiquetes
 custom-study-custom-study-session = Sessió d'estudi personalitzada
 custom-study-due-cards-only = Només targetes pendents
@@ -26,9 +26,9 @@ custom-study-selective-study = Estudi selectiu
 custom-study-study-by-card-state-or-tag = Estudia segons l'estat o l'etiqueta de la targeta
 custom-study-available-new-cards-2 = Targetes noves disponibles: { $countString }
 custom-study-available-review-cards-2 = Targetes disponibles per repassar: { $countString }
-custom-study-available-child-count = ({ $count } en malls secundaris)
+custom-study-available-child-count = ({ $count } en baralles secundàries)
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Targetes noves disponibles: { $count }
 custom-study-available-review-cards = Targetes disponibles per repassar: { $count }

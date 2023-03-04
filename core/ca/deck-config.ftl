@@ -7,11 +7,11 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     utilitzat per { $decks ->
-        [one] un mall
-       *[other] { $decks } malls
+        [one] una baralla
+       *[other] { $decks } baralles
     }
 deck-config-default-name = Per defecte
-deck-config-title = Opcions del mall
+deck-config-title = Opcions de la baralla
 
 ## Daily limits section
 
@@ -24,9 +24,9 @@ deck-config-review-limit-tooltip =
     Nombre màxim de targetes de repàs que es mostraran en un dia,
     sempre que estiguin preparades perquè les repasseu.
 deck-config-limit-deck-v3 =
-    En estudiar un mall que conté malls secundaris, els límits que establiu per a cada mall
-    secundari controlen el nombre màxim de targetes que s'obtindran d'aquell mall en particular.
-    Els límits del mall que heu seleccionat controlen el total de targetes que es mostraran.
+    Quan estudieu una baralla que en conté d’altres secundàries, els límits que establiu per a cada baralla
+    secundària determinaran el nombre màxim de targetes que s’obtindran d’aquella baralla en particular.
+    Els límits de la baralla que heu seleccionat determinaran el total de targetes que es mostraran.
 deck-config-limit-new-bound-by-reviews =
     El límit de repàs afecta el límit de noves targetes. Per exemple, si el vostre límit
     de repassos està definit en 200 i teniu 190 repassos en espera, s'introduiran un màxim
@@ -35,15 +35,15 @@ deck-config-limit-interday-bound-by-reviews =
     El límit de repàs també afecta les targetes d'aprenentatge entre dies. Quan apliqueu el límit,
     primer s'obtindran les targetes d'aprenentatge entre dies; més tard, els repassos; i finalment, les targetes noves.
 deck-config-tab-description =
-    - `Prefixada`: Tots els malls que facin servir aquesta configuració compartiran un mateix límit.
-    - `Aquest mall`: El límit serà exclusiu d'aquest mall.
-    - `Només avui`: Modifica temporalment el límit d'aquest mall.
+    - `Prefixada`: Totes les baralles que facin servir aquesta configuració compartiran un mateix límit.
+    - `Aquesta baralla`: El límit serà exclusiu d’aquesta baralla.
+    - `Només avui`: Modifica temporalment el límit d’aquesta baralla.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
 deck-config-shared-preset = Prefixada
-deck-config-deck-only = Aquest mall
+deck-config-deck-only = Aquesta baralla
 deck-config-today-only = Només avui
 
 ## New Cards section
@@ -96,24 +96,24 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Enterrament
-deck-config-bury-siblings = Enterra les targetes germanes
-deck-config-do-not-bury = No enterris les targetes germanes
+deck-config-bury-siblings = Enterra les targetes relacionades
+deck-config-do-not-bury = No enterris les targetes relacionades
 
 ## Ordering section
 
 deck-config-ordering-title = Ordre de visualització
 deck-config-new-gather-priority = Ordre de recopilació de les targetes noves
 deck-config-new-gather-priority-tooltip-2 =
-    «Mall»: mostra les targetes de cada mall per ordre, començant pel principi. Les targetes s'ordenen de manera ascendent. Si heu assolit el límit diari del mall seleccionat, la recol·lecció es detindrà abans que s'hagin verificat tots els malls. Aquest ordre és més ràpid en col·leccions grans i us permet de prioritzar els malls secundaris situats més a prop del principi.
+    «Baralla»: mostra les targetes de cada baralla en ordre ascendent, començant pel principi. Quan arribeu al límit diari de la baralla seleccionada, la recopilació es detindrà abans que s’hagin comprovat totes les baralles. Aquest ordre és més ràpid en col·leccions grans i permet prioritzar les baralles secundàries situades més amunt.
     
-    «Ordre ascendent»: mostra les targetes en ordre ascendent (número de repàs), que sol coincidir amb l'ordre en què han estat afegides.
+    «Ordre ascendent»: mostra les targetes en ordre ascendent (número de repàs), que generalment coincideix amb l’ordre en què les heu afegides.
     
-    «Ordre descendent»: mostra les targetes en ordre descendent (número de repàs); generalment, es mostraran primer les últimes targetes que hàgiu afegit.
+    «Ordre descendent»: mostra les targetes en ordre descendent (número de repàs), que generalment coincideix amb les últimes targetes que heu afegit.
     
-    «Notes aleatòries»: mostra targetes de notes seleccionades aleatòriament. Si heu desactivat l'opció d'enterrar les targetes relacionades, veureu totes les targetes d'una nota en una sola sessió (per exemple, veureu tant la targeta anvers → revers com la targeta inversa, revers → anvers).
+    «Notes aleatòries»: mostra targetes de notes seleccionades aleatòriament. Si desactiveu l’opció «Enterra les targetes relacionades», veureu totes les targetes d’una nota en una sola sessió (per exemple, veureu tant la targeta anvers → revers com la targeta inversa, revers → anvers).
     
     «Targetes aleatòries»: mostra les targetes de manera aleatòria.
-deck-config-new-gather-priority-deck = Mall
+deck-config-new-gather-priority-deck = Baralla
 deck-config-new-gather-priority-position-lowest-first = Posició ascendent
 deck-config-new-gather-priority-position-highest-first = Posició descendent
 deck-config-new-gather-priority-random-notes = Notes aleatòries
@@ -148,22 +148,22 @@ deck-config-review-mix-show-after-reviews = Mostra després de les targetes per 
 deck-config-review-mix-show-before-reviews = Mostra abans de les targetes per repassar
 deck-config-review-sort-order = Ordre de les targetes per repassar
 deck-config-review-sort-order-tooltip =
-    Amb l'ordre per defecte, es prioritzen les targetes que han estat en espera més temps;
-    d'aquesta manera, si aneu amb retard amb els repassos, les que duguin a l'espera més temps
-    apareixeran primer. Si heu acumulat un gran nombre de repassos que tardareu més d'un dia a
-    fer (o si prefereiu veure les targetes en l'ordre dels malls secundaris), proveu
+    Amb l’ordre per defecte, es prioritzen les targetes que han estat en espera més temps.
+    D'aquesta manera, si aneu amb retard amb els repassos, les que duguin a l’espera més temps
+    apareixeran primer. Si heu acumulat un gran nombre de repassos que tardareu més d’un dia a
+    fer (o si prefereiu veure les targetes en l’ordre de les baralles secundàries), proveu
     els ordres de classificació alternatius.
 deck-config-sort-order-due-date-then-random = Data de repàs i després en ordre aleatori
-deck-config-sort-order-due-date-then-deck = Data de repàs i després mall
-deck-config-sort-order-deck-then-due-date = Mall i després data de repàs
+deck-config-sort-order-due-date-then-deck = Data de repàs i després baralla
+deck-config-sort-order-deck-then-due-date = Baralla i després data de repàs
 deck-config-sort-order-ascending-intervals = Intervals ascendents
 deck-config-sort-order-descending-intervals = Intervals descendents
 deck-config-sort-order-ascending-ease = Facilitat ascendent
 deck-config-sort-order-descending-ease = Facilitat descendent
 deck-config-sort-order-relative-overdueness = Endarreriment relatiu
 deck-config-display-order-will-use-current-deck =
-    Anki farà servir l'ordre de visualització del mall que seleccioneu per a estudiar
-    i no el de cap mall secundari que pugui contenir.
+    Anki farà servir l’ordre de visualització de la baralla que estudieu
+    i no el de cap baralla secundària que pugui contenir.
 
 ## Timer section
 
@@ -229,7 +229,7 @@ deck-config-confirm-remove-name = Voleu eliminar { $name }?
 ## Other Buttons
 
 deck-config-save-button = Guarda
-deck-config-save-to-all-subdecks = Guarda per a tots els malls secundaris
+deck-config-save-to-all-subdecks = Guarda per a totes les baralles secundàries
 deck-config-revert-button-tooltip = Restaura aquest paràmetre al seu valor per defecte.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -244,8 +244,8 @@ deck-config-description-new-handling-hint =
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    Un mall principal té un límit { $cards ->
-        [one] d'una targeta
+    Una baralla principal té un límit { $cards ->
+        [one] d’una targeta
        *[other] de { $cards } targetes
     } que substituirà aquest límit.
 deck-config-reviews-too-low =
@@ -260,7 +260,7 @@ deck-config-maximum-answer-secs-above-recommended = Anki podrà planificar millo
 
 ## Selecting a deck
 
-deck-config-which-deck = Quin mall voleu?
+deck-config-which-deck = Quina baralla voleu?
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

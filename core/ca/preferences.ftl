@@ -1,7 +1,6 @@
 preferences-automatically-sync-on-profile-openclose = Sincronitza automàticament en obrir o tancar un perfil
 preferences-backups = Còpies de seguretat
-preferences-basic = Bàsica
-preferences-change-deck-depending-on-note-type = Canvia el mall en funció del tipus de nota
+preferences-change-deck-depending-on-note-type = Canvia la baralla en funció del tipus de nota
 preferences-changes-will-take-effect-when-you = Els canvis s'aplicaran quan reinicieu Anki.
 preferences-hours-past-midnight = hora/hores passada la mitjanit
 preferences-language = Llengua
@@ -28,7 +27,7 @@ preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Sincronitza
 preferences-synchronize-audio-and-images-too = Sincronitza també els sons i les imatges
 preferences-timebox-time-limit = Límit de sessió d'estudi
 preferences-user-interface-size = Mida de l'interfície d'usuari
-preferences-when-adding-default-to-current-deck = Afegeix al mall actual per defecte
+preferences-when-adding-default-to-current-deck = Afegeix la baralla actual per defecte
 preferences-you-can-restore-backups-via-fileswitch = Podeu restaurar còpies de seguretat des del menú Fitxer → Canviar de perfil.
 preferences-legacy-timezone-handling = Gestió de zones horàries antiga (tot i que té errors, és necessària si feu servir AnkiDroid 2.14 o inferior)
 preferences-default-search-text = Text de cerca per defecte
@@ -58,15 +57,19 @@ preferences-appearance = Aparença
 preferences-general = General
 preferences-style = Estil
 preferences-review = Repassar
-preferences-reviewer = Revisor
 preferences-distractions = Distraccions
 preferences-minimalist-mode = Mode minimalista
 preferences-editing = Edició
 preferences-browsing = Navegació
-preferences-default-deck = Mall per defecte
+preferences-default-deck = Baralla per defecte
 preferences-account = Compte d'AnkiWeb
-preferences-media = Multimèdia
 preferences-note = Nota
 preferences-scheduler = Planificador
 preferences-user-interface = Interfície d'usuari
 preferences-import-export = Importar/Exportar
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Bàsica
+preferences-reviewer = Revisor
+preferences-media = Multimèdia

@@ -13,24 +13,22 @@ browsing-browser-options = Opcions del navegador
 browsing-buried = Enterrades
 browsing-card = Targeta
 browsing-cards = Targetes
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = T
 browsing-card-list = Llista de targetes
-browsing-cards-cant-be-manually-moved-into = No podeu moure les targetes manualment a un mall filtrat.
+browsing-cards-cant-be-manually-moved-into = No podeu moure manualment les targetes a una baralla filtrada.
 browsing-cards-deleted =
     { $count ->
         [one] S'ha eliminat una targeta.
        *[other] S'han eliminat { $count } targetes.
     }
-browsing-change-deck = Canvia de mall
-browsing-change-deck2 = Canvia de mall…
+browsing-change-deck = Canvia de baralla
+browsing-change-deck2 = Canvia de baralla…
 browsing-change-note-type = Canvia el tipus de nota
 browsing-change-note-type2 = Canvia el tipus de nota…
 browsing-change-notetype = Canvia el tipus de nota
 browsing-clear-unused-tags = Neteja les etiquetes no utilitzades
 browsing-confirm-saved-search-overwrite = Ja existeix una cerca guardada amb el nom «{ $name }». Voleu sobreescriure-la?
 browsing-created = S'ha afegit
-browsing-current-deck = Mall actual
+browsing-current-deck = Baralla actual
 browsing-current-note-type = Tipus de nota actual:
 browsing-delete-notes = Elimina les notes
 browsing-duplicate = duplicat
@@ -54,15 +52,13 @@ browsing-learning = (aprenent)
 browsing-line-size = <b>Mida de la línia</b>:
 browsing-manage-note-types = Gestiona els tipus de nota…
 browsing-move-cards = Mou les targetes
-browsing-move-cards-to-deck = Mou les targetes al mall:
+browsing-move-cards-to-deck = Mou les targetes a la baralla:
 browsing-new = (nova)
 browsing-new-note-type = Nou tipus de nota:
 browsing-no-flag = Cap senyal
 browsing-no-selection = No heu seleccionat cap targeta o nota.
 browsing-note = Nota
 browsing-notes = Notes
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = Filtre opcional:
 browsing-override-back-template = Substitueix la plantilla del revers:
 browsing-override-font = Substitueix el tipus de lletra:
@@ -127,7 +123,7 @@ browsing-sidebar-expand = Expandeix
 browsing-sidebar-collapse = Redueix
 browsing-sidebar-expand-children = Expandeix els secundaris
 browsing-sidebar-collapse-children = Redueix els secundaris
-browsing-sidebar-decks = Malls
+browsing-sidebar-decks = Baralles
 browsing-sidebar-tags = Etiquetes
 browsing-sidebar-notetypes = Tipus de notes
 browsing-sidebar-saved-searches = Cerques guardades
@@ -135,7 +131,7 @@ browsing-sidebar-save-current-search = Guarda la cerca actual
 browsing-sidebar-card-state = Estat de la targeta
 browsing-sidebar-flags = Senyals
 browsing-today = Avui
-browsing-tooltip-card-modified = L'última vegada que vau modificar una targeta (incloent-hi repassos, senyals i canvis de mall)
+browsing-tooltip-card-modified = L’última vegada que vau modificar una targeta (incloent-hi repassos, senyals i canvis de baralla)
 browsing-tooltip-note-modified = L'última vegada que vau modificar una nota (generalment, el contingut d'un camp o les etiquetes)
 browsing-tooltip-card = El nom de la plantilla de la targeta
 browsing-tooltip-cards = El nombre de targetes que té una nota
@@ -164,9 +160,13 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-        [one] S'ha canviat el nom d'un mall.
-       *[other] S'ha canviat el nom de { $count } malls.
+        [one] S’ha canviat el nom d’una baralla.
+       *[other] S’ha canviat el nom de { $count } baralles.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = T
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

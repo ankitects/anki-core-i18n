@@ -32,8 +32,8 @@ database-check-duplicate-card-ords =
     }
 database-check-missing-decks =
     { $count ->
-        [one] S'ha corregit un mall que faltava.
-       *[other] S'han corregit { $count } malls que faltaven.
+        [one] S’ha corregit una baralla que faltava.
+       *[other] S’han corregit { $count } baralles que faltaven.
     }
 database-check-revlog-properties =
     { $count ->

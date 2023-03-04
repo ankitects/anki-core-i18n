@@ -140,8 +140,8 @@ scheduling-restore-position = Reestableix la posició original quan sigui possib
 scheduling-review = Per repassar
 scheduling-reviews = Repassos
 scheduling-seconds = segons
-scheduling-set-all-decks-below-to = Voleu assignar aquest grup d'opcions a tots els malls per sota de { $val }?
-scheduling-set-for-all-subdecks = Assigna a tots els malls secundaris
+scheduling-set-all-decks-below-to = Voleu assignar aquest grup d’opcions a totes les baralles per sota de { $val }?
+scheduling-set-for-all-subdecks = Assigna a totes les baralles secundàries
 scheduling-show-answer-timer = Mostra el temporitzador de resposta
 scheduling-show-new-cards-after-reviews = Mostra les targetes noves després dels repassos
 scheduling-show-new-cards-before-reviews = Mostra les targetes noves abans dels repassos
@@ -152,11 +152,11 @@ scheduling-steps-in-minutes = Passos (en minuts)
 scheduling-steps-must-be-numbers = Els passos han de ser números.
 scheduling-tag-only = Etiqueta només
 scheduling-the-default-configuration-cant-be-removed = No podeu eliminar la configuració per defecte.
-scheduling-your-changes-will-affect-multiple-decks = Els vostres canvis afectaran a diversos malls. Si voleu canviar únicament el mall actual, afegiu primer un nou grup d'opcions.
+scheduling-your-changes-will-affect-multiple-decks = Els canvis afectaran a més d’una baralla. Si únicament voleu modificar la baralla actual, afegiu primer un nou grup d’opcions.
 scheduling-deck-updated =
     { $count ->
-        [one] S'ha actualitzat un mall.
-       *[other] S'han actualitzat { $count } malls.
+        [one] S’ha actualitzat una baralla.
+       *[other] S’han actualitzat { $count } baralles.
     }
 scheduling-set-due-date-prompt =
     { $cards ->

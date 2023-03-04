@@ -13,11 +13,11 @@ studying-cards-buried =
         [one] S'ha enterrat una targeta.
        *[other] S'han enterrat { $count } targetes.
     }
-studying-cards-will-be-automatically-returned-to = Les targetes tornaran automàticament als seus malls d'origen després que les hàgiu repassades.
+studying-cards-will-be-automatically-returned-to = Les targetes tornaran automàticament a la baralla original quan les repasseu.
 studying-continue = Continua
-studying-counts-differ = El recompte de targetes és diferent del de la llista del mall perquè heu activat l'enterrament. S'han exclòs algunes targetes i és possible que altres les hagin substituïdes.
+studying-counts-differ = Aquest recompte no coincideix amb el de la llista de baralles perquè heu activat l’enterrament. S’han exclòs algunes targetes i és possible que s’hagin substituït per altres.
 studying-delete-note = Suprimeix la nota
-studying-deleting-this-deck-from-the-deck = Si elimineu aquest mall de la llista, totes les targetes restants tornaran al seu mall d'origen.
+studying-deleting-this-deck-from-the-deck = Si elimineu aquesta baralla de la llista, les targetes restants tornaran a la seva baralla original.
 studying-easy = Fàcil
 studying-edit = Edita
 studying-empty = Buit
@@ -40,7 +40,7 @@ studying-space = Espai
 studying-study-now = Comença a estudiar
 studying-suspend = Suspèn
 studying-suspend-note = Suspèn la nota
-studying-this-is-a-special-deck-for = Aquest mall especial serveix per a estudiar fora de l'horari normal.
+studying-this-is-a-special-deck-for = Aquesta baralla especial permet estudiar fora de l’horari normal.
 studying-to-review = Per repassar
 studying-type-answer-unknown-field = Escriu la resposta: camp desconegut { $val }
 studying-unbury = Desenterrar

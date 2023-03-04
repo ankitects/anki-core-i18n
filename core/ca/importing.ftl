@@ -30,14 +30,14 @@ importing-map-to = Associa a { $val }
 importing-map-to-tags = Associa a les etiquetes
 importing-mapped-to = assignat a <b>{ $val }</b>
 importing-mapped-to-tags = assignat a <b>Etiquetes</b>
-importing-mnemosyne-20-deck-db = Mall Mnemosyne 2.0 (*.db)
+importing-mnemosyne-20-deck-db = Baralla Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Els separadors de més d'un caràcter no son vàlids; introduïu un sol caràcter.
 importing-notes-added-from-file = Notes afegides des del fitxer: { $val }
 importing-notes-found-in-file = Notes trobades en el fitxer: { $val }
 importing-notes-skipped-as-theyre-already-in = S'han omès les notes, atès que ja es troben en la vostra col·lecció: { $val }
 importing-notes-that-could-not-be-imported = Notes que no s'han pogut importar a causa d'un canvi de tipus de nota: { $val }
 importing-notes-updated-as-file-had-newer = Notes actualitzades, atès que el fitxer contenia una versió més recent: { $val }
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mall d'Anki comprimit/Col·lecció (*.apkg *.colpkg *.zip)
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida d’Anki o col·lecció (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Barra vertical
@@ -106,7 +106,7 @@ importing-update = Actualitza
 importing-tag-all-notes = Etiqueta totes les notes
 importing-tag-updated-notes = Etiqueta les notes actualitzades
 importing-file = Fitxer
-importing-notetype-and-deck = Tipus de nota i mall
+importing-notetype-and-deck = Tipus de nota i baralla
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

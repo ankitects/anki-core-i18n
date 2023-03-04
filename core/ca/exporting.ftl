@@ -1,7 +1,7 @@
-exporting-all-decks = Tots els malls
-exporting-anki-20-deck = Mall d'Anki 2.0
+exporting-all-decks = Totes les baralles
+exporting-anki-20-deck = Baralla d’Anki 2.0
 exporting-anki-collection-package = Paquet de la col·lecció d'Anki
-exporting-anki-deck-package = Paquet de malls d'Anki
+exporting-anki-deck-package = Paquet de baralles d'Anki
 exporting-cards-in-plain-text = Targetes en text pla
 exporting-collection = col·lecció
 exporting-collection-exported = S'ha exportat la colecció.
@@ -38,6 +38,6 @@ exporting-processed-media-files =
         [one] S'ha processat un fitxer multimèdia…
        *[other] S'han processat { $count } fitxers multimèdia…
     }
-exporting-include-deck = Inclou el nom del mall
+exporting-include-deck = Inclou el nom de la baralla
 exporting-include-notetype = Inclou el nom del tipus de nota
 exporting-include-guid = Inclou l'identificador únic
