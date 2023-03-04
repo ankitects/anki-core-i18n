@@ -82,7 +82,6 @@ importing-processed-media-file =
         [one] { $count } archivo multimedia procesado
        *[other] { $count } archivos multimedia procesados
     }
-importing-importing-collection = Importando colección...
 importing-importing-file = Importando archivo...
 importing-extracting = Extrayendo datos...
 importing-gathering = Reuniendo datos...
@@ -97,7 +96,6 @@ importing-processed-cards =
         [one] Se ha procesado una tarjeta…
        *[other] Se han procesado { $count } tarjetas…
     }
-importing-unable-to-import-filename = No fue posible importar { $filename }: tipo de archivo no compatible
 importing-existing-notes = Notas existentes
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplicar
@@ -108,3 +106,9 @@ importing-update = Actualizar
 importing-tag-all-notes = Etiquetar todas las notas
 importing-tag-updated-notes = Etiquetar las notas actualizadas
 importing-file = Archivo
+importing-notetype-and-deck = Tipo de nota y mazo
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Importando colección...
+importing-unable-to-import-filename = No fue posible importar { $filename }: tipo de archivo no compatible

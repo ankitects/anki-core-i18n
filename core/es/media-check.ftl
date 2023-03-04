@@ -73,3 +73,5 @@ media-check-empty-trash = Vacíar Papelera
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Restaurar Eliminadas
 media-check-check-media-action = Verificar archivos multimedia
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = falta-multimadia
