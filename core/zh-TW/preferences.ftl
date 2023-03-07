@@ -66,6 +66,8 @@ preferences-scheduler = 排程器
 preferences-user-interface = 使用者介面
 preferences-import-export = 匯入/匯出
 preferences-network-timeout = 網路逾時
+preferences-reset-window-sizes = 重設視窗大小
+preferences-reset-window-sizes-complete = 已重設視窗大小及位置。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
