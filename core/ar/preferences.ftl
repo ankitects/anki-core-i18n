@@ -68,6 +68,8 @@ preferences-scheduler = المجدول
 preferences-user-interface = واجهة المستخدم
 preferences-import-export = الاستيراد/التصدير
 preferences-network-timeout = مهلة الشبكة
+preferences-reset-window-sizes = تصفير أحجام النوافذ
+preferences-reset-window-sizes-complete = تم تصفير أحجام النوافذ ومواقعها.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
