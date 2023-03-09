@@ -84,7 +84,6 @@ importing-processed-media-file =
         [one] עובד { $count } קובץ מדיה
        *[other] עובדו { $count } קבצי מדיה
     }
-importing-importing-collection = מייבא אוסף...
 importing-importing-file = מייבא קובץ...
 importing-extracting = מחלץ מידע...
 importing-gathering = אוסף מידע...
@@ -99,7 +98,6 @@ importing-processed-cards =
         [one] מייבא כרטיס { $count }...
        *[other] מייבא { $count } כרטיסים...
     }
-importing-unable-to-import-filename = { $filename } לא ניתן לייבוא: סוג הקובץ לא נתמך
 importing-existing-notes = כרטיסים קיימים
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = שכפל
@@ -110,3 +108,10 @@ importing-update = לעדכן
 importing-tag-all-notes = תיוג לכרטיסים
 importing-tag-updated-notes = תיוג לכרטיסים שיתעדכנו
 importing-file = קובץ
+importing-match-scope = היקף התאמה
+importing-notetype-and-deck = סוג רשומה וחפיסה
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = מייבא אוסף...
+importing-unable-to-import-filename = { $filename } לא ניתן לייבוא: סוג הקובץ לא נתמך

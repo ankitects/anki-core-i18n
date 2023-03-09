@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = סנכרן אוטומטית בעת פתיחה\סגירה של פרופיל
 preferences-backups = גיבויים
-preferences-basic = בסיסי
 preferences-change-deck-depending-on-note-type = שנה חפיסה בהתאם לסוג רשומה
 preferences-changes-will-take-effect-when-you = השינויים ייכנסו לתוקף כשתתחיל את Anki מחדש.
 preferences-hours-past-midnight = שעות לאחר חצות
@@ -58,15 +57,22 @@ preferences-appearance = מראה
 preferences-general = כללי
 preferences-style = עיצוב
 preferences-review = חזרה
-preferences-reviewer = מסך החזרה
 preferences-distractions = הסחות דעת
 preferences-minimalist-mode = מצב מינימלי
 preferences-editing = עריכה
 preferences-browsing = דפדוף
 preferences-default-deck = חפיסת ברירת מחדל
 preferences-account = חשבון AnkiWeb
-preferences-media = מדיה
 preferences-note = הערה
 preferences-scheduler = מתזמן
 preferences-user-interface = ממשק משתמש
 preferences-import-export = ייבוא/ייצוא
+preferences-network-timeout = פסק זמן לרשת
+preferences-reset-window-sizes = אפס גדלי חלונות
+preferences-reset-window-sizes-complete = גודלי ומיקומי החלונות אופסו.
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = בסיסי
+preferences-reviewer = מסך החזרה
+preferences-media = מדיה
