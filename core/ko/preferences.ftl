@@ -1,7 +1,7 @@
 preferences-automatically-sync-on-profile-openclose = 프로필을 열고 닫을 때 자동 동기화
 preferences-backups = 백업
 preferences-change-deck-depending-on-note-type = 노트 유형에 따라 덱 변경
-preferences-changes-will-take-effect-when-you = 변경 사항은 앙키를 재시작한 뒤 적용됩니다.
+preferences-changes-will-take-effect-when-you = 변경 사항은 Anki를 재시작한 뒤 적용됩니다.
 preferences-hours-past-midnight = 시간 뒤
 preferences-interrupt-current-audio-when-answering = 응답 할 때 현재 오디오 재생 중단
 preferences-learn-ahead-limit = 앞당겨 공부하기 제한

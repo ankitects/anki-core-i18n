@@ -3,7 +3,7 @@ importing-aborted = 중단됨: { $val }
 importing-added-duplicate-with-first-field = 정렬 필드와 중복된 노트 추가: { $val }
 importing-all-supported-formats = 지원하는 모든 형식 { $val }
 importing-allow-html-in-fields = 필드 안에 HTML 허용
-importing-anki-files-are-from-a-very = .anki 파일은 이전 버전의 앙키에서 만든 것입니다.  Anki 2.0으로 해당 파일을 불러올 수 있습니다.
+importing-anki-files-are-from-a-very = .anki 파일은 이전 버전의 Anki에서 만든 것입니다.  Anki 2.0으로 해당 파일을 불러올 수 있습니다.
 importing-anki2-files-are-not-directly-importable = .anki2 파일은 직접 불러올수 없습니다. .apkg 또는 .zip 파일로 불러오기 바랍니다.
 importing-appeared-twice-in-file = 파일에서 두 번 등장합니다: { $val }
 importing-by-default-anki-will-detect-the = 기본적으로 Anki는 탭이나 쉼표 같은 필드 구분 문자를 자동으로 감지합니다. 만약 Anki가 구분 문자를 제대로 감지하지 못한다면, 이곳에 구분 문자를 직접 입력하세요. 탭은 \t로 표현하세요.
@@ -77,14 +77,12 @@ importing-processed-media-file =
     { $count ->
        *[other] { $count }개의 미디어 파일을 처리함
     }
-importing-importing-collection = 컬렉션 가져오는 중...
 importing-importing-file = 파일 가져오는 중...
 importing-extracting = 데이터 추출하는 중...
 importing-gathering = 데이터 수집하는 중...
 importing-failed-to-import-media-file = 미디어 파일을 가져오는 데 실패했습니다. { $debuginfo }
 importing-processed-notes = 노트 { $count }개 처리 완료...
 importing-processed-cards = 카드 { $count }개 처리 완료...
-importing-unable-to-import-filename = { $filename }을 가져오지 못했습니다. 지원하지 않는 파일 유형입니다.
 importing-existing-notes = 기존 노트
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = 중복 허용
@@ -95,3 +93,8 @@ importing-update = 덮어쓰기
 importing-tag-all-notes = 모든 노트 태그
 importing-tag-updated-notes = 덮어쓴 노트 태그
 importing-file = 파일
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = 컬렉션 가져오는 중...
+importing-unable-to-import-filename = { $filename }을 가져오지 못했습니다. 지원하지 않는 파일 유형입니다.
