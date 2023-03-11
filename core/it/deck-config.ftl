@@ -37,6 +37,9 @@ deck-config-tab-description =
     - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.
     - `Questo mazzo`: il limite è specifico per questo mazzo.
     - `Solo oggi`: apporta una modifica temporanea al limite di questo mazzo.
+deck-config-new-cards-ignore-review-limit = Le nuove carte ignorano il limite di ripetizioni
+deck-config-new-cards-ignore-review-limit-tooltip = Di default, il limite di ripetizioni si applica anche alle nuove carte e non verranno mostrate nuove carte quando il limite di ripetizioni è stato raggiunto. Se questa opzione è abilitata, le nuove carte verranno mostrate indipendentemente dal limite di ripetizioni.
+deck-config-affects-entire-collection = Influenza l'intera collezione.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -94,21 +97,14 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Sepoltura
-deck-config-bury-siblings = Seppellisci carte sorelle
-deck-config-do-not-bury = Non seppellire carte sorelle
-deck-config-bury-if-new = Seppellisci se nuove
-deck-config-bury-if-new-or-review = Seppellisci se nuove o da ripetere
-deck-config-bury-if-new-review-or-interday = Seppellisci se nuove, da ripetere, o in apprendimento intergiornaliero
-deck-config-bury-tooltip =
-    La carte sorelle sono altre carte appartenenti alla stessa nota (es. carte fronte→retro e retro→fronte, 
-    oppure altre cancellazioni cloze dallo stesso testo).
-    
-    Quando questa opzione è disattivata, più carte dalla stessa nota possono essere visualizzate lo stesso giorno. 
-    Quando è attivata, Anki *seppellirà* automaticamente le carte sorelle, nascondendole fino al giorno successivo. 
-    Questa opzione ti consente di scegliere quali tipi di carte verranno sepolti quando si risponde ad una delle loro carte sorelle.
-    
-    Quando si utilizza lo scheduler V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
-    Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento corrente di uno o più giorni.
+deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
+deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
+deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in apprendimento intergiornaliero
+deck-config-bury-new-tooltip =
+    Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)
+    debbano essere rimandate fino al giorno successivo.
+deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
+deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
 
 ## Ordering section
 
@@ -280,11 +276,18 @@ deck-config-which-deck = Quale mazzo desideri?
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
-deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
-deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in apprendimento intergiornaliero
-deck-config-bury-new-tooltip =
-    Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)
-    debbano essere rimandate fino al giorno successivo.
-deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
-deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
+deck-config-bury-siblings = Seppellisci carte sorelle
+deck-config-do-not-bury = Non seppellire carte sorelle
+deck-config-bury-if-new = Seppellisci se nuove
+deck-config-bury-if-new-or-review = Seppellisci se nuove o da ripetere
+deck-config-bury-if-new-review-or-interday = Seppellisci se nuove, da ripetere, o in apprendimento intergiornaliero
+deck-config-bury-tooltip =
+    La carte sorelle sono altre carte appartenenti alla stessa nota (es. carte fronte→retro e retro→fronte, 
+    oppure altre cancellazioni cloze dallo stesso testo).
+    
+    Quando questa opzione è disattivata, più carte dalla stessa nota possono essere visualizzate lo stesso giorno. 
+    Quando è attivata, Anki *seppellirà* automaticamente le carte sorelle, nascondendole fino al giorno successivo. 
+    Questa opzione ti consente di scegliere quali tipi di carte verranno sepolti quando si risponde ad una delle loro carte sorelle.
+    
+    Quando si utilizza lo scheduler V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
+    Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento corrente di uno o più giorni.
