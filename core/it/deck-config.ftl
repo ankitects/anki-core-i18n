@@ -105,6 +105,18 @@ deck-config-bury-new-tooltip =
     debbano essere rimandate fino al giorno successivo.
 deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
 deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
+deck-config-bury-priority-tooltip =
+    Quando Anki raccoglie le carte, le organizza in base alla priorità di apprendimento. 
+    In particolare, raccoglie prima le carte in apprendimento intragiornaliero, poi quelle in apprendimento intergiornaliero, 
+    quindi le carte da ripetere e infine le nuove carte. 
+    Questo ha un impatto sulla funzione di "sepoltura" delle carte:
+    
+    - Se hai abilitato tutte le opzioni di sepoltura, verrà mostrata la carta sorella che viene prima nella lista appena descritta. 
+    Ad esempio, una carta da ripetere avrà la priorità rispetto a una nuova carta.
+    - Le carte sorelle che seguono nella lista non influenzano i tipi di carte precedenti. 
+    Ad esempio, se disabiliti la funzione di sepoltura per le nuove carte e studi una nuova carta, 
+    non verrà seppellita nessuna carta in apprendimento intergiornaliero o da ripetere. 
+    Pertanto, potresti incontrare sia una carta sorella da ripetere che una nuova carta sorella nella stessa sessione.
 
 ## Ordering section
 
