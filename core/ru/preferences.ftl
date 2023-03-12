@@ -68,6 +68,8 @@ preferences-scheduler = Расписание
 preferences-user-interface = Интерфейс
 preferences-import-export = Импорт и экспорт
 preferences-network-timeout = Ожидание сети
+preferences-reset-window-sizes = Сбросить размер новых
+preferences-reset-window-sizes-complete = Размер и положения окон сброшены.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
