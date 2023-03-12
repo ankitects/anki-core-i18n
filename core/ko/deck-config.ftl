@@ -71,7 +71,7 @@ deck-config-new-insertion-order-random-with-v3 =
 
 ## Lapses section
 
-deck-config-relearning-steps = 복습 단계
+deck-config-relearning-steps = 재학습 단계
 deck-config-relearning-steps-tooltip =
     여러 복습간격 사이에 공백을 넣어 입력할 수 있어요. 기본적으로
     `다시` 버튼을 누르면 10분 뒤에 다시 보여줍니다. 만약 아무것도
@@ -92,6 +92,15 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 미루기
+deck-config-bury-new-siblings = 같은 노트에 있는 새 카드 미루기
+deck-config-bury-review-siblings = 같은 노트에 있는 복습카드 미루기
+deck-config-bury-new-tooltip =
+    동일한 노트의 다른 (역방향, 인접한 빈칸 채우기 등) `새` 카드를
+    다음 날까지 미룰지 여부를 나타냅니다.
+deck-config-bury-review-tooltip = 동일한 노트의 다른 `복습` 카드를 다음 날까지 미룰지 여부를 나타냅니다.
+deck-config-bury-interday-learning-tooltip =
+    주기가 하루 이상인 동일한 노트의 다른 `학습` 카드를
+    다음 날까지 미룰지 여부를 나타냅니다.
 
 ## Ordering section
 
@@ -257,12 +266,3 @@ deck-config-which-deck = 어떤 덱을 고르시겠습니까?
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-new-siblings = 같은 노트에 있는 새 카드 미루기
-deck-config-bury-review-siblings = 같은 노트에 있는 복습카드 미루기
-deck-config-bury-new-tooltip =
-    동일한 노트의 다른 (역방향, 인접한 빈칸 채우기 등) `새` 카드를
-    다음 날까지 미룰지 여부를 나타냅니다.
-deck-config-bury-review-tooltip = 동일한 노트의 다른 `복습` 카드를 다음 날까지 미룰지 여부를 나타냅니다.
-deck-config-bury-interday-learning-tooltip =
-    주기가 하루 이상인 동일한 노트의 다른 `학습` 카드를
-    다음 날까지 미룰지 여부를 나타냅니다.
