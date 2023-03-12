@@ -142,15 +142,15 @@ deck-config-new-gather-priority-random-notes = Casuale (note)
 deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordinamento delle nuove carte
 deck-config-new-card-sort-order-tooltip-2 =
-    `Tipo di carta, poi in ordine di raccolta`: Mostra le carte seguendo l'ordine dei tipi di carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
+    `Tipo di carta, poi in ordine di raccolta`: mostra le carte seguendo l'ordine dei tipi di carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
     
-    `Ordine di raccolta`: Mostra le carte nell'ordine di raccolta. Se la sepoltura delle carte sorelle è disabilitata, in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra.
+    `Ordine di raccolta`: mostra le carte nell'ordine di raccolta. Se la sepoltura delle carte sorelle è disabilitata, in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra.
     
-    `Tipo di carta, quindi casuale`: Identico a `Tipo di carta, poi ordine di raccolta`, ma le carte dello stesso tipo vengono mostrate in ordine casuale. Se usi `Posizione crescente` per vedere le carte più vecchie per prime, potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.
+    `Tipo di carta, quindi casuale`: identico a `Tipo di carta, poi ordine di raccolta`, ma le carte dello stesso tipo vengono mostrate in ordine casuale. Se usi `Posizione crescente` per vedere le carte più vecchie per prime, potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.
     
-    `Nota casuale, quindi tipo di carta`: Raccoglie note in maniera casuale, quindi mostra tutte le loro carte, in ordine.
+    `Nota casuale, quindi tipo di carta`: raccoglie note in maniera casuale, quindi mostra tutte le loro carte, in ordine.
     
-    `Casuale`: Mescola completamente le carte raccolte.
+    `Casuale`: mescola completamente le carte raccolte.
 deck-config-sort-order-card-template-then-random = Tipo di carta, poi in ordine casuale
 deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
 deck-config-sort-order-random = Casuale
