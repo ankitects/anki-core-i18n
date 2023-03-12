@@ -89,9 +89,9 @@ deck-config-leech-threshold-tooltip =
     cancellarla o pensare ad un espediente mnemonico per ricordarla.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Solo Etichetta`: Aggiungi l'etichetta `Sanguisuga` alla nota, e mostra un pop-up.
+    `Solo Etichetta`: aggiungi l'etichetta `Sanguisuga` alla nota, e mostra un pop-up.
     
-    `Sospendi Carta`: Oltre ad aggiungere l'etichetta, nascondi la carta fino a
+    `Sospendi Carta`: oltre ad aggiungere l'etichetta, nascondi la carta fino a
     quando non è rimossa manualmente dalla sospensione.
 
 ## Burying section

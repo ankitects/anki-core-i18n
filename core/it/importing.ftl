@@ -106,6 +106,7 @@ importing-update = Aggiorna
 importing-tag-all-notes = Etichetta tutte le note
 importing-tag-updated-notes = Etichetta le note aggiornate
 importing-file = File
+importing-match-scope = Ambito di confronto
 importing-notetype-and-deck = Tipo di nota e mazzo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
