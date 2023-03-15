@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = Reimpara
 card-stats-review-log-type-filtered = Filtrato
 card-stats-review-log-type-manual = Manuale
 card-stats-no-card = (Nessuna carta da visualizzare.)
+card-stats-custom-data = Dati personalizzati
 
 ## Window Titles
 

@@ -67,6 +67,7 @@ preferences-note = N.B.
 preferences-scheduler = Pianificatore
 preferences-user-interface = Interfaccia Utente
 preferences-import-export = Importa/Esporta
+preferences-network-timeout = Timeout connessione
 preferences-reset-window-sizes = Ripristina dimensioni finestre
 preferences-reset-window-sizes-complete = Le dimensioni e le posizioni delle finestre sono state ripristinate.
 
