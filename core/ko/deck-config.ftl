@@ -266,3 +266,5 @@ deck-config-which-deck = 어떤 덱을 고르시겠습니까?
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-if-new = 새카드만 미루기
+deck-config-bury-if-new-or-review = 새카드 및 복습카드 미루기

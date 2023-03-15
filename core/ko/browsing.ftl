@@ -52,7 +52,7 @@ browsing-line-size = <b>줄 간격</b>:
 browsing-manage-note-types = 노트 유형 관리...
 browsing-move-cards = 카드 이동
 browsing-move-cards-to-deck = 카드를 덱으로 이동:
-browsing-new = (새 카드)
+browsing-new = (새카드)
 browsing-new-note-type = 새 노트 유형:
 browsing-no-flag = 플래그 없음
 browsing-no-selection = 선택한 카드나 노트가 없습니다.
@@ -149,7 +149,7 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-       *[other] 새로운 카드 { $count }개의 위치를 바꿨습니다.
+       *[other] 새 카드 { $count }개의 위치를 바꿨습니다.
     }
 browsing-reparented-decks = 덱 { $count }개의 이름을 바꿨습니다.
 
