@@ -168,9 +168,9 @@ deck-config-review-sort-order-tooltip =
     그래서 복습을 밀리면 가장 오래된 카드가 먼저 나타납니다.
     따라잡는 데 며칠이 걸리거나 카드를 하위 덱 순서대로
     보려면 다른 정렬 순서를 사용하는 걸 추천합니다.
-deck-config-sort-order-due-date-then-random = 만기 날짜 후 랜덤
-deck-config-sort-order-due-date-then-deck = 만기 날짜 후 덱
-deck-config-sort-order-deck-then-due-date = 덱 후 만기 날짜
+deck-config-sort-order-due-date-then-random = 만기 후 랜덤
+deck-config-sort-order-due-date-then-deck = 만기 후 덱
+deck-config-sort-order-deck-then-due-date = 덱 후 만기
 deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
 deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
 deck-config-sort-order-ascending-ease = ease 오름차순
