@@ -46,6 +46,7 @@ preferences-hide-top-bar-during-review = 学習画面でトップバーを非表
 preferences-hide-bottom-bar-during-review = 学習画面でボトムバーを非表示
 preferences-appearance = 表示
 preferences-general = 一般
+preferences-review = 学習
 preferences-minimalist-mode = ミニマリストモード
 preferences-editing = 編集
 preferences-user-interface = ユーザーインターフェース
