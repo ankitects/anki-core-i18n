@@ -70,3 +70,7 @@ media-check-empty-trash = Tyhjennä roskakori
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Palauta poistetut
 media-check-check-media-action = Tarkista media
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = media-puuttuu
+# add a tag to notes with missing media
+media-check-add-tag = Lisää 'media puuttuu' -tunniste

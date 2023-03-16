@@ -38,6 +38,9 @@ deck-config-tab-description =
     - `Esiasetus`: Raja jaetaan kaikille tätä esiasetusta käyttäville pakoille.
     - `Tämä pakka`: Raja koskee vain tätä pakkaa.
     - `Vain tänään`: Tee väliaikainen muutos tämän pakan rajaan.
+deck-config-new-cards-ignore-review-limit = Uudet kortit eivät huomioi kertausten enimmäismäärää
+deck-config-new-cards-ignore-review-limit-tooltip = Oletusarvoisesti kertausten enimmäismäärä koskee myös uusia kortteja, eikä uusia kortteja näytetä, kun raja on saavutettu. Jos tämä vaihtoehto on käytössä, uudet kortit näytetään kertausten enimmäismäärästä riippumatta.
+deck-config-affects-entire-collection = Vaikuttaa koko kokoelmaan.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -106,6 +109,11 @@ deck-config-bury-review-tooltip =
 deck-config-bury-interday-learning-tooltip =
     Viivästetäänkö muita `opiskeltavia` samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja,
     vierekkäisiä täyttötehtäviä) seuraavaan päivään.
+deck-config-bury-priority-tooltip =
+    Kun Anki kerää kortteja, se kerää ensin samana päivänä opittavat kortit, sitten useana päivänä opittavat kortit, sitten kerrattavat ja lopuksi uudet kortit. Tämä vaikuttaa miten hautaaminen toimii.
+    
+    - Jos kaikki hautaustoiminnot ovat käytössä, näytetään se sisarkortti, joka tulee luettelossa ensimmäisenä. Esimerkiksi kerrattava kortti näytetään ennen uutta korttia.
+    - Luettelossa myöhemmin olevat sisarkortit eivät voi haudata aikaisempia korttityyppejä. Jos esimerkiksi poistat uusien korttien hautaamisen käytöstä ja opiskelet uutta korttia, usean päivän aikana opittavia tai kerrattavia kortteja ei haudata, ja saatat nähdä sekä kerrattavan sisarkortin että uuden sisarkortin saman istunnon aikana.
 
 ## Ordering section
 
@@ -243,5 +251,14 @@ deck-config-maximum-answer-secs-above-recommended = Anki ajoittaa kertaukset teh
 
 deck-config-which-deck = Minkä pakan haluaisit?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = Hautaa sisarkortit
+deck-config-do-not-bury = Älä hautaa sisarkortteja
+deck-config-bury-if-new = Hautaa uudet
+deck-config-bury-if-new-or-review = Hautaa uudet tai kerrattavat
+deck-config-bury-if-new-review-or-interday = Hautaa uudet, kerrattavat ja usean päivän aikana opittavat
+deck-config-bury-tooltip =
+    Sisarkortit ovat muita kortteja samasta muistiinpanosta (esim. käänteiset kortit tai muut samasta tekstistä tehdyt täyttötehtävät ).
+    
+    Kun tämä asetus on pois päältä, useita kortteja samasta muistiinpanosta voi esiintyä samana päivänä. Kun se on päällä, Anki *hautaa* sisarkortit automaattisesti ja piilottaa ne seuraavaan päivään asti. Tämän vaihtoehdon avulla voit valita, minkälaiset kortit voidaan haudata, kun vastaat johonkin niiden sisarkorteista.

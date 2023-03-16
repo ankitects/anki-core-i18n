@@ -42,7 +42,7 @@ importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
 # the '|' character
 importing-pipe = Putki
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }':ssa oli { $found } kenttää, pitäisi olla { $expected }
-importing-selected-file-was-not-in-utf8 = Valittu tiedosto ei ollut UTF-8-muodossa. Katso käyttöohjeen tuonti-osio.
+importing-selected-file-was-not-in-utf8 = Valittu tiedosto ei ollut UTF-8-muodossa. Katso käyttöohjeen tuonnista kertova osio.
 importing-semicolon = Puolipiste
 importing-skipped = Ohitettu
 importing-supermemo-xml-export-xml = Supermemo XML -vienti (*.xml)
@@ -82,7 +82,6 @@ importing-processed-media-file =
         [one] Käsiteltiin { $count } mediatiedosto
        *[other] Käsiteltiin { $count } mediatiedostoa
     }
-importing-importing-collection = Tuodaan kokoelmaa...
 importing-importing-file = Tuodaan tiedostoa...
 importing-extracting = Puretaan dataa...
 importing-gathering = Kerätään dataa...
@@ -97,7 +96,6 @@ importing-processed-cards =
         [one] { $count } kortti käsitelty...
        *[other] { $count } korttia käsitelty...
     }
-importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta.
 importing-existing-notes = Olemassa olevat muistiinpanot
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Monista
@@ -108,3 +106,10 @@ importing-update = Päivitä
 importing-tag-all-notes = Merkitse kaikki muistiinpanot tunnisteella
 importing-tag-updated-notes = Merkitse päivitetyt muistiinpanot tunnisteella
 importing-file = Tiedosto
+importing-match-scope = Täsmää laajuus
+importing-notetype-and-deck = Muistiinpanotyyppi ja pakka
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Tuodaan kokoelmaa...
+importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta.

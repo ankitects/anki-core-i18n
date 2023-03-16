@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = Uudelleenopitut
 card-stats-review-log-type-filtered = Suodatetut
 card-stats-review-log-type-manual = Manuaalinen
 card-stats-no-card = (Ei näytettävää korttia.)
+card-stats-custom-data = Mukautettu data
 
 ## Window Titles
 

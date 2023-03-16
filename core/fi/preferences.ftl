@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = Synkronoi automaattisesti kun käyttäjätili avataan/suljetaan
 preferences-backups = Varmuuskopiot
-preferences-basic = Perusasetukset
 preferences-change-deck-depending-on-note-type = Vaihda pakkaa muistiinpanotyypistä riippuen
 preferences-changes-will-take-effect-when-you = Muutokset tulevat voimaan, kun käynnistät Ankin uudelleen.
 preferences-hours-past-midnight = tuntia yli keskiyön
@@ -58,15 +57,22 @@ preferences-appearance = Ulkoasu
 preferences-general = Yleiset
 preferences-style = Tyyli
 preferences-review = Kertaus
-preferences-reviewer = Kertaaja
 preferences-distractions = Häiriöt
 preferences-minimalist-mode = Minimalistinen tila
 preferences-editing = Muokkaus
 preferences-browsing = Selaaminen
 preferences-default-deck = Oletuspakka
 preferences-account = AnkiWeb-tunnus
-preferences-media = Media
 preferences-note = Muistiinpano
 preferences-scheduler = Ajastinohjelma
 preferences-user-interface = Käyttöliittymä
 preferences-import-export = Tuonti/Vienti
+preferences-network-timeout = Verkon aikakatkaisu
+preferences-reset-window-sizes = Nollaa ikkunoiden koot
+preferences-reset-window-sizes-complete = Ikkunoiden koot ja sijainnit on nollattu.
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Perusasetukset
+preferences-reviewer = Kertaaja
+preferences-media = Media
