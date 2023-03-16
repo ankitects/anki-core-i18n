@@ -42,6 +42,10 @@ deck-config-tab-description =
     - `هذه الرزمة`: هذا الحد مخصص لهذه الرزمة.
     - `اليوم فقط`: يجري تغييرًا مؤقتًا على حد هذه الرزمة.
 deck-config-new-cards-ignore-review-limit = تتجاهل البطاقات الجديدة حد المراجعات
+deck-config-new-cards-ignore-review-limit-tooltip =
+    يؤثر حد المراجعات على حد البطاقات الجديدة بشكل افتراضي،
+    بحيث لا تظهر بطاقات جديدة عند الوصول لحد المراجعات. ستظهر البطاقات
+    الجديدة بغض النظر عن حد المراجعات إذا كان هذا الخيار مفعلًا.
 deck-config-affects-entire-collection = يؤثر بكل المجموعة.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
