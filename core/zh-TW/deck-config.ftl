@@ -66,6 +66,11 @@ deck-config-bury-interday-learning-siblings = 暫停關聯的隔天學習卡片
 deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
 deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
 deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則將它再推遲 1 天。
+deck-config-bury-priority-tooltip =
+    Anki 收集卡片的順序為當天學習卡片→隔天學習卡片→複習卡→新卡片。這個順序影響卡片暫停的機制：
+    
+    - 啟用所有暫停選項時，將會顯示清單中排最前的關聯卡片。例如，複習卡會優先於新卡片顯示。
+    - 清單中排靠後的關聯卡片無法暫停排較前的卡片類型。例如，停用「暫停關聯的新卡片」後，當你學習新卡片時，隔天學習卡片和複習卡不會被暫停，因此關聯的複習卡和新卡片可能會同時出現。
 
 ## Ordering section
 
