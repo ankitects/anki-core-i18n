@@ -21,6 +21,9 @@ deck-config-tab-description =
     - `預設設定`：所有使用此預設設定的牌組的上限。
     - `當前牌組`：當前牌組的上限。
     - `僅限今天`：暫時更改當前牌組的的上限。
+deck-config-new-cards-ignore-review-limit = 新卡片不受複習卡上限影響
+deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，複習卡上限會影響新卡片，因此當複習卡數量達到上限時，則不會再顯示新卡片。啟用「新卡片不受複習卡上限影響」時，則複習卡上限不會影響顯示新卡片。
+deck-config-affects-entire-collection = 影響整個集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -35,7 +38,7 @@ deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 延遲時間通常使用分鐘（如 `5m`）或天（如 `2d`），但也支援小時（如 `1h`）和秒（如 `30s`）。
 deck-config-learning-steps-tooltip = 一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下 `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕將會前進到下一個階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將改天出現。{ -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，卡片再次出現前需等待的天數。
+deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，卡片再次顯示前需等待的天數。
 deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過學習階段後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
 deck-config-new-insertion-order-tooltip = 控制新卡片被指派的順序（到期 #）。卡片到期序號越小，在學習時就越早顯示。更改此選項將自動更新現有新卡片順序。
@@ -46,7 +49,7 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議
 ## Lapses section
 
 deck-config-relearning-steps = 重新學習階段
-deck-config-relearning-steps-tooltip = 零或多段延遲，用空白分隔。在複習卡按下 `重來` 按鈕後，預設會在 10 分鐘後重新出現。若沒有提供延遲，卡片則將改變間隔，但不會進入重新學習狀態。{ -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = 零或多段延遲，用空白分隔。在複習卡按下 `重來` 按鈕後，預設會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將改變間隔，但不會進入重新學習狀態。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = 在複習卡按下 `重來` 多少次後將被標記為榨時卡。榨時卡耗費了你大量的時間，對待榨時卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -57,17 +60,12 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 暫停
-deck-config-bury-siblings = 回答後暫停關聯卡片
-deck-config-do-not-bury = 不暫停關聯卡片
-deck-config-bury-if-new = 暫停新卡片
-deck-config-bury-if-new-or-review = 暫停新卡片/複習卡
-deck-config-bury-if-new-review-or-interday = 暫停新卡片/複習卡/跨天學習卡片
-deck-config-bury-tooltip =
-    關聯卡片是指由同一則筆記建立的其他卡片（如正面/反面卡片，或同一則克漏字的其他空格）。
-    
-    停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動**暫停**關聯卡片，直到下一天前都不會出現。這個選項可以讓你選擇在回答時要暫停哪些卡片。
-    
-    使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。
+deck-config-bury-new-siblings = 暫停關聯的新卡片
+deck-config-bury-review-siblings = 暫停關聯的複習卡
+deck-config-bury-interday-learning-siblings = 暫停關聯的隔天學習卡片
+deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
+deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
+deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則將它再推遲 1 天。
 
 ## Ordering section
 
@@ -145,7 +143,7 @@ deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案�
 
 deck-config-advanced-title = 進階選項
 deck-config-maximum-interval-tooltip = 複習卡將等待的最大天數。當複習卡達到上限時，`困難`、`良好` 和 `簡單` 的延遲將會一致。此選項設定得越短，你的學習量將會越多。
-deck-config-starting-ease-tooltip = 新卡片輕鬆度的起始乘數。在預設設定下，在一張剛學完的卡片按下 `良好` 按鈕後，下次複習前的延遲為上次的 2.5 倍。
+deck-config-starting-ease-tooltip = 新卡片輕鬆度的起始乘數。根據預設，在一張剛學完的卡片按下 `良好` 按鈕後，下次複習前的延遲為上次的 2.5 倍。
 deck-config-easy-bonus-tooltip = 回答 `簡單` 後，額外對複習間隔套用的乘數。
 deck-config-interval-modifier-tooltip = 此乘數套用於所有複習卡，對其稍作修改能使 Anki 排程更為保守/激進。請在更改此選項前參閱使用手冊。
 deck-config-hard-interval-tooltip = 回答 `困難` 後，對複習間隔套用的乘數。
@@ -200,9 +198,14 @@ deck-config-which-deck = 請選擇牌組
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-new-siblings = 暫停新關聯卡片到下一天
-deck-config-bury-review-siblings = 暫停複習關聯卡片到下一天
-deck-config-bury-interday-learning-siblings = 暫停隔天學習的關聯卡片
-deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
-deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
-deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則將它再推遲 1 天。
+deck-config-bury-siblings = 回答後暫停關聯卡片
+deck-config-do-not-bury = 不暫停關聯卡片
+deck-config-bury-if-new = 暫停新卡片
+deck-config-bury-if-new-or-review = 暫停新卡片/複習卡
+deck-config-bury-if-new-review-or-interday = 暫停新卡片/複習卡/隔天學習卡片
+deck-config-bury-tooltip =
+    關聯卡片是指由同一則筆記建立的其他卡片（如正面/反面卡片，或同一則克漏字的其他空格）。
+    
+    停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動**暫停**關聯卡片，直到下一天前都不會出現。這個選項可以讓你選擇在回答時要暫停哪些卡片。
+    
+    使用 V3 排程器時，隔天學習卡片也可以被暫停。隔天學習卡片是指當前學習階段為一天或更多的卡片。

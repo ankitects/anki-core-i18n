@@ -117,7 +117,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = 積壓卡片
 statistics-intervals-title = 複習間隔
-statistics-intervals-subtitle = 複習卡再次出現前的延遲
+statistics-intervals-subtitle = 複習卡再次顯示前的延遲
 statistics-intervals-day-range =
     { $cards ->
        *[other] { $cards } 張間隔為 { $daysStart }~{ $daysEnd } 天的卡片
