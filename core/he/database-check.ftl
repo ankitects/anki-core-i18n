@@ -51,6 +51,11 @@ database-check-notes-with-invalid-utf8 =
         [one] תוקנה רשומה { $count } עם תווי utf8 שאינם חוקיים.
        *[other] תוקנו { $count } רשומות עם תווי utf8 שאינם חוקיים.
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] נפתר אובייקט { $count } עם חותמות זמן בעתיד.
+       *[other] נפתרו { $count } אובייקטים עם חותמות זמן בעתיד.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = אחד או יותר מסוגי הרשומות היו חסרים. הרשומות שהשתמשו בהם קיבלו סוג רשומה חדשה מתחיל במילים "db-check", אך שמות השדות ועיצוב הכרטיס נאבדו. מומלץ לשחזר מהגיבוי האוטומטי.
 

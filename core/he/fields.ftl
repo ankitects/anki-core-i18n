@@ -17,3 +17,4 @@ fields-sort-by-this-field-in-the = מיין לפי שדה זה בדפדוף בכ
 fields-that-field-name-is-already-used = שם השדה כבר בשימוש.
 fields-name-first-letter-not-valid = שם השדה לא יכול להתחיל ב #, ^ או /.
 fields-name-invalid-letter = שם השדה אינו יכול להכיל: , ", { "{" } או { "}" }.
+fields-exclude-from-search = אל תכלול מחיפושים לא מתאימים (איטי יותר)
