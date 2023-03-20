@@ -15,6 +15,10 @@ database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] 已修正 { $count } 則帶有無效 utf8 字元的筆記。
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+       *[other] 已修正 { $count } 個具有未來時間戳記的物件。
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = 有一或多個筆記類型遺失。這些類型已被「db-check」開頭的類型取代，但欄位名稱和卡片設計已遺失，建議回復自動備份。
 
