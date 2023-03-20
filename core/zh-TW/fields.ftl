@@ -17,3 +17,4 @@ fields-sort-by-this-field-in-the = 依此欄位在瀏覽器中排序
 fields-that-field-name-is-already-used = 此欄位名稱已被使用。
 fields-name-first-letter-not-valid = 欄位名稱不應始於「#」、「^」或「/」。
 fields-name-invalid-letter = 欄位名稱不應包含「:」、「"」、{ "「{」" }或 { "「}」" }。
+fields-exclude-from-search = 搜尋條件未指定欄位名稱時排除欄位（較慢）
