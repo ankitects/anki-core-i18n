@@ -26,9 +26,9 @@ custom-study-selective-study = 選擇性學習
 custom-study-study-by-card-state-or-tag = 依卡片狀態或標籤來學習
 custom-study-available-new-cards-2 = 可用的新卡片數量：{ $countString }
 custom-study-available-review-cards-2 = 可用的複習卡數量：{ $countString }
-custom-study-available-child-count = （{ $count } 張位於子牌組中）
+custom-study-available-child-count = （{ $count } 張位於下層牌組中）
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = 可學習的新卡片: { $count }
 custom-study-available-review-cards = 可學習的複習卡: { $count }

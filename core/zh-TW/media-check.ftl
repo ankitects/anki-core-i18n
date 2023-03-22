@@ -12,7 +12,7 @@ media-check-missing-count = 遺失檔案數：{ $count }
 media-check-unused-count = 未使用檔案數：{ $count }
 media-check-renamed-count = 重新命名檔案數：{ $count }
 media-check-oversize-count = 大於 100MB 的檔案數：{ $count }
-media-check-subfolder-count = 子資料夾數：{ $count }
+media-check-subfolder-count = 下層資料夾數：{ $count }
 
 ## Shown at the top of each section
 
