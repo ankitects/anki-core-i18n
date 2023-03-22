@@ -38,6 +38,8 @@ deck-config-tab-description =
     - `Prefixada`: Totes les baralles que facin servir aquesta configuració compartiran un mateix límit.
     - `Aquesta baralla`: El límit serà exclusiu d’aquesta baralla.
     - `Només avui`: Modifica temporalment el límit d’aquesta baralla.
+deck-config-new-cards-ignore-review-limit = Les noves targetes no tindran en compte el límit de repassos
+deck-config-affects-entire-collection = Afecta la col·lecció sencera.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -96,20 +98,14 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Enterrament
-deck-config-bury-siblings = Enterra les targetes relacionades
-deck-config-do-not-bury = No enterris les targetes relacionades
-deck-config-bury-if-new = Enterra les noves
-deck-config-bury-if-new-or-review = Enterra les noves o per repasar
-deck-config-bury-if-new-review-or-interday = Enterra les noves, per repassar o les d’aprenentatge entre dies.
-deck-config-bury-tooltip =
-    Les targetes relacionades són aquelles que pertanyen a una mateixa nota, com ara les targetes inverses o les que contenen diversos buits en un mateix text.
-    
-    Si desactiveu aquesta opció, podríeu veure diverses targetes d’una mateixa nota en un sol dia.
-    Si l’activeu, Anki *enterrarà* automàticament les targetes relacionades i les amagarà fins al dia següent.
-    Aquesta opció permet d’elegir quin tipus de targetes s’enterraran quan respongueu una targeta relacionada.
-    
-    Si feu servir la V3 del planificador, també és possible enterrar les targetes d’aprenentatge entre dies.
-    Les targetes d’aprenentatge entre dies tenen un pas d’aprenentatge d’un o més dies.
+deck-config-bury-new-siblings = Enterra les targetes relacionades noves
+deck-config-bury-review-siblings = Enterra les targetes relacionades per repassar
+deck-config-bury-interday-learning-siblings = Enterra les targetes relacionades d'aprenentatge entre dies
+deck-config-bury-new-tooltip = Decidiu si voleu retardar fins a l’endemà les altres targetes noves d'una nota, com ara les targetes inverses i les targetes amb buits adjacents.
+deck-config-bury-review-tooltip = Decidiu si voleu retardar fins a l'endemà les altres targetes per repassar d'una nota.
+deck-config-bury-interday-learning-tooltip =
+    Decidiu si voleu retardar fins a l'endemà les altres targetes d'aprenentatge d'una nota
+    que tinguen un interval major a un dia.
 
 ## Ordering section
 
@@ -276,11 +272,17 @@ deck-config-which-deck = Quina baralla voleu?
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-new-siblings = Enterra les targetes relacionades noves
-deck-config-bury-review-siblings = Enterra les targetes relacionades per repassar
-deck-config-bury-interday-learning-siblings = Enterra les targetes relacionades d'aprenentatge entre dies
-deck-config-bury-new-tooltip = Decidiu si voleu retardar fins a l’endemà les altres targetes noves d'una nota, com ara les targetes inverses i les targetes amb buits adjacents.
-deck-config-bury-review-tooltip = Decidiu si voleu retardar fins a l'endemà les altres targetes per repassar d'una nota.
-deck-config-bury-interday-learning-tooltip =
-    Decidiu si voleu retardar fins a l'endemà les altres targetes d'aprenentatge d'una nota
-    que tinguen un interval major a un dia.
+deck-config-bury-siblings = Enterra les targetes relacionades
+deck-config-do-not-bury = No enterris les targetes relacionades
+deck-config-bury-if-new = Enterra les noves
+deck-config-bury-if-new-or-review = Enterra les noves o per repasar
+deck-config-bury-if-new-review-or-interday = Enterra les noves, per repassar o les d’aprenentatge entre dies.
+deck-config-bury-tooltip =
+    Les targetes relacionades són aquelles que pertanyen a una mateixa nota, com ara les targetes inverses o les que contenen diversos buits en un mateix text.
+    
+    Si desactiveu aquesta opció, podríeu veure diverses targetes d’una mateixa nota en un sol dia.
+    Si l’activeu, Anki *enterrarà* automàticament les targetes relacionades i les amagarà fins al dia següent.
+    Aquesta opció permet d’elegir quin tipus de targetes s’enterraran quan respongueu una targeta relacionada.
+    
+    Si feu servir la V3 del planificador, també és possible enterrar les targetes d’aprenentatge entre dies.
+    Les targetes d’aprenentatge entre dies tenen un pas d’aprenentatge d’un o més dies.
