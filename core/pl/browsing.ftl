@@ -13,8 +13,6 @@ browsing-browser-options = Opcje przeglądarki
 browsing-buried = Zakopane
 browsing-card = Karta
 browsing-cards = Karty
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = K
 browsing-card-list = Lista kart
 browsing-cards-cant-be-manually-moved-into = Karty nie mogą być przeniesione ręcznie do talii filtrowanej.
 browsing-cards-deleted =
@@ -62,8 +60,6 @@ browsing-no-flag = Brak flagi
 browsing-no-selection = Nie wybrano kart ani notatek.
 browsing-note = Notatka
 browsing-notes = Notatki
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = Opcjonalny filtr:
 browsing-override-back-template = Zmień szablon tyłu:
 browsing-override-font = Zmień czcionkę:
@@ -140,6 +136,7 @@ browsing-sidebar-card-state = Stan karty
 browsing-sidebar-flags = Flagi
 browsing-today = Dzisiaj
 browsing-tooltip-card-modified = Ostatni raz dokonano zmian w karcie, w tym recenzji, flag i zmian w talii
+browsing-tooltip-cards = Liczba kart, jakie zawiera notatka
 browsing-studied-today = Przejrzane dzisiaj
 browsing-added-today = Dodane dzisiaj
 browsing-again-today = Dzisiejsze pomyłki
@@ -169,5 +166,9 @@ browsing-reparented-decks =
        *[other] Zmieniono nazwę { $count } talii.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

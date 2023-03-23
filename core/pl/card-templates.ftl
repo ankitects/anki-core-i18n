@@ -22,6 +22,7 @@ card-templates-night-mode = Tryb nocny
 card-templates-add-mobile-class = Dodaj typ "Mobile"
 card-templates-preview-settings = Opcje
 card-templates-invalid-template-number = Problem w { $number } szablonie.
+card-templates-identical-front = Przednia strona jest identyczna jak szablon karty { $number }.
 card-templates-extraneous-cloze = "luka": może być użyta tylko w typach notatek z luką
 card-templates-see-preview = Wejdź na podgląd, by zobaczyć więcej.
 card-templates-changes-saved = Zmiany zapisane.

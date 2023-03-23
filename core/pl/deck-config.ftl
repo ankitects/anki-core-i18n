@@ -24,6 +24,8 @@ deck-config-tab-description =
     - `Opcje`: Ten limit jest wspólny dla wszystkich talii używających tych opcji.
     - `Ta talia`: Ten limit dotyczy jedynie tej talii.
     - `Tylko dziś`: Tymczasowa zmiana limitu talii.
+deck-config-new-cards-ignore-review-limit = Nowe karty nie są liczone do limitu powtórek
+deck-config-affects-entire-collection = Ma wpływ na całą kolekcję
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -35,6 +37,9 @@ deck-config-today-only = Tylko dziś
 ## New Cards section
 
 deck-config-learning-steps = Kroki nauki
+deck-config-graduating-interval-tooltip =
+    Liczba dni przed ponownym pokazaniem karty, gdy został naciśnięty przycisk "Dobra"
+    w ostatnim kroku nauki.
 deck-config-new-insertion-order = Kolejność wstawiania
 deck-config-new-insertion-order-tooltip =
     Kontroluje pozycję (due #) przypisaną nowym kartom gdy je dodajesz.
@@ -103,6 +108,7 @@ deck-config-hard-interval-tooltip = Mnożnik stosowany do interwału karty przy 
 deck-config-new-interval-tooltip = Mnożnik stosowany do interwału karty przy odpowiedzi "Powtórz".
 deck-config-minimum-interval-tooltip = Minimalny interwał przypisywany karcie powtórkowej przy odpowiedzi "Powtórz".
 deck-config-custom-scheduling = Własne planowanie
+deck-config-custom-scheduling-tooltip = Ma wpływ na całą kolekcję. Używasz na własne ryzyko!
 
 ## Adding/renaming
 
@@ -140,5 +146,5 @@ deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie plan
 ## Selecting a deck
 
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -5,6 +5,7 @@ exporting-anki-deck-package = Pakiet talii Anki
 exporting-cards-in-plain-text = Karty jako zwykły tekst
 exporting-collection = kolekcja
 exporting-collection-exported = Kolekcja wyeksportowana.
+exporting-colpkg-too-new = Zaktualizuj Anki do najnowszej wersji, a następnie zaimportuj ponownie plik .colpkg/.apkg.
 exporting-couldnt-save-file = Nie można zapisać pliku: { $val }
 exporting-export = Eksportuj...
 exporting-export-format = <b>Format eksportu</b>:
