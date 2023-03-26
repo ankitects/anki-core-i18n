@@ -28,7 +28,7 @@ database-check-card-missing-note =
 database-check-duplicate-card-ords =
     { $count ->
         [one] Une carte supprimée car son type était en double.
-       *[other] { $count } cartes supprimées car leurs type étaient en double.
+       *[other] { $count } cartes supprimées car leurs types étaient en double.
     }
 database-check-missing-decks =
     { $count ->
@@ -46,7 +46,7 @@ database-check-notes-with-invalid-utf8 =
        *[other] notes réparées avec des caractères utf8 invalides
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Un ou plusieurs types de notes sont manquants. Les notes qui y sont liés ont reçus un nouveau type commençant par "db-check". Les noms de champ et design de carte ont été perdus, vous devriez restaurer votre précédente sauvegarde automatique.
+database-check-notetypes-recovered = Un ou plusieurs types de notes sont manquants. Les notes qui y sont liées ont reçu un nouveau type commençant par "db-check". Les noms de champ et design de carte ont été perdus, vous devriez restaurer votre précédente sauvegarde automatique.
 
 ## Progress info
 

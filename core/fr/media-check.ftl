@@ -41,7 +41,7 @@ media-check-renamed-header = Certains fichiers ont été renommés pour compatib
 media-check-oversize-header = Les fichiers de plus de 100 Mo ne peuvent être synchronisés avec AnkiWeb.
 media-check-subfolder-header = Les fichiers contenus dans le dossier des médias ne sont pas pris en charge.
 media-check-missing-header = Utilisé par des cartes mais manquant dans le dossier média :
-media-check-unused-header = Les fichiers suivant ont été trouvés dans le dossier des médias, mais ne semblent être utilisés sur aucune carte :
+media-check-unused-header = Les fichiers suivants ont été trouvés dans le dossier des médias, mais ne semblent être utilisés sur aucune carte :
 media-check-template-references-field-header =
     Anki ne peut pas détecter les fichiers quand vous utilisez { "{{Field}}" } références dans les tags media/LaTeX. Les tags media/LaTeX doivent être placés sur des notes individuelles.
     
