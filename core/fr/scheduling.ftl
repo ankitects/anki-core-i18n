@@ -74,7 +74,7 @@ scheduling-learn-remaining =
     }
 scheduling-congratulations-finished = Félicitations ! Vous en avez fini avec ce paquet pour l’instant.
 scheduling-today-review-limit-reached =
-    La limite de révision a été atteinte pour aujourd’hui,  mais il y a encore des cartes
+    La limite de révision a été atteinte pour aujourd’hui, mais il y a encore des cartes
     en attente de révision. Pour une mémorisation optimale, pensez à augmenter
     la limite journalière dans les options.
 scheduling-today-new-limit-reached =
@@ -82,10 +82,10 @@ scheduling-today-new-limit-reached =
     Cette limite peut-être rehaussée (dans les options), mais n’oubliez pas
     que plus vous introduisez de nouvelles cartes, plus votre charge de
     travail à court terme sera intense.
-scheduling-buried-cards-found = Une ou plusieurs cartes on été bloquée et seront affichée demain. Vous pouvez  { $unburyThem } si vous souhaitez les voir maintenant.
+scheduling-buried-cards-found = Une ou plusieurs cartes ont été bloquées et seront affichées demain. Vous pouvez { $unburyThem } si vous souhaitez les voir maintenant.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = Déterrez les
+scheduling-unbury-them = les déterrer
 scheduling-how-to-custom-study = Si vous souhaitez réviser hors du calendrier habituel, vous pouvez utiliser la fonction { $customStudy }
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
@@ -135,7 +135,7 @@ scheduling-new-options-group-name = Nouveau nom pour le profil de réglages
 scheduling-options-group = Profil de réglages :
 scheduling-order = Ordre d’apparition
 scheduling-parent-limit = (limite parent : { $val })
-scheduling-reset-counts = Réinitialiser le compteurs de répétition et de laps
+scheduling-reset-counts = Réinitialiser les compteurs de répétition et de laps
 scheduling-restore-position = Restaurer la position d'origine où c'est possible
 scheduling-review = Révision
 scheduling-reviews = Révisions
