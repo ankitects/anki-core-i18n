@@ -45,6 +45,11 @@ database-check-notes-with-invalid-utf8 =
         [one] Risolta { $count } nota con caratteri utf8 non validi.
        *[other] Risolte { $count } note con caratteri utf8 non validi.
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] Corretto { $count } oggetto con timestamp nel futuro.
+       *[other] Corretti { $count } oggetti con timestamp nel futuro.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Uno o più tipi di note sono mancanti. Alle note di quel tipo sono state assegnate nuovi tipi di nota che iniziano con "db-check", ma i nomi dei campi e design di carte sono andati perduti, quindi potrebbe essere meglio ripristinarle da un backup automatico.
 
