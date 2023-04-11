@@ -82,7 +82,6 @@ importing-processed-media-file =
         [one] { $count } verarbeitete Mediendatei
        *[other] { $count } verarbeitete Mediendateien
     }
-importing-importing-collection = Sammlung wird importiert...
 importing-importing-file = Datei wird importiert...
 importing-extracting = Daten werden extrahiert...
 importing-gathering = Daten werden zusammengetragen...
@@ -97,7 +96,6 @@ importing-processed-cards =
         [one] { $count } Karte verarbeitet...
        *[other] { $count } Karten verarbeitet...
     }
-importing-unable-to-import-filename = { $filename } kann nicht importiert werden: Dateityp nicht unterstützt
 importing-existing-notes = Vorhandene Notizen
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplizieren
@@ -108,3 +106,10 @@ importing-update = Aktualisieren
 importing-tag-all-notes = Alle Notizen verschlagworten
 importing-tag-updated-notes = Aktualisierte Notizen verschlagworten
 importing-file = Datei
+# Used with the 'match scope' option
+importing-notetype-and-deck = Notiztyp und Stapel
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Sammlung wird importiert...
+importing-unable-to-import-filename = { $filename } kann nicht importiert werden: Dateityp nicht unterstützt

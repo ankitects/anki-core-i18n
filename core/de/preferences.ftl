@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = Beim Öffnen/Schließen eines Profils automatisch synchronisieren
 preferences-backups = Sicherungskopien
-preferences-basic = Einfach
 preferences-change-deck-depending-on-note-type = Stapel abhängig vom Notiztyp zuweisen
 preferences-changes-will-take-effect-when-you = Die Änderungen werden nach einem Neustart von Anki wirksam.
 preferences-hours-past-midnight = Stunden nach Mitternacht
@@ -56,15 +55,22 @@ preferences-appearance = Erscheinungsbild
 preferences-general = Allgemein
 preferences-style = Stil
 preferences-review = Revision
-preferences-reviewer = Wiederholer
 preferences-distractions = Ablenkungen
 preferences-minimalist-mode = Minimalistischer Modus
 preferences-editing = Bearbeiten
 preferences-browsing = Durchsuchen
 preferences-default-deck = Standardstapel
 preferences-account = AnkiWeb-Account
-preferences-media = Medien
 preferences-note = Notiz
 preferences-scheduler = Aufgabenplaner
 preferences-user-interface = Nutzeroberfläche
 preferences-import-export = Import/Export
+preferences-network-timeout = Netzwerkzeitüberschreitung
+preferences-reset-window-sizes = Fenstergrößen zurücksetzen
+preferences-reset-window-sizes-complete = Fenstergrößen und -orte wurden zurückgesetzt.
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Einfach
+preferences-reviewer = Wiederholer
+preferences-media = Medien

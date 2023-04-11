@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = Erneut lernen
 card-stats-review-log-type-filtered = Auswahlstapel
 card-stats-review-log-type-manual = Manuell
 card-stats-no-card = (Keine Karte zum Anzeigen.)
+card-stats-custom-data = Benutzerdefinierte Daten
 
 ## Window Titles
 
