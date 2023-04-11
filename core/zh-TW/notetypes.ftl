@@ -25,7 +25,7 @@ notetypes-add-note-type = 新增筆記類型
 notetypes-cards = 卡片
 notetypes-clone = 複製：{ $val }
 notetypes-copy = { $val } 複本
-notetypes-create-scalable-images-with-dvisvgm = 使用 dvisvgm 建立可縮放圖像
+notetypes-create-scalable-images-with-dvisvgm = 使用 dvisvgm 建立可縮放影像
 notetypes-delete-this-note-type-and-all = 刪除此筆記類型及卡片
 notetypes-delete-this-unused-note-type = 刪除此未使用的筆記類型
 notetypes-fields = 欄位
@@ -35,3 +35,18 @@ notetypes-note-types = 筆記類型
 notetypes-options = 選項
 notetypes-please-add-another-note-type-first = 請先新增另一個筆記類型。
 notetypes-type = 類型
+
+## Image Occlusion
+
+notetypes-image = 影像
+notetypes-occlusion = 遮擋
+notetypes-occlusion-mask = 遮罩
+notetypes-occlusion-note = 筆記
+notetypes-comments-field = 註解
+notetypes-toggle-masks = 切換遮罩
+notetypes-image-occlusion-name = 影像遮擋
+notetypes-hide-all-guess-one = 全部遮住，猜測一個
+notetypes-hide-one-guess-one = 僅遮住並猜測一個
+notetypes-error-generating-cloze = 產生一則影像遮擋筆記時發生錯誤
+notetypes-error-getting-imagecloze = 擷取一則影像遮擋筆記時發生錯誤
+notetypes-error-loading-image-occlusion = 載入影像遮擋時發生錯誤。你的 Anki 是最新版本嗎？

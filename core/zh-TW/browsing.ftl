@@ -13,8 +13,6 @@ browsing-browser-options = 瀏覽器選項
 browsing-buried = 已暫停
 browsing-card = 卡片
 browsing-cards = 卡片
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = 卡
 browsing-card-list = 卡片清單
 browsing-cards-cant-be-manually-moved-into = 卡片無法手動移動到篩選牌組
 browsing-cards-deleted =
@@ -60,8 +58,6 @@ browsing-no-flag = 沒有旗標
 browsing-no-selection = 未選取卡片或筆記。
 browsing-note = 筆記
 browsing-notes = 筆記
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = 筆
 browsing-optional-filter = 可選篩選器：
 browsing-override-back-template = 覆寫背面模板：
 browsing-override-font = 覆寫字型：
@@ -92,10 +88,10 @@ browsing-suspended = 已擱置
 browsing-tag-duplicates = 為重複項目加上標籤
 browsing-tag-rename-warning-empty = 無法重新命名沒有筆記的標籤。
 browsing-target-field = 目標欄位：
-browsing-toggle-bury = 暫停
-browsing-toggle-showing-cards-notes = 切換顯示卡片/筆記
-browsing-toggle-mark = 標記
-browsing-toggle-suspend = 擱置
+browsing-toggle-bury = 切換暫停
+browsing-toggle-showing-cards-notes = 切換卡片/筆記
+browsing-toggle-mark = 切換標記
+browsing-toggle-suspend = 切換擱置
 browsing-treat-input-as-regular-expression = 以正規表達式處理輸入
 browsing-update-saved-search = 更新為當前搜尋條件
 browsing-whole-collection = 整個集合
@@ -160,5 +156,9 @@ browsing-reparented-decks =
        *[other] 已重新命名 { $count } 個牌組。
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = 卡
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = 筆
