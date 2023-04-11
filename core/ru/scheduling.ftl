@@ -94,7 +94,7 @@ scheduling-learn-remaining =
     }
 scheduling-congratulations-finished = Ура! На сегодня всё.
 scheduling-today-review-limit-reached =
-    Сегодняшний лимит просмотров был достигнут, но некоторые
+    Сегодняшний лимит повторений был достигнут, но некоторые
     карточки ещё не были просмотрены.  Для оптимального запоминания
     подумайте об увеличении дневного лимита просмотров в опциях.
 scheduling-today-new-limit-reached =

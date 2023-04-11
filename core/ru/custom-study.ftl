@@ -9,7 +9,7 @@ custom-study-due-cards-only = Только карточки к просмотр�
 custom-study-increase-todays-new-card-limit = Добавить новых на сегодня
 custom-study-increase-todays-new-card-limit-by = Увеличить лимит новых на
 custom-study-increase-todays-review-card-limit = Добавить повторяемых на сегодня
-custom-study-increase-todays-review-limit-by = Увеличить лимит повторениемых на
+custom-study-increase-todays-review-limit-by = Увеличить лимит просмотров на
 custom-study-new-cards-only = Только новые карточки
 custom-study-no-cards-matched-the-criteria-you = Нет карточек, подходящих под запрос.
 custom-study-ok = ОК
@@ -28,7 +28,7 @@ custom-study-available-new-cards-2 = Доступно новых: { $countString
 custom-study-available-review-cards-2 = Доступно повторяемых: { $countString }
 custom-study-available-child-count = ({ $count } в подколодах)
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Доступно новых: { $count }
 custom-study-available-review-cards = Доступно повторяемых: { $count }

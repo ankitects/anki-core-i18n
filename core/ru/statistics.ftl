@@ -82,7 +82,7 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card } с/карточка)
+    } ({ $secs-per-card } с/карт.)
 statistics-today-title = Сегодня
 statistics-today-again-count = Возвратов:
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
@@ -152,10 +152,9 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } дней назад
 statistics-running-total = Промежуточная сумма
 statistics-cards-due =
     { $cards ->
-        [one] { $cards } карта за
-        [few] { $cards } карты за
-        [many] { $cards } карт за
-       *[other] { $cards } карт за
+        [one] { $cards } к просмотру
+        [few] { $cards } к просмотру
+       *[other] { $cards } к просмотру
     }
 statistics-backlog-checkbox = Отставание
 statistics-intervals-title = Интервалы

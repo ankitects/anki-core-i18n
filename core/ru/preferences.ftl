@@ -4,7 +4,7 @@ preferences-change-deck-depending-on-note-type = Выбрать колоду п�
 preferences-changes-will-take-effect-when-you = Изменения вступят в силу при перезапуске Anki.
 preferences-hours-past-midnight = ч. после полуночи
 preferences-language = Язык
-preferences-interrupt-current-audio-when-answering = Прерывать аудио при ответе
+preferences-interrupt-current-audio-when-answering = Прерывать текущее аудио после ответа
 preferences-learn-ahead-limit = Лимит опережения
 preferences-mins = мин.
 preferences-network = Сеть
@@ -68,10 +68,11 @@ preferences-scheduler = Расписание
 preferences-user-interface = Интерфейс
 preferences-import-export = Импорт и экспорт
 preferences-network-timeout = Ожидание сети
-preferences-reset-window-sizes = Сбросить размер новых
+preferences-reset-window-sizes = Сбросить размер окон
 preferences-reset-window-sizes-complete = Размер и положения окон сброшены.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Основные
+preferences-reviewer = Просмотр
 preferences-media = Медиа
