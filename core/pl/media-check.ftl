@@ -33,6 +33,9 @@ media-check-subfolder-file = Folder: { $filename }
 media-check-missing-file = Brakuje: { $filename }
 media-check-unused-file = Nieużywany: { $filename }
 
+##
+
+
 ## Progress
 
 media-check-checked = Sprawdzono { $count }...
@@ -68,3 +71,7 @@ media-check-empty-trash = Opróżnij kosz
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Przywróć usunięte
 media-check-check-media-action = Sprawdź pliki
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = brak-pliku
+# add a tag to notes with missing media
+media-check-add-tag = Brakująca etykieta

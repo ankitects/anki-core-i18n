@@ -52,6 +52,7 @@ preferences-always = Zawsze
 preferences-full-screen-only = Tylko pełen ekran
 preferences-appearance = Wygląd
 preferences-general = Ogólne
+preferences-style = Styl
 preferences-review = Powtórki
 preferences-distractions = Rozpraszacze
 preferences-minimalist-mode = Tryb minimalistyczny
@@ -59,9 +60,12 @@ preferences-editing = Edytowanie
 preferences-browsing = Przeglądanie
 preferences-default-deck = Domyślna talia
 preferences-account = Konto AnkiWeb
+preferences-note = Notatka
+preferences-scheduler = Planowanie
 preferences-user-interface = Interfejs użytkownika
 preferences-import-export = Import/Eksport
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Ogólne
+preferences-media = Pliki

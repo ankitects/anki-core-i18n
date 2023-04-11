@@ -3,6 +3,8 @@
 
 ## Header
 
+# Tooltip for links to the manual
+help-open-manual-chapter = Otwórz { $name } w instrukcji
 
 ## Body
 

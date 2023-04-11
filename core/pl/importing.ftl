@@ -1,6 +1,7 @@
 importing-failed-debug-info = Importowanie nie powiodło się. Informacja diagnostyczna:
 importing-aborted = Przerwane: { $val }
 importing-added-duplicate-with-first-field = Dodano duplikat z pierwszym polem: { $val }
+importing-all-supported-formats = Wszystkie obsługiwane formaty { $val }
 importing-allow-html-in-fields = Zezwól na HTML w polach
 importing-anki-files-are-from-a-very = Pliki .anki pochodzą z bardzo starej wersji Anki. Możesz zaimportować je używając Anki w wersji 2.0, dostępnej do ściągnięcia ze strony Anki.
 importing-anki2-files-are-not-directly-importable = Plików .anki2 nie da się bezpośrednio importować - zaimportuj zamiast tego otrzymany plik .apkg lub .zip.
@@ -85,12 +86,10 @@ importing-processed-media-file =
         [few] Przetworzono { $count } pliki
        *[other] Przetworzono { $count } plików
     }
-importing-importing-collection = Import kolekcji...
 importing-importing-file = Import pliku...
 importing-extracting = Znajdowanie danych...
 importing-gathering = Zbieranie danych...
 importing-failed-to-import-media-file = Nie udało się zaimportować pliku: { $debugInfo }
-importing-unable-to-import-filename = Nie udało się zaimportować { $filename }: ten typ pliku nie jest obsługiwany
 importing-existing-notes = Istniejące notatki
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplikuj
@@ -101,3 +100,10 @@ importing-update = Uaktualnij
 importing-tag-all-notes = Nadaj etykietę wszystkim notatkom
 importing-tag-updated-notes = Nadaj etykietę uaktualnionym notatkom
 importing-file = Plik
+# Used with the 'match scope' option
+importing-notetype-and-deck = Typ notatki i talia
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Import kolekcji...
+importing-unable-to-import-filename = Nie udało się zaimportować { $filename }: ten typ pliku nie jest obsługiwany

@@ -73,6 +73,7 @@ deck-config-sort-order-random-note-then-template = Losowa notatka, następnie ty
 deck-config-sort-order-random = Losowo
 deck-config-sort-order-template-then-gather = Typ karty
 deck-config-new-review-priority = Kolejność nowych/powtórek
+deck-config-new-review-priority-tooltip = Kiedy pokazywać nowe karty względem kart powtarzanych.
 deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
 deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
 deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
@@ -145,6 +146,12 @@ deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie plan
 
 ## Selecting a deck
 
+deck-config-which-deck = Którą talię chcesz wybrać?
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = Zakop podobne
+deck-config-do-not-bury = Nie zakopuj podobnych
+deck-config-bury-if-new = Zakop nowe
+deck-config-bury-if-new-or-review = Zakop nowe i powtarzane
+deck-config-bury-if-new-review-or-interday = Zakop nowe, powtarzane i powtarzane między dniami

@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = Uczone ponownie
 card-stats-review-log-type-filtered = Przefiltrowane
 card-stats-review-log-type-manual = Ręcznie
 card-stats-no-card = (Brak karty do wyświetlenia.)
+card-stats-custom-data = Własne dane
 
 ## Window Titles
 
