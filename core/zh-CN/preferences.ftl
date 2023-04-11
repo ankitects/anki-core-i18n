@@ -66,8 +66,11 @@ preferences-scheduler = 排程
 preferences-user-interface = 用户界面
 preferences-import-export = 导入/导出
 preferences-network-timeout = 网络超时
+preferences-reset-window-sizes = 重置窗口大小
+preferences-reset-window-sizes-complete = 已重置窗口位置和大小。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = 基本
+preferences-reviewer = 复习者
 preferences-media = 媒体

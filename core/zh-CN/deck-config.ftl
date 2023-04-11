@@ -31,6 +31,9 @@ deck-config-tab-description =
     -「预设配置」：上限共同适用于所有使用此预设配置的牌组。
     -「当前牌组」：上限仅适用于当前牌组。
     -「仅限今天」：上限仅为暂时应用于当前牌组。
+deck-config-new-cards-ignore-review-limit = 新卡片不受复习卡片上限影响
+deck-config-new-cards-ignore-review-limit-tooltip = 默认情况下，复习卡片的上限适用于新卡片，当复习卡片已经达到上限时将不会出现新卡片。如果启用该选项，则新卡片的出现不受复习卡片上限的限制。
+deck-config-affects-entire-collection = 该设置将影响所有集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -80,16 +83,17 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 搁置
-deck-config-bury-siblings = 回答后搁置关联卡片
-deck-config-do-not-bury = 回答后不搁置关联卡片
-deck-config-bury-if-new = 搁置关联的新卡片
-deck-config-bury-if-new-or-review = 搁置关联的新卡片和复习卡片
-deck-config-bury-if-new-review-or-interday = 搁置关联的新卡片、复习卡片和跨日学习卡片
-deck-config-bury-tooltip =
-    关联卡片是指来自同一笔记的其他卡片（如正面/反面卡片、同一填空题笔记中的其他空格卡片）。
-    此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
-    此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
-    当使用V3排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。
+deck-config-bury-new-siblings = 搁置关联新卡片到下一天
+deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
+deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
+deck-config-bury-new-tooltip = 同一笔记中的其他“新卡片”（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
+deck-config-bury-review-tooltip = 同一笔记中其他“复习”卡片是否推迟到第二天。
+deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于1天的“学习中”卡片是否推迟到第二天。
+deck-config-bury-priority-tooltip =
+    Anki归集卡片的顺序为：当日学习卡片→隔日学习卡片→复习卡片→新卡片。
+    该顺序将影响卡片搁置的处理方式：
+    - 如果启用了所有搁置选项，将会显示列表中最前的关联卡片。例如：复习卡片将优先于新卡片展示。
+    - 顺序靠后的关联卡片无法搁置顺序较前的卡片类型。例如：当禁用“搁置新卡片”，学习新卡片时将不会搁置关联的隔天学习卡片和复习卡片。因此，关联的新卡片和复习卡片可能会在一次练习中同时出现。
 
 ## Ordering section
 
@@ -256,9 +260,13 @@ deck-config-which-deck = 请选择牌组？
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-new-siblings = 搁置关联新卡片到下一天
-deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
-deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
-deck-config-bury-new-tooltip = 同一笔记中的其他“新卡片”（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
-deck-config-bury-review-tooltip = 同一笔记中其他“复习”卡片是否推迟到第二天。
-deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于1天的“学习中”卡片是否推迟到第二天。
+deck-config-bury-siblings = 回答后搁置关联卡片
+deck-config-do-not-bury = 回答后不搁置关联卡片
+deck-config-bury-if-new = 搁置关联的新卡片
+deck-config-bury-if-new-or-review = 搁置关联的新卡片和复习卡片
+deck-config-bury-if-new-review-or-interday = 搁置关联的新卡片、复习卡片和跨日学习卡片
+deck-config-bury-tooltip =
+    关联卡片是指来自同一笔记的其他卡片（如正面/反面卡片、同一填空题笔记中的其他空格卡片）。
+    此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
+    此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
+    当使用V3排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。

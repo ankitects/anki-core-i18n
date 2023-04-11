@@ -15,6 +15,10 @@ database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] 已修复{ $count }条有无效UTF-8字符的笔记。
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+       *[other] 已修复 { $count }个时间戳为未来的对象。
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = 至少一个笔记模板已丢失。已使用“db-check”开头的笔记模板进行替代，但由于字段名称和卡片设计均已丢失，仍建议您从自动备份中恢复。
 
