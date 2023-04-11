@@ -110,6 +110,11 @@ importing-file = File
 importing-match-scope = Ambito di confronto
 # Used with the 'match scope' option
 importing-notetype-and-deck = Tipo di nota e mazzo
+importing-cards-added =
+    { $count ->
+        [one] Aggiunta { $count } carta.
+       *[other] Aggiunte { $count } carte.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

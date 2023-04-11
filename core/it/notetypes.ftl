@@ -38,3 +38,15 @@ notetypes-type = Tipo
 
 ## Image Occlusion
 
+notetypes-image = Immagine
+notetypes-occlusion = Occlusione
+notetypes-occlusion-mask = Maschera
+notetypes-occlusion-note = Nota
+notetypes-comments-field = Commenti
+notetypes-toggle-masks = Mostra/nascondi maschere
+notetypes-image-occlusion-name = Occludi Immagine
+notetypes-hide-all-guess-one = Nascondi tutte, indovinane una
+notetypes-hide-one-guess-one = Nascondine una, indovinane una
+notetypes-error-generating-cloze = Si è verificato un errore durante la generazione di una nota di tipo Occludi Immagine
+notetypes-error-getting-imagecloze = Si è verificato un errore durante il recupero di una nota di tipo Occludi Immagine
+notetypes-error-loading-image-occlusion = Errore nel caricamento dell'occlusione dell'immagine. La tua versione di Anki è aggiornata?
