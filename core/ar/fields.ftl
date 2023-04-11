@@ -17,3 +17,6 @@ fields-sort-by-this-field-in-the = فرز حسب هذا الحقل في المت
 fields-that-field-name-is-already-used = اسم الحقل مستخدم بالفعل.
 fields-name-first-letter-not-valid = لا يجب أن يبدأ اسم الحقل بـ # أو ^ أو /.
 fields-name-invalid-letter = لا يجب أن يحتوي اسم الحقل على : أو " أو { "{" } أو { "}" }.
+# If enabled, the field is not included when searching for 'text', 're:text' and so on,
+# but is when searching for a specific field, eg 'field:text'.
+fields-exclude-from-search = استثنِ من البحث غير المخصص (أبطأ)
