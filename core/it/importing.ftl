@@ -106,7 +106,9 @@ importing-update = Aggiorna
 importing-tag-all-notes = Etichetta tutte le note
 importing-tag-updated-notes = Etichetta le note aggiornate
 importing-file = File
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Ambito di confronto
+# Used with the 'match scope' option
 importing-notetype-and-deck = Tipo di nota e mazzo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

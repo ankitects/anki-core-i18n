@@ -35,3 +35,6 @@ notetypes-note-types = Tipi di note
 notetypes-options = Opzioni...
 notetypes-please-add-another-note-type-first = Aggiungi prima un altro tipo di nota.
 notetypes-type = Tipo
+
+## Image Occlusion
+
