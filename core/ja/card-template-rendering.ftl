@@ -20,9 +20,9 @@ card-template-rendering-wrong-conditional-closed = 「{ $found }」は「{ $expe
 card-template-rendering-conditional-not-open = 「{ $found }」に対応する「{ $missing1 }」または「{ $missing2 }」が欠けています
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
-card-template-rendering-no-such-field = 「{ $found }」と入力されていますが、「{ $field }」というフィールドが存在しません
+card-template-rendering-no-such-field = 「{ $found }」と入力されていますが、このノートタイプには「{ $field }」というフィールドが存在しません
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = カードの表面が空白になっています。
-card-template-rendering-missing-cloze = カード上に穴埋め{ $number }がみつかりません。穴埋め問題を追加するか、[ツール] から [白紙カードをチェック] を実行してください。
+card-template-rendering-missing-cloze = カード上に{ $number }番目の穴埋め問題がみつかりません。穴埋め問題を追加するか、[ツール] から [白紙カードをチェック] を実行してください。

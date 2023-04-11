@@ -10,7 +10,7 @@ editing-center = 中央
 editing-change-color = 色を変更
 editing-cloze-deletion = 穴埋め問題
 editing-cloze-deletion-repeat = 穴埋め問題 (同じカード )
-editing-couldnt-record-audio-have-you-installed = 音声を録音できませんでした。LAMEを
+editing-couldnt-record-audio-have-you-installed = 音声を録音できませんでした。LAMEをインストールしていますか？
 editing-customize-card-templates = カードテンプレートをカスタマイズ
 editing-customize-fields = フィールドをカスタマイズ
 editing-cut = カット
@@ -51,13 +51,15 @@ editing-tags-remove = タグを削除
 editing-tags-select-all = すべてのタグを選択
 editing-text-color = 文字色
 editing-text-highlight-color = 文字の背景色
-editing-to-make-a-cloze-deletion-on = このノートに穴埋め問題を作るには、まず今のノートタイプを穴埋め問題に対応したノートタイプに変更する必要があります。[編集] > [ノートタイプを変更]から、穴埋め問題に対応したノートタイプを選択してください。（Ankiインストール時から付属しているノートタイプのうちでは、「Cloze」が穴埋め問題に対応しています。）
+editing-to-make-a-cloze-deletion-on = このノートに穴埋め問題を作るには、まず今のノートタイプを穴埋め問題に対応したノートタイプに変更する必要があります。[編集] > [ノートタイプを変更]から、穴埋め問題に対応したノートタイプを選択してください。（Ankiインストール時から付属しているノートタイプのうちでは、「穴埋め」が穴埋め問題に対応しています。）
 editing-toggle-html-editor = HTMLエディターを表示
 editing-toggle-visual-editor = ビジュアルエディターを表示/非表示
 editing-toggle-sticky = この内容を固定
+editing-expand-field = フィールドを展開
+editing-collapse-field = フィールドを折りたたむ
 editing-underline-text = 下線を追加
 editing-unordered-list = リスト（順序なし）
-editing-warning-cloze-deletions-will-not-work = 注意: 穴埋め問題は上部にある「ノートタイプ」の設定を「Cloze」（穴埋め）タイプに変更するまで機能しません。
+editing-warning-cloze-deletions-will-not-work = 注意: 穴埋め問題は上部にある「ノートタイプ」の設定を「穴埋め」タイプに変更するまで機能しません。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

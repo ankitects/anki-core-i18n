@@ -33,9 +33,9 @@ scheduling-next-learn-due =
     }後に表示されます。
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] 本日中に再び表示される習得中カードが{ $remaining }あります。
+       *[other] 本日中に再び表示される習得中カードが{ $remaining }枚あります。
     }
-scheduling-congratulations-finished = おめでとうございます！　このデッキの今日の課題を全て達成しました！
+scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題を全て達成しました！
 scheduling-today-review-limit-reached =
     復習カードはまだ残ってますが、今日の出題上限に達しました。
     適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。
