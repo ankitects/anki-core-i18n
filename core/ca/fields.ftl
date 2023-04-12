@@ -17,3 +17,6 @@ fields-sort-by-this-field-in-the = Ordena segons aquest camp al navegador
 fields-that-field-name-is-already-used = Aquest nom de camp ja està en ús.
 fields-name-first-letter-not-valid = El nom del camp no ha de començar per #, ^ or /.
 fields-name-invalid-letter = El nom del camp no ha de contenir :, ", { "{" } or { "}" }.
+# If enabled, the field is not included when searching for 'text', 're:text' and so on,
+# but is when searching for a specific field, eg 'field:text'.
+fields-exclude-from-search = Exclou de les recerces no qualificades (més lent)

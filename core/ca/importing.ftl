@@ -106,8 +106,15 @@ importing-update = Actualitza
 importing-tag-all-notes = Etiqueta totes les notes
 importing-tag-updated-notes = Etiqueta les notes actualitzades
 importing-file = Fitxer
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Abast de correspondència
+# Used with the 'match scope' option
 importing-notetype-and-deck = Tipus de nota i baralla
+importing-cards-added =
+    { $count ->
+        [one] S’ha afegit una targeta.
+       *[other] S’han afegit { $count } targetes.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -45,6 +45,11 @@ database-check-notes-with-invalid-utf8 =
         [one] S'ha corregit una nota amb caràcters UTF-8 invàlids.
        *[other] S'han corregit { $count } notes amb caràcters UTF-8 invàlids.
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] S’ha corregit un objecte datat en el futur.
+       *[other] S’han corregit { $count } objectes datats en el futur.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Falten un o més tipus de notes. A les notes que les feien servir, s'hi han assignat nous tipus el nom dels quals comença per «db-check». Tanmateix, els noms dels camps i el disseny de la targeta s'han perdut, de manera que us recomanem que reestabliu una còpia de seguretat automàtica.
 
