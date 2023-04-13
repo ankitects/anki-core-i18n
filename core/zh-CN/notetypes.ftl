@@ -35,3 +35,17 @@ notetypes-note-types = 笔记模板
 notetypes-options = 选项
 notetypes-please-add-another-note-type-first = 请先添加另一个笔记模板。
 notetypes-type = 模板
+
+## Image Occlusion
+
+notetypes-image = 图片
+notetypes-occlusion = 遮盖
+notetypes-occlusion-mask = 遮罩
+notetypes-occlusion-note = 笔记
+notetypes-comments-field = 注释
+notetypes-toggle-masks = 切换遮罩
+notetypes-image-occlusion-name = 图片遮盖
+notetypes-hide-all-guess-one = 隐藏全部，猜测一个
+notetypes-hide-one-guess-one = 隐藏一个，猜测一个
+notetypes-error-generating-cloze = 生成图片遮盖笔记时出错
+notetypes-error-getting-imagecloze = 抽取图片遮盖笔记时候出错。
