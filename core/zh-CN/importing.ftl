@@ -99,8 +99,14 @@ importing-update = 更新
 importing-tag-all-notes = 标记所有笔记
 importing-tag-updated-notes = 标记已更新的笔记
 importing-file = 文件
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = 匹配范围
+# Used with the 'match scope' option
 importing-notetype-and-deck = 卡片模板和牌组
+importing-cards-added =
+    { $count ->
+       *[other] 已添加{ $count }条笔记
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

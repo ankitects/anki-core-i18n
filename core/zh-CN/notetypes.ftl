@@ -49,3 +49,4 @@ notetypes-hide-all-guess-one = 隐藏全部，猜测一个
 notetypes-hide-one-guess-one = 隐藏一个，猜测一个
 notetypes-error-generating-cloze = 生成图片遮盖笔记时出错
 notetypes-error-getting-imagecloze = 抽取图片遮盖笔记时候出错。
+notetypes-error-loading-image-occlusion = 加载图片遮盖时候出错，请确认是使用的是否最新版本的Anki。
