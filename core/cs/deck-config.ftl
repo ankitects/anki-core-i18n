@@ -40,6 +40,9 @@ deck-config-tab-description =
     - `Předvolba`:  Limit je sdílen všemi balíčky, které používají tuto předvolbu.
     - `Tento balíček`: Limit je specifický pro tento balíček.
     - `Pouze dnes`: Provede dočasnou změnu limitu tohoto balíčku.
+deck-config-new-cards-ignore-review-limit = Nové karty ignorují limit opakování
+deck-config-new-cards-ignore-review-limit-tooltip = Ve výchozím nastavení limit opakování také platí pro nové karty. Žádné nové karty nebudou zobrazeny, když byl dosažen limit opakování. Jestliže je tato volba povolena, nové karty se budou zobrazovat bez ohledu na limit opakování.
+deck-config-affects-entire-collection = Ovlivní celou kolekci.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -286,5 +289,5 @@ deck-config-maximum-answer-secs-above-recommended = Anki může plánovat Vaše 
 
 deck-config-which-deck = Který balíček požadujete?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

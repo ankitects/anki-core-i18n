@@ -13,8 +13,6 @@ browsing-browser-options = Možnosti prohlížeče
 browsing-buried = Přeskočené
 browsing-card = Karta
 browsing-cards = Karty
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = K
 browsing-card-list = Seznam karet
 browsing-cards-cant-be-manually-moved-into = Karty nemůžou být ručně převedeny do filtrovaného balíčku.
 browsing-cards-deleted =
@@ -62,8 +60,6 @@ browsing-no-flag = Žádný příznak
 browsing-no-selection = Nejsou vybrány žádné karty nebo poznámky.
 browsing-note = Poznámka
 browsing-notes = Poznámky
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = P
 browsing-optional-filter = Volitelný filtr:
 browsing-override-back-template = Přepsat šablonu rubu:
 browsing-override-font = Přepsat typ písma:
@@ -94,6 +90,7 @@ browsing-suspended = Vyřazené
 browsing-tag-duplicates = Duplikátní štítky
 browsing-tag-rename-warning-empty = Nelze přejmenovat štítek, který nemá žádné poznámky.
 browsing-target-field = Cílové pole:
+browsing-toggle-bury = Přepnout přeskočení
 browsing-toggle-showing-cards-notes = Přepnout zobrazení Karet/Poznámek
 browsing-toggle-mark = Přepnout označení
 browsing-toggle-suspend = Přepnout vyřazení
@@ -175,5 +172,9 @@ browsing-reparented-decks =
        *[other] Přejmenováno { $count } balíčků.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = P
