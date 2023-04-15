@@ -29,6 +29,11 @@ editing-superscript = ଉର୍ଦ୍ଧଲିପି
 editing-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ
 editing-text-color = ପାଠ୍ୟର ରଙ୍ଗ
 editing-toggle-sticky = Sticky ଟୋଗଲ୍ କରନ୍ତୁ
+editing-expand = ପ୍ରସାରଣ
+editing-collapse = ସଙ୍କୋଚନ
+editing-expand-field = କ୍ଷେତ୍ର ପ୍ରସାରଣ
+editing-collapse-field = କ୍ଷେତ୍ର ସଙ୍କୋଚନ
+editing-mathjax-preview = MathJax ପୂର୍ଵାଵଲୋକନ
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -71,7 +71,6 @@ importing-processed-media-file =
         [one] { $count }ଟିଏ ମିଡ଼ିଆ ଫାଇଲ୍ ପ୍ରକ୍ରିୟାକରଣ ହୋଇଛି
        *[other] { $count }ଟି ମିଡ଼ିଆ ଫାଇଲ୍ ପ୍ରକ୍ରିୟାକରଣ ହୋଇଛି
     }
-importing-importing-collection = ସଂଗ୍ରହ ଆମଦାନୀ କରୁଅଛି...
 importing-importing-file = ଫାଇଲ୍ ଆମଦାନି କରୁଅଛି...
 importing-processed-notes =
     { $count ->
@@ -83,3 +82,12 @@ importing-processed-cards =
         [one] { $count }ଟିଏ ପତ୍ର ପ୍ରକ୍ରିୟାକରଣ କରାଯାଇଛି...
        *[other] { $count }ଟି ପତ୍ର ପ୍ରକ୍ରିୟାକରଣ କରାଯାଇଛି...
     }
+importing-cards-added =
+    { $count ->
+        [one] { $count }ଟିଏ ପତ୍ର ଯୋଡ଼ାଗଲା।
+       *[other] { $count }ଟି ପତ୍ର ଯୋଡ଼ାଗଲା।
+    }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = ସଂଗ୍ରହ ଆମଦାନୀ କରୁଅଛି...
