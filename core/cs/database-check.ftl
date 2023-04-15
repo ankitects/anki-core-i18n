@@ -57,6 +57,12 @@ database-check-notes-with-invalid-utf8 =
         [few] Opraveny { $count } poznámky s neplatnými znaky utf8.
        *[other] Opraveno { $count } poznámek s neplatnými znaky utf8.
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] Opraven { $count } objekt s časovým razítkem v budoucnosti.
+        [few] Opraveny { $count } objekty s časovým razítkem v budoucnosti.
+       *[other] Opraveno { $count } objektů s časovým razítkem v budoucnosti.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Jeden nebo více typů poznámek chyběly. Poznámky, které je používaly, dostaly nové typy poznámek, které začínají „db-check“, ale názvy polí a design karty se ztratil, takže možná bude lepší obnovit je z automatické zálohy.
 

@@ -87,7 +87,6 @@ importing-processed-media-file =
         [few] Importovány { $count } mediální soubory
        *[other] Importováno { $count } mediálních souborů
     }
-importing-importing-collection = Importuje se kolekce…
 importing-importing-file = Importuje se soubor...
 importing-extracting = Rozbalují se data...
 importing-gathering = Shromažďují se data...
@@ -104,7 +103,6 @@ importing-processed-cards =
         [few] Zpracovány { $count } karty...
        *[other] Zpracováno { $count } karet...
     }
-importing-unable-to-import-filename = Nelze importovat { $filename }: typ souboru není podporován
 importing-existing-notes = Stávající poznámky
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplikovat
@@ -115,3 +113,14 @@ importing-update = Aktualizovat
 importing-tag-all-notes = Označit všechny poznámky štítkem
 importing-tag-updated-notes = Označit aktualizované poznámky štítkem
 importing-file = Soubor
+importing-cards-added =
+    { $count ->
+        [one] { $count } karta přidána.
+        [few] { $count } karty přidány.
+       *[other] { $count } karet přidáno.
+    }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Importuje se kolekce…
+importing-unable-to-import-filename = Nelze importovat { $filename }: typ souboru není podporován

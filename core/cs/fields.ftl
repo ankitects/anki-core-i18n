@@ -17,3 +17,6 @@ fields-sort-by-this-field-in-the = Setřídit prohlížeč dle tohoto pole
 fields-that-field-name-is-already-used = Takové pole už existuje.
 fields-name-first-letter-not-valid = Název pole by neměl začínat #, ^ nebo /.
 fields-name-invalid-letter = Název pole by neměl obsahovat :, ", { "{" } nebo { "}" }.
+# If enabled, the field is not included when searching for 'text', 're:text' and so on,
+# but is when searching for a specific field, eg 'field:text'.
+fields-exclude-from-search = Vyloučit z obecného vyhledávání (pomalejší)

@@ -108,6 +108,11 @@ deck-config-bury-review-tooltip = Jestli ostatní `opakované` karty stejné poz
 deck-config-bury-interday-learning-tooltip =
     Jestli ostatní `učené` karty stejné poznámky s intervalem >1 den 
     budou odloženy na další den.
+deck-config-bury-priority-tooltip =
+    Když Anki nabírá karty, nejdříve nabere karty učené v jednom dni, poté učené karty, které překračují do dalšího dne,  poté opakování a nakonec nové karty. To ovlivní, jak přeskakování funguje:
+    
+    - Jsou-li povoleny všechny možnosti přeskakování, zobrazí se příbuzné karty, které jsou v tomto seznamu na řadě nejdříve. Například, karta k zopakování se zobrazí přednostně před novou kartou.
+    - Příbuzné karty níže na seznamu nemohou přeskočit typy karet, které jsou výše. Například, jestliže zakážete přeskakování nových karet a učíte se novou kartu, nepřeskočí žádnou učenou kartu, která překračuje do dalšího dne nebo kartu k zopakování a můžete tak vidět obě příbuzné karty během jednoho procvičování.
 
 ## Ordering section
 
