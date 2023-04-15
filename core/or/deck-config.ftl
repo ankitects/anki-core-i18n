@@ -23,6 +23,13 @@ deck-config-limit-deck-v3 =
     ଏକ ଡେକ୍ ଅଧ୍ୟୟନ କରିବାବେଳେ ଏହାର ଭିତରେ ଉପଡେକ୍ ଥାଏ, ପ୍ରତ୍ୟେକ
     ଉପଡେକ୍ ଉପରେ ନିର୍ମିତ ସୀମା ସେହି ନିର୍ଦ୍ଦିଷ୍ଟ ଡେକ୍ ରୁ ନିଆଯାଇଥିବା ସର୍ବାଧିକ ପତ୍ରସଂଖ୍ୟାକୁ ନିୟନ୍ତ୍ରଣ କରିଥାଏ।
     ମନୋନୀତ ଡେକ୍ ର ସୀମା ଦେଖାଯିବାକୁ ଥିବା ମୋଟ ପତ୍ରସଂଖ୍ୟା ନିୟନ୍ତ୍ରଣ କରେ।
+deck-config-affects-entire-collection = ସମଗ୍ର ସଂଗ୍ରହକୁ ପ୍ରଭାଵିତ କରେ।
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-deck-only = ଏହି ତାସଖଣ୍ଡ
+deck-config-today-only = କେଵଳ ଆଜି
 
 ## New Cards section
 
@@ -47,9 +54,6 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = ସ୍ଥଗିତ କରିବା
 deck-config-bury-new-siblings = ସମ୍ପୃକ୍ତ ନୂତନ ପତ୍ରଗୁଡ଼ିକୁ ତା' ବାସିଦିନ ପର୍ଯ୍ୟନ୍ତ ସ୍ଥଗିତ କରନ୍ତୁ
 deck-config-bury-review-siblings = ସମ୍ପୃକ୍ତ ସମୀକ୍ଷାଗୁଡ଼ିକୁ ତା' ବାସିଦିନ ପର୍ଯ୍ୟନ୍ତ ସ୍ଥଗିତ କରନ୍ତୁ
-deck-config-bury-tooltip =
-    ସମାନ ନୋଟର ଅନ୍ୟ ପତ୍ରଗୁଡ଼ିକ (ଯଥା ଓଲଟା ପତ୍ର,
-    ସଂଲଗ୍ନ କ୍ଲୋଜ୍ ବିଲୋପ) ପରଦିନ ପର୍ଯ୍ୟନ୍ତ ବିଳମ୍ବ ହେବ କି ନାହିଁ।
 
 ## Ordering section
 
@@ -58,10 +62,6 @@ deck-config-new-gather-priority-deck = ଡେକ୍
 deck-config-new-gather-priority-position-lowest-first = ଆରୋହଣ ପୋଜିସନ୍
 deck-config-new-gather-priority-position-highest-first = ଅବରୋହଣ ପୋଜିସନ୍
 deck-config-new-card-sort-order = ନୂତନ ପତ୍ର ସଜାଇବା କ୍ରମ
-deck-config-sort-order-card-template-then-lowest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଆରୋହଣ ପୋଜିସନ୍
-deck-config-sort-order-card-template-then-highest-position = ପତ୍ର ଟେମ୍ପଲେଟ୍, ତା'ପରେ ଅବରୋହଣ ପୋଜିସନ୍
-deck-config-sort-order-lowest-position = ଆରୋହଣ ପୋଜିସନ୍
-deck-config-sort-order-highest-position = ଅବରୋହଣ ପୋଜିସନ୍
 deck-config-sort-order-template-then-gather = ପତ୍ର ଟେମ୍ପଲେଟ୍
 deck-config-new-review-priority = ନୂତନ/ସମୀକ୍ଷା କ୍ରମ
 deck-config-new-review-priority-tooltip = ସମୀକ୍ଷା ପତ୍ର ସମ୍ପର୍କରେ କେବେ ନୂତନ ପତ୍ର ଦେଖାଇବେ।
@@ -72,6 +72,7 @@ deck-config-sort-order-ascending-intervals = ଆରୋହଣ ଅନ୍ତରା�
 deck-config-sort-order-descending-intervals = ଅବରୋହଣ ଅନ୍ତରାଳ
 deck-config-sort-order-ascending-ease = ଆରୋହଣ ସହଜତା
 deck-config-sort-order-descending-ease = ଅବରୋହଣ ସହଜତା
+deck-config-sort-order-relative-overdueness = ଆପେକ୍ଷିକ ଅତିଦେୟତା
 
 ## Timer section
 
@@ -136,5 +137,8 @@ deck-config-description-new-handling-hint =
 
 deck-config-which-deck = ଆପଣ କେଉଁ ଡେକ୍ ପସନ୍ଦ କରିବେ?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-tooltip =
+    ସମାନ ନୋଟର ଅନ୍ୟ ପତ୍ରଗୁଡ଼ିକ (ଯଥା ଓଲଟା ପତ୍ର,
+    ସଂଲଗ୍ନ କ୍ଲୋଜ୍ ବିଲୋପ) ପରଦିନ ପର୍ଯ୍ୟନ୍ତ ବିଳମ୍ବ ହେବ କି ନାହିଁ।
