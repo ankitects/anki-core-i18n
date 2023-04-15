@@ -82,6 +82,8 @@ importing-processed-cards =
         [one] { $count }ଟିଏ ପତ୍ର ପ୍ରକ୍ରିୟାକରଣ କରାଯାଇଛି...
        *[other] { $count }ଟି ପତ୍ର ପ୍ରକ୍ରିୟାକରଣ କରାଯାଇଛି...
     }
+# Used with the 'match scope' option
+importing-notetype-and-deck = ନୋଟ୍‍ପ୍ରକାର ଏଵଂ ତାସଖଣ୍ଡ
 importing-cards-added =
     { $count ->
         [one] { $count }ଟିଏ ପତ୍ର ଯୋଡ଼ାଗଲା।
