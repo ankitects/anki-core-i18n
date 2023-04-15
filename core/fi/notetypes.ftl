@@ -35,3 +35,18 @@ notetypes-note-types = Muistiinpanotyypit
 notetypes-options = Valinnat...
 notetypes-please-add-another-note-type-first = Lisää toinen muistiinpanotyyppi ensin.
 notetypes-type = Tyyppi
+
+## Image Occlusion
+
+notetypes-image = Kuva
+notetypes-occlusion = Peittäminen
+notetypes-occlusion-mask = Maski
+notetypes-occlusion-note = Muistiinpano
+notetypes-comments-field = Kommentit
+notetypes-toggle-masks = Maskit näkyviin/piiloon
+notetypes-image-occlusion-name = Kuvan peittäminen
+notetypes-hide-all-guess-one = Piilota kaikki, arvaa yksi
+notetypes-hide-one-guess-one = Piilota yksi, arvaa yksi
+notetypes-error-generating-cloze = Kuvan peittämis -muistiinpanoa luotaessa tapahtui virhe
+notetypes-error-getting-imagecloze = Kuvan peittämis -muistiinpanoa haettaessa tapahtui virhe.
+notetypes-error-loading-image-occlusion = Virhe kuvan peittämis -tehtävän lataamisessa. Onko Anki-versiosi ajan tasalla?

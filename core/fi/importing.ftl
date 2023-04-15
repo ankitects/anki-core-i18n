@@ -106,8 +106,15 @@ importing-update = Päivitä
 importing-tag-all-notes = Merkitse kaikki muistiinpanot tunnisteella
 importing-tag-updated-notes = Merkitse päivitetyt muistiinpanot tunnisteella
 importing-file = Tiedosto
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Täsmää laajuus
+# Used with the 'match scope' option
 importing-notetype-and-deck = Muistiinpanotyyppi ja pakka
+importing-cards-added =
+    { $count ->
+        [one] { $count } kortti lisätty.
+       *[other] { $count } korttia lisätty.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

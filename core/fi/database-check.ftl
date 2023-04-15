@@ -45,6 +45,11 @@ database-check-notes-with-invalid-utf8 =
         [one] Korjattiin { $count } muistiinpano, jossa oli virheellisiä UTF-8-merkkejä.
        *[other] Korjattiin { $count } muistiinpanoa, joissa oli virheellisiä UTF-8-merkkejä.
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] Korjattiin { $count } kohde, jonka aikaleima oli tulevaisuudessa.
+       *[other] Korjattiin { $count } kohdetta, joiden aikaleimat olivat tulevaisuudessa.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Yksi tai useampi muistiinpanotyyppi puuttui. Niitä käyttäneille muistiinpanoille on annettu uudet muistiinpanotyypit, joiden nimet alkavat tunnuksella "db-check", mutta kenttien nimet ja kortin ulkoasu ovat kadonneet, joten saattaa olla parempi palauttaa muistiinpanot automaattisesta varmuuskopiosta.
 
