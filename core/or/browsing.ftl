@@ -13,8 +13,6 @@ browsing-browser-options = ବ୍ରାଉଜର୍ ବିକଳ୍ପଗୁଡ�
 browsing-buried = ସ୍ଥଗିତ ଅଛି
 browsing-card = ପତ୍ର
 browsing-cards = କାର୍ଡଗୁଡ଼ିକ
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = ପ
 browsing-card-list = ପତ୍ର ତାଲିକା
 browsing-cards-cant-be-manually-moved-into = ପତ୍ରଗୁଡ଼ିକୁ ହସ୍ତକୃତ ଭାବରେ ଏକ ଶୋଧିତ ତାସଖଣ୍ଡ କୁ ସ୍ଥାନାନ୍ତରିତ କରାଯାଇପାରିବ ନାହିଁ।
 browsing-cards-deleted =
@@ -61,8 +59,6 @@ browsing-no-flag = ପତାକା ନାହିଁ
 browsing-no-selection = କୌଣସି ପତ୍ର କିମ୍ୱା ନୋଟ୍ ଚୟନ କରାଯାଇ ନାହିଁ।
 browsing-note = ନୋଟ୍
 browsing-notes = ଟିପ୍ପଣୀ
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = ନୋ
 browsing-optional-filter = ବୈକଳ୍ପିକ ଶୋଧକ:
 browsing-override-back-template = ପଛ ଟେମ୍ପଲେଟ୍ ଓଭରରାଇଡ୍ କରନ୍ତୁ:
 browsing-override-font = ଫଣ୍ଟକୁ ଓଭରରାଇଡ୍ କରନ୍ତୁ:
@@ -145,6 +141,7 @@ browsing-again-today = ପୁଣି
 browsing-edited-today = ସମ୍ପାଦିତ
 browsing-sidebar-first-review = ପ୍ରଥମ ସମୀକ୍ଷା
 browsing-sidebar-untagged = ଟ୍ୟାଗ ବିହୀନ
+browsing-sidebar-overdue = ଅତିଦେୟ
 browsing-row-deleted = (ବିଲୋପିତ)
 browsing-removed-unused-tags-count =
     { $count ->
@@ -162,5 +159,9 @@ browsing-reparented-decks =
        *[other] { $count }ଟି ଡେକ୍ ର ନାମ ବଦଳାଇଦିଆଗଲା।
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = ପ
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = ନୋ
