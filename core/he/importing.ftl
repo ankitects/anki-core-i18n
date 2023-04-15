@@ -108,8 +108,15 @@ importing-update = לעדכן
 importing-tag-all-notes = תיוג לכרטיסים
 importing-tag-updated-notes = תיוג לכרטיסים שיתעדכנו
 importing-file = קובץ
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = היקף התאמה
+# Used with the 'match scope' option
 importing-notetype-and-deck = סוג רשומה וחפיסה
+importing-cards-added =
+    { $count ->
+        [one] כרטיס { $count } נוסף.
+       *[other] { $count } כרטיסים נוספו.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

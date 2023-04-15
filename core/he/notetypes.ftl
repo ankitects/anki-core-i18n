@@ -35,3 +35,18 @@ notetypes-note-types = סוגי רשומות
 notetypes-options = אפשרויות...
 notetypes-please-add-another-note-type-first = נא הוסף עוד סוג רשומה תחילה.
 notetypes-type = סוג
+
+## Image Occlusion
+
+notetypes-image = תמונה
+notetypes-occlusion = הסתרה
+notetypes-occlusion-mask = כיסוי
+notetypes-occlusion-note = רשומה
+notetypes-comments-field = הערות
+notetypes-toggle-masks = החלף הסתרות
+notetypes-image-occlusion-name = הסתרת תמונה
+notetypes-hide-all-guess-one = הסתר הכל, נחש אחד
+notetypes-hide-one-guess-one = הסתר אחד, נחש אחד
+notetypes-error-generating-cloze = אירעה שגיאה בעת יצירת רשומה מסוג הסתרת תמונה
+notetypes-error-getting-imagecloze = אירעה שגיאה בעת שליפת רשומה מסוג הסתרת תמונה
+notetypes-error-loading-image-occlusion = שגיאה בטעינת הסתרת תמונה. האם גרסת ה-Anki שלך מעודכנת?
