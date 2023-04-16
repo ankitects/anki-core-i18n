@@ -113,6 +113,10 @@ importing-update = Aktualizovat
 importing-tag-all-notes = Označit všechny poznámky štítkem
 importing-tag-updated-notes = Označit aktualizované poznámky štítkem
 importing-file = Soubor
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Rozsah přiřazení
+# Used with the 'match scope' option
+importing-notetype-and-deck = Typ poznámky a balíček
 importing-cards-added =
     { $count ->
         [one] { $count } karta přidána.

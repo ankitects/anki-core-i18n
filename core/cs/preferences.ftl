@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = Automaticky synchronizovat při otevření a zavření profilu
 preferences-backups = Zálohy
-preferences-basic = Základní
 preferences-change-deck-depending-on-note-type = Změnit balíček v závislosti na typu poznámky
 preferences-changes-will-take-effect-when-you = Změny se projeví až po restartování Anki.
 preferences-hours-past-midnight = hodin po půlnoci
@@ -10,7 +9,7 @@ preferences-learn-ahead-limit = Učit se navíc
 preferences-mins = minut
 preferences-network = Síť
 preferences-next-day-starts-at = Další den začíná v
-preferences-media-is-not-backed-up = Média se nezálohují. Prosím vytvořte si pravidelné zálohy vašeho adresáře Anki.
+preferences-media-is-not-backed-up = Multimédia se nezálohují. Prosím vytvořte si pravidelné zálohy vašeho adresáře Anki.
 preferences-on-next-sync-force-changes-in = Při příští synchronizaci vynutit změny v jednom směru
 preferences-paste-clipboard-images-as-png = Vložit obrázek ze schránky jako PNG
 preferences-paste-without-shift-key-strips-formatting = Vložit bez klávesy shift bez formátování
@@ -21,6 +20,7 @@ preferences-scheduling = Plánování
 preferences-show-learning-cards-with-larger-steps = Zobrazit karty k učení s delšími kroky před opakováním
 preferences-show-next-review-time-above-answer = Zobrazovat čas do příštího opakování nad tlačítky
 preferences-show-play-buttons-on-cards-with = Zobrazovat tlačítka přehrát na kartách, které obsahují zvuk
+preferences-show-remaining-card-count = Zobrazit zbývající počet karet
 preferences-some-settings-will-take-effect-after = Některá nastavení se projeví až po restartu Anki.
 preferences-tab-synchronisation = Synchronizace
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synchronizace</b><br> Neni momentálně povolena; pro zapnutí kliknětě na tlačítko „Synchronizace“ v hlavním okně.
@@ -65,3 +65,10 @@ preferences-note = Poznámka
 preferences-scheduler = Plánovač
 preferences-user-interface = Uživatelské rozhraní
 preferences-import-export = Import/Export
+preferences-network-timeout = Časový limit sítě
+preferences-reset-window-sizes = Resetovat velikosti oken
+preferences-reset-window-sizes-complete = Velikosti oken a jejich pozice byly resetovány.
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Základní

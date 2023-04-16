@@ -1,6 +1,6 @@
 ## Shown at the top of the media check screen
 
-media-check-window-title = Zkontrolovat média
+media-check-window-title = Zkontrolovat multimédia
 # the number of files, and the total space used by files
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
@@ -47,7 +47,7 @@ media-check-checked = Zkontrolováno { $count }...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = Odstranit nepoužívaná média?
+media-check-delete-unused-confirm = Odstranit nepoužívaná multimédia?
 media-check-files-remaining =
     { $count ->
         [one] 1 soubor zbývá.
@@ -75,4 +75,8 @@ media-check-render-latex = Renderovat LaTeX
 media-check-empty-trash = Vysypat koš
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Obnovit odstraněné
-media-check-check-media-action = Zkontrolovat média
+media-check-check-media-action = Zkontrolovat multimédia
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = chybějící-multimédia
+# add a tag to notes with missing media
+media-check-add-tag = Označit chybějící
