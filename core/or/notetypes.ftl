@@ -33,3 +33,7 @@ notetypes-note-types = ନୋଟ୍ ପ୍ରକାରଗୁଡ଼ିକ
 notetypes-options = ବିକଳ୍ପଗୁଡ଼ିକ...
 notetypes-please-add-another-note-type-first = ଦୟାକରି ପ୍ରଥମେ ଅନ୍ୟ ଏକ ନୋଟ୍ ପ୍ରକାର ଯୋଡ଼ନ୍ତୁ।
 notetypes-type = ପ୍ରକାର
+
+## Image Occlusion
+
+notetypes-toggle-masks = ଆଵେଷ୍ଟନ ଟୋଗଲ୍ କରିବା

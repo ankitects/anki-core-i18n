@@ -28,6 +28,7 @@ editing-subscript = ପାଦାଙ୍କ
 editing-superscript = ଉର୍ଦ୍ଧଲିପି
 editing-tags = ଟ୍ୟାଗ୍‌ଗୁଡ଼ିକ
 editing-text-color = ପାଠ୍ୟର ରଙ୍ଗ
+editing-toggle-html-editor = HTML ସମ୍ପାଦକ ଟୋଗଲ୍ କରିବା
 editing-toggle-sticky = Sticky ଟୋଗଲ୍ କରନ୍ତୁ
 editing-expand = ପ୍ରସାରଣ
 editing-collapse = ସଙ୍କୋଚନ
