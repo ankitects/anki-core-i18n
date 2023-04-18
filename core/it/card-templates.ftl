@@ -15,7 +15,7 @@ card-templates-preview-box = Anteprima
 card-templates-template-box = Modello
 card-templates-sample-cloze = Questo è un { "{{c1::" }esempio{ "}}" } di cancellazione cloze.
 card-templates-fill-empty = Compila i campi vuoti
-card-templates-night-mode = Modalità notturna
+card-templates-night-mode = Modalità Notturna
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = Aggiungi classe Mobile (per simulare dispositivi mobili)
@@ -57,3 +57,8 @@ card-templates-this-will-create-card-proceed =
        *[other] Verranno create { $count } carte. Proseguire?
     }
 card-templates-type-boxes-warning = Anki supporta solo una casella di digitazione per ciascuna carta.
+card-templates-restore-to-default = Ripristina Default
+card-templates-restore-to-default-confirmation =
+    Tutti i campi e i modelli di questo tipo di nota verranno ripristinati ai valori predefiniti, 
+    inoltre verranno persi eventuali stili personalizzati. Desideri procedere?
+card-templates-restored-to-default = Il tipo di nota è stato ripristinato alla sua configurazione originale.

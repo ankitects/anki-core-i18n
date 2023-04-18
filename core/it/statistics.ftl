@@ -148,6 +148,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Da { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } corrette ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } ripetizioni
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% corrette ({ $reviews })
 statistics-hours-title = Suddivisione per ora del giorno
 statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno
 # shown when graph is empty
