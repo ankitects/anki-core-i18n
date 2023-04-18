@@ -151,6 +151,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Des de { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correctes ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } repassos
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent } % correctes ({ $reviews } repassos)
 statistics-hours-title = Distribució horària
 statistics-hours-subtitle = Percentatge de repassos correctes al llarg del dia.
 # shown when graph is empty
