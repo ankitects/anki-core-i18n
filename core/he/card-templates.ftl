@@ -57,3 +57,8 @@ card-templates-this-will-create-card-proceed =
        *[other] פעולה זאת תיצור { $count } כרטיסים. להמשיך?
     }
 card-templates-type-boxes-warning = תיבת הקלדה אחת בלבד נתמכת לכל תבנית כרטיס.
+card-templates-restore-to-default = שחזר לברירת מחדל
+card-templates-restore-to-default-confirmation =
+    זה יאפס את כל השדות והתבניות בסוג רשונה זה לערכי ברירת המחדל, 
+    ויסיר כל עיצוב מותאם אישית. האם אתה מעוניין להמשיך?
+card-templates-restored-to-default = סוג הרשומה שוחזר למצבו המקורי.

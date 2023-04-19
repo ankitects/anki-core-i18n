@@ -84,8 +84,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } היום
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds } שניות
 statistics-today-title = היום
 statistics-today-again-count = מנין השגיאות:
 statistics-today-type-counts = לימוד:{ $learnCount }, חזרות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
@@ -168,6 +166,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = מ- { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } נכונים ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } חזרות
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% נכון ({ $reviews })
 statistics-hours-title = פילוח שעתי
 statistics-hours-subtitle = ניקוד הצלחה בחזרות לכל שעה ביום.
 # shown when graph is empty
@@ -195,7 +197,6 @@ statistics-days-studied = ימי לימוד
 statistics-average-answer-time-label = זמן תשובה ממוצע
 statistics-average = ממוצע
 statistics-average-interval = מרווח ממוצע
-statistics-longest-interval = מרווח הזמן הארוך ביותר
 statistics-due-tomorrow = מתוזמן למחר
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } מתוך { $total } ({ $percent }%)
