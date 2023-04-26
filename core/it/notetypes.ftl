@@ -50,3 +50,4 @@ notetypes-hide-one-guess-one = Nascondine una, indovinane una
 notetypes-error-generating-cloze = Si è verificato un errore durante la generazione di una nota di tipo Occludi Immagine
 notetypes-error-getting-imagecloze = Si è verificato un errore durante il recupero di una nota di tipo Occludi Immagine
 notetypes-error-loading-image-occlusion = Errore nel caricamento dell'occlusione dell'immagine. La tua versione di Anki è aggiornata?
+notetype-error-no-image-to-show = Nessuna immagine da mostrare.

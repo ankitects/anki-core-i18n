@@ -66,6 +66,7 @@ editing-warning-cloze-deletions-will-not-work = Attenzione, le cancellazioni clo
 editing-mathjax-preview = Anteprima MathJax
 editing-shrink-images = Ridimensiona Immagini
 editing-close-html-tags = Chiudi automaticamente i tag HTML
+editing-from-clipboard = Da Appunti
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
