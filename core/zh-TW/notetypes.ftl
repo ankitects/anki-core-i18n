@@ -50,3 +50,4 @@ notetypes-hide-one-guess-one = 遮住一個，猜測一個
 notetypes-error-generating-cloze = 產生一則影像遮擋筆記時發生錯誤
 notetypes-error-getting-imagecloze = 擷取一則影像遮擋筆記時發生錯誤
 notetypes-error-loading-image-occlusion = 載入影像遮擋時發生錯誤。你的 Anki 是最新版本嗎？
+notetype-error-no-image-to-show = 沒有可顯示的影像。
