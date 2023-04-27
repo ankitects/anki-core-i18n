@@ -16,7 +16,7 @@ custom-study-ok = OK
 custom-study-preview-new-cards = 新規カードをプレビューする
 custom-study-preview-new-cards-added-in-the = 新規カードのプレビュー: 追加日が過去
 custom-study-require-one-or-more-of-these = 次のタグの中から1つ以上を指定する:
-custom-study-review-ahead = 先取りして学習する
+custom-study-review-ahead = 先取りして復習する
 custom-study-review-ahead-by = 先取りする日数
 custom-study-review-cards-forgotten-in-last = やり直しと回答したカードを復習:：過去
 custom-study-review-forgotten-cards = 忘却したカードを復習する
@@ -25,7 +25,7 @@ custom-study-select-tags-to-exclude = 除外するタグの選択:
 custom-study-selective-study = 選択学習
 custom-study-study-by-card-state-or-tag = カードの状態やタグを選んで学習する
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = 現在出題可能な新規カード: { $count } 枚
 custom-study-available-review-cards = 現在出題可能な復習カード: { $count } 枚
