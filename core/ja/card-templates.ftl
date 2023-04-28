@@ -16,8 +16,8 @@ card-templates-night-mode = 夜間モード
 # on a mobile device.
 card-templates-add-mobile-class = モバイルクラスを追加
 card-templates-preview-settings = オプション
-card-templates-invalid-template-number = カードテンプレート{ $number }に問題があります。
-card-templates-identical-front = 表面側がカードテンプレート{ $number }と同一です。
+card-templates-invalid-template-number = カードタイプ{ $number }のテンプレートに問題があります。
+card-templates-identical-front = 表面側がカードタイプ{ $number }のテンプレートと同一です。
 card-templates-no-front-field = 表面のカードテンプレートには「{ "{{表面}}" }」といったフィールドを指定する置換え文字列が必要です。
 card-templates-missing-cloze = 表面と裏面のカードテンプレートには 「{ "{{cloze:テキスト}}" }」といった置換え文字列が必要です。
 card-templates-extraneous-cloze = 「cloze:」（穴埋め）は穴埋めのノートタイプでのみ使用できます。
