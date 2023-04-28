@@ -50,3 +50,4 @@ notetypes-hide-one-guess-one = Amaga’n i endevina’n una
 notetypes-error-generating-cloze = S’ha produït un error en generar una nota del tipus Oclusió d’imatges.
 notetypes-error-getting-imagecloze = S’ha produït un error en obtenir una nota del tipus Oclusió d’imatges.
 notetypes-error-loading-image-occlusion = S’ha produït un error en carregar l’oclusió d’imatges. Actualitzeu Anki a l’última versió.
+notetype-error-no-image-to-show = No hi ha cap imatge per mostrar.

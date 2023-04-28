@@ -57,3 +57,5 @@ card-templates-this-will-create-card-proceed =
        *[other] Es crearan { $count } targetes. Voleu continuar?
     }
 card-templates-type-boxes-warning = Només podeu fer servir un quadre de text.
+card-templates-restore-to-default = Restaura per defecte
+card-templates-restored-to-default = El tipus de nota s’ha restaurat amb la configuració inicial.

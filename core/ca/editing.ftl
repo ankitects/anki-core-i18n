@@ -66,6 +66,7 @@ editing-warning-cloze-deletions-will-not-work = Aneu amb compte: els buits no fu
 editing-mathjax-preview = Previsualització MathJax
 editing-shrink-images = Redueix les imatges
 editing-close-html-tags = Tanca les etiquetes HTML automàticament
+editing-from-clipboard = Des del porta-retalls
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
