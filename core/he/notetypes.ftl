@@ -50,3 +50,4 @@ notetypes-hide-one-guess-one = הסתר אחד, נחש אחד
 notetypes-error-generating-cloze = אירעה שגיאה בעת יצירת רשומה מסוג הסתרת תמונה
 notetypes-error-getting-imagecloze = אירעה שגיאה בעת שליפת רשומה מסוג הסתרת תמונה
 notetypes-error-loading-image-occlusion = שגיאה בטעינת הסתרת תמונה. האם גרסת ה-Anki שלך מעודכנת?
+notetype-error-no-image-to-show = אין תמונה להצגה.

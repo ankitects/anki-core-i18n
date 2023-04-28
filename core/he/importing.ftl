@@ -37,7 +37,7 @@ importing-multicharacter-separators-are-not-supported-please = מפסיקים ע
 importing-notes-added-from-file = רשומות נוספו מקובץ: { $val }
 importing-notes-found-in-file = רשומות נמצאו בקובץ: { $val }
 importing-notes-skipped-as-theyre-already-in = רשומות שדולגו, מפני שהן כבר קיימות באוסף שלך: { $val }
-importing-notes-that-could-not-be-imported = רשומות שלא יובאו משום שסוג הרשומה השתנה: { $val }
+importing-notes-skipped-update-due-to-notetype = הרשומות לא עודכנו, מכיוון שסוג הרשומה השתנה מאז שייבאת את ההערות לראשונה: { $val }
 importing-notes-updated-as-file-had-newer = רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
@@ -122,3 +122,4 @@ importing-cards-added =
 
 importing-importing-collection = מייבא אוסף...
 importing-unable-to-import-filename = { $filename } לא ניתן לייבוא: סוג הקובץ לא נתמך
+importing-notes-that-could-not-be-imported = רשומות שלא יובאו משום שסוג הרשומה השתנה: { $val }
