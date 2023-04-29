@@ -205,6 +205,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = خلال { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } صحيح ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } مراجعة
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% صحيح ({ $reviews })
 statistics-hours-title = تفصيل لكل ساعة
 statistics-hours-subtitle = معدل المراجعات الناجحة لكل ساعة من اليوم.
 # shown when graph is empty

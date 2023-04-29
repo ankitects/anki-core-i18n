@@ -69,3 +69,8 @@ card-templates-this-will-create-card-proceed =
        *[other] سينشئ هذا { $count } بطاقة. هل تريد الاستمرار؟
     }
 card-templates-type-boxes-warning = فقط حقل إدخال واحد في قالب البطاقات مدعوم
+card-templates-restore-to-default = استعادة الافتراضي
+card-templates-restore-to-default-confirmation =
+    سيعيد هذا كل الحقول والقوالب في نوع الملحوظة هذا إلى قيمها الافتراضية،
+    ما يؤدي لمسح أي حقول أو قوالب إضافية ومحتواها والتنسيقات المخصصة. هل تريد الاستمرار؟
+card-templates-restored-to-default = أعيد نوع الملحوظة إلى حالته الأصلية.

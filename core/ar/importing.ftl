@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = الفواصل ا
 importing-notes-added-from-file = عدد الملحوظات المضافة من الملف: { $val }
 importing-notes-found-in-file = عدد الملحوظات الموجودة في الملف: { $val }
 importing-notes-skipped-as-theyre-already-in = عدد الملحوظات المتخطاة لكونها موجودة في مجموعتك: { $val }
-importing-notes-that-could-not-be-imported = الملحوظات التي لا يمكن استيرادها لأن نوع الملحوظة قد تغيّر: { $val }
+importing-notes-skipped-update-due-to-notetype = الملحوظات غير المحدثة لأن نوع الملحوظة قد تعدل منذ أن استوردت الملحوظات للمرة الأولى: { $val }
 importing-notes-updated-as-file-had-newer = عدد الملحوظات المحدثة لأن الملف له إصدار أحدث: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = حزمة رزمة/مجموعة أنكي (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = درس Pauker 1.8 (*.pau.gz)
@@ -134,10 +134,22 @@ importing-update = تحديث
 importing-tag-all-notes = وسم كل الملحوظات
 importing-tag-updated-notes = وسم الملحوظات المحدثة
 importing-file = ملف
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = نطاق المقارنة
+# Used with the 'match scope' option
 importing-notetype-and-deck = نوع الملحوظة والرزمة
+importing-cards-added =
+    { $count ->
+        [zero] ولا بطاقة أضيفت.
+        [one] أضيفت بطاقة واحدة.
+        [two] أضيفت بطاقتان.
+        [few] أضيفت { $count } بطاقات.
+        [many] أضيفت { $count } بطاقة.
+       *[other] أضيفت { $count } بطاقة.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = يجري استيراد المجموعة...
 importing-unable-to-import-filename = فشل استيراد { $filename }: نوع الملف غير مدعوم
+importing-notes-that-could-not-be-imported = الملحوظات التي لا يمكن استيرادها لأن نوع الملحوظة قد تغيّر: { $val }

@@ -35,3 +35,19 @@ notetypes-note-types = أنواع الملحوظة
 notetypes-options = خيارات
 notetypes-please-add-another-note-type-first = الرجاء إضافة نوع ملحوظة آخر أولًا.
 notetypes-type = النوع
+
+## Image Occlusion
+
+notetypes-image = صورة
+notetypes-occlusion = صورة معماة
+notetypes-occlusion-mask = غطاء
+notetypes-occlusion-note = ملحوظة
+notetypes-comments-field = تعليقات
+notetypes-toggle-masks = إظهار/إخفاء الأغطية
+notetypes-image-occlusion-name = صورة معماة
+notetypes-hide-all-guess-one = إخفاء الكل، تخمين واحد
+notetypes-hide-one-guess-one = إخفاء واحد، تخمين واحد
+notetypes-error-generating-cloze = حصل خطأ عند توليد ملحوظة الصور المعماة
+notetypes-error-getting-imagecloze = حصل خطأ عند جلب ملحوظة الصور المعماة
+notetypes-error-loading-image-occlusion = حصل خطأ  عند تحميل الصور المعماة. هل إصدار أنكي الخاص بك محدث؟
+notetype-error-no-image-to-show = لا يوجد صورة.

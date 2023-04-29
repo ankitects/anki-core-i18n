@@ -66,6 +66,7 @@ editing-warning-cloze-deletions-will-not-work = تحذير، عبارات ملء
 editing-mathjax-preview = معاينة MathJax
 editing-shrink-images = تقليص الصور
 editing-close-html-tags = إغلاق وسوم HTML تلقائيًا
+editing-from-clipboard = من الحافظة
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
