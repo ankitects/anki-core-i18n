@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = 無法使用多�
 importing-notes-added-from-file = 從檔案中新增的筆記：{ $val }
 importing-notes-found-in-file = 從檔案中找到的筆記：{ $val }
 importing-notes-skipped-as-theyre-already-in = 因已在集合中而被略過的筆記：{ $val }
-importing-notes-that-could-not-be-imported = 因更動筆記類型而無法匯入的筆記：{ $val }
+importing-notes-skipped-update-due-to-notetype = 由於第一次匯入筆記後修改過筆記類型，因此沒有更新筆記：{ $val }
 importing-notes-updated-as-file-had-newer = 因檔案有新版本而更新的筆記：{ $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 已封裝的 Anki 牌組/集合 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
@@ -112,3 +112,4 @@ importing-cards-added =
 
 importing-importing-collection = 匯入集合中...
 importing-unable-to-import-filename = 無法匯入 { $filename }：不支援此檔案類型
+importing-notes-that-could-not-be-imported = 因更動筆記類型而無法匯入的筆記：{ $val }
