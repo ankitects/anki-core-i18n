@@ -1,20 +1,20 @@
 studying-again = やり直し
-studying-all-buried-cards = 延期したすべてのカード
+studying-all-buried-cards = パスしたすべてのカード
 studying-audio-5s = オーディオ-5秒
 studying-audio-and5s = オーディオ+5秒
-studying-buried-siblings = 延期した兄弟カード
-studying-bury = 延期
-studying-bury-card = カードを延期
-studying-bury-note = ノートを延期
+studying-buried-siblings = パスした兄弟関係のカード
+studying-bury = 今日はパス
+studying-bury-card = カードを今日はパス
+studying-bury-note = ノートを今日はパス
 studying-card-suspended = カードを保留しました
 studying-card-was-a-leech = このカードは定着困難です。
 studying-cards-buried =
     { $count ->
-       *[other] { $count }枚のカードを延期しました。
+       *[other] { $count }枚のカードを明日に延期しました。
     }
 studying-cards-will-be-automatically-returned-to = カードは復習が済んだら元のデッキに自動的に戻ります。
 studying-continue = 継続
-studying-counts-differ = 延期機能が有効化されているため、デッキリストとカウントが異なります。いくつかのカードが除外され、その他はカウントされているという可能性があります。
+studying-counts-differ = パス機能が有効化されているため、デッキリストとカウントが異なります。いくつかのカードが除外され、その他はカウントされている可能性があります。
 studying-delete-note = ノートを削除
 studying-deleting-this-deck-from-the-deck = このデッキを削除すると、残りのカードも全て元のデッキに戻ります。
 studying-easy = 簡単
@@ -25,7 +25,7 @@ studying-flag-card = カードにフラグを付ける
 studying-good = 正解
 studying-hard = 難しい
 studying-it-has-been-suspended = 保留しました。
-studying-manually-buried-cards = 手動で延期したカード
+studying-manually-buried-cards = 手動でパスしたカード
 studying-mark-note = ノートにマーク
 studying-more = その他
 studying-no-cards-are-due-yet = このデッキの今日の課題はまだ残っていますが、どれもまだ学習予定時刻に達していません

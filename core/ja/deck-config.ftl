@@ -76,10 +76,10 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = 翌日への延期
-deck-config-bury-new-siblings = 新規カードの兄弟を翌日に延期する
-deck-config-bury-review-siblings = 復習カードの兄弟を翌日に延期する
-deck-config-bury-interday-learning-siblings = 日付をまたいだ習得中カードの兄弟を延期する
+deck-config-bury-title = 当日の学習をパス
+deck-config-bury-new-siblings = 兄弟関係の新規カードを当日はパスする
+deck-config-bury-review-siblings = 兄弟関係の復習カードを当日はパスする
+deck-config-bury-interday-learning-siblings = 日付をまたいだ、兄弟関係の習得中カードを当日はパスする
 
 ## Ordering section
 
@@ -193,5 +193,5 @@ deck-config-which-deck = どのデッキを選択しますか？
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-siblings = カードの兄弟を翌日に延期する
-deck-config-do-not-bury = カードの兄弟を翌日に延期しない
+deck-config-bury-siblings = 兄弟関係のカードを当日はパスする
+deck-config-do-not-bury = 兄弟関係のカードを翌日に延期しない
