@@ -72,7 +72,7 @@ deck-config-leech-threshold-tooltip =
 deck-config-leech-action-tooltip =
     `タグのみ`：そのノートに「leech」のタグがつき、ポップアップが表示されます。
     
-    `カードを保留`：そのノートに「leech」のタグがつき、さらに手動で保留を解除するまではカードが表示されません。
+    `カードを休止`：そのノートに「leech」のタグがつき、さらに手動で休止を解除するまではカードが表示されません。
 
 ## Burying section
 

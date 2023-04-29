@@ -28,5 +28,5 @@ decks-repeat-failed-cards-after = 後で間違えたカードをやり直す
 decks-reschedule-cards-based-on-my-answers = このデッキの解答に基づいてカードをスケジュールし直す
 decks-study = 学習
 decks-study-deck = デッキを学習する
-decks-filtered-deck-search-empty = 検索条件に一致するカードがありません。別のフィルターデッキ内にあるカードや保留中のカードが除外されている可能性があります。
+decks-filtered-deck-search-empty = 検索条件に一致するカードがありません。別のフィルターデッキ内にあるカードや休止中のカードが除外されている可能性があります。
 decks-unmovable-cards = 除外されたカードをすべて表示
