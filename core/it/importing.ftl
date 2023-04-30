@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = Separatori multi-
 importing-notes-added-from-file = Note aggiunte dal file: { $val }
 importing-notes-found-in-file = Note trovate nel file: { $val }
 importing-notes-skipped-as-theyre-already-in = Note saltate, poiché già nella tua collezione: { $val }
-importing-notes-that-could-not-be-imported = Note che non hanno potuto essere importate, in quanto è cambiato il tipo di nota: { $val }
+importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazzo/Collezzione Anki impacchettato (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
@@ -120,3 +120,4 @@ importing-cards-added =
 
 importing-importing-collection = Importazione della collezione...
 importing-unable-to-import-filename = Impossibile importare { $filename }: tipo di file non supportato
+importing-notes-that-could-not-be-imported = Note che non hanno potuto essere importate, in quanto è cambiato il tipo di nota: { $val }
