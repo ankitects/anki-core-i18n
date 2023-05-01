@@ -57,3 +57,6 @@ card-templates-this-will-create-card-proceed =
        *[other] Tämä luo { $count } korttia. Jatketaanko?
     }
 card-templates-type-boxes-warning = Korttimallissa voi olla vain yksi kirjoituskenttä.
+card-templates-restore-to-default = Palauta oletusarvo
+card-templates-restore-to-default-confirmation = Tämä palauttaa kaikki tämän muistiinpanotyypin kentät ja mallit oletusarvoihinsa, jolloin kaikki ylimääräiset kentät/mallit ja niiden sisältö sekä mukautettu muotoilu poistetaan. Haluatko jatkaa?
+card-templates-restored-to-default = Muistiinpanotyyppi on palautettu alkuperäiseen tilaansa.
