@@ -61,3 +61,5 @@ card-templates-this-will-create-card-proceed =
        *[other] Будет создано { $count } карточек. Продолжить?
     }
 card-templates-type-boxes-warning = Поддерживается только одно поле ввода в шаблоне карточки.
+card-templates-restore-to-default = Сбросить
+card-templates-restored-to-default = Типы записей восстановлены.

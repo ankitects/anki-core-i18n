@@ -35,3 +35,10 @@ notetypes-note-types = Типы записей
 notetypes-options = Настройки...
 notetypes-please-add-another-note-type-first = Сначала добавьте другой тип записи.
 notetypes-type = Тип
+
+## Image Occlusion
+
+notetypes-image = Изображение
+notetypes-occlusion-note = Запись
+notetypes-comments-field = Комментарии
+notetype-error-no-image-to-show = Нет изображения

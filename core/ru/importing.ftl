@@ -38,7 +38,6 @@ importing-multicharacter-separators-are-not-supported-please = Разделит�
 importing-notes-added-from-file = Записи, добавленные из файла: { $val }
 importing-notes-found-in-file = Записи, найденные в файле: { $val }
 importing-notes-skipped-as-theyre-already-in = Пропущенные записи, которые уже есть в коллекции: { $val }
-importing-notes-that-could-not-be-imported = Записи, которые не импортированы, потому что изменился их тип: { $val }
 importing-notes-updated-as-file-had-newer = Записи, которые обновлены: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Упакованная колода/коллекция Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
@@ -116,9 +115,19 @@ importing-update = Обновить
 importing-tag-all-notes = Пометить все
 importing-tag-updated-notes = Пометить обновлённые
 importing-file = Файл
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Где проверять
+# Used with the 'match scope' option
 importing-notetype-and-deck = Тип записи и колода
+importing-cards-added =
+    { $count ->
+        [one] { $count } карточка добавлена.
+        [few] { $count } карточки добавлены.
+       *[other] { $count } карточек добавлено.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Импортирование коллекции...
 importing-unable-to-import-filename = Не удалось импортировать { $filename }: тип файлов не поддерживается
+importing-notes-that-could-not-be-imported = Записи, которые не импортированы, потому что изменился их тип: { $val }

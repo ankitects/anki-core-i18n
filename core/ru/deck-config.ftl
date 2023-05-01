@@ -116,7 +116,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Случайная запись, затем тип карточки`: Отбирает записи в случайном порядке, затем показывает все связанные по порядку.¶
     ¶
     `Случайный`: Полностью перетасовывает отобранные карточки.
-deck-config-sort-order-card-template-then-random = По типу карточки, потом случайны
+deck-config-sort-order-card-template-then-random = По типу карточки, потом случайный
 deck-config-sort-order-random-note-then-template = Случайная запись, затем тип карточки
 deck-config-sort-order-random = Случайный
 deck-config-sort-order-template-then-gather = По типу карточки
