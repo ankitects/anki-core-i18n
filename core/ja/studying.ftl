@@ -13,7 +13,7 @@ studying-cards-buried =
        *[other] { $count }枚のカードを明日に延期しました。
     }
 studying-cards-will-be-automatically-returned-to = カードは復習が済んだら元のデッキに自動的に戻ります。
-studying-continue = 継続
+studying-continue = 続行
 studying-counts-differ = パス機能が有効化されているため、デッキリストとカウントが異なります。いくつかのカードが除外され、その他はカウントされている可能性があります。
 studying-delete-note = ノートを削除
 studying-deleting-this-deck-from-the-deck = このデッキを削除すると、残りのカードも全て元のデッキに戻ります。
@@ -47,9 +47,9 @@ studying-what-would-you-like-to-unbury = 何のパスを取り消しますか？
 studying-you-havent-recorded-your-voice-yet = まだ録音してません。
 studying-card-studied-in =
     { $count ->
-       *[other] 今日は{ $count }枚のカードを
+       *[other] { $count }枚のカードを学習しました
     }
 studying-minute =
     { $count ->
-       *[other] { $count } 分学習しました。
+       *[other] （時間枠：{ $count }分）
     }
