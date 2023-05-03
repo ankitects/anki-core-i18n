@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = 不支持多分�
 importing-notes-added-from-file = 从文件中添加的笔记：{ $val }
 importing-notes-found-in-file = 文件中找到的笔记 : { $val }
 importing-notes-skipped-as-theyre-already-in = 因现有集合中已存在而跳过的笔记：{ $val }
-importing-notes-that-could-not-be-imported = 因笔记模板已变更而无法导入的笔记：{ $val }
+importing-notes-skipped-update-due-to-notetype = 由于在笔记首次导入后修改过笔记模板，笔记未能更新：{ $val }
 importing-notes-updated-as-file-had-newer = 因文件有新版本而更新的笔记：{ $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 打包的Anki牌组/集合 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 课程 (*.pau.gz)
@@ -112,3 +112,4 @@ importing-cards-added =
 
 importing-importing-collection = 正在导入集合…
 importing-unable-to-import-filename = 未能导入{ $filename }：不支持的文件类型
+importing-notes-that-could-not-be-imported = 因笔记模板已变更而无法导入的笔记：{ $val }

@@ -51,3 +51,6 @@ card-templates-this-will-create-card-proceed =
        *[other] 本次操作将创建{ $count }张卡片，继续吗？
     }
 card-templates-type-boxes-warning = 一张卡片内容模板中仅支持加入一个输入框。
+card-templates-restore-to-default = 恢复默认
+card-templates-restore-to-default-confirmation = 此操作将重置该笔记类型中的所有字段和模板为默认值，并移除所有附加字段/模板及其中的内容和自定义风格。要继续吗？
+card-templates-restored-to-default = 笔记模板已恢复至初始状态。
