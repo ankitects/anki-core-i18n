@@ -1,18 +1,18 @@
 ## Default field names in newly created note types
 
-notetypes-front-field = 表
-notetypes-back-field = 裏
-notetypes-add-reverse-field = 任意の入力で反転カード追加
+notetypes-front-field = Front
+notetypes-back-field = Back
+notetypes-add-reverse-field = Add Reverse
 notetypes-text-field = Text
-notetypes-back-extra-field = 裏 (追記)
+notetypes-back-extra-field = Back Extra
 
 ## Default note type names
 
-notetypes-basic-name = 基本
-notetypes-basic-reversed-name = 基本 (裏表反転カード付き)
-notetypes-basic-optional-reversed-name = 基本 (裏表反転カード追加可能)
-notetypes-basic-type-answer-name = 基本 (解答タイピング入力)
-notetypes-cloze-name = 穴埋め
+notetypes-basic-name = Basic
+notetypes-basic-reversed-name = Basic (裏表反転カード付き)
+notetypes-basic-optional-reversed-name = Basic (裏表反転カード追加可能)
+notetypes-basic-type-answer-name = Basic (解答キーボード入力)
+notetypes-cloze-name = Cloze
 
 ## Default card template names
 

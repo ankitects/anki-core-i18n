@@ -65,4 +65,4 @@ preferences-network-timeout = ネットワークタイムアウト
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-preferences-basic = 基本
+preferences-basic = Basic
