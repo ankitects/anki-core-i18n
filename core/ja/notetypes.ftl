@@ -16,8 +16,8 @@ notetypes-cloze-name = Cloze
 
 ## Default card template names
 
-notetypes-card-1-name = カード 1
-notetypes-card-2-name = カード 2
+notetypes-card-1-name = Card 1
+notetypes-card-2-name = Card 2
 notetypes-add = 追加: { $val }
 notetypes-add-note-type = ノートタイプを追加
 notetypes-cards = カード...
