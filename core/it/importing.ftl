@@ -37,7 +37,7 @@ importing-notes-found-in-file = Note trovate nel file: { $val }
 importing-notes-skipped-as-theyre-already-in = Note saltate, poiché già nella tua collezione: { $val }
 importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazzo/Collezzione Anki impacchettato (*.apkg *.colpkg *.zip)
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacchetto mazzo/collezione Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Barra verticale (Pipe)
