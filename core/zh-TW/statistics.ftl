@@ -128,11 +128,11 @@ statistics-intervals-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = 正確率 { $correct }/{ $total } ({ $percent }%)
+statistics-hours-correct = 正確率： { $correct }/{ $total } ({ $percent }%)
 # the emoji depicts the graph displaying this number
-statistics-hours-reviews = 📊 { $reviews } 次複習
+statistics-hours-reviews = 📊 複習了 { $reviews } 次
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = 📈 正確率 { $percent }% ({ $reviews })
+statistics-hours-correct-reviews = 📈 答對了 { $percent }% ({ $reviews }次)
 statistics-hours-title = 分時解析
 statistics-hours-subtitle = 在一天中各個時間段所複習的成功率
 # shown when graph is empty

@@ -55,5 +55,5 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-type-boxes-warning = 一個卡片模板中僅支援加入一個文字框。
 card-templates-restore-to-default = 回復預設
-card-templates-restore-to-default-confirmation = 這將會重設此筆記類型中的所有欄位和模板為預設值，並移除任何自訂樣式。要繼續嗎？
+card-templates-restore-to-default-confirmation = 這將會重設此筆記類型中的所有欄位和模板為預設值，任何自訂樣式、額外欄位/模板及其中的內容都將被移除。要繼續嗎？
 card-templates-restored-to-default = 已將筆記類型回復至預設狀態。

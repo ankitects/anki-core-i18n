@@ -189,7 +189,7 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards } 張卡片
     }，將覆蓋此牌組的上限。
 deck-config-reviews-too-low =
-    若每天要學習{ $cards ->
+    若每天要學習 { $cards ->
        *[other] { $cards } 張新卡片
     }，複習卡上限至少應設定為 { $expected } 張。
 deck-config-learning-step-above-graduating-interval = 畢業間隔至少應該和最後一個學習階段一樣長。
