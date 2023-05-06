@@ -17,3 +17,6 @@ fields-sort-by-this-field-in-the = In der Kartenverwaltung nach diesem Feld sort
 fields-that-field-name-is-already-used = Dieser Feldname ist schon vergeben.
 fields-name-first-letter-not-valid = Der Feldname sollte nicht mit #, ^ oder / beginnen.
 fields-name-invalid-letter = Der Feldname sollte kein :, ", { "{" } oder { "}" } enthalten.
+# If enabled, the field is not included when searching for 'text', 're:text' and so on,
+# but is when searching for a specific field, eg 'field:text'.
+fields-exclude-from-search = Von unqualifizierten Suchen ausschließen (langsamer)

@@ -35,6 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = Ein aus mehreren 
 importing-notes-added-from-file = Notizen hinzugefügt von Datei: { $val }
 importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in folgender Sammlung befinden: { $val }
+importing-notes-skipped-update-due-to-notetype = Notizen wurden nicht aktualisiert, da der Notiztyp seit Ihrem ersten Import der Notizen verändert wurde: { $val }
 importing-notes-updated-as-file-had-newer = Aktualisierte Notizen, da die Datei eine neuere Version ist: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
@@ -109,6 +110,11 @@ importing-file = Datei
 importing-match-scope = Trefferumfang
 # Used with the 'match scope' option
 importing-notetype-and-deck = Notiztyp und Stapel
+importing-cards-added =
+    { $count ->
+        [one] { $count } Karte wurde hinzugefügt.
+       *[other] { $count } Karten wurden hinzugefügt.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

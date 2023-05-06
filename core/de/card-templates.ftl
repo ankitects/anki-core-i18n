@@ -58,4 +58,5 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-type-boxes-warning = Es wird nur ein Eingabefeld pro Kartenvorlage unterstützt.
 card-templates-restore-to-default = Auf die Standardeinstellungen zurücksetzen
+card-templates-restore-to-default-confirmation = Dies wird alle Felder und Vorlagen in diesem Notiztyp auf die jeweiligen Standardeinstellungen zurücksetzen und jegliche zusätzlichen Felder/Vorlagen und ihre Inhalte sowie jegliche benutzerdefinierten Stile entfernen. Möchten Sie fortfahren?
 card-templates-restored-to-default = Notiztyp wurde auf den Originalzustand zurückgesetzt.
