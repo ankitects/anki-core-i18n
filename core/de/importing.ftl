@@ -35,7 +35,6 @@ importing-multicharacter-separators-are-not-supported-please = Ein aus mehreren 
 importing-notes-added-from-file = Notizen hinzugefügt von Datei: { $val }
 importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in folgender Sammlung befinden: { $val }
-importing-notes-that-could-not-be-imported = Notizen, die nicht importiert werden konnten, weil sich der Notiztyp geändert hat: { $val }
 importing-notes-updated-as-file-had-newer = Aktualisierte Notizen, da die Datei eine neuere Version ist: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
@@ -106,6 +105,8 @@ importing-update = Aktualisieren
 importing-tag-all-notes = Alle Notizen verschlagworten
 importing-tag-updated-notes = Aktualisierte Notizen verschlagworten
 importing-file = Datei
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Trefferumfang
 # Used with the 'match scope' option
 importing-notetype-and-deck = Notiztyp und Stapel
 
@@ -113,3 +114,4 @@ importing-notetype-and-deck = Notiztyp und Stapel
 
 importing-importing-collection = Sammlung wird importiert...
 importing-unable-to-import-filename = { $filename } kann nicht importiert werden: Dateityp nicht unterstützt
+importing-notes-that-could-not-be-imported = Notizen, die nicht importiert werden konnten, weil sich der Notiztyp geändert hat: { $val }

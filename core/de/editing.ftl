@@ -66,6 +66,7 @@ editing-warning-cloze-deletions-will-not-work = Achtung! Lückentext wird nur ko
 editing-mathjax-preview = MathJax-Vorschau
 editing-shrink-images = Bilder verkleinern
 editing-close-html-tags = HTML-Tags automatisch schließen
+editing-from-clipboard = Aus der Zwischenablage
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

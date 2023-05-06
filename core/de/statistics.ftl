@@ -67,8 +67,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } gelernt ({ $secs-per-card }s/Karte)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }s
 statistics-today-title = Heute
 statistics-today-again-count = Falsch:
 statistics-today-type-counts = Neu: { $learnCount }, wiederholt: { $reviewCount }, erneut gelernt: { $relearnCount }, ausgewählte Karten: { $filteredCount }
@@ -151,6 +149,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Von { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } Wiederholungen
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = { $percent }% korrekt ({ $reviews })
 statistics-hours-title = Gedächtnisleistung nach Tageszeit
 statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
 # shown when graph is empty
@@ -178,7 +180,6 @@ statistics-days-studied = Lerntage
 statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
 statistics-average-interval = Mittleres Intervall
-statistics-longest-interval = Längstes Intervall
 statistics-due-tomorrow = Morgen fällig
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent }%)

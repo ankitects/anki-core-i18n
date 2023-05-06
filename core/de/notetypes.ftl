@@ -35,3 +35,16 @@ notetypes-note-types = Notiztypen:
 notetypes-options = Einstellungen…
 notetypes-please-add-another-note-type-first = Bitte zunächst einen neuen Notiztyp hinzufügen.
 notetypes-type = Typ
+
+## Image Occlusion
+
+notetypes-image = Bild
+notetypes-occlusion = Verdeckung
+notetypes-occlusion-mask = Verdecken
+notetypes-occlusion-note = Notiz
+notetypes-comments-field = Kommentare
+notetypes-toggle-masks = Verdeckungen ein/aus
+notetypes-image-occlusion-name = Bildverdeckung
+notetypes-hide-all-guess-one = Alles verdecken, eines raten
+notetypes-hide-one-guess-one = Eines verdecken, eines raten
+notetype-error-no-image-to-show = Kein Bild zum Anzeigen

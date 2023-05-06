@@ -57,3 +57,5 @@ card-templates-this-will-create-card-proceed =
        *[other] Dieser Vorgang wird { $count } Karten erstellen. Möchten Sie fortfahren?
     }
 card-templates-type-boxes-warning = Es wird nur ein Eingabefeld pro Kartenvorlage unterstützt.
+card-templates-restore-to-default = Auf die Standardeinstellungen zurücksetzen
+card-templates-restored-to-default = Notiztyp wurde auf den Originalzustand zurückgesetzt.
