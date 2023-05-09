@@ -57,3 +57,8 @@ card-templates-this-will-create-card-proceed =
         [few] Zostaną stworzone { $count } karty. Kontynuować?
        *[other] Zostanie stworzonych { $count } kart. Kontynuować?
     }
+card-templates-restore-to-default = Przywróć domyślne
+card-templates-restore-to-default-confirmation =
+    Pola i szablony tego typu notatki zostaną przywrócone do domyślnego
+    stanu, usuwając wszelkie dodatkowe pola/szablony i ich zawartość, jak też ustawione style. Kontynuować?
+card-templates-restored-to-default = Typ notatki został cofnięty do oryginalnego stanu.
