@@ -52,8 +52,8 @@ browsing-line-size = <b>行大小</b>：
 browsing-manage-note-types = 管理笔记模板…
 browsing-move-cards = 移动卡片
 browsing-move-cards-to-deck = 移动卡片到牌组：
-browsing-new = (新卡片)
-browsing-new-note-type = 新笔记模板:
+browsing-new = （新卡片）
+browsing-new-note-type = 新笔记模板：
 browsing-no-flag = 无旗标
 browsing-no-selection = 未选中卡片或笔记。
 browsing-note = 笔记模板
@@ -63,13 +63,13 @@ browsing-override-back-template = 忽略背面内容模版：
 browsing-override-font = 覆盖字体设置：
 browsing-override-front-template = 忽略正面内容模版：
 browsing-please-give-your-filter-a-name = 定义筛选器名称：
-browsing-preview-selected-card = 预览选择的卡片 ({ $val })
+browsing-preview-selected-card = 预览选择的卡片（{ $val }）
 browsing-question = 问题
-browsing-queue-bottom = 队尾: { $val }
-browsing-queue-top = 队首: { $val }
+browsing-queue-bottom = 队尾：{ $val }
+browsing-queue-top = 队首：{ $val }
 browsing-randomize-order = 随机顺序
 browsing-remove-tags = 删除标签…
-browsing-replace-with = <b>替换</b>:
+browsing-replace-with = <b>替换</b>：
 browsing-reposition = 重排位置...
 browsing-reposition-new-cards = 重排新卡片的位置
 browsing-reschedule = 重新安排进度
@@ -81,13 +81,13 @@ browsing-shift-position-of-existing-cards = 更改现有卡片的位置
 browsing-sidebar = 侧边栏
 browsing-sidebar-filter = 侧边栏筛选条件
 browsing-sort-field = 排序字段
-browsing-sorting-on-this-column-is-not = 不支持该列排序, 请选择另一列.
+browsing-sorting-on-this-column-is-not = 不支持该列排序，请选择另一列。
 browsing-start-position = 开始位置：
 browsing-step = 步幅:
 browsing-suspended = 已暂停
 browsing-tag-duplicates = 复制标签
 browsing-tag-rename-warning-empty = 无法重命名没有笔记的标签。
-browsing-target-field = 目标栏目:
+browsing-target-field = 目标栏目：
 browsing-toggle-bury = 搁置/取消搁置
 browsing-toggle-showing-cards-notes = 切换显示卡片/笔记
 browsing-toggle-mark = 添加/移除标记
@@ -96,14 +96,14 @@ browsing-treat-input-as-regular-expression = 以正则表达式输入
 browsing-update-saved-search = 更新为当前搜索条件
 browsing-whole-collection = 全部集合
 browsing-window-title-notes = 浏览（已选取 { $selected } 条笔记，共 { $total } 条）
-browsing-you-must-have-at-least-one = 必须至少有一列.
+browsing-you-must-have-at-least-one = 必须至少有一列。
 browsing-group =
     { $count ->
-       *[other] { $count }种组合
+       *[other] { $count } 种组合
     }
 browsing-note-count =
     { $count ->
-       *[other] { $count }条笔记
+       *[other] { $count } 条笔记
     }
 browsing-notes-updated =
     { $count ->
