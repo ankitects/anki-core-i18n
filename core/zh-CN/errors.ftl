@@ -1,5 +1,3 @@
-errors-invalid-input-empty = 无效输入。
-errors-invalid-input-details = 无效输入：{ $details }
 errors-parse-number-fail = 数字无效或超出范围。
 errors-filtered-parent-deck = 筛选牌组不能创建子牌组。
 errors-filtered-deck-required = 此操作仅能用于筛选牌组。
@@ -10,11 +8,16 @@ errors-100-tags-max =
 errors-multiple-notetypes-selected = 请仅从一种笔记模板选取笔记。
 errors-please-check-database = 请使用「检查数据库」功能，然后重试。
 errors-please-check-media = 请使用「检查媒体」功能，然后重试。
-errors-collection-too-new = 此集合需要更新版本的Anki才能打开。
-errors-invalid-ids = 改牌组包含有未来的时间戳。请联系牌组作者修复该问题。
+errors-collection-too-new = 此集合需要较新版本的 Anki 才能打开。
+errors-invalid-ids = 该牌组包含有未来的时间戳。请联系牌组作者修复该问题。
 errors-inconsistent-db-state = 数据库存在不一致问题。请使用「检查数据库」操作。
 
 ## Card Rendering
 
-errors-bad-directive = { $directive }指令出错：{ $error }
-errors-option-not-set = { $option }未设置
+errors-bad-directive = 指令「{ $directive }」错误：{ $error }
+errors-option-not-set = 「{ $option }」未设置
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+errors-invalid-input-empty = 无效输入。
+errors-invalid-input-details = 无效输入：{ $details }
