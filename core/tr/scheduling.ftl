@@ -57,7 +57,7 @@ scheduling-unbury-them = gizlemeyi geri al
 scheduling-update-done = Planlayıcı başarıyla güncellendi.
 scheduling-update-button = Güncelleştir
 scheduling-update-later-button = Daha sonra
-scheduling-update-more-info-button = Daha Fazla Öğren
+scheduling-update-more-info-button = Daha Fazlasını Öğren
 
 ## Other scheduling strings
 
