@@ -4,11 +4,12 @@ preferences-change-deck-depending-on-note-type = Zmień talię na podstawie typu
 preferences-changes-will-take-effect-when-you = Zmiany będą miały skutek kiedy ponownie uruchomisz Anki.
 preferences-hours-past-midnight = godziny po północy
 preferences-language = Język
-preferences-interrupt-current-audio-when-answering = Przerywaj odtwarzany dźwięk podczas powtórki
+preferences-interrupt-current-audio-when-answering = Po podaniu odpowiedzi przerwij dźwięk karty
 preferences-learn-ahead-limit = Limit nauki z wyprzedzeniem
 preferences-mins = minut
 preferences-network = Sieć
 preferences-next-day-starts-at = Nowy dzień zaczyna się
+preferences-media-is-not-backed-up = Kopia zapasowa nie zawiera plików multimedialnych. Dla bezpieczeństwa regularnie archiwizuj folder Anki.
 preferences-on-next-sync-force-changes-in = Przy następnej synchronizacji wymuś zmiany w jednym kierunku
 preferences-paste-clipboard-images-as-png = Wklej zdjęcia ze schowka jako PNG
 preferences-paste-without-shift-key-strips-formatting = Wklejanie bez klawisza Shift usuwa formatowanie
@@ -18,6 +19,7 @@ preferences-preferences = Ustawienia
 preferences-scheduling = Planowanie
 preferences-show-learning-cards-with-larger-steps = Pokaż karty do nauczenia z dużym krokiem przed kartami powtórek
 preferences-show-next-review-time-above-answer = Pokaż czas następnej powtórki nad przyciskami odpowiedzi
+preferences-spacebar-rates-card = Spacja też pokazuje odpowiedź
 preferences-show-play-buttons-on-cards-with = Pokazuj przyciski odtwarzania na kartach z dźwiękiem
 preferences-show-remaining-card-count = Pokaż liczbę pozostałych kart
 preferences-some-settings-will-take-effect-after = Niektóre ustawienia zadziałają dopiero po ponownym uruchomieniu Anki.
@@ -28,7 +30,7 @@ preferences-timebox-time-limit = Limit czasowy na sesję
 preferences-user-interface-size = Rozmiar interfejsu
 preferences-when-adding-default-to-current-deck = Dodawaj domyślnie do aktualnej talii
 preferences-you-can-restore-backups-via-fileswitch = Możesz przywrócić kopie zapasowe poprzez Plik>Przełącz profil.
-preferences-legacy-timezone-handling = Przestarzała obsługa stref czasowych (posiadająca błędy, lecz wymagana do obsługi AnkiDroid <=  2.14)
+preferences-legacy-timezone-handling = Przestarzała obsługa stref czasowych (z błędami, ale wymagana dla AnkiDroida <=  2.14)
 preferences-default-search-text = Domyślny tekst wyszukiwania
 preferences-default-search-text-example = np. "deck:current "
 preferences-theme = Motyw
@@ -46,6 +48,8 @@ preferences-monthly-backups = Liczba kopii na miesiąc:
 preferences-minutes-between-backups = Co ile minut kopia zapasowa:
 preferences-reduce-motion = Redukuj ruch
 preferences-reduce-motion-tooltip = Wyłącza różne animacje i przejścia interfejsu użytkownika
+preferences-custom-sync-url = Serwer synchronizacji na własnym hostingu
+preferences-custom-sync-url-disclaimer = Dla zaawansowanych - przeczytaj "poradnik"
 preferences-hide-top-bar-during-review = Ukryj górną belkę podczas powtarzania
 preferences-hide-bottom-bar-during-review = Ukryj dolną belkę podczas powtarzania
 preferences-always = Zawsze
@@ -60,10 +64,11 @@ preferences-editing = Edytowanie
 preferences-browsing = Przeglądanie
 preferences-default-deck = Domyślna talia
 preferences-account = Konto AnkiWeb
-preferences-note = Notatka
+preferences-note = Ostrzeżenie
 preferences-scheduler = Planowanie
 preferences-user-interface = Interfejs użytkownika
 preferences-import-export = Import/Eksport
+preferences-reset-window-sizes = Domyślne rozmiary okien
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
