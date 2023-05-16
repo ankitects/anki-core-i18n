@@ -112,9 +112,9 @@ statistics-intervals-day-single =
 statistics-hours-range = { $hourStart }时~{ $hourEnd }时
 statistics-hours-correct = { $correct }/{ $total } 正确 ({ $percent }%)
 # the emoji depicts the graph displaying this number
-statistics-hours-reviews = 复习了 { $reviews } 次
+statistics-hours-reviews = 📊复习了 { $reviews } 次
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = { $reviews } 次复习中正确率 { $percent }%
+statistics-hours-correct-reviews = 📈正确率 { $percent }%（{ $reviews } 次）
 statistics-hours-title = 逐小时分析
 statistics-hours-subtitle = 当天逐小时的复习成功率。
 # shown when graph is empty
