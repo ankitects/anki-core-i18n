@@ -19,6 +19,7 @@ preferences-preferences = تفضيلات
 preferences-scheduling = جدولة
 preferences-show-learning-cards-with-larger-steps = عرض بطاقات التعلم ذات الخطوات الأكبر قبل المراجعات
 preferences-show-next-review-time-above-answer = إظهار وقت المراجعة التالية فوق أزرار الإجابة
+preferences-spacebar-rates-card = زر المسطرة يجيب عن البطاقة أيضًا
 preferences-show-play-buttons-on-cards-with = إظهار أزرار التشغيل في البطاقات التي فيها تسجيلات صوتية
 preferences-show-remaining-card-count = أظهر عدد البطاقات المتبقية
 preferences-some-settings-will-take-effect-after = ستُفعَّل بعض الإعدادات بعد إعادة تشغيل أنكي.
