@@ -35,3 +35,7 @@ notetypes-note-types = Cineálacha Nótaí
 notetypes-options = Roghanna...
 notetypes-please-add-another-note-type-first = Cur cineál eile nóta leis ar dtús.
 notetypes-type = Cineál
+
+## Image Occlusion
+
+notetype-error-no-image-to-show = Gan íomhá le taispeáint.

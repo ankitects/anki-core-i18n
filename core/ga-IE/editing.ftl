@@ -16,6 +16,7 @@ editing-customize-fields = Saincheap Réimsí
 editing-cut = Gearr
 editing-double-click-image = déchliceáil íomhá
 editing-double-click-to-expand = (déchliceáil chun leathnú)
+editing-double-click-to-collapse = déchliceáil chun díleathnú
 editing-edit-current = Cuir ábhar reatha in Eagar
 editing-edit-html = Cuir HTML in eagar
 editing-fields = Réimsí
@@ -55,12 +56,17 @@ editing-to-make-a-cloze-deletion-on = Chun sliocht iomlánú a dhéanamh ar nót
 editing-toggle-html-editor = Scoránaigh Eagarthóir HTML
 editing-toggle-visual-editor = Scoránaigh Eagarthóir Amhairc
 editing-toggle-sticky = Greamaitheach (scorán)
+editing-expand = Leathnaigh
+editing-collapse = Díleathnaigh
 editing-expand-field = Leathnaigh réimse
 editing-collapse-field = Díleathnaigh réimse
 editing-underline-text = Folínigh
 editing-unordered-list = Liosta gan ord
 editing-warning-cloze-deletions-will-not-work = Rabhadh, ní bheidh aon mhaith sna sleachta iomlánaithe go dtí go mbeidh an cineál 'Iomlánú' roghnaithe thuas.
-editing-toggle-mathjax-rendering = Scoránaigh Rindreáil MathJax
+editing-mathjax-preview = Réamhamharc MathJax
+editing-close-html-tags = Dúntar clibeanna HTML go huathoibríoch
+editing-from-clipboard = Ón nGearrthaisce
+editing-alignment = Ailíniú
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

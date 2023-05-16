@@ -67,3 +67,5 @@ card-templates-this-will-create-card-proceed =
        *[other] { $count } cárta.
     } Lean ar aghaidh?
 card-templates-type-boxes-warning = Ní cheadaítear níos mó ná bosca amháin clóscríofa ar theimpléad cártaí.
+card-templates-restore-to-default = Fill ar Réamhshocrú
+card-templates-restored-to-default = Cuireadh an cineál nótaí ar ais mar a bhí.

@@ -44,6 +44,12 @@ deck-config-tab-description =
     - `Grúpa`: Baineann an srian le gach paca sa ghrúpa.
     - `An paca seo`: Baineann an srian leis an bpaca seo amháin.
     - `Inniu amháin`: Athraítear srian an phaca seo go sealadach.
+deck-config-new-cards-ignore-review-limit = Ní bhacann cártaí nua leis an uasmhéid athbhreithnithe cártaí
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Go hiondúil bíonn cártaí nua faoi réir an uasmhéid athbhreithnithe cártaí.
+    Is é sin le rá nach bhfeicfear cárta nua ar bith nuair a bhaintear an uasmhéid
+    athbhreithnithe amach. Má roghnaítear é seo, feicfear cártaí nua ar aon chaoi.
+deck-config-affects-entire-collection = I bhfeidhm ar an gcnuasach uile.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -107,9 +113,6 @@ deck-config-bury-title = Cur i bhFolach
 deck-config-bury-new-siblings = Cuir deirfiúrchártaí nua i bhfolach go dtí an lá arna mhárach
 deck-config-bury-review-siblings = Cuir deirfiúrchártaí athbhreithnithe i bhfolach go dtí an lá arna mhárach
 deck-config-bury-interday-learning-siblings = Cuir deirfiúrchártaí foghlamtha ile-lae i bhfolach go dtí an lá arna mhárach
-deck-config-bury-tooltip =
-    Roghnaigh cé acu an bhfágfar aon chárta atá bainteach leis an nóta
-    céanna (.i. cártaí malartacha, sleachta eile iomlánaithe) go dtí lá eile.
 
 ## Ordering section
 
@@ -289,5 +292,13 @@ deck-config-maximum-answer-secs-above-recommended = Dá ghiorra do chuid ceistea
 
 deck-config-which-deck = Cé acu paca atá i gceist agat?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = Cuir deirfiúrchártaí i bhfolach
+deck-config-do-not-bury = Ná cuir deirfiúrchártaí i bhfolach
+deck-config-bury-if-new = NO NEED TO TRANSLATE
+deck-config-bury-if-new-or-review = NO NEED TO TRANSLATE
+deck-config-bury-if-new-review-or-interday = NO NEED TO TRANSLATE
+deck-config-bury-tooltip =
+    Roghnaigh cé acu an bhfágfar aon chárta atá bainteach leis an nóta
+    céanna (.i. cártaí malartacha, sleachta eile iomlánaithe) go dtí lá eile.

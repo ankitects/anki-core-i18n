@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = Athfhoghlaim
 card-stats-review-log-type-filtered = Scagtha
 card-stats-review-log-type-manual = Lámhleabhar
 card-stats-no-card = (Níl aon chárta a bhaineann.)
+card-stats-custom-data = Sonraí Sainroghnaithe
 
 ## Window Titles
 

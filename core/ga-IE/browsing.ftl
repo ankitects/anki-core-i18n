@@ -1,13 +1,10 @@
 browsing-add-notes = Cuir Nótaí Leis...
-browsing-add-tags = Cuir Clibeanna Leis
 browsing-add-tags2 = Cuir Clibeanna Leis...
 browsing-add-to-selected-notes = Cuir le Nótaí Roghnaithe
 browsing-remove-from-selected-notes = Bain de Nótaí Roghnaithe
 browsing-addon = Breiseán
-browsing-all-card-types = Gach Cineál Cárta
 browsing-all-fields = Gach Réimse
 browsing-answer = Freagra
-browsing-any-cards-mapped-to-nothing-will = Scriosfar aon chárta nach bhfuil mapáilte ar aon rud. Má tá aon nóta ann nach bhfuil aon chárta fágtha mar chuid de, beidh sé caillte. An bhfuil tú cinnte gur mian leat leanúint ar aghaidh?
 browsing-any-flag = Bratach ar bith
 browsing-average-ease = Meánéascaíocht
 browsing-average-interval = Meáneatramh
@@ -15,10 +12,8 @@ browsing-browser-appearance = Cuma an Bhrabhsálaí
 browsing-browser-options = Roghanna Brabhsálaí
 browsing-buried = I bhFolach
 browsing-card = Cárta
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
+browsing-cards = Cártaí
 browsing-card-list = Liosta Cártaí
-browsing-card-state = Staid Chárta
 browsing-cards-cant-be-manually-moved-into = Ní féidir cártaí a bhogadh isteach i bpaca scagtha de láimh.
 browsing-cards-deleted =
     { $count ->
@@ -33,19 +28,14 @@ browsing-change-deck2 = Athraigh Paca...
 browsing-change-note-type = Athraigh Cineál Nóta
 browsing-change-note-type2 = Athraigh Cineál Nóta...
 browsing-change-notetype = Athraigh Cineál Nótaí
-browsing-change-to = Athraigh { $val } go:
-browsing-clear-unused = Glan Ábhar Gan Úsáid
 browsing-clear-unused-tags = Glan Clibeanna Gan Úsáid
 browsing-confirm-saved-search-overwrite = Sábháladh cuardach agus an t-ainm { $name } air cheana féin. An mian leat an cuardach nua seo a chur ina ionad?
 browsing-created = Cruthaithe
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Paca reatha
 browsing-current-note-type = Cineál reatha nóta:
 browsing-delete-notes = Scrios Nótaí
-browsing-delete-tags = Scrios Clibeanna
 browsing-duplicate = dúblach
 browsing-ease = Éascaíocht
-browsing-end = Deireadh
 browsing-enter-tags-to-add = Clibeanna nua le cur leis:
 browsing-enter-tags-to-delete = Clibeanna le scriosadh:
 browsing-filtered = (scagtha)
@@ -57,7 +47,6 @@ browsing-flag = Bratach
 browsing-font = <b>Clófhoireann</b>:
 browsing-font-size = <b>Clómhéid</b>:
 browsing-found-as-across-bs = { $part } aimsithe thar { $whole }.
-browsing-home = Baile
 browsing-ignore-case = Déan neamhaird ar chás
 browsing-in = <b>I</b>:
 browsing-interval = Eatramh
@@ -67,22 +56,17 @@ browsing-line-size = <b>Méid Líne</b>:
 browsing-manage-note-types = Bainistigh Cineálacha Nótaí...
 browsing-move-cards = Aistrigh Cártaí
 browsing-move-cards-to-deck = Aistrigh cártaí go paca:
-browsing-nd-names = { $num }: { $name }
 browsing-new = (nua)
 browsing-new-note-type = Cineál nua nóta:
 browsing-no-flag = Gan Bhratach
 browsing-no-selection = Níor roghnaíodh aon chárta ná nóta.
 browsing-note = Nóta
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
-browsing-notes-tagged = Nótaí clibeáilte.
-browsing-nothing = Rud ar bith
+browsing-notes = Nótaí
 browsing-optional-filter = Scagaire roghnach:
 browsing-override-back-template = Sáraigh teimpléad cúil:
 browsing-override-font = Sáraigh clófhoireann:
 browsing-override-front-template = Sáraigh teimpléad tosaigh:
 browsing-please-give-your-filter-a-name = Ainmnigh an scagaire:
-browsing-please-select-cards-from-only-one = Ná roghnaítear ach cártaí d'aon chineál nóta amháin.
 browsing-preview-selected-card = Réamhamharc ar chárta roghnaithe ({ $val })
 browsing-question = Ceist
 browsing-queue-bottom = Bun scuaine: { $val }
@@ -108,6 +92,7 @@ browsing-suspended = Ar fionraí
 browsing-tag-duplicates = Clibeáil Dúblaigh
 browsing-tag-rename-warning-empty = Clib nach bhfuil in úsáid, ní féidir a hathainmniú.
 browsing-target-field = Sprioc-réimse:
+browsing-toggle-bury = Scoránaigh 'i bhFolach'
 browsing-toggle-showing-cards-notes = Taispeáin/Ná Taispeáin Cártaí/Nótaí
 browsing-toggle-mark = Scoránaigh Marc
 browsing-toggle-suspend = Scoránaigh 'Ar Fionraí'
@@ -138,14 +123,6 @@ browsing-note-count =
         [few] { $count } nóta
         [many] { $count } nóta
        *[other] { $count } nóta
-    }
-browsing-note-deleted =
-    { $count ->
-        [one] Scriosadh { $count } nóta amháin.
-        [two] Scriosadh { $count } nóta.
-        [few] Scriosadh { $count } nóta.
-        [many] Scriosadh { $count } nóta.
-       *[other] Scriosadh { $count } nóta.
     }
 browsing-notes-updated =
     { $count ->
@@ -225,6 +202,9 @@ browsing-reparented-decks =
        *[other] Athainmníodh { $count } paca.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-browsing-only-new-cards-can-be-repositioned = Is iad na cártaí nua amháin is féidir a bhogadh.
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

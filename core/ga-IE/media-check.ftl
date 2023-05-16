@@ -124,3 +124,7 @@ media-check-empty-trash = Folmhaigh bruscar
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Aischuir ábhar a scriosadh
 media-check-check-media-action = Seiceáil Meáin
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = meáin-ar-iarraidh
+# add a tag to notes with missing media
+media-check-add-tag = Cuir Clib le Meáin ar Iarraidh

@@ -92,8 +92,6 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } inniu
     ({ $secs-per-card } s/cárta)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }s
 statistics-today-title = Inniu
 statistics-today-again-count = Arís:
 statistics-today-type-counts = Foghlaim: { $learnCount }, Athbhreithnigh: { $reviewCount }, Athfhoghlaim: { $relearnCount }, Scagtha: { $filteredCount }
@@ -194,6 +192,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Ó { $hourStart }.00~{ $hourEnd }.00
 statistics-hours-correct = { $correct }/{ $total } ceart ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } athbhreithniú
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% ceart ({ $reviews })
 statistics-hours-title = Miondealú de réir uaire
 statistics-hours-subtitle = Staitisticí de réir gach uair an chloig den lá.
 # shown when graph is empty
@@ -221,7 +223,6 @@ statistics-days-studied = Laethanta gníomhacha
 statistics-average-answer-time-label = Am meánach chun freagra a thabhairt
 statistics-average = Meán
 statistics-average-interval = Meáneatramh
-statistics-longest-interval = Eatramh is faide
 statistics-due-tomorrow = Le staidéar amárach
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } as { $total } ({ $percent }%)

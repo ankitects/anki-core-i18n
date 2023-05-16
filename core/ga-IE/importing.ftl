@@ -56,14 +56,6 @@ importing-notes-skipped-as-theyre-already-in =
         [many] { $val } gcinn
        *[other] { $val } ceann
     }
-importing-notes-that-could-not-be-imported =
-    Nótaí nár iompórtáladh de bharr athrú chineál nóta: { $val ->
-        [one] { $val } cheann amháin
-        [two] { $val } cheann
-        [few] { $val } cinn
-        [many] { $val } gcinn
-       *[other] { $val } ceann
-    }
 importing-notes-updated-as-file-had-newer =
     Nótaí nuashonraithe (leagan níos úire sa chomhad): { $val ->
         [one] { $val } cheann amháin
@@ -126,17 +118,16 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] Iompórtáladh { $count } chomhad meáin amháin
-        [two] Iompórtáladh { $count } chomhad mheáin
-        [few] Iompórtáladh { $count } chomhad meáin
-        [many] Iompórtáladh { $count } gcomhad meáin
-       *[other] Iompórtáladh { $count } comhad meáin
+        [one] Iompórtáladh { $count } chomhad meán amháin
+        [two] Iompórtáladh { $count } chomhad mheán
+        [few] Iompórtáladh { $count } chomhad meán
+        [many] Iompórtáladh { $count } gcomhad meán
+       *[other] Iompórtáladh { $count } comhad meán
     }
-importing-importing-collection = Cnuasach á iompórtáil...
 importing-importing-file = Comhad á iompórtáil...
 importing-extracting = Sonraí á léamh...
 importing-gathering = Sonraí á mbailiú...
-importing-failed-to-import-media-file = Theip ar iompórtáil chomhad meáin: { $debugInfo }
+importing-failed-to-import-media-file = Theip ar iompórtáil chomhad meán: { $debugInfo }
 importing-processed-notes =
     { $count ->
         [one] Próiseáladh { $count } nóta amháin...
@@ -153,7 +144,6 @@ importing-processed-cards =
         [many] Próiseáladh { $count } gcárta...
        *[other] Próiseáladh { $count } cárta...
     }
-importing-unable-to-import-filename = Níorbh fhéidir an comhad { $filename } a iompórtáil: ní ghlactar le comhaid den chineál sin
 importing-existing-notes = Nótaí atá ann cheana
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Bíodh an dá cheann ann
@@ -164,3 +154,26 @@ importing-update = Nuashonraigh
 importing-tag-all-notes = Cuir clib le gach nóta
 importing-tag-updated-notes = Cuir clib le nótaí a nuashonraíodh
 importing-file = Comhad
+# Used with the 'match scope' option
+importing-notetype-and-deck = Cineál nótaí agus paca
+importing-cards-added =
+    { $count ->
+        [one] Cuireadh { $count } chárta amháin leis.
+        [two] Cuireadh { $count } chárta leis.
+        [few] Cuireadh { $count } chárta leis.
+        [many] Cuireadh { $count } gcárta leis.
+       *[other] Cuireadh { $count } cárta leis.
+    }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Cnuasach á iompórtáil...
+importing-unable-to-import-filename = Níorbh fhéidir an comhad { $filename } a iompórtáil: ní ghlactar le comhaid den chineál sin
+importing-notes-that-could-not-be-imported =
+    Nótaí nár iompórtáladh de bharr athrú chineál nóta: { $val ->
+        [one] { $val } cheann amháin
+        [two] { $val } cheann
+        [few] { $val } cinn
+        [many] { $val } gcinn
+       *[other] { $val } ceann
+    }

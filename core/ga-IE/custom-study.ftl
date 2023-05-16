@@ -8,7 +8,7 @@ custom-study-custom-study-session = Seisiún Staidéir ar Leith
 custom-study-due-cards-only = Cártaí 'le staidéar' amháin
 custom-study-increase-todays-new-card-limit = Ardaigh uasmhéid cártaí nua an lae inniu
 custom-study-increase-todays-new-card-limit-by = Ardaigh uasmhéid cártaí nua an lae inniu faoi
-custom-study-increase-todays-review-card-limit = Ardaigh uasmhéid athbhreithniithe cártaí an lae inniu
+custom-study-increase-todays-review-card-limit = Ardaigh uasmhéid athbhreithnithe cártaí an lae inniu
 custom-study-increase-todays-review-limit-by = Ardaigh uasmhéid athbhreithnithe cártaí an lae inniu faoi
 custom-study-new-cards-only = Cártaí nua amháin
 custom-study-no-cards-matched-the-criteria-you = Níl aon cárta ann a thagann leis na sainithe a luaigh tú.
@@ -35,7 +35,7 @@ custom-study-available-child-count =
        *[other] ({ $count } ceann i bhfophacaí)
     }
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Cártaí nua ar fáil: { $count }
 custom-study-available-review-cards = Cártaí athbhreithnithe ar fáil: { $count }
