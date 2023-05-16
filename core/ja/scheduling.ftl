@@ -91,8 +91,8 @@ scheduling-new-options-group-name = 新しいオプショングループ名:
 scheduling-options-group = オプショングループ
 scheduling-order = 順番
 scheduling-parent-limit = (元の最大出題数は { $val })
-scheduling-reset-counts = 学習頻度と忘却回数をリセット
-scheduling-restore-position = 可能な限り元の位置を復元する
+scheduling-reset-counts = 学習回数と忘却回数をリセット
+scheduling-restore-position = 可能な限り元の位置を復元
 scheduling-review = 復習
 scheduling-reviews = 復習
 scheduling-seconds = 秒
@@ -127,5 +127,5 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-       *[other] { $cards }枚のカードをリセットしました。
+       *[other] { $cards }枚のカードの学習進度をリセットしました。
     }
