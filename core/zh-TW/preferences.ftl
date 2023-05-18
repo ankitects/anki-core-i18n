@@ -56,6 +56,7 @@ preferences-appearance = 外觀
 preferences-general = 一般
 preferences-style = 樣式
 preferences-review = 複習
+preferences-answer-keys = 回答按鍵
 preferences-distractions = 減少干擾
 preferences-minimalist-mode = 極簡模式
 preferences-editing = 編輯
@@ -69,6 +70,7 @@ preferences-import-export = 匯入/匯出
 preferences-network-timeout = 網路逾時
 preferences-reset-window-sizes = 重設視窗大小
 preferences-reset-window-sizes-complete = 已重設視窗大小及位置。
+preferences-shortcut-placeholder = 輸入一個未使用的快速鍵，或留空以停用。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
