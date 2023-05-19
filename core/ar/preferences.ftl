@@ -58,6 +58,7 @@ preferences-appearance = المظهر
 preferences-general = عام
 preferences-style = النمط
 preferences-review = المراجعة
+preferences-answer-keys = أزرار الإجابة
 preferences-distractions = المشتتات
 preferences-minimalist-mode = الوضع المبسط
 preferences-editing = تحرير
@@ -71,6 +72,7 @@ preferences-import-export = الاستيراد/التصدير
 preferences-network-timeout = مهلة الشبكة
 preferences-reset-window-sizes = تصفير أحجام النوافذ
 preferences-reset-window-sizes-complete = تم تصفير أحجام النوافذ ومواقعها.
+preferences-shortcut-placeholder = أدخل اختصارًا غير مستخدم أو اترك الحقل فارغًا لتعطيله.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
