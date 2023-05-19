@@ -19,6 +19,7 @@ preferences-preferences = העדפות
 preferences-scheduling = תזמון
 preferences-show-learning-cards-with-larger-steps = הצג כרטיסים בלמידה שיש להם צעדים גדולים, לפני החזרות
 preferences-show-next-review-time-above-answer = הצג את זמן החזרה הבאה מעל כפתורי התשובה
+preferences-spacebar-rates-card = לחיצה על מקש הרווח למענה תשובות
 preferences-show-play-buttons-on-cards-with = הצג כפתורי הפעלה על כרטיסים עם אודיו
 preferences-show-remaining-card-count = הצג את ספירת הכרטיסים שנותרו
 preferences-some-settings-will-take-effect-after = מספר הגדרות יחולו רק לאחר אתחול Anki.
@@ -57,6 +58,7 @@ preferences-appearance = מראה
 preferences-general = כללי
 preferences-style = עיצוב
 preferences-review = חזרה
+preferences-answer-keys = כפתורי תשובה
 preferences-distractions = הסחות דעת
 preferences-minimalist-mode = מצב מינימלי
 preferences-editing = עריכה
@@ -70,6 +72,7 @@ preferences-import-export = ייבוא/ייצוא
 preferences-network-timeout = פסק זמן לרשת
 preferences-reset-window-sizes = אפס גדלי חלונות
 preferences-reset-window-sizes-complete = גודלי ומיקומי החלונות אופסו.
+preferences-shortcut-placeholder = הכנס קיצור מקשים שאין לו שימוש נוסף, או השאר ריק כדי להשבית את הקיצור.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
