@@ -50,7 +50,7 @@ actions-add-notetype = Aggiungi tipo di nota
 actions-remove-notetype = Rimuovi tipo di nota
 actions-update-notetype = Aggiorna tipo di nota
 actions-update-config = Aggiorna configurazione
-actions-card-info = Info carta
+actions-card-info = Info Carta
 actions-previous-card-info = Info Carta Precedente
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
