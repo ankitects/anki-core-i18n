@@ -8,4 +8,4 @@ adding-shortcut = 快速鍵：{ $val }
 adding-the-first-field-is-empty = 第一個欄位是空的。
 adding-you-have-a-cloze-deletion-note = 正在使用克漏字筆記類型，但尚未加入空格。繼續？
 adding-cloze-outside-cloze-notetype = 只能在克漏字筆記類型中建立空格。
-adding-cloze-outside-cloze-field = 克漏字空格只能用於使用了 'cloze:' 篩選器的欄位。通常為第一個欄位
+adding-cloze-outside-cloze-field = 克漏字空格只能用於使用了「cloze:」篩選器的欄位。通常為第一個欄位

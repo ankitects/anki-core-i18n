@@ -2,7 +2,7 @@
 card-templates-blank = 空格
 card-templates-changes-will-affect-notes =
     { $count ->
-       *[other] 在下方做出的更動將影響 { $count } 則正在使用此卡片類型的筆記。
+       *[other] 以下更動將影響 { $count } 則正在使用此卡片類型的筆記。
     }
 card-templates-card-type = 卡片類型：
 card-templates-front-template = 正面模板
@@ -19,11 +19,11 @@ card-templates-night-mode = 夜間模式
 # on a mobile device.
 card-templates-add-mobile-class = 預覽行動裝置模板
 card-templates-preview-settings = 選項
-card-templates-invalid-template-number = 卡片模板 { $number } 存在問題。
+card-templates-invalid-template-number = 筆記類型「{ $notetype }」的卡片模板 { $number } 存在問題。
 card-templates-identical-front = 正面與卡片模板 { $number } 相同。
-card-templates-no-front-field = 卡片模板正面應有欄位替換。
-card-templates-missing-cloze = 卡片正面和背面應有'{ "{{" }cloze:Text{ "}}" }'或類似的文字。
-card-templates-extraneous-cloze = 'cloze:'只能用於克漏字筆記類型。
+card-templates-no-front-field = 卡片模板正面應包含欄位替換。
+card-templates-missing-cloze = 卡片正面和背面應包含「{ "{{" }cloze:Text{ "}}" }」或類似的內容。
+card-templates-extraneous-cloze = 「cloze:」只能用於克漏字筆記類型。
 card-templates-see-preview = 查看預覽以取得更多資訊。
 card-templates-changes-saved = 已儲存更動。
 card-templates-discard-changes = 捨棄所作更動
@@ -53,7 +53,7 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] 將建立 { $count } 張卡片。繼續？
     }
-card-templates-type-boxes-warning = 一個卡片模板中僅支援加入一個文字框。
+card-templates-type-boxes-warning = 每個卡片模板僅支援一個輸入框。
 card-templates-restore-to-default = 回復預設
 card-templates-restore-to-default-confirmation = 這將會重設此筆記類型中的所有欄位和模板為預設值，任何自訂樣式、額外欄位/模板及其中的內容都將被移除。要繼續嗎？
 card-templates-restored-to-default = 已將筆記類型回復至預設狀態。
