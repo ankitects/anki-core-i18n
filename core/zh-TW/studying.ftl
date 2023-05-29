@@ -7,7 +7,7 @@ studying-bury = 暫停
 studying-bury-card = 暫停卡片
 studying-bury-note = 暫停筆記
 studying-card-suspended = 已擱置卡片。
-studying-card-was-a-leech = 卡片曾為榨時卡。
+studying-card-was-a-leech = 卡片曾為低效卡。
 studying-cards-buried =
     { $count ->
        *[other] 已暫停 { $count } 張卡片。

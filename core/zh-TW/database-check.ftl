@@ -10,7 +10,7 @@ database-check-new-card-high-due = 已找到 { $count } 張到期序號 >= 1,000
 database-check-card-missing-note = 已刪除 { $count } 張遺失筆記的卡片。
 database-check-duplicate-card-ords = 已刪除 { $count } 張模板重複的卡片。
 database-check-missing-decks = 已修正 { $count } 個缺失的牌組。
-database-check-revlog-properties = 已修正 { $count } 張包含無效內容的複習卡。
+database-check-revlog-properties = 已修正 { $count } 次包含無效屬性的複習。
 database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] 已修正 { $count } 則帶有無效 utf8 字元的筆記。
@@ -20,7 +20,7 @@ database-check-fixed-invalid-ids =
        *[other] 已修正 { $count } 個具有未來時間戳記的物件。
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = 有一或多個筆記類型遺失。這些類型已被「db-check」開頭的類型取代，但欄位名稱和卡片設計已遺失，建議回復自動備份。
+database-check-notetypes-recovered = 有一或多個筆記類型遺失。這些類型已被「db-check」開頭的筆記類型取代，但欄位名稱和卡片設計已遺失，建議回復自動備份。
 
 ## Progress info
 
