@@ -199,7 +199,7 @@ deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡練�
 
 ## Selecting a deck
 
-deck-config-which-deck = 請選擇牌組
+deck-config-which-deck = 要顯示哪一個牌組的選項？
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
