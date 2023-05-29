@@ -14,7 +14,7 @@ browsing-buried = 已暫停
 browsing-card = 卡片
 browsing-cards = 卡片
 browsing-card-list = 卡片清單
-browsing-cards-cant-be-manually-moved-into = 卡片無法手動移動到篩選牌組
+browsing-cards-cant-be-manually-moved-into = 卡片無法被手動移動到篩選牌組
 browsing-cards-deleted =
     { $count ->
        *[other] 已刪除 { $count } 張卡片。
@@ -25,7 +25,7 @@ browsing-change-note-type = 更改筆記類型
 browsing-change-note-type2 = 更改筆記類型...
 browsing-change-notetype = 更改筆記類型
 browsing-clear-unused-tags = 清理未使用的標籤
-browsing-confirm-saved-search-overwrite = 已經存在名稱為 { $name } 的搜尋條件。要覆寫它嗎？
+browsing-confirm-saved-search-overwrite = 已經存在名稱為「{ $name }」的搜尋條件。要覆寫它嗎？
 browsing-created = 建立日期
 browsing-current-deck = 當前牌組
 browsing-current-note-type = 當前筆記類型：
