@@ -142,7 +142,7 @@ deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 不要自動播放音訊
 deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕，或使用播放音訊動作來手動播放。
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
-deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行播放動作時將不會同時播放問題面上的音訊。
+deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行播放動作時，將不會同時播放問題面上的音訊。
 
 ## Advanced section
 
@@ -153,7 +153,7 @@ deck-config-easy-bonus-tooltip = 回答 `簡單` 後，額外對複習間隔套�
 deck-config-interval-modifier-tooltip = 此乘數套用於所有複習卡，對其稍作修改能使 Anki 排程更為保守/激進。請在更改此選項前參閱使用手冊。
 deck-config-hard-interval-tooltip = 回答 `困難` 後，對複習間隔套用的乘數。
 deck-config-new-interval-tooltip = 回答 `重來` 後，對複習間隔套用的乘數。
-deck-config-minimum-interval-tooltip = 複習卡回答 `困難` 後的最小間隔。
+deck-config-minimum-interval-tooltip = 複習卡回答 `重来` 後的最小間隔。
 deck-config-custom-scheduling = 自訂排程
 deck-config-custom-scheduling-tooltip = 影響整個集合。請謹慎使用！
 
@@ -180,7 +180,7 @@ deck-config-revert-button-tooltip = 將此設定回復為預設值。
 ## overview screen.
 
 deck-config-description-new-handling = Anki 2.1.41+ 處理方式
-deck-config-description-new-handling-hint = 以 Markdown 語言輸入，並清除 HTML 輸入。當啟用時，描述也會在恭喜畫面顯示。Markdown 在 Anki 2.1.40及以下版本將以純文字出現。
+deck-config-description-new-handling-hint = 以 Markdown 語言輸入，並清除 HTML 輸入。啟用後，描述也會在恭喜畫面顯示。Markdown 在 Anki 2.1.40 及以下版本將以純文字出現。
 
 ## Warnings shown to the user
 
