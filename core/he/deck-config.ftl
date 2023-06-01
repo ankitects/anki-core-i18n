@@ -145,7 +145,7 @@ deck-config-new-gather-priority-tooltip-2 =
     `כרטיסים אקראיים`: אוסף כרטיסים באופן אקראי לחלוטין.
 deck-config-new-gather-priority-deck = חפיסה
 deck-config-new-gather-priority-position-lowest-first = סדר עולה
-deck-config-new-gather-priority-position-highest-first = סדר עולה
+deck-config-new-gather-priority-position-highest-first = סדר יורד
 deck-config-new-gather-priority-random-notes = רשומות אקראיות
 deck-config-new-gather-priority-random-cards = כרטיסים אקראיים
 deck-config-new-card-sort-order = סדר מיון כרטיסים חדש
