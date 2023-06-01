@@ -307,7 +307,7 @@ deck-config-maximum-answer-secs-above-recommended = يجدول أنكي مراج
 
 ## Selecting a deck
 
-deck-config-which-deck = ما الرزمة التي تريدها؟
+deck-config-which-deck = ما الرزمة التي تريد عرض خياراتها؟
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
