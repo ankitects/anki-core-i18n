@@ -19,6 +19,7 @@ preferences-preferences = Einstellungen
 preferences-scheduling = Zeitplanung
 preferences-show-learning-cards-with-larger-steps = Lernkarten mit größeren Lernstufen vor Wiederholungskarten zeigen
 preferences-show-next-review-time-above-answer = Zeit für nächste Wiederholung über Antworttaste anzeigen
+preferences-spacebar-rates-card = Leertaste (oder Eingabetaste) beantwortet auch die Karte
 preferences-show-play-buttons-on-cards-with = Wiedergabesteuerelemente auf Karten mit Audiodateien anzeigen
 preferences-show-remaining-card-count = Anzahl restlicher Karten zeigen
 preferences-some-settings-will-take-effect-after = Einige Einstellungen werden erst nach einem Neustart von Anki wirksam.
@@ -55,6 +56,7 @@ preferences-appearance = Erscheinungsbild
 preferences-general = Allgemein
 preferences-style = Stil
 preferences-review = Revision
+preferences-answer-keys = Antworttasten
 preferences-distractions = Ablenkungen
 preferences-minimalist-mode = Minimalistischer Modus
 preferences-editing = Bearbeiten
@@ -68,6 +70,7 @@ preferences-import-export = Import/Export
 preferences-network-timeout = Netzwerkzeitüberschreitung
 preferences-reset-window-sizes = Fenstergrößen zurücksetzen
 preferences-reset-window-sizes-complete = Fenstergrößen und -orte wurden zurückgesetzt.
+preferences-shortcut-placeholder = Eine unbenutzte Tastenkombination eingeben, oder leer lassen um zu deaktivieren.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

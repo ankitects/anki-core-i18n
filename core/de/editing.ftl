@@ -67,6 +67,8 @@ editing-mathjax-preview = MathJax-Vorschau
 editing-shrink-images = Bilder verkleinern
 editing-close-html-tags = HTML-Tags automatisch schließen
 editing-from-clipboard = Aus der Zwischenablage
+editing-alignment = Ausrichtung
+editing-equations = Gleichungen
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
