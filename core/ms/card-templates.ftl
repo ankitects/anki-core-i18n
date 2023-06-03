@@ -42,7 +42,16 @@ card-templates-flip = Pusingkan
 card-templates-form = Borang
 card-templates-off = (tutup)
 card-templates-on = (buka)
+card-templates-remove-card-type = Buang Jenis Kad...
+card-templates-rename-card-type = Nama Semula Jenis Kad...
+card-templates-reposition-card-type = Posisi Semula Jenis Kad...
 card-templates-card-count =
     { $count ->
        *[other] { $count } kad
     }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+       *[other] Akan cipta { $count } kad. Teruskan?
+    }
+card-templates-type-boxes-warning = Hanya satu kotak menaip per templat kad disokong.
+card-templates-restore-to-default = Pulih Lalai
