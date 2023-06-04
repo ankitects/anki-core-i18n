@@ -38,6 +38,7 @@ importing-multicharacter-separators-are-not-supported-please = Разделит�
 importing-notes-added-from-file = Записи, добавленные из файла: { $val }
 importing-notes-found-in-file = Записи, найденные в файле: { $val }
 importing-notes-skipped-as-theyre-already-in = Пропущенные записи, которые уже есть в коллекции: { $val }
+importing-notes-skipped-update-due-to-notetype = Записи не обновлены, потому что тип записи был изменён со времени первого импорта записей: { $val }
 importing-notes-updated-as-file-had-newer = Записи, которые обновлены: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Упакованная колода/коллекция Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)

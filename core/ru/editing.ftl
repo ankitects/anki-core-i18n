@@ -67,6 +67,8 @@ editing-mathjax-preview = Предпросмотр MathJax
 editing-shrink-images = Уменьшить изображения
 editing-close-html-tags = Закрывать теги HTML
 editing-from-clipboard = Из буфера обмена
+editing-alignment = Выравнивание
+editing-equations = Уравнения
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

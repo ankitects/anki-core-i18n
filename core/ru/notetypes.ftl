@@ -39,6 +39,13 @@ notetypes-type = Тип
 ## Image Occlusion
 
 notetypes-image = Изображение
+notetypes-occlusion = Скрытие
+notetypes-occlusion-mask = Маска
 notetypes-occlusion-note = Запись
 notetypes-comments-field = Комментарии
+notetypes-toggle-masks = Включить маски
+notetypes-image-occlusion-name = Скрытие части изображений
+notetypes-hide-all-guess-one = Спрятать всё, проверять одно
+notetypes-hide-one-guess-one = Спрятать одно, проверять одно
+notetypes-error-generating-cloze = Произошла ошибка при создании записи со скрытием
 notetype-error-no-image-to-show = Нет изображения

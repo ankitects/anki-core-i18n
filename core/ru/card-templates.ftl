@@ -62,4 +62,5 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-type-boxes-warning = Поддерживается только одно поле ввода в шаблоне карточки.
 card-templates-restore-to-default = Сбросить
+card-templates-restore-to-default-confirmation = Все поля и шаблоны этого типа записи будут сброшены до значений по умолчанию, а дополнительные поля, шаблоны и стили будут удалены. Продолжить?
 card-templates-restored-to-default = Типы записей восстановлены.

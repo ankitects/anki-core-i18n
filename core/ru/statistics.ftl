@@ -176,6 +176,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = С { $hourStart }:00 до { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } верных ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = { $reviews } повторений
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = { $percent }% правильных ({ $reviews })
 statistics-hours-title = По часам
 statistics-hours-subtitle = Доля удачных повторений в определенный час
 # shown when graph is empty
