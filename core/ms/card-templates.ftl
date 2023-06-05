@@ -56,6 +56,6 @@ card-templates-this-will-create-card-proceed =
 card-templates-type-boxes-warning = Hanya satu kotak menaip per templat kad disokong.
 card-templates-restore-to-default = Pulih Lalai
 card-templates-restore-to-default-confirmation =
-    Ini akan set semula semua medan dan templat dalam jenis nota ini kepada
+    Ini akan tetap semula semua medan dan templat dalam jenis nota ini kepada
     nilai lalai, buang medan/templat lebihan dan kandungannya, serta apa-apa penggayaan tersuai. Anda ingin teruskan?
 card-templates-restored-to-default = Jenis nota telah pulih ke keadaan asal.

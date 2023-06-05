@@ -27,7 +27,7 @@ deck-config-limit-deck-v3 =
     setiap subdek kawal bilangan maksimum kad diambil daripada dek tersebut.
     Had dek terpilih kawal jumlah kad yang akan ditunjuk.
 deck-config-limit-new-bound-by-reviews =
-    Had semakan mempengaruhi had baru. Contohnya, jika had semakan set
+    Had semakan mempengaruhi had baru. Contohnya, jika had semakan tetap
     kepada 200, dan anda mempunyai 190 semakan tunggak, maksimum sebanyak
     10 kad baru akan ditunjukkan. Jika had semakan anda tercapai, tiada kad baru akan
     ditunjuk.
@@ -70,12 +70,45 @@ deck-config-easy-interval-tooltip =
     Bilangan hari untuk tunggu sebelum tunjuk kad lagi, selepas butang `Senang`
     ditekan untuk keluarkan kad dari belajar serta merta.
 deck-config-new-insertion-order = Susunan masuk
+deck-config-new-insertion-order-tooltip =
+    Kawal posisi (# tunggak) kad baru yang ditetapkan apabila anda tambah kad baru.
+    Kad dengan nombor tunggak rendah akan ditunjukkan dahulu apabila ulang kaji.
+    Mengubah tetapan ini akan kemas kini posisi sedia kad baru secara automatik.
+deck-config-new-insertion-order-sequential = Berurutan (kad tertua dahulu)
+deck-config-new-insertion-order-random = Rawak
+deck-config-new-insertion-order-random-with-v3 =
+    Dengan penjadual V3, lebih baik untuk biarkan ini tetap pada berurutan, dan
+    sebaliknya ubah susunan pungutan kad baru.
 
 ## Lapses section
 
+deck-config-relearning-steps = Langkah belajar semula
+deck-config-relearning-steps-tooltip =
+    Kosong atau lebih tundaan, diasingkan oleh ruang kosong. Secara lalai, tekan butang
+    `Ulang` pada kad semakan akan tunjukkannya lagi 10 minit kemudian. Jika tiada
+    tundaan diberikan, seling kad tersebut akan diubah, tanpa belajar semula.
+    { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Bilangan kali `Ulang`  perlu ditekan pada kad semakan sebelum ditanda lintah.
+    Lintah adalah kad yang memakan banyak masa anda, dan apabila suatu kad
+    ditanda lintah, digalakkan untuk sunting semula, padam atau cipta mnemonik
+    bagi membantu anda mengingatinya.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Tag Sahaja`: Tanda "leech" pada nota, dan paparkan pop timbul.
+    
+    `Bekukan Kad`: Selain daripada tanda nota, bekukan kad sehingga ia
+    diaktifkan secara manual.
 
 ## Burying section
 
+deck-config-bury-title = Sorok
+deck-config-bury-new-siblings = Sorok adik beradik baru
+deck-config-bury-review-siblings = Sork adik beradik semakan
+deck-config-bury-interday-learning-siblings = Sork adik beradik belajar berhari
+deck-config-bury-new-tooltip =
+    Sama ada kad `baru` lain nota yang sama (cth kad terbalik, penghapusan kloz bersebelahan)
+    akan ditunda sehingga hari esok.
 
 ## Ordering section
 
