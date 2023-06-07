@@ -180,3 +180,4 @@ statistics-average-ease = 平均輕鬆度
 statistics-save-pdf = 儲存為 PDF 檔
 statistics-saved = 已儲存。
 statistics-stats = 統計
+statistics-title = 統計資料
