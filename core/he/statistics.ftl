@@ -220,3 +220,4 @@ statistics-average-ease = קלות ממוצעת
 statistics-save-pdf = שמור כ-PDF
 statistics-saved = נשמר.
 statistics-stats = סטטיסטיקה
+statistics-title = סטטיסטיקה
