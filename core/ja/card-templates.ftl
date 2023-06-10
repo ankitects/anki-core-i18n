@@ -9,7 +9,7 @@ card-templates-front-preview = 表面のプレビュー
 card-templates-back-preview = 裏面のプレビュー
 card-templates-preview-box = プレビュー
 card-templates-template-box = テンプレート
-card-templates-sample-cloze = これは穴埋め問題の { "{{c1::" }サンプル{ "}}" } です。
+card-templates-sample-cloze = これは穴埋め問題の{ "{{c1::" }サンプル{ "}}" }です。
 card-templates-fill-empty = 空欄のフィールドを埋める
 card-templates-night-mode = 夜間モード
 # Add "mobile" class to card preview, so the card appears like it would
@@ -28,9 +28,9 @@ card-templates-add-card-type = カードタイプを追加...
 card-templates-anki-couldnt-find-the-line-between = Anki は質問と答えの間に罫線を見つけられませんでした。質問と答えを切り替えるには、テンプレートを手動で調整してください。
 card-templates-at-least-one-card-type-is = 最低一つのカードタイプが必要です。
 card-templates-browser-appearance = 検索リストでの表示設定...
-card-templates-card = Card { $val }
+card-templates-card = カード { $val }
 card-templates-card-types-for = 「{ $val }」が使用するカードタイプ
-card-templates-cloze = Cloze { $val }
+card-templates-cloze = 穴埋め { $val }
 card-templates-deck-override = デッキ選択を上書き...
 card-templates-delete-the-as-card-type-and = カードタイプ「{ $template }」とその { $cards } を削除しますか？
 card-templates-enter-deck-to-place-new = カードタイプ { $val } から生成される新規カードを追加するデッキを選択してください。ここでデッキを選択すると、「追加」ウィンドウでのデッキの選択は無視されます。未選択（空欄）のままにしておくこともできます。
@@ -50,3 +50,4 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] { $count }枚のカードが作成されます。続行しますか？
     }
+card-templates-restore-to-default = デフォルトに戻す
