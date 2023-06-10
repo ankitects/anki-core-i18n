@@ -51,3 +51,4 @@ card-templates-this-will-create-card-proceed =
        *[other] { $count }枚のカードが作成されます。続行しますか？
     }
 card-templates-restore-to-default = デフォルトに戻す
+card-templates-restore-to-default-confirmation = この操作を行うと、このノートタイプに含まれるすべてのフィールドとテンプレートの設定が初期状態にリセットされます。追加したフィールドやテンプレート、それらの内容、スタイリングの変更はいずれも削除されます。本当にこのまま操作を行ってよろしいですか？
