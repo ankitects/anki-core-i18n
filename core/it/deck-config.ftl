@@ -134,7 +134,7 @@ deck-config-new-gather-priority-tooltip-2 =
     `Casuale (note)`: seleziona delle note in maniera casuale e quindi ne raccoglie le carte. 
     Se la sepoltura delle carte sorelle è disabilitata, ciò permette di vedere tutte le carte di una nota in una singola sessione (es. sia la carta fronte→retro che la carta retro→fronte).
     
-    `Casuale (carte)`: raccoglie carte in maniera completamente casuale.
+    `Casuale (carte)`: raccoglie le carte in maniera completamente casuale.
 deck-config-new-gather-priority-deck = Mazzo
 deck-config-new-gather-priority-position-lowest-first = Ordine per posizione crescente
 deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
