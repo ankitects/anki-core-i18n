@@ -271,3 +271,4 @@ statistics-average-ease = معدل السهولة
 statistics-save-pdf = حفظ كـ PDF
 statistics-saved = تم الحفظ.
 statistics-stats = إحصائيات
+statistics-title = إحصائيات
