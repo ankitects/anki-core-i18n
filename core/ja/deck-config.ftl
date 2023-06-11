@@ -79,10 +79,10 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 当日の学習をパス
 deck-config-bury-new-siblings = 兄弟関係の新規カードを当日はパスする
 deck-config-bury-review-siblings = 兄弟関係の復習カードを当日はパスする
-deck-config-bury-interday-learning-siblings = 日付をまたいだ、兄弟関係の習得中カードを当日はパスする
+deck-config-bury-interday-learning-siblings = 兄弟関係の習得中カード（学習間隔１日超）を当日はパスする
 deck-config-bury-new-tooltip = ある日に学習したカードに兄弟（同じノートから作られたカード〈例：裏表反転カード、別の箇所の穴埋め問題カード〉）がいて、その兄弟が`新規`カードである場合、その兄弟を表示する順番がきたとしても当日中は表示を行わず、翌日に延期します。
 deck-config-bury-review-tooltip = ある日に学習したカードに兄弟（同じノートから作られたカード〈例：裏表反転カード、別の箇所の穴埋め問題カード〉）がいて、その兄弟が`復習`カードである場合、その兄弟を表示する期日に達していても当日中は表示を行わず、翌日に延期します。
-deck-config-bury-interday-learning-tooltip = ある日に学習したカードに兄弟（同じノートから作られたカード〈例：裏表反転カード、別の箇所の穴埋め問題カード〉）がいて、その兄弟が`習得中`カードであり、学習間隔が１日よりも長い段階にいる場合、その兄弟を表示する時間になったとしても当日中は表示を行わず、翌日に延期します。
+deck-config-bury-interday-learning-tooltip = ある日に学習したカードに兄弟（同じノートから作られたカード〈例：裏表反転カード、別の箇所の穴埋め問題カード〉）がいて、その兄弟が`習得中`カードであり、学習間隔が１日（つまり、24時間）よりも長い段階に達している場合であれば、その兄弟を表示する時間になったとしても当日中は表示を行わず、翌日に延期します。
 
 ## Ordering section
 
