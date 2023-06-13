@@ -241,14 +241,14 @@ deck-config-custom-scheduling-tooltip = משפיע על כל האוסף. השת�
 
 ## Adding/renaming
 
-deck-config-add-group = הוסף תיאור
+deck-config-add-group = הוסף קבוצת הגדרות
 deck-config-name-prompt = שם
-deck-config-rename-group = שנה תיאור
-deck-config-clone-group = שכפל תיאור
+deck-config-rename-group = שנה קבוצת הגדרות
+deck-config-clone-group = שכפל קבוצת הגדרות
 
 ## Removing
 
-deck-config-remove-group = הסר תיאור
+deck-config-remove-group = הסר קבוצת הגדרות
 deck-config-will-require-full-sync =
     השינוי המבוקש ידרוש סנכרון חד כיווני. אם ביצעת שינויים
     במכשיר אחר, וטרם סנכרנת אותם למכשיר זה, אנא עשה זאת לפני
