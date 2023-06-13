@@ -5,7 +5,7 @@ preferences-changes-will-take-effect-when-you = Ankiを再起動させると変�
 preferences-hours-past-midnight = 時
 preferences-language = 言語
 preferences-interrupt-current-audio-when-answering = 解答時に音声を中断する
-preferences-learn-ahead-limit = 習得学習の前倒し可能時間
+preferences-learn-ahead-limit = 習得学習の前倒し許容時間
 preferences-mins = 分
 preferences-network = ネットワーク
 preferences-next-day-starts-at = 日付更新時刻
@@ -25,7 +25,7 @@ preferences-some-settings-will-take-effect-after = Anki を再起動した後に
 preferences-tab-synchronisation = 同期
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>同期</b><br> 現在有効になっていません。有効にするにはメインウィンドウの同期ボタンを押してください。
 preferences-synchronize-audio-and-images-too = 音声と画像も同期する
-preferences-timebox-time-limit = タイムボックスの時間枠
+preferences-timebox-time-limit = タイムボックス（学習時間の目標・区切り）
 preferences-user-interface-size = ユーザーインターフェースのサイズ
 preferences-when-adding-default-to-current-deck = カード追加の時、現在のデッキを既定にする
 preferences-you-can-restore-backups-via-fileswitch = 「ファイル」→「プロファイル切替」でバックアップを復元することができます。
@@ -52,6 +52,7 @@ preferences-full-screen-only = 全画面表示のみ
 preferences-appearance = 表示
 preferences-general = 一般
 preferences-review = 学習
+preferences-answer-keys = キーボード回答
 preferences-distractions = 集中の妨げとなる場合の対策
 preferences-minimalist-mode = ミニマリストモード
 preferences-editing = 編集
@@ -62,6 +63,7 @@ preferences-note = 注意
 preferences-user-interface = ユーザーインターフェース
 preferences-import-export = インポート／エクスポート
 preferences-network-timeout = ネットワークタイムアウト
+preferences-shortcut-placeholder = 他のショートカットに使用されていないキーを入力するか、空欄（ショートカットなし）にしてください。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
