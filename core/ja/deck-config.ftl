@@ -190,9 +190,9 @@ deck-config-reviews-too-low =
     新規カードを毎日{ $cards ->
        *[other] { $cards }枚導入し、各カードの学習を継続していくには、
     }一日あたりのカード出題枚数の上限を、{ $expected }枚か、それより多い枚数とするのが妥当です。
-deck-config-learning-step-above-graduating-interval = 習得修了から復習開始までの間隔は、最後の習得ステップの間隔より長くする（少なくとも同じにする）ことをお勧めします。
+deck-config-learning-step-above-graduating-interval = 習得ステップ修了から復習開始までの間隔は、最後の習得ステップの間隔より長くする（少なくとも同じにする）ことをお勧めします。
 deck-config-good-above-easy = 「簡単」と回答してから復習開始までの間隔は、習得修了から復習開始までの間隔より長くする（少なくとも同等にする）ことをお勧めします。
-deck-config-relearning-steps-above-minimum-interval = 再習得修了から復習再開までの間隔は、最後の再習得ステップの間隔より長くする（少なくとも同じにする）ことをお勧めします。
+deck-config-relearning-steps-above-minimum-interval = 再習得ステップ修了から復習再開までの最短間隔は、最後の再習得ステップの間隔より長くする（少なくとも同じにする）ことをお勧めします。
 deck-config-maximum-answer-secs-above-recommended = 質問を短くすることで、Ankiはより効率的な復習をスケジュールすることができます。
 
 ## Selecting a deck
