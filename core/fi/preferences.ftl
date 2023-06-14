@@ -19,6 +19,7 @@ preferences-preferences = Asetukset
 preferences-scheduling = Ajastus
 preferences-show-learning-cards-with-larger-steps = Näytä opittavat kortit joilla on suuremmat askeleet ennen kertausta
 preferences-show-next-review-time-above-answer = Näytä seuraava kertausaika vastauspainikkeiden yläpuolella
+preferences-spacebar-rates-card = Välilyöntiä (ja enteriä) voi myös käyttää vastaamiseen
 preferences-show-play-buttons-on-cards-with = Näytä toistopainike korteissa, joissa on ääni
 preferences-show-remaining-card-count = Näytä jäljellä olevien korttien määrä
 preferences-some-settings-will-take-effect-after = Osa asetuksista tulee voimaan vasta Ankin uudelleenkäynnistyksen jälkeen.
@@ -57,6 +58,7 @@ preferences-appearance = Ulkoasu
 preferences-general = Yleiset
 preferences-style = Tyyli
 preferences-review = Kertaus
+preferences-answer-keys = Vastauspainikkeet
 preferences-distractions = Häiriöt
 preferences-minimalist-mode = Minimalistinen tila
 preferences-editing = Muokkaus
@@ -70,6 +72,7 @@ preferences-import-export = Tuonti/Vienti
 preferences-network-timeout = Verkon aikakatkaisu
 preferences-reset-window-sizes = Nollaa ikkunoiden koot
 preferences-reset-window-sizes-complete = Ikkunoiden koot ja sijainnit on nollattu.
+preferences-shortcut-placeholder = Syötä käyttämätön pikanäppäin tai jätä tyhjäksi, jos haluat poistaa pikanäppäimen käytöstä.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

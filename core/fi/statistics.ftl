@@ -150,6 +150,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }.00–{ $hourEnd }.00
 statistics-hours-correct = { $correct }/{ $total } oikein ({ $percent } %)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } kertausta
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent } % oikein ({ $reviews })
 statistics-hours-title = Tuntijakauma
 statistics-hours-subtitle = Kertausten onnistumisaste tunneittain.
 # shown when graph is empty
@@ -200,3 +204,4 @@ statistics-average-ease = Keskimääräinen helppous
 statistics-save-pdf = Tallenna PDF
 statistics-saved = Tallennettu.
 statistics-stats = tilastot
+statistics-title = Tilastot

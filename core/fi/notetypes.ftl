@@ -50,3 +50,4 @@ notetypes-hide-one-guess-one = Piilota yksi, arvaa yksi
 notetypes-error-generating-cloze = Kuvan peittämis -muistiinpanoa luotaessa tapahtui virhe
 notetypes-error-getting-imagecloze = Kuvan peittämis -muistiinpanoa haettaessa tapahtui virhe.
 notetypes-error-loading-image-occlusion = Virhe kuvan peittämis -tehtävän lataamisessa. Onko Anki-versiosi ajan tasalla?
+notetype-error-no-image-to-show = Ei kuvaa näytettäväksi.
