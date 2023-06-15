@@ -205,3 +205,4 @@ statistics-average-ease = Facilitat mitjana
 statistics-save-pdf = Guarda en PDF
 statistics-saved = Guardat.
 statistics-stats = estadístiques
+statistics-title = Estadístiques
