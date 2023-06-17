@@ -1,62 +1,90 @@
 browsing-add-notes = Legg til notater...
-browsing-add-tags = Legg til etiketter
 browsing-add-tags2 = Legg til etiketter...
-browsing-added-today = Lagt til i dag
-browsing-again-today = Gjenta idag
-browsing-all-card-types = Alle korttyper
+browsing-addon = Tillegg
 browsing-all-fields = Alle felt
 browsing-answer = Svar
-browsing-any-cards-mapped-to-nothing-will = Kort som ikke har koblinger, vil bli slettet. Hvis et notat ikke har kobling til noe kort, fjernes det. Er du sikker på at du vil fortsette?
 browsing-any-flag = Ethvert flagg
-browsing-browser-options = Alternativer for nettleser
+browsing-average-ease = Gj.snittlig vanskelighetsgrad
+browsing-average-interval = Gj.snittlig intervall
+browsing-browser-appearance = Utseende på utforskeren
+browsing-browser-options = Alternativer for utforskeren
 browsing-buried = Begravde
 browsing-card = Kort
+browsing-cards = Kort
 browsing-card-list = Kortliste
 browsing-cards-cant-be-manually-moved-into = Kortene kan ikke flyttes til en sortert stokk manuelt.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } kort slettet.
+       *[other] { $count } kort slettet.
+    }
 browsing-change-deck = Endre kortstokk
 browsing-change-deck2 = Endre kortstokk...
 browsing-change-note-type = Endre Notattype
 browsing-change-note-type2 = Endre Notattype...
-browsing-change-to = Endre { $val } til:
+browsing-clear-unused-tags = Fjern ubrukte etiketter
+browsing-confirm-saved-search-overwrite = Det eksisterer allerede et lagret søk med navnet { $name }. Vil du overskrive det?
 browsing-created = Opprettet
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = Nåværende kortstokk
 browsing-current-note-type = Nåverende notattype:
 browsing-delete-notes = Slett Notater
-browsing-delete-tags = Ta bort etiketter
-browsing-duplicate = duplikat
-browsing-ease = Innlæringsgrad
-browsing-end = Slutt
+browsing-duplicate = dupliser
+browsing-ease = Vanskelighetsgrad
 browsing-enter-tags-to-add = Skriv inn etiketter som skal legges til:
 browsing-enter-tags-to-delete = Skriv inn hvilke etiketter som skal tas bort
 browsing-filtered = (filtrert)
 browsing-find = <b>Finn</b>:
 browsing-find-and-replace = Søk og erstatt
-browsing-find-duplicates = Find Duplikater
-browsing-first-card = Første Kort
+browsing-find-duplicates = Find duplikater
+browsing-first-card = Første kort
 browsing-flag = Flagg
 browsing-font = <b>Font</b>:
 browsing-font-size = <b>Fontstørrelse</b>:
-browsing-home = Hjem
+browsing-found-as-across-bs = Fant { $part } på tvers av { $whole }.
+browsing-ignore-case = Ignorer bokstavtype
 browsing-in = <b>I</b>:
 browsing-interval = Intervall
 browsing-last-card = Siste kortet
-browsing-learning = (lært)
+browsing-learning = (læres)
 browsing-line-size = <b>Linjestørrelse</b>:
-browsing-nd-names = { $num }: { $name }
+browsing-move-cards = Flytt kort
+browsing-move-cards-to-deck = Flytt kort til kortstokk:
 browsing-new = (ny)
+browsing-no-flag = Ingen flagg
 browsing-note = Notat
-browsing-nothing = Ingenting
+browsing-optional-filter = Valgfritt filter:
+browsing-override-back-template = Overstyr malen til baksiden:
+browsing-override-font = Overstyr font:
+browsing-override-front-template = Overstyr malen til forsiden:
+browsing-please-give-your-filter-a-name = Gi filteret ditt et navn:
+browsing-preview-selected-card = Forhåndsvis valgte kort ({ $val })
 browsing-question = Spørsmål
+browsing-queue-bottom = Nederste til kø: { $val }
+browsing-queue-top = Øverste til kø: { $val }
+browsing-randomize-order = Tilfeldig rekkefølge
+browsing-remove-tags = Fjern etiketter...
 browsing-replace-with = <b>Erstatt med</b>:
-browsing-reschedule = Lag ny plan
+browsing-reposition = Reposisjoner...
+browsing-reposition-new-cards = Reposisjoner nye kort
+browsing-reschedule = Nytt tidspunkt
 browsing-search-in = Søk i:
-browsing-step = Steg:
-browsing-suspended = Deaktivert
-browsing-today = I dag
+browsing-search-within-formatting-slow = Søk innenfor formatering (treg)
+browsing-shift-position-of-existing-cards = Endre posisjon til eksisterende kort
+browsing-sidebar = Sidestolpe
+browsing-sidebar-filter = Sidestolpefilter
+browsing-sort-field = Sorter felt
+browsing-sorting-on-this-column-is-not = Sortering i denne kolonnen støttes ikke. Vennligst velg en annen.
+browsing-start-position = Startposisjon:
+browsing-step = Trinn:
+browsing-suspended = Utvist
+browsing-tag-duplicates = Merk duplikater
+browsing-target-field = Målfelt:
+browsing-toggle-mark = Slå av/på markering
+browsing-toggle-suspend = Slå av/på utvisning
 browsing-treat-input-as-regular-expression = Behandle input som regular expression
-browsing-type-here-to-search = <skriv her for søk; trykk enter for å vise kortstokken>
+browsing-update-saved-search = Oppdater med nåværende søk
 browsing-whole-collection = Hele samlingen
+browsing-you-must-have-at-least-one = Du må ha minst en kolonne.
 browsing-group =
     { $count ->
         [one] { $count } gruppe
@@ -67,13 +95,22 @@ browsing-note-count =
         [one] { $count } notat
        *[other] { $count } notater
     }
-browsing-note-deleted =
+browsing-cards-updated =
     { $count ->
-        [one] { $count } notat slettet.
-       *[other] { $count } notater slettet.
+        [one] { $count } kort oppdatert.
+       *[other] { $count } kort oppdatert.
     }
-browsing-selected =
-    { $count ->
-        [one] { $count } valgt
-       *[other] { $count } valgt
-    }
+browsing-window-title = Bla gjennom ({ $selected } av { $total } valgte kort)
+browsing-sidebar-expand = Utvid
+browsing-sidebar-collapse = Fold sammen
+browsing-sidebar-expand-children = Utvid etterfølgere
+browsing-sidebar-collapse-children = Fold sammen etterfølgere
+browsing-sidebar-decks = Kortstokker
+browsing-sidebar-tags = Etiketter
+browsing-sidebar-saved-searches = Lagrede søk
+browsing-today = I dag
+browsing-added-today = Lagt til i dag
+browsing-again-today = Gjenta idag
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

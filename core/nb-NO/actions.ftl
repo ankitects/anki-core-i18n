@@ -1,6 +1,6 @@
 actions-add = Legg til
 actions-all-selected = Alle valgte
-actions-any-selected = Hvilken som helst valgt
+actions-any-selected = Enhver valgt
 actions-cancel = Avbryt
 actions-choose = Velg
 actions-close = Lukk
