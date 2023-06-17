@@ -3,8 +3,19 @@
 
 ## Media synchronization
 
+sync-media-added-count = Lagt til: { $up }↑ { $down }↓
 sync-media-removed-count = Fjernet: { $up }↑ { $down }↓
 sync-media-checked-count = Sjekket: { $count }
+sync-media-starting = Starter mediasynkronisering...
+sync-media-complete = Mediasynkronisering fullført.
+sync-media-failed = Mediasynkronisering feilet.
+sync-media-aborting = Avbryter mediasynkronisering...
+sync-media-aborted = Mediasynkronisering avbrutt.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
+sync-media-disabled = Mediasynkronisering deaktivert.
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Mediasynkroniseringslogg
 
 ## Error messages / dialogs
 
@@ -29,3 +40,5 @@ sync-uploading-to-ankiweb = Laster opp til AnkiWeb...
 sync-syncing = Synkroniserer …
 sync-checking = Sjekker...
 sync-connecting = Kobler til...
+sync-added-updated-count = Lagt til/endret: { $up }↑ { $down }↓
+sync-log-out-button = Logg av

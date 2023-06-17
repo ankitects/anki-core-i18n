@@ -108,9 +108,37 @@ browsing-sidebar-collapse-children = Fold sammen etterfølgere
 browsing-sidebar-decks = Kortstokker
 browsing-sidebar-tags = Etiketter
 browsing-sidebar-saved-searches = Lagrede søk
+browsing-sidebar-save-current-search = Lagre nåværende søk
+browsing-sidebar-card-state = Kortstatus
+browsing-sidebar-flags = Flagg
 browsing-today = I dag
-browsing-added-today = Lagt til i dag
-browsing-again-today = Gjenta idag
+browsing-tooltip-card-modified = Siste gang som det ble gjort endringer på et kort, inkludert gjennomgang, flagg og kortstokkendringer
+browsing-tooltip-card = Malen til kortet sitt navn
+browsing-studied-today = Studert
+browsing-added-today = Lagt til
+browsing-again-today = Gjenta
+browsing-edited-today = Endret
+browsing-sidebar-first-review = Første gjennomgang
+browsing-sidebar-rescheduled = Flyttet
+browsing-sidebar-due-today = Forfaller
+browsing-sidebar-untagged = Uten etikett
+browsing-sidebar-overdue = Forfalt
+browsing-row-deleted = (fjernet)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Fjernet { $count } ubrukt etikett.
+       *[other] Fjernet { $count } ubrukte etiketter.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Endret posisjonen til { $count } nytt kort.
+       *[other] Endret posisjonen til { $count } nye kort.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Ga nytt navn til { $count } kortstokk.
+       *[other] Ga nytt navn til { $count } kortstokker.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
