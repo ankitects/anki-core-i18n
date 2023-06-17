@@ -1,14 +1,14 @@
 actions-add = Legg til
-actions-blue-flag = Blått flagg
+actions-all-selected = Alle valgte
 actions-cancel = Avbryt
 actions-choose = Velg
 actions-close = Lukk
 actions-copy = Kopier
+actions-create-copy = Lag kopi
 actions-custom-study = Egen Studie:
 actions-decks = Kortstokker
 actions-delete = Slett
 actions-export = Eksporter
-actions-green-flag = Grønt Flagg
 actions-help = Hjelp
 actions-import = Importere
 actions-name = Navn:
@@ -19,3 +19,6 @@ actions-rename = Endre navn
 actions-rename-deck = Gi nytt navn til kortstokk
 actions-save = Lagre
 actions-search = Søk
+
+## Flags
+
