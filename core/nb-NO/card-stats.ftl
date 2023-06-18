@@ -23,7 +23,7 @@ card-stats-review-log-type-relearn = Lær på nytt
 card-stats-review-log-type-filtered = Filtrert
 card-stats-review-log-type-manual = Manuelt
 card-stats-no-card = (Ingen kort å vise.)
-card-stats-custom-data = Tilpasset data
+card-stats-custom-data = Brukertilpasset data
 
 ## Window Titles
 

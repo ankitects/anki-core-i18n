@@ -1,16 +1,25 @@
-decks-add-new-deck-ctrlandn = Legg til ny stokk (Ctrl+N)
-decks-are-you-sure-you-wish-to = Er du sikker på at du vil slette { $val }?
+decks-add-new-deck-ctrlandn = Legg til ny kortstokk (Ctrl+N)
 decks-build = Bygg
+decks-cards-selected-by = kort valgt etter
 decks-create-deck = Opprett kortstokk
+decks-custom-steps-in-minutes = Brukertilpassede trinn (i minutter)
 decks-deck = Kortstokk
-decks-decreasing-intervals = Synkende intervaller
+decks-decreasing-intervals = Avtagende intervaller
 decks-delete-deck = Slett kortstokk
+decks-enable-second-filter = Aktiver sekundært filter
+decks-filter = Filter:
+decks-filter-2 = Filter 2
+decks-get-shared = Hent delte
 decks-import-file = Importer fil
+decks-increasing-intervals = Økende intervaller
+decks-latest-added-first = Siste lagt til først
+decks-limit-to = Begrens til
 decks-minutes = minutter
+decks-new-deck-name = Nytt kortstokknavn:
 decks-no-deck = [ingen kortstokk]
+decks-oldest-seen-first = Eldste sett først
 decks-please-select-something = Du må velge noe.
+decks-random = Tilfeldig
 decks-study = Studer
-decks-it-has-card = { $count ->
-    [one]  Den har { $count } kort.
-   *[other]  Den har { $count } kort.
-  }
+decks-study-deck = Studer kortstokk
+decks-unmovable-cards = Vis ekskluderte kort
