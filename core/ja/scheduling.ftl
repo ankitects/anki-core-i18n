@@ -40,7 +40,7 @@ scheduling-today-review-limit-reached =
     復習カードはまだ残ってますが、今日の出題上限に達しました。
     適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。
 scheduling-today-new-limit-reached = まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。
-scheduling-buried-cards-found = 一枚かそれ以上のパスされたカードが明日表示されます。{ $unburyThem }することで、それらのカードをただちに表示することもできます。
+scheduling-buried-cards-found = 手動操作またはオプションによる自動操作によって、今日の学習をパス（延期）したカードがあり、それらのカードは明日表示されます。{ $unburyThem }することで、それらのカードをただちに表示することもできます。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = パスを取り消し
