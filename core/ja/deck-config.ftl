@@ -99,7 +99,7 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = 表示順序
 deck-config-new-gather-priority = 新規カードを集める順序
-deck-config-new-gather-priority-deck = デッキどうしの並び順（上から）
+deck-config-new-gather-priority-deck = デッキの並び順（上から）
 deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
 deck-config-new-gather-priority-position-highest-first = 位置（降順）
 deck-config-new-gather-priority-random-notes = ランダム（ノート単位）
