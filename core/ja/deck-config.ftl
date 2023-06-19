@@ -24,6 +24,7 @@ deck-config-tab-description =
     - `プリセット`: この上限は、このプリセットを使用する全てのデッキで共有されます。
     - `このデッキ`: この上限は、このデッキにのみ適用されます。
     - `今日だけ`: このデッキの上限を一時的に変更します。
+deck-config-new-cards-ignore-review-limit = 復習枚数の上限に関係なく新規カードを導入する
 deck-config-new-cards-ignore-review-limit-tooltip =
     デフォルト（このオプションがオフの状態）では、復習枚数の上限は、新規カード導入枚数も制限します。例えば、期日を迎えたカードの枚数が、復習枚数の上限に達している場合、その日に新規カードは導入されません。
     
@@ -97,8 +98,8 @@ deck-config-bury-priority-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = 表示順序
-deck-config-new-gather-priority = 新規カードを集めるときの優先順序
-deck-config-new-gather-priority-deck = デッキ
+deck-config-new-gather-priority = 新規カードを集める順序
+deck-config-new-gather-priority-deck = デッキどうしの並び順（上から）
 deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
 deck-config-new-gather-priority-position-highest-first = 位置（降順）
 deck-config-new-gather-priority-random-notes = ランダム（ノート単位）
