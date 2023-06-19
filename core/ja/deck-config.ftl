@@ -24,6 +24,7 @@ deck-config-tab-description =
     - `プリセット`: この上限は、このプリセットを使用する全てのデッキで共有されます。
     - `このデッキ`: この上限は、このデッキにのみ適用されます。
     - `今日だけ`: このデッキの上限を一時的に変更します。
+deck-config-affects-entire-collection = この設定はコレクション全体に一括で適用されます。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -154,7 +155,7 @@ deck-config-hard-interval-tooltip = 「難しい」と回答した際、復習�
 deck-config-new-interval-tooltip = 「やり直し」と回答した際、復習間隔に適用される乗数。
 deck-config-minimum-interval-tooltip = 復習カードに`やり直し`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの最短日数。
 deck-config-custom-scheduling = カスタムスケジューリング
-deck-config-custom-scheduling-tooltip = コレクション全体に影響します。ご自身の責任でご使用ください！
+deck-config-custom-scheduling-tooltip = この設定はコレクション全体に一括で適用されます。ご自身の責任でご使用ください！
 
 ## Adding/renaming
 
