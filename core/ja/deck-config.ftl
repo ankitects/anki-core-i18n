@@ -99,9 +99,19 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = 表示順序
 deck-config-new-gather-priority = 新規カードを集める順序
+deck-config-new-gather-priority-tooltip-2 =
+    `デッキの並び順（上から）`: 選択したデッキとその中のサブデッキのうち、デッキリストで上に並んでいるデッキからカードを集めていきます。つまり、最初は選択したデッキ自体のカードを集めて、次に、一番上のサブデッキのカードを集めて、という順序です。各デッキ内のカードを集める順序は、`位置（新規カード番号）の昇順`（次項参照）となります。集めている途中で一日の上限枚数に達した場合は、そのデッキより下に並んでいるデッキのカードは集めません。この順序を選択すると、大規模なコレクションでも比較的早くカードを集めることができます。なお、優先したいサブデッキがある場合は、例えば各サブデッキの名前の先頭に数字を付けるなどして、そのサブデッキを上の方に並べ変えるとよいでしょう。
+    
+    `位置（新規カード番号）の昇順`: 追加時に各カードに割り当てられた位置（＝新規カード番号）の数字が小さい順にカードを集めます。通常は、各カード中で最初に追加したカード（最古のカード）から集められていきます。
+    
+    `位置（新規カード番号）の降順`: 追加時に各カードに割り当てられた位置（＝新規カード番号）の数字が大きい順にカードを集めます。通常は、各カード中で最後に追加したカード（最新のカード）から集められていきます。
+    
+    `ランダム（ノート単位）`: ランダムに選んだノートからカードを集めます。「兄弟関係のカードの延期」オプションがオフになっている場合は、同じノートから作成されたカード（例えば、《表面→裏面》カードと《裏面→表面》カード）がすべて同じセッションで表示されます。
+    
+    `ランダム（カード単位）`: 完全にランダムにカードを集めます。
 deck-config-new-gather-priority-deck = デッキの並び順（上から）
-deck-config-new-gather-priority-position-lowest-first = 位置（昇順）
-deck-config-new-gather-priority-position-highest-first = 位置（降順）
+deck-config-new-gather-priority-position-lowest-first = 位置（新規カード番号）の昇順
+deck-config-new-gather-priority-position-highest-first = 位置（新規カード番号）の降順
 deck-config-new-gather-priority-random-notes = ランダム（ノート単位）
 deck-config-new-gather-priority-random-cards = ランダム（カード単位）
 deck-config-new-card-sort-order = 集められた新規カードのソート方法
@@ -132,7 +142,7 @@ deck-config-sort-order-descending-intervals = 間隔（降順）
 deck-config-sort-order-ascending-ease = 易しさ昇順
 deck-config-sort-order-descending-ease = 易しさ降順
 deck-config-sort-order-relative-overdueness = 期日超過が相対的に大きい順
-deck-config-display-order-will-use-current-deck = 学習を開始する時に選択したデッキのオプションで設定した順序でカードを表示します。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
+deck-config-display-order-will-use-current-deck = 表示順序の設定は、学習を開始する時に選択したデッキのオプションでの設定が用いられます。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
 
 ## Timer section
 
