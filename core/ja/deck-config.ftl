@@ -132,7 +132,7 @@ deck-config-sort-order-descending-intervals = 間隔（降順）
 deck-config-sort-order-ascending-ease = 易しさ昇順
 deck-config-sort-order-descending-ease = 易しさ降順
 deck-config-sort-order-relative-overdueness = 期日超過が相対的に大きい順
-deck-config-display-order-will-use-current-deck = Ankiでは、選択中のデッキで設定された順序でカードが表示されます。デッキ内のサブデッキで異なる設定がされている場合でも同様です。
+deck-config-display-order-will-use-current-deck = 学習を開始する時に選択したデッキのオプションで設定した順序でカードを表示します。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
 
 ## Timer section
 
