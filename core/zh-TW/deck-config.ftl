@@ -118,7 +118,7 @@ deck-config-review-mix-mix-with-reviews = 與複習卡混合
 deck-config-review-mix-show-after-reviews = 先顯示複習卡
 deck-config-review-mix-show-before-reviews = 後顯示複習卡
 deck-config-review-sort-order = 複習卡排序順序
-deck-config-review-sort-order-tooltip = 預設的順序會優先顯示等待最久的卡片，這樣當有複習卡積壓時，等待最久的卡片將會最早出現。若你需要好幾天的時間來清理積壓的內容，或者想要以下層牌組順序顯示卡片，建議尋找其他更合適的順序。
+deck-config-review-sort-order-tooltip = 預設的順序會優先顯示等待最久的卡片，這樣當有複習卡積壓時，等待最久的卡片將會最早出現。如果你積壓了大量卡片，需要好幾天的時間來趕上進度，或者想要依下層牌組順序顯示卡片，建議尋找其他更合適的順序。
 deck-config-sort-order-due-date-then-random = 到期日期→隨機
 deck-config-sort-order-due-date-then-deck = 到期日期→牌組順序
 deck-config-sort-order-deck-then-due-date = 牌組順序→到期日期
@@ -127,27 +127,27 @@ deck-config-sort-order-descending-intervals = 間隔遞減
 deck-config-sort-order-ascending-ease = 輕鬆度遞增
 deck-config-sort-order-descending-ease = 輕鬆度遞減
 deck-config-sort-order-relative-overdueness = 依相對逾期跨度
-deck-config-display-order-will-use-current-deck = 顯示順序以你選取學習的牌組為準，Anki 將無視下層牌組的順序。
+deck-config-display-order-will-use-current-deck = 顯示順序以你選取學習的牌組為準，Anki 將無視下層牌組所設定的順序。
 
 ## Timer section
 
 deck-config-timer-title = 計時器
 deck-config-maximum-answer-secs = 最大回答秒數
-deck-config-maximum-answer-secs-tooltip = 為單次複習記錄的最大秒數。若回答超過此時間（例如可能你複習中途離開了螢幕一段時間），那麼卡片花費的時間將會被記為你所設定的上限。
+deck-config-maximum-answer-secs-tooltip = 記錄單次複習耗時的最大秒數。若回答超過此時間（例如可能你複習中途離開了螢幕一段時間），則耗時將被記錄為你設定的上限。
 deck-config-show-answer-timer-tooltip = 在複習畫面顯示一個計時器，計算複習每張卡片所花費的秒數。
 
 ## Audio section
 
 deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 不要自動播放音訊
-deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕，或使用播放音訊動作來手動播放。
+deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕，或使用「重播音訊」動作來手動播放。
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
-deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行播放動作時，將不會同時播放問題面上的音訊。
+deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行「重播音訊」動作時，將不會同時播放問題面上的音訊。
 
 ## Advanced section
 
 deck-config-advanced-title = 進階選項
-deck-config-maximum-interval-tooltip = 複習卡將等待的最大天數。當複習卡達到上限時，`困難`、`良好` 和 `簡單` 的延遲將會一致。此選項設定得越短，你的學習量將會越多。
+deck-config-maximum-interval-tooltip = 等待複習的最大天數。當複習卡達到上限時，按下`困難`、`良好` 和 `簡單` 後的延遲相同。此選項設定得越短，你的學習量將會越多。
 deck-config-starting-ease-tooltip = 新卡片輕鬆度的起始乘數。根據預設，在一張剛學完的卡片按下 `良好` 按鈕後，下次複習前的延遲為上次的 2.5 倍。
 deck-config-easy-bonus-tooltip = 回答 `簡單` 後，額外對複習間隔套用的乘數。
 deck-config-interval-modifier-tooltip = 此乘數套用於所有複習卡，對其稍作修改能使 Anki 排程更為保守/激進。請在更改此選項前參閱使用手冊。
