@@ -56,7 +56,7 @@ deck-config-learning-steps-tooltip =
 deck-config-graduating-interval-tooltip = 最後の習得ステップで「`正解`」ボタンが押された場合に、そのカードが再び表示されるまでの日数。
 deck-config-easy-interval-tooltip = 「`簡単`」ボタンが押され、習得中カードから復習カードへと直ちに切り替わった場合に、そのカードが再び表示されるまでの日数。
 deck-config-new-insertion-order = 配置順序
-deck-config-new-insertion-order-tooltip = 新規カードを追加したときにそのカードに割り当てられる位置（新規カード番号）の決め方を選択できます。新規カード番号の数字が小さい順にカードは習得学習で表示されます。このオプションを変更すると、ただちに既存の新規カードの位置が更新されます。
+deck-config-new-insertion-order-tooltip = 新規カードを追加したときにそのカードに割り当てる位置（新規カード番号）の決め方を選択できます。新規カード番号の数字が小さい順にカードは習得学習で表示されます。このオプションを変更すると、ただちに既存の新規カードの位置が更新されます。
 deck-config-new-insertion-order-sequential = 追加順
 deck-config-new-insertion-order-random = ランダム
 deck-config-new-insertion-order-random-with-v3 = V3スケジューラーでは、これを追加順のままにし、代わりに新規カードの収集方法を調整したほうがよいです。
@@ -206,7 +206,7 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards }枚
     }に設定されているため、そこでの上限がここにも適用されます。
 deck-config-reviews-too-low =
-    新規カードを毎日{ $cards ->
+    新規カードを一日に{ $cards ->
        *[other] { $cards }枚導入し、各カードの学習を継続していくには、
     }一日の復習枚数の上限を、{ $expected }枚か、それより多い枚数とするのが妥当です。
 deck-config-learning-step-above-graduating-interval = 習得ステップ修了から復習開始までの間隔は、最後の習得ステップの間隔より長くする（少なくとも同じにする）ことをお勧めします。
