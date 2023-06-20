@@ -1,6 +1,6 @@
 browsing-add-notes = 新增筆記...
-browsing-add-tags2 = 新增標籤...
-browsing-add-to-selected-notes = 新增至所選筆記
+browsing-add-tags2 = 加入標籤...
+browsing-add-to-selected-notes = 加入所選筆記
 browsing-remove-from-selected-notes = 從所選筆記中移除
 browsing-addon = 附加元件
 browsing-all-fields = 所有欄位
@@ -14,7 +14,7 @@ browsing-buried = 已暫停
 browsing-card = 卡片
 browsing-cards = 卡片
 browsing-card-list = 卡片清單
-browsing-cards-cant-be-manually-moved-into = 卡片無法被手動移動到篩選牌組
+browsing-cards-cant-be-manually-moved-into = 無法手動移動卡片到篩選牌組中。
 browsing-cards-deleted =
     { $count ->
        *[other] 已刪除 { $count } 張卡片。
@@ -25,14 +25,14 @@ browsing-change-note-type = 更改筆記類型
 browsing-change-note-type2 = 更改筆記類型...
 browsing-change-notetype = 更改筆記類型
 browsing-clear-unused-tags = 清理未使用的標籤
-browsing-confirm-saved-search-overwrite = 已經存在名稱為「{ $name }」的搜尋條件。要覆寫它嗎？
+browsing-confirm-saved-search-overwrite = 已存在搜尋條件「{ $name }」。要覆寫它嗎？
 browsing-created = 建立日期
 browsing-current-deck = 當前牌組
 browsing-current-note-type = 當前筆記類型：
 browsing-delete-notes = 刪除筆記
 browsing-duplicate = 重複
 browsing-ease = 輕鬆度
-browsing-enter-tags-to-add = 輸入要新增的標籤：
+browsing-enter-tags-to-add = 輸入要加入的標籤：
 browsing-enter-tags-to-delete = 輸入要刪除的標籤：
 browsing-filtered = （已篩選）
 browsing-find = <b>搜尋</b>：
