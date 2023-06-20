@@ -16,7 +16,7 @@ deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
 deck-config-limit-deck-v3 = 當一個牌組具有下層牌組時，每一個下層牌組的數量上限決定了各自在上層牌組中顯示的卡片數量上限。選取學習的牌組所設定的數量上限決定所有卡片顯示的數量上限。
 deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
-deck-config-limit-interday-bound-by-reviews = 複習上限也會影響隔天學習的卡片。計算數量上限時，卡片擷取的優先順序為：隔天學習的卡片>複習卡>新卡片。
+deck-config-limit-interday-bound-by-reviews = 複習上限也會影響隔天學習卡片。套用上限時，優先擷取隔天學習卡片，再算入複習卡。
 deck-config-tab-description =
     - `預設設定`：所有使用此預設設定的牌組的上限。
     - `當前牌組`：當前牌組的上限。
@@ -39,12 +39,12 @@ deck-config-learning-steps = 學習階段
 -deck-config-delay-hint = 延遲時間通常使用分鐘（如 `5m`）或天（如 `2d`），但也支援小時（如 `1h`）和秒（如 `30s`）。
 deck-config-learning-steps-tooltip = 一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下 `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕將會前進到下一個階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將改天出現。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，卡片再次顯示前需等待的天數。
-deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過學習階段後，再次顯示卡片前需等待的天數。
+deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過「學習中」狀態後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
-deck-config-new-insertion-order-tooltip = 控制新卡片被指派的順序（到期 #）。卡片到期序號越小，在學習時就越早顯示。更改此選項將自動更新現有新卡片順序。
+deck-config-new-insertion-order-tooltip = 控制新增卡片時指派給新卡片的順序（到期 #）。序號越小，卡片在學習時就越早顯示。更改此選項將自動更新現有新卡片順序。
 deck-config-new-insertion-order-sequential = 循序（最舊的卡片在前）
 deck-config-new-insertion-order-random = 隨機
-deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議將此選項保留為循序，改用新卡片收集順序調整。
+deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議將此選項保留為循序，改用「新卡片收集順序」選項。
 
 ## Lapses section
 
@@ -65,7 +65,7 @@ deck-config-bury-review-siblings = 暫停關聯的複習卡
 deck-config-bury-interday-learning-siblings = 暫停關聯的隔天學習卡片
 deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
 deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
-deck-config-bury-interday-learning-tooltip = 啟用後，若同一則筆記中有其他卡片正在`學習中`，且學習間隔大於 1 天，則將它再推遲 1 天。
+deck-config-bury-interday-learning-tooltip = 啟用後，推遲同一則筆記中其他正在`學習中`且學習間隔大於 1 天的卡片到第二天。
 deck-config-bury-priority-tooltip =
     Anki 收集卡片的順序為當天學習卡片→隔天學習卡片→複習卡→新卡片。這個順序影響卡片暫停的機制：
     
@@ -107,9 +107,9 @@ deck-config-sort-order-random-note-then-template = 隨機筆記→卡片類型
 deck-config-sort-order-random = 隨機
 deck-config-sort-order-template-then-gather = 卡片類型
 deck-config-sort-order-gather = 收集順序
-deck-config-new-review-priority = 新卡片/複習卡優先順序
+deck-config-new-review-priority = 新卡片/複習卡順序
 deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
-deck-config-interday-step-priority = 隔天學習/複習卡優先順序
+deck-config-interday-step-priority = 隔天學習/複習卡順序
 deck-config-interday-step-priority-tooltip =
     隔天學習時，（重新）學習中的卡片的顯示順序。
     
