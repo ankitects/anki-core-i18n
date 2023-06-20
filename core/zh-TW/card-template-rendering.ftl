@@ -6,8 +6,8 @@
 card-template-rendering-more-info = 更多資訊
 card-template-rendering-front-side-problem = 正面模板存在一個問題：
 card-template-rendering-back-side-problem = 背面模板存在一個問題：
-card-template-rendering-browser-front-side-problem = 瀏覽器特定的正面模板存在問題：
-card-template-rendering-browser-back-side-problem = 瀏覽器特定的背面模板存在問題：
+card-template-rendering-browser-front-side-problem = 瀏覽器特定的正面模板存在一個問題：
+card-template-rendering-browser-back-side-problem = 瀏覽器特定的背面模板存在一個問題：
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = 「{ $tag }」中缺少「{ $missing }」
@@ -27,4 +27,4 @@ card-template-rendering-no-such-field = 已找到「{ $found }」，但沒有名
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = 這張卡片的正面沒有內容。
-card-template-rendering-missing-cloze = 卡片上找不到克漏字 { $number }。請加入空格，或使用「空白卡片」工具。
+card-template-rendering-missing-cloze = 卡片上找不到克漏字 { $number }。請新增一個空格，或使用「空白卡片」工具。

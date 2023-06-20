@@ -32,7 +32,7 @@ importing-mapped-to = 對應到<b>{ $val }</b>
 importing-mapped-to-tags = 對應到 <b>標籤</b>
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 的牌組 (*.db)
 importing-multicharacter-separators-are-not-supported-please = 無法使用多字符的分隔，請只輸入一個字符。
-importing-notes-added-from-file = 從檔案中新增的筆記：{ $val }
+importing-notes-added-from-file = 從檔案中加入的筆記：{ $val }
 importing-notes-found-in-file = 從檔案中找到的筆記：{ $val }
 importing-notes-skipped-as-theyre-already-in = 由於最新的副本已在集合中，因此略過了筆記：{ $val }
 importing-notes-skipped-update-due-to-notetype = 由於第一次匯入筆記後修改過筆記類型，因此沒有更新筆記：{ $val }
@@ -59,7 +59,7 @@ importing-update-existing-notes-when-first-field = 第一個欄位相符時，�
 importing-updated = 已更新
 importing-note-added =
     { $count ->
-       *[other] 已新增 { $count } 則筆記
+       *[other] 已加入 { $count } 則筆記
     }
 importing-note-imported =
     { $count ->
@@ -105,7 +105,7 @@ importing-match-scope = 符合條件範圍
 importing-notetype-and-deck = 筆記類型和牌組
 importing-cards-added =
     { $count ->
-       *[other] 已新增 { $count } 張卡片。
+       *[other] 已加入 { $count } 張卡片。
     }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

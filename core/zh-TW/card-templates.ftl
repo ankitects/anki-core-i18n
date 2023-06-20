@@ -17,7 +17,7 @@ card-templates-fill-empty = 填充空白欄位
 card-templates-night-mode = 夜間模式
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
-card-templates-add-mobile-class = 預覽行動裝置模板
+card-templates-add-mobile-class = 加入「mobile」類別
 card-templates-preview-settings = 選項
 card-templates-invalid-template-number = 筆記類型「{ $notetype }」的卡片模板 { $number } 存在問題。
 card-templates-identical-front = 正面與卡片模板 { $number } 相同。
@@ -35,8 +35,8 @@ card-templates-card = 卡片 { $val }
 card-templates-card-types-for = { $val }的卡片類型
 card-templates-cloze = 克漏字 { $val }
 card-templates-deck-override = 覆寫牌組...
-card-templates-delete-the-as-card-type-and = 刪除「{ $template }」卡片類型，及其 { $cards }？
-card-templates-enter-deck-to-place-new = 請輸入要將新的 { $val } 卡片放入的牌組名稱（可留空）：
+card-templates-delete-the-as-card-type-and = 要刪除「{ $template }」卡片類型，及其 { $cards }嗎？
+card-templates-enter-deck-to-place-new = 請輸入要將新的「{ $val }」卡片加入的牌組名稱（可留空）：
 card-templates-enter-new-card-position-1 = 輸入新的卡片順序（1...{ $val }）:
 card-templates-flip = 翻面
 card-templates-form = 表單
@@ -53,7 +53,7 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] 將建立 { $count } 張卡片。繼續？
     }
-card-templates-type-boxes-warning = 每個卡片模板僅支援一個輸入框。
+card-templates-type-boxes-warning = 每個卡片模板僅能加入一個輸入框。
 card-templates-restore-to-default = 回復預設
 card-templates-restore-to-default-confirmation = 這將會重設此筆記類型中的所有欄位和模板為預設值，任何自訂樣式、額外欄位/模板及其中的內容都將被移除。要繼續嗎？
 card-templates-restored-to-default = 已將筆記類型回復至預設狀態。
