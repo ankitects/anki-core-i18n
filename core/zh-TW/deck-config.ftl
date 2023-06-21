@@ -167,8 +167,8 @@ deck-config-clone-group = 複製預設設定
 ## Removing
 
 deck-config-remove-group = 移除預設設定
-deck-config-will-require-full-sync = 更改後，下次同步時將執行單向強制更動。若你在其他裝置上做出的更動尚未同步至此裝置，請先同步後再更改。
-deck-config-confirm-remove-name = 移除{ $name }？
+deck-config-will-require-full-sync = 此更動將需要單向同步。若你在其他裝置上做出的更動尚未同步至此裝置，請先同步後再繼續。
+deck-config-confirm-remove-name = 要移除「{ $name }」嗎？
 
 ## Other Buttons
 
@@ -185,16 +185,16 @@ deck-config-description-new-handling-hint = 以 Markdown 語言輸入，並清�
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    有上層牌組的上限為{ $cards ->
+    有上層牌組的上限為 { $cards ->
        *[other] { $cards } 張卡片
     }，將覆蓋此牌組的上限。
 deck-config-reviews-too-low =
     若每天要學習 { $cards ->
        *[other] { $cards } 張新卡片
     }，複習卡上限至少應設定為 { $expected } 張。
-deck-config-learning-step-above-graduating-interval = 畢業間隔至少應該和最後一個學習階段一樣長。
-deck-config-good-above-easy = 簡單間隔至少應該和畢業間隔一樣長。
-deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔至少應該和最後一個重新學習階段一樣長。
+deck-config-learning-step-above-graduating-interval = 畢業間隔不應短於最後一個學習階段。
+deck-config-good-above-easy = 「簡單」間隔不應短於畢業間隔。
+deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔不應短於最後一個重新學習階段。
 deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡練，這樣 Anki 能更好為你排程複習。
 
 ## Selecting a deck
