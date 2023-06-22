@@ -1,5 +1,5 @@
 errors-parse-number-fail = 數字無效或超出範圍。
-errors-filtered-parent-deck = 篩選牌組不可有下層牌組
+errors-filtered-parent-deck = 無法為篩選牌組建立下層牌組
 errors-filtered-deck-required = 此動作僅能用於篩選牌組。
 errors-100-tags-max = 最多只能選取 100 個標籤。比起找出不想要的標籤，找到想要的往往更容易一些。另外，若你選取了一個上層標籤，則無需再選取其下層標籤。
 errors-multiple-notetypes-selected = 請僅從一種筆記類型選取筆記。
