@@ -117,6 +117,7 @@ importing-cards-added =
         [one] כרטיס { $count } נוסף.
        *[other] { $count } כרטיסים נוספו.
     }
+importing-file-empty = הקובץ שבחרת ריק.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
