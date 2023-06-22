@@ -195,7 +195,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = 畢業間隔不應短於最後一個學習階段。
 deck-config-good-above-easy = 「簡單」間隔不應短於畢業間隔。
 deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔不應短於最後一個重新學習階段。
-deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡練，這樣 Anki 能更好為你排程複習。
+deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡潔，這樣 Anki 能更有效率地為你排程複習。
 
 ## Selecting a deck
 
@@ -209,8 +209,8 @@ deck-config-bury-if-new = 暫停新卡片
 deck-config-bury-if-new-or-review = 暫停新卡片/複習卡
 deck-config-bury-if-new-review-or-interday = 暫停新卡片/複習卡/隔天學習卡片
 deck-config-bury-tooltip =
-    關聯卡片是指由同一則筆記建立的其他卡片（如正面/反面卡片，或同一則克漏字的其他空格）。
+    關聯卡片是指由同一則筆記建立的其他卡片（如正面/反面卡片，或同一則克漏字筆記的各個空格）。
     
-    停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動**暫停**關聯卡片，直到下一天前都不會出現。這個選項可以讓你選擇在回答時要暫停哪些卡片。
+    停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動*暫停*關聯卡片，直到下一天前都不會出現。此選項可讓你選擇在回答時要暫停哪些種類的卡片。
     
     使用 V3 排程器時，隔天學習卡片也可以被暫停。隔天學習卡片是指當前學習階段為一天或更多的卡片。

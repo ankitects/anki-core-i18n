@@ -107,6 +107,7 @@ importing-cards-added =
     { $count ->
        *[other] 已加入 { $count } 張卡片。
     }
+importing-file-empty = 你選取的檔案是空的。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
