@@ -62,7 +62,7 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    Следующаяя карточка будет доступна через { $unit ->
+    Следующая карточка будет доступна через { $unit ->
         [seconds]
             { $amount ->
                 [one] { $amount } секунду.
