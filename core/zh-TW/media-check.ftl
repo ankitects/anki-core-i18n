@@ -18,11 +18,11 @@ media-check-subfolder-count = 下層資料夾數：{ $count }
 
 media-check-renamed-header = 部分檔案因相容性問題而被重新命名：
 media-check-oversize-header = 大於 100MB 的檔案無法同步到 AnkiWeb。
-media-check-subfolder-header = 媒體資料夾內的資料夾不受支援。
+media-check-subfolder-header = 不支援媒體資料夾中的資料夾。
 media-check-missing-header = 在媒體資料夾中找不到以下被卡片使用的檔案：
 media-check-unused-header = 在媒體資料夾中找到了以下未被卡片使用的檔案：
 media-check-template-references-field-header =
-    當你在媒體/LaTeX 標籤中加入 { "{{欄位}}" } 來引用檔案時，Anki 將無法偵測引用的檔案。請將媒體/LaTeX 標籤單獨加入到每一則筆記中。
+    當你在媒體/LaTeX 標籤中加入「{ "{{欄位}}" }」來引用檔案時，Anki 將無法偵測引用的檔案。請將媒體/LaTeX 標籤單獨加入到每一則筆記中。
     
     以下模板存在此問題：
 
@@ -47,8 +47,7 @@ media-check-checked = 已檢查 { $count }...
 
 media-check-delete-unused-confirm = 刪除未使用媒體
 media-check-files-remaining =
-    剩餘
-    { $count ->
+    剩餘 { $count ->
        *[other] { $count } 個檔案。
     }
 media-check-delete-unused-complete =
@@ -56,7 +55,7 @@ media-check-delete-unused-complete =
        *[other] 已移動 { $count } 個檔案
     }到垃圾桶。
 media-check-trash-emptied = 已清空垃圾桶資料夾。
-media-check-trash-restored = 回復已刪除檔案到媒體資料夾。
+media-check-trash-restored = 已回復刪除的檔案到媒體資料夾。
 
 ## Rendering LaTeX
 

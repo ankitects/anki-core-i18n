@@ -44,7 +44,7 @@ studying-to-review = 待複習
 studying-type-answer-unknown-field = 輸入答案：未知欄位 { $val }
 studying-unbury = 取消暫停
 studying-what-would-you-like-to-unbury = 你想取消暫停什麼？
-studying-you-havent-recorded-your-voice-yet = 你尚未錄製自己的聲音。
+studying-you-havent-recorded-your-voice-yet = 你還沒有錄製自己的聲音。
 studying-card-studied-in =
     { $count ->
        *[other] 學習了 { $count } 張卡片：花費

@@ -6,7 +6,7 @@ notetypes-front-field = 正面
 notetypes-back-field = 背面
 notetypes-add-reverse-field = 加入反向卡片
 notetypes-text-field = 文字
-notetypes-back-extra-field = 背面額外
+notetypes-back-extra-field = 背面額外內容
 
 ## Default note type names
 
@@ -26,7 +26,7 @@ notetypes-cards = 卡片
 notetypes-clone = 複製：{ $val }
 notetypes-copy = { $val } 複本
 notetypes-create-scalable-images-with-dvisvgm = 使用 dvisvgm 建立可縮放影像
-notetypes-delete-this-note-type-and-all = 刪除此筆記類型及卡片
+notetypes-delete-this-note-type-and-all = 要刪除此筆記類型及其所有卡片嗎？
 notetypes-delete-this-unused-note-type = 刪除此未使用的筆記類型
 notetypes-fields = 欄位
 notetypes-footer = Footer
