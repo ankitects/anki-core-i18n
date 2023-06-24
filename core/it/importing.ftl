@@ -115,6 +115,7 @@ importing-cards-added =
         [one] Aggiunta { $count } carta.
        *[other] Aggiunte { $count } carte.
     }
+importing-file-empty = Il file selezionato è vuoto.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
