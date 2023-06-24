@@ -1,6 +1,6 @@
 fields-add-field = 新增欄位
 fields-delete-field-from = 要將此欄位從 { $val }中刪除嗎？
-fields-editing-font = 編輯時使用的字型
+fields-editing-font = 編輯器字型
 fields-field = 欄位：
 fields-field-name = 欄位名稱：
 fields-description = 描述
@@ -9,7 +9,7 @@ fields-fields-for = { $val } 的欄位
 fields-font = 字型：
 fields-new-position-1 = 新位置 (1...{ $val })：
 fields-notes-require-at-least-one-field = 筆記至少要有一個欄位。
-fields-reverse-text-direction-rtl = 反轉書寫方向為由右至左 (RTL)
+fields-reverse-text-direction-rtl = 反轉文字方向為由右至左 (RTL)
 fields-collapse-by-default = 預設摺疊此欄位
 fields-html-by-default = 預設使用 HTML 編輯器
 fields-size = 大小：

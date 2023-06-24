@@ -1,1 +1,1 @@
-findreplace-notes-updated = 已更新 { $changed } 則筆記，共 { $total } 則
+findreplace-notes-updated = 更新了 { $changed } 則筆記，總共搜尋了 { $total } 則筆記
