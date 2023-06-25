@@ -147,6 +147,7 @@ importing-cards-added =
         [many] أضيفت { $count } بطاقة.
        *[other] أضيفت { $count } بطاقة.
     }
+importing-file-empty = الملف المحدد فارغ.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
