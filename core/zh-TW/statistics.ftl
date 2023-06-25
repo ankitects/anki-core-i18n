@@ -110,7 +110,7 @@ statistics-days-ago-single =
        *[other] { $days } 天前
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } 天前
-statistics-running-total = 計算加總
+statistics-running-total = 累積總計
 statistics-cards-due =
     { $cards ->
        *[other] 將有 { $cards } 張卡片到期
