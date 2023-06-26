@@ -36,8 +36,15 @@ notetypes-type = ノートタイプ
 
 ## Image Occlusion
 
+notetypes-occlusion = マスキング
 notetypes-occlusion-mask = マスク
+notetypes-occlusion-note = ノート
+notetypes-comments-field = コメント
 notetypes-toggle-masks = マスクを表示 / 非表示
-notetypes-image-occlusion-name = 画像穴埋め
-notetypes-hide-all-guess-one = 全マスクで各問
-notetypes-hide-one-guess-one = 単マスクで各問
+notetypes-image-occlusion-name = 画像マスキング
+notetypes-hide-all-guess-one = 各問で全マスク
+notetypes-hide-one-guess-one = 各問で単マスク
+notetypes-error-generating-cloze = 画像マスキングタイプのノートを作成中にエラーが発生しました
+notetypes-error-getting-imagecloze = 画像マスキングタイプのノートを取得中にエラーが発生しました
+notetypes-error-loading-image-occlusion = 画像マスキングタイプのノートの読み込み中にエラーが発生しました。Ankiのバージョンは最新ですか？
+notetype-error-no-image-to-show = 表示する画像がありません
