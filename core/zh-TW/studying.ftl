@@ -13,7 +13,7 @@ studying-cards-buried =
        *[other] 已暫停 { $count } 張卡片。
     }
 studying-cards-will-be-automatically-returned-to = 複習後，卡片將自動回到原來的牌組。
-studying-continue = 下一步
+studying-continue = 繼續
 studying-counts-differ = 由於你啟用了暫停選項，牌組列表中的卡片數量與此處不同。部分卡片已被排除，且可能有其他卡片補上位置。
 studying-delete-note = 刪除筆記
 studying-deleting-this-deck-from-the-deck = 如果在牌組清單中刪除這個牌組，剩下的卡片也將會回到原來的牌組。
