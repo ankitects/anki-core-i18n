@@ -28,7 +28,7 @@ studying-it-has-been-suspended = 已擱置。
 studying-manually-buried-cards = 手動暫停的卡片
 studying-mark-note = 標記筆記
 studying-more = 其他
-studying-no-cards-are-due-yet = 卡片都尚未到期。
+studying-no-cards-are-due-yet = 還沒有到期的卡片。
 studying-note-suspended = 已擱置筆記。
 studying-pause-audio = 暫停音訊
 studying-please-run-toolsempty-cards = 請執行「工具」>「空白卡片」
@@ -43,7 +43,7 @@ studying-this-is-a-special-deck-for = 這是一個專門用來學習額外進度
 studying-to-review = 待複習
 studying-type-answer-unknown-field = 輸入答案：未知欄位 { $val }
 studying-unbury = 取消暫停
-studying-what-would-you-like-to-unbury = 你想取消暫停什麼？
+studying-what-would-you-like-to-unbury = 要將哪些卡片取消暫停？
 studying-you-havent-recorded-your-voice-yet = 你還沒有錄製自己的聲音。
 studying-card-studied-in =
     { $count ->
