@@ -60,6 +60,7 @@ editing-collapse-field = フィールドを折りたたむ
 editing-underline-text = 下線を追加
 editing-unordered-list = リスト（順序なし）
 editing-warning-cloze-deletions-will-not-work = 注意: 穴埋め問題は上部にある「ノートタイプ」の設定を「穴埋め」タイプに変更するまで機能しません。
+editing-from-clipboard = クリップボードから
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -36,3 +36,5 @@ notetypes-type = ノートタイプ
 
 ## Image Occlusion
 
+notetypes-toggle-masks = マスクを表示 / 非表示
+notetypes-image-occlusion-name = 画像穴埋め
