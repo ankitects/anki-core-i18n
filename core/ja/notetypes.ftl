@@ -36,5 +36,8 @@ notetypes-type = ノートタイプ
 
 ## Image Occlusion
 
+notetypes-occlusion-mask = マスク
 notetypes-toggle-masks = マスクを表示 / 非表示
 notetypes-image-occlusion-name = 画像穴埋め
+notetypes-hide-all-guess-one = 各問で全マスク
+notetypes-hide-one-guess-one = 各問で単マスク
