@@ -21,7 +21,7 @@ statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚のカード
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews }回
+statistics-reviews = { $reviews }枚
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -45,15 +45,15 @@ statistics-today-no-mature-cards = 今日は習熟期の復習カードを学習
 statistics-today-correct-mature = 習熟期の復習の正解率: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = カードの合計枚数
 statistics-counts-new-cards = 新規
-statistics-counts-young-cards = 復習 (未習熟期)
-statistics-counts-mature-cards = 復習 (習熟期)
+statistics-counts-young-cards = 復習 [未習熟期]
+statistics-counts-mature-cards = 復習 [習熟期]
 statistics-counts-suspended-cards = 休止
 statistics-counts-buried-cards = 今日パス
 statistics-counts-filtered-cards = フィルター適用
 statistics-counts-learning-cards = 習得中
 statistics-counts-relearning-cards = 再習得中
 statistics-counts-title = カード数
-statistics-counts-separate-suspended-buried-cards = 休止カード・パスカードも区分する
+statistics-counts-separate-suspended-buried-cards = 休止カード・今日パスカードも区分する
 statistics-range-all-time = 全期間
 statistics-range-1-year-history = １年間
 statistics-range-all-history = 全期間
@@ -71,7 +71,7 @@ statistics-future-due-title = 予測
 statistics-future-due-subtitle = 復習期日が来るカードの枚数
 statistics-added-title = 追加
 statistics-added-subtitle = 新規カードの追加枚数
-statistics-reviews-count-subtitle = カードに回答した回数
+statistics-reviews-count-subtitle = 回答した枚数
 statistics-reviews-time-subtitle = カードの学習に費やした時間
 statistics-answer-buttons-title = 回答ボタン
 # eg Button: 4
@@ -134,19 +134,19 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
-statistics-average-for-days-studied = 平均学習枚数
+statistics-average-for-days-studied = 学習した日の平均
 statistics-total = 合計
-statistics-days-studied = 学習日数
+statistics-days-studied = 学習した日の割合
 statistics-average-answer-time-label = 平均所要時間
 statistics-average = 平均
 statistics-average-interval = 平均間隔
 statistics-due-tomorrow = 明日が期日
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
-statistics-average-over-period = 毎日学習した場合の平均
+statistics-average-over-period = 期間全体の平均
 statistics-reviews-per-day =
     { $count ->
-       *[other] { $count } 回/日
+       *[other] { $count }枚
     }
 statistics-minutes-per-day =
     { $count ->
@@ -154,7 +154,7 @@ statistics-minutes-per-day =
     }
 statistics-cards-per-day =
     { $count ->
-       *[other] { $count }枚／日
+       *[other] { $count } 枚/日
     }
 statistics-average-ease = 易しさの平均値
 statistics-save-pdf = PDFで保存
