@@ -37,14 +37,16 @@ statistics-studied-today =
     }学習しています ({ $secs-per-card }秒/枚)
 statistics-today-title = 今日
 statistics-today-again-count = 忘却回数:
-statistics-today-type-counts = 習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、フィルター: { $filteredCount }枚
+statistics-today-type-counts =
+    習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、
+    フィルター: { $filteredCount }枚
 statistics-today-no-cards = 今日はまだ1枚もカードを学習していません。
-statistics-today-no-mature-cards = 今日は復習（後期）カードは学習していません。
-statistics-today-correct-mature = 復習（後期）の正解率: { $correct }/{ $total } ({ $percent }%)
+statistics-today-no-mature-cards = 今日は習熟期の復習カードを学習していません
+statistics-today-correct-mature = 習熟期の復習の正解率: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = カードの合計枚数
 statistics-counts-new-cards = 新規
-statistics-counts-young-cards = 復習（初期）
-statistics-counts-mature-cards = 復習（後期）
+statistics-counts-young-cards = 復習 (未習熟期)
+statistics-counts-mature-cards = 復習 (習熟期)
 statistics-counts-suspended-cards = 休止
 statistics-counts-buried-cards = 今日パス
 statistics-counts-filtered-cards = フィルター適用

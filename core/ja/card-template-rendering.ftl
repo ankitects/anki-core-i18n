@@ -8,7 +8,7 @@ card-template-rendering-front-side-problem = 表面のテンプレートに問�
 card-template-rendering-back-side-problem = 裏面のテンプレートに問題があります：
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
-card-template-rendering-no-closing-brackets = 「{ $tag }」の「{ $missing }」が欠けています
+card-template-rendering-no-closing-brackets = 「{ $tag }」に「{ $missing }」が欠けています
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
 card-template-rendering-conditional-not-closed = 「{ $missing }」が’欠けています
