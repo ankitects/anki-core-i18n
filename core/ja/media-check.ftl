@@ -1,6 +1,6 @@
 ## Shown at the top of the media check screen
 
-media-check-window-title = メディアを確認
+media-check-window-title = メディアをチェック
 # the number of files, and the total space used by files
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
@@ -30,9 +30,12 @@ media-check-subfolder-file = フォルダ：{ $filename }
 media-check-missing-file = 不明：{ $filename }
 media-check-unused-file = 未使用：{ $filename }
 
+##
+
+
 ## Progress
 
-media-check-checked = 確認済み{ $count }...
+media-check-checked = チェック済み{ $count }...
 
 ## Deleting unused media
 
@@ -54,4 +57,4 @@ media-check-render-latex = LaTexをレンダリングする
 media-check-empty-trash = ゴミ箱を空にする
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 削除ファイルを復元する
-media-check-check-media-action = メディアを確認
+media-check-check-media-action = メディアをチェック
