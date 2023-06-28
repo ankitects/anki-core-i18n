@@ -8,7 +8,7 @@ statistics-due-for-new-card = 新規#{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = カード { $cards-per-minute } 枚/分
-statistics-average-answer-time = { $average-seconds } 秒 ({ statistics-cards-per-min })
+statistics-average-answer-time = { $average-seconds }秒 ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -17,11 +17,11 @@ statistics-in-time-span-seconds = { $amount }秒
 statistics-in-time-span-minutes = { $amount }分
 statistics-in-time-span-hours = { $amount }時間後
 statistics-in-time-span-days = { $amount }日後
-statistics-in-time-span-months = { $amount }ヵ月後
+statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚のカード
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews } 枚の復習カード
+statistics-reviews = { $reviews }回
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -134,23 +134,23 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
-statistics-average-for-days-studied = 各学習の平均
+statistics-average-for-days-studied = 平均学習枚数
 statistics-total = 合計
 statistics-days-studied = 学習日数
 statistics-average-answer-time-label = 平均所要時間
 statistics-average = 平均
 statistics-average-interval = 平均間隔
-statistics-due-tomorrow = 明日が期日のカード
+statistics-due-tomorrow = 明日が期日
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
 statistics-average-over-period = 毎日学習した場合の平均
 statistics-reviews-per-day =
     { $count ->
-       *[other] { $count }回／日
+       *[other] { $count } 回/日
     }
 statistics-minutes-per-day =
     { $count ->
-       *[other] { $count }分／日
+       *[other] { $count } 分/日
     }
 statistics-cards-per-day =
     { $count ->

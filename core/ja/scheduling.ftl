@@ -7,7 +7,7 @@ scheduling-answer-button-time-seconds = { $amount }秒後
 scheduling-answer-button-time-minutes = { $amount }分後
 scheduling-answer-button-time-hours = { $amount }時間後
 scheduling-answer-button-time-days = { $amount }日後
-scheduling-answer-button-time-months = { $amount }ヵ月後
+scheduling-answer-button-time-months = { $amount }か月後
 scheduling-answer-button-time-years = { $amount }年後
 
 ## A span of time, such as the delay until a card is shown again, the
@@ -15,12 +15,12 @@ scheduling-answer-button-time-years = { $amount }年後
 ## such as in the Interval column of the browse screen,
 ## and labels like "Total Time" in the card info screen.
 
-scheduling-time-span-seconds = { $amount } 秒
-scheduling-time-span-minutes = { $amount } 分
+scheduling-time-span-seconds = { $amount }秒
+scheduling-time-span-minutes = { $amount }分
 scheduling-time-span-hours = { $amount } 時間
 scheduling-time-span-days = { $amount } 日
-scheduling-time-span-months = { $amount } ヵ月
-scheduling-time-span-years = { $amount } 年
+scheduling-time-span-months = { $amount }か月
+scheduling-time-span-years = { $amount }年
 
 ## Shown in the "Congratulations!" message after study finishes.
 
