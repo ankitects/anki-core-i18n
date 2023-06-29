@@ -21,8 +21,8 @@ browsing-cards-deleted =
         [few] { $count } карточки удалено.
        *[other] { $count } карточек удалено.
     }
-browsing-change-deck = Сменить колоду
-browsing-change-deck2 = Сменить колоду...
+browsing-change-deck = В другую колоду
+browsing-change-deck2 = В другую колоду...
 browsing-change-note-type = Сменить тип записи
 browsing-change-note-type2 = Сменить тип записи...
 browsing-change-notetype = Сменить тип записи

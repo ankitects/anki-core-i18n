@@ -72,6 +72,7 @@ preferences-import-export = Импорт и экспорт
 preferences-network-timeout = Ожидание сети
 preferences-reset-window-sizes = Сбросить размер окон
 preferences-reset-window-sizes-complete = Размер и положения окон сброшены.
+preferences-shortcut-placeholder = Введите неиспользуемое сочетание клавиш или оставьте пустым, чтобы не отключить.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

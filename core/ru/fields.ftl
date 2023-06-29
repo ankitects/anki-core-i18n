@@ -17,3 +17,6 @@ fields-sort-by-this-field-in-the = Сортировать список по эт
 fields-that-field-name-is-already-used = Заданное имя уже используется
 fields-name-first-letter-not-valid = Имя поля не должно начинаться с #, ^ или /.
 fields-name-invalid-letter = Имя поля не должно содержать :, ",  { "{" } или { "}" }.
+# If enabled, the field is not included when searching for 'text', 're:text' and so on,
+# but is when searching for a specific field, eg 'field:text'.
+fields-exclude-from-search = Исключать из поиска без указания поля (медленнее)

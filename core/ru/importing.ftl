@@ -126,6 +126,7 @@ importing-cards-added =
         [few] { $count } карточки добавлены.
        *[other] { $count } карточек добавлено.
     }
+importing-file-empty = Выбранный файл пуст.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
