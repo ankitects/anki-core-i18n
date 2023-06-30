@@ -21,7 +21,7 @@ statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚のカード
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews }枚
+statistics-reviews = { $reviews }回
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -71,7 +71,7 @@ statistics-future-due-title = 予測
 statistics-future-due-subtitle = 復習期日が来るカードの枚数
 statistics-added-title = 追加
 statistics-added-subtitle = 新規カードの追加枚数
-statistics-reviews-count-subtitle = 回答した枚数
+statistics-reviews-count-subtitle = カードに回答した回数
 statistics-reviews-time-subtitle = カードの学習に費やした時間
 statistics-answer-buttons-title = 回答ボタン
 # eg Button: 4
@@ -113,7 +113,7 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }時~{ $hourEnd }時
 statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
-statistics-hours-title = 時間帯ごとの分析
+statistics-hours-title = 時間帯の分析
 statistics-hours-subtitle = 時間帯ごとの正解率
 # shown when graph is empty
 statistics-no-data = データなし
@@ -146,15 +146,15 @@ statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent 
 statistics-average-over-period = 期間全体の平均
 statistics-reviews-per-day =
     { $count ->
-       *[other] { $count }枚
+       *[other] { $count }枚 / 日
     }
 statistics-minutes-per-day =
     { $count ->
-       *[other] { $count } 分/日
+       *[other] { $count }分 / 日
     }
 statistics-cards-per-day =
     { $count ->
-       *[other] { $count } 枚/日
+       *[other] { $count }枚 / 日
     }
 statistics-average-ease = 易しさの平均値
 statistics-save-pdf = PDFで保存
