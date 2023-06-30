@@ -1,4 +1,4 @@
-editing-actual-size = 実寸表示（エディターの幅が上限）/ コンパクト表示
+editing-actual-size = 実寸表示[エディターの幅が上限] / コンパクト表示  の切り替え
 editing-add-media = メディアを追加
 editing-align-left = 左寄り
 editing-align-right = 右寄り
