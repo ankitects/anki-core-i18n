@@ -120,7 +120,7 @@ scheduling-set-due-date-prompt =
 scheduling-set-due-date-prompt-hint =
     0 = 今日
     1! = 明日+復習間隔をリセット
-    3-7 = 3-7日からランダムに選択
+    3-7 = 3～7日からランダムに選択
 scheduling-set-due-date-done =
     { $cards ->
        *[other] { $cards }枚のカードの期日を設定しました。
