@@ -6,4 +6,6 @@ adding-history = Історія
 adding-note-deleted = (Нотатку видалено)
 adding-shortcut = Гаряча клавіша: { $val }
 adding-the-first-field-is-empty = Перше поле порожнє.
-adding-you-have-a-cloze-deletion-note = У вас тип нотатки з тестом з пробілами, але ви не створили жодних тестових карток з пробілами. Продовжити?
+adding-you-have-a-cloze-deletion-note = Вказаний тип нотатки cloze, однак Ви не створили пропусків. Продовжити?
+adding-cloze-outside-cloze-notetype = Видалення тестів з пропусками працює лише для типу нотатки Cloze.
+adding-cloze-outside-cloze-field = Видалення пропусків можна використовувати лише у полях, які мають фільтр 'cloze:'. Зазвичай це перше поле.
