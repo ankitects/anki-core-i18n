@@ -61,3 +61,8 @@ card-templates-this-will-create-card-proceed =
        *[other] Bude vytvořeno { $count } karet. Pokračovat?
     }
 card-templates-type-boxes-warning = Je podporováno pouze jedno pole pro psaní na kartě.
+card-templates-restore-to-default = Obnovit původní nastavení
+card-templates-restore-to-default-confirmation =
+    Resetují se všechna pole a šablony v tomto typu poznámky na původní hodnoty,
+    přičemž se odstraní všechna přidaná pole/šablony a jejich obsah a vlastní styly. Chcete pokračovat?
+card-templates-restored-to-default = Typ poznámky se obnovil do původního stavu.
