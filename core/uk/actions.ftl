@@ -34,6 +34,7 @@ actions-select = Вибрати
 actions-shortcut-key = Гаряча клавіша: { $val }
 actions-suspend-card = Призупинити картку
 actions-add-deck = Додати колоду
+actions-add-note = Додати нотатку
 actions-add-notetype = Додати тип нотатки
 actions-remove-notetype = Видалити тип нотатки
 actions-update-notetype = Оновити тип нотатки
