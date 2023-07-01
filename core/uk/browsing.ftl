@@ -11,8 +11,6 @@ browsing-browser-options = Налаштування Навігатора
 browsing-buried = Відкладені
 browsing-card = Картка
 browsing-cards = Картки
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = К
 browsing-card-list = Список карток
 browsing-cards-cant-be-manually-moved-into = Картки не можна вручну переміщати до відфільтрованої колоди.
 browsing-cards-deleted =
@@ -60,8 +58,6 @@ browsing-no-flag = Без прапорців
 browsing-no-selection = Не обрано жодної картки чи нотатки.
 browsing-note = Нотатка
 browsing-notes = Нотатки
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = Н
 browsing-optional-filter = Додатковий філтр:
 browsing-override-back-template = Ігнорувати шаблон зворотньої сторони:
 browsing-override-font = Ігнорувати шрифт:
@@ -151,9 +147,9 @@ browsing-added-today = Додано сьогодні
 browsing-again-today = Повторити сьогодні
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Прибрано { $count } невикористовану мітку.
-        [few] Прибрано { $count } невикористовувані мітки.
-       *[other] Прибрано { $count } невикористованних міток.
+        [one] Прибрано { $count } невживану мітку.
+        [few] Прибрано { $count } невживані мітки.
+       *[other] Прибрано { $count } невживаних міток.
     }
 browsing-reparented-decks =
     { $count ->
@@ -162,5 +158,9 @@ browsing-reparented-decks =
        *[other] { $count } колод перейменовано.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = К
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = Н

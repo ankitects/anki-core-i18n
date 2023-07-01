@@ -12,6 +12,7 @@ deck-config-used-by-decks =
        *[other] { $decks } колодами
     }
 deck-config-default-name = Типовий
+deck-config-title = Параметри колоди
 
 ## Daily limits section
 
@@ -72,5 +73,5 @@ deck-config-save-to-all-subdecks = Зберегти до усіх підколо
 ## Selecting a deck
 
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
