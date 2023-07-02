@@ -4,17 +4,17 @@ notetypes-notetype = Тип нотатки
 
 notetypes-front-field = Лицьова сторона
 notetypes-back-field = Назад
-notetypes-add-reverse-field = Додати зворотню сторону
+notetypes-add-reverse-field = Додати зворотну сторону
 notetypes-text-field = Текст
 notetypes-back-extra-field = Зворотня сторона за бажанням
 
 ## Default note type names
 
-notetypes-basic-name = Базова
-notetypes-basic-reversed-name = Базова (зі зворотною карткою)
-notetypes-basic-optional-reversed-name = Базова (з необов'язковою зворотною карткою)
-notetypes-basic-type-answer-name = Звичайний (З веденням відповіді)
-notetypes-cloze-name = Картка з пробілами
+notetypes-basic-name = Базовий
+notetypes-basic-reversed-name = Базовий (зі зворотною карткою)
+notetypes-basic-optional-reversed-name = Базовий (з необов'язковою зворотною карткою)
+notetypes-basic-type-answer-name = Базовий (з вдрукуванням відповіді)
+notetypes-cloze-name = Закритий текст
 
 ## Default card template names
 
@@ -38,3 +38,4 @@ notetypes-type = Тип
 
 ## Image Occlusion
 
+notetypes-image = Зображення
