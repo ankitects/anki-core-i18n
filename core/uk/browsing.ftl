@@ -17,9 +17,9 @@ browsing-card-list = Список карток
 browsing-cards-cant-be-manually-moved-into = Картки не можна вручну переміщати до відфільтрованої колоди.
 browsing-cards-deleted =
     { $count ->
-        [one] { $count } картку видалено.
-        [few] { $count } картки видалено.
-       *[other] { $count } карток видалено.
+        [one] Видалено { $count } картку.
+        [few] Видалено { $count } картки.
+       *[other] Видалено { $count } карток.
     }
 browsing-change-deck = Змінити колоду
 browsing-change-deck2 = Змінити колоду...
@@ -113,15 +113,15 @@ browsing-note-count =
     }
 browsing-notes-updated =
     { $count ->
-        [one] { $count } нотатку оновлено.
-        [few] { $count } нотатки оновлено.
-       *[other] { $count } нотаток оновлено.
+        [one] Оновлено { $count } нотатку.
+        [few] Оновлено { $count } нотатки.
+       *[other] Оновлено { $count } нотаток.
     }
 browsing-cards-updated =
     { $count ->
-        [one] { $count } картку оновлено.
-        [few] { $count } картки оновлено.
-       *[other] { $count } карток оновлено.
+        [one] Оновлено { $count } картку.
+        [few] Оновлено { $count } картки.
+       *[other] Оновлено { $count } карток.
     }
 browsing-window-title =
     { $total ->
@@ -160,9 +160,9 @@ browsing-sidebar-overdue = Прострочено
 browsing-row-deleted = (видалено)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Прибрано { $count } невживану мітку.
-        [few] Прибрано { $count } невживані мітки.
-       *[other] Прибрано { $count } невживаних міток.
+        [one] Видалено { $count } невживану мітку.
+        [few] Видалено { $count } невживані мітки.
+       *[other] Видалено { $count } невживаних міток.
     }
 browsing-changed-new-position =
     { $count ->
@@ -171,9 +171,9 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-        [one] { $count } колоду перейменовано.
-        [few] { $count } колоди перейменовано.
-       *[other] { $count } колод перейменовано.
+        [one] Перейменовано { $count } колоду.
+        [few] Перейменовано { $count } колоди.
+       *[other] Перейменовано { $count } колод.
     }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

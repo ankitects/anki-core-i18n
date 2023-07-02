@@ -22,6 +22,7 @@ card-stats-review-log-type-review = Повторювані
 card-stats-review-log-type-relearn = Вчити знову
 card-stats-review-log-type-filtered = Відфільтровані
 card-stats-review-log-type-manual = Посібник
+card-stats-no-card = (Нема карток для показу.)
 
 ## Window Titles
 
