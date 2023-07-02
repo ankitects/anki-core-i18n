@@ -1,5 +1,7 @@
 browsing-add-notes = Додати нотатку…
 browsing-add-tags2 = Додавання міток…
+browsing-add-to-selected-notes = Додати до обраних нотаток
+browsing-remove-from-selected-notes = Видалити з обраних нотаток
 browsing-addon = Доповнення
 browsing-all-fields = Всі поля
 browsing-answer = Відповідь
@@ -88,12 +90,14 @@ browsing-suspended = Призупинені
 browsing-tag-duplicates = Відмітити повторюванні
 browsing-tag-rename-warning-empty = Ви не можете перейменувати примітку, яка немає записів
 browsing-target-field = Цільове поле:
+browsing-toggle-bury = Перемкнути приховування
 browsing-toggle-showing-cards-notes = Перемкнути картки/нотатки
 browsing-toggle-mark = Позначити чи зняти позначку
 browsing-toggle-suspend = Призупинити/Поновити
 browsing-treat-input-as-regular-expression = Розглядати введення як регулярний вираз
 browsing-update-saved-search = Оновити поточним пошуком
 browsing-whole-collection = Вся колеція
+browsing-window-title-notes = Навігатор (обрано { $selected } з { $total } нотаток)
 browsing-you-must-have-at-least-one = Треба, щоб була принаймні одна колонка.
 browsing-group =
     { $count ->
@@ -121,9 +125,9 @@ browsing-cards-updated =
     }
 browsing-window-title =
     { $total ->
-        [one] Переглянути (Обрано { $selected } з { $total } картки)
-        [few] Переглянути (Обрано { $selected } з { $total } карток)
-       *[other] Переглянути (Обрано { $selected } з { $total } карток)
+        [one] Навігатор (обрано { $selected } з { $total } картки)
+        [few] Навігатор (обрано { $selected } з { $total } карток)
+       *[other] Навігатор (обрано { $selected } з { $total } карток)
     }
 browsing-sidebar-expand = Розгорнути
 browsing-sidebar-collapse = Згорнути
@@ -142,14 +146,28 @@ browsing-tooltip-note-modified = Час останьої зміни нотатк
 browsing-tooltip-card = Назва шаблону картки
 browsing-tooltip-cards = Кількість карток у нотатки
 browsing-tooltip-notetype = Назва типу нотатки
+browsing-tooltip-question = Передня частина картки, пристосовна у редакторі шаблонів карток.
+browsing-tooltip-answer = Зворотна частина картки, пристосовна у редакторі шаблонів карток.
 browsing-studied-today = Пройдено сьогодні
 browsing-added-today = Додано сьогодні
 browsing-again-today = Повторити сьогодні
+browsing-edited-today = Відредаговано
+browsing-sidebar-first-review = Вперше повторено
+browsing-sidebar-rescheduled = Перезаплановано
+browsing-sidebar-due-today = Очікується
+browsing-sidebar-untagged = Без мітки
+browsing-sidebar-overdue = Прострочено
+browsing-row-deleted = (видалено)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Прибрано { $count } невживану мітку.
         [few] Прибрано { $count } невживані мітки.
        *[other] Прибрано { $count } невживаних міток.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Змінено позицію для { $count } нової картки.
+       *[other] Змінено позицію для { $count } нових карток.
     }
 browsing-reparented-decks =
     { $count ->
