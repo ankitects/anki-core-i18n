@@ -11,8 +11,8 @@ notetypes-back-extra-field = Зворотня сторона за бажання
 ## Default note type names
 
 notetypes-basic-name = Базова
-notetypes-basic-reversed-name = Базова (із зворотньою карткою)
-notetypes-basic-optional-reversed-name = Базова (із необов'язковою зворотньою карткою )
+notetypes-basic-reversed-name = Базова (зі зворотною карткою)
+notetypes-basic-optional-reversed-name = Базова (з необов'язковою зворотною карткою)
 notetypes-basic-type-answer-name = Звичайний (З веденням відповіді)
 notetypes-cloze-name = Картка з пробілами
 
@@ -35,3 +35,6 @@ notetypes-note-types = Типи нотаток
 notetypes-options = Налаштування…
 notetypes-please-add-another-note-type-first = Спочатку треба додати інший тип нотаток.
 notetypes-type = Тип
+
+## Image Occlusion
+
