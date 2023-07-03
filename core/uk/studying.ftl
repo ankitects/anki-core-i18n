@@ -6,11 +6,17 @@ studying-buried-siblings = Відкладані пов'язані
 studying-bury = Відкласти
 studying-bury-card = Відкласти картку
 studying-bury-note = Відкласти нотатку
-studying-card-buried = Картку відкладено.
 studying-card-suspended = Картку призупинено.
 studying-card-was-a-leech = Картка була приставуча.
+studying-cards-buried =
+    { $count ->
+        [one] Приховано { $count } картку.
+        [few] Приховано { $count } картки.
+       *[other] Приховано { $count } карток.
+    }
 studying-cards-will-be-automatically-returned-to = Після повторення картки автоматично повертаються до своєї оригінальної колоди.
 studying-continue = Продовжити
+studying-counts-differ = Підрахунки різняться зі списком колод, оскільки увімкнено приховування. Деякі картки виключено, а на їх місці можуть бути інші.
 studying-delete-note = Видалити нотатку
 studying-deleting-this-deck-from-the-deck = Після видалення цієї колоди з переліку колод усі залишкові картки буде повернуто до їхньої оригінальної колоди.
 studying-easy = Легко
@@ -25,7 +31,6 @@ studying-manually-buried-cards = Вручну відкладені картки
 studying-mark-note = Позначити нотатку
 studying-more = Більше
 studying-no-cards-are-due-yet = Поки нема очікуваних карток.
-studying-note-buried = Нотатку відкладено.
 studying-note-suspended = Нотатку призупинено.
 studying-pause-audio = Призупинити звук
 studying-please-run-toolsempty-cards = Виконайте команду " Інструменти>Порожні картки"
@@ -37,7 +42,7 @@ studying-study-now = Вчити зараз
 studying-suspend = Призупинити
 studying-suspend-note = Призупинити нотатку
 studying-this-is-a-special-deck-for = Це - спеціальна колода для навчання поза встановленим графіком.
-studying-to-review = Повторит
+studying-to-review = Повторити
 studying-type-answer-unknown-field = Введення  відповіді з клавіатури: невідоме поле { $val }
 studying-unbury = Розкопати
 studying-what-would-you-like-to-unbury = Які хочете повернути?
@@ -53,10 +58,4 @@ studying-minute =
         [one] { $count } хвилина.
         [few] { $count } хвилин.
        *[other] { $count } хвилин.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-        [one] Нотатку та її  { $count } картку видалено.
-        [few] Нотатку та її  { $count } карток видалено.
-       *[other] Нотатку та її  { $count } карток видалено.
     }
