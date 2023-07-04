@@ -62,3 +62,4 @@ actions-flag-pink = صورتی
 actions-flag-turquoise = فیروزه‌ای
 actions-flag-purple = ارغوانی
 actions-set-flag = تنظیم نشان
+actions-nothing-to-undo = عملی برای لغو وجود ندارد

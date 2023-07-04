@@ -66,3 +66,5 @@ actions-flag-pink = Roz
 actions-flag-turquoise = Turcoaz
 actions-flag-purple = Violet
 actions-set-flag = Setează Fanion
+actions-nothing-to-undo = Nimic de anulat
+actions-nothing-to-redo = Nimic de refăcut

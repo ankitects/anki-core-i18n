@@ -68,3 +68,5 @@ actions-flag-pink = Rosa
 actions-flag-turquoise = Turquesa
 actions-flag-purple = Roxo
 actions-set-flag = Definir Emblema
+actions-nothing-to-undo = Nada para desfazer
+actions-nothing-to-redo = Nada para refazer

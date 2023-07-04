@@ -68,3 +68,5 @@ actions-flag-pink = Różowa
 actions-flag-turquoise = Turkusowa
 actions-flag-purple = Fioletowa
 actions-set-flag = Ustaw flagę
+actions-nothing-to-undo = Nic do cofnięcia
+actions-nothing-to-redo = Nic do ponowienia

@@ -68,3 +68,5 @@ actions-flag-pink = 粉紅色
 actions-flag-turquoise = 青綠色
 actions-flag-purple = 紫色
 actions-set-flag = 設定旗標
+actions-nothing-to-undo = 沒有可復原的動作
+actions-nothing-to-redo = 沒有可重做的動作

@@ -68,3 +68,5 @@ actions-flag-pink = Розовый
 actions-flag-turquoise = Бирюзовый
 actions-flag-purple = Фиолетовый
 actions-set-flag = Установить флажок
+actions-nothing-to-undo = Нечего отменять
+actions-nothing-to-redo = Нечего повторять

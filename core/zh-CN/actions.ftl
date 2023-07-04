@@ -68,3 +68,5 @@ actions-flag-pink = 粉色
 actions-flag-turquoise = 青色
 actions-flag-purple = 紫色
 actions-set-flag = 设置旗标
+actions-nothing-to-undo = 无可撤销
+actions-nothing-to-redo = 无可恢复

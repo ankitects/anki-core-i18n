@@ -66,3 +66,5 @@ actions-flag-pink = Rose
 actions-flag-turquoise = Turquoise
 actions-flag-purple = Violet
 actions-set-flag = Définir le marqueur
+actions-nothing-to-undo = Rien à annuler
+actions-nothing-to-redo = Rien à annuler

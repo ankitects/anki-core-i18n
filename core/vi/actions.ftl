@@ -63,3 +63,5 @@ actions-flag-pink = Hồng
 actions-flag-turquoise = Ngọc lam
 actions-flag-purple = Tím
 actions-set-flag = Đặt cờ
+actions-nothing-to-undo = Không còn gì để hoàn tác
+actions-nothing-to-redo = Không còn gì để làm lại

@@ -68,3 +68,5 @@ actions-flag-pink = Rosa
 actions-flag-turquoise = Turquesa
 actions-flag-purple = Morat
 actions-set-flag = Selecciona un senyal
+actions-nothing-to-undo = Res que desfer
+actions-nothing-to-redo = Res que refer

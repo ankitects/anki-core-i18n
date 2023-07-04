@@ -68,3 +68,5 @@ actions-flag-pink = Pinkki
 actions-flag-turquoise = Turkoosi
 actions-flag-purple = Violetti
 actions-set-flag = Aseta lippu
+actions-nothing-to-undo = Ei peruttavaa toimintoa
+actions-nothing-to-redo = Ei uudelleen tehtävää toimintoa

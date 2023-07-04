@@ -68,3 +68,5 @@ actions-flag-pink = ורוד
 actions-flag-turquoise = טורקיז
 actions-flag-purple = סגול
 actions-set-flag = הגדר דגל
+actions-nothing-to-undo = אין מה לבטל
+actions-nothing-to-redo = אין מה לעשות מחדש

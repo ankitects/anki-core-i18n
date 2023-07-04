@@ -68,3 +68,5 @@ actions-flag-pink = Bándearg
 actions-flag-turquoise = Gormghlas
 actions-flag-purple = Corcra
 actions-set-flag = Socraigh Bratach
+actions-nothing-to-undo = Gan dada le cealú
+actions-nothing-to-redo = Gan dada le hathdhéanamh

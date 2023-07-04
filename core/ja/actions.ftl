@@ -66,3 +66,5 @@ actions-flag-pink = ピンク
 actions-flag-turquoise = ターコイズ
 actions-flag-purple = 紫
 actions-set-flag = フラグの変更
+actions-nothing-to-undo = 元に戻すものがありません
+actions-nothing-to-redo = やり直すものがありません

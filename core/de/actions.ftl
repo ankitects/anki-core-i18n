@@ -68,3 +68,5 @@ actions-flag-pink = Pink
 actions-flag-turquoise = Türkis
 actions-flag-purple = Lila
 actions-set-flag = Markierung setzen
+actions-nothing-to-undo = Nichts zum Zurücknehmen
+actions-nothing-to-redo = Nichts zum Wiederherstellen

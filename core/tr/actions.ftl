@@ -52,3 +52,5 @@ actions-flag-pink = Pembe
 actions-flag-turquoise = Turkuaz
 actions-flag-purple = Mor
 actions-set-flag = Bayrakla İşaretle
+actions-nothing-to-undo = Geri alınacak bir şey yok
+actions-nothing-to-redo = Yeniden yapılacak bir şey yok.
