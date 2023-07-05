@@ -1,11 +1,11 @@
 adding-add-shortcut-ctrlandenter = Magdagdag (shortcut: ctrl+enter)
 adding-added = Mga nadagdag na
-adding-close-and-lose-current-input = Mawawala ang mga nalagay mo kapag sinara mo ito. Sigurado ka ba?
+adding-close-and-lose-current-input = Mawawala ang mga nalagay mo kapag sinara mo ito. Sure ka ba?
 adding-edit = I-edit ang
 adding-history = Kasaysayan
 adding-note-deleted = (Na-delete ang note)
 adding-shortcut = Shortcut:
-adding-the-first-field-is-empty = Ang unang patlang ay walang laman.
-adding-you-have-a-cloze-deletion-note = Mayroon kang cloze notetype pero hindi ka pa nakakagawa ng kahit anong cloze deletion. Ipatuloy?
-adding-cloze-outside-cloze-notetype = Magagamit alng ang Close deletion sa mga close notetype.
-adding-cloze-outside-cloze-field = Ang Cloze deletion ay magagamit lang sa mga patlang na ginagamit ang 'cloze:' na filter. Unang patlang pa lang ito.
+adding-the-first-field-is-empty = Walang laman iyong unang field.
+adding-you-have-a-cloze-deletion-note = Meron kang cloze notetype pero hindi ka pa nakakagawa ng kahit anong cloze deletion. Tuloy ba?
+adding-cloze-outside-cloze-notetype = Ang Cloze deletion ay magagamit lang sa mga cloze notetype.
+adding-cloze-outside-cloze-field = Ang Cloze deletion ay magagamit lang sa mga field na ginagamit ang 'cloze:' na filter. Unang field pa lang ito.
