@@ -28,8 +28,8 @@ browsing-change-notetype = Baguhin ang Notetype
 browsing-clear-unused-tags = I-clear ang Unused Tags
 browsing-confirm-saved-search-overwrite = Meron nang naka-save na search na may pangalang { $name }. Gusto mo bang i-overwrite ito?
 browsing-created = Nagawa na
-browsing-current-deck = Current Deck
-browsing-current-note-type = Current note type:
+browsing-current-deck = Kasalukuyang Deck
+browsing-current-note-type = Kasalukuyang note type:
 browsing-delete-notes = I-delete ang mga Note
 browsing-duplicate = I-duplicate
 browsing-ease = Dali
@@ -94,7 +94,7 @@ browsing-toggle-showing-cards-notes = Toggle Cards/Notes
 browsing-toggle-mark = Toggle Mark
 browsing-toggle-suspend = Toggle Suspend
 browsing-treat-input-as-regular-expression = I-treat ang input bilang regular expression
-browsing-update-saved-search = I-update gamit ng Current Search
+browsing-update-saved-search = I-update gamit ng kasalukuyang search
 browsing-whole-collection = Buong Collection
 browsing-window-title-notes = I-browse ang ({ $selected } ng { $total } na na-select na notes)
 browsing-you-must-have-at-least-one = Dapat may atleast isang column.
@@ -127,7 +127,42 @@ browsing-sidebar-decks = Mga Deck
 browsing-sidebar-tags = Mga Tag
 browsing-sidebar-notetypes = Note Types
 browsing-sidebar-saved-searches = Mga naka-save na search
-browsing-sidebar-save-current-search = I-save ang Current Search
+browsing-sidebar-save-current-search = I-save ang kasalukuyang search
+browsing-sidebar-card-state = State ng Card
+browsing-sidebar-flags = Mga Flag
+browsing-today = Ngayon
+browsing-tooltip-card-modified = Ang huling beses na may mga nabago sa isang card, kasama ang mga review, mga flag, at mga changes sa deck.
+browsing-tooltip-note-modified = Ang huling beses na may mga nabago sa isang note, kadalasan nilalaman ng field o pag-edit ng tag
+browsing-tooltip-card = Ang pangalan ng card template ng isang card
+browsing-tooltip-cards = Ang bilang ng mga card na ng isang note
+browsing-tooltip-notetype = Ang pangalan ng isang notetype ng isang note
+browsing-tooltip-question = Ang front side ng isang card, nako-customize sa card template editor
+browsing-tooltip-answer = Ang back side ng isang card, nako-customize sa card template editor
+browsing-studied-today = Na-aral na
+browsing-added-today = Nadagdag
+browsing-again-today = Ulit
+browsing-edited-today = Na-edit
+browsing-sidebar-first-review = Unang Review
+browsing-sidebar-rescheduled = Na-reschedule
+browsing-sidebar-due-today = Due
+browsing-sidebar-untagged = Walang tag
+browsing-sidebar-overdue = Overdue na
+browsing-row-deleted = (na-delete)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Natanggal ang { $count } unused tag.
+       *[other] Natanggal ang { $count } (na) mga unused tag.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Nabago ang position ng { $count } bagong card.
+       *[other] Nabago ang position ng { $count } (na) bagong card.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Na-rename ang { $count } deck.
+       *[other] Na-rename ang { $count } (na) deck.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

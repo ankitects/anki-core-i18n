@@ -27,3 +27,5 @@ card-stats-custom-data = Custom na Data
 
 ## Window Titles
 
+card-stats-current-card = Kasalukuyang Card ({ $context })
+card-stats-previous-card = Nakaraang Card ({ $context })

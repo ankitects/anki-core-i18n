@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = Magdagdag (shortcut: ctrl+enter)
 adding-added = Mga nadagdag na
-adding-close-and-lose-current-input = Mawawala ang mga nalagay mo kapag sinara mo ito. Sure ka ba?
+adding-close-and-lose-current-input = Mawawala ang current input mo kapag sinara mo ito. Sure ka ba?
 adding-edit = I-edit ang
 adding-history = Kasaysayan
 adding-note-deleted = (Na-delete ang note)
