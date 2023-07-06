@@ -3,12 +3,12 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
-scheduling-answer-button-time-seconds = { $amount }秒後
-scheduling-answer-button-time-minutes = { $amount }分後
-scheduling-answer-button-time-hours = { $amount }時間後
-scheduling-answer-button-time-days = { $amount }日後
-scheduling-answer-button-time-months = { $amount }か月後
-scheduling-answer-button-time-years = { $amount }年後
+scheduling-answer-button-time-seconds = { $amount }秒
+scheduling-answer-button-time-minutes = { $amount }分
+scheduling-answer-button-time-hours = { $amount }時間
+scheduling-answer-button-time-days = { $amount }日
+scheduling-answer-button-time-months = { $amount }か月
+scheduling-answer-button-time-years = { $amount }年
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
