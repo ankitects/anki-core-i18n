@@ -35,7 +35,6 @@ importing-multicharacter-separators-are-not-supported-please = Els separadors de
 importing-notes-added-from-file = Notes afegides des del fitxer: { $val }
 importing-notes-found-in-file = Notes trobades en el fitxer: { $val }
 importing-notes-skipped-as-theyre-already-in = S'han omès les notes, atès que ja es troben en la vostra col·lecció: { $val }
-importing-notes-that-could-not-be-imported = Notes que no s'han pogut importar a causa d'un canvi de tipus de nota: { $val }
 importing-notes-updated-as-file-had-newer = Notes actualitzades, atès que el fitxer contenia una versió més recent: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida d’Anki o col·lecció (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
@@ -115,8 +114,10 @@ importing-cards-added =
         [one] S’ha afegit una targeta.
        *[other] S’han afegit { $count } targetes.
     }
+importing-file-empty = El fitxer que heu seleccionat està buit.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = S'està important la col·lecció…
 importing-unable-to-import-filename = No s'ha pogut importar el fitxer { $filename }. Tipus de fitxer no compatible.
+importing-notes-that-could-not-be-imported = Notes que no s'han pogut importar a causa d'un canvi de tipus de nota: { $val }

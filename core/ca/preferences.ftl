@@ -19,6 +19,7 @@ preferences-preferences = Preferències
 preferences-scheduling = Planificació
 preferences-show-learning-cards-with-larger-steps = Mostra les targetes que estic aprenent amb passos més grans abans dels repassos
 preferences-show-next-review-time-above-answer = Mostra l'interval de repàs pròxim sobre dels botons de resposta
+preferences-spacebar-rates-card = Respon la targeta en prémer la barra espaiadora o la tecla de retorn
 preferences-show-play-buttons-on-cards-with = Mostra els botons de reproducció en les targetes que tenen so
 preferences-show-remaining-card-count = Mostra el nombre de targetes restants
 preferences-some-settings-will-take-effect-after = Alguns canvis no s'aplicaran fins que reinicieu Anki.
