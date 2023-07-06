@@ -88,6 +88,16 @@ deck-config-relearning-steps-tooltip =
     Zero o higit na delay, hinihiwalay ng mga space. By default, kapag pinindot ang `Ulit`
     sa review card, lalabas ulit ito pagkatapos ng 10 minuto. Kapag walang mga delay
     ang nabigay, mababago ang interval ng card, nang hindi pumapasok sa relearning. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Ang bilang ng beses na kailangang mapindot ang `Ulit` sa isang review card bago ito
+    mamarkahan bilang leech. Ang mga leech ay ang mga card na kumakain ng maraming oras, at
+    kapag ang isang card ay namarkahan bilang leech, mainam na i-rewrite ito, i-delete, o
+    mag-isip ng mnemonic para mas maalala ito.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Tag lang`: Magdagdag ng "leech" tag sa note, at mag-display ng pop-up.
+    `Suspend Card`: Higit sa pag-tag ng note, i-hide ang card hanggang
+    manually unsuspended na ito.
 
 ## Burying section
 
