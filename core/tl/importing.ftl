@@ -118,6 +118,10 @@ importing-cards-added =
         [one] { $count } card ang nadagdag.
        *[other] { $count } (na) card ang nadagdag.
     }
+importing-file-empty = Walang laman ang file na napili mo.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+importing-importing-collection = Ini-import ang collection...
+importing-unable-to-import-filename = Hindi kayang ma-import ang { $filename }: hindi supported ang file
+importing-notes-that-could-not-be-imported = Mga note na hindi ma-import dahil nagbago ang note type: { $val }
