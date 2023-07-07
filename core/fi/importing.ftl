@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = Monimerkkisiä er
 importing-notes-added-from-file = Muistiinpanoja lisätty tiedostosta: { $val }
 importing-notes-found-in-file = Muistiinpanoja löydetty tiedostosta: { $val }
 importing-notes-skipped-as-theyre-already-in = Muistiinpanoja, jotka ohitettiin, koska ne ovat jo kokoelmassasi: { $val }
-importing-notes-that-could-not-be-imported = Muistiinpanoja, joita ei voitu tuoda, koska muistiinpanotyyppi on muuttunut: { $val }
+importing-notes-skipped-update-due-to-notetype = Muistiinpanoja ei päivitetty, koska muistiinpanotyyppiä on muutettu sen jälkeen, kun muistiinpanot tuotiin ensimmäisen kerran: { $val }
 importing-notes-updated-as-file-had-newer = Muistiinpanoja, jotka päivitettiin, koska tiedostossa oli uudempi versio: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakattu Anki-pakka/kokoelma (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
@@ -115,8 +115,10 @@ importing-cards-added =
         [one] { $count } kortti lisätty.
        *[other] { $count } korttia lisätty.
     }
+importing-file-empty = Valitsemasi tiedosto on tyhjä.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Tuodaan kokoelmaa...
 importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta.
+importing-notes-that-could-not-be-imported = Muistiinpanoja, joita ei voitu tuoda, koska muistiinpanotyyppi on muuttunut: { $val }
