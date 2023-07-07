@@ -4,8 +4,10 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Детальніше
-card-template-rendering-front-side-problem = На шаблоні передньої сторони є проблема:
-card-template-rendering-back-side-problem = На шаблоні задньої сторони є проблема:
+card-template-rendering-front-side-problem = Проблема у шаблоні передньої сторони:
+card-template-rendering-back-side-problem = Проблема у шаблоні зворотної сторони:
+card-template-rendering-browser-front-side-problem = Проблема з шаблоном передньої сторони для переглядача:
+card-template-rendering-browser-back-side-problem = Проблема з шаблоном для зворотної сторони переглядача:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Відсутнє «{ $missing }» в «{ $tag }»
@@ -20,11 +22,11 @@ card-template-rendering-wrong-conditional-closed = Знайдено «{ $found }
 card-template-rendering-conditional-not-open = Знайдено «{ $found }», але відсутні «{ $missing1 }» чи «{ $missing2 }»
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
-card-template-rendering-no-such-field = Знайдено «{ $found }», але ці поля не називаються «{ $field }»
+card-template-rendering-no-such-field = Знайдено «{ $found }», однак поля «{ $field }» немає
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = Лицева сторона картки пуста.
+card-template-rendering-empty-front = Передня сторона картки пуста.
 card-template-rendering-missing-cloze =
     Не знайдено завдання з пропусками { $number } на картці
     Будь ласка, або додайте завдання з пропусками, або скористайтеся інструментом «Порожні картки».
