@@ -1,9 +1,9 @@
 card-stats-added = Додано
-card-stats-first-review = Вперше побачена
-card-stats-latest-review = Останній перегляд
+card-stats-first-review = Вперше повторена
+card-stats-latest-review = Останнє повторення
 card-stats-interval = Інтервал
 card-stats-ease = Легкість
-card-stats-review-count = Повторення
+card-stats-review-count = Повторень
 card-stats-lapse-count = Невдачі
 card-stats-average-time = Середній час
 card-stats-total-time = Загальний час

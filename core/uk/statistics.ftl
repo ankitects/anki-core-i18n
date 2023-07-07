@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Очікується
+statistics-due-date = Пригадати
 # The count of cards waiting to be reviewed
-statistics-due-count = Очікується
+statistics-due-count = Пригадати
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Нових #{ $number }
 
@@ -83,8 +83,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card }s/картку)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }с
 statistics-today-title = Сьогодні
 statistics-today-again-count = Кількість карток з відповіддю "Знову":
 statistics-today-type-counts = Вивчити: { $learnCount }, Повторити: { $reviewCount }, Перевчити: { $relearnCount }, Відфільтровано: { $filteredCount }
@@ -96,8 +94,7 @@ statistics-counts-new-cards = Нові
 statistics-counts-young-cards = Незрілі
 statistics-counts-mature-cards = Зрілі
 statistics-counts-suspended-cards = Призупинені
-statistics-counts-buried-cards = Відкладені
-statistics-counts-early-cards = Раніше
+statistics-counts-buried-cards = Приховані
 statistics-counts-learning-cards = Навчання
 statistics-counts-relearning-cards = Перевивчаємі
 statistics-counts-title = Кількість карток
@@ -118,7 +115,7 @@ statistics-card-ease-tooltip =
        *[other] { $cards } карток з легкістю { $percent }
     }
 statistics-future-due-title = Прогноз
-statistics-future-due-subtitle = Кількість повторень, очікуваних у майбутньому.
+statistics-future-due-subtitle = Кількість майбутніх пригадувань.
 statistics-added-title = Додано
 statistics-added-subtitle = Число доданих вами нових карток.
 statistics-reviews-count-subtitle = Кількість питань, на які ви відповіли.
@@ -195,15 +192,13 @@ statistics-elapsed-time-years = { $amount }р
 
 ##
 
-statistics-error-fetching = Помилка пошуку – будь ласка, перевірте, чи Ваш пошук правильний, або скористайтесь перевіркою бази даних.
 statistics-average-for-days-studied = Середній показник за дні роботи з програмою
 statistics-total = Разом
 statistics-days-studied = Днів роботи з програмою
 statistics-average-answer-time-label = Середній час відповіді
 statistics-average = Середнє
 statistics-average-interval = Середній інтервал
-statistics-longest-interval = Найдовший інтервал
-statistics-due-tomorrow = Очікуються завтра
+statistics-due-tomorrow = Пригадати завтра
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } з { $total } ({ $percent }%)
 statistics-average-over-period = Якби ви вчились щодня

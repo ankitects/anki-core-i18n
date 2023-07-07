@@ -1,4 +1,4 @@
-custom-study-must-rename-deck = Будь ласка, спочатку перейменуйте існуючу колоду власного навчання.
+custom-study-must-rename-deck = Будь ласка, спочатку перейменуйте наявну колоду власного навчання.
 custom-study-all-cards-in-random-order-dont = Всі картки у випадковому порядку (без перепланування)
 custom-study-all-review-cards-in-random-order = Всі повторювані картки у випадковому порядку
 custom-study-cards = картки
@@ -28,6 +28,7 @@ custom-study-available-new-cards-2 = Доступні нові картки: { $
 custom-study-available-review-cards-2 = Доступні повторювані картки: { $countString }
 custom-study-available-child-count = ({ $count } в підколодах)
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Доступні нові картки: { $count }
+custom-study-available-review-cards = Картки для пригадування: { $count }
