@@ -12,11 +12,11 @@ deck-config-used-by-decks =
        *[other] { $decks } колодами
     }
 deck-config-default-name = Типовий
-deck-config-title = Параметри колоди
+deck-config-title = Налаштування колоди
 
 ## Daily limits section
 
-deck-config-daily-limits = Щоденний ліміт
+deck-config-daily-limits = Щоденні обмеження
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
