@@ -2,7 +2,7 @@ studying-again = Знову
 studying-all-buried-cards = Всі відкладені картки
 studying-audio-5s = Звук -5 секунд
 studying-audio-and5s = Звук +5 секунд
-studying-buried-siblings = Відкладані пов'язані
+studying-buried-siblings = Відкладені сестринські картки
 studying-bury = Відкласти
 studying-bury-card = Відкласти картку
 studying-bury-note = Відкласти нотатку
@@ -18,7 +18,7 @@ studying-cards-will-be-automatically-returned-to = Після повторенн
 studying-continue = Продовжити
 studying-counts-differ = Підрахунки різняться зі списком колод, оскільки увімкнено приховування. Деякі картки виключено, а на їх місці можуть бути інші.
 studying-delete-note = Видалити нотатку
-studying-deleting-this-deck-from-the-deck = Після видалення цієї колоди з переліку колод усі залишкові картки буде повернуто до їхньої оригінальної колоди.
+studying-deleting-this-deck-from-the-deck = Після видалення цієї колоди з переліку колод усі картки, які залишаться, повернуться до оригінальних колод.
 studying-easy = Легко
 studying-edit = Редагування
 studying-empty = Спорожнити
@@ -36,7 +36,7 @@ studying-pause-audio = Призупинити звук
 studying-please-run-toolsempty-cards = Виконайте команду " Інструменти>Порожні картки"
 studying-record-own-voice = Записати власний голос
 studying-replay-own-voice = Прослухати ще раз власний голос
-studying-show-answer = ВІДОБРАЗИТИ ВІДПОВІДЬ
+studying-show-answer = Показати відповідь
 studying-space = Пробіл
 studying-study-now = Вчити зараз
 studying-suspend = Призупинити
@@ -49,13 +49,13 @@ studying-what-would-you-like-to-unbury = Які хочете повернути?
 studying-you-havent-recorded-your-voice-yet = Ви ще не записали ваш голос.
 studying-card-studied-in =
     { $count ->
-        [one] { $count } катка вивчена за
-        [few] { $count } картки вивчені за
-       *[other] { $count } картки вивчені за
+        [one] Вивчено { $count } картку протягом
+        [few] Вивчено { $count } картки протягом
+       *[other] Вивчено { $count } картки протягом
     }
 studying-minute =
     { $count ->
-        [one] { $count } хвилина.
+        [one] { $count } хвилини.
         [few] { $count } хвилин.
        *[other] { $count } хвилин.
     }
