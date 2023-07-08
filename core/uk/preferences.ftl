@@ -21,36 +21,61 @@ preferences-show-learning-cards-with-larger-steps = Показувати кар�
 preferences-show-next-review-time-above-answer = Показувати час наступного повторення над кнопками відповіді
 preferences-spacebar-rates-card = Натискання на клавішу пробілу (або Enter) показує відповідь
 preferences-show-play-buttons-on-cards-with = Показати кнопку «Програти» на картках із звуком
+preferences-show-remaining-card-count = Показувати кількість карток, які слід переглянути
 preferences-some-settings-will-take-effect-after = Деякі налаштування вступлять в силу лише після перезапуску Anki.
+preferences-tab-synchronisation = Синхронізація
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Синхронізацію</b><br> Зараз вимкнено; щоб її увімкнути, натисніть кнопку синхронізації в головному вікні.
 preferences-synchronize-audio-and-images-too = Синхронізувати також медіа-файли
 preferences-timebox-time-limit = Період лічильника переглядів
 preferences-user-interface-size = Розмір інтерфейсу
 preferences-when-adding-default-to-current-deck = Додавати у поточну колоду за замовчуванням
-preferences-you-can-restore-backups-via-fileswitch = Ви можете відновити резервні копії: Файл > змінити профіль.
-preferences-default-search-text = Текст пошуку за замовченням
-preferences-default-search-text-example = Наприклад: 'deck:current '
+preferences-you-can-restore-backups-via-fileswitch = Ви можете відновити резервні копії: Файл > Змінити профіль.
+preferences-legacy-timezone-handling = Застарілий механізм часових зон (дефектний, але вимагається для AნკიDროიდ <= 2.14)
+preferences-default-search-text = Типовий текст пошуку
+preferences-default-search-text-example = Напр. 'deck:current '
 preferences-theme = Тема
+preferences-theme-follow-system = Системні налаштування
 preferences-theme-light = Світла
 preferences-theme-dark = Темна
-preferences-v3-scheduler = V3 планувальник
+preferences-v3-scheduler = Планувальник V3
 preferences-ignore-accents-in-search = Не зважати на діакрітичні знаки (повільніше)
 preferences-backup-explanation =
-    Anki періодично робить резервні копії колекції. Після 2 днів, 
-    Anki почне видаляти деякі з них для вивільненя простору.
-preferences-daily-backups = Залишати резервні копіїї щодня:
-preferences-weekly-backups = Залишати резервні копіїї щотижня:
-preferences-monthly-backups = Залишати резервні копіїї щомісяця:
-preferences-minutes-between-backups = Хвилин між автоматичним резервним копіюванням:
+    Anki періодично робить резервні копії колекції. Для копій, старших 2 днів, 
+    Anki почне видаляти деякі з них для звільнення простору.
+preferences-daily-backups = Кількість збережених щоденних резервних копій:
+preferences-weekly-backups = Кількість збережених щотижневих резервних копій:
+preferences-monthly-backups = Кількість збережених щомісячних резервних копій:
+preferences-minutes-between-backups = Інтервал (хв) між автоматичним резервним копіюванням:
+preferences-reduce-motion = Зменшити анімацію
+preferences-reduce-motion-tooltip = Відключає анімацію та переходи для інтерфейсу користувача
+preferences-custom-sync-url = Власний сервер синхронізації
+preferences-custom-sync-url-disclaimer = Для досвідчених користувачів - зверніться до довідника
+preferences-hide-top-bar-during-review = Ховати верхню панель під час повторювання
+preferences-hide-bottom-bar-during-review = Ховати нижню панель під час повторювання
 preferences-always = Завжди
+preferences-full-screen-only = Лише в повноекранному режимі
+preferences-appearance = Вигляд
+preferences-general = Загальне
+preferences-style = Стиль
 preferences-review = Повторювання
+preferences-answer-keys = Клавіші відповіді
+preferences-distractions = Відволікання
+preferences-minimalist-mode = Мінімалістичний режим
+preferences-editing = Редагування
+preferences-browsing = Навігація
+preferences-default-deck = Типова колода
 preferences-account = Обліковий запис AnkiWeb
 preferences-note = Нотатка
 preferences-scheduler = Планувальник
 preferences-user-interface = Інтерфейс користувача
 preferences-import-export = Імпорт/Експорт
+preferences-network-timeout = Термін очікування мережевих з'єднань
+preferences-reset-window-sizes = Відновити розміри вікон
+preferences-reset-window-sizes-complete = Відновлено розміри та розташування вікон.
+preferences-shortcut-placeholder = Введіть скорочення, яке ще не використовується, або залиште порожнім, щоб деактивувати.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Базова
+preferences-reviewer = Переглядач
 preferences-media = Медіа-файли
