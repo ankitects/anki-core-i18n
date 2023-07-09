@@ -113,6 +113,7 @@ deck-config-maximum-answer-secs = Максімум секунд для адка�
 
 deck-config-audio-title = Аўдыя
 deck-config-disable-autoplay = Не прайграваць аўдыя аўтаматычна
+deck-config-skip-question-when-replaying = Прапускаць пытанне пры паўторным прайграванні адказу
 
 ## Advanced section
 
@@ -165,5 +166,9 @@ deck-config-good-above-easy = Інтэрвал для лёгкіх павіне�
 
 deck-config-which-deck = Якую калоду вы хочаце?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = Адкладваць сястрынскія
+deck-config-do-not-bury = Не адкладваць сястрынскія
+deck-config-bury-if-new = Адкладваць новае
+deck-config-bury-if-new-or-review = Адкладваць новыя або на пераглядзе

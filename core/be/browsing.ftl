@@ -13,8 +13,6 @@ browsing-browser-options = Параметры браўзера
 browsing-buried = Адкладзеныя
 browsing-card = Картка
 browsing-cards = Карткі
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = К
 browsing-card-list = Спіс картак
 browsing-cards-cant-be-manually-moved-into = Карткі не могуць быць перамешчаны ўручную ў фільтраваную калоду.
 browsing-cards-deleted =
@@ -63,8 +61,6 @@ browsing-no-flag = Без сцяжка
 browsing-no-selection = Ніводная картка або нататка не выбрана.
 browsing-note = Нататка
 browsing-notes = Нататкі
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = Н
 browsing-optional-filter = Дадатковы фільтр:
 browsing-override-back-template = Перавызначыць шаблон адваротнага боку:
 browsing-override-font = Перавызначыць шрыфт:
@@ -95,6 +91,7 @@ browsing-suspended = Прыпыненыя
 browsing-tag-duplicates = Пазначыць дублікаты цэтлікам
 browsing-tag-rename-warning-empty = Вы не можаце перайменаваць цэтлік, пад якім няма нататак.
 browsing-target-field = Мэтавае поле:
+browsing-toggle-bury = Адкласці/Вярнуць
 browsing-toggle-showing-cards-notes = Пераключыць паказванне картак/нататак
 browsing-toggle-mark = Пазначыць/Зняць пазнаку
 browsing-toggle-suspend = Прыпыніць/Узнавіць
@@ -183,5 +180,9 @@ browsing-reparented-decks =
        *[other] Перайменавана { $count } калод
     }.
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = К
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = Н
