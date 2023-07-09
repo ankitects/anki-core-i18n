@@ -38,8 +38,10 @@ notetypes-type = Тып
 ## Image Occlusion
 
 notetypes-image = Відарыс
+notetypes-occlusion = Перакрыццё
 notetypes-occlusion-mask = Маска
 notetypes-occlusion-note = Нататка
 notetypes-comments-field = Каментарыі
 notetypes-toggle-masks = Пераключыць маскі
+notetypes-image-occlusion-name = Перакрыццё відарысаў
 notetype-error-no-image-to-show = Няма відарыса.
