@@ -51,6 +51,8 @@ editing-to-make-a-cloze-deletion-on = Каб дадаць запаўненне �
 editing-toggle-html-editor = Пераключыць рэдактар HTML
 editing-toggle-visual-editor = Пераключыць візуальны рэдактар
 editing-toggle-sticky = Пераключыць заліпанне
+editing-expand = Разгарнуць
+editing-collapse = Згарнуць
 editing-expand-field = Разгарнуць поле
 editing-collapse-field = Згарнуць поле
 editing-underline-text = Падкрэслены тэкст
@@ -59,6 +61,9 @@ editing-warning-cloze-deletions-will-not-work = Увага, запаўненні
 editing-mathjax-preview = Перадпрагляд MathJax
 editing-shrink-images = Паменшыць відарысы
 editing-close-html-tags = Аўтаматычна закрываць тэгі HTML
+editing-from-clipboard = З буфера абмену
+editing-alignment = Выраўноўванне
+editing-equations = Ураўненні
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -34,3 +34,12 @@ notetypes-note-types = Тыпы нататак
 notetypes-options = Параметры
 notetypes-please-add-another-note-type-first = Спачатку дадайце іншы тып нататкі.
 notetypes-type = Тып
+
+## Image Occlusion
+
+notetypes-image = Відарыс
+notetypes-occlusion-mask = Маска
+notetypes-occlusion-note = Нататка
+notetypes-comments-field = Каментарыі
+notetypes-toggle-masks = Пераключыць маскі
+notetype-error-no-image-to-show = Няма відарыса.

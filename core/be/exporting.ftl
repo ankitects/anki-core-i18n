@@ -38,6 +38,13 @@ exporting-note-exported =
        *[other] { $count } нататак экспартавана.
     }
 exporting-exporting-file = Экспартаванне файла...
+exporting-processed-media-files =
+    { $count ->
+        [one] Апрацаваны { $count } медыяфайл
+        [few] Апрацавана { $count } медыяфайлы
+        [many] Апрацавана { $count } медыяфайлаў
+       *[other] Апрацавана { $count } медыяфайлаў
+    }...
 exporting-include-deck = Уключыць назву калоды
 exporting-include-notetype = Уключыць назву тыпу нататкі
 exporting-include-guid = Уключыць унікальны ідэнтыфікатар

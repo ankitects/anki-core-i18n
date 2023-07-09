@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = Аўтаматычна сінхранізаваць пры адкрыцці/закрыцці профілю
 preferences-backups = Рэзервовыя копіі
-preferences-basic = Асноўнае
 preferences-change-deck-depending-on-note-type = Змяніць калоду ў залежнасці ад тыпу нататкі
 preferences-changes-will-take-effect-when-you = Змены набудуць моц, калі вы перазапусціце Anki.
 preferences-hours-past-midnight = гадзіны пасля поўначы
@@ -58,15 +57,20 @@ preferences-appearance = Выгляд
 preferences-general = Агульныя
 preferences-style = Стыль
 preferences-review = Перагляд
-preferences-reviewer = Пераглядчык
+preferences-answer-keys = Клавішы адказу
 preferences-distractions = Адцягненне ўвагі
 preferences-minimalist-mode = Мінімалістычны рэжым
 preferences-editing = Рэдагаванне
 preferences-browsing = Прагляд
 preferences-default-deck = Прадвызначаная калода
 preferences-account = Уліковы запіс AnkiWeb
-preferences-media = Медыя
 preferences-note = Нататка
 preferences-scheduler = Планіроўшчык
 preferences-user-interface = Карыстальніцкі інтэрфейс
 preferences-import-export = Імпарт/экспарт
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Асноўнае
+preferences-reviewer = Пераглядчык
+preferences-media = Медыя

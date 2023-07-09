@@ -58,6 +58,7 @@ media-check-delete-unused-complete =
        *[other] { $count } фалаў перамешчана
     } ў сметніцу.
 media-check-trash-emptied = Сметніца цяпер пустая.
+media-check-trash-restored = Выдаленыя файлы адноўлены ў папку медыя.
 
 ## Rendering LaTeX
 
@@ -72,3 +73,7 @@ media-check-empty-trash = Ачысціць сметніцу
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Аднавіць выдаленае
 media-check-check-media-action = Праверыць медыя
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = без-медыя
+# add a tag to notes with missing media
+media-check-add-tag = Пазначыць пустыя

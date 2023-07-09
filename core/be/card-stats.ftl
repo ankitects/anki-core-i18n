@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = На паўторнае вывучэнне
 card-stats-review-log-type-filtered = Фільтраваных
 card-stats-review-log-type-manual = Дапаможнік
 card-stats-no-card = (Няма картак да адлюстравання.)
+card-stats-custom-data = Адмысловыя даныя
 
 ## Window Titles
 

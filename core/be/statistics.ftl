@@ -165,6 +165,7 @@ statistics-cards-due =
     } чакае
 statistics-backlog-checkbox = Адставанне
 statistics-intervals-title = Інтэрвалы пераглядаў
+statistics-intervals-subtitle = Затрымка перад наступным пераглядам карткі.
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = З { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } правільных ({ $percent }%)
@@ -224,3 +225,4 @@ statistics-average-ease = Сярэдняя лёгкасць
 statistics-save-pdf = Захаваць PDF
 statistics-saved = Захавана.
 statistics-stats = статыстыка
+statistics-title = Статыстыка

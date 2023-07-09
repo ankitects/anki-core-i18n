@@ -63,3 +63,4 @@ card-templates-this-will-create-card-proceed =
        *[other] { $count } картак
     }. Працягнуць?
 card-templates-type-boxes-warning = Падтрымліваецца толькі адно поле ўводу на шаблон карткі.
+card-templates-restore-to-default = Аднавіць да прадвызначанага

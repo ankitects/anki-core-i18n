@@ -34,7 +34,6 @@ importing-multicharacter-separators-are-not-supported-please = Шматзнач�
 importing-notes-added-from-file = Нататак, дададзена з файла: { $val }
 importing-notes-found-in-file = Нататак знойдзена ў файле: { $val }
 importing-notes-skipped-as-theyre-already-in = Нататак прапушчана, бо яны ўжо ў вашай калекцыі: { $val }
-importing-notes-that-could-not-be-imported = Нататак, якіх немагчыма імпартаваць, бо тып нататкі змяніўся: { $val }
 importing-notes-updated-as-file-had-newer = Нататак абноўлена, бо файл меў найноўшую версію: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Спакаваная калода/калекцыя Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
@@ -91,10 +90,23 @@ importing-processed-media-file =
         [many] Апрацавана { $count } медыяфайлаў
        *[other] Апрацавана { $count } медыяфайлаў
     }
-importing-importing-collection = Імпартаванне калекцыі...
 importing-importing-file = Імпартаванне файла...
 importing-extracting = Выманне даных...
 importing-gathering = Збіранне даных...
+importing-processed-notes =
+    { $count ->
+        [one] Апрацавана { $count } нататка
+        [few] Апрацавана { $count } нататкі
+        [many] Апрацавана { $count } нататак
+       *[other] Апрацавана { $count } нататак
+    }...
+importing-processed-cards =
+    { $count ->
+        [one] Апрацавана { $count } картка
+        [few] Апрацавана { $count } карткі
+        [many] Апрацавана { $count } картак
+       *[other] Апрацавана { $count } картак
+    }...
 importing-existing-notes = Існуючыя нататкі
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Дубліраваць
@@ -103,4 +115,21 @@ importing-preserve = Аберагаць
 # "Existing notes: Update" (verb)
 importing-update = Абнавіць
 importing-tag-all-notes = Пазначыць усе нататкі
+importing-tag-updated-notes = Пазначыць абноўленыя нататкі
 importing-file = Файл
+# Used with the 'match scope' option
+importing-notetype-and-deck = Тып нататкі і калода
+importing-cards-added =
+    { $count ->
+        [one] Дададзена { $count } картка
+        [few] Дададзена { $count } карткі
+        [many] Дададзена { $count } картак
+       *[other] Дададзена { $count } картак
+    }.
+importing-file-empty = Выбраны вамі файл — пусты.
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Імпартаванне калекцыі...
+importing-unable-to-import-filename = Немагчыма імпартаваць { $filename }: тып файла не падтрымліваецца
+importing-notes-that-could-not-be-imported = Нататак, якіх немагчыма імпартаваць, бо тып нататкі змяніўся: { $val }
