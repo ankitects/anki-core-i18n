@@ -17,3 +17,6 @@ fields-sort-by-this-field-in-the = このフィールドでソート(並び替�
 fields-that-field-name-is-already-used = そのフィールド名は既に使用しています。
 fields-name-first-letter-not-valid = フィールド名の始めに「#」「^」「/」を使用することはできません。
 fields-name-invalid-letter = フィールド名にはこれらを含めることはできません：:, ", { "{" }, { "}" }
+# If enabled, the field is not included when searching for 'text', 're:text' and so on,
+# but is when searching for a specific field, eg 'field:text'.
+fields-exclude-from-search = フィールドを指定しない検索では除外（検索速度低下）

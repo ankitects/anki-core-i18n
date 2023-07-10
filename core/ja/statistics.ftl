@@ -113,6 +113,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }時~{ $hourEnd }時
 statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } 回
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% 正解 ({ $reviews }回)
 statistics-hours-title = 時間帯の分析
 statistics-hours-subtitle = 時間帯ごとの正解率
 # shown when graph is empty
@@ -160,3 +164,4 @@ statistics-average-ease = 易しさの平均値
 statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計
+statistics-title = 統計

@@ -29,3 +29,4 @@ exporting-note-exported =
     { $count ->
        *[other] { $count } 個のノートを書き出しました。
     }
+exporting-exporting-file = ファイルをエクスポート中...
