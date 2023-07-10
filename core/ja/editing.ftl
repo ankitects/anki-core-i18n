@@ -16,6 +16,7 @@ editing-customize-fields = フィールドをカスタマイズ
 editing-cut = カット
 editing-double-click-image = 画像をダブルクリック
 editing-double-click-to-expand = ダブルクリックで実寸表示
+editing-double-click-to-collapse = ダブルクリックで折りたたむ
 editing-edit-current = 現在のノートを編集
 editing-edit-html = HTML を編集
 editing-fields = フィールド
@@ -55,12 +56,14 @@ editing-to-make-a-cloze-deletion-on = このノートに穴埋め問題を作る
 editing-toggle-html-editor = HTMLエディタを表示
 editing-toggle-visual-editor = ビジュアルエディタを表示/非表示
 editing-toggle-sticky = この内容を固定
+editing-expand = 展開
 editing-collapse = 折りたたむ
 editing-expand-field = フィールドを展開
 editing-collapse-field = フィールドを折りたたむ
 editing-underline-text = 下線を追加
 editing-unordered-list = リスト（順序なし）
 editing-warning-cloze-deletions-will-not-work = 注意: 穴埋め問題は上部にある「ノートタイプ」の設定を「穴埋め」タイプに変更するまで機能しません。
+editing-mathjax-preview = MathJax のプレビュー
 editing-from-clipboard = クリップボードから
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.

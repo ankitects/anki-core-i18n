@@ -60,7 +60,7 @@ scheduling-update-required = あなたのコレクションは、V2スケジュ�
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = オーディオ再生の際、問題側のオーディオも必ず含める
+scheduling-always-include-question-side-when-replaying = オーディオ再生の際、質問側のオーディオも必ず含める
 scheduling-at-least-one-step-is-required = 最低でも一つのステップが必要です。
 scheduling-automatically-play-audio = 音声を自動再生する
 scheduling-bury-related-new-cards-until-the = 関連する新規カードを翌日まで延期する
