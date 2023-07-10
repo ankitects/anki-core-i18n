@@ -1,10 +1,10 @@
 actions-add = Magdagdag
 actions-all-selected = Napili lahat
 actions-any-selected = Kahit alin sa napili
-actions-cancel = Kanselahin
-actions-choose = Pumili
+actions-cancel = I-cancel
+actions-choose = Piliin
 actions-close = Isara
-actions-copy = Kopyahin
+actions-copy = I-copy
 actions-create-copy = Gumawa ng copy
 actions-custom-study = Custom Study
 actions-decks = Mga Deck
@@ -51,7 +51,7 @@ actions-remove-notetype = Tanggalin ang Notetype
 actions-update-notetype = I-update ang Notetype
 actions-update-config = I-update ang Config
 actions-card-info = Card Info
-actions-previous-card-info = Nakaraang Card Info
+actions-previous-card-info = Info ng nakaraang card
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = ...
