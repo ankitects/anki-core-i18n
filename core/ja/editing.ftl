@@ -1,4 +1,4 @@
-editing-actual-size = 実寸表示[エディターの幅が上限] / コンパクト表示  の切り替え
+editing-actual-size = 実寸表示[エディタの幅が上限] / コンパクト表示  の切り替え
 editing-add-media = メディアを追加
 editing-align-left = 左寄り
 editing-align-right = 右寄り
@@ -52,9 +52,10 @@ editing-tags-select-all = すべてのタグを選択
 editing-text-color = 文字色
 editing-text-highlight-color = 文字の背景色
 editing-to-make-a-cloze-deletion-on = このノートに穴埋め問題を作るには、まず今のノートタイプを穴埋め問題に対応したノートタイプに変更する必要があります。[編集] > [ノートタイプを変更]から、穴埋め問題に対応したノートタイプを選択してください。（Ankiインストール時から付属しているノートタイプのうちでは、「穴埋め」が穴埋め問題に対応しています。）
-editing-toggle-html-editor = HTMLエディターを表示
-editing-toggle-visual-editor = ビジュアルエディターを表示/非表示
+editing-toggle-html-editor = HTMLエディタを表示
+editing-toggle-visual-editor = ビジュアルエディタを表示/非表示
 editing-toggle-sticky = この内容を固定
+editing-collapse = 折りたたむ
 editing-expand-field = フィールドを展開
 editing-collapse-field = フィールドを折りたたむ
 editing-underline-text = 下線を追加
@@ -64,4 +65,4 @@ editing-from-clipboard = クリップボードから
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-html-editor = HTML エディタ
+editing-html-editor = HTMLエディタ
