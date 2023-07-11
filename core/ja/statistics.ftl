@@ -7,7 +7,7 @@ statistics-due-for-new-card = 新規#{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = カード { $cards-per-minute } 枚/分
+statistics-cards-per-min = { $cards-per-minute }枚 / 分
 statistics-average-answer-time = { $average-seconds }秒 ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
@@ -21,7 +21,7 @@ statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚のカード
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews }回
+statistics-reviews = { $reviews }枚
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -34,14 +34,14 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }学習しています ({ $secs-per-card }秒/枚)
+    }で学習しています ({ $secs-per-card }秒 / 枚)
 statistics-today-title = 今日
 statistics-today-again-count = 忘却回数:
 statistics-today-type-counts =
     習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、
     フィルター: { $filteredCount }枚
 statistics-today-no-cards = 今日はまだ1枚もカードを学習していません。
-statistics-today-no-mature-cards = 今日は習熟期の復習カードを学習していません
+statistics-today-no-mature-cards = 今日は習熟期のカードを復習していません
 statistics-today-correct-mature = 習熟期の復習の正解率: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = カードの合計枚数
 statistics-counts-new-cards = 新規
@@ -68,11 +68,11 @@ statistics-card-ease-tooltip =
        *[other] 易しさ{ $percent }のカードが{ $cards }枚
     }
 statistics-future-due-title = 期日
-statistics-future-due-subtitle = 復習期日に達するカードの枚数
+statistics-future-due-subtitle = 復習期日までの日数とそれぞれのカード枚数
 statistics-added-title = 追加
 statistics-added-subtitle = 新規カードの追加枚数
-statistics-reviews-count-subtitle = カードに回答した回数
-statistics-reviews-time-subtitle = カードの学習に費やした時間
+statistics-reviews-count-subtitle = 学習した枚数（カードに回答した回数）
+statistics-reviews-time-subtitle = カードの学習（回答）に費やした時間
 statistics-answer-buttons-title = 回答ボタン
 # eg Button: 4
 statistics-answer-buttons-button-number = ボタン
@@ -101,7 +101,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = 期日超過
 statistics-intervals-title = 間隔
-statistics-intervals-subtitle = 次の復習予定日
+statistics-intervals-subtitle = 次の復習までの間隔（日数）とそれぞれのカード枚数
 statistics-intervals-day-range =
     { $cards ->
        *[other] 間隔が{ $daysStart }~{ $daysEnd }日のカードが{ $cards }枚
@@ -141,7 +141,7 @@ statistics-elapsed-time-years = { $amount }年
 statistics-average-for-days-studied = 学習した日の平均
 statistics-total = 合計
 statistics-days-studied = 学習した日の割合
-statistics-average-answer-time-label = 平均所要時間
+statistics-average-answer-time-label = 平均回答時間
 statistics-average = 平均
 statistics-average-interval = 平均間隔
 statistics-due-tomorrow = 明日が期日
