@@ -72,3 +72,8 @@ media-check-render-latex = I-render ang LaTeX
 media-check-empty-trash = I-empty ang trash
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = I-restore ang deleted
+media-check-check-media-action = I-check ang media
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = nawawalang-media
+# add a tag to notes with missing media
+media-check-add-tag = I-tag ang nawawala
