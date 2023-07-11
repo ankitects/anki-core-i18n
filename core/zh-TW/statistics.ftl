@@ -132,7 +132,7 @@ statistics-hours-correct = 正確率： { $correct }/{ $total } ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 複習了 { $reviews } 次
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = 📈 答對了 { $percent }% ({ $reviews }次)
+statistics-hours-correct-reviews = 📈 答對了 { $percent }%（{ $reviews } 次）
 statistics-hours-title = 分時解析
 statistics-hours-subtitle = 在一天中各個時間段所複習的成功率
 # shown when graph is empty
