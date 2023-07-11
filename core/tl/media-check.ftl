@@ -31,18 +31,44 @@ media-check-template-references-field-header =
 
 media-check-renamed-file = Na-rename: { $old } -> { $new }
 media-check-oversize-file = Higit sa 100MB: { $filename }
+media-check-subfolder-file = Folder: { $filename }
+media-check-missing-file = Nawawala: { $filename }
+media-check-unused-file = Hindi gamít: { $filename }
 
 ##
 
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
+media-check-checked = { $count } ang na-check...
 
 ## Deleting unused media
 
+media-check-delete-unused-confirm = I-delete ang hindi gamít na media?
+media-check-files-remaining =
+    { $count ->
+        [one] { $count } file
+       *[other] { $count } (na) file
+    } ang natitira.
+media-check-delete-unused-complete =
+    { $count ->
+        [one] { $count } file
+       *[other] { $count } (na) file
+    } ang nalipat sa trash.
+media-check-trash-emptied = Walang nang laman ngayon ang trash folder.
+media-check-trash-restored = Ni-restore ang mga deleted file sa media folder.
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = Lahat ng LaTeX ay na-render.
 
 ## Buttons
 
+media-check-delete-unused = I-delete ang hindi gamít
+media-check-render-latex = I-render ang LaTeX
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = I-empty ang trash
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = I-restore ang deleted

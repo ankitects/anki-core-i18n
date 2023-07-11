@@ -105,9 +105,28 @@ deck-config-bury-title = Binu-bury
 deck-config-bury-new-siblings = Mag-bury ng new siblings
 deck-config-bury-review-siblings = I-bury ang review siblings
 deck-config-bury-interday-learning-siblings = I-bury ang interday learning siblings
+deck-config-bury-new-tooltip = Kung ang ibang `new` na card ng parehas na note (hal mga reverse card, at mga adjacent cloze deletion) ay madi-delay hanggang sa susunod na araw.
+deck-config-bury-review-tooltip = Kung ang ibang `review` card ng parehas na note ay madi-delay hanggang sa susunod na araw.
+deck-config-bury-interday-learning-tooltip =
+    Kung ang ibang `inaaral` na card ng parehas na note na may intervals na > 1 day
+    ay madi-delay hanggang sa susunod na araw.
+deck-config-bury-priority-tooltip =
+    Kapag nagtitipon ng card ang Anki, inuuna nito ang mga inaaral na intraday card, saka
+    ang inaaral na interday cards, saka mga review, at ang mga bagong card. Naapektuhan nito
+    kung paano gumagana ang pagbu-bury:
+    
+    - Kung may naka-enable ka na mga burying option, ang sibling na nangunguna
+    sa list ay ang lilitaw. Halimbawa, ang review card ay lilitaw in preference
+    sa isang bagong card.
+    - Hindi kayang i-bury ng mga sumunod na sibling sa list ang mga unang card type. Halimbawa, kung
+    dinisable mo ang pag-bury ng mga bagong card, at nag-aral ka ng bagong card, hindi nito ibu-bury ang interday
+    na pagaaral o mga review card, at baka pareho mong makita ang  isang review sibling at bagong sibling sa
+    parehas na session.
 
 ## Ordering section
 
+deck-config-ordering-title = Order ng pag-display
+deck-config-new-gather-priority = Order ng pagtipon ng bagong card
 
 ## Timer section
 
