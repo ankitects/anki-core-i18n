@@ -140,10 +140,10 @@ deck-config-interday-step-priority-tooltip =
 deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
 deck-config-review-mix-show-after-reviews = 復習の後に表示
 deck-config-review-mix-show-before-reviews = 復習の前に表示
-deck-config-review-sort-order = 復習カードのソート方法
+deck-config-review-sort-order = 復習カードを並べる順序
 deck-config-review-sort-order-tooltip =
-    デフォルトでは、最も長い時間を待機したカードが優先されるため、待機時間の長い順にカードが表示されます。
-    復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合、あるいはサブデッキの順番でカード学習をしたい場合など、お好みで別のソート方法を選択することができます。
+    デフォルトでは、最も長い期間待機しているカードが最初に表示されるよう、待機日数が大きい順にカードを表示します。
+    復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合や、あるいはサブデッキの順番でカード学習をしたい場合など、状況や好みに応じて別のソート方法を選択することができます。
 deck-config-sort-order-due-date-then-random = 期日の後、ランダム
 deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
 deck-config-sort-order-deck-then-due-date = デッキの後、期日
