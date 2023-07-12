@@ -19,7 +19,7 @@ statistics-in-time-span-hours = { $amount }時間後
 statistics-in-time-span-days = { $amount }日後
 statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
-statistics-cards = { $cards }枚のカード
+statistics-cards = { $cards }枚
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews }枚
 # Shown at the bottom of the deck list, and in the statistics screen.
@@ -70,7 +70,7 @@ statistics-card-ease-tooltip =
 statistics-future-due-title = 期日
 statistics-future-due-subtitle = 復習期日までの日数とそれぞれのカード枚数
 statistics-added-title = 追加
-statistics-added-subtitle = 新規カードの追加枚数
+statistics-added-subtitle = 新規カードを追加した枚数
 statistics-reviews-count-subtitle = 学習した枚数（カードに回答した回数）
 statistics-reviews-time-subtitle = カードの学習（回答）に費やした時間
 statistics-answer-buttons-title = 回答ボタン

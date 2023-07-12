@@ -1,4 +1,4 @@
-exporting-all-decks = 全てのデッキ
+exporting-all-decks = すべてのデッキ
 exporting-anki-20-deck = Anki 2.0 デッキ
 exporting-anki-collection-package = Anki コレクションパッケージ
 exporting-anki-deck-package = Anki デッキパッケージ

@@ -35,7 +35,7 @@ scheduling-learn-remaining =
     { $remaining ->
        *[other] 本日中に再び表示される習得中カードが{ $remaining }枚あります。
     }
-scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題を全て達成しました！
+scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題をすべて達成しました！
 scheduling-today-review-limit-reached =
     復習カードはまだ残ってますが、今日の出題上限に達しました。
     適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。
@@ -96,8 +96,8 @@ scheduling-restore-position = 可能な限り元の位置を復元
 scheduling-review = 復習
 scheduling-reviews = 復習
 scheduling-seconds = 秒
-scheduling-set-all-decks-below-to = このオプショングループをこのデッキ「{ $val }」内の全てのサブデッキにも適用しますか？
-scheduling-set-for-all-subdecks = 全てのサブデッキに適用する
+scheduling-set-all-decks-below-to = このオプショングループをこのデッキ「{ $val }」内のすべてのサブデッキにも適用しますか？
+scheduling-set-for-all-subdecks = すべてのサブデッキに適用する
 scheduling-show-answer-timer = 回答タイマーを表示する
 scheduling-show-new-cards-after-reviews = 復習カードの後に新規カードを学習する
 scheduling-show-new-cards-before-reviews = 復習カードの前に新規カードを学習する

@@ -18,7 +18,7 @@ studying-counts-differ =
     「兄弟関係のカードの延期」オプションが有効になっており、該当するカードがあるため、デッキリストとカウントが異なります。
     灰色の数字は、同オプションによって延期となったカードの枚数を表しています。延期となったカードの代わりに、他のカードがカウントされている場合もあります。
 studying-delete-note = ノートを削除
-studying-deleting-this-deck-from-the-deck = このデッキを削除すると、残りのカードも全て元のデッキに戻ります。
+studying-deleting-this-deck-from-the-deck = このデッキを削除すると、残りのカードもすべて元のデッキに戻ります。
 studying-easy = 簡単
 studying-edit = 編集
 studying-empty = 空にする
