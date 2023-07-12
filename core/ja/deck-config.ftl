@@ -162,7 +162,7 @@ deck-config-maximum-answer-secs-tooltip =
     カード学習に要した時間として記録する１件の回答の最長秒数。
     
     この秒数を超えた場合（例えば、カード学習の途中でスクリーンから離れた場合など）、ここで設定した最長秒数がそのカードの回答に要した時間として記録されます。
-deck-config-show-answer-timer-tooltip = カード学習画面に、それぞれのカードの回答に要した時間をカウントするタイマーを表示します。
+deck-config-show-answer-timer-tooltip = カード学習画面に、表示中のカードの回答秒数をカウントするタイマーを表示します。
 
 ## Audio section
 
