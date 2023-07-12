@@ -137,21 +137,21 @@ deck-config-interday-step-priority-tooltip =
     「間隔が日をまたいでいるステップにある習得中（再習得中）カード」をどのタイミングで表示するかを選択できます。
     
     「一日の復習枚数の上限」オプションの枚数に従って表示するカードを選び出す際には、この「間隔が日をまたいでいるステップにある習得中（再習得中）カード」が復習カードよりも常に優先されます。それに対してこのオプションでは、その後の「優先的に選び出したそれらのカードと復習カードをどのような順序で表示するか」を設定します。
-deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
+deck-config-review-mix-mix-with-reviews = 復習カードと交ぜる
 deck-config-review-mix-show-after-reviews = 復習の後に表示
 deck-config-review-mix-show-before-reviews = 復習の前に表示
 deck-config-review-sort-order = 復習カードを並べる順序
 deck-config-review-sort-order-tooltip =
     デフォルトでは、最も長い期間待機しているカードが最初に表示されるよう、待機日数が大きい順にカードを表示します。
     復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合や、あるいはサブデッキの順番でカード学習をしたい場合など、状況や好みに応じて別のソート方法を選択することができます。
-deck-config-sort-order-due-date-then-random = 期日の後、ランダム
-deck-config-sort-order-due-date-then-deck = 期日の後、デッキ
-deck-config-sort-order-deck-then-due-date = デッキの後、期日
-deck-config-sort-order-ascending-intervals = 間隔（昇順）
-deck-config-sort-order-descending-intervals = 間隔（降順）
-deck-config-sort-order-ascending-ease = 易しさ昇順
-deck-config-sort-order-descending-ease = 易しさ降順
-deck-config-sort-order-relative-overdueness = 期日超過が相対的に大きい順
+deck-config-sort-order-due-date-then-random = 期日超過日数が大きい順→同日数どうしはランダム
+deck-config-sort-order-due-date-then-deck = 期日超過日数が大きい順→同日数どうしはデッキの並び順
+deck-config-sort-order-deck-then-due-date = デッキの並び順→デッキ内では期日超過日数が大きい順
+deck-config-sort-order-ascending-intervals = 復習間隔が短い順
+deck-config-sort-order-descending-intervals = 復習間隔が長い順
+deck-config-sort-order-ascending-ease = 易しさが低い順
+deck-config-sort-order-descending-ease = 易しさが高い順
+deck-config-sort-order-relative-overdueness = 期日超過率が大きい順
 deck-config-display-order-will-use-current-deck = 表示順序の設定は、学習を開始する時に選択したデッキのオプションでの設定が用いられます。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
 
 ## Timer section
