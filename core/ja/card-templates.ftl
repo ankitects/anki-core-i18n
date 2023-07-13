@@ -11,7 +11,7 @@ card-templates-preview-box = プレビュー
 card-templates-template-box = テンプレート
 card-templates-sample-cloze = これは穴埋め問題の{ "{{c1::" }サンプル{ "}}" }です。
 card-templates-fill-empty = フィールドの内容が空の場合はフィールド名をプレビューで表示
-card-templates-night-mode = ダークモードでプレビュー
+card-templates-night-mode = ナイトモード
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = モバイル (mobile) クラスの指定を追加してプレビュー
