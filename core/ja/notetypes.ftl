@@ -11,7 +11,7 @@ notetypes-back-extra-field = 裏面追記
 notetypes-basic-name = 基本
 notetypes-basic-reversed-name = 基本 (裏表反転カード付き)
 notetypes-basic-optional-reversed-name = 基本 (裏表反転カード追加可能)
-notetypes-basic-type-answer-name = 基本 (解答タイピング入力)
+notetypes-basic-type-answer-name = 基本 (文字入力解答)
 notetypes-cloze-name = 穴埋め
 
 ## Default card template names
