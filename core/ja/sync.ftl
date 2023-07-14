@@ -34,7 +34,7 @@ sync-conflict-explanation =
     ダウンロードを選択すると、AnkiWeb からコレクションをダウンロードします。前回の同期以降にこのデバイス上で行った変更は失われます。
     
     すべてのデバイスで同期した後は、各デバイスでのカードの学習や追加が自動的に統合できるようになります。
-sync-ankiweb-id-label = Ankiウェブ ID:
+sync-ankiweb-id-label = AnkiWeb ID:
 sync-password-label = パスワード:
 sync-account-required =
     <h1>アカウントが必要です</h1>
