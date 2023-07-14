@@ -15,7 +15,7 @@ scheduling-answer-button-time-years = { $amount } 年
 ## such as in the Interval column of the browse screen,
 ## and labels like "Total Time" in the card info screen.
 
-scheduling-time-span-seconds = { $amount } 秒鐘
+scheduling-time-span-seconds = { $amount } 秒
 scheduling-time-span-minutes = { $amount } 分鐘
 scheduling-time-span-hours = { $amount } 小時
 scheduling-time-span-days = { $amount } 天
@@ -106,7 +106,7 @@ scheduling-parent-limit = （上層牌組上限：{ $val }）
 scheduling-reset-counts = 重設重複和忘記次數
 scheduling-restore-position = 儘可能回復原始順序
 scheduling-review = 複習
-scheduling-reviews = 待複習卡片
+scheduling-reviews = 複習次數
 scheduling-seconds = 秒
 scheduling-set-all-decks-below-to = 要將「{ $val }」下的所有牌組都設為此選項群組嗎？
 scheduling-set-for-all-subdecks = 設定所有下層牌組

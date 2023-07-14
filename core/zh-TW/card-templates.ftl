@@ -2,7 +2,7 @@
 card-templates-blank = 空格
 card-templates-changes-will-affect-notes =
     { $count ->
-       *[other] 以下更動將影響 { $count } 則正在使用此卡片類型的筆記。
+       *[other] 在下方做出的更動將影響 { $count } 則正在使用此卡片類型的筆記。
     }
 card-templates-card-type = 卡片類型：
 card-templates-front-template = 正面模板
@@ -38,7 +38,7 @@ card-templates-deck-override = 覆蓋牌組...
 card-templates-delete-the-as-card-type-and = 要刪除「{ $template }」卡片類型，及其 { $cards }嗎？
 card-templates-enter-deck-to-place-new = 請輸入要將新的「{ $val }」卡片加入的牌組名稱（可留空）：
 card-templates-enter-new-card-position-1 = 輸入新的卡片順序（1...{ $val }）:
-card-templates-flip = 翻面
+card-templates-flip = 反轉
 card-templates-form = 表單
 card-templates-off = （已停用）
 card-templates-on = （已啟用）
