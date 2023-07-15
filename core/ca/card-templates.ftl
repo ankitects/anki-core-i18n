@@ -58,4 +58,7 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-type-boxes-warning = Només podeu fer servir un quadre de text.
 card-templates-restore-to-default = Restaura per defecte
+card-templates-restore-to-default-confirmation =
+    Tots els camps i les plantilles d’aquest tipus de nota tornaran als seus valors per defecte
+    i s’eliminaran els camps i les plantilles addicionals, el seu contingut i els estils personalitzats. Voleu continuar?
 card-templates-restored-to-default = El tipus de nota s’ha restaurat amb la configuració inicial.

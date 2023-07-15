@@ -17,9 +17,8 @@ deck-config-title = Opcions de la baralla
 
 deck-config-daily-limits = Límits diaris
 deck-config-new-limit-tooltip =
-    Nombre màxim de targetes noves que veureu en un dia, si n'hi ha de disponibles.
-    Com que el material nou augmentarà la vostra càrrega de repàs a curt termini, aquesta opció
-    hauria de ser almenys 10 vegades inferior al vostre límit de repàs.
+    Nombre màxim de targetes noves que veureu en un dia, si n’hi ha de disponibles.
+    Com que el material nou incrementarà la vostra càrrega de repassos a curt termini, aquesta opció hauria de ser almenys 10 vegades inferior al vostre límit de repassos.
 deck-config-review-limit-tooltip =
     Nombre màxim de targetes de repàs que es mostraran en un dia,
     sempre que estiguin preparades perquè les repasseu.
@@ -28,17 +27,21 @@ deck-config-limit-deck-v3 =
     secundària determinaran el nombre màxim de targetes que s’obtindran d’aquella baralla en particular.
     Els límits de la baralla que heu seleccionat determinaran el total de targetes que es mostraran.
 deck-config-limit-new-bound-by-reviews =
-    El límit de repàs afecta el límit de noves targetes. Per exemple, si el vostre límit
-    de repassos està definit en 200 i teniu 190 repassos en espera, s'introduiran un màxim
-    de 10 targetes noves. Quan hàgiu assolit el vostre límit de repàs, no es mostraran noves targetes.
+    El límit de repassos afecta el límit de noves targetes. Per exemple, si el vostre límit
+    de repassos és de 200 i teniu 190 repassos en espera, s’introduiran 10 targetes noves
+    com a màxim. Quan hàgiu assolit el límit de repassos, no es mostraran targetes noves.
 deck-config-limit-interday-bound-by-reviews =
-    El límit de repàs també afecta les targetes d'aprenentatge entre dies. Quan apliqueu el límit,
-    primer s'obtindran les targetes d'aprenentatge entre dies; més tard, els repassos; i finalment, les targetes noves.
+    El límit de repassos també afecta les targetes d’aprenentatge entre dies. Quan apliqueu el límit,
+    primer es mostraran les targetes d’aprenentatge entre dies i tot seguit els repassos.
 deck-config-tab-description =
     - `Prefixada`: Totes les baralles que facin servir aquesta configuració compartiran un mateix límit.
     - `Aquesta baralla`: El límit serà exclusiu d’aquesta baralla.
     - `Només avui`: Modifica temporalment el límit d’aquesta baralla.
 deck-config-new-cards-ignore-review-limit = Les noves targetes no tindran en compte el límit de repassos
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Per defecte, el límit de repassos també s’aplica a les targetes noves, i no es mostrarà
+    cap targeta nova quan assoliu aquest límit. Si activeu aquesta opció, les targetes noves
+    es mostraran sense tenir en compte el límit de repassos.
 deck-config-affects-entire-collection = Afecta la col·lecció sencera.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -106,6 +109,18 @@ deck-config-bury-review-tooltip = Decidiu si voleu retardar fins a l'endemà les
 deck-config-bury-interday-learning-tooltip =
     Decidiu si voleu retardar fins a l'endemà les altres targetes d'aprenentatge d'una nota
     que tinguen un interval major a un dia.
+deck-config-bury-priority-tooltip =
+    Primer, Anki recopila les targetes d’aprenentatge d’un dia; tot seguit,
+    les targetes d’aprenentatge entre dies; i, finalment, les targetes noves.
+    Aquesta priorització determina com funciona de l’enterrament:
+    
+    – Si heu activat totes les opcions d’enterrament, es mostrarà la targeta relacionada
+    que aparegui primera seguint aquest ordre. Per exemple, es mostrarà una targeta
+    per repassar abans que una targeta nova.
+    – Les targetes relacionades de la llista no enterraran els tipus de targeta anteriors.
+    Per exemple, si desactiveu l’enterrament de targetes noves i estudieu una targeta nova,
+    no s’enterrarà cap targeta d’aprenentatge entre dies o targeta per repassar. Fins i tot, podríeu
+    arribar a veure una targeta relacionada per repassar i una targeta relacionada nova en la mateixa sessió.
 
 ## Ordering section
 
@@ -146,11 +161,11 @@ deck-config-new-review-priority = Ordre de noves i per repassar
 deck-config-new-review-priority-tooltip = Quan es mostraran les targetes noves en relació amb les targetes per repassar.
 deck-config-interday-step-priority = Ordre d'aprenentatge entre dies i de repàs
 deck-config-interday-step-priority-tooltip =
-    Quan es mostraran les targetes d'aprenentatge o reaprenentatge que superin el límit d'un dia.
+    Quan es mostraran les targetes d’aprenentatge o reaprenentatge que superin el límit d’un dia.
     
-    El límit de repàs sempre s'aplicarà primer a les targetes d'aprenentatge entre dies i després als
-    repassos. Aquesta opció controla l'ordre en què es mostren les targetes, tot i que les targetes
-    d'aprenentatge entre dies sempre es mostraran primer.
+    El límit de repassos sempre s’aplicarà primer a les targetes d’aprenentatge entre dies i després als
+    repassos. Aquesta opció controla l’ordre en què es mostren les targetes, tot i que les targetes
+    d’aprenentatge entre dies sempre es mostraran primer.
 deck-config-review-mix-mix-with-reviews = Barreja amb les targetes per repassar
 deck-config-review-mix-show-after-reviews = Mostra després de les targetes per repassar
 deck-config-review-mix-show-before-reviews = Mostra abans de les targetes per repassar
@@ -178,9 +193,9 @@ deck-config-display-order-will-use-current-deck =
 deck-config-timer-title = Temporitzador
 deck-config-maximum-answer-secs = Temps màxim de resposta en segons
 deck-config-maximum-answer-secs-tooltip =
-    El nombre màxim de segons que s'enregistraran per a un sol repàs. Si la resposta
-    excedeix aquest temps (perquè, per exemple, heu deixat de fer servir l'ordinador
-    temporalment), el temps que s'enregistrarà serà el que seleccioneu com a límit.
+    El nombre màxim de segons que s’enregistraran per a un sol repàs. Si la resposta
+    excedeix aquest temps (perquè, per exemple, heu deixat de fer servir l’ordinador
+    temporalment), el temps que s’enregistrarà serà el que seleccioneu com a límit.
 deck-config-show-answer-timer-tooltip =
     Activa un cronòmetre en la finestra de repàs que mostra els segons
     que tardes a repassar cada targeta.
@@ -201,9 +216,9 @@ deck-config-always-include-question-audio-tooltip =
 
 deck-config-advanced-title = Avançat
 deck-config-maximum-interval-tooltip =
-    El nombre màxim de dies que una targeta per repassar romandrà a l'espera. Quan els repassos
+    El nombre màxim de dies que una targeta per repassar romandrà a l’espera. Quan els repassos
     hagin assolit el límit, tots els botons («Difícil, «Correcte» i «Fàcil») retardaran la targeta
-    el mateix nombre de dies. Com més curt siga aquest termini, més gran serà la vostra càrrega d'estudi.
+    el mateix nombre de dies. Com més curt siga aquest termini, més gran serà la vostra càrrega d’estudi.
 deck-config-starting-ease-tooltip =
     El multiplicador de faciltat amb què comencen les noves targetes. Per defecte, es retardarà
     2,5 vegades el pròxim repàs d'una targeta acabada d'aprendre quan premeu «Correcte».
@@ -260,9 +275,9 @@ deck-config-daily-limit-will-be-capped =
     } que substituirà aquest límit.
 deck-config-reviews-too-low =
     Si afegiu { $cards ->
-        [one] una targeta nova
-       *[other] { $cards } targetes noves
-    } cada dia, el vostre límit de repàs hauria de ser d'almenys { $expected }.
+        [one] una targeta nova cada dia
+       *[other] { $cards } targetes noves cada dia
+    }, el vostre límit de repassos hauria de ser d’almenys { $expected }.
 deck-config-learning-step-above-graduating-interval = L'interval de graduació ha de ser almenys tan gran com l'últim pas de l'etapa d'aprenentatge.
 deck-config-good-above-easy = L'interval per a les targetes fàcils ha de ser almenys tan gran com l'interval de graduació.
 deck-config-relearning-steps-above-minimum-interval = L'interval mínim ha de ser almenys tan gran com l'últim pas de l'etapa de reaprenentatge.
