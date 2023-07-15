@@ -207,7 +207,9 @@ deck-config-maximum-interval-tooltip =
 deck-config-starting-ease-tooltip =
     El multiplicador de faciltat amb què comencen les noves targetes. Per defecte, es retardarà
     2,5 vegades el pròxim repàs d'una targeta acabada d'aprendre quan premeu «Correcte».
-deck-config-easy-bonus-tooltip = Un multiplicador addicional que s'aplica a l'interval de revisió d'una targeta quan premeu «Fàcil».
+deck-config-easy-bonus-tooltip =
+    Un multiplicador addicional que s’aplica a l’interval de repàs d’una targeta
+    quan premeu «Fàcil».
 deck-config-interval-modifier-tooltip =
     Aquest multiplicador s'aplica a tots els repassos. Podeu fer petites modificacions
     perquè Anki sigui més conservador o agressiu a l'hora de planificar els repassos.
