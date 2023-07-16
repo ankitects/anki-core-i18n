@@ -12,11 +12,11 @@ deck-config-title = 牌組選項
 ## Daily limits section
 
 deck-config-daily-limits = 每日上限
-deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。由於學習新內容會加重你的短期複習量，因此該選項通常應設定為複習上限的 10% 或更少。
+deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。由於學習新內容會加重你的短期複習量，因此該選項通常應設定為複習卡上限的 10% 或更少。
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
-deck-config-limit-deck-v3 = 當一個牌組具有下層牌組時，每一個下層牌組的數量上限決定了各自在上層牌組中顯示的卡片數量上限。選取學習的牌組所設定的數量上限決定所有卡片顯示的數量上限。
-deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
-deck-config-limit-interday-bound-by-reviews = 複習上限也會影響隔天學習卡片。套用上限時，優先擷取隔天學習卡片，再算入複習卡。
+deck-config-limit-deck-v3 = 當學習中的牌組具有下層牌組時，在每一個下層牌組中抽取的卡片數量上限取決於相應牌組設定的上限。選取學習的牌組的上限決定所有卡片顯示的數量上限。
+deck-config-limit-new-bound-by-reviews = 複習卡上限會影響新卡片上限。若複習卡上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習卡上限，則不會再顯示新卡片。
+deck-config-limit-interday-bound-by-reviews = 複習卡上限也會影響隔天學習卡片。套用上限時，隔天學習卡片會被優先擷取，再算入複習卡。
 deck-config-tab-description =
     - `預設設定`：所有使用此預設設定的牌組的上限。
     - `當前牌組`：當前牌組的上限。
@@ -50,7 +50,7 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議
 
 deck-config-relearning-steps = 重新學習階段
 deck-config-relearning-steps-tooltip = 零或多段延遲，用空白分隔。在複習卡按下 `重來` 按鈕後，預設會在 10 分鐘後重新顯示。若沒有提供延遲，卡片則將改變間隔，但不會進入重新學習階段。{ -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = 在複習卡按下 `重來` 多少次後將被標記為低效卡。低效卡耗費了你大量的時間，對待低效卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
+deck-config-leech-threshold-tooltip = 複習卡被標記為低效卡所需按下 `重來` 的次數。低效卡耗費了你大量的時間，對待低效卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `僅加上標籤`：對筆記加上「leech」標籤，並顯示一個彈出式視窗。
@@ -83,7 +83,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `遞減順序`：依遞減順序收集卡片（到期 #），通常依新增順序從晚到早排序。
     
-    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現（如「正面->背面」和「背面->正面」兩張卡片同時出現）
+    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現（如「正面→背面」和「背面→正面」兩張卡片同時出現）
     
     `隨機卡片`：完全隨機收集卡片。
 deck-config-new-gather-priority-deck = 牌組順序
@@ -113,7 +113,7 @@ deck-config-interday-step-priority = 隔天學習/複習卡順序
 deck-config-interday-step-priority-tooltip =
     隔天學習時，（重新）學習中的卡片的顯示順序。
     
-    複習上限總是優先計算隔天學習的卡片，再套用到複習卡。此選項將控制收集的卡片的顯示順序，但跨天學習卡片永遠會被優先收集。
+    複習卡上限總是優先計算隔天學習的卡片，再套用到複習卡。此選項將控制收集的卡片的顯示順序，但收集順序永遠會優先收集跨天學習卡片。
 deck-config-review-mix-mix-with-reviews = 與複習卡混合
 deck-config-review-mix-show-after-reviews = 先顯示複習卡
 deck-config-review-mix-show-before-reviews = 後顯示複習卡
