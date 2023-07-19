@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = 期日
 # The count of cards waiting to be reviewed
-statistics-due-count = 期日
+statistics-due-count = 復習
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = 新規#{ $number }
 
@@ -67,8 +67,8 @@ statistics-card-ease-tooltip =
     { $cards ->
        *[other] 易しさ{ $percent }のカードが{ $cards }枚
     }
-statistics-future-due-title = 期日
-statistics-future-due-subtitle = 復習期日までの日数とそれぞれのカード枚数
+statistics-future-due-title = 今後の課題
+statistics-future-due-subtitle = 復習期日または次の習得学習までの日数とそれぞれのカード枚数
 statistics-added-title = 追加
 statistics-added-subtitle = 新規カードを追加した枚数
 statistics-reviews-count-subtitle = 学習した枚数（カードに回答した回数）
