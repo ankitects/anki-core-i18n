@@ -97,9 +97,9 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd }日前
 statistics-running-total = 累計
 statistics-cards-due =
     { $cards ->
-       *[other] { $cards }枚が期日
+       *[other] { $cards }枚の課題
     }
-statistics-backlog-checkbox = 期日超過
+statistics-backlog-checkbox = 延滞分も表示
 statistics-intervals-title = 間隔
 statistics-intervals-subtitle = 次の復習までの間隔（日数）とそれぞれのカード枚数
 statistics-intervals-day-range =
@@ -138,7 +138,7 @@ statistics-elapsed-time-years = { $amount }年
 
 ##
 
-statistics-average-for-days-studied = 学習した日の平均
+statistics-average-for-days-studied = 学習した日での平均
 statistics-total = 合計
 statistics-days-studied = 学習した日の割合
 statistics-average-answer-time-label = 平均回答時間
@@ -147,7 +147,7 @@ statistics-average-interval = 平均間隔
 statistics-due-tomorrow = 明日が期日
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
-statistics-average-over-period = 期間全体の平均
+statistics-average-over-period = 期間全体での平均
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count }枚 / 日
