@@ -68,7 +68,7 @@ statistics-card-ease-tooltip =
        *[other] 易しさ{ $percent }のカードが{ $cards }枚
     }
 statistics-future-due-title = 今後の課題
-statistics-future-due-subtitle = 復習期日または次の習得学習までの日数とそれぞれのカード枚数
+statistics-future-due-subtitle = 期日（次の復習または習得学習）までの日数とカード枚数
 statistics-added-title = 追加
 statistics-added-subtitle = 新規カードを追加した枚数
 statistics-reviews-count-subtitle = 学習した枚数（カードに回答した回数）
@@ -97,7 +97,7 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd }日前
 statistics-running-total = 累計
 statistics-cards-due =
     { $cards ->
-       *[other] { $cards }枚の課題
+       *[other] { $cards }枚が期日
     }
 statistics-backlog-checkbox = 延滞分も表示
 statistics-intervals-title = 間隔
