@@ -34,16 +34,16 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }で学習しています ({ $secs-per-card }秒 / 枚)
+    }で学習しています ({ $secs-per-card }秒/枚)
 statistics-today-title = 今日
-statistics-today-again-count = 忘却回数:
+statistics-today-again-count = 「やり直し」の回数:
 statistics-today-type-counts =
     習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、
     フィルター: { $filteredCount }枚
 statistics-today-no-cards = 今日はまだ1枚もカードを学習していません。
 statistics-today-no-mature-cards = 今日は習熟期のカードを復習していません
 statistics-today-correct-mature = 習熟期の復習の正解率: { $correct }/{ $total } ({ $percent }%)
-statistics-counts-total-cards = カードの合計枚数
+statistics-counts-total-cards = 合計
 statistics-counts-new-cards = 新規
 statistics-counts-young-cards = 復習 [未習熟期]
 statistics-counts-mature-cards = 復習 [習熟期]
@@ -68,7 +68,7 @@ statistics-card-ease-tooltip =
        *[other] 易しさ{ $percent }のカードが{ $cards }枚
     }
 statistics-future-due-title = 今後の課題
-statistics-future-due-subtitle = 期日（次の復習または習得学習）までの日数とカード枚数
+statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数
 statistics-added-title = 追加
 statistics-added-subtitle = 新規カードを追加した枚数
 statistics-reviews-count-subtitle = 学習した枚数（カードに回答した回数）
@@ -114,7 +114,7 @@ statistics-intervals-day-single =
 statistics-hours-range = { $hourStart }時~{ $hourEnd }時
 statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
 # the emoji depicts the graph displaying this number
-statistics-hours-reviews = 📊 { $reviews } 回
+statistics-hours-reviews = 📊 { $reviews }回
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% 正解 ({ $reviews }回)
 statistics-hours-title = 時間帯の分析
