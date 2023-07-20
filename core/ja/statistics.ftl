@@ -108,17 +108,17 @@ statistics-intervals-day-range =
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] 間隔が{ $day }日のカードが{ $cards }枚
+       *[other] 間隔が{ $day }日のカード: { $cards }枚
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }時~{ $hourEnd }時
-statistics-hours-correct = { $correct }/{ $total } 正解 ({ $percent }%)
+statistics-hours-correct = 正解率: { $correct }/{ $total } ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews }回
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% 正解 ({ $reviews }回)
 statistics-hours-title = 時間帯の分析
-statistics-hours-subtitle = 時間帯ごとの正解率
+statistics-hours-subtitle = 時間帯ごとの学習回数と正解率
 # shown when graph is empty
 statistics-no-data = データなし
 statistics-calendar-title = カレンダー
