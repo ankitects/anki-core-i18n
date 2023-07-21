@@ -1,8 +1,7 @@
 browsing-add-notes = Adicionar Notas...
-browsing-add-tags2 = Adicionar Etiquetas...
 browsing-add-to-selected-notes = Adicionar às Notas Selecionadas
 browsing-remove-from-selected-notes = Remover das Notas Selecionadas
-browsing-addon = Extensão
+browsing-addon = Extensões
 browsing-all-fields = Todos os Campos
 browsing-answer = Resposta
 browsing-any-flag = Qualquer emblema
@@ -13,8 +12,6 @@ browsing-browser-options = Opções do Painel
 browsing-buried = Oculto
 browsing-card = Cartão
 browsing-cards = Cartões
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
 browsing-card-list = Lista de Cartões
 browsing-cards-cant-be-manually-moved-into = Os cartões não podem ser movidos manualmente para um baralho filtrado.
 browsing-cards-deleted =
@@ -61,8 +58,6 @@ browsing-no-flag = Sem Marcador
 browsing-no-selection = Nenhum cartão ou nota selecionado.
 browsing-note = Nota
 browsing-notes = Notas
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = Flitro Opcional
 browsing-override-back-template = Substituir modelo do verso:
 browsing-override-font = Substituir frente:
@@ -167,5 +162,9 @@ browsing-reparented-decks =
        *[other] { $count } baralhos renomeados.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

@@ -31,6 +31,9 @@ media-check-subfolder-file = Pasta: { $filename }
 media-check-missing-file = Perdido: { $filename }
 media-check-unused-file = Não usado: { $filename }
 
+##
+
+
 ## Progress
 
 media-check-checked = Verificado { $count }...
