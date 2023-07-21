@@ -149,6 +149,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = De { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correto ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } revisões
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% corretas ({ $reviews })
 statistics-hours-title = Distribuição por hora
 statistics-hours-subtitle = Rever a taxa de sucesso para cada hora do dia.
 # shown when graph is empty
@@ -199,3 +203,4 @@ statistics-average-ease = Dificuldade média
 statistics-save-pdf = Salvar PDF
 statistics-saved = Salvo.
 statistics-stats = estatísticas
+statistics-title = Estatísticas

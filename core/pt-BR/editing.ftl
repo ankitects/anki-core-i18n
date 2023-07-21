@@ -16,6 +16,7 @@ editing-customize-fields = Personalizar Campos
 editing-cut = Recortar
 editing-double-click-image = clique duas vezes na imagem
 editing-double-click-to-expand = (clique duas vezes para expandir)
+editing-double-click-to-collapse = Clique duplo para recolher
 editing-edit-current = Editar Atual
 editing-edit-html = Editar HTML
 editing-fields = Campos
@@ -55,12 +56,17 @@ editing-to-make-a-cloze-deletion-on = Para omitir palavras em uma nota existente
 editing-toggle-html-editor = Alternar para Editor de HTML
 editing-toggle-visual-editor = Alternar para Editor Visual
 editing-toggle-sticky = Alternar cola
+editing-expand = Expandir
+editing-collapse = Recolher
 editing-expand-field = Expandir campo
 editing-collapse-field = Diminuir campo
 editing-underline-text = Sublinhar texto
 editing-unordered-list = Lista não-ordenada
 editing-warning-cloze-deletions-will-not-work = Atenção, omissões de palavras não funcionarão até que você mude o tipo na parte superior para Omissão de Palavras.
 editing-close-html-tags = Fechar automaticamente a tag HTML
+editing-from-clipboard = Da Área de Transferência
+editing-alignment = Alinhamento
+editing-equations = Equações
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

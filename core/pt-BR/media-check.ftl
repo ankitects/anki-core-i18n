@@ -22,6 +22,10 @@ media-check-oversize-header = Arquivos acima de 100MB não podem ser sincronizad
 media-check-subfolder-header = As pastas dentro da pasta de mídia não são suportadas.
 media-check-missing-header = Os seguintes arquivos são referenciados por cartões, mas não foram encontrados na pasta de mídia:
 media-check-unused-header = Os seguintes arquivos foram encontrados na pasta de mídia, mas não parecem ser usados em nenhum cartão:
+media-check-template-references-field-header =
+    Anki não consegue detectar arquivos usados quando você usa referências { "{{Field}}" } em etiquetas de mídia/LaTeX. As etiquetas de mídia/LaTeX devem ser colocadas em notas individuais.
+    
+    Modelos de referência:
 
 ## Shown once for each file
 
@@ -33,6 +37,8 @@ media-check-unused-file = Não usado: { $filename }
 
 ##
 
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
@@ -67,3 +73,7 @@ media-check-empty-trash = Esvaziar Lixeira
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Restaurar Excluído
 media-check-check-media-action = Verificação e Mídia
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = mídia-ausente
+# add a tag to notes with missing media
+media-check-add-tag = Etiquetar ausente

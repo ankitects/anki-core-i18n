@@ -66,6 +66,7 @@ preferences-note = Nota
 preferences-scheduler = Agendamento
 preferences-user-interface = Interface do usuário
 preferences-import-export = Importar/Exportar
+preferences-network-timeout = Tempo limite de rede
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

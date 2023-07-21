@@ -29,6 +29,12 @@ deck-config-tab-description =
     - "Preset": O limite é compartilhado com todos os decks usando este preset.
     - "This deck": O limite é específico para este deck.
     - "Somente hoje": Faça uma mudança temporária no limite deste deck.
+deck-config-new-cards-ignore-review-limit = Novos cartões ignoram o limite de revisão.
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Por padrão, o limite de revisão também se aplica aos novos cartões, e nenhum novo cartão será 
+    mostrado quando o limite de revisão for alcançado. Se essa opção estiver ativada, novos cartões 
+    serão mostrados independentemente do limite de revisão.
+deck-config-affects-entire-collection = Afeta toda a coleção.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -173,6 +179,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Áudio
 deck-config-disable-autoplay = Não reproduzir o áudio automaticamente
+deck-config-disable-autoplay-tooltip =
+    Quando ativada, o Anki não reproduzirá automaticamente o áudio.
+    Ele poderá ser reproduzido manualmente clicando/tocando em um ícone de áudio ou usando a ação de reproduzir o áudio novamente.
 deck-config-skip-question-when-replaying = Pular pergunta ao repetir a resposta
 deck-config-always-include-question-audio-tooltip =
     Se o áudio da pergunta deve ser incluído quando a ação 'Repetir' é
@@ -254,5 +263,5 @@ deck-config-maximum-answer-secs-above-recommended = Anki pode agendar suas avali
 
 deck-config-which-deck = Qual baralho você gostaria?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

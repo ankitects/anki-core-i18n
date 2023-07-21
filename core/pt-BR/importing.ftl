@@ -35,7 +35,6 @@ importing-multicharacter-separators-are-not-supported-please = Separadores multi
 importing-notes-added-from-file = Notas adicionadas do arquivo: { $val }
 importing-notes-found-in-file = Notas encontradas no arquivo: { $val }
 importing-notes-skipped-as-theyre-already-in = Notas ignoradas, pois já estão em sua coleção: { $val }
-importing-notes-that-could-not-be-imported = Notas que não pudiam ser importadas conforme o tipo de nota foram alteradas: { $val }
 importing-notes-updated-as-file-had-newer = Notas atualizadas, pois o arquivo tinha uma versão mais recente: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
@@ -82,7 +81,6 @@ importing-processed-media-file =
         [one] Processados { $count } arquivos de mídia
        *[other] Processados { $count } arquivos de mídia
     }
-importing-importing-collection = Importando coleção...
 importing-importing-file = Importando arquivo...
 importing-extracting = Extraindo dados...
 importing-gathering = Juntando informação...
@@ -97,7 +95,6 @@ importing-processed-cards =
         [one] { $count } Cartão processado
        *[other] { $count } Cartões processados
     }
-importing-unable-to-import-filename = Não foi possível importar { $filename }: tipo de arquivo não suportado
 importing-existing-notes = Notas existentes
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplicar
@@ -108,3 +105,12 @@ importing-update = Atualizar
 importing-tag-all-notes = Marcar todas as notas
 importing-tag-updated-notes = Marcas a notas atualizadas
 importing-file = Arquivo
+# Used with the 'match scope' option
+importing-notetype-and-deck = Tipo de nota e baralho
+importing-file-empty = O arquivo que você selecionou está vazio.
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Importando coleção...
+importing-unable-to-import-filename = Não foi possível importar { $filename }: tipo de arquivo não suportado
+importing-notes-that-could-not-be-imported = Notas que não pudiam ser importadas conforme o tipo de nota foram alteradas: { $val }

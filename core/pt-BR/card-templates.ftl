@@ -57,3 +57,8 @@ card-templates-this-will-create-card-proceed =
        *[other] Isto criará { $count } cartões. Continuar?
     }
 card-templates-type-boxes-warning = Somente uma caixa de digitação por modelo de cartão é suportada.
+card-templates-restore-to-default = Restaurar para Padrão
+card-templates-restore-to-default-confirmation =
+    Isso irá redefinir todos os campos e modelos deste tipo de nota para seus valores
+     padrão, removendo quaisquer campos/modelos extras e seu conteúdo, bem como qualquer estilo personalizado. Deseja prosseguir?
+card-templates-restored-to-default = O tipo de nota foi restaurado para o seu estado original.
