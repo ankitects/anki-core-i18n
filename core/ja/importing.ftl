@@ -5,7 +5,10 @@ importing-allow-html-in-fields = フィールドに HTML を使う
 importing-anki-files-are-from-a-very = .ankiファイルはAnkiのとても古いバージョンのものです。それらのファイルは、Ankiのウェブサイトより入手可能なAnki 2.0を使用してインポートすることができます。
 importing-anki2-files-are-not-directly-importable = .anki2ファイルを直接インポートすることはできません。代わりに受信した.apkgまたは.zipファイルをインポートしてください。
 importing-appeared-twice-in-file = { $val } は二回ファイルに出てきました
-importing-by-default-anki-will-detect-the = 既定では、Anki はフィールドを区切るタブやカンマなどの文字を認識します。 もし Anki がこのような文字をうまく識別できないときは、ここで入力してください。 タブを使う時は \t と入力します。
+importing-by-default-anki-will-detect-the =
+    既定では、Ankiはフィールドを区切るタブやカンマなどの文字を識別します。
+    もしフィールドを区切る文字をAnkiがうまく識別できない場合は、ここにその区切り文字を入力してください。
+    タブ区切りを使用する場合は \t と入力してください。
 importing-change = 変更
 importing-colon = コロン
 importing-comma = コンマ
@@ -33,7 +36,6 @@ importing-multicharacter-separators-are-not-supported-please = 複数文字の�
 importing-notes-added-from-file = ファイルからノートを追加しました：{ $val }
 importing-notes-found-in-file = ファイルのノート：{ $val }
 importing-notes-skipped-as-theyre-already-in = すでにコレクション内に存在するためノートを省略しました：{ $val }
-importing-notes-that-could-not-be-imported = ノートタイプが変更されたためインポートできなかったノート：{ $val }
 importing-notes-updated-as-file-had-newer = ファイル内に最新版が存在するためアップデートされたノート：{ $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
@@ -73,7 +75,6 @@ importing-processed-media-file =
     { $count ->
        *[other] { $count }のメディアファイルを処理
     }
-importing-importing-collection = コレクションをインポート中...
 importing-importing-file = ファイルをインポート中...
 importing-extracting = データを摘出中...
 importing-gathering = データを収集中...
@@ -82,4 +83,11 @@ importing-processed-notes =
     { $count ->
        *[other] { $count }個のノートを処理...
     }
+importing-tag-all-notes = すべてのノートにタグ
+importing-file = ファイル
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = コレクションをインポート中...
 importing-unable-to-import-filename = { $filename }をインポートできません：このファイルのタイプはサポートされていません。
+importing-notes-that-could-not-be-imported = ノートタイプが変更されたためインポートできなかったノート：{ $val }
