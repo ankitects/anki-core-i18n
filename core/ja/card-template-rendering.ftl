@@ -4,8 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = 詳細
-card-template-rendering-front-side-problem = 表面のテンプレートに問題があります：
-card-template-rendering-back-side-problem = 裏面のテンプレートに問題があります：
+card-template-rendering-front-side-problem = 表面のテンプレートに不備があります：
+card-template-rendering-back-side-problem = 裏面のテンプレートに不備があります：
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = 「{ $tag }」に「{ $missing }」が欠けています
