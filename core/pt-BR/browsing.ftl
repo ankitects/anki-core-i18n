@@ -1,4 +1,5 @@
 browsing-add-notes = Adicionar Notas...
+browsing-add-tags2 = Adicionar Etiquetas
 browsing-add-to-selected-notes = Adicionar às Notas Selecionadas
 browsing-remove-from-selected-notes = Remover das Notas Selecionadas
 browsing-addon = Extensões
