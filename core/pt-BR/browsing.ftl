@@ -89,6 +89,7 @@ browsing-suspended = Suspenso
 browsing-tag-duplicates = Etiquetas Duplicadas
 browsing-tag-rename-warning-empty = Você não pode renomear uma etiqueta que não possui notas.
 browsing-target-field = Campo alvo:
+browsing-toggle-bury = Enterrar
 browsing-toggle-showing-cards-notes = Alternar Exibição de Cartões/Notas
 browsing-toggle-mark = Marcar/Desmarcar
 browsing-toggle-suspend = Suspender (sim/não)
