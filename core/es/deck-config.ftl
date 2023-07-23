@@ -114,7 +114,7 @@ deck-config-bury-interday-learning-tooltip =
     se retrasará hasta el día siguiente.
 deck-config-bury-priority-tooltip =
     Cuando Anki recopila tarjetas, primero reúne las tarjetas de aprendizaje intradía, 
-    luego las tarjetas de aprendizaje inter día, luego las revisiones y finalmente las
+    luego las tarjetas de aprendizaje entre días, luego las revisiones y finalmente las
     nuevas tarjetas. Esto afecta cómo funciona el enterramiento:
     - Si tienes todas las opciones de enterramiento habilitadas, se mostrará la tarjeta 
     hermana (de la nota) que aparece primero en esa lista. Por ejemplo, se mostrará 
@@ -122,7 +122,7 @@ deck-config-bury-priority-tooltip =
     - Las tarjetas hermanas (de la nota) que aparecen más tarde en la lista no pueden 
     enterrar los tipos de tarjetas anteriores. Por ejemplo, si desactivas el enterramiento 
     de las nuevas tarjetas (de la nota), y estudias una nueva tarjeta, no enterrará 
-    ninguna tarjeta de aprendizaje inter día o de revisión, y puedes ver tanto un 
+    ninguna tarjeta de aprendizaje entre días o de revisión, y puedes ver tanto un 
     hermano de revisión como un hermano nuevo en la misma sesión
 
 ## Ordering section
@@ -279,7 +279,7 @@ deck-config-description-new-handling = Manejo de Anki 2.1.41+
 deck-config-description-new-handling-hint =
     Trata la entrada como Markdown y limpia la entrada HTML. Cuando está habilitado, 
     la descripción también se mostrará en la pantalla de felicitaciones. Markdown 
-    aparecerá como texto en Anki 2.1.40 y posteriores.
+    aparecerá como texto en Anki 2.1.40 y anteriores.
 
 ## Warnings shown to the user
 
@@ -304,3 +304,20 @@ deck-config-which-deck = ¿Qué mazo quieres?
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = Enterrar tarjetas hermanas
+deck-config-do-not-bury = No enterrar tarjetas hermanas
+deck-config-bury-if-new = Enterrar si es nueva
+deck-config-bury-if-new-or-review = Enterrar si es nueva o es revisión
+deck-config-bury-if-new-review-or-interday = Enterrar si es nuevo, revisión o aprendizaje entre días
+deck-config-bury-tooltip =
+    Los hermanos son otras tarjetas de la misma nota (por ejemplo, tarjetas de adelante/atrás,
+    u otras eliminaciones de cloze del mismo texto).
+    
+    Cuando esta opción está desactivada, es posible que se vean varias tarjetas de la misma nota 
+    en el mismo día. Cuando está activada, Anki automáticamente enterrará a los hermanos, 
+    ocultándolos hasta el próximo día. Esta opción te permite elegir qué tipos de tarjetas pueden
+    ser enterradas cuando respondes a uno de sus hermanos.
+    
+    Cuando se utiliza el programador V3, las tarjetas de aprendizaje interdía también pueden ser
+    enterradas. Las tarjetas de aprendizaje interdía son tarjetas con un paso de aprendizaje actual
+    de uno o más días.
