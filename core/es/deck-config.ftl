@@ -39,6 +39,12 @@ deck-config-tab-description =
     - `Preset`: el límite se comparte con todos los mazos que usan este preset.
     - `Este mazo`: El límite es específico para este mazo.
     - `Solo hoy`: Realiza un cambio temporal en el límite de este mazo.
+deck-config-new-cards-ignore-review-limit = Las tarjetas nuevas ignoran el límite de revisión
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Por defecto, el límite de revisión también se aplica a las nuevas tarjetas, y no se mostrarán 
+    nuevas tarjetas cuando se haya alcanzado el límite de revisión. Si esta opción está habilitada,
+    se mostrarán nuevas tarjetas independientemente del límite de revisión.
+deck-config-affects-entire-collection = Afecta a toda la colección.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -106,6 +112,18 @@ deck-config-bury-review-tooltip = Si otras tarjetas de "revisión" de la misma n
 deck-config-bury-interday-learning-tooltip =
     Si hay otras tarjetas de `aprendizaje` de la misma nota con intervalo mayor a 1 día
     se retrasará hasta el día siguiente.
+deck-config-bury-priority-tooltip =
+    Cuando Anki recopila tarjetas, primero reúne las tarjetas de aprendizaje intradía, 
+    luego las tarjetas de aprendizaje inter día, luego las revisiones y finalmente las
+    nuevas tarjetas. Esto afecta cómo funciona el enterramiento:
+    - Si tienes todas las opciones de enterramiento habilitadas, se mostrará la tarjeta 
+    hermana (de la nota) que aparece primero en esa lista. Por ejemplo, se mostrará 
+    una tarjeta de revisión en preferencia a una nueva tarjeta.
+    - Las tarjetas hermanas (de la nota) que aparecen más tarde en la lista no pueden 
+    enterrar los tipos de tarjetas anteriores. Por ejemplo, si desactivas el enterramiento 
+    de las nuevas tarjetas (de la nota), y estudias una nueva tarjeta, no enterrará 
+    ninguna tarjeta de aprendizaje inter día o de revisión, y puedes ver tanto un 
+    hermano de revisión como un hermano nuevo en la misma sesión
 
 ## Ordering section
 
@@ -284,5 +302,5 @@ deck-config-maximum-answer-secs-above-recommended = Hacer preguntas breves (cort
 
 deck-config-which-deck = ¿Qué mazo quieres?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

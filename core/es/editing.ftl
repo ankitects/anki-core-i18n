@@ -66,6 +66,9 @@ editing-warning-cloze-deletions-will-not-work = Cuidado, los huecos no funcionar
 editing-mathjax-preview = MathJax Vista previa
 editing-shrink-images = Reducir imágenes
 editing-close-html-tags = Etiquetas HTML de cierre automático
+editing-from-clipboard = Desde Portapapeles
+editing-alignment = Alineación
+editing-equations = Ecuaciones
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -38,6 +38,12 @@ notetypes-type = Tipo
 
 ## Image Occlusion
 
+notetypes-image = Imagen
+notetypes-occlusion = Oclusión
+notetypes-occlusion-mask = Máscara
+notetypes-occlusion-note = Nota
+notetypes-comments-field = Comentarios
+notetypes-toggle-masks = Mostrar/esconder las máscaras
 notetypes-image-occlusion-name = Oclusión de imagen
 notetypes-hide-all-guess-one = Ocultar todos y adivinar uno
 notetypes-hide-one-guess-one = Ocultar uno y Adivinar uno
