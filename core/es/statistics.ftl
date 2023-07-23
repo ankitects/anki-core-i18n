@@ -201,3 +201,4 @@ statistics-average-ease = Facilidad promedio
 statistics-save-pdf = Guardar PDF
 statistics-saved = Guardado.
 statistics-stats = estadísticas
+statistics-title = Estadísticas

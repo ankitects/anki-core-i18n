@@ -1,6 +1,5 @@
 preferences-automatically-sync-on-profile-openclose = Sincronizar automáticamente al abrir/cerrar el perfil
 preferences-backups = Copias de seguridad
-preferences-basic = Básico
 preferences-change-deck-depending-on-note-type = Cambiar mazo en función del tipo de nota
 preferences-changes-will-take-effect-when-you = Los cambios se aplicarán cuando reinicies Anki.
 preferences-hours-past-midnight = horas pasada la medianoche
@@ -20,6 +19,7 @@ preferences-preferences = Preferencias
 preferences-scheduling = Programación
 preferences-show-learning-cards-with-larger-steps = Mostrar las tarjetas en aprendizaje con pasos mayores antes de los repasos
 preferences-show-next-review-time-above-answer = Mostrar intervalo de próximo repaso encima de los botones de respuesta
+preferences-spacebar-rates-card = La barra espaciadora (o enter) también responde la tarjeta
 preferences-show-play-buttons-on-cards-with = Mostrar botones de reproducción en tarjetas con audio
 preferences-show-remaining-card-count = Mostrar el número de tarjetas restantes
 preferences-some-settings-will-take-effect-after = Algunos ajustes tendrán efecto después de reiniciar Anki.
@@ -59,15 +59,24 @@ preferences-appearance = Apariencia
 preferences-general = General
 preferences-style = Estilo
 preferences-review = Repasar
-preferences-reviewer = Revisor
+preferences-answer-keys = Teclas de Respuesta
 preferences-distractions = Distracciones
 preferences-minimalist-mode = Modo minimalista
 preferences-editing = Edición
 preferences-browsing = Navegación
 preferences-default-deck = Mazo por defecto
 preferences-account = Cuenta de AnkiWeb
-preferences-media = Multimedia
 preferences-note = Nota
 preferences-scheduler = Planificador
 preferences-user-interface = Interfaz de usuario
 preferences-import-export = Importar/Exportar
+preferences-network-timeout = Tiempo límite de red excedido
+preferences-reset-window-sizes = Restablecer tamaños de las ventanas
+preferences-reset-window-sizes-complete = Se han restablecido los tamaños y las ubicaciones de las ventanas.
+preferences-shortcut-placeholder = Ingrese una tecla de atajo no utilizada o déjela en blanco para deshabilitarla.
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Básico
+preferences-reviewer = Revisor
+preferences-media = Multimedia

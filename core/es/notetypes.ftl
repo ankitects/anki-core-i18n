@@ -35,3 +35,13 @@ notetypes-note-types = Tipos de nota
 notetypes-options = Opciones…
 notetypes-please-add-another-note-type-first = Por favor, añade primero otro tipo de nota.
 notetypes-type = Tipo
+
+## Image Occlusion
+
+notetypes-image-occlusion-name = Oclusión de imagen
+notetypes-hide-all-guess-one = Ocultar todos y adivinar uno
+notetypes-hide-one-guess-one = Ocultar uno y Adivinar uno
+notetypes-error-generating-cloze = Ocurrió un error al generar una nota de tipo Oclusión de Imagen
+notetypes-error-getting-imagecloze = Ocurrió un error al buscar una nota de tipo Oclusión de Imagen
+notetypes-error-loading-image-occlusion = Error al cargar la oclusión de la imagen. ¿Tu versión de Anki está actualizada?
+notetype-error-no-image-to-show = No hay imagen para mostrar

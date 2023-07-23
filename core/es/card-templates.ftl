@@ -57,3 +57,8 @@ card-templates-this-will-create-card-proceed =
        *[other] Se crearán { $count } tarjetas. ¿Seguir?
     }
 card-templates-type-boxes-warning = Solo se admite un cuadro de escritura por plantilla de tarjeta.
+card-templates-restore-to-default = Restaurar valores predeterminados
+card-templates-restore-to-default-confirmation =
+    Esto restablecerá todos los campos y plantillas en este tipo de nota a sus valores predeterminados, 
+    eliminando cualquier campo/plantilla adicional y su contenido, así como cualquier estilo personalizado. ¿Deseas continuar?
+card-templates-restored-to-default = El tipo de nota ha sido restaurado a su estado original.
