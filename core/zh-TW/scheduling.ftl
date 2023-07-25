@@ -48,7 +48,7 @@ scheduling-learn-remaining =
        *[other] { $remaining } 張學習中的卡片將於今天到期。
     }
 scheduling-congratulations-finished = 恭喜！你已學完此牌組當前的內容。
-scheduling-today-review-limit-reached = 已經達到今天的複習卡上限，但還有卡片尚待複習。為達到理想記憶效果，你可以在選項中增加每日上限。
+scheduling-today-review-limit-reached = 已經達到今天的複習上限，但還有卡片尚待複習。為達到理想記憶效果，你可以在選項中增加每日上限。
 scheduling-today-new-limit-reached = 還有更多新卡片可以學習，但你已經達到今天的上限。你可以在選項中增加上限，但請記住，學習越多新卡片意味著短期內的複習量也越多。
 scheduling-buried-cards-found = 有卡片被暫停，被暫停的卡片會在明天顯示。如果你想要立即學習這些卡片，可以{ $unburyThem }。
 # used in scheduling-buried-cards-found
@@ -93,7 +93,7 @@ scheduling-learning = 學習中
 scheduling-leech-action = 低效卡動作
 scheduling-leech-threshold = 低效卡臨界值
 scheduling-maximum-interval = 最長間隔
-scheduling-maximum-reviewsday = 每日複習卡上限
+scheduling-maximum-reviewsday = 每日複習上限
 scheduling-minimum-interval = 最短間隔
 scheduling-mix-new-cards-and-reviews = 新卡片與複習卡混合
 scheduling-new-cards = 新卡片

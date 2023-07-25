@@ -12,17 +12,17 @@ deck-config-title = 牌組選項
 ## Daily limits section
 
 deck-config-daily-limits = 每日上限
-deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。由於學習新內容會加重你的短期複習量，因此該選項通常應設定為複習卡上限的 10% 或更少。
+deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。由於學習新內容會加重你的短期複習量，因此該選項通常應設定為複習上限的 10% 或更少。
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
 deck-config-limit-deck-v3 = 當學習中的牌組具有下層牌組時，在每一個下層牌組中抽取的卡片數量上限取決於相應牌組設定的上限。選取學習的牌組的上限決定所有卡片顯示的數量上限。
-deck-config-limit-new-bound-by-reviews = 複習卡上限會影響新卡片上限。若複習卡上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習卡上限，則不會再顯示新卡片。
-deck-config-limit-interday-bound-by-reviews = 複習卡上限也會影響隔天學習卡片。套用上限時，隔天學習卡片會被優先擷取，再算入複習卡。
+deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
+deck-config-limit-interday-bound-by-reviews = 複習上限也會影響隔天學習卡片。套用上限時，隔天學習卡片會被優先擷取，再算入複習卡。
 deck-config-tab-description =
     - `預設設定`：所有使用此預設設定的牌組的上限。
     - `當前牌組`：當前牌組的上限。
     - `僅限今天`：暫時更改當前牌組的的上限。
-deck-config-new-cards-ignore-review-limit = 新卡片不受複習卡上限影響
-deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，複習卡上限會影響新卡片，因此當複習卡數量達到上限時，則不會再顯示新卡片。啟用「新卡片不受複習卡上限影響」時，則複習卡上限不會影響顯示新卡片。
+deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
+deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，複習上限會影響新卡片，因此當複習卡數量達到上限時，則不會再顯示新卡片。啟用「新卡片不受複習上限影響」時，則複習上限不會影響顯示新卡片。
 deck-config-affects-entire-collection = 影響整個集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -113,7 +113,7 @@ deck-config-interday-step-priority = 隔天學習/複習卡順序
 deck-config-interday-step-priority-tooltip =
     隔天學習時，（重新）學習中的卡片的顯示順序。
     
-    複習卡上限總是優先計算隔天學習的卡片，再套用到複習卡。此選項將控制收集的卡片的顯示順序，但收集順序永遠會優先收集跨天學習卡片。
+    複習上限總是優先計算隔天學習的卡片，再套用到複習卡。此選項將控制收集的卡片的顯示順序，但收集順序永遠會優先收集跨天學習卡片。
 deck-config-review-mix-mix-with-reviews = 與複習卡混合
 deck-config-review-mix-show-after-reviews = 先顯示複習卡
 deck-config-review-mix-show-before-reviews = 後顯示複習卡
@@ -191,7 +191,7 @@ deck-config-daily-limit-will-be-capped =
 deck-config-reviews-too-low =
     若每天要學習 { $cards ->
        *[other] { $cards } 張新卡片
-    }，複習卡上限至少應設定為 { $expected } 張。
+    }，複習上限至少應設定為 { $expected } 張。
 deck-config-learning-step-above-graduating-interval = 畢業間隔不應短於最後一個學習階段。
 deck-config-good-above-easy = 「簡單」間隔不應短於畢業間隔。
 deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔不應短於最後一個重新學習階段。
