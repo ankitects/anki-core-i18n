@@ -115,7 +115,7 @@ statistics-cards-due =
     { $cards ->
        *[other] 將有 { $cards } 張卡片到期
     }
-statistics-backlog-checkbox = 積壓卡片
+statistics-backlog-checkbox = 顯示積壓卡片
 statistics-intervals-title = 複習間隔
 statistics-intervals-subtitle = 複習卡再次顯示前的延遲
 statistics-intervals-day-range =
