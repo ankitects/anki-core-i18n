@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = Víceznakové odd
 importing-notes-added-from-file = Poznámky přidané ze souboru: { $val }
 importing-notes-found-in-file = Poznámky nalezené v souboru: { $val }
 importing-notes-skipped-as-theyre-already-in = Přeskočené poznámky, které jsou již v kolekci: { $val }
-importing-notes-that-could-not-be-imported = Poznámky, které nemohly být importovány, protože se změnil typ poznámky: { $val }
+importing-notes-skipped-update-due-to-notetype = Neaktualizované poznámky, typ poznámky se od prvního importu změnil: { $val }
 importing-notes-updated-as-file-had-newer = Poznámky aktualizovány, protože soubor měl novější verzi: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balíček/kolekce (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 lekce (*.pau.gz)
@@ -123,8 +123,10 @@ importing-cards-added =
         [few] { $count } karty přidány.
        *[other] { $count } karet přidáno.
     }
+importing-file-empty = Vybraný soubor je prázdný.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Importuje se kolekce…
 importing-unable-to-import-filename = Nelze importovat { $filename }: typ souboru není podporován
+importing-notes-that-could-not-be-imported = Poznámky, které nemohly být importovány, protože se změnil typ poznámky: { $val }
