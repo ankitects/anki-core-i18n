@@ -90,6 +90,9 @@ deck-config-bury-title = Ocultar
 deck-config-bury-new-siblings = Ocultar novos irmãos até o dia seguinte
 deck-config-bury-review-siblings = Ocultar irmãos de revisão até o dia seguinte
 deck-config-bury-interday-learning-siblings = Ocultar irmãos em aprendizado até o dia seguinte
+deck-config-bury-new-tooltip =
+    Se outros cartões da mesma nota (ex. cartões invertidos, omissões
+    de cartões adjacentes) serão adiados até o dia seguinte.
 deck-config-bury-review-tooltip = Outros cartões de `revisão` da mesma nota serão adiados até o dia seguinte.
 
 ## Ordering section

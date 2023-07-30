@@ -19,6 +19,7 @@ preferences-preferences = Preferências
 preferences-scheduling = Agendamento
 preferences-show-learning-cards-with-larger-steps = Exibir os cartões de aprendizagem com intervalos maiores antes de efetuar novas revisões
 preferences-show-next-review-time-above-answer = Mostrar tempo da próxima revisão acima dos botões de resposta
+preferences-spacebar-rates-card = Barra de espaço (ou enter) também responde ao cartão.
 preferences-show-play-buttons-on-cards-with = Mostrar botões de reprodução nos cartões com áudio
 preferences-show-remaining-card-count = Mostrar a contagem de cartas restantes
 preferences-some-settings-will-take-effect-after = Algumas configurações só surtirão efeito quando você reiniciar o Anki
@@ -47,6 +48,7 @@ preferences-monthly-backups = Backups mensais para manter:
 preferences-minutes-between-backups = Minutos antes dos backups automáticos:
 preferences-reduce-motion = Reduzir animações
 preferences-reduce-motion-tooltip = Desative várias animações e transições da interface do usuário
+preferences-custom-sync-url = Servidor de sincronização auto-hospedado
 preferences-custom-sync-url-disclaimer = Para usuários avançados - por favor veja o manual
 preferences-hide-top-bar-during-review = Ocultar a barra acima durante o review
 preferences-hide-bottom-bar-during-review = Ocultar a barra abaixo durante o review
@@ -67,6 +69,9 @@ preferences-scheduler = Agendamento
 preferences-user-interface = Interface do usuário
 preferences-import-export = Importar/Exportar
 preferences-network-timeout = Tempo limite de rede
+preferences-reset-window-sizes = Redefinir Tamanhos das Janelas
+preferences-reset-window-sizes-complete = Os tamanhos e localizações das janelas foram redefinidos.
+preferences-shortcut-placeholder = Digite uma tecla de atalho não utilizada, ou deixe em branco para desabilitar.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
