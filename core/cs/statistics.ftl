@@ -170,7 +170,11 @@ statistics-intervals-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = { $correct }/{ $total } správně ({ $percent } %)
+statistics-hours-correct = { $correct }/{ $total } správně ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } opakování
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% správně ({ $reviews })
 statistics-hours-title = Hodinové rozdělení
 statistics-hours-subtitle = Procento úspěšnosti podle hodiny.
 # shown when graph is empty
@@ -200,7 +204,7 @@ statistics-average = Průměr
 statistics-average-interval = Průměrný interval
 statistics-due-tomorrow = Zítra ke zkoušení
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent } %)
+statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
 statistics-average-over-period = Při každodenním studiu
 statistics-reviews-per-day =
     { $count ->
@@ -224,3 +228,4 @@ statistics-average-ease = Průměrná snadnost
 statistics-save-pdf = Uložit PDF
 statistics-saved = Uloženo.
 statistics-stats = statistika
+statistics-title = Statistiky

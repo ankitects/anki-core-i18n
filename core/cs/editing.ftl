@@ -66,6 +66,8 @@ editing-warning-cloze-deletions-will-not-work = Pozor, doplňovačky nebudou fun
 editing-mathjax-preview = Náhled MathJax
 editing-shrink-images = Zmenšit obrázky
 editing-close-html-tags = Automaticky uzavírat HTML tagy
+editing-alignment = Zarovnání
+editing-equations = Rovnice
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
