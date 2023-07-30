@@ -58,6 +58,7 @@ preferences-appearance = Aparência
 preferences-general = Geral
 preferences-style = Estilo
 preferences-review = Review
+preferences-answer-keys = Teclas de resposta
 preferences-distractions = Distrações
 preferences-minimalist-mode = Modo minimalista
 preferences-editing = Editando

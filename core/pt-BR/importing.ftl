@@ -35,6 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = Separadores multi
 importing-notes-added-from-file = Notas adicionadas do arquivo: { $val }
 importing-notes-found-in-file = Notas encontradas no arquivo: { $val }
 importing-notes-skipped-as-theyre-already-in = Notas ignoradas, pois já estão em sua coleção: { $val }
+importing-notes-skipped-update-due-to-notetype = Notas não atualizadas, pois o tipo de nota foi modificado desde que você importou as notas pela primeira vez: { $val }
 importing-notes-updated-as-file-had-newer = Notas atualizadas, pois o arquivo tinha uma versão mais recente: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
@@ -105,8 +106,15 @@ importing-update = Atualizar
 importing-tag-all-notes = Marcar todas as notas
 importing-tag-updated-notes = Marcas a notas atualizadas
 importing-file = Arquivo
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Âmbito de Correspondência
 # Used with the 'match scope' option
 importing-notetype-and-deck = Tipo de nota e baralho
+importing-cards-added =
+    { $count ->
+        [one] { $count } cartão adicionado.
+       *[other] { $count } cartões adicionados.
+    }
 importing-file-empty = O arquivo que você selecionou está vazio.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

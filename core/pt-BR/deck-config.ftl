@@ -94,6 +94,21 @@ deck-config-bury-new-tooltip =
     Se outros cartões da mesma nota (ex. cartões invertidos, omissões
     de cartões adjacentes) serão adiados até o dia seguinte.
 deck-config-bury-review-tooltip = Outros cartões de `revisão` da mesma nota serão adiados até o dia seguinte.
+deck-config-bury-interday-learning-tooltip =
+    Se houver outras cartas de `aprendizado` da mesma nota com intervalos > 1 dia¶
+    elas serão adiadas para o próximo dia.
+deck-config-bury-priority-tooltip =
+    Quando o Anki coleta cartões, ele primeiro reúne cartões de aprendizado intradiário, depois
+    cartões de aprendizado interdiário, depois as revisões e, finalmente, os novos cartões. Isso afeta
+    como a ocultação funciona:
+    
+    - Se você tiver todas as opções de ocultação ativadas, o cartão irmão que aparecer primeiro na
+    lista será mostrado. Por exemplo, um cartão de revisão será mostrado em preferência
+    a um novo cartão.
+    - Cartões irmãos mais tarde na lista não podem ocultar tipos de cartões anteriores. Por exemplo, se você
+    desativar a ocultação de novos cartões e estudar um novo cartão, ele não ocultará nenhum cartão de
+    aprendizado interdiário ou revisões, e você pode ver tanto um cartão irmão de revisão quanto um novo na mesma
+    sessão.
 
 ## Ordering section
 
