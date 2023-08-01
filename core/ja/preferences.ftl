@@ -54,6 +54,7 @@ preferences-always = 常に
 preferences-full-screen-only = 全画面表示のみ
 preferences-appearance = 表示
 preferences-general = 一般
+preferences-style = スタイル
 preferences-review = 学習
 preferences-answer-keys = 回答キー
 preferences-distractions = 集中の妨げとなる場合の対策

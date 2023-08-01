@@ -36,6 +36,7 @@ notetypes-type = ノートタイプ
 
 ## Image Occlusion
 
+notetypes-image = 画像
 notetypes-occlusion = マスキング
 notetypes-occlusion-mask = マスク
 notetypes-occlusion-note = ノート
