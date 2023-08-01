@@ -28,7 +28,7 @@ media-check-renamed-file = 名前変更：{ $old } ->{ $new }
 media-check-oversize-file = 100MB超：{ $filename }
 media-check-subfolder-file = フォルダ：{ $filename }
 media-check-missing-file = 不明：{ $filename }
-media-check-unused-file = 未使用：{ $filename }
+media-check-unused-file = 使用なし：{ $filename }
 
 ##
 
@@ -58,3 +58,5 @@ media-check-empty-trash = ゴミ箱を空にする
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 削除ファイルを復元する
 media-check-check-media-action = メディアをチェック
+# add a tag to notes with missing media
+media-check-add-tag = メディアをなくしているノートにタグ
