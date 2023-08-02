@@ -24,6 +24,9 @@ custom-study-select = 選択枚数
 custom-study-select-tags-to-exclude = 除外するタグの選択:
 custom-study-selective-study = 選択学習
 custom-study-study-by-card-state-or-tag = カードの状態やタグを選んで学習する
+custom-study-available-new-cards-2 = 上乗せ可能な新規カード: { $countString }枚
+custom-study-available-review-cards-2 = 上乗せ可能な復習カード: { $countString }枚
+custom-study-available-child-count = (サブデッキ内には{ $count }枚)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

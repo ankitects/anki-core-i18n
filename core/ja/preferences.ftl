@@ -75,3 +75,5 @@ preferences-shortcut-placeholder = 他のショートカットに使用されて
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = 基本
+preferences-reviewer = Reviewer
+preferences-media = メディア

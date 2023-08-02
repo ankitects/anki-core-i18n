@@ -10,7 +10,7 @@ card-templates-back-preview = 裏面のプレビュー
 card-templates-preview-box = プレビュー
 card-templates-template-box = テンプレート
 card-templates-sample-cloze = これは穴埋め問題の{ "{{c1::" }サンプル{ "}}" }です。
-card-templates-fill-empty = フィールドの内容が空の場合はフィールド名をプレビューで表示
+card-templates-fill-empty = 内容が空のフィールドも表示
 card-templates-night-mode = ナイトモード
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
@@ -52,3 +52,4 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-restore-to-default = デフォルトに戻す
 card-templates-restore-to-default-confirmation = この操作を行うと、このノートタイプに含まれるすべてのフィールドとテンプレートの設定が初期状態にリセットされます。追加したフィールドやテンプレート、それらの内容、スタイリングの変更はいずれも削除されます。本当にこのまま操作を行ってよろしいですか？
+card-templates-restored-to-default = ノートタイプを元の状態に復元しました。

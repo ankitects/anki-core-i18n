@@ -243,3 +243,17 @@ deck-config-which-deck = どのデッキを選択しますか？
 
 deck-config-bury-siblings = 兄弟関係のカードを翌日に延期する
 deck-config-do-not-bury = 兄弟関係のカードを翌日に延期しない
+deck-config-bury-if-new = Bury if new
+deck-config-bury-if-new-or-review = Bury if new or review
+deck-config-bury-if-new-review-or-interday = Bury if new, review, or interday learning
+deck-config-bury-tooltip =
+    Siblings are other cards from the same note (eg forward/reverse cards, or
+    other cloze deletions from the same text).
+    
+    When this option is off, multiple cards from the same note may be seen on the same
+    day. When enabled, Anki will automatically *bury* siblings, hiding them until the next
+    day. This option allows you to choose which kinds of cards may be buried when you answer
+    one of their siblings.
+    
+    When using the V3 scheduler, interday learning cards can also be buried. Interday
+    learning cards are cards with a current learning step of one or more days.
