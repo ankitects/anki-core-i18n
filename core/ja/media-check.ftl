@@ -58,5 +58,7 @@ media-check-empty-trash = ゴミ箱を空にする
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 削除ファイルを復元する
 media-check-check-media-action = メディアをチェック
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = missing-media
 # add a tag to notes with missing media
 media-check-add-tag = メディアをなくしているノートにタグ
