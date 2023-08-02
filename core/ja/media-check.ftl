@@ -22,7 +22,7 @@ media-check-subfolder-header = Ankiはメディアフォルダ内のサブフォ
 media-check-missing-header = 以下のファイルはカードに引用されていますが、メディアフォルダ内で該当するファイルが見つかりません：
 media-check-unused-header = 以下のファイルはメディアフォルダ内に存在していますが、どのカードにも使用されていません：
 media-check-template-references-field-header =
-    メディアやLaTeXを指定するHTMLタグ内で、フィールドを参照している（ 例えば { "{{Front}}" } のようにフィールドを記載している）場合、Ankiは指定されているファイルをこの「メディアをチェック」では検出できません。メディアやLaTeXのタグは、個々のノートに配置することが推奨されます。
+    メディアやLaTeXを指定するHTMLタグ内でフィールドを参照している（ 例えば { "{{Front}}" } というフィールドを記載している）場合、Ankiは指定されているファイルをこの「メディアをチェック」では検出できません。メディアやLaTeXのタグは、個々のノートに配置することが推奨されます。
     
     該当するタグがあるテンプレート：
 
@@ -36,10 +36,12 @@ media-check-unused-file = 使用なし：{ $filename }
 
 ##
 
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
-media-check-checked = チェック済み{ $count }...
+media-check-checked = チェック済み: { $count }...
 
 ## Deleting unused media
 
