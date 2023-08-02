@@ -21,6 +21,10 @@ media-check-oversize-header = 100MBを超えるファイルはAnkiWebと同期�
 media-check-subfolder-header = Ankiはメディアフォルダ内のサブフォルダには対応していません。
 media-check-missing-header = 以下のファイルはカードに引用されていますが、メディアフォルダ内で該当するファイルが見つかりません：
 media-check-unused-header = 以下のファイルはメディアフォルダ内に存在していますが、どのカードにも使用されていません：
+media-check-template-references-field-header =
+    メディアやLaTeXを指定するHTMLタグ内で、フィールドを参照している（ 例えば { "{{Front}}" } のようにフィールドを記載している）場合、Ankiは指定されているファイルをこの「メディアをチェック」では検出できません。メディアやLaTeXのタグは、個々のノートに配置することが推奨されます。
+    
+    該当するタグがあるテンプレート：
 
 ## Shown once for each file
 
