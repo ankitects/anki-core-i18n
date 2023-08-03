@@ -197,8 +197,8 @@ deck-config-starting-ease-tooltip =
     デフォルトの値2.50では、最後の習得ステップで「正解」と回答すると、そのカードの次の学習（最初の復習）までの間隔は、最後の習得ステップまでの間隔の2.5倍となります。
 deck-config-easy-bonus-tooltip = カードに「簡単」と回答した際、そのカードの復習間隔に追加して適用される乗数。
 deck-config-interval-modifier-tooltip = ここで設定する乗数はすべての復習に適用され、Ankiのスケジューリングの間隔をお好みに合わせて微調整することができます。この設定を変更する際にはマニュアルをご確認ください。
-deck-config-hard-interval-tooltip = 「難しい」と回答した際、復習間隔に適用される乗数。
-deck-config-new-interval-tooltip = 「やり直し」と回答した際、復習間隔に適用される乗数。
+deck-config-hard-interval-tooltip = 復習カードに「難しい」と回答した場合に、復習間隔に適用される乗数。
+deck-config-new-interval-tooltip = 復習カードに「やり直し」と回答した場合に、復習間隔に対して適用される乗数。
 deck-config-minimum-interval-tooltip = 復習カードに`やり直し`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの最短日数。
 deck-config-custom-scheduling = カスタムスケジューリング
 deck-config-custom-scheduling-tooltip = この設定はコレクション全体に一括で適用されます。ご自身の責任でご使用ください！
