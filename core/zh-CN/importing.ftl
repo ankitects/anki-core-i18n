@@ -107,6 +107,7 @@ importing-cards-added =
     { $count ->
        *[other] 已添加{ $count }条笔记
     }
+importing-file-empty = 您选择的是空文件。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

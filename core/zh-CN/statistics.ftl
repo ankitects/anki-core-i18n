@@ -162,3 +162,4 @@ statistics-average-ease = 平均简易度
 statistics-save-pdf = 保存PDF
 statistics-saved = 已保存。
 statistics-stats = 统计
+statistics-title = 统计数据
