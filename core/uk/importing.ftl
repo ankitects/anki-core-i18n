@@ -10,6 +10,7 @@ importing-change = Змінити
 importing-colon = Двокрапка
 importing-comma = Кома
 importing-empty-first-field = Порожнє перше поле: { $val }
+importing-field-separator = Поля розділює
 importing-field-mapping = Відповідність полів
 importing-field-of-file-is = Поле <b>{ $val }</b> з файлу:
 importing-fields-separated-by = Поля, розділені: { $val }
@@ -32,7 +33,6 @@ importing-multicharacter-separators-are-not-supported-please = Багатоси�
 importing-notes-added-from-file = Нотатки додані з файлу: { $val }
 importing-notes-found-in-file = Нотатки знайдені в файлі: { $val }
 importing-notes-skipped-as-theyre-already-in = Нотатки пропущено, оскільки вже є в колекції: { $val }
-importing-notes-that-could-not-be-imported = Нотатки не імпортовано через зміну їх типу: { $val }
 importing-notes-updated-as-file-had-newer = Нотатки оновлено, як файл новішої версії: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Пакунок Anki колода/колекція (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
@@ -43,7 +43,7 @@ importing-selected-file-was-not-in-utf8 = Обнаний файл не був у
 importing-semicolon = Крапка з комою
 importing-skipped = Пропущені
 importing-supermemo-xml-export-xml = Файл Supermemo у форматі XML (*.xml)
-importing-tab = Вкладка
+importing-tab = Табуляція
 importing-tag-modified-notes = Додати мітку зміненим записам:
 importing-text-separated-by-tabs-or-semicolons = Текстовий файл, розділений TAB або крапкою з комою (*)
 importing-the-first-field-of-the-note = Для першого поля типу нотатки має бути відповідник.
@@ -84,7 +84,6 @@ importing-processed-media-file =
         [few] Оброблено { $count } медіафайл
        *[other] Оброблено { $count } медіафайл
     }
-importing-importing-collection = Імпортування колекції…
 importing-importing-file = Імпортування файлу
 importing-extracting = Витягування даних…
 importing-processed-notes =
@@ -99,6 +98,13 @@ importing-processed-cards =
         [few] Оброблено { $count } картки…
        *[other] Оброблено { $count } карток…
     }
-importing-unable-to-import-filename = Неможливо імпортувати { $filename }: тип файлу не підтримується
 importing-existing-notes = Існуючі нотатки
+importing-tag-all-notes = Мітки для всіх нотаток
+importing-tag-updated-notes = Мітки для оновлених нотаток
 importing-file = Файл
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Імпортування колекції…
+importing-unable-to-import-filename = Неможливо імпортувати { $filename }: тип файлу не підтримується
+importing-notes-that-could-not-be-imported = Нотатки не імпортовано через зміну їх типу: { $val }
