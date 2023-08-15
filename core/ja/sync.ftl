@@ -24,7 +24,7 @@ sync-server-error = AnkiWebに問題が発生しました。しばらくして�
 sync-client-too-old = ご使用のAnkiのバージョンが古いため同期できません。同期するには最新版へのアップデートが必要です。
 sync-wrong-pass = AnkiWeb の ID 又は パスワード が間違っています。もう一度入力してください。
 sync-resync-required = もう一度同期してください。このエラーメッセージが続く場合は、Ankiサポートサイトに投稿をお願いします。
-sync-must-wait-for-end = 只今同期中です。同期が完了するのを待って、再度お試しください。
+sync-must-wait-for-end = 同期中です。同期が完了するのを待って、再度お試しください。
 sync-confirm-empty-download = ローカルコレクションにカードがありません。AnkiWebからダウンロードしますか？
 sync-conflict-explanation =
     このコレクションには AnkiWeb 上のコレクションと競合する内容があり、双方を統合できません。どちらか一方でもう一方を上書きする必要があります。

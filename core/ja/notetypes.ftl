@@ -1,3 +1,5 @@
+notetypes-notetype = ノートタイプ
+
 ## Default field names in newly created note types
 
 notetypes-front-field = 表面

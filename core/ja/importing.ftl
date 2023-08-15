@@ -85,6 +85,12 @@ importing-processed-notes =
     }
 importing-tag-all-notes = すべてのノートにタグ
 importing-file = ファイル
+importing-cards-added =
+    { $count ->
+        [one] { $count }枚のノートを追加しました。
+       *[other] { $count }枚のノートを追加しました。
+    }
+importing-file-empty = 選択したファイルが空です。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
