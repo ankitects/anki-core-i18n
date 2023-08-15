@@ -3,7 +3,7 @@ importing-aborted = Abgebrochen: { $val }
 importing-added-duplicate-with-first-field = Duplikat mit erstem Feld { $val } hinzugefügt
 importing-all-supported-formats = Alle unterstützten Formate { $val }
 importing-allow-html-in-fields = HTML in Feldern zulassen
-importing-anki-files-are-from-a-very = .anki-Dateien stammen von einer sehr alten Version von Anki. Sie können diese mit Anki 2.0 importieren. Diese Version steht Ihnen auf der Webseite von Anki zur Verfügung.
+importing-anki-files-are-from-a-very = .anki-Dateien stammen von einer sehr alten Version von Anki. Sie können diese mit dem Add-On 175027074 oder  Anki 2.0 importieren. Diese Version steht Ihnen auf der Webseite von Anki zur Verfügung.
 importing-anki2-files-are-not-directly-importable = .anki2-Dateien können nicht direkt importiert werden - bitte importieren Sie die .apkg- oder .zip-Datei, die Sie stattdessen erhalten haben.
 importing-appeared-twice-in-file = Doppelt vorhanden in Datei: { $val }
 importing-by-default-anki-will-detect-the = Für gewöhnlich wird Anki das Trennzeichen zwischen zwei Feldern,  z.B. ein Komma, Tabulator oder Ähnliches, erkennen. Sollte Anki  das Trennzeichen nicht korrekt erkennen, bitte hier eingeben. Für ein Tabulatorzeichen bitte folgendes verwenden: \t.
@@ -115,6 +115,7 @@ importing-cards-added =
         [one] { $count } Karte wurde hinzugefügt.
        *[other] { $count } Karten wurden hinzugefügt.
     }
+importing-file-empty = Die Datei, die Sie ausgewählt haben, ist leer.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -203,3 +203,4 @@ statistics-average-ease = Durchschnittliche Leichtigkeit
 statistics-save-pdf = Als PDF speichern
 statistics-saved = Gespeichert.
 statistics-stats = Statistik
+statistics-title = Statistik

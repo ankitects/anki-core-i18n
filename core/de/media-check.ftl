@@ -20,7 +20,7 @@ media-check-subfolder-count = Unterverzeichnisse: { $count }
 media-check-renamed-header = Einige Dateien wurden aus Kompatibilitätsgründen umbenannt:
 media-check-oversize-header = Dateien mit einer Größe über 100MB können nicht mit AnkiWeb synchronisiert werden.
 media-check-subfolder-header = Ordner innerhalb des Medienordners werden nicht unterstützt.
-media-check-missing-header = In einigen Karten benutzt, aber nicht im Medienordner:
+media-check-missing-header = Die folgenden Dateien werden von Karten referenziert, aber konnten nicht im Medienverzeichnis gefunden werden
 media-check-unused-header = Die folgenden Dateien wurden im Medienordner gefunden, werden aber anscheinend von keiner Karte verwendet:
 media-check-template-references-field-header =
     Anki kann keine benutzten Dateien erkennen, wenn Sie { "{{Field}}" }-Verweise in Medien/LaTeX-Tags verwenden. Die Media/LaTeX-Tags sollten stattdessen auf individuellen Notizen platziert werden.
@@ -73,5 +73,7 @@ media-check-empty-trash = Papierkorb leeren
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Gelöschte Dateien wiederherstellen
 media-check-check-media-action = Medien überprüfen
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = Fehlende Medien
 # add a tag to notes with missing media
 media-check-add-tag = Schlagwort Fehlend
