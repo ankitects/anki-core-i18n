@@ -84,7 +84,7 @@ scheduling-next-learn-due =
                 [many] { $amount } годин
                *[other] { $amount } годин
             }
-    }
+    }.
 scheduling-learn-remaining =
     { $remaining ->
         [one] На сьогодні залишилась { $remaining } картка.
@@ -109,7 +109,7 @@ scheduling-unbury-them = повернути їх
 scheduling-how-to-custom-study = Якщо Ви бажаєте вивчати не лише за розкладом, то можете скористатись { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
-scheduling-custom-study = додаткове навчання
+scheduling-custom-study = додатковим навчанням
 
 ## Scheduler upgrade
 

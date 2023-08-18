@@ -36,11 +36,18 @@ deck-config-learning-steps = Кроки вивчення
 
 ## Ordering section
 
+deck-config-new-gather-priority-deck = Колода
+deck-config-new-gather-priority-random-notes = Випадкові нотатки
+deck-config-new-gather-priority-random-cards = Випадкові картки
+deck-config-new-card-sort-order = Новий порядок сортування карток
 deck-config-sort-order-card-template-then-random = Тип картки, далі випадково
 deck-config-sort-order-random-note-then-template = Випадковий запис, далі тип карток
 deck-config-sort-order-random = Випадково
 deck-config-sort-order-template-then-gather = Тип карток
 deck-config-new-review-priority = Нові/переглянуті порядок
+deck-config-review-mix-mix-with-reviews = Змішувати з повторюваними
+deck-config-review-mix-show-after-reviews = Після повторюваних
+deck-config-review-mix-show-before-reviews = До повторюваних
 
 ## Timer section
 
@@ -50,6 +57,7 @@ deck-config-new-review-priority = Нові/переглянуті порядок
 
 ## Advanced section
 
+deck-config-minimum-interval-tooltip = Мінімальний початковий інтервал після відповіді «Знову».
 
 ## Adding/renaming
 
