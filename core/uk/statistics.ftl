@@ -75,7 +75,7 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Сьогодні вивчено { statistics-cards }, { $unit ->
+    Сьогодні переглянуто { statistics-cards }, { $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
@@ -85,9 +85,9 @@ statistics-studied-today =
     } ({ $secs-per-card }s/картку)
 statistics-today-title = Сьогодні
 statistics-today-again-count = Кількість карток з відповіддю "Знову":
-statistics-today-type-counts = Вивчити: { $learnCount }, Повторити: { $reviewCount }, Перевчити: { $relearnCount }, Відфільтровано: { $filteredCount }
+statistics-today-type-counts = Вивченні: { $learnCount }, Повторюванні: { $reviewCount }, Забуті: { $relearnCount }, Відфільтровані: { $filteredCount }
 statistics-today-no-cards = Не повторено жодної картки.
-statistics-today-no-mature-cards = Сьогодні не було пройдено жодної зрілої картки.
+statistics-today-no-mature-cards = Сьогодні не переглянуто жодної зрілої картки.
 statistics-today-correct-mature = Правильні відповіді по зрілим карткам: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Загальна кількість карток
 statistics-counts-new-cards = Нові
