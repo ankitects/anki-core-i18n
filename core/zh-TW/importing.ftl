@@ -108,6 +108,31 @@ importing-cards-added =
        *[other] 已加入 { $count } 張卡片。
     }
 importing-file-empty = 你選取的檔案是空的。
+importing-notes-added =
+    { $count ->
+       *[other] 已匯入 { $count } 則新筆記。
+    }
+importing-notes-updated =
+    { $count ->
+       *[other] 已使用 { $count } 則筆記來更新現有的筆記。
+    }
+importing-existing-notes-skipped =
+    { $count ->
+       *[other] 有 { $count } 則筆記已在你的集合中。
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+       *[other] { $count } 則筆記未被匯入，因為更改了筆記類型。
+    }
+importing-import-log = 匯入記錄
+importing-no-notes-in-file = 在檔案中找不到筆記。
+importing-notes-found-in-file2 =
+    { $notes ->
+       *[other] 在檔案中找到了 { $notes } 則筆記。
+    }其中：
+importing-show = 顯示
+importing-details = 詳細資訊
+importing-status = 狀態
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
