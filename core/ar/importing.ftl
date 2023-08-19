@@ -148,6 +148,10 @@ importing-cards-added =
        *[other] أضيفت { $count } بطاقة.
     }
 importing-file-empty = الملف المحدد فارغ.
+importing-show = أظهر
+importing-details = تفاصيل
+importing-status = حالة
+importing-duplicate-note-added = تمت إضافة ملحوظة مكررة
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

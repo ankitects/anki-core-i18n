@@ -51,3 +51,5 @@ notetypes-error-generating-cloze = حصل خطأ عند توليد ملحوظة 
 notetypes-error-getting-imagecloze = حصل خطأ عند جلب ملحوظة الصور المعماة
 notetypes-error-loading-image-occlusion = حصل خطأ  عند تحميل الصور المعماة. هل إصدار أنكي الخاص بك محدث؟
 notetype-error-no-image-to-show = لا يوجد صورة.
+notetypes-no-occlusion-created = يجب عليك إنشاء صورة معماة واحدة على الأقل.
+notetypes-io-select-image = اختر صورة
