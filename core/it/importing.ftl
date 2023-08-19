@@ -34,7 +34,7 @@ importing-mnemosyne-20-deck-db = Mazzo di Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatori multi-carattere non sono supportati. Inserisci un solo carattere.
 importing-notes-added-from-file = Note aggiunte dal file: { $val }
 importing-notes-found-in-file = Note trovate nel file: { $val }
-importing-notes-skipped-as-theyre-already-in = Note saltate, poiché già nella tua collezione: { $val }
+importing-notes-skipped-as-theyre-already-in = Note saltate, poiché una copia aggiornata è già presente nella tua collezione: { $val }
 importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacchetto mazzo/collezione Anki (*.apkg *.colpkg *.zip)
@@ -116,6 +116,44 @@ importing-cards-added =
        *[other] Aggiunte { $count } carte.
     }
 importing-file-empty = Il file selezionato è vuoto.
+importing-notes-added =
+    { $count ->
+        [one] Importata { $count } nuova nota.
+       *[other] Importate { $count } nuove note.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } nota è stata usata per aggiornarne altre già presenti nella collezione.
+       *[other] { $count } note sono state usate per aggiornarne altre già presenti nella collezione.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } nota già presente nella tua collezione.
+       *[other] { $count } note già presenti nella tua collezione.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } nota non è stata importata poiché il suo tipo di nota è cambiato.
+       *[other] { $count } note non sono state importate, poiché il loro tipo di nota è cambiato.
+    }
+importing-import-log = Registro delle Importazioni
+importing-no-notes-in-file = Nessuna nota trovata nel file.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } nota trovata nel file. In particolare:
+       *[other] { $notes } note trovate nel file. In particolare:
+    }
+importing-show = Mostra
+importing-details = Dettagli
+importing-status = Stato
+importing-duplicate-note-added = Aggiunta nota duplicata.
+importing-added-new-note = Aggiunta nuova nota.
+importing-existing-note-skipped = Nota saltata, poiché una copia aggiornata è già presente nella tua collezione.
+importing-note-skipped-update-due-to-notetype = Nota non aggiornata, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
+importing-note-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
+importing-note-skipped-due-to-missing-notetype = Nota saltata, poiché il suo tipo di nota era mancante
+importing-note-skipped-due-to-missing-deck = Nota saltata, poiché il suo mazzo era mancante
+importing-note-skipped-due-to-empty-first-field = Nota saltata, poiché il suo primo campo è vuoto
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
