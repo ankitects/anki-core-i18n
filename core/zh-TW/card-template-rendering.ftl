@@ -19,7 +19,7 @@ card-template-rendering-conditional-not-closed = 缺少「{ $missing }」
 card-template-rendering-wrong-conditional-closed = 已找到「{ $found }」，但需要「{ $expected }」。
 # when the user closed a conditional that wasn't open
 # eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
-card-template-rendering-conditional-not-open = 已找到「{ $found }」，但遺失「{ $missing1 }」或「{ $missing2 }」。
+card-template-rendering-conditional-not-open = 已找到「{ $found }」，但缺少「{ $missing1 }」或「{ $missing2 }」。
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
 card-template-rendering-no-such-field = 已找到「{ $found }」，但沒有名為「{ $field }」的欄位。

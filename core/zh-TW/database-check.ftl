@@ -9,7 +9,7 @@ database-check-field-count =
 database-check-new-card-high-due = 已找到 { $count } 張到期序號 >= 1,000,000 的新卡片 - 請考慮在瀏覽器中調整它們的順序。
 database-check-card-missing-note = 已刪除 { $count } 張遺失筆記的卡片。
 database-check-duplicate-card-ords = 已刪除 { $count } 張模板重複的卡片。
-database-check-missing-decks = 已修正 { $count } 個缺失的牌組。
+database-check-missing-decks = 已修正 { $count } 個遺失的牌組。
 database-check-revlog-properties = 已修正 { $count } 次包含無效屬性的複習。
 database-check-notes-with-invalid-utf8 =
     { $count ->
