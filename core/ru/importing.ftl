@@ -18,7 +18,7 @@ importing-field-separator = Разделитель полей
 importing-field-mapping = Сопоставление полей
 importing-field-of-file-is = Поле <b>{ $val }</b> файла:
 importing-fields-separated-by = Поля разделены: { $val }
-importing-file-must-contain-field-column = В файле должна быть хотя бы одна колонка, чтобы сопоставить её полю записи.
+importing-file-must-contain-field-column = В файле нужна хотя бы одна колонка, чтобы сопоставить её полю записи.
 importing-file-version-unknown-trying-import-anyway = Версия файла неизвестна. Пытается импортировать.
 importing-first-field-matched = Совпадающее первое поле: { $val }
 importing-identical = Одинаковые
@@ -127,6 +127,49 @@ importing-cards-added =
        *[other] { $count } карточек добавлено.
     }
 importing-file-empty = Выбранный файл пуст.
+importing-notes-added =
+    { $count ->
+        [one] { $count } новая запись импортирована.
+        [few] { $count } новые записи импортированы.
+       *[other] { $count } новых записей импортировано.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } запись обновила существующие.
+        [few] { $count } записи обновили существующие.
+       *[other] { $count } записей обновили существующие.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } запись уже в коллекции.
+        [few] { $count } записи уже в коллекции.
+       *[other] { $count } записей уже в коллекции.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } запись не импортирована, потому что изменился её тип.
+        [few] { $count } записи не импортированы, потому что изменился их тип.
+       *[other] { $count } записей не импортировано, потому что изменился их тип.
+    }
+importing-import-log = Журнал импорта
+importing-no-notes-in-file = В файле не найдены записи.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } запись
+        [few] { $notes } записи
+       *[other] { $notes } записей
+    }  найдено в файле, из которых:
+importing-show = Показать
+importing-details = Подробности
+importing-status = Статус
+importing-duplicate-note-added = Добавлен повтор
+importing-added-new-note = Добавлена новая запись
+importing-existing-note-skipped = Запись пропущена, потому что актуальная версия уже есть в коллекции
+importing-note-skipped-update-due-to-notetype = Запись не обновлена, потому что тип записи был изменён с момента добавления
+importing-note-updated-as-file-had-newer = Запись обновлена, потому что в файле более поздняя версия
+importing-note-skipped-due-to-missing-notetype = Запись пропущена, потому что отсутствует тип записи
+importing-note-skipped-due-to-missing-deck = Запись пропущена, потому что отсутствует тип колода
+importing-note-skipped-due-to-empty-first-field = Запись пропущена, потому что первое поле пустое
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

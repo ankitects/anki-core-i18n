@@ -51,3 +51,5 @@ notetypes-error-generating-cloze = Произошла ошибка при соз
 notetypes-error-getting-imagecloze = Не удалось открыть запись со скрытием изображения
 notetypes-error-loading-image-occlusion = Не удалось загрузить скрытие изображения. У вас Anki последней версии?
 notetype-error-no-image-to-show = Нет изображения
+notetypes-no-occlusion-created = Нужна хотя бы одна скрытая область.
+notetypes-io-select-image = Выберите изображение

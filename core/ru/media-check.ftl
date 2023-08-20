@@ -16,6 +16,7 @@ media-check-unused-count = Не используется файлов: { $count 
 media-check-renamed-count = Переименовано файлов: { $count }
 media-check-oversize-count = Больше, чем 100 МБ: { $count }
 media-check-subfolder-count = Подпапок: { $count }
+media-check-extracted-count = Извлечено изображени: { $count }
 
 ## Shown at the top of each section
 

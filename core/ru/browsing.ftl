@@ -98,7 +98,7 @@ browsing-treat-input-as-regular-expression = Ввод — регулярное �
 browsing-update-saved-search = Обновить поиск
 browsing-whole-collection = Вся коллекция
 browsing-window-title-notes = Список карточек (выбрано { $selected } из { $total } записей)
-browsing-you-must-have-at-least-one = Необходимо иметь хотя бы один столбец.
+browsing-you-must-have-at-least-one = Нужен хотя бы один столбец.
 browsing-group =
     { $count ->
         [one] { $count } группа
