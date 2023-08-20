@@ -109,9 +109,48 @@ deck-config-bury-interday-learning-siblings = Sork adik beradik belajar berhari
 deck-config-bury-new-tooltip =
     Sama ada kad `baru` lain nota yang sama (cth kad terbalik, penghapusan kloz bersebelahan)
     akan ditunda sehingga hari esok.
+deck-config-bury-review-tooltip = Sama ada kad `semakan`lain nota yang sama akan ditunda sehingga hari esok.
+deck-config-bury-interday-learning-tooltip =
+    Sama ada kad `belajar` lain nota yang sama dengan seling > 1 hari
+    akan ditunda sehingga hari esok.
+deck-config-bury-priority-tooltip =
+    Apabila Anki kumpul kad, mula-mula kumpul kad belajar sehari, kemudian
+    kad belajar berhari, kemudian semakan dan akhirnya kad baru. Ini mempengaruhi
+    kaedah sorok:
+    
+    - Jika anda dayakan semua tetapan sorok, adik beradik paling awal dalam senarai
+     akan ditunjuk. Contohnya, kad semakan akan diutamakan berbanding kad baru.
+    - Adik beradik kemudian dalam senarai tidak boleh sorok jenis kad lebih awal.
+     Contohnya, jika anda lumpuhkan sorok kad baru, dan ulang kaji suatu kad baru,
+     kad belajar berhari atau kad semakan tidak akan disorokkan, dan mungkin
+     terdapat adik beradik semakan dan adik beradik baru dalam sesi yang sama.
 
 ## Ordering section
 
+deck-config-ordering-title = Susunan Tunjuk
+deck-config-new-gather-priority = Susunan kumpul kad baru
+deck-config-new-gather-priority-tooltip-2 =
+    `Dek`: kumpul kad dari setiap dek ikut susunan, mula dari atas. Kad dari setiap dek
+    dikumpulkan dalam posisi menaik. Jika had harian dek pilihan tercapai, mungkin
+    berhenti kumpul sebelum semua dek diperiksa. Susunan ini paling pantas dalam koleksi
+    besar bagi anda untuk utamakan subdek dekat ke atas.
+    
+    `Posisi menaik`: kumpul kad mengikut posisi menaik (# tunggak), biasanya
+     tertua ditambah dahulu.
+    
+    `Posisi menurun`: kumpul kad mengikut posisi menurun (# tunggak), biasanya
+     terbaru ditambah dahulu.
+    
+    `Nota rawak`: kumpul kad dari nota pilihan rawak. Apabila sorok adik beradik lumpuh,
+    maka semua kad suatu nota ditunjuk dalam suatu sesi (e.g. kedua-dua kad front->back dan back->front)
+    
+    `Kad rawak`: kumpul kad secara rawak sepenuhnya.
+deck-config-new-gather-priority-deck = Dek
+deck-config-new-gather-priority-position-lowest-first = Posisi menaik
+deck-config-new-gather-priority-position-highest-first = Posisi menurun
+deck-config-new-gather-priority-random-notes = Nota rawak
+deck-config-new-gather-priority-random-cards = Kad rawak
+deck-config-new-card-sort-order = Susunan kad baru
 
 ## Timer section
 

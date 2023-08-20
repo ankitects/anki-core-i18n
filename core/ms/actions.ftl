@@ -68,3 +68,5 @@ actions-flag-pink = Merah Jambu
 actions-flag-turquoise = Firus
 actions-flag-purple = Ungu
 actions-set-flag = Tetap Tanda
+actions-nothing-to-undo = Tiada untuk dibuat asal
+actions-nothing-to-redo = Tiada untuk dibuat semula
