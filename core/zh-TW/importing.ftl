@@ -135,12 +135,12 @@ importing-details = 詳細資訊
 importing-status = 狀態
 importing-duplicate-note-added = 已加入重複的筆記
 importing-added-new-note = 已加入新筆記
-importing-existing-note-skipped = 已略過筆記，因為最新的副本已在集合中
-importing-note-skipped-update-due-to-notetype = 未更新筆記，因為筆記類型在首次匯入後被修改過
-importing-note-updated-as-file-had-newer = 已更新筆記，因為檔案中有較新的版本
-importing-note-skipped-due-to-missing-notetype = 已略過筆記，因為缺少筆記類型
-importing-note-skipped-due-to-missing-deck = 已略過筆記，因為缺少牌組
-importing-note-skipped-due-to-empty-first-field = 已略過筆記，因為缺少第一個欄位
+importing-existing-note-skipped = 已略過集合中已有最新副本的筆記
+importing-note-skipped-update-due-to-notetype = 未更新首次匯入後修改過筆記類型的筆記
+importing-note-updated-as-file-had-newer = 已更新檔案中版本較新的筆記
+importing-note-skipped-due-to-missing-notetype = 已略過缺少筆記類型的筆記
+importing-note-skipped-due-to-missing-deck = 已略過缺少牌組的筆記
+importing-note-skipped-due-to-empty-first-field = 已略過缺少第一個欄位的筆記
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
