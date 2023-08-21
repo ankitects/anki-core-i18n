@@ -14,6 +14,7 @@ media-check-unused-count = קבצים שאינם בשימוש: { $count }
 media-check-renamed-count = קבצים ששמם שונה: { $count }
 media-check-oversize-count = יותר מ- 100MB: { $count }
 media-check-subfolder-count = תיקיות משנה: { $count }
+media-check-extracted-count = תמונות שחולצו: { $count }
 
 ## Shown at the top of each section
 

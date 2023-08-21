@@ -118,6 +118,44 @@ importing-cards-added =
        *[other] { $count } כרטיסים נוספו.
     }
 importing-file-empty = הקובץ שבחרת ריק.
+importing-notes-added =
+    { $count ->
+        [one] { $count } רשומה יובאה.
+       *[other] { $count } רשומות יובאו.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } רשומה שימשה כדי לעדכן את הקיימים.
+       *[other] { $count } רשומות שימשו כדי לעדכן את הקיימים.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } רשומה כבר קיימת באוסף שלך.
+       *[other] { $count } רשומות כבר קיימות באוסף שלך.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } רשומה לא יובאה, מכיוון שסוג הרשומה שלה השתנה.
+       *[other] { $count } רשומות לא יובאו, מכיוון שסוג הרשומה שלהן השתנה.
+    }
+importing-import-log = יומן ייבוא
+importing-no-notes-in-file = לא נמצאו רשומות בקובץ.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } רשומה
+       *[other] { $notes } רשומות
+    } נמצא בקובץ. מאלה:
+importing-show = הצג
+importing-details = פרטים
+importing-status = מצב
+importing-duplicate-note-added = רשומה כפולה נוספה
+importing-added-new-note = רשומה חדשה התווספה
+importing-existing-note-skipped = רשומה דולגה, כיון שעותק עדכני שלה כבר נמצא במאגר שלך
+importing-note-skipped-update-due-to-notetype = הרשומה לא עודכנה, מכיון שסוג הרשומה שלה השתנה מאז הייבוא הראשון שלה
+importing-note-updated-as-file-had-newer = רשומה עודכנה, מכיוון שלקובץ הייתה גרסה חדשה יותר
+importing-note-skipped-due-to-missing-notetype = רשומה דולגה, מכיוון שסוג הרשומה שלה היה חסר
+importing-note-skipped-due-to-missing-deck = רשומה דולגה, מכיוון שהחפיסה שלה חסרה
+importing-note-skipped-due-to-empty-first-field = רשומה דולגה, מכיוון שהשדה הראשון שלה ריק
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
