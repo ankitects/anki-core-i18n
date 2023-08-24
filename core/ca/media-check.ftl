@@ -14,6 +14,7 @@ media-check-unused-count = Fitxers no usats: { $count }
 media-check-renamed-count = Fitxers reanomenats: { $count }
 media-check-oversize-count = Fitxers de més de 100 MB: { $count }
 media-check-subfolder-count = Subcarpetes: { $count }
+media-check-extracted-count = Imatges extretes: { $count }
 
 ## Shown at the top of each section
 

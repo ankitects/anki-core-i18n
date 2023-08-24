@@ -116,6 +116,23 @@ importing-cards-added =
        *[other] S’han afegit { $count } targetes.
     }
 importing-file-empty = El fitxer que heu seleccionat està buit.
+importing-notes-added =
+    { $count ->
+        [one] S’ha afegit una nota nova.
+       *[other] S’han afegit { $count } notes noves.
+    }
+importing-import-log = Registre d’importació
+importing-no-notes-in-file = No s’ha trobat cap nota en el fitxer.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] S'ha trobat una nota
+       *[other] S’han trobat { $notes } notes
+    } en el fitxer, de les quals:
+importing-show = Mostra
+importing-details = Detalls
+importing-status = Estat
+importing-duplicate-note-added = S’ha afegit una nota duplicada.
+importing-added-new-note = S’ha afegit una nota nova.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
