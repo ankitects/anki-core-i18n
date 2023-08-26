@@ -18,6 +18,7 @@ media-check-unused-count = ملفات غير مستخدمة: { $count }
 media-check-renamed-count = عدد الملفات التي أعيدت تسميتها: { $count }
 media-check-oversize-count = أكبر من 100 ميغابايت: { $count }
 media-check-subfolder-count = مجلدات فرعية: { $count }
+media-check-extracted-count = الصور المستخرَجة: { $count }
 
 ## Shown at the top of each section
 

@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = الفواصل ا
 importing-notes-added-from-file = عدد الملحوظات المضافة من الملف: { $val }
 importing-notes-found-in-file = عدد الملحوظات الموجودة في الملف: { $val }
 importing-notes-skipped-as-theyre-already-in = عدد الملحوظات المتخطاة لكونها موجودة في مجموعتك: { $val }
-importing-notes-skipped-update-due-to-notetype = الملحوظات غير المحدثة لأن نوع الملحوظة قد تعدل منذ أن استوردت الملحوظات للمرة الأولى: { $val }
+importing-notes-skipped-update-due-to-notetype = لم يتم تحديث الملحوظات لأن نوع الملحوظة قد تعدل منذ أن استوردت الملحوظات للمرة الأولى: { $val }
 importing-notes-updated-as-file-had-newer = عدد الملحوظات المحدثة لأن الملف له إصدار أحدث: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = حزمة رزمة/مجموعة أنكي (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = درس Pauker 1.8 (*.pau.gz)
@@ -148,10 +148,46 @@ importing-cards-added =
        *[other] أضيفت { $count } بطاقة.
     }
 importing-file-empty = الملف المحدد فارغ.
+importing-notes-added =
+    { $count ->
+        [zero] لم يتم استيراد أي ملحوظة
+        [one] تم استيراد ملحوظة واحدة
+        [two] تم استيراد ملحوظاتان
+        [few] تم استيراد { $count } ملحوظات
+        [many] تم استيراد { $count } ملحوظة
+       *[other] تم استيراد { $count } ملحوظة
+    }
+importing-notes-updated =
+    { $count ->
+        [zero] لم يتم استخدام أي ملحوظة لتحديث الملحوظات الموجودة
+        [one] تم استخدام ملحوظة واحدة لتحديث الملحوظات الموجودة
+        [two] تم استخدام ملحوظتان لتحديث الملحوظات الموجودة
+        [few] تم استخدام { $count } ملحوظات لتحديث الملحوظات الموجودة
+        [many] تم استخدام { $count } ملحوظة لتحديث الملحوظات الموجودة
+       *[other] تم استخدام { $count } ملحوظة لتحديث الملحوظات الموجودة
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [zero] لا توجد هناك أي ملحوظة في مجموعتك
+        [one] هناك ملحوظة واحدة موجودة بالفعل في مجموعتك
+        [two] هناك ملحوظتان موجودتان بالفعل في مجموعتك
+        [few] هناك { $count } ملحوظات موجودة بالفعل في مجموعتك
+        [many] هناك { $count } ملحوظة موجودة بالفعل في مجموعتك
+       *[other] هناك { $count } ملحوظة موجودة بالفعل في مجموعتك
+    }
+importing-import-log = استيراد السجل
+importing-no-notes-in-file = لم يتم العثور على أي ملحوظة في الملف.
 importing-show = أظهر
 importing-details = تفاصيل
 importing-status = حالة
 importing-duplicate-note-added = تمت إضافة ملحوظة مكررة
+importing-added-new-note = تمت إضافة ملحوظة جديدة
+importing-existing-note-skipped = تم تخطي الملحوظة، لأن هناك نسخة محدثة موجودة بالفعل في مجموعتك
+importing-note-skipped-update-due-to-notetype = لم يتم تحديث الملحوظة، لأن تم تعديل نوع الملحوظة منذ أن استوردت الملحوظة لأول مرة
+importing-note-updated-as-file-had-newer = تم تحديث الملحوظة، لأن كان الملف يحتوي على إصدار أحدث
+importing-note-skipped-due-to-missing-notetype = تم تخطي الملحوظة، لأن نوع الملحوظة الخاص بها كان مفقودًا
+importing-note-skipped-due-to-missing-deck = تم تخطي الملحوظة، لأن الرزمة الخاصة بها كانت مفقودة
+importing-note-skipped-due-to-empty-first-field = تم تخطي الملحوظة، لأن الحقل الأول الخاص بها فارغ.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
