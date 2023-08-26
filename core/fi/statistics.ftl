@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Erääntyvät
+statistics-due-date = Erääntyy
 # The count of cards waiting to be reviewed
-statistics-due-count = Erääntyvät
+statistics-due-count = Erääntyneet
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Uudet nro { $number }
 
@@ -70,7 +70,7 @@ statistics-studied-today =
     } ({ $secs-per-card } s/kortti)
 statistics-today-title = Tänään
 statistics-today-again-count = Uudelleen näyttettäväksi pyydettyjen korttien lukumäärä:
-statistics-today-type-counts = Opitut: { $learnCount }, Kerratut: { $reviewCount }, Uudelleen opitut: { $relearnCount }, Suodatetut: { $filteredCount }
+statistics-today-type-counts = Opiskeltavat: { $learnCount }, Kerrattavat: { $reviewCount }, Uudelleen opiskeltavat: { $relearnCount }, Suodatetut: { $filteredCount }
 statistics-today-no-cards = Tänään ei ole opiskeltu yhtään korttia.
 statistics-today-no-mature-cards = Tänään ei opiskeltu yhtään varmaa korttia.
 statistics-today-correct-mature = Varmojen korttien oikeat vastaukset: { $correct }/{ $total } ({ $percent }%)
