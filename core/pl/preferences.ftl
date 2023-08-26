@@ -7,7 +7,7 @@ preferences-language = Język
 preferences-interrupt-current-audio-when-answering = Po podaniu odpowiedzi przerwij dźwięk karty
 preferences-learn-ahead-limit = Limit nauki z wyprzedzeniem
 preferences-mins = minut
-preferences-network = Sieć
+preferences-network = Synchronizacja
 preferences-next-day-starts-at = Nowy dzień zaczyna się
 preferences-media-is-not-backed-up = Kopia zapasowa nie zawiera plików multimedialnych. Dla bezpieczeństwa regularnie archiwizuj folder Anki.
 preferences-on-next-sync-force-changes-in = Przy następnej synchronizacji wymuś zmiany w jednym kierunku
@@ -58,6 +58,7 @@ preferences-appearance = Wygląd
 preferences-general = Ogólne
 preferences-style = Styl
 preferences-review = Powtórki
+preferences-answer-keys = Przyciski odpowiedzi
 preferences-distractions = Rozpraszacze
 preferences-minimalist-mode = Tryb minimalistyczny
 preferences-editing = Edytowanie
@@ -68,6 +69,7 @@ preferences-note = Ostrzeżenie
 preferences-scheduler = Planowanie
 preferences-user-interface = Interfejs użytkownika
 preferences-import-export = Import/Eksport
+preferences-network-timeout = Limit połączenia sieciowego
 preferences-reset-window-sizes = Domyślne rozmiary okien
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
