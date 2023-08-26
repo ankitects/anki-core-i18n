@@ -116,9 +116,47 @@ importing-cards-added =
        *[other] { $count } korttia lisätty.
     }
 importing-file-empty = Valitsemasi tiedosto on tyhjä.
+importing-notes-added =
+    { $count ->
+        [one] { $count } uusi muistiinpano tuotu.
+       *[other] { $count } uutta muistiinpanoa tuotu.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } muistiinpanoa käytettiin olemassa olevien päivittämiseen.
+       *[other] { $count } muistiinpanoa käytettiin olemassa olevien päivittämiseen.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } muistiinpano on jo kokoelmassasi.
+       *[other] { $count } muistiinpanoa on jo kokoelmassasi.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } muistiinpanoa ei tuotu, koska sen muistiinpanotyyppi on muuttunut.
+       *[other] { $count } muistiinpanoa ei tuotu, koska niiden muistiinpanotyypit ovat muuttuneet.
+    }
+importing-import-log = Tuonnin loki
+importing-no-notes-in-file = Tiedostosta ei löytynyt muistiinpanoja.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] Tiedostosta löytyi { $notes } muistiinpano
+       *[other] Tiedostosta löytyi { $notes } muistiinpanoa
+    }Niiden joukosta:
+importing-show = Näytä
+importing-details = Tiedot
+importing-status = Tila
+importing-duplicate-note-added = Muistiinpanon kaksoiskappale lisätty
+importing-added-new-note = Uusi muistiinpano lisätty
+importing-existing-note-skipped = Muistiinpano ohitettu, koska ajantasainen kopio siitä on jo kokoelmassasi
+importing-note-skipped-update-due-to-notetype = Muistiinpanoa ei päivitetty, koska muistiinpanotyyppiä on muutettu sen jälkeen, kun muistiinpano tuotiin ensimmäisen kerran
+importing-note-updated-as-file-had-newer = Muistiinpano päivitetty, koska tiedoston sisältämä versio oli uudempi
+importing-note-skipped-due-to-missing-notetype = Muistiinpano ohitettu, koska sen muistiinpanotyyppi puuttuu
+importing-note-skipped-due-to-missing-deck = Muistiinpano ohitettu, koska sen pakka puuttuu
+importing-note-skipped-due-to-empty-first-field = Muistiinpano ohitettu, koska sen ensimmäinen kenttä on tyhjä
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Tuodaan kokoelmaa...
-importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta.
+importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta
 importing-notes-that-could-not-be-imported = Muistiinpanoja, joita ei voitu tuoda, koska muistiinpanotyyppi on muuttunut: { $val }

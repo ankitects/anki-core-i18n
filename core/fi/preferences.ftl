@@ -2,7 +2,7 @@ preferences-automatically-sync-on-profile-openclose = Synkronoi automaattisesti 
 preferences-backups = Varmuuskopiot
 preferences-change-deck-depending-on-note-type = Vaihda pakkaa muistiinpanotyypistä riippuen
 preferences-changes-will-take-effect-when-you = Muutokset tulevat voimaan, kun käynnistät Ankin uudelleen.
-preferences-hours-past-midnight = tuntia yli keskiyön
+preferences-hours-past-midnight = tuntia keskiyön jälkeen
 preferences-language = Kieli
 preferences-interrupt-current-audio-when-answering = Keskeytä nykyinen ääni vastatessa
 preferences-learn-ahead-limit = Ennalta opiskeltavien yläraja
@@ -30,7 +30,7 @@ preferences-timebox-time-limit = Määritetyn ajan yläraja
 preferences-user-interface-size = Käyttöliittymän koko
 preferences-when-adding-default-to-current-deck = Kun lisätään, on oletuksena nykyinen pakka
 preferences-you-can-restore-backups-via-fileswitch = Voit palauttaa varmuuskopioita valitsemalla Tiedosto>Vaihda profiilia.
-preferences-legacy-timezone-handling = Vanha aikavyöhykkeiden käsittely (sisältää virheitä, mutta vaaditaan AnkiDroidin versioissa <= 2.14)
+preferences-legacy-timezone-handling = Vanha aikavyöhykkeiden käsittely (sisältää virheitä, mutta vaaditaan AnkiDroidin versioille <= 2.14)
 preferences-default-search-text = Oletusarvoinen hakuteksti
 preferences-default-search-text-example = esim. 'deck:current'
 preferences-theme = Teema
@@ -59,7 +59,7 @@ preferences-general = Yleiset
 preferences-style = Tyyli
 preferences-review = Kertaus
 preferences-answer-keys = Vastauspainikkeet
-preferences-distractions = Häiriöt
+preferences-distractions = Häiriötekijät
 preferences-minimalist-mode = Minimalistinen tila
 preferences-editing = Muokkaus
 preferences-browsing = Selaaminen

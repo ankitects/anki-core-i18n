@@ -14,6 +14,7 @@ media-check-unused-count = Käyttämättömiä tiedostoja: { $count }
 media-check-renamed-count = Uudelleennimettyjä tiedostoja: { $count }
 media-check-oversize-count = Yli 100 Mt:n kokoisia: { $count }
 media-check-subfolder-count = Alikansioita: { $count }
+media-check-extracted-count = Purettuja kuvia: { $count }
 
 ## Shown at the top of each section
 
@@ -69,7 +70,7 @@ media-check-render-latex = Renderöi LaTeX
 media-check-empty-trash = Tyhjennä roskakori
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Palauta poistetut
-media-check-check-media-action = Tarkista media
+media-check-check-media-action = Tarkista mediatiedostot
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = media-puuttuu
 # add a tag to notes with missing media
