@@ -36,10 +36,8 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     }で学習しています ({ $secs-per-card }秒/枚)
 statistics-today-title = 今日
-statistics-today-again-count = 「やり直し」の回数:
-statistics-today-type-counts =
-    習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、
-    フィルター: { $filteredCount }枚
+statistics-today-again-count = 「もう一度」の回数:
+statistics-today-type-counts = 習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、フィルター: { $filteredCount }枚
 statistics-today-no-cards = 今日はまだ1枚もカードを学習していません。
 statistics-today-no-mature-cards = 今日は習熟期のカードを復習していません
 statistics-today-correct-mature = 習熟期の復習の正解率: { $correct }/{ $total } ({ $percent }%)
