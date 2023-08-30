@@ -6,8 +6,8 @@
 card-template-rendering-more-info = 詳細
 card-template-rendering-front-side-problem = 表面のテンプレートに不備があります：
 card-template-rendering-back-side-problem = 裏面のテンプレートに不備があります：
-card-template-rendering-browser-front-side-problem = 検索リスト用の質問のテンプレートに不備があります:
-card-template-rendering-browser-back-side-problem = 検索リスト用の解答のテンプレートに不備があります:
+card-template-rendering-browser-front-side-problem = 検索テーブル用の質問のテンプレートに不備があります:
+card-template-rendering-browser-back-side-problem = 検索テーブル用の解答のテンプレートに不備があります:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = 「{ $tag }」に「{ $missing }」が欠けています
