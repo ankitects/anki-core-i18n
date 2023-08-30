@@ -47,7 +47,7 @@ sync-upload-too-large = あなたのコレクションはAnkiWebに送信する�
 
 sync-media-log-button = メディアログ
 sync-abort-button = 中断
-sync-download-from-ankiweb = AnkiWebからダウンロード
+sync-download-from-ankiweb = AnkiWeb からダウンロード
 sync-upload-to-ankiweb = AnkiWeb にアップロード
 sync-cancel-button = キャンセル
 
