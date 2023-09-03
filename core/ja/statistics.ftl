@@ -97,7 +97,7 @@ statistics-cards-due =
     { $cards ->
        *[other] { $cards }枚が期日
     }
-statistics-backlog-checkbox = 延滞分も表示
+statistics-backlog-checkbox = 延滞込み
 statistics-intervals-title = 間隔
 statistics-intervals-subtitle = 次の復習までの間隔（日数）とそれぞれのカード枚数
 statistics-intervals-day-range =
@@ -114,7 +114,7 @@ statistics-hours-correct = 正解率: { $correct }/{ $total } ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews }回
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = 📈 { $percent }% 正解 ({ $reviews }回)
+statistics-hours-correct-reviews = 📈 正解率 { $percent }% ({ $reviews }回)
 statistics-hours-title = 時間帯の分析
 statistics-hours-subtitle = 時間帯ごとの学習回数と正解率
 # shown when graph is empty
