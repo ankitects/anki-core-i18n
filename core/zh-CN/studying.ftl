@@ -6,7 +6,7 @@ studying-buried-siblings = 已搁置的关联卡片
 studying-bury = 搁置
 studying-bury-card = 搁置卡片
 studying-bury-note = 搁置笔记
-studying-card-suspended = 已暂停的卡片。
+studying-card-suspended = 卡片已暂停
 studying-card-was-a-leech = 此卡片为记忆难点。
 studying-cards-buried =
     { $count ->
@@ -29,7 +29,7 @@ studying-manually-buried-cards = 已手动搁置的卡片
 studying-mark-note = 标记笔记
 studying-more = 更多
 studying-no-cards-are-due-yet = 无卡片已经到期。
-studying-note-suspended = 已暂停的笔记。
+studying-note-suspended = 笔记已暂停
 studying-pause-audio = 暂停音频
 studying-please-run-toolsempty-cards = 请运行「工具」>「清理空卡片」
 studying-record-own-voice = 录制自己的声音
