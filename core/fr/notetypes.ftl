@@ -35,3 +35,13 @@ notetypes-note-types = Types de note
 notetypes-options = Options...
 notetypes-please-add-another-note-type-first = Avant cela, veuillez ajouter un nouveau type de note..
 notetypes-type = Type
+
+## Image Occlusion
+
+notetypes-image = Image
+notetypes-occlusion-note = Note
+notetypes-comments-field = Commentaires
+notetypes-hide-all-guess-one = Cacher Tout, Deviner Un
+notetypes-hide-one-guess-one = Cacher Tout, Deviner Un
+notetype-error-no-image-to-show = Pas d'image à afficher.
+notetypes-io-select-image = Sélectionner une image

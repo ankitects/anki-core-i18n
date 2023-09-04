@@ -31,6 +31,7 @@ deck-config-tab-description =
     - `Préréglage`: La limite est partagée avec tous les paquets utilisant ce préréglage.
     - `Ce paquet`: La limite est spécifique à ce paquet.
     - `Juste aujourd'hui`: Modification temporaire de la limite de ce paquet.
+deck-config-affects-entire-collection = Affecte toute la collection.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -69,7 +70,6 @@ deck-config-bury-title = Enfouissement
 deck-config-bury-new-siblings = Enfouir les nouvelles cartes sœurs
 deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser
 deck-config-bury-interday-learning-siblings = Enfouir les cartes d'apprentissage interjournalier
-deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
 
 ## Ordering section
 
@@ -219,5 +219,6 @@ deck-config-maximum-answer-secs-above-recommended = Anki peut programmer vos ré
 
 deck-config-which-deck = Quel paquet voulez vous ?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.

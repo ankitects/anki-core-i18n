@@ -1,4 +1,4 @@
-database-check-corrupt = Le fichier de la collection est corrompu. Il existe un manuel en ligne.
+database-check-corrupt = Le fichier de la collection est corrompu. Restaurez le à partir d'une sauvegarde automatique.
 database-check-rebuilt = La base de données est reconstruite et optimisée.
 database-check-card-properties =
     { $count ->
@@ -44,6 +44,11 @@ database-check-notes-with-invalid-utf8 =
     { $count ->
         [one] note réparée avec des caractères utf8 invalides
        *[other] notes réparées avec des caractères utf8 invalides
+    }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] Corrigé { $count } objet avec un horodatage dans le futur.
+       *[other] Corrigé { $count } objets avec un horodatage dans le futur.
     }
 # "db-check" is always in English
 database-check-notetypes-recovered = Un ou plusieurs types de notes sont manquants. Les notes qui y sont liées ont reçu un nouveau type commençant par "db-check". Les noms de champ et design de carte ont été perdus, vous devriez restaurer votre précédente sauvegarde automatique.
