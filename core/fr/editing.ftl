@@ -16,6 +16,7 @@ editing-customize-fields = Personnaliser les champs
 editing-cut = Couper
 editing-double-click-image = double-cliquer sur l'image
 editing-double-click-to-expand = (double-cliquer pour étendre)
+editing-double-click-to-collapse = double-cliquer pour réduire
 editing-edit-current = Modifier la carte en cours
 editing-edit-html = Modifier le HTML
 editing-fields = Champs
@@ -55,6 +56,8 @@ editing-to-make-a-cloze-deletion-on = Pour faire d’une carte déjà existante,
 editing-toggle-html-editor = Afficher l'éditeur HTML
 editing-toggle-visual-editor = Afficher l'éditeur visuel
 editing-toggle-sticky = Utiliser le pin
+editing-expand = Étendre
+editing-collapse = Réduire
 editing-expand-field = Développer le champ
 editing-collapse-field = Réduire le champ
 editing-underline-text = Souligné
@@ -63,6 +66,9 @@ editing-warning-cloze-deletions-will-not-work = Attention, le texte à trous ne 
 editing-mathjax-preview = Aperçu MathJax
 editing-shrink-images = Rétrécir les images
 editing-close-html-tags = Fermer automatiquement les tags HTML
+editing-from-clipboard = Depuis le Presse-Papier
+editing-alignment = Alignement
+editing-equations = Équations
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

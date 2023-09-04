@@ -31,6 +31,7 @@ deck-config-tab-description =
     - `Préréglage`: La limite est partagée avec tous les paquets utilisant ce préréglage.
     - `Ce paquet`: La limite est spécifique à ce paquet.
     - `Juste aujourd'hui`: Modification temporaire de la limite de ce paquet.
+deck-config-new-cards-ignore-review-limit = Les nouvelles cartes ignorent la limite de révisions
 deck-config-affects-entire-collection = Affecte toute la collection.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
