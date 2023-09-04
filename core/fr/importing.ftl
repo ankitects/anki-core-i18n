@@ -131,6 +131,12 @@ importing-existing-notes-skipped =
         [one] { $count } note déjà présente dans votre collection.
        *[other] { $count } notes déjà présentes dans votre collection.
     }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } note n'a pas été importée, car son type a changé.
+       *[other] { $count } notes n'ont pas été importées, car leur type a changé.
+    }
+importing-import-log = Journal d'Importation
 importing-no-notes-in-file = Pas de notes trouvées dans le fichier.
 importing-notes-found-in-file2 =
     { $notes ->
@@ -139,6 +145,7 @@ importing-notes-found-in-file2 =
     } dans le fichier. Dont:
 importing-show = Afficher
 importing-details = Détails
+importing-status = État
 importing-duplicate-note-added = Note dupliquée ajoutée
 importing-added-new-note = Nouvelle note ajoutée
 importing-existing-note-skipped = Note sautée, car une copie à jour est déjà présente dans votre collection

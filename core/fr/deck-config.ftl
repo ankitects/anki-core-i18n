@@ -77,6 +77,21 @@ deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser
 deck-config-bury-interday-learning-siblings = Enfouir les cartes d'apprentissage interjournalier
 deck-config-bury-new-tooltip = Dans quelle mesure les autres `nouvelles` cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
 deck-config-bury-review-tooltip = Dans quelle mesure les autres cartes `révision` liées à la même note doivent être retardées jusqu'au lendemain.
+deck-config-bury-interday-learning-tooltip =
+    Dans quelle mesure les autres cartes `en apprentissage` liées à la même note
+    avec un intervalle supérieur à 1 jour doivent être retardées jusqu'au lendemain.
+deck-config-bury-priority-tooltip =
+    Quand Anki rassemble des cartes, les cartes en apprentissage du jour
+    sont d'abord rassemblées, puis les révisions, et enfin les nouvelles cartes. Cela affecte
+    la manière dont fonctionne l'enfouissement:
+    
+    - Si toutes les options d'enfouissement sont activées, la carte sœur qui vient en première
+    dans cette liste sera montrée. Par exemple, une carte de révision sera montrée en la préférant
+    à une nouvelle carte
+    - Les cartes sœurs se trouvant après dans la liste ne peuvent pas enfouir des types de cartes précédents.
+    Par exemple, si vous désactivez l'enfouissement des nouvelles cartes, et étudiez une nouvelle carte, elle n'enfouira
+    aucune carte d'apprentissage ou de révision du jour, et vous pourrez voir une carte sœur de révision et une nouvelle
+    carte sœur dans la même session.
 
 ## Ordering section
 

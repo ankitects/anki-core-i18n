@@ -13,8 +13,6 @@ browsing-browser-options = Options de l’explorateur
 browsing-buried = Enfouies
 browsing-card = Carte
 browsing-cards = Cartes
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
 browsing-card-list = Liste des cartes
 browsing-cards-cant-be-manually-moved-into = Les cartes ne peuvent être déplacées manuellement dans un paquet filtré.
 browsing-cards-deleted =
@@ -61,8 +59,6 @@ browsing-no-flag = Aucun marqueur
 browsing-no-selection = Aucune carte ou note sélectionnée.
 browsing-note = Note
 browsing-notes = Notes
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = Filtre optionnel :
 browsing-override-back-template = Remplacer le modèle verso
 browsing-override-font = Remplacer la police
@@ -93,6 +89,7 @@ browsing-suspended = Suspendues
 browsing-tag-duplicates = Taguer les doublons
 browsing-tag-rename-warning-empty = Vous ne pouvez pas renommer un tag qui n'a pas de notes.
 browsing-target-field = Champ visé :
+browsing-toggle-bury = Activer/désactiver l'enfouissement
 browsing-toggle-showing-cards-notes = Afficher les cartes/notes
 browsing-toggle-mark = Marquer/démarquer
 browsing-toggle-suspend = Suspendre/Rependre
@@ -167,5 +164,9 @@ browsing-reparented-decks =
        *[other] { $count } paquets renommés.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

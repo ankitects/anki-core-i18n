@@ -57,3 +57,8 @@ card-templates-this-will-create-card-proceed =
        *[other] Ceci créera { $count } cartes. Procéder ?
     }
 card-templates-type-boxes-warning = Seule une zone de texte par modèle est prise en charge
+card-templates-restore-to-default = Restaurer les paramètres par défaut
+card-templates-restore-to-default-confirmation =
+    Cela va réinitialiser tous les champs et modèles de ce type de note à leurs
+    valeurs par défaut, retirant tout champ et modèle additionnel et son contenu, ainsi que son style. Voulez vous continuer ?
+card-templates-restored-to-default = Le type de note a été restauré à son état originel.

@@ -48,6 +48,7 @@ preferences-monthly-backups = Sauvegardes mensuelles à conserver:
 preferences-minutes-between-backups = Minutes entre les sauvegardes automatiques :
 preferences-reduce-motion = Réduire le mouvement
 preferences-reduce-motion-tooltip = Désactiver les animations et transitions de l'interface utilisateur
+preferences-custom-sync-url = Serveur de synchronisation personnel
 preferences-custom-sync-url-disclaimer = Pour utilisateurs avancés - veuillez consulter le manuel
 preferences-hide-top-bar-during-review = Cacher la barre en haut pendant les révisions
 preferences-hide-bottom-bar-during-review = Cacher la barre en bas pendant les révisions
@@ -69,7 +70,11 @@ preferences-scheduler = Planificateur
 preferences-user-interface = Interface Utilisateur
 preferences-import-export = Importer/Exporter
 preferences-network-timeout = Délai d'expiration du réseau
+preferences-reset-window-sizes = Réinitialiser les Tailles de Fenêtres
+preferences-reset-window-sizes-complete = Les tailles et positions de fenêtres ont été réinitialisées.
+preferences-shortcut-placeholder = Entrer un raccourci clavier non utilisé, ou laisser vide pour désactiver
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Basique
+preferences-media = Médias

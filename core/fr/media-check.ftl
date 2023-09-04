@@ -34,6 +34,7 @@ media-check-subfolder-count =
         [one] Sous-fichier : { $count }
        *[other] Sous-fichiers : { $count }
     }
+media-check-extracted-count = Images extraites: { $count }
 
 ## Shown at the top of each section
 
@@ -93,3 +94,7 @@ media-check-empty-trash = Vider la corbeille
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Restaurer les fichiers supprimés
 media-check-check-media-action = Vérifier les médias
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = média-manquant
+# add a tag to notes with missing media
+media-check-add-tag = Étiquette Manquante
