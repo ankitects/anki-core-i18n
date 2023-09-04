@@ -32,6 +32,10 @@ deck-config-tab-description =
     - `Ce paquet`: La limite est spécifique à ce paquet.
     - `Juste aujourd'hui`: Modification temporaire de la limite de ce paquet.
 deck-config-new-cards-ignore-review-limit = Les nouvelles cartes ignorent la limite de révisions
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Par défaut, la limite de révisions s'applique aussi aux nouvelles cartes, et aucune nouvelle
+    carte ne sera affichée si la limite de révisions a été atteinte. Si cette option est activée, les nouvelles
+    cartes seront affichées peu importe la limite de révision.
 deck-config-affects-entire-collection = Affecte toute la collection.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -71,6 +75,8 @@ deck-config-bury-title = Enfouissement
 deck-config-bury-new-siblings = Enfouir les nouvelles cartes sœurs
 deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser
 deck-config-bury-interday-learning-siblings = Enfouir les cartes d'apprentissage interjournalier
+deck-config-bury-new-tooltip = Dans quelle mesure les autres `nouvelles` cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
+deck-config-bury-review-tooltip = Dans quelle mesure les autres cartes `révision` liées à la même note doivent être retardées jusqu'au lendemain.
 
 ## Ordering section
 
@@ -149,6 +155,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Ne pas lire les fichiers audio automatiquement
+deck-config-disable-autoplay-tooltip =
+    Si activé, Anki ne jouera pas les sons automatiquement.
+    Cela peut être effectué manuellement en cliquant/appuyant sur une icône sonore, ou en utilisant l'action de réécoute audio.
 deck-config-skip-question-when-replaying = Sauter la question quand la réponse est rejouée
 deck-config-always-include-question-audio-tooltip =
     Si le son de la question doit être inclus lorsque l'action Replay est¶

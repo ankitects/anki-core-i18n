@@ -35,7 +35,7 @@ importing-multicharacter-separators-are-not-supported-please = Les séparateurs 
 importing-notes-added-from-file = Notes ajoutées depuis fichier : { $val }
 importing-notes-found-in-file = Notes trouvées dans fichier: { $val }
 importing-notes-skipped-as-theyre-already-in = Notes sautées car elles sont déjà dans votre collection : { $val }
-importing-notes-that-could-not-be-imported = Notes ne pouvant pas être importées car le type de note a changé : { $val }
+importing-notes-skipped-update-due-to-notetype = Notes non mises à jour, car le type de note a été modifié depuis que vous avez importé pour la première fois les notes: { $val }
 importing-notes-updated-as-file-had-newer = Notes mises à jour car le fichier avait une version plus récente : { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Fichier de Paquet/Collection Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1,8 leçon
@@ -82,7 +82,6 @@ importing-processed-media-file =
         [one] { $count } fichier média traité
        *[other] { $count } fichiers médias traités
     }
-importing-importing-collection = Importation de la collection...
 importing-importing-file = Importation du fichier...
 importing-extracting = Extraction des données...
 importing-gathering = Collecte des données...
@@ -97,7 +96,6 @@ importing-processed-cards =
         [one] { $count } carte traitée...
        *[other] { $count } cartes traitées...
     }
-importing-unable-to-import-filename = Impossible d'importer { $filename } : type de fichier non supporté
 importing-existing-notes = Notes existantes
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Dupliquer
@@ -108,3 +106,50 @@ importing-update = Mettre à jour
 importing-tag-all-notes = Marquer toutes les notes
 importing-tag-updated-notes = Marquer les notes mises à jour
 importing-file = Fichier
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Étendue de la correspondance
+# Used with the 'match scope' option
+importing-notetype-and-deck = Type de note et paquet
+importing-cards-added =
+    { $count ->
+        [one] { $count } carte ajoutée.
+       *[other] { $count } cartes ajoutées.
+    }
+importing-file-empty = Le fichier sélectionné est vide.
+importing-notes-added =
+    { $count ->
+        [one] { $count } nouvelle note importée.
+       *[other] { $count } nouvelles notes importées.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] note a été utilisée pour en mettre à jour d'autres.
+       *[other] notes ont été utilisées pour en mettre à jour d'autres.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } note déjà présente dans votre collection.
+       *[other] { $count } notes déjà présentes dans votre collection.
+    }
+importing-no-notes-in-file = Pas de notes trouvées dans le fichier.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } note trouvée
+       *[other] { $notes } notes trouvées
+    } dans le fichier. Dont:
+importing-show = Afficher
+importing-details = Détails
+importing-duplicate-note-added = Note dupliquée ajoutée
+importing-added-new-note = Nouvelle note ajoutée
+importing-existing-note-skipped = Note sautée, car une copie à jour est déjà présente dans votre collection
+importing-note-skipped-update-due-to-notetype = Notes non mises à jour, car le type de note a été modifié depuis que vous avez importé la première fois les notes: { $val }
+importing-note-updated-as-file-had-newer = Note mise à jour car le fichier avait une version plus récente
+importing-note-skipped-due-to-missing-notetype = Note sautée, car son type est manquant
+importing-note-skipped-due-to-missing-deck = Note sautée, car son paquet est manquant
+importing-note-skipped-due-to-empty-first-field = Note sautée, car son premier champ est vide
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Importation de la collection...
+importing-unable-to-import-filename = Impossible d'importer { $filename } : type de fichier non supporté
+importing-notes-that-could-not-be-imported = Notes ne pouvant pas être importées car le type de note a changé : { $val }
