@@ -80,6 +80,85 @@ browsing-sort-field = סאָרטיר-פֿעלד
 browsing-sorting-on-this-column-is-not = סאָרטירן אין דער קאָלאָנקע ווערט נישט מעגלעך. קלײַבט אויס אַן אַנדערע.
 browsing-start-position = אָנהייב-פּאָסיציע:
 browsing-suspended = אָפּגעשטעלט
+browsing-tag-duplicates = אויספֿאַרבן דופּליקאַטן
+browsing-tag-rename-warning-empty = איר קענט נישט בײַטן דעם נאָמען פֿן אַ צעטל אָן קיין שום נאָטיץ.
+browsing-target-field = ציל-פֿעלד:
+browsing-toggle-bury = אָפּהאַלטן / צוריקנעמען
+browsing-toggle-showing-cards-notes = איבערשליסלען קאַרטלעך/נאָטיצן
+browsing-toggle-mark = פֿאַרצייכענען / נישט
+browsing-toggle-suspend = אָפּשטעלן / נישט
+browsing-treat-input-as-regular-expression = באַהאַנדלען אַרײַנוואַרג ווי סתּם אַן אויסדרוק
+browsing-update-saved-search = דערהײַנטיקן מיט איצטיקע דורכזוך
+browsing-whole-collection = גאַנצע זאַמלונג
+browsing-window-title-notes = בלעטערן ({ $selected } פֿון { $total } אויסגעקליבענע נאָטיצן
+browsing-you-must-have-at-least-one = ס׳מוז דאָ זײַן כאָטש איין קאָלאָנקע.
+browsing-group =
+    { $count ->
+        [one] { $count } גרופּע
+       *[other] { $count } גרופּעס
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } נאָטיץ
+       *[other] { $count } נאָטיצן
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] דערהײַנטיקט { $count } נאָטיץ.
+       *[other] דערהײַנטיקט { $count } נאָטיצן.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] דערהײַנטיקט { $count } קאַרטל.
+       *[other] דערהײַנטיקט { $count } קאַרטלעך.
+    }
+browsing-window-title = בלעטערן ({ $selected }) פֿון { $total } אויסגעקליבענע קאַרטלעך.
+browsing-sidebar-expand = צעוויקלען
+browsing-sidebar-collapse = צונויפֿוויקלען
+browsing-sidebar-decks = טעשלעך
+browsing-sidebar-tags = צעטלען
+browsing-sidebar-notetypes = מינים נאָטיץ
+browsing-sidebar-saved-searches = אויפֿגעהיטנע דורכזוכן
+browsing-sidebar-save-current-search = אויפֿהיטן איצטיקע דורכזוך
+browsing-sidebar-card-state = קאַרטל-מצבֿ
+browsing-sidebar-flags = פֿאַרבן
+browsing-today = הײַנט
+browsing-tooltip-card-modified = די לעצטיקע צײַט, וואָס מען האָט געביטן אַ  קאַרטל, צי איבערגע׳חזר׳ט, צי צוגעלייגט אַ פֿאַרב, צי איבערגעביט אין אַן אַנדער טעשל
+browsing-tooltip-note-modified = די לעצטיקע צײַט, וואָס מען האָט געביטן אַ  נאָטיץ, בדרך-כּלל אינהאַלט פֿון פֿעלדער אָדער געביטן די צעטלען
+browsing-tooltip-card = דער נאָמען פֿונעם מוסטער-קאָרט בײַם קאַרטל
+browsing-tooltip-cards = וויפֿל קאַרטלעך ס׳זענען דאָ בײַם נאָטיץ
+browsing-tooltip-notetype = דער נאָמען פֿונעם מין נאָטיץ בײַ אַ נאָטיץ
+browsing-tooltip-question = דער פֿאָרנט פֿון אַ קאַרטל, וואָס מע קען צופּאַסן בײַם מוסטער-קאַרטל
+browsing-tooltip-answer = הינטן פֿון אַ קאַרטל, וואָס מע קען צופּאַסן בײַם מוסטער-קאַרטל
+browsing-studied-today = איבערגע׳חזר׳ט
+browsing-added-today = צוגעלייגט
+browsing-again-today = ווידער
+browsing-edited-today = געביטן
+browsing-sidebar-first-review = ערשטע איבערחזרונג
+browsing-sidebar-rescheduled = אָפּגעלייגט
+browsing-sidebar-due-today = טערמיניק
+browsing-sidebar-untagged = אָן צעטל
+browsing-sidebar-overdue = פֿאַרשפּעטיקט
+browsing-row-deleted = (אָפּגעמעקט)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] צוגענומען { $count } נישט-געניצטן צעטל.
+       *[other] צוגענומען { $count } נישט-געניצטע צעטלען.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] איבערגעביטן פּאָזיציע פֿון { $count } נײַ קאַרטל.
+       *[other] איבערגעביטן פּאָזיציעס פֿון { $count } נײַע קאַרטלעך.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] איבערגעביטן דעם נאָמען פֿון { $count } טעשל.
+       *[other] איבערגעביטן די נעמען פֿון { $count } טעשלעך.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = ק
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = נ
