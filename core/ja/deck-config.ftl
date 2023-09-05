@@ -205,14 +205,14 @@ deck-config-custom-scheduling-tooltip = この設定はコレクション全体�
 
 ## Adding/renaming
 
-deck-config-add-group = プリセットを追加
+deck-config-add-group = プリセットを新規作成
 deck-config-name-prompt = 名前
-deck-config-rename-group = プリセットの名前を変更
-deck-config-clone-group = 同一のプリセットを追加
+deck-config-rename-group = このプリセットの名前を変更
+deck-config-clone-group = このプリセットを複製
 
 ## Removing
 
-deck-config-remove-group = プリセットを削除
+deck-config-remove-group = このプリセットを削除
 deck-config-will-require-full-sync = この変更を行うには、一方の状態をもう片方に上書きする同期が必要です。他のデバイスでのカード学習や変更をまだ同期していない場合は、そちらを済ませてからこちらの同期を実行してください。
 deck-config-confirm-remove-name = { $name }を削除しますか？
 
