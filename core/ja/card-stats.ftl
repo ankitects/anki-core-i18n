@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = 再習得中
 card-stats-review-log-type-filtered = フィルター
 card-stats-review-log-type-manual = 手動変更
 card-stats-no-card = （表示するカードがありません）
+card-stats-custom-data = カスタムデータ
 
 ## Window Titles
 
