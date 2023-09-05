@@ -61,7 +61,7 @@ deck-config-new-insertion-order = 配置順序
 deck-config-new-insertion-order-tooltip = 新規カードを追加したときにそのカードに割り当てる位置（新規カード番号）の決め方を選択できます。新規カード番号の数字が小さい順にカードは習得学習で表示されます。このオプションを変更すると、ただちに既存の新規カードの位置が更新されます。
 deck-config-new-insertion-order-sequential = 追加順
 deck-config-new-insertion-order-random = ランダム
-deck-config-new-insertion-order-random-with-v3 = V3スケジューラーでは、この設定を「追加順」のままにして、代わりに「表示順序」の「新規カードを集める順序」を調整することをお勧めします。
+deck-config-new-insertion-order-random-with-v3 = 現在ご利用中のV3スケジューラーでは、この設定を「追加順」のままにして、代わりに、「表示順序」カテゴリーの「新規カードを集める順序」オプションで順序を設定することをお勧めします。
 
 ## Lapses section
 
@@ -148,7 +148,7 @@ deck-config-interday-step-priority-tooltip =
     「前回のステップと現在のステップとの間隔が日をまたいでいる習得中（または再習得中）カード」をどのタイミングで表示するかを選択できます。
     
     「一日の復習枚数の上限」オプションの枚数に従って表示するカードを選び出す際には、この「間隔が日をまたいでいるステップにある習得中（再習得中）カード」が復習カードよりも常に優先されます。それに対してこのオプションでは、その後の「優先的に選び出したそれらのカードと復習カードをどのような順序で表示するか」を設定します。
-deck-config-review-mix-mix-with-reviews = 復習カードと交ぜる
+deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
 deck-config-review-mix-show-after-reviews = 復習の後に表示
 deck-config-review-mix-show-before-reviews = 復習の前に表示
 deck-config-review-sort-order = 復習カードを並べる順序
