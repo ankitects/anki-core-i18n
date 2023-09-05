@@ -219,7 +219,7 @@ deck-config-confirm-remove-name = { $name }を削除しますか？
 ## Other Buttons
 
 deck-config-save-button = 保存
-deck-config-save-to-all-subdecks = すべてのサブデッキで保存
+deck-config-save-to-all-subdecks = 保存してサブデッキにも適用
 deck-config-revert-button-tooltip = この設定をデフォルトに戻す
 
 ## These strings are shown via the Description button at the bottom of the
