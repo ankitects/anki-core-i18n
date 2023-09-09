@@ -45,6 +45,8 @@ importing-notes-found-in-file = 從檔案中找到的筆記：{ $val }
 importing-notes-skipped-as-theyre-already-in = 由於最新的副本已在集合中，因此略過了筆記：{ $val }
 importing-notes-skipped-update-due-to-notetype = 由於第一次匯入筆記後修改過筆記類型，因此沒有更新筆記：{ $val }
 importing-notes-updated-as-file-had-newer = 因檔案有新版本而更新的筆記：{ $val }
+importing-include-reviews = 包含複習
+importing-include-reviews-help = 啟用後，牌組分享者包含的先前做出的複習也會被匯入。如未啟用，則所有卡片將匯入為新卡片。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 已封裝的 Anki 牌組/集合 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
 # the '|' character
@@ -65,8 +67,13 @@ importing-unable-to-import-from-a-readonly = 無法匯入唯讀檔案。
 importing-unknown-file-format = 未知檔案格式。
 importing-update-existing-notes-when-first-field = 第一個欄位相符時，更新現有筆記
 importing-updated = 已更新
+importing-update-if-newer = 版本較新
+importing-update-always = 總是
+importing-update-never = 永不
 importing-update-notes = 更新筆記
+importing-update-notes-help = 選擇集合中現有的筆記要在何時更新。根據預設，符合匯入的筆記只有在近期被修改過時才會被更新。
 importing-update-notetypes = 更新筆記類型
+importing-update-notetypes-help = 選擇集合中現有的筆記類型要在何時更新。根據預設，符合匯入的筆記類型只有在近期被修改過時才會被更新。模板文字和樣式更動總是會被匯入，但你需要啟用「{ importing-merge-notetypes }」選項來匯入架構更動（如欄位的數量或順序更動）。
 importing-note-added =
     { $count ->
        *[other] 已加入 { $count } 則筆記
@@ -133,6 +140,10 @@ importing-existing-notes-skipped =
 importing-conflicting-notes-skipped =
     { $count ->
        *[other] { $count } 則筆記未被匯入，因為更改了筆記類型。
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+       *[other] 未匯入 { $count } 則筆記，因為更改了筆記類型，且未啟用「{ importing-merge-notetypes }」。
     }
 importing-import-log = 匯入記錄
 importing-no-notes-in-file = 在檔案中找不到筆記。
