@@ -30,6 +30,14 @@ importing-map-to = 對應到 { $val }
 importing-map-to-tags = 對應到標籤
 importing-mapped-to = 對應到<b>{ $val }</b>
 importing-mapped-to-tags = 對應到 <b>標籤</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = 合併筆記類型
+importing-merge-notetypes-help =
+    勾選後，若你或牌組作者修改了牌組類型的架構，則 Anki 不會分別保留兩個版本，而會將它們合併。
+    
+    牌組類型的架構更動包括新增、移除及重新排列欄位或模板，或更改排序欄位。舉反例，更改現有模板的正面**不屬於**更改架構。
+    
+    警告：這將需要單向同步，且可能會將現有筆記標記為已修改。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 的牌組 (*.db)
 importing-multicharacter-separators-are-not-supported-please = 無法使用多字符的分隔，請只輸入一個字符。
 importing-notes-added-from-file = 從檔案中加入的筆記：{ $val }
@@ -57,6 +65,8 @@ importing-unable-to-import-from-a-readonly = 無法匯入唯讀檔案。
 importing-unknown-file-format = 未知檔案格式。
 importing-update-existing-notes-when-first-field = 第一個欄位相符時，更新現有筆記
 importing-updated = 已更新
+importing-update-notes = 更新筆記
+importing-update-notetypes = 更新筆記類型
 importing-note-added =
     { $count ->
        *[other] 已加入 { $count } 則筆記
