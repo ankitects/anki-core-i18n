@@ -5,7 +5,7 @@ media-check-window-title = メディアをチェック
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count =
-    ゴミ箱フォルダ：{ $count ->
+    ごみ箱フォルダ：{ $count ->
        *[other] { $count }ファイル、{ $megs }MB
     }
 media-check-missing-count = 見つからないファイル数：{ $count }
@@ -48,7 +48,7 @@ media-check-checked = チェック済み: { $count }...
 media-check-delete-unused-confirm = どのカードにも使用されていないメディアファイルを削除します。よろしいですか？
 media-check-files-remaining = 残り{ $count }個のファイル...
 media-check-delete-unused-complete = { $count }個のファイルをごみ箱に移動しました。
-media-check-trash-emptied = ゴミ箱フォルダを空にしました
+media-check-trash-emptied = ごみ箱フォルダを空にしました
 media-check-trash-restored = 削除したファイルをメディアフォルダに戻しました。
 
 ## Rendering LaTeX
@@ -60,9 +60,9 @@ media-check-all-latex-rendered = すべてのLaTeXをレンダリングしまし
 media-check-delete-unused = 使用されていないファイルを削除
 media-check-render-latex = LaTexをレンダリングする
 # button to permanently delete media files from the trash folder
-media-check-empty-trash = ゴミ箱を空にする
+media-check-empty-trash = ごみ箱を空にする
 # button to move deleted files from the trash back into the media folder
-media-check-restore-trash = 削除ファイルを復元する
+media-check-restore-trash = 削除したファイルを復元する
 media-check-check-media-action = メディアをチェック
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = missing-media
