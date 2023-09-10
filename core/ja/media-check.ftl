@@ -45,7 +45,7 @@ media-check-checked = チェック済み: { $count }...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = 使用していないメディアファイルを削除しますか？
+media-check-delete-unused-confirm = どのカードにも使用されていないメディアファイルを削除します。よろしいですか？
 media-check-files-remaining = 残り{ $count }個のファイル...
 media-check-delete-unused-complete = { $count }個のファイルをごみ箱に移動しました。
 media-check-trash-emptied = ゴミ箱フォルダを空にしました
