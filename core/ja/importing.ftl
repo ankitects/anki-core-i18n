@@ -73,7 +73,7 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-       *[other] { $count }のメディアファイルを処理
+       *[other] { $count }個のメディアファイルをインポートしました
     }
 importing-importing-file = ファイルをインポート中...
 importing-extracting = データを摘出中...
@@ -81,7 +81,7 @@ importing-gathering = データを収集中...
 importing-failed-to-import-media-file = メディアファイルのインポートに失敗しました: { $debugInfo }
 importing-processed-notes =
     { $count ->
-       *[other] { $count }個のノートを処理...
+       *[other] { $count }個のノートを追加しています...
     }
 importing-tag-all-notes = すべてのノートにタグ
 importing-file = ファイル
