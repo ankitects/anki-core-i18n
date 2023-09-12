@@ -30,6 +30,18 @@ importing-map-to = Mappa su { $val }
 importing-map-to-tags = Mappa verso le etichette
 importing-mapped-to = mappato su <b>{ $val }</b>
 importing-mapped-to-tags = mappato verso le <b>etichette</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Unisci tipi di nota
+importing-merge-notetypes-help =
+    Se selezionato e tu o l'autore del mazzo avete modificato lo schema di un tipo di nota,
+    Anki unirà le due versioni anziché mantenerle entrambe.
+    
+    Modificare lo schema di un tipo di nota significa aggiungere, rimuovere o riordinare i campi o i modelli,
+    o cambiare il campo di ordinamento.
+    
+    Come controesempio, cambiare il lato fronte di un modello già esistente *non* costituisce una modifica dello schema.
+    
+    Avviso: ciò richiederà una sincronizzazione unidirezionale e alcune note già esistenti potrebbero essere contrassegnate come 'modificate'.
 importing-mnemosyne-20-deck-db = Mazzo di Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatori multi-carattere non sono supportati. Inserisci un solo carattere.
 importing-notes-added-from-file = Note aggiunte dal file: { $val }
@@ -37,6 +49,10 @@ importing-notes-found-in-file = Note trovate nel file: { $val }
 importing-notes-skipped-as-theyre-already-in = Note saltate, poiché una copia aggiornata è già presente nella tua collezione: { $val }
 importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
+importing-include-reviews = Includi le ripetizioni
+importing-include-reviews-help =
+    Se abilitato, saranno importate anche tutte le ripetizioni precedenti incluse dall'autore del mazzo. 
+    In caso contrario, tutte le carte saranno importate come nuove carte.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacchetto mazzo/collezione Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
 # the '|' character
@@ -57,6 +73,18 @@ importing-unable-to-import-from-a-readonly = Impossibile importare da un file di
 importing-unknown-file-format = Formato del file sconosciuto.
 importing-update-existing-notes-when-first-field = Aggiorna le note esistenti se il primo campo corrisponde
 importing-updated = Aggiornato
+importing-update-if-newer = Se più nuova
+importing-update-always = Sempre
+importing-update-never = Mai
+importing-update-notes = Aggiorna le note
+importing-update-notes-help =
+    Quando aggiornare una nota già esistente nella tua collezione. Per impostazione predefinita, 
+    ciò avviene solo se la nota corrispondente che sta venendo importata è stata modificata più di recente.
+importing-update-notetypes = Aggiorna i tipi di nota
+importing-update-notetypes-help =
+    Quando aggiornare un tipo di nota già esistente nella tua collezione. 
+    Per impostazione predefinita, ciò avviene solo se il tipo di nota che sta venendo importato è stato modificato più di recente. 
+    Le modifiche al testo e allo stile dei modelli possono sempre essere importate, ma per le modifiche dello schema (ad esempio, modifiche al numero o all'ordine dei campi) è necessario abilitare l'opzione '{ importing-merge-notetypes }'.
 importing-note-added =
     { $count ->
         [one] { $count } nota aggiunta
@@ -135,6 +163,11 @@ importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } nota non è stata importata poiché il suo tipo di nota è cambiato.
        *[other] { $count } note non sono state importate, poiché il loro tipo di nota è cambiato.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } nota non è stata importata perché il suo tipo di nota è cambiato e '{ importing-merge-notetypes }' non era abilitato.
+       *[other] { $count } note non sono state importate perché il loro tipo di nota è cambiato e '{ importing-merge-notetypes }' non era abilitato.
     }
 importing-import-log = Registro delle Importazioni
 importing-no-notes-in-file = Nessuna nota trovata nel file.
