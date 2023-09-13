@@ -46,7 +46,7 @@ importing-notes-skipped-as-theyre-already-in = 由於最新的副本已在集合
 importing-notes-skipped-update-due-to-notetype = 由於第一次匯入筆記後修改過筆記類型，因此沒有更新筆記：{ $val }
 importing-notes-updated-as-file-had-newer = 因檔案有新版本而更新的筆記：{ $val }
 importing-include-reviews = 包含複習
-importing-include-reviews-help = 啟用後，牌組分享者包含的先前做出的複習也會被匯入。如未啟用，則所有卡片將匯入為新卡片。
+importing-include-reviews-help = 啟用後，牌組分享者包含的歷史複習記錄也會被匯入。如未啟用，則所有卡片將匯入為新卡片。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 已封裝的 Anki 牌組/集合 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
 # the '|' character
