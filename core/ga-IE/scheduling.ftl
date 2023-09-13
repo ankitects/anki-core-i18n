@@ -122,7 +122,7 @@ scheduling-update-button = Cuir i bhfeidhm
 scheduling-update-later-button = Fan scaitheamh eile
 scheduling-update-more-info-button = Tuilleadh eolais
 scheduling-update-required =
-    Ní foláir Sceidealú LGN2 a chur i bhfeidhm ar an gcnuasach seo.
+    Ní foláir Sceidealú V2 a chur i bhfeidhm ar an gcnuasach seo.
     Breathnaigh { scheduling-update-more-info-button } anois.
 
 ## Other scheduling strings
