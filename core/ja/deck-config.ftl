@@ -73,7 +73,7 @@ deck-config-relearning-steps-tooltip =
     
     { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    復習カードを無駄（定着困難）と判定するまでに「`やり直し`」ボタンを押す回数。
+    復習カードを無駄（定着困難）と判定するまでに「`もう一度`」ボタンを押す回数。
     
     無駄（定着困難）カードは、あなたの時間をたくさん浪費しているカードです。カードが無駄（定着困難）と判定された場合、そのカードを再編集するか、削除するか、あるいは記憶を助けるニーモニックを考えるなど、対策を講じることをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
