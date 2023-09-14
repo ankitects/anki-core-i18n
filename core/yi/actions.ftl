@@ -1,4 +1,4 @@
-actions-add = שאַפֿן
+actions-add = צולייגן
 actions-all-selected = אַלע אויסגעקליבענע
 actions-any-selected = וואָסער אויסגעקליבענע
 actions-cancel = בטל מאַכן
@@ -26,6 +26,7 @@ actions-rebuild = איבערבויען
 actions-rename = געבן אַן אַנדער נאָמען
 actions-rename-deck = געבן טעשל אַן אַנדער נאָמען
 actions-rename-tag = געבן צעטל אַן אַנדער נאָמען
+actions-rename-with-parents = געבן אַן אַנדער נאָמען, אויך מיט מוטערס
 actions-remove-tag = צונעמען צעטל
 actions-replay-audio = איבערשפּילן
 actions-reposition = איבערשטעלן
