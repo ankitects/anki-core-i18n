@@ -168,7 +168,7 @@ importing-field-separator-help =
     請注意，若有欄位內容包含分隔符號本身，則欄位應依 CSV 標準加上引號。LibreOffice 等試算表程式會自動加入引號。
 importing-allow-html-in-fields-help = 若檔案包含 HTML 格式，啟用此選項。例如，若檔案中包含字串「&lt;br&gt;」則會在卡片中顯示為斷行。停用此選項時，則會被逐字轉譯為字元「&lt;br&gt;」。
 importing-notetype-help =
-    剛匯入的筆記將使用這個筆記類型，且只有使用這個筆記類型的現有筆記會被更新。
+    新匯入的筆記將使用這個筆記類型，且只有使用這個筆記類型的現有筆記會被更新。
     
     你可以使用對應工具來選擇與檔案欄位對應的筆記類型欄位。
 importing-deck-help = 匯入的卡片將被放入這個牌組中。
@@ -179,7 +179,7 @@ importing-existing-notes-help =
     - `{ importing-preserve }`：不執行任何動作。
     - `{ importing-duplicate }`：建立一則新筆記。
 importing-match-scope-help = 只會在筆記類型相同的現有筆記中檢查重複項目。可額外限制到卡片在相同牌組中的筆記。
-importing-tag-all-notes-help = 剛匯入和更新的筆記都將被加上這些標籤。
+importing-tag-all-notes-help = 新匯入和更新的筆記都將被加上這些標籤。
 importing-tag-updated-notes-help = 任何更新的筆記都將被加上這些標籤。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
