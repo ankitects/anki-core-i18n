@@ -37,6 +37,7 @@ importing-notes-found-in-file = Notas encontradas no arquivo: { $val }
 importing-notes-skipped-as-theyre-already-in = Notas ignoradas, pois já estão em sua coleção: { $val }
 importing-notes-skipped-update-due-to-notetype = Notas não atualizadas, pois o tipo de nota foi modificado desde que você importou as notas pela primeira vez: { $val }
 importing-notes-updated-as-file-had-newer = Notas atualizadas, pois o arquivo tinha uma versão mais recente: { $val }
+importing-include-reviews = Incluir revisões
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
 # the '|' character
@@ -57,6 +58,11 @@ importing-unable-to-import-from-a-readonly = Não é possível importar de um ar
 importing-unknown-file-format = Formato de arquivo desconhecido.
 importing-update-existing-notes-when-first-field = Atualizar notas existentes quando o primeiro campo coincidir
 importing-updated = Atualizado
+importing-update-if-newer = Se mais recente
+importing-update-always = Sempre
+importing-update-never = Nunca
+importing-update-notes = Atualizar notas
+importing-update-notetypes = Atualizar tipo de nota
 importing-note-added =
     { $count ->
         [one] { $count } nota adicionada
@@ -116,6 +122,7 @@ importing-cards-added =
        *[other] { $count } cartões adicionados.
     }
 importing-file-empty = O arquivo que você selecionou está vazio.
+importing-details = Detalhes
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
