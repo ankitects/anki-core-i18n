@@ -30,6 +30,8 @@ importing-map-to = إيزاع إلى { $val }
 importing-map-to-tags = إيزاع إلى الوسوم
 importing-mapped-to = مُوزع إلى <b>{ $val }</b>
 importing-mapped-to-tags = مُوزع إلى <b>وسوم</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = دمج أنواع الملحوظات
 importing-mnemosyne-20-deck-db = رزمة Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = الفواصل المكونة من أكثر من رمز غير مدعومة. الرجاء إدخال رمز واحد فقط.
 importing-notes-added-from-file = عدد الملحوظات المضافة من الملف: { $val }
