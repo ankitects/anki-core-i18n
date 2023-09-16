@@ -187,6 +187,9 @@ importing-note-updated-as-file-had-newer = Note aggiornate, in quanto il file co
 importing-note-skipped-due-to-missing-notetype = Nota saltata, poiché il suo tipo di nota era mancante
 importing-note-skipped-due-to-missing-deck = Nota saltata, poiché il suo mazzo era mancante
 importing-note-skipped-due-to-empty-first-field = Nota saltata, poiché il suo primo campo è vuoto
+importing-deck-help = Le carte importate saranno collocate in questo mazzo.
+importing-tag-all-notes-help = Queste etichette verranno aggiunte sia alle note appena importate che a quelle aggiornate.
+importing-tag-updated-notes-help = Queste etichette saranno aggiunte ad ogni nota aggiornata.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
