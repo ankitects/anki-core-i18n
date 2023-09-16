@@ -187,7 +187,29 @@ importing-note-updated-as-file-had-newer = Note aggiornate, in quanto il file co
 importing-note-skipped-due-to-missing-notetype = Nota saltata, poiché il suo tipo di nota era mancante
 importing-note-skipped-due-to-missing-deck = Nota saltata, poiché il suo mazzo era mancante
 importing-note-skipped-due-to-empty-first-field = Nota saltata, poiché il suo primo campo è vuoto
+importing-field-separator-help =
+    Il carattere che separa i campi nel file di testo. Puoi utilizzare l'anteprima per verificare se i campi sono separati correttamente.
+    
+    Tieni conto che se questo carattere compare esso stesso all'interno di un qualsiasi campo,
+    tale campo dovrà essere delimitato/racchiuso tra virgolette secondo lo standard CSV. 
+    I programmi per fogli di calcolo come LibreOffice lo faranno automaticamente.
+importing-allow-html-in-fields-help =
+    Abilita questa opzione se il file contiene formattazione HTML. Ad esempio, se il file contiene la stringa '&lt;br&gt;', essa verrà visualizzata nella tua carta come un line break ('a capo').
+    D'altra parte, se non abiliti questa opzione, verranno mostrati invece i caratteri letterali '&lt;br&gt;'.
+importing-notetype-help =
+    Le note appena importate avranno questo tipo di nota; inoltre, verranno aggiornate solo le note già esistenti che appartengono a questo tipo di nota.
+    
+    Puoi scegliere quali campi nel file corrispondono ai campi del tipo di nota utilizzando lo strumento di mappatura.
 importing-deck-help = Le carte importate saranno collocate in questo mazzo.
+importing-existing-notes-help =
+    Cosa fare se una nota che sta venendo importata corrisponde ad una nota già esistente.
+    
+    - `{ importing-update }`: Aggiorna la nota già esistente.
+    - `{ importing-preserve }`: Non fare nulla.
+    - `{ importing-duplicate }`: Crea una nuova nota.
+importing-match-scope-help =
+    Nella ricerca dei duplicati, verranno controllate solo le note già esistenti che appartengono allo stesso tipo di nota.
+    Il campo di ricerca può essere ulteriormente ristretto alle note le cui carte si trovano nello stesso mazzo.
 importing-tag-all-notes-help = Queste etichette verranno aggiunte sia alle note appena importate che a quelle aggiornate.
 importing-tag-updated-notes-help = Queste etichette saranno aggiunte ad ogni nota aggiornata.
 
