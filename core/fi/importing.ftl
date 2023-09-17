@@ -185,6 +185,11 @@ importing-note-updated-as-file-had-newer = Muistiinpano päivitetty, koska tiedo
 importing-note-skipped-due-to-missing-notetype = Muistiinpano ohitettu, koska sen muistiinpanotyyppi puuttuu
 importing-note-skipped-due-to-missing-deck = Muistiinpano ohitettu, koska sen pakka puuttuu
 importing-note-skipped-due-to-empty-first-field = Muistiinpano ohitettu, koska sen ensimmäinen kenttä on tyhjä
+importing-field-separator-help =
+    Merkki, joka erottaa tekstitiedoston kentät toisistaan. Voit tarkistaa esikatselun avulla, onko kentät erotettu oikein.
+    
+    Huomaa, että jos tämä merkki esiintyy jossakin kentässä, kenttään on lisättävä lainausmerkit CSV-standardin mukaisesti. Taulukkolaskentaohjelmat, kuten LibreOffice, tekevät tämän automaattisesti.
+importing-allow-html-in-fields-help = Ota tämä käyttöön, jos tiedosto sisältää HTML-muotoilua. Jos tiedosto esimerkiksi sisältää merkkijonon '&lt;br&gt;', se näkyy rivinvaihtona kortissasi. Jos taas tämä on pois käytöstä, merkit '&lt;br&gt;’ näytetään sellaisenaan.
 importing-notetype-help =
     Äskettäin tuoduilla muistiinpanoilla on tämä muistiinpanotyyppi, ja vain olemassa olevat muistiinpanot, joilla on tämä muistiinpanotyyppi, päivitetään.
     
