@@ -46,7 +46,7 @@ studying-to-review = 復習
 studying-type-answer-unknown-field = 解答キー入力: 不明なフィールド { $val }
 studying-unbury = 延期を取り消し
 studying-what-would-you-like-to-unbury = 何の延期を取り消しますか？
-studying-you-havent-recorded-your-voice-yet = まだ録音してません。
+studying-you-havent-recorded-your-voice-yet = まだ自分の声を録音していません。
 studying-card-studied-in =
     { $count ->
        *[other] { $count }枚のカードを学習しました
