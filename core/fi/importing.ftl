@@ -30,6 +30,17 @@ importing-map-to = Liitä kenttään { $val }
 importing-map-to-tags = Liitä tunnisteisiin
 importing-mapped-to = liitetty kenttään <b>{ $val }</b>
 importing-mapped-to-tags = liitetty <b>tunnisteisiin</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Yhdistä muistiinpanotyypit
+importing-merge-notetypes-help =
+    Jos tämä on käytössä, ja sinä tai pakan kirjoittaja muutatte muistiinpanotyypin skeemaa, Anki yhdistää nämä kaksi versiota sen sijaan, että säilyttäisi molemmat.
+    
+    Muistiinpanotyypin skeeman muuttaminen tarkoittaa kenttien tai mallien lisäämistä, poistamista tai uudelleenjärjestämistä tai lajittelukentän muuttamista.
+    
+    Vastaesimerkkinä voidaan todeta, että olemassa olevan mallin etupuolen muuttaminen *ei* ole
+    skeeman muuttamista.
+    
+    Varoitus: Tämä edellyttää yksisuuntaista synkronointia ja saattaa merkitä olemassa olevat muistiinpanot muuttuneiksi.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 -pakka (*.db)
 importing-multicharacter-separators-are-not-supported-please = Monimerkkisiä erottimia ei tueta. Anna erottimeksi vain yksi merkki.
 importing-notes-added-from-file = Muistiinpanoja lisätty tiedostosta: { $val }
@@ -37,6 +48,10 @@ importing-notes-found-in-file = Muistiinpanoja löydetty tiedostosta: { $val }
 importing-notes-skipped-as-theyre-already-in = Muistiinpanoja, jotka ohitettiin, koska ne ovat jo kokoelmassasi: { $val }
 importing-notes-skipped-update-due-to-notetype = Muistiinpanoja ei päivitetty, koska muistiinpanotyyppiä on muutettu sen jälkeen, kun muistiinpanot tuotiin ensimmäisen kerran: { $val }
 importing-notes-updated-as-file-had-newer = Muistiinpanoja, jotka päivitettiin, koska tiedostossa oli uudempi versio: { $val }
+importing-include-reviews = Sisällytä kertaukset
+importing-include-reviews-help =
+    Jos tämä on käytössä, myös pakan jakajan mahdollisesti sisällyttämät aiemmat kertaukset tuodaan.
+    Muussa tapauksessa kaikki kortit tuodaan uusina kortteina.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakattu Anki-pakka/kokoelma (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
 # the '|' character
@@ -57,6 +72,17 @@ importing-unable-to-import-from-a-readonly = Vain luku -tilassa olevaa tiedostoa
 importing-unknown-file-format = Tuntematon tiedostotyyppi
 importing-update-existing-notes-when-first-field = Päivitä olemassa olevat muistiinpanot kun ensimmäinen kenttä täsmää
 importing-updated = Päivitetty
+importing-update-if-newer = Jos uudempi
+importing-update-always = Aina
+importing-update-never = Ei koskaan
+importing-update-notes = Päivitä muistiinpanot
+importing-update-notes-help = Määrittää, milloin kokoelmassa olevia muistiinpanoja päivitetään. Oletusarvoisesti tämä tehdään vain, jos vastaavaa tuotua muistiinpanoa on muutettu äskettäin.
+importing-update-notetypes = Päivitä muistiinpanotyypit
+importing-update-notetypes-help =
+    Määrittää, milloin kokoelmassa olevia muistiinpanotyypejä päivitetään. Oletusarvoisesti tämä tehdään vain, 
+    jos vastaavaa tuotua muistiinpanotyyppiä on muutettu äskettäin.
+    Mallin tekstin ja muotoilun muutokset voidaan aina tuoda, mutta skeemamuutosten (esim. kenttien määrän tai järjestyksen muutokset)
+    tuontia varten myös '{ importing-merge-notetypes }’ -valinta on otettava käyttöön.
 importing-note-added =
     { $count ->
         [one] { $count } muistiinpano lisätty
@@ -136,6 +162,11 @@ importing-conflicting-notes-skipped =
         [one] { $count } muistiinpanoa ei tuotu, koska sen muistiinpanotyyppi on muuttunut.
        *[other] { $count } muistiinpanoa ei tuotu, koska niiden muistiinpanotyypit ovat muuttuneet.
     }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } muistiinpanoa ei tuotu, koska sen muistiinpanotyyppi on muuttunut ja '{ importing-merge-notetypes }' ei ollut käytössä.
+       *[other] { $count } muistiinpanoa ei tuotu, koska niiden muistiinpanotyyppi on muuttunut ja '{ importing-merge-notetypes }' ei ollut käytössä.
+    }
 importing-import-log = Tuonnin loki
 importing-no-notes-in-file = Tiedostosta ei löytynyt muistiinpanoja.
 importing-notes-found-in-file2 =
@@ -154,6 +185,22 @@ importing-note-updated-as-file-had-newer = Muistiinpano päivitetty, koska tiedo
 importing-note-skipped-due-to-missing-notetype = Muistiinpano ohitettu, koska sen muistiinpanotyyppi puuttuu
 importing-note-skipped-due-to-missing-deck = Muistiinpano ohitettu, koska sen pakka puuttuu
 importing-note-skipped-due-to-empty-first-field = Muistiinpano ohitettu, koska sen ensimmäinen kenttä on tyhjä
+importing-notetype-help =
+    Äskettäin tuoduilla muistiinpanoilla on tämä muistiinpanotyyppi, ja vain olemassa olevat muistiinpanot, joilla on tämä muistiinpanotyyppi, päivitetään.
+    
+    Voit valita, mitkä tiedoston kentät vastaavat mitäkin muistiinpanotyypin kenttiä liitostyökalulla.
+importing-deck-help = Tuodut kortit sijoitetaan tähän pakkaan.
+importing-existing-notes-help =
+    Mitä tehdä, jos tuotu muistiinpano vastaa olemassa olevaa muistiinpanoa.
+    
+    - `{ importing-update }`: Päivitä olemassa oleva muistiinpano.
+    - `{ importing-preserve }`: Älä tee mitään.
+    - `{ importing-duplicate }`: Luo uusi muistiinpano.
+importing-match-scope-help =
+    Vain olemassa olevat muistiinpanot, joilla on sama muistiinpanotyyppi, tarkistetaan kaksoiskappaleiden varalta.
+    Tämä voidaan lisäksi rajoittaa koskemaan muistiinpanoja, joiden kortit ovat samassa pakassa.
+importing-tag-all-notes-help = Nämä tunnisteet lisätään sekä uusiin että päivitettyihin muistiinpanoihin.
+importing-tag-updated-notes-help = Nämä tunnisteet lisätään päivitettyihin muistiinpanoihin.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
