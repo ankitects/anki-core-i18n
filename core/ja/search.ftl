@@ -31,7 +31,7 @@ search-invalid-answer-button = "`{ $context }`"の回答ボタン1-4の間であ
 ## Column labels in browse screen
 
 search-note-modified = ノート更新日時
-search-card-modified = カード情報更新日時
+search-card-modified = カード更新日時
 
 ##
 
