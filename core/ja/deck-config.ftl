@@ -101,7 +101,7 @@ deck-config-bury-interday-learning-tooltip =
     
     ※ 兄弟関係のカード：同じノートから作られたカード。例えば、裏表反転カード。
 deck-config-bury-priority-tooltip =
-    Ankiは学習画面に表示するカードを準備する際、準備リストにまず「前回のステップと現在のステップとの間隔が日をまたいでいない（＝当日中に最優先で再び学習すべき）習得中/再習得中カード」を並べ、次に「間隔が日をまたいでいる習得中/再習得中カード」、その次に復習カード、最後に新規カードを並べます。この並び方をもとに、どのカードを表示し、どのカードを延期するかが次のように決まります：
+    Ankiは学習画面に表示するカードを準備する際、準備リストにまず「前回のステップと現在のステップとの間隔が日をまたいでいない（＝当日中に最優先で再び学習すべき）習得中/再習得中カード」を並べ、次に「間隔が日をまたいでいる習得中/再習得中カード」、その次に復習カード、最後に新規カードを並べます。この並び方をもとに、どのカードを表示し、どのカードを当日は非表示にするかが次のように決まります：
     
     - すべての非表示オプションが有効になっている場合、リスト内の兄弟どうしのうち、最も先に並んでいるカードのみが表示されます。例えば、リスト内のある復習カードとある新規カードが兄弟どうしの場合、復習カードの方が先に並んでいるので、復習カードが表示され、新規カードは当日は非表示となります。
     - リスト内の兄弟どうしのうちで後ろに並んでいるカードの非表示を解除したとしても、先に並んでいる別の種類のカードが代わりに非表示となることにはなりません。例えばリスト内の、ある復習カードとある新規カードが兄弟どうしの場合、たとえ新規カードの非表示を解除して学習したとしても、代わりに復習カードが非表示になってしまうことにはなりません。つまりこの場合は、兄弟どうしである復習カードと新規カードの両方が同じ日に表示されることになります。
@@ -251,8 +251,8 @@ deck-config-which-deck = どのデッキを選択しますか？
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-siblings = 兄弟関係のカードを翌日に延期する
-deck-config-do-not-bury = 兄弟関係のカードを翌日に延期しない
+deck-config-bury-siblings = Bury siblings
+deck-config-do-not-bury = Do not bury siblings
 deck-config-bury-if-new = Bury if new
 deck-config-bury-if-new-or-review = Bury if new or review
 deck-config-bury-if-new-review-or-interday = Bury if new, review, or interday learning
