@@ -40,10 +40,10 @@ scheduling-today-review-limit-reached =
     復習カードはまだ残ってますが、今日の出題上限に達しました。
     適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。
 scheduling-today-new-limit-reached = まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。
-scheduling-buried-cards-found = 手動操作またはオプションによる自動操作によって、学習を明日に延期したカードがあります。それらのカードをすぐに学習したい場合は、{ $unburyThem }てください。
+scheduling-buried-cards-found = 手動操作またはオプションによる自動操作によって、今日は非表示にしたカードがあります。それらのカードをすぐに学習したい場合は、{ $unburyThem }てください。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = 延期を取り消し
+scheduling-unbury-them = 非表示を解除
 scheduling-how-to-custom-study = 通常のスケジュール外で学習したい場合、{ $customStudy }機能を活用することもできます。
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
@@ -63,8 +63,8 @@ scheduling-update-required = あなたのコレクションは、V2スケジュ�
 scheduling-always-include-question-side-when-replaying = オーディオ再生の際、質問側のオーディオも必ず含める
 scheduling-at-least-one-step-is-required = 最低でも一つのステップが必要です。
 scheduling-automatically-play-audio = 音声を自動再生する
-scheduling-bury-related-new-cards-until-the = 関連する新規カードを翌日まで延期する
-scheduling-bury-related-reviews-until-the-next = 関連カードの復習を翌日まで延期する
+scheduling-bury-related-new-cards-until-the = 関連する新規カードを今日は非表示にする
+scheduling-bury-related-reviews-until-the-next = 関連する復習カードを今日は非表示にする
 scheduling-days = 日
 scheduling-description = 詳細
 scheduling-easy-bonus = 「簡単」と回答した場合のボーナス

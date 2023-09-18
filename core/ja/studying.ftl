@@ -3,9 +3,9 @@ studying-all-buried-cards = 明日に延期したすべてのカード
 studying-audio-5s = オーディオ-5秒
 studying-audio-and5s = オーディオ+5秒
 studying-buried-siblings = 明日に延期した兄弟関係のカード
-studying-bury = 明日に延期
-studying-bury-card = カードを明日に延期
-studying-bury-note = ノートを明日に延期
+studying-bury = 今日は非表示
+studying-bury-card = カードを今日は非表示
+studying-bury-note = ノートを今日は非表示
 studying-card-suspended = カードを休止しました
 studying-card-was-a-leech = このカードは定着困難です。
 studying-cards-buried =
@@ -15,8 +15,8 @@ studying-cards-buried =
 studying-cards-will-be-automatically-returned-to = カードは復習が済んだら元のデッキに自動的に戻ります。
 studying-continue = 続行
 studying-counts-differ =
-    「兄弟関係のカードの延期」オプションが有効になっており、該当するカードがあるため、デッキリストとカウントが異なります。
-    灰色の数字は、同オプションによって明日に延期となったカードの枚数を表しています。延期となったカードの代わりに、他のカードがカウントされている場合もあります。
+    「兄弟関係のカードの非表示」オプションが有効になっており、該当するカードがあるため、デッキリストとカウントが異なります。
+    灰色の数字は、同オプションによって今日は非表示となったカードの枚数を表しています。非表示となったカードの代わりに、他のカードがカウントされている場合もあります。
 studying-delete-note = ノートを削除
 studying-deleting-this-deck-from-the-deck = このデッキを削除すると、残りのカードもすべて元のデッキに戻ります。
 studying-easy = 簡単
@@ -44,8 +44,8 @@ studying-suspend-note = ノートを休止
 studying-this-is-a-special-deck-for = これは標準のスケジュールから外れて学習する特別なデッキです。
 studying-to-review = 復習
 studying-type-answer-unknown-field = 解答キー入力: 不明なフィールド { $val }
-studying-unbury = 延期を取り消し
-studying-what-would-you-like-to-unbury = 何の延期を取り消しますか？
+studying-unbury = 非表示を解除
+studying-what-would-you-like-to-unbury = 何の非表示を解除しますか？
 studying-you-havent-recorded-your-voice-yet = まだ自分の声を録音していません。
 studying-card-studied-in =
     { $count ->
