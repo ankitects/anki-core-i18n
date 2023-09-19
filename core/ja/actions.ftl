@@ -58,13 +58,13 @@ actions-currently-unsupported = このアクションは現在お使いのシス
 ## Flags
 
 actions-flag-number = フラグ{ $number }
-actions-flag-red = 赤
-actions-flag-orange = 橙
-actions-flag-green = 緑
-actions-flag-blue = 青
+actions-flag-red = レッド
+actions-flag-orange = オレンジ
+actions-flag-green = グリーン
+actions-flag-blue = ブルー
 actions-flag-pink = ピンク
 actions-flag-turquoise = ターコイズ
-actions-flag-purple = 紫
+actions-flag-purple = パープル
 actions-set-flag = フラグの変更
 actions-nothing-to-undo = 元に戻すものがありません
 actions-nothing-to-redo = やり直すものがありません
