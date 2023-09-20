@@ -116,6 +116,11 @@ importing-cards-added =
        *[other] { $count } Karten wurden hinzugefügt.
     }
 importing-file-empty = Die Datei, die Sie ausgewählt haben, ist leer.
+importing-notes-added =
+    { $count ->
+        [one] { $count } neue Notiz importiert.
+       *[other] { $count } neue Notizen importiert.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
