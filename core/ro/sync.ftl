@@ -27,12 +27,12 @@ sync-resync-required = Te rog să sincronizezi din nou. Dacă acest mesaj contin
 sync-must-wait-for-end = Anki se sincronizează în prezent. Așteaptă finalizarea sincronizării, apoi încearcă din nou.
 sync-confirm-empty-download = Colecția locală nu are carduri. Descarci de pe AnkiWeb?
 sync-conflict-explanation =
-    Pachetele tale de aici și de pe AnkiWeb diferă în așa fel încât nu pot fi îmbinate împreună, așa că este necesar să suprascrii pachetele de pe o parte cu pachetele de pe cealaltă.¶
-    ¶
-    Dacă alegi descărcare, Anki va prelua colecția de la AnkiWeb și orice modificări pe care le-ai făcut pe acest dispozitiv de la ultima sincronizare se vor pierde.¶
-    ¶
-    Dacă alegeți să încarci, Anki va trimite datele acestui dispozitiv către AnkiWeb și orice modificări care sunt în așteptare pe AnkiWeb se vor pierde.¶
-    ¶
+    Pachetele tale de aici și de pe AnkiWeb diferă în așa fel încât nu pot fi îmbinate împreună, așa că este necesar să suprascrii pachetele de pe o parte cu pachetele de pe cealaltă.
+    
+    Dacă alegi descărcare, Anki va prelua colecția de la AnkiWeb și orice modificări pe care le-ai făcut pe acest dispozitiv de la ultima sincronizare se vor pierde.
+    
+    Dacă alegeți să încarci, Anki va trimite datele acestui dispozitiv către AnkiWeb și orice modificări care sunt în așteptare pe AnkiWeb se vor pierde.
+    
     După ce toate dispozitivele sunt sincronizate, recenziile viitoare și cardurile adăugate pot fi îmbinate automat.
 sync-ankiweb-id-label = ID-ul AnkiWeb
 sync-password-label = Parolă:
@@ -42,8 +42,8 @@ sync-account-required =
 sync-sanity-check-failed = Te rog să utilizezi funcția ”Verifică baza de date”, apoi sincronizează din nou. Dacă problemele persistă, te rog să forțezi o sincronizare completă în ecranul de preferințe.
 sync-clock-off = Nu se poate sincroniza - ceasul nu este setat la ora corectă.
 sync-upload-too-large =
-    Fișierul tău de colecție este prea mare pentru a fi trimis către AnkiWeb. Îi poți reduce¶
-    dimensiunea prin eliminarea oricăror pachete nedorite (opțional, exportându-le mai întâi) și¶
+    Fișierul tău de colecție este prea mare pentru a fi trimis către AnkiWeb. Îi poți reduce
+    dimensiunea prin eliminarea oricăror pachete nedorite (opțional, exportându-le mai întâi) și
     apoi folosește ”Verifică baza de date” pentru a micșora dimensiunea fișierului. ({ $detalii })
 
 ## Buttons

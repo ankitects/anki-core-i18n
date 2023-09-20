@@ -10,8 +10,8 @@ help-open-manual-chapter = Avaa { $name } käyttöoppaassa
 
 # Newly introduced settings may not have an explanation yet
 help-no-explanation =
-    Hups! Tälle asetukselle ei näytä olevan vielä selitystä.¶
-    ¶
+    Hups! Tälle asetukselle ei näytä olevan vielä selitystä.
+    
     Voit auttaa meitä täydentämään tätä ohjesivua osoitteessa { $link }.
 
 ## Footer

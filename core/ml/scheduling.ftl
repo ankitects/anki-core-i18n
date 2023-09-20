@@ -153,8 +153,8 @@ scheduling-set-due-date-prompt =
        *[other] എത്ര ദിവസത്തിനുള്ളിൽ കാർഡ് കാണിക്കുക?
     }
 scheduling-set-due-date-prompt-hint =
-    0 = ഇന്ന്¶
-    1! = നാളെ + അവലോകന ഇടവേള പുനസജ്ജമാക്കുക¶
+    0 = ഇന്ന്
+    1! = നാളെ + അവലോകന ഇടവേള പുനസജ്ജമാക്കുക
     3-7 = 3-7 ദിവസത്തെ ക്രമരഹിതമായ തിരഞ്ഞെടുപ്പ്
 scheduling-set-due-date-done =
     { $cards ->

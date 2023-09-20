@@ -42,7 +42,7 @@ preferences-theme-light = Luminos
 preferences-theme-dark = Întunecat
 preferences-ignore-accents-in-search = Ignorați accentele în căutare (mai lent)
 preferences-backup-explanation =
-    Anki face periodic copii de rezervă ale colecției tale când aceasta este închisă. După ce backup-urile au mai mult de 2 zile,¶
+    Anki face periodic copii de rezervă ale colecției tale când aceasta este închisă. După ce backup-urile au mai mult de 2 zile,
     Anki va începe să elimine unele dintre ele pentru a elibera spațiu pe disc.
 preferences-daily-backups = Backup-uri zilnice de păstrat:
 preferences-weekly-backups = Backup-uri săptămânale de păstrat:

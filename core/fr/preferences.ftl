@@ -40,7 +40,7 @@ preferences-theme-dark = Sombre
 preferences-v3-scheduler = Planificateur V3
 preferences-ignore-accents-in-search = Ignorer les accents lors de la recherche (plus lent)
 preferences-backup-explanation =
-    Anki sauvegarde périodiquement votre collection. Lorsque les sauvegardes ont plus de 2 jours,¶
+    Anki sauvegarde périodiquement votre collection. Lorsque les sauvegardes ont plus de 2 jours,
     Anki commencera à supprimer certaines d'entre elles pour libérer de l'espace disque.
 preferences-daily-backups = Sauvegardes journalières à conserver:
 preferences-weekly-backups = Sauvegardes hebdomadaires à conserver:

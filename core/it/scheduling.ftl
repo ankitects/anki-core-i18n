@@ -164,8 +164,8 @@ scheduling-set-due-date-prompt =
        *[other] Mostra le carte tra quanti giorni?
     }
 scheduling-set-due-date-prompt-hint =
-    0 = oggi¶
-    1! = domani+resetta l'intervallo di ripasso¶
+    0 = oggi
+    1! = domani+resetta l'intervallo di ripasso
     3-7 = scelta casuale di 3-7 giorni
 scheduling-set-due-date-done =
     { $cards ->

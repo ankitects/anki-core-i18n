@@ -151,7 +151,7 @@ deck-config-sort-order-ascending-ease = Facilité croissante
 deck-config-sort-order-descending-ease = Facilité décroissante
 deck-config-sort-order-relative-overdueness = Échéance dépassée relative
 deck-config-display-order-will-use-current-deck =
-    Anki va utiliser l'ordre d'affichage du paquet que vous¶
+    Anki va utiliser l'ordre d'affichage du paquet que vous
     avez sélectionné pour étudier, et non ceux des sous-paquets qu'il peut avoir.
 
 ## Timer section
@@ -163,7 +163,7 @@ deck-config-maximum-answer-secs-tooltip =
     dépasse ce temps (parce que vous vous êtes éloigné de l'écran par exemple),
     le temps pris sera enregistré comme la limite que vous avez fixée.
 deck-config-show-answer-timer-tooltip =
-    Dans l'écran de révision, affichez une minuterie qui compte le nombre de secondes que vous¶
+    Dans l'écran de révision, affichez une minuterie qui compte le nombre de secondes que vous
     passez pour revoir chaque carte.
 
 ## Audio section
@@ -175,7 +175,7 @@ deck-config-disable-autoplay-tooltip =
     Cela peut être effectué manuellement en cliquant/appuyant sur une icône sonore, ou en utilisant l'action de réécoute audio.
 deck-config-skip-question-when-replaying = Sauter la question quand la réponse est rejouée
 deck-config-always-include-question-audio-tooltip =
-    Si le son de la question doit être inclus lorsque l'action Replay est¶
+    Si le son de la question doit être inclus lorsque l'action Replay est
     utilisée pendant que l'on regarde le côté réponse d'une carte.
 
 ## Advanced section
@@ -186,9 +186,9 @@ deck-config-maximum-interval-tooltip =
     atteint la limite, `difficile`, `correct` et `facile` donneront tous le même délai.
     Plus vous raccourcissez ce délai, plus votre charge de travail sera importante.
 deck-config-starting-ease-tooltip =
-    Le multiplicateur de facilité avec lequel les nouvelles cartes commencent. Par défaut, le bouton "Bien" d'une carte¶
+    Le multiplicateur de facilité avec lequel les nouvelles cartes commencent. Par défaut, le bouton "Bien" d'une carte
     nouvellement apprise retardera le prochain examen de 2,5 fois le délai précédent.
-deck-config-easy-bonus-tooltip = Un facteur supplémentaire qui est appliqué à l'intervalle d'une carte à réviser quand on répond¶ 'Facile'.
+deck-config-easy-bonus-tooltip = Un facteur supplémentaire qui est appliqué à l'intervalle d'une carte à réviser quand on répond 'Facile'.
 deck-config-interval-modifier-tooltip = Ce multiplicateur est appliqué à tous les examens, et des ajustements mineurs peuvent être utilisés pour rendre Anki plus conservateur ou agressif dans son ordonnancement. Veuillez consulter le manuel avant de modifier cette option.
 deck-config-hard-interval-tooltip = Le facteur appliqué à l'intervalle d'une carte à réviser quand on répond 'Difficile'.
 deck-config-new-interval-tooltip = Le facteur appliqué à l'intervalle d'une carte à réviser quand on répond 'À revoir'.

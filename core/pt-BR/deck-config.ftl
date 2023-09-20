@@ -95,7 +95,7 @@ deck-config-bury-new-tooltip =
     de cartões adjacentes) serão adiados até o dia seguinte.
 deck-config-bury-review-tooltip = Outros cartões de `revisão` da mesma nota serão adiados até o dia seguinte.
 deck-config-bury-interday-learning-tooltip =
-    Se houver outras cartas de `aprendizado` da mesma nota com intervalos > 1 dia¶
+    Se houver outras cartas de `aprendizado` da mesma nota com intervalos > 1 dia
     elas serão adiadas para o próximo dia.
 deck-config-bury-priority-tooltip =
     Quando o Anki coleta cartões, ele primeiro reúne cartões de aprendizado intradiário, depois

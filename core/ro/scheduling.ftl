@@ -81,7 +81,7 @@ scheduling-update-button = Actualizează
 scheduling-update-later-button = Mai târziu
 scheduling-update-more-info-button = Află mai multe
 scheduling-update-required =
-    Colecția dvs. trebuie să fie actualizată la programatorul V2.¶
+    Colecția dvs. trebuie să fie actualizată la programatorul V2.
     Vă rugăm să selectați { scheduling-update-more-info-button } înainte de a continua.
 
 ## Other scheduling strings
@@ -147,8 +147,8 @@ scheduling-set-due-date-prompt =
        *[other] Afișați cardurile în câte zile?
     }
 scheduling-set-due-date-prompt-hint =
-    0 = astăzi¶
-    1! = mâine+resetare interval de revedere¶
+    0 = astăzi
+    1! = mâine+resetare interval de revedere
     3-7 = alegere aleatorie intre 3-7 zile
 scheduling-set-due-date-done =
     { $cards ->

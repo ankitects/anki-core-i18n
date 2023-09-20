@@ -28,5 +28,5 @@ card-template-rendering-no-such-field = Ditemukan '{ $found }', tapi tidak ada b
 # are missing.
 card-template-rendering-empty-front = Bagian depan kartu ini kosong
 card-template-rendering-missing-cloze =
-    Tidak ada rumpang { $number } ditemukan pada kartu.¶
+    Tidak ada rumpang { $number } ditemukan pada kartu.
     Tolong tambahkan perumpangan atau gunakan alat pengosongan kartu

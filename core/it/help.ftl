@@ -10,8 +10,8 @@ help-open-manual-chapter = Apri { $name } nel manuale
 
 # Newly introduced settings may not have an explanation yet
 help-no-explanation =
-    Ops! Sembra non esserci ancora una spiegazione per questa impostazione.¶
-    ¶
+    Ops! Sembra non esserci ancora una spiegazione per questa impostazione.
+    
     Per aiutarci a completare questa pagina di aiuto, visita { $link }.
 
 ## Footer
