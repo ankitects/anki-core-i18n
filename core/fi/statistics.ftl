@@ -70,7 +70,7 @@ statistics-studied-today =
     } ({ $secs-per-card } s/kortti)
 statistics-today-title = Tänään
 statistics-today-again-count = Uudelleen näyttettäväksi pyydettyjen korttien lukumäärä:
-statistics-today-type-counts = Opiskeltavat: { $learnCount }, Kerrattavat: { $reviewCount }, Uudelleen opiskeltavat: { $relearnCount }, Suodatetut: { $filteredCount }
+statistics-today-type-counts = Opittavat: { $learnCount }, Kerrattavat: { $reviewCount }, Uudelleen opittavat: { $relearnCount }, Suodatetut: { $filteredCount }
 statistics-today-no-cards = Tänään ei ole opiskeltu yhtään korttia.
 statistics-today-no-mature-cards = Tänään ei opiskeltu yhtään varmaa korttia.
 statistics-today-correct-mature = Varmojen korttien oikeat vastaukset: { $correct }/{ $total } ({ $percent }%)
@@ -81,8 +81,8 @@ statistics-counts-mature-cards = Varmat
 statistics-counts-suspended-cards = Hyllytetyt
 statistics-counts-buried-cards = Haudatut
 statistics-counts-filtered-cards = Suodatetut
-statistics-counts-learning-cards = Opiskeltavat
-statistics-counts-relearning-cards = Uudelleen opiskeltavat
+statistics-counts-learning-cards = Opittavat
+statistics-counts-relearning-cards = Uudelleen opittavat
 statistics-counts-title = Korttien lukumäärät
 statistics-counts-separate-suspended-buried-cards = Erota hyllytetyt ja haudatut kortit
 statistics-range-all-time = pakan elinkaari
@@ -92,12 +92,26 @@ statistics-range-deck = pakka
 statistics-range-collection = kokoelma
 statistics-range-search = Etsi
 statistics-card-ease-title = Korttien helppous
+statistics-card-difficulty-title = Kortin vaikeus
+statistics-card-retrievability-title = Kortin palautettavuus
 statistics-card-ease-subtitle = Mitä pienempi helppous, sitä useammin kortti ilmestyy kerrattavaksi.
+statistics-card-difficulty-subtitle = Mitä vaikeampi kortti, sitä useammin kortti ilmestyy kerrattavaksi.
+statistics-retrievability-subtitle = Ilmaisee kuinka hyvin pystyt palauttamaan muiston mieleesi.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] { $cards } kortti { $percent } helppoudella
        *[other] { $cards } korttia { $percent } helppoudella
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } kortti , jonka vaikeus on { $percent }
+       *[other] { $cards } korttia, joiden vaikeus on { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } kortti, jonka palautettavuus on { $percent }
+       *[other] { $cards } korttia, joiden palautettavuus on { $percent }
     }
 statistics-future-due-title = Ennuste
 statistics-future-due-subtitle = Tulevaisuudessa erääntyvien kertausten määrä.
@@ -201,6 +215,8 @@ statistics-cards-per-day =
        *[other] { $count } korttia/päivä
     }
 statistics-average-ease = Keskimääräinen helppous
+statistics-average-difficulty = Keskimääräinen vaikeus
+statistics-average-retrievability = Keskimääräinen palautettavuus
 statistics-save-pdf = Tallenna PDF
 statistics-saved = Tallennettu.
 statistics-stats = tilastot

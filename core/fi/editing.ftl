@@ -69,6 +69,7 @@ editing-close-html-tags = Sulje HTML-tägit automaattisesti
 editing-from-clipboard = Leikepöydältä
 editing-alignment = Tasaus
 editing-equations = Yhtälöt
+editing-no-image-found-on-clipboard = Leikepöydältä ei löytynyt kuvaa.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

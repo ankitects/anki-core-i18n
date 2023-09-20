@@ -50,7 +50,7 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    Seuraava kortti on valmis opiskeltavaksi { $unit ->
+    Seuraava opittava kortti on valmis { $unit ->
         [seconds]
             { $amount ->
                 [one] { $amount } sekunnin
@@ -121,7 +121,7 @@ scheduling-ignore-answer-times-longer-than = Älä huomioi pidempiä vastausaiko
 scheduling-interval-modifier = Kertausvälimuokkaaja
 scheduling-lapses = Virheet
 scheduling-lapses2 = virheet
-scheduling-learning = Opiskeltavat
+scheduling-learning = Opittavat
 scheduling-leech-action = Resurssisyöpön toimenpide
 scheduling-leech-threshold = Resurssisyöpön alaraja
 scheduling-maximum-interval = Enimmäiskertausväli

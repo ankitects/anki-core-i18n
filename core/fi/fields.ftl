@@ -20,3 +20,4 @@ fields-name-invalid-letter = Kentän nimi ei saa sisältää merkkejä :, ", { "
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = Jätä pois tarkentamattomista hauista (hitaampi)
+fields-field-is-required = Tämä on pakollinen kenttä, eikä sitä voi poistaa.

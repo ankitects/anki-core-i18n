@@ -13,8 +13,6 @@ browsing-browser-options = Selainasetukset
 browsing-buried = Piilotettu
 browsing-card = Kortti
 browsing-cards = Kortit
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = K
 browsing-card-list = Korttiluettelo
 browsing-cards-cant-be-manually-moved-into = Kortteja ei voi siirtää manuaalisesti suodatettuun pakkaan.
 browsing-cards-deleted =
@@ -50,7 +48,7 @@ browsing-ignore-case = Älä huomioi kirjasinkokoa
 browsing-in = <b>Kenttä</b>
 browsing-interval = Kertausväli
 browsing-last-card = Viimeinen kortti
-browsing-learning = (opiskeltavana)
+browsing-learning = (opittavana)
 browsing-line-size = <b>Viivanleveys</b>:
 browsing-manage-note-types = Hallinnoi muistiinpanotyyppejä...
 browsing-move-cards = Siirrä kortit
@@ -61,8 +59,6 @@ browsing-no-flag = Ei lippua
 browsing-no-selection = Ei valittuja kortteja tai muistiinpanoja.
 browsing-note = Muistiinpano
 browsing-notes = Muistiinpanot
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = M
 browsing-optional-filter = Valinnainen suodatin:
 browsing-override-back-template = Syrjäytä kääntöpuolen malli:
 browsing-override-font = Syrjäytä fontti:
@@ -168,5 +164,9 @@ browsing-reparented-decks =
        *[other] Nimettiin { $count } pakkaa uudelleen.
     }
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = M

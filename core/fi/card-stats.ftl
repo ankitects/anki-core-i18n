@@ -17,13 +17,16 @@ card-stats-review-log-rating = Luokitus
 card-stats-review-log-type = Tyyppi
 card-stats-review-log-date = Päivämäärä
 card-stats-review-log-time-taken = Aika
-card-stats-review-log-type-learn = Opiskeltavat
+card-stats-review-log-type-learn = Opittavat
 card-stats-review-log-type-review = Kertaus
-card-stats-review-log-type-relearn = Uudelleen opiskeltavat
+card-stats-review-log-type-relearn = Uudelleen opittavat
 card-stats-review-log-type-filtered = Suodatetut
 card-stats-review-log-type-manual = Manuaalinen
 card-stats-no-card = (Ei näytettävää korttia.)
 card-stats-custom-data = Mukautettu data
+card-stats-fsrs-stability = Vakaus
+card-stats-fsrs-difficulty = Vaikeus
+card-stats-fsrs-retrievability = Palautettavuus
 
 ## Window Titles
 

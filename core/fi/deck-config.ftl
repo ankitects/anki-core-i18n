@@ -107,7 +107,7 @@ deck-config-bury-review-tooltip =
     Viivästetäänkö muita `kerrattavia` samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja,
     vierekkäisiä täyttötehtäviä) seuraavaan päivään.
 deck-config-bury-interday-learning-tooltip =
-    Viivästetäänkö muita `opiskeltavia` samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja,
+    Viivästetäänkö muita `opittavia` samasta muistiinpanosta tehtyjä kortteja (esim. käänteisiä kortteja,
     vierekkäisiä täyttötehtäviä) seuraavaan päivään.
 deck-config-bury-priority-tooltip =
     Kun Anki kerää kortteja, se kerää ensin samana päivänä opittavat kortit, sitten useana päivänä opittavat kortit, sitten kerrattavat ja lopuksi uudet kortit. Tämä vaikuttaa miten hautaaminen toimii.
@@ -154,7 +154,7 @@ deck-config-new-review-priority = Uusien ja kerrattavien keskinäinen järjestys
 deck-config-new-review-priority-tooltip = Milloin uudet kortit näytetään suhteessa kerrattaviin kortteihin.
 deck-config-interday-step-priority = Usean päivän aikana opittavien ja kerrattavien keskinäinen järjestys
 deck-config-interday-step-priority-tooltip =
-    Milloin näytetään opittavat kortit (tai uudelleen opittavat kortit), joita tarvitsee opiskellaan usean päivän ajan.
+    Milloin näytetään opittavat kortit (tai uudelleen opittavat kortit), joita tarvitsee opiskella usean päivän ajan.
     
     Kertausten enimmäismäärää sovelletaan aina ensin usean päivän aikana opittaviin kortteihin, ja sitten kerrattaviin. Tämä asetus ohjaa järjestystä, jossa kerätyt kortit näytetään, mutta usean päivän aikana opittavat kortit kerätään aina ensin.
 deck-config-review-mix-mix-with-reviews = Sekoita kerrattavien kanssa
@@ -250,6 +250,28 @@ deck-config-maximum-answer-secs-above-recommended = Anki ajoittaa kertaukset teh
 ## Selecting a deck
 
 deck-config-which-deck = Minkä pakan haluaisit?
+
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = Päivitetään kortteja: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = Painokertoimet on joko jätettävä tyhjäksi, jolloin käytetään oletusarvoja, tai niiden on oltava 17 pilkulla erotettua numeroa.
+deck-config-not-enough-history = Ei riittävästi menneitä kertauksia tämän toiminnon suorittamiseen.
+deck-config-limited-history =
+    { $count ->
+        [one] Vain { $count } kertaus löytyi.
+       *[other] Vain { $count } kertausta löytyi.
+    } Mukautetut painokertoimet ovat todennäköisesti epätarkkoja, ja niiden sijaan on suositeltavaa käyttää oletusarvoja.
+deck-config-compute-weights-search = Haku; jätä tyhjäksi kaikille tätä esiasetusta käyttäville korteille
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Mallin painokertoimet
+deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
+deck-config-compute-optimal-retention = Laske optimaalinen retentio
+deck-config-compute-button = Laske
+deck-config-analyze-button = Analysoi
+deck-config-desired-retention = Toivottu retentio
+deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioita muistista.
+deck-config-steps-too-large-for-fsrs = Kun FSRS on päällä, usean päivän aikaisen (uudelleen)oppimisen askelten käyttöä ei suositella.
+deck-config-get-params = Hae parametrit
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

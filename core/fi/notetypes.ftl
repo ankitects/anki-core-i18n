@@ -52,4 +52,5 @@ notetypes-error-getting-imagecloze = Kuvan peittämis -muistiinpanoa haettaessa 
 notetypes-error-loading-image-occlusion = Virhe kuvan peittämis -tehtävän lataamisessa. Onko Anki-versiosi ajan tasalla?
 notetype-error-no-image-to-show = Ei kuvaa näytettäväksi.
 notetypes-no-occlusion-created = Vähintään yksi osa kuvasta on peitettävä.
+notetypes-no-occlusion-created2 = Lisääminen ei onnistu. Joko et ole lisännyt yhtään peitettä tai ensimmäinen kenttä on tyhjä.
 notetypes-io-select-image = Valitse kuva
