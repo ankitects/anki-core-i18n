@@ -121,6 +121,44 @@ importing-notes-added =
         [one] { $count } neue Notiz importiert.
        *[other] { $count } neue Notizen importiert.
     }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } Notiz geupdatet.
+       *[other] { $count } Notizen geupdatet.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } Notiz war bereits in Ihrer Sammlung vorhanden.
+       *[other] { $count } Notizen waren bereits in Ihrer Sammlung vorhanden.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } Notiz nicht importiert, da ihr Notiztyp geändert wurde.
+       *[other] { $count } Notizen nicht importiert, da ihr Notiztyp geändert wurde.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } Notiz nicht importiert, da ihr Notiztyp geändert wurde und die Option '{ importing-merge-notetypes }' nicht aktiviert war.
+       *[other] { $count } Notizen nicht importiert, da ihr Notiztyp geändert wurde und die Option '{ importing-merge-notetypes }' nicht aktiviert war.
+    }
+importing-import-log = Import Log
+importing-no-notes-in-file = Keine Notizen in der Datei gefunden.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] Notiz
+       *[other] Notizen
+    } in der Datei gefunden. Davon:
+importing-show = Anzeigen
+importing-details = Details
+importing-status = Status
+importing-duplicate-note-added = Doppelt hinzugefügt
+importing-added-new-note = Neu hinzugefügt
+importing-existing-note-skipped = Übersprungen, da die Notiz in der aktuellen Version bereits in der Sammlung vorhanden ist
+importing-note-skipped-update-due-to-notetype = Notiz nicht geupdatet, da ihr Notiztyp geändert wurde
+importing-note-updated-as-file-had-newer = Notiz geupdatet, da der importierte Stapel eine neuere Version enthielt
+importing-note-skipped-due-to-missing-notetype = Notiz übersprungen, Notiztyp fehlt
+importing-note-skipped-due-to-missing-deck = Notiz übersprungen, Stapel fehlt
+importing-note-skipped-due-to-empty-first-field = Notiz übersprungen, erstes Feld ist leer
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
