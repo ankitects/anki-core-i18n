@@ -66,6 +66,7 @@ editing-warning-cloze-deletions-will-not-work = 注意: 穴埋め問題は上部
 editing-mathjax-preview = MathJax のプレビュー
 editing-shrink-images = 画像をコンパクトなサイズで表示
 editing-from-clipboard = クリップボードから
+editing-no-image-found-on-clipboard = クリップボードに画像が見つかりません。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
