@@ -201,6 +201,10 @@ deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡潔�
 
 deck-config-which-deck = 要顯示哪一個牌組的選項？
 
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = 回答後暫停關聯卡片
