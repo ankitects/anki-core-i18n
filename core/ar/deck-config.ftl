@@ -309,6 +309,32 @@ deck-config-maximum-answer-secs-above-recommended = يجدول أنكي مراج
 
 deck-config-which-deck = ما الرزمة التي تريد عرض خياراتها؟
 
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = تحديث البطاقات: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = يجب ترك الأوزان فارغة لاستخدام الإعدادات الافتراضية، أو يجب أن تكون 17 رقما مفصولة بفواصل.
+deck-config-not-enough-history = محفوظات المراجعة غير كافية لتنفيذ هذه العملية.
+deck-config-limited-history =
+    { $count ->
+        [zero] لم يتم العثور على أي مراجعة.
+        [one] تم العثور على مراجعة واحدة فقط.
+        [two] تم العثور على مراجعتين.
+        [few] تم العثور على ثلاثة مراجعات.
+        [many] تم العثور على { $count } مراجعات.
+       *[other] تم العثور على { $count } مراجعة.
+    } من المحتمل أن تكون الأوزان المخصصة غير دقيقة، ويوصى باستخدام الإعدادات الافتراضية بدلا من ذلك.
+deck-config-compute-weights-search = بحث; اتركه فارغا لجميع البطاقات التي تستخدم هذا الإعداد المسبق
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = الأوزان النموذجية
+deck-config-compute-optimal-weights = حساب الأوزان المثالية
+deck-config-compute-optimal-retention = حساب الاحتفاظ الأمثل
+deck-config-compute-button = احسب
+deck-config-analyze-button = تحليل
+deck-config-desired-retention = الاحتفاظ المرغوب فيه
+deck-config-smaller-is-better = تشير الأرقام الأصغر إلى تقديرات أفضل للذاكرة.
+deck-config-steps-too-large-for-fsrs = عند تمكين FSRS، لا يوصى بخطوات (إعادة) التعلم بين الأيام.
+deck-config-get-params = الحصول على المعلمات.
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = ادفن الشقيقات

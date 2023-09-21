@@ -124,6 +124,7 @@ statistics-range-collection = مجموعة
 statistics-range-search = بحث
 statistics-card-ease-title = سهولة البطاقة
 statistics-card-ease-subtitle = كلما كانت السهولة منخفضة، ظهرت البطاقة مرات أكثر.
+statistics-retrievability-subtitle = ما مدى احتمالية تذكرك.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->

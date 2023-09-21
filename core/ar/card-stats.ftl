@@ -24,6 +24,9 @@ card-stats-review-log-type-filtered = مفلتر
 card-stats-review-log-type-manual = يدوي
 card-stats-no-card = (لا توجد بطاقة لعرضها.)
 card-stats-custom-data = بيانات مخصصة
+card-stats-fsrs-stability = استقرار
+card-stats-fsrs-difficulty = صعوبة
+card-stats-fsrs-retrievability = إمكانية الاسترجاع
 
 ## Window Titles
 

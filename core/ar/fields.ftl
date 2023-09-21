@@ -20,3 +20,4 @@ fields-name-invalid-letter = لا يجب أن يحتوي اسم الحقل عل�
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = استثنِ من البحث غير المخصص (أبطأ)
+fields-field-is-required = هذا حقل مطلوب، ولا يمكن حذفه.

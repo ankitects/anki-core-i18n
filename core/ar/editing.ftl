@@ -69,6 +69,7 @@ editing-close-html-tags = إغلاق وسوم HTML تلقائيًا
 editing-from-clipboard = من الحافظة
 editing-alignment = محاذاة
 editing-equations = معادلات
+editing-no-image-found-on-clipboard = لم يتم العثور على صورة في الحافظة.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

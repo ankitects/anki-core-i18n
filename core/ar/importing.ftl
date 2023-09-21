@@ -32,6 +32,16 @@ importing-mapped-to = مُوزع إلى <b>{ $val }</b>
 importing-mapped-to-tags = مُوزع إلى <b>وسوم</b>
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = دمج أنواع الملحوظات
+importing-merge-notetypes-help =
+    إذا تم تحديده، وقمت أنت أو مؤلف الرزمة بتغيير مخطط نوع الملاحظة، فسيقوم أنكي¶
+    بدمج الإصدارين بدلا من الاحتفاظ بكليهما.¶
+    ¶
+    يعني تغيير مخطط نوع الملاحظة إضافة الحقول أو القوالب أو إزالتها أو إعادة ترتيبها¶
+    أو تغيير حقل الفرز.¶
+    كمثال مضاد، فإن تغيير الجانب الأمامي لقالب موجود *لا* يشكل¶
+    تغييرا في المخطط.¶
+    ¶
+    تحذير: سيتطلب ذلك مزامنة أحادية الاتجاه، وقد يضع علامة على الملاحظات الحالية على أنها معدلة.
 importing-mnemosyne-20-deck-db = رزمة Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = الفواصل المكونة من أكثر من رمز غير مدعومة. الرجاء إدخال رمز واحد فقط.
 importing-notes-added-from-file = عدد الملحوظات المضافة من الملف: { $val }
@@ -39,6 +49,7 @@ importing-notes-found-in-file = عدد الملحوظات الموجودة في 
 importing-notes-skipped-as-theyre-already-in = عدد الملحوظات المتخطاة لكونها موجودة في مجموعتك: { $val }
 importing-notes-skipped-update-due-to-notetype = لم يتم تحديث الملحوظات لأن نوع الملحوظة قد تعدل منذ أن استوردت الملحوظات للمرة الأولى: { $val }
 importing-notes-updated-as-file-had-newer = عدد الملحوظات المحدثة لأن الملف له إصدار أحدث: { $val }
+importing-include-reviews = تضمين المراجعات
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = حزمة رزمة/مجموعة أنكي (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = درس Pauker 1.8 (*.pau.gz)
 # the '|' character
