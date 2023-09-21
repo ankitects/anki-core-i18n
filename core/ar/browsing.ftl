@@ -41,7 +41,7 @@ browsing-enter-tags-to-add = أدخل الوسوم التي تريد إضافت�
 browsing-enter-tags-to-delete = أدخل الوسوم التي تريد حذفها:
 browsing-filtered = (مفلترة)
 browsing-find = <b>بحث</b>:
-browsing-find-and-replace = بحث واستبدل
+browsing-find-and-replace = بحث واستبدال
 browsing-find-duplicates = بحث عن ملحوظات مكررة
 browsing-first-card = البطاقة الأولى
 browsing-flag = تأشير
