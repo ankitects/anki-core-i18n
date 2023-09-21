@@ -20,3 +20,4 @@ fields-name-invalid-letter = 欄位名稱不應包含「:」、「"」、{ "「{
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = 若搜尋條件未指定欄位，則不搜尋此欄位的內容（較慢）
+fields-field-is-required = 這是一個必要欄位，且無法被刪除。

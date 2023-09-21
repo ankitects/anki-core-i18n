@@ -159,14 +159,14 @@ deck-config-custom-scheduling-tooltip = 影響整個集合。請謹慎使用！
 
 ## Adding/renaming
 
-deck-config-add-group = 新增預設設定
+deck-config-add-group = 新增預設組
 deck-config-name-prompt = 名稱：
-deck-config-rename-group = 重新命名預設設定
-deck-config-clone-group = 複製預設設定
+deck-config-rename-group = 重新命名預設組
+deck-config-clone-group = 複製預設組
 
 ## Removing
 
-deck-config-remove-group = 移除預設設定
+deck-config-remove-group = 移除預設組
 deck-config-will-require-full-sync = 此更動將需要單向同步。若你在其他裝置上做出的更動尚未同步至此裝置，請先同步後再繼續。
 deck-config-confirm-remove-name = 要移除「{ $name }」嗎？
 
@@ -204,6 +204,23 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = 權重必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
+deck-config-not-enough-history = 歷史複習次數過少，無法執行此動作。
+deck-config-limited-history =
+    { $count ->
+       *[other] 僅找到了 { $count } 次複習。
+    }自訂權重很可能會不準確，建議使用預設值。
+deck-config-compute-weights-search = 搜尋條件；留白來讓所有卡片使用此預設組
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = 模型權重
+deck-config-compute-optimal-weights = 計算最佳權重
+deck-config-compute-optimal-retention = 計算最佳記憶留存指數
+deck-config-compute-button = 計算
+deck-config-analyze-button = 分析
+deck-config-desired-retention = 理想的記憶留存指數
+deck-config-smaller-is-better = 數字越小表示估算記憶越牢固。
+deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議將（重新）學習階段設定超過當天。
+deck-config-get-params = 取得參數
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

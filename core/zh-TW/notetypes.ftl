@@ -52,4 +52,5 @@ notetypes-error-getting-imagecloze = 擷取一則影像遮擋筆記時發生錯�
 notetypes-error-loading-image-occlusion = 載入影像遮擋時發生錯誤。你的 Anki 是最新版本嗎？
 notetype-error-no-image-to-show = 沒有可顯示的影像。
 notetypes-no-occlusion-created = 至少需要一個遮擋。
+notetypes-no-occlusion-created2 = 無法新增。因為尚未加入遮擋或第一個欄位是空的。
 notetypes-io-select-image = 選取影像

@@ -69,6 +69,7 @@ editing-close-html-tags = 自動閉合 HTML 標籤
 editing-from-clipboard = 從剪貼簿
 editing-alignment = 對齊
 editing-equations = 方程式
+editing-no-image-found-on-clipboard = 在剪貼簿中找不到影像。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
