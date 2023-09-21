@@ -123,7 +123,10 @@ statistics-range-deck = رزمة
 statistics-range-collection = مجموعة
 statistics-range-search = بحث
 statistics-card-ease-title = سهولة البطاقة
+statistics-card-difficulty-title = صعوبة البطاقة
+statistics-card-retrievability-title = إمكانية استرجاع البطاقة
 statistics-card-ease-subtitle = كلما كانت السهولة منخفضة، ظهرت البطاقة مرات أكثر.
+statistics-card-difficulty-subtitle = كلما زادت الصعوبة، كلما ظهرت البطاقة بشكل متكرر.
 statistics-retrievability-subtitle = ما مدى احتمالية تذكرك.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -134,6 +137,24 @@ statistics-card-ease-tooltip =
         [few] { $cards } بطاقات بنسبة سهولة { $percent }
         [many] { $cards } بطاقة بنسبة سهولة { $cards }
        *[other] { $cards } بطاقة بنسبة سهولة { $cards }
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [zero] { $cards } بطاقة بنسبة صعوبة { $percent }
+        [one] بطاقة واحدة بنسبة صعوبة { $percent }
+        [two] بطاقتين بنسبة صعوبة { $percent }
+        [few] { $cards } بطاقات بنسبة صعوبة { $percent }
+        [many] { $cards } بطاقة بنسبة صعوبة { $percent }
+       *[other] { $cards } بطاقات بنسبة صعوبة { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [zero] { $cards } بطاقة بنسبة إمكانية الاسترجاع { $percent }
+        [one] بطاقة واحدة بنسبة إمكانية الاسترجاع { $percent }
+        [two] بطاقتين بنسبة إمكانية الاسترجاع { $percent }
+        [few] { $cards } بطاقات بنسبة إمكانية الاسترجاع { $percent }
+        [many] { $cards } بطاقة بنسبة إمكانية الاسترجاع { $percent }
+       *[other] { $cards } بطاقات بنسبة إمكانية الاسترجاع { $percent }
     }
 statistics-future-due-title = تاريخ الاستحقاق القادم
 statistics-future-due-subtitle = عدد المراجعات المستحقة في المستقبل.
@@ -269,6 +290,8 @@ statistics-cards-per-day =
        *[other] { $count } بطاقة في اليوم
     }
 statistics-average-ease = معدل السهولة
+statistics-average-difficulty = معدل الصعوبة
+statistics-average-retrievability = معدل إمكانية الاسترجاع
 statistics-save-pdf = حفظ كـ PDF
 statistics-saved = تم الحفظ.
 statistics-stats = إحصائيات
