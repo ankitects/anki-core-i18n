@@ -219,7 +219,7 @@ deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 理想的記憶留存指數
 deck-config-smaller-is-better = 數字越小表示估算記憶越牢固。
-deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議將（重新）學習階段設定超過當天。
+deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議將（重新）學習階段設定超過一天。
 deck-config-get-params = 取得參數
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
