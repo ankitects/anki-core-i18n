@@ -141,7 +141,7 @@ browsing-sidebar-first-review = 首次复习的
 browsing-sidebar-rescheduled = 已重新排期
 browsing-sidebar-due-today = 今天到期的
 browsing-sidebar-untagged = 无标签
-browsing-sidebar-overdue = 逾期未复习的
+browsing-sidebar-overdue = 逾期未复习
 browsing-row-deleted = （已删除）
 browsing-removed-unused-tags-count =
     { $count ->
@@ -159,6 +159,6 @@ browsing-reparented-decks =
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = 卡
+browsing-card-initial = 卡片
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 笔
