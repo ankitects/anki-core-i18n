@@ -161,4 +161,4 @@ browsing-reparented-decks =
 # Exactly one character representing 'Cards'; should differ from browsing-note-initial.
 browsing-card-initial = 卡片
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = 笔
+browsing-note-initial = 笔记
