@@ -286,6 +286,28 @@ deck-config-maximum-answer-secs-above-recommended = Anki può programmare le tue
 
 deck-config-which-deck = Quale mazzo desideri?
 
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = Aggiornamento delle carte: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = I pesi devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
+deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
+deck-config-limited-history =
+    { $count ->
+        [one] È stata trovata solo { $count } ripetizione.
+       *[other] Sono state trovate solo { $count } ripetizioni.
+    } È probabile che i pesi personalizzati risultino inaccurati, per il momento si raccomanda di utilizzare i valori predefiniti.
+deck-config-compute-weights-search = Ricerca; lascia vuoto per tutte le carte che utilizzano questo preset.
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Pesi del modello
+deck-config-compute-optimal-weights = Calcola i pesi ottimali
+deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
+deck-config-compute-button = Calcola
+deck-config-analyze-button = Analizza
+deck-config-desired-retention = Ritenzione desiderata
+deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migliori.
+deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
+deck-config-get-params = Ottieni parametri
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Seppellisci carte sorelle

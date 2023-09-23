@@ -69,6 +69,7 @@ editing-close-html-tags = Chiudi automaticamente i tag HTML
 editing-from-clipboard = Da Appunti
 editing-alignment = Allineamento
 editing-equations = Equazioni
+editing-no-image-found-on-clipboard = Nessuna immagine trovata nella clipboard.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

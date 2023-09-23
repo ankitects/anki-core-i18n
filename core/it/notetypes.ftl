@@ -52,4 +52,5 @@ notetypes-error-getting-imagecloze = Si è verificato un errore durante il recup
 notetypes-error-loading-image-occlusion = Errore nel caricamento dell'occlusione dell'immagine. La tua versione di Anki è aggiornata?
 notetype-error-no-image-to-show = Nessuna immagine da mostrare.
 notetypes-no-occlusion-created = Devi creare almeno una occlusione.
+notetypes-no-occlusion-created2 = Impossibile aggiungere. Ciò potrebbe essere poiché non hai aggiunto alcuna occlusione, oppure poiché il primo campo è vuoto.
 notetypes-io-select-image = Seleziona Immagine

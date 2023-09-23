@@ -92,13 +92,25 @@ statistics-range-collection = collezione
 statistics-range-search = Cerca
 statistics-card-ease-title = Facilità della carta
 statistics-card-difficulty-title = Difficoltà della Carta
+statistics-card-retrievability-title = Recuperabilità della Carta
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
 statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verrà mostrata la carta.
+statistics-retrievability-subtitle = Quanto è probabile che tu ti ricordi.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] { $cards } carta con { $percent } di facilità
        *[other] { $cards } carte con { $percent } di facilità
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } carta con difficoltà { $percent }
+       *[other] { $cards } carte con difficoltà { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } carta con recuperabilità { $percent }
+       *[other] { $cards } carte con recuperabilità { $percent }
     }
 statistics-future-due-title = Previsioni
 statistics-future-due-subtitle = Numero di ripetizioni che scadranno in futuro.
@@ -202,6 +214,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Facilità media
 statistics-average-difficulty = Difficoltà media
+statistics-average-retrievability = Recuperabilità media
 statistics-save-pdf = Salva pdf
 statistics-saved = Salvato.
 statistics-stats = statistiche
