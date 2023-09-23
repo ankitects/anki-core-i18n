@@ -20,3 +20,4 @@ fields-name-invalid-letter = Il nome del campo non deve contenere :, ", { "{" } 
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = Escludi dalle ricerche non qualificate (più lento)
+fields-field-is-required = Questo campo è obbligatorio e non può essere eliminato.

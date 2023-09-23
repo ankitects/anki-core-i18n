@@ -91,7 +91,9 @@ statistics-range-deck = mazzo
 statistics-range-collection = collezione
 statistics-range-search = Cerca
 statistics-card-ease-title = Facilità della carta
+statistics-card-difficulty-title = Difficoltà della Carta
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
+statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verrà mostrata la carta.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -199,6 +201,7 @@ statistics-cards-per-day =
        *[other] { $count } carte/giorno
     }
 statistics-average-ease = Facilità media
+statistics-average-difficulty = Difficoltà media
 statistics-save-pdf = Salva pdf
 statistics-saved = Salvato.
 statistics-stats = statistiche
