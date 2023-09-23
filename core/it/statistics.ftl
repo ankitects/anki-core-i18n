@@ -92,7 +92,7 @@ statistics-range-collection = collezione
 statistics-range-search = Cerca
 statistics-card-ease-title = Facilità della carta
 statistics-card-difficulty-title = Difficoltà della Carta
-statistics-card-retrievability-title = Recuperabilità della Carta
+statistics-card-retrievability-title = Rammentabilità della Carta
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
 statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verrà mostrata la carta.
 statistics-retrievability-subtitle = Quanto è probabile che tu ti ricordi.
@@ -109,8 +109,8 @@ statistics-card-difficulty-tooltip =
     }
 statistics-retrievability-tooltip =
     { $cards ->
-        [one] { $cards } carta con recuperabilità { $percent }
-       *[other] { $cards } carte con recuperabilità { $percent }
+        [one] { $cards } carta con rammentabilità { $percent }
+       *[other] { $cards } carte con rammentabilità { $percent }
     }
 statistics-future-due-title = Previsioni
 statistics-future-due-subtitle = Numero di ripetizioni che scadranno in futuro.
@@ -167,7 +167,7 @@ statistics-hours-reviews = 📊 { $reviews } ripetizioni
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% corrette ({ $reviews })
 statistics-hours-title = Suddivisione per ora del giorno
-statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno
+statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno.
 # shown when graph is empty
 statistics-no-data = NESSUN DATO
 statistics-calendar-title = Calendario
@@ -214,7 +214,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Facilità media
 statistics-average-difficulty = Difficoltà media
-statistics-average-retrievability = Recuperabilità media
+statistics-average-retrievability = Rammentabilità media
 statistics-save-pdf = Salva pdf
 statistics-saved = Salvato.
 statistics-stats = statistiche
