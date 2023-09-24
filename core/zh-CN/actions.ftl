@@ -55,7 +55,7 @@ actions-previous-card-info = 上一张卡片信息
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = 当前系统不支持此操作。
+actions-fullscreen-unsupported = 您的显示驱动不支持全屏模式。请尝试在设置中切换为其它显示驱动。
 
 ## Flags
 
