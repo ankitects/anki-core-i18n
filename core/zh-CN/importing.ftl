@@ -30,6 +30,15 @@ importing-map-to = 对应到 { $val }
 importing-map-to-tags = 对应到标签
 importing-mapped-to = 对应到<b>{ $val }</b>
 importing-mapped-to-tags = 对应到<b>标签</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = 合并笔记模板
+importing-merge-notetypes-help =
+    勾选后，若您或牌组作者更改了笔记模板的架构，Anki 将不会保留两个笔记模板，而会将它们合并。
+    
+    更改笔记模板的架构包括对「字段」或「模板」进行「增加」「移除」或「重排位置」操作。
+    反例：对正面内容模板进行修改**不属于**更改笔记模板架构。
+    
+    警告：这将需要进行单向同步，同时可能将现有笔记视为已被修改。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 牌组 (*.db)
 importing-multicharacter-separators-are-not-supported-please = 不支持多分隔字符，请输入单个分隔字符。
 importing-notes-added-from-file = 从文件中添加的笔记：{ $val }
@@ -37,7 +46,11 @@ importing-notes-found-in-file = 文件中找到的笔记 : { $val }
 importing-notes-skipped-as-theyre-already-in = 因现有集合中已存在而跳过的笔记：{ $val }
 importing-notes-skipped-update-due-to-notetype = 由于在笔记首次导入后修改过笔记模板，笔记未能更新：{ $val }
 importing-notes-updated-as-file-had-newer = 因文件有新版本而更新的笔记：{ $val }
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = 打包的Anki牌组/集合 (*.apkg *.colpkg *.zip)
+importing-include-reviews = 包含复习情况
+importing-include-reviews-help =
+    启用后，牌组分享者的复习情况也会被导入。
+    若未启用，所有卡片将被视为新卡片导入。
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = 打包的 Anki 牌组/集合（*.apkg *.colpkg *.zip）
 importing-pauker-18-lesson-paugz = Pauker 1.8 课程 (*.pau.gz)
 # the '|' character
 importing-pipe = 字符(|)
@@ -57,6 +70,13 @@ importing-unable-to-import-from-a-readonly = 无法从只读文件中导入。
 importing-unknown-file-format = 未知文件格式。
 importing-update-existing-notes-when-first-field = 当导入行的首字段与现有笔记相同时，更新笔记
 importing-updated = 已更新
+importing-update-if-newer = 仅在笔记较现有新时
+importing-update-always = 始终
+importing-update-never = 从不
+importing-update-notes = 更新笔记
+importing-update-notes-help = 选择在哪种情况下更新集合中现有的笔记。默认情况下，仅在导入的相应笔记的更改较新时才会进行该操作。
+importing-update-notetypes = 更新笔记模板
+importing-update-notetypes-help = 选择在哪种情况下更新集合中现有的笔记模板。默认情况下，仅在导入的相应笔记模板的更改较新时才会进行该操作。对模板内容和样式的修改始终会被导入，但对笔记模板架构的更改（如字段的数量或顺序被更改），则需要额外启用「{ importing-merge-notetypes }」选项。
 importing-note-added =
     { $count ->
        *[other] 已添加{ $count }条笔记
@@ -108,6 +128,43 @@ importing-cards-added =
        *[other] 已添加{ $count }条笔记
     }
 importing-file-empty = 您选择的是空文件。
+importing-notes-added =
+    { $count ->
+       *[other] 已导入 { $count } 条新笔记。
+    }
+importing-notes-updated =
+    { $count ->
+       *[other] 已更新 { $count } 条现有笔记。
+    }
+importing-existing-notes-skipped =
+    { $count ->
+       *[other] 有 { $count } 条笔记已在您的集合中。
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+       *[other] { $count } 条笔记未被导入，因为其笔记模板已被更改。
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+       *[other] { $count } 条笔记未被导入，因为其笔记模板已被更改，且选项「{ importing-merge-notetypes }」未被启用。
+    }
+importing-import-log = 导入日志
+importing-no-notes-in-file = 未在文件中找到笔记。
+importing-notes-found-in-file2 =
+    { $notes ->
+       *[other] 在文件中找到 { $notes } 条笔记。
+    }其中：
+importing-show = 展示
+importing-details = 详细情况
+importing-status = 状态
+importing-duplicate-note-added = 重复笔记已添加
+importing-added-new-note = 新笔记已添加
+importing-existing-note-skipped = 笔记被跳过，因为您集合中已存在最新的副本。
+importing-note-skipped-update-due-to-notetype = 笔记未更新，因为自您首次导入此笔记以来笔记模板已被修改
+importing-note-updated-as-file-had-newer = 笔记已更新，因为文件中有较新的版本
+importing-note-skipped-due-to-missing-notetype = 笔记被跳过，因为缺少其笔记模板
+importing-note-skipped-due-to-missing-deck = 笔记被跳过，因为缺少其牌组
+importing-note-skipped-due-to-empty-first-field = 笔记被跳过，因为其第一字段为空
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

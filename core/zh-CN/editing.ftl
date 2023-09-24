@@ -69,6 +69,7 @@ editing-close-html-tags = 自闭合 HTML 标签
 editing-from-clipboard = 从剪贴板
 editing-alignment = 对齐
 editing-equations = 公式
+editing-no-image-found-on-clipboard = 未在剪贴板上找到图像。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -13,6 +13,7 @@ media-check-unused-count = 未被使用的文件数：{ $count }
 media-check-renamed-count = 重命名文件数：{ $count }
 media-check-oversize-count = 超过100MB的文件数：{ $count }
 media-check-subfolder-count = 子文件夹数：{ $count }
+media-check-extracted-count = 提取图像数：{ $count }
 
 ## Shown at the top of each section
 

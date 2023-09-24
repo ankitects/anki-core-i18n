@@ -258,6 +258,15 @@ deck-config-maximum-answer-secs-above-recommended = 当保持问题均简短时�
 
 deck-config-which-deck = 请选择牌组？
 
+## Messages related to the FSRS scheduler
+
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = 模型权重
+deck-config-compute-button = 计算
+deck-config-analyze-button = 分析
+deck-config-get-params = 获取参数
+deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = 回答后搁置关联卡片
