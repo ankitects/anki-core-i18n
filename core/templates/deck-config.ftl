@@ -203,6 +203,8 @@ deck-config-sort-order-ascending-intervals = Ascending intervals
 deck-config-sort-order-descending-intervals = Descending intervals
 deck-config-sort-order-ascending-ease = Ascending ease
 deck-config-sort-order-descending-ease = Descending ease
+deck-config-sort-order-ascending-difficulty = Ascending difficulty
+deck-config-sort-order-descending-difficulty = Descending difficulty
 deck-config-sort-order-relative-overdueness = Relative overdueness
 deck-config-display-order-will-use-current-deck =
     Anki will use the display order from the deck you 
@@ -328,6 +330,9 @@ deck-config-desired-retention = Desired retention
 deck-config-smaller-is-better = Smaller numbers indicate better memory estimates.
 deck-config-steps-too-large-for-fsrs = When FSRS is enabled, interday (re)learning steps are not recommended.
 deck-config-get-params = Get Params
+deck-config-fsrs-on-all-clients =
+    Please ensure all of your Anki clients are Anki(Mobile) 23.10+ or AnkiDroid 2.17+. FSRS will
+    not work correctly if one of your clients is older.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
