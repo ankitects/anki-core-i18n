@@ -156,10 +156,10 @@ statistics-minutes-per-day =
     }
 statistics-cards-per-day =
     { $count ->
-       *[other] { $count }张卡片/天
+       *[other] { $count }张/天
     }
 statistics-average-ease = 平均简易度
-statistics-save-pdf = 保存PDF
+statistics-save-pdf = 保存为 PDF
 statistics-saved = 已保存。
 statistics-stats = 统计
 statistics-title = 统计数据
