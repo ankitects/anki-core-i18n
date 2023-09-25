@@ -7,19 +7,19 @@ statistics-due-for-new-card = 新卡片 #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } 卡片/分钟
+statistics-cards-per-min = { $cards-per-minute } 张卡片/分钟
 statistics-average-answer-time = { $average-seconds } 秒 ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
-statistics-in-time-span-seconds = { $amount }秒内
-statistics-in-time-span-minutes = { $amount }分内
-statistics-in-time-span-hours = { $amount }小时内
-statistics-in-time-span-days = { $amount }天内
-statistics-in-time-span-months = { $amount }个月内
-statistics-in-time-span-years = { $amount }年内
-statistics-cards = { $cards }张卡片
+statistics-in-time-span-seconds = { $amount } 秒内
+statistics-in-time-span-minutes = { $amount } 分内
+statistics-in-time-span-hours = { $amount } 小时内
+statistics-in-time-span-days = { $amount } 天内
+statistics-in-time-span-months = { $amount } 个月内
+statistics-in-time-span-years = { $amount } 年内
+statistics-cards = { $cards } 张卡片
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews } 次复习
 # Shown at the bottom of the deck list, and in the statistics screen.
@@ -34,13 +34,13 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }学习了 { statistics-cards } （每张卡片 { $secs-per-card } 秒）
+    } 内学习了 { statistics-cards }（平均每张卡片 { $secs-per-card } 秒）
 statistics-today-title = 今天
-statistics-today-again-count = 「重来」计数:
-statistics-today-type-counts = 学习: { $learnCount }, 复习: { $reviewCount }, 重新学习: { $relearnCount }, 已筛选: { $filteredCount }
+statistics-today-again-count = 「重来」计数：
+statistics-today-type-counts = 学习：{ $learnCount }；复习：{ $reviewCount }；重新学习：{ $relearnCount }；已筛选：{ $filteredCount }
 statistics-today-no-cards = 今天尚未学习任何卡片。
 statistics-today-no-mature-cards = 今天没有学习熟练卡片。
-statistics-today-correct-mature = 回答正确的熟练卡片：{ $correct }/{ $total } ({ $percent }%)
+statistics-today-correct-mature = 回答正确的熟练卡片：{ $correct }/{ $total }（{ $percent }%）
 statistics-counts-total-cards = 总计
 statistics-counts-new-cards = 未学习
 statistics-counts-young-cards = 欠熟练
@@ -63,7 +63,7 @@ statistics-card-ease-subtitle = 卡片简易度越低，其出现频率越高。
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-       *[other] { $cards }张简易度为{ $percent }的卡片
+       *[other] { $cards } 张简易度为 { $percent } 的卡片
     }
 statistics-future-due-title = 预测
 statistics-future-due-subtitle = 将来到期的复习的数目
@@ -83,15 +83,16 @@ statistics-in-days-single =
     { $days ->
         [0] 今天
         [1] 明天
-       *[other] { $days }天内
+       *[other] { $days } 天内
     }
-statistics-in-days-range = { $daysStart }－{ $daysEnd }天内
+statistics-in-days-range = { $daysStart }－{ $daysEnd } 天内
 statistics-days-ago-single =
     { $days ->
         [1] 昨天
-       *[other] { $days }天前
+        [2] 前天
+       *[other] { $days } 天前
     }
-statistics-days-ago-range = { $daysStart }－{ $daysEnd }天前
+statistics-days-ago-range = { $daysStart }－{ $daysEnd } 天前
 statistics-running-total = 累计
 statistics-cards-due =
     { $cards ->
@@ -102,15 +103,15 @@ statistics-intervals-title = 复习间隔
 statistics-intervals-subtitle = 复习卡片再次出现前的间隔。
 statistics-intervals-day-range =
     { $cards ->
-       *[other] { $cards }张间隔为{ $daysStart }~{ $daysEnd }天的卡片
+       *[other] { $cards } 张间隔为 { $daysStart }~{ $daysEnd } 天的卡片
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] { $cards }张间隔为{ $day }天的卡片
+       *[other] { $cards } 张间隔为 { $day } 天的卡片
     }
 # hour range, eg "From 14:00-15:00"
-statistics-hours-range = { $hourStart }时~{ $hourEnd }时
-statistics-hours-correct = { $correct }/{ $total } 正确 ({ $percent }%)
+statistics-hours-range = { $hourStart } 时~{ $hourEnd } 时
+statistics-hours-correct = { $correct }/{ $total } 正确（{ $percent }%）
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊复习了 { $reviews } 次
 # the emoji depicts the graph displaying this number
@@ -127,12 +128,12 @@ statistics-calendar-title = 日程表
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
-statistics-elapsed-time-seconds = { $amount }秒
-statistics-elapsed-time-minutes = { $amount }分
-statistics-elapsed-time-hours = { $amount }小时
-statistics-elapsed-time-days = { $amount }天
-statistics-elapsed-time-months = { $amount }个月
-statistics-elapsed-time-years = { $amount }年
+statistics-elapsed-time-seconds = { $amount } 秒
+statistics-elapsed-time-minutes = { $amount } 分
+statistics-elapsed-time-hours = { $amount } 小时
+statistics-elapsed-time-days = { $amount } 天
+statistics-elapsed-time-months = { $amount } 个月
+statistics-elapsed-time-years = { $amount } 年
 
 ##
 

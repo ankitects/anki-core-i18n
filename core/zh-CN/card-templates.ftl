@@ -9,14 +9,14 @@ card-templates-front-preview = 正面预览
 card-templates-back-preview = 背面预览
 card-templates-preview-box = 预览
 card-templates-template-box = 内容模板
-card-templates-sample-cloze = 这是一个{ "{{c1::" }示例{ "}}" } 的填空题。
+card-templates-sample-cloze = 这是一个 { "{{c1::" }示例{ "}}" } 的填空题。
 card-templates-fill-empty = 在空字段中填入内容
 card-templates-night-mode = 夜间模式
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = 添加移动设备的类
 card-templates-preview-settings = 选项
-card-templates-invalid-template-number = 卡片模板“{ $notetype }'”中的“内容模板{ $number }'”存在错误。
+card-templates-invalid-template-number = 卡片模板「{ $notetype }」中的「内容模板 { $number }」存在错误。
 card-templates-identical-front = 正面内容与内容模板 { $number } 相同。
 card-templates-no-front-field = 内容模板正面应有字段替换。
 card-templates-missing-cloze = 内容模板的正面和背面应有 '{ "{{" }cloze:Text{ "}}" }'  或类似的文字。
@@ -32,7 +32,7 @@ card-templates-card = 卡片{ $val }
 card-templates-card-types-for = { $val }的卡片模板
 card-templates-cloze = 填空题{ $val }
 card-templates-deck-override = 覆盖牌组…
-card-templates-delete-the-as-card-type-and = 确定删除“{ $template }”卡片模板及从属于它的{ $cards }吗？
+card-templates-delete-the-as-card-type-and = 确定删除「{ $template }」卡片模板及从属于它的 { $cards } 吗？
 card-templates-enter-deck-to-place-new = 请输入要将 { $val }张新卡片放入的牌组名称（可留空）：
 card-templates-enter-new-card-position-1 = 请输入新卡片的位置（1...{ $val }）：
 card-templates-flip = 翻转

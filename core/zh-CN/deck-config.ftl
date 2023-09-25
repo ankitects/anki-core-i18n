@@ -5,7 +5,7 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks = 已有{ $decks }个牌组使用
+deck-config-used-by-decks = 已有 { $decks } 个牌组使用
 deck-config-default-name = 系统默认
 deck-config-title = 牌组选项
 
@@ -14,7 +14,7 @@ deck-config-title = 牌组选项
 deck-config-daily-limits = 每日上限
 deck-config-new-limit-tooltip =
     当有新卡片可供学习时，单日可学习新卡片的最大数量。
-    因学习新卡片会增加短期复习量，单日新卡学习上限应设为单日复习上限的10倍以下。
+    因学习新卡片会增加短期复习量，单日新卡学习上限应设为单日复习上限的 10 倍以下。
 deck-config-review-limit-tooltip = 当有复习卡片可供复习时，单日可复习卡片的最大数量。
 deck-config-limit-deck-v3 =
     学习含子牌组的父牌组时，
@@ -22,7 +22,7 @@ deck-config-limit-deck-v3 =
     而可抽取的卡片总数为父牌组自身所设置的上限。
 deck-config-limit-new-bound-by-reviews =
     复习卡片上限会影响新卡片上限。
-    例如复习上限设为200，尚有190张卡片待复习，则至多可展示10张新卡片。
+    例如复习上限设为 200，尚有 190 张卡片待复习，则至多可展示 10 张新卡片。
     而若已达复习上限，则不再展示新卡片。
 deck-config-limit-interday-bound-by-reviews =
     复习上限同样会作用于跨日学习的卡片。
@@ -46,11 +46,11 @@ deck-config-today-only = 仅限今日
 
 deck-config-learning-steps = 学习阶段
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 间隔时间通常应设为分钟(如5m)或天(如2d)，但亦可设为小时(如1h)或秒(如30s）。
+-deck-config-delay-hint = 间隔时间通常应设为分钟（如 5m）或天（如 2d），但亦可设为小时（如 1h）或秒（如30s）。
 deck-config-learning-steps-tooltip =
     间隔之间请用空格分隔。
-    第一个间隔为学习新卡时，选择「重来」后卡片再次展示的间隔时间(默认1分钟)。
-    第二个间隔为学习新卡时，选择「良好」后进入下一阶段的间隔时间(默认10 分钟)。
+    第一个间隔为学习新卡时，选择「重来」后卡片再次展示的间隔时间（默认 1 分钟）。
+    第二个间隔为学习新卡时，选择「良好」后进入下一阶段的间隔时间（默认 10 分钟）。
     通过所有阶段都后，卡片将转为复习卡片择日展示。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 在最后一个学习阶段选择「良好」后，再次展示卡片的间隔天数。
 deck-config-easy-interval-tooltip = 当选择「简单」直接跳过学习后，再次展示卡片的间隔天数。
@@ -61,14 +61,14 @@ deck-config-new-insertion-order-tooltip =
     更改此选项将自动更新现存新卡片的位置。
 deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
 deck-config-new-insertion-order-random = 随机插入
-deck-config-new-insertion-order-random-with-v3 = 使用V3排程算法时，建议设为顺序插入，并以调整新卡片的抽取顺序代之。
+deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程算法时，建议设为顺序插入，并以调整新卡片的抽取顺序代之。
 
 ## Lapses section
 
 deck-config-relearning-steps = 重学阶段
 deck-config-relearning-steps-tooltip =
     多个间隔间请用空格分隔。
-    默认设置下，复习卡片时选择「重来」，卡片将10分钟后重新展示。
+    默认设置下，复习卡片时选择「重来」，卡片将 10 分钟后重新展示。
     若未设置间隔，卡片将调整间隔，而不进入重学阶段。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     复习卡片被标记为「记忆难点」之前，需要选择「重来」的次数。
@@ -86,14 +86,14 @@ deck-config-bury-title = 搁置
 deck-config-bury-new-siblings = 搁置关联新卡片到下一天
 deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
 deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
-deck-config-bury-new-tooltip = 同一笔记中的其他“新卡片”（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
-deck-config-bury-review-tooltip = 同一笔记中其他“复习”卡片是否推迟到第二天。
-deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于1天的“学习中”卡片是否推迟到第二天。
+deck-config-bury-new-tooltip = 同一笔记中的其他「新卡片」（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
+deck-config-bury-review-tooltip = 同一笔记中其他「复习」卡片是否推迟到第二天。
+deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于 1 天的「学习中」卡片是否推迟到第二天。
 deck-config-bury-priority-tooltip =
-    Anki归集卡片的顺序为：当日学习卡片→隔日学习卡片→复习卡片→新卡片。
+    Anki 归集卡片的顺序为：当日学习卡片→隔日学习卡片→复习卡片→新卡片。
     该顺序将影响卡片搁置的处理方式：
     - 如果启用了所有搁置选项，将会显示列表中最前的关联卡片。例如：复习卡片将优先于新卡片展示。
-    - 顺序靠后的关联卡片无法搁置顺序较前的卡片类型。例如：当禁用“搁置新卡片”，学习新卡片时将不会搁置关联的隔天学习卡片和复习卡片。因此，关联的新卡片和复习卡片可能会在一次练习中同时出现。
+    - 顺序靠后的关联卡片无法搁置顺序较前的卡片类型。例如：当禁用「搁置新卡片」，学习新卡片时将不会搁置关联的隔天学习卡片和复习卡片。因此，关联的新卡片和复习卡片可能会在一次练习中同时出现。
 
 ## Ordering section
 
@@ -235,18 +235,18 @@ deck-config-revert-button-tooltip = 将此设置重置为默认值。
 
 deck-config-description-new-handling = Anki 2.1.41+ 处理方式
 deck-config-description-new-handling-hint =
-    输入将被视为Markdown，而输入的HTML将被清除。
+    输入将被视为 Markdown，而输入的 HTML 将被清除。
     启用后，描述也将显示在恭喜界面。
-    在Anki 2.1.40及以下版本Markdown将以纯文本的形式展示。
+    在 Anki 2.1.40 及以下版本的 Markdown 将以纯文本的形式展示。
 
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    单个父牌组的上限为{ $cards ->
+    单个父牌组的上限为 { $cards ->
        *[other] { $cards } 张卡片
     }，此上限将被重设。
 deck-config-reviews-too-low =
-    若每天新增{ $cards ->
+    若每天新增 { $cards ->
        *[other] { $cards } 张新卡片
     }，复习上限至少应设为 { $expected }。
 deck-config-learning-step-above-graduating-interval = 毕业卡片再现间隔不应少于最后一个学习阶段的时长。
@@ -260,6 +260,7 @@ deck-config-which-deck = 请选择牌组？
 
 ## Messages related to the FSRS scheduler
 
+deck-config-invalid-weights = 权重必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型权重
 deck-config-compute-button = 计算
@@ -278,4 +279,4 @@ deck-config-bury-tooltip =
     关联卡片是指来自同一笔记的其他卡片（如正面/反面卡片、同一填空题笔记中的其他空格卡片）。
     此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
     此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
-    当使用V3排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。
+    当使用 V3 排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。

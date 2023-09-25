@@ -3,10 +3,10 @@ importing-aborted = 已中止：{ $val }
 importing-added-duplicate-with-first-field = 已添加首字段的副本：{ $val }
 importing-all-supported-formats = 所有支持的格式{ $val }
 importing-allow-html-in-fields = 允许在字段中使用HTML
-importing-anki-files-are-from-a-very = .anki文件来自Anki较为早期的历史版本。您可以使用「175027074」附加组件或在Anki网站上找到Anki2.0版本来导入它们。
+importing-anki-files-are-from-a-very = .anki 文件来自 Anki 较为早期的版本。您可以使用「175027074」附加组件或在 Anki 网站上找到 Anki 2.0 版本来导入它们。
 importing-anki2-files-are-not-directly-importable = .anki2文件无法直接导入 - 请导入您接收到的.apkg或.zip文件。
 importing-appeared-twice-in-file = 文件中出现两次：{ $val }
-importing-by-default-anki-will-detect-the = 默认情况下，Anki将自动检测字段间的分隔字符（如制表符，逗号等）。如未能正确检测分隔字符，请在这里输入。用“\t”代表制表符。
+importing-by-default-anki-will-detect-the = 默认情况下，Anki 将自动检测字段间的分隔字符（如制表符，逗号等）。如未能正确检测分隔字符，请在这里输入。用「\t」代表制表符。
 importing-change = 修改
 importing-colon = 冒号
 importing-comma = 逗号
@@ -39,7 +39,7 @@ importing-merge-notetypes-help =
     反例：对正面内容模板进行修改**不属于**更改笔记模板架构。
     
     警告：这将需要进行单向同步，同时可能将现有笔记视为已被修改。
-importing-mnemosyne-20-deck-db = Mnemosyne 2.0 牌组 (*.db)
+importing-mnemosyne-20-deck-db = Mnemosyne 2.0 牌组（*.db）
 importing-multicharacter-separators-are-not-supported-please = 不支持多分隔字符，请输入单个分隔字符。
 importing-notes-added-from-file = 从文件中添加的笔记：{ $val }
 importing-notes-found-in-file = 文件中找到的笔记 : { $val }
@@ -51,10 +51,10 @@ importing-include-reviews-help =
     启用后，牌组分享者的复习情况也会被导入。
     若未启用，所有卡片将被视为新卡片导入。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 打包的 Anki 牌组/集合（*.apkg *.colpkg *.zip）
-importing-pauker-18-lesson-paugz = Pauker 1.8 课程 (*.pau.gz)
+importing-pauker-18-lesson-paugz = Pauker 1.8 课程（*.pau.gz）
 # the '|' character
 importing-pipe = 字符(|)
-importing-rows-had-num1d-fields-expected-num2d = “{ $row }”行有 { $found } 个字段，应有 { $expected }
+importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」行有 { $found } 个字段，应有 { $expected } 个
 importing-selected-file-was-not-in-utf8 = 选择的文件不是UTF-8格式的。请查看帮助文档的导入章节。
 importing-semicolon = 分号
 importing-skipped = 已跳过

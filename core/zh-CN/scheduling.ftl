@@ -51,7 +51,7 @@ scheduling-custom-study = 自定义学习
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1搭载了新版的排程算法，解决了旧版本Anki中存在的一些问题。推荐更新。
+scheduling-update-soon = Anki 2.1 搭载了新版的排程算法，解决了旧版本 Anki 中存在的一些问题。推荐更新。
 scheduling-update-done = 已成功更新排程算法。
 scheduling-update-button = 更新
 scheduling-update-later-button = 稍后
@@ -121,7 +121,7 @@ scheduling-set-due-date-prompt =
     }
 scheduling-set-due-date-prompt-hint =
     0 = 今天
-    1! = 明天+将间隔更改为1天
+    1! = 明天 + 将间隔更改为 1 天
     3-7 = 随机选择 3-7 天
 scheduling-set-due-date-done =
     { $cards ->
