@@ -1,11 +1,10 @@
 browsing-add-notes = افزودن یادداشت...
-browsing-add-tags = افزودن برچسب
 browsing-add-tags2 = افزودن برچسب...
+browsing-add-to-selected-notes = اضافه کردن به یادداشت‌های انتخاب شده
+browsing-remove-from-selected-notes = حذف کردن از یادداشت‌های انتخاب شده
 browsing-addon = افزونه
-browsing-all-card-types = همۀ انواع کارت
 browsing-all-fields = تمام فیلدها
 browsing-answer = پاسخ
-browsing-any-cards-mapped-to-nothing-will = هر کارت نشانه‌گذاری شده به هیچ چیز حذف خواهد شد. اگر یک یادداشت بدون کارت باقی بماند حذف خواهد شد. آیا از انجام این عمل اطمینان دارد؟
 browsing-any-flag = هر نشان
 browsing-average-ease = میانگین آسانی
 browsing-average-interval = میانگین زمان مرور
@@ -13,10 +12,8 @@ browsing-browser-appearance = نمایش مرورگر
 browsing-browser-options = اختیارات مرورگر
 browsing-buried = دفن شده
 browsing-card = کارت
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = ک
+browsing-cards = کارت‌ها
 browsing-card-list = فهرست کارت‌ها
-browsing-card-state = وضعیت کارت
 browsing-cards-cant-be-manually-moved-into = کارت‌ها بصورت دستی قابل انتقال به یک دسته فیلتر شده نیستند.
 browsing-cards-deleted =
     { $count ->
@@ -27,19 +24,14 @@ browsing-change-deck2 = تغییر دسته…
 browsing-change-note-type = تغییر نوع یادداشت
 browsing-change-note-type2 = تغییر نوع یادداشت...
 browsing-change-notetype = تغییر نوع یادداشت
-browsing-change-to = تغییر دادن { $val } به:
-browsing-clear-unused = پاک کردن استفاده نشده
 browsing-clear-unused-tags = پاک کردن برچسب‌های استفاده نشده
 browsing-confirm-saved-search-overwrite = یک جستجوی ذخیره شده با نام { $name } از قبل وجود دارد. آیا می‌خواهید آن را بازنشانی کنید؟
 browsing-created = ایجادشده
-browsing-ctrlandshiftande = Ctrl+Shift+E
 browsing-current-deck = دستۀ فعلی
 browsing-current-note-type = نوع یادداشت فعلی:
 browsing-delete-notes = حذف یادداشت
-browsing-delete-tags = حذف برچسب‌ها
 browsing-duplicate = تکراری
 browsing-ease = سهولت
-browsing-end = پایان
 browsing-enter-tags-to-add = برچسب‌ها را برای افزودن وارد کنید:
 browsing-enter-tags-to-delete = برچسب‌ها را بری حذف کردن وارد کنید:
 browsing-filtered = (فیلترشده)
@@ -51,7 +43,6 @@ browsing-flag = نشان
 browsing-font = <b>فونت</b>:
 browsing-font-size = <b>سایز فونت</b>:
 browsing-found-as-across-bs = پیدا شده{ $part } سرتاسر { $whole }.
-browsing-home = خانه
 browsing-ignore-case = نادیده گرفتن مورد
 browsing-in = <b>در</b>:
 browsing-interval = بازه زمانی
@@ -61,23 +52,17 @@ browsing-line-size = <b>اندازه خطوط</b>:
 browsing-manage-note-types = مدیریت نوع یادداشت...
 browsing-move-cards = انتقال کارت‌ها
 browsing-move-cards-to-deck = انتقال کارت‌ها به دسته:
-browsing-nd-names = { $num }:{ $name }
 browsing-new = (جدید)
 browsing-new-note-type = نوع کارت جدید:
 browsing-no-flag = بدون نشان
 browsing-no-selection = هیچ کارت یا یادداشتی انتخاب نشده است.
 browsing-note = یادداشت
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = ی
-browsing-notes-tagged = یادداشت‌ها برچسب‌گذاری شدند.
-browsing-nothing = هیچ‌چیز
-browsing-only-new-cards-can-be-repositioned = فقط کارت‌های جدید قابلیت تغییر موقعیت را دارند.
+browsing-notes = یادداشت‌ها
 browsing-optional-filter = فیلتر اختیاری:
 browsing-override-back-template = بازنویسی قالب پشت کارت :
 browsing-override-font = لغو فونت :
 browsing-override-front-template = بازنویسی قالب روی کارت:
 browsing-please-give-your-filter-a-name = لطفاً فایل خود را نامگذاری کنید:
-browsing-please-select-cards-from-only-one = لطفاً کارت‌ها را فقط از یک نوع یادداشت انتخاب کنید.
 browsing-preview-selected-card = پیش‌نمایش کارت‌های انتخاب شده ({ $val })
 browsing-question = پرسش
 browsing-queue-bottom = انتهای صف: { $val }
@@ -118,10 +103,6 @@ browsing-group =
 browsing-note-count =
     { $count ->
        *[other] { $count } یادداشت
-    }
-browsing-note-deleted =
-    { $count ->
-       *[other] { $count } کارت حذف شد.
     }
 browsing-notes-updated =
     { $count ->
@@ -166,3 +147,10 @@ browsing-reparented-decks =
     { $count ->
        *[other] تعداد { $count } دسته مجدداً نامگذاری شد.
     }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = ک
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = ی
