@@ -200,6 +200,8 @@ deck-config-sort-order-ascending-intervals = فواصل متزايدة
 deck-config-sort-order-descending-intervals = فواصل متناقصة
 deck-config-sort-order-ascending-ease = سهولة متصاعدة
 deck-config-sort-order-descending-ease = سهولة متناقصة
+deck-config-sort-order-ascending-difficulty = صعوبة متصاعدة
+deck-config-sort-order-descending-difficulty = صعوبة متناقصة
 deck-config-sort-order-relative-overdueness = التأخر النسبي
 deck-config-display-order-will-use-current-deck =
     سيستخدم أنكي ترتيب العرض من الرزمة 
@@ -334,6 +336,9 @@ deck-config-desired-retention = الاحتفاظ المرغوب فيه
 deck-config-smaller-is-better = تشير الأرقام الأصغر إلى تقديرات أفضل للذاكرة.
 deck-config-steps-too-large-for-fsrs = عند تمكين FSRS، لا يوصى بخطوات (إعادة) التعلم بين الأيام.
 deck-config-get-params = الحصول على المعلمات.
+deck-config-fsrs-on-all-clients =
+    يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
+    بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
