@@ -164,7 +164,7 @@ importing-note-skipped-update-due-to-notetype = 笔记未更新，因为自您�
 importing-note-updated-as-file-had-newer = 笔记已更新，因为文件中有较新的版本
 importing-note-skipped-due-to-missing-notetype = 笔记被跳过，因为缺少其笔记模板
 importing-note-skipped-due-to-missing-deck = 笔记被跳过，因为缺少其牌组
-importing-note-skipped-due-to-empty-first-field = 笔记被跳过，因为其第一字段为空
+importing-note-skipped-due-to-empty-first-field = 笔记被跳过，因为其首字段为空
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

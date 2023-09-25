@@ -23,7 +23,7 @@ media-check-subfolder-header = 媒体文件夹不支持子文件夹。
 media-check-missing-header = 以下文件在卡片中被使用但在媒体文件夹里没找到：
 media-check-unused-header = 以下文件存在于媒体文件夹中，但未被任何卡片使用：
 media-check-template-references-field-header =
-    当您在媒体/LaTeX标签中加入 { "{{Field}}" }来引用文件时，Anki将无法检测到引用的文件，请将媒体/LaTeX标签单独加入到每一个笔记当中。
+    当您在媒体/LaTeX 标签中加入 { "{{Field}}" } 来引用文件时，Anki 将无法检测到引用的文件，请将媒体/LaTeX 标签单独加入到每一个笔记当中。
     
     以下模板存在此问题：
 
@@ -61,12 +61,12 @@ media-check-trash-restored = 已恢复删除的文件到媒体文件夹。
 
 ## Rendering LaTeX
 
-media-check-all-latex-rendered = 已渲染所有LaTeX。
+media-check-all-latex-rendered = 已渲染所有 LaTeX。
 
 ## Buttons
 
 media-check-delete-unused = 删除未使用的文件
-media-check-render-latex = 渲染LaTeX
+media-check-render-latex = 渲染 LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = 清空回收站
 # button to move deleted files from the trash back into the media folder
