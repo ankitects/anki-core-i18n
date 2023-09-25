@@ -71,6 +71,7 @@ preferences-network-timeout = 網路逾時
 preferences-reset-window-sizes = 重設視窗大小
 preferences-reset-window-sizes-complete = 已重設視窗大小及位置。
 preferences-shortcut-placeholder = 輸入一個未使用的快速鍵，或留空以停用。
+preferences-stop-timer-on-answer = 回答後停止計時
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
