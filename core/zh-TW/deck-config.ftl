@@ -212,14 +212,14 @@ deck-config-limited-history =
     { $count ->
        *[other] 僅找到了 { $count } 次複習。
     }自訂權重很可能會不準確，建議使用預設值。
-deck-config-compute-weights-search = 搜尋條件；留白來讓所有卡片使用此預設組
+deck-config-compute-weights-search = 搜尋條件；留白則計算所有使用此預設組的卡片
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型權重
 deck-config-compute-optimal-weights = 計算最佳權重
 deck-config-compute-optimal-retention = 計算最佳記憶留存指數
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
-deck-config-desired-retention = 理想的記憶留存指數
+deck-config-desired-retention = 理想記憶留存指數
 deck-config-smaller-is-better = 數字越小表示估算記憶越牢固。
 deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議將（重新）學習階段設定超過一天。
 deck-config-get-params = 取得參數
