@@ -73,6 +73,7 @@ preferences-network-timeout = Timeout connessione
 preferences-reset-window-sizes = Ripristina dimensioni finestre
 preferences-reset-window-sizes-complete = Le dimensioni e le posizioni delle finestre sono state ripristinate.
 preferences-shortcut-placeholder = Inserisci un tasto di scorciatoia non già in uso, oppure lascia vuoto per disabilitare.
+preferences-stop-timer-on-answer = Blocca il timer al momento della risposta
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

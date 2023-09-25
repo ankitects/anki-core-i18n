@@ -182,6 +182,8 @@ deck-config-sort-order-ascending-intervals = Intervalli crescenti
 deck-config-sort-order-descending-intervals = Intervalli decrescenti
 deck-config-sort-order-ascending-ease = Facilità crescente
 deck-config-sort-order-descending-ease = Facilità decrescente
+deck-config-sort-order-ascending-difficulty = Difficoltà crescente
+deck-config-sort-order-descending-difficulty = Difficoltà decrescente
 deck-config-sort-order-relative-overdueness = Ritardo relativo
 deck-config-display-order-will-use-current-deck =
     Anki userà l'ordine di apparizione del mazzo che hai 
@@ -307,6 +309,9 @@ deck-config-desired-retention = Ritenzione desiderata
 deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migliori.
 deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
 deck-config-get-params = Ottieni parametri
+deck-config-fsrs-on-all-clients =
+    Per favore assicurati che tutte le tue versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
+    FSRS non funzionerà correttamente se una delle tue versioni è più vecchia.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
