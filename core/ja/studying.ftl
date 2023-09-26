@@ -1,8 +1,8 @@
 studying-again = もう一度
-studying-all-buried-cards = 明日に延期したすべてのカード
-studying-audio-5s = 音声 5秒戻る
-studying-audio-and5s = 音声 5秒進む
-studying-buried-siblings = 明日に延期した兄弟関係のカード
+studying-all-buried-cards = 今日は非表示にしたすべてのカード
+studying-audio-5s = 音声を5秒戻す
+studying-audio-and5s = 音声を5秒進める
+studying-buried-siblings = 今日は非表示にした兄弟関係のカード
 studying-bury = 今日は非表示
 studying-bury-card = カードを今日は非表示
 studying-bury-note = ノートを今日は非表示
@@ -10,7 +10,7 @@ studying-card-suspended = カードを休止しました
 studying-card-was-a-leech = このカードは定着困難です。
 studying-cards-buried =
     { $count ->
-       *[other] { $count }枚のカードを明日に延期しました。
+       *[other] { $count }枚のカードを今日は非表示にしました。
     }
 studying-cards-will-be-automatically-returned-to = カードは復習が済んだら元のデッキに自動的に戻ります。
 studying-continue = 続行
@@ -27,7 +27,7 @@ studying-flag-card = カードにフラグを付ける
 studying-good = 正解
 studying-hard = 難しい
 studying-it-has-been-suspended = 休止しました。
-studying-manually-buried-cards = 手動で明日に延期したカード
+studying-manually-buried-cards = 手動で今日は非表示にしたカード
 studying-mark-note = ノートにマーク
 studying-more = その他
 studying-no-cards-are-due-yet = このデッキの今日の課題はまだ残っていますが、どれもまだ学習予定時刻に達していません
