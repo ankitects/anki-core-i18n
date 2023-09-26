@@ -294,5 +294,17 @@ deck-config-maximum-answer-secs-above-recommended = Anki může plánovat Vaše 
 
 deck-config-which-deck = Který balíček požadujete?
 
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = Aktualizují se karty: { $current_cards_count }/{ $total_cards_count }...
+deck-config-not-enough-history = K provedení této operace není dostatečná historie opakování.
+deck-config-compute-optimal-retention = Spočítat optimální retenci
+deck-config-compute-button = Vypočítat
+deck-config-analyze-button = Analyzovat
+deck-config-desired-retention = Požadovaná retence
+deck-config-fsrs-on-all-clients =
+    Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
+    fungovat správně, jestliže je jeden z vašich klientů starší.
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -35,3 +35,11 @@ notetypes-note-types = Typy poznámek
 notetypes-options = Možnosti...
 notetypes-please-add-another-note-type-first = Nejprve prosím přidejte jiný typ poznámky.
 notetypes-type = Typ
+
+## Image Occlusion
+
+notetypes-toggle-masks = Přepnout masky
+notetypes-image-occlusion-name = Okluze obrázku
+notetypes-hide-all-guess-one = Schovat vše, hádat jeden
+notetypes-hide-one-guess-one = Schovat jeden, hádat jeden
+notetypes-io-select-image = Vybrat obrázek
