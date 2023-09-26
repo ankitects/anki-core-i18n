@@ -70,6 +70,7 @@ preferences-import-export = Import/Export
 preferences-network-timeout = Časový limit sítě
 preferences-reset-window-sizes = Resetovat velikosti oken
 preferences-reset-window-sizes-complete = Velikosti oken a jejich pozice byly resetovány.
+preferences-stop-timer-on-answer = Zastavit časovač po odpovědi
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
