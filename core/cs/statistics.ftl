@@ -107,13 +107,29 @@ statistics-range-deck = balíček
 statistics-range-collection = kolekce
 statistics-range-search = Hledat
 statistics-card-ease-title = Snadnost karet
+statistics-card-difficulty-title = Obtížnost karet
+statistics-card-retrievability-title = Zapamatování karet
 statistics-card-ease-subtitle = Čím nižší je snadnost, tím častěji se bude karta objevovat.
+statistics-card-difficulty-subtitle = Čím vyšší obtížnost, tím častěji se bude karta objevovat.
+statistics-retrievability-subtitle = S jakou pravděpodobností si budete pamatovat.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] 1 karta se snadností { $percent }
         [few] { $cards } karty se snadností { $percent }
        *[other] { $cards } karet se snadností { $percent }
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } karta s obtížností { $percent }
+        [few] { $cards } karty s obtížností { $percent }
+       *[other] { $cards } karet s obtížností { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } karta se zapamatováním { $percent }
+        [few] { $cards } karty se zapamatováním { $percent }
+       *[other] { $cards } karet se zapamatováním { $percent }
     }
 statistics-future-due-title = Předpověď
 statistics-future-due-subtitle = Počet opakování do příště.
@@ -225,6 +241,8 @@ statistics-cards-per-day =
        *[other] { $count } karet/den
     }
 statistics-average-ease = Průměrná snadnost
+statistics-average-difficulty = Průměrná obtížnost
+statistics-average-retrievability = Průměrné zapamatování
 statistics-save-pdf = Uložit PDF
 statistics-saved = Uloženo.
 statistics-stats = statistika

@@ -20,3 +20,4 @@ fields-name-invalid-letter = Název pole by neměl obsahovat :, ", { "{" } nebo 
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = Vyloučit z obecného vyhledávání (pomalejší)
+fields-field-is-required = Toto pole je vyžadováno a nemůže být odstraněno.
