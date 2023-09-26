@@ -26,7 +26,7 @@ actions-rename-deck = デッキ名を変更
 actions-rename-tag = タグ名を変更
 actions-rename-with-parents = 親デッキも併せて名前を変更
 actions-remove-tag = タグを削除
-actions-replay-audio = オーディオを再生
+actions-replay-audio = 音声・動画を再生
 actions-reposition = 並び替える
 actions-save = 保存
 actions-search = 検索
@@ -53,7 +53,6 @@ actions-previous-card-info = 直前カード情報
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = このアクションは現在お使いのシステムでサポートされていません。
 
 ## Flags
 

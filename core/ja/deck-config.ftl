@@ -177,10 +177,11 @@ deck-config-show-answer-timer-tooltip = カード学習画面に、表示中の�
 
 ## Audio section
 
-deck-config-audio-title = オーディオ
-deck-config-disable-autoplay = オーディオを自動再生しない
-deck-config-skip-question-when-replaying = 解答側も表示されているときの再生アクションでは、質問側を再生しない
-deck-config-always-include-question-audio-tooltip = カードの解答側（裏面）も表示しているときに「オーディオを再生」アクションを選択した場合に、質問側（表面）のオーディオも再生するのかどうかを設定します。
+deck-config-audio-title = 音声・動画
+deck-config-disable-autoplay = 音声・動画を自動再生しない
+deck-config-disable-autoplay-tooltip = このオプションがオンの場合、カードの質問側・解答側それぞれを表示したタイミングでの音声や動画の自動再生を行いません。この場合でも、メニューボタンで「音声・動画を再生」アクションを選択すれば、音声や動画を再生することができます。
+deck-config-skip-question-when-replaying = 解答側を表示後の「音声・動画を再生」アクションでは、質問側を再生しない
+deck-config-always-include-question-audio-tooltip = カードの解答側（裏面）を既に表示した状態で「音声・動画を再生」アクションを選択した場合に、質問側（表面）の音声・動画ファイルも再生するのかどうかを設定します。
 
 ## Advanced section
 
