@@ -180,7 +180,7 @@ deck-config-show-answer-timer-tooltip = カード学習画面に、表示中の�
 deck-config-audio-title = オーディオ
 deck-config-disable-autoplay = オーディオを自動再生しない
 deck-config-skip-question-when-replaying = 解答側を再生するときに、先に質問側を再生しない
-deck-config-always-include-question-audio-tooltip = カードの解答側（裏面）も表示しているときに「オーディオの再生」を選択した場合に、質問側（表面）のオーディオも再生するのかどうかを設定します。
+deck-config-always-include-question-audio-tooltip = カードの解答側（裏面）も表示しているときに「オーディオを再生」アクションを選択した場合に、質問側（表面）のオーディオも再生するのかどうかを設定します。
 
 ## Advanced section
 
@@ -248,6 +248,9 @@ deck-config-maximum-answer-secs-above-recommended = 回答時間を短く保つ�
 ## Selecting a deck
 
 deck-config-which-deck = どのデッキを選択しますか？
+
+## Messages related to the FSRS scheduler
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
