@@ -30,6 +30,18 @@ importing-map-to = Přiřadit na { $val }
 importing-map-to-tags = Přiřadit ke štítkům
 importing-mapped-to = přiřazeno na <b>{ $val }</b>
 importing-mapped-to-tags = přiřazeno na <b>Štítky</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Sloučit typy poznámek
+importing-merge-notetypes-help =
+    Je-li zaškrtnuto a vy nebo autor balíčku jste změnili schéma typu poznámky, Anki
+    sloučí tyto dvě verze místo toho, aby ponechalo obě.
+    
+    Změna schématu typu poznámky znamená přidání, odstranění nebo změna pořadí polí nebo šablon,
+    nebo zněna řazení polí.
+    Naopak, změna přední strany existující šablony *nepředstavuje*
+    změnu schématu.
+    
+    Varování: Tato akce vyžaduje synchronizaci v jednom směru a může označit stávající poznámky jako modifikované.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 balíček (*.db)
 importing-multicharacter-separators-are-not-supported-please = Víceznakové oddělovače nejsou podporovány. Prosím, vložte pouze jeden znak.
 importing-notes-added-from-file = Poznámky přidané ze souboru: { $val }
@@ -37,6 +49,10 @@ importing-notes-found-in-file = Poznámky nalezené v souboru: { $val }
 importing-notes-skipped-as-theyre-already-in = Přeskočené poznámky, které jsou již v kolekci: { $val }
 importing-notes-skipped-update-due-to-notetype = Neaktualizované poznámky, typ poznámky se od prvního importu změnil: { $val }
 importing-notes-updated-as-file-had-newer = Poznámky aktualizovány, protože soubor měl novější verzi: { $val }
+importing-include-reviews = Zahrnout opakování
+importing-include-reviews-help =
+    Je-li povoleno, všechna dřívější opakování, která jsou v balíčku zahrnuta, budou také importována. 
+    V opačném případě budou všechny karty importovány jako nové karty.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balíček/kolekce (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 lekce (*.pau.gz)
 # the '|' character
@@ -57,6 +73,19 @@ importing-unable-to-import-from-a-readonly = Nelze importovat ze souboru s práv
 importing-unknown-file-format = Neznámý formát souboru.
 importing-update-existing-notes-when-first-field = Aktualizovat existující poznámku, když je první pole stejné
 importing-updated = Aktualizováno
+importing-update-if-newer = Jsou-li novější
+importing-update-always = Vždy
+importing-update-never = Nikdy
+importing-update-notes = Aktualizovat poznámky
+importing-update-notes-help =
+    Když se aktualizuje stávající poznámka ve vaší kolekci. Ve výchozím nastavení se toto 
+    stane pouze, pokud odpovídající importovaná poznámka byla nedávno upravena.
+importing-update-notetypes = Aktualizovat typy poznámek
+importing-update-notetypes-help =
+    Když se aktualizuje stávající typ poznámky ve vaší kolekci. Ve výchozím nastavení se toto stane 
+    pouze, pokud odpovídající importovaný typ poznámky byl nedávno upraven. Změny v textu šablony 
+    a formátování může být vždy importováno, ale pro změny schématu (např. se změnil počet nebo pořadí 
+    polí), musí být také povolena volba '{ importing-merge-notetypes }'.
 importing-note-added =
     { $count ->
         [one] { $count } poznámka přidána

@@ -38,8 +38,15 @@ notetypes-type = Typ
 
 ## Image Occlusion
 
+notetypes-image = Obrázek
+notetypes-occlusion = Okluze
+notetypes-comments-field = Komentář
 notetypes-toggle-masks = Přepnout masky
 notetypes-image-occlusion-name = Okluze obrázku
 notetypes-hide-all-guess-one = Schovat vše, hádat jeden
 notetypes-hide-one-guess-one = Schovat jeden, hádat jeden
+notetypes-error-generating-cloze = Nastala chyba při generování poznámky s okluzí obrázku
+notetypes-error-loading-image-occlusion = Chyba při načítání okluze obrázku. Je verze vašeho Anki aktuální?
+notetype-error-no-image-to-show = Žádný obrázek k zobrazení.
+notetypes-no-occlusion-created2 = Nelze přidat. Buď jste nepřidali žádnou okluzi, nebo je první pole prázdné.
 notetypes-io-select-image = Vybrat obrázek
