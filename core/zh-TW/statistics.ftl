@@ -81,7 +81,7 @@ statistics-card-difficulty-title = 卡片難度指數
 statistics-card-retrievability-title = 卡片記憶留存指數
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
 statistics-card-difficulty-subtitle = 難度指數越高，卡片出現的頻率就越高。
-statistics-retrievability-subtitle = 你的記憶能夠留存的機率。
+statistics-retrievability-subtitle = 你的記憶能夠留存的機率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -108,7 +108,7 @@ statistics-answer-buttons-button-number = 按鈕
 statistics-answer-buttons-button-pressed = 按下的次數
 statistics-answer-buttons-subtitle = 按下各按鈕的次數
 statistics-reviews-title = 複習
-statistics-reviews-time-checkbox = 時間
+statistics-reviews-time-checkbox = 耗時
 statistics-in-days-single =
     { $days ->
         [0] 今天
@@ -125,7 +125,7 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } 天前
 statistics-running-total = 累積總計
 statistics-cards-due =
     { $cards ->
-       *[other] 將有 { $cards } 張卡片到期
+       *[other] 有 { $cards } 張卡片到期
     }
 statistics-backlog-checkbox = 顯示積壓卡片
 statistics-intervals-title = 複習間隔
