@@ -144,6 +144,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `כרטיסים אקראיים`: אוסף כרטיסים באופן אקראי לחלוטין.
 deck-config-new-gather-priority-deck = חפיסה
+deck-config-new-gather-priority-deck-then-random-notes = חפיסה ואח"כ רשומות אקראיות
 deck-config-new-gather-priority-position-lowest-first = סדר עולה
 deck-config-new-gather-priority-position-highest-first = סדר יורד
 deck-config-new-gather-priority-random-notes = רשומות אקראיות
@@ -189,6 +190,8 @@ deck-config-sort-order-ascending-intervals = מרווחים עולים
 deck-config-sort-order-descending-intervals = מרווחים יורדים
 deck-config-sort-order-ascending-ease = קלות עולה
 deck-config-sort-order-descending-ease = קלות יורדת
+deck-config-sort-order-ascending-difficulty = קושי בסדר עולה
+deck-config-sort-order-descending-difficulty = קושי בסדר יורד
 deck-config-sort-order-relative-overdueness = איחור יחסי
 deck-config-display-order-will-use-current-deck =
     אנקי ישתמש בהגדרת סדר החזרות לפי החפיסה שאתה 
@@ -215,6 +218,10 @@ deck-config-skip-question-when-replaying = דלג על השאלה בעת תשו�
 deck-config-always-include-question-audio-tooltip =
     הגדרה זו קובעת האם יש לכלול את שמע השאלה כאשר אפשרות ההשמעה מחדש
     מופעלת בעת הסתכלות בצד התשובה של כרטיס.
+deck-config-stop-timer-on-answer = עצור טיימר בתשובה
+deck-config-stop-timer-on-answer-tooltip =
+    קובע האם לעצור את הטיימר בהצגת התשובה.
+    זה לא משפיע על הסטטיסטיקות.
 
 ## Advanced section
 
@@ -290,6 +297,33 @@ deck-config-maximum-answer-secs-above-recommended = אנקי יכול לתזמן
 ## Selecting a deck
 
 deck-config-which-deck = איזו חפיסה הינך רוצה?
+
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = מעדכן כרטיסים: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = משקלים חייבים להיות ריקים כדי להשתמש בברירות המחדל, או חייבים להיות 17 מספרים מופרדים בפסיקים.
+deck-config-not-enough-history = אין מספיק היסטוריית חזרות לביצוע פעולה זו.
+deck-config-must-have-1000-reviews =
+    { $count ->
+        [one] רק חזרה אחת נמצאה.
+       *[other] רק { $count } חזרות נמצאו.
+    }אתה זקוק ל 1000 חזרות לפחות כדי ליצור משקלים מותאמים אישית.
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = משקלי מודל
+deck-config-compute-optimal-weights = בצע אופטימיזציה של משקלי FSRS
+deck-config-compute-optimal-retention = חישוב שמירה אופטימלית
+deck-config-optimize-button = בצע אופטימיזציה
+deck-config-compute-button = חשב
+deck-config-analyze-button = נתח
+deck-config-desired-retention = שימור רצוי
+deck-config-smaller-is-better = מספרים קטנים יותר מצביעים על התאמה טובה יותר להיסטוריית החזרות שלך.
+deck-config-steps-too-large-for-fsrs = כאשר FSRS מופעל, שלבי למידה במשך יום 1 אינם מומלצים.
+deck-config-get-params = קבל פרמטרים
+deck-config-fsrs-on-all-clients =
+    אנא ודא שכל לקוחות Anki שלך הם Anki(Mobile) 23.10+ או AnkiDroid 2.17+.
+     FSRS לא יעבוד כראוי אם אחד מהלקוחות שלך מתחת לגירסאות אלו.
+deck-config-set-optimal-retention = הגדר את השמירה הרצויה ל { $num }
+deck-config-complete = { $num } % הושלם.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

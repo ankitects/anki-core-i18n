@@ -32,6 +32,18 @@ importing-map-to = מיפוי ל-{ $val }
 importing-map-to-tags = מיפוי לתגיות
 importing-mapped-to = ממופה ל-<b>{ $val }</b>
 importing-mapped-to-tags = ממופה ל-<b>תגיות</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = מיזוג סוגי רשומות.
+importing-merge-notetypes-help =
+    אם מסומן, ואתה או מחבר החפיסה שיניתם את הסכימה של סוג הרשומה, אנקי
+    ימזג את שתי הגרסאות במקום להשאיר את שתיהן.
+    
+    שינוי סכימה של רשומות פירושה הוספה, הסרה או סדר מחדש של שדות או תבניות,
+    או שינוי שדה המיון.
+    
+    כדוגמה נגדית, שינוי הצד הקדמי של תבנית קיימת *לא* מהווה שינוי סכימה.
+    
+    אזהרה: זה ידרוש סנכרון חד כיווני, ועלול לסמן רשומות קיימות כשינויים.
 importing-mnemosyne-20-deck-db = חפיסת Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = מפסיקים עם תווים מרובים אינם נתמכים. אנא הכנס תו אחד בלבד.
 importing-notes-added-from-file = רשומות נוספו מקובץ: { $val }
@@ -39,6 +51,10 @@ importing-notes-found-in-file = רשומות נמצאו בקובץ: { $val }
 importing-notes-skipped-as-theyre-already-in = רשומות שדולגו, מפני שהן כבר קיימות באוסף שלך: { $val }
 importing-notes-skipped-update-due-to-notetype = הרשומות לא עודכנו, מכיוון שסוג הרשומה השתנה מאז שייבאת את ההערות לראשונה: { $val }
 importing-notes-updated-as-file-had-newer = רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: { $val }
+importing-include-reviews = כלול נתוני חזרות
+importing-include-reviews-help =
+    אם מסומן, כל החזרות הקודמות שבוצעו בחפיסה ייובאו גם כן.
+    אחרת, כל הכרטיסים יובאו ככרטיסים חדשים.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
 # the '|' character
@@ -59,6 +75,19 @@ importing-unable-to-import-from-a-readonly = לא ניתן לייבא מקובץ
 importing-unknown-file-format = סוג קובץ לא מוכר.
 importing-update-existing-notes-when-first-field = עדכן רשומות קיימות כאשר השדה הראשון תואם
 importing-updated = עודכן
+importing-update-if-newer = אם חדש יותר
+importing-update-always = תמיד
+importing-update-never = לעולם לא
+importing-update-notes = עדכן רשומות
+importing-update-notes-help =
+    מתי לעדכן רשומה קיימת במאגר שלך. כברירת מחדל, זה נעשה רק
+    אם הרשומה המיובאת התואמת השתנתה לאחרונה.
+importing-update-notetypes = עדכן סוגי רשומות
+importing-update-notetypes-help =
+    מתי לעדכן סוג רשומה קיים באוסף שלך. כברירת מחדל, זה נעשה רק
+    אם סוג הרשומה המיובא התואם שונה לאחרונה. שינויים בטקסט התבנית
+    וסגנון תמיד ניתן לייבא, אבל עבור שינויים בסכימה (למשל, המספר או הסדר של
+    שדות השתנו), תצטרך גם להפעיל את האפשרות '{ importing-merge-notetypes }'.
 importing-note-added =
     { $count ->
         [one] { $count } רשומה נוספה
@@ -138,6 +167,11 @@ importing-conflicting-notes-skipped =
         [one] { $count } רשומה לא יובאה, מכיוון שסוג הרשומה שלה השתנה.
        *[other] { $count } רשומות לא יובאו, מכיוון שסוג הרשומה שלהן השתנה.
     }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } רשומה לא יובאה מכיון שסוג הרשומה השתנה, ו'{ importing-merge-notetypes }' מסומן.
+       *[other] { $count } רשומות לא יובאו מכיון שסוג הרשומה השתנה, ו'{ importing-merge-notetypes }' מסומן.
+    }
 importing-import-log = יומן ייבוא
 importing-no-notes-in-file = לא נמצאו רשומות בקובץ.
 importing-notes-found-in-file2 =
@@ -156,6 +190,33 @@ importing-note-updated-as-file-had-newer = רשומה עודכנה, מכיוון
 importing-note-skipped-due-to-missing-notetype = רשומה דולגה, מכיוון שסוג הרשומה שלה היה חסר
 importing-note-skipped-due-to-missing-deck = רשומה דולגה, מכיוון שהחפיסה שלה חסרה
 importing-note-skipped-due-to-empty-first-field = רשומה דולגה, מכיוון שהשדה הראשון שלה ריק
+importing-field-separator-help =
+    השדות המפרידים בין התווים בקובץ הטקסט. אתה יכול להשתמש בתצוגה המקדימה כדי לבדוק
+    אם השדות מופרדים כהלכה.
+    
+    שים לב שאם התו הזה מופיע בשדה כלשהו עצמו, השדה חייב להיות
+    מצוטט בהתאם לתקן CSV. תוכניות גיליון אלקטרוני כמו LibreOffice
+    לעשות זאת באופן אוטומטי.
+importing-allow-html-in-fields-help =
+    הפעל זאת אם הקובץ מכיל עיצוב HTML. לְמָשָׁל. אם הקובץ מכיל את המחרוזת
+    '&lt;br&gt;', זה יופיע כמעבר שורה בכרטיס שלך. מצד שני, עם זה¶
+    האפשרות מושבתת, התווים המילוליים '&lt;br&gt;' יעובדו.
+importing-notetype-help =
+    רשומות שיובאו לאחרונה יהיו עם סוג הערה זה, ורק רשומות קיימות עם כזה
+    סוג רשומה יעודכן.
+    
+    אתה יכול לבחור אילו שדות בקובץ תואמים לאיזה שדות הערות באמצעות
+    כלי המיפוי.
+importing-deck-help = כרטיסים מיובאים יונחו בחפיסה זו.
+importing-existing-notes-help =
+    מה לעשות אם רשומה מיובאת תואמת לרשומה קיימת.
+    
+    - `{ importing-update }`: מעדכן את הרשומה הקיימת.
+    - `{ importing-preserve }`: ללא שינוי.
+    - `{ importing-duplicate }`: יוצר רשומה חדשה.
+importing-match-scope-help =
+    רק רשומות קיימות עם אותו סוג רשומה ייבדקו עבור כפילויות. זה יכול
+    בנוסף להיות מוגבל לרשומות עם כרטיסים באותה חפיסה.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

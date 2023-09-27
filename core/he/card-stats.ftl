@@ -24,6 +24,9 @@ card-stats-review-log-type-filtered = מסונן
 card-stats-review-log-type-manual = ידני
 card-stats-no-card = (אין כרטיסים להצגה.)
 card-stats-custom-data = נתונים מותאמים אישית
+card-stats-fsrs-stability = יציבות
+card-stats-fsrs-difficulty = קושי
+card-stats-fsrs-retrievability = יכולת אחזור
 
 ## Window Titles
 

@@ -69,6 +69,7 @@ editing-close-html-tags = סגירה אוטומטית של תגיות HTML
 editing-from-clipboard = מהלוח
 editing-alignment = יישור
 editing-equations = משוואות
+editing-no-image-found-on-clipboard = לא נמצאה תמונה בלוח.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
