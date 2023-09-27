@@ -127,8 +127,8 @@ deck-config-sort-order-ascending-intervals = 間隔遞增
 deck-config-sort-order-descending-intervals = 間隔遞減
 deck-config-sort-order-ascending-ease = 輕鬆度遞增
 deck-config-sort-order-descending-ease = 輕鬆度遞減
-deck-config-sort-order-ascending-difficulty = 難度指數遞增
-deck-config-sort-order-descending-difficulty = 難度指數遞減
+deck-config-sort-order-ascending-difficulty = 難度遞增
+deck-config-sort-order-descending-difficulty = 難度遞減
 deck-config-sort-order-relative-overdueness = 依相對逾期跨度
 deck-config-display-order-will-use-current-deck = 顯示順序以你選取學習的牌組為準，Anki 將無視下層牌組所設定的順序。
 
@@ -218,16 +218,16 @@ deck-config-must-have-1000-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型權重
 deck-config-compute-optimal-weights = 最佳化 FSRS 權重
-deck-config-compute-optimal-retention = 計算最佳記憶留存指數
+deck-config-compute-optimal-retention = 計算最佳留存率
 deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
-deck-config-desired-retention = 理想記憶留存指數
+deck-config-desired-retention = 理想留存率
 deck-config-smaller-is-better = 數字越小表示越符合你的複習歷史記錄。
 deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議設定超過一天的學習階段。
 deck-config-get-params = 取得參數
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
-deck-config-set-optimal-retention = 將理想記憶留存指數設定為 { $num }
+deck-config-set-optimal-retention = 設定理想留存率為 { $num }
 deck-config-complete = 已完成 { $num }%。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

@@ -25,8 +25,8 @@ card-stats-review-log-type-manual = 手動
 card-stats-no-card = （沒有卡片可顯示）
 card-stats-custom-data = 自訂資料
 card-stats-fsrs-stability = 穩固指數
-card-stats-fsrs-difficulty = 難度指數
-card-stats-fsrs-retrievability = 記憶留存指數
+card-stats-fsrs-difficulty = 難度
+card-stats-fsrs-retrievability = 留存率
 
 ## Window Titles
 

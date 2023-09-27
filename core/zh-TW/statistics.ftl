@@ -77,10 +77,10 @@ statistics-range-deck = 牌組統計
 statistics-range-collection = 集合統計
 statistics-range-search = 搜尋條件
 statistics-card-ease-title = 卡片輕鬆度
-statistics-card-difficulty-title = 卡片難度指數
-statistics-card-retrievability-title = 卡片記憶留存指數
+statistics-card-difficulty-title = 卡片難度
+statistics-card-retrievability-title = 卡片留存率
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
-statistics-card-difficulty-subtitle = 難度指數越高，則卡片越難記住
+statistics-card-difficulty-subtitle = 難度越高，則卡片越難記住
 statistics-retrievability-subtitle = 你的記憶能夠留存的機率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -89,11 +89,11 @@ statistics-card-ease-tooltip =
     }
 statistics-card-difficulty-tooltip =
     { $cards ->
-       *[other] 有 { $cards } 張卡片的難度指數為 { $percent }
+       *[other] 有 { $cards } 張卡片的難度為 { $percent }
     }
 statistics-retrievability-tooltip =
     { $cards ->
-       *[other] 有 { $cards } 張卡片的記憶留存指數為 { $percent }
+       *[other] 有 { $cards } 張卡片的留存率為 { $percent }
     }
 statistics-future-due-title = 將來到期
 statistics-future-due-subtitle = 將在未來到期的複習卡數量
@@ -189,8 +189,8 @@ statistics-cards-per-day =
        *[other] { $count } 張卡片/天
     }
 statistics-average-ease = 平均輕鬆度
-statistics-average-difficulty = 平均難度指數
-statistics-average-retrievability = 平均記憶留存指數
+statistics-average-difficulty = 平均難度
+statistics-average-retrievability = 平均留存率
 statistics-save-pdf = 儲存為 PDF 檔
 statistics-saved = 已儲存。
 statistics-stats = 統計
