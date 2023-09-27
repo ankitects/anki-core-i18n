@@ -136,6 +136,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Casuale (carte)`: raccoglie le carte in maniera completamente casuale.
 deck-config-new-gather-priority-deck = Mazzo
+deck-config-new-gather-priority-deck-then-random-notes = Mazzo, quindi note casuali
 deck-config-new-gather-priority-position-lowest-first = Ordine per posizione crescente
 deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
 deck-config-new-gather-priority-random-notes = Casuale (note)
@@ -212,6 +213,10 @@ deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzi
 deck-config-always-include-question-audio-tooltip =
     Se l'audio della domanda deve essere inclusa quando usi l'azione "Riproduci di nuovo"
     mentre guardi alla risposta della carta.
+deck-config-stop-timer-on-answer = Blocca il timer dopo aver risposto
+deck-config-stop-timer-on-answer-tooltip =
+    Se bloccare o meno il timer una volta che è stata rivelata la risposta.
+    Ciò non influisce sulle statistiche.
 
 ## Advanced section
 
@@ -293,16 +298,16 @@ deck-config-which-deck = Quale mazzo desideri?
 deck-config-updating-cards = Aggiornamento delle carte: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = I pesi devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
-deck-config-limited-history =
+deck-config-must-have-1000-reviews =
     { $count ->
-        [one] È stata trovata solo { $count } ripetizione.
-       *[other] Sono state trovate solo { $count } ripetizioni.
-    } È probabile che i pesi personalizzati risultino inaccurati, per il momento si raccomanda di utilizzare i valori predefiniti.
-deck-config-compute-weights-search = Ricerca; lascia vuoto per tutte le carte che utilizzano questo preset.
+        [one] Trovata solo { $count } ripetizione.
+       *[other] Trovate solo { $count } ripetizioni.
+    } Per generare i pesi personalizzati servono almeno 1000 ripetizioni.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Pesi del modello
 deck-config-compute-optimal-weights = Calcola i pesi ottimali
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
+deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
 deck-config-analyze-button = Analizza
 deck-config-desired-retention = Ritenzione desiderata
@@ -312,6 +317,7 @@ deck-config-get-params = Ottieni parametri
 deck-config-fsrs-on-all-clients =
     Per favore assicurati che tutte le tue versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
     FSRS non funzionerà correttamente se una delle tue versioni è più vecchia.
+deck-config-complete = { $num }% completo.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
