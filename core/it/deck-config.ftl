@@ -213,7 +213,7 @@ deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzi
 deck-config-always-include-question-audio-tooltip =
     Se l'audio della domanda deve essere inclusa quando usi l'azione "Riproduci di nuovo"
     mentre guardi alla risposta della carta.
-deck-config-stop-timer-on-answer = Blocca il timer dopo aver risposto
+deck-config-stop-timer-on-answer = Ferma il timer dopo aver risposto
 deck-config-stop-timer-on-answer-tooltip =
     Se bloccare o meno il timer una volta che è stata rivelata la risposta.
     Ciò non influisce sulle statistiche.
@@ -317,6 +317,7 @@ deck-config-get-params = Ottieni parametri
 deck-config-fsrs-on-all-clients =
     Per favore assicurati che tutte le tue versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
     FSRS non funzionerà correttamente se una delle tue versioni è più vecchia.
+deck-config-set-optimal-retention = Setta la Ritenzione desiderata a { $num }
 deck-config-complete = { $num }% completo.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
