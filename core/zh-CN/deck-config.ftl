@@ -263,6 +263,8 @@ deck-config-which-deck = 请选择牌组？
 deck-config-invalid-weights = 权重必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型权重
+deck-config-compute-optimal-weights = 优化 FSRS 权重
+deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
 deck-config-analyze-button = 分析
 deck-config-get-params = 获取参数
