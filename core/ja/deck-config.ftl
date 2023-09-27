@@ -155,9 +155,9 @@ deck-config-review-sort-order = 復習カードを並べる順序
 deck-config-review-sort-order-tooltip =
     デフォルトでは、最も長い期間待機しているカードが最初に表示されるよう、待機日数が大きい順にカードを表示します。
     復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合や、あるいはサブデッキの順番でカード学習をしたい場合など、状況や好みに応じて別のソート方法を選択することができます。
-deck-config-sort-order-due-date-then-random = 期日超過日数が大きい順→同日数どうしはランダム
-deck-config-sort-order-due-date-then-deck = 期日超過日数が大きい順→同日数どうしはデッキの並び順
-deck-config-sort-order-deck-then-due-date = デッキの並び順→デッキ内では期日超過日数が大きい順
+deck-config-sort-order-due-date-then-random = 期日超過日数が多い順→同日数はランダム
+deck-config-sort-order-due-date-then-deck = 期日超過日数が多い順→同日数はデッキの並び順
+deck-config-sort-order-deck-then-due-date = デッキ並び順→デッキ内は期日超過日数多い順
 deck-config-sort-order-ascending-intervals = 復習間隔が短い順
 deck-config-sort-order-descending-intervals = 復習間隔が長い順
 deck-config-sort-order-ascending-ease = 易しさが低い順
