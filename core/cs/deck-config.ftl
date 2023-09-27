@@ -136,6 +136,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Karty náhodně`: nabírá karty zcela náhodně.
 deck-config-new-gather-priority-deck = Balíček
+deck-config-new-gather-priority-deck-then-random-notes = Balíček, poté poznámky náhodně
 deck-config-new-gather-priority-position-lowest-first = Umístění vzestupně
 deck-config-new-gather-priority-position-highest-first = Umístění sestupně
 deck-config-new-gather-priority-random-notes = Poznámky náhodně
@@ -220,6 +221,10 @@ deck-config-skip-question-when-replaying = Přeskočit otázku, když se přehr�
 deck-config-always-include-question-audio-tooltip =
     Zda má být zvuk v otázce přehrán, když se zvuk přehrává znovu během 
     prohlížení strany karty s odpovědí.
+deck-config-stop-timer-on-answer = Zastavit časovač po odpovědi
+deck-config-stop-timer-on-answer-tooltip =
+    Jestli se má časovač zastavit, když se zobrazí odpověď.
+    Neovlivní to statistiky.
 
 ## Advanced section
 
@@ -301,22 +306,27 @@ deck-config-which-deck = Který balíček požadujete?
 deck-config-updating-cards = Aktualizují se karty: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Váhy musí být buď ponechány prázdné, kdy se použijí výchozí hodnoty, nebo musí být 17 čísel oddělených čárkou.
 deck-config-not-enough-history = K provedení této operace není dostatečná historie opakování.
-deck-config-limited-history =
+deck-config-must-have-1000-reviews =
     { $count ->
         [one] Bylo nalezeno pouze { $count } opakování.
         [few] Byly nalezeny pouze { $count } opakování.
        *[other] Bylo nalezeno pouze { $count } opakování.
-    } Upravené váhy budou pravděpodobně nepřesné, je doporučeno místo nich použít výchozí hodnoty.
+    } Musíte mít alespoň 1000 opakování, aby se vygenerovaly vlastní váhy.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Váhy modelu
-deck-config-compute-optimal-weights = Vypočítat optimální váhy
+deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
 deck-config-compute-optimal-retention = Vypočítat optimální retenci
+deck-config-optimize-button = Optimalizovat
 deck-config-compute-button = Vypočítat
 deck-config-analyze-button = Analyzovat
 deck-config-desired-retention = Požadovaná retence
+deck-config-smaller-is-better = Menší čísla naznačují lepší způsobilost pro vaši historii opakování.
+deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delší než 1 den nejsou doporučeny.
 deck-config-fsrs-on-all-clients =
     Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
-    fungovat správně, jestliže je jeden z vašich klientů starší.
+    fungovat správně, jestliže je některý z vašich klientů starší.
+deck-config-set-optimal-retention = Nastavte požadovanou retenci na { $num }
+deck-config-complete = { $num }% hotovo.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

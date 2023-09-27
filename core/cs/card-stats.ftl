@@ -23,6 +23,7 @@ card-stats-review-log-type-relearn = Znovu učené
 card-stats-review-log-type-filtered = Filtrováno
 card-stats-review-log-type-manual = Manuální
 card-stats-no-card = (Žádná karta k zobrazení.)
+card-stats-custom-data = Vlastní data
 card-stats-fsrs-stability = Stabilita
 card-stats-fsrs-difficulty = Obtížnost
 card-stats-fsrs-retrievability = Zapamatování
