@@ -55,7 +55,7 @@ actions-previous-card-info = מידע כרטיס קודם
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = מצב מסך מלא אינו נתמך עבור מנהל התקן הווידאו שלך. נסה לעבור למצב אחר ממסך ההעדפות.
+actions-fullscreen-unsupported = מצב מסך מלא אינו נתמך עבור דרייבר הווידאו שלך. נסה לעבור לדרייבר אחר בחלון ההעדפות.
 
 ## Flags
 

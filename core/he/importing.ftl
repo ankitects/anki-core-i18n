@@ -217,6 +217,8 @@ importing-existing-notes-help =
 importing-match-scope-help =
     רק רשומות קיימות עם אותו סוג רשומה ייבדקו עבור כפילויות. זה יכול
     בנוסף להיות מוגבל לרשומות עם כרטיסים באותה חפיסה.
+importing-tag-all-notes-help = תגים אלה יתווספו הן לרשומות שיובאו והן לרשומות שיעודכנו.
+importing-tag-updated-notes-help = תגים אלה יתווספו לכל רשומות שיתעדכנו.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

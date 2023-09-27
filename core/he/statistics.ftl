@@ -108,12 +108,26 @@ statistics-range-deck = חפיסה
 statistics-range-collection = אוסף
 statistics-range-search = חיפוש
 statistics-card-ease-title = קלות הכרטיס
+statistics-card-difficulty-title = קושי כרטיס
+statistics-card-retrievability-title = אחזור כרטיס
 statistics-card-ease-subtitle = ככל שהקלות נמוכה יותר, כך גוברת התדירות שהכרטיס יופיע.
+statistics-card-difficulty-subtitle = ככל שהקושי גבוה יותר, כך קשה יותר לזכור אותו.
+statistics-retrievability-subtitle = כמה סביר שתזכור.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] כרטיס 1 עם קלות { $percent }
        *[other] { $cards } כרטיסים עם קלות { $percent }
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } כרטיס עם { $percent } קושי
+       *[other] { $cards } כרטיסים עם { $percent } קושי
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } כרטיס עם { $percent } קלות
+       *[other] { $cards } כרטיסים עם { $percent } קלות
     }
 statistics-future-due-title = תחזית
 statistics-future-due-subtitle = מספר החזרות המתוכננות בעתיד.
@@ -217,6 +231,8 @@ statistics-cards-per-day =
        *[other] { $count } כרטיסים ליום
     }
 statistics-average-ease = קלות ממוצעת
+statistics-average-difficulty = קושי ממוצע
+statistics-average-retrievability = יכולת אחזור ממוצעת
 statistics-save-pdf = שמור כ-PDF
 statistics-saved = נשמר.
 statistics-stats = סטטיסטיקה

@@ -52,4 +52,5 @@ notetypes-error-getting-imagecloze = אירעה שגיאה בעת שליפת ר�
 notetypes-error-loading-image-occlusion = שגיאה בטעינת הסתרת תמונה. האם גרסת ה-Anki שלך מעודכנת?
 notetype-error-no-image-to-show = אין תמונה להצגה.
 notetypes-no-occlusion-created = עליך לבצע הסתרה אחת לפחות.
+notetypes-no-occlusion-created2 = לא ניתן להוסיף. או שלא הוספת שום הסתרות, או שהשדה הראשון ריק.
 notetypes-io-select-image = בחר תמונה
