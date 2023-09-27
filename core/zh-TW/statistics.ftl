@@ -80,7 +80,7 @@ statistics-card-ease-title = 卡片輕鬆度
 statistics-card-difficulty-title = 卡片難度指數
 statistics-card-retrievability-title = 卡片記憶留存指數
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
-statistics-card-difficulty-subtitle = 難度指數越高，卡片出現的頻率就越高。
+statistics-card-difficulty-subtitle = 難度指數越高，則卡片越難記住
 statistics-retrievability-subtitle = 你的記憶能夠留存的機率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =

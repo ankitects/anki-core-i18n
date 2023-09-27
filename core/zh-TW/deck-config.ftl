@@ -87,6 +87,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `隨機卡片`：完全隨機收集卡片。
 deck-config-new-gather-priority-deck = 牌組順序
+deck-config-new-gather-priority-deck-then-random-notes = 牌組→隨機筆記
 deck-config-new-gather-priority-position-lowest-first = 遞增順序
 deck-config-new-gather-priority-position-highest-first = 遞減順序
 deck-config-new-gather-priority-random-notes = 隨機筆記
@@ -145,6 +146,8 @@ deck-config-disable-autoplay = 不要自動播放音訊
 deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕，或使用「重播音訊」動作來手動播放。
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
 deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行「重播音訊」動作時，將不會同時播放問題面上的音訊。
+deck-config-stop-timer-on-answer = 回答後停止計時
+deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止計時。不影響統計數據。
 
 ## Advanced section
 
@@ -208,22 +211,24 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 權重必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
 deck-config-not-enough-history = 歷史複習次數過少，無法執行此動作。
-deck-config-limited-history =
+deck-config-must-have-1000-reviews =
     { $count ->
-       *[other] 僅找到了 { $count } 次複習。
-    }自訂權重很可能會不準確，建議使用預設值。
-deck-config-compute-weights-search = 搜尋條件；留白則計算所有使用此預設組的卡片
+       *[other] 只找到了 { $count } 次複習記錄。
+    }至少需要 1000 次複習才能產生自訂權重。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型權重
-deck-config-compute-optimal-weights = 計算最佳權重
+deck-config-compute-optimal-weights = 最佳化 FSRS 權重
 deck-config-compute-optimal-retention = 計算最佳記憶留存指數
+deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 理想記憶留存指數
-deck-config-smaller-is-better = 數字越小表示估算記憶越牢固。
-deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議將（重新）學習階段設定超過一天。
+deck-config-smaller-is-better = 數字越小表示越符合你的複習歷史記錄。
+deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議設定超過一天的學習階段。
 deck-config-get-params = 取得參數
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
+deck-config-set-optimal-retention = 將理想記憶留存指數設定為 { $num }
+deck-config-complete = 已完成 { $num }%。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
