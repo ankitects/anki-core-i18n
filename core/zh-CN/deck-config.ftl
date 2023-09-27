@@ -104,9 +104,9 @@ deck-config-new-gather-priority-tooltip-2 =
     每个牌组中的卡片按升序抽取。如达到所选牌组的单日上限，则可能没有检查所有的牌组。
     对于大型牌组，此方式是最快的，并可优先处理处于顶部的子牌组。
     
-    「按位置升序」：按升序位置(due #)抽取卡片，旧卡片优先。
+    「按位置升序」：按升序位置（due #）抽取卡片，旧卡片优先。
     
-    「按位置降序」：按降序位置(due #)抽取卡片，新卡片优先。
+    「按位置降序」：按降序位置（due #）抽取卡片，新卡片优先。
     
     「随机排列笔记」：先随机排列选取的笔记，再从中抽取卡片。
     当搁置关联卡片功能被禁用时，可使一个笔记的所有卡片在一次练习中展示。
@@ -169,11 +169,11 @@ deck-config-display-order-will-use-current-deck =
 ## Timer section
 
 deck-config-timer-title = 计时
-deck-config-maximum-answer-secs = 作答时间记录上限(秒)
+deck-config-maximum-answer-secs = 回答时间记录上限（秒）
 deck-config-maximum-answer-secs-tooltip =
     单次复习可记录的最大秒数。
     若回答时间超此限制（如离开屏幕前），
-    卡片的作答时长将记录为此项设置的时长。
+    卡片的回答时长将记录为此项设置的时长。
 deck-config-show-answer-timer-tooltip =
     在复习界面上显示一个计时器，
     记录复习每张卡片所用的秒数。
@@ -187,6 +187,8 @@ deck-config-disable-autoplay-tooltip =
     可通过点击音频播放按钮或使用重播动作来手动播放音频。
 deck-config-skip-question-when-replaying = 重播答案时跳过问题
 deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播操作，是否需包含问题的音频。
+deck-config-stop-timer-on-answer = 显示答案后停止计时
+deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。不会影响统计数据。
 
 ## Advanced section
 

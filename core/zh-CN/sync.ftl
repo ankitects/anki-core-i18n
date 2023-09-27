@@ -42,7 +42,7 @@ sync-account-required =
 sync-sanity-check-failed = 请使用「检查数据库」功能，然后再次同步。若问题仍然存在，请在设置界面中选中强制全量同步。
 sync-clock-off = 无法同步 - 本地时间设置错误。
 sync-upload-too-large =
-    集合文件过大，无法上传至AnkiWeb。请删除不需要的牌组以减小文件大小（可先导出牌组），并使用「检查数据库」功能以缩小文件大小。
+    集合文件过大，无法上传至 AnkiWeb。请删除不需要的牌组以减小文件大小（可先导出牌组），并使用「检查数据库」功能以缩小文件大小。
     （{ $details }）
 
 ## Buttons

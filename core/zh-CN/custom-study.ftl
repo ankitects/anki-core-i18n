@@ -26,7 +26,7 @@ custom-study-selective-study = 选择性学习
 custom-study-study-by-card-state-or-tag = 按卡片状态或标签学习
 custom-study-available-new-cards-2 = 可用的新卡片：{ $countString }
 custom-study-available-review-cards-2 = 可用的复习卡片：{ $countString }
-custom-study-available-child-count = (子牌组中{ $count }张)
+custom-study-available-child-count = （子牌组中 { $count } 张）
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

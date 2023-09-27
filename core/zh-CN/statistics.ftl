@@ -8,7 +8,7 @@ statistics-due-for-new-card = 新卡片 #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } 张卡片/分钟
-statistics-average-answer-time = { $average-seconds } 秒 ({ statistics-cards-per-min })
+statistics-average-answer-time = { $average-seconds } 秒（{ statistics-cards-per-min }）
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -140,13 +140,13 @@ statistics-elapsed-time-years = { $amount } 年
 statistics-average-for-days-studied = 平均值（只计实际学习天数）
 statistics-total = 总计
 statistics-days-studied = 学习天数
-statistics-average-answer-time-label = 平均作答用时
+statistics-average-answer-time-label = 平均回答用时
 statistics-average = 平均
 statistics-average-interval = 平均间隔
 statistics-due-tomorrow = 明天到期
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total }({ $percent }%)
-statistics-average-over-period = 平均值 (包含未学习天数)
+statistics-average-over-period = 平均值（包含未学习天数）
 statistics-reviews-per-day =
     { $count ->
        *[other] { $count }次复习/天
