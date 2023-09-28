@@ -55,7 +55,7 @@ actions-previous-card-info = Informação do Cartão Anterior
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Esta ação atualmente não é suportada em seu sistema.
+actions-fullscreen-unsupported = O modo de tela cheia não é suportado pelo seu driver de vídeo. Tente mudar para um diferente na tela de preferências.
 
 ## Flags
 
