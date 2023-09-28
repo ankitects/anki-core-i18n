@@ -46,7 +46,7 @@ preferences-monthly-backups = 保留備份數量（每月）：
 preferences-minutes-between-backups = 自動備份間隔（分鐘）：
 preferences-reduce-motion = 減少動態效果
 preferences-reduce-motion-tooltip = 停用多種使用者介面中的動畫和過場效果
-preferences-custom-sync-url = 私人同步伺服器
+preferences-custom-sync-url = 自託管同步伺服器
 preferences-custom-sync-url-disclaimer = 供進階使用者使用 — 請參閱使用手冊
 preferences-hide-top-bar-during-review = 複習時隱藏頂欄
 preferences-hide-bottom-bar-during-review = 複習時隱藏底欄
@@ -71,7 +71,6 @@ preferences-network-timeout = 網路逾時
 preferences-reset-window-sizes = 重設視窗大小
 preferences-reset-window-sizes-complete = 已重設視窗大小及位置。
 preferences-shortcut-placeholder = 輸入一個未使用的快速鍵，或留空以停用。
-preferences-stop-timer-on-answer = 回答後停止計時
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

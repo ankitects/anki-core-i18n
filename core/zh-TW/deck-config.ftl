@@ -208,13 +208,13 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 
 ## Messages related to the FSRS scheduler
 
-deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
+deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 權重必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
 deck-config-not-enough-history = 歷史複習次數過少，無法執行此動作。
 deck-config-must-have-1000-reviews =
     { $count ->
-       *[other] 只找到了 { $count } 次複習記錄。
-    }至少需要 1000 次複習才能產生自訂權重。
+       *[other] 只找到了 { $count } 筆複習記錄。
+    }至少需要 1000  筆複習記錄才能產生自訂權重。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型權重
 deck-config-compute-optimal-weights = 最佳化 FSRS 權重
