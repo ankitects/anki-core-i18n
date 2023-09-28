@@ -13,7 +13,7 @@ database-check-missing-decks = 已修复{ $count }个缺失的牌组。
 database-check-revlog-properties = 已修复{ $count }张属性无效的复习卡片。
 database-check-notes-with-invalid-utf8 =
     { $count ->
-       *[other] 已修复{ $count }条有无效UTF-8字符的笔记。
+       *[other] 已修复 { $count } 条有无效 UTF-8 字符的笔记。
     }
 database-check-fixed-invalid-ids =
     { $count ->

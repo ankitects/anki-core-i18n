@@ -19,7 +19,7 @@ notetypes-cloze-name = 空格
 ## Default card template names
 
 notetypes-card-1-name = 卡片 1
-notetypes-card-2-name = 卡片2
+notetypes-card-2-name = 卡片 2
 notetypes-add = 添加：{ $val }
 notetypes-add-note-type = 添加笔记模板
 notetypes-cards = 卡片

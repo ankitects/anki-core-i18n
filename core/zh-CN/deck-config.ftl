@@ -46,7 +46,7 @@ deck-config-today-only = 仅限今日
 
 deck-config-learning-steps = 学习阶段
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = 间隔时间通常应设为分钟（如 5m）或天（如 2d），但亦可设为小时（如 1h）或秒（如30s）。
+-deck-config-delay-hint = 间隔时间通常应设为分钟（如 5m）或天（如 2d），但亦可设为小时（如 1h）或秒（如 30s）。
 deck-config-learning-steps-tooltip =
     间隔之间请用空格分隔。
     第一个间隔为学习新卡时，选择「重来」后卡片再次展示的间隔时间（默认 1 分钟）。
@@ -196,14 +196,14 @@ deck-config-advanced-title = 高级
 deck-config-maximum-interval-tooltip =
     复习卡片间隔的最大天数。
     当复习卡片的间隔达到此天数时，
-    「困难」、「良好」和「简单」的间隔将会一致。
+    「困难」「良好」和「简单」的间隔将会一致。
     此间隔越短，工作量越多。
 deck-config-starting-ease-tooltip =
     新卡片的初始简易度乘数。
-    默认设置下，在刚学完的卡片上选择「良好」后，下次复习的间隔将为上次的2.5倍。
+    默认设置下，在刚学完的卡片上选择「良好」后，下次复习的间隔将为上次的 2.5 倍。
 deck-config-easy-bonus-tooltip = 额外的乘数，用于设定复习卡片时选择「简单」后的间隔。
 deck-config-interval-modifier-tooltip =
-    此乘数应用于所有复习卡片，微调即可使Anki排程更加保守或激进。
+    此乘数应用于所有复习卡片，微调即可使 Anki 排程更加保守或激进。
     更改此选项前请务必参考帮助文档。
 deck-config-hard-interval-tooltip = 选择「困难」后的复习间隔乘数。
 deck-config-new-interval-tooltip = 选择「重来」后的复习间隔乘数。
@@ -224,7 +224,7 @@ deck-config-remove-group = 删除预设配置
 deck-config-will-require-full-sync =
     此变更需单向强制同步。
     如有在其他设备上的变更尚未同步至此设备，请同步后再进行变更。
-deck-config-confirm-remove-name = 确定删除{ $name }吗？
+deck-config-confirm-remove-name = 确定删除「{ $name }」吗？
 
 ## Other Buttons
 
@@ -262,7 +262,12 @@ deck-config-which-deck = 请选择牌组？
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 权重必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
+deck-config-must-have-1000-reviews =
+    { $count ->
+       *[other] 只找到了 { $count } 次 复习记录。
+    }至少需要复习 1000 次才能生成自定义权重。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型权重
 deck-config-compute-optimal-weights = 优化 FSRS 权重
@@ -271,6 +276,7 @@ deck-config-compute-button = 计算
 deck-config-analyze-button = 分析
 deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
+deck-config-complete = 已完成 { $num }%。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

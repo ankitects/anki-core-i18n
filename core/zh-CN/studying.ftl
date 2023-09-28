@@ -1,7 +1,7 @@
 studying-again = 重来
 studying-all-buried-cards = 所有已搁置的卡片
-studying-audio-5s = 音频快退5秒
-studying-audio-and5s = 音频快进5秒
+studying-audio-5s = 音频快退 5 秒
+studying-audio-and5s = 音频快进 5 秒
 studying-buried-siblings = 已搁置的关联卡片
 studying-bury = 搁置
 studying-bury-card = 搁置卡片

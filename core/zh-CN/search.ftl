@@ -15,18 +15,18 @@ search-empty-quote = 搜索条件中包含一对双引号「""」，但其引号
 search-unclosed-quote = 搜索条件中包含一个双引号「"」，但未找到第二个双引号来结束。若想搜索双引号本身，请在其前加上反斜杠：「\"」。
 search-missing-key = 搜索条件中包含一个冒号「:」，但其之前未找到关键字。若想搜索冒号本身，请在其前加一个反斜杠：「\:」。
 search-unknown-escape = 转义字符「{ $val }」未定义。若想搜索反斜杠本身「\」，请在其前再加一个反斜杠：「\\」。
-search-invalid-argument = { $term } 被赋予了无效的参数 { $argument }。
+search-invalid-argument = `{ $term }` 接收到了无效的参数 `{ $argument }`。
 search-invalid-flag-2 = `flag:` 后必须跟上有效旗标序号：`1`（红色）、`2`（橙色）、`3`（绿色）、`4`（蓝色）、`5`（粉色）、`6`（青色）、`7`（紫色）或 `0`（无旗标）。
 search-invalid-prop-operator = `prop:{ $val }` 后面必须是下列比较运算符之一：`=`、`!=`、`<`、`>`、`<=`或`>=`。
 search-invalid-other = 请检查输入是否有误。
 
 ## eg. expected a number in "due>5x", but found "5x"
 
-search-invalid-number = "`{ $context }`"  中应为数字，但实际却是 "`{ $provided }`" 。
-search-invalid-whole-number = "`{ $context }`"  中应为整数，但实际却是 "`{ $provided }`" 。
-search-invalid-positive-whole-number = "`{ $context }`"  中应为正整数，但实际却是 "`{ $provided }`" 。
+search-invalid-number = 「`{ $context }`」中应为数字，但实际却是「`{ $provided }`」。
+search-invalid-whole-number = 「`{ $context }`」中应为整数，但实际却是「`{ $provided }`」 。
+search-invalid-positive-whole-number = 「`{ $context }`」中应为正整数，但实际却是「`{ $provided }`」 。
 search-invalid-negative-whole-number = 「`{ $context }`」中应为负整数或零，但实际却是「`{ $provided }`」。
-search-invalid-answer-button = 「`{ $context }`」中应为 1-4 的回答按钮，但实际是「`{ $provided }`」。
+search-invalid-answer-button = 「`{ $context }`」中应为 1-4 的回答按钮，但实际却是「`{ $provided }`」。
 
 ## Column labels in browse screen
 

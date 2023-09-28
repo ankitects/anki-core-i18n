@@ -1,7 +1,7 @@
 adding-add-shortcut-ctrlandenter = 添加（快捷键：Ctrl+Enter）
 adding-added = 已添加
 adding-close-and-lose-current-input = 确定要关闭并放弃当前输入的内容吗？
-adding-edit = 编辑"{ $val }"
+adding-edit = 编辑「{ $val }」
 adding-history = 最近添加
 adding-note-deleted = （笔记已删除）
 adding-shortcut = 快捷键：{ $val }
