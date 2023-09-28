@@ -10,7 +10,7 @@ studying-card-suspended = 卡片已暂停
 studying-card-was-a-leech = 此卡片为记忆难点。
 studying-cards-buried =
     { $count ->
-       *[other] 已搁置{ $count }张卡片。
+       *[other] 已搁置 { $count } 张卡片。
     }
 studying-cards-will-be-automatically-returned-to = 卡片在复习完后将会自动回到原来的牌组中。
 studying-continue = 继续
@@ -47,9 +47,9 @@ studying-what-would-you-like-to-unbury = 您想取消搁置吗？
 studying-you-havent-recorded-your-voice-yet = 尚未录制自己的声音。
 studying-card-studied-in =
     { $count ->
-       *[other] 已学习{ $count }张卡片，用时
+       *[other] 已学习 { $count } 张卡片，用时
     }
 studying-minute =
     { $count ->
-       *[other] { $count }分钟。
+       *[other] { $count } 分钟。
     }

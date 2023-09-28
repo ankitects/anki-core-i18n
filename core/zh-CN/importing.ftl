@@ -1,7 +1,7 @@
 importing-failed-debug-info = 导入失败。调试信息：
 importing-aborted = 已中止：{ $val }
 importing-added-duplicate-with-first-field = 已添加首字段的副本：{ $val }
-importing-all-supported-formats = 所有支持的格式{ $val }
+importing-all-supported-formats = 所有支持的格式 { $val }
 importing-allow-html-in-fields = 允许在字段中使用HTML
 importing-anki-files-are-from-a-very = .anki 文件来自 Anki 较为早期的版本。您可以使用「175027074」附加组件或在 Anki 网站上找到 Anki 2.0 版本来导入它们。
 importing-anki2-files-are-not-directly-importable = .anki2文件无法直接导入 - 请导入您接收到的.apkg或.zip文件。
@@ -13,7 +13,7 @@ importing-comma = 逗号
 importing-empty-first-field = 首字段为空: { $val }
 importing-field-separator = 字段分隔符
 importing-field-mapping = 字段匹配
-importing-field-of-file-is = 文件中的第<b>{ $val }</b>个字段为：
+importing-field-of-file-is = 文件中的第 <b>{ $val }</b> 个字段为：
 importing-fields-separated-by = 字段分隔字符：{ $val }
 importing-file-must-contain-field-column = 文件应至少包含一个可以对应到笔记字段的列。
 importing-file-version-unknown-trying-import-anyway = 文件版本未知，尝试继续导入。
@@ -28,7 +28,7 @@ importing-importing-complete = 导入成功。
 importing-invalid-file-please-restore-from-backup = 无效文件。请从备份恢复。
 importing-map-to = 对应到 { $val }
 importing-map-to-tags = 对应到标签
-importing-mapped-to = 对应到<b>{ $val }</b>
+importing-mapped-to = 对应到 <b>{ $val }</b>
 importing-mapped-to-tags = 对应到<b>标签</b>
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = 合并笔记模板
@@ -64,7 +64,7 @@ importing-tag-modified-notes = 已修改标签的笔记：
 importing-text-separated-by-tabs-or-semicolons = 以制表符或分号分隔的文本（*）
 importing-the-first-field-of-the-note = 笔记模板的首字段必须匹配。
 importing-the-provided-file-is-not-a = 此文件不是有效的. apkg文件。
-importing-this-file-does-not-appear-to = 此文件不是有效的.apkg文件。如果您是从AnkiWeb下载的，请尝试重新下载。如问题仍然存在，请尝试使用其他浏览器。
+importing-this-file-does-not-appear-to = 此文件不是有效的 .apkg 文件。如果您是从 AnkiWeb 下载的，请尝试重新下载。如问题仍然存在，请尝试使用其他浏览器。
 importing-this-will-delete-your-existing-collection = 将删除现有集合，并以导入文件中的集合替换，是否确认?
 importing-unable-to-import-from-a-readonly = 无法从只读文件中导入。
 importing-unknown-file-format = 未知文件格式。
@@ -79,11 +79,11 @@ importing-update-notetypes = 更新笔记模板
 importing-update-notetypes-help = 选择在哪种情况下更新集合中现有的笔记模板。默认情况下，仅在导入的相应笔记模板的更改较新时才会进行该操作。对模板内容和样式的修改始终会被导入，但对笔记模板架构的更改（如字段的数量或顺序被更改），则需要额外启用「{ importing-merge-notetypes }」选项。
 importing-note-added =
     { $count ->
-       *[other] 已添加{ $count }条笔记
+       *[other] 已添加 { $count } 条笔记
     }
 importing-note-imported =
     { $count ->
-       *[other] 已导入{ $count }条笔记
+       *[other] 已导入 { $count } 条笔记
     }
 importing-note-unchanged =
     { $count ->
@@ -91,23 +91,23 @@ importing-note-unchanged =
     }
 importing-note-updated =
     { $count ->
-       *[other] 已更新{ $count }条笔记
+       *[other] 已更新 { $count } 条笔记
     }
 importing-processed-media-file =
     { $count ->
-       *[other] 已导入{ $count }个媒体文件
+       *[other] 已导入 { $count } 个媒体文件
     }
-importing-importing-file = 正在导入文件...
-importing-extracting = 数据提取中...
-importing-gathering = 数据收集中...
+importing-importing-file = 正在导入文件…
+importing-extracting = 数据提取中…
+importing-gathering = 数据收集中…
 importing-failed-to-import-media-file = 媒体文件导入失败：{ $debugInfo }
 importing-processed-notes =
     { $count ->
-       *[other] 已处理{ $count }条笔记...
+       *[other] 已处理 { $count } 条笔记…
     }
 importing-processed-cards =
     { $count ->
-       *[other] 已处理{ $count }张卡片...
+       *[other] 已处理 { $count } 张卡片…
     }
 importing-existing-notes = 现有笔记
 # "Existing notes: Duplicate" (verb)
@@ -125,7 +125,7 @@ importing-match-scope = 匹配范围
 importing-notetype-and-deck = 卡片模板和牌组
 importing-cards-added =
     { $count ->
-       *[other] 已添加{ $count }条笔记
+       *[other] 已添加 { $count } 条笔记
     }
 importing-file-empty = 您选择的是空文件。
 importing-notes-added =
@@ -169,5 +169,5 @@ importing-note-skipped-due-to-empty-first-field = 笔记被跳过，因为其首
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = 正在导入集合…
-importing-unable-to-import-filename = 未能导入{ $filename }：不支持的文件类型
+importing-unable-to-import-filename = 未能导入 { $filename }：不支持的文件类型
 importing-notes-that-could-not-be-imported = 因笔记模板已变更而无法导入的笔记：{ $val }

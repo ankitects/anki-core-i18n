@@ -8,4 +8,4 @@ adding-shortcut = 快捷键：{ $val }
 adding-the-first-field-is-empty = 首字段为空。
 adding-you-have-a-cloze-deletion-note = 您选择的是填空题笔记模板，但尚未设置空格。是否继续？
 adding-cloze-outside-cloze-notetype = 仅填空题笔记模板可以设置空格。
-adding-cloze-outside-cloze-field = 仅含有 'cloze:' 筛选器的字段可以设置空格。一般是首字段。
+adding-cloze-outside-cloze-field = 仅含有「cloze:」筛选器的字段可以设置空格。一般是首字段。

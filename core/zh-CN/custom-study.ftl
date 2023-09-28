@@ -30,5 +30,5 @@ custom-study-available-child-count = （子牌组中 { $count } 张）
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-custom-study-available-new-cards = 可用的新卡片： { $count }
+custom-study-available-new-cards = 可用的新卡片：{ $count }
 custom-study-available-review-cards = 可用的复习卡片：{ $count }

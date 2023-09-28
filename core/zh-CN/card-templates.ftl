@@ -1,6 +1,6 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
 card-templates-blank = 空格
-card-templates-changes-will-affect-notes = { $count }张使用此卡片模板的笔记将会受影响
+card-templates-changes-will-affect-notes = { $count } 张使用此卡片模板的笔记将会受影响
 card-templates-card-type = 卡片模板：
 card-templates-front-template = 正面内容模版
 card-templates-back-template = 背面内容模版
@@ -27,13 +27,13 @@ card-templates-discard-changes = 放弃更改？
 card-templates-add-card-type = 添加卡片模板…
 card-templates-anki-couldnt-find-the-line-between = Anki 无法区分问题与答案。请手动调整内容模版以明确问题与答案。
 card-templates-at-least-one-card-type-is = 至少保留一种卡片模板
-card-templates-browser-appearance = 浏览器预置样式...
-card-templates-card = 卡片{ $val }
-card-templates-card-types-for = { $val }的卡片模板
+card-templates-browser-appearance = 浏览器预置样式…
+card-templates-card = 卡片 { $val }
+card-templates-card-types-for = { $val } 的卡片模板
 card-templates-cloze = 空格 { $val }
 card-templates-deck-override = 覆盖牌组…
 card-templates-delete-the-as-card-type-and = 确定删除「{ $template }」卡片模板及从属于它的 { $cards } 吗？
-card-templates-enter-deck-to-place-new = 请输入要将 { $val }张新卡片放入的牌组名称（可留空）：
+card-templates-enter-deck-to-place-new = 请输入要将 { $val } 张新卡片放入的牌组名称（可留空）：
 card-templates-enter-new-card-position-1 = 请输入新卡片的位置（1...{ $val }）：
 card-templates-flip = 翻转
 card-templates-form = 表单
@@ -44,11 +44,11 @@ card-templates-rename-card-type = 重命名卡片模板…
 card-templates-reposition-card-type = 调整卡片模板顺序…
 card-templates-card-count =
     { $count ->
-       *[other] { $count }张卡片
+       *[other] { $count } 张卡片
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-       *[other] 本次操作将创建{ $count }张卡片，继续吗？
+       *[other] 本次操作将创建 { $count } 张卡片，继续吗？
     }
 card-templates-type-boxes-warning = 一张卡片内容模板中仅支持加入一个输入框。
 card-templates-restore-to-default = 恢复默认

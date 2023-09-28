@@ -4,14 +4,14 @@
 ## Header
 
 # Tooltip for links to the manual
-help-open-manual-chapter = 在帮助手册中打开{ $name }
+help-open-manual-chapter = 在帮助手册中打开「{ $name }」
 
 ## Body
 
 # Newly introduced settings may not have an explanation yet
 help-no-explanation =
     呃……似乎还没有针对此设置的解释。
-    您可以前往{ $link }来帮助我们完成此帮助页。
+    您可以前往 { $link } 来帮助我们完成此帮助页。
 
 ## Footer
 

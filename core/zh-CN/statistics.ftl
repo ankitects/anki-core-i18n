@@ -149,15 +149,15 @@ statistics-amount-of-total-with-percentage = { $amount }/{ $total }({ $percent }
 statistics-average-over-period = 平均值（包含未学习天数）
 statistics-reviews-per-day =
     { $count ->
-       *[other] { $count }次复习/天
+       *[other] { $count } 次复习/天
     }
 statistics-minutes-per-day =
     { $count ->
-       *[other] { $count }分钟/天
+       *[other] { $count } 分钟/天
     }
 statistics-cards-per-day =
     { $count ->
-       *[other] { $count }张/天
+       *[other] { $count } 张/天
     }
 statistics-average-ease = 平均简易度
 statistics-save-pdf = 保存为 PDF

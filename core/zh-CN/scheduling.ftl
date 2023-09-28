@@ -98,7 +98,7 @@ scheduling-restore-position = 如可能，恢复初始位置。
 scheduling-review = 复习
 scheduling-reviews = 复习
 scheduling-seconds = 秒
-scheduling-set-all-decks-below-to = 将此组预设配置应用于{ $val }下的所有牌组吗？
+scheduling-set-all-decks-below-to = 将此组预设配置应用于「{ $val }」下的所有牌组吗？
 scheduling-set-for-all-subdecks = 应用于所有子牌组
 scheduling-show-answer-timer = 显示回答计时器
 scheduling-show-new-cards-after-reviews = 先复习，后学新
@@ -113,7 +113,7 @@ scheduling-the-default-configuration-cant-be-removed = 不能删除预置牌组�
 scheduling-your-changes-will-affect-multiple-decks = 此变更将会影响很多牌组。如仅想更改当前牌组，请先新增一组预设配置。
 scheduling-deck-updated =
     { $count ->
-       *[other] 已更新{ $count }个牌组。
+       *[other] 已更新 { $count } 个牌组。
     }
 scheduling-set-due-date-prompt =
     { $cards ->
