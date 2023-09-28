@@ -77,4 +77,5 @@ preferences-shortcut-placeholder = Digite uma tecla de atalho não utilizada, ou
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Básico
+preferences-reviewer = Revisor
 preferences-media = Midias

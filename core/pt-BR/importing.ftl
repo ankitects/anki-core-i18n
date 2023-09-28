@@ -77,7 +77,15 @@ importing-update-if-newer = Se mais recente
 importing-update-always = Sempre
 importing-update-never = Nunca
 importing-update-notes = Atualizar notas
+importing-update-notes-help =
+    Quando atualizar um cartão existente em sua coleção. Por padrão, isso é feito apenas¶
+    se o cartão importado correspondente foi modificado mais recentemente.
 importing-update-notetypes = Atualizar tipo de nota
+importing-update-notetypes-help =
+    { importing-merge-notetypes }Quando atualizar um tipo de nota existente em sua coleção. Por padrão, isso é feito apenas¶
+    se o tipo de nota importado correspondente foi modificado mais recentemente. Mudanças no texto do modelo¶
+    e estilização sempre podem ser importadas, mas para mudanças de esquema (por exemplo, o número ou ordem dos¶
+    campos mudou), a opção '{ importing-merge-notetypes }' também precisará estar ativada.
 importing-note-added =
     { $count ->
         [one] { $count } nota adicionada
@@ -137,7 +145,56 @@ importing-cards-added =
        *[other] { $count } cartões adicionados.
     }
 importing-file-empty = O arquivo que você selecionou está vazio.
+importing-notes-added =
+    { $count ->
+        [one] { $count } nova nota importada.
+       *[other] { $count } novas notas importadas.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } nota foi usada para atualizar as existentes.
+       *[other] { $count } notas foram usadas para atualizar as existentes.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } nota já está presente em sua coleção.
+       *[other] { $count } notas já estão presentes em sua coleção.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } nota não foi importada, pois o tipo de nota foi alterado.
+       *[other] { $count } notas não foram importadas, pois seus tipos de nota foram alterados.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } nota não foi importada, pois seu tipo de nota foi alterado, e '{ importing-merge-notetypes }' não estava ativado.
+       *[other] { $count } notas não foram importadas, pois seus tipos de nota foram alterados, e '{ importing-merge-notetypes }' não estava ativado.
+    }
+importing-import-log = Log de Importação
+importing-no-notes-in-file = Nenhuma nota encontrada no arquivo.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } nota
+       *[other] { $notes } notas
+    } encontradas no arquivo. Dentre essas:
+importing-show = Mostrar
 importing-details = Detalhes
+importing-status = Status
+importing-duplicate-note-added = Nota duplicada adicionada
+importing-added-new-note = Nova nota adicionada
+importing-existing-note-skipped = Nota ignorada, pois uma cópia atualizada já está em sua coleção
+importing-note-skipped-update-due-to-notetype = Nota não atualizada, pois o tipo de nota foi modificado desde que você importou a nota pela primeira vez
+importing-note-updated-as-file-had-newer = Nota atualizada, pois o arquivo tinha uma versão mais nova
+importing-note-skipped-due-to-missing-notetype = Nota ignorada, pois seu tipo de nota estava ausente
+importing-note-skipped-due-to-missing-deck = Nota ignorada, pois seu baralho estava ausente
+importing-note-skipped-due-to-empty-first-field = Nota ignorada, pois seu primeiro campo está vazio
+importing-field-separator-help =
+    O caractere que separa os campos no arquivo de texto. Você pode usar a visualização para verificar¶ 
+    se os campos estão separados corretamente.¶ 
+    ¶ 
+    Observe que, se esse caractere aparecer em qualquer campo em si, o campo deve ser¶ 
+    citado de acordo com o padrão CSV. Programas de planilha, como o LibreOffice, farão¶ 
+    isso automaticamente.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
