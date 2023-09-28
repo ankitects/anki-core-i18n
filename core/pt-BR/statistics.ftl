@@ -91,12 +91,26 @@ statistics-range-deck = baralho
 statistics-range-collection = coleção
 statistics-range-search = Procurar
 statistics-card-ease-title = Facilidade do Cartão
+statistics-card-difficulty-title = Dificuldade do Cartão
+statistics-card-retrievability-title = Recuperabilidade
 statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente o cartão aparecerá.
+statistics-card-difficulty-subtitle = Quanto maior a dificuldade, mais difícil é lembrar.
+statistics-retrievability-subtitle = Quão provável você é de lembrar.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] Um cartão com { $percent } de facilidade
        *[other] { $cards } cartões com { $percent } de facilidade
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } cartão com { $percent } de dificuldade
+       *[other] { $cards } cartões com { $percent } de dificuldade
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } cartão com { $percent } de recuperabilidade
+       *[other] { $cards } cartões com { $percent } de recuperabilidade
     }
 statistics-future-due-title = Previsão
 statistics-future-due-subtitle = O número de revisões agendadas para o futuro.
@@ -200,6 +214,8 @@ statistics-cards-per-day =
        *[other] { $count } cartões/dia
     }
 statistics-average-ease = Dificuldade média
+statistics-average-difficulty = Dificuldade média
+statistics-average-retrievability = Recuperabilidade média
 statistics-save-pdf = Salvar PDF
 statistics-saved = Salvo.
 statistics-stats = estatísticas

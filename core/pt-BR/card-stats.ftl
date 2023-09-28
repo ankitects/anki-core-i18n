@@ -24,6 +24,9 @@ card-stats-review-log-type-filtered = Filtrado
 card-stats-review-log-type-manual = Manual
 card-stats-no-card = (Nenhum cartão para exibir.)
 card-stats-custom-data = Dados Customizados
+card-stats-fsrs-stability = Estabilidade
+card-stats-fsrs-difficulty = Dificuldade
+card-stats-fsrs-retrievability = Recuperabilidade
 
 ## Window Titles
 

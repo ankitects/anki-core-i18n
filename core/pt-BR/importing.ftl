@@ -30,6 +30,18 @@ importing-map-to = Mapear para { $val }
 importing-map-to-tags = Mapear para Etiquetas
 importing-mapped-to = mapeado para <b>{ $val }</b>
 importing-mapped-to-tags = <b>Etiquetas</b> mapeadas
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Tipo de Cartão Mesclar
+importing-merge-notetypes-help =
+    Se marcado, e você ou o autor do baralho alterarem o esquema de um tipo de nota, o Anki irá¶
+    mesclar as duas versões em vez de manter ambas.¶
+    ¶
+    Alterar o esquema de um tipo de nota significa adicionar, remover, ou reordenar campos ou modelos,¶
+    ou alterar o campo de ordenação.¶
+    Como contraexemplo, alterar o lado frontal de um modelo existente *não* constitui¶
+    uma alteração de esquema.¶
+    ¶
+    Aviso: Isso exigirá uma sincronização unidirecional, e pode marcar notas existentes como modificadas.
 importing-mnemosyne-20-deck-db = Baralho Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separadores multi-caractere não são suportados. Por favor, digite apenas um caractere.
 importing-notes-added-from-file = Notas adicionadas do arquivo: { $val }
@@ -38,6 +50,9 @@ importing-notes-skipped-as-theyre-already-in = Notas ignoradas, pois já estão 
 importing-notes-skipped-update-due-to-notetype = Notas não atualizadas, pois o tipo de nota foi modificado desde que você importou as notas pela primeira vez: { $val }
 importing-notes-updated-as-file-had-newer = Notas atualizadas, pois o arquivo tinha uma versão mais recente: { $val }
 importing-include-reviews = Incluir revisões
+importing-include-reviews-help =
+    Se ativado, quaisquer revisões anteriores incluídas pelo compartilhador do baralho também serão importadas.¶
+    Caso contrário, todos os cartões serão importados como novos cartões.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
 # the '|' character
