@@ -127,6 +127,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Cartões aleatórios`: reúne os cartões de forma completamente aleatória.
 deck-config-new-gather-priority-deck = Baralho
+deck-config-new-gather-priority-deck-then-random-notes = Baralho, em seguida, notas aleatórias
 deck-config-new-gather-priority-position-lowest-first = Posição ascendente
 deck-config-new-gather-priority-position-highest-first = Posição descendente
 deck-config-new-gather-priority-random-notes = Notas Aleatórias
@@ -175,6 +176,8 @@ deck-config-sort-order-ascending-intervals = Intervalos ascendentes
 deck-config-sort-order-descending-intervals = Intervalos descendentes
 deck-config-sort-order-ascending-ease = Facilidade ascendente
 deck-config-sort-order-descending-ease = Facilidade descendente
+deck-config-sort-order-ascending-difficulty = Dificuldade ascendente
+deck-config-sort-order-descending-difficulty = Dificuldade descendente
 deck-config-sort-order-relative-overdueness = Atraso relativo
 deck-config-display-order-will-use-current-deck =
     O Anki usará a ordem de exibição do baralho que você 
@@ -204,6 +207,10 @@ deck-config-skip-question-when-replaying = Pular pergunta ao repetir a resposta
 deck-config-always-include-question-audio-tooltip =
     Se o áudio da pergunta deve ser incluído quando a ação 'Repetir' é
     usada enquanto observa o lado da resposta de um cartão.
+deck-config-stop-timer-on-answer = Parar o temporizador ao responder
+deck-config-stop-timer-on-answer-tooltip =
+    Se parar o cronômetro quando a resposta for revelada.¶
+    Isso não afeta as estatísticas.
 
 ## Advanced section
 
@@ -281,5 +288,48 @@ deck-config-maximum-answer-secs-above-recommended = Anki pode agendar suas avali
 
 deck-config-which-deck = Qual baralho você gostaria?
 
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = Atualizando cartões: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = Os pesos devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
+deck-config-not-enough-history = Histórico de revisão insuficiente para realizar esta operação.
+deck-config-must-have-1000-reviews =
+    { $count ->
+        [one] Apenas { $count } revisão foi encontrada.
+       *[other] Apenas { $count } revisões foram encontradas.
+    }Você deve ter pelo menos 1000 revisões para gerar pesos personalizados.
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Pesos do Modelo
+deck-config-compute-optimal-weights = Otimizar Pesos FSRS
+deck-config-compute-optimal-retention = Calcular retenção ótima
+deck-config-optimize-button = Otimizar
+deck-config-compute-button = Computar
+deck-config-analyze-button = Analisar
+deck-config-desired-retention = Retenção desejada
+deck-config-smaller-is-better = Números menores indicam um ajuste melhor ao seu histórico de revisão.
+deck-config-steps-too-large-for-fsrs = Quando o FSRS está ativado, etapas de aprendizado com mais de 1 dia não são recomendadas.
+deck-config-get-params = Obter Parâmetros
+deck-config-fsrs-on-all-clients =
+    Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não¶
+    funcionará corretamente se um dos seus clientes for mais antigo.
+deck-config-set-optimal-retention = Definir retenção desejada para { $num }
+deck-config-complete = { $num }% concluído.
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = Enterrar irmãos
+deck-config-do-not-bury = Não enterrar irmãos
+deck-config-bury-if-new = Enterrar se novo
+deck-config-bury-if-new-or-review = Enterrar se novo ou revisão
+deck-config-bury-if-new-review-or-interday = Enterrar se novo, revisão, ou aprendizado interdiário
+deck-config-bury-tooltip =
+    Os "irmãos" são outros cartões da mesma nota (por exemplo, cartões de frente/verso, ou¶
+    outras exclusões de cloze do mesmo texto).¶
+    ¶
+    Quando essa opção está desativada, vários cartões da mesma nota podem ser vistos no mesmo dia.¶
+    Quando ativada, o Anki automaticamente *oculta* os irmãos, escondendo-os até o próximo dia.¶
+    Esta opção permite que você escolha quais tipos de cartões podem ser ocultados quando você ¶
+    responde um dos seus irmãos.¶
+    ¶
+    Ao usar o agendador V3, cartões de aprendizagem interdiários também podem ser ocultados. ¶
+    Cartões de aprendizagem interdiários são cartões com um passo de aprendizagem atual de um ou mais dias.
