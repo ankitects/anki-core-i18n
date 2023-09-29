@@ -81,7 +81,7 @@ statistics-card-difficulty-title = 卡片難度
 statistics-card-retrievability-title = 卡片留存率
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
 statistics-card-difficulty-subtitle = 難度越高，則卡片越難記住
-statistics-retrievability-subtitle = 你的記憶能夠留存的機率
+statistics-retrievability-subtitle = 你能夠回想起卡片內容的機率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -89,11 +89,11 @@ statistics-card-ease-tooltip =
     }
 statistics-card-difficulty-tooltip =
     { $cards ->
-       *[other] 有 { $cards } 張卡片的難度為 { $percent }
+       *[other] 有 { $cards } 張難度為 { $percent } 的卡片
     }
 statistics-retrievability-tooltip =
     { $cards ->
-       *[other] 有 { $cards } 張卡片的留存率為 { $percent }
+       *[other] 有 { $cards } 張留存率為 { $percent } 的卡片
     }
 statistics-future-due-title = 將來到期
 statistics-future-due-subtitle = 將在未來到期的複習卡數量
@@ -132,11 +132,11 @@ statistics-intervals-title = 複習間隔
 statistics-intervals-subtitle = 複習卡再次顯示前的延遲
 statistics-intervals-day-range =
     { $cards ->
-       *[other] { $cards } 張間隔為 { $daysStart }~{ $daysEnd } 天的卡片
+       *[other] 有 { $cards } 張間隔為 { $daysStart }~{ $daysEnd } 天的卡片
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] { $cards } 張間隔為 { $day } 天的卡片
+       *[other] 有 { $cards } 張間隔為 { $day } 天的卡片
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
