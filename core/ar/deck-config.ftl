@@ -147,6 +147,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `جلب البطاقات عشوائيًا`: يجلب البطاقات بشكل عشوائي تمامًا.
 deck-config-new-gather-priority-deck = الرزمة
+deck-config-new-gather-priority-deck-then-random-notes = الرزمة ثم ملحوظات عشوائية
 deck-config-new-gather-priority-position-lowest-first = مواضع متصاعدة
 deck-config-new-gather-priority-position-highest-first = مواضع متناقصة
 deck-config-new-gather-priority-random-notes = جلب الملحوظات عشوائيًا
@@ -230,6 +231,10 @@ deck-config-skip-question-when-replaying = تجاهل أصوات جانب الس
 deck-config-always-include-question-audio-tooltip =
     ما إذا كان يجب تضمين أصوات السؤال عند الضغط على زر إعادة تشغيل الصوت
     في جانب السؤال من بطاقة.
+deck-config-stop-timer-on-answer = إيقاف الموقت عند الإجابة
+deck-config-stop-timer-on-answer-tooltip =
+    ما إذا كان يجب إيقاف المؤقت عندما يظهر الحواب.
+    لا يؤثر هذا بالإحصائيات.
 
 ## Advanced section
 
@@ -316,20 +321,20 @@ deck-config-which-deck = ما الرزمة التي تريد عرض خيارات
 deck-config-updating-cards = تحديث البطاقات: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = يجب ترك الأوزان فارغة لاستخدام الإعدادات الافتراضية، أو يجب أن تكون 17 رقما مفصولة بفواصل.
 deck-config-not-enough-history = محفوظات المراجعة غير كافية لتنفيذ هذه العملية.
-deck-config-limited-history =
+deck-config-must-have-1000-reviews =
     { $count ->
-        [zero] لم يتم العثور على أي مراجعة.
-        [one] تم العثور على مراجعة واحدة فقط.
-        [two] تم العثور على مراجعتين.
-        [few] تم العثور على ثلاثة مراجعات.
-        [many] تم العثور على { $count } مراجعات.
-       *[other] تم العثور على { $count } مراجعة.
-    } من المحتمل أن تكون الأوزان المخصصة غير دقيقة، ويوصى باستخدام الإعدادات الافتراضية بدلا من ذلك.
-deck-config-compute-weights-search = بحث; اتركه فارغا لجميع البطاقات التي تستخدم هذا الإعداد المسبق
+        [zero] لا توجد أي مراجعات.
+        [one] توجد مراجعة واحدة فقط.
+        [two] توجد مراجعتان فقط.
+        [few] توجد { $count } مراجعات فقط.
+        [many] توجد { $count } مراجعة فقط.
+       *[other] توجد { $count } مراجعة فقط.
+    } يجب أن يكون هناك 1000 مراجعة على الأقل لتوليد الأوزان المخصصة.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = الأوزان النموذجية
 deck-config-compute-optimal-weights = حساب الأوزان المثالية
 deck-config-compute-optimal-retention = حساب الاحتفاظ الأمثل
+deck-config-optimize-button = تعزيز
 deck-config-compute-button = احسب
 deck-config-analyze-button = تحليل
 deck-config-desired-retention = الاحتفاظ المرغوب فيه
@@ -339,6 +344,8 @@ deck-config-get-params = الحصول على المعلمات.
 deck-config-fsrs-on-all-clients =
     يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
     بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
+deck-config-set-optimal-retention = ضبط التذكر المرغوب إلى { $num }
+deck-config-complete = اكتمل { $num }%.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
