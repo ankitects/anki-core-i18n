@@ -271,9 +271,11 @@ deck-config-must-have-1000-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型权重
 deck-config-compute-optimal-weights = 优化 FSRS 权重
+deck-config-compute-optimal-retention = 计算最佳记忆保留率
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
 deck-config-analyze-button = 分析
+deck-config-desired-retention = 期望记忆保留率
 deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
 deck-config-complete = 已完成 { $num }%。
