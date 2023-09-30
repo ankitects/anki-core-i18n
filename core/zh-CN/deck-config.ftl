@@ -114,6 +114,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     「随机排列卡片」：完全随机地抽取卡片。
 deck-config-new-gather-priority-deck = 按牌组顺序
+deck-config-new-gather-priority-deck-then-random-notes = 按牌组顺序，随机排列笔记
 deck-config-new-gather-priority-position-lowest-first = 按位置升序
 deck-config-new-gather-priority-position-highest-first = 按位置降序
 deck-config-new-gather-priority-random-notes = 随机排列笔记
@@ -161,6 +162,8 @@ deck-config-sort-order-ascending-intervals = 按间隔升序排序
 deck-config-sort-order-descending-intervals = 按间隔降序排序
 deck-config-sort-order-ascending-ease = 按简易度升序排序
 deck-config-sort-order-descending-ease = 按简易度降序排序
+deck-config-sort-order-ascending-difficulty = 按难度升序排序
+deck-config-sort-order-descending-difficulty = 按难度降序排序
 deck-config-sort-order-relative-overdueness = 按相对超期程度
 deck-config-display-order-will-use-current-deck =
     将按所选牌组设定的顺序学习，
@@ -187,8 +190,8 @@ deck-config-disable-autoplay-tooltip =
     可通过点击音频播放按钮或使用重播动作来手动播放音频。
 deck-config-skip-question-when-replaying = 重播答案时跳过问题
 deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播操作，是否需包含问题的音频。
-deck-config-stop-timer-on-answer = 显示答案后停止计时
-deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。不会影响统计数据。
+deck-config-stop-timer-on-answer = 显示答案后停止计时器
+deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时器。不会影响统计数据。
 
 ## Advanced section
 
@@ -264,9 +267,10 @@ deck-config-which-deck = 请选择牌组？
 
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 权重必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
+deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
 deck-config-must-have-1000-reviews =
     { $count ->
-       *[other] 只找到了 { $count } 次 复习记录。
+       *[other] 只找到了 { $count } 次复习记录。
     }至少需要复习 1000 次才能生成自定义权重。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = 模型权重
@@ -276,8 +280,11 @@ deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 期望记忆保留率
+deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记录。
+deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
+deck-config-set-optimal-retention = 设置预期记忆留存率为 { $num }
 deck-config-complete = 已完成 { $num }%。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

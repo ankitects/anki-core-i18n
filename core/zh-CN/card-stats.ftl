@@ -25,7 +25,8 @@ card-stats-review-log-type-manual = 手动更改
 card-stats-no-card = （没有卡片可供展示）
 card-stats-custom-data = 自定义数据
 card-stats-fsrs-stability = 记忆稳定性
-card-stats-fsrs-difficulty = 卡片难度
+card-stats-fsrs-difficulty = 难度
+card-stats-fsrs-retrievability = 记忆可提取性
 
 ## Window Titles
 

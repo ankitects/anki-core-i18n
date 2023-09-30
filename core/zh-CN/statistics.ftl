@@ -59,11 +59,23 @@ statistics-range-deck = 牌组
 statistics-range-collection = 集合
 statistics-range-search = 搜索
 statistics-card-ease-title = 卡片简易度
+statistics-card-difficulty-title = 卡片难度
+statistics-card-retrievability-title = 卡片记忆可提取性
 statistics-card-ease-subtitle = 卡片简易度越低，其出现频率越高。
+statistics-card-difficulty-subtitle = 难度越高，卡片越难记忆。
+statistics-retrievability-subtitle = 您能够成功回忆卡片内容的概率。
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
        *[other] { $cards } 张简易度为 { $percent } 的卡片
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+       *[other] { $cards } 张难度为 { $percent } 的卡片
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+       *[other] { $cards } 张记忆可保留性为 { $percent } 的卡片
     }
 statistics-future-due-title = 预测
 statistics-future-due-subtitle = 将来到期的复习的数目
@@ -160,6 +172,8 @@ statistics-cards-per-day =
        *[other] { $count } 张/天
     }
 statistics-average-ease = 平均简易度
+statistics-average-difficulty = 平均难度
+statistics-average-retrievability = 平均记忆可保留性
 statistics-save-pdf = 保存为 PDF
 statistics-saved = 已保存。
 statistics-stats = 统计

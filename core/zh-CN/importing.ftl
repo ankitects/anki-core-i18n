@@ -55,7 +55,7 @@ importing-pauker-18-lesson-paugz = Pauker 1.8 课程（*.pau.gz）
 # the '|' character
 importing-pipe = 字符（|）
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」行有 { $found } 个字段，应有 { $expected } 个
-importing-selected-file-was-not-in-utf8 = 选择的文件不是UTF-8格式的。请查看帮助文档的导入章节。
+importing-selected-file-was-not-in-utf8 = 选择的文件不是 UTF-8 格式的。请查看帮助文档的导入章节。
 importing-semicolon = 分号
 importing-skipped = 已跳过
 importing-supermemo-xml-export-xml = Supermemo XML 导出（*.xml）
@@ -165,6 +165,27 @@ importing-note-updated-as-file-had-newer = 笔记已更新，因为文件中有�
 importing-note-skipped-due-to-missing-notetype = 笔记被跳过，因为缺少其笔记模板
 importing-note-skipped-due-to-missing-deck = 笔记被跳过，因为缺少其牌组
 importing-note-skipped-due-to-empty-first-field = 笔记被跳过，因为其首字段为空
+importing-field-separator-help =
+    文本文件中用以分隔字段的字符。您可以使用预览来检查字段分隔是否正确。
+    请注意，若字段内容包含该字符本身，则该字段内容需依照 CSV 标准加上引号。
+    LibreOffice 等工作表程序会自动进行该操作。
+importing-allow-html-in-fields-help =
+    如果文件中包含 HTML 格式，请启用此选项。例如，若文件包含字符串「&lt;br&gt;」，则会在您的卡片中显示为换行。
+    如果您未启用此选项，则会原样显示「&lt;br&gt;」。
+importing-notetype-help =
+    新导入的笔记将会使用该笔记模板，且仅使用该笔记模板的现有笔记会被更新。
+    
+    您可以使用下面的「字段匹配」工具选择文件中字段与笔记模板字段的对应关系。
+importing-deck-help = 卡片将被导入该牌组中。
+importing-existing-notes-help =
+    当导入的笔记与现有笔记匹配时执行的操作。
+    
+    - `{ importing-update }`：更新现有笔记。
+    - `{ importing-preserve }`：不执行任何操作。
+    - `{ importing-duplicate }`：创建一个新的笔记。
+importing-match-scope-help = 只会在笔记模板相同的现有笔记中检查重复项目。可额外限制为卡片在相同牌组的笔记。
+importing-tag-all-notes-help = 这些标签将添加到新导入和更新的笔记。
+importing-tag-updated-notes-help = 这些标签将添加到任何更新的笔记。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
