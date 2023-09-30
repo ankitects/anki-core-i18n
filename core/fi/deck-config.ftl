@@ -130,6 +130,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Satunnaiset kortit`: kerää kortteja täysin satunnaisesti.
 deck-config-new-gather-priority-deck = Pakan järjestyksen mukaan
+deck-config-new-gather-priority-deck-then-random-notes = Ensin pakka, sitten satunnaiset muistiinpanot
 deck-config-new-gather-priority-position-lowest-first = Nousevassa järjestyksessä
 deck-config-new-gather-priority-position-highest-first = Laskevassa järjestyksessä
 deck-config-new-gather-priority-random-notes = Satunnaiset muistiinpanot
@@ -169,6 +170,8 @@ deck-config-sort-order-ascending-intervals = Kertausvälien mukaan nousevassa j�
 deck-config-sort-order-descending-intervals = Kertausvälien mukaan laskevassa järjestyksessä
 deck-config-sort-order-ascending-ease = Helpoimmasta vaikeimpaan
 deck-config-sort-order-descending-ease = Vaikeimmasta helpoimpaan
+deck-config-sort-order-ascending-difficulty = Kasvava vaikeus
+deck-config-sort-order-descending-difficulty = Laskeva vaikeus
 deck-config-sort-order-relative-overdueness = Suhteellinen erääntyneisyys
 deck-config-display-order-will-use-current-deck = Anki käyttää sen pakan esitysjärjestystä, jonka valitset opiskeltavaksi, eikä sen mahdollisten alipakkojen esitysjärjestystä.
 
@@ -188,6 +191,10 @@ deck-config-disable-autoplay-tooltip =
     Äänen voi toistaa manuaalisesti klikkaamalla/napauttamalla äänikuvaketta tai käyttämällä toista ääni -toimintoa.
 deck-config-skip-question-when-replaying = Ohita kysymys, kun vastausta toistetaan uudelleen
 deck-config-always-include-question-audio-tooltip = Toistetaanko vastauksen lisäksi myös kysymyksen ääni, kun Toista uudelleen -toimintoa käytetään kortin vastauspuolta tarkasteltaessa.
+deck-config-stop-timer-on-answer = Pysäytä ajastin vastaamisen jälkeen
+deck-config-stop-timer-on-answer-tooltip =
+    Pysäytetäänkö ajastin kun vastaus paljastetaan.
+    Tämä ei vaikuta tilastoihin.
 
 ## Advanced section
 
@@ -256,22 +263,25 @@ deck-config-which-deck = Minkä pakan haluaisit?
 deck-config-updating-cards = Päivitetään kortteja: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Painokertoimet on joko jätettävä tyhjäksi, jolloin käytetään oletusarvoja, tai niiden on oltava 17 pilkulla erotettua numeroa.
 deck-config-not-enough-history = Ei riittävästi menneitä kertauksia tämän toiminnon suorittamiseen.
-deck-config-limited-history =
+deck-config-must-have-1000-reviews =
     { $count ->
         [one] Vain { $count } kertaus löytyi.
        *[other] Vain { $count } kertausta löytyi.
-    } Mukautetut painokertoimet ovat todennäköisesti epätarkkoja, ja niiden sijaan on suositeltavaa käyttää oletusarvoja.
-deck-config-compute-weights-search = Haku; jätä tyhjäksi kaikille tätä esiasetusta käyttäville korteille
+    } Mukautettujen painokertoimien luominen vaatii vähintään 1000 kertausta.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Mallin painokertoimet
 deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
 deck-config-compute-optimal-retention = Laske optimaalinen retentio
+deck-config-optimize-button = Optimoi
 deck-config-compute-button = Laske
 deck-config-analyze-button = Analysoi
 deck-config-desired-retention = Toivottu retentio
 deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioita muistista.
 deck-config-steps-too-large-for-fsrs = Kun FSRS on päällä, usean päivän aikaisen (uudelleen)oppimisen askelten käyttöä ei suositella.
 deck-config-get-params = Hae parametrit
+deck-config-fsrs-on-all-clients = Varmista, että kaikki käyttämäsi Anki-ohjelmat ovat versioita Anki(Mobile) 23.10+ tai AnkiDroid 2.17+. FSRS ei toimi oikein, jos käytät vanhempaa versiota jollakin laitteella.
+deck-config-set-optimal-retention = Aseta toivottu retentio arvoon { $num }
+deck-config-complete = { $num } % valmis.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
