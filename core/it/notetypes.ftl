@@ -54,3 +54,4 @@ notetype-error-no-image-to-show = Nessuna immagine da mostrare.
 notetypes-no-occlusion-created = Devi creare almeno una occlusione.
 notetypes-no-occlusion-created2 = Impossibile aggiungere. Ciò potrebbe essere poiché non hai aggiunto alcuna occlusione, oppure poiché il primo campo è vuoto.
 notetypes-io-select-image = Seleziona Immagine
+notetypes-io-paste-image-from-clipboard = Incolla immagine dagli appunti
