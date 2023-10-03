@@ -1,5 +1,5 @@
 custom-study-must-rename-deck = Prosím nejdříve přejmenujte stávající balíček vlastního studia.
-custom-study-all-cards-in-random-order-dont = Všechny kartičky v náhodném pořadí (nepřehazovat)
+custom-study-all-cards-in-random-order-dont = Všechny karty v náhodném pořadí (nepřeplánovat)
 custom-study-all-review-cards-in-random-order = Všechny opakované karty v náhodném pořadí
 custom-study-cards = karty
 custom-study-cards-from-the-deck = karty z balíčku
@@ -28,7 +28,7 @@ custom-study-available-new-cards-2 = Dostupné nové karty: { $countString }
 custom-study-available-review-cards-2 = Dostupné opakované karty: { $countString }
 custom-study-available-child-count = ({ $count } v podřízených balíčcích)
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Dostupné nové karty: { $count }
 custom-study-available-review-cards = Dostupné opakované karty: { $count }
