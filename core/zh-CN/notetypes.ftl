@@ -54,3 +54,4 @@ notetype-error-no-image-to-show = 没有可展示的图像。
 notetypes-no-occlusion-created = 您至少需要添加一个图片遮盖。
 notetypes-no-occlusion-created2 = 无法添加笔记。因为您未添加任何图片遮盖或首字段为空。
 notetypes-io-select-image = 选择图片
+notetypes-io-paste-image-from-clipboard = 从剪贴板粘贴图像
