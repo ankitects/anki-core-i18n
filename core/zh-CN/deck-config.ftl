@@ -284,7 +284,7 @@ deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记
 deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
-deck-config-set-optimal-retention = 设置预期记忆留存率为 { $num }
+deck-config-set-optimal-retention = 设置预期记忆保留率为 { $num }
 deck-config-complete = 已完成 { $num }%。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
