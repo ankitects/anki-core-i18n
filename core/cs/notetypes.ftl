@@ -50,3 +50,4 @@ notetypes-error-loading-image-occlusion = Chyba při načítání okluze obrázk
 notetype-error-no-image-to-show = Žádný obrázek k zobrazení.
 notetypes-no-occlusion-created2 = Nelze přidat. Buď jste nepřidali žádnou okluzi, nebo je první pole prázdné.
 notetypes-io-select-image = Vybrat obrázek
+notetypes-io-paste-image-from-clipboard = Vložit obrázek ze schránky

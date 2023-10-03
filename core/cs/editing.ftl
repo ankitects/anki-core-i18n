@@ -66,8 +66,10 @@ editing-warning-cloze-deletions-will-not-work = Pozor, doplňovačky nebudou fun
 editing-mathjax-preview = Náhled MathJax
 editing-shrink-images = Zmenšit obrázky
 editing-close-html-tags = Automaticky uzavírat HTML tagy
+editing-from-clipboard = Ze schránky
 editing-alignment = Zarovnání
 editing-equations = Rovnice
+editing-no-image-found-on-clipboard = Ve schránce nenalezen žádný obrázek.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
