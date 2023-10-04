@@ -229,6 +229,7 @@ deck-config-get-params = 取得參數
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
 deck-config-set-optimal-retention = 設定理想留存率為 { $num }
 deck-config-complete = 已完成 { $num }%。
+deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

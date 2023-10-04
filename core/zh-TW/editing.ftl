@@ -66,10 +66,10 @@ editing-warning-cloze-deletions-will-not-work = 警告，請在上方將類型�
 editing-mathjax-preview = MathJax 預覽
 editing-shrink-images = 縮小影像
 editing-close-html-tags = 自動閉合 HTML 標籤
-editing-from-clipboard = 從剪貼簿
+editing-from-clipboard = 從剪貼板
 editing-alignment = 對齊
 editing-equations = 方程式
-editing-no-image-found-on-clipboard = 在剪貼簿中找不到影像。
+editing-no-image-found-on-clipboard = 在剪貼板中找不到影像。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

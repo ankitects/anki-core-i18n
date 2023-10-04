@@ -54,3 +54,4 @@ notetype-error-no-image-to-show = 沒有可顯示的影像。
 notetypes-no-occlusion-created = 至少需要一個遮擋。
 notetypes-no-occlusion-created2 = 無法新增。因為尚未加入遮擋或第一個欄位是空的。
 notetypes-io-select-image = 選取影像
+notetypes-io-paste-image-from-clipboard = 貼上剪貼板影像
