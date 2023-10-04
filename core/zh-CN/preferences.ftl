@@ -9,7 +9,7 @@ preferences-learn-ahead-limit = 提前学习的上限
 preferences-mins = 分钟
 preferences-network = 同步
 preferences-next-day-starts-at = 次日起点
-preferences-media-is-not-backed-up = 媒体文件未被备份，为确保安全请定期备份 Anki 文件夹。
+preferences-media-is-not-backed-up = 媒体文件不会被备份，为确保安全请定期备份 Anki 文件夹。
 preferences-on-next-sync-force-changes-in = 下次同步时，强制单向覆盖
 preferences-paste-clipboard-images-as-png = 以 PNG 格式粘贴图片
 preferences-paste-without-shift-key-strips-formatting = 若粘贴时未按住 Shift 键，则清除文本格式
@@ -71,7 +71,6 @@ preferences-network-timeout = 网络超时
 preferences-reset-window-sizes = 重置窗口大小
 preferences-reset-window-sizes-complete = 已重置窗口位置和大小。
 preferences-shortcut-placeholder = 输入一个未使用的快捷键，或者留空已停用
-preferences-stop-timer-on-answer = 显示答案后停止计时
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
