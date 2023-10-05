@@ -54,3 +54,4 @@ notetype-error-no-image-to-show = Nenhuma imagem para mostrar.
 notetypes-no-occlusion-created = Você deve fazer pelo menos uma ocultação;
 notetypes-no-occlusion-created2 = Incapaz de adicionar. Ou você não adicionou nenhuma ocultação, ou o primeiro campo está vazio.
 notetypes-io-select-image = Selecionar imagem
+notetypes-io-paste-image-from-clipboard = Colar Imagem da Área de Transferência

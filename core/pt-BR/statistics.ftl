@@ -92,6 +92,7 @@ statistics-range-collection = coleção
 statistics-range-search = Procurar
 statistics-card-ease-title = Facilidade do Cartão
 statistics-card-difficulty-title = Dificuldade do Cartão
+statistics-card-stability-title = Estabilidade do Cartão
 statistics-card-retrievability-title = Recuperabilidade
 statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente o cartão aparecerá.
 statistics-card-difficulty-subtitle = Quanto maior a dificuldade, mais difícil é lembrar.
