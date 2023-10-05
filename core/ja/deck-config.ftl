@@ -183,6 +183,9 @@ deck-config-disable-autoplay-tooltip = このオプションがオンの場合�
 deck-config-skip-question-when-replaying = 解答側を表示後の「音声を再生」アクションでは、質問側を再生しない
 deck-config-always-include-question-audio-tooltip = カードの解答側（裏面）を既に表示した状態で「音声を再生」アクションを選択した場合に、質問側（表面）の音声ファイルも再生するのかどうかを設定します。
 deck-config-stop-timer-on-answer = 解答表示でタイマーを停止する
+deck-config-stop-timer-on-answer-tooltip =
+    解答側を表示した時点でタイマーのカウントアップを停止するか、それとも続行するかを設定します。
+    この設定はあくまでタイマーのカウント表示についてのものであり、カードへの回答秒数についての統計には影響しません。つまり、タイマーのカウントアップを停止した場合でも、その後、回答ボタンを押すまでの秒数は引き続き計測されます。
 
 ## Advanced section
 
