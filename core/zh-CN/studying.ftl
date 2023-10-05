@@ -14,7 +14,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = 卡片在复习完后将会自动回到原来的牌组中。
 studying-continue = 继续
-studying-counts-differ = 卡片计数与牌组列表不符是由于部分卡片被搁置而排除，其他卡片取代了其位置。
+studying-counts-differ = 由于部分卡片因被搁置而排除，其他卡片可能取代了其位置，因此卡片计数与牌组列表不符。
 studying-delete-note = 删除笔记
 studying-deleting-this-deck-from-the-deck = 从列表中删除该牌组后剩余的卡片将回到原牌组中。
 studying-easy = 简单

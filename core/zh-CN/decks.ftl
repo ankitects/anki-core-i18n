@@ -28,5 +28,5 @@ decks-repeat-failed-cards-after = 之后重复失败的卡片
 decks-reschedule-cards-based-on-my-answers = 基于此牌组的回答情况，对卡片重新排程。
 decks-study = 学习
 decks-study-deck = 学习牌组
-decks-filtered-deck-search-empty = 没有符合搜索条件的卡片。不同筛选牌组中的卡片和已被搁置的卡片可能已被排除。
+decks-filtered-deck-search-empty = 没有符合搜索条件的卡片。不同筛选牌组中的卡片和已暂停的卡片可能已被排除。
 decks-unmovable-cards = 显示所有已被排除的卡片
