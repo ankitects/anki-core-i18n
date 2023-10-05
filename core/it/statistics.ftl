@@ -92,6 +92,7 @@ statistics-range-collection = collezione
 statistics-range-search = Cerca
 statistics-card-ease-title = Facilità della carta
 statistics-card-difficulty-title = Difficoltà della Carta
+statistics-card-stability-title = Stabilità della Carta
 statistics-card-retrievability-title = Rammentabilità della Carta
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
 statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verrà mostrata la carta.
