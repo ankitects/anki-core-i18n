@@ -51,3 +51,5 @@ notetypes-error-generating-cloze = 画像マスキングタイプのノートを
 notetypes-error-getting-imagecloze = 画像マスキングタイプのノートを取得中にエラーが発生しました
 notetypes-error-loading-image-occlusion = 画像マスキングタイプのノートの読み込み中にエラーが発生しました。Ankiのバージョンは最新ですか？
 notetype-error-no-image-to-show = 表示する画像がありません
+notetypes-io-select-image = 画像を選択
+notetypes-io-paste-image-from-clipboard = クリップボードの画像を貼り付け

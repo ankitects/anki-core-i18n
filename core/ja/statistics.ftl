@@ -61,6 +61,7 @@ statistics-range-search = 検索
 statistics-card-ease-title = カードの易しさ
 statistics-card-difficulty-title = カードの難度
 statistics-card-stability-title = カードの安定性
+statistics-card-stability-subtitle = 90％の確率で正答できると予測される間隔
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
 statistics-card-difficulty-subtitle = 難度が高いほど、思い出すことが難しくなります。
 # eg "3 cards with 150-170% ease"
