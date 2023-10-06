@@ -24,6 +24,7 @@ card-stats-review-log-type-filtered = フィルター
 card-stats-review-log-type-manual = 手動変更
 card-stats-no-card = （表示するカードがありません）
 card-stats-custom-data = カスタムデータ
+card-stats-fsrs-stability = 安定性
 
 ## Window Titles
 
