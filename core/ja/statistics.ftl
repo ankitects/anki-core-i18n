@@ -27,14 +27,14 @@ statistics-reviews = { $reviews }枚
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    今日は{ statistics-cards }を{ $unit ->
+    今日は{ statistics-cards }のカードを{ $unit ->
         [seconds] { statistics-in-time-span-seconds }
         [minutes] { statistics-in-time-span-minutes }
         [hours] { statistics-in-time-span-hours }
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }で学習しています ({ $secs-per-card }秒/枚)
+    }で学習しています ({ $secs-per-card }秒 / 枚)
 statistics-today-title = 今日
 statistics-today-again-count = 「もう一度」の回数:
 statistics-today-type-counts = 習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、フィルター: { $filteredCount }枚
