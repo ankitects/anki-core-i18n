@@ -18,7 +18,7 @@ scheduling-answer-button-time-years = { $amount }年
 scheduling-time-span-seconds = { $amount }秒
 scheduling-time-span-minutes = { $amount }分
 scheduling-time-span-hours = { $amount } 時間
-scheduling-time-span-days = { $amount } 日
+scheduling-time-span-days = { $amount }日
 scheduling-time-span-months = { $amount }か月
 scheduling-time-span-years = { $amount }年
 

@@ -162,6 +162,8 @@ deck-config-sort-order-ascending-intervals = 復習間隔が短い順
 deck-config-sort-order-descending-intervals = 復習間隔が長い順
 deck-config-sort-order-ascending-ease = 易しさが低い順
 deck-config-sort-order-descending-ease = 易しさが高い順
+deck-config-sort-order-ascending-difficulty = 難度が低い順
+deck-config-sort-order-descending-difficulty = 難度が高い順
 deck-config-sort-order-relative-overdueness = 期日超過率が大きい順
 deck-config-display-order-will-use-current-deck = 表示順序の設定は、学習を開始する時に選択したデッキのオプションでの設定が用いられます。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
 
@@ -256,6 +258,10 @@ deck-config-which-deck = どのデッキを選択しますか？
 
 ## Messages related to the FSRS scheduler
 
+deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
+deck-config-optimize-button = 最適化
+deck-config-compute-button = 計算
+deck-config-analyze-button = 分析
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

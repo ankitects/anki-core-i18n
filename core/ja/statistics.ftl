@@ -59,11 +59,18 @@ statistics-range-deck = デッキ
 statistics-range-collection = コレクション
 statistics-range-search = 検索
 statistics-card-ease-title = カードの易しさ
+statistics-card-difficulty-title = カードの難度
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
+statistics-card-difficulty-subtitle = 難度が高いほど、思い出すことが難しくなります。
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
        *[other] 易しさ{ $percent }のカード: { $cards }枚
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] 難度が{ $percent }のカード: { $cards }枚
+       *[other] 難度が{ $percent }のカード: { $cards }枚
     }
 statistics-future-due-title = 今後の課題
 statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数
@@ -159,6 +166,7 @@ statistics-cards-per-day =
        *[other] { $count }枚 / 日
     }
 statistics-average-ease = 易しさの平均値
+statistics-average-difficulty = 平均難度
 statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計
