@@ -346,6 +346,7 @@ deck-config-fsrs-on-all-clients =
     بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
 deck-config-set-optimal-retention = ضبط التذكر المرغوب إلى { $num }
 deck-config-complete = اكتمل { $num }%.
+deck-config-reschedule-cards-on-change = إعادة جدولة البطاقات عند التغيير
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

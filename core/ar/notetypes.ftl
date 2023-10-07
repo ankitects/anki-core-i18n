@@ -54,3 +54,4 @@ notetype-error-no-image-to-show = لا يوجد صورة.
 notetypes-no-occlusion-created = يجب عليك إنشاء صورة معماة واحدة على الأقل.
 notetypes-no-occlusion-created2 = غير قادر على الإضافة. إما أنك لم تقم بإضافة أي صورة معماة، أو أن الحقل الأول فارغ.
 notetypes-io-select-image = اختر صورة
+notetypes-io-paste-image-from-clipboard = لصق الصورة من الحافظة
