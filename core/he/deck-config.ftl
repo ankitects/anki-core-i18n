@@ -324,6 +324,7 @@ deck-config-fsrs-on-all-clients =
      FSRS לא יעבוד כראוי אם אחד מהלקוחות שלך מתחת לגירסאות אלו.
 deck-config-set-optimal-retention = הגדר את השמירה הרצויה ל { $num }
 deck-config-complete = { $num } % הושלם.
+deck-config-reschedule-cards-on-change = תזמון מחדש של כרטיסים בשינוי
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

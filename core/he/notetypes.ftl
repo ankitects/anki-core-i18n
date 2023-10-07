@@ -54,3 +54,4 @@ notetype-error-no-image-to-show = אין תמונה להצגה.
 notetypes-no-occlusion-created = עליך לבצע הסתרה אחת לפחות.
 notetypes-no-occlusion-created2 = לא ניתן להוסיף. או שלא הוספת שום הסתרות, או שהשדה הראשון ריק.
 notetypes-io-select-image = בחר תמונה
+notetypes-io-paste-image-from-clipboard = הדבק תמונה שהועתקה
