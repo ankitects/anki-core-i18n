@@ -83,6 +83,8 @@ importing-processed-notes =
     { $count ->
        *[other] { $count }個のノートを追加しています...
     }
+# "Existing notes: Update" (verb)
+importing-update = 更新
 importing-tag-all-notes = すべてのノートにタグ
 importing-file = ファイル
 importing-cards-added =
