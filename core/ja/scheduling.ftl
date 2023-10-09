@@ -57,7 +57,7 @@ scheduling-update-button = アップデート
 scheduling-update-later-button = 後で
 scheduling-update-more-info-button = 詳細
 scheduling-update-required =
-    コレクションのスケジューラーを、V2スケジューラーにアップグレードする必要があります。
+    コレクションのスケジューラーを、V2スケジューラーにアップデートする必要があります。
     続行する前に「{ scheduling-update-more-info-button }」を選択してください。
 
 ## Other scheduling strings
