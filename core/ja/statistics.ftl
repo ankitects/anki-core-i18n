@@ -107,15 +107,15 @@ statistics-cards-due =
        *[other] { $cards }枚が期日
     }
 statistics-backlog-checkbox = 延滞込み
-statistics-intervals-title = 間隔
+statistics-intervals-title = 復習間隔
 statistics-intervals-subtitle = 次の復習までの間隔（日数）とそれぞれのカード枚数
 statistics-intervals-day-range =
     { $cards ->
-       *[other] 間隔が{ $daysStart }~{ $daysEnd }日のカード: { $cards }枚
+       *[other] 復習間隔が{ $daysStart }~{ $daysEnd }日のカード: { $cards }枚
     }
 statistics-intervals-day-single =
     { $cards ->
-       *[other] 間隔が{ $day }日のカード: { $cards }枚
+       *[other] 復習間隔が{ $day }日のカード: { $cards }枚
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }時~{ $hourEnd }時
@@ -150,7 +150,7 @@ statistics-total = 合計
 statistics-days-studied = 学習した日の割合
 statistics-average-answer-time-label = 平均回答時間
 statistics-average = 平均
-statistics-average-interval = 平均間隔
+statistics-average-interval = 平均復習間隔
 statistics-due-tomorrow = 明日が期日
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
