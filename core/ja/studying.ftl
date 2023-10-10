@@ -7,7 +7,7 @@ studying-bury = 今日は非表示
 studying-bury-card = カードを今日は非表示
 studying-bury-note = ノートを今日は非表示
 studying-card-suspended = カードを休止しました
-studying-card-was-a-leech = 回答したカードに「leech」（＝苦戦カード）のタグを付けました。
+studying-card-was-a-leech = 回答したカードは「leech」（苦戦、忘却多発）のカードです。
 studying-cards-buried =
     { $count ->
        *[other] { $count }枚のカードを今日は非表示にしました。
