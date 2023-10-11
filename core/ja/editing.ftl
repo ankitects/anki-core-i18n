@@ -65,6 +65,7 @@ editing-unordered-list = リスト（順序なし）
 editing-warning-cloze-deletions-will-not-work = 注意: 穴埋め問題は上部にある「ノートタイプ」の設定を「穴埋め」タイプに変更するまで機能しません。
 editing-mathjax-preview = MathJax のプレビュー
 editing-shrink-images = 画像をコンパクトなサイズで表示
+editing-close-html-tags = HTMLの終了タグを自動で付ける
 editing-from-clipboard = クリップボードから
 editing-no-image-found-on-clipboard = クリップボードに画像が見つかりません。
 
