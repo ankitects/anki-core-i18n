@@ -10,9 +10,10 @@ importing-by-default-anki-will-detect-the =
     もしフィールドを区切る文字をAnkiがうまく識別できない場合は、ここにその区切り文字を入力してください。
     タブ区切りを使用する場合は \t と入力してください。
 importing-change = 変更
-importing-colon = コロン
-importing-comma = コンマ
+importing-colon = コロン ( : )
+importing-comma = コンマ ( , )
 importing-empty-first-field = 最初のフィールドが空白：{ $val }
+importing-field-separator = フィールド区切り文字
 importing-field-mapping = フィールドの割り当て
 importing-field-of-file-is = ファイルの<b>{ $val }</b>番目のフィールドは：
 importing-fields-separated-by = フィールドの区切り: { $val }
@@ -49,9 +50,11 @@ importing-include-reviews = 学習履歴を含める
 importing-include-reviews-help = オンにすると、このデッキに（デッキ作成者の）以前の学習履歴が含まれている場合、その履歴もインポートします。オフにすると、すべてのカードを新規カードとしてインポートします。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
+# the '|' character
+importing-pipe = パイプ ( | )
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」には { $found } 個のフィールドがありました。予想では { $expected } 個でした。
 importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルのインポート (Importing) に関する項目をご覧ください。
-importing-semicolon = セミコロン
+importing-semicolon = セミコロン ( ; )
 importing-skipped = 除外
 importing-supermemo-xml-export-xml = Supermemo 用の XML 形式 (*.xml)
 importing-tab = タブ
@@ -137,6 +140,10 @@ importing-show = 表示
 importing-details = 詳細
 importing-status = 状態
 importing-added-new-note = 新規ノートとして追加しました
+importing-field-separator-help =
+    テキストファイル内のフィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
+    
+    この文字自体をフィールド内に表示したい場合、そのフィールドをCSVの一般的な書式に従って引用符で囲む必要があることに注意してください。LibreOfficeのような表計算ソフトは自動的にこれを行います。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
