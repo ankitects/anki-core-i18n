@@ -106,10 +106,19 @@ importing-processed-notes =
        *[other] { $count }個のノートを追加しています...
     }
 importing-existing-notes = 既存のノート
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = 重複を許す
+# "Existing notes: Preserve" (verb)
+importing-preserve = 維持する
 # "Existing notes: Update" (verb)
-importing-update = 更新
+importing-update = 更新する
 importing-tag-all-notes = すべてのノートにタグ
+importing-tag-updated-notes = 更新したノートにタグ
 importing-file = ファイル
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = 重複チェックの範囲
+# Used with the 'match scope' option
+importing-notetype-and-deck = ノートタイプとデッキ
 importing-cards-added =
     { $count ->
         [one] { $count }枚のノートを追加しました。
@@ -149,6 +158,20 @@ importing-allow-html-in-fields-help =
     ファイルにHTMLの書式が含まれている場合は、このオプションをオンにしてください。
     
     例えば、ファイルに '&lt;br&gt;' という文字列が含まれている場合、このオプションをオンにすると、カード上ではその箇所を改行して表示します。オフにすると、その文字列 '&lt;br&gt;' をそのまま表示します。
+importing-notetype-help =
+    新たにインポートしたノートはこのノートタイプを持ちます。また、更新の対象となる既存のノートは、このノートタイプを持つノートだけです。
+    
+    ファイル内の各フィールドがノートタイプのどのフィールドに対応するかは、「フィールドの割り当て」カテゴリで選択できます。
+importing-deck-help = インポートしたカードはこのデッキに入ります。
+importing-existing-notes-help =
+    インポートしたノートが既存のノートと一致した場合の処置を設定します。
+    
+    - `{ importing-update }`: 既存のノートを更新します。
+    - `{ importing-preserve }`: 何も行いません。既存のノートが維持されます。
+    - `{ importing-duplicate }`: 既存のノートを維持し、インポートしたノートを新規ノートとして追加します。
+importing-match-scope-help = デフォルトでは、既存のノートの重複チェックは、同じノートタイプを持つノートを対象としています。このオプションにより、同じデッキのカードを持つノートという制限を追加することができます。
+importing-tag-all-notes-help = 指定したタグを、新たにインポートしたノートと更新したノートの両方に付けます。
+importing-tag-updated-notes-help = 指定したタグを、更新したノートに付けます。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
