@@ -1,7 +1,7 @@
 importing-failed-debug-info = インポートに失敗しました。デバッグ情報:
 importing-aborted = 中断: { $val }
 importing-added-duplicate-with-first-field = 最初のフィールドが重複したノートを追加しました: { $val }
-importing-allow-html-in-fields = フィールドに HTML を使う
+importing-allow-html-in-fields = フィールド内でHTMLを使う
 importing-anki-files-are-from-a-very = .ankiファイルはAnkiのとても古いバージョンのものです。それらのファイルは、Ankiのウェブサイトより入手可能なAnki 2.0を使用してインポートすることができます。
 importing-anki2-files-are-not-directly-importable = .anki2ファイルを直接インポートすることはできません。代わりに受信した.apkgまたは.zipファイルをインポートしてください。
 importing-appeared-twice-in-file = { $val } は二回ファイルに出てきました
@@ -105,6 +105,7 @@ importing-processed-notes =
     { $count ->
        *[other] { $count }個のノートを追加しています...
     }
+importing-existing-notes = 既存のノート
 # "Existing notes: Update" (verb)
 importing-update = 更新
 importing-tag-all-notes = すべてのノートにタグ
@@ -144,6 +145,10 @@ importing-field-separator-help =
     テキストファイル内のフィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
     
     この文字自体をフィールド内に表示したい場合、そのフィールドをCSVの一般的な書式に従って引用符で囲む必要があることに注意してください。LibreOfficeのような表計算ソフトは自動的にこれを行います。
+importing-allow-html-in-fields-help =
+    ファイルにHTMLの書式が含まれている場合は、このオプションをオンにしてください。
+    
+    例えば、ファイルに '&lt;br&gt;' という文字列が含まれている場合、このオプションをオンにすると、カード上ではその箇所を改行して表示します。オフにすると、その文字列 '&lt;br&gt;' をそのまま表示します。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
