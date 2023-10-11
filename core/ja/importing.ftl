@@ -33,6 +33,12 @@ importing-mapped-to = <b>{ $val }</b> に割り当てる
 importing-mapped-to-tags = <b>タグ</b> に割り当てる
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = ノートタイプを統合
+importing-merge-notetypes-help =
+    このオプションがオンの場合、インポート先またはインポート元のノートタイプのスキーマが変更（※）されていれば、Ankiは両バージョンをそれぞれ保持するのではなく、統合します。
+    
+    ※ ノートタイプのスキーマの変更とは、フィールドまたはカードタイプの追加・削除・並べ替え、またはソートフィールドの変更のことです。該当しない変更の例：既存のカードタイプのテンプレートの内容の変更
+    
+    注意：ノートタイプの統合を行った場合、次回の同期で一方向の同期が必要となります。また、既存のノートが変更済みとしてマークされる可能性があります。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 デッキ (*.db)
 importing-multicharacter-separators-are-not-supported-please = 複数文字のデリミタを使用することができません。１文字のみ入力してください。
 importing-notes-added-from-file = ファイルから追加したノート: { $val }枚
@@ -95,6 +101,27 @@ importing-cards-added =
        *[other] { $count }枚のノートを追加しました。
     }
 importing-file-empty = 選択したファイルが空です。
+importing-notes-added =
+    { $count ->
+       *[other] 個のノートを新規ノートとしてインポートしました。
+    }
+importing-existing-notes-skipped =
+    { $count ->
+       *[other] 個のノートは、すでにコレクション内に存在します。
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+       *[other] 個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、'{ importing-merge-notetypes }'のオプションがオフになっているため）
+    }
+importing-no-notes-in-file = ノートがファイル内で見つかりませんでした。
+importing-notes-found-in-file2 =
+    { $notes ->
+       *[other] 個のノート
+    }がファイル内で見つかりました。内訳は下記の通りです:
+importing-show = 表示
+importing-details = 詳細
+importing-status = 状態
+importing-added-new-note = 新規ノートとして追加しました
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
