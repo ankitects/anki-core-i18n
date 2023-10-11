@@ -13,7 +13,7 @@ browsing-browser-options = ブラウザ オプション
 browsing-buried = 今日は非表示
 browsing-card = カード
 browsing-cards = カード
-browsing-card-list = カード一覧
+browsing-card-list = テーブル（リスト）
 browsing-cards-cant-be-manually-moved-into = フィルターデッキには手動でカードを移動できません。
 browsing-cards-deleted =
     { $count ->
