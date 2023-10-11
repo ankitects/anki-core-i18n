@@ -45,6 +45,8 @@ importing-notes-added-from-file = ファイルから追加したノート: { $va
 importing-notes-found-in-file = ファイル内にあるノート: { $val }枚
 importing-notes-skipped-as-theyre-already-in = すでにコレクション内に最新版が存在するためスキップされたノート: { $val }枚
 importing-notes-updated-as-file-had-newer = ファイル内に最新版が存在するためアップデートされたノート: { $val }枚
+importing-include-reviews = 学習履歴を含める
+importing-include-reviews-help = オンにすると、このデッキに（デッキ作成者の）以前の学習履歴が含まれている場合、その履歴もインポートします。オフにすると、すべてのカードを新規カードとしてインポートします。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」には { $found } 個のフィールドがありました。予想では { $expected } 個でした。
@@ -67,7 +69,11 @@ importing-update-if-newer = 既存のものより新しい場合
 importing-update-always = 常に
 importing-update-never = 更新しない
 importing-update-notes = ノートを更新
-importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、既存のノートよりもインポートしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
+importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、マッチしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
+importing-update-notetypes-help =
+    どういう場合にコレクション内の既存のノートタイプを更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、マッチしたノートタイプの方を最近変更している場合にのみ、既存のノートタイプを更新します。
+    
+    カードタイプのテンプレート内のテキストまたはスタイルの変更は常にインポートできますが、ノートタイプのスキーマの変更（例. フィールドの数や順序の変更）には、'{ importing-merge-notetypes }'オプションもオンにする必要があります。
 importing-note-added =
     { $count ->
        *[other] { $count } 個のノートを追加しました。
