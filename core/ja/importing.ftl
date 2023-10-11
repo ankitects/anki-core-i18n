@@ -31,6 +31,8 @@ importing-map-to = { $val } に割り当てる
 importing-map-to-tags = タグに割り当てる
 importing-mapped-to = <b>{ $val }</b> に割り当てる
 importing-mapped-to-tags = <b>タグ</b> に割り当てる
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = ノートタイプを統合
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 デッキ (*.db)
 importing-multicharacter-separators-are-not-supported-please = 複数文字のデリミタを使用することができません。１文字のみ入力してください。
 importing-notes-added-from-file = ファイルから追加したノート: { $val }枚
