@@ -8,8 +8,8 @@ browsing-answer = 解答
 browsing-any-flag = フラグあり
 browsing-average-ease = 易しさ平均
 browsing-average-interval = 間隔平均
-browsing-browser-appearance = 検索テーブルでの表示設定
-browsing-browser-options = 検索オプション
+browsing-browser-appearance = ブラウザのテーブルでの表示設定
+browsing-browser-options = ブラウザ オプション
 browsing-buried = 今日は非表示
 browsing-card = カード
 browsing-cards = カード
@@ -95,7 +95,7 @@ browsing-toggle-suspend = 休止 / 休止解除
 browsing-treat-input-as-regular-expression = 入力条件に正規表現を使う
 browsing-update-saved-search = 現在の検索で更新
 browsing-whole-collection = コレクション全体
-browsing-window-title-notes = 検索（{ $total }個のノート中{ $selected }個を選択中）
+browsing-window-title-notes = ブラウザ（{ $total }個のノート中{ $selected }個を選択中）
 browsing-you-must-have-at-least-one = 最低でも一つの列は必要です。
 browsing-group =
     { $count ->
@@ -113,7 +113,7 @@ browsing-cards-updated =
     { $count ->
        *[other] { $count }枚のカードを更新しました。
     }
-browsing-window-title = 検索（{ $total }枚のカード中{ $selected }枚を選択中）
+browsing-window-title = ブラウザ（{ $total }枚のカード中{ $selected }枚を選択中）
 browsing-sidebar-expand = 広げる
 browsing-sidebar-collapse = 折りたたむ
 browsing-sidebar-expand-children = 子ノードを開く

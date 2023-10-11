@@ -8,7 +8,7 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-       *[other] 新規カード番号が1,000,000以上の新規カードが{ $count }枚みつかりました。検索画面より再配置を実行することをおすすめします。
+       *[other] 新規カード番号が1,000,000以上の新規カードが{ $count }枚 見つかりました。ブラウザ画面で再配置を実行することをおすすめします。
     }
 database-check-card-missing-note = ノートのないカードを{ $count }枚削除しました。
 database-check-duplicate-card-ords =

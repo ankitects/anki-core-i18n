@@ -36,4 +36,4 @@ search-card-modified = カード更新日時
 ##
 
 # Tooltip for search lines outside browser
-search-view-in-browser = 検索ブラウザで見る
+search-view-in-browser = ブラウザで見る
