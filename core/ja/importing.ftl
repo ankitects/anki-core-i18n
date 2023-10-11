@@ -63,6 +63,11 @@ importing-unable-to-import-from-a-readonly = 読み取り専用ファイルは�
 importing-unknown-file-format = ファイルの種類が不明。
 importing-update-existing-notes-when-first-field = 最初のフィールドが一致した場合、既存のノートを更新する
 importing-updated = 更新
+importing-update-if-newer = 既存のものより新しい場合
+importing-update-always = 常に
+importing-update-never = 更新しない
+importing-update-notes = ノートを更新
+importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、既存のノートよりもインポートしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
 importing-note-added =
     { $count ->
        *[other] { $count } 個のノートを追加しました。
@@ -104,6 +109,10 @@ importing-file-empty = 選択したファイルが空です。
 importing-notes-added =
     { $count ->
        *[other] 個のノートを新規ノートとしてインポートしました。
+    }
+importing-notes-updated =
+    { $count ->
+       *[other] 個のノートを使用して既存のノートを更新しました。
     }
 importing-existing-notes-skipped =
     { $count ->
