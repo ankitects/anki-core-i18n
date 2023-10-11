@@ -45,7 +45,7 @@ importing-multicharacter-separators-are-not-supported-please = 複数文字の�
 importing-notes-added-from-file = ファイルから追加したノート: { $val }枚
 importing-notes-found-in-file = ファイル内にあるノート: { $val }枚
 importing-notes-skipped-as-theyre-already-in = すでにコレクション内に最新版が存在するためスキップされたノート: { $val }枚
-importing-notes-updated-as-file-had-newer = ファイル内に最新版が存在するためアップデートされたノート: { $val }枚
+importing-notes-updated-as-file-had-newer = ファイル内に最新版が存在するため更新したノート: { $val }個
 importing-include-reviews = 学習履歴を含める
 importing-include-reviews-help = オンにすると、このデッキに（デッキ作成者の）以前の学習履歴が含まれている場合、その履歴もインポートします。オフにすると、すべてのカードを新規カードとしてインポートします。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
@@ -150,6 +150,7 @@ importing-show = 表示
 importing-details = 詳細
 importing-status = 状態
 importing-added-new-note = 新規ノートとして追加しました
+importing-note-updated-as-file-had-newer = ファイル内に最新版が存在するためノートを更新しました
 importing-field-separator-help =
     テキストファイル内のフィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
     
