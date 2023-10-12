@@ -33,14 +33,14 @@ scheduling-next-learn-due =
     }後に表示されます。
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] 本日中に再び表示される習得中カードが{ $remaining }枚あります。
+       *[other] 本日中に再び表示される予定の習得中カードは{ $remaining }枚です。
     }
 scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題をすべて達成しました！
 scheduling-today-review-limit-reached =
     復習カードはまだ残ってますが、今日の出題上限に達しました。
     適正な記憶力に見合った、一日の制限値まで引き上げることを検討してください。
 scheduling-today-new-limit-reached = まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。
-scheduling-buried-cards-found = 手動操作またはオプションによる自動操作によって、今日は非表示にしたカードがあります。それらのカードをすぐに学習したい場合は、{ $unburyThem }てください。
+scheduling-buried-cards-found = 手動操作またはオプションによる自動操作によって、今日は非表示にしたカードがあります。それらのカードをすぐに学習したい場合は、{ $unburyThem }してください。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = 非表示を解除
