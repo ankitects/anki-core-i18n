@@ -259,17 +259,22 @@ deck-config-which-deck = どのデッキを選択しますか？
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = 重みは、デフォルト値を使用するために何も入力しないままにするか、コンマ(", ")で区切られた17個の数字である必要があります。
+deck-config-invalid-weights = 重みの欄には、デフォルト値を使用するために何も入力しないままにするか、コンマ (", ") で区切られた17個の数字を入力する必要があります。
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
+deck-config-must-have-1000-reviews =
+    { $count ->
+        [one] 復習カードが{ $count }枚しか見つかりません。
+       *[other] 復習カードが{ $count }枚しか見つかりません。
+    }最適化された重みを算出するには1000枚以上の復習カードが必要です。
 deck-config-compute-optimal-weights = FSRSの重みを最適化
-deck-config-compute-optimal-retention = 最適な保持率を計算
+deck-config-compute-optimal-retention = 最適な正答保持率を計算
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
-deck-config-desired-retention = 希望する保持率
+deck-config-desired-retention = 正答保持率（目標値）
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-fsrs-on-all-clients = すべての Ankiクライアント（端末）が Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
-deck-config-set-optimal-retention = 希望する保持率を { $num } に設定
+deck-config-set-optimal-retention = 正答保持率（目標値）を { $num } に設定
 deck-config-complete = { $num }% 完了
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
