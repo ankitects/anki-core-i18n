@@ -259,6 +259,7 @@ deck-config-which-deck = どのデッキを選択しますか？
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = 重みは、デフォルト値を使用するために何も入力しないままにするか、コンマ(", ")で区切られた17個の数字である必要があります。
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
 deck-config-compute-optimal-weights = FSRSの重みを最適化
 deck-config-compute-optimal-retention = 最適な保持率を計算
