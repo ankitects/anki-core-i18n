@@ -25,6 +25,7 @@ card-stats-review-log-type-manual = 手動変更
 card-stats-no-card = （表示するカードがありません）
 card-stats-custom-data = カスタムデータ
 card-stats-fsrs-stability = 安定性
+card-stats-fsrs-difficulty = 難度
 
 ## Window Titles
 

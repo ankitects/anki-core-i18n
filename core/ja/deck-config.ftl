@@ -258,10 +258,17 @@ deck-config-which-deck = どのデッキを選択しますか？
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
+deck-config-compute-optimal-retention = 最適な保持率を計算
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
+deck-config-desired-retention = 希望する保持率
+deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
+deck-config-fsrs-on-all-clients = すべての Ankiクライアント（端末）が Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
+deck-config-set-optimal-retention = 希望する保持率を { $num } に設定
+deck-config-complete = { $num }% 完了
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
