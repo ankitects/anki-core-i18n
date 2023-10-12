@@ -260,6 +260,7 @@ deck-config-which-deck = どのデッキを選択しますか？
 
 deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
+deck-config-compute-optimal-weights = FSRSの重みを最適化
 deck-config-compute-optimal-retention = 最適な保持率を計算
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 計算
