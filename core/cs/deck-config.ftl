@@ -347,6 +347,12 @@ deck-config-sm2-retention-tooltip =
 deck-config-weights-tooltip =
     Váhy modelu ovlivňují, jak jsou karty plánovány. Jakmile máte 1000+ opakování, můžete optimalizovat 
     váhy níže.
+deck-config-reschedule-cards-on-change-tooltip =
+    Tato možnost řídí, jestli se změní data zkoušení karet, když povolíte FSRS nebo změníte 
+    váhy. Výchozí hodnota je nepřeplánovat karty: budoucí opakování použijí nové plánování, ale 
+    nenastane žádná okamžitá změna vašeho zatížení. Jestliže je přeplánování povoleno, data zkoušení 
+    karet se změní. V závislosti na vaší požadované retenci může toto vyústit ve velký počet karet, 
+    které budou ke zkoušení, proto není tato možnost doporučena, když poprvé přepínáte ze SM2.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
