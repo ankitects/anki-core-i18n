@@ -320,6 +320,7 @@ deck-config-optimize-button = Optimalizovat
 deck-config-compute-button = Vypočítat
 deck-config-analyze-button = Analyzovat
 deck-config-desired-retention = Požadovaná retence
+deck-config-sm2-retention = SM2 retence
 deck-config-smaller-is-better = Menší čísla naznačují lepší způsobilost pro vaši historii opakování.
 deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delší než 1 den nejsou doporučeny.
 deck-config-fsrs-on-all-clients =
@@ -331,6 +332,21 @@ deck-config-fsrs-tooltip =
     Free Spaced Repetition Scheduler (FSRS) je alternativou k původnímu plánovači Anki SuperMemo 2 (SM2).
     Pomocí přesnějšího určování, kdy pravděpodobně zapomenete, vám může pomoci zapamatovat si 
     více materiálu za stejný čas. Toto nastavení je sdíleno všemi předvolbami balíčků.
+deck-config-desired-retention-tooltip =
+    Výchozí hodnota 0,9 bude plánovat karty tak, že máte 90% šanci zapamatovat si je, když 
+    jsou připraveny k opakování. Jestliže zvýšíte tuto hodnotu, Anki bude zobrazovat karty častěji, 
+    aby se zvýšila šance na jejich zapamatování. Jestliže snížíte tuto hodnotu, Anki bude zobrazovat 
+    karty méně často, a vy jich více zapomenete. Při nastavování buďte konzervativní - vyšší 
+    hodnoty významně zvýší vaše vytížení a nižší hodnoty mohou být demotivující, když zapomenete 
+    hodně materiálu.
+deck-config-sm2-retention-tooltip =
+    Jestliže je vaše aktuální retence před přepnutím na FSRS byla významně jiná než 0,9, nastavení 
+    této hodnoty umožní Anki lépe odhadnout váš stav paměti, když se vyskytnou karty, kterým 
+    chybí záznamy opakování. Protože záznamy opakování typicky nebudou chybět, pokud jste je 
+    nesmazali, abyste uvolnili místo, většina uživatelů nepotřebuje toto nastavovat.
+deck-config-weights-tooltip =
+    Váhy modelu ovlivňují, jak jsou karty plánovány. Jakmile máte 1000+ opakování, můžete optimalizovat 
+    váhy níže.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
