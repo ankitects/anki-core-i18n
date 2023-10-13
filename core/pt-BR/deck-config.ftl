@@ -306,15 +306,56 @@ deck-config-optimize-button = Otimizar
 deck-config-compute-button = Computar
 deck-config-analyze-button = Analisar
 deck-config-desired-retention = Retenção desejada
+deck-config-sm2-retention = Retenção SM2
 deck-config-smaller-is-better = Números menores indicam um ajuste melhor ao seu histórico de revisão.
 deck-config-steps-too-large-for-fsrs = Quando o FSRS está ativado, etapas de aprendizado com mais de 1 dia não são recomendadas.
 deck-config-get-params = Obter Parâmetros
 deck-config-fsrs-on-all-clients =
     Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não¶
     funcionará corretamente se um dos seus clientes for mais antigo.
-deck-config-set-optimal-retention = Definir retenção desejada para { $num }
+deck-config-estimated-retention = Retenção estimada: { $num }
 deck-config-complete = { $num }% concluído.
 deck-config-reschedule-cards-on-change = Reagendar cartões ao alterar
+deck-config-fsrs-tooltip =
+    O Free Spaced Repetition Scheduler (FSRS) é uma alternativa ao agendador SuperMemo 2 (SM2) legado do Anki.¶
+    Ao determinar mais precisamente quando você provavelmente esquecerá, ele pode ajudá-lo a lembrar¶
+    mais material no mesmo período de tempo. Esta configuração é compartilhada por todos os presets de baralho.
+deck-config-desired-retention-tooltip =
+    O valor padrão de 0,9 agendará cartões para que você tenha 90% de chance de lembrá-los quando¶
+    eles aparecerem para revisão novamente. Se você aumentar esse valor, o Anki mostrará os cartões mais frequentemente¶
+    para aumentar as chances de você lembrá-los. Se você diminuir o valor, o Anki mostrará os cartões¶
+    menos frequentemente, e você esquecerá mais deles. Seja conservador ao ajustar isso - valores mais altos¶
+    aumentarão significativamente sua carga de trabalho, e valores mais baixos podem ser desmotivadores quando você esquece¶
+    muito material.
+deck-config-sm2-retention-tooltip =
+    Se sua retenção atual antes de mudar para o FSRS foi significativamente diferente de 0,9, ajustar¶
+    este valor permitirá que o Anki estime melhor o estado da sua memória quando encontrar cartões que estão¶
+    faltando registros de revisão. Como os registros de revisão normalmente não estarão faltando a menos que você os tenha excluído explicitamente¶
+    para liberar espaço, a maioria dos usuários não precisará ajustar isso.
+deck-config-weights-tooltip =
+    Os pesos dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar¶
+    os pesos abaixo.
+deck-config-reschedule-cards-on-change-tooltip =
+    Esta opção controla se as datas de vencimento dos cartões serão alteradas quando você ativar o FSRS, ou mudar¶
+    os pesos. O padrão é não reprogramar os cartões: revisões futuras usarão a nova programação, mas¶
+    não haverá mudança imediata na sua carga de trabalho. Se a reprogramação estiver ativada, as datas de vencimento dos cartões¶
+    serão alteradas. Dependendo da sua retenção desejada, isso pode resultar em um grande número de cartões tornando-se
+deck-config-compute-optimal-weights-tooltip =
+    Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,¶
+    e gerar automaticamente pesos que são ótimos para sua memória e o conteúdo que você está estudando.¶
+    Se você tem baralhos que variam muito em dificuldade, é recomendado atribuir-lhes presets separados, pois¶
+    os pesos para baralhos fáceis e difíceis serão diferentes. Não há necessidade de otimizar seus pesos¶
+    frequentemente - uma vez a cada poucos meses é suficiente.¶
+    ¶
+    Por padrão, os pesos serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode¶
+    ajustar opcionalmente a busca antes de calcular os pesos, se quiser alterar quais cartões são usados para¶
+    otimizar os pesos.
+deck-config-compute-optimal-retention-tooltip =
+    Esta ferramenta assume que você está começando com 0 cartões, e tentará calcular a quantidade de material que você vai¶
+    ser capaz de reter no prazo dado. A retenção estimada dependerá muito de suas entradas, e¶
+    se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo¶
+    ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é¶
+    não recomendado copiá-lo para o campo de retenção desejado.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
