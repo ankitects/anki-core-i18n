@@ -223,11 +223,12 @@ deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 理想留存率
+deck-config-sm2-retention = SM2 留存率
 deck-config-smaller-is-better = 數字越小表示越符合你的複習歷史記錄。
 deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議設定超過一天的學習階段。
 deck-config-get-params = 取得參數
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
-deck-config-set-optimal-retention = 設定理想留存率為 { $num }
+deck-config-estimated-retention = 預估留存率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
 
