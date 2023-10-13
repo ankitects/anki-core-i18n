@@ -252,14 +252,14 @@ deck-config-custom-scheduling-tooltip = Ovlivní celou kolekci. Používejte na 
 
 ## Adding/renaming
 
-deck-config-add-group = Přidat nastavení
+deck-config-add-group = Přidat předvolbu
 deck-config-name-prompt = Název
-deck-config-rename-group = Přejmenovat nastavení
-deck-config-clone-group = Klonovat nastavení
+deck-config-rename-group = Přejmenovat předvolbu
+deck-config-clone-group = Klonovat předvolbu
 
 ## Removing
 
-deck-config-remove-group = Odstranit nastavení
+deck-config-remove-group = Odstranit předvolbu
 deck-config-will-require-full-sync = Požadovaná změna způsobí kompletní nahrání databáze na server při příští synchronizaci Vaší kolekce. Máte-li opakování nebo jiné změny na jiném zařízení, které ještě nebyly synchronizovány, budou ztraceny.
 deck-config-confirm-remove-name = Odstranit { $name }?
 
@@ -325,9 +325,12 @@ deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delš�
 deck-config-fsrs-on-all-clients =
     Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
     fungovat správně, jestliže je některý z vašich klientů starší.
-deck-config-set-optimal-retention = Nastavte požadovanou retenci na { $num }
 deck-config-complete = { $num }% hotovo.
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
+deck-config-fsrs-tooltip =
+    Free Spaced Repetition Scheduler (FSRS) je alternativou k původnímu plánovači Anki SuperMemo 2 (SM2).
+    Pomocí přesnějšího určování, kdy pravděpodobně zapomenete, vám může pomoci zapamatovat si 
+    více materiálu za stejný čas. Toto nastavení je sdíleno všemi předvolbami balíčků.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
