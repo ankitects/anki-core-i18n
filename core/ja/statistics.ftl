@@ -34,7 +34,7 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    }で学習しています ({ $secs-per-card }秒 / 枚)
+    }で学習しています ( { $secs-per-card }秒 / 枚 )
 statistics-today-title = 今日
 statistics-today-again-count = 「もう一度」の回数:
 statistics-today-type-counts = 習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、フィルター: { $filteredCount }枚

@@ -75,7 +75,7 @@ deck-config-relearning-steps-tooltip =
 deck-config-leech-threshold-tooltip =
     復習カードに何度「`もう一度`」ボタンを押せば「苦戦（忘却多発）カード」と判定するか、を示す回数。
     
-    苦戦（忘却多発）カードは、あなたの時間をたくさん消費しているカードです。苦戦（復習での忘却が多発している）カードと判定された場合、そのカードを再編集するか、削除するか、あるいは印象的な覚え方を工夫するなど、何らかの対策を行うことをお勧めします。
+    苦戦（忘却多発）カードは、あなたの時間をたくさん消費しているカードです。苦戦カードと判定された場合、そのカードを再編集するか、削除するか、あるいは印象的な覚え方を工夫するなど、何らかの対策を行うことをお勧めします。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `タグのみ`：そのノートに「leech」というタグを付け、注意を喚起するためにポップアップを表示します。
@@ -273,8 +273,7 @@ deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 正答保持率（目標値）
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
-deck-config-fsrs-on-all-clients = すべての Ankiクライアント（端末）が Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
-deck-config-set-optimal-retention = 正答保持率（目標値）を { $num } に設定
+deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
 deck-config-complete = { $num }% 完了
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
