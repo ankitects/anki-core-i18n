@@ -353,6 +353,15 @@ deck-config-reschedule-cards-on-change-tooltip =
     nenastane žádná okamžitá změna vašeho zatížení. Jestliže je přeplánování povoleno, data zkoušení 
     karet se změní. V závislosti na vaší požadované retenci může toto vyústit ve velký počet karet, 
     které budou ke zkoušení, proto není tato možnost doporučena, když poprvé přepínáte ze SM2.
+deck-config-compute-optimal-weights-tooltip =
+    Jakmile provedete 1000+ opakování v Anki, můžete použít tlačítko Optimalizovat, aby se analyzovala vaše 
+    historie opakování a automaticky se vygenerovaly váhy, které jsou optimální pro vaší paměť a obsah, který 
+    studujete. Jestliže máte balíčky, u kterých se velmi liší obtížnost, je doporučeno přiřadit jim samostatné
+    předvolby, protože váhy pro jednoduché balíčky a těžké balíčky budou různé. Není potřeba optimalizovat vaše váhy často - jednou za několik měsíců je dostatečné.
+    
+    Ve výchozím nastavení se váhy budou počítat z historie opakování všech balíčků za použití současné 
+    předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
+    se použijí pro optimalizování vah.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
