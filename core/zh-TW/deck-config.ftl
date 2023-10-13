@@ -231,6 +231,7 @@ deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低�
 deck-config-estimated-retention = 預估留存率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
+deck-config-fsrs-tooltip = 你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM2)排程器。透過更精確地測定你遺忘的機率，FSRS 可以讓你不多花時間的同時記住更多內容。所有牌組預設組共用此設定。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
