@@ -280,13 +280,27 @@ deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 期望记忆保留率
+deck-config-sm2-retention = SM2 记忆保留率
 deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记录。
 deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
-deck-config-set-optimal-retention = 设置预期记忆保留率为 { $num }
+deck-config-estimated-retention = 预估记忆保留率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
+deck-config-fsrs-tooltip =
+    自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2(SM2) 排程算法的替代。
+    通过更准确地确定您何时可能忘记，它可以帮助您在相同时间内记住更多的内容。
+    此设置影响所有牌组的预设配置。
+deck-config-desired-retention-tooltip =
+    默认值 0.9 会将卡片进行排程，以使您在下一次复习时有 90% 的回忆成功概率。
+    如果您增加数值，Anki 会增加展示卡片的频率，以增加您回忆成功的概率。
+    如果您降低数值，Anki 会降低展示卡片的频率，您也可能会遗忘更多的卡片。
+    请保守地增加数值，因为这会增加您的工作量；而较低的数值可能会让您在忘记很多内容时心情低落。
+deck-config-sm2-retention-tooltip =
+    如果您在使用 FSRS 之前的记忆保留率与 0.9 存在显著差异，调整这个值将会使 Anki 在遇到缺少复习记录的卡片时，能更好地评估您的记忆状态，
+    由于复习记录通常不会丢失，除非您特意删除它们以释放空间，大多数用户不需要对此数值进行调整。
+deck-config-weights-tooltip = 模型权重影响如何将卡片进行排程。当您积累了 1000+ 次复习后，您可以在下面对模型权重进行优化。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
