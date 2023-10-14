@@ -232,6 +232,15 @@ deck-config-estimated-retention = 預估留存率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
 deck-config-fsrs-tooltip = 你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM2)排程器。透過更精確地測定你遺忘的機率，FSRS 可以讓你不多花時間的同時記住更多內容。所有牌組預設組共用此設定。
+deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片的下一次複習將被排程到你有 90% 的機率能回想起卡片內容時出現。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，遺忘的卡片內容則會增加。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致遺忘大量內容，從而可能使你洩氣。
+deck-config-sm2-retention-tooltip = 如果你在切換到 FSRS 之前的實際留存率與 0.9 相差過多，調整該值可以讓 Anki 更精確地估算缺失複習歷史記錄的卡片的記憶狀態。通常卡片歷史記錄只有當你自行刪除來清理空間時才會遺失，因此大多數使用者不需要調整該值。
+deck-config-weights-tooltip = 模型權重會影響卡片排程。當複習超過 1000 次以後，你可以在下方最佳化權重。
+deck-config-reschedule-cards-on-change-tooltip = 這個選項控制是否要在啟用 FSRS 或更改權重的同時，更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。根據你的理想留存率，這可能會導致大量卡片到期，因此剛從 SM2 切換到 FSRS 時不建議啟用。
+deck-config-compute-optimal-weights-tooltip =
+    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的權重。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，權重也會不一樣。你不需要經常最佳化權重，幾個月一次就夠了。
+    
+    根據預設，使用當前預設的所有牌組的複習歷史記錄將被用來計算權重。你可以選用在計算權重前調整搜尋條件，更改要用來最佳化權重的卡片。
+deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「理想留存率」欄位中。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
