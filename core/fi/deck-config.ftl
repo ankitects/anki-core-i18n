@@ -287,6 +287,8 @@ deck-config-reschedule-cards-on-change = Aikatauluta kortit uudelleen muutoksen 
 deck-config-fsrs-tooltip =
     Free Spaced Repetition Scheduler (FSRS) on vaihtoehto Ankin vanhalle SuperMemo 2 (SM2) -aikataulutusohjelmalle.
     Se määrittää tarkemmin, milloin olet vaarassa unohtaa oppimaasi, ja auttaa sinua muistamaan enemmän materiaalia samassa ajassa. Tämä asetus vaikuttaa kaikkien pakkojen esiasetuksiin.
+deck-config-sm2-retention-tooltip = Jos todellinen retentiosi ennen FSRS:ään siirtymistä poikkesi merkittävästi 0,9:stä, tämän arvon säätäminen antaa Ankin arvioida paremmin muistisi vahvuuden, kun se kohtaa kortteja, joista puuttuu kertaustiedot. Tavallisesti kertaustiedot ovat tallella, ellei niitä nimenomaisesti ole poistettu tilan vapauttamiseksi. Näin ollen useimpien käyttäjien ei tarvitse säätää tätä arvoa.
+deck-config-weights-tooltip = Mallin painokertoimet vaikuttavat korttien aikataulutukseen. Kun kertauksia on yli 1000, voit optimoida painokertoimet alapuolella.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

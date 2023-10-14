@@ -54,3 +54,4 @@ notetype-error-no-image-to-show = Ei kuvaa näytettäväksi.
 notetypes-no-occlusion-created = Vähintään yksi osa kuvasta on peitettävä.
 notetypes-no-occlusion-created2 = Lisääminen ei onnistu. Joko et ole lisännyt yhtään peitettä tai ensimmäinen kenttä on tyhjä.
 notetypes-io-select-image = Valitse kuva
+notetypes-io-paste-image-from-clipboard = Liitä kuva leikepöydältä
