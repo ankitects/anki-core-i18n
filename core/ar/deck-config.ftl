@@ -338,13 +338,14 @@ deck-config-optimize-button = تعزيز
 deck-config-compute-button = احسب
 deck-config-analyze-button = تحليل
 deck-config-desired-retention = الاحتفاظ المرغوب فيه
+deck-config-sm2-retention = معدل تذكر SM2
 deck-config-smaller-is-better = تشير الأرقام الأصغر إلى تقديرات أفضل للذاكرة.
 deck-config-steps-too-large-for-fsrs = عند تمكين FSRS، لا يوصى بخطوات (إعادة) التعلم بين الأيام.
 deck-config-get-params = الحصول على المعلمات.
 deck-config-fsrs-on-all-clients =
     يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
     بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
-deck-config-set-optimal-retention = ضبط التذكر المرغوب إلى { $num }
+deck-config-estimated-retention = معدل التذكر المقدر: { $num }
 deck-config-complete = اكتمل { $num }%.
 deck-config-reschedule-cards-on-change = إعادة جدولة البطاقات عند التغيير
 
