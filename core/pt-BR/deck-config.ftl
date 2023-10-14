@@ -113,7 +113,7 @@ deck-config-bury-priority-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = Ordem de Exibição
-deck-config-new-gather-priority = Nova ordem de reunião de cartões
+deck-config-new-gather-priority = Agrupamento de cartões novos
 deck-config-new-gather-priority-tooltip-2 =
     `Deck`: reúne as cartas de cada baralho em ordem, começando pelo topo. As cartas de cada baralho são reunidos em posição ascendente. Se o limite diário do baralho selecionado for atingido, podendo parar antes que todos os decks tenham sido verificados. Esta ordem é mais rápida em grandes coleções, e permite priorizar subdecks mais próximos do topo.
     
@@ -132,7 +132,7 @@ deck-config-new-gather-priority-position-lowest-first = Posição ascendente
 deck-config-new-gather-priority-position-highest-first = Posição descendente
 deck-config-new-gather-priority-random-notes = Notas Aleatórias
 deck-config-new-gather-priority-random-cards = Cartões Aleatórios
-deck-config-new-card-sort-order = Nova ordem de classificação de cartões
+deck-config-new-card-sort-order = Classificação de cartões novos
 deck-config-new-card-sort-order-tooltip-2 =
     `Tipo de cartão`: Exibe os cartões na ordem do número do tipo de cartão. Se você tem irmão enterrando desabilitado, isso garantirá que todos os cartões frente→verso sejam vistos antes de qualquer cartão verso→frente. Isto é útil para ter todas as cartas da mesma nota mostradas na mesma sessão, mas não muito próximos um do outro.
     
@@ -143,14 +143,14 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Nota aleatória, depois tipo de cartão`: Escolhe notas aleatoriamente e mostra todos os seus irmãos em ordem.
     
     `Random`: Embaralha totalmente as cartas reunidas.
-deck-config-sort-order-card-template-then-random = Modelo do cartão, então aleatório
-deck-config-sort-order-random-note-then-template = Nota aleatória e, em seguida, tipo de cartão
+deck-config-sort-order-card-template-then-random = Modelo do cartão, depois aleatório
+deck-config-sort-order-random-note-then-template = Nota aleatória e, em seguida, modelo do cartão
 deck-config-sort-order-random = Aleatório
-deck-config-sort-order-template-then-gather = Modelo do cartão, então ordem da reunião
-deck-config-sort-order-gather = Ordem da reunião
-deck-config-new-review-priority = Ordem de novidade/revisão
+deck-config-sort-order-template-then-gather = Modelo do cartão
+deck-config-sort-order-gather = Ordem de agrupamento
+deck-config-new-review-priority = Ordem de novos vs revisão
 deck-config-new-review-priority-tooltip = Quando mostrar novos cartões em relação aos cartões de revisão.
-deck-config-interday-step-priority = Ordem de aprendizagem/revisão entre dias subsequentes.
+deck-config-interday-step-priority = Ordem de aprendizado vs revisão entre dias.
 deck-config-interday-step-priority-tooltip =
     Quando mostrar os cartões de (re)aprendizagem que ultrapassam o limite
     de um dia.
@@ -169,9 +169,9 @@ deck-config-review-sort-order-tooltip =
     primeiro. Se você tiver um grande acúmulo de cartões, levará mais do que alguns dias para
     limpar a fila, ou se desejar ver os cartões em ordem do sub-baralho, você pode encontrar as
     ordens de classificação alternativas preferíveis.
-deck-config-sort-order-due-date-then-random = Data de revisão, então aleatório
-deck-config-sort-order-due-date-then-deck = Data de revisão, então baralho
-deck-config-sort-order-deck-then-due-date = Baralho, então data de revisão
+deck-config-sort-order-due-date-then-random = Data de revisão, depois aleatório
+deck-config-sort-order-due-date-then-deck = Data de revisão, depois baralho
+deck-config-sort-order-deck-then-due-date = Baralho, depois data de revisão
 deck-config-sort-order-ascending-intervals = Intervalos ascendentes
 deck-config-sort-order-descending-intervals = Intervalos descendentes
 deck-config-sort-order-ascending-ease = Facilidade ascendente
