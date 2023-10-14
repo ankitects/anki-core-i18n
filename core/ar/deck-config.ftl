@@ -348,6 +348,11 @@ deck-config-fsrs-on-all-clients =
 deck-config-estimated-retention = معدل التذكر المقدر: { $num }
 deck-config-complete = اكتمل { $num }%.
 deck-config-reschedule-cards-on-change = إعادة جدولة البطاقات عند التغيير
+deck-config-fsrs-tooltip =
+    يعد برنامج جدولة التكرار المتباعد الحر (FSRS) بديلاً لبرنامج جدولة SuperMemo 2 (SM2) القديم الخاص بأنكي.
+    
+    من خلال التحديد الأكثر دقة للموعد المحتمل للنسيان، يمكن أن يساعدك هذا المجدول على تذكر
+    المزيد من المواد في نفس كمية الوقت. تتم مشاركة هذا الإعداد من خلال مجموعات خيارات الرزم.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
