@@ -316,15 +316,20 @@ deck-config-optimize-button = בצע אופטימיזציה
 deck-config-compute-button = חשב
 deck-config-analyze-button = נתח
 deck-config-desired-retention = שימור רצוי
+deck-config-sm2-retention = החזקה בזיכרון לפי SM2
 deck-config-smaller-is-better = מספרים קטנים יותר מצביעים על התאמה טובה יותר להיסטוריית החזרות שלך.
 deck-config-steps-too-large-for-fsrs = כאשר FSRS מופעל, שלבי למידה במשך יום 1 אינם מומלצים.
 deck-config-get-params = קבל פרמטרים
 deck-config-fsrs-on-all-clients =
     אנא ודא שכל לקוחות Anki שלך הם Anki(Mobile) 23.10+ או AnkiDroid 2.17+.
      FSRS לא יעבוד כראוי אם אחד מהלקוחות שלך מתחת לגירסאות אלו.
-deck-config-set-optimal-retention = הגדר את השמירה הרצויה ל { $num }
+deck-config-estimated-retention = שימור  זיכרון משוער: { $num }
 deck-config-complete = { $num } % הושלם.
 deck-config-reschedule-cards-on-change = תזמון מחדש של כרטיסים בשינוי
+deck-config-fsrs-tooltip =
+    מתזמן החזרות החופשיות (FSRS) הוא חלופה למתזמן SuperMemo 2 (SM2) הוותיק של Anki.
+    על ידי קביעה מדויקת יותר מתי החומר צפוי להישכח, זה יכול לעזור לך לזכור
+    יותר חומר באותו פרק זמן. הגדרה זו משותפת לכל ההגדרות המוגדרות מראש של החפיסה.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
