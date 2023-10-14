@@ -275,6 +275,7 @@ deck-config-desired-retention = 正答保持率（目標値）
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
 deck-config-complete = { $num }% 完了
+deck-config-fsrs-tooltip = Free Spaced Repetition Scheduler （フリー〈無料〉の間隔反復スケジューラー、FSRS）は、Ankiの従来のスケジューラーであるSuperMemo 2 （SM2）スケジューラーの代わりに使用できるスケジューラーです。 忘れてしまいそうなタイミングをより正確に予測することで、同じ時間でより多くの内容を記憶することができる可能性があります。このオプションのオン・オフの設定は、すべてのデッキのプリセットに共有されます。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
