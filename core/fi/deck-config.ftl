@@ -276,12 +276,17 @@ deck-config-optimize-button = Optimoi
 deck-config-compute-button = Laske
 deck-config-analyze-button = Analysoi
 deck-config-desired-retention = Toivottu retentio
+deck-config-sm2-retention = SM2-retentio
 deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioita muistista.
 deck-config-steps-too-large-for-fsrs = Kun FSRS on päällä, usean päivän aikaisen (uudelleen)oppimisen askelten käyttöä ei suositella.
 deck-config-get-params = Hae parametrit
 deck-config-fsrs-on-all-clients = Varmista, että kaikki käyttämäsi Anki-ohjelmat ovat versioita Anki(Mobile) 23.10+ tai AnkiDroid 2.17+. FSRS ei toimi oikein, jos käytät vanhempaa versiota jollakin laitteella.
-deck-config-set-optimal-retention = Aseta toivottu retentio arvoon { $num }
+deck-config-estimated-retention = Arvioitu retentio: { $num }
 deck-config-complete = { $num } % valmis.
+deck-config-reschedule-cards-on-change = Aikatauluta kortit uudelleen muutoksen yhteydessä
+deck-config-fsrs-tooltip =
+    Free Spaced Repetition Scheduler (FSRS) on vaihtoehto Ankin vanhalle SuperMemo 2 (SM2) -aikataulutusohjelmalle.
+    Se määrittää tarkemmin, milloin olet vaarassa unohtaa oppimaasi, ja auttaa sinua muistamaan enemmän materiaalia samassa ajassa. Tämä asetus vaikuttaa kaikkien pakkojen esiasetuksiin.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
