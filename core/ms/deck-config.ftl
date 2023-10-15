@@ -146,6 +146,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Kad rawak`: kumpul kad secara rawak sepenuhnya.
 deck-config-new-gather-priority-deck = Dek
+deck-config-new-gather-priority-deck-then-random-notes = Dek kemudian nota rawak
 deck-config-new-gather-priority-position-lowest-first = Posisi menaik
 deck-config-new-gather-priority-position-highest-first = Posisi menurun
 deck-config-new-gather-priority-random-notes = Nota rawak
@@ -211,7 +212,7 @@ deck-config-display-order-will-use-current-deck =
 deck-config-timer-title = Pemasa
 deck-config-maximum-answer-secs = Maksimum saat menjawab
 deck-config-maximum-answer-secs-tooltip =
-    Bilangan saat untuk rekod bagi suatu semakan. Jika jawapan lebih masa ini
+    Bilangan saat maksimum untuk rekod bagi suatu semakan. Jika jawapan lebih masa ini
     (contohnya, anda lakukan kerja lain), masa diambil akan dihadkan ikut
     tetapan anda.
 deck-config-show-answer-timer-tooltip =
@@ -226,9 +227,32 @@ deck-config-disable-autoplay-tooltip =
     Jika didayakan, Anki tidak akan mainkan audio secara automatik.
     Audio boleh dimainkan dengan menekan ikon audio, atau menggunakan tindakan main semula audio.
 deck-config-skip-question-when-replaying = Langkau soalan apabila main semula jawapan
+deck-config-always-include-question-audio-tooltip =
+    Sama ada audio soalan sertai apabila tindakan main semula digunakan
+    semasa melihat sisi jawapan kad.
+deck-config-stop-timer-on-answer = Berhenti pemasa apabila menjawab
+deck-config-stop-timer-on-answer-tooltip =
+    Sama ada masa dihentikan apabila jawapan ditunjukkan.
+    Ini tidak mengubah masa diambil.
 
 ## Advanced section
 
+deck-config-advanced-title = Lanjutan
+deck-config-maximum-interval-tooltip =
+    Bilangan maksimum hari suatu kad semakan boleh ditangguh. Apabila
+    semakan mencapai had, `Susah`, `Baik` dan `Senang` akan beri tundaan
+    yang sama. Semakin singkat tetapan ini, semakin berat beban anda.
+deck-config-starting-ease-tooltip =
+    Pekali longgaran kad baru mulakan. Secara lalai, butang `Baik` pada kad baru
+    tamat belajar akan tunda semakan seterusnya 2.5x tundaan sebelumnya.
+deck-config-easy-bonus-tooltip = Pekali lebihan kepada selang kad semakan apabila anda jawab `Senang`
+deck-config-interval-modifier-tooltip =
+    Pekali ini digunakan dalam semua semakan, dan suaian kecil boleh
+    digunakan agar Anki lebih agresif atau tidak dalam penjadualannya. Sila
+    lihat manual sebelum mengubah tetapan ini.
+deck-config-hard-interval-tooltip = Pekali kepada selang semakan apabila menjawab `Susah`.
+deck-config-new-interval-tooltip = Pekali kepada selang semakan apabila menjawab `Ulang`.
+deck-config-minimum-interval-tooltip = Selang minimum diberikan kepada kad semakan apabila menjawab `ulang`.
 
 ## Adding/renaming
 
