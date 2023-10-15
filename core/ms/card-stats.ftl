@@ -1,7 +1,7 @@
 card-stats-added = Ditambah
 card-stats-first-review = Semakan Pertama
 card-stats-latest-review = Semakan Terakhir
-card-stats-interval = Seling
+card-stats-interval = Selang
 card-stats-ease = Longgaran
 card-stats-review-count = Semakan
 card-stats-lapse-count = Cuaian

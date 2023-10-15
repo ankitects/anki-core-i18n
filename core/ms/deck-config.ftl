@@ -86,7 +86,7 @@ deck-config-relearning-steps = Langkah belajar semula
 deck-config-relearning-steps-tooltip =
     Kosong atau lebih tundaan, diasingkan oleh ruang kosong. Secara lalai, tekan butang
     `Ulang` pada kad semakan akan tunjukkannya lagi 10 minit kemudian. Jika tiada
-    tundaan diberikan, seling kad tersebut akan diubah, tanpa belajar semula.
+    tundaan diberikan, selang kad tersebut akan diubah, tanpa belajar semula.
     { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Bilangan kali `Ulang`  perlu ditekan pada kad semakan sebelum ditanda lintah.
@@ -111,7 +111,7 @@ deck-config-bury-new-tooltip =
     akan ditunda sehingga hari esok.
 deck-config-bury-review-tooltip = Sama ada kad `semakan`lain nota yang sama akan ditunda sehingga hari esok.
 deck-config-bury-interday-learning-tooltip =
-    Sama ada kad `belajar` lain nota yang sama dengan seling > 1 hari
+    Sama ada kad `belajar` lain nota yang sama dengan selang > 1 hari
     akan ditunda sehingga hari esok.
 deck-config-bury-priority-tooltip =
     Apabila Anki kumpul kad, mula-mula kumpul kad belajar sehari, kemudian
@@ -151,12 +151,81 @@ deck-config-new-gather-priority-position-highest-first = Posisi menurun
 deck-config-new-gather-priority-random-notes = Nota rawak
 deck-config-new-gather-priority-random-cards = Kad rawak
 deck-config-new-card-sort-order = Susunan kad baru
+deck-config-new-card-sort-order-tooltip-2 =
+    `Jenis kad`: Tunjuk kad dalam susunan nombor jenis kad. Jika anda lumpuhkan adik beradik
+    tersorok, ini akan pastikan semua kad front→back ditunjuk sebelum mana-mana kad back→front.
+    Berguna bagi memastikan semua kad nota sama ditunjuk dalam sesi sama, tetapi tidak terlalu
+    rapat.
+    
+    `Susunan pungutan`: Tunjuk kad ikut susunan dikumpulkan. Jika anda lumpuhkan adik beradik
+    tersorok, ini akan pastikan semua kad suatu nota ditunjuk satu demi satu.
+    
+    `Jenis kad, kemudian rawak`: Seperti `Jenis kad`, tetapi kocok kad-kad setiap nombor jenis
+    kad. Jika anda tetapkan `Susunan menaik` untuk pungut kad tertua, anda boleh guna tetapan
+    ini untuk tunjuk kad tersebut dalam susunan rawak, tetapi pastikan semua kad nota sama tidak
+    terlalu rapat.
+    
+    `Nota rawak, kemudian jenis kad`: Pilih nota secara rawak, kemudian tunjuk semua adik-beradik
+    ikut susunan.
+    
+    `Rawak`: Kocok kad pungutan sepenuhnya
+deck-config-sort-order-card-template-then-random = Jenis kad, kemudian rawak
+deck-config-sort-order-random-note-then-template = Nota rawak, kemudian jenis kad
+deck-config-sort-order-random = Rawak
+deck-config-sort-order-template-then-gather = Jenis kad
+deck-config-sort-order-gather = Susunan pungutan
+deck-config-new-review-priority = Susunan baru/semakan
+deck-config-new-review-priority-tooltip = Bila untuk tunjuk kad baru berbanding kad semakan
+deck-config-interday-step-priority = Susunan belajar berhari/semakan
+deck-config-interday-step-priority-tooltip =
+    Bila tunjuk kad belajar (semula) lebihi sehari.
+    
+    Had semakan masih digunakan dahulu kepada kad belajar berhari, kemudian kad semakan.
+    Tetapan ini akan kawal susunan kad pungutan yang akan ditunjuk, tetapi kad belajar
+    berhari akan sentiasa dipungut terlebih dahlulu.
+deck-config-review-mix-mix-with-reviews = Campur bersama semakan
+deck-config-review-mix-show-after-reviews = Tunjuk selepas semakan
+deck-config-review-mix-show-before-reviews = Tunjuk sebelum semakan
+deck-config-review-sort-order = Susunan semakan
+deck-config-review-sort-order-tooltip =
+    Susunan lalai utamakan kad paling lama tunggu, maka jika anda ada semakan
+    tertangguh, kad paling lama ditangguh akan ditunjuk dahulu. Jika kad tertangguh
+    anda besar yang akan mengambil beberapa hari untuk selesaikan, atau mahu
+    tunjuk kad dalam susunan subdek, susunan lain mungkin lebih baik.
+deck-config-sort-order-due-date-then-random = Tarikh tunggakan, kemudian rawak
+deck-config-sort-order-due-date-then-deck = Tarikh tunggakan, kemudian dek
+deck-config-sort-order-deck-then-due-date = Dek, kemudian tarikh tunggakan
+deck-config-sort-order-ascending-intervals = Selang menaik
+deck-config-sort-order-descending-intervals = Selang menurun
+deck-config-sort-order-ascending-ease = Longgaran menaik
+deck-config-sort-order-descending-ease = Longgaran menurun
+deck-config-sort-order-ascending-difficulty = Kesukaran menaik
+deck-config-sort-order-descending-difficulty = Kesukaran menurun
+deck-config-sort-order-relative-overdueness = Terlebih tunggak secara relatif
+deck-config-display-order-will-use-current-deck =
+    Anki akan menggunakan susunan tunjuk daripada
+    dek anda ulang kaji, dan bukan subdeknya.
 
 ## Timer section
 
+deck-config-timer-title = Pemasa
+deck-config-maximum-answer-secs = Maksimum saat menjawab
+deck-config-maximum-answer-secs-tooltip =
+    Bilangan saat untuk rekod bagi suatu semakan. Jika jawapan lebih masa ini
+    (contohnya, anda lakukan kerja lain), masa diambil akan dihadkan ikut
+    tetapan anda.
+deck-config-show-answer-timer-tooltip =
+    Dalam skrin semakan, tunjuk pemasa yang kira bilangan saat diambil untuk
+    semak setiap kad.
 
 ## Audio section
 
+deck-config-audio-title = Audio
+deck-config-disable-autoplay = Jangan mainkan audio secara automatik
+deck-config-disable-autoplay-tooltip =
+    Jika didayakan, Anki tidak akan mainkan audio secara automatik.
+    Audio boleh dimainkan dengan menekan ikon audio, atau menggunakan tindakan main semula audio.
+deck-config-skip-question-when-replaying = Langkau soalan apabila main semula jawapan
 
 ## Advanced section
 
@@ -178,6 +247,9 @@ deck-config-new-card-sort-order = Susunan kad baru
 
 
 ## Selecting a deck
+
+
+## Messages related to the FSRS scheduler
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
