@@ -24,6 +24,9 @@ card-stats-review-log-type-filtered = Ditapis
 card-stats-review-log-type-manual = Manual
 card-stats-no-card = (Tiada kad untuk tunjuk.)
 card-stats-custom-data = Data Tersuai
+card-stats-fsrs-stability = Kestabilan
+card-stats-fsrs-difficulty = Kesukaran
+card-stats-fsrs-retrievability = Perolehan semula
 
 ## Window Titles
 

@@ -55,7 +55,7 @@ actions-previous-card-info = Info Kad Sebelumnya
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Tindakan ini tidak disokong oleh sistem anda.
+actions-fullscreen-unsupported = Mod skrin penuh tidak disokong oleh driver video anda. Cuba tukar kepada yang lain daripada skrin tetapan.
 
 ## Flags
 
