@@ -272,6 +272,7 @@ deck-config-optimize-button = 最適化
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 正答保持率（目標値）
+deck-config-smaller-is-better = 各数値が小さいほど、復習履歴との適合性が高いことを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
 deck-config-complete = { $num }% 完了

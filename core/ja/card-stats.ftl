@@ -26,6 +26,7 @@ card-stats-no-card = （表示するカードがありません）
 card-stats-custom-data = カスタムデータ
 card-stats-fsrs-stability = 安定性
 card-stats-fsrs-difficulty = 難度
+card-stats-fsrs-retrievability = 正答可能性
 
 ## Window Titles
 
