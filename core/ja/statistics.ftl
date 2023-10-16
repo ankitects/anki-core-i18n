@@ -61,10 +61,11 @@ statistics-range-search = 検索
 statistics-card-ease-title = カードの易しさ
 statistics-card-difficulty-title = カードの難度
 statistics-card-stability-title = カードの安定性
-statistics-card-stability-subtitle = 90％の確率で正答できると予測される間隔
-statistics-card-retrievability-title = カードの正答可能性
+statistics-card-stability-subtitle = 90％の確率で正答できると予測される間隔日数と枚数〔面グラフと右軸は累計枚数〕
+statistics-card-retrievability-title = カードの推定正答率
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
 statistics-card-difficulty-subtitle = 難度が高いほど、思い出すことが難しくなります。
+statistics-retrievability-subtitle = 各カードの正答を思い出せる可能性がどれくらいあるか、を表します。
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -75,12 +76,17 @@ statistics-card-difficulty-tooltip =
         [one] 難度が{ $percent }のカード: { $cards }枚
        *[other] 難度が{ $percent }のカード: { $cards }枚
     }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] 推定正答率が{ $percent }のカード: { $cards }枚
+       *[other] 推定正答率が{ $percent }のカード: { $cards }枚
+    }
 statistics-future-due-title = 今後の課題
-statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数
+statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数〔面グラフと右軸は累計枚数〕
 statistics-added-title = 追加
-statistics-added-subtitle = 新規カードを追加した枚数
-statistics-reviews-count-subtitle = 学習した枚数（カードに回答した回数）
-statistics-reviews-time-subtitle = カードの学習（回答）に費やした時間
+statistics-added-subtitle = 新規カードを追加した枚数〔面グラフと右軸は累計〕
+statistics-reviews-count-subtitle = 学習した期間と枚数（カードに回答した回数）〔面グラフと右軸は累計〕
+statistics-reviews-time-subtitle = 学習した期間と学習（回答）に費やした時間〔面グラフと右軸は累計〕
 statistics-answer-buttons-title = 回答ボタン
 # eg Button: 4
 statistics-answer-buttons-button-number = ボタン
@@ -109,7 +115,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = 延滞込み
 statistics-intervals-title = 復習間隔
-statistics-intervals-subtitle = 次の復習までの間隔（日数）とそれぞれのカード枚数
+statistics-intervals-subtitle = 次の復習までの間隔日数と復習枚数〔面グラフと右軸は累計枚数〕
 statistics-intervals-day-range =
     { $cards ->
        *[other] 復習間隔が{ $daysStart }~{ $daysEnd }日のカード: { $cards }枚
@@ -126,7 +132,7 @@ statistics-hours-reviews = 📊 { $reviews }回
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 正解率 { $percent }% ({ $reviews }回)
 statistics-hours-title = 時間帯の分析
-statistics-hours-subtitle = 時間帯ごとの学習回数と正解率
+statistics-hours-subtitle = 時間帯ごとの学習回数〔面グラフと右軸は正解率〕
 # shown when graph is empty
 statistics-no-data = データなし
 statistics-calendar-title = カレンダー
@@ -151,7 +157,7 @@ statistics-total = 合計
 statistics-days-studied = 学習した日の割合
 statistics-average-answer-time-label = 平均回答時間
 statistics-average = 平均
-statistics-average-interval = 平均復習間隔
+statistics-average-interval = 復習間隔の平均
 statistics-due-tomorrow = 明日が期日
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
@@ -169,7 +175,8 @@ statistics-cards-per-day =
        *[other] { $count }枚 / 日
     }
 statistics-average-ease = 易しさの平均値
-statistics-average-difficulty = 平均難度
+statistics-average-difficulty = 難度の平均
+statistics-average-retrievability = 推定正答率の平均
 statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計
