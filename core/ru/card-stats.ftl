@@ -24,6 +24,8 @@ card-stats-review-log-type-filtered = Отфильтрованые
 card-stats-review-log-type-manual = Ручной
 card-stats-no-card = (Нет карточек для показа)
 card-stats-custom-data = Особые данные
+card-stats-fsrs-stability = Стабильность
+card-stats-fsrs-difficulty = Сложность
 
 ## Window Titles
 

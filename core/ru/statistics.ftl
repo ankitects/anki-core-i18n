@@ -107,6 +107,8 @@ statistics-range-deck = пакет
 statistics-range-collection = коллекция
 statistics-range-search = Поиск
 statistics-card-ease-title = Лёгкость карточек
+statistics-card-difficulty-title = Сложность карточки
+statistics-card-stability-title = Стабильность карточки
 statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карта.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -233,6 +235,7 @@ statistics-cards-per-day =
        *[other] { $count } карточек за день
     }
 statistics-average-ease = Средняя лёгкость
+statistics-average-difficulty = Средняя сложность
 statistics-save-pdf = Сохранить как PDF
 statistics-saved = Сохранено.
 statistics-stats = статистика

@@ -60,6 +60,10 @@ importing-unable-to-import-from-a-readonly = Не удалось импорти�
 importing-unknown-file-format = Неизвестный формат файла.
 importing-update-existing-notes-when-first-field = Обновить существующие записи, если первое поле совпадает
 importing-updated = Обновлено
+importing-update-always = Всегда
+importing-update-never = Никогда
+importing-update-notes = Обновить записи
+importing-update-notetypes = Обновить типы записей
 importing-note-added =
     { $count ->
         [one] { $count } запись добавлена

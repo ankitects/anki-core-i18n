@@ -139,6 +139,8 @@ deck-config-sort-order-ascending-intervals = По возрастанию инт�
 deck-config-sort-order-descending-intervals = По убыванию интервалов
 deck-config-sort-order-ascending-ease = По увеличению лёгкости
 deck-config-sort-order-descending-ease = По уменьшению лёгкости
+deck-config-sort-order-ascending-difficulty = По возрастанию сложности
+deck-config-sort-order-descending-difficulty = По убыванию сложности
 deck-config-sort-order-relative-overdueness = Относительная просроченность
 deck-config-display-order-will-use-current-deck = Anki будет использовать порядок показа из колоды, которую вы выбрали для учёбы, а не из её подколод.
 
@@ -158,6 +160,7 @@ deck-config-disable-autoplay-tooltip =
     Звук можно воспроизвести вручную нажав на иконку или на кнопку "Воспроизвести снова".
 deck-config-skip-question-when-replaying = Пропускать вопрос при воспроизведении ответа
 deck-config-always-include-question-audio-tooltip = Будет ли озвучиваться вопрос, если включено повторное произведение при просмотре ответа
+deck-config-stop-timer-on-answer = Остановить таймер при ответе
 
 ## Advanced section
 
@@ -226,6 +229,10 @@ deck-config-which-deck = Какую колоду вы выбираете?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-optimize-button = Оптимизировать
+deck-config-compute-button = Вычислить
+deck-config-analyze-button = Анализировать
+deck-config-get-params = Получить параметры
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
