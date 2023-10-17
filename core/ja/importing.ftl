@@ -46,6 +46,7 @@ importing-multicharacter-separators-are-not-supported-please = 複数文字の�
 importing-notes-added-from-file = ファイルから追加したノート: { $val }枚
 importing-notes-found-in-file = ファイル内にあるノート: { $val }枚
 importing-notes-skipped-as-theyre-already-in = すでにコレクション内に最新版が存在するためスキップされたノート: { $val }枚
+importing-notes-skipped-update-due-to-notetype = ノートでの更新を行いませんでした（既存のノートのノートタイプが変更されているため）: { $val }枚
 importing-notes-updated-as-file-had-newer = ファイル内に最新版が存在するため更新したノート: { $val }個
 importing-include-reviews = 学習履歴を含める
 importing-include-reviews-help = オンにすると、このデッキに（デッキ作成者の）以前の学習履歴が含まれている場合、その履歴もインポートします。オフにすると、すべてのカードを新規カードとしてインポートします。
@@ -141,12 +142,13 @@ importing-notes-updated =
     }
 importing-existing-notes-skipped =
     { $count ->
-       *[other] { $count }個のノートは、すでにコレクション内に存在します。
+       *[other] { $count }個のノートは同じノートがすでにコレクション内に存在します。
     }
 importing-conflicting-notes-skipped2 =
     { $count ->
-       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、`{ importing-merge-notetypes }` のオプションがオフになっているため）
+       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、「{ importing-merge-notetypes }」のオプションがオフになっているため）
     }
+importing-import-log = インポート ログ
 importing-no-notes-in-file = ノートがファイル内で見つかりませんでした。
 importing-notes-found-in-file2 =
     { $notes ->
@@ -158,7 +160,10 @@ importing-status = 状態
 importing-duplicate-note-added = 重複しているノートを追加しました
 importing-added-new-note = 新規ノートとして追加しました
 importing-existing-note-skipped = このノートのインポートをスキップしました（このノートの最新版がコレクション内にすでに存在するため）
+importing-note-skipped-update-due-to-notetype = このノートでの更新を行いませんでした（既存のノートのノートタイプが変更されているため）
 importing-note-updated-as-file-had-newer = ファイル内に最新版が存在するためノートを更新しました
+importing-note-skipped-due-to-missing-notetype = このノートのインポートをスキップしました（ノートタイプが不明なため）
+importing-note-skipped-due-to-missing-deck = このノートのインポートをスキップしました（デッキが不明なため）
 importing-note-skipped-due-to-empty-first-field = このノートのインポートをスキップしました（最初のフィールドが空のため）
 importing-field-separator-help =
     テキストファイル内のフィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
