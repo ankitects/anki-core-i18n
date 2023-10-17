@@ -67,6 +67,7 @@ editing-mathjax-preview = MathJax のプレビュー
 editing-shrink-images = 画像をコンパクトなサイズで表示
 editing-close-html-tags = HTMLの終了タグを自動で付ける
 editing-from-clipboard = クリップボードから
+editing-alignment = 配置
 editing-no-image-found-on-clipboard = クリップボードに画像が見つかりません。
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
