@@ -27,6 +27,9 @@ exporting-exported-media-file =
     }
 exporting-note-exported =
     { $count ->
-       *[other] { $count } 個のノートを書き出しました。
+       *[other] { $count }個のノートを書き出しました。
     }
 exporting-exporting-file = ファイルをエクスポート中...
+exporting-include-deck = デッキ名を含める
+exporting-include-notetype = ノートタイプ名を含める
+exporting-include-guid = ユニークIDを含める

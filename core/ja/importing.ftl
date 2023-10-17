@@ -73,17 +73,18 @@ importing-update-always = 常に
 importing-update-never = 更新しない
 importing-update-notes = ノートを更新
 importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、マッチしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
+importing-update-notetypes = ノートタイプを更新
 importing-update-notetypes-help =
     どういう場合にコレクション内の既存のノートタイプを更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、マッチしたノートタイプの方を最近変更している場合にのみ、既存のノートタイプを更新します。
     
     カードタイプのテンプレート内のテキストまたはスタイルの変更は常にインポートできますが、ノートタイプのスキーマの変更（例. フィールドの数や順序の変更）には、'{ importing-merge-notetypes }'オプションもオンにする必要があります。
 importing-note-added =
     { $count ->
-       *[other] { $count } 個のノートを追加しました。
+       *[other] { $count }個のノートを追加しました。
     }
 importing-note-imported =
     { $count ->
-       *[other] { $count } 個のノートをインポートしました。
+       *[other] { $count }個のノートをインポートしました。
     }
 importing-note-unchanged =
     { $count ->
@@ -91,7 +92,7 @@ importing-note-unchanged =
     }
 importing-note-updated =
     { $count ->
-       *[other] { $count } 個のノートを更新しました。
+       *[other] { $count }個のノートを更新しました。
     }
 importing-processed-media-file =
     { $count ->
@@ -127,24 +128,24 @@ importing-cards-added =
 importing-file-empty = 選択したファイルが空です。
 importing-notes-added =
     { $count ->
-       *[other] 個のノートを新規ノートとしてインポートしました。
+       *[other] { $count }個のノートを新規ノートとしてインポートしました。
     }
 importing-notes-updated =
     { $count ->
-       *[other] 個のノートを使用して既存のノートを更新しました。
+       *[other] { $count }個のノートを使用して既存のノートを更新しました。
     }
 importing-existing-notes-skipped =
     { $count ->
-       *[other] 個のノートは、すでにコレクション内に存在します。
+       *[other] { $count }個のノートは、すでにコレクション内に存在します。
     }
 importing-conflicting-notes-skipped2 =
     { $count ->
-       *[other] 個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、'{ importing-merge-notetypes }'のオプションがオフになっているため）
+       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、'{ importing-merge-notetypes }'のオプションがオフになっているため）
     }
 importing-no-notes-in-file = ノートがファイル内で見つかりませんでした。
 importing-notes-found-in-file2 =
     { $notes ->
-       *[other] 個のノート
+       *[other] { $notes }個のノート
     }がファイル内で見つかりました。内訳は下記の通りです:
 importing-show = 表示
 importing-details = 詳細

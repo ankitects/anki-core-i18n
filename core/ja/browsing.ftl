@@ -103,7 +103,7 @@ browsing-group =
     }
 browsing-note-count =
     { $count ->
-       *[other] { $count } 個のノート
+       *[other] { $count }個のノート
     }
 browsing-notes-updated =
     { $count ->

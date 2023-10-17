@@ -267,7 +267,7 @@ deck-config-must-have-1000-reviews =
        *[other] 復習カードが{ $count }枚しか見つかりません。
     }最適化された重みを算出するには1000枚以上の復習カードが必要です。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = 各モデルの重み
+deck-config-weights = モデルの重み
 deck-config-compute-optimal-weights = FSRSの重みを最適化
 deck-config-compute-optimal-retention = 最適な正答保持率を計算
 deck-config-optimize-button = 最適化
@@ -289,7 +289,13 @@ deck-config-sm2-retention-tooltip =
     FSRSに切り替える前の実際の正答保持率が0.9と大きく異なる場合にこの値を実態に即した値に調整することで、カードの復習履歴が不十分な場合に、あなたの成績をAnkiがをより適切に推定できるようになります。
     
     通常、復習履歴は、（ストレージの空き容量を増やすなどの理由で）意図的に削除でもしない限り失われることはないため、ほとんどのユーザーはこの値を調整する必要はありません。
-deck-config-weights-tooltip = 各モデルの重みは、カードの復習のスケジュールに影響を与えます。1000件以上の復習履歴が蓄積されたら、後続のオプションで重みを最適化することができます。
+deck-config-weights-tooltip = モデルの重みは、カードの復習のスケジュールに影響を与えます。1000件以上の復習履歴が蓄積されたら、後続のオプションで重みを最適化することができます。
+deck-config-reschedule-cards-on-change-tooltip =
+    このオプションは、FSRSを有効にしたとき、または重みを変更したときに、カードの期日を変更するかどうかを設定します。
+    
+    このオプションがデフォルト（オフ）の場合、カードの再スケジュールは行いません。将来の復習では新しいスケジュールを使用しますが、直ちに学習負担に影響を及ぼすことはありません。
+    
+    このオプションがオンの場合、カードの期日を変更します。目標とする正答保持率にもよりますが、大量のカードが期日を迎える可能性があるため、SM2からの切り替えの際にオンにすることはお勧めしません。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
