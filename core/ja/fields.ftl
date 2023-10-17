@@ -20,3 +20,4 @@ fields-name-invalid-letter = フィールド名にはこれらを含めること
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = フィールドを指定しない検索では除外（検索速度低下）
+fields-field-is-required = これは必須フィールドであり、削除できません。
