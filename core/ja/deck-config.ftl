@@ -266,12 +266,15 @@ deck-config-must-have-1000-reviews =
         [one] 復習カードが{ $count }枚しか見つかりません。
        *[other] 復習カードが{ $count }枚しか見つかりません。
     }最適化された重みを算出するには1000枚以上の復習カードが必要です。
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = 各モデルの重み
 deck-config-compute-optimal-weights = FSRSの重みを最適化
 deck-config-compute-optimal-retention = 最適な正答保持率を計算
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 計算
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 正答保持率（目標値）
+deck-config-sm2-retention = SM2での正答保持率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴との適合性が高いことを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
@@ -282,6 +285,11 @@ deck-config-desired-retention-tooltip =
     この値を上げると、Ankiはあなたが正答を思い出しやすくするために、より頻繁に、つまり、より短めの間隔でカードを表示します。
     この値を下げると、より少ない頻度で、つまり、より長めの間隔でカードを表示し、結果として、あなたは正答を思い出しにくくなります。
     この値を調整は、控えめに、慎重に行ってください。値を上げすぎると、学習量が大幅に増えて重荷になってしまいますし、値を下げすぎると、忘れてしまうことが多くてやる気をなくしてしまうかもしれません。
+deck-config-sm2-retention-tooltip =
+    FSRSに切り替える前の実際の正答保持率が0.9と大きく異なる場合にこの値を実態に即した値に調整することで、カードの復習履歴が不十分な場合に、あなたの成績をAnkiがをより適切に推定できるようになります。
+    
+    通常、復習履歴は、（ストレージの空き容量を増やすなどの理由で）意図的に削除でもしない限り失われることはないため、ほとんどのユーザーはこの値を調整する必要はありません。
+deck-config-weights-tooltip = 各モデルの重みは、カードの復習のスケジュールに影響を与えます。1000件以上の復習履歴が蓄積されたら、後続のオプションで重みを最適化することができます。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
