@@ -1,6 +1,7 @@
 importing-failed-debug-info = インポートに失敗しました。デバッグ情報:
 importing-aborted = 中断: { $val }
 importing-added-duplicate-with-first-field = 最初のフィールドが重複したノートを追加しました: { $val }
+importing-all-supported-formats = サポートされているファイル形式 { $val }
 importing-allow-html-in-fields = フィールド内でHTMLを使う
 importing-anki-files-are-from-a-very = .ankiファイルはAnkiのとても古いバージョンのものです。それらのファイルは、Ankiのウェブサイトより入手可能なAnki 2.0を使用してインポートすることができます。
 importing-anki2-files-are-not-directly-importable = .anki2ファイルを直接インポートすることはできません。代わりに受信した.apkgまたは.zipファイルをインポートしてください。
@@ -75,9 +76,9 @@ importing-update-notes = ノートを更新
 importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、マッチしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
 importing-update-notetypes = ノートタイプを更新
 importing-update-notetypes-help =
-    どういう場合にコレクション内の既存のノートタイプを更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、マッチしたノートタイプの方を最近変更している場合にのみ、既存のノートタイプを更新します。
+    マッチしているコレクション内の既存のノートタイプをどういう場合に更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、インポートするノートタイプを最近編集している場合にのみ、既存のノートタイプを更新します。
     
-    カードタイプのテンプレート内のテキストまたはスタイルの変更は常にインポートできますが、ノートタイプのスキーマの変更（例. フィールドの数や順序の変更）には、'{ importing-merge-notetypes }'オプションもオンにする必要があります。
+    カードタイプのテンプレート内のテキストまたはCSSスタイルの変更は常にインポートされますが、ノートタイプのスキーマ（例. フィールドの数や順序）の変更には、`{ importing-merge-notetypes }` オプションもオンにする必要があります。
 importing-note-added =
     { $count ->
        *[other] { $count }個のノートを追加しました。
@@ -132,7 +133,7 @@ importing-notes-added =
     }
 importing-notes-updated =
     { $count ->
-       *[other] { $count }個のノートを使用して既存のノートを更新しました。
+       *[other] { $count }個のノートは、既存のノートを更新するために使用しました。
     }
 importing-existing-notes-skipped =
     { $count ->
