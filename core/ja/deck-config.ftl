@@ -121,6 +121,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `ランダム（カード単位）`: 完全にランダムにカードを集めます。
 deck-config-new-gather-priority-deck = デッキの並び順（上から）
+deck-config-new-gather-priority-deck-then-random-notes = デッキの並び順（上から）→ランダム（ノート単位）
 deck-config-new-gather-priority-position-lowest-first = 位置（新規カード番号）の昇順
 deck-config-new-gather-priority-position-highest-first = 位置（新規カード番号）の降順
 deck-config-new-gather-priority-random-notes = ランダム（ノート単位）

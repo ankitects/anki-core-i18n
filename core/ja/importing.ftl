@@ -88,7 +88,7 @@ importing-note-imported =
     }
 importing-note-unchanged =
     { $count ->
-       *[other] { $count } 個のノートを変更しませんでした
+       *[other] { $count }個のノートを変更しませんでした
     }
 importing-note-updated =
     { $count ->
