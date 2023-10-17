@@ -53,6 +53,7 @@ actions-previous-card-info = 直前カード情報
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = 使用しているビデオドライバでは、フルスクリーンモードはサポートされていません。[設定] → [表示] の画面で別のドライバに切り替えてみてください。
 
 ## Flags
 

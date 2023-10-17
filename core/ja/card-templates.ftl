@@ -32,7 +32,7 @@ card-templates-card = カード { $val }
 card-templates-card-types-for = 「{ $val }」が使用するカードタイプ
 card-templates-cloze = 穴埋め { $val }
 card-templates-deck-override = デッキ選択を上書き...
-card-templates-delete-the-as-card-type-and = カードタイプ「{ $template }」とその { $cards } を削除しますか？
+card-templates-delete-the-as-card-type-and = カードタイプ「{ $template }」とそれを使用している{ $cards }を削除しますか？
 card-templates-enter-deck-to-place-new = カードタイプ「{ $val }」から生成される新規カードを追加するデッキを選択してください。ここでデッキを選択すると、「追加」ウィンドウでのデッキの選択は無視されます。未指定（空欄）のままにしておくこともできます。
 card-templates-enter-new-card-position-1 = カードの新しい位置を入力してください (1...{ $val }):
 card-templates-flip = 反転
@@ -50,6 +50,7 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] { $count }枚のカードが作成されます。続行しますか？
     }
+card-templates-type-boxes-warning = カードテンプレート1つにつき、文字入力ボックスは1つのみサポートされます。
 card-templates-restore-to-default = デフォルトに戻す
 card-templates-restore-to-default-confirmation = この操作を行うと、このノートタイプに含まれるすべてのフィールドとテンプレートの設定が初期状態にリセットされます。追加したフィールドやテンプレート、それらの内容、スタイリングの変更はいずれも削除されます。本当にこのまま操作を行ってよろしいですか？
 card-templates-restored-to-default = ノートタイプを元の状態に復元しました。

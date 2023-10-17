@@ -1,5 +1,5 @@
 fields-add-field = フィールドを追加
-fields-delete-field-from = { $val } からフィールドを削除しますか？
+fields-delete-field-from = { $val } からこのフィールドを削除しますか？
 fields-editing-font = フォントを編集
 fields-field = フィールド:
 fields-field-name = フィールド名:

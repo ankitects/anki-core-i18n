@@ -1,5 +1,3 @@
-errors-invalid-input-empty = 無効な入力です。
-errors-invalid-input-details = 無効な入力: { $details }
 errors-parse-number-fail = 入力された数が無効か範囲外です。
 errors-filtered-parent-deck = フィルターデッキにサブデッキは作れません。
 errors-filtered-deck-required = このアクションはフィルターデッキでのみ使用できます。
@@ -11,8 +9,14 @@ errors-multiple-notetypes-selected = 同じノートタイプのノートを選�
 errors-please-check-database = データベースをチェック機能を使用した後、再度お試しください。
 errors-please-check-media = 「メディアをチェック」機能を使用した後、再度お試しください。
 errors-collection-too-new = このコレクションを開くには新しいバージョンのAnkiが必要です。
+errors-inconsistent-db-state = データベースが矛盾した状態にあるようです。[ツール] → [データベースをチェック] の操作を行ってください。
 
 ## Card Rendering
 
 errors-bad-directive = 指示のエラー'{ $directive }':{ $error }
 errors-option-not-set = '{ $option }'  が設定されていません
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+errors-invalid-input-empty = 無効な入力です。
+errors-invalid-input-details = 無効な入力: { $details }
