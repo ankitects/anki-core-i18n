@@ -107,6 +107,10 @@ importing-processed-notes =
     { $count ->
        *[other] { $count }個のノートを追加しています...
     }
+importing-processed-cards =
+    { $count ->
+       *[other] { $count }枚のカードの処理が完了しました...
+    }
 importing-existing-notes = 既存のノート
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = 重複を許す
@@ -141,7 +145,7 @@ importing-existing-notes-skipped =
     }
 importing-conflicting-notes-skipped2 =
     { $count ->
-       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、'{ importing-merge-notetypes }'のオプションがオフになっているため）
+       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、`{ importing-merge-notetypes }` のオプションがオフになっているため）
     }
 importing-no-notes-in-file = ノートがファイル内で見つかりませんでした。
 importing-notes-found-in-file2 =
@@ -151,8 +155,11 @@ importing-notes-found-in-file2 =
 importing-show = 表示
 importing-details = 詳細
 importing-status = 状態
+importing-duplicate-note-added = 重複しているノートを追加しました
 importing-added-new-note = 新規ノートとして追加しました
+importing-existing-note-skipped = このノートのインポートをスキップしました（このノートの最新版がコレクション内にすでに存在するため）
 importing-note-updated-as-file-had-newer = ファイル内に最新版が存在するためノートを更新しました
+importing-note-skipped-due-to-empty-first-field = このノートのインポートをスキップしました（最初のフィールドが空のため）
 importing-field-separator-help =
     テキストファイル内のフィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
     
