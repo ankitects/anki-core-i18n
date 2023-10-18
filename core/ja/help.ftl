@@ -8,6 +8,11 @@ help-open-manual-chapter = マニュアルの「{ $name }」の項目を読む
 
 ## Body
 
+# Newly introduced settings may not have an explanation yet
+help-no-explanation =
+    この設定についてはまだ説明がないようです。
+    
+    { $link } にあるこのヘルプページの完成にご協力いただければ幸いです。
 
 ## Footer
 

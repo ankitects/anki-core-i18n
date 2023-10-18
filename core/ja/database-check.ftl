@@ -27,6 +27,10 @@ database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] 無効なutf8の文字が含まれる{ $count }個のノートを修正しました。
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+       *[other] 未来の日時のタイムスタンプを持つ{ $count }個のオブジェクトを修正しました。
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = ひとつかそれ以上のノートタイプがみつかりません。そのノートタイプを使用したノートには、"db-check"で始まる新しいノートタイプが与えられましたが、フィールド名やカードデザインの情報は失われています。そのため、自動バックアップから復元することをおすすめします。
 

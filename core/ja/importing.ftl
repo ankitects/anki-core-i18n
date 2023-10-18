@@ -144,6 +144,10 @@ importing-existing-notes-skipped =
     { $count ->
        *[other] { $count }個のノートは同じノートがすでにコレクション内に存在します。
     }
+importing-conflicting-notes-skipped =
+    { $count ->
+       *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されたため）
+    }
 importing-conflicting-notes-skipped2 =
     { $count ->
        *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されており、かつ、「{ importing-merge-notetypes }」のオプションがオフになっているため）

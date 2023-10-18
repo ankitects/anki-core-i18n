@@ -9,6 +9,7 @@ errors-multiple-notetypes-selected = 同じノートタイプのノートを選�
 errors-please-check-database = データベースをチェック機能を使用した後、再度お試しください。
 errors-please-check-media = 「メディアをチェック」機能を使用した後、再度お試しください。
 errors-collection-too-new = このコレクションを開くには新しいバージョンのAnkiが必要です。
+errors-invalid-ids = このデッキには未来の日時のタイムスタンプが含まれています。デッキの作成者に連絡して、問題の修正を依頼してください。
 errors-inconsistent-db-state = データベースが矛盾した状態にあるようです。[ツール] → [データベースをチェック] の操作を行ってください。
 
 ## Card Rendering
