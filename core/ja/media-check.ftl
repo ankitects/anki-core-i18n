@@ -13,6 +13,7 @@ media-check-unused-count = 使用されていないファイル：{ $count }個
 media-check-renamed-count = 名前を変更したファイル数：{ $count }
 media-check-oversize-count = 100MBを超えているファイル数：{ $count }
 media-check-subfolder-count = サブフォルダの数：{ $count }
+media-check-extracted-count = 抽出された画像：{ $count }
 
 ## Shown at the top of each section
 
