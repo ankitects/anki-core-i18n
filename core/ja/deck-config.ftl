@@ -270,15 +270,16 @@ deck-config-must-have-1000-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = モデルの重み
 deck-config-compute-optimal-weights = FSRSの重みを最適化
-deck-config-compute-optimal-retention = 最適な正答保持率を計算
+deck-config-compute-optimal-retention = 学習プランから正答保持率を推定
 deck-config-optimize-button = 最適化
-deck-config-compute-button = 計算
+deck-config-compute-button = 推定
 deck-config-analyze-button = 分析
 deck-config-desired-retention = 正答保持率（目標値）
 deck-config-sm2-retention = SM2での正答保持率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴との適合性が高いことを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSはクライアントのいずれかが古いバージョンである場合は、正しく動作しません。
+deck-config-estimated-retention = 正答保持率（推定値）: { $num }
 deck-config-complete = { $num }% 完了
 deck-config-reschedule-cards-on-change = 変更の際に再スケジュール
 deck-config-fsrs-tooltip = Free Spaced Repetition Scheduler （フリー〈無料〉の間隔反復スケジューラー、FSRS）は、Ankiの従来のスケジューラーであるSuperMemo 2 （SM2）スケジューラーの代わりに使用できるスケジューラーです。 忘れてしまいそうなタイミングをより正確に予測することで、同じ時間でより多くの内容を記憶することができる可能性があります。このオプションのオン・オフの設定は、すべてのデッキのプリセットに共有されます。
@@ -306,6 +307,12 @@ deck-config-compute-optimal-weights-tooltip =
     重みを頻繁に最適化する必要はありません。数か月に1度で十分です。
     
     デフォルトでは、重みは現在のプリセットを使用しているすべてのデッキの復習履歴から計算されます。重みの最適化に使用するカードを変更したい場合は、重みを生成する前に入力欄（検索条件）の内容を変更してください。
+deck-config-compute-optimal-retention-tooltip =
+    このツールは、あなたが各カードに最初から取り組み始めると仮定し、指定期間内の正答保持率を推定します。
+    
+    推定される正答保持率は各項目に入力する値によって大きく変化します。0.9との差が著しく大きい場合は、あなたが学習しようとしているカードの量に対して、1日あたりの割り当て時間が少なすぎるか、または多すぎるということを意味しています。
+    
+    この値は、あくまで学習プランの調整などのための参考値であり、`正答保持率（目標値）`の欄でそのまま使用するための推奨値ではありません。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
