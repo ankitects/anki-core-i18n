@@ -33,7 +33,7 @@ deck-config-tab-description =
     -「仅限今天」：上限仅为暂时应用于当前牌组。
 deck-config-new-cards-ignore-review-limit = 新卡片不受复习卡片上限影响
 deck-config-new-cards-ignore-review-limit-tooltip = 默认情况下，复习卡片的上限适用于新卡片，当复习卡片已经达到上限时将不会出现新卡片。如果启用该选项，则新卡片的出现不受复习卡片上限的限制。
-deck-config-affects-entire-collection = 该设置将影响所有集合。
+deck-config-affects-entire-collection = 该设置将影响整个集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -44,7 +44,7 @@ deck-config-today-only = 仅限今日
 
 ## New Cards section
 
-deck-config-learning-steps = 学习阶段
+deck-config-learning-steps = 初学间隔
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 间隔时间通常应设为分钟（如 5m）或天（如 2d），但亦可设为小时（如 1h）或秒（如 30s）。
 deck-config-learning-steps-tooltip =
@@ -65,7 +65,7 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程算法时，建
 
 ## Lapses section
 
-deck-config-relearning-steps = 重学阶段
+deck-config-relearning-steps = 重学间隔
 deck-config-relearning-steps-tooltip =
     多个间隔间请用空格分隔。
     默认设置下，复习卡片时选择「重来」，卡片将 10 分钟后重新展示。
@@ -83,11 +83,11 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = 搁置
-deck-config-bury-new-siblings = 搁置关联新卡片到下一天
-deck-config-bury-review-siblings = 搁置关联复习卡片到下一天
-deck-config-bury-interday-learning-siblings = 搁置关联跨日学习卡片到下一天
+deck-config-bury-new-siblings = 搁置新的关联卡片到次日
+deck-config-bury-review-siblings = 搁置待复习的关联卡片到次日
+deck-config-bury-interday-learning-siblings = 搁置跨日学习中的关联卡片到次日
 deck-config-bury-new-tooltip = 同一笔记中的其他「新卡片」（如翻转卡片、相邻的填空题卡片）是否推迟到第二天。
-deck-config-bury-review-tooltip = 同一笔记中其他「复习」卡片是否推迟到第二天。
+deck-config-bury-review-tooltip = 同一笔记中其他「待复习」卡片是否推迟到第二天。
 deck-config-bury-interday-learning-tooltip = 同一笔记中其他学习间隔大于 1 天的「学习中」卡片是否推迟到第二天。
 deck-config-bury-priority-tooltip =
     Anki 归集卡片的顺序为：当日学习卡片→隔日学习卡片→复习卡片→新卡片。
@@ -114,7 +114,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     「随机排列卡片」：完全随机地抽取卡片。
 deck-config-new-gather-priority-deck = 按牌组顺序
-deck-config-new-gather-priority-deck-then-random-notes = 按牌组顺序，随机排列笔记
+deck-config-new-gather-priority-deck-then-random-notes = 按牌组顺序，再随机排列笔记
 deck-config-new-gather-priority-position-lowest-first = 按位置升序
 deck-config-new-gather-priority-position-highest-first = 按位置降序
 deck-config-new-gather-priority-random-notes = 随机排列笔记
@@ -139,16 +139,16 @@ deck-config-sort-order-random-note-then-template = 先随机排列笔记，再�
 deck-config-sort-order-random = 随机排列
 deck-config-sort-order-template-then-gather = 按卡片模板顺序
 deck-config-sort-order-gather = 按抽取顺序
-deck-config-new-review-priority = 新卡片展示顺序
+deck-config-new-review-priority = 新学/复习的先后顺序
 deck-config-new-review-priority-tooltip = 何时显示与复习卡片关联的新卡。
 deck-config-interday-step-priority = 跨日卡片展示顺序
 deck-config-interday-step-priority-tooltip =
     何时展示跨日的正在（重新）学习的卡片。
     复习上限先应用于跨日学习的卡片，再应用于复习卡片。
     尽管此选项可调整抽取卡片的展示顺序，但始终优先抽取跨日卡片。
-deck-config-review-mix-mix-with-reviews = 与复习卡片混合展示
-deck-config-review-mix-show-after-reviews = 在复习卡片后展示
-deck-config-review-mix-show-before-reviews = 在复习卡片前展示
+deck-config-review-mix-mix-with-reviews = 学新与复习混合
+deck-config-review-mix-show-after-reviews = 先复习，后学新
+deck-config-review-mix-show-before-reviews = 先学新，后复习
 deck-config-review-sort-order = 复习卡片排列顺序
 deck-config-review-sort-order-tooltip =
     默认情况下将按卡片等待时间长短顺序展示卡片，
@@ -158,13 +158,13 @@ deck-config-review-sort-order-tooltip =
 deck-config-sort-order-due-date-then-random = 先按到期日期排序，再随机排序
 deck-config-sort-order-due-date-then-deck = 先按到期日期排序，再按牌组排序
 deck-config-sort-order-deck-then-due-date = 先按牌组排序，再按到期日期排序
-deck-config-sort-order-ascending-intervals = 按间隔升序排序
-deck-config-sort-order-descending-intervals = 按间隔降序排序
-deck-config-sort-order-ascending-ease = 按简易度升序排序
-deck-config-sort-order-descending-ease = 按简易度降序排序
-deck-config-sort-order-ascending-difficulty = 按难度升序排序
-deck-config-sort-order-descending-difficulty = 按难度降序排序
-deck-config-sort-order-relative-overdueness = 按相对超期程度
+deck-config-sort-order-ascending-intervals = 按间隔升序
+deck-config-sort-order-descending-intervals = 按间隔降序
+deck-config-sort-order-ascending-ease = 按简易度升序
+deck-config-sort-order-descending-ease = 按简易度降序
+deck-config-sort-order-ascending-difficulty = 按难度升序
+deck-config-sort-order-descending-difficulty = 按难度降序
+deck-config-sort-order-relative-overdueness = 按相对逾期程度
 deck-config-display-order-will-use-current-deck =
     将按所选牌组设定的顺序学习，
     其全部子牌组的设定已被忽略。
