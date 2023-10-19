@@ -190,8 +190,8 @@ deck-config-disable-autoplay-tooltip =
     可通过点击音频播放按钮或使用重播动作来手动播放音频。
 deck-config-skip-question-when-replaying = 重播答案时跳过问题
 deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播操作，是否需包含问题的音频。
-deck-config-stop-timer-on-answer = 显示答案后停止计时器
-deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时器。不会影响统计数据。
+deck-config-stop-timer-on-answer = 显示答案后停止计时
+deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。不会影响统计数据。
 
 ## Advanced section
 
@@ -261,7 +261,7 @@ deck-config-maximum-answer-secs-above-recommended = 当保持问题均简短时�
 
 ## Selecting a deck
 
-deck-config-which-deck = 请选择牌组？
+deck-config-which-deck = 您想显示哪个牌组的选项？
 
 ## Messages related to the FSRS scheduler
 
@@ -278,14 +278,13 @@ deck-config-compute-optimal-weights = 优化 FSRS 权重
 deck-config-compute-optimal-retention = 计算最佳记忆保留率
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
-deck-config-analyze-button = 分析
-deck-config-desired-retention = 期望记忆保留率
-deck-config-sm2-retention = SM2 记忆保留率
+deck-config-desired-retention = 期望的记忆保留率
+deck-config-sm2-retention = SM2 的记忆保留率
 deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记录。
 deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
-deck-config-estimated-retention = 预估记忆保留率：{ $num }
+deck-config-estimated-retention = 预估的记忆保留率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
 deck-config-fsrs-tooltip =
