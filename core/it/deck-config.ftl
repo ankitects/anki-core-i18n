@@ -322,9 +322,9 @@ deck-config-estimated-retention = Ritenzione stimata { $num }
 deck-config-complete = { $num }% completo.
 deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
 deck-config-fsrs-tooltip =
-    FSRS (Free Spaced Repetition Scheduler; italiano: Pianificatore di Ripetizione Spaziata Libera) costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
+    FSRS (Free Spaced Repetition Scheduler; in italiano: "Pianificatore di Ripetizione Spaziata Libera") costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
     Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
-    più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutti i mazzi.
+    più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutti i preset.
 deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle 
     quando verranno nuovamente ripetute. 
