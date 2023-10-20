@@ -309,16 +309,50 @@ deck-config-compute-optimal-weights = Calcola i pesi ottimali
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
-deck-config-analyze-button = Analizza
+deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
+deck-config-sm2-retention = Ritenzione SM2
 deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migliori.
 deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
 deck-config-get-params = Ottieni parametri
 deck-config-fsrs-on-all-clients =
     Per favore assicurati che tutte le tue versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
     FSRS non funzionerà correttamente se una delle tue versioni è più vecchia.
-deck-config-set-optimal-retention = Setta la Ritenzione desiderata a { $num }
+deck-config-estimated-retention = Ritenzione stimata { $num }
 deck-config-complete = { $num }% completo.
+deck-config-fsrs-tooltip =
+    FSRS (Free Spaced Repetition Scheduler; italiano: Pianificatore di Ripetizione Spaziata Libera) costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
+    Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
+    più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutti i mazzi.
+deck-config-desired-retention-tooltip =
+    Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle 
+    quando verranno nuovamente ripetute. 
+    Se aumenti questo valore, Anki mostrerà le carte più frequentemente per aumentare le probabilità di ricordarle. 
+    Se diminuisci il valore, Anki mostrerà le carte meno frequentemente, e ne dimenticherai di più. 
+    Sii cauto nell'effettuare questa regolazione: valori più alti aumenteranno notevolmente il tuo carico di lavoro, 
+    mentre valori più bassi possono essere demotivanti quando dimentichi molte informazioni.
+deck-config-sm2-retention-tooltip =
+    Se la tua ritenzione effettiva prima del passaggio a FSRS era significativamente diversa da 0,9, 
+    regolare questo valore permetterà ad Anki di stimare meglio il tuo stato di memoria quando si trova di fronte a carte 
+    che hanno un registro delle ripetizioni mancante. Poiché i registri delle ripetizioni di solito non saranno mai assenti 
+    a meno che tu non li abbia eliminati esplicitamente per liberare spazio, la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
+deck-config-weights-tooltip =
+    I pesi del modello influenzano la pianificazione delle carte.
+    Una volta che hai accumulato 1000 o più ripetizioni, puoi ottimizzare i pesi utilizzando le impostazioni qui di seguito.
+deck-config-reschedule-cards-on-change-tooltip =
+    Questa opzione controlla se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i pesi. 
+    L'impostazione predefinita è quella di non ripianificare le carte: le revisioni future utilizzeranno la nuova pianificazione, 
+    ma non ci sarà alcuna modifica immediata al tuo carico di lavoro. 
+    Se la ripianificazione è abilitata, le scadenze delle carte verranno modificate. In base alla tua ritenzione desiderata, 
+    ciò può comportare un grande aumento del carico di lavoro nel breve termine.
+    Per questo motivo, non è raccomandato abilitare questa impostazione quando attivi per la prima volta FSRS.
+deck-config-compute-optimal-weights-tooltip =
+    Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
+    e generare automaticamente pesi ottimali per la tua memoria e i contenuti che stai studiando. 
+    Se hai mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preset separati, poiché i pesi per i mazzi facili e quelli difficili saranno diversi. 
+    Non è necessario ottimizzare i pesi frequentemente; è sufficiente farlo una volta ogni pochi mesi.
+    
+    Per impostazione predefinita, i pesi saranno calcolati dalla cronologia delle revisioni di tutti i mazzi che utilizzano il preset corrente. Facoltativamente, prima di calcolare i pesi, puoi modificare i criteri di ricerca per selezionare quali carte utilizzare per l'ottimizzazione dei pesi.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

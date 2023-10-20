@@ -93,6 +93,7 @@ statistics-range-search = Cerca
 statistics-card-ease-title = Facilità della carta
 statistics-card-difficulty-title = Difficoltà della Carta
 statistics-card-stability-title = Stabilità della carta
+statistics-average-stability = Stabilità media
 statistics-card-retrievability-title = Rammentabilità della Carta
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
 statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verrà mostrata la carta.
@@ -159,6 +160,16 @@ statistics-intervals-day-single =
     { $cards ->
         [one] { $cards } carta con un intervallo di { $day } giorni
        *[other] { $cards } carte con un intervallo di { $day } giorni
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } carta con stabilità di { $daysStart }~{ $daysEnd } gg.
+       *[other] { $cards } carte con stabilità di { $daysStart }~{ $daysEnd } gg.
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } carta con stabilità di { $day } gg.
+       *[other] { $cards } carte con stabilità di { $day } gg.
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Da { $hourStart }:00~{ $hourEnd }:00
