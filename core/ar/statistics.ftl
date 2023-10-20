@@ -126,6 +126,7 @@ statistics-card-ease-title = سهولة البطاقة
 statistics-card-difficulty-title = صعوبة البطاقة
 statistics-card-stability-title = استقرار البطاقة
 statistics-card-stability-subtitle = توقع وقت التأخر عندما يكون لديك فرصة 90% للتذكر.
+statistics-average-stability = متوسط الاستقرار
 statistics-card-retrievability-title = إمكانية استرجاع البطاقة
 statistics-card-ease-subtitle = كلما كانت السهولة منخفضة، ظهرت البطاقة مرات أكثر.
 statistics-card-difficulty-subtitle = كلما زادت الصعوبة، كلما ظهرت البطاقة بشكل متكرر.
@@ -225,6 +226,24 @@ statistics-intervals-day-single =
         [few] { $cards } بطاقات بفاصل زمني يمتد { $day } يوم
         [many] { $cards } بطاقة بفاصل زمني يمتد { $day } يوم
        *[other] { $cards } بطاقة بفاصل زمني يمتد { $day } يوم
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [zero] { $cards } بطاقة باستقرار { $daysStart }~{ $daysEnd } يوم
+        [one] بطاقة واحدة باستقرار { $daysStart }~{ $daysEnd } يوم
+        [two] بطاقتان باستقرار { $daysStart }~{ $daysEnd } يوم
+        [few] { $cards } بطاقات باستقرار { $daysStart }~{ $daysEnd } يوم
+        [many] { $cards } بطاقة باستقرار { $daysStart }~{ $daysEnd } يوم
+       *[other] { $cards } بطاقة باستقرار { $daysStart }~{ $daysEnd } يوم
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [zero] { $cards } بطاقة باستقرار { $day } يوم
+        [one] بطاقة واحدة باستقرار { $day } يوم
+        [two] بطاقتان باستقرار { $day } يوم
+        [few] { $cards } بطاقات باستقرار { $day } يوم
+        [many] { $cards } بطاقة باستقرار { $day } يوم
+       *[other] { $cards } بطاقة باستقرار { $day } يوم
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = خلال { $hourStart }:00~{ $hourEnd }:00
