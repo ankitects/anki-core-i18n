@@ -94,6 +94,7 @@ statistics-card-ease-title = Facilidade do Cartão
 statistics-card-difficulty-title = Dificuldade do Cartão
 statistics-card-stability-title = Estabilidade do Cartão
 statistics-card-stability-subtitle = Atraso previsto em que você tem 90% de chance de se lembrar.
+statistics-average-stability = Estabilidade média
 statistics-card-retrievability-title = Recuperabilidade
 statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente o cartão aparecerá.
 statistics-card-difficulty-subtitle = Quanto maior a dificuldade, mais difícil é lembrar.
@@ -161,6 +162,16 @@ statistics-intervals-day-single =
     { $cards ->
         [one] Um cartão com um intervalo de { $day } dia(s)
        *[other] { $cards } cartões com um intervalo de { $day } dia(s)
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } cartão com estabilidade de { $daysStart }~{ $daysEnd } dias
+       *[other] { $cards } cartões com estabilidade de { $daysStart }~{ $daysEnd } dias
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } cartão com uma estabilidade de { $day } dia(s)
+       *[other] { $cards } cartões com uma estabilidade de { $day } dia(s)
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = De { $hourStart }:00~{ $hourEnd }:00

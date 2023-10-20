@@ -300,11 +300,11 @@ deck-config-must-have-1000-reviews =
     }Você deve ter pelo menos 1000 revisões para gerar pesos personalizados.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Pesos do Modelo
-deck-config-compute-optimal-weights = Otimizar Pesos FSRS
+deck-config-compute-optimal-weights = Otimizar pesos do FSRS
 deck-config-compute-optimal-retention = Calcular retenção ótima
 deck-config-optimize-button = Otimizar
 deck-config-compute-button = Computar
-deck-config-analyze-button = Analisar
+deck-config-evaluate-button = Avaliar
 deck-config-desired-retention = Retenção desejada
 deck-config-sm2-retention = Retenção SM2
 deck-config-smaller-is-better = Números menores indicam um ajuste melhor ao seu histórico de revisão.
