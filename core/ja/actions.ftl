@@ -1,6 +1,6 @@
 actions-add = 追加
 actions-all-selected = 選択条件すべてを含む
-actions-any-selected = 選択条件を含む
+actions-any-selected = 選択条件のいずれかを含む
 actions-cancel = キャンセル
 actions-choose = 選択
 actions-close = 閉じる
