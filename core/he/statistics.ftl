@@ -111,6 +111,7 @@ statistics-card-ease-title = קלות הכרטיס
 statistics-card-difficulty-title = קושי כרטיס
 statistics-card-stability-title = יציבות כרטיס
 statistics-card-stability-subtitle = עיכוב חזוי שיש לך סיכוי של 90% לזכור.
+statistics-average-stability = יציבות ממוצעת
 statistics-card-retrievability-title = אחזור כרטיס
 statistics-card-ease-subtitle = ככל שהקלות נמוכה יותר, כך גוברת התדירות שהכרטיס יופיע.
 statistics-card-difficulty-subtitle = ככל שהקושי גבוה יותר, כך קשה יותר לזכור אותו.
@@ -178,6 +179,16 @@ statistics-intervals-day-single =
     { $cards ->
         [one] 1 כרטיס עם { $day } יום מרווח זמן
        *[other] { $cards } כרטיסים עם { $day } יום מרווח זמן
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } כרטיס עם { $daysStart }~{ $daysEnd } ימי יציבות
+       *[other] { $cards } כרטיסים עם { $daysStart }~{ $daysEnd } ימי יציבות
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } כרטיס עם { $day } ימי יציבות
+       *[other] { $cards } כרטיס עם { $day } ימי יציבות
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = מ- { $hourStart }:00~{ $hourEnd }:00

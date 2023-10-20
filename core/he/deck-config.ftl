@@ -311,7 +311,7 @@ deck-config-must-have-1000-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = משקלי מודל
 deck-config-compute-optimal-weights = בצע אופטימיזציה של משקלי FSRS
-deck-config-compute-optimal-retention = חישוב שמירה אופטימלית
+deck-config-compute-optimal-retention = חישוב יכולת זכירה אופטימלית
 deck-config-optimize-button = בצע אופטימיזציה
 deck-config-compute-button = חשב
 deck-config-evaluate-button = הערכה
