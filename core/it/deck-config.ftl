@@ -320,6 +320,7 @@ deck-config-fsrs-on-all-clients =
     FSRS non funzionerà correttamente se una delle tue versioni è più vecchia.
 deck-config-estimated-retention = Ritenzione stimata { $num }
 deck-config-complete = { $num }% completo.
+deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
 deck-config-fsrs-tooltip =
     FSRS (Free Spaced Repetition Scheduler; italiano: Pianificatore di Ripetizione Spaziata Libera) costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
     Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
@@ -353,6 +354,12 @@ deck-config-compute-optimal-weights-tooltip =
     Non è necessario ottimizzare i pesi frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
     Per impostazione predefinita, i pesi saranno calcolati dalla cronologia delle revisioni di tutti i mazzi che utilizzano il preset corrente. Facoltativamente, prima di calcolare i pesi, puoi modificare i criteri di ricerca per selezionare quali carte utilizzare per l'ottimizzazione dei pesi.
+deck-config-compute-optimal-retention-tooltip =
+    Questo strumento presuppone che tu stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
+    che sarai in grado di ricordare nel periodo di tempo specificato. 
+    La ritenzione stimata dipenderà notevolmente dai tuoi dati di input, e se differisce significativamente da 0,9, 
+    è un segno che il tempo che hai allocato ogni giorno è o troppo poco oppure troppo elevato rispetto alla quantità di carte che stai cercando di imparare. 
+    Questo numero può essere utile come riferimento, ma non è raccomandato copiarlo nel campo Ritenzione desiderata.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

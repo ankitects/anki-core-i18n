@@ -91,12 +91,13 @@ statistics-range-deck = mazzo
 statistics-range-collection = collezione
 statistics-range-search = Cerca
 statistics-card-ease-title = Facilità della carta
-statistics-card-difficulty-title = Difficoltà della Carta
-statistics-card-stability-title = Stabilità della carta
+statistics-card-difficulty-title = Difficoltà delle Carte
+statistics-card-stability-title = Stabilità delle Carte
+statistics-card-stability-subtitle = Il lasso di tempo che si associa ad una probabilità del 90% di ricordare.
 statistics-average-stability = Stabilità media
-statistics-card-retrievability-title = Rammentabilità della Carta
+statistics-card-retrievability-title = Rammentabilità delle Carte
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
-statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verrà mostrata la carta.
+statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verranno mostrate le carte.
 statistics-retrievability-subtitle = Quanto è probabile che tu ti ricordi.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
