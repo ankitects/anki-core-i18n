@@ -53,3 +53,4 @@ notetypes-error-loading-image-occlusion = Не удалось загрузить
 notetype-error-no-image-to-show = Нет изображения
 notetypes-no-occlusion-created = Нужна хотя бы одна скрытая область.
 notetypes-io-select-image = Выберите изображение
+notetypes-io-paste-image-from-clipboard = Вставить изображение из буфера

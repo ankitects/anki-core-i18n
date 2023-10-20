@@ -40,6 +40,7 @@ importing-notes-found-in-file = Записи, найденные в файле: 
 importing-notes-skipped-as-theyre-already-in = Пропущенные записи, которые уже есть в коллекции: { $val }
 importing-notes-skipped-update-due-to-notetype = Записи не обновлены, потому что тип записи был изменён со времени первого импорта записей: { $val }
 importing-notes-updated-as-file-had-newer = Записи, которые обновлены: { $val }
+importing-include-reviews = Включать повторения
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Упакованная колода/коллекция Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
 # the '|' character
@@ -60,6 +61,7 @@ importing-unable-to-import-from-a-readonly = Не удалось импорти�
 importing-unknown-file-format = Неизвестный формат файла.
 importing-update-existing-notes-when-first-field = Обновить существующие записи, если первое поле совпадает
 importing-updated = Обновлено
+importing-update-if-newer = Если новее
 importing-update-always = Всегда
 importing-update-never = Никогда
 importing-update-notes = Обновить записи
@@ -174,6 +176,9 @@ importing-note-updated-as-file-had-newer = Запись обновлена, по
 importing-note-skipped-due-to-missing-notetype = Запись пропущена, потому что отсутствует тип записи
 importing-note-skipped-due-to-missing-deck = Запись пропущена, потому что отсутствует тип колода
 importing-note-skipped-due-to-empty-first-field = Запись пропущена, потому что первое поле пустое
+importing-deck-help = Импортированные карточки будут помещены в эту колоду.
+importing-tag-all-notes-help = Эти метки будут добавлены к импортированным и обновлённым записям.
+importing-tag-updated-notes-help = Эти метки будут добавлены к обновлённым записям.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

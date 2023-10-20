@@ -109,7 +109,10 @@ statistics-range-search = Поиск
 statistics-card-ease-title = Лёгкость карточек
 statistics-card-difficulty-title = Сложность карточки
 statistics-card-stability-title = Стабильность карточки
+statistics-average-stability = Средняя стабильность
+statistics-card-retrievability-title = Вспоминаемость карточки
 statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карта.
+statistics-retrievability-subtitle = Вероятность вспомнить карточку сегодня.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -117,6 +120,12 @@ statistics-card-ease-tooltip =
         [few] { $cards } карты с { $percent } легкости
         [many] { $cards } карт с { $percent } легкости
        *[other] { $cards } карт с { $percent } легкости
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } карточка с { $percent } вспоминаемости
+        [few] { $cards } карточек с { $percent } вспоминаемости
+       *[other] { $cards } карточек с { $percent } вспоминаемости
     }
 statistics-future-due-title = Прогноз
 statistics-future-due-subtitle = Число повторяемых в последующие дни.
@@ -236,6 +245,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Средняя лёгкость
 statistics-average-difficulty = Средняя сложность
+statistics-average-retrievability = Средняя вспоминаемость
 statistics-save-pdf = Сохранить как PDF
 statistics-saved = Сохранено.
 statistics-stats = статистика

@@ -100,6 +100,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Случайные карточки`: отбирает карточки случайным образом.
 deck-config-new-gather-priority-deck = По колоде
+deck-config-new-gather-priority-deck-then-random-notes = По колоде, потом случайный
 deck-config-new-gather-priority-position-lowest-first = По возрастанию номеров
 deck-config-new-gather-priority-position-highest-first = По убыванию номеров
 deck-config-new-gather-priority-random-notes = Случайные записи
@@ -229,10 +230,18 @@ deck-config-which-deck = Какую колоду вы выбираете?
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Веса модели
+deck-config-compute-optimal-weights = Оптимизировать веса FSRS
+deck-config-compute-optimal-retention = Вычислить оптимальное усвоение
 deck-config-optimize-button = Оптимизировать
 deck-config-compute-button = Вычислить
-deck-config-analyze-button = Анализировать
+deck-config-desired-retention = Желаемое усвоение
+deck-config-sm2-retention = Усвоение SM2
 deck-config-get-params = Получить параметры
+deck-config-estimated-retention = Оценка усвоения: { $num }
+deck-config-complete = { $num }% выполнено.
+deck-config-reschedule-cards-on-change = Перепланировать карточки при изменениях.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
