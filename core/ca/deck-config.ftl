@@ -183,6 +183,8 @@ deck-config-sort-order-ascending-intervals = Intervals ascendents
 deck-config-sort-order-descending-intervals = Intervals descendents
 deck-config-sort-order-ascending-ease = Facilitat ascendent
 deck-config-sort-order-descending-ease = Facilitat descendent
+deck-config-sort-order-ascending-difficulty = Dificultat ascendent
+deck-config-sort-order-descending-difficulty = Dificultat descendent
 deck-config-sort-order-relative-overdueness = Endarreriment relatiu
 deck-config-display-order-will-use-current-deck =
     Anki farà servir l’ordre de visualització de la baralla que estudieu
@@ -286,6 +288,9 @@ deck-config-maximum-answer-secs-above-recommended = Anki podrà planificar millo
 ## Selecting a deck
 
 deck-config-which-deck = Quina baralla voleu?
+
+## Messages related to the FSRS scheduler
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

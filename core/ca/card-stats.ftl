@@ -24,6 +24,8 @@ card-stats-review-log-type-filtered = Filtrades
 card-stats-review-log-type-manual = Manual
 card-stats-no-card = (No hi ha cap targeta que es pugui mostrar).
 card-stats-custom-data = Dades personalitzades
+card-stats-fsrs-stability = Estabilitat
+card-stats-fsrs-difficulty = Dificultat
 
 ## Window Titles
 
