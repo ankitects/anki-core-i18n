@@ -16,7 +16,7 @@ deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
 deck-config-limit-deck-v3 = 當學習中的牌組具有下層牌組時，在每一個下層牌組中抽取的卡片數量上限取決於相應牌組設定的上限。選取學習的牌組的上限決定所有卡片顯示的數量上限。
 deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
-deck-config-limit-interday-bound-by-reviews = 複習上限也會影響隔天學習卡片。套用上限時，隔天學習卡片會被優先擷取，再算入複習卡。
+deck-config-limit-interday-bound-by-reviews = 複習上限也會影響跨天學習卡片。套用上限時，隔天學習卡片會被優先擷取，再算入複習卡。
 deck-config-tab-description =
     - `預設設定`：所有使用此預設設定的牌組的上限。
     - `當前牌組`：當前牌組的上限。
@@ -62,15 +62,15 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停關聯的新卡片
 deck-config-bury-review-siblings = 暫停關聯的複習卡
-deck-config-bury-interday-learning-siblings = 暫停關聯的隔天學習卡片
+deck-config-bury-interday-learning-siblings = 暫停關聯的跨天學習卡片
 deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
 deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
 deck-config-bury-interday-learning-tooltip = 啟用後，推遲同一則筆記中其他正在`學習中`且學習間隔大於 1 天的卡片到第二天。
 deck-config-bury-priority-tooltip =
-    Anki 收集卡片的順序為當天學習卡片→隔天學習卡片→複習卡→新卡片。這個順序影響卡片暫停的機制：
+    Anki 收集卡片的順序為當天學習卡片→跨天學習卡片→複習卡→新卡片。這個順序影響卡片暫停的機制：
     
     - 啟用所有暫停選項時，會顯示順序最前的關聯卡片。例如，複習卡會優先於新卡片顯示。
-    - 順序靠後的關聯卡片無法暫停較前的卡片類型。例如，停用「暫停關聯的新卡片」時，學習新卡片將不會暫停隔天學習卡片和複習卡，因此關聯的複習卡和新卡片可能會同時出現。
+    - 順序靠後的關聯卡片無法暫停較前的卡片類型。例如，停用「暫停關聯的新卡片」時，學習新卡片將不會暫停跨天學習卡片和複習卡，因此關聯的複習卡和新卡片可能會同時出現。
 
 ## Ordering section
 
@@ -110,11 +110,11 @@ deck-config-sort-order-template-then-gather = 卡片類型
 deck-config-sort-order-gather = 收集順序
 deck-config-new-review-priority = 新卡片/複習卡順序
 deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
-deck-config-interday-step-priority = 隔天學習/複習卡順序
+deck-config-interday-step-priority = 跨天學習/複習卡順序
 deck-config-interday-step-priority-tooltip =
-    隔天學習時，（重新）學習中的卡片的顯示順序。
+    跨天學習時，（重新）學習中的卡片的顯示順序。
     
-    複習上限總是優先計算隔天學習的卡片，再套用到複習卡。此選項將控制收集的卡片的顯示順序，但收集順序永遠會優先收集跨天學習卡片。
+    複習上限總是優先計算跨天學習的卡片，再套用到複習卡。此選項將控制收集的卡片的顯示順序，但收集順序永遠會優先收集跨天學習卡片。
 deck-config-review-mix-mix-with-reviews = 與複習卡混合
 deck-config-review-mix-show-after-reviews = 先顯示複習卡
 deck-config-review-mix-show-before-reviews = 後顯示複習卡
@@ -231,11 +231,11 @@ deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低�
 deck-config-estimated-retention = 預估留存率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
-deck-config-fsrs-tooltip = 你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM2)排程器。透過更精確地測定你遺忘的機率，FSRS 可以讓你不多花時間的同時記住更多內容。所有牌組預設組共用此設定。
+deck-config-fsrs-tooltip = 你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM2) 排程器。透過更精確地測定你遺忘的機率，FSRS 可以讓你不多花時間的同時記住更多內容。所有牌組預設組共用此設定。
 deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片的下一次複習將被排程到你有 90% 的機率能回想起卡片內容時出現。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，遺忘的卡片內容則會增加。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致遺忘大量內容，從而可能使你洩氣。
 deck-config-sm2-retention-tooltip = 如果你在切換到 FSRS 之前的實際留存率與 0.9 相差過多，調整該值可以讓 Anki 更精確地估算缺失複習歷史記錄的卡片的記憶狀態。通常卡片歷史記錄只有當你自行刪除來清理空間時才會遺失，因此大多數使用者不需要調整該值。
 deck-config-weights-tooltip = 模型權重會影響卡片排程。當複習超過 1000 次以後，你可以在下方最佳化權重。
-deck-config-reschedule-cards-on-change-tooltip = 這個選項控制是否要在啟用 FSRS 或更改權重的同時，更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。根據你的理想留存率，這可能會導致大量卡片到期，因此剛從 SM2 切換到 FSRS 時不建議啟用。
+deck-config-reschedule-cards-on-change-tooltip = 此選項控制是否要在啟用 FSRS 或更改權重的同時更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。根據你的理想留存率，這可能會導致大量卡片到期，因此剛從 SM2 切換到 FSRS 時不建議啟用。
 deck-config-compute-optimal-weights-tooltip =
     當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的權重。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，權重也會不一樣。你不需要經常最佳化權重，幾個月一次就夠了。
     
@@ -248,10 +248,10 @@ deck-config-bury-siblings = 回答後暫停關聯卡片
 deck-config-do-not-bury = 不暫停關聯卡片
 deck-config-bury-if-new = 暫停新卡片
 deck-config-bury-if-new-or-review = 暫停新卡片/複習卡
-deck-config-bury-if-new-review-or-interday = 暫停新卡片/複習卡/隔天學習卡片
+deck-config-bury-if-new-review-or-interday = 暫停新卡片/複習卡/跨天學習卡片
 deck-config-bury-tooltip =
     關聯卡片是指由同一則筆記建立的其他卡片（如正面/背面卡片，或同一則克漏字筆記的各個空格）。
     
     停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動*暫停*關聯卡片，直到下一天前都不會出現。此選項可讓你選擇在回答時要暫停哪些種類的卡片。
     
-    使用 V3 排程器時，隔天學習卡片也可以被暫停。隔天學習卡片是指當前學習階段為一天或更多的卡片。
+    使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。

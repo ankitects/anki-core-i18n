@@ -79,12 +79,12 @@ statistics-range-search = 搜尋條件
 statistics-card-ease-title = 卡片輕鬆度
 statistics-card-difficulty-title = 卡片難度
 statistics-card-stability-title = 卡片穩固期
-statistics-card-stability-subtitle = 預估你能夠回想起卡片內容的機率在多久後會下降到 90%
+statistics-card-stability-subtitle = 你能夠回想起卡片內容的機率下降到 90% 所需的天數
 statistics-average-stability = 平均穩固期
 statistics-card-retrievability-title = 卡片留存率
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
 statistics-card-difficulty-subtitle = 難度越高，則卡片越難記住
-statistics-retrievability-subtitle = 你能夠回想起卡片內容的機率
+statistics-retrievability-subtitle = 今天能夠回想起卡片內容的機率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
