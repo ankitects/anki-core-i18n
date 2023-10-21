@@ -27,6 +27,6 @@ decks-relative-overdueness = 期日超過率が大きい順
 decks-repeat-failed-cards-after = 「やり直し」の間隔 (分)
 decks-reschedule-cards-based-on-my-answers = このデッキの解答に基づいてカードをスケジュールし直す
 decks-study = 学習
-decks-study-deck = デッキを学習する
+decks-study-deck = 学習するデッキを選択
 decks-filtered-deck-search-empty = 検索条件に一致するカードがありません。別のフィルターデッキ内にあるカードや休止中のカードが除外されている可能性があります。
 decks-unmovable-cards = 除外されたカードをすべて表示

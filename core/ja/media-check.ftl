@@ -17,16 +17,16 @@ media-check-extracted-count = 抽出された画像：{ $count }
 
 ## Shown at the top of each section
 
-media-check-renamed-header = ▼ 次のファイルは互換性のためにファイル名が変更されました：
+media-check-renamed-header = ▼ 次のファイルは互換性のためにファイル名が変更されました
 media-check-oversize-header = 100MBを超えるファイルはAnkiWebと同期することができません。
 media-check-subfolder-header = Ankiはメディアフォルダ内のサブフォルダには対応していません。
-media-check-missing-header = ▼ 次のファイルを引用しているカードがありますが、メディアフォルダ内で該当するファイルが見つかりません：
-media-check-unused-header = ▼ 次のファイルはメディアフォルダ内に存在していますが、どのカードにも使用されていません：
+media-check-missing-header = ▼ 次のファイルを参照しているカードがありますが、メディアフォルダ内で該当するファイルが見つかりません
+media-check-unused-header = ▼ 次のファイルはメディアフォルダ内に存在していますが、どのカードにも使用されていません
 media-check-template-references-field-header =
     メディアやLaTeXを指定するHTMLタグ内でフィールドを参照している（例えば { "{{Front}}" } というフィールドを
     記載している）場合、Ankiは指定されているファイルをこの「メディアをチェック」では検出できません。
     メディアやLaTeXのタグは、個々のノートに配置することが推奨されます。
-    ▼ 該当するタグがあるテンプレート：
+    ▼ 該当するタグがあるテンプレート
 
 ## Shown once for each file
 
