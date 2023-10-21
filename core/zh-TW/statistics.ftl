@@ -80,6 +80,7 @@ statistics-card-ease-title = 卡片輕鬆度
 statistics-card-difficulty-title = 卡片難度
 statistics-card-stability-title = 卡片穩固期
 statistics-card-stability-subtitle = 預估你能夠回想起卡片內容的機率在多久後會下降到 90%
+statistics-average-stability = 平均穩固期
 statistics-card-retrievability-title = 卡片留存率
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
 statistics-card-difficulty-subtitle = 難度越高，則卡片越難記住
@@ -139,6 +140,14 @@ statistics-intervals-day-range =
 statistics-intervals-day-single =
     { $cards ->
        *[other] 有 { $cards } 張間隔為 { $day } 天的卡片
+    }
+statistics-stability-day-range =
+    { $cards ->
+       *[other] 有 { $cards } 張穩固期為 { $daysStart }~{ $daysEnd } 天的卡片
+    }
+statistics-stability-day-single =
+    { $cards ->
+       *[other] 有 { $cards } 張穩固期為 { $day } 天的卡片
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
