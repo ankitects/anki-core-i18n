@@ -70,6 +70,28 @@ editing-from-clipboard = מהלוח
 editing-alignment = יישור
 editing-equations = משוואות
 editing-no-image-found-on-clipboard = לא נמצאה תמונה בלוח.
+editing-image-occlusion-mode = מצב הסתרת תמונה
+editing-image-occlusion-zoom-out = הקטנת תצוגה
+editing-image-occlusion-zoom-in = הגדלת תצוגה
+editing-image-occlusion-zoom-reset = איפוס הגדלת תצוגה
+editing-image-occlusion-toggle-translucent = שנה מצב שקיפות
+editing-image-occlusion-delete = מחק
+editing-image-occlusion-duplicate = שכפל
+editing-image-occlusion-group = קבץ בחירות
+editing-image-occlusion-ungroup = פרק קבוצה
+editing-image-occlusion-alignment = יישור
+editing-image-occlusion-align-left = יישור לשמאל
+editing-image-occlusion-align-h-center = מרכוז
+editing-image-occlusion-align-right = יישור לימין
+editing-image-occlusion-align-top = יישור למעלה
+editing-image-occlusion-align-v-center = מרכוז אנכי
+editing-image-occlusion-align-bottom = יישור למטה
+editing-image-occlusion-select-tool = בחר
+editing-image-occlusion-zoom-tool = הגדלה
+editing-image-occlusion-rectangle-tool = מלבן
+editing-image-occlusion-ellipse-tool = אליפסה
+editing-image-occlusion-polygon-tool = מצולע
+editing-image-occlusion-text-tool = טקסט
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
