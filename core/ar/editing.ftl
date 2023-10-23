@@ -70,6 +70,28 @@ editing-from-clipboard = من الحافظة
 editing-alignment = محاذاة
 editing-equations = معادلات
 editing-no-image-found-on-clipboard = لم يتم العثور على صورة في الحافظة.
+editing-image-occlusion-mode = وضع صورة معماة
+editing-image-occlusion-zoom-out = تصغير
+editing-image-occlusion-zoom-in = تكبير
+editing-image-occlusion-zoom-reset = إعادة ضبط مستوى التكبير
+editing-image-occlusion-toggle-translucent = تبديل الشفافية
+editing-image-occlusion-delete = حذف
+editing-image-occlusion-duplicate = تكرير
+editing-image-occlusion-group = تجميع العناصر
+editing-image-occlusion-ungroup = فك تجميع العناصر
+editing-image-occlusion-alignment = محاذاة
+editing-image-occlusion-align-left = محاذاة إلى اليسار
+editing-image-occlusion-align-h-center = توسيط أفقيًا
+editing-image-occlusion-align-right = محاذاة إلى اليمين
+editing-image-occlusion-align-top = محاذاة إلى الأعلى
+editing-image-occlusion-align-v-center = توسيط عموديًا
+editing-image-occlusion-align-bottom = محاذاة إلى الأسفل
+editing-image-occlusion-select-tool = تحديد
+editing-image-occlusion-zoom-tool = مستوى التكبير
+editing-image-occlusion-rectangle-tool = مستطيل
+editing-image-occlusion-ellipse-tool = شكل بيضاوي
+editing-image-occlusion-polygon-tool = مضلع
+editing-image-occlusion-text-tool = نص
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
