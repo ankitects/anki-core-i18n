@@ -70,6 +70,28 @@ editing-from-clipboard = Da Appunti
 editing-alignment = Allineamento
 editing-equations = Equazioni
 editing-no-image-found-on-clipboard = Nessuna immagine trovata nella clipboard.
+editing-image-occlusion-mode = Modalità Occludi Immagine
+editing-image-occlusion-zoom-out = Diminuisci Zoom
+editing-image-occlusion-zoom-in = Aumenta Zoom
+editing-image-occlusion-zoom-reset = Ripristina Zoom
+editing-image-occlusion-toggle-translucent = Attiva/disattiva trasparenza
+editing-image-occlusion-delete = Elimina
+editing-image-occlusion-duplicate = Duplica
+editing-image-occlusion-group = Raggruppa
+editing-image-occlusion-ungroup = Rimuovi raggruppamento
+editing-image-occlusion-alignment = Allineamento
+editing-image-occlusion-align-left = Allinea a sinistra
+editing-image-occlusion-align-h-center = Centra orizzontalmente
+editing-image-occlusion-align-right = Allinea a destra
+editing-image-occlusion-align-top = Allinea in alto
+editing-image-occlusion-align-v-center = Centra verticalmente
+editing-image-occlusion-align-bottom = Allinea in basso
+editing-image-occlusion-select-tool = Seleziona
+editing-image-occlusion-zoom-tool = Zoom
+editing-image-occlusion-rectangle-tool = Rettangolo
+editing-image-occlusion-ellipse-tool = Ellisse
+editing-image-occlusion-polygon-tool = Poligono
+editing-image-occlusion-text-tool = Testo
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
