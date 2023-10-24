@@ -4,7 +4,7 @@
 undo-undo = 元に戻す
 undo-redo = やり直す
 # eg "Undo Answer Card"
-undo-undo-action = 「{ $val }」を元に戻す
+undo-undo-action = { $val } を元に戻す
 # eg "Answer Card Undone"
 undo-action-undone = { $action } を元に戻しました
 undo-redo-action = { $action } をやり直す
