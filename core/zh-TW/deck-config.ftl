@@ -236,6 +236,7 @@ deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片的下�
 deck-config-sm2-retention-tooltip = 如果你在切換到 FSRS 之前的實際留存率與 0.9 相差過多，調整該值可以讓 Anki 更精確地估算缺失複習歷史記錄的卡片的記憶狀態。通常卡片歷史記錄只有當你自行刪除來清理空間時才會遺失，因此大多數使用者不需要調整該值。
 deck-config-weights-tooltip = 模型權重會影響卡片排程。當複習超過 1000 次以後，你可以在下方最佳化權重。
 deck-config-reschedule-cards-on-change-tooltip = 此選項控制是否要在啟用 FSRS 或更改權重的同時更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。根據你的理想留存率，這可能會導致大量卡片到期，因此剛從 SM2 切換到 FSRS 時不建議啟用。
+deck-config-reschedule-cards-warning = 根據你的期望留存率，這可能導致大量卡片到期，因此第一次從 FSRS 切換到 SM2 時不建議使用。
 deck-config-compute-optimal-weights-tooltip =
     當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的權重。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，權重也會不一樣。你不需要經常最佳化權重，幾個月一次就夠了。
     
