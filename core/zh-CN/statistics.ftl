@@ -60,8 +60,9 @@ statistics-range-collection = 集合
 statistics-range-search = 搜索
 statistics-card-ease-title = 卡片简易度
 statistics-card-difficulty-title = 卡片难度
-statistics-card-stability-title = 卡片记忆稳定性
+statistics-card-stability-title = 卡片记忆稳定期
 statistics-card-stability-subtitle = 预测回忆概率下降至 90% 的时间间隔。
+statistics-average-stability = 平均稳定期
 statistics-card-retrievability-title = 卡片记忆可提取性
 statistics-card-ease-subtitle = 卡片简易度越低，其出现频率越高。
 statistics-card-difficulty-subtitle = 难度越高，卡片越难记忆。
@@ -122,6 +123,14 @@ statistics-intervals-day-range =
 statistics-intervals-day-single =
     { $cards ->
        *[other] { $cards } 张间隔为 { $day } 天的卡片
+    }
+statistics-stability-day-range =
+    { $cards ->
+       *[other] { $cards } 张记忆稳定期为 { $daysStart }~{ $daysEnd } 天的卡片
+    }
+statistics-stability-day-single =
+    { $cards ->
+       *[other] { $cards } 张记忆稳定期为 { $day } 天的卡片
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart } 时~{ $hourEnd } 时

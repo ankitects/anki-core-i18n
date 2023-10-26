@@ -70,6 +70,28 @@ editing-from-clipboard = 从剪贴板
 editing-alignment = 对齐
 editing-equations = 公式
 editing-no-image-found-on-clipboard = 未在剪贴板上找到图像。
+editing-image-occlusion-mode = 图片遮盖模式
+editing-image-occlusion-zoom-out = 缩小
+editing-image-occlusion-zoom-in = 放大
+editing-image-occlusion-zoom-reset = 重置缩放
+editing-image-occlusion-toggle-translucent = 切换半透明显示
+editing-image-occlusion-delete = 删除
+editing-image-occlusion-duplicate = 复制
+editing-image-occlusion-group = 组合
+editing-image-occlusion-ungroup = 取消组合
+editing-image-occlusion-alignment = 对齐
+editing-image-occlusion-align-left = 靠左对齐
+editing-image-occlusion-align-h-center = 水平居中
+editing-image-occlusion-align-right = 靠右对齐
+editing-image-occlusion-align-top = 顶端对齐
+editing-image-occlusion-align-v-center = 垂直居中
+editing-image-occlusion-align-bottom = 底端对齐
+editing-image-occlusion-select-tool = 选择
+editing-image-occlusion-zoom-tool = 缩放
+editing-image-occlusion-rectangle-tool = 矩形
+editing-image-occlusion-ellipse-tool = 椭圆形
+editing-image-occlusion-polygon-tool = 多边形
+editing-image-occlusion-text-tool = 文本
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

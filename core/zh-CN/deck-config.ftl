@@ -278,6 +278,7 @@ deck-config-compute-optimal-weights = 优化 FSRS 权重
 deck-config-compute-optimal-retention = 计算最佳记忆保留率
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
+deck-config-evaluate-button = 评估
 deck-config-desired-retention = 期望的记忆保留率
 deck-config-sm2-retention = SM2 的记忆保留率
 deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记录。
