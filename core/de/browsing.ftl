@@ -110,13 +110,13 @@ browsing-note-count =
     }
 browsing-notes-updated =
     { $count ->
-        [one] { $count } Notiz aktualisiert.
-       *[other] { $count } Notizen aktualisiert.
+        [one] { $count } Notiz geändert.
+       *[other] { $count } Notizen geändert.
     }
 browsing-cards-updated =
     { $count ->
-        [one] { $count } Karte aktualisiert.
-       *[other] { $count } Karten aktualisiert.
+        [one] { $count } Karte geändert.
+       *[other] { $count } Karten geändert.
     }
 browsing-window-title = Kartenverwaltung ({ $selected } von { $total } Karten ausgewählt)
 browsing-sidebar-expand = Ausklappen

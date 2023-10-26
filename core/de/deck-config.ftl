@@ -53,7 +53,7 @@ deck-config-learning-steps-tooltip =
 deck-config-graduating-interval-tooltip = Die Anzahl an abzuwartenden Tagen, bevor eine Karte, die mit "Gut" in der finalen Lernstufe  bewertet wurde, wieder angezeigt wird.
 deck-config-easy-interval-tooltip = Die Anzahl Tage, bis eine Karte wieder gezeigt wird, nachdem die `Einfach`-Taste benutzt wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
-deck-config-new-insertion-order-tooltip = Steuert die Position (fällig #), die neuen Karten zugewiesen wird, wenn Sie diese hinzufügen. Karten mit einer niedrigeren Fälligkeitsnummer werden beim Lernen  zuerst angezeigt. Wenn Sie diese Option ändern, dann werden alle bereits vorhandenen Positionen von neuen Karten aktualisiert.
+deck-config-new-insertion-order-tooltip = Bestimmt die Position (Fälligkeitsnummer), die neuen Karten zugewiesen wird, nachdem Sie diese hinzugefügt haben. Karten mit einer niedrigeren Fälligkeitsnummer werden beim Lernen zuerst angezeigt. Wenn Sie diese Option ändern, werden die bisherigen Fälligkeitsnummern neuer Karten neu vergeben.
 deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
 deck-config-new-insertion-order-random-with-v3 = Wenn der V3-Zeitplaner genutzt wird, ist es ratsamer, diese Option auf Sequentiell zu belassen und stattdessen die Reihenfolge für die Zusammenstellung der neuen Karten anzupassen.
@@ -242,6 +242,9 @@ deck-config-maximum-answer-secs-above-recommended = Anki kann ihre Lernüberprü
 ## Selecting a deck
 
 deck-config-which-deck = Welchen Stapel möchten Sie gerne?
+
+## Messages related to the FSRS scheduler
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

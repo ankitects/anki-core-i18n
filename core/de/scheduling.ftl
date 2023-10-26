@@ -155,8 +155,8 @@ scheduling-the-default-configuration-cant-be-removed = Die Standardeinstellungen
 scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst eine neue Optionengruppe erstellen.
 scheduling-deck-updated =
     { $count ->
-        [one] { $count } Stapel wurde aktualisiert.
-       *[other] { $count } Stapel wurden aktualisiert.
+        [one] { $count } Stapel wurde geändert.
+       *[other] { $count } Stapel wurden geändert.
     }
 scheduling-set-due-date-prompt =
     { $cards ->

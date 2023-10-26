@@ -40,22 +40,21 @@ actions-answer-card = Karte beantworten
 actions-unbury-unsuspend = Zurückstellen/Aussetzen aufheben
 actions-add-deck = Stapel hinzufügen
 actions-add-note = Notiz hinzufügen
-actions-update-tag = Schlagwort aktualisieren
-actions-update-note = Notiz aktualisieren
-actions-update-card = Karte aktualisieren
-actions-update-deck = Stapel aktualisieren
+actions-update-tag = Schlagwort ändern
+actions-update-note = Notiz ändern
+actions-update-card = Karte ändern
+actions-update-deck = Stapel ändern
 actions-forget-card = Karte vergessen
 actions-build-filtered-deck = Stapel zusammenstellen
 actions-add-notetype = Notiztyp hinzufügen
 actions-remove-notetype = Notiztyp entfernen
-actions-update-notetype = Notiztyp aktualisieren
-actions-update-config = Konfiguration aktualisieren
+actions-update-notetype = Notiztyp ändern
+actions-update-config = Konfiguration ändern
 actions-card-info = Kartenstatistik
 actions-previous-card-info = Vorherige Kartenstatistik
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Diese Aktion wird von Ihrem System zur Zeit nicht unterstützt.
 
 ## Flags
 

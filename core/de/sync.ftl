@@ -21,7 +21,7 @@ sync-media-log-title = Mediensychronisations-Logfile
 
 sync-conflict = Es kann sich ausschließlich ein Client von Anki mit ihrem Konto synchronisieren. Bitte warten Sie einige Minuten und versuchen Sie es anschließend erneut.
 sync-server-error = Es ist ein Problem mit AnkiWeb aufgetreten. Bitte versuchen Sie es in ein paar Minuten erneut.
-sync-client-too-old = Ihre Anki-Version ist zu alt. Bitte aktualisieren Sie Anki auf die neuste Version, um weiterhin sychronisieren zu können.
+sync-client-too-old = Ihre Anki-Version ist zu alt. Bitte installieren Sie die aktuelle Anki-Version, um weiterhin sychronisieren zu können.
 sync-wrong-pass = Die AnkiWeb-Kennung oder das Passwort waren falsch; bitte nochmal versuchen.
 sync-resync-required = Bitte synchronisieren Sie noch einmal. Wenn diese Meldung weiterhin erscheint, wenden Sie sich bitte an die Support-Seite.
 sync-must-wait-for-end = Anki synchronisiert gerade. Bitte warten Sie, bis die Synchronisation abgeschlossen ist und versuchen Sie es danach erneut.
