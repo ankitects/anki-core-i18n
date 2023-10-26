@@ -30,3 +30,4 @@ decks-study = دراسة
 decks-study-deck = دراسة رزمة
 decks-filtered-deck-search-empty = لم تطابق أي بطاقة عبارة البحث المزودة. قد تكون بعض البطاقات أُقصيت لأنها في رزمة مفلترة أخرى، أو لأنها معلّقة.
 decks-unmovable-cards = إظهار البطاقات المستثناة
+decks-learn-header = تعلم
