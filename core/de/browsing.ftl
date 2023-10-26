@@ -96,7 +96,7 @@ browsing-toggle-suspend = Aussetzung umschalten
 browsing-treat-input-as-regular-expression = Eingabe als regulären Ausdruck behandeln
 browsing-update-saved-search = Mit aktuellem Suchbegriff überschreiben
 browsing-whole-collection = Gesamte Sammlung
-browsing-window-title-notes = Durchsuchen ({ $selected } von { $total } Notizen ausgewählt)
+browsing-window-title-notes = Kartenverwaltung ({ $selected } von { $total } Notizen ausgewählt)
 browsing-you-must-have-at-least-one = Mindestens eine Spalte muss angezeigt werden.
 browsing-group =
     { $count ->
@@ -118,7 +118,7 @@ browsing-cards-updated =
         [one] { $count } Karte aktualisiert.
        *[other] { $count } Karten aktualisiert.
     }
-browsing-window-title = Durchsuchen ({ $selected } von { $total } Karten ausgewählt)
+browsing-window-title = Kartenverwaltung ({ $selected } von { $total } Karten ausgewählt)
 browsing-sidebar-expand = Ausklappen
 browsing-sidebar-collapse = Einklappen
 browsing-sidebar-expand-children = Untergeordnete Elemente ausklappen
@@ -155,7 +155,7 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Positon von { $count } neuen Karte geändert.
+        [one] Position von { $count } neuen Karte geändert.
        *[other] Position von { $count } neuen Karten geändert.
     }
 browsing-reparented-decks =
