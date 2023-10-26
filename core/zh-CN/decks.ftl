@@ -30,3 +30,4 @@ decks-study = 学习
 decks-study-deck = 学习牌组
 decks-filtered-deck-search-empty = 没有符合搜索条件的卡片。不同筛选牌组中的卡片和已暂停的卡片可能已被排除。
 decks-unmovable-cards = 显示所有已被排除的卡片
+decks-learn-header = 学习中
