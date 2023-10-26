@@ -30,6 +30,8 @@ importing-map-to = { $val } zuordnen
 importing-map-to-tags = Schlagwörter zuordnen
 importing-mapped-to = abgebildet auf <b>{ $val }</b>
 importing-mapped-to-tags = abgebildet auf <b>Schlagwörter</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Notiztypen zusammenführen
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Ein aus mehreren Zeichen zusammengesetzter Separator zum Trennen von Datenfeldern wird nicht unterstützt. Bitte geben Sie nur ein Zeichen als Separator ein.
 importing-notes-added-from-file = Notizen hinzugefügt von Datei: { $val }
