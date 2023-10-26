@@ -347,6 +347,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     Se la ripianificazione è abilitata, le scadenze delle carte verranno modificate. In base alla tua ritenzione desiderata, 
     ciò può comportare un grande aumento del carico di lavoro nel breve termine.
     Per questo motivo, non è raccomandato abilitare questa impostazione quando attivi per la prima volta FSRS.
+deck-config-reschedule-cards-warning = A seconda della ritenzione desiderata, ciò può comportare la 'scadenza' di un gran numero di carte (e quindi un aumento del carico di lavoro nel breve termine), per cui non è consigliato abilitare tale opzione la prima volta che si usa FSRS
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
     e generare automaticamente pesi ottimali per la tua memoria e i contenuti che stai studiando. 
