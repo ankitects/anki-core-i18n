@@ -71,11 +71,21 @@ importing-update-if-newer = Falls neuer
 importing-update-always = Immer
 importing-update-never = Nie
 importing-update-notes = Notizinhalt updaten:
+importing-update-notes-help =
+    Beeinflusst, wann eine bereits in Ihrer Sammlung vorhandene Notiz geupdatet wird.
+    
+    Default: "Falls neuer", also wenn die in dem zu importierenden Stapel gefundene Version der Notiz neuer ist als die Version in Ihrer Sammlung.
 importing-update-notetypes = Notiztypen updaten:
+importing-update-notetypes-help =
+    Beeinflusst, wann ein bereits in Ihrer Sammlung vorhandener Notiztyp (wie z.B. "Einfach" oder "Lückentext") geupdatet wird.
+    
+    Default: "Falls neuer", also wenn die Version des Notiztyps in dem zu importierenden Stapel neuer ist als die Version in Ihrer Sammlung.
+    
+    Beachte: Wenn sich bei dem Notiztyp die Anzahl oder Reihenfolge der Felder geändert hat, werden diese Änderungen nur dann übernommen, wenn die Option '{ importing-merge-notetypes }' aktiviert ist. Änderungen an Inhalt und Styling einer Kartenvorlage können hingegen auch übernommen werden, wenn diese Option nicht aktiviert ist.
 importing-note-added =
     { $count ->
-        [one] { $count } Notiz wurde hinzugefügt
-       *[other] { $count } Notizen wurden hinzugefügt
+        [one] { $count } Notiz wurde hinzugefügt.
+       *[other] { $count } Notizen wurden hinzugefügt.
     }
 importing-note-imported =
     { $count ->
@@ -84,18 +94,18 @@ importing-note-imported =
     }
 importing-note-unchanged =
     { $count ->
-        [one] { $count } Notiz unverändert
-       *[other] { $count } Notizen unverändert
+        [one] { $count } Notiz ist unverändert geblieben.
+       *[other] { $count } Notizen sind unverändert geblieben.
     }
 importing-note-updated =
     { $count ->
-        [one] { $count } Notiz wurde aktualisiert
-       *[other] { $count } Notizen wurden aktualisiert
+        [one] { $count } Notiz wurde aktualisiert.
+       *[other] { $count } Notizen wurden aktualisiert.
     }
 importing-processed-media-file =
     { $count ->
-        [one] { $count } verarbeitete Mediendatei
-       *[other] { $count } verarbeitete Mediendateien
+        [one] { $count } Mediendatei wurde importiert.
+       *[other] { $count } Mediendateien wurden importiert.
     }
 importing-importing-file = Datei wird importiert...
 importing-extracting = Daten werden extrahiert...
@@ -174,6 +184,20 @@ importing-note-updated-as-file-had-newer = Notiz geupdatet, da der importierte S
 importing-note-skipped-due-to-missing-notetype = Notiz übersprungen, Notiztyp fehlt
 importing-note-skipped-due-to-missing-deck = Notiz übersprungen, Stapel fehlt
 importing-note-skipped-due-to-empty-first-field = Notiz übersprungen, erstes Feld ist leer
+importing-field-separator-help =
+    Das Separator-Zeichen, das die verschiedenen Felder in der Text-Datei trennt. Sie können die Vorschau verwenden, um zu prüfen, ob die Felder korrekt getrennt werden.
+    
+    Beachte: Falls das Separator-Zeichen auch innerhalb eines Feldes auftaucht, muss dieses Feld korrekt (d.h. dem CSV-Standard gemäß) formatiert werden. Tabellenkalkulationsprogramme wie LibreOffice tun das automatisch.
+importing-deck-help = Importierte Karten werden in diesem Stapel gespeichert.
+importing-existing-notes-help =
+    Was soll passieren, wenn eine zu importierende Notiz identisch zu einer bereits vorhandenen ist?
+    
+    - `{ importing-update }`: Die vorhandene Notiz updaten¶
+    - `{ importing-preserve }`: Nichts tun¶
+    - `{ importing-duplicate }`: Neue (zusätzliche) Notiz erstellen
+importing-match-scope-help = Nur Notizen mit dem gleichen Notiztyp werden daraufhin überprüft, ob sie bereits in der Sammlung vorhanden sind. Zusätzlich kann die Prüfung darauf beschränkt werden, ob im selben Stapel eine identische Notiz vorhanden ist.
+importing-tag-all-notes-help = Diese Schlagwörter werden sowohl den neu importierten als auch den geupdateten Notizen hinzugefügt.
+importing-tag-updated-notes-help = Diese Schlagwörter werden nur den geupdateten Notizen hinzugefügt.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
