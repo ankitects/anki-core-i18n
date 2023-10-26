@@ -50,6 +50,8 @@ importing-notes-skipped-as-theyre-already-in = Notas ignoradas, pois já estão 
 importing-notes-skipped-update-due-to-notetype = Notas não atualizadas, pois o tipo de nota foi modificado desde que você importou as notas pela primeira vez: { $val }
 importing-notes-updated-as-file-had-newer = Notas atualizadas, pois o arquivo tinha uma versão mais recente: { $val }
 importing-include-reviews = Incluir revisões
+importing-also-import-progress = Importar também qualquer progresso de aprendizagem
+importing-conflict-handling = Gerenciamento de conflitos
 importing-include-reviews-help =
     Se ativado, quaisquer revisões anteriores incluídas pelo compartilhador do baralho também serão importadas.¶
     Caso contrário, todos os cartões serão importados como novos cartões.

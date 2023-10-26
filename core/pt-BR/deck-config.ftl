@@ -340,6 +340,9 @@ deck-config-reschedule-cards-on-change-tooltip =
     os pesos. O padrão é não reprogramar os cartões: revisões futuras usarão a nova programação, mas¶
     não haverá mudança imediata na sua carga de trabalho. Se a reprogramação estiver ativada, as datas de vencimento dos cartões¶
     serão alteradas. Dependendo da sua retenção desejada, isso pode resultar em um grande número de cartões tornando-se
+deck-config-reschedule-cards-warning =
+    Baseando-se na retenção que pretende alcançar, isso pode causar um acúmulo significativo de cartões a serem¶
+    revistos, então não é aconselhável quando estiver começando a mudar do SM2
 deck-config-compute-optimal-weights-tooltip =
     Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,¶
     e gerar automaticamente pesos que são ótimos para sua memória e o conteúdo que você está estudando.¶
