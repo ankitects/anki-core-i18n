@@ -70,6 +70,28 @@ editing-from-clipboard = Leikepöydältä
 editing-alignment = Tasaus
 editing-equations = Yhtälöt
 editing-no-image-found-on-clipboard = Leikepöydältä ei löytynyt kuvaa.
+editing-image-occlusion-mode = Kuvan peittämistila
+editing-image-occlusion-zoom-out = Loitonna
+editing-image-occlusion-zoom-in = Lähennä
+editing-image-occlusion-zoom-reset = Nollaa zoomaus
+editing-image-occlusion-toggle-translucent = Läpinäkyvyys päälle/pois
+editing-image-occlusion-delete = Poista
+editing-image-occlusion-duplicate = Monista
+editing-image-occlusion-group = Ryhmitä valinta
+editing-image-occlusion-ungroup = Poista valinnan ryhmitys
+editing-image-occlusion-alignment = Tasaus
+editing-image-occlusion-align-left = Tasaa vasemalle
+editing-image-occlusion-align-h-center = Keskitä vaakasuunnassa
+editing-image-occlusion-align-right = Tasaa oikealle
+editing-image-occlusion-align-top = Tasaa ylös
+editing-image-occlusion-align-v-center = Keskitä pystysuunnassa
+editing-image-occlusion-align-bottom = Tasaa alas
+editing-image-occlusion-select-tool = Valitse
+editing-image-occlusion-zoom-tool = Zoomaa
+editing-image-occlusion-rectangle-tool = Suorakulmio
+editing-image-occlusion-ellipse-tool = Soikio
+editing-image-occlusion-polygon-tool = Monikulmio
+editing-image-occlusion-text-tool = Teksti
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

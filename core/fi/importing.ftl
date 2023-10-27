@@ -49,6 +49,8 @@ importing-notes-skipped-as-theyre-already-in = Muistiinpanoja, jotka ohitettiin,
 importing-notes-skipped-update-due-to-notetype = Muistiinpanoja ei päivitetty, koska muistiinpanotyyppiä on muutettu sen jälkeen, kun muistiinpanot tuotiin ensimmäisen kerran: { $val }
 importing-notes-updated-as-file-had-newer = Muistiinpanoja, jotka päivitettiin, koska tiedostossa oli uudempi versio: { $val }
 importing-include-reviews = Sisällytä kertaukset
+importing-also-import-progress = Tuo myös mahdollinen oppimisen edistyminen
+importing-conflict-handling = Ristiriitojen käsittely
 importing-include-reviews-help =
     Jos tämä on käytössä, myös pakan jakajan mahdollisesti sisällyttämät aiemmat kertaukset tuodaan.
     Muussa tapauksessa kaikki kortit tuodaan uusina kortteina.

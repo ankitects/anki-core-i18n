@@ -28,7 +28,7 @@ preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synkronoint
 preferences-synchronize-audio-and-images-too = Synkronoi myös äänitiedostot ja kuvat
 preferences-timebox-time-limit = Edistymisen näyttämisen aikaväli
 preferences-user-interface-size = Käyttöliittymän koko
-preferences-when-adding-default-to-current-deck = Kun lisätään, on oletuksena nykyinen pakka
+preferences-when-adding-default-to-current-deck = Lisää kortit oletusarvoisesti nykyiseen pakkaan
 preferences-you-can-restore-backups-via-fileswitch = Voit palauttaa varmuuskopioita valitsemalla Tiedosto>Vaihda profiilia.
 preferences-legacy-timezone-handling = Vanha aikavyöhykkeiden käsittely (sisältää virheitä, mutta vaaditaan AnkiDroidin versioille <= 2.14)
 preferences-default-search-text = Oletusarvoinen hakuteksti
@@ -39,9 +39,7 @@ preferences-theme-light = Vaalea
 preferences-theme-dark = Tumma
 preferences-v3-scheduler = V3-aikataulutusohjelma
 preferences-ignore-accents-in-search = Jätä aksentit huomiotta haun yhteydessä (hitaampi)
-preferences-backup-explanation =
-    Anki varmuuskopioi kokoelmasi säännöllisesti, kun se on suljettu. Kun varmuuskopiot ovat yli 2 päivää vanhoja,
-    Anki alkaa poistaa niistä joitakin vapauttaakseen levytilaa.
+preferences-backup-explanation = Anki varmuuskopioi kokoelmasi säännöllisesti, kun se on suljettu. Kun varmuuskopiot ovat yli 2 päivää vanhoja, Anki alkaa poistaa niistä joitakin vapauttaakseen levytilaa.
 preferences-daily-backups = Säilytettävien päivittäisten varmuuskopioiden määrä:
 preferences-weekly-backups = Säilytettävien viikottaisten varmuuskopioiden määrä:
 preferences-monthly-backups = Säilytettävien kuukausittaisten varmuuskopioiden määrä:

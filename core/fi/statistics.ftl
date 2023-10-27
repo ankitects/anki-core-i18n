@@ -95,6 +95,7 @@ statistics-card-ease-title = Korttien helppous
 statistics-card-difficulty-title = Kortin vaikeus
 statistics-card-stability-title = Korttien vakaus
 statistics-card-stability-subtitle = Ennustettu viive, jonka kuluttua muistat asian 90 % todennäköisyydellä.
+statistics-average-stability = Keskimääräinen vakaus
 statistics-card-retrievability-title = Kortin palautettavuus
 statistics-card-ease-subtitle = Mitä pienempi helppous, sitä useammin kortti ilmestyy kerrattavaksi.
 statistics-card-difficulty-subtitle = Mitä vaikeampi kortti, sitä useammin kortti ilmestyy kerrattavaksi.
@@ -162,6 +163,16 @@ statistics-intervals-day-single =
     { $cards ->
         [one] { $cards } kortti { $daysStart }–{ $daysEnd } päivän viivästyksellä
        *[other] { $cards } korttia { $daysStart }–{ $daysEnd } päivän viivästyksellä
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } kortti { $daysStart }~{ $daysEnd } päivän vakaudella
+       *[other] { $cards } korttia { $daysStart }~{ $daysEnd } päivän vakaudella
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } kortti { $day } päivän vakaudella
+       *[other] { $cards } korttia { $day } päivän vakaudella
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }.00–{ $hourEnd }.00
