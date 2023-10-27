@@ -112,6 +112,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Zufällige Karten`: sammelt Karten vollkommen zufällig.
 deck-config-new-gather-priority-deck = Stapel
+deck-config-new-gather-priority-deck-then-random-notes = Zuerst Stapel, dann zufällige Notizen
 deck-config-new-gather-priority-position-lowest-first = Aufsteigende Position
 deck-config-new-gather-priority-position-highest-first = Absteigende Position
 deck-config-new-gather-priority-random-notes = Zufällige Notizen
@@ -151,6 +152,8 @@ deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
 deck-config-sort-order-descending-intervals = Absteigende Intervalle
 deck-config-sort-order-ascending-ease = Aufsteigende Leichtigkeit
 deck-config-sort-order-descending-ease = Absteigende Leichtigkeit
+deck-config-sort-order-ascending-difficulty = Nach Schwierigkeit, aufsteigend
+deck-config-sort-order-descending-difficulty = Nach Schwierigkeit, absteigend
 deck-config-sort-order-relative-overdueness = Relative Überfälligkeit
 deck-config-display-order-will-use-current-deck =
     Anki wird die Anzeigereihenfolge von dem Stapel, den Sie 
@@ -175,6 +178,7 @@ deck-config-disable-autoplay-tooltip =
     Sie können manuell abgespielt werden, indem Sie auf das Audiosymbol klicken/drücken oder indem Sie die Aktion Audio erneut abspielen benutzen.
 deck-config-skip-question-when-replaying = Frage beim erneuten Abspielen der Antwort überspringen
 deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
+deck-config-stop-timer-on-answer = Timer pausieren, solange die Antwortseite gezeigt wird
 
 ## Advanced section
 

@@ -30,4 +30,4 @@ decks-study = Lernen
 decks-study-deck = Stapel lernen
 decks-filtered-deck-search-empty = Es wurden keine Karten mit dem angegebenen Suchbegriff gefunden. Bestimmte Karten könnten von der Suche ausgeschlossen gewesen sein, weil sie sich in einem anderen benutzerdefinierten Stapel befinden oder ausgesetzt sind.
 decks-unmovable-cards = Alle ausgeschlossenen Karten anzeigen
-decks-learn-header = Stapel
+decks-learn-header = Lernen

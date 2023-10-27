@@ -53,7 +53,7 @@ importing-notes-skipped-update-due-to-notetype = Notizen nicht geupdatet, da ihr
 importing-notes-updated-as-file-had-newer = Notizen geupdatet, da der importierte Stapel eine neuere Version enthielt: { $val }
 importing-include-reviews = Auch den Lernfortschritt aus dem Stapel übernehmen (falls vorhanden)
 importing-also-import-progress = Auch den Lernfortschritt aus dem Stapel übernehmen (falls vorhanden)
-importing-conflict-handling = Vorgehen bei Konflikten zwischen dem neuen Stapel und Ihrer Sammlung (für Profis):
+importing-conflict-handling = Vorgehen bei Konflikten zwischen dem neuen Stapel und Ihrer Sammlung:
 importing-include-reviews-help =
     Falls aktiviert, werden auch der Lernfortschritt und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, der Stapelersteller hat diese mitexportiert).
     Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten als neue Karten importiert und die Standard-Stapeloptionen Ihrer Sammlung verwendet.
