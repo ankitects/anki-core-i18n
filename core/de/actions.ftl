@@ -55,6 +55,7 @@ actions-previous-card-info = Vorherige Kartenstatistik
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Der Vollbildmodus wird von Ihrem aktuell ausgewählten Grafikkartentreiber nicht unterstützt. Sie können in den Einstellungen einen anderen Grafikkartentreiber auswählen und es damit versuchen. Klicken Sie dazu auf Extras > Einstellungen
 
 ## Flags
 

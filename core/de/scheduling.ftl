@@ -97,10 +97,11 @@ scheduling-update-soon = Anki 2.1 kommt mit einem neuen Zeitplaner, welcher eine
 scheduling-update-done = Zeitplaner erfolgreich geupdated.
 scheduling-update-button = Updaten
 scheduling-update-later-button = Später
-scheduling-update-more-info-button = Mehr lernen
+scheduling-update-more-info-button = Hilfe
 scheduling-update-required =
-    Ihre Sammlung muss an den V2-Zeitplaner angepasst werden.
-    Bitte vor dem Fortfahren { scheduling-update-more-info-button } auswählen.
+    Ihre Sammlung verwendet noch einen alten Zeitplaner und muss auf den V2-Zeitplaner geupdatet werden.
+    
+    Um mehr darüber zu erfahren, klicken Sie auf { scheduling-update-more-info-button }.
 
 ## Other scheduling strings
 
