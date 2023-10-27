@@ -30,3 +30,4 @@ decks-study = Opiskele
 decks-study-deck = Opiskele pakkaa
 decks-filtered-deck-search-empty = Yksikään kortti ei vastannut annettua hakua. Jotkin kortit on saatettu jättää pois, koska ne ovat eri suodatetussa pakassa tai ne on hyllytetty.
 decks-unmovable-cards = Näytä kaikki poissuljetut kortit
+decks-learn-header = Opittavat

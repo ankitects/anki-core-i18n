@@ -145,7 +145,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     
     `Satunnainen muistiinpano, sitten korttimallin mukaan`: Poimii muistiinpanoja satunnaisesti ja näyttää sitten kaikki niiden sisarkortit järjestyksesä.
     
-    "Satunnainen": Sekoittaa kerätyt kortit täydellisesti.
+    `Satunnainen`: Sekoittaa kerätyt kortit täysin.
 deck-config-sort-order-card-template-then-random = Korttimallin mukaan, sitten satunnaisesti
 deck-config-sort-order-random-note-then-template = Satunnainen muistiinpano, sitten korttimallin mukaan
 deck-config-sort-order-random = Satunnainen
@@ -274,7 +274,7 @@ deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
 deck-config-compute-optimal-retention = Laske optimaalinen retentio
 deck-config-optimize-button = Optimoi
 deck-config-compute-button = Laske
-deck-config-analyze-button = Analysoi
+deck-config-evaluate-button = Arvioi
 deck-config-desired-retention = Toivottu retentio
 deck-config-sm2-retention = SM2-retentio
 deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioita muistista.
@@ -287,8 +287,16 @@ deck-config-reschedule-cards-on-change = Aikatauluta kortit uudelleen muutoksen 
 deck-config-fsrs-tooltip =
     Free Spaced Repetition Scheduler (FSRS) on vaihtoehto Ankin vanhalle SuperMemo 2 (SM2) -aikataulutusohjelmalle.
     Se määrittää tarkemmin, milloin olet vaarassa unohtaa oppimaasi, ja auttaa sinua muistamaan enemmän materiaalia samassa ajassa. Tämä asetus vaikuttaa kaikkien pakkojen esiasetuksiin.
+deck-config-desired-retention-tooltip = Oletusarvo 0,9 ajoittaa kortit niin, että sinulla on 90 % mahdollisuus muistaa ne, kun ne tulevat uudelleen kerrattaviksi. Jos arvoa kasvatetaan, Anki näyttää kortteja useammin, jotta muistaisit ne todennäköisemmin. Jos arvoa pienennetään, Anki näyttää kortteja harvemmin, ja unohtanet niistä aiempaa suuremman osan. Ole varovainen säätäessäsi tätä arvoa - suuremmat arvot lisäävät työmäärääsi huomattavasti, ja pienemmät arvot saattavat johtaa siihen, että et muista oppimaasi materiaalia yhtä hyvin, mikä voi olla lannistavaa.
 deck-config-sm2-retention-tooltip = Jos todellinen retentiosi ennen FSRS:ään siirtymistä poikkesi merkittävästi 0,9:stä, tämän arvon säätäminen antaa Ankin arvioida paremmin muistisi vahvuuden, kun se kohtaa kortteja, joista puuttuu kertaustiedot. Tavallisesti kertaustiedot ovat tallella, ellei niitä nimenomaisesti ole poistettu tilan vapauttamiseksi. Näin ollen useimpien käyttäjien ei tarvitse säätää tätä arvoa.
 deck-config-weights-tooltip = Mallin painokertoimet vaikuttavat korttien aikataulutukseen. Kun kertauksia on yli 1000, voit optimoida painokertoimet alapuolella.
+deck-config-reschedule-cards-on-change-tooltip = Tällä valinnalla määritetään, muutetaanko korttien eräpäiviä, kun otat FSRS:n käyttöön tai muutat painokertoimia. Oletusarvoisesti kortteja ei ajoiteta uudelleen: tulevissa tarkistuksissa käytetään uutta ajoitusta, mutta työmäärään ei tule välitöntä muutosta. Jos aikataulun muuttaminen otetaan käyttöön, korttien eräpäiviä muutetaan.
+deck-config-reschedule-cards-warning = Riippuen toivomastasi retentioajasta, tämä voi johtaa siihen, että suuri määrä kortteja erääntyy, joten sitä ei suositella, kun siirryt ensimmäistä kertaa SM2:sta.
+deck-config-compute-optimal-weights-tooltip =
+    Kun olet tehnyt yli 1000 kertausta Ankissa, voit käyttää Optimoi-painiketta, joka analysoi kertaushistoriasi ja luo automaattisesti painokertoimet, jotka ovat optimaaliset muistisi ja opiskelemasi materiaalin kannalta. Jos sinulla on vaikeusasteeltaan vaihtelevia pakkoja, on suositeltavaa määrittää kullekin erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen painokertoimista tulee erilaisia. Painokertoimia ei tarvitse optimoida usein - kerta muutaman kuukauden välein riittää.
+    
+    Oletusarvoisesti painotukset lasketaan kaikkien nykyisiä esiasetuksia käyttävien pakkojen kertaushistoriasta. Voit halutessasi säätää hakua ennen painokertoimien laskemista, jos haluat muuttaa, mitä kortteja painokertoimien optimointiin käytetään.
+deck-config-compute-optimal-retention-tooltip = Tämä työkalu olettaa, että aloitat 0 kortista, ja yrittää laskea, kuinka paljon materiaalia pystyt säilyttämään muistissasi annetussa ajassa (retentio). Arvioitu retentio riippuu huomattavasti syöttötiedoistasi, ja jos se poikkeaa merkittävästi 0,9:stä, se on merkki siitä, että kullekin päivälle varattu aika on joko liian pieni tai liian suuri siihen korttimäärään nähden, jonka yrität oppia. Tämä luku voi olla hyödyllinen viitteenä, mutta sitä ei suositella kopioitavaksi Toivottu retentio -kenttään.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
