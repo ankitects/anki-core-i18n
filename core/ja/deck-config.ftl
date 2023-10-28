@@ -273,7 +273,7 @@ deck-config-compute-optimal-weights = FSRSの重みを最適化
 deck-config-compute-optimal-retention = 学習プランから正答保持率を推定
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
-deck-config-analyze-button = 分析
+deck-config-evaluate-button = 評価
 deck-config-desired-retention = 正答保持率（目標値）
 deck-config-sm2-retention = SM2での正答保持率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴との適合性が高いことを意味します。
@@ -314,6 +314,11 @@ deck-config-compute-optimal-retention-tooltip =
     推定される正答保持率は各項目に入力する値によって大きく変化します。0.9との差が著しく大きい場合は、あなたが学習しようとしているカードの量に対して、1日あたりの割り当て時間が少なすぎるか、または多すぎるということを意味しています。
     
     この値は、あくまで学習プランの調整などのための参考値であり、`正答保持率（目標値）`の欄でそのまま使用するための推奨値ではありません。
+deck-config-wait-for-audio = 音声再生終了を待つ
+deck-config-show-reminder = リマインダーを表示
+deck-config-answer-again = 回答 (もう一度)
+deck-config-answer-hard = 回答 (難しい)
+deck-config-answer-good = 回答 (正解)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -333,8 +338,3 @@ deck-config-bury-tooltip =
     
     When using the V3 scheduler, interday learning cards can also be buried. Interday
     learning cards are cards with a current learning step of one or more days.
-deck-config-wait-for-audio = 音声再生終了を待つ
-deck-config-show-reminder = リマインダーを表示
-deck-config-answer-again = 回答 (もう一度)
-deck-config-answer-hard = 回答 (難しい)
-deck-config-answer-good = 回答 (正解)

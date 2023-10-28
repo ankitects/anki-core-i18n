@@ -70,6 +70,28 @@ editing-from-clipboard = クリップボードから
 editing-alignment = 配置
 editing-equations = 数式
 editing-no-image-found-on-clipboard = クリップボードに画像が見つかりません。
+editing-image-occlusion-mode = 画像マスキングモード
+editing-image-occlusion-zoom-out = 縮小
+editing-image-occlusion-zoom-in = 拡大
+editing-image-occlusion-zoom-reset = 拡大縮小をリセット
+editing-image-occlusion-toggle-translucent = マスク半透明表示の切り替え
+editing-image-occlusion-delete = 削除
+editing-image-occlusion-duplicate = 複製
+editing-image-occlusion-group = 選択中のマスクをグループ化
+editing-image-occlusion-ungroup = 選択中のマスクのグループ化を解除
+editing-image-occlusion-alignment = マスクを整列
+editing-image-occlusion-align-left = 左揃え
+editing-image-occlusion-align-h-center = 水平方向の中央揃え
+editing-image-occlusion-align-right = 右揃え
+editing-image-occlusion-align-top = 上揃え
+editing-image-occlusion-align-v-center = 垂直方向の中央揃え
+editing-image-occlusion-align-bottom = 下揃え
+editing-image-occlusion-select-tool = 選択
+editing-image-occlusion-zoom-tool = 拡大・縮小
+editing-image-occlusion-rectangle-tool = 矩形（長方形）
+editing-image-occlusion-ellipse-tool = 楕円形
+editing-image-occlusion-polygon-tool = 多角形
+editing-image-occlusion-text-tool = 文字
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
