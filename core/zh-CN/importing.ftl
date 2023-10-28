@@ -48,7 +48,7 @@ importing-notes-skipped-update-due-to-notetype = 由于在笔记首次导入后�
 importing-notes-updated-as-file-had-newer = 因文件有新版本而更新的笔记：{ $val }
 importing-include-reviews = 包含复习情况
 importing-also-import-progress = 同时导入所有学习进度信息
-importing-conflict-handling = 冲突处理
+importing-updates = 更新
 importing-include-reviews-help =
     启用后，牌组分享者的复习情况也会被导入。
     若未启用，所有卡片将被视为新卡片导入。

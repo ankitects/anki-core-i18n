@@ -292,6 +292,7 @@ deck-config-fsrs-tooltip =
     自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2(SM2) 排程算法的替代。
     通过更准确地确定您何时可能忘记，它可以帮助您在相同时间内记住更多的内容。
     此设置影响所有牌组的预设配置。
+    如果您以前使用过「自定义排程」的 FSRS，请确保您在启用该选项前已清空自定义排程的内容。
 deck-config-desired-retention-tooltip =
     默认值 0.9 会将卡片进行排程，以使您在下一次复习时有 90% 的回忆成功概率。
     如果您增加数值，Anki 会增加展示卡片的频率，以增加您回忆成功的概率。
@@ -317,6 +318,11 @@ deck-config-compute-optimal-retention-tooltip =
     该工具假设您从 0 张卡片开始，并将尝试计算您在给定时间范围内能够保留记忆的材料量。
     预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。
     该数字可用作参考，但不建议将其复制到期望记忆保留率字段中。
+deck-config-wait-for-audio = 等待音频播放完毕
+deck-config-show-reminder = 显示提醒
+deck-config-answer-again = 回答「忘记」
+deck-config-answer-hard = 回答「困难」
+deck-config-answer-good = 回答「良好」
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -330,8 +336,3 @@ deck-config-bury-tooltip =
     此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
     此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
     当使用 V3 排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。
-deck-config-wait-for-audio = 等待音频播放完毕
-deck-config-show-reminder = 显示提醒
-deck-config-answer-again = 回答「忘记」
-deck-config-answer-hard = 回答「困难」
-deck-config-answer-good = 回答「良好」
