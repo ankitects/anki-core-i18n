@@ -51,7 +51,7 @@ importing-notes-skipped-update-due-to-notetype = لم يتم تحديث المل
 importing-notes-updated-as-file-had-newer = عدد الملحوظات المحدثة لأن الملف له إصدار أحدث: { $val }
 importing-include-reviews = تضمين المراجعات
 importing-also-import-progress = قم أيضًا باستيراد أي تقدم في التعلم
-importing-conflict-handling = معالجة التعارض
+importing-updates = تحديثات
 importing-include-reviews-help =
     في حالة التمكين، سيتم أيضا استيراد أي مراجعات سابقة قام مشارك الرزمة بتضمينها.
     خلاف ذلك ، سيتم استيراد جميع البطاقات كبطاقات جديدة.
