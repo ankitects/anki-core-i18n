@@ -311,7 +311,7 @@ deck-config-smaller-is-better = Números menores indicam um ajuste melhor ao seu
 deck-config-steps-too-large-for-fsrs = Quando o FSRS está ativado, etapas de aprendizado com mais de 1 dia não são recomendadas.
 deck-config-get-params = Obter Parâmetros
 deck-config-fsrs-on-all-clients =
-    Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não¶
+    Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não
     funcionará corretamente se um dos seus clientes for mais antigo.
 deck-config-estimated-retention = Retenção estimada: { $num }
 deck-config-complete = { $num }% concluído.
@@ -341,7 +341,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     não haverá mudança imediata na sua carga de trabalho. Se a reprogramação estiver ativada, as datas de vencimento dos cartões¶
     serão alteradas. Dependendo da sua retenção desejada, isso pode resultar em um grande número de cartões tornando-se
 deck-config-reschedule-cards-warning =
-    Baseando-se na retenção que pretende alcançar, isso pode causar um acúmulo significativo de cartões a serem¶
+    Baseando-se na retenção que pretende alcançar, isso pode causar um acúmulo significativo de cartões a serem
     revistos, então não é aconselhável quando estiver começando a mudar do SM2
 deck-config-compute-optimal-weights-tooltip =
     Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,¶
@@ -359,6 +359,11 @@ deck-config-compute-optimal-retention-tooltip =
     se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo¶
     ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é¶
     não recomendado copiá-lo para o campo de retenção desejado.
+deck-config-wait-for-audio = Esperando pelo Áudio
+deck-config-show-reminder = Mostrar lembrete
+deck-config-answer-again = Responder Novamente
+deck-config-answer-hard = Resposta Difícil
+deck-config-answer-good = Resposta Boa
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -378,8 +383,3 @@ deck-config-bury-tooltip =
     ¶
     Ao usar o agendador V3, cartões de aprendizagem interdiários também podem ser ocultados. ¶
     Cartões de aprendizagem interdiários são cartões com um passo de aprendizagem atual de um ou mais dias.
-deck-config-wait-for-audio = Esperando pelo Áudio
-deck-config-show-reminder = Mostrar lembrete
-deck-config-answer-again = Responder Novamente
-deck-config-answer-hard = Resposta Difícil
-deck-config-answer-good = Resposta Boa
