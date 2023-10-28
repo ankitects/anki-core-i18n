@@ -359,8 +359,13 @@ deck-config-compute-optimal-retention-tooltip =
     Questo strumento presuppone che tu stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
     che sarai in grado di ricordare nel periodo di tempo specificato. 
     La ritenzione stimata dipenderà notevolmente dai tuoi dati di input, e se differisce significativamente da 0,9, 
-    è un segno che il tempo che hai allocato ogni giorno è o troppo poco oppure troppo elevato rispetto alla quantità di carte che stai cercando di imparare. 
+    è un segno che il tempo che hai allocato ogni giorno allo studio è troppo oppure troppo poco rispetto alla quantità di carte che stai cercando di imparare. 
     Questo numero può essere utile come riferimento, ma non è raccomandato copiarlo nel campo Ritenzione desiderata.
+deck-config-wait-for-audio = Attendi audio
+deck-config-show-reminder = Mostra promemoria
+deck-config-answer-again = Rispondi Ripeti
+deck-config-answer-hard = Rispondi Difficile
+deck-config-answer-good = Rispondi Normale
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -379,8 +384,3 @@ deck-config-bury-tooltip =
     
     Quando si utilizza lo scheduler V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
     Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento corrente di uno o più giorni.
-deck-config-wait-for-audio = Attendi audio
-deck-config-show-reminder = Mostra promemoria
-deck-config-answer-again = Rispondi Ripeti
-deck-config-answer-hard = Rispondi Difficile
-deck-config-answer-good = Rispondi Normale
