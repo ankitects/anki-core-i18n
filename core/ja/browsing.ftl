@@ -114,10 +114,10 @@ browsing-cards-updated =
        *[other] { $count }枚のカードを更新しました。
     }
 browsing-window-title = ブラウザ（{ $total }枚のカード中{ $selected }枚を選択中）
-browsing-sidebar-expand = 広げる
+browsing-sidebar-expand = 折りたたみを展開
 browsing-sidebar-collapse = 折りたたむ
-browsing-sidebar-expand-children = 子ノードを開く
-browsing-sidebar-collapse-children = 子ノードを折りたたむ
+browsing-sidebar-expand-children = サブデッキの折りたたみを展開
+browsing-sidebar-collapse-children = サブデッキを折りたたむ
 browsing-sidebar-decks = デッキ
 browsing-sidebar-tags = タグ
 browsing-sidebar-notetypes = ノートタイプ
@@ -135,13 +135,13 @@ browsing-tooltip-question = カードの表（おもて）側。カードテン�
 browsing-tooltip-answer = カードの裏側。カードテンプレートのエディタでカスタマイズすることができます。
 browsing-studied-today = 今日学習した
 browsing-added-today = 今日追加した
-browsing-again-today = 今日間違えた（「もう一度」）
+browsing-again-today = 今日間違えた（「もう一度」と回答した）
 browsing-edited-today = 今日編集した
 browsing-sidebar-first-review = 今日学習を開始した
 browsing-sidebar-rescheduled = 今日スケジュールを変更した
 browsing-sidebar-due-today = 今日が期日
 browsing-sidebar-untagged = タグなし
-browsing-sidebar-overdue = 延滞中（昨日以前が期日で未済）
+browsing-sidebar-overdue = 今日延滞中（昨日以前が期日で未済）
 browsing-row-deleted = (削除)
 browsing-removed-unused-tags-count =
     { $count ->
