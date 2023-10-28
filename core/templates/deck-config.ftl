@@ -386,6 +386,12 @@ deck-config-compute-optimal-retention-tooltip =
     or too high for the amount of cards you're trying to learn. This number can be useful as a reference, but it
     is not recommended to copy it into the desired retention field.
 
+deck-config-wait-for-audio = Wait for audio
+deck-config-show-reminder = Show Reminder
+deck-config-answer-again = Answer Again
+deck-config-answer-hard = Answer Hard
+deck-config-answer-good = Answer Good
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Bury siblings
@@ -404,8 +410,3 @@ deck-config-bury-tooltip =
     
     When using the V3 scheduler, interday learning cards can also be buried. Interday
     learning cards are cards with a current learning step of one or more days.
-deck-config-wait-for-audio = Wait for Audio
-deck-config-show-reminder = Show Reminder
-deck-config-answer-again = Answer Again
-deck-config-answer-hard = Answer Hard
-deck-config-answer-good = Answer Good
