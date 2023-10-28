@@ -28,6 +28,6 @@ decks-repeat-failed-cards-after = Ripeti carte fallite dopo
 decks-reschedule-cards-based-on-my-answers = Ripianifica le carte considerando le mie risposte in questo mazzo
 decks-study = Studia
 decks-study-deck = Studia il mazzo
-decks-filtered-deck-search-empty = Nessuna carta corrisponde ai criteri di ricerca forniti. Alcune carte potrebbero essere state escluse perché sono in un differente mazzo filtrato, o sono sospese.
+decks-filtered-deck-search-empty = Nessuna carta corrisponde ai criteri di ricerca forniti. Alcune carte potrebbero essere state escluse poiché si trovano in un altro mazzo filtrato, o sono sospese.
 decks-unmovable-cards = Mostra le carte escluse
 decks-learn-header = Impara

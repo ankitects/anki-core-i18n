@@ -51,7 +51,7 @@ importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-include-reviews = Includi le ripetizioni
 importing-also-import-progress = Importa anche eventuali progressi di apprendimento
-importing-conflict-handling = Gestione dei conflitti
+importing-updates = Aggiornamenti
 importing-include-reviews-help =
     Se abilitato, saranno importate anche tutte le ripetizioni precedenti incluse dall'autore del mazzo. 
     In caso contrario, tutte le carte saranno importate come nuove carte.
