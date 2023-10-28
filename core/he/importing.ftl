@@ -53,7 +53,7 @@ importing-notes-skipped-update-due-to-notetype = הרשומות לא עודכנ�
 importing-notes-updated-as-file-had-newer = רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: { $val }
 importing-include-reviews = כלול נתוני חזרות
 importing-also-import-progress = ייבא גם כל התקדמות למידה
-importing-conflict-handling = טיפול בהתנגשויות
+importing-updates = עדכונים
 importing-include-reviews-help =
     אם מסומן, כל החזרות הקודמות שבוצעו בחפיסה ייובאו גם כן.
     אחרת, כל הכרטיסים יובאו ככרטיסים חדשים.

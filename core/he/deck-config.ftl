@@ -370,6 +370,11 @@ deck-config-compute-optimal-retention-tooltip =
     ואם זה שונה משמעותית מ-0.9, זה סימן שהזמן שהקצבת בכל יום נמוך מדי
     או גבוה מדי עבור כמות הקלפים שאתה מנסה ללמוד. מספר זה יכול להיות שימושי כהפניה, אבל הוא
     לא מומלץ להעתיק אותו לשדה השמירה הרצוי.
+deck-config-wait-for-audio = המתן לשמע
+deck-config-show-reminder = הצג תזכורת
+deck-config-answer-again = ענה שוב
+deck-config-answer-hard = תשובה קשה
+deck-config-answer-good = תשובה טובה
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -389,6 +394,3 @@ deck-config-bury-tooltip =
     
     בעת שימוש במתזמן V3, ניתן גם לקבור כרטיסי למידה בין-יומיים. בין יומי
     קלפי למידה הם קלפים עם שלב למידה נוכחי של יום אחד או יותר.
-deck-config-answer-again = ענה שוב
-deck-config-answer-hard = תשובה קשה
-deck-config-answer-good = תשובה טובה
