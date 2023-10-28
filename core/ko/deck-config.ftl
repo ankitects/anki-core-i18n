@@ -268,3 +268,8 @@ deck-config-which-deck = 어떤 덱을 고르시겠습니까?
 
 deck-config-bury-if-new = 새카드만 미루기
 deck-config-bury-if-new-or-review = 새카드 및 복습카드 미루기
+deck-config-wait-for-audio = 오디오 기다리기
+deck-config-show-reminder = 남은 시간 보이기
+deck-config-answer-again = 답 다시
+deck-config-answer-hard = 답 어려움
+deck-config-answer-good = 답 괜찮음

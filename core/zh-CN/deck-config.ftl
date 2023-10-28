@@ -330,3 +330,8 @@ deck-config-bury-tooltip =
     此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
     此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
     当使用 V3 排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。
+deck-config-wait-for-audio = 等待音频播放完毕
+deck-config-show-reminder = 显示提醒
+deck-config-answer-again = 回答「忘记」
+deck-config-answer-hard = 回答「困难」
+deck-config-answer-good = 回答「良好」

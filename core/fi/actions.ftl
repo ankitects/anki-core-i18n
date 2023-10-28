@@ -70,3 +70,4 @@ actions-flag-purple = Violetti
 actions-set-flag = Aseta lippu
 actions-nothing-to-undo = Ei peruttavaa toimintoa
 actions-nothing-to-redo = Ei uudelleen tehtävää toimintoa
+actions-auto-advance = Autom. eteneminen

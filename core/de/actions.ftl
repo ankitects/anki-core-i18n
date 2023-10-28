@@ -70,3 +70,4 @@ actions-flag-purple = Lila
 actions-set-flag = Markierung setzen
 actions-nothing-to-undo = Nichts zum Zurücknehmen
 actions-nothing-to-redo = Nichts zum Wiederherstellen
+actions-auto-advance = Au­to­ma­ti­sches Fort­schrei­ten

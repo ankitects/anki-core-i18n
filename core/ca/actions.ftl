@@ -70,3 +70,4 @@ actions-flag-purple = Morat
 actions-set-flag = Selecciona un senyal
 actions-nothing-to-undo = Res que desfer
 actions-nothing-to-redo = Res que refer
+actions-auto-advance = Avançament automàtic

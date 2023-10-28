@@ -70,3 +70,4 @@ actions-flag-purple = Morado
 actions-set-flag = Elegir marcador
 actions-nothing-to-undo = No hay nada que deshacer
 actions-nothing-to-redo = Nada que rehacer
+actions-auto-advance = Avance Automático

@@ -409,3 +409,8 @@ deck-config-bury-tooltip =
     يسمح لك هذا الخيار باختيار أنواع البطاقات التي ستُدفن عندما تراجع واحدة من شقيقاتها.
     
     عند استخدام مجدول V3، يمكن أيضا دفن بطاقات التعلم ذات خطوات تتجاوز اليوم الواحد.
+deck-config-wait-for-audio = انتظار الصوت
+deck-config-show-reminder = إظهار المُذكّر
+deck-config-answer-again = الإجابة بـ«مجددًا»
+deck-config-answer-hard = الإجابة بـ«صعب»
+deck-config-answer-good = الإجابة بـ«جيد»

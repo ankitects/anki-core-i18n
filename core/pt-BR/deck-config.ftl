@@ -378,3 +378,8 @@ deck-config-bury-tooltip =
     ¶
     Ao usar o agendador V3, cartões de aprendizagem interdiários também podem ser ocultados. ¶
     Cartões de aprendizagem interdiários são cartões com um passo de aprendizagem atual de um ou mais dias.
+deck-config-wait-for-audio = Esperando pelo Áudio
+deck-config-show-reminder = Mostrar lembrete
+deck-config-answer-again = Responder Novamente
+deck-config-answer-hard = Resposta Difícil
+deck-config-answer-good = Resposta Boa

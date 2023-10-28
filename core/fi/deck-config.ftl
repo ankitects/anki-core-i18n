@@ -309,3 +309,8 @@ deck-config-bury-tooltip =
     Sisarkortit ovat muita kortteja samasta muistiinpanosta (esim. käänteiset kortit tai muut samasta tekstistä tehdyt täyttötehtävät ).
     
     Kun tämä asetus on pois päältä, useita kortteja samasta muistiinpanosta voi esiintyä samana päivänä. Kun se on päällä, Anki *hautaa* sisarkortit automaattisesti ja piilottaa ne seuraavaan päivään asti. Tämän vaihtoehdon avulla voit valita, minkälaiset kortit voidaan haudata, kun vastaat johonkin niiden sisarkorteista.
+deck-config-wait-for-audio = Odota äänen päättymistä
+deck-config-show-reminder = Näytä muistutus
+deck-config-answer-again = Vastaa uudelleen
+deck-config-answer-hard = Vastaa Vaikea
+deck-config-answer-good = Vastaa Hyvä

@@ -207,7 +207,7 @@ deck-config-easy-bonus-tooltip = Un multiplicator suplimentar care se aplică in
 deck-config-interval-modifier-tooltip =
     Acest multiplicator se aplică tuturor repetărilor și pot fi utilizate ajustări minore
     pentru a-l face pe Anki mai conservator sau mai agresiv în programarea sa. 
-     Te rog să consulţi manualul înainte de a schimba această opțiune.
+    Te rog să consulţi manualul înainte de a schimba această opțiune.
 deck-config-hard-interval-tooltip = Multiplicatorul aplicat unui interval de repetare atunci când răspunzi „Greu”.
 deck-config-new-interval-tooltip = Multiplicatorul aplicat unui interval de repetare atunci când răspunzi „Din nou”.
 deck-config-minimum-interval-tooltip = Intervalul minim acordat unui card de repetare după ce răspunzi „Din nou”.
@@ -279,3 +279,8 @@ deck-config-new-gather-priority-tooltip =
     ”Poziție”: adună cardurile din toate pachetele înainte de a fi sortate. Aceasta
     asigură cardurilor o apariţie strictă în ordinea poziției (due #), chiar dacă limita pentru părinte nu este
     suficient de ridicată pentru a vedea cardurile din toate pachetele.
+deck-config-wait-for-audio = Așteaptă audio
+deck-config-show-reminder = Afișează memento
+deck-config-answer-again = Răspuns încă o dată
+deck-config-answer-hard = Răspuns greu
+deck-config-answer-good = Răspuns bun

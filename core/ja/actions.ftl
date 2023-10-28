@@ -70,3 +70,4 @@ actions-flag-purple = パープル
 actions-set-flag = フラグの変更
 actions-nothing-to-undo = 元に戻すものがありません
 actions-nothing-to-redo = やり直すものがありません
+actions-auto-advance = カードの自動送り

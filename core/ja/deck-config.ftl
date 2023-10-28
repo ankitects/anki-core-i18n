@@ -333,3 +333,8 @@ deck-config-bury-tooltip =
     
     When using the V3 scheduler, interday learning cards can also be buried. Interday
     learning cards are cards with a current learning step of one or more days.
+deck-config-wait-for-audio = 音声再生終了を待つ
+deck-config-show-reminder = リマインダーを表示
+deck-config-answer-again = 回答 (もう一度)
+deck-config-answer-hard = 回答 (難しい)
+deck-config-answer-good = 回答 (正解)

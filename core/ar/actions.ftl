@@ -70,3 +70,4 @@ actions-flag-purple = بنفسجي
 actions-set-flag = وضع مؤشر
 actions-nothing-to-undo = لا يوجد أي إجراء للتراجع عنه
 actions-nothing-to-redo = لا يوجد أي إجراء لإعادة تطبيقه
+actions-auto-advance = تقديم تلقائي

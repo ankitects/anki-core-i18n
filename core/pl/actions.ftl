@@ -70,3 +70,4 @@ actions-flag-purple = Fioletowa
 actions-set-flag = Ustaw flagę
 actions-nothing-to-undo = Nic do cofnięcia
 actions-nothing-to-redo = Nic do ponowienia
+actions-auto-advance = Auto-postęp

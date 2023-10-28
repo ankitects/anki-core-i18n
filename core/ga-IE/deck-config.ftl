@@ -302,3 +302,8 @@ deck-config-bury-if-new-review-or-interday = NO NEED TO TRANSLATE
 deck-config-bury-tooltip =
     Roghnaigh cé acu an bhfágfar aon chárta atá bainteach leis an nóta
     céanna (.i. cártaí malartacha, sleachta eile iomlánaithe) go dtí lá eile.
+deck-config-wait-for-audio = Fantar leis an bhFuaim
+deck-config-show-reminder = Taispeáintear Meabhrúchán
+deck-config-answer-again = Freagair 'Arís'
+deck-config-answer-hard = Freagair 'Deacair'
+deck-config-answer-good = Freagair 'Go Maith'

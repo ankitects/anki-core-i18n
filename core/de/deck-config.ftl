@@ -263,3 +263,8 @@ deck-config-bury-tooltip =
     Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten beantworten.
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
+deck-config-wait-for-audio = Auf Audio warten
+deck-config-show-reminder = Erinnerung anzeigen
+deck-config-answer-again = "Er­neut" ant­wor­ten
+deck-config-answer-hard = "Schwer" ant­wor­ten
+deck-config-answer-good = "Gut" ant­wor­ten

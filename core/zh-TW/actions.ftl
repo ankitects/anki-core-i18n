@@ -70,3 +70,4 @@ actions-flag-purple = 紫色
 actions-set-flag = 設定旗標
 actions-nothing-to-undo = 沒有可復原的動作
 actions-nothing-to-redo = 沒有可重做的動作
+actions-auto-advance = 自動前進

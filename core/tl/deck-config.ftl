@@ -158,3 +158,6 @@ deck-config-new-gather-priority = Order ng pagtipon ng bagong card
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-answer-again = Sagutan ulit
+deck-config-answer-hard = Magsagot ng Mahirap
+deck-config-answer-good = Magsagot ng 'Tama'

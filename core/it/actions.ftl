@@ -70,3 +70,4 @@ actions-flag-purple = Viola
 actions-set-flag = Imposta bandiera
 actions-nothing-to-undo = Niente da annullare.
 actions-nothing-to-redo = Niente da ripristinare
+actions-auto-advance = Avanzamento Automatico

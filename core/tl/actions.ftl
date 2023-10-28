@@ -70,3 +70,4 @@ actions-flag-purple = Lila
 actions-set-flag = Mag-set ng Flag
 actions-nothing-to-undo = Walang ia-undo
 actions-nothing-to-redo = Walang ire-redo
+actions-auto-advance = Auto Advance

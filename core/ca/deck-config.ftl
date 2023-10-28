@@ -308,3 +308,8 @@ deck-config-bury-tooltip =
     
     Si feu servir la V3 del planificador, també és possible enterrar les targetes d’aprenentatge entre dies.
     Les targetes d’aprenentatge entre dies tenen un pas d’aprenentatge d’un o més dies.
+deck-config-wait-for-audio = Espera el so
+deck-config-show-reminder = Mostra un recordatori
+deck-config-answer-again = De nou
+deck-config-answer-hard = Resposta difícil
+deck-config-answer-good = Resposta correcta

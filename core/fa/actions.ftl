@@ -70,3 +70,4 @@ actions-flag-purple = ارغوانی
 actions-set-flag = تنظیم نشان
 actions-nothing-to-undo = عملی برای لغو وجود ندارد
 actions-nothing-to-redo = عملی برای برگرداندن وجود ندارد
+actions-auto-advance = پیشروی خودکار

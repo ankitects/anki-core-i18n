@@ -260,3 +260,8 @@ deck-config-relearning-steps-above-minimum-interval = بازه زمانی فرا
 ## Selecting a deck
 
 deck-config-which-deck = کدام دسته را انتخاب می‌کنید؟
+deck-config-wait-for-audio = توقف برای صوت
+deck-config-show-reminder = نمایش یادآور
+deck-config-answer-again = پاسخ دوباره
+deck-config-answer-hard = پاسخ سخت
+deck-config-answer-good = پاسخ خوب

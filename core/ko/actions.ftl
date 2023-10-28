@@ -70,3 +70,4 @@ actions-flag-purple = 보라
 actions-set-flag = 플래그 설정
 actions-nothing-to-undo = 실행 취소할 사항 없음
 actions-nothing-to-redo = 다시 실행할 사항 없음
+actions-auto-advance = 자동 다음

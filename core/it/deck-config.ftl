@@ -379,3 +379,8 @@ deck-config-bury-tooltip =
     
     Quando si utilizza lo scheduler V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
     Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento corrente di uno o più giorni.
+deck-config-wait-for-audio = Attendi audio
+deck-config-show-reminder = Mostra promemoria
+deck-config-answer-again = Rispondi Ripeti
+deck-config-answer-hard = Rispondi Difficile
+deck-config-answer-good = Rispondi Normale

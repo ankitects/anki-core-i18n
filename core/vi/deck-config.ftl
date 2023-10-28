@@ -229,3 +229,8 @@ deck-config-relearning-steps-above-minimum-interval = Khoảng thời gian trôi
 ## Selecting a deck
 
 deck-config-which-deck = Bạn muốn bộ thẻ nào?
+deck-config-wait-for-audio = Chờ Âm thanh
+deck-config-show-reminder = Hiển thị Lời nhắc
+deck-config-answer-again = Trả lời lần nữa
+deck-config-answer-hard = Trả lời Khó
+deck-config-answer-good = Trả lời Tốt

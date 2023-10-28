@@ -213,7 +213,7 @@ deck-config-timer-title = Temporizador
 deck-config-maximum-answer-secs = Tiempo máximo de respuesta en segundos
 deck-config-maximum-answer-secs-tooltip =
     El número máximo de segundos registrados para una sola revisión. Si la respuesta excede
-     este tiempo (por ejemplo cuando sales de la pantalla), el tiempo empleado en la tarjeta se 
+    este tiempo (por ejemplo cuando sales de la pantalla), el tiempo empleado en la tarjeta se 
     registrará hasta el límite que establezca.
 deck-config-show-answer-timer-tooltip =
     Mostrar un cronómetro en la pantalla de estudio, que muestra el número de segundos que
@@ -321,3 +321,8 @@ deck-config-bury-tooltip =
     Cuando se utiliza el programador V3, las tarjetas de aprendizaje interdía también pueden ser
     enterradas. Las tarjetas de aprendizaje interdía son tarjetas con un paso de aprendizaje actual
     de uno o más días.
+deck-config-wait-for-audio = Esperar al audio
+deck-config-show-reminder = Mostrar recordatorio
+deck-config-answer-again = Otra Vez
+deck-config-answer-hard = Difícil
+deck-config-answer-good = Bien

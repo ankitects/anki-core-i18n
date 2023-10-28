@@ -247,3 +247,8 @@ deck-config-which-deck = Quel paquet voulez vous ?
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
+deck-config-wait-for-audio = Veuillez attendre l'audio
+deck-config-show-reminder = Afficher le rappel
+deck-config-answer-again = Réponse à revoir
+deck-config-answer-hard = Réponse difficile
+deck-config-answer-good = Réponse correcte

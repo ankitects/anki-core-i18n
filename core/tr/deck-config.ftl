@@ -79,3 +79,7 @@ deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 deck-config-bury-new-siblings = Yeni kardeşleri gizle
 deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri gizle
 deck-config-bury-interday-learning-siblings = Günler arası öğrenimi kardeşleri gizle
+deck-config-show-reminder = Hatırlatıcıyı Göster
+deck-config-answer-again = Tekrar Cevapla
+deck-config-answer-hard = Zor
+deck-config-answer-good = İyi

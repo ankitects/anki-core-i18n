@@ -256,3 +256,8 @@ deck-config-bury-tooltip =
     停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動*暫停*關聯卡片，直到下一天前都不會出現。此選項可讓你選擇在回答時要暫停哪些種類的卡片。
     
     使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。
+deck-config-wait-for-audio = 等待音訊播放
+deck-config-show-reminder = 顯示提醒
+deck-config-answer-again = 回答「重來」
+deck-config-answer-hard = 回答「困難」
+deck-config-answer-good = 回答「良好」
