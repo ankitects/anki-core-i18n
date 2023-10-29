@@ -36,9 +36,9 @@ importing-mapped-to-tags = <b>タグ</b> に割り当てる
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = ノートタイプを統合
 importing-merge-notetypes-help =
-    このオプションがオンの場合、インポート先またはインポート元のノートタイプのスキーマが変更（※）されていれば、Ankiは両バージョンをそれぞれ保持するのではなく、統合します。
+    このオプションがオンの場合、インポート先またはインポート元のノートタイプのスキーマが変更（※）されていれば、Ankiは変更前と変更後のノートタイプをそれぞれ保持するのではなく、一つのノートタイプに統合します。
     
-    ※ ノートタイプのスキーマの変更とは、フィールドまたはカードタイプの追加・削除・並べ替え、またはソートフィールドの変更のことです。該当しない変更の例：既存のカードタイプのテンプレートの内容の変更
+    ※ ノートタイプのスキーマの変更とは、フィールドまたはカードタイプの追加・削除・並べ替え、またはソートフィールドの変更のことです。（これに該当しない変更の例：既存のカードタイプの表面のテンプレートの内容の変更）
     
     注意：ノートタイプの統合を行った場合、次回の同期で一方向の同期が必要となります。また、既存のノートが変更済みとしてマークされる可能性があります。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 デッキ (*.db)
@@ -118,9 +118,9 @@ importing-existing-notes = 既存のノート
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = 重複を許す
 # "Existing notes: Preserve" (verb)
-importing-preserve = 維持する
+importing-preserve = 維持
 # "Existing notes: Update" (verb)
-importing-update = 更新する
+importing-update = 更新
 importing-tag-all-notes = すべてのノートにタグ
 importing-tag-updated-notes = 更新したノートにタグ
 importing-file = ファイル
