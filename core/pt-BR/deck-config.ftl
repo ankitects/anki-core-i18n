@@ -317,8 +317,8 @@ deck-config-estimated-retention = Retenção estimada: { $num }
 deck-config-complete = { $num }% concluído.
 deck-config-reschedule-cards-on-change = Reagendar cartões ao alterar
 deck-config-fsrs-tooltip =
-    O Free Spaced Repetition Scheduler (FSRS) é uma alternativa ao agendador SuperMemo 2 (SM2) legado do Anki.¶
-    Ao determinar mais precisamente quando você provavelmente esquecerá, ele pode ajudá-lo a lembrar¶
+    O Free Spaced Repetition Scheduler (FSRS) é uma alternativa ao agendador SuperMemo 2 (SM2) legado do Anki.
+    Ao determinar mais precisamente quando você provavelmente esquecerá, ele pode ajudá-lo a lembrar
     mais material no mesmo período de tempo. Esta configuração é compartilhada por todos os presets de baralho.
 deck-config-desired-retention-tooltip =
     O valor padrão de 0,9 agendará cartões para que você tenha 90% de chance de lembrá-los quando¶
@@ -328,9 +328,9 @@ deck-config-desired-retention-tooltip =
     aumentarão significativamente sua carga de trabalho, e valores mais baixos podem ser desmotivadores quando você esquece¶
     muito material.
 deck-config-sm2-retention-tooltip =
-    Se sua retenção atual antes de mudar para o FSRS foi significativamente diferente de 0,9, ajustar¶
-    este valor permitirá que o Anki estime melhor o estado da sua memória quando encontrar cartões que estão¶
-    faltando registros de revisão. Como os registros de revisão normalmente não estarão faltando a menos que você os tenha excluído explicitamente¶
+    Se sua retenção atual antes de mudar para o FSRS foi significativamente diferente de 0,9, ajustar
+    este valor permitirá que o Anki estime melhor o estado da sua memória quando encontrar cartões que estão
+    faltando registros de revisão. Como os registros de revisão normalmente não estarão faltando a menos que você os tenha excluído explicitamente
     para liberar espaço, a maioria dos usuários não precisará ajustar isso.
 deck-config-weights-tooltip =
     Os pesos dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar¶
@@ -342,7 +342,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     serão alteradas. Dependendo da sua retenção desejada, isso pode resultar em um grande número de cartões tornando-se
 deck-config-reschedule-cards-warning =
     Baseando-se na retenção que pretende alcançar, isso pode causar um acúmulo significativo de cartões a serem
-    revistos, então não é aconselhável quando estiver começando a mudar do SM2
+    revistos, então não é aconselhável quando estiver começando a mudar do SM2.
 deck-config-compute-optimal-weights-tooltip =
     Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,¶
     e gerar automaticamente pesos que são ótimos para sua memória e o conteúdo que você está estudando.¶
