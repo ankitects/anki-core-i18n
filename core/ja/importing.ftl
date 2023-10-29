@@ -14,7 +14,7 @@ importing-change = 変更
 importing-colon = コロン ( : )
 importing-comma = コンマ ( , )
 importing-empty-first-field = 最初のフィールドが空白：{ $val }
-importing-field-separator = フィールド区切り文字
+importing-field-separator = フィールドの区切り
 importing-field-mapping = フィールドの割り当て
 importing-field-of-file-is = ファイルの<b>{ $val }</b>番目のフィールドは：
 importing-fields-separated-by = フィールドの区切り: { $val }
@@ -172,7 +172,7 @@ importing-note-skipped-due-to-missing-notetype = このノートのインポー�
 importing-note-skipped-due-to-missing-deck = このノートのインポートをスキップしました（デッキが不明なため）
 importing-note-skipped-due-to-empty-first-field = このノートのインポートをスキップしました（最初のフィールドが空のため）
 importing-field-separator-help =
-    テキストファイル内のフィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
+    テキストファイル内で各フィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
     
     この文字自体をフィールド内に表示したい場合、そのフィールドをCSVの一般的な書式に従って引用符で囲む必要があることに注意してください。LibreOfficeのような表計算ソフトは自動的にこれを行います。
 importing-allow-html-in-fields-help =
@@ -180,10 +180,10 @@ importing-allow-html-in-fields-help =
     
     例えば、ファイルに '&lt;br&gt;' という文字列が含まれている場合、このオプションをオンにすると、カード上ではその箇所を改行して表示します。オフにすると、その文字列 '&lt;br&gt;' をそのまま表示します。
 importing-notetype-help =
-    新たにインポートしたノートはこのノートタイプを持ちます。また、更新の対象となる既存のノートは、このノートタイプを持つノートに限られます。
+    インポートして新たに追加するノートのノートタイプを設定します。また、既存のノートで更新の対象となるのは、このノートタイプのノートに限られます。
     
-    ファイル内の各フィールドがノートタイプのどのフィールドに対応するかは、「フィールドの割り当て」カテゴリで選択できます。
-importing-deck-help = インポートしたカードはこのデッキに入ります。
+    ファイル内の各フィールドがノートタイプのどのフィールドに対応するかは、次のカテゴリ「フィールドの割り当て」で選択できます。
+importing-deck-help = インポートして新たに追加するノートの追加先となるデッキを設定します。
 importing-existing-notes-help =
     インポートしたノートが既存のノートと一致した場合の処置を設定します。
     
