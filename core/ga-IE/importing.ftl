@@ -164,6 +164,11 @@ importing-cards-added =
         [many] Cuireadh { $count } gcárta leis.
        *[other] Cuireadh { $count } cárta leis.
     }
+importing-show = Taispeáin
+importing-details = Sonraí
+importing-status = Staid
+importing-duplicate-note-added = Níor cuireadh nóta dúblach leis
+importing-added-new-note = Cuireadh nóta nua leis
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

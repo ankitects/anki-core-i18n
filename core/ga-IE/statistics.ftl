@@ -255,3 +255,4 @@ statistics-average-ease = Méanéascaíocht
 statistics-save-pdf = Sábháil PDF
 statistics-saved = Sábháilte.
 statistics-stats = staitisticí
+statistics-title = Staitisticí

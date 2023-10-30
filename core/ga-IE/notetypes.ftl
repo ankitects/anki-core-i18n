@@ -38,4 +38,8 @@ notetypes-type = Cineál
 
 ## Image Occlusion
 
+notetypes-image = Íomhá
+notetypes-comments-field = Tráchta
 notetype-error-no-image-to-show = Gan íomhá le taispeáint.
+notetypes-io-select-image = Roghnaigh Íomhá
+notetypes-io-paste-image-from-clipboard = Greamaigh Íomhá ón nGearrthaisce

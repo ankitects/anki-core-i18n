@@ -64,9 +64,32 @@ editing-underline-text = Folínigh
 editing-unordered-list = Liosta gan ord
 editing-warning-cloze-deletions-will-not-work = Rabhadh, ní bheidh aon mhaith sna sleachta iomlánaithe go dtí go mbeidh an cineál 'Iomlánú' roghnaithe thuas.
 editing-mathjax-preview = Réamhamharc MathJax
+editing-shrink-images = Laghdaigh Íomhánna
 editing-close-html-tags = Dúntar clibeanna HTML go huathoibríoch
 editing-from-clipboard = Ón nGearrthaisce
 editing-alignment = Ailíniú
+editing-equations = Cothromóidí
+editing-no-image-found-on-clipboard = Níl íomhá ar bith sa ghearrthaisce.
+editing-image-occlusion-zoom-out = Zúmáil Amach
+editing-image-occlusion-zoom-in = Zúmáil Isteach
+editing-image-occlusion-zoom-reset = Bain Zúmáil
+editing-image-occlusion-delete = Scrios
+editing-image-occlusion-duplicate = Dúblaigh
+editing-image-occlusion-group = Grúpáil a bhFuil Roghnaithe
+editing-image-occlusion-ungroup = Díghrúpáil a bhFuil Roghnaithe
+editing-image-occlusion-alignment = Ailíniú
+editing-image-occlusion-align-left = Ailínigh ar Chlé
+editing-image-occlusion-align-h-center = Láraigh go Cothrománach
+editing-image-occlusion-align-right = Ailínigh ar Dheis
+editing-image-occlusion-align-top = Ailínigh ar Bharr
+editing-image-occlusion-align-v-center = Láraigh go Ceartingearach
+editing-image-occlusion-align-bottom = Ailínigh ar Bhun
+editing-image-occlusion-select-tool = Roghnaigh
+editing-image-occlusion-zoom-tool = Zúmáil
+editing-image-occlusion-rectangle-tool = Dronuilleog
+editing-image-occlusion-ellipse-tool = Éilips
+editing-image-occlusion-polygon-tool = Polagán
+editing-image-occlusion-text-tool = Téacs
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
