@@ -31,19 +31,13 @@ importing-map-to-tags = Schlagwörter zuordnen
 importing-mapped-to = abgebildet auf <b>{ $val }</b>
 importing-mapped-to-tags = abgebildet auf <b>Schlagwörter</b>
 # the action of combining two existing notetypes to create a new one
-importing-merge-notetypes = Notiztypen zusammenführen (Default: Aus)
+importing-merge-notetypes = Notiztypen zusammenführen
 importing-merge-notetypes-help =
-    Falls diese Option aktiviert ist und Sie oder der Autor des Stapels das Schema eines Notiztyps (wie z.B. "Einfach" oder "Lückentext") verändert haben, wird Anki beide Versionen in einer kombinieren, anstatt (wie bisher) beide separat anzulegen.
+    Bestimmt, wie Anki vorgeht, wenn Sie einen Notiztyp (wie z.B. "Einfach" oder "Lückentext") in Ihre Sammlung importieren, dessen Schema sich geändert hat (Erklärung siehe unten). Falls aktiviert, wird Anki beide Versionen in einer kombinieren, anstatt (wie bisher) beide separat anzulegen. Default-Wert für diese Einstellung: Deaktiviert
     
-    Default: Standardmäßig ist diese Einstellung DEAKTIVIERT.
+    Wann hat sich das Schema eines Notiztyps geändert? Wenn bei dem Notiztyp a) Felder oder b) Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert wurde. Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurde, stellt dies keine Schema-Änderung dar, sodass diese Option nicht relevant ist. Dann kommt es stattdessen auf die Option "Notizen updaten" an.
     
-    Wann wurde das Schema eines Notiztyps verändert? Wenn Sie bei dem Notiztyp...
-    - Felder hinzugefügt oder entfernt oder deren Reihenfolge geändert haben.
-    - Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert haben.
-    
-    Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurden, stellt dies keine Änderung des Schemas dar, sodass diese Option nicht relevant ist.
-    
-    Wichtig: Wenn Sie diese Option aktivieren, kann dies ggf. eine Vollsynchronisierung erforderlich machen. Zudem werden betroffene Notizen als Verändert gekennzeichnet werden.
+    Hinweis: Wenn Sie diese Option aktivieren, kann dies ggf. eine Vollsynchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Der Separator zum Trennen von Datenfeldern kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehender Separator wird nicht unterstützt.
 importing-notes-added-from-file = Notizen hinzugefügt aus Datei: { $val }
@@ -51,14 +45,13 @@ importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in Ihrer Sammlung befinden: { $val }
 importing-notes-skipped-update-due-to-notetype = Notizen nicht geupdatet, da ihr Notiztyp geändert wurde: { $val }
 importing-notes-updated-as-file-had-newer = Notizen geupdatet, da der importierte Stapel eine neuere Version enthielt: { $val }
-importing-include-reviews = Auch den Lernfortschritt aus dem Stapel übernehmen (falls vorhanden)
-importing-also-import-progress = Auch den Lernfortschritt aus dem Stapel übernehmen (falls vorhanden)
-importing-conflict-handling = Vorgehen bei Konflikten zwischen dem neuen Stapel und Ihrer Sammlung:
+importing-include-reviews = Auch Lernfortschritt/Stapeloptionen importieren
+importing-also-import-progress = Auch Lernfortschritt/Stapeloptionen importieren
+importing-updates = Vorgehen bei Änderungen
 importing-include-reviews-help =
-    Falls aktiviert, werden auch der Lernfortschritt und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, der Stapelersteller hat diese mitexportiert).
-    Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten als neue Karten importiert und die Standard-Stapeloptionen Ihrer Sammlung verwendet.
+    Falls aktiviert, werden auch der Lernfortschritt und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).
     
-    Tipp: Bei fertigen Stapeln von kommerziellen Anbietern oder AnkiWeb wird empfohlen, diese Option zu aktivieren. Wenn ein Freund Ihnen hingegen einen Stapel schickt und Sie dessen Karten auf jeden Fall von Grund auf neu lernen wollen, wird empfohlen, diese Option zu deaktivieren.
+    Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten unabhängig von dem enthaltenen Lernstatus als neue Karten importiert und die Standard-Stapeloptionen Ihrer Sammlung verwendet.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
 # the '|' character
@@ -84,7 +77,7 @@ importing-update-always = Immer
 importing-update-never = Nie
 importing-update-notes = Notizinhalt updaten:
 importing-update-notes-help =
-    Beeinflusst, wann eine bereits in Ihrer Sammlung vorhandene Notiz geupdatet wird.
+    Beeinflusst, wann einzelne in Ihrer Sammlung vorhandene Notizen geupdatet werden.
     
     Default: "Falls neuer", also wenn die in dem zu importierenden Stapel gefundene Version der Notiz neuer ist als die Version in Ihrer Sammlung.
 importing-update-notetypes = Notiztypen updaten:
@@ -93,7 +86,7 @@ importing-update-notetypes-help =
     
     Default: "Falls neuer", also wenn die Version des Notiztyps in dem zu importierenden Stapel neuer ist als die Version in Ihrer Sammlung.
     
-    Beachte: Wenn sich bei dem Notiztyp die Anzahl oder Reihenfolge der Felder geändert hat, werden diese Änderungen nur dann übernommen, wenn die Option '{ importing-merge-notetypes }' aktiviert ist. Änderungen an Inhalt und Styling einer Kartenvorlage können hingegen auch übernommen werden, wenn diese Option nicht aktiviert ist.
+    Wichtig: Diese Option ist nur relevant, wenn Sie einen Notiztyp importieren, der bereits in Ihrer Sammlung vorhanden ist, und dessen Schema sich NICHT geändert hat. Eine Schema-Änderung liegt vor, wenn bei der Version in Ihrer Sammlung die Anzahl oder Reihenfolge von Feldern oder Kartentypen anders ist. Wenn das der Fall sein sollte, können Sie hingegen über die Option '{ importing-merge-notetypes }' festlegen, wie Anki beim Import vorgehen soll.
 importing-note-added =
     { $count ->
         [one] { $count } Notiz wurde hinzugefügt.
