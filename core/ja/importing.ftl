@@ -72,14 +72,14 @@ importing-unable-to-import-from-a-readonly = 読み取り専用ファイルは�
 importing-unknown-file-format = ファイルの種類が不明。
 importing-update-existing-notes-when-first-field = 最初のフィールドが一致した場合、既存のノートを更新する
 importing-updated = 更新
-importing-update-if-newer = 既存のものより新しい場合
-importing-update-always = 常に
-importing-update-never = 更新しない
+importing-update-if-newer = 既存のものより新しい場合は行う
+importing-update-always = 常に行う
+importing-update-never = 常に行わない
 importing-update-notes = ノートを更新
-importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、マッチしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
+importing-update-notes-help = どういう場合にコレクション内の既存のノートを、それとマッチしたノートで更新するか、を設定します。デフォルト（`既存のものより新しい場合は行う`）では、マッチしたノートの方を最近変更している場合にのみ、既存のノートを更新します。
 importing-update-notetypes = ノートタイプを更新
 importing-update-notetypes-help =
-    マッチしているコレクション内の既存のノートタイプをどういう場合に更新するか、を設定します。デフォルト（`既存のものより新しい場合`）では、インポートするノートタイプを最近編集している場合にのみ、既存のノートタイプを更新します。
+    マッチしているコレクション内の既存のノートタイプをどういう場合に更新するか、を設定します。デフォルト（`既存のものより新しい場合は行う`）では、インポートするノートタイプを最近編集している場合にのみ、既存のノートタイプを更新します。
     
     カードタイプのテンプレート内のテキストまたはCSSスタイルの変更は常にインポートされますが、ノートタイプのスキーマ（例. フィールドの数や順序）の変更には、`{ importing-merge-notetypes }` オプションもオンにする必要があります。
 importing-note-added =
