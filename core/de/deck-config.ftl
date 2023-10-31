@@ -179,6 +179,7 @@ deck-config-disable-autoplay-tooltip =
 deck-config-skip-question-when-replaying = Frage beim erneuten Abspielen der Antwort überspringen
 deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
 deck-config-stop-timer-on-answer = Timer pausieren, solange die Antwortseite gezeigt wird
+deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, während die Antwort aufgedeckt ist. Wirkt sich nicht auf die Statistik aus.
 
 ## Advanced section
 
@@ -249,6 +250,11 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-wait-for-audio = Auf Audio warten
+deck-config-show-reminder = Erinnerung anzeigen
+deck-config-answer-again = "Er­neut" ant­wor­ten
+deck-config-answer-hard = "Schwer" ant­wor­ten
+deck-config-answer-good = "Gut" ant­wor­ten
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -263,8 +269,3 @@ deck-config-bury-tooltip =
     Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten beantworten.
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
-deck-config-wait-for-audio = Auf Audio warten
-deck-config-show-reminder = Erinnerung anzeigen
-deck-config-answer-again = "Er­neut" ant­wor­ten
-deck-config-answer-hard = "Schwer" ant­wor­ten
-deck-config-answer-good = "Gut" ant­wor­ten

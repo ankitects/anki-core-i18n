@@ -92,11 +92,18 @@ statistics-range-collection = Sammlung
 statistics-range-search = Suche
 statistics-card-ease-title = Karten-Leichtigkeit
 statistics-card-ease-subtitle = Je geringer ihre Leichtigkeit, desto öfter wird eine Karte abgefragt.
+statistics-card-difficulty-subtitle = Je höher der Schwierigkeitswert, desto schwerer fällt es Ihnen, sich an diese Karte zu erinnern.
+statistics-retrievability-subtitle = Die Wahrscheinlichkeit, dass Sie sich heute an diese Karte erinnern.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] 1 Karte mit { $percent } Leichtigkeit
        *[other] { $cards } Karten mit { $percent } Leichtigkeit
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } Karte mit { $percent } Schwierigkeit
+       *[other] { $cards } Karten mit { $percent } Schwierigkeit
     }
 statistics-future-due-title = Prognose
 statistics-future-due-subtitle = Anzahl der in Zukunft anfallenden Wiederholungen.
