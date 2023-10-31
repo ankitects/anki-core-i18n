@@ -191,31 +191,31 @@ importing-note-skipped-due-to-missing-notetype = Nota ignorada, pois seu tipo de
 importing-note-skipped-due-to-missing-deck = Nota ignorada, pois seu baralho estava ausente
 importing-note-skipped-due-to-empty-first-field = Nota ignorada, pois seu primeiro campo está vazio
 importing-field-separator-help =
-    O caractere que separa os campos no arquivo de texto. Você pode usar a visualização para verificar¶ 
-    se os campos estão separados corretamente.¶ 
-    ¶ 
-    Observe que, se esse caractere aparecer em qualquer campo em si, o campo deve ser¶ 
-    citado de acordo com o padrão CSV. Programas de planilha, como o LibreOffice, farão¶ 
+    O caractere que separa os campos no arquivo de texto. Você pode usar a visualização para verificar
+    se os campos estão separados corretamente.
+    
+    Observe que, se esse caractere aparecer em qualquer campo em si, o campo deve ser
+    citado de acordo com o padrão CSV. Programas de planilha, como o LibreOffice, farão
     isso automaticamente.
 importing-allow-html-in-fields-help =
-    Ative isso se o arquivo contiver formatação HTML. Por exemplo, se o arquivo contiver a string¶
-    '&lt;br&gt;', ela aparecerá como uma quebra de linha no seu cartão. Por outro lado, com esta¶
+    Ative isso se o arquivo contiver formatação HTML. Por exemplo, se o arquivo contiver a string
+    '&lt;br&gt;', ela aparecerá como uma quebra de linha no seu cartão. Por outro lado, com esta
     opção desativada, os caracteres literais '&lt;br&gt;' serão renderizados.
 importing-notetype-help =
-    Notas recém-importadas terão este tipo de nota, e apenas notas existentes com este¶
-    tipo de nota serão atualizadas.¶
-    ¶
-    Você pode escolher quais campos no arquivo correspondem a quais campos do tipo de nota com a¶
+    Notas recém-importadas terão este tipo de nota, e apenas notas existentes com este
+    tipo de nota serão atualizadas.
+    
+    Você pode escolher quais campos no arquivo correspondem a quais campos do tipo de nota com a
     ferramenta de mapeamento.
 importing-deck-help = Os cartões importados serão colocados neste baralho.
 importing-existing-notes-help =
-    O que fazer se uma nota importada corresponder a uma existente.¶
-    ¶
-    - `{ importing-update }`: Atualizar a nota existente.¶
-    - `{ importing-preserve }`: Não fazer nada.¶
+    O que fazer se uma nota importada corresponder a uma existente.
+    
+    - `{ importing-update }`: Atualizar a nota existente.
+    - `{ importing-preserve }`: Não fazer nada.
     - `{ importing-duplicate }`: Criar uma nova nota.
 importing-match-scope-help =
-    Somente as notas existentes com o mesmo tipo de nota serão verificadas quanto a duplicatas. Isso pode¶
+    Somente as notas existentes com o mesmo tipo de nota serão verificadas quanto a duplicatas. Isso pode
     adicionalmente ser restrito a notas com cartões no mesmo baralho.
 importing-tag-all-notes-help = Essas tags serão adicionadas tanto em notas recém-importadas quanto nas atualizadas
 importing-tag-updated-notes-help = Estas tags serão adicionadas a qualquer nota atualizada.
