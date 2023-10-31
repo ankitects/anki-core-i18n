@@ -33,14 +33,14 @@ importing-mapped-to-tags = <b>Etiquetas</b> mapeadas
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = Tipo de Cartão Mesclar
 importing-merge-notetypes-help =
-    Se marcado, e você ou o autor do baralho alterarem o esquema de um tipo de nota, o Anki irá¶
-    mesclar as duas versões em vez de manter ambas.¶
-    ¶
-    Alterar o esquema de um tipo de nota significa adicionar, remover, ou reordenar campos ou modelos,¶
-    ou alterar o campo de ordenação.¶
-    Como contraexemplo, alterar o lado frontal de um modelo existente *não* constitui¶
-    uma alteração de esquema.¶
-    ¶
+    Se marcado, e você ou o autor do baralho alterarem o esquema de um tipo de nota, o Anki irá
+    mesclar as duas versões em vez de manter ambas.
+    
+    Alterar o esquema de um tipo de nota significa adicionar, remover, ou reordenar campos ou modelos,
+    ou alterar o campo de ordenação.
+    Como contraexemplo, alterar o lado frontal de um modelo existente *não* constitui
+    uma alteração de esquema.
+    
     Aviso: Isso exigirá uma sincronização unidirecional, e pode marcar notas existentes como modificadas.
 importing-mnemosyne-20-deck-db = Baralho Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separadores multi-caractere não são suportados. Por favor, digite apenas um caractere.
@@ -53,7 +53,7 @@ importing-include-reviews = Incluir revisões
 importing-also-import-progress = Importar também qualquer progresso de aprendizagem
 importing-updates = Atualizações
 importing-include-reviews-help =
-    Se ativado, quaisquer revisões anteriores incluídas pelo compartilhador do baralho também serão importadas.¶
+    Se ativado, quaisquer revisões anteriores incluídas pelo compartilhador do baralho também serão importadas.
     Caso contrário, todos os cartões serão importados como novos cartões.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
@@ -80,13 +80,13 @@ importing-update-always = Sempre
 importing-update-never = Nunca
 importing-update-notes = Atualizar notas
 importing-update-notes-help =
-    Quando atualizar um cartão existente em sua coleção. Por padrão, isso é feito apenas¶
+    Quando atualizar um cartão existente em sua coleção. Por padrão, isso é feito apenas
     se o cartão importado correspondente foi modificado mais recentemente.
 importing-update-notetypes = Atualizar tipo de nota
 importing-update-notetypes-help =
-    { importing-merge-notetypes }Quando atualizar um tipo de nota existente em sua coleção. Por padrão, isso é feito apenas¶
-    se o tipo de nota importado correspondente foi modificado mais recentemente. Mudanças no texto do modelo¶
-    e estilização sempre podem ser importadas, mas para mudanças de esquema (por exemplo, o número ou ordem dos¶
+    { importing-merge-notetypes }Quando atualizar um tipo de nota existente em sua coleção. Por padrão, isso é feito apenas
+    se o tipo de nota importado correspondente foi modificado mais recentemente. Mudanças no texto do modelo
+    e estilização sempre podem ser importadas, mas para mudanças de esquema (por exemplo, o número ou ordem dos
     campos mudou), a opção '{ importing-merge-notetypes }' também precisará estar ativada.
 importing-note-added =
     { $count ->

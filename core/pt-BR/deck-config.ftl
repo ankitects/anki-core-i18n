@@ -321,11 +321,11 @@ deck-config-fsrs-tooltip =
     Ao determinar mais precisamente quando você provavelmente esquecerá, ele pode ajudá-lo a lembrar
     mais material no mesmo período de tempo. Esta configuração é compartilhada por todos os presets de baralho.
 deck-config-desired-retention-tooltip =
-    O valor padrão de 0,9 agendará cartões para que você tenha 90% de chance de lembrá-los quando¶
-    eles aparecerem para revisão novamente. Se você aumentar esse valor, o Anki mostrará os cartões mais frequentemente¶
-    para aumentar as chances de você lembrá-los. Se você diminuir o valor, o Anki mostrará os cartões¶
-    menos frequentemente, e você esquecerá mais deles. Seja conservador ao ajustar isso - valores mais altos¶
-    aumentarão significativamente sua carga de trabalho, e valores mais baixos podem ser desmotivadores quando você esquece¶
+    O valor padrão de 0,9 agendará cartões para que você tenha 90% de chance de lembrá-los quando
+    eles aparecerem para revisão novamente. Se você aumentar esse valor, o Anki mostrará os cartões mais frequentemente
+    para aumentar as chances de você lembrá-los. Se você diminuir o valor, o Anki mostrará os cartões
+    menos frequentemente, e você esquecerá mais deles. Seja conservador ao ajustar isso - valores mais altos
+    aumentarão significativamente sua carga de trabalho, e valores mais baixos podem ser desmotivadores quando você esquece
     muito material.
 deck-config-sm2-retention-tooltip =
     Se sua retenção atual antes de mudar para o FSRS foi significativamente diferente de 0,9, ajustar
@@ -333,31 +333,31 @@ deck-config-sm2-retention-tooltip =
     faltando registros de revisão. Como os registros de revisão normalmente não estarão faltando a menos que você os tenha excluído explicitamente
     para liberar espaço, a maioria dos usuários não precisará ajustar isso.
 deck-config-weights-tooltip =
-    Os pesos dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar¶
+    Os pesos dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar
     os pesos abaixo.
 deck-config-reschedule-cards-on-change-tooltip =
-    Esta opção controla se as datas de vencimento dos cartões serão alteradas quando você ativar o FSRS, ou mudar¶
-    os pesos. O padrão é não reprogramar os cartões: revisões futuras usarão a nova programação, mas¶
-    não haverá mudança imediata na sua carga de trabalho. Se a reprogramação estiver ativada, as datas de vencimento dos cartões¶
+    Esta opção controla se as datas de vencimento dos cartões serão alteradas quando você ativar o FSRS, ou mudar
+    os pesos. O padrão é não reprogramar os cartões: revisões futuras usarão a nova programação, mas
+    não haverá mudança imediata na sua carga de trabalho. Se a reprogramação estiver ativada, as datas de vencimento dos cartões
     serão alteradas. Dependendo da sua retenção desejada, isso pode resultar em um grande número de cartões tornando-se
 deck-config-reschedule-cards-warning =
     Baseando-se na retenção que pretende alcançar, isso pode causar um acúmulo significativo de cartões a serem
     revistos, então não é aconselhável quando estiver começando a mudar do SM2.
 deck-config-compute-optimal-weights-tooltip =
-    Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,¶
-    e gerar automaticamente pesos que são ótimos para sua memória e o conteúdo que você está estudando.¶
-    Se você tem baralhos que variam muito em dificuldade, é recomendado atribuir-lhes presets separados, pois¶
-    os pesos para baralhos fáceis e difíceis serão diferentes. Não há necessidade de otimizar seus pesos¶
-    frequentemente - uma vez a cada poucos meses é suficiente.¶
-    ¶
-    Por padrão, os pesos serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode¶
-    ajustar opcionalmente a busca antes de calcular os pesos, se quiser alterar quais cartões são usados para¶
+    Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,
+    e gerar automaticamente pesos que são ótimos para sua memória e o conteúdo que você está estudando.
+    Se você tem baralhos que variam muito em dificuldade, é recomendado atribuir-lhes presets separados, pois
+    os pesos para baralhos fáceis e difíceis serão diferentes. Não há necessidade de otimizar seus pesos
+    frequentemente - uma vez a cada poucos meses é suficiente.
+    
+    Por padrão, os pesos serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode
+    ajustar opcionalmente a busca antes de calcular os pesos, se quiser alterar quais cartões são usados para
     otimizar os pesos.
 deck-config-compute-optimal-retention-tooltip =
-    Esta ferramenta assume que você está começando com 0 cartões, e tentará calcular a quantidade de material que você vai¶
-    ser capaz de reter no prazo dado. A retenção estimada dependerá muito de suas entradas, e¶
-    se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo¶
-    ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é¶
+    Esta ferramenta assume que você está começando com 0 cartões, e tentará calcular a quantidade de material que você vai
+    ser capaz de reter no prazo dado. A retenção estimada dependerá muito de suas entradas, e
+    se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo
+    ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é
     não recomendado copiá-lo para o campo de retenção desejado.
 deck-config-wait-for-audio = Esperando pelo Áudio
 deck-config-show-reminder = Mostrar lembrete
@@ -373,13 +373,13 @@ deck-config-bury-if-new = Enterrar se novo
 deck-config-bury-if-new-or-review = Enterrar se novo ou revisão
 deck-config-bury-if-new-review-or-interday = Enterrar se novo, revisão, ou aprendizado interdiário
 deck-config-bury-tooltip =
-    Os "irmãos" são outros cartões da mesma nota (por exemplo, cartões de frente/verso, ou¶
-    outras exclusões de cloze do mesmo texto).¶
-    ¶
-    Quando essa opção está desativada, vários cartões da mesma nota podem ser vistos no mesmo dia.¶
-    Quando ativada, o Anki automaticamente *oculta* os irmãos, escondendo-os até o próximo dia.¶
-    Esta opção permite que você escolha quais tipos de cartões podem ser ocultados quando você ¶
-    responde um dos seus irmãos.¶
-    ¶
-    Ao usar o agendador V3, cartões de aprendizagem interdiários também podem ser ocultados. ¶
+    Os "irmãos" são outros cartões da mesma nota (por exemplo, cartões de frente/verso, ou
+    outras exclusões de cloze do mesmo texto).
+    
+    Quando essa opção está desativada, vários cartões da mesma nota podem ser vistos no mesmo dia.
+    Quando ativada, o Anki automaticamente *oculta* os irmãos, escondendo-os até o próximo dia.
+    Esta opção permite que você escolha quais tipos de cartões podem ser ocultados quando você 
+    responde um dos seus irmãos.
+    
+    Ao usar o agendador V3, cartões de aprendizagem interdiários também podem ser ocultados. 
     Cartões de aprendizagem interdiários são cartões com um passo de aprendizagem atual de um ou mais dias.
