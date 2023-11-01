@@ -57,7 +57,7 @@ card-templates-this-will-create-card-proceed =
        *[other] Verranno create { $count } carte. Proseguire?
     }
 card-templates-type-boxes-warning = Anki supporta solo una casella di digitazione per ciascuna carta.
-card-templates-restore-to-default = Ripristina Default
+card-templates-restore-to-default = Ripristina default
 card-templates-restore-to-default-confirmation =
     Tutti i campi e i modelli di questo tipo di nota verranno ripristinati ai valori predefiniti, 
     inoltre verranno persi eventuali stili personalizzati. Desideri procedere?
