@@ -292,7 +292,7 @@ deck-config-which-deck = Qual baralho você gostaria?
 
 deck-config-updating-cards = Atualizando cartões: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Os pesos devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
-deck-config-not-enough-history = Histórico de revisão insuficiente para realizar esta operação.
+deck-config-not-enough-history = A quantidade de revisões históricas é insuficiente para executar esta operação.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Apenas { $count } revisão foi encontrada.
