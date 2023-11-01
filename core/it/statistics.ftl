@@ -68,7 +68,7 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } oggi ({ $secs-per-card }s/carta)
 statistics-today-title = Oggi
-statistics-today-again-count = Carte fallite:
+statistics-today-again-count = Carte sbagliate:
 statistics-today-type-counts = Impara: { $learnCount }, Ripeti: { $reviewCount }, Reimpara: { $relearnCount }, Filtrate: { $filteredCount }
 statistics-today-no-cards = Oggi non è stata studiata nessuna carta.
 statistics-today-no-mature-cards = Nessuna carta matura studiata oggi.

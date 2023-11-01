@@ -1,4 +1,4 @@
-importing-failed-debug-info = Importazione fallita. Informazioni sul debug:
+importing-failed-debug-info = Importazione non riuscita. Informazioni sul debug:
 importing-aborted = Interrotto: { $val }
 importing-added-duplicate-with-first-field = Aggiunto duplicato con primo campo: { $val }
 importing-all-supported-formats = Tutti i formati supportati { $val }
@@ -69,7 +69,7 @@ importing-tag-modified-notes = Etichetta le note modificate:
 importing-text-separated-by-tabs-or-semicolons = Testo separato da tabulazioni o punti e virgola (*)
 importing-the-first-field-of-the-note = Il primo campo della nota dev'essere mappato.
 importing-the-provided-file-is-not-a = Il file non è un file .apkg valido.
-importing-this-file-does-not-appear-to = Questi file sembra non essere un file .apkg valido. Se ottieni questo errore con un file scaricato da AnkiWeb, è probabile che il download non sia riuscito. Riprova, e, se il problema rimane, prova di nuovo con un altro browser.
+importing-this-file-does-not-appear-to = Questo file sembra non essere un file .apkg valido. Se ottieni questo errore con un file scaricato da AnkiWeb, è probabile che il download non sia riuscito. Riprova e, se il problema rimane, prova di nuovo con un altro browser.
 importing-this-will-delete-your-existing-collection = La tua collezione esistente verrà eliminata e sostituita con i dati del file che stai importando. Sei sicuro?
 importing-unable-to-import-from-a-readonly = Impossibile importare da un file di sola lettura.
 importing-unknown-file-format = Formato del file sconosciuto.

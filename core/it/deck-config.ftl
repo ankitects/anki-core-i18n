@@ -37,7 +37,7 @@ deck-config-tab-description =
     - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.
     - `Questo mazzo`: il limite è specifico per questo mazzo.
     - `Solo oggi`: apporta una modifica temporanea al limite di questo mazzo.
-deck-config-new-cards-ignore-review-limit = Le nuove carte ignorano il limite di ripetizioni
+deck-config-new-cards-ignore-review-limit = Ignora ripetizioni/giorno per nuove carte
 deck-config-new-cards-ignore-review-limit-tooltip = Di default, il limite di ripetizioni si applica anche alle nuove carte e non verranno mostrate nuove carte quando il limite di ripetizioni è stato raggiunto. Se questa opzione è abilitata, le nuove carte verranno mostrate indipendentemente dal limite di ripetizioni.
 deck-config-affects-entire-collection = Influenza l'intera collezione.
 
@@ -141,7 +141,7 @@ deck-config-new-gather-priority-position-lowest-first = Ordine per posizione cre
 deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
 deck-config-new-gather-priority-random-notes = Casuale (note)
 deck-config-new-gather-priority-random-cards = Casuale (carte)
-deck-config-new-card-sort-order = Ordinamento delle nuove carte
+deck-config-new-card-sort-order = Ordine delle nuove carte
 deck-config-new-card-sort-order-tooltip-2 =
     `Tipo di carta, poi in ordine di raccolta`: mostra le carte seguendo l'ordine dei tipi di carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
     
@@ -316,8 +316,8 @@ deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migl
 deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
 deck-config-get-params = Ottieni parametri
 deck-config-fsrs-on-all-clients =
-    Per favore assicurati che tutte le tue versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
-    FSRS non funzionerà correttamente se una delle tue versioni è più vecchia.
+    Assicurati che tutte le tue versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
+    FSRS non funzionerà correttamente se una delle versioni che usi è più vecchia.
 deck-config-estimated-retention = Ritenzione stimata { $num }
 deck-config-complete = { $num }% completo.
 deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
@@ -345,7 +345,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     L'impostazione predefinita è quella di non ripianificare le carte: le revisioni future utilizzeranno la nuova pianificazione, 
     ma non ci sarà alcuna modifica immediata al tuo carico di lavoro. 
     Se la ripianificazione è abilitata, le scadenze delle carte verranno modificate.
-deck-config-reschedule-cards-warning = A seconda della ritenzione desiderata, ciò può comportare la 'scadenza' di un gran numero di carte (e quindi un aumento del carico di lavoro nel breve termine), per cui non è consigliato abilitare tale opzione la prima volta che si usa FSRS
+deck-config-reschedule-cards-warning = A seconda della ritenzione desiderata, ciò può comportare la scadenza di un gran numero di carte, per cui non è consigliato abilitare tale opzione la prima volta che si usa FSRS
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
     e generare automaticamente pesi ottimali per la tua memoria e i contenuti che stai studiando. 

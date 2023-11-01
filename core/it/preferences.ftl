@@ -4,7 +4,7 @@ preferences-change-deck-depending-on-note-type = Cambia mazzo a seconda del tipo
 preferences-changes-will-take-effect-when-you = I cambiamenti avranno effetto dopo il riavvio di Anki.
 preferences-hours-past-midnight = ore dopo mezzanotte
 preferences-language = Lingua
-preferences-interrupt-current-audio-when-answering = Interrompi l'audio mentre rispondi
+preferences-interrupt-current-audio-when-answering = Interrompi l'audio quando rispondi
 preferences-learn-ahead-limit = Mostra in anticipo - Limite
 preferences-mins = min
 preferences-network = Rete
@@ -50,8 +50,8 @@ preferences-reduce-motion = Riduci movimenti
 preferences-reduce-motion-tooltip = Disabilita varie animazioni e transizioni dell'interfaccia utente
 preferences-custom-sync-url = Server di sincronizzazione self-hosted
 preferences-custom-sync-url-disclaimer = Solo per utenti esperti - consultare il manuale
-preferences-hide-top-bar-during-review = Nascondi la barra superiore durante le ripetizioni
-preferences-hide-bottom-bar-during-review = Nascondi la barra inferiore durante le ripetizioni
+preferences-hide-top-bar-during-review = Nascondi barra superiore durante le ripetizioni
+preferences-hide-bottom-bar-during-review = Nascondi barra inferiore durante le ripetizioni
 preferences-always = Sempre
 preferences-full-screen-only = Solo a schermo intero
 preferences-appearance = Aspetto
@@ -73,7 +73,6 @@ preferences-network-timeout = Timeout connessione
 preferences-reset-window-sizes = Ripristina dimensioni finestre
 preferences-reset-window-sizes-complete = Le dimensioni e le posizioni delle finestre sono state ripristinate.
 preferences-shortcut-placeholder = Inserisci un tasto di scorciatoia non già in uso, oppure lascia vuoto per disabilitare.
-preferences-stop-timer-on-answer = Blocca il timer al momento della risposta
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

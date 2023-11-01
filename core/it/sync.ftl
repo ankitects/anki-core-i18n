@@ -8,7 +8,7 @@ sync-media-removed-count = Rimosse: { $up }↑ { $down }↓
 sync-media-checked-count = Verificate: { $count }
 sync-media-starting = Avvio della sincronizzazione dei file multimediali...
 sync-media-complete = Sincronizzazione dei file multimediali completa.
-sync-media-failed = Sincronizzazione dei file multimediali fallita.
+sync-media-failed = Sincronizzazione dei file multimediali non riuscita.
 sync-media-aborting = Annullamento della sincronizzazione dei file multimediali...
 sync-media-aborted = Sincronizzazione dei file multimediali annullata.
 # Shown in the sync log to indicate media syncing will not be done, because it
