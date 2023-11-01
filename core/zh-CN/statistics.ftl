@@ -78,7 +78,7 @@ statistics-card-difficulty-tooltip =
     }
 statistics-retrievability-tooltip =
     { $cards ->
-       *[other] { $cards } 张记忆可保留性为 { $percent } 的卡片
+       *[other] { $cards } 张记忆可提取性为 { $percent } 的卡片
     }
 statistics-future-due-title = 预测
 statistics-future-due-subtitle = 将来到期的复习的数目
@@ -184,7 +184,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = 平均简易度
 statistics-average-difficulty = 平均难度
-statistics-average-retrievability = 平均记忆可保留性
+statistics-average-retrievability = 平均记忆可提取性
 statistics-save-pdf = 保存为 PDF
 statistics-saved = 已保存。
 statistics-stats = 统计
