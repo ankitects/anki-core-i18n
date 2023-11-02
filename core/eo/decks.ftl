@@ -31,7 +31,10 @@ decks-reschedule-cards-based-on-my-answers = Replani kartojn laŭ miaj respondoj
 decks-study = Lernado
 decks-study-deck = Lernkartaro
 decks-the-provided-search-did-not-match = La donita serĉo ne kongruis kun iu karto. Ĉu vi ŝatus revizii ĝin?
-decks-it-has-card = { $count ->
-    [one]  Ĝi enhavas { $count } karton.
-   *[other]  Ĝi enhavas { $count } kartojn.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Ĝi enhavas { $count } karton.
+       *[other] Ĝi enhavas { $count } kartojn.
+    }
+decks-review-header = Limdato
+decks-learn-header = Lerni

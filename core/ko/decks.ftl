@@ -30,3 +30,6 @@ decks-study = 공부
 decks-study-deck = 공부할 덱
 decks-filtered-deck-search-empty = 검색어와 일치하는 카드가 없습니다. 일부 카드는 필터링된 다른 덱에 있거나 일시중단되었기 때문에 제외되었을 수 있습니다.
 decks-unmovable-cards = 제외된 카드 보기
+# The count of cards waiting to be reviewed
+decks-review-header = 만기
+decks-learn-header = 학습

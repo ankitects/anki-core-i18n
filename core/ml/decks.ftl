@@ -31,3 +31,6 @@ decks-study = പഠനം
 decks-study-deck = ഡെക്ക് പഠിക്കുക
 decks-filtered-deck-search-empty = നൽകിയ തിരയലുമായി കാർഡുകളൊന്നും പൊരുത്തപ്പെടുന്നില്ല. ചില കാർഡുകൾ മറ്റൊരു ഫിൽട്ടർ ചെയ്ത ഡെക്കിലുള്ളതിനാലോ താൽക്കാലികമായി നിർത്തിവച്ചിരിക്കുന്നതിനാലോ ഒഴിവാക്കപ്പെട്ടിരിക്കാം.
 decks-unmovable-cards = ഒഴിവാക്കിയ ഏതെങ്കിലും കാർഡുകൾ കാണിക്കുക
+# The count of cards waiting to be reviewed
+decks-review-header = അവസാന തീയതി
+decks-learn-header = പഠിക്കുക

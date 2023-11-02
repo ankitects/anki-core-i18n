@@ -10,7 +10,9 @@ decks-get-shared = Paquets partejats
 decks-import-file = Importar un fichièr
 decks-minutes = minutas
 decks-study = Estudiar
-decks-it-has-card = { $count ->
-    [one]  Conten { $count } carta.
-   *[other]  Conten { $count } cartas.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Conten { $count } carta.
+       *[other] Conten { $count } cartas.
+    }
+decks-review-header = Escasença

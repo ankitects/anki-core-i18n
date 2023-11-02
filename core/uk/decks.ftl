@@ -30,3 +30,6 @@ decks-study = Вчити
 decks-study-deck = Вчити колоду
 decks-filtered-deck-search-empty = Нема карток, які відповідають умовам пошуку. Деякі картки могли бути виключеними з пошуку оскільки вони є у іншій відфільтрованій колоді або ж призупинені.
 decks-unmovable-cards = Показувати будь-яку виключену картку
+# The count of cards waiting to be reviewed
+decks-review-header = Пригадати
+decks-learn-header = Вчити

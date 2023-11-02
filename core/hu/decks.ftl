@@ -31,7 +31,11 @@ decks-reschedule-cards-based-on-my-answers = Kártyák átütemezése az e pakli
 decks-study = Tanulás
 decks-study-deck = Tanulópakli
 decks-the-provided-search-did-not-match = A megadott keresésnek egyetlen kártya sem felelt meg. Szeretné módosítani?
-decks-it-has-card = { $count ->
-    [one]  { $count } kártyát tartalmaz.
-   *[other]  { $count } kártyát tartalmaz.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] { $count } kártyát tartalmaz.
+       *[other] { $count } kártyát tartalmaz.
+    }
+# The count of cards waiting to be reviewed
+decks-review-header = Esedékes
+decks-learn-header = Tanulás

@@ -30,3 +30,5 @@ decks-study = Ikasi
 decks-study-deck = Ikasi sorta
 decks-filtered-deck-search-empty = Bilaketarekin bat datorren txartelik ez. Baliteke txartel batzuk baztertu izana beste iragazitako sorta batean daudelako edo etenda daudelako.
 decks-unmovable-cards = Erakutsi baztertutako txartelak
+decks-review-header = Zor izanda
+decks-learn-header = Ikasi

@@ -29,7 +29,10 @@ decks-reschedule-cards-based-on-my-answers = Herplan kaarten op basis van mijn a
 decks-study = Studeren
 decks-study-deck = Kaarten in set studeren
 decks-the-provided-search-did-not-match = Er zijn geen kaarten met die zoektermen. Wilt u de termen aanpassen?
-decks-it-has-card = { $count ->
-    [one]  Het bevat { $count } kaart.
-   *[other]  Het bevat { $count } kaarten.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Het bevat { $count } kaart.
+       *[other] Het bevat { $count } kaarten.
+    }
+decks-review-header = Verwacht
+decks-learn-header = Leren

@@ -30,3 +30,6 @@ decks-study = Studiază
 decks-study-deck = Studiază pachet
 decks-filtered-deck-search-empty = Niciun card nu corespunde căutării furnizate. Este posibil ca unele carduri să fi fost excluse deoarece se află într-un pachet filtrat diferit sau sunt suspendate.
 decks-unmovable-cards = Afișează cardurile excluse
+# The count of cards waiting to be reviewed
+decks-review-header = Programate
+decks-learn-header = Memorare

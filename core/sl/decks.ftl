@@ -30,3 +30,6 @@ decks-study = Študiraj
 decks-study-deck = Paket za učenje
 decks-filtered-deck-search-empty = Z iskalnim pogojem se ne ujema nobena kartica. Nekatere kartice so lahko izključene iz iskanja ker so v drugi filtrirani zbirki ali pa so suspendirane.
 decks-unmovable-cards = Pokaži izločene kartice
+# The count of cards waiting to be reviewed
+decks-review-header = Preteklih
+decks-learn-header = Učenje

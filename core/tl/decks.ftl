@@ -30,3 +30,4 @@ decks-study = Mag-aral
 decks-study-deck = Study Deck
 decks-filtered-deck-search-empty = Walang card ang tumugma sa binigay na search. Ang ilang card ay baka na-exclude dahil nasa ibang filtered deck na ang mga ito, o na-suspend.
 decks-unmovable-cards = Ipakita ang kahit anong excluded na card
+decks-learn-header = Aralin

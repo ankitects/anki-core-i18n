@@ -30,3 +30,6 @@ decks-study = Учить
 decks-study-deck = Учить колоду
 decks-filtered-deck-search-empty = Совпадений не найдено. Карточки могли быть исключены или находиться в другой отфильтрованной колоде.
 decks-unmovable-cards = Показать все исключённые карточки
+# The count of cards waiting to be reviewed
+decks-review-header = К просмотру
+decks-learn-header = Изучаемые

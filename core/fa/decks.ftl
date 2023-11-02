@@ -31,3 +31,6 @@ decks-study = مطالعه
 decks-study-deck = مطالعۀ دسته
 decks-filtered-deck-search-empty = هیچ کارتی مطابق با جستجوی شما پیدا نشد. ممکن است برخی از کارت‌ها به دلیل اینکه در دسته فیلتر شده دیگری قرار دارند یا معلق شده‌اند از نتیجه جستجو خارج شده باشند.
 decks-unmovable-cards = نمایش همه کارت‌های صرف نظر شده
+# The count of cards waiting to be reviewed
+decks-review-header = مرور
+decks-learn-header = یادگیری

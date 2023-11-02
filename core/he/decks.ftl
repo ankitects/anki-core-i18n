@@ -30,4 +30,6 @@ decks-study = למד
 decks-study-deck = למד חפיסה
 decks-filtered-deck-search-empty = אין כרטיסים שתואמים לחיפוש המבוקש. יתכן שחלק מהכרטיסים לא נכללו בחיפוש משום שהם בחפיסה מסוננת אחרת, או שהם מושהים.
 decks-unmovable-cards = הצג בדפדוף את כל הכרטיסים שאינם תואמים להגדרה
+# The count of cards waiting to be reviewed
+decks-review-header = מתוזמנים
 decks-learn-header = לימוד

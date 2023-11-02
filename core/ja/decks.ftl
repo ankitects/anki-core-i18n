@@ -30,4 +30,6 @@ decks-study = 学習
 decks-study-deck = 学習するデッキを選択
 decks-filtered-deck-search-empty = 検索条件に一致するカードがありません。別のフィルターデッキ内にあるカードや休止中のカードが除外されている可能性があります。
 decks-unmovable-cards = 除外されたカードをすべて表示
+# The count of cards waiting to be reviewed
+decks-review-header = 復習
 decks-learn-header = 習得中

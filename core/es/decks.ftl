@@ -30,3 +30,6 @@ decks-study = Estudiar
 decks-study-deck = Estudiar mazo
 decks-filtered-deck-search-empty = No se encontraron tarjetas coincidentes. Algunas tarjetas pueden quedar excluidas de la búsqueda porque están suspendidas o en un mazo filtrado diferente.
 decks-unmovable-cards = Mostrar cualquier tarjeta excluida
+# The count of cards waiting to be reviewed
+decks-review-header = Programadas
+decks-learn-header = Aprender

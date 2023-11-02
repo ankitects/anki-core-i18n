@@ -31,3 +31,6 @@ decks-study = Học tập
 decks-study-deck = Học Bộ thẻ
 decks-filtered-deck-search-empty = Không có thẻ nào phù hợp với nội dung được cung cấp. Một số thẻ có thể đã bị loại trừ vì chúng nằm trong một bộ thẻ đã lọc khác hoặc đã bị ngừng.
 decks-unmovable-cards = Hiển thị bất kỳ thẻ nào bị loại trừ
+# The count of cards waiting to be reviewed
+decks-review-header = Đến hạn
+decks-learn-header = Học

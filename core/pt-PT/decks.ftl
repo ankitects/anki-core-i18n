@@ -28,7 +28,10 @@ decks-reschedule-cards-based-on-my-answers = Re-agendar fichas com base nas minh
 decks-study = Estudar
 decks-study-deck = Estudar Baralho
 decks-the-provided-search-did-not-match = A pesquisa não encontrou nenhuma ficha. Gostaria de alterá-la?
-decks-it-has-card = { $count ->
-    [one]  Contém { $count } ficha.
-   *[other]  Contém { $count } fichas.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Contém { $count } ficha.
+       *[other] Contém { $count } fichas.
+    }
+decks-review-header = A rever
+decks-learn-header = Aprender

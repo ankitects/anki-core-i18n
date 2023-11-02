@@ -28,3 +28,6 @@ decks-reschedule-cards-based-on-my-answers = Bu destedeki cevaplarıma göre kar
 decks-study = Çalış
 decks-study-deck = Desteyi Çalış
 decks-unmovable-cards = Hariç tutulan kartları göster
+# The count of cards waiting to be reviewed
+decks-review-header = Vade
+decks-learn-header = Öğrenme

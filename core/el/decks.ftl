@@ -12,7 +12,10 @@ decks-new-deck-name = Νέο όνομα τράπουλας
 decks-random = Τυχαία
 decks-study = Μελέτη
 decks-study-deck = Μελέτη τράπουλας
-decks-it-has-card = { $count ->
-    [one]  Έχει { $count } κάρτα.
-   *[other]  Έχει { $count } κάρτες.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Έχει { $count } κάρτα.
+       *[other] Έχει { $count } κάρτες.
+    }
+decks-review-header = Λόγω
+decks-learn-header = Μάθετε

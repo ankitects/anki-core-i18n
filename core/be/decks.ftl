@@ -30,3 +30,6 @@ decks-study = Вучыць
 decks-study-deck = Вучыць калоду
 decks-filtered-deck-search-empty = Няма картак, якія бы адпавядалі дадзенаму пошуку. Некаторыя карткі маглі быць выключаны, бо яны ў іншай фільтраванай калодзе або прыпынены.
 decks-unmovable-cards = Паказваць усе выключаныя карткі
+# The count of cards waiting to be reviewed
+decks-review-header = Чакаюць
+decks-learn-header = Вывучаюцца

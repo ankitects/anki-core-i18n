@@ -30,4 +30,6 @@ decks-study = Estudar
 decks-study-deck = Estudar baralho
 decks-filtered-deck-search-empty = Nenhum cartão correspondeu à pesquisa fornecida. Alguns cartões podem ter sido excluídos porque estão em um baralho filtrado diferente ou suspensos.
 decks-unmovable-cards = Mostrar todos os cartões excluídos
+# The count of cards waiting to be reviewed
+decks-review-header = A Revisar
 decks-learn-header = Aprender

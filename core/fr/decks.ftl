@@ -31,3 +31,6 @@ decks-study = Étudier
 decks-study-deck = Étudier le paquet
 decks-filtered-deck-search-empty = Aucune carte trouvée pour la recherche fournie. Certaines cartes peuvent avoir été exclues parce qu'elles se trouvent dans un autre paquet filtré, ou suspendues.
 decks-unmovable-cards = Montrer les cartes exclues
+# The count of cards waiting to be reviewed
+decks-review-header = À réviser
+decks-learn-header = En cours

@@ -30,3 +30,5 @@ decks-study = Studér
 decks-study-deck = Studér kortsæt
 decks-filtered-deck-search-empty = Ingen kort matchede søgningen. Nogle kort kan eventuelt blevet exkluderet, fordi de hører til en anden filtrerer kortbunke, eller suspenderet.
 decks-unmovable-cards = Vis exkluderede kort
+decks-review-header = I dag
+decks-learn-header = Lær

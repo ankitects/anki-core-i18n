@@ -31,3 +31,6 @@ decks-study = Nauka
 decks-study-deck = Nauka talii
 decks-filtered-deck-search-empty = Nie znaleziono kart zgodnych z wyszukiwaniem. Wyszukiwanie niektórych kart może być wykluczone ponieważ są one zawieszone lub znajdują się w innej talii filtrowanej.
 decks-unmovable-cards = Pokaż jakiekolwiek wykluczone karty
+# The count of cards waiting to be reviewed
+decks-review-header = Oczekujące
+decks-learn-header = Uczone

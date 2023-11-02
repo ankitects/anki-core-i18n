@@ -14,7 +14,10 @@ decks-please-select-something = Ma ulac aγilif, fren kra.
 decks-random = Agacuran
 decks-study = Ɣer
 decks-study-deck = Ɣer akemmus
-decks-it-has-card = { $count ->
-    [one]  Ɛur-s { $count } can tkarḍa.
-   *[other]  Ɣur-s { $count } n tkarḍiwin.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Ɛur-s { $count } can tkarḍa.
+       *[other] Ɣur-s { $count } n tkarḍiwin.
+    }
+decks-review-header = Tagara
+decks-learn-header = Issin

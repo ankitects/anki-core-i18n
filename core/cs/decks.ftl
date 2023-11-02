@@ -30,3 +30,6 @@ decks-study = Studovat
 decks-study-deck = Studovat balíček
 decks-filtered-deck-search-empty = Vyhledávání neodpovídají žádné karty. Některé karty mohly být vyloučeny, protože jsou v jiném filtrovaném balíčku nebo vyřazené.
 decks-unmovable-cards = Zobrazit všechny vyloučené karty
+# The count of cards waiting to be reviewed
+decks-review-header = Zkoušení
+decks-learn-header = Učení

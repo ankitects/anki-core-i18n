@@ -26,7 +26,10 @@ decks-reschedule-cards-based-on-my-answers = Herskeduleer kaarte wat gebaseer is
 decks-study = Studeer
 decks-study-deck = Studeer kaartpak
 decks-the-provided-search-did-not-match = Die soektog het geen resultate opgelewer nie. Wil jy dit dalk hersien?
-decks-it-has-card = { $count ->
-    [one]  Dit het { $count } kaart.
-   *[other]  Dit het { $count } kaarte.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Dit het { $count } kaart.
+       *[other] Dit het { $count } kaarte.
+    }
+decks-review-header = Uitstaande
+decks-learn-header = Leer

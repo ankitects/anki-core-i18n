@@ -31,3 +31,5 @@ decks-study-deck = 學習牌組
 decks-filtered-deck-search-empty = 沒有卡片符合提供的搜尋條件。位於不同篩選牌組的卡片或已擱置的卡片會被排除。
 decks-unmovable-cards = 檢視符合篩選條件但被排除的卡片
 decks-learn-header = 學習中
+# The count of cards waiting to be reviewed
+decks-review-header = 已到期

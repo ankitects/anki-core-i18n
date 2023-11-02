@@ -23,3 +23,6 @@ decks-random = Tilfeldig
 decks-study = Studer
 decks-study-deck = Studer kortstokk
 decks-unmovable-cards = Vis ekskluderte kort
+# The count of cards waiting to be reviewed
+decks-review-header = Forfaller
+decks-learn-header = Lær

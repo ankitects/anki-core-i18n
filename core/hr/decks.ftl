@@ -13,8 +13,11 @@ decks-reschedule-cards-based-on-my-answers = Prerasporedi kartice na temelju moj
 decks-study = Uči
 decks-study-deck = Uči špil
 decks-the-provided-search-did-not-match = Pretraživanje nije pronašlo niti jednu karticu. Želite li ponoviti?
-decks-it-has-card = { $count ->
-    [one]  Ima { $count } karticu.
-    [few]  Ima { $count } kartica.
-   *[other]  Ima { $count } karata.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Ima { $count } karticu.
+        [few] Ima { $count } kartica.
+       *[other] Ima { $count } karata.
+    }
+decks-review-header = Obveza
+decks-learn-header = Učenje

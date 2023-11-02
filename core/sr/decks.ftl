@@ -26,8 +26,11 @@ decks-reschedule-cards-based-on-my-answers = Измени редослед ка�
 decks-study = Учи
 decks-study-deck = Учи шпил
 decks-the-provided-search-did-not-match = Нема картица које задовољавају упит. Желите ли да задате нове?
-decks-it-has-card = { $count ->
-    [one]  Има { $count } карту.
-    [few]  Има { $count } карте.
-   *[other]  Има { $count } карата.
-  }
+decks-it-has-card =
+    { $count ->
+        [one] Има { $count } карту.
+        [few] Има { $count } карте.
+       *[other] Има { $count } карата.
+    }
+decks-review-header = Рок
+decks-learn-header = Учење
