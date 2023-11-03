@@ -162,4 +162,4 @@ browsing-reparented-decks =
 browsing-card-initial = 卡片
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 笔记
-browsing-sidebar-card-state-review = 复习
+browsing-sidebar-card-state-review = 复习中
