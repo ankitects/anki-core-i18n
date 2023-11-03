@@ -37,7 +37,7 @@ deck-config-tab-description =
     - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.
     - `Questo mazzo`: il limite è specifico per questo mazzo.
     - `Solo oggi`: apporta una modifica temporanea al limite di questo mazzo.
-deck-config-new-cards-ignore-review-limit = Ignora ripetizioni/giorno per nuove carte
+deck-config-new-cards-ignore-review-limit = Ignora nuove carte nel conteggio ripetizioni/giorno
 deck-config-new-cards-ignore-review-limit-tooltip = Di default, il limite di ripetizioni si applica anche alle nuove carte e non verranno mostrate nuove carte quando il limite di ripetizioni è stato raggiunto. Se questa opzione è abilitata, le nuove carte verranno mostrate indipendentemente dal limite di ripetizioni.
 deck-config-affects-entire-collection = Influenza l'intera collezione.
 
