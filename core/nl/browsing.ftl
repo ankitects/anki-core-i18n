@@ -116,3 +116,4 @@ browsing-selected =
         [one] { $count } geselecteerd
        *[other] { $count } geselecteerd
     }
+browsing-sidebar-card-state-review = Herhalen

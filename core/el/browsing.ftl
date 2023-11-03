@@ -47,19 +47,24 @@ browsing-suspended = Σε αναστολή
 browsing-target-field = Στόχος πεδίου:
 browsing-type-here-to-search = <πληκτρολογήστε εδώ για αναζήτηση. Πατήστε  enter για προβολή της τρέχουσας τράπουλας>
 browsing-whole-collection = Πλήρης συλλογή
-browsing-group = { $count ->
-    [one] { $count } ομάδα
-   *[other] { $count } ομάδες
-  }
-browsing-note-count = { $count ->
-    [one] { $count } σημείωση
-   *[other] { $count } σημειώσεις
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } σημείωση διαγράφτηκε.
-   *[other] { $count } σημειώσεις διαγράφτηκαν.
-  }
-browsing-selected = { $count ->
-    [one] { $count } επιλέχθηκε
-   *[other] { $count } επιλέχθηκαν
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } ομάδα
+       *[other] { $count } ομάδες
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } σημείωση
+       *[other] { $count } σημειώσεις
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } σημείωση διαγράφτηκε.
+       *[other] { $count } σημειώσεις διαγράφτηκαν.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } επιλέχθηκε
+       *[other] { $count } επιλέχθηκαν
+    }
+browsing-sidebar-card-state-review = Επιθεώρηση

@@ -96,3 +96,4 @@ browsing-selected =
         [one] { $count } geselekteer
        *[other] { $count } geselekteer
     }
+browsing-sidebar-card-state-review = Hersien

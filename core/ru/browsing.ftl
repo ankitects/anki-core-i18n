@@ -178,3 +178,4 @@ browsing-reparented-decks =
 browsing-card-initial = К
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = З
+browsing-sidebar-card-state-review = Повторяемые

@@ -178,3 +178,4 @@ browsing-reparented-decks =
 ## obsolete; no need to translate
 
 browsing-only-new-cards-can-be-repositioned = Chỉ có thể định vị lại thẻ mới.
+browsing-sidebar-card-state-review = Ôn tập

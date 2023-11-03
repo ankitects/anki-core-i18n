@@ -178,3 +178,4 @@ browsing-reparented-decks =
 browsing-card-initial = K
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = P
+browsing-sidebar-card-state-review = Opakování

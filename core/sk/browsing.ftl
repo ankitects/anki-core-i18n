@@ -126,3 +126,4 @@ browsing-selected =
         [few] { $count } vybraná
        *[other] { $count } vybrané
     }
+browsing-sidebar-card-state-review = Opakovať

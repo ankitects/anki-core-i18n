@@ -55,19 +55,24 @@ browsing-studied-today = Yeɣra ass-a
 browsing-suspended = Yeḥbes
 browsing-today = Ass-a
 browsing-type-here-to-search = <aru dagi akken ad tnadiḍ; tekki ɣef tqeffalt kcem akken ad twaliḍ tagrumma tamirant>
-browsing-group = { $count ->
-    [one] { $count } ugraw
-   *[other] { $count } igrawen
-  }
-browsing-note-count = { $count ->
-    [one] { $count } tezmilt
-   *[other] { $count } tizmilin
-  }
-browsing-note-deleted = { $count ->
-    [one] { $count } tezmilt tettwakkes.
-   *[other] { $count } tezmilin ttwakksent.
-  }
-browsing-selected = { $count ->
-    [one] { $count } yettwafren
-   *[other] { $count } ttwafernen
-  }
+browsing-group =
+    { $count ->
+        [one] { $count } ugraw
+       *[other] { $count } igrawen
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } tezmilt
+       *[other] { $count } tizmilin
+    }
+browsing-note-deleted =
+    { $count ->
+        [one] { $count } tezmilt tettwakkes.
+       *[other] { $count } tezmilin ttwakksent.
+    }
+browsing-selected =
+    { $count ->
+        [one] { $count } yettwafren
+       *[other] { $count } ttwafernen
+    }
+browsing-sidebar-card-state-review = Cegger

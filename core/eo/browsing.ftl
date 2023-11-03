@@ -119,3 +119,4 @@ browsing-selected =
         [one] { $count } elektita
        *[other] { $count } elektitaj
     }
+browsing-sidebar-card-state-review = ripeto

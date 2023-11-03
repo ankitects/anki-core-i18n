@@ -122,3 +122,4 @@ browsing-selected =
         [one] { $count } kiválasztva
        *[other] { $count } kiválasztva
     }
+browsing-sidebar-card-state-review = Ismétlés

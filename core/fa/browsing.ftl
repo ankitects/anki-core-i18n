@@ -154,3 +154,4 @@ browsing-reparented-decks =
 browsing-card-initial = ک
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ی
+browsing-sidebar-card-state-review = مرور

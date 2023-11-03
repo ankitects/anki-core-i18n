@@ -94,3 +94,4 @@ browsing-note-deleted =
     { $count ->
        *[other] .i mo'u vimcu { $count } karda datni
     }
+browsing-sidebar-card-state-review = morji

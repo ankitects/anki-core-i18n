@@ -101,3 +101,4 @@ browsing-selected =
         [one] { $count } seleccionada
        *[other] { $count } seleccionadas
     }
+browsing-sidebar-card-state-review = Repaso

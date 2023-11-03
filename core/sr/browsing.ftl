@@ -103,3 +103,4 @@ browsing-selected =
         [few] { $count } изабране
        *[other] { $count } изабрано
     }
+browsing-sidebar-card-state-review = Понављање

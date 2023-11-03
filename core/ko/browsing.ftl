@@ -159,3 +159,4 @@ browsing-reparented-decks = 덱 { $count }개의 이름을 바꿨습니다.
 browsing-card-initial = C
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
+browsing-sidebar-card-state-review = 복습

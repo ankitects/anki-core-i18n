@@ -122,3 +122,4 @@ browsing-selected =
         [one] { $count } ընտրված է
        *[other] { $count } ընտրված է
     }
+browsing-sidebar-card-state-review = Կրկնություն

@@ -208,3 +208,4 @@ browsing-reparented-decks =
 browsing-card-initial = C
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
+browsing-sidebar-card-state-review = Athbhreithniú

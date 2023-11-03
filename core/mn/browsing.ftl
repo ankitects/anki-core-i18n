@@ -18,7 +18,9 @@ browsing-replace-with = <b>Дараатай нь нөхөөсөнд явах</b>
 browsing-reschedule = Дахин төлөвлөх
 browsing-suspended = Түдгэлзсэн
 browsing-treat-input-as-regular-expression = Бичсэн хэрэг байнгын илэрхийлэлтээр хэрэглэнэ
-browsing-selected = { $count ->
-    [one] { $count }-г сонгосон
-   *[other] { $count }-г сонгосон
-  }
+browsing-selected =
+    { $count ->
+        [one] { $count }-г сонгосон
+       *[other] { $count }-г сонгосон
+    }
+browsing-sidebar-card-state-review = Давталт

@@ -170,3 +170,4 @@ browsing-reparented-decks =
 browsing-card-initial = T
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
+browsing-sidebar-card-state-review = Per repassar

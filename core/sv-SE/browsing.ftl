@@ -113,3 +113,4 @@ browsing-selected =
         [one] { $count } vald
        *[other] { $count } valda
     }
+browsing-sidebar-card-state-review = Repetera

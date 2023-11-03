@@ -78,7 +78,7 @@ browsing-override-back-template = ബാക്ക് ടെംപ്ലേറ്
 browsing-override-font = ഫോണ്ട് ഓവർറൈഡ് ചെയ്യുക:
 browsing-override-front-template =
     ഫോണ്ട് ടെംപ്ലേറ്റ്
-     ഓവർറൈഡ് ചെയ്യുക:
+    ഓവർറൈഡ് ചെയ്യുക:
 browsing-please-give-your-filter-a-name = നിങ്ങളുടെ ഫിൽട്ടറിന് ഒരു പേര് നൽകുക:
 browsing-please-select-cards-from-only-one = ദയവായി ഒരു കുറിപ്പ് തരത്തിൽ നിന്ന് കാർഡുകൾ തിരഞ്ഞെടുക്കുക.
 browsing-preview-selected-card = തിരഞ്ഞെടുത്ത കാർഡ് പ്രിവ്യൂ ചെയ്യുക ({ $val })
@@ -176,3 +176,4 @@ browsing-reparented-decks =
         [one] { $count } ഡെക്കിന്റെ പേരുമാറ്റി.
        *[other] { $count } ഡെക്കുകളുടെ പേരുമാറ്റി.
     }
+browsing-sidebar-card-state-review = അവലോകനം

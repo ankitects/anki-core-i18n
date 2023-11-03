@@ -185,3 +185,4 @@ browsing-reparented-decks =
 
 ## obsolete; no need to translate
 
+browsing-sidebar-card-state-review = Pregled

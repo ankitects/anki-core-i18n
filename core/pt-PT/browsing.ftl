@@ -116,3 +116,4 @@ browsing-selected =
         [one] { $count } selecionado
        *[other] { $count } selecionados
     }
+browsing-sidebar-card-state-review = Revisão

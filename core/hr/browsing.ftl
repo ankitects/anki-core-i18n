@@ -78,3 +78,4 @@ browsing-selected =
         [few] { $count } odabrane
        *[other] { $count } odabrano
     }
+browsing-sidebar-card-state-review = Ponavljanje
