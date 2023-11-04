@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = 矩形
 editing-image-occlusion-ellipse-tool = 椭圆形
 editing-image-occlusion-polygon-tool = 多边形
 editing-image-occlusion-text-tool = 文本
+editing-image-occlusion-toggle-mask-editor = 切换图片遮盖编辑器
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
