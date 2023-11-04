@@ -370,6 +370,7 @@ deck-config-compute-optimal-retention-tooltip =
     ואם זה שונה משמעותית מ-0.9, זה סימן שהזמן שהקצבת בכל יום נמוך מדי
     או גבוה מדי עבור כמות הקלפים שאתה מנסה ללמוד. מספר זה יכול להיות שימושי כהפניה, אבל הוא
     לא מומלץ להעתיק אותו לשדה השמירה הרצוי.
+deck-config-please-save-your-changes-first = אנא שמור את השינויים שלך תחילה.
 deck-config-wait-for-audio = המתן לשמע
 deck-config-show-reminder = הצג תזכורת
 deck-config-answer-again = ענה שוב

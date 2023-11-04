@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = מלבן
 editing-image-occlusion-ellipse-tool = אליפסה
 editing-image-occlusion-polygon-tool = מצולע
 editing-image-occlusion-text-tool = טקסט
+editing-image-occlusion-toggle-mask-editor = הפעל/כבה את עורך ההסתרות.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
