@@ -245,6 +245,7 @@ deck-config-compute-optimal-weights-tooltip =
     
     根據預設，使用當前預設的所有牌組的複習歷史記錄將被用來計算權重。你可以選用在計算權重前調整搜尋條件，更改要用來最佳化權重的卡片。
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「理想留存率」欄位中。
+deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-wait-for-audio = 等待音訊播放
 deck-config-show-reminder = 顯示提醒
 deck-config-answer-again = 回答「重來」

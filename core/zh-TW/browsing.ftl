@@ -155,6 +155,7 @@ browsing-reparented-decks =
     { $count ->
        *[other] 已重新命名 { $count } 個牌組。
     }
+browsing-sidebar-card-state-review = 複習卡
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -162,4 +163,3 @@ browsing-reparented-decks =
 browsing-card-initial = 卡
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 筆
-browsing-sidebar-card-state-review = 複習

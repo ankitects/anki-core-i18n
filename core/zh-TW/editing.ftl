@@ -53,8 +53,8 @@ editing-tags-select-all = 選取所有標籤
 editing-text-color = 文字顏色
 editing-text-highlight-color = 重點文字顏色
 editing-to-make-a-cloze-deletion-on = 要在現有的筆記上建立克漏字空格，請先透過「筆記」>「更改筆記類型」將其改為任意克漏字類型。
-editing-toggle-html-editor = 打開/關閉 HTML 編輯器
-editing-toggle-visual-editor = 打開/關閉視覺化編輯器
+editing-toggle-html-editor = 切換 HTML 編輯器
+editing-toggle-visual-editor = 切換視覺化編輯器
 editing-toggle-sticky = 切換凍結欄位
 editing-expand = 展開
 editing-collapse = 摺疊
@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = 矩形
 editing-image-occlusion-ellipse-tool = 橢圓形
 editing-image-occlusion-polygon-tool = 多邊形
 editing-image-occlusion-text-tool = 文字
+editing-image-occlusion-toggle-mask-editor = 切換遮罩編輯器
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
