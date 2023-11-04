@@ -178,7 +178,7 @@ scheduling-set-due-date-prompt =
     }
 scheduling-set-due-date-prompt-hint =
     0 = dziś
-    1! = jutro+ usuń przerwę powtórek
+    1! = jutro+ ustaw przerwę na 1
     3-7 = losowy wybór w zakresie 3-7 dni
 scheduling-set-due-date-done =
     { $cards ->

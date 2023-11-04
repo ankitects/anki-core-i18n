@@ -57,6 +57,7 @@ card-templates-this-will-create-card-proceed =
         [few] Zostaną stworzone { $count } karty. Kontynuować?
        *[other] Zostanie stworzonych { $count } kart. Kontynuować?
     }
+card-templates-type-boxes-warning = Szablon karty może zawierać tylko jedno pole wprowadzania.
 card-templates-restore-to-default = Przywróć domyślne
 card-templates-restore-to-default-confirmation =
     Pola i szablony tego typu notatki zostaną przywrócone do domyślnego

@@ -20,6 +20,9 @@ deck-config-title = Opcje talii
 deck-config-daily-limits = Dzienne limity
 deck-config-new-limit-tooltip = Maksymalna liczba nowych kart do pokazania na dzień. Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy, powinno to być co najmniej 10 razy mniej niż limit powtórek.
 deck-config-review-limit-tooltip = Maksymalna dzienna liczba powtórek.
+deck-config-limit-interday-bound-by-reviews =
+    Limit powtórek wpływa też na wielodniowe karty w nauce. Przy aplikowaniu limitu,
+    wielodniowe karty w nauce są pobierane najpierw, przed kartami powtarzanymi.
 deck-config-tab-description =
     - `Opcje`: Ten limit jest wspólny dla wszystkich talii używających tych opcji.
     - `Ta talia`: Ten limit dotyczy jedynie tej talii.
@@ -37,6 +40,8 @@ deck-config-today-only = Tylko dziś
 ## New Cards section
 
 deck-config-learning-steps = Kroki nauki
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Przerwy to zazwyczaj minuty (np. `1m`) lub dni (np. `2d`), ale można też używać godzin (np. `1h`) i sekund (np. `30s`).
 deck-config-graduating-interval-tooltip =
     Liczba dni przed ponownym pokazaniem karty, gdy został naciśnięty przycisk "Dobra"
     w ostatnim kroku nauki.
@@ -57,6 +62,10 @@ deck-config-relearning-steps = Kroki ponownej nauki
 deck-config-bury-title = Zakopywanie
 deck-config-bury-new-siblings = Zakop nowe podobne do następnego dnia
 deck-config-bury-review-siblings = Zakop przeglądane podobne do następnego dnia
+deck-config-bury-interday-learning-siblings = Zakop podobne z wielodniowych w nauce
+deck-config-bury-interday-learning-tooltip =
+    Czy inne `uczone` karty tej samej notatki o przerwie > 1 dzień
+    będą przełożone na następny dzień.
 
 ## Ordering section
 
@@ -74,6 +83,7 @@ deck-config-sort-order-random = Losowo
 deck-config-sort-order-template-then-gather = Typ karty
 deck-config-new-review-priority = Kolejność nowych/powtórek
 deck-config-new-review-priority-tooltip = Kiedy pokazywać nowe karty względem kart powtarzanych.
+deck-config-interday-step-priority = Kolejność nauki/powtórek wielodniowych
 deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
 deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
 deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
@@ -85,6 +95,8 @@ deck-config-sort-order-ascending-intervals = Po rosnącym odstępie
 deck-config-sort-order-descending-intervals = Po malejącym odstępie
 deck-config-sort-order-ascending-ease = Po rosnącej łatwości
 deck-config-sort-order-descending-ease = Po malejącej łatwości
+deck-config-sort-order-ascending-difficulty = Trudność rosnąco
+deck-config-sort-order-descending-difficulty = Trudność malejąco
 deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
 
 ## Timer section
@@ -121,6 +133,10 @@ deck-config-clone-group = Klonuj opcje
 ## Removing
 
 deck-config-remove-group = Usuń opcje
+deck-config-will-require-full-sync =
+    Ta zmiana wymaga synchronizacji w jedną stronę. Jeśli masz zmiany
+    na innym urządzeniu, które nie były synchronizowane z obecnym urządzeniem,
+    uruchom teraz tam synchronizację.
 deck-config-confirm-remove-name = Usunąć { $name }?
 
 ## Other Buttons
@@ -148,6 +164,14 @@ deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie plan
 
 deck-config-which-deck = Którą talię chcesz wybrać?
 
+## Messages related to the FSRS scheduler
+
+deck-config-wait-for-audio = Czekaj na dźwięk
+deck-config-show-reminder = Pokaż przypomnienie
+deck-config-answer-again = Odpowiedz Powtórz
+deck-config-answer-hard = Odpowiedz Trudna
+deck-config-answer-good = Odpowiedz Dobra
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Zakop podobne
@@ -155,8 +179,3 @@ deck-config-do-not-bury = Nie zakopuj podobnych
 deck-config-bury-if-new = Zakop nowe
 deck-config-bury-if-new-or-review = Zakop nowe i powtarzane
 deck-config-bury-if-new-review-or-interday = Zakop nowe, powtarzane i powtarzane między dniami
-deck-config-wait-for-audio = Czekaj na dźwięk
-deck-config-show-reminder = Pokaż przypomnienie
-deck-config-answer-again = Odpowiedz Powtórz
-deck-config-answer-hard = Odpowiedz Trudna
-deck-config-answer-good = Odpowiedz Dobra
