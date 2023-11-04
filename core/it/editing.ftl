@@ -53,7 +53,7 @@ editing-tags-select-all = Seleziona tutte le etichette
 editing-text-color = Colore del testo
 editing-text-highlight-color = Colore di evidenziazione del testo
 editing-to-make-a-cloze-deletion-on = Per inserire una cancellazione cloze in una nota esistente, devi prima cambiarla in una nota di tipo cloze, attraverso Modifica>Cambia tipo di nota
-editing-toggle-html-editor = Attiva/disattiva l'editor HTML
+editing-toggle-html-editor = Attiva/disattiva editor HTML
 editing-toggle-visual-editor = Attiva/disattiva editor visuale
 editing-toggle-sticky = Attiva/disattiva adesività
 editing-expand = Espandi
@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = Rettangolo
 editing-image-occlusion-ellipse-tool = Ellisse
 editing-image-occlusion-polygon-tool = Poligono
 editing-image-occlusion-text-tool = Testo
+editing-image-occlusion-toggle-mask-editor = Attiva/disattiva editor delle maschere
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
