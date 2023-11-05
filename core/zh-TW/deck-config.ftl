@@ -209,15 +209,15 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = 權重必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
+deck-config-invalid-weights = 參數必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
 deck-config-not-enough-history = 歷史複習次數過少，無法執行此動作。
 deck-config-must-have-1000-reviews =
     { $count ->
        *[other] 只找到了 { $count } 筆複習記錄。
-    }至少需要 1000  筆複習記錄才能產生自訂權重。
+    }至少需要 1000  筆複習記錄才能產生自訂參數。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = 模型權重
-deck-config-compute-optimal-weights = 最佳化 FSRS 權重
+deck-config-weights = FSRS 參數
+deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-optimal-retention = 計算最佳留存率
 deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
@@ -237,13 +237,13 @@ deck-config-fsrs-tooltip =
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
 deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片的下一次複習將被排程到你有 90% 的機率能回想起卡片內容時出現。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，遺忘的卡片內容則會增加。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致遺忘大量內容，從而可能使你洩氣。
 deck-config-sm2-retention-tooltip = 如果你在切換到 FSRS 之前的實際留存率與 0.9 相差過多，調整該值可以讓 Anki 更精確地估算缺失複習歷史記錄的卡片的記憶狀態。通常卡片歷史記錄只有當你自行刪除來清理空間時才會遺失，因此大多數使用者不需要調整該值。
-deck-config-weights-tooltip = 模型權重會影響卡片排程。當複習超過 1000 次以後，你可以在下方最佳化權重。
-deck-config-reschedule-cards-on-change-tooltip = 此選項控制是否要在啟用 FSRS 或更改權重的同時更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。根據你的理想留存率，這可能會導致大量卡片到期，因此剛從 SM2 切換到 FSRS 時不建議啟用。
+deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。當複習超過 1000 次以後，你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的表現。
+deck-config-reschedule-cards-on-change-tooltip = 此選項控制是否要在啟用 FSRS 或最佳化參數的同時更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。根據你的理想留存率，這可能會導致大量卡片到期，因此剛從 SM2 切換到 FSRS 時不建議啟用。
 deck-config-reschedule-cards-warning = 根據你的期望留存率，這可能導致大量卡片到期，因此第一次從 FSRS 切換到 SM2 時不建議使用。
 deck-config-compute-optimal-weights-tooltip =
-    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的權重。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，權重也會不一樣。你不需要經常最佳化權重，幾個月一次就夠了。
+    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。你不需要經常最佳化參數，幾個月一次就夠了。
     
-    根據預設，使用當前預設的所有牌組的複習歷史記錄將被用來計算權重。你可以選用在計算權重前調整搜尋條件，更改要用來最佳化權重的卡片。
+    根據預設，使用當前預設的所有牌組的複習歷史記錄將被用來計算參數。你可以選用在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「理想留存率」欄位中。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-wait-for-audio = 等待音訊播放
