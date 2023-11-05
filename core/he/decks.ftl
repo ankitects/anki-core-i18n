@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = הוסף חפיסה חדשה (Ctrl+N)
 decks-build = בנה
 decks-cards-selected-by = כרטיסים נבחרים לפי
 decks-create-deck = צור חפיסה
+decks_create_even_if_empty = צור/עדכן את החפיסה הזו גם אם היא ריקה
 decks-custom-steps-in-minutes = צעדים מותאמים אישית (דקות)
 decks-deck = חפיסה
 decks-decreasing-intervals = הפחתת מרווחי זמן
@@ -30,6 +31,6 @@ decks-study = למד
 decks-study-deck = למד חפיסה
 decks-filtered-deck-search-empty = אין כרטיסים שתואמים לחיפוש המבוקש. יתכן שחלק מהכרטיסים לא נכללו בחיפוש משום שהם בחפיסה מסוננת אחרת, או שהם מושהים.
 decks-unmovable-cards = הצג בדפדוף את כל הכרטיסים שאינם תואמים להגדרה
+decks-learn-header = לימוד
 # The count of cards waiting to be reviewed
 decks-review-header = מתוזמנים
-decks-learn-header = לימוד

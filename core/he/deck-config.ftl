@@ -38,7 +38,7 @@ deck-config-limit-interday-bound-by-reviews =
     מגבלת החזרות משפיעה גם על כרטיסי למידה של יותר מיום אחד. בעת החלת ההגבלה, כרטיסי
     למידה ראשונה מימים אחרים נלמדים תחילה, אחר כך חזרות, ולבסוף כרטיסים חדשים.
 deck-config-tab-description =
-    - `מוגדר מראש`: המגבלה משותפת עם כל החפיסות המשתמשות בקבוצת הגדרות זו.
+    - `כל קבוצת ההגדרות`: המגבלה משותפת עם כל החפיסות המשתמשות בקבוצת הגדרות זו.
     - `חפיסה זו`: המגבלה היא ספציפית לחפיסה זו.
     - `רק היום`: בצע שינוי זמני למגבלה של החפיסה הזו.
 deck-config-new-cards-ignore-review-limit = התעלם ממגבלת החזרות עבור כרטיסים חדשים
@@ -51,7 +51,7 @@ deck-config-affects-entire-collection = משפיע על כל המאגר.
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
-deck-config-shared-preset = מוגדר מראש
+deck-config-shared-preset = כל קבוצת ההגדרות
 deck-config-deck-only = חפיסה זו
 deck-config-today-only = להיום בלבד
 
