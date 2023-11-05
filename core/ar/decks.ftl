@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = (Ctrl+N) إضافة رزمة جديدة
 decks-build = إنشاء
 decks-cards-selected-by = بطاقة محددة حسب
 decks-create-deck = رزمة جديدة
+decks_create_even_if_empty = أنشئ/حدث هذه الرزمة حتى لو كانت فارغة
 decks-custom-steps-in-minutes = خطوات مخصصة (بالدقيقة)
 decks-deck = رزمة
 decks-decreasing-intervals = فواصل متناقصة
