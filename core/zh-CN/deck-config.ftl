@@ -266,15 +266,15 @@ deck-config-which-deck = 您想显示哪个牌组的选项？
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = 权重必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
+deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
 deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
 deck-config-must-have-1000-reviews =
     { $count ->
        *[other] 只找到了 { $count } 次复习记录。
-    }至少需要复习 1000 次才能生成自定义权重。
+    }至少需要复习 1000 次才能生成自定义参数。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = 模型权重
-deck-config-compute-optimal-weights = 优化 FSRS 权重
+deck-config-weights = FSRS 参数
+deck-config-compute-optimal-weights = 优化 FSRS 参数
 deck-config-compute-optimal-retention = 计算最佳记忆保留率
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
@@ -301,19 +301,18 @@ deck-config-desired-retention-tooltip =
 deck-config-sm2-retention-tooltip =
     如果您在使用 FSRS 之前的记忆保留率与 0.9 存在显著差异，调整这个值将会使 Anki 在遇到缺少复习记录的卡片时，能更好地评估您的记忆状态，
     由于复习记录通常不会丢失，除非您特意删除它们以释放空间，大多数用户不需要对此数值进行调整。
-deck-config-weights-tooltip = 模型权重影响如何将卡片进行排程。当您积累了 1000+ 次复习后，您可以在下面对模型权重进行优化。
+deck-config-weights-tooltip = FSRS 参数影响如何将卡片进行排程。当您积累了 1000+ 次复习后，您可以在下面对参数进行优化。
 deck-config-reschedule-cards-on-change-tooltip =
-    该选项控制当您启用 FSRS 或更改其模型权重时，是否更改卡片的到期时间。
+    该选项控制当您启用 FSRS 或优化参数时，是否更改卡片的到期时间。
     默认不会对卡片进行重新排程：未来的复习将会使用新的排程，但您的工作量不会有即刻的改变。
-    如果重新排程被启用，卡片的到期时间将被更改。根据您的理想记忆保留率，这可能导致大量卡片到期。
-    因此首次从 SM2 切换时不建议启用。
+    如果重新排程被启用，卡片的到期时间将被更改。
 deck-config-reschedule-cards-warning = 根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM2 切换时不推荐开启该选项。
 deck-config-compute-optimal-weights-tooltip =
-    一旦您在 Anki 中完成了 1000+ 次复习，您就可以使用「优化」按钮来分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的权重。
-    如果您有难度差异较大的牌组，建议为它们分别使用不同的预设配置，因为简单牌组和困难牌组的权重有所不同。
-    无需经常优化您的模型权重——每隔几个月优化一次就足够了。
-    默认情况下，将根据所有使用该预设配置的牌组的复习历史记录计算出权重。
-    如果您想要更改用于优化权重的卡片，您可以选择在计算权重之前调整搜索框的内容。
+    一旦您在 Anki 中完成了 1000+ 次复习，您就可以使用「优化」按钮来分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的参数。
+    如果您有难度差异较大的牌组，建议为它们分别使用不同的预设配置，因为简单牌组和困难牌组的参数有所不同。
+    无需经常优化您的参数——每隔几个月优化一次就足够了。
+    默认情况下，将根据所有使用该预设配置的牌组的复习历史记录计算出参数。
+    如果您想要更改用于优化参数的卡片，您可以选择在计算参数之前调整搜索框的内容。
 deck-config-compute-optimal-retention-tooltip =
     该工具假设您从 0 张卡片开始，并将尝试计算您在给定时间范围内能够保留记忆的材料量。
     预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。

@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = 添加新的牌组
 decks-build = 创建筛选牌组
 decks-cards-selected-by = 张卡片，选择方式
 decks-create-deck = 创建牌组
+decks_create_even_if_empty = 创建/更新此牌组，即使其为空。
 decks-custom-steps-in-minutes = 自定义步幅（以分钟计）
 decks-deck = 牌组
 decks-decreasing-intervals = 间隔由大到小
