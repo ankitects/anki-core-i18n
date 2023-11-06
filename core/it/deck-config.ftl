@@ -359,6 +359,7 @@ deck-config-compute-optimal-retention-tooltip =
     La ritenzione stimata dipenderà notevolmente dai tuoi dati di input, e se differisce significativamente da 0,9, 
     è un segno che il tempo che hai allocato ogni giorno allo studio è troppo oppure troppo poco rispetto alla quantità di carte che stai cercando di imparare. 
     Questo numero può essere utile come riferimento, ma non è raccomandato copiarlo nel campo Ritenzione desiderata.
+deck-config-please-save-your-changes-first = Ricordati di salvare i cambiamenti.
 deck-config-wait-for-audio = Attendi audio
 deck-config-show-reminder = Mostra promemoria
 deck-config-answer-again = Rispondi Ripeti

@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = Aggiungi un nuovo mazzo (Ctrl+N)
 decks-build = Crea
 decks-cards-selected-by = carte selezionate per
 decks-create-deck = Crea mazzo
+decks_create_even_if_empty = Crea/aggiorna questo mazzo anche se vuoto
 decks-custom-steps-in-minutes = Passi personalizzati (in minuti)
 decks-deck = Mazzo
 decks-decreasing-intervals = Intervalli decrescenti
@@ -30,6 +31,6 @@ decks-study = Studia
 decks-study-deck = Studia il mazzo
 decks-filtered-deck-search-empty = Nessuna carta corrisponde ai criteri di ricerca forniti. Alcune carte potrebbero essere state escluse poiché si trovano in un altro mazzo filtrato, o sono sospese.
 decks-unmovable-cards = Mostra le carte escluse
+decks-learn-header = Impara
 # The count of cards waiting to be reviewed
 decks-review-header = Programmate
-decks-learn-header = Impara
