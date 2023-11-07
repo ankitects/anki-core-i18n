@@ -26,6 +26,7 @@ sync-wrong-pass = O Usuário AnkiWeb ou senha está incorreto; por favor, tente 
 sync-resync-required = Sincronize novamente. Se esta mensagem continuar aparecendo, poste no site de suporte.
 sync-must-wait-for-end = O Anki está sincronizando no momento. Aguarde a conclusão da sincronização e tente novamente.
 sync-confirm-empty-download = A coleção local não possui cartões. Baixar do 'AnkiWeb'?
+sync-confirm-empty-upload = Não há cartões na coleção AnkiWeb. Deseja substituí-la pela coleção local?
 sync-conflict-explanation =
     Seus baralhos aqui e no 'AnkiWeb' diferem tanto que não podem ser mesclados, então é necessário que um deles sobrescreva o outro.
     
