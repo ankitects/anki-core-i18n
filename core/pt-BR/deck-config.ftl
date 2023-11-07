@@ -360,6 +360,11 @@ deck-config-compute-optimal-retention-tooltip =
     ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é
     não recomendado copiá-lo para o campo de retenção desejado.
 deck-config-please-save-your-changes-first = Por favor, salve suas alterações primeiro.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Um intervalo de 100 dias será convertido para { $days } dia
+       *[other] Um intervalo de 100 dias será convertido para { $days } dias
+    }
 deck-config-wait-for-audio = Esperando pelo Áudio
 deck-config-show-reminder = Mostrar lembrete
 deck-config-answer-again = Responder Novamente

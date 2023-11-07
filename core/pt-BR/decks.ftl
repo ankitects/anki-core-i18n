@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = Criar um Novo Baralho (Ctrl+N)
 decks-build = Criar
 decks-cards-selected-by = cartões selecionados por
 decks-create-deck = Criar Baralho
+decks_create_even_if_empty = Criar/atualizar este baralho mesmo se estiver vazio
 decks-custom-steps-in-minutes = Etapas personalizadas (em minutos)
 decks-deck = Baralho
 decks-decreasing-intervals = Mais distantes a estudar/revisar
@@ -30,6 +31,6 @@ decks-study = Estudar
 decks-study-deck = Estudar baralho
 decks-filtered-deck-search-empty = Nenhum cartão correspondeu à pesquisa fornecida. Alguns cartões podem ter sido excluídos porque estão em um baralho filtrado diferente ou suspensos.
 decks-unmovable-cards = Mostrar todos os cartões excluídos
+decks-learn-header = Aprender
 # The count of cards waiting to be reviewed
 decks-review-header = A Revisar
-decks-learn-header = Aprender
