@@ -26,6 +26,7 @@ sync-wrong-pass = AnkiWeb の ID 又は パスワード が間違っています
 sync-resync-required = もう一度同期してください。このエラーメッセージが続く場合は、Ankiサポートサイトに投稿をお願いします。
 sync-must-wait-for-end = 同期中です。同期が完了するのを待って、再度お試しください。
 sync-confirm-empty-download = ローカルコレクションにカードがありません。AnkiWebからダウンロードしますか？
+sync-confirm-empty-upload = AnkiWeb上のコレクションにカードがありません。AnkiWeb上のコレクションを、この端末のコレクションに置き換えますか？（この端末のコレクションをAnkiWeb上にアップロードし、現在のAnkiWeb上のコレクションを上書きします。）
 sync-conflict-explanation =
     このコレクションには AnkiWeb 上のコレクションと競合する内容があり、双方を統合できません。どちらか一方でもう一方を上書きする必要があります。
     

@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = デッキを新規追加 (Ctrl+N)
 decks-build = 作成
 decks-cards-selected-by = 枚を、次の順に抜き出す:
 decks-create-deck = デッキを作成
+decks_create_even_if_empty = このデッキが空でも作成/更新
 decks-custom-steps-in-minutes = カスタム学習ステップ（分）
 decks-deck = デッキ
 decks-decreasing-intervals = 間隔が大きい順
@@ -30,6 +31,6 @@ decks-study = 学習
 decks-study-deck = 学習するデッキを選択
 decks-filtered-deck-search-empty = 検索条件に一致するカードがありません。別のフィルターデッキ内にあるカードや休止中のカードが除外されている可能性があります。
 decks-unmovable-cards = 除外されたカードをすべて表示
+decks-learn-header = 習得中
 # The count of cards waiting to be reviewed
 decks-review-header = 復習
-decks-learn-header = 習得中

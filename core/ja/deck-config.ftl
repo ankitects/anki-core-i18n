@@ -315,6 +315,7 @@ deck-config-compute-optimal-retention-tooltip =
     推定される正答保持率は各項目に入力する値によって大きく変化します。0.9との差が著しく大きい場合は、あなたが学習しようとしているカードの量に対して、1日あたりの割り当て時間が少なすぎるか、または多すぎるということを意味しています。
     
     この値は、あくまで学習プランの調整などのための参考値であり、`正答保持率（目標値）`の欄でそのまま使用するための推奨値ではありません。
+deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
 deck-config-answer-again = 回答 (もう一度)

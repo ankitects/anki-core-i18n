@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = 矩形（長方形）
 editing-image-occlusion-ellipse-tool = 楕円形
 editing-image-occlusion-polygon-tool = 多角形
 editing-image-occlusion-text-tool = 文字
+editing-image-occlusion-toggle-mask-editor = マスクエディタを表示/非表示
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
