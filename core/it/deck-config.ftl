@@ -296,16 +296,16 @@ deck-config-which-deck = Quale mazzo desideri?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Aggiornamento delle carte: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = I pesi devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
+deck-config-invalid-weights = I parametri devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Trovata solo { $count } ripetizione.
        *[other] Trovate solo { $count } ripetizioni.
-    } Per generare i pesi personalizzati servono almeno 1000 ripetizioni.
+    }Per generare i parametri personalizzati servono almeno 1000 ripetizioni.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = Pesi del modello
-deck-config-compute-optimal-weights = Calcola i pesi ottimali
+deck-config-weights = Parametri del modello
+deck-config-compute-optimal-weights = Calcola i parametri ottimali
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
@@ -338,21 +338,21 @@ deck-config-sm2-retention-tooltip =
     che hanno un registro delle ripetizioni mancante. Poiché i registri delle ripetizioni di solito non saranno mai assenti 
     a meno che tu non li abbia eliminati esplicitamente per liberare spazio, la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
 deck-config-weights-tooltip =
-    I pesi del modello influenzano la pianificazione delle carte.
-    Una volta che hai accumulato 1000 o più ripetizioni, puoi ottimizzare i pesi utilizzando le impostazioni qui di seguito.
+    I parametri FSRS influenzano la pianificazione delle carte.
+    Una volta che hai accumulato 1000 o più ripetizioni, puoi ottimizzare i parametri utilizzando le impostazioni qui di seguito.
 deck-config-reschedule-cards-on-change-tooltip =
-    Questa opzione controlla se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i pesi. 
-    L'impostazione predefinita è quella di non ripianificare le carte: le revisioni future utilizzeranno la nuova pianificazione, 
+    Questa opzione controlla se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i parametri. 
+    L'impostazione predefinita è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
     ma non ci sarà alcuna modifica immediata al tuo carico di lavoro. 
     Se la ripianificazione è abilitata, le scadenze delle carte verranno modificate.
 deck-config-reschedule-cards-warning = A seconda della ritenzione desiderata, ciò può comportare la scadenza di un gran numero di carte, per cui non è consigliato abilitare tale opzione la prima volta che si usa FSRS
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
-    e generare automaticamente pesi ottimali per la tua memoria e i contenuti che stai studiando. 
-    Se hai mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preset separati, poiché i pesi per i mazzi facili e quelli difficili saranno diversi. 
-    Non è necessario ottimizzare i pesi frequentemente; è sufficiente farlo una volta ogni pochi mesi.
+    e generare automaticamente parametri ottimali per la tua memoria e i contenuti che stai studiando. 
+    Se hai mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preset separati, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
+    Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
-    Per impostazione predefinita, i pesi saranno calcolati dalla cronologia delle revisioni di tutti i mazzi che utilizzano il preset corrente. Facoltativamente, prima di calcolare i pesi, puoi modificare i criteri di ricerca per selezionare quali carte utilizzare per l'ottimizzazione dei pesi.
+    Per impostazione predefinita, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano il preset corrente. Facoltativamente, prima di calcolare i parametri, puoi modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
 deck-config-compute-optimal-retention-tooltip =
     Questo strumento presuppone che tu stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
     che sarai in grado di ricordare nel periodo di tempo specificato. 
