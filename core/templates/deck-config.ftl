@@ -353,7 +353,7 @@ deck-config-desired-retention-tooltip =
     The default value of 0.9 will schedule cards so you have a 90% chance of remembering them when
     they come up for review again. If you increase this value, Anki will show cards more frequently
     to increase the chances of you remembering them. If you decrease the value, Anki will show cards
-    less frequently, and you will forget more of them. Be conservative when adjusting this - higher
+    less frequently, and you will forget more of them. Be conservative when adjusting this – higher
     values will greatly increase your workload, and lower values can be demoralizing when you forget
     a lot of material.
 deck-config-sm2-retention-tooltip =
@@ -378,7 +378,7 @@ deck-config-compute-optimal-weights-tooltip =
     and automatically generate parameters that are optimal for your memory and the content you're studying.
     If you have decks that vary wildly in difficulty, it is recommended to assign them separate presets, as
     the parameters for easy decks and hard decks will be different. There is no need to optimize your parameters
-    frequently - once every few months is sufficient.
+    frequently – once every few months is sufficient.
     
     By default, parameters will be calculated from the review history of all decks using the current preset. You can
     optionally adjust the search before calculating the parameters, if you'd like to alter which cards are used for
