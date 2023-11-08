@@ -24,6 +24,8 @@ card-stats-review-log-type-filtered = Auswahlstapel
 card-stats-review-log-type-manual = Manuell
 card-stats-no-card = (Keine Karte zum Anzeigen.)
 card-stats-custom-data = Benutzerdefinierte Daten
+card-stats-fsrs-stability = Stabilität
+card-stats-fsrs-difficulty = Schwierigkeit
 
 ## Window Titles
 
