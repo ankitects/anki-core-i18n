@@ -26,6 +26,7 @@ sync-wrong-pass = 用户名或密码错误，请重试。
 sync-resync-required = 请尝试再次同步。如此信息反复出现，请在支持网站上反馈。
 sync-must-wait-for-end = 当前正在同步，请在同步完成后重试。
 sync-confirm-empty-download = 本地集合为空，是否立即从AnkiWeb下载？
+sync-confirm-empty-upload = AnkiWeb 的集合没有卡片。是否要用本地集合替换 AnkiWeb 的集合？
 sync-conflict-explanation =
     本地牌组与 AnkiWeb 上的牌组存在不能合并的差异，所以必须覆盖其中之一。
     

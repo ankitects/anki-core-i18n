@@ -318,6 +318,10 @@ deck-config-compute-optimal-retention-tooltip =
     预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。
     该数字可用作参考，但不建议将其复制到期望记忆保留率字段中。
 deck-config-please-save-your-changes-first = 请先保存您预设配置的更改。
+deck-config-a-100-day-interval =
+    { $days ->
+       *[other] 原为 100 天的间隔将变为 { $days } 天。
+    }
 deck-config-wait-for-audio = 等待音频播放完毕
 deck-config-show-reminder = 显示提醒
 deck-config-answer-again = 回答「忘记」
