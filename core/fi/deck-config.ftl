@@ -297,6 +297,17 @@ deck-config-compute-optimal-weights-tooltip =
     
     Oletusarvoisesti painotukset lasketaan kaikkien nykyisiä esiasetuksia käyttävien pakkojen kertaushistoriasta. Voit halutessasi säätää hakua ennen painokertoimien laskemista, jos haluat muuttaa, mitä kortteja painokertoimien optimointiin käytetään.
 deck-config-compute-optimal-retention-tooltip = Tämä työkalu olettaa, että aloitat 0 kortista, ja yrittää laskea, kuinka paljon materiaalia pystyt säilyttämään muistissasi annetussa ajassa (retentio). Arvioitu retentio riippuu huomattavasti syöttötiedoistasi, ja jos se poikkeaa merkittävästi 0,9:stä, se on merkki siitä, että kullekin päivälle varattu aika on joko liian pieni tai liian suuri siihen korttimäärään nähden, jonka yrität oppia. Tämä luku voi olla hyödyllinen viitteenä, mutta sitä ei suositella kopioitavaksi Toivottu retentio -kenttään.
+deck-config-please-save-your-changes-first = Tallenna muutoksesi ennen tämän toiminnon suorittamista.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
+       *[other] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
+    }
+deck-config-wait-for-audio = Odota äänen päättymistä
+deck-config-show-reminder = Näytä muistutus
+deck-config-answer-again = Vastaa uudelleen
+deck-config-answer-hard = Vastaa Vaikea
+deck-config-answer-good = Vastaa Hyvä
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -309,8 +320,3 @@ deck-config-bury-tooltip =
     Sisarkortit ovat muita kortteja samasta muistiinpanosta (esim. käänteiset kortit tai muut samasta tekstistä tehdyt täyttötehtävät ).
     
     Kun tämä asetus on pois päältä, useita kortteja samasta muistiinpanosta voi esiintyä samana päivänä. Kun se on päällä, Anki *hautaa* sisarkortit automaattisesti ja piilottaa ne seuraavaan päivään asti. Tämän vaihtoehdon avulla voit valita, minkälaiset kortit voidaan haudata, kun vastaat johonkin niiden sisarkorteista.
-deck-config-wait-for-audio = Odota äänen päättymistä
-deck-config-show-reminder = Näytä muistutus
-deck-config-answer-again = Vastaa uudelleen
-deck-config-answer-hard = Vastaa Vaikea
-deck-config-answer-good = Vastaa Hyvä

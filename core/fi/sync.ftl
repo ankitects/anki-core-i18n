@@ -26,6 +26,7 @@ sync-wrong-pass = AnkiWeb-käyttäjätunnus tai -salasana on väärä. Yritä uu
 sync-resync-required = Synkronoi uudelleen. Jos tämä viesti näkyy toistuvasti, lähetä viesti tukisivustolla.
 sync-must-wait-for-end = Anki synkronoi parhaillaan. Odota, että synkronointi on valmis, ja yritä sitten uudelleen.
 sync-confirm-empty-download = Paikallisessa kokoelmassa ei ole kortteja. Ladataanko AnkiWebistä?
+sync-confirm-empty-upload = AnkiWebin kokoelmassa ei ole kortteja. Korvataanko se paikallisella kokoelmalla?
 sync-conflict-explanation =
     Tällä laitteella olevat pakat ja AnkiWebissä olevat pakat eroavat toisistaan siten, että niitä ei voi yhdistää toisiinsa, joten on välttämätöntä korvata toisen puolen pakat toisen puolen pakoilla.
     

@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = Suorakulmio
 editing-image-occlusion-ellipse-tool = Soikio
 editing-image-occlusion-polygon-tool = Monikulmio
 editing-image-occlusion-text-tool = Teksti
+editing-image-occlusion-toggle-mask-editor = Näytä/piilota maskien muokkausnäkymä
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

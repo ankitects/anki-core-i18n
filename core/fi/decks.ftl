@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = Lisää uusi pakka (Ctrl + N)
 decks-build = Kokoa
 decks-cards-selected-by = korttiin, jotka on valittu perusteella
 decks-create-deck = Luo pakka
+decks_create_even_if_empty = Luo/päivitä tämä pakka, vaikka se olisi tyhjä
 decks-custom-steps-in-minutes = Mukautetut askeleet (minuuteissa)
 decks-deck = Pakka
 decks-decreasing-intervals = Kertausvälien mukaan laskevassa järjestyksessä
@@ -30,6 +31,6 @@ decks-study = Opiskele
 decks-study-deck = Opiskele pakkaa
 decks-filtered-deck-search-empty = Yksikään kortti ei vastannut annettua hakua. Jotkin kortit on saatettu jättää pois, koska ne ovat eri suodatetussa pakassa tai ne on hyllytetty.
 decks-unmovable-cards = Näytä kaikki poissuljetut kortit
+decks-learn-header = Opittavat
 # The count of cards waiting to be reviewed
 decks-review-header = Erääntyneet
-decks-learn-header = Opittavat
