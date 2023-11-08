@@ -360,6 +360,11 @@ deck-config-compute-optimal-retention-tooltip =
     è un segno che il tempo che hai allocato ogni giorno allo studio è troppo oppure troppo poco rispetto alla quantità di carte che stai cercando di imparare. 
     Questo numero può essere utile come riferimento, ma non è raccomandato copiarlo nel campo Ritenzione desiderata.
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Un intervallo di 100 giorni diventerà di { $days } giorno.
+       *[other] Un intervallo di 100 giorni diventerà di { $days } giorni.
+    }
 deck-config-wait-for-audio = Attendi audio
 deck-config-show-reminder = Mostra promemoria
 deck-config-answer-again = Rispondi Ripeti
