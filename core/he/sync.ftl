@@ -26,6 +26,7 @@ sync-wrong-pass = ID או סיסמה של AnkiWeb שגויים; אנא נסה/י
 sync-resync-required = נא סנכרן שנית. אם הודעה זו מופיעה שוב, פנה לאתר התמיכה.
 sync-must-wait-for-end = Anki מסנכרן עכשיו. המתן לסיום הסינכרון, ואז נסה שנית.
 sync-confirm-empty-download = באוסף המקומי אין כרטיסים. להוריד מ-AnkiWeb?
+sync-confirm-empty-upload = לאוסף AnkiWeb אין כרטיסים. להחליף אותו באוסף מקומי?
 sync-conflict-explanation =
     החפיסות כאן ובאתר AnkiWeb שונות באופן כזה שאינן יכולות להתמזג יחד, הכרחי לדרוס את החפיסות בצד אחד עם החפיסות שבצד האחר.
     

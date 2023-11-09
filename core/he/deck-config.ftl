@@ -371,6 +371,11 @@ deck-config-compute-optimal-retention-tooltip =
     או גבוה מדי עבור כמות הקלפים שאתה מנסה ללמוד. מספר זה יכול להיות שימושי כהפניה, אבל הוא
     לא מומלץ להעתיק אותו לשדה השמירה הרצוי.
 deck-config-please-save-your-changes-first = אנא שמור את השינויים שלך תחילה.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] מרווח של 100 ימים יהפוך ל{ $days } יום.
+       *[other] מרווח של 100 ימים יהפוך ל{ $days } ימים.
+    }
 deck-config-wait-for-audio = המתן לשמע
 deck-config-show-reminder = הצג תזכורת
 deck-config-answer-again = ענה שוב
