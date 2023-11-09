@@ -316,6 +316,11 @@ deck-config-compute-optimal-retention-tooltip =
     
     この値は、あくまで学習プランの調整などのための参考値であり、`正答保持率（目標値）`の欄でそのまま使用するための推奨値ではありません。
 deck-config-please-save-your-changes-first = 変更を先に保存してください
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 100日の間隔は { $days } 日になります。
+       *[other] 100日の間隔は { $days } 日になります。
+    }
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
 deck-config-answer-again = 回答 (もう一度)
