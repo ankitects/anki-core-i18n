@@ -69,7 +69,7 @@ scheduling-custom-study = Học tùy biến
 ## Scheduler upgrade
 
 scheduling-update-soon = Anki 2.1 đi kèm với một bộ lập lịch mới, giúp khắc phục một số vấn đề mà các phiên bản Anki trước đó gặp phải. Cập nhật nó được khuyến khích.
-scheduling-update-done = Đã cập nhật thành công bộ lập thời gian biểu.
+scheduling-update-done = Đã cập nhật thành công bộ lập lịch biểu.
 scheduling-update-button = Cập nhật
 scheduling-update-later-button = Để sau
 scheduling-update-more-info-button = Tìm hiểu thêm
@@ -83,7 +83,6 @@ scheduling-bury-related-new-cards-until-the = Tạm hoãn các thẻ mới có l
 scheduling-bury-related-reviews-until-the-next = Tạm hoãn nội dung ôn tập có liên quan cho đến ngày hôm sau
 scheduling-days = ngày
 scheduling-description = Mô tả
-scheduling-description-to-show-on-overview-screen = Mô tả hiển thị trên màn hình tổng quan, cho bộ thẻ hiện tại:
 scheduling-easy-bonus = Phần chênh mức Dễ
 scheduling-easy-interval = Khoảng cách mức Dễ
 scheduling-end = (cuối)

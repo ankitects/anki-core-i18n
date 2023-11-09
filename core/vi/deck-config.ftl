@@ -32,6 +32,10 @@ deck-config-limit-new-bound-by-reviews =
     được xem.
 deck-config-limit-interday-bound-by-reviews = Giới hạn ôn tập cũng sẽ áp dụng cho những thẻ cần học trong ngày. Khi áp dụng giới hạn, hệ thống sẽ hiển thị thẻ trong ngày trước, sau đó ôn lại, và cuối cùng là những thẻ mới.
 
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+
 ## New Cards section
 
 deck-config-learning-steps = Bước học
@@ -82,35 +86,16 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Đang tạm hoãn
 deck-config-bury-new-siblings = Hoãn các thẻ anh em của thẻ mới cho tới ngày tiếp theo
 deck-config-bury-review-siblings = Hoãn các thẻ anh em của thẻ ôn tập cho tới ngày tiếp theo
-deck-config-bury-tooltip =
-    Cho dù các thẻ khác cùng phiếu (vd các thẻ đảo, liền kề
-    với khoảng điền) sẽ bị trì hoãn cho đến ngày hôm sau.
 
 ## Ordering section
 
 deck-config-ordering-title = Thứ tự hiển thị
 deck-config-new-gather-priority = Ưu tiên nhóm thẻ mới
-deck-config-new-gather-priority-tooltip =
-    `Bộ thẻ`: tập hợp các thẻ từ mỗi bộ thẻ con theo thứ tự và dừng khi
-    giới hạn của bộ thẻ được chọn bị vượt quá. Như vậy sẽ nhanh hơn và cho phép bạn
-    sắp xếp ưu tiên các bộ thẻ con gần đầu hơn.
-    
-    `Vị trí`: tập hợp các thẻ từ tất cả các bộ thẻ trước khi chúng được sắp xếp. Điều này
-    đảm bảo các thẻ xuất hiện ở vị trí cố định (do #) thứ tự, ngay cả khi giới hạn mẹ là
-    không đủ cao để xem các thẻ từ tất cả các bộ thẻ.
 deck-config-new-gather-priority-deck = Bộ thẻ
 deck-config-new-gather-priority-position-lowest-first = Vị trí tăng dần
 deck-config-new-gather-priority-position-highest-first = Vị trí giảm dần
 deck-config-new-card-sort-order = Thứ tự sắp xếp thẻ mới
-deck-config-new-card-sort-order-tooltip =
-    Cách các thẻ được sắp xếp sau khi chúng được tập hợp. Theo mặc định, Anki sắp xếp
-    theo mẫu thẻ trước, để tránh nhiều thẻ của cùng một phiếu giống nhau
-    xuất hiện nối tiếp nhau.
-deck-config-sort-order-card-template-then-lowest-position = Theo mẫu thẻ, sau đó là vị trí tăng dần
-deck-config-sort-order-card-template-then-highest-position = Theo mẫu thẻ, sau đó là vị trí giảm dần
 deck-config-sort-order-card-template-then-random = Mẫu thẻ, sau đó là ngẫu nhiên
-deck-config-sort-order-lowest-position = Vị trí tăng dần
-deck-config-sort-order-highest-position = Vị trí giảm dần
 deck-config-sort-order-random = Ngẫu nhiên
 deck-config-sort-order-template-then-gather = Theo mẫu thẻ, rồi đến thứ tự tập hợp thẻ
 deck-config-sort-order-gather = Theo thứ tự tập hợp thẻ
@@ -193,7 +178,6 @@ deck-config-clone-group = Nhân đôi nhóm trước
 ## Removing
 
 deck-config-remove-group = Xóa nhóm trước
-deck-config-confirm-normal = Xóa { $name }?
 deck-config-will-require-full-sync = Thao tác thay đổi này yêu cầu tải lên toàn bộ cơ sở dữ liệu trong lần đồng bộ bộ sưu tập kế tiếp. Nếu bạn có phần ôn tập hoặc thay đổi khác trên thiết bị khác chưa được đồng bộ thì chúng sẽ bị mất.
 deck-config-confirm-remove-name = Xóa { $name }?
 
@@ -229,8 +213,18 @@ deck-config-relearning-steps-above-minimum-interval = Khoảng thời gian trôi
 ## Selecting a deck
 
 deck-config-which-deck = Bạn muốn bộ thẻ nào?
+
+## Messages related to the FSRS scheduler
+
+deck-config-updating-cards = Đang cập nhật thẻ: { $current_cards_count }/{ $total_cards_count }...
 deck-config-wait-for-audio = Chờ Âm thanh
 deck-config-show-reminder = Hiển thị Lời nhắc
 deck-config-answer-again = Trả lời lần nữa
 deck-config-answer-hard = Trả lời Khó
 deck-config-answer-good = Trả lời Tốt
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+deck-config-bury-tooltip =
+    Cho dù các thẻ khác cùng phiếu (vd các thẻ đảo, liền kề
+    với khoảng điền) sẽ bị trì hoãn cho đến ngày hôm sau.

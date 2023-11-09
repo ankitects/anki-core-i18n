@@ -19,7 +19,6 @@ editing-fields = Trường tin
 editing-float-left = Nổi bên trái
 editing-float-right = Nổi bên phải
 editing-float-none = Không nổi lên
-editing-html-editor = Trình soạn thảo HTML
 editing-indent = Tăng thụt lề
 editing-italic-text = In nghiêng
 editing-jump-to-tags-with-ctrlandshiftandt = Nhảy đến nhãn với Ctrl+Shift+T
@@ -36,8 +35,6 @@ editing-outdent = Giảm thụt lề
 editing-paste = Dán
 editing-record-audio = Ghi âm
 editing-remove-formatting = Xóa định dạng
-editing-set-text-color = Đặt màu chữ
-editing-set-text-highlight-color = Đặt màu nền chữ
 editing-show-duplicates = Hiện Thẻ trùng
 editing-subscript = Chỉ số dưới
 editing-superscript = Chỉ số trên
@@ -47,19 +44,11 @@ editing-toggle-sticky = Bật/tắt tính năng giữ lại những lần tìm k
 editing-underline-text = Gạch chân văn bản
 editing-unordered-list = Danh sách không được yêu cầu
 editing-warning-cloze-deletions-will-not-work = Cảnh báo, nút tạo chỗ trống sẽ không hoạt động được cho đến khi bạn chuyển kiểu phiếu ở trên cùng sang kiểu Điền chỗ trống.
+editing-close-html-tags = Tự động đóng thẻ HTML
+editing-image-occlusion-zoom-out = Thu nhỏ
+editing-image-occlusion-zoom-in = Phóng to
+editing-image-occlusion-zoom-reset = Đặt lại độ phóng
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
-editing-bold-text-ctrlandb = In đậm (Ctrl+B)
-editing-italic-text-ctrlandi = In nghiêng (Ctrl+I)
-editing-underline-text-ctrlandu = Gạch chân (Ctrl+U)
-editing-subscript-ctrland = Chỉ số dưới (Ctrl+=)
-editing-superscript-ctrlandand = Chỉ số trên (Ctrl++)
-editing-remove-formatting-ctrlandr = Xóa định dạng (Ctrl+R)
-editing-record-audio-f5 = Tự ghi âm
-editing-attach-picturesaudiovideo-f3 = Đính kèm hình ảnh/âm thanh/video (F3)
-editing-cloze-deletion-ctrlandshiftandc = Xóa khoảng điền (Ctrl+Shift+C)
-editing-change-colour-f8 = thay đổi màu sắc
-editing-set-foreground-colour-f7 = Đặt màu cho nền trước (F7)
-editing-customize-card-templates-ctrlandl = Tùy chỉnh mẫu thẻ (Ctrl+L)
-editing-set-foreground-color = Đặt màu cho nền trước
+editing-html-editor = Trình soạn thảo HTML

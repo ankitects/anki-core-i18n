@@ -18,9 +18,11 @@ preferences-preferences = Tùy chỉnh
 preferences-scheduling = Lập lịch lại
 preferences-show-learning-cards-with-larger-steps = Hiển thị thẻ học tập với các bước lớn hơn trước khi ôn tập
 preferences-show-next-review-time-above-answer = Hiện thời gian ôn tập kế tiếp trên các nút trả lời
+preferences-spacebar-rates-card = Trả lời bằng phím cách (hoặc phím Enter)
 preferences-show-play-buttons-on-cards-with = Hiển thị nút phát trên thẻ có âm thanh
 preferences-show-remaining-card-count = Hiển thị số lượng thẻ còn lại
 preferences-some-settings-will-take-effect-after = Một số thiết lập chỉ có hiệu lực sau khi chạy lại Anki.
+preferences-tab-synchronisation = Đồng bộ
 preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Đồng bộ hóa</b><br> Hiện đang tắt; nhấp nút đồng bộ trong cửa sổ chính để bật đồng bộ.
 preferences-synchronize-audio-and-images-too = Đồng bộ cả âm thanh và hình ảnh
 preferences-timebox-time-limit = Giới hạn khung thời gian
@@ -31,7 +33,18 @@ preferences-legacy-timezone-handling = Xử lý múi giờ cũ (lỗi, bắt bu�
 preferences-default-search-text = Mẫu tìm kiếm mặc định
 preferences-default-search-text-example = vd. 'bộ thẻ:hiện tại '
 preferences-theme = Giao diện
+preferences-theme-follow-system = Theo hệ thống
+preferences-theme-light = Sáng
+preferences-theme-dark = Tối
+preferences-v3-scheduler = Bộ lập lịch biểu V3
+preferences-ignore-accents-in-search = Bỏ qua dấu câu trong tìm kiếm (chậm hơn)
+preferences-reduce-motion = Giảm hiệu ứng động
+preferences-appearance = Hiển thị
 preferences-editing = Chỉnh sửa
+preferences-account = Tài khoản AnkiWeb
+preferences-scheduler = Bộ lập lịch biểu
+preferences-reset-window-sizes = Đặt lại kích cỡ cửa sổ
+preferences-reset-window-sizes-complete = Đã đặt lại vị trí và kích cỡ của các cửa sổ.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

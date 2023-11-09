@@ -33,7 +33,6 @@ actions-select = Chọn
 actions-shortcut-key = Phím tắt: { $val }
 actions-suspend-card = Dừng Thẻ
 actions-set-due-date = Đặt ngày đến hạn
-actions-forget = Quên
 actions-answer-card = Thẻ đáp án
 actions-unbury-unsuspend = Bỏ hoãn/Bỏ ngừng
 actions-add-deck = Thêm bộ thẻ
@@ -44,13 +43,16 @@ actions-update-card = Cập nhật Thẻ
 actions-update-deck = Cập nhật Bộ thẻ
 actions-forget-card = Quên thẻ
 actions-build-filtered-deck = Lập bộ thẻ
-actions-expand-collapse = Mở rộng/Thu gọn
 actions-add-notetype = Thêm Kiểu Phiếu
 actions-remove-notetype = Xóa Kiểu Phiếu
 actions-update-notetype = Cập nhật Kiểu phiếu
 actions-update-config = Cập nhật cấu hình
 actions-card-info = Thông tin thẻ
 actions-previous-card-info = Thông tin thẻ trước
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Trình điều khiển video của bạn không hỗ trợ chế độ toàn màn hình. Hãy thử đổi sang trình điều khiển video khác ở màn hình Tuỳ chỉnh.
 
 ## Flags
 
