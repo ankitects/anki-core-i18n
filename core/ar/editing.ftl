@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = مستطيل
 editing-image-occlusion-ellipse-tool = شكل بيضاوي
 editing-image-occlusion-polygon-tool = مضلع
 editing-image-occlusion-text-tool = نص
+editing-image-occlusion-toggle-mask-editor = إظهار/إخفاء محرر التعتيم
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

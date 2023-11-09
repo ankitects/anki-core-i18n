@@ -331,8 +331,8 @@ deck-config-must-have-1000-reviews =
        *[other] توجد { $count } مراجعة فقط.
     } يجب أن يكون هناك 1000 مراجعة على الأقل لتوليد الأوزان المخصصة.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = الأوزان النموذجية
-deck-config-compute-optimal-weights = حساب الأوزان المثالية
+deck-config-weights = عوامل FSRS
+deck-config-compute-optimal-weights = حساب عوامل FSRS المثالية
 deck-config-compute-optimal-retention = حساب معدل التذكر الأمثل
 deck-config-optimize-button = تعزيز
 deck-config-compute-button = احسب
@@ -393,6 +393,15 @@ deck-config-compute-optimal-retention-tooltip =
     بالنسبة لعدد البطاقات التي تحاول تعلمها. يمكن أن يكون هذا الرقم مفيدًا كمرجع، ولكن لا يوصى 
     بنسخه في حقل معدل التذكر المرغوب فيه.
 deck-config-please-save-your-changes-first = يرجى حفظ التغييرات أولًا.
+deck-config-a-100-day-interval =
+    { $days ->
+        [zero] يصبح فاصل 100 يوم { $days } يوم.
+        [one] يصبح فاصل 100 يوم يومًا واحدًا.
+        [two] يصبح فاصل 100 يوم يومين
+        [few] يصبح فاصل 100 يوم { $days } أيام.
+        [many] يصبح فاصل 100 يوم { $days } يوم.
+       *[other] يصبح فاصل 100 يوم { $days } يوم.
+    }
 deck-config-wait-for-audio = انتظار الصوت
 deck-config-show-reminder = إظهار المُذكّر
 deck-config-answer-again = الإجابة بـ«مجددًا»
