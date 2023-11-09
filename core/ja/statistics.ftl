@@ -61,7 +61,7 @@ statistics-range-search = 検索
 statistics-card-ease-title = カードの易しさ
 statistics-card-difficulty-title = カードの難度
 statistics-card-stability-title = カードの安定性
-statistics-card-stability-subtitle = 90％の確率で正答できると予測される間隔日数と枚数〔面グラフと右軸は累計〕
+statistics-card-stability-subtitle = 90％の確率で正答できると予測される間隔日数と枚数
 statistics-average-stability = 安定性の平均
 statistics-card-retrievability-title = カードの推定正答率
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
@@ -83,11 +83,11 @@ statistics-retrievability-tooltip =
        *[other] 推定正答率が{ $percent }のカード: { $cards }枚
     }
 statistics-future-due-title = 今後の課題
-statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数〔面グラフと右軸は累計〕
+statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数
 statistics-added-title = 追加
-statistics-added-subtitle = 新規カードを追加した枚数〔面グラフと右軸は累計〕
-statistics-reviews-count-subtitle = 学習した時期と枚数（カードに回答した回数）〔面グラフと右軸は累計〕
-statistics-reviews-time-subtitle = 学習した時期と学習（回答）に費やした時間〔面グラフと右軸は累計〕
+statistics-added-subtitle = 新規カードを追加した枚数
+statistics-reviews-count-subtitle = 学習した時期と枚数（カードに回答した回数）
+statistics-reviews-time-subtitle = 学習した時期と学習（回答）に費やした時間
 statistics-answer-buttons-title = 回答ボタン
 # eg Button: 4
 statistics-answer-buttons-button-number = ボタン
@@ -116,7 +116,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = 延滞込み
 statistics-intervals-title = 復習間隔
-statistics-intervals-subtitle = 次の復習までの間隔日数と復習枚数〔面グラフと右軸は累計〕
+statistics-intervals-subtitle = 次の復習までの間隔日数と復習枚数
 statistics-intervals-day-range =
     { $cards ->
        *[other] 復習間隔が{ $daysStart }~{ $daysEnd }日のカード: { $cards }枚
@@ -141,7 +141,7 @@ statistics-hours-reviews = 📊 { $reviews }回
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 正答率 { $percent }% ({ $reviews }回)
 statistics-hours-title = 時間帯の分析
-statistics-hours-subtitle = 時間帯ごとの学習回数〔面グラフと右軸は正答率〕
+statistics-hours-subtitle = 各時間帯の学習回数と正答率
 # shown when graph is empty
 statistics-no-data = データなし
 statistics-calendar-title = カレンダー

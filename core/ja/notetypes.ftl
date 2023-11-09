@@ -39,19 +39,19 @@ notetypes-type = ノートタイプ
 ## Image Occlusion
 
 notetypes-image = 画像
-notetypes-occlusion = マスキング
+notetypes-occlusion = 画像穴埋め
 notetypes-occlusion-mask = マスク
 notetypes-occlusion-note = ノート
 notetypes-comments-field = コメント
 notetypes-toggle-masks = マスクを表示 / 非表示
-notetypes-image-occlusion-name = 画像マスキング
+notetypes-image-occlusion-name = 画像穴埋め問題
 notetypes-hide-all-guess-one = マスク（のグループ）ごとにカード（他マスクも表示）
 notetypes-hide-one-guess-one = マスク（のグループ）ごとにカード（他マスクは非表示）
-notetypes-error-generating-cloze = 画像マスキングタイプのノートを作成中にエラーが発生しました
-notetypes-error-getting-imagecloze = 画像マスキングタイプのノートを取得中にエラーが発生しました
-notetypes-error-loading-image-occlusion = 画像マスキングタイプのノートの読み込み中にエラーが発生しました。Ankiのバージョンは最新ですか？
+notetypes-error-generating-cloze = 画像穴埋め問題タイプのノートを作成中にエラーが発生しました
+notetypes-error-getting-imagecloze = 画像穴埋め問題タイプのノートを取得中にエラーが発生しました
+notetypes-error-loading-image-occlusion = 画像穴埋め問題タイプのノートの読み込み中にエラーが発生しました。Ankiのバージョンは最新ですか？
 notetype-error-no-image-to-show = 表示する画像がありません
 notetypes-no-occlusion-created = 少なくとも一つはマスクを作成する必要があります。
-notetypes-no-occlusion-created2 = ノートを追加できません。画像へのマスクがまだ一つも追加されていないか、最初のフィールドが空です。
+notetypes-no-occlusion-created2 = ノートを追加できませんでした。画像上にマスクを一つも追加していないか、最初のフィールドが空です。
 notetypes-io-select-image = 画像を選択
 notetypes-io-paste-image-from-clipboard = クリップボードの画像を貼り付け
