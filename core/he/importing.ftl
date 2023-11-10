@@ -52,11 +52,11 @@ importing-notes-skipped-as-theyre-already-in = רשומות שדולגו, מפנ
 importing-notes-skipped-update-due-to-notetype = הרשומות לא עודכנו, מכיוון שסוג הרשומה השתנה מאז שייבאת את ההערות לראשונה: { $val }
 importing-notes-updated-as-file-had-newer = רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: { $val }
 importing-include-reviews = כלול נתוני חזרות
-importing-also-import-progress = ייבא גם כל התקדמות למידה
+importing-also-import-progress = ייבא גם את היסטוריית החזרות ומצב הכרטיסים
 importing-updates = עדכונים
 importing-include-reviews-help =
     אם מסומן, כל החזרות הקודמות שבוצעו בחפיסה ייובאו גם כן.
-    אחרת, כל הכרטיסים יובאו ככרטיסים חדשים.
+    אחרת, כל הכרטיסים ייובאו ככרטיסים חדשים.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
 # the '|' character
@@ -204,12 +204,12 @@ importing-allow-html-in-fields-help =
     '&lt;br&gt;', זה יופיע כמעבר שורה בכרטיס שלך. מצד שני, עם זה¶
     האפשרות מושבתת, התווים המילוליים '&lt;br&gt;' יעובדו.
 importing-notetype-help =
-    רשומות שיובאו לאחרונה יהיו עם סוג הערה זה, ורק רשומות קיימות עם כזה
-    סוג רשומה יעודכן.
+    רשומות חדשות שייובאו יהיו עם סוג רשומה זה, ורק רשומות קיימות עם כזה
+    סוג רשומה יעודכנו.
     
-    אתה יכול לבחור אילו שדות בקובץ תואמים לאיזה שדות הערות באמצעות
+    אתה יכול לבחור אילו שדות בקובץ תואמים לאיזה שדות בסוג רשומה באמצעות
     כלי המיפוי.
-importing-deck-help = כרטיסים מיובאים יונחו בחפיסה זו.
+importing-deck-help = כרטיסים מיובאים ייובאו לחפיסה זו.
 importing-existing-notes-help =
     מה לעשות אם רשומה מיובאת תואמת לרשומה קיימת.
     
