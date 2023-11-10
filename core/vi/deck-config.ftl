@@ -6,8 +6,8 @@
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
-    được sử dụng bởi { $decks ->
-       *[other] bộ bài
+    đang được sử dụng bởi { $decks ->
+       *[other] { $decks } bộ thẻ
     }
 deck-config-default-name = Mặc định
 deck-config-title = Tùy chỉnh Bộ bài
