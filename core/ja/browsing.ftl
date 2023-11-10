@@ -141,7 +141,7 @@ browsing-sidebar-first-review = 今日学習を開始した
 browsing-sidebar-rescheduled = 今日スケジュールを変更した
 browsing-sidebar-due-today = 今日が期日
 browsing-sidebar-untagged = タグなし
-browsing-sidebar-overdue = 今日延滞中（昨日以前が期日で未済）
+browsing-sidebar-overdue = 今日延滞中（期日が昨日以前）
 browsing-row-deleted = (削除)
 browsing-removed-unused-tags-count =
     { $count ->
@@ -155,6 +155,7 @@ browsing-reparented-decks =
     { $count ->
        *[other] デッキ名を{ $count }個を変更しました。
     }
+browsing-sidebar-card-state-review = 復習
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -162,4 +163,3 @@ browsing-reparented-decks =
 browsing-card-initial = C
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-sidebar-card-state-review = 復習
