@@ -291,16 +291,16 @@ deck-config-which-deck = Qual baralho você gostaria?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Atualizando cartões: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Os pesos devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
+deck-config-invalid-weights = Os parâmetros devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
 deck-config-not-enough-history = A quantidade de revisões históricas é insuficiente para executar esta operação.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Apenas { $count } revisão foi encontrada.
        *[other] Apenas { $count } revisões foram encontradas.
-    }Você deve ter pelo menos 1000 revisões para gerar pesos personalizados.
+    }Você deve ter pelo menos 1000 revisões para gerar parâmetros personalizados.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = Pesos do modelo
-deck-config-compute-optimal-weights = Otimizar pesos do FSRS
+deck-config-weights = Parâmetros do modelo
+deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
 deck-config-compute-optimal-retention = Calcular retenção ótima
 deck-config-optimize-button = Otimizar
 deck-config-compute-button = Computar
@@ -333,11 +333,11 @@ deck-config-sm2-retention-tooltip =
     faltando registros de revisão. Como os registros de revisão normalmente não estarão faltando a menos que você os tenha excluído explicitamente
     para liberar espaço, a maioria dos usuários não precisará ajustar isso.
 deck-config-weights-tooltip =
-    Os pesos dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar
-    os pesos abaixo.
+    Os parâmetros dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar
+    os parâmetros abaixo.
 deck-config-reschedule-cards-on-change-tooltip =
     Esta opção controla se as datas de vencimento dos cartões serão alteradas quando você ativar o FSRS, ou mudar
-    os pesos. O padrão é não reprogramar os cartões: revisões futuras usarão a nova programação, mas
+    os parâmetros. O padrão é não reprogramar os cartões: revisões futuras usarão a nova programação, mas
     não haverá mudança imediata na sua carga de trabalho. Se a reprogramação estiver ativada, as datas de vencimento dos cartões
     serão alteradas. Dependendo da sua retenção desejada, isso pode resultar em um grande número de cartões tornando-se
 deck-config-reschedule-cards-warning =
@@ -345,14 +345,14 @@ deck-config-reschedule-cards-warning =
     revistos, então não é aconselhável quando estiver começando a mudar do SM2.
 deck-config-compute-optimal-weights-tooltip =
     Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,
-    e gerar automaticamente pesos que são ótimos para sua memória e o conteúdo que você está estudando.
+    e gerar automaticamente parâmetros que são ótimos para sua memória e o conteúdo que você está estudando.
     Se você tem baralhos que variam muito em dificuldade, é recomendado atribuir-lhes presets separados, pois
-    os pesos para baralhos fáceis e difíceis serão diferentes. Não há necessidade de otimizar seus pesos
+    os parâmetros para baralhos fáceis e difíceis serão diferentes. Não há necessidade de otimizar seus parâmetros
     frequentemente - uma vez a cada poucos meses é suficiente.
     
-    Por padrão, os pesos serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode
-    ajustar opcionalmente a busca antes de calcular os pesos, se quiser alterar quais cartões são usados para
-    otimizar os pesos.
+    Por padrão, os parâmetros serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode
+    ajustar opcionalmente a busca antes de calcular os parâmetros, se quiser alterar quais cartões são usados para
+    otimizar os parâmetros.
 deck-config-compute-optimal-retention-tooltip =
     Esta ferramenta assume que você está começando com 0 cartões, e tentará calcular a quantidade de material que você vai
     ser capaz de reter no prazo dado. A retenção estimada dependerá muito de suas entradas, e
