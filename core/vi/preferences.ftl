@@ -9,6 +9,7 @@ preferences-learn-ahead-limit = Giới hạn học trước
 preferences-mins = phút
 preferences-network = Mạng
 preferences-next-day-starts-at = Ngày kế tiếp bắt đầu lúc
+preferences-media-is-not-backed-up = Dữ liệu phương tiện sẽ không được sao lưu. Để đảm bảo, vui lòng tạo bản sao lưu định kỳ thư mục Anki của bạn.
 preferences-on-next-sync-force-changes-in = Ở lần đồng bộ kế tiếp, bắt buộc thay đổi trong một hướng
 preferences-paste-clipboard-images-as-png = Dán hình ảnh clipboard với dạng PNG
 preferences-paste-without-shift-key-strips-formatting = án mà không cần thay đổi định dạng dải phím
@@ -38,6 +39,9 @@ preferences-theme-light = Sáng
 preferences-theme-dark = Tối
 preferences-v3-scheduler = Bộ lập lịch biểu V3
 preferences-ignore-accents-in-search = Bỏ qua dấu câu trong tìm kiếm (chậm hơn)
+preferences-backup-explanation =
+    Anki sao lưu định kỳ bộ sưu tập thẻ của bạn. Nếu bản sau lưu quá 2 ngày tuổi,
+    Anki sẽ bắt đầu xoá các bản sao lưu cũ để giải phóng dữ liệu.
 preferences-reduce-motion = Giảm hiệu ứng động
 preferences-appearance = Hiển thị
 preferences-editing = Chỉnh sửa
