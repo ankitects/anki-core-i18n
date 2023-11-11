@@ -135,6 +135,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     «Targetes aleatòries»: mostra les targetes de manera aleatòria.
 deck-config-new-gather-priority-deck = Baralla
+deck-config-new-gather-priority-deck-then-random-notes = Baralla i després notes aleatòries
 deck-config-new-gather-priority-position-lowest-first = Posició ascendent
 deck-config-new-gather-priority-position-highest-first = Posició descendent
 deck-config-new-gather-priority-random-notes = Notes aleatòries
@@ -212,6 +213,9 @@ deck-config-always-include-question-audio-tooltip =
     Decidiu si s'inclourà el so de la pregunta quan useu l'acció «Reproduir»
     mentre consulteu la resposta d'una targeta.
 deck-config-stop-timer-on-answer = Atura el temporitzador en respondre
+deck-config-stop-timer-on-answer-tooltip =
+    Determina si el temporitzador s’aturarà quan es mostri la resposta.
+    Aquesta opció no afecta les estadístiques.
 
 ## Advanced section
 
@@ -291,19 +295,40 @@ deck-config-which-deck = Quina baralla voleu?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = S’estan actualitzant les targetes: { $current_cards_count } de { $total_cards_count }…
+deck-config-invalid-weights = Deixeu els paràmetres en blanc per a utilitzar els valors per defecte o introduïu 17 nombres separats per comes.
+deck-config-not-enough-history = La quantitat de repassos és insuficient per a executar aquesta operació.
+deck-config-must-have-1000-reviews =
+    { $count ->
+        [one] Només s’ha trobat un repàs.
+       *[other] Només s’han trobat { $count } repassos.
+    } Per a generar uns paràmetres personalitzats, calen almenys 1000 repassos.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Paràmetres FSRS
 deck-config-compute-optimal-weights = Optimitza els paràmetres FSRS
+deck-config-compute-optimal-retention = Calcula la retenció òptima
 deck-config-optimize-button = Optimitza
 deck-config-compute-button = Computa
 deck-config-evaluate-button = Avalua
 deck-config-desired-retention = Retenció desitjada
 deck-config-sm2-retention = Retenció SM2
+deck-config-smaller-is-better = Uns nombres menors indiquen un millor ajustament al vostre historial de repassos.
+deck-config-steps-too-large-for-fsrs = Quan el FSRS està activat, no és recomanable que feu servir passos d’aprenentatge de més d’un dia.
 deck-config-get-params = Obtén els paràmetres
+deck-config-fsrs-on-all-clients = Assegureu-vos feu servir Anki (o AnkiMobile) 23.10+ o AnkiDroid 2.17+ en tots els vostres dispositius. El FSRS no funcionarà correctament si algun dels clients que feu servir és més antic.
 deck-config-estimated-retention = Retenció estimada: { $num }
 deck-config-complete = { $num }% completat.
 deck-config-reschedule-cards-on-change = Replanifica les targetes en cas de canvi
+deck-config-fsrs-tooltip =
+    El ‘Free Spaced Repetition Scheduler’ (FSRS) o planificador de repetició espaiada lliure és una alternativa a l’antic planificador d’Anki, SuperMemo 2 (SM2).
+    Aquest planificador pot ajudar-te a recordar més material en el mateix temps, ja que determina amb més precisió quan és probable que te n’oblidis. Totes les baralles prefixades comparteixen aquest paràmetre.
+    
+    Si heu utilitzat prèviament la versió de programació personalitzada del FSRS, assegureu-vos de buidar la secció de planificació personalitzada abans d’activar aquesta opció.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Un interval de 100 dies esdevindrà un dia.
+       *[other] Un interval de 100 dies esdevindrà { $days } dies.
+    }
 deck-config-wait-for-audio = Espera el so
 deck-config-show-reminder = Mostra un recordatori
 deck-config-answer-again = De nou

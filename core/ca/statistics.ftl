@@ -97,14 +97,27 @@ statistics-range-search = Cercar
 statistics-card-ease-title = Facilitat de la targeta
 statistics-card-difficulty-title = Dificultat de la targeta
 statistics-card-stability-title = Estabilitat de la targeta
+statistics-card-stability-subtitle = Retard dins del qual és probable que recordis el 90%.
 statistics-average-stability = Estabilitat mitjana
 statistics-card-retrievability-title = Recuperabilitat de les targetes
 statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
+statistics-card-difficulty-subtitle = Com més alta sigui la dificultat, més complicat serà l’aprenentatge.
+statistics-retrievability-subtitle = Probabilitat que recordeu una carta avui.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] 1 targeta amb { $percent } facilitat
        *[other] { $cards } targetes amb { $percent } facilitat
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] Una targeta amb una dificultat del { $percent }
+       *[other] { $cards } targetes amb una dificultat del { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] Una targeta amb una recuperabilitat del { $percent }
+       *[other] { $cards } targetes amb una recuperabilitat del { $percent }
     }
 statistics-future-due-title = Previsió
 statistics-future-due-subtitle = Nombre de repassos futurs programats.
@@ -150,6 +163,16 @@ statistics-intervals-day-range =
 statistics-intervals-day-single =
     { $cards ->
         [one] 1 targeta amb un interval de  { $day } dies
+       *[other] { $cards } targetes amb un interval de { $day } dies
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] Una targeta amb una estabilitat diària de { $daysStart }~{ $daysEnd }
+       *[other] { $cards } targetes amb una estabilitat diària de { $daysStart }~{ $daysEnd }
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] Una targeta amb un interval de { $day } dies
        *[other] { $cards } targetes amb un interval de { $day } dies
     }
 # hour range, eg "From 14:00-15:00"

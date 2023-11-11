@@ -51,5 +51,7 @@ notetypes-error-generating-cloze = S’ha produït un error en generar una nota 
 notetypes-error-getting-imagecloze = S’ha produït un error en obtenir una nota del tipus Oclusió d’imatges.
 notetypes-error-loading-image-occlusion = S’ha produït un error en carregar l’oclusió d’imatges. Actualitzeu Anki a l’última versió.
 notetype-error-no-image-to-show = No hi ha cap imatge per mostrar.
+notetypes-no-occlusion-created = Heu d’amagar almenys un element.
+notetypes-no-occlusion-created2 = No s’ha pogut afegir: no heu amagat cap element o el primer camp està buit.
 notetypes-io-select-image = Selecciona la imatge
 notetypes-io-paste-image-from-clipboard = Apega la imatge del porta-retalls

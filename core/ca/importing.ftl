@@ -129,6 +129,16 @@ importing-notes-added =
         [one] S’ha afegit una nota nova.
        *[other] S’han afegit { $count } notes noves.
     }
+importing-notes-updated =
+    { $count ->
+        [one] S’ha utilitzat una nota per a actualitzar les notes existents.
+       *[other] S’han utilitzat { $count } notes per a actualitzar les notes existents.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] Ja hi ha una nota en la vostra col·lecció.
+       *[other] Ja hi ha { $count } notes en la vostra col·lecció.
+    }
 importing-import-log = Registre d’importació
 importing-no-notes-in-file = No s’ha trobat cap nota en el fitxer.
 importing-notes-found-in-file2 =
@@ -141,6 +151,7 @@ importing-details = Detalls
 importing-status = Estat
 importing-duplicate-note-added = S’ha afegit una nota duplicada.
 importing-added-new-note = S’ha afegit una nota nova.
+importing-tag-updated-notes-help = Aquestes etiquetes s’afegiran a totes les notes que actualitzeu.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
