@@ -98,6 +98,7 @@ statistics-card-ease-title = Facilitat de la targeta
 statistics-card-difficulty-title = Dificultat de la targeta
 statistics-card-stability-title = Estabilitat de la targeta
 statistics-average-stability = Estabilitat mitjana
+statistics-card-retrievability-title = Recuperabilitat de les targetes
 statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =

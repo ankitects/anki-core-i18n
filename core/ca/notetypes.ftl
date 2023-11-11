@@ -52,3 +52,4 @@ notetypes-error-getting-imagecloze = S’ha produït un error en obtenir una not
 notetypes-error-loading-image-occlusion = S’ha produït un error en carregar l’oclusió d’imatges. Actualitzeu Anki a l’última versió.
 notetype-error-no-image-to-show = No hi ha cap imatge per mostrar.
 notetypes-io-select-image = Selecciona la imatge
+notetypes-io-paste-image-from-clipboard = Apega la imatge del porta-retalls

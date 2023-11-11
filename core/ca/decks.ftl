@@ -30,6 +30,6 @@ decks-study = Estudia
 decks-study-deck = Estudia la baralla
 decks-filtered-deck-search-empty = No s’ha trobat cap targeta coincident. És possible que algunes targetes s’hagin exclòs perquè estan suspeses o pertanyen a una baralla filtrada diferent.
 decks-unmovable-cards = Mostra qualsevol targeta exclosa
+decks-learn-header = Aprenent
 # The count of cards waiting to be reviewed
 decks-review-header = Pendents
-decks-learn-header = Aprendre

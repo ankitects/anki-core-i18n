@@ -261,7 +261,7 @@ deck-config-revert-button-tooltip = Restaura aquest paràmetre al seu valor per 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Gestió d'Anki 2.1.41+
+deck-config-description-new-handling = Gestió d’Anki 2.1.41+
 deck-config-description-new-handling-hint =
     Tracta l'entrada com a Markdown i neteja l'entrada HTML. Quan aquesta opció
     està activada, la descripció també es mostrarà en la pantalla de felicitacions.
@@ -297,6 +297,10 @@ deck-config-compute-optimal-weights = Optimitza els paràmetres FSRS
 deck-config-optimize-button = Optimitza
 deck-config-compute-button = Computa
 deck-config-evaluate-button = Avalua
+deck-config-desired-retention = Retenció desitjada
+deck-config-sm2-retention = Retenció SM2
+deck-config-get-params = Obtén els paràmetres
+deck-config-estimated-retention = Retenció estimada: { $num }
 deck-config-complete = { $num }% completat.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
 deck-config-wait-for-audio = Espera el so
