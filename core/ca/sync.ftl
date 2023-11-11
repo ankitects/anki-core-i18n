@@ -26,6 +26,7 @@ sync-wrong-pass = El vostre identificador d'AnkiWeb o la contrasenya són incorr
 sync-resync-required = Torneu a sincronitzar les dades. Si l'error persisteix, publiqueu un missatge al lloc de suport.
 sync-must-wait-for-end = Anki s'està sincronitzant ara mateix. Espereu que es completi la sincronització i torneu-ho a intentar.
 sync-confirm-empty-download = La col·lecció local no conté cap targeta. Desitgeu descarregar-ne des d'AnkiWeb?
+sync-confirm-empty-upload = La col·lecció d’AnkiWeb està buida. Voleu substituir-la per la col·lecció local?
 sync-conflict-explanation =
     Les baralles locals i les d’AnkiWeb no coincideixen, de manera que no és possible combinar-les. Per tant, cal sobreescriure un dels dos grups de baralles amb els de l’altre.
     
@@ -62,3 +63,4 @@ sync-checking = S'està verificant…
 sync-connecting = S'està connectant…
 sync-added-updated-count = Afegides o modificades: { $up }↑ { $down }↓
 sync-log-out-button = Tanca la sessió
+sync-collection-complete = Sincronitació de la col·lecció completada.

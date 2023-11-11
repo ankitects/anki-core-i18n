@@ -30,6 +30,8 @@ importing-map-to = Associa a { $val }
 importing-map-to-tags = Associa a les etiquetes
 importing-mapped-to = assignat a <b>{ $val }</b>
 importing-mapped-to-tags = assignat a <b>Etiquetes</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Fusiona els tipus de nota
 importing-mnemosyne-20-deck-db = Baralla Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Els separadors de més d'un caràcter no son vàlids; introduïu un sol caràcter.
 importing-notes-added-from-file = Notes afegides des del fitxer: { $val }
@@ -37,6 +39,8 @@ importing-notes-found-in-file = Notes trobades en el fitxer: { $val }
 importing-notes-skipped-as-theyre-already-in = S'han omès les notes, atès que ja es troben en la vostra col·lecció: { $val }
 importing-notes-skipped-update-due-to-notetype = No s’han actualitzat les notes, perquè el tipus de nota s’ha modificat des de la importació original: { $val }
 importing-notes-updated-as-file-had-newer = Notes actualitzades, atès que el fitxer contenia una versió més recent: { $val }
+importing-include-reviews = Inclou els repassos
+importing-updates = Actualitzacions
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida d’Anki o col·lecció (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
 # the '|' character
@@ -57,6 +61,10 @@ importing-unable-to-import-from-a-readonly = No és possible importar des d'un f
 importing-unknown-file-format = Format de fitxer desconegut.
 importing-update-existing-notes-when-first-field = Actualitza les targetes existents quan el primer camp coincideixi
 importing-updated = Actualitzat
+importing-update-always = Sempre
+importing-update-never = Mai
+importing-update-notes = Actualitza les notes
+importing-update-notetypes = Actualtza els tipus de nota
 importing-note-added =
     { $count ->
         [one] S'ha afegit una nota

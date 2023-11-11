@@ -40,7 +40,7 @@ actions-answer-card = Respon la targeta
 actions-unbury-unsuspend = Desenterra/anul·la la suspensió
 actions-add-deck = Afegeix una baralla
 actions-add-note = Afegeix una nota
-actions-update-tag = Actualitza l'etiqueta
+actions-update-tag = Actualitza l’etiqueta
 actions-update-note = Actualitza la nota
 actions-update-card = Actualitza la targeta
 actions-update-deck = Actualitza la baralla
@@ -55,7 +55,6 @@ actions-previous-card-info = Informació de la targeta anterior
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }…
-actions-currently-unsupported = El vostre sistema no és compatible amb aquesta acció.
 
 ## Flags
 

@@ -17,4 +17,4 @@ help-no-explanation =
 ## Footer
 
 # Link to more detailed information in the manual
-help-for-more-info = Per a obtenir més informació, cunsulteu { $link } en el manual.
+help-for-more-info = Per a obtenir més informació, consulteu { $link } en el manual.

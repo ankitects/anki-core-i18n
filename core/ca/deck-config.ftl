@@ -55,19 +55,17 @@ deck-config-today-only = Només avui
 
 deck-config-learning-steps = Passos en l'aprenentatge
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Generalment, els intervals són minuts (per exemple, `1m`) o dies (`2d`), tot i que també s'admeten hores (`1h`) i segons (`30s`).
+-deck-config-delay-hint = Generalment, els intervals s’expressen en minuts (`1m`) o dies (`2d`), tot i que també podeu fer servir hores (`1h`) i segons (`30s`).
 deck-config-learning-steps-tooltip =
     Un o més intervals separats amb espais. Anki farà servir el primer interval,
     que per defecte és d'un minut, quan premeu el botó `De nou` en una targeta nova.
-    El botó `Correcte' avançarà al pas següent, que és de 10 minuts per defecte.
+    El botó `Correcte` avançarà al pas següent, que és de 10 minuts per defecte.
     Una vegada hàgiu superat tots els passos, la targeta es convertirà en una targeta de repàs
     i apareixerà en un dia diferent. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     El nombre de dies que han de passar fins que una targeta es torni a mostrar
     després que hàgiu premut el botó `Correcte`en l'últim pas de l'etapa d'aprenentatge.
-deck-config-easy-interval-tooltip =
-    El nombre de dies que s'esperarà per a tornar a mostrar una targeta
-    després que premeu el botó `Fàcil`per a retirar-la de l'aprenentatge immediatament.
+deck-config-easy-interval-tooltip = El nombre de dies abans que es torni a mostrar una targeta quan premeu el botó `Fàcil` per a retirar-la immediatament de l’aprenentatge.
 deck-config-new-insertion-order = Ordre d'inserció
 deck-config-new-insertion-order-tooltip =
     Controla la posició (nombre de data de repàs) que s'assigna a les targetes noves quan les afegiu.
@@ -213,6 +211,7 @@ deck-config-skip-question-when-replaying = Salta la pregunta quan repeteixi la r
 deck-config-always-include-question-audio-tooltip =
     Decidiu si s'inclourà el so de la pregunta quan useu l'acció «Reproduir»
     mentre consulteu la resposta d'una targeta.
+deck-config-stop-timer-on-answer = Atura el temporitzador en respondre
 
 ## Advanced section
 
@@ -291,6 +290,20 @@ deck-config-which-deck = Quina baralla voleu?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = S’estan actualitzant les targetes: { $current_cards_count } de { $total_cards_count }…
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Paràmetres FSRS
+deck-config-compute-optimal-weights = Optimitza els paràmetres FSRS
+deck-config-optimize-button = Optimitza
+deck-config-compute-button = Computa
+deck-config-evaluate-button = Avalua
+deck-config-complete = { $num }% completat.
+deck-config-please-save-your-changes-first = Guardeu els canvis primer.
+deck-config-wait-for-audio = Espera el so
+deck-config-show-reminder = Mostra un recordatori
+deck-config-answer-again = De nou
+deck-config-answer-hard = Resposta difícil
+deck-config-answer-good = Resposta correcta
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -308,8 +321,3 @@ deck-config-bury-tooltip =
     
     Si feu servir la V3 del planificador, també és possible enterrar les targetes d’aprenentatge entre dies.
     Les targetes d’aprenentatge entre dies tenen un pas d’aprenentatge d’un o més dies.
-deck-config-wait-for-audio = Espera el so
-deck-config-show-reminder = Mostra un recordatori
-deck-config-answer-again = De nou
-deck-config-answer-hard = Resposta difícil
-deck-config-answer-good = Resposta correcta

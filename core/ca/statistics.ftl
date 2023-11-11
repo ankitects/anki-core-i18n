@@ -95,6 +95,9 @@ statistics-range-deck = baralla
 statistics-range-collection = col·lecció
 statistics-range-search = Cercar
 statistics-card-ease-title = Facilitat de la targeta
+statistics-card-difficulty-title = Dificultat de la targeta
+statistics-card-stability-title = Estabilitat de la targeta
+statistics-average-stability = Estabilitat mitjana
 statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -202,6 +205,8 @@ statistics-cards-per-day =
        *[other] { $count } targetes/dia
     }
 statistics-average-ease = Facilitat mitjana
+statistics-average-difficulty = Dificultat mitjana
+statistics-average-retrievability = Recuperabilitat mitjana
 statistics-save-pdf = Guarda en PDF
 statistics-saved = Guardat.
 statistics-stats = estadístiques

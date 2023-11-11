@@ -69,6 +69,29 @@ editing-close-html-tags = Tanca les etiquetes HTML automàticament
 editing-from-clipboard = Des del porta-retalls
 editing-alignment = Alineació
 editing-equations = Equacions
+editing-no-image-found-on-clipboard = No s’ha trobat cap imatge en el porta-retalls.
+editing-image-occlusion-mode = Mode d’oclusió d’imatges
+editing-image-occlusion-zoom-out = Redueix
+editing-image-occlusion-zoom-in = Amplia
+editing-image-occlusion-zoom-reset = Reestableix el zoom
+editing-image-occlusion-toggle-translucent = Activa/desactiva la transparència
+editing-image-occlusion-delete = Suprimeix
+editing-image-occlusion-duplicate = Duplica
+editing-image-occlusion-group = Agrupa la selecció
+editing-image-occlusion-ungroup = Desagrupa la selecció
+editing-image-occlusion-alignment = Alineació
+editing-image-occlusion-align-left = Alinea a l’esquerra
+editing-image-occlusion-align-h-center = Alinea horitzontalment
+editing-image-occlusion-align-right = Alinea a la dreta
+editing-image-occlusion-align-top = Alinea a la part superior
+editing-image-occlusion-align-v-center = Alinea verticalment
+editing-image-occlusion-align-bottom = Alinea a la part inferior
+editing-image-occlusion-select-tool = Selecciona
+editing-image-occlusion-zoom-tool = Zoom
+editing-image-occlusion-rectangle-tool = Rectangle
+editing-image-occlusion-ellipse-tool = El·lipsi
+editing-image-occlusion-polygon-tool = Polígon
+editing-image-occlusion-text-tool = Text
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
