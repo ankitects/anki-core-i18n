@@ -29,13 +29,15 @@ importing-map-to = Odwzorowanie na { $val }
 importing-map-to-tags = Odwzorowanie na etykiety
 importing-mapped-to = odwzorowane na <b>{ $val }</b>
 importing-mapped-to-tags = odwzorowane na <b>etykiety</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Połącz typy notatek
 importing-mnemosyne-20-deck-db = Talia Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Wieloznakowe separatory nie są obsługiwane. Wpisz tylko jeden znak.
 importing-notes-added-from-file = Notatki dodane z pliku: { $val }
 importing-notes-found-in-file = Notatki znalezione w pliku: { $val }
 importing-notes-skipped-as-theyre-already-in = Notatki pominięte, gdyż są już w kolekcji: { $val }
-importing-notes-that-could-not-be-imported = Notatki niezaimportowane, gdyż zmienił się typ notatki: { $val }
 importing-notes-updated-as-file-had-newer = Notatki zaktualizowane nowszą wersją z pliku: { $val }
+importing-updates = Aktualizacja
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Spakowana kolekcja/talia Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lekcja Pauker 1.8 (*.pau.gz)
 # the '|' character
@@ -56,6 +58,10 @@ importing-unable-to-import-from-a-readonly = Nie można zaimportować z pliku ty
 importing-unknown-file-format = Nieznany format pliku.
 importing-update-existing-notes-when-first-field = Aktualizuj istniejące notatki jeżeli zgadzają się pierwsze pola
 importing-updated = Zaktualizowane
+importing-update-if-newer = Jeśli nowsze
+importing-update-always = Zawsze
+importing-update-never = Nigdy
+importing-update-notes = Aktualizacja notatki
 importing-note-added =
     { $count ->
         [one] dodano { $count } notatkę
@@ -102,8 +108,22 @@ importing-tag-updated-notes = Nadaj etykietę uaktualnionym notatkom
 importing-file = Plik
 # Used with the 'match scope' option
 importing-notetype-and-deck = Typ notatki i talia
+importing-import-log = Rejestr importu
+importing-no-notes-in-file = W pliku nie znaleziono notatek.
+importing-details = Szczegóły
+importing-status = Status
+importing-duplicate-note-added = Dodano duplikat notatki
+importing-added-new-note = Dodano nową notatkę
+importing-existing-note-skipped = Pominięto notatkę, ponieważ aktualna kopia już jest w kolekcji
+importing-note-skipped-update-due-to-notetype = Notatka nie została zaktualizowana, ponieważ typ notatki został zmodyfikowany odkąd notatka była pierwszy raz importowana.
+importing-note-updated-as-file-had-newer = Zaktualizowano notatkę, ponieważ plik miał nową wersję
+importing-note-skipped-due-to-missing-notetype = Pominięto notatkę, ponieważ brakowało typu notatki
+importing-note-skipped-due-to-missing-deck = Pominięto notatkę, ponieważ brakowało talii
+importing-note-skipped-due-to-empty-first-field = Pominięto notatkę, ponieważ pierwsze pole jest puste
+importing-deck-help = Importowane karty będą umieszczone w tej talii.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Import kolekcji...
 importing-unable-to-import-filename = Nie udało się zaimportować { $filename }: ten typ pliku nie jest obsługiwany
+importing-notes-that-could-not-be-imported = Notatki niezaimportowane, gdyż zmienił się typ notatki: { $val }

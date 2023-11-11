@@ -24,6 +24,8 @@ card-stats-review-log-type-filtered = Przefiltrowane
 card-stats-review-log-type-manual = Ręcznie
 card-stats-no-card = (Brak karty do wyświetlenia.)
 card-stats-custom-data = Własne dane
+card-stats-fsrs-stability = Stabilność
+card-stats-fsrs-difficulty = Trudność
 
 ## Window Titles
 

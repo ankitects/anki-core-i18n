@@ -52,6 +52,9 @@ deck-config-new-insertion-order-tooltip =
     tej opcji automatycznie zaktualizuje pozycję istniejących teraz nowych kart.
 deck-config-new-insertion-order-sequential = Po kolei (najpierw najstarsze karty)
 deck-config-new-insertion-order-random = Losowy
+deck-config-new-insertion-order-random-with-v3 =
+    Przy algorytmie planowania V3, lepiej wybrać "Po kolei"
+    i dostosować zbieranie nowych kart.
 
 ## Lapses section
 
@@ -110,6 +113,10 @@ deck-config-show-answer-timer-tooltip = Pokaż w trybie przeglądania stoper, kt
 deck-config-audio-title = Dźwięk
 deck-config-disable-autoplay = Nie odtwarzaj automatycznie dźwięku
 deck-config-skip-question-when-replaying = Pomiń pytanie przy ponownym odtwarzaniu odpowiedzi
+deck-config-stop-timer-on-answer = Zatrzymaj czasomierz po odpowiedzi
+deck-config-stop-timer-on-answer-tooltip =
+    Czy zatrzymać czasomierz po ujawnieniu odpowiedzi.
+    Opcja nie ma wpływu na statystyki.
 
 ## Advanced section
 
@@ -166,6 +173,11 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Parametry FSRS
+deck-config-optimize-button = Optymalizuj
+deck-config-compute-button = Wylicz
+deck-config-evaluate-button = Oceń
 deck-config-wait-for-audio = Czekaj na dźwięk
 deck-config-show-reminder = Pokaż przypomnienie
 deck-config-answer-again = Odpowiedz Powtórz

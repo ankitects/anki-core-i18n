@@ -107,7 +107,12 @@ statistics-range-deck = talia
 statistics-range-collection = kolekcja
 statistics-range-search = Szukaj
 statistics-card-ease-title = Łatwość karty
+statistics-card-difficulty-title = Trudność kart
+statistics-card-stability-title = Stabilność kart
+statistics-average-stability = Średnia stabilność
 statistics-card-ease-subtitle = Im mniejsza łatwość, tym karta będzie częściej pokazywana.
+statistics-card-difficulty-subtitle = Im większa trudność, tym trudniej jest zapamiętać.
+statistics-retrievability-subtitle = Prawdopodobieństwo przypomnienia sobie karty dziś.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -171,6 +176,10 @@ statistics-intervals-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }: 00~{ $hourEnd }: 00
 statistics-hours-correct = { $correct }/{ $total } poprawnych ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } powtórek
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% poprawnych ({ $reviews })
 statistics-hours-title = Podział godzinowy
 statistics-hours-subtitle = Odsetek poprawnych odpowiedzi w różnych porach dnia.
 # shown when graph is empty
@@ -221,6 +230,8 @@ statistics-cards-per-day =
        *[other] { $count } kart/dzień
     }
 statistics-average-ease = Średnia łatwość
+statistics-average-difficulty = Średnia trudność
 statistics-save-pdf = Zapisz PDF
 statistics-saved = Zapisano.
 statistics-stats = statystyki
+statistics-title = Statystyki

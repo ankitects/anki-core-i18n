@@ -26,6 +26,7 @@ sync-wrong-pass = Identyfikator AnkiWeb ID lub hasło jest niepoprawne; spróbuj
 sync-resync-required = Spróbuj ponownie uruchomić synchronizację. Jeśli ten komunikat nie przestanie się pojawiać, zgłoś problem na stronie wsparcia technicznego Anki.
 sync-must-wait-for-end = Trwa synchronizacja. Zaczekaj aż się zakończy, a następnie spróbuj ponownie.
 sync-confirm-empty-download = Nie ma kart w lokalnej kolekcji. Pobrać je z AnkiWeb?
+sync-confirm-empty-upload = Kolekcja w AnkiWeb nie zawiera żadnych kart. Zastąpić ją lokalną kolekcją?
 sync-conflict-explanation =
     Twoje talie tu i w AnkiWeb różnią się w taki sposób, że nie mogą zostać złączone. Konieczne jest nadpisanie talii po jednej stronie taliami z drugiej strony.
     

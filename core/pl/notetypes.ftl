@@ -35,3 +35,13 @@ notetypes-note-types = Typy notatek
 notetypes-options = Opcje...
 notetypes-please-add-another-note-type-first = Najpierw dodaj inny typ notatki.
 notetypes-type = Typ
+
+## Image Occlusion
+
+notetypes-image = Obraz
+notetypes-occlusion-mask = Maska
+notetypes-comments-field = Komentarze
+notetypes-toggle-masks = Przełącz maski
+notetype-error-no-image-to-show = Nie ma obrazu do pokazania.
+notetypes-io-select-image = Wybierz obraz
+notetypes-io-paste-image-from-clipboard = Wyklej obraz ze schowka

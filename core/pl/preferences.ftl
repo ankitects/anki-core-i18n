@@ -71,6 +71,8 @@ preferences-user-interface = Interfejs użytkownika
 preferences-import-export = Import/Eksport
 preferences-network-timeout = Limit połączenia sieciowego
 preferences-reset-window-sizes = Domyślne rozmiary okien
+preferences-reset-window-sizes-complete = Przywrócono domyślny rozmiar i położenie okien.
+preferences-shortcut-placeholder = Podaj nieużywany klawisz skrótu, albo zostaw puste pole by wyłączyć.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

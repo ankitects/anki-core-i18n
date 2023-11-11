@@ -65,6 +65,30 @@ editing-warning-cloze-deletions-will-not-work = Uwaga: wypełnianie luk nie będ
 editing-mathjax-preview = Podgląd kodu MathJax
 editing-shrink-images = Zmniejsz obrazy
 editing-close-html-tags = Automatycznie domykaj znaczniki HTML
+editing-from-clipboard = Ze schowka
+editing-alignment = Wyrównanie
+editing-equations = Równania
+editing-no-image-found-on-clipboard = W schowku nie ma obrazka.
+editing-image-occlusion-zoom-out = Pomniejsz
+editing-image-occlusion-zoom-in = Powiększ
+editing-image-occlusion-zoom-reset = Domyślne powiększenie
+editing-image-occlusion-toggle-translucent = Przełącz przezroczystość
+editing-image-occlusion-delete = Usuń
+editing-image-occlusion-duplicate = Duplikuj
+editing-image-occlusion-group = Grupuj zaznaczone
+editing-image-occlusion-ungroup = Oddziel zaznaczone od grupy
+editing-image-occlusion-alignment = Wyrównanie
+editing-image-occlusion-align-left = Wyrównanie do lewej
+editing-image-occlusion-align-right = Wyrównanie do prawej
+editing-image-occlusion-align-top = Wyrównanie do góry
+editing-image-occlusion-align-bottom = Wyrównanie do dołu
+editing-image-occlusion-select-tool = Zaznaczenie
+editing-image-occlusion-zoom-tool = Powiększenie
+editing-image-occlusion-rectangle-tool = Prostokąt
+editing-image-occlusion-ellipse-tool = Elipsa
+editing-image-occlusion-polygon-tool = Wielokąt
+editing-image-occlusion-text-tool = Tekst
+editing-image-occlusion-toggle-mask-editor = Przełącz edytor maski
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

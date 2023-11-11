@@ -112,6 +112,9 @@ scheduling-update-done = Pomyślnie uaktualniono planistę.
 scheduling-update-button = Uaktualnij
 scheduling-update-later-button = Później
 scheduling-update-more-info-button = Dowiedz się więcej
+scheduling-update-required =
+    Twoja kolekcja musi być zaktualizowana do algorytmu planowania V2.
+    Wybierz { scheduling-update-more-info-button } przed kontynuowaniem.
 
 ## Other scheduling strings
 
