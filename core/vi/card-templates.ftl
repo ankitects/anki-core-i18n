@@ -32,7 +32,6 @@ card-templates-anki-couldnt-find-the-line-between = Anki không tìm thấy đư
 card-templates-at-least-one-card-type-is = Cần chọn ít nhất một kiểu thẻ.
 card-templates-browser-appearance = Duyệt qua giao diện...
 card-templates-card = Thẻ { $val }
-card-templates-card-types = Các Kiểu Thẻ
 card-templates-card-types-for = Kiểu Thẻ { $val }
 card-templates-cloze = Điền chỗ trống
 card-templates-deck-override = Ghi đè Bộ thẻ...
@@ -54,3 +53,4 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] Tạo { $count } thẻ. Tiến hành?
     }
+card-templates-restore-to-default = Khôi phục về mặc định

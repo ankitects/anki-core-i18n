@@ -42,13 +42,29 @@ preferences-ignore-accents-in-search = Bỏ qua dấu câu trong tìm kiếm (ch
 preferences-backup-explanation =
     Anki sao lưu định kỳ bộ sưu tập thẻ của bạn. Nếu bản sau lưu quá 2 ngày tuổi,
     Anki sẽ bắt đầu xoá các bản sao lưu cũ để giải phóng dữ liệu.
+preferences-daily-backups = Số lượng sao lưu hằng ngày phải giữ:
+preferences-weekly-backups = Số lượng sao lưu hằng tuần phải giữ:
+preferences-monthly-backups = Số lượng sao lưu hằng tháng phải giữ:
+preferences-minutes-between-backups = Thời gian chờ giữa các lần sao lưu:
 preferences-reduce-motion = Giảm hiệu ứng động
+preferences-reduce-motion-tooltip = Tắt phần lớn các hoạt hoạ và hiệu ứng chuyển cảnh trong giao diện
+preferences-custom-sync-url = Máy chủ sao lưu tự cung cấp
+preferences-custom-sync-url-disclaimer = Đối với người dùng nâng cao - vui lòng xem tài liệu hướng dẫn
+preferences-always = Luôn luôn
+preferences-full-screen-only = Chỉ khi ở chế độ toàn màn hình
 preferences-appearance = Hiển thị
+preferences-general = Tổng quát
+preferences-answer-keys = Các phím tắt trả lời
+preferences-minimalist-mode = Chế độ rút gọn
 preferences-editing = Chỉnh sửa
 preferences-account = Tài khoản AnkiWeb
 preferences-scheduler = Bộ lập lịch biểu
+preferences-user-interface = Giao diện
+preferences-import-export = Nhập/Xuất
+preferences-network-timeout = Thời gian chờ kết nối
 preferences-reset-window-sizes = Đặt lại kích cỡ cửa sổ
 preferences-reset-window-sizes-complete = Đã đặt lại vị trí và kích cỡ của các cửa sổ.
+preferences-shortcut-placeholder = Nhập một phím chưa gán chức năng nào, hoặc bỏ trống để tắt phím tắt này.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
