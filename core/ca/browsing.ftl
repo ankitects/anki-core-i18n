@@ -73,7 +73,7 @@ browsing-remove-tags = Elimina les etiquetes…
 browsing-replace-with = <b>Substitueix per</b>:
 browsing-reposition = Reposiciona…
 browsing-reposition-new-cards = Reposiciona les noves targetes
-browsing-reschedule = Torna a planificar
+browsing-reschedule = Replanifica
 browsing-search-bar-hint = Per a cercar targetes o notes, escriviu un text i premeu la tecla de retorn
 browsing-search-in = Cerca en:
 browsing-search-within-formatting-slow = Cerca en els elements de format (lent)
@@ -163,6 +163,7 @@ browsing-reparented-decks =
         [one] S’ha canviat el nom d’una baralla.
        *[other] S’ha canviat el nom de { $count } baralles.
     }
+browsing-sidebar-card-state-review = Per repassar
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -170,4 +171,3 @@ browsing-reparented-decks =
 browsing-card-initial = T
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-sidebar-card-state-review = Per repassar

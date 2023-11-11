@@ -55,6 +55,7 @@ actions-previous-card-info = Informació de la targeta anterior
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }…
+actions-fullscreen-unsupported = El vostre controlador de vídeo no és compatible amb el mode de pantalla completa. Seleccioneu-ne un altre en el menú de preferències.
 
 ## Flags
 

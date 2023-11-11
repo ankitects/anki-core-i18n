@@ -302,6 +302,7 @@ deck-config-sm2-retention = Retenció SM2
 deck-config-get-params = Obtén els paràmetres
 deck-config-estimated-retention = Retenció estimada: { $num }
 deck-config-complete = { $num }% completat.
+deck-config-reschedule-cards-on-change = Replanifica les targetes en cas de canvi
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
 deck-config-wait-for-audio = Espera el so
 deck-config-show-reminder = Mostra un recordatori

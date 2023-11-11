@@ -1,5 +1,5 @@
 custom-study-must-rename-deck = Abans, heu de canviar el nom de la baralla d’estudi personalitzat existent.
-custom-study-all-cards-in-random-order-dont = Totes les targetes en ordre aleatori (sense reprogramar)
+custom-study-all-cards-in-random-order-dont = Totes les targetes en ordre aleatori (sense replanificar)
 custom-study-all-review-cards-in-random-order = Totes les cargetes per repassar en ordre aleatori
 custom-study-cards = targetes
 custom-study-cards-from-the-deck = targetes de la baralla
