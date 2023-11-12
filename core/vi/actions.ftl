@@ -5,6 +5,7 @@ actions-cancel = Hủy
 actions-choose = Chọn
 actions-close = Đóng
 actions-copy = Chép
+actions-create-copy = Tạo bản sao
 actions-custom-study = Học Tùy biến
 actions-decks = Bộ thẻ
 actions-delete = Xóa
