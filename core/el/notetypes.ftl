@@ -1,3 +1,5 @@
+notetypes-notetype = Τύπος σημείωσης
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Μπροστά
@@ -32,6 +34,7 @@ notetypes-options = Επιλογές...
 ## Image Occlusion
 
 notetypes-image = Εικόνα
+notetypes-occlusion-note = Σημείωση
 notetype-error-no-image-to-show = Καμία εικόνα προς εμφάνιση.
 notetypes-io-select-image = Επιλογή εικόνας
 notetypes-io-paste-image-from-clipboard = Επικόλληση εικόνας από το πρόχειρο

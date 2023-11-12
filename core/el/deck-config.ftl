@@ -13,6 +13,8 @@ deck-config-affects-entire-collection = Επηρεάζει ολόκληρη τη
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-deck-only = Αυτή η τράπουλα
+deck-config-today-only = Σήμερα μόνο
 
 ## New Cards section
 
@@ -30,22 +32,29 @@ deck-config-relearning-steps = Βήματα επανεκμάθησης
 
 ## Ordering section
 
+deck-config-ordering-title = Σειρά εμφάνισης
 deck-config-new-gather-priority-deck = Τράπουλα
 deck-config-new-gather-priority-position-lowest-first = Αύξουσα θέση
 deck-config-new-gather-priority-position-highest-first = Φθίνουσα θέση
+deck-config-new-gather-priority-random-notes = Τυχαίες σημειώσεις
+deck-config-new-gather-priority-random-cards = Τυχαίες κάρτες
 deck-config-sort-order-card-template-then-random = Τύπος κάρτας, μετά τυχαία
+deck-config-sort-order-random-note-then-template = Τυχαία σημείωση, μετά τύπος κάρτας
 deck-config-sort-order-random = Τυχαία
 deck-config-sort-order-template-then-gather = Τύπος κάρτας
 deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
 deck-config-review-mix-show-after-reviews = Εμφάνιση μετά από επαναλήψεις
 deck-config-review-mix-show-before-reviews = Εμφάνιση πριν από επαναλήψεις
 deck-config-sort-order-descending-intervals = Φθίνοντα διαστήματα
+deck-config-sort-order-ascending-ease = Αύξουσα ευκολία
+deck-config-sort-order-descending-ease = Φθίνουσα ευκολία
 deck-config-sort-order-ascending-difficulty = Αύξουσα δυσκολία
 deck-config-sort-order-descending-difficulty = Φθίνουσα δυσκολία
 
 ## Timer section
 
 deck-config-timer-title = Χρονόμετρο
+deck-config-maximum-answer-secs = Μέγιστος χρόνος απάντησης σε δευτερόλεπτα
 
 ## Audio section
 

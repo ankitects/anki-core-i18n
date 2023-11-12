@@ -53,7 +53,6 @@ actions-previous-card-info = Πληροφορίες προηγούμενης κ�
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Αυτή η ενέργεια δεν υποστηρίζεται στο σύστημά σας μέχρι στιγμής.
 
 ## Flags
 
@@ -66,3 +65,4 @@ actions-flag-pink = Ροζ
 actions-flag-turquoise = Τυρκουάζ
 actions-flag-purple = Μωβ
 actions-set-flag = Σήμανση
+actions-nothing-to-undo = Τίποτα προς αναίρεση
