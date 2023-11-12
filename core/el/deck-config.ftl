@@ -55,14 +55,19 @@ deck-config-sort-order-descending-difficulty = Φθίνουσα δυσκολία
 
 deck-config-timer-title = Χρονόμετρο
 deck-config-maximum-answer-secs = Μέγιστος χρόνος απάντησης σε δευτερόλεπτα
+deck-config-show-answer-timer-tooltip =
+    Εμφάνιση στην οθόνη επαναλήψεων ενός χρονομετρητή που μετρά τα δευτερόλεπτα που 
+    χρειάζεστε για να κάνε επανάληξη κάθε κάρτας.
 
 ## Audio section
 
 deck-config-audio-title = Ήχος
+deck-config-disable-autoplay = Η αναπαραγωγή ήχου να μην είναι αυτόματη
 deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά την απάντηση
 
 ## Advanced section
 
+deck-config-interval-modifier-tooltip = Ο πολλαπλασιαστής εφαρμόζεται σε όλες τις επαναλήψεις και μικρές αλλαγές του μπορούν να χρησιμοποιηθούν για να κάνουν το Anki πιο συντηρητικό ή επιθετικό στον προγραμματισμό του. Παρακαλούμε δείτε το εγχειρίδιο πριν αλλάξετε αυτή την ρύθμιση.
 deck-config-hard-interval-tooltip = Ο πολλαπλασιαστής που εφαρμόζεται στο διάστημα επανάληψης μετά από απάντηση 'Δύσκολο'.
 deck-config-new-interval-tooltip = Ο πολλαπλασιαστής που εφαρμόζεται στο διάστημα επανάληψης μετά από απάντηση 'Ξανά'.
 deck-config-custom-scheduling-tooltip = Επηρεάζει ολόκληρη την συλλογή. Χρησιμοποιήστε με δική σας ευθύνη!
@@ -85,6 +90,7 @@ deck-config-revert-button-tooltip = Επαναφορά αυτής της ρύθ�
 
 ## Warnings shown to the user
 
+deck-config-maximum-answer-secs-above-recommended = Το Anki μπορεί να προγραμματίσει τις επαναλήψεις πιο αποτελεσματικά όταν κρατάτε την κάθε ερώτηση σύντομη.
 
 ## Selecting a deck
 
@@ -99,7 +105,11 @@ deck-config-weights = Παράμετροι FSRS
 deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέτρων FSRS
 deck-config-optimize-button = Βελτιστοποίηση
 deck-config-compute-button = Υπολογισμός
+deck-config-steps-too-large-for-fsrs = Όταν το FSRS είναι ενεργοποιημένο, βήματα εκμάθησης 1+ ημερών δεν προτείνονται.
 deck-config-get-params = Λήψη παραμέτρων
+deck-config-fsrs-on-all-clients =
+    Παρακαλούμε βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.
+    Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
 deck-config-please-save-your-changes-first = Παρακαλώ αποθηκεύσετε πρώτα τις αλλαγές σας.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

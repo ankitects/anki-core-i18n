@@ -102,8 +102,15 @@ statistics-stability-day-range =
         [one] { $cards } κάρτα με σταθερότητα { $daysStart }~{ $daysEnd } ημερών
        *[other] { $cards } κάρτες με σταθερότητα { $daysStart }~{ $daysEnd } ημερών
     }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } κάρτα με σταθερότητα { $day } ημερών
+       *[other] { $cards } κάρτες με σταθερότητα { $day } ημερών
+    }
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } επαναλήψεις
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% σωστό ({ $reviews })
 statistics-hours-title = Ωριαία ανάλυση
 statistics-hours-subtitle = Ρυθμός επιτυχών επαναλήψεων για κάθε ώρα της ημέρας.
 # shown when graph is empty
@@ -126,6 +133,11 @@ statistics-average-answer-time-label = Μέσος χρόνος απάντηση�
 statistics-average = Μέσος
 statistics-average-interval = Μέσο ενδιάμεσο διάστημα
 statistics-average-over-period = Αν μελετούσες κάθε μέρα
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } κάρτα/μέρα
+       *[other] { $count } κάρτες/μέρα
+    }
 statistics-average-ease = Μέσος όρος ευκολίας
 statistics-average-difficulty = Μέση δυσκολία
 statistics-average-retrievability = Μέση ανακτησιμότητα

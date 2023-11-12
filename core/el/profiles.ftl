@@ -5,6 +5,7 @@ profiles-open-backup = Άνοιγμα αντιγράφου...
 profiles-please-remove-the-folder-and = Παρακαλώ αφαιρέστε τον φάκελο { $val } και δοκιμάστε ξανά.
 profiles-profile-corrupt = Κατεστραμμένο προφίλ
 profiles-profiles = Προφίλ
+profiles-quit = Κλείσιμο
 profiles-user-1 = Χρήστης 1
 profiles-could-not-create-data-folder = Το Anki δεν μπόρεσε να δημιουργήσει αυτόν τον φάκελο δεδομένων. Παρακαλούμε δείτε την ενότητα File Locations στο εγχειρίδιο και βεβαιωθείτε ότι η τοποθεσία δεν είναι μόνο για ανάγνωση.
 profiles-profile-does-not-exist = Το συγκεκριμένο προφίλ δεν υπάρχει.
