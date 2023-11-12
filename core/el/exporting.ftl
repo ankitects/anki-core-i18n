@@ -12,7 +12,9 @@ exporting-export-format = <b>Εξαγωγή φορμάτ</b>:
 exporting-include = <b>Συμπερίληψη</b>:
 exporting-include-html-and-media-references = Συμπερίληψη HTML και αναφορών πολυμέσων
 exporting-include-media = Συμπερίληψη πολυμέσων
+exporting-include-scheduling-information = Συμπερίληψη πληροφοριών προγραμματισμού
 exporting-include-tags = Συμπερίληψη ετικετών
+exporting-support-older-anki-versions = Υποστηρίζει παλαιότερες εκδόσεις Anki (πιο αργό/μεγαλύτερα αρχεία)
 exporting-notes-in-plain-text = Σημειώσεις σε απλό κείμενο
 exporting-selected-notes = Επιλεγμένες σημειώσεις
 exporting-card-exported =
@@ -20,12 +22,22 @@ exporting-card-exported =
         [one] { $count } κάρτα εξήχθη.
        *[other] { $count } κάρτες εξήχθησαν.
     }
+exporting-exported-media-file =
+    { $count ->
+        [one] Εξήχθη { $count } αρχείο πολυμέσων
+       *[other] Εξήχθησαν { $count } αρχεία πολυμέσων
+    }
 exporting-note-exported =
     { $count ->
         [one] { $count } σημείωση εξάχθηκε.
        *[other] { $count } σημειώσεις εξήχθησαν.
     }
 exporting-exporting-file = Εξαγωγή αρχείου...
+exporting-processed-media-files =
+    { $count ->
+        [one] Επεξεργάστηκε { $count } αρχείο πολυμέσων...
+       *[other] Επεξεργάστηκαν { $count } αρχεία πολυμέσων...
+    }
 exporting-include-deck = Συμπερίληψη ονόματος τράπουλας
 exporting-include-notetype = Συμπερίληψη ονόματος τύπου σημείωσης
 exporting-include-guid = Συμπερίληψη μοναδικού αναγνωριστικού

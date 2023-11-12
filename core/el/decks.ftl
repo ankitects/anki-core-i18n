@@ -13,6 +13,7 @@ decks-import-file = Εισαγωγή Αρχείου
 decks-increasing-intervals = Αυξανόμενα διαστήματα
 decks-minutes = λεπτά
 decks-new-deck-name = Νέο όνομα τράπουλας
+decks-please-select-something = Παρακαλούμε επιλέξτε κάτι.
 decks-random = Τυχαία
 decks-study = Μελέτη
 decks-study-deck = Μελέτη τράπουλας

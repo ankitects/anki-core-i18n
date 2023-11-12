@@ -18,6 +18,7 @@ card-stats-review-log-type-learn = Μάθετε
 card-stats-review-log-type-review = Επιθεώρηση
 card-stats-review-log-type-relearn = Επανεκμάθηση
 card-stats-review-log-type-filtered = Φιλτραρισμένο
+card-stats-no-card = (Καμία κάρτα προς προβολή.)
 card-stats-fsrs-stability = Σταθερότητα
 card-stats-fsrs-difficulty = Δυσκολία
 card-stats-fsrs-retrievability = Ανακτησιμότητα

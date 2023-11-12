@@ -7,6 +7,7 @@ card-templates-preview-box = Προεπισκόπηση
 card-templates-preview-settings = Επιλογές
 card-templates-see-preview = Δες την προεπισκόπηση για περισσότερες πληροφορίες.
 card-templates-changes-saved = Οι αλλαγές αποθηκεύτηκαν.
+card-templates-discard-changes = Απόρριψη αλλαγών;
 card-templates-add-card-type = Προσθήκη τύπου κάρτας...
 card-templates-anki-couldnt-find-the-line-between = Το Anki δεν μπόρεσε να βρει τη γραμμή ανάμεσα στην ερώτηση και την απάντηση. Παρακαλούμε προσαρμόστε το πρότυπο χειροκίνητα για εναλλαγή μεταξύ ερώτησης και απάντησης.
 card-templates-at-least-one-card-type-is = Τουλάχιστον ένας τύπος κάρτας απαιτείται.
@@ -14,6 +15,7 @@ card-templates-browser-appearance = Εμφάνιση περιηγητή...
 card-templates-card = Κάρτα { $val }
 card-templates-card-types-for = Τύποι καρτών για { $val }
 card-templates-cloze = Κλείσιμο
+card-templates-enter-new-card-position-1 = Εισάγετε τη νέα θέση της κάρτας (1...{ $val }):
 card-templates-form = Φόρμα
 card-templates-off = (κλειστό)
 card-templates-on = (ανοιχτό)
@@ -24,3 +26,10 @@ card-templates-card-count =
         [one] { $count } κάρτα
        *[other] { $count } κάρτες
     }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Αυτό θα δημιουργήσει { $count } κάρτα. Συνέχεια;
+       *[other] Αυτό θα δημιουργήσει { $count } κάρτες. Συνέχεια;
+    }
+card-templates-restore-to-default = Επαναφορά προεπιλογών
+card-templates-restored-to-default = Ο τύπος κάρτας έχει επαναφερθεί στην αρχική του κατάσταση.

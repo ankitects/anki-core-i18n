@@ -12,6 +12,31 @@ statistics-cards-per-min = { $cards-per-minute } κάρτες/λεπτό
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
+statistics-in-time-span-minutes =
+    { $amount ->
+        [one] σε { $amount } λεπτό
+       *[other] σε { $amount } λεπτά
+    }
+statistics-in-time-span-hours =
+    { $amount ->
+        [one] σε { $amount } ώρα
+       *[other] σε { $amount } ώρες
+    }
+statistics-in-time-span-days =
+    { $amount ->
+        [one] σε { $amount } μέρα
+       *[other] σε { $amount } μέρες
+    }
+statistics-in-time-span-months =
+    { $amount ->
+        [one] σε { $amount } μήνα
+       *[other] σε { $amount } μήνες
+    }
+statistics-in-time-span-years =
+    { $amount ->
+        [one] σε { $amount } χρόνο
+       *[other] σε { $amount } χρόνια
+    }
 statistics-cards =
     { $cards ->
         [one] { $cards } κάρτα
@@ -25,6 +50,7 @@ statistics-reviews =
     }
 statistics-today-title = Σήμερα
 statistics-today-again-count = Επανακαταμέτρηση:
+statistics-today-no-cards = Καμία κάρτα δεν μελετήθηκε σήμερα.
 statistics-counts-total-cards = Σύνολο
 statistics-counts-new-cards = Νέο
 statistics-counts-suspended-cards = Σε αναστολή
@@ -70,6 +96,11 @@ statistics-intervals-day-single =
     { $cards ->
         [one] { $cards } κάρτα με διάστημα { $day } ημερών
        *[other] { $cards } κάρτες με διάστημα { $day } ημερών
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } κάρτα με σταθερότητα { $daysStart }~{ $daysEnd } ημερών
+       *[other] { $cards } κάρτες με σταθερότητα { $daysStart }~{ $daysEnd } ημερών
     }
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } επαναλήψεις

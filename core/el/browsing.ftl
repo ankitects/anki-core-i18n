@@ -54,6 +54,7 @@ browsing-remove-tags = Αφαίρεση ετικετών...
 browsing-replace-with = <b> Αντικαταστείστε με </b>:
 browsing-reposition = Επανατοποθέτηση...
 browsing-reposition-new-cards = Επανατοποθέτηση νέων καρτών
+browsing-reschedule = Επαναπρογραμματισμός
 browsing-search-bar-hint = Αναζήτηση καρτών/σημειώσεων (πληκτρολογήστε κείμενο και μετά πιέστε Enter)
 browsing-search-in = Αναζήτηση σε:
 browsing-step = Βήμα:
@@ -84,6 +85,7 @@ browsing-again-today = Ξανά σήμερα
 browsing-edited-today = Επεξεργάστηκε
 browsing-sidebar-first-review = Πρώτη επανάληψη
 browsing-sidebar-untagged = Χωρίς ετικέτα
+browsing-row-deleted = (διαγράφηκε)
 browsing-sidebar-card-state-review = Επιθεώρηση
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

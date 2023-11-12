@@ -80,6 +80,7 @@ scheduling-mix-new-cards-and-reviews = Ανάμιξη νέων καρτών κα
 scheduling-new-cards = Νέες Κάρτες
 scheduling-new-cardsday = Νέες κάρτες ανά ημέρα
 scheduling-new-interval = Νέο διάστημα
+scheduling-order = Σειρά
 scheduling-restore-position = Επαναφορά αρχικής θέση όπου είναι δυνατό
 scheduling-review = Επιθεώρηση
 scheduling-reviews = Επιθεωρήσεις
@@ -98,4 +99,9 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } τράπουλα ενημερώθηκε.
        *[other] { $count } τράπουλες ενημερώθηκαν.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Προβολή κάρτας σε πόσες μέρες;
+       *[other] Προβολή καρτών σε πόσες μέρες;
     }
