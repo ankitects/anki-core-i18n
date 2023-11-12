@@ -5,6 +5,7 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = Μη έγκυρη αναζήτηση: { $reason }
+search-invalid-other = παρακαλούμε ελέγξτε για τυπογραφικά λάθοι.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
@@ -16,3 +17,5 @@ search-card-modified = Τροποποιήθηκε
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = Προβολή στον περιηγητή

@@ -34,6 +34,7 @@ sync-clock-off = Ο συγχρονισμός δεν ήταν δυνατός - τ
 
 ## Buttons
 
+sync-abort-button = Διακοπή
 sync-download-from-ankiweb = Λήψη από το AnkiWeb
 sync-upload-to-ankiweb = Ανέβασμα στο AnkiWeb
 sync-cancel-button = Ακύρωση
