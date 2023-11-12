@@ -12,6 +12,11 @@ statistics-cards-per-min = { $cards-per-minute } κάρτες/λεπτό
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
+statistics-in-time-span-seconds =
+    { $amount ->
+        [one] σε ένα δευτερόλεπτο
+       *[other] σε { $amount } δευτερόλεπτα
+    }
 statistics-in-time-span-minutes =
     { $amount ->
         [one] σε { $amount } λεπτό

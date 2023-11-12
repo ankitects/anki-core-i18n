@@ -53,6 +53,7 @@ actions-previous-card-info = Πληροφορίες προηγούμενης κ�
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Η πλήρης οθόνη δεν υποστηρίζεται από τον οδηγό βίντεο σας. Δοκιμάστε να μεταβείτε σε έναν διαφορετικό από την οθόνη των προτιμήσεων.
 
 ## Flags
 

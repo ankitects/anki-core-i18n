@@ -57,6 +57,7 @@ scheduling-today-new-limit-reached =
 
 scheduling-update-soon = Το Anki 2.1 έχει έναν νέο προγραμματιστή που διορθώνει έναν αριθμό προβλημάτων, τα οποία είχαν οι προηγούμενες εκδόσεις. Η ενημέρωση του προτείνεται.
 scheduling-update-done = Ο προγραμματιστής ενημερώθηκε επιτυχώς.
+scheduling-update-button = Ενημέρωση
 scheduling-update-required =
     Η συλλογή σας χρειάζεται να αναθαθμιστεί στον V2 προγραμματιστή.
     Παρακαλούμε επιλέξτε { scheduling-update-more-info-button } πριν συνεχίσετε.

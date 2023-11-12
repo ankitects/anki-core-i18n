@@ -9,6 +9,7 @@ fields-fields-for = Πεδία για { $val }
 fields-font = Γραμματοσειρά
 fields-new-position-1 = Νέα θέση (1...{ $val }):
 fields-notes-require-at-least-one-field = Οι σημειώσεις απαιτούν τουλάχιστον ένα πεδίο.
+fields-reverse-text-direction-rtl = Αντιστροφή κατεύθυνσης κειμένου (RTL)
 fields-collapse-by-default = Σύμπτυξη ως προεπιλογή
 fields-html-by-default = Χρήση επεξεργαστή HTML ως προεπιλογή
 fields-size = Μέγεθος:
