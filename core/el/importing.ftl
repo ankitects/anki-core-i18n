@@ -17,14 +17,18 @@ importing-map-to = Χάρτης στο { $val }
 importing-map-to-tags = Χάρτης σε Ετικέτες
 importing-mapped-to = σε αντιστοιχία προς <b>{ $val }</b>
 importing-mapped-to-tags = σε αντιστοιχία προς  <b>Ετικέτες</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Συγχώνευση τύπων σημειώσεων
 importing-notes-added-from-file = Σημειώσεις που προστέθηκαν από το αρχείο: { $val }
 importing-notes-found-in-file = Σημειώσεις που βρέθηκαν στο αρχείο: { $val }
+importing-include-reviews = Συμπερίληψη επαναλήψεων
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } πεδία, αναμένωντας { $expected }
 importing-semicolon = Άνω τελεία
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
 importing-unknown-file-format = Άγνωστη μορφή αρχείου.
 importing-update-always = Πάντα
 importing-update-never = Ποτέ
+importing-update-notetypes = Ενημέρωση τύπων σημειώσεων
 importing-note-added =
     { $count ->
         [one] { $count } σημείωση προστέθηκε
@@ -45,10 +49,12 @@ importing-note-updated =
         [one] { $count } σημείωση ενημερώθηκε
        *[other] { $count } σημειώσεις ενημερώθηκαν
     }
+importing-importing-file = Εισαγωγή αρχείου...
 importing-gathering = Συγκέντρωση δεδομένων...
 importing-failed-to-import-media-file = Αποτυχία εισαγωγής του αρχείου πολυμέσων: { $debugInfo }
 importing-file = Αρχείο
 importing-details = Λεπτομέρειες
+importing-status = Κατάσταση
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -47,9 +47,19 @@ scheduling-today-review-limit-reached =
     Έχετε φτάσει το σημερινό όριο επαναλήψεων, αλλά υπάρχουν ακόμα κάρτες
     προς επανάληψη. Για βέλτιστη απομνημόνευση, θεωρείστε την αύξηση
     του καθημερινού ορίου επαναλήψεων στις επιλογές.
+scheduling-today-new-limit-reached =
+    Υπάρχουν περισσότερες νέες κάρτες διαθέσιμες, αλλά έχετε φτάσει το σημερινό όριο.
+    Μπορείτε να αυξήσετε το όριο στις επιλογές, αλλά λάβετε υπόψη
+    ότι όσες περισσότερες νέες κάρτες εισάγετε, τόσο υψηλότερος
+    θα γίνει ο βραχυπρόθεσμος φόρτος επαναλήψεων.
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Το Anki 2.1 έχει έναν νέο προγραμματιστή που διορθώνει έναν αριθμό προβλημάτων, τα οποία είχαν οι προηγούμενες εκδόσεις. Η ενημέρωση του προτείνεται.
+scheduling-update-done = Ο προγραμματιστής ενημερώθηκε επιτυχώς.
+scheduling-update-required =
+    Η συλλογή σας χρειάζεται να αναθαθμιστεί στον V2 προγραμματιστή.
+    Παρακαλούμε επιλέξτε { scheduling-update-more-info-button } πριν συνεχίσετε.
 
 ## Other scheduling strings
 
@@ -57,7 +67,7 @@ scheduling-at-least-one-step-is-required = Τουλάχιστον ένα βήμ�
 scheduling-automatically-play-audio = Αυτόματη ενεργοποίηση ήχου
 scheduling-days = ημέρες
 scheduling-description = Περιγραφή
-scheduling-easy-bonus = Εύκολο bonus
+scheduling-easy-bonus = Βonus ευκολίας
 scheduling-end = (τέλος)
 scheduling-general = Γενικά
 scheduling-ignore-answer-times-longer-than = Αγνόησε απαντήσεις μεγαλύτερες από

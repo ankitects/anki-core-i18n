@@ -63,6 +63,8 @@ deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά τ
 
 ## Advanced section
 
+deck-config-hard-interval-tooltip = Ο πολλαπλασιαστής που εφαρμόζεται στο διάστημα επανάληψης μετά από απάντηση 'Δύσκολο'.
+deck-config-new-interval-tooltip = Ο πολλαπλασιαστής που εφαρμόζεται στο διάστημα επανάληψης μετά από απάντηση 'Ξανά'.
 deck-config-custom-scheduling-tooltip = Επηρεάζει ολόκληρη την συλλογή. Χρησιμοποιήστε με δική σας ευθύνη!
 
 ## Adding/renaming
@@ -97,6 +99,7 @@ deck-config-weights = Παράμετροι FSRS
 deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέτρων FSRS
 deck-config-optimize-button = Βελτιστοποίηση
 deck-config-compute-button = Υπολογισμός
+deck-config-get-params = Λήψη παραμέτρων
 deck-config-please-save-your-changes-first = Παρακαλώ αποθηκεύσετε πρώτα τις αλλαγές σας.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

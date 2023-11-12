@@ -2,6 +2,8 @@
 statistics-due-date = Λόγω
 # The count of cards waiting to be reviewed
 statistics-due-count = Λόγω
+# Shown in the Due column of the Browse screen when the card is a new card
+statistics-due-for-new-card = Νέες #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -18,8 +20,8 @@ statistics-cards =
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
-        [one] { $reviews } αναθεώρηση
-       *[other] { $reviews } αναθεωρήσεις
+        [one] { $reviews } επανάληψη
+       *[other] { $reviews } επαναλήψεις
     }
 statistics-today-title = Σήμερα
 statistics-today-again-count = Επανακαταμέτρηση:
@@ -55,11 +57,26 @@ statistics-answer-buttons-button-number = Κουμπί
 statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατήσει το κάθε κουμπί.
 statistics-reviews-title = Επιθεωρήσεις
 statistics-reviews-time-checkbox = Χρόνος
+statistics-in-days-range = Σε { $daysStart }-{ $daysEnd } μέρες
+statistics-days-ago-single =
+    { $days ->
+        [1] Χθες
+        [one] Χθες
+       *[other] πριν { $days } μέρες
+    }
+statistics-days-ago-range = πριν { $daysStart }-{ $daysEnd } μέρες
 statistics-intervals-title = Διαστήματα
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } κάρτα με διάστημα { $day } ημερών
+       *[other] { $cards } κάρτες με διάστημα { $day } ημερών
+    }
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } επαναλήψεις
 statistics-hours-title = Ωριαία ανάλυση
 statistics-hours-subtitle = Ρυθμός επιτυχών επαναλήψεων για κάθε ώρα της ημέρας.
+# shown when graph is empty
+statistics-no-data = ΚΑΝΕΝΑ ΔΕΔΟΜΕΝΟ
 statistics-calendar-title = Ημερολόγιο
 
 ## An amount of elapsed time, used in the graphs to show the amount of

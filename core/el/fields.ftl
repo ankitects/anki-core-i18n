@@ -8,6 +8,7 @@ fields-description-placeholder = Το κείμενο που εμφανίζετα
 fields-fields-for = Πεδία για { $val }
 fields-font = Γραμματοσειρά
 fields-new-position-1 = Νέα θέση (1...{ $val }):
+fields-collapse-by-default = Σύμπτυξη ως προεπιλογή
 fields-size = Μέγεθος:
 fields-that-field-name-is-already-used = Αυτό το όνομα αρχείου έχει ήδη χρησιμοποιηθεί.
 fields-name-first-letter-not-valid = Το όνομα πεδίου δεν πρέπει να αρχίζει με #, ^ ή /.

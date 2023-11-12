@@ -11,6 +11,11 @@ browsing-card = Κάρτα
 browsing-cards = Κάρτες
 browsing-card-list = Κατάλογος Κάρτας
 browsing-cards-cant-be-manually-moved-into = Οι κάρτες δεν μπορούν να μετακίνηθουν χειροκίνητα σε μια φιλτραρισμένη τράπουλα.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } κάρτα διαγράφηκε.
+       *[other] { $count } κάρτες διαγράφηκαν.
+    }
 browsing-change-deck = Αλλαγή τράπουλας
 browsing-change-deck2 = Αλλαγή τράπουλας...
 browsing-change-note-type = Αλλαγή Τύπου Σημείωσης
@@ -42,7 +47,9 @@ browsing-move-cards-to-deck = Μεταφορά καρτών στην τράπο�
 browsing-new = (νέο)
 browsing-new-note-type = Τύποι Σημείωσης
 browsing-note = Σημείωση
+browsing-notes = Σημειώσεις
 browsing-question = Ερώτηση
+browsing-randomize-order = Τυχαιοποίηση σειράς
 browsing-remove-tags = Αφαίρεση ετικετών...
 browsing-replace-with = <b> Αντικαταστείστε με </b>:
 browsing-reposition = Επανατοποθέτηση...
@@ -63,6 +70,9 @@ browsing-note-count =
         [one] { $count } σημείωση
        *[other] { $count } σημειώσεις
     }
+browsing-sidebar-expand = Ανάπτυξη
+browsing-sidebar-collapse = Σύμπτυξη
+browsing-sidebar-decks = Τράπουλες
 browsing-sidebar-tags = Ετικέτες
 browsing-sidebar-notetypes = Τύποι Σημειώσεων
 browsing-sidebar-saved-searches = Αποθηκευμένες αναζητήσεις
