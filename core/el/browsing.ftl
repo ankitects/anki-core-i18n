@@ -79,6 +79,7 @@ browsing-sidebar-notetypes = Τύποι Σημειώσεων
 browsing-sidebar-saved-searches = Αποθηκευμένες αναζητήσεις
 browsing-sidebar-card-state = Κατάσταση κάρτας
 browsing-today = Σήμερα
+browsing-tooltip-cards = Αριθμός καρτών που έχει η σημείωση
 browsing-studied-today = Μελέτη σήμερα
 browsing-added-today = Προστέθηκε σήμερα
 browsing-again-today = Ξανά σήμερα
@@ -86,6 +87,16 @@ browsing-edited-today = Επεξεργάστηκε
 browsing-sidebar-first-review = Πρώτη επανάληψη
 browsing-sidebar-untagged = Χωρίς ετικέτα
 browsing-row-deleted = (διαγράφηκε)
+browsing-changed-new-position =
+    { $count ->
+        [one] Αλλάχθηκε η θέση μιας νέας κάρτας.
+       *[other] Αλλάχθηκε η θέση { $count } νέων καρτών.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Μετονομάστηκε μια τράπουλα.
+       *[other] Μετονομάστηκαν { $count } τράπουλες.
+    }
 browsing-sidebar-card-state-review = Επιθεώρηση
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
