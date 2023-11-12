@@ -17,6 +17,7 @@ sync-media-disabled = Ο συγχρονισμός πολυμέσων απενε�
 
 ## Error messages / dialogs
 
+sync-conflict = Μόνο ένα αντίγραφο του Anki μπορεί να συγχρονιστεί στον λογαριασμό σας την ίδια στιγμή. Παρακαλούμε περιμένετε μερικά λεπτά και μετά δοκιμάστε ξανά.
 sync-server-error = Το AnkiWeb αντιμετώπισε ένα πρόβλημα. Παρακαλώ δοκιμάστε ξανά σε μερικά λεπτά.
 sync-client-too-old = Η έκδοση Anki είναι πολύ παλιά. Παρακαλώ ενημερώστε στην πιο πρόσφατη έκδοση για την συνέχιση του συγχρονισμού.
 sync-wrong-pass = AnkiWeb ID ή το  password  ήταν λανθασμένο. Παρακαλώ δοκιμάστε ξανά.
@@ -26,18 +27,24 @@ sync-confirm-empty-download = Η τοπική συλλογή δεν έχει κ�
 sync-confirm-empty-upload = Η συλλογή AnkiWeb δεν έχει κάρτες. Αντικατάσταση της με την τοπική συλλογή;
 sync-ankiweb-id-label = Αναγνωριστικό AnkiWeb:
 sync-password-label = Κωδικός:
+sync-account-required =
+    <h1> Απαιτείται λογαριασμός</h1>
+    Ένας δωρεάν λογαριασμός απαιτείται για να διατηρήσετε την συλλογή σας συγχρονισμένη. Παρακαλούμε <a href="{ $link }">εγγραφείτε και μετά εισάγετε τις παρακάτω πληροφορίες.
 sync-clock-off = Ο συγχρονισμός δεν ήταν δυνατός - το ρολόι δεν είναι ρυθμισμένο στον κατάλληλο χρόνο.
 
 ## Buttons
 
 sync-download-from-ankiweb = Λήψη από το AnkiWeb
+sync-upload-to-ankiweb = Ανέβασμα στο AnkiWeb
 sync-cancel-button = Ακύρωση
 
 ## Normal sync progress
 
 sync-downloading-from-ankiweb = Λήψη από το AnkiWeb...
+sync-uploading-to-ankiweb = Ανέβασμα στο AnkiWeb...
 sync-syncing = Συγχρονισμός...
 sync-checking = Έλεγχος...
 sync-connecting = Γίνεται σύνδεση…
+sync-added-updated-count = Προστέθηκαν/τροποποιήθηκαν: { $up }↑ { $down }↓
 sync-log-out-button = Αποσύνδεση
 sync-collection-complete = Ο συγχρονισμός της συλλογής ολοκληρώθηκε.

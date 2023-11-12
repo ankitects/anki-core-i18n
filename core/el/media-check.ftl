@@ -12,6 +12,7 @@ media-check-subfolder-count = Υποφάκελοι: { $count }
 media-check-renamed-header = Μερικά αρχεία έχουν μετονομαστεί για συμβατότητα:
 media-check-oversize-header = Αρχεία πάνω από 100MB δεν μπορούν να συγχρονιστούν με το AnkiWeb.
 media-check-subfolder-header = Φάκελοι μέσα στον φάκελο των πολυμέσων δεν υποστηρίζονται.
+media-check-missing-header = Τα ακόλουθα αρχεία αναφέρονται σε κάρτες αλλά δεν βρέθηκαν στον φάκελο πολυμέσων:
 media-check-unused-header = Τα ακόλουθα αρχεία βρέθηκαν στον φάκελο πολυμέσων, αλλά δεν εμφανίζονται να χρησιμοποιούνται από καμία κάρτα:
 
 ## Shown once for each file

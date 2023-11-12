@@ -44,17 +44,22 @@ statistics-card-ease-subtitle = Όσο χαμηλότερη η ευκολία, �
 statistics-card-difficulty-subtitle = Όσο υψηλότερη η δυσκολία, τόσο πιο δύσκολη η ανάκληση.
 statistics-retrievability-subtitle = Η πιθανότητα ανάκλησης της κάρτας σήμερα.
 statistics-future-due-title = Πρόγνωση
+statistics-future-due-subtitle = Ο αριθμός επαναλήψεων στο μέλλον.
 statistics-added-title = Προστέθηκε
 statistics-added-subtitle = Ο αριθμός των νέων καρτών που προσθέσατε.
 statistics-reviews-count-subtitle = Ο αριθμός των ερωτήσεων που έχετε απαντήσει.
 statistics-reviews-time-subtitle = Ο χρόνος που πήρατε για να απαντήσετε στις ερωτήσεις.
 statistics-answer-buttons-title = Κουμπιά Απαντήσης
+# eg Button: 4
+statistics-answer-buttons-button-number = Κουμπί
 statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατήσει το κάθε κουμπί.
 statistics-reviews-title = Επιθεωρήσεις
+statistics-reviews-time-checkbox = Χρόνος
 statistics-intervals-title = Διαστήματα
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } επαναλήψεις
 statistics-hours-title = Ωριαία ανάλυση
+statistics-hours-subtitle = Ρυθμός επιτυχών επαναλήψεων για κάθε ώρα της ημέρας.
 statistics-calendar-title = Ημερολόγιο
 
 ## An amount of elapsed time, used in the graphs to show the amount of

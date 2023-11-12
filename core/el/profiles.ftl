@@ -1,8 +1,12 @@
+profiles-anki-could-not-rename-your-profile = To Anki δεν μπόρεσε να μετονομάσει το προφίλ σας επειδή δεν μπόρεσε να μετονομάσει τον φάκελο του προφίλ στον δίσκο. Παρακαλούμε βεβαιωθείτε ότι έχετε άδεια να γράψετε στο Έγγραφα/Anki και ότι κανένα άλλο πρόγραμμα δεν έχει πρόσβαση στους φακέλους του προφίλ σας και μετά ξαναπροσπαθήστε.
 profiles-folder-already-exists = Ο φάκελος υπάρχει ήδη.
 profiles-open = Άνοιγμα
 profiles-open-backup = Άνοιγμα αντιγράφου...
 profiles-please-remove-the-folder-and = Παρακαλώ αφαιρέστε τον φάκελο { $val } και δοκιμάστε ξανά.
+profiles-profile-corrupt = Κατεστραμμένο προφίλ
 profiles-profiles = Προφίλ
 profiles-user-1 = Χρήστης 1
 profiles-creating-backup = Δημιουργώντας αντίγραφο...
+profiles-backup-created = Το αντίγραφο δημιουργήθηκε.
 profiles-backup-creation-failed = Η δημιουργία αντιγράφου απέτυχε: { $reason }
+profiles-backup-unchanged = Καμία αλλαγή από το τελευταίο αντίγραφο.

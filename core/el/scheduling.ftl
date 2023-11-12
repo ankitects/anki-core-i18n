@@ -83,6 +83,7 @@ scheduling-starting-ease = Αρχική ευκολία
 scheduling-steps-in-minutes = Βήματα (σε λεπτά)
 scheduling-steps-must-be-numbers = Βήματα πρέπει να είναι αριθμοί.
 scheduling-tag-only = Ετικέτα μόνο
+scheduling-the-default-configuration-cant-be-removed = Η προεπιλεγμένη ρύθμιση δεν μπορεί να αφαιρεθεί.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } τράπουλα ενημερώθηκε.
