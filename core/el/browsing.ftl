@@ -58,6 +58,7 @@ browsing-reposition-new-cards = Επανατοποθέτηση νέων καρτ
 browsing-reschedule = Επαναπρογραμματισμός
 browsing-search-bar-hint = Αναζήτηση καρτών/σημειώσεων (πληκτρολογήστε κείμενο και μετά πιέστε Enter)
 browsing-search-in = Αναζήτηση σε:
+browsing-sidebar = Πλαϊνή μπάρα
 browsing-step = Βήμα:
 browsing-suspended = Σε αναστολή
 browsing-target-field = Στόχος πεδίου:
@@ -72,12 +73,18 @@ browsing-note-count =
         [one] { $count } σημείωση
        *[other] { $count } σημειώσεις
     }
+browsing-notes-updated =
+    { $count ->
+        [one] Μια σημείωση ενημερώθηκε.
+       *[other] { $count } σημειώσεις ενημερώθηκαν.
+    }
 browsing-sidebar-expand = Ανάπτυξη
 browsing-sidebar-collapse = Σύμπτυξη
 browsing-sidebar-decks = Τράπουλες
 browsing-sidebar-tags = Ετικέτες
 browsing-sidebar-notetypes = Τύποι Σημειώσεων
 browsing-sidebar-saved-searches = Αποθηκευμένες αναζητήσεις
+browsing-sidebar-save-current-search = Αποθήκευση τρέχουσας αναζήτησης
 browsing-sidebar-card-state = Κατάσταση κάρτας
 browsing-today = Σήμερα
 browsing-tooltip-cards = Αριθμός καρτών που έχει η σημείωση
