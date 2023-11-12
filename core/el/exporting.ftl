@@ -9,6 +9,7 @@ exporting-export = Εξαγωγή...
 exporting-export-format = <b>Εξαγωγή φορμάτ</b>:
 exporting-include = <b>Συμπερίληψη</b>:
 exporting-include-tags = Συμπερίληψη ετικετών
+exporting-notes-in-plain-text = Σημειώσεις σε απλό κείμενο
 exporting-card-exported =
     { $count ->
         [one] { $count } κάρτα εξήχθη.

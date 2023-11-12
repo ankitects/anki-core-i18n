@@ -1,13 +1,21 @@
+## Default field names in newly created note types
+
 notetypes-front-field = Μπροστά
 notetypes-back-field = Πίσω
 notetypes-add-reverse-field = Προσθήκη αναστροφής
 notetypes-text-field = Κείμενο
+
+## Default note type names
+
 notetypes-basic-name = Βασικό
 notetypes-basic-reversed-name = Βασική (και αντεστραμμένη κάρτα)
 notetypes-basic-optional-reversed-name = Βασική (κατ'επιλογή αντεστραμμένη κάρτα)
 notetypes-cloze-name = Κλείσιμο
-notetypes-card-2-name = Κάρτα 2
+
+## Default card template names
+
 notetypes-card-1-name = Κάρτα 1
+notetypes-card-2-name = Κάρτα 2
 notetypes-add = Προσθέστε: { $val }
 notetypes-add-note-type = Προσθήκη Τύπου Σημείωσης
 notetypes-cards = Κάρτες...
@@ -20,3 +28,10 @@ notetypes-footer = Υποσέλιδο
 notetypes-header = Επικεφαλίδα
 notetypes-note-types = Τύποι Σημειώσεων
 notetypes-options = Επιλογές...
+
+## Image Occlusion
+
+notetypes-image = Εικόνα
+notetype-error-no-image-to-show = Καμία εικόνα προς εμφάνιση.
+notetypes-io-select-image = Επιλογή εικόνας
+notetypes-io-paste-image-from-clipboard = Επικόλληση εικόνας από το πρόχειρο

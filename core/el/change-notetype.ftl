@@ -1,0 +1,1 @@
+change-notetype-fields = Πεδία
