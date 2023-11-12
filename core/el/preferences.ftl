@@ -12,6 +12,7 @@ preferences-paste-without-shift-key-strips-formatting = Η επικόλληση 
 preferences-periodically-sync-media = Περιοδικός συγχρονισμός πολυμέσων
 preferences-please-restart-anki-to-complete-language = Παρακαλώ επανεκκινήστε το Anki για την ολοκλήρωση της αλλαγής γλώσσας.
 preferences-preferences = Προτιμήσεις
+preferences-some-settings-will-take-effect-after = Μερικές αλλαγές θα εφαρμοστούν μετά την επανεκκίνηση του Anki.
 preferences-tab-synchronisation = Συγχρονισμός
 preferences-synchronizationnot-currently-enabled-click-the-sync = <
 preferences-synchronize-audio-and-images-too = Συγχρονισμός ήχου και εικόνων επίσης
