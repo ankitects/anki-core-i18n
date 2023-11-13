@@ -30,6 +30,9 @@ media-check-subfolder-file = Thư mục: { $filename }
 media-check-missing-file = Thiếu: { $filename }
 media-check-unused-file = Không sử dụng: { $filename }
 
+##
+
+
 ## Progress
 
 media-check-checked = Đã kiểm tra { $count }...
@@ -43,9 +46,9 @@ media-check-files-remaining =
     } còn lại.
 media-check-delete-unused-complete =
     { $count ->
-       *[other] thư mục
-    } chuyển vào thùng rác
-media-check-trash-emptied = Thư mục thùng rác hiện đang trống.
+       *[other] Đã chuyển { $count } tệp tin
+    } vào thùng rác
+media-check-trash-emptied = Đã dọn sạch thư mục thùng rác.
 media-check-trash-restored = Đã khôi phục các tệp đã xóa vào thư mục phương tiện.
 
 ## Rendering LaTeX
