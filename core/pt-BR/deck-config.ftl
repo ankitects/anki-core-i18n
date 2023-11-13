@@ -142,7 +142,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     
     `Nota aleatória, depois tipo de cartão`: Escolhe notas aleatoriamente e mostra todos os seus irmãos em ordem.
     
-    `Random`: Embaralha totalmente as cartas reunidas.
+    `Aleatório`: Embaralha totalmente as cartas reunidas.
 deck-config-sort-order-card-template-then-random = Modelo do cartão, depois aleatório
 deck-config-sort-order-random-note-then-template = Nota aleatória e, em seguida, modelo do cartão
 deck-config-sort-order-random = Aleatório
