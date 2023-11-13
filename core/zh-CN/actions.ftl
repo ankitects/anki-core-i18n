@@ -59,7 +59,7 @@ actions-fullscreen-unsupported = 您的显示驱动不支持全屏模式。请�
 
 ## Flags
 
-actions-flag-number = 旗标{ $number }
+actions-flag-number = 旗标 { $number }
 actions-flag-red = 红色
 actions-flag-orange = 橙色
 actions-flag-green = 绿色
@@ -68,6 +68,6 @@ actions-flag-pink = 粉色
 actions-flag-turquoise = 青色
 actions-flag-purple = 紫色
 actions-set-flag = 设置旗标
-actions-nothing-to-undo = 无可撤销
-actions-nothing-to-redo = 无可恢复
+actions-nothing-to-undo = 没有可撤销的操作
+actions-nothing-to-redo = 没有可恢复的操作
 actions-auto-advance = 自动播放卡片

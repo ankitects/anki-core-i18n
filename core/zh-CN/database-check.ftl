@@ -6,7 +6,7 @@ database-check-field-count =
     { $count ->
        *[other] 已修复 { $count } 条字段数量有误的笔记。
     }
-database-check-new-card-high-due = 已找到 { $count } 张到期数字大于等于一百万的新卡片，建议在浏览界面重排其位置。
+database-check-new-card-high-due = 已找到 { $count } 张到期数字大于等于一百万的新卡片，建议在「浏览」界面重排其位置。
 database-check-card-missing-note = 已删除 { $count } 张缺失笔记的卡片。
 database-check-duplicate-card-ords = 已删除 { $count } 张内容模板重复的卡片。
 database-check-missing-decks = 已修复 { $count } 个缺失的牌组。

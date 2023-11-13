@@ -61,7 +61,7 @@ deck-config-new-insertion-order-tooltip =
     更改此选项将自动更新现存新卡片的位置。
 deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
 deck-config-new-insertion-order-random = 随机插入
-deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程算法时，建议设为顺序插入，并以调整新卡片的抽取顺序代之。
+deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程算法时，建议设为「顺序插入」，并改用「展示顺序」>「新卡片抽取顺序」选项。
 
 ## Lapses section
 
