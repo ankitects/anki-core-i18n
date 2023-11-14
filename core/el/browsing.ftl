@@ -78,6 +78,11 @@ browsing-notes-updated =
         [one] Μια σημείωση ενημερώθηκε.
        *[other] { $count } σημειώσεις ενημερώθηκαν.
     }
+browsing-cards-updated =
+    { $count ->
+        [one] Μια κάρτα ενημερώθηκε.
+       *[other] { $count } κάρτες ενημερώθηκαν.
+    }
 browsing-sidebar-expand = Ανάπτυξη
 browsing-sidebar-collapse = Σύμπτυξη
 browsing-sidebar-decks = Τράπουλες
