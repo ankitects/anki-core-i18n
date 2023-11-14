@@ -8,6 +8,10 @@ deck-config-title = Επιλογές τράπουλας
 
 ## Daily limits section
 
+deck-config-daily-limits = Ημερήσια όρια
+deck-config-review-limit-tooltip =
+    Ο μέγιστος αριθμός καρτών που εμφανίζονται προς επανάληψη ανά ημέρα, 
+    όταν οι κάρτες είναι έτοιμες για επανάληψη.
 deck-config-affects-entire-collection = Επηρεάζει ολόκληρη την συλλογή
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -34,6 +38,7 @@ deck-config-relearning-steps = Βήματα επανεκμάθησης
 
 deck-config-ordering-title = Σειρά εμφάνισης
 deck-config-new-gather-priority-deck = Τράπουλα
+deck-config-new-gather-priority-deck-then-random-notes = Τράπουλα, μετά τυχαίες σημειώσεις
 deck-config-new-gather-priority-position-lowest-first = Αύξουσα θέση
 deck-config-new-gather-priority-position-highest-first = Φθίνουσα θέση
 deck-config-new-gather-priority-random-notes = Τυχαίες σημειώσεις
@@ -67,13 +72,16 @@ deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά τ
 
 ## Advanced section
 
+deck-config-easy-bonus-tooltip = Ένας πρόσθετος πολλαπλασιαστής πουεφαρμόζεται στο διάστημα επανάληψης μιας κάρτας όταν την αξιολογείτε ως 'Εύκολη'
 deck-config-interval-modifier-tooltip = Ο πολλαπλασιαστής εφαρμόζεται σε όλες τις επαναλήψεις και μικρές αλλαγές του μπορούν να χρησιμοποιηθούν για να κάνουν το Anki πιο συντηρητικό ή επιθετικό στον προγραμματισμό του. Παρακαλούμε δείτε το εγχειρίδιο πριν αλλάξετε αυτή την ρύθμιση.
 deck-config-hard-interval-tooltip = Ο πολλαπλασιαστής που εφαρμόζεται στο διάστημα επανάληψης μετά από απάντηση 'Δύσκολο'.
 deck-config-new-interval-tooltip = Ο πολλαπλασιαστής που εφαρμόζεται στο διάστημα επανάληψης μετά από απάντηση 'Ξανά'.
+deck-config-minimum-interval-tooltip = Το ελάχιστο διάστημα που δίνεται σε μια κάρτα προς επανάληψη όταν απαντάτε με 'Ξανά'.
 deck-config-custom-scheduling-tooltip = Επηρεάζει ολόκληρη την συλλογή. Χρησιμοποιήστε με δική σας ευθύνη!
 
 ## Adding/renaming
 
+deck-config-name-prompt = Όνομα
 
 ## Removing
 
@@ -110,7 +118,15 @@ deck-config-get-params = Λήψη παραμέτρων
 deck-config-fsrs-on-all-clients =
     Παρακαλούμε βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.
     Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
+deck-config-desired-retention-tooltip =
+    Η προεπιλεγμένη τιμή 0.9 θα προγραμματίσει τις κάρτες ώστε να έχετε 90% πιθανότητα ανάκλησης όταν αυτές εμφανίζονται προς επανάληψη. Αν αυξήσετε αυτή την τιμή, το Anki θα εμφανίζει τις κάρτες συχνότερα ώστε να αυξήσει την πιθανότητα να τις θυμηθείτε.
+    Αν μειώσετε την τιμή, το Anki θα δείξει τις κάρτες λιγότερο συχνά και θα ξεχάσετε περισσότερες από αυτές. Να είστε συντηρητικοί όταν ρυθμίζετε αυτή την παράμετρο. Υψηλότερες τιμές θα αυξήσουν κατά πολύ τον φόρτο εργασίας σας και μικρότερες τιμές μπορούν να σας αποθαρρύνουν όταν ξεχνάτε πολύ υλικό.
+deck-config-weights-tooltip =
+    Οι παράμετροι FSRS θα επηρεάσουν πως προγραμματίζονται οι κάρτες σας. Το Anki θα ξεκινήσει με τις προεπιλεγμένες παραμέτρους.
+    Όταν συγκεντρωθούν 1000+ επαναλήψεις, μπορείτε να χρησιμοποιήσετε την παρακάτω επιλογή για την βελτιστοποίηση των παραμέτρων ώστε να ταιριάζουν καλύτερα στην απόδοσή σας, στις τράπουλες που έχουν αυτό το preset.
 deck-config-please-save-your-changes-first = Παρακαλώ αποθηκεύσετε πρώτα τις αλλαγές σας.
+deck-config-wait-for-audio = Αναμονή για ήχο
+deck-config-show-reminder = Εμφάνιση υπενθύμισης
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

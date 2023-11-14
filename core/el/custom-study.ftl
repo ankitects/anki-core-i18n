@@ -11,7 +11,9 @@ custom-study-new-cards-only = Μόνο νέες κάρτες
 custom-study-ok = ΟΚ
 custom-study-preview-new-cards = Προεπισκόπηση νέων καρτών
 custom-study-select = Επιλογή
+custom-study-study-by-card-state-or-tag = Μελέτη ανά κατάσταση κάρτας ή ανά ετικέτα
 custom-study-available-new-cards-2 = Διαθέσιμες νέες κάρτες: { $countString }
+custom-study-available-review-cards-2 = Διαθέσιμες κάρτες προς επανάληψη: { $countString }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
