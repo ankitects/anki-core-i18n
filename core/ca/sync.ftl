@@ -25,7 +25,7 @@ sync-client-too-old = La vostra versió d'Anki és massa antiga. Actualitzeu a l
 sync-wrong-pass = El vostre identificador d'AnkiWeb o la contrasenya són incorrectes; torneu-ho a intentar.
 sync-resync-required = Torneu a sincronitzar les dades. Si l'error persisteix, publiqueu un missatge al lloc de suport.
 sync-must-wait-for-end = Anki s'està sincronitzant ara mateix. Espereu que es completi la sincronització i torneu-ho a intentar.
-sync-confirm-empty-download = La col·lecció local no conté cap targeta. Desitgeu descarregar-ne des d'AnkiWeb?
+sync-confirm-empty-download = La col·lecció local no conté cap targeta. Voleu descarregar-ne des d’AnkiWeb?
 sync-confirm-empty-upload = La col·lecció d’AnkiWeb està buida. Voleu substituir-la per la col·lecció local?
 sync-conflict-explanation =
     Les baralles locals i les d’AnkiWeb no coincideixen, de manera que no és possible combinar-les. Per tant, cal sobreescriure un dels dos grups de baralles amb els de l’altre.
@@ -50,8 +50,8 @@ sync-upload-too-large =
 
 sync-media-log-button = Registre dels fitxers multimèdia
 sync-abort-button = Avortar
-sync-download-from-ankiweb = Descarregar des d'AnkiWeb
-sync-upload-to-ankiweb = Carregar a AnkiWeb
+sync-download-from-ankiweb = Descarrega des d’AnkiWeb
+sync-upload-to-ankiweb = Carrega a AnkiWeb
 sync-cancel-button = Anul·la
 
 ## Normal sync progress
