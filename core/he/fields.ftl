@@ -19,5 +19,5 @@ fields-name-first-letter-not-valid = שם השדה לא יכול להתחיל ב
 fields-name-invalid-letter = שם השדה אינו יכול להכיל: , ", { "{" } או { "}" }.
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
-fields-exclude-from-search = אל תציג בחיפוש תוצאות משדה זה אם החיפוש הוא כללי ולא רק בשדה זה (איטי יותר)
+fields-exclude-from-search = אל תציג בחיפוש תוצאות משדה זה אם החיפוש לא מכוון לשדה זה במיוחד (איטי יותר).
 fields-field-is-required = זהו שדה חובה, ולא ניתן למחוק אותו.
