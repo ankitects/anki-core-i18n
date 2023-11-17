@@ -93,7 +93,6 @@ scheduling-new-options-group-name = 新しいオプショングループ名:
 scheduling-options-group = オプショングループ
 scheduling-order = 順序
 scheduling-parent-limit = (元の最大出題数は { $val })
-scheduling-reset-counts = 学習回数と復習での忘却回数をリセット
 scheduling-restore-position = 可能な限り元の位置を復元
 scheduling-review = 復習
 scheduling-reviews = 学習回数
@@ -117,12 +116,15 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-prompt =
     { $cards ->
-       *[other] 何日後にカードを表示しますか？
+       *[other]
+            何日後にカードを表示しますか？
+            　
     }
 scheduling-set-due-date-prompt-hint =
-    0 = 今日
-    1! = 明日+復習間隔をリセット
-    3-7 = 3～7日からランダムに選択
+    入力例）
+    　0    = 今日
+    　1!   = 明日。かつ、復習間隔を1日に変更
+    　3-7 = 3日後～7日後からランダムに選択
 scheduling-set-due-date-done =
     { $cards ->
        *[other] { $cards }枚のカードの期日を設定しました。
