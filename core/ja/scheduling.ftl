@@ -93,6 +93,7 @@ scheduling-new-options-group-name = 新しいオプショングループ名:
 scheduling-options-group = オプショングループ
 scheduling-order = 順序
 scheduling-parent-limit = (元の最大出題数は { $val })
+scheduling-reset-counts = 学習回数と復習での忘却回数をリセット
 scheduling-restore-position = 可能な限り元の位置を復元
 scheduling-review = 復習
 scheduling-reviews = 学習回数
