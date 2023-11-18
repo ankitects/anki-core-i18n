@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = Afegeix una baralla (Ctrl+N)
 decks-build = Genera
 decks-cards-selected-by = targetes seleccionades per
 decks-create-deck = Crea una baralla
+decks_create_even_if_empty = Crea o actualitza aquesta baralla fins i tot si està buida
 decks-custom-steps-in-minutes = Passos personalitzats (en minuts)
 decks-deck = Baralla
 decks-decreasing-intervals = Intervals decreixents

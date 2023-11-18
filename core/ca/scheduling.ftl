@@ -90,12 +90,12 @@ scheduling-custom-study = estudi personalitzat
 ## Scheduler upgrade
 
 scheduling-update-soon = Anki 2.1 conté un nou planificador que soluciona alguns problemes presents en versions anteriors d'Anki. Us recomanem que l'actualitzeu.
-scheduling-update-done = Planificador actualitzat amb èxit.
+scheduling-update-done = S’ha actualitzat el planificador amb èxit.
 scheduling-update-button = Actualitza
 scheduling-update-later-button = Més tard
 scheduling-update-more-info-button = Saber-ne més
 scheduling-update-required =
-    Heu d'actualitzar la vostra col·lecció al planificador V2.
+    Heu d’actualitzar la vostra col·lecció a la versió 2 del planificador.
     Seleccioneu { scheduling-update-more-info-button } abans de continuar.
 
 ## Other scheduling strings
@@ -115,8 +115,8 @@ scheduling-graduating-interval = Interval de graduació
 scheduling-hard-interval = Interval dificil
 scheduling-ignore-answer-times-longer-than = Ignoreu temps de resposta més llargs de
 scheduling-interval-modifier = Modificació de l'interval
-scheduling-lapses = Oblits
-scheduling-lapses2 = oblits
+scheduling-lapses = Oblidades
+scheduling-lapses2 = oblidades
 scheduling-learning = Aprenent
 scheduling-leech-action = Acció per a les sangoneres
 scheduling-leech-threshold = Llindar de sangoneres
@@ -124,14 +124,14 @@ scheduling-maximum-interval = Interval màxim
 scheduling-maximum-reviewsday = Repassos màxims/dia
 scheduling-minimum-interval = Interval mínim
 scheduling-mix-new-cards-and-reviews = Barreja targetes noves amb repassos
-scheduling-new-cards = Noves fitxes
+scheduling-new-cards = Targetes noves
 scheduling-new-cardsday = Noves cartes/dia
 scheduling-new-interval = Nou interval
 scheduling-new-options-group-name = Nou nom del grup d'opcions:
 scheduling-options-group = Opcions del grup:
 scheduling-order = Ordre
 scheduling-parent-limit = (límit superior: { $val })
-scheduling-reset-counts = Reestableix els recomptes de repeticions i oblits
+scheduling-reset-counts = Reestableix els recomptes de repeticions i oblidades
 scheduling-restore-position = Reestableix la posició original quan sigui possible
 scheduling-review = Per repassar
 scheduling-reviews = Repassos

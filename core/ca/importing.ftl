@@ -36,10 +36,11 @@ importing-mnemosyne-20-deck-db = Baralla Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Els separadors de més d'un caràcter no son vàlids; introduïu un sol caràcter.
 importing-notes-added-from-file = Notes afegides des del fitxer: { $val }
 importing-notes-found-in-file = Notes trobades en el fitxer: { $val }
-importing-notes-skipped-as-theyre-already-in = S'han omès les notes, atès que ja es troben en la vostra col·lecció: { $val }
-importing-notes-skipped-update-due-to-notetype = No s’han actualitzat les notes, perquè el tipus de nota s’ha modificat des de la importació original: { $val }
-importing-notes-updated-as-file-had-newer = Notes actualitzades, atès que el fitxer contenia una versió més recent: { $val }
+importing-notes-skipped-as-theyre-already-in = S’han omès les notes perquè ja n’hi ha versions actualitzades en la col·lecció: { $val }
+importing-notes-skipped-update-due-to-notetype = No s’han actualitzat les notes perquè el tipus de nota s’ha modificat des de la importació original: { $val }
+importing-notes-updated-as-file-had-newer = S’han actualitzat les notes perquè el fitxer contenia una versió més recent: { $val }
 importing-include-reviews = Inclou els repassos
+importing-also-import-progress = Importa també qualsevol procés d’aprenentatge
 importing-updates = Actualitzacions
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida d’Anki o col·lecció (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
@@ -61,6 +62,7 @@ importing-unable-to-import-from-a-readonly = No és possible importar des d'un f
 importing-unknown-file-format = Format de fitxer desconegut.
 importing-update-existing-notes-when-first-field = Actualitza les targetes existents quan el primer camp coincideixi
 importing-updated = Actualitzat
+importing-update-if-newer = Si són més noves
 importing-update-always = Sempre
 importing-update-never = Mai
 importing-update-notes = Actualitza les notes
@@ -139,6 +141,16 @@ importing-existing-notes-skipped =
         [one] Ja hi ha una nota en la vostra col·lecció.
        *[other] Ja hi ha { $count } notes en la vostra col·lecció.
     }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] No s’ha importat una nota perquè el tipus ha canviat.
+       *[other] No s’han importat { $count } notes perquè el tipus ha canviat.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] No s’ha importat una nota perquè el tipus ha canviat i ‘{ importing-merge-notetypes }’ no està activat.
+       *[other] No s’han importat { $count } notes perquè el tipus ha canviat i ‘{ importing-merge-notetypes }’ no està activat.
+    }
 importing-import-log = Registre d’importació
 importing-no-notes-in-file = No s’ha trobat cap nota en el fitxer.
 importing-notes-found-in-file2 =
@@ -151,6 +163,14 @@ importing-details = Detalls
 importing-status = Estat
 importing-duplicate-note-added = S’ha afegit una nota duplicada.
 importing-added-new-note = S’ha afegit una nota nova.
+importing-existing-note-skipped = S’ha saltat la nota perquè ja n’existeix una còpia actualitzada en la col·lecció.
+importing-note-skipped-update-due-to-notetype = No s’ha actualitzat la nota perquè el tipus de nota s’ha modificat des de la importació original: { $val }
+importing-note-updated-as-file-had-newer = Nota actualitzada perquè el fitxer contenia una versió més recent: { $val }
+importing-note-skipped-due-to-missing-notetype = S’ha saltat la nota perquè en falta el tipus
+importing-note-skipped-due-to-missing-deck = S’ha saltat la nota perquè en falta la baralla
+importing-note-skipped-due-to-empty-first-field = S’ha saltat la nota perquè el primer camp està buit
+importing-deck-help = Les targetes importades s’afegiran a aquesta baralla.
+importing-tag-all-notes-help = S’afegiran aquestes etiquetes a les notes importades i actualitzades.
 importing-tag-updated-notes-help = Aquestes etiquetes s’afegiran a totes les notes que actualitzeu.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

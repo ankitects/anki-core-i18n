@@ -49,7 +49,7 @@ sync-upload-too-large =
 ## Buttons
 
 sync-media-log-button = Registre dels fitxers multimèdia
-sync-abort-button = Avortar
+sync-abort-button = Interromp
 sync-download-from-ankiweb = Descarrega des d’AnkiWeb
 sync-upload-to-ankiweb = Carrega a AnkiWeb
 sync-cancel-button = Anul·la

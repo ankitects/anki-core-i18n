@@ -92,6 +92,7 @@ editing-image-occlusion-rectangle-tool = Rectangle
 editing-image-occlusion-ellipse-tool = El·lipsi
 editing-image-occlusion-polygon-tool = Polígon
 editing-image-occlusion-text-tool = Text
+editing-image-occlusion-toggle-mask-editor = Activa/desactiva l’editor de màscara
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

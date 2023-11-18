@@ -58,7 +58,7 @@ media-check-delete-unused-complete =
         [one] S'ha mogut un fitxer a la paperera.
        *[other] S'han mogut { $count } fitxers a la paperera.
     }
-media-check-trash-emptied = La carpeta de la paperera és buida.
+media-check-trash-emptied = S’ha buidat la paperera.
 media-check-trash-restored = S'han restaurat els fitxers esborrats a la carpeta dels fitxers multimèdia.
 
 ## Rendering LaTeX
