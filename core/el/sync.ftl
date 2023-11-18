@@ -14,6 +14,8 @@ sync-media-aborted = Ο συγχρονισμός πολυμέσων διακόπ
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = Ο συγχρονισμός πολυμέσων απενεργοποιήθηκε.
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Καταγραφές συγχρονισμού πολυμέσων.
 
 ## Error messages / dialogs
 

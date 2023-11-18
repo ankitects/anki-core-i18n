@@ -5,6 +5,7 @@ importing-allow-html-in-fields = Επιτρέψτε HTML στα πεδία
 importing-anki-files-are-from-a-very = Τα αρχεία .anki είναι από μια πολύ παλιά έκδοση του Anki. Μπορείτε να τα εισάγετε με το πρόσθετο 175027074 ή με το Anki 2.0 που είναι διαθέσιμο στην ιστοσελίδα του Anki.
 importing-anki2-files-are-not-directly-importable = Τα αρχεία .anki2 δεν μπορούν να εισαχθούν άμεσα - παρακαλούμε εισάγετε το .apkg ή .zip αρχείο που λάβατε.
 importing-appeared-twice-in-file = Εμφανίζεται δις στο αρχείο: { $val }
+importing-by-default-anki-will-detect-the = Ως προεπιλογή, το Anki εντοπίζει χαρακτήρες ανάμεσα σε πεδία όπως το tab, το κόμμα κτλ. Αν το Anki εντοπίζει τον χαρακτήρα λανθασμένα, μπορείτε να τον εισάγετε εδώ. Χρησιμοποιήστε το \t ως tab.
 importing-change = Αλλαγή
 importing-colon = Άνω κάτω τελεία
 importing-comma = Κόμμα

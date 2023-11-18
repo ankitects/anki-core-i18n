@@ -1,3 +1,8 @@
+card-templates-changes-will-affect-notes =
+    { $count ->
+        [one] Οι παρακάτω αλλαγές θα επηρεάσουν την σημείωση που χρησιμοποιεί αυτόν τον τύπο κάρτας.
+       *[other] Οι παρακάτω αλλαγές θα επηρεάσουν { $count } σημείωσεις που χρησιμοποιούν αυτόν τον τύπο κάρτας.
+    }
 card-templates-card-type = Τύπος κάρτας:
 card-templates-front-template = Πρότυπο Γραμματοσειράς
 card-templates-back-template = Πρότυπο πίσω

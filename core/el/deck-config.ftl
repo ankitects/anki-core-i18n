@@ -3,12 +3,22 @@
 
 ## Top section
 
+# Used in the deck configuration screen to show how many decks are used
+# by a particular configuration group, eg "Group1 (used by 3 decks)"
+deck-config-used-by-decks =
+    { $decks ->
+        [one] Χρησιμοποιείται από μια τράπουλα
+       *[other] Χρησιμοποιείται από { $decks } τράπουλες
+    }
 deck-config-default-name = Προεπιλογή
 deck-config-title = Επιλογές τράπουλας
 
 ## Daily limits section
 
 deck-config-daily-limits = Ημερήσια όρια
+deck-config-new-limit-tooltip =
+    Ο μέγιστος αριθμός καρτών που εισάγετε σε μια μέρα, αν νέες κάρτες είναι διαθέσιμες.
+    Επειδή το νέο υλικό θα αυξήσει τον βραχυπρόθεσμο όγκο εργασίας, θα πρέπει τυπικά να είναι τουλάχιστον 10x μικρότερο από το όριο επαναλήψεων.
 deck-config-review-limit-tooltip =
     Ο μέγιστος αριθμός καρτών που εμφανίζονται προς επανάληψη ανά ημέρα, 
     όταν οι κάρτες είναι έτοιμες για επανάληψη.
@@ -47,6 +57,7 @@ deck-config-sort-order-card-template-then-random = Τύπος κάρτας, με
 deck-config-sort-order-random-note-then-template = Τυχαία σημείωση, μετά τύπος κάρτας
 deck-config-sort-order-random = Τυχαία
 deck-config-sort-order-template-then-gather = Τύπος κάρτας
+deck-config-new-review-priority-tooltip = Πότε θα εμφανίζονται οι νέες κάρτες σε σχέση με τις επαναλήψεις.
 deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
 deck-config-review-mix-show-after-reviews = Εμφάνιση μετά από επαναλήψεις
 deck-config-review-mix-show-before-reviews = Εμφάνιση πριν από επαναλήψεις
@@ -85,6 +96,7 @@ deck-config-name-prompt = Όνομα
 
 ## Removing
 
+deck-config-will-require-full-sync = Η ζητούμενη αλλαγή απαιτεί συγχρονισμό προς μια κατεύθυνση. Αν έχετε κάνει αλλαγές σε άλλη συσκευή και δεν τις έχετε συγχρονίσει ακόμα, παρακαλούμε κάντε το πριν συνεχίσετε.
 deck-config-confirm-remove-name = Αφαίρεση { $name };
 
 ## Other Buttons
@@ -107,12 +119,15 @@ deck-config-which-deck = Τις ρυθμίσεις ποιας τράπουλας
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Ενημέρωση καρτών: { $current_cards_count }/{ $total_cards_count }
+deck-config-invalid-weights = Οι παράμετροι πρέπει να είναι κενοί για χρήση των προεπιλογών ή θα πρέπει να είναι 17 αριθμοί διαχωρισμένοι με κόμμα.
 deck-config-not-enough-history = Το ιστορικό των επαναλήψεων δεν είναι αρκετό για τη διενέργεια αυτής της λειτουργίας.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Παράμετροι FSRS
 deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέτρων FSRS
+deck-config-compute-optimal-retention = Υπολογισμός βέλτιστης ανάκλησης.
 deck-config-optimize-button = Βελτιστοποίηση
 deck-config-compute-button = Υπολογισμός
+deck-config-smaller-is-better = Μικρότεροι αριθμοί υποδεικνύουν καλύτερη ταύτιση με το ιστορικό των επαναλήψεων σας.
 deck-config-steps-too-large-for-fsrs = Όταν το FSRS είναι ενεργοποιημένο, βήματα εκμάθησης 1+ ημερών δεν προτείνονται.
 deck-config-get-params = Λήψη παραμέτρων
 deck-config-fsrs-on-all-clients =

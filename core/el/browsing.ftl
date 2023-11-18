@@ -51,6 +51,7 @@ browsing-no-selection = Καμία επιλεγμένη κάρτα ή σημεί
 browsing-note = Σημείωση
 browsing-notes = Σημειώσεις
 browsing-optional-filter = Προαιρετικό φίλτρο:
+browsing-please-give-your-filter-a-name = Παρακαλούμε ονομάστε το φίλτρο σας:
 browsing-question = Ερώτηση
 browsing-randomize-order = Τυχαιοποίηση σειράς
 browsing-remove-tags = Αφαίρεση ετικετών...
@@ -64,7 +65,9 @@ browsing-sidebar = Πλαϊνή μπάρα
 browsing-step = Βήμα:
 browsing-suspended = Σε αναστολή
 browsing-target-field = Στόχος πεδίου:
+browsing-update-saved-search = Ανανέωση με τρέχουσα αναζήτηση
 browsing-whole-collection = Πλήρης συλλογή
+browsing-you-must-have-at-least-one = Πρέπει να έχετε τουλάχιστον μια στήλη.
 browsing-group =
     { $count ->
         [one] { $count } ομάδα
@@ -102,6 +105,11 @@ browsing-edited-today = Επεξεργάστηκε
 browsing-sidebar-first-review = Πρώτη επανάληψη
 browsing-sidebar-untagged = Χωρίς ετικέτα
 browsing-row-deleted = (διαγράφηκε)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Αφαιρέθηκε μια αχρησιμοποίητη ετικέτα.
+       *[other] Αφαιρέθηκαν { $count } αχρησιμοποίητες ετικέτες.
+    }
 browsing-changed-new-position =
     { $count ->
         [one] Αλλάχθηκε η θέση μιας νέας κάρτας.
