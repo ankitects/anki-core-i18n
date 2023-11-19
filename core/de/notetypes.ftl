@@ -51,4 +51,5 @@ notetypes-error-generating-cloze = Es ist ein Fehler beim Erstellen einer Bildve
 notetypes-error-getting-imagecloze = Es ist ein Fehler beim Abrufen einer Bildverdeckungsnotiz aufgetreten.
 notetypes-error-loading-image-occlusion = Fehler beim Laden der Bildverdeckung. Ist Ihre Anki-Version aktuell?
 notetype-error-no-image-to-show = Kein Bild zum Anzeigen
+notetypes-io-select-image = Bild auswählen
 notetypes-io-paste-image-from-clipboard = Bild aus Zwischenablage einfügen

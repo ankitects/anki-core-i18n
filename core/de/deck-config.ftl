@@ -252,6 +252,7 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parameter
+deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
 deck-config-evaluate-button = Evaluieren
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.

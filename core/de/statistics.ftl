@@ -91,6 +91,7 @@ statistics-range-deck = Stapel
 statistics-range-collection = Sammlung
 statistics-range-search = Suche
 statistics-card-ease-title = Karten-Leichtigkeit
+statistics-card-difficulty-title = Schwierigkeit der Karte
 statistics-card-stability-subtitle = Das Intervall, zu dem Sie sich mit 90%er Wahrscheinlichkeit an die richtige Antwort erinnern.
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
 statistics-card-difficulty-subtitle = Je höher der Schwierigkeitswert, desto schwerer fällt es Ihnen, sich an diese Karte zu erinnern.
