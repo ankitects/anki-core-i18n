@@ -1,11 +1,20 @@
 ## Shown at the top of the media check screen
 
 media-check-window-title = Έλεγχος πολυμέσων
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count =
+    Κάδος ανακύκλωσης: { $count ->
+        [one] { $count } αρχείο, { $megs }MB
+       *[other] { $count } αρχεία, { $megs }ΜΒ
+    }
 media-check-missing-count = Αρχεία που λείπουν: { $count }
 media-check-unused-count = Αχρησιμοποίητα αρχεία: { $count }
 media-check-renamed-count = Μετονομασμένα αρχεία: { $count }
 media-check-oversize-count = Πάνω από 100MB: { $count }
 media-check-subfolder-count = Υποφάκελοι: { $count }
+media-check-extracted-count = Εξαχθείσες εικόνες: { $count }
 
 ## Shown at the top of each section
 
@@ -34,6 +43,16 @@ media-check-checked = Ελέγχθηκαν { $count }...
 ## Deleting unused media
 
 media-check-delete-unused-confirm = Διαγραφή αχρησιμοποίητων πολυμέσων;
+media-check-files-remaining =
+    { $count ->
+        [one] Απομένει { $count } αρχείο.
+       *[other] Απομένουν { $count } αρχεία .
+    }
+media-check-delete-unused-complete =
+    { $count ->
+        [one] { $count } αρχείο μεταφέρθηκε
+       *[other] { $count } αρχεία μεταφέρθηκαν
+    } στον κάδο ανακύκλωσης.
 media-check-trash-emptied = O κάδος ανακύκλωσης είναι κενός.
 media-check-trash-restored = Επαναφορά διαγραμμένων αρχείων στον φάκελο πολυμέσων.
 

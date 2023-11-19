@@ -26,4 +26,5 @@ card-stats-fsrs-retrievability = Ανακτησιμότητα
 
 ## Window Titles
 
+card-stats-current-card = Τρέχουσα κάρτα ({ $context })
 card-stats-previous-card = Προηγούμενη κάρτα ({ $context })

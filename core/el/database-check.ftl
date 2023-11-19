@@ -10,6 +10,11 @@ database-check-field-count =
         [one] Διορθώθηκε μια σημείωση με λανθασμένο αριθμό πεδίων.
        *[other] Διορθώθηκαν { $count } σημείωσεις με λανθασμένο αριθμό πεδίων.
     }
+database-check-duplicate-card-ords =
+    { $count ->
+        [one] Διαγράφηκε { $count } κάρτα με διπλό πρότυπο.
+       *[other] Διαγράφηκαν { $count } κάρτες με διπλό πρότυπο.
+    }
 database-check-revlog-properties =
     { $count ->
         [one] Διορθώθηκε μια καταχώρηση επανάληψης με μη έγκυρες ιδιότητες.
