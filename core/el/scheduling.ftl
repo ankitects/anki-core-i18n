@@ -52,12 +52,15 @@ scheduling-today-new-limit-reached =
     Μπορείτε να αυξήσετε το όριο στις επιλογές, αλλά λάβετε υπόψη
     ότι όσες περισσότερες νέες κάρτες εισάγετε, τόσο υψηλότερος
     θα γίνει ο βραχυπρόθεσμος φόρτος επαναλήψεων.
+scheduling-how-to-custom-study = Αν επιθυμείτε να διαβάσετε εκτός του κανονικού προγράμματος, μπορείτε να χρησιμοποιήσετε την δυνατότητα { $customStudy }.
 
 ## Scheduler upgrade
 
 scheduling-update-soon = Το Anki 2.1 έχει έναν νέο προγραμματιστή που διορθώνει έναν αριθμό προβλημάτων, τα οποία είχαν οι προηγούμενες εκδόσεις. Η ενημέρωση του προτείνεται.
 scheduling-update-done = Ο προγραμματιστής ενημερώθηκε επιτυχώς.
 scheduling-update-button = Ενημέρωση
+scheduling-update-later-button = Αργότερα
+scheduling-update-more-info-button = Μάθετε περισσότερα
 scheduling-update-required =
     Η συλλογή σας χρειάζεται να αναθαθμιστεί στον V2 προγραμματιστή.
     Παρακαλούμε επιλέξτε { scheduling-update-more-info-button } πριν συνεχίσετε.
@@ -81,6 +84,8 @@ scheduling-mix-new-cards-and-reviews = Ανάμιξη νέων καρτών κα
 scheduling-new-cards = Νέες Κάρτες
 scheduling-new-cardsday = Νέες κάρτες ανά ημέρα
 scheduling-new-interval = Νέο διάστημα
+scheduling-new-options-group-name = Όνομα της νέας ομάδας επιλογών:
+scheduling-options-group = Ομάδα επιλογών:
 scheduling-order = Σειρά
 scheduling-restore-position = Επαναφορά αρχικής θέση όπου είναι δυνατό
 scheduling-review = Επιθεώρηση

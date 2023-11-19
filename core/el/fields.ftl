@@ -13,6 +13,7 @@ fields-reverse-text-direction-rtl = Αντιστροφή κατεύθυνσης 
 fields-collapse-by-default = Σύμπτυξη ως προεπιλογή
 fields-html-by-default = Χρήση επεξεργαστή HTML ως προεπιλογή
 fields-size = Μέγεθος:
+fields-sort-by-this-field-in-the = Ταξινόμηση κατά αυτού του πεδίου στον περιηγητή
 fields-that-field-name-is-already-used = Αυτό το όνομα αρχείου έχει ήδη χρησιμοποιηθεί.
 fields-name-first-letter-not-valid = Το όνομα πεδίου δεν πρέπει να αρχίζει με #, ^ ή /.
 fields-name-invalid-letter = Το όνομα πεδίου δεν πρέπει να περιέχει :, ", { "{" } ή { "}" }.

@@ -9,6 +9,7 @@ card-templates-back-template = Πρότυπο πίσω
 card-templates-template-styling = Μορφοποίηση
 card-templates-back-preview = Προβολή Πίσω
 card-templates-preview-box = Προεπισκόπηση
+card-templates-template-box = Πρότυπο
 card-templates-fill-empty = Συμπλήρωση κενών πεδίων
 card-templates-night-mode = Λειτουργία Νύχτας
 card-templates-preview-settings = Επιλογές
