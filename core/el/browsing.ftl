@@ -21,6 +21,7 @@ browsing-change-deck2 = Αλλαγή τράπουλας...
 browsing-change-note-type = Αλλαγή Τύπου Σημείωσης
 browsing-change-note-type2 = Αλλαγή Τύπου Σημείωσης...
 browsing-change-notetype = Αλλαγή Τύπου Σημείωσης
+browsing-clear-unused-tags = Εκκαθάριση μη χρησιμοποιούμενων ετικετών
 browsing-confirm-saved-search-overwrite = Μια αποθηκευμένη αναζήτηση με το όνομα { $name } υπάρχει ήδη. Θέλετε να την αντικαταστήσετε;
 browsing-created = Δημιουργήθηκε
 browsing-current-deck = Τρέχουσα τράπουλα
