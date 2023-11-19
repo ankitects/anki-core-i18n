@@ -24,6 +24,7 @@ deck-config-review-limit-tooltip =
     όταν οι κάρτες είναι έτοιμες για επανάληψη.
 deck-config-limit-new-bound-by-reviews = Το όριο των επαναλήψεων επηρεάζει το όριο των νέων καρτών. Για παράδειγμα, αν το όριο επαναλήψεων είναι 200 και έχετε 190 κάρτες προς επανάληψη, τότε έως και 10 νέες κάρτες μπορούν να εισαχθούν. Αν έχετε φτάσει τό όριο επαναλήψεων, καμία νέα κάρτα δεν θα εμφανιστεί.
 deck-config-new-cards-ignore-review-limit = Οι νέες κάρτες αγνοούν το όριο επαναλήψεων
+deck-config-new-cards-ignore-review-limit-tooltip = Από προεπιλογή, το όριο επαναλήψεων εφαρμόζεται και στις νέες κάρτες και καμία νέα κάρτα δεν θα εμφανιστεί όταν έχετε φτάσει το όριο των επαναλήψεων. Αν η επιλογή είναι ενεργοποιημένη, νέες κάρτες θα εμφανιστούν ανεξάρτητα από το όριο επαναλήψεων.
 deck-config-affects-entire-collection = Επηρεάζει ολόκληρη την συλλογή
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -35,6 +36,8 @@ deck-config-today-only = Σήμερα μόνο
 ## New Cards section
 
 deck-config-learning-steps = Βήματα εκμάθησης
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Οι καθυστερήσεις είναι τυπικά σε λεπτά (π.χ. '1m') ή μέρες (π.χ. '2d'), αλλά ώρες (π.χ. '1h') ή δευτερόλεπτα (π.χ. '30s') υποστηρίζονται επίσης.
 deck-config-new-insertion-order = Σειρά εισαγωγής
 deck-config-new-insertion-order-sequential = Διαδοχικά (παλαιότερες κάρτες πρώτα)
 deck-config-new-insertion-order-random = Τυχαία
@@ -63,6 +66,7 @@ deck-config-new-review-priority-tooltip = Πότε θα εμφανίζονται
 deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
 deck-config-review-mix-show-after-reviews = Εμφάνιση μετά από επαναλήψεις
 deck-config-review-mix-show-before-reviews = Εμφάνιση πριν από επαναλήψεις
+deck-config-sort-order-ascending-intervals = Αύξοντα διαστήματα
 deck-config-sort-order-descending-intervals = Φθίνοντα διαστήματα
 deck-config-sort-order-ascending-ease = Αύξουσα ευκολία
 deck-config-sort-order-descending-ease = Φθίνουσα ευκολία

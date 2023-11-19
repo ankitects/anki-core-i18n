@@ -10,3 +10,7 @@ card-template-rendering-no-closing-brackets = Λείπει '{ $missing }' σε '
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
 card-template-rendering-conditional-not-closed = Λείπει '{ $missing }'
+# This message is shown when the front side of the card is blank,
+# either due to a badly-designed template, or because required fields
+# are missing.
+card-template-rendering-empty-front = Η μπροστινή πλευρά της κάρτας είναι κενή.
