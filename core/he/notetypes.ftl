@@ -39,7 +39,7 @@ notetypes-type = סוג
 ## Image Occlusion
 
 notetypes-image = תמונה
-notetypes-occlusion = הסתרה
+notetypes-occlusion = תמונה להסתרה
 notetypes-occlusion-mask = הסתרה
 notetypes-occlusion-note = רשומה
 notetypes-comments-field = הערות
