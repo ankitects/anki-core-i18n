@@ -12,6 +12,7 @@ studying-flag-card = Σήμανση κάρτας
 studying-good = Καλώς
 studying-hard = Δύσκολο
 studying-more = Περισσότερα
+studying-no-cards-are-due-yet = Καμία κάρτα δεν είναι ακόμα προγραμματισμένη.
 studying-note-suspended = Αναστολή σημείωσης
 studying-pause-audio = Παύση ήχου
 studying-show-answer = Προβολή απάντησης

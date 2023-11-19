@@ -96,6 +96,11 @@ statistics-days-ago-single =
        *[other] πριν { $days } μέρες
     }
 statistics-days-ago-range = πριν { $daysStart }-{ $daysEnd } μέρες
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } προγραμματισμένη κάρτα
+       *[other] { $cards } προγραμματισμένες κάρτες
+    }
 statistics-intervals-title = Διαστήματα
 statistics-intervals-day-single =
     { $cards ->
