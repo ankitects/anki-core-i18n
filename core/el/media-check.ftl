@@ -24,6 +24,8 @@ media-check-missing-file = Λείπουν: { $filename }
 
 ##
 
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
