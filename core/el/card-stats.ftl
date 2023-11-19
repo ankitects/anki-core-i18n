@@ -14,6 +14,7 @@ card-stats-note-id = ID σημείωσης
 card-stats-card-id = ID κάρτας
 card-stats-review-log-type = Τύπος
 card-stats-review-log-date = Ημερομηνία
+card-stats-review-log-time-taken = Χρόνος
 card-stats-review-log-type-learn = Μάθετε
 card-stats-review-log-type-review = Επιθεώρηση
 card-stats-review-log-type-relearn = Επανεκμάθηση

@@ -22,6 +22,8 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip =
     Ο μέγιστος αριθμός καρτών που εμφανίζονται προς επανάληψη ανά ημέρα, 
     όταν οι κάρτες είναι έτοιμες για επανάληψη.
+deck-config-limit-new-bound-by-reviews = Το όριο των επαναλήψεων επηρεάζει το όριο των νέων καρτών. Για παράδειγμα, αν το όριο επαναλήψεων είναι 200 και έχετε 190 κάρτες προς επανάληψη, τότε έως και 10 νέες κάρτες μπορούν να εισαχθούν. Αν έχετε φτάσει τό όριο επαναλήψεων, καμία νέα κάρτα δεν θα εμφανιστεί.
+deck-config-new-cards-ignore-review-limit = Οι νέες κάρτες αγνοούν το όριο επαναλήψεων
 deck-config-affects-entire-collection = Επηρεάζει ολόκληρη την συλλογή
 
 ## Daily limit tabs: please try to keep these as short as the English version,
