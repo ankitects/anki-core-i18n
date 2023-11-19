@@ -4,6 +4,7 @@ card-stats-latest-review = Τελευταία Αναθεώρηση
 card-stats-interval = Διάστημα ανανέωσης
 card-stats-ease = Ευκολία
 card-stats-review-count = Επαναλήψεις
+card-stats-lapse-count = Ολισθήματα
 card-stats-average-time = Μέσος χρόνος
 card-stats-total-time = Συνολικός χρόνος
 card-stats-new-card-position = Θέση

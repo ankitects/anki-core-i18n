@@ -15,6 +15,7 @@ decks-import-file = Εισαγωγή Αρχείου
 decks-increasing-intervals = Αυξανόμενα διαστήματα
 decks-limit-to = Περιορισμός σε
 decks-minutes = λεπτά
+decks-most-lapses = Περισσότερα ολισθήματα
 decks-new-deck-name = Νέο όνομα τράπουλας
 decks-no-deck = [καμία τράπουλα]
 decks-oldest-seen-first = Παλαιότερες εμφανίζονται πρώτα

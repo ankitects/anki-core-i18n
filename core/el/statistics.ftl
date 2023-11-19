@@ -133,6 +133,10 @@ statistics-calendar-title = Ημερολόγιο
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount }s
+statistics-elapsed-time-minutes = { $amount }m
+statistics-elapsed-time-hours = { $amount }h
+statistics-elapsed-time-days = { $amount }d
 
 ##
 
