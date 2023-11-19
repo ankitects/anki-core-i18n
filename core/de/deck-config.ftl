@@ -250,6 +250,11 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS Parameter
+deck-config-compute-button = Berechnen
+deck-config-evaluate-button = Evaluieren
+deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = "Er­neut" ant­wor­ten
