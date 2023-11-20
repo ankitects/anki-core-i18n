@@ -77,6 +77,9 @@ deck-config-sort-order-descending-difficulty = Φθίνουσα δυσκολία
 
 deck-config-timer-title = Χρονόμετρο
 deck-config-maximum-answer-secs = Μέγιστος χρόνος απάντησης σε δευτερόλεπτα
+deck-config-maximum-answer-secs-tooltip =
+    Ο μέγιστος αριθμός δευτερολέπτων που καταγράφονται σε μια επανάληψη. Αν η απάντηση υπερβαίνει αυτόν τον χρόνο (επειδή φύγατε για παράδειγμα από την οθόνη),
+    ο χρόνος που θα καταγραφεί θα είναι το όριο που θέσατε.
 deck-config-show-answer-timer-tooltip =
     Εμφάνιση στην οθόνη επαναλήψεων ενός χρονομετρητή που μετρά τα δευτερόλεπτα που 
     χρειάζεστε για να κάνε επανάληξη κάθε κάρτας.
@@ -86,6 +89,9 @@ deck-config-show-answer-timer-tooltip =
 deck-config-audio-title = Ήχος
 deck-config-disable-autoplay = Η αναπαραγωγή ήχου να μην είναι αυτόματη
 deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά την απάντηση
+deck-config-stop-timer-on-answer-tooltip =
+    Αν ο χρόνος σταματάει όταν αποκαλύπτεται η απάντηση.
+    Δεν επηρεάζει τα στατιστικά.
 
 ## Advanced section
 
