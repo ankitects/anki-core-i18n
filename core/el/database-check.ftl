@@ -20,6 +20,11 @@ database-check-duplicate-card-ords =
         [one] Διαγράφηκε { $count } κάρτα με διπλό πρότυπο.
        *[other] Διαγράφηκαν { $count } κάρτες με διπλό πρότυπο.
     }
+database-check-missing-decks =
+    { $count ->
+        [one] Διορθώθηκε { $count } χαμένη τράπουλα.
+       *[other] Διορθώθηκαν { $count } χαμένες τράπουλες.
+    }
 database-check-revlog-properties =
     { $count ->
         [one] Διορθώθηκε μια καταχώρηση επανάληψης με μη έγκυρες ιδιότητες.
