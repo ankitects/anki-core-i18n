@@ -41,6 +41,7 @@ preferences-appearance = Εμφάνιση
 preferences-general = Γενικά
 preferences-style = Στυλ
 preferences-review = Επαναλήψεις
+preferences-answer-keys = Πλήκτρα απάντησης
 preferences-editing = Επεξεργασία
 preferences-browsing = Περιήγηση
 preferences-default-deck = Προεπιλεγμένη τράπουλα

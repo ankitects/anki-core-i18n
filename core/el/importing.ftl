@@ -86,10 +86,18 @@ importing-notes-added =
         [one] Εισήχθη { $count } νέα σημείωση.
        *[other] Εισήχθησαν { $count } νέες σημειώσεις.
     }
+importing-no-notes-in-file = Δεν βρέθηκαν σημειώσεις στο αρχείο.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } σημείωση βρέθηκε
+       *[other] { $notes } σημειώσεις βρέθηκαν
+    } στο αρχείο. Από αυτές:
+importing-show = Προβολή
 importing-details = Λεπτομέρειες
 importing-status = Κατάσταση
 importing-existing-note-skipped = Η σημείωση παραλείφθηκε, καθώς ένα ενημερωμένο αντίγραφο υπάρχει ήδη στην συλλογή σας
 importing-note-updated-as-file-had-newer = Η σημείωση ενημερώθηκε, καθώς το αρχείο είχε μια νεότερη έκδοση
+importing-note-skipped-due-to-missing-notetype = Η σημείωση παραλείφθηκε καθώς ο τύπος της λείπει.
 importing-note-skipped-due-to-missing-deck = Η σημείωση παραλείφθηκε καθώς η τράπουλα λείπει
 importing-note-skipped-due-to-empty-first-field = Η σημείωση παραλείφθηκε καθώς το πρώτο πεδίο είναι κενό
 importing-deck-help = Η εισαγόμενες κάρτες θα τοποθετηθούν σε αυτήν την τράπουλα.

@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] Διορθώθηκε μια μη έγκυρη ιδιότητα κάρτας.
        *[other] Διορθώθηκαν { $count } μη έγκυρες ιδιότητες κάρτας.
     }
+database-check-missing-templates =
+    { $count ->
+        [one] Διαγράφηκε { $count } κάρτα με χαμένο πρότυπο.
+       *[other] Διαγράφηκαν { $count } κάρτες με χαμένο πρότυπο.
+    }
 database-check-field-count =
     { $count ->
         [one] Διορθώθηκε μια σημείωση με λανθασμένο αριθμό πεδίων.

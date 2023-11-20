@@ -42,5 +42,7 @@ notetypes-comments-field = Σχόλια
 notetypes-image-occlusion-name = Επικάλυψη εικόνας
 notetypes-error-loading-image-occlusion = Σφάλμα κατά την φόρτωση της επικάλυψης εικόνων. Είναι η έκδοση του Anki σας ενημερωμένη;
 notetype-error-no-image-to-show = Καμία εικόνα προς εμφάνιση.
+notetypes-no-occlusion-created = Πρέπει να κάνετε τουλάχιστον μια απόκρυψη.
+notetypes-no-occlusion-created2 = Αδυναμία προσθήκης. Δεν έχετε προσθέσει απόκρυψη ή το πρώτο πεδίο είναι κενό.
 notetypes-io-select-image = Επιλογή εικόνας
 notetypes-io-paste-image-from-clipboard = Επικόλληση εικόνας από το πρόχειρο
