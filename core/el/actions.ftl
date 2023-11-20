@@ -69,3 +69,4 @@ actions-flag-turquoise = Τυρκουάζ
 actions-flag-purple = Μωβ
 actions-set-flag = Σήμανση
 actions-nothing-to-undo = Τίποτα προς αναίρεση
+actions-auto-advance = Αυτόματη προώθηση

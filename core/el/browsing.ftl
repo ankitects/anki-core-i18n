@@ -71,6 +71,7 @@ browsing-search-in = Αναζήτηση σε:
 browsing-selected-notes-only = Μόνο επιλεγμένες σημειώσεις
 browsing-shift-position-of-existing-cards = Μετακίνηση θέσης υπαρχουσών καρτών
 browsing-sidebar = Πλαϊνή μπάρα
+browsing-sidebar-filter = Φίλτρο πλαϊνής μπάρας
 browsing-sorting-on-this-column-is-not = Η ταξινόμηση αυτής της στήλης δεν υποστηρίζεται. Παρακαλούμε επιλέξτε μία άλλη.
 browsing-start-position = Θέση εκκίνησης:
 browsing-step = Βήμα:
@@ -81,6 +82,7 @@ browsing-target-field = Στόχος πεδίου:
 browsing-treat-input-as-regular-expression = Διαχείριση καταχώρησης ως κανονική έκφραση.
 browsing-update-saved-search = Ανανέωση με τρέχουσα αναζήτηση
 browsing-whole-collection = Πλήρης συλλογή
+browsing-window-title-notes = Περιήγηση ({ $selected } από { $total } σημειώσεις επιλέχθηκαν)
 browsing-you-must-have-at-least-one = Πρέπει να έχετε τουλάχιστον μια στήλη.
 browsing-group =
     { $count ->
@@ -102,6 +104,7 @@ browsing-cards-updated =
         [one] Μια κάρτα ενημερώθηκε.
        *[other] { $count } κάρτες ενημερώθηκαν.
     }
+browsing-window-title = Περιήγηση ({ $selected } από { $total } κάρτες επιλέχθηκαν)
 browsing-sidebar-expand = Ανάπτυξη
 browsing-sidebar-collapse = Σύμπτυξη
 browsing-sidebar-decks = Τράπουλες
