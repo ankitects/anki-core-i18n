@@ -12,3 +12,5 @@ errors-inconsistent-db-state = Η βάση δεδομένων σας εμφαν�
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+errors-invalid-input-empty = Μη έγκυρη καταχώρηση.
+errors-invalid-input-details = Μη έγκυρη καταχώρηση: { $details }

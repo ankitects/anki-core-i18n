@@ -1,3 +1,4 @@
+custom-study-all-cards-in-random-order-dont = Όλες οι κάρτες σε τυχαία σειρά (χωρίς επαναπρογραμματισμό)
 custom-study-all-review-cards-in-random-order = Όλες οι κάρτες προς επανάληψη σε τυχαία σειρά
 custom-study-cards = κάρτες
 custom-study-cards-from-the-deck = κάρτες από την τράπουλα
@@ -8,6 +9,7 @@ custom-study-increase-todays-new-card-limit-by = Αύξηση του σημερ�
 custom-study-increase-todays-review-card-limit = Αυξήση του σημερινού ορίου επαναλήψεων
 custom-study-increase-todays-review-limit-by = Αύξηση του σημερινού ορίου επαναλήψεων κατά
 custom-study-new-cards-only = Μόνο νέες κάρτες
+custom-study-no-cards-matched-the-criteria-you = Καμία κάρτα δεν ταιριάζει με τα κριτήρια που δώσατε.
 custom-study-ok = ΟΚ
 custom-study-preview-new-cards = Προεπισκόπηση νέων καρτών
 custom-study-review-forgotten-cards = Επανάληψη ξεχασμένων καρτών

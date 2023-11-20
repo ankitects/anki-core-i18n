@@ -1,3 +1,4 @@
+empty-cards-window-title = Κενές κάρτες
 empty-cards-preserve-notes-checkbox = Κρατήστε σημειώσεις με μη έγκυρες κάρτες
 empty-cards-delete-button = Διαγραφή
 empty-cards-not-found = Καμία κενή κάρτα.

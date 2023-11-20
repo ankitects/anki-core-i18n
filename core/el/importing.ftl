@@ -17,6 +17,7 @@ importing-file-must-contain-field-column = Το αρχείο πρέπει να �
 importing-file-version-unknown-trying-import-anyway = Άγνωστη έκδοση αρχείου, δοκιμάζοντας εισαγωγή ούτως ή άλλως.
 importing-identical = Πανομοιότυπα
 importing-ignore-field = Αγνόηση πεδίου
+importing-ignore-lines-where-first-field-matches = Παράλειψη γραμμών όπου το πρώτο πεδίο ταιριάζει με υπάρχουσα σημείωση
 importing-ignored = <αγνοήθηκε>
 importing-import-even-if-existing-note-has = Εισαγωγή ακόμα και αν η υπάρχουσα σημείωση έχει το ίδιο πρώτο πεδίο
 importing-import-options = Επιλογές εισαγωγής
