@@ -15,6 +15,7 @@ preferences-periodically-sync-media = Περιοδικός συγχρονισμ�
 preferences-please-restart-anki-to-complete-language = Παρακαλώ επανεκκινήστε το Anki για την ολοκλήρωση της αλλαγής γλώσσας.
 preferences-preferences = Προτιμήσεις
 preferences-scheduling = Προγραμματισμός
+preferences-show-next-review-time-above-answer = Εμφάνιση χρόνου επόμενης επανάληψης πάνω από τα κουμπιά απάντησης
 preferences-show-remaining-card-count = Εμφάνιση αριθμού εναπομείναντων καρτών
 preferences-some-settings-will-take-effect-after = Μερικές αλλαγές θα εφαρμοστούν μετά την επανεκκίνηση του Anki.
 preferences-tab-synchronisation = Συγχρονισμός

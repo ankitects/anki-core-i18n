@@ -76,6 +76,22 @@ statistics-card-retrievability-title = Ανακτησιμότητα κάρτας
 statistics-card-ease-subtitle = Όσο χαμηλότερη η ευκολία, τόσο πιο συχνά θα εμφανίζεται η κάρτα.
 statistics-card-difficulty-subtitle = Όσο υψηλότερη η δυσκολία, τόσο πιο δύσκολη η ανάκληση.
 statistics-retrievability-subtitle = Η πιθανότητα ανάκλησης της κάρτας σήμερα.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] { $cards } κάρτα με { $percent } ευκολία
+       *[other] { $cards } κάρτες με { $percent } ευκολία
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } κάρτα με { $percent } δυσκολία
+       *[other] { $cards } κάρτες με { $percent } δυσκολία
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } κάρτα με { $percent } ανακτησιμότητα
+       *[other] { $cards } κάρτες με { $percent } ανακτησιμότητα
+    }
 statistics-future-due-title = Πρόγνωση
 statistics-future-due-subtitle = Ο αριθμός επαναλήψεων στο μέλλον.
 statistics-added-title = Προστέθηκε
@@ -88,6 +104,13 @@ statistics-answer-buttons-button-number = Κουμπί
 statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατήσει το κάθε κουμπί.
 statistics-reviews-title = Επιθεωρήσεις
 statistics-reviews-time-checkbox = Χρόνος
+statistics-in-days-single =
+    { $days ->
+        [0] Σήμερα
+        [1] Αύριο
+        [one] Σε { $days } μέρα
+       *[other] Σε { $days } μέρες
+    }
 statistics-in-days-range = Σε { $daysStart }-{ $daysEnd } μέρες
 statistics-days-ago-single =
     { $days ->
@@ -102,6 +125,11 @@ statistics-cards-due =
        *[other] { $cards } προγραμματισμένες κάρτες
     }
 statistics-intervals-title = Διαστήματα
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } κάρτα με διάστημα { $daysStart }~{ $daysEnd } ημερών
+       *[other] { $cards } κάρτες με διάστημα { $daysStart }~{ $daysEnd } ημερών
+    }
 statistics-intervals-day-single =
     { $cards ->
         [one] { $cards } κάρτα με διάστημα { $day } ημερών
@@ -117,6 +145,8 @@ statistics-stability-day-single =
         [one] { $cards } κάρτα με σταθερότητα { $day } ημερών
        *[other] { $cards } κάρτες με σταθερότητα { $day } ημερών
     }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = Από { $hourStart }:00~{ $hourEnd }:00
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } επαναλήψεις
 # the emoji depicts the graph displaying this number
@@ -147,6 +177,16 @@ statistics-average-answer-time-label = Μέσος χρόνος απάντηση�
 statistics-average = Μέσος
 statistics-average-interval = Μέσο ενδιάμεσο διάστημα
 statistics-average-over-period = Αν μελετούσες κάθε μέρα
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } επανάληψη/μέρα
+       *[other] { $count } επαναλήψεις/μέρα
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } λεπτό/μέρα
+       *[other] { $count } λεπτά/μέρα
+    }
 statistics-cards-per-day =
     { $count ->
         [one] { $count } κάρτα/μέρα

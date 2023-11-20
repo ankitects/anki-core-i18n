@@ -74,9 +74,30 @@ importing-note-updated =
         [one] { $count } σημείωση ενημερώθηκε
        *[other] { $count } σημειώσεις ενημερώθηκαν
     }
+importing-processed-media-file =
+    { $count ->
+        [one] Εισήχθη { $count } αρχείο πολυμέσων
+       *[other] Εισήχθησαν { $count } αρχεία πολυμέσων
+    }
 importing-importing-file = Εισαγωγή αρχείου...
+importing-extracting = Εξαγωγή δεδομένων...
 importing-gathering = Συγκέντρωση δεδομένων...
 importing-failed-to-import-media-file = Αποτυχία εισαγωγής του αρχείου πολυμέσων: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Επεξεργάστηκε { $count } σημείωση...
+       *[other] Επεξεργάστηκαν { $count } σημειώσεις...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Επεξεργάστηκε { $count } κάρτα...
+       *[other] Επεξεργάστηκαν { $count } κάρτες...
+    }
+importing-existing-notes = Υπάρχουσες σημειώσεις
+# "Existing notes: Preserve" (verb)
+importing-preserve = Διατηρήστε
+# "Existing notes: Update" (verb)
+importing-update = Ενημερώστε
 importing-tag-all-notes = Σήμανση όλων των σημειώσεων
 importing-tag-updated-notes = Σήμανση ενημερωμένων σημειώσεων
 importing-file = Αρχείο
