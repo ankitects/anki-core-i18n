@@ -39,9 +39,12 @@ importing-also-import-progress = Εισαγωγή προόδου εκμάθησ�
 importing-updates = Ενημερώσεις
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Πακεταρισμένη τράπουλα/συλλογή Anki (*.apkg *.colpkg *.zip)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } πεδία, αναμένωντας { $expected }
+importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο δεν ήταν σε μορφή UTF-8. Παρακαλούμε δείτε την αντίστοιχη ενότητα στο εγχειρίδιο.
 importing-semicolon = Άνω τελεία
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
+importing-tag-modified-notes = Σήμανση τροποποιημένων σημειώσεων:
 importing-the-provided-file-is-not-a = Το αρχείο δεν είναι ένα έγκυρο .apkg αρχείο.
+importing-this-file-does-not-appear-to = Αυτό το αρχείο δεν φαίνεται να είναι ένα έγκυρο αρχείο .apkg. Αν λαμβάνετε αυτό το σφάλμα από ένα αρχείο που κατεβάσατε από το AnkiWeb, είναι πιθανό ότι η λήψη απέτυχε. Παρακαλούμε δοκιμάστε ξανά και αν το πρόβλημα παραμένει, ξαναπροσπαθήστε με έναν διαφορετικό περιηγητή.
 importing-this-will-delete-your-existing-collection = Αυτή η ενέργεια θα διαγράψει την υπάρχουσα συλλογή σας και θα την αντικαταστήσει με δεδομένα του αρχείου που εισάγετε. Είστε σίγουροι;
 importing-unable-to-import-from-a-readonly = Αδύνατη η εισαγωγή από αρχείο μόνο προς ανάγνωση.
 importing-unknown-file-format = Άγνωστη μορφή αρχείου.
@@ -72,10 +75,27 @@ importing-importing-file = Εισαγωγή αρχείου...
 importing-gathering = Συγκέντρωση δεδομένων...
 importing-failed-to-import-media-file = Αποτυχία εισαγωγής του αρχείου πολυμέσων: { $debugInfo }
 importing-file = Αρχείο
+importing-cards-added =
+    { $count ->
+        [one] Προστέθηκε { $count } κάρτα.
+       *[other] Προστέθηκαν { $count } κάρτες.
+    }
+importing-file-empty = Το αρχείο που επιλέξατε είναι κενό.
+importing-notes-added =
+    { $count ->
+        [one] Εισήχθη { $count } νέα σημείωση.
+       *[other] Εισήχθησαν { $count } νέες σημειώσεις.
+    }
 importing-details = Λεπτομέρειες
 importing-status = Κατάσταση
+importing-existing-note-skipped = Η σημείωση παραλείφθηκε, καθώς ένα ενημερωμένο αντίγραφο υπάρχει ήδη στην συλλογή σας
+importing-note-updated-as-file-had-newer = Η σημείωση ενημερώθηκε, καθώς το αρχείο είχε μια νεότερη έκδοση
+importing-note-skipped-due-to-missing-deck = Η σημείωση παραλείφθηκε καθώς η τράπουλα λείπει
+importing-note-skipped-due-to-empty-first-field = Η σημείωση παραλείφθηκε καθώς το πρώτο πεδίο είναι κενό
+importing-deck-help = Η εισαγόμενες κάρτες θα τοποθετηθούν σε αυτήν την τράπουλα.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Εισαγωγή συλλογής...
 importing-unable-to-import-filename = Η εισαγωγή του { $filename } δεν είναι δυνατή: ο τύπος αρχείου δεν υποστηρίζεται
+importing-notes-that-could-not-be-imported = Σημειώσεις που δεν εισήχθησαν καθώς ο τύπος σημείωσης έχει αλλάξει: { $val }

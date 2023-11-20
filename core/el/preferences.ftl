@@ -45,6 +45,7 @@ preferences-editing = Επεξεργασία
 preferences-browsing = Περιήγηση
 preferences-default-deck = Προεπιλεγμένη τράπουλα
 preferences-account = Λογαριασμός AnkiWeb
+preferences-note = Σημείωση
 preferences-scheduler = Προγραμματιστής
 preferences-user-interface = Διεπαφή χρήστη
 preferences-import-export = Εισαγωγή/Εξαγωγή

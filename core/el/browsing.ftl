@@ -112,6 +112,7 @@ browsing-tooltip-card-modified = Η τελευταία φορά που έγιν�
 browsing-tooltip-note-modified = Η τελευταία φορά που έγιναν αλλαγές σε μια σημείωση, συνήθως στο περιεχόμενο του πεδίου ή επεξεργασία των ετικετών.
 browsing-tooltip-card = Το όνομα του προτύπου της κάρτας
 browsing-tooltip-cards = Αριθμός καρτών που έχει η σημείωση
+browsing-tooltip-notetype = Το όνομα του τύπου σημείωσης μιας σημείωσης
 browsing-studied-today = Μελέτη σήμερα
 browsing-added-today = Προστέθηκε σήμερα
 browsing-again-today = Ξανά σήμερα

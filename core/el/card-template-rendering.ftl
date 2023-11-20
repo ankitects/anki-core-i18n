@@ -10,6 +10,12 @@ card-template-rendering-no-closing-brackets = Λείπει '{ $missing }' σε '
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
 card-template-rendering-conditional-not-closed = Λείπει '{ $missing }'
+# when the user closed the wrong conditional
+# eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
+card-template-rendering-wrong-conditional-closed = Βρέθηκε '{ $found }', αλλά αναμένονταν '{ $expected }'
+# when the user referenced a field that doesn't exist
+# eg, Found '{{Field}}', but there is not field called 'Field'
+card-template-rendering-no-such-field = Βρέθηκε '{ $found }', αλλά δεν υπάρχει πεδίο με το όνομα '{ $field }'
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
