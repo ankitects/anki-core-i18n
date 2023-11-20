@@ -15,6 +15,11 @@ database-check-field-count =
         [one] Διορθώθηκε μια σημείωση με λανθασμένο αριθμό πεδίων.
        *[other] Διορθώθηκαν { $count } σημείωσεις με λανθασμένο αριθμό πεδίων.
     }
+database-check-card-missing-note =
+    { $count ->
+        [one] Διαγράφηκε { $count } κάρτα με χαμένη σημείωση.
+       *[other] Διαγράφηκαν { $count } κάρτες με χαμένη σημείωση.
+    }
 database-check-duplicate-card-ords =
     { $count ->
         [one] Διαγράφηκε { $count } κάρτα με διπλό πρότυπο.

@@ -38,6 +38,7 @@ deck-config-today-only = Σήμερα μόνο
 deck-config-learning-steps = Βήματα εκμάθησης
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Οι καθυστερήσεις είναι τυπικά σε λεπτά (π.χ. '1m') ή μέρες (π.χ. '2d'), αλλά ώρες (π.χ. '1h') ή δευτερόλεπτα (π.χ. '30s') υποστηρίζονται επίσης.
+deck-config-easy-interval-tooltip = Ο αριθμός ημερών μέχρι την επανεμφάνιση της κάρτας, αφού πατηθεί το κουμπί 'Εύκολο' που αφαιρεί αμέσως την κάρτα από το στάδιο της εκμάθησης.
 deck-config-new-insertion-order = Σειρά εισαγωγής
 deck-config-new-insertion-order-sequential = Διαδοχικά (παλαιότερες κάρτες πρώτα)
 deck-config-new-insertion-order-random = Τυχαία
@@ -123,6 +124,11 @@ deck-config-description-new-handling = Χρήση Anki 2.1.41+
 
 ## Warnings shown to the user
 
+deck-config-reviews-too-low =
+    Αν προσθέτετε{ $cards ->
+        [one] { $cards } νέα κάρτα κάθε μέρα
+       *[other] { $cards } νέες κάρτες κάθε μέρα
+    }, το όριο επαναλήψεων σας πρέπει να είναι τουλάχιστον { $expected }.
 deck-config-maximum-answer-secs-above-recommended = Το Anki μπορεί να προγραμματίσει τις επαναλήψεις πιο αποτελεσματικά όταν κρατάτε την κάθε ερώτηση σύντομη.
 
 ## Selecting a deck

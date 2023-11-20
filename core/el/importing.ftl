@@ -43,13 +43,16 @@ importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο
 importing-semicolon = Άνω τελεία
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
 importing-tag-modified-notes = Σήμανση τροποποιημένων σημειώσεων:
+importing-text-separated-by-tabs-or-semicolons = Κείμενο διαχωρισμένο από tabs ή άνω τελεία (*)
 importing-the-provided-file-is-not-a = Το αρχείο δεν είναι ένα έγκυρο .apkg αρχείο.
 importing-this-file-does-not-appear-to = Αυτό το αρχείο δεν φαίνεται να είναι ένα έγκυρο αρχείο .apkg. Αν λαμβάνετε αυτό το σφάλμα από ένα αρχείο που κατεβάσατε από το AnkiWeb, είναι πιθανό ότι η λήψη απέτυχε. Παρακαλούμε δοκιμάστε ξανά και αν το πρόβλημα παραμένει, ξαναπροσπαθήστε με έναν διαφορετικό περιηγητή.
 importing-this-will-delete-your-existing-collection = Αυτή η ενέργεια θα διαγράψει την υπάρχουσα συλλογή σας και θα την αντικαταστήσει με δεδομένα του αρχείου που εισάγετε. Είστε σίγουροι;
 importing-unable-to-import-from-a-readonly = Αδύνατη η εισαγωγή από αρχείο μόνο προς ανάγνωση.
 importing-unknown-file-format = Άγνωστη μορφή αρχείου.
+importing-update-existing-notes-when-first-field = Ενημέρωση υπαρχουσών σημειώσεων όταν ταιριάζει το πρώτο πεδίο
 importing-update-always = Πάντα
 importing-update-never = Ποτέ
+importing-update-notes = Ενημέρωση σημειώσεων
 importing-update-notetypes = Ενημέρωση τύπων σημειώσεων
 importing-note-added =
     { $count ->
@@ -74,7 +77,11 @@ importing-note-updated =
 importing-importing-file = Εισαγωγή αρχείου...
 importing-gathering = Συγκέντρωση δεδομένων...
 importing-failed-to-import-media-file = Αποτυχία εισαγωγής του αρχείου πολυμέσων: { $debugInfo }
+importing-tag-all-notes = Σήμανση όλων των σημειώσεων
+importing-tag-updated-notes = Σήμανση ενημερωμένων σημειώσεων
 importing-file = Αρχείο
+# Used with the 'match scope' option
+importing-notetype-and-deck = Τύπος σημείωσης και τράπουλα
 importing-cards-added =
     { $count ->
         [one] Προστέθηκε { $count } κάρτα.
@@ -86,6 +93,21 @@ importing-notes-added =
         [one] Εισήχθη { $count } νέα σημείωση.
        *[other] Εισήχθησαν { $count } νέες σημειώσεις.
     }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } σημείωση χρησιμοποιήθηκε για την ενημέρωση των υπαρχουσών.
+       *[other] { $count } σημειώσεις χρησιμοποιήθηκαν για την ενημέρωση των υπαρχουσών.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } σημείωση υπάρχει ήδη στην συλλογή σας.
+       *[other] { $count } σημειώσεις υπάρχουν ήδη στην συλλογή σας.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } σημείωση δεν εισήχθη επειδή άλλαξε ο τύπος της.
+       *[other] { $count } σημειώσεις δεν εισήχθησαν επειδή άλλαξε ο τύπος της.
+    }
 importing-no-notes-in-file = Δεν βρέθηκαν σημειώσεις στο αρχείο.
 importing-notes-found-in-file2 =
     { $notes ->
@@ -96,11 +118,13 @@ importing-show = Προβολή
 importing-details = Λεπτομέρειες
 importing-status = Κατάσταση
 importing-existing-note-skipped = Η σημείωση παραλείφθηκε, καθώς ένα ενημερωμένο αντίγραφο υπάρχει ήδη στην συλλογή σας
+importing-note-skipped-update-due-to-notetype = Η σημείωση δεν ενημερώθηκε καθώς ο τύπος της τροποποιήθηκε από τότε που την εισήγατε για πρώτη φορά
 importing-note-updated-as-file-had-newer = Η σημείωση ενημερώθηκε, καθώς το αρχείο είχε μια νεότερη έκδοση
 importing-note-skipped-due-to-missing-notetype = Η σημείωση παραλείφθηκε καθώς ο τύπος της λείπει.
 importing-note-skipped-due-to-missing-deck = Η σημείωση παραλείφθηκε καθώς η τράπουλα λείπει
 importing-note-skipped-due-to-empty-first-field = Η σημείωση παραλείφθηκε καθώς το πρώτο πεδίο είναι κενό
 importing-deck-help = Η εισαγόμενες κάρτες θα τοποθετηθούν σε αυτήν την τράπουλα.
+importing-tag-updated-notes-help = Αυτές οι ετικέτες θα προστεθούν στις ενημερωμένες σημειώσεις.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

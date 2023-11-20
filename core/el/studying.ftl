@@ -15,6 +15,7 @@ studying-more = Περισσότερα
 studying-no-cards-are-due-yet = Καμία κάρτα δεν είναι ακόμα προγραμματισμένη.
 studying-note-suspended = Αναστολή σημείωσης
 studying-pause-audio = Παύση ήχου
+studying-please-run-toolsempty-cards = Παρακαλούμε εκτελέστε Εργαλεία>Κενές κάρτες
 studying-show-answer = Προβολή απάντησης
 studying-study-now = Μελέτησε τώρα
 studying-suspend = Αναστολή
