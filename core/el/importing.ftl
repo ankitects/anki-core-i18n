@@ -1,5 +1,5 @@
 importing-failed-debug-info = Η εισαγωγή απέτυχε. Πληροφορίες αποσφαλμάτωσης:
-importing-added-duplicate-with-first-field = Προστέθηκε διπλοεγγραφή με το πρώτο πεδίο:{ $val }
+importing-added-duplicate-with-first-field = Προστέθηκε διπλότυπo με το πρώτο πεδίο:{ $val }
 importing-all-supported-formats = Όλες οι υποστήριζομενες μορφές { $val }
 importing-allow-html-in-fields = Επιτρέψτε HTML στα πεδία
 importing-anki-files-are-from-a-very = Τα αρχεία .anki είναι από μια πολύ παλιά έκδοση του Anki. Μπορείτε να τα εισάγετε με το πρόσθετο 175027074 ή με το Anki 2.0 που είναι διαθέσιμο στην ιστοσελίδα του Anki.
