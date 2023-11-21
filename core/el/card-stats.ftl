@@ -20,6 +20,7 @@ card-stats-review-log-type-learn = Μάθετε
 card-stats-review-log-type-review = Επανάληψη
 card-stats-review-log-type-relearn = Επανεκμάθηση
 card-stats-review-log-type-filtered = Φιλτραρισμένο
+card-stats-review-log-type-manual = Χειροκίνητα
 card-stats-no-card = (Καμία κάρτα προς προβολή.)
 card-stats-fsrs-stability = Σταθερότητα
 card-stats-fsrs-difficulty = Δυσκολία
