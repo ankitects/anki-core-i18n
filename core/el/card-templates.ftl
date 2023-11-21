@@ -27,6 +27,7 @@ card-templates-card-types-for = Τύποι καρτών για { $val }
 card-templates-cloze = Κλείσιμο
 card-templates-delete-the-as-card-type-and = Διαγραφή του τύπου κάρτας '{ $template }' και των { $cards } του;
 card-templates-enter-new-card-position-1 = Εισάγετε τη νέα θέση της κάρτας (1...{ $val }):
+card-templates-flip = Περιστροφή
 card-templates-form = Φόρμα
 card-templates-off = (κλειστό)
 card-templates-on = (ανοιχτό)

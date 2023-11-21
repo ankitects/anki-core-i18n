@@ -68,6 +68,7 @@ browsing-reposition-new-cards = Επανατοποθέτηση νέων καρτ
 browsing-reschedule = Επαναπρογραμματισμός
 browsing-search-bar-hint = Αναζήτηση καρτών/σημειώσεων (πληκτρολογήστε κείμενο και μετά πιέστε Enter)
 browsing-search-in = Αναζήτηση σε:
+browsing-search-within-formatting-slow = Αναζήτηση με μορφοποίηση (αργή)
 browsing-selected-notes-only = Μόνο επιλεγμένες σημειώσεις
 browsing-shift-position-of-existing-cards = Μετακίνηση θέσης υπαρχουσών καρτών
 browsing-sidebar = Πλαϊνή μπάρα
