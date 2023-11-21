@@ -13,6 +13,9 @@ card-template-rendering-conditional-not-closed = Λείπει '{ $missing }'
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
 card-template-rendering-wrong-conditional-closed = Βρέθηκε '{ $found }', αλλά αναμένονταν '{ $expected }'
+# when the user closed a conditional that wasn't open
+# eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
+card-template-rendering-conditional-not-open = Βρέθηκε '{ $found }', αλλά λείπει '{ $missing1 }' ή '{ $missing2 }'
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
 card-template-rendering-no-such-field = Βρέθηκε '{ $found }', αλλά δεν υπάρχει πεδίο με το όνομα '{ $field }'

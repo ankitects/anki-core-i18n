@@ -9,6 +9,7 @@ card-templates-card-type = Τύπος κάρτας:
 card-templates-front-template = Πρότυπο Γραμματοσειράς
 card-templates-back-template = Πρότυπο πίσω
 card-templates-template-styling = Μορφοποίηση
+card-templates-front-preview = Οπίσθια προεπισκόπηση
 card-templates-back-preview = Προβολή Πίσω
 card-templates-preview-box = Προεπισκόπηση
 card-templates-template-box = Πρότυπο

@@ -38,6 +38,9 @@ deck-config-today-only = Σήμερα μόνο
 deck-config-learning-steps = Βήματα εκμάθησης
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Οι καθυστερήσεις είναι τυπικά σε λεπτά (π.χ. '1m') ή μέρες (π.χ. '2d'), αλλά ώρες (π.χ. '1h') ή δευτερόλεπτα (π.χ. '30s') υποστηρίζονται επίσης.
+deck-config-graduating-interval-tooltip =
+    Ο αριθμός ημερών πριν επανεμφανιστεί η κάρτα, αφού πατηθεί το κουμπί 'Καλά'
+    στο τελευταίο βήμα εκμάθησης.
 deck-config-easy-interval-tooltip = Ο αριθμός ημερών μέχρι την επανεμφάνιση της κάρτας, αφού πατηθεί το κουμπί 'Εύκολο' που αφαιρεί αμέσως την κάρτα από το στάδιο της εκμάθησης.
 deck-config-new-insertion-order = Σειρά εισαγωγής
 deck-config-new-insertion-order-sequential = Διαδοχικά (παλαιότερες κάρτες πρώτα)
