@@ -8,6 +8,7 @@ statistics-due-for-new-card = Νέες #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } κάρτες/λεπτό
+statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -56,6 +57,7 @@ statistics-reviews =
 statistics-today-title = Σήμερα
 statistics-today-again-count = Επανακαταμέτρηση:
 statistics-today-no-cards = Καμία κάρτα δεν μελετήθηκε σήμερα.
+statistics-today-correct-mature = Σωστές απαντήσεις σε ώριμες κάρτες: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Σύνολο
 statistics-counts-new-cards = Νέο
 statistics-counts-suspended-cards = Σε αναστολή

@@ -9,6 +9,7 @@ search-invalid-other = παρακαλούμε ελέγξτε για τυπογρ
 
 ## eg. expected a number in "due>5x", but found "5x"
 
+search-invalid-number = Αναμένονταν αριθμός στο "`{ $context }`", αλλά βρέθηκε "`{ $provided }`".
 
 ## Column labels in browse screen
 

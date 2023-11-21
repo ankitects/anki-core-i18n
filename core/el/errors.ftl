@@ -9,6 +9,7 @@ errors-inconsistent-db-state = Η βάση δεδομένων σας εμφαν�
 
 ## Card Rendering
 
+errors-option-not-set = '{ $option }' δεν ορίστηκε
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

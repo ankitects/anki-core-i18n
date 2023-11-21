@@ -24,6 +24,7 @@ decks-random = Τυχαία
 decks-reschedule-cards-based-on-my-answers = Επαναπρογραμματισμός καρτών βάσει των απαντήσεων μου σε αυτή την τράπουλα
 decks-study = Μελέτη
 decks-study-deck = Μελέτη τράπουλας
+decks-filtered-deck-search-empty = Καμία κάρτα δεν ταιριάζει στην αναζήτησή σας. Μερικές κάρτες μπορεί να αποκλείστηκαν επειδή είναι σε μια φιλτραρισμένη τράπουλα ή σε αναστολή.
 decks-unmovable-cards = Εμφάνιση εξαιρούμενων καρτών
 decks-learn-header = Μάθετε
 # The count of cards waiting to be reviewed

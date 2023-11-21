@@ -22,6 +22,7 @@ studying-suspend = Αναστολή
 studying-suspend-note = Αναστολή σημείωσης
 studying-this-is-a-special-deck-for = Αυτή είναι μια ειδική τράπουλα για μελέτη εκτός του κανονικού προγράμματος.
 studying-to-review = Προς επανάληψη
+studying-type-answer-unknown-field = Πληκτρολογήστε απάντηση: άγνωστο πεδίο { $val }
 studying-you-havent-recorded-your-voice-yet = Δεν έχετε ηχογραφήσει τη φωνή σας ακόμα
 studying-card-studied-in =
     { $count ->

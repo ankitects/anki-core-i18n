@@ -67,3 +67,5 @@ media-check-empty-trash = Άδειασμα Κάδου Ανακύκλωσης
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Επαναφορά διαγραμμένων
 media-check-check-media-action = Έλεγχος πολυμέσων
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = χαμένα-πολυμέσα

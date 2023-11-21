@@ -1,4 +1,5 @@
 empty-cards-for-note-type = Κενές κάρτες για { $notetype }:
+empty-cards-count-line = { $empty_count } από { $existing_count } κάρτες είναι κενές ({ $template_names }).
 empty-cards-window-title = Κενές κάρτες
 empty-cards-preserve-notes-checkbox = Κρατήστε σημειώσεις με μη έγκυρες κάρτες
 empty-cards-delete-button = Διαγραφή
