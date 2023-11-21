@@ -52,6 +52,7 @@ deck-config-relearning-steps = Βήματα επανεκμάθησης
 
 ## Burying section
 
+deck-config-bury-title = Αναβολή
 
 ## Ordering section
 

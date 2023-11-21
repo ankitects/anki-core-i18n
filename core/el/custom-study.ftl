@@ -12,6 +12,7 @@ custom-study-new-cards-only = Μόνο νέες κάρτες
 custom-study-no-cards-matched-the-criteria-you = Καμία κάρτα δεν ταιριάζει με τα κριτήρια που δώσατε.
 custom-study-ok = ΟΚ
 custom-study-preview-new-cards = Προεπισκόπηση νέων καρτών
+custom-study-require-one-or-more-of-these = Απαιτεί μία ή περισσότερες από αυτές τις ετικέτες:
 custom-study-review-forgotten-cards = Επανάληψη ξεχασμένων καρτών
 custom-study-select = Επιλογή
 custom-study-select-tags-to-exclude = Επιλογή ετικετών προς εξαίρεση:
