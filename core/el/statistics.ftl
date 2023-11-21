@@ -56,7 +56,8 @@ statistics-reviews =
     }
 statistics-today-title = Σήμερα
 statistics-today-again-count = Επανακαταμέτρηση:
-statistics-today-no-cards = Καμία κάρτα δεν μελετήθηκε σήμερα.
+statistics-today-no-cards = Καμία κάρτα δεν διαβάστηκε σήμερα.
+statistics-today-no-mature-cards = Καμία ώριμη κάρτα δεν διαβάστηκε σήμερα.
 statistics-today-correct-mature = Σωστές απαντήσεις σε ώριμες κάρτες: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Σύνολο
 statistics-counts-new-cards = Νέο

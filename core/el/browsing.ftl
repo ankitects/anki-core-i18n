@@ -144,7 +144,7 @@ browsing-reparented-decks =
         [one] Μετονομάστηκε μια τράπουλα.
        *[other] Μετονομάστηκαν { $count } τράπουλες.
     }
-browsing-sidebar-card-state-review = Επιθεώρηση
+browsing-sidebar-card-state-review = Επανάληψη
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -159,7 +159,7 @@ deck-config-evaluate-button = Εκτίμηση
 deck-config-desired-retention = Επιθυμητή απομνημόνευση
 deck-config-sm2-retention = Απομνημόνευση SM2
 deck-config-smaller-is-better = Μικρότεροι αριθμοί υποδεικνύουν καλύτερη ταύτιση με το ιστορικό των επαναλήψεων σας.
-deck-config-steps-too-large-for-fsrs = Όταν το FSRS είναι ενεργοποιημένο, βήματα εκμάθησης 1+ ημερών δεν προτείνονται.
+deck-config-steps-too-large-for-fsrs = Όταν το FSRS είναι ενεργοποιημένο, βήματα εκμάθησης μίας ή περισσότερων ημερών δεν προτείνονται.
 deck-config-get-params = Λήψη παραμέτρων
 deck-config-fsrs-on-all-clients =
     Παρακαλούμε βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.

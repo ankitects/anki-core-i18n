@@ -29,8 +29,8 @@ studying-unbury = Αναίρεση αναβολής
 studying-you-havent-recorded-your-voice-yet = Δεν έχετε ηχογραφήσει τη φωνή σας ακόμα
 studying-card-studied-in =
     { $count ->
-        [one] { $count } κάρτα μελετήθηκε στο
-       *[other] { $count } κάρτες μελετήθηκαν στο
+        [one] { $count } κάρτα διαβάστηκε στο
+       *[other] { $count } κάρτες διαβάστηκαν στο
     }
 studying-minute =
     { $count ->
