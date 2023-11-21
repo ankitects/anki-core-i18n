@@ -42,6 +42,7 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } 
 importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο δεν ήταν σε μορφή UTF-8. Παρακαλούμε δείτε την αντίστοιχη ενότητα στο εγχειρίδιο.
 importing-semicolon = Άνω τελεία
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
+importing-tab = Tab
 importing-tag-modified-notes = Σήμανση τροποποιημένων σημειώσεων:
 importing-text-separated-by-tabs-or-semicolons = Κείμενο διαχωρισμένο από tabs ή άνω τελεία (*)
 importing-the-provided-file-is-not-a = Το αρχείο δεν είναι ένα έγκυρο .apkg αρχείο.

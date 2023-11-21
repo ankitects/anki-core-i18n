@@ -9,6 +9,7 @@ browsing-average-ease = Μέση ευκολία
 browsing-average-interval = Μέσο διάστημα
 browsing-browser-appearance = Εμφάνιση περιηγητή
 browsing-browser-options = Επιλογές περιηγητή
+browsing-buried = Σε αναβολή
 browsing-card = Κάρτα
 browsing-cards = Κάρτες
 browsing-card-list = Κατάλογος Κάρτας

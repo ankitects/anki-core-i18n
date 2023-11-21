@@ -63,6 +63,7 @@ statistics-counts-new-cards = Νέο
 statistics-counts-suspended-cards = Σε αναστολή
 statistics-counts-learning-cards = Εκμάθηση
 statistics-counts-relearning-cards = Επανεκμάθηση
+statistics-counts-separate-suspended-buried-cards = Διαχωρισμός καρτών σε αναβολή/αναστολή
 statistics-range-all-time = ζωή της τράπουλας
 statistics-range-1-year-history = τελευταίοι 12 μήνες
 statistics-range-all-history = όλο το ιστορικό

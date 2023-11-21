@@ -1,6 +1,7 @@
 studying-again = Ξανά
-studying-bury = Μπέρι
-studying-bury-note = Σημείωση μπέρι
+studying-bury = Αναβολή
+studying-bury-card = Αναβολή κάρτας
+studying-bury-note = Αναβολή σημείωσης
 studying-card-suspended = Αναστολή κάρτας.
 studying-cards-will-be-automatically-returned-to = Οι κάρτες θα επιστραφούν αυτόματα στις αρχικές τους τράπουλες αφού τις επιθεωρήσεις.
 studying-delete-note = Διαγραφή Σημείωσης
@@ -11,6 +12,7 @@ studying-empty = Κενό
 studying-flag-card = Σήμανση κάρτας
 studying-good = Καλώς
 studying-hard = Δύσκολο
+studying-it-has-been-suspended = Έχει ανασταλεί.
 studying-more = Περισσότερα
 studying-no-cards-are-due-yet = Καμία κάρτα δεν είναι ακόμα προγραμματισμένη.
 studying-note-suspended = Αναστολή σημείωσης
@@ -23,6 +25,7 @@ studying-suspend-note = Αναστολή σημείωσης
 studying-this-is-a-special-deck-for = Αυτή είναι μια ειδική τράπουλα για μελέτη εκτός του κανονικού προγράμματος.
 studying-to-review = Προς επανάληψη
 studying-type-answer-unknown-field = Πληκτρολογήστε απάντηση: άγνωστο πεδίο { $val }
+studying-unbury = Αναίρεση αναβολής
 studying-you-havent-recorded-your-voice-yet = Δεν έχετε ηχογραφήσει τη φωνή σας ακόμα
 studying-card-studied-in =
     { $count ->
