@@ -1,4 +1,4 @@
-database-check-corrupt = Η συλλογή είναι κατεστραμμένη. Παρακαλούμε δείτε το manual.
+database-check-corrupt = Η συλλογή είναι κατεστραμμένη. Παρακαλούμε αντικαταστήστε την από ένα αυτόματο αντίγραφο ασφαλείας.
 database-check-rebuilt = Η βάση δεδομένων ξαναδημιουργήθηκε και βελτιώθηκε.
 database-check-card-properties =
     { $count ->
