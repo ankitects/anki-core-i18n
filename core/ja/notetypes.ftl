@@ -14,7 +14,7 @@ notetypes-basic-name = 基本
 notetypes-basic-reversed-name = 基本 (裏表反転カード付き)
 notetypes-basic-optional-reversed-name = 基本 (裏表反転カード追加可能)
 notetypes-basic-type-answer-name = 基本 (文字入力解答)
-notetypes-cloze-name = 穴埋め
+notetypes-cloze-name = 穴埋め問題
 
 ## Default card template names
 
@@ -39,17 +39,17 @@ notetypes-type = ノートタイプ
 ## Image Occlusion
 
 notetypes-image = 画像
-notetypes-occlusion = 画像穴埋め
+notetypes-occlusion = 画像穴埋め問題
 notetypes-occlusion-mask = マスク
 notetypes-occlusion-note = ノート
 notetypes-comments-field = コメント
 notetypes-toggle-masks = 他マスクを表示 / 非表示
-notetypes-image-occlusion-name = 画像穴埋め
+notetypes-image-occlusion-name = 画像穴埋め問題
 notetypes-hide-all-guess-one = マスク（のグループ）ごとにカード（他マスクも表示）
 notetypes-hide-one-guess-one = マスク（のグループ）ごとにカード（他マスクは非表示）
-notetypes-error-generating-cloze = 画像穴埋めタイプのノートを作成中にエラーが発生しました
-notetypes-error-getting-imagecloze = 画像穴埋めタイプのノートを取得中にエラーが発生しました
-notetypes-error-loading-image-occlusion = 画像穴埋めタイプのノートの読み込み中にエラーが発生しました。Ankiのバージョンは最新ですか？
+notetypes-error-generating-cloze = 画像穴埋め問題タイプのノートを作成中にエラーが発生しました
+notetypes-error-getting-imagecloze = 画像穴埋め問題タイプのノートを取得中にエラーが発生しました
+notetypes-error-loading-image-occlusion = 画像穴埋め問題タイプのノートの読み込み中にエラーが発生しました。Ankiのバージョンは最新ですか？
 notetype-error-no-image-to-show = 表示する画像がありません
 notetypes-no-occlusion-created = 少なくとも一つはマスクを作成する必要があります。
 notetypes-no-occlusion-created2 = ノートを追加できませんでした。画像上にマスクを一つも追加していないか、最初のフィールドが空です。
