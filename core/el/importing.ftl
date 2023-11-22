@@ -10,11 +10,13 @@ importing-change = Αλλαγή
 importing-colon = Άνω κάτω τελεία
 importing-comma = Κόμμα
 importing-empty-first-field = Κενό πρώτο πεδίο: { $val }
+importing-field-separator = Διαχωριστής πεδίων
 importing-field-mapping = Αντιστοίχιση πεδίου
 importing-field-of-file-is = Πεδίο <b>{ $val }</b> αυτού του αρχείου:
 importing-fields-separated-by = Πεδία χωρισμένα με:{ $val }
 importing-file-must-contain-field-column = Το αρχείο πρέπει να περιέχει τουλάχιστον μια στήλη που μπορεί να αντιστοιχηθεί σε ένα πεδίο σημείωσης.
 importing-file-version-unknown-trying-import-anyway = Άγνωστη έκδοση αρχείου, δοκιμάζοντας εισαγωγή ούτως ή άλλως.
+importing-first-field-matched = Αντιστοιχία πρώτου πεδίου: { $val }
 importing-identical = Πανομοιότυπα
 importing-ignore-field = Αγνόηση πεδίου
 importing-ignore-lines-where-first-field-matches = Παράλειψη γραμμών όπου το πρώτο πεδίο ταιριάζει με υπάρχουσα σημείωση
@@ -139,6 +141,8 @@ importing-notes-found-in-file2 =
 importing-show = Προβολή
 importing-details = Λεπτομέρειες
 importing-status = Κατάσταση
+importing-duplicate-note-added = Προστέθηκε διπλότυπο
+importing-added-new-note = Προστέθηκε νέα σημείωση
 importing-existing-note-skipped = Η σημείωση παραλείφθηκε, καθώς ένα ενημερωμένο αντίγραφο υπάρχει ήδη στην συλλογή σας
 importing-note-skipped-update-due-to-notetype = Η σημείωση δεν ενημερώθηκε καθώς ο τύπος της τροποποιήθηκε από τότε που την εισήγατε για πρώτη φορά
 importing-note-updated-as-file-had-newer = Η σημείωση ενημερώθηκε, καθώς το αρχείο είχε μια νεότερη έκδοση
@@ -150,6 +154,7 @@ importing-field-separator-help =
     
     Παρακαλούμε λάβετε υπόψη ότι αν αυτός ο χαρακτήρας εμφανίζεται σε οποιοδήποτε πεδίο μόνος του, το πεδίο πρέπει να παρατίθεται κατάλληλα σύμφωνα με το πρότυπο CSV. Προγράμματα Spreadsheet όπως το LibreOffice το κάνουν αυτόματα.
 importing-deck-help = Η εισαγόμενες κάρτες θα τοποθετηθούν σε αυτήν την τράπουλα.
+importing-tag-all-notes-help = Αυτές οι ετικέτες θα προστεθούν σε νεοεισαγώμενες και ενημερωμένες σημειώσεις.
 importing-tag-updated-notes-help = Αυτές οι ετικέτες θα προστεθούν στις ενημερωμένες σημειώσεις.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
