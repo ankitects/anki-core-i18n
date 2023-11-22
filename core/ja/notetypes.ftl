@@ -4,7 +4,7 @@ notetypes-notetype = ノートタイプ
 
 notetypes-front-field = 表面
 notetypes-back-field = 裏面
-notetypes-add-reverse-field = 反転カード追加（各裏面追記）
+notetypes-add-reverse-field = 任意の入力で反転カード追加
 notetypes-text-field = Text
 notetypes-back-extra-field = 裏面追記
 
