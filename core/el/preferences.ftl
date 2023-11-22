@@ -4,6 +4,7 @@ preferences-change-deck-depending-on-note-type = Αλλαγή τράπουλας
 preferences-changes-will-take-effect-when-you = Οι αλλαγές θα εφαρμοστούν όταν κάνετε επανεκκίνηση του Anki.
 preferences-hours-past-midnight = ώρες μετά τα μεσάνυχτα
 preferences-language = Γλώσσα
+preferences-interrupt-current-audio-when-answering = Διακοπή ήχου κατά τη διάρκεια απάντησης
 preferences-mins = λεπτά
 preferences-network = Δίκτυο
 preferences-next-day-starts-at = Η επόμενη μέρα αρχίζει στις
@@ -15,6 +16,7 @@ preferences-periodically-sync-media = Περιοδικός συγχρονισμ�
 preferences-please-restart-anki-to-complete-language = Παρακαλώ επανεκκινήστε το Anki για την ολοκλήρωση της αλλαγής γλώσσας.
 preferences-preferences = Προτιμήσεις
 preferences-scheduling = Προγραμματισμός
+preferences-show-learning-cards-with-larger-steps = Εμφάνιση καρτών προς μελέτη με μεγαλύτερα βήματα πριν τις επαναλήψεις
 preferences-show-next-review-time-above-answer = Εμφάνιση χρόνου επόμενης επανάληψης πάνω από τα κουμπιά απάντησης
 preferences-show-remaining-card-count = Εμφάνιση αριθμού εναπομείναντων καρτών
 preferences-some-settings-will-take-effect-after = Μερικές αλλαγές θα εφαρμοστούν μετά την επανεκκίνηση του Anki.
@@ -22,6 +24,7 @@ preferences-tab-synchronisation = Συγχρονισμός
 preferences-synchronizationnot-currently-enabled-click-the-sync = <
 preferences-synchronize-audio-and-images-too = Συγχρονισμός ήχου και εικόνων επίσης
 preferences-user-interface-size = Μέγεθος διεπαφής χρήστη
+preferences-when-adding-default-to-current-deck = Προσθήκη στην τρέχουσα τράπουλα ως προεπιλογή
 preferences-you-can-restore-backups-via-fileswitch = Μπορείτε να αποκαταστήσετε αντίγραφα μέσω Αρχείο > Αλλαγή Προφίλ
 preferences-default-search-text = Προεπιλεγμένο κείμενο αναζήτησης
 preferences-theme = Θέμα
@@ -51,6 +54,8 @@ preferences-note = Σημείωση
 preferences-scheduler = Προγραμματιστής
 preferences-user-interface = Διεπαφή χρήστη
 preferences-import-export = Εισαγωγή/Εξαγωγή
+preferences-reset-window-sizes-complete = Το μέγεθος των παραθύρων και οι τοποθεσίες έχουν επαναρυθμιστεί.
+preferences-shortcut-placeholder = Εισάγετε ένα μη χρησιμοποιούμενο πλήκτρο συντόμευσης ή αφήστε κενό για απενεργοποίηση.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

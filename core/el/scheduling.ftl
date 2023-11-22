@@ -3,6 +3,10 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
+scheduling-answer-button-time-seconds = { $amount }s
+scheduling-answer-button-time-minutes = { $amount }m
+scheduling-answer-button-time-hours = { $amount }h
+scheduling-answer-button-time-days = { $amount }d
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
@@ -103,6 +107,7 @@ scheduling-steps-in-minutes = Βήματα (σε λεπτά)
 scheduling-steps-must-be-numbers = Βήματα πρέπει να είναι αριθμοί.
 scheduling-tag-only = Ετικέτα μόνο
 scheduling-the-default-configuration-cant-be-removed = Η προεπιλεγμένη ρύθμιση δεν μπορεί να αφαιρεθεί.
+scheduling-your-changes-will-affect-multiple-decks = Οι αλλαγές σας θα επηρεάσουν πολλαπλές τράπουλες. Αν επιθυμείτε να αλλάξετε μόνο την τρέχουσα τράπουλα, παρακαλούμε προσθέστε πρώτα μια νέα ομάδα επιλογών.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } τράπουλα ενημερώθηκε.

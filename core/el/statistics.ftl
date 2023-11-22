@@ -54,6 +54,21 @@ statistics-reviews =
         [one] { $reviews } επανάληψη
        *[other] { $reviews } επαναλήψεις
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Διαβάστηκαν { statistics-cards }
+    { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } σήμερα
+    ({ $secs-per-card }s/κάρτα)
 statistics-today-title = Σήμερα
 statistics-today-again-count = Επανακαταμέτρηση:
 statistics-today-no-cards = Καμία κάρτα δεν διαβάστηκε σήμερα.
@@ -61,6 +76,7 @@ statistics-today-no-mature-cards = Καμία ώριμη κάρτα δεν δι�
 statistics-today-correct-mature = Σωστές απαντήσεις σε ώριμες κάρτες: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Σύνολο
 statistics-counts-new-cards = Νέο
+statistics-counts-mature-cards = Ώριμες
 statistics-counts-suspended-cards = Σε αναστολή
 statistics-counts-learning-cards = Εκμάθηση
 statistics-counts-relearning-cards = Επανεκμάθηση
@@ -180,6 +196,8 @@ statistics-days-studied = Ημέρες μελέτης
 statistics-average-answer-time-label = Μέσος χρόνος απάντησης
 statistics-average = Μέσος
 statistics-average-interval = Μέσο ενδιάμεσο διάστημα
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } από { $total } ({ $percent }%)
 statistics-average-over-period = Αν μελετούσες κάθε μέρα
 statistics-reviews-per-day =
     { $count ->

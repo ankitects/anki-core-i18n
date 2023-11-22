@@ -3,6 +3,11 @@ studying-bury = Αναβολή
 studying-bury-card = Αναβολή κάρτας
 studying-bury-note = Αναβολή σημείωσης
 studying-card-suspended = Αναστολή κάρτας.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } κάρτα αναβλήθηκε.
+       *[other] { $count } κάρτες αναβλήθηκαν.
+    }
 studying-cards-will-be-automatically-returned-to = Οι κάρτες θα επιστραφούν αυτόματα στις αρχικές τους τράπουλες αφού τις επιθεωρήσεις.
 studying-delete-note = Διαγραφή Σημείωσης
 studying-deleting-this-deck-from-the-deck = Η διαγραφή αυτής της τράπουλας από την λίστα τραπουλών θα επαναφέρει τις κάρτες στην αρχική τους τράπουλα.
