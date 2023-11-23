@@ -3,7 +3,7 @@
 
 ## Media synchronization
 
-sync-media-added-count = Ajoutés : ’{ $up }↑ { $down }↓
+sync-media-added-count = Ajoutés : { $up }↑ { $down }↓
 sync-media-removed-count = Supprimés : { $up }↑ { $down }↓
 sync-media-checked-count = Vérifiés : { $count }
 sync-media-starting = Démarrage de la synchronisation des médias...
