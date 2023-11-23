@@ -24,4 +24,4 @@ card-template-rendering-no-such-field = Βρέθηκε '{ $found }', αλλά δ
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = Η μπροστινή πλευρά της κάρτας είναι κενή.
+card-template-rendering-empty-front = Η πρόσθια πλευρά της κάρτας είναι κενή.

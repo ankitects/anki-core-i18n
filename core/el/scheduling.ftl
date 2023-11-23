@@ -57,6 +57,9 @@ scheduling-today-new-limit-reached =
     ότι όσες περισσότερες νέες κάρτες εισάγετε, τόσο υψηλότερος
     θα γίνει ο βραχυπρόθεσμος φόρτος επαναλήψεων.
 scheduling-how-to-custom-study = Αν επιθυμείτε να διαβάσετε εκτός του κανονικού προγράμματος, μπορείτε να χρησιμοποιήσετε την δυνατότητα { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = προσαρμοσμένη μελέτη
 
 ## Scheduler upgrade
 

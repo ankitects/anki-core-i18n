@@ -7,6 +7,7 @@ editing-cards = Κάρτες
 editing-center = Κέντρο
 editing-change-color = Αλλαγή χρώματος
 editing-couldnt-record-audio-have-you-installed = Αδύνατη η εγγραφή ήχου. Έχετε εγκαταστήσει το 'lame';
+editing-customize-fields = Προσαρμογή πεδίων
 editing-cut = Αποκοπή
 editing-double-click-image = διπλό κλικ στην εικόνα
 editing-double-click-to-expand = διπλό κλικ για επέκταση
