@@ -63,6 +63,7 @@ deck-config-new-gather-priority-position-lowest-first = Αύξουσα θέση
 deck-config-new-gather-priority-position-highest-first = Φθίνουσα θέση
 deck-config-new-gather-priority-random-notes = Τυχαίες σημειώσεις
 deck-config-new-gather-priority-random-cards = Τυχαίες κάρτες
+deck-config-new-card-sort-order = Σειρά ταξινόμησης νέων καρτών
 deck-config-sort-order-card-template-then-random = Τύπος κάρτας, μετά τυχαία
 deck-config-sort-order-random-note-then-template = Τυχαία σημείωση, μετά τύπος κάρτας
 deck-config-sort-order-random = Τυχαία
