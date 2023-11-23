@@ -13,6 +13,7 @@ card-stats-note-type = Τύπος σημείωσης
 card-stats-deck-name = Τράπουλα
 card-stats-note-id = ID σημείωσης
 card-stats-card-id = ID κάρτας
+card-stats-review-log-rating = Αξιολόγηση
 card-stats-review-log-type = Τύπος
 card-stats-review-log-date = Ημερομηνία
 card-stats-review-log-time-taken = Χρόνος

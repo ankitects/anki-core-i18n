@@ -98,12 +98,12 @@ browsing-note-count =
     }
 browsing-notes-updated =
     { $count ->
-        [one] Μια σημείωση ενημερώθηκε.
+        [one] { $count } σημείωση ενημερώθηκε.
        *[other] { $count } σημειώσεις ενημερώθηκαν.
     }
 browsing-cards-updated =
     { $count ->
-        [one] Μια κάρτα ενημερώθηκε.
+        [one] { $count } κάρτα ενημερώθηκε.
        *[other] { $count } κάρτες ενημερώθηκαν.
     }
 browsing-window-title = Περιήγηση ({ $selected } από { $total } κάρτες επιλέχθηκαν)
@@ -131,7 +131,7 @@ browsing-sidebar-untagged = Χωρίς ετικέτα
 browsing-row-deleted = (διαγράφηκε)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Αφαιρέθηκε μια αχρησιμοποίητη ετικέτα.
+        [one] Αφαιρέθηκε { $count } αχρησιμοποίητη ετικέτα.
        *[other] Αφαιρέθηκαν { $count } αχρησιμοποίητες ετικέτες.
     }
 browsing-changed-new-position =
