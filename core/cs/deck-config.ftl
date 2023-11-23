@@ -318,7 +318,7 @@ deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
 deck-config-compute-optimal-retention = Vypočítat optimální retenci
 deck-config-optimize-button = Optimalizovat
 deck-config-compute-button = Vypočítat
-deck-config-analyze-button = Analyzovat
+deck-config-evaluate-button = Vyhodnotit
 deck-config-desired-retention = Požadovaná retence
 deck-config-sm2-retention = SM2 retence
 deck-config-smaller-is-better = Menší čísla naznačují lepší způsobilost pro vaši historii opakování.
@@ -326,6 +326,7 @@ deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delš�
 deck-config-fsrs-on-all-clients =
     Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
     fungovat správně, jestliže je některý z vašich klientů starší.
+deck-config-estimated-retention = Odhadovaná retence: { $num }
 deck-config-complete = { $num }% hotovo.
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
 deck-config-fsrs-tooltip =
@@ -353,6 +354,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     nenastane žádná okamžitá změna vašeho zatížení. Jestliže je přeplánování povoleno, data zkoušení 
     karet se změní. V závislosti na vaší požadované retenci může toto vyústit ve velký počet karet, 
     které budou ke zkoušení, proto není tato možnost doporučena, když poprvé přepínáte ze SM2.
+deck-config-reschedule-cards-warning = V závislosti na vaší požadované retenci může toto vyústit ve velké množství karet, které budou ke zkoušení, takže toto není doporučeno, když poprvé přepínáte ze SM2.
 deck-config-compute-optimal-weights-tooltip =
     Jakmile provedete 1000+ opakování v Anki, můžete použít tlačítko Optimalizovat, aby se analyzovala vaše 
     historie opakování a automaticky se vygenerovaly váhy, které jsou optimální pro vaší paměť a obsah, který 
@@ -362,6 +364,13 @@ deck-config-compute-optimal-weights-tooltip =
     Ve výchozím nastavení se váhy budou počítat z historie opakování všech balíčků za použití současné 
     předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
     se použijí pro optimalizování vah.
+deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 100denní interval se změní na { $days } den.
+        [few] 100denní interval se změní na { $days } dny.
+       *[other] 100denní interval se změní na { $days } dní.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
