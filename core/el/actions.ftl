@@ -1,4 +1,4 @@
-actions-add = Πρόσθηκη
+actions-add = Προσθήκη
 actions-all-selected = Όλα επιλεγμένα
 actions-any-selected = Οποιοδήποτε επιλεγμένο
 actions-cancel = Άκυρο
