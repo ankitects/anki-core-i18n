@@ -51,4 +51,5 @@ card-templates-this-will-create-card-proceed =
        *[other] Αυτό θα δημιουργήσει { $count } κάρτες. Συνέχεια;
     }
 card-templates-restore-to-default = Επαναφορά προεπιλογών
+card-templates-restore-to-default-confirmation = Αυτό θα επαναφέρει τις προεπιλεγμένες τιμές όλων των πεδίων και προτύπων σε αυτόν τον τύπο σημείωσης, αφαιρώντας έξτρα πεδία/πρότυπα και το περιεχόμενό ή την μορφοποίησή τους. Επιθυμείτε να συνεχίσετε;
 card-templates-restored-to-default = Ο τύπος κάρτας έχει επαναφερθεί στην αρχική του κατάσταση.

@@ -78,6 +78,7 @@ statistics-counts-total-cards = Σύνολο
 statistics-counts-new-cards = Νέο
 statistics-counts-mature-cards = Ώριμες
 statistics-counts-suspended-cards = Σε αναστολή
+statistics-counts-buried-cards = Σε αναβολή
 statistics-counts-learning-cards = Εκμάθηση
 statistics-counts-relearning-cards = Επανεκμάθηση
 statistics-counts-separate-suspended-buried-cards = Διαχωρισμός καρτών σε αναβολή/αναστολή
