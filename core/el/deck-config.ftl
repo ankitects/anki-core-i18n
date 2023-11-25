@@ -53,6 +53,9 @@ deck-config-relearning-steps = Βήματα επανεκμάθησης
 ## Burying section
 
 deck-config-bury-title = Αναβολή
+deck-config-bury-interday-learning-tooltip =
+    Αν άλλες κάρτες "προς εκμάθηση" της ίδιας σημείωσης με διαστήματα > 1 μέρα
+    θα καθυστερήσουν έως την επόμενη ημέρα.
 
 ## Ordering section
 
@@ -94,6 +97,9 @@ deck-config-show-answer-timer-tooltip =
 
 deck-config-audio-title = Ήχος
 deck-config-disable-autoplay = Η αναπαραγωγή ήχου να μην είναι αυτόματη
+deck-config-disable-autoplay-tooltip =
+    Όταν ενεργοποιηθεί, το Anki δεν θα παίζει τον ήχο αυτόματα.
+    Μπορεί να παίζει χειροκίνητα με το πάτημα ενός εικονιδίου ήχου ή χρησιμοποιώντας την ενέργεια επανέναρξης.
 deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά την απάντηση
 deck-config-stop-timer-on-answer-tooltip =
     Αν ο χρόνος σταματάει όταν αποκαλύπτεται η απάντηση.
