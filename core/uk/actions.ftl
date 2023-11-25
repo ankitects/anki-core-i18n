@@ -55,7 +55,7 @@ actions-previous-card-info = Інформація про попередню ка
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Дана дія наразі не підтримується Вашою системою.
+actions-fullscreen-unsupported = Повноекранний режим не підтримується вашим відеодрайвером. Спробуйте змінити його у налаштуваннях.
 
 ## Flags
 
