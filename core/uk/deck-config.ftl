@@ -54,6 +54,11 @@ deck-config-review-mix-show-before-reviews = До повторюваних
 
 ## Audio section
 
+deck-config-audio-title = Авдіо
+deck-config-disable-autoplay = Не відтворювати авдіо автоматично
+deck-config-disable-autoplay-tooltip =
+    Коли ввімкнено, Anki не буде відтворювати авдіо автоматично.
+    Його можна відтворити натиснувши на іконку авдіо або використавши дію повторного відтворення.
 
 ## Advanced section
 
@@ -79,6 +84,9 @@ deck-config-save-to-all-subdecks = Зберегти до усіх підколо
 
 
 ## Selecting a deck
+
+
+## Messages related to the FSRS scheduler
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
