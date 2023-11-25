@@ -41,6 +41,7 @@ notetypes-occlusion-note = Σημείωση
 notetypes-comments-field = Σχόλια
 notetypes-image-occlusion-name = Επικάλυψη εικόνας
 notetypes-error-generating-cloze = Προέκυψε σφάλμα κατά τη δημιουργία σημείωσης επικάλυψης εικόνας
+notetypes-error-getting-imagecloze = Προέκυψε ένα σφάλμα κατά την λήψη μιας σημείωσης επικάλυψης εικόνας
 notetypes-error-loading-image-occlusion = Σφάλμα κατά την φόρτωση της επικάλυψης εικόνων. Είναι η έκδοση του Anki σας ενημερωμένη;
 notetype-error-no-image-to-show = Καμία εικόνα προς εμφάνιση.
 notetypes-no-occlusion-created = Πρέπει να κάνετε τουλάχιστον μια απόκρυψη.

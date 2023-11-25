@@ -119,9 +119,11 @@ statistics-added-title = Προστέθηκε
 statistics-added-subtitle = Ο αριθμός των νέων καρτών που προσθέσατε.
 statistics-reviews-count-subtitle = Ο αριθμός των ερωτήσεων που έχετε απαντήσει.
 statistics-reviews-time-subtitle = Ο χρόνος που πήρατε για να απαντήσετε στις ερωτήσεις.
-statistics-answer-buttons-title = Κουμπιά Απαντήσης
+statistics-answer-buttons-title = Κουμπιά απάντησης
 # eg Button: 4
 statistics-answer-buttons-button-number = Κουμπί
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Φορές που πατήθηκε
 statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατήσει το κάθε κουμπί.
 statistics-reviews-title = Επιθεωρήσεις
 statistics-reviews-time-checkbox = Χρόνος

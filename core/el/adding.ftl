@@ -6,3 +6,4 @@ adding-history = Ιστορικό
 adding-note-deleted = (Η σημείωση διαγράφηκε)
 adding-shortcut = Συντόμευση: { $val }
 adding-the-first-field-is-empty = Το πρώτο πεδίο είναι κενό.
+adding-you-have-a-cloze-deletion-note = Ο τύπος σημείωσης είναι συμπλήρωση κενού, αλλά δεν έχετε βάλει κενά. Συνέχεια;
