@@ -15,8 +15,8 @@ search-invalid-answer-button = Αναμένονταν ένα κουμπί απά
 
 ## Column labels in browse screen
 
-search-note-modified = Επεξεργάστηκε
-search-card-modified = Τροποποιήθηκε
+search-note-modified = Τροποποιήθηκε (σημείωση)
+search-card-modified = Τροποποιήθηκε (κάρτα)
 
 ##
 
