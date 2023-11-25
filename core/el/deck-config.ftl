@@ -7,7 +7,7 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     { $decks ->
-        [one] Χρησιμοποιείται από μια τράπουλα
+        [one] Χρησιμοποιείται από { $decks } τράπουλα
        *[other] Χρησιμοποιείται από { $decks } τράπουλες
     }
 deck-config-default-name = Προεπιλογή
