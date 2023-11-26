@@ -96,7 +96,7 @@ browsing-toggle-suspend = Suspèn/reprèn
 browsing-treat-input-as-regular-expression = Tracta l'entrada com una expressió regular
 browsing-update-saved-search = Actualitza amb la cerca actual
 browsing-whole-collection = Col·lecció sencera
-browsing-window-title-notes = Navega (heu seleccionat { $selected } nota/notes de { $total })
+browsing-window-title-notes = Navega (n’heu seleccionat { $selected } de { $total })
 browsing-you-must-have-at-least-one = Hi ha d'haver almenys una columna.
 browsing-group =
     { $count ->
@@ -118,7 +118,7 @@ browsing-cards-updated =
         [one] S'ha actualitzat una targeta.
        *[other] S'han actualitzat { $count } targetes.
     }
-browsing-window-title = Navega (heu seleccionat { $selected } targeta/targetes de { $total })
+browsing-window-title = Navega (n’heu seleccionat { $selected } de { $total })
 browsing-sidebar-expand = Expandeix
 browsing-sidebar-collapse = Redueix
 browsing-sidebar-expand-children = Expandeix els secundaris
