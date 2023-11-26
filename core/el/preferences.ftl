@@ -54,6 +54,7 @@ preferences-note = Σημείωση
 preferences-scheduler = Προγραμματιστής
 preferences-user-interface = Διεπαφή χρήστη
 preferences-import-export = Εισαγωγή/Εξαγωγή
+preferences-reset-window-sizes = Επαναφορά μεγέθους παραθύρων
 preferences-reset-window-sizes-complete = Το μέγεθος των παραθύρων και οι τοποθεσίες έχουν επαναρυθμιστεί.
 preferences-shortcut-placeholder = Εισάγετε ένα μη χρησιμοποιούμενο πλήκτρο συντόμευσης ή αφήστε κενό για απενεργοποίηση.
 

@@ -13,6 +13,7 @@ card-templates-front-preview = Πρόσθια προεπισκόπηση
 card-templates-back-preview = Οπίσθια προεπισκόπηση
 card-templates-preview-box = Προεπισκόπηση
 card-templates-template-box = Πρότυπο
+card-templates-sample-cloze = Αυτό είναι ένα { "{{c1::" }παράδειγμα{ "}}" } συμπλήρωσης κενού.
 card-templates-fill-empty = Συμπλήρωση κενών πεδίων
 card-templates-night-mode = Λειτουργία Νύχτας
 card-templates-preview-settings = Επιλογές

@@ -1,4 +1,5 @@
 importing-failed-debug-info = Η εισαγωγή απέτυχε. Πληροφορίες αποσφαλμάτωσης:
+importing-aborted = Διακόπηκαν: { $val }
 importing-added-duplicate-with-first-field = Προστέθηκε διπλότυπo με το πρώτο πεδίο:{ $val }
 importing-all-supported-formats = Όλες οι υποστήριζομενες μορφές { $val }
 importing-allow-html-in-fields = Επιτρέψτε HTML στα πεδία
@@ -43,6 +44,7 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = Πακεταρισμέ�
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } πεδία, αναμένωντας { $expected }
 importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο δεν ήταν σε μορφή UTF-8. Παρακαλούμε δείτε την αντίστοιχη ενότητα στο εγχειρίδιο.
 importing-semicolon = Άνω τελεία
+importing-skipped = Παραλείφθηκαν
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
 importing-tab = Tab
 importing-tag-modified-notes = Σήμανση τροποποιημένων σημειώσεων:
@@ -53,9 +55,11 @@ importing-this-will-delete-your-existing-collection = Αυτή η ενέργει
 importing-unable-to-import-from-a-readonly = Αδύνατη η εισαγωγή από αρχείο μόνο προς ανάγνωση.
 importing-unknown-file-format = Άγνωστη μορφή αρχείου.
 importing-update-existing-notes-when-first-field = Ενημέρωση υπαρχουσών σημειώσεων όταν ταιριάζει το πρώτο πεδίο
+importing-updated = Ενημερώθηκαν
 importing-update-always = Πάντα
 importing-update-never = Ποτέ
 importing-update-notes = Ενημέρωση σημειώσεων
+importing-update-notes-help = Πότε θα ενημερωθεί μια υπάρχουσα σημείωση της συλλογής σας. Ως προεπιλογή, αυτό γίνεται μόνο αν η αντίστοιχη εισαγόμενη σημείωση έχει τροποποιηθεί πιο πρόσφατα.
 importing-update-notetypes = Ενημέρωση τύπων σημειώσεων
 importing-note-added =
     { $count ->
@@ -97,6 +101,8 @@ importing-processed-cards =
        *[other] Επεξεργάστηκαν { $count } κάρτες...
     }
 importing-existing-notes = Υπάρχουσες σημειώσεις
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Διπλασιασμός
 # "Existing notes: Preserve" (verb)
 importing-preserve = Διατηρήστε
 # "Existing notes: Update" (verb)
@@ -132,6 +138,11 @@ importing-conflicting-notes-skipped =
         [one] { $count } σημείωση δεν εισήχθη επειδή άλλαξε ο τύπος της.
        *[other] { $count } σημειώσεις δεν εισήχθησαν επειδή άλλαξε ο τύπος της.
     }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } σημείωση δεν εισήχθη, επειδή ο τύπος σημείωσης της έχει αλλάξει και η επιλογή '{ importing-merge-notetypes }' δεν ήταν ενεργοποιημένη.
+       *[other] { $count } σημειώσεις δεν εισήχθησαν, επειδή ο τύπος σημείωσής τους έχει αλλάξει και η επιλογή '{ importing-merge-notetypes }' δεν ήταν ενεργοποιημένη.
+    }
 importing-no-notes-in-file = Δεν βρέθηκαν σημειώσεις στο αρχείο.
 importing-notes-found-in-file2 =
     { $notes ->
@@ -153,7 +164,20 @@ importing-field-separator-help =
     Ο χαρακτήρας που διαχωρίζει τα πεδία σε ένα αρχείο κειμένου. Μπορείτε να χρησιμοποιήσετε την προεπισκόπηση για να ελέγξετε αν τα πεδία διαχωρίζονται σωστά.
     
     Παρακαλούμε λάβετε υπόψη ότι αν αυτός ο χαρακτήρας εμφανίζεται σε οποιοδήποτε πεδίο μόνος του, το πεδίο πρέπει να παρατίθεται κατάλληλα σύμφωνα με το πρότυπο CSV. Προγράμματα Spreadsheet όπως το LibreOffice το κάνουν αυτόματα.
+importing-notetype-help =
+    Η νεοεισαγόμενες σημειώσεις θα έχουν αυτόν τον τύπο και μόνο οι υπάρχουσες σημειώσεις αυτού του τύπου θα ενημερωθούν.
+    
+    Με το εργαλείο αντιστοίχισης, μπορείτε να επιλέξετε ποια πεδία στο αρχείο αντιστοιχούν στα πεδία του τύπου σημείωσης.
 importing-deck-help = Η εισαγόμενες κάρτες θα τοποθετηθούν σε αυτήν την τράπουλα.
+importing-existing-notes-help =
+    Τι θα γίνει αν μια εισαγόμενη σημείωση ταιριάζει με μία υπάρχουσα.
+    
+    - `{ importing-update }`: Ενημέρωση υπάρχουσας σημείωσης.
+    - `{ importing-preserve }`: Μην κάνεις τίποτα.
+    - `{ importing-duplicate }`: Δημιουργία νέας σημείωσης.
+importing-match-scope-help =
+    Μόνο υπάρχουσες σημειώσεις του ίδιου τύπου θα ελεγχθούν για διπλότυπα. Αυτό μπορεί
+    επιπρόσθετα να περιοριστεί σε σημειώσεις με κάρτες στην ίδια τράπουλα.
 importing-tag-all-notes-help = Αυτές οι ετικέτες θα προστεθούν σε νεοεισαγώμενες και ενημερωμένες σημειώσεις.
 importing-tag-updated-notes-help = Αυτές οι ετικέτες θα προστεθούν στις ενημερωμένες σημειώσεις.
 

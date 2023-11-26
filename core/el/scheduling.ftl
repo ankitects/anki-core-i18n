@@ -46,6 +46,11 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Απομένει μια κάρτα προγραμματισμένη για μελέτη αργότερα σήμερα.
+       *[other] Απομένουν { $remaining } κάρτες προγραμματισμένες για μελέτη αργότερα σήμερα.
+    }
 scheduling-congratulations-finished = Συγχαρητηρία! Ολοκληρώσατε αυτή την τράπουλα για την ώρα.
 scheduling-today-review-limit-reached =
     Έχετε φτάσει το σημερινό όριο επαναλήψεων, αλλά υπάρχουν ακόμα κάρτες

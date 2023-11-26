@@ -44,6 +44,7 @@ editing-expand-field = Επέκταση πεδίου
 editing-collapse-field = Σύμπτυξη πεδίου
 editing-underline-text = Υπογράμμιση κειμένου
 editing-unordered-list = Αταξινόμητη λίστα
+editing-warning-cloze-deletions-will-not-work = Προσοχή! Η συμπλήρωση κενού λειτουργεί μόνο όταν επιλεχθεί πάνω ως τύπος σημείωσης.
 editing-mathjax-preview = Προεπισκόπηση MathJax
 editing-shrink-images = Συρρίκνωση εικόνων
 editing-from-clipboard = Από το πρόχειρο
