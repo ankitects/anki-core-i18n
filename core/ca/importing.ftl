@@ -170,6 +170,13 @@ importing-note-skipped-due-to-missing-notetype = S’ha saltat la nota perquè e
 importing-note-skipped-due-to-missing-deck = S’ha saltat la nota perquè en falta la baralla
 importing-note-skipped-due-to-empty-first-field = S’ha saltat la nota perquè el primer camp està buit
 importing-deck-help = Les targetes importades s’afegiran a aquesta baralla.
+importing-existing-notes-help =
+    Quan una nota importada coincideixi amb una altra:
+    
+    - `{ importing-update }`: Actualitza la nota existent.¶
+    - `{ importing-preserve }`: Omet.¶
+    - `{ importing-duplicate }`: Crea una nota nova.
+importing-match-scope-help = No es comprovarà si hi ha duplicats entre les notes existents del mateix tipus. Podeu restringir aquesta opció a les notes amb targetes en la mateixa baralla.
 importing-tag-all-notes-help = S’afegiran aquestes etiquetes a les notes importades i actualitzades.
 importing-tag-updated-notes-help = Aquestes etiquetes s’afegiran a totes les notes que actualitzeu.
 
