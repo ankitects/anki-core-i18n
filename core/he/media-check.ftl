@@ -5,7 +5,7 @@ media-check-window-title = בדוק מדיה
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count =
-    אשפה: { $count ->
+    תיקיית אשפה: { $count ->
         [one] 1 קובץ, { $megs }MB
        *[other] { $count } קבצים, { $megs }MB
     }
@@ -30,11 +30,11 @@ media-check-template-references-field-header =
 
 ## Shown once for each file
 
-media-check-renamed-file = השתנה השם: { $old }->{ $new }
+media-check-renamed-file = השתנה השם: { $old } -> { $new }
 media-check-oversize-file = גדול מ- 100MB: { $filename }
 media-check-subfolder-file = תיקייה: { $filename }
-media-check-missing-file = חסר:
-media-check-unused-file = לא בשימוש:
+media-check-missing-file = חסר: { $filename }
+media-check-unused-file = לא בשימוש: { $filename }
 
 ##
 
