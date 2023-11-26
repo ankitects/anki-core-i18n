@@ -6,7 +6,7 @@ studying-buried-siblings = Targetes relacionades enterrades
 studying-bury = Enterra
 studying-bury-card = Enterra la targeta
 studying-bury-note = Enterra la nota
-studying-card-suspended = Targeta suspesa.
+studying-card-suspended = S’ha suspès la targeta.
 studying-card-was-a-leech = La targeta era una sangonera.
 studying-cards-buried =
     { $count ->
@@ -30,7 +30,7 @@ studying-manually-buried-cards = Targetes enterrades manualment
 studying-mark-note = Marca la nota
 studying-more = Més
 studying-no-cards-are-due-yet = Encara no hi ha cartes per repassar.
-studying-note-suspended = Nota suspesa.
+studying-note-suspended = S’ha suspès la nota.
 studying-pause-audio = Pausa el so
 studying-please-run-toolsempty-cards = Executeu Eines > Targetes buides…
 studying-record-own-voice = Enregistra la meva veu
