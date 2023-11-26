@@ -25,3 +25,6 @@ card-template-rendering-no-such-field = Βρέθηκε '{ $found }', αλλά δ
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Η πρόσθια πλευρά της κάρτας είναι κενή.
+card-template-rendering-missing-cloze =
+    Δεν βρέθηκε κενό { $number } στην κάρτα.
+    Παρακαλούμε εισάγετε κενά προς συμπλήρωση ή χρησιμοποιήστε το εργαλείο Εκκαθαριση καρτών.
