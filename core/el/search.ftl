@@ -11,6 +11,9 @@ search-invalid-other = παρακαλούμε ελέγξτε για τυπογρ
 ## eg. expected a number in "due>5x", but found "5x"
 
 search-invalid-number = Αναμένονταν αριθμός στο "`{ $context }`", αλλά βρέθηκε "`{ $provided }`".
+search-invalid-whole-number = αναμένονταν ένας ολόκληρος αριθμός στο "`{ $context }`", αλλά βρέθηκε "`{ $provided }`".
+search-invalid-positive-whole-number = αναμένονταν ένας ολόκληρος θετικός αριθμός στο "`{ $context }`", αλλά βρέθηκε "`{ $provided }`".
+search-invalid-negative-whole-number = αναμένονταν ένας ολόκληρος αριθμός, μικρότερος ή ίσος με το 0, στο "`{ $context }`", αλλά βρέθηκε "`{ $provided }`".
 search-invalid-answer-button = Αναμένονταν ένα κουμπί απάντησης μεταξύ 1-4 στο "`{ $context }`", αλλά βρέθηκε "`{ $provided }`".
 
 ## Column labels in browse screen

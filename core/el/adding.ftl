@@ -7,3 +7,5 @@ adding-note-deleted = (Η σημείωση διαγράφηκε)
 adding-shortcut = Συντόμευση: { $val }
 adding-the-first-field-is-empty = Το πρώτο πεδίο είναι κενό.
 adding-you-have-a-cloze-deletion-note = Ο τύπος σημείωσης είναι συμπλήρωση κενού, αλλά δεν έχετε βάλει κενά. Συνέχεια;
+adding-cloze-outside-cloze-notetype = Η συμπλήρωση κενού μπορεί να χρησιμοποιηθεί μόνο σε σημειώσεις τύπου συμπλήρωσης κενού.
+adding-cloze-outside-cloze-field = Η συμπλήρωση κενού μπορεί να χρησιμοποιηθεί σε πεδία που έχουν το φίλτρο 'cloze:'. Αυτό είναι τυπικά το πρώτο πεδίο.

@@ -201,7 +201,7 @@ deck-config-a-100-day-interval =
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
 deck-config-answer-again = Απαντήστε "Ξανά"
-deck-config-answer-hard = Απαντήστε "Δύσκολα"
+deck-config-answer-hard = Απαντήστε "Δύσκολο"
 deck-config-answer-good = Απαντήστε "Καλά"
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
