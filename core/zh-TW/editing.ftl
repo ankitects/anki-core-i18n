@@ -93,6 +93,8 @@ editing-image-occlusion-ellipse-tool = 橢圓形
 editing-image-occlusion-polygon-tool = 多邊形
 editing-image-occlusion-text-tool = 文字
 editing-image-occlusion-toggle-mask-editor = 切換遮罩編輯器
+editing-image-occlusion-reset = 重置影像遮擋
+editing-image-occlusion-confirm-reset = 確定要重置這個影像遮擋嗎？
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
