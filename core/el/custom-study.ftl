@@ -18,6 +18,7 @@ custom-study-require-one-or-more-of-these = Απαιτεί μία ή περισ�
 custom-study-review-forgotten-cards = Επανάληψη ξεχασμένων καρτών
 custom-study-select = Επιλογή
 custom-study-select-tags-to-exclude = Επιλογή ετικετών προς εξαίρεση:
+custom-study-selective-study = Επιλεγμένη μελέτη
 custom-study-study-by-card-state-or-tag = Μελέτη ανά κατάσταση κάρτας ή ανά ετικέτα
 custom-study-available-new-cards-2 = Διαθέσιμες νέες κάρτες: { $countString }
 custom-study-available-review-cards-2 = Διαθέσιμες κάρτες προς επανάληψη: { $countString }
