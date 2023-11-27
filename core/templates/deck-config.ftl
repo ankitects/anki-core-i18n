@@ -44,6 +44,11 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     By default, the review limit also applies to new cards, and no new cards will be
     shown when the review limit has been reached. If this option is enabled, new cards
     will be shown regardless of the review limit.
+deck-config-apply-all-parent-limits = Limits start from top
+deck-config-apply-all-parent-limits-tooltip =
+    By default, limits start from the deck you select. If this option is enabled, the limits will
+    start from the top-level deck instead, which can be useful if you wish to study individual
+    sub-decks, while enforcing a total limit on cards/day.
 deck-config-affects-entire-collection = Affects the entire collection.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -222,6 +227,17 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     In the review screen, show a timer that counts the number of seconds you're
     taking to review each card.
+deck-config-stop-timer-on-answer = Stop timer on answer
+deck-config-stop-timer-on-answer-tooltip =
+    Whether to stop the timer when the answer is revealed.
+    This doesn't affect statistics.
+deck-config-seconds-to-show-question = Seconds to show question
+deck-config-seconds-to-show-question-tooltip = The number of seconds to wait before automatically advancing to the next question. Set to 0 to disable.
+deck-config-seconds-to-show-answer = Seconds to show answer
+deck-config-seconds-to-show-answer-tooltip = The number of seconds to wait before automatically revealing the answer. Set to 0 to disable.
+deck-config-answer-action = Answer action
+deck-config-answer-action-tooltip = The action to perform on the current card before automatically advancing to the next one.
+deck-config-wait-for-audio-tooltip = Wait for audio to finish before automatically revealing answer or next question
 
 ## Audio section
 
@@ -234,11 +250,6 @@ deck-config-skip-question-when-replaying = Skip question when replaying answer
 deck-config-always-include-question-audio-tooltip =
     Whether the question audio should be included when the Replay action is
     used while looking at the answer side of a card.
-deck-config-stop-timer-on-answer = Stop timer on answer
-deck-config-stop-timer-on-answer-tooltip =
-    Whether to stop the timer when the answer is revealed.
-    This doesn't affect statistics.
-
 ## Advanced section
 
 deck-config-advanced-title = Advanced
@@ -282,6 +293,7 @@ deck-config-confirm-remove-name = Remove { $name }?
 
 deck-config-save-button = Save
 deck-config-save-to-all-subdecks = Save to All Subdecks
+deck-config-save-and-optimize = Optimize All Presets
 deck-config-revert-button-tooltip = Restore this setting to its default value.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -319,6 +331,8 @@ deck-config-which-deck = Which deck would you like to display options for?
 deck-config-updating-cards = Updating cards: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Parameters must be either left blank to use the defaults, or must be 17 comma-separated numbers.
 deck-config-not-enough-history = Insufficient review history to perform this operation.
+deck-config-unable-to-determine-desired-retention =
+    Unable to determine an optimal retention.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Only { $count } review was found.
@@ -334,13 +348,14 @@ deck-config-evaluate-button = Evaluate
 deck-config-desired-retention = Desired retention
 deck-config-sm2-retention = SM2 retention
 deck-config-smaller-is-better = Smaller numbers indicate a better fit to your review history.
-deck-config-steps-too-large-for-fsrs = When FSRS is enabled, learning steps of 1+ days are not recommended.
+deck-config-steps-too-large-for-fsrs = When FSRS is enabled, steps of 1 day or more are not recommended.
 deck-config-get-params = Get Params
 deck-config-fsrs-on-all-clients =
     Please ensure all of your Anki clients are Anki(Mobile) 23.10+ or AnkiDroid 2.17+. FSRS will
     not work correctly if one of your clients is older.
 deck-config-estimated-retention = Estimated retention: { $num }
 deck-config-complete = { $num }% complete.
+deck-config-iterations = Iteration: { $count }...
 deck-config-reschedule-cards-on-change = Reschedule cards on change
 deck-config-fsrs-tooltip =
     The Free Spaced Repetition Scheduler (FSRS) is an alternative to Anki's legacy SuperMemo 2 (SM2) scheduler.
@@ -369,10 +384,13 @@ deck-config-reschedule-cards-on-change-tooltip =
     This option controls whether the due dates of cards will be changed when you enable FSRS, or optimize
     the parameters. The default is not to reschedule cards: future reviews will use the new scheduling, but
     there will be no immediate change to your workload. If rescheduling is enabled, the due dates of cards
-    will be changed.
+    will be changed. This option is shared by all deck presets, and not saved.
 deck-config-reschedule-cards-warning =
     Depending on your desired retention, this can result in a large number of cards becoming
     due, so is not recommended when first switching from SM2.
+
+    Use this option sparingly, as it will add a review entry to each of your cards, and
+    increase the size of your collection.
 deck-config-compute-optimal-weights-tooltip =
     Once you've done 1000+ reviews in Anki, you can use the Optimize button to analyze your review history,
     and automatically generate parameters that are optimal for your memory and the content you're studying.
@@ -395,6 +413,13 @@ deck-config-a-100-day-interval =
         [one] A 100 day interval will become { $days } day.
        *[other] A 100 day interval will become { $days } days.
     }
+deck-config-percent-of-reviews =  
+    { $reviews ->
+        [one] { $pct }% of { $reviews } review
+       *[other] { $pct }% of { $reviews } reviews
+    }
+deck-config-optimizing-preset = Optimizing preset { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = FSRS must be enabled first.
 
 deck-config-wait-for-audio = Wait for audio
 deck-config-show-reminder = Show Reminder
