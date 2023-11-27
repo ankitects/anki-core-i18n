@@ -40,7 +40,7 @@ scheduling-time-span-months =
     }
 scheduling-time-span-years =
     { $amount ->
-        [one] { $amount } χρόνο
+        [one] { $amount } χρόνος
        *[other] { $amount } χρόνια
     }
 
