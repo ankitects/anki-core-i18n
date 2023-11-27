@@ -46,6 +46,11 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     כברירת מחדל, מגבלת החזרות חלה גם על כרטיסים חדשים, וכרטיסים חדשים לא יהיו
     מוצגים מעבר למגבלת החזרות. אם אפשרות זו מופעלת, כרטיסים חדשים יוצגו ללא קשר
     למגבלת החזרות.
+deck-config-apply-all-parent-limits = מגבלות מתחילות מלמעלה
+deck-config-apply-all-parent-limits-tooltip =
+    כברירת מחדל, המגבלות מתחילות מהחפיסה שבחרת. אם אפשרות זו מופעלת, המגבלות יתחילו
+    מהחפיסה ברמה העליונה במקום זאת, מה שיכול להיות שימושי אם אתה רוצה ללמוד באופן אישי
+    חפיסות משנה, תוך אכיפת ההגבלה הכוללת על כרטיסים ביום של החפיסת אב העליונה.
 deck-config-affects-entire-collection = משפיע על כל המאגר.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -206,6 +211,15 @@ deck-config-maximum-answer-secs-tooltip =
     חורג מהזמן הזה (כי התרחקת מהמסך למשל), 
     הזמן בטיימר יעצר לפי המגבלה שהגדרת.
 deck-config-show-answer-timer-tooltip = הצג במסך החזרה טיימר המציג את משך הזמן שעבר מתחילת החזרה על שאלה זו.
+deck-config-stop-timer-on-answer = עצור טיימר בתשובה
+deck-config-stop-timer-on-answer-tooltip =
+    קובע האם לעצור את הטיימר בהצגת התשובה.
+    זה לא משפיע על הסטטיסטיקות.
+deck-config-seconds-to-show-question = שניות להצגת השאלה
+deck-config-seconds-to-show-question-tooltip = מספר השניות שיש להמתין לפני התקדמות אוטומטית לשאלה הבאה. הגדר ל 0 כדי להשבית.
+deck-config-seconds-to-show-answer = שניות להצגת התשובה
+deck-config-seconds-to-show-answer-tooltip = מספר השניות שיש להמתין לפני הצגה אוטומטית של התשובה. הגדר ל 0 כדי להשבית.
+deck-config-answer-action = פעולת תשובה
 
 ## Audio section
 
@@ -218,10 +232,6 @@ deck-config-skip-question-when-replaying = דלג על השאלה בעת תשו�
 deck-config-always-include-question-audio-tooltip =
     הגדרה זו קובעת האם יש לכלול את שמע השאלה כאשר אפשרות ההשמעה מחדש
     מופעלת בעת הסתכלות בצד התשובה של כרטיס.
-deck-config-stop-timer-on-answer = עצור טיימר בתשובה
-deck-config-stop-timer-on-answer-tooltip =
-    קובע האם לעצור את הטיימר בהצגת התשובה.
-    זה לא משפיע על הסטטיסטיקות.
 
 ## Advanced section
 
