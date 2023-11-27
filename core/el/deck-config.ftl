@@ -92,6 +92,12 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Εμφάνιση στην οθόνη επαναλήψεων ενός χρονομετρητή που μετρά τα δευτερόλεπτα που 
     χρειάζεστε για να κάνε επανάληξη κάθε κάρτας.
+deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά την απάντηση
+deck-config-stop-timer-on-answer-tooltip =
+    Αν ο χρόνος σταματάει όταν αποκαλύπτεται η απάντηση.
+    Δεν επηρεάζει τα στατιστικά.
+deck-config-seconds-to-show-question = Δευτερόλεπτα για εμφάνιση ερώτησης
+deck-config-seconds-to-show-answer = Δευτερόλεπτα για εμφάνιση απάντησης
 
 ## Audio section
 
@@ -100,10 +106,6 @@ deck-config-disable-autoplay = Η αναπαραγωγή ήχου να μην ε
 deck-config-disable-autoplay-tooltip =
     Όταν ενεργοποιηθεί, το Anki δεν θα παίζει τον ήχο αυτόματα.
     Μπορεί να παίζει χειροκίνητα με το πάτημα ενός εικονιδίου ήχου ή χρησιμοποιώντας την ενέργεια επανέναρξης.
-deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά την απάντηση
-deck-config-stop-timer-on-answer-tooltip =
-    Αν ο χρόνος σταματάει όταν αποκαλύπτεται η απάντηση.
-    Δεν επηρεάζει τα στατιστικά.
 
 ## Advanced section
 

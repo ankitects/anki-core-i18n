@@ -70,7 +70,7 @@ statistics-studied-today =
     } σήμερα
     ({ $secs-per-card }s/κάρτα)
 statistics-today-title = Σήμερα
-statistics-today-again-count = Επανακαταμέτρηση:
+statistics-today-again-count = Ξανά:
 statistics-today-no-cards = Καμία κάρτα δεν διαβάστηκε σήμερα.
 statistics-today-no-mature-cards = Καμία ώριμη κάρτα δεν διαβάστηκε σήμερα.
 statistics-today-correct-mature = Σωστές απαντήσεις σε ώριμες κάρτες: { $correct }/{ $total } ({ $percent }%)
@@ -148,6 +148,7 @@ statistics-cards-due =
        *[other] { $cards } προγραμματισμένες κάρτες
     }
 statistics-intervals-title = Διαστήματα
+statistics-intervals-subtitle = Το χρονικό διάστημα μέχρι την επανεμφάνιση των καρτών.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } κάρτα με διάστημα { $daysStart }~{ $daysEnd } ημερών

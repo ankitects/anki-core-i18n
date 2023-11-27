@@ -1,7 +1,7 @@
 card-stats-added = Προστέθηκε
 card-stats-first-review = Πρώτη επανάληψη
-card-stats-latest-review = Τελευταία Αναθεώρηση
-card-stats-interval = Διάστημα ανανέωσης
+card-stats-latest-review = Τελευταία επανάληψη
+card-stats-interval = Διάστημα
 card-stats-ease = Ευκολία
 card-stats-review-count = Επαναλήψεις
 card-stats-lapse-count = Ολισθήματα
