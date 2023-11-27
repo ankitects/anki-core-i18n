@@ -75,6 +75,9 @@ deck-config-new-review-priority-tooltip = Πότε θα εμφανίζονται
 deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
 deck-config-review-mix-show-after-reviews = Εμφάνιση μετά από επαναλήψεις
 deck-config-review-mix-show-before-reviews = Εμφάνιση πριν από επαναλήψεις
+deck-config-sort-order-due-date-then-random = Προθεσμία, μετά τυχαία
+deck-config-sort-order-due-date-then-deck = Προθεσμία, μετά τράπουλα
+deck-config-sort-order-deck-then-due-date = Τράπουλα, μετά προθεσμία
 deck-config-sort-order-ascending-intervals = Αύξοντα διαστήματα
 deck-config-sort-order-descending-intervals = Φθίνοντα διαστήματα
 deck-config-sort-order-ascending-ease = Αύξουσα ευκολία
@@ -177,6 +180,7 @@ deck-config-fsrs-on-all-clients =
     Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
 deck-config-estimated-retention = Εκτιμώμενη απομνημόνευση: { $num }
 deck-config-complete = { $num }% ολοκληρώθηκε.
+deck-config-reschedule-cards-on-change = Επαναπρογραμματισμός καρτών σε αλλαγή
 deck-config-fsrs-tooltip =
     Ο προγραμματιστής Free Spaced Repetition Scheduler (FSRS) είναι εναλλακτικός του SuperMemo 2.
     Προσδιορίζει με μεγαλύτερη ακρίβεια τι είναι πιθανότερο να ξεχάσετε και σας βοηθάει να θυμάστε περισσότερο υλικό στην ίδια χρονική περίοδο. Αυτή η ρύθμιση μοιράζεται από όλα τα προκαθορισμένα τραπουλών.

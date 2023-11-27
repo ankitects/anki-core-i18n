@@ -139,7 +139,9 @@ browsing-added-today = Προστέθηκε σήμερα
 browsing-again-today = Ξανά σήμερα
 browsing-edited-today = Επεξεργάστηκε
 browsing-sidebar-first-review = Πρώτη επανάληψη
+browsing-sidebar-rescheduled = Επαναπρογραμματίστηκε
 browsing-sidebar-untagged = Χωρίς ετικέτα
+browsing-sidebar-overdue = Εκπρόθεσμο
 browsing-row-deleted = (διαγράφηκε)
 browsing-removed-unused-tags-count =
     { $count ->

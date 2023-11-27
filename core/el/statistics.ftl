@@ -200,6 +200,7 @@ statistics-days-studied = Ημέρες μελέτης
 statistics-average-answer-time-label = Μέσος χρόνος απάντησης
 statistics-average = Μέσος
 statistics-average-interval = Μέσο ενδιάμεσο διάστημα
+statistics-due-tomorrow = Προθεσμία αύριο
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } από { $total } ({ $percent }%)
 statistics-average-over-period = Αν μελετούσες κάθε μέρα

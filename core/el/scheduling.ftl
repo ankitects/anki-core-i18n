@@ -132,3 +132,8 @@ scheduling-set-due-date-prompt-hint =
     0 = σήμερα
     1! = αύριο + αλλαγή διαστήματος σε 1
     3-7 = τυχαία επιλογή ανάμεσα σε 3-7 ημέρες
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Ορισμός προθεσμίας για { $cards } κάρτα.
+       *[other] Ορισμός προθεσμίας για { $cards } κάρτες.
+    }

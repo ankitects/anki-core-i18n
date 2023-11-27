@@ -5,6 +5,7 @@ custom-study-cards = κάρτες
 custom-study-cards-from-the-deck = κάρτες από την τράπουλα
 custom-study-choose-tags = Επιλογή Ετικετών
 custom-study-custom-study-session = Προσαρμοσμένη συνεδρία μελέτης
+custom-study-due-cards-only = Μόνο κάρτες με προθεσμία
 custom-study-increase-todays-new-card-limit = Αυξήση του σημερινού ορίου νέων καρτών
 custom-study-increase-todays-new-card-limit-by = Αύξηση του σημερινού ορίου νέων καρτών κατά
 custom-study-increase-todays-review-card-limit = Αυξήση του σημερινού ορίου επαναλήψεων
