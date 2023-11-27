@@ -39,6 +39,11 @@ deck-config-tab-description =
     - `Solo oggi`: apporta una modifica temporanea al limite di questo mazzo.
 deck-config-new-cards-ignore-review-limit = Ignora nuove carte nel conteggio ripetizioni/giorno
 deck-config-new-cards-ignore-review-limit-tooltip = Di default, il limite di ripetizioni si applica anche alle nuove carte e non verranno mostrate nuove carte quando il limite di ripetizioni è stato raggiunto. Se questa opzione è abilitata, le nuove carte verranno mostrate indipendentemente dal limite di ripetizioni.
+deck-config-apply-all-parent-limits = I limiti iniziano dalla cima
+deck-config-apply-all-parent-limits-tooltip =
+    Per impostazione predefinita, i limiti partono dal mazzo che selezioni. 
+    Se abiliti questa opzione, i limiti partiranno invece dal mazzo genitore di massimo livello, il che 
+    può essere utile quando desideri studiare singoli mazzi figli, mantenendo comunque un limite complessivo sul numero di carte da studiare al giorno.
 deck-config-affects-entire-collection = Influenza l'intera collezione.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -201,6 +206,15 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Nella schermata delle revisioni, mostra un timer che conta il numero di secondi
     che stai impiegando per ripassare ciascuna carta.
+deck-config-stop-timer-on-answer = Ferma il timer dopo aver risposto
+deck-config-stop-timer-on-answer-tooltip =
+    Se bloccare o meno il timer una volta che è stata rivelata la risposta.
+    Ciò non influisce sulle statistiche.
+deck-config-seconds-to-show-question = Secondi prima di mostrare la domanda
+deck-config-seconds-to-show-question-tooltip = Il numero di secondi da attendere prima di passare automaticamente alla domanda successiva. Per disabilitare, imposta il valore a 0.
+deck-config-seconds-to-show-answer = Secondi prima di mostrare la risposta
+deck-config-seconds-to-show-answer-tooltip = Il numero di secondi da attendere prima di mostrare automaticamente la risposta. Per disabilitare, imposta il valore a 0.
+deck-config-answer-action-tooltip = L'azione da svolgere sulla carta corrente prima di avanzare automaticamente alla successiva.
 
 ## Audio section
 
@@ -213,10 +227,6 @@ deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzi
 deck-config-always-include-question-audio-tooltip =
     Se l'audio della domanda deve essere inclusa quando usi l'azione "Riproduci di nuovo"
     mentre guardi alla risposta della carta.
-deck-config-stop-timer-on-answer = Ferma il timer dopo aver risposto
-deck-config-stop-timer-on-answer-tooltip =
-    Se bloccare o meno il timer una volta che è stata rivelata la risposta.
-    Ciò non influisce sulle statistiche.
 
 ## Advanced section
 
@@ -262,6 +272,7 @@ deck-config-confirm-remove-name = Rimuovi { $name }?
 
 deck-config-save-button = Salva
 deck-config-save-to-all-subdecks = Salva su tutti i mazzi figli
+deck-config-save-and-optimize = Ottimizza tutti i preset
 deck-config-revert-button-tooltip = Ripristina questa impostazione al suo valore predefinito.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -298,6 +309,7 @@ deck-config-which-deck = Quale mazzo desideri?
 deck-config-updating-cards = Aggiornamento delle carte: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = I parametri devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
+deck-config-unable-to-determine-desired-retention = Impossibile determinare una ritenzione ottimale.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Trovata solo { $count } ripetizione.
@@ -365,6 +377,13 @@ deck-config-a-100-day-interval =
         [one] Un intervallo di 100 giorni diventerà di { $days } giorno.
        *[other] Un intervallo di 100 giorni diventerà di { $days } giorni.
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% di { $reviews } ripetizione
+       *[other] { $pct }% di { $reviews } ripetizioni
+    }
+deck-config-optimizing-preset = Ottimizzazione del preset { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = Abilita prima FSRS.
 deck-config-wait-for-audio = Attendi audio
 deck-config-show-reminder = Mostra promemoria
 deck-config-answer-again = Rispondi Ripeti

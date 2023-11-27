@@ -93,6 +93,7 @@ editing-image-occlusion-ellipse-tool = Ellisse
 editing-image-occlusion-polygon-tool = Poligono
 editing-image-occlusion-text-tool = Testo
 editing-image-occlusion-toggle-mask-editor = Attiva/disattiva editor delle maschere
+editing-image-occlusion-reset = Ripristina Occludi Immagine
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
