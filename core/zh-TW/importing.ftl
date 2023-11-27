@@ -50,6 +50,7 @@ importing-also-import-progress = 匯入任何學習進度
 importing-with-deck-configs = 匯入任何牌組預設組
 importing-updates = 更新
 importing-include-reviews-help = 啟用後，牌組分享者包含的歷史複習記錄也會被匯入。如未啟用，則所有卡片將匯入為新卡片。
+importing-with-deck-configs-help = 啟用後，牌組分享者包含的任何牌組選項也會被匯入。如未啟用，則所有牌組都將使用預設選項。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 已封裝的 Anki 牌組/集合 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
 # the '|' character
