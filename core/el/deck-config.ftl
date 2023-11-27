@@ -123,16 +123,21 @@ deck-config-custom-scheduling-tooltip = Επηρεάζει ολόκληρη τη
 
 ## Adding/renaming
 
+deck-config-add-group = Προσθήκη προεπιλογής
 deck-config-name-prompt = Όνομα
+deck-config-rename-group = Μετονομασία προεπιλογής
+deck-config-clone-group = Κλωνοποίηση προεπιλογής
 
 ## Removing
 
+deck-config-remove-group = Αφαίρεση προεπιλογής
 deck-config-will-require-full-sync = Η ζητούμενη αλλαγή απαιτεί συγχρονισμό προς μια κατεύθυνση. Αν έχετε κάνει αλλαγές σε άλλη συσκευή και δεν τις έχετε συγχρονίσει ακόμα, παρακαλώ κάντε το πριν συνεχίσετε.
 deck-config-confirm-remove-name = Αφαίρεση { $name };
 
 ## Other Buttons
 
 deck-config-save-button = Αποθήκευση
+deck-config-save-and-optimize = Βελτιστοποίηση όλων των προεπιλογών
 deck-config-revert-button-tooltip = Επαναφορά αυτής της ρύθμισης στην προεπιλεγμένη της τιμή.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -204,6 +209,7 @@ deck-config-a-100-day-interval =
         [one] Διάστημα 100 ημερών θα γίνει { $days } ημέρας.
        *[other] Διάστημα 100 ημερών θα γίνει { $days } ημερών.
     }
+deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
 deck-config-answer-again = Απαντήστε "Ξανά"
