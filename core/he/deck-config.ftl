@@ -220,6 +220,8 @@ deck-config-seconds-to-show-question-tooltip = מספר השניות שיש לה
 deck-config-seconds-to-show-answer = שניות להצגת התשובה
 deck-config-seconds-to-show-answer-tooltip = מספר השניות שיש להמתין לפני הצגה אוטומטית של התשובה. הגדר ל 0 כדי להשבית.
 deck-config-answer-action = פעולת תשובה
+deck-config-answer-action-tooltip = הפעולה שיש לבצע בכרטיס הנוכחי לפני התקדמות אוטומטית לכרטיס הבא.
+deck-config-wait-for-audio-tooltip = המתן עד שהשמע יסתיים לפני שתחשוף את התשובה או השאלה הבאה באופן אוטומטי
 
 ## Audio section
 
@@ -276,6 +278,7 @@ deck-config-confirm-remove-name = למחוק { $name }?
 
 deck-config-save-button = שמור
 deck-config-save-to-all-subdecks = שמור לכל תתי החפיסות
+deck-config-save-and-optimize = בצע אופטימיזציה של כל ההגדרות המוגדרות מראש
 deck-config-revert-button-tooltip = שחזר הגדרה זו לברירת המחדל שלה.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -313,6 +316,7 @@ deck-config-which-deck = איזו חפיסה הינך רוצה?
 deck-config-updating-cards = מעדכן כרטיסים: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = משקלים חייבים להיות ריקים כדי להשתמש בברירות המחדל, או חייבים להיות 17 מספרים מופרדים בפסיקים.
 deck-config-not-enough-history = אין מספיק היסטוריית חזרות לביצוע פעולה זו.
+deck-config-unable-to-determine-desired-retention = לא ניתן לקבוע שימור אופטימלי.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] רק חזרה אחת נמצאה.
@@ -335,6 +339,7 @@ deck-config-fsrs-on-all-clients =
     FSRS לא יעבוד כראוי אם באחד מהמכשירים שלך אתה משתמש בAnki מתחת לגרסאות אלו.
 deck-config-estimated-retention = יכולת זכירה משוערת: { $num }
 deck-config-complete = { $num } % הושלם.
+deck-config-iterations = ביצוע: { $count }...
 deck-config-reschedule-cards-on-change = תזמון מחדש של כרטיסים בשינוי
 deck-config-fsrs-tooltip =
     מתזמן החזרות החופשיות (FSRS) הוא חלופה למתזמן SuperMemo 2 (SM2) הוותיק של Anki.
@@ -386,6 +391,13 @@ deck-config-a-100-day-interval =
         [one] מרווח של 100 ימים יהפוך ל{ $days } יום.
        *[other] מרווח של 100 ימים יהפוך ל{ $days } ימים.
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% מתוך { $reviews } חזרה
+       *[other] { $pct }% מתוך { $reviews } חזרות
+    }
+deck-config-optimizing-preset = שפר הגדרות מראש { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = תחילה יש להפעיל את FSRS.
 deck-config-wait-for-audio = המתן לשמע
 deck-config-show-reminder = הצג תזכורת
 deck-config-answer-again = ענה שוב

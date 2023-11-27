@@ -53,10 +53,14 @@ importing-notes-skipped-update-due-to-notetype = הרשומות לא עודכנ�
 importing-notes-updated-as-file-had-newer = רשומות שהתעדכנו, מפני שהקובץ בגירסה חדשה יותר: { $val }
 importing-include-reviews = כלול נתוני חזרות
 importing-also-import-progress = ייבא גם את היסטוריית החזרות ומצב הכרטיסים
+importing-with-deck-configs = ייבא את כל הגדרות החפיסות
 importing-updates = עדכונים
 importing-include-reviews-help =
     אם מסומן, כל החזרות הקודמות שבוצעו בחפיסה ייובאו גם כן.
     אחרת, כל הכרטיסים ייובאו ככרטיסים חדשים.
+importing-with-deck-configs-help =
+    אם אפשרות זו מופעלת, כל אפשרויות החפיסה שכלל יוצר החפיסה ייובאו גם הן.
+    אחרת, כל החפיסות יוגדרו כברירת מחדל.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
 # the '|' character

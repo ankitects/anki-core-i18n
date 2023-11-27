@@ -93,6 +93,8 @@ editing-image-occlusion-ellipse-tool = אליפסה
 editing-image-occlusion-polygon-tool = מצולע
 editing-image-occlusion-text-tool = טקסט
 editing-image-occlusion-toggle-mask-editor = מצב הסתרות תמונה.
+editing-image-occlusion-reset = אפס הסתרות תמונה
+editing-image-occlusion-confirm-reset = האם אתה בטוח שברצונך לאפס את הסתרות התמונה הזו?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
