@@ -125,7 +125,7 @@ statistics-answer-buttons-button-number = Κουμπί
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Φορές που πατήθηκε
 statistics-answer-buttons-subtitle = Ο αριθμός που έχετε πατήσει το κάθε κουμπί.
-statistics-reviews-title = Επιθεωρήσεις
+statistics-reviews-title = Επαναλήψεις
 statistics-reviews-time-checkbox = Χρόνος
 statistics-in-days-single =
     { $days ->

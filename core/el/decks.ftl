@@ -1,6 +1,6 @@
 decks-add-new-deck-ctrlandn = Προσθήκη νέας τράπουλας (Ctrl+N)
 decks-build = Χτίσιμο
-decks-cards-selected-by = κάρτες επελεγμένες από
+decks-cards-selected-by = κάρτες επελεγμένες κατά
 decks-create-deck = Δημιουργία τράπουλας
 decks_create_even_if_empty = Δημιουργία/ενημέρωση αυτής της τράπουλας ακόμα και αν είναι κενή
 decks-custom-steps-in-minutes = Εξατομικευμένα βήματα (σε λεπτά)
@@ -28,4 +28,4 @@ decks-filtered-deck-search-empty = Καμία κάρτα δεν ταιριάζε
 decks-unmovable-cards = Εμφάνιση εξαιρούμενων καρτών
 decks-learn-header = Μάθετε
 # The count of cards waiting to be reviewed
-decks-review-header = Λόγω
+decks-review-header = Προς επανάληψη
