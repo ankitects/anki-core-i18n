@@ -1,5 +1,5 @@
 # The date a card will be ready to review
-statistics-due-date = Λόγω
+statistics-due-date = Προθεσμία
 # The count of cards waiting to be reviewed
 statistics-due-count = Προγραμματισμένες
 # Shown in the Due column of the Browse screen when the card is a new card
