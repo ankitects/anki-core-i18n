@@ -174,7 +174,7 @@ statistics-hours-range = Από { $hourStart }:00~{ $hourEnd }:00
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } επαναλήψεις
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = 📈 { $percent }% σωστό ({ $reviews })
+statistics-hours-correct-reviews = 📈 { $percent }% σωστά ({ $reviews })
 statistics-hours-title = Ωριαία ανάλυση
 statistics-hours-subtitle = Ρυθμός επιτυχών επαναλήψεων για κάθε ώρα της ημέρας.
 # shown when graph is empty
