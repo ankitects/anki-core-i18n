@@ -94,6 +94,7 @@ editing-image-occlusion-polygon-tool = Poligono
 editing-image-occlusion-text-tool = Testo
 editing-image-occlusion-toggle-mask-editor = Attiva/disattiva editor delle maschere
 editing-image-occlusion-reset = Ripristina Occludi Immagine
+editing-image-occlusion-confirm-reset = Confermi di voler ripristinare questa occlusione dell'immagine?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
