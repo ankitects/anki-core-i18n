@@ -9,6 +9,7 @@ editing-change-color = Αλλαγή χρώματος
 editing-cloze-deletion = Συμπλήρωση κενού (νέα κάρτα)
 editing-cloze-deletion-repeat = Συμπλήρωση κενού (ίδια κάρτα)
 editing-couldnt-record-audio-have-you-installed = Αδύνατη η εγγραφή ήχου. Έχετε εγκαταστήσει το 'lame';
+editing-customize-card-templates = Προσαρμογή προτύπων κάρτας
 editing-customize-fields = Προσαρμογή πεδίων
 editing-cut = Αποκοπή
 editing-double-click-image = διπλό κλικ στην εικόνα

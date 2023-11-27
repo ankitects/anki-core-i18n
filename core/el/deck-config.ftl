@@ -23,6 +23,10 @@ deck-config-review-limit-tooltip =
     Ο μέγιστος αριθμός καρτών που εμφανίζονται προς επανάληψη ανά ημέρα, 
     όταν οι κάρτες είναι έτοιμες για επανάληψη.
 deck-config-limit-new-bound-by-reviews = Το όριο των επαναλήψεων επηρεάζει το όριο των νέων καρτών. Για παράδειγμα, αν το όριο επαναλήψεων είναι 200 και έχετε 190 κάρτες προς επανάληψη, τότε έως και 10 νέες κάρτες μπορούν να εισαχθούν. Αν έχετε φτάσει τό όριο επαναλήψεων, καμία νέα κάρτα δεν θα εμφανιστεί.
+deck-config-tab-description =
+    - `Προεπιλογή`: Το όριο μοιράζεται μεταξύ των τραπουλών που το χρησιμοποιούν αυτή την προεπιλογή.
+    - `Αυτή η τράπουλα`: Το όριο είναι ειδικά για αυτή την τράπουλα.
+    - `Μόνο σήμερα`: Προσωρινή αλλαγή του ορίου αυτής της τράπουλας.
 deck-config-new-cards-ignore-review-limit = Οι νέες κάρτες αγνοούν το όριο επαναλήψεων
 deck-config-new-cards-ignore-review-limit-tooltip = Από προεπιλογή, το όριο επαναλήψεων εφαρμόζεται και στις νέες κάρτες και καμία νέα κάρτα δεν θα εμφανιστεί όταν έχετε φτάσει το όριο των επαναλήψεων. Αν η επιλογή είναι ενεργοποιημένη, νέες κάρτες θα εμφανιστούν ανεξάρτητα από το όριο επαναλήψεων.
 deck-config-affects-entire-collection = Επηρεάζει ολόκληρη την συλλογή
@@ -53,6 +57,7 @@ deck-config-relearning-steps = Βήματα επανεκμάθησης
 ## Burying section
 
 deck-config-bury-title = Αναβολή
+deck-config-bury-review-tooltip = Αν άλλες κάρτες προς επανάληψη της ίδια σημείωσης θα καθυστερήσουν έως την επόμενη μέρα.
 deck-config-bury-interday-learning-tooltip =
     Αν άλλες κάρτες "προς εκμάθηση" της ίδιας σημείωσης με διαστήματα > 1 μέρα
     θα καθυστερήσουν έως την επόμενη ημέρα.
@@ -101,6 +106,7 @@ deck-config-stop-timer-on-answer-tooltip =
     Δεν επηρεάζει τα στατιστικά.
 deck-config-seconds-to-show-question = Δευτερόλεπτα για εμφάνιση ερώτησης
 deck-config-seconds-to-show-answer = Δευτερόλεπτα για εμφάνιση απάντησης
+deck-config-seconds-to-show-answer-tooltip = Ο αριθμός δευτερολέπτων πριν την αυτόματη αποκάλυψη της απάντησης. Ορίστε σε 0 για απενεργοποίηση.
 
 ## Audio section
 
@@ -209,7 +215,13 @@ deck-config-a-100-day-interval =
         [one] Διάστημα 100 ημερών θα γίνει { $days } ημέρας.
        *[other] Διάστημα 100 ημερών θα γίνει { $days } ημερών.
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% από { $reviews } επανάληψη
+       *[other] { $pct }% από { $reviews } επαναλήψεις
+    }
 deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = Το FSRS θα πρέπει να είναι πρώτα ενεργοποιημένο.
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
 deck-config-answer-again = Απαντήστε "Ξανά"

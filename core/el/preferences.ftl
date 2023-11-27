@@ -23,6 +23,7 @@ preferences-some-settings-will-take-effect-after = Μερικές αλλαγές
 preferences-tab-synchronisation = Συγχρονισμός
 preferences-synchronizationnot-currently-enabled-click-the-sync = <
 preferences-synchronize-audio-and-images-too = Συγχρονισμός ήχου και εικόνων επίσης
+preferences-timebox-time-limit = Χρονικό όριο συνεδρίας
 preferences-user-interface-size = Μέγεθος διεπαφής χρήστη
 preferences-when-adding-default-to-current-deck = Προσθήκη στην τρέχουσα τράπουλα ως προεπιλογή
 preferences-you-can-restore-backups-via-fileswitch = Μπορείτε να αποκαταστήσετε αντίγραφα μέσω Αρχείο > Αλλαγή Προφίλ
