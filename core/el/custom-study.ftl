@@ -1,4 +1,4 @@
-custom-study-must-rename-deck = Παρακαλούμε μετονομάστε πρώτα την υπάρχουσα προσαρμοσμένη τράπουλα μελέτης.
+custom-study-must-rename-deck = Παρακαλώ μετονομάστε πρώτα την υπάρχουσα προσαρμοσμένη τράπουλα μελέτης.
 custom-study-all-cards-in-random-order-dont = Όλες οι κάρτες σε τυχαία σειρά (χωρίς επαναπρογραμματισμό)
 custom-study-all-review-cards-in-random-order = Όλες οι κάρτες προς επανάληψη σε τυχαία σειρά
 custom-study-cards = κάρτες

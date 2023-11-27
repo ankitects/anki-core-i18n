@@ -75,7 +75,7 @@ scheduling-update-later-button = Αργότερα
 scheduling-update-more-info-button = Μάθετε περισσότερα
 scheduling-update-required =
     Η συλλογή σας χρειάζεται να αναθαθμιστεί στον V2 προγραμματιστή.
-    Παρακαλούμε επιλέξτε { scheduling-update-more-info-button } πριν συνεχίσετε.
+    Παρακαλώ επιλέξτε { scheduling-update-more-info-button } πριν συνεχίσετε.
 
 ## Other scheduling strings
 
@@ -118,7 +118,7 @@ scheduling-steps-in-minutes = Βήματα (σε λεπτά)
 scheduling-steps-must-be-numbers = Βήματα πρέπει να είναι αριθμοί.
 scheduling-tag-only = Ετικέτα μόνο
 scheduling-the-default-configuration-cant-be-removed = Η προεπιλεγμένη ρύθμιση δεν μπορεί να αφαιρεθεί.
-scheduling-your-changes-will-affect-multiple-decks = Οι αλλαγές σας θα επηρεάσουν πολλαπλές τράπουλες. Αν επιθυμείτε να αλλάξετε μόνο την τρέχουσα τράπουλα, παρακαλούμε προσθέστε πρώτα μια νέα ομάδα επιλογών.
+scheduling-your-changes-will-affect-multiple-decks = Οι αλλαγές σας θα επηρεάσουν πολλαπλές τράπουλες. Αν επιθυμείτε να αλλάξετε μόνο την τρέχουσα τράπουλα, παρακαλώ προσθέστε πρώτα μια νέα ομάδα επιλογών.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } τράπουλα ενημερώθηκε.

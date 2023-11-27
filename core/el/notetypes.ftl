@@ -30,7 +30,7 @@ notetypes-footer = Υποσέλιδο
 notetypes-header = Επικεφαλίδα
 notetypes-note-types = Τύποι Σημειώσεων
 notetypes-options = Επιλογές...
-notetypes-please-add-another-note-type-first = Παρακαλούμε εισάγετε πρώτα έναν άλλο τύπο σημείωσης.
+notetypes-please-add-another-note-type-first = Παρακαλώ εισάγετε πρώτα έναν άλλο τύπο σημείωσης.
 notetypes-type = Τύπος
 
 ## Image Occlusion

@@ -4,7 +4,7 @@ importing-added-duplicate-with-first-field = Προστέθηκε διπλότυ
 importing-all-supported-formats = Όλες οι υποστήριζομενες μορφές { $val }
 importing-allow-html-in-fields = Επιτρέψτε HTML στα πεδία
 importing-anki-files-are-from-a-very = Τα αρχεία .anki είναι από μια πολύ παλιά έκδοση του Anki. Μπορείτε να τα εισάγετε με το πρόσθετο 175027074 ή με το Anki 2.0 που είναι διαθέσιμο στην ιστοσελίδα του Anki.
-importing-anki2-files-are-not-directly-importable = Τα αρχεία .anki2 δεν μπορούν να εισαχθούν άμεσα - παρακαλούμε εισάγετε το .apkg ή .zip αρχείο που λάβατε.
+importing-anki2-files-are-not-directly-importable = Τα αρχεία .anki2 δεν μπορούν να εισαχθούν άμεσα - παρακαλώ εισάγετε το αρχείο .apkg ή .zip που λάβατε.
 importing-appeared-twice-in-file = Εμφανίζεται δις στο αρχείο: { $val }
 importing-by-default-anki-will-detect-the = Ως προεπιλογή, το Anki εντοπίζει χαρακτήρες ανάμεσα σε πεδία όπως το tab, το κόμμα κτλ. Αν το Anki εντοπίζει τον χαρακτήρα λανθασμένα, μπορείτε να τον εισάγετε εδώ. Χρησιμοποιήστε το \t ως tab.
 importing-change = Αλλαγή
@@ -25,7 +25,7 @@ importing-ignored = <αγνοήθηκε>
 importing-import-even-if-existing-note-has = Εισαγωγή ακόμα και αν η υπάρχουσα σημείωση έχει το ίδιο πρώτο πεδίο
 importing-import-options = Επιλογές εισαγωγής
 importing-importing-complete = Η εισαγωγή ολοκληρώθηκε.
-importing-invalid-file-please-restore-from-backup = Μη έγκυρο αρχείο. Παρακαλούμε αποκαταστήστε από αντίγραφο ασφαλείας.
+importing-invalid-file-please-restore-from-backup = Μη έγκυρο αρχείο. Παρακαλώ αποκαταστήστε από αντίγραφο ασφαλείας.
 importing-map-to = Χάρτης στο { $val }
 importing-map-to-tags = Χάρτης σε Ετικέτες
 importing-mapped-to = σε αντιστοιχία προς <b>{ $val }</b>
@@ -42,7 +42,7 @@ importing-also-import-progress = Εισαγωγή προόδου εκμάθησ�
 importing-updates = Ενημερώσεις
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Πακεταρισμένη τράπουλα/συλλογή Anki (*.apkg *.colpkg *.zip)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } πεδία, αναμένωντας { $expected }
-importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο δεν ήταν σε μορφή UTF-8. Παρακαλούμε δείτε την αντίστοιχη ενότητα στο εγχειρίδιο.
+importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο δεν ήταν σε μορφή UTF-8. Παρακαλώ δείτε την αντίστοιχη ενότητα στο εγχειρίδιο.
 importing-semicolon = Άνω τελεία
 importing-skipped = Παραλείφθηκαν
 importing-supermemo-xml-export-xml = εξαγωγή Supermemo XML (*.xml)
@@ -50,7 +50,7 @@ importing-tab = Tab
 importing-tag-modified-notes = Σήμανση τροποποιημένων σημειώσεων:
 importing-text-separated-by-tabs-or-semicolons = Κείμενο διαχωρισμένο από tabs ή άνω τελεία (*)
 importing-the-provided-file-is-not-a = Το αρχείο δεν είναι ένα έγκυρο .apkg αρχείο.
-importing-this-file-does-not-appear-to = Αυτό το αρχείο δεν φαίνεται να είναι ένα έγκυρο αρχείο .apkg. Αν λαμβάνετε αυτό το σφάλμα από ένα αρχείο που κατεβάσατε από το AnkiWeb, είναι πιθανό ότι η λήψη απέτυχε. Παρακαλούμε δοκιμάστε ξανά και αν το πρόβλημα παραμένει, ξαναπροσπαθήστε με έναν διαφορετικό περιηγητή.
+importing-this-file-does-not-appear-to = Αυτό το αρχείο δεν φαίνεται να είναι ένα έγκυρο αρχείο .apkg. Αν λαμβάνετε αυτό το σφάλμα από ένα αρχείο που κατεβάσατε από το AnkiWeb, είναι πιθανό ότι η λήψη απέτυχε. Παρακαλώ δοκιμάστε ξανά και αν το πρόβλημα παραμένει, ξαναπροσπαθήστε με έναν διαφορετικό περιηγητή.
 importing-this-will-delete-your-existing-collection = Αυτή η ενέργεια θα διαγράψει την υπάρχουσα συλλογή σας και θα την αντικαταστήσει με δεδομένα του αρχείου που εισάγετε. Είστε σίγουροι;
 importing-unable-to-import-from-a-readonly = Αδύνατη η εισαγωγή από αρχείο μόνο προς ανάγνωση.
 importing-unknown-file-format = Άγνωστη μορφή αρχείου.
@@ -143,6 +143,7 @@ importing-conflicting-notes-skipped2 =
         [one] { $count } σημείωση δεν εισήχθη, επειδή ο τύπος σημείωσης της έχει αλλάξει και η επιλογή '{ importing-merge-notetypes }' δεν ήταν ενεργοποιημένη.
        *[other] { $count } σημειώσεις δεν εισήχθησαν, επειδή ο τύπος σημείωσής τους έχει αλλάξει και η επιλογή '{ importing-merge-notetypes }' δεν ήταν ενεργοποιημένη.
     }
+importing-import-log = Αρχείο καταγραφής εισαγωγών
 importing-no-notes-in-file = Δεν βρέθηκαν σημειώσεις στο αρχείο.
 importing-notes-found-in-file2 =
     { $notes ->
@@ -163,7 +164,7 @@ importing-note-skipped-due-to-empty-first-field = Η σημείωση παραλ
 importing-field-separator-help =
     Ο χαρακτήρας που διαχωρίζει τα πεδία σε ένα αρχείο κειμένου. Μπορείτε να χρησιμοποιήσετε την προεπισκόπηση για να ελέγξετε αν τα πεδία διαχωρίζονται σωστά.
     
-    Παρακαλούμε λάβετε υπόψη ότι αν αυτός ο χαρακτήρας εμφανίζεται σε οποιοδήποτε πεδίο μόνος του, το πεδίο πρέπει να παρατίθεται κατάλληλα σύμφωνα με το πρότυπο CSV. Προγράμματα Spreadsheet όπως το LibreOffice το κάνουν αυτόματα.
+    Παρακαλώ λάβετε υπόψη ότι αν αυτός ο χαρακτήρας εμφανίζεται σε οποιοδήποτε πεδίο μόνος του, το πεδίο πρέπει να παρατίθεται κατάλληλα σύμφωνα με το πρότυπο CSV. Προγράμματα Spreadsheet όπως το LibreOffice το κάνουν αυτόματα.
 importing-notetype-help =
     Η νεοεισαγόμενες σημειώσεις θα έχουν αυτόν τον τύπο και μόνο οι υπάρχουσες σημειώσεις αυτού του τύπου θα ενημερωθούν.
     

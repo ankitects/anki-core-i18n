@@ -6,7 +6,7 @@
 
 search-invalid-search = Μη έγκυρη αναζήτηση: { $reason }
 search-invalid-prop-operator = Το `prop:{ $val }` πρέπει να ακολουθείται από έναν από τους παρακάτω συγκριτικούς τελεστές: `=`, `!=`, `<`, `>`, `<=` or `>=`.
-search-invalid-other = παρακαλούμε ελέγξτε για τυπογραφικά λάθη.
+search-invalid-other = παρακαλώ ελέγξτε για τυπογραφικά λάθη.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
