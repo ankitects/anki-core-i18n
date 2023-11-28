@@ -33,6 +33,8 @@ deck-config-tab-description =
     -「仅限今天」：上限仅为暂时应用于当前牌组。
 deck-config-new-cards-ignore-review-limit = 新卡片不受复习卡片上限影响
 deck-config-new-cards-ignore-review-limit-tooltip = 默认情况下，复习卡片的上限适用于新卡片，当复习卡片已经达到上限时将不会出现新卡片。如果启用该选项，则新卡片的出现不受复习卡片上限的限制。
+deck-config-apply-all-parent-limits = 使用顶层牌组的上限
+deck-config-apply-all-parent-limits-tooltip = 默认情况下，上限使用您选取的牌组的设置。如果启用该选项，上限将使用顶层牌组的设置。该选项可以用于您希望学习单独的子牌组，同时又确保不超过每日总卡片上限的情况。
 deck-config-affects-entire-collection = 该设置将影响整个集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -180,6 +182,15 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     在复习界面上显示一个计时器，
     记录复习每张卡片所用的秒数。
+deck-config-stop-timer-on-answer = 显示答案后停止计时
+deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。不会影响统计数据。
+deck-config-seconds-to-show-question = 自动显示下一个问题前等待秒数
+deck-config-seconds-to-show-question-tooltip = 自动前进到下一张卡片的问题前所等待的秒数。设置为 0 以禁用自动前进。
+deck-config-seconds-to-show-answer = 自动显示答案前等待秒数
+deck-config-seconds-to-show-answer-tooltip = 自动显示卡片的答案前所等待的秒数。设置为 0 以禁用自动显示。
+deck-config-answer-action = 显示答案后的操作
+deck-config-answer-action-tooltip = 在前进到下一张卡片前自动对当前卡片执行的操作。
+deck-config-wait-for-audio-tooltip = 在显示答案或前进到下一张卡片前等待音频播放完毕
 
 ## Audio section
 
@@ -190,8 +201,6 @@ deck-config-disable-autoplay-tooltip =
     可通过点击音频播放按钮或使用重播动作来手动播放音频。
 deck-config-skip-question-when-replaying = 重播答案时跳过问题
 deck-config-always-include-question-audio-tooltip = 如查看答案时进行了重播操作，是否需包含问题的音频。
-deck-config-stop-timer-on-answer = 显示答案后停止计时
-deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。不会影响统计数据。
 
 ## Advanced section
 
@@ -233,6 +242,7 @@ deck-config-confirm-remove-name = 确定删除「{ $name }」吗？
 
 deck-config-save-button = 保存
 deck-config-save-to-all-subdecks = 保存至所有子牌组
+deck-config-save-and-optimize = 优化所有预设
 deck-config-revert-button-tooltip = 将此设置重置为默认值。
 
 ## These strings are shown via the Description button at the bottom of the
@@ -268,6 +278,7 @@ deck-config-which-deck = 您想显示哪个牌组的选项？
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
 deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
+deck-config-unable-to-determine-desired-retention = 无法计算出最佳记忆保留率
 deck-config-must-have-1000-reviews =
     { $count ->
        *[other] 只找到了 { $count } 次复习记录。
@@ -287,6 +298,7 @@ deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
 deck-config-estimated-retention = 预估的记忆保留率：{ $num }
 deck-config-complete = 已完成 { $num }%。
+deck-config-iterations = 迭代次数：{ $count }…
 deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
 deck-config-fsrs-tooltip =
     自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2(SM2) 排程算法的替代。
@@ -306,7 +318,11 @@ deck-config-reschedule-cards-on-change-tooltip =
     该选项控制当您启用 FSRS 或优化参数时，是否更改卡片的到期时间。
     默认不会对卡片进行重新排程：未来的复习将会使用新的排程，但您的工作量不会有即刻的改变。
     如果重新排程被启用，卡片的到期时间将被更改。
-deck-config-reschedule-cards-warning = 根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM2 切换时不推荐开启该选项。
+    所有牌组预设共用此选项，并且该选项不会被保存。
+deck-config-reschedule-cards-warning =
+    根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM2 切换时不推荐开启该选项。
+    
+    请节制地使用该选项，因为启用该选项会为每一张卡片添加一条复习记录，并增加您集合的的大小。
 deck-config-compute-optimal-weights-tooltip =
     一旦您在 Anki 中完成了 1000+ 次复习，您就可以使用「优化」按钮来分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的参数。
     如果您有难度差异较大的牌组，建议为它们分别使用不同的预设配置，因为简单牌组和困难牌组的参数有所不同。
@@ -322,6 +338,12 @@ deck-config-a-100-day-interval =
     { $days ->
        *[other] 原为 100 天的间隔将变为 { $days } 天。
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+       *[other] { $reviews } 次复习的 { $pct }%
+    }
+deck-config-optimizing-preset = 正在优化预设 { $current_count }/{ $total_count }…
+deck-config-fsrs-must-be-enabled = 请您先启用 FSRS。
 deck-config-wait-for-audio = 等待音频播放完毕
 deck-config-show-reminder = 显示提醒
 deck-config-answer-again = 回答「忘记」

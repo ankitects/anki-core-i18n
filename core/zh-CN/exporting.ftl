@@ -13,6 +13,7 @@ exporting-include = <b>包含</b>:
 exporting-include-html-and-media-references = 包括HTML和引用的媒体
 exporting-include-media = 包含媒体文件
 exporting-include-scheduling-information = 包含学习进度信息
+exporting-include-deck-configs = 包含牌组预设配置
 exporting-include-tags = 包含标签
 exporting-support-older-anki-versions = 支持较旧的 Anki 版本（较慢/较大的文件）
 exporting-notes-in-plain-text = 纯文本格式的笔记

@@ -47,11 +47,15 @@ importing-notes-skipped-as-theyre-already-in = 因现有集合中已存在而跳
 importing-notes-skipped-update-due-to-notetype = 由于在笔记首次导入后修改过笔记模板，笔记未能更新：{ $val }
 importing-notes-updated-as-file-had-newer = 因文件有新版本而更新的笔记：{ $val }
 importing-include-reviews = 包含复习情况
-importing-also-import-progress = 同时导入所有学习进度信息
+importing-also-import-progress = 导入所有学习进度信息
+importing-with-deck-configs = 导入所有牌组预设配置
 importing-updates = 更新
 importing-include-reviews-help =
     启用后，牌组分享者的复习情况也会被导入。
     若未启用，所有卡片将被视为新卡片导入。
+importing-with-deck-configs-help =
+    如果启用该选项，所有牌组分享者的牌组预设配置也会被导入。
+    若未启用该选项，所有牌组会使用默认预设。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 打包的 Anki 牌组/集合（*.apkg *.colpkg *.zip）
 importing-pauker-18-lesson-paugz = Pauker 1.8 课程（*.pau.gz）
 # the '|' character
