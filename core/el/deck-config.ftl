@@ -119,6 +119,9 @@ deck-config-disable-autoplay-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = Για προχωρημένους
+deck-config-maximum-interval-tooltip =
+    Ο μέγιστος αριθμός ημερών που θα περιμένει μια κάρτα για επανάληψη. Όταν οι επαναλήψεις έχουν φτάσει το όριο, τα "Δύσκολο", "Καλώς" και "Εύκολο" θα δίνουν ίδια διαστήματα.
+    Όσο μικρότερος είναι, τόσο μεγαλύτερος θα είναι ο φόρτος εργασίας.
 deck-config-easy-bonus-tooltip = Ένας πρόσθετος πολλαπλασιαστής πουεφαρμόζεται στο διάστημα επανάληψης μιας κάρτας όταν την αξιολογείτε ως 'Εύκολη'
 deck-config-interval-modifier-tooltip = Ο πολλαπλασιαστής εφαρμόζεται σε όλες τις επαναλήψεις και μικρές αλλαγές του μπορούν να χρησιμοποιηθούν για να κάνουν το Anki πιο συντηρητικό ή επιθετικό στον προγραμματισμό του. Παρακαλώ δείτε το εγχειρίδιο πριν αλλάξετε αυτή την ρύθμιση.
 deck-config-hard-interval-tooltip = Ο πολλαπλασιαστής που εφαρμόζεται στο διάστημα επανάληψης μετά από απάντηση 'Δύσκολο'.
@@ -153,6 +156,11 @@ deck-config-description-new-handling = Χρήση Anki 2.1.41+
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    Η κύρια συλλογή έχει όριο { $cards ->
+        [one] { $cards } κάρτας
+       *[other] { $cards } καρτών
+    }, που θα αντικαταστήσει αυτό το όριο.
 deck-config-reviews-too-low =
     Αν προσθέτετε{ $cards ->
         [one] { $cards } νέα κάρτα κάθε μέρα
@@ -169,6 +177,7 @@ deck-config-which-deck = Τις ρυθμίσεις ποιας τράπουλας
 deck-config-updating-cards = Ενημέρωση καρτών: { $current_cards_count }/{ $total_cards_count }
 deck-config-invalid-weights = Οι παράμετροι πρέπει να είναι κενοί για χρήση των προεπιλογών ή θα πρέπει να είναι 17 αριθμοί διαχωρισμένοι με κόμμα.
 deck-config-not-enough-history = Το ιστορικό των επαναλήψεων δεν είναι αρκετό για τη διενέργεια αυτής της λειτουργίας.
+deck-config-unable-to-determine-desired-retention = Αδύνατη η εκτίμηση της βέλτιστης ανάκλησης.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Βρέθηκε μόνο { $count } επανάληψη.

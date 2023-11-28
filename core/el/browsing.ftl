@@ -90,6 +90,7 @@ browsing-tag-duplicates = Σήμανση διπλότυπων
 browsing-tag-rename-warning-empty = Δεν μπορείτε να μετονομάσετε μια ετικέτα για την οποία δεν υπάρχουν σημειώσεις.
 browsing-target-field = Πεδίο στόχος:
 browsing-toggle-bury = Αναβολή
+browsing-toggle-showing-cards-notes = Εναλλαγή καρτών/σημειώσεων
 browsing-toggle-suspend = Αναστολή
 browsing-treat-input-as-regular-expression = Διαχείριση καταχώρησης ως κανονική έκφραση
 browsing-update-saved-search = Ανανέωση με τρέχουσα αναζήτηση
