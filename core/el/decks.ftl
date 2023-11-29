@@ -26,6 +26,6 @@ decks-study = Μελέτη
 decks-study-deck = Μελέτη τράπουλας
 decks-filtered-deck-search-empty = Καμία κάρτα δεν ταιριάζει στην αναζήτησή σας. Μερικές κάρτες μπορεί να αποκλείστηκαν επειδή είναι σε μια φιλτραρισμένη τράπουλα ή σε αναστολή.
 decks-unmovable-cards = Εμφάνιση εξαιρούμενων καρτών
-decks-learn-header = Μάθετε
+decks-learn-header = Μελέτη
 # The count of cards waiting to be reviewed
-decks-review-header = Προς επανάληψη
+decks-review-header = Επανάληψη

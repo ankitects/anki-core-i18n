@@ -76,6 +76,7 @@ statistics-today-no-mature-cards = Καμία ώριμη κάρτα δεν δι�
 statistics-today-correct-mature = Σωστές απαντήσεις σε ώριμες κάρτες: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Σύνολο
 statistics-counts-new-cards = Νέο
+statistics-counts-young-cards = Πρόσφατες
 statistics-counts-mature-cards = Ώριμες
 statistics-counts-suspended-cards = Σε αναστολή
 statistics-counts-buried-cards = Σε αναβολή

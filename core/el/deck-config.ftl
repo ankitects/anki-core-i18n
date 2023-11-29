@@ -29,6 +29,7 @@ deck-config-tab-description =
     - `Μόνο σήμερα`: Προσωρινή αλλαγή του ορίου αυτής της τράπουλας.
 deck-config-new-cards-ignore-review-limit = Οι νέες κάρτες αγνοούν το όριο επαναλήψεων
 deck-config-new-cards-ignore-review-limit-tooltip = Από προεπιλογή, το όριο επαναλήψεων εφαρμόζεται και στις νέες κάρτες και καμία νέα κάρτα δεν θα εμφανιστεί όταν έχετε φτάσει το όριο των επαναλήψεων. Αν η επιλογή είναι ενεργοποιημένη, νέες κάρτες θα εμφανιστούν ανεξάρτητα από το όριο επαναλήψεων.
+deck-config-apply-all-parent-limits = Τα όρια ξεκινούν από την κορυφή
 deck-config-affects-entire-collection = Επηρεάζει ολόκληρη την συλλογή
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -81,7 +82,7 @@ deck-config-new-review-priority-tooltip = Πότε θα εμφανίζονται
 deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
 deck-config-review-mix-show-after-reviews = Εμφάνιση μετά από επαναλήψεις
 deck-config-review-mix-show-before-reviews = Εμφάνιση πριν από επαναλήψεις
-deck-config-review-sort-order = Σειρά επαναλήψεων
+deck-config-review-sort-order = Σειρά ταξινόμησης επαναλήψεων
 deck-config-sort-order-due-date-then-random = Προθεσμία, μετά τυχαία
 deck-config-sort-order-due-date-then-deck = Προθεσμία, μετά τράπουλα
 deck-config-sort-order-deck-then-due-date = Τράπουλα, μετά προθεσμία
@@ -101,7 +102,7 @@ deck-config-maximum-answer-secs-tooltip =
     ο χρόνος που θα καταγραφεί θα είναι το όριο που θέσατε.
 deck-config-show-answer-timer-tooltip =
     Εμφάνιση στην οθόνη επαναλήψεων ενός χρονομετρητή που μετρά τα δευτερόλεπτα που 
-    χρειάζεστε για να κάνε επανάληξη κάθε κάρτας.
+    χρειάζεστε για να κάνετε επανάληψη κάθε κάρτας.
 deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά την απάντηση
 deck-config-stop-timer-on-answer-tooltip =
     Αν ο χρόνος σταματάει όταν αποκαλύπτεται η απάντηση.
