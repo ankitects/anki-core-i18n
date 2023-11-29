@@ -58,6 +58,9 @@ deck-config-relearning-steps = Βήματα επανεκμάθησης
 ## Burying section
 
 deck-config-bury-title = Αναβολή
+deck-config-bury-new-tooltip =
+    Αν άλλες "νέες" κάρτες της ίδιας σημείωσης (πχ αντίστροφες κάρτες, κάρτες συμπλήρωσης κενού)
+    θα καθυστερήσουν έως την επόμενη μέρα.
 deck-config-bury-review-tooltip = Αν άλλες κάρτες προς επανάληψη της ίδια σημείωσης θα καθυστερήσουν έως την επόμενη μέρα.
 deck-config-bury-interday-learning-tooltip =
     Αν άλλες κάρτες "προς εκμάθηση" της ίδιας σημείωσης με διαστήματα > 1 μέρα
