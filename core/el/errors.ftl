@@ -1,4 +1,5 @@
 errors-parse-number-fail = Ο αριθμός ήταν μη έγκυρος ή εκτός εύρους.
+errors-filtered-parent-deck = Οι φιλτραρισμένες τράπουλες δεν μπορούν να έχουν υποομάδες.
 errors-filtered-deck-required = Αυτή η ενέργεια μπορεί να χρησιμοποιηθεί μόνο σε μια φιλτραρισμένη τράπουλα.
 errors-multiple-notetypes-selected = Παρακαλώ επιλέξτε σημειώσεις ενός μόνο τύπου.
 errors-please-check-database = Παρακαλώ ελέγξτε τη βάση δεδομένων και μετά ξαναπροσπαθήστε.
