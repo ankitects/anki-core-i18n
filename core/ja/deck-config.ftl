@@ -42,7 +42,7 @@ deck-config-today-only = 今日だけ
 
 deck-config-learning-steps = 習得ステップ
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = ステップの間隔は、分（例：`1m`）や日数（例：`2d`）で指定することがほとんどですが、時間（例：`1h`）や秒（例：`30s`）で指定することも可能です。
+-deck-config-delay-hint = ステップの間隔は、分（例：`1m`）や日数（例：`2d`）で指定するのが一般的ですが、時間（例：`1h`）や秒（例：`30s`）で指定することも可能です。
 deck-config-learning-steps-tooltip =
     １回あるいは複数回のステップ（※）を、半角スペースをはさんで入力します。
     
