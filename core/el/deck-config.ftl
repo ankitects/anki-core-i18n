@@ -126,7 +126,7 @@ deck-config-wait-for-audio-tooltip = Αναμονή για την ολοκλήρ
 ## Audio section
 
 deck-config-audio-title = Ήχος
-deck-config-disable-autoplay = Η αναπαραγωγή ήχου να μην είναι αυτόματη
+deck-config-disable-autoplay = Μη αυτόματη αναπαραγωγή ήχου
 deck-config-disable-autoplay-tooltip =
     Όταν ενεργοποιηθεί, το Anki δεν θα παίζει τον ήχο αυτόματα.
     Μπορεί να παίζει χειροκίνητα με το πάτημα ενός εικονιδίου ήχου ή χρησιμοποιώντας την ενέργεια επανέναρξης.
