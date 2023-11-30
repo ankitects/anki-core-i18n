@@ -37,13 +37,13 @@ deck-config-tab-description =
     - `Preset`: il limite è condiviso con tutti i mazzi che usano questo preset.
     - `Questo mazzo`: il limite è specifico per questo mazzo.
     - `Solo oggi`: apporta una modifica temporanea al limite di questo mazzo.
-deck-config-new-cards-ignore-review-limit = Ignora nuove carte nel conteggio ripetizioni/giorno
+deck-config-new-cards-ignore-review-limit = Ignora le nuove carte nel conteggio ripetizioni/giorno
 deck-config-new-cards-ignore-review-limit-tooltip = Di default, il limite di ripetizioni si applica anche alle nuove carte e non verranno mostrate nuove carte quando il limite di ripetizioni è stato raggiunto. Se questa opzione è abilitata, le nuove carte verranno mostrate indipendentemente dal limite di ripetizioni.
 deck-config-apply-all-parent-limits = I limiti iniziano dalla cima
 deck-config-apply-all-parent-limits-tooltip =
-    Per impostazione predefinita, i limiti partono dal mazzo che selezioni. 
-    Se abiliti questa opzione, i limiti partiranno invece dal mazzo genitore di massimo livello, il che 
-    può essere utile quando desideri studiare singoli mazzi figli, mantenendo comunque un limite complessivo sul numero di carte da studiare al giorno.
+    Di default, i limiti partono dal mazzo che selezioni. 
+    Se attivi questa opzione, invece, i limiti partiranno dal mazzo genitore di massimo livello. 
+    Questo può risultare utile quando desideri studiare singoli mazzi figli, mantenendo comunque un limite complessivo sul numero di carte da studiare ogni giorno.
 deck-config-affects-entire-collection = Influenza l'intera collezione.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -357,7 +357,7 @@ deck-config-weights-tooltip =
     Una volta che hai accumulato 1000 o più ripetizioni, puoi ottimizzare i parametri utilizzando le impostazioni qui di seguito.
 deck-config-reschedule-cards-on-change-tooltip =
     Questa opzione controlla se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i parametri. 
-    L'impostazione predefinita è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
+    L'impostazione default è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
     ma non ci sarà alcuna modifica immediata al tuo carico di lavoro. 
     Se la ripianificazione è abilitata, le scadenze delle carte verranno modificate.
 deck-config-reschedule-cards-warning =
@@ -371,7 +371,7 @@ deck-config-compute-optimal-weights-tooltip =
     Se hai mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preset separati, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
     Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
-    Per impostazione predefinita, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano il preset corrente. Facoltativamente, prima di calcolare i parametri, puoi modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
+    Di default, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano il preset corrente. Facoltativamente, prima di calcolare i parametri, puoi modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
 deck-config-compute-optimal-retention-tooltip =
     Questo strumento presuppone che tu stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
     che sarai in grado di ricordare nel periodo di tempo specificato. 

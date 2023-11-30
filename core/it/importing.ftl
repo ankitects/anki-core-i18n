@@ -84,12 +84,12 @@ importing-update-always = Sempre
 importing-update-never = Mai
 importing-update-notes = Aggiorna le note
 importing-update-notes-help =
-    Quando aggiornare una nota già esistente nella tua collezione. Per impostazione predefinita, 
+    Quando aggiornare una nota già esistente nella tua collezione. Di default, 
     ciò avviene solo se la nota corrispondente che sta venendo importata è stata modificata più di recente.
 importing-update-notetypes = Aggiorna i tipi di nota
 importing-update-notetypes-help =
     Quando aggiornare un tipo di nota già esistente nella tua collezione. 
-    Per impostazione predefinita, ciò avviene solo se il tipo di nota che sta venendo importato è stato modificato più di recente. 
+    Di default, ciò avviene solo se il tipo di nota che sta venendo importato è stato modificato più di recente. 
     Le modifiche al testo e allo stile dei modelli possono sempre essere importate, ma per le modifiche dello schema (ad esempio, modifiche al numero o all'ordine dei campi) è necessario abilitare l'opzione '{ importing-merge-notetypes }'.
 importing-note-added =
     { $count ->
