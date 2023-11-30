@@ -34,6 +34,11 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Por padrão, o limite de revisão também se aplica aos novos cartões, e nenhum novo cartão será 
     mostrado quando o limite de revisão for alcançado. Se essa opção estiver ativada, novos cartões 
     serão mostrados independentemente do limite de revisão.
+deck-config-apply-all-parent-limits = Os limites começam do deck superior
+deck-config-apply-all-parent-limits-tooltip =
+    Por padrão, os limites começam a partir do baralho que você seleciona. Se esta opção estiver ativada,
+    os limitescomeçarão a partir do baralho de nível superior, o que pode ser útil se você deseja estudar 
+    sub-baralhos individuais, enquanto impõe um limite total de cartões por dia.
 deck-config-affects-entire-collection = Afeta toda a coleção.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -195,6 +200,17 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Na tela de revisão, mostra um cronômetro que conta o número de segundos 
     que você está levando para revisar cada cartão.
+deck-config-stop-timer-on-answer = Parar o temporizador ao responder
+deck-config-stop-timer-on-answer-tooltip =
+    Se parar o cronômetro quando a resposta for revelada.¶
+    Isso não afeta as estatísticas.
+deck-config-seconds-to-show-question = Segundos para mostrar a pergunta
+deck-config-seconds-to-show-question-tooltip = O número de segundos para esperar antes de avançar automaticamente para a próxima pergunta. Defina como 0 para desativar.
+deck-config-seconds-to-show-answer = Segundos para mostrar a resposta
+deck-config-seconds-to-show-answer-tooltip = O número de segundos para esperar antes de revelar automaticamente a resposta. Defina como 0 para desativar.
+deck-config-answer-action = Ação de resposta
+deck-config-answer-action-tooltip = A ação a ser realizada no cartão atual antes de avançar automaticamente para o próximo.
+deck-config-wait-for-audio-tooltip = Esperar o áudio terminar antes de revelar automaticamente a resposta ou a próxima pergunta
 
 ## Audio section
 
@@ -207,10 +223,6 @@ deck-config-skip-question-when-replaying = Pular pergunta ao repetir a resposta
 deck-config-always-include-question-audio-tooltip =
     Se o áudio da pergunta deve ser incluído quando a ação 'Repetir' é
     usada enquanto observa o lado da resposta de um cartão.
-deck-config-stop-timer-on-answer = Parar o temporizador ao responder
-deck-config-stop-timer-on-answer-tooltip =
-    Se parar o cronômetro quando a resposta for revelada.¶
-    Isso não afeta as estatísticas.
 
 ## Advanced section
 
@@ -256,6 +268,7 @@ deck-config-confirm-remove-name = Remover { $name }?
 
 deck-config-save-button = Salvar
 deck-config-save-to-all-subdecks = Salvar para Todos Sub-Baralhos
+deck-config-save-and-optimize = Otimizar todos os Presets
 deck-config-revert-button-tooltip = Restaura essa configuração para seu estado padrão.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -293,6 +306,7 @@ deck-config-which-deck = Qual baralho você gostaria?
 deck-config-updating-cards = Atualizando cartões: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Os parâmetros devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
 deck-config-not-enough-history = A quantidade de revisões históricas é insuficiente para executar esta operação.
+deck-config-unable-to-determine-desired-retention = Não é possível determinar uma retenção ótima.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Apenas { $count } revisão foi encontrada.
@@ -315,6 +329,7 @@ deck-config-fsrs-on-all-clients =
     funcionará corretamente se um dos seus clientes for mais antigo.
 deck-config-estimated-retention = Retenção estimada: { $num }
 deck-config-complete = { $num }% concluído.
+deck-config-iterations = Iteração: { $count }...
 deck-config-reschedule-cards-on-change = Reagendar cartões ao alterar
 deck-config-fsrs-tooltip =
     O Free Spaced Repetition Scheduler (FSRS) é uma alternativa ao agendador SuperMemo 2 (SM2) legado do Anki.
@@ -365,6 +380,13 @@ deck-config-a-100-day-interval =
         [one] Um intervalo de 100 dias será convertido para { $days } dia
        *[other] Um intervalo de 100 dias será convertido para { $days } dias
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% de { $reviews } avaliação
+       *[other] { $pct }% de { $reviews } avaliações
+    }
+deck-config-optimizing-preset = Otimizando predefinição { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = FSRS deve ser ativado primeiro.
 deck-config-wait-for-audio = Esperando pelo Áudio
 deck-config-show-reminder = Mostrar lembrete
 deck-config-answer-again = Responder Novamente
