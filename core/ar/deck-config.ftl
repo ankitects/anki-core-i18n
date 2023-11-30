@@ -46,6 +46,11 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     يؤثر حد المراجعات على حد البطاقات الجديدة بشكل افتراضي،
     بحيث لا تظهر بطاقات جديدة عند الوصول لحد المراجعات. ستظهر البطاقات
     الجديدة بغض النظر عن حد المراجعات إذا كان هذا الخيار مفعلًا.
+deck-config-apply-all-parent-limits = الحدود تبدأ من الأعلى
+deck-config-apply-all-parent-limits-tooltip =
+    تبدأ الحدود من الرزمة التي تحددها بشكل افتراضي. إذا كان هذا الخيار مفعلًا،
+    ستبدأ الحدود من الرزمة العليا بدلًا من ذلك، وهذا قد يكون مفيدًا عندما تريد دراسة
+    رزم فرعية مع تطبيق حد إجمالي على عدد البطاقات اليومية.
 deck-config-affects-entire-collection = يؤثر بكل المجموعة.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -219,6 +224,10 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     في شاشة المراجعة، يظهر مؤقتًا يعد الثواني
     المأخوذة لإجابة كل بطاقة.
+deck-config-stop-timer-on-answer = إيقاف الموقت عند الإجابة
+deck-config-stop-timer-on-answer-tooltip =
+    ما إذا كان يجب إيقاف المؤقت عندما يظهر الحواب.
+    لا يؤثر هذا بالإحصائيات.
 
 ## Audio section
 
@@ -231,10 +240,6 @@ deck-config-skip-question-when-replaying = تجاهل أصوات جانب الس
 deck-config-always-include-question-audio-tooltip =
     ما إذا كان يجب تضمين أصوات السؤال عند الضغط على زر إعادة تشغيل الصوت
     في جانب السؤال من بطاقة.
-deck-config-stop-timer-on-answer = إيقاف الموقت عند الإجابة
-deck-config-stop-timer-on-answer-tooltip =
-    ما إذا كان يجب إيقاف المؤقت عندما يظهر الحواب.
-    لا يؤثر هذا بالإحصائيات.
 
 ## Advanced section
 
