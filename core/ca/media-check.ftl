@@ -47,7 +47,7 @@ media-check-checked = S'han comprovat { $count }…
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = Desitgeu suprimir els fitxers multimèdia no utilitzats?
+media-check-delete-unused-confirm = Voleu suprimir els fitxers multimèdia no utilitzats?
 media-check-files-remaining =
     { $count ->
         [one] Un fitxer restant.

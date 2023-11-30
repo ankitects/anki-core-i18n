@@ -44,7 +44,7 @@ studying-this-is-a-special-deck-for = Aquesta baralla especial permet estudiar f
 studying-to-review = Per repassar
 studying-type-answer-unknown-field = Escriu la resposta: camp desconegut { $val }
 studying-unbury = Desenterrar
-studying-what-would-you-like-to-unbury = Què desitgeu desenterrar?
+studying-what-would-you-like-to-unbury = Què voleu desenterrar?
 studying-you-havent-recorded-your-voice-yet = Encara no heu enregistrat la vostra veu.
 studying-card-studied-in =
     { $count ->
