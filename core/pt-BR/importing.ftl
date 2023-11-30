@@ -51,10 +51,14 @@ importing-notes-skipped-update-due-to-notetype = Notas não atualizadas, pois o 
 importing-notes-updated-as-file-had-newer = Notas atualizadas, pois o arquivo tinha uma versão mais recente: { $val }
 importing-include-reviews = Incluir revisões
 importing-also-import-progress = Importar também qualquer progresso de aprendizagem
+importing-with-deck-configs = Importar qualquer configuração de baralho
 importing-updates = Atualizações
 importing-include-reviews-help =
     Se ativado, quaisquer revisões anteriores incluídas pelo compartilhador do baralho também serão importadas.
     Caso contrário, todos os cartões serão importados como novos cartões.
+importing-with-deck-configs-help =
+    Se ativado, todas as opções de baralho incluídas pelo compartilhador do baralho também serão importadas.
+    Caso contrário, todos os baralhos serão atribuídos ao preset padrão.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
 # the '|' character
