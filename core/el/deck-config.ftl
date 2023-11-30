@@ -23,6 +23,7 @@ deck-config-review-limit-tooltip =
     Ο μέγιστος αριθμός καρτών που εμφανίζονται προς επανάληψη ανά ημέρα, 
     όταν οι κάρτες είναι έτοιμες για επανάληψη.
 deck-config-limit-new-bound-by-reviews = Το όριο των επαναλήψεων επηρεάζει το όριο των νέων καρτών. Για παράδειγμα, αν το όριο επαναλήψεων είναι 200 και έχετε 190 κάρτες προς επανάληψη, τότε έως και 10 νέες κάρτες μπορούν να εισαχθούν. Αν έχετε φτάσει τό όριο επαναλήψεων, καμία νέα κάρτα δεν θα εμφανιστεί.
+deck-config-limit-interday-bound-by-reviews = Το όριο επαναλήψεων επηρεάζει επίσης τις ενδοημερήσιες κάρτες προς μελέτη. Αν εφαρμόσετε αυτό το όριο, οι ενδοημερήσιες κάρτες για μελέτη θα ληφθούν πρώτες και μετά οι επαναλήψεις.
 deck-config-tab-description =
     - `Προεπιλογή`: Το όριο μοιράζεται μεταξύ των τραπουλών που χρησιμοποιούν αυτή την προεπιλογή.
     - `Αυτή η τράπουλα`: Το όριο είναι ειδικά για αυτή την τράπουλα.
@@ -35,6 +36,7 @@ deck-config-affects-entire-collection = Επηρεάζει ολόκληρη τη
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Προεπιλογή
 deck-config-deck-only = Αυτή η τράπουλα
 deck-config-today-only = Σήμερα μόνο
 
@@ -58,6 +60,8 @@ deck-config-relearning-steps = Βήματα επανεκμάθησης
 ## Burying section
 
 deck-config-bury-title = Αναβολή
+deck-config-bury-new-siblings = Αναβολή νέων ομοειδών
+deck-config-bury-review-siblings = Αναβολή ομοειδών επαναλήψεων
 deck-config-bury-new-tooltip =
     Αν άλλες "νέες" κάρτες της ίδιας σημείωσης (πχ αντίστροφες κάρτες, κάρτες συμπλήρωσης κενού)
     θα καθυστερήσουν έως την επόμενη μέρα.
@@ -80,6 +84,7 @@ deck-config-sort-order-card-template-then-random = Τύπος κάρτας, με
 deck-config-sort-order-random-note-then-template = Τυχαία σημείωση, μετά τύπος κάρτας
 deck-config-sort-order-random = Τυχαία
 deck-config-sort-order-template-then-gather = Τύπος κάρτας
+deck-config-sort-order-gather = Σειρά συγκέντρωσης
 deck-config-new-review-priority = Σειρά νέων/επαναλήψεων
 deck-config-new-review-priority-tooltip = Πότε θα εμφανίζονται οι νέες κάρτες σε σχέση με τις επαναλήψεις.
 deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
@@ -111,6 +116,7 @@ deck-config-stop-timer-on-answer-tooltip =
     Αν ο χρόνος σταματάει όταν αποκαλύπτεται η απάντηση.
     Δεν επηρεάζει τα στατιστικά.
 deck-config-seconds-to-show-question = Δευτερόλεπτα για εμφάνιση ερώτησης
+deck-config-seconds-to-show-question-tooltip = Ο αριθμός δευτερολέπτων πριν την αυτόματη εμφάνιση της επόμενης ερώτησης. Θέσετε σε 0 για απενεργοποίηση.
 deck-config-seconds-to-show-answer = Δευτερόλεπτα για εμφάνιση απάντησης
 deck-config-seconds-to-show-answer-tooltip = Ο αριθμός δευτερολέπτων πριν την αυτόματη αποκάλυψη της απάντησης. Ορίστε σε 0 για απενεργοποίηση.
 
@@ -245,3 +251,4 @@ deck-config-answer-good = Απαντήστε "Καλά"
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = Αναβολή ομοειδών

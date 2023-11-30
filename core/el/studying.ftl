@@ -1,5 +1,6 @@
 studying-again = Ξανά
 studying-all-buried-cards = Όλες οι κάρτες σε αναβολή
+studying-buried-siblings = Ομοειδείς σε αναβολή
 studying-bury = Αναβολή
 studying-bury-card = Αναβολή κάρτας
 studying-bury-note = Αναβολή σημείωσης
