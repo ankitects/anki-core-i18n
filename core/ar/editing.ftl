@@ -93,6 +93,8 @@ editing-image-occlusion-ellipse-tool = شكل بيضاوي
 editing-image-occlusion-polygon-tool = مضلع
 editing-image-occlusion-text-tool = نص
 editing-image-occlusion-toggle-mask-editor = إظهار/إخفاء محرر التعتيم
+editing-image-occlusion-reset = إعادة ضبط الصورة المعماة
+editing-image-occlusion-confirm-reset = هل أنت متأكد من أنك تريد إعادة ضبط صورة التعتيم هذه؟
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

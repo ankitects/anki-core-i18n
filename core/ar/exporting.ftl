@@ -13,6 +13,7 @@ exporting-include = <b>اشمل</b>
 exporting-include-html-and-media-references = تضمين HTML ومراجع الوسائط
 exporting-include-media = تضمين الوسائط
 exporting-include-scheduling-information = تضمين معلومات الجدولة
+exporting-include-deck-configs = تضمين مجموعات خيارات الرزم
 exporting-include-tags = تضمين الوسوم
 exporting-support-older-anki-versions = يدعم إصدارات أنكي القديمة (أبطأ وينتج ملفات أكبر)
 exporting-notes-in-plain-text = ملحوظات بصيغة نصية

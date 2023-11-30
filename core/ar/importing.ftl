@@ -51,10 +51,14 @@ importing-notes-skipped-update-due-to-notetype = لم يتم تحديث المل
 importing-notes-updated-as-file-had-newer = عدد الملحوظات المحدثة لأن الملف له إصدار أحدث: { $val }
 importing-include-reviews = تضمين المراجعات
 importing-also-import-progress = قم أيضًا باستيراد أي تقدم في التعلم
+importing-with-deck-configs = استيراد مجموعات خيارات الرزم
 importing-updates = تحديثات
 importing-include-reviews-help =
     في حالة التمكين، سيتم أيضا استيراد أي مراجعات سابقة قام مشارك الرزمة بتضمينها.
     خلاف ذلك ، سيتم استيراد جميع البطاقات كبطاقات جديدة.
+importing-with-deck-configs-help =
+    في حالة التمكين، سيتم استيراد أي مجموعات خيارات ضمنها الشخص الذي شارك الرزمة.
+    خلاف ذلك، سيتم استخدام مجموعة الخيارات الافتراضية لكل الرزم.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = حزمة رزمة/مجموعة أنكي (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = درس Pauker 1.8 (*.pau.gz)
 # the '|' character

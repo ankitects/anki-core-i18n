@@ -228,6 +228,13 @@ deck-config-stop-timer-on-answer = إيقاف الموقت عند الإجابة
 deck-config-stop-timer-on-answer-tooltip =
     ما إذا كان يجب إيقاف المؤقت عندما يظهر الحواب.
     لا يؤثر هذا بالإحصائيات.
+deck-config-seconds-to-show-question = عدد الثواني حتى إظهار السؤال
+deck-config-seconds-to-show-question-tooltip = عدد الثواني المنتظرة قبل الانتقال للسؤال التالي تلقائيًا. أدخل 0 لإلغاء التفعيل.
+deck-config-seconds-to-show-answer = عدد الثواني حتى إظهار الجواب
+deck-config-seconds-to-show-answer-tooltip = عدد الثواني المنتظرة قبل كشف الجواب تلقائيًا. أدخل 0 لإلغاء التفعيل.
+deck-config-answer-action = إجراء الإجابة
+deck-config-answer-action-tooltip = الوظيفة المنفذة على البطاقة الحالية قبل الانتقال للبطاقة التالية تلقائيًا.
+deck-config-wait-for-audio-tooltip = انتظر انتهاء الصوتيات قبل كشف الجواب أو السؤال التالي تلقائيًا
 
 ## Audio section
 
@@ -281,6 +288,7 @@ deck-config-confirm-remove-name = هل تريد حذف { $name }؟
 
 deck-config-save-button = حفظ
 deck-config-save-to-all-subdecks = حفظ في كل الرزم الفرعية
+deck-config-save-and-optimize = حساب العوامل المثالية لكل مجموعات الرزم
 deck-config-revert-button-tooltip = استرجاع قيمة الإعداد الافتراضية.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -326,6 +334,7 @@ deck-config-which-deck = ما الرزمة التي تريد عرض خيارات
 deck-config-updating-cards = تحديث البطاقات: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = يجب ترك الأوزان فارغة لاستخدام الإعدادات الافتراضية، أو يجب أن تكون 17 رقما مفصولة بفواصل.
 deck-config-not-enough-history = محفوظات المراجعة غير كافية لتنفيذ هذه العملية.
+deck-config-unable-to-determine-desired-retention = فشل تعيين معدل تذكر أمثل.
 deck-config-must-have-1000-reviews =
     { $count ->
         [zero] لا توجد أي مراجعات.
@@ -352,6 +361,7 @@ deck-config-fsrs-on-all-clients =
     بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
 deck-config-estimated-retention = معدل التذكر المقدر: { $num }
 deck-config-complete = اكتمل { $num }%.
+deck-config-iterations = التكرار: { $count }...
 deck-config-reschedule-cards-on-change = إعادة جدولة البطاقات عند التغيير
 deck-config-fsrs-tooltip =
     يعد برنامج جدولة التكرار المتباعد الحر (FSRS) بديلاً لبرنامج جدولة SuperMemo 2 (SM2) القديم الخاص بأنكي.
@@ -407,6 +417,17 @@ deck-config-a-100-day-interval =
         [many] يصبح فاصل 100 يوم { $days } يوم.
        *[other] يصبح فاصل 100 يوم { $days } يوم.
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [zero] { $pct } من أصل { $reviews } مراجعة
+        [one] { $pct } من أصل مراجعة واحدة
+        [two] { $pct } من أصل مراجعتين
+        [few] { $pct } من أصل { $reviews } مراجعات
+        [many] { $pct } من أصل { $reviews } مراجعة
+       *[other] { $pct } من أصل { $reviews } مراجعة
+    }
+deck-config-optimizing-preset = حساب المعاملات المثالية لمجموعة الخيارات { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = يجب تفعيل FSRS أولًا.
 deck-config-wait-for-audio = انتظار الصوت
 deck-config-show-reminder = إظهار المُذكّر
 deck-config-answer-again = الإجابة بـ«مجددًا»
