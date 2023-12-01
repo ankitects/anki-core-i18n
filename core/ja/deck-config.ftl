@@ -181,6 +181,18 @@ deck-config-stop-timer-on-answer = 解答表示でタイマーを停止する
 deck-config-stop-timer-on-answer-tooltip =
     解答側を表示した時点でタイマーのカウントアップを停止するか、それとも続行するかを設定します。
     この設定はあくまでタイマーのカウント表示についてのものであり、カードへの回答秒数についての統計には影響しません。つまり、タイマーのカウントアップを停止した場合でも、その後、回答ボタンを押すまでの秒数は引き続き計測されます。
+deck-config-seconds-to-show-question = 解答を表示し続ける秒数
+deck-config-seconds-to-show-question-tooltip =
+    解答を表示してから、次のカードを自動表示するまでの待機秒数。答え合わせをするための時間です。
+    
+    0にすると自動操作を無効にします。
+deck-config-seconds-to-show-answer = 解答を表示するまでの秒数
+deck-config-seconds-to-show-answer-tooltip =
+    解答を自動表示するまでの待機秒数。質問の答えを考えるための時間です。
+    
+    0にすると自動表示を無効にします。
+deck-config-answer-action = 自動回答アクション
+deck-config-answer-action-tooltip = ユーザーが回答などの操作を手動で行わず、自動的に次のカードに進む前に、現在のカードに対して実行するアクション。
 
 ## Audio section
 
