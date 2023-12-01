@@ -55,4 +55,4 @@ studying-minute =
     { $count ->
        *[other] （時間枠：{ $count }分）
     }
-studying-answer-time-elapsed = 解答表示時間が経過しました
+studying-answer-time-elapsed = 回答する時間になりました

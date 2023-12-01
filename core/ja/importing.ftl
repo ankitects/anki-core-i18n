@@ -50,8 +50,12 @@ importing-notes-skipped-update-due-to-notetype = ノートでの更新を行い�
 importing-notes-updated-as-file-had-newer = 既存のノートを更新しました（より新しい版がファイル内にあるため）: { $val }個
 importing-include-reviews = 学習履歴を含める
 importing-also-import-progress = 学習履歴もインポート
+importing-with-deck-configs = デッキのプリセットもインポート
 importing-updates = 更新
 importing-include-reviews-help = オンにすると、このデッキに（デッキ作成者の）以前の学習履歴が含まれている場合、その履歴もインポートします。オフにすると、すべてのカードを新規カードとしてインポートします。
+importing-with-deck-configs-help =
+    オンにすると、デッキ作成者がデッキに設定した各オプションもすべてインポートします。
+    オフにすると、インポートするすべてのデッキにデフォルトのプリセットを適用します。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
 # the '|' character

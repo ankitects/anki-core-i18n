@@ -93,6 +93,8 @@ editing-image-occlusion-ellipse-tool = 楕円形
 editing-image-occlusion-polygon-tool = 多角形
 editing-image-occlusion-text-tool = 文字
 editing-image-occlusion-toggle-mask-editor = マスクエディタを表示/非表示
+editing-image-occlusion-reset = この画像穴埋め問題をリセット
+editing-image-occlusion-confirm-reset = この画像穴埋め問題をリセットしてよろしいですか？
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
