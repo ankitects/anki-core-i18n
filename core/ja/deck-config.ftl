@@ -195,6 +195,7 @@ deck-config-seconds-to-show-answer-tooltip =
     それ以外の場合、学習画面右下の「その他」→「カードの自動送り」を選択すると、この自動表示機能がオンになります。
 deck-config-answer-action = 自動回答アクション
 deck-config-answer-action-tooltip = ユーザーが回答などの操作を手動で行わず、自動的に次のカードに進む前に、現在のカードに対して実行するアクション。
+deck-config-wait-for-audio-tooltip = 音声が終了するまで待ってから、解答または次の質問を自動表示します
 
 ## Audio section
 
