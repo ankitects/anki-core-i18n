@@ -102,7 +102,7 @@ statistics-average-stability = Estabilitat mitjana
 statistics-card-retrievability-title = Recuperabilitat de les targetes
 statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
 statistics-card-difficulty-subtitle = Com més alta sigui la dificultat, més complicat serà l’aprenentatge.
-statistics-retrievability-subtitle = Probabilitat que recordeu una carta avui.
+statistics-retrievability-subtitle = Probabilitat que recordeu una targeta avui.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->

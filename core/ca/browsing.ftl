@@ -17,8 +17,8 @@ browsing-card-list = Llista de targetes
 browsing-cards-cant-be-manually-moved-into = No podeu moure manualment les targetes a una baralla filtrada.
 browsing-cards-deleted =
     { $count ->
-        [one] S'ha eliminat una targeta.
-       *[other] S'han eliminat { $count } targetes.
+        [one] S’ha suprimit una targeta.
+       *[other] S’han suprimit { $count } targetes.
     }
 browsing-change-deck = Canvia de baralla
 browsing-change-deck2 = Canvia de baralla…
@@ -30,7 +30,7 @@ browsing-confirm-saved-search-overwrite = Ja existeix una cerca guardada amb el 
 browsing-created = S'ha afegit
 browsing-current-deck = Baralla actual
 browsing-current-note-type = Tipus de nota actual:
-browsing-delete-notes = Elimina les notes
+browsing-delete-notes = Suprimeix les notes
 browsing-duplicate = duplicada
 browsing-ease = Facilitat
 browsing-enter-tags-to-add = Introduïu les etiquetes que voleu afegir:
@@ -69,7 +69,7 @@ browsing-question = Pregunta
 browsing-queue-bottom = Final de la cua: { $val }
 browsing-queue-top = Principi de la cua: { $val }
 browsing-randomize-order = Ordre aleatori
-browsing-remove-tags = Elimina les etiquetes…
+browsing-remove-tags = Suprimeix les etiquetes…
 browsing-replace-with = <b>Substitueix per</b>:
 browsing-reposition = Reposiciona…
 browsing-reposition-new-cards = Reposiciona les noves targetes
