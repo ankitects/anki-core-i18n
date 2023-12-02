@@ -13,6 +13,7 @@ exporting-include = <b>Συμπερίληψη</b>:
 exporting-include-html-and-media-references = Συμπερίληψη HTML και αναφορών πολυμέσων
 exporting-include-media = Συμπερίληψη πολυμέσων
 exporting-include-scheduling-information = Συμπερίληψη πληροφοριών προγραμματισμού
+exporting-include-deck-configs = Συμπερίληψη προεπιλογών τραπουλών
 exporting-include-tags = Συμπερίληψη ετικετών
 exporting-support-older-anki-versions = Υποστήριξη παλαιότερων εκδόσεων Anki (πιο αργό/μεγαλύτερα αρχεία)
 exporting-notes-in-plain-text = Σημειώσεις σε απλό κείμενο

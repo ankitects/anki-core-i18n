@@ -19,6 +19,7 @@ decks-most-lapses = Περισσότερα ολισθήματα
 decks-new-deck-name = Νέο όνομα τράπουλας
 decks-no-deck = [καμία τράπουλα]
 decks-oldest-seen-first = Παλαιότερες εμφανίζονται πρώτα
+decks-order-added = Σειρά που προστέθηκε
 decks-please-select-something = Παρακαλώ επιλέξτε κάτι.
 decks-random = Τυχαία
 decks-reschedule-cards-based-on-my-answers = Επαναπρογραμματισμός καρτών βάσει των απαντήσεων μου σε αυτή την τράπουλα

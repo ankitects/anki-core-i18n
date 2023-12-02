@@ -61,6 +61,10 @@ scheduling-today-new-limit-reached =
     Μπορείτε να αυξήσετε το όριο στις επιλογές, αλλά λάβετε υπόψη
     ότι όσες περισσότερες νέες κάρτες εισάγετε, τόσο υψηλότερος
     θα γίνει ο βραχυπρόθεσμος φόρτος επαναλήψεων.
+scheduling-buried-cards-found = Μία ή περισσότερες κάρτες ήταν σε αναβολή και θα εμφανιστούν αύριο. Μπορείτε να κάνετε { $unburyThem } αν επιθυμείτε να τις δείτε αμέσως.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = αναίρεση αναβολής
 scheduling-how-to-custom-study = Αν επιθυμείτε να διαβάσετε εκτός του κανονικού προγράμματος, μπορείτε να χρησιμοποιήσετε την δυνατότητα { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
@@ -93,6 +97,8 @@ scheduling-interval-modifier = Tροποποιητής διαστήματος
 scheduling-lapses = Ολισθήματα
 scheduling-lapses2 = ολισθήματα
 scheduling-learning = Εκμάθηση
+scheduling-leech-action = Ενέργεια για leech
+scheduling-leech-threshold = Όριο leech
 scheduling-maximum-interval = Μέγιστο διάστημα
 scheduling-maximum-reviewsday = Μέγιστες επαναλήψεις ανά ημέρα
 scheduling-minimum-interval = Ελάχιστο διάστημα

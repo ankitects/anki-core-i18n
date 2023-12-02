@@ -1,3 +1,4 @@
+editing-actual-size = Πραγματικό μέγεθος
 editing-add-media = Προσθήκη πολυμέσων
 editing-align-left = Στοίχιση αριστερά
 editing-align-right = Στοίχιση δεξιά
@@ -22,6 +23,8 @@ editing-indent = Αύξηση εσοχής
 editing-jump-to-tags-with-ctrlandshiftandt = Μεταπήδηση σε ετικέτες με Ctrl+Shift+T
 editing-latex = Latex
 editing-latex-equation = Εξίσωση LaTeX
+editing-mathjax-chemistry = MathJax χημεία
+editing-mathjax-placeholder = Πατήστε { $accept } για αποδοχή, { $newline } για νέα γραμμή.
 editing-media = Πολυμέσα
 editing-ordered-list = Ταξινομημένη λίστα
 editing-outdent = Μείωση εσοχής
@@ -39,6 +42,7 @@ editing-tags-copy = Αντιγραφή ετικετών
 editing-tags-remove = Αφαίρεση ετικετών
 editing-tags-select-all = Επιλογή όλων των ετικετών
 editing-text-color = Χρώμα κειμένου
+editing-text-highlight-color = Χρώμα υπογράμμισης κειμένου
 editing-expand = Επέκταση
 editing-collapse = Σύμπτυξη
 editing-expand-field = Επέκταση πεδίου
@@ -48,11 +52,15 @@ editing-unordered-list = Αταξινόμητη λίστα
 editing-warning-cloze-deletions-will-not-work = Προσοχή! Η συμπλήρωση κενού λειτουργεί μόνο όταν επιλεχθεί πάνω ως τύπος σημείωσης.
 editing-mathjax-preview = Προεπισκόπηση MathJax
 editing-shrink-images = Συρρίκνωση εικόνων
+editing-close-html-tags = Αυτόματο κλείσιμο ετικετών HTML
 editing-from-clipboard = Από το πρόχειρο
 editing-alignment = Στοίχιση
 editing-equations = Εξισώσεις
 editing-no-image-found-on-clipboard = Δεν βρέθηκε εικόνα στο πρόχειρο.
 editing-image-occlusion-mode = Λειτουργία επικάλυψης εικόνας
+editing-image-occlusion-zoom-out = Σμίκρυνση
+editing-image-occlusion-zoom-in = Μεγέθυνση
+editing-image-occlusion-zoom-reset = Επαναφορά ζουμ
 editing-image-occlusion-delete = Διαγραφή
 editing-image-occlusion-duplicate = Διπλασιασμός
 editing-image-occlusion-alignment = Στοίχιση
@@ -66,6 +74,8 @@ editing-image-occlusion-rectangle-tool = Ορθογώνιο παραλληλόγ
 editing-image-occlusion-ellipse-tool = Έλλειψη
 editing-image-occlusion-polygon-tool = Πολύγωνο
 editing-image-occlusion-text-tool = Κείμενο
+editing-image-occlusion-reset = Επαναφορά επικάλυψης εικόνας
+editing-image-occlusion-confirm-reset = Είστε σίγουροι ότι θέλετε να επαναφέρετε αυτή την επικάλυψη εικόνας;
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

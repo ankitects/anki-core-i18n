@@ -30,6 +30,7 @@ media-check-renamed-file = Μετονομάστηκαν: { $old } -> { $new }
 media-check-oversize-file = Πάνω από 100MB: { $filename }
 media-check-subfolder-file = Φάκελος: { $filename }
 media-check-missing-file = Λείπουν: { $filename }
+media-check-unused-file = Αχρησιμοποίητα: { $filename }
 
 ##
 

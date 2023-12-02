@@ -56,6 +56,11 @@ deck-config-new-insertion-order-random = Τυχαία
 ## Lapses section
 
 deck-config-relearning-steps = Βήματα επανεκμάθησης
+deck-config-leech-threshold-tooltip = Οι φορές που πρέπει να πατηθεί το "Ξανά" σε μια κάρτα προς επανάληψη πριν επισημανθεί ως leech. Οι κάρτες leech είναι κάρτες που καταναλώνουν πολύ από τον χρόνο σας. Όταν μια κάρτα γίνεται leech, καλό θα ήταν να την ξαναγράψετε, διαγράψετε ή να σκεφτείτε ένα μνημονικό που θα σας βοηθήσει να την θυμάστε.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Ετικέτα μόνο`: Προσθέτει την ετικέτα "leech" σε μία σημείωση και εμφανίζει ένα αναδύομενο παράθυρο.
+    `Αναστολή κάρτας`: Εκτός από ετικέτα, κρύβει επίσης την κάρτα μέχρι να γίνει χειροκίνητα αναίρεση της αναστολής.
 
 ## Burying section
 
@@ -120,6 +125,7 @@ deck-config-seconds-to-show-question = Δευτερόλεπτα για εμφά�
 deck-config-seconds-to-show-question-tooltip = Ο αριθμός δευτερολέπτων πριν την αυτόματη εμφάνιση της επόμενης ερώτησης. Θέσετε σε 0 για απενεργοποίηση.
 deck-config-seconds-to-show-answer = Δευτερόλεπτα για εμφάνιση απάντησης
 deck-config-seconds-to-show-answer-tooltip = Ο αριθμός δευτερολέπτων πριν την αυτόματη αποκάλυψη της απάντησης. Ορίστε σε 0 για απενεργοποίηση.
+deck-config-answer-action = Ενέργεια απάντησης
 deck-config-answer-action-tooltip = Η ενέργεια που θα εκτελεστεί στην τρέχουσα κάρτα πριν την αυτόματη εμφάνιση της επόμενης.
 deck-config-wait-for-audio-tooltip = Αναμονή για την ολοκλήρωση του ήχου πριν την αυτόματη αποκάλυψη της απάντησης ή την επόμενη ερώτηση
 

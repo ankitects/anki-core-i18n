@@ -5,6 +5,7 @@ studying-bury = Αναβολή
 studying-bury-card = Αναβολή κάρτας
 studying-bury-note = Αναβολή σημείωσης
 studying-card-suspended = Αναστολή κάρτας.
+studying-card-was-a-leech = Η κάρτα ήταν leech.
 studying-cards-buried =
     { $count ->
         [one] { $count } κάρτα αναβλήθηκε.
@@ -34,6 +35,7 @@ studying-this-is-a-special-deck-for = Αυτή είναι μια ειδική τ
 studying-to-review = Προς επανάληψη
 studying-type-answer-unknown-field = Πληκτρολογήστε απάντηση: άγνωστο πεδίο { $val }
 studying-unbury = Αναίρεση αναβολής
+studying-what-would-you-like-to-unbury = Τι θα θέλατε να επαναφέρετε από αναβολή;
 studying-you-havent-recorded-your-voice-yet = Δεν έχετε ηχογραφήσει τη φωνή σας ακόμα
 studying-card-studied-in =
     { $count ->
