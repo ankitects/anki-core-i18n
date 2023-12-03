@@ -299,7 +299,12 @@ deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mob
 deck-config-estimated-retention = 正答保持率（推定値）: { $num }
 deck-config-complete = { $num }% 完了
 deck-config-reschedule-cards-on-change = 変更の際に再スケジュール
-deck-config-fsrs-tooltip = Free Spaced Repetition Scheduler （フリー〈無料〉の間隔反復スケジューラー、FSRS）は、Ankiの従来のスケジューラーであるSuperMemo 2 （SM2）スケジューラーの代わりに使用できるスケジューラーです。 忘れてしまいそうなタイミングをより正確に予測することで、同じ時間でより多くの内容を記憶することができる可能性があります。このオプションのオン・オフの設定は、すべてのデッキのプリセットに共有されます。
+deck-config-fsrs-tooltip =
+    FSRS（Free Spaced Repetition Scheduler、フリーの間隔反復スケジューラー）は、Anki の従来のスケジューラーである SM2（SuperMemo 2 ）スケジューラーの代わりに使用できるスケジューラーです。 FSRS は、あなたが学習内容を忘れてしまいそうなタイミングをより正確に予測し、従来より効率よく学習内容を覚えていられるような学習スケジュールを組み立ててくれる可能性があります。
+    
+    このオプションのオン・オフの設定は、すべてのデッキのプリセットで共有されます。
+    
+    「カスタムスケジューリング」を事前に使用していた場合は、このオプションをオンにする前に、必ずカスタムスケジューリングの入力欄の内容を消去してください。
 deck-config-desired-retention-tooltip =
     デフォルト値の0.9では、再び表示したときに90％の確率で正答を思い出せるように復習カードのスケジュールを設定します。
     この値を上げると、Ankiはあなたが正答を思い出しやすくするために、より頻繁に、つまり、より短めの間隔でカードを表示します。
