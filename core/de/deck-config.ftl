@@ -168,6 +168,11 @@ deck-config-maximum-answer-secs-tooltip =
     Die maximale Anzahl an Sekunden, die bei einer einzelnen Wiederholung erfasst wird. Wenn die Antwort
     diese Zeit überschreitet (weil Sie beispielsweise nicht auf den Bildschirm geschaut haben), dann wird die für die Antwort benötigte, zu vermerkende Zeitdauer auf diesen Höchstwert (herunter)gesetzt.
 deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
+deck-config-stop-timer-on-answer = Timer pausieren, solange die Antwortseite gezeigt wird
+deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, während die Antwort aufgedeckt ist. Wirkt sich nicht auf die Statistik aus.
+deck-config-seconds-to-show-answer = Sekunden bis die Antowort gezeigt wird
+deck-config-seconds-to-show-answer-tooltip = Anzahl der Sekunden bis die Antwort automatisch gezeigt wird. Auf 0 setzten um zu deaktivieren.
+deck-config-answer-action = Ant­wort­ak­tion
 
 ## Audio section
 
@@ -178,8 +183,6 @@ deck-config-disable-autoplay-tooltip =
     Sie können manuell abgespielt werden, indem Sie auf das Audiosymbol klicken/drücken oder indem Sie die Aktion Audio erneut abspielen benutzen.
 deck-config-skip-question-when-replaying = Frage beim erneuten Abspielen der Antwort überspringen
 deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
-deck-config-stop-timer-on-answer = Timer pausieren, solange die Antwortseite gezeigt wird
-deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, während die Antwort aufgedeckt ist. Wirkt sich nicht auf die Statistik aus.
 
 ## Advanced section
 
@@ -250,11 +253,24 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
+deck-config-must-have-1000-reviews =
+    { $count ->
+        [one] Nur { $count } Wiederholung wurde gefunden.
+       *[other] Nur { $count } Wiederholungen wurden gefunden.
+    } Sie müssen mindestends 1000 Wiederholungen haben, um benutzerdefinierte Parameter zu erzeugen.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parameter
+deck-config-compute-optimal-weights = Optimierung von FSRS Parametern
+deck-config-compute-optimal-retention = Optimale Retention berechnen
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
 deck-config-evaluate-button = Evaluieren
+deck-config-desired-retention = Gewünschte Retention
+deck-config-sm2-retention = SM2 Retention
+deck-config-get-params = Parameter abrufen
+deck-config-estimated-retention = Geschätzte Retention: { $num }
+deck-config-complete = { $num }% abgeschlossen.
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen

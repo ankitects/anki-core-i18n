@@ -26,6 +26,7 @@ card-stats-no-card = (Keine Karte zum Anzeigen.)
 card-stats-custom-data = Benutzerdefinierte Daten
 card-stats-fsrs-stability = Stabilität
 card-stats-fsrs-difficulty = Schwierigkeit
+card-stats-fsrs-retrievability = Abrufbarkeit
 
 ## Window Titles
 
