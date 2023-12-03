@@ -52,6 +52,7 @@ deck-config-easy-interval-tooltip = Ο αριθμός ημερών μέχρι τ
 deck-config-new-insertion-order = Σειρά εισαγωγής
 deck-config-new-insertion-order-sequential = Διαδοχικά (παλαιότερες κάρτες πρώτα)
 deck-config-new-insertion-order-random = Τυχαία
+deck-config-new-insertion-order-random-with-v3 = Με τον προγραμματιστή V3, είναι καλύτερο να αφήσετε αυτή την προεπιλογή ως διαδοχική και να προσαρμόσετε την σειρά συγκέντρωσης νέων καρτών.
 
 ## Lapses section
 

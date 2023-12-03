@@ -20,6 +20,7 @@ card-templates-preview-settings = Επιλογές
 card-templates-invalid-template-number = Το πρότυπο κάρτας του τύπου κάρτας { $notetype } έχει ένα πρόβλημα.
 card-templates-identical-front = Η πρόσθια πλευρά είναι πανομοιότυπη με το πρότυπο κάρτας { $number }.
 card-templates-no-front-field = Αναμένονταν αντικατάσταση πεδίου στην πρόσθια πλευρά του προτύπου της κάρτας.
+card-templates-missing-cloze = Αναμένονταν '{ "{{" }cloze:Text{ "}}" }' ή κάτι παρόμοιο στην πρόσθια και οπίσθια πλευρά του πρότυπου της κάρτας.
 card-templates-see-preview = Δες την προεπισκόπηση για περισσότερες πληροφορίες.
 card-templates-changes-saved = Οι αλλαγές αποθηκεύτηκαν.
 card-templates-discard-changes = Απόρριψη αλλαγών;

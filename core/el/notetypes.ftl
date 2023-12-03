@@ -12,6 +12,7 @@ notetypes-text-field = Κείμενο
 notetypes-basic-name = Βασικό
 notetypes-basic-reversed-name = Βασική (και αντεστραμμένη κάρτα)
 notetypes-basic-optional-reversed-name = Βασική (κατ'επιλογή αντεστραμμένη κάρτα)
+notetypes-basic-type-answer-name = Basic (πληκτρολόγηση απάντησης)
 notetypes-cloze-name = Κλείσιμο
 
 ## Default card template names
