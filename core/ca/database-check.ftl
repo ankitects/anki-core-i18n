@@ -1,5 +1,5 @@
 database-check-corrupt = El fitxer de la col·lecció està malmès. Restaureu la col·lecció des d'una còpia de seguretat automàtica.
-database-check-rebuilt = S’ha reconstruït i optimitzat la base de dades reconstruïda.
+database-check-rebuilt = S’ha reconstruït i optimitzat la base de dades.
 database-check-card-properties =
     { $count ->
         [one] S'ha corregit { $count } targeta que tenia propietats invàlides.
