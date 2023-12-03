@@ -32,7 +32,7 @@ deck-config-new-cards-ignore-review-limit-tooltip =
 deck-config-apply-all-parent-limits = メインデッキの上限も適用
 deck-config-apply-all-parent-limits-tooltip =
     このオプションがオフ（デフォルト）の場合、各枚数の上限には、学習を開始する際に選択したデッキの設定が適用されます。
-    このオプションがオンの場合、各枚数の上限には、学習を開始する際に選択したデッキの設定とともに、そのデッキが属するメインデッキ（＝他のデッキのサブデッキでない、最上位のデッキ）の設定も適用されます。「メインデッキ全体についての枚数の上限を超えない範囲で、各サブデッキを学習したい」という場合に役立つ可能性があります。
+    このオプションがオンの場合、各枚数の上限には、学習を開始する際に選択したデッキの設定とともに、そのデッキが属するメインデッキ（＝他のデッキのサブデッキでない、最上位のデッキ）についての設定も適用されます。「個々のサブデッキを選択して学習したいが、メインデッキ全体の各枚数の上限を超えないようにしたい」という場合に役立つかもしれません。
 deck-config-affects-entire-collection = この設定はコレクション全体に一括で適用されます。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -247,6 +247,7 @@ deck-config-confirm-remove-name = { $name }を削除しますか？
 
 deck-config-save-button = 保存
 deck-config-save-to-all-subdecks = 保存してサブデッキにも適用
+deck-config-save-and-optimize = すべてのプリセットを最適化
 deck-config-revert-button-tooltip = この設定をデフォルトに戻す
 
 ## These strings are shown via the Description button at the bottom of the
@@ -282,6 +283,7 @@ deck-config-which-deck = どのデッキを選択しますか？
 deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = パラメータの欄には、デフォルト値を使用するために何も入力しないままにするか、コンマ (", ") で区切られた17個の数字を入力する必要があります。
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
+deck-config-unable-to-determine-desired-retention = 最適な正答保持率を推定できませんでした
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] 復習カードが{ $count }枚しか見つかりません。
@@ -302,6 +304,7 @@ deck-config-get-params = パラメータを取得
 deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSは、クライアントのいずれかが古いバージョンである場合は正しく動作しません。
 deck-config-estimated-retention = 正答保持率（推定値）: { $num }
 deck-config-complete = { $num }% 完了
+deck-config-iterations = 反復: { $count }...
 deck-config-reschedule-cards-on-change = 変更の際に再スケジュール
 deck-config-fsrs-tooltip =
     FSRS（Free Spaced Repetition Scheduler、フリーの間隔反復スケジューラー）は、Anki の従来のスケジューラーである SM2（SuperMemo 2 ）スケジューラーの代わりに使用できるスケジューラーです。 FSRS は、あなたが学習内容を忘れてしまいそうなタイミングをより正確に予測し、従来より効率よく学習内容を覚えていられるような学習スケジュールを組み立ててくれる可能性があります。
@@ -346,6 +349,11 @@ deck-config-a-100-day-interval =
         [one] 100日の間隔は { $days } 日になります。
        *[other] 100日の間隔は { $days } 日になります。
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+       *[other] { $reviews }回の復習の{ $pct }%
+    }
+deck-config-optimizing-preset = プリセットを最適化中：{ $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
