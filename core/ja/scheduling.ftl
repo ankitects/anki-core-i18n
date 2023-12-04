@@ -17,7 +17,7 @@ scheduling-answer-button-time-years = { $amount }年
 
 scheduling-time-span-seconds = { $amount }秒
 scheduling-time-span-minutes = { $amount }分
-scheduling-time-span-hours = { $amount } 時間
+scheduling-time-span-hours = { $amount }時間
 scheduling-time-span-days = { $amount }日
 scheduling-time-span-months = { $amount }か月
 scheduling-time-span-years = { $amount }年
@@ -26,7 +26,7 @@ scheduling-time-span-years = { $amount }年
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    次の習得中カードは { $unit ->
+    次の習得中カードは{ $unit ->
         [seconds] { $amount }秒
         [minutes] { $amount }分
        *[hours] { $amount }時間
