@@ -159,7 +159,7 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-        [one] Μετονομάστηκε μια τράπουλα.
+        [one] Μετονομάστηκε { $count } τράπουλα.
        *[other] Μετονομάστηκαν { $count } τράπουλες.
     }
 browsing-sidebar-card-state-review = Επανάληψη

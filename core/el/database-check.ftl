@@ -2,7 +2,7 @@ database-check-corrupt = Η συλλογή είναι κατεστραμμένη
 database-check-rebuilt = Η βάση δεδομένων ξαναδημιουργήθηκε και βελτιώθηκε.
 database-check-card-properties =
     { $count ->
-        [one] Διορθώθηκε μια μη έγκυρη ιδιότητα κάρτας.
+        [one] Διορθώθηκε { $count } μη έγκυρη ιδιότητα κάρτας.
        *[other] Διορθώθηκαν { $count } μη έγκυρες ιδιότητες κάρτας.
     }
 database-check-missing-templates =
@@ -37,7 +37,7 @@ database-check-missing-decks =
     }
 database-check-revlog-properties =
     { $count ->
-        [one] Διορθώθηκε μια καταχώρηση επανάληψης με μη έγκυρες ιδιότητες.
+        [one] Διορθώθηκε { $count } καταχώρηση επανάληψης με μη έγκυρες ιδιότητες.
        *[other] Διορθώθηκαν { $count } καταχώρησεις επανάληψεων με μη έγκυρες ιδιότητες.
     }
 database-check-notes-with-invalid-utf8 =
@@ -47,7 +47,7 @@ database-check-notes-with-invalid-utf8 =
     }
 database-check-fixed-invalid-ids =
     { $count ->
-        [one] Διορθώθηκε ένα αντικείμενο με χρονικά σημεία στο μέλλον.
+        [one] Διορθώθηκε { $count } αντικείμενο με χρονικά σημεία στο μέλλον.
        *[other] Διορθώθηκαν { $count } αντικείμενα με χρονικά σημεία στο μέλλον.
     }
 # "db-check" is always in English
