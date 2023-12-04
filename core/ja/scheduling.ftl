@@ -38,8 +38,8 @@ scheduling-learn-remaining =
 scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題をすべて達成しました！
 scheduling-today-review-limit-reached =
     期日に達している復習カードがまだ残っていますが、今日復習した枚数が一日の上限に達しています。
-    適切なタイミングでの復習によって記憶を維持するため、「オプション」で「一日の復習枚数の上限」の値を増やすことを検討してください。
-scheduling-today-new-limit-reached = まだ新規カードは残っていますが、設定した一日の上限に達しました。学習設定より上限を変更することも可能ですが、それにより短期的に一日の復習量が増え、しばらくの間、通常よりも学習負荷がかかりますのでご注意ください。
+    適切なタイミングでの復習によって記憶を維持するため、「オプション」で「一日の復習枚数の上限」を上げることを検討してください。
+scheduling-today-new-limit-reached = 未導入の新規カードがまだ残っていますが、今日の新規カード導入枚数がすでに一日の上限に達しています。「オプション」で「一日の新規カード導入枚数の上限」を上げることも可能ですが、一日の導入枚数を増やすほど、短期的な復習の回数が急増しやすくなることに注意してください。
 scheduling-buried-cards-found = 手動操作またはオプションによる自動操作によって、今日は非表示にしたカードがあります。それらのカードをすぐに学習したい場合は、{ $unburyThem }してください。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
