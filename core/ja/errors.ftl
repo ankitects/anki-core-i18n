@@ -6,7 +6,7 @@ errors-100-tags-max =
     から必要のないタグを除去していくよりも、必要なタグを選択する方が通常シンプルです。
     また、親タグが選択されている場合、あらためて子タグを選択する必要はありません。
 errors-multiple-notetypes-selected = 同じノートタイプのノートを選択してください。
-errors-please-check-database = データベースをチェック機能を使用した後、再度お試しください。
+errors-please-check-database = 「データベースをチェック」機能を使用した後、再度お試しください。
 errors-please-check-media = 「メディアをチェック」機能を使用した後、再度お試しください。
 errors-collection-too-new = このコレクションを開くには新しいバージョンのAnkiが必要です。
 errors-invalid-ids = このデッキには未来の日時のタイムスタンプが含まれています。デッキの作成者に連絡して、問題の修正を依頼してください。
