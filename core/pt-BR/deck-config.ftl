@@ -36,8 +36,8 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     serão mostrados independentemente do limite de revisão.
 deck-config-apply-all-parent-limits = Os limites começam do deck superior
 deck-config-apply-all-parent-limits-tooltip =
-    Por padrão, os limites começam a partir do baralho que você seleciona. Se esta opção estiver ativada,
-    os limitescomeçarão a partir do baralho de nível superior, o que pode ser útil se você deseja estudar 
+    Por padrão, os limites começam a partir do baralho que você selecionar. Se esta opção estiver ativada,
+    os limites começarão a partir do baralho de nível superior, o que pode ser útil se você deseja estudar
     sub-baralhos individuais, enquanto impõe um limite total de cartões por dia.
 deck-config-affects-entire-collection = Afeta toda a coleção.
 
