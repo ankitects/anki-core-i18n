@@ -6,8 +6,8 @@ card-templates-changes-will-affect-notes =
        *[other] Οι παρακάτω αλλαγές θα επηρεάσουν { $count } σημείωσεις που χρησιμοποιούν αυτόν τον τύπο κάρτας.
     }
 card-templates-card-type = Τύπος κάρτας:
-card-templates-front-template = Πρότυπο Γραμματοσειράς
-card-templates-back-template = Πρότυπο πίσω
+card-templates-front-template = Πρόσθιο πρότυπο
+card-templates-back-template = Οπίσθιο πρότυπο
 card-templates-template-styling = Μορφοποίηση
 card-templates-front-preview = Πρόσθια προεπισκόπηση
 card-templates-back-preview = Οπίσθια προεπισκόπηση
