@@ -5,6 +5,7 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = Μη έγκυρη αναζήτηση: { $reason }
+search-invalid-argument = `{ $term }` έχει δωθεί μη έγκυρο επιχείρημα '`{ $argument }`'.
 search-invalid-prop-operator = Το `prop:{ $val }` πρέπει να ακολουθείται από έναν από τους παρακάτω συγκριτικούς τελεστές: `=`, `!=`, `<`, `>`, `<=` or `>=`.
 search-invalid-other = παρακαλώ ελέγξτε για τυπογραφικά λάθη.
 

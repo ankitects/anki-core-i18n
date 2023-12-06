@@ -7,6 +7,8 @@ scheduling-answer-button-time-seconds = { $amount }s
 scheduling-answer-button-time-minutes = { $amount }m
 scheduling-answer-button-time-hours = { $amount }h
 scheduling-answer-button-time-days = { $amount }d
+scheduling-answer-button-time-months = { $amount }mo
+scheduling-answer-button-time-years = { $amount }y
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
@@ -46,6 +48,25 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    Η επόμενη κάρτα για μελέτη θα είναι έτοιμη σε { $unit ->
+        [seconds]
+            { $amount ->
+                [one] { $amount } δευτερόλεπτο
+               *[other] { $amount } δευτερόλεπτα
+            }
+        [minutes]
+            { $amount ->
+                [one] { $amount } λεπτό
+               *[other] { $amount } λεπτά
+            }
+       *[hours]
+            { $amount ->
+                [one] { $amount } ώρα
+               *[other] { $amount } ώρες
+            }
+    }.
 scheduling-learn-remaining =
     { $remaining ->
         [one] Απομένει μια κάρτα προγραμματισμένη για μελέτη αργότερα σήμερα.
@@ -114,6 +135,7 @@ scheduling-restore-position = Επαναφορά αρχικής θέσης όπ�
 scheduling-review = Επανάληψη
 scheduling-reviews = Επαναλήψεις
 scheduling-seconds = δευτερόλεπτα
+scheduling-set-all-decks-below-to = Ορισμός των παρακάτω { $val } τραπουλών σε αυτή την ομάδα επιλογών;
 scheduling-show-answer-timer = Εμφάνιση χρονόμετρου απάντησης
 scheduling-show-new-cards-after-reviews = Εμφάνιση νέων καρτών μετά τις επαναλήψεις
 scheduling-show-new-cards-before-reviews = Εμφάνιση νέων καρτών πριν τις επαναλήψεις
@@ -143,4 +165,9 @@ scheduling-set-due-date-done =
     { $cards ->
         [one] Ορισμός προθεσμίας για { $cards } κάρτα.
        *[other] Ορισμός προθεσμίας για { $cards } κάρτες.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Επαναφορά { $cards } κάρτας.
+       *[other] Επαναφορά { $cards } καρτών.
     }
