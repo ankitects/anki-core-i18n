@@ -87,12 +87,12 @@ editing-image-occlusion-align-top = 上揃え
 editing-image-occlusion-align-v-center = 上下方向の中央揃え
 editing-image-occlusion-align-bottom = 下揃え
 editing-image-occlusion-select-tool = 選択
-editing-image-occlusion-zoom-tool = 表示サイズ・位置の調整
+editing-image-occlusion-zoom-tool = 画像表示のサイズ・位置の調整
 editing-image-occlusion-rectangle-tool = 矩形
 editing-image-occlusion-ellipse-tool = 楕円形
 editing-image-occlusion-polygon-tool = 多角形
 editing-image-occlusion-text-tool = 文字
-editing-image-occlusion-toggle-mask-editor = マスクエディタを表示/非表示
+editing-image-occlusion-toggle-mask-editor = マスクエディタを表示
 editing-image-occlusion-reset = この画像穴埋め問題をリセット
 editing-image-occlusion-confirm-reset = この画像穴埋め問題をリセットしてよろしいですか？
 
