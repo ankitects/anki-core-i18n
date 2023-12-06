@@ -5,9 +5,9 @@ media-check-window-title = Comprova els fitxers multimèdia
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count =
-    Carpeta de paperera: { $count ->
-        [one] Un fitxer, { $megs } MB
-       *[other] { $count } fitxers, { $megs } MB
+    Paperera: { $count ->
+        [one] un fitxer ({ $megs } MB)
+       *[other] { $count } fitxers ({ $megs } MB)
     }
 media-check-missing-count = Fitxers que falten: { $count }
 media-check-unused-count = Fitxers no usats: { $count }
@@ -22,7 +22,7 @@ media-check-renamed-header = S'ha canviat el nom d'alguns fitxers per qüestions
 media-check-oversize-header = Els fitxers de més de 100 MB no poden sincronizar-se amb AnkiWeb.
 media-check-subfolder-header = Anki no és compatible amb la creació de subcarpetes dins de la carpeta de fitxers multimèdia.
 media-check-missing-header = Hi ha targetes que fan referència als fitxers següents, tot i que no s'han trobat en la carpeta dels fitxers multimèdia:
-media-check-unused-header = Els fitxers següents es troben en la carpeta multimèdia, tot i que sembla que cap cap targeta els fa servir:
+media-check-unused-header = La carpeta multimèdia conté els següents fitxers, tot i que cap targeta els fa servir:
 media-check-template-references-field-header =
     Anki no pot detectar els fitxers si feu servir { "{{Field}}" } referències en les etiquetes multimèdia o LaTeX. Afegiu les etiquetes multimèdia o LaTeX a cada nota de manera individual.
     
@@ -55,8 +55,8 @@ media-check-files-remaining =
     }
 media-check-delete-unused-complete =
     { $count ->
-        [one] S'ha mogut un fitxer a la paperera.
-       *[other] S'han mogut { $count } fitxers a la paperera.
+        [one] S’ha mogut un fitxer a la paperera.
+       *[other] S’han mogut { $count } fitxers a la paperera.
     }
 media-check-trash-emptied = S’ha buidat la paperera.
 media-check-trash-restored = S'han restaurat els fitxers esborrats a la carpeta dels fitxers multimèdia.
