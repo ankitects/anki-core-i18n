@@ -1,0 +1,6 @@
+browsing-add-notes = Pievienuot piezīmes...
+browsing-add-tags2 = Pievienuot birkas...
+browsing-add-to-selected-notes = Pievienuot atlasītajām piezīmēm
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

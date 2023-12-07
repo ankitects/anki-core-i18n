@@ -61,7 +61,13 @@ actions-fullscreen-unsupported = Videokrāta draiveris neatbalsta pilnekrāna re
 
 actions-flag-number = Karogs { $number }
 actions-flag-red = Sarkans
+actions-flag-orange = Oranžs
 actions-flag-green = Zaļš
 actions-flag-blue = Zils
 actions-flag-pink = Rozā
+actions-flag-turquoise = Tirkīzs
+actions-flag-purple = Violets
 actions-set-flag = Iestatīt Karogu
+actions-nothing-to-undo = Nav nekas atceļams
+actions-nothing-to-redo = Nav nekas pārstrādājams
+actions-auto-advance = Automātiskais avanss
