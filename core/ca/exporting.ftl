@@ -1,7 +1,7 @@
 exporting-all-decks = Totes les baralles
 exporting-anki-20-deck = Baralla d’Anki 2.0
-exporting-anki-collection-package = Paquet de la col·lecció d'Anki
-exporting-anki-deck-package = Paquet de baralles d'Anki
+exporting-anki-collection-package = Paquet de la col·lecció d’Anki
+exporting-anki-deck-package = Paquet de baralla d’Anki
 exporting-cards-in-plain-text = Targetes en text pla
 exporting-collection = col·lecció
 exporting-collection-exported = S'ha exportat la colecció.
