@@ -1,17 +1,19 @@
 actions-add = Pievienot
-actions-all-selected = Visi
-actions-any-selected = Daži
+actions-all-selected = Visi atlasīti
+actions-any-selected = Daži atlasīti
 actions-cancel = Atcelt
-actions-choose = Izvēlies
+actions-choose = Izvēlēties
 actions-close = Aizvērt
-actions-copy = Kopēt
+actions-copy = Dublēt
 actions-create-copy = Izveidot kopiju
-actions-custom-study = Savā tempā
+actions-custom-study = Pielāguoti mācīties
 actions-decks = Kavas
+actions-decrement-value = Samazināšanas vērtība
 actions-delete = Dzēst
 actions-export = Eksportēt
 actions-filter = Filtrs
 actions-help = Palīdzība
+actions-increment-value = Pieauguma vērtība
 actions-import = Importēt
 actions-manage = Mainīt...
 actions-name = Vārds:
@@ -20,11 +22,40 @@ actions-new-name = Jauns vārds:
 actions-options = Opcijas
 actions-options-for = Opcijas priekš { $val }
 actions-preview = Priekšskatījums
-actions-rename = Pārsaukt
-actions-rename-deck = Pārsaukt kavu
+actions-rebuild = Atjaunuot
+actions-rename = Pārdēvēt
+actions-rename-deck = Pārdēvēt kavu
+actions-rename-tag = Pārdēvēt birku
+actions-rename-with-parents = Pārdēvēt ar iepriekšējiem
+actions-remove-tag = Nuoņemt birku
 actions-replay-audio = Atskaņot Audio
+actions-reposition = Pārvietuot
 actions-save = Saglabāt
 actions-search = Meklēt
+actions-select = Atlasīt
+actions-shortcut-key = Saīsnes taustiņš: { $val }
+actions-suspend-card = Apturēt karti
+actions-set-due-date = Nuoteikt termiņu
+actions-answer-card = Atbildes karte
+actions-unbury-unsuspend = Atbrīvuot
+actions-add-deck = Pievienuot kavu
+actions-add-note = Pievienuot piezīmi
+actions-update-tag = Atjaunināt birku
+actions-update-note = Atjaunināt piezīmi
+actions-update-card = Atjaunināt karti
+actions-update-deck = Atjaunināt kavu
+actions-forget-card = Aizmirst karti
+actions-build-filtered-deck = Izveiduot kavu
+actions-add-notetype = Pievienuot piezīmes veidu
+actions-remove-notetype = Nuoņemt piezīmes veidu
+actions-update-notetype = Atjaunināt piezīmes veidu
+actions-update-config = Atjaunuot konfigurāciju
+actions-card-info = Kartes informācija
+actions-previous-card-info = Iepriekšējās kartes informācija
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Videokrāta draiveris neatbalsta pilnekrāna režīmu. Izmēģiniet pārslēgties uz citu no priekšlašu ekrāniem.
 
 ## Flags
 
