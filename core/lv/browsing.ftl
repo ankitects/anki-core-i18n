@@ -17,7 +17,7 @@ browsing-card-list = Karšu saraksts
 browsing-cards-cant-be-manually-moved-into = Kartes nevar manuāli tikt pārvietuotas filtrētā kavā.
 browsing-cards-deleted =
     { $count ->
-        [zero] { $count } kartes dzēstas.
+        [zero] Nav neviena karte dzēsta.
         [one] { $count } karte dzēsta.
        *[other] { $count } kartes dzēstas.
     }
@@ -96,6 +96,86 @@ browsing-toggle-mark = Sākt atzīmēšanu
 browsing-toggle-suspend = Sākt apturēšanu
 browsing-treat-input-as-regular-expression = Uzskatīt ievadi kā parastu izsteksmi
 browsing-update-saved-search = Atjaunuot ar pašreizējuo meklēšanu
+browsing-whole-collection = Visa kolekcija
+browsing-window-title-notes = Pārlūkuot ({ $selected } vai { $total } piezīme(s) atlasīta(s))
+browsing-you-must-have-at-least-one = Jābūt vismaz vienai kolonnai
+browsing-group =
+    { $count ->
+        [zero] { $count } grupas
+        [one] { $count } grupa
+       *[other] { $count } grupas
+    }
+browsing-note-count =
+    { $count ->
+        [zero] { $count } piezīmes
+        [one] { $count } piezīme
+       *[other] { $count } piezīmes
+    }
+browsing-notes-updated =
+    { $count ->
+        [zero] Nav neviena piezīme atjaunināta.
+        [one] { $count } piezīme atjaunināta
+       *[other] { $count } piezīmes atjauninātas
+    }
+browsing-cards-updated =
+    { $count ->
+        [zero] Nav neviena karte atjuanināta.
+        [one] { $count } karte atjaunināta
+       *[other] { $count } kartes atjauninātas
+    }
+browsing-window-title = Pārlūkuot ({ $selected } nuo { $total } kartes(ēm) atlasīta(s))
+browsing-sidebar-expand = Paplaināt
+browsing-sidebar-collapse = Sakļaut
+browsing-sidebar-expand-children = Paplašināt apakšējuos
+browsing-sidebar-collapse-children = Sakļaut apakšējuos
+browsing-sidebar-decks = Kavas
+browsing-sidebar-tags = Birkas
+browsing-sidebar-notetypes = Piezīmju veidi
+browsing-sidebar-saved-searches = Saglabātie meklējumi
+browsing-sidebar-save-current-search = Saglabāt pašreizējuo meklējumu
+browsing-sidebar-card-state = Kartes stāvuoklis
+browsing-sidebar-flags = Karuogi
+browsing-today = Šuodien
+browsing-tooltip-card-modified = Pēdējo reizi kartei tika veiktas izmaiņas, ieskaitot pārskatus, karodziņus un komplekta izmaiņas.
+browsing-tooltip-note-modified = Pēdējo reizi piezīmē tika veiktas izmaiņas, parasti lauka satura vai tagu rediģēšana.
+browsing-tooltip-card = Karšu kartes veidņu nuosaukums
+browsing-tooltip-cards = Karšu skaits piezīmē
+browsing-tooltip-notetype = Piezīmes piezīmju veida nuosaukums
+browsing-tooltip-question = Kartes priekšējā puse, pielāgojama kartes veidnes redaktorā.
+browsing-tooltip-answer = Kartes aizmugurējā puse, pielāgojama kartes veidnes redaktorā.
+browsing-studied-today = Jau izdarīti
+browsing-added-today = Pievienuotie
+browsing-again-today = Atkal
+browsing-edited-today = Rediģētie
+browsing-sidebar-first-review = Pirmais pārskats
+browsing-sidebar-rescheduled = Pāplānuotie
+browsing-sidebar-due-today = Līdz
+browsing-sidebar-untagged = Bez birkas
+browsing-sidebar-overdue = Nuokavētie
+browsing-row-deleted = (dzēstie)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [zero] Nav nuoņemta neviena nelietuota birka.
+        [one] Nuoņemta { $count } nelietuota birka.
+       *[other] Nuoņemtas { $count } nelietuotas birkas.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [zero] Nav mainīta pozīcija nevienai jaunai kartei.
+        [one] Mainīta pozīcija { $count } kartei.
+       *[other] Mainīta pozīcija { $count } kartēm.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [zero] Nav pārdēvēta neviena kava.
+        [one] Pārdēvēta { $count } kava.
+       *[other] Pārdēvētas { $count } kavas.
+    }
+browsing-sidebar-card-state-review = Pārskatīt
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = P
