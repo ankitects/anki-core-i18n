@@ -137,6 +137,7 @@ deck-config-disable-autoplay = Μη αυτόματη αναπαραγωγή ήχ
 deck-config-disable-autoplay-tooltip =
     Όταν ενεργοποιηθεί, το Anki δεν θα παίζει τον ήχο αυτόματα.
     Μπορεί να παίζει χειροκίνητα με το πάτημα ενός εικονιδίου ήχου ή χρησιμοποιώντας την ενέργεια επανέναρξης.
+deck-config-skip-question-when-replaying = Παράλειψη της ερώτησης κατά την επανεμφάνιση της απάντησης
 
 ## Advanced section
 
