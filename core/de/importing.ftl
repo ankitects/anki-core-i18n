@@ -45,8 +45,9 @@ importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in Ihrer Sammlung befinden: { $val }
 importing-notes-skipped-update-due-to-notetype = Notizen nicht geupdatet, da ihr Notiztyp geändert wurde: { $val }
 importing-notes-updated-as-file-had-newer = Notizen geupdatet, da der importierte Stapel eine neuere Version enthielt: { $val }
-importing-include-reviews = Auch Lernfortschritt/Stapeloptionen importieren
-importing-also-import-progress = Auch Lernfortschritt/Stapeloptionen importieren
+importing-include-reviews = Lernfortschritt (falls enthalten) ebenfalls importieren
+importing-also-import-progress = Lernfortschritt (falls enthalten) ebenfalls importieren
+importing-with-deck-configs = Stapeloptionen (falls enthalten) ebenfalls importieren
 importing-updates = Vorgehen bei Änderungen
 importing-include-reviews-help =
     Falls aktiviert, werden auch der Lernfortschritt und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).

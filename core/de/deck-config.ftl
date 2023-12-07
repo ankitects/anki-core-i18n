@@ -197,9 +197,9 @@ deck-config-interval-modifier-tooltip =
     Dieser Multiplikator wird auf allen Wiederholungen angewendet, und kleinere Anpassungen können benutzt werden, 
     um Anki konservativer oder aggressiver bei seiner Zeitplanung einzustellen. Bitte lesen
     Sie im Handbuch nach, bevor Sie diese Option ändern.
-deck-config-hard-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn mit "Hart" geantwortet wurde.
-deck-config-new-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn mit "Nochmal" geantwortet wurde.
-deck-config-minimum-interval-tooltip = Das minimale Intervall für eine Wiederholkarte nachdem mit "Nochmal" geantwortet wurde.
+deck-config-hard-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit "Schwer" bewertet wurde.
+deck-config-new-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit "Nochmal" bewertet wurde.
+deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine fällige Karte mit "Nochmal" bewertet wurde.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
 deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus. Nutzung auf eigene Gefahr!
 
