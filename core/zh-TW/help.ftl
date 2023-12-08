@@ -18,3 +18,4 @@ help-no-explanation =
 
 # Link to more detailed information in the manual
 help-for-more-info = 如需更多資訊，請參閱使用手冊中的〈{ $link }〉。
+help-ok = 好

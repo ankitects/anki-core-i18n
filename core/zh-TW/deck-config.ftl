@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+# Text added to an option name when it affects all decks at once, e.g.
+# "FSRS 🌐"
+deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -244,13 +247,18 @@ deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 反覆運算：{ $count }...
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
 deck-config-fsrs-tooltip =
+    影響整個集合
+    
     你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM2) 排程器。透過更精確地測定你遺忘的機率，FSRS 可以讓你不多花時間的同時記住更多內容。所有牌組預設組共用此設定。
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
 deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片的下一次複習將被排程到你有 90% 的機率能回想起卡片內容時出現。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，遺忘的卡片內容則會增加。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致遺忘大量內容，從而可能使你洩氣。
 deck-config-sm2-retention-tooltip = 如果你在切換到 FSRS 之前的實際留存率與 0.9 相差過多，調整該值可以讓 Anki 更精確地估算缺失複習歷史記錄的卡片的記憶狀態。通常卡片歷史記錄只有當你自行刪除來清理空間時才會遺失，因此大多數使用者不需要調整該值。
 deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。當複習超過 1000 次以後，你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的表現。
-deck-config-reschedule-cards-on-change-tooltip = 此選項控制是否要在啟用 FSRS 或最佳化參數的同時更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。所有牌組預設組共用此選項，且不會被儲存。
+deck-config-reschedule-cards-on-change-tooltip =
+    影響整個集合，且不會被儲存。
+    
+    此選項控制是否要在啟用 FSRS 或最佳化參數的同時更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。
 deck-config-reschedule-cards-warning =
     根據你的期望留存率，這可能導致大量卡片到期，因此第一次從 FSRS 切換到 SM2 時不建議使用。
     
