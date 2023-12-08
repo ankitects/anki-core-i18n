@@ -12,12 +12,14 @@ studying-cards-buried =
        *[other] { $count } κάρτες αναβλήθηκαν.
     }
 studying-cards-will-be-automatically-returned-to = Οι κάρτες θα επιστραφούν αυτόματα στις αρχικές τους τράπουλες αφού τις κάνετε επανάληψη.
+studying-continue = Συνέχεια
 studying-counts-differ = Οι αριθμοί διαφέρουν από τη λίστα τραπουλών, επειδή έχει ενεργοποιηθεί η αναβολή. Μερικές κάρτες έχουν εξαιρεθεί και άλλες ίσως έχουν φύγει από την θέση τους.
 studying-delete-note = Διαγραφή Σημείωσης
 studying-deleting-this-deck-from-the-deck = Η διαγραφή αυτής της τράπουλας από την λίστα τραπουλών θα επαναφέρει τις κάρτες στην αρχική τους τράπουλα.
 studying-easy = Εύκολο
 studying-edit = Επεξεργασία
 studying-empty = Άδειασμα
+studying-finish = Τέλος
 studying-flag-card = Σήμανση κάρτας
 studying-good = Καλά
 studying-hard = Δύσκολο
