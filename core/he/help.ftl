@@ -18,3 +18,4 @@ help-no-explanation =
 
 # Link to more detailed information in the manual
 help-for-more-info = למידע נוסף, ראה { $link } במדריך.
+help-ok = אישור

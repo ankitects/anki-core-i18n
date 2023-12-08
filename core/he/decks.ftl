@@ -26,6 +26,8 @@ decks-please-select-something = נא בחר משהו.
 decks-random = אקראי
 decks-relative-overdueness = איחור יחסי
 decks-repeat-failed-cards-after = חזור על הכרטיסיות שנכשלו לאחר
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = מרווח עבור { $button }
 decks-reschedule-cards-based-on-my-answers = תזמן כרטיסים מחדש על בסיס התשובות שלי בחפיסה זו.
 decks-study = למד
 decks-study-deck = למד חפיסה
