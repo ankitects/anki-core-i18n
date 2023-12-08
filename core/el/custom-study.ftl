@@ -24,6 +24,7 @@ custom-study-selective-study = Επιλεγμένη μελέτη
 custom-study-study-by-card-state-or-tag = Μελέτη ανά κατάσταση κάρτας ή ανά ετικέτα
 custom-study-available-new-cards-2 = Διαθέσιμες νέες κάρτες: { $countString }
 custom-study-available-review-cards-2 = Διαθέσιμες κάρτες προς επανάληψη: { $countString }
+custom-study-available-child-count = ({ $count } σε υπο-τράπουλες)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

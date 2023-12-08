@@ -110,6 +110,7 @@ deck-config-sort-order-ascending-ease = Αύξουσα ευκολία
 deck-config-sort-order-descending-ease = Φθίνουσα ευκολία
 deck-config-sort-order-ascending-difficulty = Αύξουσα δυσκολία
 deck-config-sort-order-descending-difficulty = Φθίνουσα δυσκολία
+deck-config-display-order-will-use-current-deck = Το Anki θα χρησιμοποιήσει την σειρά προβολής από την τράπουλα που επιλέγετε για διάβασμα και όχι από τις υπο-τράπουλες που μπορεί να έχει.
 
 ## Timer section
 
@@ -173,6 +174,7 @@ deck-config-confirm-remove-name = Αφαίρεση { $name };
 ## Other Buttons
 
 deck-config-save-button = Αποθήκευση
+deck-config-save-to-all-subdecks = Αποθήκευση σε όλες τις υπο-τράπουλες
 deck-config-save-and-optimize = Βελτιστοποίηση όλων των προεπιλογών
 deck-config-revert-button-tooltip = Επαναφορά αυτής της ρύθμισης στην προεπιλεγμένη της τιμή.
 

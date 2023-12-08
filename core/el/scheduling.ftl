@@ -136,6 +136,7 @@ scheduling-review = Επανάληψη
 scheduling-reviews = Επαναλήψεις
 scheduling-seconds = δευτερόλεπτα
 scheduling-set-all-decks-below-to = Ορισμός των παρακάτω { $val } τραπουλών σε αυτή την ομάδα επιλογών;
+scheduling-set-for-all-subdecks = Ορισμός για όλες τις υπο-τράπουλες
 scheduling-show-answer-timer = Εμφάνιση χρονόμετρου απάντησης
 scheduling-show-new-cards-after-reviews = Εμφάνιση νέων καρτών μετά τις επαναλήψεις
 scheduling-show-new-cards-before-reviews = Εμφάνιση νέων καρτών πριν τις επαναλήψεις
