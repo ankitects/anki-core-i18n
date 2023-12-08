@@ -354,13 +354,18 @@ deck-config-weights-tooltip =
     Os parâmetros dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar
     os parâmetros abaixo.
 deck-config-reschedule-cards-on-change-tooltip =
-    Esta opção controla se as datas de vencimento dos cartões serão alteradas quando você ativar o FSRS, ou mudar
-    os parâmetros. O padrão é não reprogramar os cartões: revisões futuras usarão a nova programação, mas
-    não haverá mudança imediata na sua carga de trabalho. Se a reprogramação estiver ativada, as datas de vencimento dos cartões
-    serão alteradas. Dependendo da sua retenção desejada, isso pode resultar em um grande número de cartões tornando-se
+    Afeta toda a coleção e não é salvo.
+    
+    Esta opção controla se as datas de vencimento dos cartões serão alteradas quando você habilitar o FSRS ou
+    otimizar os parâmetros. O padrão é não reagendar os cartões: revisões futuras usarão a nova programação, 
+    mas não haverá mudança imediata na sua carga de trabalho. Se o reagendamento estiver ativado, 
+    as datas de vencimento dos cartões serão alteradas.
 deck-config-reschedule-cards-warning =
-    Baseando-se na retenção que pretende alcançar, isso pode causar um acúmulo significativo de cartões a serem
-    revistos, então não é aconselhável quando estiver começando a mudar do SM2.
+    Dependendo da retenção desejada, isso pode resultar em um grande número de cartões 
+    a serem revisados, portanto, não é recomendado quando se começa a mudar do SM2.
+    
+    Use esta opção com moderação, pois ela poderá adicionar uma entrada de revisão a cada um
+    dos seus cartões, o que poderá resultar no aumento do volume da sua coleção de cartões
 deck-config-compute-optimal-weights-tooltip =
     Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,
     e gerar automaticamente parâmetros que são ótimos para sua memória e o conteúdo que você está estudando.
