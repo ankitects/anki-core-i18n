@@ -26,6 +26,8 @@ decks-please-select-something = Por favor, selecione algo.
 decks-random = Aleatório
 decks-relative-overdueness = Atrasos relativos
 decks-repeat-failed-cards-after = Repita os cartões com falha depois
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Atraso para { $button }
 decks-reschedule-cards-based-on-my-answers = Reagendar cartões baseado nas minhas respostas neste baralho
 decks-study = Estudar
 decks-study-deck = Estudar baralho

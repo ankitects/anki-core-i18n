@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+# Text added to an option name when it affects all decks at once, e.g.
+# "FSRS 🌐"
+deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -268,7 +271,7 @@ deck-config-confirm-remove-name = Remover { $name }?
 
 deck-config-save-button = Salvar
 deck-config-save-to-all-subdecks = Salvar para Todos Sub-Baralhos
-deck-config-save-and-optimize = Otimizar todos os Presets
+deck-config-save-and-optimize = Otimizar todas as Predefinições
 deck-config-revert-button-tooltip = Restaura essa configuração para seu estado padrão.
 
 ## These strings are shown via the Description button at the bottom of the
