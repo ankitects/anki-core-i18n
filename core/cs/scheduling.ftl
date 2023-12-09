@@ -6,9 +6,9 @@
 scheduling-answer-button-time-seconds = { $amount } s
 scheduling-answer-button-time-minutes = { $amount } min
 scheduling-answer-button-time-hours = { $amount } h
-scheduling-answer-button-time-days = { $amount } dnů
+scheduling-answer-button-time-days = { $amount } d.
 scheduling-answer-button-time-months = { $amount } měs.
-scheduling-answer-button-time-years = { $amount } let
+scheduling-answer-button-time-years = { $amount } r.
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
