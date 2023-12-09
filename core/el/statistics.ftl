@@ -82,6 +82,7 @@ statistics-counts-suspended-cards = Σε αναστολή
 statistics-counts-buried-cards = Σε αναβολή
 statistics-counts-learning-cards = Εκμάθηση
 statistics-counts-relearning-cards = Επανεκμάθηση
+statistics-counts-title = Αριθμός καρτών
 statistics-counts-separate-suspended-buried-cards = Διαχωρισμός καρτών σε αναβολή/αναστολή
 statistics-range-all-time = ζωή της τράπουλας
 statistics-range-1-year-history = τελευταίοι 12 μήνες

@@ -29,6 +29,7 @@ studying-no-cards-are-due-yet = Καμία κάρτα δεν είναι ακόμ
 studying-note-suspended = Αναστολή σημείωσης
 studying-pause-audio = Παύση ήχου
 studying-please-run-toolsempty-cards = Παρακαλώ εκτελέστε Εργαλεία>Κενές κάρτες
+studying-record-own-voice = Εγγραφή φωνής
 studying-show-answer = Προβολή απάντησης
 studying-study-now = Μελέτησε τώρα
 studying-suspend = Αναστολή
@@ -49,3 +50,4 @@ studying-minute =
         [one] { $count } λεπτό
        *[other] { $count } λεπτά
     }
+studying-answer-time-elapsed = Χρόνος απάντησης
