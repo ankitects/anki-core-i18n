@@ -18,3 +18,4 @@ help-no-explanation =
 
 # Link to more detailed information in the manual
 help-for-more-info = يرجى الاطلاع على { $link } في دليل الاستخدام لمزيد من المعلومات.
+help-ok = موافق

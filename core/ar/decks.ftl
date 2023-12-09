@@ -26,6 +26,8 @@ decks-please-select-something = اختر شيئًا.
 decks-random = عشوائي
 decks-relative-overdueness = التأخر النسبي
 decks-repeat-failed-cards-after = تكرار البطاقات غير الناجحة بعد
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = فاصل { $button }
 decks-reschedule-cards-based-on-my-answers = إعادة جدولة البطاقات بناءً على أجوبتي في هذه الرزمة
 decks-study = دراسة
 decks-study-deck = دراسة رزمة
