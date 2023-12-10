@@ -163,7 +163,7 @@ importing-no-notes-in-file = ノートがファイル内で見つかりません
 importing-notes-found-in-file2 =
     { $notes ->
        *[other] { $notes }個のノート
-    }がファイル内で見つかりました。内訳は下記の通りです:
+    }がファイル内で見つかりました。処理の内訳は下記の通りです:
 importing-show = 表示
 importing-details = 詳細
 importing-status = 状態
