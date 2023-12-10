@@ -93,6 +93,8 @@ editing-image-occlusion-ellipse-tool = Soikio
 editing-image-occlusion-polygon-tool = Monikulmio
 editing-image-occlusion-text-tool = Teksti
 editing-image-occlusion-toggle-mask-editor = Näytä/piilota maskien muokkausnäkymä
+editing-image-occlusion-reset = Nollaa kuvan peite
+editing-image-occlusion-confirm-reset = Haluatko varmasti nollata tämän kuvan peitteen?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -18,3 +18,4 @@ help-no-explanation =
 
 # Link to more detailed information in the manual
 help-for-more-info = Lisätietoja on käyttöoppaan kohdassa { $link }.
+help-ok = OK

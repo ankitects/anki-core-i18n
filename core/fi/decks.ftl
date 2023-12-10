@@ -26,6 +26,8 @@ decks-please-select-something = Valitse jotain.
 decks-random = Satunnainen
 decks-relative-overdueness = Suhteellinen erääntyneisyys
 decks-repeat-failed-cards-after = Toista väärin vastatut kortit, kun on kulunut
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Viive vastaustyypille { $button }
 decks-reschedule-cards-based-on-my-answers = Ajasta kortit uudestaan perustuen vastauksiini tässä pakassa
 decks-study = Opiskele
 decks-study-deck = Opiskele pakkaa

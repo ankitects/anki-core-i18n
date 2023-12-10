@@ -56,3 +56,4 @@ studying-minute =
         [one] { $count } minuutti.
        *[other] { $count } minuuttia.
     }
+studying-answer-time-elapsed = Vastausaikaa kulunut

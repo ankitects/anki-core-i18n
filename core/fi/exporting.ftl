@@ -13,6 +13,7 @@ exporting-include = <b>Sisältää</b>:
 exporting-include-html-and-media-references = Sisällytä HTML ja mediaviittaukset
 exporting-include-media = Sisältää mediatiedostoja
 exporting-include-scheduling-information = Liitä ajastustiedot
+exporting-include-deck-configs = Sisällytä pakan esiasetukset
 exporting-include-tags = Liitä tunnisteet:
 exporting-support-older-anki-versions = Tuki vanhemmille Anki-versioille (hitaampi / suuremmat tiedostot)
 exporting-notes-in-plain-text = Muistiinpanot pelkkänä tekstinä

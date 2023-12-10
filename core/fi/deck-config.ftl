@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+# Text added to an option name when it affects all decks at once, e.g.
+# "FSRS 🌐"
+deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -40,6 +43,8 @@ deck-config-tab-description =
     - `Vain tänään`: Tee väliaikainen muutos tämän pakan rajaan.
 deck-config-new-cards-ignore-review-limit = Uudet kortit eivät huomioi kertausten enimmäismäärää
 deck-config-new-cards-ignore-review-limit-tooltip = Oletusarvoisesti kertausten enimmäismäärä koskee myös uusia kortteja, eikä uusia kortteja näytetä, kun raja on saavutettu. Jos tämä vaihtoehto on käytössä, uudet kortit näytetään kertausten enimmäismäärästä riippumatta.
+deck-config-apply-all-parent-limits = Käytä ylimmän tason pakan rajoja
+deck-config-apply-all-parent-limits-tooltip = Oletusarvoisesti rajat koskevat valitsemaasi pakkaa. Jos tämä vaihtoehto on käytössä, rajoitukset koskevat sen sijaan ylimmän tason pakkaa, mikä voi olla hyödyllistä, jos haluat tutkia yksittäisiä alipakkoja ja samalla asettaa korttien kokonaismäärälle päiväkohtaisen rajoituksen.
 deck-config-affects-entire-collection = Vaikuttaa koko kokoelmaan.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -181,6 +186,17 @@ deck-config-timer-title = Ajastin
 deck-config-maximum-answer-secs = Vastauksen enimmäiskesto sekunneissa
 deck-config-maximum-answer-secs-tooltip = Yksittäisen kertauksen enimmäiskesto tilastointia varten. Jos vastaus ylittää tämän ajan (esimerkiksi siksi, että lähdit pois näytön ääreltä), kulunut aika tallennetaan asettamasi raja-arvon mukaisesti.
 deck-config-show-answer-timer-tooltip = Näytä kertausnäkymässä ajastin, joka laskee, kuinka monta sekuntia käytät kunkin kortin kertaukseen.
+deck-config-stop-timer-on-answer = Pysäytä ajastin vastaamisen jälkeen
+deck-config-stop-timer-on-answer-tooltip =
+    Pysäytetäänkö ajastin kun vastaus paljastetaan.
+    Tämä ei vaikuta tilastoihin.
+deck-config-seconds-to-show-question = Kysymyksen näyttöaika (s)
+deck-config-seconds-to-show-question-tooltip = Odotettavien sekuntien määrä, ennen kuin siirrytään automaattisesti seuraavaan kysymykseen. Aseta arvoksi 0, jos haluat poistaa ominaisuuden käytöstä.
+deck-config-seconds-to-show-answer = Vastauksen näyttöaika (s)
+deck-config-seconds-to-show-answer-tooltip = Odotettavien sekuntien määrä ennen automaattista vastauksen paljastamista. Aseta arvoksi 0, jos haluat poistaa ominaisuuden käytöstä.
+deck-config-answer-action = Vastaustoiminto
+deck-config-answer-action-tooltip = Toiminto, joka suoritetaan nykyiselle kortille ennen kuin siirrytään automaattisesti seuraavaan korttiin.
+deck-config-wait-for-audio-tooltip = Odota äänen loppumista ennen kuin vastaus tai seuraava kysymys näytetään automaattisesti.
 
 ## Audio section
 
@@ -191,10 +207,6 @@ deck-config-disable-autoplay-tooltip =
     Äänen voi toistaa manuaalisesti klikkaamalla/napauttamalla äänikuvaketta tai käyttämällä toista ääni -toimintoa.
 deck-config-skip-question-when-replaying = Ohita kysymys, kun vastausta toistetaan uudelleen
 deck-config-always-include-question-audio-tooltip = Toistetaanko vastauksen lisäksi myös kysymyksen ääni, kun Toista uudelleen -toimintoa käytetään kortin vastauspuolta tarkasteltaessa.
-deck-config-stop-timer-on-answer = Pysäytä ajastin vastaamisen jälkeen
-deck-config-stop-timer-on-answer-tooltip =
-    Pysäytetäänkö ajastin kun vastaus paljastetaan.
-    Tämä ei vaikuta tilastoihin.
 
 ## Advanced section
 
@@ -226,6 +238,7 @@ deck-config-confirm-remove-name = Poistetaanko { $name }?
 
 deck-config-save-button = Tallenna
 deck-config-save-to-all-subdecks = Tallenna kaikkiin alipakkoihin
+deck-config-save-and-optimize = Optimoi kaikki esiasetukset
 deck-config-revert-button-tooltip = Palauta tämä asetus oletusarvoonsa.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -263,6 +276,7 @@ deck-config-which-deck = Minkä pakan haluaisit?
 deck-config-updating-cards = Päivitetään kortteja: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Painokertoimet on joko jätettävä tyhjäksi, jolloin käytetään oletusarvoja, tai niiden on oltava 17 pilkulla erotettua numeroa.
 deck-config-not-enough-history = Ei riittävästi menneitä kertauksia tämän toiminnon suorittamiseen.
+deck-config-unable-to-determine-desired-retention = Optimaalisen retention määrittäminen ei onnistunut.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Vain { $count } kertaus löytyi.
@@ -283,6 +297,7 @@ deck-config-get-params = Hae parametrit
 deck-config-fsrs-on-all-clients = Varmista, että kaikki käyttämäsi Anki-ohjelmat ovat versioita Anki(Mobile) 23.10+ tai AnkiDroid 2.17+. FSRS ei toimi oikein, jos käytät vanhempaa versiota jollakin laitteella.
 deck-config-estimated-retention = Arvioitu retentio: { $num }
 deck-config-complete = { $num } % valmis.
+deck-config-iterations = Iteraatio: { $count }...
 deck-config-reschedule-cards-on-change = Aikatauluta kortit uudelleen muutoksen yhteydessä
 deck-config-fsrs-tooltip =
     Free Spaced Repetition Scheduler (FSRS) on vaihtoehto Ankin vanhalle SuperMemo 2 (SM2) -aikataulutusohjelmalle.
@@ -303,6 +318,13 @@ deck-config-a-100-day-interval =
         [one] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
        *[other] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct } % { $reviews } kertauksesta
+       *[other] { $pct } % { $reviews } kertauksesta
+    }
+deck-config-optimizing-preset = Optimoidaan esiasetuksia { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = FSRS on otettava käyttöön ensin.
 deck-config-wait-for-audio = Odota äänen päättymistä
 deck-config-show-reminder = Näytä muistutus
 deck-config-answer-again = Vastaa uudelleen

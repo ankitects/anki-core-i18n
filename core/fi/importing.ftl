@@ -50,10 +50,14 @@ importing-notes-skipped-update-due-to-notetype = Muistiinpanoja ei päivitetty, 
 importing-notes-updated-as-file-had-newer = Muistiinpanoja, jotka päivitettiin, koska tiedostossa oli uudempi versio: { $val }
 importing-include-reviews = Sisällytä kertaukset
 importing-also-import-progress = Tuo myös mahdollinen oppimisen edistyminen
+importing-with-deck-configs = Tuo mahdolliset pakan esiasetukset
 importing-updates = Päivitykset
 importing-include-reviews-help =
     Jos tämä on käytössä, myös pakan jakajan mahdollisesti sisällyttämät aiemmat kertaukset tuodaan.
     Muussa tapauksessa kaikki kortit tuodaan uusina kortteina.
+importing-with-deck-configs-help =
+    Jos tämä on käytössä, myös pakan jakajan sisällyttämät pakan asetukset tuodaan.
+    Muussa tapauksessa kaikille pakoille annetaan oletusasetukset.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakattu Anki-pakka/kokoelma (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
 # the '|' character
