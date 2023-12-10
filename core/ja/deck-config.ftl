@@ -216,7 +216,7 @@ deck-config-always-include-question-audio-tooltip = カードの解答側（裏�
 
 ## Advanced section
 
-deck-config-advanced-title = 高度な設定
+deck-config-advanced-title = 高度なオプション
 deck-config-maximum-interval-tooltip =
     復習カードが再び表示されるまでの日数の最大値。
     
