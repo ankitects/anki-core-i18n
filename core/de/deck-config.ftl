@@ -170,7 +170,8 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
 deck-config-stop-timer-on-answer = Timer pausieren, solange die Antwortseite gezeigt wird
 deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, während die Antwort aufgedeckt ist. Wirkt sich nicht auf die Statistik aus.
-deck-config-seconds-to-show-answer = Sekunden bis die Antowort gezeigt wird
+deck-config-seconds-to-show-question = Sekunden bis die Frage gezeigt wird
+deck-config-seconds-to-show-answer = Sekunden bis die Antwort gezeigt wird
 deck-config-seconds-to-show-answer-tooltip = Anzahl der Sekunden bis die Antwort automatisch gezeigt wird. Auf 0 setzten um zu deaktivieren.
 deck-config-answer-action = Ant­wort­ak­tion
 
