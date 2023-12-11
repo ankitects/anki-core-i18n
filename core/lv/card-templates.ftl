@@ -38,3 +38,30 @@ card-templates-card-types-for = Kārts tips priekš { $val }
 card-templates-cloze = Cloze { $val }
 card-templates-deck-override = Kavas parrakstīšana...
 card-templates-delete-the-as-card-type-and = Vai dzēst «{ $template }» kārts tipu, un tā { $cards }?
+card-templates-enter-deck-to-place-new = Ievadiet kavu, kurā ievietuot { $val } jaunu(as) kārtis, vai atstājiet tuo tukšu.
+card-templates-enter-new-card-position-1 = Ievadiet jaunu kārts pozīciju (1...{ $val }):
+card-templates-flip = Apgriest
+card-templates-form = Veiduot
+card-templates-off = (izslēgts)
+card-templates-on = (ieslēgts)
+card-templates-remove-card-type = Nuoņemt kārts tipu...
+card-templates-rename-card-type = Pārdēvēt kārts tipu...
+card-templates-reposition-card-type = Pārkārtuot kārts tipu...
+card-templates-card-count =
+    { $count ->
+        [zero] Nav kāršu
+        [one] { $count } kārts
+       *[other] { $count } kārtis
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [zero] Šis neizveiduos nevienu kārti. Vai turpināt?
+        [one] Šis izveiduos { $count } kārti. Vai turpināt?
+       *[other] Šis izveiduos { $count } kārtis. Vai turpināt?
+    }
+card-templates-type-boxes-warning = Vienā kartes veidnē tiek atbalstīta tikai viens rakstīšanas lauciņš.
+card-templates-restore-to-default = Atiestatīt uz nuoklusējumu
+card-templates-restore-to-default-confirmation =
+    Tas atjaunos visas šī piezīmju tipa lauciņus un veidņu noklusējuma iestatījuma¶
+    vērtības, nuoņemuot visus(as) papildu lauciņus/veidnes, un to saturu, kā arī jebkuru pielāgotu stilu. Vai vēlaties turpināt?
+card-templates-restored-to-default = Kārts tips tika atiestatīts uz sākuotnējuo stāvuokli.
