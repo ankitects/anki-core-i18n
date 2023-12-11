@@ -25,7 +25,9 @@ decks-order-due = 按到期顺序
 decks-please-select-something = 请选择一个牌组。
 decks-random = 乱序
 decks-relative-overdueness = 按相对超期程度
-decks-repeat-failed-cards-after = 之后重复失败的卡片
+decks-repeat-failed-cards-after = 之后重复「重来」的间隔
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = 「{ $button }」的间隔
 decks-reschedule-cards-based-on-my-answers = 基于此牌组的回答情况，对卡片重新排程。
 decks-study = 学习
 decks-study-deck = 学习牌组

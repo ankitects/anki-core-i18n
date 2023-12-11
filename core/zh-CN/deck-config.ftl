@@ -1,5 +1,8 @@
 ### Text shown on the "Deck Options" screen
 
+# Text added to an option name when it affects all decks at once, e.g.
+# "FSRS 🌐"
+deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -301,9 +304,12 @@ deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 迭代次数：{ $count }…
 deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
 deck-config-fsrs-tooltip =
+    此设置影响整个集合。
+    
     自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2(SM2) 排程算法的替代。
     通过更准确地确定您何时可能忘记，它可以帮助您在相同时间内记住更多的内容。
     此设置影响所有牌组的预设配置。
+    
     如果您以前使用过「自定义排程」的 FSRS，请确保您在启用该选项前已清空自定义排程的内容。
 deck-config-desired-retention-tooltip =
     默认值 0.9 会将卡片进行排程，以使您在下一次复习时有 90% 的回忆成功概率。
@@ -315,10 +321,11 @@ deck-config-sm2-retention-tooltip =
     由于复习记录通常不会丢失，除非您特意删除它们以释放空间，大多数用户不需要对此数值进行调整。
 deck-config-weights-tooltip = FSRS 参数影响如何将卡片进行排程。当您积累了 1000+ 次复习后，您可以在下面对参数进行优化。
 deck-config-reschedule-cards-on-change-tooltip =
+    此选项影响整个集合，并且不会被保存。
+    
     该选项控制当您启用 FSRS 或优化参数时，是否更改卡片的到期时间。
     默认不会对卡片进行重新排程：未来的复习将会使用新的排程，但您的工作量不会有即刻的改变。
     如果重新排程被启用，卡片的到期时间将被更改。
-    所有牌组预设共用此选项，并且该选项不会被保存。
 deck-config-reschedule-cards-warning =
     根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM2 切换时不推荐开启该选项。
     
