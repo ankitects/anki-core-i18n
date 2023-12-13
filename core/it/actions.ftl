@@ -71,3 +71,5 @@ actions-set-flag = Imposta bandiera
 actions-nothing-to-undo = Niente da annullare.
 actions-nothing-to-redo = Niente da ripristinare
 actions-auto-advance = Avanzamento Automatico
+actions-auto-advance-activated = Avanzamento Automatico abilitato
+actions-auto-advance-deactivated = Avanzamento Automatico disabilitato

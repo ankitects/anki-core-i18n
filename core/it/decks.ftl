@@ -26,6 +26,8 @@ decks-please-select-something = Per piacere, seleziona qualcosa.
 decks-random = Casuale
 decks-relative-overdueness = Ritardo relativo
 decks-repeat-failed-cards-after = Ripeti carte sbagliate dopo
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Ritardo per { $button }
 decks-reschedule-cards-based-on-my-answers = Ripianifica le carte considerando le mie risposte in questo mazzo
 decks-study = Studia
 decks-study-deck = Studia il mazzo
@@ -34,3 +36,4 @@ decks-unmovable-cards = Mostra le carte escluse
 decks-learn-header = Impara
 # The count of cards waiting to be reviewed
 decks-review-header = Programmate
+decks-zero-minutes-hint = (0 = riporta la carta al mazzo originale)

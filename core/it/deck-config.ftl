@@ -210,10 +210,13 @@ deck-config-stop-timer-on-answer = Ferma il timer dopo aver risposto
 deck-config-stop-timer-on-answer-tooltip =
     Se bloccare o meno il timer una volta che è stata rivelata la risposta.
     Ciò non influisce sulle statistiche.
+
+## Auto Advance section
+
 deck-config-seconds-to-show-question = Secondi prima di mostrare la domanda
-deck-config-seconds-to-show-question-tooltip = Il numero di secondi da attendere prima di passare automaticamente alla domanda successiva. Per disabilitare, imposta il valore a 0.
+deck-config-seconds-to-show-question-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di rivelare la risposta. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi prima di mostrare la risposta
-deck-config-seconds-to-show-answer-tooltip = Il numero di secondi da attendere prima di mostrare automaticamente la risposta. Per disabilitare, imposta il valore a 0.
+deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'azione di risposta. Imposta a 0 per disabilitare.
 deck-config-answer-action = Azione di risposta
 deck-config-answer-action-tooltip = L'azione da svolgere sulla carta corrente prima di avanzare automaticamente alla successiva.
 deck-config-wait-for-audio-tooltip = Aspetta la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
@@ -323,6 +326,7 @@ deck-config-compute-optimal-weights = Calcola i parametri ottimali
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
+deck-config-optimize-all-tip = Puoi utilizzare il pulsante in alto per ottimizzare contemporaneamente tutti i preset.
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
 deck-config-sm2-retention = Ritenzione SM2
