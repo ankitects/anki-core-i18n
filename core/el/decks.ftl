@@ -30,3 +30,4 @@ decks-unmovable-cards = Εμφάνιση εξαιρούμενων καρτών
 decks-learn-header = Μελέτη
 # The count of cards waiting to be reviewed
 decks-review-header = Επανάληψη
+decks-zero-minutes-hint = (0 = επιστροφή κάρτας στην αρχική τράπουλα)
