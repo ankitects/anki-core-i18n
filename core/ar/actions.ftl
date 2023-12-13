@@ -71,3 +71,5 @@ actions-set-flag = وضع مؤشر
 actions-nothing-to-undo = لا يوجد أي إجراء للتراجع عنه
 actions-nothing-to-redo = لا يوجد أي إجراء لإعادة تطبيقه
 actions-auto-advance = تقديم تلقائي
+actions-auto-advance-activated = تم تفعيل التقديم التلقائي
+actions-auto-advance-deactivated = تم تعطيل التقديم التلقائي
