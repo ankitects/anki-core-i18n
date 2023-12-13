@@ -213,7 +213,7 @@ deck-config-audio-title = 音声
 deck-config-disable-autoplay = 音声を自動再生しない
 deck-config-disable-autoplay-tooltip = このオプションがオンの場合、カードの質問側・解答側それぞれを表示したタイミングでの音声の自動再生を行いません。この場合でも、メニューボタンで「音声を再生」アクションを選択すれば、自由なタイミングで音声を再生することができます。
 deck-config-skip-question-when-replaying = 解答側を表示後の「音声を再生」アクションでは、質問側を再生しない
-deck-config-always-include-question-audio-tooltip = カードの解答側（裏面）を既に表示した状態で「音声を再生」アクションを選択した場合に、質問側（表面）の音声ファイルも再生するのかどうかを設定します。
+deck-config-always-include-question-audio-tooltip = カードの解答側（裏面）をすでに表示した後に「音声を再生」アクションを選択した場合に、質問側（表面）の音声ファイルも再生するのかどうかを設定します。
 
 ## Advanced section
 
