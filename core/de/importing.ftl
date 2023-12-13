@@ -53,6 +53,7 @@ importing-include-reviews-help =
     Falls aktiviert, werden auch der Lernfortschritt und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).
     
     Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten unabhängig von dem enthaltenen Lernstatus als neue Karten importiert und die Standard-Stapeloptionen Ihrer Sammlung verwendet.
+importing-with-deck-configs-help = Wenn aktiviert, werden auch die vom Autor eingestellten Stapeloptionen für den zu importierenden Stapel übernommen (vorausgesetzt, dass der Autor diese mitexportiert hat).
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
 # the '|' character
