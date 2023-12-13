@@ -31,6 +31,11 @@ deck-config-tab-description =
     - `Nur heute`: Grenzwert von diesem Stapel vorübergehend ändern.
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Grenzwert für Wiederholungen
 deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig gilt der Grenzwert für Wiederholungen auch einschließlich für neue Karten, sodass keine neuen Karten bei Erreichen des Grenzwerts für Wiederholungen mehr gezeigt werden. Wenn diese Option aktiviert wird, werden die neuen Karten unabhängig vom Grenzwert für Wiederholungen trotzdem angezeigt.
+deck-config-apply-all-parent-limits = Globale Limits für neue Karten und Wiederholungen
+deck-config-apply-all-parent-limits-tooltip =
+    Wenn diese Option aktiviert ist, wirken sich die Limits (für neue Karten und Wiederholungen) von übergeordneten Stapeln auch auf die Unterstapel aus. Das ist nützlich, wenn man nacheinander verschiedene Unterstapel lernt, aber insgesamt nur eine bestimmte Anzahl an Karten pro Tag neu lernen oder wiederholen will.
+    
+    In früheren Anki-Versionen (vor ca. Oktober 2023) war diese Option immer aktiviert.
 deck-config-affects-entire-collection = Wirkt sich auf die gesamte Sammlung aus
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -170,9 +175,11 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
 deck-config-stop-timer-on-answer = Timer pausieren, solange die Antwortseite gezeigt wird
 deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, während die Antwort aufgedeckt ist. Wirkt sich nicht auf die Statistik aus.
+
+## Auto Advance section
+
 deck-config-seconds-to-show-question = Sekunden bis die Frage gezeigt wird
 deck-config-seconds-to-show-answer = Sekunden bis die Antwort gezeigt wird
-deck-config-seconds-to-show-answer-tooltip = Anzahl der Sekunden bis die Antwort automatisch gezeigt wird. Auf 0 setzten um zu deaktivieren.
 deck-config-answer-action = Ant­wort­ak­tion
 
 ## Audio section
