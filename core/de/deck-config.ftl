@@ -216,7 +216,7 @@ deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus.
 deck-config-add-group = Gruppe hinzufügen
 deck-config-name-prompt = Name:
 deck-config-rename-group = Gruppe umbenennen
-deck-config-clone-group = Voreinstellung kopieren
+deck-config-clone-group = Gruppe duplizieren
 
 ## Removing
 
@@ -228,6 +228,7 @@ deck-config-confirm-remove-name = { $name } entfernen?
 
 deck-config-save-button = Speichern
 deck-config-save-to-all-subdecks = Auf alle Unterstapel anwenden
+deck-config-save-and-optimize = Alle Stapeloptionengruppen optimieren
 deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurücksetzen
 
 ## These strings are shown via the Description button at the bottom of the

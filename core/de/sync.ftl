@@ -26,6 +26,7 @@ sync-wrong-pass = Die AnkiWeb-E-Mail oder das Passwort waren falsch; bitte versu
 sync-resync-required = Bitte synchronisieren Sie noch einmal. Wenn diese Meldung weiterhin erscheint, wenden Sie sich bitte an die Support-Seite.
 sync-must-wait-for-end = Anki synchronisiert gerade. Bitte warten Sie, bis die Synchronisation abgeschlossen ist und versuchen Sie es danach erneut.
 sync-confirm-empty-download = Die lokale Sammlung enthält keine Karten. Möchten Sie sie von AnkiWeb herunterladen?
+sync-confirm-empty-upload = Die Sammlung auf AnkiWeb enthält keine Karten. Durch lokale Sammlung ersetzen?
 sync-conflict-explanation =
     Der Stapel hier und auf AnkiWeb unterscheiden sich in einer solchen Weise, dass sie nicht zusammengeführt werden können. Es ist daher notwendig, die Stapel auf einer Seite mit den Stapeln auf der anderen Seite zu überschreiben.
     

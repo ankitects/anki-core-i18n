@@ -92,7 +92,10 @@ statistics-range-collection = Sammlung
 statistics-range-search = Suche
 statistics-card-ease-title = Karten-Leichtigkeit
 statistics-card-difficulty-title = Schwierigkeit der Karte
+statistics-card-stability-title = Kartenstabilität
 statistics-card-stability-subtitle = Das Intervall, zu dem Sie sich mit 90%er Wahrscheinlichkeit an die richtige Antwort erinnern.
+statistics-average-stability = Durchschnittliche Stabilität
+statistics-card-retrievability-title = Kartenabrufbarkeit
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
 statistics-card-difficulty-subtitle = Je höher der Schwierigkeitswert, desto schwerer fällt es Ihnen, sich an diese Karte zu erinnern.
 statistics-retrievability-subtitle = Die Wahrscheinlichkeit, dass Sie sich heute an diese Karte erinnern.
@@ -106,6 +109,11 @@ statistics-card-difficulty-tooltip =
     { $cards ->
         [one] { $cards } Karte mit { $percent } Schwierigkeit
        *[other] { $cards } Karten mit { $percent } Schwierigkeit
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } Karte mit { $percent } Abrufbarkeit
+       *[other] { $cards } Karten mit { $percent } Abrufbarkeit
     }
 statistics-future-due-title = Prognose
 statistics-future-due-subtitle = Anzahl der in Zukunft anfallenden Wiederholungen.
@@ -154,6 +162,16 @@ statistics-intervals-day-single =
     { $cards ->
         [one] 1 Karte mit einem { $day }-Tag-Intervall
        *[other] { $cards } Karten mit einem { $day }-Tage-Intervall
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } Karte mit { $daysStart }~{ $daysEnd } Tagen Stabilität
+       *[other] { $cards } Karten mit { $daysStart }~{ $daysEnd } Tagen Stabilität
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } Karte mit { $day } Tagen Stabilität
+       *[other] { $cards } Karten mit { $day } Tagen Stabilität
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Von { $hourStart }:00~{ $hourEnd }:00
@@ -210,6 +228,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Durchschnittliche Leichtigkeit
 statistics-average-difficulty = Durchschnittliche Schwierigkeit
+statistics-average-retrievability = Durchschnittliche Abrufbarkeit
 statistics-save-pdf = Als PDF speichern
 statistics-saved = Gespeichert.
 statistics-stats = Statistik
