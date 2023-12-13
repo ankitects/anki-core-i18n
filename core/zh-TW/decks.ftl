@@ -36,3 +36,4 @@ decks-unmovable-cards = 檢視符合篩選條件但被排除的卡片
 decks-learn-header = 學習中
 # The count of cards waiting to be reviewed
 decks-review-header = 已到期
+decks-zero-minutes-hint = (0 = 將卡片放回原始牌組)

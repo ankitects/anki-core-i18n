@@ -71,3 +71,5 @@ actions-set-flag = 設定旗標
 actions-nothing-to-undo = 沒有可復原的動作
 actions-nothing-to-redo = 沒有可重做的動作
 actions-auto-advance = 自動前進
+actions-auto-advance-activated = 已啟用自動前進
+actions-auto-advance-deactivated = 已停用自動前進

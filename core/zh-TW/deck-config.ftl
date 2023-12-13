@@ -1,8 +1,5 @@
 ### Text shown on the "Deck Options" screen
 
-# Text added to an option name when it affects all decks at once, e.g.
-# "FSRS 🌐"
-deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -145,10 +142,13 @@ deck-config-maximum-answer-secs-tooltip = 記錄單次複習耗時的最大秒�
 deck-config-show-answer-timer-tooltip = 在複習畫面顯示一個計時器，計算複習每張卡片所花費的秒數。
 deck-config-stop-timer-on-answer = 回答後停止計時
 deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止計時。不影響統計數據。
+
+## Auto Advance section
+
 deck-config-seconds-to-show-question = 自動顯示問題所需秒數
-deck-config-seconds-to-show-question-tooltip = 自動前進到下一道問題所需的秒數。設定為 0 以停用此選項。
+deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
 deck-config-seconds-to-show-answer = 自動顯示答案所需秒數
-deck-config-seconds-to-show-answer-tooltip = 自動顯示答案所需的秒數。設定為 0 以停用此選項。
+deck-config-seconds-to-show-answer-tooltip-2 = 啟用自動前進時，套用回答動作前需要等待的秒數。設定為 0 來停用。
 deck-config-answer-action = 答案顯示後動作
 deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為當前卡片執行的動作。
 deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題
@@ -235,6 +235,7 @@ deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-optimal-retention = 計算最佳留存率
 deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
+deck-config-optimize-all-tip = 你可以使用頂端的按鈕來一次最佳化所有預設組。
 deck-config-evaluate-button = 評估
 deck-config-desired-retention = 期望留存率
 deck-config-sm2-retention = SM2 留存率
