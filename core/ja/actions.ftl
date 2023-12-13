@@ -71,3 +71,5 @@ actions-set-flag = フラグの変更
 actions-nothing-to-undo = 元に戻すものがありません
 actions-nothing-to-redo = やり直すものがありません
 actions-auto-advance = カードの自動送り
+actions-auto-advance-activated = カードの自動送りを開始しました
+actions-auto-advance-deactivated = カードの自動送りを停止しました
