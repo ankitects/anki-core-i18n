@@ -36,3 +36,4 @@ decks-unmovable-cards = 显示所有已被排除的卡片
 decks-learn-header = 学习中
 # The count of cards waiting to be reviewed
 decks-review-header = 待复习
+decks-zero-minutes-hint = （0 = 将卡片放回原牌组）

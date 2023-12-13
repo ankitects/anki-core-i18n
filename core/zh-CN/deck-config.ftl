@@ -1,8 +1,5 @@
 ### Text shown on the "Deck Options" screen
 
-# Text added to an option name when it affects all decks at once, e.g.
-# "FSRS 🌐"
-deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -187,13 +184,16 @@ deck-config-show-answer-timer-tooltip =
     记录复习每张卡片所用的秒数。
 deck-config-stop-timer-on-answer = 显示答案后停止计时
 deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。不会影响统计数据。
-deck-config-seconds-to-show-question = 自动显示下一个问题前等待秒数
-deck-config-seconds-to-show-question-tooltip = 自动前进到下一张卡片的问题前所等待的秒数。设置为 0 以禁用自动前进。
-deck-config-seconds-to-show-answer = 自动显示答案前等待秒数
-deck-config-seconds-to-show-answer-tooltip = 自动显示卡片的答案前所等待的秒数。设置为 0 以禁用自动显示。
-deck-config-answer-action = 显示答案后的操作
-deck-config-answer-action-tooltip = 在前进到下一张卡片前自动对当前卡片执行的操作。
-deck-config-wait-for-audio-tooltip = 在显示答案或前进到下一张卡片前等待音频播放完毕
+
+## Auto Advance section
+
+deck-config-seconds-to-show-question = 自动答案前等待秒数
+deck-config-seconds-to-show-question-tooltip-2 = 启用自动展示时，自动显示答案前等待的秒数。设置为 0 以禁用。
+deck-config-seconds-to-show-answer = 显示答案后自动执行操作前等待秒数
+deck-config-seconds-to-show-answer-tooltip-2 = 启用自动展示时，显示答案后执行超时操作前等待的秒数。设置为 0 以禁用。
+deck-config-answer-action = 显示答案后超时自动执行的操作
+deck-config-answer-action-tooltip = 在展示下一张卡片前自动对当前卡片执行的操作。
+deck-config-wait-for-audio-tooltip = 在显示答案或展示下一张卡片前等待音频播放完毕
 
 ## Audio section
 
@@ -292,6 +292,7 @@ deck-config-compute-optimal-weights = 优化 FSRS 参数
 deck-config-compute-optimal-retention = 计算最佳记忆保留率
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
+deck-config-optimize-all-tip = 您可以使用顶部的按钮以一次性优化所有预设。
 deck-config-evaluate-button = 评估
 deck-config-desired-retention = 期望的记忆保留率
 deck-config-sm2-retention = SM2 的记忆保留率

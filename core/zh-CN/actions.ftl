@@ -70,4 +70,6 @@ actions-flag-purple = 紫色
 actions-set-flag = 设置旗标
 actions-nothing-to-undo = 没有可撤销的操作
 actions-nothing-to-redo = 没有可恢复的操作
-actions-auto-advance = 自动播放卡片
+actions-auto-advance = 自动展示
+actions-auto-advance-activated = 已启用自动展示
+actions-auto-advance-deactivated = 已禁用自动展示
