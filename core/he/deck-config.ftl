@@ -1,8 +1,5 @@
 ### Text shown on the "Deck Options" screen
 
-# Text added to an option name when it affects all decks at once, e.g.
-# "FSRS 🌐"
-deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -218,10 +215,13 @@ deck-config-stop-timer-on-answer = עצור טיימר בתשובה
 deck-config-stop-timer-on-answer-tooltip =
     קובע האם לעצור את הטיימר בהצגת התשובה.
     זה לא משפיע על הסטטיסטיקות.
+
+## Auto Advance section
+
 deck-config-seconds-to-show-question = שניות להצגת השאלה
-deck-config-seconds-to-show-question-tooltip = מספר השניות שיש להמתין לפני התקדמות אוטומטית לשאלה הבאה. הגדר ל 0 כדי להשבית.
+deck-config-seconds-to-show-question-tooltip-2 = מספר השניות שיש להמתין לפני גילוי התשובה כאשר התקדמות אוטומטית מופעלת. הגדר ל0 כדי להשבית.
 deck-config-seconds-to-show-answer = שניות להצגת התשובה
-deck-config-seconds-to-show-answer-tooltip = מספר השניות שיש להמתין לפני הצגה אוטומטית של התשובה. הגדר ל 0 כדי להשבית.
+deck-config-seconds-to-show-answer-tooltip-2 = מספר השניות שיש להמתין לפני החלת פעולת התשובה כאשר התקדמות אוטומטית מופעלת. הגדר ל0 כדי להשבית.
 deck-config-answer-action = פעולת תשובה
 deck-config-answer-action-tooltip = הפעולה שיש לבצע בכרטיס הנוכחי לפני התקדמות אוטומטית לכרטיס הבא.
 deck-config-wait-for-audio-tooltip = המתן עד שהשמע יסתיים לפני שתחשוף את התשובה או השאלה הבאה באופן אוטומטי
@@ -331,6 +331,7 @@ deck-config-compute-optimal-weights = בצע אופטימיזציה של משק�
 deck-config-compute-optimal-retention = חישוב יכולת זכירה אופטימלית
 deck-config-optimize-button = בצע אופטימיזציה
 deck-config-compute-button = חשב
+deck-config-optimize-all-tip = אתה יכול לבצע אופטימיזציה של כל ההעדפות המוגדרות מראש בבת אחת על ידי שימוש בכפתור שבחלק העליון.
 deck-config-evaluate-button = הערכה
 deck-config-desired-retention = שימור רצוי
 deck-config-sm2-retention = יכולת זכירה לפי SM2

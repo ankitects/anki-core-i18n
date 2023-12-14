@@ -36,3 +36,4 @@ decks-unmovable-cards = הצג בדפדוף את כל הכרטיסים שאינ�
 decks-learn-header = לימוד
 # The count of cards waiting to be reviewed
 decks-review-header = מתוזמנים
+decks-zero-minutes-hint = (0 = החזרת כרטיס לחפיסה המקורית)

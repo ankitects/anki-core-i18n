@@ -71,3 +71,5 @@ actions-set-flag = הגדר דגל
 actions-nothing-to-undo = אין מה לבטל
 actions-nothing-to-redo = אין מה לעשות מחדש
 actions-auto-advance = התקדמות אוטומטית
+actions-auto-advance-activated = התקדמות אוטומטית מופעלת
+actions-auto-advance-deactivated = התקדמות אוטומטית מושבתת
