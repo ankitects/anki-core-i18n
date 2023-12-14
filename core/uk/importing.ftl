@@ -99,6 +99,12 @@ importing-processed-cards =
        *[other] Оброблено { $count } карток…
     }
 importing-existing-notes = Існуючі нотатки
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Дублювати
+# "Existing notes: Preserve" (verb)
+importing-preserve = Запобігти
+# "Existing notes: Update" (verb)
+importing-update = Оновити
 importing-tag-all-notes = Мітки для всіх нотаток
 importing-tag-updated-notes = Мітки для оновлених нотаток
 importing-file = Файл
@@ -106,6 +112,13 @@ importing-file = Файл
 importing-match-scope = Область збігів
 # Used with the 'match scope' option
 importing-notetype-and-deck = Тип нотаток та колоди
+importing-duplicate-note-added = Додано дубльовану нотатку
+importing-existing-notes-help =
+    Що робити, якщо імпортована нотатка збігається з наявною.
+    
+    -`{ importing-update }`: Оновити існуючу нотатку.
+    -`{ importing-preserve }`: Нічого не робити.
+    -`{ importing-duplicate }`: Створити нову нотатку.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
