@@ -23,7 +23,12 @@ custom-study-review-forgotten-cards = Pārskatīt aizmirstās kārtis
 custom-study-select = Atlasīt
 custom-study-select-tags-to-exclude = Atlasīt kuras birkas neizmantuot
 custom-study-selective-study = Selektīvā mācīšanās
-custom-study-study-by-card-state-or-tag = Mācīties pēts kārts statusa vai birkas
+custom-study-study-by-card-state-or-tag = Mācīties pēc kārts statusa vai birkas
+custom-study-available-new-cards-2 = Pieejamās jaunās kārtis: { $countString }
+custom-study-available-review-cards-2 = Piejamās pārskatāmās kārtis: { $countString }
+custom-study-available-child-count = ({ $count } apakškavās)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+custom-study-available-new-cards = Piejamās jaunās kārtis: { $count }
+custom-study-available-review-cards = Piejamās pārskatāmās kārtis: { $count }
