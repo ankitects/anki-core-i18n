@@ -102,6 +102,10 @@ importing-existing-notes = Існуючі нотатки
 importing-tag-all-notes = Мітки для всіх нотаток
 importing-tag-updated-notes = Мітки для оновлених нотаток
 importing-file = Файл
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Область збігів
+# Used with the 'match scope' option
+importing-notetype-and-deck = Тип нотаток та колоди
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
