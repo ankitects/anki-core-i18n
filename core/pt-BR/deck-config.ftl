@@ -1,8 +1,5 @@
 ### Text shown on the "Deck Options" screen
 
-# Text added to an option name when it affects all decks at once, e.g.
-# "FSRS 🌐"
-deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -207,10 +204,13 @@ deck-config-stop-timer-on-answer = Parar o temporizador ao responder
 deck-config-stop-timer-on-answer-tooltip =
     Se parar o cronômetro quando a resposta for revelada.¶
     Isso não afeta as estatísticas.
+
+## Auto Advance section
+
 deck-config-seconds-to-show-question = Segundos para mostrar a pergunta
-deck-config-seconds-to-show-question-tooltip = O número de segundos para esperar antes de avançar automaticamente para a próxima pergunta. Defina como 0 para desativar.
+deck-config-seconds-to-show-question-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de revelar a resposta. Defina como 0 para desativar.
 deck-config-seconds-to-show-answer = Segundos para mostrar a resposta
-deck-config-seconds-to-show-answer-tooltip = O número de segundos para esperar antes de revelar automaticamente a resposta. Defina como 0 para desativar.
+deck-config-seconds-to-show-answer-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de aplicar a ação de resposta. Defina como 0 para desativar.
 deck-config-answer-action = Ação de resposta
 deck-config-answer-action-tooltip = A ação a ser realizada no cartão atual antes de avançar automaticamente para o próximo.
 deck-config-wait-for-audio-tooltip = Esperar o áudio terminar antes de revelar automaticamente a resposta ou a próxima pergunta
@@ -321,6 +321,7 @@ deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
 deck-config-compute-optimal-retention = Calcular retenção ótima
 deck-config-optimize-button = Otimizar
 deck-config-compute-button = Computar
+deck-config-optimize-all-tip = Você pode otimizar todas as predefinições de uma só vez usando o botão no topo.
 deck-config-evaluate-button = Avaliar
 deck-config-desired-retention = Retenção desejada
 deck-config-sm2-retention = Retenção SM2

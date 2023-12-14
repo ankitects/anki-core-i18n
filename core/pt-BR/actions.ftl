@@ -71,3 +71,5 @@ actions-set-flag = Definir Emblema
 actions-nothing-to-undo = Nada para desfazer
 actions-nothing-to-redo = Nada para refazer
 actions-auto-advance = Avanço Automático
+actions-auto-advance-activated = Avanço Automático ativado
+actions-auto-advance-deactivated = Avanço Automático desativado

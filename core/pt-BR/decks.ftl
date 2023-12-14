@@ -36,3 +36,4 @@ decks-unmovable-cards = Mostrar todos os cartões excluídos
 decks-learn-header = Aprender
 # The count of cards waiting to be reviewed
 decks-review-header = A Revisar
+decks-zero-minutes-hint = (0 = retornar o cartão para o baralho original)
