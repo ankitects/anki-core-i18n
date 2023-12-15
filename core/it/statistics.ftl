@@ -97,7 +97,7 @@ statistics-card-stability-subtitle = Il lasso di tempo che si associa ad una pro
 statistics-average-stability = Stabilità media
 statistics-card-retrievability-title = Rammentabilità delle Carte
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
-statistics-card-difficulty-subtitle = Tanto più alta la difficoltà, tanto più di frequente verranno mostrate le carte.
+statistics-card-difficulty-subtitle = Più alta è la difficoltà, più è difficile ricordare.
 statistics-retrievability-subtitle = Quanto è probabile che tu ti ricordi.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =

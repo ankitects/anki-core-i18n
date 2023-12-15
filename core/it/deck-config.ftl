@@ -319,10 +319,10 @@ deck-config-must-have-1000-reviews =
     { $count ->
         [one] Trovata solo { $count } ripetizione.
        *[other] Trovate solo { $count } ripetizioni.
-    }Per generare i parametri personalizzati servono almeno 1000 ripetizioni.
+    } Per generare i parametri personalizzati servono almeno 1000 ripetizioni.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = Parametri del modello
-deck-config-compute-optimal-weights = Calcola i parametri ottimali
+deck-config-weights = Parametri FSRS
+deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
@@ -341,9 +341,15 @@ deck-config-complete = { $num }% completo.
 deck-config-iterations = Iterazione: { $count }...
 deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
 deck-config-fsrs-tooltip =
-    FSRS (Free Spaced Repetition Scheduler; in italiano: "Pianificatore di Ripetizione Spaziata Libera") costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
+    Influenza l'intera collezione.
+    
+    FSRS (Free Spaced Repetition Scheduler; in italiano: "Pianificatore di Ripetizione Spaziata Libera") 
+    costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
     Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
     più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutti i preset.
+    
+    Se hai precedentemente utilizzato la versione non nativa di FSRS (basata l'aggiunta di codice customizzato nella sezione Pianificazione Personalizzata), 
+    assicurati di svuotare la sezione Pianificazione Personalizzata prima di abilitare questa opzione.
 deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle 
     quando verranno nuovamente ripetute. 
