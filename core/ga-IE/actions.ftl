@@ -37,7 +37,7 @@ actions-shortcut-key = Cnaipe aicearra: { $val }
 actions-suspend-card = Cuir Cárta ar Fionraí
 actions-set-due-date = Socraigh Dáta Staidéir
 actions-answer-card = Freagair Cárta
-actions-unbury-unsuspend = Tarraing Amach/Bain as Fiontraí
+actions-unbury-unsuspend = Tarraing Amach/Bain as Fionraí
 actions-add-deck = Cuir Paca leis
 actions-add-note = Cuir Nóta leis
 actions-update-tag = Nuashonraigh Clib
@@ -55,7 +55,6 @@ actions-previous-card-info = Sonraí an Cárta Roimhe
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Níltear in ann ag an ngníomh seo ar do ghléas go fóill.
 
 ## Flags
 

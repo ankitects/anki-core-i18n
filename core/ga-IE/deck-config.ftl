@@ -104,8 +104,8 @@ deck-config-leech-threshold-tooltip =
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     <b>Ach an Chlib</b>: Cuirtear an chlib "súmaire" leis an nóta, agus taispeáintear fógra.<br>
-    <b>Cuir ar Fiontraí</b>: Cuir an chlib leis agus cuir an nóta ar fiontraí sa chaoi nach bhfeicfear
-    arís é gan thú é a tharraingt amach as fiontraí thú féin.
+    <b>Cuir ar Fionraí</b>: Cuir an chlib leis agus cuir an nóta ar fionraí sa chaoi nach bhfeicfear
+    arís é gan thú é a tharraingt amach as fionraí thú féin.
 
 ## Burying section
 
@@ -203,6 +203,9 @@ deck-config-show-answer-timer-tooltip =
     Agus tú i mbun athbhreithnithe, bíodh clog ag taispeáint duit cé
     mhéad soicind atá caite agat ar an gcárta seo.
 
+## Auto Advance section
+
+
 ## Audio section
 
 deck-config-audio-title = Fuaim
@@ -292,6 +295,14 @@ deck-config-maximum-answer-secs-above-recommended = Dá ghiorra do chuid ceistea
 
 deck-config-which-deck = Cé acu paca atá i gceist agat?
 
+## Messages related to the FSRS scheduler
+
+deck-config-wait-for-audio = Fantar leis an bhFuaim
+deck-config-show-reminder = Taispeáintear Meabhrúchán
+deck-config-answer-again = Freagair 'Arís'
+deck-config-answer-hard = Freagair 'Deacair'
+deck-config-answer-good = Freagair 'Go Maith'
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Cuir deirfiúrchártaí i bhfolach
@@ -302,8 +313,3 @@ deck-config-bury-if-new-review-or-interday = NO NEED TO TRANSLATE
 deck-config-bury-tooltip =
     Roghnaigh cé acu an bhfágfar aon chárta atá bainteach leis an nóta
     céanna (.i. cártaí malartacha, sleachta eile iomlánaithe) go dtí lá eile.
-deck-config-wait-for-audio = Fantar leis an bhFuaim
-deck-config-show-reminder = Taispeáintear Meabhrúchán
-deck-config-answer-again = Freagair 'Arís'
-deck-config-answer-hard = Freagair 'Deacair'
-deck-config-answer-good = Freagair 'Go Maith'

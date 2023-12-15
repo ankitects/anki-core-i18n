@@ -28,8 +28,8 @@ decks-repeat-failed-cards-after = Athdhéan cártaí mícheart tar éis
 decks-reschedule-cards-based-on-my-answers = Athsceidealaigh cártaí de réir freagraí don phaca seo
 decks-study = Déan staidéar
 decks-study-deck = Paca Staidéir
-decks-filtered-deck-search-empty = Níl aon cárta ann a thagann leis an gcuardach. D'fhéadfadh gur fágadh roinnt cártaí as an áireamh de dheasca iad a bheith ar fiontraí nó mar chuid de phaca scagtha eile.
+decks-filtered-deck-search-empty = Níl aon cárta ann a thagann leis an gcuardach. D'fhéadfadh gur fágadh roinnt cártaí as an áireamh de dheasca iad a bheith ar fionraí nó mar chuid de phaca scagtha eile.
 decks-unmovable-cards = Taispeáin aon chárta a fágadh as
+decks-learn-header = Foghlaim
 # The count of cards waiting to be reviewed
 decks-review-header = Le staidéar
-decks-learn-header = Foghlaim
