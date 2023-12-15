@@ -360,12 +360,15 @@ deck-config-desired-retention-tooltip =
 deck-config-sm2-retention-tooltip =
     Se la tua ritenzione effettiva prima del passaggio a FSRS era significativamente diversa da 0,9, 
     regolare questo valore permetterà ad Anki di stimare meglio il tuo stato di memoria quando si trova di fronte a carte 
-    che hanno un registro delle ripetizioni mancante. Poiché i registri delle ripetizioni di solito non saranno mai assenti 
-    a meno che tu non li abbia eliminati esplicitamente per liberare spazio, la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
+    che hanno un registro delle ripetizioni mancante. 
+    N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che tu non abbia deciso di eliminarli per liberare spazio, per cui la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
 deck-config-weights-tooltip =
     I parametri FSRS influenzano la pianificazione delle carte.
+    La prima volta volta che attivi FSRS, Anki userà i parametri default.
     Una volta che hai accumulato 1000 o più ripetizioni, puoi ottimizzare i parametri utilizzando le impostazioni qui di seguito.
 deck-config-reschedule-cards-on-change-tooltip =
+    N.B.: influenza l'intera collezione.
+    
     Questa opzione controlla se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i parametri. 
     L'impostazione default è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
     ma non ci sarà alcuna modifica immediata al tuo carico di lavoro. 
