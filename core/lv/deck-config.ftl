@@ -17,6 +17,10 @@ deck-config-title = Kavu opcijas
 ## Daily limits section
 
 deck-config-daily-limits = Dienas limiti
+deck-config-new-limit-tooltip =
+    Maksimālais dienā ieviešamo jauno karšu skaits, ja ir pieejamas jaunas kārtis.
+    Tā kā jaunais materiāls palielinās jūsu īstermiņa pārskatīšanas darba slodzi, tam
+    parasti ir jābūt vismaz 10x mazākam par jūsu pārskatīšanas limitu.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
