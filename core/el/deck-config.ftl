@@ -219,6 +219,7 @@ deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέ�
 deck-config-compute-optimal-retention = Υπολογισμός βέλτιστης ανάκλησης.
 deck-config-optimize-button = Βελτιστοποίηση
 deck-config-compute-button = Υπολογισμός
+deck-config-optimize-all-tip = Μπορείτε να βελτιστοποιήσετε όλες τις προεπιλογές ταυτόχρονα πατώντας το κουμπί πάνω.
 deck-config-evaluate-button = Εκτίμηση
 deck-config-desired-retention = Επιθυμητή απομνημόνευση
 deck-config-sm2-retention = Απομνημόνευση SM2
