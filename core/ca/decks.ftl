@@ -26,6 +26,8 @@ decks-please-select-something = Seleccioneu alguna cosa.
 decks-random = Aleatori
 decks-relative-overdueness = Endarreriment relatiu
 decks-repeat-failed-cards-after = Repeteix les targetes fallides després
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Retard amb { $button }
 decks-reschedule-cards-based-on-my-answers = Replanifica les targetes en funció de les meves respostes d’aquesta baralla
 decks-study = Estudia
 decks-study-deck = Estudia la baralla
@@ -34,3 +36,4 @@ decks-unmovable-cards = Mostra qualsevol targeta exclosa
 decks-learn-header = Aprenent
 # The count of cards waiting to be reviewed
 decks-review-header = Pendents
+decks-zero-minutes-hint = (0 = retorna la targeta a la baralla original)

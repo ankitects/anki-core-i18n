@@ -93,6 +93,8 @@ editing-image-occlusion-ellipse-tool = El·lipsi
 editing-image-occlusion-polygon-tool = Polígon
 editing-image-occlusion-text-tool = Text
 editing-image-occlusion-toggle-mask-editor = Activa/desactiva l’editor de màscara
+editing-image-occlusion-reset = Reinicia l’oclusió d’imatges
+editing-image-occlusion-confirm-reset = Segur que voleu reiniciar aquesta oclusió d’imatges?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -41,7 +41,11 @@ importing-notes-skipped-update-due-to-notetype = No s’han actualitzat les note
 importing-notes-updated-as-file-had-newer = S’han actualitzat les notes perquè el fitxer contenia una versió més recent: { $val }
 importing-include-reviews = Inclou els repassos
 importing-also-import-progress = Importa també qualsevol procés d’aprenentatge
+importing-with-deck-configs = Importa les configuracions de baralla
 importing-updates = Actualitzacions
+importing-with-deck-configs-help =
+    Si activeu aquesta opció, s’importaran les configuracions de baralla de la persona que l’ha compartida.
+    En cas contrari, s’assignarà la configuració per defecte a totes les baralles.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida d’Anki o col·lecció (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
 # the '|' character
@@ -79,13 +83,13 @@ importing-note-imported =
     }
 importing-note-unchanged =
     { $count ->
-        [one] No s'ha alterat una nota
-       *[other] No s'han alterat { $count } notes
+        [one] No s’ha modificat una nota
+       *[other] No s’han modificat { $count } notes
     }
 importing-note-updated =
     { $count ->
-        [one] S'ha actualitzat una nota
-       *[other] S'han actualitzat { $count } noes
+        [one] S’ha actualitzat una nota
+       *[other] S’han actualitzat { $count } notes
     }
 importing-processed-media-file =
     { $count ->

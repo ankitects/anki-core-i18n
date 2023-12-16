@@ -18,7 +18,7 @@ search-unknown-escape = la seqüència d'escapament `{ $val }` no està definida
 search-invalid-argument = `{ $term }` ha rebut un paràmetre invàlid '`{ $argument }`'.
 search-invalid-flag-2 = `flag:` ha d'anar succeït per un número de marcador vàlid: `1` (roig), `2` (taronja), `3` (verd), `4` (blau), `5` (rosa), `6 ` (turquesa), `7` (morat) o `0` (cap senyal).
 search-invalid-prop-operator = `prop:{ $val }` ha d'anar succeït per un dels operadors de comparació següents: `=`, `!=`, `<`, `>`, `<=` o `>=`.
-search-invalid-other = comproveu si hi ha errors tipogràfics.
+search-invalid-other = comproveu si hi ha cap error d’escriptura.
 
 ## eg. expected a number in "due>5x", but found "5x"
 

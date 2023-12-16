@@ -92,9 +92,9 @@ deck-config-leech-threshold-tooltip =
     o pensar en una regla mnemotècnica que us ajudi a recordar-la.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    «Només etiqueta»: Afegeix l'etiqueta «sangonera» a la nota i mostra una finestra emergent.
+    `Només etiqueta`: Afegeix l'etiqueta «sangonera» a la nota i mostra una finestra emergent.
     
-    «Suspèn la targeta»: Afegeix l'etiqueta «sangonera» a la nota i amaga la targeta fins que anul·leu la suspensió manualment.
+    `Suspèn la targeta`: Afegeix l'etiqueta «sangonera» a la nota i amaga la targeta fins que anul·leu la suspensió manualment.
 
 ## Burying section
 
@@ -125,15 +125,15 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Ordre de visualització
 deck-config-new-gather-priority = Ordre de recopilació de les targetes noves
 deck-config-new-gather-priority-tooltip-2 =
-    «Baralla»: mostra les targetes de cada baralla en ordre ascendent, començant pel principi. Quan arribeu al límit diari de la baralla seleccionada, la recopilació es detindrà abans que s’hagin comprovat totes les baralles. Aquest ordre és més ràpid en col·leccions grans i permet prioritzar les baralles secundàries situades més amunt.
+    `Baralla`: mostra les targetes de cada baralla en ordre ascendent, començant pel principi. Quan arribeu al límit diari de la baralla seleccionada, la recopilació es detindrà abans que s’hagin comprovat totes les baralles. Aquest ordre és més ràpid en col·leccions grans i permet prioritzar les baralles secundàries situades més amunt.
     
-    «Ordre ascendent»: mostra les targetes en ordre ascendent (número de repàs), que generalment coincideix amb l’ordre en què les heu afegides.
+    `Ordre ascendent`: mostra les targetes en ordre ascendent (número de repàs), que generalment coincideix amb l’ordre en què les heu afegides.
     
-    «Ordre descendent»: mostra les targetes en ordre descendent (número de repàs), que generalment coincideix amb les últimes targetes que heu afegit.
+    `Ordre descendent`: mostra les targetes en ordre descendent (número de repàs), que generalment coincideix amb les últimes targetes que heu afegit.
     
-    «Notes aleatòries»: mostra targetes de notes seleccionades aleatòriament. Si desactiveu l’opció «Enterra les targetes relacionades», veureu totes les targetes d’una nota en una sola sessió (per exemple, veureu tant la targeta anvers → revers com la targeta inversa, revers → anvers).
+    `Notes aleatòries`: mostra targetes de notes seleccionades aleatòriament. Si desactiveu l’opció «Enterra les targetes relacionades», veureu totes les targetes d’una nota en una sola sessió (per exemple, veureu tant la targeta anvers → revers com la targeta inversa, revers → anvers).
     
-    «Targetes aleatòries»: mostra les targetes de manera aleatòria.
+    `Targetes aleatòries`: mostra les targetes de manera aleatòria.
 deck-config-new-gather-priority-deck = Baralla
 deck-config-new-gather-priority-deck-then-random-notes = Baralla i després notes aleatòries
 deck-config-new-gather-priority-position-lowest-first = Posició ascendent
@@ -142,15 +142,15 @@ deck-config-new-gather-priority-random-notes = Notes aleatòries
 deck-config-new-gather-priority-random-cards = Targetes aleatòries
 deck-config-new-card-sort-order = Nou ordre de classificació de les targetes
 deck-config-new-card-sort-order-tooltip-2 =
-    «Tipus de targeta»: mostra les targetes segons l'ordre del número de tipus de targeta. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes anvers→revers es mostraran abans que les targetes revers→anvers.
+    `Tipus de targeta`: mostra les targetes segons l'ordre del número de tipus de targeta. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes anvers→revers es mostraran abans que les targetes revers→anvers.
     
-    «Ordre de recopilació»: mostra les targetes segons l'ordre en què s'han recopilat. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes d'una nota es mostraran seguides.
+    `Ordre de recopilació`: mostra les targetes segons l'ordre en què s'han recopilat. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes d'una nota es mostraran seguides.
     
-    «Tipus de la targeta i després aleatòriament»: semblant a «Tipus de targeta», tot i que mostra les targetes de cada tipus de targeta aleatòriament. Si feu servir l'opció «Posició ascendent» per a recopilar les targetes més antigues, podeu activar aquesta opció perquè aquestes targetes es mostrin de manera aleatòria. D'aquesta manera, les targetes d'una mateixa nota no es presentaran seguides.
+    `Tipus de la targeta i després aleatòriament`: semblant a «Tipus de targeta», tot i que mostra les targetes de cada tipus de targeta aleatòriament. Si feu servir l'opció «Posició ascendent» per a recopilar les targetes més antigues, podeu activar aquesta opció perquè aquestes targetes es mostrin de manera aleatòria. D'aquesta manera, les targetes d'una mateixa nota no es presentaran seguides.
     
-    «Nota aleatòria i després tipus de la targeta»: mostra les notes aleatòriament i, després, totes les targetes relacionades en ordre.
+    `Nota aleatòria i després tipus de la targeta`: mostra les notes aleatòriament i, després, totes les targetes relacionades en ordre.
     
-    «Aleatòriament»: mostra les targetes recopilades de manera aleatòria.
+    `Aleatòriament`: mostra les targetes recopilades de manera aleatòria.
 deck-config-sort-order-card-template-then-random = Tipus de la targeta i després aleatòriament
 deck-config-sort-order-random-note-then-template = Nota aleatòria i després tipus de la targeta
 deck-config-sort-order-random = Aleatòriament
@@ -200,6 +200,16 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Activa un cronòmetre en la finestra de repàs que mostra els segons
     que tardes a repassar cada targeta.
+deck-config-stop-timer-on-answer = Atura el temporitzador en respondre
+deck-config-stop-timer-on-answer-tooltip =
+    Determina si el temporitzador s’aturarà quan es mostri la resposta.
+    Aquesta opció no afecta les estadístiques.
+
+## Auto Advance section
+
+deck-config-seconds-to-show-question = Segons abans de mostrar la pregunta
+deck-config-seconds-to-show-answer = Segons abans de mostrar la resposta
+deck-config-answer-action = Acció de resposta
 
 ## Audio section
 
@@ -212,31 +222,27 @@ deck-config-skip-question-when-replaying = Salta la pregunta quan repeteixi la r
 deck-config-always-include-question-audio-tooltip =
     Decidiu si s'inclourà el so de la pregunta quan useu l'acció «Reproduir»
     mentre consulteu la resposta d'una targeta.
-deck-config-stop-timer-on-answer = Atura el temporitzador en respondre
-deck-config-stop-timer-on-answer-tooltip =
-    Determina si el temporitzador s’aturarà quan es mostri la resposta.
-    Aquesta opció no afecta les estadístiques.
 
 ## Advanced section
 
 deck-config-advanced-title = Avançat
 deck-config-maximum-interval-tooltip =
     El nombre màxim de dies que una targeta per repassar romandrà a l’espera. Quan els repassos
-    hagin assolit el límit, tots els botons («Difícil, «Correcte» i «Fàcil») retardaran la targeta
+    hagin assolit el límit, tots els botons (`Difícil`, `Correcte` i `Fàcil`) retardaran la targeta
     el mateix nombre de dies. Com més curt siga aquest termini, més gran serà la vostra càrrega d’estudi.
 deck-config-starting-ease-tooltip =
     El multiplicador de faciltat amb què comencen les noves targetes. Per defecte, es retardarà
-    2,5 vegades el pròxim repàs d'una targeta acabada d'aprendre quan premeu «Correcte».
+    2,5 vegades el pròxim repàs d'una targeta acabada d'aprendre quan premeu `Correcte`.
 deck-config-easy-bonus-tooltip =
     Un multiplicador addicional que s’aplica a l’interval de repàs d’una targeta
-    quan premeu «Fàcil».
+    quan premeu `Fàcil`.
 deck-config-interval-modifier-tooltip =
     Aquest multiplicador s'aplica a tots els repassos. Podeu fer petites modificacions
     perquè Anki sigui més conservador o agressiu a l'hora de planificar els repassos.
     Consulteu el manual abans de modificar aquesta opció.
-deck-config-hard-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu «Difícil».
-deck-config-new-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu «De nou».
-deck-config-minimum-interval-tooltip = L'interval mínim que s'aplica a una targeta de repàs quan premeu «De nou».
+deck-config-hard-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu `Difícil`.
+deck-config-new-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu `De nou`.
+deck-config-minimum-interval-tooltip = L'interval mínim que s'aplica a una targeta de repàs quan premeu `De nou`.
 deck-config-custom-scheduling = Planificació personalitzada
 deck-config-custom-scheduling-tooltip = Atenció: afectarà a tota la col·lecció. Feu-la servir amb precaució!
 
@@ -260,6 +266,7 @@ deck-config-confirm-remove-name = Voleu eliminar { $name }?
 
 deck-config-save-button = Guarda
 deck-config-save-to-all-subdecks = Guarda per a totes les baralles secundàries
+deck-config-save-and-optimize = Optimitza totes les configuracions de baralla
 deck-config-revert-button-tooltip = Restaura aquest paràmetre al seu valor per defecte.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -297,6 +304,7 @@ deck-config-which-deck = Quina baralla voleu?
 deck-config-updating-cards = S’estan actualitzant les targetes: { $current_cards_count } de { $total_cards_count }…
 deck-config-invalid-weights = Deixeu els paràmetres en blanc per a utilitzar els valors per defecte o introduïu 17 nombres separats per comes.
 deck-config-not-enough-history = La quantitat de repassos és insuficient per a executar aquesta operació.
+deck-config-unable-to-determine-desired-retention = No s’ha pogut determinar un nivell de retenció òptim.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Només s’ha trobat un repàs.
@@ -308,6 +316,7 @@ deck-config-compute-optimal-weights = Optimitza els paràmetres FSRS
 deck-config-compute-optimal-retention = Calcula la retenció òptima
 deck-config-optimize-button = Optimitza
 deck-config-compute-button = Computa
+deck-config-optimize-all-tip = Podeu optimitzar totes les configuracions de baralla prement el botó superior.
 deck-config-evaluate-button = Avalua
 deck-config-desired-retention = Retenció desitjada
 deck-config-sm2-retention = Retenció SM2
@@ -329,6 +338,13 @@ deck-config-a-100-day-interval =
         [one] Un interval de 100 dies esdevindrà un dia.
        *[other] Un interval de 100 dies esdevindrà { $days } dies.
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct } % de { $reviews } repàs
+       *[other] { $pct } % de { $reviews } repassos
+    }
+deck-config-optimizing-preset = S’esta optimitzant la configuració de baralla { $current_count }/{ $total_count }…
+deck-config-fsrs-must-be-enabled = Primer heu d’activar el FSRS.
 deck-config-wait-for-audio = Espera el so
 deck-config-show-reminder = Mostra un recordatori
 deck-config-answer-again = De nou

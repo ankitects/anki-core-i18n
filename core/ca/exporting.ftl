@@ -13,6 +13,7 @@ exporting-include = <b>Inclou</b>:
 exporting-include-html-and-media-references = Inclou les referències HTML i multimèdia
 exporting-include-media = Inclou els fitxers multimèdia
 exporting-include-scheduling-information = Inclou la informació de planificació
+exporting-include-deck-configs = Inclou les configuracions de baralla
 exporting-include-tags = Inclou les etiquetes
 exporting-support-older-anki-versions = Compatibilitat amb versions anteriors d'Anki (fitxers més lents i pesats)
 exporting-notes-in-plain-text = Notes en text pla
