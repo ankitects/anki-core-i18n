@@ -23,6 +23,7 @@ editing-indent = Αύξηση εσοχής
 editing-jump-to-tags-with-ctrlandshiftandt = Μεταπήδηση σε ετικέτες με Ctrl+Shift+T
 editing-latex = Latex
 editing-latex-equation = Εξίσωση LaTeX
+editing-latex-math-env = LaTeX math env.
 editing-mathjax-chemistry = MathJax χημεία
 editing-mathjax-placeholder = Πατήστε { $accept } για αποδοχή, { $newline } για νέα γραμμή.
 editing-media = Πολυμέσα

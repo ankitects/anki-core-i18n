@@ -1,8 +1,5 @@
 ### Text shown on the "Deck Options" screen
 
-# Text added to an option name when it affects all decks at once, e.g.
-# "FSRS 🌐"
-deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -53,6 +50,9 @@ deck-config-graduating-interval-tooltip =
     στο τελευταίο βήμα εκμάθησης.
 deck-config-easy-interval-tooltip = Ο αριθμός ημερών μέχρι την επανεμφάνιση της κάρτας, αφού πατηθεί το κουμπί 'Εύκολο' που αφαιρεί αμέσως την κάρτα από το στάδιο της εκμάθησης.
 deck-config-new-insertion-order = Σειρά εισαγωγής
+deck-config-new-insertion-order-tooltip =
+    Ελέγχει την θέση (due #) που παίρνουν νέες κάρτες όταν τις προσθέτετε.
+    Κάρτες με χαμηλότερο αριθμό due θα εμφανιστούν πρώτες στην μελέτη. Αλλάζοντας την επιλογή θα ανανεώσει αυτόματα την υπάρχουσα θέση νέων καρτών.
 deck-config-new-insertion-order-sequential = Διαδοχικά (παλαιότερες κάρτες πρώτα)
 deck-config-new-insertion-order-random = Τυχαία
 deck-config-new-insertion-order-random-with-v3 = Με τον προγραμματιστή V3, είναι καλύτερο να αφήσετε αυτή την προεπιλογή ως διαδοχική και να προσαρμόσετε την σειρά συγκέντρωσης νέων καρτών.
@@ -126,10 +126,11 @@ deck-config-stop-timer-on-answer = Παύση χρονόμετρου κατά τ
 deck-config-stop-timer-on-answer-tooltip =
     Αν ο χρόνος σταματάει όταν αποκαλύπτεται η απάντηση.
     Δεν επηρεάζει τα στατιστικά.
+
+## Auto Advance section
+
 deck-config-seconds-to-show-question = Δευτερόλεπτα για εμφάνιση ερώτησης
-deck-config-seconds-to-show-question-tooltip = Ο αριθμός δευτερολέπτων πριν την αυτόματη εμφάνιση της επόμενης ερώτησης. Θέσετε σε 0 για απενεργοποίηση.
 deck-config-seconds-to-show-answer = Δευτερόλεπτα για εμφάνιση απάντησης
-deck-config-seconds-to-show-answer-tooltip = Ο αριθμός δευτερολέπτων πριν την αυτόματη αποκάλυψη της απάντησης. Ορίστε σε 0 για απενεργοποίηση.
 deck-config-answer-action = Ενέργεια απάντησης
 deck-config-answer-action-tooltip = Η ενέργεια που θα εκτελεστεί στην τρέχουσα κάρτα πριν την αυτόματη εμφάνιση της επόμενης.
 deck-config-wait-for-audio-tooltip = Αναμονή για την ολοκλήρωση του ήχου πριν την αυτόματη αποκάλυψη της απάντησης ή την επόμενη ερώτηση
