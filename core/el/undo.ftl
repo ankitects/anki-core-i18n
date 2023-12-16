@@ -8,3 +8,4 @@ undo-undo-action = Αναίρεση { $val }
 # eg "Answer Card Undone"
 undo-action-undone = { $action } αναιρέθηκε
 undo-redo-action = Ακύρωση αναίρεσης { $action }
+undo-action-redone = { $action } επανεκτελέστηκε

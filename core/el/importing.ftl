@@ -42,6 +42,12 @@ importing-include-reviews = Συμπερίληψη επαναλήψεων
 importing-also-import-progress = Εισαγωγή προόδου εκμάθησης
 importing-with-deck-configs = Εισαγωγή προεπιλογών τραπουλών
 importing-updates = Ενημερώσεις
+importing-include-reviews-help =
+    Αν ενεργοποιημένο, θα εισαχθούν επίσης προηγούμενες επαναλήψεις  τις οποίες συμπεριέλαβε ο διαμοιραστής της τράπουλας.
+    Διαφορετικά,  όλες οι κάρτες θα εισαχθούν σαν νέες.
+importing-with-deck-configs-help =
+    Αν ενεργοποιημένο, θα εισαχθούν επίσης επιλογές τραπουλών τις οποίες συμπεριέλαβε ο διαμοιραστής.
+    Διαφορετικά,  όλες οι τράπουλες θα λάβουν τις προεπιλεγμένες ρυθμίσεις.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Πακεταρισμένη τράπουλα/συλλογή Anki (*.apkg *.colpkg *.zip)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } πεδία, αναμένωντας { $expected }
 importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο δεν ήταν σε μορφή UTF-8. Παρακαλώ δείτε την αντίστοιχη ενότητα στο εγχειρίδιο.

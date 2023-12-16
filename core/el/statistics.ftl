@@ -71,6 +71,7 @@ statistics-studied-today =
     ({ $secs-per-card }s/κάρτα)
 statistics-today-title = Σήμερα
 statistics-today-again-count = Ξανά:
+statistics-today-type-counts = Μελέτη: { $learnCount }, Επανάληψη: { $reviewCount }, Επανεκμάθηση: { $relearnCount }, Φιλτραρισμένες: { $filteredCount }
 statistics-today-no-cards = Καμία κάρτα δεν διαβάστηκε σήμερα.
 statistics-today-no-mature-cards = Καμία ώριμη κάρτα δεν διαβάστηκε σήμερα.
 statistics-today-correct-mature = Σωστές απαντήσεις σε ώριμες κάρτες: { $correct }/{ $total } ({ $percent }%)
