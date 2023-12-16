@@ -55,6 +55,7 @@ preferences-style = Στυλ
 preferences-review = Επαναλήψεις
 preferences-answer-keys = Πλήκτρα απάντησης
 preferences-distractions = Περισπασμοί
+preferences-minimalist-mode = Μινιμαλιστική λειτουργία
 preferences-editing = Επεξεργασία
 preferences-browsing = Περιήγηση
 preferences-default-deck = Προεπιλεγμένη τράπουλα
