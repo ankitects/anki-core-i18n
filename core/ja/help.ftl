@@ -4,7 +4,7 @@
 ## Header/footer
 
 # Link to more detailed information in the manual
-help-for-more-info = 詳細は、マニュアルの { $link } の項目をご参照ください。
+help-for-more-info = 詳細については、マニュアルの { $link } の項目を参照してください。
 # Tooltip for links to the manual
 help-open-manual-chapter = マニュアルの「{ $name }」の項目を読む
 help-ok = OK
