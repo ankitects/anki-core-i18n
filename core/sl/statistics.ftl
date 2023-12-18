@@ -109,7 +109,14 @@ statistics-range-deck = paket
 statistics-range-collection = zbirka
 statistics-range-search = Iskanje
 statistics-card-ease-title = Težavnost kartic
+statistics-card-difficulty-title = Težavnost kartice
+statistics-card-stability-title = Stabilnost kartice
+statistics-card-stability-subtitle = Razmik, pri katerem bo pomnjenje najverjetneje 90-odstotno.
+statistics-average-stability = Povprečna stabilnost
+statistics-card-retrievability-title = Povratnost kartice
 statistics-card-ease-subtitle = Večja kot je težavnost, bolj pogosto se bo kartica pojavila.
+statistics-card-difficulty-subtitle2 = Višja kot je težavnost, počasneje bo naraščala stabilnost.
+statistics-retrievability-subtitle = Verjetnost ponovnega priklica kartice danes.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -117,6 +124,20 @@ statistics-card-ease-tooltip =
         [two] { $cards } kartici s težavnostjo { $percent }
         [few] { $cards } kartice s težavnostjo { $percent }
        *[other] { $cards } kartic s težavnostjo { $percent }
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } kartica z { $percent } težavnostjo
+        [two] { $cards } kartici z { $percent } težavnostjo
+        [few] { $cards } kartice z { $percent } težavnostjo
+       *[other] { $cards } kartic z { $percent } težavnostjo
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } kartica z { $percent } povratnostjo
+        [two] { $cards } kartici z { $percent } povratnostjo
+        [few] { $cards } kartice z { $percent } povratnostjo
+       *[other] { $cards } kartic z { $percent } povratnostjo
     }
 statistics-future-due-title = Napoved
 statistics-future-due-subtitle = Število pregledov, ki bodo na vrsti v prihodnje.
@@ -160,7 +181,7 @@ statistics-cards-due =
        *[other] Poteklo kartic: { $cards }
     }
 statistics-backlog-checkbox = Dnevnik zapisov
-statistics-intervals-title = Intervalie
+statistics-intervals-title = Intervali
 statistics-intervals-subtitle = Odloži dokler se spet ne pokažejo pregledi.
 statistics-intervals-day-range =
     { $cards ->
@@ -176,9 +197,27 @@ statistics-intervals-day-single =
         [few] { $cards } kartice z intervalom { $day } dni
        *[other] { $cards } kartic z intervalom { $day } dni
     }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } kartica s stabilnostjo { $daysStart }~{ $daysEnd } dni
+        [two] { $cards } kartici s stabilnostjo { $daysStart }~{ $daysEnd } dni
+        [few] { $cards } kartice s stabilnostjo { $daysStart }~{ $daysEnd } dni
+       *[other] { $cards } kartic s stabilnostjo { $daysStart }~{ $daysEnd } dni
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } kartica s stabilnostjo { $day } dni
+        [two] { $cards } kartici s stabilnostjo { $day } dni
+        [few] { $cards } kartice s stabilnostjo { $day } dni
+       *[other] { $cards } kartic s stabilnostjo { $day } dni
+    }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } pravilnih ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = { $reviews } pregledov
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = { $percent }% pravilnih ({ $reviews })
 statistics-hours-title = Razčlenitev po urah
 statistics-hours-subtitle = Uspešnost pregleda za vse ure dneva.
 # shown when graph is empty
@@ -232,6 +271,9 @@ statistics-cards-per-day =
        *[other] kartic/dan: { $count }
     }
 statistics-average-ease = Povprečna enostavnost
+statistics-average-difficulty = Povprečna težavnost
+statistics-average-retrievability = Povprečna povratnost
 statistics-save-pdf = Shrani PDF
 statistics-saved = Shranjeno.
 statistics-stats = statistika
+statistics-title = Statistike
