@@ -114,7 +114,7 @@ statistics-card-stability-subtitle = כרטיסים במרווח שבו יש ל�
 statistics-average-stability = יציבות ממוצעת
 statistics-card-retrievability-title = אחזור כרטיס
 statistics-card-ease-subtitle = ככל שהקלות נמוכה יותר, כך גוברת התדירות שהכרטיס יופיע.
-statistics-card-difficulty-subtitle = ככל שהקושי גבוה יותר, כך קשה יותר לזכור אותו.
+statistics-card-difficulty-subtitle2 = ככל שהקושי גבוה יותר, היציבות איטית יותר תגדל.
 statistics-retrievability-subtitle = כמה סביר שתזכור.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
