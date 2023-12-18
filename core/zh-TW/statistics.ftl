@@ -83,7 +83,7 @@ statistics-card-stability-subtitle = 你能夠回想起卡片內容的機率下�
 statistics-average-stability = 平均穩固期
 statistics-card-retrievability-title = 卡片留存率
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
-statistics-card-difficulty-subtitle = 難度越高，則卡片越難記住
+statistics-card-difficulty-subtitle2 = 難度越高，穩固期增長的速度越慢
 statistics-retrievability-subtitle = 今天能夠回想起卡片內容的機率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
