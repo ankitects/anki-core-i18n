@@ -34,7 +34,7 @@ statistics-studied-today =
         [days] { statistics-in-time-span-days }
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
-    } 内学习了 { statistics-cards }（平均每张卡片 { $secs-per-card } 秒）
+    }学习了 { statistics-cards }（平均每张卡片 { $secs-per-card } 秒）
 statistics-today-title = 今天
 statistics-today-again-count = 「重来」计数：
 statistics-today-type-counts = 学习：{ $learnCount }；复习：{ $reviewCount }；重新学习：{ $relearnCount }；已筛选：{ $filteredCount }
@@ -65,7 +65,7 @@ statistics-card-stability-subtitle = 预测回忆概率下降至 90% 的时间�
 statistics-average-stability = 平均稳定期
 statistics-card-retrievability-title = 卡片记忆可提取性
 statistics-card-ease-subtitle = 卡片简易度越低，其出现频率越高。
-statistics-card-difficulty-subtitle = 难度越高，卡片越难记忆。
+statistics-card-difficulty-subtitle2 = 卡片难度越高，记忆稳定期提升越慢。
 statistics-retrievability-subtitle = 您能够成功回忆卡片内容的概率。
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
