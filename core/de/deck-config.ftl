@@ -281,6 +281,11 @@ deck-config-get-params = Parameter abrufen
 deck-config-estimated-retention = Geschätzte Retention: { $num }
 deck-config-complete = { $num }% abgeschlossen.
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
+       *[other] Ein Intervall von 100 Tagen wird zu { $days } Tagen.
+    }
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = "Er­neut" ant­wor­ten

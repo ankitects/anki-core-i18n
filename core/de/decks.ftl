@@ -25,11 +25,13 @@ decks-please-select-something = Bitte etwas auswählen.
 decks-random = Zufall
 decks-relative-overdueness = Überfällig relativ zum Intervall
 decks-repeat-failed-cards-after = Erfolglos gelernte Karten wiederholen nach
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Verzögerung für { $button }
 decks-reschedule-cards-based-on-my-answers = Meine Antworten in diesem Auswahlstapel sollen die Zeitplanung von Karten beeinflussen
 decks-study = Lernen
 decks-study-deck = Stapel lernen
 decks-filtered-deck-search-empty = Es wurden keine Karten mit dem angegebenen Suchbegriff gefunden. Bestimmte Karten könnten von der Suche ausgeschlossen gewesen sein, weil sie sich in einem anderen benutzerdefinierten Stapel befinden oder ausgesetzt sind.
 decks-unmovable-cards = Alle ausgeschlossenen Karten anzeigen
+decks-learn-header = Lernen
 # The count of cards waiting to be reviewed
 decks-review-header = Fällig
-decks-learn-header = Lernen

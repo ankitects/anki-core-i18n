@@ -88,6 +88,8 @@ editing-image-occlusion-rectangle-tool = Rechteck
 editing-image-occlusion-ellipse-tool = Ellipse
 editing-image-occlusion-polygon-tool = Vieleck
 editing-image-occlusion-text-tool = Text
+editing-image-occlusion-reset = Verdeckung zurücksetzen
+editing-image-occlusion-confirm-reset = Sind Sie sicher, dass Sie diese Verdeckung zurücksetzen wollen?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
