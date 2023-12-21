@@ -24,6 +24,7 @@ notetypes-add-note-type = Προσθήκη τύπου σημείωσης
 notetypes-cards = Κάρτες...
 notetypes-clone = Κλώνος: { $val }
 notetypes-copy = { $val } αντίγραφο
+notetypes-create-scalable-images-with-dvisvgm = Δημιουργία κλιμακούμενων εικόνων με dvisvgm
 notetypes-delete-this-note-type-and-all = Διαγραφή αυτού του τύπου σημείωσης και όλων των καρτών τους;
 notetypes-delete-this-unused-note-type = Διαγραφή αυτού του μη χρησιμοποιημένου τύπου σημείωσης;
 notetypes-fields = Πεδία...
