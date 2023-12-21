@@ -286,6 +286,7 @@ deck-config-a-100-day-interval =
         [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
        *[other] Ein Intervall von 100 Tagen wird zu { $days } Tagen.
     }
+deck-config-optimizing-preset = Optimiere Stapeloptionengruppe { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
