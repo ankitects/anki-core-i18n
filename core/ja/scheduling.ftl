@@ -109,7 +109,7 @@ scheduling-starting-ease = 復習開始時の「易しさ」〔復習間隔の�
 scheduling-steps-in-minutes = 習得ステップ（分）
 scheduling-steps-must-be-numbers = 習得ステップは数字で指定してください。
 scheduling-tag-only = タグを付けるだけ
-scheduling-the-default-configuration-cant-be-removed = この既定の設定は削除できません。
+scheduling-the-default-configuration-cant-be-removed = これはデフォルトのプリセットなので削除できません。
 scheduling-your-changes-will-affect-multiple-decks = この変更は複数のデッキに影響が及びます。現在のデッキのみに変更を加えたい時には、まず最初にオプショングループを新規追加してください。
 scheduling-deck-updated =
     { $count ->
