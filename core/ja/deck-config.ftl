@@ -253,7 +253,7 @@ deck-config-confirm-remove-name = { $name }を削除しますか？
 
 deck-config-save-button = 保存
 deck-config-save-to-all-subdecks = 保存してサブデッキにも適用
-deck-config-save-and-optimize = すべてのプリセットを最適化して保存
+deck-config-save-and-optimize = すべてのプリセットで最適化して保存
 deck-config-revert-button-tooltip = この設定をデフォルトに戻す
 
 ## These strings are shown via the Description button at the bottom of the
@@ -301,7 +301,7 @@ deck-config-compute-optimal-weights = FSRSのパラメータを最適化
 deck-config-compute-optimal-retention = 学習プランから正答保持率を推定
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
-deck-config-optimize-all-tip = すべてのプリセットでの最適化を一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットを最適化して保存」で実行できます。
+deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
 deck-config-evaluate-button = 評価
 deck-config-desired-retention = 正答保持率（目標値）
 deck-config-sm2-retention = SM2での正答保持率
