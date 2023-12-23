@@ -304,7 +304,7 @@ deck-config-compute-button = 推定
 deck-config-evaluate-button = 評価
 deck-config-desired-retention = 正答保持率（目標値）
 deck-config-sm2-retention = SM2での正答保持率
-deck-config-smaller-is-better = 各数値が小さいほど、復習履歴との適合性が高いことを意味します。
+deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-get-params = パラメータを取得
 deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSは、クライアントのいずれかが古いバージョンである場合は正しく動作しません。
@@ -367,9 +367,9 @@ deck-config-a-100-day-interval =
     }
 deck-config-percent-of-reviews =
     { $reviews ->
-       *[other] { $reviews }回の復習の{ $pct }%
+       *[other] 復習履歴{ $reviews }件の{ $pct }%を読み込みました...
     }
-deck-config-optimizing-preset = プリセットを最適化中：{ $current_count }/{ $total_count }...
+deck-config-optimizing-preset = { $total_count }個中{ $current_count }個目のプリセットを最適化しています...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
