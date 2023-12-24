@@ -70,3 +70,5 @@ media-check-restore-trash = Επαναφορά διαγραμμένων
 media-check-check-media-action = Έλεγχος πολυμέσων
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = ελλείποντα-πολυμέσα
+# add a tag to notes with missing media
+media-check-add-tag = Ετικέτα σε ελλείποντα
