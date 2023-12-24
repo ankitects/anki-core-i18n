@@ -7,8 +7,8 @@ database-check-card-properties =
     }
 database-check-missing-templates =
     { $count ->
-        [one] Διαγράφηκε { $count } κάρτα με χαμένο πρότυπο.
-       *[other] Διαγράφηκαν { $count } κάρτες με χαμένο πρότυπο.
+        [one] Διαγράφηκε { $count } κάρτα με ελλείπον πρότυπο.
+       *[other] Διαγράφηκαν { $count } κάρτες με ελλείπον πρότυπο.
     }
 database-check-field-count =
     { $count ->
@@ -22,8 +22,8 @@ database-check-new-card-high-due =
     }
 database-check-card-missing-note =
     { $count ->
-        [one] Διαγράφηκε { $count } κάρτα με χαμένη σημείωση.
-       *[other] Διαγράφηκαν { $count } κάρτες με χαμένη σημείωση.
+        [one] Διαγράφηκε { $count } κάρτα με ελλείπουσα σημείωση.
+       *[other] Διαγράφηκαν { $count } κάρτες με ελλείπουσα σημείωση.
     }
 database-check-duplicate-card-ords =
     { $count ->
@@ -32,8 +32,8 @@ database-check-duplicate-card-ords =
     }
 database-check-missing-decks =
     { $count ->
-        [one] Διορθώθηκε { $count } χαμένη τράπουλα.
-       *[other] Διορθώθηκαν { $count } χαμένες τράπουλες.
+        [one] Διορθώθηκε { $count } ελλείπουσα τράπουλα.
+       *[other] Διορθώθηκαν { $count } ελλείπουσες τράπουλες.
     }
 database-check-revlog-properties =
     { $count ->
@@ -56,7 +56,7 @@ database-check-notetypes-recovered = Ένας ή περισσότεροι τύπ
 ## Progress info
 
 database-check-checking-integrity = Έλεγχος συλλογής...
-database-check-rebuilding = Aνασυγκρότηση...
+database-check-rebuilding = Ανακατασκευή...
 database-check-checking-cards = Έλεγχος καρτών...
 database-check-checking-notes = Έλεγχος σημειώσεων...
 database-check-checking-history = Έλεγχος ιστορικού...
