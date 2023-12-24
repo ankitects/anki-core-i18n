@@ -56,3 +56,4 @@ studying-minute =
         [one] { $count } minuto.
        *[other] { $count } minuti.
     }
+studying-answer-time-elapsed = Tempo di risposta scaduto

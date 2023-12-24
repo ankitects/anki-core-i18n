@@ -160,7 +160,7 @@ deck-config-new-card-sort-order-tooltip-2 =
 deck-config-sort-order-card-template-then-random = Tipo di carta, poi in ordine casuale
 deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
 deck-config-sort-order-random = Casuale
-deck-config-sort-order-template-then-gather = Tipo di carta, poi in ordine di raccolta
+deck-config-sort-order-template-then-gather = Tipo di carta
 deck-config-sort-order-gather = Ordine di raccolta
 deck-config-new-review-priority = Ordine nuove/da ripassare
 deck-config-new-review-priority-tooltip = Quando mostrare le nuove carte in relazione a quelle da ripassare.
@@ -173,7 +173,7 @@ deck-config-interday-step-priority-tooltip =
     verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre raccolte per prime.
 deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
 deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
-deck-config-review-mix-show-before-reviews = Mostra dopo le carte da ripassare
+deck-config-review-mix-show-before-reviews = Mostra prima delle carte da ripassare
 deck-config-review-sort-order = Ordine delle carte da ripassare
 deck-config-review-sort-order-tooltip =
     L'ordine di default dà priorità alle carte che sono in attesa da più tempo, così
@@ -213,7 +213,7 @@ deck-config-stop-timer-on-answer-tooltip =
 
 ## Auto Advance section
 
-deck-config-seconds-to-show-question = Secondi prima di mostrare la domanda
+deck-config-seconds-to-show-question = Secondi per i quali mostrare la domanda
 deck-config-seconds-to-show-question-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di rivelare la risposta. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi prima di mostrare la risposta
 deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'azione di risposta. Imposta a 0 per disabilitare.
