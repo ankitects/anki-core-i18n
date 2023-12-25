@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = הוספה (קיצור מקשים: ctrl+enter)
 adding-added = נוספו
-adding-close-and-lose-current-input = האם לסגור מבלי לשמור את השינויים?
+adding-discard-current-input = למחוק את הקלט הנוכחי?
+adding-keep-editing = המשך עריכה
 adding-edit = ערוך את "{ $val }"
 adding-history = היסטוריה
 adding-note-deleted = (רשומה נמחקה)
