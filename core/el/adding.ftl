@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = Προσθήκη (συντόμευση: ctrl+enter)
 adding-added = Προστέθηκε
-adding-close-and-lose-current-input = Κλείσιμο με απώλεια αλλαγών;
+adding-discard-current-input = Απόρριψη τρέχουσας καταχώρησης;
+adding-keep-editing = Συνέχεια επεξεργασίας
 adding-edit = Επεξεργασία "{ $val }"
 adding-history = Ιστορικό
 adding-note-deleted = (Η σημείωση διαγράφηκε)
