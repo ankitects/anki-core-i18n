@@ -60,12 +60,12 @@ statistics-range-collection = コレクション
 statistics-range-search = 検索
 statistics-card-ease-title = カードの易しさ
 statistics-card-difficulty-title = カードの難度
-statistics-card-stability-title = カードの安定性
+statistics-card-stability-title = カードの安定度
 statistics-card-stability-subtitle = 90％の確率で正答できると予測される間隔日数と枚数
-statistics-average-stability = 安定性の平均
+statistics-average-stability = 安定度の平均
 statistics-card-retrievability-title = カードの推定正答率
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
-statistics-card-difficulty-subtitle2 = 難度が高いほど、安定性が上がりにくくなります
+statistics-card-difficulty-subtitle2 = 難度が高いほど、安定度が上がりにくくなります
 statistics-retrievability-subtitle = カードに今日正答できる確率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -127,11 +127,11 @@ statistics-intervals-day-single =
     }
 statistics-stability-day-range =
     { $cards ->
-       *[other] 安定性が{ $daysStart }~{ $daysEnd }日のカード: { $cards }枚
+       *[other] 安定度が{ $daysStart }~{ $daysEnd }日のカード: { $cards }枚
     }
 statistics-stability-day-single =
     { $cards ->
-       *[other] 安定性が{ $day }日のカード: { $cards }枚
+       *[other] 安定度が{ $day }日のカード: { $cards }枚
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }時~{ $hourEnd }時
