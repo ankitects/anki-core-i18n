@@ -66,7 +66,7 @@ statistics-average-stability = 安定度の平均
 statistics-card-retrievability-title = カードの正答可能性
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
 statistics-card-difficulty-subtitle2 = 難度が高いほど、安定度が上がりにくくなります
-statistics-retrievability-subtitle = 今日、そのカードに正答できる確率
+statistics-retrievability-subtitle = 今、そのカードの答えを思い出せる（忘れずに覚えている）確率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
