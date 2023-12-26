@@ -63,10 +63,10 @@ statistics-card-difficulty-title = カードの難度
 statistics-card-stability-title = カードの安定度
 statistics-card-stability-subtitle = 90％の確率で正答できると予測される間隔日数と枚数
 statistics-average-stability = 安定度の平均
-statistics-card-retrievability-title = カードの推定正答率
+statistics-card-retrievability-title = カードの正答可能性
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
 statistics-card-difficulty-subtitle2 = 難度が高いほど、安定度が上がりにくくなります
-statistics-retrievability-subtitle = カードに今日正答できる確率
+statistics-retrievability-subtitle = 今日、そのカードに正答できる確率
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -79,8 +79,8 @@ statistics-card-difficulty-tooltip =
     }
 statistics-retrievability-tooltip =
     { $cards ->
-        [one] 推定正答率が{ $percent }のカード: { $cards }枚
-       *[other] 推定正答率が{ $percent }のカード: { $cards }枚
+        [one] 正答可能性が{ $percent }のカード: { $cards }枚
+       *[other] 正答可能性が{ $percent }のカード: { $cards }枚
     }
 statistics-future-due-title = 今後の課題
 statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数
@@ -185,7 +185,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = 易しさの平均値
 statistics-average-difficulty = 難度の平均
-statistics-average-retrievability = 推定正答率の平均
+statistics-average-retrievability = 正答可能性の平均
 statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計

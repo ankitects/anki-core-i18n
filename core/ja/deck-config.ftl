@@ -289,7 +289,7 @@ deck-config-which-deck = どのデッキを選択しますか？
 deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = パラメータの欄には、デフォルト値を使用するために何も入力しないままにするか、コンマ (", ") で区切られた17個の数字を入力する必要があります。
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
-deck-config-unable-to-determine-desired-retention = 最適な正答保持率を推定できませんでした
+deck-config-unable-to-determine-desired-retention = 最適な正答率を推定できませんでした
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] 復習履歴が{ $count }件しか見つかりません。
@@ -298,18 +298,18 @@ deck-config-must-have-1000-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRSのパラメータ
 deck-config-compute-optimal-weights = FSRSのパラメータを最適化
-deck-config-compute-optimal-retention = 学習プランから正答保持率を推定
+deck-config-compute-optimal-retention = 学習プランから正答率を推定
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
 deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
 deck-config-evaluate-button = 評価
-deck-config-desired-retention = 正答保持率（目標値）
-deck-config-sm2-retention = SM2での正答保持率
+deck-config-desired-retention = 正答率（目標値）
+deck-config-sm2-retention = SM2での正答率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-get-params = パラメータを取得
 deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSは、クライアントのいずれかが古いバージョンである場合は正しく動作しません。
-deck-config-estimated-retention = 正答保持率（推定値）: { $num }
+deck-config-estimated-retention = 正答率（推定値）: { $num }
 deck-config-complete = { $num }% 完了
 deck-config-iterations = 反復: { $count }...
 deck-config-reschedule-cards-on-change = 変更の際に再スケジュール
@@ -328,7 +328,7 @@ deck-config-desired-retention-tooltip =
     
     この値の調整は、控えめに、慎重に行ってください。値を上げすぎると、学習量が大幅に増えて重荷になってしまいますし、値を下げすぎると、答えを忘れてしまうカードが多くなって、学習意欲が下がってしまうかもしれません。
 deck-config-sm2-retention-tooltip =
-    FSRSスケジューラーに切り替える前のSM2スケジューラーの学習における実際の正答保持率が0.9（＝90%）と大幅に異なる場合、この値を実態に即した値に調整することで、復習履歴の全体または一部が欠落しているカードについて、あなたの成績をAnkiがより適切に推定できるようになります。
+    FSRSスケジューラーに切り替える前のSM2スケジューラーの学習における実際の正答率が0.9（＝90%）と大幅に異なる場合、この値を実態に即した値に調整することで、復習履歴の全体または一部が欠落しているカードについて、あなたの成績をAnkiがより適切に推定できるようになります。
     
     通常、ユーザーが関連ファイルを（ストレージの空き容量を増やすために）意図的に削除したり、復習履歴を改変するアドオンを使用したりしない限り、復習履歴が欠落することはないため、ほとんどのユーザーはこの値を調整する必要がありません。
 deck-config-weights-tooltip =
@@ -345,7 +345,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     このオプションがオンの場合、各カードの、すでに予定済みの期日を変更（再スケジュール）します。
     
     このオプションの設定はすべてのプリセットで共有され、一括で適用された後、オフ（デフォルト）になります。
-deck-config-reschedule-cards-warning = 目標とする正答保持率にもよりますが、大量のカードがいっぺんに期日を迎えることになる可能性があるため、SM2スケジューラーからFSRSスケジューラーへの切り替えの際にこのオプションをオンにすることはお勧めしません。
+deck-config-reschedule-cards-warning = 目標とする正答率にもよりますが、大量のカードがいっぺんに期日を迎えることになる可能性があるため、SM2スケジューラーからFSRSスケジューラーへの切り替えの際にこのオプションをオンにすることはお勧めしません。
 deck-config-compute-optimal-weights-tooltip =
     このプリセットを使用しているデッキでの復習履歴が1,000件以上に達したら、「最適化」ボタンを使って復習履歴を分析し、あなたの記憶力と学習内容に最適なパラメータを自動的に算出することができます。
     
