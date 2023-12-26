@@ -82,7 +82,7 @@ statistics-retrievability-tooltip =
         [one] 正答可能性が{ $percent }のカード: { $cards }枚
        *[other] 正答可能性が{ $percent }のカード: { $cards }枚
     }
-statistics-future-due-title = 今後の課題
+statistics-future-due-title = 今後の期日
 statistics-future-due-subtitle = 今日から期日 (次の復習または習得学習) までの間隔と枚数
 statistics-added-title = 追加
 statistics-added-subtitle = 新規カードを追加した枚数
