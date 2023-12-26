@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = (ctrl+enter :اختصار) إضافة
 adding-added = أُضيفت
-adding-close-and-lose-current-input = هل تريد الإغلاق وفقدان المدخلات الحالية؟
+adding-discard-current-input = هل تريد تجاهل المدخلات الحالية؟
+adding-keep-editing = استمر بالتحرير
 adding-edit = تحرير "{ $val }"
 adding-history = السجل
 adding-note-deleted = (ملحوظة محذوفة)

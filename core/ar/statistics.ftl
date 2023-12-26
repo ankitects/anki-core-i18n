@@ -129,7 +129,7 @@ statistics-card-stability-subtitle = توقع وقت التأخر عندما ي�
 statistics-average-stability = متوسط الاستقرار
 statistics-card-retrievability-title = إمكانية استرجاع البطاقة
 statistics-card-ease-subtitle = كلما كانت السهولة منخفضة، ظهرت البطاقة مرات أكثر.
-statistics-card-difficulty-subtitle = كلما زادت الصعوبة، كلما ظهرت البطاقة بشكل متكرر.
+statistics-card-difficulty-subtitle2 = كلما زادت الصعوبة، نقص معدل زيادة الاستقرار.
 statistics-retrievability-subtitle = ما مدى احتمالية تذكرك.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =

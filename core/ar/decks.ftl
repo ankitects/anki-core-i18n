@@ -36,3 +36,4 @@ decks-unmovable-cards = إظهار البطاقات المستثناة
 decks-learn-header = تعلم
 # The count of cards waiting to be reviewed
 decks-review-header = مستحقة
+decks-zero-minutes-hint = (0 = لإعادة البطاقة إلى رزمتها الأصلية)

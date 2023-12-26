@@ -291,7 +291,7 @@ deck-config-confirm-remove-name = هل تريد حذف { $name }؟
 
 deck-config-save-button = حفظ
 deck-config-save-to-all-subdecks = حفظ في كل الرزم الفرعية
-deck-config-save-and-optimize = حساب العوامل المثالية لكل مجموعات الرزم
+deck-config-save-and-optimize = تحسين عوامل FSRS لكل المجموعات
 deck-config-revert-button-tooltip = استرجاع قيمة الإعداد الافتراضية.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -349,10 +349,11 @@ deck-config-must-have-1000-reviews =
     } يجب أن يكون هناك 1000 مراجعة على الأقل لتوليد الأوزان المخصصة.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = عوامل FSRS
-deck-config-compute-optimal-weights = حساب عوامل FSRS المثالية
+deck-config-compute-optimal-weights = تحسين عوامل FSRS
 deck-config-compute-optimal-retention = حساب معدل التذكر الأمثل
-deck-config-optimize-button = تعزيز
+deck-config-optimize-button = تحسين
 deck-config-compute-button = احسب
+deck-config-optimize-all-tip = تستطيع تحسين كل المجموعات في الوقت نفسه بالضغط على الزر في الأعلى.
 deck-config-evaluate-button = احسب
 deck-config-desired-retention = معدل التذكر المرغوب فيه
 deck-config-sm2-retention = معدل تذكر SM2
