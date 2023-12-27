@@ -153,7 +153,7 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-       *[other] デッキ名を{ $count }個を変更しました。
+       *[other] { $count }個のデッキ名を変更しました。
     }
 browsing-sidebar-card-state-review = 復習
 
