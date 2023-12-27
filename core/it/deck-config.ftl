@@ -215,7 +215,7 @@ deck-config-stop-timer-on-answer-tooltip =
 
 deck-config-seconds-to-show-question = Secondi per i quali mostrare la domanda
 deck-config-seconds-to-show-question-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di rivelare la risposta. Imposta a 0 per disabilitare.
-deck-config-seconds-to-show-answer = Secondi prima di mostrare la risposta
+deck-config-seconds-to-show-answer = Secondi per i quali mostrare la risposta
 deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'azione di risposta. Imposta a 0 per disabilitare.
 deck-config-answer-action = Azione di risposta
 deck-config-answer-action-tooltip = L'azione da svolgere sulla carta corrente prima di avanzare automaticamente alla successiva.

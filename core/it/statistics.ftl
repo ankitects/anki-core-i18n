@@ -98,7 +98,7 @@ statistics-average-stability = Stabilità media
 statistics-card-retrievability-title = Rammentabilità delle Carte
 statistics-card-ease-subtitle = Più bassa è la facilità, più frequentemente la carta apparirà.
 statistics-card-difficulty-subtitle2 = Più alta è la difficoltà, tanto più lentamente crescerà la stabilità.
-statistics-retrievability-subtitle = Quanto è probabile che tu ricordi ciascuna carta oggi.
+statistics-retrievability-subtitle = Quanto è probabile che tu ricordi una carta (oggi).
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -151,7 +151,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Arretrato
 statistics-intervals-title = Intervalli
-statistics-intervals-subtitle = Lassi di tempo prima che le ripetizioni vengano ripresentate.
+statistics-intervals-subtitle = Differimento della ripresentazione delle ripetizioni.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } carta con un intervallo di { $daysStart }-{ $daysEnd } giorni
