@@ -151,7 +151,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Arretrato
 statistics-intervals-title = Intervalli
-statistics-intervals-subtitle = Differimento della ripresentazione delle ripetizioni.
+statistics-intervals-subtitle = Lassi di tempo prima che le ripetizioni vengano ripresentate.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } carta con un intervallo di { $daysStart }-{ $daysEnd } giorni
