@@ -351,12 +351,9 @@ deck-config-fsrs-tooltip =
     Se hai precedentemente utilizzato la versione non nativa di FSRS (basata l'aggiunta di codice customizzato nella sezione Pianificazione Personalizzata), 
     assicurati di svuotare la sezione Pianificazione Personalizzata prima di abilitare questa opzione.
 deck-config-desired-retention-tooltip =
-    Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle 
-    quando verranno nuovamente ripetute. 
-    Se aumenti questo valore, Anki mostrerà le carte più frequentemente per aumentare le probabilità di ricordarle. 
-    Se diminuisci il valore, Anki mostrerà le carte meno frequentemente, e ne dimenticherai di più. 
-    Sii cauto nell'effettuare questa regolazione: valori più alti aumenteranno notevolmente il tuo carico di lavoro, 
-    mentre valori più bassi possono essere demotivanti quando dimentichi molte informazioni.
+    Il valore predefinito di 0,9 pianificherà le carte in modo che tu abbia una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Se aumenti questo valore, Anki mostrerà le carte più frequentemente per incrementare le possibilità che le ricordi. Se diminuisci il valore, Anki mostrerà le carte meno frequentemente e rischierai di dimenticarle.
+    
+    Sii prudente nell'apportare modifiche a questo parametro: valori più alti aumenteranno notevolmente il tuo carico di lavoro, mentre valori più bassi possono demoralizzarti quando comportano il dimenticare molte informazioni.
 deck-config-sm2-retention-tooltip =
     Se la tua ritenzione effettiva prima del passaggio a FSRS era significativamente diversa da 0,9, 
     regolare questo valore permetterà ad Anki di stimare meglio il tuo stato di memoria quando si trova di fronte a carte 
