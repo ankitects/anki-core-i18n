@@ -42,7 +42,7 @@ deck-config-new-cards-ignore-review-limit-tooltip = Di default, il limite di rip
 deck-config-apply-all-parent-limits = I limiti iniziano dalla cima
 deck-config-apply-all-parent-limits-tooltip =
     Di default, i limiti partono dal mazzo che selezioni. 
-    Se attivi questa opzione, invece, i limiti partiranno dal mazzo genitore di massimo livello. 
+    Se attivi questa opzione, invece, i limiti verranno calcolati a partire dal mazzo genitore di massimo livello. 
     Questo può risultare utile quando desideri studiare singoli mazzi figli, mantenendo comunque un limite complessivo sul numero di carte da studiare ogni giorno.
 deck-config-affects-entire-collection = Influenza l'intera collezione.
 
@@ -142,8 +142,8 @@ deck-config-new-gather-priority-tooltip-2 =
     `Casuale (carte)`: raccoglie le carte in maniera completamente casuale.
 deck-config-new-gather-priority-deck = Mazzo
 deck-config-new-gather-priority-deck-then-random-notes = Mazzo, quindi note casuali
-deck-config-new-gather-priority-position-lowest-first = Ordine per posizione crescente
-deck-config-new-gather-priority-position-highest-first = Ordine per posizione decrescente
+deck-config-new-gather-priority-position-lowest-first = Posizione crescente
+deck-config-new-gather-priority-position-highest-first = Posizione decrescente
 deck-config-new-gather-priority-random-notes = Casuale (note)
 deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordine delle nuove carte
@@ -183,7 +183,7 @@ deck-config-review-sort-order-tooltip =
     troverai più utili i metodi di ordinamento alternativi.
 deck-config-sort-order-due-date-then-random = Data di scadenza, poi a caso
 deck-config-sort-order-due-date-then-deck = Data di scadenza, poi ordine del mazzo
-deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi per data di scadenza
+deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi data di scadenza
 deck-config-sort-order-ascending-intervals = Intervalli crescenti
 deck-config-sort-order-descending-intervals = Intervalli decrescenti
 deck-config-sort-order-ascending-ease = Facilità crescente
