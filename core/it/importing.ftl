@@ -7,6 +7,7 @@ importing-anki-files-are-from-a-very = I file .anki sono di una versione molto v
 importing-anki2-files-are-not-directly-importable = I file .anki2 non sono importabili direttamente - importa invece i file .apkg o .zip che hai ricevuto.
 importing-appeared-twice-in-file = Apparsa due volte nel file: { $val }
 importing-by-default-anki-will-detect-the = Di default, Anki rileva i caratteri tra i campi, come tabulazioni, virgole, ecc. Se Anki non rileva correttamente i caratteri, puoi inserirli qui. Usa \t per rappresentare le tabulazioni.
+importing-cannot-merge-notetypes-of-different-kinds = I tipi di nota "Cloze" non possono essere uniti con i tipi di nota regolari. Puoi comunque importare il file disabilitando '{ importing-merge-notetypes }'.
 importing-change = Modifica
 importing-colon = Due punti
 importing-comma = Virgola

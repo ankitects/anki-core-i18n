@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = Aggiungi (scorciatoia: ctrl+invio)
 adding-added = Aggiunto
-adding-close-and-lose-current-input = Chiudere perdendo i dati attuali?
+adding-discard-current-input = Scartare l'input corrente?
+adding-keep-editing = Modifica
 adding-edit = Modifica "{ $val }"
 adding-history = Cronologia
 adding-note-deleted = (Nota eliminata)
