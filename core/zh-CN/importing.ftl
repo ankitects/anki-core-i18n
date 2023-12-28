@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = .anki 文件来自 Anki 较为早期的�
 importing-anki2-files-are-not-directly-importable = .anki2文件无法直接导入 - 请导入您接收到的.apkg或.zip文件。
 importing-appeared-twice-in-file = 文件中出现两次：{ $val }
 importing-by-default-anki-will-detect-the = 默认情况下，Anki 将自动检测字段间的分隔字符（如制表符，逗号等）。如未能正确检测分隔字符，请在这里输入。用「\t」代表制表符。
+importing-cannot-merge-notetypes-of-different-kinds =
+    填空题模板不能与常规模板合并。
+    您仍然可以在禁用「{ importing-merge-notetypes }」的情况下导入文件。
 importing-change = 修改
 importing-colon = 冒号
 importing-comma = 逗号
