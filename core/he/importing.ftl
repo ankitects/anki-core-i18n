@@ -9,6 +9,9 @@ importing-anki-files-are-from-a-very = קבצי .anki מגרסה מאוד ישנ
 importing-anki2-files-are-not-directly-importable = לא ניתן לייבא ישירות קבצי .anki2 - במקום זאת, אנא ייבא את קובץ .apkg או .zip שקיבלת.
 importing-appeared-twice-in-file = מופיע פעמיים בקובץ: { $val }
 importing-by-default-anki-will-detect-the = כברירת מחדל, Anki יאבחן את התו שבין השדות, לדוגמא tab, פסיק, וכו'. באם התו אובחן לא נכון, ניתן להזין אותו כאן. הקלד \t כדי לייצג tab.
+importing-cannot-merge-notetypes-of-different-kinds =
+    לא ניתן למזג סוגי רשומות רגילים עם סוגי רשומות מסוג השלם את החסר.
+    אתה עדיין יכול לייבא את הקובץ עם '{ importing-merge-notetypes }' מושבת.
 importing-change = שינוי
 importing-colon = נקודותיים
 importing-comma = פסיק
