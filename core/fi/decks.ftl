@@ -36,3 +36,4 @@ decks-unmovable-cards = Näytä kaikki poissuljetut kortit
 decks-learn-header = Opittavat
 # The count of cards waiting to be reviewed
 decks-review-header = Erääntyneet
+decks-zero-minutes-hint = (0 = palauta kortti alkuperäiseen pakkaan)

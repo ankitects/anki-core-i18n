@@ -71,3 +71,5 @@ actions-set-flag = Aseta lippu
 actions-nothing-to-undo = Ei peruttavaa toimintoa
 actions-nothing-to-redo = Ei uudelleen tehtävää toimintoa
 actions-auto-advance = Autom. eteneminen
+actions-auto-advance-activated = Automaattinen eteneminen käytössä
+actions-auto-advance-deactivated = Automaattinen eteneminen pois käytöstä

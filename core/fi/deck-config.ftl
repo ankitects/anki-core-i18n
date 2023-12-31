@@ -1,8 +1,5 @@
 ### Text shown on the "Deck Options" screen
 
-# Text added to an option name when it affects all decks at once, e.g.
-# "FSRS 🌐"
-deck-config-all-decks = { $option } 🌐
 
 ## Top section
 
@@ -190,10 +187,13 @@ deck-config-stop-timer-on-answer = Pysäytä ajastin vastaamisen jälkeen
 deck-config-stop-timer-on-answer-tooltip =
     Pysäytetäänkö ajastin kun vastaus paljastetaan.
     Tämä ei vaikuta tilastoihin.
+
+## Auto Advance section
+
 deck-config-seconds-to-show-question = Kysymyksen näyttöaika (s)
-deck-config-seconds-to-show-question-tooltip = Odotettavien sekuntien määrä, ennen kuin siirrytään automaattisesti seuraavaan kysymykseen. Aseta arvoksi 0, jos haluat poistaa ominaisuuden käytöstä.
+deck-config-seconds-to-show-question-tooltip-2 = Kun automaattinen eteneminen on käytössä, odota näin monta sekuntia ennen kuin vastaus näytetään. Poista käytöstä asettamalla arvoksi 0.
 deck-config-seconds-to-show-answer = Vastauksen näyttöaika (s)
-deck-config-seconds-to-show-answer-tooltip = Odotettavien sekuntien määrä ennen automaattista vastauksen paljastamista. Aseta arvoksi 0, jos haluat poistaa ominaisuuden käytöstä.
+deck-config-seconds-to-show-answer-tooltip-2 = Kun automaattinen eteneminen on käytössä, odota näin monta sekuntia ennen kuin vastaus annetaan. Poista käytöstä asettamalla arvoksi 0.
 deck-config-answer-action = Vastaustoiminto
 deck-config-answer-action-tooltip = Toiminto, joka suoritetaan nykyiselle kortille ennen kuin siirrytään automaattisesti seuraavaan korttiin.
 deck-config-wait-for-audio-tooltip = Odota äänen loppumista ennen kuin vastaus tai seuraava kysymys näytetään automaattisesti.
@@ -288,6 +288,7 @@ deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
 deck-config-compute-optimal-retention = Laske optimaalinen retentio
 deck-config-optimize-button = Optimoi
 deck-config-compute-button = Laske
+deck-config-optimize-all-tip = Voit optimoida kaikki esiasetukset kerralla käyttämällä ylhäällä olevaa painiketta.
 deck-config-evaluate-button = Arvioi
 deck-config-desired-retention = Toivottu retentio
 deck-config-sm2-retention = SM2-retentio

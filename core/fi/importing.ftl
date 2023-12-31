@@ -7,6 +7,7 @@ importing-anki-files-are-from-a-very = .anki-tiedostot ovat todella vanhasta Ank
 importing-anki2-files-are-not-directly-importable = .anki2-tiedostoja ei voida tuoda suoraan – tuo sen sijaan saamasi .apkg- tai .zip-tiedosto.
 importing-appeared-twice-in-file = Esiintyi kahdesti tiedostossa: { $val }
 importing-by-default-anki-will-detect-the = Anki yrittää tunnistaa erotinmerkin automaattisesti. Jos menee pieleen, voit itse syöttää erottimen tähän (pilkku, puolipiste, jne.). Tab on \t
+importing-cannot-merge-notetypes-of-different-kinds = Aukkotehtävätyyppejä ei voi yhdistää tavallisiin muistiinpanotyyppeihin. Voit silti tuoda tämän tiedoston, kun '{ importing-merge-notetypes }' on kytketty pois päältä.
 importing-change = Muuta
 importing-colon = Kaksoispiste
 importing-comma = Pilkku

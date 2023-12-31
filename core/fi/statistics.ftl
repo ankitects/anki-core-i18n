@@ -98,7 +98,7 @@ statistics-card-stability-subtitle = Ennustettu viive, jonka kuluttua muistat as
 statistics-average-stability = Keskimääräinen vakaus
 statistics-card-retrievability-title = Kortin palautettavuus
 statistics-card-ease-subtitle = Mitä pienempi helppous, sitä useammin kortti ilmestyy kerrattavaksi.
-statistics-card-difficulty-subtitle = Mitä vaikeampi kortti, sitä useammin kortti ilmestyy kerrattavaksi.
+statistics-card-difficulty-subtitle2 = Mitä vaikeampi kortti, sitä hitaammin vakaus kasvaa.
 statistics-retrievability-subtitle = Ilmaisee kuinka hyvin pystyt palauttamaan muiston mieleesi.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
