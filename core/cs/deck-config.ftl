@@ -209,6 +209,13 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Na obrazovce opakování zobrazit časovač, který počítá sekundy 
     strávené opakováním každé karty.
+deck-config-stop-timer-on-answer = Zastavit časovač po odpovědi
+deck-config-stop-timer-on-answer-tooltip =
+    Jestli se má časovač zastavit, když se zobrazí odpověď.
+    Neovlivní to statistiky.
+
+## Auto Advance section
+
 
 ## Audio section
 
@@ -221,10 +228,6 @@ deck-config-skip-question-when-replaying = Přeskočit otázku, když se přehr�
 deck-config-always-include-question-audio-tooltip =
     Zda má být zvuk v otázce přehrán, když se zvuk přehrává znovu během 
     prohlížení strany karty s odpovědí.
-deck-config-stop-timer-on-answer = Zastavit časovač po odpovědi
-deck-config-stop-timer-on-answer-tooltip =
-    Jestli se má časovač zastavit, když se zobrazí odpověď.
-    Neovlivní to statistiky.
 
 ## Advanced section
 
@@ -267,6 +270,7 @@ deck-config-confirm-remove-name = Odstranit { $name }?
 
 deck-config-save-button = Uložit
 deck-config-save-to-all-subdecks = Uložit pro všechny podřízené balíčky
+deck-config-save-and-optimize = Optimalizovat všechny předvolby
 deck-config-revert-button-tooltip = Obnovit toto nastavení na výchozí hodnotu.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -306,6 +310,7 @@ deck-config-which-deck = Který balíček požadujete?
 deck-config-updating-cards = Aktualizují se karty: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Váhy musí být buď ponechány prázdné, kdy se použijí výchozí hodnoty, nebo musí být 17 čísel oddělených čárkou.
 deck-config-not-enough-history = K provedení této operace není dostatečná historie opakování.
+deck-config-unable-to-determine-desired-retention = Nelze určit optimální retenci.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Bylo nalezeno pouze { $count } opakování.
