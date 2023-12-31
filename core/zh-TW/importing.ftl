@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = .anki 檔是非常舊的 Anki 版本所�
 importing-anki2-files-are-not-directly-importable = .anki2 檔無法直接匯入 - 請匯入你收到的 .apkg 檔或 .zip 檔。
 importing-appeared-twice-in-file = 檔案中出現兩次：{ $val }
 importing-by-default-anki-will-detect-the = Anki 預設會自動偵測欄位間的分隔符號，如定位字元 (tab) 和逗號。若偵測錯誤，請在此處手動輸入分隔符號。用「\t」來表示 tab。
+importing-cannot-merge-notetypes-of-different-kinds =
+    無法合併克漏字和普通筆記類型。
+    你可以停用「{ importing-merge-notetypes }」選項來匯入檔案。
 importing-change = 更改
 importing-colon = 冒號
 importing-comma = 逗號
