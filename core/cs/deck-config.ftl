@@ -42,6 +42,11 @@ deck-config-tab-description =
     - `Pouze dnes`: Provede dočasnou změnu limitu tohoto balíčku.
 deck-config-new-cards-ignore-review-limit = Nové karty ignorují limit opakování
 deck-config-new-cards-ignore-review-limit-tooltip = Ve výchozím nastavení limit opakování také platí pro nové karty. Žádné nové karty nebudou zobrazeny, když byl dosažen limit opakování. Jestliže je tato volba povolena, nové karty se budou zobrazovat bez ohledu na limit opakování.
+deck-config-apply-all-parent-limits = Limity začínají odshora
+deck-config-apply-all-parent-limits-tooltip =
+    Ve výchozím nastavení limity začínají od balíčku, který jste vybrali. Jestliže je tato volba povolena, 
+    limity budou místo toho začínat od rodičovského balíčku, což může být užitečné, pokud si přejete 
+    studovat jednotlivé podřízené balíčky, ale vynutit celkový limit na karty/den.
 deck-config-affects-entire-collection = Ovlivní celou kolekci.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -216,6 +221,13 @@ deck-config-stop-timer-on-answer-tooltip =
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Počet sekund, po které je zobrazena otázka
+deck-config-seconds-to-show-question-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
+deck-config-seconds-to-show-answer = Počet sekund, po které je zobrazena odpověď
+deck-config-seconds-to-show-answer-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se aplikuje akce po odpovědi. Nastavením na 0 je zakázán.
+deck-config-answer-action = Akce po odpovědi
+deck-config-answer-action-tooltip = Akce, která se provede na současnou kartu předtím, než se automaticky posunete na další.
+deck-config-wait-for-audio-tooltip = Čeká se, než dohraje zvuková stopa, až poté se automaticky zobrazí odpověď nebo další otázka
 
 ## Audio section
 
@@ -323,6 +335,7 @@ deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
 deck-config-compute-optimal-retention = Vypočítat optimální retenci
 deck-config-optimize-button = Optimalizovat
 deck-config-compute-button = Vypočítat
+deck-config-optimize-all-tip = Můžete optimalizovat všechny předvolby najednou použitím tlačítka výše.
 deck-config-evaluate-button = Vyhodnotit
 deck-config-desired-retention = Požadovaná retence
 deck-config-sm2-retention = SM2 retence
@@ -376,6 +389,11 @@ deck-config-a-100-day-interval =
         [few] 100denní interval se změní na { $days } dny.
        *[other] 100denní interval se změní na { $days } dní.
     }
+deck-config-wait-for-audio = Čekat na zvukovou stopu
+deck-config-show-reminder = Zobrazit upomínku
+deck-config-answer-again = Odpovědět znovu
+deck-config-answer-hard = Odpovědět těžké
+deck-config-answer-good = Odpovědět dobré
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -55,7 +55,6 @@ actions-previous-card-info = Informace o předchozí kartě
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Tato akce v současnosti není na Vašem systému podporována.
 
 ## Flags
 
@@ -68,3 +67,6 @@ actions-flag-pink = Růžový
 actions-flag-turquoise = Tyrkysový
 actions-flag-purple = Purpurový
 actions-set-flag = Nastavit příznak
+actions-auto-advance = Automatický posun
+actions-auto-advance-activated = Automatický posun povolen
+actions-auto-advance-deactivated = Automatický posun zakázán
