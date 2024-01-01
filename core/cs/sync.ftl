@@ -26,6 +26,7 @@ sync-wrong-pass = Přihlašovací jméno nebo heslo byly nesprávné, zkuste to 
 sync-resync-required = Prosím synchronizujte znova. Pokud se tato zpráva stále objevuje, prosím napište na stránku podpory.
 sync-must-wait-for-end = Anki se nyní synchronizuje. Prosím počkejte, dokud se synchronizace nedokončí, poté to zkuste znovu.
 sync-confirm-empty-download = Místní kolekce nemá žádné karty. Stáhnout z AnkiWebu?
+sync-confirm-empty-upload = AnkiWeb kolekce nemá žádné karty. Nahradit ji místní kolekcí?
 sync-conflict-explanation =
     Vaše balíčky zde a na AnkiWeb jsou rozdílné natolik, že nemohou být sloučeny, takže je nutné balíčky jedné strany přepsat balíčky druhé strany.
     

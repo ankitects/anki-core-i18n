@@ -70,6 +70,30 @@ editing-from-clipboard = Ze schránky
 editing-alignment = Zarovnání
 editing-equations = Rovnice
 editing-no-image-found-on-clipboard = Ve schránce nenalezen žádný obrázek.
+editing-image-occlusion-mode = Režim okluze obrázku
+editing-image-occlusion-zoom-out = Oddálit
+editing-image-occlusion-zoom-in = Přiblížit
+editing-image-occlusion-zoom-reset = Resetovat přiblížení
+editing-image-occlusion-toggle-translucent = Přepnout průhlednost
+editing-image-occlusion-delete = Odstranit
+editing-image-occlusion-duplicate = Duplikovat
+editing-image-occlusion-group = Seskupit výběr
+editing-image-occlusion-ungroup = Zrušit seskupení výběru
+editing-image-occlusion-alignment = Zarovnání
+editing-image-occlusion-align-left = Zarovnat vlevo
+editing-image-occlusion-align-h-center = Zarovnat vodorovně na střed
+editing-image-occlusion-align-right = Zarovnat vpravo
+editing-image-occlusion-align-top = Zarovnat nahoru
+editing-image-occlusion-align-v-center = Zarovnat svisle na střed
+editing-image-occlusion-align-bottom = Zarovnat dolů
+editing-image-occlusion-select-tool = Vybrat
+editing-image-occlusion-rectangle-tool = Pravoúhelník
+editing-image-occlusion-ellipse-tool = Elipsa
+editing-image-occlusion-polygon-tool = Polygon
+editing-image-occlusion-text-tool = Text
+editing-image-occlusion-toggle-mask-editor = Přepnout editor masky
+editing-image-occlusion-reset = Resetovat okluzi obrázku
+editing-image-occlusion-confirm-reset = Jste ji jistí, že chcete resetovat okluzi tohoto obrázku?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

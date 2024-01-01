@@ -113,7 +113,7 @@ statistics-card-stability-subtitle = Předpovězená prodleva, kdy máte 90% ša
 statistics-average-stability = Průměrná stabilita
 statistics-card-retrievability-title = Zapamatování karet
 statistics-card-ease-subtitle = Čím nižší je snadnost, tím častěji se bude karta objevovat.
-statistics-card-difficulty-subtitle = Čím vyšší obtížnost, tím častěji se bude karta objevovat.
+statistics-card-difficulty-subtitle2 = Čím vyšší obtížnost, tím pomaleji se bude zvyšovat stabilita.
 statistics-retrievability-subtitle = S jakou pravděpodobností si budete pamatovat.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -186,6 +186,18 @@ statistics-intervals-day-single =
         [one] 1 karta s intervalem { $day } dní
         [few] { $cards } karty s intervalem { $day } dní
        *[other] { $cards } karet s intervalem { $day } dní
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } karta se stabilitou { $daysStart }–{ $daysEnd } dní
+        [few] { $cards } karty se stabilitou { $daysStart }–{ $daysEnd } dní
+       *[other] { $cards } karet se stabilitou { $daysStart }–{ $daysEnd } dní
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } karta s { $day }denní stabilitou
+        [few] { $cards } karty s { $day }denní stabilitou
+       *[other] { $cards } karet s { $day }denní stabilitou
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }:00~{ $hourEnd }:00

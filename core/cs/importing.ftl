@@ -50,6 +50,8 @@ importing-notes-skipped-as-theyre-already-in = Přeskočené poznámky, které j
 importing-notes-skipped-update-due-to-notetype = Neaktualizované poznámky, typ poznámky se od prvního importu změnil: { $val }
 importing-notes-updated-as-file-had-newer = Poznámky aktualizovány, protože soubor měl novější verzi: { $val }
 importing-include-reviews = Zahrnout opakování
+importing-also-import-progress = Importovat veškerý pokrok v učení
+importing-with-deck-configs = Importovat všechny předvolby balíčku
 importing-include-reviews-help =
     Je-li povoleno, všechna dřívější opakování, která jsou v balíčku zahrnuta, budou také importována. 
     V opačném případě budou všechny karty importovány jako nové karty.

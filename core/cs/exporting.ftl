@@ -13,6 +13,7 @@ exporting-include = <b>Zahrnout</b>:
 exporting-include-html-and-media-references = Zahrnout HTML a odkazy na multimédia
 exporting-include-media = Zahrnout multimédia
 exporting-include-scheduling-information = Zachovat informace o plánování
+exporting-include-deck-configs = Zahrnout předvolby balíčku
 exporting-include-tags = Zahrnout štítky
 exporting-support-older-anki-versions = Podporovat starší verze Anki (pomalejší/větší soubory)
 exporting-notes-in-plain-text = Poznámky jako prostý text

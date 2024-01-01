@@ -389,6 +389,12 @@ deck-config-a-100-day-interval =
         [few] 100denní interval se změní na { $days } dny.
        *[other] 100denní interval se změní na { $days } dní.
     }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% z { $reviews } opakování
+        [few] { $pct }% ze { $reviews } opakování
+       *[other] { $pct }% z { $reviews } opakování
+    }
 deck-config-wait-for-audio = Čekat na zvukovou stopu
 deck-config-show-reminder = Zobrazit upomínku
 deck-config-answer-again = Odpovědět znovu
