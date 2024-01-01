@@ -40,6 +40,8 @@ notetypes-type = Typ
 
 notetypes-image = Obrázek
 notetypes-occlusion = Okluze
+notetypes-occlusion-mask = Maska
+notetypes-occlusion-note = Poznámka
 notetypes-comments-field = Komentář
 notetypes-toggle-masks = Přepnout masky
 notetypes-image-occlusion-name = Okluze obrázku
