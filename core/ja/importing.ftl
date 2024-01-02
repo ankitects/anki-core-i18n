@@ -10,6 +10,9 @@ importing-by-default-anki-will-detect-the =
     既定では、Ankiはフィールドを区切るタブやカンマなどの文字を識別します。
     もしフィールドを区切る文字をAnkiがうまく識別できない場合は、ここにその区切り文字を入力してください。
     タブ区切りを使用する場合は \t と入力してください。
+importing-cannot-merge-notetypes-of-different-kinds =
+    穴埋め問題のノートタイプは他のノートタイプに統合できません。
+    '{ importing-merge-notetypes }'を無効にすることでファイルをインポートすることはできます。
 importing-change = 変更
 importing-colon = コロン ( : )
 importing-comma = コンマ ( , )
@@ -56,7 +59,7 @@ importing-include-reviews-help = オンにすると、このデッキに（デ�
 importing-with-deck-configs-help =
     オンにすると、デッキ作成者がデッキに設定した各オプションもすべてインポートします。
     オフにすると、インポートするすべてのデッキにデフォルトのプリセットを適用します。
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション（*.apkg *.colpkg *.zip）
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
 # the '|' character
 importing-pipe = パイプ ( | )
