@@ -33,21 +33,21 @@ scheduling-time-span-hours =
     { $amount ->
         [one] { $amount } hodina
         [few] { $amount } hodiny
-        [many] { $amount } hodin
+        [many] { $amount } hodiny
        *[other] { $amount } hodin
     }
 scheduling-time-span-days =
     { $amount ->
         [one] { $amount } den
         [few] { $amount } dny
-        [many] { $amount } dní
+        [many] { $amount } dne
        *[other] { $amount } dní
     }
 scheduling-time-span-months =
     { $amount ->
         [one] { $amount } měsíc
         [few] { $amount } měsíce
-        [many] { $amount } měsíců
+        [many] { $amount } měsíce
        *[other] { $amount } měsíců
     }
 scheduling-time-span-years =
