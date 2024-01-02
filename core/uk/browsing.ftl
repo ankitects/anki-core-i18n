@@ -175,6 +175,7 @@ browsing-reparented-decks =
         [few] Перейменовано { $count } колоди.
        *[other] Перейменовано { $count } колод.
     }
+browsing-sidebar-card-state-review = Повторювані
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -182,4 +183,3 @@ browsing-reparented-decks =
 browsing-card-initial = К
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = Н
-browsing-sidebar-card-state-review = Повторювані

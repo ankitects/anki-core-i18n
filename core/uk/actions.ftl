@@ -70,3 +70,6 @@ actions-flag-purple = Фіолетовий
 actions-set-flag = Встановити прапорець
 actions-nothing-to-undo = Нічого відновити
 actions-nothing-to-redo = Нічого повторити
+actions-auto-advance = Автоперехід
+actions-auto-advance-activated = Автоперехід ввімкнено
+actions-auto-advance-deactivated = Автоперехід вимкнено

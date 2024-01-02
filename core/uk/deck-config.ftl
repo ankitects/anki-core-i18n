@@ -17,16 +17,30 @@ deck-config-title = Налаштування колоди
 ## Daily limits section
 
 deck-config-daily-limits = Щоденні обмеження
+deck-config-new-limit-tooltip =
+    Максимальна кількість нових карток, що вводяться в день, якщо доступні нові картки.
+    Через те що новий матеріал збільшить короткострокове навантаження, цей параметр зазвичай
+    повинен бути принаймні вдесятеро меншим за кількість карток до повторення.
+deck-config-review-limit-tooltip =
+    Максимальна кількість карток до повторення в день,
+    якщо є картки до повторення.
+deck-config-new-cards-ignore-review-limit = Ліміт для карток до повторення не впливає на нові картки
+deck-config-new-cards-ignore-review-limit-tooltip = За стандартними налаштуваннями ліміт для карток до повторення також впливає на нові картки: нові картки не будуть показуватися, коли ліміту досягнуто. Якщо цей параметр ввімкнено, нові картки будуть показуватися незалежно від ліміту.
+deck-config-affects-entire-collection = Впливає на всю колекцію.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Конфігурація
 deck-config-deck-only = Ця колода
 deck-config-today-only = Лише сьогодні
 
 ## New Cards section
 
 deck-config-learning-steps = Кроки вивчення
+deck-config-new-insertion-order = Порядок вставки
+deck-config-new-insertion-order-sequential = Послідовний (спочатку найстаріші)
+deck-config-new-insertion-order-random = Випадковий
 
 ## Lapses section
 
@@ -52,6 +66,9 @@ deck-config-review-mix-show-before-reviews = До повторюваних
 ## Timer section
 
 
+## Auto Advance section
+
+
 ## Audio section
 
 deck-config-audio-title = Авдіо
@@ -63,18 +80,31 @@ deck-config-disable-autoplay-tooltip =
 ## Advanced section
 
 deck-config-minimum-interval-tooltip = Мінімальний початковий інтервал після відповіді «Знову».
+deck-config-custom-scheduling = Індивідуальне планування
+deck-config-custom-scheduling-tooltip = Впливає на всю колекцію. Використовуйте на свій страх і ризик!
 
 ## Adding/renaming
 
+deck-config-add-group = Додати конфігурацію
+deck-config-name-prompt = Назва
+deck-config-rename-group = Перейменувати конфігурацію
+deck-config-clone-group = Дублювати конфігурацію
 
 ## Removing
 
+deck-config-remove-group = Видалити конфігурацію
+deck-config-will-require-full-sync =
+    Ця зміна вимагатиме односторонньої синхронізації. Якщо ви зробили якісь зміни
+    на іншому пристрої і ще не синхронізували їх, будь ласка, зробіть це
+    перед тим як продовжувати.
 deck-config-confirm-remove-name = Прибрати { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Зберегти
 deck-config-save-to-all-subdecks = Зберегти до усіх підколод
+deck-config-save-and-optimize = оптимізувати усі конфігурації
+deck-config-revert-button-tooltip = Повернути цей параметр до стандартного значення.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.

@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = Додати нову колоду (Ctrl+N)
 decks-build = Побудувати
 decks-cards-selected-by = картки, обрані за
 decks-create-deck = Створити колоду
+decks_create_even_if_empty = Створити/оновити цю колоду навіть якщо пуста
 decks-custom-steps-in-minutes = Користувацькі кроки (в хвилинах)
 decks-deck = Колода
 decks-decreasing-intervals = Нисхідні інтервали
@@ -30,6 +31,7 @@ decks-study = Вчити
 decks-study-deck = Вчити колоду
 decks-filtered-deck-search-empty = Нема карток, які відповідають умовам пошуку. Деякі картки могли бути виключеними з пошуку оскільки вони є у іншій відфільтрованій колоді або ж призупинені.
 decks-unmovable-cards = Показувати будь-яку виключену картку
+decks-learn-header = Вчити
 # The count of cards waiting to be reviewed
 decks-review-header = Пригадати
-decks-learn-header = Вчити
+decks-zero-minutes-hint = (0 = повернути картку до початкової колоди)

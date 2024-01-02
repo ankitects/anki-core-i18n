@@ -59,3 +59,4 @@ studying-minute =
         [few] { $count } хвилин.
        *[other] { $count } хвилин.
     }
+studying-answer-time-elapsed = Час для відповіді закінчився
