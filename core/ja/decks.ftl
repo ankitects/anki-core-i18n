@@ -34,3 +34,4 @@ decks-unmovable-cards = 除外されたカードをすべて表示
 decks-learn-header = 習得中
 # The count of cards waiting to be reviewed
 decks-review-header = 復習
+decks-zero-minutes-hint = (0 = カードを元のデッキに戻す)
