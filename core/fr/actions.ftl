@@ -55,7 +55,7 @@ actions-previous-card-info = Informations de la carte précédente
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action } ...
-actions-currently-unsupported = Cette action est actuellement non supportée sur votre système.
+actions-fullscreen-unsupported = Le mode plein écran n'est pas pris en charge par votre pilote vidéo. Essayez d'en changer à partir de l'écran des préférences.
 
 ## Flags
 
@@ -71,3 +71,5 @@ actions-set-flag = Définir le marqueur
 actions-nothing-to-undo = Rien à annuler
 actions-nothing-to-redo = Rien à annuler
 actions-auto-advance = Avance automatique
+actions-auto-advance-activated = Avance automatique activée
+actions-auto-advance-deactivated = Avance automatique désactivée
