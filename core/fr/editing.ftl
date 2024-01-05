@@ -71,6 +71,8 @@ editing-alignment = Alignement
 editing-equations = Équations
 editing-no-image-found-on-clipboard = Aucune image trouvée dans le Presse-Papier
 editing-image-occlusion-mode = Mode schéma à remplir
+editing-image-occlusion-delete = Supprimer
+editing-image-occlusion-duplicate = Dupliquer
 editing-image-occlusion-confirm-reset = Êtes-vous sûr de vouloir réinitialiser cet schéma à remplir?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.

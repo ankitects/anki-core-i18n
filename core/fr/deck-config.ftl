@@ -149,6 +149,8 @@ deck-config-sort-order-ascending-intervals = Intervalles croissants
 deck-config-sort-order-descending-intervals = Intervalles décroissants
 deck-config-sort-order-ascending-ease = Facilité croissante
 deck-config-sort-order-descending-ease = Facilité décroissante
+deck-config-sort-order-ascending-difficulty = Difficulté croissante
+deck-config-sort-order-descending-difficulty = Difficulté décroissante
 deck-config-sort-order-relative-overdueness = Échéance dépassée relative
 deck-config-display-order-will-use-current-deck =
     Anki va utiliser l'ordre d'affichage du paquet que vous
@@ -165,6 +167,9 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Dans l'écran de révision, affichez une minuterie qui compte le nombre de secondes que vous
     passez pour revoir chaque carte.
+
+## Auto Advance section
+
 
 ## Audio section
 
@@ -244,11 +249,19 @@ deck-config-maximum-answer-secs-above-recommended = Anki peut programmer vos ré
 
 deck-config-which-deck = Quel paquet voulez vous ?
 
-## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+## Messages related to the FSRS scheduler
 
-deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
+deck-config-invalid-weights = Les paramètres doivent être soit laissés en blanc pour utiliser les valeurs par défaut, soit être 17 nombres séparés par des virgules.
+deck-config-not-enough-history = L'historique des révisions est insuffisant pour effectuer cette opération.
+deck-config-compute-button = Calculer
+deck-config-desired-retention = Rétention souhaitée
+deck-config-smaller-is-better = Les petits nombres indiquent de meilleures estimations de la mémoire.
 deck-config-wait-for-audio = Veuillez attendre l'audio
 deck-config-show-reminder = Afficher le rappel
 deck-config-answer-again = Réponse à revoir
 deck-config-answer-hard = Réponse difficile
 deck-config-answer-good = Réponse correcte
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
