@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = ملفات anki. تعود إلى إصدا
 importing-anki2-files-are-not-directly-importable = ملفات anki2. غير متوافقة - الرجاء استيراد ملف apkg. أو zip. الذي تلقيته بدلًا من ذلك.
 importing-appeared-twice-in-file = ظهر مرتين في الملف: { $val }
 importing-by-default-anki-will-detect-the = يكتشف أنكي الرموز بين الحقول مثل التاب (tab)، والفاصلة، وما إلى ذلك افتراضيًا. إذا كان كشف أنكي عن هذه الرموز خاطئًا؛ تستطيع إدخالها هنا. استخدم t\ لتمثيل التاب.
+importing-cannot-merge-notetypes-of-different-kinds =
+    لا يمكن دمج أنواع ملحوظات ملء الفراغات مع الأنواع العادية.
+    ما زال بإمكانك استيراد الملف مع إلغاء تفعيل خيار '{ importing-merge-notetypes }'.
 importing-change = تعديل
 importing-colon = نقطتان
 importing-comma = فاصلة
