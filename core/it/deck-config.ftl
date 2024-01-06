@@ -216,7 +216,7 @@ deck-config-stop-timer-on-answer-tooltip =
 deck-config-seconds-to-show-question = Secondi per i quali mostrare la domanda
 deck-config-seconds-to-show-question-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di rivelare la risposta. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi per i quali mostrare la risposta
-deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'azione di risposta. Imposta a 0 per disabilitare.
+deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'Azione di risposta. Imposta a 0 per disabilitare.
 deck-config-answer-action = Azione di risposta
 deck-config-answer-action-tooltip = L'azione da svolgere sulla carta corrente prima di avanzare automaticamente alla successiva.
 deck-config-wait-for-audio-tooltip = Aspetta la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
@@ -230,7 +230,7 @@ deck-config-disable-autoplay-tooltip =
     Può essere riprodotto manualmente facendo click/toccando un'icona audio, o utilizzando il comando di riproduzione audio.
 deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzione della risposta
 deck-config-always-include-question-audio-tooltip =
-    Se l'audio della domanda deve essere inclusa quando usi l'azione "Riproduci di nuovo"
+    Se l'audio della domanda deve essere incluso quando usi l'azione "Riproduci di nuovo"
     mentre guardi alla risposta della carta.
 
 ## Advanced section
