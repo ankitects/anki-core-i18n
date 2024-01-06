@@ -36,4 +36,9 @@ notetypes-type = ପ୍ରକାର
 
 ## Image Occlusion
 
+notetypes-occlusion = ଅନ୍ତର୍ଦ୍ଧାନ
 notetypes-toggle-masks = ଆଵେଷ୍ଟନ ଟୋଗଲ୍ କରିବା
+notetype-error-no-image-to-show = ଦେଖାଇବାକୁ କୌଣସି ପ୍ରତିଛବି ନାହିଁ।
+notetypes-no-occlusion-created = ଆପଣଙ୍କୁ ଅତି କମରେ ଗୋଟିଏ ଅନ୍ତର୍ଦ୍ଧାନ କରିବାକୁ ପଡ଼ିବ।
+notetypes-no-occlusion-created2 = ଯୋଡ଼ିବାରେ ଅସମର୍ଥ। ହୁଏତ ଆପଣ କୌଣସି ଅନ୍ତର୍ଦ୍ଧାନ ଯୋଡ଼ି ନାହାଁନ୍ତି, କିମ୍ବା ପ୍ରଥମ କ୍ଷେତ୍ର ଖାଲି ଅଛି।
+notetypes-io-paste-image-from-clipboard = କ୍ଲିପବୋର୍ଡରୁ ପ୍ରତିଛବି ଲେପନ କରନ୍ତୁ

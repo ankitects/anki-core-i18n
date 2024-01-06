@@ -35,6 +35,11 @@ editing-collapse = ସଙ୍କୋଚନ
 editing-expand-field = କ୍ଷେତ୍ର ପ୍ରସାରଣ
 editing-collapse-field = କ୍ଷେତ୍ର ସଙ୍କୋଚନ
 editing-mathjax-preview = MathJax ପୂର୍ଵାଵଲୋକନ
+editing-image-occlusion-mode = ପ୍ରତିଛବି ଅନ୍ତର୍ଦ୍ଧାନ ଧାରା
+editing-image-occlusion-rectangle-tool = ଆୟତ କ୍ଷେତ୍ର
+editing-image-occlusion-ellipse-tool = ଉପବୃତ୍ତ
+editing-image-occlusion-polygon-tool = ବହୁଭୂଜ
+editing-image-occlusion-text-tool = ପାଠ୍ୟ
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
