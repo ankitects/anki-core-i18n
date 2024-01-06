@@ -36,9 +36,20 @@ notetypes-type = ପ୍ରକାର
 
 ## Image Occlusion
 
+notetypes-image = ପ୍ରତିଛବି
 notetypes-occlusion = ଅନ୍ତର୍ଦ୍ଧାନ
-notetypes-toggle-masks = ଆଵେଷ୍ଟନ ଟୋଗଲ୍ କରିବା
+notetypes-occlusion-mask = ଆବେଷ୍ଟନ
+notetypes-occlusion-note = ନୋଟ୍
+notetypes-comments-field = ମନ୍ତବ୍ୟ
+notetypes-toggle-masks = ଆବେଷ୍ଟନ ଟୋଗଲ୍ କରିବା
+notetypes-image-occlusion-name = ପ୍ରତିଛବି ଅନ୍ତର୍ଦ୍ଧାନ
+notetypes-hide-all-guess-one = ସବୁ ଲୁଚାଇ, ଗୋଟେ ଅନୁମାନିବା
+notetypes-hide-one-guess-one = ଗୋଟେ ଲୁଚାଇ, ଗୋଟେ ଅନୁମାନିବା
+notetypes-error-generating-cloze = ଗୋଟିଏ ପ୍ରତିଛବି ଅନ୍ତର୍ଦ୍ଧାନ ନୋଟ୍ ସୃଷ୍ଟି କରିବା ସମୟରେ କିଛି ତ୍ରୁଟି ଘଟିଛି
+notetypes-error-getting-imagecloze = ଗୋଟିଏ ପ୍ରତିଛବି ଅନ୍ତର୍ଦ୍ଧାନ ନୋଟ୍ ଆନୟନ ବେଳେ କିଛି ତ୍ରୁଟି ଘଟିଛି
+notetypes-error-loading-image-occlusion = ପ୍ରତିଛବି ଅନ୍ତର୍ଦ୍ଧାନ ଧାରଣ କରିବାରେ ତ୍ରୁଟି। ଆପଣଙ୍କ Anki ସଂସ୍କରଣ ଅଦ୍ୟତନ ହୋଇଅଛି ତ?
 notetype-error-no-image-to-show = ଦେଖାଇବାକୁ କୌଣସି ପ୍ରତିଛବି ନାହିଁ।
 notetypes-no-occlusion-created = ଆପଣଙ୍କୁ ଅତି କମରେ ଗୋଟିଏ ଅନ୍ତର୍ଦ୍ଧାନ କରିବାକୁ ପଡ଼ିବ।
 notetypes-no-occlusion-created2 = ଯୋଡ଼ିବାରେ ଅସମର୍ଥ। ହୁଏତ ଆପଣ କୌଣସି ଅନ୍ତର୍ଦ୍ଧାନ ଯୋଡ଼ି ନାହାଁନ୍ତି, କିମ୍ବା ପ୍ରଥମ କ୍ଷେତ୍ର ଖାଲି ଅଛି।
+notetypes-io-select-image = ପ୍ରତିଛବି ଚୟନ କରନ୍ତୁ
 notetypes-io-paste-image-from-clipboard = କ୍ଲିପବୋର୍ଡରୁ ପ୍ରତିଛବି ଲେପନ କରନ୍ତୁ

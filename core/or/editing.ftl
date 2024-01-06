@@ -40,6 +40,7 @@ editing-image-occlusion-rectangle-tool = ଆୟତ କ୍ଷେତ୍ର
 editing-image-occlusion-ellipse-tool = ଉପବୃତ୍ତ
 editing-image-occlusion-polygon-tool = ବହୁଭୂଜ
 editing-image-occlusion-text-tool = ପାଠ୍ୟ
+editing-image-occlusion-toggle-mask-editor = ଆବେଷ୍ଟନ ସମ୍ପାଦକ ଟୋଗଲ୍ କରିବା
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
