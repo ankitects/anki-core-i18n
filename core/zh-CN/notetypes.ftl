@@ -4,7 +4,7 @@ notetypes-notetype = 笔记模板
 
 notetypes-front-field = 正面
 notetypes-back-field = 背面
-notetypes-add-reverse-field = 添加翻转的卡片
+notetypes-add-reverse-field = 增加翻转的卡片
 notetypes-text-field = 文字
 notetypes-back-extra-field = 背面额外
 
