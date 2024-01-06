@@ -126,7 +126,7 @@ browsing-sidebar-notetypes = ନୋଟ୍ ପ୍ରକାରଗୁଡ଼ିକ
 browsing-sidebar-saved-searches = ସଞ୍ଚିତ ସନ୍ଧାନଗୁଡ଼ିକ
 browsing-sidebar-save-current-search = ସାମ୍ପ୍ରତିକ ସନ୍ଧାନ ସଞ୍ଚୟ କରନ୍ତୁ
 browsing-sidebar-card-state = ପତ୍ର ଅବସ୍ଥା
-browsing-sidebar-flags = ପତାକାଗୁଡ଼ିକ
+browsing-sidebar-flags = ପତାକା
 browsing-today = ଆଜି
 browsing-tooltip-card-modified = ସମୀକ୍ଷା, ପତାକା ଓ ଡେକ୍ ପରିବର୍ତ୍ତନ ସହିତ ଶେଷ ଥର ପାଇଁ ଏକ ପତ୍ରରେ କେବେ ପରିବର୍ତ୍ତନ କରାଯାଇଥିଲା
 browsing-tooltip-note-modified = କ୍ଷେତ୍ର ବିଷୟବସ୍ତୁ କିମ୍ୱା ଟ୍ୟାଗ୍ ସମ୍ପାଦନ ସହିତ ଶେଷ ଥର ପାଇଁ ଏକ ନୋଟରେ କେବେ ପରିବର୍ତ୍ତନ କରାଯାଇଥିଲା
@@ -158,6 +158,7 @@ browsing-reparented-decks =
         [one] { $count }ଟିଏ ଡେକ୍ ର ନାମ ବଦଳାଇଦିଆଗଲା।
        *[other] { $count }ଟି ଡେକ୍ ର ନାମ ବଦଳାଇଦିଆଗଲା।
     }
+browsing-sidebar-card-state-review = ସମୀକ୍ଷା
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -165,4 +166,3 @@ browsing-reparented-decks =
 browsing-card-initial = ପ
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ନୋ
-browsing-sidebar-card-state-review = ସମୀକ୍ଷା

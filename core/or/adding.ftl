@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = ଯୋଡ଼ନ୍ତୁ (ସର୍ଟକଟ୍: ctrl+enter)
 adding-added = ଯୋଡ଼ାଗଲା
-adding-close-and-lose-current-input = ବନ୍ଦ କରନ୍ତୁ ଏବଂ ସାମ୍ପ୍ରତିକ ଇନପୁଟ୍ ହରାନ୍ତୁ?
+adding-keep-editing = ସମ୍ପାଦନା ଜାରି ରଖିବା
 adding-edit = "{ $val }" ସମ୍ପାଦନ କରନ୍ତୁ
 adding-history = ଇତିବୃତ୍ତି
 adding-note-deleted = (ନୋଟ୍ ବିଲୋପ ହୋଇଛି)

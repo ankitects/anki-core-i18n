@@ -24,7 +24,10 @@ custom-study-select = ଚୟନ କରନ୍ତୁ
 custom-study-select-tags-to-exclude = ବାଦ୍ ଦେବା ପାଇଁ ଟ୍ୟାଗ୍ ଚୟନ କରନ୍ତୁ:
 custom-study-selective-study = ମନୋନୀତ ଅଧ୍ୟୟନ
 custom-study-study-by-card-state-or-tag = ପତ୍ର ଅବସ୍ଥା କିମ୍ବା ଟ୍ୟାଗ୍ ଅନୁଯାୟୀ ଅଧ୍ୟୟନ କରନ୍ତୁ
-custom-study-available-new-cards-2 = ନୂତନ କାର୍ଡ ଉପଲବ୍ଧ:{ $countString }
+custom-study-available-new-cards-2 = ଉପଲବ୍ଧ ନୂଆ ପତ୍ର: { $countString }
+custom-study-available-review-cards-2 = ଉପଲବ୍ଧ ସମୀକ୍ଷା ପତ୍ର: { $countString }
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+custom-study-available-new-cards = ଉପଲବ୍ଧ ନୂଆ ପତ୍ର: { $count }
+custom-study-available-review-cards = ଉପଲବ୍ଧ ସମୀକ୍ଷା ପତ୍ର: { $count }
