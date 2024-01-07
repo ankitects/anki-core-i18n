@@ -357,7 +357,7 @@ deck-config-optimize-all-tip = تستطيع تحسين كل المجموعات �
 deck-config-evaluate-button = احسب
 deck-config-desired-retention = معدل التذكر المرغوب فيه
 deck-config-sm2-retention = معدل تذكر SM2
-deck-config-smaller-is-better = تشير الأرقام الأصغر إلى تقديرات أفضل للذاكرة.
+deck-config-smaller-is-better = تشير الأرقام الأصغر إلى ملاءمة أفضل لسجل المراجعة الخاص بك.
 deck-config-steps-too-large-for-fsrs = عند تمكين FSRS، لا يوصى بخطوات (إعادة) التعلم بين الأيام.
 deck-config-get-params = الحصول على المعلمات.
 deck-config-fsrs-on-all-clients =
