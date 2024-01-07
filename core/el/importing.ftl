@@ -33,6 +33,7 @@ importing-mapped-to-tags = σε αντιστοιχία προς  <b>Ετικέτ
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = Συγχώνευση τύπων σημειώσεων
 importing-mnemosyne-20-deck-db = Τράπουλα Mnemosyne 2.0 (*.db)
+importing-multicharacter-separators-are-not-supported-please = Δεν υποστηρίζονται διαχωριστές με πολλούς χαρακτήρες. Παρακαλώ εισάγετε μόνο έναν χαρακτήρα.
 importing-notes-added-from-file = Σημειώσεις που προστέθηκαν από το αρχείο: { $val }
 importing-notes-found-in-file = Σημειώσεις που βρέθηκαν στο αρχείο: { $val }
 importing-notes-skipped-as-theyre-already-in = Σημειώσεις που παραβλέφθηκαν, καθώς πιο πρόσφατα αντίγραφα υπάρχουν ήδη στην συλλογή σας: { $val }
