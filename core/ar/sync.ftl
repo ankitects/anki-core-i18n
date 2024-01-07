@@ -10,7 +10,7 @@ sync-media-starting = بدء مزامنة الوسائط...
 sync-media-complete = تمت مزامنة الوسائط.
 sync-media-failed = فشلت مزامنة الوسائط.
 sync-media-aborting = إيقاف مزامنة الوسائط...
-sync-media-aborted = تم إيقاف مزامنة الوسائط.
+sync-media-aborted = تم إلغاء مزامنة الوسائط.
 # Shown in the sync log to indicate media syncing will not be done, because it
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = مزامنة الوسائط غير مفعلة.
@@ -50,7 +50,7 @@ sync-upload-too-large =
 ## Buttons
 
 sync-media-log-button = سِجل الوسائط
-sync-abort-button = إيقاف
+sync-abort-button = إلغاء
 sync-download-from-ankiweb = نزّل من أنكي ويب
 sync-upload-to-ankiweb = ارفع إلى أنكي ويب
 sync-cancel-button = إلغاء

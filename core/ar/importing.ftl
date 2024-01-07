@@ -1,5 +1,5 @@
 importing-failed-debug-info = فشل الاستيراد. معلومات التصحيح:
-importing-aborted = أُحبِط: { $val }
+importing-aborted = ألغيت: { $val }
 importing-added-duplicate-with-first-field = أضيفت ملحوظة حقلها الأول مكرر: { $val }
 importing-all-supported-formats = كل الصيغ المدعومة { $val }
 importing-allow-html-in-fields = السماح بـ HTML في الحقول
