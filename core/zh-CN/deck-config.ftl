@@ -284,8 +284,8 @@ deck-config-not-enough-history = 复习历史记录过少，无法执行该操�
 deck-config-unable-to-determine-desired-retention = 无法计算出最佳记忆保留率
 deck-config-must-have-1000-reviews =
     { $count ->
-       *[other] 只找到了 { $count } 次复习记录。
-    }至少需要复习 1000 次才能生成自定义参数。
+       *[other] 只找到了 { $count } 次复习记录。至少需要复习 1000 次才能进行此操作。
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 参数
 deck-config-compute-optimal-weights = 优化 FSRS 参数
