@@ -4,6 +4,7 @@ actions-any-selected = 選択条件のいずれかを含む
 actions-cancel = キャンセル
 actions-choose = 選択
 actions-close = 閉じる
+actions-discard = 破棄
 actions-copy = コピー
 actions-create-copy = ノートを複製
 actions-custom-study = カスタム学習
