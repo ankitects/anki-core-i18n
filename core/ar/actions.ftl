@@ -4,6 +4,7 @@ actions-any-selected = أي من المحدد
 actions-cancel = إلغاء
 actions-choose = اختيار
 actions-close = إغلاق
+actions-discard = تجاهل
 actions-copy = نسخ
 actions-create-copy = إنشاء نسخة
 actions-custom-study = دراسة مخصصة
