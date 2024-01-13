@@ -1,5 +1,7 @@
 studying-again = Ξανά
 studying-all-buried-cards = Όλες οι κάρτες σε αναβολή
+studying-audio-5s = Ήχος -5s
+studying-audio-and5s = Ήχος +5s
 studying-buried-siblings = Ομοειδείς σε αναβολή
 studying-bury = Αναβολή
 studying-bury-card = Αναβολή κάρτας
@@ -24,6 +26,8 @@ studying-flag-card = Σήμανση κάρτας
 studying-good = Καλά
 studying-hard = Δύσκολο
 studying-it-has-been-suspended = Έχει ανασταλεί.
+studying-manually-buried-cards = Κάρτες σε χειροκίνητη αναβολή
+studying-mark-note = Επισήμανση σημείωσης
 studying-more = Περισσότερα
 studying-no-cards-are-due-yet = Καμία κάρτα δεν είναι ακόμα προγραμματισμένη.
 studying-note-suspended = Αναστολή σημείωσης

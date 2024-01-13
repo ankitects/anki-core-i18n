@@ -4,6 +4,7 @@ actions-any-selected = Οποιοδήποτε επιλεγμένο
 actions-cancel = Άκυρο
 actions-choose = Επιλογή
 actions-close = Κλείσιμο
+actions-discard = Απόρριψη
 actions-copy = Αντιγραφή
 actions-create-copy = Δημιουργία Αντιγράφου
 actions-custom-study = Προσαρμοσμένη Μελέτη

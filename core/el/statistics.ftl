@@ -81,6 +81,7 @@ statistics-counts-young-cards = Πρόσφατες
 statistics-counts-mature-cards = Ώριμες
 statistics-counts-suspended-cards = Σε αναστολή
 statistics-counts-buried-cards = Σε αναβολή
+statistics-counts-filtered-cards = Φιλτραρισμένα
 statistics-counts-learning-cards = Εκμάθηση
 statistics-counts-relearning-cards = Επανεκμάθηση
 statistics-counts-title = Αριθμός καρτών
@@ -98,7 +99,7 @@ statistics-card-stability-subtitle = Η καθυστέρηση στην οποί
 statistics-average-stability = Μέση σταθερότητα
 statistics-card-retrievability-title = Ανακτησιμότητα κάρτας
 statistics-card-ease-subtitle = Όσο χαμηλότερη η ευκολία, τόσο πιο συχνά θα εμφανίζεται η κάρτα.
-statistics-card-difficulty-subtitle = Όσο υψηλότερη η δυσκολία, τόσο πιο δύσκολη η ανάκληση.
+statistics-card-difficulty-subtitle2 = Όσο μεγαλύτερη η δυσκολία, τόσο πιο αργά θα αυξηθεί η σταθερότητα.
 statistics-retrievability-subtitle = Η πιθανότητα ανάκλησης της κάρτας σήμερα.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
