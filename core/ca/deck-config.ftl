@@ -6,9 +6,9 @@
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
-    s’utilitza en{ $decks ->
-        [one] una baralla
-       *[other] { $decks } baralles
+    { $decks ->
+        [one] s’utilitza en una baralla
+       *[other] s’utilitza en { $decks } baralles
     }
 deck-config-default-name = Per defecte
 deck-config-title = Opcions de la baralla
@@ -42,6 +42,8 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Per defecte, el límit de repassos també s’aplica a les targetes noves, i no es mostrarà
     cap targeta nova quan assoliu aquest límit. Si activeu aquesta opció, les targetes noves
     es mostraran sense tenir en compte el límit de repassos.
+deck-config-apply-all-parent-limits = El límit comença a partir de la baralla superior
+deck-config-apply-all-parent-limits-tooltip = Per defecte, els límits comencen a partir de la baralla seleccionada. Si activeu aquesta opció, els límits començaran a partir de la baralla superior, cosa que pot ser útil si voleu estudiar baralles secundàries individuals alhora que apliqueu un límit total de cartes per dia.
 deck-config-affects-entire-collection = Afecta la col·lecció sencera.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -208,8 +210,12 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Segons abans de mostrar la pregunta
+deck-config-seconds-to-show-question-tooltip-2 = Nombre de segons abans que es mostri la resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
 deck-config-seconds-to-show-answer = Segons abans de mostrar la resposta
+deck-config-seconds-to-show-answer-tooltip-2 = Nombre de segons abans que s’apliqui l’acció de resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
 deck-config-answer-action = Acció de resposta
+deck-config-answer-action-tooltip = Acció que s'aplicarà a la targeta actual abans que s’avanci automàticament a la següent.
+deck-config-wait-for-audio-tooltip = Espera que l’àudio acabi abans de mostrar la resposta o la pregunta següent
 
 ## Audio section
 
@@ -325,13 +331,15 @@ deck-config-steps-too-large-for-fsrs = Quan el FSRS està activat, no és recoma
 deck-config-get-params = Obtén els paràmetres
 deck-config-fsrs-on-all-clients = Assegureu-vos feu servir Anki (o AnkiMobile) 23.10+ o AnkiDroid 2.17+ en tots els vostres dispositius. El FSRS no funcionarà correctament si algun dels clients que feu servir és més antic.
 deck-config-estimated-retention = Retenció estimada: { $num }
-deck-config-complete = { $num }% completat.
+deck-config-complete = { $num } % completat.
+deck-config-iterations = Iteració: { $count }…
 deck-config-reschedule-cards-on-change = Replanifica les targetes en cas de canvi
 deck-config-fsrs-tooltip =
     El ‘Free Spaced Repetition Scheduler’ (FSRS) o planificador de repetició espaiada lliure és una alternativa a l’antic planificador d’Anki, SuperMemo 2 (SM2).
-    Aquest planificador pot ajudar-te a recordar més material en el mateix temps, ja que determina amb més precisió quan és probable que te n’oblidis. Totes les baralles prefixades comparteixen aquest paràmetre.
+    Aquest planificador pot ajudar-vos a recordar més material en el mateix temps, ja que determina amb més precisió quan és probable que us n’oblideu. Totes les baralles prefixades comparteixen aquest paràmetre.
     
     Si heu utilitzat prèviament la versió de programació personalitzada del FSRS, assegureu-vos de buidar la secció de planificació personalitzada abans d’activar aquesta opció.
+deck-config-desired-retention-tooltip = El valor per defecte de 0,9 programarà les targetes perquè tingueu un 90 % de possibilitats de recordar-les quan torneu a repassar-les. Si augmenteu aquest valor, Anki mostrarà les targetes amb més freqüència per augmentar les possibilitats que les recordeu. Si reduïu el valor, Anki mostrarà les targetes amb menys freqüència i n’oblidareu més. Aneu amb compte amb aquest paràmetre, perquè un valor alt augmentarà molt la vostra càrrega de treball i un de molt baix pot fer que oblideu més material, cosa que podria desmotivar-vos.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
 deck-config-a-100-day-interval =
     { $days ->
@@ -340,8 +348,8 @@ deck-config-a-100-day-interval =
     }
 deck-config-percent-of-reviews =
     { $reviews ->
-        [one] { $pct } % de { $reviews } repàs
-       *[other] { $pct } % de { $reviews } repassos
+        [one] { $pct } % de { $reviews } repàs
+       *[other] { $pct } % de { $reviews } repassos
     }
 deck-config-optimizing-preset = S’esta optimitzant la configuració de baralla { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = Primer heu d’activar el FSRS.

@@ -4,6 +4,7 @@ actions-any-selected = Qualsevol seleccionat
 actions-cancel = Anuŀla
 actions-choose = Tria
 actions-close = Tanca
+actions-discard = Anul·la
 actions-copy = Copia
 actions-create-copy = Duplica
 actions-custom-study = Estudi personalitzat

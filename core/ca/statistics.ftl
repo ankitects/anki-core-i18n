@@ -76,7 +76,7 @@ statistics-today-again-count = Oblidades:
 statistics-today-type-counts = Apreses: { $learnCount }, Repassades: { $reviewCount }, Tornades a aprendre: { $relearnCount }, Filtrades: { $filteredCount }
 statistics-today-no-cards = Avui no heu estudiat cap targeta.
 statistics-today-no-mature-cards = Avui no heu estudiat cap targeta madura.
-statistics-today-correct-mature = Respostes correcotes en les targetes madures: { $correct }/{ $total } ({ $percent }%)
+statistics-today-correct-mature = Respostes correcotes en les targetes madures: { $correct }/{ $total } ({ $percent } %)
 statistics-counts-total-cards = Nombre total de targetes
 statistics-counts-new-cards = Noves
 statistics-counts-young-cards = Joves
@@ -97,11 +97,11 @@ statistics-range-search = Cercar
 statistics-card-ease-title = Facilitat de la targeta
 statistics-card-difficulty-title = Dificultat de la targeta
 statistics-card-stability-title = Estabilitat de la targeta
-statistics-card-stability-subtitle = Retard dins del qual és probable que recordis el 90%.
+statistics-card-stability-subtitle = Retard dins del qual és probable que en recordeu el 90 %.
 statistics-average-stability = Estabilitat mitjana
 statistics-card-retrievability-title = Recuperabilitat de les targetes
 statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
-statistics-card-difficulty-subtitle = Com més alta sigui la dificultat, més complicat serà l’aprenentatge.
+statistics-card-difficulty-subtitle2 = Com més gran sigui la dificultat, més lentament augmentarà l’estabilitat.
 statistics-retrievability-subtitle = Probabilitat que recordeu una targeta avui.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -177,11 +177,11 @@ statistics-stability-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Des de { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = { $correct }/{ $total } correctes ({ $percent }%)
+statistics-hours-correct = { $correct }/{ $total } correctes ({ $percent } %)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } repassos
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = 📈 { $percent } % correctes ({ $reviews } repassos)
+statistics-hours-correct-reviews = 📈 { $percent } % correctes ({ $reviews } repassos)
 statistics-hours-title = Distribució horària
 statistics-hours-subtitle = Percentatge de repassos correctes al llarg del dia.
 # shown when graph is empty
@@ -211,7 +211,7 @@ statistics-average = Mitjana
 statistics-average-interval = Interval mitjà
 statistics-due-tomorrow = Programades per a demà
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
+statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent } %)
 statistics-average-over-period = Mitjana si haguéssiu estudiat tots els dies
 statistics-reviews-per-day =
     { $count ->

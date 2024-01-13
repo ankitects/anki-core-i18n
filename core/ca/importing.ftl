@@ -173,6 +173,7 @@ importing-note-updated-as-file-had-newer = Nota actualitzada perquè el fitxer c
 importing-note-skipped-due-to-missing-notetype = S’ha saltat la nota perquè en falta el tipus
 importing-note-skipped-due-to-missing-deck = S’ha saltat la nota perquè en falta la baralla
 importing-note-skipped-due-to-empty-first-field = S’ha saltat la nota perquè el primer camp està buit
+importing-allow-html-in-fields-help = Activeu aquesta opció si el fitxer conté text en format HTML. Així, per exemple, la cadena ‘&lt;br&gt;’ apareixerà com a salt de línia en la targeta. Si desactiveu aquesta opció, es mostraran els caràcters ‘&lt;br&gt;’.
 importing-deck-help = Les targetes importades s’afegiran a aquesta baralla.
 importing-existing-notes-help =
     Quan una nota importada coincideixi amb una altra:
