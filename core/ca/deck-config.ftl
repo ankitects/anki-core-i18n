@@ -340,6 +340,8 @@ deck-config-fsrs-tooltip =
     
     Si heu utilitzat prèviament la versió de programació personalitzada del FSRS, assegureu-vos de buidar la secció de planificació personalitzada abans d’activar aquesta opció.
 deck-config-desired-retention-tooltip = El valor per defecte de 0,9 programarà les targetes perquè tingueu un 90 % de possibilitats de recordar-les quan torneu a repassar-les. Si augmenteu aquest valor, Anki mostrarà les targetes amb més freqüència per augmentar les possibilitats que les recordeu. Si reduïu el valor, Anki mostrarà les targetes amb menys freqüència i n’oblidareu més. Aneu amb compte amb aquest paràmetre, perquè un valor alt augmentarà molt la vostra càrrega de treball i un de molt baix pot fer que oblideu més material, cosa que podria desmotivar-vos.
+deck-config-sm2-retention-tooltip = Si la vostra retenció real abans de canviar al FSRS era molt diferent de 0,9, ajustar aquest valor permetrà a Anki estimar millor el vostre estat de memòria quan es trobi amb targetes que no tenen cap registre de revisió. En la major part dels casos, no cal que ajusteu aquest paràmetre, ja que generalment hi haurà registres de revisió tret que els suprimiu voluntàriament per a alliberar espai.
+deck-config-weights-tooltip = Els paràmetres del FSRS afecten la programació de les targetes. Anki començarà amb els paràmetres per defecte. Una vegada hàgiu acumulat més de 1000 repassos, podeu utilitzar aquesta opció per a optimitzar els paràmetres i ajustar millor el vostre rendiment en les baralles que utilitzen aquesta configuració prefixada.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
 deck-config-a-100-day-interval =
     { $days ->

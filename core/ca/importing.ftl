@@ -173,7 +173,15 @@ importing-note-updated-as-file-had-newer = Nota actualitzada perquè el fitxer c
 importing-note-skipped-due-to-missing-notetype = S’ha saltat la nota perquè en falta el tipus
 importing-note-skipped-due-to-missing-deck = S’ha saltat la nota perquè en falta la baralla
 importing-note-skipped-due-to-empty-first-field = S’ha saltat la nota perquè el primer camp està buit
+importing-field-separator-help =
+    Caràcter amb què se separaran els camps del fitxer de text. Podeu utilitzar la previsualització per a comprovar si els camps estan separats correctament.
+    
+    Tingueu en compte que si aquest caràcter apareix en qualsevol camp, aquest haurà d’estar formatat d’acord amb l’estàndard CSV. Els programes de full de càlcul com el LibreOffice ho fan automàticament.
 importing-allow-html-in-fields-help = Activeu aquesta opció si el fitxer conté text en format HTML. Així, per exemple, la cadena ‘&lt;br&gt;’ apareixerà com a salt de línia en la targeta. Si desactiveu aquesta opció, es mostraran els caràcters ‘&lt;br&gt;’.
+importing-notetype-help =
+    Les notes recentment importades tindran aquest tipus de nota, i només s’actualitzaran les notes existents que tinguin aquest tipus de nota.
+    
+    Podeu triar quins camps del fitxer corresponen a quins camps de tipus nota amb l’eina de mapatge.
 importing-deck-help = Les targetes importades s’afegiran a aquesta baralla.
 importing-existing-notes-help =
     Quan una nota importada coincideixi amb una altra:
