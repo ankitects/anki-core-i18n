@@ -4,6 +4,7 @@ actions-any-selected = כל אחד שנבחר
 actions-cancel = ביטול
 actions-choose = בחר
 actions-close = סגירה
+actions-discard = אל תשמור שינויים
 actions-copy = העתק
 actions-create-copy = צור עותק
 actions-custom-study = לימוד מותאם
