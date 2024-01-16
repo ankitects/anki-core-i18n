@@ -4,6 +4,7 @@ actions-any-selected = 任何選取的
 actions-cancel = 取消
 actions-choose = 選擇
 actions-close = 關閉
+actions-discard = 捨棄
 actions-copy = 複製
 actions-create-copy = 建立複本
 actions-custom-study = 自訂學習

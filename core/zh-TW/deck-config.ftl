@@ -227,8 +227,8 @@ deck-config-not-enough-history = 歷史複習次數過少，無法執行此動�
 deck-config-unable-to-determine-desired-retention = 無法計算出最佳留存率。
 deck-config-must-have-1000-reviews =
     { $count ->
-       *[other] 只找到了 { $count } 筆複習記錄。
-    }至少需要 1000  筆複習記錄才能產生自訂參數。
+       *[other] 只找到了 { $count } 筆複習記錄。至少需要 1000  筆複習記錄才能執行此動作。
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
