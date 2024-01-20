@@ -72,7 +72,7 @@ scheduling-learn-remaining =
         [one] Queda una targeta en la cua d'aprenentatge más tard per a avui.
        *[other] Queden { $remaining } targetes en la cua d'aprenentatge más tard per a avui.
     }
-scheduling-congratulations-finished = Enhorabona! Per ara heu acabat amb aquesta baralla.
+scheduling-congratulations-finished = Enhorabona! Heu acabat amb aquesta baralla per ara.
 scheduling-today-review-limit-reached =
     Heu arribat al límit diari de repassos, però encara hi ha targetes
     per repassar. Per a una memorització òptima, considereu
@@ -82,7 +82,7 @@ scheduling-buried-cards-found = S'han enterrat una o més targetes, que es mostr
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = desenterrar-les
-scheduling-how-to-custom-study = Si voleu estudiar fora de l’horari habitual, podeu utilitzar la funció { $customStudy }.
+scheduling-how-to-custom-study = Si voleu estudiar fora de l’horari habitual, feu servir l’{ $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = estudi personalitzat
