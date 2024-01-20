@@ -138,8 +138,8 @@ deck-config-new-gather-priority-tooltip-2 =
     `Targetes aleatòries`: mostra les targetes de manera aleatòria.
 deck-config-new-gather-priority-deck = Baralla
 deck-config-new-gather-priority-deck-then-random-notes = Baralla i després notes aleatòries
-deck-config-new-gather-priority-position-lowest-first = Posició ascendent
-deck-config-new-gather-priority-position-highest-first = Posició descendent
+deck-config-new-gather-priority-position-lowest-first = Ordre ascendent
+deck-config-new-gather-priority-position-highest-first = Ordre descendent
 deck-config-new-gather-priority-random-notes = Notes aleatòries
 deck-config-new-gather-priority-random-cards = Targetes aleatòries
 deck-config-new-card-sort-order = Nou ordre de classificació de les targetes
@@ -172,11 +172,11 @@ deck-config-review-mix-show-after-reviews = Mostra després de les targetes per 
 deck-config-review-mix-show-before-reviews = Mostra abans de les targetes per repassar
 deck-config-review-sort-order = Ordre de les targetes per repassar
 deck-config-review-sort-order-tooltip =
-    Amb l’ordre per defecte, es prioritzen les targetes que han estat en espera més temps.
-    D'aquesta manera, si aneu amb retard amb els repassos, les que duguin a l’espera més temps
+    Amb l’ordre per defecte, es prioritzen les targetes que duen més temps en espera.
+    Així, si aneu amb retard amb els repassos, les que duguin a l’espera més temps
     apareixeran primer. Si heu acumulat un gran nombre de repassos que tardareu més d’un dia a
-    fer (o si prefereiu veure les targetes en l’ordre de les baralles secundàries), proveu
-    els ordres de classificació alternatius.
+    resoldre (o si preferiu veure les targetes en l’ordre de les baralles secundàries), proveu
+    els altres ordres de classificació.
 deck-config-sort-order-due-date-then-random = Data de repàs i després en ordre aleatori
 deck-config-sort-order-due-date-then-deck = Data de repàs i després baralla
 deck-config-sort-order-deck-then-due-date = Baralla i després data de repàs
