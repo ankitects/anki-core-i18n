@@ -4,6 +4,7 @@ actions-any-selected = Eins der ausgewählten
 actions-cancel = Abbrechen
 actions-choose = Auswählen
 actions-close = Schließen
+actions-discard = Verwerfen
 actions-copy = Kopieren
 actions-create-copy = Kopie erstellen
 actions-custom-study = Benutzerdefiniertes Lernen

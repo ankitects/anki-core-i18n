@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = Hinzufügen (Tastenkürzel: Strg+Eingabe)
 adding-added = Hinzugefügt
-adding-close-and-lose-current-input = Schließen und aktuelle Eingabe verwerfen?
+adding-discard-current-input = Aktuelle Eingabe verwerfen?
+adding-keep-editing = Im Editiermodus bleiben
 adding-edit = { $val }...
 adding-history = Verlauf
 adding-note-deleted = (Notiz gelöscht)

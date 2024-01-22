@@ -263,6 +263,7 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
+deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
 deck-config-must-have-1000-reviews =
     { $count ->
         [one] Nur { $count } Wiederholung wurde gefunden.
@@ -274,17 +275,25 @@ deck-config-compute-optimal-weights = Optimierung von FSRS Parametern
 deck-config-compute-optimal-retention = Optimale Retention berechnen
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
+deck-config-optimize-all-tip = Sie können alle Vorgaben gleichzeitig durch Drücken des oberen Knopfes optimieren.
 deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Retention
 deck-config-sm2-retention = SM2 Retention
+deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
 deck-config-estimated-retention = Geschätzte Retention: { $num }
 deck-config-complete = { $num }% abgeschlossen.
+deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
         [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
        *[other] Ein Intervall von 100 Tagen wird zu { $days } Tagen.
+    }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% von { $reviews } Wiederholung
+       *[other] { $pct }% von { $reviews } Wiederholungen
     }
 deck-config-optimizing-preset = Optimiere Stapeloptionengruppe { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
