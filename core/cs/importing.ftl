@@ -52,9 +52,11 @@ importing-notes-updated-as-file-had-newer = Poznámky aktualizovány, protože s
 importing-include-reviews = Zahrnout opakování
 importing-also-import-progress = Importovat veškerý pokrok v učení
 importing-with-deck-configs = Importovat všechny předvolby balíčku
+importing-updates = Aktualizace
 importing-include-reviews-help =
     Je-li povoleno, všechna dřívější opakování, která jsou v balíčku zahrnuta, budou také importována. 
     V opačném případě budou všechny karty importovány jako nové karty.
+importing-with-deck-configs-help = Je-li povoleno, veškeré nastavení balíčku, které osoba sdílející balíček zahrnula, bude také importováno. V opačném případě budou všechny balíčky přiřazeny k výchozí předvolbě.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balíček/kolekce (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 lekce (*.pau.gz)
 # the '|' character
