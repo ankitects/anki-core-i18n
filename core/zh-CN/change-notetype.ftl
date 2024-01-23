@@ -1,5 +1,5 @@
-change-notetype-current = 当前
-change-notetype-new = 新增
+change-notetype-current = 改之前
+change-notetype-new = 改之后
 change-notetype-nothing = （无）
 change-notetype-collapse = 折叠
 change-notetype-expand = 展开
