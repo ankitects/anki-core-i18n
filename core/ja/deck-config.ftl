@@ -203,7 +203,7 @@ deck-config-seconds-to-show-answer-tooltip-2 =
     「カードの自動送り」機能が有効になっているとき、カードの解答側が表示されてから、自動回答アクションを適用するまでの待機秒数。
     
     自動回答アクションを無効にするには、値を0に設定してください。
-deck-config-answer-action = 自動回答アクション
+deck-config-answer-action = 解答表示時間経過後のアクション
 deck-config-answer-action-tooltip = ユーザーが回答などの操作を手動で行わず、自動的に次のカードに進む前に、現在のカードに対して実行するアクション。
 deck-config-wait-for-audio-tooltip = 解答を自動的に表示する前、または自動回答アクションを行う前に、音声の再生が終了するのを待ちます。
 
@@ -303,12 +303,12 @@ deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
 deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
 deck-config-evaluate-button = 評価
-deck-config-desired-retention = 正答率（目標値）
+deck-config-desired-retention = 正答率〔目標値〕
 deck-config-sm2-retention = SM2での正答率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-get-params = パラメータを取得
-deck-config-fsrs-on-all-clients = すべてのAnkiクライアントが Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降のバージョンであることを確認してください。 FSRSは、クライアントのいずれかが古いバージョンである場合は正しく動作しません。
+deck-config-fsrs-on-all-clients = コレクションを他の端末のAnkiと同期している場合は、 それらのAnkiのバージョンがいずれも Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降であることを確認してください。 FSRSは、それらのいずれかが古いバージョンである場合は正しく動作しません。
 deck-config-estimated-retention = 正答率（推定値）: { $num }
 deck-config-complete = { $num }% 完了
 deck-config-iterations = 反復: { $count }...
@@ -359,7 +359,7 @@ deck-config-compute-optimal-retention-tooltip =
     
     推定される正答率は各項目に入力する値によって大きく変化します。推定値と0.9との差が著しく大きい場合は、予定の学習枚数に対して、予定の学習時間が少なすぎるか、または多すぎる可能性があります。
     
-    この値は、あくまで学習プランの調整などのための参考値であり、`正答率（目標値）`の欄でそのまま使用するための推奨値ではありません。
+    この値は、あくまで学習プランの調整などのための参考値であり、`正答率〔目標値〕`の欄でそのまま使用するための推奨値ではありません。
 deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-a-100-day-interval =
     { $days ->
