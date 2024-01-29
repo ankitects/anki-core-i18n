@@ -303,7 +303,7 @@ deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
 deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
 deck-config-evaluate-button = 評価
-deck-config-desired-retention = 正答率〔目標値〕
+deck-config-desired-retention = 正答率（目標値）
 deck-config-sm2-retention = SM2での正答率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
@@ -359,7 +359,7 @@ deck-config-compute-optimal-retention-tooltip =
     
     推定される正答率は各項目に入力する値によって大きく変化します。推定値と0.9との差が著しく大きい場合は、予定の学習枚数に対して、予定の学習時間が少なすぎるか、または多すぎる可能性があります。
     
-    この値は、あくまで学習プランの調整などのための参考値であり、`正答率〔目標値〕`の欄でそのまま使用するための推奨値ではありません。
+    この値は、あくまで学習プランの調整などのための参考値であり、`正答率（目標値）`の欄でそのまま使用するための推奨値ではありません。
 deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-a-100-day-interval =
     { $days ->
