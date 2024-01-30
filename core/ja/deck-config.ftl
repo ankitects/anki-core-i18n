@@ -193,12 +193,12 @@ deck-config-stop-timer-on-answer-tooltip =
 
 ## Auto Advance section
 
-deck-config-seconds-to-show-question = 解答を表示するまでの秒数
+deck-config-seconds-to-show-question = 解答を表示するまでの時間（秒）
 deck-config-seconds-to-show-question-tooltip-2 =
     「カードの自動送り」機能が有効になっているとき、カードの質問側が表示されてから、解答側を表示するまでの待機秒数。
     
     この自動表示を無効にするには、値を0に設定してください。
-deck-config-seconds-to-show-answer = 解答を表示し続ける秒数
+deck-config-seconds-to-show-answer = 解答を表示し続ける時間（秒）
 deck-config-seconds-to-show-answer-tooltip-2 =
     「カードの自動送り」機能が有効になっているとき、カードの解答側が表示されてから、自動回答アクションを適用するまでの待機秒数。
     
