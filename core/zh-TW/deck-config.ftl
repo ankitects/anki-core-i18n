@@ -145,9 +145,9 @@ deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止計時。�
 
 ## Auto Advance section
 
-deck-config-seconds-to-show-question = 自動顯示問題所需秒數
+deck-config-seconds-to-show-question = 問題面顯示時長（秒）
 deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
-deck-config-seconds-to-show-answer = 自動顯示答案所需秒數
+deck-config-seconds-to-show-answer = 答案面顯示時長（秒）
 deck-config-seconds-to-show-answer-tooltip-2 = 啟用自動前進時，套用回答動作前需要等待的秒數。設定為 0 來停用。
 deck-config-answer-action = 答案顯示後動作
 deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為當前卡片執行的動作。
