@@ -4,6 +4,7 @@ actions-any-selected = Mikä tahansa valittu
 actions-cancel = Peruuta
 actions-choose = Valitse
 actions-close = Sulje
+actions-discard = Hylkää
 actions-copy = Kopioi
 actions-create-copy = Luo kopio
 actions-custom-study = Mukautettu opiskelu
