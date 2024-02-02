@@ -177,9 +177,9 @@ importing-import-log = Import Log
 importing-no-notes-in-file = Keine Notizen in der Datei gefunden.
 importing-notes-found-in-file2 =
     { $notes ->
-        [one] Notiz
-       *[other] Notizen
-    } in der Datei gefunden. Davon:
+        [one] { $notes } Notiz in der Datei gefunden. Davon:
+       *[other] { $notes } Notizen in der Datei gefunden. Davon:
+    }
 importing-show = Anzeigen
 importing-details = Details
 importing-status = Status
