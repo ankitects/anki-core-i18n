@@ -26,14 +26,14 @@ scheduling-time-span-years = { $amount }年
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    次の習得中カードは{ $unit ->
-        [seconds] { $amount }秒
-        [minutes] { $amount }分
-       *[hours] { $amount }時間
-    }後に表示されます。
+    { $unit ->
+        [seconds] 習得中カードが、直近では{ $amount }秒後に再び課題となります。
+        [minutes] 習得中カードが、直近では{ $amount }分後に再び課題となります。
+       *[hours] 習得中カードが、直近では{ $amount }時間後に再び課題となります。
+    }
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] 本日中に再び表示される予定の習得中カードは{ $remaining }枚です。
+       *[other] 今日中に再び課題となる習得中カードは、今のところ{ $remaining }枚あります。
     }
 scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題をすべて達成しました！
 scheduling-today-review-limit-reached =
