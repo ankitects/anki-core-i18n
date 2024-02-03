@@ -27,9 +27,9 @@ scheduling-time-span-years = { $amount }年
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
     { $unit ->
-        [seconds] 習得中カードが、直近では{ $amount }秒後に再び課題となります。
-        [minutes] 習得中カードが、直近では{ $amount }分後に再び課題となります。
-       *[hours] 習得中カードが、直近では{ $amount }時間後に再び課題となります。
+        [seconds] { $amount }秒後に再び課題となる習得中カードがあります。
+        [minutes] { $amount }分後に再び課題となる習得中カードがあります。
+       *[hours] { $amount }時間後に再び課題となる習得中カードがあります。
     }
 scheduling-learn-remaining =
     { $remaining ->
