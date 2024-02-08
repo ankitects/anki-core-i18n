@@ -1,35 +1,35 @@
-browsing-add-notes = افزودن یادداشت...
-browsing-add-tags2 = افزودن برچسب...
-browsing-add-to-selected-notes = اضافه کردن به یادداشت‌های انتخاب شده
-browsing-remove-from-selected-notes = حذف کردن از یادداشت‌های انتخاب شده
+browsing-add-notes = یادداشت جدید...
+browsing-add-tags2 = برچسب جدید...
+browsing-add-to-selected-notes = افزودن به یادداشت‌های انتخاب‌شده
+browsing-remove-from-selected-notes = حذف از یادداشت‌های انتخاب‌شده
 browsing-addon = افزونه
-browsing-all-fields = تمام فیلدها
+browsing-all-fields = همۀ فیلدها
 browsing-answer = پاسخ
-browsing-any-flag = هر نشان
+browsing-any-flag = همۀ نشانه‌ها
 browsing-average-ease = میانگین آسانی
-browsing-average-interval = میانگین زمان مرور
-browsing-browser-appearance = نمایش مرورگر
-browsing-browser-options = اختیارات مرورگر
-browsing-buried = دفن شده
+browsing-average-interval = میانگین بازۀ مرور
+browsing-browser-appearance = ظاهر مرورگر
+browsing-browser-options = گزینه‌های مرورگر
+browsing-buried = مدفون
 browsing-card = کارت
 browsing-cards = کارت‌ها
 browsing-card-list = فهرست کارت‌ها
-browsing-cards-cant-be-manually-moved-into = کارت‌ها بصورت دستی قابل انتقال به یک دسته فیلتر شده نیستند.
+browsing-cards-cant-be-manually-moved-into = کارت‌ها را دستی نمی‌توانید به دستۀ فیلترشده منتقل کنید.
 browsing-cards-deleted =
     { $count ->
-       *[other] تعداد { $count } کارت حذف شد.
+       *[other] { $count } کارت حذف شد.
     }
 browsing-change-deck = تغییر دسته
 browsing-change-deck2 = تغییر دسته…
 browsing-change-note-type = تغییر نوع یادداشت
 browsing-change-note-type2 = تغییر نوع یادداشت...
 browsing-change-notetype = تغییر نوع یادداشت
-browsing-clear-unused-tags = پاک کردن برچسب‌های استفاده نشده
-browsing-confirm-saved-search-overwrite = یک جستجوی ذخیره شده با نام { $name } از قبل وجود دارد. آیا می‌خواهید آن را بازنشانی کنید؟
+browsing-clear-unused-tags = حذف برچسب‌های بی‌استفاده
+browsing-confirm-saved-search-overwrite = از قبل، جست‌وجویی ذخیره‌شده به نام { $name } وجود دارد. رونویسی بشود؟
 browsing-created = ایجادشده
 browsing-current-deck = دستۀ فعلی
 browsing-current-note-type = نوع یادداشت فعلی:
-browsing-delete-notes = حذف یادداشت
+browsing-delete-notes = حذف یادداشت‌ها
 browsing-duplicate = تکراری
 browsing-ease = سهولت
 browsing-enter-tags-to-add = برچسب‌ها را برای افزودن وارد کنید:
@@ -80,6 +80,7 @@ browsing-selected-notes-only = فقط یادداشت‌های انتخاب شد�
 browsing-shift-position-of-existing-cards = موقعیت کارتهای موجود را تغییر دهید
 browsing-sidebar = نوار کناری
 browsing-sidebar-filter = فیلتر نوار کناری
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = فیلد دسته‌بندی
 browsing-sorting-on-this-column-is-not = مرتب سازی بر اساس این ستون پشتیبانی نشده است. لطفا یکی دیگر را انتخاب کنید.
 browsing-start-position = موقعیت شروع:
@@ -147,6 +148,7 @@ browsing-reparented-decks =
     { $count ->
        *[other] تعداد { $count } دسته مجدداً نامگذاری شد.
     }
+browsing-sidebar-card-state-review = مرور
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -154,4 +156,3 @@ browsing-reparented-decks =
 browsing-card-initial = ک
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ی
-browsing-sidebar-card-state-review = مرور
