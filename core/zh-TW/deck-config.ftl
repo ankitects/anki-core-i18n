@@ -23,8 +23,8 @@ deck-config-tab-description =
     - `僅限今天`：暫時更改當前牌組的的上限。
 deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
 deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，複習上限會影響新卡片，因此當複習卡數量達到上限時，則不會再顯示新卡片。啟用「新卡片不受複習上限影響」時，則複習上限不會影響顯示新卡片。
-deck-config-apply-all-parent-limits = 從上到下套用上限
-deck-config-apply-all-parent-limits-tooltip = 根據預設，上限會從你選取的牌組開始計算。啟用此選項後，上限會從上層牌組開始計算，從而可以在分別學習下層牌組的同時確保不超過每天的卡片總上限。
+deck-config-apply-all-parent-limits = 取上層牌組上限
+deck-config-apply-all-parent-limits-tooltip = 根據預設，上限值會採取你選取的牌組所設定的上限。啟用此選項後，上限會從上層牌組開始計算，這樣可確保你在學習一個牌組下的多個子牌組時不超過總上限。
 deck-config-affects-entire-collection = 影響整個集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -39,7 +39,7 @@ deck-config-today-only = 僅限今天
 deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 延遲時間通常使用分鐘（如 `5m`）或天（如 `2d`），但也支援小時（如 `1h`）和秒（如 `30s`）。
-deck-config-learning-steps-tooltip = 一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下 `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕將會前進到下一個階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將改天出現。{ -deck-config-delay-hint }
+deck-config-learning-steps-tooltip = 一或多段延遲，用空白分隔。第一段延遲是你學習新卡片時，按下 `重來` 按鈕後的延遲時間，預設值為 1 分鐘。按下 `良好` 按鈕將使卡片前進到下一個階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將改天出現。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 在最後一個學習階段按下 `良好` 按鈕後，卡片再次顯示前需等待的天數。
 deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過「學習中」狀態後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
@@ -253,7 +253,7 @@ deck-config-fsrs-tooltip =
     你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM2) 排程器。透過更精確地測定你遺忘的機率，FSRS 可以讓你不多花時間的同時記住更多內容。所有牌組預設組共用此設定。
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
-deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片的下一次複習將被排程到你有 90% 的機率能回想起卡片內容時出現。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，遺忘的卡片內容則會增加。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致遺忘大量內容，從而可能使你洩氣。
+deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片將被排程到你記得卡片的機率為 90% 時進行下一次複習。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，你將遺忘更多卡片。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
 deck-config-sm2-retention-tooltip = 如果你在切換到 FSRS 之前的實際留存率與 0.9 相差過多，調整該值可以讓 Anki 更精確地估算缺失複習歷史記錄的卡片的記憶狀態。通常卡片歷史記錄只有當你自行刪除來清理空間時才會遺失，因此大多數使用者不需要調整該值。
 deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。當複習超過 1000 次以後，你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的表現。
 deck-config-reschedule-cards-on-change-tooltip =
@@ -265,9 +265,9 @@ deck-config-reschedule-cards-warning =
     
     使用此選項會對每張卡片都加入一條複習記錄，使集合佔用更多空間，因此請節制使用。
 deck-config-compute-optimal-weights-tooltip =
-    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。你不需要經常最佳化參數，幾個月一次就夠了。
+    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
     
-    根據預設，使用當前預設的所有牌組的複習歷史記錄將被用來計算參數。你可以選用在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
+    根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習記錄。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存率」欄位中。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-a-100-day-interval =
