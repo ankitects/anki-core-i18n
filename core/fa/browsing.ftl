@@ -108,46 +108,53 @@ browsing-note-count =
     }
 browsing-notes-updated =
     { $count ->
-       *[other] { $count } یادداشت به‌روزرسانی شد.
+       *[other] { $count } یادداشت به‌روز شد.
     }
 browsing-cards-updated =
     { $count ->
-       *[other] { $count } کارت به‌روزرسانی شد.
+       *[other] { $count } کارت به‌روز شد.
     }
 browsing-window-title = جستجو (تعداد { $selected } از { $total } کارت انتخاب شده‌اند)
-browsing-sidebar-expand = گسترش
-browsing-sidebar-collapse = جمع‌کردن
+browsing-sidebar-expand = بازکردن
+browsing-sidebar-collapse = بستن
 browsing-sidebar-expand-children = باز کردن زیرمجموعه
 browsing-sidebar-collapse-children = بستن زیرمجموعه
 browsing-sidebar-decks = دسته‌ها
 browsing-sidebar-tags = برچسب‌ها
 browsing-sidebar-notetypes = نوع یادداشت‌ها
-browsing-sidebar-saved-searches = جستجوهای ذخیره شده
-browsing-sidebar-save-current-search = ذخیره جستجوی فعلی
+browsing-sidebar-saved-searches = جست‌وجوهای ذخیره‌شده
+browsing-sidebar-save-current-search = ذخیره جست‌وجوی فعلی
 browsing-sidebar-card-state = وضعیت کارت
-browsing-sidebar-flags = پرچم‌ها
+browsing-sidebar-flags = نشانه‌ها
 browsing-today = امروز
-browsing-studied-today = امروز مطالعه شده
-browsing-added-today = امروز اضافه شده
-browsing-again-today = دوباره امروز
-browsing-edited-today = ویرایش شده
+browsing-tooltip-card-modified = آخرین تغییرات کارت شامل بازبینی، نشانه‌گذاری و تغییرات دسته.
+browsing-tooltip-note-modified = آخرین تغییرات یادداشت شامل تغییر محتوای فیلدها یا ویرایش برچسب‌ها.
+browsing-tooltip-card = نام قالب کارت.
+browsing-tooltip-cards = تعداد کارت‌های متعلق به یادداشت
+browsing-tooltip-notetype = نام نوع یادداشت یک یادداشت
+browsing-tooltip-question = جلوی کارت، قابل شخص‌سازی از طریق ویرایشگر قالب کارت
+browsing-tooltip-answer = پشت کارت، قابل شخصی‌سازی از طریق ویرایشگر قالب کارت
+browsing-studied-today = مطالعه‌شده
+browsing-added-today = اضافه‌شده
+browsing-again-today = دوباره
+browsing-edited-today = ویرایش‌شده
 browsing-sidebar-first-review = نخستین مرور
-browsing-sidebar-rescheduled = مجدداً زمانبندی شده
+browsing-sidebar-rescheduled = مجدداً زمان‌بندی‌شده
 browsing-sidebar-due-today = موعد مرور
-browsing-sidebar-untagged = فاقد برچسب
-browsing-sidebar-overdue = موعد گذشته
-browsing-row-deleted = (حذف شده)
+browsing-sidebar-untagged = بی‌برچسب
+browsing-sidebar-overdue = عقب‌افتاده
+browsing-row-deleted = (حذف‌شده)
 browsing-removed-unused-tags-count =
     { $count ->
-       *[other] تعداد { $count } برچسب استفاده نشده حذف شد.
+       *[other] { $count } برچسب بی‌استفاده حذف شد.
     }
 browsing-changed-new-position =
     { $count ->
-       *[other] موقعیت { $count } کارت جدید ویرایش یافت.
+       *[other] موقعیت { $count } کارت جدید عوض شد.
     }
 browsing-reparented-decks =
     { $count ->
-       *[other] تعداد { $count } دسته مجدداً نامگذاری شد.
+       *[other] نام { $count } دسته عوض شد.
     }
 browsing-sidebar-card-state-review = مرور
 
