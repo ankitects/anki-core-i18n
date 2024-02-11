@@ -41,6 +41,7 @@ statistics-range-deck = deste
 statistics-range-search = Ara
 statistics-card-stability-title = Kart sabitliği
 statistics-average-stability = Ortalama sabitlik
+statistics-card-difficulty-subtitle2 = Zorluk daha yüksek olduğunda sabitlik daha yavaş artacak.
 statistics-future-due-title = Tahmin
 statistics-future-due-subtitle = Gelecekte yapılacak incelemelerin sayısı.
 statistics-added-title = Eklendi
