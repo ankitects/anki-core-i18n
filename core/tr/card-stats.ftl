@@ -23,6 +23,9 @@ card-stats-review-log-type-relearn = Yeniden Öğrenme
 card-stats-review-log-type-filtered = Filtrelenmiş
 card-stats-review-log-type-manual = Manuel
 card-stats-no-card = (Gösterilecek kart yok.)
+card-stats-custom-data = Özel Veriler
+card-stats-fsrs-stability = sabitlik
+card-stats-fsrs-difficulty = Zorluk
 
 ## Window Titles
 

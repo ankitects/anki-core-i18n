@@ -24,6 +24,7 @@ card-templates-invalid-template-number = '{ $notetype }' not tipinin { $number }
 card-templates-identical-front = Ön taraf { $number } numaralı kart şablonuyla aynı.
 card-templates-no-front-field = Değiştirilecek bir alanın kart şablonunun önünde bulunması bekleniyordu.
 card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' ya da benzer bir şeyin kart şablonunun ön ve arkasında bulunması bekleniyordu.
+card-templates-extraneous-cloze = 'cloze:', sadece boşluklu not tipinde kullanılabilir.
 card-templates-see-preview = Daha fazla bilgi için önizlemeye bakın.
 card-templates-changes-saved = Değişiklikler kaydedildi.
 card-templates-discard-changes = Değişiklikleri iptal et?
@@ -56,3 +57,5 @@ card-templates-this-will-create-card-proceed =
        *[other] Bu { $count } kart oluşturacak. Devam etsin mi?
     }
 card-templates-type-boxes-warning = Kart şablonu başına sadece bir yazma kutusu desteklenir.
+card-templates-restore-to-default = Varsayılana Geri Yükle
+card-templates-restored-to-default = Not tipi orijinal durumuna geri yüklendi.
