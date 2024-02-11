@@ -22,3 +22,6 @@ card-stats-review-log-type-review = مرور
 card-stats-review-log-type-relearn = بازآموزی
 card-stats-review-log-type-filtered = فیلتر شده
 card-stats-review-log-type-manual = دستی
+
+## Window Titles
+
