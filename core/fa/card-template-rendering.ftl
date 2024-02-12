@@ -4,8 +4,10 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = اطلاعات بیشتر
-card-template-rendering-front-side-problem = قالب جلوی کارت مشکل دارد:
-card-template-rendering-back-side-problem = قالب پشت کارت مشکل دارد
+card-template-rendering-front-side-problem = قالب جلوی کارت معیوب است:
+card-template-rendering-back-side-problem = قالب پشت کار معیوب است:
+card-template-rendering-browser-front-side-problem = قالب جلوی مختص به مرورگر معیوب است:
+card-template-rendering-browser-back-side-problem = قالب پشت مختص به مرورگر معیوب است:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = '{ $missing }' در '{ $tag }' یافت نشد
