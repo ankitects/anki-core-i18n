@@ -79,6 +79,7 @@ editing-image-occlusion-delete = Elimina
 editing-image-occlusion-duplicate = Duplica
 editing-image-occlusion-group = Raggruppa selezione
 editing-image-occlusion-ungroup = Rimuovi raggruppamento
+editing-image-occlusion-select-all = Seleziona tutto
 editing-image-occlusion-alignment = Allineamento
 editing-image-occlusion-align-left = Allinea a sinistra
 editing-image-occlusion-align-h-center = Centra orizzontalmente
