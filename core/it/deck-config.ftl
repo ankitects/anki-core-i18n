@@ -315,11 +315,11 @@ deck-config-updating-cards = Aggiornamento delle carte: { $current_cards_count }
 deck-config-invalid-weights = I parametri devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
 deck-config-unable-to-determine-desired-retention = Impossibile determinare una ritenzione ottimale.
-deck-config-must-have-1000-reviews =
+deck-config-must-have-400-reviews =
     { $count ->
-        [one] Trovata solo { $count } ripetizione.
-       *[other] Trovate solo { $count } ripetizioni.
-    } Per generare i parametri personalizzati servono almeno 1000 ripetizioni.
+        [one] Trovata solo { $count } ripetizione. È necessario avere almeno 400 ripetizioni per questa operazione.
+       *[other] Trovate solo { $count } ripetizioni. È necessario avere almeno 400 ripetizioni per questa operazione.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametri FSRS
 deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
