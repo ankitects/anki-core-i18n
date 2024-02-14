@@ -338,15 +338,15 @@ deck-config-updating-cards = تحديث البطاقات: { $current_cards_count
 deck-config-invalid-weights = يجب ترك الأوزان فارغة لاستخدام الإعدادات الافتراضية، أو يجب أن تكون 17 رقما مفصولة بفواصل.
 deck-config-not-enough-history = محفوظات المراجعة غير كافية لتنفيذ هذه العملية.
 deck-config-unable-to-determine-desired-retention = فشل تعيين معدل تذكر أمثل.
-deck-config-must-have-1000-reviews =
+deck-config-must-have-400-reviews =
     { $count ->
-        [zero] لا توجد أي مراجعات.
-        [one] توجد مراجعة واحدة فقط.
-        [two] توجد مراجعتان فقط.
-        [few] توجد { $count } مراجعات فقط.
-        [many] توجد { $count } مراجعة فقط.
-       *[other] توجد { $count } مراجعة فقط.
-    } يجب أن يكون هناك 1000 مراجعة على الأقل لتوليد الأوزان المخصصة.
+        [zero] لا توجد أي مراجعة. يجب أن يكون هناك 400 مراجعة على الأقل لهذه العملية.
+        [one] توجد مراجعة واحدة فقط. يجب أن يكون هناك 400 مراجعة على الأقل لهذه العملية.
+        [two] توجد مراجعتين فقط. يجب أن يكون هناك 400 مراجعة على الأقل لهذه العملية.
+        [few] توجد { $count } مراجعات فقط. يجب أن يكون هناك 400 مراجعة على الأقل لهذه العملية.
+        [many] توجد { $count } مراجعة فقط. يجب أن يكون هناك 400 مراجعة على الأقل لهذه العملية.
+       *[other] توجد { $count } مراجعة فقط. يجب أن يكون هناك 400 مراجعة على الأقل لهذه العملية.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = عوامل FSRS
 deck-config-compute-optimal-weights = تحسين عوامل FSRS

@@ -79,6 +79,7 @@ editing-image-occlusion-delete = حذف
 editing-image-occlusion-duplicate = تكرير
 editing-image-occlusion-group = تجميع العناصر
 editing-image-occlusion-ungroup = فك تجميع العناصر
+editing-image-occlusion-select-all = تحديد الكل
 editing-image-occlusion-alignment = محاذاة
 editing-image-occlusion-align-left = محاذاة إلى اليسار
 editing-image-occlusion-align-h-center = توسيط أفقيًا

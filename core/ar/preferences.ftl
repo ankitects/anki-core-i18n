@@ -24,8 +24,9 @@ preferences-show-play-buttons-on-cards-with = إظهار أزرار التشغي
 preferences-show-remaining-card-count = أظهر عدد البطاقات المتبقية
 preferences-some-settings-will-take-effect-after = ستُفعَّل بعض الإعدادات بعد إعادة تشغيل أنكي.
 preferences-tab-synchronisation = المزامنة
-preferences-synchronizationnot-currently-enabled-click-the-sync = <b>مزامنة</b><br> ليست مفعلة حاليًا؛ اضغط زر المزامنة في النافذة الرئيسية للتفعيل.
 preferences-synchronize-audio-and-images-too = مزامنة التسجيلات الصوتية والصور أيضًا
+preferences-not-logged-in = ليس مربوطًا مع أنكي ويب حاليًا.
+preferences-login-successful-sync-now = تم تسجيل الدخول. هل تريد حفظ التفضيلات والمزامنة الآن؟
 preferences-timebox-time-limit = مهلة تقسيم المهام
 preferences-user-interface-size = حجم واجهة المستخدم
 preferences-when-adding-default-to-current-deck = معاملة الرزمة الحالية كرزمة افتراضية عند إضافة بطاقات
@@ -73,7 +74,6 @@ preferences-network-timeout = مهلة الشبكة
 preferences-reset-window-sizes = تصفير أحجام النوافذ
 preferences-reset-window-sizes-complete = تم تصفير أحجام النوافذ ومواقعها.
 preferences-shortcut-placeholder = أدخل اختصارًا غير مستخدم أو اترك الحقل فارغًا لتعطيله.
-preferences-stop-timer-on-answer = إيقاف الموقت عند الإجابة
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
