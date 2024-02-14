@@ -79,6 +79,7 @@ editing-image-occlusion-delete = 删除
 editing-image-occlusion-duplicate = 复制
 editing-image-occlusion-group = 组合
 editing-image-occlusion-ungroup = 取消组合
+editing-image-occlusion-select-all = 全选
 editing-image-occlusion-alignment = 对齐
 editing-image-occlusion-align-left = 靠左对齐
 editing-image-occlusion-align-h-center = 水平居中
