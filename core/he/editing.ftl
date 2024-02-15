@@ -79,6 +79,7 @@ editing-image-occlusion-delete = מחק
 editing-image-occlusion-duplicate = שכפל
 editing-image-occlusion-group = קבץ בחירות
 editing-image-occlusion-ungroup = פרק קבוצה
+editing-image-occlusion-select-all = בחר הכל
 editing-image-occlusion-alignment = יישור
 editing-image-occlusion-align-left = יישור לשמאל
 editing-image-occlusion-align-h-center = מרכוז

@@ -320,11 +320,12 @@ deck-config-updating-cards = מעדכן כרטיסים: { $current_cards_count }
 deck-config-invalid-weights = משקלים חייבים להיות ריקים כדי להשתמש בברירות המחדל, או חייבים להיות 17 מספרים מופרדים בפסיקים.
 deck-config-not-enough-history = אין מספיק היסטוריית חזרות לביצוע פעולה זו.
 deck-config-unable-to-determine-desired-retention = לא ניתן לקבוע שימור אופטימלי.
-deck-config-must-have-1000-reviews =
+deck-config-must-have-400-reviews =
     { $count ->
-        [one] רק חזרה אחת נמצאה.
-       *[other] רק { $count } חזרות נמצאו.
-    }אתה זקוק ל 1000 חזרות לפחות כדי ליצור משקלים מותאמים אישית.
+        [one] נמצאה רק חזרה { $count }. עליך לבצע לפחות 400 חזרות עבור פעולה זו.
+        [two] נמצאו רק { $count } חזרות. עליך לבצע לפחות 400 חזרות עבור פעולה זו.
+       *[other] נמצאו רק { $count } חזרות. עליך לבצע לפחות 400 חזרות עבור פעולה זו.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = משקלי מודל
 deck-config-compute-optimal-weights = בצע אופטימיזציה של משקלי FSRS
