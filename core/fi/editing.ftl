@@ -79,6 +79,7 @@ editing-image-occlusion-delete = Poista
 editing-image-occlusion-duplicate = Monista
 editing-image-occlusion-group = Ryhmitä valinta
 editing-image-occlusion-ungroup = Poista valinnan ryhmitys
+editing-image-occlusion-select-all = Valitse kaikki
 editing-image-occlusion-alignment = Tasaus
 editing-image-occlusion-align-left = Tasaa vasemalle
 editing-image-occlusion-align-h-center = Keskitä vaakasuunnassa

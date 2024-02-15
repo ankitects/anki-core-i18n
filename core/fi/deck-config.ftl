@@ -277,11 +277,11 @@ deck-config-updating-cards = Päivitetään kortteja: { $current_cards_count }/{
 deck-config-invalid-weights = Painokertoimet on joko jätettävä tyhjäksi, jolloin käytetään oletusarvoja, tai niiden on oltava 17 pilkulla erotettua numeroa.
 deck-config-not-enough-history = Ei riittävästi menneitä kertauksia tämän toiminnon suorittamiseen.
 deck-config-unable-to-determine-desired-retention = Optimaalisen retention määrittäminen ei onnistunut.
-deck-config-must-have-1000-reviews =
+deck-config-must-have-400-reviews =
     { $count ->
-        [one] Vain { $count } kertaus löytyi.
-       *[other] Vain { $count } kertausta löytyi.
-    } Mukautettujen painokertoimien luominen vaatii vähintään 1000 kertausta.
+        [one] Vain { $count } kertaus löytyi. Tämä toiminto edellyttää vähintään 400 kertausta.
+       *[other] Vain { $count } kertausta löytyi. Tämä toiminto edellyttää vähintään 400 kertausta.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Mallin painokertoimet
 deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
