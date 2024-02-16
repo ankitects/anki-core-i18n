@@ -323,12 +323,13 @@ deck-config-updating-cards = Aktualizují se karty: { $current_cards_count }/{ $
 deck-config-invalid-weights = Váhy musí být buď ponechány prázdné, kdy se použijí výchozí hodnoty, nebo musí být 17 čísel oddělených čárkou.
 deck-config-not-enough-history = K provedení této operace není dostatečná historie opakování.
 deck-config-unable-to-determine-desired-retention = Nelze určit optimální retenci.
-deck-config-must-have-1000-reviews =
+deck-config-must-have-400-reviews =
     { $count ->
-        [one] Bylo nalezeno pouze { $count } opakování.
-        [few] Byly nalezeny pouze { $count } opakování.
-       *[other] Bylo nalezeno pouze { $count } opakování.
-    } Musíte mít alespoň 1000 opakování, aby se vygenerovaly vlastní váhy.
+        [one] Bylo nalezeno pouze { $count } opakování. Tato činnost vyžaduje alespoň 400 opakování.
+        [few] Byly nalezeny pouze { $count } opakování. Tato činnost vyžaduje alespoň 400 opakování.
+        [many] Bylo nalezeno pouze { $count } opakování. Tato činnost vyžaduje alespoň 400 opakování.
+       *[other] Bylo nalezeno pouze { $count } opakování. Tato činnost vyžaduje alespoň 400 opakování.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Váhy modelu
 deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
