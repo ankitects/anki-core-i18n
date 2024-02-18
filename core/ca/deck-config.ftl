@@ -311,11 +311,11 @@ deck-config-updating-cards = S’estan actualitzant les targetes: { $current_car
 deck-config-invalid-weights = Deixeu els paràmetres en blanc per a utilitzar els valors per defecte o introduïu 17 nombres separats per comes.
 deck-config-not-enough-history = La quantitat de repassos és insuficient per a executar aquesta operació.
 deck-config-unable-to-determine-desired-retention = No s’ha pogut determinar un nivell de retenció òptim.
-deck-config-must-have-1000-reviews =
+deck-config-must-have-400-reviews =
     { $count ->
-        [one] Només s’ha trobat un repàs.
-       *[other] Només s’han trobat { $count } repassos.
-    } Per a generar uns paràmetres personalitzats, calen almenys 1000 repassos.
+        [one] Només s’ha trobat un repàs. Per a dur a terme aquesta acció, heu de tenir almenys 400 repassos.
+       *[other] Només s’han trobat { $count } repassos. Per a dur a terme aquesta acció, heu de tenir almenys 400 repassos.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Paràmetres FSRS
 deck-config-compute-optimal-weights = Optimitza els paràmetres FSRS
