@@ -18,8 +18,8 @@ deck-config-title = Opzioni del mazzo
 deck-config-daily-limits = Limiti giornalieri
 deck-config-new-limit-tooltip =
     Il massimo numero di nuove carte da introdurre in un giorno, se sono disponibili nuove carte.
-    Visto che nuovo materiale aumenterà la quantità di lavoro a breve termine, questo dovrebbe
-    essere almeno 10x più piccolo del numero di ripetizioni.
+    Poiché il nuovo materiale aumenterà il carico di lavoro a breve termine, questo dovrebbe
+    essere in genere almeno 10 volte inferiore al numero di ripetizioni.
 deck-config-review-limit-tooltip =
     Il massimo numero di carte da ripetere in un giorno,
     se le carte sono pronte per essere ripassate.
@@ -30,7 +30,7 @@ deck-config-limit-new-bound-by-reviews =
     Il limite di ripetizioni influenza il limite delle nuove carte. Per esempio, se il limite di
     ripetizioni è 200, e hai 190 carte in attesa, verranno introdotte massimo 10 nuove carte. Se il tuo limite di ripetizioni è stato raggiunto, non verrà mostrata nessuna nuova carta.
 deck-config-limit-interday-bound-by-reviews =
-    Il limite di ripetizioni infuenza anche le carte in apprendimento intergiornaliero.
+    Il limite di ripetizioni influenza anche le carte in apprendimento intergiornaliero.
     Quando si applica il limite, vengono raccolte prima le carte in apprendimento intergiornaliero,
     poi le carte da ripetere, e infine le carte nuove.
 deck-config-tab-description =
