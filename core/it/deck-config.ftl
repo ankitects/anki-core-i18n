@@ -24,7 +24,7 @@ deck-config-review-limit-tooltip =
     Il massimo numero di carte da ripetere in un giorno,
     se le carte sono pronte per essere ripassate.
 deck-config-limit-deck-v3 =
-    Quando si studia un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano il numero massimo di carte estratte da quel particolare mazzo.
+    Quando si studia un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano il numero massimo di carte recuperate da quel particolare mazzo.
     I limiti del mazzo padre controllano il totale delle carte che verranno mostrate.
 deck-config-limit-new-bound-by-reviews =
     Il limite di ripetizioni influisce sul limite delle nuove carte. Per esempio, se il limite
@@ -269,18 +269,18 @@ deck-config-clone-group = Clona preimpostazione
 
 ## Removing
 
-deck-config-remove-group = Rimuovi Predefinito
+deck-config-remove-group = Rimuovi preimpostazione
 deck-config-will-require-full-sync =
-    Il cambiamento richiesto richiede una sincronizzazione a senso unico. Se hai fatto
+    Il cambiamento richiesto richiede una sincronizzazione a senso unico. Se hai effettuato
     cambiamenti su un altro dispositivo, e non li hai ancora sincronizzati con questo
     dispositivo, per favore fallo prima di procedere.
-deck-config-confirm-remove-name = Rimuovi { $name }?
+deck-config-confirm-remove-name = Vuoi rimuovere { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Salva
 deck-config-save-to-all-subdecks = Salva su tutti i mazzi figli
-deck-config-save-and-optimize = Ottimizza tutti i preset
+deck-config-save-and-optimize = Ottimizza tutte le preimpostazioni
 deck-config-revert-button-tooltip = Ripristina questa impostazione al suo valore predefinito.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -288,7 +288,7 @@ deck-config-revert-button-tooltip = Ripristina questa impostazione al suo valore
 
 deck-config-description-new-handling = Gestione Anki 2.1.41+
 deck-config-description-new-handling-hint =
-    Tratta l'input come markdown, e cancella l'input HTML. Quando abilitato, la descrizione sarà mostrata anche sulla schermata di congratulazioni.
+    Tratta l'input come Markdown, e cancella l'input HTML. Quando abilitato, la descrizione sarà mostrata anche sulla schermata di congratulazioni.
     Markdown apparirà come testo su versioni di Anki inferiori o uguali a 2.1.40.
 
 ## Warnings shown to the user
@@ -306,11 +306,11 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = L'intervallo di promozione dovrebbe essere lungo almeno quanto il passo finale di apprendimento.
 deck-config-good-above-easy = L'intervallo delle carte facili dovrebbe essere lungo almeno quanto l'intervallo di promozione.
 deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto il passo finale di riapprendimento.
-deck-config-maximum-answer-secs-above-recommended = Anki può programmare le tue ripetizioni in modo più efficiente se mantieni ogni domanda breve.
+deck-config-maximum-answer-secs-above-recommended = Anki può pianificare le ripetizioni in modo più efficiente se le domande sono mantenute brevi.
 
 ## Selecting a deck
 
-deck-config-which-deck = Quale mazzo desideri?
+deck-config-which-deck = Per quale mazzo desideri visualizzare le opzioni?
 
 ## Messages related to the FSRS scheduler
 
@@ -329,7 +329,7 @@ deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
-deck-config-optimize-all-tip = Puoi ottimizzare tutti i preset contemporaneamente utilizzando il pulsante in alto.
+deck-config-optimize-all-tip = Puoi ottimizzare tutte le preimpostazioni contemporaneamente utilizzando il pulsante in alto.
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
 deck-config-sm2-retention = Ritenzione SM2
@@ -344,15 +344,14 @@ deck-config-complete = { $num }% completo.
 deck-config-iterations = Iterazione: { $count }...
 deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
 deck-config-fsrs-tooltip =
-    Influenza l'intera collezione.
+    Influisce sull'intera collezione.
     
     FSRS (Free Spaced Repetition Scheduler; in italiano: "Pianificatore di Ripetizione Spaziata Libera") 
     costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
     Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
-    più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutti i preset.
+    più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutte le preimpostazioni.
     
-    Se hai precedentemente utilizzato la versione non nativa di FSRS (basata l'aggiunta di codice customizzato nella sezione Pianificazione Personalizzata), 
-    assicurati di svuotare la sezione Pianificazione Personalizzata prima di abilitare questa opzione.
+    Se in precedenza hai utilizzato la versione "Pianificazione Personalizzata" di FSRS, assicurati di aver svuotato la sezione prima di abilitare questa opzione.
 deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo che tu abbia una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Se aumenti questo valore, Anki mostrerà le carte più frequentemente per incrementare le possibilità che le ricordi. Se diminuisci il valore, Anki mostrerà le carte meno frequentemente e rischierai di dimenticarle.
     
@@ -364,10 +363,10 @@ deck-config-sm2-retention-tooltip =
     N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che tu non abbia deciso di eliminarli per liberare spazio, per cui la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
 deck-config-weights-tooltip =
     I parametri FSRS influenzano la pianificazione delle carte.
-    La prima volta volta che attivi FSRS, Anki userà i parametri default.
+    La prima volta volta che attivi FSRS, Anki userà i parametri predefiniti.
     Una volta che hai accumulato 1000 o più ripetizioni, puoi ottimizzare i parametri utilizzando le impostazioni qui di seguito.
 deck-config-reschedule-cards-on-change-tooltip =
-    N.B.: influenza l'intera collezione.
+    N.B.: influisce sull'intera collezione.
     
     Questa opzione controlla se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i parametri. 
     L'impostazione default è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
@@ -381,10 +380,10 @@ deck-config-reschedule-cards-warning =
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
     e generare automaticamente parametri ottimali per la tua memoria e i contenuti che stai studiando. 
-    Se hai mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preset separati, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
+    Se hai mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preimpostazioni separate, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
     Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
-    Di default, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano il preset corrente. Facoltativamente, prima di calcolare i parametri, puoi modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
+    Di default, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, puoi modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
 deck-config-compute-optimal-retention-tooltip =
     Questo strumento presuppone che tu stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
     che sarai in grado di ricordare nel periodo di tempo specificato. 
@@ -404,7 +403,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = Ottimizzazione del preset { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Abilita prima FSRS.
-deck-config-wait-for-audio = Attendi audio
+deck-config-wait-for-audio = Attendi l'audio
 deck-config-show-reminder = Mostra promemoria
 deck-config-answer-again = Rispondi Ripeti
 deck-config-answer-hard = Rispondi Difficile
@@ -425,5 +424,5 @@ deck-config-bury-tooltip =
     Quando è attivata, Anki *seppellirà* automaticamente le carte sorelle, nascondendole fino al giorno successivo. 
     Questa opzione ti consente di scegliere quali tipi di carte verranno sepolti quando si risponde ad una delle loro carte sorelle.
     
-    Quando si utilizza lo scheduler V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
-    Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento corrente di uno o più giorni.
+    Quando si utilizza il pianificatore V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
+    Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento attuale di uno o più giorni.
