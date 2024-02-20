@@ -76,29 +76,29 @@ deck-config-easy-interval-tooltip =
     è usato per rimuovere immediatamente una carta dall'apprendimento.
 deck-config-new-insertion-order = Ordine di inserimento
 deck-config-new-insertion-order-tooltip =
-    Controlla la posizione (Scadenza #) alla quale le nuove carte vengono assegnate quando le aggiungi.
-    Carte con un numero di scadenza basso verranno mostrate prima durante lo studio. Cambiando
-    questa opzione aggiornerà automaticamente la posizione corrente delle nuove carte.
+    Determina la posizione (numero di scadenza) assegnata alle nuove carte quando se ne aggiungono di nuove.
+    Carte con un numero di scadenza inferiore verranno mostrate per prime durante lo studio. Cambiando
+    questa opzione si aggiornerà automaticamente la posizione attuale delle nuove carte.
 deck-config-new-insertion-order-sequential = Sequenziale (prima le carte più vecchie)
 deck-config-new-insertion-order-random = Casuale
-deck-config-new-insertion-order-random-with-v3 = Con lo scheduler V3, è meglio lasciarlo impostato su sequenziale, e modificare invece l'ordine di raccolta delle nuove carte.
+deck-config-new-insertion-order-random-with-v3 = Con il pianificatore V3, è meglio lasciarlo impostato su sequenziale, e modificare invece l'ordine di recupero delle nuove carte.
 
 ## Lapses section
 
 deck-config-relearning-steps = Passi di riapprendimento
 deck-config-relearning-steps-tooltip =
-    Zero o più ritardi, separati da spazi. Di default, premendo il bottone `Ripeti`
+    Zero o più ritardi, separati da spazi. Per impostazione predefinita, premendo il tasto `Ripeti`
     su una carta da ripassare la rimostrerà dopo 10 minuti. Se nessun ritardo
-    è specificato, la carta avrà il suo intervallo cambiato, senza entrare
-    la fase di riapprendimento. { -deck-config-delay-hint }
+    è specificato, l'intervallo della carta verrà cambiato, senza entrare
+    nella fase di riapprendimento. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Il numero di volte che `Ripeti` deve essere premuto su una carta da ripassare prima
-    che essa sia marcata come sanguisuga. Le sanguisughe sono carte che richiedono molto
-    del tuo temo, e quando una carta è marcata come sanguisuga, è una buona idea riscriverla,
+    che questa venga contrassegnata come sanguisuga. Le sanguisughe sono carte che richiedono molto
+    del tuo tempo, e quando una carta è contrassegnata come sanguisuga, è una buona idea riscriverla,
     cancellarla o pensare ad un espediente mnemonico per ricordarla.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Solo Etichetta`: aggiungi l'etichetta `Sanguisuga` alla nota, e mostra un pop-up.
+    `Etichetta Soltanto`: aggiungi l'etichetta `Sanguisuga` alla nota, e mostra un pop-up.
     
     `Sospendi Carta`: oltre ad aggiungere l'etichetta, nascondi la carta fino a
     quando non è rimossa manualmente dalla sospensione.
@@ -115,35 +115,35 @@ deck-config-bury-new-tooltip =
 deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della stessa nota debbano essere rimandate fino al giorno successivo.
 deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
 deck-config-bury-priority-tooltip =
-    Quando Anki raccoglie le carte, le organizza in base alla priorità di apprendimento. 
-    In particolare, raccoglie prima le carte in apprendimento intragiornaliero, poi quelle in apprendimento intergiornaliero, 
-    quindi le carte da ripetere e infine le nuove carte. 
-    Questo ha un impatto sulla funzione di "sepoltura" delle carte:
+    Quando Anki recupera le carte, recupera prima le carte
+    in apprendimento intragiornaliero, poi quelle in apprendimento intergiornaliero, quindi le carte da ripetere e infine le nuove carte. 
+    Questo ha un impatto
+    sulla funzione di "sepoltura" delle carte:
     
-    - Se hai abilitato tutte le opzioni di sepoltura, verrà mostrata la carta sorella che viene prima nella lista appena descritta. 
+    - Se sono state abilitate tutte le opzioni di sepoltura, verrà mostrata la carta sorella che viene prima nella lista appena descritta. 
     Ad esempio, una carta da ripetere avrà la priorità rispetto a una nuova carta.
-    - Le carte sorelle che seguono nella lista non influenzano i tipi di carte precedenti. 
-    Ad esempio, se disabiliti la funzione di sepoltura per le nuove carte e studi una nuova carta, 
-    non verrà seppellita nessuna carta in apprendimento intergiornaliero o da ripetere. 
-    Pertanto, potresti incontrare sia una carta sorella da ripetere che una nuova carta sorella nella stessa sessione.
+    - Le carte sorelle che seguono nella lista non influiscono sui tipi di carte precedenti. 
+    Ad esempio, se si disabilita la funzione di sepoltura per le nuove carte e si studia una nuova carta, 
+    non verrà seppellita alcuna carta in apprendimento intergiornaliero o da ripetere. 
+    Pertanto, si potrebbe incontrare sia una carta sorella da ripetere che una nuova carta sorella nella stessa sessione.
 
 ## Ordering section
 
 deck-config-ordering-title = Ordine di presentazione
-deck-config-new-gather-priority = Ordine di raccolta delle nuove carte
+deck-config-new-gather-priority = Ordine di recupero delle nuove carte
 deck-config-new-gather-priority-tooltip-2 =
-    `Mazzo`: raccoglie carte da ogni mazzo in ordine, iniziando dalla cima. Le carte di ciascun mazzo sono raccolte in posizione crescente. 
-    Se viene raggiunto il limite giornaliero del mazzo selezionato, la raccolta potrebbe interrompersi prima che siano stati controllati tutti i mazzi. 
+    `Mazzo`: recupera carte da ogni mazzo in ordine, iniziando dalla cima. Le carte di ciascun mazzo vengono recuperate in posizione crescente. 
+    Se viene raggiunto il limite giornaliero del mazzo selezionato, il recupero potrebbe interrompersi prima che siano stati controllati tutti i mazzi. 
     Questo ordine è veloce soprattutto per collezioni di grandi dimensioni, e permette di dare la priorità ai mazzi figli più vicini alla cima dell'elenco.
     
-    `Posizione crescente`: raccoglie le carte in ordine crescente (scadenza #); in genere, ciò vuol dire dare la priorità alle carte aggiunte per prime. 
+    `Posizione crescente`: recupera le carte in ordine crescente (numero di scadenza); in genere, ciò vuol dire dare la priorità alle carte aggiunte per prime. 
     
-    `Posizione decrescente`: raccoglie le carte in ordine decrescente (scadenza #); in genere ciò significa dare la priorità alle carte aggiunte più di recente.
+    `Posizione decrescente`: recupera le carte in ordine decrescente (numero di scadenza); in genere ciò significa dare la priorità alle carte aggiunte più di recente.
     
-    `Casuale (note)`: seleziona delle note in maniera casuale e quindi ne raccoglie le carte. 
+    `Casuale (note)`: seleziona delle note in maniera casuale e quindi ne recupera le carte. 
     Se la sepoltura delle carte sorelle è disabilitata, ciò permette di vedere tutte le carte di una nota in una singola sessione (es. sia la carta fronte→retro che la carta retro→fronte).
     
-    `Casuale (carte)`: raccoglie le carte in maniera completamente casuale.
+    `Casuale (carte)`: recupera le carte in maniera completamente casuale.
 deck-config-new-gather-priority-deck = Mazzo
 deck-config-new-gather-priority-deck-then-random-notes = Mazzo, quindi note casuali
 deck-config-new-gather-priority-position-lowest-first = Posizione crescente
@@ -152,25 +152,25 @@ deck-config-new-gather-priority-random-notes = Casuale (note)
 deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordine delle nuove carte
 deck-config-new-card-sort-order-tooltip-2 =
-    `Tipo di carta, poi in ordine di raccolta`: mostra le carte seguendo l'ordine dei tipi di carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
+    `Tipo di carta, poi in ordine di recupero`: mostra le carte seguendo l'ordine dei tipi di carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
     
-    `Ordine di raccolta`: mostra le carte nell'ordine di raccolta. Se la sepoltura delle carte sorelle è disabilitata, in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra.
+    `Ordine di recupero`: mostra le carte nell'ordine di recupero. Se la sepoltura delle carte sorelle è disabilitata, in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra.
     
-    `Tipo di carta, quindi casuale`: identico a `Tipo di carta, poi ordine di raccolta`, ma le carte dello stesso tipo vengono mostrate in ordine casuale. Se usi `Posizione crescente` per vedere le carte più vecchie per prime, potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.
+    `Tipo di carta, quindi casuale`: identico a `Tipo di carta, poi ordine di recupero`, ma le carte dello stesso tipo vengono mostrate in ordine casuale. Se usi `Posizione crescente` per vedere le carte più vecchie per prime, potresti sfruttare questa impostazione per vedere tali carte in ordine casuale, ma assicurando sempre che le carte di una stessa nota non finiscano troppo vicine le une alle altre.
     
-    `Nota casuale, quindi tipo di carta`: raccoglie note in maniera casuale, quindi mostra tutte le loro carte, in ordine.
+    `Nota casuale, quindi tipo di carta`: recupera le note in maniera casuale, quindi mostra tutte le loro carte, in ordine.
     
-    `Casuale`: mescola completamente le carte raccolte.
+    `Casuale`: mescola completamente le carte recuperate.
 deck-config-sort-order-card-template-then-random = Tipo di carta, poi in ordine casuale
 deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
 deck-config-sort-order-random = Casuale
 deck-config-sort-order-template-then-gather = Tipo di carta
-deck-config-sort-order-gather = Ordine di raccolta
+deck-config-sort-order-gather = Ordine di recupero
 deck-config-new-review-priority = Ordine nuove/da ripassare
 deck-config-new-review-priority-tooltip = Quando mostrare le nuove carte in relazione a quelle da ripassare.
 deck-config-interday-step-priority = Ordine apprendimento intergiornaliero/ripetizioni
 deck-config-interday-step-priority-tooltip =
-    Quando mostrare carte in (re)apprendimento che superano la soglia di un giorno.
+    Quando mostrare le carte in (re)apprendimento che superano la soglia di un giorno.
     
     Il limite di ripetizioni è sempre applicato prima alle carte in apprendimento intergiornaliero
     e solo poi a quelle da ripetere. Questa opzione controllerà l'ordine secondo il quale le carte raccolte
@@ -180,7 +180,7 @@ deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
 deck-config-review-mix-show-before-reviews = Mostra prima delle carte da ripassare
 deck-config-review-sort-order = Ordine delle carte da ripassare
 deck-config-review-sort-order-tooltip =
-    L'ordine di default dà priorità alle carte che sono in attesa da più tempo, così
+    L'ordine predefinito dà priorità alle carte che sono in attesa da più tempo, così
     se hai una lista di carte arretrate, quella che sta aspettando da più tempo
     apparirà per prima. Se hai una lunga lista che richiederebbe più di qualche giorno
     per essere completata, o desideri vedere le carte secondo l'ordine dei mazzi figli,
@@ -202,7 +202,7 @@ deck-config-display-order-will-use-current-deck =
 ## Timer section
 
 deck-config-timer-title = Timer
-deck-config-maximum-answer-secs = Massimo di secondi per risposta
+deck-config-maximum-answer-secs = Tempo massimo di risposta in secondi
 deck-config-maximum-answer-secs-tooltip =
     Il numero massimo di secondi da registrare per singolo ripasso. Se una risposta
     supera questo tempo (per esempio perché ti sei allontanato dallo schermo),
@@ -220,53 +220,52 @@ deck-config-stop-timer-on-answer-tooltip =
 deck-config-seconds-to-show-question = Secondi per i quali mostrare la domanda
 deck-config-seconds-to-show-question-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di rivelare la risposta. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi per i quali mostrare la risposta
-deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'Azione di risposta. Imposta a 0 per disabilitare.
+deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'azione di risposta. Imposta a 0 per disabilitare.
 deck-config-answer-action = Azione di risposta
-deck-config-answer-action-tooltip = L'azione da svolgere sulla carta corrente prima di avanzare automaticamente alla successiva.
-deck-config-wait-for-audio-tooltip = Aspetta la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
+deck-config-answer-action-tooltip = L'azione da svolgere sulla carta attuale prima di passare automaticamente alla successiva.
+deck-config-wait-for-audio-tooltip = Attendi la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
 
 ## Audio section
 
 deck-config-audio-title = Audio
-deck-config-disable-autoplay = Non riprodurre audio automaticamente
+deck-config-disable-autoplay = Non riprodurre l'audio automaticamente
 deck-config-disable-autoplay-tooltip =
     Se abilitato, Anki non riprodurrà l'audio automaticamente.
     Può essere riprodotto manualmente facendo click/toccando un'icona audio, o utilizzando il comando di riproduzione audio.
 deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzione della risposta
 deck-config-always-include-question-audio-tooltip =
-    Se l'audio della domanda deve essere incluso quando usi l'azione "Riproduci di nuovo"
-    mentre guardi alla risposta della carta.
+    Determina se l'audio della domanda deve essere incluso quando si usa l'azione "Riproduci di nuovo"
+    mentre si guarda il lato della risposta di una carta.
 
 ## Advanced section
 
 deck-config-advanced-title = Avanzato
 deck-config-maximum-interval-tooltip =
-    Il massimo numero di giorni che una carta da ripassare deve aspettare. Quando
-    le ripetizioni hanno raggiunto il limite, `Difficile`, `Normale`, `Facile` daranno lo
-    stesso intervallo di tempo. Più basso lo imposti, maggiore sarà il tuo carico di lavoro.
+    Il numero massimo di giorni di attesa per una carta da ripassare. Quando
+    le ripetizioni hanno raggiunto il limite, `Difficile`, `Normale`, `Facile` daranno tutti lo
+    stesso intervallo di tempo. Quanto più breve è questo valore, tanto maggiore sarà il carico di lavoro.
 deck-config-starting-ease-tooltip =
-    Il moltiplicatore facilità con il quale iniziano le nuove carte. Di default, il bottone
-    `Facile` su una nuova carta imparata ritarderà la prossima ripetizione di 2,5 volte
-    l'intervallo precedente.
+    Il moltiplicatore di facilità con il quale iniziano le nuove carte. Per impostazione predefinita, il tasto
+    `Facile` su una carta appena appresa ritarda la ripetizione successiva di 2,5 volte rispetto all'intervallo precedente.
 deck-config-easy-bonus-tooltip =
     Un moltiplicatore aggiuntivo che è applicato all'intervallo di una carta ripassata
-    quando la ritieni `Facile`.
+    quando la si valuta `Facile`.
 deck-config-interval-modifier-tooltip =
-    Questo moltiplicatore è applicato a tutte le ripetizioni, e piccoli aggiustamenti possono
-    essere usati per rendere la pianificazione di Anki più conservativa o aggressiva.
+    Questo moltiplicatore è applicato a tutte le ripetizioni, e piccole modifiche possono
+    essere usate per rendere la pianificazione di Anki più conservativa o aggressiva.
     Consulta il manuale prima di cambiare questa opzione.
-deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una ripetizione quando la reputi `Difficile`.
-deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando clicchi su `Ripeti`.
+deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una ripetizione quando la si valuta `Difficile`.
+deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando si clicca su `Ripeti`.
 deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver cliccato `Ripeti`.
 deck-config-custom-scheduling = Pianificazione personalizzata
-deck-config-custom-scheduling-tooltip = Influenza l'intera collezione. Usa a tuo rischio e pericolo!
+deck-config-custom-scheduling-tooltip = Influisce sull'intera collezione. Usa a tuo rischio e pericolo!
 
 ## Adding/renaming
 
-deck-config-add-group = Aggiungi Predefinito
+deck-config-add-group = Aggiungi preimpostazione
 deck-config-name-prompt = Nome
-deck-config-rename-group = Rinomina Predefinito
-deck-config-clone-group = Clona Predefinito
+deck-config-rename-group = Rinomina preimpostazione
+deck-config-clone-group = Clona preimpostazione
 
 ## Removing
 
