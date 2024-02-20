@@ -4,6 +4,7 @@ actions-any-selected = Nada seleccionado
 actions-cancel = Cancelar
 actions-choose = Seleccionar
 actions-close = Cerrar
+actions-discard = Descartar
 actions-copy = Copiar
 actions-create-copy = Crear copia
 actions-custom-study = Estudio personalizado
@@ -55,7 +56,6 @@ actions-previous-card-info = Información de la tarjeta anterior
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action } ...
-actions-currently-unsupported = Esta acción actualmente no es compatible con su sistema.
 
 ## Flags
 
@@ -71,3 +71,5 @@ actions-set-flag = Elegir marcador
 actions-nothing-to-undo = No hay nada que deshacer
 actions-nothing-to-redo = Nada que rehacer
 actions-auto-advance = Avance Automático
+actions-auto-advance-activated = Avance Automático activado
+actions-auto-advance-deactivated = Avance Automático desactivado
