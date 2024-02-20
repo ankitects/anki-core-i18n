@@ -79,6 +79,7 @@ editing-image-occlusion-delete = 刪除
 editing-image-occlusion-duplicate = 複製
 editing-image-occlusion-group = 群組所選物件
 editing-image-occlusion-ungroup = 解散群組所選物件
+editing-image-occlusion-select-all = 選取全部
 editing-image-occlusion-alignment = 對齊
 editing-image-occlusion-align-left = 靠左對齊
 editing-image-occlusion-align-h-center = 水平置中

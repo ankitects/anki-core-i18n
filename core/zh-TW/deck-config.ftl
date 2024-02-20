@@ -225,17 +225,14 @@ deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $to
 deck-config-invalid-weights = 參數必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
 deck-config-not-enough-history = 歷史複習次數過少，無法執行此動作。
 deck-config-unable-to-determine-desired-retention = 無法計算出最佳留存率。
-deck-config-must-have-1000-reviews =
-    { $count ->
-       *[other] 只找到了 { $count } 筆複習記錄。至少需要 1000 筆複習記錄才能執行此動作。
-    }
+deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。至少需要 400 筆複習記錄才能執行此動作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-optimal-retention = 計算最佳留存率
 deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
-deck-config-optimize-all-tip = 你可以使用頂端的按鈕來一次最佳化所有預設組。
+deck-config-optimize-all-tip = 你可以在「儲存」右邊的下拉式選單中一次最佳化所有預設組。
 deck-config-evaluate-button = 評估
 deck-config-desired-retention = 期望留存率
 deck-config-sm2-retention = SM2 留存率
