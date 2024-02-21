@@ -9,7 +9,7 @@ card-templates-front-preview = 正面预览
 card-templates-back-preview = 背面预览
 card-templates-preview-box = 预览
 card-templates-template-box = 内容模板
-card-templates-sample-cloze = 这是一个 { "{{c1::" }示例{ "}}" } 的空格。
+card-templates-sample-cloze = 这是一个 { "{{c1::" }示例{ "}}" } 的填空。
 card-templates-fill-empty = 在空字段中填入内容
 card-templates-night-mode = 夜间模式
 # Add "mobile" class to card preview, so the card appears like it would
@@ -30,7 +30,7 @@ card-templates-at-least-one-card-type-is = 至少保留一种卡片模板
 card-templates-browser-appearance = 浏览器预置样式…
 card-templates-card = 卡片 { $val }
 card-templates-card-types-for = { $val } 的卡片模板
-card-templates-cloze = 空格 { $val }
+card-templates-cloze = 填空 { $val }
 card-templates-deck-override = 覆盖牌组…
 card-templates-delete-the-as-card-type-and = 确定删除「{ $template }」卡片模板及从属于它的 { $cards } 吗？
 card-templates-enter-deck-to-place-new = 请输入要将 { $val } 张新卡片放入的牌组名称（可留空）：
