@@ -24,19 +24,19 @@ deck-config-review-limit-tooltip =
     Il massimo numero di carte da ripetere in un giorno,
     se le carte sono pronte per essere ripassate.
 deck-config-limit-deck-v3 =
-    Quando si studia un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano il numero massimo di carte recuperate da quel particolare mazzo.
+    Quando studi un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano il numero massimo di carte recuperate da quel particolare mazzo.
     I limiti del mazzo padre controllano il totale delle carte che verranno mostrate.
 deck-config-limit-new-bound-by-reviews =
     Il limite di ripetizioni influisce sul limite delle nuove carte. Per esempio, se il limite
     di ripetizioni è 200 e ci sono 190 carte in attesa, verranno introdotte al massimo 10 nuove carte. Se il limite di ripetizioni è stato raggiunto, non verrà mostrata alcuna nuova carta.
 deck-config-limit-interday-bound-by-reviews =
     Il limite di ripetizioni influisce anche sulle carte in apprendimento intergiornaliero.
-    Quando si applica il limite, vengono estratte prima le carte in apprendimento intergiornaliero,
+    Quando si applica il limite, vengono recuperate prima le carte in apprendimento intergiornaliero,
     poi le carte da ripetere, e infine le carte nuove.
 deck-config-tab-description =
-    - `Preimpostazione`: il limite è condiviso da tutti i mazzi che usano questa preimpostazione.¶
-    - `Questo Mazzo`: il limite è specifico per questo mazzo.¶
-    - `Solo Oggi`: modifica temporanea del limite di questo mazzo.
+    - `Preimpostazione`: Il limite è condiviso da tutti i mazzi che usano questa preimpostazione.
+    - `Questo Mazzo`: Il limite è specifico per questo mazzo.
+    - `Solo Oggi`: Modifica temporanea del limite di questo mazzo.
 deck-config-new-cards-ignore-review-limit = Ignora le nuove carte nel conteggio ripetizioni/giorno
 deck-config-new-cards-ignore-review-limit-tooltip =
     Per impostazione predefinita, il limite di ripetizioni si applica anche alle nuove carte e non verranno mostrate nuove carte
@@ -60,14 +60,14 @@ deck-config-today-only = Solo oggi
 
 deck-config-learning-steps = Passi di apprendimento
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = I ritardi sono generalmente minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
+-deck-config-delay-hint = I ritardi sono generalmente espressi in minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
 deck-config-learning-steps-tooltip =
-    Uno o più ritardi, separati da spazi. Il primo ritardo verrà usato
-    quando si preme il tasto "Ripeti" su una nuova carta,
+    Uno o più ritardi, separati da spazi. Il primo ritardo viene usato
+    quando premi il tasto "Ripeti" su una nuova carta,
     di default 1 minuto.
-    Il tasto "Normale" avanzerà al passo successivo, di default 10 minuti.
-    Una volta che tutti i passi sono stati completati, la carta diventerà una carta da ripassare,
-    ed apparirà in un giorno differente. { -deck-config-delay-hint }
+    Il tasto "Normale" avanza al passo successivo, di default 10 minuti.
+    Una volta che tutti i passi sono stati completati, la carta diventa una carta da ripassare,
+    e verrà mostrata in un giorno differente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Il numero di giorni da attendere prima di mostrare nuovamente una carta, dopo che il tasto "Normale"
     è stato premuto nel passo di apprendimento finale.
@@ -81,7 +81,7 @@ deck-config-new-insertion-order-tooltip =
     questa opzione si aggiornerà automaticamente la posizione attuale delle nuove carte.
 deck-config-new-insertion-order-sequential = Sequenziale (prima le carte più vecchie)
 deck-config-new-insertion-order-random = Casuale
-deck-config-new-insertion-order-random-with-v3 = Con il pianificatore V3, è meglio lasciarlo impostato su sequenziale, e modificare invece l'ordine di recupero delle nuove carte.
+deck-config-new-insertion-order-random-with-v3 = Con il pianificatore V3, è meglio lasciare selezionata l'opzione "sequenziale" e modificare invece l'ordine di recupero delle nuove carte.
 
 ## Lapses section
 
@@ -116,16 +116,16 @@ deck-config-bury-review-tooltip = Scegli se le altre carte `da ripetere` della s
 deck-config-bury-interday-learning-tooltip = Scegli se le altre carte `in apprendimento` della stessa nota, con intervallo > 1 giorno debbano essere rimandate fino al giorno successivo.
 deck-config-bury-priority-tooltip =
     Quando Anki recupera le carte, recupera prima le carte
-    in apprendimento intragiornaliero, poi quelle in apprendimento intergiornaliero, quindi le carte da ripetere e infine le nuove carte. 
-    Questo ha un impatto
-    sulla funzione di "sepoltura" delle carte:
+    in apprendimento intragiornaliero, poi quelle in apprendimento intergiornaliero,
+    quindi le carte da ripetere e infine le nuove carte. 
+    Questo ha un impatto sulla funzione di "sepoltura" delle carte:
     
-    - Se sono state abilitate tutte le opzioni di sepoltura, verrà mostrata la carta sorella che viene prima nella lista appena descritta. 
+    - Se hai abilitato tutte le opzioni di sepoltura, verrà mostrata la carta sorella che viene prima nella lista appena descritta. 
     Ad esempio, una carta da ripetere avrà la priorità rispetto a una nuova carta.
     - Le carte sorelle che seguono nella lista non influiscono sui tipi di carte precedenti. 
-    Ad esempio, se si disabilita la funzione di sepoltura per le nuove carte e si studia una nuova carta, 
+    Ad esempio, se disabiliti la funzione di sepoltura per le nuove carte studi una nuova carta, 
     non verrà seppellita alcuna carta in apprendimento intergiornaliero o da ripetere. 
-    Pertanto, si potrebbe incontrare sia una carta sorella da ripetere che una nuova carta sorella nella stessa sessione.
+    Pertanto, potresti incontrare sia una carta sorella da ripetere che una nuova carta sorella nella stessa sessione.
 
 ## Ordering section
 
@@ -173,8 +173,8 @@ deck-config-interday-step-priority-tooltip =
     Quando mostrare le carte in (re)apprendimento che superano la soglia di un giorno.
     
     Il limite di ripetizioni è sempre applicato prima alle carte in apprendimento intergiornaliero
-    e solo poi a quelle da ripetere. Questa opzione controllerà l'ordine secondo il quale le carte raccolte
-    verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre raccolte per prime.
+    e solo poi a quelle da ripetere. Questa opzione controllerà l'ordine secondo il quale le carte recuperate
+    verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre recuperate per prime.
 deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
 deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
 deck-config-review-mix-show-before-reviews = Mostra prima delle carte da ripassare
