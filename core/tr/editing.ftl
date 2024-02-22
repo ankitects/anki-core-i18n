@@ -23,6 +23,7 @@ editing-toggle-html-editor = HTML Düzenleyiciyi Aç/Kapat
 editing-expand-field = Alanı genişlet
 editing-collapse-field = Alanı daralt
 editing-close-html-tags = HTML etiketlerini otomatik olarak kapat
+editing-from-clipboard = Panodan
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
