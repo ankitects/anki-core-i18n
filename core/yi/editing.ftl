@@ -17,6 +17,17 @@ editing-cut = אויסשנײַדן
 editing-double-click-image = געבן בילד אַ טאָפּלקוועטש
 editing-double-click-to-expand = געבן אַ טאָפּלקוועטש כּדי צו צעוויקלען
 editing-double-click-to-collapse = געבן אַ טאָפּלקוועטש כּדי צו צונויפֿוויקלען
+editing-edit-current = צופּאַסן איצטיקס
+editing-edit-html = צופּאַסן HTML
+editing-fields = פֿעלדער
+editing-indent = פֿאַרגרעסערן אײַנרוק
+editing-italic-text = קורסיוו
+editing-jump-to-tags-with-ctrlandshiftandt = צושפּרינגען צו צעטלען מיט Ctrl+Shift+T
+editing-justify = אױסגלײַכן שורות
+editing-latex = LaTeX
+editing-latex-equation = LaTeX גלײַכונג
+editing-latex-math-env = LaTeX מאַטעמאַטיק קאָנווערט
+editing-media = מעדיע
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
