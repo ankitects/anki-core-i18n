@@ -123,7 +123,7 @@ deck-config-bury-priority-tooltip =
     - Se hai abilitato tutte le opzioni di sepoltura, verrà mostrata la carta sorella che viene prima nella lista appena descritta. 
     Ad esempio, una carta da ripetere avrà la priorità rispetto a una nuova carta.
     - Le carte sorelle che seguono nella lista non influiscono sui tipi di carte precedenti. 
-    Ad esempio, se disabiliti la funzione di sepoltura per le nuove carte studi una nuova carta, 
+    Ad esempio, se disabiliti la funzione di sepoltura per le nuove carte e studi una nuova carta, 
     non verrà seppellita alcuna carta in apprendimento intergiornaliero o da ripetere. 
     Pertanto, potresti incontrare sia una carta sorella da ripetere che una nuova carta sorella nella stessa sessione.
 
