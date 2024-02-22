@@ -2,6 +2,7 @@ actions-add = Ekle
 actions-cancel = İptal
 actions-choose = Seç
 actions-close = Kapat
+actions-discard = vazgeç
 actions-copy = Kopyala
 actions-create-copy = Kopyasını Oluştur
 actions-custom-study = Özel Çalışma
