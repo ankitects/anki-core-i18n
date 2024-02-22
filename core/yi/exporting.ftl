@@ -18,3 +18,27 @@ exporting-include-tags = אַרײַננעמען צעטלעך
 exporting-support-older-anki-versions = באַדינען עלטערע נוסחאָות פֿון אַנקי (פּאַמעלעכעך/גרעסער טעקעס)
 exporting-notes-in-plain-text = נאָטיצן אין סתּם טעקסט
 exporting-selected-notes = אויסגעקליבענע נאָטיצן
+exporting-card-exported =
+    { $count ->
+        [one] { $count } קאַרטל אַרויסגעפֿירט.
+       *[other] { $count } קאַרטלעך אַרויסגעפֿירט.
+    }
+exporting-exported-media-file =
+    { $count ->
+        [one] { $count } מעדיע טעקע איז אַרויסגעפֿירט געוואָרן.
+       *[other] { $count }  מעדיע טעקעס זענען אַרויסגעפֿירט געוואָרן.
+    }
+exporting-note-exported =
+    { $count ->
+        [one] { $count } נאָטיץ איז אַרויסגעפֿירט געוואָרן.
+       *[other] { $count } נאָטיצן זענען אַרויסגעפֿירט געוואָרן.
+    }
+exporting-exporting-file = אַרויספֿירנדיק טעקע…
+exporting-processed-media-files =
+    { $count ->
+        [one] { $count } מעדיע טעקע איז פּראָצעסירט געוואָרן.
+       *[other] { $count } מעדיע טעקעס זענען פּראָצעסירט געוואָרן.
+    }
+exporting-include-deck = אַרײַננעמען טעשל-נאָמען.
+exporting-include-notetype = אַרײַננעמען מין נאָטיצן נאָמען.
+exporting-include-guid = אַרײַננעמען יחוד-במינודיקער אָנרוף.
