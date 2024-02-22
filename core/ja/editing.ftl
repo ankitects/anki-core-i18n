@@ -79,6 +79,7 @@ editing-image-occlusion-delete = 削除
 editing-image-occlusion-duplicate = 複製
 editing-image-occlusion-group = 選択対象をグループ化
 editing-image-occlusion-ungroup = 選択対象のグループ化を解除
+editing-image-occlusion-select-all = すべて選択
 editing-image-occlusion-alignment = マスクを整列
 editing-image-occlusion-align-left = 左揃え
 editing-image-occlusion-align-h-center = 左右方向の中央揃え

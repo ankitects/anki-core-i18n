@@ -290,11 +290,7 @@ deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $
 deck-config-invalid-weights = パラメータの欄には、デフォルト値を使用するために何も入力しないままにするか、コンマ (", ") で区切られた17個の数字を入力する必要があります。
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
 deck-config-unable-to-determine-desired-retention = 最適な正答率を推定できませんでした
-deck-config-must-have-1000-reviews =
-    { $count ->
-        [one] 復習履歴が{ $count }件しか見つかりません。
-       *[other] 復習履歴が{ $count }件しか見つかりません。
-    }最適なパラメータを算出するには1000件以上の復習履歴が必要です。
+deck-config-must-have-400-reviews = 復習履歴が{ $count }件しか見つかりません。この操作を実行するには400件以上の復習履歴が必要です。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRSのパラメータ
 deck-config-compute-optimal-weights = FSRSのパラメータを最適化
