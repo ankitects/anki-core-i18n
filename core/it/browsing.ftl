@@ -29,12 +29,12 @@ browsing-clear-unused-tags = Cancella etichette non utilizzate
 browsing-confirm-saved-search-overwrite = Esiste già una ricerca salvata con il nome { $name }. Vuoi sovrascriverla?
 browsing-created = Creato
 browsing-current-deck = Mazzo corrente
-browsing-current-note-type = Tipo di nota corrente:
+browsing-current-note-type = Tipo di nota attuale:
 browsing-delete-notes = Elimina le note
 browsing-duplicate = duplicato
 browsing-ease = Facilità
-browsing-enter-tags-to-add = Inserisci etichette da aggiungere:
-browsing-enter-tags-to-delete = Inserisci etichette da eliminare:
+browsing-enter-tags-to-add = Inserisci le etichette da aggiungere:
+browsing-enter-tags-to-delete = Inserisci le etichette da eliminare:
 browsing-filtered = (filtrato)
 browsing-find = <b>Trova</b>:
 browsing-find-and-replace = Trova e sostituisci
@@ -81,13 +81,14 @@ browsing-selected-notes-only = Solo note selezionate
 browsing-shift-position-of-existing-cards = Sposta le carte esistenti
 browsing-sidebar = Barra laterale
 browsing-sidebar-filter = Filtro barra laterale
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Campo ordinamento
 browsing-sorting-on-this-column-is-not = L'ordinamento per questa colonna non è supportato. Scegli un'altra colonna.
 browsing-start-position = Posizione di partenza:
 browsing-step = Passo:
 browsing-suspended = Sospese
 browsing-tag-duplicates = Etichetta duplicati
-browsing-tag-rename-warning-empty = Non puoi rinominare un'etichetta che non ha nessuna nota.
+browsing-tag-rename-warning-empty = Non puoi rinominare un'etichetta che non ha alcuna nota.
 browsing-target-field = Campo bersaglio:
 browsing-toggle-bury = Attiva/disattiva sepoltura
 browsing-toggle-showing-cards-notes = Alterna visualizzazione Carte/Note
@@ -163,6 +164,7 @@ browsing-reparented-decks =
         [one] Rinominato { $count } mazzo.
        *[other] Rinominati { $count } mazzi.
     }
+browsing-sidebar-card-state-review = Ripetizione
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -170,4 +172,3 @@ browsing-reparented-decks =
 browsing-card-initial = C
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-sidebar-card-state-review = Ripetizione

@@ -5,14 +5,14 @@ preferences-changes-will-take-effect-when-you = I cambiamenti avranno effetto do
 preferences-hours-past-midnight = ore dopo mezzanotte
 preferences-language = Lingua
 preferences-interrupt-current-audio-when-answering = Interrompi l'audio quando rispondi
-preferences-learn-ahead-limit = Mostra in anticipo - Limite
+preferences-learn-ahead-limit = Limite di studio anticipato
 preferences-mins = min
 preferences-network = Rete
 preferences-next-day-starts-at = Il giorno successivo inizia
-preferences-media-is-not-backed-up = I backup automatici non includono i file multimediali. Si consiglia di effettuare un backup periodico della cartella di Anki per garantire la sicurezza dei dati.
+preferences-media-is-not-backed-up = I backup automatici non includono i file multimediali. È consigliato effettuare un backup periodico della cartella di Anki per garantire la sicurezza dei dati.
 preferences-on-next-sync-force-changes-in = Alla prossima sincronizzazione, forza i cambiamenti in una direzione
-preferences-paste-clipboard-images-as-png = Incolla immagini dagli appunti come png
-preferences-paste-without-shift-key-strips-formatting = Incolla senza tasto Maiusc rimuove la formattazione
+preferences-paste-clipboard-images-as-png = Incolla immagini dagli appunti come PNG
+preferences-paste-without-shift-key-strips-formatting = Incollare senza tasto Maiusc rimuove la formattazione
 preferences-periodically-sync-media = Sincronizza periodicamente i file multimediali
 preferences-please-restart-anki-to-complete-language = Riavvia Anki per completare il cambiamento di lingua.
 preferences-preferences = Preferenze
@@ -32,7 +32,7 @@ preferences-user-interface-size = Dimensione dell'interfaccia utente
 preferences-when-adding-default-to-current-deck = Aggiungi le note nuove al mazzo corrente
 preferences-you-can-restore-backups-via-fileswitch = Puoi ripristinare i backup attraverso File > Cambia Profilo > Apri backup.
 preferences-legacy-timezone-handling = Vecchio sistema di gestione dei fusi orari (pieno di bug, ma richiesto da AnkiDroid <= 2.14)
-preferences-default-search-text = Testo di ricerca di default
+preferences-default-search-text = Testo di ricerca predefinito
 preferences-default-search-text-example = es. 'deck:current'
 preferences-theme = Tema
 preferences-theme-follow-system = Seguire il sistema
@@ -41,8 +41,8 @@ preferences-theme-dark = Scuro
 preferences-v3-scheduler = Pianificatore V3
 preferences-ignore-accents-in-search = Ignora accenti nelle ricerche (più lento)
 preferences-backup-explanation =
-    Anki esegue periodicamente il backup della tua collezione. Dopo che i backup hanno più di 2 giorni,
-    Anki inizierà a rimuoverne alcuni per liberare spazio su disco.
+    Anki esegue periodicamente il backup della tua collezione. Trascorsi 2 giorni dall'ultimo backup,
+    Anki inizierà a rimuoverne alcuni per liberare spazio sul disco.
 preferences-daily-backups = Backup giornalieri da conservare:
 preferences-weekly-backups = Backup settimanali da conservare:
 preferences-monthly-backups = Backup mensili da conservare:
