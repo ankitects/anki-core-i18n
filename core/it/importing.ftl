@@ -13,10 +13,10 @@ importing-colon = Due punti
 importing-comma = Virgola
 importing-empty-first-field = Primo campo vuoto: { $val }
 importing-field-separator = Separatore di campo
-importing-field-mapping = Mappatura dei campi
+importing-field-mapping = Associazione dei campi
 importing-field-of-file-is = Il campo <b>{ $val }</b> del file è:
 importing-fields-separated-by = Campi separati da: { $val }
-importing-file-must-contain-field-column = Il file deve contenere almeno una colonna che possa essere mappata al campo di una nota.
+importing-file-must-contain-field-column = Il file deve contenere almeno una colonna che possa essere associata al campo di una nota.
 importing-file-version-unknown-trying-import-anyway = Versione del file sconosciuta, tento ugualmente l'importazione.
 importing-first-field-matched = Primo campo corrispondente: { $val }
 importing-identical = Identico
@@ -27,10 +27,10 @@ importing-import-even-if-existing-note-has = Importa anche se una nota esistente
 importing-import-options = Opzioni di importazione
 importing-importing-complete = Importazione completata.
 importing-invalid-file-please-restore-from-backup = File non valido. Ripristina dal backup.
-importing-map-to = Mappa su { $val }
-importing-map-to-tags = Mappa verso le etichette
-importing-mapped-to = mappato su <b>{ $val }</b>
-importing-mapped-to-tags = mappato verso le <b>etichette</b>
+importing-map-to = Associa a { $val }
+importing-map-to-tags = Associa alle etichette
+importing-mapped-to = associato a <b>{ $val }</b>
+importing-mapped-to-tags = associato alle <b>etichette</b>
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = Unisci tipi di nota
 importing-merge-notetypes-help =
@@ -72,7 +72,7 @@ importing-supermemo-xml-export-xml = Supermemo esportato in XML (*.xml)
 importing-tab = Tabulazione
 importing-tag-modified-notes = Etichetta le note modificate:
 importing-text-separated-by-tabs-or-semicolons = Testo separato da tabulazioni o punti e virgola (*)
-importing-the-first-field-of-the-note = Il primo campo della nota dev'essere mappato.
+importing-the-first-field-of-the-note = Il primo campo della nota dev'essere associato.
 importing-the-provided-file-is-not-a = Il file non è un file .apkg valido.
 importing-this-file-does-not-appear-to = Questo file sembra non essere un file .apkg valido. Se ottieni questo errore con un file scaricato da AnkiWeb, è probabile che il download non sia riuscito. Riprova e, se il problema rimane, prova di nuovo con un altro browser.
 importing-this-will-delete-your-existing-collection = La tua collezione esistente verrà eliminata e sostituita con i dati del file che stai importando. Sei sicuro?
@@ -206,7 +206,7 @@ importing-allow-html-in-fields-help =
 importing-notetype-help =
     Le note appena importate avranno questo tipo di nota; inoltre, verranno aggiornate solo le note già esistenti che appartengono a questo tipo di nota.
     
-    Puoi scegliere quali campi nel file corrispondono ai campi del tipo di nota utilizzando lo strumento di mappatura.
+    Puoi scegliere quali campi nel file corrispondono ai campi del tipo di nota utilizzando lo strumento di associazione.
 importing-deck-help = Le carte importate saranno collocate in questo mazzo.
 importing-existing-notes-help =
     Cosa fare se una nota che sta venendo importata corrisponde ad una nota già esistente.
