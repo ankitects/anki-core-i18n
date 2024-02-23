@@ -346,12 +346,12 @@ deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modific
 deck-config-fsrs-tooltip =
     Influisce sull'intera collezione.
     
-    FSRS (Free Spaced Repetition Scheduler; in italiano: "Pianificatore di Ripetizione Spaziata Libera") 
-    costituisce un'alternativa al pianificatore legacy SM2 (SuperMemo 2) di Anki.
+    FSRS (Free Spaced Repetition Scheduler; in italiano: "Pianificatore di Ripetizione Dilazionata Libera") 
+    costituisce un'alternativa al vecchio pianificatore SM2 (SuperMemo 2) di Anki.
     Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
     più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutte le preimpostazioni.
     
-    Se in precedenza hai utilizzato la versione "Pianificazione Personalizzata" di FSRS, assicurati di aver svuotato la sezione prima di abilitare questa opzione.
+    Se hai precedentemente utilizzato la versione non nativa di FSRS (basata sull'aggiunta del codice personalizzato nella sezione "Pianificazione personalizzata"), assicurati di aver svuotato tale sezione prima di abilitare questa opzione.
 deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo che tu abbia una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Se aumenti questo valore, Anki mostrerà le carte più frequentemente per incrementare le possibilità che le ricordi. Se diminuisci il valore, Anki mostrerà le carte meno frequentemente e rischierai di dimenticarle.
     
@@ -362,7 +362,7 @@ deck-config-sm2-retention-tooltip =
     che hanno un registro delle ripetizioni mancante. 
     N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che tu non abbia deciso di eliminarli per liberare spazio, per cui la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
 deck-config-weights-tooltip =
-    I parametri FSRS influenzano la pianificazione delle carte.
+    I parametri FSRS influiscono sulla pianificazione delle carte.
     La prima volta volta che attivi FSRS, Anki userà i parametri predefiniti.
     Una volta che hai accumulato 1000 o più ripetizioni, puoi ottimizzare i parametri utilizzando le impostazioni qui di seguito.
 deck-config-reschedule-cards-on-change-tooltip =
