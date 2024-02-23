@@ -50,10 +50,10 @@ statistics-reviews-count-subtitle = Yanıtladığınız soruların sayısı.
 statistics-reviews-time-subtitle = Soruları cevaplamak için harcanan süre.
 statistics-answer-buttons-title = Cevap Düğmeleri
 statistics-answer-buttons-subtitle = Her düğmeye bastığınız sayı.
-statistics-reviews-title = Tekrarlar
+statistics-reviews-title = Gözden Geçirmeler
 statistics-reviews-time-checkbox = Zaman
 statistics-intervals-title = Süreler
-statistics-intervals-subtitle = Gözden geçirme tekrar gösterilene kadar erteler.
+statistics-intervals-subtitle = Gözden geçirmeler tekrar gösterilene kadar gecikmeler.
 statistics-hours-title = Saatlik Analiz
 statistics-hours-subtitle = Günün her saati için başarı oranını inceleyin.
 

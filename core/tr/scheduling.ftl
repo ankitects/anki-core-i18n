@@ -3,6 +3,8 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
+scheduling-answer-button-time-seconds = { $amount }s
+scheduling-answer-button-time-minutes = { $amount }d
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
@@ -90,7 +92,7 @@ scheduling-options-group = Seçenekler grubu:
 scheduling-order = Sıralama
 scheduling-parent-limit = (üst sınır: { $val })
 scheduling-review = Gözden Geçir
-scheduling-reviews = Tekrarlar
+scheduling-reviews = Gözden Geçirmeler
 scheduling-seconds = saniye
 scheduling-set-for-all-subdecks = Tüm alt destler için uygula
 scheduling-show-answer-timer = Cevap zamanını göster

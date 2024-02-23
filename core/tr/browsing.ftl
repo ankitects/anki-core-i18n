@@ -58,6 +58,7 @@ browsing-reposition-new-cards = Yeni kartları yerleştir
 browsing-reschedule = Yeniden Planlama
 browsing-search-within-formatting-slow = Biçimlemeyi içererek ara (yavaş)
 browsing-shift-position-of-existing-cards = Mevcut kartların yerini değiştir
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sıralama Alanı
 browsing-sorting-on-this-column-is-not = Bu sütunda sıralama desteklenmiyor. Lütfen başka birini seçin.
 browsing-start-position = Başlangıç konumu
@@ -103,7 +104,7 @@ browsing-reparented-decks =
         [one] { $count } deste yeniden adlandırıldı.
        *[other] { $count } deste yeniden adlandırıldı.
     }
+browsing-sidebar-card-state-review = Gözden Geçirme
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-browsing-sidebar-card-state-review = Gözden Geçir
