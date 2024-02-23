@@ -34,14 +34,20 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
+deck-config-bury-new-siblings = Yeni kardeşleri gizle
+deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri gizle
+deck-config-bury-interday-learning-siblings = Günler arası öğrenmesi kardeşleri gizle
 
 ## Ordering section
 
-deck-config-interday-step-priority = Günler arası öğrenimi/gözden geçirme sırası
+deck-config-interday-step-priority = Günler arası öğrenmesi/gözden geçirme sırası
 
 ## Timer section
 
 deck-config-maximum-answer-secs = Maksimum cevap saniyeleri
+
+## Auto Advance section
+
 
 ## Audio section
 
@@ -74,12 +80,12 @@ deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 ## Selecting a deck
 
 
-## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+## Messages related to the FSRS scheduler
 
-deck-config-bury-new-siblings = Yeni kardeşleri gizle
-deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri gizle
-deck-config-bury-interday-learning-siblings = Günler arası öğrenimi kardeşleri gizle
 deck-config-show-reminder = Hatırlatıcıyı Göster
 deck-config-answer-again = Tekrar Cevapla
 deck-config-answer-hard = Zor
 deck-config-answer-good = İyi
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

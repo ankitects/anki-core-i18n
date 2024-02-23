@@ -3,8 +3,12 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
-scheduling-answer-button-time-seconds = { $amount }s
-scheduling-answer-button-time-minutes = { $amount }d
+scheduling-answer-button-time-seconds = { $amount }sn
+scheduling-answer-button-time-minutes = { $amount }dk
+scheduling-answer-button-time-hours = { $amount }sa
+scheduling-answer-button-time-days = { $amount }g
+scheduling-answer-button-time-months = { $amount }ay
+scheduling-answer-button-time-years = { $amount }y
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
@@ -44,6 +48,25 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    { $unit ->
+        [seconds]
+            { $amount ->
+                [one] Bir sonraki öğrenme kartı { $amount } saniye içinde hazır olacak.
+               *[other] Bir sonraki öğrenme kartı { $amount } saniye içinde hazır olacak.
+            }
+        [minutes]
+            { $amount ->
+                [one] Bir sonraki öğrenme kartı { $amount } dakika içinde hazır olacak.
+               *[other] Bir sonraki öğrenme kartı { $amount } dakika içinde hazır olacak.
+            }
+       *[hours]
+            { $amount ->
+                [one] Bir sonraki öğrenme kartı { $amount } saat içinde hazır olacak.
+               *[other] Bir sonraki öğrenme kartı { $amount } saat içinde hazır olacak.
+            }
+    }
 scheduling-congratulations-finished = Tebrikler! Bu desteyi şimdilik tamamladınız.
 scheduling-today-review-limit-reached =
     Bugünün gözden geçirme sınırına ulaşıldı, ancak hâlâ gözden
