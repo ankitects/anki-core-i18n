@@ -67,6 +67,11 @@ scheduling-next-learn-due =
                *[other] Bir sonraki öğrenme kartı { $amount } saat içinde hazır olacak.
             }
     }
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Bugün daha sonra sırası gelecek bir kart var.
+       *[other] Bugün daha sonra sırası gelecek { $remaining } kart var.
+    }
 scheduling-congratulations-finished = Tebrikler! Bu desteyi şimdilik tamamladınız.
 scheduling-today-review-limit-reached =
     Bugünün gözden geçirme sınırına ulaşıldı, ancak hâlâ gözden

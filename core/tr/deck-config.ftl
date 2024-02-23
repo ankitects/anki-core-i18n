@@ -9,8 +9,8 @@ deck-config-default-name = Varsayılan
 
 deck-config-daily-limits = Günlük Sınırlar
 deck-config-tab-description =
-    - `Ön ayar`: Limit, bu ön ayarı kullanan tüm destelerle paylaşılır.
-    - `Bu deste`: Limit, bu desteye özel.
+    - `Ön ayar`: Sınır, bu ön ayarı kullanan tüm destelerle paylaşılır.
+    - `Bu deste`: Sınır, bu desteye özel.
     - `Sadece bugün`: Bu deste için sınırı geçici olarak değiştir.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
