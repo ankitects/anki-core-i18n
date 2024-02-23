@@ -62,10 +62,9 @@ deck-config-learning-steps = Passi di apprendimento
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = I ritardi sono generalmente espressi in minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
 deck-config-learning-steps-tooltip =
-    Uno o più ritardi, separati da spazi. Il primo ritardo viene usato
-    quando premi il tasto "Ripeti" su una nuova carta,
-    di default 1 minuto.
-    Il tasto "Normale" avanza al passo successivo, di default 10 minuti.
+    Uno o più intervalli, separati da spazi. Il primo intervallo viene usato
+    quando premi il tasto `Ripeti` su una nuova carta, di default 1 minuto.
+    Il tasto `Normale` avanza al passo successivo, di default 10 minuti.
     Una volta che tutti i passi sono stati completati, la carta diventa una carta da ripassare,
     e verrà mostrata in un giorno differente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =

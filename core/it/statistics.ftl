@@ -59,17 +59,17 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Studiato { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } oggi ({ $secs-per-card }s/carta)
+    { $unit ->
+        [seconds] Oggi hai studiato { statistics-cards } { statistics-in-time-span-seconds } ({ $secs-per-card }s/carta)
+        [minutes] Oggi hai studiato { statistics-cards } { statistics-in-time-span-minutes } ({ $secs-per-card }s/carta)
+        [hours] Oggi hai studiato { statistics-cards } { statistics-in-time-span-hours } ({ $secs-per-card }s/carta)
+        [days] Oggi hai studiato { statistics-cards } { statistics-in-time-span-days } ({ $secs-per-card }s/carta)
+        [months] Oggi hai studiato { statistics-cards } { statistics-in-time-span-months } ({ $secs-per-card }s/carta)
+       *[years] Oggi hai studiato { statistics-cards } { statistics-in-time-span-years } ({ $secs-per-card }s/carta)
+    }
 statistics-today-title = Oggi
 statistics-today-again-count = Carte sbagliate:
-statistics-today-type-counts = Impara: { $learnCount }, Ripeti: { $reviewCount }, Reimpara: { $relearnCount }, Filtrate: { $filteredCount }
+statistics-today-type-counts = Imparate: { $learnCount }, Ripassate: { $reviewCount }, Reimparate: { $relearnCount }, Filtrate: { $filteredCount }
 statistics-today-no-cards = Oggi non è stata studiata nessuna carta.
 statistics-today-no-mature-cards = Nessuna carta matura studiata oggi.
 statistics-today-correct-mature = Carte mature corrette: { $correct }/{ $total } ({ $percent }%)
@@ -81,7 +81,7 @@ statistics-counts-suspended-cards = Sospese
 statistics-counts-buried-cards = Seppellite
 statistics-counts-filtered-cards = Filtrate
 statistics-counts-learning-cards = In apprendimento
-statistics-counts-relearning-cards = In reapprendimento
+statistics-counts-relearning-cards = In riapprendimento
 statistics-counts-title = Carte
 statistics-counts-separate-suspended-buried-cards = Separa le carte sospese/seppellite
 statistics-range-all-time = vita del mazzo
@@ -151,7 +151,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Arretrato
 statistics-intervals-title = Intervalli
-statistics-intervals-subtitle = Differimento della ripresentazione delle ripetizioni.
+statistics-intervals-subtitle = Lasso di tempo prima che le carte da ripetere vengano ripresentate.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } carta con un intervallo di { $daysStart }-{ $daysEnd } giorni

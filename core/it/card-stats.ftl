@@ -17,9 +17,9 @@ card-stats-review-log-rating = Valutazione
 card-stats-review-log-type = Tipo
 card-stats-review-log-date = Data
 card-stats-review-log-time-taken = Durata
-card-stats-review-log-type-learn = Impara
+card-stats-review-log-type-learn = In apprendimento
 card-stats-review-log-type-review = Ripetizione
-card-stats-review-log-type-relearn = Reimpara
+card-stats-review-log-type-relearn = In riapprendimento
 card-stats-review-log-type-filtered = Filtrato
 card-stats-review-log-type-manual = Manuale
 card-stats-no-card = (Nessuna carta da visualizzare.)
@@ -30,5 +30,5 @@ card-stats-fsrs-retrievability = Rammentabilità
 
 ## Window Titles
 
-card-stats-current-card = Carta corrente ({ $context })
+card-stats-current-card = Carta attuale ({ $context })
 card-stats-previous-card = Carta precedente ({ $context })
