@@ -20,13 +20,13 @@ card-templates-night-mode = Modalità Notturna
 # on a mobile device.
 card-templates-add-mobile-class = Aggiungi classe Mobile (per simulare dispositivi mobili)
 card-templates-preview-settings = Opzioni
-card-templates-invalid-template-number = Il template { $number } ha un problema.
+card-templates-invalid-template-number = C'è un problema con il modello { $number } nel tipo di nota "{ $notetype }".
 card-templates-identical-front = Il lato frontale è identico al modello della carta { $number }
 card-templates-no-front-field = Ci dovrebbe essere una sostituzione di campo nel lato frontale del modello.
 card-templates-missing-cloze = Ci dovrebbe essere '{ "{{" }cloze:Testo{ "}}" }' o simile sul fronte e retro del modello della carta.
 card-templates-extraneous-cloze = 'cloze:' può essere usato solo con note di tipo cloze.
 card-templates-see-preview = Guarda l'anteprima per maggiori informazioni.
-card-templates-changes-saved = Modifica salvata
+card-templates-changes-saved = Modifiche salvate.
 card-templates-discard-changes = Annullare le modifiche?
 card-templates-add-card-type = Aggiungi tipo di carta...
 card-templates-anki-couldnt-find-the-line-between = Anki non ha trovato la linea di separazione tra domanda e risposta. Adatta manualmente il modello per invertire domanda e risposta.

@@ -1,5 +1,5 @@
-change-notetype-current = Corrente
-change-notetype-new = Nuove
+change-notetype-current = Attuali
+change-notetype-new = Nuovi
 change-notetype-nothing = (Niente)
 change-notetype-collapse = Comprimi
 change-notetype-expand = Espandi

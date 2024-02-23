@@ -151,7 +151,7 @@ browsing-sidebar-overdue = Scadute
 browsing-row-deleted = (eliminata)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Rimosso { $count } etichetta inutilizzata.
+        [one] Rimossa { $count } etichetta inutilizzata.
        *[other] Rimosse { $count } etichette inutilizzate.
     }
 browsing-changed-new-position =

@@ -86,8 +86,8 @@ deck-config-new-insertion-order-random-with-v3 = Con il pianificatore V3, è meg
 
 deck-config-relearning-steps = Passi di riapprendimento
 deck-config-relearning-steps-tooltip =
-    Zero o più ritardi, separati da spazi. Per impostazione predefinita, premendo il tasto `Ripeti`
-    su una carta da ripassare la rimostrerà dopo 10 minuti. Se nessun ritardo
+    Zero o più intervalli, separati da spazi. Per impostazione predefinita, premendo il tasto `Ripeti`
+    su una carta da ripassare la mostrerà nuovamente dopo 10 minuti. Se nessun intervallo
     è specificato, l'intervallo della carta verrà cambiato, senza entrare
     nella fase di riapprendimento. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
@@ -273,7 +273,7 @@ deck-config-will-require-full-sync =
     Il cambiamento richiesto richiede una sincronizzazione a senso unico. Se hai effettuato
     cambiamenti su un altro dispositivo, e non li hai ancora sincronizzati con questo
     dispositivo, per favore fallo prima di procedere.
-deck-config-confirm-remove-name = Vuoi rimuovere { $name }?
+deck-config-confirm-remove-name = Rimuovere { $name }?
 
 ## Other Buttons
 

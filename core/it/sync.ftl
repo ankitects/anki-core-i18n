@@ -15,7 +15,7 @@ sync-media-aborted = Sincronizzazione dei file multimediali annullata.
 # was previously disabled by the user in the preferences screen.
 sync-media-disabled = Sincronizzazione dei file multimediali disattivata.
 # Title of the screen that shows syncing progress history
-sync-media-log-title = Resoconto sincronizzazione
+sync-media-log-title = Resoconto della sincronizzazione
 
 ## Error messages / dialogs
 
