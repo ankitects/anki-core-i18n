@@ -1,5 +1,6 @@
 actions-add = Aldoni
-actions-blue-flag = Blua flago
+actions-all-selected = Ĉio elektita
+actions-any-selected = Io ajn elektita
 actions-cancel = Nuligi
 actions-choose = Elekti
 actions-close = Fermi
@@ -9,7 +10,6 @@ actions-decks = Kartaroj
 actions-delete = Forigi
 actions-export = Elporti
 actions-filter = Filtrilo
-actions-green-flag = Verda flago
 actions-help = Helpo
 actions-import = Enporti
 actions-manage = Administri...
@@ -18,10 +18,8 @@ actions-new = Nova
 actions-new-name = Nova nomo:
 actions-options = Opcioj
 actions-options-for = Opcioj por { $val }
-actions-orange-flag = Oranĝkolora flago
 actions-preview = Antaŭmontro
 actions-rebuild = Rekunmeti
-actions-red-flag = Ruĝa flago
 actions-rename = Alinomi
 actions-rename-deck = Alinomi kartaron
 actions-replay-audio = Reludi sonon
@@ -30,3 +28,6 @@ actions-save = Konservi
 actions-search = Serĉi
 actions-shortcut-key = Fulmoklavo: { $val }
 actions-suspend-card = Daŭre kaŝi karton
+
+## Flags
+
