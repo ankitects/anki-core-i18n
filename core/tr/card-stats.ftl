@@ -24,8 +24,9 @@ card-stats-review-log-type-filtered = Filtrelenmiş
 card-stats-review-log-type-manual = Manuel
 card-stats-no-card = (Gösterilecek kart yok.)
 card-stats-custom-data = Özel Veriler
-card-stats-fsrs-stability = sabitlik
+card-stats-fsrs-stability = Sabitlik
 card-stats-fsrs-difficulty = Zorluk
+card-stats-fsrs-retrievability = Hatırlanabilirlik
 
 ## Window Titles
 
