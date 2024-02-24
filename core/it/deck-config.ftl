@@ -258,8 +258,8 @@ deck-config-interval-modifier-tooltip =
     essere usate per rendere la pianificazione di Anki più conservativa o aggressiva.
     Consulta il manuale prima di cambiare questa opzione.
 deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una ripetizione quando la si valuta `Difficile`.
-deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando si clicca su `Ripeti`.
-deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver cliccato `Ripeti`.
+deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando viene premuto `Ripeti`.
+deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver premuto `Ripeti`.
 deck-config-custom-scheduling = Pianificazione personalizzata
 deck-config-custom-scheduling-tooltip = Influisce sull'intera collezione. Usa a tuo rischio e pericolo!
 
@@ -332,7 +332,7 @@ deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
-deck-config-optimize-all-tip = Puoi ottimizzare tutte le preimpostazioni contemporaneamente utilizzando il pulsante in alto.
+deck-config-optimize-all-tip = Ottimizza tutte le preimpostazioni contemporaneamente dal menù a tendina vicino a "Salva".
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
 deck-config-sm2-retention = Ritenzione SM2
@@ -354,7 +354,7 @@ deck-config-fsrs-tooltip =
     Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
     più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutte le preimpostazioni.
     
-    Se hai precedentemente utilizzato la versione non nativa di FSRS (basata sull'aggiunta del codice personalizzato nella sezione "Pianificazione personalizzata"), assicurati di aver svuotato tale sezione prima di abilitare questa opzione.
+    Se hai precedentemente utilizzato la versione non nativa di FSRS (basata sull'aggiunta di codice personalizzato nella sezione "Pianificazione personalizzata"), assicurati di aver svuotato tale sezione prima di abilitare questa opzione.
 deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo che tu abbia una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Se aumenti questo valore, Anki mostrerà le carte più frequentemente per incrementare le possibilità che le ricordi. Se diminuisci il valore, Anki mostrerà le carte meno frequentemente e rischierai di dimenticarle.
     
@@ -372,8 +372,8 @@ deck-config-weights-tooltip =
 deck-config-reschedule-cards-on-change-tooltip =
     N.B.: influisce sull'intera collezione.
     
-    Questa opzione controlla se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i parametri. 
-    L'impostazione default è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
+    Questa opzione determina se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i parametri. 
+    L'impostazione predefinita è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
     ma non ci sarà alcuna modifica immediata al tuo carico di lavoro. 
     Se la ripianificazione è abilitata, le scadenze delle carte verranno modificate.
 deck-config-reschedule-cards-warning =
