@@ -176,7 +176,7 @@ deck-config-interday-step-priority-tooltip =
     Quando mostrare le carte in (re)apprendimento che superano la soglia di un giorno.
     
     Il limite di ripetizioni è sempre applicato prima alle carte in apprendimento intergiornaliero
-    e solo poi a quelle da ripetere. Questa opzione controllerà l'ordine secondo il quale le carte recuperate
+    e solo poi a quelle da ripetere. Questa opzione determinerà l'ordine secondo il quale le carte recuperate
     verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre recuperate per prime.
 deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
 deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
