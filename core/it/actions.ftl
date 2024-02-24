@@ -37,7 +37,7 @@ actions-select = Seleziona
 actions-shortcut-key = Tasto di scorciatoia: { $val }
 actions-suspend-card = Sospendi la carta
 actions-set-due-date = Imposta data di scadenza
-actions-answer-card = Rispondi carta
+actions-answer-card = Rispondi alla carta
 actions-unbury-unsuspend = Disseppellisci/Annulla sospensione
 actions-add-deck = Aggiungi mazzo
 actions-add-note = Aggiungi nota
@@ -60,7 +60,7 @@ actions-fullscreen-unsupported = La modalità a schermo intero non è supportata
 
 ## Flags
 
-actions-flag-number = Bandiera { $number }
+actions-flag-number = Applica bandiera { $number }
 actions-flag-red = Rossa
 actions-flag-orange = Arancione
 actions-flag-green = Verde

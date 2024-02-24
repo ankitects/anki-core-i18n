@@ -19,10 +19,10 @@ media-check-extracted-count = Immagini estratte: { $count }
 ## Shown at the top of each section
 
 media-check-renamed-header = Alcuni file sono stati rinominati per compatibilità:
-media-check-oversize-header = File grandi più di 100MB non possono essere sincronizzati con AnkiWeb.
+media-check-oversize-header = File di dimensioni superiori a 100MB non possono essere sincronizzati con AnkiWeb.
 media-check-subfolder-header = Le cartelle all'interno della cartella dei media non sono supportate.
 media-check-missing-header = Usato nelle carte ma mancante nella cartella multimediale:
-media-check-unused-header = I seguenti file sono stati trovati nella cartella dei media, ma sembra non siano stati utilizzati in nessuna carta:
+media-check-unused-header = Nella cartella dei media sono stati trovati i seguenti file, ma non sembra essere utilizzati in alcuna carta:
 media-check-template-references-field-header =
     Anki non è in grado di rilevare i file usati quando usi i riferimenti { "{{Field}}" } nei tag media/LaTeX. I tag media/LaTeX dovrebbero invece essere posizionati su singole note.
     
@@ -63,12 +63,12 @@ media-check-trash-restored = Ripristina i file eliminati nella cartella dei medi
 
 ## Rendering LaTeX
 
-media-check-all-latex-rendered = Tutto LaTeX renderizzato.
+media-check-all-latex-rendered = È stato completato il rendering di tutto il LaTeX.
 
 ## Buttons
 
 media-check-delete-unused = Elimina file inutilizzati
-media-check-render-latex = Renderizza LaTeX
+media-check-render-latex = Effettua il rendering di LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = Svuota cestino
 # button to move deleted files from the trash back into the media folder
