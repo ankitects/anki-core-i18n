@@ -66,6 +66,7 @@ editing-image-occlusion-zoom-reset = Επαναφορά ζουμ
 editing-image-occlusion-toggle-translucent = Ενεργοποίηση διαφάνειας
 editing-image-occlusion-delete = Διαγραφή
 editing-image-occlusion-duplicate = Διπλασιασμός
+editing-image-occlusion-select-all = Επιλογή όλων
 editing-image-occlusion-alignment = Στοίχιση
 editing-image-occlusion-align-left = Στοίχιση αριστερά
 editing-image-occlusion-align-right = Στοίχιση δεξιά
