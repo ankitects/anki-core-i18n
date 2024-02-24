@@ -5,7 +5,7 @@ importing-all-supported-formats = Tutti i formati supportati { $val }
 importing-allow-html-in-fields = Consenti l'HTML nei campi
 importing-anki-files-are-from-a-very = I file .anki sono di una versione molto vecchia di Anki. Puoi importarli utilizzando Anki 2.0, disponibile sul sito di Anki.
 importing-anki2-files-are-not-directly-importable = I file .anki2 non sono importabili direttamente - importa invece i file .apkg o .zip che hai ricevuto.
-importing-appeared-twice-in-file = Apparsa due volte nel file: { $val }
+importing-appeared-twice-in-file = Apparso due volte nel file: { $val }
 importing-by-default-anki-will-detect-the = Di default, Anki rileva i caratteri tra i campi, come tabulazioni, virgole, ecc. Se Anki non rileva correttamente i caratteri, puoi inserirli qui. Usa \t per rappresentare le tabulazioni.
 importing-cannot-merge-notetypes-of-different-kinds = I tipi di nota "Cloze" non possono essere uniti con i tipi di nota regolari. Puoi comunque importare il file disabilitando '{ importing-merge-notetypes }'.
 importing-change = Modifica
@@ -42,12 +42,12 @@ importing-merge-notetypes-help =
     
     Come controesempio, cambiare il lato fronte di un modello già esistente *non* costituisce una modifica dello schema.
     
-    Avviso: ciò richiederà una sincronizzazione unidirezionale e alcune note già esistenti potrebbero essere contrassegnate come 'modificate'.
+    Avviso: questa modifica richiederà una sincronizzazione unidirezionale e alcune note già esistenti potrebbero essere contrassegnate come 'modificate'.
 importing-mnemosyne-20-deck-db = Mazzo di Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatori multi-carattere non sono supportati. Inserisci un solo carattere.
 importing-notes-added-from-file = Note aggiunte dal file: { $val }
 importing-notes-found-in-file = Note trovate nel file: { $val }
-importing-notes-skipped-as-theyre-already-in = Note saltate, poiché una copia aggiornata è già presente nella tua collezione: { $val }
+importing-notes-skipped-as-theyre-already-in = Note ignorate, poiché una copia aggiornata è già presente nella tua collezione: { $val }
 importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-include-reviews = Includi le ripetizioni
@@ -64,17 +64,17 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacchetto mazzo/collezi
 importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Barra verticale (Pipe)
-importing-rows-had-num1d-fields-expected-num2d = '{ $row }' possiedono { $found } campi, mentre ci si aspettava { $expected }
-importing-selected-file-was-not-in-utf8 = Il file selezionato non era nel formato UTF-8. Consulta la sezione importazione del manuale.
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' contiene { $found } campi, ma ne erano previsti { $expected }
+importing-selected-file-was-not-in-utf8 = Il file selezionato non è nel formato UTF-8. Consulta la sezione Importazione nel manuale.
 importing-semicolon = Punto e virgola
-importing-skipped = Saltato
+importing-skipped = Ignorato
 importing-supermemo-xml-export-xml = Supermemo esportato in XML (*.xml)
 importing-tab = Tabulazione
 importing-tag-modified-notes = Etichetta le note modificate:
 importing-text-separated-by-tabs-or-semicolons = Testo separato da tabulazioni o punti e virgola (*)
 importing-the-first-field-of-the-note = Il primo campo della nota dev'essere mappato.
 importing-the-provided-file-is-not-a = Il file non è un file .apkg valido.
-importing-this-file-does-not-appear-to = Questo file sembra non essere un file .apkg valido. Se ottieni questo errore con un file scaricato da AnkiWeb, è probabile che il download non sia riuscito. Riprova e, se il problema rimane, prova di nuovo con un altro browser.
+importing-this-file-does-not-appear-to = Questo file sembra non essere un file .apkg valido. Se ricevi questo errore con un file scaricato da AnkiWeb, è probabile che il download non sia riuscito. Riprova e, se il problema rimane, prova di nuovo con un altro browser.
 importing-this-will-delete-your-existing-collection = La tua collezione esistente verrà eliminata e sostituita con i dati del file che stai importando. Sei sicuro?
 importing-unable-to-import-from-a-readonly = Impossibile importare da un file di sola lettura.
 importing-unknown-file-format = Formato del file sconosciuto.
@@ -85,11 +85,11 @@ importing-update-always = Sempre
 importing-update-never = Mai
 importing-update-notes = Aggiorna le note
 importing-update-notes-help =
-    Quando aggiornare una nota già esistente nella tua collezione. Di default, 
+    Determina quando aggiornare una nota già esistente nella tua collezione. Di default, 
     ciò avviene solo se la nota corrispondente che sta venendo importata è stata modificata più di recente.
 importing-update-notetypes = Aggiorna i tipi di nota
 importing-update-notetypes-help =
-    Quando aggiornare un tipo di nota già esistente nella tua collezione. 
+    Determina quando aggiornare un tipo di nota già esistente nella tua collezione.
     Di default, ciò avviene solo se il tipo di nota che sta venendo importato è stato modificato più di recente. 
     Le modifiche al testo e allo stile dei modelli possono sempre essere importate, ma per le modifiche dello schema (ad esempio, modifiche al numero o all'ordine dei campi) è necessario abilitare l'opzione '{ importing-merge-notetypes }'.
 importing-note-added =
@@ -117,9 +117,9 @@ importing-processed-media-file =
         [one] Processato { $count } file multimediale
        *[other] Processati { $count } file multimediali
     }
-importing-importing-file = Importazione del file...
-importing-extracting = Estrazione dei dati...
-importing-gathering = Raccolta dei dati...
+importing-importing-file = Importazione del file in corso...
+importing-extracting = Estrazione dei dati in corso...
+importing-gathering = Raccolta dei dati in corso...
 importing-failed-to-import-media-file = Impossibile importare il file multimediale: { $debugInfo }
 importing-processed-notes =
     { $count ->
@@ -188,12 +188,12 @@ importing-details = Dettagli
 importing-status = Stato
 importing-duplicate-note-added = Aggiunta nota duplicata.
 importing-added-new-note = Aggiunta nuova nota.
-importing-existing-note-skipped = Nota saltata, poiché una copia aggiornata è già presente nella tua collezione.
+importing-existing-note-skipped = Nota ignorata, poiché una copia aggiornata è già presente nella tua collezione.
 importing-note-skipped-update-due-to-notetype = Nota non aggiornata, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-note-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
-importing-note-skipped-due-to-missing-notetype = Nota saltata, poiché il suo tipo di nota era mancante
-importing-note-skipped-due-to-missing-deck = Nota saltata, poiché il suo mazzo era mancante
-importing-note-skipped-due-to-empty-first-field = Nota saltata, poiché il suo primo campo è vuoto
+importing-note-skipped-due-to-missing-notetype = Nota ignorata, poiché il suo tipo di nota era mancante
+importing-note-skipped-due-to-missing-deck = Nota ignorata, poiché il suo mazzo era mancante
+importing-note-skipped-due-to-empty-first-field = Nota ignorata, poiché il suo primo campo è vuoto
 importing-field-separator-help =
     Il carattere che separa i campi nel file di testo. Puoi utilizzare l'anteprima per verificare se i campi sono separati correttamente.
     
@@ -201,8 +201,9 @@ importing-field-separator-help =
     tale campo dovrà essere delimitato/racchiuso tra virgolette secondo lo standard CSV. 
     I programmi per fogli di calcolo come LibreOffice lo faranno automaticamente.
 importing-allow-html-in-fields-help =
-    Abilita questa opzione se il file contiene formattazione HTML. Ad esempio, se il file contiene la stringa '&lt;br&gt;', essa verrà visualizzata nella tua carta come un line break ('a capo').
-    D'altra parte, se non abiliti questa opzione, verranno mostrati invece i caratteri letterali '&lt;br&gt;'.
+    Abilita questa opzione se il file contiene formattazione HTML. Ad esempio, se il file contiene la stringa
+    "&lt;br&gt;", essa verrà visualizzata nella tua carta come una nuova riga. D'altra parte, se non abiliti
+    questa opzione, verranno mostrati invece i caratteri letterali "&lt;br&gt;".
 importing-notetype-help =
     Le note appena importate avranno questo tipo di nota; inoltre, verranno aggiornate solo le note già esistenti che appartengono a questo tipo di nota.
     

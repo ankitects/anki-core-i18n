@@ -1,10 +1,10 @@
 fields-add-field = Aggiungi campo
-fields-delete-field-from = Elimina campo da { $val }?
-fields-editing-font = Modifica font
+fields-delete-field-from = Eliminare il campo da { $val }?
+fields-editing-font = Modifica carattere
 fields-field = Campo:
 fields-field-name = Nome del campo:
 fields-description = Descrizione
-fields-description-placeholder = Testo da mostrare all'interno del campo quando il campo è vuoto
+fields-description-placeholder = Testo da mostrare all'interno del campo quando è vuoto
 fields-fields-for = Campi per { $val }
 fields-font = Carattere:
 fields-new-position-1 = Nuova posizione (1...{ $val }):

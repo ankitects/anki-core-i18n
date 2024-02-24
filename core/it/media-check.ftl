@@ -18,7 +18,7 @@ media-check-extracted-count = Immagini estratte: { $count }
 
 ## Shown at the top of each section
 
-media-check-renamed-header = Alcuni file sono stati rinominati per compatibilità:
+media-check-renamed-header = Alcuni file sono stati rinominati per motivi di compatibilità:
 media-check-oversize-header = File di dimensioni superiori a 100MB non possono essere sincronizzati con AnkiWeb.
 media-check-subfolder-header = Le cartelle all'interno della cartella dei media non sono supportate.
 media-check-missing-header = Usato nelle carte ma mancante nella cartella multimediale:

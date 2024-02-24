@@ -170,10 +170,10 @@ deck-config-sort-order-random = Casuale
 deck-config-sort-order-template-then-gather = Tipo di carta
 deck-config-sort-order-gather = Ordine di recupero
 deck-config-new-review-priority = Ordine nuove/da ripassare
-deck-config-new-review-priority-tooltip = Quando mostrare le nuove carte in relazione a quelle da ripassare.
+deck-config-new-review-priority-tooltip = Determina quando mostrare le nuove carte in relazione a quelle da ripassare.
 deck-config-interday-step-priority = Ordine apprendimento intergiornaliero/ripetizioni
 deck-config-interday-step-priority-tooltip =
-    Quando mostrare le carte in (re)apprendimento che superano la soglia di un giorno.
+    Determina quando mostrare le carte in (re)apprendimento che superano la soglia di un giorno.
     
     Il limite di ripetizioni è sempre applicato prima alle carte in apprendimento intergiornaliero
     e solo poi a quelle da ripetere. Questa opzione determinerà l'ordine secondo il quale le carte recuperate
@@ -221,9 +221,9 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Secondi per i quali mostrare la domanda
-deck-config-seconds-to-show-question-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di rivelare la risposta. Imposta a 0 per disabilitare.
+deck-config-seconds-to-show-question-tooltip-2 = Determina il numero di secondi da attendere prima di rivelare la risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi per i quali mostrare la risposta
-deck-config-seconds-to-show-answer-tooltip-2 = Quando l'avanzamento automatico è attivato, il numero di secondi da attendere prima di applicare l'azione di risposta. Imposta a 0 per disabilitare.
+deck-config-seconds-to-show-answer-tooltip-2 = Determina il numero di secondi da attendere prima di applicare l'azione di risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-answer-action = Azione di risposta
 deck-config-answer-action-tooltip = L'azione da svolgere sulla carta attuale prima di passare automaticamente a quella successiva.
 deck-config-wait-for-audio-tooltip = Attendi la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
