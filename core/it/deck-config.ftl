@@ -313,7 +313,7 @@ deck-config-which-deck = Per quale mazzo desideri visualizzare le opzioni?
 
 ## Messages related to the FSRS scheduler
 
-deck-config-updating-cards = Aggiornamento delle carte: { $current_cards_count }/{ $total_cards_count }...
+deck-config-updating-cards = Aggiornamento delle carte in corso: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = I parametri devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
 deck-config-unable-to-determine-desired-retention = Impossibile determinare una ritenzione ottimale.
@@ -400,7 +400,7 @@ deck-config-percent-of-reviews =
         [one] { $pct }% di { $reviews } ripetizione
        *[other] { $pct }% di { $reviews } ripetizioni
     }
-deck-config-optimizing-preset = Ottimizzazione del preset { $current_count }/{ $total_count }...
+deck-config-optimizing-preset = Ottimizzazione della preimpostazione in corso { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Abilita prima FSRS.
 deck-config-wait-for-audio = Attendi l'audio
 deck-config-show-reminder = Mostra promemoria

@@ -1,5 +1,5 @@
 profiles-anki-could-not-read-your-profile = Anki non ha potuto leggere i dati del tuo profilo. Le impostazioni non sono state riprese.
-profiles-anki-could-not-rename-your-profile = Anki non ha potuto rinominare il profilo perché non è riuscito a rinominare la cartella del profilo sul disco. Assicurati di avere il permesso di scrittura in Documenti/Anki e che nessun altro programma stia accedendo alle cartelle del profilo, quindi riprova.
+profiles-anki-could-not-rename-your-profile = Anki non ha potuto rinominare il profilo perché non è riuscito a rinominare la cartella associata sul disco. Assicurati di avere il permesso di scrittura su Documenti/Anki e che nessun altro programma stia accedendo alle cartelle del profilo, quindi riprova.
 profiles-folder-already-exists = La cartella esiste già.
 profiles-open = Apri
 profiles-open-backup = Apri backup...

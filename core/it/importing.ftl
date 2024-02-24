@@ -1,4 +1,4 @@
-importing-failed-debug-info = Importazione non riuscita. Informazioni sul debug:
+importing-failed-debug-info = Importazione non riuscita. Informazioni per il debug:
 importing-aborted = Interrotto: { $val }
 importing-added-duplicate-with-first-field = Aggiunto duplicato con primo campo: { $val }
 importing-all-supported-formats = Tutti i formati supportati { $val }
