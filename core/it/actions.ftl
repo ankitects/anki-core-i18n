@@ -12,7 +12,7 @@ actions-decks = Mazzi
 actions-decrement-value = Diminuisci valore
 actions-delete = Elimina
 actions-export = Esporta
-actions-filter = Filtro
+actions-filter = Filtra
 actions-help = Aiuto
 actions-increment-value = Aumenta valore
 actions-import = Importa
@@ -45,12 +45,12 @@ actions-update-tag = Aggiorna etichetta
 actions-update-note = Aggiorna nota
 actions-update-card = Aggiorna carta
 actions-update-deck = Aggiorna mazzo
-actions-forget-card = Dimentica carta
+actions-forget-card = Dimentica la carta
 actions-build-filtered-deck = Crea mazzo
 actions-add-notetype = Aggiungi tipo di nota
 actions-remove-notetype = Rimuovi tipo di nota
 actions-update-notetype = Aggiorna tipo di nota
-actions-update-config = Aggiorna configurazione
+actions-update-config = Aggiorna la configurazione
 actions-card-info = Info Carta
 actions-previous-card-info = Info Carta Precedente
 # By convention, the name of a menu action is suffixed with "..." if additional
@@ -60,7 +60,7 @@ actions-fullscreen-unsupported = La modalità a schermo intero non è supportata
 
 ## Flags
 
-actions-flag-number = Applica bandiera { $number }
+actions-flag-number = Assegna bandiera { $number }
 actions-flag-red = Rossa
 actions-flag-orange = Arancione
 actions-flag-green = Verde

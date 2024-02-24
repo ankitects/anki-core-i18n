@@ -52,14 +52,14 @@ importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-include-reviews = Includi le ripetizioni
 importing-also-import-progress = Importa anche eventuali progressi di apprendimento
-importing-with-deck-configs = Importa eventuali preset dei mazzi
+importing-with-deck-configs = Importa eventuali preimpostazioni dei mazzi
 importing-updates = Aggiornamenti
 importing-include-reviews-help =
     Se abilitato, saranno importate anche tutte le ripetizioni precedenti incluse dall'autore del mazzo. 
     In caso contrario, tutte le carte saranno importate come nuove carte.
 importing-with-deck-configs-help =
-    Se abilitato, verranno importate anche eventuali impostazioni (preset) incluse dall'autore del mazzo. 
-    In caso contrario, tutti i mazzi verranno assegnati al preset predefinito.
+    Se abilitato, verranno importate anche eventuali impostazioni (preimpostazione) incluse dall'autore del mazzo. 
+    In caso contrario, tutti i mazzi verranno assegnati alla preimpostazione predefinita.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacchetto mazzo/collezione Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
 # the '|' character
