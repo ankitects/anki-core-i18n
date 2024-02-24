@@ -27,7 +27,7 @@ decks-random = Casuale
 decks-relative-overdueness = Ritardo relativo
 decks-repeat-failed-cards-after = Ripeti carte sbagliate dopo
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = Ritardo per { $button }
+decks-delay-for-button = Intervallo per { $button }
 decks-reschedule-cards-based-on-my-answers = Ripianifica le carte considerando le mie risposte in questo mazzo
 decks-study = Studia
 decks-study-deck = Studia il mazzo

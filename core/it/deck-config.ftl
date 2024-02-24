@@ -17,18 +17,20 @@ deck-config-title = Opzioni del mazzo
 
 deck-config-daily-limits = Limiti giornalieri
 deck-config-new-limit-tooltip =
-    Il massimo numero di nuove carte da introdurre in un giorno, se sono disponibili nuove carte.
+    Il numero massimo di nuove carte da introdurre in un giorno, se sono disponibili nuove carte.
     Poiché il nuovo materiale aumenterà il carico di lavoro a breve termine, questo dovrebbe essere in genere
     almeno 10 volte inferiore al limite di ripetizioni.
 deck-config-review-limit-tooltip =
-    Il massimo numero di carte da ripetere in un giorno,
+    Il numero massimo di carte da ripetere in un giorno,
     se le carte sono pronte per essere ripassate.
 deck-config-limit-deck-v3 =
-    Quando studi un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano il numero massimo di carte recuperate da quel particolare mazzo.
-    I limiti del mazzo padre controllano il totale delle carte che verranno mostrate.
+    Quando studi un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano
+    il numero massimo di carte recuperate da quel particolare mazzo.
+    I limiti del mazzo padre determinano il numero totale delle carte che verranno mostrate.
 deck-config-limit-new-bound-by-reviews =
     Il limite di ripetizioni influisce sul limite delle nuove carte. Per esempio, se il limite
-    di ripetizioni è 200 e ci sono 190 carte in attesa, verranno introdotte al massimo 10 nuove carte. Se il limite di ripetizioni è stato raggiunto, non verrà mostrata alcuna nuova carta.
+    di ripetizioni è 200 e ci sono 190 carte in attesa, verranno introdotte al massimo 10 nuove carte.
+    Se il limite di ripetizioni è stato raggiunto, non verrà mostrata alcuna nuova carta.
 deck-config-limit-interday-bound-by-reviews =
     Il limite di ripetizioni influisce anche sulle carte in apprendimento intergiornaliero.
     Quando si applica il limite, vengono recuperate prima le carte in apprendimento intergiornaliero,
@@ -39,14 +41,16 @@ deck-config-tab-description =
     - `Solo Oggi`: Modifica temporanea del limite di questo mazzo.
 deck-config-new-cards-ignore-review-limit = Ignora le nuove carte nel conteggio ripetizioni/giorno
 deck-config-new-cards-ignore-review-limit-tooltip =
-    Per impostazione predefinita, il limite di ripetizioni si applica anche alle nuove carte e non verranno mostrate nuove carte
-    quando il limite di ripetizioni è stato raggiunto. Se questa opzione è abilitata, le nuove carte verranno mostrate indipendentemente dal limite di ripetizioni.
+    Per impostazione predefinita, il limite di ripetizioni si applica anche alle nuove carte
+    e non verranno mostrate nuove carte quando il limite di ripetizioni è stato raggiunto.
+    Se questa opzione è abilitata, le nuove carte verranno mostrate
+    indipendentemente dal limite di ripetizioni.
 deck-config-apply-all-parent-limits = I limiti iniziano dalla cima
 deck-config-apply-all-parent-limits-tooltip =
     Per impostazione predefinita, i limiti partono dal mazzo selezionato. 
-    Se attivi questa opzione, invece,
-    i limiti verranno calcolati a partire dal mazzo genitore di massimo livello, il che può risultare utile quando desideri studiare
-    singoli mazzi figli, mantenendo comunque un limite complessivo sul numero di carte da studiare ogni giorno.
+    Se attivi questa opzione, invece, i limiti verranno calcolati a partire dal mazzo genitore di massimo livello,
+    il che può risultare utile quando desideri studiare singoli mazzi figli, mantenendo comunque
+    un limite complessivo sul numero di carte da studiare ogni giorno.
 deck-config-affects-entire-collection = Influisce sull'intera collezione.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -60,7 +64,7 @@ deck-config-today-only = Solo oggi
 
 deck-config-learning-steps = Passi di apprendimento
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = I ritardi sono generalmente espressi in minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
+-deck-config-delay-hint = Gli intervalli sono generalmente espressi in minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
 deck-config-learning-steps-tooltip =
     Uno o più intervalli, separati da spazi. Il primo intervallo viene usato
     quando premi il tasto `Ripeti` su una nuova carta, di default 1 minuto.

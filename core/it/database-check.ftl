@@ -12,13 +12,13 @@ database-check-missing-templates =
     }
 database-check-field-count =
     { $count ->
-        [one] Risolta { $count } nota con conteggio dei campi errato.
-       *[other] Risolte { $count } note con conteggio dei campi errato.
+        [one] Corretta { $count } nota con conteggio dei campi errato.
+       *[other] Corretta { $count } note con conteggio dei campi errato.
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] Trovata { $count } nuova carta con un numero di scadenza >= 1,000,000 - considera riposizionarla nella finestra "Sfoglia".
-       *[other] Trovate { $count } nuove carte con un numero di scadenza >= 1,000,000 - considera riposizionarle nella finestra "Sfoglia".
+        [one] Trovata { $count } nuova carta con un numero di scadenza >= 1.000.000 - valuta di riposizionarla nella schermata "Sfoglia".
+       *[other] Trovate { $count } nuove carte con un numero di scadenza >= 1.000.000 - valuta di riposizionarle nella schermata "Sfoglia".
     }
 database-check-card-missing-note =
     { $count ->
@@ -51,13 +51,13 @@ database-check-fixed-invalid-ids =
        *[other] Corretti { $count } oggetti con timestamp nel futuro.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Uno o più tipi di note sono mancanti. Alle note di quel tipo sono state assegnate nuovi tipi di nota che iniziano con "db-check", ma i nomi dei campi e design di carte sono andati perduti, quindi potrebbe essere meglio ripristinarle da un backup automatico.
+database-check-notetypes-recovered = Mancano uno o più tipi di note. Alle note di quel tipo sono stati assegnati nuovi tipi di nota che iniziano con "db-check", ma i nomi dei campi e il design delle carte sono andati persi, quindi è consigliabile ripristinarle da un backup automatico.
 
 ## Progress info
 
-database-check-checking-integrity = Sto controllando la collezione...
+database-check-checking-integrity = Verifica della collezione in corso...
 database-check-rebuilding = Ricostruzione in corso...
-database-check-checking-cards = Controllo delle carte in corso...
-database-check-checking-notes = Controllo delle note in corso...
-database-check-checking-history = Controllo della cronologia in corso...
-database-check-title = Controlla il database
+database-check-checking-cards = Verifica delle carte in corso...
+database-check-checking-notes = Verifica delle note in corso...
+database-check-checking-history = Verifica della cronologia in corso...
+database-check-title = Verifica il database
