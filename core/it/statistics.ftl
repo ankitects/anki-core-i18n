@@ -179,7 +179,7 @@ statistics-hours-correct = { $correct }/{ $total } corrette ({ $percent }%)
 statistics-hours-reviews = 📊 { $reviews } ripetizioni
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% corrette ({ $reviews })
-statistics-hours-title = Suddivisione per ora del giorno
+statistics-hours-title = Suddivisione oraria
 statistics-hours-subtitle = Successo delle ripetizioni per ora del giorno.
 # shown when graph is empty
 statistics-no-data = NESSUN DATO
@@ -228,7 +228,7 @@ statistics-cards-per-day =
 statistics-average-ease = Facilità media
 statistics-average-difficulty = Difficoltà media
 statistics-average-retrievability = Rammentabilità media
-statistics-save-pdf = Salva pdf
+statistics-save-pdf = Salva PDF
 statistics-saved = Salvato.
 statistics-stats = statistiche
 statistics-title = Statistiche

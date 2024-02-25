@@ -19,29 +19,29 @@ sync-media-log-title = Resoconto della sincronizzazione
 
 ## Error messages / dialogs
 
-sync-conflict = Soltanto una copia alla volta di Anki può essere sincronizzata al tuo account. Aspetta qualche minuto, poi prova di nuovo.
+sync-conflict = Soltanto una copia di Anki alla volta può essere sincronizzata al tuo account. Aspetta qualche minuto, quindi riprova.
 sync-server-error = AnkiWeb ha riscontrato un problema. Riprova tra qualche minuto.
 sync-client-too-old = La tua versione di Anki è troppo vecchia. Effettua l'aggiornamento all'ultima versione per continuare a sincronizzare.
-sync-wrong-pass = L'ID AnkiWeb o la password non erano corretti; prova di nuovo.
-sync-resync-required = Sincronizza di nuovo. Se il messaggio continua ad apparire, segnala al sito di supporto.
-sync-must-wait-for-end = Anki sta effettuando la sincronizzazione. Attendi che finisca, poi prova di nuovo.
-sync-confirm-empty-download = La collezione locale non contiene nessuna carta. Scaricare da AnkiWeb?
-sync-confirm-empty-upload = La collezione AnkiWeb non ha carte. Sostituirla con la collezione locale?
+sync-wrong-pass = L'ID di AnkiWeb o la password non sono corretti; prova di nuovo.
+sync-resync-required = Sincronizza di nuovo. Se il messaggio continua ad apparire, segnalalo al sito di supporto.
+sync-must-wait-for-end = Anki sta effettuando la sincronizzazione. Attendi che finisca, quindi riprova.
+sync-confirm-empty-download = La collezione locale non contiene alcuna carta. Scaricare da AnkiWeb?
+sync-confirm-empty-upload = La collezione AnkiWeb non contiene carte. Sostituirla con la collezione locale?
 sync-conflict-explanation =
-    I tuoi mazzi qui e su AnkiWeb differiscono in modo tale che non è possibile unirli. È necessario sovrascrivere i mazzi in un posto con quelli nell'altro posto.
+    I tuoi mazzi qui e su AnkiWeb presentano differenze tali da non permetterne l'unione, ed è quindi necessario sovrascrivere i mazzi in un posto con i mazzi nell'altro posto.
     
-    Se scegli di scaricare, Anki scaricherà la collezione da AnkiWeb, e tutte le modifiche fatte sul computer dopo l'ultima sincronizzazione andranno perse.
+    Se scegli di scaricare, Anki scaricherà la collezione da AnkiWeb, e tutte le modifiche fatte su questo dispositivo dopo l'ultima sincronizzazione andranno perse.
     
-    Se scegli di caricare, Anki caricherà la tua collezione su AnkiWeb, e tutte le modifiche fatte su AnkiWeb o su altri dispositivi dopo l'ultima sincronizzazione con questo dispositivo andranno perse.
+    Se scegli di caricare, Anki caricherà la collezione di questo dispositivo su AnkiWeb, e tutte le modifiche fatte su AnkiWeb andranno perse.
     
-    Dopo che tutti i dispositivi sono stati sincronizzati, le ripetizioni e le aggiunte di carte verranno unite automaticamente.
-sync-ankiweb-id-label = ID AnkiWeb:
+    Una volta che tutti i dispositivi sono stati sincronizzati, le ripetizioni future e le carte aggiunte verranno unite automaticamente.
+sync-ankiweb-id-label = ID di AnkiWeb:
 sync-password-label = Password:
 sync-account-required =
     <h1>Account necessario</h1>
     È necessario un account gratuito per mantenere sincronizzata la tua collezione. <a href="{ $link }">Iscriviti</a> per un account, poi inserisci i tuoi dati qui sotto.
 sync-sanity-check-failed = Per favore, usa la funzionalità "Controlla il Database", quindi sincronizza nuovamente. Se il problema persiste, forza una sincronizzazione completa nella schermata delle preferenze.
-sync-clock-off = Impossibile sincronizzare - il tuo orologio non è settato sull'ora giusta.
+sync-clock-off = Impossibile sincronizzare - l'orologio non è impostato sull'ora giusta.
 sync-upload-too-large =
     Il file della tua collezione è troppo grande per essere inviato ad AnkiWeb. Puoi ridurre la dimensione
     del file rimuovendo i mazzi non necessari (se vuoi puoi prima esportarli) e, successivamente,
