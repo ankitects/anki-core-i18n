@@ -71,7 +71,7 @@ preferences-scheduler = Pianificatore
 preferences-user-interface = Interfaccia Utente
 preferences-import-export = Importazione ed esportazione
 preferences-network-timeout = Timeout connessione
-preferences-reset-window-sizes = Ripristina le dimensioni della finestra
+preferences-reset-window-sizes = Ripristina le dimensioni delle finestre
 preferences-reset-window-sizes-complete = Le dimensioni e le posizioni delle finestre sono state ripristinate.
 preferences-shortcut-placeholder = Inserisci un tasto di scorciatoia non già in uso, oppure lascia vuoto per disabilitare.
 
