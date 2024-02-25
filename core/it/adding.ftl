@@ -9,4 +9,4 @@ adding-shortcut = Scorciatoia: { $val }
 adding-the-first-field-is-empty = Il primo campo è vuoto.
 adding-you-have-a-cloze-deletion-note = Hai una nota di tipo cloze ma non hai inserito alcuna cancellazione cloze. Proseguire?
 adding-cloze-outside-cloze-notetype = Le cancellazioni cloze possono essere utilizzate solo per note di tipo cloze.
-adding-cloze-outside-cloze-field = Le cancellazioni cloze possono essere utilizzate solo in campi che usano il filtro 'cloze:'. Solitamente è il primo campo.
+adding-cloze-outside-cloze-field = Le cancellazioni cloze possono essere utilizzate solo in campi che usano il filtro 'cloze:'. Solitamente si tratta del primo campo.

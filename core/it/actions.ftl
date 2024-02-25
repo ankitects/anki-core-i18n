@@ -51,12 +51,12 @@ actions-add-notetype = Aggiungi tipo di nota
 actions-remove-notetype = Rimuovi tipo di nota
 actions-update-notetype = Aggiorna tipo di nota
 actions-update-config = Aggiorna la configurazione
-actions-card-info = Info Carta
-actions-previous-card-info = Info Carta Precedente
+actions-card-info = Info carta
+actions-previous-card-info = Info carta precedente
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = La modalità a schermo intero non è supportata dal tuo driver video. Vai alla schermata Preferenze, cambia il driver video e prova di nuovo.
+actions-fullscreen-unsupported = La modalità a schermo intero non è supportata dal tuo driver video. Vai alla schermata Preferenze, cambia il driver video, quindi riprova.
 
 ## Flags
 
@@ -71,6 +71,6 @@ actions-flag-purple = Viola
 actions-set-flag = Imposta bandiera
 actions-nothing-to-undo = Niente da annullare
 actions-nothing-to-redo = Niente da ripristinare
-actions-auto-advance = Avanzamento Automatico
-actions-auto-advance-activated = Avanzamento Automatico abilitato
-actions-auto-advance-deactivated = Avanzamento Automatico disabilitato
+actions-auto-advance = Commuta avanzamento automatico
+actions-auto-advance-activated = Avanzamento automatico abilitato
+actions-auto-advance-deactivated = Avanzamento automatico disabilitato
