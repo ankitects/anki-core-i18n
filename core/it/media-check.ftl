@@ -21,8 +21,8 @@ media-check-extracted-count = Immagini estratte: { $count }
 media-check-renamed-header = Alcuni file sono stati rinominati per motivi di compatibilità:
 media-check-oversize-header = File di dimensioni superiori a 100MB non possono essere sincronizzati con AnkiWeb.
 media-check-subfolder-header = Le cartelle all'interno della cartella dei media non sono supportate.
-media-check-missing-header = Usato nelle carte ma mancante nella cartella multimediale:
-media-check-unused-header = Nella cartella dei media sono stati trovati i seguenti file, ma non sembra essere utilizzati in alcuna carta:
+media-check-missing-header = I seguenti file sono usati nelle carte, ma sono assenti nella cartella multimediale:
+media-check-unused-header = Nella cartella dei media sono stati trovati i seguenti file, ma non sembrano essere utilizzati in alcuna carta:
 media-check-template-references-field-header =
     Anki non è in grado di rilevare i file usati quando usi i riferimenti { "{{Field}}" } nei tag media/LaTeX. I tag media/LaTeX dovrebbero invece essere posizionati su singole note.
     
@@ -47,7 +47,7 @@ media-check-checked = { $count } controllati...
 
 ## Deleting unused media
 
-media-check-delete-unused-confirm = Elimina contenuto multimediale non utilizzato?
+media-check-delete-unused-confirm = Eliminare contenuto multimediale non utilizzato?
 media-check-files-remaining =
     { $count ->
         [one] 1 file
@@ -77,4 +77,4 @@ media-check-check-media-action = Controlla file multimediali
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = media-mancanti
 # add a tag to notes with missing media
-media-check-add-tag = Etichetta mancanti
+media-check-add-tag = Etichetta mancante
