@@ -1,8 +1,10 @@
 ### Text shown in Help pages
 
 
-## Header
+## Header/footer
 
+# Link to more detailed information in the manual
+help-for-more-info = אויף נאָך פּרטים, גיט אַ קוק אויף { $link } אינעם האַנטביכל.
 # Tooltip for links to the manual
 help-open-manual-chapter = אַויפֿעפֿענען { $name } אינעם האַנטכיבל
 
@@ -12,9 +14,4 @@ help-open-manual-chapter = אַויפֿעפֿענען { $name } אינעם הא�
 help-no-explanation =
     אוי! ס׳זעט אויס, אַז ס׳איז נאָך נישטאָ קיין תּירוץ פֿון דער פֿיקסירונג.
     
-    קענט איר אונדז העלפֿן פֿאַרענדיקען דעם בלאַט אויף { $link }.
-
-## Footer
-
-# Link to more detailed information in the manual
-help-for-more-info = אויף נאָך פּרטים, גיט אַ קוק אויף { $link } אינעם האַנטביכל.
+    קענסטו אונדז העלפֿן פֿאַרענדיקען דעם בלאַט אויף { $link }.
