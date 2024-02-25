@@ -86,17 +86,17 @@ scheduling-buried-cards-found = Una o più carte sono state seppellite e verrann
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = disseppellirle
-scheduling-how-to-custom-study = Se desideri studiare fuori dal programma abituale, puoi usare la funzione { $customStudy }.
+scheduling-how-to-custom-study = Se desideri studiare al di fuori dalla pianificazione abituale, puoi utilizzare la funzionalità { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = studio personalizzato
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 viene fornito con un nuovo pianificatore, che risolve molti problemi delle precedenti versioni di Anki. Si raccomanda di aggiornare Anki a questa versione.
+scheduling-update-soon = Anki 2.1 è dotato di un nuovo pianificatore che risolve diversi problemi presenti nelle versioni precedenti di Anki. È consigliato aggiornare Anki a questa versione.
 scheduling-update-done = Pianificatore aggiornato con successo.
 scheduling-update-button = Aggiorna
-scheduling-update-later-button = Dopo
+scheduling-update-later-button = Più tardi
 scheduling-update-more-info-button = Scopri di più
 scheduling-update-required =
     La tua collezione necessita l'aggiornamento al pianificatore V2.
@@ -140,7 +140,7 @@ scheduling-restore-position = Ripristina posizione originale ove possibile
 scheduling-review = Ripetizione
 scheduling-reviews = Ripetizioni
 scheduling-seconds = secondi
-scheduling-set-all-decks-below-to = Impostare tutti i mazzi sotto { $val } in questo gruppo di opzioni?
+scheduling-set-all-decks-below-to = Assegnare questo gruppo di opzioni a tutti i mazzi sotto { $val }?
 scheduling-set-for-all-subdecks = Imposta per tutti i mazzi figli
 scheduling-show-answer-timer = Mostra il timer
 scheduling-show-new-cards-after-reviews = Mostra le carte nuove dopo le ripetizioni
@@ -152,7 +152,7 @@ scheduling-steps-in-minutes = Passi (in minuti)
 scheduling-steps-must-be-numbers = I passi devono essere numeri.
 scheduling-tag-only = Etichetta soltanto
 scheduling-the-default-configuration-cant-be-removed = La configurazione predefinita non può essere rimossa.
-scheduling-your-changes-will-affect-multiple-decks = I tuoi cambiamenti avranno effetto su più mazzi. Se vuoi cambiare solo il mazzo corrente, aggiungi dapprima un nuovo gruppo di opzioni.
+scheduling-your-changes-will-affect-multiple-decks = I tuoi cambiamenti avranno effetto su più mazzi. Se vuoi cambiare solo il mazzo attuale, aggiungi dapprima un nuovo gruppo di opzioni.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } mazzo aggiornato.
@@ -160,13 +160,13 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-prompt =
     { $cards ->
-        [one] Mostra la carta tra quanti giorni?
-       *[other] Mostra le carte tra quanti giorni?
+        [one] Tra quanti giorni mostrare la carta?
+       *[other] Tra quanti giorni mostrare le carte?
     }
 scheduling-set-due-date-prompt-hint =
     0 = oggi
-    1! = domani+resetta l'intervallo di ripasso
-    3-7 = scelta casuale di 3-7 giorni
+    1! = domani + cambia l'intervallo di ripasso a 1
+    3-7 = scelta casuale da 3 a 7 giorni
 scheduling-set-due-date-done =
     { $cards ->
         [one] Imposta la data di scadenza di { $cards } carta.

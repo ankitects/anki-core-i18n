@@ -70,8 +70,8 @@ statistics-studied-today =
 statistics-today-title = Oggi
 statistics-today-again-count = Carte sbagliate:
 statistics-today-type-counts = Imparate: { $learnCount }, Ripassate: { $reviewCount }, Reimparate: { $relearnCount }, Filtrate: { $filteredCount }
-statistics-today-no-cards = Oggi non è stata studiata nessuna carta.
-statistics-today-no-mature-cards = Nessuna carta matura studiata oggi.
+statistics-today-no-cards = Oggi non è stata studiata alcuna carta.
+statistics-today-no-mature-cards = Oggi non è stata studiata alcuna carta matura.
 statistics-today-correct-mature = Carte mature corrette: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Carte totali
 statistics-counts-new-cards = Nuove
@@ -86,7 +86,7 @@ statistics-counts-title = Conteggio delle carte
 statistics-counts-separate-suspended-buried-cards = Separa le carte sospese/seppellite
 statistics-range-all-time = vita del mazzo
 statistics-range-1-year-history = ultimi 12 mesi
-statistics-range-all-history = intero periodo
+statistics-range-all-history = tutto il periodo
 statistics-range-deck = mazzo
 statistics-range-collection = collezione
 statistics-range-search = Cerca
@@ -102,18 +102,18 @@ statistics-retrievability-subtitle = Quanto è probabile che tu ricordi una cart
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] { $cards } carta con { $percent } di facilità
-       *[other] { $cards } carte con { $percent } di facilità
+        [one] { $cards } carta con una facilità del { $percent }
+       *[other] { $cards } carte con una facilità del { $percent }
     }
 statistics-card-difficulty-tooltip =
     { $cards ->
-        [one] { $cards } carta con difficoltà { $percent }
-       *[other] { $cards } carte con difficoltà { $percent }
+        [one] { $cards } carta con una difficoltà del { $percent }
+       *[other] { $cards } carte con una difficoltà del { $percent }
     }
 statistics-retrievability-tooltip =
     { $cards ->
-        [one] { $cards } carta con rammentabilità { $percent }
-       *[other] { $cards } carte con rammentabilità { $percent }
+        [one] { $cards } carta con una rammentabilità del { $percent }
+       *[other] { $cards } carte con una rammentabilità del { $percent }
     }
 statistics-future-due-title = Previsioni
 statistics-future-due-subtitle = Numero di ripetizioni che scadranno in futuro.
@@ -125,8 +125,8 @@ statistics-answer-buttons-title = Pulsanti di risposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Pulsante
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = Numero di volte premuto
-statistics-answer-buttons-subtitle = Numero di volte che hai premuto ogni pulsante.
+statistics-answer-buttons-button-pressed = Numero di volte che hai premuto
+statistics-answer-buttons-subtitle = Numero di volte che hai premuto ciascun pulsante.
 statistics-reviews-title = Ripetizioni
 statistics-reviews-time-checkbox = Durata
 statistics-in-days-single =
