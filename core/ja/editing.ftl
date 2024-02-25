@@ -80,7 +80,7 @@ editing-image-occlusion-duplicate = 複製
 editing-image-occlusion-group = 選択対象をグループ化
 editing-image-occlusion-ungroup = 選択対象のグループ化を解除
 editing-image-occlusion-select-all = すべて選択
-editing-image-occlusion-alignment = マスクを整列
+editing-image-occlusion-alignment = 選択対象を整列
 editing-image-occlusion-align-left = 左揃え
 editing-image-occlusion-align-h-center = 左右方向の中央揃え
 editing-image-occlusion-align-right = 右揃え
@@ -95,7 +95,7 @@ editing-image-occlusion-polygon-tool = 多角形マスク
 editing-image-occlusion-text-tool = 文字
 editing-image-occlusion-toggle-mask-editor = マスクエディタを表示
 editing-image-occlusion-reset = この画像穴埋め問題をリセット
-editing-image-occlusion-confirm-reset = この画像穴埋め問題をリセットしてよろしいですか？
+editing-image-occlusion-confirm-reset = 画像を選択する前の初期状態（画像選択用の画面）にリセットします。現在の画像上に追加したマスクや文字だけでなく、その画像自体を表示しなくなります。本当によろしいですか？
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
