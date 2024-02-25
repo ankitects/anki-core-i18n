@@ -28,6 +28,34 @@ editing-latex = LaTeX
 editing-latex-equation = LaTeX גלײַכונג
 editing-latex-math-env = LaTeX מאַטעמאַטיק קאָנווערט
 editing-media = מעדיע
+editing-ordered-list = אויסגע׳סדר׳טע רשימה
+editing-outdent = פֿאַרקלענערן אײַנרוק
+editing-paste = צוקלעפּן
+editing-record-audio = רעקאָרדירן אוידיאָ
+editing-remove-formatting = צונעמען פֿאָרמאַטירונג
+editing-restore-original-size = אויפֿריכטן אָריגינעלע גרייס
+editing-select-remove-formatting = אויסקלײַבן פֿאָרמאַטירונג וואָס צוצונעמען
+editing-show-duplicates = ווײַזן דופּליקאַטן
+editing-subscript = סובסקריפּט
+editing-superscript = איבערשריפֿט
+editing-tags = צעטלען
+editing-tags-add = צושטעלן צעטל
+editing-tags-copy = אָפּקאָפּירן צעטלען
+editing-tags-remove = צונעמען צעטלען
+editing-tags-select-all = אויסקלײַבן אַלע צעטלען
+editing-text-color = טעקסט-קאָליר
+editing-text-highlight-color = הינטערגרונט-קאָליר
+editing-toggle-html-editor = איבערסליסן HTML שאַפֿער
+editing-toggle-visual-editor = אויסשליסן זעשאַפֿער
+editing-toggle-sticky = אויסשליסן קלעפּיק
+editing-expand = צעוויקלען
+editing-collapse = צונויפֿוויקלען
+editing-expand-field = צעוויקלען פֿעלד
+editing-collapse-field = צונויפֿוויקלען פֿעלד
+editing-underline-text = אונטערשטרײַכן רשימה
+editing-unordered-list = נישט-אויסגע׳סדר׳טע רשימה
+editing-warning-cloze-deletions-will-not-work = היט זיך: ׳קלאָז׳ אויסמעקונגען וועלן נישט אַרבעטן ביז איר וועלן אויסבײַטן דעם מין פֿון אויבן ביז ׳קלאָז׳.
+editing-shrink-images = פֿאַרקלענערן בילדער
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
