@@ -8,6 +8,10 @@ deck-config-default-name = Varsayılan
 ## Daily limits section
 
 deck-config-daily-limits = Günlük Sınırlar
+deck-config-new-limit-tooltip =
+    Bu, yeni kartlar mevcutsa bir günde tanıtılacak maksimum yeni kart sayısı.
+    Yeni materyaller kısa süreli gözden geçirme iş yükünüzü arttıracağı için, 
+    bu genellikle gözden geçirme sınırınızdan en az on kat daha az olmalı.
 deck-config-tab-description =
     - `Ön ayar`: Sınır, bu ön ayarı kullanan tüm destelerle paylaşılır.
     - `Bu deste`: Sınır, bu desteye özel.

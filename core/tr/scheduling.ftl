@@ -86,6 +86,10 @@ scheduling-buried-cards-found = Bir veya daha fazla kart gizlendi, yarın da gö
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = gizlemeyi geri al
+scheduling-how-to-custom-study = Olağan planın dışında çalışmak istiyorsanız, { $customStudy } özelliğini kullanabilirsiniz.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = özel çalışma
 
 ## Scheduler upgrade
 
