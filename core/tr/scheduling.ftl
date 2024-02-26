@@ -77,6 +77,11 @@ scheduling-today-review-limit-reached =
     Bugünün gözden geçirme sınırına ulaşıldı, ancak hâlâ gözden
     geçirilmeyi bekleyen kartlar var. Optimum hafıza için,
     seçeneklerdeki günlük sınırı arttırmayı düşünün.
+scheduling-today-new-limit-reached =
+    Daha fazla yeni kartlar mevcut, ama günlük sınıra ulaşıldı. 
+    Sınırı seçeneklerde arttırabilirsiniz, ama lütfen aklında tutun ki 
+    daha fazla yeni kart tanıtıldıkça, kısa süreli gözden geçirme 
+    iş yükünüz artacak.
 scheduling-buried-cards-found = Bir veya daha fazla kart gizlendi, yarın da gösterilecek. Onları hemen görmek istiyorsanız, { $unburyThem }abilirsiniz.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
