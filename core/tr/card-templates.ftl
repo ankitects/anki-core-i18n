@@ -2,8 +2,8 @@
 card-templates-blank = boş
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] Aşağıdaki değişiklikler bu kart tipini kullanan { $count } kartı etkileyecek.
-       *[other] Aşağıdaki değişiklikler bu kart tipini kullanan { $count } kartı etkileyecek.
+        [one] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } kartı etkileyecek.
+       *[other] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } kartı etkileyecek.
     }
 card-templates-card-type = Kart tipi:
 card-templates-front-template = Ön Şablon
@@ -20,11 +20,11 @@ card-templates-night-mode = Gece Modu
 # on a mobile device.
 card-templates-add-mobile-class = Mobil Sınıfı Ekle
 card-templates-preview-settings = Seçenekler
-card-templates-invalid-template-number = '{ $notetype }' not tipinin { $number } numaralı kart şablonunda bir hata var.
+card-templates-invalid-template-number = '{ $notetype }' not türünün { $number } numaralı kart şablonunda bir hata var.
 card-templates-identical-front = Ön taraf { $number } numaralı kart şablonuyla aynı.
 card-templates-no-front-field = Değiştirilecek bir alanın kart şablonunun önünde bulunması bekleniyordu.
 card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' ya da benzer bir şeyin kart şablonunun ön ve arkasında bulunması bekleniyordu.
-card-templates-extraneous-cloze = 'cloze:', sadece boşluklu not tipinde kullanılabilir.
+card-templates-extraneous-cloze = 'cloze:', sadece boşluklu not türünde kullanılabilir.
 card-templates-see-preview = Daha fazla bilgi için önizlemeye bakın.
 card-templates-changes-saved = Değişiklikler kaydedildi.
 card-templates-discard-changes = Değişiklikleri iptal et?
@@ -58,4 +58,4 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-type-boxes-warning = Kart şablonu başına sadece bir yazma kutusu desteklenir.
 card-templates-restore-to-default = Varsayılana Geri Yükle
-card-templates-restored-to-default = Not tipi orijinal durumuna geri yüklendi.
+card-templates-restored-to-default = Not türü orijinal durumuna geri yüklendi.

@@ -1,5 +1,5 @@
 decks-add-new-deck-ctrlandn = Yeni Deste Ekle (Ctrl+N)
-decks-build = Yapılandır
+decks-build = Oluştur
 decks-cards-selected-by = tarafından seçilen kartlar
 decks-create-deck = Deste Oluştur
 decks-custom-steps-in-minutes = Özel adımlar (dakikada)

@@ -12,6 +12,11 @@ deck-config-new-limit-tooltip =
     Bu, yeni kartlar mevcutsa bir günde tanıtılacak maksimum yeni kart sayısı.
     Yeni materyaller kısa süreli gözden geçirme iş yükünüzü arttıracağı için, 
     bu genellikle gözden geçirme sınırınızdan en az on kat daha az olmalı.
+deck-config-limit-new-bound-by-reviews =
+    Gözden geçirme sınırı yeni sınırı etkiler. Örneğin, eğer gözden geçirme 
+    sınırınız 200'de ve 190 gözden geçirme kartı bekliyorsa, en fazla 10 
+    yeni kart tanıtılacaktır. Gözden geçirme sınırınıza ulaşıldıysa, 
+    hiç yeni kart gösterilmeyecektir.
 deck-config-tab-description =
     - `Ön ayar`: Sınır, bu ön ayarı kullanan tüm destelerle paylaşılır.
     - `Bu deste`: Sınır, bu desteye özel.
