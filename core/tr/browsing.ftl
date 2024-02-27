@@ -108,6 +108,11 @@ browsing-removed-unused-tags-count =
         [one] { $count } kullanılmayan etiket silindi.
        *[other] { $count } kullanılmayan etiket silindi.
     }
+browsing-changed-new-position =
+    { $count ->
+        [one] { $count } yeni kartın pozisyonu değişti.
+       *[other] { $count } yeni kartın pozisyonu değişti.
+    }
 browsing-reparented-decks =
     { $count ->
         [one] { $count } deste yeniden adlandırıldı.
