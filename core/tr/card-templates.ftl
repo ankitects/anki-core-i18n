@@ -5,7 +5,7 @@ card-templates-changes-will-affect-notes =
         [one] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } kartı etkileyecek.
        *[other] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } kartı etkileyecek.
     }
-card-templates-card-type = Kart tipi:
+card-templates-card-type = Kart Türü:
 card-templates-front-template = Ön Şablon
 card-templates-back-template = Arka Şablon
 card-templates-template-styling = Stil oluşturma
@@ -28,24 +28,24 @@ card-templates-extraneous-cloze = 'cloze:', sadece boşluklu not türünde kulla
 card-templates-see-preview = Daha fazla bilgi için önizlemeye bakın.
 card-templates-changes-saved = Değişiklikler kaydedildi.
 card-templates-discard-changes = Değişiklikleri iptal et?
-card-templates-add-card-type = Kart Tipi Ekle...
+card-templates-add-card-type = Kart Türü Ekle...
 card-templates-anki-couldnt-find-the-line-between = Anki, soruyla cevap arasında bağlantı kuramadı. Soru ve cevabın yerini değiştirmek için şablonu elle ayarlayın.
-card-templates-at-least-one-card-type-is = En az bir kart tipi gereklidir.
+card-templates-at-least-one-card-type-is = En az bir kart türü gereklidir.
 card-templates-browser-appearance = Arayıcı Görünümü...
 card-templates-card = Kart { $val }
-card-templates-card-types-for = { $val } için Kart Tipleri
+card-templates-card-types-for = { $val } için Kart Türleri
 card-templates-cloze = Boşluklu
 card-templates-deck-override = Deste Geçersiz Kıl...
-card-templates-delete-the-as-card-type-and = '{ $template }' kart tipi ve ona ait { $cards } silinsin mi?
+card-templates-delete-the-as-card-type-and = '{ $template }' kart türü ve { $cards } kartları silinsin mi?
 card-templates-enter-deck-to-place-new = Desteye yeni { $val } kartları yerleştirin, ya da boş bırakın:
 card-templates-enter-new-card-position-1 = Yeni kart konumunu girin (1...{ $val }):
 card-templates-flip = Çevir
 card-templates-form = Biçim
 card-templates-off = (kapalı)
 card-templates-on = (açık)
-card-templates-remove-card-type = Kart tipini Kaldır...
-card-templates-rename-card-type = Kart Tipini Yeniden Adlandır...
-card-templates-reposition-card-type = Kart Tipinin Pozisyonunu Değiştir...
+card-templates-remove-card-type = Kart Türünü Kaldır...
+card-templates-rename-card-type = Kart Türünü Yeniden Adlandır...
+card-templates-reposition-card-type = Kart Türünün Pozisyonunu Değiştir...
 card-templates-card-count =
     { $count ->
         [one] { $count } kart

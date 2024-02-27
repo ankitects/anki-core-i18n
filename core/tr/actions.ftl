@@ -47,6 +47,9 @@ actions-update-card = Kartı Güncelle
 actions-update-deck = Desteyi Güncelle
 actions-forget-card = Kartı Unut
 actions-build-filtered-deck = Desteyi oluştur
+actions-add-notetype = Not Türü Ekle
+actions-remove-notetype = Not Türünü Sil
+actions-update-notetype = Not Türü Güncelle
 actions-card-info = Kart Bilgisi
 
 ## Flags

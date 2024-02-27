@@ -1,4 +1,5 @@
 browsing-add-tags2 = Etiket Ekle...
+browsing-remove-from-selected-notes = Seçilen Notlardan Kaldır
 browsing-addon = Eklenti
 browsing-all-fields = Tüm Alanlar
 browsing-answer = Cevap
@@ -12,10 +13,11 @@ browsing-cards-cant-be-manually-moved-into = Kartlar filtrelenmiş bir desteye m
 browsing-change-deck = Desteyi Değiştir
 browsing-change-note-type = Not Türünü Değiştir
 browsing-change-note-type2 = Not Türünü Değiştir...
+browsing-change-notetype = Not Türünü Değiştir
 browsing-clear-unused-tags = Kullanılmayan Etiketleri Sil
 browsing-created = Oluşturuldu
-browsing-current-deck = Mevcut Deste
-browsing-current-note-type = Mevcut not türü:
+browsing-current-deck = Geçerli Deste
+browsing-current-note-type = Geçerli not türü:
 browsing-delete-notes = Notu Sil
 browsing-duplicate = yinelenen
 browsing-ease = Kolaylık
@@ -86,9 +88,11 @@ browsing-sidebar-collapse = Daralt
 browsing-sidebar-expand-children = Altlarını Genişlet
 browsing-sidebar-collapse-children = Altlarını Daralt
 browsing-sidebar-tags = Etiketler
+browsing-sidebar-notetypes = Not Türleri
 browsing-sidebar-flags = Bayraklar
 browsing-today = Bugün
 browsing-tooltip-note-modified = Notun en son değiştiği zaman, genellikle alan içeriğiyle veya etiket düzenlemeleriyle.
+browsing-tooltip-notetype = Bir notun not türünün adı
 browsing-added-today = Bugün Eklenenler
 browsing-again-today = Bugün tekrar edilenler
 browsing-sidebar-first-review = İlk Gözden Geçirme
@@ -108,3 +112,7 @@ browsing-sidebar-card-state-review = Gözden Geçirme
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

@@ -1,3 +1,5 @@
+notetypes-notetype = Not Türü
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Ön
@@ -33,3 +35,4 @@ notetypes-type = Tür
 
 ## Image Occlusion
 
+notetypes-occlusion-note = Not

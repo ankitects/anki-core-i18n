@@ -8,13 +8,13 @@ card-stats-lapse-count = Hatalar
 card-stats-average-time = Ortalama Zaman
 card-stats-total-time = Toplam Süre
 card-stats-new-card-position = Konum
-card-stats-card-template = Kart tipi
+card-stats-card-template = Kart Türü
 card-stats-note-type = Not Türü
 card-stats-deck-name = Deste
 card-stats-note-id = Not Kimliği
 card-stats-card-id = Kart ID
 card-stats-review-log-rating = Değerlendirme
-card-stats-review-log-type = Tip
+card-stats-review-log-type = Tür
 card-stats-review-log-date = Tarih
 card-stats-review-log-time-taken = Zaman
 card-stats-review-log-type-learn = Öğrenme
@@ -30,5 +30,5 @@ card-stats-fsrs-retrievability = Hatırlanabilirlik
 
 ## Window Titles
 
-card-stats-current-card = Mevcut Kart ({ $context })
+card-stats-current-card = Geçerli Kart ({ $context })
 card-stats-previous-card = Önceki Kart ({ $context })
