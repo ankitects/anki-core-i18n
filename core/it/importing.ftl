@@ -202,7 +202,7 @@ importing-field-separator-help =
     I programmi per fogli di calcolo come LibreOffice lo faranno automaticamente.
 importing-allow-html-in-fields-help =
     Abilita questa opzione se il file contiene formattazione HTML. Ad esempio, se il file contiene la stringa
-    "&lt;br&gt;", essa verrà visualizzata nella tua carta come una nuova riga. D'altra parte, se non abiliti
+    "&lt;br&gt;", essa verrà visualizzata nella tua carta come un'interruzione di riga. D'altra parte, se non abiliti
     questa opzione, verranno mostrati invece i caratteri letterali "&lt;br&gt;".
 importing-notetype-help =
     Le note appena importate avranno questo tipo di nota; inoltre, verranno aggiornate solo le note già esistenti che appartengono a questo tipo di nota.

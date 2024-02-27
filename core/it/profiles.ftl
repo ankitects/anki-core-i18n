@@ -1,6 +1,6 @@
 profiles-anki-could-not-read-your-profile =
     Anki non ha potuto leggere i dati del tuo profilo. Le dimensioni delle finestre sono state reimpostate al valore predefinito
-    e i dettagli di accesso per la sincronizzazione non sono stati caricati.
+    e le credenziali di accesso per la sincronizzazione non sono state caricate.
 profiles-anki-could-not-rename-your-profile = Anki non ha potuto rinominare il profilo perché non è riuscito a rinominare la cartella associata sul disco. Assicurati di avere il permesso di scrittura su Documenti/Anki e che nessun altro programma stia accedendo alle cartelle del profilo, quindi riprova.
 profiles-folder-already-exists = La cartella esiste già.
 profiles-open = Apri
