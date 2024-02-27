@@ -36,3 +36,4 @@ notetypes-type = Tür
 ## Image Occlusion
 
 notetypes-occlusion-note = Not
+notetypes-toggle-masks = Örtüleri Aç/Kapat
