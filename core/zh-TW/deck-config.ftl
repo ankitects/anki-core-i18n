@@ -232,6 +232,7 @@ deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-optimal-retention = 計算最佳留存率
 deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
+deck-config-ignore-before = 複習記錄起始時間
 deck-config-optimize-all-tip = 你可以在「儲存」按鈕旁的下拉式選單中一次最佳化所有預設組。
 deck-config-evaluate-button = 評估
 deck-config-desired-retention = 期望留存率
@@ -261,6 +262,7 @@ deck-config-reschedule-cards-warning =
     根據你的期望留存率，這可能導致大量卡片到期，因此第一次從 FSRS 切換到 SM2 時不建議使用。
     
     使用此選項會對每張卡片都加入一條複習記錄，使集合佔用更多空間，因此請節制使用。
+deck-config-ignore-before-tooltip = 設定後，最佳化及評估 FSRS 參數時將無視在所選日期前做出的複習。若你匯入了他人的排程資料，或改變了各回答按鈕的用法，則可使用此選項。
 deck-config-compute-optimal-weights-tooltip =
     當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
     
@@ -277,6 +279,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
+deck-config-fsrs-params-optimal = 當前 FSRS 參數已為最佳。
 deck-config-wait-for-audio = 等待音訊播放
 deck-config-show-reminder = 顯示提醒
 deck-config-answer-again = 回答「重來」
