@@ -50,7 +50,12 @@ actions-build-filtered-deck = Desteyi oluştur
 actions-add-notetype = Not Türü Ekle
 actions-remove-notetype = Not Türünü Sil
 actions-update-notetype = Not Türü Güncelle
+actions-update-config = Yapılandırma Güncelle
 actions-card-info = Kart Bilgisi
+actions-previous-card-info = Önceki Kart Bilgisi
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
 
 ## Flags
 
@@ -66,3 +71,5 @@ actions-set-flag = Bayrakla İşaretle
 actions-nothing-to-undo = Geri alınacak bir şey yok
 actions-nothing-to-redo = Yeniden yapılacak bir şey yok.
 actions-auto-advance = Otomatik İlerleme
+actions-auto-advance-activated = Otomakik İlerleme etkinleştirildi
+actions-auto-advance-deactivated = Otomakik İlerleme devre dışı bırakıldı

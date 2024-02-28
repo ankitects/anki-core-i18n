@@ -1,7 +1,8 @@
 adding-add-shortcut-ctrlandenter = Ekle (kısayol tuşu: ctrl+enter)
 adding-added = Eklendi
 adding-discard-current-input = Geçerli girdiyi atmak ister misin?
-adding-edit = "{ $val }" ögesini düzenle
+adding-keep-editing = Düzenlemeye Devam Et
+adding-edit = "{ $val }" öğesini düzenle
 adding-history = Geçmiş
 adding-note-deleted = (Not silindi)
 adding-shortcut = Kısayol: { $val }

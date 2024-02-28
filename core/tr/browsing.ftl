@@ -10,9 +10,16 @@ browsing-browser-appearance = Tarayıcı Görünümü
 browsing-browser-options = Tarayıcı Seçenekleri
 browsing-buried = Gizlenenler
 browsing-card = Kart
+browsing-cards = Kartlar
 browsing-card-list = Kart Listesi
 browsing-cards-cant-be-manually-moved-into = Kartlar filtrelenmiş bir desteye manuel olarak taşınamaz.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } kart silindi.
+       *[other] { $count } kart silindi.
+    }
 browsing-change-deck = Desteyi Değiştir
+browsing-change-deck2 = Desteyi Değiştir...
 browsing-change-note-type = Not Türünü Değiştir
 browsing-change-note-type2 = Not Türünü Değiştir...
 browsing-change-notetype = Not Türünü Değiştir
@@ -47,9 +54,12 @@ browsing-new = (yeni)
 browsing-new-note-type = Yeni not türü:
 browsing-no-flag = Bayrak Yok
 browsing-note = Not
+browsing-notes = Notlar
+browsing-optional-filter = İsteğe bağlı filtre:
 browsing-override-back-template = Arka şablonu değiştir:
 browsing-override-font = Yazi tipini değiştir:
 browsing-override-front-template = Ön şablonu değiştir:
+browsing-please-give-your-filter-a-name = Lütfen filtrenize bir ad verin.
 browsing-preview-selected-card = Seçilen Kartı Önizle ({ $val })
 browsing-question = Soru
 browsing-queue-bottom = Aşağı sırala: { $val }
@@ -60,8 +70,13 @@ browsing-replace-with = <b>...İle Değiştir</b>
 browsing-reposition = Yeniden konumlandır...
 browsing-reposition-new-cards = Yeni kartları yerleştir
 browsing-reschedule = Yeniden Planlama
+browsing-search-bar-hint = Kartları/notları aramak için, metin yazın sonra Enter tuşuna basın
+browsing-search-in = İçinde ara:
 browsing-search-within-formatting-slow = Biçimlemeyi içererek ara (yavaş)
+browsing-selected-notes-only = Sadece seçilen notlar
 browsing-shift-position-of-existing-cards = Mevcut kartların yerini değiştir
+browsing-sidebar = Kenar Çubuğu
+browsing-sidebar-filter = Kenar Çubuğu filtresi
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sıralama Alanı
 browsing-sorting-on-this-column-is-not = Bu sütunda sıralama desteklenmiyor. Lütfen başka birini seçin.
@@ -75,6 +90,7 @@ browsing-toggle-bury = Gizlenmeyi Aç/Kapat
 browsing-toggle-showing-cards-notes = Kartları/Notları Aç/Kapat
 browsing-toggle-mark = İşareti Aç/Kapat
 browsing-toggle-suspend = Askıya Alındı Aç/Kapat
+browsing-whole-collection = Bütün Koleksiyon
 browsing-you-must-have-at-least-one = En az bir sütun olmalıdır.
 browsing-group =
     { $count ->
