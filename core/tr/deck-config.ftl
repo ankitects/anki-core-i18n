@@ -94,6 +94,7 @@ deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 
 ## Messages related to the FSRS scheduler
 
+deck-config-complete = %{ $num } tamamlandı.
 deck-config-show-reminder = Hatırlatıcıyı Göster
 deck-config-answer-again = Tekrar Cevapla
 deck-config-answer-hard = Zor

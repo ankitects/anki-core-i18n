@@ -139,6 +139,7 @@ scheduling-show-new-cards-after-reviews = Yeni kartları gözden geçirmelerden 
 scheduling-show-new-cards-before-reviews = Yeni kartları gözden geçirmelerden önce göster
 scheduling-show-new-cards-in-order-added = Yeni kartları eklendiği sırada göster
 scheduling-show-new-cards-in-random-order = Yeni kartları rastgele sırada göster
+scheduling-starting-ease = Başlangıç kolaylığı
 scheduling-steps-in-minutes = Adımlar (dakikada)
 scheduling-steps-must-be-numbers = Adımlar sayı olmalıdır.
 scheduling-tag-only = Sadece Etiket

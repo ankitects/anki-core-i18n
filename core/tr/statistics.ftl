@@ -26,12 +26,12 @@ statistics-reviews =
 statistics-today-title = Bugün
 statistics-today-again-count = Tekrar sayısı:
 statistics-today-type-counts = Öğrenme: { $learnCount }, Gözden Geçirme: { $reviewCount }, Yeniden Öğrenme: { $relearnCount }, Filtrelenmiş: { $filteredCount }
-statistics-today-no-mature-cards = Bugün çalışılan geçmiş kart yok.
-statistics-today-correct-mature = Tamamlanmış kartlardaki doğru cevaplar: { $correct }/{ $total } ({ $percent }%)
+statistics-today-no-mature-cards = Bugün çalışılan olgun kart yok.
+statistics-today-correct-mature = Olgun kartlardaki doğru cevaplar: { $correct }/{ $total } (%{ $percent })
 statistics-counts-total-cards = Toplam kart
 statistics-counts-new-cards = Yeni
 statistics-counts-young-cards = Genç
-statistics-counts-mature-cards = Geçmiş
+statistics-counts-mature-cards = Olgun
 statistics-counts-suspended-cards = Askıya Alındı
 statistics-counts-buried-cards = Gizlendi
 statistics-counts-learning-cards = Öğrenme
@@ -39,9 +39,27 @@ statistics-counts-relearning-cards = Yeniden öğrenme
 statistics-counts-separate-suspended-buried-cards = Askıya alınan/Gizlenen kartları ayır
 statistics-range-deck = deste
 statistics-range-search = Ara
+statistics-card-ease-title = Kart kolaylığı
 statistics-card-stability-title = Kart sabitliği
 statistics-average-stability = Ortalama sabitlik
+statistics-card-ease-subtitle = Daha alçak kolaylıktaki kartlar daha sık görünecek.
 statistics-card-difficulty-subtitle2 = Zorluk daha yüksek olduğunda sabitlik daha yavaş artacak.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] Yüzde { $percent } kolaylıkla { $cards } kart var
+       *[other] Yüzde { $percent } kolaylıkla { $cards } kart var
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] Yüzde { $percent } zorlukla { $cards } kart var
+       *[other] Yüzde { $percent } zorlukla { $cards } kart var
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] Yüzde { $percent } hatırlanabilirlikle { $cards } kart var
+       *[other] Yüzde { $percent } hatırlanabilirlikle { $cards } kart var
+    }
 statistics-future-due-title = Tahmin
 statistics-future-due-subtitle = Gelecekte yapılacak incelemelerin sayısı.
 statistics-added-title = Eklendi
@@ -54,6 +72,7 @@ statistics-reviews-title = Gözden Geçirmeler
 statistics-reviews-time-checkbox = Zaman
 statistics-intervals-title = Süreler
 statistics-intervals-subtitle = Gözden geçirmeler tekrar gösterilene kadar gecikmeler.
+statistics-hours-correct = { $correct }/{ $total } doğruydu (%{ $percent })
 statistics-hours-title = Saatlik Analiz
 statistics-hours-subtitle = Günün her saati için başarı oranını inceleyin.
 
