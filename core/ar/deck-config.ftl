@@ -353,8 +353,9 @@ deck-config-compute-optimal-weights = تحسين عوامل FSRS
 deck-config-compute-optimal-retention = حساب معدل التذكر الأمثل
 deck-config-optimize-button = تحسين
 deck-config-compute-button = احسب
+deck-config-ignore-before = تجاهل المراجعات قبل
 deck-config-optimize-all-tip = تستطيع تحسين كل المجموعات في الوقت نفسه بالضغط على الزر في الأعلى.
-deck-config-evaluate-button = احسب
+deck-config-evaluate-button = تقييم
 deck-config-desired-retention = معدل التذكر المرغوب فيه
 deck-config-sm2-retention = معدل تذكر SM2
 deck-config-smaller-is-better = تشير الأرقام الأصغر إلى ملاءمة أفضل لسجل المراجعة الخاص بك.
@@ -395,6 +396,9 @@ deck-config-reschedule-cards-on-change-tooltip =
 deck-config-reschedule-cards-warning =
     اعتمادًا على معدل التذكر المرغوب فيه، يمكن أن يؤدي ذلك إلى
     استحقاق عدد كبير من البطاقات، لذلك لا يوصى به عند التبديل لأول مرة من SM2
+deck-config-ignore-before-tooltip =
+    إذا ضبطت هذا، سيتم تجاهل المراجعات قبل التاريخ المحدد عند تحسين عوامل FSRS وتقييمها.
+    هذا مفيد عندما تكون قد استوردت بيانات مراجعة شخص آخر، أو غيرت طريقة استخدامك لأزرار الإجابة.
 deck-config-compute-optimal-weights-tooltip =
     بمجرد الانتهاء من إجراء أكثر من 1000 مراجعة في Anki، يمكنك استخدام زر التحسين لتحليل سجل 
     المراجعة الخاص بك، وإنشاء أوزان مثالية تلقائيًا لذاكرتك والمحتوى الذي تدرسه. إذا كانت لديك 
@@ -432,6 +436,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = حساب المعاملات المثالية لمجموعة الخيارات { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = يجب تفعيل FSRS أولًا.
+deck-config-fsrs-params-optimal = يبدو أن عوامل FSRS محسنة بالفعل.
 deck-config-wait-for-audio = انتظار الصوت
 deck-config-show-reminder = إظهار المُذكّر
 deck-config-answer-again = الإجابة بـ«مجددًا»
