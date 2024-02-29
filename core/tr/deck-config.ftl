@@ -51,6 +51,8 @@ deck-config-bury-interday-learning-siblings = Günler arası öğrenmesi kardeş
 ## Ordering section
 
 deck-config-interday-step-priority = Günler arası öğrenmesi/gözden geçirme sırası
+deck-config-sort-order-ascending-ease = Artan kolaylık
+deck-config-sort-order-descending-ease = Azalan kolaylık
 
 ## Timer section
 

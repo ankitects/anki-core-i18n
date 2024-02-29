@@ -6,6 +6,7 @@ browsing-addon = Eklenti
 browsing-all-fields = Tüm Alanlar
 browsing-answer = Cevap
 browsing-any-flag = Herhangi Bir Bayrak
+browsing-average-ease = Ort. Kolaylık
 browsing-browser-appearance = Tarayıcı Görünümü
 browsing-browser-options = Tarayıcı Seçenekleri
 browsing-buried = Gizlenenler
