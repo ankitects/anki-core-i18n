@@ -181,6 +181,7 @@ deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, 
 deck-config-seconds-to-show-question = Sekunden bis die Frage gezeigt wird
 deck-config-seconds-to-show-answer = Sekunden bis die Antwort gezeigt wird
 deck-config-answer-action = Ant­wort­ak­tion
+deck-config-wait-for-audio-tooltip = Auf dem Ende vom Abspielen des Audios warten, und danach automatisch die Antwort oder nächste Frage zeigen
 
 ## Audio section
 
@@ -264,26 +265,36 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
-deck-config-must-have-1000-reviews =
+deck-config-unable-to-determine-desired-retention = Es stellt sich als unmöglich heraus, die optimale Behaltungszeit zu bestimmen.
+deck-config-must-have-400-reviews =
     { $count ->
-        [one] Nur { $count } Wiederholung wurde gefunden.
-       *[other] Nur { $count } Wiederholungen wurden gefunden.
-    } Sie müssen mindestends 1000 Wiederholungen haben, um benutzerdefinierte Parameter zu erzeugen.
+        [one] Nur { $count } Wiederholung wurde gefunden. Sie müssen mindestens 400 Wiederholungen haben, um benutzerdefinierte Parameter zu bestimmen zu ermöglichen
+       *[other] Nur { $count } Wiederholungen wurde gefunden. Sie müssen mindestens 400 Wiederholungen haben, um benutzerdefinierte Parameter zu bestimmen zu ermöglichen
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS Parametern
 deck-config-compute-optimal-retention = Optimale Retention berechnen
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
+deck-config-ignore-before = die bisherige Wiederholungen ignorieren
 deck-config-optimize-all-tip = Sie können alle Vorgaben gleichzeitig durch Drücken des oberen Knopfes optimieren.
 deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Retention
 deck-config-sm2-retention = SM2 Retention
+deck-config-smaller-is-better = Die kleinere Zahle zeigen, dass es besser in Ihre Wiederholungsgeschichte anpassen würde
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
+deck-config-fsrs-on-all-clients = Stellen Sie sich bitte sicher, dass alle Ihre Apps sind Anki(Mobile) 23.10+ oder AnkiDroid 2.17+. FSRS würde nicht korrekt funktionieren, falls ein Ihrer Apps älter ist.
 deck-config-estimated-retention = Geschätzte Retention: { $num }
 deck-config-complete = { $num }% abgeschlossen.
 deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
+deck-config-fsrs-tooltip =
+    Das hat eine Wirkung auf die gesamte Sammlung.
+    
+    Freier Planer von räumlichen Wiederholungen (Free Spaced Repetition Scheduler, FSRS) ist eine Alternative zu älteren SuperMemo 2 (SM2) Planer.
+    Durch präzisere Bestimmung von der wahrscheinlicher Vergessungspunkt hilft es Sie mehr zu behalten in der gleichen Zeit. Diese Einstellung wurde für alle Sammlungen geteilt. 
+    Falls Sie die benutzerdefinierende Planung in FSRS, bitte stellen Sie sich sicher, dass Sie alle benutzerdefinierende Planungen vor der Einschaltung dieser Option ausmerzen.
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
