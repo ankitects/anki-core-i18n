@@ -289,6 +289,7 @@ deck-config-compute-optimal-weights = 优化 FSRS 参数
 deck-config-compute-optimal-retention = 计算最佳记忆保留率
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
+deck-config-ignore-before = 忽略该日期前的复习记录
 deck-config-optimize-all-tip = 您可以使用「保存」右侧下拉菜单中的按钮以一次性优化所有预设。
 deck-config-evaluate-button = 评估
 deck-config-desired-retention = 期望的记忆保留率
@@ -328,6 +329,9 @@ deck-config-reschedule-cards-warning =
     根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM2 切换时不推荐开启该选项。
     
     请节制地使用该选项，因为启用该选项会为每一张卡片添加一条复习记录，并增加您集合的的大小。
+deck-config-ignore-before-tooltip =
+    设置后，优化与评估 FSRS 参数将会忽略所给日期前的复习记录。
+    此选项可以用于您导入了他人的排程数据，或改变了使用各回答按钮方式的情况。
 deck-config-compute-optimal-weights-tooltip =
     一旦您在 Anki 中完成了 1000+ 次复习，您就可以使用「优化」按钮来分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的参数。
     如果您有难度差异较大的牌组，建议为它们分别使用不同的预设配置，因为简单牌组和困难牌组的参数有所不同。
@@ -349,6 +353,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = 正在优化预设 { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = 请您先启用 FSRS。
+deck-config-fsrs-params-optimal = 当前 FSRS 参数已为最佳。
 deck-config-wait-for-audio = 等待音频播放完毕
 deck-config-show-reminder = 显示提醒
 deck-config-answer-again = 回答「忘记」
