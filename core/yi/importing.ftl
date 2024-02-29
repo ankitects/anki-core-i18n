@@ -44,6 +44,37 @@ importing-include-reviews = אַרײַננעמען איבער׳חזר׳ונגע�
 importing-also-import-progress = אַרײַנפֿירן סײַ וועלכע מין לערנפּראָגרעס
 importing-with-deck-configs = אַרײַנפֿירן סײַ וועלכע מין מוסטער-טעשלעך
 importing-updates = דערהײַנטיקונגען
+importing-include-reviews-help =
+    ווען ס׳ווערט אײַנגעשליסן, פֿריִערדיקע אַרײַנגענעמען איבער׳חזר׳ונגען וועלן אויך ווערן אַרײַנגעפֿירט.
+    ווען נישט, וועלן אַלע קאַרטלעך אַרײַנגעפֿירט ווערן ווי נײַע קאַרטלעך.
+importing-with-deck-configs-help =
+    ווען ס׳ווערט אײַנגעשליסן, אַרײַנגענעמענע טעשל-ברירות וועלן אויך אַרײַנגעפֿירט ווערן. 
+    ווען נישט, וועלן אַלע טעשלעך באַשטימט ווערן אויפֿן עצם מוסטער-טעשל.
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = אײַנגעפּאַקט אַנקי טעשל/זאַמלונג (*.apkg *.colpkg *.zip)
+importing-pauker-18-lesson-paugz = Pauker 1.8 לעקציע (*.pau.gz)
+# the '|' character
+importing-pipe = טרויב-סימבאָל
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' האָט געהאַט { $found }, ס׳האָט זיך געריכט { $expected }
+importing-selected-file-was-not-in-utf8 = אויסגעקליבענע טעקע איז נישט געווען אין פֿאָרמאַט UTF-8. גיב אַ קוק אויפֿן ׳אַרײַנפֿירן׳ אָפּטייל פֿונעם האַנטביכל.
+importing-semicolon = פּינטל-קאָמע
+importing-skipped = אַרויסגעלאָזט
+importing-supermemo-xml-export-xml = אַרויספֿירן Supermemo XML (*.xml)
+importing-tab = טאַבקלאַוויש
+importing-tag-modified-notes = באַצעטלען אויסגעביטענע נאָטיצן:
+importing-text-separated-by-tabs-or-semicolons = טעקסט צעטיילט פֿון טאַבקלאַווישן אָדער פּינטל-קאָמעס (*)
+importing-the-first-field-of-the-note = דאָס ערשטע פֿעלד פֿונעם מין-נאָטיץ מוז ווערן צונויפֿגעפּאָרט.
+importing-the-provided-file-is-not-a = די אָנגעגעבענע טעקע איז נישט קיין גילטיקע ׳.apkg׳ טעקע.
+importing-unknown-file-format = טעקע-פאָרמאַט נישט דערקענט.
+importing-updated = דערהײַנטיקט
+importing-update-if-newer = ווען נײַער
+importing-update-always = תּמיד
+importing-update-never = קיין מאָל
+importing-update-notes = דערהײַנטיקן נאָטיצן
+importing-update-notetypes = צונויפֿגיסן מיני-נאָטיצן
+importing-importing-file = אַרײַנפֿירנדיק טעקע…
+importing-file = טעקע
+importing-details = פּרטים
+importing-status = מצבֿ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
