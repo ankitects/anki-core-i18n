@@ -332,7 +332,7 @@ deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
 deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
-deck-config-ignore-before = Escludi le ripetizioni precedenti al
+deck-config-ignore-before = Data di inizio per l'inclusione delle ripetizioni
 deck-config-optimize-all-tip = Ottimizza tutte le preimpostazioni contemporaneamente dal menù a tendina vicino a "Salva".
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
@@ -383,7 +383,7 @@ deck-config-reschedule-cards-warning =
     Usa questa opzione con parsimonia, poiché aggiungerà una voce di revisione per ciascuna delle tue carte e
     aumenterà le dimensioni della tua collezione.
 deck-config-ignore-before-tooltip =
-    Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
+    Solo le ripetizioni successive alla data specificata saranno incluse nell'ottimizzazione e valutazione dei parametri FSRS.
     Ciò può risultare utile se hai importato i dati di pianificazione di qualcun altro oppure se hai cambiato le tue abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
