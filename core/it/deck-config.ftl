@@ -383,7 +383,7 @@ deck-config-reschedule-cards-warning =
     Usa questa opzione con parsimonia, poiché aggiungerà una voce di revisione per ciascuna delle tue carte e
     aumenterà le dimensioni della tua collezione.
 deck-config-ignore-before-tooltip =
-    Se impostato, le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
+    Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
     Ciò può risultare utile se hai importato i dati di pianificazione di qualcun altro oppure se hai cambiato le tue abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
