@@ -308,6 +308,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = Optimiere Stapeloptionengruppe { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
+deck-config-fsrs-params-optimal = Die FSRS Parameter scheinen jetzt optimal zu sein
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = "Er­neut" ant­wor­ten
