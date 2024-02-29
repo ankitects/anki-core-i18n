@@ -73,6 +73,8 @@ statistics-reviews-time-checkbox = Zaman
 statistics-intervals-title = Süreler
 statistics-intervals-subtitle = Gözden geçirmeler tekrar gösterilene kadar gecikmeler.
 statistics-hours-correct = { $correct }/{ $total } doğruydu (%{ $percent })
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 %{ $percent } doğruydu ({ $reviews })
 statistics-hours-title = Saatlik Analiz
 statistics-hours-subtitle = Günün her saati için başarı oranını inceleyin.
 
@@ -92,6 +94,8 @@ statistics-average-answer-time-label = Ortalama cevap süresi
 statistics-average = Ortalama
 statistics-average-interval = Ortalama aralık
 statistics-due-tomorrow = Yarına kadar
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $total } içinden { $amount } tanesi (%{ $percent })
 statistics-average-over-period = Eğer her gün çalıştıysanız
 statistics-average-ease = Ortalama kolaylık
 statistics-save-pdf = PDF Kaydet
