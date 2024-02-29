@@ -6,21 +6,21 @@
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
-    используется { $decks ->
-        [one] { $decks } колодой
-        [few] { $decks } колодами
-        [many] { $decks } колодами
-       *[other] { $decks } колодами
+    { $decks ->
+        [one] используется { $decks } колодой
+        [few] используется { $decks } колодами
+        [many] используется { $decks } колодами
+       *[other] используется { $decks } колодами
     }
 deck-config-default-name = По умолчанию
 deck-config-title = Параметры колоды
 
 ## Daily limits section
 
-deck-config-daily-limits = Дневные лимиты
+deck-config-daily-limits = Ежедневный лимит
 deck-config-new-limit-tooltip =
-    Максимум новых карточек в день, если они есть.
-    Это число обычно должно быть в 10 раз меньше лимита просмотров, так как новый материал увеличивает краткосрочную нагрузку.
+    Максимум новых карточек в день, если они доступны.
+    Поскольку новый материал увеличивает краткосрочную нагрузку на память, это число обычно должно быть в 10 раз меньше лимита просмотров
 deck-config-review-limit-tooltip = Максимум повторяемых карточек в день, если подошёл их срок.
 deck-config-limit-deck-v3 =
     Когда вы учите колоду с подколодами, лимиты каждой подколоды устанавливают максимум карточек, которые будут выбраны из этой подколоды.
@@ -151,6 +151,10 @@ deck-config-timer-title = Таймер
 deck-config-maximum-answer-secs = Максимум секунд для ответа
 deck-config-maximum-answer-secs-tooltip = Максимум секунд для одного ответа. Если время ответа больше этого значения (например, если вы отошли от компьютера), то записанным временем будет заданный максимум.
 deck-config-show-answer-timer-tooltip = Показывать на экране учёбы секундомер, который засекает, сколько времени уходит у вас на ответ.
+deck-config-stop-timer-on-answer = Остановить таймер при ответе
+
+## Auto Advance section
+
 
 ## Audio section
 
@@ -161,7 +165,6 @@ deck-config-disable-autoplay-tooltip =
     Звук можно воспроизвести вручную нажав на иконку или на кнопку "Воспроизвести снова".
 deck-config-skip-question-when-replaying = Пропускать вопрос при воспроизведении ответа
 deck-config-always-include-question-audio-tooltip = Будет ли озвучиваться вопрос, если включено повторное произведение при просмотре ответа
-deck-config-stop-timer-on-answer = Остановить таймер при ответе
 
 ## Advanced section
 
@@ -242,6 +245,11 @@ deck-config-get-params = Получить параметры
 deck-config-estimated-retention = Оценка усвоения: { $num }
 deck-config-complete = { $num }% выполнено.
 deck-config-reschedule-cards-on-change = Перепланировать карточки при изменениях.
+deck-config-wait-for-audio = Ждать аудио
+deck-config-show-reminder = Показать напоминание
+deck-config-answer-again = Ответить «снова»
+deck-config-answer-hard = Ответить «трудно»
+deck-config-answer-good = Ответить «хорошо»
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -256,8 +264,3 @@ deck-config-bury-tooltip =
     Когда опция отключена, несколько карточек одно записи могут быть показаны в один день. Если она включена, Anki будет *откладывать* связанные до следующего дня. Опция позволяет выбрать, что делать с остальными связанными после ответа на одну из них.
     
     При использовании планировщика V3 перенесённые на другой день тоже откладываются. Перенесённые — те, у которых шаг изучаемой больше одного дня.
-deck-config-wait-for-audio = Ждать аудио
-deck-config-show-reminder = Показать напоминание
-deck-config-answer-again = Ответить «снова»
-deck-config-answer-hard = Ответить «трудно»
-deck-config-answer-good = Ответить «хорошо»

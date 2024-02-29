@@ -1,10 +1,13 @@
 ### Text shown in Help pages
 
 
-## Header
+## Header/footer
 
+# Link to more detailed information in the manual
+help-for-more-info = Подробнее см. в разделе руководства { $link }.
 # Tooltip for links to the manual
-help-open-manual-chapter = Открыть { $name } в руководстве.
+help-open-manual-chapter = Открыть раздел { $name } в руководстве.
+help-ok = ОК
 
 ## Body
 
@@ -13,8 +16,3 @@ help-no-explanation =
     Ой! Для этой настройки еще нет пояснения.
     
     Вы можете помочь нам добавив страницу помощи "{ $link }"
-
-## Footer
-
-# Link to more detailed information in the manual
-help-for-more-info = Подробнее см. в разделе руководства { $link }.
