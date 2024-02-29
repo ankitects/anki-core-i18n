@@ -6,7 +6,7 @@ importing-allow-html-in-fields = דערלויבן HTML אין פֿעלדער
 importing-anki-files-are-from-a-very = ".anki" טעקעס זענען פֿון ממש אַן אַלטן נוסח פֿון אַנקי. מע קען זיי אַרײַנפֿירן מיט צוגאָבל 175027074 אָדער מיט אַנקי 2.0, וואָס געפֿינט זיך אויפֿן אַנקי וועבזײַטל.
 importing-anki2-files-are-not-directly-importable = .anki2 טעקעס קען מען זיי נישט גלײַך אַרײַנפֿירן - אַנשטאָט, פֿיר אַרײַן די געקריגנע .apkg אָדער .zip טעקע.
 importing-appeared-twice-in-file = צוויי מאָל זיך געפֿונען אין טעקע: { $val }
-importing-by-default-anki-will-detect-the = דורך פֿעליקייט דערקענט אַנקי דעם שריפֿטצײַכן צווישן פֿעדלער, למשל אַ טאַבקלאַוויש, קאָמע, אא״וו. ווען אַנקי דערקענט אים נישט ריכטיק, קען מען אים אַרײַנלייגן דאָ. ניץ "t/" כּדי צו באַטײַטן "טאַבקלאַוויש".
+importing-by-default-anki-will-detect-the = דורך פֿעליקייט דערקענט אַנקי דעם אות צווישן פֿעדלער, למשל טאַבקלאַוויש, קאָמע, אא״וו. ווען אַנקי דערקענט אים נישט ריכטיק, קען מען אים אַרײַנלייגן דאָ. מע באַטײַט טאַבקלאַוויש מיט "t/".
 importing-cannot-merge-notetypes-of-different-kinds = ״קלאָז״ מין נאָטיצן קען מע נישט צונויפֿגיסן מיט סתּם מין נאָטיצן. די טעקע אָבער קען מען נאָך אַלץ אַרײַנפֿירן בײַם דעאַקטיווירן '{ importing-merge-notetypes }' .
 importing-change = בײַטן
 importing-colon = צווייפּינטל
@@ -21,6 +21,29 @@ importing-file-version-unknown-trying-import-anyway = אומבאַקאַטער �
 importing-first-field-matched = ערשט-געפּאָרט פֿעלד: { $val }
 importing-identical = אידענטיש
 importing-ignore-field = איגנאָרירן פֿעלד
+importing-ignore-lines-where-first-field-matches = איגנאָרירן שורות וואָס דאָס ערשטע פֿעלד בײַ זיי איז גלײַך מיט אַן עקסיסטירנדיקער נאָטיץ.
+importing-ignored = <ignored>
+importing-import-even-if-existing-note-has = אַרײַנפֿירן אַפֿילו ווען עקסיסטירנדיקע נאָטיץ האָט דאָס זעלבע ערשטע פֿעלד.
+importing-import-options = אַרײַנפֿיר ברירות
+importing-importing-complete = אַרײַנפֿיר פֿאַרענדיקט.
+importing-invalid-file-please-restore-from-backup = טעקע איז בטל. זײַ אַזוי גוט, ריכט אויף פֿון רעזערוו-קאָפּיע.
+importing-map-to = צונויפֿפּאָרן מיט { $val }
+importing-map-to-tags = צונויפֿפּאָרן מיט צעטלען
+importing-mapped-to = צונויפֿגעפּאָרט מיט <b>{ $val }</b>
+importing-mapped-to-tags = צונויפֿגעפּאָרט מיט <b>צעטלען</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = צונויפֿגיסן מינים נאָטיצן
+importing-mnemosyne-20-deck-db = טעשל מיט Mnemosyne 2.0 (*.db)
+importing-multicharacter-separators-are-not-supported-please = מחיצות מוזן באַשטיין אין נאָר איין אות
+importing-notes-added-from-file = נאָטיצן צוגעשטעלט פֿון טעקע: { $val }
+importing-notes-found-in-file = נאָטיצן געפֿונען אין טעקע: { $val }
+importing-notes-skipped-as-theyre-already-in = אויסגעלאָזטע נאָטיצן, ווײַל דערהײַנטיקטע קאָפּיעס זענען שוין אין דײַן זאַמלונג: { $val }
+importing-notes-skipped-update-due-to-notetype = נישט-דערהײַנטיקטע נאָטיצן, ווײַל דער מין-נאָטיץ האָט מען אויסגעביטן זינט די נאָטיצן זענען צום ערשטנס אַרײַנגעפֿירט געוואָרן: { $val }
+importing-notes-updated-as-file-had-newer = דערהײַנטיקטע נאָטיצן, ווײַל טעקע האָט אַ נײַערן נוסח געהאָט: { $val }
+importing-include-reviews = אַרײַננעמען איבער׳חזר׳ונגען
+importing-also-import-progress = אַרײַנפֿירן סײַ וועלכע מין לערנפּראָגרעס
+importing-with-deck-configs = אַרײַנפֿירן סײַ וועלכע מין מוסטער-טעשלעך
+importing-updates = דערהײַנטיקונגען
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
