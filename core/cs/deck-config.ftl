@@ -348,6 +348,7 @@ deck-config-fsrs-on-all-clients =
     fungovat správně, jestliže je některý z vašich klientů starší.
 deck-config-estimated-retention = Odhadovaná retence: { $num }
 deck-config-complete = { $num }% hotovo.
+deck-config-iterations = Iterace: { $count }...
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
 deck-config-fsrs-tooltip =
     Free Spaced Repetition Scheduler (FSRS) je alternativou k původnímu plánovači Anki SuperMemo 2 (SM2).
