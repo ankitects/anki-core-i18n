@@ -51,7 +51,7 @@ database-check-fixed-invalid-ids =
        *[other] Corretti { $count } oggetti con timestamp nel futuro.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Mancano uno o più tipi di note. Alle note di quel tipo sono stati assegnati nuovi tipi di nota che iniziano con "db-check", ma i nomi dei campi e il design delle carte sono andati persi, quindi è consigliabile ripristinarle da un backup automatico.
+database-check-notetypes-recovered = Mancano uno o più tipi di nota. Alle note di quel tipo sono stati assegnati nuovi tipi di nota che iniziano con "db-check", ma i nomi dei campi e il design delle carte sono andati persi, quindi è consigliabile ripristinarle da un backup automatico.
 
 ## Progress info
 
