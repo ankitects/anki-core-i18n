@@ -388,6 +388,11 @@ deck-config-compute-optimal-weights-tooltip =
     Ve výchozím nastavení se váhy budou počítat z historie opakování všech balíčků za použití současné 
     předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
     se použijí pro optimalizování vah.
+deck-config-compute-optimal-retention-tooltip =
+    Tento nástroj předpokládá, že začínáte s 0 kartami, a pokusí se vypočítat množství materiálu, který budete schopen udržovat v daném časovém rámci. Odhadovaná retence bude do značné míry záviset na vašich vstupech, 
+    a pokud se výrazně liší od 0,9, je to znamení, že čas, který jste přidělili na každý den, je buď příliš nízký,
+    nebo příliš vysoký na množství karet, které se pokoušíte naučit. Toto číslo může být užitečné jako reference, ale
+    nedoporučuje se jej kopírovat do pole požadovaná retence.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
 deck-config-a-100-day-interval =
     { $days ->
