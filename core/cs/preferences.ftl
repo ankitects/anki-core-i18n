@@ -24,8 +24,9 @@ preferences-show-play-buttons-on-cards-with = Zobrazovat tlačítka přehrát na
 preferences-show-remaining-card-count = Zobrazit zbývající počet karet
 preferences-some-settings-will-take-effect-after = Některá nastavení se projeví až po restartu Anki.
 preferences-tab-synchronisation = Synchronizace
-preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Synchronizace</b><br> Neni momentálně povolena; pro zapnutí kliknětě na tlačítko „Synchronizace“ v hlavním okně.
 preferences-synchronize-audio-and-images-too = Synchronizovat i obrázky a zvuky
+preferences-not-logged-in = V současné době nejste přihlášen k AnkiWeb.
+preferences-login-successful-sync-now = Přihlášení úspěšné. Uložit předvolby a synchronizovat?
 preferences-timebox-time-limit = Limit pro časový box
 preferences-user-interface-size = Velikost uživatelského rozhraní
 preferences-when-adding-default-to-current-deck = Při přidávání standardně nastaven aktuální balíček
@@ -52,6 +53,7 @@ preferences-custom-sync-url = Vlastní synchronizační server
 preferences-custom-sync-url-disclaimer = Pro pokročilé uživatele, viz příručku
 preferences-hide-top-bar-during-review = Skrýt horní lištu během opakování
 preferences-hide-bottom-bar-during-review = Skrýt dolní lištu během opakování
+preferences-always = Vždy
 preferences-appearance = Vzhled
 preferences-general = Obecné
 preferences-style = Styl
@@ -70,7 +72,6 @@ preferences-import-export = Import/Export
 preferences-network-timeout = Časový limit sítě
 preferences-reset-window-sizes = Resetovat velikosti oken
 preferences-reset-window-sizes-complete = Velikosti oken a jejich pozice byly resetovány.
-preferences-stop-timer-on-answer = Zastavit časovač po odpovědi
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -15,6 +15,7 @@ media-check-unused-count = Nepoužívané soubory: { $count }
 media-check-renamed-count = Přejmenované soubory: { $count }
 media-check-oversize-count = Přes 100 MB: { $count }
 media-check-subfolder-count = Podadresářů: { $count }
+media-check-extracted-count = Extrahované obrázky: { $count }
 
 ## Shown at the top of each section
 

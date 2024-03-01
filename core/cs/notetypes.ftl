@@ -48,6 +48,7 @@ notetypes-image-occlusion-name = Okluze obrázku
 notetypes-hide-all-guess-one = Schovat vše, hádat jeden
 notetypes-hide-one-guess-one = Schovat jeden, hádat jeden
 notetypes-error-generating-cloze = Nastala chyba při generování poznámky s okluzí obrázku
+notetypes-error-getting-imagecloze = Nastala chyba při získávání poznámky s okluzí obrázku
 notetypes-error-loading-image-occlusion = Chyba při načítání okluze obrázku. Je verze vašeho Anki aktuální?
 notetype-error-no-image-to-show = Žádný obrázek k zobrazení.
 notetypes-no-occlusion-created = Musíte vytvořit alespoň jednu okluzi.

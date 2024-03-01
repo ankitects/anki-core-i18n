@@ -26,6 +26,8 @@ decks-please-select-something = Prosím proveďte výběr.
 decks-random = Náhodně
 decks-relative-overdueness = Relativní zpožděnost
 decks-repeat-failed-cards-after = Zopakovat chybné karty poté
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Posunutí pro { $button }
 decks-reschedule-cards-based-on-my-answers = Přeplánování karet založené na mých odpovědích v tomto balíčku
 decks-study = Studovat
 decks-study-deck = Studovat balíček
@@ -34,3 +36,4 @@ decks-unmovable-cards = Zobrazit všechny vyloučené karty
 decks-learn-header = Učení
 # The count of cards waiting to be reviewed
 decks-review-header = Zkoušení
+decks-zero-minutes-hint = (0 = vrátí kartu do původního balíčku)
