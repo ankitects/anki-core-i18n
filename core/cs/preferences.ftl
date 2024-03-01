@@ -54,6 +54,7 @@ preferences-custom-sync-url-disclaimer = Pro pokročilé uživatele, viz příru
 preferences-hide-top-bar-during-review = Skrýt horní lištu během opakování
 preferences-hide-bottom-bar-during-review = Skrýt dolní lištu během opakování
 preferences-always = Vždy
+preferences-full-screen-only = Pouze celá obrazovka
 preferences-appearance = Vzhled
 preferences-general = Obecné
 preferences-style = Styl
@@ -72,6 +73,7 @@ preferences-import-export = Import/Export
 preferences-network-timeout = Časový limit sítě
 preferences-reset-window-sizes = Resetovat velikosti oken
 preferences-reset-window-sizes-complete = Velikosti oken a jejich pozice byly resetovány.
+preferences-shortcut-placeholder = Vypnete zadáním nepoužívané klávesy nebo ponecháním prázdného pole.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
