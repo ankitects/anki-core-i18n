@@ -155,7 +155,7 @@ deck-config-new-gather-priority-random-notes = Casuale (note)
 deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordine delle nuove carte
 deck-config-new-card-sort-order-tooltip-2 =
-    `Tipo di carta, poi in ordine di recupero`: mostra le carte seguendo l'ordine dei tipi di carte. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
+    `Tipo di carta, poi in ordine di recupero`: mostra le carte seguendo l'ordine dei tipi di carta. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
     
     `Ordine di recupero`: mostra le carte nell'ordine di recupero. Se la sepoltura delle carte sorelle è disabilitata, in genere questo farà sì che tutte le carte di una stessa nota vengano visualizzate una dopo l'altra.
     
@@ -431,7 +431,7 @@ deck-config-bury-tooltip =
     
     Quando questa opzione è disattivata, più carte dalla stessa nota possono essere visualizzate lo stesso giorno. 
     Quando è attivata, Anki *seppellirà* automaticamente le carte sorelle, nascondendole fino al giorno successivo. 
-    Questa opzione ti consente di scegliere quali tipi di carte verranno sepolti quando si risponde ad una delle loro carte sorelle.
+    Questa opzione ti consente di scegliere quali tipi di carta verranno sepolti quando si risponde ad una delle loro carte sorelle.
     
     Quando si utilizza il pianificatore V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
     Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento attuale di uno o più giorni.
