@@ -64,15 +64,96 @@ importing-tag-modified-notes = באַצעטלען אויסגעביטענע נא�
 importing-text-separated-by-tabs-or-semicolons = טעקסט צעטיילט פֿון טאַבקלאַווישן אָדער פּינטל-קאָמעס (*)
 importing-the-first-field-of-the-note = דאָס ערשטע פֿעלד פֿונעם מין-נאָטיץ מוז ווערן צונויפֿגעפּאָרט.
 importing-the-provided-file-is-not-a = די אָנגעגעבענע טעקע איז נישט קיין גילטיקע ׳.apkg׳ טעקע.
+importing-this-file-does-not-appear-to = אַפּנים איז די טעקע נישט קיין גילטיקע .apkg. ווען ס׳קומט פֿאָר די טעות פֿון אַ טעקע וואָס איז אַראָפּגעלאָדן געוואָרן פֿון אַנקיוועב, מסתּמא האָט זיך דער אַראָפּלאָד דורכגעפֿאַלן. פּרוּוו ווידער אַ מאָל, און, אַז דער פּראָבלעם קומט ווײַטער פֿאָר, פּרוּוו מיט אַן אַנדער בלעטערער.
+importing-this-will-delete-your-existing-collection = דאָס וועט אָפּמעקן דײַנע איצטיקע זאַמלונג און זי פֿאַרבײַטן מיט די דאַטן אין דער טעקע וואָס דו ווילסט אַרײַנפֿירן. ביסט זשע זיכער?
+importing-unable-to-import-from-a-readonly = מע קען נישט אַרײַנפֿירן פֿון אַ טעקע וואָס נאָר צום לייענען.
 importing-unknown-file-format = טעקע-פאָרמאַט נישט דערקענט.
 importing-updated = דערהײַנטיקט
 importing-update-if-newer = ווען נײַער
 importing-update-always = תּמיד
 importing-update-never = קיין מאָל
 importing-update-notes = דערהײַנטיקן נאָטיצן
+importing-update-notes-help = ווען צו דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיץ אין דײַן זאַמלונג. דורך פֿעליקייט, דאָס ווערט געטאָן נאָר ווען די צוגעפּאַסטע נאָטיץ וואָס אַרײַנגעפֿירט איז גאָר לעצטנס מאָדיפֿיצירט געוואָרן.
 importing-update-notetypes = צונויפֿגיסן מיני-נאָטיצן
+importing-note-added =
+    { $count ->
+        [one] { $count } נאָטיץ איז צוגעגעבן געוואָרן.
+       *[other] { $count } נאָטיצן זענען צוגעגעבן געוואָרן.
+    }
+importing-note-imported =
+    { $count ->
+        [one] { $count } נאָטיץ איז אַרײַנגעפֿירט געוואָרן.
+       *[other] { $count } נאָטיצן זענען אַרײַנגעפֿירט געוואָרן.
+    }
+importing-note-unchanged =
+    { $count ->
+        [one] { $count } נאָטיץ איז געלאָזט געוואָרן אומגעביטן.
+       *[other] { $count } נאָטיצן זענען געלאָזט געוואָרן אומגעביטן.
+    }
+importing-note-updated =
+    { $count ->
+        [one] { $count } נאַטיץ איז דערהײַנטיקט געוואָרן.
+       *[other] { $count } נאָטיצן זענען דערהײַנטיקט געוואָרן.
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } מעדיע-טעקע איז אַרײַנגעפֿירט געוואָרן.
+       *[other] { $count } מעדיע-טעקעס זענען אַרײַנגעפֿירט געוואָרן.
+    }
 importing-importing-file = אַרײַנפֿירנדיק טעקע…
+importing-extracting = אַרויסציִענדיק דאַטן…
+importing-gathering = פֿאַרזאַמלענדיק דאַטן…
+importing-failed-to-import-media-file = מ׳האָט דורכגעפֿאַלן אַרײַנצופֿירן מעדיע-טעקע: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] { $count } נאָטיץ איז פּראָצעסירט געוואָרן…
+       *[other] { $count } נאָטיצן זענען פּראָצעסירט געוואָרן…
+    }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } קאַרטל איז פּראָצעסירט געוואָרן…
+       *[other] { $count } קאַרטלעך זענען פּראָצעסירט געוואָרן…
+    }
+importing-existing-notes = עקסיסטירנדיקע נאָטיצן
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = דופּליקירן
+# "Existing notes: Preserve" (verb)
+importing-preserve = באַשיצן
+# "Existing notes: Update" (verb)
+importing-update = דערהײַנטיקן
+importing-tag-all-notes = באַצעטלען אַלע נאָטיצן
+importing-tag-updated-notes = באַצעטלען דערהײַנטיקטע נאָטיצן
 importing-file = טעקע
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = צופּאַסן מיטן פֿאַרנעם
+# Used with the 'match scope' option
+importing-notetype-and-deck = מין-נאָטיץ און טעשל
+importing-cards-added =
+    { $count ->
+        [one] { $count } קאַרטל איז צוגעשטעלט געוואָרן.
+       *[other] { $count } קאַרטלעך זענען צוגעשטעלט געוואָרן.
+    }
+importing-file-empty = די אויסגעקליבענע טעקע איז ליידיק.
+importing-notes-added =
+    { $count ->
+        [one] { $count } נײַע נאָטיץ איז אַרײַנגעפֿירט געוואָרן.
+       *[other] { $count } נײַע נאָטיצן זענען אַרײַנגעפֿירט געוואָרן.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] מ׳האָט געניצט { $count } נאָטיץ כּדי צו דערהײַנטיקן פֿריִערדיקע נאָטיצן.
+       *[other] מ׳האָט געניצט { $count } נאָטיצן כּדי צו דערהײַנטיקן פֿריִערדיקע נאָטיצן.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } נאָטיץ איז שוין פֿאַראַן אין דײַן זאַמלונג.
+       *[other] { $count } נאָטיצן זענען שוין פֿאַראַן אין דײַן זאַמלונג.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } נאָטיץ איז נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס איר מין-נאָטיץ האָט זיך געביטן.
+       *[other] { $count } נאָטיצן זענען נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס זייערע מיני-נאָטיצן האָבן זיך געביטן.
+    }
 importing-details = פּרטים
 importing-status = מצבֿ
 
