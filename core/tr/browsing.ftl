@@ -56,6 +56,7 @@ browsing-move-cards-to-deck = Kartları desteye taşı:
 browsing-new = (yeni)
 browsing-new-note-type = Yeni not türü:
 browsing-no-flag = Bayrak Yok
+browsing-no-selection = Hiçbir kart veya not seçilmedi.
 browsing-note = Not
 browsing-notes = Notlar
 browsing-optional-filter = İsteğe bağlı filtre:
@@ -93,6 +94,8 @@ browsing-toggle-bury = Gizlenmeyi Aç/Kapat
 browsing-toggle-showing-cards-notes = Kartları/Notları Aç/Kapat
 browsing-toggle-mark = İşareti Aç/Kapat
 browsing-toggle-suspend = Askıya Alındı Aç/Kapat
+browsing-treat-input-as-regular-expression = Girdiye düzenli ifade gibi davran
+browsing-update-saved-search = Geçerli Aramayla güncelle
 browsing-whole-collection = Bütün Koleksiyon
 browsing-you-must-have-at-least-one = En az bir sütun olmalıdır.
 browsing-group =
@@ -105,10 +108,21 @@ browsing-note-count =
         [one] { $count } not
        *[other] { $count } not
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } not güncellendi.
+       *[other] { $count } not güncellendi.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } kart güncellendi.
+       *[other] { $count } kart güncellendi.
+    }
 browsing-sidebar-expand = Genişlet
 browsing-sidebar-collapse = Daralt
 browsing-sidebar-expand-children = Altlarını Genişlet
 browsing-sidebar-collapse-children = Altlarını Daralt
+browsing-sidebar-decks = Desteler
 browsing-sidebar-tags = Etiketler
 browsing-sidebar-notetypes = Not Türleri
 browsing-sidebar-flags = Bayraklar
