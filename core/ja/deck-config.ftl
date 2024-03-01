@@ -297,6 +297,7 @@ deck-config-compute-optimal-weights = FSRSのパラメータを最適化
 deck-config-compute-optimal-retention = 学習プランから正答率を推定
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
+deck-config-ignore-before = 以前の復習を無視
 deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
 deck-config-evaluate-button = 評価
 deck-config-desired-retention = 正答率（目標値）
@@ -342,6 +343,10 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     このオプションの設定はすべてのプリセットで共有され、一括で適用された後、オフ（デフォルト）になります。
 deck-config-reschedule-cards-warning = 目標とする正答率にもよりますが、大量のカードがいっぺんに期日を迎えることになる可能性があるため、SM2スケジューラーからFSRSスケジューラーへの切り替えの際にこのオプションをオンにすることはお勧めしません。
+deck-config-ignore-before-tooltip =
+    このオプションがオンの場合、FSRSのパラメータを最適化・推測する際、指定日より前の復習履歴を無視します。
+    
+    この設定は、インポートしたデッキに他の人の復習履歴が含まれている場合や、あなたが回答ボタンを選ぶ際の方針が以前と今とでは異なるという場合に適しています。
 deck-config-compute-optimal-weights-tooltip =
     このプリセットを使用しているデッキでの復習履歴が1,000件以上に達したら、「最適化」ボタンを使って復習履歴を分析し、あなたの記憶力と学習内容に最適なパラメータを自動的に算出することができます。
     
@@ -368,6 +373,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = { $total_count }個中{ $current_count }個目のプリセットを最適化しています...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
+deck-config-fsrs-params-optimal = FSRSのパラメータは現在最適であると思われます。
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
 deck-config-answer-again = 回答 (もう一度)
