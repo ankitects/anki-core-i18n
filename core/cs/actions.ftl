@@ -4,6 +4,7 @@ actions-any-selected = Kterýkoli vybraný
 actions-cancel = Zrušit
 actions-choose = Zvolit
 actions-close = Zavřít
+actions-discard = Zahodit
 actions-copy = Kopírovat
 actions-create-copy = Vytvořit kopii
 actions-custom-study = Vlastní studium
@@ -55,6 +56,7 @@ actions-previous-card-info = Informace o předchozí kartě
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Režim celé obrazovky není podporován vaším video ovladačem. Zkuste ho v předvolbách přepnout na jiný.
 
 ## Flags
 

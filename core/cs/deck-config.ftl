@@ -336,6 +336,7 @@ deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
 deck-config-compute-optimal-retention = Vypočítat optimální retenci
 deck-config-optimize-button = Optimalizovat
 deck-config-compute-button = Vypočítat
+deck-config-ignore-before = Ignorovat opakování před
 deck-config-optimize-all-tip = Můžete optimalizovat všechny předvolby najednou použitím tlačítka výše.
 deck-config-evaluate-button = Vyhodnotit
 deck-config-desired-retention = Požadovaná retence
@@ -374,6 +375,9 @@ deck-config-reschedule-cards-on-change-tooltip =
     karet se změní. V závislosti na vaší požadované retenci může toto vyústit ve velký počet karet, 
     které budou ke zkoušení, proto není tato možnost doporučena, když poprvé přepínáte ze SM2.
 deck-config-reschedule-cards-warning = V závislosti na vaší požadované retenci může toto vyústit ve velké množství karet, které budou ke zkoušení, takže toto není doporučeno, když poprvé přepínáte ze SM2.
+deck-config-ignore-before-tooltip =
+    Je-li nastaveno, opakování před uvedeným datem budou ignorovány při optimalizaci a vyhodnocení FSRS parametrů.
+    To může být užitečné, pokud jste importovali data plánování někoho jiného nebo jste změnili způsob, jakým používáte tlačítka odpovědí.
 deck-config-compute-optimal-weights-tooltip =
     Jakmile provedete 1000+ opakování v Anki, můžete použít tlačítko Optimalizovat, aby se analyzovala vaše 
     historie opakování a automaticky se vygenerovaly váhy, které jsou optimální pro vaší paměť a obsah, který 
@@ -396,6 +400,8 @@ deck-config-percent-of-reviews =
         [few] { $pct }% ze { $reviews } opakování
        *[other] { $pct }% z { $reviews } opakování
     }
+deck-config-optimizing-preset = Optimalizuje se předvolba { $current_count }/{ $total_count }...
+deck-config-fsrs-params-optimal = FSRS parametry se nyní zdají být optimální.
 deck-config-wait-for-audio = Čekat na zvukovou stopu
 deck-config-show-reminder = Zobrazit upomínku
 deck-config-answer-again = Odpovědět znovu
