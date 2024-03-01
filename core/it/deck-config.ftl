@@ -67,15 +67,15 @@ deck-config-learning-steps = Passi di apprendimento
 -deck-config-delay-hint = Gli intervalli sono generalmente espressi in minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
 deck-config-learning-steps-tooltip =
     Uno o più intervalli, separati da spazi. Il primo intervallo viene usato
-    quando premi il tasto `Ripeti` su una nuova carta, di default 1 minuto.
-    Il tasto `Normale` avanza al passo successivo, di default 10 minuti.
+    quando premi il pulsante `Ripeti` su una nuova carta, di default 1 minuto.
+    Il pulsante `Normale` fa avanzare la carta al passo successivo, di default 10 minuti.
     Una volta che tutti i passi sono stati completati, la carta diventa una carta da ripassare,
     e verrà mostrata in un giorno differente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
-    Il numero di giorni da attendere prima di mostrare nuovamente una carta, dopo che il tasto "Normale"
+    Il numero di giorni da attendere prima di mostrare nuovamente una carta, dopo che il pulsante "Normale"
     è stato premuto nel passo di apprendimento finale.
 deck-config-easy-interval-tooltip =
-    Il numero di giorni da attendere prima di mostrare nuovamente una carta, dopo che il tasto "Facile"
+    Il numero di giorni da attendere prima di mostrare nuovamente una carta, dopo che il pulsante "Facile"
     è usato per rimuovere immediatamente una carta dall'apprendimento.
 deck-config-new-insertion-order = Ordine di inserimento
 deck-config-new-insertion-order-tooltip =
@@ -90,7 +90,7 @@ deck-config-new-insertion-order-random-with-v3 = Con il pianificatore V3, è meg
 
 deck-config-relearning-steps = Passi di riapprendimento
 deck-config-relearning-steps-tooltip =
-    Zero o più intervalli, separati da spazi. Per impostazione predefinita, premendo il tasto `Ripeti`
+    Zero o più intervalli, separati da spazi. Per impostazione predefinita, premendo il pulsante `Ripeti`
     su una carta da ripassare la mostrerà nuovamente dopo 10 minuti. Se nessun intervallo
     è specificato, l'intervallo della carta verrà cambiato, senza entrare
     nella fase di riapprendimento. { -deck-config-delay-hint }
@@ -248,7 +248,7 @@ deck-config-maximum-interval-tooltip =
     le ripetizioni hanno raggiunto il limite, `Difficile`, `Normale`, `Facile` daranno tutti lo
     stesso intervallo di tempo. Quanto più breve è questo valore, tanto maggiore sarà il carico di lavoro.
 deck-config-starting-ease-tooltip =
-    Il moltiplicatore di facilità con il quale iniziano le nuove carte. Per impostazione predefinita, il tasto
+    Il moltiplicatore di facilità con il quale iniziano le nuove carte. Per impostazione predefinita, il pulsante
     `Facile` su una carta appena appresa ritarda la ripetizione successiva di 2,5 volte rispetto all'intervallo precedente.
 deck-config-easy-bonus-tooltip =
     Un moltiplicatore aggiuntivo che è applicato all'intervallo di una carta ripassata
