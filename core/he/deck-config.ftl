@@ -332,6 +332,7 @@ deck-config-compute-optimal-weights = בצע אופטימיזציה של משק�
 deck-config-compute-optimal-retention = חישוב יכולת זכירה אופטימלית
 deck-config-optimize-button = בצע אופטימיזציה
 deck-config-compute-button = חשב
+deck-config-ignore-before = התעלם מחזרות לפני
 deck-config-optimize-all-tip = אתה יכול לבצע אופטימיזציה של כל ההעדפות המוגדרות מראש בבת אחת על ידי שימוש בכפתור שבחלק העליון.
 deck-config-evaluate-button = הערכה
 deck-config-desired-retention = שימור רצוי
@@ -374,6 +375,9 @@ deck-config-reschedule-cards-on-change-tooltip =
 deck-config-reschedule-cards-warning =
     בהתאם לשמירת זכרון הרצויה שלך, זה יכול לגרום למספר רב של כרטיסים להפוך 
     לממתינים לחזרה, ולכן זה לא מומלץ בעת המעבר הראשון מ-SM2.
+deck-config-ignore-before-tooltip =
+    אם מוגדר, יתעלם מחזרות לפני התאריך שסופק בעת אופטימיזציה והערכת פרמטרי FSRS.
+    זה יכול להיות שימושי אם ייבאת נתוני תזמון של מישהו אחר, או שינית את אופן השימוש בלחצני התשובה.
 deck-config-compute-optimal-weights-tooltip =
     לאחר שעשית 1000+ חזרות ב-Anki, תוכל להשתמש בלחצן האופטימיזציה כדי לנתח את היסטוריית החזרות שלך,
     ולהפיק אוטומטית משקלים האופטימליים לזיכרון שלך ולתוכן שאתה לומד.
@@ -403,6 +407,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = שפר הגדרות מראש { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = תחילה יש להפעיל את FSRS.
+deck-config-fsrs-params-optimal = נראה כי פרמטרי FSRS כרגע הם אופטימליים.
 deck-config-wait-for-audio = המתן לשמע
 deck-config-show-reminder = הצג תזכורת
 deck-config-answer-again = ענה שוב
