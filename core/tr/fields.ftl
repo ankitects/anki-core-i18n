@@ -1,6 +1,6 @@
 fields-add-field = Alan Ekle
 fields-delete-field-from = { $val } dan itibaren haneleri sil
-fields-editing-font = Yazı tipi düzenlemesi
+fields-editing-font = Düzenleme yazı tipi
 fields-field = Alan:
 fields-field-name = Alan adı:
 fields-description = Tarif

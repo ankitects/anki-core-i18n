@@ -16,8 +16,8 @@ notetypes-cloze-name = Boşluklu
 
 ## Default card template names
 
-notetypes-card-1-name = Kart 1
-notetypes-card-2-name = Kart 2
+notetypes-card-1-name = 1.Kart
+notetypes-card-2-name = 2.Kart
 notetypes-add = Ekle: { $val }
 notetypes-add-note-type = Not Türü Ekle
 notetypes-cards = Kartlar...
