@@ -288,6 +288,7 @@ deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
 deck-config-compute-optimal-retention = Laske optimaalinen retentio
 deck-config-optimize-button = Optimoi
 deck-config-compute-button = Laske
+deck-config-ignore-before = Älä huomioi kertauksia, jotka tapahtuivat ennen
 deck-config-optimize-all-tip = Voit optimoida kaikki esiasetukset kerralla käyttämällä ylhäällä olevaa painiketta.
 deck-config-evaluate-button = Arvioi
 deck-config-desired-retention = Toivottu retentio
@@ -308,6 +309,9 @@ deck-config-sm2-retention-tooltip = Jos todellinen retentiosi ennen FSRS:ään s
 deck-config-weights-tooltip = Mallin painokertoimet vaikuttavat korttien aikataulutukseen. Kun kertauksia on yli 1000, voit optimoida painokertoimet alapuolella.
 deck-config-reschedule-cards-on-change-tooltip = Tällä valinnalla määritetään, muutetaanko korttien eräpäiviä, kun otat FSRS:n käyttöön tai muutat painokertoimia. Oletusarvoisesti kortteja ei ajoiteta uudelleen: tulevissa tarkistuksissa käytetään uutta ajoitusta, mutta työmäärään ei tule välitöntä muutosta. Jos aikataulun muuttaminen otetaan käyttöön, korttien eräpäiviä muutetaan.
 deck-config-reschedule-cards-warning = Riippuen toivomastasi retentioajasta, tämä voi johtaa siihen, että suuri määrä kortteja erääntyy, joten sitä ei suositella, kun siirryt ensimmäistä kertaa SM2:sta.
+deck-config-ignore-before-tooltip =
+    Jos tämä asetus on käytössä, ennen annettua päivämäärää tehdyt kertaukset jätetään huomiotta FSRS:n painokertoimien optimoinnissa ja arvioinnissa.
+    Tämä voi olla hyödyllistä, jos olet tuonut jonkun muun aikataulutiedot tai muuttanut tapaa, jolla käytät vastauspainikkeita.
 deck-config-compute-optimal-weights-tooltip =
     Kun olet tehnyt yli 1000 kertausta Ankissa, voit käyttää Optimoi-painiketta, joka analysoi kertaushistoriasi ja luo automaattisesti painokertoimet, jotka ovat optimaaliset muistisi ja opiskelemasi materiaalin kannalta. Jos sinulla on vaikeusasteeltaan vaihtelevia pakkoja, on suositeltavaa määrittää kullekin erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen painokertoimista tulee erilaisia. Painokertoimia ei tarvitse optimoida usein - kerta muutaman kuukauden välein riittää.
     
@@ -326,6 +330,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = Optimoidaan esiasetuksia { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS on otettava käyttöön ensin.
+deck-config-fsrs-params-optimal = FSRS:n painokertoimet vaikuttavat tällä hetkellä optimaalisilta.
 deck-config-wait-for-audio = Odota äänen päättymistä
 deck-config-show-reminder = Näytä muistutus
 deck-config-answer-again = Vastaa uudelleen
