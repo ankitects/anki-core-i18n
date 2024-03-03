@@ -125,7 +125,7 @@ statistics-answer-buttons-title = Pulsanti di risposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Pulsante
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = Numero di volte che hai premuto
+statistics-answer-buttons-button-pressed = Numero di volte premuto
 statistics-answer-buttons-subtitle = Numero di volte che hai premuto ciascun pulsante.
 statistics-reviews-title = Ripetizioni
 statistics-reviews-time-checkbox = Durata
