@@ -267,6 +267,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Το FSRS θα πρέπει να είναι πρώτα ενεργοποιημένο.
+deck-config-fsrs-params-optimal = Οι τρέχουσες ρυθμίσεις FSRS είναι βέλτιστες.
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
 deck-config-answer-again = Απαντήστε "Ξανά"
