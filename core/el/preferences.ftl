@@ -23,7 +23,6 @@ preferences-show-play-buttons-on-cards-with = Εμφάνιση κουμπιών 
 preferences-show-remaining-card-count = Εμφάνιση αριθμού εναπομείναντων καρτών
 preferences-some-settings-will-take-effect-after = Μερικές αλλαγές θα εφαρμοστούν μετά την επανεκκίνηση του Anki.
 preferences-tab-synchronisation = Συγχρονισμός
-preferences-synchronizationnot-currently-enabled-click-the-sync = <
 preferences-synchronize-audio-and-images-too = Συγχρονισμός ήχου και εικόνων επίσης
 preferences-timebox-time-limit = Χρονικό όριο συνεδρίας
 preferences-user-interface-size = Μέγεθος διεπαφής χρήστη
@@ -72,4 +71,5 @@ preferences-shortcut-placeholder = Εισάγετε ένα μη χρησιμοπ
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Βασικό
+preferences-reviewer = Επαναλήψεις
 preferences-media = Πολυμέσα
