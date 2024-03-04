@@ -169,7 +169,7 @@ statistics-average = 平均
 statistics-average-interval = 復習間隔の平均
 statistics-due-tomorrow = 明日が期日
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount } 日/ { $total } 日 ( { $percent } %)
+statistics-amount-of-total-with-percentage = { $amount }日 / { $total }日 ({ $percent }%)
 statistics-average-over-period = 期間全体での平均
 statistics-reviews-per-day =
     { $count ->
