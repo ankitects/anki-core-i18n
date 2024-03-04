@@ -200,6 +200,13 @@ importing-note-updated-as-file-had-newer = Poznámka aktualizována, protože v 
 importing-note-skipped-due-to-missing-notetype = Poznámka přeskočena, protože chyběl její typ poznámky
 importing-note-skipped-due-to-missing-deck = Poznámka přeskočena, protože chyběl její balík
 importing-note-skipped-due-to-empty-first-field = Poznámka přeskočena, protože její první pole je prázdné
+importing-field-separator-help =
+    Znak oddělující pole v textovém souboru. Můžete použít náhled, abyste zkontrolovali, 
+    jestli jsou pole oddělena správně.
+    
+    Upozorňujeme, že jestliže se tento znak objeví v jakémkoli poli, musí být toto pole
+    odpovídajícím způsobem uvozeno podle standardu CSV. Tabulkové procesory jako 
+    LibreOffice toto dělají automaticky.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
