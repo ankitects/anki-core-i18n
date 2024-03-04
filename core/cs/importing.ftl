@@ -207,6 +207,28 @@ importing-field-separator-help =
     Upozorňujeme, že jestliže se tento znak objeví v jakémkoli poli, musí být toto pole
     odpovídajícím způsobem uvozeno podle standardu CSV. Tabulkové procesory jako 
     LibreOffice toto dělají automaticky.
+importing-allow-html-in-fields-help =
+    Povolte, jestliže soubor obsahuje formátování HTML. Např. jestliže soubor obsahuje 
+    řetězec '&lt;br&gt;', zobrazí se na vaší kartě jako konec řádku. Na druhou stranu, 
+    jestliže je tato možnost zakázána, budou vykresleny doslova znaky '&lt;br&gt;'.
+importing-notetype-help =
+    Nově importované poznámky budou mít tento typ poznámky a pouze stávající 
+    poznámky s tímto typem poznámky se aktualizují.
+    
+    Pomocí přiřazovacího nástroje si můžete vybrat, která pole v souboru odpovídají 
+    kterým polím typu poznámky.
+importing-deck-help = Importované karty se umístí do tohoto balíčku.
+importing-existing-notes-help =
+    Co dělat, jestliže se importovaná poznámka shoduje se stávající poznámkou.
+    
+    - `{ importing-update }`: Aktualizovat stávající poznámku.
+    - `{ importing-preserve }`: Nedělat nic.
+    - `{ importing-duplicate }`: Vytvořit novou poznámku.
+importing-match-scope-help =
+    Jestli existují duplikáty se bude kontrolovat pouze u stávajících poznámek se stejným 
+    typem poznámky. To může být navíc omezeno na poznámky s kartami ve stejném balíčku.
+importing-tag-all-notes-help = Tyto štítky se přidají do nově importovaných i aktualizovaných poznámek.
+importing-tag-updated-notes-help = Tyto štítky se přidají do všech aktualizovaných poznámek.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
