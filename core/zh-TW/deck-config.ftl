@@ -271,7 +271,7 @@ deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開�
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-a-100-day-interval =
     { $days ->
-       *[other] 一個原為 100 天的間隔將變為 { $days } 天。
+       *[other] 若間隔原為 100 天，則將變為 { $days } 天。
     }
 deck-config-percent-of-reviews =
     { $reviews ->
