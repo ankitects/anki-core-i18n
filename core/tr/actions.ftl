@@ -56,6 +56,7 @@ actions-previous-card-info = Önceki Kart Bilgisi
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Tam ekran kipi video sürücünüz için desteklenmiyor. Tercihler ekranında farklı bir tanesine değiştirmeyi deneyin.
 
 ## Flags
 
