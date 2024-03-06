@@ -209,6 +209,11 @@ deck-config-updating-cards = Ενημέρωση καρτών: { $current_cards_c
 deck-config-invalid-weights = Οι παράμετροι πρέπει να είναι κενοί για χρήση των προεπιλογών ή θα πρέπει να είναι 17 αριθμοί διαχωρισμένοι με κόμμα.
 deck-config-not-enough-history = Το ιστορικό των επαναλήψεων δεν είναι αρκετό για τη διενέργεια αυτής της λειτουργίας.
 deck-config-unable-to-determine-desired-retention = Αδύνατη η εκτίμηση της βέλτιστης ανάκλησης.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Μόνο { $count } επανάληψη βρέθηκε. Πρέπει να έχετε τουλάχιστον 400 επαναλήψεις για αυτή την ενέργεια.
+       *[other] Μόνο { $count } επαναλήψεις βρέθηκαν. Πρέπει να έχετε τουλάχιστον 400 επαναλήψεις για αυτή την ενέργεια.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Παράμετροι FSRS
 deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέτρων FSRS
