@@ -4,7 +4,7 @@ importing-added-duplicate-with-first-field = Aggiunto duplicato con primo campo:
 importing-all-supported-formats = Tutti i formati supportati { $val }
 importing-allow-html-in-fields = Consenti l'HTML nei campi
 importing-anki-files-are-from-a-very = I file .anki sono di una versione molto vecchia di Anki. Puoi importarli utilizzando Anki 2.0, disponibile sul sito di Anki.
-importing-anki2-files-are-not-directly-importable = I file .anki2 non sono importabili direttamente - importa invece i file .apkg o .zip che hai ricevuto.
+importing-anki2-files-are-not-directly-importable = I file .anki2 non sono importabili direttamente; importa invece i file .apkg o .zip che hai ricevuto.
 importing-appeared-twice-in-file = Apparso due volte nel file: { $val }
 importing-by-default-anki-will-detect-the = Di default, Anki rileva i caratteri tra i campi, come tabulazioni, virgole, ecc. Se Anki non rileva correttamente i caratteri, puoi inserirli qui. Usa \t per rappresentare le tabulazioni.
 importing-cannot-merge-notetypes-of-different-kinds = I tipi di nota "Cloze" non possono essere uniti con i tipi di nota regolari. Puoi comunque importare il file disabilitando '{ importing-merge-notetypes }'.
@@ -114,8 +114,8 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] Processato { $count } file multimediale
-       *[other] Processati { $count } file multimediali
+        [one] Elaborato { $count } file multimediale
+       *[other] Elaborati { $count } file multimediali
     }
 importing-importing-file = Importazione del file in corso...
 importing-extracting = Estrazione dei dati in corso...
@@ -123,13 +123,13 @@ importing-gathering = Raccolta dei dati in corso...
 importing-failed-to-import-media-file = Impossibile importare il file multimediale: { $debugInfo }
 importing-processed-notes =
     { $count ->
-        [one] Processata { $count } nota...
-       *[other] Processate { $count } note...
+        [one] Elaborata { $count } nota...
+       *[other] Elaborate { $count } note...
     }
 importing-processed-cards =
     { $count ->
-        [one] Processata { $count } carta...
-       *[other] Processate { $count } carte...
+        [one] Elaborata { $count } carta...
+       *[other] Elaborate { $count } carte...
     }
 importing-existing-notes = Note esistenti
 # "Existing notes: Duplicate" (verb)

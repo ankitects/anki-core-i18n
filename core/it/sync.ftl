@@ -39,9 +39,9 @@ sync-ankiweb-id-label = ID di AnkiWeb:
 sync-password-label = Password:
 sync-account-required =
     <h1>Account necessario</h1>
-    È necessario un account gratuito per mantenere sincronizzata la tua collezione. <a href="{ $link }">Iscriviti</a> per un account, poi inserisci i tuoi dati qui sotto.
+    È necessario un account gratuito per mantenere sincronizzata la collezione. <a href="{ $link }">Registrare</a> un account e quindi inserire i dati qui sotto.
 sync-sanity-check-failed = Per favore, usa la funzionalità "Controlla il Database", quindi sincronizza nuovamente. Se il problema persiste, forza una sincronizzazione completa nella schermata delle preferenze.
-sync-clock-off = Impossibile sincronizzare - l'orologio non è impostato sull'ora giusta.
+sync-clock-off = Impossibile sincronizzare: l'orologio non è impostato sull'ora giusta.
 sync-upload-too-large =
     Il file della tua collezione è troppo grande per essere inviato ad AnkiWeb. Puoi ridurre la dimensione
     del file rimuovendo i mazzi non necessari (se vuoi puoi prima esportarli) e, successivamente,

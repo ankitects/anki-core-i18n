@@ -261,7 +261,7 @@ deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di
 deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando viene premuto `Ripeti`.
 deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver premuto `Ripeti`.
 deck-config-custom-scheduling = Pianificazione personalizzata
-deck-config-custom-scheduling-tooltip = Influisce sull'intera collezione. Usa a tuo rischio e pericolo!
+deck-config-custom-scheduling-tooltip = Influisce sull'intera collezione. Usare a proprio rischio e pericolo!
 
 ## Adding/renaming
 

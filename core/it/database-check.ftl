@@ -17,8 +17,8 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] Trovata { $count } nuova carta con un numero di scadenza >= 1.000.000 - valuta di riposizionarla nella schermata "Sfoglia".
-       *[other] Trovate { $count } nuove carte con un numero di scadenza >= 1.000.000 - valuta di riposizionarle nella schermata "Sfoglia".
+        [one] Trovata { $count } nuova carta con un numero di scadenza >= 1.000.000: valuta di riposizionarla nella schermata "Sfoglia".
+       *[other] Trovate { $count } nuove carte con un numero di scadenza >= 1.000.000: valuta di riposizionarle nella schermata "Sfoglia".
     }
 database-check-card-missing-note =
     { $count ->
