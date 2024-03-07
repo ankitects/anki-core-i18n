@@ -20,11 +20,11 @@ browsing-cards-deleted =
         [one] { $count } carta eliminata.
        *[other] { $count } carte eliminate.
     }
-browsing-change-deck = Cambia il mazzo
+browsing-change-deck = Cambia mazzo
 browsing-change-deck2 = Cambia mazzo...
-browsing-change-note-type = Cambia il tipo di nota
-browsing-change-note-type2 = Cambia il tipo di nota...
-browsing-change-notetype = Cambia il tipo di nota
+browsing-change-note-type = Cambia tipo di nota
+browsing-change-note-type2 = Cambia tipo di nota...
+browsing-change-notetype = Cambia tipo di nota
 browsing-clear-unused-tags = Cancella etichette non utilizzate
 browsing-confirm-saved-search-overwrite = Esiste già una ricerca salvata con il nome { $name }. Vuoi sovrascriverla?
 browsing-created = Data di creazione
@@ -95,7 +95,7 @@ browsing-toggle-showing-cards-notes = Alterna visualizzazione Carte/Note
 browsing-toggle-mark = Attiva/disattiva contrassegno
 browsing-toggle-suspend = Attiva/disattiva sospensione
 browsing-treat-input-as-regular-expression = Considera l'immissione come espressione regolare
-browsing-update-saved-search = Aggiorna con la ricerca attuale
+browsing-update-saved-search = Aggiorna con ricerca attuale
 browsing-whole-collection = Intera collezione
 browsing-window-title-notes = Sfoglia ({ $selected } di { $total } note selezionate)
 browsing-you-must-have-at-least-one = Deve essere presente almeno una colonna.
@@ -128,7 +128,7 @@ browsing-sidebar-decks = Mazzi
 browsing-sidebar-tags = Etichette
 browsing-sidebar-notetypes = Tipi di nota
 browsing-sidebar-saved-searches = Ricerche salvate
-browsing-sidebar-save-current-search = Salva la ricerca attuale
+browsing-sidebar-save-current-search = Salva ricerca attuale
 browsing-sidebar-card-state = Stato della carta
 browsing-sidebar-flags = Bandiere
 browsing-today = Oggi

@@ -43,8 +43,8 @@ sync-account-required =
 sync-sanity-check-failed = Per favore, usa la funzionalità "Controlla il Database", quindi sincronizza nuovamente. Se il problema persiste, forza una sincronizzazione completa nella schermata delle preferenze.
 sync-clock-off = Impossibile sincronizzare: l'orologio non è impostato sull'ora giusta.
 sync-upload-too-large =
-    Il file della tua collezione è troppo grande per essere inviato ad AnkiWeb. Puoi ridurre la dimensione
-    del file rimuovendo i mazzi non necessari (se vuoi puoi prima esportarli) e, successivamente,
+    Il file della collezione è troppo grande per essere inviato ad AnkiWeb. È possibile ridurre la dimensione
+    del file rimuovendo i mazzi non necessari (eventualmente esportandoli prima) e, successivamente,
     utilizzare la funzione "Controlla il database" per ridurne ulteriormente la dimensione. ({ $details })
 
 ## Buttons

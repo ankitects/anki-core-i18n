@@ -24,7 +24,7 @@ deck-config-review-limit-tooltip =
     Il numero massimo di carte da ripetere in un giorno,
     se le carte sono pronte per essere ripassate.
 deck-config-limit-deck-v3 =
-    Quando studi un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano
+    Quando si studia un mazzo che contiene dei mazzi figli, i limiti fissati su ciascun mazzo figlio determinano
     il numero massimo di carte recuperate da quel particolare mazzo.
     I limiti del mazzo padre determinano il numero totale delle carte che verranno mostrate.
 deck-config-limit-new-bound-by-reviews =
@@ -48,9 +48,10 @@ deck-config-new-cards-ignore-review-limit-tooltip =
 deck-config-apply-all-parent-limits = I limiti iniziano dalla cima
 deck-config-apply-all-parent-limits-tooltip =
     Per impostazione predefinita, i limiti partono dal mazzo selezionato. 
-    Se attivi questa opzione, invece, i limiti verranno calcolati a partire dal mazzo genitore di massimo livello,
-    il che può risultare utile quando desideri studiare singoli mazzi figli, mantenendo comunque
-    un limite complessivo sul numero di carte da studiare ogni giorno.
+    Attivando questa opzione, invece, i limiti saranno calcolati
+    a partire dal mazzo genitore di massimo livello, il che può risultare utile
+    per studiare singoli mazzi figli, pur mantenendo un limite complessivo
+    sul numero di carte da studiare ogni giorno.
 deck-config-affects-entire-collection = Influisce sull'intera collezione.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -67,7 +68,7 @@ deck-config-learning-steps = Passi di apprendimento
 -deck-config-delay-hint = Gli intervalli sono generalmente espressi in minuti (es. `1m`) o giorni (es. `2g`), ma sono supportate anche ore (es. `1h`) e secondi (es. `30s`).
 deck-config-learning-steps-tooltip =
     Uno o più intervalli, separati da spazi. Il primo intervallo viene usato
-    quando premi il pulsante `Ripeti` su una nuova carta, di default 1 minuto.
+    quando viene premuto il pulsante `Ripeti` su una nuova carta, di default 1 minuto.
     Il pulsante `Normale` fa avanzare la carta al passo successivo, di default 10 minuti.
     Una volta che tutti i passi sono stati completati, la carta diventa una carta da ripassare,
     e verrà mostrata in un giorno differente. { -deck-config-delay-hint }
@@ -329,7 +330,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametri FSRS
 deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
-deck-config-compute-optimal-retention = Calcola la ritenzione ottimale
+deck-config-compute-optimal-retention = Calcola ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
 deck-config-ignore-before = Data di inizio per l'inclusione delle ripetizioni
