@@ -199,8 +199,8 @@ deck-config-sort-order-ascending-difficulty = Difficoltà crescente
 deck-config-sort-order-descending-difficulty = Difficoltà decrescente
 deck-config-sort-order-relative-overdueness = Ritardo relativo
 deck-config-display-order-will-use-current-deck =
-    Anki userà l'ordine di apparizione del mazzo che hai 
-    selezionato da studiare, e non di suoi eventuali mazzi figli.
+    Verrà usato l'ordine di apparizione del mazzo selezionato da studiare,
+    e non di suoi eventuali mazzi figli.
 
 ## Timer section
 
@@ -233,7 +233,7 @@ deck-config-wait-for-audio-tooltip = Attendi la fine dell'audio prima di rivelar
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Non riprodurre l'audio automaticamente
 deck-config-disable-autoplay-tooltip =
-    Se abilitato, Anki non riprodurrà l'audio automaticamente.
+    Se abilitato, l'audio non verrà riprodotto automaticamente.
     Può essere riprodotto manualmente facendo clic/toccando un'icona audio, o utilizzando il comando di riproduzione audio.
 deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzione della risposta
 deck-config-always-include-question-audio-tooltip =
@@ -255,7 +255,7 @@ deck-config-easy-bonus-tooltip =
     quando la si valuta `Facile`.
 deck-config-interval-modifier-tooltip =
     Questo moltiplicatore è applicato a tutte le ripetizioni, e minime variazioni
-    del suo valore rendono la pianificazione di Anki più conservativa o aggressiva.
+    del suo valore rendono la pianificazione più conservativa o aggressiva.
     Consultare il manuale prima di cambiare questa opzione.
 deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una ripetizione quando la si valuta `Difficile`.
 deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando viene premuto `Ripeti`.
@@ -309,7 +309,7 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = L'intervallo di promozione dovrebbe essere lungo almeno quanto il passo finale di apprendimento.
 deck-config-good-above-easy = L'intervallo delle carte facili dovrebbe essere lungo almeno quanto l'intervallo di promozione.
 deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto il passo finale di riapprendimento.
-deck-config-maximum-answer-secs-above-recommended = Anki può pianificare le ripetizioni in modo più efficiente se le domande sono mantenute brevi.
+deck-config-maximum-answer-secs-above-recommended = È possibile pianificare le ripetizioni in maniera più efficiente se le domande sono mantenute brevi.
 
 ## Selecting a deck
 
@@ -341,8 +341,8 @@ deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migl
 deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
 deck-config-get-params = Ottieni parametri
 deck-config-fsrs-on-all-clients =
-    Assicurati che tutte le tue versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
-    FSRS non funzionerà correttamente se una delle versioni che usi è più vecchia.
+    Assicurarsi che tutte le versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
+    FSRS non funzionerà correttamente se una delle versioni utilizzate è più vecchia.
 deck-config-estimated-retention = Ritenzione stimata { $num }
 deck-config-complete = { $num }% completo.
 deck-config-iterations = Iterazione: { $count }...
@@ -357,9 +357,9 @@ deck-config-fsrs-tooltip =
     
     Se hai precedentemente utilizzato la versione non nativa di FSRS (basata sull'aggiunta di codice personalizzato nella sezione "Pianificazione personalizzata"), assicurati di aver svuotato tale sezione prima di abilitare questa opzione.
 deck-config-desired-retention-tooltip =
-    Il valore predefinito di 0,9 pianificherà le carte in modo che tu abbia una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Se aumenti questo valore, Anki mostrerà le carte più frequentemente per incrementare le possibilità che le ricordi. Se diminuisci il valore, Anki mostrerà le carte meno frequentemente e rischierai di dimenticarle.
+    Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Aumentando questo valore, le carte verranno mostrate più frequentemente per incrementare la probabilità di ricordarle. Diminuendo questo valore, le carte verranno mostrate meno frequentemente e crescerà il rischio di dimenticarle.
     
-    Sii prudente nell'apportare modifiche a questo parametro: valori più alti aumenteranno notevolmente il tuo carico di lavoro, mentre valori più bassi possono demoralizzarti quando comportano il dimenticare molte informazioni.
+    È consigliato essere prudenti nell'apportare modifiche a questo parametro: valori più alti aumenteranno notevolmente il proprio carico di lavoro, mentre valori più bassi possono causare demoralizzazione quando comportano il dimenticare molte informazioni.
 deck-config-sm2-retention-tooltip =
     Se la tua ritenzione effettiva prima del passaggio a FSRS era significativamente diversa da 0,9, 
     regolare questo valore permetterà ad Anki di stimare meglio il tuo stato di memoria quando si trova di fronte a carte 

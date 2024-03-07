@@ -36,4 +36,4 @@ search-card-modified = Modificato (carta)
 ##
 
 # Tooltip for search lines outside browser
-search-view-in-browser = Vedi nel browser
+search-view-in-browser = Visualizza nel browser

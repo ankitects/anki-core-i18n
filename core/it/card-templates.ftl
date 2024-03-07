@@ -25,11 +25,11 @@ card-templates-identical-front = Il lato frontale è identico al modello della c
 card-templates-no-front-field = È necessaria la presenza di una sostituzione di campo nel lato frontale del modello.
 card-templates-missing-cloze = È necessaria la presenza di '{ "{{" }cloze:Testo{ "}}" }' o una formulazione simile sul fronte e retro del modello della carta.
 card-templates-extraneous-cloze = 'cloze:' può essere usato solo con le note di tipo cloze.
-card-templates-see-preview = Vedi l'anteprima per maggiori informazioni.
+card-templates-see-preview = Vedere l'anteprima per maggiori informazioni.
 card-templates-changes-saved = Modifiche salvate.
 card-templates-discard-changes = Annullare le modifiche?
 card-templates-add-card-type = Aggiungi tipo di carta...
-card-templates-anki-couldnt-find-the-line-between = Anki non ha trovato la linea di separazione tra domanda e risposta. Modifica manualmente il modello per invertire domanda e risposta.
+card-templates-anki-couldnt-find-the-line-between = Non è stata trovata la linea di separazione tra domanda e risposta. Modifica manualmente il modello per invertire domanda e risposta.
 card-templates-at-least-one-card-type-is = È richiesto almeno un tipo di carta.
 card-templates-browser-appearance = Aspetto nel Browser...
 card-templates-card = Carta { $val }
@@ -56,7 +56,7 @@ card-templates-this-will-create-card-proceed =
         [one] Verrà creata { $count } carta. Proseguire?
        *[other] Verranno create { $count } carte. Proseguire?
     }
-card-templates-type-boxes-warning = Anki supporta solo una casella di digitazione per ciascuna carta.
+card-templates-type-boxes-warning = È supportata soltanto una casella di digitazione per ciascuna carta.
 card-templates-restore-to-default = Ripristina valori predefiniti
 card-templates-restore-to-default-confirmation =
     Tutti i campi e i modelli di questo tipo di nota verranno ripristinati ai valori predefiniti, 
