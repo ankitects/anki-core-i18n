@@ -42,9 +42,13 @@ deck-config-affects-entire-collection = ס׳איז משפּיע אויף דער 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = מוסטער
+deck-config-deck-only = דאָס טעשל
+deck-config-today-only = נאָר הײַנט
 
 ## New Cards section
 
+deck-config-learning-steps = לערן-שטאַפּלען
 
 ## Lapses section
 
