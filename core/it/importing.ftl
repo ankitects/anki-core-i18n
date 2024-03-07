@@ -3,10 +3,10 @@ importing-aborted = Interrotto: { $val }
 importing-added-duplicate-with-first-field = Aggiunto duplicato con primo campo: { $val }
 importing-all-supported-formats = Tutti i formati supportati { $val }
 importing-allow-html-in-fields = Consenti l'HTML nei campi
-importing-anki-files-are-from-a-very = I file .anki sono di una versione molto vecchia di Anki. Puoi importarli utilizzando Anki 2.0, disponibile sul sito di Anki.
+importing-anki-files-are-from-a-very = I file .anki sono di una versione molto vecchia di Anki. È possibile importarli utilizzando Anki 2.0, disponibile sul sito di Anki.
 importing-anki2-files-are-not-directly-importable = I file .anki2 non sono importabili direttamente; importa invece i file .apkg o .zip che hai ricevuto.
 importing-appeared-twice-in-file = Apparso due volte nel file: { $val }
-importing-by-default-anki-will-detect-the = Di default, Anki rileva i caratteri tra i campi, come tabulazioni, virgole, ecc. Se Anki non rileva correttamente i caratteri, puoi inserirli qui. Usa \t per rappresentare le tabulazioni.
+importing-by-default-anki-will-detect-the = Di default, vengono rilevati i caratteri tra i campi, come tabulazioni, virgole, ecc. Se i caratteri non vengono rilevati correttamente, puoi inserirli qui. Usa \t per rappresentare le tabulazioni.
 importing-cannot-merge-notetypes-of-different-kinds = I tipi di nota "Cloze" non possono essere uniti con i tipi di nota regolari. Puoi comunque importare il file disabilitando '{ importing-merge-notetypes }'.
 importing-change = Modifica
 importing-colon = Due punti
@@ -34,8 +34,8 @@ importing-mapped-to-tags = mappato verso le <b>etichette</b>
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = Unisci tipi di nota
 importing-merge-notetypes-help =
-    Se selezionato e tu o l'autore del mazzo avete modificato lo schema di un tipo di nota,
-    Anki unirà le due versioni anziché mantenerle entrambe.
+    Se selezionato ed è stato modificato lo schema di un tipo di nota, verranno unite le due versioni
+    anziché mantenerle entrambe.
     
     Modificare lo schema di un tipo di nota significa aggiungere, rimuovere o riordinare i campi o i modelli,
     o cambiare il campo di ordinamento.

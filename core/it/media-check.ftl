@@ -24,7 +24,7 @@ media-check-subfolder-header = Le cartelle all'interno della cartella dei media 
 media-check-missing-header = I seguenti file sono usati nelle carte, ma sono assenti nella cartella multimediale:
 media-check-unused-header = Nella cartella dei media sono stati trovati i seguenti file, ma non sembrano essere utilizzati in alcuna carta:
 media-check-template-references-field-header =
-    Anki non è in grado di rilevare i file usati quando usi i riferimenti { "{{Field}}" } nei tag media/LaTeX. I tag media/LaTeX dovrebbero invece essere posizionati su singole note.
+    Non è possibile rilevare i file usati quando vengono usati i riferimenti { "{{Field}}" } nei tag media/LaTeX. I tag media/LaTeX dovrebbero invece essere posizionati su singole note.
     
     Modelli di riferimento:
 

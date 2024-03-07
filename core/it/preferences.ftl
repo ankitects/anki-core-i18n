@@ -41,8 +41,8 @@ preferences-theme-dark = Scuro
 preferences-v3-scheduler = Pianificatore V3
 preferences-ignore-accents-in-search = Ignora accenti nelle ricerche (più lento)
 preferences-backup-explanation =
-    Anki esegue periodicamente il backup della tua collezione. Trascorsi 2 giorni dall'ultimo backup,
-    Anki inizierà a rimuoverne alcuni per liberare spazio sul disco.
+    Anki esegue periodicamente il backup della collezione. Trascorsi 2 giorni dall'ultimo backup,
+    inizierà a rimuoverne alcuni per liberare spazio sul disco.
 preferences-daily-backups = Backup giornalieri da conservare:
 preferences-weekly-backups = Backup settimanali da conservare:
 preferences-monthly-backups = Backup mensili da conservare:

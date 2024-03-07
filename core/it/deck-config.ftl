@@ -361,15 +361,15 @@ deck-config-desired-retention-tooltip =
     
     È consigliato essere prudenti nell'apportare modifiche a questo parametro: valori più alti aumenteranno notevolmente il proprio carico di lavoro, mentre valori più bassi possono causare demoralizzazione quando comportano il dimenticare molte informazioni.
 deck-config-sm2-retention-tooltip =
-    Se la tua ritenzione effettiva prima del passaggio a FSRS era significativamente diversa da 0,9, 
-    regolare questo valore permetterà ad Anki di stimare meglio il tuo stato di memoria quando si trova di fronte a carte 
-    che hanno un registro delle ripetizioni mancante. 
-    N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che tu non abbia deciso di eliminarli per liberare spazio, per cui la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
+    Qualora la propria ritenzione effettiva prima del passaggio a FSRS fosse significativamente diversa da 0,9, 
+    la regolazione di questo valore permette di ottenere una stima più accurata del proprio stato di memoria
+    nel caso in cui vengano introdotte carte prive del registro delle ripetizioni.<br>N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che non vengano eliminati
+    per liberare spazio, per cui la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
 deck-config-weights-tooltip =
     I parametri FSRS influiscono sulla pianificazione delle carte. Alla prima attivazione di FSRS,
-    Anki userà i parametri predefiniti. Una volta che hai accumulato 1000 o più ripetizioni,
-    puoi utilizzare l'opzione sottostante per ottimizzare i parametri in base alle prestazioni dei mazzi
-    che usano questa preimpostazione.
+    verranno utilizzati i parametri predefiniti e, una volta accumulate 1000 o più ripetizioni,
+    sarà possibile utilizzare l'opzione sottostante per ottimizzare i parametri in base alle prestazioni dei mazzi
+    che utilizzano questa preimpostazione.
 deck-config-reschedule-cards-on-change-tooltip =
     N.B.: influisce sull'intera collezione.
     
@@ -430,8 +430,8 @@ deck-config-bury-tooltip =
     oppure altre cancellazioni cloze dallo stesso testo).
     
     Quando questa opzione è disattivata, più carte dalla stessa nota possono essere visualizzate lo stesso giorno. 
-    Quando è attivata, Anki *seppellirà* automaticamente le carte sorelle, nascondendole fino al giorno successivo. 
-    Questa opzione ti consente di scegliere quali tipi di carta verranno sepolti quando si risponde ad una delle loro carte sorelle.
+    Quando è attivata, le carte sorelle verranno seppellite automaticamente, nascondendole fino al giorno successivo. 
+    Questa opzione consente di scegliere quali tipi di carta verranno sepolti quando si risponde ad una delle loro carte sorelle.
     
     Quando si utilizza il pianificatore V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
     Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento attuale di uno o più giorni.

@@ -19,9 +19,9 @@ sync-media-log-title = Resoconto della sincronizzazione
 
 ## Error messages / dialogs
 
-sync-conflict = Soltanto una copia di Anki alla volta può essere sincronizzata al tuo account. Aspetta qualche minuto, quindi riprova.
+sync-conflict = Soltanto una copia di Anki alla volta può essere sincronizzata al proprio account. Aspettare qualche minuto, quindi riprovare.
 sync-server-error = AnkiWeb ha riscontrato un problema. Riprova tra qualche minuto.
-sync-client-too-old = La tua versione di Anki è troppo vecchia. Effettua l'aggiornamento all'ultima versione per continuare a sincronizzare.
+sync-client-too-old = La versione di Anki in uso è troppo vecchia. Effettuare l'aggiornamento all'ultima versione per continuare a sincronizzare.
 sync-wrong-pass = L'ID di AnkiWeb o la password non sono corretti; prova di nuovo.
 sync-resync-required = Sincronizzare nuovamente e, se il messaggio continua ad apparire, segnalarlo sul sito di supporto.
 sync-must-wait-for-end = Anki sta effettuando la sincronizzazione. Attendi che finisca, quindi riprova.
