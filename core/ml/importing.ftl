@@ -77,3 +77,4 @@ importing-processed-media-file =
         [one] { $count } മീഡിയ ഫയൽ പ്രോസസ്സ് ചെയ്തു
        *[other] { $count } മീഡിയ ഫയലുകൾ പ്രോസസ്സ് ചെയ്തു
     }
+importing-added = ചേര്‍ത്തു

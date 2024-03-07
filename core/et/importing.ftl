@@ -13,3 +13,4 @@ importing-mapped-to = liidetud väljadele <b>{ $val }</b>-ga
 importing-mapped-to-tags = liidetud <b>siltidega</b>
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' omasid { $found } välja, väljaarvatud { $expected }
 importing-supermemo-xml-export-xml = Supermemo XML eksport (*.xml)
+importing-added = Lisatud

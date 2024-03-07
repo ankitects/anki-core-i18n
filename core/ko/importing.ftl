@@ -98,3 +98,4 @@ importing-file = 파일
 
 importing-importing-collection = 컬렉션 가져오는 중...
 importing-unable-to-import-filename = { $filename }을 가져오지 못했습니다. 지원하지 않는 파일 유형입니다.
+importing-added = 추가됨

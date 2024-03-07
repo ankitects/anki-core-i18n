@@ -177,7 +177,7 @@ importing-conflicting-notes-skipped =
 importing-conflicting-notes-skipped2 =
     { $count ->
         [one] { $count } note was not imported, because its notetype has changed, and '{ importing-merge-notetypes }' was not enabled.
-        *[other] { $count } notes were not imported, because their notetype has changed, and '{ importing-merge-notetypes }' was not enabled.
+       *[other] { $count } notes were not imported, because their notetype has changed, and '{ importing-merge-notetypes }' was not enabled.
     }
 importing-import-log = Import Log
 importing-no-notes-in-file = No notes found in file.
@@ -224,8 +224,7 @@ importing-existing-notes-help =
 importing-match-scope-help =
     Only existing notes with the same notetype will be checked for duplicates. This can
     additionally be restricted to notes with cards in the same deck.
-importing-tag-all-notes-help =
-    These tags will be added to both newly-imported and updated notes.
+importing-tag-all-notes-help = These tags will be added to both newly-imported and updated notes.
 importing-tag-updated-notes-help = These tags will be added to any updated notes.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
@@ -233,3 +232,4 @@ importing-tag-updated-notes-help = These tags will be added to any updated notes
 importing-importing-collection = Importing collection...
 importing-unable-to-import-filename = Unable to import { $filename }: file type not supported
 importing-notes-that-could-not-be-imported = Notes that could not be imported as note type has changed: { $val }
+importing-added = Added

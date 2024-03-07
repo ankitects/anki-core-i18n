@@ -198,3 +198,4 @@ importing-tag-updated-notes-help = Aquestes etiquetes s’afegiran a totes les n
 importing-importing-collection = S'està important la col·lecció…
 importing-unable-to-import-filename = No s'ha pogut importar el fitxer { $filename }. Tipus de fitxer no compatible.
 importing-notes-that-could-not-be-imported = Notes que no s'han pogut importar a causa d'un canvi de tipus de nota: { $val }
+importing-added = S'ha afegit

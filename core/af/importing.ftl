@@ -63,3 +63,4 @@ importing-processed-media-file =
         [one] { $count } Media lêer geprosesseer
        *[other] { $count } Media lêers geprosesseer
     }
+importing-added = Bygevoeg

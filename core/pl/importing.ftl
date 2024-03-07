@@ -127,3 +127,4 @@ importing-deck-help = Importowane karty będą umieszczone w tej talii.
 importing-importing-collection = Import kolekcji...
 importing-unable-to-import-filename = Nie udało się zaimportować { $filename }: ten typ pliku nie jest obsługiwany
 importing-notes-that-could-not-be-imported = Notatki niezaimportowane, gdyż zmienił się typ notatki: { $val }
+importing-added = Dodano

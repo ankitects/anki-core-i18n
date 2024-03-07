@@ -65,3 +65,4 @@ importing-note-updated =
         [few] { $count } белешке обновљене
        *[other] { $count } бележака обновљено
     }
+importing-added = Додато

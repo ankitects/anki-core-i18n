@@ -182,3 +182,4 @@ importing-notes-that-could-not-be-imported =
         [many] { $val } gcinn
        *[other] { $val } ceann
     }
+importing-added = Curtha leis

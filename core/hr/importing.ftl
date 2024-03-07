@@ -21,3 +21,4 @@ importing-semicolon = Točka-zarez
 importing-this-will-delete-your-existing-collection = Ovo će obrisati vaš postojeći komplet i zamijeniti ga sa podacima u datoteci koju uvozite. Jeste li sigurni?
 importing-unknown-file-format = Nepoznat format datoteke.
 importing-update-existing-notes-when-first-field = Ažuriraj postojeće bilješke kada se prvo polje podudara
+importing-added = Dodano

@@ -216,3 +216,4 @@ importing-tag-updated-notes-help = Diese Schlagwörter werden nur den geupdatete
 importing-importing-collection = Sammlung wird importiert...
 importing-unable-to-import-filename = { $filename } kann nicht importiert werden: Dateityp nicht unterstützt
 importing-notes-that-could-not-be-imported = Notizen, die nicht importiert werden konnten, weil sich der Notiztyp geändert hat: { $val }
+importing-added = Hinzugefügt

@@ -203,3 +203,4 @@ importing-tag-updated-notes-help = די צעטלען וועלן ווערן צו�
 importing-importing-collection = אַרײַנפֿירנדיק זאַמלונג…
 importing-unable-to-import-filename = מ׳האָט נישט געקענט אַרײַנפֿירן { $filename }: דער מין-טעקע ווערט נישט דערקענט
 importing-notes-that-could-not-be-imported = נאָטיצן וואָס זענען נישט געראָטן אַרײַנגעפֿירט ווערן, צוליב וואָס דער מין-נאָטיץ איז שוין געביטן געוואָרן: { $val }
+importing-added = געשאַפֿן

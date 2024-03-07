@@ -125,3 +125,4 @@ importing-file-empty = Walang laman ang file na napili mo.
 importing-importing-collection = Ini-import ang collection...
 importing-unable-to-import-filename = Hindi kayang ma-import ang { $filename }: hindi supported ang file
 importing-notes-that-could-not-be-imported = Mga note na hindi ma-import dahil nagbago ang note type: { $val }
+importing-added = Mga nadagdag na

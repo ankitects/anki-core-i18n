@@ -185,3 +185,4 @@ importing-tag-updated-notes-help = Эти метки будут добавлен
 importing-importing-collection = Импортирование коллекции...
 importing-unable-to-import-filename = Не удалось импортировать { $filename }: тип файлов не поддерживается
 importing-notes-that-could-not-be-imported = Записи, которые не импортированы, потому что изменился их тип: { $val }
+importing-added = Успешно добвлено

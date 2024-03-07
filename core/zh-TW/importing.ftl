@@ -194,3 +194,4 @@ importing-tag-updated-notes-help = 任何更新的筆記都將被加上這些標
 importing-importing-collection = 匯入集合中...
 importing-unable-to-import-filename = 無法匯入 { $filename }：不支援此檔案類型
 importing-notes-that-could-not-be-imported = 因更動筆記類型而無法匯入的筆記：{ $val }
+importing-added = 已新增

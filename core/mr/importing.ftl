@@ -15,3 +15,4 @@ importing-mapped-to = <b>{ $val }</b> ला मांडले
 importing-mapped-to-tags = <b>टॅग</b>ना मांडले
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' मध्ये { $found } रकाने होते, { $expected } अपेक्षीत होते
 importing-supermemo-xml-export-xml = सुपरमेमो एक्सएमएल निर्यात (*.xml)
+importing-added = जोडले

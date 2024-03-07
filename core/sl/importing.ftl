@@ -122,3 +122,4 @@ importing-update = Posodobi
 importing-tag-all-notes = Označi vse zapiske
 importing-tag-updated-notes = Označi posodobljene zapiske
 importing-file = Datoteka
+importing-added = Dodano

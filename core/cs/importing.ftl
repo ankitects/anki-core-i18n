@@ -235,3 +235,4 @@ importing-tag-updated-notes-help = Tyto štítky se přidají do všech aktualiz
 importing-importing-collection = Importuje se kolekce…
 importing-unable-to-import-filename = Nelze importovat { $filename }: typ souboru není podporován
 importing-notes-that-could-not-be-imported = Poznámky, které nemohly být importovány, protože se změnil typ poznámky: { $val }
+importing-added = Přidáno

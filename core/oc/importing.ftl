@@ -31,3 +31,4 @@ importing-note-updated =
         [one] { $count } nòta mesa a jorn
        *[other] { $count } nòtas mesas a jorn
     }
+importing-added = Apondut

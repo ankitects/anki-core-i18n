@@ -76,3 +76,4 @@ importing-processed-media-file =
         [one] { $count } prilaborita aŭdovidaĵo
        *[other] { $count } prilaboritaj aŭdovidaĵoj
     }
+importing-added = Aldonita

@@ -59,3 +59,4 @@ importing-note-updated =
         [one] { $count } nota actualizada
        *[other] { $count } notas actualizadas
     }
+importing-added = Engadida

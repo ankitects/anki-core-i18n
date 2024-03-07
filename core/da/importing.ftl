@@ -107,3 +107,4 @@ importing-update = Opdater
 importing-tag-all-notes = Tagge alle noter
 importing-tag-updated-notes = Tagge opdaterede noter
 importing-file = Fil
+importing-added = Tilføjet

@@ -39,3 +39,4 @@ importing-note-updated =
         [one] { $count } n tezmilt tettwalqem
        *[other] { $count } tezmilin ttwaleqment
     }
+importing-added = yettwarna

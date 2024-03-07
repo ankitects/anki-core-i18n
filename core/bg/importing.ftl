@@ -56,3 +56,4 @@ importing-processed-media-file =
         [one] { $count } медиен файл беше обработен.
        *[other] { $count } медийни файла бяха обработени.
     }
+importing-added = Добавени

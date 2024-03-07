@@ -54,3 +54,4 @@ importing-processed-media-file =
     { $count ->
        *[other] .i mo'u nerbei { $count } te ganvi
     }
+importing-added = se jmina

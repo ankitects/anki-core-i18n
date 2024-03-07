@@ -201,3 +201,4 @@ importing-tag-updated-notes-help = 这些标签将添加到任何更新的笔记
 importing-importing-collection = 正在导入集合…
 importing-unable-to-import-filename = 未能导入 { $filename }：不支持的文件类型
 importing-notes-that-could-not-be-imported = 因笔记模板已变更而无法导入的笔记：{ $val }
+importing-added = 已添加

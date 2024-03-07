@@ -78,3 +78,4 @@ importing-processed-media-file =
         [one] { $count } médiafájl feldolgozva
        *[other] { $count } médiafájl feldolgozva
     }
+importing-added = Hozzáadva

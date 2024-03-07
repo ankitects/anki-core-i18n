@@ -229,3 +229,4 @@ importing-tag-updated-notes-help = Estas tags serão adicionadas a qualquer nota
 importing-importing-collection = Importando coleção...
 importing-unable-to-import-filename = Não foi possível importar { $filename }: tipo de arquivo não suportado
 importing-notes-that-could-not-be-imported = Notas que não pudiam ser importadas conforme o tipo de nota foram alteradas: { $val }
+importing-added = Adicionado

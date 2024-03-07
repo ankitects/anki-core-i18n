@@ -219,3 +219,4 @@ importing-tag-updated-notes-help = Nämä tunnisteet lisätään päivitettyihin
 importing-importing-collection = Tuodaan kokoelmaa...
 importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta
 importing-notes-that-could-not-be-imported = Muistiinpanoja, joita ei voitu tuoda, koska muistiinpanotyyppi on muuttunut: { $val }
+importing-added = Lisätty

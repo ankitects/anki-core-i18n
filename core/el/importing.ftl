@@ -198,3 +198,4 @@ importing-tag-updated-notes-help = Αυτές οι ετικέτες θα προ�
 importing-importing-collection = Εισαγωγή συλλογής...
 importing-unable-to-import-filename = Η εισαγωγή του { $filename } δεν είναι δυνατή: ο τύπος αρχείου δεν υποστηρίζεται
 importing-notes-that-could-not-be-imported = Σημειώσεις που δεν εισήχθησαν καθώς ο τύπος σημείωσης έχει αλλάξει: { $val }
+importing-added = Προστέθηκε

@@ -80,3 +80,4 @@ importing-processed-media-file =
         [few] S-au procesat { $count } fişiere media.
        *[other] S-au procesat { $count } fişiere media.
     }
+importing-added = Adăugat(e)

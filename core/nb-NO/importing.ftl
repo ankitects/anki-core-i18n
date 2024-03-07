@@ -43,3 +43,4 @@ importing-note-updated =
         [one] { $count } notat oppdatert.
        *[other] { $count } notater oppdatert.
     }
+importing-added = Lagt til

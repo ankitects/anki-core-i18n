@@ -76,3 +76,4 @@ importing-processed-media-file =
         [one] Մշակված մեդիա նիշք { $count }
        *[other] Մշակված մեդիա նիշք { $count }
     }
+importing-added = Ավելացվել է

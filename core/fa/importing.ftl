@@ -72,3 +72,4 @@ importing-processed-media-file =
     { $count ->
        *[other] تعداد { $count } فایل رسانه پردازش شد
     }
+importing-added = اضافه‌شده

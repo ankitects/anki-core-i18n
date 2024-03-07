@@ -9,3 +9,4 @@ importing-map-to-tags = Шошготой холбо
 importing-mapped-to = <b>{ $val }</b>-тай тааруулсан
 importing-mapped-to-tags = <b>Шошгууд</b>-той тааруулах
 importing-supermemo-xml-export-xml = Supermemo XML-руу экпорт (*.xml)
+importing-added = Нэмсэн

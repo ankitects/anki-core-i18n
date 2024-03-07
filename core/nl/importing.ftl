@@ -76,3 +76,4 @@ importing-processed-media-file =
         [one] Verwerkte { $count } mediabestand
        *[other] Verwerkte { $count } mediabestanden
     }
+importing-added = Toegevoegd

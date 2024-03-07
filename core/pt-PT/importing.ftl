@@ -64,3 +64,4 @@ importing-processed-media-file =
         [one] { $count } ficheiro de média processado
        *[other] { $count } ficheiros de média processados
     }
+importing-added = Adicionado

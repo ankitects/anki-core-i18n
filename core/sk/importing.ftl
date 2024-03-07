@@ -83,3 +83,4 @@ importing-processed-media-file =
         [few] Spracovaný { $count } multimediálny súbor
        *[other] Spracované { $count } multimediálne súbory
     }
+importing-added = Pridané

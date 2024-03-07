@@ -64,3 +64,4 @@ importing-processed-media-file =
         [one] Euskarri fixtategi prozesatua { $count }
        *[other] Euskarri fixtategi prozesatuak { $count }
     }
+importing-added = Erantsita

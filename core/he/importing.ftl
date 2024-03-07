@@ -234,3 +234,4 @@ importing-tag-updated-notes-help = תגים אלה יתווספו לכל רשו�
 importing-importing-collection = מייבא אוסף...
 importing-unable-to-import-filename = { $filename } לא ניתן לייבוא: סוג הקובץ לא נתמך
 importing-notes-that-could-not-be-imported = רשומות שלא יובאו משום שסוג הרשומה השתנה: { $val }
+importing-added = נוספו

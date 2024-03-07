@@ -125,3 +125,4 @@ importing-existing-notes-help =
 importing-importing-collection = Імпортування колекції…
 importing-unable-to-import-filename = Неможливо імпортувати { $filename }: тип файлу не підтримується
 importing-notes-that-could-not-be-imported = Нотатки не імпортовано через зміну їх типу: { $val }
+importing-added = Додано

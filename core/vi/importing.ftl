@@ -72,3 +72,4 @@ importing-processed-media-file =
     { $count ->
        *[other] Xử lý { $count } thư mục phương tiện
     }
+importing-added = Đã thêm

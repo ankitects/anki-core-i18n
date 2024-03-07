@@ -288,3 +288,4 @@ importing-tag-updated-notes-help = ستتم إضافة هذه الوسوم إل�
 importing-importing-collection = يجري استيراد المجموعة...
 importing-unable-to-import-filename = فشل استيراد { $filename }: نوع الملف غير مدعوم
 importing-notes-that-could-not-be-imported = الملحوظات التي لا يمكن استيرادها لأن نوع الملحوظة قد تغيّر: { $val }
+importing-added = أُضيفت

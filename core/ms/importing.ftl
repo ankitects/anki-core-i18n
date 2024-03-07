@@ -21,3 +21,4 @@ importing-note-updated =
     { $count ->
        *[other] { $count } nota dikemas kini
     }
+importing-added = Ditambah

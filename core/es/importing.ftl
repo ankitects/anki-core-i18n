@@ -122,3 +122,4 @@ importing-file-empty = El archivo que seleccionó está vacío.
 importing-importing-collection = Importando colección...
 importing-unable-to-import-filename = No fue posible importar { $filename }: tipo de archivo no compatible
 importing-notes-that-could-not-be-imported = Notas que no pudieron importarse debido a un cambio de tipo: { $val }
+importing-added = Añadidas

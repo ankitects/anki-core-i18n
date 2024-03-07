@@ -160,3 +160,4 @@ importing-note-skipped-due-to-empty-first-field = Note sautée, car son premier 
 importing-importing-collection = Importation de la collection...
 importing-unable-to-import-filename = Impossible d'importer { $filename } : type de fichier non supporté
 importing-notes-that-could-not-be-imported = Notes ne pouvant pas être importées car le type de note a changé : { $val }
+importing-added = Ajouté

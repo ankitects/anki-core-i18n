@@ -133,3 +133,4 @@ importing-file-empty = Выбраны вамі файл — пусты.
 importing-importing-collection = Імпартаванне калекцыі...
 importing-unable-to-import-filename = Немагчыма імпартаваць { $filename }: тып файла не падтрымліваецца
 importing-notes-that-could-not-be-imported = Нататак, якіх немагчыма імпартаваць, бо тып нататкі змяніўся: { $val }
+importing-added = Дададзена
