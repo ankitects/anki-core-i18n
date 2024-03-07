@@ -1,5 +1,5 @@
-network-offline = Controlla la tua connessione a internet.
+network-offline = Controllare la propria connessione a internet.
 network-timeout = Connessione scaduta. Se il problema persiste, riprova su una rete diversa.
-network-proxy-auth = Il tuo proxy richiede l'autenticazione.
+network-proxy-auth = Il proxy richiede l'autenticazione.
 network-other = Si è verificato un errore di rete.
 network-details = Dettagli dell'errore: { $details }

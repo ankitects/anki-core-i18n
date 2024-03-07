@@ -78,10 +78,10 @@ scheduling-today-review-limit-reached =
     aspettano di essere ripetute. Per una memorizzazione ottimale, considera
     di aumentare il limite giornaliero nelle opzioni.
 scheduling-today-new-limit-reached =
-    Ci sono ulteriori carte nuove disponibili, ma il limite giornaliero
-    è stato raggiunto. Puoi aumentare il limite nelle opzioni, ma
-    ricordati che più carte nuove introduci, più grande diventerà
-    il tuo carico di lavoro per le ripetizioni a breve termine.
+    Sono disponibili ulteriori carte nuove, ma il limite giornaliero è stato raggiunto.
+    È possibile aumentare il limite nelle opzioni, ma è bene ricordare
+    che l'introduzione di un numero maggiore di carte nuove comporta un aumento
+    del proprio carico di lavoro per le ripetizioni a breve termine.
 scheduling-buried-cards-found = Una o più carte sono state seppellite e verranno mostrate domani. Puoi { $unburyThem } se desideri vederle immediatamente.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
@@ -100,7 +100,7 @@ scheduling-update-later-button = Più tardi
 scheduling-update-more-info-button = Scopri di più
 scheduling-update-required =
     La tua collezione necessita l'aggiornamento al pianificatore V2.
-    Per favore seleziona { scheduling-update-more-info-button } prima di procedere.
+    Selezionare { scheduling-update-more-info-button } prima di procedere.
 
 ## Other scheduling strings
 

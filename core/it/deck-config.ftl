@@ -97,7 +97,7 @@ deck-config-relearning-steps-tooltip =
 deck-config-leech-threshold-tooltip =
     Il numero di volte che `Ripeti` deve essere premuto su una carta da ripassare prima
     che questa venga contrassegnata come sanguisuga. Le sanguisughe sono carte che richiedono molto
-    del tuo tempo, e quando una carta è contrassegnata come sanguisuga, è una buona idea riscriverla,
+    del proprio tempo, e quando una carta è contrassegnata come sanguisuga, è una buona idea riscriverla,
     cancellarla o pensare ad un espediente mnemonico per ricordarla.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -302,10 +302,10 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards } carte
     }, che sovrascriverà questo limite.
 deck-config-reviews-too-low =
-    Se aggiungi { $cards ->
-        [one] { $cards } nuova carta al giorno
-       *[other] { $cards } nuove carte al giorno
-    }, il tuo limite di ripetizioni dovrebbe essere almeno { $expected }.
+    { $cards ->
+        [one] Se viene aggiunta { $cards } nuova carta al giorno, il proprio limite di ripetizioni dovrebbe essere almeno { $expected }.
+       *[other] Se vengono aggiunte { $cards } nuove carte al giorno, il proprio limite di ripetizioni dovrebbe essere almeno { $expected }.
+    }
 deck-config-learning-step-above-graduating-interval = L'intervallo di promozione dovrebbe essere lungo almeno quanto il passo finale di apprendimento.
 deck-config-good-above-easy = L'intervallo delle carte facili dovrebbe essere lungo almeno quanto l'intervallo di promozione.
 deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto il passo finale di riapprendimento.
@@ -352,10 +352,13 @@ deck-config-fsrs-tooltip =
     
     FSRS (Free Spaced Repetition Scheduler; in italiano: "Pianificatore di Ripetizione Dilazionata Libera") 
     costituisce un'alternativa al vecchio pianificatore SM2 (SuperMemo 2) di Anki.
-    Determinando in modo più accurato quando è probabile che tu dimentichi, può aiutarti a ricordare
-    più materiale nello stesso lasso di tempo. Questa impostazione è condivisa da tutte le preimpostazioni.
+    Determinando in modo più accurato quando è probabile che un'informazione venga dimenticata,
+    può aiutare a ricordare più materiale nello stesso lasso di tempo. Questa impostazione è condivisa
+    da tutte le preimpostazioni.
     
-    Se hai precedentemente utilizzato la versione non nativa di FSRS (basata sull'aggiunta di codice personalizzato nella sezione "Pianificazione personalizzata"), assicurati di aver svuotato tale sezione prima di abilitare questa opzione.
+    Qualora in precedenza si fosse utilizzata la versione non nativa di FSRS (basata sull'aggiunta
+    di codice personalizzato nella sezione "Pianificazione personalizzata"), è fondamentale assicurarsi
+    di aver svuotato tale sezione prima di abilitare questa opzione.
 deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Aumentando questo valore, le carte verranno mostrate più frequentemente per incrementare la probabilità di ricordarle. Diminuendo questo valore, le carte verranno mostrate meno frequentemente e crescerà il rischio di dimenticarle.
     
@@ -375,29 +378,31 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     Questa opzione determina se le scadenze delle carte verranno modificate quando si abilita FSRS o si cambiano i parametri. 
     L'impostazione predefinita è quella di non ripianificare le carte: le ripetizioni future utilizzeranno la nuova pianificazione, 
-    ma non ci sarà alcuna modifica immediata al tuo carico di lavoro. 
+    ma non ci sarà alcuna modifica immediata al proprio carico di lavoro. 
     Se la ripianificazione è abilitata, le scadenze delle carte verranno modificate.
 deck-config-reschedule-cards-warning =
     A seconda della ritenzione desiderata, ciò può comportare la scadenza di un gran numero di carte, per cui non è consigliato abilitare tale opzione la prima volta che si usa FSRS.
     
-    Usa questa opzione con parsimonia, poiché aggiungerà una voce di revisione per ciascuna delle tue carte e
-    aumenterà le dimensioni della tua collezione.
+    Usare questa opzione con parsimonia, poiché aggiungerà una voce di revisione per ciascuna delle carte e
+    aumenterà le dimensioni della collezione.
 deck-config-ignore-before-tooltip =
     Solo le ripetizioni successive alla data specificata saranno incluse nell'ottimizzazione e valutazione dei parametri FSRS.
     Ciò può risultare utile se hai importato i dati di pianificazione di qualcun altro oppure se hai cambiato le tue abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip =
-    Dopo aver completato 1000 o più ripetizioni in Anki, puoi usare il pulsante Ottimizza per analizzare la tua cronologia delle ripetizioni
-    e generare automaticamente parametri ottimali per la tua memoria e i contenuti che stai studiando. 
-    Se hai mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preimpostazioni separate, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
+    Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare la cronologia delle ripetizioni
+    e generare automaticamente parametri ottimali per la propria memoria e i contenuti che si stanno studiando. 
+    Se sono presenti mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preimpostazioni separate, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
     Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
-    Di default, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, puoi modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
+    Di default, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
 deck-config-compute-optimal-retention-tooltip =
-    Questo strumento presuppone che tu stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
-    che sarai in grado di ricordare nel periodo di tempo specificato. 
-    La ritenzione stimata dipenderà notevolmente dai tuoi dati di input, e se differisce significativamente da 0,9, 
-    è un segno che il tempo che hai allocato ogni giorno allo studio è troppo oppure troppo poco rispetto alla quantità di carte che stai cercando di imparare. 
-    Questo numero può essere utile come riferimento, ma non è raccomandato copiarlo nel campo Ritenzione desiderata.
+    Questo strumento presuppone che si stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
+    memorizzabile nel periodo di tempo specificato. 
+    La ritenzione stimata dipenderà notevolmente dai dati di input, e se differisce significativamente da 0,9, 
+    è un segno che il tempo allocato ogni giorno allo studio è troppo oppure troppo poco rispetto
+    alla quantità di carte che si sta cercando di imparare. 
+    Questo numero può essere utile come riferimento, ma non è consigliato copiarlo nel campo
+    Ritenzione desiderata.
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-a-100-day-interval =
     { $days ->

@@ -60,5 +60,5 @@ card-templates-type-boxes-warning = È supportata soltanto una casella di digita
 card-templates-restore-to-default = Ripristina valori predefiniti
 card-templates-restore-to-default-confirmation =
     Tutti i campi e i modelli di questo tipo di nota verranno ripristinati ai valori predefiniti, 
-    inoltre verranno persi eventuali stili personalizzati. Desideri procedere?
+    inoltre verranno persi eventuali stili personalizzati. Procedere?
 card-templates-restored-to-default = Il tipo di nota è stato ripristinato alla sua configurazione originale.

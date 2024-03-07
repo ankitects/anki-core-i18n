@@ -47,7 +47,7 @@ importing-mnemosyne-20-deck-db = Mazzo di Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatori multi-carattere non sono supportati. Inserisci un solo carattere.
 importing-notes-added-from-file = Note aggiunte dal file: { $val }
 importing-notes-found-in-file = Note trovate nel file: { $val }
-importing-notes-skipped-as-theyre-already-in = Note ignorate, poiché una copia aggiornata è già presente nella tua collezione: { $val }
+importing-notes-skipped-as-theyre-already-in = Note ignorate, poiché una copia aggiornata è già presente nella propria collezione: { $val }
 importing-notes-skipped-update-due-to-notetype = Note non aggiornate, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-notes-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-include-reviews = Includi le ripetizioni
@@ -85,11 +85,11 @@ importing-update-always = Sempre
 importing-update-never = Mai
 importing-update-notes = Aggiorna le note
 importing-update-notes-help =
-    Determina quando aggiornare una nota già esistente nella tua collezione. Di default, 
+    Determina quando aggiornare una nota già esistente nella propria collezione. Di default, 
     ciò avviene solo se la nota corrispondente che sta venendo importata è stata modificata più di recente.
 importing-update-notetypes = Aggiorna i tipi di nota
 importing-update-notetypes-help =
-    Determina quando aggiornare un tipo di nota già esistente nella tua collezione.
+    Determina quando aggiornare un tipo di nota già esistente nella collezione.
     Di default, ciò avviene solo se il tipo di nota che sta venendo importato è stato modificato più di recente. 
     Le modifiche al testo e allo stile dei modelli possono sempre essere importate, ma per le modifiche dello schema (ad esempio, modifiche al numero o all'ordine dei campi) è necessario abilitare l'opzione '{ importing-merge-notetypes }'.
 importing-note-added =
@@ -163,8 +163,8 @@ importing-notes-updated =
     }
 importing-existing-notes-skipped =
     { $count ->
-        [one] { $count } nota già presente nella tua collezione.
-       *[other] { $count } note già presenti nella tua collezione.
+        [one] { $count } nota già presente nella collezione.
+       *[other] { $count } note già presenti nella collezione.
     }
 importing-conflicting-notes-skipped =
     { $count ->
@@ -188,7 +188,7 @@ importing-details = Dettagli
 importing-status = Stato
 importing-duplicate-note-added = Aggiunta nota duplicata.
 importing-added-new-note = Aggiunta nuova nota.
-importing-existing-note-skipped = Nota ignorata, poiché una copia aggiornata è già presente nella tua collezione.
+importing-existing-note-skipped = Nota ignorata, poiché una copia aggiornata è già presente nella collezione.
 importing-note-skipped-update-due-to-notetype = Nota non aggiornata, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
 importing-note-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-note-skipped-due-to-missing-notetype = Nota ignorata, poiché il suo tipo di nota era mancante
@@ -201,8 +201,8 @@ importing-field-separator-help =
     tale campo dovrà essere delimitato/racchiuso tra virgolette secondo lo standard CSV. 
     I programmi per fogli di calcolo come LibreOffice lo faranno automaticamente.
 importing-allow-html-in-fields-help =
-    Abilita questa opzione se il file contiene formattazione HTML. Ad esempio, se il file contiene la stringa
-    "&lt;br&gt;", essa verrà visualizzata nella tua carta come un'interruzione di riga. D'altra parte, se non abiliti
+    Abilitare questa opzione se il file contiene formattazione HTML. Ad esempio, se il file contiene la stringa
+    "&lt;br&gt;", essa verrà visualizzata nella carta come un'interruzione di riga. D'altra parte, se non si abilita
     questa opzione, verranno mostrati invece i caratteri letterali "&lt;br&gt;".
 importing-notetype-help =
     Le note appena importate avranno questo tipo di nota; inoltre, verranno aggiornate solo le note già esistenti che appartengono a questo tipo di nota.

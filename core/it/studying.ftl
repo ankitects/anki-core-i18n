@@ -45,7 +45,7 @@ studying-to-review = Da ripetere
 studying-type-answer-unknown-field = Digita la risposta: campo sconosciuto { $val }
 studying-unbury = Disseppellisci
 studying-what-would-you-like-to-unbury = Che cosa vuoi disseppellire?
-studying-you-havent-recorded-your-voice-yet = Non hai ancora registrato la tua voce.
+studying-you-havent-recorded-your-voice-yet = Non è stata ancora registrata la propria voce.
 studying-card-studied-in =
     { $count ->
         [one] { $count } carta studiata in

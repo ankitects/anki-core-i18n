@@ -24,15 +24,15 @@ sync-server-error = AnkiWeb ha riscontrato un problema. Riprova tra qualche minu
 sync-client-too-old = La versione di Anki in uso è troppo vecchia. Effettuare l'aggiornamento all'ultima versione per continuare a sincronizzare.
 sync-wrong-pass = L'ID di AnkiWeb o la password non sono corretti; prova di nuovo.
 sync-resync-required = Sincronizzare nuovamente e, se il messaggio continua ad apparire, segnalarlo sul sito di supporto.
-sync-must-wait-for-end = Anki sta effettuando la sincronizzazione. Attendi che finisca, quindi riprova.
+sync-must-wait-for-end = È in corso la sincronizzazione. Attendere che finisca, quindi riprovare.
 sync-confirm-empty-download = La collezione locale non contiene alcuna carta. Scaricare da AnkiWeb?
 sync-confirm-empty-upload = La collezione AnkiWeb non contiene carte. Sostituirla con la collezione locale?
 sync-conflict-explanation =
-    I tuoi mazzi qui e su AnkiWeb presentano differenze tali da non permetterne l'unione, ed è quindi necessario sovrascrivere i mazzi in un posto con i mazzi nell'altro posto.
+    I mazzi qui e su AnkiWeb presentano differenze tali da non permetterne l'unione, ed è quindi necessario sovrascrivere i mazzi in un posto con i mazzi nell'altro posto.
     
-    Se scegli di scaricare, Anki scaricherà la collezione da AnkiWeb, e tutte le modifiche fatte su questo dispositivo dopo l'ultima sincronizzazione andranno perse.
+    Se si sceglie di scaricare, verrà scaricata la collezione da AnkiWeb, e tutte le modifiche fatte su questo dispositivo dopo l'ultima sincronizzazione andranno perse.
     
-    Se scegli di caricare, Anki caricherà la collezione di questo dispositivo su AnkiWeb, e tutte le modifiche fatte su AnkiWeb andranno perse.
+    Se invece si sceglie di caricare, la collezione di questo dispositivo verrà caricata su AnkiWeb, e tutte le modifiche fatte su AnkiWeb andranno perse.
     
     Una volta che tutti i dispositivi sono stati sincronizzati, le ripetizioni future e le carte aggiunte verranno unite automaticamente.
 sync-ankiweb-id-label = ID di AnkiWeb:
