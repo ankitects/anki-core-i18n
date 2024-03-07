@@ -56,7 +56,7 @@ actions-previous-card-info = Info carta precedente
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = La modalità a schermo intero non è supportata dal tuo driver video. Vai alla schermata Preferenze, cambia il driver video, quindi riprova.
+actions-fullscreen-unsupported = La modalità a schermo intero non è supportata dal driver video di questo dispositivo. Accedere alla schermata Preferenze, cambiare il driver video e quindi riprovare.
 
 ## Flags
 

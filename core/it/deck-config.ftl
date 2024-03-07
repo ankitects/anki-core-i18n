@@ -234,7 +234,7 @@ deck-config-audio-title = Audio
 deck-config-disable-autoplay = Non riprodurre l'audio automaticamente
 deck-config-disable-autoplay-tooltip =
     Se abilitato, Anki non riprodurrà l'audio automaticamente.
-    Può essere riprodotto manualmente facendo click/toccando un'icona audio, o utilizzando il comando di riproduzione audio.
+    Può essere riprodotto manualmente facendo clic/toccando un'icona audio, o utilizzando il comando di riproduzione audio.
 deck-config-skip-question-when-replaying = Salta la domanda durante la riproduzione della risposta
 deck-config-always-include-question-audio-tooltip =
     Determina se l'audio della domanda deve essere incluso quando si usa l'azione "Riproduci di nuovo"
@@ -254,9 +254,9 @@ deck-config-easy-bonus-tooltip =
     Un moltiplicatore aggiuntivo che è applicato all'intervallo di una carta ripassata
     quando la si valuta `Facile`.
 deck-config-interval-modifier-tooltip =
-    Questo moltiplicatore è applicato a tutte le ripetizioni, e piccole modifiche possono
-    essere usate per rendere la pianificazione di Anki più conservativa o aggressiva.
-    Consulta il manuale prima di cambiare questa opzione.
+    Questo moltiplicatore è applicato a tutte le ripetizioni, e minime variazioni
+    del suo valore rendono la pianificazione di Anki più conservativa o aggressiva.
+    Consultare il manuale prima di cambiare questa opzione.
 deck-config-hard-interval-tooltip = Il moltiplicatore aggiunto all'intervallo di una ripetizione quando la si valuta `Difficile`.
 deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di una ripetizione quando viene premuto `Ripeti`.
 deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver premuto `Ripeti`.

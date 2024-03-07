@@ -2,8 +2,8 @@ errors-parse-number-fail = Un numero non è valido o è fuori intervallo
 errors-filtered-parent-deck = I mazzi filtrati non possono avere mazzi figli.
 errors-filtered-deck-required = Questa azione può essere usata soltanto su un mazzo filtrato.
 errors-100-tags-max =
-    Possono essere selezionate fino a un massimo di 100 etichette. In genere è più semplice elencare le
-    etichette che desideri invece di quelle che non vuoi, e non
+    È possibile selezionare fino ad un massimo di 100 etichette. In genere
+    è più semplice elencare le etichette che desideri invece di quelle che non vuoi, e non
     è necessario selezionare etichette figlie se hai già selezionato un'etichetta padre.
 errors-multiple-notetypes-selected = Per favore seleziona note di un solo tipo.
 errors-please-check-database = Per favore usa il comando "Controlla il database" e riprova.
