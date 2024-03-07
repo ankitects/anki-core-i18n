@@ -206,4 +206,4 @@ importing-tag-updated-notes-help = 指定したタグを、更新したノート
 importing-importing-collection = コレクションをインポート中...
 importing-unable-to-import-filename = { $filename }をインポートできません：このファイルのタイプはサポートされていません。
 importing-notes-that-could-not-be-imported = ノートタイプが変更されたためインポートできなかったノート：{ $val }
-importing-added = 追加
+importing-added = 追加済
