@@ -11,6 +11,7 @@ card-stats-new-card-position = 所在位置
 card-stats-card-template = 卡片模板
 card-stats-note-type = 笔记模板
 card-stats-deck-name = 所属牌组
+card-stats-preset = 预设配置
 card-stats-note-id = 笔记编号
 card-stats-card-id = 卡片编号
 card-stats-review-log-rating = 评分
