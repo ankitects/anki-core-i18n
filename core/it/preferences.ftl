@@ -30,7 +30,7 @@ preferences-login-successful-sync-now = Accesso riuscito. Vuoi salvare le prefer
 preferences-timebox-time-limit = Limite di tempo per sessione
 preferences-user-interface-size = Dimensione dell'interfaccia utente
 preferences-when-adding-default-to-current-deck = Aggiungi le note nuove al mazzo attuale
-preferences-you-can-restore-backups-via-fileswitch = Puoi ripristinare i backup attraverso File > Cambia Profilo > Apri backup.
+preferences-you-can-restore-backups-via-fileswitch = È possibile ripristinare i backup attraverso File > Cambia Profilo > Apri backup.
 preferences-legacy-timezone-handling = Vecchio sistema di gestione dei fusi orari (pieno di bug, ma richiesto da AnkiDroid <= 2.14)
 preferences-default-search-text = Testo di ricerca predefinito
 preferences-default-search-text-example = es. "deck:current"

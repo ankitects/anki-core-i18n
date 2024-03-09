@@ -365,9 +365,9 @@ deck-config-desired-retention-tooltip =
     
     È consigliato essere prudenti nell'apportare modifiche a questo parametro: valori più alti aumenteranno notevolmente il proprio carico di lavoro, mentre valori più bassi possono causare demoralizzazione quando comportano il dimenticare molte informazioni.
 deck-config-sm2-retention-tooltip =
-    Qualora la propria ritenzione effettiva prima del passaggio a FSRS fosse significativamente diversa da 0,9, 
+    Se la propria ritenzione effettiva prima del passaggio a FSRS era significativamente diversa da 0,9, 
     la regolazione di questo valore permette di ottenere una stima più accurata del proprio stato di memoria
-    nel caso in cui vengano introdotte carte prive del registro delle ripetizioni.<br>N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che non vengano eliminati
+    nel caso in cui vengano introdotte carte prive del registro delle ripetizioni.<br><br>N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che non vengano eliminati
     per liberare spazio, per cui la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
 deck-config-weights-tooltip =
     I parametri FSRS influiscono sulla pianificazione delle carte. Alla prima attivazione di FSRS,
@@ -388,7 +388,7 @@ deck-config-reschedule-cards-warning =
     aumenterà le dimensioni della collezione.
 deck-config-ignore-before-tooltip =
     Solo le ripetizioni successive alla data specificata saranno incluse nell'ottimizzazione e valutazione dei parametri FSRS.
-    Ciò può risultare utile se hai importato i dati di pianificazione di qualcun altro oppure se hai cambiato le tue abitudini nell'utilizzo dei pulsanti di risposta.
+    Ciò può risultare utile se sono stati importati i dati di pianificazione di qualcun altro oppure se si sono cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare la cronologia delle ripetizioni
     e generare automaticamente parametri ottimali per la propria memoria e i contenuti che si stanno studiando. 

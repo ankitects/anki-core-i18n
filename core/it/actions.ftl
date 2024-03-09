@@ -71,6 +71,6 @@ actions-flag-purple = Viola
 actions-set-flag = Imposta bandiera
 actions-nothing-to-undo = Niente da annullare
 actions-nothing-to-redo = Niente da ripristinare
-actions-auto-advance = Commuta avanzamento automatico
+actions-auto-advance = Avanzamento automatico
 actions-auto-advance-activated = Avanzamento automatico abilitato
 actions-auto-advance-deactivated = Avanzamento automatico disabilitato

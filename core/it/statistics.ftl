@@ -118,15 +118,15 @@ statistics-retrievability-tooltip =
 statistics-future-due-title = Previsioni
 statistics-future-due-subtitle = Numero di ripetizioni che scadranno in futuro.
 statistics-added-title = Carte Aggiunte
-statistics-added-subtitle = Numero di carte nuove che hai aggiunto.
-statistics-reviews-count-subtitle = Numero di domande alle quali hai risposto.
+statistics-added-subtitle = Numero di carte nuove aggiunte.
+statistics-reviews-count-subtitle = Numero di domande alle quali si è risposto.
 statistics-reviews-time-subtitle = Tempo impiegato per rispondere alle domande.
 statistics-answer-buttons-title = Pulsanti di risposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Pulsante
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Numero di volte premuto
-statistics-answer-buttons-subtitle = Numero di volte che hai premuto ciascun pulsante.
+statistics-answer-buttons-subtitle = Numero di volte che è stato premuto ciascun pulsante.
 statistics-reviews-title = Ripetizioni
 statistics-reviews-time-checkbox = Durata
 statistics-in-days-single =

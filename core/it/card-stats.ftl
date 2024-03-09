@@ -11,6 +11,7 @@ card-stats-new-card-position = Posizione
 card-stats-card-template = Tipo di carta
 card-stats-note-type = Tipo di nota
 card-stats-deck-name = Mazzo
+card-stats-preset = Preimpostazione
 card-stats-note-id = ID nota
 card-stats-card-id = ID carta
 card-stats-review-log-rating = Valutazione
