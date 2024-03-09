@@ -51,7 +51,7 @@ actions-add-notetype = 添加笔记模板
 actions-remove-notetype = 删除笔记模板
 actions-update-notetype = 更新笔记模板
 actions-update-config = 更新设置
-actions-card-info = 卡片信息
+actions-card-info = 卡片详情
 actions-previous-card-info = 上一张卡片信息
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
