@@ -184,6 +184,13 @@ importing-conflicting-notes-skipped =
         [few] { $count } poznámky se neimportovaly, protože se změnil jejich typ poznámky.
        *[other] { $count } poznámek se neimportovalo, protože se změnil jejich typ poznámky.
     }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } poznámka nebyla importována, protože se změnil její typ poznámky a '{ importing-merge-notetypes }' nebylo povoleno.
+        [few] { $count } poznámky nebyly importovány, protože se změnil jejich typ poznámky a '{ importing-merge-notetypes }' nebylo povoleno.
+        [many] { $count } poznámky nebyla importována, protože se změnil její typ poznámky a '{ importing-merge-notetypes }' nebylo povoleno.
+       *[other] { $count } poznámek nebylo importováno, protože se změnil jejich typ poznámky a '{ importing-merge-notetypes }' nebylo povoleno.
+    }
 importing-import-log = Záznam importu
 importing-no-notes-in-file = V souboru se nenalezly žádné poznámky.
 importing-notes-found-in-file2 =
