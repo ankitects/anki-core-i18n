@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = .anki soubory pocházejí z velmi staré 
 importing-anki2-files-are-not-directly-importable = .anki2 soubory nelze importovat přímo - prosím importujte místo toho .apkg nebo .zip soubor, který máte.
 importing-appeared-twice-in-file = V souboru se vyskytuje dvakrát: { $val }
 importing-by-default-anki-will-detect-the = Anki implicitně detekuje znak oddělující pole, jako je tabulátor či čárka. Pokud ho Anki detekuje špatně, můžete ho vložit sem. \t představuje tabulátor.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Tap poznámky doplňovačka nemůže být sloučen s jinými typy poznámek.
+    Stále můžete importovat soubor, když je '{ importing-merge-notetypes }' zakázáno.
 importing-change = Změnit
 importing-colon = Dvojtečka
 importing-comma = Čárka
