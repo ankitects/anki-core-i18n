@@ -94,9 +94,9 @@ deck-config-leech-threshold-tooltip =
     o pensar en una regla mnemotècnica que us ajudi a recordar-la.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Només etiqueta`: Afegeix l'etiqueta «sangonera» a la nota i mostra una finestra emergent.
+    `Només etiqueta`: Afegeix l'etiqueta `leech` (‘sangonera’) a la nota i mostra una finestra emergent.
     
-    `Suspèn la targeta`: Afegeix l'etiqueta «sangonera» a la nota i amaga la targeta fins que anul·leu la suspensió manualment.
+    `Suspèn la targeta`: Afegeix l'etiqueta `leech` (’sangonera') a la nota i amaga la targeta fins que anul·leu la suspensió manualment.
 
 ## Burying section
 
