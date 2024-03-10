@@ -13,7 +13,7 @@ studying-cards-buried =
         [one] { $count } carta seppellita.
        *[other] { $count } carte seppellite.
     }
-studying-cards-will-be-automatically-returned-to = Le carte torneranno automaticamente nel mazzo originale dopo che le hai ripetute.
+studying-cards-will-be-automatically-returned-to = Le carte torneranno automaticamente nel mazzo originale dopo averle studiate.
 studying-continue = Continua
 studying-counts-differ = I conteggi differiscono da quelli dell'elenco dei mazzi, poiché la sepoltura è abilitata. Alcune carte sono state escluse e altre potrebbero aver preso il loro posto.
 studying-delete-note = Elimina nota
