@@ -44,6 +44,7 @@ editing-tags-remove = Αφαίρεση ετικετών
 editing-tags-select-all = Επιλογή όλων των ετικετών
 editing-text-color = Χρώμα κειμένου
 editing-text-highlight-color = Χρώμα υπογράμμισης κειμένου
+editing-to-make-a-cloze-deletion-on = Για να δημιουργήσετε συμπλήρωση κενού από υπάρχουσα σημείωση, πρέπει πρώτα να την μετατρέψετε σε τύπο συμπλήρωσης κενού, μέσω του μενού 'Σημειώσεις>Αλλαγή τύπου σημείωσης'
 editing-toggle-html-editor = Ενεργοποίηση επεξεργασίας HTML
 editing-expand = Επέκταση
 editing-collapse = Σύμπτυξη

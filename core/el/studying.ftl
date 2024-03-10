@@ -34,6 +34,7 @@ studying-note-suspended = Αναστολή σημείωσης
 studying-pause-audio = Παύση ήχου
 studying-please-run-toolsempty-cards = Παρακαλώ εκτελέστε Εργαλεία>Κενές κάρτες
 studying-record-own-voice = Εγγραφή φωνής
+studying-replay-own-voice = Αναπαραγωγή φωνής
 studying-show-answer = Προβολή απάντησης
 studying-space = Κενό
 studying-study-now = Μελέτησε τώρα
