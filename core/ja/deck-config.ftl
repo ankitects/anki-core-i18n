@@ -246,7 +246,7 @@ deck-config-clone-group = このプリセットを複製
 ## Removing
 
 deck-config-remove-group = このプリセットを削除
-deck-config-will-require-full-sync = この変更を行うには、一方の状態をもう片方に上書きする同期が必要です。他のデバイスでのカード学習や変更をまだ同期していない場合は、そちらを済ませてからこちらの同期を実行してください。
+deck-config-will-require-full-sync = この変更を行うと、次回の同期の際に一方向同期（一方のデータベースをもう片方に上書きする同期）が必要となります。他のデバイスで何らかの変更（カード学習など）を行い、このデバイスとまだ同期していない場合は、この操作を続行する前にそちらの同期を済ませてください。
 deck-config-confirm-remove-name = { $name }を削除しますか？
 
 ## Other Buttons
