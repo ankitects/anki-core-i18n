@@ -11,6 +11,7 @@ card-stats-new-card-position = Sijainti
 card-stats-card-template = Kortin tyyppi
 card-stats-note-type = Muistiinpanotyyppi
 card-stats-deck-name = Pakka
+card-stats-preset = Esiasetus
 card-stats-note-id = Muistiinpanon tunnus
 card-stats-card-id = Kortin tunnus
 card-stats-review-log-rating = Luokitus
