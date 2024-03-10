@@ -97,7 +97,7 @@ browsing-toggle-suspend = Attiva/disattiva sospensione
 browsing-treat-input-as-regular-expression = Considera l'immissione come espressione regolare
 browsing-update-saved-search = Aggiorna con ricerca attuale
 browsing-whole-collection = Intera collezione
-browsing-window-title-notes = Sfoglia ({ $selected } di { $total } note selezionate)
+browsing-window-title-notes = Sfoglia ({ $selected } delle { $total } note selezionate)
 browsing-you-must-have-at-least-one = Deve essere presente almeno una colonna.
 browsing-group =
     { $count ->
