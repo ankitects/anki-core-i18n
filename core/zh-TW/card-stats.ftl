@@ -11,6 +11,7 @@ card-stats-new-card-position = 順序
 card-stats-card-template = 卡片類型
 card-stats-note-type = 筆記類型
 card-stats-deck-name = 牌組
+card-stats-preset = 預設組
 card-stats-note-id = 筆記 ID
 card-stats-card-id = 卡片 ID
 card-stats-review-log-rating = 評等
