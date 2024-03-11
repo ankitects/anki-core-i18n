@@ -33,8 +33,12 @@ actions-replay-audio = Reludi sonon
 actions-reposition = Repozicii
 actions-save = Konservi
 actions-search = Serĉi
+actions-select = Elekti
 actions-shortcut-key = Fulmoklavo: { $val }
 actions-suspend-card = Daŭre kaŝi karton
+actions-set-due-date = Agordi limdaton
+actions-answer-card = Respondi al karto
+actions-unbury-unsuspend = Malkaŝi
 
 ## Flags
 
