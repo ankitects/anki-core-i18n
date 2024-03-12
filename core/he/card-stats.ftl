@@ -11,6 +11,7 @@ card-stats-new-card-position = מיקום
 card-stats-card-template = סוג כרטיס
 card-stats-note-type = סוג רשומה
 card-stats-deck-name = חפיסה
+card-stats-preset = כל קבוצת ההגדרות
 card-stats-note-id = מזהה רשומה
 card-stats-card-id = מזהה כרטיס
 card-stats-review-log-rating = ניקוד
