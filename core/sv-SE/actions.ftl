@@ -38,6 +38,39 @@ actions-shortcut-key = Genväg: { $val }
 actions-suspend-card = Uteslut kort
 actions-set-due-date = Sätt förfallodatum
 actions-answer-card = Svarskort
+actions-unbury-unsuspend = Sluta dölja/sluta låsa
+actions-add-deck = Lägg till kortlek
+actions-add-note = Lägg till not
+actions-update-tag = Uppdatera tagg
+actions-update-note = Uppdatera not
+actions-update-card = Uppdatera kort
+actions-update-deck = Uppdatera kortlek
+actions-forget-card = Glöm kort
+actions-build-filtered-deck = Bygg kortlek
+actions-add-notetype = Lägg till nottyp
+actions-remove-notetype = Ta bort nottyp
+actions-update-notetype = Uppdatera nottyp
+actions-update-config = Uppdatera konfiguration
+actions-card-info = Kortinformation
+actions-previous-card-info = Föregående kortinformation
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Fullskärmsläge stöds inte för din grafikdrivrutin. Försök att byta till en annan drivrutin från inställningsskärmen.
 
 ## Flags
 
+actions-flag-number = Flagga { $number }
+actions-flag-red = Röd
+actions-flag-orange = Orange
+actions-flag-green = Grön
+actions-flag-blue = Blå
+actions-flag-pink = Rosa
+actions-flag-turquoise = Turkos
+actions-flag-purple = Lila
+actions-set-flag = Sätt flagga
+actions-nothing-to-undo = Inget att ångra
+actions-nothing-to-redo = Inget att göra om
+actions-auto-advance = Automatisk fortsättning
+actions-auto-advance-activated = Automatisk fortsättning aktiverad
+actions-auto-advance-deactivated = Automatisk fortsättning avaktiverad

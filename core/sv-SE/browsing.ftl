@@ -1,36 +1,40 @@
-browsing-add-tags = Lägg till etiketter
+browsing-add-notes = Lägg till noter...
 browsing-add-tags2 = Lägg till etiketter...
-browsing-added-today = Tillagt idag
-browsing-again-today = Igen idag
-browsing-all-card-types = Alla korttyper
+browsing-add-to-selected-notes = Lägg till markerade noter
+browsing-remove-from-selected-notes = Ta bort från markerade noter
+browsing-addon = Tillägg
 browsing-all-fields = Alla fält
 browsing-answer = Svar
-browsing-any-cards-mapped-to-nothing-will = Alla kort som inte är parade ihop med någonting kommer att raderas. Om en anteckning inte har några kvarvarande kort kommer den att tas bort. Är du säker att du vill fortsätta?
 browsing-any-flag = Alla märkningar
+browsing-average-ease = Genomsnittlig lätthet
+browsing-average-interval = Genomsnittligt intervall
+browsing-browser-appearance = Bläddrarutseende
 browsing-browser-options = Bläddraralternativ
 browsing-buried = Gömt
 browsing-card = Kort
+browsing-cards = Kort
 browsing-card-list = Kortlista
-browsing-card-state = Kortstatus
 browsing-cards-cant-be-manually-moved-into = Kort kan inte flyttas manuellt till en filtrerad kortlek.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } kort borttaget
+       *[other] { $count } kort borttagna
+    }
 browsing-change-deck = Byt kortlek
 browsing-change-deck2 = Byt kortlek...
 browsing-change-note-type = Ändra nottyp
 browsing-change-note-type2 = Ändra nottyp...
-browsing-change-to = Ändra { $val } till:
-browsing-clear-unused = Rensa oanvända
+browsing-change-notetype = Ändra nottyp
 browsing-clear-unused-tags = Rensa oanvända etiketter
+browsing-confirm-saved-search-overwrite = En sparad sökning med namnet { $name } finns redan. Vill du skriva över den?
 browsing-created = Skapad
 browsing-current-deck = Aktuell kortlek
 browsing-current-note-type = Aktuell nottyp:
 browsing-delete-notes = Ta bort noter
-browsing-delete-tags = Ta bort etiketter
 browsing-duplicate = dublett
 browsing-ease = Inlärningsgrad
-browsing-end = Slut
 browsing-enter-tags-to-add = Skriv in etiketter att lägga till:
 browsing-enter-tags-to-delete = Skriv in vilka etiketter som skall tas bort
-browsing-filter = Filtrera...
 browsing-filtered = (filtrerad)
 browsing-find = <b>Sök</b>:
 browsing-find-and-replace = Sök och ersätt
@@ -40,7 +44,6 @@ browsing-flag = Märk
 browsing-font = <b>Typsnitt</b>:
 browsing-font-size = <b>Typsnittsstorlek</b>:
 browsing-found-as-across-bs = Hittade { $part } i { $whole }.
-browsing-home = Hem
 browsing-ignore-case = Ignorera skiftläge
 browsing-in = <b>I</b>:
 browsing-interval = Intervall
@@ -53,45 +56,48 @@ browsing-move-cards-to-deck = Flytta kort till kortlek:
 browsing-new = (ny)
 browsing-new-note-type = Ny nottyp:
 browsing-no-flag = Ingen märkning
+browsing-no-selection = Inga kort eller noter markerade.
 browsing-note = Not
-browsing-notes-tagged = Noter har taggats.
-browsing-nothing = Ingenting
-browsing-only-new-cards-can-be-repositioned = Endast nya kort kan positioneras om
+browsing-notes = Noter
+browsing-optional-filter = Valfritt filter:
 browsing-override-back-template = Åsidosätt mall för baksida.
 browsing-override-font = Åsidosätt typsnitt:
 browsing-override-front-template = Åsidosätt mall för framsida:
-browsing-place-at-end-of-new-card = Placera i slutet av kön med nya kort
-browsing-place-in-review-queue-with-interval = Placera i kön för repetitioner med intervall mellan:
 browsing-please-give-your-filter-a-name = Ge ditt filter ett namn:
-browsing-please-select-cards-from-only-one = Välj kort från endast enda nottyp.
 browsing-preview-selected-card = Förhandsgranska valt kort ({ $val })
 browsing-question = Fråga
+browsing-queue-bottom = Köbotten: { $val }
+browsing-queue-top = Kötopp: { $val }
 browsing-randomize-order = Slumpa ordning
-browsing-remove-current-filter = Ta bort aktuellt filter...
-browsing-remove-from-your-saved-searches = Ta bort { $val } från dina sparade sökningar?
 browsing-remove-tags = Ta bort etiketter...
 browsing-replace-with = <b>Ersätt med</b>:
 browsing-reposition = Positionera om...
 browsing-reposition-new-cards = Positionera om nya kort
 browsing-reschedule = Schemalägg igen
-browsing-save-current-filter = Spara aktuellt filter...
+browsing-search-bar-hint = Sök kort/noter (skriv text, sedan tryck Enter)
 browsing-search-in = Sök i:
 browsing-search-within-formatting-slow = Sök inom formatering (långsamt)
+browsing-selected-notes-only = Endast markerade noter
+browsing-shift-position-of-existing-cards = Skifta positionen av befintliga kort
 browsing-sidebar = Sidopanel
+browsing-sidebar-filter = Sidofältsfilter
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sorteringsfält
 browsing-sorting-on-this-column-is-not = Den här kolumnen går inte att sortera efter. Välj en annan.
 browsing-start-position = Startposition:
 browsing-step = Steg:
-browsing-studied-today = Studerat idag
 browsing-suspended = Uteslutet
 browsing-tag-duplicates = Tagga dubletter
+browsing-tag-rename-warning-empty = Du kan inte döpa om en tagg som är utan noter.
 browsing-target-field = Målfält:
-browsing-today = Idag
+browsing-toggle-bury = Växla dold
+browsing-toggle-showing-cards-notes = Växla kort/noter
 browsing-toggle-mark = Växla markerade
 browsing-toggle-suspend = Ändra status för uteslutning
 browsing-treat-input-as-regular-expression = Behandla inmatning som ett reguljärt uttryck
-browsing-type-here-to-search = <skriv här för att söka; tryck enter för att visa aktuell kortlek>
+browsing-update-saved-search = Uppdatera med nuvarande sökning
 browsing-whole-collection = Hela samlingen
+browsing-window-title-notes = Bläddra ({ $selected } av { $total } noter markerade)
 browsing-you-must-have-at-least-one = Du måste ha minst en kolumn.
 browsing-group =
     { $count ->
@@ -103,14 +109,66 @@ browsing-note-count =
         [one] { $count } not
        *[other] { $count } noter
     }
-browsing-note-deleted =
+browsing-notes-updated =
     { $count ->
-        [one] { $count } not raderad.
-       *[other] { $count } noter raderade.
+        [one] { $count } not uppdaterad.
+       *[other] { $count } noter uppdaterade.
     }
-browsing-selected =
+browsing-cards-updated =
     { $count ->
-        [one] { $count } vald
-       *[other] { $count } valda
+        [one] { $count } kort uppdaterat.
+       *[other] { $count } kort uppdaterade.
+    }
+browsing-window-title = Bläddra ({ $selected } av { $total } kort markerade)
+browsing-sidebar-expand = Expandera
+browsing-sidebar-collapse = Minimera
+browsing-sidebar-expand-children = Expandera barn
+browsing-sidebar-collapse-children = Minimera barn
+browsing-sidebar-decks = Kortlekar
+browsing-sidebar-tags = Taggar
+browsing-sidebar-notetypes = Nottyper
+browsing-sidebar-saved-searches = Sparade sökningar
+browsing-sidebar-save-current-search = Spara nuvarande sökning
+browsing-sidebar-card-state = Kortstatus
+browsing-sidebar-flags = Flaggor
+browsing-today = Idag
+browsing-tooltip-card-modified = Senaste gången ändringar gjordes till ett kort, inklusive repetitioner, flaggor och kortleksändringar
+browsing-tooltip-note-modified = Senaste gången ändringar gjordes till en not, vanligtvis fältinnehåll eller taggändringar
+browsing-tooltip-card = Namnet på ett korts kortmall
+browsing-tooltip-cards = Antalet kort en not har
+browsing-tooltip-notetype = Namnet på en nots nottyp
+browsing-tooltip-question = Framsidan på ett kort, anpassningsbar i kortmallsredigeraren
+browsing-tooltip-answer = Baksidan på ett kort, anpassningsbar i kortmallsredigeraren
+browsing-studied-today = Studerat idag
+browsing-added-today = Tillagt idag
+browsing-again-today = Igen idag
+browsing-edited-today = Redigerade
+browsing-sidebar-first-review = Första repetitionen
+browsing-sidebar-rescheduled = Schemalagd igen
+browsing-sidebar-due-today = Aktuella
+browsing-sidebar-untagged = Ej taggad
+browsing-sidebar-overdue = Förfallna
+browsing-row-deleted = (borttagen)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Tog bort { $count } oanvänd tagg.
+       *[other] Tog bort { $count } oanvända taggar.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Ändrade positionen av { $count } nya kort.
+       *[other] Ändrade positionen av { $count } nya kort.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Bytte namn på { $count } kortlek.
+       *[other] Bytte namn på { $count } kortlekar.
     }
 browsing-sidebar-card-state-review = Repetera
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Var god döp om den befintliga Anpassade studier-kortleken först.
 custom-study-all-cards-in-random-order-dont = Alla kort i slumpmässig ordning ( ingen omschemaläggning)
 custom-study-all-review-cards-in-random-order = Alla repetitionskort i slumpmässig ordning
 custom-study-cards = kort
@@ -9,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Öka gränsen för nya kort för i
 custom-study-increase-todays-new-card-limit-by = Öka gränsen för nya kort för idag med
 custom-study-increase-todays-review-card-limit = Öka gränsen för antalet repetitioner för idag
 custom-study-increase-todays-review-limit-by = Öka gränsen för antalet repetitioner för idag med
-custom-study-new-cards-in-deck-over-today = Nya kort i leken över dagens gräns: { $val }
 custom-study-new-cards-only = Endast nya kort
 custom-study-no-cards-matched-the-criteria-you = Inga kort matchade de kriterier du uppgav.
 custom-study-ok = ОК
@@ -24,3 +24,11 @@ custom-study-select = Välj
 custom-study-select-tags-to-exclude = Välj etiketter att exkludera:
 custom-study-selective-study = Selektiva studier
 custom-study-study-by-card-state-or-tag = Studera efter korttillstånd eller etikett
+custom-study-available-new-cards-2 = Tillgängliga nya kort: { $countString }
+custom-study-available-review-cards-2 = Tillgängliga repetitionskort: { $countString }
+custom-study-available-child-count = ({ $count } i underkortlekar)
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+custom-study-available-new-cards = Tillgängliga nya kort: { $count }
+custom-study-available-review-cards = Tillgängliga repetitionskort: { $count }
