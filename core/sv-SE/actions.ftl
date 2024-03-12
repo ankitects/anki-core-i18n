@@ -1,15 +1,20 @@
 actions-add = Lägg till
-actions-blue-flag = Blå märkning
+actions-all-selected = Alla markerade
+actions-any-selected = Alla markerade
 actions-cancel = Avbryt
 actions-choose = Välj
 actions-close = Stäng
+actions-discard = Kasta
 actions-copy = Kopiera
+actions-create-copy = Skapa kopia
 actions-custom-study = Anpassade studier
 actions-decks = Kortlekar
+actions-decrement-value = Minska värde
 actions-delete = Ta bort
 actions-export = Exportera
-actions-green-flag = Grön märkning
+actions-filter = Filter
 actions-help = Hjälp
+actions-increment-value = Öka värde
 actions-import = Importera
 actions-manage = Hantera...
 actions-name = Namn:
@@ -19,12 +24,20 @@ actions-options = Alternativ
 actions-options-for = Alternativ för { $val }
 actions-preview = Förhandsvisa
 actions-rebuild = Återskapa
-actions-red-flag = Röd märkning
 actions-rename = Byt namn
 actions-rename-deck = Byt namn på kortlek
+actions-rename-tag = Byt namn på tagg
+actions-rename-with-parents = Byt namn med föräldrar
+actions-remove-tag = Ta bort tagg
 actions-replay-audio = Spela upp ljud igen
 actions-reposition = Positionera om
 actions-save = Spara
 actions-search = Sök
+actions-select = Välj
 actions-shortcut-key = Genväg: { $val }
 actions-suspend-card = Uteslut kort
+actions-set-due-date = Sätt förfallodatum
+actions-answer-card = Svarskort
+
+## Flags
+
