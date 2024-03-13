@@ -11,6 +11,7 @@ card-stats-new-card-position = Позиція
 card-stats-card-template = Тип картки
 card-stats-note-type = Тип нотаток
 card-stats-deck-name = Колода
+card-stats-preset = Конфігурація
 card-stats-note-id = Індекс нотатки
 card-stats-card-id = Індекс картки
 card-stats-review-log-rating = Рейтинг
@@ -24,7 +25,9 @@ card-stats-review-log-type-filtered = Відфільтровані
 card-stats-review-log-type-manual = Посібник
 card-stats-no-card = (Нема карток для показу.)
 card-stats-custom-data = Спеціальні дані
+card-stats-fsrs-stability = Стабільність
 card-stats-fsrs-difficulty = Складність
+card-stats-fsrs-retrievability = Повернення
 
 ## Window Titles
 

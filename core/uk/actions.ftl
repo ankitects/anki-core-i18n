@@ -4,6 +4,7 @@ actions-any-selected = Будь-які вибрані
 actions-cancel = Скасувати
 actions-choose = Вибрати
 actions-close = Закрити
+actions-discard = Відкинути
 actions-copy = Копіювати
 actions-create-copy = Створити копію
 actions-custom-study = Додаткове навчання
