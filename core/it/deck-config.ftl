@@ -33,8 +33,7 @@ deck-config-limit-new-bound-by-reviews =
     Se il limite di ripetizioni è stato raggiunto, non verrà mostrata alcuna nuova carta.
 deck-config-limit-interday-bound-by-reviews =
     Il limite di ripetizioni influisce anche sulle carte in apprendimento intergiornaliero.
-    Quando si applica il limite, vengono recuperate prima le carte in apprendimento intergiornaliero,
-    poi le carte da ripetere, e infine le carte nuove.
+    Quando si applica il limite, vengono recuperate prima le carte in apprendimento intergiornaliero e poi quelle da ripetere.
 deck-config-tab-description =
     - `Preimpostazione`: Il limite è condiviso da tutti i mazzi che usano questa preimpostazione.
     - `Questo Mazzo`: Il limite è specifico per questo mazzo.
@@ -429,8 +428,8 @@ deck-config-answer-good = Rispondi Normale
 deck-config-bury-siblings = Seppellisci carte sorelle
 deck-config-do-not-bury = Non seppellire carte sorelle
 deck-config-bury-if-new = Seppellisci se nuove
-deck-config-bury-if-new-or-review = Seppellisci se nuove o da ripetere
-deck-config-bury-if-new-review-or-interday = Seppellisci se nuove, da ripetere, o in apprendimento intergiornaliero
+deck-config-bury-if-new-or-review = Seppellisci se nuove o da ripassare
+deck-config-bury-if-new-review-or-interday = Seppellisci se nuove, da ripassare, o in apprendimento intergiornaliero
 deck-config-bury-tooltip =
     La carte sorelle sono altre carte appartenenti alla stessa nota (es. carte fronte→retro e retro→fronte, 
     oppure altre cancellazioni cloze dallo stesso testo).
