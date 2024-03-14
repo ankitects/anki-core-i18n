@@ -1,14 +1,24 @@
+notetypes-notetype = Nottyp
+
+## Default field names in newly created note types
+
 notetypes-front-field = Framsida
 notetypes-back-field = Baksida
 notetypes-add-reverse-field = Lägg till Omvänt
 notetypes-text-field = Text
+
+## Default note type names
+
 notetypes-basic-name = Grundläggande
 notetypes-basic-reversed-name = Bas (och omvänt kort)
 notetypes-basic-optional-reversed-name = Bas (valbart omvänt kort)
-notetypes-cloze-name = Lucktext
 notetypes-basic-type-answer-name = Bas (skriv in svaret)
-notetypes-card-2-name = Kort 2
+notetypes-cloze-name = Lucktext
+
+## Default card template names
+
 notetypes-card-1-name = Kort 1
+notetypes-card-2-name = Kort 2
 notetypes-add = Lägg till: { $val }
 notetypes-add-note-type = Lägg till nottyp
 notetypes-cards = Kort...
@@ -24,3 +34,12 @@ notetypes-note-types = Nottyper
 notetypes-options = Alternativ...
 notetypes-please-add-another-note-type-first = Lägg till en annan nottyp först.
 notetypes-type = Typ
+
+## Image Occlusion
+
+notetypes-image = Bild
+notetypes-comments-field = Kommentarer
+notetypes-hide-all-guess-one = Dölj alla, gissa en
+notetypes-hide-one-guess-one = Dölj alla, gissa en
+notetypes-io-select-image = Välj bild
+notetypes-io-paste-image-from-clipboard = Infoga bild från urklipp
