@@ -16,14 +16,23 @@ preferences-please-restart-anki-to-complete-language = Starta om Anki för att s
 preferences-preferences = Inställningar
 preferences-scheduling = Schemalägg igen
 preferences-show-next-review-time-above-answer = Visa ny repetitionstid ovanför svarsknapparna
+preferences-show-remaining-card-count = Visa antal återstående kort
 preferences-some-settings-will-take-effect-after = Vissa inställningar blir aktiva först efter att du startat om Anki.
 preferences-tab-synchronisation = Synkronisering
 preferences-synchronize-audio-and-images-too = Synkronisera även ljud och bilder
 preferences-timebox-time-limit = Tidsgräns för tidsfönster
 preferences-when-adding-default-to-current-deck = När du lägger till, använd nuvarande kortlek som förval
+preferences-default-search-text-example = t.ex. 'deck:current '
+preferences-theme = Tema
 preferences-theme-light = Ljust
 preferences-theme-dark = Mörkt
+preferences-always = Alltid
+preferences-full-screen-only = Enbart fullskärmsläge
+preferences-general = Allmänt
+preferences-account = AnkiWeb-konto
+preferences-import-export = Importera/Exportera
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Grundläggande
+preferences-media = Media
