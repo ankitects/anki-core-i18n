@@ -310,17 +310,18 @@ deck-config-updating-cards = Atualizando cartões: { $current_cards_count }/{ $t
 deck-config-invalid-weights = Os parâmetros devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
 deck-config-not-enough-history = A quantidade de revisões históricas é insuficiente para executar esta operação.
 deck-config-unable-to-determine-desired-retention = Não é possível determinar uma retenção ótima.
-deck-config-must-have-1000-reviews =
+deck-config-must-have-400-reviews =
     { $count ->
-        [one] Apenas { $count } revisão foi encontrada.
-       *[other] Apenas { $count } revisões foram encontradas.
-    }Você deve ter pelo menos 1000 revisões para gerar parâmetros personalizados.
+        [one] Apenas { $count } revisão foi encontrada. Você deve ter pelo menos 400 revisões para esta operação.
+       *[other] Apenas { $count } revisões foram encontradas. Você deve ter pelo menos 400 revisões para esta operação.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parâmetros do modelo
 deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
 deck-config-compute-optimal-retention = Calcular retenção ótima
 deck-config-optimize-button = Otimizar
 deck-config-compute-button = Computar
+deck-config-ignore-before = Ignorar revisões antes de
 deck-config-optimize-all-tip = Você pode otimizar todas as predefinições de uma só vez usando o botão no topo.
 deck-config-evaluate-button = Avaliar
 deck-config-desired-retention = Retenção desejada
@@ -367,6 +368,9 @@ deck-config-reschedule-cards-warning =
     
     Use esta opção com moderação, pois ela poderá adicionar uma entrada de revisão a cada um
     dos seus cartões, o que poderá resultar no aumento do volume da sua coleção de cartões
+deck-config-ignore-before-tooltip =
+    Se definido, revisões anteriores à data fornecida serão ignoradas ao otimizar e avaliar os parâmetros do FSRS.
+    Isso pode ser útil se você importou os dados de agendamento de outra pessoa, ou mudou a forma como usa os botões de resposta.
 deck-config-compute-optimal-weights-tooltip =
     Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,
     e gerar automaticamente parâmetros que são ótimos para sua memória e o conteúdo que você está estudando.
@@ -396,6 +400,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = Otimizando predefinição { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS deve ser ativado primeiro.
+deck-config-fsrs-params-optimal = Os parâmetros do FSRS parecem estar otimizados no momento.
 deck-config-wait-for-audio = Esperando pelo Áudio
 deck-config-show-reminder = Mostrar lembrete
 deck-config-answer-again = Responder Novamente

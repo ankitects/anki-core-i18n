@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = arquivos .anki são de uma versão muito 
 importing-anki2-files-are-not-directly-importable = arquivos .anki2 não são diretamente importáveis - por favor, ao invés disso, importe o arquivo .apkg ou .zip que você recebeu
 importing-appeared-twice-in-file = Aparece 2 vezes no arquivo: { $val }
 importing-by-default-anki-will-detect-the = Por padrão, o Anki detecta o caractere entre os campos, como um tab, vírgula, etc. Se o Anki estiver detectando incorretamente, você pode digitá-lo aqui. Use \t para representar tab.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Tipos de nota Cloze não podem ser mesclados com tipos de nota regulares.
+    Você ainda pode importar o arquivo com '{ importing-merge-notetypes }' desativado.
 importing-change = Alterar
 importing-colon = Dois pontos
 importing-comma = Vírgula

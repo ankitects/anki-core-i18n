@@ -97,7 +97,7 @@ statistics-card-stability-subtitle = Atraso previsto em que você tem 90% de cha
 statistics-average-stability = Estabilidade média
 statistics-card-retrievability-title = Recuperabilidade
 statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente o cartão aparecerá.
-statistics-card-difficulty-subtitle = Quanto maior a dificuldade, mais difícil é lembrar.
+statistics-card-difficulty-subtitle2 = Quanto maior a dificuldade, mais lento será o aumento da estabilidade.
 statistics-retrievability-subtitle = Quão provável você é de lembrar.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =

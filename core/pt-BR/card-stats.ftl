@@ -11,6 +11,7 @@ card-stats-new-card-position = Posição
 card-stats-card-template = Tipo do Cartão
 card-stats-note-type = Tipo de Nota
 card-stats-deck-name = Baralho
+card-stats-preset = Predefinição
 card-stats-note-id = ID nota
 card-stats-card-id = ID do Cartão
 card-stats-review-log-rating = Classificação
