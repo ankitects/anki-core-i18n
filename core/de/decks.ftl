@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = Neuen Stapel hinzufügen (Strg+N)
 decks-build = Erstellen
 decks-cards-selected-by = Karten, ausgewählt nach
 decks-create-deck = Stapel erstellen
+decks_create_even_if_empty = Diesen Stapel erstellen/aktualisieren, auch wenn er leer ist
 decks-custom-steps-in-minutes = Benutzerdefinierte Lernstufen (in Minuten)
 decks-deck = Stapel
 decks-decreasing-intervals = Intervall (absteigend)
@@ -35,3 +36,4 @@ decks-unmovable-cards = Alle ausgeschlossenen Karten anzeigen
 decks-learn-header = Lernen
 # The count of cards waiting to be reviewed
 decks-review-header = Fällig
+decks-zero-minutes-hint = (0 = lgt Karte zurück auf den urspünglichen Stapel)

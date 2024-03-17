@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] { $count } Karte gelöscht.
        *[other] { $count } Karten gelöscht.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] Karten von
+       *[other] gelöscht.
+    }
 browsing-change-deck = Verschieben
 browsing-change-deck2 = In anderen Stapel verschieben…
 browsing-change-note-type = Notiztyp ändern
@@ -81,6 +86,7 @@ browsing-selected-notes-only = Nur ausgewählte Notizen
 browsing-shift-position-of-existing-cards = Position existierender Karten verändern
 browsing-sidebar = Seitenleiste
 browsing-sidebar-filter = Seitenleiste-Filter
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sortierfeld
 browsing-sorting-on-this-column-is-not = Nach dieser Spalte kann nicht sortiert werden. Bitte eine andere Spalte auswählen.
 browsing-start-position = Anfangsposition:
@@ -163,6 +169,7 @@ browsing-reparented-decks =
         [one] { $count } Stapel umbenannt.
        *[other] { $count } Stapel umbenannt.
     }
+browsing-sidebar-card-state-review = Wiederholen
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -170,4 +177,3 @@ browsing-reparented-decks =
 browsing-card-initial = K
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-sidebar-card-state-review = Wiederholen

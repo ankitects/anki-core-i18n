@@ -11,6 +11,7 @@ card-stats-new-card-position = Position
 card-stats-card-template = Kartentyp
 card-stats-note-type = Notiztyp
 card-stats-deck-name = Stapel
+card-stats-preset = Vorgabe
 card-stats-note-id = Notiz-ID
 card-stats-card-id = Karten-ID
 card-stats-review-log-rating = Wertung
