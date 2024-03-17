@@ -164,7 +164,7 @@ browsing-reparented-decks =
         [one] Rinominato { $count } mazzo.
        *[other] Rinominati { $count } mazzi.
     }
-browsing-sidebar-card-state-review = Ripetizione
+browsing-sidebar-card-state-review = Ripasso
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

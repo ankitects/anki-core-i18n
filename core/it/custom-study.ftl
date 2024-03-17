@@ -25,10 +25,10 @@ custom-study-select-tags-to-exclude = Seleziona le etichette da escludere:
 custom-study-selective-study = Studio selettivo
 custom-study-study-by-card-state-or-tag = Studia per stato delle carte o etichetta
 custom-study-available-new-cards-2 = Carte nuove disponibili: { $countString }
-custom-study-available-review-cards-2 = Carte da ripassare disponibili: { $countString }
+custom-study-available-review-cards-2 = Carte di ripasso disponibili: { $countString }
 custom-study-available-child-count = ({ $count } nei mazzi figli)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Carte nuove disponibili: { $count }
-custom-study-available-review-cards = Carte da ripassare disponibili: { $count }
+custom-study-available-review-cards = Carte di ripasso disponibili: { $count }

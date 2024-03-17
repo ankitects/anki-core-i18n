@@ -35,5 +35,5 @@ decks-filtered-deck-search-empty = Nessuna carta corrisponde ai criteri di ricer
 decks-unmovable-cards = Mostra le carte escluse
 decks-learn-header = Impara
 # The count of cards waiting to be reviewed
-decks-review-header = Programmate
+decks-review-header = Ripasso
 decks-zero-minutes-hint = (0 = riporta la carta al mazzo originale)

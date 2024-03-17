@@ -69,7 +69,7 @@ deck-config-learning-steps-tooltip =
     Uno o più intervalli, separati da spazi. Il primo intervallo viene usato
     quando viene premuto il pulsante `Ripeti` su una nuova carta, di default 1 minuto.
     Il pulsante `Normale` fa avanzare la carta al passo successivo, di default 10 minuti.
-    Una volta che tutti i passi sono stati completati, la carta diventa una carta da ripassare,
+    Una volta che tutti i passi sono stati completati, la carta diventa una carta di ripasso,
     e verrà mostrata in un giorno differente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Il numero di giorni da attendere prima di mostrare nuovamente una carta, dopo che il pulsante "Normale"
@@ -91,13 +91,13 @@ deck-config-new-insertion-order-random-with-v3 = Con il pianificatore V3, è meg
 deck-config-relearning-steps = Passi di riapprendimento
 deck-config-relearning-steps-tooltip =
     Zero o più intervalli, separati da spazi. Per impostazione predefinita, premendo il pulsante `Ripeti`
-    su una carta da ripassare la mostrerà nuovamente dopo 10 minuti. Se nessun intervallo
+    su una carta di ripasso la mostrerà nuovamente dopo 10 minuti. Se nessun intervallo
     è specificato, l'intervallo della carta verrà cambiato, senza entrare
     nella fase di riapprendimento. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    Il numero di volte che `Ripeti` deve essere premuto su una carta da ripassare prima
+    Il numero di volte che `Ripeti` deve essere premuto su una carta di ripasso prima
     che questa venga contrassegnata come sanguisuga. Le sanguisughe sono carte che richiedono molto
-    del proprio tempo, e quando una carta è contrassegnata come sanguisuga, è una buona idea riscriverla,
+    del proprio tempo, e quando una carta è contrassegnata come tale, è una buona idea riscriverla,
     cancellarla o pensare ad un espediente mnemonico per ricordarla.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -110,7 +110,7 @@ deck-config-leech-action-tooltip =
 
 deck-config-bury-title = Sepoltura
 deck-config-bury-new-siblings = Seppellisci le nuove carte sorelle fino al giorno successivo
-deck-config-bury-review-siblings = Seppellisci le carte sorelle da ripassare fino al giorno successivo
+deck-config-bury-review-siblings = Seppellisci le carte sorelle di ripasso fino al giorno successivo
 deck-config-bury-interday-learning-siblings = Seppellisci le carte sorelle in apprendimento intergiornaliero
 deck-config-bury-new-tooltip =
     Scegli se altre `nuove` carte della stessa nota (es. carte invertite, cancellazioni cloze adiacenti)
@@ -170,18 +170,17 @@ deck-config-sort-order-random = Casuale
 deck-config-sort-order-template-then-gather = Tipo di carta
 deck-config-sort-order-gather = Ordine di recupero
 deck-config-new-review-priority = Ordine nuove/da ripassare
-deck-config-new-review-priority-tooltip = Determina quando mostrare le nuove carte in relazione a quelle da ripassare.
+deck-config-new-review-priority-tooltip = Determina quando mostrare le nuove carte in relazione a quelle di ripasso.
 deck-config-interday-step-priority = Ordine apprendimento intergiornaliero/ripetizioni
 deck-config-interday-step-priority-tooltip =
     Determina quando mostrare le carte in (re)apprendimento che superano la soglia di un giorno.
     
     Il limite di ripetizioni è sempre applicato prima alle carte in apprendimento intergiornaliero
-    e solo poi a quelle da ripetere. Questa opzione determinerà l'ordine secondo il quale le carte recuperate
-    verranno mostrate, ma le carte in apprendimento intergiornaliero sono sempre recuperate per prime.
-deck-config-review-mix-mix-with-reviews = Mischia con le carte da ripassare
-deck-config-review-mix-show-after-reviews = Mostra dopo le carte da ripassare
-deck-config-review-mix-show-before-reviews = Mostra prima delle carte da ripassare
-deck-config-review-sort-order = Ordine delle carte da ripassare
+    e solo poi a quelle da ripetere. Questa opzione determina l'ordine secondo il quale vengono mostrate le carte recuperate, ma le carte in apprendimento intergiornaliero sono sempre recuperate per prime.
+deck-config-review-mix-mix-with-reviews = Mischia con le carte di ripasso
+deck-config-review-mix-show-after-reviews = Mostra dopo le carte di ripasso
+deck-config-review-mix-show-before-reviews = Mostra prima delle carte di ripasso
+deck-config-review-sort-order = Ordine delle carte di ripasso
 deck-config-review-sort-order-tooltip =
     L'ordine predefinito dà priorità alle carte che sono in attesa da più tempo, così
     se hai una lista di carte arretrate, quella che sta aspettando da più tempo
@@ -244,7 +243,7 @@ deck-config-always-include-question-audio-tooltip =
 
 deck-config-advanced-title = Avanzato
 deck-config-maximum-interval-tooltip =
-    Il numero massimo di giorni di attesa per una carta da ripassare. Quando
+    Il numero massimo di giorni di attesa per una carta di ripasso. Quando
     le ripetizioni hanno raggiunto il limite, `Difficile`, `Normale`, `Facile` daranno tutti lo
     stesso intervallo di tempo. Quanto più breve è questo valore, tanto maggiore sarà il carico di lavoro.
 deck-config-starting-ease-tooltip =
@@ -428,8 +427,8 @@ deck-config-answer-good = Rispondi Normale
 deck-config-bury-siblings = Seppellisci carte sorelle
 deck-config-do-not-bury = Non seppellire carte sorelle
 deck-config-bury-if-new = Seppellisci se nuove
-deck-config-bury-if-new-or-review = Seppellisci se nuove o da ripassare
-deck-config-bury-if-new-review-or-interday = Seppellisci se nuove, da ripassare, o in apprendimento intergiornaliero
+deck-config-bury-if-new-or-review = Seppellisci se nuove o di ripasso
+deck-config-bury-if-new-review-or-interday = Seppellisci se nuove, di ripasso, o in apprendimento intergiornaliero
 deck-config-bury-tooltip =
     La carte sorelle sono altre carte appartenenti alla stessa nota (es. carte fronte→retro e retro→fronte, 
     oppure altre cancellazioni cloze dallo stesso testo).
