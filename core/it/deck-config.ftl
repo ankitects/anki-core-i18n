@@ -342,7 +342,7 @@ deck-config-get-params = Ottieni parametri
 deck-config-fsrs-on-all-clients =
     Assicurarsi che tutte le versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
     FSRS non funzionerà correttamente se una delle versioni utilizzate è più vecchia.
-deck-config-predicted-optimal-retention = Ritenzione ottimale prevista: { $num }
+deck-config-predicted-optimal-retention = Ritenzione ottimale stimata: { $num }
 deck-config-complete = { $num }% completo.
 deck-config-iterations = Iterazione: { $count }...
 deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
