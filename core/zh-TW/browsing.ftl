@@ -19,6 +19,7 @@ browsing-cards-deleted =
     { $count ->
        *[other] 已刪除 { $count } 張卡片。
     }
+browsing-cards-deleted-with-deckname = 已刪除「{ $deck_name }」中的 { $count } 張卡片。
 browsing-change-deck = 更改牌組
 browsing-change-deck2 = 更改牌組...
 browsing-change-note-type = 更改筆記類型
@@ -80,6 +81,7 @@ browsing-selected-notes-only = 僅選取的筆記
 browsing-shift-position-of-existing-cards = 調整現有卡片的順序
 browsing-sidebar = 側邊欄
 browsing-sidebar-filter = 側邊欄篩選器
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = 排序欄位
 browsing-sorting-on-this-column-is-not = 不支援排序此行。請選擇另一行。
 browsing-start-position = 起始順序：
