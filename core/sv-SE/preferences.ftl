@@ -28,6 +28,7 @@ preferences-theme-light = Ljust
 preferences-theme-dark = Mörkt
 preferences-always = Alltid
 preferences-full-screen-only = Enbart fullskärmsläge
+preferences-appearance = Utseende
 preferences-general = Allmänt
 preferences-account = AnkiWeb-konto
 preferences-import-export = Importera/Exportera
