@@ -36,6 +36,10 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Par défaut, la limite de révisions s'applique aussi aux nouvelles cartes, et aucune nouvelle
     carte ne sera affichée si la limite de révisions a été atteinte. Si cette option est activée, les nouvelles
     cartes seront affichées peu importe la limite de révision.
+deck-config-apply-all-parent-limits-tooltip =
+    Par défaut, les limites commencent du paquet que vous sélectionnez. Si cette option est activée, les limites vont 
+    commencer du paquet au plus haut niveau, ce qui peut être utile si vous souhaitez étudier des sous-paquets 
+    individuellement, tout en imposant une limite totale de cartes par jour.
 deck-config-affects-entire-collection = Affecte toute la collection.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -104,6 +108,7 @@ deck-config-new-gather-priority-tooltip-2 =
     `Notes aléatoires` : rassemble les cartes de notes choisies au hasard. Si l'enfouissement des cartes sœurs est désactivé, cela permet à toutes les cartes d'une même note d'apparaître dans une session (par ex. à la fois une carte recto->verso et une carte verso->recto)
     `Cartes aléatoires` : rassemble les cartes complètement aléatoirement
 deck-config-new-gather-priority-deck = Paquet
+deck-config-new-gather-priority-deck-then-random-notes = Paquet puis notes aléatoires
 deck-config-new-gather-priority-position-lowest-first = Ordre croissant
 deck-config-new-gather-priority-position-highest-first = Ordre décroissant
 deck-config-new-gather-priority-random-notes = Notes aléatoires
@@ -167,9 +172,20 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Dans l'écran de révision, affichez une minuterie qui compte le nombre de secondes que vous
     passez pour revoir chaque carte.
+deck-config-stop-timer-on-answer = Arrêter le chronomètre avec la réponse
+deck-config-stop-timer-on-answer-tooltip =
+    S'il faut arrêter le chronomètre quand réponse est révélée.
+    Cela n'affecte pas les statistiques.
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Temps d'affichage de la question en secondes
+deck-config-seconds-to-show-question-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
+deck-config-seconds-to-show-answer = Temps d'affichage de la réponse en secondes
+deck-config-seconds-to-show-answer-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
+deck-config-answer-action = Action de la réponse
+deck-config-answer-action-tooltip = L'action à réaliser sur la carte actuelle avant de continuer automatiquement vers la prochaine.
+deck-config-wait-for-audio-tooltip = Attendre la fin de l'audio avant de révéler automatiquement la réponse ou la prochaine question
 
 ## Audio section
 
@@ -218,6 +234,7 @@ deck-config-confirm-remove-name = Supprimer { $name } ?
 
 deck-config-save-button = Sauvegarder
 deck-config-save-to-all-subdecks = Sauvegarder pour tout les sous-paquets
+deck-config-save-and-optimize = Optimiser tous les préréglages
 deck-config-revert-button-tooltip = Restaurer les paramètres par défauts.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -251,12 +268,39 @@ deck-config-which-deck = Quel paquet voulez vous ?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Mise à jour des cartes : { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Les paramètres doivent être soit laissés en blanc pour utiliser les valeurs par défaut, soit être 17 nombres séparés par des virgules.
 deck-config-not-enough-history = L'historique des révisions est insuffisant pour effectuer cette opération.
+deck-config-unable-to-determine-desired-retention = Impossible de déterminer la rétention optimale.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Seulement { $count } révision a été trouvée. Vous devez avoir au moins 400 révisions pour cette opération.
+       *[other] Seulement { $count } révisions ont été trouvées. Vous devez avoir au moins 400 révisions pour cette opération.
+    }
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Paramètres du FSRS
+deck-config-compute-optimal-weights = Optimiser les paramètres du FSRS
+deck-config-compute-optimal-retention = Calculer la rétention optimale
+deck-config-optimize-button = Optimiser
 deck-config-compute-button = Calculer
+deck-config-ignore-before = Ignorer les révisions avant
+deck-config-optimize-all-tip =
+    Vous pouvez optimiser tous les préréglages en même temps en utilisant le bouton déroulant
+    à côté de "Sauvegarder".
+deck-config-evaluate-button = Évaluer
 deck-config-desired-retention = Rétention souhaitée
+deck-config-sm2-retention = Rétention SM2
 deck-config-smaller-is-better = Les petits nombres indiquent de meilleures estimations de la mémoire.
-deck-config-wait-for-audio = Veuillez attendre l'audio
+deck-config-steps-too-large-for-fsrs = Lorsque le FSRS est activé, les étapes d'1 jour ou plus ne sont pas recommandées.
+deck-config-get-params = Obtenir les paramètres
+deck-config-fsrs-on-all-clients =
+    Veuillez vérifier que tous vos clients Anki soient Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. La FSRS
+    ne fonctionnera pas correctement si l'un de vos clients est plus ancien.
+deck-config-estimated-retention = Rétention estimée : { $num }
+deck-config-complete = { $num }% complété.
+deck-config-iterations = Itération : { $count }...
+deck-config-reschedule-cards-on-change = Replanifier les cartes lors d'un changement
+deck-config-wait-for-audio = Attendre l'audio
 deck-config-show-reminder = Afficher le rappel
 deck-config-answer-again = Réponse à revoir
 deck-config-answer-hard = Réponse difficile

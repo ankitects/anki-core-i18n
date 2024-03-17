@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = Ajouter (raccourci : Ctrl+Entrée)
 adding-added = Ajouté
-adding-close-and-lose-current-input = Fermer en perdant la saisie en cours ?
+adding-discard-current-input = Abandonner la saisie actuelle ?
+adding-keep-editing = Continuer la saisie
 adding-edit = Modifier « { $val } »
 adding-history = Historique
 adding-note-deleted = (Note effacée)

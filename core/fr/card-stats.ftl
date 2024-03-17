@@ -11,6 +11,7 @@ card-stats-new-card-position = Position
 card-stats-card-template = Type de carte
 card-stats-note-type = Type de note
 card-stats-deck-name = Paquet
+card-stats-preset = Préréglage
 card-stats-note-id = Identifiant note
 card-stats-card-id = Identifiant carte
 card-stats-review-log-rating = Évaluation
@@ -24,6 +25,9 @@ card-stats-review-log-type-filtered = Filtré
 card-stats-review-log-type-manual = manuel
 card-stats-no-card = (Pas de carte à afficher.)
 card-stats-custom-data = Données Personnalisées
+card-stats-fsrs-stability = Stabilité
+card-stats-fsrs-difficulty = Difficulté
+card-stats-fsrs-retrievability = Retrouvabilité
 
 ## Window Titles
 

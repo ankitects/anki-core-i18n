@@ -4,6 +4,7 @@ actions-any-selected = Toute sélection
 actions-cancel = Annuler
 actions-choose = Choisir
 actions-close = Fermer
+actions-discard = Abandonner
 actions-copy = Copier
 actions-create-copy = Créer une copie
 actions-custom-study = Révisions personnalisées
