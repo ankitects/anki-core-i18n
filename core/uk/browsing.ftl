@@ -21,6 +21,12 @@ browsing-cards-deleted =
         [few] Видалено { $count } картки.
        *[other] Видалено { $count } карток.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } картку видалено з { $deck_name }.
+        [few] { $count } картки видалено з { $deck_name }.
+       *[many] { $count } карток видалено з { $deck_name }.
+    }
 browsing-change-deck = Змінити колоду
 browsing-change-deck2 = Змінити колоду...
 browsing-change-note-type = Змінити тип нотатки
@@ -82,6 +88,7 @@ browsing-selected-notes-only = Лише вибрані нотатки
 browsing-shift-position-of-existing-cards = Зсунути розташування наявних карток
 browsing-sidebar = Бічна панель
 browsing-sidebar-filter = Фільтр бокової панелі
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Поле сортування
 browsing-sorting-on-this-column-is-not = Сортування в цій колонці не підтримується. Будь ласка, оберіть іншу.
 browsing-start-position = Початкова позиція:
