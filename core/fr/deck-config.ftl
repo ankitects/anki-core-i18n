@@ -300,6 +300,15 @@ deck-config-estimated-retention = Rétention estimée : { $num }
 deck-config-complete = { $num }% complété.
 deck-config-iterations = Itération : { $count }...
 deck-config-reschedule-cards-on-change = Replanifier les cartes lors d'un changement
+deck-config-fsrs-tooltip =
+    Affecte toute la collection.
+    
+    Le Programmateur Gratuit de la Répétition Espacée (Free Spaced Repetition Scheduler FSRS) est une alternative au programmateur SuperMemo 2 (SM 2) natif d'Anki.
+    En déterminant déterminant plus précisément quand vous êtes susceptible d'oublier, il peut vous aider à vous souvenir
+    de plus de matière sur une même période de temps. Ce paramètre est partagé par tous les préréglages de paquets.
+    
+    Si vous avez déjà utilisé la version "planification personnalisée" du FSRS, veuillez faire en sorte
+    d'effacer toute saisie dans cette section avant d'activer cette option.
 deck-config-wait-for-audio = Attendre l'audio
 deck-config-show-reminder = Afficher le rappel
 deck-config-answer-again = Réponse à revoir
