@@ -21,6 +21,13 @@ browsing-cards-deleted =
         [few] { $count } karty odstraněny.
        *[other] { $count } karet odstraněno.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } karta odstraněna z { $deck_name }.
+        [few] { $count } karty odstraněny z { $deck_name }.
+        [many] { $count } karty odstraněna z { $deck_name }.
+       *[other] { $count } karet odstraněno z { $deck_name }.
+    }
 browsing-change-deck = Změnit balíček
 browsing-change-deck2 = Změnit balíček...
 browsing-change-note-type = Změň typ poznámky
@@ -82,6 +89,7 @@ browsing-selected-notes-only = Pouze vybrané poznámky
 browsing-shift-position-of-existing-cards = Změnit pozici existujících karet
 browsing-sidebar = Postranní panel
 browsing-sidebar-filter = Filtr postranního panelu
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Setřídit pole
 browsing-sorting-on-this-column-is-not = Třízení dle toho sloupce není podporováno. Vyberte prosím jiný.
 browsing-start-position = Počáteční pozice:
@@ -171,6 +179,7 @@ browsing-reparented-decks =
         [few] Přejmenovány { $count } balíčky.
        *[other] Přejmenováno { $count } balíčků.
     }
+browsing-sidebar-card-state-review = Opakování
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -178,4 +187,3 @@ browsing-reparented-decks =
 browsing-card-initial = K
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = P
-browsing-sidebar-card-state-review = Opakování
