@@ -49,8 +49,8 @@ statistics-in-time-span-years =
     }
 statistics-cards =
     { $cards ->
-        [one] { $cards } carte étudiée
-       *[other] { $cards } cartes étudiées
+        [one] { $cards } carte
+       *[other] { $cards } cartes
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
