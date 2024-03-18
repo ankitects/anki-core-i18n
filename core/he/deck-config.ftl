@@ -343,7 +343,7 @@ deck-config-get-params = קבל פרמטרים
 deck-config-fsrs-on-all-clients =
     אנא ודא שכל גרסאות Anki בכל המכשירים שלך הם Anki(Mobile) 23.10+ או AnkiDroid 2.17+. 
     FSRS לא יעבוד כראוי אם באחד מהמכשירים שלך אתה משתמש בAnki מתחת לגרסאות אלו.
-deck-config-estimated-retention = יכולת זכירה משוערת: { $num }
+deck-config-predicted-optimal-retention = תחלופה מיטבית חזויה: { $num }
 deck-config-complete = { $num } % הושלם.
 deck-config-iterations = ביצוע: { $count }...
 deck-config-reschedule-cards-on-change = תזמון מחדש של כרטיסים בשינוי

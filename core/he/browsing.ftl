@@ -20,6 +20,12 @@ browsing-cards-deleted =
         [one] כרטיס { $count } נמחק.
        *[other] { $count } כרטיסים נמחקו.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] קלף נמחק מהחפיסה { $deck_name }.
+        [two] שני קלפים נמחקו מהחפיסה { $deck_name }.
+       *[other] { $count } קלפים נמחקו מהחפיסה { $deck_name }.
+    }
 browsing-change-deck = שנה חפיסה
 browsing-change-deck2 = שנה חפיסה...
 browsing-change-note-type = שנה סוג רשומה
@@ -81,6 +87,7 @@ browsing-selected-notes-only = רשומות נבחרות בלבד
 browsing-shift-position-of-existing-cards = שינוי מיקום הכרטיסים הקיימים
 browsing-sidebar = סרגל צד
 browsing-sidebar-filter = מסנן סרגל צד
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = שדה מיון
 browsing-sorting-on-this-column-is-not = סדר בעמודה זו אינו נתמך. נסה בעמודה אחרת.
 browsing-start-position = נקודת התחלה:
@@ -163,6 +170,7 @@ browsing-reparented-decks =
         [one] השתנה השם של חפיסה { $count }.
        *[other] השתנה השם של { $count } חפיסות.
     }
+browsing-sidebar-card-state-review = חזרה
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -170,4 +178,3 @@ browsing-reparented-decks =
 browsing-card-initial = כ
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = ר
-browsing-sidebar-card-state-review = חזרה
