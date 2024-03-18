@@ -41,6 +41,8 @@ deck-config-daily-limits = Dagliga begränsningar
 
 ## Audio section
 
+deck-config-audio-title = Ljud
+deck-config-disable-autoplay = Spela inte ljud automatiskt
 
 ## Advanced section
 

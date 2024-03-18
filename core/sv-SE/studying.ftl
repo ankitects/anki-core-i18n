@@ -1,9 +1,10 @@
 studying-again = Igen
 studying-all-buried-cards = Alla gömda kort
+studying-audio-5s = Ljud -5s
+studying-audio-and5s = Ljud +5s
 studying-bury = Göm
 studying-bury-card = Göm kort
 studying-bury-note = Göm not
-studying-card-buried = Kortet är gömt.
 studying-card-suspended = Kort uteslutet.
 studying-card-was-a-leech = Kortet var en energislukare.
 studying-cards-will-be-automatically-returned-to = Korten kommer automatiskt att återföras till sina originalkortlekar efter att du repeterat dem.
@@ -21,8 +22,8 @@ studying-it-has-been-suspended = Det har uteslutits.
 studying-mark-note = Markera not
 studying-more = Mer
 studying-no-cards-are-due-yet = Inga kort i kö.
-studying-note-buried = Noten har gömts.
 studying-note-suspended = Not utesluten
+studying-pause-audio = Pausa ljud
 studying-please-run-toolsempty-cards = Vänligen kör Verktyg>Tomma kort
 studying-record-own-voice = Spela in din egen röst
 studying-replay-own-voice = Spela upp din egen röst igen
@@ -36,15 +37,13 @@ studying-to-review = Att repetera
 studying-type-answer-unknown-field = Skriv svar: okänt fält { $val }
 studying-unbury = Visa gömda
 studying-you-havent-recorded-your-voice-yet = Du har inte spelat in din röst ännu.
-studying-card-studied-in = { $count ->
-    [one] { $count } kort studerat i
-   *[other] { $count } kort studerade under
-  }
-studying-minute = { $count ->
-    [one] { $count } minut.
-   *[other] { $count } minuter.
-  }
-studying-note-and-its-card-deleted = { $count ->
-    [one] Not och dess { $count } kort togs bort.
-   *[other] Noter och dess { $count } kort togs bort.
-  }
+studying-card-studied-in =
+    { $count ->
+        [one] { $count } kort studerat i
+       *[other] { $count } kort studerade under
+    }
+studying-minute =
+    { $count ->
+        [one] { $count } minut.
+       *[other] { $count } minuter.
+    }
