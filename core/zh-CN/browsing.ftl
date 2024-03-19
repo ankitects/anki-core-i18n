@@ -19,6 +19,7 @@ browsing-cards-deleted =
     { $count ->
        *[other] { $count } 张卡片已删除。
     }
+browsing-cards-deleted-with-deckname = 已删除「{ $deck_name }」中的  { $count } 张卡片。
 browsing-change-deck = 更改所属牌组
 browsing-change-deck2 = 更改所属牌组…
 browsing-change-note-type = 更改笔记模板
@@ -80,6 +81,7 @@ browsing-selected-notes-only = 仅选中的笔记
 browsing-shift-position-of-existing-cards = 更改现有卡片的位置
 browsing-sidebar = 侧边栏
 browsing-sidebar-filter = 侧边栏筛选条件
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = 排序字段
 browsing-sorting-on-this-column-is-not = 不支持该列排序，请选择另一列。
 browsing-start-position = 开始位置：
@@ -155,6 +157,7 @@ browsing-reparented-decks =
     { $count ->
        *[other] 已重命名 { $count } 个牌组。
     }
+browsing-sidebar-card-state-review = 复习中
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -162,4 +165,3 @@ browsing-reparented-decks =
 browsing-card-initial = 卡片
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = 笔记
-browsing-sidebar-card-state-review = 复习中
