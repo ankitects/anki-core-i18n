@@ -79,6 +79,7 @@ editing-image-occlusion-delete = Suprimeix
 editing-image-occlusion-duplicate = Duplica
 editing-image-occlusion-group = Agrupa la selecció
 editing-image-occlusion-ungroup = Desagrupa la selecció
+editing-image-occlusion-select-all = Selecciona-ho tot
 editing-image-occlusion-alignment = Alineació
 editing-image-occlusion-align-left = Alinea a l’esquerra
 editing-image-occlusion-align-h-center = Alinea horitzontalment

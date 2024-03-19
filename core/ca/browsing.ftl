@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] S’ha suprimit una targeta.
        *[other] S’han suprimit { $count } targetes.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] S’ha suprimit una targeta de la baralla { $deck_name }.
+       *[other] S’han suprimit { $count } targetes de la baralla { $deck_name }.
+    }
 browsing-change-deck = Canvia de baralla
 browsing-change-deck2 = Canvia de baralla…
 browsing-change-note-type = Canvia el tipus de nota
@@ -81,6 +86,7 @@ browsing-selected-notes-only = Només les notes seleccionades
 browsing-shift-position-of-existing-cards = Canvia la posició de les targetes existents
 browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Filtre de la barra lateral
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Camp d’ordenació
 browsing-sorting-on-this-column-is-not = No és possible canviar l'ordre en aquesta columna; trieu-ne una altra.
 browsing-start-position = Posició inicial:

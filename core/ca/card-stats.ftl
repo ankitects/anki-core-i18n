@@ -11,6 +11,7 @@ card-stats-new-card-position = Posició
 card-stats-card-template = Tipus de targeta
 card-stats-note-type = Tipus de nota
 card-stats-deck-name = Baralla
+card-stats-preset = Prefixat
 card-stats-note-id = Identificador de la nota
 card-stats-card-id = Identificador de la targeta
 card-stats-review-log-rating = Valoració
