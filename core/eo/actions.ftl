@@ -39,6 +39,14 @@ actions-suspend-card = Daŭre kaŝi karton
 actions-set-due-date = Agordi limdaton
 actions-answer-card = Respondi al karto
 actions-unbury-unsuspend = Malkaŝi
+actions-add-deck = Aldoni kartaron
+actions-add-note = Aldoni noton
+actions-update-tag = Ĝisdatigi etikedon
+actions-update-note = Ĝisdatigi noton
+actions-update-card = Ĝisdatigi karton
+actions-update-deck = Ĝisdatigi kartaron
+actions-forget-card = Forgesi karton
+actions-build-filtered-deck = Kunmeti kartaron
 
 ## Flags
 
