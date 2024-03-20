@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] { $count } kortti poistettu.
        *[other] { $count } korttia poistettu.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } kortti poistettu pakasta { $deck_name }.
+       *[other] { $count } korttia poistettu pakasta { $deck_name }.
+    }
 browsing-change-deck = Vaihda pakkaa
 browsing-change-deck2 = Vaihda pakkaa...
 browsing-change-note-type = Vaihda muistiinpanotyyppiä
@@ -81,6 +86,7 @@ browsing-selected-notes-only = Vain valitut muistiinpanot
 browsing-shift-position-of-existing-cards = Vaihda olemassa olevien korttien sijaintia
 browsing-sidebar = Sivupalkki
 browsing-sidebar-filter = Sivupalkin suodatin
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Lajittelukenttä
 browsing-sorting-on-this-column-is-not = Lajittelu tämän sarakkeen mukaan ei ole mahdollista. Valitse toinen sarake.
 browsing-start-position = Aloitussijainti:
@@ -163,6 +169,7 @@ browsing-reparented-decks =
         [one] Nimettiin { $count } pakka uudelleen.
        *[other] Nimettiin { $count } pakkaa uudelleen.
     }
+browsing-sidebar-card-state-review = Kertaus
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -170,4 +177,3 @@ browsing-reparented-decks =
 browsing-card-initial = K
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = M
-browsing-sidebar-card-state-review = Kertaus
