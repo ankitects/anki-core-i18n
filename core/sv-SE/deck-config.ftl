@@ -32,6 +32,18 @@ deck-config-daily-limits = Dagliga begränsningar
 
 ## Ordering section
 
+deck-config-ordering-title = Visningsordning
+deck-config-new-gather-priority-deck = Kortlek
+deck-config-new-gather-priority-random-notes = Slumpmässiga noter
+deck-config-new-gather-priority-random-cards = Slumpmässiga kort
+deck-config-sort-order-random = Slumpmässigt
+deck-config-sort-order-template-then-gather = Korttyp
+deck-config-review-mix-show-after-reviews = Visa efter repetitioner
+deck-config-review-mix-show-before-reviews = Visa innan repetitioner
+deck-config-sort-order-ascending-ease = Ökande lätthet
+deck-config-sort-order-descending-ease = Minskande lätthet
+deck-config-sort-order-ascending-difficulty = Ökande svårighet
+deck-config-sort-order-descending-difficulty = Minskande svårighet
 
 ## Timer section
 
@@ -46,15 +58,21 @@ deck-config-disable-autoplay = Spela inte ljud automatiskt
 
 ## Advanced section
 
+deck-config-advanced-title = Avancerat
+deck-config-custom-scheduling = Anpassad schemaläggning
 
 ## Adding/renaming
 
+deck-config-name-prompt = Namn
 
 ## Removing
 
+deck-config-confirm-remove-name = Radera { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Spara
+deck-config-save-to-all-subdecks = Spara till alla underkortlekar
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
