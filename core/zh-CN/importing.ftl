@@ -41,7 +41,7 @@ importing-merge-notetypes-help =
     更改笔记模板的架构包括对「字段」或「模板」进行「增加」「移除」或「重排位置」操作。
     反例：对正面内容模板进行修改**不属于**更改笔记模板架构。
     
-    警告：这将需要进行单向同步，同时可能将现有笔记视为已被修改。
+    警告：这将需要进行强制单向同步，同时可能将现有笔记视为已被修改。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 牌组（*.db）
 importing-multicharacter-separators-are-not-supported-please = 不支持多分隔字符，请输入单个分隔字符。
 importing-notes-added-from-file = 从文件中添加的笔记：{ $val }

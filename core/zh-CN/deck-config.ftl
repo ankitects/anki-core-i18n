@@ -237,7 +237,7 @@ deck-config-clone-group = 复制预设配置
 
 deck-config-remove-group = 删除预设配置
 deck-config-will-require-full-sync =
-    此变更需单向强制同步。
+    此变更需强制单向同步。
     如有在其他设备上的变更尚未同步至此设备，请同步后再进行变更。
 deck-config-confirm-remove-name = 确定删除「{ $name }」吗？
 
