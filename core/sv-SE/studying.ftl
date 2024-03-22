@@ -7,6 +7,11 @@ studying-bury-card = Göm kort
 studying-bury-note = Göm not
 studying-card-suspended = Kort uteslutet.
 studying-card-was-a-leech = Kortet var en energislukare.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } kort gömt.
+       *[other] { $count } kort gömda.
+    }
 studying-cards-will-be-automatically-returned-to = Korten kommer automatiskt att återföras till sina originalkortlekar efter att du repeterat dem.
 studying-continue = Fortsätt
 studying-delete-note = Ta bort not
@@ -19,6 +24,7 @@ studying-flag-card = Märk kort
 studying-good = Bra
 studying-hard = Svårt
 studying-it-has-been-suspended = Det har uteslutits.
+studying-manually-buried-cards = Manuellt gömda kort
 studying-mark-note = Markera not
 studying-more = Mer
 studying-no-cards-are-due-yet = Inga kort i kö.
