@@ -22,6 +22,8 @@ decks-oldest-seen-first = Παλαιότερες εμφανίζονται πρώ
 decks-order-added = Σειρά που προστέθηκε
 decks-please-select-something = Παρακαλώ επιλέξτε κάτι.
 decks-random = Τυχαία
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Αναμονή για { $button }
 decks-reschedule-cards-based-on-my-answers = Επαναπρογραμματισμός καρτών βάσει των απαντήσεων μου σε αυτή την τράπουλα
 decks-study = Μελέτη
 decks-study-deck = Μελέτη τράπουλας

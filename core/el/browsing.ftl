@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] { $count } κάρτα διαγράφηκε.
        *[other] { $count } κάρτες διαγράφηκαν.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } κάρτα διαγράφηκε από το { $deck_name }.
+       *[other] { $count } κάρτες διαγράφηκαν από το { $deck_name }.
+    }
 browsing-change-deck = Αλλαγή τράπουλας
 browsing-change-deck2 = Αλλαγή τράπουλας...
 browsing-change-note-type = Αλλαγή Τύπου Σημείωσης
@@ -81,6 +86,7 @@ browsing-selected-notes-only = Μόνο επιλεγμένες σημειώσε�
 browsing-shift-position-of-existing-cards = Μετακίνηση θέσης υπαρχουσών καρτών
 browsing-sidebar = Πλαϊνή μπάρα
 browsing-sidebar-filter = Φίλτρο πλαϊνής μπάρας
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Ταξινόμηση κατά πεδίο
 browsing-sorting-on-this-column-is-not = Η ταξινόμηση αυτής της στήλης δεν υποστηρίζεται. Παρακαλώ επιλέξτε μία άλλη.
 browsing-start-position = Θέση εκκίνησης:

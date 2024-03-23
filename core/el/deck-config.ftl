@@ -231,7 +231,7 @@ deck-config-get-params = Λήψη παραμέτρων
 deck-config-fsrs-on-all-clients =
     Παρακαλώ βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.
     Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
-deck-config-estimated-retention = Εκτιμώμενη απομνημόνευση: { $num }
+deck-config-predicted-optimal-retention = Εκτιμώμενη βέλτιστη απομνημόνευση: { $num }
 deck-config-complete = { $num }% ολοκληρώθηκε.
 deck-config-reschedule-cards-on-change = Επαναπρογραμματισμός καρτών σε αλλαγή
 deck-config-fsrs-tooltip =

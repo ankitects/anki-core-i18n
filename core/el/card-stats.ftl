@@ -11,6 +11,7 @@ card-stats-new-card-position = Θέση
 card-stats-card-template = Τύπος κάρτας
 card-stats-note-type = Τύπος σημείωσης
 card-stats-deck-name = Τράπουλα
+card-stats-preset = Προεπιλογή
 card-stats-note-id = ID σημείωσης
 card-stats-card-id = ID κάρτας
 card-stats-review-log-rating = Αξιολόγηση
