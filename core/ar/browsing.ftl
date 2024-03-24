@@ -24,6 +24,15 @@ browsing-cards-deleted =
         [many] حذفت { $count } بطاقة.
        *[other] حذفت { $count } بطاقة.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [zero] { "" }
+        [one] تم حذف بطاقة واحدة من { $deck_name }.
+        [two] تم حذف بطاقتين من { $deck_name }.
+        [few] تم حذف { $count } بطاقات من { $deck_name }.
+        [many] تم حذف { $count } بطاقة من { $deck_name }.
+       *[other] تم حذف { $count } بطاقة من { $deck_name }.
+    }
 browsing-change-deck = تغيير الرزمة
 browsing-change-deck2 = تغيير الرزمة...
 browsing-change-note-type = تغيير نوع الملحوظة
@@ -85,6 +94,7 @@ browsing-selected-notes-only = الملحوظات المحددة فقط
 browsing-shift-position-of-existing-cards = غير موضع البطاقات الموجودة
 browsing-sidebar = الشريط الجانبي
 browsing-sidebar-filter = فلتر الشريط الجانبي
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = حقل الفرز
 browsing-sorting-on-this-column-is-not = الفرز حسب هذا العمود غير مدعوم. اختر حقلًا آخر.
 browsing-start-position = موضع البدء:
@@ -195,6 +205,7 @@ browsing-reparented-decks =
         [many] تم تغيير أسماء { $count } رزمة.
        *[other] تم تغيير أسماء { $count } رزمة.
     }
+browsing-sidebar-card-state-review = مراجعة
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -202,4 +213,3 @@ browsing-reparented-decks =
 browsing-card-initial = بط
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = مل
-browsing-sidebar-card-state-review = مراجعة

@@ -364,7 +364,7 @@ deck-config-get-params = الحصول على المعلمات.
 deck-config-fsrs-on-all-clients =
     يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
     بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
-deck-config-estimated-retention = معدل التذكر المقدر: { $num }
+deck-config-predicted-optimal-retention = معدل التذكر الأمثل المتوقع: { $num }
 deck-config-complete = اكتمل { $num }%.
 deck-config-iterations = التكرار: { $count }...
 deck-config-reschedule-cards-on-change = إعادة جدولة البطاقات عند التغيير

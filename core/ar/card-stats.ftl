@@ -11,6 +11,7 @@ card-stats-new-card-position = الموضع
 card-stats-card-template = نوع البطاقة
 card-stats-note-type = نوع الملحوظة
 card-stats-deck-name = رزمة
+card-stats-preset = مجموعة الخيارات
 card-stats-note-id = مُعرّف الملحوظة
 card-stats-card-id = مُعرّف البطاقة
 card-stats-review-log-rating = التقييم
