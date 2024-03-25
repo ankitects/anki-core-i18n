@@ -2,11 +2,11 @@ notetypes-notetype = Тип нотатки
 
 ## Default field names in newly created note types
 
-notetypes-front-field = Лицьова сторона
+notetypes-front-field = Передня сторона
 notetypes-back-field = Назад
 notetypes-add-reverse-field = Додати зворотну сторону
 notetypes-text-field = Текст
-notetypes-back-extra-field = Зворотня сторона за бажанням
+notetypes-back-extra-field = Зворотна сторона за бажанням
 
 ## Default note type names
 
