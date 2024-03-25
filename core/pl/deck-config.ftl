@@ -107,16 +107,20 @@ deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z 
 deck-config-timer-title = Czasomierz
 deck-config-maximum-answer-secs = Maksymalnie sekund na odpowiedź
 deck-config-show-answer-timer-tooltip = Pokaż w trybie przeglądania stoper, który pokazuje, ile sekund zajmuje ci przejrzenie danej karty.
+deck-config-stop-timer-on-answer = Zatrzymaj czasomierz po odpowiedzi
+deck-config-stop-timer-on-answer-tooltip =
+    Czy zatrzymać czasomierz po ujawnieniu odpowiedzi.
+    Opcja nie ma wpływu na statystyki.
+
+## Auto Advance section
+
+deck-config-answer-action = Reakcja odpowiedzi
 
 ## Audio section
 
 deck-config-audio-title = Dźwięk
 deck-config-disable-autoplay = Nie odtwarzaj automatycznie dźwięku
 deck-config-skip-question-when-replaying = Pomiń pytanie przy ponownym odtwarzaniu odpowiedzi
-deck-config-stop-timer-on-answer = Zatrzymaj czasomierz po odpowiedzi
-deck-config-stop-timer-on-answer-tooltip =
-    Czy zatrzymać czasomierz po ujawnieniu odpowiedzi.
-    Opcja nie ma wpływu na statystyki.
 
 ## Advanced section
 
@@ -175,9 +179,11 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametry FSRS
+deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
 deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
 deck-config-evaluate-button = Oceń
+deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
 deck-config-wait-for-audio = Czekaj na dźwięk
 deck-config-show-reminder = Pokaż przypomnienie
 deck-config-answer-again = Odpowiedz Powtórz

@@ -39,9 +39,12 @@ notetypes-type = Typ
 ## Image Occlusion
 
 notetypes-image = Obraz
+notetypes-occlusion = Okluzja
 notetypes-occlusion-mask = Maska
+notetypes-occlusion-note = Notatka
 notetypes-comments-field = Komentarze
 notetypes-toggle-masks = Przełącz maski
+notetypes-error-loading-image-occlusion = Błąd przy ładowaniu okluzji obrazu. Czy masz zainstalowaną najnowszą wersję Anki?
 notetype-error-no-image-to-show = Nie ma obrazu do pokazania.
 notetypes-io-select-image = Wybierz obraz
 notetypes-io-paste-image-from-clipboard = Wyklej obraz ze schowka

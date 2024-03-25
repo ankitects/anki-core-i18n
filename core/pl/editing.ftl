@@ -33,6 +33,7 @@ editing-latex-math-env = Środowisko matematyczne LaTeX
 editing-mathjax-block = Blok MathJax
 editing-mathjax-chemistry = Chemia MathJax
 editing-mathjax-inline = Liniowy MathJax
+editing-mathjax-placeholder = Naciśnij { $accept }, aby zaakceptować oraz { $newline }, aby przejść do nowej linii.
 editing-media = Pliki
 editing-ordered-list = Lista uporządkowana
 editing-outdent = Zmniejsz wcięcie
@@ -69,6 +70,7 @@ editing-from-clipboard = Ze schowka
 editing-alignment = Wyrównanie
 editing-equations = Równania
 editing-no-image-found-on-clipboard = W schowku nie ma obrazka.
+editing-image-occlusion-mode = Tryb okluzji obrazu (Image Occlusion)
 editing-image-occlusion-zoom-out = Pomniejsz
 editing-image-occlusion-zoom-in = Powiększ
 editing-image-occlusion-zoom-reset = Domyślne powiększenie
@@ -77,6 +79,7 @@ editing-image-occlusion-delete = Usuń
 editing-image-occlusion-duplicate = Duplikuj
 editing-image-occlusion-group = Grupuj zaznaczone
 editing-image-occlusion-ungroup = Oddziel zaznaczone od grupy
+editing-image-occlusion-select-all = Zaznacz wszystko
 editing-image-occlusion-alignment = Wyrównanie
 editing-image-occlusion-align-left = Wyrównanie do lewej
 editing-image-occlusion-align-right = Wyrównanie do prawej
@@ -89,6 +92,8 @@ editing-image-occlusion-ellipse-tool = Elipsa
 editing-image-occlusion-polygon-tool = Wielokąt
 editing-image-occlusion-text-tool = Tekst
 editing-image-occlusion-toggle-mask-editor = Przełącz edytor maski
+editing-image-occlusion-reset = Resetuj okluzję obrazu
+editing-image-occlusion-confirm-reset = Czy na pewno chcesz  zresetować tę okluzje obrazu?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -110,6 +110,7 @@ importing-file = Plik
 importing-notetype-and-deck = Typ notatki i talia
 importing-import-log = Rejestr importu
 importing-no-notes-in-file = W pliku nie znaleziono notatek.
+importing-show = Pokaż
 importing-details = Szczegóły
 importing-status = Status
 importing-duplicate-note-added = Dodano duplikat notatki

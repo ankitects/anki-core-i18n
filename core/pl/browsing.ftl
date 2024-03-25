@@ -21,6 +21,12 @@ browsing-cards-deleted =
         [few] Usunięto { $count } karty.
        *[other] Usunięto { $count } kart.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] Usunięto { $count } kartę z talii { $deck_name }.
+        [few] Usunięto { $count } karty z talii { $deck_name }.
+       *[many] Usunięto { $count } kart z talii { $deck_name }.
+    }
 browsing-change-deck = Zmień talię
 browsing-change-deck2 = Zmień talię...
 browsing-change-note-type = Zmień typ notatki
@@ -82,6 +88,7 @@ browsing-selected-notes-only = Tylko wybrane notatki
 browsing-shift-position-of-existing-cards = Zmień pozycję istniejących kart
 browsing-sidebar = Pasek boczny
 browsing-sidebar-filter = Filtr paska bocznego
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Pole sortowania
 browsing-sorting-on-this-column-is-not = Sortowanie po tej kolumnie nie jest możliwe. Wybierz inną kolumnę.
 browsing-start-position = Położenie początkowe:
@@ -171,6 +178,7 @@ browsing-reparented-decks =
         [few] Zmieniono nazwę { $count } talii.
        *[other] Zmieniono nazwę { $count } talii.
     }
+browsing-sidebar-card-state-review = Powtarzane
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -178,4 +186,3 @@ browsing-reparented-decks =
 browsing-card-initial = K
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-sidebar-card-state-review = Powtarzane
