@@ -133,7 +133,8 @@ statistics-in-days-single =
         [0] Сьогодні
         [1] Завтра
         [one] За { $days } день
-        [few] За { $days } дня
+        [few] За { $days } дні
+        [many] За { $days } днів
        *[other] За { $days } днів
     }
 statistics-in-days-range = За { $daysStart }-{ $daysEnd } дні
