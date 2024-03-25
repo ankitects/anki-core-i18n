@@ -46,7 +46,7 @@ importing-multicharacter-separators-are-not-supported-please = 無法使用多�
 importing-notes-added-from-file = 從檔案中加入的筆記：{ $val }
 importing-notes-found-in-file = 從檔案中找到的筆記：{ $val }
 importing-notes-skipped-as-theyre-already-in = 由於最新的副本已在集合中，因此略過了筆記：{ $val }
-importing-notes-skipped-update-due-to-notetype = 由於第一次匯入筆記後修改過筆記類型，因此沒有更新筆記：{ $val }
+importing-notes-skipped-update-due-to-notetype = 由於首次匯入筆記後修改過筆記類型，因此筆記未被更新：{ $val }
 importing-notes-updated-as-file-had-newer = 因檔案有新版本而更新的筆記：{ $val }
 importing-include-reviews = 包含複習
 importing-also-import-progress = 匯入任何學習進度
@@ -144,6 +144,7 @@ importing-existing-notes-skipped =
     { $count ->
        *[other] 有 { $count } 則筆記已在你的集合中。
     }
+importing-notes-failed = 無法匯入 { $count } 則筆記。
 importing-conflicting-notes-skipped =
     { $count ->
        *[other] { $count } 則筆記未被匯入，因為更改了筆記類型。
@@ -164,7 +165,8 @@ importing-status = 狀態
 importing-duplicate-note-added = 已加入重複的筆記
 importing-added-new-note = 已加入新筆記
 importing-existing-note-skipped = 已略過集合中已有最新副本的筆記
-importing-note-skipped-update-due-to-notetype = 未更新首次匯入後修改過筆記類型的筆記
+importing-note-skipped-update-due-to-notetype = 由於首次匯入筆記後修改過筆記類型，因此筆記未被更新
+importing-note-skipped-update-due-to-notetype2 = 由於首次匯入筆記後修改過筆記類型，且未啟用「{ importing-merge-notetypes }」，因此筆記未被更新
 importing-note-updated-as-file-had-newer = 已更新檔案中版本較新的筆記
 importing-note-skipped-due-to-missing-notetype = 已略過缺少筆記類型的筆記
 importing-note-skipped-due-to-missing-deck = 已略過缺少牌組的筆記
