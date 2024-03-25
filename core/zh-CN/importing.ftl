@@ -149,6 +149,7 @@ importing-existing-notes-skipped =
     { $count ->
        *[other] 有 { $count } 条笔记已在您的集合中。
     }
+importing-notes-failed = 有 { $count } 张笔记无法导入。
 importing-conflicting-notes-skipped =
     { $count ->
        *[other] { $count } 条笔记未被导入，因为其笔记模板已被更改。
@@ -170,6 +171,7 @@ importing-duplicate-note-added = 重复笔记已添加
 importing-added-new-note = 新笔记已添加
 importing-existing-note-skipped = 笔记被跳过，因为您集合中已存在最新的副本。
 importing-note-skipped-update-due-to-notetype = 笔记未更新，因为自您首次导入此笔记以来笔记模板已被修改
+importing-note-skipped-update-due-to-notetype2 = 由于笔记模板在首次导入笔记后已被修改，同时「{ importing-merge-notetypes }」未被启用，因此笔记未能被更新。
 importing-note-updated-as-file-had-newer = 笔记已更新，因为文件中有较新的版本
 importing-note-skipped-due-to-missing-notetype = 笔记被跳过，因为缺少其笔记模板
 importing-note-skipped-due-to-missing-deck = 笔记被跳过，因为缺少其牌组
