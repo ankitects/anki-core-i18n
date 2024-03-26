@@ -166,6 +166,11 @@ importing-existing-notes-skipped =
         [one] { $count } nota già presente nella collezione.
        *[other] { $count } note già presenti nella collezione.
     }
+importing-notes-failed =
+    { $count ->
+        [one] Impossibile importare { $count } nota
+       *[other] Impossibile importare { $count } note
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } nota non è stata importata poiché il suo tipo di nota è cambiato.
@@ -190,6 +195,7 @@ importing-duplicate-note-added = Aggiunta nota duplicata.
 importing-added-new-note = Aggiunta nuova nota.
 importing-existing-note-skipped = Nota ignorata, poiché una copia aggiornata è già presente nella collezione.
 importing-note-skipped-update-due-to-notetype = Nota non aggiornata, poiché il tipo di nota è stato modificato dopo l'importazione originale: { $val }
+importing-note-skipped-update-due-to-notetype2 = Nota non aggiornata, poiché il tipo di nota è stato modificato dopo l'importazione originale e "{ importing-merge-notetypes }" non era abilitato
 importing-note-updated-as-file-had-newer = Note aggiornate, in quanto il file contiene una nuova versione: { $val }
 importing-note-skipped-due-to-missing-notetype = Nota ignorata, poiché il suo tipo di nota era mancante
 importing-note-skipped-due-to-missing-deck = Nota ignorata, poiché il suo mazzo era mancante
@@ -225,5 +231,5 @@ importing-tag-updated-notes-help = Queste etichette saranno aggiunte ad ogni not
 
 importing-importing-collection = Importazione della collezione...
 importing-unable-to-import-filename = Impossibile importare { $filename }: tipo di file non supportato
-importing-notes-that-could-not-be-imported = Note che non hanno potuto essere importate, in quanto è cambiato il tipo di nota: { $val }
+importing-notes-that-could-not-be-imported = Note che non è stato possibile importare poiché è cambiato il tipo di nota: { $val }
 importing-added = Aggiunto
