@@ -197,6 +197,7 @@ deck-config-reviews-too-low =
         [one] { $cards } νέα κάρτα κάθε μέρα
        *[other] { $cards } νέες κάρτες κάθε μέρα
     }, το όριο επαναλήψεων σας πρέπει να είναι τουλάχιστον { $expected }.
+deck-config-relearning-steps-above-minimum-interval = Το ελάχιστο διάστημα παρέλευσης πρέπει να είναι τουλάχιστον όσο και το τελικό βήμα επανεκμάθησης.
 deck-config-maximum-answer-secs-above-recommended = Το Anki μπορεί να προγραμματίσει τις επαναλήψεις πιο αποτελεσματικά όταν κρατάτε την κάθε ερώτηση σύντομη.
 
 ## Selecting a deck

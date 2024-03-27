@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = Τα αρχεία .anki είναι από
 importing-anki2-files-are-not-directly-importable = Τα αρχεία .anki2 δεν μπορούν να εισαχθούν άμεσα - παρακαλώ εισάγετε το αρχείο .apkg ή .zip που λάβατε.
 importing-appeared-twice-in-file = Εμφανίζεται δις στο αρχείο: { $val }
 importing-by-default-anki-will-detect-the = Ως προεπιλογή, το Anki εντοπίζει χαρακτήρες ανάμεσα σε πεδία όπως το tab, το κόμμα κτλ. Αν το Anki εντοπίζει τον χαρακτήρα λανθασμένα, μπορείτε να τον εισάγετε εδώ. Χρησιμοποιήστε το \t ως tab.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Οι τύποι σημειώσεων Cloze δεν μπορούν να συγχωνευθούν με τους κανονικούς τύπους σημειώσεων.
+    Μπορείτε ακόμα να εισαγάγετε το αρχείο με απενεργοποιημένο το '{ importing-merge-notetypes }'.
 importing-change = Αλλαγή
 importing-colon = Άνω κάτω τελεία
 importing-comma = Κόμμα
