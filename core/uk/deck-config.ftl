@@ -201,6 +201,24 @@ deck-config-interday-step-priority-tooltip =
 deck-config-review-mix-mix-with-reviews = Перемішати з пригадувальними
 deck-config-review-mix-show-after-reviews = Показувати після пригадувальних
 deck-config-review-mix-show-before-reviews = Показувати перед пригадувальними
+deck-config-review-sort-order = Порядок сортування пригадувальних карток
+deck-config-review-sort-order-tooltip =
+    Типовий порядок сортування надає перевагу карткам, які найдовше 
+    перебували в черзі очікування, тому, з переліку пригадувальних карток.
+    першими з'являтимуться ті, які перебувають в черзі найдовше. Якщо Ваш
+    перелік пригадування є настільки великим, що його очищення може 
+    зайняти декілька днів, або Ви хочете бачити картки з вкладених колод,
+    скористайтеся іншим порядком сортування.
+deck-config-sort-order-due-date-then-random = За датою пригадування, далі - випадково
+deck-config-sort-order-due-date-then-deck = За датою пригадування, далі - за колодою
+deck-config-sort-order-deck-then-due-date = За колодою. далі - за датою пригадування
+deck-config-sort-order-ascending-intervals = За зростанням інтервалів
+deck-config-sort-order-descending-intervals = За спаданням інтервалів
+deck-config-sort-order-ascending-ease = За зростанням легкості
+deck-config-sort-order-descending-ease = За спаданням легкості
+deck-config-sort-order-ascending-difficulty = За зростанням складності
+deck-config-sort-order-descending-difficulty = За спаданням складності
+deck-config-sort-order-relative-overdueness = За відносним простроченням
 
 ## Timer section
 
