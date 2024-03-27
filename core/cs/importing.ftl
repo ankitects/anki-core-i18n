@@ -178,6 +178,13 @@ importing-existing-notes-skipped =
         [few] { $count } poznámky již existují ve vaší kolekci.
        *[other] { $count } poznámek již existuje ve vaší kolekci.
     }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } poznámka nemohla být importovana.
+        [few] { $count } poznámky nemohly být importovány.
+        [many] { $count } poznámky nemohlo být importovano.
+       *[other] { $count } poznámek nemohlo být importováno.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } poznámka se neimportovala, protože se změnil její typ poznámky.
@@ -206,6 +213,7 @@ importing-duplicate-note-added = Přidána duplicitní poznámka
 importing-added-new-note = Přidána nová poznámka
 importing-existing-note-skipped = Poznámka přeskočena, protože aktuální kopie poznámky je již ve vaší kolekci
 importing-note-skipped-update-due-to-notetype = Poznámka se neaktualizovala, protože typ poznámky se změnil od té doby, kdy jste poprvé importovali tuto poznámku
+importing-note-skipped-update-due-to-notetype2 = Poznámka nebyla aktualizována, protože typ poznámky se od prvního importu poznamky změnil a '{ importing-merge-notetypes }' nebylo povoleno
 importing-note-updated-as-file-had-newer = Poznámka aktualizována, protože v souboru byla novější verze
 importing-note-skipped-due-to-missing-notetype = Poznámka přeskočena, protože chyběl její typ poznámky
 importing-note-skipped-due-to-missing-deck = Poznámka přeskočena, protože chyběl její balík
