@@ -9,7 +9,7 @@ fields-fields-for = Campi per { $val }
 fields-font = Carattere:
 fields-new-position-1 = Nuova posizione (1...{ $val }):
 fields-notes-require-at-least-one-field = Le note richiedono almeno un campo.
-fields-reverse-text-direction-rtl = Inverti direzione del testo (RTL)
+fields-reverse-text-direction-rtl = Inverti direzione testo (RTL)
 fields-collapse-by-default = Comprimi di default
 fields-html-by-default = Utilizza di default l'editor HTML
 fields-size = Dimensione:
@@ -19,5 +19,5 @@ fields-name-first-letter-not-valid = Il nome del campo non deve iniziare con #, 
 fields-name-invalid-letter = Il nome del campo non deve contenere :, ", { "{" } o { "}" }.
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
-fields-exclude-from-search = Escludi dalle ricerche non qualificate (più lento)
+fields-exclude-from-search = Escludi da ricerche non qualificate (più lento)
 fields-field-is-required = Questo campo è obbligatorio e non può essere eliminato.
