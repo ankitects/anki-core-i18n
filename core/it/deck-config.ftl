@@ -394,14 +394,6 @@ deck-config-compute-optimal-weights-tooltip =
     Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
     Di default, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
-deck-config-compute-optimal-retention-tooltip =
-    Questo strumento presuppone che si stia iniziando con 0 carte e cercherà di calcolare la quantità di materiale 
-    memorizzabile nel periodo di tempo specificato. 
-    La ritenzione stimata dipenderà notevolmente dai dati di input, e se differisce significativamente da 0,9, 
-    è un segno che il tempo allocato ogni giorno allo studio è troppo oppure troppo poco rispetto
-    alla quantità di carte che si sta cercando di imparare. 
-    Questo numero può essere utile come riferimento, ma non è consigliato copiarlo nel campo
-    Ritenzione desiderata.
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-a-100-day-interval =
     { $days ->
@@ -421,6 +413,8 @@ deck-config-show-reminder = Mostra promemoria
 deck-config-answer-again = Rispondi Ripeti
 deck-config-answer-hard = Rispondi Difficile
 deck-config-answer-good = Rispondi Normale
+deck-config-days-to-simulate = Giorni da simulare
+deck-config-desired-retention-below-optimal = La ritenzione desiderata scelta è inferiore a quella ottimale. È consigliato aumentarla.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -439,3 +433,11 @@ deck-config-bury-tooltip =
     
     Quando si utilizza il pianificatore V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
     Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento attuale di uno o più giorni.
+deck-config-compute-optimal-retention-tooltip =
+    Questo strumento presuppone che si inizi con 0 carte e cercherà di calcolare la quantità di materiale 
+    memorizzabile nel periodo di tempo specificato. 
+    La ritenzione stimata dipenderà notevolmente dai dati di input, e se differisce significativamente da 0,9, 
+    è un segno che il tempo allocato ogni giorno allo studio è troppo oppure troppo poco rispetto
+    alla quantità di carte che si sta cercando di imparare. 
+    Questo numero può essere utile come riferimento, ma non è consigliato copiarlo nel campo
+    Ritenzione desiderata.
