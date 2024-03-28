@@ -119,7 +119,7 @@ scheduling-update-more-info-button = Вчити більше
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = Завжди показувати сторону картки з питанням під час відтворення аудіо
+scheduling-always-include-question-side-when-replaying = Завжди показувати сторону картки з питанням під час повтору аудіо
 scheduling-at-least-one-step-is-required = Необхідно принаймні один крок.
 scheduling-automatically-play-audio = Автоматично програвати звук
 scheduling-bury-related-new-cards-until-the = Відкладати пов'язані нові картки до наступного дня

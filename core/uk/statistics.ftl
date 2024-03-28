@@ -224,6 +224,8 @@ statistics-cards-per-day =
        *[other] { $count } карток/добу
     }
 statistics-average-ease = Середня легкість
+statistics-average-difficulty = Усереднена складність
 statistics-save-pdf = Зберегти в форматі PDF
 statistics-saved = Збережено.
 statistics-stats = статистика
+statistics-title = Статистика
