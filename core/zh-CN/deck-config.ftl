@@ -338,10 +338,11 @@ deck-config-compute-optimal-weights-tooltip =
     无需经常优化您的参数——每隔几个月优化一次就足够了。
     默认情况下，将根据所有使用该预设配置的牌组的复习历史记录计算出参数。
     如果您想要更改用于优化参数的卡片，您可以选择在计算参数之前调整搜索框的内容。
-deck-config-compute-optimal-retention-tooltip =
-    该工具假设您从 0 张卡片开始，并将尝试计算您在给定时间范围内能够保留记忆的材料量。
-    预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。
-    该数字可用作参考，但不建议将其复制到期望记忆保留率字段中。
+deck-config-compute-optimal-retention-tooltip2 =
+    该工具假设您从 0 张已学习的卡片开始，并将尝试找到期望的记忆保留率，从而在最短的时间内学习最多的材料。
+    在决定将期望记忆保留率设置为多少时，可以将此数值作为参考。
+    如果您愿意以更多的学习时间换取更高的回忆成功概率，您可能希望选择一个更高的保留率。
+    并不推荐将您期望的记忆保留率设置低于最优值，因为这会带来更多的工作量而没有好处。
 deck-config-please-save-your-changes-first = 请先保存您预设配置的更改。
 deck-config-a-100-day-interval =
     { $days ->
@@ -359,6 +360,8 @@ deck-config-show-reminder = 显示提醒
 deck-config-answer-again = 回答「忘记」
 deck-config-answer-hard = 回答「困难」
 deck-config-answer-good = 回答「良好」
+deck-config-days-to-simulate = 模拟天数
+deck-config-desired-retention-below-optimal = 您期望的记忆保留率低于最佳记忆保留率，建议增加。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -372,3 +375,7 @@ deck-config-bury-tooltip =
     此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
     此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
     当使用 V3 排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。
+deck-config-compute-optimal-retention-tooltip =
+    该工具假设您从 0 张卡片开始，并将尝试计算您在给定时间范围内能够保留记忆的材料量。
+    预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。
+    该数字可用作参考，但不建议将其复制到期望记忆保留率字段中。
