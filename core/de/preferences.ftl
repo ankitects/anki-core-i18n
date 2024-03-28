@@ -34,7 +34,7 @@ preferences-you-can-restore-backups-via-fileswitch = Sie können eine Sicherungs
 preferences-legacy-timezone-handling = Veralteter Umgang mit Zeitzonen (fehleranfällig, aber für AnkiDroid <= 2.14 vorausgesetzt)
 preferences-default-search-text = Standardmäßig eingestellter Suchtext
 preferences-default-search-text-example = z.B. 'deck:current'
-preferences-theme = Theme
+preferences-theme = Darstellung
 preferences-theme-follow-system = Wie Systemeinstellung
 preferences-theme-light = Hell
 preferences-theme-dark = Dunkel
