@@ -97,7 +97,7 @@ statistics-card-stability-subtitle = Das Intervall, zu dem Sie sich mit 90%er Wa
 statistics-average-stability = Durchschnittliche Stabilität
 statistics-card-retrievability-title = Kartenabrufbarkeit
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
-statistics-card-difficulty-subtitle2 = Je höher der Schwierigkeitsgrad, desto langsamer ist der Anstieg der Stabilität.
+statistics-card-difficulty-subtitle2 = Je höher der Schwierigkeitsgrad, desto langsamer erhöht sich die Stabilität.
 statistics-retrievability-subtitle = Die Wahrscheinlichkeit, dass Sie sich heute an diese Karte erinnern.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =

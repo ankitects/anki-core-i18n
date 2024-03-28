@@ -179,11 +179,11 @@ deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Sekunden bis die Frage gezeigt wird
-deck-config-seconds-to-show-question-tooltip-2 = Wenn automatisch Blättern eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
+deck-config-seconds-to-show-question-tooltip-2 = Wenn automatisiertes Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-seconds-to-show-answer = Sekunden bis die Antwort gezeigt wird
-deck-config-seconds-to-show-answer-tooltip-2 = Wenn automatisch Blättern eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort erfolgt. Zum Ausschalten auf 0 setzen.
+deck-config-seconds-to-show-answer-tooltip-2 = Wenn automatisiertes Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwortaktion ausgeführt wird. Zum Ausschalten auf 0 setzen.
 deck-config-answer-action = Ant­wort­ak­tion
-deck-config-answer-action-tooltip = Was mit der aktuellen Karte durchgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
+deck-config-answer-action-tooltip = Was mit der aktuellen Karte gemacht werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf dem Ende vom Abspielen des Audios warten, und danach automatisch die Antwort oder nächste Frage zeigen
 
 ## Audio section
@@ -267,7 +267,7 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Die Einstellungen müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Komma getrennten Zahlen bestehen.
+deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
 deck-config-unable-to-determine-desired-retention = Es stellt sich als unmöglich heraus, die optimale Behaltungszeit zu bestimmen.
 deck-config-must-have-400-reviews =
@@ -302,30 +302,29 @@ deck-config-fsrs-tooltip =
     Falls Sie die benutzerdefinierende Planung in FSRS, bitte stellen Sie sich sicher, dass Sie alle benutzerdefinierende Planungen vor der Einschaltung dieser Option ausmerzen.
 deck-config-desired-retention-tooltip = Mit dem Standardwert von 0,9 werden die Karten so geplant, dass Sie eine 90 %ige Chance haben, sich an sie zu erinnern, wenn wenn sie wieder zum Repetieren auftauchen. Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger zeigen um die Wahrscheinlichkeit zu erhöhen, dass Sie sich an sie erinnern. Wenn Sie den Wert verringern, wird Anki die Karten weniger häufig zeigen, und Sie werden mehr von ihnen vergessen. Seien Sie vorsichtig, wenn Sie diesen Wert einstellen - höhere Werte erhöhen Ihr Arbeitspensum erheblich, und niedrigere Werte können demoralisierend sein, wenn Sie viel vergessen.
 deck-config-sm2-retention-tooltip =
-    Wenn der tatsächliche Prozentsatz richtiger Antworten vor dem Wechsel zu FSRS signifikant von 0,9 (= 90%) abwich, erlaubt die Anpassung dieses Wertes an die Realität Anki eine bessere Einschätzung Ihrer Leistung für Karten, die ganz oder teilweise in der Prüfungshistorie fehlen. 
+    Wenn Ihr tatsächlicher Prozentsatz richtiger Antworten vor dem Wechsel zu FSRS signifikant von 0,9 (= 90%) abwich, erlaubt die Anpassung dieses Wertes Anki eine bessere Einschätzung Ihrer Leistung für solche Karten, deren Wiederholungsverlauf nicht vorhanden ist.
     
-    Die meisten Benutzer müssen diesen Wert nicht anpassen, da der Prüfungsverlauf in der Regel nicht fehlt, es sei denn, der Benutzer löscht absichtlich die relevanten Dateien (um den Speicherplatz zu erhöhen) oder verwendet Erweiterungen, die den Prüfungsverlauf verändern.
-deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki wird mit den Standardeinstellungen gestartet. Sobald Sie mehr als tausend Bewertungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Einstellungen so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Voreinstellung am besten entsprechen.
+    Die meisten Benutzer müssen diesen Wert nicht anpassen, da der Wiederholungsverlauf in der Regel nur fehlt, wenn der Benutzer diesen absichtlich absichtlich gelöscht hat, um Speicherplatz freizugeben.
+deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
 deck-config-reschedule-cards-on-change-tooltip =
     Wirkt sich auf die gesamte Sammlung aus und wird nicht gespeichert.
     
-    Diese Option steuert, ob die Fälligkeitsdaten von Karten geändert werden, wenn Sie FSRS aktivieren oder die der Einstellungen. Standardmäßig werden die Karten nicht neu terminiert: Bei künftigen Überprüfungen wird die neue Terminierung verwendet, aber es gibt keine unmittelbare Änderung Ihrer Arbeitslast. Wenn die Neuplanung aktiviert ist, werden die Fälligkeitsdaten der Karten der Einstellungen geändert.
+    Diese Option steuert, ob die Fälligkeitsdaten von Karten geändert werden, wenn Sie FSRS aktivieren oder die Parameter ändern. Standardmäßig werden die Karten nicht neu terminiert. Erst bei künftigen Bewertungen wird die neue Terminierung verwendet. Es gibt keine unmittelbare Änderung Ihrer Arbeitslast. Wenn die Neuplanung aktiviert ist, werden die Fälligkeitsdaten der Karten geändert.
 deck-config-reschedule-cards-warning =
-    Je nach gewünschter Speicherung kann dies dazu führen, dass eine große Anzahl von Karten fällig werden und wird daher nicht empfohlen, wenn Sie zum ersten Mal zu FSRS wechseln.
+    Je nach gewünschter Retention kann diese Option dazu führen, dass eine große Anzahl von Karten fällig wird. Es wird daher nicht empfohlen sie zu aktivieren, wenn Sie zum ersten Mal zu FSRS wechseln.
     
-    Verwenden Sie diese Option sparsam, da sie jeder Ihrer Karten einen Überprüfungseintrag hinzufügt und die Größe Ihrer Sammlung erhöht.
+    Verwenden Sie diese Option sparsam, da sie jeder Ihrer Karten einen Eintrag im Wiederholungsverlauf hinzufügt und so die Größe Ihrer Sammlung erhöht.
 deck-config-ignore-before-tooltip =
-    Wenn diese Option aktiviert ist, werden Überprüfungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
+    Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
     Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortschaltflächen verwenden, geändert haben.
 deck-config-compute-optimal-weights-tooltip =
-    Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie die Schaltfläche Optimieren verwenden, um Ihren Wiederholungsverlauf zu analysieren,
-    und automatisch Einstellungen generieren, die für Ihr Gedächtnis und den Inhalt, den Sie lernen, optimal sind.
-    Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Voreinstellungen zuzuweisen, da
+    Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,
+    und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind.
+    Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapeloptionen zuzuweisen, da
     die Einstellungen für leichte Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
     
     Standardmäßig werden die Einstellungen aus dem Prüfungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
     optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
-deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Behaltensleistung hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es nicht empfehlenswert, sie in das Feld für die gewünschte Lernzeit zu kopieren.
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
@@ -359,3 +358,4 @@ deck-config-bury-tooltip =
     Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten beantworten.
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
+deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Behaltensleistung hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Lernzeit zu kopieren.

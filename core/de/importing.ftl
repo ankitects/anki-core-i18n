@@ -8,8 +8,8 @@ importing-anki2-files-are-not-directly-importable = .anki2-Dateien können nicht
 importing-appeared-twice-in-file = Doppelt vorhanden in Datei: { $val }
 importing-by-default-anki-will-detect-the = Für gewöhnlich erkennt Anki das Trennzeichen zwischen zwei Feldern (z.B. ein Komma, Tab oder Ähnliches) automatisch. Sollte Anki das Trennzeichen nicht korrekt erkennen, gaben Sie es hier ein. Anstelle von Tab verwenden Sie bitte: \t.
 importing-cannot-merge-notetypes-of-different-kinds =
-    Cloze-Notizen können nicht mit normalen Notizen zusammengeführt werden.
-    Sie können die Datei trotzdem importieren, wenn die Option "{ importing-merge-notetypes }" ausgeschaltet ist.
+    Lückentext-Notizen können nicht mit normalen Notizen zusammengeführt werden.
+    Sie können die Datei trotzdem importieren, wenn Sie die Option "{ importing-merge-notetypes }" deaktivieren.
 importing-change = Ändern
 importing-colon = Doppelpunkt
 importing-comma = Komma

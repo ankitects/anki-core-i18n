@@ -36,4 +36,4 @@ decks-unmovable-cards = Alle ausgeschlossenen Karten anzeigen
 decks-learn-header = Lernen
 # The count of cards waiting to be reviewed
 decks-review-header = Fällig
-decks-zero-minutes-hint = (0 = lgt Karte zurück auf den urspünglichen Stapel)
+decks-zero-minutes-hint = (0 = lgt Karte zurück in den urspünglichen Stapel)
