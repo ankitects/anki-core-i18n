@@ -8,7 +8,7 @@ media-check-trash-count =
     ごみ箱フォルダ：{ $count ->
        *[other] { $count }ファイル、{ $megs }MB
     }
-media-check-missing-count = 行方不明のファイル：{ $count }個
+media-check-missing-count = 欠落しているファイル：{ $count }個
 media-check-unused-count = 使用されていないファイル：{ $count }個
 media-check-renamed-count = 名前を変更したファイル数：{ $count }
 media-check-oversize-count = 100MBを超えているファイル数：{ $count }
@@ -33,7 +33,7 @@ media-check-template-references-field-header =
 media-check-renamed-file = 名前変更：{ $old } ->{ $new }
 media-check-oversize-file = 100MB超：{ $filename }
 media-check-subfolder-file = フォルダ：{ $filename }
-media-check-missing-file = 該当なし：{ $filename }
+media-check-missing-file = 欠落：{ $filename }
 media-check-unused-file = 使用なし：{ $filename }
 
 ##
@@ -69,4 +69,4 @@ media-check-check-media-action = メディアをチェック
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = missing-media
 # add a tag to notes with missing media
-media-check-add-tag = メディアが行方不明なノートにタグ
+media-check-add-tag = 参照ファイルが欠落しているノートにタグ
