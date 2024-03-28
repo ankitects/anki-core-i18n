@@ -269,7 +269,7 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
-deck-config-unable-to-determine-desired-retention = Es stellt sich als unmöglich heraus, die optimale Behaltungszeit zu bestimmen.
+deck-config-unable-to-determine-desired-retention = Bestimmen der optimalen Retention nicht möglich.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Nur { $count } Wiederholung wurde gefunden. Sie müssen mindestens 400 Wiederholungen haben, um benutzerdefinierte Parameter zu bestimmen zu ermöglichen
@@ -300,7 +300,7 @@ deck-config-fsrs-tooltip =
     Freier Planer von räumlichen Wiederholungen (Free Spaced Repetition Scheduler, FSRS) ist eine Alternative zu älteren SuperMemo 2 (SM2) Planer.
     Durch präzisere Bestimmung von der wahrscheinlicher Vergessungspunkt hilft es Sie mehr zu behalten in der gleichen Zeit. Diese Einstellung wurde für alle Sammlungen geteilt. 
     Falls Sie die benutzerdefinierende Planung in FSRS, bitte stellen Sie sich sicher, dass Sie alle benutzerdefinierende Planungen vor der Einschaltung dieser Option ausmerzen.
-deck-config-desired-retention-tooltip = Mit dem Standardwert von 0,9 werden die Karten so geplant, dass Sie eine 90 %ige Chance haben, sich an sie zu erinnern, wenn wenn sie wieder zum Repetieren auftauchen. Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger zeigen um die Wahrscheinlichkeit zu erhöhen, dass Sie sich an sie erinnern. Wenn Sie den Wert verringern, wird Anki die Karten weniger häufig zeigen, und Sie werden mehr von ihnen vergessen. Seien Sie vorsichtig, wenn Sie diesen Wert einstellen - höhere Werte erhöhen Ihr Arbeitspensum erheblich, und niedrigere Werte können demoralisierend sein, wenn Sie viel vergessen.
+deck-config-desired-retention-tooltip = Mit dem Standardwert von 0,9 werden die Karten so geplant, dass Sie eine 90 %ige Chance haben, sich an sie zu erinnern, wenn wenn sie wieder zur Wiederholung anstehen. Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger zeigen, um die Wahrscheinlichkeit zu erhöhen, dass Sie sich an sie erinnern. Wenn Sie den Wert verringern, wird Anki die Karten weniger häufig zeigen und Sie werden mehr von ihnen vergessen. Seien Sie vorsichtig, wie Sie diesen Wert einstellen - höhere Werte erhöhen Ihr Arbeitspensum erheblich, und niedrigere Werte können demoralisierend sein, wenn Sie viel vergessen.
 deck-config-sm2-retention-tooltip =
     Wenn Ihr tatsächlicher Prozentsatz richtiger Antworten vor dem Wechsel zu FSRS signifikant von 0,9 (= 90%) abwich, erlaubt die Anpassung dieses Wertes Anki eine bessere Einschätzung Ihrer Leistung für solche Karten, deren Wiederholungsverlauf nicht vorhanden ist.
     
