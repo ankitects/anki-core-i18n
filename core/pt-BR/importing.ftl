@@ -169,6 +169,11 @@ importing-existing-notes-skipped =
         [one] { $count } nota já está presente em sua coleção.
        *[other] { $count } notas já estão presentes em sua coleção.
     }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } nota não pôde ser importada.
+       *[other] { $count } notas não puderam ser importadas.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } nota não foi importada, pois o tipo de nota foi alterado.
@@ -193,6 +198,7 @@ importing-duplicate-note-added = Nota duplicada adicionada
 importing-added-new-note = Nova nota adicionada
 importing-existing-note-skipped = Nota ignorada, pois uma cópia atualizada já está em sua coleção
 importing-note-skipped-update-due-to-notetype = Nota não atualizada, pois o tipo de nota foi modificado desde que você importou a nota pela primeira vez
+importing-note-skipped-update-due-to-notetype2 = A nota não foi atualizada, pois o tipo de nota foi modificado desde a primeira importação, e '{ importing-merge-notetypes }' não estava ativado.
 importing-note-updated-as-file-had-newer = Nota atualizada, pois o arquivo tinha uma versão mais nova
 importing-note-skipped-due-to-missing-notetype = Nota ignorada, pois seu tipo de nota estava ausente
 importing-note-skipped-due-to-missing-deck = Nota ignorada, pois seu baralho estava ausente

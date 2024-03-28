@@ -320,7 +320,7 @@ deck-config-weights = Parâmetros do modelo
 deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
 deck-config-compute-optimal-retention = Calcular retenção ótima
 deck-config-optimize-button = Otimizar
-deck-config-compute-button = Computar
+deck-config-compute-button = Calcular
 deck-config-ignore-before = Ignorar revisões antes de
 deck-config-optimize-all-tip = Você pode otimizar todas as predefinições de uma só vez usando o botão no topo.
 deck-config-evaluate-button = Avaliar
@@ -332,7 +332,7 @@ deck-config-get-params = Obter Parâmetros
 deck-config-fsrs-on-all-clients =
     Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não
     funcionará corretamente se um dos seus clientes for mais antigo.
-deck-config-estimated-retention = Retenção estimada: { $num }
+deck-config-predicted-optimal-retention = Retenção ótima prevista: { $num }
 deck-config-complete = { $num }% concluído.
 deck-config-iterations = Iteração: { $count }...
 deck-config-reschedule-cards-on-change = Reagendar cartões ao alterar
@@ -381,12 +381,12 @@ deck-config-compute-optimal-weights-tooltip =
     Por padrão, os parâmetros serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode
     ajustar opcionalmente a busca antes de calcular os parâmetros, se quiser alterar quais cartões são usados para
     otimizar os parâmetros.
-deck-config-compute-optimal-retention-tooltip =
-    Esta ferramenta assume que você está começando com 0 cartões, e tentará calcular a quantidade de material que você vai
-    ser capaz de reter no prazo dado. A retenção estimada dependerá muito de suas entradas, e
-    se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo
-    ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é
-    não recomendado copiá-lo para o campo de retenção desejado.
+deck-config-compute-optimal-retention-tooltip2 =
+    Esta ferramenta pressupõe que você está começando com 0 cartões aprendidos e tentará encontrar o valor de retenção
+    desejado que levará ao aprendizado do maior volume de material no menor tempo possível. Este número pode ser usado
+    como referência ao decidir para qual valor ajustar sua retenção desejada. Você pode desejar escolher uma retenção desejada mais alta,
+    se estiver disposto a trocar mais tempo de estudo por uma taxa de recordação maior. Configurar sua retenção desejada para um valor
+    abaixo do ótimo não é recomendado, pois isso levará a mais trabalho sem benefício.
 deck-config-please-save-your-changes-first = Por favor, salve suas alterações primeiro.
 deck-config-a-100-day-interval =
     { $days ->
@@ -406,6 +406,8 @@ deck-config-show-reminder = Mostrar lembrete
 deck-config-answer-again = Responder Novamente
 deck-config-answer-hard = Resposta Difícil
 deck-config-answer-good = Resposta Boa
+deck-config-days-to-simulate = Dias para simular
+deck-config-desired-retention-below-optimal = Sua retenção desejada está abaixo do ótimo. É recomendado aumentá-la.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -425,3 +427,9 @@ deck-config-bury-tooltip =
     
     Ao usar o agendador V3, cartões de aprendizagem interdiários também podem ser ocultados. 
     Cartões de aprendizagem interdiários são cartões com um passo de aprendizagem atual de um ou mais dias.
+deck-config-compute-optimal-retention-tooltip =
+    Esta ferramenta assume que você está começando com 0 cartões, e tentará calcular a quantidade de material que você vai
+    ser capaz de reter no prazo dado. A retenção estimada dependerá muito de suas entradas, e
+    se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo
+    ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é
+    não recomendado copiá-lo para o campo de retenção desejado.

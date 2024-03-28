@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] { $count } cartão deletado.
        *[other] { $count } cartões deletados.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } cartão excluído de { $deck_name }.
+       *[other] { $count } cartões excluídos de { $deck_name }.
+    }
 browsing-change-deck = Mudar Baralho
 browsing-change-deck2 = Mudar Baralho...
 browsing-change-note-type = Mudar Tipo de Nota
@@ -81,6 +86,7 @@ browsing-selected-notes-only = Apenas notas selecionadas
 browsing-shift-position-of-existing-cards = Alterar posição dos cartões existentes
 browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Filtro da barra lateral
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Classificar campo
 browsing-sorting-on-this-column-is-not = Não é possível classificar esta coluna. Por favor, escolha outra.
 browsing-start-position = Posição inicial:
@@ -163,6 +169,7 @@ browsing-reparented-decks =
         [one] { $count } baralho renomeado.
        *[other] { $count } baralhos renomeados.
     }
+browsing-sidebar-card-state-review = Revisão
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -170,4 +177,3 @@ browsing-reparented-decks =
 browsing-card-initial = C
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-sidebar-card-state-review = Revisão
