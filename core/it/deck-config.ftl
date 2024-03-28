@@ -331,7 +331,7 @@ deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
 deck-config-compute-optimal-retention = Calcola ritenzione ottimale
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
-deck-config-ignore-before = Data di inizio per l'inclusione delle ripetizioni
+deck-config-ignore-before = Escludi le ripetizioni prima di
 deck-config-optimize-all-tip = Ottimizza tutte le preimpostazioni contemporaneamente dal menù a tendina vicino a "Salva".
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
@@ -385,15 +385,22 @@ deck-config-reschedule-cards-warning =
     Usare questa opzione con parsimonia, poiché aggiungerà una voce di revisione per ciascuna delle carte e
     aumenterà le dimensioni della collezione.
 deck-config-ignore-before-tooltip =
-    Solo le ripetizioni successive alla data specificata saranno incluse nell'ottimizzazione e valutazione dei parametri FSRS.
-    Ciò può risultare utile se sono stati importati i dati di pianificazione di un'altra persona oppure se si sono cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
+    Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
+    Questo può risultare utile nel caso in cui si siano importati i dati di pianificazione di un'altra persona o siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare la cronologia delle ripetizioni
     e generare automaticamente parametri ottimali per la propria memoria e i contenuti che si stanno studiando. 
     Se sono presenti mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preimpostazioni separate, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
     Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
-    Di default, i parametri saranno calcolati in base alla cronologia delle revisioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
+    Di default, i parametri saranno calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
+deck-config-compute-optimal-retention-tooltip2 =
+    Questo strumento presuppone che si inizi con 0 carte apprese e cerca di calcolare il valore di ritenzione desiderata
+    che consente di imparare la maggior parte del materiale nel minor tempo possibile. Il numero risultante
+    può essere usato come riferimento per l'impostazione della propria ritenzione desiderata. Qualora si sia disposti
+    a dedicare più tempo allo studio per ottenere un tasso di rammentabilità maggiore, è possibile scegliere
+    un valore di ritenzione desiderata più alto. D'altra parte, è sconsigliato impostare la ritenzione desiderata al di sotto
+    del livello ottimale, in quanto non vi sarebbe alcun beneficio apprezzabile a fronte di una mole di lavoro più elevata.
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-a-100-day-interval =
     { $days ->
