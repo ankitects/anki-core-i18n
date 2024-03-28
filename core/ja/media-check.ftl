@@ -20,12 +20,13 @@ media-check-extracted-count = 抽出された画像：{ $count }
 media-check-renamed-header = ▼ 次のファイルは互換性のためにファイル名が変更されました
 media-check-oversize-header = 100MBを超えるファイルはAnkiWebと同期することができません。
 media-check-subfolder-header = Ankiはメディアフォルダ内のサブフォルダには対応していません。
-media-check-missing-header = ▼ 次のファイルを参照しているカードがありますが、メディアフォルダ内で該当するファイルが見つかりません
+media-check-missing-header = ▼ 次のファイルを参照しているカードがありますが、該当するファイルがメディアフォルダ内にありません
 media-check-unused-header = ▼ 次のファイルはメディアフォルダ内に存在していますが、どのカードにも使用されていません
 media-check-template-references-field-header =
-    メディアやLaTeXを指定するHTMLタグ内でフィールドを参照している（例えば { "{{Front}}" } というフィールドを
-    記載している）場合、Ankiは指定されているファイルをこの「メディアをチェック」では検出できません。
-    メディアやLaTeXのタグは、個々のノートに配置することが推奨されます。
+    メディアやLaTeXを指定するHTMLタグ内でフィールドを参照している場合
+    （例えば  { "{{Front}}" }.jpg  という表現で各カードに表示するファイルを指定している場合）、
+    指定している個々のファイル（例えば、apple.jpg ）は、この「メディアをチェック」機能では検出できません。
+    メディアやLaTeXのタグは、個々のノートに記載することをおすすめします。
     ▼ 該当するタグがあるテンプレート
 
 ## Shown once for each file
@@ -33,7 +34,7 @@ media-check-template-references-field-header =
 media-check-renamed-file = 名前変更：{ $old } ->{ $new }
 media-check-oversize-file = 100MB超：{ $filename }
 media-check-subfolder-file = フォルダ：{ $filename }
-media-check-missing-file = 欠落：{ $filename }
+media-check-missing-file = 実物なし（欠落）：{ $filename }
 media-check-unused-file = 使用なし：{ $filename }
 
 ##
@@ -69,4 +70,4 @@ media-check-check-media-action = メディアをチェック
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = missing-media
 # add a tag to notes with missing media
-media-check-add-tag = 参照ファイルが欠落しているノートにタグ
+media-check-add-tag = 欠落ファイルを引用しているノートにタグ
