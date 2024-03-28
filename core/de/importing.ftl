@@ -166,6 +166,11 @@ importing-existing-notes-skipped =
         [one] { $count } Notiz war bereits in Ihrer Sammlung vorhanden.
        *[other] { $count } Notizen waren bereits in Ihrer Sammlung vorhanden.
     }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } Notiz konnte nicht importiert werden.
+       *[other] { $count } Notizen konnten nicht importiert werden.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } Notiz nicht importiert, da ihr Notiztyp geändert wurde.
