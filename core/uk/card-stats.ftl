@@ -27,7 +27,7 @@ card-stats-no-card = (Нема карток для показу.)
 card-stats-custom-data = Спеціальні дані
 card-stats-fsrs-stability = Стабільність
 card-stats-fsrs-difficulty = Складність
-card-stats-fsrs-retrievability = Повернення
+card-stats-fsrs-retrievability = легкість пригадування
 
 ## Window Titles
 

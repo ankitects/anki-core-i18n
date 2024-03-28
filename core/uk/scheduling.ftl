@@ -102,7 +102,7 @@ scheduling-today-new-limit-reached =
     але, будь ласка, не забувайте: чим більше нових карток
     Ви запровадите у навчальний цикл, тим більше карток вам
     доведеться повторювати за короткий період.
-scheduling-buried-cards-found = Одна або декілька карток відкладено до завтра. Ви можете { $unburyThem }, якщо бажаєте побачити зараз.
+scheduling-buried-cards-found = Одна або декілька карток приховано до завтра. Ви можете { $unburyThem }, якщо бажаєте побачити зараз.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = повернути їх

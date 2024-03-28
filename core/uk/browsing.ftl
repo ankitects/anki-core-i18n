@@ -10,7 +10,7 @@ browsing-average-ease = Середня легкість
 browsing-average-interval = Середній інтервал
 browsing-browser-appearance = Зовнішній вигляд Навігатора
 browsing-browser-options = Налаштування Навігатора
-browsing-buried = Відкладені
+browsing-buried = Приховані
 browsing-card = Картка
 browsing-cards = Картки
 browsing-card-list = Список карток
@@ -87,7 +87,7 @@ browsing-search-within-formatting-slow = Шукати серед формату�
 browsing-selected-notes-only = Лише вибрані нотатки
 browsing-shift-position-of-existing-cards = Зсунути розташування наявних карток
 browsing-sidebar = Бічна панель
-browsing-sidebar-filter = Фільтр бокової панелі
+browsing-sidebar-filter = Фільтр бічної панелі
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Поле сортування
 browsing-sorting-on-this-column-is-not = Сортування в цій колонці не підтримується. Будь ласка, оберіть іншу.

@@ -98,7 +98,7 @@ statistics-counts-buried-cards = Приховані
 statistics-counts-learning-cards = Навчання
 statistics-counts-relearning-cards = Перенавчання
 statistics-counts-title = Кількість карток
-statistics-counts-separate-suspended-buried-cards = Відокремити призупинені/відкладені картки
+statistics-counts-separate-suspended-buried-cards = Відокремити призупинені/приховані картки
 statistics-range-all-time = тривалість життя колоди
 statistics-range-1-year-history = За остані 12 місяців
 statistics-range-all-history = За весь час
@@ -106,13 +106,22 @@ statistics-range-deck = колода
 statistics-range-collection = колекція
 statistics-range-search = Пошук
 statistics-card-ease-title = Легкість картки
+statistics-card-stability-subtitle = Затримка при якій легкість пригадування опускається до 90%
+statistics-card-retrievability-title = Легкість пригадування картки
 statistics-card-ease-subtitle = Чим менша легкість, тим частіше з'являтиметься картка.
+statistics-retrievability-subtitle = Ймовірність повторного показу картки сьогодні.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] { $cards } картка з легкістю { $percent }
         [few] { $cards } картки з легкістю { $percent }
        *[other] { $cards } карток з легкістю { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } картка з { $percent } легкістю пригадування
+        [few] { $cards } картки з { $percent } легкістю пригадування
+       *[many] { $cards } карток з { $percent } легкістю пригадування
     }
 statistics-future-due-title = Прогноз
 statistics-future-due-subtitle = Кількість майбутніх пригадувань.
@@ -225,6 +234,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Середня легкість
 statistics-average-difficulty = Усереднена складність
+statistics-average-retrievability = Середня легкість пригадування
 statistics-save-pdf = Зберегти в форматі PDF
 statistics-saved = Збережено.
 statistics-stats = статистика
