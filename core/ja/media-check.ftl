@@ -33,7 +33,7 @@ media-check-template-references-field-header =
 media-check-renamed-file = 名前変更：{ $old } ->{ $new }
 media-check-oversize-file = 100MB超：{ $filename }
 media-check-subfolder-file = フォルダ：{ $filename }
-media-check-missing-file = 行方不明：{ $filename }
+media-check-missing-file = 該当なし：{ $filename }
 media-check-unused-file = 使用なし：{ $filename }
 
 ##
