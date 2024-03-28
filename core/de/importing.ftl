@@ -195,6 +195,7 @@ importing-duplicate-note-added = Doppelt hinzugefügt
 importing-added-new-note = Neu hinzugefügt
 importing-existing-note-skipped = Übersprungen, da die Notiz in der aktuellen Version bereits in der Sammlung vorhanden ist
 importing-note-skipped-update-due-to-notetype = Notiz nicht geupdatet, da ihr Notiztyp geändert wurde
+importing-note-skipped-update-due-to-notetype2 = Notiz nicht geupdatet, da ihr Notiztyp nach dem letzten Import geändert wurde und die Option "{ importing-merge-notetypes }" deaktiviert ist.
 importing-note-updated-as-file-had-newer = Notiz geupdatet, da der importierte Stapel eine neuere Version enthielt
 importing-note-skipped-due-to-missing-notetype = Notiz übersprungen, Notiztyp fehlt
 importing-note-skipped-due-to-missing-deck = Notiz übersprungen, Stapel fehlt
