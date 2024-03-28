@@ -147,6 +147,11 @@ importing-existing-notes-skipped =
         [one] { $count } σημείωση υπάρχει ήδη στην συλλογή σας.
        *[other] { $count } σημειώσεις υπάρχουν ήδη στην συλλογή σας.
     }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } σημείωση δεν μπόρεσε να εισαχθεί.
+       *[other] { $count } σημειώσεις δεν μπόρεσαν να εισαχθούν.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } σημείωση δεν εισήχθη επειδή άλλαξε ο τύπος της.
@@ -171,6 +176,7 @@ importing-duplicate-note-added = Προστέθηκε διπλότυπο
 importing-added-new-note = Προστέθηκε νέα σημείωση
 importing-existing-note-skipped = Η σημείωση παραλείφθηκε, καθώς ένα ενημερωμένο αντίγραφο υπάρχει ήδη στην συλλογή σας
 importing-note-skipped-update-due-to-notetype = Η σημείωση δεν ενημερώθηκε καθώς ο τύπος της τροποποιήθηκε από τότε που την εισήγατε για πρώτη φορά
+importing-note-skipped-update-due-to-notetype2 = Η σημείωση δεν ενημερώθηκε, καθώς ο τύπος σημείωσης τροποποιήθηκε από την τελευταία φορά που εισήγατε την σημείωση και η λειτουργία '{ importing-merge-notetypes }' δεν ήταν ενεργοποιημένη
 importing-note-updated-as-file-had-newer = Η σημείωση ενημερώθηκε, καθώς το αρχείο είχε μια νεότερη έκδοση
 importing-note-skipped-due-to-missing-notetype = Η σημείωση παραλείφθηκε καθώς ο τύπος της λείπει.
 importing-note-skipped-due-to-missing-deck = Η σημείωση παραλείφθηκε καθώς η τράπουλα λείπει
