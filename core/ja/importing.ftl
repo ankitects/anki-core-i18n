@@ -165,8 +165,8 @@ importing-import-log = インポート ログ
 importing-no-notes-in-file = ノートがファイル内で見つかりませんでした。
 importing-notes-found-in-file2 =
     { $notes ->
-       *[other] { $notes }個のノート
-    }がファイル内で見つかりました。処理の内訳は下記の通りです:
+       *[other] { $notes }個のノートがファイル内で見つかりました。処理の内訳は下記の通りです。
+    }
 importing-show = 表示
 importing-details = 詳細
 importing-status = 状態
