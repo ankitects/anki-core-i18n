@@ -44,7 +44,7 @@ media-check-subfolder-header = Les fichiers contenus dans le dossier des médias
 media-check-missing-header = Utilisé par des cartes mais manquant dans le dossier média :
 media-check-unused-header = Les fichiers suivants ont été trouvés dans le dossier des médias, mais ne semblent être utilisés sur aucune carte :
 media-check-template-references-field-header =
-    Anki ne peut pas détecter les fichiers quand vous utilisez { "{{Field}}" } références dans les tags media/LaTeX. Les tags media/LaTeX doivent être placés sur des notes individuelles.
+    Anki ne peut pas détecter les fichiers quand vous utilisez des références { "{{Field}}" }  dans les tags media/LaTeX. Les tags media/LaTeX doivent plutot être placés sur des notes individuelles.
     
     Modèles faisant référence :
 
