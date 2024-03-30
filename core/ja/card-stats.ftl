@@ -11,6 +11,7 @@ card-stats-new-card-position = 位置
 card-stats-card-template = カードタイプ
 card-stats-note-type = ノートタイプ
 card-stats-deck-name = デッキ
+card-stats-preset = プリセット
 card-stats-note-id = ノート ID
 card-stats-card-id = カード ID
 card-stats-review-log-rating = 評価
