@@ -36,6 +36,7 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Par défaut, la limite de révisions s'applique aussi aux nouvelles cartes, et aucune nouvelle
     carte ne sera affichée si la limite de révisions a été atteinte. Si cette option est activée, les nouvelles
     cartes seront affichées peu importe la limite de révision.
+deck-config-apply-all-parent-limits = Les limites commencent à partir du paquet parent
 deck-config-apply-all-parent-limits-tooltip =
     Par défaut, les limites commencent du paquet que vous sélectionnez. Si cette option est activée, les limites vont 
     commencer du paquet au plus haut niveau, ce qui peut être utile si vous souhaitez étudier des sous-paquets 
@@ -70,15 +71,15 @@ deck-config-relearning-steps-tooltip = Aucun ou plusieurs délais, séparés par
 deck-config-leech-threshold-tooltip = Le nombre de fois où il faut appuyer sur `À revoir` sur une carte à réviser avant qu'elle ne soit considérée comme une « sangsue ». Les sangsues sont des cartes qui vous font perdre beaucoup de temps, et lorsqu'une carte est marquée comme telle, il peut être opportun de la réécrire, de la supprimer, ou de chercher un moyen mnémotechnique pour mieux s'en souvenir.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Taguer` : Ajoute un tag « sangsue » à la note, et affiche une pop-up.
-    `Suspendre la carte` : En plus de taguer la note, cache la carte jusqu'à ce qu'elle soit manuellement remise en jeu.
+    `Étiqueter` : Ajoute une étiquette « sangsue » à la note, et affiche un pop-up.
+    `Suspendre la carte` : En plus d’étiqueter la note, cache la carte jusqu'à ce qu'elle soit manuellement réactivée.
 
 ## Burying section
 
 deck-config-bury-title = Enfouissement
 deck-config-bury-new-siblings = Enfouir les nouvelles cartes sœurs
 deck-config-bury-review-siblings = Enfouir les cartes sœurs à réviser
-deck-config-bury-interday-learning-siblings = Enfouir les cartes d'apprentissage interjournalier
+deck-config-bury-interday-learning-siblings = Enfouir les cartes sœurs en cours d'apprentissage
 deck-config-bury-new-tooltip = Dans quelle mesure les autres `nouvelles` cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
 deck-config-bury-review-tooltip = Dans quelle mesure les autres cartes `révision` liées à la même note doivent être retardées jusqu'au lendemain.
 deck-config-bury-interday-learning-tooltip =
@@ -296,16 +297,14 @@ deck-config-get-params = Obtenir les paramètres
 deck-config-fsrs-on-all-clients =
     Veuillez vérifier que tous vos clients Anki soient Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. La FSRS
     ne fonctionnera pas correctement si l'un de vos clients est plus ancien.
-deck-config-estimated-retention = Rétention estimée : { $num }
 deck-config-complete = { $num }% complété.
 deck-config-iterations = Itération : { $count }...
 deck-config-reschedule-cards-on-change = Replanifier les cartes lors d'un changement
 deck-config-fsrs-tooltip =
     Affecte toute la collection.
     
-    Le Programmateur Gratuit de la Répétition Espacée (Free Spaced Repetition Scheduler FSRS) est une alternative au programmateur SuperMemo 2 (SM 2) natif d'Anki.
-    En déterminant déterminant plus précisément quand vous êtes susceptible d'oublier, il peut vous aider à vous souvenir
-    de plus de matière sur une même période de temps. Ce paramètre est partagé par tous les préréglages de paquets.
+    Le programmateur FSRS (Free Spaced Repetition Scheduler en anglais) est une alternative à l'ancien programmateur SuperMemo 2 (SM 2) d'Anki.
+    En déterminant déterminant plus précisément quand vous êtes susceptible d'oublier, il peut vous aider à vous souvenir de plus de choses sur une même période de temps. Ce paramètre est partagé par tous les préréglages de paquets.
     
     Si vous avez déjà utilisé la version "planification personnalisée" du FSRS, veuillez faire en sorte
     d'effacer toute saisie dans cette section avant d'activer cette option.

@@ -47,8 +47,8 @@ database-check-notes-with-invalid-utf8 =
     }
 database-check-fixed-invalid-ids =
     { $count ->
-        [one] Corrigé { $count } objet avec un horodatage dans le futur.
-       *[other] Corrigé { $count } objets avec un horodatage dans le futur.
+        [one] { $count } objet corrigé avec un horodatage dans le futur.
+       *[other] { $count } objets corrigés avec un horodatage dans le futur.
     }
 # "db-check" is always in English
 database-check-notetypes-recovered = Un ou plusieurs types de notes sont manquants. Les notes qui y sont liées ont reçu un nouveau type commençant par "db-check". Les noms de champ et design de carte ont été perdus, vous devriez restaurer votre précédente sauvegarde automatique.

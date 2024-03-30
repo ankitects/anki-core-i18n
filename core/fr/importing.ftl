@@ -27,7 +27,7 @@ importing-import-options = Options d’importation
 importing-importing-complete = Importation complète.
 importing-invalid-file-please-restore-from-backup = Fichier invalide. Veuillez restaurer la sauvegarde.
 importing-map-to = Associer à { $val }
-importing-map-to-tags = Associer aux tags
+importing-map-to-tags = Associer aux étiquettes
 importing-mapped-to = associé à <b>{ $val }</b>
 importing-mapped-to-tags = associé à <b>Tags</b>
 importing-mnemosyne-20-deck-db = Paquet MNEMOSYNE 2.0 (*.db)
@@ -37,6 +37,9 @@ importing-notes-found-in-file = Notes trouvées dans fichier: { $val }
 importing-notes-skipped-as-theyre-already-in = Notes sautées car elles sont déjà dans votre collection : { $val }
 importing-notes-skipped-update-due-to-notetype = Notes non mises à jour, car le type de note a été modifié depuis que vous avez importé pour la première fois les notes: { $val }
 importing-notes-updated-as-file-had-newer = Notes mises à jour car le fichier avait une version plus récente : { $val }
+importing-include-reviews-help =
+    Si activé, toute révision précédente que le créateur du paquet partagé a inclus va aussi être importée.
+    Sinon, toutes les cartes vont êtres importées comme de nouvelles cartes, et tous les tags "sangsue" ou "marquée" vont être supprimés.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Fichier de Paquet/Collection Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1,8 leçon
 # the '|' character
@@ -47,7 +50,7 @@ importing-semicolon = Point-virgule
 importing-skipped = Passée
 importing-supermemo-xml-export-xml = XML issu de SUPERMEMO (*.xml)
 importing-tab = Tabulation
-importing-tag-modified-notes = Tague les notes modifiées :
+importing-tag-modified-notes = Étiquette les notes modifiées :
 importing-text-separated-by-tabs-or-semicolons = Fichier texte séparé par des tabulations ou des points-virgules (*)
 importing-the-first-field-of-the-note = Le premier champ du type de note ne peut pas être vide.
 importing-the-provided-file-is-not-a = Le fichier fournit n’est pas un fichier .apkg valable.
@@ -103,8 +106,8 @@ importing-duplicate = Dupliquer
 importing-preserve = Préserver
 # "Existing notes: Update" (verb)
 importing-update = Mettre à jour
-importing-tag-all-notes = Marquer toutes les notes
-importing-tag-updated-notes = Marquer les notes mises à jour
+importing-tag-all-notes = Étiquetter toutes les notes
+importing-tag-updated-notes = Étiquetter les notes mises à jour
 importing-file = Fichier
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Étendue de la correspondance
@@ -154,6 +157,8 @@ importing-note-updated-as-file-had-newer = Note mise à jour car le fichier avai
 importing-note-skipped-due-to-missing-notetype = Note sautée, car son type est manquant
 importing-note-skipped-due-to-missing-deck = Note sautée, car son paquet est manquant
 importing-note-skipped-due-to-empty-first-field = Note sautée, car son premier champ est vide
+importing-tag-all-notes-help = Ces étiquettes vont être ajoutées aussi bien aux notes nouvellement importées qu'aux notes mises à jour.
+importing-tag-updated-notes-help = Ces étiquettes ne vont être ajoutées à aucune note mise à jour.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

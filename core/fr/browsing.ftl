@@ -1,5 +1,5 @@
 browsing-add-notes = Ajouter des notes...
-browsing-add-tags2 = Ajouter des tags...
+browsing-add-tags2 = Ajouter des étiquettes...
 browsing-add-to-selected-notes = Ajouter aux Notes Sélectionnées
 browsing-remove-from-selected-notes = Supprimer des Notes Sélectionnées
 browsing-addon = Greffon
@@ -30,7 +30,7 @@ browsing-change-deck2 = Changer de paquet...
 browsing-change-note-type = Modifier le type de note
 browsing-change-note-type2 = Modifier le type de la note...
 browsing-change-notetype = Modifier le type de note
-browsing-clear-unused-tags = Supprimer les tags inutilisés
+browsing-clear-unused-tags = Supprimer les étiquettes inutilisées
 browsing-confirm-saved-search-overwrite = Une recherche enregistrée avec le nom { $name } existe déjà. Voulez-vous la remplacer ?
 browsing-created = Créée
 browsing-current-deck = Paquet actuel
@@ -38,8 +38,8 @@ browsing-current-note-type = Type de note actuel
 browsing-delete-notes = Supprimer les notes
 browsing-duplicate = doublon
 browsing-ease = Facilité
-browsing-enter-tags-to-add = Saisir le(s) tag(s) à ajouter :
-browsing-enter-tags-to-delete = Supprimer via les tags :
+browsing-enter-tags-to-add = Saisir les étiquettes à ajouter :
+browsing-enter-tags-to-delete = Supprimer via les étiquettes :
 browsing-filtered = (filtrée)
 browsing-find = <b>Trouver</b> :
 browsing-find-and-replace = Chercher et remplacer
@@ -74,7 +74,7 @@ browsing-question = Question
 browsing-queue-bottom = Fin de la file d’attente : { $val }
 browsing-queue-top = Début de la file d’attente : { $val }
 browsing-randomize-order = Ordre aléatoire
-browsing-remove-tags = Supprimer les tags...
+browsing-remove-tags = Supprimer les étiquettes...
 browsing-replace-with = <b>Remplacer par</b> :
 browsing-reposition = Repositionner...
 browsing-reposition-new-cards = Repositionner les nouvelles cartes
@@ -92,8 +92,8 @@ browsing-sorting-on-this-column-is-not = Le tri sur cette colonne n’est pas pe
 browsing-start-position = Position de départ :
 browsing-step = Pas :
 browsing-suspended = Suspendues
-browsing-tag-duplicates = Taguer les doublons
-browsing-tag-rename-warning-empty = Vous ne pouvez pas renommer un tag qui n'a pas de notes.
+browsing-tag-duplicates = Étiqueter les doublons
+browsing-tag-rename-warning-empty = Vous ne pouvez pas renommer une étiquette qui n'a pas de notes.
 browsing-target-field = Champ visé :
 browsing-toggle-bury = Activer/désactiver l'enfouissement
 browsing-toggle-showing-cards-notes = Afficher les cartes/notes
@@ -130,7 +130,7 @@ browsing-sidebar-collapse = Réduire
 browsing-sidebar-expand-children = Développer les enfants
 browsing-sidebar-collapse-children = Réduire les enfants
 browsing-sidebar-decks = Paquets
-browsing-sidebar-tags = Tags
+browsing-sidebar-tags = Étiquettes
 browsing-sidebar-notetypes = Types de notes
 browsing-sidebar-saved-searches = Recherches enregistrées
 browsing-sidebar-save-current-search = Enregistrer la recherche actuelle
@@ -138,7 +138,7 @@ browsing-sidebar-card-state = État de la carte
 browsing-sidebar-flags = Marqueurs
 browsing-today = Aujourd’hui
 browsing-tooltip-card-modified = La dernière fois que des changements ont été effectués sur une carte, révisions, marqueurs et modifications de paquets inclus
-browsing-tooltip-note-modified = La dernière fois qu'une modification a été effectué sur une note, habituellement sur le contenu d'un champ ou la modification d'un tag
+browsing-tooltip-note-modified = La dernière fois qu'une modification a été effectué sur une note, généralement sur le contenu d'un champ ou la modification d'une étiquette
 browsing-tooltip-card = Le nom du modèle de la carte
 browsing-tooltip-cards = Le nombre de carte qu'une note possède
 browsing-tooltip-notetype = Le nom du type de la note
@@ -151,13 +151,13 @@ browsing-edited-today = Modifié
 browsing-sidebar-first-review = Première Révision
 browsing-sidebar-rescheduled = Replanifié
 browsing-sidebar-due-today = Dû
-browsing-sidebar-untagged = Sans tag
+browsing-sidebar-untagged = Sans étiquette
 browsing-sidebar-overdue = En retard
 browsing-row-deleted = (supprimé)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] { $count } tag non utilisé supprimé.
-       *[other] { $count } tags non utilisés supprimés.
+        [one] { $count } étiquette non utilisée supprimée.
+       *[other] { $count } étiquettes non utilisées supprimées.
     }
 browsing-changed-new-position =
     { $count ->
