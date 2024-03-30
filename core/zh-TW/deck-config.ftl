@@ -267,7 +267,7 @@ deck-config-compute-optimal-weights-tooltip =
     當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
     
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習記錄。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
-deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存率」欄位中。
+deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率以提升記憶效果。期望留存率低於最佳值只會增加你的工作量而沒有任何好處，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-a-100-day-interval =
     { $days ->
@@ -285,6 +285,8 @@ deck-config-show-reminder = 顯示提醒
 deck-config-answer-again = 回答「重來」
 deck-config-answer-hard = 回答「困難」
 deck-config-answer-good = 回答「良好」
+deck-config-days-to-simulate = 模擬天數
+deck-config-desired-retention-below-optimal = 你的期望留存率低於最佳，建議提高數值。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -299,3 +301,4 @@ deck-config-bury-tooltip =
     停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動*暫停*關聯卡片，直到下一天前都不會出現。此選項可讓你選擇在回答時要暫停哪些種類的卡片。
     
     使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。
+deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存率」欄位中。
