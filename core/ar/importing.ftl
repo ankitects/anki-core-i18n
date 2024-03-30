@@ -213,6 +213,15 @@ importing-existing-notes-skipped =
         [many] هناك { $count } ملحوظة موجودة بالفعل في مجموعتك
        *[other] هناك { $count } ملحوظة موجودة بالفعل في مجموعتك
     }
+importing-notes-failed =
+    { $count ->
+        [zero] { "" }
+        [one] فشل استيراد ملحوظة واحدة.
+        [two] فشل استيراد ملحوظتين.
+        [few] فشل استيراد { $count } ملحوظات.
+        [many] فشل استيراد { $count } ملحوظة.
+       *[other] فشل استيراد { $count } ملحوظة.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [zero] لم يتم استيراد أية ملحوظة، لأن نوع الملحوظة الخاص بها قد تغير.
@@ -249,6 +258,7 @@ importing-duplicate-note-added = تمت إضافة ملحوظة مكررة
 importing-added-new-note = تمت إضافة ملحوظة جديدة
 importing-existing-note-skipped = تم تخطي الملحوظة، لأن هناك نسخة محدثة موجودة بالفعل في مجموعتك
 importing-note-skipped-update-due-to-notetype = لم يتم تحديث الملحوظة، لأن تم تعديل نوع الملحوظة منذ أن استوردت الملحوظة لأول مرة
+importing-note-skipped-update-due-to-notetype2 = لم يتم تحديث الملحوظة، لأن نوع الملحوظة تغير منذ أن استردت الملحوظة للمرة الأولى، وخيار '{ importing-merge-notetypes }' لم يكن مفعلًا
 importing-note-updated-as-file-had-newer = تم تحديث الملحوظة، لأن كان الملف يحتوي على إصدار أحدث
 importing-note-skipped-due-to-missing-notetype = تم تخطي الملحوظة، لأن نوع الملحوظة الخاص بها كان مفقودًا
 importing-note-skipped-due-to-missing-deck = تم تخطي الملحوظة، لأن الرزمة الخاصة بها كانت مفقودة
