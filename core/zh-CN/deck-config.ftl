@@ -293,7 +293,7 @@ deck-config-ignore-before = 忽略该日期前的复习记录
 deck-config-optimize-all-tip = 您可以使用「保存」右侧下拉菜单中的按钮以一次性优化所有预设。
 deck-config-evaluate-button = 评估
 deck-config-desired-retention = 期望的记忆保留率
-deck-config-sm2-retention = SM2 的记忆保留率
+deck-config-historical-retention = 历史记忆保留率
 deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记录。
 deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
@@ -315,9 +315,14 @@ deck-config-desired-retention-tooltip =
     如果您增加数值，Anki 会增加展示卡片的频率，以增加您回忆成功的概率。
     如果您降低数值，Anki 会降低展示卡片的频率，您也可能会遗忘更多的卡片。
     请保守地增加数值，因为这会增加您的工作量；而较低的数值可能会让您在忘记很多内容时心情低落。
-deck-config-sm2-retention-tooltip =
-    如果您在使用 FSRS 之前的记忆保留率与 0.9 存在显著差异，调整这个值将会使 Anki 在遇到缺少复习记录的卡片时，能更好地评估您的记忆状态，
-    由于复习记录通常不会丢失，除非您特意删除它们以释放空间，大多数用户不需要对此数值进行调整。
+deck-config-historical-retention-tooltip =
+    当您的一些复习记录缺失时，FSRS 需要填补空白。默认情况下它会假设您在进行那些旧的复习时，记住了 90% 的材料。如果您之前的记忆保留率显著高于或低于 90%，更改此选项可以使 FSRS 更好地估计缺失的复习记录。
+    
+    您的复习记录不完整的原因可能有两种：
+    1. 您之前使用过「忽略该日期前的复习记录」选项
+    2. 您之前为释放空间删除过复习日志，或者从不同的间隔重复调度算法（SRS）程序导入过材料。
+    
+    后者非常罕见，因此除非您使用过前一个选项，否则您可能并不需要调整此选项。
 deck-config-weights-tooltip = FSRS 参数影响如何将卡片进行排程。当您积累了 1000+ 次复习后，您可以在下面对参数进行优化。
 deck-config-reschedule-cards-on-change-tooltip =
     此选项影响整个集合，并且不会被保存。
