@@ -335,7 +335,7 @@ deck-config-ignore-before = Escludi le ripetizioni prima di
 deck-config-optimize-all-tip = Ottimizza tutte le preimpostazioni contemporaneamente dal menù a tendina vicino a "Salva".
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
-deck-config-historical-retention = Ritenzione passata
+deck-config-historical-retention = Ritenzione storica
 deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migliori.
 deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
 deck-config-get-params = Ottieni parametri
@@ -394,7 +394,7 @@ deck-config-reschedule-cards-warning =
     aumenterà le dimensioni della collezione.
 deck-config-ignore-before-tooltip =
     Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
-    Questo può risultare utile nel caso in cui si siano importati i dati di pianificazione di un'altra persona o siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
+    Questo può risultare utile nel caso in cui si fossero importati i dati di pianificazione di un'altra persona o qualora siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip =
     Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare lo storico delle ripetizioni
     e generare automaticamente parametri ottimali per la propria memoria e i contenuti che si stanno studiando. 
