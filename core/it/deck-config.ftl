@@ -335,7 +335,7 @@ deck-config-ignore-before = Escludi le ripetizioni prima di
 deck-config-optimize-all-tip = Ottimizza tutte le preimpostazioni contemporaneamente dal menù a tendina vicino a "Salva".
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
-deck-config-sm2-retention = Ritenzione SM2
+deck-config-historical-retention = Ritenzione passata
 deck-config-smaller-is-better = Numeri più bassi indicano stime di memoria migliori.
 deck-config-steps-too-large-for-fsrs = Quando FSRS è abilitato, è sconsigliato usare passi di (re)apprendimento intergiornalieri (cioè ≥ 1 giorno).
 deck-config-get-params = Ottieni parametri
@@ -362,11 +362,19 @@ deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Aumentando questo valore, le carte verranno mostrate più frequentemente per incrementare la probabilità di ricordarle. Diminuendo questo valore, le carte verranno mostrate meno frequentemente e crescerà il rischio di dimenticarle.
     
     È consigliato essere prudenti nell'apportare modifiche a questo parametro: valori più alti aumenteranno notevolmente il proprio carico di lavoro, mentre valori più bassi possono causare demoralizzazione quando comportano il dimenticare molte informazioni.
-deck-config-sm2-retention-tooltip =
-    Se la propria ritenzione effettiva prima del passaggio a FSRS era significativamente diversa da 0,9, 
-    la regolazione di questo valore permette di ottenere una stima più accurata del proprio stato di memoria
-    nel caso in cui vengano introdotte carte prive del registro delle ripetizioni.<br><br>N.B.: normalmente non ci saranno mai registri delle ripetizioni mancanti, a meno che non vengano eliminati
-    per liberare spazio, per cui la maggior parte degli utenti non avrà bisogno di modificare questa impostazione.
+deck-config-historical-retention-tooltip =
+    Quando manca parte dello storico delle ripetizioni, FSRS deve necessariamente colmare le lacune.
+    Per impostazione predefinita si presuppone che sia stato ricordato il 90% del materiale delle vecchie ripetizioni.
+    Qualora la vecchia ritenzione fosse significativamente più alta o più bassa, la regolazione di questa opzione
+    permette di approssimare meglio le ripetizioni mancanti.
+    
+    Lo storico delle ripetizioni potrebbe essere incompleto per due motivi principali:
+    1. L'utilizzo dell'opzione "escludi le ripetizioni prima di".
+    2. L'eliminazione di voci dal registro delle ripetizioni per liberare spazio oppure l'importazione di materiale
+    da un programma SRS diverso.
+    
+    Quest'ultima eventualità è piuttosto rara, quindi, a meno che non si sia utilizzata l'opzione di cui al punto 1,
+    probabilmente non è necessario modificare questa impostazione.
 deck-config-weights-tooltip =
     I parametri FSRS influiscono sulla pianificazione delle carte. Alla prima attivazione di FSRS,
     verranno utilizzati i parametri predefiniti e, una volta accumulate 1000 o più ripetizioni,
@@ -388,12 +396,12 @@ deck-config-ignore-before-tooltip =
     Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
     Questo può risultare utile nel caso in cui si siano importati i dati di pianificazione di un'altra persona o siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip =
-    Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare la cronologia delle ripetizioni
+    Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare lo storico delle ripetizioni
     e generare automaticamente parametri ottimali per la propria memoria e i contenuti che si stanno studiando. 
     Se sono presenti mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preimpostazioni separate, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
     Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
     
-    Di default, i parametri saranno calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
+    Di default, i parametri saranno calcolati in base allo storico delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
 deck-config-compute-optimal-retention-tooltip2 =
     Questo strumento presuppone che si inizi con 0 carte apprese e cerca di calcolare il valore di ritenzione desiderata
     che consente di imparare la maggior parte del materiale nel minor tempo possibile. Il numero risultante
