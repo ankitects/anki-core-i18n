@@ -223,7 +223,7 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 
 deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 參數必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
-deck-config-not-enough-history = 歷史複習次數過少，無法執行此動作。
+deck-config-not-enough-history = 複習歷程過少，無法執行此動作。
 deck-config-unable-to-determine-desired-retention = 無法計算出最佳留存率。
 deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。至少需要 400 筆複習記錄才能執行此動作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
@@ -232,12 +232,12 @@ deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-optimal-retention = 計算最佳留存率
 deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
-deck-config-ignore-before = 複習記錄起始時間
+deck-config-ignore-before = 複習歷程起始時間
 deck-config-optimize-all-tip = 你可以在「儲存」按鈕旁的下拉式選單中一次最佳化所有預設組。
 deck-config-evaluate-button = 評估
 deck-config-desired-retention = 期望留存率
-deck-config-sm2-retention = SM2 留存率
-deck-config-smaller-is-better = 數字越小表示越符合你的複習歷史記錄。
+deck-config-historical-retention = 歷史留存率
+deck-config-smaller-is-better = 數字越小表示越符合你的複習歷程。
 deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議設定超過一天的學習階段。
 deck-config-get-params = 取得參數
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
@@ -252,7 +252,14 @@ deck-config-fsrs-tooltip =
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
 deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片將被排程到你記得卡片的機率為 90% 時進行下一次複習。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，你將遺忘更多卡片。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
-deck-config-sm2-retention-tooltip = 如果你在切換到 FSRS 之前的實際留存率與 0.9 相差過多，調整該值可以讓 Anki 更精確地估算缺失複習歷史記錄的卡片的記憶狀態。通常卡片歷史記錄只有當你自行刪除來清理空間時才會遺失，因此大多數使用者不需要調整該值。
+deck-config-historical-retention-tooltip =
+    如果你的複習歷程有部分遺失，FSRS 需要補齊這些部分。根據預設，FSRS 將假設你在記憶留存率為 90% 時做出了這些複習。若你先前的留存率與 90% 相差過多，則可透過調整該選項來使 FSRS 更接近遺失的複習歷程。
+    
+    複習歷程不完整可能是因以下兩種原因：
+    1. 你使用了「複習歷程起始時間」選項。
+    2. 你先前刪除了複習記錄來清理空間，或匯入了另一個間隔重複程式的內容。
+    
+    後者較為罕見，因此若你未使用前者，則無需調整該設定。
 deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。當複習超過 1000 次以後，你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的表現。
 deck-config-reschedule-cards-on-change-tooltip =
     影響整個集合，且不會被儲存。
@@ -264,9 +271,9 @@ deck-config-reschedule-cards-warning =
     使用此選項會對每張卡片都加入一條複習記錄，使集合佔用更多空間，因此請節制使用。
 deck-config-ignore-before-tooltip = 設定後，最佳化及評估 FSRS 參數時將無視在所選日期前做出的複習。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
 deck-config-compute-optimal-weights-tooltip =
-    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷史記錄，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
+    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷程，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
     
-    根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習記錄。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
+    根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最佳值只會增加你的工作量而沒有任何好處，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-a-100-day-interval =
