@@ -1,5 +1,6 @@
 adding-add-shortcut-ctrlandenter = Dodaj (skrót: ctrl+enter)
 adding-added = Dodano
+adding-discard-current-input = Porzucić wpisany tekst?
 adding-keep-editing = Edytuj dalej
 adding-edit = Edytuj "{ $val }"
 adding-history = Historia
