@@ -71,8 +71,20 @@ editing-alignment = Alignement
 editing-equations = Équations
 editing-no-image-found-on-clipboard = Aucune image trouvée dans le Presse-Papier
 editing-image-occlusion-mode = Mode schéma à remplir
+editing-image-occlusion-zoom-out = Dézoomer
+editing-image-occlusion-zoom-in = Zoomer
+editing-image-occlusion-zoom-reset = Zoom par défaut
+editing-image-occlusion-toggle-translucent = Changer l'opacité
 editing-image-occlusion-delete = Supprimer
 editing-image-occlusion-duplicate = Dupliquer
+editing-image-occlusion-alignment = Alignement
+editing-image-occlusion-align-left = Aligner à gauche
+editing-image-occlusion-align-right = Aligner à droite
+editing-image-occlusion-select-tool = Sélectionner
+editing-image-occlusion-rectangle-tool = Rectangle
+editing-image-occlusion-ellipse-tool = Ellipse
+editing-image-occlusion-polygon-tool = Polygone
+editing-image-occlusion-text-tool = Texte
 editing-image-occlusion-confirm-reset = Êtes-vous sûr de vouloir réinitialiser cet schéma à remplir?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.

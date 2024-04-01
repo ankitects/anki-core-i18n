@@ -30,6 +30,8 @@ importing-map-to = Associer à { $val }
 importing-map-to-tags = Associer aux étiquettes
 importing-mapped-to = associé à <b>{ $val }</b>
 importing-mapped-to-tags = associé à <b>Tags</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Fusionner les types de notes
 importing-mnemosyne-20-deck-db = Paquet MNEMOSYNE 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Les séparateurs multi-caractères ne sont pas supportés. S.v.p. entrez un caractère unique.
 importing-notes-added-from-file = Notes ajoutées depuis fichier : { $val }
@@ -134,6 +136,11 @@ importing-existing-notes-skipped =
         [one] { $count } note déjà présente dans votre collection.
        *[other] { $count } notes déjà présentes dans votre collection.
     }
+importing-notes-failed =
+    { $count ->
+        [one] note n'a pas pu être importée
+       *[other] notes n'ont pas pu être importées
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } note n'a pas été importée, car son type a changé.
@@ -157,6 +164,7 @@ importing-note-updated-as-file-had-newer = Note mise à jour car le fichier avai
 importing-note-skipped-due-to-missing-notetype = Note sautée, car son type est manquant
 importing-note-skipped-due-to-missing-deck = Note sautée, car son paquet est manquant
 importing-note-skipped-due-to-empty-first-field = Note sautée, car son premier champ est vide
+importing-deck-help = Les cartes importées seront placées dans ce paquet
 importing-tag-all-notes-help = Ces étiquettes vont être ajoutées aussi bien aux notes nouvellement importées qu'aux notes mises à jour.
 importing-tag-updated-notes-help = Ces étiquettes ne vont être ajoutées à aucune note mise à jour.
 
