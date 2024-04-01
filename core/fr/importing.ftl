@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = Les fichiers .anki proviennent d’une ve
 importing-anki2-files-are-not-directly-importable = Les fichiers .anki2 ne sont pas directement importables. Veuillez importer le fichier .apkg ou .zip que vous avez reçu à la place.
 importing-appeared-twice-in-file = Apparaît en double dans le fichier : { $val }
 importing-by-default-anki-will-detect-the = Anki sait détecter les signes de ponctuation tels les virgules ou les tabulations. Mais si la détection automatique échoue, le caractère peut être entré manuellement ici. Pour écrire une tabulation, entrez \t.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Les types de notes "texte à trou" ne peuvent pas être fusionnés avec des types de notes normaux.
+    Vous pouvez toujours importer le fichier en désactivant l'option "{ importing-merge-notetypes }".
 importing-change = Modifier
 importing-colon = Deux-points
 importing-comma = Virgule
