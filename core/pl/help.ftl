@@ -11,3 +11,8 @@ help-ok = OK
 
 ## Body
 
+# Newly introduced settings may not have an explanation yet
+help-no-explanation =
+    Aj! Nie ma jeszcze objaśnienia dla tego ustawienia.
+    
+    Możesz pomóc w uzupełnianiu tej strony pomocy w { $link }.

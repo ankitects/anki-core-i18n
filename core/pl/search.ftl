@@ -7,6 +7,8 @@
 search-invalid-search = Nieprawidłowe wyszukiwanie: { $reason }
 search-misplaced-and = znaleziono `and`, jednak nie łączy ono dwóch wyszukiwanych terminów. Jeśli chcesz znaleźć konkretnie to słowo, umieść je w cudzysłowie: `"and"`.
 search-misplaced-or = znaleziono `or`, jednak nie łączy ono dwóch wyszukiwanych terminów. Jeśli chcesz znaleźć konkretnie to słowo, umieść je w cudzysłowie: `"or"`.
+search-empty-quote = znaleziono parę podwójnych cudzysłowów `""`, ale nie ma między nimi nic do wyszukania. Jeśli chcesz wyszukać właśnie parę cudzysłowów, dodaj backslash: `\"\"`.
+search-unclosed-quote = znaleziono podwójny cudzysłów `", ale nie ma żadnego zamykającego. Jeśli chcesz wyszukać właśnie cudzysłów, dodaj backslash: `\"`.
 search-missing-key = pojawił się dwukropek `:` niepoprzedzony słowem kluczowym. Jeśli chcesz wyszukać znak `:`, poprzedź go ukośnikiem: `\:`.
 search-invalid-argument = `{ $term }` nadano nieprawidłowy  argument '`{ $argument } '`.
 search-invalid-flag-2 = Po tekście wyszukiwania `flag:` należy wpisać prawidłowy numer flagi:  "1" (czerwony),  "2" (pomarańczowy), "3" (zielony), "4" (niebieski), "5" (różowy), "6" (turkusowy), "7" (fioletowy) lub "0" (brak flagi).

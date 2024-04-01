@@ -20,3 +20,4 @@ fields-name-invalid-letter = Nazwa pola nie powinna zawierać :, ”, { ani }.
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = Pomiń w domyślnym wyszukiwaniu (wolniejsze)
+fields-field-is-required = To pole jest wymagane i nie można go usunąć

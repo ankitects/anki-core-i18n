@@ -1,5 +1,3 @@
-errors-invalid-input-empty = Nieprawidłowe dane.
-errors-invalid-input-details = Nieprawidłowe dane: { $details }
 errors-parse-number-fail = Liczba nieprawidłowa lub poza zakresem.
 errors-filtered-parent-deck = Talie filtrowane nie mogą posiadać podtalii.
 errors-filtered-deck-required = Tę czynność można wykonać tylko na talii filtrowanej.
@@ -16,4 +14,10 @@ errors-inconsistent-db-state = Baza danych jest niespójna. Użyj funkcji Sprawd
 
 ## Card Rendering
 
+errors-bad-directive = Błąd w dyrektywie '{ $directive }': { $error }
 errors-option-not-set = nie ustawiono '{ $option }'
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+errors-invalid-input-empty = Nieprawidłowe dane.
+errors-invalid-input-details = Nieprawidłowe dane: { $details }
