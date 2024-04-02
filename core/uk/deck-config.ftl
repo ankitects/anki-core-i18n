@@ -254,8 +254,8 @@ deck-config-wait-for-audio-tooltip = Чекати на завершення ау
 
 ## Audio section
 
-deck-config-audio-title = Авдіо
-deck-config-disable-autoplay = Не відтворювати авдіо автоматично
+deck-config-audio-title = Аудіо
+deck-config-disable-autoplay = Не відтворювати аудіо автоматично
 deck-config-disable-autoplay-tooltip =
     Коли ввімкнено, Anki не буде відтворювати аудіо автоматично.
     Його можна відтворити натиснувши на іконку аудіо або використавши дію повторного відтворення.
@@ -334,12 +334,20 @@ deck-config-reviews-too-low =
        *[many] Додаючи щодня { $card } нову карток, межа пригадування складатиме щонайменше { $expected }.
     }
 deck-config-learning-step-above-graduating-interval = Градуйований інтервал має бути щонайменше таким довгим, як і останній крок навчання.
+deck-config-good-above-easy = Інтервал легкості має бути щонайменше таким же, як і градуйований інтервал.
+deck-config-relearning-steps-above-minimum-interval = Інтервал найменшого кола має бути щонайменше таким же, як і кінцевий крок перенавчання.
+deck-config-maximum-answer-secs-above-recommended = Anki може ефективніше планувати пригадування, якщо запитання є короткими.
 
 ## Selecting a deck
 
+deck-config-which-deck = Для якої колоди показати налаштування?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Оновлюю картки: { $current_cards_count } / { $total_cards_count }...
+deck-config-invalid-weights = Параметри повинні бути порожніми, щоб вжити типові значення, або 17-ма числами, розділеними комами.
+deck-config-not-enough-history = Історія пригадувань недостатня для виконання операції.
+deck-config-unable-to-determine-desired-retention = Неможливо визначити оптимальне запам'ятовування.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
