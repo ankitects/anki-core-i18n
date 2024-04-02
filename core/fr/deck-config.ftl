@@ -290,13 +290,14 @@ deck-config-optimize-all-tip =
     à côté de "Sauvegarder".
 deck-config-evaluate-button = Évaluer
 deck-config-desired-retention = Rétention souhaitée
-deck-config-sm2-retention = Rétention SM2
+deck-config-historical-retention = Rétention historique
 deck-config-smaller-is-better = Les petits nombres indiquent de meilleures estimations de la mémoire.
 deck-config-steps-too-large-for-fsrs = Lorsque le FSRS est activé, les étapes d'1 jour ou plus ne sont pas recommandées.
 deck-config-get-params = Obtenir les paramètres
 deck-config-fsrs-on-all-clients =
     Veuillez vérifier que tous vos clients Anki soient Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. La FSRS
     ne fonctionnera pas correctement si l'un de vos clients est plus ancien.
+deck-config-predicted-optimal-retention = Rétention optimale prédite : { $num }
 deck-config-complete = { $num }% complété.
 deck-config-iterations = Itération : { $count }...
 deck-config-reschedule-cards-on-change = Replanifier les cartes lors d'un changement
@@ -308,6 +309,34 @@ deck-config-fsrs-tooltip =
     
     Si vous avez déjà utilisé la version "planification personnalisée" du FSRS, veuillez faire en sorte
     d'effacer toute saisie dans cette section avant d'activer cette option.
+deck-config-desired-retention-tooltip =
+    La valeur par défaut de 0,9 planifie les cartes de manière à ce que vous ayez 90 % de chances de vous en souvenir lorsqu'elles apparaîtront de nouveau.
+    Si vous augmentez cette valeur, Anki affichera les cartes plus fréquemment afin d'augmenter les chances que vous vous en souveniez. Si vous diminuez cette valeur, Anki montrera les cartes moins fréquemment, et vous en oublierez davantage. 
+    Soyez prudent lors de l'ajustement de cette valeur - des valeurs plus élevées augmenteront considérablement votre charge de travail, et des valeurs plus faibles peuvent être démoralisantes en vous faisant oublier une grande partie du contenu appris.
+deck-config-historical-retention-tooltip =
+    Lorsqu'une partie de votre historique de révision est manquante, le FSRS doit combler ce manque. Par défaut, il suppose que lorsque vous avez effectué ces anciennes révisions, vous vous souveniez de 90 % du contenu. Si votre ancienne rétention était en réalité sensiblement supérieure ou inférieure à 90 %, le réglage de cette option permettra au FSRS d'obtenir une meilleure approximation des révisions manquantes.
+    
+    Votre historique d'examens pourrait être incomplet pour deux raisons :
+    1. Parce que vous avez utilisé l'option "ignorer les révisions précédentes".
+    2. Parce que vous avez supprimé des logs de révision pour libérer de l'espace, ou parce que vous avez importé du matériel à partir d'un autre programme de SRS.
+    
+    Ce dernier cas étant assez rare, vous n'avez probablement pas besoin d'ajuster ce paramètre, à moins que vous n'ayez utilisé la première option.
+deck-config-weights-tooltip = Les paramètres FSRS affectent la manière dont les cartes sont programmées. Anki commencera avec les paramètres par défaut. Une fois que vous avez accumulé plus de 1000 révisions, vous pourrez utiliser l'option ci-dessous pour optimiser les paramètres afin qu'ils correspondent au mieux à vos performances dans les decks utilisant ce préréglage.
+deck-config-reschedule-cards-on-change-tooltip =
+    Affecte l'ensemble de la collection ; n'est pas sauvegardée.
+    
+    Cette option détermine si les dates d'échéance des cartes seront modifiées lorsque vous activez le FSRS ou que vous optimisez les paramètres. Par défaut, les cartes ne sont pas reprogrammées : les futurs révisions utiliseront le nouveau système de planification, mais il n'y aura pas de changement immédiat dans votre charge de travail.
+    Si la replanification est activée, les dates d'échéance des cartes seront modifiées lorsque vous activez le FSRS ou que vous optimisez les paramètres.
+deck-config-reschedule-cards-warning =
+    En fonction de la rétention souhaitée, cette option peut entraîner l'arrivée à échéance immédiate d'un grand nombre de cartes. Elle n'est donc pas recommandée lorsque vous passez pour la première fois de SM2 à FSRS.
+    Utilisez cette option avec parcimonie, car elle ajoutera une entrée de révision à chacune de vos cartes et augmentera la taille de votre collection.
+deck-config-ignore-before-tooltip =
+    Si cette option est activée, les révisions antérieures à la date indiquée seront ignorées lors de l'optimisation et de l'évaluation des paramètres FSRS.
+    Cela peut être utile si vous avez importé les données de planification de quelqu'un d'autre ou si vous avez changé la façon dont vous utilisez les boutons de réponse.
+deck-config-compute-optimal-weights-tooltip =
+    Une fois que vous aurez effectué plus de 1000 révisions dans Anki, vous pourrez utiliser le bouton 'Optimiser' pour analyser l'historique de vos révisions et générer automatiquement des paramètres optimaux adaptés à votre mémoire et au contenu que vous étudiez.
+    Si vous avez des jeux dont la difficulté varie considérablement, il est recommandé de leur attribuer des préréglages de paramètres distincts, car les paramètres pour les jeux faciles et les jeux difficiles devraient être différents. Il n'est pas utile d'optimiser vos paramètres fréquemment - une fois tous les quelques mois suffit.
+    Les paramètres sont calculés par défaut à partir de l'historique de tous les decks utilisant le préréglage actuel. Vous pouvez éventuellement ajuster la recherche avant le calcul des paramètres, si vous souhaitez contrôler quelles cartes sont utilisées pour optimiser les paramètres.
 deck-config-wait-for-audio = Attendre l'audio
 deck-config-show-reminder = Afficher le rappel
 deck-config-answer-again = Réponse à revoir
