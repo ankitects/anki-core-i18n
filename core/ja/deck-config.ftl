@@ -292,8 +292,8 @@ deck-config-not-enough-history = この操作を行うために十分な数の�
 deck-config-unable-to-determine-desired-retention = 最適な正答率を推定できませんでした
 deck-config-must-have-400-reviews = 復習履歴が{ $count }件しか見つかりません。この操作を実行するには400件以上の復習履歴が必要です。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = FSRSのパラメータ
-deck-config-compute-optimal-weights = FSRSのパラメータを最適化
+deck-config-weights = FSRSパラメータ
+deck-config-compute-optimal-weights = FSRSパラメータを最適化
 deck-config-compute-optimal-retention = 学習プランから正答率を推定
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
@@ -301,7 +301,6 @@ deck-config-ignore-before = 指定日より前の復習を無視
 deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
 deck-config-evaluate-button = 評価
 deck-config-desired-retention = 正答率（目標値）
-deck-config-sm2-retention = SM2での正答率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-get-params = パラメータを取得
@@ -323,16 +322,12 @@ deck-config-desired-retention-tooltip =
     この値を下げると、より少ない頻度で、つまり、より長めの間隔でカードを表示し、結果として、あなたは答えを比較的忘れやすくなると予想されます。
     
     この値の調整は、控えめに、慎重に行ってください。値を上げすぎると、学習量が大幅に増えて重荷になってしまいますし、値を下げすぎると、答えを忘れてしまうカードが多くなって、学習意欲が下がってしまうかもしれません。
-deck-config-sm2-retention-tooltip =
-    FSRSスケジューラーに切り替える前のSM2スケジューラーの学習における実際の正答率が0.9（＝90%）と大幅に異なる場合、この値を実態に即した値に調整することで、復習履歴の全体または一部が欠落しているカードについて、あなたの成績をAnkiがより適切に推定できるようになります。
-    
-    通常、ユーザーが関連ファイルを（ストレージの空き容量を増やすために）意図的に削除したり、復習履歴を改変するアドオンを使用したりしない限り、復習履歴が欠落することはないため、ほとんどのユーザーはこの値を調整する必要がありません。
 deck-config-weights-tooltip =
     カードの復習スケジュールを調整する因子となる複数の値。
     
     FSRSを開始する際、パラメータには、デフォルトの値があらかじめ適用されています。
 deck-config-reschedule-cards-on-change-tooltip =
-    このオプションは、FSRSの使用を開始するとき、またはFSRSのパラメータを最適化した後に、各カードの、すでに予定済みの期日を変更するかどうかを設定します。
+    このオプションは、FSRSの使用を開始するとき、またはFSRSパラメータを最適化した後に、各カードの、すでに予定済みの期日を変更するかどうかを設定します。
     
     このオプションがオフ（デフォルト）の場合、各カードの、すでに予定済みの期日を変更（再スケジュール）しません。今後の復習では新しいスケジュールを使用しますが、予定済みの期日は維持されるため、学習負荷が急に変化することはありません。
     
@@ -341,7 +336,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     このオプションの設定はすべてのプリセットで共有され、一括で適用された後、オフ（デフォルト）になります。
 deck-config-reschedule-cards-warning = 目標とする正答率にもよりますが、大量のカードがいっぺんに期日を迎えることになる可能性があるため、初めてSM2スケジューラーからFSRSに切り替える際にこのオプションをオンにすることはおすすめしません。
 deck-config-ignore-before-tooltip =
-    このオプションがオンの場合、FSRSのパラメータを最適化・推測する際、指定日より前の復習履歴を無視します。
+    このオプションがオンの場合、FSRSパラメータの値を最適化・推測する際、指定日より前の復習履歴を無視します。
     
     この設定は、インポートしたデッキに他の人の復習履歴が含まれている場合や、あなたが回答ボタンを選ぶ際の方針が以前と今とでは異なるという場合に適しています。
 deck-config-compute-optimal-weights-tooltip =
@@ -364,7 +359,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = { $total_count }個中{ $current_count }個目のプリセットを最適化しています...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
-deck-config-fsrs-params-optimal = FSRSのパラメータは現在最適であると思われます。
+deck-config-fsrs-params-optimal = FSRSパラメータの値は現在最適であると思われます。
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
 deck-config-answer-again = 回答 (もう一度)
