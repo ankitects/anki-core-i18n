@@ -97,7 +97,12 @@ statistics-range-deck = paquet
 statistics-range-collection = collection
 statistics-range-search = Chercher
 statistics-card-ease-title = Facilité de la carte
+statistics-card-difficulty-title = Difficulté de la carte
+statistics-card-stability-title = Stabilité de la carte
+statistics-average-stability = Stabilité moyenne
 statistics-card-ease-subtitle = Moins une carte est facile, plus souvent elle apparaîtra.
+statistics-card-difficulty-subtitle2 = Au plus la difficulté est grande, au plus l'augmentation de la stabilité sera lente.
+statistics-retrievability-subtitle = La probabilité de se rappeler d'une carte aujourd'hui.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -206,6 +211,7 @@ statistics-cards-per-day =
        *[other] { $count } cartes/jour
     }
 statistics-average-ease = Facilité moyenne
+statistics-average-difficulty = Difficulté moyenne
 statistics-save-pdf = Enregistrer en PDF
 statistics-saved = Enregistré
 statistics-stats = statistiques

@@ -42,6 +42,7 @@ importing-notes-found-in-file = Notes trouvées dans fichier: { $val }
 importing-notes-skipped-as-theyre-already-in = Notes sautées car elles sont déjà dans votre collection : { $val }
 importing-notes-skipped-update-due-to-notetype = Notes non mises à jour, car le type de note a été modifié depuis que vous avez importé pour la première fois les notes: { $val }
 importing-notes-updated-as-file-had-newer = Notes mises à jour car le fichier avait une version plus récente : { $val }
+importing-updates = Mises à jour
 importing-include-reviews-help =
     Si activé, toute révision précédente que le créateur du paquet partagé a inclus va aussi être importée.
     Sinon, toutes les cartes vont êtres importées comme de nouvelles cartes, et tous les tags "sangsue" ou "marquée" vont être supprimés.
@@ -65,6 +66,10 @@ importing-unable-to-import-from-a-readonly = Incapable d’importer à partir d�
 importing-unknown-file-format = Format inconnu.
 importing-update-existing-notes-when-first-field = Mettre à jour la note existante lorsque le premier champ est identique
 importing-updated = Mis à jour
+importing-update-always = Toujours
+importing-update-never = Jamais
+importing-update-notes = Mettre à jour les notes
+importing-update-notetypes = Mettre à jour les types de notes
 importing-note-added =
     { $count ->
         [one] { $count } note de plus

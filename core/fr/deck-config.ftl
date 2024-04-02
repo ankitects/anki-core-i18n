@@ -337,11 +337,20 @@ deck-config-compute-optimal-weights-tooltip =
     Une fois que vous aurez effectué plus de 1000 révisions dans Anki, vous pourrez utiliser le bouton 'Optimiser' pour analyser l'historique de vos révisions et générer automatiquement des paramètres optimaux adaptés à votre mémoire et au contenu que vous étudiez.
     Si vous avez des jeux dont la difficulté varie considérablement, il est recommandé de leur attribuer des préréglages de paramètres distincts, car les paramètres pour les jeux faciles et les jeux difficiles devraient être différents. Il n'est pas utile d'optimiser vos paramètres fréquemment - une fois tous les quelques mois suffit.
     Les paramètres sont calculés par défaut à partir de l'historique de tous les decks utilisant le préréglage actuel. Vous pouvez éventuellement ajuster la recherche avant le calcul des paramètres, si vous souhaitez contrôler quelles cartes sont utilisées pour optimiser les paramètres.
+deck-config-compute-optimal-retention-tooltip2 =
+    Cet outil suppose que vous commencez avec 0 cartes apprises et tentera de trouver la valeur de rétention souhaitée qui vous permettra d'apprendre le plus de contenu possible en un minimum de temps.
+    Ce nombre peut servir de référence lorsque vous décidez comment fixer votre rétention souhaitée.
+    Vous pouvez très bien choisir une plus grande rétention souhaitée, si vous êtes prêt à travailler plus longtemps pour un meilleur taux de rétention. Choisir un taux de rétention plus bas que l'optimum n'est pas recommandé, car cela risque de mener à plus de travail sans aucun bénéfice en retour.
+deck-config-please-save-your-changes-first = Veuillez sauvegarder vos changements d'abord.
+deck-config-fsrs-must-be-enabled = Le FSRS doit être préalablement activé.
+deck-config-fsrs-params-optimal = Les paramètres du FSRS semblent actuellement être optimaux.
 deck-config-wait-for-audio = Attendre l'audio
 deck-config-show-reminder = Afficher le rappel
 deck-config-answer-again = Réponse à revoir
 deck-config-answer-hard = Réponse difficile
 deck-config-answer-good = Réponse correcte
+deck-config-days-to-simulate = Nombre de jours à simuler
+deck-config-desired-retention-below-optimal = Votre taux de rétention souhaité est inférieur à la valeur optimale. Il est recommandé de l'augmenter.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

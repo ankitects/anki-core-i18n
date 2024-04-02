@@ -77,14 +77,23 @@ editing-image-occlusion-zoom-reset = Zoom par défaut
 editing-image-occlusion-toggle-translucent = Changer l'opacité
 editing-image-occlusion-delete = Supprimer
 editing-image-occlusion-duplicate = Dupliquer
+editing-image-occlusion-group = Grouper la sélection
+editing-image-occlusion-ungroup = Dégrouper la sélection
+editing-image-occlusion-select-all = Tout sélectionner
 editing-image-occlusion-alignment = Alignement
 editing-image-occlusion-align-left = Aligner à gauche
+editing-image-occlusion-align-h-center = Aligner les centres horizontaux
 editing-image-occlusion-align-right = Aligner à droite
+editing-image-occlusion-align-top = Aligner le haut
+editing-image-occlusion-align-v-center = Aligner les centres verticaux
+editing-image-occlusion-align-bottom = Aligner le bas
 editing-image-occlusion-select-tool = Sélectionner
+editing-image-occlusion-zoom-tool = Zoom
 editing-image-occlusion-rectangle-tool = Rectangle
 editing-image-occlusion-ellipse-tool = Ellipse
 editing-image-occlusion-polygon-tool = Polygone
 editing-image-occlusion-text-tool = Texte
+editing-image-occlusion-toggle-mask-editor = Basculer l'éditeur de masques.
 editing-image-occlusion-confirm-reset = Êtes-vous sûr de vouloir réinitialiser cet schéma à remplir?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
