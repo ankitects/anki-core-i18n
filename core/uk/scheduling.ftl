@@ -93,9 +93,9 @@ scheduling-learn-remaining =
     }
 scheduling-congratulations-finished = Вітаємо! В даний момент ви закінчили роботу з цією колодою.
 scheduling-today-review-limit-reached =
-    Досягнуто денного обмеження для повторень, але ще є картки, 
-    які можна повторити. Для оптимального запам'ятовування 
-    можна збільшити добове обмеження у налаштуваннях.
+    Щоденної межі пригадувань досягнуто, однак ще є пригадувальні картки.
+    Для оптимального запам'ятовування можна збільшити добові 
+    обмеження у налаштуваннях.
 scheduling-today-new-limit-reached =
     У колоді ще є нові картки, але досягнуто добового обмеження.
     Ви можете збільшити обмеження у налаштуваннях,
@@ -131,7 +131,7 @@ scheduling-easy-interval = Інтервал легкості
 scheduling-end = (кінець)
 scheduling-general = Загальне
 scheduling-graduating-interval = Градуйований інтервал
-scheduling-hard-interval = Інтервал для «Важко»
+scheduling-hard-interval = Інтервал для «Тяжко»
 scheduling-ignore-answer-times-longer-than = Не враховувати час відповіді довше ніж
 scheduling-interval-modifier = Модифікатор інтервалу
 scheduling-lapses = Невдачі
@@ -149,7 +149,7 @@ scheduling-new-interval = Новий інтервал
 scheduling-new-options-group-name = Нова назва групи налаштувань:
 scheduling-options-group = Група налаштувань:
 scheduling-order = Порядок
-scheduling-parent-limit = (обмеження для батьківської колоди: { $val })
+scheduling-parent-limit = (межа батьківської колоди: { $val })
 scheduling-reset-counts = Скинути лічильники повторювань та провалів
 scheduling-restore-position = Відновити за можливості початкову позицію
 scheduling-review = Повторювані
