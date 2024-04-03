@@ -62,6 +62,7 @@ importing-update-if-newer = Jeśli nowsze
 importing-update-always = Zawsze
 importing-update-never = Nigdy
 importing-update-notes = Aktualizacja notatki
+importing-update-notetypes = Aktualizuj typy notatek
 importing-note-added =
     { $count ->
         [one] dodano { $count } notatkę
@@ -108,6 +109,7 @@ importing-tag-updated-notes = Nadaj etykietę uaktualnionym notatkom
 importing-file = Plik
 # Used with the 'match scope' option
 importing-notetype-and-deck = Typ notatki i talia
+importing-file-empty = Wybrany plik jest pusty.
 importing-import-log = Rejestr importu
 importing-no-notes-in-file = W pliku nie znaleziono notatek.
 importing-show = Pokaż

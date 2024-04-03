@@ -11,6 +11,7 @@ card-stats-new-card-position = Położenie
 card-stats-card-template = Typ karty
 card-stats-note-type = Typ notatki
 card-stats-deck-name = Talia
+card-stats-preset = Domyślne
 card-stats-note-id = ID notatki
 card-stats-card-id = ID karty
 card-stats-review-log-rating = Ocena
