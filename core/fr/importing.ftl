@@ -35,6 +35,12 @@ importing-mapped-to = associé à <b>{ $val }</b>
 importing-mapped-to-tags = associé à <b>Tags</b>
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = Fusionner les types de notes
+importing-merge-notetypes-help =
+    Si coché, et que vous ou l'auteur du paquet avez altéré le schéma d'un type de note, Anki fusionnera les deux versions au lieu de garder les deux.
+    Changer le schéma d'un type de note signifie ajouter, supprimer, ou réordonner des champs ou des modèles, ou changer le champ de tri.
+    Comme contre-exemple, changer le recto d'un modèle existant ne constitue *pas* en un changement de schéma.
+    
+    Attention : Ceci nécessitera une synchronisation unilatérale, et risque de marquer les notes existantes comme modifiées.
 importing-mnemosyne-20-deck-db = Paquet MNEMOSYNE 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Les séparateurs multi-caractères ne sont pas supportés. S.v.p. entrez un caractère unique.
 importing-notes-added-from-file = Notes ajoutées depuis fichier : { $val }
@@ -42,6 +48,8 @@ importing-notes-found-in-file = Notes trouvées dans fichier: { $val }
 importing-notes-skipped-as-theyre-already-in = Notes sautées car elles sont déjà dans votre collection : { $val }
 importing-notes-skipped-update-due-to-notetype = Notes non mises à jour, car le type de note a été modifié depuis que vous avez importé pour la première fois les notes: { $val }
 importing-notes-updated-as-file-had-newer = Notes mises à jour car le fichier avait une version plus récente : { $val }
+importing-include-reviews = Inclure les révisions
+importing-also-import-progress = Importer tout progrès dans les révisions
 importing-updates = Mises à jour
 importing-include-reviews-help =
     Si activé, toute révision précédente que le créateur du paquet partagé a inclus va aussi être importée.
@@ -69,6 +77,9 @@ importing-updated = Mis à jour
 importing-update-always = Toujours
 importing-update-never = Jamais
 importing-update-notes = Mettre à jour les notes
+importing-update-notes-help =
+    Quand mettre à jour une note préexistante dans votre collection.
+    Par défaut, c'est seulement fait si la note importée correspondante a été récemment modifiée.
 importing-update-notetypes = Mettre à jour les types de notes
 importing-note-added =
     { $count ->

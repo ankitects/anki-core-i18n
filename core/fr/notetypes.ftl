@@ -53,3 +53,4 @@ notetypes-error-loading-image-occlusion = Une erreur est survenue en chargeant l
 notetype-error-no-image-to-show = Pas d'image à afficher.
 notetypes-no-occlusion-created = Vous devez deviner au moins un élément
 notetypes-io-select-image = Sélectionner une image
+notetypes-io-paste-image-from-clipboard = Coller l'image depuis le presse-papier.
