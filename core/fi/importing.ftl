@@ -164,6 +164,11 @@ importing-existing-notes-skipped =
         [one] { $count } muistiinpano on jo kokoelmassasi.
        *[other] { $count } muistiinpanoa on jo kokoelmassasi.
     }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } muistiinpanon tuonti ei onnistunut.
+       *[other] { $count } muistiinpanon tuonti ei onnistunut.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } muistiinpanoa ei tuotu, koska sen muistiinpanotyyppi on muuttunut.
@@ -188,6 +193,7 @@ importing-duplicate-note-added = Muistiinpanon kaksoiskappale lisätty
 importing-added-new-note = Uusi muistiinpano lisätty
 importing-existing-note-skipped = Muistiinpano ohitettu, koska ajantasainen kopio siitä on jo kokoelmassasi
 importing-note-skipped-update-due-to-notetype = Muistiinpanoa ei päivitetty, koska muistiinpanotyyppiä on muutettu sen jälkeen, kun muistiinpano tuotiin ensimmäisen kerran
+importing-note-skipped-update-due-to-notetype2 = Muistiinpanoa ei päivitetty, koska muistiinpanon tyyppiä on muutettu sen jälkeen, kun olet tuonut muistiinpanon ensimmäistä kertaa, eikä asetus '{ importing-merge-notetypes }' ollut käytössä.
 importing-note-updated-as-file-had-newer = Muistiinpano päivitetty, koska tiedoston sisältämä versio oli uudempi
 importing-note-skipped-due-to-missing-notetype = Muistiinpano ohitettu, koska sen muistiinpanotyyppi puuttuu
 importing-note-skipped-due-to-missing-deck = Muistiinpano ohitettu, koska sen pakka puuttuu

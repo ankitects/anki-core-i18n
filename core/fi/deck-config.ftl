@@ -305,6 +305,14 @@ deck-config-fsrs-tooltip =
     Free Spaced Repetition Scheduler (FSRS) on vaihtoehto Ankin vanhalle SuperMemo 2 (SM2) -aikataulutusohjelmalle.
     Se määrittää tarkemmin, milloin olet vaarassa unohtaa oppimaasi, ja auttaa sinua muistamaan enemmän materiaalia samassa ajassa. Tämä asetus vaikuttaa kaikkien pakkojen esiasetuksiin.
 deck-config-desired-retention-tooltip = Oletusarvo 0,9 ajoittaa kortit niin, että sinulla on 90 % mahdollisuus muistaa ne, kun ne tulevat uudelleen kerrattaviksi. Jos arvoa kasvatetaan, Anki näyttää kortteja useammin, jotta muistaisit ne todennäköisemmin. Jos arvoa pienennetään, Anki näyttää kortteja harvemmin, ja unohtanet niistä aiempaa suuremman osan. Ole varovainen säätäessäsi tätä arvoa - suuremmat arvot lisäävät työmäärääsi huomattavasti, ja pienemmät arvot saattavat johtaa siihen, että et muista oppimaasi materiaalia yhtä hyvin, mikä voi olla lannistavaa.
+deck-config-historical-retention-tooltip =
+    Kun osa kertaushistoriastasi puuttuu, FSRS:n on täytettävä aukot. Lähtökohtaisesti se olettaa, että muistit aikanaan kerratessasi 90 % oppimateriaalista. Jos vanha retentionsi oli huomattavasti suurempi tai pienempi kuin 90 %, tämän vaihtoehdon säätäminen antaa FSRS:lle mahdollisuuden arvioida puuttuvia kertauksia paremmin.
+    
+    Kertaushistoriasi voi olla puutteellinen kahdesta syystä:
+    1. Koska olet käyttänyt "Älä huomioi kertauksia, jotka tapahtuivat ennen” -toimintoa.
+    2. Koska olet aiemmin poistanut kertaustiedot vapauttaaksesi tilaa tai tuonut aineistoa toisesta aikavälikertausohjelmasta.
+    
+    Jälkimmäinen tapaus on melko harvinainen, joten jos et ole käyttänyt ensimmäistä vaihtoehtoa, sinun ei todennäköisesti tarvitse muokata tätä asetusta.
 deck-config-weights-tooltip = Mallin painokertoimet vaikuttavat korttien aikataulutukseen. Kun kertauksia on yli 1000, voit optimoida painokertoimet alapuolella.
 deck-config-reschedule-cards-on-change-tooltip = Tällä valinnalla määritetään, muutetaanko korttien eräpäiviä, kun otat FSRS:n käyttöön tai muutat painokertoimia. Oletusarvoisesti kortteja ei ajoiteta uudelleen: tulevissa tarkistuksissa käytetään uutta ajoitusta, mutta työmäärään ei tule välitöntä muutosta. Jos aikataulun muuttaminen otetaan käyttöön, korttien eräpäiviä muutetaan.
 deck-config-reschedule-cards-warning = Riippuen toivomastasi retentioajasta, tämä voi johtaa siihen, että suuri määrä kortteja erääntyy, joten sitä ei suositella, kun siirryt ensimmäistä kertaa SM2:sta.
@@ -315,6 +323,7 @@ deck-config-compute-optimal-weights-tooltip =
     Kun olet tehnyt yli 1000 kertausta Ankissa, voit käyttää Optimoi-painiketta, joka analysoi kertaushistoriasi ja luo automaattisesti painokertoimet, jotka ovat optimaaliset muistisi ja opiskelemasi materiaalin kannalta. Jos sinulla on vaikeusasteeltaan vaihtelevia pakkoja, on suositeltavaa määrittää kullekin erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen painokertoimista tulee erilaisia. Painokertoimia ei tarvitse optimoida usein - kerta muutaman kuukauden välein riittää.
     
     Oletusarvoisesti painotukset lasketaan kaikkien nykyisiä esiasetuksia käyttävien pakkojen kertaushistoriasta. Voit halutessasi säätää hakua ennen painokertoimien laskemista, jos haluat muuttaa, mitä kortteja painokertoimien optimointiin käytetään.
+deck-config-compute-optimal-retention-tooltip2 = Tämä työkalu olettaa, että aloitat 0 opitulla kortilla, ja yrittää löytää sellaisen retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa. Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota optimitasoa alhaisemmaksi, koska silloin työmäärä kasvaa ilman että siitä on hyötyä.
 deck-config-please-save-your-changes-first = Tallenna muutoksesi ennen tämän toiminnon suorittamista.
 deck-config-a-100-day-interval =
     { $days ->
@@ -334,6 +343,8 @@ deck-config-show-reminder = Näytä muistutus
 deck-config-answer-again = Vastaa uudelleen
 deck-config-answer-hard = Vastaa Vaikea
 deck-config-answer-good = Vastaa Hyvä
+deck-config-days-to-simulate = Simuloitavien päivien määrä
+deck-config-desired-retention-below-optimal = Valitsemasi retentio on alle optimitason. Sen korottaminen on suositeltavaa.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
