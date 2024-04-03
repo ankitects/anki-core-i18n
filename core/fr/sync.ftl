@@ -22,10 +22,11 @@ sync-media-log-title = Logs de synchronisation des médias
 sync-conflict = Une seule copie d’Anki à la fois peut être synchronisée à votre compte. Veuillez patienter quelques minutes et réessayez.
 sync-server-error = AnkiWeb a recontré un problème. Veuillez réessayer dans quelques minutes.
 sync-client-too-old = Votre version d’Anki est trop ancienne. Veuillez mettre à jour vers la dernière version pour continuer la synchronisation.
-sync-wrong-pass = Votre identifiant Ankiweb ou votre mot de passe sont incorrects. Merci de réessayer.
+sync-wrong-pass = Votre identifiant AnkiWeb ou votre mot de passe est incorrect. Merci de réessayer.
 sync-resync-required = Veuillez synchroniser à nouveau. Si ce message continue d’apparaître, envoyez un message sur le site du support.
 sync-must-wait-for-end = Anki est en cours de synchronisation. Veuillez attendre la fin de la synchronisation, puis réessayez.
 sync-confirm-empty-download = La collection locale n'a pas de cartes. Voulez-vous en télécharger depuis AnkiWeb?
+sync-confirm-empty-upload = La collection sur AnkiWeb n'a pas de cartes. Voulez-vous la remplacer avec la collection locale ?
 sync-conflict-explanation =
     Vos paquets ici et sur ​​AnkiWeb diffèrent de telle sorte qu'ils ne peuvent pas être fusionnés ensemble, il est donc nécessaire de remplacer le pont d'un côté avec les platines de l'autre.
     

@@ -145,7 +145,7 @@ statistics-cards-due =
        *[other] { $cards } cartes  expirées
     }
 statistics-backlog-checkbox = cumul
-statistics-intervals-title = Intervalles
+statistics-intervals-title = Intervalles de révision
 statistics-intervals-subtitle = Le nombre de cartes en fonction de leur intervalle de révision.
 statistics-intervals-day-range =
     { $cards ->
@@ -167,7 +167,7 @@ statistics-hours-correct-reviews = 📈 { $percent }% correct ({ $reviews })
 statistics-hours-title = Répartition horaire
 statistics-hours-subtitle = Taux de révisions réussies en fonction de l’heure du jour.
 # shown when graph is empty
-statistics-no-data = PAS DE DONNEE
+statistics-no-data = PAS DE DONNÉE
 statistics-calendar-title = Calendrier
 
 ## An amount of elapsed time, used in the graphs to show the amount of

@@ -195,7 +195,7 @@ deck-config-disable-autoplay = Ne pas lire les fichiers audio automatiquement
 deck-config-disable-autoplay-tooltip =
     Si activé, Anki ne jouera pas les sons automatiquement.
     Cela peut être effectué manuellement en cliquant/appuyant sur une icône sonore, ou en utilisant l'action de réécoute audio.
-deck-config-skip-question-when-replaying = Sauter la question quand la réponse est rejouée
+deck-config-skip-question-when-replaying = Passer la question quand la réponse est rejouée
 deck-config-always-include-question-audio-tooltip =
     Si le son de la question doit être inclus lorsque l'action Replay est
     utilisée pendant que l'on regarde le côté réponse d'une carte.
@@ -211,7 +211,7 @@ deck-config-starting-ease-tooltip =
     Le multiplicateur de facilité avec lequel les nouvelles cartes commencent. Par défaut, le bouton "Bien" d'une carte
     nouvellement apprise retardera le prochain examen de 2,5 fois le délai précédent.
 deck-config-easy-bonus-tooltip = Un facteur supplémentaire qui est appliqué à l'intervalle d'une carte à réviser quand on répond 'Facile'.
-deck-config-interval-modifier-tooltip = Ce multiplicateur est appliqué à tous les examens, et des ajustements mineurs peuvent être utilisés pour rendre Anki plus conservateur ou agressif dans son ordonnancement. Veuillez consulter le manuel avant de modifier cette option.
+deck-config-interval-modifier-tooltip = Ce multiplicateur est appliqué à toutes les révisions, et des ajustements mineurs peuvent être utilisés pour rendre Anki plus conservateur ou agressif dans sa planification. Veuillez consulter le manuel avant de modifier cette option.
 deck-config-hard-interval-tooltip = Le facteur appliqué à l'intervalle d'une carte à réviser quand on répond 'Difficile'.
 deck-config-new-interval-tooltip = Le facteur appliqué à l'intervalle d'une carte à réviser quand on répond 'À revoir'.
 deck-config-minimum-interval-tooltip = L'intervalle minimum donné à une carte à réviser après avoir répondu 'À revoir'.
@@ -258,19 +258,19 @@ deck-config-reviews-too-low =
         [one] { $cards } carte inédite par jour
        *[other] { $cards } cartes inédites par jour
     }, vous devriez en réviser au moins { $expected } déjà vues.
-deck-config-learning-step-above-graduating-interval = L'intervalle de graduation doit être au moins aussi long que votre dernière étape d'apprentissage.
-deck-config-good-above-easy = L'intervalle facile doit être au moins aussi long que l'intervalle gradué.
-deck-config-relearning-steps-above-minimum-interval = L'intervalle minimal doit être au moins aussi long que votre étape finale de réapprentissage.
-deck-config-maximum-answer-secs-above-recommended = Anki peut programmer vos révisions plus efficacement lorsque vous gardez chaque question courte.
+deck-config-learning-step-above-graduating-interval = L'intervalle de graduation devrait être au moins aussi long que votre dernière étape d'apprentissage.
+deck-config-good-above-easy = L'intervalle facile devrait être au moins aussi long que l'intervalle gradué.
+deck-config-relearning-steps-above-minimum-interval = L'intervalle minimal devrait être au moins aussi long que votre étape finale de réapprentissage.
+deck-config-maximum-answer-secs-above-recommended = Anki peut planifier vos révisions plus efficacement lorsque vous gardez chaque question courte.
 
 ## Selecting a deck
 
-deck-config-which-deck = Quel paquet voulez vous ?
+deck-config-which-deck = Pour quel paquet souhaitez-vous afficher les options ?
 
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Mise à jour des cartes : { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Les paramètres doivent être soit laissés en blanc pour utiliser les valeurs par défaut, soit être 17 nombres séparés par des virgules.
+deck-config-invalid-weights = Les paramètres doivent être soit laissés vides pour utiliser les valeurs par défaut, soit être 17 nombres séparés par des virgules.
 deck-config-not-enough-history = L'historique des révisions est insuffisant pour effectuer cette opération.
 deck-config-unable-to-determine-desired-retention = Impossible de déterminer la rétention optimale.
 deck-config-must-have-400-reviews =
