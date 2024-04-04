@@ -340,13 +340,12 @@ deck-config-ignore-before = Ignorovat opakování před
 deck-config-optimize-all-tip = Můžete optimalizovat všechny předvolby najednou použitím tlačítka výše.
 deck-config-evaluate-button = Vyhodnotit
 deck-config-desired-retention = Požadovaná retence
-deck-config-sm2-retention = SM2 retence
+deck-config-historical-retention = Historická retence
 deck-config-smaller-is-better = Menší čísla naznačují lepší způsobilost pro vaši historii opakování.
 deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delší než 1 den nejsou doporučeny.
 deck-config-fsrs-on-all-clients =
     Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
     fungovat správně, jestliže je některý z vašich klientů starší.
-deck-config-estimated-retention = Odhadovaná retence: { $num }
 deck-config-complete = { $num }% hotovo.
 deck-config-iterations = Iterace: { $count }...
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
@@ -361,11 +360,6 @@ deck-config-desired-retention-tooltip =
     karty méně často, a vy jich více zapomenete. Při nastavování buďte konzervativní - vyšší 
     hodnoty významně zvýší vaše vytížení a nižší hodnoty mohou být demotivující, když zapomenete 
     hodně materiálu.
-deck-config-sm2-retention-tooltip =
-    Jestliže je vaše aktuální retence před přepnutím na FSRS byla významně jiná než 0,9, nastavení 
-    této hodnoty umožní Anki lépe odhadnout váš stav paměti, když se vyskytnou karty, kterým 
-    chybí záznamy opakování. Protože záznamy opakování typicky nebudou chybět, pokud jste je 
-    nesmazali, abyste uvolnili místo, většina uživatelů nepotřebuje toto nastavovat.
 deck-config-weights-tooltip =
     Váhy modelu ovlivňují, jak jsou karty plánovány. Jakmile máte 1000+ opakování, můžete optimalizovat 
     váhy níže.
@@ -388,11 +382,6 @@ deck-config-compute-optimal-weights-tooltip =
     Ve výchozím nastavení se váhy budou počítat z historie opakování všech balíčků za použití současné 
     předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
     se použijí pro optimalizování vah.
-deck-config-compute-optimal-retention-tooltip =
-    Tento nástroj předpokládá, že začínáte s 0 kartami, a pokusí se vypočítat množství materiálu, který budete schopen udržovat v daném časovém rámci. Odhadovaná retence bude do značné míry záviset na vašich vstupech, 
-    a pokud se výrazně liší od 0,9, je to znamení, že čas, který jste přidělili na každý den, je buď příliš nízký,
-    nebo příliš vysoký na množství karet, které se pokoušíte naučit. Toto číslo může být užitečné jako reference, ale
-    nedoporučuje se jej kopírovat do pole požadovaná retence.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
 deck-config-a-100-day-interval =
     { $days ->
@@ -416,3 +405,8 @@ deck-config-answer-good = Odpovědět dobré
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-compute-optimal-retention-tooltip =
+    Tento nástroj předpokládá, že začínáte s 0 kartami, a pokusí se vypočítat množství materiálu, který budete schopen udržovat v daném časovém rámci. Odhadovaná retence bude do značné míry záviset na vašich vstupech, 
+    a pokud se výrazně liší od 0,9, je to znamení, že čas, který jste přidělili na každý den, je buď příliš nízký,
+    nebo příliš vysoký na množství karet, které se pokoušíte naučit. Toto číslo může být užitečné jako reference, ale
+    nedoporučuje se jej kopírovat do pole požadovaná retence.
