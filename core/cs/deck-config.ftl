@@ -346,6 +346,7 @@ deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delš�
 deck-config-fsrs-on-all-clients =
     Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
     fungovat správně, jestliže je některý z vašich klientů starší.
+deck-config-predicted-optimal-retention = Předpovězená optimální retence: { $num }
 deck-config-complete = { $num }% hotovo.
 deck-config-iterations = Iterace: { $count }...
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
