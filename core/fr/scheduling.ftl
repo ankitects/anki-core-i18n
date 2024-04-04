@@ -174,6 +174,6 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] Oublier la carte.
-       *[other] Oublier { $cards } cartes.
+        [one] Une carte réinitialisée.
+       *[other] { $cards } cartes réinitialisées.
     }
