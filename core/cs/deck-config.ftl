@@ -403,6 +403,8 @@ deck-config-show-reminder = Zobrazit upomínku
 deck-config-answer-again = Odpovědět znovu
 deck-config-answer-hard = Odpovědět těžké
 deck-config-answer-good = Odpovědět dobré
+deck-config-days-to-simulate = Simulovat dní
+deck-config-desired-retention-below-optimal = Vaše požadovaná retence není optimální. Je doporučeno ji zvýšit.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
