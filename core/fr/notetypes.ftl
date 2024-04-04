@@ -33,24 +33,25 @@ notetypes-footer = Pied de page
 notetypes-header = En-tête
 notetypes-note-types = Types de note
 notetypes-options = Options...
-notetypes-please-add-another-note-type-first = Avant cela, veuillez ajouter un nouveau type de note..
+notetypes-please-add-another-note-type-first = Avant cela, veuillez ajouter un nouveau type de note.
 notetypes-type = Type
 
 ## Image Occlusion
 
 notetypes-image = Image
 notetypes-occlusion = À Remplir
-notetypes-occlusion-mask = Cache
+notetypes-occlusion-mask = Masque
 notetypes-occlusion-note = Note
 notetypes-comments-field = Commentaires
 notetypes-toggle-masks = Activer/Désactiver les Masques
 notetypes-image-occlusion-name = Schéma à Remplir
 notetypes-hide-all-guess-one = Cacher Tout, Deviner Un
-notetypes-hide-one-guess-one = Cacher Tout, Deviner Un
+notetypes-hide-one-guess-one = Cacher Un, Deviner Un
 notetypes-error-generating-cloze = Une erreur est survenue en générant la note de schéma à remplir
 notetypes-error-getting-imagecloze = Une erreur est survenue en obtenant une note de schéma à remplir
 notetypes-error-loading-image-occlusion = Une erreur est survenue en chargeant le schéma à remplir. Votre version d'Anki est-elle à jour ?
 notetype-error-no-image-to-show = Pas d'image à afficher.
 notetypes-no-occlusion-created = Vous devez deviner au moins un élément
+notetypes-no-occlusion-created2 = Impossible d'ajouter. Soit vous n'avez pas ajouté d'occlusion, soit le premier champ est vide.
 notetypes-io-select-image = Sélectionner une image
 notetypes-io-paste-image-from-clipboard = Coller l'image depuis le presse-papier.

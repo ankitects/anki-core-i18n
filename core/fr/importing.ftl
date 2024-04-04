@@ -50,6 +50,7 @@ importing-notes-skipped-update-due-to-notetype = Notes non mises à jour, car le
 importing-notes-updated-as-file-had-newer = Notes mises à jour car le fichier avait une version plus récente : { $val }
 importing-include-reviews = Inclure les révisions
 importing-also-import-progress = Importer tout progrès dans les révisions
+importing-with-deck-configs = Importer tout préréglage des paquets
 importing-updates = Mises à jour
 importing-include-reviews-help =
     Si activé, toute révision précédente que le créateur du paquet partagé a inclus va aussi être importée.
@@ -74,6 +75,7 @@ importing-unable-to-import-from-a-readonly = Incapable d’importer à partir d�
 importing-unknown-file-format = Format inconnu.
 importing-update-existing-notes-when-first-field = Mettre à jour la note existante lorsque le premier champ est identique
 importing-updated = Mis à jour
+importing-update-if-newer = Si plus récent(es)
 importing-update-always = Toujours
 importing-update-never = Jamais
 importing-update-notes = Mettre à jour les notes
