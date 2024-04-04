@@ -171,6 +171,12 @@ importing-existing-notes-skipped =
         [one] { $count } רשומה כבר קיימת באוסף שלך.
        *[other] { $count } רשומות כבר קיימות באוסף שלך.
     }
+importing-notes-failed =
+    { $count ->
+        [one] לא ניתן לייבא רשומה { $count }.
+        [two] לא ניתן לייבא { $count } רשומות.
+       *[other] לא ניתן לייבא { $count } רשומות.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } רשומה לא יובאה, מכיוון שסוג הרשומה שלה השתנה.
@@ -195,6 +201,7 @@ importing-duplicate-note-added = רשומה כפולה נוספה
 importing-added-new-note = רשומה חדשה התווספה
 importing-existing-note-skipped = רשומה דולגה, כיון שעותק עדכני שלה כבר נמצא במאגר שלך
 importing-note-skipped-update-due-to-notetype = הרשומה לא עודכנה, מכיון שסוג הרשומה שלה השתנה מאז הייבוא הראשון שלה
+importing-note-skipped-update-due-to-notetype2 = רשומה לא עודכנה, מכיוון שסוג הרשומה השתנה מאז שייבאת את הרשומה לראשונה, ו-'{ importing-merge-notetypes }' לא הופעל.
 importing-note-updated-as-file-had-newer = רשומה עודכנה, מכיוון שלקובץ הייתה גרסה חדשה יותר
 importing-note-skipped-due-to-missing-notetype = רשומה דולגה, מכיוון שסוג הרשומה שלה היה חסר
 importing-note-skipped-due-to-missing-deck = רשומה דולגה, מכיוון שהחפיסה שלה חסרה
