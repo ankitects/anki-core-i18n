@@ -348,6 +348,33 @@ deck-config-updating-cards = Оновлюю картки: { $current_cards_count
 deck-config-invalid-weights = Параметри повинні бути порожніми, щоб вжити типові значення, або 17-ма числами, розділеними комами.
 deck-config-not-enough-history = Історія пригадувань недостатня для виконання операції.
 deck-config-unable-to-determine-desired-retention = Неможливо визначити оптимальне запам'ятовування.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Знайдено лише { $count } пригадувальну картку. Для цієї операції потрібно принаймні 400 карток.
+        [few] Знайдено лише { $count } пригадувальні картки. Для цієї операції потрібно принаймні 400 карток.
+       *[many] Знайдено лише { $count } пригадувальних карток. Для цієї операції потрібно принаймні 400 карток.
+    }
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Параметри вільного планувальника РП
+deck-config-compute-optimal-weights = Оптимізувати параметри планувальника
+deck-config-compute-optimal-retention = Обчислити оптимальне запам'ятовування
+deck-config-optimize-button = Оптимізувати
+deck-config-compute-button = Обчислити
+deck-config-ignore-before = Ігнорувати попередні пригадування
+deck-config-optimize-all-tip = Ви можете оптимізувати всі конфігурації одночасно за допомогою спадної кнопки біля "Зберегти".
+deck-config-evaluate-button = Оцінити
+deck-config-desired-retention = Бажане запам'ятовування
+deck-config-historical-retention = Попередні запам'ятовування
+deck-config-smaller-is-better = Менші числа вказують на кращий успіх в історії пригадувань.
+deck-config-steps-too-large-for-fsrs = Не варто вказувати кроки для 1 та наступних днів, коли увімкнено вільного планувальника РП.
+deck-config-get-params = Отримати параметри
+deck-config-fsrs-on-all-clients =
+    Будь ласка, переконайтеся, що всі Ваші Anki клієнти  мабуть версію Anki(Mobile) 23.10+ або AnkiDroid 2.17+.
+    Вільний планувальник РП не працюватиме правильно, якщо у Вас є старіші версії.
+deck-config-predicted-optimal-retention = Прогнозоване оптимальне пригадування: { $num }
+deck-config-complete = { $num }% завершено.
+deck-config-iterations = Ітерація: { $count }...
+deck-config-reschedule-cards-on-change = Переплановувати картки при змінах
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
