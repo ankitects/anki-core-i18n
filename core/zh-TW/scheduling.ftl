@@ -139,5 +139,5 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-       *[other] 已忘記 { $cards } 張卡片。
+       *[other] 已重置 { $cards } 張卡片。
     }
