@@ -99,7 +99,9 @@ statistics-range-search = Chercher
 statistics-card-ease-title = Facilité de la carte
 statistics-card-difficulty-title = Difficulté de la carte
 statistics-card-stability-title = Stabilité de la carte
+statistics-card-stability-subtitle = Délai à partir duquel la retrouvabilité tombe à 90%
 statistics-average-stability = Stabilité moyenne
+statistics-card-retrievability-title = Retrouvabilité de la carte
 statistics-card-ease-subtitle = Moins une carte est facile, plus souvent elle apparaîtra.
 statistics-card-difficulty-subtitle2 = Au plus la difficulté est grande, au plus l'augmentation de la stabilité sera lente.
 statistics-retrievability-subtitle = La probabilité de se rappeler d'une carte aujourd'hui.
@@ -108,6 +110,16 @@ statistics-card-ease-tooltip =
     { $cards ->
         [one] 1 carte avec { $percent } de facilité.
        *[other] { $cards } cartes avec { $percent } de facilité.
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } carte avec une difficulté de { $percent }
+       *[other] { $cards } cartes avec une difficulté de { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } carte avec une retrouvabilité de { $percent }
+       *[other] { $cards } cartes avec une retrouvabilité de { $percent }
     }
 statistics-future-due-title = Charge de travail
 statistics-future-due-subtitle = Prévision du nombre de cartes à réviser selon leur jour d’échéance et leur statut.
@@ -156,6 +168,16 @@ statistics-intervals-day-single =
     { $cards ->
         [one] 1 carte avec un intervalle de { $day } jours
        *[other] { $cards } cartes avec un intervalle de { $day } jours
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } carte avec une stabilité de { $daysStart }~{ $daysEnd } jours
+       *[other] { $cards } cartes avec une stabilité de { $daysStart }~{ $daysEnd } jours
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } carte avec une stabilité de { $day } jour
+       *[other] { $cards } cartes avec une stabilité de { $day } jour
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = De { $hourStart }:00~{ $hourEnd }:00
@@ -212,6 +234,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Facilité moyenne
 statistics-average-difficulty = Difficulté moyenne
+statistics-average-retrievability = Retrouvabilité moyenne
 statistics-save-pdf = Enregistrer en PDF
 statistics-saved = Enregistré
 statistics-stats = statistiques

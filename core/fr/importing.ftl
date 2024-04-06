@@ -83,6 +83,11 @@ importing-update-notes-help =
     Quand mettre à jour une note préexistante dans votre collection.
     Par défaut, c'est seulement fait si la note importée correspondante a été récemment modifiée.
 importing-update-notetypes = Mettre à jour les types de notes
+importing-update-notetypes-help =
+    Quand mettre à jour un type de note existant dans votre collection. Par défaut, cette mise à jour n'est effectuée que
+    si le type de note importé correspondant a été modifié plus récemment. Les modifications apportées au texte
+    et au style du modèle peuvent toujours être importées, mais pour un changement de schéma (par exemple le nombre ou l'ordre des
+    champs a été changé), l'option "{ importing-merge-notetypes }" doit aussi être activée.
 importing-note-added =
     { $count ->
         [one] { $count } note de plus
@@ -167,6 +172,11 @@ importing-conflicting-notes-skipped =
         [one] { $count } note n'a pas été importée, car son type a changé.
        *[other] { $count } notes n'ont pas été importées, car leur type a changé.
     }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } note n'a pas été importée, parce que son type de note a changé, et "{ importing-merge-notetypes }" n'était pas activé.
+       *[other] { $count } notes n'ont pas été importées, parce que leur type de note a changé, et "{ importing-merge-notetypes }" n'était pas activé.
+    }
 importing-import-log = Journal d'Importation
 importing-no-notes-in-file = Pas de notes trouvées dans le fichier.
 importing-notes-found-in-file2 =
@@ -181,11 +191,38 @@ importing-duplicate-note-added = Note dupliquée ajoutée
 importing-added-new-note = Nouvelle note ajoutée
 importing-existing-note-skipped = Note sautée, car une copie à jour est déjà présente dans votre collection
 importing-note-skipped-update-due-to-notetype = Notes non mises à jour, car le type de note a été modifié depuis que vous avez importé la première fois les notes: { $val }
+importing-note-skipped-update-due-to-notetype2 = La note n'a pas été mise à jour, car le type de note a été modifié depuis que vous avez importé la note pour la première fois, et "{ importing-merge-notetypes }" n'était pas activé
 importing-note-updated-as-file-had-newer = Note mise à jour car le fichier avait une version plus récente
 importing-note-skipped-due-to-missing-notetype = Note sautée, car son type est manquant
 importing-note-skipped-due-to-missing-deck = Note sautée, car son paquet est manquant
 importing-note-skipped-due-to-empty-first-field = Note sautée, car son premier champ est vide
+importing-field-separator-help =
+    Le caractère séparant les champs dans le fichier texte. Vous pouvez utiliser l'aperçu pour vérifier
+    si les champs sont séparés correctement.
+    
+    Notez que si le caractère apparaît dans un champ lui-même, ce dernier doit être 
+    cité conformément à la norme CSV. Les tableurs comme LibreOffice 
+    feront ça automatiquement.
+importing-allow-html-in-fields-help =
+    Activer si le fichier contient du formatage HTML. Par exemple si le fichier contient la chaîne de caractères
+    "&lt;br&gt;", il apparaîtra comme un saut de ligne sur votre carte. D'un autre côté, avec cette
+    option désactivée, les caractères "&lt;br&gt;" en eux-mêmes seront affichés.
+importing-notetype-help =
+    Les notes nouvellement importées auront ce type de note, et seulement les notes existantes avec ce
+    type de note seront mises à jour.
+    
+    Vous pouvez choisir quels champs dans le fichier correspondent à tel type de note avec le
+    l'outil de correspondance des champs.
 importing-deck-help = Les cartes importées seront placées dans ce paquet
+importing-existing-notes-help =
+    Que faire si une note importée correspond à une note existante.
+    
+    -"{ importing-update }": Mettre à jour la note existante.
+    -"{ importing-preserve }": Ne rien faire.
+    -"{ importing-duplicate }": Créer une nouvelle note.
+importing-match-scope-help =
+    Seulement les notes existantes ayant le même type de note seront vérifiées pour les doublons. Ça peut
+    également être limité aux notes dont les cartes sont dans le même paquet.
 importing-tag-all-notes-help = Ces étiquettes vont être ajoutées aussi bien aux notes nouvellement importées qu'aux notes mises à jour.
 importing-tag-updated-notes-help = Ces étiquettes ne vont être ajoutées à aucune note mise à jour.
 
