@@ -28,6 +28,11 @@ deck-config-tab-description =
     - `Ta talia`: Ten limit dotyczy jedynie tej talii.
     - `Tylko dziś`: Tymczasowa zmiana limitu talii.
 deck-config-new-cards-ignore-review-limit = Nowe karty nie są liczone do limitu powtórek
+deck-config-apply-all-parent-limits = Limity liczone od najwyższego poziomu
+deck-config-apply-all-parent-limits-tooltip =
+    Domyślnie limity są liczone w wybranej talii. Włączając tę opcję, limity będą liczone
+    od talii na najwyższym poziomie – co może być przydatne, jeśli chcesz uczyć się
+    pojedynczych podtalii, ale z zachowaniem sumarycznego limitu kart na dzień.
 deck-config-affects-entire-collection = Ma wpływ na całą kolekcję
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -114,12 +119,20 @@ deck-config-stop-timer-on-answer-tooltip =
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Czas pokazywania pytania
+deck-config-seconds-to-show-question-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0 by wyłączyć.
+deck-config-seconds-to-show-answer = Czas pokazywania odpowiedzi
+deck-config-seconds-to-show-answer-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie wykonana reakcja odpowiedzi. Ustaw 0 by wyłączyć.
 deck-config-answer-action = Reakcja odpowiedzi
+deck-config-answer-action-tooltip = Działanie wykonane na aktualnej karcie przed automatycznym przejściem do następnej.
 
 ## Audio section
 
 deck-config-audio-title = Dźwięk
 deck-config-disable-autoplay = Nie odtwarzaj automatycznie dźwięku
+deck-config-disable-autoplay-tooltip =
+    Powoduje, że Anki nie będzie odtwarzać dźwięku automatycznie.
+    Dźwięk będzie można odtworzyć przez kliknięcie na ikonę dźwięku albo wybranie opcji "Odtworzenie dźwięku".
 deck-config-skip-question-when-replaying = Pomiń pytanie przy ponownym odtwarzaniu odpowiedzi
 
 ## Advanced section
@@ -154,6 +167,7 @@ deck-config-confirm-remove-name = Usunąć { $name }?
 
 deck-config-save-button = Zapisz
 deck-config-save-to-all-subdecks = Zapisz do wszystkich podtalii
+deck-config-save-and-optimize = Optymalizacja wszystkich opcji FSRS
 deck-config-revert-button-tooltip = Przywróć to ustawienie do domyślnej wartości
 
 ## These strings are shown via the Description button at the bottom of the
@@ -169,6 +183,8 @@ deck-config-reviews-too-low =
         [few] { $cards } karty dziennie
        *[other] { $cards } kart dziennie
     }, twój limit powinien wynosić przynajmniej { $expected }.
+deck-config-learning-step-above-graduating-interval = Przerwa dla kart po nauce powinna być przynajmniej tak długa jak ostatni z kroków nauki.
+deck-config-good-above-easy = Przerwa dla łatwych powinna być przynajmniej tak długa jak przerwa dla kart po nauce.
 deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie planować powtórki tylko pod warunkiem, że będziesz ustawiać krótkie pytania.
 
 ## Selecting a deck
