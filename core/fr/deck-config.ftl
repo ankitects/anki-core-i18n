@@ -342,6 +342,17 @@ deck-config-compute-optimal-retention-tooltip2 =
     Ce nombre peut servir de référence lorsque vous décidez comment fixer votre rétention souhaitée.
     Vous pouvez très bien choisir une plus grande rétention souhaitée, si vous êtes prêt à travailler plus longtemps pour un meilleur taux de rétention. Choisir un taux de rétention plus bas que l'optimum n'est pas recommandé, car cela risque de mener à plus de travail sans aucun bénéfice en retour.
 deck-config-please-save-your-changes-first = Veuillez sauvegarder vos changements d'abord.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Un intervalle de 100 jours deviendra un intervalle de { $days } jour.
+       *[other] Un intervalle de 100 jours deviendra un intervalle de { $days } jours.
+    }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% de { $reviews } révision
+       *[other] { $pct }% de { $reviews } révisions
+    }
+deck-config-optimizing-preset = Optimisation des préréglages { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Le FSRS doit être préalablement activé.
 deck-config-fsrs-params-optimal = Les paramètres du FSRS semblent actuellement être optimaux.
 deck-config-wait-for-audio = Attendre l'audio
