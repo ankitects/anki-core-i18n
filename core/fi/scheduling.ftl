@@ -73,15 +73,8 @@ scheduling-learn-remaining =
        *[other] Jäljellä on vielä { $remaining } korttia, jotka erääntyvät myöhemmin tänään.
     }
 scheduling-congratulations-finished = Onneksi olkoon! Olet käynyt tämän pakan kertaukset läpi toistaiseksi.
-scheduling-today-review-limit-reached =
-    Tämän päivän kertausyläraja on tullut vastaan, mutta jonossa on</ br>
-    vielä kerrattavia kortteja. Harkitse päivittäisen ylärajan nostamista</ br>
-    valinnoissa muistamisen optimoimiseksi.
-scheduling-today-new-limit-reached =
-    Pakassa on vielä uusia kortteja, mutta päivittäinen yläraja on tullut</ br>
-    vastaan. Voit kasvattaa ylärajaa valinnoissa, mutta pidä mielessä</ br>
-    että mitä enemmän uusia kortteja alat opiskella sitä suuremmaksi</ br>
-    lyhyen aikavälin kertauskuormasi tulee.
+scheduling-today-review-limit-reached = Tämän päivän kertausyläraja on tullut vastaan, mutta jonossa on vielä kerrattavia kortteja. Harkitse päivittäisen ylärajan nostamista valinnoissa muistamisen optimoimiseksi.
+scheduling-today-new-limit-reached = Pakassa on vielä uusia kortteja, mutta päivittäinen yläraja on tullut vastaan. Voit kasvattaa ylärajaa valinnoissa, mutta pidä mielessä että mitä enemmän uusia kortteja alat opiskella sitä suuremmaksi lyhyen aikavälin kertauskuormasi tulee.
 scheduling-buried-cards-found = Yksi tai useampi kortti piilotettiin, ja ne näytetään huomenna. Voit { $unburyThem }, jos haluat nähdä ne heti.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
