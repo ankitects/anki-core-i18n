@@ -28,13 +28,13 @@ sync-must-wait-for-end = Anki est en cours de synchronisation. Veuillez attendre
 sync-confirm-empty-download = La collection locale n'a pas de cartes. Voulez-vous en télécharger depuis AnkiWeb?
 sync-confirm-empty-upload = La collection sur AnkiWeb n'a pas de cartes. Voulez-vous la remplacer avec la collection locale ?
 sync-conflict-explanation =
-    Vos paquets ici et sur ​​AnkiWeb diffèrent de telle sorte qu'ils ne peuvent pas être fusionnés ensemble, il est donc nécessaire de remplacer le pont d'un côté avec les platines de l'autre.
+    Vos paquets ici et sur ​​AnkiWeb diffèrent de telle sorte qu'ils ne peuvent pas être fusionnés ensemble, il est donc nécessaire de remplacer les paquets d'un côté ou de l'autre.
     
     Si vous choisissez de télécharger, Anki va télécharger la collection d'AnkiWeb, et tous les changements que vous avez effectués sur votre ordinateur depuis la dernière synchronisation seront perdues.
     
-    Si vous choisissez d'uploader, Anki va envoyer votre collection vers AnkiWeb, et toutes les modifications que vous avez apportées sur AnkiWeb ou vos autres appareils depuis la dernière synchronisation pour ces appareils seront perdues.
+    Si vous choisissez d'uploader, Anki va envoyer votre collection vers AnkiWeb, et toutes les modifications que vous avez apportées sur AnkiWeb ou vos autres appareils depuis la dernière synchronisation sur ces appareils seront perdues.
     
-    Après que tous les appareils soient synchronisés, les futurs révisions et les cartes ajoutées peuvent être fusionnées automatiquement.
+    Après que tous les appareils sont synchronisés, les futurs révisions et les cartes ajoutées peuvent être fusionnées automatiquement.
 sync-ankiweb-id-label = Identifiant Anki :
 sync-password-label = Mot de passe :
 sync-account-required =
