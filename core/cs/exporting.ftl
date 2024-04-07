@@ -26,9 +26,9 @@ exporting-card-exported =
     }
 exporting-exported-media-file =
     { $count ->
-        [one] Exportován { $count } mediální soubor
-        [few] Exportovány { $count } mediální soubory
-       *[other] Exportováno { $count } mediálních souborů
+        [one] Exportován { $count } multimediální soubor
+        [few] Exportovány { $count } multimediální soubory
+       *[other] Exportováno { $count } multimediálních souborů
     }
 exporting-note-exported =
     { $count ->
@@ -39,9 +39,9 @@ exporting-note-exported =
 exporting-exporting-file = Exportuje se soubor...
 exporting-processed-media-files =
     { $count ->
-        [one] Zpracován { $count } mediální soubor...
-        [few] Zpracovány { $count } mediální soubory...
-       *[other] Zpracováno { $count } mediálních souborů...
+        [one] Zpracován { $count } multimediální soubor...
+        [few] Zpracovány { $count } multimediální soubory...
+       *[other] Zpracováno { $count } multimediálních souborů...
     }
 exporting-include-deck = Zahrnout název balíčku
 exporting-include-notetype = Zahrnout název typu poznámky

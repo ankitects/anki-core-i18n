@@ -1,5 +1,5 @@
 editing-actual-size = Přepnout skutečnou velikost
-editing-add-media = Přidat média
+editing-add-media = Přidat multimédia
 editing-align-left = Zarovnat vlevo
 editing-align-right = Zarovnat vpravo
 editing-an-error-occurred-while-opening = Při otvírání { $val } došlo k chybě
@@ -34,7 +34,7 @@ editing-mathjax-block = MathJax blok
 editing-mathjax-chemistry = MathJax chemie
 editing-mathjax-inline = MathJax inline
 editing-mathjax-placeholder = Stiskněte { $accept } pro potvrzení, { $newline } pro nový řádek.
-editing-media = Média
+editing-media = Multimédia
 editing-ordered-list = Číslovaný seznam
 editing-outdent = Zmenšit odsazení
 editing-paste = Vložit

@@ -119,14 +119,14 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] Importován { $count } mediální soubor
-        [few] Importovány { $count } mediální soubory
-       *[other] Importováno { $count } mediálních souborů
+        [one] Importován { $count } multimediální soubor
+        [few] Importovány { $count } multimediální soubory
+       *[other] Importováno { $count } multimediálních souborů
     }
 importing-importing-file = Importuje se soubor...
 importing-extracting = Rozbalují se data...
 importing-gathering = Shromažďují se data...
-importing-failed-to-import-media-file = Import mediálního souboru selhal: { $debugInfo }
+importing-failed-to-import-media-file = Import multimediálního souboru selhal: { $debugInfo }
 importing-processed-notes =
     { $count ->
         [one] Zpracována { $count } poznámka...
