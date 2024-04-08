@@ -73,12 +73,12 @@ deck-config-relearning-steps-tooltip =
     默认设置下，复习卡片时选择「重来」，卡片将 10 分钟后重新展示。
     若未设置间隔，卡片将调整间隔，而不进入重学阶段。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    复习卡片被标记为「记忆难点」之前，需要选择「重来」的次数。
+    复习卡片被标记为记忆难点「leech」之前，需要选择「重来」的次数。
     记忆难点是耗费大量时间的卡片，当卡片被标记为记忆难点时，
     最好的方法将卡片重写、删除或利用缩写、口诀等助记方法辅助记忆。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    「仅打标签」：将笔记打上「记忆难点」的标签，并弹出提示。
+    「仅打标签」：将笔记打上记忆难点「leech」的标签，并弹出提示。
     
     「暂停卡片」：将笔记打上标签，并隐藏卡片，直至手动取消暂停。
 

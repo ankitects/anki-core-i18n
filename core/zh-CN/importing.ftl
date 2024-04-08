@@ -55,7 +55,7 @@ importing-with-deck-configs = 导入所有牌组预设配置
 importing-updates = 更新
 importing-include-reviews-help =
     启用后，牌组分享者的复习情况也会被导入。
-    若未启用，所有卡片将被视为新卡片导入，同时将会移除所有「leech」及「marked」标签。
+    若未启用，所有卡片将被视为新卡片导入，同时将会移除所有记忆难点「leech」及「marked」标签。
 importing-with-deck-configs-help =
     如果启用该选项，所有牌组分享者的牌组预设配置也会被导入。
     若未启用该选项，所有牌组会使用默认预设。
