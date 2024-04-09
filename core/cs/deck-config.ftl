@@ -361,6 +361,14 @@ deck-config-desired-retention-tooltip =
     karty méně často, a vy jich více zapomenete. Při nastavování buďte konzervativní - vyšší 
     hodnoty významně zvýší vaše vytížení a nižší hodnoty mohou být demotivující, když zapomenete 
     hodně materiálu.
+deck-config-historical-retention-tooltip =
+    Jestliže chybí část vaší historie opakování, FSRS musí vyplnit mezery. Ve výchozím nastavení bude předpokládat, že když jste dělali tato stará opakování, pamatovali jste si 90 % materiálu. Pokud vaše stará retence byla znatelně vyšší nebo nižší než 90 %, změna tohoto nastavení umožní FSRS lépe aproximovat chybějící opakování.
+    
+    Vaše historie opakování může být neúplná ze dvou důvodů:
+    1. Protože jste již dříve použili volbu 'ignorovat opakování před'.
+    2. Protože jste dříve smazali záznamy opakování, abyste uvolnili místo, nebo jste importovali materiál z jiného SRS programu.
+    
+    To druhé je poměrně vzácné, takže pokud jste nepoužili první možnost, pravděpodobně nebudete muset toto nastavení upravovat.
 deck-config-weights-tooltip =
     Váhy modelu ovlivňují, jak jsou karty plánovány. Jakmile máte 1000+ opakování, můžete optimalizovat 
     váhy níže.
