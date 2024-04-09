@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] { $count } kart silindi.
        *[other] { $count } kart silindi.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $deck_name } destesinden { $count } kart silindi.
+       *[other] { $deck_name } destesinden { $count } kart silindi.
+    }
 browsing-change-deck = Desteyi Değiştir
 browsing-change-deck2 = Desteyi Değiştir...
 browsing-change-note-type = Not Türünü Değiştir
@@ -97,6 +102,7 @@ browsing-toggle-suspend = Askıya Alındı Aç/Kapat
 browsing-treat-input-as-regular-expression = Girdiye düzenli ifade gibi davran
 browsing-update-saved-search = Geçerli Aramayla güncelle
 browsing-whole-collection = Bütün Koleksiyon
+browsing-window-title-notes = Göz At (toplam { $total } arasından { $selected } not seçilmiş)
 browsing-you-must-have-at-least-one = En az bir sütun olmalıdır.
 browsing-group =
     { $count ->
@@ -118,6 +124,7 @@ browsing-cards-updated =
         [one] { $count } kart güncellendi.
        *[other] { $count } kart güncellendi.
     }
+browsing-window-title = Göz At (toplam { $total } arasından { $selected } kart seçilmiş)
 browsing-sidebar-expand = Genişlet
 browsing-sidebar-collapse = Daralt
 browsing-sidebar-expand-children = Altlarını Genişlet
@@ -130,6 +137,7 @@ browsing-sidebar-save-current-search = Geçerli Aramayı Kaydet
 browsing-sidebar-card-state = Kart Durumu
 browsing-sidebar-flags = Bayraklar
 browsing-today = Bugün
+browsing-tooltip-card-modified = Gözden geçirmeler, bayraklar ve deste değiştirmeler dâhil, kartın en son değiştiği zaman.
 browsing-tooltip-note-modified = Notun en son değiştiği zaman, genellikle alan içeriğiyle veya etiket düzenlemeleriyle.
 browsing-tooltip-card = Bir kartın kart şablonunun adı
 browsing-tooltip-cards = Bir notun içinde bulunan kart sayısı

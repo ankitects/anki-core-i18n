@@ -11,6 +11,7 @@ card-stats-new-card-position = Konum
 card-stats-card-template = Kart Türü
 card-stats-note-type = Not Türü
 card-stats-deck-name = Deste
+card-stats-preset = Ön Ayar
 card-stats-note-id = Not Kimliği
 card-stats-card-id = Kart ID
 card-stats-review-log-rating = Değerlendirme

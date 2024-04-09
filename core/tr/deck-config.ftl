@@ -80,6 +80,7 @@ deck-config-remove-group = Ön Ayarı Sil
 
 ## Other Buttons
 
+deck-config-save-and-optimize = Tüm Ön Ayarları Optimize Et
 deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 
 ## These strings are shown via the Description button at the bottom of the
