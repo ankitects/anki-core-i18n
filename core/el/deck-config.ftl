@@ -218,7 +218,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Παράμετροι FSRS
 deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέτρων FSRS
-deck-config-compute-optimal-retention = Υπολογισμός βέλτιστης ανάκλησης.
+deck-config-compute-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση
 deck-config-optimize-button = Βελτιστοποίηση
 deck-config-compute-button = Υπολογισμός
 deck-config-ignore-before = Παράλειψη επαναλήψεων πριν
@@ -232,7 +232,7 @@ deck-config-get-params = Λήψη παραμέτρων
 deck-config-fsrs-on-all-clients =
     Παρακαλώ βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.
     Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
-deck-config-predicted-optimal-retention = Εκτιμώμενη βέλτιστη απομνημόνευση: { $num }
+deck-config-predicted-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση: { $num }
 deck-config-complete = { $num }% ολοκληρώθηκε.
 deck-config-reschedule-cards-on-change = Επαναπρογραμματισμός καρτών σε αλλαγή
 deck-config-fsrs-tooltip =
@@ -285,3 +285,5 @@ deck-config-compute-optimal-retention-tooltip =
     Αυτό το εργαλείο υποθέτει ότι ξεκινάτε με 0 κάρτες και επιχειρεί να υπολογίσει την ποσότητα υλικού που θα είστε
     ικανοί να απομνημονεύσετε σε δεδομένο χρονικό διάστημα. Η εκτιμούμενη ανάκληση εξαρτάται από τις εισαγωγές σας και αν διαφέρει κατά πολύ από 0.9 είναι ένα σημάδι ότι ο χρόνος που αφιερώνετε κάθε μέρα είναι είτε λίγος
     ή υψηλός για τον αριθμό καρτών που προσπαθείτε να μάθετε. Αυτός ο αριθμός είναι χρήσιμος σαν reference, αλλά δεν συνίσταται να τον αντιγράφετε στο πεδίο της επιθυμητής ανάκλησης.
+deck-config-compute-optimal-retention = Υπολογισμός βέλτιστης ανάκλησης.
+deck-config-predicted-optimal-retention = Εκτιμώμενη βέλτιστη απομνημόνευση: { $num }
