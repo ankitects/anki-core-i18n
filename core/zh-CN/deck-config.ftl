@@ -281,7 +281,7 @@ deck-config-which-deck = 您想显示哪个牌组的选项？
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
 deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
-deck-config-unable-to-determine-desired-retention = 无法计算出建议的最小记忆保留率
+deck-config-unable-to-determine-desired-retention = 无法计算出推荐的最小记忆保留率
 deck-config-must-have-400-reviews = 只找到了 { $count } 次复习记录。至少需要复习 400 次才能进行此操作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 参数
