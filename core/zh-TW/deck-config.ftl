@@ -224,12 +224,12 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 參數必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
 deck-config-not-enough-history = 複習歷程過少，無法執行此動作。
-deck-config-unable-to-determine-desired-retention = 無法計算出最佳留存率。
+deck-config-unable-to-determine-desired-retention = 無法計算出留存率推薦最小值。
 deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。至少需要 400 筆複習記錄才能執行此動作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
-deck-config-compute-optimal-retention = 計算最佳留存率
+deck-config-compute-minimum-recommended-retention = 留存率推薦最小值
 deck-config-optimize-button = 最佳化
 deck-config-compute-button = 計算
 deck-config-ignore-before = 複習歷程起始時間
@@ -241,7 +241,7 @@ deck-config-smaller-is-better = 數字越小表示越符合你的複習歷程。
 deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議設定超過一天的學習階段。
 deck-config-get-params = 取得參數
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
-deck-config-predicted-optimal-retention = 預估最佳留存率：{ $num }
+deck-config-predicted-minimum-recommended-retention = 留存率推薦最小值：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 反覆運算：{ $count }...
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
@@ -309,3 +309,5 @@ deck-config-bury-tooltip =
     
     使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存率」欄位中。
+deck-config-compute-optimal-retention = 計算留存率推薦最小值
+deck-config-predicted-optimal-retention = 留存率推薦最小值：{ $num }
