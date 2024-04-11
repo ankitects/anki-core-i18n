@@ -281,7 +281,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Paramètres du FSRS
 deck-config-compute-optimal-weights = Optimiser les paramètres du FSRS
-deck-config-compute-optimal-retention = Calculer la rétention optimale
+deck-config-compute-minimum-recommended-retention = Rétention minimum recommandée
 deck-config-optimize-button = Optimiser
 deck-config-compute-button = Calculer
 deck-config-ignore-before = Ignorer les révisions avant
@@ -297,7 +297,7 @@ deck-config-get-params = Obtenir les paramètres
 deck-config-fsrs-on-all-clients =
     Veuillez vérifier que tous vos clients Anki soient Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. La FSRS
     ne fonctionnera pas correctement si l'un de vos clients est plus ancien.
-deck-config-predicted-optimal-retention = Rétention optimale prédite : { $num }
+deck-config-predicted-minimum-recommended-retention = Rétention minimum recommandée: { $num }
 deck-config-complete = { $num }% complété.
 deck-config-iterations = Itération : { $count }...
 deck-config-reschedule-cards-on-change = Replanifier les cartes lors d'un changement
@@ -369,3 +369,5 @@ deck-config-bury-siblings = Enfouir les cartes sœurs
 deck-config-do-not-bury = Ne pas enfouir les cartes sœurs
 deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
 deck-config-compute-optimal-retention-tooltip = Cet outil part du principe que vous démarrez avec 0 cartes, et va essayer de calculer la quantité de contenu que vous serez capable de retenir dans la période de temps donnée. La rétention estimée dépendra largement de vos entrées, et si elle diffère trop de 0,9 , c'est un signe que le temps que vous avez alloué chaque jour est soit trop faible soit trop élevé par rapport au nombre de cartes que vous essayez d'apprendre. Ce nombre peut servir de référence, mais il n'est pas recommandé de le copier dans le champ concernant la rétention souhaitée.
+deck-config-compute-optimal-retention = Calculer la rétention minimum recommandée
+deck-config-predicted-optimal-retention = Rétention minimum recommandée: { $num }
