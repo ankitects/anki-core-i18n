@@ -281,12 +281,12 @@ deck-config-which-deck = 您想显示哪个牌组的选项？
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
 deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
-deck-config-unable-to-determine-desired-retention = 无法计算出最佳记忆保留率
+deck-config-unable-to-determine-desired-retention = 无法计算出建议的最小记忆保留率
 deck-config-must-have-400-reviews = 只找到了 { $count } 次复习记录。至少需要复习 400 次才能进行此操作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 参数
 deck-config-compute-optimal-weights = 优化 FSRS 参数
-deck-config-compute-optimal-retention = 计算最佳记忆保留率
+deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留率
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
 deck-config-ignore-before = 忽略该日期前的复习记录
@@ -298,7 +298,7 @@ deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记
 deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
-deck-config-predicted-optimal-retention = 预估最佳记忆保留率：{ $num }
+deck-config-predicted-minimum-recommended-retention = 推荐的最小记忆保留率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 迭代次数：{ $count }…
 deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
@@ -384,3 +384,5 @@ deck-config-compute-optimal-retention-tooltip =
     该工具假设您从 0 张卡片开始，并将尝试计算您在给定时间范围内能够保留记忆的材料量。
     预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。
     该数字可用作参考，但不建议将其复制到期望记忆保留率字段中。
+deck-config-compute-optimal-retention = 计算推荐的最小记忆保留率
+deck-config-predicted-optimal-retention = 预估最佳记忆保留率：{ $num }
