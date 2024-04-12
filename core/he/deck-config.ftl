@@ -329,7 +329,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = משקלי מודל
 deck-config-compute-optimal-weights = בצע אופטימיזציה של משקלי FSRS
-deck-config-compute-optimal-retention = חישוב יכולת זכירה אופטימלית
+deck-config-compute-minimum-recommended-retention = שמירה מינימלית מומלצת
 deck-config-optimize-button = בצע אופטימיזציה
 deck-config-compute-button = חשב
 deck-config-ignore-before = התעלם מחזרות לפני
@@ -343,7 +343,7 @@ deck-config-get-params = קבל פרמטרים
 deck-config-fsrs-on-all-clients =
     אנא ודא שכל גרסאות Anki בכל המכשירים שלך הם Anki(Mobile) 23.10+ או AnkiDroid 2.17+. 
     FSRS לא יעבוד כראוי אם באחד מהמכשירים שלך אתה משתמש בAnki מתחת לגרסאות אלו.
-deck-config-predicted-optimal-retention = תחלופה מיטבית חזויה: { $num }
+deck-config-predicted-minimum-recommended-retention = שמירה מינימלית מומלצת: { $num }
 deck-config-complete = { $num } % הושלם.
 deck-config-iterations = ביצוע: { $count }...
 deck-config-reschedule-cards-on-change = תזמון מחדש של כרטיסים בשינוי
@@ -445,3 +445,5 @@ deck-config-compute-optimal-retention-tooltip =
     ואם זה שונה משמעותית מ-0.9, זה סימן שהזמן שהקצבת בכל יום נמוך מדי
     או גבוה מדי עבור כמות הקלפים שאתה מנסה ללמוד. מספר זה יכול להיות שימושי כהפניה, אבל הוא
     לא מומלץ להעתיק אותו לשדה השמירה הרצוי.
+deck-config-compute-optimal-retention = חישוב יכולת זכירה אופטימלית
+deck-config-predicted-optimal-retention = תחלופה מיטבית חזויה: { $num }
