@@ -237,6 +237,10 @@ deck-config-seconds-to-show-question = Seconds to show question for
 deck-config-seconds-to-show-question-tooltip-2 = When auto advance is activated, the number of seconds to wait before revealing the answer. Set to 0 to disable.
 deck-config-seconds-to-show-answer = Seconds to show answer for
 deck-config-seconds-to-show-answer-tooltip-2 = When auto advance is activated, the number of seconds to wait before applying the answer action. Set to 0 to disable.
+deck-config-question-action-show-answer = Show Answer
+deck-config-question-action-show-reminder = Show Reminder
+deck-config-question-action = Question action 
+deck-config-question-action-tool-tip = The action to perform after the question is shown, and time has elapsed.
 deck-config-answer-action = Answer action
 deck-config-answer-action-tooltip = The action to perform on the current card before automatically advancing to the next one.
 deck-config-wait-for-audio-tooltip = Wait for audio to finish before automatically revealing answer or next question
@@ -425,7 +429,7 @@ deck-config-compute-optimal-retention-tooltip2 =
     value that will lead to the most material learnt, in the least amount of time. This number can be used as a
     reference when deciding what to set your desired retention to. You may wish to choose a higher desired retention,
     if you’re willing to trade more study time for a greater recall rate. Setting your desired retention lower than
-    the optimum is not recommended, as it will lead to more work without benefit.
+    the minimum is not recommended, as it will lead to more work without benefit.
 deck-config-please-save-your-changes-first = Please save your changes first.
 deck-config-a-100-day-interval = 
     { $days ->
