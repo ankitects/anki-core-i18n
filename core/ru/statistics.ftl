@@ -109,9 +109,11 @@ statistics-range-search = Поиск
 statistics-card-ease-title = Лёгкость карточек
 statistics-card-difficulty-title = Сложность карточки
 statistics-card-stability-title = Стабильность карточки
+statistics-card-stability-subtitle = Интервал, за который вероятность вспомнить карточку падает до 90%.
 statistics-average-stability = Средняя стабильность
 statistics-card-retrievability-title = Вспоминаемость карточки
-statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карта.
+statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карточка.
+statistics-card-difficulty-subtitle2 = Чем выше сложность, тем медленнее будет увеличиваться стабильность.
 statistics-retrievability-subtitle = Вероятность вспомнить карточку сегодня.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
