@@ -64,6 +64,12 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Kroki ponownej nauki
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Tylko etykieta`: Dodaj do notatki etykietę "leech" i pokaż wyskakujący komunikat.
+    
+    `Zawieszenie karty`: Oprócz dodania etykiety, dodatkowo ukryj kartę, póki
+    nie zostanie ręcznie odwieszona.
 
 ## Burying section
 
@@ -139,6 +145,9 @@ deck-config-disable-autoplay-tooltip =
     Powoduje, że Anki nie będzie odtwarzać dźwięku automatycznie.
     Dźwięk będzie można odtworzyć przez kliknięcie na ikonę dźwięku albo wybranie opcji "Odtworzenie dźwięku".
 deck-config-skip-question-when-replaying = Pomiń pytanie przy ponownym odtwarzaniu odpowiedzi
+deck-config-always-include-question-audio-tooltip =
+    Czy dźwięk pytania będzie dołączony, gdy działanie Odtworzenie dźwięku jest
+    użyte przy oglądaniu strony odpowiedzi w karcie.
 
 ## Advanced section
 
@@ -190,6 +199,7 @@ deck-config-reviews-too-low =
     }, twój limit powinien wynosić przynajmniej { $expected }.
 deck-config-learning-step-above-graduating-interval = Przerwa dla kart po nauce powinna być przynajmniej tak długa jak ostatni z kroków nauki.
 deck-config-good-above-easy = Przerwa dla łatwych powinna być przynajmniej tak długa jak przerwa dla kart po nauce.
+deck-config-relearning-steps-above-minimum-interval = Minimalna przerwa pomyłki powinna być przynajmniej długa jak ostatni krok ponownej nauki.
 deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie planować powtórki tylko pod warunkiem, że będziesz ustawiać krótkie pytania.
 
 ## Selecting a deck
@@ -198,6 +208,8 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-invalid-weights = Parametry muszą albo być zostawione puste, by użyć wartości domyślnych, lub być 17 liczbami oddzielonymi przecinkami.
+deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametry FSRS
 deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
@@ -205,11 +217,14 @@ deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
 deck-config-evaluate-button = Oceń
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
+deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
+deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.
 deck-config-wait-for-audio = Czekaj na dźwięk
 deck-config-show-reminder = Pokaż przypomnienie
 deck-config-answer-again = Odpowiedz Powtórz
 deck-config-answer-hard = Odpowiedz Trudna
 deck-config-answer-good = Odpowiedz Dobra
+deck-config-days-to-simulate = Dni do zasymulowania
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

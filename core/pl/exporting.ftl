@@ -13,6 +13,7 @@ exporting-include = <b>Dołącz</b>:
 exporting-include-html-and-media-references = Dołącz HTML i odnośniki do plików
 exporting-include-media = Dołącz pliki
 exporting-include-scheduling-information = Dołącz informację o planowaniu
+exporting-include-deck-configs = Dołącz opcje talii
 exporting-include-tags = Dołącz etykiety
 exporting-support-older-anki-versions = Zgodność ze starymi wersjami Anki (wolniej, większe pliki)
 exporting-notes-in-plain-text = Notatki jako zwykły tekst

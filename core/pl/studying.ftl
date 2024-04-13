@@ -59,4 +59,5 @@ studying-minute =
         [few] { $count } minuty.
        *[other] { $count } minut.
     }
+studying-question-time-elapsed = Minął czas na odpowiedź
 studying-answer-time-elapsed = Minął czas na odpowiedź
