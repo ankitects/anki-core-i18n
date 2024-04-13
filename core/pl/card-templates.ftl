@@ -23,6 +23,7 @@ card-templates-add-mobile-class = Dodaj typ "Mobile"
 card-templates-preview-settings = Opcje
 card-templates-invalid-template-number = Problem w { $number } szablonie.
 card-templates-identical-front = Przednia strona jest identyczna jak szablon karty { $number }.
+card-templates-no-front-field = Oczekiwane jest pole do podmienienia na przedniej stronie szablonu karty.
 card-templates-missing-cloze = Spodziewane jest użycie '{ "{{" }cloze:Text{ "}}" }' lub czegoś podobnego z przodu i tyłu szablonu karty.
 card-templates-extraneous-cloze = "luka": może być użyta tylko w typach notatek z luką
 card-templates-see-preview = Wejdź na podgląd, by zobaczyć więcej.
