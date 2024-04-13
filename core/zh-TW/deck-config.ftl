@@ -151,6 +151,8 @@ deck-config-seconds-to-show-answer = 答案面顯示時長（秒）
 deck-config-seconds-to-show-answer-tooltip-2 = 啟用自動前進時，套用回答動作前需要等待的秒數。設定為 0 來停用。
 deck-config-question-action-show-answer = 顯示答案
 deck-config-question-action-show-reminder = 顯示提醒
+deck-config-question-action = 問題顯示後動作
+deck-config-question-action-tool-tip = 顯示問題且經過設定的時間後要執行的動作。
 deck-config-answer-action = 答案顯示後動作
 deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為當前卡片執行的動作。
 deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題
@@ -276,7 +278,7 @@ deck-config-compute-optimal-weights-tooltip =
     當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷程，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
     
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
-deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最佳值只會增加你的工作量而沒有任何好處，因此不建議設定過低。
+deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值只會增加你的工作量而沒有好處，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-a-100-day-interval =
     { $days ->
