@@ -56,4 +56,5 @@ studying-minute =
         [one] { $count } λεπτό
        *[other] { $count } λεπτά
     }
+studying-question-time-elapsed = O χρόνος ερώτησης παρήλθε
 studying-answer-time-elapsed = Χρόνος απάντησης
