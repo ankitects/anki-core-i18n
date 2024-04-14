@@ -223,6 +223,8 @@ deck-config-seconds-to-show-question = Secondi per i quali mostrare la domanda
 deck-config-seconds-to-show-question-tooltip-2 = Determina il numero di secondi da attendere prima di rivelare la risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi per i quali mostrare la risposta
 deck-config-seconds-to-show-answer-tooltip-2 = Determina il numero di secondi da attendere prima di applicare l'azione di risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
+deck-config-question-action-show-answer = Mostra risposta
+deck-config-question-action-show-reminder = Mostra promemoria
 deck-config-answer-action = Azione di risposta
 deck-config-answer-action-tooltip = L'azione da svolgere sulla carta attuale prima di passare automaticamente a quella successiva.
 deck-config-wait-for-audio-tooltip = Attendi la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
@@ -328,7 +330,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametri FSRS
 deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
-deck-config-compute-optimal-retention = Calcola ritenzione ottimale
+deck-config-compute-minimum-recommended-retention = Ritenzione minima consigliata
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
 deck-config-ignore-before = Escludi le ripetizioni prima di
@@ -342,7 +344,7 @@ deck-config-get-params = Ottieni parametri
 deck-config-fsrs-on-all-clients =
     Assicurarsi che tutte le versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
     FSRS non funzionerà correttamente se una delle versioni utilizzate è più vecchia.
-deck-config-predicted-optimal-retention = Ritenzione ottimale stimata: { $num }
+deck-config-predicted-minimum-recommended-retention = Ritenzione minima consigliata: { $num }
 deck-config-complete = { $num }% completo.
 deck-config-iterations = Iterazione: { $count }...
 deck-config-reschedule-cards-on-change = Ripianifica le carte in caso di modifica
@@ -456,3 +458,5 @@ deck-config-compute-optimal-retention-tooltip =
     alla quantità di carte che si sta cercando di imparare. 
     Questo numero può essere utile come riferimento, ma non è consigliato copiarlo nel campo
     Ritenzione desiderata.
+deck-config-compute-optimal-retention = Calcola ritenzione ottimale
+deck-config-predicted-optimal-retention = Ritenzione ottimale stimata: { $num }
