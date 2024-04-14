@@ -68,4 +68,5 @@ studying-minute =
         [many] { $count } دقيقة.
        *[other] { $count } دقيقة.
     }
+studying-question-time-elapsed = نفذ وقت السؤال
 studying-answer-time-elapsed = مضى وقت الإجابة

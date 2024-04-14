@@ -235,6 +235,10 @@ deck-config-seconds-to-show-question = عدد ثواني ظهور السؤال
 deck-config-seconds-to-show-question-tooltip-2 = عندما يكون التقديم التلقائي مفعلًا، يحدد هذا عدد الثواني قبل إظهار الجواب. أدخل 0 للتعطيل.
 deck-config-seconds-to-show-answer = عدد الثواني ظهور الجواب
 deck-config-seconds-to-show-answer-tooltip-2 = عندما يكون التقديم التلقائي مفعلًا، يحدد هذا عدد الثواني قبل تطبيق إجراء الجواب. أدخل 0 للتعطيل.
+deck-config-question-action-show-answer = إظهار الجواب
+deck-config-question-action-show-reminder = إظهار تذكير
+deck-config-question-action = إجراء السؤال
+deck-config-question-action-tool-tip = الوظيفة المنفذة بعد كشف السؤال ونفاذ الوقت.
 deck-config-answer-action = إجراء الإجابة
 deck-config-answer-action-tooltip = الوظيفة المنفذة على البطاقة الحالية قبل الانتقال للبطاقة التالية تلقائيًا.
 deck-config-wait-for-audio-tooltip = انتظر انتهاء الصوتيات قبل كشف الجواب أو السؤال التالي تلقائيًا
@@ -350,7 +354,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = عوامل FSRS
 deck-config-compute-optimal-weights = تحسين عوامل FSRS
-deck-config-compute-optimal-retention = حساب معدل التذكر الأمثل
+deck-config-compute-minimum-recommended-retention = معدل التذكر الأدنى المستحسن
 deck-config-optimize-button = تحسين
 deck-config-compute-button = احسب
 deck-config-ignore-before = تجاهل المراجعات قبل
@@ -364,7 +368,7 @@ deck-config-get-params = الحصول على المعلمات.
 deck-config-fsrs-on-all-clients =
     يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
     بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
-deck-config-predicted-optimal-retention = معدل التذكر الأمثل المتوقع: { $num }
+deck-config-predicted-minimum-recommended-retention = معدل التذكر الأدنى المستحسن: { $num }
 deck-config-complete = اكتمل { $num }%.
 deck-config-iterations = التكرار: { $count }...
 deck-config-reschedule-cards-on-change = إعادة جدولة البطاقات عند التغيير
@@ -473,3 +477,5 @@ deck-config-compute-optimal-retention-tooltip =
     بشكل كبير عن 0.9، فهذه علامة على أن الوقت الذي خصصته كل يوم إما منخفض جدًا أو مرتفع جدًا 
     بالنسبة لعدد البطاقات التي تحاول تعلمها. يمكن أن يكون هذا الرقم مفيدًا كمرجع، ولكن لا يوصى 
     بنسخه في حقل معدل التذكر المرغوب فيه.
+deck-config-compute-optimal-retention = حساب معدل التذكر الأمثل
+deck-config-predicted-optimal-retention = معدل التذكر الأمثل المتوقع: { $num }
