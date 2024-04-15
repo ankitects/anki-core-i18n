@@ -72,3 +72,5 @@ actions-set-flag = Σήμανση
 actions-nothing-to-undo = Τίποτα προς αναίρεση
 actions-nothing-to-redo = Τίποτα προς ακύρωση αναίρεσης
 actions-auto-advance = Αυτόματη προώθηση
+actions-auto-advance-activated = Αυτόματη Πρόοδος ενεργοποιημένη
+actions-auto-advance-deactivated = Αυτόματη Πρόοδος απενεργοποιημένη
