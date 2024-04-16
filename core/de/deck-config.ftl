@@ -183,8 +183,10 @@ deck-config-seconds-to-show-question-tooltip-2 = Wenn automatisiertes Aufdecken 
 deck-config-seconds-to-show-answer = Sekunden bis die Antwort gezeigt wird
 deck-config-seconds-to-show-answer-tooltip-2 = Wenn automatisiertes Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwortaktion ausgeführt wird. Zum Ausschalten auf 0 setzen.
 deck-config-question-action-show-answer = Antwort anzeigen
+deck-config-question-action-show-reminder = Erinnerung anzeigen
 deck-config-question-action = Aktion auf Frageseite
-deck-config-answer-action = Ant­wort­ak­tion
+deck-config-question-action-tool-tip = Was passieren soll, nachdem die Frageseite der Karte angezeigt und die eingestellte Zeit überschritten wurde.
+deck-config-answer-action = Ak­tion auf Antwortseite
 deck-config-answer-action-tooltip = Was mit der aktuellen Karte gemacht werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf dem Ende vom Abspielen des Audios warten, und danach automatisch die Antwort oder nächste Frage zeigen
 
@@ -345,7 +347,7 @@ deck-config-fsrs-params-optimal = Die FSRS Parameter scheinen jetzt optimal zu s
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = "Er­neut" ant­wor­ten
-deck-config-answer-hard = "Schwer" ant­wor­ten
+deck-config-answer-hard = „Schwer“ ant­wor­ten
 deck-config-answer-good = "Gut" ant­wor­ten
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
