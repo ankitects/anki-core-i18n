@@ -211,6 +211,10 @@ deck-config-seconds-to-show-question = Segundos para mostrar a pergunta
 deck-config-seconds-to-show-question-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de revelar a resposta. Defina como 0 para desativar.
 deck-config-seconds-to-show-answer = Segundos para mostrar a resposta
 deck-config-seconds-to-show-answer-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de aplicar a ação de resposta. Defina como 0 para desativar.
+deck-config-question-action-show-answer = Mostrar Resposta
+deck-config-question-action-show-reminder = Mostrar lembrete
+deck-config-question-action = Ação da Questão
+deck-config-question-action-tool-tip = A ação a ser realizada após a pergunta ser exibida e o tempo decorrido.
 deck-config-answer-action = Ação de resposta
 deck-config-answer-action-tooltip = A ação a ser realizada no cartão atual antes de avançar automaticamente para o próximo.
 deck-config-wait-for-audio-tooltip = Esperar o áudio terminar antes de revelar automaticamente a resposta ou a próxima pergunta
@@ -318,21 +322,21 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parâmetros do modelo
 deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
-deck-config-compute-optimal-retention = Calcular retenção ótima
+deck-config-compute-minimum-recommended-retention = Retenção mínima recomendada
 deck-config-optimize-button = Otimizar
 deck-config-compute-button = Calcular
 deck-config-ignore-before = Ignorar revisões antes de
 deck-config-optimize-all-tip = Você pode otimizar todas as predefinições de uma só vez usando o botão no topo.
 deck-config-evaluate-button = Avaliar
 deck-config-desired-retention = Retenção desejada
-deck-config-sm2-retention = Retenção SM2
+deck-config-historical-retention = Retenção histórica
 deck-config-smaller-is-better = Números menores indicam um ajuste melhor ao seu histórico de revisão.
 deck-config-steps-too-large-for-fsrs = Quando o FSRS está ativado, etapas de aprendizado com mais de 1 dia não são recomendadas.
 deck-config-get-params = Obter Parâmetros
 deck-config-fsrs-on-all-clients =
     Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não
     funcionará corretamente se um dos seus clientes for mais antigo.
-deck-config-predicted-optimal-retention = Retenção ótima prevista: { $num }
+deck-config-predicted-minimum-recommended-retention = Retenção mínima recomendada: { $num }
 deck-config-complete = { $num }% concluído.
 deck-config-iterations = Iteração: { $count }...
 deck-config-reschedule-cards-on-change = Reagendar cartões ao alterar
@@ -347,11 +351,19 @@ deck-config-desired-retention-tooltip =
     menos frequentemente, e você esquecerá mais deles. Seja conservador ao ajustar isso - valores mais altos
     aumentarão significativamente sua carga de trabalho, e valores mais baixos podem ser desmotivadores quando você esquece
     muito material.
-deck-config-sm2-retention-tooltip =
-    Se sua retenção atual antes de mudar para o FSRS foi significativamente diferente de 0,9, ajustar
-    este valor permitirá que o Anki estime melhor o estado da sua memória quando encontrar cartões que estão
-    faltando registros de revisão. Como os registros de revisão normalmente não estarão faltando a menos que você os tenha excluído explicitamente
-    para liberar espaço, a maioria dos usuários não precisará ajustar isso.
+deck-config-historical-retention-tooltip =
+    Quando parte do seu histórico de revisão está faltando, o FSRS precisa preencher as lacunas. Por padrão,
+    ele assumirá que, quando você fez aquelas revisões antigas, você se lembrou de 90% do material. 
+    Se a sua retenção antiga foi significativamente maior ou menor que 90%, ajustar essa opção permitirá que
+    o FSRS aproxime melhor as revisões ausentes.
+    
+    Seu histórico de revisão pode estar incompleto por dois motivos:
+    1 - Porque você usou a opção 'ignorar revisões anteriores'.
+    2 - Porque você excluiu anteriormente registros de revisão para liberar espaço ou importou material de
+    um programa SRS diferente.
+    
+    O último motivo é bastante raro, então, a menos que você tenha usado a primeira opção, provavelmente
+    não precisará ajustar essa configuração.
 deck-config-weights-tooltip =
     Os parâmetros dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar
     os parâmetros abaixo.
@@ -433,3 +445,5 @@ deck-config-compute-optimal-retention-tooltip =
     se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo
     ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é
     não recomendado copiá-lo para o campo de retenção desejado.
+deck-config-compute-optimal-retention = Calcular retenção ótima
+deck-config-predicted-optimal-retention = Retenção ótima prevista: { $num }
