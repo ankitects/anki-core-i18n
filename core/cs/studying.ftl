@@ -59,4 +59,5 @@ studying-minute =
         [few] { $count } minuty.
        *[other] { $count } minut.
     }
+studying-question-time-elapsed = Čas otázky vypršel
 studying-answer-time-elapsed = Čas odpovědi vypršel

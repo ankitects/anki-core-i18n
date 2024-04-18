@@ -225,6 +225,10 @@ deck-config-seconds-to-show-question = Počet sekund, po které je zobrazena ot�
 deck-config-seconds-to-show-question-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
 deck-config-seconds-to-show-answer = Počet sekund, po které je zobrazena odpověď
 deck-config-seconds-to-show-answer-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se aplikuje akce po odpovědi. Nastavením na 0 je zakázán.
+deck-config-question-action-show-answer = Zobrazit odpověď
+deck-config-question-action-show-reminder = Zobrazit upomínku
+deck-config-question-action = Akce po otázce
+deck-config-question-action-tool-tip = Akce, která se provede po zobrazení otázky a vypršení času.
 deck-config-answer-action = Akce po odpovědi
 deck-config-answer-action-tooltip = Akce, která se provede na současnou kartu předtím, než se automaticky posunete na další.
 deck-config-wait-for-audio-tooltip = Čeká se, než dohraje zvuková stopa, až poté se automaticky zobrazí odpověď nebo další otázka
@@ -333,7 +337,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Váhy modelu
 deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
-deck-config-compute-optimal-retention = Vypočítat optimální retenci
 deck-config-optimize-button = Optimalizovat
 deck-config-compute-button = Vypočítat
 deck-config-ignore-before = Ignorovat opakování před
@@ -346,7 +349,7 @@ deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delš�
 deck-config-fsrs-on-all-clients =
     Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
     fungovat správně, jestliže je některý z vašich klientů starší.
-deck-config-predicted-optimal-retention = Předpovězená optimální retence: { $num }
+deck-config-predicted-minimum-recommended-retention = Minimální doporučená retence: { $num }
 deck-config-complete = { $num }% hotovo.
 deck-config-iterations = Iterace: { $count }...
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
@@ -421,3 +424,5 @@ deck-config-compute-optimal-retention-tooltip =
     a pokud se výrazně liší od 0,9, je to znamení, že čas, který jste přidělili na každý den, je buď příliš nízký,
     nebo příliš vysoký na množství karet, které se pokoušíte naučit. Toto číslo může být užitečné jako reference, ale
     nedoporučuje se jej kopírovat do pole požadovaná retence.
+deck-config-compute-optimal-retention = Vypočítat optimální retenci
+deck-config-predicted-optimal-retention = Předpovězená optimální retence: { $num }
