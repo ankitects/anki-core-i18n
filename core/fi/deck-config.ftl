@@ -194,6 +194,10 @@ deck-config-seconds-to-show-question = Kysymyksen näyttöaika (s)
 deck-config-seconds-to-show-question-tooltip-2 = Kun automaattinen eteneminen on käytössä, odota näin monta sekuntia ennen kuin vastaus näytetään. Poista käytöstä asettamalla arvoksi 0.
 deck-config-seconds-to-show-answer = Vastauksen näyttöaika (s)
 deck-config-seconds-to-show-answer-tooltip-2 = Kun automaattinen eteneminen on käytössä, odota näin monta sekuntia ennen kuin vastaus annetaan. Poista käytöstä asettamalla arvoksi 0.
+deck-config-question-action-show-answer = Näytä vastaus
+deck-config-question-action-show-reminder = Näytä muistutus
+deck-config-question-action = Kysymysten toiminto
+deck-config-question-action-tool-tip = Toiminto, joka suoritetaan, kun kysymys on esitetty ja aika on loppunut.
 deck-config-answer-action = Vastaustoiminto
 deck-config-answer-action-tooltip = Toiminto, joka suoritetaan nykyiselle kortille ennen kuin siirrytään automaattisesti seuraavaan korttiin.
 deck-config-wait-for-audio-tooltip = Odota äänen loppumista ennen kuin vastaus tai seuraava kysymys näytetään automaattisesti.
@@ -285,7 +289,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Mallin painokertoimet
 deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
-deck-config-compute-optimal-retention = Laske optimaalinen retentio
+deck-config-compute-minimum-recommended-retention = Pienin suositeltu retentio
 deck-config-optimize-button = Optimoi
 deck-config-compute-button = Laske
 deck-config-ignore-before = Älä huomioi kertauksia, jotka tapahtuivat ennen
@@ -297,7 +301,7 @@ deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioit
 deck-config-steps-too-large-for-fsrs = Kun FSRS on päällä, usean päivän aikaisen (uudelleen)oppimisen askelten käyttöä ei suositella.
 deck-config-get-params = Hae parametrit
 deck-config-fsrs-on-all-clients = Varmista, että kaikki käyttämäsi Anki-ohjelmat ovat versioita Anki(Mobile) 23.10+ tai AnkiDroid 2.17+. FSRS ei toimi oikein, jos käytät vanhempaa versiota jollakin laitteella.
-deck-config-predicted-optimal-retention = Ennustettu optimaalinen retentio: { $num }
+deck-config-predicted-minimum-recommended-retention = Pienin suositeltu retentio: { $num }
 deck-config-complete = { $num } % valmis.
 deck-config-iterations = Iteraatio: { $count }...
 deck-config-reschedule-cards-on-change = Aikatauluta kortit uudelleen muutoksen yhteydessä
@@ -358,3 +362,5 @@ deck-config-bury-tooltip =
     
     Kun tämä asetus on pois päältä, useita kortteja samasta muistiinpanosta voi esiintyä samana päivänä. Kun se on päällä, Anki *hautaa* sisarkortit automaattisesti ja piilottaa ne seuraavaan päivään asti. Tämän vaihtoehdon avulla voit valita, minkälaiset kortit voidaan haudata, kun vastaat johonkin niiden sisarkorteista.
 deck-config-compute-optimal-retention-tooltip = Tämä työkalu olettaa, että aloitat 0 kortista, ja yrittää laskea, kuinka paljon materiaalia pystyt säilyttämään muistissasi annetussa ajassa (retentio). Arvioitu retentio riippuu huomattavasti syöttötiedoistasi, ja jos se poikkeaa merkittävästi 0,9:stä, se on merkki siitä, että kullekin päivälle varattu aika on joko liian pieni tai liian suuri siihen korttimäärään nähden, jonka yrität oppia. Tämä luku voi olla hyödyllinen viitteenä, mutta sitä ei suositella kopioitavaksi Toivottu retentio -kenttään.
+deck-config-compute-optimal-retention = Laske optimaalinen retentio
+deck-config-predicted-optimal-retention = Ennustettu optimaalinen retentio: { $num }
