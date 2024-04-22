@@ -203,6 +203,8 @@ deck-config-seconds-to-show-answer-tooltip-2 =
     「カードの自動送り」機能が有効になっているとき、カードの解答側が表示されてから、自動アクションを適用するまでの待機秒数。
     
     自動アクションを無効にするには、値を0に設定してください。
+deck-config-question-action-show-answer = 解答を表示
+deck-config-question-action-show-reminder = リマインダーを表示
 deck-config-answer-action = 解答表示時間経過後の自動アクション
 deck-config-answer-action-tooltip = ユーザーが回答などの操作を手動で行わず、自動的に次のカードに進む前に、現在のカードに対して実行するアクション。
 deck-config-wait-for-audio-tooltip = 解答を自動的に表示する前、または自動回答アクションを行う前に、音声の再生が終了するのを待ちます。
@@ -294,7 +296,6 @@ deck-config-must-have-400-reviews = 復習履歴が{ $count }件しか見つか�
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRSパラメータ
 deck-config-compute-optimal-weights = FSRSパラメータ値を最適化
-deck-config-compute-optimal-retention = 学習プランから正答率を推定
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
 deck-config-ignore-before = 指定日より前の復習を無視
@@ -390,3 +391,4 @@ deck-config-compute-optimal-retention-tooltip =
     推定される正答率は各項目に入力する値によって大きく変化します。推定値と0.9との差が著しく大きい場合は、予定の学習枚数に対して、予定の学習時間が少なすぎるか、または多すぎる可能性があります。
     
     この値は、あくまで学習プランの調整などのための参考値であり、`正答率（目標値）`の欄でそのまま使用するための推奨値ではありません。
+deck-config-compute-optimal-retention = 学習プランから正答率を推定
