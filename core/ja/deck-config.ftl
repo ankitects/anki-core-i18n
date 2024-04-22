@@ -293,11 +293,12 @@ deck-config-which-deck = どのデッキを選択しますか？
 deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-weights = パラメータの欄には、デフォルト値を使用するために何も入力しないままにするか、コンマ (", ") で区切られた17個の数字を入力する必要があります。
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
-deck-config-unable-to-determine-desired-retention = 最適な正答率を推定できませんでした
+deck-config-unable-to-determine-desired-retention = 有益な目標正答率の下限を推定できませんでした
 deck-config-must-have-400-reviews = 復習履歴が{ $count }件しか見つかりません。この操作を実行するには400件以上の復習履歴が必要です。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRSパラメータ
 deck-config-compute-optimal-weights = FSRSパラメータ値を最適化
+deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
 deck-config-ignore-before = 指定日より前の復習を無視
@@ -309,6 +310,7 @@ deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよ
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-get-params = パラメータを取得
 deck-config-fsrs-on-all-clients = コレクションを他の端末のAnkiと同期している場合は、 それらのAnkiのバージョンがいずれも Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降であることを確認してください。 FSRSは、それらのいずれかが古いバージョンである場合は正しく動作しません。
+deck-config-predicted-minimum-recommended-retention = 有益な目標正答率の下限: { $num }
 deck-config-complete = { $num }% 完了
 deck-config-iterations = 反復: { $count }...
 deck-config-reschedule-cards-on-change = パラメータ変更の際に再スケジュール
@@ -412,3 +414,4 @@ deck-config-compute-optimal-retention-tooltip =
     
     この値は、あくまで学習プランの調整などのための参考値であり、`目標正答率`の欄でそのまま使用するための推奨値ではありません。
 deck-config-compute-optimal-retention = 有益な目標正答率の下限を推定
+deck-config-predicted-optimal-retention = 有益な目標正答率の下限: { $num }
