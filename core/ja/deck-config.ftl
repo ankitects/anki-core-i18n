@@ -359,6 +359,9 @@ deck-config-compute-optimal-weights-tooltip =
     「最適化」をこまめに行う必要はありません。数か月に一度で十分です。
     
     デフォルトでは、「最適化」によるパラメータの値は、現在のプリセットを使用しているすべてのデッキのカードの復習履歴から計算されます。計算に使用するカードを抽出する条件を変更したい場合は、「最適化」ボタンを押す前に、パラメータ欄の下にある欄にその条件を入力してください。
+deck-config-compute-optimal-retention-tooltip2 =
+    このツールは、あなたがまだどのカードも学習していない状態で学習を開始すると想定して、最少の学習時間で最大の学習成果につながる目標正答率を推定します。
+    この値は、
 deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-a-100-day-interval =
     { $days ->
