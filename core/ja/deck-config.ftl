@@ -303,7 +303,7 @@ deck-config-compute-button = 推定
 deck-config-ignore-before = 指定日より前の復習を無視
 deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
 deck-config-evaluate-button = 評価
-deck-config-desired-retention = 正答率（目標値）
+deck-config-desired-retention = 目標正答率
 deck-config-historical-retention = 履歴欠落期間の正答率（想定値）
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
@@ -346,7 +346,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     このオプションがオンの場合、各カードの、すでに予定済みの期日を変更（再スケジュール）します。
     
     このオプションの設定はすべてのプリセットで共有され、一括で適用された後、オフ（デフォルト）になります。
-deck-config-reschedule-cards-warning = 目標とする正答率にもよりますが、大量のカードがいっぺんに期日を迎えることになる可能性があるため、初めてSM2スケジューラーからFSRSに切り替える際にこのオプションをオンにすることはおすすめしません。
+deck-config-reschedule-cards-warning = 目標正答率にもよりますが、大量のカードがいっぺんに期日を迎えることになる可能性があるため、初めてSM2スケジューラーからFSRSに切り替える際にこのオプションをオンにすることはおすすめしません。
 deck-config-ignore-before-tooltip =
     このオプションがオンの場合、FSRSパラメータ値を最適化・推測する際、指定日より前の復習履歴を無視します。
     
@@ -360,8 +360,13 @@ deck-config-compute-optimal-weights-tooltip =
     
     デフォルトでは、「最適化」によるパラメータの値は、現在のプリセットを使用しているすべてのデッキのカードの復習履歴から計算されます。計算に使用するカードを抽出する条件を変更したい場合は、「最適化」ボタンを押す前に、パラメータ欄の下にある欄にその条件を入力してください。
 deck-config-compute-optimal-retention-tooltip2 =
-    このツールは、あなたがまだどのカードも学習していない状態で学習を開始すると想定して、最少の学習時間で最大の学習成果につながる目標正答率を推定します。
-    この値は、
+    このツールは、あなたがまだどのカードも学習していない状態で学習を開始すると想定して、最少の学習時間（学習回数）で最大の学習成果につながる`目標正答率`を推定します。
+    
+    この値は、あなたが`目標正答率`の値を調整する際の参考値となります。
+    
+    「学習時間（学習回数）が増えてもかまわないから、実際の正答率をもっと高くしたい」という場合は、この値よりも高い値を`目標正答率`として設定するのもよいでしょう。
+    
+    この値よりも低い値を`目標正答率`として設定するのはおすすめしません。成果があまり見込めない学習を繰り返すという結果になると予想されるためです。
 deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-a-100-day-interval =
     { $days ->
@@ -380,6 +385,7 @@ deck-config-show-reminder = リマインダーを表示
 deck-config-answer-again = 回答 (もう一度)
 deck-config-answer-hard = 回答 (難しい)
 deck-config-answer-good = 回答 (正解)
+deck-config-days-to-simulate = 学習予定期間（日）
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -404,5 +410,5 @@ deck-config-compute-optimal-retention-tooltip =
     
     推定される正答率は各項目に入力する値によって大きく変化します。推定値と0.9との差が著しく大きい場合は、予定の学習枚数に対して、予定の学習時間が少なすぎるか、または多すぎる可能性があります。
     
-    この値は、あくまで学習プランの調整などのための参考値であり、`正答率（目標値）`の欄でそのまま使用するための推奨値ではありません。
-deck-config-compute-optimal-retention = 学習プランから正答率を推定
+    この値は、あくまで学習プランの調整などのための参考値であり、`目標正答率`の欄でそのまま使用するための推奨値ではありません。
+deck-config-compute-optimal-retention = 有益な目標正答率の下限を推定
