@@ -19,7 +19,9 @@ deck-config-daily-limits = Limites journalières
 deck-config-new-limit-tooltip =
     Le nombre maximal de nouvelles cartes pouvant être introduites par jour (si de nouvelles cartes sont disponibles).
     Des cartes inédites peuvent augmenter votre charge de travail à court-terme, donc vous devriez éviter d'en introduire chaque jour plus de 10% de votre quota de révisions.
-deck-config-review-limit-tooltip = Le nombre maximal de cartes déjà vues pouvant être révisées par jour (si des cartes doivent être révisées).
+deck-config-review-limit-tooltip =
+    Le nombre maximal de cartes déjà vues pouvant être révisées par jour,
+    si des cartes doivent être révisées.
 deck-config-limit-deck-v3 = Quand vous étudiez un paquet qui a des sous-paquets, les limites de chaque sous-paquet fixent le nombre maximal de cartes tirées de ce paquet. Les limites du paquet sélectionné fixent le nombre total de cartes qui seront montrées.
 deck-config-limit-new-bound-by-reviews =
     La limite de révision influence la nouvelle limite. Par exemple, si la limite de révision est
@@ -184,6 +186,7 @@ deck-config-seconds-to-show-question = Temps d'affichage de la question en secon
 deck-config-seconds-to-show-question-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
 deck-config-seconds-to-show-answer = Temps d'affichage de la réponse en secondes
 deck-config-seconds-to-show-answer-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
+deck-config-question-action-show-answer = Afficher la réponse
 deck-config-answer-action = Action de la réponse
 deck-config-answer-action-tooltip = L'action à réaliser sur la carte actuelle avant de continuer automatiquement vers la prochaine.
 deck-config-wait-for-audio-tooltip = Attendre la fin de l'audio avant de révéler automatiquement la réponse ou la prochaine question
