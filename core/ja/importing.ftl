@@ -153,6 +153,11 @@ importing-existing-notes-skipped =
     { $count ->
        *[other] { $count }個のノートは同じノートがすでにコレクション内に存在します。
     }
+importing-notes-failed =
+    { $count ->
+        [one] { $count }個のノートはインポートできませんでした。
+       *[other] { $count }個のノートはインポートできませんでした。
+    }
 importing-conflicting-notes-skipped =
     { $count ->
        *[other] { $count }個のノートはインポートしませんでした。（ノートタイプが変更されたため）
@@ -174,6 +179,7 @@ importing-duplicate-note-added = 重複しているノートを追加しまし�
 importing-added-new-note = 新規ノートとして追加しました
 importing-existing-note-skipped = このノートのインポートをスキップしました（このノートの最新版がコレクション内にすでに存在するため）
 importing-note-skipped-update-due-to-notetype = このノートでの更新を行いませんでした（既存のノートのノートタイプが変更されているため）
+importing-note-skipped-update-due-to-notetype2 = このノートでの更新を行いませんでした（ノートタイプが変更されており、かつ、「{ importing-merge-notetypes }」がオフになっているため）
 importing-note-updated-as-file-had-newer = 既存のノートを更新しました（より新しい版がファイル内にあるため）
 importing-note-skipped-due-to-missing-notetype = このノートのインポートをスキップしました（ノートタイプが不明なため）
 importing-note-skipped-due-to-missing-deck = このノートのインポートをスキップしました（デッキが不明なため）
