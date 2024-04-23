@@ -248,7 +248,10 @@ deck-config-seconds-to-show-question = Кількість секунд на по
 deck-config-seconds-to-show-question-tooltip-2 = При активованому авто переході, кількість секунд очікування до появи відповіді. 0 вимикає налаштування.
 deck-config-seconds-to-show-answer = Кількість секунд на показ відповіді
 deck-config-seconds-to-show-answer-tooltip-2 = При активованому авто переході, кількість секунд очікування перед застосуванням типу відповіді. 0 вимикає налаштування.
-deck-config-answer-action = Тип відповіді
+deck-config-question-action-show-answer = Показати відповідь
+deck-config-question-action-show-reminder = Показати нагадування
+deck-config-question-action = При запитанні
+deck-config-answer-action = При відповіді
 deck-config-answer-action-tooltip = Дія, яка виконується з поточною карткою перед автоматичним переходом до наступної.
 deck-config-wait-for-audio-tooltip = Чекати на завершення аудіо перед автоматичним показом відповіді чи наступного запитання
 
@@ -357,7 +360,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Параметри вільного планувальника РП
 deck-config-compute-optimal-weights = Оптимізувати параметри планувальника
-deck-config-compute-optimal-retention = Обчислити оптимальне запам'ятовування
 deck-config-optimize-button = Оптимізувати
 deck-config-compute-button = Обчислити
 deck-config-ignore-before = Ігнорувати попередні пригадування
@@ -371,10 +373,11 @@ deck-config-get-params = Отримати параметри
 deck-config-fsrs-on-all-clients =
     Будь ласка, переконайтеся, що всі Ваші Anki клієнти  мабуть версію Anki(Mobile) 23.10+ або AnkiDroid 2.17+.
     Вільний планувальник РП не працюватиме правильно, якщо у Вас є старіші версії.
-deck-config-predicted-optimal-retention = Прогнозоване оптимальне пригадування: { $num }
 deck-config-complete = { $num }% завершено.
 deck-config-iterations = Ітерація: { $count }...
 deck-config-reschedule-cards-on-change = Переплановувати картки при змінах
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-compute-optimal-retention = Обчислити оптимальне запам'ятовування
+deck-config-predicted-optimal-retention = Прогнозоване оптимальне пригадування: { $num }
