@@ -372,8 +372,8 @@ deck-config-compute-optimal-retention-tooltip2 =
 deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-a-100-day-interval =
     { $days ->
-        [one] 100日の間隔は { $days } 日になります。
-       *[other] 100日の間隔は { $days } 日になります。
+        [one] デフォルトの目標正答率だと復習間隔が（たとえば）100日になる場合、この目標正答率だとそれが{ $days }日になります。
+       *[other] デフォルトの目標正答率だと復習間隔が（たとえば）100日になる場合、この目標正答率だとそれが{ $days }日になります。
     }
 deck-config-percent-of-reviews =
     { $reviews ->
@@ -388,6 +388,7 @@ deck-config-answer-again = 回答 (もう一度)
 deck-config-answer-hard = 回答 (難しい)
 deck-config-answer-good = 回答 (正解)
 deck-config-days-to-simulate = 学習予定期間（日）
+deck-config-desired-retention-below-optimal = `目標正答率`が、この値よりも低く設定されています。この値以上に変更することをおすすめします。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
