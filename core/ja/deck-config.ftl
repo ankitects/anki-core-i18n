@@ -415,4 +415,3 @@ deck-config-compute-optimal-retention-tooltip =
     
     この値は、あくまで学習プランの調整などのための参考値であり、`目標正答率`の欄でそのまま使用するための推奨値ではありません。
 deck-config-compute-optimal-retention = 有益な目標正答率の下限を推定
-deck-config-predicted-optimal-retention = 有益な目標正答率の下限: { $num }
