@@ -19,6 +19,7 @@ browsing-cards-deleted =
     { $count ->
        *[other] { $count }枚のカードを削除しました。
     }
+browsing-cards-deleted-with-deckname = デッキ「{ $deck_name }」（カード{ $count }枚）を削除しました
 browsing-change-deck = デッキの変更
 browsing-change-deck2 = デッキを変更...
 browsing-change-note-type = ノートタイプを変更
