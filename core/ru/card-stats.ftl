@@ -11,6 +11,7 @@ card-stats-new-card-position = Позиция
 card-stats-card-template = Тип карточки
 card-stats-note-type = Тип записи
 card-stats-deck-name = Колода
+card-stats-preset = Предустановка
 card-stats-note-id = ID записи
 card-stats-card-id = Идентификатор карточки
 card-stats-review-log-rating = Оценка
