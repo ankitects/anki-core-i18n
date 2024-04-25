@@ -33,6 +33,8 @@ importing-map-to = Сопоставить { $val }
 importing-map-to-tags = Сопоставить меткам
 importing-mapped-to = сопоставить <b>{ $val }</b>
 importing-mapped-to-tags = сопоставить <b>меткам</b>
+# the action of combining two existing notetypes to create a new one
+importing-merge-notetypes = Объединить типы записи
 importing-mnemosyne-20-deck-db = Колода Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Разделители из нескольких символов не поддерживаются. Введите только один символ.
 importing-notes-added-from-file = Записи, добавленные из файла: { $val }
@@ -41,6 +43,8 @@ importing-notes-skipped-as-theyre-already-in = Пропущенные запис
 importing-notes-skipped-update-due-to-notetype = Записи не обновлены, потому что тип записи был изменён со времени первого импорта записей: { $val }
 importing-notes-updated-as-file-had-newer = Записи, которые обновлены: { $val }
 importing-include-reviews = Включать повторения
+importing-also-import-progress = Импортировать прогресс обучения
+importing-with-deck-configs = Импортировать предустановки колод
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Упакованная колода/коллекция Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
 # the '|' character
