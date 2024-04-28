@@ -48,6 +48,7 @@ editing-text-color = Χρώμα κειμένου
 editing-text-highlight-color = Χρώμα υπογράμμισης κειμένου
 editing-to-make-a-cloze-deletion-on = Για να δημιουργήσετε συμπλήρωση κενού από υπάρχουσα σημείωση, πρέπει πρώτα να την μετατρέψετε σε τύπο συμπλήρωσης κενού, μέσω του μενού 'Σημειώσεις>Αλλαγή τύπου σημείωσης'
 editing-toggle-html-editor = Ενεργοποίηση επεξεργασίας HTML
+editing-toggle-visual-editor = Εναλλαγή σε Visual Editor
 editing-expand = Επέκταση
 editing-collapse = Σύμπτυξη
 editing-expand-field = Επέκταση πεδίου
@@ -84,6 +85,7 @@ editing-image-occlusion-rectangle-tool = Ορθογώνιο παραλληλόγ
 editing-image-occlusion-ellipse-tool = Έλλειψη
 editing-image-occlusion-polygon-tool = Πολύγωνο
 editing-image-occlusion-text-tool = Κείμενο
+editing-image-occlusion-toggle-mask-editor = Εναλλαγή σε Mask Editor
 editing-image-occlusion-reset = Επαναφορά επικάλυψης εικόνας
 editing-image-occlusion-confirm-reset = Είστε σίγουροι ότι θέλετε να επαναφέρετε αυτή την επικάλυψη εικόνας;
 
