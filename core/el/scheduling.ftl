@@ -104,8 +104,11 @@ scheduling-update-required =
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = Συμπερίληψη της πλευράς της ερώτησης κατά την αναπαραγωγή ήχου
 scheduling-at-least-one-step-is-required = Τουλάχιστον ένα βήμα απαιτείται.
 scheduling-automatically-play-audio = Αυτόματη ενεργοποίηση ήχου
+scheduling-bury-related-new-cards-until-the = Αναβολή σχετικών νέων καρτών μέχρι την επόμενη ημέρα
+scheduling-bury-related-reviews-until-the-next = Αναβολή σχετικών επαναλήψεων μέχρι την επόμενη ημέρα
 scheduling-days = ημέρες
 scheduling-description = Περιγραφή
 scheduling-easy-bonus = Βonus ευκολίας

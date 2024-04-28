@@ -239,6 +239,7 @@ deck-config-fsrs-on-all-clients =
     Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
 deck-config-predicted-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση: { $num }
 deck-config-complete = { $num }% ολοκληρώθηκε.
+deck-config-iterations = Επανάληψη: { $count }...
 deck-config-reschedule-cards-on-change = Επαναπρογραμματισμός καρτών σε αλλαγή
 deck-config-fsrs-tooltip =
     Ο προγραμματιστής Free Spaced Repetition Scheduler (FSRS) είναι εναλλακτικός του SuperMemo 2.
@@ -282,6 +283,7 @@ deck-config-show-reminder = Εμφάνιση υπενθύμισης
 deck-config-answer-again = Απαντήστε "Ξανά"
 deck-config-answer-hard = Απαντήστε "Δύσκολο"
 deck-config-answer-good = Απαντήστε "Καλά"
+deck-config-days-to-simulate = Ημέρες για προσομοίωση
 deck-config-desired-retention-below-optimal = Η επιθυμητή ανάκληση είναι χαμηλότερη της βέλτιστης. Συνιστάται η αύξησή της.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

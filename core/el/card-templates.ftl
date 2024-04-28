@@ -16,11 +16,15 @@ card-templates-template-box = Πρότυπο
 card-templates-sample-cloze = Αυτό είναι ένα { "{{c1::" }παράδειγμα{ "}}" } συμπλήρωσης κενού.
 card-templates-fill-empty = Συμπλήρωση κενών πεδίων
 card-templates-night-mode = Λειτουργία Νύχτας
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Προσθήκη κλάσεων CSS για κινητά
 card-templates-preview-settings = Επιλογές
 card-templates-invalid-template-number = Το πρότυπο κάρτας του τύπου κάρτας { $notetype } έχει ένα πρόβλημα.
 card-templates-identical-front = Η πρόσθια πλευρά είναι πανομοιότυπη με το πρότυπο κάρτας { $number }.
 card-templates-no-front-field = Αναμένονταν αντικατάσταση πεδίου στην πρόσθια πλευρά του προτύπου της κάρτας.
 card-templates-missing-cloze = Αναμένονταν '{ "{{" }cloze:Text{ "}}" }' ή κάτι παρόμοιο στην πρόσθια και οπίσθια πλευρά του πρότυπου της κάρτας.
+card-templates-extraneous-cloze = Το 'cloze:' μπορεί να χρησιμοποιηθεί μόνο σε τύπους σημειώσεων cloze.
 card-templates-see-preview = Δες την προεπισκόπηση για περισσότερες πληροφορίες.
 card-templates-changes-saved = Οι αλλαγές αποθηκεύτηκαν.
 card-templates-discard-changes = Απόρριψη αλλαγών;
