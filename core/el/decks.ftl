@@ -13,6 +13,7 @@ decks-filter-2 = Φίλτρο 2
 decks-get-shared = Λήψη κοινόχρηστων
 decks-import-file = Εισαγωγή αρχείου
 decks-increasing-intervals = Αύξοντα διαστήματα
+decks-latest-added-first = Οι τελευταίες προσθήκες πρώτα
 decks-limit-to = Περιορισμός σε
 decks-minutes = λεπτά
 decks-most-lapses = Περισσότερα ολισθήματα
