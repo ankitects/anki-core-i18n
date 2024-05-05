@@ -146,6 +146,7 @@ statistics-days-ago-single =
        *[other] πριν { $days } μέρες
     }
 statistics-days-ago-range = πριν { $daysStart }-{ $daysEnd } μέρες
+statistics-running-total = Συνολικό άθροισμα
 statistics-cards-due =
     { $cards ->
         [one] { $cards } προγραμματισμένη κάρτα

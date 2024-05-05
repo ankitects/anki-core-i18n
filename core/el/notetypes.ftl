@@ -39,6 +39,7 @@ notetypes-type = Τύπος
 
 notetypes-image = Εικόνα
 notetypes-occlusion = Επικάλυψη
+notetypes-occlusion-mask = Απόκρυψη
 notetypes-occlusion-note = Σημείωση
 notetypes-comments-field = Σχόλια
 notetypes-image-occlusion-name = Επικάλυψη εικόνας

@@ -60,6 +60,9 @@ deck-config-new-insertion-order-random-with-v3 = Με τον προγραμμα�
 ## Lapses section
 
 deck-config-relearning-steps = Βήματα επανεκμάθησης
+deck-config-relearning-steps-tooltip =
+    Καμία ή περισσότερες καθυστερήσεις, διαχωρισμένες με κενά. Από προεπιλογή, το πάτημα του πλήκτρου `Ξανά`
+    σε μια κάρτα προς επανάληψη θα την εμφανίσει ξανά 10 λεπτά αργότερα. Εάν δεν δίνονται καθυστερήσεις, η κάρτα θα αλλάξει το διάστημά της, χωρίς να εισαχθεί σε στάδιο επανεκμάθησης. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = Οι φορές που πρέπει να πατηθεί το "Ξανά" σε μια κάρτα προς επανάληψη πριν επισημανθεί ως leech. Οι κάρτες leech είναι κάρτες που καταναλώνουν πολύ από τον χρόνο σας. Όταν μια κάρτα γίνεται leech, καλό θα ήταν να την ξαναγράψετε, διαγράψετε ή να σκεφτείτε ένα μνημονικό που θα σας βοηθήσει να την θυμάστε.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -135,6 +138,7 @@ deck-config-seconds-to-show-answer = Δευτερόλεπτα για εμφάν�
 deck-config-seconds-to-show-answer-tooltip-2 = Ο αριθμός των δευτερολέπτων πριν την εφαρμογή της ενέργειας απάντησης, όταν το auto advance είναι ενεργοποιημένο. Θέσετε σε 0 για απενεργοποίηση.
 deck-config-question-action-show-answer = Προβολή Απάντησης
 deck-config-question-action-show-reminder = Εμφάνιση Υπενθύμισης
+deck-config-question-action = Ενέργεια κατά την ερώτηση
 deck-config-question-action-tool-tip = Η ενέργεια που εκτελείται αφού εμφανιστεί η ερώτηση και παρέλθει ο χρόνος.
 deck-config-answer-action = Ενέργεια απάντησης
 deck-config-answer-action-tooltip = Η ενέργεια που θα εκτελεστεί στην τρέχουσα κάρτα πριν την αυτόματη εμφάνιση της επόμενης.

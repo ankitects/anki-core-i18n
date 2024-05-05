@@ -63,6 +63,7 @@ media-check-trash-restored = Επαναφορά διαγραμμένων αρχ�
 ## Buttons
 
 media-check-delete-unused = Διαγραφή αχρησιμοποίητων
+media-check-render-latex = Μεταφόρτωση LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = Άδειασμα Κάδου Ανακύκλωσης
 # button to move deleted files from the trash back into the media folder
