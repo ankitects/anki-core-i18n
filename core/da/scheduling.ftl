@@ -72,7 +72,7 @@ scheduling-learn-remaining =
         [one] Der er et kort tilbage at lære i dag.
        *[other] Der er { $remaining } kort tilbage at lære i dag.
     }
-scheduling-congratulations-finished = Tillykke! Du er færdig med dette kortsæt for i dag.
+scheduling-congratulations-finished = Tillykke! Du er færdig med dette kortsæt for nu.
 scheduling-today-review-limit-reached =
     Dagens genopfrisknings-grænse er nået, men der er stadig kort
     der venter på at blive anmeldt. For at optimere hukommelsen
