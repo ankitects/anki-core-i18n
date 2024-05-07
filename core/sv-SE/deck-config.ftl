@@ -20,9 +20,12 @@ deck-config-daily-limits = Dagliga begränsningar
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = förinställning
+deck-config-deck-only = Denna kortleck
 
 ## New Cards section
 
+deck-config-new-insertion-order-random = Slumpmässigt
 
 ## Lapses section
 
@@ -34,6 +37,7 @@ deck-config-daily-limits = Dagliga begränsningar
 
 deck-config-ordering-title = Visningsordning
 deck-config-new-gather-priority-deck = Kortlek
+deck-config-new-gather-priority-deck-then-random-notes = Kortlek sedan slumpmässiga noter
 deck-config-new-gather-priority-random-notes = Slumpmässiga noter
 deck-config-new-gather-priority-random-cards = Slumpmässiga kort
 deck-config-sort-order-random = Slumpmässigt
@@ -47,6 +51,7 @@ deck-config-sort-order-descending-difficulty = Minskande svårighet
 
 ## Timer section
 
+deck-config-timer-title = Timer
 
 ## Auto Advance section
 
@@ -86,6 +91,8 @@ deck-config-save-to-all-subdecks = Spara till alla underkortlekar
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS Parametrar
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
