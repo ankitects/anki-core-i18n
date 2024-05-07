@@ -333,6 +333,12 @@ deck-config-compute-optimal-weights-tooltip =
     
     Standardmäßig werden die Einstellungen aus dem Prüfungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
     optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
+deck-config-compute-optimal-retention-tooltip2 =
+    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den gewünschten Retentions
+    Wert zu finden, der dazu führt, dass man das meiste Material in der kürzesten Zeit lernt. Diese Zahl kann als
+    Referenz dienen, wenn Sie entscheiden, auf welchen Wert Sie Ihre gewünschte Behaltensleistung setzen wollen. Möglicherweise möchten Sie eine höhere gewünschte Retention wählen,
+    wenn Sie bereit sind, mehr Lernzeit für eine höhere Erinnerungsrate zu opfern. Es ist nicht empfehlenswert, die gewünschte Behaltensrate niedriger als
+    ist nicht zu empfehlen, da dies zu mehr Arbeit ohne Nutzen führt.
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
