@@ -3,6 +3,7 @@ fields-delete-field-from = Radera fält från { $val }?
 fields-editing-font = Redigeringstypsnitt
 fields-field = Fält:
 fields-field-name = Fältnamn:
+fields-description = Beskrivning
 fields-fields-for = Fält för { $val }
 fields-font = Typsnitt:
 fields-new-position-1 = Ny position (1...{ $val }):

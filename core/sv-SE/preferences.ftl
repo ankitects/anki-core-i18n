@@ -11,6 +11,7 @@ preferences-network = Nätverk
 preferences-next-day-starts-at = Nästa dag börjar
 preferences-on-next-sync-force-changes-in = Vid nästa synkning, tvinga ändringar i en riktning
 preferences-paste-clipboard-images-as-png = Klistra in bilder som PNG
+preferences-paste-without-shift-key-strips-formatting = Inaktivera att shift-tangenten klistrar in utan formatering
 preferences-periodically-sync-media = Synkronisera media regelbundet
 preferences-please-restart-anki-to-complete-language = Starta om Anki för att slutföra ändringen av språk.
 preferences-preferences = Inställningar
