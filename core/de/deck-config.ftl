@@ -282,16 +282,19 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS Parametern
+deck-config-compute-minimum-recommended-retention = Empfohlene minimale Retention
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
 deck-config-ignore-before = die bisherige Wiederholungen ignorieren
 deck-config-optimize-all-tip = Sie können alle Vorgaben gleichzeitig durch Drücken des oberen Knopfes optimieren.
 deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Retention
+deck-config-historical-retention = Historische Retention
 deck-config-smaller-is-better = Je kleiner die Zahl, desto besser passen die eingestellten Parameter zu Ihrer Wiederholungsgeschichte.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
 deck-config-fsrs-on-all-clients = Stellen Sie sich bitte sicher, dass alle Ihre Apps sind Anki(Mobile) 23.10+ oder AnkiDroid 2.17+. FSRS würde nicht korrekt funktionieren, falls ein Ihrer Apps älter ist.
+deck-config-predicted-minimum-recommended-retention = Empfohlene minimale Retention: { $num }
 deck-config-complete = { $num }% abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
 deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
@@ -349,6 +352,8 @@ deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = "Er­neut" ant­wor­ten
 deck-config-answer-hard = „Schwer“ ant­wor­ten
 deck-config-answer-good = "Gut" ant­wor­ten
+deck-config-days-to-simulate = Tage zu simulieren
+deck-config-desired-retention-below-optimal = Ihr gewünschter Retention ist nicht optimal. Es wird empfohlen, sie zu erhöhen.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
