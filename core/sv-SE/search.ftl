@@ -16,3 +16,5 @@ search-card-modified = Ändrade
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = Visa i bläsaren

@@ -1,4 +1,13 @@
-sync-media-check-required = Ett problem uppstod när media synkroniserades. Använd Verktyg->Granska media och synkronisera sedan igen för att korrigera detta fel.
+### Messages shown when synchronizing with AnkiWeb.
+
+
+## Media synchronization
+
+sync-media-added-count = Tillagt: { $up }↑ { $down }↓
+sync-media-removed-count = Tog bort: { $up }↑ { $down }↓
+
+## Error messages / dialogs
+
 sync-wrong-pass = ID:t eller lösenordet för AnkiWeb var felaktigt; var god försök igen.
 sync-confirm-empty-download = Den lokala samlingen har inga kort. Vill du ladda ned från AnkiWeb?
 sync-conflict-explanation =
@@ -9,16 +18,24 @@ sync-conflict-explanation =
     Om du väljer ladda upp, kommer Anki att ladda upp samlingen till AnkiWeb, och alla ändringar du har gjort på AnkiWeb eller på dina andra enheter sedan den synaste synkningen till den enheten kommer att gå förlorade.
     
     När alla enheter är synkade, kommer framtida repetitioner och tillagda kort automatiskt att sammanfogas med varandra.
-sync-download-from-ankiweb = Ladda ner från AnkiWeb
-sync-upload-to-ankiweb = Ladda upp till AnkiWeb
-sync-cancel-button = Avbryt
-sync-downloading-from-ankiweb = Laddar ner från AnkiWeb...
-sync-uploading-to-ankiweb = Laddar upp till AnkiWeb...
-sync-syncing = Synkar...
-sync-checking = Kontrollerar...
 sync-ankiweb-id-label = ID för AnkiWeb:
 sync-password-label = Lösenord:
 sync-account-required =
     <h1>Konto krävs</h1>
     Ett gratis konto krävs för att hålla din samling synkroniserad. <a href="{ $link }">Registrera</a> ett konto och ange sedan dina detaljer nedan.
+
+## Buttons
+
+sync-download-from-ankiweb = Ladda ner från AnkiWeb
+sync-upload-to-ankiweb = Ladda upp till AnkiWeb
+sync-cancel-button = Avbryt
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = Laddar ner från AnkiWeb...
+sync-uploading-to-ankiweb = Laddar upp till AnkiWeb...
+sync-syncing = Synkar...
+sync-checking = Kontrollerar...
 sync-connecting = Ansluter...
+sync-log-in-button = Logga in
+sync-log-out-button = Logga ut

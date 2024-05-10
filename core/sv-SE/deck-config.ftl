@@ -16,6 +16,7 @@ deck-config-title = Kortleksalternativ
 ## Daily limits section
 
 deck-config-daily-limits = Dagliga begränsningar
+deck-config-new-cards-ignore-review-limit = Nya kort ignorerar daglig begränsning
 deck-config-affects-entire-collection = Påverkar hela samlingen
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -27,13 +28,17 @@ deck-config-today-only = Bara idag
 
 ## New Cards section
 
+deck-config-learning-steps = Inlärningssteg
+deck-config-new-insertion-order = Insättningsordning
 deck-config-new-insertion-order-random = Slumpmässigt
 
 ## Lapses section
 
+deck-config-relearning-steps = Ominlärningssteg
 
 ## Burying section
 
+deck-config-bury-title = Nedgrävning
 
 ## Ordering section
 
