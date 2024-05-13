@@ -13,14 +13,17 @@ browsing-browser-options = Browserindstillinger
 browsing-buried = Begravet
 browsing-card = Kort
 browsing-cards = Kort
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = K
 browsing-card-list = Kortliste
 browsing-cards-cant-be-manually-moved-into = Kort kan ikke flyttes manuelt ind i et filtreret kortsæt.
 browsing-cards-deleted =
     { $count ->
         [one] { $count } kort fjernet
        *[other] { $count } kort fjernede.
+    }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } kort slettet fra { $deck_name }
+       *[other] { $count } kort slettet fra { $deck_name }
     }
 browsing-change-deck = Ændre kortsæt
 browsing-change-deck2 = Skift Kortbunke...
@@ -61,8 +64,6 @@ browsing-no-flag = Intet Flag
 browsing-no-selection = Ingen valgte kort eller noter.
 browsing-note = Note
 browsing-notes = Noter
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = Valgfrit filter:
 browsing-override-back-template = Overskriv skabelon til bagside:
 browsing-override-font = Overskriv forside:
@@ -85,6 +86,7 @@ browsing-selected-notes-only = Kun valgte noter
 browsing-shift-position-of-existing-cards = Skift position for eksisterende kort
 browsing-sidebar = Sidebar
 browsing-sidebar-filter = Sidebar filter
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sorter felt
 browsing-sorting-on-this-column-is-not = Sortering i denne søjle er ikke understøttet. Vælg venligst en anden.
 browsing-start-position = Startposition:
@@ -166,7 +168,11 @@ browsing-reparented-decks =
         [one] Omdøbte { $count } kortbunke.
        *[other] Omdøbte { $count } kortbunker.
     }
-
-## obsolete; no need to translate
-
 browsing-sidebar-card-state-review = Gennemgang
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

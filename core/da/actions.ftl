@@ -4,14 +4,17 @@ actions-any-selected = Alle markeret
 actions-cancel = Afbryd
 actions-choose = Vælg
 actions-close = Luk
+actions-discard = Kasser
 actions-copy = Kopier
 actions-create-copy = Skab kopi
 actions-custom-study = Brugerdefineret studie
 actions-decks = Alle kortsæt
+actions-decrement-value = Formindsk værdi
 actions-delete = Slet
 actions-export = Eksportér
 actions-filter = Filtrér
 actions-help = Hjælp
+actions-increment-value = Forhøj værdi
 actions-import = Importér
 actions-manage = Håndter...
 actions-name = Navn:
@@ -53,7 +56,7 @@ actions-previous-card-info = Forrige korts information
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $handling }...
-actions-currently-unsupported = Den her handling er endnu ikke understøttet af dit system.
+actions-fullscreen-unsupported = Fuldskærm er ikke understøttet af din video driver. Prøv at skift til en anden fra indstillings skærmen.
 
 ## Flags
 
@@ -66,3 +69,7 @@ actions-flag-pink = Lyserød
 actions-flag-turquoise = Turkis
 actions-flag-purple = Lila
 actions-set-flag = Sæt flag
+actions-nothing-to-undo = Intet at fortryde
+actions-nothing-to-redo = Intet at omgøre
+actions-auto-advance-activated = Auto Advance stået til
+actions-auto-advance-deactivated = Auto Advance slået fra

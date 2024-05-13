@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = Tilføj kort (genvej: ctrl+enter)
 adding-added = Tilføjet
-adding-close-and-lose-current-input = Luk og tab nuværende indhold?
+adding-discard-current-input = Kasser nuværende input?
+adding-keep-editing = Fortsæt redigering
 adding-edit = Rediger "{ $val }"
 adding-history = Historik
 adding-note-deleted = (Note fjernet)
