@@ -57,3 +57,8 @@ card-templates-this-will-create-card-proceed =
        *[other] Dette vil skabe { $count } kort. Fortsæt?
     }
 card-templates-type-boxes-warning = Kun en text-boks per kort-skabelon er understøttet.
+card-templates-restore-to-default = Gendan Standardværdier
+card-templates-restore-to-default-confirmation =
+    Dette vil gendanne alle felter og skabeloner i denne notetype til deres standard
+    værdier, og slette alle extra felter/skabeloner og deres indhold, samt brugerdefineret styling. Vil du fortsætte?
+card-templates-restored-to-default = Notetype er blevet gendannet til sin originale tilstand.

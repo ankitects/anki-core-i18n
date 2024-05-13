@@ -27,6 +27,10 @@ deck-config-limit-deck-v3 =
     Når man gennemgår en kortbunke, som har en underbunke i sig, begrænsningen på hver 
     underbunke kontrollerer det maksimale antal af kort som kan blive trukket fra den pågældende bunke.
     Begrænsningen på den valgte kortbunke kontrollerer det totale antal af viste kort.
+deck-config-limit-new-bound-by-reviews =
+    Repetitionsgrænsen påvirker den nye grænse. For eksempel, hvis din repetitionsgrænse er
+    sat til 200 og du har 190 repetitioner der venter, vil maksimalt 10 nye kort
+    blive introduceret. Hvis din repetitionsgrænse er nået vil ingen nye kort blive vist.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -106,6 +110,9 @@ deck-config-display-order-will-use-current-deck =
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Maksimalt antal svars-sekunder
 
+## Auto Advance section
+
+
 ## Audio section
 
 deck-config-audio-title = Lyd
@@ -162,5 +169,8 @@ deck-config-reviews-too-low =
 
 deck-config-which-deck = Hvilken bunke til du bruge?
 
-## NO NEED TO TRANSLATE. These strings have been replaced with new versions, and will be removed in the future.
+## Messages related to the FSRS scheduler
+
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

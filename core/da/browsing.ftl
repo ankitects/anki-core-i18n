@@ -95,6 +95,7 @@ browsing-suspended = Suspenderet
 browsing-tag-duplicates = Afmærk dubletter
 browsing-tag-rename-warning-empty = Du kan ikke omdøbe et tag som ikke har nogle noter.
 browsing-target-field = Målfelt:
+browsing-toggle-bury = Skift Begrav
 browsing-toggle-showing-cards-notes = Skift Kort/Noter
 browsing-toggle-mark = Skift Markering
 browsing-toggle-suspend = Skift udsætning
