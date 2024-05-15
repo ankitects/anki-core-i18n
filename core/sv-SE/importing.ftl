@@ -1,4 +1,3 @@
-importing-failed = Import misslyckades.
 importing-failed-debug-info = Import misslyckades. Felsökningsinformation:
 importing-aborted = Avbröts: { $val }
 importing-added-duplicate-with-first-field = Lade till dublett med första fält: { $val }
@@ -28,6 +27,8 @@ importing-mapped-to = parades ihop med <b>{ $val }</b>
 importing-mapped-to-tags = parades ihop med <b>etiketter</b>
 importing-mnemosyne-20-deck-db = Kortlek för Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatorer med fler än ett tecken stöds inte. Skriv in endast ett tecken.
+importing-include-reviews = Inkludera repetitioner
+importing-updates = Uppdateringar
 importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hade { $found } fält, förväntat antal är { $expected }
 importing-selected-file-was-not-in-utf8 = Den valda filen var inte i UTF-8-format. Se avsnittet i manualen om att importera.
@@ -42,6 +43,12 @@ importing-this-will-delete-your-existing-collection = Detta kommer att ta bort d
 importing-unable-to-import-from-a-readonly = Kan inte importera från en skrivskyddad fil.
 importing-unknown-file-format = Okänt filformat.
 importing-update-existing-notes-when-first-field = Uppdatera existerande noter när det första fältet matchar
+importing-updated = Uppdaterat
+importing-update-if-newer = Om nyare
+importing-update-always = Alltid
+importing-update-never = Aldrig
+importing-update-notes = Uppdatera noter
+importing-update-notetypes = Uppdatera nottyper
 importing-note-added =
     { $count ->
         [one] { $count } not tillagd
@@ -67,4 +74,30 @@ importing-processed-media-file =
         [one] Bearbetade { $count } mediafil
        *[other] Bearbetade { $count } mediafiler
     }
+importing-importing-file = Importerar fil...
+importing-extracting = Extraherar data...
+importing-gathering = Samlar data...
+importing-failed-to-import-media-file = Misslyckades med att importera mediafil: { $debugInfo }
+importing-existing-notes = Existerande noter
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Duplicera
+# "Existing notes: Preserve" (verb)
+importing-preserve = Bevara
+# "Existing notes: Update" (verb)
+importing-update = Uppdatera
+importing-file = Fil
+importing-cards-added =
+    { $count ->
+        [one] { $count } kort tillagt.
+       *[other] { $count } kort tillagda.
+    }
+importing-file-empty = Den fil du valde är tom.
+importing-notes-added =
+    { $count ->
+        [one] { $count } ny not importerad.
+       *[other] { $count } nya noter importerade.
+    }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
 importing-added = Tillagda

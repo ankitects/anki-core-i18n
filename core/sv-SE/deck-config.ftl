@@ -112,12 +112,30 @@ deck-config-save-and-optimize = Optimera alla förinställningar
 
 ## Selecting a deck
 
+deck-config-which-deck = Vilken kortlek vill du välja?
 
 ## Messages related to the FSRS scheduler
 
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parametrar
 deck-config-optimize-button = Optimera
+deck-config-compute-button = Beräkna
+deck-config-ignore-before = Ignorera repetitioner innan
+deck-config-please-save-your-changes-first = Vänligen spara dina ändringar först.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Ett 100-dagarsintervall kommer bli { $days } dag.
+       *[other] Ett 100-dagarsintervall kommer bli { $days } dagar.
+    }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% av { $reviews } repetition
+       *[other] { $pct }% av { $reviews } repetitioner
+    }
+deck-config-show-reminder = Visa påminnelse
+deck-config-answer-again = Svara "igen"
+deck-config-answer-hard = Svara "svårt"
+deck-config-answer-good = Svara "bra"
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

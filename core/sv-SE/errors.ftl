@@ -6,6 +6,7 @@ errors-please-check-database = Vänligen använd funktionen Check Database, och 
 
 ## Card Rendering
 
+errors-option-not-set = '{ $option }' är inte definierat
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
