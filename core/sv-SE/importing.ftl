@@ -97,7 +97,17 @@ importing-notes-added =
         [one] { $count } ny not importerad.
        *[other] { $count } nya noter importerade.
     }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } not kunde inte importeras.
+       *[other] { $count } noter kunde inte importeras.
+    }
+importing-show = Visa
+importing-details = Detaljer
+importing-status = Status
+importing-added-new-note = Ny not tillagd
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+importing-importing-collection = Importerar samling...
 importing-added = Tillagda
