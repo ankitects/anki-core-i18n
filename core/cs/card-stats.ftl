@@ -11,6 +11,7 @@ card-stats-new-card-position = Umístění
 card-stats-card-template = Typ karty
 card-stats-note-type = Typ poznámky
 card-stats-deck-name = Balíček
+card-stats-preset = Předvolba
 card-stats-note-id = ID poznámky
 card-stats-card-id = ID karty
 card-stats-review-log-rating = Hodnocení
