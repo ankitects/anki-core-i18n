@@ -55,6 +55,9 @@ importing-updates = Mises à jour
 importing-include-reviews-help =
     Si activé, toute révision précédente que le créateur du paquet partagé a inclus va aussi être importée.
     Sinon, toutes les cartes vont êtres importées comme de nouvelles cartes, et tous les tags "sangsue" ou "marquée" vont être supprimés.
+importing-with-deck-configs-help =
+    Si activé, toute option de paquet que le créateur du paquet partagé a inclus va aussi être importée.
+    Sinon, le préréglage par défaut sera assigné.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Fichier de Paquet/Collection Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1,8 leçon
 # the '|' character
@@ -154,8 +157,8 @@ importing-notes-added =
     }
 importing-notes-updated =
     { $count ->
-        [one] note a été utilisée pour en mettre à jour d'autres.
-       *[other] notes ont été utilisées pour en mettre à jour d'autres.
+        [one] { $count } note a été utilisée pour en mettre à jour d'autres.
+       *[other] { $count } notes ont été utilisées pour en mettre à jour d'autres.
     }
 importing-existing-notes-skipped =
     { $count ->
