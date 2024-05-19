@@ -112,6 +112,7 @@ deck-config-sort-order-ascending-ease = Po rosnącej łatwości
 deck-config-sort-order-descending-ease = Po malejącej łatwości
 deck-config-sort-order-ascending-difficulty = Trudność rosnąco
 deck-config-sort-order-descending-difficulty = Trudność malejąco
+deck-config-sort-order-relative-overdueness = Według względnego spóźnienia
 deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
 
 ## Timer section
@@ -215,7 +216,9 @@ deck-config-weights = Parametry FSRS
 deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
 deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
+deck-config-ignore-before = Ignoruj powtórki przed
 deck-config-evaluate-button = Oceń
+deck-config-iterations = Iteracja: { $count }...
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
 deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.
