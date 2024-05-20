@@ -80,9 +80,9 @@ deck-config-relearning-steps-tooltip =
     
     { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    復習カードに何度「`もう一度`」ボタンを押せば「苦戦（忘却多発）カード」と判定するか、を示す回数。
+    復習時に何回間違えれば（＝復習カードに何回「`もう一度`」ボタンを押せば）「leech」（苦戦、忘却多発）の状態だと判定して「leech」のタグを付けるか、を設定します。
     
-    苦戦（忘却多発）カードは、あなたの時間をたくさん消費しているカードです。苦戦カードと判定された場合は、内容を書き直す、削除する、印象に残る覚え方を工夫するなど、何らかの対策を行うことをお勧めします。
+    苦戦（忘却多発）の状態のカードは、あなたの時間をたくさん消費しています。内容を書き直す、削除する、印象に残る覚え方を工夫するなど、何らかの対策を行うことをおすすめします。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `タグのみ`：そのノートに「leech」というタグを付け、注意を喚起するためにポップアップを表示します。
