@@ -84,6 +84,7 @@ deck-config-disable-autoplay = Spela inte ljud automatiskt
 
 deck-config-advanced-title = Avancerat
 deck-config-custom-scheduling = Anpassad schemaläggning
+deck-config-custom-scheduling-tooltip = Påverkar hela samlingen. Använd på egen risk!
 
 ## Adding/renaming
 
@@ -132,10 +133,12 @@ deck-config-percent-of-reviews =
         [one] { $pct }% av { $reviews } repetition
        *[other] { $pct }% av { $reviews } repetitioner
     }
+deck-config-wait-for-audio = Vänta på ljud
 deck-config-show-reminder = Visa påminnelse
 deck-config-answer-again = Svara "igen"
 deck-config-answer-hard = Svara "svårt"
 deck-config-answer-good = Svara "bra"
+deck-config-days-to-simulate = Dagar att simulera
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
