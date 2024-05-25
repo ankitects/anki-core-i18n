@@ -132,5 +132,5 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-       *[other] { $cards }枚のカードの学習進度をリセットしました。
+       *[other] { $cards }枚のカードを新規カードに戻しました。
     }
