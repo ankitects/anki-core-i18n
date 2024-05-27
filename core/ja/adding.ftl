@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = 追加（ショートカット: ctrl+enter）
 adding-added = 追加しました
-adding-discard-current-input = 現在の入力を破棄しますか？
+adding-discard-current-input = 現在の編集を破棄しますか？
 adding-keep-editing = 編集を続ける
 adding-edit = 「{ $val }」を編集
 adding-history = 履歴
