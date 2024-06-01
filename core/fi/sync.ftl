@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Jos valitset lähetyksen AnkiWebiin, Anki lähettää tämän laitteen tiedot AnkiWebiin, ja kaikki AnkiWebissä odottavat muutokset menetetään.
     
     Sen jälkeen kun kaikki laitteet ovat synkronoitu, tulevat kertaukset ja lisätyt kortit voidaan yhdistää automaattisesti.
+sync-conflict-explanation2 =
+    Tällä laitteella olevien pakkojen ja AnkiWebin välillä on ristiriita. Valitse, kumpi versio säilytetään:
+    
+    - Valitse **{ sync-download-from-ankiweb }** korvataksesi tämän laitteen pakat AnkiWebin versiolla. Menetät kaikki muutokset, jotka olet tehnyt tällä laitteella viimeisimmän synkronoinnin jälkeen.
+    - Valitse **{ sync-upload-to-ankiweb }** korvataksesi AnkiWebin versiot tämän laitteen pakoilla ja poista kaikki AnkiWebissä tehdyt muutokset.
+    
+    Kun ristiriita on ratkaistu, synkronointi toimii jälleen normaalisti.
 sync-ankiweb-id-label = AnkiWeb-käyttäjätunnus:
 sync-password-label = Salasana:
 sync-account-required =

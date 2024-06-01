@@ -219,6 +219,7 @@ importing-match-scope-help =
     Tämä voidaan lisäksi rajoittaa koskemaan muistiinpanoja, joiden kortit ovat samassa pakassa.
 importing-tag-all-notes-help = Nämä tunnisteet lisätään sekä uusiin että päivitettyihin muistiinpanoihin.
 importing-tag-updated-notes-help = Nämä tunnisteet lisätään päivitettyihin muistiinpanoihin.
+importing-overview = Yleiskatsaus
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
