@@ -155,7 +155,7 @@ deck-config-question-action = 問題顯示後動作
 deck-config-question-action-tool-tip = 顯示問題且經過設定的時間後要執行的動作。
 deck-config-answer-action = 答案顯示後動作
 deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為當前卡片執行的動作。
-deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題
+deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題。
 
 ## Audio section
 
@@ -264,7 +264,7 @@ deck-config-historical-retention-tooltip =
     2. 你先前刪除了複習記錄來清理空間，或匯入了另一個間隔重複程式的內容。
     
     後者較為罕見，因此若你未使用前者，則無需調整該設定。
-deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。當複習超過 1000 次以後，你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的表現。
+deck-config-weights-tooltip2 = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的學習表現。
 deck-config-reschedule-cards-on-change-tooltip =
     影響整個集合，且不會被儲存。
     
@@ -274,11 +274,11 @@ deck-config-reschedule-cards-warning =
     
     使用此選項會對每張卡片都加入一條複習記錄，使集合佔用更多空間，因此請勿過度使用。
 deck-config-ignore-before-tooltip = 設定後，最佳化及評估 FSRS 參數時將無視在所選日期前做出的複習。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
-deck-config-compute-optimal-weights-tooltip =
-    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷程，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
+deck-config-compute-optimal-weights-tooltip2 =
+    按下「最佳化」按鈕後，FSRS 將分析你的複習歷程，並產生對你的記憶和學習內容最佳的參數。如果你的牌組難度差距過大，建議每個牌組各自使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
     
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
-deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值只會增加你的工作量而沒有好處，因此不建議設定過低。
+deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。為了準確模擬學習過程，此功能需要至少 400+ 次複習。設定期望留存率時可參考計算出的數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值會導致遺忘率過高，從而加大你的工作量，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-a-100-day-interval =
     { $days ->
@@ -315,3 +315,9 @@ deck-config-bury-tooltip =
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存率」欄位中。
 deck-config-compute-optimal-retention = 計算留存率推薦最小值
 deck-config-predicted-optimal-retention = 留存率推薦最小值：{ $num }
+deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。當複習超過 1000 次以後，你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的表現。
+deck-config-compute-optimal-weights-tooltip =
+    當你複習超過 1000 次以後，你可以使用「最佳化」按鈕來分析你的複習歷程，並自動產生對你的記憶和學習內容最佳的參數。如果你有些牌組的難度差距過大，建議為這些牌組使用單獨的預設組，因為牌組的難易度不一樣，參數也會不一樣。參數無需頻繁最佳化，幾個月一次即可。
+    
+    根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
+deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值只會增加你的工作量而沒有好處，因此不建議設定過低。

@@ -35,6 +35,11 @@ sync-conflict-explanation =
     如果你選擇上傳，Anki 將傳送此裝置的資料到 AnkiWeb 上，AnkiWeb 上尚未同步至此裝置的更動將全部遺失。
     
     所有裝置都同步後，未來的複習及新增的卡片即可自動合併。
+sync-conflict-explanation2 =
+    此裝置上的牌組與 AnkiWeb 有衝突。必須選取要保留的版本：
+    
+    - **{ sync-download-from-ankiweb }**：使用 AnkiWeb 上的版本來取代這裡的牌組。在此裝置上一次同步過後所做的任何更動都將遺失。
+    - **{ sync-upload-to-ankiweb }**：使用此裝置上的牌組來覆寫 AnkiWeb 上的版本，並刪除 AnkiWeb 上的所有更動。
 sync-ankiweb-id-label = AnkiWeb ID：
 sync-password-label = 密碼：
 sync-account-required =

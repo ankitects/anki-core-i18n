@@ -190,6 +190,7 @@ importing-existing-notes-help =
 importing-match-scope-help = 只會在筆記類型相同的現有筆記中檢查重複項目。可額外限制到卡片在相同牌組中的筆記。
 importing-tag-all-notes-help = 新匯入和更新的筆記都將被加上這些標籤。
 importing-tag-updated-notes-help = 任何更新的筆記都將被加上這些標籤。
+importing-overview = 概覽
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
