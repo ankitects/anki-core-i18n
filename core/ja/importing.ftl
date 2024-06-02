@@ -206,6 +206,7 @@ importing-existing-notes-help =
 importing-match-scope-help = デフォルトでは、既存のノートの重複チェックは、同じノートタイプを持つノートを対象としています。このオプションにより、同じデッキのカードを持つノートという制限を追加することができます。
 importing-tag-all-notes-help = 指定したタグを、新たにインポートしたノートと更新したノートの両方に付けます。
 importing-tag-updated-notes-help = 指定したタグを、更新したノートに付けます。
+importing-overview = 概要
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
