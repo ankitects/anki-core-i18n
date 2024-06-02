@@ -197,6 +197,7 @@ importing-existing-notes-help =
 importing-match-scope-help = 只会在笔记模板相同的现有笔记中检查重复项目。可额外限制为卡片在相同牌组的笔记。
 importing-tag-all-notes-help = 这些标签将添加到新导入和更新的笔记。
 importing-tag-updated-notes-help = 这些标签将添加到任何更新的笔记。
+importing-overview = 概览
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

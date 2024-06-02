@@ -197,7 +197,7 @@ deck-config-question-action = 显示问题后自动操作
 deck-config-question-action-tool-tip = 问题显示已超时后执行的自动操作。
 deck-config-answer-action = 显示答案后自动操作
 deck-config-answer-action-tooltip = 在展示下一张卡片前自动对当前卡片执行的操作。
-deck-config-wait-for-audio-tooltip = 在显示答案或展示下一张卡片前等待音频播放完毕
+deck-config-wait-for-audio-tooltip = 在显示答案或展示下一张卡片前等待音频播放完毕。
 
 ## Audio section
 
@@ -327,7 +327,9 @@ deck-config-historical-retention-tooltip =
     2. 您之前为释放空间删除过复习日志，或者从不同的间隔重复调度算法（SRS）程序导入过材料。
     
     后者非常罕见，因此除非您使用过前一个选项，否则您可能并不需要调整此选项。
-deck-config-weights-tooltip = FSRS 参数影响如何将卡片进行排程。当您积累了 1000+ 次复习后，您可以在下面对参数进行优化。
+deck-config-weights-tooltip2 =
+    FSRS 参数影响如何将卡片进行排程。
+    您可以使用下面的选项对参数进行优化，以与使用此预设的牌组中您的的复习表现相匹。
 deck-config-reschedule-cards-on-change-tooltip =
     此选项影响整个集合，并且不会被保存。
     
@@ -341,17 +343,18 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip =
     设置后，优化与评估 FSRS 参数将会忽略所给日期前的复习记录。
     此选项可以用于您导入了他人的排程数据，或改变了使用各回答按钮方式的情况。
-deck-config-compute-optimal-weights-tooltip =
-    一旦您在 Anki 中完成了 1000+ 次复习，您就可以使用「优化」按钮来分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的参数。
+deck-config-compute-optimal-weights-tooltip2 =
+    当您点击「优化」按钮时，FSRS 会分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的参数。
     如果您有难度差异较大的牌组，建议为它们分别使用不同的预设配置，因为简单牌组和困难牌组的参数有所不同。
     无需经常优化您的参数——每隔几个月优化一次就足够了。
     默认情况下，将根据所有使用该预设配置的牌组的复习历史记录计算出参数。
     如果您想要更改用于优化参数的卡片，您可以选择在计算参数之前调整搜索框的内容。
-deck-config-compute-optimal-retention-tooltip2 =
+deck-config-compute-optimal-retention-tooltip3 =
     该工具假设您从 0 张已学习的卡片开始，并将尝试找到期望的记忆保留率，从而在最短的时间内学习最多的材料。
-    在决定将期望记忆保留率设置为多少时，可以将此数值作为参考。
+    为了精确模拟您的学习过程，该功能需要 400+ 次复习。
+    在决定将期望记忆保留率设置为多少时，可以将此计算出的数值作为参考。
     如果您愿意以更多的学习时间换取更高的回忆成功概率，您可能希望选择一个更高的保留率。
-    并不推荐将您期望的记忆保留率设置低于最低值，因为这会带来更多的工作量而没有好处。
+    并不推荐将您期望的记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
 deck-config-please-save-your-changes-first = 请先保存您预设配置的更改。
 deck-config-a-100-day-interval =
     { $days ->
@@ -390,3 +393,17 @@ deck-config-compute-optimal-retention-tooltip =
     该数字可用作参考，但不建议将其复制到期望记忆保留率字段中。
 deck-config-compute-optimal-retention = 计算推荐的最小记忆保留率
 deck-config-predicted-optimal-retention = 预估最佳记忆保留率：{ $num }
+deck-config-weights-tooltip =
+    FSRS 参数影响如何将卡片进行排程。
+    当您积累了 1000+ 次复习后，您可以使用下面的选项对参数进行优化，以与使用此预设的牌组中您的的复习表现相匹。
+deck-config-compute-optimal-weights-tooltip =
+    一旦您在 Anki 中完成了 1000+ 次复习，您就可以使用「优化」按钮来分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的参数。
+    如果您有难度差异较大的牌组，建议为它们分别使用不同的预设配置，因为简单牌组和困难牌组的参数有所不同。
+    无需经常优化您的参数——每隔几个月优化一次就足够了。
+    默认情况下，将根据所有使用该预设配置的牌组的复习历史记录计算出参数。
+    如果您想要更改用于优化参数的卡片，您可以选择在计算参数之前调整搜索框的内容。
+deck-config-compute-optimal-retention-tooltip2 =
+    该工具假设您从 0 张已学习的卡片开始，并将尝试找到期望的记忆保留率，从而在最短的时间内学习最多的材料。
+    在决定将期望记忆保留率设置为多少时，可以将此数值作为参考。
+    如果您愿意以更多的学习时间换取更高的回忆成功概率，您可能希望选择一个更高的保留率。
+    并不推荐将您期望的记忆保留率设置低于最低值，因为这会带来更多的工作量而没有好处。

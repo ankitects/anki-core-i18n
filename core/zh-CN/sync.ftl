@@ -35,6 +35,13 @@ sync-conflict-explanation =
     如选择上传，将使用本地数据覆盖 AnkiWeb 上的数据，AnkiWeb 上的更改将全部丢失。
     
     当所有设备同步完成后，之后的复习和新增卡片都能自动合并。
+sync-conflict-explanation2 =
+    此设备上的牌组与 AnkiWeb 有冲突。您必须选择保留其中一个版本：
+    
+    - **{ sync-download-from-ankiweb }**：使用 AnkiWeb 上的版本替换此设备的牌组，您会失去自上次同步以来在此设备作出的任何更改。
+    - **{ sync-upload-to-ankiweb }**：使用此设备的牌组覆盖 AnkiWeb 上的版本，并删除 AnkiWeb 上的任何更改。
+    
+    冲突解决后，同步将照常进行。
 sync-ankiweb-id-label = AnkiWeb 账号：
 sync-password-label = 密码：
 sync-account-required =
