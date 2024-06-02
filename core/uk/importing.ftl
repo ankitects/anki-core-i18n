@@ -193,7 +193,32 @@ importing-conflicting-notes-skipped =
         [few] { $count } нотатки не імпортовано, оскільки їх тип нотатки змінився.
        *[many] { $count } нотаток не імпортовано, оскільки їх тип нотатки змінився.
     }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } нотатку не імпортовано, оскільки її тип нотатки змінився, а '{ importing-merge-notetypes }'. не увімкнено.
+        [few] { $count } нотатки не імпортовано, оскільки їх тип нотатки змінився, а '{ importing-merge-notetypes }'. не увімкнено.
+       *[many] { $count } нотаток не імпортовано, оскільки їх тип нотатки змінився, а '{ importing-merge-notetypes }'. не увімкнено.
+    }
+importing-import-log = Журнал імпорту
+importing-no-notes-in-file = У файлі не знайдено жодної нотатки.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] У файлі знайдено { $notes } нотатку. Зокрема:
+        [few] У файлі знайдено { $notes } нотатки. Зокрема:
+       *[many] У файлі знайдено { $notes } нотаток. Зокрема:
+    }
+importing-show = Показати
+importing-details = Детальніше
+importing-status = Статус
 importing-duplicate-note-added = Додано дубльовану нотатку
+importing-added-new-note = Додано нову нотатку
+importing-existing-note-skipped = Нотатку пропущено, оскільки її останній примірник вже в колекції
+importing-note-skipped-update-due-to-notetype = Нотатку не оновлено, оскільки тип нотатки змінився відколи її імпортували вперше
+importing-note-skipped-update-due-to-notetype2 = Нотатку не оновлено, оскільки тип нотатки змінився відколи її імпортували вперше і { importing-merge-notetypes } не увімкнено
+importing-note-updated-as-file-had-newer = Нотатку оновлено, адже у файлі була новіша версія
+importing-note-skipped-due-to-missing-notetype = Нотатку пропущено, адже відсутній тип нотатки
+importing-note-skipped-due-to-missing-deck = Нотатку пропущено, оскільки нема її колоди
+importing-note-skipped-due-to-empty-first-field = Нотатку пропущено, адже її перше поле є порожнім
 importing-existing-notes-help =
     Що робити, якщо імпортована нотатка збігається з наявною.
     
