@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Pokud zvolíte nahrát, Anki odešle vaši kolekci na AnkiWeb a všechny změny, které jste provedli na AnkiWeb nebo jiných zařízeních od poslední synchronizace daného zařízení, budou ztraceny.
     
     Poté, co všechna zařízení budou synchronizována, mohou být budoucí opakování a přidané karty sloučeny automaticky.
+sync-conflict-explanation2 =
+    Mezi balíčky na tomto zařízení a na AnkiWebu nastal konflikt. Musíte si vybrat, kterou verzi si ponecháte:
+    
+    - Zvolte **{ sync-download-from-ankiweb }**, abyste nahradili balíčky na tomto zařízení verzí z AnkiWebu. Ztratíte všechny změny, které jste na tomto zařízení provedli od poslední synchronizace.
+    - Zvolte **{ sync-upload-to-ankiweb }**, abyste přepsali verze na AnkiWebu balíčky z tohoto zařízení, a odstranili všechny změny na AnkiWebu.
+    
+    Po vyřešení konfliktu bude synchronizace fungovat jako obvykle.
 sync-ankiweb-id-label = Přihlašovací jméno:
 sync-password-label = Heslo:
 sync-account-required =
