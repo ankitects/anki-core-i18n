@@ -95,6 +95,7 @@ statistics-counts-young-cards = Незрілі
 statistics-counts-mature-cards = Зрілі
 statistics-counts-suspended-cards = Призупинені
 statistics-counts-buried-cards = Приховані
+statistics-counts-filtered-cards = Відфільтровано
 statistics-counts-learning-cards = Навчання
 statistics-counts-relearning-cards = Перенавчання
 statistics-counts-title = Кількість карток
@@ -106,9 +107,13 @@ statistics-range-deck = колода
 statistics-range-collection = колекція
 statistics-range-search = Пошук
 statistics-card-ease-title = Легкість картки
+statistics-card-difficulty-title = Складність картки
+statistics-card-stability-title = Стійкість картки
 statistics-card-stability-subtitle = Затримка при якій легкість пригадування опускається до 90%
+statistics-average-stability = Середня стійкість
 statistics-card-retrievability-title = Легкість пригадування картки
 statistics-card-ease-subtitle = Чим менша легкість, тим частіше з'являтиметься картка.
+statistics-card-difficulty-subtitle2 = Чим вище складність, тим повільніше зростатиме стійкість.
 statistics-retrievability-subtitle = Ймовірність повторного показу картки сьогодні.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -116,6 +121,12 @@ statistics-card-ease-tooltip =
         [one] { $cards } картка з легкістю { $percent }
         [few] { $cards } картки з легкістю { $percent }
        *[other] { $cards } карток з легкістю { $percent }
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } картка з { $percent } складністю
+        [few] { $cards } картки з { $percent } складністю
+       *[many] { $cards } карток з { $percent } складністю
     }
 statistics-retrievability-tooltip =
     { $cards ->
@@ -178,9 +189,23 @@ statistics-intervals-day-single =
         [few] { $cards } картки з проміжком { $day } день
        *[other] { $cards } карток з проміжком { $day } день
     }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } картка із денною постійністю { $daysStart }~{ $daysEnd }
+        [few] { $cards } картки із денною постійністю { $daysStart }~{ $daysEnd }
+       *[many] { $cards } карток із денною постійністю { $daysStart }~{ $daysEnd }
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } картка із постійністю { $day } днів
+        [few] { $cards } картки із постійністю { $day } днів
+       *[many] { $cards } карток із постійністю { $day } днів
+    }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = З { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } правильно ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } переглядів
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% правильних ({ $reviews })
 statistics-hours-title = Погодинна розбивка
