@@ -285,7 +285,7 @@ deck-config-compute-optimal-weights = Optimierung von FSRS Parametern
 deck-config-compute-minimum-recommended-retention = Empfohlene minimale Retention
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
-deck-config-ignore-before = die bisherige Wiederholungen ignorieren
+deck-config-ignore-before = Wiederholungen vor diesem Datum ignorieren
 deck-config-optimize-all-tip = Sie können alle Vorgaben gleichzeitig durch Drücken des oberen Knopfes optimieren.
 deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Retention
@@ -313,7 +313,7 @@ deck-config-historical-retention-tooltip =
     2. Weil Sie früher Wiederholungsprotokolle gelöscht haben, um Speicherplatz freizugeben, oder Material aus einem anderen SRS-Programm importiert haben.
     
     Letzteres ist recht selten, daher müssen Sie diese Einstellung wahrscheinlich nicht anpassen, es sei denn, Sie haben die erstgenannte Option verwendet."
-deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
+deck-config-weights-tooltip2 = FSRS-Parameter beeinflussen, wie Karten terminiert werden. Anki beginnt mit Standardparametern. Sie können die untenstehende Option verwenden, um die Parameter so zu optimieren, dass sie am besten zu Ihrer Leistung in Stapeln mit dieser Optionengruppe passen.
 deck-config-reschedule-cards-on-change-tooltip =
     Wirkt sich auf die gesamte Sammlung aus und wird nicht gespeichert.
     
@@ -325,20 +325,6 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip =
     Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
     Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortschaltflächen verwenden, geändert haben.
-deck-config-compute-optimal-weights-tooltip =
-    Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,
-    und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind.
-    Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapeloptionen zuzuweisen, da
-    die Einstellungen für leichte Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
-    
-    Standardmäßig werden die Einstellungen aus dem Prüfungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
-    optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
-deck-config-compute-optimal-retention-tooltip2 =
-    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den gewünschten Retentions
-    Wert zu finden, der dazu führt, dass man das meiste Material in der kürzesten Zeit lernt. Diese Zahl kann als
-    Referenz dienen, wenn Sie entscheiden, auf welchen Wert Sie Ihre gewünschte Behaltensleistung setzen wollen. Möglicherweise möchten Sie eine höhere gewünschte Retention wählen,
-    wenn Sie bereit sind, mehr Lernzeit für eine höhere Erinnerungsrate zu opfern. Es ist nicht empfehlenswert, die gewünschte Behaltensrate niedriger als
-    ist nicht zu empfehlen, da dies zu mehr Arbeit ohne Nutzen führt.
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
@@ -352,7 +338,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = Optimiere Stapeloptionengruppe { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
-deck-config-fsrs-params-optimal = Die FSRS Parameter scheinen jetzt optimal zu sein
+deck-config-fsrs-params-optimal = Die FSRS-Parameter scheinen bereits optimal zu sein
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = "Er­neut" ant­wor­ten
@@ -375,5 +361,20 @@ deck-config-bury-tooltip =
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
 deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Behaltensleistung hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Lernzeit zu kopieren.
-deck-config-compute-optimal-retention = Optimale Retention berechnen
+deck-config-compute-optimal-retention = Empfohlene minimale Retention berechnen
 deck-config-predicted-optimal-retention = Voraussichtliche optimale Retention: { $num }
+deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
+deck-config-compute-optimal-weights-tooltip =
+    Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,
+    und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind.
+    Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapeloptionen zuzuweisen, da
+    die Einstellungen für leichte Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
+    
+    Standardmäßig werden die Einstellungen aus dem Prüfungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
+    optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
+deck-config-compute-optimal-retention-tooltip2 =
+    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den gewünschten Retentions
+    Wert zu finden, der dazu führt, dass man das meiste Material in der kürzesten Zeit lernt. Diese Zahl kann als
+    Referenz dienen, wenn Sie entscheiden, auf welchen Wert Sie Ihre gewünschte Behaltensleistung setzen wollen. Möglicherweise möchten Sie eine höhere gewünschte Retention wählen,
+    wenn Sie bereit sind, mehr Lernzeit für eine höhere Erinnerungsrate zu opfern. Es ist nicht empfehlenswert, die gewünschte Behaltensrate niedriger als
+    ist nicht zu empfehlen, da dies zu mehr Arbeit ohne Nutzen führt.
