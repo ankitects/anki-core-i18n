@@ -15,6 +15,7 @@ media-check-unused-count = Невикористано файлів: { $count }
 media-check-renamed-count = Перейменовано файлів: { $count }
 media-check-oversize-count = Більше 100МБ: { $count }
 media-check-subfolder-count = Підтек: { $count }
+media-check-extracted-count = Витягнуті зображення: { $count }
 
 ## Shown at the top of each section
 
@@ -23,6 +24,7 @@ media-check-oversize-header = Файли більші за 100МБ не можу
 media-check-subfolder-header = Теки в медіа-теках не підтримуються.
 media-check-missing-header = Використовується в картках, але відсутнє в медіа теці:
 media-check-unused-header = Наступні файли знайдені в медіа-теці, але не використовуються в жодній з карток:
+media-check-template-references-field-header = Anki не може виявити використані файли, коли ви використовуєте посилання { "{{Field}}" } у тегах media/LaTeX. Натомість теги media/LaTeX слід розмістити на окремих нотатках.¶¶Шаблони посилань:
 
 ## Shown once for each file
 
@@ -72,3 +74,7 @@ media-check-empty-trash = Спорожнити кошик
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Відновити видалене
 media-check-check-media-action = Перевірити медіа-файли
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = медіа відсутнє
+# add a tag to notes with missing media
+media-check-add-tag = Тег відсутній
