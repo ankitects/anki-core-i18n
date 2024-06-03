@@ -374,8 +374,8 @@ deck-config-compute-optimal-retention-tooltip3 =
 deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-a-100-day-interval =
     { $days ->
-        [one] デフォルトの目標正答率だと復習間隔が（たとえば）100日になる場合、この目標正答率だとそれが{ $days }日になります。
-       *[other] デフォルトの目標正答率だと復習間隔が（たとえば）100日になる場合、この目標正答率だとそれが{ $days }日になります。
+        [one] 【参考】たとえば、デフォルトの目標正答率だと復習間隔が100日になる場合、この目標正答率だと、その復習間隔は{ $days }日になります。
+       *[other] 【参考】たとえば、デフォルトの目標正答率だと復習間隔が100日になる場合、この目標正答率だと、その復習間隔は{ $days }日になります。
     }
 deck-config-percent-of-reviews =
     { $reviews ->
