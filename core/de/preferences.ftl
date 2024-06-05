@@ -60,6 +60,7 @@ preferences-review = Wiederholung
 preferences-answer-keys = Antworttasten
 preferences-distractions = Ablenkungen
 preferences-minimalist-mode = Minimalistischer Modus
+preferences-minimalist-mode-tooltip = Lässt Anki etwas kompakter und minimalistischer aussehen
 preferences-editing = Bearbeiten
 preferences-browsing = Durchsuchen
 preferences-default-deck = Standardstapel

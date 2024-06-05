@@ -219,6 +219,7 @@ importing-existing-notes-help =
 importing-match-scope-help = Nur Notizen mit dem gleichen Notiztyp werden daraufhin überprüft, ob sie bereits in der Sammlung vorhanden sind. Zusätzlich kann die Prüfung darauf beschränkt werden, ob im selben Stapel eine identische Notiz vorhanden ist.
 importing-tag-all-notes-help = Diese Schlagwörter werden sowohl den neu importierten als auch den geupdateten Notizen hinzugefügt.
 importing-tag-updated-notes-help = Diese Schlagwörter werden nur den geupdateten Notizen hinzugefügt.
+importing-overview = Überblick
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
