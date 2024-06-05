@@ -292,6 +292,7 @@ importing-match-scope-help =
     تقييد هذا على الملاحظات التي تحتوي على بطاقات في نفس المجموعة.
 importing-tag-all-notes-help = ستتم إضافة هذه الوسوم إلى كل من الملاحظات المستوردة حديثا والمحدثة.
 importing-tag-updated-notes-help = ستتم إضافة هذه الوسوم إلى أي ملاحظات محدثة.
+importing-overview = موجز
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
