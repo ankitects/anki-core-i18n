@@ -25,6 +25,7 @@ card-templates-no-front-field = 卡片模板正面應包含欄位替換。
 card-templates-missing-cloze = 卡片正面和背面應包含「{ "{{" }cloze:Text{ "}}" }」或類似的內容。
 card-templates-extraneous-cloze = 「cloze:」只能用於克漏字筆記類型。
 card-templates-see-preview = 查看預覽以取得更多資訊。
+card-templates-field-not-found = 找不到「{ $field }」欄位。
 card-templates-changes-saved = 已儲存更動。
 card-templates-discard-changes = 要捨棄所作更動嗎？
 card-templates-add-card-type = 新增卡片類型...
