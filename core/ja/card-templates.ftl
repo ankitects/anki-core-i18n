@@ -22,6 +22,7 @@ card-templates-no-front-field = 表面のカードテンプレートには「{ "
 card-templates-missing-cloze = 表面と裏面のカードテンプレートには 「{ "{{cloze:テキスト}}" }」といった置換え文字列が必要です。
 card-templates-extraneous-cloze = 「cloze:」（穴埋め問題）は穴埋め問題のノートタイプでのみ使用できます。
 card-templates-see-preview = 詳細はプレビューをご覧ください。
+card-templates-field-not-found = 「{ $field }」というフィールドが見つかりません。
 card-templates-changes-saved = 変更を保存しました。
 card-templates-discard-changes = 変更を破棄しますか？
 card-templates-add-card-type = カードタイプを追加...
