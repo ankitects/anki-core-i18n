@@ -26,6 +26,7 @@ card-templates-no-front-field = Αναμένονταν αντικατάστασ�
 card-templates-missing-cloze = Αναμένονταν '{ "{{" }cloze:Text{ "}}" }' ή κάτι παρόμοιο στην πρόσθια και οπίσθια πλευρά του πρότυπου της κάρτας.
 card-templates-extraneous-cloze = Το 'cloze:' μπορεί να χρησιμοποιηθεί μόνο σε τύπους σημειώσεων cloze.
 card-templates-see-preview = Δες την προεπισκόπηση για περισσότερες πληροφορίες.
+card-templates-field-not-found = Το πεδίο '{ $field }' δεν βρέθηκε.
 card-templates-changes-saved = Οι αλλαγές αποθηκεύτηκαν.
 card-templates-discard-changes = Απόρριψη αλλαγών;
 card-templates-add-card-type = Προσθήκη τύπου κάρτας...
