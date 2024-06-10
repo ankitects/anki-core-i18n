@@ -403,7 +403,16 @@ deck-config-compute-optimal-weights-tooltip2 =
     Facendo clic sul pulsante Ottimizza, FSRS analizza la cronologia delle ripetizioni e genera parametri ottimizzati per la propria memoria e per il contenuto che si sta studiando. Se i mazzi variano molto in termini di difficoltà, è consigliato assegnare loro delle preimpostazioni separate, in quanto i parametri per i mazzi facili e per quelli difficili sono necessariamente diversi. 
     Non è necessario ottimizzare i parametri frequentemente ma è sufficiente farlo una volta ogni qualche mese.
     
-    Per impostazione predefinita, i parametri vengono calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Tuttavia è possibile decidere quali carte sono utilizzate per l'ottimizzazione modificando il contenuto della casella di ricerca.
+    Per impostazione predefinita, i parametri vengono calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Tuttavia è possibile decidere quali carte sono utilizzate per l'ottimizzazione agendo sul contenuto della casella di ricerca.
+deck-config-compute-optimal-retention-tooltip3 =
+    Questo strumento presuppone che si inizi con 0 carte apprese e cerca di calcolare il valore di ritenzione desiderata
+    che consente di imparare la maggior parte del materiale nel minor tempo possibile. Per simulare accuratamente
+    il processo di apprendimento, questa funzionalità richiede un minimo di 400 ripetizioni. Il numero calcolato
+    può essere usato come riferimento per l'impostazione della propria ritenzione desiderata. Qualora si sia disposti
+    a dedicare più tempo allo studio per ottenere un tasso di rammentabilità maggiore, è possibile scegliere
+    un valore di ritenzione desiderata più alto. D'altra parte, è sconsigliato impostare la ritenzione desiderata al di sotto
+    del livello ottimale, in quanto non vi sarebbe alcun beneficio apprezzabile a fronte di una mole di lavoro più elevata,
+    causata da un tasso elevato di oblio.
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-a-100-day-interval =
     { $days ->
