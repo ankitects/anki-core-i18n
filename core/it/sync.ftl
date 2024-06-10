@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Se invece si sceglie di caricare, la collezione di questo dispositivo verrà caricata su AnkiWeb, e tutte le modifiche fatte su AnkiWeb andranno perse.
     
     Una volta che tutti i dispositivi sono stati sincronizzati, le ripetizioni future e le carte aggiunte verranno unite automaticamente.
+sync-conflict-explanation2 =
+    C'è un conflitto tra il mazzo presente su questo dispositivo (locale) e quello presente su AnkiWeb (remoto). È necessario scegliere quale versione mantenere:
+    
+    - Selezionare **{ sync-download-from-ankiweb }** per sostituire il mazzo locale con quello remoto. Le modifiche apportate su questo dispositivo dall'ultima sincronizzazione verranno perse.
+    - Selezionare **{ sync-upload-to-ankiweb }** per sovrascrivere la versione remota con quella locale e cancellare tutte le modifiche presenti nella versione di AnkiWeb.
+    
+    Una volta risolto il conflitto, la sincronizzazione tornerà a funzionare.
 sync-ankiweb-id-label = ID di AnkiWeb:
 sync-password-label = Password:
 sync-account-required =

@@ -226,6 +226,7 @@ importing-match-scope-help =
     Il campo di ricerca può essere ulteriormente ristretto alle note le cui carte si trovano nello stesso mazzo.
 importing-tag-all-notes-help = Queste etichette verranno aggiunte sia alle note appena importate che a quelle aggiornate.
 importing-tag-updated-notes-help = Queste etichette saranno aggiunte ad ogni nota aggiornata.
+importing-overview = Panoramica
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

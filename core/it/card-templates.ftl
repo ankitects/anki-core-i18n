@@ -26,6 +26,7 @@ card-templates-no-front-field = È necessaria la presenza di una sostituzione di
 card-templates-missing-cloze = È necessaria la presenza di '{ "{{" }cloze:Testo{ "}}" }' o una formulazione simile sul fronte e retro del modello della carta.
 card-templates-extraneous-cloze = 'cloze:' può essere usato solo con le note di tipo cloze.
 card-templates-see-preview = Vedere l'anteprima per maggiori informazioni.
+card-templates-field-not-found = Campo "{ $field }" non trovato.
 card-templates-changes-saved = Modifiche salvate.
 card-templates-discard-changes = Annullare le modifiche?
 card-templates-add-card-type = Aggiungi tipo di carta...

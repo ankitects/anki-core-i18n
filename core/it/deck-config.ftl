@@ -379,11 +379,11 @@ deck-config-historical-retention-tooltip =
     
     Quest'ultima eventualità è piuttosto rara, quindi, a meno che non si sia utilizzata l'opzione di cui al punto 1,
     probabilmente non è necessario modificare questa impostazione.
-deck-config-weights-tooltip =
-    I parametri FSRS influiscono sulla pianificazione delle carte. Alla prima attivazione di FSRS,
-    verranno utilizzati i parametri predefiniti e, una volta accumulate 1000 o più ripetizioni,
-    sarà possibile utilizzare l'opzione sottostante per ottimizzare i parametri in base alle prestazioni dei mazzi
-    che utilizzano questa preimpostazione.
+deck-config-weights-tooltip2 =
+    I parametri FSRS sono dei valori che influenzano la pianificazione delle carte.
+    Sono presenti dei parametri predefiniti che, attraverso l'opzione sottostante,
+    è possibile ottimizzare in modo che si adattino alle proprie prestazioni
+    nei mazzi che utilizzano questa preimpostazione.
 deck-config-reschedule-cards-on-change-tooltip =
     N.B.: influisce sull'intera collezione.
     
@@ -399,20 +399,11 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip =
     Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
     Questo può risultare utile nel caso in cui si fossero importati i dati di pianificazione di un'altra persona o qualora siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
-deck-config-compute-optimal-weights-tooltip =
-    Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare lo storico delle ripetizioni
-    e generare automaticamente parametri ottimali per la propria memoria e i contenuti che si stanno studiando. 
-    Se sono presenti mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preimpostazioni separate, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
-    Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
+deck-config-compute-optimal-weights-tooltip2 =
+    Facendo clic sul pulsante Ottimizza, FSRS analizza la cronologia delle ripetizioni e genera parametri ottimizzati per la propria memoria e per il contenuto che si sta studiando. Se i mazzi variano molto in termini di difficoltà, è consigliato assegnare loro delle preimpostazioni separate, in quanto i parametri per i mazzi facili e per quelli difficili sono necessariamente diversi. 
+    Non è necessario ottimizzare i parametri frequentemente ma è sufficiente farlo una volta ogni qualche mese.
     
-    Di default, i parametri saranno calcolati in base allo storico delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
-deck-config-compute-optimal-retention-tooltip2 =
-    Questo strumento presuppone che si inizi con 0 carte apprese e cerca di calcolare il valore di ritenzione desiderata
-    che consente di imparare la maggior parte del materiale nel minor tempo possibile. Il numero risultante
-    può essere usato come riferimento per l'impostazione della propria ritenzione desiderata. Qualora si sia disposti
-    a dedicare più tempo allo studio per ottenere un tasso di rammentabilità maggiore, è possibile scegliere
-    un valore di ritenzione desiderata più alto. D'altra parte, è sconsigliato impostare la ritenzione desiderata al di sotto
-    del livello ottimale, in quanto non vi sarebbe alcun beneficio apprezzabile a fronte di una mole di lavoro più elevata.
+    Per impostazione predefinita, i parametri vengono calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Tuttavia è possibile decidere quali carte sono utilizzate per l'ottimizzazione modificando il contenuto della casella di ricerca.
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-a-100-day-interval =
     { $days ->
@@ -462,3 +453,22 @@ deck-config-compute-optimal-retention-tooltip =
     Ritenzione desiderata.
 deck-config-compute-optimal-retention = Calcola ritenzione ottimale
 deck-config-predicted-optimal-retention = Ritenzione ottimale stimata: { $num }
+deck-config-weights-tooltip =
+    I parametri FSRS influiscono sulla pianificazione delle carte. Alla prima attivazione di FSRS,
+    verranno utilizzati i parametri predefiniti e, una volta accumulate 1000 o più ripetizioni,
+    sarà possibile utilizzare l'opzione sottostante per ottimizzare i parametri in base alle prestazioni dei mazzi
+    che utilizzano questa preimpostazione.
+deck-config-compute-optimal-weights-tooltip =
+    Dopo aver completato 1000 o più ripetizioni in Anki, è possibile usare il pulsante Ottimizza per analizzare lo storico delle ripetizioni
+    e generare automaticamente parametri ottimali per la propria memoria e i contenuti che si stanno studiando. 
+    Se sono presenti mazzi che variano notevolmente in difficoltà, è consigliabile assegnare loro preimpostazioni separate, poiché i parametri per i mazzi facili e quelli difficili saranno diversi. 
+    Non è necessario ottimizzare i parametri frequentemente; è sufficiente farlo una volta ogni pochi mesi.
+    
+    Di default, i parametri saranno calcolati in base allo storico delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Facoltativamente, prima di calcolare i parametri, è possibile modificare i criteri di ricerca così da personalizzare la scelta delle carte da usare per l'ottimizzazione.
+deck-config-compute-optimal-retention-tooltip2 =
+    Questo strumento presuppone che si inizi con 0 carte apprese e cerca di calcolare il valore di ritenzione desiderata
+    che consente di imparare la maggior parte del materiale nel minor tempo possibile. Il numero risultante
+    può essere usato come riferimento per l'impostazione della propria ritenzione desiderata. Qualora si sia disposti
+    a dedicare più tempo allo studio per ottenere un tasso di rammentabilità maggiore, è possibile scegliere
+    un valore di ritenzione desiderata più alto. D'altra parte, è sconsigliato impostare la ritenzione desiderata al di sotto
+    del livello ottimale, in quanto non vi sarebbe alcun beneficio apprezzabile a fronte di una mole di lavoro più elevata.
