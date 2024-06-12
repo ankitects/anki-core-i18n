@@ -333,10 +333,11 @@ deck-config-historical-retention-tooltip =
     
     復習履歴の一部が欠落する理由としては、次の２つが考えられます。
     
-    (1) 「`指定日より前の復習を無視`」オプションによって復習履歴の一部を無視していたことがある
+    (1) 「`指定日より前の復習を無視`」オプションによって復習履歴の一部を無視している
+    
     (2) デバイスの空き容量を確保するために復習履歴を削除したか、別のSRSプログラムからデータをインポートしたことがある
     
-    (2) は非常にまれなケースであり、実際には、(1) が該当していない場合は、このオプションの値を調整する必要はないでしょう。
+    (2) は非常にまれなケースなので、(1) が該当していない場合は、おそらくこのオプションの値を調整する必要はないでしょう。
 deck-config-weights-tooltip2 =
     カードの復習間隔を調整する16種類の要因についての変数。
     
@@ -391,7 +392,7 @@ deck-config-answer-again = 回答 (もう一度)
 deck-config-answer-hard = 回答 (難しい)
 deck-config-answer-good = 回答 (正解)
 deck-config-days-to-simulate = 学習予定期間（日）
-deck-config-desired-retention-below-optimal = `目標正答率`が、この値よりも低く設定されています。この値以上に変更することをおすすめします。
+deck-config-desired-retention-below-optimal = 現在、この値よりも低い値が「目標正答率」として設定されています。「目標正答率」をこの値以上に変更することをおすすめします。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
