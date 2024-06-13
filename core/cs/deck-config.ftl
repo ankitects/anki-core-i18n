@@ -373,9 +373,7 @@ deck-config-historical-retention-tooltip =
     2. Protože jste dříve smazali záznamy opakování, abyste uvolnili místo, nebo jste importovali materiál z jiného SRS programu.
     
     To druhé je poměrně vzácné, takže pokud jste nepoužili první možnost, pravděpodobně nebudete muset toto nastavení upravovat.
-deck-config-weights-tooltip =
-    Váhy modelu ovlivňují, jak jsou karty plánovány. Jakmile máte 1000+ opakování, můžete optimalizovat 
-    váhy níže.
+deck-config-weights-tooltip2 = FSRS parametry ovlivňují způsob plánování karet. Anki začíná s výchozími parametry. Můžete použít možnost níže, abyste optimalizovali parametry tak, aby co nejlépe odpovídaly vašemu výkonu v balíčcích, které používají tuto předvolbu.
 deck-config-reschedule-cards-on-change-tooltip =
     Tato možnost řídí, jestli se změní data zkoušení karet, když povolíte FSRS nebo změníte 
     váhy. Výchozí hodnota je nepřeplánovat karty: budoucí opakování použijí nové plánování, ale 
@@ -386,15 +384,6 @@ deck-config-reschedule-cards-warning = V závislosti na vaší požadované rete
 deck-config-ignore-before-tooltip =
     Je-li nastaveno, opakování před uvedeným datem budou ignorovány při optimalizaci a vyhodnocení FSRS parametrů.
     To může být užitečné, pokud jste importovali data plánování někoho jiného nebo jste změnili způsob, jakým používáte tlačítka odpovědí.
-deck-config-compute-optimal-weights-tooltip =
-    Jakmile provedete 1000+ opakování v Anki, můžete použít tlačítko Optimalizovat, aby se analyzovala vaše 
-    historie opakování a automaticky se vygenerovaly váhy, které jsou optimální pro vaší paměť a obsah, který 
-    studujete. Jestliže máte balíčky, u kterých se velmi liší obtížnost, je doporučeno přiřadit jim samostatné
-    předvolby, protože váhy pro jednoduché balíčky a těžké balíčky budou různé. Není potřeba optimalizovat vaše váhy často - jednou za několik měsíců je dostatečné.
-    
-    Ve výchozím nastavení se váhy budou počítat z historie opakování všech balíčků za použití současné 
-    předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
-    se použijí pro optimalizování vah.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
 deck-config-a-100-day-interval =
     { $days ->
@@ -427,3 +416,15 @@ deck-config-compute-optimal-retention-tooltip =
     nedoporučuje se jej kopírovat do pole požadovaná retence.
 deck-config-compute-optimal-retention = Vypočítat optimální retenci
 deck-config-predicted-optimal-retention = Předpovězená optimální retence: { $num }
+deck-config-weights-tooltip =
+    Váhy modelu ovlivňují, jak jsou karty plánovány. Jakmile máte 1000+ opakování, můžete optimalizovat 
+    váhy níže.
+deck-config-compute-optimal-weights-tooltip =
+    Jakmile provedete 1000+ opakování v Anki, můžete použít tlačítko Optimalizovat, aby se analyzovala vaše 
+    historie opakování a automaticky se vygenerovaly váhy, které jsou optimální pro vaší paměť a obsah, který 
+    studujete. Jestliže máte balíčky, u kterých se velmi liší obtížnost, je doporučeno přiřadit jim samostatné
+    předvolby, protože váhy pro jednoduché balíčky a těžké balíčky budou různé. Není potřeba optimalizovat vaše váhy často - jednou za několik měsíců je dostatečné.
+    
+    Ve výchozím nastavení se váhy budou počítat z historie opakování všech balíčků za použití současné 
+    předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
+    se použijí pro optimalizování vah.
