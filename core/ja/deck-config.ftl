@@ -339,7 +339,7 @@ deck-config-historical-retention-tooltip =
     
     (2) は非常にまれなケースなので、(1) が該当していない場合は、おそらくこのオプションの値を調整する必要はないでしょう。
 deck-config-weights-tooltip2 =
-    カードの復習間隔を調整する16種類の要因についての変数。
+    カードの復習間隔を調整する（目標正答率以外の）16種類の要因についての変数。
     
     デフォルトでは、ユーザー全般に対して一般的におすすめできる値を使用しています。
     
@@ -385,7 +385,7 @@ deck-config-percent-of-reviews =
     }
 deck-config-optimizing-preset = { $total_count }個中{ $current_count }個目のプリセットを最適化しています...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
-deck-config-fsrs-params-optimal = FSRSパラメータ値は現在、最適であると思われます。
+deck-config-fsrs-params-optimal = FSRSパラメータは、今のところ、このままの値が最適であると思われます。
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
 deck-config-answer-again = 回答 (もう一度)
