@@ -28,6 +28,7 @@ card-templates-no-front-field = Očekává se zástupce pole na přední straně
 card-templates-missing-cloze = Očekává se „{ "{{" }cloze:Text{ "}}" }“ nebo podobně na přední a zadní straně šablony karty.
 card-templates-extraneous-cloze = „doplňovačka:“ lze použít pouze na typu poznámek doplňovačka.
 card-templates-see-preview = Pro více informací viz náhled.
+card-templates-field-not-found = pole '{ $field }' nenalezeno.
 card-templates-changes-saved = Změny uloženy.
 card-templates-discard-changes = Zahodit změny?
 card-templates-add-card-type = Přidat typ karty...
