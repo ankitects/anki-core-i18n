@@ -27,7 +27,7 @@ decks-random = 無作為
 decks-relative-overdueness = 期日超過の割合が大きい順
 decks-repeat-failed-cards-after = 「やり直し」の間隔 (分)
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = { $button } の間隔 (分)
+decks-delay-for-button = 「{ $button }」 の間隔
 decks-reschedule-cards-based-on-my-answers = このデッキの解答に基づいてカードをスケジュールし直す
 decks-study = 学習
 decks-study-deck = 学習するデッキを選択してください
