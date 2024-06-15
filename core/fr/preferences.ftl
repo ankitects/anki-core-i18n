@@ -13,6 +13,7 @@ preferences-media-is-not-backed-up = Le média n'est pas synchronisé. Veuillez 
 preferences-on-next-sync-force-changes-in = À la prochaine synchronisation, forcer les changements dans une direction.
 preferences-paste-clipboard-images-as-png = Coller les images du presse-papier en PNG.
 preferences-paste-without-shift-key-strips-formatting = Coller sans maintenir la touche Maj retire le formatage
+preferences-latex-generation-disabled = La création d'images LaTeX est désactivée dans les préférences.
 preferences-periodically-sync-media = Synchroniser périodiquement les médias
 preferences-please-restart-anki-to-complete-language = Veuillez redémarrer Anki pour finaliser le changement de langue.
 preferences-preferences = Préférences

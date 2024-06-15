@@ -26,6 +26,7 @@ card-templates-no-front-field = On s'attendait à trouver un remplacement de cha
 card-templates-missing-cloze = Je m'attendais à trouver '{ "{{" }cloze:Text{ "}}" }' ou un texte similaire au recto et au verso du modèle de carte.
 card-templates-extraneous-cloze = 'cloze:' peut uniquement être utilisé sur le type de note "texte à trous".
 card-templates-see-preview = Veuillez prévisualiser pour plus d'informations.
+card-templates-field-not-found = Pas de champ "{ $field }" trouvé.
 card-templates-changes-saved = Changements sauvegardés.
 card-templates-discard-changes = Perdre les changements ?
 card-templates-add-card-type = Ajouter une sorte de carte...

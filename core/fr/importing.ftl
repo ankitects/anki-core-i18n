@@ -228,6 +228,7 @@ importing-match-scope-help =
     également être limité aux notes dont les cartes sont dans le même paquet.
 importing-tag-all-notes-help = Ces étiquettes vont être ajoutées aussi bien aux notes nouvellement importées qu'aux notes mises à jour.
 importing-tag-updated-notes-help = Ces étiquettes ne vont être ajoutées à aucune note mise à jour.
+importing-overview = Aperçu
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

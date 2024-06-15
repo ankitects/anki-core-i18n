@@ -327,7 +327,9 @@ deck-config-historical-retention-tooltip =
     2. Parce que vous avez supprimé des logs de révision pour libérer de l'espace, ou parce que vous avez importé du matériel à partir d'un autre programme de SRS.
     
     Ce dernier cas étant assez rare, vous n'avez probablement pas besoin d'ajuster ce paramètre, à moins que vous n'ayez utilisé la première option.
-deck-config-weights-tooltip = Les paramètres FSRS affectent la manière dont les cartes sont programmées. Anki commencera avec les paramètres par défaut. Une fois que vous avez accumulé plus de 1000 révisions, vous pourrez utiliser l'option ci-dessous pour optimiser les paramètres afin qu'ils correspondent au mieux à vos performances dans les decks utilisant ce préréglage.
+deck-config-weights-tooltip2 =
+    Les paramètres FSRS modifient comment les cartes sont planifiées. Anki commencera avec les paramètres par défaut. Vous pouvez utiliser
+    l'option ci-dessous pour optimiser les paramètres pour correspondre au mieux à votre performance dans les paquets utilisant ce préréglage.
 deck-config-reschedule-cards-on-change-tooltip =
     Affecte l'ensemble de la collection ; n'est pas sauvegardée.
     
@@ -339,14 +341,6 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip =
     Si cette option est activée, les révisions antérieures à la date indiquée seront ignorées lors de l'optimisation et de l'évaluation des paramètres FSRS.
     Cela peut être utile si vous avez importé les données de planification de quelqu'un d'autre ou si vous avez changé la façon dont vous utilisez les boutons de réponse.
-deck-config-compute-optimal-weights-tooltip =
-    Une fois que vous aurez effectué plus de 1000 révisions dans Anki, vous pourrez utiliser le bouton 'Optimiser' pour analyser l'historique de vos révisions et générer automatiquement des paramètres optimaux adaptés à votre mémoire et au contenu que vous étudiez.
-    Si vous avez des jeux dont la difficulté varie considérablement, il est recommandé de leur attribuer des préréglages de paramètres distincts, car les paramètres pour les jeux faciles et les jeux difficiles devraient être différents. Il n'est pas utile d'optimiser vos paramètres fréquemment - une fois tous les quelques mois suffit.
-    Les paramètres sont calculés par défaut à partir de l'historique de tous les decks utilisant le préréglage actuel. Vous pouvez éventuellement ajuster la recherche avant le calcul des paramètres, si vous souhaitez contrôler quelles cartes sont utilisées pour optimiser les paramètres.
-deck-config-compute-optimal-retention-tooltip2 =
-    Cet outil suppose que vous commencez avec 0 cartes apprises et tentera de trouver la valeur de rétention souhaitée qui vous permettra d'apprendre le plus de contenu possible en un minimum de temps.
-    Ce nombre peut servir de référence lorsque vous décidez comment fixer votre rétention souhaitée.
-    Vous pouvez très bien choisir une plus grande rétention souhaitée, si vous êtes prêt à travailler plus longtemps pour un meilleur taux de rétention. Choisir un taux de rétention plus bas que l'optimum n'est pas recommandé, car cela risque de mener à plus de travail sans aucun bénéfice en retour.
 deck-config-please-save-your-changes-first = Veuillez sauvegarder vos changements d'abord.
 deck-config-a-100-day-interval =
     { $days ->
@@ -377,3 +371,12 @@ deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la mê
 deck-config-compute-optimal-retention-tooltip = Cet outil part du principe que vous démarrez avec 0 cartes, et va essayer de calculer la quantité de contenu que vous serez capable de retenir dans la période de temps donnée. La rétention estimée dépendra largement de vos entrées, et si elle diffère trop de 0,9 , c'est un signe que le temps que vous avez alloué chaque jour est soit trop faible soit trop élevé par rapport au nombre de cartes que vous essayez d'apprendre. Ce nombre peut servir de référence, mais il n'est pas recommandé de le copier dans le champ concernant la rétention souhaitée.
 deck-config-compute-optimal-retention = Calculer la rétention minimum recommandée
 deck-config-predicted-optimal-retention = Rétention minimum recommandée: { $num }
+deck-config-weights-tooltip = Les paramètres FSRS affectent la manière dont les cartes sont programmées. Anki commencera avec les paramètres par défaut. Une fois que vous avez accumulé plus de 1000 révisions, vous pourrez utiliser l'option ci-dessous pour optimiser les paramètres afin qu'ils correspondent au mieux à vos performances dans les decks utilisant ce préréglage.
+deck-config-compute-optimal-weights-tooltip =
+    Une fois que vous aurez effectué plus de 1000 révisions dans Anki, vous pourrez utiliser le bouton 'Optimiser' pour analyser l'historique de vos révisions et générer automatiquement des paramètres optimaux adaptés à votre mémoire et au contenu que vous étudiez.
+    Si vous avez des jeux dont la difficulté varie considérablement, il est recommandé de leur attribuer des préréglages de paramètres distincts, car les paramètres pour les jeux faciles et les jeux difficiles devraient être différents. Il n'est pas utile d'optimiser vos paramètres fréquemment - une fois tous les quelques mois suffit.
+    Les paramètres sont calculés par défaut à partir de l'historique de tous les decks utilisant le préréglage actuel. Vous pouvez éventuellement ajuster la recherche avant le calcul des paramètres, si vous souhaitez contrôler quelles cartes sont utilisées pour optimiser les paramètres.
+deck-config-compute-optimal-retention-tooltip2 =
+    Cet outil suppose que vous commencez avec 0 cartes apprises et tentera de trouver la valeur de rétention souhaitée qui vous permettra d'apprendre le plus de contenu possible en un minimum de temps.
+    Ce nombre peut servir de référence lorsque vous décidez comment fixer votre rétention souhaitée.
+    Vous pouvez très bien choisir une plus grande rétention souhaitée, si vous êtes prêt à travailler plus longtemps pour un meilleur taux de rétention. Choisir un taux de rétention plus bas que l'optimum n'est pas recommandé, car cela risque de mener à plus de travail sans aucun bénéfice en retour.

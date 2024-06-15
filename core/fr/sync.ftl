@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Si vous choisissez d'uploader, Anki va envoyer votre collection vers AnkiWeb, et toutes les modifications que vous avez apportées sur AnkiWeb ou vos autres appareils depuis la dernière synchronisation sur ces appareils seront perdues.
     
     Après que tous les appareils sont synchronisés, les futurs révisions et les cartes ajoutées peuvent être fusionnées automatiquement.
+sync-conflict-explanation2 =
+    Il y a un conflit entre les paquets sur cet appareil et AnkiWeb. Vous devez choisir quelle version garder:
+    
+    - Sélectionnez **{ sync-download-from-ankiweb }** pour remplacer les paquets par leur version AnkiWeb. Vous perdrez tous les changements faits sur cet appareil depuis la dernière synchronisation.
+    - Sélectionnez **{ sync-upload-to-ankiweb }** pour remplacer la version d'AnkiWeb avec les paquets de cet appareil, et supprimer tous les changements sur AnkiWeb.
+    
+    Une fois que le conflit est résolu, la synchronisation fonctionnera normalement.
 sync-ankiweb-id-label = Identifiant Anki :
 sync-password-label = Mot de passe :
 sync-account-required =
