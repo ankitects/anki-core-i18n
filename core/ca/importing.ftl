@@ -145,6 +145,11 @@ importing-existing-notes-skipped =
         [one] Ja hi ha una nota en la vostra col·lecció.
        *[other] Ja hi ha { $count } notes en la vostra col·lecció.
     }
+importing-notes-failed =
+    { $count ->
+        [one] No s’ha pogut importar una nota.
+       *[other] No s’han pogut importar { $count } notes.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] No s’ha importat una nota perquè el tipus ha canviat.
@@ -192,6 +197,7 @@ importing-existing-notes-help =
 importing-match-scope-help = No es comprovarà si hi ha duplicats entre les notes existents del mateix tipus. Podeu restringir aquesta opció a les notes amb targetes en la mateixa baralla.
 importing-tag-all-notes-help = S’afegiran aquestes etiquetes a les notes importades i actualitzades.
 importing-tag-updated-notes-help = Aquestes etiquetes s’afegiran a totes les notes que actualitzeu.
+importing-overview = Resum
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

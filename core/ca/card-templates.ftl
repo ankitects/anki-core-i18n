@@ -26,6 +26,7 @@ card-templates-no-front-field = S'esperava trobar un reemplaçament de camp en l
 card-templates-missing-cloze = S'esperava trobar '{ "{{" }cloze:Text{ "}}" }' o semblant en l'anvers i en el revers de la plantilla de targeta.
 card-templates-extraneous-cloze = Només podeu fer servir 'cloze:' en les targetes del tipus «Targeta amb buits».
 card-templates-see-preview = Consulteu la previsualització per a trobar més informació.
+card-templates-field-not-found = No s’ha trobat el camp { $field }.
 card-templates-changes-saved = S'han guardat els canvis.
 card-templates-discard-changes = Voleu anul·lar els canvis?
 card-templates-add-card-type = Afegeix un tipus de targeta…
