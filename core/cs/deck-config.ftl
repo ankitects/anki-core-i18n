@@ -384,6 +384,11 @@ deck-config-reschedule-cards-warning = V závislosti na vaší požadované rete
 deck-config-ignore-before-tooltip =
     Je-li nastaveno, opakování před uvedeným datem budou ignorovány při optimalizaci a vyhodnocení FSRS parametrů.
     To může být užitečné, pokud jste importovali data plánování někoho jiného nebo jste změnili způsob, jakým používáte tlačítka odpovědí.
+deck-config-compute-optimal-weights-tooltip2 =
+    Po kliknutí na tlačítko Optimalizovat FSRS analyzuje vaši historii opakování a vygeneruje parametry, které jsou optimální pro vaši paměť a obsah, který studujete. Pokud se obtížnost vašich balíčků velmi liší, doporučujeme jim přiřadit samostatné předvolby, protože parametry pro lehké balíčky a těžké balíčky se budou lišit. 
+    Parametry nemusíte optimalizovat často - stačí jednou za několik měsíců.
+    
+    Ve výchozím nastavení se parametry vypočítají z historie opakování všech balíčků, které používají aktuální předvolbu. Pokud chcete změnit, které karty se použijí pro optimalizaci parametrů, můžete navíc před výpočtem parametrů upravit vyhledávání.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
 deck-config-a-100-day-interval =
     { $days ->
