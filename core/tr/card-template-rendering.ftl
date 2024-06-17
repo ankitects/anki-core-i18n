@@ -20,6 +20,9 @@ card-template-rendering-wrong-conditional-closed = '{ $found }' bulundu, ama '{ 
 # when the user closed a conditional that wasn't open
 # eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
 card-template-rendering-conditional-not-open = '{ $found }' bulundu, ama '{ $missing1 }' ya da '{ $missing2 }' eksik
+# when the user referenced a field that doesn't exist
+# eg, Found '{{Field}}', but there is not field called 'Field'
+card-template-rendering-no-such-field = '{ $found }' bulundu, ama '{ $field }' adlı bir alan yok
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.

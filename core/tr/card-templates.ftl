@@ -13,7 +13,7 @@ card-templates-front-preview = Ön Önizleme
 card-templates-back-preview = Arka Önizleme
 card-templates-preview-box = Önizleme
 card-templates-template-box = Şablon
-card-templates-sample-cloze = Bu bir { "{{c1::" }örnek{ "}}" } kapalı delesyon.
+card-templates-sample-cloze = Bu { "{{c1::" }örnek{ "}}" } bir boşluk doldurma.
 card-templates-fill-empty = Boş Alanları Doldur
 card-templates-night-mode = Gece Modu
 # Add "mobile" class to card preview, so the card appears like it would
