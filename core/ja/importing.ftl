@@ -137,8 +137,8 @@ importing-match-scope = 重複チェックの範囲
 importing-notetype-and-deck = ノートタイプとデッキ
 importing-cards-added =
     { $count ->
-        [one] { $count }枚のノートを追加しました。
-       *[other] { $count }枚のノートを追加しました。
+        [one] { $count }枚のカードを追加しました。
+       *[other] { $count }枚のカードを追加しました。
     }
 importing-file-empty = 選択したファイルが空です。
 importing-notes-added =
