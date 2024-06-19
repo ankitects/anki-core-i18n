@@ -29,6 +29,43 @@ actions-rename-deck = دەستە ئاتىنى ئۆزگەرت
 actions-rename-tag = بەلگە ئاتىنى ئۆزگەرت
 actions-rename-with-parents = ئانا ئاتىنى ئۆزگەرت
 actions-remove-tag = بەلگە چىقىرىۋەت
+actions-replay-audio = ئاۋازنى قايتىلا
+actions-reposition = قايتا تەرتىپلە
+actions-save = ساقلا
+actions-search = ئىزدە
+actions-select = تاللا
+actions-shortcut-key = قىسقا يول كۇنۇپكىسى: { $val }
+actions-suspend-card = كارتىنى كېچىكتۈر
+actions-set-due-date = مۆھلەت چېسلا تەڭشىكى
+actions-answer-card = جاۋاب كارتا
+actions-unbury-unsuspend = يوشۇرما/كېچىكتۈرمە
+actions-add-deck = دەستە قوش
+actions-add-note = ئىزاھات قوش
+actions-update-tag = بەلگە يېڭىلا
+actions-update-note = ئىزاھات يېڭىلا
+actions-update-card = كارتا يېڭىلا
+actions-update-deck = دەستە يېڭىلا
+actions-forget-card = كارتىنى ئەسلىگە قايتۇر
+actions-build-filtered-deck = دەستە قۇر
+actions-add-notetype = ئىزاھات تۈرى قوش
+actions-remove-notetype = ئىزاھات تۈرىنى چىقىرىۋەت
+actions-update-notetype = ئىزاھات تۈرىنى يېڭىلا
+actions-update-config = سەپلىمە يېڭىلا
+actions-card-info = كارتا ئۇچۇرى
+actions-previous-card-info = ئالدىنقى كارتا ئۇچۇرى
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }…
+actions-fullscreen-unsupported = پۈتۈن ئېكران ھالىتى كۆرسىتىش كارتىڭىزنىڭ قوزغاتقۇچ پىروگراممىسىنى قوللىمايدۇ. مايىللىق ئېكرانىدىن باشقا بىرىنى تاللاپ سىناڭ.
 
 ## Flags
 
+actions-flag-number = بايراق { $number }
+actions-flag-red = قىزىل
+actions-flag-orange = قىزغۇچ سېرىق
+actions-flag-green = يېشىل
+actions-flag-blue = كۆك
+actions-flag-pink = ھالرەڭ
+actions-flag-turquoise = توق يېشىل
+actions-flag-purple = بىنەپشە
+actions-set-flag = بايراق تەڭشەك
