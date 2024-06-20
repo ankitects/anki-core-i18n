@@ -22,6 +22,7 @@ card-templates-no-front-field = 内容模板正面应有字段替换。
 card-templates-missing-cloze = 内容模板的正面和背面应有「{ "{{" }cloze:Text{ "}}" }」或类似的文字。
 card-templates-extraneous-cloze = 「cloze:」只能用于填空题笔记模板。
 card-templates-see-preview = 查看预览以获得更多信息。
+card-templates-field-not-found = 未找到「{ $field }」字段。
 card-templates-changes-saved = 更改已保存
 card-templates-discard-changes = 放弃更改？
 card-templates-add-card-type = 添加卡片模板…
