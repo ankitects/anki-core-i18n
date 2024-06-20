@@ -154,6 +154,26 @@ browsing-sidebar-due-today = مۆھلەت
 browsing-sidebar-untagged = بەلگە سېلىنمىغان
 browsing-sidebar-overdue = مۆھلەتتىن ئۆتكەن
 browsing-row-deleted = (ئۆچۈرۈلگەن)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] ئىشلىتىلمىگەن { $count } بەلگە چىقىرىۋېتىلدى.
+       *[other] ئىشلىتىلمىگەن { $count } بەلگە چىقىرىۋېتىلدى.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] { $count } يېڭى كارتىنىڭ ئورنى ئۆزگەرتىلدى.
+       *[other] { $count } يېڭى كارتىنىڭ ئورنى ئۆزگەرتىلدى.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } دەستەنىڭ ئىسمى ئۆزگەرتىلدى.
+       *[other] { $count } دەستەنىڭ ئىسمى ئۆزگەرتىلدى.
+    }
+browsing-sidebar-card-state-review = تەكرار
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
