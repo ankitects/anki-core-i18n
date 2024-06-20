@@ -81,6 +81,79 @@ browsing-reposition-new-cards = يېڭى كارتىنى قايتا تەرتىپ�
 browsing-reschedule = قايتا كۈنتەرتىپلە
 browsing-search-bar-hint = كارتا/خاتىرە ئىزدە(تېكىست كىرگۈزۈپ Enter بېسىلىدۇ)
 browsing-search-in = ئىچىدە ئىزدە:
+browsing-search-within-formatting-slow = پىچىملىق ئىزدە (ئاستا)
+browsing-selected-notes-only = تاللىغان خاتىرەلا
+browsing-shift-position-of-existing-cards = مەۋجۇت كارتىنىڭ ئورنىنى تەڭشە
+browsing-sidebar = يانبالداق
+browsing-sidebar-filter = يانبالداق سۈزگۈچ
+# The field that is used for sorting (sort is an adjective here, not a verb)
+browsing-sort-field = بۆلەك تەرتىپلە
+browsing-sorting-on-this-column-is-not = بۇ رەتنى تەرتىپلەشنى قوللىمايدۇ. باشقىسىنى تاللاڭ.
+browsing-start-position = باشلاش ئورنى:
+browsing-step = قەدەم:
+browsing-suspended = كېچىكتۈرۈلدى
+browsing-tag-duplicates = تەكرارلانغاندا بەلگە سال
+browsing-tag-rename-warning-empty = خاتىرە يوق بەلگىنىڭ ئاتىنى ئۆزگەرتەلمەيسىز.
+browsing-target-field = نىشان بۆلەك:
+browsing-toggle-bury = يوشۇرغاننى ئاچ/ياپ
+browsing-toggle-showing-cards-notes = كارتا/خاتىرە ئالماشتۇر
+browsing-toggle-mark = بەلگە ئالماشتۇر
+browsing-toggle-suspend = كېچىكتۈرۈشنى ئاچ/ياپ
+browsing-treat-input-as-regular-expression = مۇنتىزىم ئىپادە كىرگۈزۈلىدۇ
+browsing-update-saved-search = نۆۋەتتىكى ئىزدەشكە يېڭىلا
+browsing-whole-collection = پۈتكۈل توپلام
+browsing-window-title-notes = كۆز يۈگۈرت({ $selected }/{ $total } تاللاندى)
+browsing-you-must-have-at-least-one = كەم دېگەندە بىر رەت بولۇشى كېرەك.
+browsing-group =
+    { $count ->
+        [one] { $count } گۇرۇپپا
+       *[other] { $count } گۇرۇپپا
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } خاتىرە
+       *[other] { $count } خاتىرە
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } خاتىرە يېڭىلاندى
+       *[other] { $count } خاتىرە يېڭىلاندى
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } كارتا يېڭىلاندى.
+       *[other] { $count } كارتا يېڭىلاندى.
+    }
+browsing-window-title = كۆز يۈگۈرت({ $selected }/{ $total } كارتا تاللاندى)
+browsing-sidebar-expand = ياي
+browsing-sidebar-collapse = يىغ
+browsing-sidebar-expand-children = تارمىقىنى ياي
+browsing-sidebar-collapse-children = تارمىقىنى يىغ
+browsing-sidebar-decks = دەستە
+browsing-sidebar-tags = بەلگە
+browsing-sidebar-notetypes = خاتىرە تۈرى
+browsing-sidebar-saved-searches = ساقلانغان ئىزدەش
+browsing-sidebar-save-current-search = نۆۋەتتىكى ئىزدەشنى ساقلا
+browsing-sidebar-card-state = كارتا ھالىتى
+browsing-sidebar-flags = بايراق
+browsing-today = بۈگۈن
+browsing-tooltip-card-modified = كارتىغا ئېلىپ بېرىلغان ئاخىرقى ئۆزگەرتىش تەكرارلاش، بايراق ۋە دەستە ئۆزگەرتىشنى ئۆز ئىچىگە ئالىدۇ
+browsing-tooltip-note-modified = ئاخىرقى خاتىرە ئۆزگەرتىش، ئادەتتە بۆلەك مەزمۇنىنى ئۆزگەرتىش ياكى بەلگە تەھرىرلەشنى كۆرسىتىدۇ
+browsing-tooltip-card = كارتا تەۋە قېلىپنىڭ ئىسمى
+browsing-tooltip-cards = خاتىرەنىڭ كارتا سانى
+browsing-tooltip-notetype = خاتىرەنىڭ خاتىرە تۈر ئىسمى
+browsing-tooltip-question = كارتا قېلىپ تەھرىرلىگۈچتە خاسلاشتۇرغىلى بولىدىغان كارتىنىڭ ئالدى يۈزى
+browsing-tooltip-answer = كارتا قېلىپ تەھرىرلىگۈچتە خاسلاشتۇرغىلى بولىدىغان كارتىنىڭ كەينى يۈزى
+browsing-studied-today = ئۆگەنگەن
+browsing-added-today = قوشۇلدى
+browsing-again-today = تەكرار
+browsing-edited-today = تەھرىرلەنگەن
+browsing-sidebar-first-review = تۇنجى تەكرار
+browsing-sidebar-rescheduled = قايتا كۈنتەرتىپلەندى
+browsing-sidebar-due-today = مۆھلەت
+browsing-sidebar-untagged = بەلگە سېلىنمىغان
+browsing-sidebar-overdue = مۆھلەتتىن ئۆتكەن
+browsing-row-deleted = (ئۆچۈرۈلگەن)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
