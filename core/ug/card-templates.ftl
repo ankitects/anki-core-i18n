@@ -35,3 +35,29 @@ card-templates-at-least-one-card-type-is = كەم دېگەندە بىر كارت
 card-templates-browser-appearance = توركۆرگۈ كۆرۈنۈشى…
 card-templates-card = كارتا { $val }
 card-templates-card-types-for = { $val } نىڭ كارتا تۈرى
+card-templates-cloze = بوش ئورۇن تولدۇرۇش { $val }
+card-templates-deck-override = دەستە قاپلا…
+card-templates-delete-the-as-card-type-and = كارتا تۈرى «{ $template }» ۋە ئۇنىڭ { $cards } نى ئۆچۈرەمدۇ؟
+card-templates-enter-deck-to-place-new = يېڭى كارتىدىن { $val } نى قويىدىغان دەستە ئىسمى كىرگۈزۈلىدۇ ياكى بوش قالدۇرۇلىدۇ:
+card-templates-enter-new-card-position-1 = يېڭى كارتا ئورنى كىرگۈزۈلىدۇ  (1...{ $val }):
+card-templates-flip = ئۆرۈ
+card-templates-form = كۆزنەك
+card-templates-off = (تاقاق)
+card-templates-on = (ئوچۇق)
+card-templates-remove-card-type = كارتا تۈرىنى چىقىرىۋەت…
+card-templates-rename-card-type = كارتا تۈرىنىڭ ئاتىنى ئۆزگەرت…
+card-templates-reposition-card-type = كارتا تۈرىنىڭ ئورنىنى تەڭشە…
+card-templates-card-count =
+    { $count ->
+        [one] { $count } كارتا
+       *[other] { $count } كارتا
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] { $count } كارتا قۇرىدۇ. داۋاملاشتۇرامدۇ؟
+       *[other] { $count } كارتا قۇرىدۇ. داۋاملاشتۇرامدۇ؟
+    }
+card-templates-type-boxes-warning = ھەر بىر كارتا قېلىپى بىر كىرگۈزۈش قۇتىسىنى قوللايدۇ.
+card-templates-restore-to-default = كۆڭۈلدىكىگە ئەسلىگە قايتۇر
+card-templates-restore-to-default-confirmation = بۇ مەشغۇلات خاتىرە تۈرىدىكى بارلىق بۆلەك ۋە قېلىپنى ئەسلىدىكى قىممەتكە قايتۇرىدۇ. بارلىق قوشۇمچە بۆلەك، قېلىپ ۋە ئۇنىڭ مەزمۇنى شۇنداقلا ئىختىيارى ئۇسلۇبنى چىقىرىۋېتىدۇ. داۋاملاشتۇرامسىز؟
+card-templates-restored-to-default = خاتىرە تۈرى دەسلەپكى ھالىتىگە ئەسلىگە قايتۇرۇلدى.
