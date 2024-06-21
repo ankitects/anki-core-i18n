@@ -27,3 +27,6 @@ card-template-rendering-no-such-field = «{ $found }» تىپىلدى ئەمما
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = بۇ كارتىنىڭ ئالدى يۈزى بوش.
+card-template-rendering-missing-cloze =
+    كارتىدىن بوش ئورۇن تولدۇرۇش { $number } بايقالمىدى.
+    بىر بوشلۇق قوشۇڭ ياكى قورال › بوش كارتىنى تازىلا ئارقىلىق بۇ كارتىنى چىقىرىۋېتىڭ.

@@ -27,6 +27,7 @@ card-stats-no-card = (كۆرسىتىدىغان كارتا يوق)
 card-stats-custom-data = ئىختىيارى سانلىق مەلۇمات
 card-stats-fsrs-stability = مۇقىملىقى
 card-stats-fsrs-difficulty = قىيىنلىقى
+card-stats-fsrs-retrievability = ئەستە تۇرۇشچانلىقى
 
 ## Window Titles
 
