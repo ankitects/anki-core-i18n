@@ -26,6 +26,7 @@ card-templates-no-front-field = Korttimallin etupuolelta odotettiin löytyvän k
 card-templates-missing-cloze = Odotettiin löytyvän '{ "{{" }cloze:Text{ "}}" }' tai vastaavaa korttimallin etu- ja kääntöpuolella.
 card-templates-extraneous-cloze = 'cloze:' -merkintää voidaan käyttää vain aukkotehtävätyyppisissä muistiinpanoissa.
 card-templates-see-preview = Katso lisätietoja esikatselusta.
+card-templates-field-not-found = Kenttää '{ $field }' ei löytynyt.
 card-templates-changes-saved = Muutokset tallennettu.
 card-templates-discard-changes = Hylätäänkö muutokset?
 card-templates-add-card-type = Lisää kortin tyyppi...
