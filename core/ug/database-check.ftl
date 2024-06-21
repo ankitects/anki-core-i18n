@@ -52,3 +52,5 @@ database-check-checking-integrity = توپلامنى تەكشۈرۈۋاتىدۇ�
 database-check-rebuilding = قايتا قۇرۇۋاتىدۇ…
 database-check-checking-cards = كارتىنى تەكشۈرۈۋاتىدۇ…
 database-check-checking-notes = خاتىرە تەكشۈرۈۋاتىدۇ…
+database-check-checking-history = تارىخنى تەكشۈرۈۋاتىدۇ…
+database-check-title = ساندان تەكشۈر
