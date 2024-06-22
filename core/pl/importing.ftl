@@ -127,6 +127,7 @@ importing-note-skipped-due-to-missing-notetype = Pominięto notatkę, ponieważ 
 importing-note-skipped-due-to-missing-deck = Pominięto notatkę, ponieważ brakowało talii
 importing-note-skipped-due-to-empty-first-field = Pominięto notatkę, ponieważ pierwsze pole jest puste
 importing-deck-help = Importowane karty będą umieszczone w tej talii.
+importing-overview = Podsumowanie
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

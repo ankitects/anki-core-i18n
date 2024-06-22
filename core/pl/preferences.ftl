@@ -64,6 +64,7 @@ preferences-review = Powtórki
 preferences-answer-keys = Przyciski odpowiedzi
 preferences-distractions = Rozpraszacze
 preferences-minimalist-mode = Tryb minimalistyczny
+preferences-minimalist-mode-tooltip = Bardziej kompaktowy interfejs (mniej ozdobników)
 preferences-editing = Edytowanie
 preferences-browsing = Przeglądanie
 preferences-default-deck = Domyślna talia

@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Jeśli wybierzesz przesyłanie, Anki wyśle Twoją kolekcję do AnkiWeb i wszystkie zmiany wykonane w AnkiWeb lub na innych urządzeniach od ostatniej synchronizacji zostaną utracone.
     
     Po zsynchronizowaniu wszystkich urządzeń kolejne powtórki i dodane karty zostaną złączone automatycznie.
+sync-conflict-explanation2 =
+    Występuje konflikt między talią na tym urządzeniu a talią w AnkiWeb. Którą chcesz zatrzymać?
+    
+    - Wybierz **{ sync-download-from-ankiweb }**, aby zastąpić talię tutaj talią z AnkiWeb. Stracisz zmiany z tego urządzenia zrobione po ostatniej synchronizacji.
+    - Wybierz **{ sync-upload-to-ankiweb }**, aby zastąpić talię z AnkiWeb talią tutaj. Usunie to wszystkie zmiany z AnkiWeb.
+    
+    Po rozwiązaniu konfliktu synchronizacja będzie działać jak zazwyczaj.
 sync-ankiweb-id-label = Identyfikator AnkiWeb ID:
 sync-password-label = Hasło:
 sync-account-required =

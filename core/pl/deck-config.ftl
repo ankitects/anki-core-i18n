@@ -137,6 +137,7 @@ deck-config-question-action = Działanie odpowiedzi
 deck-config-question-action-tool-tip = Działanie wykonywane, gdy pytanie jest pokazane i minął czas na odpowiedź
 deck-config-answer-action = Reakcja odpowiedzi
 deck-config-answer-action-tooltip = Działanie wykonane na aktualnej karcie przed automatycznym przejściem do następnej.
+deck-config-wait-for-audio-tooltip = Czeka, aż dźwięk się skończy przed automatycznym pokazaniem odpowiedzi lub następnego pytania.
 
 ## Audio section
 
