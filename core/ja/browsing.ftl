@@ -33,14 +33,14 @@ browsing-current-note-type = 現在のノートタイプ:
 browsing-delete-notes = ノートを削除する
 browsing-duplicate = 重複
 browsing-ease = 易しさ
-browsing-enter-tags-to-add = タグを追加する：
-browsing-enter-tags-to-delete = タグを削除する：
+browsing-enter-tags-to-add = 追加するタグを指定してください（選択中のノートに追加します）
+browsing-enter-tags-to-delete = 取りはずすタグを指定してください（指定されたタグが、選択中のノートから削除されます）
 browsing-filtered = (フィルター)
 browsing-find = <b>検索文字列</b>：
 browsing-find-and-replace = 検索して置換
 browsing-find-duplicates = 重複を検索
 browsing-first-card = 最初のカード
-browsing-flag = フラグを付ける / 取り外す
+browsing-flag = フラグを付ける / 取りはずす
 browsing-font = <b>フォント</b>：
 browsing-font-size = <b>フォントサイズ</b>：
 browsing-found-as-across-bs = { $whole } の中に { $part } が見つかりました。
@@ -92,7 +92,7 @@ browsing-tag-rename-warning-empty = ノートのないタグ名を変更する�
 browsing-target-field = 対象フィールド:
 browsing-toggle-bury = 今日は非表示 / 非表示解除
 browsing-toggle-showing-cards-notes = テーブル表示を切り替える（カード / ノート）
-browsing-toggle-mark = マークを付ける / 取り外す
+browsing-toggle-mark = マークを付ける / 取りはずす
 browsing-toggle-suspend = 休止 / 休止解除
 browsing-treat-input-as-regular-expression = 入力条件に正規表現を使う
 browsing-update-saved-search = 現在の検索条件で更新
@@ -147,7 +147,7 @@ browsing-sidebar-overdue = 今日延滞中（期日が昨日以前）
 browsing-row-deleted = (削除)
 browsing-removed-unused-tags-count =
     { $count ->
-       *[other] 使用していないタグを{ $count }個削除しました。
+       *[other] どのノートにも使用されていないタグを{ $count }個削除しました。
     }
 browsing-changed-new-position =
     { $count ->
