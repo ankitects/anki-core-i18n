@@ -142,12 +142,43 @@ deck-config-description-new-handling = Anki 2.1.41+ بىر تەرەپ قىلىش
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] ئانا دەستىنىڭ يۇقىرى كارتا چېكى { $cards }، بۇ يۇقىرى چەك قاپلىۋېتىلىدۇ.
+       *[other] ئانا دەستىنىڭ يۇقىرى كارتا چېكى { $cards }، بۇ يۇقىرى چەك قاپلىۋېتىلىدۇ.
+    }
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] ئەگەر ھەر كۈنى { $cards } يېڭى كارتا قوشۇلسا، تەكرارلاش چېكىڭىز كەم دېگەندە { $expected } بولىدۇ.
+       *[other] ئەگەر ھەر كۈنى { $cards } يېڭى كارتا قوشۇلسا، تەكرارلاش چېكىڭىز كەم دېگەندە { $expected } بولىدۇ.
+    }
+deck-config-learning-step-above-graduating-interval = ئوقۇش پۈتتۈرۈش كارتىسىنىڭ قايتا كۆرۈنۈش ئارىلىقى ئەڭ ئاخىرقى قېتىملىق ئۆگىنىش باسقۇچىنىڭ ئۇزۇنلۇقىدىن كەم بولماسلىقى كېرەك.
+deck-config-good-above-easy = ئاسان كارتىنىڭ قايتا كۆرۈنۈش ئارىلىقى ئوقۇش پۈتتۈرۈش كارتىسىنىڭ قايتا كۆرۈنۈش ئارىلىقىدىن كەم بولماسلىقى كېرەك.
+deck-config-relearning-steps-above-minimum-interval = ئەڭ قىسقا ئۇنتۇش ۋاقىت ئارىلىقى ئاخىرقى قېتىملىق قايتا ئۆگىنىش باسقۇچىدىن كەم بولماسلىقى كېرەك.
+deck-config-maximum-answer-secs-above-recommended = ھەر بىر سوئالغا جاۋاب بېرىش ۋاقتى قىسقا بولغاندا، Anki تەكرارلاش كۈنتەرتىپىنى تېخىمۇ ئۈنۈملۈك ئورۇنلاشتۇرالايدۇ.
 
 ## Selecting a deck
 
+deck-config-which-deck = قايسى دەستەنىڭ تاللانمىسىنى كۆرسەتمەكچى؟
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = كارتىنى يېڭىلاۋاتىدۇ: { $current_cards_count }/{ $total_cards_count }…
+deck-config-invalid-weights = پارامېتىر چوقۇم ئىنگلىزچە 17 پەش «,» بىلەن ئايرىلغان سان بولۇشى ياكى كۆڭۈلدىكى قىممەتنى ئىشلىتىش ئۈچۈن بوش قالدۇرۇلۇشى كېرەك.
+deck-config-not-enough-history = تەكرارلاش تارىخ خاتىرىسى بەك ئاز، بۇ مەشغۇلاتنى ئىجرا قىلالمايدۇ.
+deck-config-unable-to-determine-desired-retention = تەۋسىيە قىلىنغان ئەڭ ئاز ئەستە ساقلاش نىسبىتىنى ھېسابلىيالمايدۇ
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] پەقەت { $count } تەكرارلاش خاتىرىسىنى تاپتى. بۇ مەشغۇلاتنى ئىجرا قىلىش ئۈچۈن كەم دېگەندە 400 تەكرارلاش خاتىرىڭىز بولۇشى كېرەك.
+       *[other] پەقەت { $count } تەكرارلاش خاتىرىسىنى تاپتى. بۇ مەشغۇلاتنى ئىجرا قىلىش ئۈچۈن كەم دېگەندە 400 تەكرارلاش خاتىرىڭىز بولۇشى كېرەك.
+    }
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS پارامېتىر
+deck-config-compute-optimal-weights = FSRS پارامېتىرنى ئەلالاشتۇرۇش
+deck-config-compute-minimum-recommended-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى
+deck-config-optimize-button = ئەلالاشتۇر
+deck-config-compute-button = ھېسابلا
+deck-config-ignore-before = ئىلگىرىكى تەكرارلاش خاتىرىسىگە پەرۋا قىلمايدۇ
 deck-config-please-save-your-changes-first = ئاۋۋال ئۆزگەرتىشىڭىزنى ساقلاڭ.
 deck-config-a-100-day-interval =
     { $days ->
