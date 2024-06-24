@@ -179,6 +179,18 @@ deck-config-compute-minimum-recommended-retention = تەۋسىيە قىلىنغ�
 deck-config-optimize-button = ئەلالاشتۇر
 deck-config-compute-button = ھېسابلا
 deck-config-ignore-before = ئىلگىرىكى تەكرارلاش خاتىرىسىگە پەرۋا قىلمايدۇ
+deck-config-optimize-all-tip = سىز «ساقلا» توپچىنىڭ ئوڭ تەرىپىدىكى تارتما تىزىملىكتىكى توپچەنى ئىشلىتىپ بارلىق ئالدىن تەڭشەكلەرنى ئەلالاشتۇرالايسىز.
+deck-config-evaluate-button = باھالاش
+deck-config-desired-retention = ئارزۇدىكى ئەستە ساقلاش نىسبىتى
+deck-config-historical-retention = تارىختىكى ئەستە ساقلاش نىسبىتى
+deck-config-smaller-is-better = قىممىتى قانچە كىچىك بولسا سىزنىڭ تەكرارلاش تارىخ خاتىرىڭىزگە شۇنچە ماس كېلىدىغانلىقىنى ئىپادىلەيدۇ.
+deck-config-steps-too-large-for-fsrs = FSRS قوزغىتىلغاندا، 1 كۈندىن ئارتۇق ئۆگىنىش باسقۇچى ئارىلىقىنى تەڭشەش تەۋسىيە قىلىنمايدۇ.
+deck-config-get-params = پارامېتىرغا ئېرىشىش
+deck-config-fsrs-on-all-clients = Anki خېرىدار پىروگراممىڭىزنىڭ Anki(Mobile) 23.10+ ياكى 2.17+ بولۇشىغا كاپالەتلىك قىلىڭ. ئەگەر خېرىدار پىروگراممىسى كونىراق بولسا، FSRS توغرا ئىشلىمەسلىكى مۇمكىن.
+deck-config-predicted-minimum-recommended-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى: { $num }
+deck-config-complete = { $num }% تامام.
+deck-config-iterations = تەكرارلىنىشى: { $count }…
+deck-config-reschedule-cards-on-change = ئۆزگەرگەندە كارتىنى قايتا كۈنتەرتىپكە تىزىدۇ
 deck-config-please-save-your-changes-first = ئاۋۋال ئۆزگەرتىشىڭىزنى ساقلاڭ.
 deck-config-a-100-day-interval =
     { $days ->
@@ -191,6 +203,8 @@ deck-config-percent-of-reviews =
        *[other] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
     }
 deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
+deck-config-fsrs-must-be-enabled = ئالدى بىلەن FSRS نى قوزغىتىش كېرەك.
+deck-config-fsrs-params-optimal = نۆۋەتتە FSRS نىڭ پارامېتىرلىرى ئەلالاشتۇرۇلغان.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
