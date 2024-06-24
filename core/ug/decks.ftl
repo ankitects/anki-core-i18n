@@ -1,0 +1,15 @@
+decks-add-new-deck-ctrlandn = يېڭى دەستە قوش(Ctrl+N)
+decks-build = قۇر
+decks-cards-selected-by = كارتا تاللاش ئۇسۇلى
+decks-create-deck = دەستە قۇر
+decks_create_even_if_empty = ئەگەر بوش بولغان تەقدىردىمۇ بۇ دەستەنى قۇرىدۇ/يېڭىلايدۇ
+decks-custom-steps-in-minutes = ئىختىيارى ئۆگىنىش باسقۇچى (مىنۇت)
+decks-deck = دەستە
+decks-decreasing-intervals = كېمەيگۈچى ئارىلىق
+decks-delete-deck = دەستە ئۆچۈر
+decks-enable-second-filter = ئىككىنچى سۈزگۈچنى قوزغات
+decks-filter = سۈزگۈچ:
+decks-filter-2 = 2-سۈزگۈچ
+decks-get-shared = ھەمبەھىر دەستىگە ئېرىشىش
+decks-import-file = ھۆججەت ئەكىر
+decks-increasing-intervals = ئۆسكۈچى ئارىلىق

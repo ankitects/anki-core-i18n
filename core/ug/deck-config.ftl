@@ -205,6 +205,20 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = ئالدى بىلەن FSRS نى قوزغىتىش كېرەك.
 deck-config-fsrs-params-optimal = نۆۋەتتە FSRS نىڭ پارامېتىرلىرى ئەلالاشتۇرۇلغان.
+deck-config-wait-for-audio = ئۈن قويۇلۇشىنى كۈتىدۇ
+deck-config-show-reminder = ئەسكەرتىشنى كۆرسەت
+deck-config-answer-again = جاۋابى قايتا
+deck-config-answer-hard = جاۋابى تەس
+deck-config-answer-good = جاۋابى ياخشى
+deck-config-days-to-simulate = تەقلىد كۈن
+deck-config-desired-retention-below-optimal = ئارزۇيىڭىزدىكى ئەستە ساقلاش نىسبىتى ئەڭ ياخشى ئەستە ساقلاش نىسبىتىدىن تۆۋەن، كۆپەيتىش تەۋسىيە قىلىنىدۇ.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-siblings = مۇناسىۋەتلىك كارتىلارنى يوشۇر
+deck-config-do-not-bury = مۇناسىۋەتلىك كارتىلارنى يوشۇرما
+deck-config-bury-if-new = يېڭى كارتىلارنى يوشۇر
+deck-config-bury-if-new-or-review = يېڭى كارتا ياكى تەكرارلىغان كارتىنى يوشۇر
+deck-config-bury-if-new-review-or-interday = مۇناسىۋەتلىك يېڭى كارتا، تەكرارلىغان كارتا ۋە كۈن ئاتلىغان ئۆگىنىش كارتىسىنى يوشۇرىدۇ
+deck-config-compute-optimal-retention = كومپيۇتېر تەۋسىيە قىلغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى
+deck-config-predicted-optimal-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى: { $num }
