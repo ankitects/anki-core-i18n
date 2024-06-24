@@ -159,6 +159,7 @@ deck-config-percent-of-reviews =
         [one] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
        *[other] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
     }
+deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
