@@ -148,6 +148,17 @@ deck-config-description-new-handling = Anki 2.1.41+ بىر تەرەپ قىلىش
 
 ## Messages related to the FSRS scheduler
 
+deck-config-please-save-your-changes-first = ئاۋۋال ئۆزگەرتىشىڭىزنى ساقلاڭ.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] ئەسلىدىكى 100 كۈنلۈك ئارىلىق { $days } كۈنگە ئۆزگىرىدۇ.
+       *[other] ئەسلىدىكى 100 كۈنلۈك ئارىلىق { $days } كۈنگە ئۆزگىرىدۇ.
+    }
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
+       *[other] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
