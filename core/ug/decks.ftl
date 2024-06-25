@@ -30,3 +30,9 @@ decks-delay-for-button = { $button } كېچىكىش
 decks-reschedule-cards-based-on-my-answers = بۇ دەستىدىكى جاۋاب بېرىش ئەھۋالىمغا ئاساسەن كارتىنى قايتىدىن كۈنتەرتىپكە تىزىدۇ.
 decks-study = ئۆگىنىش
 decks-study-deck = دەستە ئۆگىنىش
+decks-filtered-deck-search-empty = تەمىنلىگەن ئىزدەش شەرتىگە ھېچقانداق كارتا ماس كەلمىدى. بەزى كارتا مۇستەسنا چۈنكى باشقا سۈزۈلگەن دەستىگە قويۇلغان ياكى يوشۇرۇلغان.
+decks-unmovable-cards = بارلىق مۇستەسنا كارتىنى كۆرسەت
+decks-learn-header = ئۆگىنىش
+# The count of cards waiting to be reviewed
+decks-review-header = مۆھلەت
+decks-zero-minutes-hint = (0 = كارتىنى ئەسلى دەستەگە قايتۇرىدۇ)
