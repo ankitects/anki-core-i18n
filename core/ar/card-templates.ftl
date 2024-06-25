@@ -30,6 +30,7 @@ card-templates-no-front-field = كان من المتوقع إيجاد عبارة
 card-templates-missing-cloze = كان من المتوقع إيجاد '{ "{{" }cloze:Text{ "}}" }' أو ما شابه في الجانبين الأمامي والخلفي لقالب البطاقة.
 card-templates-extraneous-cloze = يمكن استخدام 'cloze:' في أنواع ملحوظات ملء الفراغات فقط.
 card-templates-see-preview = انظر المعاينة لمزيد من المعلومات.
+card-templates-field-not-found = الحقل '{ $field }' غير موجود.
 card-templates-changes-saved = حُفِظت التغييرات.
 card-templates-discard-changes = هل تريد تجاهل التغييرات؟
 card-templates-add-card-type = إضافة نوع بطاقة...
