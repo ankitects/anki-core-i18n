@@ -55,6 +55,16 @@ editing-text-highlight-color = تېكىست يورۇتۇش رەڭگى
 editing-to-make-a-cloze-deletion-on = مەۋجۇت خاتىرىگە بوش ئورۇن تولدۇرۇش قۇرۇشتا، ئاۋۋال «خاتىرە › خاتىرە تۈرىنى ئۆزگەرت» نى تاللاپ بوش ئورۇن تولدۇرۇش خاتىرە قېلىپىغا ئۆزگەرتىڭ.
 editing-toggle-html-editor = HTML تەھرىرلىگۈچنى ئاچ/ياپ
 editing-toggle-visual-editor = كۆرۈنۈشچان تەھرىرلىگۈچنى ئاچ/ياپ
+editing-toggle-sticky = يېپىشقاقلىقنى ئاچ/ياپ
+editing-expand = ياي
+editing-collapse = يىغ
+editing-expand-field = بۆلەكنى ياي
+editing-collapse-field = بۆلەكنى يىغ
+editing-underline-text = تېكىست ئاستى سىزىق
+editing-unordered-list = تەرتىپسىز تىزىم
+editing-warning-cloze-deletions-will-not-work = ئاگاھلاندۇرۇش، خاتىرە قېلىپىنى بوش ئورۇننى تولدۇرۇش قېلىپىغا ئۆزگەرتىشتىن ئىلگىرى، تەڭشىگەن بوش ئورۇننى تولدۇرۇشىڭىز ئىشلىمەيدۇ.
+editing-mathjax-preview = MathJax ئالدىن كۆزەت
+editing-shrink-images = سۈرەتنى كىچىكلەت
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
