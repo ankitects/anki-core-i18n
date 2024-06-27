@@ -81,6 +81,22 @@ editing-image-occlusion-group = گۇرۇپپا تاللاش
 editing-image-occlusion-ungroup = تاللىغاننى گۇرۇپپىلىما
 editing-image-occlusion-select-all = ھەممىنى تاللا
 editing-image-occlusion-alignment = توغرىلاش
+editing-image-occlusion-align-left = سولغا توغرىلا
+editing-image-occlusion-align-h-center = توغرىسىغا ئوتتۇرىغا توغرىلا
+editing-image-occlusion-align-right = ئوڭغا توغرىلا
+editing-image-occlusion-align-top = چوققىغا توغرىلا
+editing-image-occlusion-align-v-center = بويىغا ئوتتۇرىغا توغرىلا
+editing-image-occlusion-align-bottom = ئاستىغا توغرىلا
+editing-image-occlusion-select-tool = تاللا
+editing-image-occlusion-zoom-tool = يېقىن يىراق
+editing-image-occlusion-rectangle-tool = چاسا
+editing-image-occlusion-ellipse-tool = ئېللىپىس
+editing-image-occlusion-polygon-tool = كۆپ تەرەپلىك
+editing-image-occlusion-text-tool = تېكىست
+editing-image-occlusion-toggle-mask-editor = نىقاب تەھرىرلىگۈچنى ئاچ/ياپ
+editing-image-occlusion-reset = سۈرەت دالدىلاشنى ئەسلىگە قايتۇر
+editing-image-occlusion-confirm-reset = بۇ سۈرەت دالدىلاشنى راستتىنلا ئەسلىگە قايتۇرامسىز؟
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = HTML تەھرىرلىگۈچ
