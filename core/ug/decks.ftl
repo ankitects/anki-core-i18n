@@ -25,6 +25,7 @@ decks-order-due = مۆھلەت تەرتىپىدە
 decks-please-select-something = دەستە تاللاڭ.
 decks-random = خالىغانچە
 decks-relative-overdueness = نىسپىي ۋاقىت ھالقىشچانلىقى بويىچە
+decks-repeat-failed-cards-after = كارتا تەكرارلانمىغاندىن كېيىنكى كېچىكىش ۋاقتى
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = { $button } كېچىكىش
 decks-reschedule-cards-based-on-my-answers = بۇ دەستىدىكى جاۋاب بېرىش ئەھۋالىمغا ئاساسەن كارتىنى قايتىدىن كۈنتەرتىپكە تىزىدۇ.
