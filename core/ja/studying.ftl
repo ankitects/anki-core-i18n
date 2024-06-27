@@ -16,8 +16,8 @@ studying-cards-will-be-automatically-returned-to = カードは復習が済ん�
 studying-continue = 続行
 studying-counts-differ =
     デッキオプションにおいて「兄弟関係のカードの非表示」のためのオプションがオンになっており、
-    かつ、該当するカードがあるため、学習する枚数はデッキリストでの表示とは異なります。
-    灰色の数字は、同オプションがオフの場合に今日の学習予定に加わるカードの枚数を表します。
+    かつ、該当するカードがあるため、カードの枚数がデッキリストとは異なります。
+    灰色の数字は、同オプションがオフの場合に今日の学習予定に含まれる兄弟関係のカードの枚数を表します。
 studying-delete-note = ノートを削除
 studying-deleting-this-deck-from-the-deck = このデッキを削除すると、残りのカードもすべて元のデッキに戻ります。
 studying-easy = 簡単
