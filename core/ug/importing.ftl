@@ -80,6 +80,100 @@ importing-note-unchanged =
         [one] { $count } خاتىرە ئۆزگەرمىدى
        *[other] { $count } خاتىرە ئۆزگەرمىدى
     }
+importing-note-updated =
+    { $count ->
+        [one] { $count } خاتىرە يېڭىلاندى
+       *[other] { $count } خاتىرە يېڭىلاندى
+    }
+importing-processed-media-file =
+    { $count ->
+        [one] { $count } ۋاسىتە ھۆججەت ئەكىرىلدى
+       *[other] { $count } ۋاسىتە ھۆججەت ئەكىرىلدى
+    }
+importing-importing-file = ھۆججەت ئەكىرىۋاتىدۇ…
+importing-extracting = سانلىق مەلۇمات يېشىۋاتىدۇ…
+importing-gathering = سانلىق مەلۇمات توپلاۋاتىدۇ…
+importing-failed-to-import-media-file = ۋاسىتە ھۆججىتىنى ئەكىرەلمىدى: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] { $count } خاتىرە بىر تەرەپ قىلىنىۋاتىدۇ…
+       *[other] { $count } خاتىرە بىر تەرەپ قىلىنىۋاتىدۇ…
+    }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } كارتا بىر تەرەپ قىلىنىۋاتىدۇ…
+       *[other] { $count } كارتا بىر تەرەپ قىلىنىۋاتىدۇ…
+    }
+importing-existing-notes = مەۋجۇت خاتىرە
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = تەكرار
+# "Existing notes: Preserve" (verb)
+importing-preserve = ساقلاپ قال
+# "Existing notes: Update" (verb)
+importing-update = يېڭىلا
+importing-tag-all-notes = ھەممە خاتىرىگە بەلگە سال
+importing-tag-updated-notes = يېڭىلانغان خاتىرىگە بەلگە سال
+importing-file = ھۆججەت
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = ماس كېلىدىغان دائىرە
+# Used with the 'match scope' option
+importing-notetype-and-deck = خاتىرە تۈرى ۋە دەستە
+importing-cards-added =
+    { $count ->
+        [one] { $count } كارتا قوشۇلدى
+       *[other] { $count } كارتا قوشۇلدى
+    }
+importing-file-empty = سىز تاللىغان ھۆججەت بوش.
+importing-notes-added =
+    { $count ->
+        [one] { $count }يېڭى خاتىرە ئەكىرىلدى
+       *[other] { $count }يېڭى خاتىرە ئەكىرىلدى
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } خاتىرە ئارقىلىق مەۋجۇت خاتىرە يېڭىلاندى
+       *[other] { $count } خاتىرە ئارقىلىق مەۋجۇت خاتىرە يېڭىلاندى
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } خاتىرە توپلىمىڭىزدە مەۋجۇت.
+       *[other] { $count } خاتىرە توپلىمىڭىزدە مەۋجۇت.
+    }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } خاتىرىنى ئەكىرەلمەيدۇ.
+       *[other] { $count } خاتىرىنى ئەكىرەلمەيدۇ.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } خاتىرە ئەكىرىلگەن چۈنكى خاتىرە تۈرى ئۆزگەرتىلگەن.
+       *[other] { $count } خاتىرە ئەكىرىلگەن چۈنكى خاتىرە تۈرى ئۆزگەرتىلگەن.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } خاتىرە ئەكىرىلگەن چۈنكى خاتىرە تۈرى ئۆزگەرتىلگەن ھەمدە «{ importing-merge-notetypes }» قوزغىتىلمىغان.
+       *[other] { $count } خاتىرە ئەكىرىلگەن چۈنكى خاتىرە تۈرى ئۆزگەرتىلگەن ھەمدە «{ importing-merge-notetypes }» قوزغىتىلمىغان.
+    }
+importing-import-log = ئەكىرىش خاتىرىسى
+importing-no-notes-in-file = ھۆججەتتىن خاتىرە تېپىلمىدى.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] ھۆججەتتىن { $notes } خاتىرە تېپىلدى. ئىچىدە:
+       *[other] { "" }
+    }
+importing-show = كۆرسەت
+importing-details = تەپسىلاتى
+importing-status = ھالەت
+importing-duplicate-note-added = تەكرار خاتىرە قوشۇلدى
+importing-added-new-note = يېڭى خاتىرە قوشۇلدى
+importing-existing-note-skipped = خاتىرىدىن ئاتلىدى، چۈنكى توپلامدا يېڭى نەشرى مەۋجۇت
+importing-note-skipped-update-due-to-notetype = خاتىرە يېڭىلانمىدى، چۈنكى بۇ خاتىرە تۇنجى قېتىم ئەكىرىلگەندىن بۇيان خاتىرە تۈرى ئۆزگەرتىلگەن
+importing-note-skipped-update-due-to-notetype2 = خاتىرە يېڭىلانمىدى، چۈنكى بۇ خاتىرە تۇنجى قېتىم ئەكىرىلگەندىن بۇيان خاتىرە تۈرى ئۆزگەرتىلگەن ھەمدە «{ importing-merge-notetypes }» قوزغىتىلمىغان
+importing-note-updated-as-file-had-newer = خاتىرە يېڭىلاندى، چۈنكى ھۆججەتتە يېڭى نەشرى بار ئىكەن
+importing-note-skipped-due-to-missing-notetype = خاتىرە ئاتلىدى چۈنكى خاتىرە تۈرى يوقالغان
+importing-note-skipped-due-to-missing-deck = خاتىرە ئاتلىدى چۈنكى دەستە يوقالغان
+importing-note-skipped-due-to-empty-first-field = خاتىرە ئاتلىدى چۈنكى تۇنجى بۆلەك بوش
+importing-deck-help = ئەكىرىلگەن كارتا بۇ دەستىگە جايلاشتۇرۇلىدۇ.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
