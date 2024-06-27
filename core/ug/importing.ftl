@@ -65,6 +65,7 @@ importing-update-if-newer = ئەگەر خاتىرە نۆۋەتتىكىسىدىن
 importing-update-always = ھەمىشە
 importing-update-never = ھەرگىز
 importing-update-notes = خاتىرە يېڭىلا
+importing-update-notetypes = خاتىرە تۈرىنى يېڭىلا
 importing-note-added =
     { $count ->
         [one] { $count } خاتىرە قوشۇلدى

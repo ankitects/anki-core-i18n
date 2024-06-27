@@ -23,18 +23,40 @@ media-check-oversize-header = سىغىمى 100MB دىن ئاشقان ھۆججە�
 
 ## Shown once for each file
 
+media-check-renamed-file = ئاتى ئۆزگەردى: { $old } -› { $new }
+media-check-oversize-file = 100MB دىن چوڭ: { $filename }
+media-check-subfolder-file = قىسقۇچ: { $filename }
+media-check-missing-file = يوقالغان: { $filename }
+media-check-unused-file = ئىشلىتىلمىگەن: { $filename }
 
 ##
 
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
+media-check-checked = { $count } تەكشۈردى…
 
 ## Deleting unused media
 
+media-check-delete-unused-confirm = ئىشلىتىلمىگەن ۋاسىتەنى ئۆچۈرەمدۇ؟
+media-check-files-remaining =
+    { $count ->
+        [one] { $count } ھۆججەت قالدى
+       *[other] { $count } ھۆججەت قالدى
+    }
+media-check-delete-unused-complete =
+    { $count ->
+        [one] { $count } ھۆججەت ئەخلەتخانىغا يۆتكەلدى.
+       *[other] { $count } ھۆججەت ئەخلەتخانىغا يۆتكەلدى.
+    }
+media-check-trash-emptied = ئەخلەتخانا قىسقۇچ ھازىر بوش.
+media-check-trash-restored = ئۆچۈرۈلگەن ھۆججەت ۋاسىتە قىسقۇچقا ئەسلىگە كەلتۈرۈلدى.
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = بارلىق LaTeX رەڭلەندى.
 
 ## Buttons
 
