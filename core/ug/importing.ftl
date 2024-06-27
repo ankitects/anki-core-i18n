@@ -174,6 +174,9 @@ importing-note-skipped-due-to-missing-notetype = خاتىرە ئاتلىدى چ�
 importing-note-skipped-due-to-missing-deck = خاتىرە ئاتلىدى چۈنكى دەستە يوقالغان
 importing-note-skipped-due-to-empty-first-field = خاتىرە ئاتلىدى چۈنكى تۇنجى بۆلەك بوش
 importing-deck-help = ئەكىرىلگەن كارتا بۇ دەستىگە جايلاشتۇرۇلىدۇ.
+importing-overview = خۇلاسە
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+importing-importing-collection = توپلامنى ئەكىرىۋاتىدۇ…
+importing-added = قوشۇلدى
