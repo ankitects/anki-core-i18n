@@ -70,7 +70,7 @@ deck-config-learning-steps-tooltip =
     quando viene premuto il pulsante `Ripeti` su una nuova carta, di default 1 minuto.
     Il pulsante `Normale` fa avanzare la carta al passo successivo, di default 10 minuti.
     Una volta che tutti i passi sono stati completati, la carta diventa una carta di ripasso,
-    e verrà mostrata in un giorno differente. { -deck-config-delay-hint }
+    e verrà mostrata in un giorno diverso. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Il numero di giorni da attendere prima di mostrare nuovamente una carta, dopo che il pulsante "Normale"
     è stato premuto nel passo di apprendimento finale.
