@@ -65,6 +65,22 @@ editing-unordered-list = تەرتىپسىز تىزىم
 editing-warning-cloze-deletions-will-not-work = ئاگاھلاندۇرۇش، خاتىرە قېلىپىنى بوش ئورۇننى تولدۇرۇش قېلىپىغا ئۆزگەرتىشتىن ئىلگىرى، تەڭشىگەن بوش ئورۇننى تولدۇرۇشىڭىز ئىشلىمەيدۇ.
 editing-mathjax-preview = MathJax ئالدىن كۆزەت
 editing-shrink-images = سۈرەتنى كىچىكلەت
+editing-close-html-tags = HTML بەلگىنى ئۆزلۈكىدىن ياپ
+editing-from-clipboard = چاپلاش تاختىسىدىن
+editing-alignment = توغرىلاش
+editing-equations = تەڭلىمە
+editing-no-image-found-on-clipboard = چاپلاش تاختىسىدا سۈرەت بايقالمىدى.
+editing-image-occlusion-mode = سۈرەت دالدىلاش ھالىتى
+editing-image-occlusion-zoom-out = يىراقلات
+editing-image-occlusion-zoom-in = يېقىنلات
+editing-image-occlusion-zoom-reset = يېقىن يىراقنى ئەسلىگە قايتۇر
+editing-image-occlusion-toggle-translucent = يېرىم سۈزۈكنى ئاچ/ياپ
+editing-image-occlusion-delete = ئۆچۈر
+editing-image-occlusion-duplicate = تەكرار
+editing-image-occlusion-group = گۇرۇپپا تاللاش
+editing-image-occlusion-ungroup = تاللىغاننى گۇرۇپپىلىما
+editing-image-occlusion-select-all = ھەممىنى تاللا
+editing-image-occlusion-alignment = توغرىلاش
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
