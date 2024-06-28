@@ -60,3 +60,14 @@ media-check-all-latex-rendered = بارلىق LaTeX رەڭلەندى.
 
 ## Buttons
 
+media-check-delete-unused = ئىشلىتىلمىگەننى ئۆچۈر
+media-check-render-latex = LaTeX ھاسىللا
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = ئەخلەتخانىنى بوشات
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = ئۆچۈرۈلگەننى ئەسلىگە قايتۇر
+media-check-check-media-action = ۋاسىتە تەكشۈر
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = يوقالغان ۋاسىتە
+# add a tag to notes with missing media
+media-check-add-tag = يوقالغانغا بەلگە سال
