@@ -20,6 +20,8 @@ media-check-extracted-count = ئاجراتقان سۈرەت: { $count }
 
 media-check-renamed-header = بەزى ھۆججەتلەر ماسلىشىشچانلىق تۈپەيلىدىن ئاتى ئۆزگەرتىلدى.
 media-check-oversize-header = سىغىمى 100MB دىن ئاشقان ھۆججەتنى AnkiWeb ئارقىلىق قەدەمداشلىغىلى بولمايدۇ.
+media-check-subfolder-header = ۋاسىتە قىسقۇچ تارماق قىسقۇچنى قوللىمايدۇ.
+media-check-missing-header = تۆۋەندىكى ھۆججەتنى ھېچقانداق كارتا نەقىل ئالمىغان ئەمما ۋاسىتە قىسقۇچتىن تېپىلمىدى:
 
 ## Shown once for each file
 
