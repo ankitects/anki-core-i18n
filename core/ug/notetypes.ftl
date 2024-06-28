@@ -33,6 +33,20 @@ notetypes-footer = بەت ئاستى
 notetypes-header = بەت قاش
 notetypes-note-types = خاتىرە تۈرى
 notetypes-options = تاللانما
+notetypes-please-add-another-note-type-first = ئالدى بىلەن باشقا بىر خاتىرە تۈرىنى قوشۇڭ.
+notetypes-type = تۈرى
 
 ## Image Occlusion
 
+notetypes-image = سۈرەت
+notetypes-occlusion = دالدىلاش
+notetypes-occlusion-mask = نىقاب
+notetypes-occlusion-note = خاتىرە
+notetypes-comments-field = ئىزاھات
+notetypes-toggle-masks = نىقاب ئالماشتۇر
+notetypes-image-occlusion-name = سۈرەت دالدىلاش
+notetypes-hide-all-guess-one = ھەممىنى يوشۇرىدۇ، بىرى پەرەز قىلىنىدۇ
+notetypes-hide-one-guess-one = بىرى يوشۇرۇلۇپ، بىرى پەرەز قىلىنىدۇ
+notetypes-error-generating-cloze = سۈرەت دالدىلاش خاتىرىسىنى ھاسىللاۋاتقاندا خاتالىق كۆرۈلدى
+notetypes-error-getting-imagecloze = سۈرەت دالدىلاش خاتىرىسىنى ئاجرىتىۋاتقاندا خاتالىق كۆرۈلدى
+notetypes-error-loading-image-occlusion = سۈرەت دالدىلاشنى يۈكلەۋاتقاندا خاتالىق كۆرۈلدى. ئىشلىتىۋاتقىنىڭىز Anki نىڭ ئەڭ يېڭى نەشرىمۇ؟
