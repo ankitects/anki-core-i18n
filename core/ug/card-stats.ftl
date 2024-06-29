@@ -1,7 +1,7 @@
 card-stats-added = قوشۇلدى
 card-stats-first-review = تۇنجى تەكرار
 card-stats-latest-review = ئاخىرقى تەكرار
-card-stats-interval = ئارىلىق
+card-stats-interval = مەزگىل
 card-stats-ease = ئاسانلىقى
 card-stats-review-count = تەكرارلىقى
 card-stats-lapse-count = ئۇنتۇلۇشى
@@ -25,7 +25,7 @@ card-stats-review-log-type-filtered = سۈزۈلگەن
 card-stats-review-log-type-manual = قولدا
 card-stats-no-card = (كۆرسىتىدىغان كارتا يوق)
 card-stats-custom-data = ئىختىيارى سانلىق مەلۇمات
-card-stats-fsrs-stability = مۇقىملىقى
+card-stats-fsrs-stability = ئەستە ساقلىنىشچانلىقى
 card-stats-fsrs-difficulty = قىيىنلىقى
 card-stats-fsrs-retrievability = ئەستە تۇرۇشچانلىقى
 
