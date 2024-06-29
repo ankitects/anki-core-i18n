@@ -113,7 +113,62 @@ statistics-card-difficulty-title = كارتا قىيىنلىقى
 statistics-card-stability-title = كارتا ئەستە ساقلىنىشچانلىقى
 statistics-card-stability-subtitle = ئەستە ساقلىنىشچانلىقنىڭ %90 كە تۆۋەنلەشنىڭ ۋاقىت ئارىلىقى.
 statistics-average-stability = ئوتتۇرىچە ئەستە ساقلىنىشچانلىقى
+statistics-card-retrievability-title = كارتىنىڭ ئەستە تۇرۇشچانلىقى
+statistics-card-ease-subtitle = كارتىنىڭ ئاسانلىقى قانچە تۆۋەن بولسا ئۇنىڭ كۆرۈلۈشى شۇنچە يۇقىرى بولىدۇ.
 statistics-card-difficulty-subtitle2 = كارتا قانچە قىيىن بولسا ئەستە ساقلىنىشچانلىقنىڭ ئۆرلىشى شۇنچە ئاستا بولىدۇ.
+statistics-retrievability-subtitle = بۈگۈن كارتىنى ئەستە تۇتۇشچانلىقنىڭ ئېھتىماللىقى
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] ئاسانلىقى { $percent } بولغان { $cards } كارتا بار
+       *[other] ئاسانلىقى { $percent } بولغان { $cards } كارتا بار
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] قىيىنلىقى { $percent } بولغان { $cards } كارتا بار
+       *[other] قىيىنلىقى { $percent } بولغان { $cards } كارتا بار
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] ئەستە تۇتۇشچانلىقى { $percent } بولغان كارتىدىن { $cards } بار
+       *[other] ئەستە تۇتۇشچانلىقى { $percent } بولغان كارتىدىن { $cards } بار
+    }
+statistics-future-due-title = كەلگۈسى مۆھلەت
+statistics-future-due-subtitle = كەلگۈسىدە مۆھلىتى توشىدىغان تەكرارلاش سانى
+statistics-added-title = قوشۇلدى
+statistics-added-subtitle = سىز قوشقان كارتا سانى.
+statistics-reviews-count-subtitle = سىز جاۋاب بەرگەن سوئال سانى.
+statistics-reviews-time-subtitle = جاۋاب بېرىشكە سەرپ قىلغان ۋاقىت.
+statistics-answer-buttons-title = جاۋاب توپچە
+# eg Button: 4
+statistics-answer-buttons-button-number = توپچە
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = باسقان قېتىم سان
+statistics-answer-buttons-subtitle = ھەر بىر توپچەنى باسقان قېتىم سانىڭىز.
+statistics-reviews-title = تەكرارلىقى
+statistics-reviews-time-checkbox = ۋاقىت
+statistics-in-days-single =
+    { $days ->
+        [1] ئەتە
+        [0] بۈگۈن
+        [one] { $days } كۈندە
+       *[other] { $days } كۈندە
+    }
+statistics-in-days-range = { $daysStart }-{ $daysEnd } كۈندە
+statistics-days-ago-single =
+    { $days ->
+        [1] تۈنۈگۈن
+        [one] { $days } كۈن ئىلگىرى
+       *[other] { $days } كۈن ئىلگىرى
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } كۈن ئىلگىرى
+statistics-running-total = جەمئى
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } كارتا ۋاقتى توشىدۇ
+       *[other] { $cards } كارتا ۋاقتى توشىدۇ
+    }
+statistics-backlog-checkbox = يىغىلىپ قالغان كارتا
 statistics-intervals-title = تەكرارلاش مەزگىلى
 statistics-intervals-subtitle = تەكرارلايدىغان كارتا قايتا كۆرۈنۈشىنى كېچىكتۈرۈش مەزگىلى.
 statistics-intervals-day-range =
@@ -136,6 +191,13 @@ statistics-stability-day-single =
         [one] ئەستە ساقلىنىشچانلىقى { $day } بولغان كارتىدىن { $cards } بار
        *[other] ئەستە ساقلىنىشچانلىقى { $day } بولغان كارتىدىن { $cards } بار
     }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } توغرىلىقى ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } قېتىم تەكرارلىدى
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% توغرىلىقى ({ $reviews })
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -147,3 +209,4 @@ statistics-stability-day-single =
 ##
 
 statistics-average-interval = ئوتتۇرىچە مەزگىلى
+statistics-average-retrievability = ئوتتۇرىچە ئەستە تۇتۇشچانلىق

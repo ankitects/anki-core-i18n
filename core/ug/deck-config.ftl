@@ -90,6 +90,7 @@ deck-config-stop-timer-on-answer-tooltip = جاۋاب كۆرۈنگەندە ۋا�
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = جاۋابنى ئۆزلۈكىدىن كۆرسىتىشتىن ئىلگىرى كۈتىدىغان سېكۇنت سانى
+deck-config-seconds-to-show-answer = جاۋابنى كۆرسەتكەندىن كېيىن ئاپتوماتىك مەشغۇلات قىلىشتىن ئىلگىرىكى كۈتۈش ۋاقتى
 deck-config-question-action-show-answer = جاۋابنى كۆرسەت
 deck-config-question-action-show-reminder = ئەسكەرتىشنى كۆرسەت
 deck-config-question-action = سوئالدىن كېيىن مەشغۇلات

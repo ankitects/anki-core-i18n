@@ -132,7 +132,35 @@ scheduling-set-all-decks-below-to = بۇ تاللانما گۇرۇپپىنى { $
 scheduling-set-for-all-subdecks = بارلىق تارماق دەستىگە تەڭشە
 scheduling-show-answer-timer = جاۋاب ۋاقىت خاتىرىلىگۈچنى كۆرسەت
 scheduling-show-new-cards-after-reviews = ئاۋۋال تەكرارلايدىغان كارتىنى ئاندىن يېڭى كارتىنى كۆرسەت
+scheduling-show-new-cards-before-reviews = ئاۋۋال يېڭى كارتىنى ئاندىن تەكرارلايدىغان كارتىنى كۆرسەت
+scheduling-show-new-cards-in-order-added = يېڭى كارتىنى قوشۇلغان تەرتىپتە كۆرسەت
+scheduling-show-new-cards-in-random-order = يېڭى كارتىنى خالىغان تەرتىپتە كۆرسەت
+scheduling-starting-ease = باشلاش ئاسانلىقى
+scheduling-steps-in-minutes = ئۆگىنىش باسقۇچى (مىنۇت)
+scheduling-steps-must-be-numbers = ئۆگىنىش باسقۇچىنىڭ قىممىتى چوقۇم سان بولۇشى كېرەك.
+scheduling-tag-only = بەلگىلا قوش
+scheduling-the-default-configuration-cant-be-removed = كۆڭۈلدىكى سەپلىمىنى چىقىرىۋېتەلمەيدۇ.
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } دەستە يېڭىلاندى.
+       *[other] { $count } دەستە يېڭىلاندى.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] كارتىنى قانچە كۈندىن كېيىن كۆرسىتىدۇ؟
+       *[other] كارتىنى قانچە كۈندىن كېيىن كۆرسىتىدۇ؟
+    }
 scheduling-set-due-date-prompt-hint =
     0 = بۈگۈن
     1! = ئەتە + مەزگىل ئۆزگىرىشى 1
     3-7 = خالىغانچە تاللاش 3-7 كۈن
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] { $cards } كارتىغا مۆھلەت تەڭشەلدى.
+       *[other] { $cards } كارتىغا مۆھلەت تەڭشەلدى.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] { $cards } كارتىنى ئەسلىگە قايتۇردى.
+       *[other] { $cards } كارتىنى ئەسلىگە قايتۇردى.
+    }
