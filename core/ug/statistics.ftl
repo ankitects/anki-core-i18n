@@ -198,6 +198,11 @@ statistics-hours-correct = { $correct }/{ $total } توغرىلىقى ({ $percen
 statistics-hours-reviews = 📊 { $reviews } قېتىم تەكرارلىدى
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% توغرىلىقى ({ $reviews })
+statistics-hours-title = سائەتلىك ئانالىز
+statistics-hours-subtitle = شۇ كۈندىكى ھەر بىر سائەتتىكى تەكرارلاشنىڭ مۇۋەپپەقىيەتلىك بولۇش نىسبىتى.
+# shown when graph is empty
+statistics-no-data = سانلىق مەلۇمات يوق
+statistics-calendar-title = يىلنامە
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -205,6 +210,12 @@ statistics-hours-correct-reviews = 📈 { $percent }% توغرىلىقى ({ $rev
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount } سېكۇنت
+statistics-elapsed-time-minutes = { $amount } مىنۇت
+statistics-elapsed-time-hours = { $amount } سائەت
+statistics-elapsed-time-days = { $amount } كۈن
+statistics-elapsed-time-months = { $amount } ئاي
+statistics-elapsed-time-years = { $amount } يىل
 
 ##
 
