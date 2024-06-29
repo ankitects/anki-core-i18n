@@ -72,12 +72,23 @@ scheduling-learn-remaining =
         [one] بۈگۈن ئۆگىنىۋاتقان كارتىدىن 1 نىڭ ۋاقتى توشىدۇ.
        *[other] بۈگۈن ئۆگىنىۋاتقان كارتىدىن { $remaining } نىڭ ۋاقتى توشىدۇ.
     }
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = يوشۇرما
+scheduling-how-to-custom-study = ئەگەر ئادەتتىكى كۈنتەرتىپنىڭ سىرتىدا ئۆگەنمەكچى بولسىڭىز، { $customStudy } ئىقتىدارىنى ئىشلىتىڭ.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = ئىختىيارى ئۆگىنىش
 
 ## Scheduler upgrade
 
+scheduling-update-done = كۈنتەرتىپلىگۈچ مۇۋەپپەقىيەتلىك يېڭىلاندى.
 scheduling-update-button = يېڭىلا
 scheduling-update-later-button = كېيىن
 scheduling-update-more-info-button = تەپسىلاتى
+scheduling-update-required =
+    توپلىمىڭىزنى V2 كۈنتەرتىپلىگۈچكە يۈكسەلتىشىڭىز كېرەك.
+    داۋاملاشتۇرۇشتىن ئىلگىرى { scheduling-update-more-info-button } نى تاللاڭ.
 
 ## Other scheduling strings
 

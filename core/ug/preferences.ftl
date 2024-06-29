@@ -47,7 +47,12 @@ preferences-daily-backups = ساقلاپ قالىدىغان كۈندىلىك ز�
 preferences-weekly-backups = ساقلاپ قالىدىغان ھەپتىلىك زاپاس سانى:
 preferences-monthly-backups = ساقلاپ قالىدىغان ئايلىق زاپاس سانى:
 preferences-minutes-between-backups = ئاپتوماتىك زاپاسلاش ئارىلىقى بىرلىكى مىنۇت:
-preferences-reduce-motion = ھەرىكەتچانلىقنى ئازايتىدۇ
+preferences-reduce-motion = جانلاندۇرۇمنى ئازايتىدۇ
+preferences-reduce-motion-tooltip = ئىشلەتكۈچى ئارايۈزىنىڭ بارلىق جانلاندۇرۇم ۋە ئالمىشىش ئۈنۈمىنى چەكلەيدۇ
+preferences-custom-sync-url = ئۆزى باشقۇرىدىغان قەدەمداش مۇلازىمېتىر
+preferences-custom-sync-url-disclaimer = ئالىي ئىشلەتكۈچىلەر ئۈچۈن - قوللانمىنى ئىشلىتىڭ
+preferences-hide-top-bar-during-review = تەكرارلاۋاتقاندا چوققا بالداقنى يوشۇر
+preferences-hide-bottom-bar-during-review = تەكرارلاۋاتقاندا ئاستى بالداقنى يوشۇر
 preferences-always = ھەمىشە
 preferences-full-screen-only = پۈتۈن ئېكرانلا
 preferences-appearance = كۆرۈنۈش
@@ -55,6 +60,7 @@ preferences-general = ئادەتتىكى
 preferences-style = ئۇسلۇب
 preferences-review = تەكرار
 preferences-answer-keys = جاۋاب كۇنۇپكا
+preferences-distractions = بىزارلىقتىن خالىي
 preferences-minimalist-mode = ئىخچام ھالىتى
 preferences-minimalist-mode-tooltip = ئارايۈزنى تېخىمۇ ئىخچام/ئاددىيلاشتۇرىدۇ
 preferences-editing = تەھرىرلەش
@@ -68,6 +74,10 @@ preferences-import-export = ئەكىر/چىقار
 preferences-network-timeout = تور ۋاقىت ھالقىش
 preferences-reset-window-sizes = كۆزنەك چوڭلۇقىنى ئەسلىگە قايتۇر
 preferences-reset-window-sizes-complete = كۆزنەك چوڭلۇقى ۋە ئورنى ئەسلىگە قايتۇرۇلدى.
+preferences-shortcut-placeholder = ئىشلەتمىگەن قىسقا يول كۇنۇپكىسى كىرگۈزۈلىدۇ ياكى بوش قالدۇرۇلسا چەكلەيدۇ.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+preferences-basic = ئاساسى
+preferences-reviewer = تەكرارلىغۇچى
+preferences-media = ۋاسىتە
