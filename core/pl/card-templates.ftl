@@ -27,6 +27,7 @@ card-templates-no-front-field = Oczekiwane jest pole do podmienienia na przednie
 card-templates-missing-cloze = Spodziewane jest użycie '{ "{{" }cloze:Text{ "}}" }' lub czegoś podobnego z przodu i tyłu szablonu karty.
 card-templates-extraneous-cloze = "luka": może być użyta tylko w typach notatek z luką
 card-templates-see-preview = Wejdź na podgląd, by zobaczyć więcej.
+card-templates-field-not-found = Nie znaleziono "{ $field }".
 card-templates-changes-saved = Zmiany zapisane.
 card-templates-discard-changes = Porzucić zmiany?
 card-templates-add-card-type = Dodaj typ karty...

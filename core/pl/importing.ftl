@@ -113,6 +113,12 @@ importing-file = Plik
 # Used with the 'match scope' option
 importing-notetype-and-deck = Typ notatki i talia
 importing-file-empty = Wybrany plik jest pusty.
+importing-notes-failed =
+    { $count ->
+        [one] notatka nie mogła zostać zaimportowana.
+        [few] notatki nie mogły zostać zaimportowane.
+       *[many] { "" }
+    }
 importing-import-log = Rejestr importu
 importing-no-notes-in-file = W pliku nie znaleziono notatek.
 importing-show = Pokaż

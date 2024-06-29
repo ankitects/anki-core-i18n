@@ -219,6 +219,7 @@ deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
 deck-config-ignore-before = Ignoruj powtórki przed
 deck-config-evaluate-button = Oceń
+deck-config-complete = Ukończono { $num }%.
 deck-config-iterations = Iteracja: { $count }...
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
