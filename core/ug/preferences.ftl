@@ -19,6 +19,26 @@ preferences-periodically-sync-media = ۋاسىتە ھۆججەتنى قەرەلل
 preferences-please-restart-anki-to-complete-language = تىل ئالماشتۇرۇشنى تاماملاشتا Anki نى قايتا قوزغىتىڭ.
 preferences-preferences = مايىللىق
 preferences-scheduling = كۈنتەرتىپكە تىزىۋاتىدۇ
+preferences-always = ھەمىشە
+preferences-full-screen-only = پۈتۈن ئېكرانلا
+preferences-appearance = كۆرۈنۈش
+preferences-general = ئادەتتىكى
+preferences-style = ئۇسلۇب
+preferences-review = تەكرار
+preferences-answer-keys = جاۋاب كۇنۇپكا
+preferences-minimalist-mode = ئىخچام ھالىتى
+preferences-minimalist-mode-tooltip = ئارايۈزنى تېخىمۇ ئىخچام/ئاددىيلاشتۇرىدۇ
+preferences-editing = تەھرىرلەش
+preferences-browsing = كۆز يۈگۈرتۈش
+preferences-default-deck = كۆڭۈلدىكى دەستە
+preferences-account = AnkiWeb ھېساباتى
+preferences-note = ئىزاھات
+preferences-scheduler = كۈنتەرتىپلىگۈچ
+preferences-user-interface = ئىشلەتكۈچى ئارايۈزى
+preferences-import-export = ئەكىر/چىقار
+preferences-network-timeout = تور ۋاقىت ھالقىش
+preferences-reset-window-sizes = كۆزنەك چوڭلۇقىنى ئەسلىگە قايتۇر
+preferences-reset-window-sizes-complete = كۆزنەك چوڭلۇقى ۋە ئورنى ئەسلىگە قايتۇرۇلدى.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
