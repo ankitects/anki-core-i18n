@@ -219,5 +219,35 @@ statistics-elapsed-time-years = { $amount } يىل
 
 ##
 
+statistics-average-for-days-studied = ئەمەلىي ئۆگەنگەن كۈننىڭ ئوتتۇرىچە قىممىتى
+statistics-total = جەمئى
+statistics-days-studied = ئۆگەنگەن كۈن سانى
+statistics-average-answer-time-label = جاۋابقا كەتكەن ئوتتۇرىچە ۋاقىت
+statistics-average = ئوتتۇرىچە
 statistics-average-interval = ئوتتۇرىچە مەزگىلى
+statistics-due-tomorrow = ئەتىگىچە
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } / { $total } ({ $percent }%)
+statistics-average-over-period = ئۆگەنمىگەن كۈن سانىنىڭ ئوتتۇرچە قىممىتى
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } تەكرارلاش/كۈن
+       *[other] { $count } تەكرارلاش/كۈن
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $amount } مىنۇت/كۈن
+       *[other] { $amount } مىنۇت/كۈن
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $amount } كارتا/كۈن
+       *[other] { $amount } كارتا/كۈن
+    }
+statistics-average-ease = ئوتتۇرىچە ئاسانلىقى
+statistics-average-difficulty = ئوتتۇرىچە قىيىنلىقى
 statistics-average-retrievability = ئوتتۇرىچە ئەستە تۇتۇشچانلىق
+statistics-save-pdf = PDF ساقلا
+statistics-saved = ساقلاندى.
+statistics-stats = ئىستاتىستىكا
+statistics-title = ئىستاتىستىكا سانلىق مەلۇمات
