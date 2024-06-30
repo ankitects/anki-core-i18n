@@ -204,6 +204,7 @@ importing-match-scope-help =
     επιπρόσθετα να περιοριστεί σε σημειώσεις με κάρτες στην ίδια τράπουλα.
 importing-tag-all-notes-help = Αυτές οι ετικέτες θα προστεθούν σε νεοεισαγώμενες και ενημερωμένες σημειώσεις.
 importing-tag-updated-notes-help = Αυτές οι ετικέτες θα προστεθούν στις ενημερωμένες σημειώσεις.
+importing-overview = Επισκόπηση
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

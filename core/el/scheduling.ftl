@@ -133,6 +133,7 @@ scheduling-new-interval = Νέο διάστημα
 scheduling-new-options-group-name = Όνομα της νέας ομάδας επιλογών:
 scheduling-options-group = Ομάδα επιλογών:
 scheduling-order = Σειρά
+scheduling-parent-limit = (όριο γονέα: { $val })
 scheduling-reset-counts = Επαναφορά αριθμού επαναλήψεων και ολισθημάτων
 scheduling-restore-position = Επαναφορά αρχικής θέσης όπου είναι δυνατό
 scheduling-review = Επανάληψη
