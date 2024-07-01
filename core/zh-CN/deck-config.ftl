@@ -349,6 +349,11 @@ deck-config-compute-optimal-weights-tooltip2 =
     无需经常优化您的参数——每隔几个月优化一次就足够了。
     默认情况下，将根据所有使用该预设配置的牌组的复习历史记录计算出参数。
     如果您想要更改用于优化参数的卡片，您可以选择在计算参数之前调整搜索框的内容。
+deck-config-compute-optimal-retention-tooltip4 =
+    该工具会尝试找出在最少的时间内能学习最多材料的期望记忆保留率。
+    在决定将期望记忆保留率设置为多少时，可以将此计算出的数值作为参考。
+    如果您愿意以更多的学习时间换取更高的回忆成功概率，您可能希望选择一个更高的保留率。
+    并不推荐将您期望的记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
 deck-config-please-save-your-changes-first = 请先保存您预设配置的更改。
 deck-config-a-100-day-interval =
     { $days ->
