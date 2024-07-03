@@ -16,6 +16,8 @@ deck-config-title = دەستە تاللانما
 ## Daily limits section
 
 deck-config-daily-limits = كۈندىلىك چېكى
+deck-config-new-limit-tooltip = ئۆگىنىدىغان يېڭى كارتا بولغاندا، بىر كۈندە ئۆگىنىدىغان ئەڭ كۆپ كارتا سانى. يېڭى كارتا ئۆگەنگەندە قىسقا مۇددەتلىك تەكرارلاش مىقدارى كۆپەيگەنلىكتىن، كۈندە ئۆگىنىدىغان يېڭى كارتىنىڭ يۇقىرى چېكى كۈندىلىك تەكرارلايدىغان كارتىنىڭ يۇقىرى چېكىنىڭ 10x دىن كىچىك قىلىپ تەڭشىلىدۇ.
+deck-config-review-limit-tooltip = تەكرارلايدىغان كارتا تەييار بولغاندا، بىر كۈندە تەكرارلايدىغان ئەڭ كۆپ كارتا سانى.
 deck-config-new-cards-ignore-review-limit = يېڭى كارتا تەكرارلاش چېكىنىڭ تەسىرىگە ئۇچرىمايدۇ
 deck-config-apply-all-parent-limits = چوققىسىدىن باشلاش چېكى
 deck-config-affects-entire-collection = پۈتكۈل توپلامغا تەسىر كۆرسىتىدۇ.
