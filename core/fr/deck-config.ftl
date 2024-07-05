@@ -341,6 +341,22 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip =
     Si cette option est activée, les révisions antérieures à la date indiquée seront ignorées lors de l'optimisation et de l'évaluation des paramètres FSRS.
     Cela peut être utile si vous avez importé les données de planification de quelqu'un d'autre ou si vous avez changé la façon dont vous utilisez les boutons de réponse.
+deck-config-compute-optimal-weights-tooltip2 =
+    Lorsque vous cliquez sur le bouton Optimiser, FSRS analysera votre historique de révision et générera des paramètres qui sont 
+    optimal pour votre mémoire et le contenu que vous étudiez. Si vos paquets varient énormément en difficulté subjective,
+    Il est recommandé de leur attribuer des préréglages séparés, car les paramètres des paquets faciles et des paquets durs seront différents. 
+    Vous n'avez pas besoin d'optimiser vos paramètres fréquemment : une fois tous les quelques mois suffit.
+    
+    Par défaut, les paramètres seront calculés à partir de l’historique de révision de toutes les platines utilisant le préréglage actuel. Vous pouvez
+    ajustez éventuellement la recherche avant de calculer les paramètres, si vous souhaitez modifier les cartes utilisées pour
+    optimiser les paramètres.
+deck-config-compute-optimal-retention-tooltip4 =
+    Cet outil tentera de trouver la valeur de rétention souhaitée 
+    
+    qui mènera à l’apprentissage du plus grand nombre de matières, en un minimum de temps. Le nombre calculé peut servir de référence
+    lorsque vous décidez sur quoi définir la rétention souhaitée. Vous souhaiterez peut-être choisir une rétention souhaitée plus élevée, si vous êtes 
+    prêt(e) à échanger plus de temps d’étude contre un taux de rappel plus élevé. Définir la rétention souhaitée inférieure au minimum
+    Il n'est pas conseillé, car cela entraînerait une charge de travail plus élevée, en raison du taux d’oubli élevé.
 deck-config-please-save-your-changes-first = Veuillez sauvegarder vos changements d'abord.
 deck-config-a-100-day-interval =
     { $days ->
