@@ -219,6 +219,12 @@ deck-config-show-answer-timer-tooltip =
     Mostrar un cronómetro en la pantalla de estudio, que muestra el número de segundos que
     te demoras en contestar una tarjeta.
 
+## Auto Advance section
+
+deck-config-question-action-show-answer = Mostrar respuesta
+deck-config-question-action-show-reminder = Mostrar recordatorio
+deck-config-question-action-tool-tip = La acción a realizar después de que se muestre la pregunta y haya transcurrido el tiempo.
+
 ## Audio section
 
 deck-config-audio-title = Audio
@@ -302,6 +308,23 @@ deck-config-maximum-answer-secs-above-recommended = Hacer preguntas breves (cort
 
 deck-config-which-deck = ¿Qué mazo quieres?
 
+## Messages related to the FSRS scheduler
+
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Sólo se han encontrado { $count } opiniones. Debe tener al menos 400 opiniones para esta operación.
+       *[other] { "" }
+    }
+deck-config-desired-retention = Retención deseada
+deck-config-historical-retention = Retención histórica
+deck-config-smaller-is-better = Los números más pequeños indican un mejor ajuste a su historial de revisiones.
+deck-config-steps-too-large-for-fsrs = Cuando el FSRS está activado, no se recomiendan pasos de 1 día o más.
+deck-config-wait-for-audio = Esperar al audio
+deck-config-show-reminder = Mostrar recordatorio
+deck-config-answer-again = Otra Vez
+deck-config-answer-hard = Difícil
+deck-config-answer-good = Bien
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Enterrar tarjetas hermanas
@@ -321,8 +344,3 @@ deck-config-bury-tooltip =
     Cuando se utiliza el programador V3, las tarjetas de aprendizaje interdía también pueden ser
     enterradas. Las tarjetas de aprendizaje interdía son tarjetas con un paso de aprendizaje actual
     de uno o más días.
-deck-config-wait-for-audio = Esperar al audio
-deck-config-show-reminder = Mostrar recordatorio
-deck-config-answer-again = Otra Vez
-deck-config-answer-hard = Difícil
-deck-config-answer-good = Bien
