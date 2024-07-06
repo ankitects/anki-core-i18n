@@ -88,13 +88,16 @@ deck-config-display-order-will-use-current-deck = تاللانغان دەستە�
 
 deck-config-timer-title = ۋاقىت خاتىرىلىگۈچ
 deck-config-maximum-answer-secs = ئەڭ ئۇزۇن جاۋاب ۋاقتى سېكۇنت
+deck-config-show-answer-timer-tooltip = تەكرارلاش ئېكرانىدا ۋاقىت خاتىرىلىگۈچتىن بىرنى كۆرسىتىپ، ھەر بىر كارتىنى تەكرارلىغاندا سەرپ قىلغان ۋاقىتنى خاتىرىلەيدۇ.
 deck-config-stop-timer-on-answer = جاۋابنى كۆرسەتكەندە ۋاقىت خاتىرىلىگۈچ توختايدۇ
 deck-config-stop-timer-on-answer-tooltip = جاۋاب كۆرۈنگەندە ۋاقىت خاتىرىلىگۈچ توختامدۇ يوق. ئىستاتىستىكا سانلىق مەلۇماتىغا تەسىر كۆرسەتمەيدۇ.
 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = جاۋابنى ئۆزلۈكىدىن كۆرسىتىشتىن ئىلگىرى كۈتىدىغان سېكۇنت سانى
+deck-config-seconds-to-show-question-tooltip-2 = ئۆزلۈكىدىن كۆرسىتىش ئاكتىپلاشقاندا، جاۋابنى ئۆزلۈكىدىن كۆرسىتىشتىن ئىلگىرى كۈتىدىغان ۋاقىت بىرلىكى سېكۇنت. 0 گە تەڭشەلسە چەكلەيدۇ.
 deck-config-seconds-to-show-answer = جاۋابنى كۆرسەتكەندىن كېيىن ئاپتوماتىك مەشغۇلات قىلىشتىن ئىلگىرىكى كۈتۈش ۋاقتى
+deck-config-seconds-to-show-answer-tooltip-2 = ئۆزلۈكىدىن كۆرسىتىش ئاكتىپلاشقاندا، جاۋابنى كۆرسەتكەندىن كېيىن ئاپتوماتىك ئىجرا قىلىدىغان مەشغۇلاتتىن ئىلگىرى كۈتىدىغان ۋاقىت بىرلىكى سېكۇنت. 0 گە تەڭشەلسە چەكلەيدۇ.
 deck-config-question-action-show-answer = جاۋابنى كۆرسەت
 deck-config-question-action-show-reminder = ئەسكەرتىشنى كۆرسەت
 deck-config-question-action = سوئالدىن كېيىن مەشغۇلات
