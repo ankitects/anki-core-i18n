@@ -17,13 +17,13 @@ browsing-card-list = Card List
 browsing-cards-cant-be-manually-moved-into = Cards can't be manually moved into a filtered deck.
 browsing-cards-deleted =
     { $count ->
-        [one] 1 card deleted.
-       *[other] 2 cards deleted
+        [one] { $count } card deleted.
+       *[other] { $count } cards deleted.
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [one] 1 card deleted from { $deck_name }.
-       *[other] 2 cards deleted from { $deck_name }.
+        [one] { $count } card deleted from { $deck_name }.
+       *[other] { $count } cards deleted from { $deck_name }.
     }
 browsing-change-deck = Change Deck
 browsing-change-deck2 = Change Deck...
