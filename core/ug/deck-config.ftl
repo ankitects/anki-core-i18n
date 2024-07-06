@@ -67,7 +67,7 @@ deck-config-sort-order-template-then-gather = كارتا تۈرى
 deck-config-sort-order-gather = توپلاش تەرتىپى
 deck-config-new-review-priority = يېڭى/تەكرارلاش تەرتىپى
 deck-config-new-review-priority-tooltip = تەكرارلايدىغان كارتىغا مۇناسىۋەتلىك يېڭى كارتىنى قاچان كۆرسىتىدۇ.
-deck-config-interday-step-priority = كۈن ھالقىغان ئۆگىنىش/تەكرارلايدىغان كارتا تەرتىپى
+deck-config-interday-step-priority = كۈن ئاتلاپ ئۆگىنىش/تەكرارلايدىغان كارتا تەرتىپى
 deck-config-review-mix-mix-with-reviews = يېڭىسى بىلەن تەكرارلايدىغىنى ئارىلاش
 deck-config-review-mix-show-after-reviews = ئاۋۋال تەكرارلاپ ئاندىن يېڭىنى ئۆگىنىدۇ
 deck-config-review-mix-show-before-reviews = ئاۋۋال يېڭىنى ئۆگىنىپ ئاندىن تەكرارلايدۇ
@@ -151,6 +151,7 @@ deck-config-revert-button-tooltip = بۇ تەڭشەكنى كۆڭۈلدىكى ق�
 ## overview screen.
 
 deck-config-description-new-handling = Anki 2.1.41+ بىر تەرەپ قىلىش ئۇسۇلى
+deck-config-description-new-handling-hint = markdown سۈپىتىدە كىرگۈزۈلىدۇ، كىرگۈزۈلگەن HTML تازىلىنىدۇ. قوزغىتىلغاندىن كېيىن، چۈشەندۈرۈشى مۇبارەكلەش ئېكرانىدا كۆرۈنىدۇ. Anki 2.1.40 ۋە ئۇنىڭدىن تۆۋەن نەشرىدە Markdown ساپ تېكىست شەكلىدە كۆرۈنىدۇ.
 
 ## Warnings shown to the user
 
