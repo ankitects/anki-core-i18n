@@ -117,6 +117,7 @@ deck-config-always-include-question-audio-tooltip = ئەگەر جاۋابنى ك
 ## Advanced section
 
 deck-config-advanced-title = ئالىي
+deck-config-maximum-interval-tooltip = تەكرارلايدىغان كارتىنىڭ ئەڭ ئۇزۇن كۈتۈش ۋاقتى كۈن. تەكرارلايدىغان كارتىنىڭ ئارىلىقى مۇشۇ كۈنگە يەتكەندە، «تەس»، «ياخشى» ۋە «ئاسان» نىڭ ئارىلىقى ئوخشاش بولىدۇ. بۇ ئارىلىق قانچە قىسقا بولسا ئىش مىقدارى شۇنچە كۆپ بولىدۇ.
 deck-config-hard-interval-tooltip = «تەس» تاللانغاندىن كېيىن تەكرارلاشنىڭ مەزگىلى.
 deck-config-new-interval-tooltip = «قايتا» تاللانغاندىن كېيىن تەكرارلاشنىڭ مەزگىلى.
 deck-config-minimum-interval-tooltip = تەكرارلايدىغان كارتىغا «قايتا» تاللانغاندىن كېيىنكى ئەڭ قىسقا تەكرارلاش مەزگىلى.
