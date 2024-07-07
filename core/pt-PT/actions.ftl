@@ -24,12 +24,50 @@ actions-preview = Pré-visualização
 actions-rebuild = Recriar
 actions-rename = Renomear
 actions-rename-deck = Renomear Baralho
+actions-rename-tag = Renomear Etiqueta
+actions-remove-tag = Remover Etiqueta
 actions-replay-audio = Repetir Áudio
 actions-reposition = Reposicionar
 actions-save = Guardar
 actions-search = Procurar
+actions-select = Selecionar
 actions-shortcut-key = Tecla de Atalho: { $val }
 actions-suspend-card = Suspender ficha
+actions-set-due-date = Definir Data de Revisão
+actions-answer-card = Responder à Ficha
+actions-unbury-unsuspend = Cancelar Adiamento/Suspensão
+actions-add-deck = Adicionar Baralho
+actions-add-note = Adicionar Nota
+actions-update-tag = Actualizar Etiqueta
+actions-update-note = Actualizar Nota
+actions-update-card = Actualizar Ficha
+actions-update-deck = Actualizar Baralho
+actions-forget-card = Reiniciar Ficha
+actions-build-filtered-deck = Construir Baralho
+actions-add-notetype = Adicionar Tipo de Nota
+actions-remove-notetype = Apagar Tipo de Nota
+actions-update-notetype = Actualizar Tipo de Nota
+actions-update-config = Actualizar Configuração
+actions-card-info = Informação da Ficha
+actions-previous-card-info = Informação da Ficha Anterior
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = O modo de ecrã completo não é suportado pelas drivers da sua placa de vídeo. Tente mudar de modo nas preferências.
 
 ## Flags
 
+actions-flag-number = Synalização { $number }
+actions-flag-red = Vermelha
+actions-flag-orange = Laranja
+actions-flag-green = Verde
+actions-flag-blue = Azul
+actions-flag-pink = Rosa
+actions-flag-turquoise = Turquesa
+actions-flag-purple = Roxa
+actions-set-flag = Sinalizar
+actions-nothing-to-undo = Nada a anular
+actions-nothing-to-redo = Nada a refazer
+actions-auto-advance = Avanço Automático
+actions-auto-advance-activated = Avanço Automático Activado
+actions-auto-advance-deactivated = Avanço Automático Desactivado
