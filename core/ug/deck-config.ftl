@@ -47,6 +47,7 @@ deck-config-learning-steps-tooltip = بىر ياكى بىر قانچە كېچى�
 deck-config-graduating-interval-tooltip = ئەڭ ئاخىرقى باسقۇچتا «ياخشى» توپچە تاللانغاندىن كېيىن، كارتىنى قايتا كۆرسىتىدىغان كۈن سانى.
 deck-config-easy-interval-tooltip = «ئاسان» تاللىنىپ ئۆگىنىش جەريانىدىن ئاتلاپ كەتكەندىن كېيىن، كارتىنى قايتا كۆرسىتىدىغان كۈن سانى.
 deck-config-new-insertion-order = قىستۇرۇش تەرتىپى
+deck-config-new-insertion-order-tooltip = يېڭى كارتىنىڭ ئورنى (مۆھلىتى #) نى قوشۇشنى تىزگىنلەيدۇ. ئۆگەنگەندە مۆھلەت ۋاقتىنىڭ سانى كىچىكرەك بولغان كارتىنى ئالدى بىلەن كۆرسىتىدۇ. بۇ تاللانما ئۆزگەرتىلسە مەۋجۇت يېڭى كارتىنىڭ ئورنى ئۆزلۈكىدىن يېڭىلىنىدۇ.
 deck-config-new-insertion-order-sequential = تەرتىپلىك (كونا كارتا ئالدىدا)
 deck-config-new-insertion-order-random = خالىغانچە
 
