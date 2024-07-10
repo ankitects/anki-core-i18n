@@ -41,6 +41,8 @@ deck-config-today-only = بۈگۈنلا
 ## New Cards section
 
 deck-config-learning-steps = ئۆگىنىش باسقۇچى
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = كېچىكتۈرۈلۈش ۋاقتى ئادەتتە مىنۇت (مەسىلەن «1m») ياكى كۈن (مەسىلەن «2d») قىلىپ تەڭشىلىدۇ ئەمما سائەت (مەسىلەن «1h») ۋە سېكۇنت (مەسىلەن «30s») نىمۇ قوللايدۇ.
 deck-config-new-insertion-order = قىستۇرۇش تەرتىپى
 deck-config-new-insertion-order-sequential = تەرتىپلىك (كونا كارتا ئالدىدا)
 deck-config-new-insertion-order-random = خالىغانچە
