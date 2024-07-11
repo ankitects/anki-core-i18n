@@ -26,6 +26,7 @@ card-templates-no-front-field = Es wurde erwartet, einen Feldersatz auf der Vord
 card-templates-missing-cloze = Es wurde erwartet, '{ "{{" }cloze:Text{ "}}" }' oder Ähnliches auf der Vorder- und Rückseite der Kartenvorlage vorzufinden.
 card-templates-extraneous-cloze = 'cloze:' kann nur bei Lückentext-Notiztypen verwendet werden.
 card-templates-see-preview = Siehe die Vorschau für weitere Informationen.
+card-templates-field-not-found = Feld '{ $field }' nicht gefunden.
 card-templates-changes-saved = Änderungen gespeichert.
 card-templates-discard-changes = Änderungen verwerfen?
 card-templates-add-card-type = Kartentyp hinzufügen …

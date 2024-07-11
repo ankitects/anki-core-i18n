@@ -325,6 +325,13 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip =
     Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
     Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortschaltflächen verwenden, geändert haben.
+deck-config-compute-optimal-weights-tooltip2 =
+    Wenn Sie auf "Optimieren" klicken, analysiert FSRS Ihren Lernverlauf und erstellt Parameter, die optimal für Ihr Gedächtnis und den Inhalt, den Sie lernen, sind. Wenn sich Ihre Decks im subjektiven Schwierigkeitsgrad stark unterscheiden, ¶
+    empfiehlt es sich, ihnen getrennte Voreinstellungen zuzuweisen, da die Parameter für leichte und schwere Decks unterschiedlich sein werden.¶
+    Sie brauchen Ihre Parameter nicht häufig zu optimieren - einmal alle paar Monate ist ausreichend.¶
+    ¶
+    Standardmäßig werden die Parameter aus dem Prüfungsverlauf aller Decks berechnet, die das aktuelle Preset verwenden. Sie können¶
+    optional die Suche vor der Berechnung der Parameter anpassen, wenn Sie ändern möchten, welche Karten für Optimierung der Parameter verwendet werden.¶
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
