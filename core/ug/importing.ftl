@@ -6,6 +6,10 @@ importing-allow-html-in-fields = بۆلەكتە HTML گە يول قويىدۇ
 importing-anki-files-are-from-a-very = .anki ھۆججىتى Ank نىڭ بەكلا كونا نەشرىدىن كەلگەن. ئۇلارنى Anki تور بېكىتىدىكى 175027074 قوشۇلما ياكى Anki 2.0 ئارقىلىق ئەكىرەلەيسىز.
 importing-anki2-files-are-not-directly-importable = .anki2 ھۆججىتىنى بىۋاسىتە ئەكىرگىلى بولمايدۇ - ئۇنىڭ ئورنىغا تاپشۇرۇۋالغان .apkg ياكى .zip ھۆججەتتىن ئەكىرىڭ.
 importing-appeared-twice-in-file = ھۆججەت ئىككى قېتىم كۆرۈلگەن: { $val }
+importing-by-default-anki-will-detect-the = كۆڭۈلدىكى ئەھۋالدا، Anki بۆلەكلەر ئارىسىدىكى جەدۋەل بەلگىسى، پەش دېگەنگە ئوخشاش ئايرىش بەلگىسىنى بايقايدۇ. ئەگەر Anki ئايرىش بەلگىسىنى توغرا بايقىيالمىسا، بۇ جايدا كىرگۈزۈڭ. «\t» بىلەن tab نى ئىپادىلىگىلى بولىدۇ.
+importing-cannot-merge-notetypes-of-different-kinds =
+    بوش ئورۇننى تولدۇرۇش خاتىرە تۈرىنى ئادەتتىكى خاتىرە تۈرى بىلەن بىرلەشتۈرگىلى بولمايدۇ.
+    سىز يەنىلا «{ importing-merge-notetypes }» چەكلەنگەن ئەھۋالدا ھۆججەت ئەكىرەلەيسىز.
 importing-change = ئۆزگەرت
 importing-colon = قوش چېكىت
 importing-comma = پەش
