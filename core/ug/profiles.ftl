@@ -11,6 +11,7 @@ profiles-user-1 = 1-ئىشلەتكۈچى
 profiles-confirm-lang-choice = Anki نىڭ ئارايۈزىنى { $lang } كۆرسىتەمسىز؟
 profiles-could-not-create-data-folder = Anki سانلىق مەلۇمات ساقلايدىغان قىسقۇچنى قۇرالمىدى. قوللانمىدىكىك ھۆججەت ئورنى (File Locations) بۆلىكىنى كۆرۈڭ، ھۆججەت ئورنىنىڭ ئوقۇشقىلا بولىدىغان ئەمەسلىكىگە كاپالەتلىك قىلىڭ.
 profiles-prefs-corrupt-title = مايىللىق بۇزۇلغان
+profiles-prefs-file-is-corrupt = Anki نىڭ prefs21.db ھۆججىتى بۇزۇلغان ھەمدە قايتىدىن قۇرۇلغان. ئەگەر كۆپ تەرجىمىھال ئىشلەتكەن بولسىڭىز، ئوخشاش ئاتتىكى تەرجىمىھال ئىشلەتسىڭىز كارتىلىرىڭىزنى ئەسلىگە كەلتۈرگىلى بولىدۇ.
 profiles-profile-does-not-exist = ئىلتىماس قىلغان تەرجىمىھال مەۋجۇت ئەمەس.
 profiles-creating-backup = زاپاس قۇرۇۋاتىدۇ…
 profiles-backup-created = زاپاس قۇرۇلدى.
