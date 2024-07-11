@@ -72,6 +72,7 @@ scheduling-learn-remaining =
         [one] بۈگۈن ئۆگىنىۋاتقان كارتىدىن 1 نىڭ ۋاقتى توشىدۇ.
        *[other] بۈگۈن ئۆگىنىۋاتقان كارتىدىن { $remaining } نىڭ ۋاقتى توشىدۇ.
     }
+scheduling-buried-cards-found = يوشۇرۇلغان بىر ياكى بىر قانچە كارتا ئەتە كۆرسىتىلىدۇ. ئەگەر دەرھال كۆرمەكچى بولسىڭىز { $unburyThem }.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = يوشۇرما
