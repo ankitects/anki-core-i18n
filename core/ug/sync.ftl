@@ -19,8 +19,16 @@ sync-media-log-title = ۋاسىتە قەدەمداشلاش خاتىرىسى
 
 ## Error messages / dialogs
 
+sync-server-error = AnkiWeb مۇلازىمىتىدە مەسىلە كۆرۈلدى، بىر قانچە مىنۇتتىن كېيىن قايتا سىناڭ.
+sync-client-too-old = سىز ئىشلىتىۋاتقان Anki نەشرى بەك كونا. قەدەمداشلاش ئۈچۈن ئەڭ يېڭى نەشرىگە يېڭىلاڭ.
+sync-wrong-pass = AnkiWeb كىملىك ياكى ئىم خاتا؛ قايتا سىناڭ.
+sync-resync-required = قايتا قەدەمداشلاڭ. ئەگەر بۇ ئۇچۇر يەنە كۆرۈنسە، قوللاش تور بېكىتىدە يازما يوللاڭ.
+sync-must-wait-for-end = نۆۋەتتە قەدەمداشلاۋاتىدۇ، قەدەمداشلاش تاماملانغاندىن كېيىن ئاندىن قايتا سىناڭ.
+sync-confirm-empty-download = يەرلىك توپلامدا كارتا يوق. AnkiWeb تىن چۈشۈرەمدۇ؟
+sync-confirm-empty-upload = AnkiWeb توپلامدا كارتا يوق. يەرلىك توپلامنى AnkiWeb دىكى توپلامغا ئالماشتۇرامدۇ؟
 sync-ankiweb-id-label = AnkiWeb كىملىكى:
 sync-password-label = ئىم:
+sync-clock-off = قەدەمداشلىيالمايدۇ - سائىتىڭىز توغرا ۋاقىتقا تەڭشەلمىگەن.
 
 ## Buttons
 

@@ -11,3 +11,7 @@ help-ok = جەزملە
 
 ## Body
 
+# Newly introduced settings may not have an explanation yet
+help-no-explanation =
+    ئاپلا! بۇ تەڭشەكنىڭ تېخى چۈشەندۈرۈشى يوقتەك قىلىدۇ.
+    سىز { $link } بەتكە يۆتكىلىپ بۇ ياردەم بېتىنى تاماملاشقا ياردەم بېرىڭ.

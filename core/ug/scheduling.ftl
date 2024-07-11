@@ -83,6 +83,7 @@ scheduling-custom-study = ئىختىيارى ئۆگىنىش
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 دە يېڭى كۈنتەرتىپلىگۈچكە يېڭىلاندى، كونا نەشرىدىكى بەزى مەسىلىلەر ئوڭشالدى، يېڭىلاش تەۋسىيە قىلىنىدۇ.
 scheduling-update-done = كۈنتەرتىپلىگۈچ مۇۋەپپەقىيەتلىك يېڭىلاندى.
 scheduling-update-button = يېڭىلا
 scheduling-update-later-button = كېيىن
@@ -141,6 +142,7 @@ scheduling-steps-in-minutes = ئۆگىنىش باسقۇچى (مىنۇت)
 scheduling-steps-must-be-numbers = ئۆگىنىش باسقۇچىنىڭ قىممىتى چوقۇم سان بولۇشى كېرەك.
 scheduling-tag-only = بەلگىلا قوش
 scheduling-the-default-configuration-cant-be-removed = كۆڭۈلدىكى سەپلىمىنى چىقىرىۋېتەلمەيدۇ.
+scheduling-your-changes-will-affect-multiple-decks = ئۆزگەرتىشىڭىز كۆپ دەستىگە تەسىر كۆرسىتىدۇ. ئەگەر نۆۋەتتىكى دەستىنىلا ئۆزگەرتمەكچى بولسىڭىز، ئاۋۋال يېڭى تاللانما گۇرۇپپىدىن بىرنى قوشۇڭ.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } دەستە يېڭىلاندى.
