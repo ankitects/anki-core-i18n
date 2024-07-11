@@ -4,7 +4,7 @@ notetypes-notetype = Тип нотатки
 
 notetypes-front-field = Перед
 notetypes-back-field = Зворіт
-notetypes-add-reverse-field = Додати зворотну сторону
+notetypes-add-reverse-field = Додати зворотну картку
 notetypes-text-field = Текст
 notetypes-back-extra-field = Зворотна сторона за бажанням
 
