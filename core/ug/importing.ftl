@@ -53,6 +53,8 @@ importing-include-reviews = تەكرارلاش ئىچىدە
 importing-also-import-progress = بارلىق ئۆگىنىش جەريانىنى ئەكىر
 importing-with-deck-configs = بارلىق دەستە جەريانىنى ئەكىر
 importing-updates = يېڭىلانما
+importing-include-reviews-help = ئەگەر قوزغىتىلسا، دەستە ھەمبەھىرلىگۈچىنىڭ تەكرارلاش ئەھۋالىمۇ ئەكىرىلىدۇ. ئۇنداق بولمىسا، بارلىق كارتا يېڭى كارتا سۈپىتىدە ئەكىرىلىدۇ، شۇنىڭ بىلەن بىللە بارلىق ئەستە ساقلاش قىيىن نۇقتىلىرى «ئۇنتۇغاق كارتا» ياكى «بەلگە قويۇلغان كارتا» بەلگىسى چىقىرىۋېتىلىدۇ.
+importing-with-deck-configs-help = ئەگەر قوزغىتىلسا، بارلىق دەستە ھەمبەھىرلىگۈچىلەرنىڭ دەستە سەپلىمىلىرىمۇ بىللە ئەكىرىلىدۇ. ئۇنداق بولمىسا، بارلىق دەستە كۆڭۈلدىكى ئالدىن تەڭشەكنى قوللىنىدۇ.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = بولاقلانغان Anki دەستە/توپلام (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 دەرسى (*.pau.gz)
 # the '|' character
