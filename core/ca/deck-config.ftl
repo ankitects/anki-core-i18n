@@ -55,7 +55,7 @@ deck-config-today-only = Només avui
 
 ## New Cards section
 
-deck-config-learning-steps = Passos en l'aprenentatge
+deck-config-learning-steps = Etapes d’aprenentatge
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Generalment, els intervals s’expressen en minuts (`1m`) o dies (`2d`), tot i que també podeu fer servir hores (`1h`) i segons (`30s`).
 deck-config-learning-steps-tooltip =
@@ -68,7 +68,7 @@ deck-config-graduating-interval-tooltip =
     El nombre de dies que han de passar fins que una targeta es torni a mostrar
     després que hàgiu premut el botó `Correcte`en l'últim pas de l'etapa d'aprenentatge.
 deck-config-easy-interval-tooltip = El nombre de dies abans que es torni a mostrar una targeta quan premeu el botó `Fàcil` per a retirar-la immediatament de l’aprenentatge.
-deck-config-new-insertion-order = Ordre d'inserció
+deck-config-new-insertion-order = Ordre d’inserció
 deck-config-new-insertion-order-tooltip =
     Controla la posició (nombre de data de repàs) que s'assigna a les targetes noves quan les afegiu.
     Les targetes que tinguin un nombre de data de repàs més baix es mostraran primer quan estudieu.
@@ -81,7 +81,7 @@ deck-config-new-insertion-order-random-with-v3 =
 
 ## Lapses section
 
-deck-config-relearning-steps = Passos de reaprenentatge
+deck-config-relearning-steps = Etapes de reaprenentatge
 deck-config-relearning-steps-tooltip =
     Zero o més intervals, separats per espais. Per defecte, cada targeta de repàs
     es tornarà a mostrar 10 minuts després que hàgiu premut el botó «De nou».
@@ -142,7 +142,7 @@ deck-config-new-gather-priority-position-lowest-first = Ordre ascendent
 deck-config-new-gather-priority-position-highest-first = Ordre descendent
 deck-config-new-gather-priority-random-notes = Notes aleatòries
 deck-config-new-gather-priority-random-cards = Targetes aleatòries
-deck-config-new-card-sort-order = Nou ordre de classificació de les targetes
+deck-config-new-card-sort-order = Ordre de les targetes noves
 deck-config-new-card-sort-order-tooltip-2 =
     `Tipus de targeta`: mostra les targetes segons l'ordre del número de tipus de targeta. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes anvers→revers es mostraran abans que les targetes revers→anvers.
     
@@ -155,7 +155,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Aleatòriament`: mostra les targetes recopilades de manera aleatòria.
 deck-config-sort-order-card-template-then-random = Tipus de la targeta i després aleatòriament
 deck-config-sort-order-random-note-then-template = Nota aleatòria i després tipus de la targeta
-deck-config-sort-order-random = Aleatòriament
+deck-config-sort-order-random = Aleatori
 deck-config-sort-order-template-then-gather = Tipus de targeta
 deck-config-sort-order-gather = Ordre de recopilació
 deck-config-new-review-priority = Ordre de noves i per repassar
