@@ -110,6 +110,17 @@ browsing-note-count =
         [one] { $count } nota
        *[other] { $count } notas
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } nota actualizada.
+       *[other] { $count } notas actualizadas.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } ficha actualizada.
+       *[other] { $count } fichas actualizadas.
+    }
+browsing-window-title = Navegar ({ $selected } de { $total } fichas seleccionadas)
 browsing-sidebar-expand = Expandir
 browsing-sidebar-collapse = Recolher
 browsing-sidebar-expand-children = Expandir Subcategorias
@@ -123,6 +134,7 @@ browsing-sidebar-card-state = Estado da Ficha
 browsing-sidebar-flags = Bandeiras
 browsing-today = Hoje
 browsing-tooltip-card-modified = A última vez que foram feitas alterações numa ficha, incluindo revisões, sinalizações e mudanças de baralho
+browsing-tooltip-note-modified = A última vez que foram feitas alterações a uma nota, normalmente o conteúdo de algum campo ou a edição de etiquetas
 browsing-studied-today = Estudados Hoje
 browsing-added-today = Adicionado hoje
 browsing-again-today = Repetir Hoje
