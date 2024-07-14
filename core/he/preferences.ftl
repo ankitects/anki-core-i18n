@@ -62,6 +62,7 @@ preferences-review = חזרה
 preferences-answer-keys = כפתורי תשובה
 preferences-distractions = הסחות דעת
 preferences-minimalist-mode = מצב מינימלי
+preferences-minimalist-mode-tooltip = להפוך את הממשק הזה ליותר מצומצם/פחות מהודר
 preferences-editing = עריכה
 preferences-browsing = דפדוף
 preferences-default-deck = חפיסת ברירת מחדל
