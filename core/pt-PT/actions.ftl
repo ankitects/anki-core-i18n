@@ -57,7 +57,7 @@ actions-fullscreen-unsupported = O modo de ecrã completo não é suportado pela
 
 ## Flags
 
-actions-flag-number = Synalização { $number }
+actions-flag-number = Bandeira { $number }
 actions-flag-red = Vermelha
 actions-flag-orange = Laranja
 actions-flag-green = Verde

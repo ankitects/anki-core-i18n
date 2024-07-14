@@ -1,6 +1,17 @@
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
 scheduling-answer-button-time-minutes = { $amount }min(s)
 scheduling-answer-button-time-days = { $amount }dia(s)
 scheduling-answer-button-time-months = { $amount }me
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
 scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } segundo
@@ -31,6 +42,9 @@ scheduling-time-span-years =
         [one] { $amount } ano
        *[other] { $amount } anos
     }
+
+## Shown in the "Congratulations!" message after study finishes.
+
 scheduling-congratulations-finished = Parabéns! Você terminou este baralho por enquanto.
 scheduling-today-review-limit-reached =
     O limite de revisão de hoje foi atingido, porém ainda existem fichas
@@ -41,7 +55,13 @@ scheduling-today-new-limit-reached =
     Pode aumentar o limite nas opções, porém, tenha presente que
     quanto mais fichas novas estudar, maior será a sua carga de
     revisão a curto prazo.
-scheduling-buried-cards-were-delayed = Algumas fichas relacionadas ou ocultas foram atrasadas até uma próxima sessão.
+
+## Scheduler upgrade
+
+scheduling-update-done = Agendador actualizado com sucesso.
+
+## Other scheduling strings
+
 scheduling-at-least-one-step-is-required = Ao menos um passo é necessário.
 scheduling-automatically-play-audio = Tocar áudio automaticamente
 scheduling-bury-related-new-cards-until-the = Ocultar fichas relacionadas até ao dia seguinte
@@ -87,7 +107,8 @@ scheduling-steps-must-be-numbers = Passos devem ser números.
 scheduling-tag-only = Somente Etiquetas
 scheduling-the-default-configuration-cant-be-removed = A configuração padrão não pode ser excluída.
 scheduling-your-changes-will-affect-multiple-decks = Suas mudanças afetam múltiplos decks. Se você quer modificar apenas o deck atual, por favor, adicione novas opções de grupo primeiro.
-scheduling-deck-updated = { $count ->
-    [one] { $count } baralho atualizado.
-   *[other] { $count } baralhos atualizados
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } baralho atualizado.
+       *[other] { $count } baralhos atualizados
+    }
