@@ -147,6 +147,13 @@ browsing-tooltip-answer = O verso duma ficha, personalizável no editor de model
 browsing-studied-today = Estudados Hoje
 browsing-added-today = Adicionado hoje
 browsing-again-today = Repetir Hoje
+browsing-edited-today = Editado
+browsing-sidebar-first-review = Primeira Revisão
+browsing-sidebar-rescheduled = Reangendado
+browsing-sidebar-due-today = A rever
+browsing-sidebar-untagged = Sem Etiquetas
+browsing-sidebar-overdue = Em Atraso
+browsing-row-deleted = (apagada)
 browsing-sidebar-card-state-review = Revisão
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

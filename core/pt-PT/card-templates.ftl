@@ -1,3 +1,10 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = vazia
+card-templates-changes-will-affect-notes =
+    { $count ->
+        [one] As alterações abaixo irão impactar a { $count } nota que usa este tipo de ficha.
+       *[other] As alterações abaixo irão impactar as { $count } notas que usam este tipo de ficha.
+    }
 card-templates-card-type = Tipo de ficha:
 card-templates-front-template = Modelo da Frente
 card-templates-back-template = Modelo do Verso
@@ -5,7 +12,14 @@ card-templates-template-styling = Estilo
 card-templates-front-preview = Visualizar a Frente
 card-templates-back-preview = Visualizar o Verso
 card-templates-preview-box = Pré-visualização
-card-templates-sample-cloze = Isto é uma { "{{c1::" }sample{ "}}" } omissão de palavras.
+card-templates-template-box = modelo
+card-templates-sample-cloze = Isto é uma { "{{c1::" }amostra{ "}}" } duma omissão.
+card-templates-fill-empty = Preencha os Campos Vazios
+card-templates-night-mode = Modo Nocturno
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Adicionar classe CSS para dispositivos móveis
+card-templates-preview-settings = Opções
 card-templates-add-card-type = Adicionar tipo de ficha...
 card-templates-anki-couldnt-find-the-line-between = O Anki não conseguiu encontrar a linha entre a questão e a resposta. Por favor, ajuste o modelo manualmente para alternar entre a questão e a resposta.
 card-templates-at-least-one-card-type-is = Ao menos um tipo de ficha é requerido.
