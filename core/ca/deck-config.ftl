@@ -42,8 +42,8 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Per defecte, el límit de repassos també s’aplica a les targetes noves, i no es mostrarà
     cap targeta nova quan assoliu aquest límit. Si activeu aquesta opció, les targetes noves
     es mostraran sense tenir en compte el límit de repassos.
-deck-config-apply-all-parent-limits = El límit comença a partir de la baralla superior
-deck-config-apply-all-parent-limits-tooltip = Per defecte, els límits comencen a partir de la baralla seleccionada. Si activeu aquesta opció, els límits començaran a partir de la baralla superior, cosa que pot ser útil si voleu estudiar baralles secundàries individuals alhora que apliqueu un límit total de cartes per dia.
+deck-config-apply-all-parent-limits = Els límits comencen amb la baralla superior
+deck-config-apply-all-parent-limits-tooltip = Per defecte, els límits comencen amb la baralla seleccionada. Si activeu aquesta opció, els límits començaran a partir de la baralla superior. Això és útil per a estudiar baralles secundàries de manera individual mentre manteniu un límit total de targetes per dia.
 deck-config-affects-entire-collection = Afecta la col·lecció sencera.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
