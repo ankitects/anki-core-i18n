@@ -247,6 +247,7 @@ importing-match-scope-help =
     typem poznámky. To může být navíc omezeno na poznámky s kartami ve stejném balíčku.
 importing-tag-all-notes-help = Tyto štítky se přidají do nově importovaných i aktualizovaných poznámek.
 importing-tag-updated-notes-help = Tyto štítky se přidají do všech aktualizovaných poznámek.
+importing-overview = Přehled
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
