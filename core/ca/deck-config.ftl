@@ -257,7 +257,7 @@ deck-config-custom-scheduling-tooltip = Atenció: afectarà a tota la col·lecci
 
 ## Adding/renaming
 
-deck-config-add-group = Afegeix la configuració
+deck-config-add-group = Afegeix una configuració
 deck-config-name-prompt = Nom
 deck-config-rename-group = Reanomena la configuració
 deck-config-clone-group = Duplica la configuració
