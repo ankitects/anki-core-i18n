@@ -327,8 +327,8 @@ deck-config-compute-optimal-weights-tooltip2 =
     Kun painat Optimoi-painiketta, FSRS analysoi kertaushistoriasi ja luo parametrit, jotka ovat optimaaliset muistisi ja opiskelemasi sisällön kannalta. Jos eri pakkojen vaikeusasteiden välillä on suuria eroja, on suositeltavaa määrittää niille erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen parametrit tulevat olemaan erilaiset. Parametrejä ei tarvitse optimoida usein - kerta muutaman kuukauden välein riittää.
     Oletusarvoisesti parametrit lasketaan kaikkien nykyistä esiasetusta käyttävien pakkojen kertaushistoriasta. Voit valinnaisesti säätää hakua ennen parametrien laskemista, jos haluat vaikuttaa siihen, mitä kortteja käytetään parametrien optimointiin.
 deck-config-compute-optimal-retention-tooltip4 =
-    Tämä työkalu olettaa, että aloitat 0 opitusta kortista, ja yrittää löytää halutun retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa.
-    Jotta oppimisprosessia voidaan simuloida tarkasti, tämä toiminto vaatii vähintään 400+ suoritettua kertausta. Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota optimitasoa alhaisemmaksi, koska silloin työmäärä kasvaa ilman että siitä on hyötyä.
+    Tämä työkalu yrittää löytää sopivan retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa.
+    Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota tätä arvoa alhaisemmaksi, koska se tekee unohtamisesta todennäköisempää ja näin ollen lisää työmäärää.
 deck-config-please-save-your-changes-first = Tallenna muutoksesi ennen tämän toiminnon suorittamista.
 deck-config-a-100-day-interval =
     { $days ->
