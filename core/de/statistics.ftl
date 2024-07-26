@@ -115,8 +115,8 @@ statistics-retrievability-tooltip =
         [one] { $cards } Karte mit { $percent } Abrufbarkeit
        *[other] { $cards } Karten mit { $percent } Abrufbarkeit
     }
-statistics-future-due-title = Prognose
-statistics-future-due-subtitle = Anzahl der in Zukunft anfallenden Wiederholungen.
+statistics-future-due-title = Geplante Wiederholungen
+statistics-future-due-subtitle = Anzahl der geplanten Wiederholungen.
 statistics-added-title = Hinzugefügt
 statistics-added-subtitle = Die Anzahl der neu hinzugefügten Karten.
 statistics-reviews-count-subtitle = Anzahl der beantworteten Fragen.
