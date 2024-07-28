@@ -154,7 +154,26 @@ browsing-sidebar-due-today = A rever
 browsing-sidebar-untagged = Sem Etiquetas
 browsing-sidebar-overdue = Em Atraso
 browsing-row-deleted = (apagada)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Removida { $count } etiqueta não utilizada.
+       *[other] Removidas { $count } etiquetas não utilizadas.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Alterada a posição de { $count } ficha nova.
+       *[other] Alterada a posição de { $count } fichas novas.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Renomeado { $count } baralho.
+       *[other] Renomeados { $count } baralhos.
+    }
 browsing-sidebar-card-state-review = Revisão
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
