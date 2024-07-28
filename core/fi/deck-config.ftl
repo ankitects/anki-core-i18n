@@ -199,6 +199,8 @@ deck-config-question-action-show-reminder = Näytä muistutus
 deck-config-question-action = Kysymysten toiminto
 deck-config-question-action-tool-tip = Toiminto, joka suoritetaan, kun kysymys on esitetty ja aika on loppunut.
 deck-config-answer-action = Vastaustoiminto
+deck-config-answer-action-tooltip-2 = Toiminto, joka suoritetaan vastauksen näyttämisen ja ajan kulumisen jälkeen.
+deck-config-wait-for-audio-tooltip-2 = Odota äänen loppumista ennen kysymys- tai vastaustoiminnon automaattista suorittamista.
 
 ## Audio section
 
@@ -318,6 +320,9 @@ deck-config-historical-retention-tooltip =
 deck-config-weights-tooltip2 = FSRS-parametrit vaikuttavat korttien ajoitukseen. Anki aloittaa oletusarvoisilla parametreilla. Voit käyttää alla olevaa valintaa optimoidaksesi parametrit, jotta ne vastaavat parhaiten suoritustasi tätä esiasetusta käyttävissä pakoissa.
 deck-config-reschedule-cards-on-change-tooltip = Tällä valinnalla määritetään, muutetaanko korttien eräpäiviä, kun otat FSRS:n käyttöön tai muutat painokertoimia. Oletusarvoisesti kortteja ei ajoiteta uudelleen: tulevissa tarkistuksissa käytetään uutta ajoitusta, mutta työmäärään ei tule välitöntä muutosta. Jos aikataulun muuttaminen otetaan käyttöön, korttien eräpäiviä muutetaan.
 deck-config-reschedule-cards-warning = Riippuen toivomastasi retentioajasta, tämä voi johtaa siihen, että suuri määrä kortteja erääntyy, joten sitä ei suositella, kun siirryt ensimmäistä kertaa SM2:sta.
+deck-config-ignore-before-tooltip-2 =
+    Jos tämä asetetaan, ennen annettua päivämäärää tarkistettuja kortteja ei oteta huomioon FSRS-parametreja optimoitaessa.
+    Tämä voi olla hyödyllistä, jos olet tuonut jonkun toisen aikataulutiedot tai muuttanut tapaa, jolla käytät vastauspainikkeita.
 deck-config-compute-optimal-weights-tooltip2 =
     Kun painat Optimoi-painiketta, FSRS analysoi kertaushistoriasi ja luo parametrit, jotka ovat optimaaliset muistisi ja opiskelemasi sisällön kannalta. Jos eri pakkojen vaikeusasteiden välillä on suuria eroja, on suositeltavaa määrittää niille erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen parametrit tulevat olemaan erilaiset. Parametrejä ei tarvitse optimoida usein - kerta muutaman kuukauden välein riittää.
     Oletusarvoisesti parametrit lasketaan kaikkien nykyistä esiasetusta käyttävien pakkojen kertaushistoriasta. Voit valinnaisesti säätää hakua ennen parametrien laskemista, jos haluat vaikuttaa siihen, mitä kortteja käytetään parametrien optimointiin.
@@ -357,6 +362,7 @@ deck-config-bury-tooltip =
     Sisarkortit ovat muita kortteja samasta muistiinpanosta (esim. käänteiset kortit tai muut samasta tekstistä tehdyt täyttötehtävät ).
     
     Kun tämä asetus on pois päältä, useita kortteja samasta muistiinpanosta voi esiintyä samana päivänä. Kun se on päällä, Anki *hautaa* sisarkortit automaattisesti ja piilottaa ne seuraavaan päivään asti. Tämän vaihtoehdon avulla voit valita, minkälaiset kortit voidaan haudata, kun vastaat johonkin niiden sisarkorteista.
+deck-config-seconds-to-show-question-tooltip = Kun automaattinen eteneminen on käytössä, odota näin monta sekuntia ennen kuin vastaus näytetään. Poista käytöstä asettamalla arvoksi 0.
 deck-config-answer-action-tooltip = Toiminto, joka suoritetaan nykyiselle kortille ennen kuin siirrytään automaattisesti seuraavaan korttiin.
 deck-config-wait-for-audio-tooltip = Odota äänen loppumista ennen kuin vastaus tai seuraava kysymys näytetään automaattisesti.
 deck-config-ignore-before-tooltip =
