@@ -25,9 +25,14 @@ decks-order-due = Revisões mais próximas
 decks-please-select-something = Por favor, selecione algo.
 decks-random = Aleatório
 decks-relative-overdueness = Atrasos relativos
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Intervalo associado a { $button }
 decks-reschedule-cards-based-on-my-answers = Re-agendar fichas com base nas minhas respostas neste baralho
 decks-study = Estudar
 decks-study-deck = Estudar Baralho
+decks-filtered-deck-search-empty = Nenhuma ficha encontrada para a pesquisa introduzida. Algumas fichas podem não ter sido encontradas porque estão num baralho filtrado, ou suspensas.
+decks-unmovable-cards = Mostrar fichas excluídas
 decks-learn-header = Aprender
 # The count of cards waiting to be reviewed
 decks-review-header = A rever
+decks-zero-minutes-hint = (0 = devolver ficha ao baralho original)
