@@ -18,7 +18,7 @@ card-templates-fill-empty = Omple els camps buits
 card-templates-night-mode = Mode nocturn
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
-card-templates-add-mobile-class = Afageix la classe de CSS per a dispositius mòbils
+card-templates-add-mobile-class = Afegeix la classe per a dispositius mòbils
 card-templates-preview-settings = Opcions
 card-templates-invalid-template-number = La plantilla de targeta { $number } del tipus de nota '{ $notetype }' té un problema.
 card-templates-identical-front = L'anvers és idèntic a la plantilla { $number }.
