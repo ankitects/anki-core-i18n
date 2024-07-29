@@ -194,10 +194,10 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = 質問表示時間（秒）
-deck-config-seconds-to-show-question-tooltip-2 =
-    「カードの自動送り」機能が有効になっているとき、カードの質問側が表示されてから、解答側を表示するまでの待機秒数。
+deck-config-seconds-to-show-question-tooltip-3 =
+    「カードの自動送り」機能が有効になっているとき、カードの質問側が表示されてから、自動アクションが実行されるまでの待機秒数。
     
-    この自動表示を無効にするには、値を0に設定してください。
+    この自動アクションを無効にするには、値を0に設定してください。
 deck-config-seconds-to-show-answer = 解答表示時間（秒）
 deck-config-seconds-to-show-answer-tooltip-2 =
     「カードの自動送り」機能が有効になっているとき、カードの解答側が表示されてから、自動アクションを適用するまでの待機秒数。
@@ -208,8 +208,8 @@ deck-config-question-action-show-reminder = リマインダーを表示
 deck-config-question-action = 質問表示時間経過後の自動アクション
 deck-config-question-action-tool-tip = カードの質問側が表示されてから、質問表示時間が経過した後に実行するアクション。
 deck-config-answer-action = 解答表示時間経過後の自動アクション
-deck-config-answer-action-tooltip = ユーザーが回答などの操作を手動で行わず、自動的に次のカードに進む前に、現在のカードに対して実行するアクション。
-deck-config-wait-for-audio-tooltip = 解答を自動的に表示する前、または自動回答アクションを行う前に、音声の再生が終了するのを待ちます。
+deck-config-answer-action-tooltip-2 = カードの解答側が表示されてから、解答表示時間が経過した後に実行するアクション。
+deck-config-wait-for-audio-tooltip-2 = `解答表示時間経過後の自動アクション`または`解答表示時間経過後の自動アクション`を実行する前に、音声の再生が終了するのを待ちます。
 
 ## Audio section
 
@@ -353,8 +353,8 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     このオプションの設定はすべてのプリセットで共有され、一括で適用された後、オフ（デフォルト）になります。
 deck-config-reschedule-cards-warning = 目標正答率にもよりますが、大量のカードがいっぺんに期日を迎えることになる可能性があるため、初めてSM2スケジューラーからFSRSに切り替える際にこのオプションをオンにすることはおすすめしません。
-deck-config-ignore-before-tooltip =
-    このオプションがオンの場合、FSRSパラメータ値を最適化・推測する際、指定日より前の復習履歴を無視します。
+deck-config-ignore-before-tooltip-2 =
+    このオプションがオンの場合、FSRSパラメータ値を最適化する際、指定日より前に復習したことのあるカードを無視します。
     
     この設定は、インポートしたデッキに他の人の復習履歴が含まれている場合や、あなたが回答ボタンを選ぶ際の方針が以前と今とでは異なるという場合に適しています。
 deck-config-compute-optimal-weights-tooltip2 =
@@ -412,6 +412,16 @@ deck-config-bury-tooltip =
     
     When using the V3 scheduler, interday learning cards can also be buried. Interday
     learning cards are cards with a current learning step of one or more days.
+deck-config-seconds-to-show-question-tooltip =
+    「カードの自動送り」機能が有効になっているとき、カードの解答側が表示されてから、自動アクションが実行されるまでの待機秒数。
+    
+    この自動アクションを無効にするには、値を0に設定してください。
+deck-config-answer-action-tooltip = ユーザーが回答などの操作を手動で行わず、自動的に次のカードに進む前に、現在のカードに対して実行するアクション。
+deck-config-wait-for-audio-tooltip = 解答を自動的に表示する前、または自動回答アクションを行う前に、音声の再生が終了するのを待ちます。
+deck-config-ignore-before-tooltip =
+    このオプションがオンの場合、FSRSパラメータ値を最適化・推測する際、指定日より前の復習履歴を無視します。
+    
+    この設定は、インポートしたデッキに他の人の復習履歴が含まれている場合や、あなたが回答ボタンを選ぶ際の方針が以前と今とでは異なるという場合に適しています。
 deck-config-compute-optimal-retention-tooltip =
     このツールは、あなたがまだどのカードも学習していない状態で学習を開始すると仮定して、指定された学習プラン（枚数、日数、１日あたりの学習時間）に基づく正答率を推定します。
     
@@ -448,3 +458,7 @@ deck-config-compute-optimal-retention-tooltip3 =
     「学習時間（学習回数）が増えてもかまわないから、実際の正答率をもっと高くしたい」という場合は、この値よりも高い値を`目標正答率`として設定するのもよいでしょう。
     
     この値よりも低い値を`目標正答率`として設定するのはおすすめしません。成果があまり見込めない学習を繰り返すという結果になると予想されるためです。
+deck-config-seconds-to-show-question-tooltip-2 =
+    「カードの自動送り」機能が有効になっているとき、カードの質問側が表示されてから、解答側を表示するまでの待機秒数。
+    
+    この自動表示を無効にするには、値を0に設定してください。
