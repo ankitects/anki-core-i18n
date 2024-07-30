@@ -21,7 +21,7 @@ deck-config-tab-description =
     - `預設組`：所有使用此預設組的牌組的上限。
     - `當前牌組`：當前牌組的上限。
     - `僅限今天`：暫時更改當前牌組的的上限。
-deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
+deck-config-new-cards-ignore-review-limit = 新卡片不受上限影響
 deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，複習上限會影響新卡片，因此當複習卡數量達到上限時，則不會再顯示新卡片。啟用「新卡片不受複習上限影響」時，則複習上限不會影響顯示新卡片。
 deck-config-apply-all-parent-limits = 取上層牌組上限
 deck-config-apply-all-parent-limits-tooltip = 根據預設，上限值會採取你選取的牌組所設定的上限。啟用此選項後，上限會從上層牌組開始計算，這樣可確保你在學習一個牌組下的多個子牌組時不超過總上限。
@@ -55,9 +55,9 @@ deck-config-relearning-steps-tooltip = 零或多段延遲，用空白分隔。�
 deck-config-leech-threshold-tooltip = 複習卡被標記為低效卡所需按下 `重來` 的次數。低效卡耗費了你大量的時間，對待低效卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `僅加上標籤`：對筆記加上「leech」標籤，並顯示一個彈出式視窗。
+    `僅加上標籤`：對筆記加上 `leech` 標籤，並顯示一個彈出式視窗。
     
-    `擱置卡片`：對筆記加上「leech」標籤，並隱藏卡片，直到你手動取消擱置卡片。
+    `擱置卡片`：對筆記加上 `leech` 標籤，並隱藏卡片，直到你手動取消擱置卡片。
 
 ## Burying section
 
@@ -146,22 +146,22 @@ deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止計時。�
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = 問題面顯示時長（秒）
-deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
+deck-config-seconds-to-show-question-tooltip-3 = 啟用自動前進時，套用問題面動作前需要等待的秒數。設定為 0 來停用。
 deck-config-seconds-to-show-answer = 答案面顯示時長（秒）
-deck-config-seconds-to-show-answer-tooltip-2 = 啟用自動前進時，套用回答動作前需要等待的秒數。設定為 0 來停用。
+deck-config-seconds-to-show-answer-tooltip-2 = 啟用自動前進時，套用答案面動作前需要等待的秒數。設定為 0 來停用。
 deck-config-question-action-show-answer = 顯示答案
 deck-config-question-action-show-reminder = 顯示提醒
-deck-config-question-action = 問題顯示後動作
-deck-config-question-action-tool-tip = 顯示問題且經過設定的時間後要執行的動作。
-deck-config-answer-action = 答案顯示後動作
-deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為當前卡片執行的動作。
-deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題。
+deck-config-question-action = 問題面動作
+deck-config-question-action-tool-tip = 顯示問題面且經過設定的時間後要執行的動作。
+deck-config-answer-action = 答案面動作
+deck-config-answer-action-tooltip-2 = 顯示答案面且經過設定的時間後要執行的動作。
+deck-config-wait-for-audio-tooltip-2 = 等待音訊播放結束後再自動套用問題面或答案面動作。
 
 ## Audio section
 
 deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 不要自動播放音訊
-deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕，或使用「重播音訊」動作來手動播放。
+deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕或使用「重播」動作來手動播放。
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
 deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行「重播音訊」動作時，將不會同時播放問題面上的音訊。
 
@@ -273,7 +273,7 @@ deck-config-reschedule-cards-warning =
     根據你的期望留存率，這可能導致大量卡片到期，因此第一次從 FSRS 切換到 SM2 時不建議使用。
     
     使用此選項會對每張卡片都加入一條複習記錄，使集合佔用更多空間，因此請勿過度使用。
-deck-config-ignore-before-tooltip = 設定後，最佳化及評估 FSRS 參數時將無視在所選日期前做出的複習。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
+deck-config-ignore-before-tooltip-2 = 設定後，最佳化 FSRS 參數時將無視在所選日期前做出複習的卡片。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
 deck-config-compute-optimal-weights-tooltip2 =
     按下「最佳化」按鈕後，FSRS 將分析你的複習歷程，並產生對你的記憶和學習內容最佳的參數。如果牌組之間的難度對你差距過大，則建議為各牌組單獨設定預設組，因為難度不同的牌組需要使用不同的參數。參數無需頻繁最佳化，幾個月一次即可。
     
@@ -312,6 +312,10 @@ deck-config-bury-tooltip =
     停用時，一則筆記的多張卡片有機會在同一天出現。啟用時，Anki 會自動*暫停*關聯卡片，直到下一天前都不會出現。此選項可讓你選擇在回答時要暫停哪些種類的卡片。
     
     使用 V3 排程器時，跨天學習卡片也可以被暫停。跨天學習卡片是指當前學習階段為一天或更多的卡片。
+deck-config-seconds-to-show-question-tooltip = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
+deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為當前卡片執行的動作。
+deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題。
+deck-config-ignore-before-tooltip = 設定後，最佳化及評估 FSRS 參數時將無視在所選日期前做出的複習。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存率產生很大的影響，因此如果預估留存率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存率」欄位中。
 deck-config-compute-optimal-retention = 計算留存率推薦最小值
 deck-config-predicted-optimal-retention = 留存率推薦最小值：{ $num }
@@ -322,3 +326,4 @@ deck-config-compute-optimal-weights-tooltip =
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值只會增加你的工作量而沒有好處，因此不建議設定過低。
 deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。為了準確模擬學習過程，此功能需要至少 400+ 次複習。設定期望留存率時可參考計算出的數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值會導致遺忘率過高，從而加大你的工作量，因此不建議設定過低。
+deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
