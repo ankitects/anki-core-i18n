@@ -24,7 +24,7 @@ decks-order-added = Criados há mais tempo
 decks-order-due = Revisões mais próximas
 decks-please-select-something = Por favor, selecione algo.
 decks-random = Aleatório
-decks-relative-overdueness = Atrasos relativos
+decks-relative-overdueness = Atraso relativo
 decks-repeat-failed-cards-after = Repita os cartões com falha depois
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = Atraso para { $button }
@@ -35,5 +35,5 @@ decks-filtered-deck-search-empty = Nenhum cartão correspondeu à pesquisa forne
 decks-unmovable-cards = Mostrar todos os cartões excluídos
 decks-learn-header = Aprender
 # The count of cards waiting to be reviewed
-decks-review-header = A Revisar
+decks-review-header = Revisar
 decks-zero-minutes-hint = (0 = retornar o cartão para o baralho original)

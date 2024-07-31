@@ -5,7 +5,7 @@ custom-study-cards = cartões
 custom-study-cards-from-the-deck = cartões do baralho
 custom-study-choose-tags = Escolha etiquetas.
 custom-study-custom-study-session = Sessão de Estudo Personalizado
-custom-study-due-cards-only = Apenas cartões devidos.
+custom-study-due-cards-only = Apenas cartões pendentes.
 custom-study-increase-todays-new-card-limit = Aumentar o limite de cartões novos por hoje
 custom-study-increase-todays-new-card-limit-by = Aumentar o limite de cartões novos de hoje em
 custom-study-increase-todays-review-card-limit = Aumentar o limite de cartões a revisar hoje
@@ -28,7 +28,7 @@ custom-study-available-new-cards-2 = Novos cartões disponíveis: { $countString
 custom-study-available-review-cards-2 = Cartões disponíveis para revisão:
 custom-study-available-child-count = em subdecks
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Novos cartões disponiveis:
 custom-study-available-review-cards = Cartões disponíveis para revisão:
