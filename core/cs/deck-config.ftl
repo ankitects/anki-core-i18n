@@ -222,7 +222,6 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Počet sekund, po které je zobrazena otázka
-deck-config-seconds-to-show-question-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
 deck-config-seconds-to-show-answer = Počet sekund, po které je zobrazena odpověď
 deck-config-seconds-to-show-answer-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se aplikuje akce po odpovědi. Nastavením na 0 je zakázán.
 deck-config-question-action-show-answer = Zobrazit odpověď
@@ -230,8 +229,8 @@ deck-config-question-action-show-reminder = Zobrazit upomínku
 deck-config-question-action = Akce po otázce
 deck-config-question-action-tool-tip = Akce, která se provede po zobrazení otázky a vypršení času.
 deck-config-answer-action = Akce po odpovědi
-deck-config-answer-action-tooltip = Akce, která se provede na současnou kartu předtím, než se automaticky posunete na další.
-deck-config-wait-for-audio-tooltip = Čeká se, než dohraje zvuková stopa, až poté se automaticky zobrazí odpověď nebo další otázka
+deck-config-answer-action-tooltip-2 = Akce, která se provede po zobrazení odpovědi a vypršení času.
+deck-config-wait-for-audio-tooltip-2 = Čeká se, než dohraje zvuková stopa, až poté se automaticky aplikuje akce po otázce nebo akce po odpovědi.
 
 ## Audio section
 
@@ -381,14 +380,15 @@ deck-config-reschedule-cards-on-change-tooltip =
     karet se změní. V závislosti na vaší požadované retenci může toto vyústit ve velký počet karet, 
     které budou ke zkoušení, proto není tato možnost doporučena, když poprvé přepínáte ze SM2.
 deck-config-reschedule-cards-warning = V závislosti na vaší požadované retenci může toto vyústit ve velké množství karet, které budou ke zkoušení, takže toto není doporučeno, když poprvé přepínáte ze SM2.
-deck-config-ignore-before-tooltip =
-    Je-li nastaveno, opakování před uvedeným datem budou ignorovány při optimalizaci a vyhodnocení FSRS parametrů.
+deck-config-ignore-before-tooltip-2 =
+    Je-li nastaveno, karty opakované před uvedeným datem budou ignorovány při optimalizaci FSRS parametrů.
     To může být užitečné, pokud jste importovali data plánování někoho jiného nebo jste změnili způsob, jakým používáte tlačítka odpovědí.
 deck-config-compute-optimal-weights-tooltip2 =
     Po kliknutí na tlačítko Optimalizovat FSRS analyzuje vaši historii opakování a vygeneruje parametry, které jsou optimální pro vaši paměť a obsah, který studujete. Pokud se obtížnost vašich balíčků velmi liší, doporučujeme jim přiřadit samostatné předvolby, protože parametry pro lehké balíčky a těžké balíčky se budou lišit. 
     Parametry nemusíte optimalizovat často - stačí jednou za několik měsíců.
     
     Ve výchozím nastavení se parametry vypočítají z historie opakování všech balíčků, které používají aktuální předvolbu. Pokud chcete změnit, které karty se použijí pro optimalizaci parametrů, můžete navíc před výpočtem parametrů upravit vyhledávání.
+deck-config-compute-optimal-retention-tooltip4 = Tento nástroj se pokusí najít požadovanou hodnotu retence, která povede k naučení se co největšího množství materiálu za co nejkratší dobu. Vypočítané číslo může sloužit jako referenční hodnota při rozhodování, jakou hodnotu požadované retence nastavit. Pokud jste ochotni vyměnit více studijního času za vyšší míru zapamatování, můžete zvolit vyšší hodnotu požadované retence. Nastavení požadované retence na nižší než minimální hodnotu se nedoporučuje, protože to povede k vyšší pracovní zátěži kvůli vysoké míře zapomínání.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
 deck-config-a-100-day-interval =
     { $days ->
@@ -403,6 +403,7 @@ deck-config-percent-of-reviews =
        *[other] { $pct }% z { $reviews } opakování
     }
 deck-config-optimizing-preset = Optimalizuje se předvolba { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = Nejdříve musí být povoleno FSRS.
 deck-config-fsrs-params-optimal = FSRS parametry se nyní zdají být optimální.
 deck-config-wait-for-audio = Čekat na zvukovou stopu
 deck-config-show-reminder = Zobrazit upomínku
@@ -414,6 +415,11 @@ deck-config-desired-retention-below-optimal = Vaše požadovaná retence není o
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-answer-action-tooltip = Akce, která se provede na současnou kartu předtím, než se automaticky posunete na další.
+deck-config-wait-for-audio-tooltip = Čeká se, než dohraje zvuková stopa, až poté se automaticky zobrazí odpověď nebo další otázka
+deck-config-ignore-before-tooltip =
+    Je-li nastaveno, opakování před uvedeným datem budou ignorovány při optimalizaci a vyhodnocení FSRS parametrů.
+    To může být užitečné, pokud jste importovali data plánování někoho jiného nebo jste změnili způsob, jakým používáte tlačítka odpovědí.
 deck-config-compute-optimal-retention-tooltip =
     Tento nástroj předpokládá, že začínáte s 0 kartami, a pokusí se vypočítat množství materiálu, který budete schopen udržovat v daném časovém rámci. Odhadovaná retence bude do značné míry záviset na vašich vstupech, 
     a pokud se výrazně liší od 0,9, je to znamení, že čas, který jste přidělili na každý den, je buď příliš nízký,
@@ -433,3 +439,4 @@ deck-config-compute-optimal-weights-tooltip =
     Ve výchozím nastavení se váhy budou počítat z historie opakování všech balíčků za použití současné 
     předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
     se použijí pro optimalizování vah.
+deck-config-seconds-to-show-question-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
