@@ -18,7 +18,7 @@ actions-increment-value = Aumente valor
 actions-import = Importar
 actions-manage = Gerenciar...
 actions-name = Nome:
-actions-new = Novos
+actions-new = Novo
 actions-new-name = Novo nome:
 actions-options = Opções
 actions-options-for = Opções para { $val }
@@ -34,7 +34,7 @@ actions-reposition = Reposicionar
 actions-save = Salvar
 actions-search = Procurar
 actions-select = Selecionar
-actions-shortcut-key = Tecla de Atalho: { $val }
+actions-shortcut-key = Tecla de atalho: { $val }
 actions-suspend-card = Suspender Cartão
 actions-set-due-date = Definir Data de Revisão
 actions-answer-card = Responder Cartão
@@ -44,19 +44,19 @@ actions-add-note = Adicionar Nota
 actions-update-tag = Atualizar Etiqueta
 actions-update-note = Atualizar Nota
 actions-update-card = Atualizar Cartão
-actions-update-deck = Atualizar baralho
+actions-update-deck = Atualizar Baralho
 actions-forget-card = Esquecer Cartão
 actions-build-filtered-deck = Criar Baralho
 actions-add-notetype = Adicionar Tipo de Notaﾠ
 actions-remove-notetype = Remover Tipo de Nota
 actions-update-notetype = Atualizar Tipo de Notaﾠ
-actions-update-config = Atualizar Configurações
+actions-update-config = Atualizar Configuração
 actions-card-info = Informação do Cartão
 actions-previous-card-info = Informação do Cartão Anterior
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = O modo de tela cheia não é suportado pelo seu driver de vídeo. Tente mudar para um diferente na tela de preferências.
+actions-fullscreen-unsupported = Tela cheia não é suportado pelo seu driver de vídeo. Tente mudar para um diferente na tela de preferências.
 
 ## Flags
 

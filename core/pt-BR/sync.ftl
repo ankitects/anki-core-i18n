@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Se você escolher enviar, o 'Anki' copiará sua coleção para o AnkiWeb e todas as mudanças que você tenha feito no 'AnkiWeb' ou em outros aparelhos desde a última sincronização serão perdidas.
     
     Depois que todos os aparelhos estiverem sincronizados, as futuras revisões e os cartõs adicionados serão mescladas automaticamente.
+sync-conflict-explanation2 =
+    Há um conflito entre os baralhos neste dispositivo e AnkiWeb. Você deve escolher qual versão manter:
+    
+    - Selecione **{ sync-download-from-ankiweb }** para substituir os baralhos aqui pela versão do AnkiWeb. Você perderá todas as alterações feitas neste dispositivo desde sua última sincronização.
+    - Selecione **{ sync-upload-to-ankiweb }** para substituir as versões do AnkiWeb pelos baralhos deste dispositivo e excluir todas as alterações no AnkiWeb.
+    
+    Assim que o conflito for resolvido, a sincronização funcionará normalmente.
 sync-ankiweb-id-label = Usuário AnkiWeb:
 sync-password-label = Senha:
 sync-account-required =
