@@ -112,7 +112,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     「随机排列笔记」：先随机排列选取的笔记，再从中抽取卡片。
     当搁置关联卡片功能被禁用时，可使一个笔记的所有卡片在一次练习中展示。
-    （例如：使「正面->背面」和「背面->正面」在一次练习展示）
+    （例如：使「正面→背面」和「背面→正面」在一次练习展示）
     
     「随机排列卡片」：完全随机地抽取卡片。
 deck-config-new-gather-priority-deck = 按牌组顺序
@@ -188,16 +188,16 @@ deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。�
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = 自动显示答案前等待秒数
-deck-config-seconds-to-show-question-tooltip-2 = 启用自动展示时，自动显示答案前等待的秒数。设置为 0 以禁用。
+deck-config-seconds-to-show-question-tooltip-3 = 启用自动前进时，应用问题面操作前等待的秒数。设置为 0 以禁用。
 deck-config-seconds-to-show-answer = 显示答案后自动操作前等待秒数
-deck-config-seconds-to-show-answer-tooltip-2 = 启用自动展示时，显示答案后执行自动操作前等待的秒数。设置为 0 以禁用。
+deck-config-seconds-to-show-answer-tooltip-2 = 启用自动前进时，应用答案面操作前等待的秒数。设置为 0 以禁用。
 deck-config-question-action-show-answer = 显示答案
 deck-config-question-action-show-reminder = 显示提醒
-deck-config-question-action = 显示问题后自动操作
+deck-config-question-action = 问题面操作
 deck-config-question-action-tool-tip = 问题显示已超时后执行的自动操作。
-deck-config-answer-action = 显示答案后自动操作
-deck-config-answer-action-tooltip = 在展示下一张卡片前自动对当前卡片执行的操作。
-deck-config-wait-for-audio-tooltip = 在显示答案或展示下一张卡片前等待音频播放完毕。
+deck-config-answer-action = 答案面操作
+deck-config-answer-action-tooltip-2 = 在显示答案并过去一段时间后执行的操作。
+deck-config-wait-for-audio-tooltip-2 = 等待音频播放完毕再自动应用问题面或答案面操作。
 
 ## Audio section
 
@@ -340,8 +340,8 @@ deck-config-reschedule-cards-warning =
     根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM2 切换时不推荐开启该选项。
     
     请节制地使用该选项，因为启用该选项会为每一张卡片添加一条复习记录，并增加您集合的的大小。
-deck-config-ignore-before-tooltip =
-    设置后，优化与评估 FSRS 参数将会忽略所给日期前的复习记录。
+deck-config-ignore-before-tooltip-2 =
+    设置后，优化 FSRS 参数将会忽略所给日期前复习过的卡片。
     此选项可以用于您导入了他人的排程数据，或改变了使用各回答按钮方式的情况。
 deck-config-compute-optimal-weights-tooltip2 =
     当您点击「优化」按钮时，FSRS 会分析您的复习历史记录，并自动生成最适合您的记忆和您正在学习的内容的参数。
@@ -386,6 +386,12 @@ deck-config-bury-tooltip =
     此选项停用后，来自同一笔记的多张卡片可能会在同一日出现。
     此选项启用后，同一日内的关联卡片将被自动搁置。此选项还允许您选择回答后所搁置关联卡片的类型。
     当使用 V3 排程计划时，跨日学习卡片也可搁置。跨日学习卡片是指当前学习阶段为一天或多天的卡片。
+deck-config-seconds-to-show-question-tooltip = 启用自动前进时，自动显示答案前等待的秒数。设置为 0 以禁用。
+deck-config-answer-action-tooltip = 在自动展示下一张卡片前对当前卡片执行的操作。
+deck-config-wait-for-audio-tooltip = 等待音频播放完毕再显示答案或展示下一张卡片。
+deck-config-ignore-before-tooltip =
+    设置后，优化与评估 FSRS 参数将会忽略所给日期前的复习记录。
+    此选项可以用于您导入了他人的排程数据，或改变了使用各回答按钮方式的情况。
 deck-config-compute-optimal-retention-tooltip =
     该工具假设您从 0 张卡片开始，并将尝试计算您在给定时间范围内能够保留记忆的材料量。
     预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。
@@ -412,3 +418,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     在决定将期望记忆保留率设置为多少时，可以将此计算出的数值作为参考。
     如果您愿意以更多的学习时间换取更高的回忆成功概率，您可能希望选择一个更高的保留率。
     并不推荐将您期望的记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
+deck-config-seconds-to-show-question-tooltip-2 = 启用自动前进时，自动显示答案前等待的秒数。设置为 0 以禁用。
