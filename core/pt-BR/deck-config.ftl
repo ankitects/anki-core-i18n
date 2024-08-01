@@ -208,7 +208,7 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Segundos para mostrar a pergunta
-deck-config-seconds-to-show-question-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de revelar a resposta. Defina como 0 para desativar.
+deck-config-seconds-to-show-question-tooltip-3 = Quando avanço automático estiver ativado, o número de segundos de espera antes revelar a pergunta. Defina como 0 para desativar.
 deck-config-seconds-to-show-answer = Segundos para mostrar a resposta
 deck-config-seconds-to-show-answer-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de aplicar a ação de resposta. Defina como 0 para desativar.
 deck-config-question-action-show-answer = Mostrar Resposta
@@ -216,8 +216,8 @@ deck-config-question-action-show-reminder = Mostrar lembrete
 deck-config-question-action = Ação da Questão
 deck-config-question-action-tool-tip = A ação a ser realizada após a pergunta ser exibida e o tempo decorrido.
 deck-config-answer-action = Ação de resposta
-deck-config-answer-action-tooltip = A ação a ser realizada no cartão atual antes de avançar automaticamente para o próximo.
-deck-config-wait-for-audio-tooltip = Esperar o áudio terminar antes de revelar automaticamente a resposta ou a próxima pergunta
+deck-config-answer-action-tooltip-2 = A ação a ser realizada após a pergunta ser exibida e o tempo decorrido.
+deck-config-wait-for-audio-tooltip-2 = Esperar o áudio terminar antes de revelar automaticamente a resposta ou a próxima pergunta
 
 ## Audio section
 
@@ -364,9 +364,9 @@ deck-config-historical-retention-tooltip =
     
     O último motivo é bastante raro, então, a menos que você tenha usado a primeira opção, provavelmente
     não precisará ajustar essa configuração.
-deck-config-weights-tooltip =
-    Os parâmetros dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar
-    os parâmetros abaixo.
+deck-config-weights-tooltip2 =
+    Os parâmetros FSRS afetam a forma como os cartões são programados. Anki começará com parâmetros padrão. Você pode usar
+    a opção abaixo para otimizar os parâmetros para melhor corresponder ao seu desempenho em baralhos que usam esta predefinição.
 deck-config-reschedule-cards-on-change-tooltip =
     Afeta toda a coleção e não é salvo.
     
@@ -380,25 +380,18 @@ deck-config-reschedule-cards-warning =
     
     Use esta opção com moderação, pois ela poderá adicionar uma entrada de revisão a cada um
     dos seus cartões, o que poderá resultar no aumento do volume da sua coleção de cartões
-deck-config-ignore-before-tooltip =
-    Se definido, revisões anteriores à data fornecida serão ignoradas ao otimizar e avaliar os parâmetros do FSRS.
-    Isso pode ser útil se você importou os dados de agendamento de outra pessoa, ou mudou a forma como usa os botões de resposta.
-deck-config-compute-optimal-weights-tooltip =
-    Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,
-    e gerar automaticamente parâmetros que são ótimos para sua memória e o conteúdo que você está estudando.
-    Se você tem baralhos que variam muito em dificuldade, é recomendado atribuir-lhes presets separados, pois
-    os parâmetros para baralhos fáceis e difíceis serão diferentes. Não há necessidade de otimizar seus parâmetros
-    frequentemente - uma vez a cada poucos meses é suficiente.
+deck-config-ignore-before-tooltip-2 =
+    Se definido, os cartões revisados ​​antes da data fornecida serão ignorados ao otimizar os parâmetros do FSRS.
+    Isso pode ser útil se você importou os dados de agendamento de outra pessoa ou alterou a forma como usa os botões de resposta.
+deck-config-compute-optimal-weights-tooltip2 =
+    Ao clicar no botão Otimizar, FSRS analisará seu histórico de revisão e gerará parâmetros que são
+    ideal para a sua memória e o conteúdo que está estudando. Se seus baralhos variam muito em dificuldade subjetiva,
+    é recomendado atribuir-lhes predefinições separadas, pois os parâmetros para decks fáceis e decks difíceis serão diferentes.
+    Você não precisa otimizar seus parâmetros com frequência - uma vez a cada poucos meses é suficiente.
     
-    Por padrão, os parâmetros serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode
-    ajustar opcionalmente a busca antes de calcular os parâmetros, se quiser alterar quais cartões são usados para
-    otimizar os parâmetros.
-deck-config-compute-optimal-retention-tooltip2 =
-    Esta ferramenta pressupõe que você está começando com 0 cartões aprendidos e tentará encontrar o valor de retenção
-    desejado que levará ao aprendizado do maior volume de material no menor tempo possível. Este número pode ser usado
-    como referência ao decidir para qual valor ajustar sua retenção desejada. Você pode desejar escolher uma retenção desejada mais alta,
-    se estiver disposto a trocar mais tempo de estudo por uma taxa de recordação maior. Configurar sua retenção desejada para um valor
-    abaixo do ótimo não é recomendado, pois isso levará a mais trabalho sem benefício.
+    Por padrão, os parâmetros serão calculados a partir do histórico de revisão de todos os decks que usam a predefinição atual. Você pode
+    opcionalmente, ajuste a pesquisa antes de calcular os parâmetros, se desejar alterar quais cartões são usados
+    otimizando os parâmetros.
 deck-config-please-save-your-changes-first = Por favor, salve suas alterações primeiro.
 deck-config-a-100-day-interval =
     { $days ->
@@ -439,6 +432,12 @@ deck-config-bury-tooltip =
     
     Ao usar o agendador V3, cartões de aprendizagem interdiários também podem ser ocultados. 
     Cartões de aprendizagem interdiários são cartões com um passo de aprendizagem atual de um ou mais dias.
+deck-config-seconds-to-show-question-tooltip = Quando avanço automático está ativado, o número de segundos de espera antes de revelar a resposta. Defina como 0 para desativar.
+deck-config-answer-action-tooltip = A ação a ser realizada no cartão atual antes de avançar automaticamente para o próximo.
+deck-config-wait-for-audio-tooltip = Esperar o áudio terminar antes de revelar automaticamente a resposta ou a próxima pergunta
+deck-config-ignore-before-tooltip =
+    Se definido, revisões anteriores à data fornecida serão ignoradas ao otimizar e avaliar os parâmetros do FSRS.
+    Isso pode ser útil se você importou os dados de agendamento de outra pessoa, ou mudou a forma como usa os botões de resposta.
 deck-config-compute-optimal-retention-tooltip =
     Esta ferramenta assume que você está começando com 0 cartões, e tentará calcular a quantidade de material que você vai
     ser capaz de reter no prazo dado. A retenção estimada dependerá muito de suas entradas, e
@@ -447,3 +446,23 @@ deck-config-compute-optimal-retention-tooltip =
     não recomendado copiá-lo para o campo de retenção desejado.
 deck-config-compute-optimal-retention = Calcular retenção ótima
 deck-config-predicted-optimal-retention = Retenção ótima prevista: { $num }
+deck-config-weights-tooltip =
+    Os parâmetros dos modelos afetam como os cartões são programados. Uma vez que você acumulou 1000+ revisões, você pode otimizar
+    os parâmetros abaixo.
+deck-config-compute-optimal-weights-tooltip =
+    Depois de fazer mais de 1000 revisões no Anki, você pode usar o botão Otimizar para analisar seu histórico de revisões,
+    e gerar automaticamente parâmetros que são ótimos para sua memória e o conteúdo que você está estudando.
+    Se você tem baralhos que variam muito em dificuldade, é recomendado atribuir-lhes presets separados, pois
+    os parâmetros para baralhos fáceis e difíceis serão diferentes. Não há necessidade de otimizar seus parâmetros
+    frequentemente - uma vez a cada poucos meses é suficiente.
+    
+    Por padrão, os parâmetros serão calculados a partir do histórico de revisão de todos os baralhos usando o preset atual. Você pode
+    ajustar opcionalmente a busca antes de calcular os parâmetros, se quiser alterar quais cartões são usados para
+    otimizar os parâmetros.
+deck-config-compute-optimal-retention-tooltip2 =
+    Esta ferramenta pressupõe que você está começando com 0 cartões aprendidos e tentará encontrar o valor de retenção
+    desejado que levará ao aprendizado do maior volume de material no menor tempo possível. Este número pode ser usado
+    como referência ao decidir para qual valor ajustar sua retenção desejada. Você pode desejar escolher uma retenção desejada mais alta,
+    se estiver disposto a trocar mais tempo de estudo por uma taxa de recordação maior. Configurar sua retenção desejada para um valor
+    abaixo do ótimo não é recomendado, pois isso levará a mais trabalho sem benefício.
+deck-config-seconds-to-show-question-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de revelar a resposta. Defina como 0 para desativar.

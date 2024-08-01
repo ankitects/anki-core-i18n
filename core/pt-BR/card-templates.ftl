@@ -26,6 +26,7 @@ card-templates-no-front-field = Esperado encontrar um substituto de campo na fre
 card-templates-missing-cloze = Espera-se encontrar{ "{{" } cloze:Text{ "}}" }' ou algo semelhante no modelo frontal e no modelo do verso.
 card-templates-extraneous-cloze = 'cloze:' apenas pode ser usado em tipos de nota "Omissão de Palavras".
 card-templates-see-preview = Veja a pré-visualização para mais informações.
+card-templates-field-not-found = Campo '{ $field }' não encontrado.
 card-templates-changes-saved = Alterações salvas.
 card-templates-discard-changes = Descartar alterações?
 card-templates-add-card-type = Adicionar Tipo de Cartão...

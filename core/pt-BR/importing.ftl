@@ -232,6 +232,7 @@ importing-match-scope-help =
     adicionalmente ser restrito a notas com cartões no mesmo baralho.
 importing-tag-all-notes-help = Essas tags serão adicionadas tanto em notas recém-importadas quanto nas atualizadas
 importing-tag-updated-notes-help = Estas tags serão adicionadas a qualquer nota atualizada.
+importing-overview = Visão geral
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
