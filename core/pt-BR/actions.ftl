@@ -60,7 +60,7 @@ actions-fullscreen-unsupported = Tela cheia não é suportado pelo seu driver de
 
 ## Flags
 
-actions-flag-number = Emblema { $number }
+actions-flag-number = Bandeira { $number }
 actions-flag-red = Vermelho
 actions-flag-orange = Laranja
 actions-flag-green = Verde
@@ -68,7 +68,7 @@ actions-flag-blue = Azul
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turquesa
 actions-flag-purple = Roxo
-actions-set-flag = Definir Emblema
+actions-set-flag = Definir Bandeira
 actions-nothing-to-undo = Nada para desfazer
 actions-nothing-to-redo = Nada para refazer
 actions-auto-advance = Avanço Automático
