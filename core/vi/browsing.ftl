@@ -8,7 +8,7 @@ browsing-answer = Trả lời
 browsing-any-flag = Cờ bất kỳ
 browsing-average-ease = Trung bình dưới
 browsing-average-interval = Trung bình thời gian
-browsing-browser-appearance = Thể hiện Trình duyệt
+browsing-browser-appearance = Giao diện Trình duyệt
 browsing-browser-options = Tùy chọn Trình duyệt
 browsing-buried = Tạm hoãn
 browsing-card = Thẻ
@@ -17,8 +17,9 @@ browsing-card-list = Danh sách Thẻ
 browsing-cards-cant-be-manually-moved-into = Không thể di chuyển thủ công thẻ vào bộ thẻ lọc.
 browsing-cards-deleted =
     { $count ->
-       *[other] { $count } Thẻ đã bị xóa.
+       *[other] { $count } thẻ đã bị xóa.
     }
+browsing-cards-deleted-with-deckname = { $count } thẻ đã bị xoá khỏi { $deck_name }.
 browsing-change-deck = Đổi Bộ thẻ
 browsing-change-deck2 = Đổi Bộ thẻ...
 browsing-change-note-type = Đổi Kiểu Phiếu
@@ -34,7 +35,7 @@ browsing-duplicate = trùng
 browsing-ease = Độ dễ
 browsing-enter-tags-to-add = Nhập nhãn cần thêm:
 browsing-enter-tags-to-delete = Nhập nhãn cần xóa:
-browsing-filtered = (lọc)
+browsing-filtered = (đã lọc)
 browsing-find = <b>Tìm</b>:
 browsing-find-and-replace = Tìm và Thay
 browsing-find-duplicates = Tìm Thẻ trùng
@@ -45,7 +46,7 @@ browsing-font-size = <b>Cỡ chữ</b>:
 browsing-found-as-across-bs = Tìm thấy { $part } trên { $whole }.
 browsing-ignore-case = Bỏ qua phân biệt hoa thường
 browsing-in = <b>Trong</b>:
-browsing-interval = Khoảng cách
+browsing-interval = Khoảng thời gian
 browsing-last-card = Thẻ Cuối
 browsing-learning = (đang học)
 browsing-line-size = <b>Kích thước đường gạch</b>:
@@ -80,6 +81,7 @@ browsing-selected-notes-only = Chỉ các phiếu được chọn
 browsing-shift-position-of-existing-cards = Dịch chuyển vị trí các thẻ hiện hữu
 browsing-sidebar = Thanh bên
 browsing-sidebar-filter = Thanh bộ lọc bên
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Trường Sắp xếp
 browsing-sorting-on-this-column-is-not = Không hỗ trợ sắp xếp trên cột này. Xin vui lòng chọn cột khác.
 browsing-start-position = Vị trí bắt đầu:
@@ -88,6 +90,7 @@ browsing-suspended = Dừng
 browsing-tag-duplicates = Nhãn Trùng
 browsing-tag-rename-warning-empty = Bạn không thể đổi tên Nhãn mà không có Phiếu.
 browsing-target-field = Trường tin đích:
+browsing-toggle-bury = Bật tắt Ẩn
 browsing-toggle-showing-cards-notes = Chuyển đổi cách hiển thị Thẻ/Phiếu
 browsing-toggle-mark = Chuyển đổi Dấu
 browsing-toggle-suspend = Chuyển đổi Ngừng
