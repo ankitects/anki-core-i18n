@@ -7,7 +7,7 @@ decks-custom-steps-in-minutes = Passos personalitzats (en minuts)
 decks-deck = Baralla
 decks-decreasing-intervals = Intervals decreixents
 decks-delete-deck = Suprimeix la baralla
-decks-enable-second-filter = Activa el segon filtre
+decks-enable-second-filter = Activa un segon filtre
 decks-filter = Filtre:
 decks-filter-2 = Filtre 2
 decks-get-shared = Baralles compartides
@@ -32,7 +32,7 @@ decks-reschedule-cards-based-on-my-answers = Replanifica les targetes en funció
 decks-study = Estudia
 decks-study-deck = Estudia la baralla
 decks-filtered-deck-search-empty = No s’ha trobat cap targeta coincident. És possible que algunes targetes s’hagin exclòs perquè estan suspeses o pertanyen a una baralla filtrada diferent.
-decks-unmovable-cards = Mostra qualsevol targeta exclosa
+decks-unmovable-cards = Mostra les targetes excloses
 decks-learn-header = Aprenent
 # The count of cards waiting to be reviewed
 decks-review-header = Pendents
