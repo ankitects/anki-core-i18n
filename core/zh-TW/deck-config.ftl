@@ -216,7 +216,7 @@ deck-config-reviews-too-low =
     }，複習上限至少應設定為 { $expected } 張。
 deck-config-learning-step-above-graduating-interval = 畢業間隔不應短於最後一個學習階段。
 deck-config-good-above-easy = 「簡單」間隔不應短於畢業間隔。
-deck-config-relearning-steps-above-minimum-interval = 最小忘記間隔不應短於最後一個重新學習階段。
+deck-config-relearning-steps-above-minimum-interval = 最小遺忘間隔不應短於最後一個重新學習階段。
 deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡潔，這樣 Anki 能更有效率地為你排程複習。
 
 ## Selecting a deck
