@@ -26,6 +26,7 @@ card-templates-no-front-field = צפוי למצוא תחליף שדה בצד ה�
 card-templates-missing-cloze = צפוי למצוא את '{ "{{" }cloze:Text{ "}}" }' או דומה בחלקו הקדמי והאחורי של תבנית הכרטיס.
 card-templates-extraneous-cloze = 'השלם את החסר:' ניתן לשימוש רק ברשומות מסוג 'השלם את החסר'.
 card-templates-see-preview = עיין בתצוגה המקדימה למידע נוסף.
+card-templates-field-not-found = השדה ‚{ $field }’ לא נמצא.
 card-templates-changes-saved = השינויים נשמרו
 card-templates-discard-changes = לבטל שינויים?
 card-templates-add-card-type = הוסף סוג כרטיס...
