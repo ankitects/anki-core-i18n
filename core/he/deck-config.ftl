@@ -228,6 +228,7 @@ deck-config-question-action = פעולת שאלה
 deck-config-question-action-tool-tip = הפעולה לביצוע לאחר הצגת השאלה והזמן למענה חלף.
 deck-config-answer-action = פעולת תשובה
 deck-config-answer-action-tooltip-2 = הפעולה לביצוע לאחר הצגת השאלה והזמן שחלף.
+deck-config-wait-for-audio-tooltip-2 = המתן לסיום השמע בטרם החלת פעולת השאלה או פעולת התשובה.
 
 ## Audio section
 
@@ -371,6 +372,7 @@ deck-config-historical-retention-tooltip =
     2. כי מחקת בעבר יומני חזרות כדי לפנות מקום, או ייבאת חומר מתוכנית SRS אחרת.
     האחרון הוא די נדיר, ולכן אם לא השתמשת באפשרות הראשונה, כנראה שלא תצטרך להתאים
     הגדרה זו.
+deck-config-weights-tooltip2 = משתני FSRS משפיעים על איך קלפים מתוזמנים. Anki יופעל עם משתני ברירת המחדל, אפשר להשתמש באפשרות שלהלן כדי למטב את המשתנים לביצועים שלך בחפיסות שמשתמשות בערכה הזאת.
 deck-config-reschedule-cards-on-change-tooltip =
     אפשרות זו קובעת אם תאריכי התזמון של הכרטיסים ישתנו בעת הפעלת FSRS, או שינוי
     המשקלים. ברירת המחדל היא לא לתזמן מחדש כרטיסים: חזרות עתידיות ישתמשו בתזמון החדש, אבל
