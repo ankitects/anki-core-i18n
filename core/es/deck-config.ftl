@@ -319,11 +319,13 @@ deck-config-desired-retention = Retención deseada
 deck-config-historical-retention = Retención histórica
 deck-config-smaller-is-better = Los números más pequeños indican un mejor ajuste a su historial de revisiones.
 deck-config-steps-too-large-for-fsrs = Cuando el FSRS está activado, no se recomiendan pasos de 1 día o más.
+deck-config-fsrs-must-be-enabled = Primero, hay que activar FSRS.
 deck-config-wait-for-audio = Esperar al audio
 deck-config-show-reminder = Mostrar recordatorio
 deck-config-answer-again = Otra Vez
 deck-config-answer-hard = Difícil
 deck-config-answer-good = Bien
+deck-config-days-to-simulate = Días de simulación
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
