@@ -183,7 +183,7 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Temps d'affichage de la question en secondes
-deck-config-seconds-to-show-question-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
+deck-config-seconds-to-show-question-tooltip-3 = Lorsque l'avance automatique est activée, le nombre de secondes à attendre avant d'appliquer l'action de la question. Mettre à 0 pour désactiver.
 deck-config-seconds-to-show-answer = Temps d'affichage de la réponse en secondes
 deck-config-seconds-to-show-answer-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
 deck-config-question-action-show-answer = Afficher la réponse
@@ -191,8 +191,8 @@ deck-config-question-action-show-reminder = Afficher le rappel
 deck-config-question-action = Action de la question
 deck-config-question-action-tool-tip = L'action à effectuer après que la question soit montrée, et le temps écoulé.
 deck-config-answer-action = Action de la réponse
-deck-config-answer-action-tooltip = L'action à réaliser sur la carte actuelle avant de continuer automatiquement vers la prochaine.
-deck-config-wait-for-audio-tooltip = Attendre la fin de l'audio avant de révéler automatiquement la réponse ou la prochaine question
+deck-config-answer-action-tooltip-2 = L'action à effectuer après la réponse est affichée et le temps s'est écoulé.
+deck-config-wait-for-audio-tooltip-2 = Attendez que l'audio se termine avant d'appliquer automatiquement l'action de question ou l'action de réponse.
 
 ## Audio section
 
@@ -338,8 +338,8 @@ deck-config-reschedule-cards-on-change-tooltip =
 deck-config-reschedule-cards-warning =
     En fonction de la rétention souhaitée, cette option peut entraîner l'arrivée à échéance immédiate d'un grand nombre de cartes. Elle n'est donc pas recommandée lorsque vous passez pour la première fois de SM2 à FSRS.
     Utilisez cette option avec parcimonie, car elle ajoutera une entrée de révision à chacune de vos cartes et augmentera la taille de votre collection.
-deck-config-ignore-before-tooltip =
-    Si cette option est activée, les révisions antérieures à la date indiquée seront ignorées lors de l'optimisation et de l'évaluation des paramètres FSRS.
+deck-config-ignore-before-tooltip-2 =
+    Si cette option est activée, les cartes examinées avant la date indiquée seront ignorées lors de l'optimisation des paramètres FSRS.
     Cela peut être utile si vous avez importé les données de planification de quelqu'un d'autre ou si vous avez changé la façon dont vous utilisez les boutons de réponse.
 deck-config-compute-optimal-weights-tooltip2 =
     Lorsque vous cliquez sur le bouton Optimiser, FSRS analysera votre historique de révision et générera des paramètres qui sont 
@@ -383,7 +383,14 @@ deck-config-desired-retention-below-optimal = Votre taux de rétention souhaité
 
 deck-config-bury-siblings = Enfouir les cartes sœurs
 deck-config-do-not-bury = Ne pas enfouir les cartes sœurs
+deck-config-bury-if-new = Enfouir si nouveau
 deck-config-bury-tooltip = Dans quelle mesure les autres cartes liées à la même note (par ex. cartes inversées, mots de textes à trous adjacents) doivent être retardées jusqu'au lendemain.
+deck-config-seconds-to-show-question-tooltip = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
+deck-config-answer-action-tooltip = L'action à réaliser sur la carte actuelle avant de continuer automatiquement vers la prochaine.
+deck-config-wait-for-audio-tooltip = Attendre la fin de l'audio avant de révéler automatiquement la réponse ou la prochaine question
+deck-config-ignore-before-tooltip =
+    Si cette option est activée, les révisions antérieures à la date indiquée seront ignorées lors de l'optimisation et de l'évaluation des paramètres FSRS.
+    Cela peut être utile si vous avez importé les données de planification de quelqu'un d'autre ou si vous avez changé la façon dont vous utilisez les boutons de réponse.
 deck-config-compute-optimal-retention-tooltip = Cet outil part du principe que vous démarrez avec 0 cartes, et va essayer de calculer la quantité de contenu que vous serez capable de retenir dans la période de temps donnée. La rétention estimée dépendra largement de vos entrées, et si elle diffère trop de 0,9 , c'est un signe que le temps que vous avez alloué chaque jour est soit trop faible soit trop élevé par rapport au nombre de cartes que vous essayez d'apprendre. Ce nombre peut servir de référence, mais il n'est pas recommandé de le copier dans le champ concernant la rétention souhaitée.
 deck-config-compute-optimal-retention = Calculer la rétention minimum recommandée
 deck-config-predicted-optimal-retention = Rétention minimum recommandée: { $num }
@@ -396,3 +403,4 @@ deck-config-compute-optimal-retention-tooltip2 =
     Cet outil suppose que vous commencez avec 0 cartes apprises et tentera de trouver la valeur de rétention souhaitée qui vous permettra d'apprendre le plus de contenu possible en un minimum de temps.
     Ce nombre peut servir de référence lorsque vous décidez comment fixer votre rétention souhaitée.
     Vous pouvez très bien choisir une plus grande rétention souhaitée, si vous êtes prêt à travailler plus longtemps pour un meilleur taux de rétention. Choisir un taux de rétention plus bas que l'optimum n'est pas recommandé, car cela risque de mener à plus de travail sans aucun bénéfice en retour.
+deck-config-seconds-to-show-question-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.

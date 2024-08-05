@@ -13,6 +13,7 @@ preferences-media-is-not-backed-up = Le média n'est pas synchronisé. Veuillez 
 preferences-on-next-sync-force-changes-in = À la prochaine synchronisation, forcer les changements dans une direction.
 preferences-paste-clipboard-images-as-png = Coller les images du presse-papier en PNG.
 preferences-paste-without-shift-key-strips-formatting = Coller sans maintenir la touche Maj retire le formatage
+preferences-generate-latex-images-automatically = Générer des images LaTeX (risque de sécurité)
 preferences-latex-generation-disabled = La création d'images LaTeX est désactivée dans les préférences.
 preferences-periodically-sync-media = Synchroniser périodiquement les médias
 preferences-please-restart-anki-to-complete-language = Veuillez redémarrer Anki pour finaliser le changement de langue.
@@ -63,6 +64,7 @@ preferences-review = Révision
 preferences-answer-keys = Touches de réponse
 preferences-distractions = Distractions
 preferences-minimalist-mode = Mode minimaliste
+preferences-minimalist-mode-tooltip = Rendre cette interface plus compacte/moins sophistiquée
 preferences-editing = Modification
 preferences-browsing = Parcourir
 preferences-default-deck = Deck par défaut
@@ -79,4 +81,5 @@ preferences-shortcut-placeholder = Entrer un raccourci clavier non utilisé, ou 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Basique
+preferences-reviewer = Réviseur
 preferences-media = Médias
