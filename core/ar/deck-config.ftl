@@ -240,6 +240,8 @@ deck-config-question-action-show-reminder = إظهار تذكير
 deck-config-question-action = إجراء السؤال
 deck-config-question-action-tool-tip = الوظيفة المنفذة بعد كشف السؤال ونفاذ الوقت.
 deck-config-answer-action = إجراء الإجابة
+deck-config-answer-action-tooltip-2 = الإجراء المنفذ بعد كشف السؤال ونفاذ الوقت.
+deck-config-wait-for-audio-tooltip-2 = انتظر انتهاء الصوتيات قبل تطبيق إجراء السؤال أو الجواب تلقائيًا.
 
 ## Audio section
 
@@ -404,6 +406,9 @@ deck-config-reschedule-cards-on-change-tooltip =
 deck-config-reschedule-cards-warning =
     اعتمادًا على معدل التذكر المرغوب فيه، يمكن أن يؤدي ذلك إلى
     استحقاق عدد كبير من البطاقات، لذلك لا يوصى به عند التبديل لأول مرة من SM2
+deck-config-ignore-before-tooltip-2 =
+    إذا ضبطت هذا، سيتم تجاهل المراجعات قبل التاريخ المحدد عند تحسين عوامل FSRS.
+    هذا مفيد عندما تكون قد استوردت بيانات مراجعة شخص آخر، أو غيرت طريقة استخدامك لأزرار الإجابة.
 deck-config-compute-optimal-weights-tooltip2 =
     عندما تضغط على زر تحسين، تحلل خوارزمية FSRS سجل مراجعاتك، وتولد عوامل
     معززة حسب ذاكرتك والمحتوى الذي تدرسه. إذا كانت رزمك تختلف بشكل كبير بالصعوبة،
@@ -463,6 +468,7 @@ deck-config-bury-tooltip =
     يسمح لك هذا الخيار باختيار أنواع البطاقات التي ستُدفن عندما تراجع واحدة من شقيقاتها.
     
     عند استخدام مجدول V3، يمكن أيضا دفن بطاقات التعلم ذات خطوات تتجاوز اليوم الواحد.
+deck-config-seconds-to-show-question-tooltip = عدد الثواني المنتظرة قبل إظهار الجواب عندما يكون التقديم التلقائي مفعلًا. أدخل 0 للتعطيل.
 deck-config-answer-action-tooltip = الوظيفة المنفذة على البطاقة الحالية قبل الانتقال للبطاقة التالية تلقائيًا.
 deck-config-wait-for-audio-tooltip = انتظر انتهاء الصوتيات قبل كشف الجواب أو السؤال التالي تلقائيًا
 deck-config-ignore-before-tooltip =
