@@ -232,7 +232,7 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = عدد ثواني ظهور السؤال
-deck-config-seconds-to-show-question-tooltip-2 = عندما يكون التقديم التلقائي مفعلًا، يحدد هذا عدد الثواني قبل إظهار الجواب. أدخل 0 للتعطيل.
+deck-config-seconds-to-show-question-tooltip-3 = عدد الثواني المنتظرة قبل تطبيق إجراء السؤال عندما يكون التقديم التلقائي مفعلًا. أدخل 0 للتعطيل.
 deck-config-seconds-to-show-answer = عدد الثواني ظهور الجواب
 deck-config-seconds-to-show-answer-tooltip-2 = عندما يكون التقديم التلقائي مفعلًا، يحدد هذا عدد الثواني قبل تطبيق إجراء الجواب. أدخل 0 للتعطيل.
 deck-config-question-action-show-answer = إظهار الجواب
@@ -240,8 +240,6 @@ deck-config-question-action-show-reminder = إظهار تذكير
 deck-config-question-action = إجراء السؤال
 deck-config-question-action-tool-tip = الوظيفة المنفذة بعد كشف السؤال ونفاذ الوقت.
 deck-config-answer-action = إجراء الإجابة
-deck-config-answer-action-tooltip = الوظيفة المنفذة على البطاقة الحالية قبل الانتقال للبطاقة التالية تلقائيًا.
-deck-config-wait-for-audio-tooltip = انتظر انتهاء الصوتيات قبل كشف الجواب أو السؤال التالي تلقائيًا
 
 ## Audio section
 
@@ -406,9 +404,6 @@ deck-config-reschedule-cards-on-change-tooltip =
 deck-config-reschedule-cards-warning =
     اعتمادًا على معدل التذكر المرغوب فيه، يمكن أن يؤدي ذلك إلى
     استحقاق عدد كبير من البطاقات، لذلك لا يوصى به عند التبديل لأول مرة من SM2
-deck-config-ignore-before-tooltip =
-    إذا ضبطت هذا، سيتم تجاهل المراجعات قبل التاريخ المحدد عند تحسين عوامل FSRS وتقييمها.
-    هذا مفيد عندما تكون قد استوردت بيانات مراجعة شخص آخر، أو غيرت طريقة استخدامك لأزرار الإجابة.
 deck-config-compute-optimal-weights-tooltip2 =
     عندما تضغط على زر تحسين، تحلل خوارزمية FSRS سجل مراجعاتك، وتولد عوامل
     معززة حسب ذاكرتك والمحتوى الذي تدرسه. إذا كانت رزمك تختلف بشكل كبير بالصعوبة،
@@ -468,6 +463,11 @@ deck-config-bury-tooltip =
     يسمح لك هذا الخيار باختيار أنواع البطاقات التي ستُدفن عندما تراجع واحدة من شقيقاتها.
     
     عند استخدام مجدول V3، يمكن أيضا دفن بطاقات التعلم ذات خطوات تتجاوز اليوم الواحد.
+deck-config-answer-action-tooltip = الوظيفة المنفذة على البطاقة الحالية قبل الانتقال للبطاقة التالية تلقائيًا.
+deck-config-wait-for-audio-tooltip = انتظر انتهاء الصوتيات قبل كشف الجواب أو السؤال التالي تلقائيًا
+deck-config-ignore-before-tooltip =
+    إذا ضبطت هذا، سيتم تجاهل المراجعات قبل التاريخ المحدد عند تحسين عوامل FSRS وتقييمها.
+    هذا مفيد عندما تكون قد استوردت بيانات مراجعة شخص آخر، أو غيرت طريقة استخدامك لأزرار الإجابة.
 deck-config-compute-optimal-retention-tooltip =
     تفترض هذه الأداة أنك تبدأ بـ 0 بطاقة، وستحاول حساب كمية المادة التي ستتمكن من تذكرها في 
     الإطار الزمني المحدد. سيعتمد معدل التذكر المقدر بشكل كبير على تقييم بطاقاتك، وإذا كان يختلف 
@@ -502,3 +502,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     يمكن استخدام هذا الرقم كمرجع عند ضبط قيمة التذكر المرغوب فيه الخاصة بك.
     قد ترغب باستخدام قيمة أكبر إذا كنت تريد ضمان تذكر أفضل على حساب وقت دراسة أطول.
     لا ينصح باستخدام قيمة أصغر من القيمة المستحسنة لأن هذا سيؤدي إلى جهد أكبر بدون عائد.
+deck-config-seconds-to-show-question-tooltip-2 = عندما يكون التقديم التلقائي مفعلًا، يحدد هذا عدد الثواني قبل إظهار الجواب. أدخل 0 للتعطيل.
