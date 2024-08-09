@@ -1,0 +1,47 @@
+preferences-automatically-sync-on-profile-openclose = סינכראָנירן אויטאָמאַטיש בעתן עפֿענען/צומאַכן פּראָפֿיל
+preferences-backups = רעזערוו-קאָפּיעס
+preferences-change-deck-depending-on-note-type = בײַטן טעשל לויט מין נאָטיץ
+preferences-changes-will-take-effect-when-you = ס׳וועלן ווערט גילטיק די בײַטן בײַם אָנהייבן ANKI אויף ס׳נײַ
+preferences-hours-past-midnight = שעהען נאָך האַלבע נאַכט
+preferences-language = שפּראַך
+preferences-interrupt-current-audio-when-answering = איבעררײַסן גייי‎ִקע קלאַנג בעתן ענטפֿערן
+preferences-learn-ahead-limit = גרענעץ פֿון זיך לערנען אין פֿאָראויס
+preferences-mins = מינוטן
+preferences-network = סיכראָניזירן
+preferences-next-day-starts-at = דער אַנדער טאָג הייבט זיך אָן
+preferences-media-is-not-backed-up = מ׳האָט קיין רעזערוו-קאָפּיע פֿון מעדיע נישט געמאַכט. מאַך פּעריאָדיש אַ רעזערוו-קאָפּיע פֿון די ANKI פּאַפּקע אויף יעדן פֿאַל.
+preferences-on-next-sync-force-changes-in = אויפֿן קומעדיקן סינכראָניזירן, צווינגן בײַטן אין איין ריכטונג
+preferences-paste-clipboard-images-as-png = אַרײַנקלעפּן בילדער פֿון קלעמברעטל ווי PNG
+preferences-paste-without-shift-key-strips-formatting = קלעפּ אָן ״שיפֿט״ קנעפּל נעמט צו די צורה
+preferences-generate-latex-images-automatically = אַרויסגעבן LaTeX בילדער (זיכערהייט סכּנה)
+preferences-latex-generation-disabled = אַרויסגעבן LaTeX בילדער איז נישט-געניצט געהאַכט אין די פּרעפֿערענצן
+preferences-periodically-sync-media = סינכראָניזירן מעדיע פּעריאָדיש
+preferences-please-restart-anki-to-complete-language = כּדי צו באַווירן שפּראַכבײַט, עפֿען ANKI אויף ס׳נײַ.
+preferences-preferences = פּרעפֿערענצן
+preferences-scheduling = פּלאַנירונג
+preferences-spacebar-rates-card = שפּײַצער (אָדער אַרײַנ-קלאַוויש) ענטפֿערט אויך דאָס קאַרטל
+preferences-show-remaining-card-count = ווײַזן חשבון פֿון געבליבענע קאַרטלעך
+preferences-tab-synchronisation = סינכראָניזאַציע
+preferences-default-search-text = עצם זוכטעקסט
+preferences-default-search-text-example = למשל, 'deck:current' ("טעשל: גײיִק")
+preferences-theme-light = ליכטיק
+preferences-theme-dark = טונקל
+preferences-v3-scheduler = V3 פּלאַנירער
+preferences-backup-explanation = פּעריאָדיש מאַכט ANKI אַ רעזערוו-קאָפּיע פֿון דײַן זאַמלונג. נאָך רעזערוו-קאָפּיעס ווערן אַלט מער פֿון 2 טעג, ANKI וועט אָנהייבן צוצונעמען טייל כּדי אָפּפֿרײַען אָרט אויפֿן דיסק.
+preferences-daily-backups = טעגלעכע רעזערוו-קאָפּיעס וועס צו האַלטן:
+preferences-weekly-backups = וואָכיקע רעזערוו-קאָפּיעס וועס צו האַלטן:
+preferences-monthly-backups = חודשלעכע רעזערוו-קאָפּיעס וועס צו האַלטן:
+preferences-minutes-between-backups = מינוטן צווישן אויטאָמאַטישע רעזערוו-קאָפּיעס
+preferences-always = תּמיד
+preferences-full-screen-only = נאָר פֿולער-עקראַן
+preferences-appearance = אויסזען
+preferences-general = אַלגעמיין
+preferences-style = שטייגער
+preferences-review = איבער׳חזר׳ן
+preferences-browsing = בלעטערן
+preferences-default-deck = עצם-טעשל
+preferences-note = נאָטיץ
+preferences-scheduler = פּלאַנירער
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
