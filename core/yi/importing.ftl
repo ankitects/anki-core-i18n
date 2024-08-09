@@ -7,7 +7,7 @@ importing-anki-files-are-from-a-very = ".anki" טעקעס זענען פֿון מ
 importing-anki2-files-are-not-directly-importable = .anki2 טעקעס קען מען זיי נישט גלײַך אַרײַנפֿירן - אַנשטאָט, פֿיר אַרײַן די געקריגנע .apkg אָדער .zip טעקע.
 importing-appeared-twice-in-file = צוויי מאָל זיך געפֿונען אין טעקע: { $val }
 importing-by-default-anki-will-detect-the = דורך פֿעליקייט דערקענט אַנקי דעם אות צווישן פֿעדלער, למשל טאַבקלאַוויש, קאָמע, אא״וו. ווען אַנקי דערקענט אים נישט ריכטיק, קען מען אים אַרײַנלייגן דאָ. מע באַטײַט טאַבקלאַוויש מיט "t/".
-importing-cannot-merge-notetypes-of-different-kinds = ״קלאָז״ מין נאָטיצן קען מע נישט צונויפֿגיסן מיט סתּם מין נאָטיצן. די טעקע אָבער קען מען נאָך אַלץ אַרײַנפֿירן בײַם דעאַקטיווירן '{ importing-merge-notetypes }' .
+importing-cannot-merge-notetypes-of-different-kinds = שפּאַלט (׳קלאָז׳) מין נאָטיצן קען מע נישט צונויפֿגיסן מיט סתּם מין נאָטיצן. די טעקע אָבער קען מען נאָך אַלץ אַרײַנפֿירן בײַם דעאַקטיווירן '{ importing-merge-notetypes }' .
 importing-change = בײַטן
 importing-colon = צווייפּינטל
 importing-comma = קאָמע
@@ -32,7 +32,7 @@ importing-map-to-tags = צונויפֿפּאָרן מיט צעטלען
 importing-mapped-to = צונויפֿגעפּאָרט מיט <b>{ $val }</b>
 importing-mapped-to-tags = צונויפֿגעפּאָרט מיט <b>צעטלען</b>
 # the action of combining two existing notetypes to create a new one
-importing-merge-notetypes = צונויפֿגיסן מינים נאָטיצן
+importing-merge-notetypes = צונויפֿגיסן מיני נאָטיצן
 importing-mnemosyne-20-deck-db = טעשל מיט Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = מחיצות מוזן באַשטיין אין נאָר איין אות
 importing-notes-added-from-file = נאָטיצן צוגעשטעלט פֿון טעקע: { $val }
