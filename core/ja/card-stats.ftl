@@ -1,4 +1,4 @@
-card-stats-added = 作成日
+card-stats-added = カード作成日
 card-stats-first-review = 最初の学習日
 card-stats-latest-review = 直近の学習日
 card-stats-interval = 間隔
