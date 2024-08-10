@@ -11,8 +11,8 @@ notetypes-back-extra-field = 背面额外
 ## Default note type names
 
 notetypes-basic-name = 问答题
-notetypes-basic-reversed-name = 问答题（同时生成翻转的卡片）
-notetypes-basic-optional-reversed-name = 问答题（同时生成翻转的卡片<可选>）
+notetypes-basic-reversed-name = 问答题（附翻转卡片）
+notetypes-basic-optional-reversed-name = 问答题（可选附翻转卡片）
 notetypes-basic-type-answer-name = 问答题（输入答案）
 notetypes-cloze-name = 填空题
 

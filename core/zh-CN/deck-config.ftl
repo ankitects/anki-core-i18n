@@ -21,18 +21,18 @@ deck-config-limit-deck-v3 =
     从各个子牌组中抽取的卡片上限为各个子牌组自身所设置的上限。
     而可抽取的卡片总数为父牌组自身所设置的上限。
 deck-config-limit-new-bound-by-reviews =
-    复习卡片上限会影响新卡片上限。
+    复习上限会影响新卡片上限。
     例如复习上限设为 200，尚有 190 张卡片待复习，则至多可展示 10 张新卡片。
     而若已达复习上限，则不再展示新卡片。
 deck-config-limit-interday-bound-by-reviews =
-    复习上限同样会作用于跨日学习的卡片。
+    该上限不适用于当日（重新）学习的卡片。
     当应用复习上限时，将按「跨日学习卡片->复习卡片->新卡片」顺序展示。
 deck-config-tab-description =
     -「预设配置」：上限共同适用于所有使用此预设配置的牌组。
     -「当前牌组」：上限仅适用于当前牌组。
     -「仅限今天」：上限仅为暂时应用于当前牌组。
-deck-config-new-cards-ignore-review-limit = 新卡片不受复习卡片上限影响
-deck-config-new-cards-ignore-review-limit-tooltip = 默认情况下，复习卡片的上限适用于新卡片，当复习卡片已经达到上限时将不会出现新卡片。如果启用该选项，则新卡片的出现不受复习卡片上限的限制。
+deck-config-new-cards-ignore-review-limit = 新卡片不受复习上限影响
+deck-config-new-cards-ignore-review-limit-tooltip = 默认情况下，复习上限适用于新卡片，当复习已经达到上限时将不会出现新卡片。如果启用该选项，则新卡片的出现不受复习上限的限制。
 deck-config-apply-all-parent-limits = 使用顶层牌组的上限
 deck-config-apply-all-parent-limits-tooltip = 默认情况下，上限使用您选取的牌组的设置。如果启用该选项，上限将使用顶层牌组的设置。该选项可以用于您希望学习单独的子牌组，同时又确保不超过每日总卡片上限的情况。
 deck-config-affects-entire-collection = 该设置将影响整个集合。
@@ -309,7 +309,7 @@ deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
 deck-config-fsrs-tooltip =
     此设置影响整个集合。
     
-    自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2(SM2) 排程算法的替代。
+    自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2 (SM-2) 排程算法的替代。
     通过更准确地确定您何时可能忘记，它可以帮助您在相同时间内记住更多的内容。
     此设置影响所有牌组的预设配置。
     
@@ -337,7 +337,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     默认不会对卡片进行重新排程：未来的复习将会使用新的排程，但您的工作量不会有即刻的改变。
     如果重新排程被启用，卡片的到期时间将被更改。
 deck-config-reschedule-cards-warning =
-    根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM2 切换时不推荐开启该选项。
+    根据您设置的期望记忆保留率，这可能会导致大量卡片到期。因此首次从 SM-2 切换时不推荐开启该选项。
     
     请节制地使用该选项，因为启用该选项会为每一张卡片添加一条复习记录，并增加您集合的的大小。
 deck-config-ignore-before-tooltip-2 =
