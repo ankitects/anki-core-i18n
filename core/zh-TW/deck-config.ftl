@@ -39,7 +39,7 @@ deck-config-today-only = 僅限今天
 deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 延遲時間通常使用分鐘（如 `5m`）或天（如 `2d`），但也支援小時（如 `1h`）和秒（如 `30s`）。
-deck-config-learning-steps-tooltip = 一或多段時長，用空格分隔。第一段時長是新卡片的 `重來` 按鈕延遲，預設值為 1 分鐘。每按一次 `良好` 按鈕將使卡片前進到下一階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將在未來出現。{ -deck-config-delay-hint }
+deck-config-learning-steps-tooltip = 一或多段時長，用空格分隔。第一段時長是新卡片的 `重來` 按鈕延遲，預設值為 1 分鐘。按下 `良好` 按鈕將使卡片前進到下一階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將在未來出現。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 按下 `良好` 按鈕完成最後一個學習階段後，卡片再次顯示前需等待的天數。
 deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過「學習中」狀態後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
@@ -81,9 +81,9 @@ deck-config-new-gather-priority = 新卡片收集順序
 deck-config-new-gather-priority-tooltip-2 =
     `牌組順序`：依牌組順序，由上至下收集卡片。依照遞增順序收集各個牌組中的卡片。若選取的牌組已達每日上限，收集卡片時可能不會檢查到部分牌組。此選項在較大的集合中速度最快，並讓你能夠優先學習順序靠上的子牌組。
     
-    `遞增順序`：依遞增順序收集卡片（到期 #），通常依新增順序從早到晚排序。
+    `遞增順序`：依遞增順序（到期序號 #）收集卡片，通常依新增順序從早到晚排序。
     
-    `遞減順序`：依遞減順序收集卡片（到期 #），通常依新增順序從晚到早排序。
+    `遞減順序`：依遞減順序（到期序號 #）收集卡片，通常依新增順序從晚到早排序。
     
     `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現（如「正面→背面」和「背面→正面」兩張卡片同時出現）
     
