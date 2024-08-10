@@ -5,7 +5,7 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks = { $decks } 個牌組正在使用
+deck-config-used-by-decks = 用於 { $decks } 個牌組
 deck-config-default-name = 預設
 deck-config-title = 牌組選項
 
@@ -65,9 +65,9 @@ deck-config-bury-title = 暫停
 deck-config-bury-new-siblings = 暫停關聯的新卡片
 deck-config-bury-review-siblings = 暫停關聯的複習卡
 deck-config-bury-interday-learning-siblings = 暫停關聯的跨天學習卡片
-deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他`新卡片`（如反向卡片、相鄰的克漏字空格）到第二天。
-deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他`複習卡`到第二天。
-deck-config-bury-interday-learning-tooltip = 啟用後，推遲同一則筆記中其他正在`學習中`且學習間隔大於 1 天的卡片到第二天。
+deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他 `新卡片`（如反向卡片、同一篇克漏字的其他空格）到第二天。
+deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他 `複習卡` 到第二天。
+deck-config-bury-interday-learning-tooltip = 啟用後，推遲同一則筆記中其他正在 `學習中` 且學習間隔大於 1 天的卡片到第二天。
 deck-config-bury-priority-tooltip =
     Anki 收集卡片的順序為當天學習卡片→跨天學習卡片→複習卡→新卡片。這個順序影響卡片暫停的機制：
     
@@ -96,11 +96,11 @@ deck-config-new-gather-priority-random-notes = 隨機筆記
 deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip-2 =
-    `卡片類型`：按卡片類型的序號順序來顯示卡片。當停用暫停關聯卡片時，此選項將讓任何「正面→背面」卡片在「背面→正面」之前顯示。若你要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開顯示關聯卡片之間的間隔。
+    `卡片類型`：依卡片類型的序號順序來顯示卡片。當停用暫停關聯卡片時，所有「正面→背面」卡片都會在所有「背面→正面」卡片之前顯示。若要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片間的距離。
     
-    `收集順序`：按照收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
+    `收集順序`：依收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
     
-    `卡片類型→隨機`：與 `卡片類型` 類似，但會在卡片類型序號相同的卡片之間隨機排序。當使用 `遞增順序` 按建立時間從早到晚的順序收集卡片時，此選項可以隨機顯示這些卡片，同時同一則筆記的不同卡片的顯示順序也不會太接近。
+    `卡片類型→隨機`：與 `卡片類型` 類似，但會在卡片類型序號相同的卡片之間隨機排序。若你把卡片收集順序設定為 `遞增順序` 來收集較舊的卡片，此選項可以打亂這些卡片的順序，同時同一則筆記的各卡片間的距離也不會太接近。
     
     `隨機筆記→卡片類型`：隨機挑選筆記，然後順序顯示所有關聯卡片。
     
@@ -188,7 +188,7 @@ deck-config-clone-group = 複製預設組
 ## Removing
 
 deck-config-remove-group = 移除預設組
-deck-config-will-require-full-sync = 此更動將需要單向同步。若你在其他裝置上做出的更動尚未同步至此裝置，請先同步後再繼續。
+deck-config-will-require-full-sync = 此更動將需要單向同步。若你在其他裝置上做出更動後尚未同步至此裝置，請先同步後再繼續。
 deck-config-confirm-remove-name = 要移除「{ $name }」嗎？
 
 ## Other Buttons
@@ -255,7 +255,7 @@ deck-config-fsrs-tooltip =
     你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM-2) 排程器。FSRS 可以更精確地預估你遺忘的時機，讓你記住更多內容的同時無需多花時間。所有牌組預設組共用此設定。
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
-deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片將被排程到你記得卡片的機率為 90% 時進行下一次複習。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，你將遺忘更多卡片。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
+deck-config-desired-retention-tooltip = Anki 會估算你能夠記得卡片內容的機率，即「留存率」。使用預設值 0.9 時，複習卡會在其留存率為 90% 時出現。若增加該值，則卡片出現的頻率將增加，從而提高卡片的留存率。若減少該值，則卡片出現的頻率將減少，留存率也會下降。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
 deck-config-historical-retention-tooltip =
     如果你的複習歷程有部分遺失，FSRS 需要補齊這些部分。根據預設，FSRS 將假設你在記憶留存率為 90% 時做出了這些複習。若你先前的留存率與 90% 相差過多，則可透過調整該選項來使 FSRS 更接近遺失的複習歷程。
     
@@ -325,5 +325,5 @@ deck-config-compute-optimal-weights-tooltip =
     
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。你可以在計算參數前調整搜尋條件，更改要用來最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值只會增加你的工作量而沒有好處，因此不建議設定過低。
-deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。為了準確模擬學習過程，此功能需要至少 400+ 次複習。設定期望留存率時可參考計算出的數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值會導致遺忘率過高，從而加大你的工作量，因此不建議設定過低。
+deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。為了準確模擬學習過程，此功能需要至少 400 次複習。設定期望留存率時可參考計算出的數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值會導致遺忘率過高，從而加大你的工作量，因此不建議設定過低。
 deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
