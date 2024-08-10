@@ -16,12 +16,12 @@ deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
 deck-config-limit-deck-v3 = 當學習中的牌組具有下層牌組時，在每一個下層牌組中抽取的卡片數量上限取決於相應牌組設定的上限。選取學習的牌組的上限決定所有卡片顯示的數量上限。
 deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
-deck-config-limit-interday-bound-by-reviews = 複習上限也會影響跨天學習卡片。套用上限時，隔天學習卡片會被優先擷取，再算入複習卡。
+deck-config-limit-interday-bound-by-reviews = 複習上限也會影響跨天學習卡片。套用上限時，跨天學習卡片會被優先擷取，再算入複習卡。
 deck-config-tab-description =
     - `預設組`：所有使用此預設組的牌組的上限。
     - `當前牌組`：當前牌組的上限。
     - `僅限今天`：暫時更改當前牌組的的上限。
-deck-config-new-cards-ignore-review-limit = 新卡片不受上限影響
+deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
 deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，複習上限會影響新卡片，因此當複習卡數量達到上限時，則不會再顯示新卡片。啟用「新卡片不受複習上限影響」時，則複習上限不會影響顯示新卡片。
 deck-config-apply-all-parent-limits = 取上層牌組上限
 deck-config-apply-all-parent-limits-tooltip = 根據預設，上限值會採取你選取的牌組所設定的上限。啟用此選項後，上限會從上層牌組開始計算，這樣可確保你在學習一個牌組下的多個子牌組時不超過總上限。
@@ -252,7 +252,7 @@ deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
 deck-config-fsrs-tooltip =
     影響整個集合。
     
-    你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM2) 排程器。FSRS 可以更精確地預估你遺忘的時機，讓你記住更多內容的同時無需多花時間。所有牌組預設組共用此設定。
+    你可以使用 FSRS（自由間隔重複排程器）來取代 Anki 原有的 SuperMemo 2 (SM-2) 排程器。FSRS 可以更精確地預估你遺忘的時機，讓你記住更多內容的同時無需多花時間。所有牌組預設組共用此設定。
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
 deck-config-desired-retention-tooltip = 使用預設值 0.9 時，卡片將被排程到你記得卡片的機率為 90% 時進行下一次複習。若增加該值，則卡片出現的頻率將增加，以提高你能回想起卡片內容的機率。若減少該值，則卡片出現的頻率將減少，你將遺忘更多卡片。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
@@ -270,7 +270,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     此選項控制是否要在啟用 FSRS 或最佳化參數的同時更改卡片到期日期。預設不會重新排程卡片：未來的複習會使用新的排程設定，但不會立即對你已有的複習作出更動。若啟用了重新排程，則卡片的到期日期將被更改。
 deck-config-reschedule-cards-warning =
-    根據你的期望留存率，這可能導致大量卡片到期，因此第一次從 FSRS 切換到 SM2 時不建議使用。
+    根據你的期望留存率，這可能導致大量卡片到期，因此第一次從 FSRS 切換到 SM-2 時不建議使用。
     
     使用此選項會對每張卡片都加入一條複習記錄，使集合佔用更多空間，因此請勿過度使用。
 deck-config-ignore-before-tooltip-2 = 設定後，最佳化 FSRS 參數時將無視在所選日期前做出複習的卡片。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
