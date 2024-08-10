@@ -160,7 +160,7 @@ deck-config-wait-for-audio-tooltip-2 = 等待音訊播放結束後再自動套�
 ## Audio section
 
 deck-config-audio-title = 音訊
-deck-config-disable-autoplay = 不要自動播放音訊
+deck-config-disable-autoplay = 關閉音訊自動播放
 deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕或使用「重播」動作來手動播放。
 deck-config-skip-question-when-replaying = 重播答案時跳過問題
 deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行「重播音訊」動作時，將不會同時播放問題面上的音訊。
