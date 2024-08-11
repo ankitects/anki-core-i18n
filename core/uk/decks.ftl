@@ -27,7 +27,7 @@ decks-random = Довільний порядок
 decks-relative-overdueness = Відносне прострочення
 decks-repeat-failed-cards-after = Потім повторіть забуті картки
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = Затримка для { $button }
+decks-delay-for-button = Відстрочити відповідь { $button } на
 decks-reschedule-cards-based-on-my-answers = Змінити розклад карток, спираючись на мої відповіді у цій колоді
 decks-study = Вчити
 decks-study-deck = Вчити колоду

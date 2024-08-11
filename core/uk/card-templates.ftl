@@ -1,5 +1,5 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
-card-templates-blank = порожнеча
+card-templates-blank = пропущено
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Наступні зміни вплинуть на { $count } нотатку, який використовує цей тип картки.
@@ -14,7 +14,7 @@ card-templates-front-preview = Попередній перегляд перед�
 card-templates-back-preview = Попередній перегляд зворотної сторони
 card-templates-preview-box = Попередній перегляд
 card-templates-template-box = Шаблон
-card-templates-sample-cloze = Ось { "{{c1::" } зразок { "}}" } завдання з пропусками.
+card-templates-sample-cloze = Ось { "{{c1::" } зразок { "}}" } закритого тексту.
 card-templates-fill-empty = Заповніть пусті поля
 card-templates-night-mode = Нічний режим
 # Add "mobile" class to card preview, so the card appears like it would
@@ -24,8 +24,8 @@ card-templates-preview-settings = Налаштування
 card-templates-invalid-template-number = Проблема з шаблоном картки { $number }  у типі нотаток '{ $notetype }'.
 card-templates-identical-front = Передня сторона ідентична до шаблону картки { $number }.
 card-templates-no-front-field = На передній стороні шаблону картки повинне бути поле для заміни.
-card-templates-missing-cloze = На обох сторонах шаблону картки повинне бути '{ "{{" }cloze:Text{ "}}" }' або подібне поле.
-card-templates-extraneous-cloze = 'cloze:' може використовуватися лише для типів карток з пропусками.
+card-templates-missing-cloze = На обох сторонах шаблону картки повинен бути '{ "{{" }cloze:Text{ "}}" }' або подібне поле.
+card-templates-extraneous-cloze = 'cloze:' може використовуватися лише для нотаток з закритим текстом.
 card-templates-see-preview = Щоб отримати більше інформації подивіться на попередній перегляд.
 card-templates-field-not-found = Не знайдено поля '{ $field }'.
 card-templates-changes-saved = Зміни збережено.
@@ -36,7 +36,7 @@ card-templates-at-least-one-card-type-is = Необхідно вказати п�
 card-templates-browser-appearance = Вигляд переглядача…
 card-templates-card = Картка { $val }
 card-templates-card-types-for = Типи картки для { $val }
-card-templates-cloze = Картка з пропусками
+card-templates-cloze = Закрито { $val }
 card-templates-deck-override = Заміна колоди…
 card-templates-delete-the-as-card-type-and = Видалити тип картки '{ $template }', та її { $cards }?
 card-templates-enter-deck-to-place-new = Вкажіть колоду для нових { $val } карток або залиште порожнім:

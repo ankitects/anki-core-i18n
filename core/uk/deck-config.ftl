@@ -118,7 +118,7 @@ deck-config-bury-new-siblings = Відкладати нові сестринсь
 deck-config-bury-review-siblings = Відкладати пригадувальні сестринські картки
 deck-config-bury-interday-learning-siblings = Приховувати сестринські картки, які вивчаються в різні дні
 deck-config-bury-new-tooltip =
-    Чи `нові` картки тієї ж самої нотатки (напр. обернені картки чи картки з пропусками)
+    Чи `нові` картки тієї ж самої нотатки (напр. обернені чи картки з закритим текстом)
     буде затримано до наступного дня.
 deck-config-bury-review-tooltip = Чи `пригадувальні` картки тієї ж самої нотатки буде затримано до наступного дня.
 deck-config-bury-interday-learning-tooltip =
