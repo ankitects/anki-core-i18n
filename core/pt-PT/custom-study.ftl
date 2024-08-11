@@ -1,3 +1,6 @@
+custom-study-must-rename-deck = Por favor renomeie o baralho de estudo personalizado primeiro.
+custom-study-all-cards-in-random-order-dont = Fichas ordenadas aleatoriamente (não reagendar)
+custom-study-all-review-cards-in-random-order = Todas as fichas por rever ordenadas aleatoriamente
 custom-study-cards = fichas
 custom-study-cards-from-the-deck = fichas do baralho
 custom-study-choose-tags = Escolha etiquetas.
@@ -21,3 +24,11 @@ custom-study-select = Selecionar
 custom-study-select-tags-to-exclude = Seleccione etiquetas para excluir:
 custom-study-selective-study = Estudo Seletivo
 custom-study-study-by-card-state-or-tag = Estudar pelo estado da ficha ou etiqueta
+custom-study-available-new-cards-2 = Novas fichas disponíveis: { $countString }
+custom-study-available-review-cards-2 = Fichas por rever disponíveis: { $countString }
+custom-study-available-child-count = ({ $count } em sub-baralhos)
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+custom-study-available-new-cards = Novas fichas disponíveis: { $countString }
+custom-study-available-review-cards = Fichas por rever disponíveis: { $countString }

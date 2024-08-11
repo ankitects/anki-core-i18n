@@ -11,6 +11,7 @@ card-stats-new-card-position = Posição
 card-stats-card-template = Tipo de ficha
 card-stats-note-type = Tipo de Nota
 card-stats-deck-name = Baralho
+card-stats-preset = Predefinição
 card-stats-note-id = ID nota
 card-stats-card-id = ID da ficha
 card-stats-review-log-rating = Classificação
@@ -22,6 +23,13 @@ card-stats-review-log-type-review = Revisão
 card-stats-review-log-type-relearn = Reaprender
 card-stats-review-log-type-filtered = Filtrado
 card-stats-review-log-type-manual = Manual
+card-stats-no-card = (Sem fichas para mostrar.)
+card-stats-custom-data = Dados Personalizados
+card-stats-fsrs-stability = Estabilidade
+card-stats-fsrs-difficulty = Dificuldade
+card-stats-fsrs-retrievability = Facilidade em Relembrar
 
 ## Window Titles
 
+card-stats-current-card = Ficha Actual ({ $context })
+card-stats-previous-card = Ficha Anterior ({ $context })
