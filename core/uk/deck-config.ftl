@@ -444,24 +444,24 @@ deck-config-compute-optimal-retention-tooltip4 =
 deck-config-please-save-your-changes-first = Будь ласка, спочатку збережіть зміни.
 deck-config-a-100-day-interval =
     { $days ->
-        [one] 100-денний інтервал стане { $days } день.
-        [few] 100-денний інтервал стане { $days } дні.
-       *[many] 100-денний інтервал стане { $days } днів.
+        [one] 100-денний інтервал стане { $days } денним.
+        [few] 100-денний інтервал стане { $days } денним.
+       *[many] 100-денний інтервал стане { $days } дненним.
     }
 deck-config-percent-of-reviews =
     { $reviews ->
-        [one] { $pct }% з { $reviews } перегляду
-        [few] { $pct }% з { $reviews } переглядів
-       *[many] { $pct }% з { $reviews } переглядів
+        [one] { $pct }% з { $reviews } пригадування
+        [few] { $pct }% з { $reviews } пригадувань
+       *[many] { $pct }% з { $reviews } пригадувань
     }
-deck-config-optimizing-preset = Оптимізація налаштування { $current_count }/{ $total_count }...
-deck-config-fsrs-must-be-enabled = Спершу потрібно ввімкнути FSRS.
-deck-config-fsrs-params-optimal = Параметри FSRS наразі здаються оптимальними.
-deck-config-wait-for-audio = Зачекайте аудіо
+deck-config-optimizing-preset = Оптимізація { $current_count } з { $total_count } конфігурацій...
+deck-config-fsrs-must-be-enabled = Спершу слід увімкнути ВПРП.
+deck-config-fsrs-params-optimal = Схоже, що параметри ВПРП є оптимальними.
+deck-config-wait-for-audio = Чекати на кінець аудіо
 deck-config-show-reminder = Показати нагадування
-deck-config-answer-again = Відповісти ще раз
-deck-config-answer-hard = Відповідь важка
-deck-config-answer-good = Відповідь гарна
+deck-config-answer-again = Відповісти знову
+deck-config-answer-hard = Важка відповідь
+deck-config-answer-good = Добра відповідь
 deck-config-days-to-simulate = Дні для моделювання
 deck-config-desired-retention-below-optimal = Значення затримки нижче оптимального. Радимо збільшити.
 
