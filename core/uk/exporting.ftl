@@ -5,16 +5,16 @@ exporting-anki-deck-package = Сторінка колод Anki
 exporting-cards-in-plain-text = Картки з неформатованим текстом
 exporting-collection = колекція
 exporting-collection-exported = Колекцію експортовано.
-exporting-colpkg-too-new = Будь ласка, оновіть Anki до останньої версії, а потім знову імпортуйте файл .colpkg/.apkg.
+exporting-colpkg-too-new = Будь ласка, встановіть останню версію Anki, і ще раз імпортуйте файл .colpkg/.apkg.
 exporting-couldnt-save-file = Не вдалося зберегти файл: { $val }
 exporting-export = Експорт ...
 exporting-export-format = <b>Формат експорту </b>:
-exporting-include = <b>Включити</b>:
-exporting-include-html-and-media-references = Включити HTML і медіа посилання
-exporting-include-media = Включити медіа-файли
-exporting-include-scheduling-information = Включити інформацію про розклад
-exporting-include-deck-configs = Включіть пресети колоди
-exporting-include-tags = Включити мітки
+exporting-include = <b>Експортувати</b>:
+exporting-include-html-and-media-references = З HTML і медіа посилання
+exporting-include-media = З медіа-файлами
+exporting-include-scheduling-information = З плануванням
+exporting-include-deck-configs = З конфігураціями
+exporting-include-tags = З мітками
 exporting-support-older-anki-versions = Підтримувати старіші версії Anki (повільніші/більші файли)
 exporting-notes-in-plain-text = Нотатки у неформатованому тексті
 exporting-selected-notes = Вибрані нотатки
@@ -39,10 +39,10 @@ exporting-note-exported =
 exporting-exporting-file = Експортуємо файл…
 exporting-processed-media-files =
     { $count ->
-        [one] Оброблено { $count } медіафайл...
-        [few] Оброблено { $count } медіафайли...
-       *[many] Оброблено { $count } медіафайлів...
+        [one] Оброблено { $count } медіа-файл...
+        [few] Оброблено { $count } медіа-файли...
+       *[many] Оброблено { $count } медіа-файлів...
     }
-exporting-include-deck = Додайте назву колоди
-exporting-include-notetype = Додайте назву типу нотатки
-exporting-include-guid = Додайте унікальний ідентифікатор
+exporting-include-deck = З назвою колоди
+exporting-include-notetype = З іменем типу нотатки
+exporting-include-guid = З унікальним ідентифікатором

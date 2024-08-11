@@ -1,7 +1,7 @@
 importing-failed-debug-info = Імпортування не вдалося. Інформація для зневаджування:
 importing-aborted = Відхилено: { $val }
 importing-added-duplicate-with-first-field = Додано дублікат з однаковим першим полем: { $val }
-importing-all-supported-formats = Усі підтримувані формати { $val }
+importing-all-supported-formats = Усі формати з підтримкою { $val }
 importing-allow-html-in-fields = Допускається HTML у полях
 importing-anki-files-are-from-a-very = Файли .anki з дуже старої версії Anki. Ви можете імпортувати їх у версії Anki 2.0, яка доступна на сайті.
 importing-anki2-files-are-not-directly-importable = Файли .anki2 напряму не імпортуються — будь ласка, імпортуйте .apkg чи .zip файл який Ви отримали.
@@ -52,7 +52,7 @@ importing-notes-found-in-file = Нотатки знайдені в файлі: {
 importing-notes-skipped-as-theyre-already-in = Нотатки пропущено, оскільки вже є в колекції: { $val }
 importing-notes-skipped-update-due-to-notetype = Нотатки не оновлено, оскільки тип нотаток змінено від часу першого імпорту нотаток: { $val }
 importing-notes-updated-as-file-had-newer = Нотатки оновлено, як файл новішої версії: { $val }
-importing-include-reviews = Включити перегляди
+importing-include-reviews = Включити пригадування
 importing-also-import-progress = Імпорт будь-якого прогресу навчання
 importing-with-deck-configs = Імпорт будь-яких пресетів колоди
 importing-updates = Оновлення

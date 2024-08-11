@@ -6,18 +6,18 @@ errors-100-tags-max =
     бажані мітки, аніж небажані, а також не потрібно вказувати
     дочірні мітки, якщо вже обрано батьківську.
 errors-multiple-notetypes-selected = Виберіть нотатки лише одного типу.
-errors-please-check-database = Скористайтеся функцією «Перевірити базу даних» і повторіть спробу.
-errors-please-check-media = Скористайтеся функцією «Перевірити медіа», а потім повторіть спробу.
-errors-collection-too-new = Для відкриття цієї колекції потрібна новіша версія Anki.
-errors-invalid-ids = Ця колода містить мітки часу в майбутньому. Будь ласка, зв’яжіться з автором колоди та попросіть його вирішити проблему.
-errors-inconsistent-db-state = Схоже, ваша база даних знаходиться в неузгодженому стані. Будь ласка, скористайтеся функциєю "Перевірити базу даних".
+errors-please-check-database = Виконайте дію «Перевірити базу даних» і спробуйте знов.
+errors-please-check-media = Виконайте дію «Перевірити медіа» і спробуйте знов.
+errors-collection-too-new = Щоб відкрити цю колекцію потрібна новіша версія Anki.
+errors-invalid-ids = Ця колода містить майбутні мітки часу. Будь ласка, зв’яжіться з її автором та попросіть виправити помилку.
+errors-inconsistent-db-state = Схоже, ваша база даних є суперечливою. Будь ласка, виконайте дію "Перевірити базу даних".
 
 ## Card Rendering
 
 errors-bad-directive = Помилка в директиві '{ $directive }': { $error }
-errors-option-not-set = '{ $option }' не встановлено
+errors-option-not-set = '{ $option }' не включено
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-errors-invalid-input-empty = Недійсне введення.
+errors-invalid-input-empty = Некоректні дані
 errors-invalid-input-details = Недійсне введення: { $details }
