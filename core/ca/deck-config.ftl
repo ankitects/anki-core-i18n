@@ -210,15 +210,12 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Segons abans de mostrar la pregunta
-deck-config-seconds-to-show-question-tooltip-2 = Nombre de segons abans que es mostri la resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
 deck-config-seconds-to-show-answer = Segons abans de mostrar la resposta
 deck-config-seconds-to-show-answer-tooltip-2 = Nombre de segons abans que s’apliqui l’acció de resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
 deck-config-question-action-show-answer = Mostra la resposta
 deck-config-question-action-show-reminder = Mostra un recordatori
 deck-config-question-action = Acció de pregunta
 deck-config-answer-action = Acció de resposta
-deck-config-answer-action-tooltip = Acció que s'aplicarà a la targeta actual abans que s’avanci automàticament a la següent.
-deck-config-wait-for-audio-tooltip = Espera que l’àudio acabi abans de mostrar la resposta o la pregunta següent
 
 ## Audio section
 
@@ -333,7 +330,7 @@ deck-config-historical-retention = Retenció històrica
 deck-config-smaller-is-better = Uns nombres menors indiquen un millor ajustament al vostre historial de repassos.
 deck-config-steps-too-large-for-fsrs = Quan el FSRS està activat, no és recomanable que feu servir passos d’aprenentatge de més d’un dia.
 deck-config-get-params = Obtén els paràmetres
-deck-config-fsrs-on-all-clients = Assegureu-vos feu servir Anki (o AnkiMobile) 23.10+ o AnkiDroid 2.17+ en tots els vostres dispositius. El FSRS no funcionarà correctament si algun dels clients que feu servir és més antic.
+deck-config-fsrs-on-all-clients = Feu servir Anki(Mobile) 23.10+ o AnkiDroid 2.17+ en tots els vostres dispositius. El FSRS no funcionarà correctament si algun dels clients és més antic.
 deck-config-predicted-minimum-recommended-retention = Retenció recomanada mínima: { $num }
 deck-config-complete = { $num } % completat.
 deck-config-iterations = Iteració: { $count }…
@@ -381,6 +378,9 @@ deck-config-bury-tooltip =
     
     Si feu servir la V3 del planificador, també és possible enterrar les targetes d’aprenentatge entre dies.
     Les targetes d’aprenentatge entre dies tenen un pas d’aprenentatge d’un o més dies.
+deck-config-answer-action-tooltip = Acció que s'aplicarà a la targeta actual abans que s’avanci automàticament a la següent.
+deck-config-wait-for-audio-tooltip = Espera que l’àudio acabi abans de mostrar la resposta o la pregunta següent
 deck-config-compute-optimal-retention = Calcula la retenció òptima
 deck-config-predicted-optimal-retention = Retenció òptima prevista: { $num }
 deck-config-weights-tooltip = Els paràmetres del FSRS afecten la programació de les targetes. Anki començarà amb els paràmetres per defecte. Una vegada hàgiu acumulat més de 1000 repassos, podeu utilitzar aquesta opció per a optimitzar els paràmetres i ajustar millor el vostre rendiment en les baralles que utilitzen aquesta configuració prefixada.
+deck-config-seconds-to-show-question-tooltip-2 = Nombre de segons abans que es mostri la resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
