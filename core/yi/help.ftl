@@ -7,6 +7,7 @@
 help-for-more-info = אויף נאָך פּרטים, גיט אַ קוק אויף { $link } אינעם האַנטביכל.
 # Tooltip for links to the manual
 help-open-manual-chapter = אַויפֿעפֿענען { $name } אינעם האַנטכיבל
+help-ok = גוט
 
 ## Body
 
