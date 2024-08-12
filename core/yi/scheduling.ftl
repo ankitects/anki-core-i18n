@@ -86,7 +86,7 @@ scheduling-custom-study = איבער׳חזר׳ן צוגעפּאַסט
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 האַלט אַ נײַ פּלאַנירער, וואָס פֿאַרריכט עטלעכע ענינים פֿון פּריערדיקע נוסחים. ס׳איז כּדאי אַזוי צו דערהײַנטיקן דערצו.
+scheduling-update-soon = Anki 2.1 האַלט אַ נײַ פּלאַנירער, וואָס פֿאַרריכט עטלעכע ענינים פֿון פּריערדיקע נוסחאָות. ס׳איז כּדאי אַזוי צו דערהײַנטיקן דערצו.
 scheduling-update-done = פּלאַנירער איז דערהײַנטיקט געוואָרן.
 scheduling-update-button = דערהײַנטיקן
 scheduling-update-later-button = שפּעטער
@@ -143,3 +143,30 @@ scheduling-show-new-cards-in-random-order = אַרויסווײַזן נײַע ק
 scheduling-starting-ease = גרונט-גרינגקייט
 scheduling-steps-in-minutes = שטאַפּלען (אין מינוטן)
 scheduling-steps-must-be-numbers = שטאַפּלען מוזן זײַן ציפֿער.
+scheduling-tag-only = נאָר צעטל
+scheduling-the-default-configuration-cant-be-removed = מע קען נישט אויסמעקן דעם עצם-אויסשטעל
+scheduling-your-changes-will-affect-multiple-decks = דײַנע איבערבײַטן גילטן אויף עטלעכע טעשלעך. ווען דו ווילסט בײַטן נאָר דאָס גיייִקע טעשל, קודם שאַף אַ נײַע ברירות-גרופּע.
+scheduling-deck-updated =
+    { $count ->
+        [one] דערהײַנטיקט { $count } טעשל.
+       *[other] דערהײַנטיקט { $count } טעשלעך.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] אויסווײַזן קאַרטלעך נאָך וויפֿל טעג?
+       *[other] אויסווײַזן קאַרטלעך נאָך וויפֿל טעג?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = הײַנט
+    1! = מאָרגן + צופּאַסן צווישנצײַט אין 1
+    3-7 = אויסבלײַבן פֿון 3 ביז -7 טעג אויף טראַף
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] באַשטימען טערמין פֿון { $cards } קאַרטל.
+       *[other] באַשטימען טערמין פֿון { $cards } קאַרטלעך.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] אײַנשטעלן { $cards } קאַרטל אויף ס׳נײַ.
+       *[other] אײַנשטעלן { $cards } קאַרטלעך אויף ס׳נײַ.
+    }
