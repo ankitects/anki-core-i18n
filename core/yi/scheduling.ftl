@@ -17,8 +17,8 @@ scheduling-answer-button-time-years = { $amount }יאָר
 
 scheduling-time-span-seconds =
     { $amount ->
-        [one] { $amount } סעקונד
-       *[other] { $amount } סעקונדען
+        [one] { $amount } סעקונדע
+       *[other] { $amount } סעקונדעס
     }
 scheduling-time-span-minutes =
     { $amount ->
@@ -73,7 +73,7 @@ scheduling-learn-remaining =
        *[other] ס׳בלײַבן { $remaining } לערנענדיקע-קאַרטלעך וואָס קומען טערמיניק שפּעטער הײַנט.
     }
 scheduling-congratulations-finished = יישר-כּוח! האָסט פֿאַרענדיקט דעם טעשל לעת-עתּה.
-scheduling-today-review-limit-reached = האָסט שוין דערגרייכן דעם הײַנטיקן אויס׳חזר׳ן-גרענעץ, כאָטש עס בלײַבן נאָך קאַרלעך אויף אויסצו׳חזר׳ן. כּדי צו אָפּטימיזירן דאָס אויסשטודירן, איז אפֿשר כּדאי צו פֿאַרגרעסערן דעם טעגליכן גרענעץ אין די ״ברירות״.
+scheduling-today-review-limit-reached = האָסט שוין דערגרייכן דעם הײַנטיקן איבער׳חזר׳ן-גרענעץ, כאָטש עס בלײַבן נאָך קאַרלעך אויף איבערצו׳חזר׳ן. כּדי צו אָפּטימיזירן דאָס אויסשטודירן, איז אפֿשר כּדאי צו פֿאַרגרעסערן דעם טעגליכן גרענעץ אין די ״ברירות״.
 scheduling-today-new-limit-reached = ס׳בלײַבן נאָך נײַע קאַרטלעך, כאָטש דו האָסט שוין דערגרייכן דעם טעגלעכן גרענעץ. קענסט פֿאַרגרעסערן דעם גרענעץ אין די ברירות, נאָר היט זיך אַז, וואָס מערער נײַע קאַרטלעך ווערן אײַנגעפֿירט, אַלץ גרעסער וועט ווערן די קורץ-משכדיק אָנלאָדונג.
 scheduling-buried-cards-found = עס זענען דאָ קאַרטלעך וואָס זענען אָפּגעהאַלטן געוואָרן, און וועט מאָרגן ווערן אַרויסגעוויזן. קענסט { $unburyThem } ווען דו ווילסט זיי זען תּיכף-ומיד.
 # used in scheduling-buried-cards-found
@@ -86,6 +86,60 @@ scheduling-custom-study = איבער׳חזר׳ן צוגעפּאַסט
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 האַלט אַ נײַ פּלאַנירער, וואָס פֿאַרריכט עטלעכע ענינים פֿון פּריערדיקע נוסחים. ס׳איז כּדאי אַזוי צו דערהײַנטיקן דערצו.
+scheduling-update-done = פּלאַנירער איז דערהײַנטיקט געוואָרן.
+scheduling-update-button = דערהײַנטיקן
+scheduling-update-later-button = שפּעטער
+scheduling-update-more-info-button = לערן זיך נאָך
+scheduling-update-required =
+    דײַן זאַמלונג דאַרף ווערן דערהײַנטיקט ביז דער V2 פּלאַנירער. 
+    ביטע קלײַב אויס { scheduling-update-more-info-button } פֿאַרן ממשיך זײַן.
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = תּמיד נעמען אַרײַן פֿראַגעזײַט ווען ס׳שפּילט אוידיאָ
+scheduling-at-least-one-step-is-required = ס׳מוז דאָ זײַן כאָטש אין שטאַפּל.
+scheduling-automatically-play-audio = שפּילן אוידיאָ אויטאָמאַטיש
+scheduling-bury-related-new-cards-until-the = אָפּהאַלטן שײַכותדיקע קאַרטלעך ביזן אַנדערן טאָג.
+scheduling-bury-related-reviews-until-the-next = אָפּהאַלטן שײַכותדיקע איבער׳חזר׳ונגען ביזן אַנדערן טאָג.
+scheduling-days = טעג
+scheduling-description = באַשרײַבונג
+scheduling-easy-bonus = גרינג-צוגאָב
+scheduling-easy-interval = גרינג-צווישנצײַט
+scheduling-end = (סוף)
+scheduling-general = אַלגעמיין
+scheduling-graduating-interval = גראַדויִרן-צווישנצײַט
+scheduling-hard-interval = שווער-צווישנצײַט
+scheduling-ignore-answer-times-longer-than = פֿאַרקוקן ענטפֿער-צײַטן לענגער פֿון
+scheduling-interval-modifier = צווישנצײַט מאָדיפֿיצירער
+scheduling-lapses = פֿאַרטונקלונגען
+scheduling-lapses2 = פֿאַרטונקלונגען
+scheduling-learning = לערנענדיק
+scheduling-leech-action = שנאָרער-טוּונג
+scheduling-leech-threshold = שנאָרער-שוועל
+scheduling-maximum-interval = מאַקסימאַל צווישנצײַט
+scheduling-maximum-reviewsday = מאַקסימאַל איבער׳חזר׳ונגען פּער טאָג
+scheduling-minimum-interval = מינימאַל צווישנצײַט
+scheduling-mix-new-cards-and-reviews = מישן נײַע קאַרטלעך און איבער׳חזר׳ונגען
+scheduling-new-cards = נײַע קאַרטלעך
+scheduling-new-cardsday = נײַע קאַרטלעך פּער טאָג
+scheduling-new-interval = נײַע צווישנצײַט
+scheduling-new-options-group-name = נײַע ברירות-גרופּע נאָמען:
+scheduling-options-group = ברירות-גרופּע:
+scheduling-order = סדר
+scheduling-parent-limit = (אָפּשטאם גרענעץ: { $val })
+scheduling-reset-counts = אײַנשטעלן איבער׳חזר׳ונגען און פֿאַרטונקלונג חשבונות אויף ס׳נײַ
+scheduling-restore-position = אויפֿריכטן ערשטיקע אָרט וווּ ס׳איז מעגלעך
+scheduling-review = איבער׳חזר׳ן
+scheduling-reviews = איבער׳חזר׳ונגען
+scheduling-seconds = סעקונדעס
+scheduling-set-all-decks-below-to = באַשטימען אַלע טעשלעך קלענער ווי { $val } אין אָט דער ברירה-גרופּע?
+scheduling-set-for-all-subdecks = באַשטימען אויף אַלע סובטעשלעך
+scheduling-show-answer-timer = ווײַזן ענטפֿער-זייגער
+scheduling-show-new-cards-after-reviews = אַרויסווײַזן נײַע קאַרטלעך נאָך איבער׳חזר׳ונגען
+scheduling-show-new-cards-before-reviews = אַרויסווײַזן נײַע קאַרטלעך פֿאַר איבער׳חזר׳ונגען
+scheduling-show-new-cards-in-order-added = אַרויסווײַזן נײַע קאַרטלעך אינעם מוסיף-סדר
+scheduling-show-new-cards-in-random-order = אַרויסווײַזן נײַע קאַרטלעך אויף טראַף
+scheduling-starting-ease = גרונט-גרינגקייט
+scheduling-steps-in-minutes = שטאַפּלען (אין מינוטן)
+scheduling-steps-must-be-numbers = שטאַפּלען מוזן זײַן ציפֿער.
