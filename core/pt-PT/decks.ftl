@@ -25,6 +25,7 @@ decks-order-due = Revisões mais próximas
 decks-please-select-something = Por favor, selecione algo.
 decks-random = Aleatório
 decks-relative-overdueness = Atrasos relativos
+decks-repeat-failed-cards-after = Tempo após o qual as fichas falhadas votam a aparecer
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = Intervalo associado a { $button }
 decks-reschedule-cards-based-on-my-answers = Re-agendar fichas com base nas minhas respostas neste baralho

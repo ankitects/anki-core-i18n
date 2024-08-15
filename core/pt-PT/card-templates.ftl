@@ -20,6 +20,15 @@ card-templates-night-mode = Modo Nocturno
 # on a mobile device.
 card-templates-add-mobile-class = Adicionar classe CSS para dispositivos móveis
 card-templates-preview-settings = Opções
+card-templates-invalid-template-number = Modelo de ficha { $number } associado a nota '{ $notetype }' tem um problema.
+card-templates-identical-front = A frente é idêntica ao modelo de ficha { $number }.
+card-templates-no-front-field = A frente do modelo da ficha não tem nenhum campo da nota.
+card-templates-missing-cloze = São esperados campos de omissão do tipo '{ "{{" }cloze:Text{ "}}" }' na frente e verso do modelo da ficha.
+card-templates-extraneous-cloze = 'cloze:' só pode ser utilizado em notas de omissão.
+card-templates-see-preview = Para mais informação utilize a pré-visualização.
+card-templates-field-not-found = O campo '{ $field }' não foi encontrado.
+card-templates-changes-saved = Alterações guardadas.
+card-templates-discard-changes = Descartar alterações?
 card-templates-add-card-type = Adicionar tipo de ficha...
 card-templates-anki-couldnt-find-the-line-between = O Anki não conseguiu encontrar a linha entre a questão e a resposta. Por favor, ajuste o modelo manualmente para alternar entre a questão e a resposta.
 card-templates-at-least-one-card-type-is = Ao menos um tipo de ficha é requerido.
@@ -48,3 +57,9 @@ card-templates-this-will-create-card-proceed =
         [one] Isto criará { $count } ficha. Continuar?
        *[other] Isto criará { $count } fichas. Continuar?
     }
+card-templates-type-boxes-warning = Só é permitida uma caixa de texto por modelo de ficha.
+card-templates-restore-to-default = Restaurar o padrão
+card-templates-restore-to-default-confirmation =
+    Isto irá reiniciar todos os campos e modelos associados a este tipo de nota de volta aos seus 
+    valores padrão, removendo campos e modelos adicionados, bem como o seu conteúdo e estilos personalizados. Deseja proceder?
+card-templates-restored-to-default = Este tipo de nota foi restaurado ao seu estado original.
