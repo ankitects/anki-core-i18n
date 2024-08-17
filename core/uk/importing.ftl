@@ -8,8 +8,8 @@ importing-anki2-files-are-not-directly-importable = Файли .anki2 напря
 importing-appeared-twice-in-file = Повторилося двічі у файлі: { $val }
 importing-by-default-anki-will-detect-the = За замовчуванням, Anki буде знаходити знаки між полями, такі як символ табуляції, кома, и т.д. Якщо Anki визначить символ невірно, ви можете ввести його тут. Використовуйте \t для відображення TAB.
 importing-cannot-merge-notetypes-of-different-kinds =
-    Типи нотаток Cloze не можна об’єднати зі звичайними типами нотаток.¶
-    Ви все одно можете імпортувати файл, вимкнено '{ importing-merge-notetypes }'.
+    Типи нотаток Cloze не об’єднуються зі звичайними типами нотаток.¶
+    Ви можете імпортувати файл, вимкнувши '{ importing-merge-notetypes }'.
 importing-change = Змінити
 importing-colon = Двокрапка
 importing-comma = Кома
@@ -18,7 +18,7 @@ importing-field-separator = Поля розділює
 importing-field-mapping = Відповідність полів
 importing-field-of-file-is = Поле <b>{ $val }</b> з файлу:
 importing-fields-separated-by = Поля, розділені: { $val }
-importing-file-must-contain-field-column = Файл має містити принаймні один стовпець, який можна зіставити з полем примітки.
+importing-file-must-contain-field-column = Файл повинен мати стовпець, який можна прив'язати до поля примітки.
 importing-file-version-unknown-trying-import-anyway = Невідома версія файлу, все одно спробувати імпортувати.
 importing-first-field-matched = Перше поле співпало: { $val }
 importing-identical = Тотожні
@@ -36,15 +36,14 @@ importing-mapped-to-tags = співставлено з <b>мітками</b>
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = Об’єднати типи нотаток
 importing-merge-notetypes-help =
-    Якщо позначено, і ви або автор колоди змінили схему типу нотаток, Anki¶
-    об’єднає дві версії замість збереження обох.¶
-    ¶
-    Зміна схеми типу нотаток означає додавання, видалення або зміну порядку полів чи шаблонів,¶
-    або зміна поля сортування.¶
-    Як приклад, зміна лицьової сторони існуючого шаблону *не* становить¶
-    зміна схеми.¶
-    ¶
-    Попередження: для цього знадобиться одностороння синхронізація, і наявні нотатки можуть бути позначені як змінені.
+    Якщо обрано, і ви чи автор колоди змінили схему для типу нотаток, Anki буде
+    об’єднувати дві версії замість зберігати по-різно.
+    
+    Зміна схеми для типу нотаток включає додавання, видалення чи перевпорядкування 
+    полів або шаблонів, а також зміну поля сортування.
+    Контрприклад: зміна передньої сторони у наявному шаблоні *не* є зміною схеми.
+    
+    Увага: Ця дія вимагає односторонньої синхронізації і може позначити наявні нотатки як змінені.
 importing-mnemosyne-20-deck-db = Колода Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Багатосимвольні розділювачі не підтримуються. Будь ласка, введіть тільки один символ.
 importing-notes-added-from-file = Нотатки додані з файлу: { $val }
@@ -53,8 +52,8 @@ importing-notes-skipped-as-theyre-already-in = Нотатки пропущено
 importing-notes-skipped-update-due-to-notetype = Нотатки не оновлено, оскільки тип нотаток змінено від часу першого імпорту нотаток: { $val }
 importing-notes-updated-as-file-had-newer = Нотатки оновлено, як файл новішої версії: { $val }
 importing-include-reviews = Включити пригадування
-importing-also-import-progress = Імпорт будь-якого прогресу навчання
-importing-with-deck-configs = Імпорт будь-яких пресетів колоди
+importing-also-import-progress = Імпортувати увесь прогрес у навчанні
+importing-with-deck-configs = Імпорт усі конфігурації колоди
 importing-updates = Оновлення
 importing-include-reviews-help =
     Якщо ввімкнено, будь-які попередні перегляди, включені в колоду, також будуть імпортовані.¶
