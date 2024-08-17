@@ -1,4 +1,4 @@
-database-check-corrupt = Колекція пошкоджена. Відновіть її з автоматично створеного архіву.
+database-check-corrupt = Колекція пошкоджена. Відновіть її з автоматичної резервної копії.
 database-check-rebuilt = Перебудовано та оптимізовано базу даних.
 database-check-card-properties =
     { $count ->
