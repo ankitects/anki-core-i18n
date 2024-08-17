@@ -24,7 +24,10 @@ media-check-oversize-header = Файли більші за 100МБ не можу
 media-check-subfolder-header = Теки в медіа-теках не підтримуються.
 media-check-missing-header = Використовується в картках, але відсутнє в медіа теці:
 media-check-unused-header = Наступні файли знайдені в медіа-теці, але не використовуються в жодній з карток:
-media-check-template-references-field-header = Anki не може виявити використані файли, коли ви використовуєте посилання { "{{Field}}" } у тегах media/LaTeX. Натомість теги media/LaTeX слід розмістити на окремих нотатках.¶¶Шаблони посилань:
+media-check-template-references-field-header =
+    Anki не виявляє задіяні файли, при використанні посилань { "{{Field}}" } у мітках media/LaTeX. Натомість мітки media/LaTeX слід розмістити у окремих нотатках.
+    
+    Еталонні шаблони:
 
 ## Shown once for each file
 
@@ -75,6 +78,6 @@ media-check-empty-trash = Спорожнити кошик
 media-check-restore-trash = Відновити видалене
 media-check-check-media-action = Перевірити медіа-файли
 # a tag for notes with missing media files (must not contain whitespace)
-media-check-missing-media-tag = медіа відсутнє
+media-check-missing-media-tag = без медіа
 # add a tag to notes with missing media
-media-check-add-tag = Тег відсутній
+media-check-add-tag = Без мітки

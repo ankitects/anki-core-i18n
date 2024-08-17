@@ -113,13 +113,13 @@ scheduling-custom-study = додатковим навчанням
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 постачається з новим планувальником, що усуває ряд проблем, які були в попередніх версіях Anki. Рекомендовано оновити його.
+scheduling-update-soon = Anki 2.1 містить новий планувальник, який виправляє ряд помилок у попередніх версіях Anki. Радимо оновитися до нього.
 scheduling-update-done = Планувальник успішно оновлено.
 scheduling-update-button = Оновлення
 scheduling-update-later-button = Пізніше
 scheduling-update-more-info-button = Вчити більше
 scheduling-update-required =
-    Вашу колекцію потрібно оновити до планувальника V2.¶
+    Вашу колекцію потрібно оновити до планувальника V2.
     Перш ніж продовжити, виберіть { scheduling-update-more-info-button }.
 
 ## Other scheduling strings
@@ -181,23 +181,23 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-prompt =
     { $cards ->
-        [one] Показати картку через скільки днів?
-        [few] Показати картку через скільки днів?
-       *[many] Показати картку через скільки днів?
+        [one] Через скільки днів показати картку?
+        [few] Через скільки днів показати картки?
+       *[many] Через скільки днів показати карток?
     }
 scheduling-set-due-date-prompt-hint =
-    0 = сьогодні¶
-    1! = завтра + змінити інтервал на 1¶
-    3-7 = випадковий вибір 3-7 днів
+    0 = сьогодні
+    1! = завтра + змінити інтервал на 1
+    3-7 = випадково від 3 до 7 днів
 scheduling-set-due-date-done =
     { $cards ->
-        [one] Установіть дату виконання картки { $cards }.
-        [few] Установіть дату виконання карток { $cards }.
-       *[many] Установіть дату виконання карток { $cards }.
+        [one] Встановлено дату пригадування для { $cards } картки.
+        [few] Встановлено дату пригадування для { $cards } карток.
+       *[many] Встановлено дату пригадування для { $cards } карток.
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] Скинути картку { $cards }.
-        [few] Скинути картки { $cards }.
-       *[many] Скинути картки { $cards }.
+        [one] { $cards } картку було забуто.
+        [few] { $cards } картки було забуто.
+       *[many] { $cards }  карток було забуто.
     }
