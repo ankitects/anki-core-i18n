@@ -1,6 +1,6 @@
 errors-parse-number-fail = Неправильне число, або поза діапазоном.
 errors-filtered-parent-deck = Відфільтровані колоди не можуть мати дочірні.
-errors-filtered-deck-required = Ця дію можлива лише для відфільтрованої колоди.
+errors-filtered-deck-required = Ця дія можлива лише для відфільтрованої колоди.
 errors-100-tags-max =
     Можна обрати максимум 100 міток. Значно простіше вказувати
     бажані мітки, аніж небажані, а також не потрібно вказувати
@@ -19,5 +19,5 @@ errors-option-not-set = '{ $option }' не включено
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-errors-invalid-input-empty = Некоректні дані
-errors-invalid-input-details = Недійсне введення: { $details }
+errors-invalid-input-empty = Помилкові дані.
+errors-invalid-input-details = Помилкові дані: { $details }
