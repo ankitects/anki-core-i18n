@@ -6,7 +6,7 @@
 # Link to more detailed information in the manual
 help-for-more-info = Більше інформації щодо { $link } у довіднику.
 # Tooltip for links to the manual
-help-open-manual-chapter = Читати { $name } у Довіднику
+help-open-manual-chapter = Читати { $name } у довіднику
 help-ok = Гаразд
 
 ## Body
