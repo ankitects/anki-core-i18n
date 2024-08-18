@@ -2,10 +2,10 @@
 card-templates-blank = בלויז
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] ווײַטערדיקע בײַטן אונטן וועלן באַווירקן דעם { $count } נאָטיץ וואָס ניצט אָט דעם מין קאַרטל.
-       *[other] ווײַטערדיקע בײַטן אונטן וועלן באַווירקן די { $count } נאָטיצן וואָס ניצט אָט דעם מין קאַרטל.
+        [one] ווײַטערדיקע בײַטן אונטן וועלן באַווירקן דעם { $count } נאָטיץ וואָס ניצט אָט די קאַרטלגרופּע.
+       *[other] ווײַטערדיקע בײַטן אונטן וועלן באַווירקן די { $count } נאָטיצן וואָס ניצט אָט די קאַרטלגרופּע.
     }
-card-templates-card-type = מין קאַרטל:
+card-templates-card-type = קאַרטלגרופּע:
 card-templates-front-template = מוסטער-פֿאָרנט
 card-templates-back-template = מוסטער-הינטן
 card-templates-template-styling = שטייגער
@@ -20,7 +20,7 @@ card-templates-night-mode = טונקל-מאָדוס
 # on a mobile device.
 card-templates-add-mobile-class = צולייגן ׳מאָביל׳ קלאַס
 card-templates-preview-settings = ברירות
-card-templates-invalid-template-number = ס׳איז דאָ אַ דאגה מיט מוסטער-קאַרטל { $number } בײַם מין נאָטיץ '{ $notetype }'.
+card-templates-invalid-template-number = ס׳איז דאָ אַ דאגה מיט מוסטער-קאַרטל { $number } בײַ דער נאָטיצגרופּע '{ $notetype }'.
 card-templates-identical-front = דער פֿאָרנט איז אידענטיש מיטן מוסטער-קאַרטל { $number }.
 card-templates-no-front-field = מ׳האָט זיך געריכט געפֿינען אַ פֿעלד-פֿאַרבײַט אויפֿן פֿאָרנט פֿון מוסטער-קאַרטל.
 card-templates-missing-cloze = מ׳האָט זיך געריכט געפֿינען '{ "{{" }cloze:Text{ "}}" }' אָדער ענלעך אויף פֿאָרנט און הונטן פֿונעם מוסטער-קאַרטל.
@@ -28,21 +28,21 @@ card-templates-extraneous-cloze = ׳שפּאַלט׳ קען מע מאַכן נא
 card-templates-see-preview = זעט דעם פֿאָרויסווײַז צוליב נאָך אינפֿאָרמאַציע.
 card-templates-changes-saved = אויפֿגעהיטן די בײַטן.
 card-templates-discard-changes = אַוועקוואַרפֿן בײַטן?
-card-templates-add-card-type = שאַפֿן מין קאַרטל…
+card-templates-add-card-type = שאַפֿן קאַרטלגרופּע…
 card-templates-anki-couldnt-find-the-line-between = אַנקי האָט נישט געפֿונען די ליניע צווישן דער פֿראַגע און דעם ענטפֿער. פּאַסט צו דעם מוסטער בידים כּדי איבערצובײַטן די פֿראַגע און ענטפֿער.
-card-templates-at-least-one-card-type-is = ס׳מוז דאָ זײַן כאָטש אין מין קאַרטל.
+card-templates-at-least-one-card-type-is = ס׳מוז דאָ זײַן כאָטש איינע קאַרטלגרופּע.
 card-templates-browser-appearance = בלעטערער אָנבליק…
 card-templates-card = קאַרטל { $val }
 card-templates-card-types-for = מיני קאַרלעך פֿון { $val }
 card-templates-cloze = שפּאַלט { $val }
 card-templates-deck-override = טעשל בטל מאַכן…
-card-templates-delete-the-as-card-type-and = אָפּמעקן דעם '{ $template }' מין קאַרטל, און אַזאַ { $cards }?
+card-templates-delete-the-as-card-type-and = אָפּמעקן די '{ $template }' קאַרטלגרופּע, און אַזאַ { $cards }?
 card-templates-enter-deck-to-place-new = שרײַבט אַרײַן טעשל וואָס אין אים צוצושטעלן קאַרטלעך, אָדער לאָזן פּוסט:
 card-templates-enter-new-card-position-1 = שטעלט צו אַ נײַע קאַרטל-פּאָזיציע (1…{ $val }):
 card-templates-flip = איבערקערן
-card-templates-remove-card-type = אַוועקוואַרפֿן מין קאַרטל…
-card-templates-rename-card-type = איבערבײַטן נאָמען פֿון מין קאַרטל…
-card-templates-reposition-card-type = איבעררוקן פּאָזיציע פֿון מין קאַרטל…
+card-templates-remove-card-type = אַוועקוואַרפֿן קאַרטלגרופּע…
+card-templates-rename-card-type = איבערבײַטן נאָמען פֿון קאַרטלגרופּע…
+card-templates-reposition-card-type = איבעררוקן פּאָזיציע פֿון קאַרטלגרופּע…
 card-templates-card-count =
     { $count ->
         [one] { $count } קאַרטל
@@ -56,6 +56,6 @@ card-templates-this-will-create-card-proceed =
 card-templates-type-boxes-warning = ס׳קען זײַן נאָך איין וואָרטיר-קעסטל פּער מוסטער-קאַרטל.
 card-templates-restore-to-default = אויפֿריכטן אין עצם
 card-templates-restore-to-default-confirmation =
-    אַלע פֿעלדער און מוסטערן פֿון דעם מין נאָטיץ וועלן אויפֿגעריכט ווערן אין עצם
+    אַלע פֿעלדער און מוסטערן פֿון דער נאָטיצגרופּע וועלן אויפֿגעריכט ווערן אין עצם
     ווערטן, און ס׳וועלן אַוועקגעוואָרפֿן ווערן אַלע איבעריקע פֿעלדער/מוסטערן, אַזאַ אינהאַלט און צוגעפּאַסטע שטייגערס. ווילסטו ממשיך זײַן?
-card-templates-restored-to-default = דער מין נאָטיץ איז אויפֿגעריכטן געוואָרן אינם עצם-מצבֿ.
+card-templates-restored-to-default = די נאָטיצגרופּע איז אויפֿגעריכטן געוואָרן אינם עצם-מצבֿ.

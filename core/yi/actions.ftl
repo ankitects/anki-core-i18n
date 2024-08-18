@@ -46,16 +46,15 @@ actions-update-card = דערהײַנטיקן קאַרטל
 actions-update-deck = דער הײַנטיקן טעשל
 actions-forget-card = פֿאַרגעסן קאַרטל
 actions-build-filtered-deck = בויען טעשל
-actions-add-notetype = שאַפֿן מין נאָטיץ
-actions-remove-notetype = צונעמען מין נאָטיץ
-actions-update-notetype = דערהײַנטיקן מין נאָטיץ
+actions-add-notetype = שאַפֿן נאָטיצגרופּע
+actions-remove-notetype = צונעמען נאָטיצגרופּע
+actions-update-notetype = דערהײַנטיקן נאָטיצגרופּע
 actions-update-config = דערהײַנטיקן אויסשטעל
 actions-card-info = קאַרטל פּרטים
 actions-previous-card-info = פֿריִערדיקע קאַרטל פּרטים
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = …
-actions-currently-unsupported = דער טריט ווערט ביז הײַנט נישט מעגלעך אויף דײַן סיסטעם.
 
 ## Flags
 

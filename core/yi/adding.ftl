@@ -5,6 +5,6 @@ adding-history = פֿריִער
 adding-note-deleted = (נאָטיץ אָפּגעמעקט)
 adding-shortcut = גיכקנעפּל: { $val }
 adding-the-first-field-is-empty = ערשטע פֿעלד איז ליידיק.
-adding-you-have-a-cloze-deletion-note = האָסט אַ שפּאַלט (׳קלאָז׳) מין נאָטיץ, אָבער האָסט נישט קיין ׳קלאָז׳ אָפּמעקונג געטאָן. זײַן ממשיך?
+adding-you-have-a-cloze-deletion-note = האָסט אַ שפּאַלט (׳קלאָז׳) נאָטיצגרופּע, אָבער האָסט נישט קיין ׳קלאָז׳ אָפּמעקונג געטאָן. זײַן ממשיך?
 adding-cloze-outside-cloze-notetype = שפּאַלט אָפּמעקונג קען מע טאָן נאָר מיט שפּאַלט (׳קלאָז׳) מיני נאָטיצן.
 adding-cloze-outside-cloze-field = שפּאַלט (׳קלאָז׳) אָפּמעקונג קען מע טאָן נאָר מיט פֿעלדער וואָס ניצן דעם ׳קלאָז׳ פֿילטער. בדרך-כּלל איז עס דאָס ערטשע פֿעלד.
