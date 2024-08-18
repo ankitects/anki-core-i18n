@@ -1,4 +1,4 @@
-notetypes-notetype = מין נאָטיץ
+notetypes-notetype = נאָטיצגרופּע
 
 ## Default field names in newly created note types
 
@@ -21,19 +21,19 @@ notetypes-cloze-name = שפּאַלט
 notetypes-card-1-name = קאַרטל 1
 notetypes-card-2-name = קאַרטל 2
 notetypes-add = צושטעלן: { $val }
-notetypes-add-note-type = שאַפֿן מין נאָטיץ
+notetypes-add-note-type = שאַפֿן נאָטיצגרופּע
 notetypes-cards = קאַרטלעך
 notetypes-clone = קלאָנירן: { $val }
 notetypes-copy = { $val } קאָפּיע
-notetypes-delete-this-note-type-and-all = אָפּמעקן דעם מין נאָטיץ און אַלע אַזעלכע קאַרטלעך וואָס געהערן דערצו?
-notetypes-delete-this-unused-note-type = אָפּמעקן אָט דעם נישט-געניצטן מין נאָטיץ?
+notetypes-delete-this-note-type-and-all = אָפּמעקן די נאָטיצגרופּע און אַלע אַזעלכע קאַרטלעך וואָס געהערן דערצו?
+notetypes-delete-this-unused-note-type = אָפּמעקן אָט י נישט-געניצטע נאָטיצגרופּע?
 notetypes-fields = פֿעלדער
 notetypes-footer = אונטנדל
 notetypes-header = אױבנדל
 notetypes-note-types = מיני נאָטיץ
 notetypes-options = ברירות
-notetypes-please-add-another-note-type-first = צושטעלן ערשטנס אַן אַנדער מין נאָטיץ.
-notetypes-type = מין
+notetypes-please-add-another-note-type-first = קודם צושטעל אַן אַנדער נאָטיצגרופּע.
+notetypes-type = גרופּע
 
 ## Image Occlusion
 

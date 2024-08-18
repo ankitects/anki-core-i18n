@@ -40,5 +40,5 @@ exporting-processed-media-files =
        *[other] { $count } מעדיע טעקעס זענען פּראָצעסירט געוואָרן.
     }
 exporting-include-deck = אַרײַננעמען טעשל-נאָמען.
-exporting-include-notetype = אַרײַננעמען מין נאָטיצן נאָמען.
+exporting-include-notetype = אַרײַננעמען נאָמען פֿון נאָטיצגרופּע.
 exporting-include-guid = אַרײַננעמען יחוד-במינודיקער אָנרוף.

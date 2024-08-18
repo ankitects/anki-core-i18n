@@ -1,6 +1,6 @@
 preferences-automatically-sync-on-profile-openclose = סינכראָנירן אויטאָמאַטיש בעתן עפֿענען/צומאַכן פּראָפֿיל
 preferences-backups = רעזערוו-קאָפּיעס
-preferences-change-deck-depending-on-note-type = בײַטן טעשל לויט מין נאָטיץ
+preferences-change-deck-depending-on-note-type = בײַטן טעשל לויט נאָטיצגרופּע
 preferences-changes-will-take-effect-when-you = בײַטן וועלן ווערן גילטיק בײַם צולאָדן ANKI אויף ס׳נײַ
 preferences-hours-past-midnight = שעהען נאָך האַלבע נאַכט
 preferences-language = שפּראַך

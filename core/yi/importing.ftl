@@ -7,7 +7,7 @@ importing-anki-files-are-from-a-very = ".anki" טעקעס זענען פֿון מ
 importing-anki2-files-are-not-directly-importable = .anki2 טעקעס קען מען זיי נישט גלײַך אַרײַנפֿירן - אַנשטאָט, פֿיר אַרײַן די געקריגנע .apkg אָדער .zip טעקע.
 importing-appeared-twice-in-file = צוויי מאָל זיך געפֿונען אין טעקע: { $val }
 importing-by-default-anki-will-detect-the = דורך פֿעליקייט דערקענט אַנקי דעם אות צווישן פֿעדלער, למשל טאַבקלאַוויש, קאָמע, אא״וו. ווען אַנקי דערקענט אים נישט ריכטיק, קען מען אים אַרײַנלייגן דאָ. מע באַטײַט טאַבקלאַוויש מיט "t/".
-importing-cannot-merge-notetypes-of-different-kinds = שפּאַלט (׳קלאָז׳) מין נאָטיצן קען מע נישט צונויפֿגיסן מיט סתּם מין נאָטיצן. די טעקע אָבער קען מען נאָך אַלץ אַרײַנפֿירן בײַם דעאַקטיווירן '{ importing-merge-notetypes }' .
+importing-cannot-merge-notetypes-of-different-kinds = שפּאַלט (׳קלאָז׳) נאָטיצגרופּע קען מע נישט צונויפֿגיסן מיט סתּם נאָטיצגרופּע. די טעקע אָבער קען מען נאָך אַלץ אַרײַנפֿירן בײַם דעאַקטיווירן '{ importing-merge-notetypes }' .
 importing-change = בײַטן
 importing-colon = צווייפּינטל
 importing-comma = קאָמע
@@ -38,7 +38,7 @@ importing-multicharacter-separators-are-not-supported-please = מחיצות מו
 importing-notes-added-from-file = נאָטיצן צוגעשטעלט פֿון טעקע: { $val }
 importing-notes-found-in-file = נאָטיצן געפֿונען אין טעקע: { $val }
 importing-notes-skipped-as-theyre-already-in = אויסגעלאָזטע נאָטיצן, ווײַל דערהײַנטיקטע קאָפּיעס זענען שוין אין דײַן זאַמלונג: { $val }
-importing-notes-skipped-update-due-to-notetype = נישט-דערהײַנטיקטע נאָטיצן, ווײַל דער מין-נאָטיץ האָט מען אויסגעביטן זינט די נאָטיצן זענען צום ערשטנס אַרײַנגעפֿירט געוואָרן: { $val }
+importing-notes-skipped-update-due-to-notetype = נישט-דערהײַנטיקטע נאָטיצן, ווײַל די נאָטיצגרופּע האָט מען אויסגעביטן זינט די נאָטיצן זענען צום ערשטנס אַרײַנגעפֿירט געוואָרן: { $val }
 importing-notes-updated-as-file-had-newer = דערהײַנטיקטע נאָטיצן, ווײַל טעקע האָט אַ נײַערן נוסח געהאָט: { $val }
 importing-include-reviews = אַרײַננעמען איבער׳חזר׳ונגען
 importing-also-import-progress = אַרײַנפֿירן סײַ וועלכע מין לערנפּראָגרעס
@@ -62,7 +62,7 @@ importing-supermemo-xml-export-xml = אַרויספֿירן Supermemo XML (*.xml
 importing-tab = טאַבקלאַוויש
 importing-tag-modified-notes = באַצעטלען אויסגעביטענע נאָטיצן:
 importing-text-separated-by-tabs-or-semicolons = טעקסט צעטיילט פֿון טאַבקלאַווישן אָדער פּינטל-קאָמעס (*)
-importing-the-first-field-of-the-note = דאָס ערשטע פֿעלד פֿונעם מין-נאָטיץ מוז ווערן צונויפֿגעפּאָרט.
+importing-the-first-field-of-the-note = דאָס ערשטע פֿעלד פֿון דער נאָטיצגרופּע מוז ווערן צונויפֿגעפּאָרט.
 importing-the-provided-file-is-not-a = די אָנגעגעבענע טעקע איז נישט קיין גילטיקע ׳.apkg׳ טעקע.
 importing-this-file-does-not-appear-to = אַפּנים איז די טעקע נישט קיין גילטיקע .apkg. ווען ס׳קומט פֿאָר די טעות פֿון אַ טעקע וואָס איז אַראָפּגעלאָדן געוואָרן פֿון אַנקיוועב, מסתּמא האָט זיך דער אַראָפּלאָד דורכגעפֿאַלן. פּרוּוו ווידער אַ מאָל, און, אַז דער פּראָבלעם קומט ווײַטער פֿאָר, פּרוּוו מיט אַן אַנדער בלעטערער.
 importing-this-will-delete-your-existing-collection = דאָס וועט אָפּמעקן דײַנע איצטיקע זאַמלונג און זי פֿאַרבײַטן מיט די דאַטן אין דער טעקע וואָס דו ווילסט אַרײַנפֿירן. ביסט זשע זיכער?
@@ -127,7 +127,7 @@ importing-file = טעקע
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = צופּאַסן מיטן פֿאַרנעם
 # Used with the 'match scope' option
-importing-notetype-and-deck = מין-נאָטיץ און טעשל
+importing-notetype-and-deck = נאָטיצגרופּע און טעשל
 importing-cards-added =
     { $count ->
         [one] { $count } קאַרטל איז צוגעשטעלט געוואָרן.
@@ -151,13 +151,13 @@ importing-existing-notes-skipped =
     }
 importing-conflicting-notes-skipped =
     { $count ->
-        [one] { $count } נאָטיץ איז נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס איר מין-נאָטיץ האָט זיך געביטן.
-       *[other] { $count } נאָטיצן זענען נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס זייערע מיני-נאָטיצן האָבן זיך געביטן.
+        [one] { $count } נאָטיץ איז נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס איר נאָטיצגרופּע האָט זיך געביטן.
+       *[other] { $count } נאָטיצן זענען נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס זייערע נאָטיצגרופּעס האָבן זיך געביטן.
     }
 importing-conflicting-notes-skipped2 =
     { $count ->
-        [one] { $count } נאָטיץ איז נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס איר מין-נאָטיץ האָט זיך געביטן, און { importing-merge-notetypes } האָט מען נישט געהאָט אײַנגעשליסן.
-       *[other] { $count } נאָטיצן זענען נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס זייערע מיני-נאָטיצן האָבן זיך געביטן, און { importing-merge-notetypes } האָט מען נישט געהאָט אײַנגעשליסן.
+        [one] { $count } נאָטיץ איז נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס איר נאָטיצגרופּע האָט זיך געביטן, און { importing-merge-notetypes } האָט מען נישט געהאָט אײַנגעשליסן.
+       *[other] { $count } נאָטיצן זענען נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס זייערע נאָטיצגרופּעס האָבן זיך געביטן, און { importing-merge-notetypes } האָט מען נישט געהאָט אײַנגעשליסן.
     }
 importing-import-log = אַרײַנפֿיר-בלעטל
 importing-no-notes-in-file = קיין נאָטיץ האָט מען נישט געפֿונען אין דער טעקע.
@@ -172,9 +172,9 @@ importing-status = מצבֿ
 importing-duplicate-note-added = צווייִיקע נאָטיץ צוגעשטעלט געוואָרן
 importing-added-new-note = נײַע נאָטיץ צוגעשטעלט געוואָרן
 importing-existing-note-skipped = נאָטיץ אויסגעלאָזט געוואָרן, ווײַל אַ דערהײַנטיקטע קאָפּיע איז שוין פֿאַראַן אין דײַן זאַמלונג: { $val }
-importing-note-skipped-update-due-to-notetype = נאָטיץ איז נישט-דערהײַנטיקט געוואָרן, ווײַל דער מין-נאָטיץ האָט מען אויסגעביטן זינט די נאָטיצן איז צום ערשטנס אַרײַנגעפֿירט געוואָרן
+importing-note-skipped-update-due-to-notetype = נאָטיץ איז נישט-דערהײַנטיקט געוואָרן, ווײַל די נאָטיצגרופּע האָט מען אויסגעביטן זינט די נאָטיצן איז צום ערשטנס אַרײַנגעפֿירט געוואָרן
 importing-note-updated-as-file-had-newer = נאָטיץ איז דערהײַנטיקט געוואָרן, ווײַל די טעקע האָט געהאַט אַ נײַערן נוסח
-importing-note-skipped-due-to-missing-notetype = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר מין-נאָטיץ פֿעלט
+importing-note-skipped-due-to-missing-notetype = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר נאָטיצגרופּע פֿעלט
 importing-note-skipped-due-to-missing-deck = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר טעשל פֿעלט
 importing-note-skipped-due-to-empty-first-field = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר ערשטער פֿעלד איז ליידיק
 importing-field-separator-help =
@@ -186,21 +186,21 @@ importing-allow-html-in-fields-help =
     ס׳וועט אויסזען ווי אַ זאַץ-איבערפֿיר אויפֿן קאַרטל. 
     אַקעגן זשע, מיט די ברירה דעאַקטיווירט, וועלן די אות-באותיות '&lt;br&gt;' ווערן באַוויזן.
 importing-notetype-help =
-    נײַ-אַרײַנגעפֿירטע נאָטיצן וועלן נעמען דער מין-נאָטיץ, און נאָר פֿריִערדיקע נאָטיצן מיט אָט דער מין-נאָטיץ ווערן דערהײַנטיקט. 
-    מע קלײַבט אויס וועלכע פֿעלדער דעקן זיך מיט וועלכן מין-נאָטיץ פֿעלדער מיט די 'צונויפֿפּאָרן' מכשיר.
+    נײַ-אַרײַנגעפֿירטע נאָטיצן וועלן נעמען די נאָטיצגרופּע, און נאָר פֿריִערדיקע נאָטיצן מיט אָט דער נאָטיצגרופּע ווערן דערהײַנטיקט. 
+    מע קלײַבט אויס וועלכע פֿעלדער דעקן זיך מיט וועלכע נאָטיצגרופּע פֿעלדער מיט די 'צונויפֿפּאָרן' מכשיר.
 importing-deck-help = אַרײַנגעפֿירטע קאַרטלעך וועלן ווערן צוגעשטעלט אין אָט דעם טעשל.
 importing-existing-notes-help =
     וואָס מע טוט ווען אַן אַרײַנגעפֿירטע נאָטיץ פּאַסט זיך מיט איינער וואָס איז שוין פֿאַראַן:
     - '{ importing-update }': דערהײַנטיקן די פֿריִערדיקע נאָטיץ.
     - '{ importing-preserve }': גאָרנישט נישט טאָן.
     - '{ importing-duplicate }': באַשאַפֿן אַ נײַע נאָטיץ.
-importing-match-scope-help = נאָר עקסיסטירנדיקע נאָטיצן בײַם זעלבן מין-נאָטיץ וועלן ווערן באַטראַכט אויף צי ס׳זענען שוין קאָפּיעס. מע קען דאָס אויך באַגרענעצן נאָר אויף קאַרטלעך אינעם זעלבן טעשל.
+importing-match-scope-help = נאָר עקסיסטירנדיקע נאָטיצן בײַ דער זעלבער נאָטיצגרופּע וועלן ווערן באַטראַכט אויף צי ס׳זענען שוין קאָפּיעס. מע קען דאָס אויך באַגרענעצן נאָר אויף קאַרטלעך אינעם זעלבן טעשל.
 importing-tag-all-notes-help = די צעטלען וועלן ווערן צוגעלייגט אויף סײַ נײַ-אַרויסגעפֿירטע סײַ דערהײַנטיקטע נאָטיצן.
 importing-tag-updated-notes-help = די צעטלען וועלן ווערן צוגעלייגט אויף סײַ וועלכע דערהײַנטיקטע נאָטיצן.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = אַרײַנפֿירנדיק זאַמלונג…
-importing-unable-to-import-filename = מ׳האָט נישט געקענט אַרײַנפֿירן { $filename }: דער מין-טעקע ווערט נישט דערקענט
-importing-notes-that-could-not-be-imported = נאָטיצן וואָס זענען נישט געראָטן אַרײַנגעפֿירט ווערן, צוליב וואָס דער מין-נאָטיץ איז שוין געביטן געוואָרן: { $val }
+importing-unable-to-import-filename = מ׳האָט נישט געקענט אַרײַנפֿירן { $filename }: דער סאָרט טעקע ווערט נישט דערקענט
+importing-notes-that-could-not-be-imported = נאָטיצן וואָס זענען נישט געראָטן אַרײַנגעפֿירט ווערן, צוליב וואָס די נאָטיצגרופּע איז שוין געביטן געוואָרן: { $val }
 importing-added = געשאַפֿן
