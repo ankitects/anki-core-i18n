@@ -153,11 +153,37 @@ statistics-cards-due =
 statistics-backlog-checkbox = אָנגעזאַמלטע
 statistics-intervals-title = איבער׳חזר׳ונג-צווישנצײַטן
 statistics-intervals-subtitle = אָפּלייגן ביז איבער׳חזר׳ונגען ווערט ווידער אויסגעוויזן
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } קאַרטל מיט אַ { $daysStart }~{ $daysEnd }-טאָג צווישנצײַט
+       *[other] { $cards } קאַרטלעך מיט אַ { $daysStart }~{ $daysEnd }-טאָג צווישנצײַט
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } קאַרטל מיט אַ { $day }-טאָג צווישנצײַט
+       *[other] { $cards } קאַרטלעך מיט אַ { $day }-טאָג צווישנצײַט
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } קאַרטל מיט אַ { $daysStart }~{ $daysEnd }-טאָג געזעצקייט
+       *[other] { $cards } קאַרטלעך מיט אַ { $daysStart }~{ $daysEnd }-טאָג געזעצקייט
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } קאַרטל מיט אַ { $day }-טאָג געזעצקייט
+       *[other] { $cards } קאַרטלעך מיט אַ { $day }-טאָג געזעצקייט
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = פֿון { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } ריכטיק ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } איבער׳חזר׳ונגען
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% ריכטיק ({ $reviews })
 statistics-hours-title = צעפּרטלונג לויט שעהען
+statistics-hours-subtitle = איבער׳חזר׳ן הצלחה פֿון אַלע שעה פֿונעם טאָג.
+# shown when graph is empty
+statistics-no-data = קיין דאַטן
 statistics-calendar-title = קאַלענדאַר
 
 ## An amount of elapsed time, used in the graphs to show the amount of
@@ -175,12 +201,31 @@ statistics-elapsed-time-years = { $amount }י
 
 ##
 
+statistics-average-for-days-studied = דורכשניט פֿון שטודיר-טעג
 statistics-total = סך-הכּל
 statistics-days-studied = טעג אײַנגע׳חזר׳ט
 statistics-average-answer-time-label = ענטפֿער-משך אין דורכשניט
 statistics-average = דורכשניט
 statistics-average-interval = דורכשניטלעכער צווישנצײַט
 statistics-due-tomorrow = טערמיניק מאָרגן
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } פֿון { $total } ({ $percent }%)
+statistics-average-over-period = דורכשניט לויט זמן
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } איבער׳חזר׳ונג/טאָג
+       *[other] { $count } איבער׳חזר׳ונגען/טאָג
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count }מיניט/טאָג
+       *[other] { $count }מיניט/טאָג
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } קאַרטל/טאָג
+       *[other] { $count } קאַרטלעך/טאָג
+    }
 statistics-average-ease = דורכשניטלעכע גרינגקייט
 statistics-average-difficulty = דורכשניטלעכע שוועריקייט
 statistics-average-retrievability = דורכשניטלעכע אָפּגעטראָגנקייט
