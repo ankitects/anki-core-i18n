@@ -392,6 +392,12 @@ deck-config-compute-optimal-weights-tooltip2 =
     Por padrão, os parâmetros serão calculados a partir do histórico de revisão de todos os decks que usam a predefinição atual. Você pode
     opcionalmente, ajuste a pesquisa antes de calcular os parâmetros, se desejar alterar quais cartões são usados
     otimizando os parâmetros.
+deck-config-compute-optimal-retention-tooltip4 =
+    Essa ferramenta tentará encontrar o valor de retenção desejado que levará ao máximo de material aprendido
+    no menor tempo possível. O número calculado pode servir como referência ao decidir qual valor de retenção você deseja definir. 
+    Você pode optar por escolher uma retenção desejada mais alta, se estiver disposto a trocar mais tempo de estudo
+    por uma maior taxa de recordação. Definir a retenção desejada abaixo do mínimo não é recomendado,
+    pois isso resultará em uma carga de trabalho maior devido à alta taxa de esquecimento.
 deck-config-please-save-your-changes-first = Por favor, salve suas alterações primeiro.
 deck-config-a-100-day-interval =
     { $days ->
