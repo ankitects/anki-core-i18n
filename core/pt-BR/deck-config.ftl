@@ -471,4 +471,11 @@ deck-config-compute-optimal-retention-tooltip2 =
     como referência ao decidir para qual valor ajustar sua retenção desejada. Você pode desejar escolher uma retenção desejada mais alta,
     se estiver disposto a trocar mais tempo de estudo por uma taxa de recordação maior. Configurar sua retenção desejada para um valor
     abaixo do ótimo não é recomendado, pois isso levará a mais trabalho sem benefício.
+deck-config-compute-optimal-retention-tooltip3 =
+    Esta ferramenta assume que você está começando com 0 cartões aprendidos e tentará encontrar o valor de retenção desejado
+    que levará ao máximo de material aprendido no menor tempo possível. Para simular com precisão o seu processo de aprendizado,
+    este recurso requer um mínimo de 400+ revisões. O número calculado pode servir como referência ao decidir qual valor de
+    retenção você deseja definir. Você pode optar por escolher uma retenção desejada mais alta, se estiver disposto a trocar mais
+    tempo de estudo por uma maior taxa de recordação. Definir a retenção desejada abaixo do mínimo não é recomendado,
+    pois isso resultará em uma carga de trabalho maior devido à alta taxa de esquecimento.
 deck-config-seconds-to-show-question-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de revelar a resposta. Defina como 0 para desativar.
