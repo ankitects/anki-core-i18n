@@ -28,5 +28,5 @@ card-template-rendering-no-such-field = '{ $found }' געפֿונען, אָבע�
 # are missing.
 card-template-rendering-empty-front = פֿאָרנט פֿונעם קאַרטל איז ליידיק.
 card-template-rendering-missing-cloze =
-    קיין ׳קלאָז׳ { $number } געפֿונען אינעם קאַרטל.
-    אָדער צולייגט אַ ׳קלאָז׳ אָפּמעקונג, אָדער ניץ דעם מכשיר ׳ליידיקע קאַרטלעך׳.
+    קיין שפּאַלט { $number } געפֿונען אינעם קאַרטל.
+    אָדער צולייגט אַ שפּאַלט אויסמעקונג, אָדער ניץ דעם מכשיר ׳ליידיקע קאַרטלעך׳.

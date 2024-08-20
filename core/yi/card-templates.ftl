@@ -13,7 +13,7 @@ card-templates-front-preview = פֿאָרנט-פֿאָרויסווײַז
 card-templates-back-preview = הינטן-פֿאָרויסווײַז
 card-templates-preview-box = פֿאָרויסווײַז
 card-templates-template-box = מוסטער
-card-templates-sample-cloze = דאָס איז אַ { "{{c1::" } פּרוּוול{ "}}" } שפּאַלט אָפּמענונג.
+card-templates-sample-cloze = דאָס איז אַ { "{{c1::" } פּרוּוול{ "}}" } שפּאַלט אויסמעקונג.
 card-templates-fill-empty = אָנפֿילן ליידיקע פֿעלדער
 card-templates-night-mode = טונקל-מאָדוס
 # Add "mobile" class to card preview, so the card appears like it would
@@ -24,7 +24,7 @@ card-templates-invalid-template-number = ס׳איז דאָ אַ דאגה מיט 
 card-templates-identical-front = דער פֿאָרנט איז אידענטיש מיטן מוסטער-קאַרטל { $number }.
 card-templates-no-front-field = מ׳האָט זיך געריכט געפֿינען אַ פֿעלד-פֿאַרבײַט אויפֿן פֿאָרנט פֿון מוסטער-קאַרטל.
 card-templates-missing-cloze = מ׳האָט זיך געריכט געפֿינען '{ "{{" }cloze:Text{ "}}" }' אָדער ענלעך אויף פֿאָרנט און הונטן פֿונעם מוסטער-קאַרטל.
-card-templates-extraneous-cloze = ׳שפּאַלט׳ קען מע מאַכן נאָר אויף שפּאַלט (׳קלאָז׳) מיני נאָטיצן.
+card-templates-extraneous-cloze = ׳שפּאַלט׳ קען מע מאַכן נאָר אויף שפּאַלט נאָטיצגרופּעס.
 card-templates-see-preview = זעט דעם פֿאָרויסווײַז צוליב נאָך אינפֿאָרמאַציע.
 card-templates-field-not-found = פֿעלד '{ $field }' ווערט נישט געפֿונען.
 card-templates-changes-saved = אויפֿגעהיטן די בײַטן.
