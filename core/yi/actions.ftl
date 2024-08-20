@@ -1,12 +1,13 @@
 actions-add = צולייגן
 actions-all-selected = אַלע אויסגעקליבענע
 actions-any-selected = וואָסער אויסגעקליבענע
-actions-cancel = בטל מאַכן
+actions-cancel = אַנולירן
 actions-choose = קלײַבן
 actions-close = צומאַכן
+actions-discard = אָפּוואַרפֿן
 actions-copy = קאָפּירן
 actions-create-copy = שאַפֿן אָפּשריפֿט
-actions-custom-study = איבער׳חזר׳ן צוגעפּאַסט
+actions-custom-study = אײַנ׳חזר׳ן צוגעפּאַסט
 actions-decks = טעשלעך
 actions-decrement-value = ווייניקער
 actions-delete = אָפּמעקן
@@ -55,6 +56,7 @@ actions-previous-card-info = פֿריִערדיקע קאַרטל פּרטים
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = …
+actions-fullscreen-unsupported = פֿול-עקראַן-מאָדוס אַרבעט נישט מיט דײַן ווידעאָראָד. פּרוביר איבערצובײַטן אין אַן אַנדער דורך די ברירות-עקראַן.
 
 ## Flags
 
@@ -69,3 +71,6 @@ actions-flag-purple = פּערפּל
 actions-set-flag = שטעלן פֿאָן
 actions-nothing-to-undo = גאָרנישט צו אַנולירן
 actions-nothing-to-redo = גאָרנישט צו איבערמאַכן
+actions-auto-advance = גיין פֿאָראויס אויטאָמאַטיש
+actions-auto-advance-activated = ס׳איז חל געוואָרן גיין פֿאָראויס אויטאָמאַטיש
+actions-auto-advance-deactivated = ס׳איז בטל געוואָרן גיין פֿאָראויס אויטאָמאַטיש
