@@ -21,6 +21,14 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip =
     Az egy nap alatt megjelenítendő felülvizsgálati kártyák maximális száma, 
     ha a kártyák készen állnak a felülvizsgálatra.
+deck-config-limit-deck-v3 =
+    Ha olyan paklit tanulmányoz, amelyen belül alpaklik vannak, az egyes
+    alpaklikra beállított korlátok szabályozzák az adott pakliból kihúzható kártyák maximális számát. 
+    A kiválasztott pakli limitjei szabályozzák a megjelenített kártyák összességét.
+deck-config-limit-new-bound-by-reviews =
+    A felülvizsgálati korlát az új kártyakorlátot is befolyásolja. Például, ha a felülvizsgálati limit
+    200-ra van beállítva, és 190 felülvizsgálat várakozik, akkor legfeljebb 10 új kártya kerül bevezetésre. 
+    Ha a felülvizsgálati limitet elérte, nem jelennek meg új kártyák.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
