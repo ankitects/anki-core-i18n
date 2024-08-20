@@ -26,13 +26,20 @@ importing-ignored = <ignored>
 importing-import-even-if-existing-note-has = אַרײַנפֿירן אַפֿילו ווען עקסיסטירנדיקע נאָטיץ האָט דאָס זעלבע ערשטע פֿעלד.
 importing-import-options = אַרײַנפֿיר ברירות
 importing-importing-complete = אַרײַנפֿיר פֿאַרענדיקט.
-importing-invalid-file-please-restore-from-backup = טעקע איז בטל. זײַ אַזוי גוט, ריכט אויף פֿון רעזערוו-קאָפּיע.
+importing-invalid-file-please-restore-from-backup = טעקע איז פּסול. זײַ אַזוי גוט, ריכט אויף פֿון רעזערוו-קאָפּיע.
 importing-map-to = צונויפֿפּאָרן מיט { $val }
 importing-map-to-tags = צונויפֿפּאָרן מיט צעטלען
 importing-mapped-to = צונויפֿגעפּאָרט מיט <b>{ $val }</b>
 importing-mapped-to-tags = צונויפֿגעפּאָרט מיט <b>צעטלען</b>
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = צונויפֿגיסן מיני נאָטיצן
+importing-merge-notetypes-help =
+    ווען ס׳איז חל, און דו אָדער דער מחבר פֿון טעשל האָבן איבערגעביטן די סכעמע פֿון אַ נאָטיצגרופּע, Anki וועט צונויפֿגיסן די 2 נוסחות אַנשטאָט׳ן האַטלן ביידע.
+    
+    דאָס איבערבײַטן אַ סכעמע מײנט צושטעלן, אָפּנעמען, אָדער אויס׳סדר׳ן פֿעלדער אָדער מוסטערן, אָדער איבערבײַטן דאָס סאָרטיר-פֿעלד.
+    אַ משל אויף פֿאַרקערט: איבערבײַטן דעם פֿאָרנט פֿון אַן איצטיקע מוסטער איז נישט גלײַך מיט קיין סכעמע-בײַט.
+    
+    היט זיך: דאָס וועט דאַרפֿן אַן אַהינ-סינך, און יעצטיקע נאָטיצן קענען ווערן פֿאַרצייכענט אַלס ׳מאָדיפֿיצירט׳.
 importing-mnemosyne-20-deck-db = טעשל מיט Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = מחיצות מוזן באַשטיין אין נאָר איין אות
 importing-notes-added-from-file = נאָטיצן צוגעשטעלט פֿון טעקע: { $val }
@@ -76,6 +83,7 @@ importing-update-never = קיין מאָל
 importing-update-notes = דערהײַנטיקן נאָטיצן
 importing-update-notes-help = ווען צו דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיץ אין דײַן זאַמלונג. דורך פֿעליקייט, דאָס ווערט געטאָן נאָר ווען די צוגעפּאַסטע נאָטיץ וואָס אַרײַנגעפֿירט איז גאָר לעצטנס מאָדיפֿיצירט געוואָרן.
 importing-update-notetypes = צונויפֿגיסן מיני-נאָטיצן
+importing-update-notetypes-help = ווען ס׳וועט זיך דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיצגרופּע איז דײַן זאַמלונג. דורך פֿעליקייט, ס׳געשיט נאָר אַז מע פֿירט אַרײַן אַ גלײַכע נאָטיצגרופּע וואָס איז שפּעטער מאָדיפֿיצירט געוואָרן. בײַטן איז מוסטער-טעקסט און שטייגער קען מען תּמיד אַרײַנפֿירן, אָבער אויב דער צאָל אָדער סדר פֿון פֿעלדער האָבן זיך געביטן, די { importing-merge-notetypes } ברירה מוז אויך זײַן חל.
 importing-note-added =
     { $count ->
         [one] { $count } נאָטיץ איז צוגעגעבן געוואָרן.
@@ -150,6 +158,11 @@ importing-existing-notes-skipped =
         [one] { $count } נאָטיץ איז שוין פֿאַראַן אין דײַן זאַמלונג.
        *[other] { $count } נאָטיצן זענען שוין פֿאַראַן אין דײַן זאַמלונג.
     }
+importing-notes-failed =
+    { $count ->
+        [one] מ׳האָט נישט געקענט אַרײַנפֿירן { $count } נאָטיץ.
+       *[other] מ׳האָט נישט געקענט אַרײַנפֿירן { $count } נאָטיצן.
+    }
 importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } נאָטיץ איז נישט אַרײַנגעפֿירט געוואָרן צוליב וואָס איר נאָטיצגרופּע האָט זיך געביטן.
@@ -174,6 +187,7 @@ importing-duplicate-note-added = צווייִיקע נאָטיץ צוגעשטע�
 importing-added-new-note = נײַע נאָטיץ צוגעשטעלט געוואָרן
 importing-existing-note-skipped = נאָטיץ אויסגעלאָזט געוואָרן, ווײַל אַ דערהײַנטיקטע קאָפּיע איז שוין פֿאַראַן אין דײַן זאַמלונג: { $val }
 importing-note-skipped-update-due-to-notetype = נאָטיץ איז נישט-דערהײַנטיקט געוואָרן, ווײַל די נאָטיצגרופּע האָט מען אויסגעביטן זינט די נאָטיצן איז צום ערשטנס אַרײַנגעפֿירט געוואָרן
+importing-note-skipped-update-due-to-notetype2 = נאָטיץ איז נישט דערהײַנטיקט, ווײַל די נאָטיצגרופּע האָט זיך געביטן זינד די נאָטיץ איז ערשט אַרײַנגעפֿירט געוואָרן, און '{ importing-merge-notetypes }' איז נישט חל.
 importing-note-updated-as-file-had-newer = נאָטיץ איז דערהײַנטיקט געוואָרן, ווײַל די טעקע האָט געהאַט אַ נײַערן נוסח
 importing-note-skipped-due-to-missing-notetype = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר נאָטיצגרופּע פֿעלט
 importing-note-skipped-due-to-missing-deck = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר טעשל פֿעלט
@@ -198,6 +212,7 @@ importing-existing-notes-help =
 importing-match-scope-help = נאָר עקסיסטירנדיקע נאָטיצן בײַ דער זעלבער נאָטיצגרופּע וועלן ווערן באַטראַכט אויף צי ס׳זענען שוין קאָפּיעס. מע קען דאָס אויך באַגרענעצן נאָר אויף קאַרטלעך אינעם זעלבן טעשל.
 importing-tag-all-notes-help = די צעטלען וועלן ווערן צוגעלייגט אויף סײַ נײַ-אַרויסגעפֿירטע סײַ דערהײַנטיקטע נאָטיצן.
 importing-tag-updated-notes-help = די צעטלען וועלן ווערן צוגעלייגט אויף סײַ וועלכע דערהײַנטיקטע נאָטיצן.
+importing-overview = איבערבליק
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

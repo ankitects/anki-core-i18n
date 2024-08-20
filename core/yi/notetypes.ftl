@@ -25,6 +25,7 @@ notetypes-add-note-type = שאַפֿן נאָטיצגרופּע
 notetypes-cards = קאַרטלעך
 notetypes-clone = קלאָנירן: { $val }
 notetypes-copy = { $val } קאָפּיע
+notetypes-create-scalable-images-with-dvisvgm = שאַפֿן בילדער וואָס קענען ווערן פֿאַרקלענערט אָדער פֿאַרגרעסערט, ניצנדיק dvisvgm
 notetypes-delete-this-note-type-and-all = אָפּמעקן די נאָטיצגרופּע און אַלע אַזעלכע קאַרטלעך וואָס געהערן דערצו?
 notetypes-delete-this-unused-note-type = אָפּמעקן אָט י נישט-געניצטע נאָטיצגרופּע?
 notetypes-fields = פֿעלדער

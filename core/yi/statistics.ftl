@@ -152,7 +152,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = אָנגעזאַמלטע
 statistics-intervals-title = איבער׳חזר-צווישנצײַטן
-statistics-intervals-subtitle = אָפּלייגן ביז איבער׳חזר קאַרטלעך ווערן ווידער אויסגעוויזן
+statistics-intervals-subtitle = אָפּלייגן ביז חזר-קאַרטלעך ווערן ווידער אויסגעוויזן
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } קאַרטל מיט אַ { $daysStart }~{ $daysEnd }-טאָג צווישנצײַט

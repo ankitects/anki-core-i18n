@@ -58,7 +58,7 @@ sync-media-log-button = מעדיע בלעטל
 sync-abort-button = אָפּשטעלן
 sync-download-from-ankiweb = אַראָפּלאָדן פֿון AnkiWeb
 sync-upload-to-ankiweb = אַרויפֿלאָדן אין AnkiWeb
-sync-cancel-button = בטל מאַכן
+sync-cancel-button = אַנולירן
 
 ## Normal sync progress
 
