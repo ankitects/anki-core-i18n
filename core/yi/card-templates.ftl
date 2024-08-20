@@ -22,7 +22,7 @@ card-templates-add-mobile-class = צולייגן ׳מאָביל׳ קלאַס
 card-templates-preview-settings = ברירות
 card-templates-invalid-template-number = ס׳איז דאָ אַ דאגה מיט מוסטער-קאַרטל { $number } בײַ דער נאָטיצגרופּע '{ $notetype }'.
 card-templates-identical-front = דער פֿאָרנט איז אידענטיש מיטן מוסטער-קאַרטל { $number }.
-card-templates-no-front-field = מ׳האָט זיך געריכט געפֿינען אַ פֿעלד-פֿאַרבײַט אויפֿן פֿאָרנט פֿון מוסטער-קאַרטל.
+card-templates-no-front-field = מ׳האָט זיך געריכט געפֿינען אַ פֿעלד-פֿאַרבײַט אויפֿן פֿאָרנט פון מוסטער-קאַרטל.
 card-templates-missing-cloze = מ׳האָט זיך געריכט געפֿינען '{ "{{" }cloze:Text{ "}}" }' אָדער ענלעך אויף פֿאָרנט און הונטן פֿונעם מוסטער-קאַרטל.
 card-templates-extraneous-cloze = ׳שפּאַלט׳ קען מע מאַכן נאָר אויף שפּאַלט נאָטיצגרופּעס.
 card-templates-see-preview = זעט דעם פֿאָרויסווײַז צוליב נאָך אינפֿאָרמאַציע.
@@ -34,7 +34,7 @@ card-templates-anki-couldnt-find-the-line-between = אַנקי האָט נישט
 card-templates-at-least-one-card-type-is = ס׳מוז דאָ זײַן כאָטש איינע קאַרטלגרופּע.
 card-templates-browser-appearance = בלעטערער אָנבליק…
 card-templates-card = קאַרטל { $val }
-card-templates-card-types-for = מיני קאַרלעך פֿון { $val }
+card-templates-card-types-for = מיני קאַרלעך פון { $val }
 card-templates-cloze = שפּאַלט { $val }
 card-templates-deck-override = טעשל בטל מאַכן…
 card-templates-delete-the-as-card-type-and = אָפּמעקן די '{ $template }' קאַרטלגרופּע, און אַזאַ { $cards }?
@@ -45,8 +45,8 @@ card-templates-form = פֿאָרעם
 card-templates-off = (אויס)
 card-templates-on = (אײַן)
 card-templates-remove-card-type = אַוועקוואַרפֿן קאַרטלגרופּע…
-card-templates-rename-card-type = איבערבײַטן נאָמען פֿון קאַרטלגרופּע…
-card-templates-reposition-card-type = איבעררוקן פּאָזיציע פֿון קאַרטלגרופּע…
+card-templates-rename-card-type = איבערבײַטן נאָמען פון קאַרטלגרופּע…
+card-templates-reposition-card-type = איבעררוקן פּאָזיציע פון קאַרטלגרופּע…
 card-templates-card-count =
     { $count ->
         [one] { $count } קאַרטל
@@ -60,6 +60,6 @@ card-templates-this-will-create-card-proceed =
 card-templates-type-boxes-warning = ס׳קען זײַן נאָך איין וואָרטיר-קעסטל פּער מוסטער-קאַרטל.
 card-templates-restore-to-default = אויפֿריכטן אין עצם
 card-templates-restore-to-default-confirmation =
-    אַלע פֿעלדער און מוסטערן פֿון דער נאָטיצגרופּע וועלן אויפֿגעריכט ווערן אין עצם
+    אַלע פֿעלדער און מוסטערן פון דער נאָטיצגרופּע וועלן אויפֿגעריכט ווערן אין עצם
     ווערטן, און ס׳וועלן אַוועקגעוואָרפֿן ווערן אַלע איבעריקע פֿעלדער/מוסטערן, אַזאַ אינהאַלט און צוגעפּאַסטע שטייגערס. ווילסטו ממשיך זײַן?
 card-templates-restored-to-default = די נאָטיצגרופּע איז אויפֿגעריכטן געוואָרן אינם עצם-מצבֿ.

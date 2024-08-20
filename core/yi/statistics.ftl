@@ -98,7 +98,7 @@ statistics-average-stability = דורכשניטלעכע געזעצקייט
 statistics-card-retrievability-title = קאַרטל אָפּגעטראָגנקייט
 statistics-card-ease-subtitle = וואָס נידעריקער די גרינגקייט, אַלץ אָפֿטער וועט אַ קאַרטל ווערן אויסגעוויזן.
 statistics-card-difficulty-subtitle2 = וואָס העכער די שוועריקייט, אַלץ פּאַמעלעכער וואָס די געזעצקייט ווערן פֿאַרגרעסערט.
-statistics-retrievability-subtitle = דער משמעות פֿון זיך דערמאָנען אַ קאַרטל הײַנט.
+statistics-retrievability-subtitle = דער משמעות פון זיך דערמאָנען אַ קאַרטל הײַנט.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -120,7 +120,7 @@ statistics-future-due-subtitle = דער צאָל טערמיניקע איבער׳
 statistics-added-title = צוגעלייגט
 statistics-added-subtitle = דער צאָל נײַע קאַרטלעך וואָס זענען געשאַפֿן געוואָרן.
 statistics-reviews-count-subtitle = דער צאָל פֿראַגעס וואָס זענען געענטפֿערט געוואָרן.
-statistics-reviews-time-subtitle = דער משך פֿון ענטפֿערן פֿראַגעס.
+statistics-reviews-time-subtitle = דער משך פון ענטפֿערן פֿראַגעס.
 statistics-answer-buttons-title = ענטפֿער-קענפּלעך
 # eg Button: 4
 statistics-answer-buttons-button-number = קנעפּל
@@ -174,14 +174,14 @@ statistics-stability-day-single =
        *[other] { $cards } קאַרטלעך מיט אַ { $day }-טאָג געזעצקייט
     }
 # hour range, eg "From 14:00-15:00"
-statistics-hours-range = פֿון { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-range = פון { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } ריכטיק ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } איבער׳חזר׳ונגען
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% ריכטיק ({ $reviews })
 statistics-hours-title = צעפּרטלונג לויט שעהען
-statistics-hours-subtitle = איבער׳חזר-הצלחה פֿון אַלע שעה פֿונעם טאָג.
+statistics-hours-subtitle = איבער׳חזר-הצלחה פון אַלע שעה פֿונעם טאָג.
 # shown when graph is empty
 statistics-no-data = קיין דאַטן
 statistics-calendar-title = קאַלענדאַר
@@ -201,7 +201,7 @@ statistics-elapsed-time-years = { $amount }י
 
 ##
 
-statistics-average-for-days-studied = דורכשניט פֿון שטודיר-טעג
+statistics-average-for-days-studied = דורכשניט פון שטודיר-טעג
 statistics-total = סך-הכּל
 statistics-days-studied = טעג אײַנגע׳חזר׳ט
 statistics-average-answer-time-label = ענטפֿער-משך אין דורכשניט
@@ -209,7 +209,7 @@ statistics-average = דורכשניט
 statistics-average-interval = דורכשניטלעכער צווישנצײַט
 statistics-due-tomorrow = טערמיניק מאָרגן
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount } פֿון { $total } ({ $percent }%)
+statistics-amount-of-total-with-percentage = { $amount } פון { $total } ({ $percent }%)
 statistics-average-over-period = דורכשניט לויט זמן
 statistics-reviews-per-day =
     { $count ->

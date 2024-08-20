@@ -1,7 +1,7 @@
 browsing-add-notes = שאַפֿן נאָטיצן…
 browsing-add-tags2 = צולייגן צעטלעך…
 browsing-add-to-selected-notes = צולייגן אויף אויסגעקליבענע נאָטיצן
-browsing-remove-from-selected-notes = צונעמען פֿון אויסגעקליבענע נאָטיצן
+browsing-remove-from-selected-notes = צונעמען פון אויסגעקליבענע נאָטיצן
 browsing-addon = צוגאָגל
 browsing-all-fields = אַלע פֿעלדער
 browsing-answer = ענטפֿער
@@ -24,8 +24,8 @@ browsing-cards-deleted-with-deckname =
     { $count ->
         [one]
             { $count } קאַרטל
-            אויסגעמעקט געוואָרן פֿון { $deck_name }.
-       *[other] { $count } קאַרטלעך אויסגעמעקט געוואָרן פֿון { $deck_name }.
+            אויסגעמעקט געוואָרן פון { $deck_name }.
+       *[other] { $count } קאַרטלעך אויסגעמעקט געוואָרן פון { $deck_name }.
     }
 browsing-change-deck = איבערבײַטן טעשל
 browsing-change-deck2 = איבערבײַטן טעשל…
@@ -56,7 +56,7 @@ browsing-in = <b>אין</b>:
 browsing-interval = צווישנצײַט
 browsing-last-card = לעצטע קאַרטל
 browsing-learning = (לערנענדיק זיך)
-browsing-line-size = <b>גרייס פֿון שורה</b>:
+browsing-line-size = <b>גרייס פון שורה</b>:
 browsing-manage-note-types = אָנפֿירן מיט נאָטיצגרופּעס
 browsing-move-cards = איבעררוקן קאַרטלעך
 browsing-move-cards-to-deck = איבעררוקן קאַרטלעך אין טעשל:
@@ -85,7 +85,7 @@ browsing-search-bar-hint = זוכן קאַרטלעך/נאָטיצן (וואָר�
 browsing-search-in = זוכן צווישן:
 browsing-search-within-formatting-slow = זוכן צווישן פֿאָרמאַטירונג (פּאַמעלעך)
 browsing-selected-notes-only = נאָר אויסגעקליבענע נאָטיצן
-browsing-shift-position-of-existing-cards = איבעררוקן פּאָזיציע פֿון איצטיקע קאַרטלעך
+browsing-shift-position-of-existing-cards = איבעררוקן פּאָזיציע פון איצטיקע קאַרטלעך
 browsing-sidebar = זײַט-קעסטעלע
 browsing-sidebar-filter = זײַט-קעסטעלע פֿילטער
 # The field that is used for sorting (sort is an adjective here, not a verb)
@@ -104,7 +104,7 @@ browsing-toggle-suspend = אָפּשטעלן / נישט
 browsing-treat-input-as-regular-expression = באַהאַנדלען אַרײַנוואַרג ווי סתּם אַן אויסדרוק
 browsing-update-saved-search = דערהײַנטיקן מיט איצטיקע דורכזוך
 browsing-whole-collection = גאַנצע זאַמלונג
-browsing-window-title-notes = בלעטערן ({ $selected } פֿון { $total } אויסגעקליבענע נאָטיצן
+browsing-window-title-notes = בלעטערן ({ $selected } פון { $total } אויסגעקליבענע נאָטיצן
 browsing-you-must-have-at-least-one = ס׳מוז דאָ זײַן כאָטש איין קאָלאָנקע.
 browsing-group =
     { $count ->
@@ -126,7 +126,7 @@ browsing-cards-updated =
         [one] דערהײַנטיקט { $count } קאַרטל.
        *[other] דערהײַנטיקט { $count } קאַרטלעך.
     }
-browsing-window-title = בלעטערן ({ $selected }) פֿון { $total } אויסגעקליבענע קאַרטלעך.
+browsing-window-title = בלעטערן ({ $selected }) פון { $total } אויסגעקליבענע קאַרטלעך.
 browsing-sidebar-expand = צעוויקלען
 browsing-sidebar-collapse = צונויפֿוויקלען
 browsing-sidebar-expand-children = צעוויקלען סוב-שטיקלעך
@@ -140,12 +140,12 @@ browsing-sidebar-card-state = קאַרטל-מצבֿ
 browsing-sidebar-flags = סימנים
 browsing-today = הײַנט
 browsing-tooltip-card-modified = דָס לעצטע מאָל, וואָס מען האָט געביטן אַ  קאַרטל, צי איבערגע׳חזר׳ט, צי צוגעלייגט אַ סימן, צי איבערגעביט אין אַן אַנדער טעשל
-browsing-tooltip-note-modified = די לעצטיקע צײַט, וואָס מען האָט געביטן אַ  נאָטיץ, בדרך-כּלל אינהאַלט פֿון פֿעלדער אָדער געביטן די צעטלען
+browsing-tooltip-note-modified = די לעצטיקע צײַט, וואָס מען האָט געביטן אַ  נאָטיץ, בדרך-כּלל אינהאַלט פון פֿעלדער אָדער געביטן די צעטלען
 browsing-tooltip-card = דער נאָמען פֿונעם מוסטער-קאָרט בײַם קאַרטל
 browsing-tooltip-cards = וויפֿל קאַרטלעך ס׳זענען דאָ בײַם נאָטיץ
-browsing-tooltip-notetype = דער נאָמען פֿון דער נאָטיצגרופּע בײַ אַ נאָטיץ
-browsing-tooltip-question = דער פֿאָרנט פֿון אַ קאַרטל, וואָס מע קען צופּאַסן בײַם מוסטער-קאַרטל
-browsing-tooltip-answer = הינטן פֿון אַ קאַרטל, וואָס מע קען צופּאַסן בײַם מוסטער-קאַרטל
+browsing-tooltip-notetype = דער נאָמען פון דער נאָטיצגרופּע בײַ אַ נאָטיץ
+browsing-tooltip-question = דער פֿאָרנט פון אַ קאַרטל, וואָס מע קען צופּאַסן בײַם מוסטער-קאַרטל
+browsing-tooltip-answer = הינטן פון אַ קאַרטל, וואָס מע קען צופּאַסן בײַם מוסטער-קאַרטל
 browsing-studied-today = אײַנגע׳חזר׳ט
 browsing-added-today = צוגעלייגט
 browsing-again-today = ווידער
@@ -163,13 +163,13 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] איבערגעביטן פּאָזיציע פֿון { $count } נײַ קאַרטל.
-       *[other] איבערגעביטן פּאָזיציעס פֿון { $count } נײַע קאַרטלעך.
+        [one] איבערגעביטן פּאָזיציע פון { $count } נײַ קאַרטל.
+       *[other] איבערגעביטן פּאָזיציעס פון { $count } נײַע קאַרטלעך.
     }
 browsing-reparented-decks =
     { $count ->
-        [one] איבערגעביטן דעם נאָמען פֿון { $count } טעשל.
-       *[other] איבערגעביטן די נעמען פֿון { $count } טעשלעך.
+        [one] איבערגעביטן דעם נאָמען פון { $count } טעשל.
+       *[other] איבערגעביטן די נעמען פון { $count } טעשלעך.
     }
 browsing-sidebar-card-state-review = אײַנ׳חזר׳ן
 

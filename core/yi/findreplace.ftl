@@ -1,5 +1,5 @@
 findreplace-notes-updated =
     { $total ->
-        [one] { $changed } נאָטיץ פֿון { $total } איז דערהײַנטיקט געוואָרן
-       *[other] { $changed } נאָטיצן פֿון { $total } זענען דערהײַנטיקט געוואָרן
+        [one] { $changed } נאָטיץ פון { $total } איז דערהײַנטיקט געוואָרן
+       *[other] { $changed } נאָטיצן פון { $total } זענען דערהײַנטיקט געוואָרן
     }

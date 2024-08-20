@@ -10,7 +10,7 @@ card-template-rendering-browser-front-side-problem = ס׳איז דאָ אַ דא
 card-template-rendering-browser-back-side-problem = ס׳איז דאָ אַ דאגה מיטן בלעטערער-באַשטימט מוסטער-הינטן:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
-card-template-rendering-no-closing-brackets = '{ $missing }' פֿעלט פֿון '{ $tag }'
+card-template-rendering-no-closing-brackets = '{ $missing }' פֿעלט פון '{ $tag }'
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
 card-template-rendering-conditional-not-closed = ס׳פֿעלט '{ $missing }'
