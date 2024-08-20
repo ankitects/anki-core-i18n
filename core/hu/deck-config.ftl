@@ -17,18 +17,21 @@ deck-config-default-name = Alapértelmezés
 deck-config-daily-limits = Napi limitek
 deck-config-new-limit-tooltip =
     Az egy nap alatt bevezethető új kártyák maximális száma, ha új kártyák állnak rendelkezésre.
-    Mivel az új anyagok növelik a rövid távú felülvizsgálati munkaterhelést, ennek általában legalább 10-szer kisebbnek kell lennie, mint a felülvizsgálati limit.
+    Mivel az új anyagok növelik a rövid távú áttekintési munkaterhelést, ennek általában legalább 10-szer kisebbnek kell lennie, mint az áttekintési limit.
 deck-config-review-limit-tooltip =
-    Az egy nap alatt megjelenítendő felülvizsgálati kártyák maximális száma, 
-    ha a kártyák készen állnak a felülvizsgálatra.
+    Az egy nap alatt megjelenítendő áttekintendő kártyák maximális száma, 
+    ha a kártyák készen állnak az áttekintésre.
 deck-config-limit-deck-v3 =
     Ha olyan paklit tanulmányoz, amelyen belül alpaklik vannak, az egyes
     alpaklikra beállított korlátok szabályozzák az adott pakliból kihúzható kártyák maximális számát. 
     A kiválasztott pakli limitjei szabályozzák a megjelenített kártyák összességét.
 deck-config-limit-new-bound-by-reviews =
-    A felülvizsgálati korlát az új kártyakorlátot is befolyásolja. Például, ha a felülvizsgálati limit
-    200-ra van beállítva, és 190 felülvizsgálat várakozik, akkor legfeljebb 10 új kártya kerül bevezetésre. 
-    Ha a felülvizsgálati limitet elérte, nem jelennek meg új kártyák.
+    Az áttekintési korlát az új kártya korlátot is befolyásolja. Például, ha az áttekintési limit
+    200-ra van beállítva, és 190 áttekintés várakozik, akkor legfeljebb 10 új kártya kerül bevezetésre. 
+    Ha az áttekintési limitet elérte, nem jelennek meg új kártyák.
+deck-config-limit-interday-bound-by-reviews =
+    Az áttekintési korlát a napközi tanulókártyákat is érinti. A korlát alkalmazásakor 
+    a napközi tanulókártyák előbb kerülnek lekérdezésre, majd az áttekintések.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
