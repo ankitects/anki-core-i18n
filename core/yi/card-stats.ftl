@@ -11,6 +11,7 @@ card-stats-new-card-position = פּאָזיציע
 card-stats-card-template = קאַרטלגרופּע
 card-stats-note-type = נאָטיצגרופּע
 card-stats-deck-name = טעשל
+card-stats-preset = מוסטער
 card-stats-note-id = נאָטיץ-נומער
 card-stats-card-id = קאַרטל-נומער
 card-stats-review-log-rating = שאַץ
@@ -24,6 +25,9 @@ card-stats-review-log-type-filtered = פֿילטרירט
 card-stats-review-log-type-manual = בידים
 card-stats-no-card = (נישטאָ קיין קאַרטל וואָס צו ווײַזן.)
 card-stats-custom-data = צוגעפּאַסטע פּרטים
+card-stats-fsrs-stability = געזעצטקייט
+card-stats-fsrs-difficulty = שוועריקייט
+card-stats-fsrs-retrievability = צוריקגעטאָרגנקייט
 
 ## Window Titles
 

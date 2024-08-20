@@ -60,18 +60,18 @@ statistics-reviews =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] אײַנגעחזרט { statistics-cards }{ statistics-in-time-span-seconds }הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [minutes] אײַנגעחזרט { statistics-cards }{ statistics-in-time-span-minutes } הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [hours] אײַנגעחזרט { statistics-cards }{ statistics-in-time-span-hours } הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [days] אײַנגעחזרט { statistics-cards }{ statistics-in-time-span-days } הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [months] אײַנגעחזרט { statistics-cards }{ statistics-in-time-span-months }הײַנט ({ $secs-per-card }ס/קאַרטל)
-       *[years] אײַנגעחזרט { statistics-cards }{ statistics-in-time-span-years } הײַנט ({ $secs-per-card }ס/קאַרטל)
+        [seconds] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-seconds }הײַנט ({ $secs-per-card }ס/קאַרטל)
+        [minutes] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-minutes } הײַנט ({ $secs-per-card }ס/קאַרטל)
+        [hours] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-hours } הײַנט ({ $secs-per-card }ס/קאַרטל)
+        [days] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-days } הײַנט ({ $secs-per-card }ס/קאַרטל)
+        [months] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-months }הײַנט ({ $secs-per-card }ס/קאַרטל)
+       *[years] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-years } הײַנט ({ $secs-per-card }ס/קאַרטל)
     }
 statistics-today-title = הײַנט
 statistics-today-again-count = ווידער-חשבון:
-statistics-today-type-counts = לערנען: { $learnCount }, אײַנחזרן: { $reviewCount }, קריקלערנען: { $relearnCount }, פֿילטרירט: { $filteredCount }
-statistics-today-no-cards = קיין קאַרטל איז הײַנט נישט אײַנגעחזרט געוואָרן.
-statistics-today-no-mature-cards = קיין דערוואַקסן קאַרטל איז הײַנט נישט אײַנגעחזרט געוואָרן.
+statistics-today-type-counts = לערנען: { $learnCount }, אײַנ׳חזר׳ן: { $reviewCount }, קריקלערנען: { $relearnCount }, פֿילטרירט: { $filteredCount }
+statistics-today-no-cards = קיין קאַרטל איז הײַנט נישט אײַנגע׳חזר׳ט געוואָרן.
+statistics-today-no-mature-cards = קיין דערוואַקסן קאַרטל איז הײַנט נישט אײַנגע׳חזר׳ט געוואָרן.
 statistics-today-correct-mature = ריכטיקע ענטפֿערס אויף דערוואַקסענע קאַרטלעך: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = סך-הכּל
 statistics-counts-new-cards = נײַע
@@ -151,8 +151,8 @@ statistics-cards-due =
        *[other] { $cards } קאַרטלעך טערמיניק
     }
 statistics-backlog-checkbox = אָנגעזאַמלטע
-statistics-intervals-title = איבער׳חזר׳ונג-צווישנצײַטן
-statistics-intervals-subtitle = אָפּלייגן ביז איבער׳חזר׳ונגען ווערט ווידער אויסגעוויזן
+statistics-intervals-title = איבער׳חזר-צווישנצײַטן
+statistics-intervals-subtitle = אָפּלייגן ביז איבער׳חזר קאַרטלעך ווערן ווידער אויסגעוויזן
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } קאַרטל מיט אַ { $daysStart }~{ $daysEnd }-טאָג צווישנצײַט
@@ -181,7 +181,7 @@ statistics-hours-reviews = 📊 { $reviews } איבער׳חזר׳ונגען
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% ריכטיק ({ $reviews })
 statistics-hours-title = צעפּרטלונג לויט שעהען
-statistics-hours-subtitle = איבער׳חזר׳ן הצלחה פֿון אַלע שעה פֿונעם טאָג.
+statistics-hours-subtitle = איבער׳חזר-הצלחה פֿון אַלע שעה פֿונעם טאָג.
 # shown when graph is empty
 statistics-no-data = קיין דאַטן
 statistics-calendar-title = קאַלענדאַר
