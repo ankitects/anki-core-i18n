@@ -76,6 +76,16 @@ deck-config-relearning-steps = קריקלערן-שטאַפּלען
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = סעקונדעס אויף צו ווײַזן פֿראַגע
+deck-config-seconds-to-show-question-tooltip-3 = ווען אויטאָ-פֿאָראויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן ניצן די פֿראַגע טוּונג. כּדי בטל צו מאַכן, שטעלן ׳0׳.
+deck-config-seconds-to-show-answer = סעקונדעס אויף צו ווײַזן ענטפֿער
+deck-config-seconds-to-show-answer-tooltip-2 = ווען אויטאָ-פֿאָראויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן ניצן די ענטפֿער טוּונג. כּדי בטל צו מאַכן, שטעלן ׳0׳.
+deck-config-question-action-show-answer = באַווײַזן ענטפֿער
+deck-config-question-action-show-reminder = באַווײַזן דערמאָנונג
+deck-config-question-action = פֿראַגע טוּונג
+deck-config-question-action-tool-tip = דו טוּונג וואָס פֿירט זיך אויס נאָכן באַווײַזן אַ פֿראַגע, און זמן איז שוין פֿאַרבײַגעגאַנגען.
+deck-config-answer-action = ענטפֿער טוּונג
+deck-config-answer-action-tooltip-2 = דו טוּונג וואָס פֿירט זיך אויס נאָכן באַווײַזן אַן ענטפֿער, און זמן איז שוין פֿאַרבײַגעגאַנגען.
 
 ## Audio section
 
