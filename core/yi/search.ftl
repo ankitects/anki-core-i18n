@@ -17,10 +17,15 @@ search-missing-key = ס׳געפֿינט זיך אַן צווייפּינטעל `
 search-unknown-escape = די אַנטלויף-סדר ׳{ $val }׳ איז נישט באַשטימט. ווען דו ווילסט זוכן אַן אות-באותיק פֿאַרקרערטער קאָסאַק ׳\׳, הענג אָפּ נאָך איינעם: ׳\\׳.
 search-invalid-argument = אויף ׳{ $term }׳ האָט מען געלייגט אַ פּסול׳ן אַרגומענט '׳{ $argument }׳'.
 search-invalid-flag-2 = `flag:` (ד״ה, סימן) מוז ווערן נאָכגעקומען פון אַ סימן-נומער וואָס איז חל: `1` (רויט), `2` (אָראַנזש), `3` (גרין), `4` (בלאָ), `5` (ראָזע), `6` (טורקיזן), `7` (פּערפּל) אָדער `0` (קיין סימן).
+search-invalid-prop-operator = `prop:{ $val }` מוז ווערן נאָכגעקומען פון איינע פון די ווײַטערדיקע פֿאַרגלײַך אָפּעראַטאָרן: `=`, `!=`, `<`, `>`, `<=` or `>=`.
 search-invalid-other = גיב אַ קוק איבער, אַז ס׳איז נישטאָ קיין טיפּירן-טעות.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
+search-invalid-number = ערוואַרטעט אַ ציפֿער אין "`{ $context }`", אָבער געפֿונען "`{ $provided }`".
+search-invalid-whole-number = ערוואַרטעט אַ גאַנצע צאָל אין "`{ $context }`", אָבער געפֿונען "`{ $provided }`".
+search-invalid-positive-whole-number = ערוואַרטעט אַ פּאָזיטיווע גאַנצע צאָל אין "`{ $context }`", אָבער געפֿונען "`{ $provided }`".
+search-invalid-negative-whole-number = ערוואַרטעט אַ גאַנצע צאָל ווייניקע אָדער גלײַך מיט 0 אין "`{ $context }`", אָבער געפֿונען "`{ $provided }`".
 
 ## Column labels in browse screen
 
