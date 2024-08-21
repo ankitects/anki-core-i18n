@@ -26,6 +26,7 @@ search-invalid-number = ערוואַרטעט אַ ציפֿער אין "`{ $conte
 search-invalid-whole-number = ערוואַרטעט אַ גאַנצע צאָל אין "`{ $context }`", אָבער געפֿונען "`{ $provided }`".
 search-invalid-positive-whole-number = ערוואַרטעט אַ פּאָזיטיווע גאַנצע צאָל אין "`{ $context }`", אָבער געפֿונען "`{ $provided }`".
 search-invalid-negative-whole-number = ערוואַרטעט אַ גאַנצע צאָל ווייניקע אָדער גלײַך מיט 0 אין "`{ $context }`", אָבער געפֿונען "`{ $provided }`".
+search-invalid-answer-button = ערוואַרטעט אַן ענטפֿער קנעפּל צווישן 1-4 אין "`{ $context }`", אָבער געפֿונען זיך "`{ $provided }`".
 
 ## Column labels in browse screen
 

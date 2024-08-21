@@ -67,12 +67,47 @@ deck-config-relearning-steps = קריקלערן-שטאַפּלען
 
 ## Burying section
 
+deck-config-bury-title = אָפּהאַלטן
+deck-config-bury-new-siblings = אָפּהאַלטן נײַע געשוויסטער
+deck-config-bury-review-siblings = אָפּהאַלטן חזר-שוויסטער
+deck-config-bury-interday-learning-siblings = אָפּהאַלטן צווישטן-טעג לערן-געשוויסטער
 
 ## Ordering section
 
+deck-config-new-gather-priority-deck = טעשל
+deck-config-new-gather-priority-deck-then-random-notes = טעשל, דערנאָך נאָטיצן אויף טראַף
+deck-config-new-gather-priority-position-lowest-first = באַרג-אַרויף
+deck-config-new-gather-priority-position-highest-first = באַרג-אַראָפּ
+deck-config-new-gather-priority-random-notes = נאָטיצן אויף טראַף
+deck-config-new-gather-priority-random-cards = קאַרטלעך אויף טראַף
+deck-config-new-card-sort-order = נײַע קאַרטל סאָרטיר-סדר
+deck-config-sort-order-card-template-then-random = קאַרטלגרופּע, דערנאָך אויף טראַף
+deck-config-sort-order-random = אויף טראַף
+deck-config-sort-order-template-then-gather = קאַרטלגרופּע
+deck-config-sort-order-gather = סדר פֿאַרזאַמלט
+deck-config-new-review-priority = נײַ/חזר-סדר
+deck-config-review-mix-mix-with-reviews = צעמישן מיט חזר-קאַרטלעך
+deck-config-review-mix-show-after-reviews = ווײַזן נאָך חזר-קאַרטלעך
+deck-config-review-mix-show-before-reviews = ווײַזן פֿאַר חזר-קאַרטלעך
+deck-config-review-sort-order = איבער׳חזר סאָרטיר-סדר
+deck-config-sort-order-due-date-then-random = טערמין, דערנאָך אויף טראַף
+deck-config-sort-order-due-date-then-deck = טערמין, דערנאָך טעשל
+deck-config-sort-order-deck-then-due-date = טעשל, דערנאָך טערמין
+deck-config-sort-order-ascending-intervals = צווישנצײַט באַרג-אַרויף
+deck-config-sort-order-descending-intervals = צווישנצײַט באַרג-אַראָפּ
+deck-config-sort-order-ascending-ease = גרינגקייט באַרג-אַרויף
+deck-config-sort-order-descending-ease = גרינגקייט באַרג-אַראָפּ
+deck-config-sort-order-ascending-difficulty = שוועריקייט באַרג-אַרויף
+deck-config-sort-order-descending-difficulty = שוועריקייט באַרג-אַראָפּ
+deck-config-sort-order-relative-overdueness = רעלאַטיוו אָפּלייגעניש
 
 ## Timer section
 
+deck-config-timer-title = זייגער
+deck-config-stop-timer-on-answer = אָפּשטעלן זייגער בײַם ענטפֿערן
+deck-config-stop-timer-on-answer-tooltip =
+    צי דער זייגער זאָל זיך אָפּשטעלן ווען די ענטפֿער באַווײַזט זיך.
+    ס׳האָט נישט קיין השפּעה אויף די דאַטן.
 
 ## Auto Advance section
 
@@ -89,6 +124,7 @@ deck-config-answer-action-tooltip-2 = דו טוּונג וואָס פֿירט ז
 
 ## Audio section
 
+deck-config-audio-title = אוידיאָ
 
 ## Advanced section
 

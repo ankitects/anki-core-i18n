@@ -1,4 +1,4 @@
-database-check-corrupt = די זאַמלונג-טעקע איז נתחמץ געוואָרן. ריכט עס אויף פון אַ רעזערוו-קאָפּיע.
+database-check-corrupt = די זאַמלונג-טעקע איז געשעדיקט. ריכט עס אויף פון אַ רעזערוו-קאָפּיע.
 database-check-rebuilt = די דאַטן-באַזע איז איבערגעבויט און אָפּטימיזירט געוואָרן.
 database-check-card-properties =
     { $count ->
