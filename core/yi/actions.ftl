@@ -72,5 +72,5 @@ actions-set-flag = צולייגן סימן
 actions-nothing-to-undo = גאָרנישט צו אַנולירן
 actions-nothing-to-redo = גאָרנישט צו איבערמאַכן
 actions-auto-advance = אויטאָ-פֿאָראויסגיין
-actions-auto-advance-activated = אויטאָ-פֿאָראויסגיין חל געוואָרן
+actions-auto-advance-activated = אויטאָ-פֿאָראויסגיין אַקטיווירט
 actions-auto-advance-deactivated = אויטאָ-פֿאָראויסגיין בטל געוואָרן
