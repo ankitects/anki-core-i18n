@@ -56,7 +56,7 @@ actions-previous-card-info = פֿריִערדיקע קאַרטל פּרטים
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = …
-actions-fullscreen-unsupported = פֿול-עקראַן-מאָדוס אַרבעט נישט מיט דײַן ווידעאָראָד. פּרוביר איבערצובײַטן אין אַן אַנדער דורך די ברירות-עקראַן.
+actions-fullscreen-unsupported = פֿול-עקראַן-מאָדוס אַרבעט נישט מיט דײַן ווידעאָראָד. פּרוביר איבערצובײַטן אין אַן אַנדער דורך די אויסוואַל-עקראַן.
 
 ## Flags
 

@@ -137,6 +137,7 @@ deck-config-audio-title = אוידיאָ
 
 ## Other Buttons
 
+deck-config-revert-button-tooltip = צוריקציִען די פֿיקסירונג אין ווי ס׳איז געווען דורך פֿעליקייט.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
