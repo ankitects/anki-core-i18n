@@ -231,5 +231,5 @@ statistics-average-difficulty = דורכשניטלעכע שוועריקייט
 statistics-average-retrievability = דורכשניטלעכע אָפּגעטראָגנקייט
 statistics-save-pdf = אויפֿהיטן PDF
 statistics-saved = אויפֿגעהיט.
-statistics-stats = דאַטן
-statistics-title = דאַטן
+statistics-stats = סטאַט.
+statistics-title = סטאַטיסטיקס

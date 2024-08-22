@@ -86,7 +86,7 @@ scheduling-custom-study = אײַנ׳חזר׳ן צוגעפּאַסט
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 האַלט אַ נײַ פּלאַנירער, וואָס פֿאַרריכט עטלעכע ענינים פון פּריערדיקע נוסחאָות. ס׳איז כּדאי אַזוי צו דערהײַנטיקן דערצו.
+scheduling-update-soon = Anki 2.1 האַלט אַ נײַ פּלאַנירער, וואָס פֿאַרריכט עטלעכע ענינים פון פּריערדיקע ווערסיעס. ס׳איז כּדאי אַזוי צו דערהײַנטיקן דערצו.
 scheduling-update-done = פּלאַנירער איז דערהײַנטיקט געוואָרן.
 scheduling-update-button = דערהײַנטיקן
 scheduling-update-later-button = שפּעטער
@@ -145,7 +145,7 @@ scheduling-steps-in-minutes = שטאַפּלען (אין מינוטן)
 scheduling-steps-must-be-numbers = שטאַפּלען מוזן זײַן ציפֿער.
 scheduling-tag-only = נאָר צעטל
 scheduling-the-default-configuration-cant-be-removed = מע קען נישט אויסמעקן דעם עצם-אויסשטעל
-scheduling-your-changes-will-affect-multiple-decks = דײַנע איבערבײַטן גילטן אויף עטלעכע טעשלעך. ווען דו ווילסט בײַטן נאָר דאָס גיייִקע טעשל, קודם שאַף אַ נײַע ברירות-גרופּע.
+scheduling-your-changes-will-affect-multiple-decks = דײַנע איבערבײַטן גילטן אויף עטלעכע טעשלעך. ווען דו ווילסט טוישן נאָר דאָס גיייִקע טעשל, קודם שאַף אַ נײַע ברירות-גרופּע.
 scheduling-deck-updated =
     { $count ->
         [one] דערהײַנטיקט { $count } טעשל.

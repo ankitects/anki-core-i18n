@@ -2,8 +2,8 @@
 card-templates-blank = בלויז
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] ווײַטערדיקע בײַטן אונטן וועלן באַווירקן דעם { $count } נאָטיץ וואָס ניצט אָט די קאַרטלגרופּע.
-       *[other] ווײַטערדיקע בײַטן אונטן וועלן באַווירקן די { $count } נאָטיצן וואָס ניצט אָט די קאַרטלגרופּע.
+        [one] ווײַטערדיקע טוישונגען אונטן וועלן באַווירקן דעם { $count } נאָטיץ וואָס ניצט אָט די קאַרטלגרופּע.
+       *[other] ווײַטערדיקע טוישונגען אונטן וועלן באַווירקן די { $count } נאָטיצן וואָס ניצט אָט די קאַרטלגרופּע.
     }
 card-templates-card-type = קאַרטלגרופּע:
 card-templates-front-template = מוסטער-פֿאָרנט
@@ -27,8 +27,8 @@ card-templates-missing-cloze = מ׳האָט זיך געריכט געפֿינען
 card-templates-extraneous-cloze = ׳שפּאַלט׳ קען מע מאַכן נאָר אויף שפּאַלט נאָטיצגרופּעס.
 card-templates-see-preview = זעט דעם פֿאָרויסווײַז צוליב נאָך אינפֿאָרמאַציע.
 card-templates-field-not-found = פֿעלד '{ $field }' ווערט נישט געפֿונען.
-card-templates-changes-saved = אויפֿגעהיטן די בײַטן.
-card-templates-discard-changes = אַוועקוואַרפֿן בײַטן?
+card-templates-changes-saved = טוישונגען אויפֿגעהיטן.
+card-templates-discard-changes = אַוועקוואַרפֿן טוישונגען?
 card-templates-add-card-type = שאַפֿן קאַרטלגרופּע…
 card-templates-anki-couldnt-find-the-line-between = ANKI האָט נישט געפֿונען די ליניע צווישן דער פֿראַגע און דעם ענטפֿער. פּאַסט צו דעם מוסטער בידים כּדי איבערצובײַטן די פֿראַגע און ענטפֿער.
 card-templates-at-least-one-card-type-is = ס׳מוז דאָ זײַן כאָטש איינע קאַרטלגרופּע.

@@ -107,7 +107,7 @@ deck-config-timer-title = זייגער
 deck-config-stop-timer-on-answer = אָפּשטעלן זייגער בײַם ענטפֿערן
 deck-config-stop-timer-on-answer-tooltip =
     צי דער זייגער זאָל זיך אָפּשטעלן ווען די ענטפֿער באַווײַזט זיך.
-    ס׳האָט נישט קיין השפּעה אויף די דאַטן.
+    ס׳האָט נישט קיין השפּעה אויף די סטאַטיסטיקס.
 
 ## Auto Advance section
 
@@ -151,6 +151,7 @@ deck-config-revert-button-tooltip = צוריקציִען די פֿיקסירונ
 
 ## Messages related to the FSRS scheduler
 
+deck-config-please-save-your-changes-first = קודם, ביטע היט אויף טוישונגען.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

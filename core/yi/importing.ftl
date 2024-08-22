@@ -3,7 +3,7 @@ importing-aborted = אָפּגעשטעלט: { $val }
 importing-added-duplicate-with-first-field = דופּליקאַט צוגעשטעלט מיט ערשטער פֿעלד: { $val }
 importing-all-supported-formats = אַלע דערקענטע פֿאָרמאַטן { $val }
 importing-allow-html-in-fields = דערלויבן HTML אין פֿעלדער
-importing-anki-files-are-from-a-very = ".anki" טעקעס זענען פון ממש אַן אַלטן נוסח פון ANKI. מע קען זיי אַרײַנפֿירן מיט צוגאָבל 175027074 אָדער מיט אַנקי 2.0, וואָס געפֿינט זיך אויפֿן אַנקי וועבזײַטל.
+importing-anki-files-are-from-a-very = ".anki" טעקעס זענען פון ממש אַן אַלטער ווערסיע פון ANKI. מע קען זיי אַרײַנפֿירן מיט צולייגונג 175027074 אָדער מיט אַנקי 2.0, וואָס געפֿינט זיך אויפֿן אַנקי וועבזײַטל.
 importing-anki2-files-are-not-directly-importable = .anki2 טעקעס קען מען זיי נישט גלײַך אַרײַנפֿירן - אַנשטאָט, פֿיר אַרײַן די געקריגנע .apkg אָדער .zip טעקע.
 importing-appeared-twice-in-file = צוויי מאָל זיך געפֿונען אין טעקע: { $val }
 importing-by-default-anki-will-detect-the = דורך פֿעליקייט דערקענט ANKI דעם אות צווישן פֿעדלער, למשל טאַבקלאַוויש, קאָמע, אא״וו. ווען ANKI דערקענט אים נישט ריכטיק, קען מען אים אַרײַנלייגן דאָ. מע באַטײַט טאַבקלאַוויש מיט "t/".
@@ -17,7 +17,7 @@ importing-field-mapping = פֿעלדער צונויפֿפּאָרן
 importing-field-of-file-is = פֿעלד <b>{ $val }</b> פון דער טעקע איז:
 importing-fields-separated-by = פֿעדלער ווערן צעטיילט מיט: { $val }
 importing-file-must-contain-field-column = טעקע מוז אַרײַננעמען כאָטש איין קאָלאָנקע וואָס קען ווערן צונויפֿגעפּאָרט אין אַ נוטיצפֿעלד.
-importing-file-version-unknown-trying-import-anyway = אומבאַקאַטער טעקע׳נוסח, פּרוּוונדיק אַרײַנפֿירן נישט געקוקט אויף דעם.
+importing-file-version-unknown-trying-import-anyway = אומבאַקאַטער טעקע-ווערסיע, פּרוּוונדיק אימפּאָרטירן נישט געקוקט דעראויף.
 importing-first-field-matched = ערשט-געפּאָרט פֿעלד: { $val }
 importing-identical = אידענטיש
 importing-ignore-field = איגנאָרירן פֿעלד
@@ -34,7 +34,7 @@ importing-mapped-to-tags = צונויפֿגעפּאָרט מיט <b>צעטלען
 # the action of combining two existing notetypes to create a new one
 importing-merge-notetypes = צונויפֿגיסן מיני נאָטיצן
 importing-merge-notetypes-help =
-    ווען ס׳איז חל, און דו אָדער דער מחבר פון טעשל האָבן איבערגעביטן די סכעמע פון אַ נאָטיצגרופּע, Anki וועט צונויפֿגיסן די 2 נוסחות אַנשטאָט׳ן האַטלן ביידע.
+    ווען ס׳איז חל, און דו אָדער דער מחבר פון טעשל האָבן איבערגעביטן די סכעמע פון אַ נאָטיצגרופּע, Anki וועט צונויפֿגיסן די 2 ווערסיעס אַנשטאָט׳ן האַטלן ביידע.
     
     דאָס איבערבײַטן אַ סכעמע מײנט צושטעלן, אָפּנעמען, אָדער אויס׳סדר׳ן פֿעלדער אָדער מוסטערן, אָדער איבערבײַטן דאָס סאָרטיר-פֿעלד.
     אַ משל אויף פֿאַרקערט: איבערבײַטן דעם פֿאָרנט פון אַן איצטיקע מוסטער איז נישט גלײַך מיט קיין סכעמע-בײַט.
@@ -46,9 +46,9 @@ importing-notes-added-from-file = נאָטיצן צוגעשטעלט פון טע�
 importing-notes-found-in-file = נאָטיצן געפֿונען אין טעקע: { $val }
 importing-notes-skipped-as-theyre-already-in = אויסגעלאָזטע נאָטיצן, ווײַל דערהײַנטיקטע קאָפּיעס זענען שוין אין דײַן זאַמלונג: { $val }
 importing-notes-skipped-update-due-to-notetype = נישט-דערהײַנטיקטע נאָטיצן, ווײַל די נאָטיצגרופּע האָט מען אויסגעביטן זינט די נאָטיצן זענען צום ערשטנס אַרײַנגעפֿירט געוואָרן: { $val }
-importing-notes-updated-as-file-had-newer = דערהײַנטיקטע נאָטיצן, ווײַל טעקע האָט אַ נײַערן נוסח געהאָט: { $val }
+importing-notes-updated-as-file-had-newer = דערהײַנטיקטע נאָטיצן, ווײַל טעקע האָט אַ נײַערע ווערסיע געהאָט: { $val }
 importing-include-reviews = אַרײַננעמען איבער׳חזר׳ונגען
-importing-also-import-progress = אַרײַנפֿירן סײַ וועלכע מין לערנפּראָגרעס
+importing-also-import-progress = אימפּאָרטירן סײַ וועלכע מין לערנפּראָרעס
 importing-with-deck-configs = אַרײַנפֿירן סײַ וועלכע מין מוסטער-טעשלעך
 importing-updates = דערהײַנטיקונגען
 importing-include-reviews-help =
@@ -71,7 +71,7 @@ importing-tag-modified-notes = באַצעטלען אויסגעביטענע נא�
 importing-text-separated-by-tabs-or-semicolons = טעקסט צעטיילט פון טאַבקלאַווישן אָדער פּינטל-קאָמעס (*)
 importing-the-first-field-of-the-note = דאָס ערשטע פֿעלד פון דער נאָטיצגרופּע מוז ווערן צונויפֿגעפּאָרט.
 importing-the-provided-file-is-not-a = די אָנגעגעבענע טעקע איז נישט קיין גילטיקע ׳.apkg׳ טעקע.
-importing-this-file-does-not-appear-to = אַפּנים איז די טעקע נישט קיין גילטיקע .apkg טעקע. ווען ס׳קומט פֿאָר די טעות פון אַ טעקע וואָס איז אַראָפּגעלאָדן געוואָרן פון AnkiWeb, מסתּמא האָט זיך דער אַראָפּלאָד דורכגעפֿאַלן. פּרוּוו ווידער אַ מאָל, און, אַז דער פּראָבלעם קומט ווײַטער פֿאָר, פּרוּוו מיט אַן אַנדער בלעטערער.
+importing-this-file-does-not-appear-to = אַפּנים איז די טעקע נישט קיין גילטיקע .apkg טעקע. ווען ס׳קומט פֿאָר די טעות פון אַ טעקע וואָס איז אַראָפּגעלאָדנט געוואָרן פון AnkiWeb, מסתּמא האָט זיך דער אַראָפּלאָד דורכגעפֿאַלן. פּרוּוו ווידער אַ מאָל, און, אַז דער פּראָבלעם קומט ווײַטער פֿאָר, פּרוּוו מיט אַן אַנדער בלעטערער.
 importing-this-will-delete-your-existing-collection = דאָס וועט אָפּמעקן דײַנע איצטיקע זאַמלונג און זי פֿאַרבײַטן מיט די דאַטן אין דער טעקע וואָס דו ווילסט אַרײַנפֿירן. ביסט זשע זיכער?
 importing-unable-to-import-from-a-readonly = מע קען נישט אַרײַנפֿירן פון אַ טעקע וואָס נאָר צום לייענען.
 importing-unknown-file-format = טעקע-פאָרמאַט נישט דערקענט.
@@ -83,7 +83,7 @@ importing-update-never = קיין מאָל
 importing-update-notes = דערהײַנטיקן נאָטיצן
 importing-update-notes-help = ווען צו דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיץ אין דײַן זאַמלונג. דורך פֿעליקייט, דאָס ווערט געטאָן נאָר ווען די צוגעפּאַסטע נאָטיץ וואָס אַרײַנגעפֿירט איז גאָר לעצטנס מאָדיפֿיצירט געוואָרן.
 importing-update-notetypes = צונויפֿגיסן מיני-נאָטיצן
-importing-update-notetypes-help = ווען ס׳וועט זיך דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיצגרופּע איז דײַן זאַמלונג. דורך פֿעליקייט, ס׳געשיט נאָר אַז מע פֿירט אַרײַן אַ גלײַכע נאָטיצגרופּע וואָס איז שפּעטער מאָדיפֿיצירט געוואָרן. בײַטן איז מוסטער-טעקסט און שטייגער קען מען תּמיד אַרײַנפֿירן, אָבער אויב דער צאָל אָדער סדר פון פֿעלדער האָבן זיך געביטן, די { importing-merge-notetypes } ברירה מוז אויך ווערן אַקטיווירט.
+importing-update-notetypes-help = ווען ס׳וועט זיך דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיצגרופּע איז דײַן זאַמלונג. דורך פֿעליקייט, ס׳געשיט נאָר אַז מע פֿירט אַרײַן אַ גלײַכע נאָטיצגרופּע וואָס איז שפּעטער מאָדיפֿיצירט געוואָרן. טוישונגען אין מוסטער-טעקסט און שטייגער קען מען תּמיד אימפּאָרטירן, אָבער אויב דער צאָל אָדער סדר פון פֿעלדער האָט זיך געביטן, די { importing-merge-notetypes } ברירה מוז אויך ווערן אַקטיווירט.
 importing-note-added =
     { $count ->
         [one] { $count } נאָטיץ איז צוגעגעבן געוואָרן.
@@ -182,13 +182,13 @@ importing-notes-found-in-file2 =
     }
 importing-show = ווײַזן
 importing-details = פּרטים
-importing-status = מצבֿ
+importing-status = צושטאַנד
 importing-duplicate-note-added = צווייִיקע נאָטיץ צוגעשטעלט געוואָרן
 importing-added-new-note = נײַע נאָטיץ צוגעשטעלט געוואָרן
 importing-existing-note-skipped = נאָטיץ אויסגעלאָזט געוואָרן, ווײַל אַ דערהײַנטיקטע קאָפּיע איז שוין פֿאַראַן אין דײַן זאַמלונג: { $val }
 importing-note-skipped-update-due-to-notetype = נאָטיץ איז נישט-דערהײַנטיקט געוואָרן, ווײַל די נאָטיצגרופּע האָט מען אויסגעביטן זינט די נאָטיצן איז צום ערשטנס אַרײַנגעפֿירט געוואָרן
 importing-note-skipped-update-due-to-notetype2 = נאָטיץ איז נישט דערהײַנטיקט, ווײַל די נאָטיצגרופּע האָט זיך געביטן זינד די נאָטיץ איז ערשט אַרײַנגעפֿירט געוואָרן, און '{ importing-merge-notetypes }' איז נישט אַקטיווירט געוואָרן.
-importing-note-updated-as-file-had-newer = נאָטיץ איז דערהײַנטיקט געוואָרן, ווײַל די טעקע האָט געהאַט אַ נײַערן נוסח
+importing-note-updated-as-file-had-newer = נאָטיץ איז דערהײַנטיקט געוואָרן, ווײַל די טעקע האָט געהאַט אַ נײַערע ווערסיע
 importing-note-skipped-due-to-missing-notetype = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר נאָטיצגרופּע פֿעלט
 importing-note-skipped-due-to-missing-deck = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר טעשל פֿעלט
 importing-note-skipped-due-to-empty-first-field = נאָטיץ איז אַרויסגעלאָזט געוואָרן, ווײַל איר ערשטער פֿעלד איז ליידיק
