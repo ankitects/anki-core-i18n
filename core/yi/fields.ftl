@@ -19,5 +19,5 @@ fields-name-first-letter-not-valid = דער פֿעלדנאָמען טאָר ני
 fields-name-invalid-letter = דער פֿעלדנאָמען טאָר נישט אַרײַננעמען: ", { "{" } אָדער { "}" }.
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
-fields-exclude-from-search = אויסשליסן פון נישט-באַגרעניצטע דורכזוכן (פּאַמעלעכער)
+fields-exclude-from-search = אויסשליסן פון נישט-באַגרעניצטע זוכן (פּאַמעלעכער)
 fields-field-is-required = דאָס איז אַ מוז-פֿעלד, קען מען דאָס נישט אויסמעקן.
