@@ -78,7 +78,7 @@ scheduling-today-new-limit-reached = ס׳בלײַבן נאָך נײַע קאַר
 scheduling-buried-cards-found = עס זענען דאָ קאַרטלעך וואָס זענען אָפּגעהאַלטן געוואָרן, און וועט מאָרגן ווערן אַרויסגעוויזן. קענסט { $unburyThem } ווען דו ווילסט זיי זען תּיכף-ומיד.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = זיי קריקכאַפּן
+scheduling-unbury-them = צוריקנעמען זיי
 scheduling-how-to-custom-study = ווען דו ווילסט זיך לערנען אויסן דעם געווייטלעכן פּלאַן, קענסט ניצן { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
@@ -143,7 +143,7 @@ scheduling-show-new-cards-in-random-order = אַרויסווײַזן נײַע ק
 scheduling-starting-ease = גרונט-גרינגקייט
 scheduling-steps-in-minutes = שטאַפּלען (אין מינוטן)
 scheduling-steps-must-be-numbers = שטאַפּלען מוזן זײַן ציפֿער.
-scheduling-tag-only = נאָר צעטל
+scheduling-tag-only = נאָר באַצעטלען
 scheduling-the-default-configuration-cant-be-removed = מע קען נישט אויסמעקן דעם עצם-אויסשטעל
 scheduling-your-changes-will-affect-multiple-decks = דײַנע איבערבײַטן גילטן אויף עטלעכע טעשלעך. ווען דו ווילסט טוישן נאָר דאָס גיייִקע טעשל, קודם שאַף אַ נײַע ברירות-גרופּע.
 scheduling-deck-updated =

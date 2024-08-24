@@ -4,7 +4,7 @@ notetypes-notetype = נאָטיצגרופּע
 
 notetypes-front-field = פֿאָרנט
 notetypes-back-field = הינטן
-notetypes-add-reverse-field = צוטשטעלן היפּוך
+notetypes-add-reverse-field = צולייגן פֿאַרקערט קאַרטל
 notetypes-text-field = טעקסט
 notetypes-back-extra-field = הינטן (איבעריק)
 
