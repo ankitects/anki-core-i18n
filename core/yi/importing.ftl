@@ -56,7 +56,7 @@ importing-include-reviews-help =
     ווען נישט, וועלן אַלע קאַרטלעך אַרײַנגעפֿירט ווערן ווי נײַע קאַרטלעך.
 importing-with-deck-configs-help =
     ווען אַקטיווירט, אַרײַנגענעמענע טעשל-ברירות וועלן אויך אַרײַנגעפֿירט ווערן. 
-    אַנישט, וועלן אַלע טעשלעך באַשטימט ווערן אויפֿן עצם מוסטער-טעשל.
+    אַנישט, וועלן אַלע טעשלעך באַשטימט ווערן אויפֿן מוסטער-טעשל לויט פֿעליקייט.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = אײַנגעפּאַקט ANKI טעשל/זאַמלונג (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 לעקציע (*.pau.gz)
 # the '|' character
