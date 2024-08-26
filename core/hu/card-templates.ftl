@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = üres
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] A változtatás hatással lesz { $count } kártyára.
@@ -10,13 +12,13 @@ card-templates-template-styling = Stílus
 card-templates-front-preview = Előlapkép
 card-templates-back-preview = Hátlapkép
 card-templates-preview-box = Előnézet
+card-templates-template-box = Sablon
 card-templates-sample-cloze = Ez egy { "{{c1::" }minta{ "}}" } lyukas szöveg.
 card-templates-add-card-type = Kártyatípus hozzáadása...
 card-templates-anki-couldnt-find-the-line-between = Az Anki nem találja a kérdés és a válasz közti vonalat. Kérjük, módosítsa kézzel a sablont, hogy váltani lehessen kérdés-válasz között.
 card-templates-at-least-one-card-type-is = Legalább egy kártyatípus szükséges.
 card-templates-browser-appearance = Böngésző-megjelenés
 card-templates-card = { $val }. kártya
-card-templates-card-types = Kártyatípusok
 card-templates-card-types-for = Kártyatípusok ehhez: { $val }
 card-templates-cloze = Lyukas szöveg
 card-templates-deck-override = A pakli felülbírálása ...

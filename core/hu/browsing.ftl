@@ -147,7 +147,31 @@ browsing-added-today = Ma hozzáadottak
 browsing-again-today = Mai „újra” értékelésűek
 browsing-edited-today = Szerkesztve
 browsing-sidebar-first-review = Első ismétlés
+browsing-sidebar-rescheduled = Átütemezett
+browsing-sidebar-due-today = Esedékes
+browsing-sidebar-untagged = Címkézetlen
+browsing-sidebar-overdue = Késedelmes
+browsing-row-deleted = (törölve)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Eltávolítottuk a { $count } nem használt címkét.
+       *[other] Eltávolítottuk a { $count } nem használt címkéket.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Megváltozott a { $count } új kártya pozíciója.
+       *[other] Megváltozott a { $count } új kártyák pozíciójai.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Átnevezett { $count } pakli.
+       *[other] Átnevezett { $count } paklik.
+    }
 browsing-sidebar-card-state-review = Ismétlés
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N

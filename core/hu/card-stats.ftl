@@ -11,6 +11,7 @@ card-stats-new-card-position = Sorrendi hely
 card-stats-card-template = Kártyatípus
 card-stats-note-type = Jegyzettípus
 card-stats-deck-name = Csomag
+card-stats-preset = Előbeállítás
 card-stats-note-id = Jegyzetazonosító
 card-stats-card-id = Kártyaazonosító
 card-stats-review-log-rating = Értékelés
@@ -21,4 +22,13 @@ card-stats-review-log-type-learn = Tanulás
 card-stats-review-log-type-review = Ismétlés
 card-stats-review-log-type-relearn = Újratanulás
 card-stats-review-log-type-filtered = Szűrt
-card-stats-review-log-type-rescheduled = Átütemezés
+card-stats-review-log-type-manual = Manual
+card-stats-no-card = (Nincs megjelenítendő kártya.)
+card-stats-custom-data = Egyedi adatok
+card-stats-fsrs-stability = Stabilitás
+card-stats-fsrs-difficulty = Nehézség
+
+## Window Titles
+
+card-stats-current-card = Jelenlegi kártya ({ $context })
+card-stats-previous-card = Előző kártya ({ $context })

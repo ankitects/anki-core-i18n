@@ -6,6 +6,8 @@
 card-template-rendering-more-info = További információ
 card-template-rendering-front-side-problem = Az előlapsablon hibás:
 card-template-rendering-back-side-problem = A hátlapsablon hibás:
+card-template-rendering-browser-front-side-problem = A böngészőspecifikus elülső sablon problémás:
+card-template-rendering-browser-back-side-problem = A böngészőspecifikus hátsó sablon problémás:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Hiányzik a '{ $missing }' - '{ $tag }'
@@ -25,3 +27,6 @@ card-template-rendering-no-such-field = Talált '{ $found }', de nincs ilyen '{ 
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = A kártya előlapja üres.
+card-template-rendering-missing-cloze =
+    Nem találtunk lyukas törlést { $number } a kártyán.
+    Kérjük, vagy adjon hozzá egy lyukas törlést, vagy használja az Üres kártyák eszközt.
