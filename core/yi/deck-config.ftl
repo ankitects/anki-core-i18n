@@ -169,10 +169,15 @@ deck-config-question-action = פֿראַגע טוּונג
 deck-config-question-action-tool-tip = דו טוּונג וואָס פֿירט זיך אויס נאָכן באַווײַזן אַ פֿראַגע, און זמן איז שוין פֿאַרבײַגעגאַנגען.
 deck-config-answer-action = ענטפֿער טוּונג
 deck-config-answer-action-tooltip-2 = דו טוּונג וואָס פֿירט זיך אויס נאָכן באַווײַזן אַן ענטפֿער, און זמן איז שוין פֿאַרבײַגעגאַנגען.
+deck-config-wait-for-audio-tooltip-2 = וואַרט ביז דער אוידיאָ זאָל זיך פֿאַרענדיקן פֿאַר׳ן דורכפֿירן די פֿראַגע-טוּונג אָדער ענטפֿער-טוּונג.
 
 ## Audio section
 
 deck-config-audio-title = אוידיאָ
+deck-config-disable-autoplay = שפּילן נישט דעם אוידיאָ אויטאָמאַטיש
+deck-config-disable-autoplay-tooltip =
+    וועל ס׳איז חל, אנקי וועט נישט שפּילן קיין אוידיאָ אויטאָמאַטיש.
+    מע קען אים שפּילן בידים מיט׳ן קליקן/דריקן אַן אוידיאָ בילדל, אָדער מיטן ניצן די ״איבערשפּילן״ טוּונג.
 
 ## Advanced section
 
