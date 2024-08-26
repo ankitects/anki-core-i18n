@@ -152,6 +152,7 @@ deck-config-display-order-will-use-current-deck = ANKI וועט ניצן דעם 
 deck-config-timer-title = זייגער
 deck-config-maximum-answer-secs = מאַקסימאַלע ענטפֿער-סעקונדעס
 deck-config-maximum-answer-secs-tooltip = דער גרעסטער צאָל סעקונדעס וואָס קענען פֿאַרשריבן ווערן פֿון אַן איינציקער איבער׳חזר׳ונג. ווען אַן ענטפֿער ווערט גרעסער פֿון דעם משך (למשל, אַז מע גייט אַוועק פֿון קאָמפּיוטער), דער משך וועט זיך פֿאַרשרײַבן אַלס דער באַשטימטער גרענעץ.
+deck-config-show-answer-timer-tooltip = אין דעם ,איבער׳חזר-עקראַן, ווײַזן אַ זייגער וואָס ציילט די צאָל סעקונדעס אויף אײַנצו׳חזר׳ן יעדער קאַרטל.
 deck-config-stop-timer-on-answer = אָפּשטעלן זייגער בײַם ענטפֿערן
 deck-config-stop-timer-on-answer-tooltip =
     צי דער זייגער זאָל זיך אָפּשטעלן ווען די ענטפֿער באַווײַזט זיך.
