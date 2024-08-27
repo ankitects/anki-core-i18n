@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Kérjük, először nevezze át a meglévő Egyéni tanulás Paklit.
 custom-study-all-cards-in-random-order-dont = Az összes kártya véletlenszerű sorrendben (ne ütemezze újra)
 custom-study-all-review-cards-in-random-order = Az összes ismétlőkártya véletlenszerű sorrendben
 custom-study-cards = kártya
@@ -9,7 +10,6 @@ custom-study-increase-todays-new-card-limit = Új kártyák mai limitjének növ
 custom-study-increase-todays-new-card-limit-by = Új kártyák mai limitjének növelése ennyivel:
 custom-study-increase-todays-review-card-limit = Ismétlőkártyák mai limitjének növelése
 custom-study-increase-todays-review-limit-by = Ismétlőkártyák mai limitjének növelése ennyivel:
-custom-study-new-cards-in-deck-over-today = Mai új kártyák száma korlátozva: { $val }
 custom-study-new-cards-only = Csak az új kártyák
 custom-study-no-cards-matched-the-criteria-you = A megadott feltételeknek egyetlen kártya sem felelt meg.
 custom-study-ok = OK
@@ -20,8 +20,15 @@ custom-study-review-ahead = Előzetes ismétlés
 custom-study-review-ahead-by = Előzetes ismétlés erre az időszakra:
 custom-study-review-cards-forgotten-in-last = Az elmúlt időszakban elfelejtett ismétlőkártyák:
 custom-study-review-forgotten-cards = Elfelejtett kártyák ismétlése
-custom-study-reviews-due-in-deck-over-today = Ma esedékes ismétlések száma korlátozva: { $val }
 custom-study-select = Kijelölés
 custom-study-select-tags-to-exclude = Kizárandó címkék:
 custom-study-selective-study = Célzott tanulás
 custom-study-study-by-card-state-or-tag = Tanulás a kártyák állapota vagy címkéje szerint
+custom-study-available-new-cards-2 = Elérhető új kártyák: { $countString }
+custom-study-available-review-cards-2 = Elérhető áttekintő kártyák: { $countString }
+custom-study-available-child-count = ({ $count } ) az alpaklikban)
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+custom-study-available-new-cards = Elérhető új kártyák: { $count }
+custom-study-available-review-cards = Elérhető áttekintő kártyák: { $count }

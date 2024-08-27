@@ -24,6 +24,7 @@ card-templates-extraneous-cloze = A 'cloze:' csak a lyukas szöveg jegyzettípus
 card-templates-see-preview = További információkért lásd az előnézetet.
 card-templates-field-not-found = A '{ $field }' mező nem található.
 card-templates-changes-saved = A módosítások elmentve.
+card-templates-discard-changes = A módosítások eldobása?
 card-templates-add-card-type = Kártyatípus hozzáadása...
 card-templates-anki-couldnt-find-the-line-between = Az Anki nem találja a kérdés és a válasz közti vonalat. Kérjük, módosítsa kézzel a sablont, hogy váltani lehessen kérdés-válasz között.
 card-templates-at-least-one-card-type-is = Legalább egy kártyatípus szükséges.
@@ -52,3 +53,9 @@ card-templates-this-will-create-card-proceed =
         [one] Ez { $count } kártyát fog létrehozni. Folytatni kívánja?
        *[other] Ez { $count } kártyát fog létrehozni. Folytatni kívánja?
     }
+card-templates-type-boxes-warning = Kártyasablononként csak egy gépelési mező támogatott.
+card-templates-restore-to-default = Visszaállítás alapértelmezettre
+card-templates-restore-to-default-confirmation =
+    Ez az összes mezőt és sablont visszaállítja az alapértelmezett értékekre
+    ebben a jegyzettípusban, eltávolítva minden extra mezőt/sablont és azok tartalmát, valamint minden egyéni stílusjegyet. Szeretné folytatni?
+card-templates-restored-to-default = A jegyzettípus visszaállt az eredeti állapotába.
