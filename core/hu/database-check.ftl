@@ -30,6 +30,21 @@ database-check-missing-decks =
         [one] Fixed { $count } hiányzó pakli.
        *[other] Fixed { $count } hiányzó paklik.
     }
+database-check-revlog-properties =
+    { $count ->
+        [one] Javítva az érvénytelen tulajdonságokkal rendelkező { $count } áttekintési bejegyzést.
+       *[other] Javítva az érvénytelen tulajdonságokkal rendelkező { $count } áttekintési bejegyzések.
+    }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] Javított { $count } jegyzet érvénytelen utf8 karakterekkel.
+       *[other] Javított { $count } jegyzetek érvénytelen utf8 karakterekkel.
+    }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] Javított { $count } objektum időbélyegekkel a jövőben.
+       *[other] Javított { $count } objektumok időbélyegekkel a jövőben.
+    }
 
 ## Progress info
 
