@@ -105,8 +105,8 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = Eltemetés
-deck-config-bury-new-siblings = Új testvérek eltemetése
+deck-config-bury-title = Félretevés
+deck-config-bury-new-siblings = Új testvérek félretevése
 deck-config-bury-review-siblings = áttekintési testvérek eltemetése
 deck-config-bury-interday-learning-siblings = Napközi tanulási testvérek eltemetése
 deck-config-bury-new-tooltip =
@@ -206,9 +206,13 @@ deck-config-sort-order-ascending-ease = Növekvő könnyedség
 deck-config-sort-order-descending-ease = Csökkenő könnyedség
 deck-config-sort-order-ascending-difficulty = Növekvő nehézség
 deck-config-sort-order-descending-difficulty = Csökkenő nehézség
+deck-config-sort-order-relative-overdueness = relatív elmaradás
+deck-config-display-order-will-use-current-deck = Az Anki a tanuláshoz kiválasztott pakli megjelenítési sorrendjét fogja használni, nem pedig az esetleges alpaklik sorrendjét.
 
 ## Timer section
 
+deck-config-timer-title = Időzítő
+deck-config-maximum-answer-secs = Maximális válasz másodpercek
 
 ## Auto Advance section
 

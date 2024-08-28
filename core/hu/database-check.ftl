@@ -10,6 +10,11 @@ database-check-missing-templates =
         [one] { $count } sablon nélküli kártya törölve.
        *[other] { $count } sablon nélküli kártya törölve.
     }
+database-check-field-count =
+    { $count ->
+        [one] Javítottuk a { $count } megjegyzést a rossz mezőszámmal.
+       *[other] Javítottuk a { $count } megjegyzéseket a rossz mezőszámmal.
+    }
 database-check-new-card-high-due =
     { $count ->
         [one] Találtam { $count } új kártyát, amelynek esedékes száma >= 1,000,000 - fontolja meg a kártya újrapozícionálását a BöngészésI képernyőn.

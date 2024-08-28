@@ -1,5 +1,6 @@
 actions-add = Hozzáadás
 actions-all-selected = összes kiválasztva
+actions-any-selected = Minden kiválasztott
 actions-cancel = Mégsem
 actions-choose = Kiválasztás
 actions-close = Bezárás
@@ -37,7 +38,7 @@ actions-shortcut-key = Gyorsbillentyű: { $val }
 actions-suspend-card = Kártya felfüggesztése
 actions-set-due-date = Az esedékesség beállítása
 actions-answer-card = Válaszkártya
-actions-unbury-unsuspend = Eltemetés/felfüggesztés megszüntetése
+actions-unbury-unsuspend = Félretevés/felfüggesztés megszüntetése
 actions-add-deck = Pakli hozzáadása
 actions-add-note = Jegyzet hozzáadása
 actions-update-tag = Címke frissítése

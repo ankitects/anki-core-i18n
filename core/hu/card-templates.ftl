@@ -16,6 +16,9 @@ card-templates-template-box = Sablon
 card-templates-sample-cloze = Ez egy { "{{c1::" }minta{ "}}" } lyukas szöveg.
 card-templates-fill-empty = Üres mezők kitöltése
 card-templates-night-mode = Éjszakai üzemmód
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Mobil osztály hozzáadása
 card-templates-preview-settings = Beállítások
 card-templates-invalid-template-number = A { $number } kártyasablonnak a '{ $notetype }' jegyzettípusban problémája van.
 card-templates-identical-front = Az előlap megegyezik a { $number } kártyasablonnal.
