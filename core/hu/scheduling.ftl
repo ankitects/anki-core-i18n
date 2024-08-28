@@ -81,7 +81,26 @@ scheduling-today-new-limit-reached =
     Van még új kártya, de elérte a napi limitet. Növelheti a limitet
     a beállításoknál, de kérjük, tartsa szem előtt, hogy minél több
     új kártyát vezet be, annál megterhelőbb lesz a rövid távú ismétlés.
-scheduling-buried-cards-were-delayed = Egyes kapcsolódó vagy félretett kártyákat későbbre halasztottunk.
+scheduling-buried-cards-found = Egy vagy több kártya félre lett téve, és holnap jelenik meg. Kattintson { $unburyThem }, ha azonnal látni szeretné őket.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = szabadítsa fel őket
+scheduling-how-to-custom-study = Ha a rendszeres időbeosztáson kívül szeretne tanulni, használhatja a { $customStudy } funkciót.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = egyéni tanulás
+
+## Scheduler upgrade
+
+scheduling-update-soon = Az Anki 2.1 új ütemezővel érkezik, amely számos olyan problémát orvosol, amelyek a korábbi Anki-verziókban voltak. A frissítés ajánlott.
+scheduling-update-done = Az ütemező sikeresen frissült.
+scheduling-update-button = Frissíteni
+scheduling-update-later-button = Később
+scheduling-update-more-info-button = Tudjon meg többet
+scheduling-update-required = A gyűjteményét frissíteni kell a V2 ütemezőre. Kérjük, a folytatás előtt válassza a { scheduling-update-more-info-button }
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Mindig tartalmazzon kérdési oldalt hang lejátszásakor
 scheduling-at-least-one-step-is-required = Legalább egy lépés szükséges
 scheduling-automatically-play-audio = Hang automatikus lejátszása
@@ -89,7 +108,6 @@ scheduling-bury-related-new-cards-until-the = Kapcsolódó új kártyák félret
 scheduling-bury-related-reviews-until-the-next = Kapcsolódó ismétlések félretevése másnapig
 scheduling-days = nap
 scheduling-description = Leírás
-scheduling-description-to-show-on-overview-screen = A jelenlegi pakliról az áttekintő képernyőn megjelenő leírás:
 scheduling-easy-bonus = Könnyű válasznál adott bónusz
 scheduling-easy-interval = Könnyű válasz időköze
 scheduling-end = (vége)
@@ -130,7 +148,8 @@ scheduling-steps-must-be-numbers = A lépéseknek számoknak kell lenniük.
 scheduling-tag-only = Csak címke
 scheduling-the-default-configuration-cant-be-removed = Az alapértelmezett beállítás nem törölhető.
 scheduling-your-changes-will-affect-multiple-decks = A módosításai több paklit is érintenek. Ha csak az aktuális paklit szeretné módosítani, kérjük, hozzon létre előbb ehhez egy új opciócsoportot.
-scheduling-deck-updated = { $count ->
-    [one] { $count } pakli frissítve.
-   *[other] { $count } pakli frissítve.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } pakli frissítve.
+       *[other] { $count } pakli frissítve.
+    }

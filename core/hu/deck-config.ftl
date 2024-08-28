@@ -107,8 +107,8 @@ deck-config-leech-action-tooltip =
 
 deck-config-bury-title = Félretevés
 deck-config-bury-new-siblings = Új testvérek félretevése
-deck-config-bury-review-siblings = áttekintési testvérek eltemetése
-deck-config-bury-interday-learning-siblings = Napközi tanulási testvérek eltemetése
+deck-config-bury-review-siblings = áttekintési testvérek félretevése
+deck-config-bury-interday-learning-siblings = Napközi tanulási testvérek félretevése
 deck-config-bury-new-tooltip =
     Az, hogy más "új" kártyák ugyanarról a jegyzetről (pl. fordított kártyák, szomszédos lyukas szöveg kártyák)
     a következő napra halasztódnak-e.
@@ -117,13 +117,13 @@ deck-config-bury-interday-learning-tooltip = Az azonos jegyzetű, 1 napnál hoss
 deck-config-bury-priority-tooltip =
     Amikor az Anki kártyákat gyűjt, először a napközbeni tanulókártyákat, 
     majd a napközi tanulókártyákat, aztán az áttekintéseket, végül az új kártyákat
-    gyűjti össze. Ez befolyásolja hogyan működik az eltemetés:
+    gyűjti össze. Ez befolyásolja hogyan működik a félretevés:
     
-    - Ha az összes eltemetési opciót engedélyezte, akkor a listában legkorábban 
+    - Ha az összes félretevési opciót engedélyezte, akkor a listában legkorábban 
     előforduló testvér lesz látható. Például egy áttekintő kártya előbb lesz látható, 
     mint egy új kártya.
     - A listában később szereplő testvérek nem temethetik el a korábbi kártyatípusokat.
-    Ha például kikapcsolja az új kártyák eltemetését, és új kártyát tanul, akkor
+    Ha például kikapcsolja az új kártyák félretevését, és új kártyát tanul, akkor
     az nem temet el napközi tanulási vagy áttekintő kártyákat, és előfordulhat, hogy 
     egyazon munkamenetben egy áttekintő és
     egy új testvérkártyát is láthat.
@@ -161,13 +161,13 @@ deck-config-new-gather-priority-random-cards = Véletlenszerű Kártyák
 deck-config-new-card-sort-order = Új kártya rendezési sorrend
 deck-config-new-card-sort-order-tooltip-2 =
     `Kártya típusa`: Kártyák megjelenítése a kártyatípus száma szerinti sorrendben. 
-    Ha a testvérek eltemetése le van tiltva, ez biztosítja, hogy az összes elülső→hátsó
+    Ha a testvérek félretevése le van tiltva, ez biztosítja, hogy az összes elülső→hátsó
     kártya előbb jelenjen meg, mint a hátsó→elülső kártyák.
     Ez hasznos, ha az összes azonos jegyzetű kártyát ugyanabban a munkamenetben szeretné 
     megjeleníteni úgy,  hogy ne legyenek túl közel egymáshoz.
     
     `Összegyűjtött rend`: A kártyákat pontosan a gyűjtésük sorrendjében mutatja. Ha a testvérek 
-    eltemetése ki van kapcsolva,ez általában azt eredményezi, hogy egy jegyzet összes kártyája egymás után lesz látható.
+    félretevése ki van kapcsolva,ez általában azt eredményezi, hogy egy jegyzet összes kártyája egymás után lesz látható.
     
     `Kártya típusa, majd véletlenszerű`: Mint a `Kártya típusa`, de az egyes kártyatípusok 
     számait megkeveri. Ha a `Növekvő sorrend`-et használja a legrégebbi kártyák összegyűjtésére, 

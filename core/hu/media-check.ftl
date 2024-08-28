@@ -14,6 +14,7 @@ media-check-unused-count = Nem használt fájlok: { $count }
 media-check-renamed-count = Átnevezett fájlok: { $count }
 media-check-oversize-count = Több mint 100 MB: { $count }
 media-check-subfolder-count = Almappák: { $count }
+media-check-extracted-count = Kivont képek: { $count }
 
 ## Shown at the top of each section
 
@@ -22,6 +23,10 @@ media-check-oversize-header = A 100 MB feletti fájlokat nem lehet szinkronizál
 media-check-subfolder-header = A médiamappában lévő mappák nem támogatottak.
 media-check-missing-header = Az alábbi fájlokra kártyák hivatkoznak, de nem találhatók a médiamappában:
 media-check-unused-header = Az alábbi fájlokra egy kártya sem hivatkozik:
+media-check-template-references-field-header =
+    Az Anki nem tudja felismerni a használt fájlokat, mikor  a { "{{Field}}" } hivatkozásokat a média/LaTeX címkékben használja. Ezek helyett a média/LaTeX címkéket az egyes jegyzetekben kell elhelyezni.
+    
+    Sablonokra való hivatkozás:
 
 ## Shown once for each file
 
@@ -30,6 +35,11 @@ media-check-oversize-file = Több mint 100 MB: { $filename }
 media-check-subfolder-file = Mappa: { $filename }
 media-check-missing-file = Hiányzó: { $filename }
 media-check-unused-file = Felhasználatlan: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
@@ -64,3 +74,7 @@ media-check-empty-trash = Lomtár ürítése
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Törlés visszaállítása
 media-check-check-media-action = Média ellenőrzése
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = hiányzó-média
+# add a tag to notes with missing media
+media-check-add-tag = Címke Hiányzik
