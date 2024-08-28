@@ -132,6 +132,30 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = Megjelenítés sorrendje
 deck-config-new-gather-priority = Az új kártyák gyűjtésének sorrendje
+deck-config-new-gather-priority-tooltip-2 =
+    "Pakli": a pakliból a kártyákat sorrendben, felülről kezdve gyűjti össze. A kártyákat az összes pakliból 
+    növekvő sorrendben gyűjti össze. 
+    Ha a kiválasztott pakli napi limitje elérte a napi limitet, akkor a gyűjtés
+    leállhat, mielőtt 
+    az összes pakli ellenőrzésére sor kerülne. Ez a sorrend a leggyorsabb nagy gyűjteményekben, 
+    és lehetővé teszi, hogy elsőbbséget adjon a tetejéhez közelebb eső alpakliknak.
+    
+    `növekvő sorrend`: a kártyákat növekvő pozíció (esedékesség #) szerint gyűjti össze, 
+    mikor jellemzően a legrégebben hozzáadottak az elsők.
+    
+    `Csökkenő sorrend`: a kártyákat csökkenő pozíció (esedékesség #) szerint gyűjti össze, mikor 
+    jellemzően a legújabban hozzáadottak az elsők.
+    
+    `Véletlenszerű jegyzetek`: véletlenszerűen kiválasztott jegyzetek kártyáit gyűjti össze. 
+    Ha a testvér-temetés kikapcsolva, ez lehetővé teszi, hogy egy munkamenetben 
+    egy jegyzet összes lapja látható legyen 
+    (pl. mind az elülső→hátsó és hátul→elülső lapot).
+    
+    `Véletlenszerű Kártyák`: teljesen véletlenszerűen gyűjti össze a kártyákat.
+deck-config-new-gather-priority-position-lowest-first = Növekvő sorrend
+deck-config-new-gather-priority-position-highest-first = Csökkenő sorrend
+deck-config-new-gather-priority-random-notes = Véletlenszerű jegyzetek
+deck-config-new-gather-priority-random-cards = Véletlenszerű Kártyák
 
 ## Timer section
 
