@@ -152,10 +152,60 @@ deck-config-new-gather-priority-tooltip-2 =
     (pl. mind az elülső→hátsó és hátul→elülső lapot).
     
     `Véletlenszerű Kártyák`: teljesen véletlenszerűen gyűjti össze a kártyákat.
+deck-config-new-gather-priority-deck = Pakli
+deck-config-new-gather-priority-deck-then-random-notes = Pakli majd véletlenszerű jegyzetek
 deck-config-new-gather-priority-position-lowest-first = Növekvő sorrend
 deck-config-new-gather-priority-position-highest-first = Csökkenő sorrend
 deck-config-new-gather-priority-random-notes = Véletlenszerű jegyzetek
 deck-config-new-gather-priority-random-cards = Véletlenszerű Kártyák
+deck-config-new-card-sort-order = Új kártya rendezési sorrend
+deck-config-new-card-sort-order-tooltip-2 =
+    `Kártya típusa`: Kártyák megjelenítése a kártyatípus száma szerinti sorrendben. 
+    Ha a testvérek eltemetése le van tiltva, ez biztosítja, hogy az összes elülső→hátsó
+    kártya előbb jelenjen meg, mint a hátsó→elülső kártyák.
+    Ez hasznos, ha az összes azonos jegyzetű kártyát ugyanabban a munkamenetben szeretné 
+    megjeleníteni úgy,  hogy ne legyenek túl közel egymáshoz.
+    
+    `Összegyűjtött rend`: A kártyákat pontosan a gyűjtésük sorrendjében mutatja. Ha a testvérek 
+    eltemetése ki van kapcsolva,ez általában azt eredményezi, hogy egy jegyzet összes kártyája egymás után lesz látható.
+    
+    `Kártya típusa, majd véletlenszerű`: Mint a `Kártya típusa`, de az egyes kártyatípusok 
+    számait megkeveri. Ha a `Növekvő sorrend`-et használja a legrégebbi kártyák összegyűjtésére, 
+    akkor ezzel a beállítással véletlenszerű sorrendben láthatja ezeket a kártyákat, miközben 
+    biztosíthatja, hogy az azonos jegyzetből származó kártyák ne kerüljenek túl közel egymáshoz.
+    
+    `Véletlenszerű jegyzet, majd kártyatípus`: Véletlenszerűen választja ki a jegyzeteket, majd 
+    sorrendben megmutatja az összes testvérüket.
+    
+    `Véletlenszerűen`: Teljesen megkeveri az összegyűjtött kártyákat.
+deck-config-sort-order-card-template-then-random = Kártya típusa, majd véletlenszerű
+deck-config-sort-order-random-note-then-template = Véletlenszerű jegyzet, majd kártyatípus
+deck-config-sort-order-random = véletlenszerűen
+deck-config-sort-order-template-then-gather = Kártya típusa
+deck-config-sort-order-gather = Összegyűjtött rend
+deck-config-new-review-priority = Új/áttekintő rend
+deck-config-new-review-priority-tooltip = Mikor kell megmutatni az új kártyákat az áttekintő kártyákhoz képest.
+deck-config-interday-step-priority = Napközi tanulási/áttekintési sorrend
+deck-config-interday-step-priority-tooltip =
+    Mikor kell megmutatni a naphatárt átlépő (újra)tanulókártyákat.
+    
+    A áttekintési limitet mindig először a napok közötti tanulókártyákra alkalmazzuk, és majd az áttekintésekre. Ez a beállítás szabályozza az összegyűjtött kártyák 
+    megjelenítésének sorrendjét, de a napközi tanulási kártyák mindig először lesznek összegyűjtve.
+deck-config-review-mix-show-after-reviews = Mutasd meg az áttekintés után
+deck-config-review-mix-show-before-reviews = Mutasd meg az áttekintés elött
+deck-config-review-sort-order = Áttekintés rendezési sorrend
+deck-config-review-sort-order-tooltip =
+    Az alapértelmezett sorrend a legrégebben várakozó kártyákat helyezi előtérbe,
+    így ha van egy csomó elmaradt áttekintés, akkor a leghosszabb ideig várakozó kártyák jelennek meg először. Ha nagy a hátralék, és néhány napnál több időt vesz igénybe, vagy ha a kártyákat alrendben szeretné látni, akkor az alternatív rendezési sorrendeket előnyösebbnek találhatja.
+deck-config-sort-order-due-date-then-random = Esedékesség, majd véletlenszerűen
+deck-config-sort-order-due-date-then-deck = Esedékesség, majd pakli
+deck-config-sort-order-deck-then-due-date = Pakli, majd esedékesség
+deck-config-sort-order-ascending-intervals = Növekvő intervallumok
+deck-config-sort-order-descending-intervals = Csökkenő intervallumok
+deck-config-sort-order-ascending-ease = Növekvő könnyedség
+deck-config-sort-order-descending-ease = Csökkenő könnyedség
+deck-config-sort-order-ascending-difficulty = Növekvő nehézség
+deck-config-sort-order-descending-difficulty = Csökkenő nehézség
 
 ## Timer section
 
