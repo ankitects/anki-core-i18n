@@ -114,9 +114,24 @@ deck-config-bury-new-tooltip =
     a következő napra halasztódnak-e.
 deck-config-bury-review-tooltip = Az, hogy a többi azonos jegyzetű "áttekintő" kártyákat a következő napra halasztják-e.
 deck-config-bury-interday-learning-tooltip = Az azonos jegyzetű, 1 napnál hosszabb időközzel rendelkező egyéb "tanulókártyák" a következő napra halasztódnak-e.
+deck-config-bury-priority-tooltip =
+    Amikor az Anki kártyákat gyűjt, először a napközbeni tanulókártyákat, 
+    majd a napközi tanulókártyákat, aztán az áttekintéseket, végül az új kártyákat
+    gyűjti össze. Ez befolyásolja hogyan működik az eltemetés:
+    
+    - Ha az összes eltemetési opciót engedélyezte, akkor a listában legkorábban 
+    előforduló testvér lesz látható. Például egy áttekintő kártya előbb lesz látható, 
+    mint egy új kártya.
+    - A listában később szereplő testvérek nem temethetik el a korábbi kártyatípusokat.
+    Ha például kikapcsolja az új kártyák eltemetését, és új kártyát tanul, akkor
+    az nem temet el napközi tanulási vagy áttekintő kártyákat, és előfordulhat, hogy 
+    egyazon munkamenetben egy áttekintő és
+    egy új testvérkártyát is láthat.
 
 ## Ordering section
 
+deck-config-ordering-title = Megjelenítés sorrendje
+deck-config-new-gather-priority = Az új kártyák gyűjtésének sorrendje
 
 ## Timer section
 
