@@ -112,6 +112,8 @@ deck-config-bury-interday-learning-siblings = Napközi tanulási testvérek elte
 deck-config-bury-new-tooltip =
     Az, hogy más "új" kártyák ugyanarról a jegyzetről (pl. fordított kártyák, szomszédos lyukas szöveg kártyák)
     a következő napra halasztódnak-e.
+deck-config-bury-review-tooltip = Az, hogy a többi azonos jegyzetű "áttekintő" kártyákat a következő napra halasztják-e.
+deck-config-bury-interday-learning-tooltip = Az azonos jegyzetű, 1 napnál hosszabb időközzel rendelkező egyéb "tanulókártyák" a következő napra halasztódnak-e.
 
 ## Ordering section
 
