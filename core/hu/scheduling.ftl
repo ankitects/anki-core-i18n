@@ -132,6 +132,8 @@ scheduling-new-options-group-name = Új opciócsoport neve:
 scheduling-options-group = Opciócsoport:
 scheduling-order = Sorrend
 scheduling-parent-limit = (szülőpakli határértéke: { $val })
+scheduling-reset-counts = Az Ismétlések és az elakadások számának alaphelyzetbe állítása
+scheduling-restore-position = Az eredeti helyzet helyreállítása, ahol lehetséges
 scheduling-review = Ismétlés
 scheduling-reviews = Ismétlések
 scheduling-seconds = másodperc
@@ -152,4 +154,23 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } pakli frissítve.
        *[other] { $count } pakli frissítve.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Hány nap múlva mutassa meg a kártyát?
+       *[other] Hány nap múlva mutassa meg a kártyákat?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = ma
+    1! = holnap + az intervallum 1-re változik
+    3-7 = 3-7 nap véletlenszerű kiválasztás
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] A { $cards } kártya esedékességi dátumának beállítása.
+       *[other] A { $cards } kártyák esedékességi dátumainak beállítása.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Visszaállítani { $cards } kártyát.
+       *[other] Visszaállítani { $cards } kártyákat.
     }

@@ -81,35 +81,44 @@ statistics-counts-young-cards = Friss
 statistics-counts-mature-cards = Veterán
 statistics-counts-suspended-cards = Felfüggesztve
 statistics-counts-buried-cards = Elmentve
+statistics-counts-filtered-cards = Szűrt
+statistics-counts-learning-cards = Tanulás
+statistics-counts-relearning-cards = Újratanulás
+statistics-counts-title = Kártyaszámlálás
 statistics-range-all-time = csomag élettartama
 statistics-range-deck = csomag
 statistics-range-collection = gyűjtemény
 statistics-range-search = Keresés
 statistics-future-due-title = Előrejelzés
-statistics-reviews-title = Ismétlések
-statistics-intervals-title = Időközök
-statistics-answer-buttons-title = Válaszgombok
-statistics-hours-title = Óránkénti lebontás
-statistics-added-title = Hozzáadva
-statistics-axis-label-answer-count = Válaszok
-statistics-axis-label-card-count = Kártyák
-statistics-axis-label-review-time = Ismétlésre fordított idő
 statistics-future-due-subtitle = A továbbiakban esedékes ismétlések száma
+statistics-added-title = Hozzáadva
 statistics-added-subtitle = Az általad hozzáadott új kártyák száma.
 statistics-reviews-count-subtitle = Megválaszolt kérdések száma
 statistics-reviews-time-subtitle = A kérdések megválaszolásával eltöltött idő
-statistics-intervals-subtitle = A következő ismétlésig hátralevő idő
+statistics-answer-buttons-title = Válaszgombok
 statistics-answer-buttons-subtitle = Az egyes gombok lenyomásának száma
-statistics-hours-subtitle = Ismétlés sikerességének aránya a nap egyes óráiban
-statistics-counts-learning-cards = Tanulás
+statistics-reviews-title = Ismétlések
 statistics-reviews-time-checkbox = Idő
+statistics-intervals-title = Időközök
+statistics-intervals-subtitle = A következő ismétlésig hátralevő idő
+statistics-hours-title = Óránkénti lebontás
+statistics-hours-subtitle = Ismétlés sikerességének aránya a nap egyes óráiban
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+
+##
+
 statistics-average-for-days-studied = Átlagos időráfordítás a tanulással töltött napokon
 statistics-total = Összesen
 statistics-days-studied = Tanulással töltött napok
 statistics-average-answer-time-label = Átlagos válaszadási idő
 statistics-average = Átlagos
 statistics-average-interval = Átlagos időköz
-statistics-longest-interval = Leghosszabb időköz
 statistics-due-tomorrow = Holnap esedékes
 statistics-average-over-period = Ha mindennap tanulna
 statistics-average-ease = Átlagos könnyűség
