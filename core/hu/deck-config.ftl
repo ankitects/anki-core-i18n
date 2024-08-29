@@ -191,6 +191,7 @@ deck-config-interday-step-priority-tooltip =
     
     A áttekintési limitet mindig először a napok közötti tanulókártyákra alkalmazzuk, és majd az áttekintésekre. Ez a beállítás szabályozza az összegyűjtött kártyák 
     megjelenítésének sorrendjét, de a napközi tanulási kártyák mindig először lesznek összegyűjtve.
+deck-config-review-mix-mix-with-reviews = Keverjük össze az áttekintésekkel
 deck-config-review-mix-show-after-reviews = Mutasd meg az áttekintés után
 deck-config-review-mix-show-before-reviews = Mutasd meg az áttekintés elött
 deck-config-review-sort-order = Áttekintés rendezési sorrend
@@ -213,9 +214,21 @@ deck-config-display-order-will-use-current-deck = Az Anki a tanuláshoz kiválas
 
 deck-config-timer-title = Időzítő
 deck-config-maximum-answer-secs = Maximális válasz másodpercek
+deck-config-maximum-answer-secs-tooltip =
+    Az egyszeri áttekintéshez rögzítendő másodpercek maximális száma. 
+    Ha egy válasz túllépi ezt az időt (például azért, mert elfordult a képernyőtől), 
+    az eltelt idő helyett az ön által beállított határérték kerül rögzítésre.
+deck-config-show-answer-timer-tooltip =
+    Az áttekintési képernyőn megjelenik egy időzítő, amely számolja, hogy hány 
+    másodpercig tart az egyes kártyák áttekintése.
+deck-config-stop-timer-on-answer = Az időzítő megállítása a válaszoldalon
+deck-config-stop-timer-on-answer-tooltip =
+    Az időzítő leállítása, amikor a válasz kiderül.
+    Ez nem befolyásolja a statisztikát.
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Másodpercek a kérdés megjelenítéséhez
 
 ## Audio section
 
