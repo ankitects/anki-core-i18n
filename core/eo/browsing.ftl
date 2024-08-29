@@ -7,6 +7,7 @@ browsing-browser-appearance = Foliumila aspekto
 browsing-browser-options = Foliumilo-opcioj
 browsing-buried = Kaŝita por tago
 browsing-card = Karto
+browsing-cards = Kartoj
 browsing-card-list = &Kartlisto
 browsing-cards-cant-be-manually-moved-into = Oni ne povas permane alilokigi kartojn en filtritan kartaron.
 browsing-change-deck = Ŝanĝi kartaron

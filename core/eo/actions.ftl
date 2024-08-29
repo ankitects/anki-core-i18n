@@ -50,3 +50,5 @@ actions-build-filtered-deck = Kunmeti kartaron
 
 ## Flags
 
+actions-flag-red = Ruĝa
+actions-flag-green = Verda
