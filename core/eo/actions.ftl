@@ -60,6 +60,7 @@ actions-fullscreen-unsupported = Plenekrana reĝimo ne estas subtenata de via vi
 
 ## Flags
 
+actions-flag-number = Indikilo { $number }
 actions-flag-red = Ruĝa
 actions-flag-orange = oranĝa
 actions-flag-green = Verda
@@ -67,6 +68,7 @@ actions-flag-blue = blua
 actions-flag-pink = Roza
 actions-flag-turquoise = turkisa
 actions-flag-purple = viola
+actions-set-flag = Meti indikilon
 actions-nothing-to-undo = Nenio por malfari
 actions-nothing-to-redo = Nenio por refari
 actions-auto-advance = Aŭtomata malkaŝo

@@ -1,20 +1,32 @@
 browsing-add-notes = Aldoni notojn...
 browsing-add-tags2 = Aldoni etikedojn...
+browsing-add-to-selected-notes = Aldoni al elektitaj notoj
+browsing-remove-from-selected-notes = Forigi el elektitaj notoj
+browsing-addon = Aldonaĵo
 browsing-all-fields = Ĉiuj kampoj
 browsing-answer = Respondo
-browsing-any-flag = Ĉiu flago
+browsing-any-flag = Ĉiu indikilo
+browsing-average-ease = Mezuma facileco
+browsing-average-interval = Mezuma Intertempo
 browsing-browser-appearance = Foliumila aspekto
 browsing-browser-options = Foliumilo-opcioj
 browsing-buried = Kaŝita por tago
 browsing-card = Karto
 browsing-cards = Kartoj
-browsing-card-list = &Kartlisto
+browsing-card-list = Kartolisto
 browsing-cards-cant-be-manually-moved-into = Oni ne povas permane alilokigi kartojn en filtritan kartaron.
+browsing-cards-deleted =
+    { $count ->
+        [one] { $count } karto estas forigita.
+       *[other] { $count } kartoj estas forigitaj.
+    }
 browsing-change-deck = Ŝanĝi kartaron
 browsing-change-deck2 = Ŝanĝi kartaron...
 browsing-change-note-type = Ŝanĝi nototipon
-browsing-change-note-type2 = Ŝanĝi noto&tipon...
+browsing-change-note-type2 = Ŝanĝi nototipon...
+browsing-change-notetype = Ŝanĝi nototipon
 browsing-clear-unused-tags = Forigi neuzatajn etikedojn
+browsing-confirm-saved-search-overwrite = Konvservita serĉo kun la nomo { $name } jam ekzistas. Ĉu vi volas anstataŭigi ĝin?
 browsing-created = Kreita
 browsing-current-deck = Aktuala kartaro
 browsing-current-note-type = Aktuala nototipo:
@@ -27,7 +39,7 @@ browsing-filtered = (filtrita)
 browsing-find = <b>Trovi</b>:
 browsing-find-and-replace = Serĉi kaj anstataŭigi
 browsing-find-duplicates = Trovi duoblaĵojn
-browsing-first-card = &Unua karto
+browsing-first-card = Unua karto
 browsing-flag = Flago
 browsing-font = <b>Tiparo</b>:
 browsing-font-size = <b>Tipara grando</b>:
