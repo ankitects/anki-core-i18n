@@ -47,8 +47,28 @@ actions-update-card = Ĝisdatigi karton
 actions-update-deck = Ĝisdatigi kartaron
 actions-forget-card = Forgesi karton
 actions-build-filtered-deck = Kunmeti kartaron
+actions-add-notetype = Aldoni nototipon
+actions-remove-notetype = Forigi nototipon
+actions-update-notetype = Ĝisdatigi nototipon
+actions-update-config = Ĝisdatigi agordon
+actions-card-info = Kartoinformo
+actions-previous-card-info = Informo pri antaŭa karto
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action }...
+actions-fullscreen-unsupported = Plenekrana reĝimo ne estas subtenata de via vidkarta pelilo. Vi povas elekti alian pelilon en la preferoj.
 
 ## Flags
 
 actions-flag-red = Ruĝa
+actions-flag-orange = oranĝa
 actions-flag-green = Verda
+actions-flag-blue = blua
+actions-flag-pink = Roza
+actions-flag-turquoise = turkisa
+actions-flag-purple = viola
+actions-nothing-to-undo = Nenio por malfari
+actions-nothing-to-redo = Nenio por refari
+actions-auto-advance = Aŭtomata malkaŝo
+actions-auto-advance-activated = Aŭtomata malkaso estas aktiva
+actions-auto-advance-deactivated = Aŭtomata malkaso estas malaktiva

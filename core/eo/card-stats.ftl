@@ -1,6 +1,6 @@
 card-stats-added = Aldonita
 card-stats-first-review = Unua ripeto
-card-stats-latest-review = Plej lasta ripeto
+card-stats-latest-review = Lasta ripeto
 card-stats-interval = Intertempo
 card-stats-ease = Facileco
 card-stats-review-count = Ripetoj
@@ -21,4 +21,6 @@ card-stats-review-log-type-learn = Lerni
 card-stats-review-log-type-review = ripeto
 card-stats-review-log-type-relearn = Relerni
 card-stats-review-log-type-filtered = Filtrita
-card-stats-review-log-type-rescheduled = Replani
+
+## Window Titles
+
