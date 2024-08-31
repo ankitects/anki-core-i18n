@@ -138,9 +138,14 @@ browsing-sidebar-flags = Indikilo
 browsing-today = Hodiaŭ
 browsing-tooltip-card-modified = La lasta fojo kiam la karto estas ŝanĝigita; inkluzivas ripetojn, indikilojn kaj kartaroŝanĝojn
 browsing-tooltip-note-modified = La lasta fojo kiam la noto estas ŝanĝigita; ordinare ŝanĝo de kampoenhavo aŭ etikedoj
+browsing-tooltip-card = La nomo de karta ŝablono de karto
+browsing-tooltip-cards = La nombro de kartoj, kiujn noto havas.
+browsing-tooltip-notetype = La nomo de nota ŝablono de noto
 browsing-studied-today = Hodiaŭ lernitaj
 browsing-added-today = Aldonita hodiaŭ
 browsing-again-today = Hodiaŭaj Denove markitaj
+browsing-edited-today = Redaktita
+browsing-row-deleted = (forigita)
 browsing-sidebar-card-state-review = Ripeto
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
