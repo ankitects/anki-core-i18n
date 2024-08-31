@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] { $count } karto estas forigita.
        *[other] { $count } kartoj estas forigitaj.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } karto estas forigita de { $deck_name }
+       *[other] { $count } kartoj estas forigitaj de { $deck_name }
+    }
 browsing-change-deck = Ŝanĝi kartaron
 browsing-change-deck2 = Ŝanĝi kartaron...
 browsing-change-note-type = Ŝanĝi nototipon
@@ -40,27 +45,29 @@ browsing-find = <b>Trovi</b>:
 browsing-find-and-replace = Serĉi kaj anstataŭigi
 browsing-find-duplicates = Trovi duoblaĵojn
 browsing-first-card = Unua karto
-browsing-flag = Flago
+browsing-flag = Indikilo
 browsing-font = <b>Tiparo</b>:
 browsing-font-size = <b>Tipara grando</b>:
-browsing-found-as-across-bs = Mi trovis { $part }-n en { $whole }.
+browsing-found-as-across-bs = { $part } estis trovita en { $whole }.
 browsing-ignore-case = Ignori usklecon
 browsing-in = <b>En</b>:
 browsing-interval = Intertempo
-browsing-last-card = &Lasta karto
+browsing-last-card = Lasta karto
 browsing-learning = (lernado)
-browsing-line-size = <b>Grandeco de linio</b>:
+browsing-line-size = <b>Grando de linio</b>:
 browsing-manage-note-types = Administri nototipojn...
 browsing-move-cards = Alilokigi kartojn
 browsing-move-cards-to-deck = Alilokigi kartojn en kartaron:
 browsing-new = (nova)
 browsing-new-note-type = Nova nototipo:
-browsing-no-flag = Neniu flago
+browsing-no-flag = Neniu indikilo
+browsing-no-selection = Neniuj kartoj aŭ notoj estas elektitaj.
 browsing-note = Noto
+browsing-notes = Notoj
 browsing-optional-filter = Malnepra filtrilo:
-browsing-override-back-template = Anstataŭigu la dorsoflankan ŝablonon:
-browsing-override-font = Anstataŭigu la tiparon:
-browsing-override-front-template = Anstataŭigu la frontflankan ŝablonon:
+browsing-override-back-template = Anstataŭigi la dorsoflankan ŝablonon:
+browsing-override-font = Anstataŭigi la tiparon:
+browsing-override-front-template = Anstataŭigi la frontflankan ŝablonon:
 browsing-please-give-your-filter-a-name = Bonvolu doni nomon al via filtrilo:
 browsing-preview-selected-card = Antaŭmontri elektitan karton ({ $val })
 browsing-question = Demando
@@ -69,13 +76,16 @@ browsing-queue-top = Komenco de la vico: { $val }
 browsing-randomize-order = Hazardigi ordon
 browsing-remove-tags = Forigi etikedojn...
 browsing-replace-with = <b>Anstataŭigi per</b>:
-browsing-reposition = Re&pozicii
+browsing-reposition = Repozicii...
 browsing-reposition-new-cards = Repozicii novajn kartojn
 browsing-reschedule = Replani
+browsing-search-bar-hint = Serĉi kartojn/notojn (taipi tekston kaj poste premi la enigan klavon)
 browsing-search-in = Serĉi en:
 browsing-search-within-formatting-slow = Serĉi ene de aranĝo (malrapida)
+browsing-selected-notes-only = Nur elektitaj notoj
 browsing-shift-position-of-existing-cards = Ŝovi pozicion de ekzistantaj kartoj
 browsing-sidebar = Flankostrio
+browsing-sidebar-filter = flankostria filtrilo
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Ordiga kampo
 browsing-sorting-on-this-column-is-not = Ordigado je ĉi tiu kolono ne eblas. Bonvolu elekti alian.
@@ -83,11 +93,15 @@ browsing-start-position = Komenca pozicio:
 browsing-step = Paŝo:
 browsing-suspended = Daŭre kaŝita
 browsing-tag-duplicates = Etikedi duoblaĵojn
+browsing-tag-rename-warning-empty = Vi ne povas ŝanĝi la nomon de etikedo, kiu ne havas notojn.
 browsing-target-field = Celkampo:
+browsing-toggle-showing-cards-notes = Baskuli Kartojn/Notojn
 browsing-toggle-mark = Baskuli markon
 browsing-toggle-suspend = daŭre (mal)kaŝi
 browsing-treat-input-as-regular-expression = Trakti enigon kiel regulan esprimon
+browsing-update-saved-search = Aktualigi per nuna serĉo
 browsing-whole-collection = Tuta kolekto
+browsing-window-title-notes = Foliumilo ({ $selected } el { $total } notoj estas elektitaj)
 browsing-you-must-have-at-least-one = Oni devas havi almenaŭ unu kolonon.
 browsing-group =
     { $count ->
@@ -99,7 +113,31 @@ browsing-note-count =
         [one] { $count } noto
        *[other] { $count } notoj
     }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } noto estas aktualigita.
+       *[other] { $count } notoj estas aktualigitaj.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } karto estas aktualigita.
+       *[other] { $count } kartoj estas aktualigitaj.
+    }
+browsing-window-title = Foliumilo ({ $selected } el { $total } kartoj estas elektitaj)
+browsing-sidebar-expand = Etendi
+browsing-sidebar-collapse = Maletendi
+browsing-sidebar-expand-children = Etendi idojn
+browsing-sidebar-collapse-children = Maletendi idojn
+browsing-sidebar-decks = Kartaroj
+browsing-sidebar-tags = Etikedoj
+browsing-sidebar-notetypes = Nototipoj
+browsing-sidebar-saved-searches = Konservitaj serĉoj
+browsing-sidebar-save-current-search = Konservi nuna serĉon
+browsing-sidebar-card-state = Kartostato
+browsing-sidebar-flags = Indikilo
 browsing-today = Hodiaŭ
+browsing-tooltip-card-modified = La lasta fojo kiam la karto estas ŝanĝigita; inkluzivas ripetojn, indikilojn kaj kartaroŝanĝojn
+browsing-tooltip-note-modified = La lasta fojo kiam la noto estas ŝanĝigita; ordinare ŝanĝo de kampoenhavo aŭ etikedoj
 browsing-studied-today = Hodiaŭ lernitaj
 browsing-added-today = Aldonita hodiaŭ
 browsing-again-today = Hodiaŭaj Denove markitaj
