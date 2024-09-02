@@ -141,6 +141,7 @@ deck-config-question-action-show-reminder = Εμφάνιση Υπενθύμισ�
 deck-config-question-action = Ενέργεια κατά την ερώτηση
 deck-config-question-action-tool-tip = Η ενέργεια που εκτελείται αφού εμφανιστεί η ερώτηση και παρέλθει ο χρόνος.
 deck-config-answer-action = Ενέργεια απάντησης
+deck-config-answer-action-tooltip-2 = Η ενέργεια που εκτελείται αφού εμφανιστεί η απάντηση και παρέλθει ο χρόνος.
 
 ## Audio section
 
