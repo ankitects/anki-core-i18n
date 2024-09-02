@@ -329,7 +329,27 @@ deck-config-updating-cards = Kártyák frissítése: { $current_cards_count }/{ 
 deck-config-invalid-weights = A paramétereket vagy üresen kell hagyni az alapértelmezett értékek használatához, vagy 17 vesszővel elválasztott számnak kell lennie.
 deck-config-not-enough-history = Nincs elegendő áttekintési előzmény a művelet elvégzéséhez.
 deck-config-unable-to-determine-desired-retention = Nem lehetett meghatározni a minimálisan ajánlott megtartási időt.
-deck-config-compute-minimum-recommended-retention = Minimális ajánlott megtartási idő
+deck-config-compute-minimum-recommended-retention = Minimális ajánlott megtartás
+deck-config-historical-retention = Múltbeli megtartás
+deck-config-predicted-minimum-recommended-retention = Minimális ajánlott megtartás: { $num }
+deck-config-desired-retention-tooltip =
+    Az alapértelmezett 0,9-es érték úgy ütemezi a kártyákat, hogy 90%-os eséllyel emlékezzen rájuk, amikor 
+    újra áttekintésre kerülnek. Ha növeli ezt az értéket, az Anki gyakrabban fogja megmutatni a kártyákat, 
+    hogy növelje az esélyét annak, hogy emlékszik rájuk. Ha csökkenti az értéket, az Anki ritkábban fogja 
+    megmutatni a kártyákat, és így többet fog elfelejteni belőlük. Legyen óvatos ennek beállításakor -
+    a magasabb értékek jelentősen megnövelik a munkaterhelését, az alacsonyabb értékek pedig 
+    demoralizálóak lehetnek, ha sok anyagot felejt el.
+deck-config-historical-retention-tooltip =
+    Ha az áttekintési előzmények egy része hiányzik, az FSRS-nek ki kell töltenie a hiányosságokat. 
+    Alapértelmezés szerint azt feltételezi, hogy amikor ezeket a régi áttekintéseket végezte, az anyag 90%-ára emlékezett. 
+    Ha az Ön régi emlékezete jelentősen magasabb vagy alacsonyabb volt, mint 90%, akkor ennek az opciónak a beállítása lehetővé
+    teszi az FSRS számára, hogy jobban megközelítse a hiányzó áttekintéseket.
+    
+    Az Ön áttekintési előzményei két okból lehetnek hiányosak:
+    1. Mert a "korábban áttekintett kártyák figyelmen kívül hagyása" opciót használja.
+    2. Mert korábban törölt áttekintési naplókat, hogy helyet szabadítson fel, vagy más SRS programból importált anyagot.
+    
+    Ez utóbbi meglehetősen ritka, így hacsak nem az előbbi opciót használja, valószínűleg nem kell módosítania ezt a beállítást.
 deck-config-wait-for-audio = Várjon a hangra
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
