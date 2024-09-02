@@ -197,7 +197,7 @@ deck-config-review-mix-show-before-reviews = Mutasd meg az áttekintés elött
 deck-config-review-sort-order = Áttekintés rendezési sorrend
 deck-config-review-sort-order-tooltip =
     Az alapértelmezett sorrend a legrégebben várakozó kártyákat helyezi előtérbe,
-    így ha van egy csomó elmaradt áttekintés, akkor a leghosszabb ideig várakozó kártyák jelennek meg először. Ha nagy a hátralék, és néhány napnál több időt vesz igénybe, vagy ha a kártyákat alrendben szeretné látni, akkor az alternatív rendezési sorrendeket előnyösebbnek találhatja.
+    így ha van egy csomó elmaradt áttekintés, akkor a leghosszabb ideig várakozó kártyák jelennek meg először. Ha nagy a hátralék, és néhány napnál több időt vesz igénybe, vagy ha a kártyákat alpakliban szeretné látni, akkor az alternatív rendezési sorrendeket előnyösebbnek találhatja.
 deck-config-sort-order-due-date-then-random = Esedékesség, majd véletlenszerűen
 deck-config-sort-order-due-date-then-deck = Esedékesség, majd pakli
 deck-config-sort-order-deck-then-due-date = Pakli, majd esedékesség
