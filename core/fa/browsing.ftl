@@ -19,6 +19,11 @@ browsing-cards-deleted =
     { $count ->
        *[other] { $count } کارت حذف شد.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } کارت  از { $deck_name } حذف شد.
+       *[other] { $count } کارت از { $deck_name } حذف شد.
+    }
 browsing-change-deck = تغییر دسته
 browsing-change-deck2 = تغییر دسته…
 browsing-change-note-type = تغییر نوع یادداشت

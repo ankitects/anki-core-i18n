@@ -25,6 +25,7 @@ card-templates-no-front-field = جایگذاری فیلد باید در قالب
 card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' باید در جلو و پشت قالب کارت وجود داشته باشد.
 card-templates-extraneous-cloze = امکان استفاده از 'cloze:' فقط در نوع یادداشت جاخالی وجود دارد.
 card-templates-see-preview = برای کسب اطلاعات بیشتر به پیش‌نمایش مراجعه کنید.
+card-templates-field-not-found = فیلد  '{ $field }' یافت نشد.
 card-templates-changes-saved = تغییرات ذخیره شد.
 card-templates-discard-changes = لغو تغییرات؟
 card-templates-add-card-type = افزودن نوع کارت...
@@ -32,7 +33,6 @@ card-templates-anki-couldnt-find-the-line-between = آنکی قادر به یا�
 card-templates-at-least-one-card-type-is = حداقل یک نوع کارت لازم است.
 card-templates-browser-appearance = ظاهر مرورگر...
 card-templates-card = کارت { $val }
-card-templates-card-types = انواع کارت‌ها
 card-templates-card-types-for = نوع کارت‌ها برای { $val }
 card-templates-cloze = جاخالی { $val }
 card-templates-deck-override = ابطال دسته...
@@ -54,3 +54,9 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] این عمل { $count } کارت را تولید خواهد کرد. ادامه؟
     }
+card-templates-type-boxes-warning = فقط یک چارپوب قابل تایپ در هر الگوی کارت پشتیبانی می شود.
+card-templates-restore-to-default = بازگردانی به حالت پیش فرض
+card-templates-restore-to-default-confirmation =
+    با این کار همه فیلدها و الگوهای این یادداشت به حالت پیش فرض بازنشانی می شوند
+    مقادیر، حذف هر گونه فیلد/الگوی اضافی و محتوای آنها، و هر گونه استایل سفارشی. آیا می خواهید ادامه دهید؟
+card-templates-restored-to-default = Notetype به حالت اولیه خود بازیابی شده است.

@@ -38,6 +38,11 @@ database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] تعداد { $count } یادداشت با کاراکترهای اشتباه utf8 اصلاح شدند.
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] تعداد { $count } آبجکت با timestamps در  آینده ثابت شد.
+       *[other] تعداد { $count } آبجکت  با timestamps در آینده ثابت شد.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = یک یا چند نوع یادداشت یافت نشد. یادداشت‌هایی که از آنها استفاده می‌کردند نام دیگری که با "db-check" شروع می شوند داده شد، ولی نام فیلدها و قالب کارت از بین رفته است. پس شاید بهتر باشد که از یک بک آپ خودکار استفاده کنید.
 

@@ -10,7 +10,6 @@ custom-study-increase-todays-new-card-limit = افزایش تعداد کارت�
 custom-study-increase-todays-new-card-limit-by = افزایش تعداد کارت‌های جدید امروز به تعداد
 custom-study-increase-todays-review-card-limit = افزایش تعداد کارت‌های مرور امروز
 custom-study-increase-todays-review-limit-by = افزایش تعداد کارت‌های مرور امروز به تعداد
-custom-study-new-cards-in-deck-over-today = تعداد کارت‌های جدید موجود در دسته بیشتر از حد مطالعه: { $val }
 custom-study-new-cards-only = فقط کارت‌های جدید
 custom-study-no-cards-matched-the-criteria-you = هیچ کارتی با معیارهای مشروط شما مطابقت نداشت.
 custom-study-ok = تأیید
@@ -21,8 +20,15 @@ custom-study-review-ahead = مرور پیش از موعد
 custom-study-review-ahead-by = مرور پیش از موعد به اندازۀ
 custom-study-review-cards-forgotten-in-last = مرور کارت‌های فراموش شده در
 custom-study-review-forgotten-cards = مرور کارتهای فراموش شده
-custom-study-reviews-due-in-deck-over-today = تعداد مرورهای موجود در دسته بیشتر از حد مطالعه: { $val }
 custom-study-select = انتخاب
 custom-study-select-tags-to-exclude = ‌انتخاب برچسب‌ها برای مستثنی کردن:
 custom-study-selective-study = مطالعه گزینشی
 custom-study-study-by-card-state-or-tag = مطالعه بر اساس وضعیت کارت یا برچسب
+custom-study-available-new-cards-2 = کارت های جدید موجود: { $countString }
+custom-study-available-review-cards-2 = کارت های قابل مرور موجود: { $countString }
+custom-study-available-child-count = (تعداد { $count } در طبقه های فرعی)
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+custom-study-available-new-cards = کارت های جدید موجود: { $count }
+custom-study-available-review-cards = کارت های قابل مرور موجود: { $count }

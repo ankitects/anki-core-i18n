@@ -1,5 +1,8 @@
 change-notetype-current = کنونی
 change-notetype-new = جدید
+change-notetype-nothing = (هیچ)
+change-notetype-collapse = بستن
+change-notetype-expand = بازکردن
 change-notetype-will-discard-content = محتوای فیلدهای مقابل بازنشانی خواهد شد:
 change-notetype-will-discard-cards = کارتهای زیر حذف خواهند شد:
 change-notetype-fields = فیلدها
