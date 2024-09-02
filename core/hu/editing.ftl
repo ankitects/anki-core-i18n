@@ -1,19 +1,13 @@
 editing-add-media = Média hozzáadása
 editing-an-error-occurred-while-opening = Az alábbi fájl megnyitása során hiba történt: { $val }
-editing-attach-picturesaudiovideo-f3 = Képek / audio / videó csatolása (F3)
-editing-bold-text-ctrlandb = Félkövér szöveg (Ctrl+B)
+editing-attach-picturesaudiovideo = Képek/hangfelvételek/videók csatolása
 editing-cards = Kártyák
-editing-change-colour-f8 = Színváltás (F8)
-editing-cloze-deletion-ctrlandshiftandc = Kitöltő törlés (Ctrl+Shift+C)
 editing-couldnt-record-audio-have-you-installed = Nem sikerült hangfelvételt készíteni. Telepítette a 'lame'-et?
-editing-customize-card-templates-ctrlandl = Testreszabhatja a kártyasablonokat (Ctrl+L)
 editing-customize-fields = Testreszabhatja a mezőket
 editing-cut = Kivágás
 editing-edit-current = Aktuális jegyzet szerkesztése
 editing-edit-html = HTML szerkesztése
 editing-fields = Mezők
-editing-html-editor = HTML-szerkesztő
-editing-italic-text-ctrlandi = Dőlt szöveg (Ctrl+I)
 editing-jump-to-tags-with-ctrlandshiftandt = Címkékre ugrás: Ctrl+Shift+T.
 editing-latex = LaTeX
 editing-latex-equation = LaTeX-képlet
@@ -23,13 +17,12 @@ editing-mathjax-chemistry = MathJax kémia
 editing-mathjax-inline = MathJax elem
 editing-media = Médiaállomány
 editing-paste = Beillesztés
-editing-record-audio-f5 = Hang rögzítése (F5)
-editing-remove-formatting-ctrlandr = A formázás eltávolítása (Ctrl+R)
-editing-set-foreground-colour-f7 = Az előlap színének beállítása (F7)
+editing-record-audio = Hangfelvétel rögzítése
 editing-show-duplicates = Azonosak megjelenítése
-editing-subscript-ctrland = Alsó index (Ctrl+=)
-editing-superscript-ctrlandand = Felülírás (Ctrl++)
 editing-tags = Címkék
 editing-to-make-a-cloze-deletion-on = Ha egy meglévő jegyzetet lyukas szövegként (cloze) szeretnél használni, előbb át kell állítani „lyukas szöveg” típusra a Szerkesztés > Jegyzettípus módosítása menüponttal.
-editing-underline-text-ctrlandu = Aláhúzott szöveg (Ctrl+U)
 editing-warning-cloze-deletions-will-not-work = Figyelem: a lyukas szöveg addig nem működik, amíg a fenti típust be nem állítod Lyukas szövegre.
+
+## You don't need to translate these strings, as they will be replaced with different ones soon.
+
+editing-html-editor = HTML-szerkesztő

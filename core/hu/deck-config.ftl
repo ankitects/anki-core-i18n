@@ -229,12 +229,32 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Másodpercek a kérdés megjelenítéséhez
+deck-config-seconds-to-show-question-tooltip-3 = Ha az automatikus előrelépés aktiválva van, akkor kérdés művelet alkalmazása előtt várandó másodpercek száma. A letiltáshoz állítsa 0-ra.
+deck-config-seconds-to-show-answer = Másodpercek a válasz megjelenítéséhez
+deck-config-seconds-to-show-answer-tooltip-2 = Ha az automatikus előhívás aktiválva van, akkor a válasz művelet alkalmazása előtt várandó másodpercek száma. A letiltáshoz állítsa 0-ra.
+deck-config-question-action-show-answer = Válasz megjelenítése
+deck-config-question-action-show-reminder = Emlékeztető megjelenítése
+deck-config-question-action = Kérdés művelet
+deck-config-question-action-tool-tip = A kérdés megjelenése után megadott idő elteltével végrehajtandó művelet.
+deck-config-answer-action = Válasz művelet
+deck-config-answer-action-tooltip-2 = A válasz megjelenése után megadott idő elteltével végrehajtandó művelet.
+deck-config-wait-for-audio-tooltip-2 = Várja meg a hang befejezését, mielőtt automatikusan alkalmazná a kérdés vagy a válasz műveletet.
 
 ## Audio section
 
+deck-config-audio-title = Hang
+deck-config-disable-autoplay = Ne játssza le automatikusan a hangot
+deck-config-disable-autoplay-tooltip =
+    Ha engedélyezve van, az Anki nem játszik le automatikusan hangot.
+    A hangot manuálisan lehet lejátszani a hang ikonra kattintva/tapintva, vagy a Replay művelet használatával.
+deck-config-skip-question-when-replaying = Kérdés kihagyása a válasz újrajátszásakor
+deck-config-always-include-question-audio-tooltip =
+    A kérdés hangja szerepeljen-e, amikor a Replay művelet a
+    a kártya válaszoldalának megtekintése közben használjuk.
 
 ## Advanced section
 
+deck-config-advanced-title = Haladó
 
 ## Adding/renaming
 
@@ -257,6 +277,10 @@ deck-config-seconds-to-show-question = Másodpercek a kérdés megjelenítéséh
 
 ## Messages related to the FSRS scheduler
 
+deck-config-wait-for-audio = Várjon a hangra
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-seconds-to-show-question-tooltip = Ha az automatikus előrelépés be van kapcsolva, a válasz megjelenése előtt várandó másodpercek száma. A kikapcsoláshoz állítsa 0-ra.
+deck-config-wait-for-audio-tooltip = Várja meg a hang befejezését, mielőtt automatikusan megjelenik a válasz vagy a következő kérdés.
+deck-config-seconds-to-show-question-tooltip-2 = Ha az automatikus előrelépés be van kapcsolva, a válasz megjelenése előtt várandó másodpercek száma. A kikapcsoláshoz állítsa 0-ra.
