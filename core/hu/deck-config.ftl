@@ -255,28 +255,81 @@ deck-config-always-include-question-audio-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = Haladó
+deck-config-maximum-interval-tooltip = A maximum napok száma, ameddig egy áttekintő kártya várakozhat. Ha az áttekintések elérik a limitet, a "Nehéz", a "Jó" és a "Könnyű" változat ugyanolyan késleltetést ad. Minél rövidebbre állítja ezt be, annál nagyobb lesz a munkaterhelés.
+deck-config-starting-ease-tooltip =
+    Az új kártyák könnyítési szorzója. Alapértelmezés szerint az újonnan megtanult kártyák
+    "Jó" gombja a következő áttekintést az előző késleltetés 2,5x-ével késlelteti.
+deck-config-easy-bonus-tooltip = Egy extra szorzó, amelyet egy áttekintő kártya intervallumára alkalmazunk, ha azt "könnyűnek" minősíted.
+deck-config-interval-modifier-tooltip =
+    Ez a szorzó minden áttekintésre vonatkozik, és kisebb módosításokkal
+    az Anki konzervatívabbá vagy agresszívabbá tehető az ütemezés során. 
+    Kérjük, nézze meg a kézikönyvet, mielőtt megváltoztatná ezt az opciót.
+deck-config-hard-interval-tooltip = A "Nehéz" válasz esetén az áttekintési intervallumra alkalmazott szorzó.
+deck-config-new-interval-tooltip = Az "Újra" válasz esetén az áttekintési intervallumra alkalmazott szorzó.
+deck-config-minimum-interval-tooltip = Az a minimális időintervallum, amelyet az " Újra" válasz után az áttekintő kártyának adunk.
+deck-config-custom-scheduling = Egyedi ütemezés
+deck-config-custom-scheduling-tooltip = Az egész gyűjteményre hatással van. Használata saját felelősségre történik!
 
 ## Adding/renaming
 
+deck-config-add-group = Előbeállítás hozzáadása
+deck-config-name-prompt = Név
+deck-config-rename-group = Előbeállítás átnevezése
+deck-config-clone-group = Előbeállítás klónozása
 
 ## Removing
 
+deck-config-remove-group = Előbeállítás eltávolítása
+deck-config-will-require-full-sync =
+    A kért módosítás egyirányú szinkronizálást igényel. Ha egy másik eszközön már 
+    hajtott végre módosításokat, és még nem szinkronizálta azokat erre az eszközre, 
+    kérjük, tegye meg, mielőtt folytatja.
+deck-config-confirm-remove-name = Eltávolítani { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Mentés
+deck-config-save-to-all-subdecks = Mentés az összes alpaklira
+deck-config-save-and-optimize = Minden előbeállítás optimalizálása
+deck-config-revert-button-tooltip = Állítsa vissza ezt a beállítást az alapértelmezett értékre.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ kezelése
+deck-config-description-new-handling-hint =
+    A bevitelt markdownként kezeli, és megtisztítja a HTML-bevitelt.
+    Ha engedélyezve van, a leírás a gratulációk képernyőjén is megjelenik.
+    A markdown szövegként jelenik meg az Anki 2.1.40 és az alatti verziókon.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] A szülőpakli limitje { $cards } kártya, amely felülírja ezt a limitet.
+       *[other] A szülőpakli limitje { $cards } kártyák, amely felülírja ezt a limitet.
+    }
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Ha minden nap { $cards } új kártyát adsz hozzá, akkor az áttekintési limitednek legalább { $expected } kellene lennie.
+       *[other] Ha minden nap { $cards } új kártyát adsz hozzá, akkor az áttekintési limitednek legalább { $expected } kellene lennie.
+    }
+deck-config-learning-step-above-graduating-interval = Az előrelépési időköznek legalább olyan hosszúnak kell lennie, mint az utolsó tanulási lépés.
+deck-config-good-above-easy = A könnyű intervallumnak legalább olyan hosszúnak kell lennie, mint az előrelépési intervallumnak.
+deck-config-relearning-steps-above-minimum-interval = A minimális elakadási időköznek legalább olyan hosszúnak kell lennie, mint az utolsó újratanulási lépés.
+deck-config-maximum-answer-secs-above-recommended = Az Anki hatékonyabban tudja ütemezni az áttekintéseket, ha az egyes kérdéseket rövidre fogja.
 
 ## Selecting a deck
 
+deck-config-which-deck = Melyik paklihoz szeretne opciókat megjeleníteni?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Kártyák frissítése: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-weights = A paramétereket vagy üresen kell hagyni az alapértelmezett értékek használatához, vagy 17 vesszővel elválasztott számnak kell lennie.
+deck-config-not-enough-history = Nincs elegendő áttekintési előzmény a művelet elvégzéséhez.
+deck-config-unable-to-determine-desired-retention = Nem lehetett meghatározni a minimálisan ajánlott megtartási időt.
+deck-config-compute-minimum-recommended-retention = Minimális ajánlott megtartási idő
 deck-config-wait-for-audio = Várjon a hangra
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
