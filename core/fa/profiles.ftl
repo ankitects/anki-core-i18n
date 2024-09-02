@@ -14,3 +14,6 @@ profiles-prefs-corrupt-title = تنظیمات خراب
 profiles-prefs-file-is-corrupt = فایل prefs21.db خراب بود و از نو ایجاد شد. اگر از چند پروفایل استفاده می‌کردید، لطفاً آنها را با نام‌های قبلی دوباره اضافه کنید تا کارت‌های موجود در آن پروفایل‌ها بازیابی شوند.
 profiles-profile-does-not-exist = پروفایل درخواست شده وجود ندارد.
 profiles-creating-backup = در حال تولید پشتیبان...
+profiles-backup-created = پشتیبان ایجاد شد.
+profiles-backup-creation-failed = ایجاد پشتیبان انجام نشد: { $reason }
+profiles-backup-unchanged = هیچ تغییری نسبت به آخرین نسخه پشتیبان وجود ندارد.

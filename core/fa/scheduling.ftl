@@ -96,6 +96,9 @@ scheduling-update-done = سیستم زمانبندی با موفقیت به‌ر
 scheduling-update-button = به‌روزرسانی
 scheduling-update-later-button = بعداً
 scheduling-update-more-info-button = اطلاعات بیشتر
+scheduling-update-required =
+    مجموعه شما باید به زمانبندی V2 ارتقا یابد.
+    لطفاً قبل از ادامه، { scheduling-update-more-info-button } را انتخاب کنید
 
 ## Other scheduling strings
 
@@ -106,7 +109,6 @@ scheduling-bury-related-new-cards-until-the = دفن کردن کارت‌های 
 scheduling-bury-related-reviews-until-the-next = دفن کردن مرورهای مرتبط تا روز بعد
 scheduling-days = روز
 scheduling-description = توضیحات
-scheduling-description-to-show-on-overview-screen = توضیحات برای نمایش در نمای کلی دستۀ فعلی:
 scheduling-easy-bonus = جایزۀ آسانی
 scheduling-easy-interval = مدت آسانی
 scheduling-end = (پایان)
@@ -131,6 +133,8 @@ scheduling-new-options-group-name = نام گروه اختیارات جدید:
 scheduling-options-group = گروه اختیارات:
 scheduling-order = چیدمان
 scheduling-parent-limit = (حد دستۀ والد: { $val })
+scheduling-reset-counts = بازنشانی تعداد دفعات تکرار و فاصله
+scheduling-restore-position = در صورت امکان موقعیت اصلی را بازیابی کنید
 scheduling-review = مرور
 scheduling-reviews = مرورها
 scheduling-seconds = ثانیه
