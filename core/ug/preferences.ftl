@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = قېپقالغان كارتا سانىن
 preferences-some-settings-will-take-effect-after = بەزى تەڭشەك Anki قايتا قوزغالغاندىن كېيىن ئۈنۈمىنى كۆرسىتىدۇ.
 preferences-tab-synchronisation = قەدەمداشلاش
 preferences-synchronize-audio-and-images-too = ئۈن ۋە سۈرەتنىمۇ قەدەمداشلايدۇ
-preferences-not-logged-in = نۆۋەتتە AnkiWeb گە تىزىمغا كىرمىگەن.
 preferences-login-successful-sync-now = مۇۋەپپەقىيەتلىك ھالدا تىزىمغا كىردى. مايىللىقنى ساقلاپ، دەرھال قەدەمداشلامدۇ؟
 preferences-timebox-time-limit = بەلگىلەنگەن ۋاقىت خاتىرىلىگۈچ ۋاقىت چېكىدە ئۆگىنىدىغان كارتا سانىنى ئەسكەرتىدۇ
 preferences-user-interface-size = ئىشلەتكۈچى ئارايۈز چوڭلۇقى
@@ -41,6 +40,7 @@ preferences-theme-follow-system = سىستېمىغا ئەگەش
 preferences-theme-light = يورۇق
 preferences-theme-dark = قاراڭغۇ
 preferences-v3-scheduler = V3 كۈنتەرتىپلىگۈچنى قوزغات
+preferences-check-for-updates = پىروگرامما يېڭىلىنىشىنى تەكشۈر
 preferences-ignore-accents-in-search = ئىزدىگەندە ئۇرغۇغا پەرۋا قىلمايدۇ (ئاستاراق)
 preferences-backup-explanation = Anki توپلىمىڭىزنى ئۆزلۈكىدىن زاپاسلايدۇ. Anki دىسكا بوشلۇقىنى تېجەش ئۈچۈن زاپاسلانغان ۋاقتى 2 كۈندىن ئاشقان زاپاسنى ئۆچۈرىدۇ.
 preferences-daily-backups = ساقلاپ قالىدىغان كۈندىلىك زاپاس سانى:
@@ -75,9 +75,12 @@ preferences-network-timeout = تور ۋاقىت ھالقىش
 preferences-reset-window-sizes = كۆزنەك چوڭلۇقىنى ئەسلىگە قايتۇر
 preferences-reset-window-sizes-complete = كۆزنەك چوڭلۇقى ۋە ئورنى ئەسلىگە قايتۇرۇلدى.
 preferences-shortcut-placeholder = ئىشلەتمىگەن قىسقا يول كۇنۇپكىسى كىرگۈزۈلىدۇ ياكى بوش قالدۇرۇلسا چەكلەيدۇ.
+preferences-third-party-services = ئۈچىنچى تەرەپ مۇلازىمەتلەر
+preferences-ankihub-not-logged-in = نۆۋەتتە AnkiHub قا تىزىمغا كىرمىگەن.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = ئاساسى
 preferences-reviewer = تەكرارلىغۇچى
 preferences-media = ۋاسىتە
+preferences-not-logged-in = نۆۋەتتە AnkiWeb گە تىزىمغا كىرمىگەن.

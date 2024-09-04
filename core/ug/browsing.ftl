@@ -82,6 +82,7 @@ browsing-reschedule = قايتا كۈنتەرتىپلە
 browsing-search-bar-hint = كارتا/خاتىرە ئىزدە(تېكىست كىرگۈزۈپ Enter بېسىلىدۇ)
 browsing-search-in = ئىچىدە ئىزدە:
 browsing-search-within-formatting-slow = پىچىملىق ئىزدە (ئاستا)
+browsing-select-deck = دەستە تاللا
 browsing-selected-notes-only = تاللىغان خاتىرەلا
 browsing-shift-position-of-existing-cards = مەۋجۇت كارتىنىڭ ئورنىنى تەڭشە
 browsing-sidebar = يانبالداق

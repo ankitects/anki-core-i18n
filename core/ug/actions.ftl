@@ -12,6 +12,7 @@ actions-decks = دەستە
 actions-decrement-value = كېمەيگۈچى قىممەت
 actions-delete = ئۆچۈر
 actions-export = چىقار
+actions-empty-cards = بوش كارتا
 actions-filter = سۈزگۈچ
 actions-help = ياردەم
 actions-increment-value = ئۆسكۈچى قىممەت

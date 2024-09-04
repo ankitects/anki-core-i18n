@@ -10,6 +10,7 @@ editing-center = ئوتتۇرا
 editing-change-color = رەڭ ئۆزگەرت
 editing-cloze-deletion = بوش ئورۇن تولدۇرۇش (يېڭى كارتا)
 editing-cloze-deletion-repeat = بوش ئورۇن تولدۇرۇش (ئوخشاش كارتا)
+editing-copy-image = سۈرەت كۆچۈر
 editing-couldnt-record-audio-have-you-installed = ئۈن خاتىرىيەلمىدى. «lame» ئورنىتىلغانمۇ يوق تەكشۈرۈڭ؟
 editing-customize-card-templates = كارتا قېلىپىنى خاسلاشتۇر
 editing-customize-fields = ئىختىيارى بۆلەك
