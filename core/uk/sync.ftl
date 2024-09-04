@@ -53,6 +53,11 @@ sync-upload-too-large =
     Розмір вашої колекції завеликий, щоб надіслати на AnkiWeb. Ви можете зменшити її
     розмір, видаливши небажані колоди (за бажанням, спочатку експортувавши їх), і
     тоді використайте «Перевірити базу даних», щоб зменшити її. ({ $details })
+sync-sign-in = Увійти
+sync-ankihub-dialog-heading = Вхід до AnkiHub
+sync-ankihub-username-label = Ім'я користувача або е-пошта:
+sync-ankihub-login-failed = Неможливо увійти до AnkiHub з цими обліковими даними.
+sync-ankihub-addon-installation = Встановлення додатку AnkiHub
 
 ## Buttons
 

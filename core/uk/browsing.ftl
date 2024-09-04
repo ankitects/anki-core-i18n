@@ -84,6 +84,7 @@ browsing-reschedule = Змінити розклад
 browsing-search-bar-hint = Пошук карток/нотаток (введіть текст та натисніть Ентер)
 browsing-search-in = Шукати в:
 browsing-search-within-formatting-slow = Шукати серед форматування (повільно)
+browsing-select-deck = Оберіть колоду
 browsing-selected-notes-only = Лише вибрані нотатки
 browsing-shift-position-of-existing-cards = Зсунути розташування наявних карток
 browsing-sidebar = Бічна панель

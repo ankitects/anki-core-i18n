@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = Показувати лічильник 
 preferences-some-settings-will-take-effect-after = Деякі налаштування вступлять в силу лише після перезапуску Anki.
 preferences-tab-synchronisation = Синхронізація
 preferences-synchronize-audio-and-images-too = Синхронізувати також медіа-файли
-preferences-not-logged-in = Не здійснено вхід до AnkiWeb.
 preferences-login-successful-sync-now = Вхід вдалий. Зберегти налаштування та синхронізуватися?
 preferences-timebox-time-limit = Період лічильника переглядів
 preferences-user-interface-size = Розмір інтерфейсу
@@ -41,6 +40,7 @@ preferences-theme-follow-system = Системні налаштування
 preferences-theme-light = Світла
 preferences-theme-dark = Темна
 preferences-v3-scheduler = Планувальник V3
+preferences-check-for-updates = Перевіряти наявність оновлень
 preferences-ignore-accents-in-search = Не зважати на діакрітичні знаки (повільніше)
 preferences-backup-explanation =
     Anki періодично робить резервні копії колекції. Для копій, старших 2 днів, 
@@ -77,9 +77,15 @@ preferences-network-timeout = Термін очікування мережеви
 preferences-reset-window-sizes = Відновити розміри вікон
 preferences-reset-window-sizes-complete = Відновлено розміри та розташування вікон.
 preferences-shortcut-placeholder = Введіть скорочення, яке ще не використовується, або залиште порожнім, щоб деактивувати.
+preferences-third-party-services = Сторонні послуги
+preferences-ankihub-not-logged-in = Не здійснено вхід до AnkiHub.
+preferences-ankiweb-intro = AnkiWeb це безкоштовний сервіс, який зберігає та синхронізує картки між пристроями та дозволяє їх відновити при поломці чи втраті пристрою.
+preferences-ankihub-intro = AnkiHub забезпечує спільне редагування колод та інші засоби навчання. Щоб отримати доступ слід оформити платну підписку.
+preferences-third-party-description = Сторонні сервіси не пов'язані з Anki і їх робота не гарантована. Доступ до таких сервісів може бути платним.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Базова
 preferences-reviewer = Переглядач
 preferences-media = Медіа-файли
+preferences-not-logged-in = Не здійснено вхід до AnkiWeb.

@@ -12,6 +12,7 @@ actions-decks = Колоди
 actions-decrement-value = Зменшити значення
 actions-delete = Видалити
 actions-export = Експорт колоди в інший формат
+actions-empty-cards = Очистити картки
 actions-filter = Фільтр
 actions-help = Допомога
 actions-increment-value = Збільшити значення

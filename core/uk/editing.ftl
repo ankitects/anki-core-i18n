@@ -10,6 +10,7 @@ editing-center = По центру
 editing-change-color = Змінити колір
 editing-cloze-deletion = Закритий текст (нова картка)
 editing-cloze-deletion-repeat = Закритий текст (та сама картка)
+editing-copy-image = Копіюватися зображення
 editing-couldnt-record-audio-have-you-installed = Не вдається записати звук. Чи встановлено у Вас «lame»?
 editing-customize-card-templates = Змінити шаблон картки
 editing-customize-fields = Змінити поля
