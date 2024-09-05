@@ -15,6 +15,7 @@ exporting-include-media = رسانه شامل شود
 exporting-include-scheduling-information = اطلاعات زمان‌بندی نیز شامل شوند
 exporting-include-deck-configs = دسته حاضر را شامل شود
 exporting-include-tags = برچسب‌ها شامل شوند
+exporting-support-older-anki-versions = از نسخه های قدیمی آنکی پشتیبانی شود (فایل های کندتر/بزرگتر)
 exporting-notes-in-plain-text = یادداشت در فرمت ساده (Plain Text)
 exporting-selected-notes = یادداشت‌های انتخاب شده
 exporting-card-exported =
@@ -29,3 +30,12 @@ exporting-note-exported =
     { $count ->
        *[other] { $count } یادداشت صادر شد.
     }
+exporting-exporting-file = ذخیره فایل ...
+exporting-processed-media-files =
+    { $count ->
+        [one] { $count } فایل رسانه ای پردازش شد...
+       *[other] 0
+    }
+exporting-include-deck = نام دسته درج شود
+exporting-include-notetype = نام یادداشت درج شود
+exporting-include-guid = شناسه منحصر به فرد درج شود

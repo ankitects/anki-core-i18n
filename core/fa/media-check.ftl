@@ -13,6 +13,7 @@ media-check-unused-count = فایل‌های استفاده نشده: { $count }
 media-check-renamed-count = فایل‌هایی که نامشان تغییر داده شده است: { $count }
 media-check-oversize-count = بیشتر از 100 مگابایت: { $count }
 media-check-subfolder-count = زیرپوشه‌ها: { $count }
+media-check-extracted-count = تصاویر استخراج شده: { $count }
 
 ## Shown at the top of each section
 
@@ -21,6 +22,10 @@ media-check-oversize-header = فایل‌هایی که حجمشان بیشتر �
 media-check-subfolder-header = پوشه‌های داخل پوشۀ رسانه پشتیبانی نمی‌شوند.
 media-check-missing-header = فایل‌های زیر در کارت‌های استفاده شده‌اند، ولی در پوشۀ رسانه یافت نشدند:
 media-check-unused-header = فایل‌های زیر در پوشۀ رسانه یافت شدند، اما در هیچ کارتی استفاده نشده‌اند:
+media-check-template-references-field-header =
+    وقتی از ارجاعات { "{{Field}}" } در برچسب‌های رسانه/لاتک استفاده می‌کنید، آنکی نمی‌تواند فایل‌های استفاده شده را شناسایی کند. برچسب‌های رسانه/لاتک باید به جای آن روی یادداشت‌های جداگانه قرار گیرند.
+    
+    الگوهای ارجاع:
 
 ## Shown once for each file
 
@@ -29,6 +34,11 @@ media-check-oversize-file = حجم بیشتر از 100 مگابایت: { $filena
 media-check-subfolder-file = پوشه: { $filename }
 media-check-missing-file = مفقود: { $filename }
 media-check-unused-file = استفاده نشده: { $filename }
+
+##
+
+# Eg "Basic: Card 1 (Front Template)"
+media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 
 ## Progress
 
@@ -61,3 +71,7 @@ media-check-empty-trash = خالی کردن سطح زباله
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = بازگردانی حذف شده‌ها
 media-check-check-media-action = بررسی و رسانه
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = رسانه از دست رفته
+# add a tag to notes with missing media
+media-check-add-tag = تگ گم شده
