@@ -123,7 +123,7 @@ deck-config-new-gather-priority-random-notes = 随机排列笔记
 deck-config-new-gather-priority-random-cards = 随机排列卡片
 deck-config-new-card-sort-order = 新卡片排列顺序
 deck-config-new-card-sort-order-tooltip-2 =
-    「按卡片模板顺序」：按照卡片模板的顺序显示卡片。
+    「先按卡片模板，再按抽取顺序」：按照卡片模板的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使所有「正面->背面」的卡片先于「背面->正面」的卡片展示。
     该选项可使同一笔记的卡片在一次学习中展示出来，并确保其不会挨得太近。
     
@@ -139,7 +139,7 @@ deck-config-new-card-sort-order-tooltip-2 =
 deck-config-sort-order-card-template-then-random = 先按卡片模板顺序，再随机
 deck-config-sort-order-random-note-then-template = 先随机排列笔记，再按卡片模板顺序
 deck-config-sort-order-random = 随机排列
-deck-config-sort-order-template-then-gather = 按卡片模板顺序
+deck-config-sort-order-template-then-gather = 先按卡片模板，再按抽取顺序
 deck-config-sort-order-gather = 按抽取顺序
 deck-config-new-review-priority = 新学/复习的先后顺序
 deck-config-new-review-priority-tooltip = 何时显示与复习卡片关联的新卡。
@@ -283,7 +283,7 @@ deck-config-which-deck = 您想显示哪个牌组的选项？
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
+deck-config-invalid-parameters = 提供的 FSRS 参数无效。可以将它们留空以使用默认参数。
 deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
 deck-config-unable-to-determine-desired-retention = 无法计算出推荐的最小记忆保留率
 deck-config-must-have-400-reviews = 只找到了 { $count } 次复习记录。至少需要复习 400 次才能进行此操作。
@@ -419,3 +419,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     如果您愿意以更多的学习时间换取更高的回忆成功概率，您可能希望选择一个更高的保留率。
     并不推荐将您期望的记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
 deck-config-seconds-to-show-question-tooltip-2 = 启用自动前进时，自动显示答案前等待的秒数。设置为 0 以禁用。
+deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。

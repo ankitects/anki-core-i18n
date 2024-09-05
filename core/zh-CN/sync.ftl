@@ -52,6 +52,11 @@ sync-clock-off = 无法同步 - 本地时间设置错误。
 sync-upload-too-large =
     集合文件过大，无法上传至 AnkiWeb。请删除不需要的牌组以减小文件大小（可先导出牌组），并使用「检查数据库」功能以缩小文件大小。
     （{ $details }）
+sync-sign-in = 登录
+sync-ankihub-dialog-heading = AnkiHub 登录
+sync-ankihub-username-label = 用户名或邮箱：
+sync-ankihub-login-failed = 无法使用提供的凭据登录 AnkiHub。
+sync-ankihub-addon-installation = AnkiHub 插件安装
 
 ## Buttons
 

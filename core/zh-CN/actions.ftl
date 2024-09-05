@@ -12,6 +12,7 @@ actions-decks = 牌组
 actions-decrement-value = 递减值
 actions-delete = 删除
 actions-export = 导出
+actions-empty-cards = 空卡片
 actions-filter = 筛选
 actions-help = 帮助
 actions-increment-value = 递增值

@@ -10,6 +10,7 @@ editing-center = 居中对齐
 editing-change-color = 更改颜色
 editing-cloze-deletion = 填空（新增卡片）
 editing-cloze-deletion-repeat = 设置填空（相同卡片）
+editing-copy-image = 复制图片
 editing-couldnt-record-audio-have-you-installed = 无法录制音频。请检查是否已安装「lame」？
 editing-customize-card-templates = 自定义卡片内容模板
 editing-customize-fields = 自定义字段
