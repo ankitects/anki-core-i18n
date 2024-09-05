@@ -278,7 +278,7 @@ deck-config-which-deck = Minkä pakan haluaisit?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Päivitetään kortteja: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Painokertoimet on joko jätettävä tyhjäksi, jolloin käytetään oletusarvoja, tai niiden on oltava 17 pilkulla erotettua numeroa.
+deck-config-invalid-parameters = Annetut FSRS:n painokertoimet ovat virheellisiä. Jätä ne tyhjiksi käyttääksesi oletusarvoja.
 deck-config-not-enough-history = Ei riittävästi menneitä kertauksia tämän toiminnon suorittamiseen.
 deck-config-unable-to-determine-desired-retention = Optimaalisen retention määrittäminen ei onnistunut.
 deck-config-must-have-400-reviews =
@@ -381,3 +381,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     Tämä työkalu olettaa, että aloitat 0 opitusta kortista, ja yrittää löytää halutun retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa.
     Jotta oppimisprosessia voidaan simuloida tarkasti, tämä toiminto vaatii vähintään 400+ suoritettua kertausta. Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota optimitasoa alhaisemmaksi, koska silloin työmäärä kasvaa ilman että siitä on hyötyä.
 deck-config-seconds-to-show-question-tooltip-2 = Kun automaattinen eteneminen on käytössä, odota näin monta sekuntia ennen kuin vastaus näytetään. Poista käytöstä asettamalla arvoksi 0.
+deck-config-invalid-weights = Painokertoimet on joko jätettävä tyhjäksi, jolloin käytetään oletusarvoja, tai niiden on oltava 17 pilkulla erotettua numeroa.

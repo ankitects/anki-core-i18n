@@ -10,6 +10,7 @@ editing-center = Keskitä
 editing-change-color = Muuta väriä
 editing-cloze-deletion = Aukkotehtävä (uuteen korttiin)
 editing-cloze-deletion-repeat = Aukkotehtävä (samaan korttiin)
+editing-copy-image = Kopioi kuva
 editing-couldnt-record-audio-have-you-installed = Äänen tallennus ei onnistunut. Oletko asentanut 'lame'-kirjaston?
 editing-customize-card-templates = Mukauta korttimalleja
 editing-customize-fields = Mukauta kenttiä

@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = Näytä jäljellä olevien korttien mä�
 preferences-some-settings-will-take-effect-after = Osa asetuksista tulee voimaan vasta Ankin uudelleenkäynnistyksen jälkeen.
 preferences-tab-synchronisation = Synkronisaatio
 preferences-synchronize-audio-and-images-too = Synkronoi myös äänitiedostot ja kuvat
-preferences-not-logged-in = Et ole tällä hetkellä kirjautuneena AnkiWebiin.
 preferences-login-successful-sync-now = Kirjautuminen onnistui. Haluatko tallentaa asetukset ja synkronoida nyt?
 preferences-timebox-time-limit = Edistymisen näyttämisen aikaväli
 preferences-user-interface-size = Käyttöliittymän koko
@@ -41,6 +40,7 @@ preferences-theme-follow-system = Seuraa järjestelmän asetuksia
 preferences-theme-light = Vaalea
 preferences-theme-dark = Tumma
 preferences-v3-scheduler = V3-aikataulutusohjelma
+preferences-check-for-updates = Tarkista ohjelman päivitykset
 preferences-ignore-accents-in-search = Jätä aksentit huomiotta haun yhteydessä (hitaampi)
 preferences-backup-explanation = Anki varmuuskopioi kokoelmasi säännöllisesti, kun se on suljettu. Kun varmuuskopiot ovat yli 2 päivää vanhoja, Anki alkaa poistaa niistä joitakin vapauttaakseen levytilaa.
 preferences-daily-backups = Säilytettävien päivittäisten varmuuskopioiden määrä:
@@ -75,9 +75,15 @@ preferences-network-timeout = Verkon aikakatkaisu
 preferences-reset-window-sizes = Nollaa ikkunoiden koot
 preferences-reset-window-sizes-complete = Ikkunoiden koot ja sijainnit on nollattu.
 preferences-shortcut-placeholder = Syötä käyttämätön pikanäppäin tai jätä tyhjäksi, jos haluat poistaa pikanäppäimen käytöstä.
+preferences-third-party-services = Kolmannen osapuolen palvelut
+preferences-ankihub-not-logged-in = Et ole tällä hetkellä kirjautuneena AnkiHubiin.
+preferences-ankiweb-intro = AnkiWeb on ilmainen palvelu, jonka avulla voit pitää opettelukorttiesi tiedot synkronoituna eri laitteidesi välillä ja palauttaa tiedot, jos laitteesi rikkoutuu tai katoaa.
+preferences-ankihub-intro = AnkiHub tarjoaa mahdollisuuden työstää korttipakkoja yhdessä muiden kanssa ja muita opiskelutyökaluja. Tiettyjen ominaisuuksien käyttö edellyttää maksullista tilausta.
+preferences-third-party-description = Anki ei ole sidoksissa kolmannen osapuolen palveluihin eikä ole niiden tukija. Näiden palvelujen käyttö saattaa edellyttää maksua.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Perusasetukset
 preferences-reviewer = Kertaaja
 preferences-media = Media
+preferences-not-logged-in = Et ole tällä hetkellä kirjautuneena AnkiWebiin.

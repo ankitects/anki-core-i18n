@@ -12,6 +12,7 @@ actions-decks = Pakat
 actions-decrement-value = Pienennä arvoa
 actions-delete = Poista
 actions-export = Vie
+actions-empty-cards = Tyhjät kortit
 actions-filter = Suodatin
 actions-help = Ohje
 actions-increment-value = Kasvata arvoa

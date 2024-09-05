@@ -53,6 +53,11 @@ sync-upload-too-large =
     Kokoelmatiedostosi on liian suuri lähetettäväksi AnkiWebiin. Voit pienentää sen
     kokoa poistamalla kaikki ei-toivotut pakat (mahdollisesti viemällä ne ensin tiedostoihin), ja
     sitten käyttämällä Tarkista tietokanta -toimintoa tiedoston koon pienentämiseksi. ({ $details })
+sync-sign-in = Kirjaudu sisään
+sync-ankihub-dialog-heading = AnkiHubiin kirjautuminen
+sync-ankihub-username-label = Käyttäjätunnus tai sähköpostiosoite:
+sync-ankihub-login-failed = AnkiHubiin kirjautuminen ei onnistunut annetuilla tiedoilla.
+sync-ankihub-addon-installation = AnkiHub-lisäosan asennus
 
 ## Buttons
 

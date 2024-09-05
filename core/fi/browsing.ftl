@@ -82,6 +82,7 @@ browsing-reschedule = Ajasta uudelleen
 browsing-search-bar-hint = Etsi kortteja/muistiinpanoja (kirjoita tekstiä ja paina Enter-näppäintä)
 browsing-search-in = Etsi paikasta:
 browsing-search-within-formatting-slow = Etsi muotoiluista (hidas)
+browsing-select-deck = Valitse pakka
 browsing-selected-notes-only = Vain valitut muistiinpanot
 browsing-shift-position-of-existing-cards = Vaihda olemassa olevien korttien sijaintia
 browsing-sidebar = Sivupalkki
