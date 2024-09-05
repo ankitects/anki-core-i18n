@@ -81,6 +81,7 @@ browsing-reschedule = زمان‌بندی مجدد
 browsing-search-bar-hint = جست‌وجوی کارت/یادداشت (متن را وارد کنید، سپس اینتر را بزنید)
 browsing-search-in = جست‌وجو در:
 browsing-search-within-formatting-slow = جست‌وجو در قالب (کند)
+browsing-select-deck = انتخاب دسته
 browsing-selected-notes-only = فقط یادداشت‌های منتخب
 browsing-shift-position-of-existing-cards = تغییر محل کارت‌های موجود
 browsing-sidebar = نوار کناری

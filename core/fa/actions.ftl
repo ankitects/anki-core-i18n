@@ -12,6 +12,7 @@ actions-decks = دسته‌ها
 actions-decrement-value = کاستن
 actions-delete = حذف
 actions-export = خروجی‌گرفتن
+actions-empty-cards = کارت‌های خالی
 actions-filter = فیلتر
 actions-help = راهنما
 actions-increment-value = افزایش

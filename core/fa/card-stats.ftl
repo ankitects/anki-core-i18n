@@ -11,6 +11,7 @@ card-stats-new-card-position = موقعیت
 card-stats-card-template = نوع کارت
 card-stats-note-type = نوع یادداشت
 card-stats-deck-name = دسته
+card-stats-preset = در حال حاضر
 card-stats-note-id = شناسۀ یادداشت
 card-stats-card-id = شناسۀ کارت
 card-stats-review-log-rating = رتبه‌دهی
