@@ -12,6 +12,7 @@ actions-decks = Kartaroj
 actions-decrement-value = Malpliigi valoron
 actions-delete = Forigi
 actions-export = Elporti
+actions-empty-cards = Malplenaj kartoj
 actions-filter = Filtrilo
 actions-help = Helpo
 actions-increment-value = Pliigi valoron
