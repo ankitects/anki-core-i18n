@@ -79,7 +79,7 @@ preferences-third-party-services = 第三方服務
 preferences-ankihub-not-logged-in = 未登入 AnkiHub。
 preferences-ankiweb-intro = AnkiWeb 是一項免費服務，可以把你的卡片資料同步到所有裝置上，裝置損毀或遺失了也不用擔心資料遺失。
 preferences-ankihub-intro = AnkiHub 提供牌組合作編輯和其他學習工具。部分功能需付費訂閱。
-preferences-third-party-description = 第三方服務不受 Anki 支持，也無合作關係。使用第三方服務可能需要付費。
+preferences-third-party-description = 第三方服務與 Anki 無合作/擔保關係。使用第三方服務可能需要付費。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

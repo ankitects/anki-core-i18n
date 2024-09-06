@@ -50,7 +50,11 @@ sync-clock-off = 無法同步 - 你的時鐘設定時間不正確。
 sync-upload-too-large =
     你的集合檔案過大，無法傳送至 AnkiWeb。你可以移除（並可先匯出）不需要的牌組來減少檔案大小，並使用檢查資料庫來縮減檔案大小。
     （{ $details }）
+sync-sign-in = 登入
+sync-ankihub-dialog-heading = 登入 AnkiHub
 sync-ankihub-username-label = 使用者名稱或電子郵件：
+sync-ankihub-login-failed = 無法使用所給憑證來登入 AnkiHub。
+sync-ankihub-addon-installation = AnkiHub 附加元件安裝
 
 ## Buttons
 
