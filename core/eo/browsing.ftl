@@ -33,8 +33,8 @@ browsing-change-notetype = Ŝanĝi nototipon
 browsing-clear-unused-tags = Forigi neuzatajn etikedojn
 browsing-confirm-saved-search-overwrite = Konvservita serĉo kun la nomo { $name } jam ekzistas. Ĉu vi volas anstataŭigi ĝin?
 browsing-created = Kreita
-browsing-current-deck = Aktuala kartaro
-browsing-current-note-type = Aktuala nototipo:
+browsing-current-deck = nuna kartaro
+browsing-current-note-type = Nuna nototipo:
 browsing-delete-notes = Forigi notojn
 browsing-duplicate = duoblaĵo
 browsing-ease = Facileco
@@ -141,11 +141,31 @@ browsing-tooltip-note-modified = La lasta fojo kiam la noto estas ŝanĝigita; o
 browsing-tooltip-card = La nomo de karta ŝablono de karto
 browsing-tooltip-cards = La nombro de kartoj, kiujn noto havas.
 browsing-tooltip-notetype = La nomo de nota ŝablono de noto
+browsing-tooltip-question = La frontflanko de karto, adaptebla en la kartoŝablona redaktilo
+browsing-tooltip-answer = La dorsoflanko de karto, adaptebla en la kartoŝablona redaktilo
 browsing-studied-today = Hodiaŭ lernitaj
 browsing-added-today = Aldonita hodiaŭ
 browsing-again-today = Hodiaŭaj Denove markitaj
 browsing-edited-today = Redaktita
+browsing-sidebar-first-review = Unua ripeto
+browsing-sidebar-rescheduled = Replanita
+browsing-sidebar-untagged = senetikeda
 browsing-row-deleted = (forigita)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Forigi { $count } neuzatan etikedon.
+       *[other] Forigi { $count } neuzatajn etikedojn.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Pozicio de { $count } nova karto estas ŝanĝita.
+       *[other] Pozicio de { $count } novaj kartoj estas ŝanĝita.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } kartaro estas alinomita.
+       *[other] { $count } kartaroj estas alinomitaj.
+    }
 browsing-sidebar-card-state-review = Ripeto
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

@@ -11,8 +11,9 @@ card-stats-new-card-position = Pozicio
 card-stats-card-template = Kartotipo
 card-stats-note-type = Nototipo
 card-stats-deck-name = Kartaro
-card-stats-note-id = Noto-identigilo
-card-stats-card-id = Karto-identigilo
+card-stats-preset = Antaŭagordo
+card-stats-note-id = Nota identigilo
+card-stats-card-id = Karta identigilo
 card-stats-review-log-rating = Pritakso
 card-stats-review-log-type = Tipo
 card-stats-review-log-date = Dato
@@ -21,6 +22,13 @@ card-stats-review-log-type-learn = Lerni
 card-stats-review-log-type-review = ripeto
 card-stats-review-log-type-relearn = Relerni
 card-stats-review-log-type-filtered = Filtrita
+card-stats-review-log-type-manual = permana
+card-stats-no-card = (Neniu karto montrebla)
+card-stats-custom-data = propraj datumoj
+card-stats-fsrs-stability = stabileco
+card-stats-fsrs-difficulty = Malfacileco
 
 ## Window Titles
 
+card-stats-current-card = Nuna karto ({ $context })
+card-stats-previous-card = Antaŭa karto ({ $context })
