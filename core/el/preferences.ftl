@@ -26,7 +26,6 @@ preferences-show-remaining-card-count = Εμφάνιση αριθμού εναπ
 preferences-some-settings-will-take-effect-after = Μερικές αλλαγές θα εφαρμοστούν μετά την επανεκκίνηση του Anki.
 preferences-tab-synchronisation = Συγχρονισμός
 preferences-synchronize-audio-and-images-too = Συγχρονισμός ήχου και εικόνων επίσης
-preferences-not-logged-in = Δεν είστε συνδεδεμένοι στο AnkiWeb.
 preferences-login-successful-sync-now = Επιτυχημένη είσοδος. Αποθήκευση προτιμήσεων και συγχρονισμός τώρα;
 preferences-timebox-time-limit = Χρονικό όριο συνεδρίας
 preferences-user-interface-size = Μέγεθος διεπαφής χρήστη
@@ -40,6 +39,7 @@ preferences-theme-follow-system = Σύστημα
 preferences-theme-light = Λευκό
 preferences-theme-dark = Σκούρο
 preferences-v3-scheduler = Προγραμματιστής V3
+preferences-check-for-updates = Έλεγχος για ενημερώσεις προγράμματος
 preferences-ignore-accents-in-search = Παράλειψη τονισμού στην αναζήτηση (πιο αργό)
 preferences-backup-explanation = Το Anki δημιουργεί περιοδικά αντίγραφα ασφαλείας της συλλογής σας. Όταν τα αντίγραφα είναι παλαιότερα των 2 ημερών, το Anki αρχίζει να αφαιρεί ορισμένα από αυτά για την απελευθέρωση χώρου στο δίσκο.
 preferences-daily-backups = Διατήρηση καθημερινών αντιγράφων ασφαλείας:
@@ -74,9 +74,14 @@ preferences-network-timeout = Λήξη χρονικού ορίου δικτύο�
 preferences-reset-window-sizes = Επαναφορά μεγέθους παραθύρων
 preferences-reset-window-sizes-complete = Το μέγεθος των παραθύρων και οι τοποθεσίες έχουν επαναρυθμιστεί.
 preferences-shortcut-placeholder = Εισάγετε ένα μη χρησιμοποιούμενο πλήκτρο συντόμευσης ή αφήστε κενό για απενεργοποίηση.
+preferences-third-party-services = Υπηρεσίες Τρίτων
+preferences-ankihub-not-logged-in = Δεν είστε συνδεδεμένοι στο AnkiHub.
+preferences-ankiweb-intro = Το AnkiWeb είναι μια δωρεάν υπηρεσία που σας επιτρέπει να διατηρείτε τα δεδομένα των καρτών σας σε συγχρονισμό σε όλες τις συσκευές σας και παρέχει έναν τρόπο ανάκτησης των δεδομένων σε περίπτωση που η συσκευή σας δυσλειτουργεί ή χαθεί.
+preferences-third-party-description = Οι υπηρεσίες τρίτων δεν συνδέονται και δεν προωθούνται από το Anki. Η χρήση αυτών των υπηρεσιών μπορεί να απαιτεί πληρωμή.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Βασικό
 preferences-reviewer = Επαναλήψεις
 preferences-media = Πολυμέσα
+preferences-not-logged-in = Δεν είστε συνδεδεμένοι στο AnkiWeb.

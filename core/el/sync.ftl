@@ -53,6 +53,11 @@ sync-clock-off = Ο συγχρονισμός δεν ήταν δυνατός - τ
 sync-upload-too-large =
     Το αρχείο της συλλογής σας είναι πολύ μεγάλο για αποστολή στο AnkiWeb. 
     Μπορείτε να μειώσετε το μέγεθός του αφαιρώντας οποιαδήποτε τράπουλα δεν χρειάζεστε (προαιρετικά κάνετε πρώτα εξαγωγή) και μετά χρησιμοποιώντας τον Έλεγχο βάσης δεδομένων να συρρικνώσετε το μέγεθος. ({ $details })
+sync-sign-in = Είσοδος
+sync-ankihub-dialog-heading = Είσοδος στο AnkiHub
+sync-ankihub-username-label = Όνομα χρήστη ή Email:
+sync-ankihub-login-failed = Δεν είναι δυνατή η σύνδεση στο AnkiHub με τα στοιχεία εισόδου που δόθηκαν.
+sync-ankihub-addon-installation = Εγκατάσταση του AnkiHub Add-on
 
 ## Buttons
 
