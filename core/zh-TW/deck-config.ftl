@@ -96,7 +96,7 @@ deck-config-new-gather-priority-random-notes = 隨機筆記
 deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip-2 =
-    `卡片類型`：依卡片類型的序號順序來顯示卡片。當停用暫停關聯卡片時，所有「正面→背面」卡片都會在所有「背面→正面」卡片之前顯示。若要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片間的距離。
+    `卡片類型→收集順序`：依卡片類型的序號順序來顯示卡片。當停用暫停關聯卡片時，所有「正面→背面」卡片都會在所有「背面→正面」卡片之前顯示。若要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片間的距離。
     
     `收集順序`：依收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
     
@@ -108,7 +108,7 @@ deck-config-new-card-sort-order-tooltip-2 =
 deck-config-sort-order-card-template-then-random = 卡片類型→隨機
 deck-config-sort-order-random-note-then-template = 隨機筆記→卡片類型
 deck-config-sort-order-random = 隨機
-deck-config-sort-order-template-then-gather = 卡片類型
+deck-config-sort-order-template-then-gather = 卡片類型→收集順序
 deck-config-sort-order-gather = 收集順序
 deck-config-new-review-priority = 新卡片/複習卡順序
 deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
@@ -226,7 +226,7 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = 參數必須設定為 17 個用逗號分隔的數字，或留白以使用預設值。
+deck-config-invalid-parameters = 提供的 FSRS 參數無效。留空以使用預設參數。
 deck-config-not-enough-history = 複習歷程過少，無法執行此動作。
 deck-config-unable-to-determine-desired-retention = 無法計算出留存率推薦最小值。
 deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。至少需要 400 筆複習記錄才能執行此動作。
@@ -327,3 +327,4 @@ deck-config-compute-optimal-weights-tooltip =
 deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。設定期望留存率時可參考此數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值只會增加你的工作量而沒有好處，因此不建議設定過低。
 deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。為了準確模擬學習過程，此功能需要至少 400 次複習。設定期望留存率時可參考計算出的數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值會導致遺忘率過高，從而加大你的工作量，因此不建議設定過低。
 deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
+deck-config-invalid-weights = 參數必須設定為 17 個以半形逗號分隔的數字，或留白以使用預設值。

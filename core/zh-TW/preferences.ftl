@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = 顯示剩餘卡片數量
 preferences-some-settings-will-take-effect-after = 部分設定在重新啟動 Anki 後才會生效。
 preferences-tab-synchronisation = 同步
 preferences-synchronize-audio-and-images-too = 同步音訊與影像
-preferences-not-logged-in = 未登入 AnkiWeb。
 preferences-login-successful-sync-now = 登入成功。要儲存偏好設定並立即同步嗎？
 preferences-timebox-time-limit = 計時器時間上限
 preferences-user-interface-size = 使用者介面大小
@@ -41,6 +40,7 @@ preferences-theme-follow-system = 跟隨系統設定
 preferences-theme-light = 淺色
 preferences-theme-dark = 深色
 preferences-v3-scheduler = V3 排程器
+preferences-check-for-updates = 檢查程式更新
 preferences-ignore-accents-in-search = 搜尋時忽略字母的變音符號（速度較慢）
 preferences-backup-explanation = Anki 會定期備份你的集合。為節省硬碟空間，超過 2 天以前建立的備份將有一部分會被自動刪除。
 preferences-daily-backups = 保留備份數量（每天）：
@@ -75,8 +75,14 @@ preferences-network-timeout = 網路逾時
 preferences-reset-window-sizes = 重設視窗大小
 preferences-reset-window-sizes-complete = 已重設視窗大小及位置。
 preferences-shortcut-placeholder = 輸入一個未使用的快速鍵，或留空以停用。
+preferences-third-party-services = 第三方服務
+preferences-ankihub-not-logged-in = 未登入 AnkiHub。
+preferences-ankiweb-intro = AnkiWeb 是一項免費服務，可以把你的卡片資料同步到所有裝置上，裝置損毀或遺失了也不用擔心資料遺失。
+preferences-ankihub-intro = AnkiHub 提供牌組合作編輯和其他學習工具。部分功能需付費訂閱。
+preferences-third-party-description = 第三方服務不受 Anki 支持，也無合作關係。使用第三方服務可能需要付費。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = 基本
 preferences-media = 媒體
+preferences-not-logged-in = 未登入 AnkiWeb。
