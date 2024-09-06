@@ -114,6 +114,54 @@ importing-preserve = حفظ کردن
 importing-update = به‌روزرسانی
 importing-tag-all-notes = نشانه گذاری همه یادداشت ها
 importing-tag-updated-notes = نشانه گذاری یادداشت های بروز رسانی شده
+importing-file = فایل
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = محدوده تطبیق
+# Used with the 'match scope' option
+importing-notetype-and-deck = یادداشت و دسته
+importing-cards-added =
+    { $count ->
+        [one] تعداد { $count } کارت اضافه شد.
+       *[other] 0
+    }
+importing-file-empty = فایل برگزیده خالی می باشد.
+importing-notes-added =
+    { $count ->
+        [one] تعداد { $count } کارت جدید وارد شد.
+       *[other] 0
+    }
+importing-notes-updated =
+    { $count ->
+        [one] تعداد { $count } یادداشت برای بروزرسانی مورد استفاده قرار گرفت.
+       *[other] 0
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] تعداد { $count } یادداشت در حال حاضر در مجموعه موجود می باشد.
+       *[other] 0
+    }
+importing-notes-failed =
+    { $count ->
+        [one] تعداد { $count } یادداشت قابل وارد کردن نیستند.
+       *[other] 0
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] تعداد { $count } یادداشت وارد نشدند، چراکه نوع یادداشت تغییر یافته است.
+       *[other] 0
+    }
+importing-import-log = اطالاعات ورود
+importing-no-notes-in-file = هیچ یادداشتی در فایل یافت نشد.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] تعداد { $notes } یادداشت در فایل یافت شد. از این تعداد:
+       *[other] 0
+    }
+importing-show = نمایش
+importing-details = جزییات
+importing-status = حالت
+importing-duplicate-note-added = یادداشت های تکراری اضافه شدند
+importing-added-new-note = یادداشت های جدید اضافه شدند
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
