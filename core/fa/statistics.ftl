@@ -62,8 +62,6 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     }مطالعه شده است
     ({ $secs-per-card } ثانیه/کارت)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds } ثانیه
 statistics-today-title = امروز
 statistics-today-again-count = شمارش مجدد:
 statistics-today-type-counts = یادگیری: { $learnCount }, مرورشده: { $reviewCount }, بازآموزی: { $relearnCount }, فیلترشده: { $filteredCount }
@@ -76,10 +74,11 @@ statistics-counts-young-cards = موقت
 statistics-counts-mature-cards = دائم
 statistics-counts-suspended-cards = معلق شده
 statistics-counts-buried-cards = دفن شده
-statistics-counts-early-cards = زود
+statistics-counts-filtered-cards = فیلتر شده
 statistics-counts-learning-cards = در حال یادگیری
 statistics-counts-relearning-cards = بازآموزی
 statistics-counts-title = تعداد کارت
+statistics-counts-separate-suspended-buried-cards = کارت‌های معلق/دفن شده را جدا کنید
 statistics-range-all-time = عمر دسته
 statistics-range-1-year-history = 12 ماه گذشته
 statistics-range-all-history = تاریخچه کامل
@@ -87,11 +86,28 @@ statistics-range-deck = دسته
 statistics-range-collection = مجموعه
 statistics-range-search = جست و جو
 statistics-card-ease-title = سهولت کارت
+statistics-card-difficulty-title = دشواری کارت
+statistics-card-stability-title = پایداری کارت
+statistics-card-stability-subtitle = تاخیری که در آن قابلیت بازیابی به 90٪ کاهش می یابد.
+statistics-average-stability = پایداری متوسط
+statistics-card-retrievability-title = قابلیت بازیابی کارت
 statistics-card-ease-subtitle = هرچقدر سهولت کارت کمتر باشد، کارت بیشتر نمایش داده می‌شود.
+statistics-card-difficulty-subtitle2 = هر چه سختی بیشتر باشد، پایداری کندتر افزایش می یابد.
+statistics-retrievability-subtitle = احتمال فراخوانی کارت امروز.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
        *[other] { $cards } کارت دارای { $percent } سهولت
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] تعداد { $cards } کارت با درصد سختی { $percent }
+       *[other] 0
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] تعداد { $cards } کارت با قابلیت بازیابی { $percent }
+       *[other] 0
     }
 statistics-future-due-title = پیش‌بینی
 statistics-future-due-subtitle = تعداد مرورهایی که درآینده باید انجام دهید.
@@ -136,9 +152,23 @@ statistics-intervals-day-single =
     { $cards ->
        *[other] { $cards } دارای موعد مرور { $day } روز
     }
+statistics-stability-day-range =
+    { $cards ->
+        [one] تعداد { $cards } با پایداری { $daysStart } تا { $daysEnd }
+       *[other] 0
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] تعداد { $cards } کارت با { $day } روز پایداری
+       *[other] 0
+    }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = از { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } درست ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = مرورها { $reviews }
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = { $percent } درصد صحیح ({ $reviews })
 statistics-hours-title = تفکیک ساعت به ساعت
 statistics-hours-subtitle = میزان موفقیت مرور در هر ساعت از روز
 # shown when graph is empty
@@ -158,16 +188,14 @@ statistics-elapsed-time-days = { $amount } روز
 statistics-elapsed-time-months = { $amount } ماه
 statistics-elapsed-time-years = { $amount } سال
 
+##
 
-
-statistics-error-fetching = دادۀ نامعتبر یافت شد - لطفاً از بررسی دیتابیس برای رفع مشکل استفاده کنید.
 statistics-average-for-days-studied = میانگین برای روزهای مطالعه شده
 statistics-total = کل
 statistics-days-studied = روزهای مطالعه شده
 statistics-average-answer-time-label = میانگین زمان پاسخگویی
 statistics-average = میانگین
 statistics-average-interval = میانگین بازه زمانی
-statistics-longest-interval = بیشترین بازۀ زمانی
 statistics-due-tomorrow = موعد مرور فردا
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } از { $total } ({ $percent }%)
@@ -185,6 +213,9 @@ statistics-cards-per-day =
        *[other] { $count } کارت/روز
     }
 statistics-average-ease = میانگین آسانی
+statistics-average-difficulty = سختی متوسط
+statistics-average-retrievability = میانگین قابلیت بازیابی
 statistics-save-pdf = ذخیره PDF
 statistics-saved = ذخیره شد.
 statistics-stats = آمار
+statistics-title = آمارها
