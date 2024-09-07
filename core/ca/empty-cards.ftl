@@ -1,4 +1,4 @@
-empty-cards-for-note-type = Buida les targetes de { $notetype }:
+empty-cards-for-note-type = Targetes buides de la baralla «{ $notetype }»:
 empty-cards-count-line = Hi ha { $empty_count } targetes de { $existing_count } buides ({ $template_names }).
 empty-cards-window-title = Targetes buides
 empty-cards-preserve-notes-checkbox = Manté les notes que no tenen targetes vàlides

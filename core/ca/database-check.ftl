@@ -2,8 +2,8 @@ database-check-corrupt = El fitxer de la col·lecció està malmès. Restaureu l
 database-check-rebuilt = S’ha reconstruït i optimitzat la base de dades.
 database-check-card-properties =
     { $count ->
-        [one] S'ha corregit { $count } targeta que tenia propietats invàlides.
-       *[other] S'han corregit { $count } targetes que tenien propietats invàlides.
+        [one] S’ha corregit una propietat invàlida.
+       *[other] S’han corregit { $count } propietats invàlides.
     }
 database-check-missing-templates =
     { $count ->

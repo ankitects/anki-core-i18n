@@ -12,6 +12,7 @@ actions-decks = Baralles
 actions-decrement-value = Disminueix-ne el valor
 actions-delete = Suprimeix
 actions-export = Exporta
+actions-empty-cards = Targetes buides
 actions-filter = Filtre
 actions-help = Ajuda
 actions-increment-value = Augmenta'n el valor

@@ -82,6 +82,7 @@ browsing-reschedule = Replanifica
 browsing-search-bar-hint = Per a cercar targetes o notes, escriviu un text i premeu la tecla de retorn.
 browsing-search-in = Cerca en:
 browsing-search-within-formatting-slow = Cerca en els elements de format (lent)
+browsing-select-deck = Tria una baralla
 browsing-selected-notes-only = Només les notes seleccionades
 browsing-shift-position-of-existing-cards = Canvia la posició de les targetes existents
 browsing-sidebar = Barra lateral
