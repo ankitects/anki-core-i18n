@@ -14,7 +14,13 @@ card-templates-template-box = Ŝablono
 card-templates-sample-cloze = Tiu estas { "{{c1::" }ekzempla{ "}}" } truteksta malpleno.
 card-templates-fill-empty = Plenigi malplenaj kampojn
 card-templates-night-mode = Nokta reĝimo
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Aldoni klason por porteblajn aparatojn
 card-templates-preview-settings = Opcioj
+card-templates-invalid-template-number = Kartoŝablono { $number } en nototipo '{ $notetype }' havas probelmon
+card-templates-identical-front = La fronta flanko estas identa al  la kartoŝablono { $number }.
+card-templates-no-front-field = Kampa anstataŭigo estis atendita en la fronto de la kartoŝablono
 card-templates-add-card-type = Aldoni kartotipon...
 card-templates-anki-couldnt-find-the-line-between = Anki ne trovis la dividon inter la demando kaj la respondo. Bonvolu permane adapti la ŝablonon por ŝanĝi demandon kaj respondon.
 card-templates-at-least-one-card-type-is = Almenaŭ unu kartotipo necesas.
