@@ -82,6 +82,7 @@ browsing-reschedule = Replani
 browsing-search-bar-hint = Serĉi kartojn/notojn (taipi tekston kaj poste premi la enigan klavon)
 browsing-search-in = Serĉi en:
 browsing-search-within-formatting-slow = Serĉi ene de aranĝo (malrapida)
+browsing-select-deck = Elekti kartaron
 browsing-selected-notes-only = Nur elektitaj notoj
 browsing-shift-position-of-existing-cards = Ŝovi pozicion de ekzistantaj kartoj
 browsing-sidebar = Flankostrio
