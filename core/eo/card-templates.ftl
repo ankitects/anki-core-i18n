@@ -21,6 +21,12 @@ card-templates-preview-settings = Opcioj
 card-templates-invalid-template-number = Kartoŝablono { $number } en nototipo '{ $notetype }' havas probelmon
 card-templates-identical-front = La fronta flanko estas identa al  la kartoŝablono { $number }.
 card-templates-no-front-field = Kampa anstataŭigo estis atendita en la fronto de la kartoŝablono
+card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' aŭ similaĵo estis atendita en la fronto kaj dorso de la kartoŝablono
+card-templates-extraneous-cloze = 'cloze:' estas nur uzebla en trutekstaj nototipoj.
+card-templates-see-preview = Rigardu la antaŭmontron por pliaj informoj.
+card-templates-field-not-found = Kampo '{ $field }' estis ne trovita.
+card-templates-changes-saved = Ŝanĝoj estis konservitaj.
+card-templates-discard-changes = Forĵeti ŝanĝojn?
 card-templates-add-card-type = Aldoni kartotipon...
 card-templates-anki-couldnt-find-the-line-between = Anki ne trovis la dividon inter la demando kaj la respondo. Bonvolu permane adapti la ŝablonon por ŝanĝi demandon kaj respondon.
 card-templates-at-least-one-card-type-is = Almenaŭ unu kartotipo necesas.
@@ -49,3 +55,4 @@ card-templates-this-will-create-card-proceed =
         [one] Tio kreos { $count } karton. Daŭrigi?
        *[other] Tio kreos { $count } kartojn. Daŭrigi?
     }
+card-templates-type-boxes-warning = Nur po unu redaktujo estas subtenata por kartoŝablono.
