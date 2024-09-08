@@ -10,6 +10,7 @@ actions-decks = Baralhos
 actions-decrement-value = Decrementar valor
 actions-delete = Eliminar
 actions-export = Exportar
+actions-empty-cards = Fichas Vazias
 actions-filter = Filtro
 actions-help = Ajuda
 actions-increment-value = Incrementar valor

@@ -82,6 +82,7 @@ browsing-reschedule = Reagendar
 browsing-search-bar-hint = Procurar fichas/notas (escreva e depois pressione Enter)
 browsing-search-in = Procurar em:
 browsing-search-within-formatting-slow = Procurar com formatação (lento)
+browsing-select-deck = Seleccionar Baralho
 browsing-selected-notes-only = Apenas as notas seleccionadas
 browsing-shift-position-of-existing-cards = Alterar posição das fichas existentes
 browsing-sidebar = Barra lateral
