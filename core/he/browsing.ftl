@@ -83,6 +83,7 @@ browsing-reschedule = קביעת מועד חדש
 browsing-search-bar-hint = חיפוש כרטיסים/רשומות (הקלד, ואז הקש אנטר)
 browsing-search-in = חיפוש ב:
 browsing-search-within-formatting-slow = חפש עם עיצוב (איטי)
+browsing-select-deck = בחר חפיסה
 browsing-selected-notes-only = רשומות נבחרות בלבד
 browsing-shift-position-of-existing-cards = שינוי מיקום הכרטיסים הקיימים
 browsing-sidebar = סרגל צד

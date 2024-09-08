@@ -35,6 +35,11 @@ sync-conflict-explanation =
     אם תבחר להעלות, Anki יעלה את האוסף שלך לAnkiWeb, וכל השינויים שעשית באתר או בשאר המכשירים מאז הסינכרון האחרון יאבדו.
     
     לאחר שכל המכשירים מסונכרנים, חזרות עתידיות וכרטיסים שנוספו יתמזגו אוטומטית.
+sync-conflict-explanation2 =
+    יש התנגשות בין חפיסות במכשיר הזה לבין AnkiWeb. עליך לבחור איזו גרסה לשמור:
+    - בחר **{ sync-download-from-ankiweb }** כדי להחליף את החפיסות שבמכשיר זה בגרסה של AnkiWeb. תאבד את כל השינויים שביצעת במכשיר הזה מאז הסנכרון האחרון שלך.
+    - בחר **{ sync-upload-to-ankiweb }** כדי להחליף את הגרסאות של AnkiWeb עם חפיסות מהמכשיר הזה, ולמחוק כל שינוי ב-AnkiWeb.
+    לאחר פתרון ההתנגשות, הסנכרון יפעל כרגיל.
 sync-ankiweb-id-label = מזהה AnkiWeb:
 sync-password-label = ססמה:
 sync-account-required =
@@ -46,6 +51,11 @@ sync-upload-too-large =
     קובץ האוסף שלך גדול מכדי לשלוח אותו ל- AnkiWeb. אתה יכול להפחית את זה
     גודל על ידי הסרת חפיסות לא רצויות (אופציונלי לייצא אותם קודם),
     ולאחר מכן השתמש בבדיקת מסד הנתונים כדי לצמצם את גודל הקובץ.  ({ $details })
+sync-sign-in = היכנס
+sync-ankihub-dialog-heading = כניסה ל-AnkiHub
+sync-ankihub-username-label = שם משתמש או דואר אלקטרוני:
+sync-ankihub-login-failed = לא ניתן להיכנס ל-AnkiHub עם האישורים שסופקו.
+sync-ankihub-addon-installation = התקנת תוסף AnkiHub
 
 ## Buttons
 

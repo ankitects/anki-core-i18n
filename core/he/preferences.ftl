@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = הצג את ספירת הכרטיסים 
 preferences-some-settings-will-take-effect-after = מספר הגדרות יחולו רק לאחר אתחול Anki.
 preferences-tab-synchronisation = סינכרון
 preferences-synchronize-audio-and-images-too = סנכרן גם אודיו ותמונות
-preferences-not-logged-in = לא מחובר כרגע ל-AnkiWeb.
 preferences-login-successful-sync-now = התחברת בהצלחה. לשמור העדפות ולסנכרן עכשיו?
 preferences-timebox-time-limit = הגבלת זמן בתיבת הזמן
 preferences-user-interface-size = גודל ממשק המשתמש
@@ -41,6 +40,7 @@ preferences-theme-follow-system = עקוב אחר מערכת
 preferences-theme-light = בהיר
 preferences-theme-dark = כהה
 preferences-v3-scheduler = מתזמן V3
+preferences-check-for-updates = בדוק אם יש עדכוני תוכנה
 preferences-ignore-accents-in-search = התעלם ממבטאים בחיפוש (איטי יותר)
 preferences-backup-explanation =
     אנקי מגבה מדי פעם את האוסף שלך כשהוא סגור. לאחר שהגיבויים הם בני יותר מ2 ימים,
@@ -77,9 +77,15 @@ preferences-network-timeout = פסק זמן לרשת
 preferences-reset-window-sizes = אפס גדלי חלונות
 preferences-reset-window-sizes-complete = גודלי ומיקומי החלונות אופסו.
 preferences-shortcut-placeholder = הכנס קיצור מקשים שאין לו שימוש נוסף, או השאר ריק כדי להשבית את הקיצור.
+preferences-third-party-services = שירותי צד שלישי
+preferences-ankihub-not-logged-in = לא מחובר כרגע ל-AnkiHub.
+preferences-ankiweb-intro = AnkiWeb הוא שירות חינמי המאפשר לך לשמור את נתוני הכרטיסים שלך מסונכרנים בין המכשירים שלך, ומספק דרך לשחזר את הנתונים אם המכשיר שלך נשבר או נאבד.
+preferences-ankihub-intro = AnkiHub מספק עריכת חפיסות שיתופית וכלי לימוד נוספים. נדרש מנוי בתשלום כדי לגשת לתכונות מסוימות.
+preferences-third-party-description = שירותי צד שלישי אינם קשורים ואינם מאושרים על ידי אנקי. שימוש בשירותים אלה עשוי לדרוש תשלום.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = בסיסי
 preferences-reviewer = מסך החזרה
 preferences-media = מדיה
+preferences-not-logged-in = לא מחובר כרגע ל-AnkiWeb.

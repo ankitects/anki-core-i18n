@@ -12,6 +12,7 @@ actions-decks = חפיסות
 actions-decrement-value = הפחתת ערך
 actions-delete = מחיקה
 actions-export = ייצוא
+actions-empty-cards = כרטיסים ריקים
 actions-filter = מסנן
 actions-help = עזרה
 actions-increment-value = הגדלת ערך

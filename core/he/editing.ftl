@@ -10,6 +10,7 @@ editing-center = מרכז
 editing-change-color = שינוי צבע
 editing-cloze-deletion = הסתרת טקסט (בכרטיס נפרד - יוצר כרטיס נוסף)
 editing-cloze-deletion-repeat = הסתרת טקסט (באותו כרטיס)
+editing-copy-image = העתק תמונה
 editing-couldnt-record-audio-have-you-installed = הקלטת אודיו נכשלה. האם התקנת 'lame'?
 editing-customize-card-templates = שנה תבניות כרטיס
 editing-customize-fields = התאם אישית שדות
