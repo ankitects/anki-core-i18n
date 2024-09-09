@@ -75,14 +75,32 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Сегодня изучено: { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card } с/карт.)
+    { $unit ->
+        [seconds]
+            Сегодня изучено { statistics-cards }
+            { statistics-in-time-span-seconds }
+            ({ $secs-per-card } с/карт.)
+        [minutes]
+            Сегодня изучено { statistics-cards }
+            { statistics-in-time-span-minutes }
+            ({ $secs-per-card } с/карт.)
+        [hours]
+            Сегодня изучено { statistics-cards }
+            { statistics-in-time-span-hours }
+            ({ $secs-per-card } с/карт.)
+        [days]
+            Сегодня изучено { statistics-cards }
+            { statistics-in-time-span-days }
+            ({ $secs-per-card } с/карт.)
+        [months]
+            Сегодня изучено { statistics-cards }
+            { statistics-in-time-span-months }
+            ({ $secs-per-card } с/карт.)
+       *[years]
+            Сегодня изучено { statistics-cards }
+            { statistics-in-time-span-years }
+            ({ $secs-per-card } с/карт.)
+    }
 statistics-today-title = Сегодня
 statistics-today-again-count = Возвратов:
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
