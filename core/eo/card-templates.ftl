@@ -56,3 +56,4 @@ card-templates-this-will-create-card-proceed =
        *[other] Tio kreos { $count } kartojn. Daŭrigi?
     }
 card-templates-type-boxes-warning = Nur po unu redaktujo estas subtenata por kartoŝablono.
+card-templates-restored-to-default = Nototipo estis restarigita al sia origina stato.

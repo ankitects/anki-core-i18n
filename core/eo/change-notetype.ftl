@@ -3,5 +3,7 @@ change-notetype-new = Nova
 change-notetype-nothing = (Nenio)
 change-notetype-collapse = Maletendi
 change-notetype-expand = Etendi
+change-notetype-will-discard-content = Forĵetos enhavon en la jenaj kampoj:
+change-notetype-will-discard-cards = Forigos la jenajn kartojn:
 change-notetype-fields = Kampoj
 change-notetype-templates = Ŝablonoj
