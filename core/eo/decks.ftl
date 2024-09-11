@@ -30,4 +30,4 @@ decks-study = Lernado
 decks-study-deck = Lernkartaro
 decks-learn-header = Lerni
 # The count of cards waiting to be reviewed
-decks-review-header = Limdato
+decks-review-header = Lernenda

@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Limdato
+statistics-due-date = Lernenda
 # The count of cards waiting to be reviewed
-statistics-due-count = Limdato
+statistics-due-count = Lernenda
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -42,8 +42,8 @@ statistics-in-time-span-years =
     }
 statistics-cards =
     { $cards ->
-        [one] { $cards } karto
-       *[other] { $cards } kartoj
+        [one] { $cards } karton
+       *[other] { $cards } kartojn
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
