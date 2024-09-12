@@ -24,6 +24,9 @@ custom-study-select = Elekti
 custom-study-select-tags-to-exclude = Elektu etikedojn por ekskluzivi:
 custom-study-selective-study = Selektiva lernado
 custom-study-study-by-card-state-or-tag = Lerni laŭ kartostato aŭ etikedo
+custom-study-available-new-cards-2 = Disponeblaj novaj kartoj:{ $countString }
+custom-study-available-review-cards-2 = Disponeblaj ripetendaj kartoj: { $countString }
+custom-study-available-child-count = ({ $count } en subkartaroj)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
