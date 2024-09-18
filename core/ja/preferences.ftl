@@ -79,7 +79,7 @@ preferences-third-party-services = サードパーティーサービス
 preferences-ankihub-not-logged-in = 現在、AnkiHubにログインしていません。
 preferences-ankiweb-intro = AnkiWebは、フラッシュカードのデータをデバイス間で同期し、デバイスが壊れたり紛失したりした場合にデータを復元する方法を提供する無料サービスです。
 preferences-ankihub-intro = AnkiHubは、デッキの共同編集機能などの学習ツールを提供します。 一部の機能を利用するには有料会員登録が必要です。
-preferences-third-party-description = サードパーティーサービスは、Ankiとは別の開発者によって管理されており、Ankiが信頼性を保証するものではありません。 これらのサービスの利用には支払いが必要な場合があります。
+preferences-third-party-description = サードパーティーサービスは、Ankiとは別の開発者によって管理されており、Ankiが信頼性を保証するものではありません。 また、サービスによっては料金の支払いが必要となる場合があります。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
