@@ -50,6 +50,11 @@ sync-account-required =
 sync-sanity-check-failed = 「ツール」→「データベースをチェック」機能を使用した後、再度同期してください。問題が続くようであれば、設定画面より一方向に変更を強制実行してください。
 sync-clock-off = 同期できません。あなたの時計の時間が正しく設定されていません。
 sync-upload-too-large = あなたのコレクションはAnkiWebに送信するには容量が大きすぎます。必要のないデッキを削除した後（それらをエクスポートして別の場所に保存しておくこともできます）「データベースをチェック」機能を使用し、ファイルの容量を小さくしてください。（{ $details }）
+sync-sign-in = サインイン
+sync-ankihub-dialog-heading = AnkiHub ログイン
+sync-ankihub-username-label = ユーザー名 または メールアドレス:
+sync-ankihub-login-failed = 現在入力されている認証情報でAnkiHubにログインできません
+sync-ankihub-addon-installation = AnkiHubアドオンのインストール
 
 ## Buttons
 

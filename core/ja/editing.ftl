@@ -10,6 +10,7 @@ editing-center = 中央
 editing-change-color = 色を変更
 editing-cloze-deletion = 穴埋め問題
 editing-cloze-deletion-repeat = 穴埋め問題 (同じカード )
+editing-copy-image = 画像をコピー
 editing-couldnt-record-audio-have-you-installed = 音声を録音できませんでした。LAMEをインストールしていますか？
 editing-customize-card-templates = カードテンプレートをカスタマイズ
 editing-customize-fields = フィールドをカスタマイズ

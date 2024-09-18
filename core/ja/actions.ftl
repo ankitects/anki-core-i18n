@@ -12,6 +12,7 @@ actions-decks = デッキ
 actions-decrement-value = 値を減らす
 actions-delete = 削除
 actions-export = エクスポート
+actions-empty-cards = 白紙カード
 actions-filter = フィルター
 actions-help = ヘルプ
 actions-increment-value = 値を増やす

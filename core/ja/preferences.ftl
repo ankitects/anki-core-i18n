@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = 残りのカード枚数を表示
 preferences-some-settings-will-take-effect-after = Anki を再起動した後に有効になる設定があります。
 preferences-tab-synchronisation = 同期
 preferences-synchronize-audio-and-images-too = 音声と画像も同期する
-preferences-not-logged-in = 現在、AnkiWebにログインしていません。
 preferences-login-successful-sync-now = ログインに成功しました。設定を保存し、同期を開始しますか？
 preferences-timebox-time-limit = タイムボックス（学習時間の目標・区切り）
 preferences-user-interface-size = ユーザーインターフェースのサイズ
@@ -41,6 +40,7 @@ preferences-theme-follow-system = システムに従う
 preferences-theme-light = ライト
 preferences-theme-dark = ダーク
 preferences-v3-scheduler = V3スケジューラ―
+preferences-check-for-updates = アップデートをチェック
 preferences-ignore-accents-in-search = 検索する際にアクセント記号を無視する（検索速度低下）
 preferences-backup-explanation = Anki は一定時間（分）ごとにコレクションのバックアップを作成しています。各期間（日／週／月）の代表として保管するバックアップ以外のバックアップは、ディスク領域を空けるために、作成から2日以上経過した後に削除していきます。
 preferences-daily-backups = 各日代表のバックアップ保管数（何日分）
@@ -75,9 +75,15 @@ preferences-network-timeout = ネットワークタイムアウト
 preferences-reset-window-sizes = ウィンドウのサイズをリセット
 preferences-reset-window-sizes-complete = ウィンドウのサイズと位置をリセットしました。
 preferences-shortcut-placeholder = 他のショートカットに使用されていないキーを入力するか、空欄（ショートカットなし）にしてください。
+preferences-third-party-services = サードパーティーサービス
+preferences-ankihub-not-logged-in = 現在、AnkiHubにログインしていません。
+preferences-ankiweb-intro = AnkiWebは、フラッシュカードのデータをデバイス間で同期し、デバイスが壊れたり紛失したりした場合にデータを復元する方法を提供する無料サービスです。
+preferences-ankihub-intro = AnkiHubは、デッキの共同編集機能などの学習ツールを提供します。 一部の機能を利用するには有料会員登録が必要です。
+preferences-third-party-description = サードパーティーサービスは、Ankiとは別の開発者によって管理されており、Ankiが信頼性を保証するものではありません。 これらのサービスの利用には支払いが必要な場合があります。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = 基本
 preferences-reviewer = Reviewer
 preferences-media = メディア
+preferences-not-logged-in = 現在、AnkiWebにログインしていません。

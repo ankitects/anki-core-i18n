@@ -77,6 +77,7 @@ browsing-reschedule = スケジュールを変更
 browsing-search-bar-hint = カード・ノートを検索（文字を入力し、Enterキー）
 browsing-search-in = 検索対象：
 browsing-search-within-formatting-slow = 書式済みの内容の中まで検索 (速度が低下します)
+browsing-select-deck = デッキを選択
 browsing-selected-notes-only = 選択中のノートのみ
 browsing-shift-position-of-existing-cards = 既存のカードの順序を移動する
 browsing-sidebar = サイドバー
