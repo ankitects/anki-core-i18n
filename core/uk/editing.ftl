@@ -36,6 +36,7 @@ editing-mathjax-chemistry = MathJax для хімії
 editing-mathjax-inline = MathJax в рядку
 editing-mathjax-placeholder = Натисніть { $accept } щоб закінчити введення, { $newline } для вставки нового рядка.
 editing-media = Медіа-файли
+editing-show-in-folder = Показати у теці
 editing-ordered-list = Впорядкований список
 editing-outdent = Зменшити відступ
 editing-paste = Вставити
