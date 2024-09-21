@@ -36,6 +36,7 @@ editing-mathjax-chemistry = MathJax 化學
 editing-mathjax-inline = MathJax 行內
 editing-mathjax-placeholder = 按下 { $accept } 接受，{ $newline } 換行。
 editing-media = 媒體
+editing-show-in-folder = 在資料夾中顯示
 editing-ordered-list = 有序清單
 editing-outdent = 減少縮排
 editing-paste = 貼上
