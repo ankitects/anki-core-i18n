@@ -36,6 +36,7 @@ editing-mathjax-chemistry = MathJax -kemian kaava
 editing-mathjax-inline = Rivinsisäinen MathJax
 editing-mathjax-placeholder = Hyväksy painamalla { $accept }, luo uusi rivi painamalla { $newline }.
 editing-media = Mediatiedostot
+editing-show-in-folder = Näytä kansiossa
 editing-ordered-list = Numeroitu luettelo
 editing-outdent = Vähennä sisennystä
 editing-paste = Liitä
