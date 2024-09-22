@@ -36,6 +36,7 @@ editing-mathjax-chemistry = MathJax خىمىيە
 editing-mathjax-inline = MathJax قۇر ئىچى تەڭلىمە
 editing-mathjax-placeholder = { $accept } بېسىلسا قوشۇلىدۇ، { $newline } يېڭى قۇر.
 editing-media = ۋاسىتە
+editing-show-in-folder = قىسقۇچتا كۆرسەت
 editing-ordered-list = تەرتىپلەنگەن تىزىم
 editing-outdent = تارايتىشنى كېمەيت
 editing-paste = چاپلا
