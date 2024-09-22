@@ -191,6 +191,7 @@ deck-config-easy-bonus-tooltip = אַן איבעריקער כּפֿלער (פֿ�
 deck-config-interval-modifier-tooltip = אָט דער כּפֿלער ווערט כּפֿלעט אויף אַלע איבער׳חזר׳ונגען, און מע קען ניצן קליינע צופּאַסונגען כּדי צו מאַכן ANKI מער קאָנסערוואַטיוו אָדער אַגרעסיוו מיטן פּלאַנירן. ביטע גיט אַ קוק איבער דאָס האַנטביכל פֿאַרן בײַטן די ברירה.
 deck-config-hard-interval-tooltip = דער כּפֿלער וואָס ווערט כּפֿלעט אויף אַ חזר-צווישנצײַט, אַז מע ענטפֿערט ׳שווער׳.
 deck-config-new-interval-tooltip = דער כּפֿלער וואָס ווערט כּפֿלעט אויף אַ חזר-צווישנצײַט, אַז מע ענטפֿערט ׳ווידער׳.
+deck-config-minimum-interval-tooltip = די מינימאַלע צווישנצײַט וואָס ווערט געגעבן אַ חזר-קאַרטל נאָכ׳ן ענטפֿערן ׳ווידער׳.
 deck-config-custom-scheduling = צופּאַסן פּלאַנירונג
 deck-config-custom-scheduling-tooltip = ס׳גילט אויף דער גאַנצער זאַמלונג. היט זיך, אויפֿן אייגענעם אחריות!
 
@@ -204,6 +205,7 @@ deck-config-clone-group = דופּליקירן מוסטער
 ## Removing
 
 deck-config-remove-group = אויסמעקן מוסטער
+deck-config-will-require-full-sync = די געבעטנע בײַט וועט דאַרפֿן אַן אַהינ-סינך. ווען איר האָט שוין געמאַכט בײַטן אויף אַן אַנדער מכשיר, און זיי נאָך נישט סינכראָניזירט אין אָט דעם מכשיר, ביטע סינכראָניזירט זיי פֿאַרן ממשיך זײַן.
 deck-config-confirm-remove-name = אויסמעקן { $name }?
 
 ## Other Buttons
@@ -220,9 +222,24 @@ deck-config-description-new-handling = אַנקי 2.1.41+ האַלטונג
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] אַ מוטער-טעשל האָט אַ גרענעץ פֿון { $cards } קאַרטלעך, וואָס וועט בטל מאַכן אָט דעם גרענעץ.
+       *[other] אַ מוטער-טעשל האָט אַ גרענעץ פֿון { $cards } קאַרטל, וואָס וועט בטל מאַכן אָט דעם גרענעץ.
+    }
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] אַז מע שטעלט צו { $cards } נײַ קאַרטל יעדן טאָג, זאָל דער חזר-גרענעץ זײַן כאָטש { $expected }.
+       *[other] אַז מע שטעלט צו { $cards } נײַע קאַרטלעך יעדן טאָג, זאָל דער חזר-גרענעץ זײַן כאָטש { $expected }.
+    }
+deck-config-learning-step-above-graduating-interval = די גראַדויִרן-צווישנצײַט זאָל זײַן לכל-הפּחוט אַזוי לאַנג ווי דעם לעצטן לערן-שטאַפּל.
+deck-config-good-above-easy = די גרינג-צווישנצײַט זאָל נײַן לכל-הפּחוט אַזוי לאַנג ווי די גראַדויִרן-צווישנצײַט.
+deck-config-relearning-steps-above-minimum-interval = די מינימאַלע פֿאַרטונקל-צווישנצײַט זאָל זײַן לכל-הפּחוט אַזוי לאַנג ווי דעם לעצטן קריקלער-שטאַפּל.
+deck-config-maximum-answer-secs-above-recommended = אַנקי קען פּלאַנירן עפֿעקטיווער איבער׳חזר׳ונגען, ווען יעדע פֿראַגע איז אַ קורצע.
 
 ## Selecting a deck
 
+deck-config-which-deck = פֿון וועלכען טעשל ווילסטו ווײַזן די ברירות?
 
 ## Messages related to the FSRS scheduler
 
