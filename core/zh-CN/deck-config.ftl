@@ -25,16 +25,18 @@ deck-config-limit-new-bound-by-reviews =
     例如复习上限设为 200，尚有 190 张卡片待复习，则至多可展示 10 张新卡片。
     而若已达复习上限，则不再展示新卡片。
 deck-config-limit-interday-bound-by-reviews =
-    该上限不适用于当日（重新）学习的卡片。
+    复习上限同样会作用于跨日学习的卡片。
     当应用复习上限时，将按「跨日学习卡片->复习卡片->新卡片」顺序展示。
 deck-config-tab-description =
-    -「预设配置」：上限共同适用于所有使用此预设配置的牌组。
-    -「当前牌组」：上限仅适用于当前牌组。
-    -「仅限今天」：上限仅为暂时应用于当前牌组。
+    -「预设配置」：上限应用于所有使用此预设配置的牌组。
+    -「当前牌组」：上限仅应用于当前牌组。
+    -「仅限今天」：上限暂时应用于当前牌组。
 deck-config-new-cards-ignore-review-limit = 新卡片不受复习上限影响
 deck-config-new-cards-ignore-review-limit-tooltip = 默认情况下，复习上限适用于新卡片，当复习已经达到上限时将不会出现新卡片。如果启用该选项，则新卡片的出现不受复习上限的限制。
 deck-config-apply-all-parent-limits = 使用顶层牌组的上限
-deck-config-apply-all-parent-limits-tooltip = 默认情况下，上限使用您选取的牌组的设置。如果启用该选项，上限将使用顶层牌组的设置。该选项可以用于您希望学习单独的子牌组，同时又确保不超过每日总卡片上限的情况。
+deck-config-apply-all-parent-limits-tooltip =
+    默认情况下，高层牌组的每日上限并不会影响您在低层子牌组上的学习。
+    如果启用该选项，上限将使用顶层牌组的设置。该选项可以用于您希望学习单独的子牌组，同时又确保整个牌组树不超过每日总卡片上限的情况。
 deck-config-affects-entire-collection = 该设置将影响整个集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -63,7 +65,7 @@ deck-config-new-insertion-order-tooltip =
     更改此选项将自动更新现存新卡片的位置。
 deck-config-new-insertion-order-sequential = 顺序插入（旧卡片在前）
 deck-config-new-insertion-order-random = 随机插入
-deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程算法时，建议设为「顺序插入」，并改用「展示顺序」>「新卡片抽取顺序」选项。
+deck-config-new-insertion-order-random-with-v3 = 使用 v3 排程算法时，建议设为「顺序插入」，并改用「展示顺序」>「新卡片抽取顺序」选项。
 
 ## Lapses section
 
@@ -103,7 +105,7 @@ deck-config-ordering-title = 展示顺序
 deck-config-new-gather-priority = 新卡片抽取顺序
 deck-config-new-gather-priority-tooltip-2 =
     「按牌组顺序」：从顶部开始，按顺序从每个牌组的顶部开始抽取卡片。
-    每个牌组中的卡片按升序抽取。如达到所选牌组的单日上限，则可能没有检查所有的牌组。
+    每个子牌组中的卡片按升序抽取。如达到所选牌组的单日上限，则可能没有检查所有的子牌组。
     对于大型牌组，此方式是最快的，并可优先处理处于顶部的子牌组。
     
     「按位置升序」：按升序位置（due #）抽取卡片，旧卡片优先。
@@ -111,10 +113,8 @@ deck-config-new-gather-priority-tooltip-2 =
     「按位置降序」：按降序位置（due #）抽取卡片，新卡片优先。
     
     「随机排列笔记」：先随机排列选取的笔记，再从中抽取卡片。
-    当搁置关联卡片功能被禁用时，可使一个笔记的所有卡片在一次练习中展示。
-    （例如：使「正面→背面」和「背面→正面」在一次练习展示）
     
-    「随机排列卡片」：完全随机地抽取卡片。
+    「随机排列卡片」：随机地抽取卡片。
 deck-config-new-gather-priority-deck = 按牌组顺序
 deck-config-new-gather-priority-deck-then-random-notes = 按牌组顺序，再随机排列笔记
 deck-config-new-gather-priority-position-lowest-first = 按位置升序
@@ -124,18 +124,20 @@ deck-config-new-gather-priority-random-cards = 随机排列卡片
 deck-config-new-card-sort-order = 新卡片排列顺序
 deck-config-new-card-sort-order-tooltip-2 =
     「先按卡片模板，再按抽取顺序」：按照卡片模板的顺序显示卡片。
+    每种卡片模板的卡片都按抽取顺序显示。
     如搁置关联卡片功能已禁用，可使所有「正面->背面」的卡片先于「背面->正面」的卡片展示。
     该选项可使同一笔记的卡片在一次学习中展示出来，并确保其不会挨得太近。
     
     「按抽取顺序」：按照抽取卡片的顺序显示卡片。
     如搁置关联卡片功能已禁用，可使一条笔记上的每个卡片依次出现。
     
-    「先按卡片模板顺序，再随机」：与「卡片模板顺序」相似，但将打乱每个卡片模板的编号。
-    如您使用「位置升序」以抽取较旧的卡片，可以使用该选项以随机顺序展示卡片，同时可确保同一笔记的卡片不会挨得太近。
+    「先按卡片模板顺序，再随机」：按照卡片模板的顺序显示卡片。
+    每种卡片模板的卡片按随机顺序显示。
+    当您不希望关联卡片出现顺序太过接近，但同时又希望卡片以随机顺序排列时，该顺序很有效。
     
-    「先随机排列笔记，再按卡片模板顺序」：随机抽取笔记，然后按顺序展示其所有关联卡片。
+    「先随机排列笔记，再按卡片模板顺序」：随机抽取笔记，然后按顺序显示其所有卡片。
     
-    「随机排列」：完全打乱收集的所有卡片。
+    「随机排列」：按随机顺序显示卡片。
 deck-config-sort-order-card-template-then-random = 先按卡片模板顺序，再随机
 deck-config-sort-order-random-note-then-template = 先随机排列笔记，再按卡片模板顺序
 deck-config-sort-order-random = 随机排列
@@ -309,13 +311,11 @@ deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
 deck-config-fsrs-tooltip =
     此设置影响整个集合。
     
-    自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2 (SM-2) 排程算法的替代。
-    通过更准确地确定您何时可能忘记，它可以帮助您在相同时间内记住更多的内容。
+    自由间隔重复调度算法（FSRS）是 Anki 传统 SuperMemo 2 (SM-2) 算法的替代。
+    通过更准确地确定您忘记卡片的可能性，它可以帮助您在相同时间内记住更多的内容。
     此设置影响所有牌组的预设配置。
-    
-    如果您以前使用过「自定义排程」的 FSRS，请确保您在启用该选项前已清空自定义排程的内容。
 deck-config-desired-retention-tooltip =
-    默认值 0.9 会将卡片进行排程，以使您在下一次复习时有 90% 的回忆成功概率。
+    默认值 0.9 会以您在下一次复习时有 90% 的回忆成功概率为目标将卡片进行排程。
     如果您增加数值，Anki 会增加展示卡片的频率，以增加您回忆成功的概率。
     如果您降低数值，Anki 会降低展示卡片的频率，您也可能会遗忘更多的卡片。
     请保守地增加数值，因为这会增加您的工作量；而较低的数值可能会让您在忘记很多内容时心情低落。
@@ -352,8 +352,8 @@ deck-config-compute-optimal-weights-tooltip2 =
 deck-config-compute-optimal-retention-tooltip4 =
     该工具会尝试找出在最少的时间内能学习最多材料的期望记忆保留率。
     在决定将期望记忆保留率设置为多少时，可以将此计算出的数值作为参考。
-    如果您愿意以更多的学习时间换取更高的回忆成功概率，您可能希望选择一个更高的保留率。
-    并不推荐将您期望的记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
+    如果您愿意以更多的学习时间换取更高的记忆保留率，您可能希望选择一个更高的期望记忆保留率。
+    并不推荐将期望记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
 deck-config-please-save-your-changes-first = 请先保存您预设配置的更改。
 deck-config-a-100-day-interval =
     { $days ->
