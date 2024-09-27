@@ -54,6 +54,11 @@ sync-upload-too-large =
     pode reduzir seu tamanho removendo quaisquer baralhos indesejados 
     (opcionalmente, exportando-os primeiro), e em seguida, usando 'Verificar Banco 
     de Dados' para reduzir o tamanho do arquivo. ({ $details })
+sync-sign-in = Iniciar sessão
+sync-ankihub-dialog-heading = Login no AnkiHub
+sync-ankihub-username-label = Nome de usuário ou E-mail:
+sync-ankihub-login-failed = Não foi possível iniciar sessão no AnkiHub com as credenciais fornecidas.
+sync-ankihub-addon-installation = Instalação da extensão AnkiHub
 
 ## Buttons
 

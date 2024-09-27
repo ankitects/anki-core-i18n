@@ -311,7 +311,7 @@ deck-config-which-deck = Qual baralho você gostaria?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Atualizando cartões: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Os parâmetros devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
+deck-config-invalid-parameters = Os parâmetros FSRS fornecidos são inválidos. Deixe-os em branco para usar os parâmetros padrão.
 deck-config-not-enough-history = A quantidade de revisões históricas é insuficiente para executar esta operação.
 deck-config-unable-to-determine-desired-retention = Não é possível determinar uma retenção ótima.
 deck-config-must-have-400-reviews =
@@ -479,3 +479,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     tempo de estudo por uma maior taxa de recordação. Definir a retenção desejada abaixo do mínimo não é recomendado,
     pois isso resultará em uma carga de trabalho maior devido à alta taxa de esquecimento.
 deck-config-seconds-to-show-question-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de revelar a resposta. Defina como 0 para desativar.
+deck-config-invalid-weights = Os parâmetros devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.

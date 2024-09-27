@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = Mostrar a contagem de cartas restantes
 preferences-some-settings-will-take-effect-after = Algumas configurações só surtirão efeito quando você reiniciar o Anki
 preferences-tab-synchronisation = Sincronização
 preferences-synchronize-audio-and-images-too = Sincronizar áudios e imagens também
-preferences-not-logged-in = Não está logado no AnkiWeb no momento.
 preferences-login-successful-sync-now = Login bem-sucedido. Salvar preferências e sincronizar agora?
 preferences-timebox-time-limit = Tempo limite
 preferences-user-interface-size = Tamanho da interface do usuário
@@ -41,6 +40,7 @@ preferences-theme-follow-system = Conforme o Sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Escuro
 preferences-v3-scheduler = Agendador V3
+preferences-check-for-updates = Verificar atualizações do programa
 preferences-ignore-accents-in-search = Ignorar acentos na pesquisa (mais lento)
 preferences-backup-explanation =
     Anki periodicamente faz backup de sua coleção. Depois que os backups tiverem mais de 2 dias,
@@ -77,9 +77,15 @@ preferences-network-timeout = Tempo limite de rede
 preferences-reset-window-sizes = Redefinir Tamanhos das Janelas
 preferences-reset-window-sizes-complete = Os tamanhos e localizações das janelas foram redefinidos.
 preferences-shortcut-placeholder = Digite uma tecla de atalho não utilizada, ou deixe em branco para desabilitar.
+preferences-third-party-services = Serviços de Terceiros
+preferences-ankihub-not-logged-in = Não está logado no AnkiHub no momento.
+preferences-ankiweb-intro = AnkiWeb é um serviço gratuito que permite manter os dados do seu flashcard sincronizados em todos os seus dispositivos e fornece uma maneira de recuperar os dados caso seu dispositivo quebre ou seja perdido.
+preferences-ankihub-intro = AnkiHub fornece edição colaborativa de baralhos e ferramentas de estudo adicionais. Uma assinatura paga é necessária para acessar certos recursos.
+preferences-third-party-description = Serviços de terceiros não são afiliados e não são endossados ​​pelo Anki. O uso desses serviços pode exigir pagamento.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Básico
 preferences-reviewer = Revisor
 preferences-media = Midias
+preferences-not-logged-in = Não está logado no AnkiWeb no momento.
