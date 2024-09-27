@@ -23,11 +23,17 @@ card-stats-review-log-type-review = 複習
 card-stats-review-log-type-relearn = 重新學習
 card-stats-review-log-type-filtered = 篩選
 card-stats-review-log-type-manual = 手動
+card-stats-review-log-elapsed-time = 經過時間
 card-stats-no-card = （沒有卡片可顯示）
 card-stats-custom-data = 自訂資料
 card-stats-fsrs-stability = 穩固期
 card-stats-fsrs-difficulty = 難度
 card-stats-fsrs-retrievability = 留存率
+card-stats-fsrs-forgetting-curve-title = 遺忘曲線
+card-stats-fsrs-forgetting-curve-first-week = 第一週
+card-stats-fsrs-forgetting-curve-first-month = 第一個月
+card-stats-fsrs-forgetting-curve-first-year = 第一年
+card-stats-fsrs-forgetting-curve-all-time = 全部時間
 
 ## Window Titles
 
