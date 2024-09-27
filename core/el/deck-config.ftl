@@ -142,6 +142,7 @@ deck-config-question-action = Ενέργεια κατά την ερώτηση
 deck-config-question-action-tool-tip = Η ενέργεια που εκτελείται αφού εμφανιστεί η ερώτηση και παρέλθει ο χρόνος.
 deck-config-answer-action = Ενέργεια απάντησης
 deck-config-answer-action-tooltip-2 = Η ενέργεια που εκτελείται αφού εμφανιστεί η απάντηση και παρέλθει ο χρόνος.
+deck-config-wait-for-audio-tooltip-2 = Αναμονή ολοκλήρωσης του ήχου πριν την αυτόματη εφαρμογή της ενέργειας ερώτησης ή απάντησης.
 
 ## Audio section
 
@@ -300,6 +301,7 @@ deck-config-desired-retention-below-optimal = Η επιθυμητή ανάκλη
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Αναβολή ομοειδών
+deck-config-seconds-to-show-question-tooltip = Ο αριθμός των δευτερολέπτων αναμονής πριν από την αποκάλυψη της απάντησης, όταν είναι ενεργοποιημένη η αυτόματη προώθηση. Ορίστε το 0 για απενεργοποίηση.
 deck-config-answer-action-tooltip = Η ενέργεια που θα εκτελεστεί στην τρέχουσα κάρτα πριν την αυτόματη εμφάνιση της επόμενης.
 deck-config-wait-for-audio-tooltip = Αναμονή για την ολοκλήρωση του ήχου πριν την αυτόματη αποκάλυψη της απάντησης ή την επόμενη ερώτηση
 deck-config-ignore-before-tooltip =
