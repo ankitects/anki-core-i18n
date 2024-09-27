@@ -23,11 +23,17 @@ card-stats-review-log-type-review = Пригадувальні
 card-stats-review-log-type-relearn = Вчити знову
 card-stats-review-log-type-filtered = Відфільтровані
 card-stats-review-log-type-manual = Посібник
+card-stats-review-log-elapsed-time = Затрачено часу
 card-stats-no-card = (Нема карток для показу.)
 card-stats-custom-data = Спеціальні дані
 card-stats-fsrs-stability = Стабільність
 card-stats-fsrs-difficulty = Складність
 card-stats-fsrs-retrievability = легкість пригадування
+card-stats-fsrs-forgetting-curve-title = Крива забування
+card-stats-fsrs-forgetting-curve-first-week = Перший тиждень
+card-stats-fsrs-forgetting-curve-first-month = Перший місяць
+card-stats-fsrs-forgetting-curve-first-year = Перший рік
+card-stats-fsrs-forgetting-curve-all-time = За весь час
 
 ## Window Titles
 
