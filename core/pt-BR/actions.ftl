@@ -12,6 +12,7 @@ actions-decks = Baralhos
 actions-decrement-value = Diminua valor
 actions-delete = Excluir
 actions-export = Exportar
+actions-empty-cards = Esvaziar Cartões
 actions-filter = Filtro
 actions-help = Ajuda
 actions-increment-value = Aumente valor
