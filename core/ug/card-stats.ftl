@@ -23,11 +23,17 @@ card-stats-review-log-type-review = تەكرار
 card-stats-review-log-type-relearn = قايتا ئۆگىنىش
 card-stats-review-log-type-filtered = سۈزۈلگەن
 card-stats-review-log-type-manual = قولدا
+card-stats-review-log-elapsed-time = ئۆتكەن ۋاقىت
 card-stats-no-card = (كۆرسىتىدىغان كارتا يوق)
 card-stats-custom-data = ئىختىيارى سانلىق مەلۇمات
 card-stats-fsrs-stability = ئەستە ساقلىنىشچانلىقى
 card-stats-fsrs-difficulty = قىيىنلىقى
 card-stats-fsrs-retrievability = ئەستە تۇرۇشچانلىقى
+card-stats-fsrs-forgetting-curve-title = ئۇنتۇش ئەگرى سىزىقى
+card-stats-fsrs-forgetting-curve-first-week = تۇنجى ھەپتە
+card-stats-fsrs-forgetting-curve-first-month = تۇنجى ئاي
+card-stats-fsrs-forgetting-curve-first-year = تۇنجى يىل
+card-stats-fsrs-forgetting-curve-all-time = ھەممە ۋاقىت
 
 ## Window Titles
 
