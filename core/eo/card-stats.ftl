@@ -23,10 +23,14 @@ card-stats-review-log-type-review = ripeto
 card-stats-review-log-type-relearn = Relerni
 card-stats-review-log-type-filtered = Filtrita
 card-stats-review-log-type-manual = permana
+card-stats-review-log-elapsed-time = Pasinta temo
 card-stats-no-card = (Neniu karto montrebla)
 card-stats-custom-data = propraj datumoj
 card-stats-fsrs-stability = stabileco
 card-stats-fsrs-difficulty = Malfacileco
+card-stats-fsrs-forgetting-curve-first-week = Unua semajno
+card-stats-fsrs-forgetting-curve-first-month = Unua monato
+card-stats-fsrs-forgetting-curve-first-year = Unua jaro
 
 ## Window Titles
 

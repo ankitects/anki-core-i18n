@@ -14,6 +14,7 @@ deck-config-default-name = Defaŭlta
 
 ## Daily limits section
 
+deck-config-daily-limits = Tagaj limigoj
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
