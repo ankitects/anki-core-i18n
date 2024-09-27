@@ -86,6 +86,7 @@ statistics-counts-learning-cards = Εκμάθηση
 statistics-counts-relearning-cards = Επανεκμάθηση
 statistics-counts-title = Αριθμός καρτών
 statistics-counts-separate-suspended-buried-cards = Διαχωρισμός καρτών σε αναβολή/αναστολή
+statistics-true-retention-subtitle = Ποσοστό επιτυχίας των καρτών με διάστημα ≥ 1 ημέρα.
 statistics-true-retention-range = Εύρος
 statistics-true-retention-today = Σήμερα
 statistics-true-retention-yesterday = Χθες
