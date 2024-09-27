@@ -13,7 +13,7 @@ card-templates-front-preview = Visualizar a Frente
 card-templates-back-preview = Pré-visualização do Verso
 card-templates-preview-box = Pré-visualização
 card-templates-template-box = Modelo
-card-templates-sample-cloze = Isto é uma { "{{c1::" }exemplo{ "}}" } omissão de palavras.
+card-templates-sample-cloze = Isto é uma { "{{c1::" }amostra{ "}}" } de omissão de palavras.
 card-templates-fill-empty = Preencher Campos Vazios
 card-templates-night-mode = Modo Noturno
 # Add "mobile" class to card preview, so the card appears like it would
