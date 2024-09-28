@@ -276,7 +276,7 @@ deck-config-which-deck = Pour quel paquet souhaitez-vous afficher les options ?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Mise à jour des cartes : { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Les paramètres doivent être soit laissés vides pour utiliser les valeurs par défaut, soit être 17 nombres séparés par des virgules.
+deck-config-invalid-parameters = Les paramètres FSRS fournis sont invalides. Laissez les vides pour utiliser les paramètres par défaut.
 deck-config-not-enough-history = L'historique des révisions est insuffisant pour effectuer cette opération.
 deck-config-unable-to-determine-desired-retention = Impossible de déterminer la rétention optimale.
 deck-config-must-have-400-reviews =
@@ -403,4 +403,8 @@ deck-config-compute-optimal-retention-tooltip2 =
     Cet outil suppose que vous commencez avec 0 cartes apprises et tentera de trouver la valeur de rétention souhaitée qui vous permettra d'apprendre le plus de contenu possible en un minimum de temps.
     Ce nombre peut servir de référence lorsque vous décidez comment fixer votre rétention souhaitée.
     Vous pouvez très bien choisir une plus grande rétention souhaitée, si vous êtes prêt à travailler plus longtemps pour un meilleur taux de rétention. Choisir un taux de rétention plus bas que l'optimum n'est pas recommandé, car cela risque de mener à plus de travail sans aucun bénéfice en retour.
+deck-config-compute-optimal-retention-tooltip3 =
+    Cet outil suppose que vous commencez avec 0 cartes apprises et tentera de trouver la valeur qui vous permettra d'apprendre le plus de contenu possible en un minimum de temps.
+    Vous pouvez très bien choisir une plus grande rétention souhaitée, si vous êtes prêt à travailler plus longtemps pour un meilleur taux de rétention. Choisir un taux de rétention plus bas que l'optimum n'est pas recommandé, car cela risque de mener à plus de travail sans aucun bénéfice en retour.
 deck-config-seconds-to-show-question-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
+deck-config-invalid-weights = Les paramètres doivent être soit laissés vides pour utiliser les valeurs par défaut, soit être 17 nombres séparés par des virgules.

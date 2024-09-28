@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = Afficher le nombre de cartes restantes
 preferences-some-settings-will-take-effect-after = Certains réglages ne s’appliqueront qu’après le redémarrage d’Anki.
 preferences-tab-synchronisation = Synchronisation
 preferences-synchronize-audio-and-images-too = Synchroniser l’audio et les images également
-preferences-not-logged-in = Actuellement déconnecté d'AnkiWeb.
 preferences-login-successful-sync-now = Connexion réussie. Sauvegarder les préférences et synchroniser maintenant ?
 preferences-timebox-time-limit = Montrer la progression toutes les
 preferences-user-interface-size = Taille de l’interface
@@ -41,6 +40,7 @@ preferences-theme-follow-system = Suivre le système
 preferences-theme-light = Clair
 preferences-theme-dark = Sombre
 preferences-v3-scheduler = Planificateur V3
+preferences-check-for-updates = Vérifier les mises à jour du programme
 preferences-ignore-accents-in-search = Ignorer les accents lors de la recherche (plus lent)
 preferences-backup-explanation =
     Anki sauvegarde périodiquement votre collection. Lorsque les sauvegardes ont plus de 2 jours,
@@ -77,9 +77,15 @@ preferences-network-timeout = Délai d'expiration du réseau
 preferences-reset-window-sizes = Réinitialiser les Tailles de Fenêtres
 preferences-reset-window-sizes-complete = Les tailles et positions de fenêtres ont été réinitialisées.
 preferences-shortcut-placeholder = Entrer un raccourci clavier non utilisé, ou laisser vide pour désactiver
+preferences-third-party-services = Services tiers
+preferences-ankihub-not-logged-in = Actuellement déconnecté d'AnkiHub.
+preferences-ankiweb-intro = AnkiWeb est un service gratuit qui vous permet de synchroniser les données de vos flashcards sur tous vos appareils et de les récupérer en cas de panne ou de perte de votre appareil.
+preferences-ankihub-intro = AnkiHub permet l'édition collaborative de paquets et offre des outils d'étude supplémentaires. Un abonnement payant est nécessaire pour accéder à certaines fonctionnalités.
+preferences-third-party-description = Les services tiers ne sont pas affiliés avec ni endossés par Anki. L'utilisation de ces services peut nécessiter un paiement.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Basique
 preferences-reviewer = Réviseur
 preferences-media = Médias
+preferences-not-logged-in = Actuellement déconnecté d'AnkiWeb.

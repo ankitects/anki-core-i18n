@@ -23,11 +23,17 @@ card-stats-review-log-type-review = Révision
 card-stats-review-log-type-relearn = En réapprentissage
 card-stats-review-log-type-filtered = Filtré
 card-stats-review-log-type-manual = manuel
+card-stats-review-log-elapsed-time = temps écoulé
 card-stats-no-card = (Pas de carte à afficher.)
 card-stats-custom-data = Données Personnalisées
 card-stats-fsrs-stability = Stabilité
 card-stats-fsrs-difficulty = Difficulté
 card-stats-fsrs-retrievability = Retrouvabilité
+card-stats-fsrs-forgetting-curve-title = Courbe d'oubli
+card-stats-fsrs-forgetting-curve-first-week = Première semaine
+card-stats-fsrs-forgetting-curve-first-month = Premier mois
+card-stats-fsrs-forgetting-curve-first-year = Première année
+card-stats-fsrs-forgetting-curve-all-time = Depuis le début
 
 ## Window Titles
 
