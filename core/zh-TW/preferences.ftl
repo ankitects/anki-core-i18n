@@ -11,8 +11,8 @@ preferences-network = 網路
 preferences-next-day-starts-at = 次日始於
 preferences-media-is-not-backed-up = 媒體檔不會被備份。為防止遺失資料，請定期手動備份 Anki 資料夾。
 preferences-on-next-sync-force-changes-in = 下次同步時，強制單向更動
-preferences-paste-clipboard-images-as-png = 將剪貼板影像以 PNG 格式貼上
-preferences-paste-without-shift-key-strips-formatting = 自動清除文字格式（貼上時無需按住 shift 鍵）
+preferences-paste-clipboard-images-as-png = 將剪貼板影像轉換為 PNG 格式
+preferences-paste-without-shift-key-strips-formatting = 自動清除文字格式（按住 Shift 鍵來保留格式）
 preferences-generate-latex-images-automatically = 產生 LaTeX 影像（安全風險）
 preferences-latex-generation-disabled = LaTeX 影像產生已在偏好設定中被停用。
 preferences-periodically-sync-media = 定期同步媒體
@@ -78,8 +78,8 @@ preferences-shortcut-placeholder = 輸入一個未使用的快速鍵，或留空
 preferences-third-party-services = 第三方服務
 preferences-ankihub-not-logged-in = 未登入 AnkiHub。
 preferences-ankiweb-intro = AnkiWeb 是一項免費服務，可以把你的卡片資料同步到所有裝置上，裝置損毀或遺失了也不用擔心資料遺失。
-preferences-ankihub-intro = AnkiHub 提供牌組合作編輯和其他學習工具。部分功能需付費訂閱。
-preferences-third-party-description = 第三方服務與 Anki 無合作/擔保關係。使用第三方服務可能需要付費。
+preferences-ankihub-intro = AnkiHub 可以合作編輯牌組，並提供其他學習工具。部分功能需付費訂閱。
+preferences-third-party-description = Anki 與第三方服務無合作關係，不予擔保。使用這些服務可能需要付費。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

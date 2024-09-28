@@ -131,7 +131,7 @@ deck-config-sort-order-ascending-ease = 輕鬆度遞增
 deck-config-sort-order-descending-ease = 輕鬆度遞減
 deck-config-sort-order-ascending-difficulty = 難度遞增
 deck-config-sort-order-descending-difficulty = 難度遞減
-deck-config-sort-order-relative-overdueness = 依相對逾期跨度
+deck-config-sort-order-relative-overdueness = 相對逾期跨度
 deck-config-display-order-will-use-current-deck = 顯示順序以你選取的牌組為準，子牌組的設定不會生效。
 
 ## Timer section
@@ -168,7 +168,7 @@ deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案�
 ## Advanced section
 
 deck-config-advanced-title = 進階選項
-deck-config-maximum-interval-tooltip = 等待複習的最大天數。當複習卡達到上限時，按下`困難`、`良好` 和 `簡單` 後的延遲相同。此選項設定得越短，你的學習量將會越多。
+deck-config-maximum-interval-tooltip = 等待複習的最大天數。複習卡達到這個上限時，按下`困難`、`良好` 和 `簡單` 後的延遲相同。此選項設定得越短，你的學習量將會越多。
 deck-config-starting-ease-tooltip = 新卡片輕鬆度的起始乘數。根據預設，在一張剛學完的卡片按下 `良好` 按鈕後，下次複習前的延遲為上次的 2.5 倍。
 deck-config-easy-bonus-tooltip = 回答 `簡單` 後，額外對複習間隔套用的乘數。
 deck-config-interval-modifier-tooltip = 此乘數套用於所有複習卡，對其稍作修改能使 Anki 排程更為保守/激進。請在更改此選項前參閱使用手冊。

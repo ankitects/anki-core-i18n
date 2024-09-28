@@ -21,7 +21,7 @@ media-check-renamed-header = 部分檔案因相容性問題而被重新命名：
 media-check-oversize-header = 大於 100MB 的檔案無法同步到 AnkiWeb。
 media-check-subfolder-header = 不支援媒體資料夾中的資料夾。
 media-check-missing-header = 在媒體資料夾中找不到以下被卡片使用的檔案：
-media-check-unused-header = 在媒體資料夾中找到了以下未被卡片使用的檔案：
+media-check-unused-header = 媒體資料夾中的這些檔案未被卡片使用：
 media-check-template-references-field-header =
     當你在媒體/LaTeX 標籤中加入「{ "{{欄位}}" }」來引用檔案時，Anki 將無法偵測引用的檔案。請將媒體/LaTeX 標籤單獨加入到每一則筆記中。
     
