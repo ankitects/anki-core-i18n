@@ -23,11 +23,17 @@ card-stats-review-log-type-review = חזרה
 card-stats-review-log-type-relearn = ‏‏לימוד חוזר
 card-stats-review-log-type-filtered = מסונן
 card-stats-review-log-type-manual = ידני
+card-stats-review-log-elapsed-time = זמן שחלף
 card-stats-no-card = (אין כרטיסים להצגה.)
 card-stats-custom-data = נתונים מותאמים אישית
 card-stats-fsrs-stability = יציבות
 card-stats-fsrs-difficulty = קושי
 card-stats-fsrs-retrievability = יכולת אחזור
+card-stats-fsrs-forgetting-curve-title = עקומת שכחה
+card-stats-fsrs-forgetting-curve-first-week = שבוע ראשון
+card-stats-fsrs-forgetting-curve-first-month = חודש ראשון
+card-stats-fsrs-forgetting-curve-first-year = שנה ראשונה
+card-stats-fsrs-forgetting-curve-all-time = כל הזמן
 
 ## Window Titles
 
