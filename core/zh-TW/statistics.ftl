@@ -8,7 +8,7 @@ statistics-due-for-new-card = 新 #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } 張卡片/分鐘
-statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
+statistics-average-answer-time = { $average-seconds } 秒（{ statistics-cards-per-min }）
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -120,7 +120,7 @@ statistics-answer-buttons-title = 回答按鈕
 # eg Button: 4
 statistics-answer-buttons-button-number = 按鈕
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = 按下的次數
+statistics-answer-buttons-button-pressed = 按下次數
 statistics-answer-buttons-subtitle = 按下各按鈕的次數
 statistics-reviews-title = 複習
 statistics-reviews-time-checkbox = 耗時
@@ -169,7 +169,7 @@ statistics-hours-reviews = 📊 複習了 { $reviews } 次
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 答對了 { $percent }%（{ $reviews } 次）
 statistics-hours-title = 分時解析
-statistics-hours-subtitle = 在一天中各個時間段所複習的成功率
+statistics-hours-subtitle = 一天各時段中複習的成功率
 # shown when graph is empty
 statistics-no-data = 沒有資料
 statistics-calendar-title = 年曆
