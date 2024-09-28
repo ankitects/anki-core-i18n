@@ -93,6 +93,7 @@ statistics-true-retention-yesterday = Χθες
 statistics-true-retention-week = Τελευταία εβδομάδα
 statistics-true-retention-month = Τελευταίος μήνας
 statistics-true-retention-year = Τελευταίο έτος
+statistics-true-retention-all-time = Συνολικός χρόνος
 statistics-range-all-time = ζωή της τράπουλας
 statistics-range-1-year-history = τελευταίοι 12 μήνες
 statistics-range-all-history = όλο το ιστορικό

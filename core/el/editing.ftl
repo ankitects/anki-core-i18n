@@ -30,6 +30,7 @@ editing-latex-math-env = LaTeX math env.
 editing-mathjax-chemistry = MathJax χημεία
 editing-mathjax-placeholder = Πατήστε { $accept } για αποδοχή, { $newline } για νέα γραμμή.
 editing-media = Πολυμέσα
+editing-show-in-folder = Εμφάνιση στο φάκελο
 editing-ordered-list = Ταξινομημένη λίστα
 editing-outdent = Μείωση εσοχής
 editing-paste = Επικόλληση

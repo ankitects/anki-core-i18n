@@ -28,6 +28,11 @@ card-stats-custom-data = Προσαρμοσμένα δεδομένα
 card-stats-fsrs-stability = Σταθερότητα
 card-stats-fsrs-difficulty = Δυσκολία
 card-stats-fsrs-retrievability = Ανακτησιμότητα
+card-stats-fsrs-forgetting-curve-title = Καμπύλη λήθης
+card-stats-fsrs-forgetting-curve-first-week = Πρώτη εβδομάδα
+card-stats-fsrs-forgetting-curve-first-month = Πρώτος μήνας
+card-stats-fsrs-forgetting-curve-first-year = Πρώτο έτος
+card-stats-fsrs-forgetting-curve-all-time = Συνολικός χρόνος
 
 ## Window Titles
 
