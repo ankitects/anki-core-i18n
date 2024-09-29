@@ -12,6 +12,7 @@ actions-decks = Stapelübersicht
 actions-decrement-value = Wert verringern
 actions-delete = Löschen
 actions-export = Exportieren
+actions-empty-cards = Leere Karten
 actions-filter = Filter
 actions-help = Hilfe
 actions-increment-value = Wert erhöhen

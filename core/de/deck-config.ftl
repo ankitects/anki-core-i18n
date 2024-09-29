@@ -344,7 +344,7 @@ deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = "Er­neut" ant­wor­ten
 deck-config-answer-hard = „Schwer“ ant­wor­ten
 deck-config-answer-good = "Gut" ant­wor­ten
-deck-config-days-to-simulate = Tage zu simulieren
+deck-config-days-to-simulate = Zu simulierende Tage
 deck-config-desired-retention-below-optimal = Ihr gewünschter Retention ist nicht optimal. Es wird empfohlen, sie zu erhöhen.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
