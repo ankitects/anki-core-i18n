@@ -31,7 +31,7 @@ deck-config-tab-description =
     - `Nur heute`: Grenzwert von diesem Stapel vorübergehend ändern.
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungen
 deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig gilt der Grenzwert für Wiederholungen auch einschließlich für neue Karten, sodass keine neuen Karten bei Erreichen des Grenzwerts für Wiederholungen mehr gezeigt werden. Wenn diese Option aktiviert wird, werden die neuen Karten unabhängig vom Grenzwert für Wiederholungen trotzdem angezeigt.
-deck-config-apply-all-parent-limits = Globale Limits für neue Karten und Wiederholungen
+deck-config-apply-all-parent-limits = Tageshöchstwerte gelten auch für Unterstapel
 deck-config-apply-all-parent-limits-tooltip =
     Wenn diese Option aktiviert ist, wirken sich die Limits (für neue Karten und Wiederholungen) von übergeordneten Stapeln auch auf die Unterstapel aus. Das ist nützlich, wenn man nacheinander verschiedene Unterstapel lernt, aber insgesamt nur eine bestimmte Anzahl an Karten pro Tag neu lernen oder wiederholen will.
     
