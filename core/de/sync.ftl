@@ -52,6 +52,7 @@ sync-clock-off = Synchronisation kann nicht durchgeführt werden - Ihre System-U
 sync-upload-too-large =
     Ihre Sammlungsdatei ist zu groß, um sie zu AnkiWeb zu senden. Sie können die
     Größe verringeren, indem Sie ungewünschte Stapel (optional zuvor noch exportieren) löschen und dann die Funktion 'Datenbank überprüfen' nutzen, um die Dateigröße zu verringern. ({ $details })
+sync-ankihub-addon-installation = AnkiHub-Erweiterungs-Installation
 
 ## Buttons
 

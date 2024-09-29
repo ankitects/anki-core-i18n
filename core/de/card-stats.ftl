@@ -28,6 +28,10 @@ card-stats-custom-data = Benutzerdefinierte Daten
 card-stats-fsrs-stability = Stabilität
 card-stats-fsrs-difficulty = Schwierigkeit
 card-stats-fsrs-retrievability = Abrufbarkeit
+card-stats-fsrs-forgetting-curve-first-week = Erste Woche
+card-stats-fsrs-forgetting-curve-first-month = Erster Monat
+card-stats-fsrs-forgetting-curve-first-year = Erstes Jahr
+card-stats-fsrs-forgetting-curve-all-time = Gesamte Zeit
 
 ## Window Titles
 
