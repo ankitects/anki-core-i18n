@@ -15,7 +15,7 @@ deck-config-title = Stapeloptionen
 
 ## Daily limits section
 
-deck-config-daily-limits = Täglicher Grenzwert
+deck-config-daily-limits = Tageshöchstwerte
 deck-config-new-limit-tooltip =
     Die maximale Anzahl an neuen Karten, die an einem Tag eingeführt werden sollen, wenn neue Karten zur Verfügung stehen.
     Da neues Material Ihr Arbeitspensum für kurzfristige Wiederholungen steigert, sollte dies typischerweise mindestens 10-mal so gering sein wie Ihr Grenzwert für Wiederholungen.
@@ -29,7 +29,7 @@ deck-config-tab-description =
     - `Vorgabe`: Dieser Grenzwert bezieht alle Stapel ein, die diese Vorgabe verwenden.
     - `Dieser Stapel`: Dieser Grenzwert gilt für diesen Stapel.
     - `Nur heute`: Grenzwert von diesem Stapel vorübergehend ändern.
-deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Grenzwert für Wiederholungen
+deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungen
 deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig gilt der Grenzwert für Wiederholungen auch einschließlich für neue Karten, sodass keine neuen Karten bei Erreichen des Grenzwerts für Wiederholungen mehr gezeigt werden. Wenn diese Option aktiviert wird, werden die neuen Karten unabhängig vom Grenzwert für Wiederholungen trotzdem angezeigt.
 deck-config-apply-all-parent-limits = Globale Limits für neue Karten und Wiederholungen
 deck-config-apply-all-parent-limits-tooltip =
@@ -65,7 +65,7 @@ deck-config-new-insertion-order-random-with-v3 = Wenn der V3-Zeitplaner genutzt 
 
 ## Lapses section
 
-deck-config-relearning-steps = Schritte für das erneute Lernen
+deck-config-relearning-steps = Lernstufen für das erneute Lernen
 deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des "Nochmal"-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie erneut erlernt wird. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Die Anzahl, wie oft "Nochmals" gedrückt werden muss, um eine Wiederholkarte als
@@ -179,7 +179,6 @@ deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Sekunden bis die Frage gezeigt wird
-deck-config-seconds-to-show-question-tooltip-2 = Wenn automatisiertes Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-seconds-to-show-answer = Sekunden bis die Antwort gezeigt wird
 deck-config-seconds-to-show-answer-tooltip-2 = Wenn automatisiertes Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwortaktion ausgeführt wird. Zum Ausschalten auf 0 setzen.
 deck-config-question-action-show-answer = Antwort anzeigen
@@ -187,8 +186,6 @@ deck-config-question-action-show-reminder = Erinnerung anzeigen
 deck-config-question-action = Aktion auf Frageseite
 deck-config-question-action-tool-tip = Was passieren soll, nachdem die Frageseite der Karte angezeigt und die eingestellte Zeit überschritten wurde.
 deck-config-answer-action = Ak­tion auf Antwortseite
-deck-config-answer-action-tooltip = Was mit der aktuellen Karte gemacht werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
-deck-config-wait-for-audio-tooltip = Auf dem Ende vom Abspielen des Audios warten, und danach automatisch die Antwort oder nächste Frage zeigen
 
 ## Audio section
 
@@ -271,7 +268,6 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
 deck-config-unable-to-determine-desired-retention = Bestimmen der optimalen Retention nicht möglich.
 deck-config-must-have-400-reviews =
@@ -322,9 +318,6 @@ deck-config-reschedule-cards-warning =
     Je nach gewünschter Retention kann diese Option dazu führen, dass eine große Anzahl von Karten fällig wird. Es wird daher nicht empfohlen sie zu aktivieren, wenn Sie zum ersten Mal zu FSRS wechseln.
     
     Verwenden Sie diese Option sparsam, da sie jeder Ihrer Karten einen Eintrag im Wiederholungsverlauf hinzufügt und so die Größe Ihrer Sammlung erhöht.
-deck-config-ignore-before-tooltip =
-    Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
-    Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortschaltflächen verwenden, geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
     Wenn Sie auf "Optimieren" klicken, analysiert FSRS Ihren Lernverlauf und erstellt Parameter, die optimal für Ihr Gedächtnis und den Inhalt, den Sie lernen, sind. Wenn sich Ihre Decks im subjektiven Schwierigkeitsgrad stark unterscheiden, ¶
     empfiehlt es sich, ihnen getrennte Voreinstellungen zuzuweisen, da die Parameter für leichte und schwere Decks unterschiedlich sein werden.¶
@@ -367,6 +360,11 @@ deck-config-bury-tooltip =
     Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten beantworten.
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
+deck-config-answer-action-tooltip = Was mit der aktuellen Karte gemacht werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
+deck-config-wait-for-audio-tooltip = Auf dem Ende vom Abspielen des Audios warten, und danach automatisch die Antwort oder nächste Frage zeigen
+deck-config-ignore-before-tooltip =
+    Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
+    Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortschaltflächen verwenden, geändert haben.
 deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Behaltensleistung hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Lernzeit zu kopieren.
 deck-config-compute-optimal-retention = Empfohlene minimale Retention berechnen
 deck-config-predicted-optimal-retention = Voraussichtliche optimale Retention: { $num }
@@ -385,3 +383,5 @@ deck-config-compute-optimal-retention-tooltip2 =
     Referenz dienen, wenn Sie entscheiden, auf welchen Wert Sie Ihre gewünschte Behaltensleistung setzen wollen. Möglicherweise möchten Sie eine höhere gewünschte Retention wählen,
     wenn Sie bereit sind, mehr Lernzeit für eine höhere Erinnerungsrate zu opfern. Es ist nicht empfehlenswert, die gewünschte Behaltensrate niedriger als
     ist nicht zu empfehlen, da dies zu mehr Arbeit ohne Nutzen führt.
+deck-config-seconds-to-show-question-tooltip-2 = Wenn automatisiertes Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
+deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
