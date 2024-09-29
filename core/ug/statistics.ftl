@@ -62,27 +62,27 @@ statistics-studied-today =
     { $unit ->
         [seconds]
             بۈگۈن { statistics-in-time-span-seconds } ۋاقىتتا 
-            { statistics-cards } كارتا ئۆگەندى 
+            { statistics-cards } ئۆگەندى 
             ({ $secs-per-card }سېكۇنت/كارتا)
         [minutes]
             بۈگۈن { statistics-in-time-span-minutes } ۋاقىتتا 
-            { statistics-cards } كارتا ئۆگەندى 
+            { statistics-cards } ئۆگەندى 
             ({ $secs-per-card }سېكۇنت/كارتا)
         [hours]
             بۈگۈن { statistics-in-time-span-hours } ۋاقىتتا 
-            { statistics-cards } كارتا ئۆگەندى 
+            { statistics-cards } ئۆگەندى 
             ({ $secs-per-card }سېكۇنت/كارتا)
         [days]
             بۈگۈن { statistics-in-time-span-days } ۋاقىتتا 
-            { statistics-cards } كارتا ئۆگەندى 
+            { statistics-cards } ئۆگەندى 
             ({ $secs-per-card }سېكۇنت/كارتا)
         [months]
             بۈگۈن { statistics-in-time-span-months } ۋاقىتتا 
-            { statistics-cards } كارتا ئۆگەندى 
+            { statistics-cards } ئۆگەندى 
             ({ $secs-per-card }سېكۇنت/كارتا)
        *[years]
             بۈگۈن { statistics-in-time-span-years } ۋاقىتتا 
-            { statistics-cards } كارتا ئۆگەندى 
+            { statistics-cards } ئۆگەندى 
             ({ $secs-per-card }سېكۇنت/كارتا)
     }
 statistics-today-title = بۈگۈن
