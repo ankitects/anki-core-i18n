@@ -84,6 +84,7 @@ statistics-counts-learning-cards = Lernen
 statistics-counts-relearning-cards = Erneut lernend
 statistics-counts-title = Kartenstatus
 statistics-counts-separate-suspended-buried-cards = Ausgesetzte/zurückgestellte Karten separat anzeigen
+statistics-true-retention-range = Bereich
 statistics-true-retention-retention = Retention
 statistics-true-retention-today = Heute
 statistics-true-retention-yesterday = Gestern
@@ -200,7 +201,7 @@ statistics-calendar-title = Kalender
 ## Please try to keep the text short, as longer text may get cut off.
 
 statistics-elapsed-time-seconds = { $amount }s
-statistics-elapsed-time-minutes = { $amount } Min.
+statistics-elapsed-time-minutes = { $amount } min
 statistics-elapsed-time-hours = { $amount }h
 statistics-elapsed-time-days = { $amount } T.
 statistics-elapsed-time-months = { $amount } Mon.

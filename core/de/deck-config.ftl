@@ -268,6 +268,7 @@ deck-config-which-deck = Welchen Stapel möchten Sie gerne?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Die angegebenen FSRS-Parameter sind ungültig. Lassen Sie das Feld leer, um die Standardparameter zu verwenden.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
 deck-config-unable-to-determine-desired-retention = Bestimmen der optimalen Retention nicht möglich.
 deck-config-must-have-400-reviews =
@@ -276,8 +277,8 @@ deck-config-must-have-400-reviews =
        *[other] Nur { $count } Wiederholungen wurde gefunden. Sie müssen mindestens 400 Wiederholungen haben, um benutzerdefinierte Parameter zu bestimmen zu ermöglichen
     }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = FSRS Parameter
-deck-config-compute-optimal-weights = Optimierung von FSRS Parametern
+deck-config-weights = FSRS-Parameter
+deck-config-compute-optimal-weights = Optimierung von FSRS-Parametern
 deck-config-compute-minimum-recommended-retention = Empfohlene minimale Retention
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
