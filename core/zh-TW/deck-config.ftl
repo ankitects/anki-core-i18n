@@ -247,7 +247,7 @@ deck-config-get-params = 取得參數
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
 deck-config-predicted-minimum-recommended-retention = 留存率推薦最小值：{ $num }
 deck-config-complete = 已完成 { $num }%。
-deck-config-iterations = 反覆運算：{ $count }...
+deck-config-iterations = 反覆運算次數：{ $count }...
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
 deck-config-fsrs-tooltip =
     影響整個集合。
