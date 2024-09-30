@@ -273,8 +273,8 @@ deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchz
 deck-config-unable-to-determine-desired-retention = Bestimmen der optimalen Retention nicht möglich.
 deck-config-must-have-400-reviews =
     { $count ->
-        [one] Nur { $count } Wiederholung wurde gefunden. Sie müssen mindestens 400 Wiederholungen haben, um benutzerdefinierte Parameter zu bestimmen zu ermöglichen
-       *[other] Nur { $count } Wiederholungen wurde gefunden. Sie müssen mindestens 400 Wiederholungen haben, um benutzerdefinierte Parameter zu bestimmen zu ermöglichen
+        [one] Nur { $count } Wiederholung wurde gefunden. Für diesen Vorgang sind jedoch mindestens 400 Wiederholungen erforderlich.
+       *[other] Nur { $count } Wiederholungen wurde gefunden. Für diesen Vorgang sind jedoch mindestens 400 Wiederholungen erforderlich.
     }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-Parameter
@@ -290,17 +290,15 @@ deck-config-historical-retention = Historische Retention
 deck-config-smaller-is-better = Je kleiner die Zahl, desto besser passen die eingestellten Parameter zu Ihrer Wiederholungsgeschichte.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
-deck-config-fsrs-on-all-clients = Stellen Sie sich bitte sicher, dass alle Ihre Apps sind Anki(Mobile) 23.10+ oder AnkiDroid 2.17+. FSRS würde nicht korrekt funktionieren, falls ein Ihrer Apps älter ist.
+deck-config-fsrs-on-all-clients = FSRS funktioniert nur richtig, wenn alle genutzten Apps die Mindestanforderungen erfüllen (Anki und AnkiMobile ab 23.10, AnkiDroid ab 2.17).
 deck-config-predicted-minimum-recommended-retention = Empfohlene minimale Retention: { $num }
 deck-config-complete = { $num }% abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
 deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
 deck-config-fsrs-tooltip =
-    Das hat eine Wirkung auf die gesamte Sammlung.
+    Wirkt sich auf die gesamte Sammlung aus.
     
-    Freier Planer von räumlichen Wiederholungen (Free Spaced Repetition Scheduler, FSRS) ist eine Alternative zu älteren SuperMemo 2 (SM2) Planer.
-    Durch präzisere Bestimmung von der wahrscheinlicher Vergessungspunkt hilft es Sie mehr zu behalten in der gleichen Zeit. Diese Einstellung wurde für alle Sammlungen geteilt. 
-    Falls Sie die benutzerdefinierende Planung in FSRS, bitte stellen Sie sich sicher, dass Sie alle benutzerdefinierende Planungen vor der Einschaltung dieser Option ausmerzen.
+    FRSR (Free Spaced Repetition Scheduler) ist eine Alternative zum klassischem SM-2 (SuperMemo-2) von Anki. Dank eine genauere Vorhersage, wie wahrscheinlich es ist, dass Sie eine Karte vergessen, hilft FSRS Ihnen dabei, in der gleichen Zeit mehr Informationen zu behalten.
 deck-config-desired-retention-tooltip = Mit dem Standardwert von 0,9 werden die Karten so geplant, dass Sie eine 90 %ige Chance haben, sich an sie zu erinnern, wenn wenn sie wieder zur Wiederholung anstehen. Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger zeigen, um die Wahrscheinlichkeit zu erhöhen, dass Sie sich an sie erinnern. Wenn Sie den Wert verringern, wird Anki die Karten weniger häufig zeigen und Sie werden mehr von ihnen vergessen. Seien Sie vorsichtig, wie Sie diesen Wert einstellen - höhere Werte erhöhen Ihr Arbeitspensum erheblich, und niedrigere Werte können demoralisierend sein, wenn Sie viel vergessen.
 deck-config-historical-retention-tooltip =
     Wenn ein Teil Ihrer Wiederholungshistorie fehlt, muss FSRS die Lücken füllen. Standardmäßig wird angenommen, dass Sie sich bei Ihren alten Wiederholungen an 90% des Materials erinnern. Wenn Ihre frühere Wiedererkennungsrate wesentlich höher oder niedriger als 90% war, ermöglicht die Anpassung der FSRS-Option, die Muster der fehlgeschlagenen Wiederholungen genauer abzuschätzen.
@@ -362,7 +360,7 @@ deck-config-bury-tooltip =
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
 deck-config-answer-action-tooltip = Was mit der aktuellen Karte gemacht werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
-deck-config-wait-for-audio-tooltip = Auf dem Ende vom Abspielen des Audios warten, und danach automatisch die Antwort oder nächste Frage zeigen
+deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
 deck-config-ignore-before-tooltip =
     Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
     Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortschaltflächen verwenden, geändert haben.
