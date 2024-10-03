@@ -323,7 +323,7 @@ deck-config-which-deck = Který balíček požadujete?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Aktualizují se karty: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = Váhy musí být buď ponechány prázdné, kdy se použijí výchozí hodnoty, nebo musí být 17 čísel oddělených čárkou.
+deck-config-invalid-parameters = Zadané parametry FSRS jsou neplatné. Ponechte je prázdné, použijí se tak výchozí parametry.
 deck-config-not-enough-history = K provedení této operace není dostatečná historie opakování.
 deck-config-unable-to-determine-desired-retention = Nelze určit optimální retenci.
 deck-config-must-have-400-reviews =
@@ -440,3 +440,4 @@ deck-config-compute-optimal-weights-tooltip =
     předvolby. Před výpočtem vah můžete volitelně nastavit hledání, pokud chcete změnit, které karty 
     se použijí pro optimalizování vah.
 deck-config-seconds-to-show-question-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
+deck-config-invalid-weights = Váhy musí být buď ponechány prázdné, kdy se použijí výchozí hodnoty, nebo musí být 17 čísel oddělených čárkou.
