@@ -186,6 +186,7 @@ deck-config-question-action-show-reminder = Erinnerung anzeigen
 deck-config-question-action = Aktion auf Frageseite
 deck-config-question-action-tool-tip = Was passieren soll, nachdem die Frageseite der Karte angezeigt und die eingestellte Zeit überschritten wurde.
 deck-config-answer-action = Ak­tion auf Antwortseite
+deck-config-answer-action-tooltip-2 = Was passieren soll, nachdem die Frageseite der Karte angezeigt und die eingestellte Zeit überschritten wurde.
 
 ## Audio section
 
@@ -317,6 +318,7 @@ deck-config-reschedule-cards-warning =
     Je nach gewünschter Retention kann diese Option dazu führen, dass eine große Anzahl von Karten fällig wird. Es wird daher nicht empfohlen sie zu aktivieren, wenn Sie zum ersten Mal zu FSRS wechseln.
     
     Verwenden Sie diese Option sparsam, da sie jeder Ihrer Karten einen Eintrag im Wiederholungsverlauf hinzufügt und so die Größe Ihrer Sammlung erhöht.
+deck-config-ignore-before-tooltip-2 = Wenn aktiviert, werden Karten, die vor dem angegebenen Datum wiederholt wurden, bei der Optimierung der FSRS-Parameter nicht berücksichtigt. Dies kann hilfreich sein, wenn Sie die Zeitplanung von Dritten importiert haben oder Ihre Art der Nutzung der Antworttasten geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
     Wenn Sie auf "Optimieren" klicken, analysiert FSRS Ihren Lernverlauf und erstellt Parameter, die optimal für Ihr Gedächtnis und den Inhalt, den Sie lernen, sind. Wenn sich Ihre Decks im subjektiven Schwierigkeitsgrad stark unterscheiden, ¶
     empfiehlt es sich, ihnen getrennte Voreinstellungen zuzuweisen, da die Parameter für leichte und schwere Decks unterschiedlich sein werden.¶
@@ -382,5 +384,9 @@ deck-config-compute-optimal-retention-tooltip2 =
     Referenz dienen, wenn Sie entscheiden, auf welchen Wert Sie Ihre gewünschte Behaltensleistung setzen wollen. Möglicherweise möchten Sie eine höhere gewünschte Retention wählen,
     wenn Sie bereit sind, mehr Lernzeit für eine höhere Erinnerungsrate zu opfern. Es ist nicht empfehlenswert, die gewünschte Behaltensrate niedriger als
     ist nicht zu empfehlen, da dies zu mehr Arbeit ohne Nutzen führt.
+deck-config-compute-optimal-retention-tooltip3 =
+    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen und versucht, den Retention-Wert zu finden, der zu maximalem Lernerfolg bei minimalem Zeitaufwand führt. Für eine präzise Simulation Ihres Lernfortschritts sind mindestens 400 Wiederholungen erforderlich.
+    
+    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren um eine höhere Retention zu erreichen. Es ist jedoch nicht ratsam, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand wegen der dann höheren Vergessensrate ebenfalls erhöhen würde.
 deck-config-seconds-to-show-question-tooltip-2 = Wenn automatisiertes Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.

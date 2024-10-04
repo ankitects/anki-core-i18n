@@ -241,6 +241,7 @@ statistics-cards-per-day =
 statistics-average-ease = Durchschnittliche Leichtigkeit
 statistics-average-difficulty = Durchschnittliche Schwierigkeit
 statistics-average-retrievability = Durchschnittliche Abrufbarkeit
+statistics-estimated-total-knowledge = Geschätztes Gesamtwissen
 statistics-save-pdf = Als PDF speichern
 statistics-saved = Gespeichert.
 statistics-stats = Statistik
