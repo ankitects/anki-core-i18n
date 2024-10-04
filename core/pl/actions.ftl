@@ -12,6 +12,7 @@ actions-decks = Talie
 actions-decrement-value = Zmniejszenie wartości
 actions-delete = Usuń
 actions-export = Eksportuj
+actions-empty-cards = Puste karty
 actions-filter = Filtr
 actions-help = Pomoc
 actions-increment-value = Zwiększenie wartości

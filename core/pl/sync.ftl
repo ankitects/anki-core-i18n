@@ -53,6 +53,11 @@ sync-upload-too-large =
     Twoja kolekcja jest za duża, żeby przesłać ją do AnkiWeb. Możesz zmniejszyć
     jej rozmiar usuwając niepotrzebne talie (opcjonalnie eksportując je wcześniej),
     a następnie używając opcji Sprawdź bazę danych, by zmniejszyć rozmiar pliku. ({ $details })
+sync-sign-in = Logowanie
+sync-ankihub-dialog-heading = Login AnkiHub
+sync-ankihub-username-label = Nazwa użytkownika lub email:
+sync-ankihub-login-failed = Nie udało się zalogować do AnkiHub przy użyciu wpisanych danych.
+sync-ankihub-addon-installation = Instalacja dodatków AnkiHub
 
 ## Buttons
 

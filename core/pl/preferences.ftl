@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = Pokaż liczbę pozostałych kart
 preferences-some-settings-will-take-effect-after = Niektóre ustawienia zadziałają dopiero po ponownym uruchomieniu Anki.
 preferences-tab-synchronisation = Synchronizacja
 preferences-synchronize-audio-and-images-too = Synchronizuj również dźwięki i obrazy
-preferences-not-logged-in = Nie zalogowano do AnkiWeb.
 preferences-login-successful-sync-now = Logowanie powiodło się. Zapisać ustawienia i zacząć synchronizację?
 preferences-timebox-time-limit = Limit czasowy na sesję
 preferences-user-interface-size = Rozmiar interfejsu
@@ -41,6 +40,7 @@ preferences-theme-follow-system = Używaj systemowego
 preferences-theme-light = Jasny
 preferences-theme-dark = Ciemny
 preferences-v3-scheduler = Algorytm planowania V3
+preferences-check-for-updates = Sprawdź aktualizacje programu
 preferences-ignore-accents-in-search = Ignoruj znaki diakrytyczne przy wyszukiwaniu (spowalnia)
 preferences-backup-explanation =
     Anki okresowo tworzy kopię zapasową kolekcji. Gdy kopie są starsze niż 2 dni,
@@ -77,8 +77,14 @@ preferences-network-timeout = Limit połączenia sieciowego
 preferences-reset-window-sizes = Domyślne rozmiary okien
 preferences-reset-window-sizes-complete = Przywrócono domyślny rozmiar i położenie okien.
 preferences-shortcut-placeholder = Podaj nieużywany klawisz skrótu, albo zostaw puste pole by wyłączyć.
+preferences-third-party-services = Usługi stron trzecich
+preferences-ankihub-not-logged-in = Nie zalogowano do AnkiHub.
+preferences-ankiweb-intro = AnkiWeb to darmowy serwis pozwalający na synchronizowanie danych między taliami na różnych urządzeniach. Pozwala też na odtworzenie danych, jeśli twoje urządzenie się zepsuje lub je stracisz.
+preferences-ankihub-intro = AnkiHub umożliwia wspólne edytowanie talii i daje dodatkowe narzędzia do nauki. Część możliwości jest dostępnych za płatną subskrypcją.
+preferences-third-party-description = Usługi stron trzecich nie mają związku z Anki ani oficjalnego wsparcia. Użycie tych usług może wymagać płatności.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Ogólne
 preferences-media = Pliki
+preferences-not-logged-in = Nie zalogowano do AnkiWeb.
