@@ -76,6 +76,8 @@ preferences-reset-window-sizes = Fenstergrößen zurücksetzen
 preferences-reset-window-sizes-complete = Fenstergrößen und -orte wurden zurückgesetzt.
 preferences-shortcut-placeholder = Eine unbenutzte Tastenkombination eingeben, oder leer lassen um zu deaktivieren.
 preferences-third-party-services = Dienste von Drittanbietern
+preferences-ankihub-not-logged-in = Derzeit nicht bei AnkiHub angemeldet.
+preferences-ankihub-intro = AnkiHub ermöglicht gemeinsames Bearbeiten von Decks und bietet zusätzliche Lernwerkzeuge. Einige Funktionen erfordern ein kostenpflichtiges Abonnement.
 preferences-third-party-description = Dienste von Drittanbieter stehen in keiner Verbindung zu Anki. Die Nutzung dieser Dienste kann kostenpflichtig sein.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
