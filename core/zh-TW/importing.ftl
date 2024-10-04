@@ -99,7 +99,7 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-       *[other] 己處理 { $count } 個媒體檔
+       *[other] 己匯入 { $count } 個媒體檔
     }
 importing-importing-file = 匯入檔案中...
 importing-extracting = 擷取資料中...
