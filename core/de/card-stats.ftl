@@ -23,6 +23,7 @@ card-stats-review-log-type-review = Wiederholen
 card-stats-review-log-type-relearn = Erneut lernen
 card-stats-review-log-type-filtered = Auswahlstapel
 card-stats-review-log-type-manual = Manuell
+card-stats-review-log-elapsed-time = Verstrichene Zeit
 card-stats-no-card = (Keine Karte zum Anzeigen.)
 card-stats-custom-data = Benutzerdefinierte Daten
 card-stats-fsrs-stability = Stabilität
