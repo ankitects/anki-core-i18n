@@ -114,7 +114,7 @@ importing-existing-notes = Notes existents
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplica
 # "Existing notes: Preserve" (verb)
-importing-preserve = Conserva
+importing-preserve = Omet
 # "Existing notes: Update" (verb)
 importing-update = Actualitza
 importing-tag-all-notes = Etiqueta totes les notes
