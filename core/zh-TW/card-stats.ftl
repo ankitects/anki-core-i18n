@@ -33,7 +33,7 @@ card-stats-fsrs-forgetting-curve-title = 遺忘曲線
 card-stats-fsrs-forgetting-curve-first-week = 第一週
 card-stats-fsrs-forgetting-curve-first-month = 第一個月
 card-stats-fsrs-forgetting-curve-first-year = 第一年
-card-stats-fsrs-forgetting-curve-all-time = 全部時間
+card-stats-fsrs-forgetting-curve-all-time = 不限時間
 
 ## Window Titles
 
