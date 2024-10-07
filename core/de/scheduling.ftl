@@ -105,7 +105,7 @@ scheduling-update-required =
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = Immer die Frageseite bei wiederholtem Abspielen von Audiodateien beifügen
+scheduling-always-include-question-side-when-replaying = Immer die Frageseite bei erneuten Abspielen von Audiodateien beifügen
 scheduling-at-least-one-step-is-required = Mindestens eine Lernstufe ist erforderlich.
 scheduling-automatically-play-audio = Audiodateien automatisch abspielen
 scheduling-bury-related-new-cards-until-the = Verwandte neue Karten nicht am selben Tag lernen, sondern bis zum Folgetag zurückstellen

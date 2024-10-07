@@ -169,11 +169,9 @@ deck-config-display-order-will-use-current-deck =
 
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Maximale Antwortzeit (Sekunden)
-deck-config-maximum-answer-secs-tooltip =
-    Die maximale Anzahl an Sekunden, die bei einer einzelnen Wiederholung erfasst wird. Wenn die Antwort
-    diese Zeit überschreitet (weil Sie beispielsweise nicht auf den Bildschirm geschaut haben), dann wird die für die Antwort benötigte, zu vermerkende Zeitdauer auf diesen Höchstwert (herunter)gesetzt.
+deck-config-maximum-answer-secs-tooltip = Die maximale Zeit, die für eine einzelne Wiederholung in der Statistik erfasst wird. Wenn die tatsächliche Antwortzeit diesen Wert überschreitet (z.B. weil Sie den Bildschirm verlassen haben), wird statt der tatsächlichen Zeit die eingestellte maximale Antwortzeit in der Statistik gespeichert.
 deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
-deck-config-stop-timer-on-answer = Timer pausieren, solange die Antwortseite gezeigt wird
+deck-config-stop-timer-on-answer = Timer pausieren, während die Antwort aufgedeckt ist
 deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, während die Antwort aufgedeckt ist. Wirkt sich nicht auf die Statistik aus.
 
 ## Auto Advance section
@@ -196,9 +194,9 @@ deck-config-audio-title = Audio
 deck-config-disable-autoplay = Audio nicht automatisch abspielen
 deck-config-disable-autoplay-tooltip =
     Wenn aktiviert, wird Anki Audiodateien nicht automatisch abspielen.
-    Sie können manuell abgespielt werden, indem Sie auf das Audiosymbol klicken/drücken oder indem Sie die Aktion Audio erneut abspielen benutzen.
+    Sie können manuell abgespielt werden, indem Sie auf das Audiosymbol klicken/drücken oder indem Sie die Aktion „Erneut abspielen“ Audio erneut abspielen benutzen.
 deck-config-skip-question-when-replaying = Frage beim erneuten Abspielen der Antwort überspringen
-deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion "Nochmals abspielen" ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
+deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion „Erneut abspielen“ ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
 
 ## Advanced section
 
