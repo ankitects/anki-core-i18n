@@ -168,7 +168,7 @@ deck-config-display-order-will-use-current-deck =
 ## Timer section
 
 deck-config-timer-title = Timer
-deck-config-maximum-answer-secs = Maximal Sekunden zum Antworten
+deck-config-maximum-answer-secs = Maximale Antwortzeit (Sekunden)
 deck-config-maximum-answer-secs-tooltip =
     Die maximale Anzahl an Sekunden, die bei einer einzelnen Wiederholung erfasst wird. Wenn die Antwort
     diese Zeit überschreitet (weil Sie beispielsweise nicht auf den Bildschirm geschaut haben), dann wird die für die Antwort benötigte, zu vermerkende Zeitdauer auf diesen Höchstwert (herunter)gesetzt.
