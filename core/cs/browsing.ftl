@@ -85,6 +85,7 @@ browsing-reschedule = Přeplánovat
 browsing-search-bar-hint = Hledat karty/poznámky (napište text, poté stiskněte enter)
 browsing-search-in = Hledat v:
 browsing-search-within-formatting-slow = Hledat ve formátování (pomalé)
+browsing-select-deck = Vybrat balíček
 browsing-selected-notes-only = Pouze vybrané poznámky
 browsing-shift-position-of-existing-cards = Změnit pozici existujících karet
 browsing-sidebar = Postranní panel
