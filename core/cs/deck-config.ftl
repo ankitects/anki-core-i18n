@@ -222,6 +222,7 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Počet sekund, po které je zobrazena otázka
+deck-config-seconds-to-show-question-tooltip-3 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se aplikuje akce po otázce. Nastavením na 0 je zakázán.
 deck-config-seconds-to-show-answer = Počet sekund, po které je zobrazena odpověď
 deck-config-seconds-to-show-answer-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se aplikuje akce po odpovědi. Nastavením na 0 je zakázán.
 deck-config-question-action-show-answer = Zobrazit odpověď

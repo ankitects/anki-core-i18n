@@ -53,6 +53,9 @@ sync-upload-too-large =
     Soubor s vaší kolekcí je příliš velký, než aby se dal poslat na AnkiWeb. Můžete ho 
     zmenšit tak, že odstraníte nechtěné balíčky (nejdříve si je můžete exportovat) a poté 
     použijete Zkontrolovat databázi, což zmenší velikost souboru. ({ $details })
+sync-sign-in = Přihlásit se
+sync-ankihub-dialog-heading = Přihlášení AnkiHub
+sync-ankihub-username-label = Uživatelské jméno nebo email:
 
 ## Buttons
 
