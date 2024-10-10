@@ -309,7 +309,7 @@ deck-config-historical-retention-tooltip =
     2. Weil Sie früher Wiederholungsprotokolle gelöscht haben, um Speicherplatz freizugeben, oder Material aus einem anderen SRS-Programm importiert haben.
     
     Letzteres ist recht selten, daher müssen Sie diese Einstellung wahrscheinlich nicht anpassen, es sei denn, Sie haben die erstgenannte Option verwendet."
-deck-config-weights-tooltip2 = FSRS-Parameter beeinflussen, wie Karten terminiert werden. Anki beginnt mit Standardparametern. Sie können die untenstehende Option verwenden, um die Parameter so zu optimieren, dass sie am besten zu Ihrer Leistung in Stapeln mit dieser Optionengruppe passen.
+deck-config-weights-tooltip2 = FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit Standardparametern. Sie können die untenstehende Option verwenden, um die Parameter so zu optimieren, dass sie am besten zu Ihrer Leistung in Stapeln mit dieser Optionengruppe passen.
 deck-config-reschedule-cards-on-change-tooltip =
     Wirkt sich auf die gesamte Sammlung aus und wird nicht gespeichert.
     
