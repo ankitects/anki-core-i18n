@@ -77,6 +77,7 @@ preferences-shortcut-placeholder = Εισάγετε ένα μη χρησιμοπ
 preferences-third-party-services = Υπηρεσίες Τρίτων
 preferences-ankihub-not-logged-in = Δεν είστε συνδεδεμένοι στο AnkiHub.
 preferences-ankiweb-intro = Το AnkiWeb είναι μια δωρεάν υπηρεσία που σας επιτρέπει να διατηρείτε τα δεδομένα των καρτών σας σε συγχρονισμό σε όλες τις συσκευές σας και παρέχει έναν τρόπο ανάκτησης των δεδομένων σε περίπτωση που η συσκευή σας δυσλειτουργεί ή χαθεί.
+preferences-ankihub-intro = Το AnkiHub παρέχει συλλογική επεξεργασία τραπουλών και πρόσθετα εργαλεία μελέτης. Για την πρόσβαση σε ορισμένες λειτουργίες απαιτείται συνδρομή επί πληρωμή.
 preferences-third-party-description = Οι υπηρεσίες τρίτων δεν συνδέονται και δεν προωθούνται από το Anki. Η χρήση αυτών των υπηρεσιών μπορεί να απαιτεί πληρωμή.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
