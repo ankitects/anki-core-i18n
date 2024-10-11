@@ -36,6 +36,7 @@ editing-mathjax-chemistry = MathJax-Chemieformel
 editing-mathjax-inline = Inzeiliges MathJax-Element
 editing-mathjax-placeholder = Zum Akzeptieren { $accept } drücken, für eine neue Zeile { $newline } drücken
 editing-media = Medien
+editing-open-image = Bild öffnen
 editing-show-in-folder = Im Ordner anzeigen
 editing-ordered-list = Geordnete Liste
 editing-outdent = Einrückung verringern

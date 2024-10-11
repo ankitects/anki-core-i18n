@@ -217,6 +217,20 @@ deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine fälli
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
 deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus. Nutzung auf eigene Gefahr!
 
+# Easy Days section
+
+deck-config-easy-days-title = Tage mit weniger Karten
+deck-config-easy-days-monday = Montag
+deck-config-easy-days-tuesday = Dienstag
+deck-config-easy-days-wednesday = Mittwoch
+deck-config-easy-days-thursday = Donnerstag
+deck-config-easy-days-friday = Freitag
+deck-config-easy-days-saturday = Samstag
+deck-config-easy-days-sunday = Sonntag
+deck-config-easy-days-normal = Normal
+deck-config-easy-days-reduced = Reduziert
+deck-config-easy-days-minimum = Minimum
+
 ## Adding/renaming
 
 deck-config-add-group = Gruppe hinzufügen
