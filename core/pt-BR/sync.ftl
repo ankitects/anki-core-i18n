@@ -8,7 +8,7 @@ sync-media-removed-count = Removido: { $up }↑ { $down }↓
 sync-media-checked-count = Verificado: { $count }
 sync-media-starting = Sincronização de mídia iniciando...
 sync-media-complete = Sincronização de mídia concluída.
-sync-media-failed = A sincronização de mídia falhou.
+sync-media-failed = Falha na sincronização de mídia.
 sync-media-aborting = Abortando sincronização de mídia...
 sync-media-aborted = Sincronização de mídia abortada.
 # Shown in the sync log to indicate media syncing will not be done, because it
@@ -77,5 +77,5 @@ sync-checking = Verificando...
 sync-connecting = Conectando...
 sync-added-updated-count = Adicionado/modificado: { $up }↑ { $down }↓
 sync-log-in-button = Entrar
-sync-log-out-button = Sair
-sync-collection-complete = Sincronização de mídia concluída.
+sync-log-out-button = Deslogar
+sync-collection-complete = Sincronização da coleção concluída.

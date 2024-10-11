@@ -36,6 +36,7 @@ editing-mathjax-chemistry = Utilizar formato de entrada MathJax para equações 
 editing-mathjax-inline = MathJax em linha
 editing-mathjax-placeholder = Pressione { $accept } para aceitar, { $newline } para nova linha.
 editing-media = Mídia
+editing-open-image = Abrir Imagem
 editing-show-in-folder = Mostrar na pasta
 editing-ordered-list = Lista ordenada
 editing-outdent = Diminuir a identação
