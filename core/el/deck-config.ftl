@@ -169,6 +169,16 @@ deck-config-minimum-interval-tooltip = Το ελάχιστο διάστημα π
 deck-config-custom-scheduling = Προσαρμοσμένος προγραμματισμός
 deck-config-custom-scheduling-tooltip = Επηρεάζει ολόκληρη την συλλογή. Χρησιμοποιήστε με δική σας ευθύνη!
 
+# Easy Days section
+
+deck-config-easy-days-monday = Δευτέρα
+deck-config-easy-days-tuesday = Τρίτη
+deck-config-easy-days-wednesday = Τετάρτη
+deck-config-easy-days-thursday = Πέμπτη
+deck-config-easy-days-friday = Παρασκευή
+deck-config-easy-days-saturday = Σάββατο
+deck-config-easy-days-sunday = Κυριακή
+
 ## Adding/renaming
 
 deck-config-add-group = Προσθήκη προεπιλογής
