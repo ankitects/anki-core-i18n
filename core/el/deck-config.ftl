@@ -178,6 +178,9 @@ deck-config-easy-days-thursday = Πέμπτη
 deck-config-easy-days-friday = Παρασκευή
 deck-config-easy-days-saturday = Σάββατο
 deck-config-easy-days-sunday = Κυριακή
+deck-config-easy-days-normal = Κανονικό
+deck-config-easy-days-reduced = Μειωμένο
+deck-config-easy-days-minimum = Ελάχιστο
 
 ## Adding/renaming
 
