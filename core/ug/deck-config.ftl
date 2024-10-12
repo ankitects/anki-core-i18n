@@ -184,6 +184,20 @@ deck-config-minimum-interval-tooltip = تەكرارلايدىغان كارتىغ
 deck-config-custom-scheduling = ئىختىيارى كۈنتەرتىپ
 deck-config-custom-scheduling-tooltip = پۈتكۈل توپلامغا تەسىر كۆرسىتىدۇ، ئىشلىتىشتە ئېھتىيات قىلىڭ!
 
+# Easy Days section
+
+deck-config-easy-days-title = ھەر كۈنى
+deck-config-easy-days-monday = دۈشەنبە
+deck-config-easy-days-tuesday = سەيشەنبە
+deck-config-easy-days-wednesday = چارشەنبە
+deck-config-easy-days-thursday = پەيشەنبە
+deck-config-easy-days-friday = جۈمە
+deck-config-easy-days-saturday = شەنبە
+deck-config-easy-days-sunday = يەكشەنبە
+deck-config-easy-days-normal = ئادەتتىكى
+deck-config-easy-days-reduced = ئازايتىلدى
+deck-config-easy-days-minimum = ئەڭ ئاز
+
 ## Adding/renaming
 
 deck-config-add-group = ئالدىن تەڭشەك قوش
