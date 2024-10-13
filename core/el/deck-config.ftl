@@ -134,6 +134,7 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Δευτερόλεπτα για εμφάνιση ερώτησης
+deck-config-seconds-to-show-question-tooltip-3 = Ο αριθμός των δευτερολέπτων πριν την εφαρμογή της ενέργειας ερώτησης, όταν το auto advance είναι ενεργοποιημένο. Θέσετε σε 0 για απενεργοποίηση.
 deck-config-seconds-to-show-answer = Δευτερόλεπτα για εμφάνιση απάντησης
 deck-config-seconds-to-show-answer-tooltip-2 = Ο αριθμός των δευτερολέπτων πριν την εφαρμογή της ενέργειας απάντησης, όταν το auto advance είναι ενεργοποιημένο. Θέσετε σε 0 για απενεργοποίηση.
 deck-config-question-action-show-answer = Προβολή Απάντησης
