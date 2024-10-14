@@ -291,6 +291,17 @@ deck-config-minimum-interval-tooltip = Мінімальний початкови
 deck-config-custom-scheduling = Індивідуальне планування
 deck-config-custom-scheduling-tooltip = Впливає на всю колекцію. Використовуйте на свій страх і ризик!
 
+# Easy Days section
+
+deck-config-easy-days-title = Легкі дні
+deck-config-easy-days-monday = Понеділок
+deck-config-easy-days-tuesday = Вівторок
+deck-config-easy-days-wednesday = Середа
+deck-config-easy-days-thursday = Четвер
+deck-config-easy-days-friday = П'ятниця
+deck-config-easy-days-saturday = Субота
+deck-config-easy-days-sunday = Неділя
+
 ## Adding/renaming
 
 deck-config-add-group = Додати конфігурацію
