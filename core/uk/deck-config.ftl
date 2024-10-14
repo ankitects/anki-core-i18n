@@ -301,6 +301,9 @@ deck-config-easy-days-thursday = Четвер
 deck-config-easy-days-friday = П'ятниця
 deck-config-easy-days-saturday = Субота
 deck-config-easy-days-sunday = Неділя
+deck-config-easy-days-normal = Звичайний
+deck-config-easy-days-reduced = Скорочений
+deck-config-easy-days-minimum = Мінімум
 
 ## Adding/renaming
 
