@@ -23,11 +23,17 @@ card-stats-review-log-type-review = Opakování
 card-stats-review-log-type-relearn = Znovu učené
 card-stats-review-log-type-filtered = Filtrováno
 card-stats-review-log-type-manual = Manuální
+card-stats-review-log-elapsed-time = Uplynulý čas
 card-stats-no-card = (Žádná karta k zobrazení.)
 card-stats-custom-data = Vlastní data
 card-stats-fsrs-stability = Stabilita
 card-stats-fsrs-difficulty = Obtížnost
 card-stats-fsrs-retrievability = Zapamatování
+card-stats-fsrs-forgetting-curve-title = Křivka zapomínání
+card-stats-fsrs-forgetting-curve-first-week = První týden
+card-stats-fsrs-forgetting-curve-first-month = První měsíc
+card-stats-fsrs-forgetting-curve-first-year = První rok
+card-stats-fsrs-forgetting-curve-all-time = Po celou dobu
 
 ## Window Titles
 

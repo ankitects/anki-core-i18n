@@ -269,6 +269,17 @@ deck-config-minimum-interval-tooltip = Minimální interval daný opakované kar
 deck-config-custom-scheduling = Vlastní plánování
 deck-config-custom-scheduling-tooltip = Ovlivní celou kolekci. Používejte na vlastní nebezpečí!
 
+# Easy Days section
+
+deck-config-easy-days-monday = Pondělí
+deck-config-easy-days-tuesday = Úterý
+deck-config-easy-days-wednesday = Středa
+deck-config-easy-days-thursday = Čtvrtek
+deck-config-easy-days-friday = Pátek
+deck-config-easy-days-saturday = Sobota
+deck-config-easy-days-sunday = Neděle
+deck-config-easy-days-normal = Normální
+
 ## Adding/renaming
 
 deck-config-add-group = Přidat předvolbu
