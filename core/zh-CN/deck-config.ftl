@@ -232,6 +232,16 @@ deck-config-minimum-interval-tooltip = 复习卡片选择「重来」后的最�
 deck-config-custom-scheduling = 自定义排程
 deck-config-custom-scheduling-tooltip = 该设置将影响所有集合。请务必谨慎使用！
 
+# Easy Days section
+
+deck-config-easy-days-monday = 周一
+deck-config-easy-days-tuesday = 周二
+deck-config-easy-days-wednesday = 周三
+deck-config-easy-days-thursday = 周四
+deck-config-easy-days-friday = 周五
+deck-config-easy-days-saturday = 周六
+deck-config-easy-days-sunday = 周日
+
 ## Adding/renaming
 
 deck-config-add-group = 新增预设配置
