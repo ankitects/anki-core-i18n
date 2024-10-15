@@ -178,6 +178,20 @@ deck-config-minimum-interval-tooltip = 複習卡回答 `重来` 後的最小間�
 deck-config-custom-scheduling = 自訂排程
 deck-config-custom-scheduling-tooltip = 影響整個集合。請謹慎使用！
 
+# Easy Days section
+
+deck-config-easy-days-title = 放鬆日
+deck-config-easy-days-monday = 星期一
+deck-config-easy-days-tuesday = 星期二
+deck-config-easy-days-wednesday = 星期三
+deck-config-easy-days-thursday = 星期四
+deck-config-easy-days-friday = 星期五
+deck-config-easy-days-saturday = 星期六
+deck-config-easy-days-sunday = 星期日
+deck-config-easy-days-normal = 正常
+deck-config-easy-days-reduced = 減少
+deck-config-easy-days-minimum = 最少
+
 ## Adding/renaming
 
 deck-config-add-group = 新增預設組
