@@ -265,6 +265,20 @@ deck-config-minimum-interval-tooltip = מרווח הזמן המינימלי המ
 deck-config-custom-scheduling = תזמון בהתאמה אישית
 deck-config-custom-scheduling-tooltip = משפיע על כל האוסף. השתמש באחריותך בלבד!
 
+# Easy Days section
+
+deck-config-easy-days-title = ימים קלים
+deck-config-easy-days-monday = יום שני
+deck-config-easy-days-tuesday = יום שלישי
+deck-config-easy-days-wednesday = יום רביעי
+deck-config-easy-days-thursday = יום חמישי
+deck-config-easy-days-friday = יום שישי
+deck-config-easy-days-saturday = יום שבת
+deck-config-easy-days-sunday = יום ראשון
+deck-config-easy-days-normal = רגיל
+deck-config-easy-days-reduced = מופחת
+deck-config-easy-days-minimum = מינימום
+
 ## Adding/renaming
 
 deck-config-add-group = הוסף קבוצת הגדרות

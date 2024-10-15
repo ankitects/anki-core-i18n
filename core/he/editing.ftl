@@ -36,6 +36,7 @@ editing-mathjax-chemistry = כימיה באמצעות MathJax
 editing-mathjax-inline = MathJax כחלק משורה
 editing-mathjax-placeholder = לחץ על { $accept } כדי לאשר, { $newline } עבור שורה חדשה.
 editing-media = מדיה
+editing-open-image = פתח תמונה
 editing-show-in-folder = הצג בתיקייה
 editing-ordered-list = רשימה (מספרים)
 editing-outdent = הקטן הזחה
