@@ -13,6 +13,7 @@ media-check-missing-count = Saknade filer: { $count }
 media-check-unused-count = Oanvända filer: { $count }
 media-check-renamed-count = Omdöpta filer: { $count }
 media-check-oversize-count = Över 100MB: { $count }
+media-check-subfolder-count = Undermappar: { $count }
 media-check-extracted-count = Extraherade bilder: { $count }
 
 ## Shown at the top of each section
@@ -20,6 +21,7 @@ media-check-extracted-count = Extraherade bilder: { $count }
 media-check-renamed-header = Några filer har döpts om av kompabilitetsskäl:
 media-check-oversize-header = Filer större än 100 MB kan inte synkas med AnkiWeb.
 media-check-missing-header = Används på kort men saknas i mediamappen:
+media-check-unused-header = Följande filer hittades i media-mappen, men verkar inte användas i något kort:
 
 ## Shown once for each file
 

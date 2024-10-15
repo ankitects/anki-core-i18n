@@ -82,6 +82,7 @@ browsing-reschedule = Schemalägg igen
 browsing-search-bar-hint = Sök kort/noter (skriv text, sedan tryck Enter)
 browsing-search-in = Sök i:
 browsing-search-within-formatting-slow = Sök inom formatering (långsamt)
+browsing-select-deck = Välj kortlek
 browsing-selected-notes-only = Endast markerade noter
 browsing-shift-position-of-existing-cards = Skifta positionen av befintliga kort
 browsing-sidebar = Sidopanel
