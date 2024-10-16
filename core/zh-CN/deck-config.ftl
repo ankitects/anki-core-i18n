@@ -234,6 +234,7 @@ deck-config-custom-scheduling-tooltip = 该设置将影响所有集合。请务�
 
 # Easy Days section
 
+deck-config-easy-days-title = 轻松日
 deck-config-easy-days-monday = 周一
 deck-config-easy-days-tuesday = 周二
 deck-config-easy-days-wednesday = 周三
@@ -241,6 +242,9 @@ deck-config-easy-days-thursday = 周四
 deck-config-easy-days-friday = 周五
 deck-config-easy-days-saturday = 周六
 deck-config-easy-days-sunday = 周日
+deck-config-easy-days-normal = 正常
+deck-config-easy-days-reduced = 减少
+deck-config-easy-days-minimum = 最少
 
 ## Adding/renaming
 
