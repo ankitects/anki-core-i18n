@@ -61,7 +61,7 @@ actions-fullscreen-unsupported = Толық экран режимі сіздің
 
 ## Flags
 
-actions-flag-number = { $number } Белгі
+actions-flag-number = { $number } Жалауша
 actions-flag-red = Қызыл
 actions-flag-orange = Жалқын
 actions-flag-green = Жасыл
@@ -69,7 +69,7 @@ actions-flag-blue = Көк
 actions-flag-pink = Қызғылт
 actions-flag-turquoise = Перуза
 actions-flag-purple = Күлгін
-actions-set-flag = Белгілеу
+actions-set-flag = Жалауша қою
 actions-nothing-to-undo = Қайтаратын нәрсе жоқ
 actions-nothing-to-redo = Қайта істейтін нәрсе жоқ
 actions-auto-advance = Аутоілгерілу
