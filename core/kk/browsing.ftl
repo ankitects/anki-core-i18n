@@ -98,7 +98,7 @@ browsing-toggle-suspend = Кідірту/Тірілту
 browsing-treat-input-as-regular-expression = Жай өрнек ретінде енгізу
 browsing-update-saved-search = Ағымдағы Іздеумен Жаңарту
 browsing-whole-collection = Бүкіл Жинақ
-browsing-window-title-notes = Шолу ({ $total } жазбаның { $selected }-і/ы бөлшектенген)
+browsing-window-title-notes = Қарау ({ $total } жазбаның { $selected }-і/ы бөлшектенген)
 browsing-you-must-have-at-least-one = Кем дегенде бір баған болу керек.
 browsing-group = { $count } топ
 browsing-note-count = { $count } жазба
@@ -137,7 +137,7 @@ browsing-row-deleted = (жойылған)
 browsing-removed-unused-tags-count = Қолданылмайтын { $count } тамға жойылды.
 browsing-changed-new-position = { $count } карта көштірілді.
 browsing-reparented-decks = { $count } қайта аталды.
-browsing-sidebar-card-state-review = Қайталау
+browsing-sidebar-card-state-review = Шолу
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
