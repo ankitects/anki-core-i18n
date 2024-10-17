@@ -1,8 +1,8 @@
 adding-add-shortcut-ctrlandenter = Қосу (пернелер тіркесімі: ctrl+enter)
 adding-added = Қосылған
 adding-discard-current-input = Ағымдағы енгізуді тастау?
-adding-keep-editing = Өзгертуді жалғастыру
-adding-edit = "{ $val }" өзгерту
+adding-keep-editing = Өңдеуді жалғастыру
+adding-edit = "{ $val }" өңдеу
 adding-history = Тарих
 adding-note-deleted = (Жазба жойылған)
 adding-shortcut = Пернелер тіркесімі: { $val }
