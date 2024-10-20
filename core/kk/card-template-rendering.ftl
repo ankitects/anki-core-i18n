@@ -4,10 +4,10 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Толығырақ
-card-template-rendering-front-side-problem = Алдыңғы қалып мәселесі:
-card-template-rendering-back-side-problem = Артқы қалып мәселесі:
-card-template-rendering-browser-front-side-problem = Шолғыштағы алдыңғы қалып мәселесі:
-card-template-rendering-browser-back-side-problem = Шолғыштағы артқы қалып мәселесі:
+card-template-rendering-front-side-problem = Алдыңғы үлгі мәселесі:
+card-template-rendering-back-side-problem = Артқы үлгі мәселесі:
+card-template-rendering-browser-front-side-problem = Шолғыштағы алдыңғы үлгі мәселесі:
+card-template-rendering-browser-back-side-problem = Шолғыштағы артқы үлгі мәселесі:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = { $tag } ішінде { $missing } жоқ
