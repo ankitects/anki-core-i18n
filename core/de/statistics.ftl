@@ -48,6 +48,11 @@ statistics-cards =
         [one] { $cards } Karte
        *[other] { $cards } Karten
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } Notiz
+       *[other] { $notes } Notizen
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -220,6 +225,7 @@ statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
 statistics-average-interval = Mittleres Intervall
 statistics-due-tomorrow = Morgen fällig
+statistics-daily-load = Tägliches Arbeitspensum
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent }%)
 statistics-average-over-period = Wenn jeden Tag gelernt würde
