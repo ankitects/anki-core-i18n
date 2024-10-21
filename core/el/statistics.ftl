@@ -48,6 +48,11 @@ statistics-cards =
         [one] { $cards } κάρτα
        *[other] { $cards } κάρτες
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } σημείωση
+       *[other] { $notes } σημειώσεις
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
