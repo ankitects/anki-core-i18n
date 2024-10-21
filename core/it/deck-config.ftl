@@ -220,7 +220,6 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Secondi prima di mostrare la domanda
-deck-config-seconds-to-show-question-tooltip-2 = Determina il numero di secondi da attendere prima di rivelare la risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi prima di mostrare la risposta
 deck-config-seconds-to-show-answer-tooltip-2 = Determina il numero di secondi da attendere prima di applicare l'azione di risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-question-action-show-answer = Mostra risposta
@@ -228,8 +227,6 @@ deck-config-question-action-show-reminder = Mostra promemoria
 deck-config-question-action = Azione per la domanda
 deck-config-question-action-tool-tip = L'azione da svolgere sulla carta attuale prima di passare a quella successiva.
 deck-config-answer-action = Azione di risposta
-deck-config-answer-action-tooltip = L'azione da svolgere sulla carta attuale prima di passare automaticamente a quella successiva.
-deck-config-wait-for-audio-tooltip = Attendi la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
 
 ## Audio section
 
@@ -265,6 +262,20 @@ deck-config-new-interval-tooltip = Il moltiplicatore applicato all'intervallo di
 deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta ripassata dopo aver premuto `Ripeti`.
 deck-config-custom-scheduling = Pianificazione personalizzata
 deck-config-custom-scheduling-tooltip = Influisce sull'intera collezione. Usare a proprio rischio e pericolo!
+
+# Easy Days section
+
+deck-config-easy-days-title = Giorni di riposo
+deck-config-easy-days-monday = Lunedì
+deck-config-easy-days-tuesday = Martedì
+deck-config-easy-days-wednesday = Mercoledì
+deck-config-easy-days-thursday = Giovedì
+deck-config-easy-days-friday = Venerdì
+deck-config-easy-days-saturday = Sabato
+deck-config-easy-days-sunday = Domenica
+deck-config-easy-days-normal = Normale
+deck-config-easy-days-reduced = Ridotto
+deck-config-easy-days-minimum = Minimo
 
 ## Adding/renaming
 
@@ -321,7 +332,6 @@ deck-config-which-deck = Per quale mazzo desideri visualizzare le opzioni?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Aggiornamento delle carte in corso: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = I parametri devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
 deck-config-unable-to-determine-desired-retention = Impossibile determinare una ritenzione ottimale.
 deck-config-must-have-400-reviews =
@@ -396,23 +406,11 @@ deck-config-reschedule-cards-warning =
     
     Usare questa opzione con parsimonia, poiché aggiungerà una voce di revisione per ciascuna delle carte e
     aumenterà le dimensioni della collezione.
-deck-config-ignore-before-tooltip =
-    Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
-    Questo può risultare utile nel caso in cui si fossero importati i dati di pianificazione di un'altra persona o qualora siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip2 =
     Facendo clic sul pulsante Ottimizza, FSRS analizza la cronologia delle ripetizioni e genera parametri ottimizzati per la propria memoria e per il contenuto che si sta studiando. Se i mazzi variano molto in termini di difficoltà, è consigliato assegnare loro delle preimpostazioni separate, in quanto i parametri per i mazzi facili e per quelli difficili sono necessariamente diversi. 
     Non è necessario ottimizzare i parametri frequentemente ma è sufficiente farlo una volta ogni qualche mese.
     
     Per impostazione predefinita, i parametri vengono calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Tuttavia è possibile decidere quali carte sono utilizzate per l'ottimizzazione agendo sul contenuto della casella di ricerca.
-deck-config-compute-optimal-retention-tooltip3 =
-    Questo strumento presuppone che si inizi con 0 carte apprese e cerca di calcolare il valore di ritenzione desiderata
-    che consente di imparare la maggior parte del materiale nel minor tempo possibile. Per simulare accuratamente
-    il processo di apprendimento, questa funzionalità richiede un minimo di 400 ripetizioni. Il numero calcolato
-    può essere usato come riferimento per l'impostazione della propria ritenzione desiderata. Qualora si sia disposti
-    a dedicare più tempo allo studio per ottenere un tasso di rammentabilità maggiore, è possibile scegliere
-    un valore di ritenzione desiderata più alto. D'altra parte, è sconsigliato impostare la ritenzione desiderata al di sotto
-    del livello ottimale, in quanto non vi sarebbe alcun beneficio apprezzabile a fronte di una mole di lavoro più elevata,
-    causata da un tasso elevato di oblio.
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-a-100-day-interval =
     { $days ->
@@ -452,6 +450,11 @@ deck-config-bury-tooltip =
     
     Quando si utilizza il pianificatore V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
     Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento attuale di uno o più giorni.
+deck-config-answer-action-tooltip = L'azione da svolgere sulla carta attuale prima di passare automaticamente a quella successiva.
+deck-config-wait-for-audio-tooltip = Attendi la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
+deck-config-ignore-before-tooltip =
+    Le ripetizioni precedenti alla data specificata saranno escluse dall'ottimizzazione e dalla valutazione dei parametri FSRS.
+    Questo può risultare utile nel caso in cui si fossero importati i dati di pianificazione di un'altra persona o qualora siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-retention-tooltip =
     Questo strumento presuppone che si inizi con 0 carte e cercherà di calcolare la quantità di materiale 
     memorizzabile nel periodo di tempo specificato. 
@@ -481,3 +484,14 @@ deck-config-compute-optimal-retention-tooltip2 =
     a dedicare più tempo allo studio per ottenere un tasso di rammentabilità maggiore, è possibile scegliere
     un valore di ritenzione desiderata più alto. D'altra parte, è sconsigliato impostare la ritenzione desiderata al di sotto
     del livello ottimale, in quanto non vi sarebbe alcun beneficio apprezzabile a fronte di una mole di lavoro più elevata.
+deck-config-compute-optimal-retention-tooltip3 =
+    Questo strumento presuppone che si inizi con 0 carte apprese e cerca di calcolare il valore di ritenzione desiderata
+    che consente di imparare la maggior parte del materiale nel minor tempo possibile. Per simulare accuratamente
+    il processo di apprendimento, questa funzionalità richiede un minimo di 400 ripetizioni. Il numero calcolato
+    può essere usato come riferimento per l'impostazione della propria ritenzione desiderata. Qualora si sia disposti
+    a dedicare più tempo allo studio per ottenere un tasso di rammentabilità maggiore, è possibile scegliere
+    un valore di ritenzione desiderata più alto. D'altra parte, è sconsigliato impostare la ritenzione desiderata al di sotto
+    del livello ottimale, in quanto non vi sarebbe alcun beneficio apprezzabile a fronte di una mole di lavoro più elevata,
+    causata da un tasso elevato di oblio.
+deck-config-seconds-to-show-question-tooltip-2 = Determina il numero di secondi da attendere prima di rivelare la risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
+deck-config-invalid-weights = I parametri devono essere lasciati vuoti per utilizzare i valori predefiniti, oppure devono essere 17 numeri separati da virgole.
