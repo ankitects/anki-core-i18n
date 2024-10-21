@@ -49,11 +49,11 @@ deck-config-today-only = Nur heute
 
 deck-config-learning-steps = Lernstufen
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Verzögerungen können in Minuten (z.B. "5m") oder Tagen (z.B. "2d") angegeben werden.
+-deck-config-delay-hint = Verzögerungen können in Sekunden (`30s`), Minuten (`5m`), Stunden (`1h`) oder Tagen (`2d`) angegeben werden.
 deck-config-learning-steps-tooltip =
     Eine oder mehrere Verzögerungen, durch Leerzeichen voneinander getrennt. Die erste Verzögerung wird benutzt, 
-    wenn Sie den "Nochmals"-Knopf auf einer neuen Karte drücken, und beträgt standardmäßig 1 Minute.
-    Der "Gut"-Knopf lässt die Karte voranschreiten. Die Verzögerung beträgt dann standardmäßig 10 Minuten.
+    wenn Sie den „Nochmal“-Knopf auf einer neuen Karte drücken, und beträgt standardmäßig 1 Minute.
+    Der „Gut“-Knopf lässt die Karte voranschreiten. Die Verzögerung beträgt dann standardmäßig 10 Minuten.
     Wenn eine Karte alle Schritte durchlaufen hat, dann wird diese eine Wiederholkarte und wird an einem anderen Tag wieder erscheinen. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Die Anzahl an abzuwartenden Tagen, bevor eine Karte, die mit "Gut" in der finalen Lernstufe  bewertet wurde, wieder angezeigt wird.
 deck-config-easy-interval-tooltip = Die Anzahl Tage, bis eine Karte wieder gezeigt wird, nachdem die `Einfach`-Taste benutzt wurde, um die Karte sofort aus der Lernphase zu entfernen.
@@ -66,15 +66,15 @@ deck-config-new-insertion-order-random-with-v3 = Wenn der V3-Zeitplaner genutzt 
 ## Lapses section
 
 deck-config-relearning-steps = Lernstufen für das erneute Lernen
-deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des "Nochmal"-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie erneut erlernt wird. { -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des „Nochmal“-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie erneut erlernt wird. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    Die Anzahl, wie oft "Nochmals" gedrückt werden muss, um eine Wiederholkarte als
+    Die Anzahl, wie oft „Nochmal“ gedrückt werden muss, um eine Wiederholkarte als
     Lernbremse einzustufen. Lernbremsen sind Karten, die besonders viel von Ihrer Zeit beanspruchen. 
-    Wenn eine Karte als Lernbremse eingestuft wird, dann ist es eine gute Idee, diese zu überarbeiten, zu löschen oder eine Gedächtnisstütze (Eselbrücke) auszudenken, die Ihnen hilft, sich an sie zu erinnern.
+    Wenn eine Karte als Lernbremse eingestuft wird, dann ist es eine gute Idee, diese zu überarbeiten, zu löschen oder sich eine Gedächtnisstütze (Eselsbrücke) auszudenken, die Ihnen hilft, sich an sie zu erinnern.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    <b>nur für Schlagwort</b>: Ein Schlagwort "leech" für die Notiz hinzufügen und ein Pop-up anzeigen.<br>
-    <b>Karte aussetzen</b>: Zusätzlich zum Verschlagworten der Notiz diese Karte verstecken, bevor sie wieder manuell eingesetzt wird.
+    <b>Nur verschlagworten</b>: Das Schlagwort „leech“ für die Notiz hinzufügen und ein Pop-up anzeigen.<br>
+    <b>Karte aussetzen</b>: Zusätzlich zum Verschlagworten der Notiz diese Karte aussetzen, bevor sie wieder manuell eingesetzt wird.
 
 ## Burying section
 
@@ -212,8 +212,8 @@ deck-config-interval-modifier-tooltip =
     um Anki konservativer oder aggressiver bei seiner Zeitplanung einzustellen. Bitte lesen
     Sie im Handbuch nach, bevor Sie diese Option ändern.
 deck-config-hard-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit "Schwer" bewertet wurde.
-deck-config-new-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit "Nochmal" bewertet wurde.
-deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine fällige Karte mit "Nochmal" bewertet wurde.
+deck-config-new-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit „Nochmal“ bewertet wurde.
+deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine fällige Karte mit „Nochmal“ bewertet wurde.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
 deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus. Nutzung auf eigene Gefahr!
 
