@@ -47,4 +47,7 @@ card-templates-card-count = { $count } карта
 card-templates-this-will-create-card-proceed = { $count } карта жасалады. Жалғастыру?
 card-templates-type-boxes-warning = Карта үлгісінде бір-ақ теру өрісі рұқсат етілген.
 card-templates-restore-to-default = Қалпына Келтіру
+card-templates-restore-to-default-confirmation =
+    Бұл карта түрінің өрістер мен үлгілерін қалпына келтіріп, қосымша
+    өріс пен үлгілерін және жеке безендіруін жояды. Жалғастыру?
 card-templates-restored-to-default = Жазба түрі қалпына келтірілді.
