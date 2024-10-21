@@ -220,13 +220,16 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Secondi prima di mostrare la domanda
+deck-config-seconds-to-show-question-tooltip-3 = Determina il numero di secondi da attendere prima di mostrare la domanda, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-seconds-to-show-answer = Secondi prima di mostrare la risposta
-deck-config-seconds-to-show-answer-tooltip-2 = Determina il numero di secondi da attendere prima di applicare l'azione di risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
+deck-config-seconds-to-show-answer-tooltip-2 = Determina il numero di secondi da attendere prima di mostrare la risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-question-action-show-answer = Mostra risposta
 deck-config-question-action-show-reminder = Mostra promemoria
 deck-config-question-action = Azione per la domanda
 deck-config-question-action-tool-tip = L'azione da svolgere sulla carta attuale prima di passare a quella successiva.
 deck-config-answer-action = Azione di risposta
+deck-config-answer-action-tooltip-2 = L'azione da svolgere dopo che la risposta è stata mostrata e il tempo è scaduto.
+deck-config-wait-for-audio-tooltip-2 = Attendi la fine dell'audio prima di applicare automaticamente l'azione per la risposta o la domanda.
 
 ## Audio section
 
@@ -332,6 +335,7 @@ deck-config-which-deck = Per quale mazzo desideri visualizzare le opzioni?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Aggiornamento delle carte in corso: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = I parametri FSRS inseriti non sono validi. Lascia il campo vuoto per usare quelli predefiniti.
 deck-config-not-enough-history = La mole della storia delle ripetizioni è insufficiente per eseguire questa operazione.
 deck-config-unable-to-determine-desired-retention = Impossibile determinare una ritenzione ottimale.
 deck-config-must-have-400-reviews =
@@ -406,11 +410,23 @@ deck-config-reschedule-cards-warning =
     
     Usare questa opzione con parsimonia, poiché aggiungerà una voce di revisione per ciascuna delle carte e
     aumenterà le dimensioni della collezione.
+deck-config-ignore-before-tooltip-2 =
+    Le carte studiate prima della data specificata saranno escluse dall'ottimizzazione dei parametri FSRS.
+    Questo può risultare utile nel caso in cui si fossero importati i dati di pianificazione di un'altra persona o qualora siano cambiate le proprie abitudini nell'utilizzo dei pulsanti di risposta.
 deck-config-compute-optimal-weights-tooltip2 =
     Facendo clic sul pulsante Ottimizza, FSRS analizza la cronologia delle ripetizioni e genera parametri ottimizzati per la propria memoria e per il contenuto che si sta studiando. Se i mazzi variano molto in termini di difficoltà, è consigliato assegnare loro delle preimpostazioni separate, in quanto i parametri per i mazzi facili e per quelli difficili sono necessariamente diversi. 
     Non è necessario ottimizzare i parametri frequentemente ma è sufficiente farlo una volta ogni qualche mese.
     
     Per impostazione predefinita, i parametri vengono calcolati in base alla cronologia delle ripetizioni di tutti i mazzi che utilizzano la preimpostazione attuale. Tuttavia è possibile decidere quali carte sono utilizzate per l'ottimizzazione agendo sul contenuto della casella di ricerca.
+deck-config-compute-optimal-retention-tooltip4 =
+    Questo strumento cerca di trovare il valore di ritenzione
+    che permette di apprendere la maggior quantità di materiale
+    nel minor tempo possibile. Il numero calcolato può essere utile come riferimento
+    per decidere a quale valore impostare la ritenzione desiderata.
+    È possibile scegliere un valore di ritenzione desiderata più alto,
+    qualora si sia disposti a passare più tempo a studiare a fronte di un tasso di ritenzione più elevato. Non è invece consigliato impostare
+    un valore di ritenzione desiderata inferiore al minimo,
+    in quanto comporta una mole di lavoro maggiore, a causa del tasso elevato di oblio (dimenticanza nel tempo).
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
 deck-config-a-100-day-interval =
     { $days ->
@@ -450,6 +466,7 @@ deck-config-bury-tooltip =
     
     Quando si utilizza il pianificatore V3, è possibile seppellire anche le carte in apprendimento intergiornaliero. 
     Le carte in apprendimento intergiornaliero sono carte con un passo di apprendimento attuale di uno o più giorni.
+deck-config-seconds-to-show-question-tooltip = Determina il numero di secondi da attendere prima di rivelare la risposta, quando l'avanzamento automatico è abilitato. Imposta a 0 per disabilitare.
 deck-config-answer-action-tooltip = L'azione da svolgere sulla carta attuale prima di passare automaticamente a quella successiva.
 deck-config-wait-for-audio-tooltip = Attendi la fine dell'audio prima di rivelare automaticamente la risposta o passare alla domanda successiva
 deck-config-ignore-before-tooltip =

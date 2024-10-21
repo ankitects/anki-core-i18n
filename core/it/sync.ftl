@@ -53,6 +53,11 @@ sync-upload-too-large =
     Il file della collezione è troppo grande per essere inviato ad AnkiWeb. È possibile ridurre la dimensione
     del file rimuovendo i mazzi non necessari (eventualmente esportandoli prima) e, successivamente,
     utilizzare la funzione "Controlla il database" per ridurne ulteriormente la dimensione. ({ $details })
+sync-sign-in = Accedi
+sync-ankihub-dialog-heading = Accedi ad AnkiHub
+sync-ankihub-username-label = Username o e-mail:
+sync-ankihub-login-failed = Non è stato possibile effettuare l'accesso ad AnkiHub con le credenziali fornite.
+sync-ankihub-addon-installation = Installazione dell'add-on AnkiHub
 
 ## Buttons
 
