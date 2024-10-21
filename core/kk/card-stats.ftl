@@ -23,6 +23,7 @@ card-stats-review-log-type-review = Шолу
 card-stats-review-log-type-relearn = Қайта Оқу
 card-stats-review-log-type-filtered = Сүзілген
 card-stats-review-log-type-manual = Нұсқаулық
+card-stats-review-log-type-rescheduled = Қайта Жоспарланды
 card-stats-review-log-elapsed-time = Өткен Уақыт
 card-stats-no-card = (Көрсететін карта жоқ.)
 card-stats-custom-data = Бапталған Деректер
