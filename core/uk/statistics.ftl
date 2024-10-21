@@ -62,6 +62,12 @@ statistics-cards =
         [many] { $cards } карток
        *[other] { $cards } карток
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } нотатка
+        [few] { $notes } нотатки
+       *[many] { $notes } нотаток
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -248,6 +254,7 @@ statistics-average-answer-time-label = Середній час відповід�
 statistics-average = Середнє
 statistics-average-interval = Середній інтервал
 statistics-due-tomorrow = Пригадати завтра
+statistics-daily-load = Щоденне навантаження
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } з { $total } ({ $percent }%)
 statistics-average-over-period = Якби ви вчились щодня

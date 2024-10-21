@@ -23,6 +23,7 @@ card-stats-review-log-type-review = Пригадувальні
 card-stats-review-log-type-relearn = Вчити знову
 card-stats-review-log-type-filtered = Відфільтровані
 card-stats-review-log-type-manual = Посібник
+card-stats-review-log-type-rescheduled = Переплановано
 card-stats-review-log-elapsed-time = Затрачено часу
 card-stats-no-card = (Нема карток для показу.)
 card-stats-custom-data = Спеціальні дані
