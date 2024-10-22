@@ -313,7 +313,7 @@ deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
 deck-config-fsrs-tooltip =
     Wirkt sich auf die gesamte Sammlung aus.
     
-    FRSR (Free Spaced Repetition Scheduler) ist eine Alternative zum klassischem SM-2 (SuperMemo-2) von Anki. Dank eine genauere Vorhersage, wie wahrscheinlich es ist, dass Sie eine Karte vergessen, hilft FSRS Ihnen dabei, in der gleichen Zeit mehr Informationen zu behalten.
+    FSRS (Free Spaced Repetition Scheduler) ist eine Alternative zum klassischem SM-2 (SuperMemo 2) von Anki. FSRS sagt genauer vorher, wie wahrscheinlich es ist, dass Sie eine Karte vergessen. Somit können Sie mit FSRS bei gleichem Zeitaufwand mehr lernen.
 deck-config-desired-retention-tooltip = Mit dem Standardwert von 0,9 werden die Karten so geplant, dass Sie eine 90 %ige Chance haben, sich an sie zu erinnern, wenn wenn sie wieder zur Wiederholung anstehen. Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger zeigen, um die Wahrscheinlichkeit zu erhöhen, dass Sie sich an sie erinnern. Wenn Sie den Wert verringern, wird Anki die Karten weniger häufig zeigen und Sie werden mehr von ihnen vergessen. Seien Sie vorsichtig, wie Sie diesen Wert einstellen: Höhere Werte erhöhen Ihr Arbeitspensum erheblich, und niedrigere Werte können demotivierend sein, wenn Sie viel vergessen.
 deck-config-historical-retention-tooltip =
     Wenn ein Teil Ihrer Wiederholungshistorie fehlt, muss FSRS die Lücken füllen. Standardmäßig wird angenommen, dass Sie sich bei Ihren alten Wiederholungen an 90% des Materials erinnern. Wenn Ihre frühere Wiedererkennungsrate wesentlich höher oder niedriger als 90% war, ermöglicht die Anpassung der FSRS-Option, die Muster der fehlgeschlagenen Wiederholungen genauer abzuschätzen.
