@@ -48,6 +48,11 @@ statistics-cards =
         [one] { $cards } كارتا
        *[other] { $cards } كارتا
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } خاتىرە
+       *[other] { $notes } خاتىرە
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -238,6 +243,7 @@ statistics-average-answer-time-label = جاۋابقا كەتكەن ئوتتۇر�
 statistics-average = ئوتتۇرىچە
 statistics-average-interval = ئوتتۇرىچە مەزگىلى
 statistics-due-tomorrow = ئەتىگىچە
+statistics-daily-load = كۈندىلىك يۈكلەش
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } / { $total } ({ $percent }%)
 statistics-average-over-period = ئۆگەنمىگەن كۈن سانىنىڭ ئوتتۇرچە قىممىتى
