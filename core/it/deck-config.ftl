@@ -206,15 +206,16 @@ deck-config-display-order-will-use-current-deck =
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Tempo massimo di risposta in secondi
 deck-config-maximum-answer-secs-tooltip =
-    Il numero massimo di secondi da registrare per singolo ripasso. Se una risposta
-    supera questo tempo (per esempio perché ti sei allontanato dallo schermo),
-    verrà registrato il tempo massimo che hai impostato.
+    Determina il numero massimo di secondi da registrare per singola ripetizione.
+    Se una risposta supera questo tempo (per esempio perché
+    ti sei allontanato dallo schermo), verrà registrato il tempo massimo
+    qui impostato.
 deck-config-show-answer-timer-tooltip =
-    Nella schermata delle revisioni, mostra un timer che conta il numero di secondi
-    che stai impiegando per ripassare ciascuna carta.
-deck-config-stop-timer-on-answer = Ferma il timer dopo aver risposto
+    Mostra un timer nella schermata delle ripetizioni che conta il numero di secondi
+    impiegati per ripassare ciascuna carta.
+deck-config-stop-timer-on-answer = Ferma il timer al momento della risposta
 deck-config-stop-timer-on-answer-tooltip =
-    Se bloccare o meno il timer una volta che è stata rivelata la risposta.
+    Determina se bloccare o meno il timer una volta che è stata rivelata la risposta.
     Questa opzione non influisce sulle statistiche.
 
 ## Auto Advance section
