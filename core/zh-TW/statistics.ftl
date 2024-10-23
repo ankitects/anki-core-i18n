@@ -38,6 +38,7 @@ statistics-in-time-span-years =
        *[other] { $amount } 年
     }
 statistics-cards = { $cards } 張卡片
+statistics-notes = { $notes } 則筆記
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews } 次複習
 # Shown at the bottom of the deck list, and in the statistics screen.
@@ -196,6 +197,7 @@ statistics-average-answer-time-label = 平均回答耗時
 statistics-average = 平均
 statistics-average-interval = 平均間隔
 statistics-due-tomorrow = 明天到期
+statistics-daily-load = 每日工作量
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
 statistics-average-over-period = 平均（包含沒有學習的天數）

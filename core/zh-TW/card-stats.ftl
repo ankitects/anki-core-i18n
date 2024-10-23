@@ -23,6 +23,7 @@ card-stats-review-log-type-review = 複習
 card-stats-review-log-type-relearn = 重新學習
 card-stats-review-log-type-filtered = 篩選
 card-stats-review-log-type-manual = 手動
+card-stats-review-log-type-rescheduled = 已重新排程
 card-stats-review-log-elapsed-time = 經過時間
 card-stats-no-card = （沒有卡片可顯示）
 card-stats-custom-data = 自訂資料

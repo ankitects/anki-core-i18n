@@ -129,8 +129,8 @@ deck-config-sort-order-ascending-intervals = 間隔遞增
 deck-config-sort-order-descending-intervals = 間隔遞減
 deck-config-sort-order-ascending-ease = 輕鬆度遞增
 deck-config-sort-order-descending-ease = 輕鬆度遞減
-deck-config-sort-order-ascending-difficulty = 難度遞增
-deck-config-sort-order-descending-difficulty = 難度遞減
+deck-config-sort-order-ascending-difficulty = 簡單卡片優先
+deck-config-sort-order-descending-difficulty = 困難卡片優先
 deck-config-sort-order-relative-overdueness = 相對逾期跨度
 deck-config-display-order-will-use-current-deck = 顯示順序以你選取的牌組為準，子牌組的設定不會生效。
 
