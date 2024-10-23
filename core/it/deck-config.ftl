@@ -447,7 +447,7 @@ deck-config-answer-again = Rispondi Ripeti
 deck-config-answer-hard = Rispondi Difficile
 deck-config-answer-good = Rispondi Normale
 deck-config-days-to-simulate = Giorni da simulare
-deck-config-desired-retention-below-optimal = La ritenzione desiderata scelta è inferiore a quella ottimale. È consigliato aumentarla.
+deck-config-desired-retention-below-optimal = La ritenzione desiderata attualmente impostata è inferiore a quella ottimale. È consigliato aumentarla.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
