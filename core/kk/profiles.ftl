@@ -1,0 +1,11 @@
+profiles-anki-could-not-read-your-profile = Anki профиль ақпаратыңызды оқи алмады. Терезе өлшемдері және үйлестіруге кіру деректері ұмытылды.
+profiles-anki-could-not-rename-your-profile = Anki профиліңіздің атын өзгерте алмады, себебі дисктегі профиль қалтасын қайта атай алмады. Documents қалтасына жазуға рұқсатыңыз бар екеніне көз жеткізіңіз. Anki және басқа бағдарламалар профиль қалталарыңызға кірмейтініне көз жеткізіп, қайтадан көріңіз.
+profiles-folder-already-exists = Қалта онсыз да бар.
+profiles-open = Ашу
+profiles-open-backup = Сақтық Көшірмені Ашу...
+profiles-please-remove-the-folder-and = { $val } қалтасын жойып қайталаңыз.
+profiles-profile-corrupt = Профиль Бүлінген
+profiles-profiles = Профилдер
+profiles-quit = Шығу
+profiles-user-1 = 1 Қолданушы
+profiles-confirm-lang-choice = Anki интерфейсін { $lang } тілінде көрсетуге сенімдісіз бе?
