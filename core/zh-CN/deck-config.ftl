@@ -166,8 +166,8 @@ deck-config-sort-order-ascending-intervals = 按间隔升序
 deck-config-sort-order-descending-intervals = 按间隔降序
 deck-config-sort-order-ascending-ease = 按简易度升序
 deck-config-sort-order-descending-ease = 按简易度降序
-deck-config-sort-order-ascending-difficulty = 按难度升序
-deck-config-sort-order-descending-difficulty = 按难度降序
+deck-config-sort-order-ascending-difficulty = 简单卡片优先
+deck-config-sort-order-descending-difficulty = 困难卡片优先
 deck-config-sort-order-relative-overdueness = 按相对逾期程度
 deck-config-display-order-will-use-current-deck =
     将按所选牌组设定的顺序学习，
