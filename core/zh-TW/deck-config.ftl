@@ -61,18 +61,18 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = 暫停
-deck-config-bury-new-siblings = 暫停關聯的新卡片
-deck-config-bury-review-siblings = 暫停關聯的複習卡
-deck-config-bury-interday-learning-siblings = 暫停關聯的跨天學習卡片
+deck-config-bury-title = 推遲
+deck-config-bury-new-siblings = 推遲關聯的新卡片
+deck-config-bury-review-siblings = 推遲關聯的複習卡
+deck-config-bury-interday-learning-siblings = 推遲關聯的跨天學習卡片
 deck-config-bury-new-tooltip = 啟用後，推遲同一則筆記中的其他 `新卡片`（如反向卡片、同一篇克漏字的其他空格）到第二天。
 deck-config-bury-review-tooltip = 啟用後，推遲同一則筆記中的其他 `複習卡` 到第二天。
 deck-config-bury-interday-learning-tooltip = 啟用後，推遲同一則筆記中其他正在 `學習中` 且學習間隔大於 1 天的卡片到第二天。
 deck-config-bury-priority-tooltip =
-    Anki 收集卡片的順序為當天學習卡片→跨天學習卡片→複習卡→新卡片。這個順序影響卡片暫停的機制：
+    Anki 收集卡片的順序為當天學習卡片→跨天學習卡片→複習卡→新卡片。這個順序影響推遲卡片的機制：
     
-    - 啟用所有暫停選項時，會顯示順序最前的關聯卡片。例如，複習卡會優先於新卡片顯示。
-    - 順序靠後的關聯卡片無法暫停較前的卡片類型。例如，停用「暫停關聯的新卡片」時，學習新卡片將不會暫停跨天學習卡片和複習卡，因此關聯的複習卡和新卡片可能會同時出現。
+    - 啟用所有推遲選項時，會顯示順序最前的關聯卡片。例如，複習卡會優先於新卡片顯示。
+    - 順序靠後的關聯卡片無法使類型較前的卡片被推遲。例如，停用「推遲關聯的新卡片」時，學習新卡片將不會推遲跨天學習卡片和複習卡，因此關聯的複習卡和新卡片可能會同時出現。
 
 ## Ordering section
 
@@ -85,7 +85,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `遞減順序`：依遞減順序（到期序號 #）收集卡片，通常依新增順序從晚到早排序。
     
-    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用暫停關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現（如「正面→背面」和「背面→正面」兩張卡片同時出現）
+    `隨機筆記`：從隨機選取的筆記中收集卡片。當停用推遲關聯卡片時，同一則筆記中的所有卡片可以在單次學習中同時出現（如「正面→背面」和「背面→正面」兩張卡片同時出現）
     
     `隨機卡片`：完全隨機收集卡片。
 deck-config-new-gather-priority-deck = 牌組順序
@@ -96,9 +96,9 @@ deck-config-new-gather-priority-random-notes = 隨機筆記
 deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip-2 =
-    `卡片類型→收集順序`：依卡片類型的序號順序來顯示卡片。當停用暫停關聯卡片時，所有「正面→背面」卡片都會在所有「背面→正面」卡片之前顯示。若要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片間的距離。
+    `卡片類型→收集順序`：依卡片類型的序號順序來顯示卡片。當停用推遲關聯卡片時，所有「正面→背面」卡片都會在所有「背面→正面」卡片之前顯示。若要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片間的距離。
     
-    `收集順序`：依收集順序顯示卡片。當停用暫停關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
+    `收集順序`：依收集順序顯示卡片。當停用推遲關聯卡片時，此選項通常會讓同一則筆記的所有卡片連續出現。
     
     `卡片類型→隨機`：與 `卡片類型` 類似，但會在卡片類型序號相同的卡片之間隨機排序。若你把卡片收集順序設定為 `遞增順序` 來收集較舊的卡片，此選項可以打亂這些卡片的順序，同時同一則筆記的各卡片間的距離也不會太接近。
     

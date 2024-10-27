@@ -50,10 +50,10 @@ scheduling-learn-remaining =
 scheduling-congratulations-finished = 恭喜！你已學完此牌組當前的內容。
 scheduling-today-review-limit-reached = 已經達到今天的複習上限，但還有卡片尚待複習。為達到理想記憶效果，你可以在選項中增加每日上限。
 scheduling-today-new-limit-reached = 還有更多新卡片可以學習，但你已經達到今天的上限。你可以在選項中增加上限，但請記住，學習越多新卡片意味著短期內的複習量也越多。
-scheduling-buried-cards-found = 有卡片被暫停，被暫停的卡片會在明天顯示。如果你想要立即學習這些卡片，可以{ $unburyThem }。
+scheduling-buried-cards-found = 有卡片被推遲，推遲的卡片會在明天顯示。如果你想要立即學習這些卡片，可以{ $unburyThem }。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = 取消暫停
+scheduling-unbury-them = 取消推遲
 scheduling-how-to-custom-study = 要在正常排程外學習更多內容，請使用{ $customStudy }功能。
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
@@ -75,8 +75,8 @@ scheduling-update-required =
 scheduling-always-include-question-side-when-replaying = 重播音訊時總是包含問題面
 scheduling-at-least-one-step-is-required = 至少要有一個學習階段。
 scheduling-automatically-play-audio = 自動播放音訊
-scheduling-bury-related-new-cards-until-the = 明天前暫停關聯的新卡片
-scheduling-bury-related-reviews-until-the-next = 明天前暫停關聯的複習卡
+scheduling-bury-related-new-cards-until-the = 明天前推遲關聯的新卡片
+scheduling-bury-related-reviews-until-the-next = 明天前推遲關聯的複習卡
 scheduling-days = 天
 scheduling-description = 描述
 scheduling-easy-bonus = 「簡單」倍率
