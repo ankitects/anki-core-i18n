@@ -16,20 +16,22 @@ deck-config-title = Kortleksalternativ
 ## Daily limits section
 
 deck-config-daily-limits = Dagliga begränsningar
+deck-config-new-limit-tooltip = Det maximala antalet nya kort att introducera per dag, om nya kort finns tillgängliga. Eftersom nya kort kortsiktigt kommer öka mängden kort att recensera, bör detta vara åtminstone 10x mindre än gränsen för antalet repetitioner.
 deck-config-new-cards-ignore-review-limit = Nya kort ignorerar daglig begränsning
 deck-config-affects-entire-collection = Påverkar hela samlingen
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
-deck-config-shared-preset = förinställning
-deck-config-deck-only = Denna kortleck
+deck-config-shared-preset = Förinställning
+deck-config-deck-only = Denna kortlek
 deck-config-today-only = Bara idag
 
 ## New Cards section
 
 deck-config-learning-steps = Inlärningssteg
 deck-config-new-insertion-order = Insättningsordning
+deck-config-new-insertion-order-sequential = Sekventiell (äldsta kort först)
 deck-config-new-insertion-order-random = Slumpmässigt
 
 ## Lapses section
@@ -86,6 +88,9 @@ deck-config-advanced-title = Avancerat
 deck-config-custom-scheduling = Anpassad schemaläggning
 deck-config-custom-scheduling-tooltip = Påverkar hela samlingen. Använd på egen risk!
 
+# Easy Days section
+
+
 ## Adding/renaming
 
 deck-config-add-group = Lägg till förinställning
@@ -119,6 +124,7 @@ deck-config-which-deck = Vilken kortlek vill du välja?
 
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parametrar
+deck-config-compute-optimal-weights = Optimera FSRS-parametrar
 deck-config-optimize-button = Optimera
 deck-config-compute-button = Beräkna
 deck-config-ignore-before = Ignorera repetitioner innan
