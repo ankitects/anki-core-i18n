@@ -36,3 +36,4 @@ decks-unmovable-cards = Қамтылмаған карталарды көрсет
 decks-learn-header = Оқу
 # The count of cards waiting to be reviewed
 decks-review-header = Бүгінге
+decks-zero-minutes-hint = (0 = карталарды бастапқы колодасына қайтару)
