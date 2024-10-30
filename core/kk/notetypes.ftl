@@ -31,6 +31,27 @@ notetypes-delete-this-unused-note-type = Осы қолданылмаған жа�
 notetypes-fields = Өрістер
 notetypes-footer = Аяқ дерек
 notetypes-header = Бас дерек
+notetypes-note-types = Жазба Түрлері
+notetypes-options = Баптаулар
+notetypes-please-add-another-note-type-first = Алдымен басқа жазба түрін қосыңыз.
+notetypes-type = Түр
 
 ## Image Occlusion
 
+notetypes-image = Кескін
+notetypes-occlusion = Бүркемелеу
+notetypes-occlusion-mask = Перде
+notetypes-occlusion-note = Жазба
+notetypes-comments-field = Пікірлер
+notetypes-toggle-masks = Перде Қосу/Өшіру
+notetypes-image-occlusion-name = Суретті Бүркелемеу
+notetypes-hide-all-guess-one = Бәрін жасыр, Біреуін Анықта
+notetypes-hide-one-guess-one = Біреуін Жасыр, Біреуін Анықта
+notetypes-error-generating-cloze = Суретті бүркелемеу жазбасын жасағанда қате орын алды
+notetypes-error-getting-imagecloze = Суретті бүркелемеу жазбасын алғанда қате орын алды
+notetypes-error-loading-image-occlusion = Суретті бүркемелеуді жүктеу кезінде қате. Anki нұсқасы жаңартылған ба?
+notetype-error-no-image-to-show = Көрсететін сурет жоқ.
+notetypes-no-occlusion-created = Кем дегенде суретті бүркелемеу біреу болу керек.
+notetypes-no-occlusion-created2 = Қосу мүмкін емес. Не бүркемелеуді қоспағансыз, не бірінші өріс бос.
+notetypes-io-select-image = Сурет Таңдау
+notetypes-io-paste-image-from-clipboard = Буферден Суретті Қою
