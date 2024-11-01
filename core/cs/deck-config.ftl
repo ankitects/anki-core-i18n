@@ -271,6 +271,7 @@ deck-config-custom-scheduling-tooltip = Ovlivní celou kolekci. Používejte na 
 
 # Easy Days section
 
+deck-config-easy-days-title = Snadné dny
 deck-config-easy-days-monday = Pondělí
 deck-config-easy-days-tuesday = Úterý
 deck-config-easy-days-wednesday = Středa
@@ -279,6 +280,8 @@ deck-config-easy-days-friday = Pátek
 deck-config-easy-days-saturday = Sobota
 deck-config-easy-days-sunday = Neděle
 deck-config-easy-days-normal = Normální
+deck-config-easy-days-reduced = Redukované
+deck-config-easy-days-minimum = Minimální
 
 ## Adding/renaming
 
