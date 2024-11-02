@@ -23,11 +23,18 @@ card-stats-review-log-type-review = Kertaus
 card-stats-review-log-type-relearn = Uudelleen opittavat
 card-stats-review-log-type-filtered = Suodatetut
 card-stats-review-log-type-manual = Manuaalinen
+card-stats-review-log-type-rescheduled = Ajastettu uudelleen
+card-stats-review-log-elapsed-time = Kulunut aika
 card-stats-no-card = (Ei näytettävää korttia.)
 card-stats-custom-data = Mukautettu data
 card-stats-fsrs-stability = Vakaus
 card-stats-fsrs-difficulty = Vaikeus
 card-stats-fsrs-retrievability = Palautettavuus
+card-stats-fsrs-forgetting-curve-title = Unohtamiskäyrä
+card-stats-fsrs-forgetting-curve-first-week = Ensimmäinen viikko
+card-stats-fsrs-forgetting-curve-first-month = Ensimmäinen kuukausi
+card-stats-fsrs-forgetting-curve-first-year = Ensimmäinen vuosi
+card-stats-fsrs-forgetting-curve-all-time = Koko aika
 
 ## Window Titles
 

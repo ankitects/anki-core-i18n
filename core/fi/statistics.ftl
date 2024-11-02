@@ -48,6 +48,11 @@ statistics-cards =
         [one] { $cards } kortti
        *[other] { $cards } korttia
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } muistiinpano
+       *[other] { $notes } muistiinpanoa
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -85,6 +90,18 @@ statistics-counts-learning-cards = Opittavat
 statistics-counts-relearning-cards = Uudelleen opittavat
 statistics-counts-title = Korttien lukumäärät
 statistics-counts-separate-suspended-buried-cards = Erota hyllytetyt ja haudatut kortit
+statistics-true-retention-title = Todellinen retentio
+statistics-true-retention-subtitle = Läpäisyprosentti korteille, joiden kertausväli on ≥ 1 päivä.
+statistics-true-retention-range = Aikaväli
+statistics-true-retention-pass = Oikein
+statistics-true-retention-fail = Väärin
+statistics-true-retention-retention = Retentio
+statistics-true-retention-today = Tänään
+statistics-true-retention-yesterday = Eilen
+statistics-true-retention-week = Viime viikko
+statistics-true-retention-month = Viime kuukausi
+statistics-true-retention-year = Viime vuosi
+statistics-true-retention-all-time = Alusta alkaen
 statistics-range-all-time = pakan elinkaari
 statistics-range-1-year-history = viimeiset 12 kuukautta
 statistics-range-all-history = koko historia
@@ -209,6 +226,7 @@ statistics-average-answer-time-label = Keskimääräinen vastausaika
 statistics-average = Keskiarvo
 statistics-average-interval = Keskimääräinen kertausväli
 statistics-due-tomorrow = Erääntyy huomenna
+statistics-daily-load = Päivittäinen työmäärä
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent } %)
 statistics-average-over-period = Jos olisit opiskellut joka päivä
@@ -230,6 +248,7 @@ statistics-cards-per-day =
 statistics-average-ease = Keskimääräinen helppous
 statistics-average-difficulty = Keskimääräinen vaikeus
 statistics-average-retrievability = Keskimääräinen palautettavuus
+statistics-estimated-total-knowledge = Arvioitu kokonaisosaaminen
 statistics-save-pdf = Tallenna PDF
 statistics-saved = Tallennettu.
 statistics-stats = tilastot

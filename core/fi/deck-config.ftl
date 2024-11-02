@@ -225,6 +225,20 @@ deck-config-minimum-interval-tooltip = Kertausvälin vähimmäispituus, kun käy
 deck-config-custom-scheduling = Mukautettu aikataulutus
 deck-config-custom-scheduling-tooltip = Vaikuttaa koko kokoelmaan. Käytä omalla vastuulla!
 
+# Easy Days section
+
+deck-config-easy-days-title = Helpot päivät
+deck-config-easy-days-monday = Maanantai
+deck-config-easy-days-tuesday = Tiistai
+deck-config-easy-days-wednesday = Keskiviikko
+deck-config-easy-days-thursday = Torstai
+deck-config-easy-days-friday = Perjantai
+deck-config-easy-days-saturday = Lauantai
+deck-config-easy-days-sunday = Sunnuntai
+deck-config-easy-days-normal = Normaali
+deck-config-easy-days-reduced = Vähennetty
+deck-config-easy-days-minimum = Minimi
+
 ## Adding/renaming
 
 deck-config-add-group = Lisää asetusmalli
