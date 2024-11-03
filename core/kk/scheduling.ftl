@@ -119,3 +119,13 @@ scheduling-set-due-date-prompt =
         [one] Картаны неше күннен кейін көрсету?
        *[other] Карталарды неше күннен кейін көрсету?
     }
+scheduling-set-due-date-prompt-hint =
+    0 = бүгін
+    1! = ертең + аралықты 1 ету
+    3-7 = 3-7 күннің кездейсоқ таңдауы
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Картаның мерізімін орнату.
+       *[other] Карталардың мерізімін орнату.
+    }
+scheduling-forgot-cards = { $cards } картаны қалпына келтіру.
