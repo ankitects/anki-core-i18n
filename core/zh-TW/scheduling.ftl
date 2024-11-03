@@ -50,7 +50,7 @@ scheduling-learn-remaining =
 scheduling-congratulations-finished = 恭喜！你已學完此牌組當前的內容。
 scheduling-today-review-limit-reached = 已經達到今天的複習上限，但還有卡片尚待複習。為達到理想記憶效果，你可以在選項中增加每日上限。
 scheduling-today-new-limit-reached = 還有更多新卡片可以學習，但你已經達到今天的上限。你可以在選項中增加上限，但請記住，學習越多新卡片意味著短期內的複習量也越多。
-scheduling-buried-cards-found = 有卡片被推遲，推遲的卡片會在明天顯示。如果你想要立即學習這些卡片，可以{ $unburyThem }。
+scheduling-buried-cards-found = 有卡片被推遲到明天顯示。如果你想要立即學習這些卡片，可以{ $unburyThem }。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = 取消推遲
