@@ -172,6 +172,7 @@ deck-config-custom-scheduling-tooltip = Επηρεάζει ολόκληρη τη
 
 # Easy Days section
 
+deck-config-easy-days-title = Εύκολες Ημέρες
 deck-config-easy-days-monday = Δευτέρα
 deck-config-easy-days-tuesday = Τρίτη
 deck-config-easy-days-wednesday = Τετάρτη
