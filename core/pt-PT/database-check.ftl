@@ -50,6 +50,8 @@ database-check-fixed-invalid-ids =
         [one] Corrigido { $count } objecto com datas futuras.
        *[other] Corrigidos { $count } objectos com datas futuras.
     }
+# "db-check" is always in English
+database-check-notetypes-recovered = Um ou mais tipos de ficha desapareceram. As notas que tinham estes tipos foram classificadas com novos tipos começados por "db-check", mas os nomes dos campos e modelos das fichas foram perdidos. Talvez seja melhor restaurar a partir dum cópia de segurança.
 
 ## Progress info
 
