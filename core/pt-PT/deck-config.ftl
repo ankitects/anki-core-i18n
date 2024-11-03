@@ -47,7 +47,7 @@ deck-config-learning-steps = Etapas de Aprendizagem
 
 ## Burying section
 
-deck-config-bury-title = Adiar
+deck-config-bury-title = Adiamentos
 deck-config-bury-new-siblings = Adiar fichas novas relacionadas
 deck-config-bury-review-siblings = Adiar fichas a rever relacionadas
 deck-config-bury-interday-learning-siblings = Adiar fichas relacionadas em aprendizagem
