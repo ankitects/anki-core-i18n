@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = Mostra el nombre de targetes restants
 preferences-some-settings-will-take-effect-after = Alguns canvis no s’aplicaran fins que reinicieu Anki.
 preferences-tab-synchronisation = Sincronització
 preferences-synchronize-audio-and-images-too = Sincronitza també els sons i les imatges
-preferences-not-logged-in = No heu iniciat cap sessió a AnkiWeb.
 preferences-login-successful-sync-now = S’ha iniciat la sessió. Voleu desar la configuració i iniciar la sincronització?
 preferences-timebox-time-limit = Límit de la sessió d’estudi
 preferences-user-interface-size = Mida de la interfície d’usuari
@@ -41,6 +40,7 @@ preferences-theme-follow-system = Segons el sistema
 preferences-theme-light = Clar
 preferences-theme-dark = Fosc
 preferences-v3-scheduler = Versió 3 del planificador
+preferences-check-for-updates = Comprova si hi ha actualitzacions
 preferences-ignore-accents-in-search = Ignora els accents en cercar (més lent)
 preferences-backup-explanation = Anki fa còpies de seguretat periòdiques de la vostra col·lecció. Quan les còpies facin dos dies, Anki començarà a eliminar-ne algunes per tal d’alliberar espai en el disc.
 preferences-daily-backups = Còpies de seguretat diàries que cal mantenir:
@@ -75,9 +75,12 @@ preferences-network-timeout = Temps d’espera de la xarxa
 preferences-reset-window-sizes = Reestableix la mida de les finestres
 preferences-reset-window-sizes-complete = S’ha reestablert la mida i la posició de les finestres.
 preferences-shortcut-placeholder = Prem una tecla de drecera no utilitzada o deixa l’espai en blanc per a desactivar-la.
+preferences-third-party-services = Serveis de tercers
+preferences-ankihub-not-logged-in = No heu iniciat cap sessió a AnkiHub.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Bàsica
 preferences-reviewer = Revisor
 preferences-media = Multimèdia
+preferences-not-logged-in = No heu iniciat cap sessió a AnkiWeb.

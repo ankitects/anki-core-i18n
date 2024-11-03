@@ -45,6 +45,10 @@ sync-clock-off = No s'ha pogut sincronitzar la base de dades. Comproveu que el r
 sync-upload-too-large =
     El fitxer de col·lecció és massa gran per carregar-lo a AnkiWeb. Podeu reduir-ne la mida 
     treient les baralles que no utilitzeu (si voleu, podeu exportar-les abans) i, tot seguit, fent servir la funció «Verifica la base de dades» per a reduir la mida del fitxer. ({ $details })
+sync-sign-in = Inicia la sessió
+sync-ankihub-dialog-heading = Inicia la sessió a AnkiHub
+sync-ankihub-username-label = Nom d’usuari o adreça electrònica:
+sync-ankihub-addon-installation = Instal·lació del complement d’AnkiHub
 
 ## Buttons
 

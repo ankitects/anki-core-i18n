@@ -39,7 +39,7 @@ statistics-in-time-span-days =
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] en { $amount } mes
+        [one] en un mes
        *[other] en { $amount } mesos
     }
 statistics-in-time-span-years =
@@ -51,6 +51,11 @@ statistics-cards =
     { $cards ->
         [one] { $cards } targeta
        *[other] { $cards } targetes
+    }
+statistics-notes =
+    { $notes ->
+        [one] Una nota
+       *[other] { $notes } notes
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -76,7 +81,7 @@ statistics-today-again-count = Oblidades:
 statistics-today-type-counts = Apreses: { $learnCount }, Repassades: { $reviewCount }, Tornades a aprendre: { $relearnCount }, Filtrades: { $filteredCount }
 statistics-today-no-cards = Avui no heu estudiat cap targeta.
 statistics-today-no-mature-cards = Avui no heu estudiat cap targeta madura.
-statistics-today-correct-mature = Respostes correcotes en les targetes madures: { $correct }/{ $total } ({ $percent } %)
+statistics-today-correct-mature = Respostes correctes a targetes madures: { $correct }/{ $total } ({ $percent } %)
 statistics-counts-total-cards = Nombre total de targetes
 statistics-counts-new-cards = Noves
 statistics-counts-young-cards = Joves
@@ -88,15 +93,26 @@ statistics-counts-learning-cards = Aprenent
 statistics-counts-relearning-cards = Reaprenent
 statistics-counts-title = Recompte de targetes
 statistics-counts-separate-suspended-buried-cards = Separa les targetes suspeses/enterrades
+statistics-true-retention-title = Retenció vertadera
+statistics-true-retention-range = Interval
+statistics-true-retention-pass = Aprovades
+statistics-true-retention-fail = Suspeses
+statistics-true-retention-retention = Retenció
+statistics-true-retention-today = Avui
+statistics-true-retention-yesterday = Ahir
+statistics-true-retention-week = La setmana passada
+statistics-true-retention-month = El mes passat
+statistics-true-retention-year = L’any passat
+statistics-true-retention-all-time = Sempre
 statistics-range-all-time = vida de la baralla
 statistics-range-1-year-history = últims 12 mesos
-statistics-range-all-history = tot l'historial
+statistics-range-all-history = tot l’historial
 statistics-range-deck = baralla
 statistics-range-collection = col·lecció
 statistics-range-search = Cercar
 statistics-card-ease-title = Facilitat de la targeta
-statistics-card-difficulty-title = Dificultat de la targeta
-statistics-card-stability-title = Estabilitat de la targeta
+statistics-card-difficulty-title = Dificultat de les targetes
+statistics-card-stability-title = Estabilitat de les targetes
 statistics-card-stability-subtitle = Retard dins del qual és probable que en recordeu el 90 %.
 statistics-average-stability = Estabilitat mitjana
 statistics-card-retrievability-title = Recuperabilitat de les targetes
@@ -121,7 +137,7 @@ statistics-retrievability-tooltip =
     }
 statistics-future-due-title = Previsió
 statistics-future-due-subtitle = Nombre de repassos futurs programats.
-statistics-added-title = Afegides
+statistics-added-title = Targetes afegides
 statistics-added-subtitle = Nombre de targetes noves que heu afegit.
 statistics-reviews-count-subtitle = Nombre de preguntes que heu respost.
 statistics-reviews-time-subtitle = Temps que heu trigat a respondre les preguntes.
@@ -210,6 +226,7 @@ statistics-average-answer-time-label = Temps de resposta mitjà
 statistics-average = Mitjana
 statistics-average-interval = Interval mitjà
 statistics-due-tomorrow = Programades per a demà
+statistics-daily-load = Càrrega diària
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent } %)
 statistics-average-over-period = Mitjana si haguéssiu estudiat tots els dies

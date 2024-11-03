@@ -23,11 +23,17 @@ card-stats-review-log-type-review = Repàs
 card-stats-review-log-type-relearn = Reaprenentatge
 card-stats-review-log-type-filtered = Filtrades
 card-stats-review-log-type-manual = Manual
+card-stats-review-log-type-rescheduled = Replanificades
 card-stats-no-card = (No hi ha cap targeta que es pugui mostrar).
 card-stats-custom-data = Dades personalitzades
 card-stats-fsrs-stability = Estabilitat
 card-stats-fsrs-difficulty = Dificultat
 card-stats-fsrs-retrievability = Recuperabilitat
+card-stats-fsrs-forgetting-curve-title = Corba de l’oblit
+card-stats-fsrs-forgetting-curve-first-week = Primera setmana
+card-stats-fsrs-forgetting-curve-first-month = Primer mes
+card-stats-fsrs-forgetting-curve-first-year = Primer any
+card-stats-fsrs-forgetting-curve-all-time = Sempre
 
 ## Window Titles
 

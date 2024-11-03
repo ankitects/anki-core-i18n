@@ -168,8 +168,8 @@ deck-config-interday-step-priority-tooltip =
     repassos. Aquesta opció controla l’ordre en què es mostren les targetes, tot i que les targetes
     d’aprenentatge entre dies sempre es mostraran primer.
 deck-config-review-mix-mix-with-reviews = Barreja amb les targetes per repassar
-deck-config-review-mix-show-after-reviews = Mostra després de les targetes per repassar
-deck-config-review-mix-show-before-reviews = Mostra abans de les targetes per repassar
+deck-config-review-mix-show-after-reviews = Després de les targetes per repassar
+deck-config-review-mix-show-before-reviews = Abans de les targetes per repassar
 deck-config-review-sort-order = Ordre de les targetes per repassar
 deck-config-review-sort-order-tooltip =
     Amb l’ordre per defecte, es prioritzen les targetes que duen més temps en espera.
@@ -252,6 +252,20 @@ deck-config-minimum-interval-tooltip = L'interval mínim que s'aplica a una targ
 deck-config-custom-scheduling = Planificació personalitzada
 deck-config-custom-scheduling-tooltip = Atenció: afectarà a tota la col·lecció. Feu-la servir amb precaució!
 
+# Easy Days section
+
+deck-config-easy-days-title = Dies fàcils
+deck-config-easy-days-monday = Dilluns
+deck-config-easy-days-tuesday = Dimarts
+deck-config-easy-days-wednesday = Dimecres
+deck-config-easy-days-thursday = Dijous
+deck-config-easy-days-friday = Divendres
+deck-config-easy-days-saturday = Dissabte
+deck-config-easy-days-sunday = Diumenge
+deck-config-easy-days-normal = Normal
+deck-config-easy-days-reduced = Reduït
+deck-config-easy-days-minimum = Mínim
+
 ## Adding/renaming
 
 deck-config-add-group = Afegeix una configuració
@@ -308,7 +322,6 @@ deck-config-which-deck = Quina baralla voleu?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = S’estan actualitzant les targetes: { $current_cards_count } de { $total_cards_count }…
-deck-config-invalid-weights = Deixeu els paràmetres en blanc per a utilitzar els valors per defecte o introduïu 17 nombres separats per comes.
 deck-config-not-enough-history = La quantitat de repassos és insuficient per a executar aquesta operació.
 deck-config-unable-to-determine-desired-retention = No s’ha pogut determinar un nivell de retenció òptim.
 deck-config-must-have-400-reviews =
@@ -321,7 +334,7 @@ deck-config-weights = Paràmetres FSRS
 deck-config-compute-optimal-weights = Optimitza els paràmetres FSRS
 deck-config-compute-minimum-recommended-retention = Retenció recomanada mínima
 deck-config-optimize-button = Optimitza
-deck-config-compute-button = Computa
+deck-config-compute-button = Calcula
 deck-config-ignore-before = Ignora els repassos abans del
 deck-config-optimize-all-tip = Podeu optimitzar totes les configuracions de baralla prement el botó superior.
 deck-config-evaluate-button = Avalua
@@ -384,3 +397,4 @@ deck-config-compute-optimal-retention = Calcula la retenció òptima
 deck-config-predicted-optimal-retention = Retenció òptima prevista: { $num }
 deck-config-weights-tooltip = Els paràmetres del FSRS afecten la programació de les targetes. Anki començarà amb els paràmetres per defecte. Una vegada hàgiu acumulat més de 1000 repassos, podeu utilitzar aquesta opció per a optimitzar els paràmetres i ajustar millor el vostre rendiment en les baralles que utilitzen aquesta configuració prefixada.
 deck-config-seconds-to-show-question-tooltip-2 = Nombre de segons abans que es mostri la resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
+deck-config-invalid-weights = Deixeu els paràmetres en blanc per a utilitzar els valors per defecte o introduïu 17 nombres separats per comes.
