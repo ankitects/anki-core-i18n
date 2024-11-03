@@ -16,19 +16,48 @@ deck-config-title = Opções de Baralho
 ## Daily limits section
 
 deck-config-daily-limits = Limites Diários
+deck-config-new-limit-tooltip =
+    O número máximo de fichas a introduzir, num dia.
+    Dado que material novo vai aumentar a carga de revisão a curto-prazo, este valor
+    deve ser pelo menos 10x menor que o limite de revisão.
+deck-config-review-limit-tooltip = O número máximo de fichas a rever que devem ser apresentadas, num dia.
+deck-config-limit-deck-v3 =
+    Durante o estudo de baralhos com sub-baralhos, os limites impostos
+    a cada sub-baralho define o número máximo de fichas recolhidas do mesmo.
+    Enquanto que o limite no baralho será o limite total.
+deck-config-limit-new-bound-by-reviews =
+    O limite de fichas a rever afecta o número de fichas novas a apresentar. Por exemplo,
+    se o limite for 200, e houverem 190 fichas por rever, no máximo, serão introduzidas 10
+    novas fichas.
+deck-config-affects-entire-collection = Afecta a colecção inteira.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Predefinição
+deck-config-deck-only = Este baralho
+deck-config-today-only = Apenas hoje
 
 ## New Cards section
 
+deck-config-learning-steps = Etapas de Aprendizagem
 
 ## Lapses section
 
 
 ## Burying section
 
+deck-config-bury-title = Adiar
+deck-config-bury-new-siblings = Adiar fichas novas relacionadas
+deck-config-bury-review-siblings = Adiar fichas a rever relacionadas
+deck-config-bury-interday-learning-siblings = Adiar fichas relacionadas em aprendizagem
+deck-config-bury-new-tooltip =
+    Se as novas fichas associadas à mesma nota (e.g. fichas invertidas, oclusões adjacentes)
+    devem ser adiadas para o próximo dia.
+deck-config-bury-review-tooltip = Se as fichas a rever associadas à mesma nota devem ser adiadas para o próximo dia.
+deck-config-bury-interday-learning-tooltip =
+    Se as fichas em fase de aprendizagem associadas à mesma nota, com intervalos
+    superiores a 1 dia, devem ser adiadas para o próximo dia.
 
 ## Ordering section
 
@@ -43,6 +72,9 @@ deck-config-daily-limits = Limites Diários
 
 
 ## Advanced section
+
+
+# Easy Days section
 
 
 ## Adding/renaming
