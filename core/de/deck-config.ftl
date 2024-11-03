@@ -16,12 +16,8 @@ deck-config-title = Stapeloptionen
 ## Daily limits section
 
 deck-config-daily-limits = Tageshöchstwerte
-deck-config-new-limit-tooltip =
-    Die maximale Anzahl an neuen Karten, die an einem Tag eingeführt werden sollen, wenn neue Karten zur Verfügung stehen.
-    Da neues Material Ihr Arbeitspensum für kurzfristige Wiederholungen steigert, sollte dies typischerweise mindestens 10-mal so gering sein wie Ihr Grenzwert für Wiederholungen.
-deck-config-review-limit-tooltip =
-    Die maximale Anzahl an Wiederholkarten, die an einem Tag angezeigt werden soll,
-    wenn Karten für die Wiederholung bereitstehen.
+deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungen.
+deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungen, die pro Tag angezeigt werden sollen.
 deck-config-limit-deck-v3 = Wenn Sie einen Stapel lernen, der Unterstapel hat, dann steuern die in jedem Unterstapel gesetzten Grenzwerte die maximale Anzahl an Karten, die genau von diesem Stapel herangezogen werden. Die ausgewählten Stapelgrenzwerte steuern die Gesamtanzahl an Karten, die angezeigt werden.
 deck-config-limit-new-bound-by-reviews = Der Grenzwert für Wiederholungen beeinflusst den Grenzwert für neue Karten. Wenn Sie beispielsweise Ihren Grenzwert für Wiederholungen auf 200 gesetzt haben und 190 Karten warten auf ihre Wiederholung, dann werden maximal 10 neue Karten neu eingeführt. Wenn der Grenzwert für Wiederholungen erreicht wurde, dann werden keine neuen Karten angezeigt.
 deck-config-limit-interday-bound-by-reviews = Der Grenzwert für Wiederholungen betrifft auch die Zwischentag-Lernkarten. Wenn der Grenzwert angewendet wird, dann werden die mehrtägigen Lernkarten zuerst abgerufen, danach die Wiederholungen und zum Schluss die neuen Karten.
