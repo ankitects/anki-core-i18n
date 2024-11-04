@@ -23,6 +23,7 @@ card-stats-review-log-type-review = Επανάληψη
 card-stats-review-log-type-relearn = Επανεκμάθηση
 card-stats-review-log-type-filtered = Φιλτραρισμένο
 card-stats-review-log-type-manual = Χειροκίνητα
+card-stats-review-log-type-rescheduled = Επαναπρογραμματισμένες
 card-stats-review-log-elapsed-time = Παρελθόν Χρόνος
 card-stats-no-card = (Καμία κάρτα προς προβολή.)
 card-stats-custom-data = Προσαρμοσμένα δεδομένα

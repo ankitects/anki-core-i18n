@@ -12,6 +12,7 @@ actions-decks = Τράπουλες
 actions-decrement-value = Μείωση τιμής
 actions-delete = Διαγραφή
 actions-export = Εξαγωγή
+actions-empty-cards = Κενές κάρτες
 actions-filter = Φίλτρο
 actions-help = Βοήθεια
 actions-increment-value = Αύξηση τιμής
