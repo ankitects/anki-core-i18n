@@ -18,9 +18,9 @@ deck-config-title = Stapeloptionen
 deck-config-daily-limits = Tageshöchstwerte
 deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungen.
 deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungen, die pro Tag angezeigt werden sollen.
-deck-config-limit-deck-v3 = Wenn Sie einen Stapel mit Unterstapeln lernen, legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal angezeigt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten aus allen Unterstapeln zusammen.
+deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal angezeigt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten aus allen Unterstapeln zusammen.
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungen begrenzt die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungen z. B. bei 200 liegt und 190 Wiederholungen anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
-deck-config-limit-interday-bound-by-reviews = Der Grenzwert für Wiederholungen betrifft auch die Zwischentag-Lernkarten. Wenn der Grenzwert angewendet wird, dann werden die mehrtägigen Lernkarten zuerst abgerufen, danach die Wiederholungen und zum Schluss die neuen Karten.
+deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungen wirkt sich nicht nur auf Wiederholungen, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernkarten angezeigt, gefolgt von den Karten zur Wiederholung.
 deck-config-tab-description =
     - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieser Gruppe, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
@@ -28,11 +28,8 @@ deck-config-tab-description =
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungen
 deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungen auch die Anzahl neuer Karten, die eingeführt werden können. Wenn hingegen diese Option aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungen eingeführt.
 deck-config-apply-all-parent-limits = Tageshöchstwerte gelten auch für Unterstapel
-deck-config-apply-all-parent-limits-tooltip =
-    Wenn diese Option aktiviert ist, wirken sich die Limits (für neue Karten und Wiederholungen) von übergeordneten Stapeln auch auf die Unterstapel aus. Das ist nützlich, wenn man nacheinander verschiedene Unterstapel lernt, aber insgesamt nur eine bestimmte Anzahl an Karten pro Tag neu lernen oder wiederholen will.
-    
-    In früheren Anki-Versionen (vor ca. Oktober 2023) war diese Option immer aktiviert.
-deck-config-affects-entire-collection = Wirkt sich auf die gesamte Sammlung aus
+deck-config-apply-all-parent-limits-tooltip = Standardmäßig wirken sich Tageshöchstwerte der Oberstapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Wenn hingegen diese Option aktiviert ist, wirken sich die Tageshöchstwerte der Oberstapel auch dann aus, wenn Sie einen Unterstapel direkt lernen. Dies ist nützlich, wenn Sie nacheinander verschiedene Unterstapel lernen möchten und die Gesamtanzahl der angezeigten Karten aus allen Unterstapeln zusammen begrenzen wollen.
+deck-config-affects-entire-collection = Wirkt sich auf die gesamte Sammlung aus.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -62,7 +59,7 @@ deck-config-new-insertion-order-random-with-v3 = Wenn der V3-Zeitplaner genutzt 
 ## Lapses section
 
 deck-config-relearning-steps = Lernstufen für das erneute Lernen
-deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des „Nochmal“-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie erneut erlernt wird. { -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des „Nochmal“-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie in den Status „Erneut lernen“ eintritt. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Die Anzahl, wie oft „Nochmal“ gedrückt werden muss, um eine Wiederholkarte als
     Lernbremse einzustufen. Lernbremsen sind Karten, die besonders viel von Ihrer Zeit beanspruchen. 
