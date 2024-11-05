@@ -4,7 +4,7 @@ custom-study-all-review-cards-in-random-order = Alle zu wiederholenden Karten in
 custom-study-cards = Karten
 custom-study-cards-from-the-deck = Karten aus dem Stapel
 custom-study-choose-tags = Schlagwörter auswählen
-custom-study-custom-study-session = Benutzerdefinierte Sitzung
+custom-study-custom-study-session = Benutzerdefiniertes Lernen
 custom-study-due-cards-only = Nur fällige Karten
 custom-study-increase-todays-new-card-limit = Heutigen Grenzwert für neue Karten erhöhen
 custom-study-increase-todays-new-card-limit-by = Heutigen Grenzwert für neue Karten erhöhen um
@@ -28,7 +28,7 @@ custom-study-available-new-cards-2 = Verfügbare neue Karten: { $countString }
 custom-study-available-review-cards-2 = Verfügbare zu wiederholende Karten: { $countString }
 custom-study-available-child-count = ({ $count } in Unterstapel)
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Verfügbare neue Karten: { $count }
 custom-study-available-review-cards = Verfügbare zu wiederholende Karten: { $count }
