@@ -18,11 +18,11 @@ deck-config-title = Stapeloptionen
 deck-config-daily-limits = Tageshöchstwerte
 deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungen.
 deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungen, die pro Tag angezeigt werden sollen.
-deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal angezeigt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten aus allen Unterstapeln zusammen.
+deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal angezeigt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten.
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungen begrenzt die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungen z. B. bei 200 liegt und 190 Wiederholungen anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
 deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungen wirkt sich nicht nur auf Wiederholungen, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernkarten angezeigt, gefolgt von den Karten zur Wiederholung.
 deck-config-tab-description =
-    - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieser Gruppe, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
+    - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieser Stapeloptionengruppe, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
     - `Nur heute`: Ändert den Tageshöchstwert dieses Stapels nur vorübergehend für heute.
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungen
@@ -260,10 +260,10 @@ deck-config-daily-limit-will-be-capped =
        *[other] { $cards } Karten
     }, welcher diesen Grenzwert überschreiben wird.
 deck-config-reviews-too-low =
-    Wenn { $cards ->
-        [one] { $cards } neue Karte jeden Tag hinzugefügt wird
-       *[other] { $cards } neue Karten jeden Tag hinzugefügt werden
-    }, dann sollte Ihr Grenzwert für Wiederholungen mindestens { $expected } betragen.
+    { $cards ->
+        [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungen mindestens { $expected } betragen.
+       *[other] Wenn { $cards } neue Karten jeden Tag hinzugefügt werden, dann sollte Ihr Tageshöchstwert für Wiederholungen mindestens { $expected } betragen.
+    }
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens genauso lang sein wie Ihre finale Lernstufe.
 deck-config-good-above-easy = Das Einfach-Intervall sollte mindestens genauso lang sein wie das Aufstiegsintervall.
 deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall für Fehlschläge sollte mindestens so lange sein wie Ihr finaler Schritt für das erneute Lernen.
@@ -298,7 +298,6 @@ deck-config-historical-retention = Historische Retention
 deck-config-smaller-is-better = Je kleiner die Zahl, desto besser passen die eingestellten Parameter zu Ihrer Wiederholungsgeschichte.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
-deck-config-fsrs-on-all-clients = FSRS funktioniert nur richtig, wenn alle genutzten Apps die Mindestanforderungen erfüllen (Anki und AnkiMobile ab 23.10, AnkiDroid ab 2.17).
 deck-config-predicted-minimum-recommended-retention = Empfohlene minimale Retention: { $num }
 deck-config-complete = { $num }% abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
@@ -407,3 +406,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren, um eine bessere Retention zu erzielen. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
 deck-config-seconds-to-show-question-tooltip-2 = Wenn Automatisches Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
+deck-config-fsrs-on-all-clients = FSRS funktioniert nur richtig, wenn alle genutzten Apps die Mindestanforderungen erfüllen (Anki und AnkiMobile ab 23.10, AnkiDroid ab 2.17).
