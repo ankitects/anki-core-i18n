@@ -12,9 +12,9 @@ deck-config-title = 牌組選項
 ## Daily limits section
 
 deck-config-daily-limits = 每日上限
-deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。由於學習新內容會加重你的短期複習量，因此該選項通常應設定為複習上限的 10% 或更少。
+deck-config-new-limit-tooltip = 有新卡片可學習時，當天的新卡片數量上限。學習新內容會加重你的短期複習量，因此該選項通常應設定為複習上限的 10% 或更少。
 deck-config-review-limit-tooltip = 有複習卡可學習時，當天的複習卡數量上限。
-deck-config-limit-deck-v3 = 當你選取了一個牌組來學習時，如果這個牌組下有子牌組，各子牌組的卡片上限設定會被一一套用。而你選取的牌組所設上限為顯示的卡片總上限。
+deck-config-limit-deck-v3 = 開始學習牌組時，如果牌組含有子牌組，則將依每個子牌組的上限，分別抽取相應數量的卡片。所選牌組的上限為當前學習卡片數。
 deck-config-limit-new-bound-by-reviews = 複習上限會影響新卡片上限。若複習上限設為 200，且有 190 張卡片待複習，則最多只會顯示 10 張新卡片。若已達到或超出複習上限，則不會再顯示新卡片。
 deck-config-limit-interday-bound-by-reviews = 複習上限也會影響跨天學習卡片。套用上限時，跨天學習卡片會被優先擷取，再算入複習卡。
 deck-config-tab-description =
@@ -22,9 +22,9 @@ deck-config-tab-description =
     - `當前牌組`：當前牌組的上限。
     - `僅限今天`：暫時更改當前牌組的的上限。
 deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
-deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，複習上限會套用於新卡片，因此當複習卡數量達到上限時，則不會再顯示新卡片。啟用「新卡片不受複習上限影響」時，則複習上限不會影響顯示新卡片。
+deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，新卡片也會計入複習上限，因此當複習卡達到上限時，新卡片也不會再顯示。啟用此選項後，新卡片將不再計入複習上限。
 deck-config-apply-all-parent-limits = 取頂層牌組上限
-deck-config-apply-all-parent-limits-tooltip = 根據預設，上限值會採取你選取的牌組所設定的上限。啟用此選項後，上限會從頂層的牌組開始，這樣可確保你在學習子牌組時不超過總上限。
+deck-config-apply-all-parent-limits-tooltip = 根據預設，學習子牌組時將會套用所選牌組設定的上限，而不是上層牌組的上限。啟用此選項後，頂層牌組設定的上限將被套用，這樣可確保你在學習子牌組時不超過總上限。
 deck-config-affects-entire-collection = 影響整個集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -52,7 +52,7 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議
 
 deck-config-relearning-steps = 重新學習階段
 deck-config-relearning-steps-tooltip = 零或多段時長，用空格分隔。根據預設，複習卡的 `重來` 按鈕延遲為 10 分鐘。若未提供時長，則按下 `重來` 會改變卡片的間隔，但不會進入重新學習狀態。{ -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = 複習卡被標記為低效卡所需按下 `重來` 的次數。低效卡耗費了你大量的時間，對待低效卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
+deck-config-leech-threshold-tooltip = 複習卡被標記為低效卡（`leech`）所需按下 `重來` 的次數。低效卡耗費了你大量的時間，對待低效卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `僅加上標籤`：對筆記加上 `leech` 標籤，並顯示一個彈出式視窗。
@@ -258,7 +258,6 @@ deck-config-historical-retention = 歷史留存率
 deck-config-smaller-is-better = 數字越小表示越符合你的複習歷程。
 deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議設定超過一天的學習階段。
 deck-config-get-params = 取得參數
-deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
 deck-config-predicted-minimum-recommended-retention = 留存率推薦最小值：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 反覆運算次數：{ $count }...
@@ -342,3 +341,4 @@ deck-config-compute-optimal-retention-tooltip2 = 這個工具將假設你一開�
 deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開始有 0 張已學習的卡片，並將嘗試找出能使學習內容最多且耗時最少的期望留存率。為了準確模擬學習過程，此功能需要至少 400 次複習。設定期望留存率時可參考計算出的數值。若你不在乎多花時間學習，可以透過提高期望留存率來提升記憶效果。期望留存率低於最小值會導致遺忘率過高，從而加大你的工作量，因此不建議設定過低。
 deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
 deck-config-invalid-weights = 參數必須設定為 17 個以半形逗號分隔的數字，或留白以使用預設值。
+deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
