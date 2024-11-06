@@ -64,14 +64,14 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Heute { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } gelernt ({ $secs-per-card }s/Karte)
+    { $unit ->
+        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } gelernt ({ $secs-per-card } s/Karte)
+        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } gelernt ({ $secs-per-card } s/Karte)
+        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } gelernt ({ $secs-per-card } s/Karte)
+        [days] Heute { statistics-cards } { statistics-in-time-span-days } gelernt ({ $secs-per-card } s/Karte)
+        [months] Heute { statistics-cards } { statistics-in-time-span-months } gelernt ({ $secs-per-card } s/Karte)
+       *[years] Heute { statistics-cards } { statistics-in-time-span-years } gelernt ({ $secs-per-card } s/Karte)
+    }
 statistics-today-title = Heute
 statistics-today-again-count = Falsch:
 statistics-today-type-counts = Neu: { $learnCount }, wiederholt: { $reviewCount }, erneut gelernt: { $relearnCount }, ausgewählte Karten: { $filteredCount }
