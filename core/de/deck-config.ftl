@@ -54,8 +54,8 @@ deck-config-new-insertion-order-random-with-v3 = Beim v3-Zeitplaner wird empfohl
 
 ## Lapses section
 
-deck-config-relearning-steps = Lernstufen für das erneute Lernen
-deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des „Nochmal“-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie in den Status „Erneut lernen“ eintritt. { -deck-config-delay-hint }
+deck-config-relearning-steps = Lernstufen für das Wiedererlernen
+deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des „Nochmal“-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie in den Status „Wiedererlernen“ eintritt. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Die Anzahl, wie oft „Nochmal“ gedrückt werden muss, um eine Wiederholkarte als
     Lernbremse einzustufen. Lernbremsen sind Karten, die besonders viel von Ihrer Zeit beanspruchen. 
@@ -262,7 +262,7 @@ deck-config-reviews-too-low =
     }
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens genauso lang sein wie Ihre finale Lernstufe.
 deck-config-good-above-easy = Das Einfach-Intervall sollte mindestens genauso lang sein wie das Aufstiegsintervall.
-deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall für Fehlschläge sollte mindestens so lange sein wie Ihr finaler Schritt für das erneute Lernen.
+deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall für Fehlversuche sollte mindestens so lange sein wie Ihr finaler Schritt für das Wiedererlernen.
 deck-config-maximum-answer-secs-above-recommended = Anki kann ihre Lernüberprüfungen besser planen, wenn Sie jede Frage kurz halten.
 
 ## Selecting a deck
