@@ -293,7 +293,7 @@ deck-config-smaller-is-better = Je kleiner die Zahl, desto besser passen die ein
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
 deck-config-predicted-minimum-recommended-retention = Empfohlene minimale Retention: { $num }
-deck-config-complete = { $num }% abgeschlossen.
+deck-config-complete = { $num } % abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
 deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
 deck-config-fsrs-tooltip =
@@ -301,13 +301,13 @@ deck-config-fsrs-tooltip =
     
     FSRS (Free Spaced Repetition Scheduler) ist eine Alternative zum klassischem SM-2 (SuperMemo 2) von Anki. FSRS sagt genauer vorher, wie wahrscheinlich es ist, dass Sie eine Karte vergessen. Somit können Sie mit FSRS bei gleichem Zeitaufwand mehr lernen.
 deck-config-desired-retention-tooltip =
-    Mit dem Standardwert von 0,9 plant Anki die Wiederholung Ihrer Karten so, dass Sie eine Chance von 90% haben, sich an den Inhalt zu erinnern, wenn die Karte erneut zur Wiederholung ansteht.
+    Mit dem Standardwert von 0,9 plant Anki die Wiederholung Ihrer Karten so, dass Sie eine Chance von 90 % haben, sich an den Inhalt zu erinnern, wenn die Karte erneut zur Wiederholung ansteht.
     
     Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger anzeigen, um die Wahrscheinlichkeit zu steigern, dass Sie sich daran erinnern. Reduzieren Sie den Wert, zeigt Anki die Karten seltener, was dazu führt, dass Sie mehr vergessen.
     
     Ändern Sie diesen Wert mit Bedacht: Ein höherer Wert erhöht Ihr Arbeitspensum deutlich, während ein niedrigerer Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
 deck-config-historical-retention-tooltip =
-    Wenn ein Teil Ihrer Wiederholungshistorie fehlt, muss FSRS die Lücken füllen. Standardmäßig wird angenommen, dass Sie sich bei Ihren alten Wiederholungen an 90% des Materials erinnern. Wenn Ihre frühere Wiedererkennungsrate wesentlich höher oder niedriger als 90% war, ermöglicht die Anpassung der FSRS-Option, die Muster der fehlgeschlagenen Wiederholungen genauer abzuschätzen.
+    Wenn ein Teil Ihrer Wiederholungshistorie fehlt, muss FSRS die Lücken füllen. Standardmäßig wird angenommen, dass Sie sich bei Ihren alten Wiederholungen an 90 % des Materials erinnern. Wenn Ihre frühere Wiedererkennungsrate wesentlich höher oder niedriger als 90 % war, ermöglicht die Anpassung der FSRS-Option, die Muster der fehlgeschlagenen Wiederholungen genauer abzuschätzen.
     
     Ihre Wiederholungshistorie kann aus zwei Gründen unvollständig sein:
     1. Weil Sie die Option 'Ignoriere vorherige Wiederholungen' verwendet haben.
@@ -343,8 +343,8 @@ deck-config-a-100-day-interval =
     }
 deck-config-percent-of-reviews =
     { $reviews ->
-        [one] { $pct }% von { $reviews } Wiederholung
-       *[other] { $pct }% von { $reviews } Wiederholungen
+        [one] { $pct } % von { $reviews } Wiederholung
+       *[other] { $pct } % von { $reviews } Wiederholungen
     }
 deck-config-optimizing-preset = Optimiere Stapeloptionengruppe { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.

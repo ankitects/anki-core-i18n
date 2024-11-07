@@ -15,33 +15,33 @@ statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-m
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] in { $amount } Sekunde
-       *[other] in { $amount } Sekunden
+        [one] in { $amount } Sekunde
+       *[other] in { $amount } Sekunden
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] in { $amount } Minute
-       *[other] in { $amount } Minuten
+        [one] in { $amount } Minute
+       *[other] in { $amount } Minuten
     }
 statistics-in-time-span-hours =
     { $amount ->
-        [one] in { $amount } Stunde
-       *[other] in { $amount } Stunden
+        [one] in { $amount } Stunde
+       *[other] in { $amount } Stunden
     }
 statistics-in-time-span-days =
     { $amount ->
-        [one] in { $amount } Tag
-       *[other] in { $amount } Tagen
+        [one] in { $amount } Tag
+       *[other] in { $amount } Tagen
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] in { $amount } Monat
-       *[other] in { $amount } Monaten
+        [one] in { $amount } Monat
+       *[other] in { $amount } Monaten
     }
 statistics-in-time-span-years =
     { $amount ->
-        [one] in { $amount } Jahr
-       *[other] in { $amount } Jahren
+        [one] in { $amount } Jahr
+       *[other] in { $amount } Jahren
     }
 statistics-cards =
     { $cards ->
@@ -77,7 +77,7 @@ statistics-today-again-count = Falsch:
 statistics-today-type-counts = Neu: { $learnCount }, wiederholt: { $reviewCount }, wiedererlernt: { $relearnCount }, ausgewählte Karten: { $filteredCount }
 statistics-today-no-cards = Heute wurden (noch) keine Karten gelernt.
 statistics-today-no-mature-cards = Heute wurden keine alten Karten wiederholt.
-statistics-today-correct-mature = Richtige Antworten bei alten Karten: { $correct }/{ $total } ({ $percent }%)
+statistics-today-correct-mature = Richtige Antworten bei alten Karten: { $correct }/{ $total } ({ $percent } %)
 statistics-counts-total-cards = Karten insgesamt
 statistics-counts-new-cards = Neu
 statistics-counts-young-cards = Junge Karten
@@ -110,7 +110,7 @@ statistics-range-search = Suche
 statistics-card-ease-title = Karten-Leichtigkeit
 statistics-card-difficulty-title = Schwierigkeit der Karte
 statistics-card-stability-title = Kartenstabilität
-statistics-card-stability-subtitle = Das Intervall, zu dem Sie sich mit 90%er Wahrscheinlichkeit an die richtige Antwort erinnern.
+statistics-card-stability-subtitle = Das Intervall, indem Sie sich mit einer Wahrscheinlichkeit von 90 % an die richtige Antwort erinnern.
 statistics-average-stability = Durchschnittliche Stabilität
 statistics-card-retrievability-title = Kartenabrufbarkeit
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
@@ -192,11 +192,11 @@ statistics-stability-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Von { $hourStart }:00~{ $hourEnd }:00
-statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent }%)
+statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent } %)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = { $percent }% korrekt ({ $reviews })
+statistics-hours-correct-reviews = { $percent } % korrekt ({ $reviews })
 statistics-hours-title = Gedächtnisleistung nach Tageszeit
 statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
 # shown when graph is empty
@@ -209,12 +209,12 @@ statistics-calendar-title = Kalender
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
-statistics-elapsed-time-seconds = { $amount }s
-statistics-elapsed-time-minutes = { $amount } min
-statistics-elapsed-time-hours = { $amount }h
-statistics-elapsed-time-days = { $amount } T.
-statistics-elapsed-time-months = { $amount } Mon.
-statistics-elapsed-time-years = { $amount } J.
+statistics-elapsed-time-seconds = { $amount } Sek.
+statistics-elapsed-time-minutes = { $amount } Min.
+statistics-elapsed-time-hours = { $amount } Std.
+statistics-elapsed-time-days = { $amount } Tg.
+statistics-elapsed-time-months = { $amount } Mon.
+statistics-elapsed-time-years = { $amount } Jr.
 
 ##
 
@@ -227,7 +227,7 @@ statistics-average-interval = Mittleres Intervall
 statistics-due-tomorrow = Morgen fällig
 statistics-daily-load = Tägliches Arbeitspensum
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent }%)
+statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent } %)
 statistics-average-over-period = Wenn jeden Tag gelernt würde
 statistics-reviews-per-day =
     { $count ->
