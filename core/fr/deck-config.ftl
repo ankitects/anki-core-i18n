@@ -224,6 +224,20 @@ deck-config-minimum-interval-tooltip = L'intervalle minimum donné à une carte 
 deck-config-custom-scheduling = Planification personnalisée
 deck-config-custom-scheduling-tooltip = Cela affecte la totalité de la collection. À utiliser à vos risques et périls !
 
+# Easy Days section
+
+deck-config-easy-days-title = Jours faciles
+deck-config-easy-days-monday = Lundi
+deck-config-easy-days-tuesday = Mardi
+deck-config-easy-days-wednesday = Mercredi
+deck-config-easy-days-thursday = Jeudi
+deck-config-easy-days-friday = Vendredi
+deck-config-easy-days-saturday = Samedi
+deck-config-easy-days-sunday = Dimanche
+deck-config-easy-days-normal = Normal
+deck-config-easy-days-reduced = Réduit
+deck-config-easy-days-minimum = Minimum
+
 ## Adding/renaming
 
 deck-config-add-group = Ajouter un préréglage
@@ -300,9 +314,6 @@ deck-config-historical-retention = Rétention historique
 deck-config-smaller-is-better = Les petits nombres indiquent de meilleures estimations de la mémoire.
 deck-config-steps-too-large-for-fsrs = Lorsque le FSRS est activé, les étapes d'1 jour ou plus ne sont pas recommandées.
 deck-config-get-params = Obtenir les paramètres
-deck-config-fsrs-on-all-clients =
-    Veuillez vérifier que tous vos clients Anki soient Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. La FSRS
-    ne fonctionnera pas correctement si l'un de vos clients est plus ancien.
 deck-config-predicted-minimum-recommended-retention = Rétention minimum recommandée: { $num }
 deck-config-complete = { $num }% complété.
 deck-config-iterations = Itération : { $count }...
@@ -412,3 +423,6 @@ deck-config-compute-optimal-retention-tooltip3 =
     risque de mener à plus de travail, en raison du taux élevé d'oubli.
 deck-config-seconds-to-show-question-tooltip-2 = Quand l'avance automatique est activée, le nombre de secondes à attendre avant de révéler la réponse. Mettre à 0 pour désactiver.
 deck-config-invalid-weights = Les paramètres doivent être soit laissés vides pour utiliser les valeurs par défaut, soit être 17 nombres séparés par des virgules.
+deck-config-fsrs-on-all-clients =
+    Veuillez vérifier que tous vos clients Anki soient Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. La FSRS
+    ne fonctionnera pas correctement si l'un de vos clients est plus ancien.

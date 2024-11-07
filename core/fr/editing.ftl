@@ -36,6 +36,7 @@ editing-mathjax-chemistry = MathJax chimie
 editing-mathjax-inline = MathJax en ligne
 editing-mathjax-placeholder = Appuyez sur { $accept } pour accepter, { $newline } pour une nouvelle ligne.
 editing-media = Médias
+editing-open-image = Ouvrir l'image
 editing-show-in-folder = Afficher dans le dossier
 editing-ordered-list = Liste ordonée
 editing-outdent = Diminuer l'indentation
