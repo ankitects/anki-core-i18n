@@ -48,7 +48,7 @@ deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder
 deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
 deck-config-new-insertion-order-tooltip = Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Positionsnummer werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung aktualisiert auch die Positionsnummern bereits vorhandener neuer Karten.
-deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
+deck-config-new-insertion-order-sequential = Der Reihe nach (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
 deck-config-new-insertion-order-random-with-v3 = Wenn der V3-Zeitplaner genutzt wird, ist es ratsamer, diese Option auf Sequentiell zu belassen und stattdessen die Reihenfolge für die Zusammenstellung der neuen Karten anzupassen.
 
