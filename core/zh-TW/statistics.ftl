@@ -71,12 +71,12 @@ statistics-counts-learning-cards = 學習中
 statistics-counts-relearning-cards = 重新學習中
 statistics-counts-title = 卡片數量
 statistics-counts-separate-suspended-buried-cards = 分開統計擱置/推遲的卡片
-statistics-true-retention-title = 實際留存率
+statistics-true-retention-title = 實際留存機率
 statistics-true-retention-subtitle = 間隔大於 1 天的卡片的通過率
 statistics-true-retention-range = 範圍
 statistics-true-retention-pass = 通過
 statistics-true-retention-fail = 失敗
-statistics-true-retention-retention = 留存率
+statistics-true-retention-retention = 留存機率
 statistics-true-retention-today = 今天
 statistics-true-retention-yesterday = 昨天
 statistics-true-retention-week = 上週
@@ -92,9 +92,9 @@ statistics-range-search = 搜尋條件
 statistics-card-ease-title = 卡片輕鬆度
 statistics-card-difficulty-title = 卡片難度
 statistics-card-stability-title = 卡片穩固期
-statistics-card-stability-subtitle = 留存率下降到 90% 所需的天數
+statistics-card-stability-subtitle = 留存機率下降到 90% 所需的天數
 statistics-average-stability = 平均穩固期
-statistics-card-retrievability-title = 卡片留存率
+statistics-card-retrievability-title = 卡片留存機率
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
 statistics-card-difficulty-subtitle2 = 難度越高，穩固期增長的速度越慢
 statistics-retrievability-subtitle = 今天能夠回想起卡片內容的機率
@@ -109,7 +109,7 @@ statistics-card-difficulty-tooltip =
     }
 statistics-retrievability-tooltip =
     { $cards ->
-       *[other] 有 { $cards } 張留存率為 { $percent } 的卡片
+       *[other] 有 { $cards } 張留存機率為 { $percent } 的卡片
     }
 statistics-future-due-title = 將來到期
 statistics-future-due-subtitle = 未來複習數量
@@ -215,7 +215,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = 平均輕鬆度
 statistics-average-difficulty = 平均難度
-statistics-average-retrievability = 平均留存率
+statistics-average-retrievability = 平均留存機率
 statistics-estimated-total-knowledge = 預估已理解
 statistics-save-pdf = 儲存為 PDF 檔
 statistics-saved = 已儲存。
