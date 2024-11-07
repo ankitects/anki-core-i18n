@@ -17,10 +17,10 @@ deck-config-title = Stapeloptionen
 
 deck-config-daily-limits = Tageshöchstwerte
 deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungen.
-deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungen, die pro Tag angezeigt werden sollen.
+deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungskarten, die pro Tag angezeigt werden sollen.
 deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal angezeigt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten.
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungen begrenzt die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungen z. B. bei 200 liegt und 190 Wiederholungen anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
-deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungen wirkt sich nicht nur auf Wiederholungen, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernkarten angezeigt, gefolgt von den Karten zur Wiederholung.
+deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungen wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernkarten angezeigt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
     - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieser Stapeloptionengruppe, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
@@ -55,11 +55,8 @@ deck-config-new-insertion-order-random-with-v3 = Beim v3-Zeitplaner wird empfohl
 ## Lapses section
 
 deck-config-relearning-steps = Lernstufen für das Wiedererlernen
-deck-config-relearning-steps-tooltip = Null oder mehrere Verzögerungen, getrennt durch Leerzeichen. Standardmäßig wird bei Drücken des „Nochmal“-Knopf bei einer Wiederholkarte diese Karte 10 Minuten später nochmal angezeigt. Wenn keine Verzögerungen angegeben werden, wird das Intervall der Karte geändert, ohne dass sie in den Status „Wiedererlernen“ eintritt. { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip =
-    Die Anzahl, wie oft „Nochmal“ gedrückt werden muss, um eine Wiederholkarte als
-    Lernbremse einzustufen. Lernbremsen sind Karten, die besonders viel von Ihrer Zeit beanspruchen. 
-    Wenn eine Karte als Lernbremse eingestuft wird, dann ist es eine gute Idee, diese zu überarbeiten, zu löschen oder sich eine Gedächtnisstütze (Eselsbrücke) auszudenken, die Ihnen hilft, sich an sie zu erinnern.
+deck-config-relearning-steps-tooltip = Null oder mehr Intervalle, durch Leerzeichen getrennt. Der Standardwert ist „10m“: Wenn Sie bei einer Wiederholungskarte den „Nochmal“-Knopf drücken, wird diese nach 10 Minuten erneut angezeigt. Werden keine Intervalle angegeben, ändert sich die Zeitplanung der Karte, ohne dass sie in den Status „Wiedererlernen“ übergeht. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = Wie oft der „Nochmal“-Knopf gedrückt werden muss, bevor eine Wiederholungskarte als Lernbremse gilt. Lernbremsen sind Karten, die besonders viel Zeit in Anspruch nehmen. Wenn eine Karte als Lernbremse eingestuft wird, ist es ratsam, sie zu überarbeiten, zu löschen oder sich eine Gedächtnisstütze (Eselsbrücke) zu machen, um sie besser zu behalten.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     <b>Nur verschlagworten</b>: Das Schlagwort „leech“ für die Notiz hinzufügen und ein Pop-up anzeigen.<br>
@@ -75,7 +72,7 @@ deck-config-bury-new-tooltip =
     Ob andere `neue` Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
     bis zum nächsten Tag verschoben werden.
 deck-config-bury-review-tooltip =
-    Ob andere`zu wiederholende Karten` derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
+    Ob andere Wiederholungskarten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
     bis zum nächsten Tag verschoben werden.
 deck-config-bury-interday-learning-tooltip =
     Ob andere `zu lernende` Karten derselben Notiz mit Intervallen > 1 Tag
@@ -94,7 +91,7 @@ deck-config-bury-priority-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = Anzeigereihenfolge
-deck-config-new-gather-priority = Reihenfolge beim Sammeln neuer Karten
+deck-config-new-gather-priority = Reihenfolge für das Sammeln neuer Karten
 deck-config-new-gather-priority-tooltip-2 =
     `Stapel`: sammelt Karten der Reihe nach von jedem Stapel, oben beginnend. Für jeden Stapel werden Karten in aufsteigender Position gesammelt. Wenn der Grenzwert des ausgewählten Stapels erreicht ist, kann das Sammeln aufhören, bevor alle Stapel erreicht wurden. Diese Reihenfolge ist die schnellste für große Sammlungen und ermöglicht die Priorisierung von Stapeln, die weiter oben sind.
     
@@ -128,12 +125,12 @@ deck-config-sort-order-random = Zufällig
 deck-config-sort-order-template-then-gather = Kartenvorlage
 deck-config-sort-order-gather = Sammelreihenfolge
 deck-config-new-review-priority = Reihenfolge Neu/Wiederholung
-deck-config-new-review-priority-tooltip = Wann neue Karten relativ zu Wiederholkarten angezeigt werden.
+deck-config-new-review-priority-tooltip = Wann neue Karten relativ zu Wiederholungskarten angezeigt werden.
 deck-config-interday-step-priority = Reihenfolge Wiederholung/mehrtägiges Lernen
 deck-config-interday-step-priority-tooltip =
     Wann (erneute) Lernkarten angezeigt werden, die die Taggrenze überschreiten.
     
-    Der Grenzwert für Wiederholungen wird immer zuerst auf die Zwischentag-Lernkarten angewendet, und danach auf die Wiederholungen. Diese Option steuert die Reihenfolge, in welcher die aufgenommenen Karten angezeigt werden, aber Zwischentag-Lernkarten werden immer an erster Stelle aufgenommen.
+    Der Grenzwert für Wiederholungen wird immer zuerst auf die Zwischentag-Lernkarten angewendet, und danach auf die Wiederholungskarten. Diese Option steuert die Reihenfolge, in welcher die aufgenommenen Karten angezeigt werden, aber Zwischentag-Lernkarten werden immer an erster Stelle aufgenommen.
 deck-config-review-mix-mix-with-reviews = Mit Wiederholungen vermischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
@@ -191,18 +188,18 @@ deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Fr
 
 deck-config-advanced-title = Erweitert
 deck-config-maximum-interval-tooltip =
-    Die maximale Anzahl an Tagen, die eine Wiederholkarte warten wird. Wenn Wiederholungen
+    Die maximale Anzahl an Tagen, die eine Wiederholungskarte warten wird. Wenn Wiederholungen
     ihren Grenzwert erreicht haben, erhalten "Schwer", "Gut" und "Leicht" alle die gleiche Verzögerung.
     Je kürzer Sie dies setzen, desto größer wird Ihr Arbeitspensum.
 deck-config-starting-ease-tooltip = Der Leichtigkeitsmultiplikator, mit dem neue Karten beginnen. Standardmäßig wird der "Gut"-Knopf bei neu gelernten Karten die nächste Wiederholung um den Faktor 2.5 verglichen zur vorherigen Verzögerung verzögern.
-deck-config-easy-bonus-tooltip = Ein zusätzlicher Multiplikator, welcher auf das Intervall einer Wiederholkarte angewendet wird, wenn Sie diese als "Einfach" einstufen.
+deck-config-easy-bonus-tooltip = Ein zusätzlicher Multiplikator, welcher auf das Intervall einer Wiederholungskarte angewendet wird, wenn Sie diese als "Einfach" einstufen.
 deck-config-interval-modifier-tooltip =
     Dieser Multiplikator wird auf allen Wiederholungen angewendet, und kleinere Anpassungen können benutzt werden, 
     um Anki konservativer oder aggressiver bei seiner Zeitplanung einzustellen. Bitte lesen
     Sie im Handbuch nach, bevor Sie diese Option ändern.
 deck-config-hard-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit "Schwer" bewertet wurde.
 deck-config-new-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit „Nochmal“ bewertet wurde.
-deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine fällige Karte mit „Nochmal“ bewertet wurde.
+deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine Wiederholungskarte Karte mit „Nochmal“ bewertet wurde.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
 deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus. Nutzung auf eigene Gefahr!
 
@@ -325,7 +322,7 @@ deck-config-reschedule-cards-warning =
     Je nach gewünschter Retention kann diese Option dazu führen, dass eine große Anzahl von Karten fällig wird. Es wird daher nicht empfohlen sie zu aktivieren, wenn Sie zum ersten Mal zu FSRS wechseln.
     
     Verwenden Sie diese Option sparsam, da sie jeder Ihrer Karten einen Eintrag im Wiederholungsverlauf hinzufügt und so die Größe Ihrer Sammlung erhöht.
-deck-config-ignore-before-tooltip-2 = Wenn aktiviert, werden Karten, die vor dem angegebenen Datum wiederholt wurden, bei der Optimierung der FSRS-Parameter nicht berücksichtigt. Dies kann hilfreich sein, wenn Sie die Zeitplanung von Dritten importiert haben oder Ihre Art der Nutzung der Antworttasten geändert haben.
+deck-config-ignore-before-tooltip-2 = Wenn aktiviert, werden Karten, die vor dem angegebenen Datum wiederholt wurden, bei der Optimierung der FSRS-Parameter nicht berücksichtigt. Dies kann hilfreich sein, wenn Sie die Zeitplanung von Dritten importiert haben oder Ihre Art der Nutzung der Antwortknöpfe geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
     Wenn Sie auf "Optimieren" klicken, analysiert FSRS Ihren Lernverlauf und erstellt Parameter, die optimal für Ihr Gedächtnis und den Inhalt, den Sie lernen, sind. Wenn sich Ihre Decks im subjektiven Schwierigkeitsgrad stark unterscheiden, ¶
     empfiehlt es sich, ihnen getrennte Voreinstellungen zuzuweisen, da die Parameter für leichte und schwere Decks unterschiedlich sein werden.¶
@@ -377,7 +374,7 @@ deck-config-answer-action-tooltip = Was mit der aktuellen Karte gemacht werden s
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
 deck-config-ignore-before-tooltip =
     Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
-    Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortschaltflächen verwenden, geändert haben.
+    Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Behaltensleistung hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Lernzeit zu kopieren.
 deck-config-compute-optimal-retention = Empfohlene minimale Retention berechnen
 deck-config-predicted-optimal-retention = Empfohlene minimale Retention: { $num }

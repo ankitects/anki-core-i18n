@@ -143,7 +143,7 @@ statistics-answer-buttons-title = Antwortknopf
 statistics-answer-buttons-button-number = Knopf
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Male gedrückt
-statistics-answer-buttons-subtitle = Wie häufig welche Antwortmöglichkeit gewählt wurde.
+statistics-answer-buttons-subtitle = Wie häufig welcher Antwortknopf gewählt wurde.
 statistics-reviews-title = Wiederholungen
 statistics-reviews-time-checkbox = Zeit
 statistics-in-days-single =

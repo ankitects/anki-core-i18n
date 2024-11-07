@@ -26,7 +26,7 @@ search-invalid-number = In „`{ $context }`“ wurde eine Zahl erwartet, aber s
 search-invalid-whole-number = In „`{ $context }`“ wurde eine ganze Zahl erwartet, aber stattdessen „`{ $provided }`“ gefunden.
 search-invalid-positive-whole-number = In „`{ $context }`“ wurde eine positive ganze Zahl erwartet, aber stattdessen „`{ $provided }`“ gefunden.
 search-invalid-negative-whole-number = In „`{ $context }`“ wurde eine ganze Zahl gleich oder kleiner 0 erwartet, aber stattdessen „`{ $provided }`“ gefunden.
-search-invalid-answer-button = In „`{ $context }`“ wurde eine Antworttaste zwischen 1 und 4 erwartet, aber stattdessen „`{ $provided }`“ gefunden.
+search-invalid-answer-button = In „`{ $context }`“ wurde eine Antwortknopf zwischen 1 und 4 erwartet, aber stattdessen „`{ $provided }`“ gefunden.
 
 ## Column labels in browse screen
 
