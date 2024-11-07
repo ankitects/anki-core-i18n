@@ -59,8 +59,9 @@ deck-config-relearning-steps-tooltip = Null oder mehr Intervalle, durch Leerzeic
 deck-config-leech-threshold-tooltip = Wie oft der „Nochmal“-Knopf gedrückt werden muss, bevor eine Wiederholungskarte als Lernbremse gilt. Lernbremsen sind Karten, die besonders viel Zeit in Anspruch nehmen. Wenn eine Karte als Lernbremse eingestuft wird, ist es ratsam, sie zu überarbeiten, zu löschen oder sich eine Gedächtnisstütze (Eselsbrücke) zu machen, um sie besser zu behalten.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    <b>Nur verschlagworten</b>: Das Schlagwort „leech“ für die Notiz hinzufügen und ein Pop-up anzeigen.<br>
-    <b>Karte aussetzen</b>: Zusätzlich zum Verschlagworten der Notiz diese Karte aussetzen, bevor sie wieder manuell eingesetzt wird.
+    `Nur verschlagworten`: Füge der Notiz das Schlagwort „leech“ hinzu und zeige ein Pop-up an.
+    
+    `Karte aussetzen`: Zusätzlich zum Verschlagworten der Notiz wird die Karte ausgesetzt, bis sie manuell wieder aktiviert wird.
 
 ## Burying section
 
