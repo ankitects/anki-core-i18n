@@ -42,12 +42,12 @@ deck-config-today-only = Nur heute
 
 deck-config-learning-steps = Lernstufen
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Zeitintervalle können in Sekunden (`30s`), Minuten (`5m`), Stunden (`1h`) oder Tagen (`2d`) angegeben werden.
-deck-config-learning-steps-tooltip = Ein oder mehrere Zeitintervalle, durch Leerzeichen getrennt. Der Standardwert ist `1m 10m`. Das erste Zeitintervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte den „Nochmal“-Knopf  drücken. Der „Gut“-Knopf lässt die Karte voranschreiten. Die Zeitintervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
+-deck-config-delay-hint = Intervalle können in Sekunden (`30s`), Minuten (`5m`), Stunden (`1h`) oder Tagen (`2d`) angegeben werden.
+deck-config-learning-steps-tooltip = Ein oder mehrere Intervalle, durch Leerzeichen getrennt. Der Standardwert ist `1m 10m`. Das erste Intervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte den „Nochmal“-Knopf  drücken. Der „Gut“-Knopf lässt die Karte voranschreiten. Das Intervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der letzten Lernstufe der „Gut“-Knopf gedrückt wurde.
 deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
-deck-config-new-insertion-order-tooltip = Bestimmt die Position (Fälligkeitsnummer), die neuen Karten zugewiesen wird, nachdem Sie diese hinzugefügt haben. Karten mit einer niedrigeren Fälligkeitsnummer werden beim Lernen zuerst angezeigt. Wenn Sie diese Option ändern, werden die bisherigen Fälligkeitsnummern neuer Karten neu vergeben.
+deck-config-new-insertion-order-tooltip = Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Positionsnummer werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung aktualisiert auch die Positionsnummern bereits vorhandener neuer Karten.
 deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
 deck-config-new-insertion-order-random-with-v3 = Wenn der V3-Zeitplaner genutzt wird, ist es ratsamer, diese Option auf Sequentiell zu belassen und stattdessen die Reihenfolge für die Zusammenstellung der neuen Karten anzupassen.
