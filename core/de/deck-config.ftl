@@ -42,14 +42,10 @@ deck-config-today-only = Nur heute
 
 deck-config-learning-steps = Lernstufen
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Verzögerungen können in Sekunden (`30s`), Minuten (`5m`), Stunden (`1h`) oder Tagen (`2d`) angegeben werden.
-deck-config-learning-steps-tooltip =
-    Eine oder mehrere Verzögerungen, durch Leerzeichen voneinander getrennt. Die erste Verzögerung wird benutzt, 
-    wenn Sie den „Nochmal“-Knopf auf einer neuen Karte drücken, und beträgt standardmäßig 1 Minute.
-    Der „Gut“-Knopf lässt die Karte voranschreiten. Die Verzögerung beträgt dann standardmäßig 10 Minuten.
-    Wenn eine Karte alle Schritte durchlaufen hat, dann wird diese eine Wiederholkarte und wird an einem anderen Tag wieder erscheinen. { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = Die Anzahl an abzuwartenden Tagen, bevor eine Karte, die mit "Gut" in der finalen Lernstufe  bewertet wurde, wieder angezeigt wird.
-deck-config-easy-interval-tooltip = Die Anzahl Tage, bis eine Karte wieder gezeigt wird, nachdem die `Einfach`-Taste benutzt wurde, um die Karte sofort aus der Lernphase zu entfernen.
+-deck-config-delay-hint = Zeitintervalle können in Sekunden (`30s`), Minuten (`5m`), Stunden (`1h`) oder Tagen (`2d`) angegeben werden.
+deck-config-learning-steps-tooltip = Ein oder mehrere Zeitintervalle, durch Leerzeichen getrennt. Der Standardwert ist `1m 10m`. Das erste Zeitintervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte den „Nochmal“-Knopf  drücken. Der „Gut“-Knopf lässt die Karte voranschreiten. Die Zeitintervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der letzten Lernstufe der „Gut“-Knopf gedrückt wurde.
+deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
 deck-config-new-insertion-order-tooltip = Bestimmt die Position (Fälligkeitsnummer), die neuen Karten zugewiesen wird, nachdem Sie diese hinzugefügt haben. Karten mit einer niedrigeren Fälligkeitsnummer werden beim Lernen zuerst angezeigt. Wenn Sie diese Option ändern, werden die bisherigen Fälligkeitsnummern neuer Karten neu vergeben.
 deck-config-new-insertion-order-sequential = Sequentiell (älteste Karten zuerst)
