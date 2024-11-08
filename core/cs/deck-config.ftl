@@ -198,7 +198,8 @@ deck-config-sort-order-ascending-ease = Snadnost vzestupně
 deck-config-sort-order-descending-ease = Snadnost sestupně
 deck-config-sort-order-ascending-difficulty = Obtížnost vzestupně
 deck-config-sort-order-descending-difficulty = Obtížnost sestupně
-deck-config-sort-order-relative-overdueness = Relativní zpožděnost
+deck-config-sort-order-retrievability-ascending = Zapamatování vzestupně
+deck-config-sort-order-retrievability-descending = Zapamatování sestupně
 deck-config-display-order-will-use-current-deck =
     Anki použije pořadí zobrazování balíčku, který jste vybrali 
     ke studiu, a ne podřízených balíčků, které může mít.
@@ -361,9 +362,6 @@ deck-config-desired-retention = Požadovaná retence
 deck-config-historical-retention = Historická retence
 deck-config-smaller-is-better = Menší čísla naznačují lepší způsobilost pro vaši historii opakování.
 deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delší než 1 den nejsou doporučeny.
-deck-config-fsrs-on-all-clients =
-    Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
-    fungovat správně, jestliže je některý z vašich klientů starší.
 deck-config-predicted-minimum-recommended-retention = Minimální doporučená retence: { $num }
 deck-config-complete = { $num }% hotovo.
 deck-config-iterations = Iterace: { $count }...
@@ -456,3 +454,6 @@ deck-config-compute-optimal-weights-tooltip =
     se použijí pro optimalizování vah.
 deck-config-seconds-to-show-question-tooltip-2 = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
 deck-config-invalid-weights = Váhy musí být buď ponechány prázdné, kdy se použijí výchozí hodnoty, nebo musí být 17 čísel oddělených čárkou.
+deck-config-fsrs-on-all-clients =
+    Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
+    fungovat správně, jestliže je některý z vašich klientů starší.
