@@ -114,6 +114,8 @@ deck-config-sort-order-ascending-ease = Αύξουσα ευκολία
 deck-config-sort-order-descending-ease = Φθίνουσα ευκολία
 deck-config-sort-order-ascending-difficulty = Αύξουσα δυσκολία
 deck-config-sort-order-descending-difficulty = Φθίνουσα δυσκολία
+deck-config-sort-order-retrievability-ascending = Αύξουσα ανακτησιμότητα
+deck-config-sort-order-retrievability-descending = Φθίνουσα ανακτησιμότητα
 deck-config-display-order-will-use-current-deck = Το Anki θα χρησιμοποιήσει την σειρά προβολής από την τράπουλα που επιλέγετε για διάβασμα και όχι από τις υπο-τράπουλες που μπορεί να έχει.
 
 ## Timer section
@@ -183,6 +185,7 @@ deck-config-easy-days-sunday = Κυριακή
 deck-config-easy-days-normal = Κανονικό
 deck-config-easy-days-reduced = Μειωμένο
 deck-config-easy-days-minimum = Ελάχιστο
+deck-config-easy-days-no-normal-days = Τουλάχιστον μία ημέρα θα πρέπει να έχει οριστεί σε '{ deck-config-easy-days-normal }'.
 
 ## Adding/renaming
 
@@ -257,9 +260,6 @@ deck-config-historical-retention = Ιστορικό ανάκλησης
 deck-config-smaller-is-better = Μικρότεροι αριθμοί υποδεικνύουν καλύτερη ταύτιση με το ιστορικό των επαναλήψεων σας.
 deck-config-steps-too-large-for-fsrs = Όταν το FSRS είναι ενεργοποιημένο, βήματα εκμάθησης μίας ή περισσότερων ημερών δεν προτείνονται.
 deck-config-get-params = Λήψη παραμέτρων
-deck-config-fsrs-on-all-clients =
-    Παρακαλώ βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.
-    Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
 deck-config-predicted-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση: { $num }
 deck-config-complete = { $num }% ολοκληρώθηκε.
 deck-config-iterations = Επανάληψη: { $count }...
@@ -345,3 +345,6 @@ deck-config-compute-optimal-retention-tooltip3 =
     οδηγήσει σε μεγαλύτερο φόρτο εργασίας, λόγω του υψηλού ποσοστού λήθης.
 deck-config-seconds-to-show-question-tooltip-2 = Ο αριθμός των δευτερολέπτων αναμονής πριν από την αποκάλυψη της απάντησης, όταν είναι ενεργοποιημένη η αυτόματη προώθηση. Ορίστε το 0 για απενεργοποίηση.
 deck-config-invalid-weights = Οι παράμετροι πρέπει να είναι κενοί για χρήση των προεπιλογών ή θα πρέπει να είναι 17 αριθμοί διαχωρισμένοι με κόμμα.
+deck-config-fsrs-on-all-clients =
+    Παρακαλώ βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.
+    Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
