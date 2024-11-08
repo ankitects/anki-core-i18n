@@ -96,9 +96,9 @@ deck-config-new-gather-priority = Reihenfolge für das Sammeln neuer Karten
 deck-config-new-gather-priority-tooltip-2 =
     `Stapel`: sammelt Karten der Reihe nach von jedem Stapel, oben beginnend. Für jeden Stapel werden Karten in aufsteigender Position gesammelt. Wenn der Grenzwert des ausgewählten Stapels erreicht ist, kann das Sammeln aufhören, bevor alle Stapel erreicht wurden. Diese Reihenfolge ist die schnellste für große Sammlungen und ermöglicht die Priorisierung von Stapeln, die weiter oben sind.
     
-    `Aufsteigende Position`: sammelt Karten nach Position (Fälligkeitsnummer) in aufsteigender Reihenfolge. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
+    `Aufsteigende Position`: sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
     
-    `Absteigende Position`: sammelt Karten nach Position (Fälligkeitsnummer) in absteigender Reihenfolge. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
+    `Absteigende Position`: sammelt Karten nach Positionsnummer in absteigender Reihenfolge. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
     
     `Zufällige Notizen`: sammelt Karten von zufällig ausgewählten Notizen. Wenn die Geschwisterzurückstellung deaktiviert ist, können so alle Karten einer Notiz in derselben Einheit gelernt werden (z.B. sowhl Vorderseite→Rückseite als auch Rückseite→Vorderseite),
     
