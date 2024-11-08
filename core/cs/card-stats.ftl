@@ -23,6 +23,7 @@ card-stats-review-log-type-review = Opakování
 card-stats-review-log-type-relearn = Znovu učené
 card-stats-review-log-type-filtered = Filtrováno
 card-stats-review-log-type-manual = Manuální
+card-stats-review-log-type-rescheduled = Přeplánováno
 card-stats-review-log-elapsed-time = Uplynulý čas
 card-stats-no-card = (Žádná karta k zobrazení.)
 card-stats-custom-data = Vlastní data
