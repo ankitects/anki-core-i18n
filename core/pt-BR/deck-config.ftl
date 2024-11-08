@@ -183,7 +183,8 @@ deck-config-sort-order-ascending-ease = Facilidade ascendente
 deck-config-sort-order-descending-ease = Facilidade descendente
 deck-config-sort-order-ascending-difficulty = Dificuldade ascendente
 deck-config-sort-order-descending-difficulty = Dificuldade descendente
-deck-config-sort-order-relative-overdueness = Atraso relativo
+deck-config-sort-order-retrievability-ascending = Recuperabilidade crescente
+deck-config-sort-order-retrievability-descending = Recuperabilidade decrescente
 deck-config-display-order-will-use-current-deck =
     O Anki usará a ordem de exibição do baralho que você 
     selecionar para estudar, e não de quaisquer sub-baralho 
@@ -268,6 +269,7 @@ deck-config-easy-days-sunday = Domingo
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Reduzido
 deck-config-easy-days-minimum = Mínimo
+deck-config-easy-days-no-normal-days = Pelo menos um dia deve ser definido como '{ deck-config-easy-days-normal }'.
 
 ## Adding/renaming
 
@@ -347,9 +349,6 @@ deck-config-historical-retention = Retenção histórica
 deck-config-smaller-is-better = Números menores indicam um ajuste melhor ao seu histórico de revisão.
 deck-config-steps-too-large-for-fsrs = Quando o FSRS está ativado, etapas de aprendizado com mais de 1 dia não são recomendadas.
 deck-config-get-params = Obter Parâmetros
-deck-config-fsrs-on-all-clients =
-    Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não
-    funcionará corretamente se um dos seus clientes for mais antigo.
 deck-config-predicted-minimum-recommended-retention = Retenção mínima recomendada: { $num }
 deck-config-complete = { $num }% concluído.
 deck-config-iterations = Iteração: { $count }...
@@ -494,3 +493,6 @@ deck-config-compute-optimal-retention-tooltip3 =
     pois isso resultará em uma carga de trabalho maior devido à alta taxa de esquecimento.
 deck-config-seconds-to-show-question-tooltip-2 = Quando o avanço automático está ativado, o número de segundos a esperar antes de revelar a resposta. Defina como 0 para desativar.
 deck-config-invalid-weights = Os parâmetros devem ser deixados em branco para usar os valores padrão, ou devem ser 17 números separados por vírgulas.
+deck-config-fsrs-on-all-clients =
+    Certifique-se de que todos os seus clientes Anki são Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. O FSRS não
+    funcionará corretamente se um dos seus clientes for mais antigo.
