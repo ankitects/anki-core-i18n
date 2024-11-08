@@ -181,10 +181,10 @@ deck-config-sort-order-ascending-intervals = Intervalos ascendentes
 deck-config-sort-order-descending-intervals = Intervalos descendentes
 deck-config-sort-order-ascending-ease = Facilidade ascendente
 deck-config-sort-order-descending-ease = Facilidade descendente
-deck-config-sort-order-ascending-difficulty = Dificuldade ascendente
-deck-config-sort-order-descending-difficulty = Dificuldade descendente
-deck-config-sort-order-retrievability-ascending = Recuperabilidade crescente
-deck-config-sort-order-retrievability-descending = Recuperabilidade decrescente
+deck-config-sort-order-ascending-difficulty = Cartões fáceis primeiro
+deck-config-sort-order-descending-difficulty = Cartões difíceis primeiro
+deck-config-sort-order-retrievability-ascending = Mais prováveis de esquecer
+deck-config-sort-order-retrievability-descending = Mais prováveis de lembrar
 deck-config-display-order-will-use-current-deck =
     O Anki usará a ordem de exibição do baralho que você 
     selecionar para estudar, e não de quaisquer sub-baralho 
