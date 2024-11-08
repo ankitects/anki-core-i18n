@@ -209,7 +209,9 @@ deck-config-sort-order-ascending-ease = Ascending ease
 deck-config-sort-order-descending-ease = Descending ease
 deck-config-sort-order-ascending-difficulty = Easy cards first
 deck-config-sort-order-descending-difficulty = Difficult cards first
-deck-config-sort-order-relative-overdueness = Relative overdueness
+deck-config-sort-order-retrievability-ascending = Ascending retrievability
+deck-config-sort-order-retrievability-descending = Descending retrievability
+
 deck-config-display-order-will-use-current-deck =
     Anki will use the display order from the deck you 
     select to study, and not any subdecks it may have.
@@ -290,6 +292,7 @@ deck-config-easy-days-sunday = Sunday
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Reduced
 deck-config-easy-days-minimum = Minimum
+deck-config-easy-days-no-normal-days = At least one day should be set to '{ deck-config-easy-days-normal }'.
 
 ## Adding/renaming
 
