@@ -62,6 +62,13 @@ statistics-cards =
         [many] { $cards } karty
        *[other] { $cards } karet
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } poznámka
+        [few] { $notes } poznámky
+        [many] { $notes } poznámky
+       *[other] { $notes } poznámek
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -244,6 +251,7 @@ statistics-average-answer-time-label = Průměrný čas odpovědi
 statistics-average = Průměr
 statistics-average-interval = Průměrný interval
 statistics-due-tomorrow = Zítra ke zkoušení
+statistics-daily-load = Denní zátěž
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
 statistics-average-over-period = Při každodenním studiu
