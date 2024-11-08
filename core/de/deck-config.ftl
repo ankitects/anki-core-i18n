@@ -16,17 +16,17 @@ deck-config-title = Stapeloptionen
 ## Daily limits section
 
 deck-config-daily-limits = Tageshöchstwerte
-deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungen.
+deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungskarten.
 deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungskarten, die pro Tag angezeigt werden sollen.
 deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal angezeigt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten.
-deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungen begrenzt die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungen z. B. bei 200 liegt und 190 Wiederholungen anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
-deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungen wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernkarten angezeigt, gefolgt von den Wiederholungskarten.
+deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten begrenzt auch die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungskarten z. B. bei 200 liegt und 190 Wiederholungskarten anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
+deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernen angezeigt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
     - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieser Stapeloptionengruppe, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
     - `Nur heute`: Ändert den Tageshöchstwert dieses Stapels nur vorübergehend für heute.
-deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungen
-deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungen auch die Anzahl neuer Karten, die eingeführt werden können. Wenn hingegen diese Option aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungen eingeführt.
+deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungskarten
+deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungskarten auch die Anzahl neuer Karten, die eingeführt werden können. Wenn hingegen diese Option aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungskarten eingeführt.
 deck-config-apply-all-parent-limits = Tageshöchstwerte gelten auch für Unterstapel
 deck-config-apply-all-parent-limits-tooltip = Standardmäßig wirken sich Tageshöchstwerte der Oberstapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Wenn hingegen diese Option aktiviert ist, wirken sich die Tageshöchstwerte der Oberstapel auch dann aus, wenn Sie einen Unterstapel direkt lernen. Dies ist nützlich, wenn Sie nacheinander verschiedene Unterstapel lernen möchten und die Gesamtanzahl der angezeigten Karten aus allen Unterstapeln zusammen begrenzen wollen.
 deck-config-affects-entire-collection = Wirkt sich auf die gesamte Sammlung aus.
@@ -67,7 +67,7 @@ deck-config-leech-action-tooltip =
 
 deck-config-bury-title = Zurückstellen
 deck-config-bury-new-siblings = Neue Geschwister zurückstellen
-deck-config-bury-review-siblings = Geschwister in Wiederholung zurückstellen
+deck-config-bury-review-siblings = Geschwister in Wiederholungskarten zurückstellen
 deck-config-bury-interday-learning-siblings = Geschwister in mehrtägigem Lernen zurückstellen
 deck-config-bury-new-tooltip =
     Ob andere `neue` Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
@@ -129,9 +129,9 @@ deck-config-new-review-priority = Reihenfolge Neu/Wiederholung
 deck-config-new-review-priority-tooltip = Wann neue Karten relativ zu Wiederholungskarten angezeigt werden.
 deck-config-interday-step-priority = Reihenfolge Wiederholung/mehrtägiges Lernen
 deck-config-interday-step-priority-tooltip =
-    Wann (erneute) Lernkarten angezeigt werden, die die Taggrenze überschreiten.
+    Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Taggrenze überschreiten.
     
-    Der Grenzwert für Wiederholungen wird immer zuerst auf die Zwischentag-Lernkarten angewendet, und danach auf die Wiederholungskarten. Diese Option steuert die Reihenfolge, in welcher die aufgenommenen Karten angezeigt werden, aber Zwischentag-Lernkarten werden immer an erster Stelle aufgenommen.
+    Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf die Zwischentag-Lernkarten angewendet, und danach auf die Wiederholungskarten. Diese Option steuert die Reihenfolge, in welcher die aufgenommenen Karten angezeigt werden, aber Zwischentag-Lernkarten werden immer an erster Stelle aufgenommen.
 deck-config-review-mix-mix-with-reviews = Mit Wiederholungen vermischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
@@ -255,8 +255,8 @@ deck-config-daily-limit-will-be-capped =
     }, welcher diesen Grenzwert überschreiben wird.
 deck-config-reviews-too-low =
     { $cards ->
-        [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungen mindestens { $expected } betragen.
-       *[other] Wenn { $cards } neue Karten jeden Tag hinzugefügt werden, dann sollte Ihr Tageshöchstwert für Wiederholungen mindestens { $expected } betragen.
+        [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
+       *[other] Wenn { $cards } neue Karten jeden Tag hinzugefügt werden, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
     }
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens genauso lang sein wie Ihre finale Lernstufe.
 deck-config-good-above-easy = Das Einfach-Intervall sollte mindestens genauso lang sein wie das Aufstiegsintervall.
@@ -289,7 +289,7 @@ deck-config-optimize-all-tip = Sie können alle Vorgaben gleichzeitig durch Drü
 deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Retention
 deck-config-historical-retention = Historische Retention
-deck-config-smaller-is-better = Je kleiner die Zahl, desto besser passen die eingestellten Parameter zu Ihrer Wiederholungsgeschichte.
+deck-config-smaller-is-better = Je kleiner die Zahl, desto besser passen die eingestellten Parameter zu Ihrer Wiederholungsverlauf.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
 deck-config-predicted-minimum-recommended-retention = Empfohlene minimale Retention: { $num }
@@ -307,9 +307,9 @@ deck-config-desired-retention-tooltip =
     
     Ändern Sie diesen Wert mit Bedacht: Ein höherer Wert erhöht Ihr Arbeitspensum deutlich, während ein niedrigerer Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
 deck-config-historical-retention-tooltip =
-    Wenn ein Teil Ihrer Wiederholungshistorie fehlt, muss FSRS die Lücken füllen. Standardmäßig wird angenommen, dass Sie sich bei Ihren alten Wiederholungen an 90 % des Materials erinnern. Wenn Ihre frühere Wiedererkennungsrate wesentlich höher oder niedriger als 90 % war, ermöglicht die Anpassung der FSRS-Option, die Muster der fehlgeschlagenen Wiederholungen genauer abzuschätzen.
+    Wenn ein Teil Ihres Wiederholungsverlaufs fehlt, muss FSRS die Lücken füllen. Standardmäßig wird angenommen, dass Sie sich bei Ihren alten Wiederholungen an 90 % des Materials erinnern. Wenn Ihre frühere Wiedererkennungsrate wesentlich höher oder niedriger als 90 % war, ermöglicht die Anpassung der FSRS-Option, die Muster der fehlgeschlagenen Wiederholungen genauer abzuschätzen.
     
-    Ihre Wiederholungshistorie kann aus zwei Gründen unvollständig sein:
+    Ihr Wiederholungsverlauf kann aus zwei Gründen unvollständig sein:
     1. Weil Sie die Option 'Ignoriere vorherige Wiederholungen' verwendet haben.
     2. Weil Sie früher Wiederholungsprotokolle gelöscht haben, um Speicherplatz freizugeben, oder Material aus einem anderen SRS-Programm importiert haben.
     

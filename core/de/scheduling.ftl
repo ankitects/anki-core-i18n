@@ -74,12 +74,12 @@ scheduling-learn-remaining =
     }
 scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
 scheduling-today-review-limit-reached =
-    Der Grenzwert für die heutigen Wiederholungen ist erreicht, weitere Karten warten jedoch
+    Der Tageshöchstwert für Wiederholungskarten ist erreicht, weitere Karten warten jedoch
     noch darauf, wiederholt zu werden. Um die Gedächtnisleistung optimal zu nutzen,
     bitte die Erhöhung des Grenzwertes in den Einstellungen erwägen.
 scheduling-today-new-limit-reached =
-    Weitere neue Karten sind verfügbar, aber das Tageslimit
-    ist erreicht. Der Grenzwert kann in den Einstellungen erhöht werden, aber
+    Weitere neue Karten sind verfügbar, aber der Tageshöchstwert für neue Karten
+    ist erreicht. Er kann in den Einstellungen erhöht werden, aber
     bitte daran denken, dass die Anzahl kurzfristiger Wiederholungen
     umso größer wird, je mehr neue Karten eingesetzt werden.
 scheduling-buried-cards-found = Eine oder mehrere Karten wurden zurückgestellt und werden morgen gezeigt. Die Zurückstellung kann { $unburyThem } werden, um sie direkt anzuzeigen.
@@ -124,9 +124,9 @@ scheduling-lapses = Fehlversuche
 scheduling-lapses2 = Fehlversuche
 scheduling-learning = Lernen
 scheduling-leech-action = Aktion bei Lernbremsen
-scheduling-leech-threshold = Schwellenwert Lernbremse
+scheduling-leech-threshold = Schwellenwert Lernbremse (Tage)
 scheduling-maximum-interval = Höchstintervall
-scheduling-maximum-reviewsday = Tageshöchstwert für Wiederholungen
+scheduling-maximum-reviewsday = Tageshöchstwert für Wiederholungskarten
 scheduling-minimum-interval = Mindestintervall
 scheduling-mix-new-cards-and-reviews = Neue Karten und Wiederholungskarten mischen
 scheduling-new-cards = Neue Karten
