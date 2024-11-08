@@ -221,7 +221,8 @@ deck-config-sort-order-ascending-ease = За зростанням легкост
 deck-config-sort-order-descending-ease = За спаданням легкості
 deck-config-sort-order-ascending-difficulty = За зростанням складності
 deck-config-sort-order-descending-difficulty = За спаданням складності
-deck-config-sort-order-relative-overdueness = За відносним простроченням
+deck-config-sort-order-retrievability-ascending = За легкістю пригадування
+deck-config-sort-order-retrievability-descending = За складністю пригадування
 deck-config-display-order-will-use-current-deck =
     Anki використовує порядок показу, зазначений для колоди,
     яку Ви вивчаєте, опускаючи налаштування вкладених колод
@@ -304,6 +305,7 @@ deck-config-easy-days-sunday = Неділя
 deck-config-easy-days-normal = Звичайний
 deck-config-easy-days-reduced = Скорочений
 deck-config-easy-days-minimum = Мінімум
+deck-config-easy-days-no-normal-days = '{ deck-config-easy-days-normal }' повинен бути хоча б одним днем
 
 ## Adding/renaming
 
@@ -386,9 +388,6 @@ deck-config-historical-retention = Історична затримка
 deck-config-smaller-is-better = Менші числа вказують на кращий успіх в історії пригадувань.
 deck-config-steps-too-large-for-fsrs = Не варто вказувати кроки для 1 та наступних днів, коли увімкнено вільного планувальника РП.
 deck-config-get-params = Отримати параметри
-deck-config-fsrs-on-all-clients =
-    Будь ласка, переконайтеся, що всі Ваші Anki клієнти мають версію Anki(Mobile) 23.10+ або AnkiDroid 2.17+.
-    Вільний планувальник РП не працюватиме правильно, якщо у Вас є старіші версії.
 deck-config-predicted-minimum-recommended-retention = Найменша рекомендована затримка: { $num }
 deck-config-complete = { $num }% завершено.
 deck-config-iterations = Ітерація: { $count }...
@@ -539,3 +538,6 @@ deck-config-compute-optimal-retention-tooltip3 =
     мінімальне значення, адже наслідком стане збільшення навантаження у зв'язку з вищим рівнем забування.
 deck-config-seconds-to-show-question-tooltip-2 = При активованому авто переході, кількість секунд очікування до появи відповіді. 0 вимикає налаштування.
 deck-config-invalid-weights = Параметри повинні бути порожніми, щоб вжити типові значення, або 17-ма числами, розділеними комами.
+deck-config-fsrs-on-all-clients =
+    Будь ласка, переконайтеся, що всі Ваші Anki клієнти мають версію Anki(Mobile) 23.10+ або AnkiDroid 2.17+.
+    Вільний планувальник РП не працюватиме правильно, якщо у Вас є старіші версії.
