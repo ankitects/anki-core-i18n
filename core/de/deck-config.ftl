@@ -146,7 +146,8 @@ deck-config-sort-order-ascending-ease = Aufsteigende Leichtigkeit
 deck-config-sort-order-descending-ease = Absteigende Leichtigkeit
 deck-config-sort-order-ascending-difficulty = Nach Schwierigkeit, aufsteigend
 deck-config-sort-order-descending-difficulty = Nach Schwierigkeit, absteigend
-deck-config-sort-order-relative-overdueness = Relative Überfälligkeit
+deck-config-sort-order-retrievability-ascending = Nach Abrufbarkeit, aufsteigend
+deck-config-sort-order-retrievability-descending = Nach Abrufbarkeit, absteigend
 deck-config-display-order-will-use-current-deck =
     Anki wird die Anzeigereihenfolge von dem Stapel, den Sie 
     zum Lernen ausgewählt haben, und keine Unterstapel, 
