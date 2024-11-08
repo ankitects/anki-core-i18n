@@ -137,7 +137,8 @@ deck-config-sort-order-ascending-ease = ئاسانلىق ئۆسكۈچى
 deck-config-sort-order-descending-ease = ئاسانلىق كېمەيگۈچى
 deck-config-sort-order-ascending-difficulty = قىيىنلىق ئۆسكۈچى
 deck-config-sort-order-descending-difficulty = قىيىنلىق كېمەيگۈچى
-deck-config-sort-order-relative-overdueness = نىسپىي ۋاقىت ھالقىشچانلىقى بويىچە
+deck-config-sort-order-retrievability-ascending = ئۆسكۈچى ئەستە تۇتۇشچانلىق
+deck-config-sort-order-retrievability-descending = كېڭەيگۈچى ئەستە تۇتۇشچانلىق
 deck-config-display-order-will-use-current-deck = تاللانغان دەستەدىكى ئۆگىنىش تەرتىپى بويىچە كۆرسىتىدۇ، Anki تارماق دەستە تەرتىپىگە پەرۋا قىلمايدۇ.
 
 ## Timer section
@@ -197,6 +198,7 @@ deck-config-easy-days-sunday = يەكشەنبە
 deck-config-easy-days-normal = ئادەتتىكى
 deck-config-easy-days-reduced = ئازايتىلدى
 deck-config-easy-days-minimum = ئەڭ ئاز
+deck-config-easy-days-no-normal-days = كەم دېگەندە بىر كۈن «{ deck-config-easy-days-normal }» دەپ تەڭشىلىشى كېرەك.
 
 ## Adding/renaming
 
@@ -270,7 +272,6 @@ deck-config-historical-retention = تارىختىكى ئەستە ساقلاش ن
 deck-config-smaller-is-better = قىممىتى قانچە كىچىك بولسا سىزنىڭ تەكرارلاش تارىخ خاتىرىڭىزگە شۇنچە ماس كېلىدىغانلىقىنى ئىپادىلەيدۇ.
 deck-config-steps-too-large-for-fsrs = FSRS قوزغىتىلغاندا، 1 كۈندىن ئارتۇق ئۆگىنىش باسقۇچى ئارىلىقىنى تەڭشەش تەۋسىيە قىلىنمايدۇ.
 deck-config-get-params = پارامېتىرغا ئېرىشىش
-deck-config-fsrs-on-all-clients = Anki خېرىدار پىروگراممىڭىزنىڭ Anki(Mobile) 23.10+ ياكى 2.17+ بولۇشىغا كاپالەتلىك قىلىڭ. ئەگەر خېرىدار پىروگراممىسى كونىراق بولسا، FSRS توغرا ئىشلىمەسلىكى مۇمكىن.
 deck-config-predicted-minimum-recommended-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى: { $num }
 deck-config-complete = { $num }% تامام.
 deck-config-iterations = تەكرارلىنىشى: { $count }…
@@ -355,3 +356,4 @@ deck-config-compute-optimal-retention-tooltip2 = بۇ قورال سىزنى 0 د
 deck-config-compute-optimal-retention-tooltip3 = بۇ قورال سىزنى 0 دانە ئۆگىنىپ بولغان كارتىدىن باشلىدى دەپ پەرەز قىلىپ، ئەڭ قىسقا ۋاقىتتا ئەڭ كۆپ ماتېرىيال ئۆگىنەلەيدىغانلىقىنى ھېسابلاپ ئارزۇدىكى ئەستە ساقلاش نىسبىتىنى تېپىپ چىقىدۇ، ئۆگىنىش جەريانىڭىزنى ئىنچىكە تەقلىد قىلىش ئۈچۈن، بۇ ئىقتىدار +400 قېتىملىق ئۆگىنىش خاتىرىسىگە ئېھتىياجلىق. ئەستە ساقلاش نىسبىتىنى قانچە قىلىپ تەڭشەشنى قارار قىلغاندا، بۇ ھېسابلانغان سانلىق قىممەتتىن پايلانغىلى بولىدۇ. ئەگەر تېخىمۇ كۆپ ۋاقىتتا تېخىمۇ يۇقىرى ئەستە ساقلاش نىسبىتىگە ئېرىشمەكچى بولسىڭىز، تېخىمۇ يۇقىرى ئەستە ساقلاش نىسبىتىنى تاللاڭ. ئەستە ساقلاش نىسبىتىنى ئەڭ تۆۋەن قىممەتتىنمۇ تۆۋەن تەڭشەش تەشەببۇس قىلىنمايدۇ، چۈنكى يۇقىرى ئۇنتۇش نىسبىتى خىزمەت ۋاقتىنى ئاشۇرۇۋېتىدۇ پايدىسى يوق.
 deck-config-seconds-to-show-question-tooltip-2 = ئۆزلۈكىدىن كۆرسىتىش ئاكتىپلاشقاندا، جاۋابنى ئۆزلۈكىدىن كۆرسىتىشتىن ئىلگىرى كۈتىدىغان ۋاقىت بىرلىكى سېكۇنت. 0 گە تەڭشەلسە چەكلەيدۇ.
 deck-config-invalid-weights = پارامېتىر چوقۇم ئىنگلىزچە 17 پەش «,» بىلەن ئايرىلغان سان بولۇشى ياكى كۆڭۈلدىكى قىممەتنى ئىشلىتىش ئۈچۈن بوش قالدۇرۇلۇشى كېرەك.
+deck-config-fsrs-on-all-clients = Anki خېرىدار پىروگراممىڭىزنىڭ Anki(Mobile) 23.10+ ياكى 2.17+ بولۇشىغا كاپالەتلىك قىلىڭ. ئەگەر خېرىدار پىروگراممىسى كونىراق بولسا، FSRS توغرا ئىشلىمەسلىكى مۇمكىن.
