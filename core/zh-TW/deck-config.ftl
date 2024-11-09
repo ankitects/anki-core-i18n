@@ -81,17 +81,17 @@ deck-config-new-gather-priority = 新卡片收集順序
 deck-config-new-gather-priority-tooltip-2 =
     `牌組順序`：依子牌組順序，由上至下收集卡片。子牌組中的卡片依遞增順序收集。若所選牌組已達每日上限，收集卡片時可能不會檢查到順序較後的牌組。此選項在較大的集合中速度最快，並讓你能夠優先學習順序較前的子牌組。
     
-    `遞增順序`：依遞增順序（到期序號 #）收集卡片，通常為舊卡片優先。
+    `順序遞增`：依遞增順序（到期序號 #）收集卡片，通常為舊卡片優先。
     
-    `遞減順序`：依遞減順序（到期序號 #）收集卡片，通常為新卡片優先。
+    `順序遞減`：依遞減順序（到期序號 #）收集卡片，通常為新卡片優先。
     
     `隨機筆記`：隨機選取筆記，然後收集筆記中所有卡片。
     
     `隨機卡片`：依隨機順序收集卡片。
 deck-config-new-gather-priority-deck = 牌組順序
 deck-config-new-gather-priority-deck-then-random-notes = 牌組→隨機筆記
-deck-config-new-gather-priority-position-lowest-first = 遞增順序
-deck-config-new-gather-priority-position-highest-first = 遞減順序
+deck-config-new-gather-priority-position-lowest-first = 順序遞增
+deck-config-new-gather-priority-position-highest-first = 順序遞減
 deck-config-new-gather-priority-random-notes = 隨機筆記
 deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
@@ -131,7 +131,8 @@ deck-config-sort-order-ascending-ease = 輕鬆度遞增
 deck-config-sort-order-descending-ease = 輕鬆度遞減
 deck-config-sort-order-ascending-difficulty = 簡單卡片優先
 deck-config-sort-order-descending-difficulty = 困難卡片優先
-deck-config-sort-order-relative-overdueness = 相對逾期跨度
+deck-config-sort-order-retrievability-ascending = 留存機率遞增
+deck-config-sort-order-retrievability-descending = 留存機率遞減
 deck-config-display-order-will-use-current-deck = 顯示順序以你選取的牌組為準，子牌組的設定不會生效。
 
 ## Timer section
@@ -191,6 +192,7 @@ deck-config-easy-days-sunday = 星期日
 deck-config-easy-days-normal = 正常
 deck-config-easy-days-reduced = 減少
 deck-config-easy-days-minimum = 最少
+deck-config-easy-days-no-normal-days = 至少應有一天設定為「{ deck-config-easy-days-normal }」。
 
 ## Adding/renaming
 
