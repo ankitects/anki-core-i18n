@@ -168,7 +168,8 @@ deck-config-sort-order-ascending-ease = 按简易度升序
 deck-config-sort-order-descending-ease = 按简易度降序
 deck-config-sort-order-ascending-difficulty = 简单卡片优先
 deck-config-sort-order-descending-difficulty = 困难卡片优先
-deck-config-sort-order-relative-overdueness = 按相对逾期程度
+deck-config-sort-order-retrievability-ascending = 按记忆可保留性升序
+deck-config-sort-order-retrievability-descending = 按记忆可保留降序
 deck-config-display-order-will-use-current-deck =
     将按所选牌组设定的顺序学习，
     其全部子牌组的设定已被忽略。
@@ -245,6 +246,7 @@ deck-config-easy-days-sunday = 周日
 deck-config-easy-days-normal = 正常
 deck-config-easy-days-reduced = 减少
 deck-config-easy-days-minimum = 最少
+deck-config-easy-days-no-normal-days = 至少一天应设置为「{ deck-config-easy-days-normal }」。
 
 ## Adding/renaming
 
@@ -317,7 +319,6 @@ deck-config-historical-retention = 历史记忆保留率
 deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记录。
 deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
-deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
 deck-config-predicted-minimum-recommended-retention = 推荐的最小记忆保留率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 迭代次数：{ $count }…
@@ -434,3 +435,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     并不推荐将您期望的记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
 deck-config-seconds-to-show-question-tooltip-2 = 启用自动前进时，自动显示答案前等待的秒数。设置为 0 以禁用。
 deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
+deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
