@@ -42,7 +42,7 @@ media-check-checked = { $count } тексерілді...
 
 media-check-delete-unused-confirm = Қолданылмаған медианы жою?
 media-check-files-remaining = { $count } файл қалды.
-media-check-delete-unused-complete = { $count } файл себетке көштірілді.
+media-check-delete-unused-complete = { $count } файл себетке жылжытылды.
 media-check-trash-emptied = Себет қалтасы бос.
 media-check-trash-restored = Жойылған файлдар медиа қалтасына қайтарылды.
 
