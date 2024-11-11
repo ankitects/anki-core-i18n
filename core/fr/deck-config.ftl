@@ -159,7 +159,8 @@ deck-config-sort-order-ascending-ease = Facilité croissante
 deck-config-sort-order-descending-ease = Facilité décroissante
 deck-config-sort-order-ascending-difficulty = Difficulté croissante
 deck-config-sort-order-descending-difficulty = Difficulté décroissante
-deck-config-sort-order-relative-overdueness = Échéance dépassée relative
+deck-config-sort-order-retrievability-ascending = Retrouvabilité ascendante
+deck-config-sort-order-retrievability-descending = Retrouvabilité descendante
 deck-config-display-order-will-use-current-deck =
     Anki va utiliser l'ordre d'affichage du paquet que vous
     avez sélectionné pour étudier, et non ceux des sous-paquets qu'il peut avoir.
@@ -237,6 +238,7 @@ deck-config-easy-days-sunday = Dimanche
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Réduit
 deck-config-easy-days-minimum = Minimum
+deck-config-easy-days-no-normal-days = Au moins un jour doit être paramétré sur "{ deck-config-easy-days-normal }".
 
 ## Adding/renaming
 
