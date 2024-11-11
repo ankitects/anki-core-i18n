@@ -12,6 +12,7 @@ actions-decks = رزم
 actions-decrement-value = إنقاص القيمة
 actions-delete = حذف
 actions-export = تصدير
+actions-empty-cards = بطاقات فارغة
 actions-filter = فلتر
 actions-help = مساعدة
 actions-increment-value = رفع القيمة

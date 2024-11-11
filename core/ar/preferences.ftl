@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = أظهر عدد البطاقات الم�
 preferences-some-settings-will-take-effect-after = ستُفعَّل بعض الإعدادات بعد إعادة تشغيل أنكي.
 preferences-tab-synchronisation = المزامنة
 preferences-synchronize-audio-and-images-too = مزامنة التسجيلات الصوتية والصور أيضًا
-preferences-not-logged-in = ليس مربوطًا مع أنكي ويب حاليًا.
 preferences-login-successful-sync-now = تم تسجيل الدخول. هل تريد حفظ التفضيلات والمزامنة الآن؟
 preferences-timebox-time-limit = مهلة تقسيم المهام
 preferences-user-interface-size = حجم واجهة المستخدم
@@ -41,6 +40,7 @@ preferences-theme-follow-system = حسب النظام
 preferences-theme-light = ساطع
 preferences-theme-dark = داكن
 preferences-v3-scheduler = مجدول V3
+preferences-check-for-updates = تحقق من تحديثات البرنامج
 preferences-ignore-accents-in-search = تجاهل حركات الأحرف في البحث (أبطأ)
 preferences-backup-explanation =
     يأخذ أنكي نسخ احتياطية لمجموعتك بشكل دوري. سيبدأ أنكي بحذف بعض النسخ
@@ -77,9 +77,15 @@ preferences-network-timeout = مهلة الشبكة
 preferences-reset-window-sizes = تصفير أحجام النوافذ
 preferences-reset-window-sizes-complete = تم تصفير أحجام النوافذ ومواقعها.
 preferences-shortcut-placeholder = أدخل اختصارًا غير مستخدم أو اترك الحقل فارغًا لتعطيله.
+preferences-third-party-services = خدمات خارجية
+preferences-ankihub-not-logged-in = ليس مربوطًا مع AnkiHub حاليًا.
+preferences-ankiweb-intro = أنكي ويب هي خدمة تسمح له بمزامنة البطاقات بين الأجهزة وتوفر طريقة لاسترجاع بياناتك إذا تعطل جهازك أو ضاع.
+preferences-ankihub-intro = يوفر AnkiHub خدمة تحرير الرزم التعاونية وأدوات دراسة إضافية. يتطلب اشتراك مدفوع للوصول لبعض الميزات.
+preferences-third-party-description = الخدمات الخارجية لا تنتمي لأنكي ولا نروج لها. قد يتطلب استخدام هذه الخدمات الدفع.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = أساسي
 preferences-reviewer = شاشة المراجعة
 preferences-media = الوسائط
+preferences-not-logged-in = ليس مربوطًا مع أنكي ويب حاليًا.

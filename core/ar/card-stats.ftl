@@ -23,11 +23,18 @@ card-stats-review-log-type-review = مراجعة
 card-stats-review-log-type-relearn = في طور إعادة التعلم
 card-stats-review-log-type-filtered = مفلتر
 card-stats-review-log-type-manual = يدوي
+card-stats-review-log-type-rescheduled = معاد جدولتها
+card-stats-review-log-elapsed-time = الوقت الماضي
 card-stats-no-card = (لا توجد بطاقة لعرضها.)
 card-stats-custom-data = بيانات مخصصة
 card-stats-fsrs-stability = استقرار
 card-stats-fsrs-difficulty = صعوبة
 card-stats-fsrs-retrievability = إمكانية الاسترجاع
+card-stats-fsrs-forgetting-curve-title = منحنى النسيان
+card-stats-fsrs-forgetting-curve-first-week = الأسبوع الأول
+card-stats-fsrs-forgetting-curve-first-month = الشهر الأول
+card-stats-fsrs-forgetting-curve-first-year = السنة الأولى
+card-stats-fsrs-forgetting-curve-all-time = كل الوقت
 
 ## Window Titles
 

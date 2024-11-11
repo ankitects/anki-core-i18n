@@ -90,6 +90,7 @@ browsing-reschedule = إعادة جدولة
 browsing-search-bar-hint = بحث في البطاقات/الملحوظات (أدخل نصًا، ثم اضغط Enter)
 browsing-search-in = بحث في:
 browsing-search-within-formatting-slow = البحث خلال المحتوى المنسق (بطيء)
+browsing-select-deck = تحديد الرزمة
 browsing-selected-notes-only = الملحوظات المحددة فقط
 browsing-shift-position-of-existing-cards = غير موضع البطاقات الموجودة
 browsing-sidebar = الشريط الجانبي

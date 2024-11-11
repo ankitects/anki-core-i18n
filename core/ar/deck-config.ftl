@@ -208,7 +208,8 @@ deck-config-sort-order-ascending-ease = سهولة متصاعدة
 deck-config-sort-order-descending-ease = سهولة متناقصة
 deck-config-sort-order-ascending-difficulty = صعوبة متصاعدة
 deck-config-sort-order-descending-difficulty = صعوبة متناقصة
-deck-config-sort-order-relative-overdueness = التأخر النسبي
+deck-config-sort-order-retrievability-ascending = إمكانية الاسترجاع تصاعديًا
+deck-config-sort-order-retrievability-descending = إمكانية الاسترجاع تنازليًا
 deck-config-display-order-will-use-current-deck =
     سيستخدم أنكي ترتيب العرض من الرزمة 
     التي تحددها لدراستها، وليس أي رزمة فرعية لها.
@@ -278,6 +279,21 @@ deck-config-minimum-interval-tooltip = الفاصل الأدنى المعطى ل
 deck-config-custom-scheduling = جدولة مخصصة
 deck-config-custom-scheduling-tooltip = يؤثر بكل المجموعة. استخدم على مسؤوليتك الخاصة!
 
+# Easy Days section
+
+deck-config-easy-days-title = الأيام السهلة
+deck-config-easy-days-monday = الاثنين
+deck-config-easy-days-tuesday = الثلاثاء
+deck-config-easy-days-wednesday = الأربعاء
+deck-config-easy-days-thursday = الخميس
+deck-config-easy-days-friday = الجمعة
+deck-config-easy-days-saturday = السبت
+deck-config-easy-days-sunday = الأحد
+deck-config-easy-days-normal = عادي
+deck-config-easy-days-reduced = مخفض
+deck-config-easy-days-minimum = أدنى
+deck-config-easy-days-no-normal-days = يجب ضبط يوم واحد على الأقل إلى '{ deck-config-easy-days-normal }'.
+
 ## Adding/renaming
 
 deck-config-add-group = إضافة مجموعة
@@ -339,7 +355,7 @@ deck-config-which-deck = ما الرزمة التي تريد عرض خيارات
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = تحديث البطاقات: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = يجب ترك الأوزان فارغة لاستخدام الإعدادات الافتراضية، أو يجب أن تكون 17 رقما مفصولة بفواصل.
+deck-config-invalid-parameters = عوامل FSRS المزودة غير صالحة. أبق الحقل فارغًا لاستخدام العوامل الافتراضية.
 deck-config-not-enough-history = محفوظات المراجعة غير كافية لتنفيذ هذه العملية.
 deck-config-unable-to-determine-desired-retention = فشل تعيين معدل تذكر أمثل.
 deck-config-must-have-400-reviews =
@@ -365,9 +381,6 @@ deck-config-historical-retention = معدل التذكر التاريخي
 deck-config-smaller-is-better = تشير الأرقام الأصغر إلى ملاءمة أفضل لسجل المراجعة الخاص بك.
 deck-config-steps-too-large-for-fsrs = عند تمكين FSRS، لا يوصى بخطوات (إعادة) التعلم بين الأيام.
 deck-config-get-params = الحصول على المعلمات.
-deck-config-fsrs-on-all-clients =
-    يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
-    بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
 deck-config-predicted-minimum-recommended-retention = معدل التذكر الأدنى المستحسن: { $num }
 deck-config-complete = اكتمل { $num }%.
 deck-config-iterations = التكرار: { $count }...
@@ -509,3 +522,7 @@ deck-config-compute-optimal-retention-tooltip3 =
     قد ترغب باستخدام قيمة أكبر إذا كنت تريد ضمان تذكر أفضل على حساب وقت دراسة أطول.
     لا ينصح باستخدام قيمة أصغر من القيمة المستحسنة لأن هذا سيؤدي إلى جهد أكبر بدون عائد.
 deck-config-seconds-to-show-question-tooltip-2 = عندما يكون التقديم التلقائي مفعلًا، يحدد هذا عدد الثواني قبل إظهار الجواب. أدخل 0 للتعطيل.
+deck-config-invalid-weights = يجب ترك الأوزان فارغة لاستخدام الإعدادات الافتراضية، أو يجب أن تكون 17 رقما مفصولة بفواصل.
+deck-config-fsrs-on-all-clients =
+    يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
+    بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.

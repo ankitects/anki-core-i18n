@@ -53,6 +53,11 @@ sync-upload-too-large =
     حجم ملف مجموعتك كبير جدًا ليتم إرساله إلى أنكي ويب. تستطيع تقليل
     الحجم بحذف الرزم التي لا تريدها (بعد تصديرها أولا إذا أردت)، ثم
     استخدام أداة فحص قاعدة البيانات لتقليص الملف. ({ $details })
+sync-sign-in = تسجيل الدخول
+sync-ankihub-dialog-heading = تسجيل الدخول إلى AnkiHub
+sync-ankihub-username-label = اسم المستخدم أو البريد الإلكتروني:
+sync-ankihub-login-failed = تعذر تسجيل الدخول إلى AnkiHub باستخدام المعلومات المزودة.
+sync-ankihub-addon-installation = تثبيت إضافة AnkiHub
 
 ## Buttons
 

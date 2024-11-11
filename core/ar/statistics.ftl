@@ -76,6 +76,15 @@ statistics-cards =
         [many] { $cards } بطاقة
        *[other] { $cards } بطاقة
     }
+statistics-notes =
+    { $notes ->
+        [zero] { $notes } بطاقة
+        [one] بطاقة واحدة
+        [two] بطاقتين
+        [few] { $notes } بطاقات
+        [many] { $notes } بطاقة
+       *[other] { $notes } بطاقة
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -116,6 +125,18 @@ statistics-counts-learning-cards = في طور التعلم
 statistics-counts-relearning-cards = في طور إعادة التعلم
 statistics-counts-title = عدد البطاقات
 statistics-counts-separate-suspended-buried-cards = فصل البطاقات المعلقة/المدفونة
+statistics-true-retention-title = الحفظ الحقيقي
+statistics-true-retention-subtitle = معدل النجاح للبطاقات بفاصل ≥ يوم.
+statistics-true-retention-range = النطاق
+statistics-true-retention-pass = ناجح
+statistics-true-retention-fail = فاشل
+statistics-true-retention-retention = الحفظ
+statistics-true-retention-today = اليوم
+statistics-true-retention-yesterday = البارحة
+statistics-true-retention-week = آخر أسبوع
+statistics-true-retention-month = آخر شهر
+statistics-true-retention-year = آخر سنة
+statistics-true-retention-all-time = كل الوقت
 statistics-range-all-time = مدى حياة الرزمة
 statistics-range-1-year-history = آخر 12 شهرًا
 statistics-range-all-history = كل التاريخ
@@ -280,6 +301,7 @@ statistics-average-answer-time-label = معدل زمن الإجابة
 statistics-average = المعدل
 statistics-average-interval = معدل الفاصل الزمني
 statistics-due-tomorrow = مستحقة غدًا
+statistics-daily-load = العبء اليومي
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } من { $total } ({ $percent }%)
 statistics-average-over-period = إذا درست كل يوم
@@ -313,6 +335,7 @@ statistics-cards-per-day =
 statistics-average-ease = معدل السهولة
 statistics-average-difficulty = معدل الصعوبة
 statistics-average-retrievability = معدل إمكانية الاسترجاع
+statistics-estimated-total-knowledge = إجمالي المعرفة المقدرة
 statistics-save-pdf = حفظ كـ PDF
 statistics-saved = تم الحفظ.
 statistics-stats = إحصائيات
