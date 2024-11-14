@@ -85,7 +85,7 @@ scheduling-today-new-limit-reached =
 scheduling-buried-cards-found = Eine oder mehrere Karten wurden zurückgestellt und werden morgen gezeigt. Die Zurückstellung kann { $unburyThem } werden, um sie direkt anzuzeigen.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = aufgehoben
+scheduling-unbury-them = die Zurückstellung aufheben
 scheduling-how-to-custom-study = Wenn außerhalb des regulären Zeitplans gelernt werden soll, kann die { $customStudy }-Funktion genutzt werden.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."

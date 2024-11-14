@@ -61,7 +61,7 @@ deck-config-leech-threshold-tooltip = Wie oft der „Nochmal“-Knopf gedrückt 
 deck-config-leech-action-tooltip =
     `Nur verschlagworten`: Füge der Notiz das Schlagwort „leech“ hinzu und zeige ein Pop-up an.
     
-    `Karte aussetzen`: Zusätzlich zum Verschlagworten der Notiz wird die Karte ausgesetzt, bis sie manuell wieder aktiviert wird.
+    `Karte ausschließen`: Zusätzlich zum Verschlagworten der Notiz wird die Karte ausgeschlossen, bis sie manuell wieder aktiviert wird.
 
 ## Burying section
 
