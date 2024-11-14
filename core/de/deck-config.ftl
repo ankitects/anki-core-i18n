@@ -79,7 +79,7 @@ deck-config-bury-interday-learning-tooltip =
     Ob andere `zu lernende` Karten derselben Notiz mit Intervallen > 1 Tag
     bis zum nächsten Tag verschoben werden.
 deck-config-bury-priority-tooltip =
-    Wenn Anki die Karten zusammenstellt, dann sammelt es zuerst die Lernkarten, dann die mehrtägigen Lernkarten, dann die Wiederholungskarten, und schlussendlich die neuen Karten ein. Dies beeinflusst die Arbeitsweise, wie das Zurückstellen von Karten funktioniert:
+    Wenn Anki die Karten zusammenstellt, dann sammelt es zuerst die Lernkarten, dann die mehrtägigen Lernkarten, dann die Wiederholungskarten, und schlussendlich die neuen Karten ein. Dies beeinflusst die Arbeitsweise, wie die Zurückstellung von Karten funktioniert:
     
     - If you have all burying options enabled, the sibling that comes earliest in
     that list will be shown. For example, a review card will be shown in preference
