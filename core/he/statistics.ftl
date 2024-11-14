@@ -62,6 +62,12 @@ statistics-cards =
         [many] { $cards } כרטיסים
        *[other] { $cards } כרטיסים
     }
+statistics-notes =
+    { $notes ->
+        [one] רשומה אחת
+        [two] שתי רשומות
+       *[other] { $notes } רשומות
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -237,6 +243,7 @@ statistics-average-answer-time-label = זמן תשובה ממוצע
 statistics-average = ממוצע
 statistics-average-interval = מרווח ממוצע
 statistics-due-tomorrow = מתוזמן למחר
+statistics-daily-load = עומס יומי
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } מתוך { $total } ({ $percent }%)
 statistics-average-over-period = אם למדת כל יום

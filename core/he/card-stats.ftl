@@ -23,6 +23,7 @@ card-stats-review-log-type-review = חזרה
 card-stats-review-log-type-relearn = ‏‏לימוד חוזר
 card-stats-review-log-type-filtered = מסונן
 card-stats-review-log-type-manual = ידני
+card-stats-review-log-type-rescheduled = תוזמן מחדש
 card-stats-review-log-elapsed-time = זמן שחלף
 card-stats-no-card = (אין כרטיסים להצגה.)
 card-stats-custom-data = נתונים מותאמים אישית

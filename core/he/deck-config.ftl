@@ -197,7 +197,8 @@ deck-config-sort-order-ascending-ease = קלות עולה
 deck-config-sort-order-descending-ease = קלות יורדת
 deck-config-sort-order-ascending-difficulty = קושי בסדר עולה
 deck-config-sort-order-descending-difficulty = קושי בסדר יורד
-deck-config-sort-order-relative-overdueness = איחור יחסי
+deck-config-sort-order-retrievability-ascending = יכולת אחזור עולה
+deck-config-sort-order-retrievability-descending = יכולת אחזור יורדת
 deck-config-display-order-will-use-current-deck =
     אנקי ישתמש בהגדרת סדר החזרות לפי החפיסה שאתה 
     בוחר ללמוד, ולא לפי ההגדרות של תתי -החפיסה שלה.
@@ -278,6 +279,7 @@ deck-config-easy-days-sunday = יום ראשון
 deck-config-easy-days-normal = רגיל
 deck-config-easy-days-reduced = מופחת
 deck-config-easy-days-minimum = מינימום
+deck-config-easy-days-no-normal-days = לפחות יום אחד צריך להיות מוגדר ל '{ deck-config-easy-days-normal }'.
 
 ## Adding/renaming
 
@@ -358,9 +360,6 @@ deck-config-historical-retention = שימור היסטורי
 deck-config-smaller-is-better = מספרים קטנים יותר מצביעים על התאמה טובה יותר להיסטוריית החזרות שלך.
 deck-config-steps-too-large-for-fsrs = כאשר FSRS מופעל, שלבי למידה במשך יום 1 אינם מומלצים.
 deck-config-get-params = קבל פרמטרים
-deck-config-fsrs-on-all-clients =
-    אנא ודא שכל גרסאות Anki בכל המכשירים שלך הם Anki(Mobile) 23.10+ או AnkiDroid 2.17+. 
-    FSRS לא יעבוד כראוי אם באחד מהמכשירים שלך אתה משתמש בAnki מתחת לגרסאות אלו.
 deck-config-predicted-minimum-recommended-retention = שמירה מינימלית מומלצת: { $num }
 deck-config-complete = { $num } % הושלם.
 deck-config-iterations = ביצוע: { $count }...
@@ -485,3 +484,6 @@ deck-config-compute-optimal-retention-tooltip3 =
     הגדרת ערך שמירה הרצויה נמוך מהמינימום אינה מומלצת, ועלולה להוביל לעומס חזרות גבוה יותר, בגלל שיעור השכחה הגבוה.
 deck-config-seconds-to-show-question-tooltip-2 = מספר השניות שיש להמתין לפני גילוי התשובה כאשר התקדמות אוטומטית מופעלת. הגדר ל0 כדי להשבית.
 deck-config-invalid-weights = משקלים חייבים להיות ריקים כדי להשתמש בברירות המחדל, או חייבים להיות 17 מספרים מופרדים בפסיקים.
+deck-config-fsrs-on-all-clients =
+    אנא ודא שכל גרסאות Anki בכל המכשירים שלך הם Anki(Mobile) 23.10+ או AnkiDroid 2.17+. 
+    FSRS לא יעבוד כראוי אם באחד מהמכשירים שלך אתה משתמש בAnki מתחת לגרסאות אלו.
