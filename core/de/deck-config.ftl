@@ -65,19 +65,13 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = Zurückstellen
+deck-config-bury-title = Zurückstellung
 deck-config-bury-new-siblings = Neue Geschwister zurückstellen
 deck-config-bury-review-siblings = Geschwister in Wiederholungskarten zurückstellen
 deck-config-bury-interday-learning-siblings = Geschwister in mehrtägigem Lernen zurückstellen
-deck-config-bury-new-tooltip =
-    Ob andere `neue` Karten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
-    bis zum nächsten Tag verschoben werden.
-deck-config-bury-review-tooltip =
-    Ob andere Wiederholungskarten derselben Notiz (z.B. umgekehrte Karten, angrenzende Lückentexte)
-    bis zum nächsten Tag verschoben werden.
-deck-config-bury-interday-learning-tooltip =
-    Ob andere `zu lernende` Karten derselben Notiz mit Intervallen > 1 Tag
-    bis zum nächsten Tag verschoben werden.
+deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. umgedrehte Karten oder benachbarte Lückentexte) auf den nächsten Tag verschoben werden.
+deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag verschoben werden.
+deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag verschoben werden.
 deck-config-bury-priority-tooltip =
     Wenn Anki die Karten zusammenstellt, dann sammelt es zuerst die Lernkarten, dann die mehrtägigen Lernkarten, dann die Wiederholungskarten, und schlussendlich die neuen Karten ein. Dies beeinflusst die Arbeitsweise, wie die Zurückstellung von Karten funktioniert:
     
@@ -230,7 +224,7 @@ deck-config-clone-group = Gruppe duplizieren
 ## Removing
 
 deck-config-remove-group = Gruppe entfernen
-deck-config-will-require-full-sync = Die angefragte Änderung wird ein vollständiges Hochladen der Datenbank bei der nächsten Synchronisation Ihrer Sammlung benötigen. Wenn Sie Wiederholungen oder andere Änderungen auf einem anderen Gerät haben, die hier noch nicht synchronisiert sind, dann werden diese verloren gehen.
+deck-config-will-require-full-sync = Die angefragte Änderung wird ein vollständiges Hochladen der Datenbank bei der nächsten Synchronisierung Ihrer Sammlung benötigen. Wenn Sie Wiederholungen oder andere Änderungen auf einem anderen Gerät haben, die hier noch nicht synchronisiert sind, dann werden diese verloren gehen.
 deck-config-confirm-remove-name = { $name } entfernen?
 
 ## Other Buttons
