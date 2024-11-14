@@ -165,15 +165,15 @@ deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Anzeigedauer der Frage (Sekunden)
-deck-config-seconds-to-show-question-tooltip-3 = Anzahl der Sekunden, die gewartet werden, bevor die Frage-Aktion angewendet wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
+deck-config-seconds-to-show-question-tooltip-3 = Anzahl der Sekunden, die gewartet werden, bevor die Frageaktion angewendet wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-seconds-to-show-answer = Anzeigedauer der Antwort (Sekunden)
 deck-config-seconds-to-show-answer-tooltip-2 = Wenn Automatisches Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwortaktion ausgeführt wird. Zum Ausschalten auf 0 setzen.
 deck-config-question-action-show-answer = Antwort anzeigen
 deck-config-question-action-show-reminder = Erinnerung anzeigen
-deck-config-question-action = Frage-Aktion
-deck-config-question-action-tool-tip = Was passieren soll, nachdem die Frageseite der Karte angezeigt und die eingestellte Zeit überschritten wurde.
-deck-config-answer-action = Antwort-Aktion
-deck-config-answer-action-tooltip-2 = Was passieren soll, nachdem die Frageseite der Karte angezeigt und die eingestellte Zeit überschritten wurde.
+deck-config-question-action = Frageaktion
+deck-config-question-action-tool-tip = Die Aktion, die ausgeführt werden soll, nachdem die Frage angezeigt und die eingestellte Zeit überschritten wurde.
+deck-config-answer-action = Antwortaktion
+deck-config-answer-action-tooltip-2 = Die Aktion, die ausgeführt werden soll, nachdem die Antwort angezeigt und die eingestellte Zeit überschritten wurde.
 deck-config-wait-for-audio-tooltip-2 = Das Ende des Audios abwarten, bevor die Frage- oder Antwortaktion angewendet wird.
 
 ## Audio section
@@ -353,9 +353,9 @@ deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-fsrs-params-optimal = Die FSRS-Parameter scheinen bereits optimal zu sein
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
-deck-config-answer-again = Mit „Nochmal“ ant­wor­ten
-deck-config-answer-hard = Mit „Schwer“ ant­wor­ten
-deck-config-answer-good = Mit „Gut“ ant­wor­ten
+deck-config-answer-again = Mit „Nochmal“ antworten
+deck-config-answer-hard = Mit „Schwer“ antworten
+deck-config-answer-good = Mit „Gut“ antworten
 deck-config-days-to-simulate = Zu simulierende Tage
 deck-config-desired-retention-below-optimal = Ihr gewünschter Retention ist nicht optimal. Es wird empfohlen, sie zu erhöhen.
 
@@ -369,11 +369,11 @@ deck-config-bury-if-new-review-or-interday = Zurückstellen, wenn Karte neu, zum
 deck-config-bury-tooltip =
     Geschwisterkarten sind andere Karten von der gleichen Notiz (z.B. Vorder- und Rückseite oder Lückentextkarten von dem gleichen Text).
     
-    Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten beantworten.
+    Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten wiederholen.
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
-deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort-Aktion angewendet wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
-deck-config-answer-action-tooltip = Was mit der aktuellen Karte gemacht werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
+deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
+deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
 deck-config-ignore-before-tooltip =
     Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
