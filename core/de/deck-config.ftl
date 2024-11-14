@@ -66,22 +66,17 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Zurückstellung
-deck-config-bury-new-siblings = Neue Geschwister zurückstellen
-deck-config-bury-review-siblings = Geschwister in Wiederholungskarten zurückstellen
-deck-config-bury-interday-learning-siblings = Geschwister in mehrtägigem Lernen zurückstellen
+deck-config-bury-new-siblings = Geschwisterkarten mit Status „Neu“ zurückstellen
+deck-config-bury-review-siblings = Geschwisterkarten mit Status „Wiederholung“ zurückstellen
+deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status „Mehrtägiges Lernen“ zurückstellen
 deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. umgedrehte Karten oder benachbarte Lückentexte) auf den nächsten Tag verschoben werden.
 deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag verschoben werden.
 deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag verschoben werden.
 deck-config-bury-priority-tooltip =
-    Wenn Anki die Karten zusammenstellt, dann sammelt es zuerst die Lernkarten, dann die mehrtägigen Lernkarten, dann die Wiederholungskarten, und schlussendlich die neuen Karten ein. Dies beeinflusst die Arbeitsweise, wie die Zurückstellung von Karten funktioniert:
+    Wenn Anki Karten zusammenträgt, werden zunächst die Lernkarten für den aktuellen Tag eingesammelt, danach die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und zuletzt den neuen Karten. Diese Reihenfolge hat Einfluss darauf, wie das Zurückstellung funktioniert:
     
-    - If you have all burying options enabled, the sibling that comes earliest in
-    that list will be shown. For example, a review card will be shown in preference
-    to a new card.
-    - Siblings later in the list can not bury earlier card types. For example, if you
-    disable burying of new cards, and study a new card, it will not bury any interday
-    learning or review cards, and you may see both a review sibling and new sibling in the
-    same session.
+    - Wenn alle Zurückstelloptionen aktiviert sind, wird die Geschwisterkarte angezeigt, die in dieser Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
+    - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht zurückstellen. Wenn Sie z. B. die Zurückstellung neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ zurückstellen. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
 
 ## Ordering section
 
