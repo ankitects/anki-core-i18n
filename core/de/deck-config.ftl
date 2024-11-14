@@ -94,7 +94,7 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Anzeigereihenfolge
 deck-config-new-gather-priority = Reihenfolge für das Sammeln neuer Karten
 deck-config-new-gather-priority-tooltip-2 =
-    `Stapel`: sammelt Karten der Reihe nach von jedem Stapel, oben beginnend. Für jeden Stapel werden Karten in aufsteigender Position gesammelt. Wenn der Grenzwert des ausgewählten Stapels erreicht ist, kann das Sammeln aufhören, bevor alle Stapel erreicht wurden. Diese Reihenfolge ist die schnellste für große Sammlungen und ermöglicht die Priorisierung von Stapeln, die weiter oben sind.
+    `Stapel`: sammelt Karten der Reihe nach von jedem Unterstapel, oben beginnend. Für jeden Unterstapel werden Karten in aufsteigender Position gesammelt. Wenn der Grenzwert des ausgewählten Stapels erreicht ist, kann das Sammeln aufhören, bevor alle Unterstapel erreicht wurden. Diese Reihenfolge ist die schnellste für große Sammlungen und ermöglicht die Priorisierung von Unterstapeln, die weiter oben sind.
     
     `Aufsteigende Position`: sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
     
@@ -136,7 +136,7 @@ deck-config-review-mix-mix-with-reviews = Mit Wiederholungen vermischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
 deck-config-review-sort-order = Wiederholsortierreihenfolge
-deck-config-review-sort-order-tooltip = Die Standardreihenfolge priorisiert Karten, die am längsten gewartet haben. Wenn Sie einen Rückstand an Wiederholungen haben, werden dadurch diejenigen, die am längsten gewartet haben, zuerst angezeigt. Wenn Sie einen großen Rückstand haben, der mehr als einige Tage benötigt, um ihn aufzuholen, dann finden Sie ggf. eine andere Sortierreihenfolge vorteilhafter.
+deck-config-review-sort-order-tooltip = Die Standardreihenfolge priorisiert Karten, die am längsten gewartet haben. Wenn Sie einen Rückstand an Wiederholungen haben, werden dadurch diejenigen, die am längsten gewartet haben, zuerst angezeigt. Wenn Sie einen großen Rückstand haben, der mehr als einige Tage benötigt, um ihn aufzuholen, oder Sie Karten geordnet nach Unterstapeln sehen wollen, dann finden Sie ggf. eine andere Sortierreihenfolge vorteilhafter.
 deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
 deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
 deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
@@ -336,7 +336,7 @@ deck-config-compute-optimal-weights-tooltip2 =
 deck-config-compute-optimal-retention-tooltip4 =
     Dieses Tool versucht, den Retention-Wert zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
     
-    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren, um eine bessere Retention zu erzielen. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren, um eine bessere Retention zu erzielen. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
 deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
@@ -399,7 +399,7 @@ deck-config-compute-optimal-retention-tooltip2 =
 deck-config-compute-optimal-retention-tooltip3 =
     Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen und versucht, den Retention-Wert zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. Für eine präzise Simulation Ihres Lernfortschritts sind mindestens 400 Wiederholungen erforderlich.
     
-    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren, um eine bessere Retention zu erzielen. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren, um eine bessere Retention zu erzielen. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
 deck-config-seconds-to-show-question-tooltip-2 = Wenn Automatisches Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
 deck-config-fsrs-on-all-clients = FSRS funktioniert nur richtig, wenn alle genutzten Apps die Mindestanforderungen erfüllen (Anki und AnkiMobile ab 23.10, AnkiDroid ab 2.17).

@@ -80,7 +80,7 @@ scheduling-today-review-limit-reached =
 scheduling-today-new-limit-reached =
     Weitere neue Karten sind verfügbar, aber der Tageshöchstwert für neue Karten
     ist erreicht. Er kann in den Einstellungen erhöht werden, aber
-    bitte daran denken, dass die Anzahl kurzfristiger Wiederholungen
+    bitte daran denken, dass das Arbeitspensum kurzfristiger Wiederholungen
     umso größer wird, je mehr neue Karten eingesetzt werden.
 scheduling-buried-cards-found = Eine oder mehrere Karten wurden zurückgestellt und werden morgen gezeigt. Die Zurückstellung kann { $unburyThem } werden, um sie direkt anzuzeigen.
 # used in scheduling-buried-cards-found
@@ -142,7 +142,7 @@ scheduling-review = Wiederholen
 scheduling-reviews = Wiederholungen
 scheduling-seconds = Sekunden
 scheduling-set-all-decks-below-to = Allen Teilstapeln von { $val } diese Optionengruppe zuweisen?
-scheduling-set-for-all-subdecks = Allen Teilstapeln zuweisen
+scheduling-set-for-all-subdecks = Allen Unterstapeln zuweisen
 scheduling-show-answer-timer = Antwortzeit anzeigen
 scheduling-show-new-cards-after-reviews = Zeige neue Karten nach Wiederholungskarten
 scheduling-show-new-cards-before-reviews = Zeige neue Karten vor Wiederholungskarten
