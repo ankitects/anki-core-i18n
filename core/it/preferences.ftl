@@ -40,7 +40,7 @@ preferences-theme-follow-system = Seguire il sistema
 preferences-theme-light = Chiaro
 preferences-theme-dark = Scuro
 preferences-v3-scheduler = Pianificatore V3
-preferences-check-for-updates = Verifica la presenza di aggiornamenti del programma
+preferences-check-for-updates = Verifica la presenza di aggiornamenti per il programma
 preferences-ignore-accents-in-search = Ignora accenti nelle ricerche (più lento)
 preferences-backup-explanation =
     Anki esegue periodicamente il backup della collezione. Trascorsi 2 giorni dall'ultimo backup,
