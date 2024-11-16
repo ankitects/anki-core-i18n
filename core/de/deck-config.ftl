@@ -83,19 +83,19 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Anzeigereihenfolge
 deck-config-new-gather-priority = Reihenfolge für das Einsammeln neuer Karten
 deck-config-new-gather-priority-tooltip-2 =
-    `Stapel`: sammelt Karten der Reihe nach von jedem Unterstapel, oben beginnend. Für jeden Unterstapel werden Karten in aufsteigender Position gesammelt. Wenn der Grenzwert des ausgewählten Stapels erreicht ist, kann das Sammeln aufhören, bevor alle Unterstapel erreicht wurden. Diese Reihenfolge ist die schnellste für große Sammlungen und ermöglicht die Priorisierung von Unterstapeln, die weiter oben sind.
+    `Stapel`: Sammelt Karten aus jedem Unterstapel der Reihe nach ein, beginnend beim obersten. Innerhalb der Unterstapel erfolgt das Einsammeln in aufsteigender Positionsnummer. Wird der Tageshöchstwert des ausgewählten Stapels erreicht, stoppt das Einsammeln, bevor alle Unterstapel durchlaufen sind. Dieses Vorgehen ist bei großen Sammlungen besonders schnell und priorisiert Unterstapel, die weiter oben stehen.
     
-    `Aufsteigende Position`: sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
+    `Positionsnummer, aufsteigend`: Sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge ein. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
     
-    `Absteigende Position`: sammelt Karten nach Positionsnummer in absteigender Reihenfolge. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
+    `Positionsnummer, absteigend`: Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
     
-    `Zufällige Notizen`: sammelt Karten von zufällig ausgewählten Notizen. Wenn die Geschwisterzurückstellung deaktiviert ist, können so alle Karten einer Notiz in derselben Einheit gelernt werden (z.B. sowhl Vorderseite→Rückseite als auch Rückseite→Vorderseite),
+    `Zufällige Notizen`: Wählt Notizen zufällig aus und sammelt jeweils alle dazugehörigen Karten in einem Durchgang ein.
     
-    `Zufällige Karten`: sammelt Karten vollkommen zufällig.
+    `Zufällige Karten`: Sammelt Karten in zufälliger Reihenfolge ein.
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-deck-then-random-notes = Zuerst Stapel, dann zufällige Notizen
-deck-config-new-gather-priority-position-lowest-first = Aufsteigende Position
-deck-config-new-gather-priority-position-highest-first = Absteigende Position
+deck-config-new-gather-priority-position-lowest-first = Positionsnummer, aufsteigend
+deck-config-new-gather-priority-position-highest-first = Positionsnummer, absteigend
 deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge neuer Karten
