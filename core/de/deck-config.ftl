@@ -89,7 +89,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Positionsnummer, absteigend`: Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
     
-    `Zufällige Notizen`: Wählt Notizen zufällig aus und sammelt jeweils alle dazugehörigen Karten in einem Durchgang ein.
+    `Zufällige Notizen`: Wählt Notizen zufällig aus und sammelt dann jeweils alle dazugehörigen Karten in einem Durchgang ein.
     
     `Zufällige Karten`: Sammelt Karten in zufälliger Reihenfolge ein.
 deck-config-new-gather-priority-deck = Stapel
@@ -100,23 +100,23 @@ deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge neuer Karten
 deck-config-new-card-sort-order-tooltip-2 =
-    `Kartenvorlage`: Zeigt Karten in Reihenfolge ihrer Vorlagennummer. Wenn die Geschwisterzurückstellung deaktiviert ist, werden so alle Vorderseite→Rückseite-Karten vor allen Rückseite→Vorderseite-Karten gezeigt.
+    `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
     
-    `Sammelreihenfolge`: Zeigt Karten genau wie sie gesammelt wurde. Wenn die Geschwisterzurückstellung deaktiviert ist, werden so typischerweise alle Karten einer Notiz nacheinander gezeigt.
+    `Einsammelreihenfolge`: Zeigt Karten in der Reihenfolge, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, wird dies typischerweise dazu führen, dass alle Karten einer Notiz direkt hintereinander angezeigt werden.
     
-    `Kartenvorlage, dann zufällig`: Wie `Kartenvorlage`, aber mischt die Karten jeder Vorlage. Kombiniert mit der Sammelreihenfolge in aufsteigender Position,  können so die ältesten Karten in zufälliger Reihenfolge gezeigt werden.
+    `Kartentyp, dann zufällig`:  Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in zufälliger Reihenfolge angezeigt.  Dieses Verfahren ist nützlich, wenn Sie nicht möchten, dass Geschwisterkarten zu kurz hintereinander erscheinen, aber dennoch die Karten in zufälliger Reihenfolge sehen möchten.
     
-    `Zufällige Notiz, dann Kartenvorlage`: Wählt zufällige Notizen und zeigt für jede all ihre Geschwisterkarten der Reihe nach.
+    `Zufällige Notiz, dann Kartentyp`: Wählt Notizen zufällig aus und zeigt dann jeweils alle Karten dieser Notiz nach Kartentyp geordnet an.
     
-    `Zufällig`: Mischt die gesammelten Karten.
+    `Zufällig`: Zeigt Karten in zufälliger Reihenfolge an.
 deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
-deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartenvorlage
+deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartentyp
 deck-config-sort-order-random = Zufällig
-deck-config-sort-order-template-then-gather = Kartenvorlage
-deck-config-sort-order-gather = Sammelreihenfolge
-deck-config-new-review-priority = Reihenfolge Neu/Wiederholung
-deck-config-new-review-priority-tooltip = Wann neue Karten relativ zu Wiederholungskarten angezeigt werden.
-deck-config-interday-step-priority = Reihenfolge Wiederholung/mehrtägiges Lernen
+deck-config-sort-order-template-then-gather = Kartentyp, dann Einsammelreihenfolge
+deck-config-sort-order-gather = Einsammelreihenfolge
+deck-config-new-review-priority = Wann neue Karten anzeigen
+deck-config-new-review-priority-tooltip = Wann neue Karten im Verhältnis zu Wiederholungskarten angezeigt werden.
+deck-config-interday-step-priority = Wann Karten im „mehrtägigen Lernen” anzeigen
 deck-config-interday-step-priority-tooltip =
     Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Taggrenze überschreiten.
     
@@ -137,10 +137,7 @@ deck-config-sort-order-ascending-difficulty = Nach Schwierigkeit, aufsteigend
 deck-config-sort-order-descending-difficulty = Nach Schwierigkeit, absteigend
 deck-config-sort-order-retrievability-ascending = Abrufbarkeit, aufsteigend
 deck-config-sort-order-retrievability-descending = Abrufbarkeit, absteigend
-deck-config-display-order-will-use-current-deck =
-    Anki wird die Anzeigereihenfolge von dem Stapel, den Sie 
-    zum Lernen ausgewählt haben, und keine Unterstapel, 
-    die dieser Stapel hat, benutzen.
+deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschließlich die Anzeigereihenfolge des gewählten Stapels, nicht jedoch die der Unterstapel.
 
 ## Timer section
 
