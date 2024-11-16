@@ -81,7 +81,7 @@ deck-config-bury-priority-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = Anzeigereihenfolge
-deck-config-new-gather-priority = Reihenfolge für das Sammeln neuer Karten
+deck-config-new-gather-priority = Reihenfolge für das Einsammeln neuer Karten
 deck-config-new-gather-priority-tooltip-2 =
     `Stapel`: sammelt Karten der Reihe nach von jedem Unterstapel, oben beginnend. Für jeden Unterstapel werden Karten in aufsteigender Position gesammelt. Wenn der Grenzwert des ausgewählten Stapels erreicht ist, kann das Sammeln aufhören, bevor alle Unterstapel erreicht wurden. Diese Reihenfolge ist die schnellste für große Sammlungen und ermöglicht die Priorisierung von Unterstapeln, die weiter oben sind.
     
