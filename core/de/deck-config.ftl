@@ -98,7 +98,7 @@ deck-config-new-gather-priority-position-lowest-first = Positionsnummer, aufstei
 deck-config-new-gather-priority-position-highest-first = Positionsnummer, absteigend
 deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
-deck-config-new-card-sort-order = Sortierreihenfolge neuer Karten
+deck-config-new-card-sort-order = Sortierreihenfolge für neue Karten
 deck-config-new-card-sort-order-tooltip-2 =
     `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
     
@@ -118,23 +118,23 @@ deck-config-new-review-priority = Wann neue Karten anzeigen
 deck-config-new-review-priority-tooltip = Wann neue Karten im Verhältnis zu Wiederholungskarten angezeigt werden.
 deck-config-interday-step-priority = Wann Karten im „mehrtägigen Lernen” anzeigen
 deck-config-interday-step-priority-tooltip =
-    Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Taggrenze überschreiten.
+    Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Tagesgrenze überschreiten.
     
-    Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf die Zwischentag-Lernkarten angewendet, und danach auf die Wiederholungskarten. Diese Option steuert die Reihenfolge, in welcher die aufgenommenen Karten angezeigt werden, aber Zwischentag-Lernkarten werden immer an erster Stelle aufgenommen.
-deck-config-review-mix-mix-with-reviews = Mit Wiederholungen vermischen
+    Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf Karten im „mehrtägigen Lernen” angewendet, und danach auf die Wiederholungskarten. Diese Einstellung steuert die Reihenfolge, in der die eingesammelten Karten angezeigt werden, jedoch werden Karten im „mehrtägige Lernen“ immer zuerst angezeigt.
+deck-config-review-mix-mix-with-reviews = Mit Wiederholungen mischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
-deck-config-review-sort-order = Wiederholsortierreihenfolge
-deck-config-review-sort-order-tooltip = Die Standardreihenfolge priorisiert Karten, die am längsten gewartet haben. Wenn Sie einen Rückstand an Wiederholungen haben, werden dadurch diejenigen, die am längsten gewartet haben, zuerst angezeigt. Wenn Sie einen großen Rückstand haben, der mehr als einige Tage benötigt, um ihn aufzuholen, oder Sie Karten geordnet nach Unterstapeln sehen wollen, dann finden Sie ggf. eine andere Sortierreihenfolge vorteilhafter.
+deck-config-review-sort-order = Sortierreihenfolge für Wiederholungen
+deck-config-review-sort-order-tooltip = Die Standardsortierreihenfolge priorisiert die Karten, die am längsten gewartet haben. Bei einem Rückstand werden also die Karten zuerst angezeigt, die am längsten auf ihre Wiederholung warten. Wenn Sie einen sehr großen Rückstand haben, dessen Abarbeitung viele Tage in Anspruch nehmen würde, oder wenn Sie die Karten in der Reihenfolge der Unterstapel sehen möchten, kann jedoch eine andere Sortierreihenfolge sinnvoller sein.
 deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
 deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
 deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
-deck-config-sort-order-ascending-intervals = Aufsteigende Intervalle
-deck-config-sort-order-descending-intervals = Absteigende Intervalle
-deck-config-sort-order-ascending-ease = Aufsteigende Leichtigkeit
-deck-config-sort-order-descending-ease = Absteigende Leichtigkeit
-deck-config-sort-order-ascending-difficulty = Nach Schwierigkeit, aufsteigend
-deck-config-sort-order-descending-difficulty = Nach Schwierigkeit, absteigend
+deck-config-sort-order-ascending-intervals = Intervall, aufsteigend
+deck-config-sort-order-descending-intervals = Intervall, absteigend
+deck-config-sort-order-ascending-ease = Leichtigkeit, aufsteigend
+deck-config-sort-order-descending-ease = Leichtigkeit, absteigend
+deck-config-sort-order-ascending-difficulty = Schwierigkeit, aufsteigend
+deck-config-sort-order-descending-difficulty = Schwierigkeit, absteigend
 deck-config-sort-order-retrievability-ascending = Abrufbarkeit, aufsteigend
 deck-config-sort-order-retrievability-descending = Abrufbarkeit, absteigend
 deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschließlich die Anzeigereihenfolge des gewählten Stapels, nicht jedoch die der Unterstapel.
@@ -166,10 +166,8 @@ deck-config-wait-for-audio-tooltip-2 = Das Ende des Audios abwarten, bevor die F
 
 deck-config-audio-title = Audio
 deck-config-disable-autoplay = Audio nicht automatisch abspielen
-deck-config-disable-autoplay-tooltip =
-    Wenn aktiviert, wird Anki Audiodateien nicht automatisch abspielen.
-    Sie können manuell abgespielt werden, indem Sie auf das Audiosymbol klicken/drücken oder indem Sie die Aktion „Erneut abspielen“ Audio erneut abspielen benutzen.
-deck-config-skip-question-when-replaying = Frage beim erneuten Abspielen der Antwort überspringen
+deck-config-disable-autoplay-tooltip = Wenn aktiviert, wird Anki die Audiodateien nicht automatisch abspielen. Sie können sie jedoch manuell abspielen, indem Sie auf das Audio-Symbol klicken/tippen oder die Aktion „Erneut abspielen“ verwenden.
+deck-config-skip-question-when-replaying = Beim erneuten Abspielen der Antwort die Frage nicht abspielen
 deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Frageseite abgespielt werden soll, wenn die Aktion „Erneut abspielen“ ausgelöst wird, während bereits die Antwortseite einer Karte angezeigt wird.
 
 ## Advanced section
