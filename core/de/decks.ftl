@@ -27,7 +27,7 @@ decks-random = Zufall
 decks-repeat-failed-cards-after = Erfolglos gelernte Karten wiederholen nach
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = Verzögerung für { $button }
-decks-reschedule-cards-based-on-my-answers = Meine Antworten in diesem Auswahlstapel sollen die Zeitplanung von Karten beeinflussen
+decks-reschedule-cards-based-on-my-answers = Karten basierend auf meinen Antworten in diesem Stapel umplanen
 decks-study = Lernen
 decks-study-deck = Stapel lernen
 decks-filtered-deck-search-empty = Es wurden keine Karten mit dem angegebenen Suchbegriff gefunden. Bestimmte Karten könnten von der Suche nicht gefunden, weil sie sich in einem anderen benutzerdefinierten Stapel befinden oder ausgeschlossen sind.

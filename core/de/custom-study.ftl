@@ -1,5 +1,5 @@
 custom-study-must-rename-deck = Bitte den existierenden Stapel für Benutzerdefiniertes Lernen zunächst umbenennen.
-custom-study-all-cards-in-random-order-dont = Alle Karten in zufälliger Reihenfolge (nicht neu planen)
+custom-study-all-cards-in-random-order-dont = Alle Karten in zufälliger Reihenfolge (nicht umplanen)
 custom-study-all-review-cards-in-random-order = Alle Wiederholungskarten in zufälliger Reihenfolge
 custom-study-cards = Karten
 custom-study-cards-from-the-deck = Karten aus dem Stapel

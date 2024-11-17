@@ -273,7 +273,7 @@ deck-config-get-params = Parameter abrufen
 deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für Erfolgsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
-deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
+deck-config-reschedule-cards-on-change = Beim Änderungen alle Karten umplanen
 deck-config-fsrs-tooltip =
     Wirkt sich auf die gesamte Sammlung aus.
     
@@ -285,22 +285,25 @@ deck-config-desired-retention-tooltip =
     
     Ändern Sie diesen Wert mit Bedacht: Ein höherer Wert erhöht Ihr Arbeitspensum deutlich, während ein niedrigerer Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
 deck-config-historical-retention-tooltip =
-    Wenn ein Teil Ihres Wiederholungsverlaufs fehlt, muss FSRS die Lücken füllen. Standardmäßig wird angenommen, dass Sie sich bei Ihren alten Wiederholungen an 90 % des Materials erinnern. Wenn Ihre frühere Wiedererkennungsrate wesentlich höher oder niedriger als 90 % war, ermöglicht die Anpassung der FSRS-Option, die Muster der fehlgeschlagenen Wiederholungen genauer abzuschätzen.
+    Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen . Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90 % der Karten erinnert haben. War die tatsächliche Erfolgsquote jedoch deutlich höher oder niedriger als 90 %, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
     
-    Ihr Wiederholungsverlauf kann aus zwei Gründen unvollständig sein:
-    1. Weil Sie die Option 'Ignoriere vorherige Wiederholungen' verwendet haben.
-    2. Weil Sie früher Wiederholungsprotokolle gelöscht haben, um Speicherplatz freizugeben, oder Material aus einem anderen SRS-Programm importiert haben.
+    Ihr Wiederholungsverlauf kann aus folgenden Gründen unvollständig sein:
+    1. Weil Sie die Option 'Wiederholungen vor diesem Datum ignorieren' nutzen.
+    2. Weil Sie den Wiederholungsverlaufs gelöscht haben, um Speicherplatz freizugeben
+    3. Weil Sie Material aus einem anderen SRS-Programm importiert haben.
     
-    Letzteres ist recht selten, daher müssen Sie diese Einstellung wahrscheinlich nicht anpassen, es sei denn, Sie haben die erstgenannte Option verwendet."
-deck-config-weights-tooltip2 = FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit Standardparametern. Sie können die untenstehende Option verwenden, um die Parameter so zu optimieren, dass sie am besten zu Ihrer Leistung in Stapeln mit dieser Optionengruppe passen.
+    Die beiden letzten Gründe sind eher selten. Daher müssen Sie diese Einstellung wahrscheinlich nicht anpassen, es sei denn, Sie haben die erstgenannte Option verwendet.
+deck-config-weights-tooltip2 = FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit Standardparametern. Sie können die untenstehende Funktion verwenden, um die Parameter so zu optimieren, dass sie am besten zu Ihrer Leistung in Stapeln mit dieser Stapeloptionengruppe passen.
 deck-config-reschedule-cards-on-change-tooltip =
     Wirkt sich auf die gesamte Sammlung aus und wird nicht gespeichert.
     
-    Diese Option steuert, ob die Fälligkeitsdaten von Karten geändert werden, wenn Sie FSRS aktivieren oder die Parameter ändern. Standardmäßig werden die Karten nicht neu terminiert. Erst bei künftigen Bewertungen wird die neue Terminierung verwendet. Es gibt keine unmittelbare Änderung Ihrer Arbeitspensums. Wenn die Neuplanung aktiviert ist, werden die Fälligkeitsdaten der Karten geändert.
-deck-config-reschedule-cards-warning =
-    Je nach gewünschter Retention kann diese Option dazu führen, dass eine große Anzahl von Karten fällig wird. Es wird daher nicht empfohlen sie zu aktivieren, wenn Sie zum ersten Mal zu FSRS wechseln.
+    Diese Option legt fest, ob die Fälligkeitsdaten von Karten angepasst werden, wenn FSRS aktiviert oder dessen Parameter geändert werden.
     
-    Verwenden Sie diese Option sparsam, da sie jeder Ihrer Karten einen Eintrag im Wiederholungsverlauf hinzufügt und so die Größe Ihrer Sammlung erhöht.
+    Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelles Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller  Karten jedoch sofort angepasst.
+deck-config-reschedule-cards-warning =
+    Je nach gewünschter Erfolgsquote kann diese Option dazu führen, dass viele Karten sofort fällig werden. Daher ist sie zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
+    
+    Verwenden Sie diese Option mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
 deck-config-ignore-before-tooltip-2 = Wenn aktiviert, werden Karten, die vor dem angegebenen Datum wiederholt wurden, bei der Optimierung der FSRS-Parameter nicht berücksichtigt. Dies kann hilfreich sein, wenn Sie die Zeitplanung von Dritten importiert haben oder Ihre Art der Nutzung der Antwortknöpfe geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
     Wenn Sie auf "Optimieren" klicken, analysiert FSRS Ihren Lernverlauf und erstellt Parameter, die optimal für Ihr Gedächtnis und den Inhalt, den Sie lernen, sind. Wenn sich Ihre Decks im subjektiven Schwierigkeitsgrad stark unterscheiden, ¶
