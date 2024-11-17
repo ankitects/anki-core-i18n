@@ -4,4 +4,4 @@ media-for-security-reasons-is-not = Aus Sicherheitsgründen kann »{ $val }« au
 media-generated-file = Erzeugte Datei: { $val }
 media-have-you-installed-latex-and-dvipngdvisvgm = Haben Sie LaTeX und dvipng/dvisvgm installiert?
 media-recordingtime = Aufnahme läuft …<br>Zeit: { $secs }
-media-sound-and-video-on-cards-will = Multimedia-Karteikarten können nur dann vollständig genutzt werden, wenn die entsprechende Abspielsoftware mpv oder mplayer auf Ihrem Computer installiert ist.
+media-sound-and-video-on-cards-will = Multimedia-Karten können nur dann vollständig genutzt werden, wenn die entsprechende Abspielsoftware mpv oder mplayer auf Ihrem Computer installiert ist.

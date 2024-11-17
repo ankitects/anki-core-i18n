@@ -17,13 +17,13 @@ browsing-card-list = Kartenliste
 browsing-cards-cant-be-manually-moved-into = Karten können nicht manuell in einen Auswahlstapel verschoben werden.
 browsing-cards-deleted =
     { $count ->
-        [one] { $count } Karte gelöscht.
-       *[other] { $count } Karten gelöscht.
+        [one] { $count } Karte gelöscht.
+       *[other] { $count } Karten gelöscht.
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [one] Karten von
-       *[other] gelöscht.
+        [one] { $count } Karten aus „{ $deck_name }“ gelöscht.
+       *[other] { $count } Karte aus „{ $deck_name }“ gelöscht.
     }
 browsing-change-deck = Verschieben
 browsing-change-deck2 = In anderen Stapel verschieben…
@@ -140,7 +140,7 @@ browsing-sidebar-flags = Markierungen
 browsing-today = Heute
 browsing-tooltip-card-modified = Das letzte Mal, bei dem Änderungen an der Karte vorgenommen wurden, inklusive Wiederholungen, Markierungen und Stapeländerungen
 browsing-tooltip-note-modified = Das letzte Mal, bei dem Änderungen an einer Notiz vorgenommen wurden, normalerweise Bearbeitung der Feldinhalte oder Schlagwörter
-browsing-tooltip-card = Der Name der Kartenvorlage einer Karte
+browsing-tooltip-card = Name des Kartentyps
 browsing-tooltip-cards = Die Anzahl an Karten, die eine Notiz hat
 browsing-tooltip-notetype = Der Name des Notiztyps einer Notiz
 browsing-tooltip-question = Die Vorderseite der Karte, anpassbar über den Kartenvorlageneditor

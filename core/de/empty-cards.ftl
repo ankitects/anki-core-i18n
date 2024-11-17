@@ -5,9 +5,9 @@ empty-cards-preserve-notes-checkbox = Notizen ohne gültige Karten behalten
 empty-cards-delete-button = Löschen
 empty-cards-not-found = Keine leere Karten.
 empty-cards-deleted-count =
-    Es { $cards ->
-        [one] wurde { $cards } Karte gelöscht.
-       *[other] wurden { $cards } Karten gelöscht.
+    { $cards ->
+        [one] Es wurde { $cards } Karte gelöscht.
+       *[other] Es wurden { $cards } Karten gelöscht.
     }
 empty-cards-delete-empty-cards = Leere Karten löschen
 empty-cards-delete-empty-notes = Leere Notizen löschen

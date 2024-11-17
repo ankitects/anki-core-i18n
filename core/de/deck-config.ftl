@@ -109,7 +109,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Zufällige Notiz, dann Kartentyp`: Wählt Notizen zufällig aus und zeigt dann jeweils alle Karten dieser Notiz nach Kartentyp geordnet an.
     
     `Zufällig`: Zeigt Karten in zufälliger Reihenfolge an.
-deck-config-sort-order-card-template-then-random = Kartenvorlage, dann zufällig
+deck-config-sort-order-card-template-then-random = Kartentyp, dann zufällig
 deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartentyp
 deck-config-sort-order-random = Zufällig
 deck-config-sort-order-template-then-gather = Kartentyp, dann Einsammelreihenfolge

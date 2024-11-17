@@ -18,8 +18,8 @@ notetypes-cloze-name = Lückentext
 
 ## Default card template names
 
-notetypes-card-1-name = Karte 1
-notetypes-card-2-name = Karte 2
+notetypes-card-1-name = Karte 1
+notetypes-card-2-name = Karte 2
 notetypes-add = Hinzufügen: { $val }
 notetypes-add-note-type = Notiztyp hinzufügen
 notetypes-cards = Karten …

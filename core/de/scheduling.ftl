@@ -170,11 +170,11 @@ scheduling-set-due-date-prompt-hint =
     3-7 = zufällige Auswahl von 3-7 Tagen
 scheduling-set-due-date-done =
     { $cards ->
-        [one] Fälligkeitsdatum von { $cards } Karte gesetzt.
-       *[other] Fälligkeitsdatum von { $cards } Karten gesetzt.
+        [one] Fälligkeitsdatum von { $cards } Karte gesetzt.
+       *[other] Fälligkeitsdatum von { $cards } Karten gesetzt.
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] { $cards } Karte vergessen.
-       *[other] { $cards } Karten vergessen.
+        [one] { $cards } Karte vergessen.
+       *[other] { $cards } Karten vergessen.
     }

@@ -45,8 +45,8 @@ statistics-in-time-span-years =
     }
 statistics-cards =
     { $cards ->
-        [one] { $cards } Karte
-       *[other] { $cards } Karten
+        [one] { $cards } Karte
+       *[other] { $cards } Karten
     }
 statistics-notes =
     { $notes ->
