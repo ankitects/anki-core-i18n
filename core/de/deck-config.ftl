@@ -176,12 +176,9 @@ deck-config-advanced-title = Erweitert
 deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zeitplaner als Intervall für Wiederholungskarten festlegen kann. `Schwer`, `Gut` und `Einfach` führen nie zu einem längeren Intervall als diesem Wert. Ein niedrigerer Wert erhöht das Arbeitspensum.
 deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
 deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30 % länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
-deck-config-interval-modifier-tooltip =
-    Dieser Multiplikator wird auf allen Wiederholungen angewendet, und kleinere Anpassungen können benutzt werden, 
-    um Anki konservativer oder aggressiver bei seiner Zeitplanung einzustellen. Bitte lesen
-    Sie im Handbuch nach, bevor Sie diese Option ändern.
-deck-config-hard-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit "Schwer" bewertet wurde.
-deck-config-new-interval-tooltip = Der auf das Wiederholintervall angewendete Multiplikator, wenn eine Karte mit „Nochmal“ bewertet wurde.
+deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.
+deck-config-hard-interval-tooltip = Der Faktor, der angewendet wird, wenn der „Schwierig“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
+deck-config-new-interval-tooltip = Der auf das Wiederholungsintervall angewendete Faktor, nachdem eine Karte mit „Nochmal“ bewertet wurde.
 deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine Wiederholungskarte Karte mit „Nochmal“ bewertet wurde.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
 deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus. Nutzung auf eigene Gefahr!
@@ -199,19 +196,19 @@ deck-config-easy-days-sunday = Sonntag
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Reduziert
 deck-config-easy-days-minimum = Minimum
-deck-config-easy-days-no-normal-days = Mindestens ein Tag sollte auf „{ deck-config-easy-days-normal }“ eingestellt sein.
+deck-config-easy-days-no-normal-days = Mindestens ein Tag sollte auf '{ deck-config-easy-days-normal }' eingestellt sein.
 
 ## Adding/renaming
 
-deck-config-add-group = Gruppe hinzufügen
-deck-config-name-prompt = Name:
-deck-config-rename-group = Gruppe umbenennen
-deck-config-clone-group = Gruppe duplizieren
+deck-config-add-group = Stapeloptionengruppe hinzufügen
+deck-config-name-prompt = Name
+deck-config-rename-group = Stapeloptionengruppe umbenennen
+deck-config-clone-group = Stapeloptionengruppe duplizieren
 
 ## Removing
 
-deck-config-remove-group = Gruppe entfernen
-deck-config-will-require-full-sync = Die angefragte Änderung wird ein vollständiges Hochladen der Datenbank bei der nächsten Synchronisierung Ihrer Sammlung benötigen. Wenn Sie Wiederholungen oder andere Änderungen auf einem anderen Gerät haben, die hier noch nicht synchronisiert sind, dann werden diese verloren gehen.
+deck-config-remove-group = Stapeloptionengruppe entfernen
+deck-config-will-require-full-sync = Die angeforderte Änderung erfordert eine einseitige Synchronisierung. Wenn Sie auf einem anderen Gerät Änderungen vorgenommen haben und diese noch nicht mit diesem Gerät synchronisiert wurden, tun Sie dies bitte, bevor Sie fortfahren.
 deck-config-confirm-remove-name = { $name } entfernen?
 
 ## Other Buttons
@@ -224,18 +221,16 @@ deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurü
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Anki 2.1.41+ Handhabung
-deck-config-description-new-handling-hint =
-    Behandelt die Eingabe als Markdown und bereinigt HTML-Eingaben. Wenn aktiviert, wird die Beschreibung auch auf der Gratulationsseite angezeigt.
-    Markdown wird als reiner Text bei Anki 2.1.40 und älter angezeigt.
+deck-config-description-new-handling = Handhabung ab Anki 2.1.41
+deck-config-description-new-handling-hint = Behandelt Eingaben als Markdown und bereinigt HTML-Eingaben. Wenn aktiviert, wird die Beschreibung auch auf dem Gratulationsseite angezeigt. Markdown wird in Anki-Version 2.1.40 und älter als Text angezeigt.
 
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
-    Ein übergeordneter Stapel hat einen Grenzwert von { $cards ->
-        [one] { $cards } Karte
-       *[other] { $cards } Karten
-    }, welcher diesen Grenzwert überschreiben wird.
+    { $cards ->
+        [one] Ein übergeordneter Stapel hat einen Tageshöchstwert von { $cards } Karte, welcher diesen Tageshöchstwert überschreiben wird.
+       *[other] Ein übergeordneter Stapel hat einen Tageshöchstwert von { $cards } Karten, welcher diesen Tageshöchstwert überschreiben wird.
+    }
 deck-config-reviews-too-low =
     { $cards ->
         [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.

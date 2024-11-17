@@ -33,14 +33,14 @@ importing-map-to = { $val } zuordnen
 importing-map-to-tags = Schlagwörter zuordnen
 importing-mapped-to = abgebildet auf <b>{ $val }</b>
 importing-mapped-to-tags = abgebildet auf <b>Schlagwörter</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Notiztypen zusammenführen
 importing-merge-notetypes-help =
     Bestimmt, wie Anki vorgeht, wenn Sie einen Notiztyp (wie z.B. "Einfach" oder "Lückentext") in Ihre Sammlung importieren, dessen Schema sich geändert hat (Erklärung siehe unten). Falls aktiviert, wird Anki beide Versionen in einer kombinieren, anstatt (wie bisher) beide separat anzulegen. Default-Wert für diese Einstellung: Deaktiviert
     
     Wann hat sich das Schema eines Notiztyps geändert? Wenn bei dem Notiztyp a) Felder oder b) Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert wurde. Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurde, stellt dies keine Schema-Änderung dar, sodass diese Option nicht relevant ist. Dann kommt es stattdessen auf die Option "Notizen updaten" an.
     
-    Hinweis: Wenn Sie diese Option aktivieren, kann dies ggf. eine Vollsynchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
+    Hinweis: Dies erfordert eine einseitige Synchronisierung. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Der Separator zum Trennen von Datenfeldern kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehender Separator wird nicht unterstützt.
 importing-notes-added-from-file = Notizen hinzugefügt aus Datei: { $val }
