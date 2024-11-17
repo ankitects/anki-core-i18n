@@ -73,9 +73,9 @@ deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. u
 deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag verschoben werden.
 deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag verschoben werden.
 deck-config-bury-priority-tooltip =
-    Wenn Anki Karten zusammenträgt, werden zunächst die Lernkarten für den aktuellen Tag eingesammelt, danach die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und zuletzt den neuen Karten. Diese Reihenfolge hat Einfluss darauf, wie das Zurückstellung funktioniert:
+    Wenn Anki Karten zusammenträgt, werden zunächst die Lernkarten für den aktuellen Tag eingesammelt, danach die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und zuletzt den neuen Karten. Diese Reihenfolge hat Einfluss darauf, wie die Zurückstellung funktioniert:
     
-    - Wenn alle Zurückstelloptionen aktiviert sind, wird die Geschwisterkarte angezeigt, die in dieser Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
+    - Wenn alle Zurückstelloptionen aktiviert sind, wird die Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
     - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht zurückstellen. Wenn Sie z. B. die Zurückstellung neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ zurückstellen. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
 
 ## Ordering section
@@ -100,7 +100,7 @@ deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge für neue Karten
 deck-config-new-card-sort-order-tooltip-2 =
-    `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
+    `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
     
     `Einsammelreihenfolge`: Zeigt Karten in der Reihenfolge, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, wird dies typischerweise dazu führen, dass alle Karten einer Notiz direkt hintereinander angezeigt werden.
     
@@ -151,7 +151,7 @@ deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Anzeigedauer der Frage (Sekunden)
-deck-config-seconds-to-show-question-tooltip-3 = Anzahl der Sekunden, die gewartet werden, bevor die Frageaktion angewendet wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
+deck-config-seconds-to-show-question-tooltip-3 = Anzahl der Sekunden, die gewartet werden, bevor die Frageaktion angewendet wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-seconds-to-show-answer = Anzeigedauer der Antwort (Sekunden)
 deck-config-seconds-to-show-answer-tooltip-2 = Wenn Automatisches Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwortaktion ausgeführt wird. Zum Ausschalten auf 0 setzen.
 deck-config-question-action-show-answer = Antwort anzeigen
@@ -175,17 +175,17 @@ deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Fr
 deck-config-advanced-title = Erweitert
 deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zeitplaner als Intervall für Wiederholungskarten festlegen kann. `Schwer`, `Gut` und `Einfach` führen nie zu einem längeren Intervall als diesem Wert. Ein niedrigerer Wert erhöht das Arbeitspensum.
 deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
-deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30 % länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
+deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30 % länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
 deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.
-deck-config-hard-interval-tooltip = Der Faktor, der angewendet wird, wenn der „Schwierig“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
+deck-config-hard-interval-tooltip = Der Faktor, der angewendet wird, wenn der „Schwierig“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
 deck-config-new-interval-tooltip = Der auf das Wiederholungsintervall angewendete Faktor, nachdem eine Karte mit „Nochmal“ bewertet wurde.
-deck-config-minimum-interval-tooltip = Das Mindestintervall, nachdem eine Wiederholungskarte Karte mit „Nochmal“ bewertet wurde.
+deck-config-minimum-interval-tooltip = Gibt die Mindestanzahl an Tagen für das Intervall an, das einer Karte nach dem Abschluss des Wiederlernvorgangs zugewiesen werden soll. Der Standardwert ist 1 Tag, was bedeutet, dass die Karte nach Abschluss des Wiederlernens am nächsten Tag erneut angezeigt wird.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
 deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus. Nutzung auf eigene Gefahr!
 
 # Easy Days section
 
-deck-config-easy-days-title = Tage mit weniger Karten
+deck-config-easy-days-title = Tage mit weniger Wiederholungen
 deck-config-easy-days-monday = Montag
 deck-config-easy-days-tuesday = Dienstag
 deck-config-easy-days-wednesday = Mittwoch
@@ -358,7 +358,7 @@ deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor autom
 deck-config-ignore-before-tooltip =
     Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
     Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
-deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Behaltensleistung hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Lernzeit zu kopieren.
+deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Erfolgsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erfolgsquote zu kopieren.
 deck-config-compute-optimal-retention = Empfohlener Mindestwert für Erfolgsquote
 deck-config-predicted-optimal-retention = Empfohlener Mindestwert für Erfolgsquote: { $num }
 deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
@@ -371,15 +371,15 @@ deck-config-compute-optimal-weights-tooltip =
     Standardmäßig werden die Einstellungen aus dem Prüfungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
     optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
 deck-config-compute-optimal-retention-tooltip2 =
-    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den gewünschten Retentions
-    Wert zu finden, der dazu führt, dass man das meiste Material in der kürzesten Zeit lernt. Diese Zahl kann als
-    Referenz dienen, wenn Sie entscheiden, auf welchen Wert Sie Ihre gewünschte Behaltensleistung setzen wollen. Möglicherweise möchten Sie eine höhere gewünschte Retention wählen,
-    wenn Sie bereit sind, mehr Lernzeit für eine höhere Erinnerungsrate zu opfern. Es ist nicht empfehlenswert, die gewünschte Behaltensrate niedriger als
-    ist nicht zu empfehlen, da dies zu mehr Arbeit ohne Nutzen führt.
-deck-config-compute-optimal-retention-tooltip3 =
-    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen und versucht, den Retention-Wert zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. Für eine präzise Simulation Ihres Lernfortschritts sind mindestens 400 Wiederholungen erforderlich.
+    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
     
-    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren, um eine bessere Retention zu erzielen. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihrer persönlichen gewünschten Erfolgsquote helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+deck-config-compute-optimal-retention-tooltip3 =
+    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen und versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht.
+    
+    Für eine präzise Simulation Ihres Lernfortschritts sind mindestens 400 Wiederholungen erforderlich.
+    
+    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihrer persönlichen gewünschten Erfolgsquote helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
 deck-config-seconds-to-show-question-tooltip-2 = Wenn Automatisches Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
 deck-config-fsrs-on-all-clients = FSRS funktioniert nur richtig, wenn alle genutzten Apps die Mindestanforderungen erfüllen (Anki und AnkiMobile ab 23.10, AnkiDroid ab 2.17).
