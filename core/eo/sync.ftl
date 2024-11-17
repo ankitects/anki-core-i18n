@@ -1,4 +1,25 @@
-sync-media-check-required = Problemo okazis dum la samtempigo de aŭdovidaĵoj. Por korekti la eraron, bonvolu uzi la menueron Iloj>Kontroli aŭdvidaĵojn. Poste reprovu ĝin.
+### Messages shown when synchronizing with AnkiWeb.
+
+
+## Media synchronization
+
+sync-media-added-count = Aldonis: { $up }↑ { $down }↓
+sync-media-removed-count = Forigis: { $up }↑ { $down }↓
+sync-media-checked-count = Kontrolis: { $count }
+sync-media-starting = Ekigado de samtempigado de aŭdvidaĵoj…
+sync-media-complete = Sukcesis samtempigi aŭdvidaĵojn.
+sync-media-failed = Malsukcesis samtempigi aŭdvidaĵojn.
+sync-media-aborting = Ĉesigado de samtempigado de aŭdvidaĵoj…
+sync-media-aborted = Ĉesigis samtempigi aŭdvidaĵojn.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
+sync-media-disabled = Samtempigo de aŭdvidaĵoj malaktiva.
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Protokolo pri samtempigataj dosieroj
+
+## Error messages / dialogs
+
+sync-conflict = Nur unu kopio de Anki povas samtempe samtempigi dosierojn kun via konto. Atendu kelkajn minutojn kaj reprovu.
 sync-wrong-pass = AnkiWeb-identeco aŭ -pasvorto estis malĝusta; bonvolu provi denove.
 sync-confirm-empty-download = La loka kolekto havas neniujn kartojn. Ĉu vi volas elŝuti kartojn de AnkiWeb?
 sync-conflict-explanation =
@@ -9,16 +30,22 @@ sync-conflict-explanation =
     Se vi elektas alŝuton, Anki alŝutos vian kolekton al AnkiWeb kaj vi perdos ĉiujn ŝanĝojn sur AnkiWeb aŭ aliaj aranĝaĵoj ekde ties lasta samtempigo.
     
     Post kiam ĉiuj aranĝaĵoj estas samtempigitaj, estontaj ripetoj kaj aldonitaj kartoj povos esti aŭtomate kunfanditaj.
-sync-download-from-ankiweb = Elŝuto el AnkiWeb
-sync-upload-to-ankiweb = Alŝuto al AnkiWeb
-sync-cancel-button = Nuligi
-sync-downloading-from-ankiweb = Elŝutado el AnkiWeb...
-sync-uploading-to-ankiweb = Alŝutado al AnkiWeb...
-sync-syncing = Samtempigado...
-sync-checking = Kontrolado...
 sync-ankiweb-id-label = AnkiWeb-identeco:
 sync-password-label = Pasvorto:
 sync-account-required =
     <h1>Konto necesas</h1>
     Senkosta konto necesas por teni vian kolekton samtempigita. Bonvolu <a href="{ $link }">ensaluti</a> por konto, poste entajpu viajn indikojn malsupre.
+
+## Buttons
+
+sync-download-from-ankiweb = Elŝuto el AnkiWeb
+sync-upload-to-ankiweb = Alŝuto al AnkiWeb
+sync-cancel-button = Nuligi
+
+## Normal sync progress
+
+sync-downloading-from-ankiweb = Elŝutado el AnkiWeb...
+sync-uploading-to-ankiweb = Alŝutado al AnkiWeb...
+sync-syncing = Samtempigado...
+sync-checking = Kontrolado...
 sync-connecting = Konektado...
