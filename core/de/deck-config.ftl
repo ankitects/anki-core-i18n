@@ -209,32 +209,32 @@ deck-config-clone-group = Stapeloptionengruppe duplizieren
 
 deck-config-remove-group = Stapeloptionengruppe entfernen
 deck-config-will-require-full-sync = Die angeforderte Änderung erfordert eine einseitige Synchronisierung. Wenn Sie auf einem anderen Gerät Änderungen vorgenommen haben und diese noch nicht mit diesem Gerät synchronisiert wurden, tun Sie dies bitte, bevor Sie fortfahren.
-deck-config-confirm-remove-name = { $name } entfernen?
+deck-config-confirm-remove-name = „{ $name }“ entfernen?
 
 ## Other Buttons
 
 deck-config-save-button = Speichern
 deck-config-save-to-all-subdecks = Auf alle Unterstapel anwenden
 deck-config-save-and-optimize = Alle Stapeloptionengruppen optimieren
-deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurücksetzen
+deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurücksetzen.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
-deck-config-description-new-handling = Handhabung ab Anki 2.1.41
+deck-config-description-new-handling = Neues Verhalten ab Anki 2.1.41 verwenden
 deck-config-description-new-handling-hint = Behandelt Eingaben als Markdown und bereinigt HTML-Eingaben. Wenn aktiviert, wird die Beschreibung auch auf dem Gratulationsseite angezeigt. Markdown wird in Anki-Version 2.1.40 und älter als Text angezeigt.
 
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
     { $cards ->
-        [one] Ein übergeordneter Stapel hat einen Tageshöchstwert von { $cards } Karte, welcher diesen Tageshöchstwert überschreiben wird.
-       *[other] Ein übergeordneter Stapel hat einen Tageshöchstwert von { $cards } Karten, welcher diesen Tageshöchstwert überschreiben wird.
+        [one] Ein übergeordneter Stapel hat einen Tageshöchstwert von { $cards } Karte, welcher diesen Tageshöchstwert überschreiben wird.
+       *[other] Ein übergeordneter Stapel hat einen Tageshöchstwert von { $cards } Karten, welcher diesen Tageshöchstwert überschreiben wird.
     }
 deck-config-reviews-too-low =
     { $cards ->
-        [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
-       *[other] Wenn { $cards } neue Karten jeden Tag hinzugefügt werden, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
+        [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
+       *[other] Wenn { $cards } neue Karten jeden Tag hinzugefügt werden, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
     }
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens so lang sein wie die abschließende Lernstufe.
 deck-config-good-above-easy = Das Intervall für einfache Karten sollte mindestens so lang sein wie das Aufstiegsintervall.
@@ -253,8 +253,8 @@ deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchz
 deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erfolgsquote nicht möglich.
 deck-config-must-have-400-reviews =
     { $count ->
-        [one] Es wurde nur { $count } Wiederholung gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
-       *[other] Es wurden nur { $count } Wiederholungen gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
+        [one] Es wurde nur { $count } Wiederholung gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
+       *[other] Es wurden nur { $count } Wiederholungen gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
     }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-Parameter
@@ -268,7 +268,7 @@ deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Erfolgsquote
 deck-config-historical-retention = Frühere Erfolgsquote
 deck-config-smaller-is-better = Je kleiner die Zahlen, desto besser passen die Parameter zu Ihrer Wiederholungsverlauf.
-deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
+deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
 deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für Erfolgsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
@@ -277,7 +277,7 @@ deck-config-reschedule-cards-on-change = Beim Änderungen alle Karten umplanen
 deck-config-fsrs-tooltip =
     Wirkt sich auf die gesamte Sammlung aus.
     
-    FSRS (Free Spaced Repetition Scheduler, „Freier Zeitplaner für verteile Wiederholung“) ist eine Alternative zum klassischem SM-2 (SuperMemo 2) von Anki. FSRS sagt genauer vorher, wie wahrscheinlich es ist, dass Sie eine Karte vergessen. Somit können Sie mit FSRS bei gleichem Zeitaufwand mehr lernen.
+    FSRS (Free Spaced Repetition Scheduler, „Freier Zeitplaner für verteile Wiederholung“) ist eine Alternative zum klassischem SM‑2 (SuperMemo 2) von Anki. FSRS sagt genauer vorher, wie wahrscheinlich es ist, dass Sie eine Karte vergessen. Somit können Sie mit FSRS bei gleichem Zeitaufwand mehr lernen.
 deck-config-desired-retention-tooltip =
     Mit dem Standardwert von 0,9 plant Anki die Wiederholung Ihrer Karten so, dass Sie eine Chance von 90 % haben, sich an den Inhalt zu erinnern, wenn die Karte erneut zur Wiederholung ansteht.
     
@@ -299,44 +299,45 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     Diese Option legt fest, ob die Fälligkeitsdaten von Karten angepasst werden, wenn FSRS aktiviert oder dessen Parameter geändert werden.
     
-    Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelles Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller  Karten jedoch sofort angepasst.
+    Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelles Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller Karten jedoch sofort angepasst.
 deck-config-reschedule-cards-warning =
     Je nach gewünschter Erfolgsquote kann diese Option dazu führen, dass viele Karten sofort fällig werden. Daher ist sie zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
     
     Verwenden Sie diese Option mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
-deck-config-ignore-before-tooltip-2 = Wenn aktiviert, werden Karten, die vor dem angegebenen Datum wiederholt wurden, bei der Optimierung der FSRS-Parameter nicht berücksichtigt. Dies kann hilfreich sein, wenn Sie die Zeitplanung von Dritten importiert haben oder Ihre Art der Nutzung der Antwortknöpfe geändert haben.
+deck-config-ignore-before-tooltip-2 = Wiederholungen von Karten vor dem angegebenen Datum werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie Planungsdaten von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
-    Wenn Sie auf "Optimieren" klicken, analysiert FSRS Ihren Lernverlauf und erstellt Parameter, die optimal für Ihr Gedächtnis und den Inhalt, den Sie lernen, sind. Wenn sich Ihre Decks im subjektiven Schwierigkeitsgrad stark unterscheiden, ¶
-    empfiehlt es sich, ihnen getrennte Voreinstellungen zuzuweisen, da die Parameter für leichte und schwere Decks unterschiedlich sein werden.¶
-    Sie brauchen Ihre Parameter nicht häufig zu optimieren - einmal alle paar Monate ist ausreichend.¶
-    ¶
-    Standardmäßig werden die Parameter aus dem Prüfungsverlauf aller Decks berechnet, die das aktuelle Preset verwenden. Sie können¶
-    optional die Suche vor der Berechnung der Parameter anpassen, wenn Sie ändern möchten, welche Karten für Optimierung der Parameter verwendet werden.¶
-deck-config-compute-optimal-retention-tooltip4 =
-    Dieses Tool versucht, den Retention-Wert zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
+    Wenn Sie auf die „Optimieren“ klicken, analysiert FSRS Ihren Wiederholungsverlauf und ermittelt Parameter, die optimal auf Ihr Gedächtnis und die Inhalte abgestimmt sind, die Sie lernen.
     
-    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihres persönlichen Retention-Werts helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, mehr Zeit zu investieren, um eine bessere Retention zu erzielen. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
-deck-config-please-save-your-changes-first = Bitte speichern Sie erst Ihre Änderungen.
+    Für Stapel mit stark unterschiedlichen subjektiven Schwierigkeitsgraden empfiehlt es sich, separate Stapeloptionengruppen anzulegen. So können die Parameter besser an den jeweiligen Schwierigkeitsgrad angepasst werden.
+    
+    Es ist nicht nötig, die Parameter häufig zu optimieren – einmal alle paar Monate genügt.
+    
+    Standardmäßig werden die Parameter basierend auf dem Wiederholungsverlauf aller Stapel ermittelt, die die aktuelle Stapeloptionengruppe nutzen. Sie können vor der Berechnung die Suchkriterien anpassen, um festzulegen, welche Karten zur Optimierung der Parameter herangezogen werden sollen.
+deck-config-compute-optimal-retention-tooltip4 =
+    Dieses Tool versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, die maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
+    
+    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihrer persönlichen gewünschten Erfolgsquote helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+deck-config-please-save-your-changes-first = Bitte speichern Sie zuerst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
-        [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
-       *[other] Ein Intervall von 100 Tagen wird zu { $days } Tagen.
+        [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
+       *[other] Ein Intervall von 100 Tagen wird zu { $days } Tagen.
     }
 deck-config-percent-of-reviews =
     { $reviews ->
-        [one] { $pct } % von { $reviews } Wiederholung
-       *[other] { $pct } % von { $reviews } Wiederholungen
+        [one] { $pct } % von { $reviews } Wiederholung
+       *[other] { $pct } % von { $reviews } Wiederholungen
     }
 deck-config-optimizing-preset = Optimiere Stapeloptionengruppe { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
-deck-config-fsrs-params-optimal = Die FSRS-Parameter scheinen bereits optimal zu sein
+deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = Mit „Nochmal“ antworten
 deck-config-answer-hard = Mit „Schwer“ antworten
 deck-config-answer-good = Mit „Gut“ antworten
 deck-config-days-to-simulate = Zu simulierende Tage
-deck-config-desired-retention-below-optimal = Ihr gewünschter Retention ist nicht optimal. Es wird empfohlen, sie zu erhöhen.
+deck-config-desired-retention-below-optimal = Ihre gewünschte Erfolgsquote liegt unter dem empfohlenen Mindestwert. Es ist ratsam, sie zu erhöhen.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
