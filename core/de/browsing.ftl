@@ -122,10 +122,10 @@ browsing-notes-updated =
     }
 browsing-cards-updated =
     { $count ->
-        [one] { $count } Karte geändert.
-       *[other] { $count } Karten geändert.
+        [one] { $count } Karte geändert.
+       *[other] { $count } Karten geändert.
     }
-browsing-window-title = Kartenverwaltung ({ $selected } von { $total } Karten ausgewählt)
+browsing-window-title = Kartenverwaltung ({ $selected } von { $total } Karten ausgewählt)
 browsing-sidebar-expand = Ausklappen
 browsing-sidebar-collapse = Einklappen
 browsing-sidebar-expand-children = Untergeordnete Elemente ausklappen
@@ -162,8 +162,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Position von { $count } neuen Karte geändert.
-       *[other] Position von { $count } neuen Karten geändert.
+        [one] Position von { $count } neuen Karte geändert.
+       *[other] Position von { $count } neuen Karten geändert.
     }
 browsing-reparented-decks =
     { $count ->

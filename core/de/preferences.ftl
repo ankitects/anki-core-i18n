@@ -68,7 +68,7 @@ preferences-browsing = Durchsuchen
 preferences-default-deck = Standardstapel
 preferences-account = AnkiWeb-Account
 preferences-note = Anmerkung
-preferences-scheduler = Zeitplanung
+preferences-scheduler = Zeitplaner
 preferences-user-interface = Nutzeroberfläche
 preferences-import-export = Import/Export
 preferences-network-timeout = Zeitüberschreitung ab
@@ -78,7 +78,7 @@ preferences-shortcut-placeholder = Eine unbenutzte Tastenkombination eingeben, o
 preferences-third-party-services = Dienste von Drittanbietern
 preferences-ankihub-not-logged-in = Derzeit nicht bei AnkiHub angemeldet.
 preferences-ankiweb-intro = AnkiWeb ist ein kostenloser Dienst, der es Ihnen ermöglicht, Ihre Karten auf all Ihren Geräten synchron zu halten und sie wiederherzustellen, falls Ihr Gerät defekt ist oder verloren geht.
-preferences-ankihub-intro = AnkiHub ermöglicht gemeinsames Bearbeiten von Decks und bietet zusätzliche Lernwerkzeuge. Einige Funktionen erfordern ein kostenpflichtiges Abonnement.
+preferences-ankihub-intro = AnkiHub ermöglicht gemeinsames Bearbeiten von Stapeln und bietet zusätzliche Lernwerkzeuge. Einige Funktionen erfordern ein kostenpflichtiges Abonnement.
 preferences-third-party-description = Dienste von Drittanbieter stehen in keiner Verbindung zu Anki. Die Nutzung dieser Dienste kann kostenpflichtig sein.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

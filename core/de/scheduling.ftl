@@ -94,12 +94,12 @@ scheduling-custom-study = Benutzerdefiniertes Lernen
 ## Scheduler upgrade
 
 scheduling-update-soon = Anki 2.1 kommt mit einem neuen Zeitplaner, welcher eine Anzahl von Problemen aus vorherigen Versionen von Anki löst. Das Updaten auf diesen wird empfohlen.
-scheduling-update-done = Zeitplaner erfolgreich geupdated.
+scheduling-update-done = Zeitplaner erfolgreich aktualisiert.
 scheduling-update-button = Updaten
 scheduling-update-later-button = Später
 scheduling-update-more-info-button = Hilfe
 scheduling-update-required =
-    Ihre Sammlung verwendet noch einen alten Zeitplaner und muss auf den V2-Zeitplaner geupdatet werden.
+    Ihre Sammlung verwendet noch einen alten Zeitplaner und muss auf den V2-Zeitplaner aktualisiert werden.
     
     Um mehr darüber zu erfahren, klicken Sie auf { scheduling-update-more-info-button }.
 
@@ -141,7 +141,7 @@ scheduling-restore-position = Karten in ursprünglicher Reihenfolge abfragen (fa
 scheduling-review = Wiederholen
 scheduling-reviews = Wiederholungen
 scheduling-seconds = Sekunden
-scheduling-set-all-decks-below-to = Allen Teilstapeln von { $val } diese Optionengruppe zuweisen?
+scheduling-set-all-decks-below-to = Allen Unterstapeln von { $val } diese Optionengruppe zuweisen?
 scheduling-set-for-all-subdecks = Allen Unterstapeln zuweisen
 scheduling-show-answer-timer = Antwortzeit anzeigen
 scheduling-show-new-cards-after-reviews = Zeige neue Karten nach Wiederholungskarten
@@ -156,8 +156,8 @@ scheduling-the-default-configuration-cant-be-removed = Die Standardeinstellungen
 scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst eine neue Optionengruppe erstellen.
 scheduling-deck-updated =
     { $count ->
-        [one] { $count } Stapel wurde geändert.
-       *[other] { $count } Stapel wurden geändert.
+        [one] { $count } Stapel wurde geändert.
+       *[other] { $count } Stapel wurden geändert.
     }
 scheduling-set-due-date-prompt =
     { $cards ->

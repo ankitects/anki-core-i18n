@@ -259,7 +259,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS-Parametern
-deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für Erfolgsquote
+deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erfolgsquote
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
 deck-config-ignore-before = Wiederholungen vor diesem Datum ignorieren
@@ -270,7 +270,7 @@ deck-config-historical-retention = Frühere Erfolgsquote
 deck-config-smaller-is-better = Je kleiner die Zahlen, desto besser passen die Parameter zu Ihrer Wiederholungsverlauf.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
-deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für Erfolgsquote: { $num }
+deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
 deck-config-reschedule-cards-on-change = Beim Änderungen alle Karten umplanen
@@ -304,7 +304,7 @@ deck-config-reschedule-cards-warning =
     Je nach gewünschter Erfolgsquote kann diese Option dazu führen, dass viele Karten sofort fällig werden. Daher ist sie zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
     
     Verwenden Sie diese Option mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
-deck-config-ignore-before-tooltip-2 = Wiederholungen von Karten vor dem angegebenen Datum werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie Planungsdaten von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
+deck-config-ignore-before-tooltip-2 = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
     Wenn Sie auf die „Optimieren“ klicken, analysiert FSRS Ihren Wiederholungsverlauf und ermittelt Parameter, die optimal auf Ihr Gedächtnis und die Inhalte abgestimmt sind, die Sie lernen.
     
@@ -355,12 +355,10 @@ deck-config-bury-tooltip =
 deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
-deck-config-ignore-before-tooltip =
-    Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
-    Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
+deck-config-ignore-before-tooltip = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung und Auswertung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Erfolgsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erfolgsquote zu kopieren.
-deck-config-compute-optimal-retention = Empfohlener Mindestwert für Erfolgsquote
-deck-config-predicted-optimal-retention = Empfohlener Mindestwert für Erfolgsquote: { $num }
+deck-config-compute-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote
+deck-config-predicted-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
 deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
 deck-config-compute-optimal-weights-tooltip =
     Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,

@@ -119,18 +119,18 @@ statistics-retrievability-subtitle = Die Wahrscheinlichkeit, dass Sie sich heute
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] 1 Karte mit { $percent } Leichtigkeit
-       *[other] { $cards } Karten mit { $percent } Leichtigkeit
+        [one] { $cards } Karte mit { $percent } Leichtigkeit
+       *[other] { $cards } Karten mit { $percent } Leichtigkeit
     }
 statistics-card-difficulty-tooltip =
     { $cards ->
-        [one] { $cards } Karte mit { $percent } Schwierigkeit
-       *[other] { $cards } Karten mit { $percent } Schwierigkeit
+        [one] { $cards } Karte mit { $percent } Schwierigkeit
+       *[other] { $cards } Karten mit { $percent } Schwierigkeit
     }
 statistics-retrievability-tooltip =
     { $cards ->
-        [one] { $cards } Karte mit { $percent } Abrufbarkeit
-       *[other] { $cards } Karten mit { $percent } Abrufbarkeit
+        [one] { $cards } Karte mit { $percent } Abrufbarkeit
+       *[other] { $cards } Karten mit { $percent } Abrufbarkeit
     }
 statistics-future-due-title = Zeitplanung
 statistics-future-due-subtitle = Anzahl der eingeplanten Wiederholungen.
@@ -164,31 +164,31 @@ statistics-days-ago-range = vor { $daysStart }-{ $daysEnd } Tagen
 statistics-running-total = Bis hierhin aufsummiert
 statistics-cards-due =
     { $cards ->
-        [one] 1 Karte fällig
-       *[other] { $cards } Karten fällig
+        [one] { $cards } Karte fällig
+       *[other] { $cards } Karten fällig
     }
 statistics-backlog-checkbox = Rückstand
 statistics-intervals-title = Intervalle
 statistics-intervals-subtitle = Zeit, bis Karten erneut angezeigt werden.
 statistics-intervals-day-range =
     { $cards ->
-        [one] 1 Karte mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
-       *[other] { $cards } Karten mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
+        [one] { $cards } Karte mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
+       *[other] { $cards } Karten mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] 1 Karte mit einem { $day }-Tag-Intervall
-       *[other] { $cards } Karten mit einem { $day }-Tage-Intervall
+        [one] { $cards } Karte mit einem { $day }-Tag-Intervall
+       *[other] { $cards } Karten mit einem { $day }-Tage-Intervall
     }
 statistics-stability-day-range =
     { $cards ->
-        [one] { $cards } Karte mit { $daysStart }~{ $daysEnd } Tagen Stabilität
-       *[other] { $cards } Karten mit { $daysStart }~{ $daysEnd } Tagen Stabilität
+        [one] { $cards } Karte mit { $daysStart }~{ $daysEnd } Tagen Stabilität
+       *[other] { $cards } Karten mit { $daysStart }~{ $daysEnd } Tagen Stabilität
     }
 statistics-stability-day-single =
     { $cards ->
-        [one] { $cards } Karte mit { $day } Tagen Stabilität
-       *[other] { $cards } Karten mit { $day } Tagen Stabilität
+        [one] { $cards } Karte mit { $day } Tagen Stabilität
+       *[other] { $cards } Karten mit { $day } Tagen Stabilität
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Von { $hourStart }:00~{ $hourEnd }:00

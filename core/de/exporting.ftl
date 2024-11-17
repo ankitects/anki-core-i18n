@@ -1,7 +1,7 @@
 exporting-all-decks = Alle Stapel
 exporting-anki-20-deck = Anki 2.0-Stapel
 exporting-anki-collection-package = Anki-Sammlungspaket
-exporting-anki-deck-package = Anki-Kartenpaket
+exporting-anki-deck-package = Anki-Stapelpaket
 exporting-cards-in-plain-text = Karten als einfache Textdatei
 exporting-collection = Sammlung
 exporting-collection-exported = Sammlung wurde exportiert.
@@ -12,7 +12,7 @@ exporting-export-format = <b>Exportformat</b>:
 exporting-include = <b>Stapel</b>:
 exporting-include-html-and-media-references = Einschließlich HTML und Verweise auf Mediendateien
 exporting-include-media = Einschließlich Medien
-exporting-include-scheduling-information = Einschließlich eigenem Lernfortschritt (u.a. Fälligkeit von Karten)
+exporting-include-scheduling-information = Einschließlich Zeitplanung (u.a. Fälligkeit von Karten)
 exporting-include-deck-configs = Einschließlich Stapeloptionen
 exporting-include-tags = Schlagwörter einschließen
 exporting-support-older-anki-versions = Unterstütze ältere Anki-Versionen (langsamere/größere Dateien)
