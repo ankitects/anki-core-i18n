@@ -174,8 +174,8 @@ deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Fr
 
 deck-config-advanced-title = Erweitert
 deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zeitplaner als Intervall für Wiederholungskarten festlegen kann. `Schwer`, `Gut` und `Einfach` führen nie zu einem längeren Intervall als diesem Wert. Ein niedrigerer Wert erhöht das Arbeitspensum.
-deck-config-starting-ease-tooltip = Der Leichtigkeitsmultiplikator, mit dem neue Karten beginnen. Standardmäßig wird der "Gut"-Knopf bei neu gelernten Karten die nächste Wiederholung um den Faktor 2.5 verglichen zur vorherigen Verzögerung verzögern.
-deck-config-easy-bonus-tooltip = Ein zusätzlicher Multiplikator, welcher auf das Intervall einer Wiederholungskarte angewendet wird, wenn Sie diese als "Einfach" einstufen.
+deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
+deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30 % länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
 deck-config-interval-modifier-tooltip =
     Dieser Multiplikator wird auf allen Wiederholungen angewendet, und kleinere Anpassungen können benutzt werden, 
     um Anki konservativer oder aggressiver bei seiner Zeitplanung einzustellen. Bitte lesen
