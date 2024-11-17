@@ -44,7 +44,7 @@ deck-config-learning-steps = Lernstufen
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Intervalle können in Sekunden (`30s`), Minuten (`5m`), Stunden (`1h`) oder Tagen (`2d`) angegeben werden.
 deck-config-learning-steps-tooltip = Ein oder mehrere Intervalle, durch Leerzeichen getrennt. Der Standardwert ist `1m 10m`. Das erste Intervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte den „Nochmal“-Knopf  drücken. Der „Gut“-Knopf lässt die Karte voranschreiten. Das Intervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der letzten Lernstufe der „Gut“-Knopf gedrückt wurde.
+deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der abschließenden Lernstufe der „Gut“-Knopf gedrückt wurde.
 deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
 deck-config-new-insertion-order-tooltip = Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Positionsnummer werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung aktualisiert auch die Positionsnummern bereits vorhandener neuer Karten.
@@ -236,41 +236,41 @@ deck-config-reviews-too-low =
         [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
        *[other] Wenn { $cards } neue Karten jeden Tag hinzugefügt werden, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
     }
-deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens genauso lang sein wie Ihre finale Lernstufe.
-deck-config-good-above-easy = Das Einfach-Intervall sollte mindestens genauso lang sein wie das Aufstiegsintervall.
-deck-config-relearning-steps-above-minimum-interval = Das minimale Intervall für Fehlversuche sollte mindestens so lange sein wie Ihr finaler Schritt für das Wiedererlernen.
-deck-config-maximum-answer-secs-above-recommended = Anki kann ihre Lernüberprüfungen besser planen, wenn Sie jede Frage kurz halten.
+deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens so lang sein wie die abschließende Lernstufe.
+deck-config-good-above-easy = Das Intervall für einfache Karten sollte mindestens so lang sein wie das Aufstiegsintervall.
+deck-config-relearning-steps-above-minimum-interval = Das Mindestintervall sollte mindestens so lang sein wie die abschließende Lernstufe für das Wiedererlernen.
+deck-config-maximum-answer-secs-above-recommended = Die Zeitplanung funktioniert besser, wenn die Antwortzeit kürzer ist.
 
 ## Selecting a deck
 
-deck-config-which-deck = Welchen Stapel möchten Sie gerne?
+deck-config-which-deck = Für welchen Stapel möchten Sie die Optionen anzeigen?
 
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Die angegebenen FSRS-Parameter sind ungültig. Lassen Sie das Feld leer, um die Standardparameter zu verwenden.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
-deck-config-unable-to-determine-desired-retention = Bestimmen der optimalen Retention nicht möglich.
+deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erfolgsquote nicht möglich.
 deck-config-must-have-400-reviews =
     { $count ->
-        [one] Nur { $count } Wiederholung wurde gefunden. Für diesen Vorgang sind jedoch mindestens 400 Wiederholungen erforderlich.
-       *[other] Nur { $count } Wiederholungen wurde gefunden. Für diesen Vorgang sind jedoch mindestens 400 Wiederholungen erforderlich.
+        [one] Es wurde nur { $count } Wiederholung gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
+       *[other] Es wurden nur { $count } Wiederholungen gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
     }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS-Parametern
-deck-config-compute-minimum-recommended-retention = Empfohlene minimale Retention
+deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für Erfolgsquote
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
 deck-config-ignore-before = Wiederholungen vor diesem Datum ignorieren
-deck-config-optimize-all-tip = Sie können alle Vorgaben gleichzeitig durch Drücken des oberen Knopfes optimieren.
+deck-config-optimize-all-tip = Sie können alle Stapeloptionengruppen gleichzeitig optimieren, indem Sie den Dropdown-Knopf neben „Speichern“ verwenden.
 deck-config-evaluate-button = Evaluieren
-deck-config-desired-retention = Gewünschte Retention
-deck-config-historical-retention = Historische Retention
-deck-config-smaller-is-better = Je kleiner die Zahl, desto besser passen die eingestellten Parameter zu Ihrer Wiederholungsverlauf.
+deck-config-desired-retention = Gewünschte Erfolgsquote
+deck-config-historical-retention = Frühere Erfolgsquote
+deck-config-smaller-is-better = Je kleiner die Zahlen, desto besser passen die Parameter zu Ihrer Wiederholungsverlauf.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
-deck-config-predicted-minimum-recommended-retention = Empfohlene minimale Retention: { $num }
+deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für Erfolgsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
 deck-config-reschedule-cards-on-change = Beim Wechseln alle Karten umplanen
@@ -347,7 +347,7 @@ deck-config-bury-tooltip =
     
     Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten wiederholen.
     
-    Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben einen aktuellen Lernschritt von einem oder mehreren Tagen.
+    Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben eine aktuelle Lernstufe von einem oder mehreren Tagen.
 deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
@@ -355,8 +355,8 @@ deck-config-ignore-before-tooltip =
     Wenn diese Option aktiviert ist, werden Wiederholungen vor dem angegebenen Datum bei der Optimierung und Auswertung der FSRS-Parameter ignoriert.
     Dies kann nützlich sein, wenn Sie die Planungsdaten einer anderen Person importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Behaltensleistung hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Lernzeit zu kopieren.
-deck-config-compute-optimal-retention = Empfohlene minimale Retention berechnen
-deck-config-predicted-optimal-retention = Empfohlene minimale Retention: { $num }
+deck-config-compute-optimal-retention = Empfohlener Mindestwert für Erfolgsquote
+deck-config-predicted-optimal-retention = Empfohlener Mindestwert für Erfolgsquote: { $num }
 deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
 deck-config-compute-optimal-weights-tooltip =
     Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,
