@@ -85,17 +85,17 @@ deck-config-new-gather-priority = Reihenfolge für das Einsammeln neuer Karten
 deck-config-new-gather-priority-tooltip-2 =
     `Stapel`: Sammelt Karten aus jedem Unterstapel der Reihe nach ein, beginnend beim obersten. Innerhalb der Unterstapel erfolgt das Einsammeln in aufsteigender Positionsnummer. Wird der Tageshöchstwert des ausgewählten Stapels erreicht, stoppt das Einsammeln, bevor alle Unterstapel durchlaufen sind. Dieses Vorgehen ist bei großen Sammlungen besonders schnell und priorisiert Unterstapel, die weiter oben stehen.
     
-    `Positionsnummer, aufsteigend`: Sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge ein. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
+    `Positionsnummer (aufsteigend)`: Sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge ein. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
     
-    `Positionsnummer, absteigend`: Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
+    `Positionsnummer (absteigend)`: Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
     
     `Zufällige Notizen`: Wählt Notizen zufällig aus und sammelt dann jeweils alle dazugehörigen Karten in einem Durchgang ein.
     
     `Zufällige Karten`: Sammelt Karten in zufälliger Reihenfolge ein.
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-deck-then-random-notes = Zuerst Stapel, dann zufällige Notizen
-deck-config-new-gather-priority-position-lowest-first = Positionsnummer, aufsteigend
-deck-config-new-gather-priority-position-highest-first = Positionsnummer, absteigend
+deck-config-new-gather-priority-position-lowest-first = Positionsnummer (aufsteigend)
+deck-config-new-gather-priority-position-highest-first = Positionsnummer (absteigend)
 deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge für neue Karten
@@ -129,14 +129,14 @@ deck-config-review-sort-order-tooltip = Die Standardsortierreihenfolge priorisie
 deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
 deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
 deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
-deck-config-sort-order-ascending-intervals = Intervall, aufsteigend
-deck-config-sort-order-descending-intervals = Intervall, absteigend
-deck-config-sort-order-ascending-ease = Leichtigkeit, aufsteigend
-deck-config-sort-order-descending-ease = Leichtigkeit, absteigend
+deck-config-sort-order-ascending-intervals = Intervall (aufsteigend)
+deck-config-sort-order-descending-intervals = Intervall (absteigend)
+deck-config-sort-order-ascending-ease = Leichtigkeit (aufsteigend)
+deck-config-sort-order-descending-ease = Leichtigkeit (absteigend)
 deck-config-sort-order-ascending-difficulty = Schwierigkeit, aufsteigend
 deck-config-sort-order-descending-difficulty = Schwierigkeit, absteigend
-deck-config-sort-order-retrievability-ascending = Abrufbarkeit, aufsteigend
-deck-config-sort-order-retrievability-descending = Abrufbarkeit, absteigend
+deck-config-sort-order-retrievability-ascending = Abrufbarkeit (aufsteigend)
+deck-config-sort-order-retrievability-descending = Abrufbarkeit (absteigend)
 deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschließlich die Anzeigereihenfolge des gewählten Stapels, nicht jedoch die der Unterstapel.
 
 ## Timer section
