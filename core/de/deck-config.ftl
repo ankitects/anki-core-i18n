@@ -366,7 +366,7 @@ deck-config-compute-optimal-weights-tooltip =
     Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapeloptionen zuzuweisen, da
     die Einstellungen für einfache Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
     
-    Standardmäßig werden die Einstellungen aus dem Prüfungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
+    Standardmäßig werden die Einstellungen aus dem Wiederholungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
     optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
 deck-config-compute-optimal-retention-tooltip2 =
     Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
