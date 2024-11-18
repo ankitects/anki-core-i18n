@@ -110,7 +110,7 @@ statistics-range-search = Suche
 statistics-card-ease-title = Leichtigkeit
 statistics-card-difficulty-title = Schwierigkeit
 statistics-card-stability-title = Stabilität
-statistics-card-stability-subtitle = Die Zeitspanne, in der die Abrufbarkeit auf 90 % sinkt.
+statistics-card-stability-subtitle = Intervall, in dem die Abrufbarkeit auf 90 % sinkt.
 statistics-average-stability = Durchschnittliche Stabilität
 statistics-card-retrievability-title = Abrufbarkeit
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
@@ -169,7 +169,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Rückstand
 statistics-intervals-title = Intervalle
-statistics-intervals-subtitle = Zeit, bis Karten erneut angezeigt werden.
+statistics-intervals-subtitle = Intervall, bis Karten erneut angezeigt werden.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } Karte mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall

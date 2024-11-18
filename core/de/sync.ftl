@@ -30,7 +30,7 @@ sync-confirm-empty-upload = Die Sammlung auf AnkiWeb enthält keine Karten. Durc
 sync-conflict-explanation =
     Der Stapel hier und auf AnkiWeb unterscheiden sich in einer solchen Weise, dass sie nicht zusammengeführt werden können. Es ist daher notwendig, die Stapel auf einer Seite mit den Stapeln auf der anderen Seite zu überschreiben.
     
-    Wenn jetzt »Herunterladen« ausgewählt wird, wird Anki die Stapel von AnkiWeb herunterladen, und alle Änderungen, die seit der letzten Synchronisierung auf diesem Rechner gemacht wurden, gehen verloren.
+    Wenn jetzt »Herunterladen« ausgewählt wird, wird Anki die Sammlung von AnkiWeb herunterladen, und alle Änderungen, die seit der letzten Synchronisierung auf diesem Rechner gemacht wurden, gehen verloren.
     
     Wenn Sie »Hochladen« auswählen, wird Anki Ihre Stapel nach AnkiWeb hochladen, und alle Änderungen, die Sie im AnkiWeb oder Ihren anderen Geräten seit der letzten Synchronisierung gemacht haben, gehen verloren.
     

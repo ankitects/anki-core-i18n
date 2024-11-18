@@ -18,9 +18,9 @@ deck-config-title = Stapeloptionen
 deck-config-daily-limits = Tageshöchstwerte
 deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungskarten.
 deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungskarten, die pro Tag angezeigt werden sollen.
-deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal angezeigt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten.
+deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal eingesammelt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten.
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten begrenzt auch die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungskarten z. B. bei 200 liegt und 190 Wiederholungskarten anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
-deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernen angezeigt, gefolgt von den Wiederholungskarten.
+deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernen eingesammelt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
     - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieser Stapeloptionengruppe, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
@@ -50,7 +50,7 @@ deck-config-new-insertion-order = Einfügereihenfolge
 deck-config-new-insertion-order-tooltip = Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Positionsnummer werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung aktualisiert auch die Positionsnummern bereits vorhandener neuer Karten.
 deck-config-new-insertion-order-sequential = Der Reihe nach (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
-deck-config-new-insertion-order-random-with-v3 = Beim v3-Zeitplaner wird empfohlen, diese Einstellung auf „Der Reihe nach“ zu belassen und stattdessen die Reihenfolge für das Sammeln neuer Karten anzupassen.
+deck-config-new-insertion-order-random-with-v3 = Beim v3-Zeitplaner wird empfohlen, diese Einstellung auf „Der Reihe nach“ zu belassen und stattdessen die Reihenfolge für das Einsammeln neuer Karten anzupassen.
 
 ## Lapses section
 
@@ -69,11 +69,11 @@ deck-config-bury-title = Zurückstellung
 deck-config-bury-new-siblings = Geschwisterkarten mit Status „Neu“ zurückstellen
 deck-config-bury-review-siblings = Geschwisterkarten mit Status „Wiederholung“ zurückstellen
 deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status „Mehrtägiges Lernen“ zurückstellen
-deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. umgedrehte Karten oder benachbarte Lückentexte) auf den nächsten Tag verschoben werden.
+deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. Karten in umgekehrter Richtung oder benachbarte Lückentexte) auf den nächsten Tag verschoben werden.
 deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag verschoben werden.
 deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag verschoben werden.
 deck-config-bury-priority-tooltip =
-    Wenn Anki Karten zusammenträgt, werden zunächst die Lernkarten für den aktuellen Tag eingesammelt, danach die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und zuletzt den neuen Karten. Diese Reihenfolge hat Einfluss darauf, wie die Zurückstellung funktioniert:
+    Wenn Anki Karten einsammelt, dann zunächst die Lernkarten für den aktuellen Tag, danach die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und zuletzt den neuen Karten. Diese Reihenfolge hat Einfluss darauf, wie die Zurückstellung funktioniert:
     
     - Wenn alle Zurückstelloptionen aktiviert sind, wird die Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
     - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht zurückstellen. Wenn Sie z. B. die Zurückstellung neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ zurückstellen. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
@@ -81,7 +81,7 @@ deck-config-bury-priority-tooltip =
 ## Ordering section
 
 deck-config-ordering-title = Anzeigereihenfolge
-deck-config-new-gather-priority = Reihenfolge für das Einsammeln neuer Karten
+deck-config-new-gather-priority = Einsammelreihenfolge für neue Karten
 deck-config-new-gather-priority-tooltip-2 =
     `Stapel`: Sammelt Karten aus jedem Unterstapel der Reihe nach ein, beginnend beim obersten. Innerhalb der Unterstapel erfolgt das Einsammeln in aufsteigender Positionsnummer. Wird der Tageshöchstwert des ausgewählten Stapels erreicht, stoppt das Einsammeln, bevor alle Unterstapel durchlaufen sind. Dieses Vorgehen ist bei großen Sammlungen besonders schnell und priorisiert Unterstapel, die weiter oben stehen.
     
@@ -120,7 +120,7 @@ deck-config-interday-step-priority = Wann Karten im „mehrtägigen Lernen” an
 deck-config-interday-step-priority-tooltip =
     Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Tagesgrenze überschreiten.
     
-    Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf Karten im „mehrtägigen Lernen” angewendet, und danach auf die Wiederholungskarten. Diese Einstellung steuert die Reihenfolge, in der die eingesammelten Karten angezeigt werden, jedoch werden Karten im „mehrtägige Lernen“ immer zuerst angezeigt.
+    Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf Karten im „mehrtägigen Lernen” angewendet, und danach auf die Wiederholungskarten. Diese Einstellung steuert die Reihenfolge, in der die eingesammelten Karten angezeigt werden, jedoch werden Karten im „mehrtägige Lernen“ immer zuerst eingesammelt.
 deck-config-review-mix-mix-with-reviews = Mit Wiederholungen mischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
@@ -347,7 +347,7 @@ deck-config-bury-if-new = Zurückstellen, wenn neu
 deck-config-bury-if-new-or-review = Zurückstellen, wenn Karte neu oder zum Wiederholen
 deck-config-bury-if-new-review-or-interday = Zurückstellen, wenn Karte neu, zum Wiederholen oder Lernen über mehrere Tagen
 deck-config-bury-tooltip =
-    Geschwisterkarten sind andere Karten von der gleichen Notiz (z.B. Vorder- und Rückseite oder Lückentextkarten von dem gleichen Text).
+    Geschwisterkarten sind andere Karten von der gleichen Notiz (z. B. Karten in umgekehrter Richtung oder Lückentextkarten von dem gleichen Text).
     
     Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten wiederholen.
     

@@ -4,15 +4,15 @@ notetypes-notetype = Notiztyp
 
 notetypes-front-field = Vorderseite
 notetypes-back-field = Rückseite
-notetypes-add-reverse-field = Gegenrichtung hinzufügen
+notetypes-add-reverse-field = Umgekehrte Richtung hinzufügen
 notetypes-text-field = Text
 notetypes-back-extra-field = Rückseite Extra
 
 ## Default note type names
 
 notetypes-basic-name = Einfach
-notetypes-basic-reversed-name = Einfach (beide Richtungen)
-notetypes-basic-optional-reversed-name = Einfach (eine oder zwei Richtungen)
+notetypes-basic-reversed-name = Einfach (und die umgekehrte Richtung)
+notetypes-basic-optional-reversed-name = Einfach (und wahlweise die umgekehrte Richtung)
 notetypes-basic-type-answer-name = Einfach (Antwort eintippen)
 notetypes-cloze-name = Lückentext
 
