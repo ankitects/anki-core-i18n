@@ -133,8 +133,8 @@ deck-config-sort-order-ascending-intervals = Intervall (aufsteigend)
 deck-config-sort-order-descending-intervals = Intervall (absteigend)
 deck-config-sort-order-ascending-ease = Leichtigkeit (aufsteigend)
 deck-config-sort-order-descending-ease = Leichtigkeit (absteigend)
-deck-config-sort-order-ascending-difficulty = Schwierigkeit, aufsteigend
-deck-config-sort-order-descending-difficulty = Schwierigkeit, absteigend
+deck-config-sort-order-ascending-difficulty = Schwierigkeit (aufsteigend)
+deck-config-sort-order-descending-difficulty = Schwierigkeit (absteigend)
 deck-config-sort-order-retrievability-ascending = Abrufbarkeit (aufsteigend)
 deck-config-sort-order-retrievability-descending = Abrufbarkeit (absteigend)
 deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschließlich die Anzeigereihenfolge des gewählten Stapels, nicht jedoch die der Unterstapel.
@@ -177,7 +177,7 @@ deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zei
 deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
 deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30 % länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
 deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.
-deck-config-hard-interval-tooltip = Der Faktor, der angewendet wird, wenn der „Schwierig“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
+deck-config-hard-interval-tooltip = Der Faktor, der angewendet wird, wenn der „Schwer“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
 deck-config-new-interval-tooltip = Der auf das Wiederholungsintervall angewendete Faktor, nachdem eine Karte mit „Nochmal“ bewertet wurde.
 deck-config-minimum-interval-tooltip = Gibt die Mindestanzahl an Tagen für das Intervall an, das einer Karte nach dem Abschluss des Wiederlernvorgangs zugewiesen werden soll. Der Standardwert ist 1 Tag, was bedeutet, dass die Karte nach Abschluss des Wiederlernens am nächsten Tag erneut angezeigt wird.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
@@ -364,7 +364,7 @@ deck-config-compute-optimal-weights-tooltip =
     Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,
     und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind.
     Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapeloptionen zuzuweisen, da
-    die Einstellungen für leichte Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
+    die Einstellungen für einfache Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
     
     Standardmäßig werden die Einstellungen aus dem Prüfungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
     optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.

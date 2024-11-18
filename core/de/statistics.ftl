@@ -73,7 +73,7 @@ statistics-studied-today =
        *[years] Heute { statistics-cards } { statistics-in-time-span-years } gelernt ({ $secs-per-card } s/Karte)
     }
 statistics-today-title = Heute
-statistics-today-again-count = Falsch:
+statistics-today-again-count = Fehlversuche:
 statistics-today-type-counts = Neu: { $learnCount }, wiederholt: { $reviewCount }, wiedererlernt: { $relearnCount }, ausgewählte Karten: { $filteredCount }
 statistics-today-no-cards = Heute wurden (noch) keine Karten gelernt.
 statistics-today-no-mature-cards = Heute wurden keine alten Karten wiederholt.
