@@ -345,13 +345,13 @@ deck-config-bury-siblings = Geschwisterkarten zurückstellen
 deck-config-do-not-bury = Geschwisterkarten nicht zurückstellen
 deck-config-bury-if-new = Zurückstellen, wenn neu
 deck-config-bury-if-new-or-review = Zurückstellen, wenn Karte neu oder zum Wiederholen
-deck-config-bury-if-new-review-or-interday = Zurückstellen, wenn Karte neu, zum Wiederholen oder Lernen über mehrere Tagen
+deck-config-bury-if-new-review-or-interday = Zurückstellen, wenn Karte neu, zum Wiederholen oder zum „mehrtägigen Lernen“
 deck-config-bury-tooltip =
     Geschwisterkarten sind andere Karten von der gleichen Notiz (z. B. Karten in umgekehrter Richtung oder Lückentextkarten von dem gleichen Text).
     
     Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten wiederholen.
     
-    Wenn Sie den V3-Zeitplaner benutzen, werden Lernkarten, die sich über mehrere Tage erstrecken, ebenfalls zurückgestellt. Solche Karten haben eine aktuelle Lernstufe von einem oder mehreren Tagen.
+    Wenn Sie den V3-Zeitplaner benutzen, werden Karten mit Status „mehrtägiges Lernen“, ebenfalls zurückgestellt. Solche Karten haben eine aktuelle Lernstufe von einem oder mehr Tagen.
 deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.

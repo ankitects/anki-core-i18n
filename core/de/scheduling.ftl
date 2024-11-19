@@ -73,7 +73,7 @@ scheduling-learn-remaining =
        *[other] Es sind noch { $remaining } zu lernende Karten heute fällig.
     }
 scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
-scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungen wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Optionen.
+scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungskarten wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Optionen.
 scheduling-today-new-limit-reached =
     Weitere neue Karten sind verfügbar, aber der Tageshöchstwert für neue Karten
     ist erreicht. Er kann in den Einstellungen erhöht werden, aber
@@ -132,7 +132,7 @@ scheduling-new-interval = Intervall für „Gut“-Knopf nach Fehlversuch
 scheduling-new-options-group-name = Name der neuen Optionengruppe:
 scheduling-options-group = Optionengruppe:
 scheduling-order = Reihenfolge
-scheduling-parent-limit = (Grenzwert des übergeordneten Stapels: { $val })
+scheduling-parent-limit = (Tageshöchstwert des übergeordneten Stapels: { $val })
 scheduling-reset-counts = Anzahl der Wiederholungen und Fehlversuche zurücksetzen
 scheduling-restore-position = Karten in ursprünglicher Reihenfolge abfragen (falls bekannt)
 scheduling-review = Wiederholen
