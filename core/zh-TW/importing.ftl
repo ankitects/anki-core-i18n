@@ -33,7 +33,7 @@ importing-map-to = 對應到 { $val }
 importing-map-to-tags = 對應到標籤
 importing-mapped-to = 對應到<b>{ $val }</b>
 importing-mapped-to-tags = 對應到 <b>標籤</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = 合併筆記類型
 importing-merge-notetypes-help =
     勾選後，若你或牌組作者修改了牌組類型的架構，則 Anki 不會分別保留兩個版本，而會將它們合併。
@@ -49,8 +49,8 @@ importing-notes-skipped-as-theyre-already-in = 由於最新的副本已在集合
 importing-notes-skipped-update-due-to-notetype = 由於首次匯入筆記後修改過筆記類型，因此筆記未被更新：{ $val }
 importing-notes-updated-as-file-had-newer = 因檔案有新版本而更新的筆記：{ $val }
 importing-include-reviews = 包含複習
-importing-also-import-progress = 匯入任何學習進度
-importing-with-deck-configs = 匯入任何牌組預設組
+importing-also-import-progress = 匯入學習進度（如果存在）
+importing-with-deck-configs = 匯入牌組預設組（如果存在）
 importing-updates = 更新
 importing-include-reviews-help = 啟用後，牌組分享者包含的複習歷程也會被匯入。如未啟用，則所有卡片將匯入為新卡片，並將移除「leech」及「marked」標籤。
 importing-with-deck-configs-help = 啟用後，牌組分享者包含的任何牌組選項也會被匯入。如未啟用，則所有牌組都將使用預設選項。
