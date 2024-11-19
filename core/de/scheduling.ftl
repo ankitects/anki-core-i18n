@@ -73,10 +73,7 @@ scheduling-learn-remaining =
        *[other] Es sind noch { $remaining } zu lernende Karten heute fällig.
     }
 scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
-scheduling-today-review-limit-reached =
-    Der Tageshöchstwert für Wiederholungskarten ist erreicht, weitere Karten warten jedoch
-    noch darauf, wiederholt zu werden. Um die Gedächtnisleistung optimal zu nutzen,
-    bitte die Erhöhung des Grenzwertes in den Einstellungen erwägen.
+scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungen wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Optionen.
 scheduling-today-new-limit-reached =
     Weitere neue Karten sind verfügbar, aber der Tageshöchstwert für neue Karten
     ist erreicht. Er kann in den Einstellungen erhöht werden, aber
