@@ -28,5 +28,5 @@ card-template-rendering-no-such-field = '{ $found }' gefunden, aber es gibt kein
 # are missing.
 card-template-rendering-empty-front = Die Vorderseite dieser Karte ist leer.
 card-template-rendering-missing-cloze =
-    Es wurde keine Lücke { $number } (im Lückentext) auf der Karte gefunden. 
+    Es wurde kein Lückentext { $number } auf der Karte gefunden. 
     Bitte benutzen Sie das „Leere Karten...“-Werkzeug, um diese leere Karte zu entfernen.

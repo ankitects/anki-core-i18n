@@ -169,7 +169,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Rückstand
 statistics-intervals-title = Intervalle
-statistics-intervals-subtitle = Intervall, bis Karten erneut angezeigt werden.
+statistics-intervals-subtitle = Intervall, bis Wiederholungskarten erneut angezeigt werden.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } Karte mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall

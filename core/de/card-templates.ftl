@@ -13,7 +13,7 @@ card-templates-front-preview = Vorschau für Vorderseite
 card-templates-back-preview = Vorschau für Rückseite
 card-templates-preview-box = Vorschau
 card-templates-template-box = Vorlage
-card-templates-sample-cloze = Dies ist ein { "{{c1::" }Beispiel{ "}}" } - Lückentext.
+card-templates-sample-cloze = Dies ist ein { "{{c1::" }Beispiel{ "}}" }-Lückentext.
 card-templates-fill-empty = Leere Felder ausfüllen
 card-templates-night-mode = Nachtmodus
 # Add "mobile" class to card preview, so the card appears like it would
