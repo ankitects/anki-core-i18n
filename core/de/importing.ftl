@@ -8,7 +8,7 @@ importing-anki2-files-are-not-directly-importable = .anki2-Dateien können nicht
 importing-appeared-twice-in-file = Doppelt vorhanden in Datei: { $val }
 importing-by-default-anki-will-detect-the = Für gewöhnlich erkennt Anki das Trennzeichen zwischen zwei Feldern (z.B. ein Komma, Tab oder Ähnliches) automatisch. Sollte Anki das Trennzeichen nicht korrekt erkennen, gaben Sie es hier ein. Anstelle von Tab verwenden Sie bitte: \t.
 importing-cannot-merge-notetypes-of-different-kinds =
-    Lückentext-Notizen können nicht mit normalen Notizen zusammengeführt werden.
+    Lückentext-Notiztypen können nicht mit normalen Notiztypen zusammengeführt werden.
     Sie können die Datei trotzdem importieren, wenn Sie die Option "{ importing-merge-notetypes }" deaktivieren.
 importing-change = Ändern
 importing-colon = Doppelpunkt
@@ -25,7 +25,7 @@ importing-identical = Identisch
 importing-ignore-field = Feld ignorieren
 importing-ignore-lines-where-first-field-matches = Zeilen ignorieren, wenn das erste Feld mit einer bereits vorhandenen Notiz übereinstimmt
 importing-ignored = <ignoriert>
-importing-import-even-if-existing-note-has = Auch dann importieren, wenn es eine vorhandene Karte mit demselben ersten Feld gibt
+importing-import-even-if-existing-note-has = Auch dann importieren, wenn es eine vorhandene Notiz mit demselben ersten Feld gibt
 importing-import-options = Einstellungen für den Import
 importing-importing-complete = Importierung abgeschlossen.
 importing-invalid-file-please-restore-from-backup = Ungültige Datei. Bitte eine Sicherungskopie öffnen.
