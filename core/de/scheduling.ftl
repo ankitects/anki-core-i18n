@@ -53,24 +53,24 @@ scheduling-next-learn-due =
     { $unit ->
         [seconds]
             { $amount ->
-                [one] Die nächste zu lernende Karte wird in { $amount } Sekunde bereitgestellt.
-               *[other] Die nächste zu lernende Karte wird in { $amount } Sekunden bereitgestellt.
+                [one] Die nächste Lernkarte wird in { $amount } Sekunde bereitgestellt.
+               *[other] Die nächste Lernkarte wird in { $amount } Sekunden bereitgestellt.
             }
         [minutes]
             { $amount ->
-                [one] Die nächste zu lernende Karte wird in { $amount } Minute bereitgestellt.
-               *[other] Die nächste zu lernende Karte wird in { $amount } Minuten bereitgestellt.
+                [one] Die nächste Lernkarte wird in { $amount } Minute bereitgestellt.
+               *[other] Die nächste Lernkarte wird in { $amount } Minuten bereitgestellt.
             }
        *[hours]
             { $amount ->
-                [one] Die nächste zu lernende Karte wird in { $amount } Stunde bereitgestellt.
-               *[other] Die nächste zu lernende Karte wird in { $amount } Stunden bereitgestellt.
+                [one] Die nächste Lernkarte wird in { $amount } Stunde bereitgestellt.
+               *[other] Die nächste Lernkarte wird in { $amount } Stunden bereitgestellt.
             }
     }
 scheduling-learn-remaining =
     { $remaining ->
-        [one] Es ist noch eine zu lernende Karte heute fällig.
-       *[other] Es sind noch { $remaining } zu lernende Karten heute fällig.
+        [one] Es ist noch eine Lernkarte heute fällig.
+       *[other] Es sind noch { $remaining } Lernkarten heute fällig.
     }
 scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
 scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungskarten wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Optionen.
