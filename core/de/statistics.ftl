@@ -168,7 +168,7 @@ statistics-cards-due =
        *[other] { $cards } Karten fällig
     }
 statistics-backlog-checkbox = Rückstand
-statistics-intervals-title = Intervalle
+statistics-intervals-title = Wiederholungsintervalle
 statistics-intervals-subtitle = Intervall, bis Wiederholungskarten erneut angezeigt werden.
 statistics-intervals-day-range =
     { $cards ->
