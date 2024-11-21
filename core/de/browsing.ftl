@@ -76,21 +76,21 @@ browsing-queue-top = Anfang der Warteschlange: { $val }
 browsing-randomize-order = Zufällige Reihenfolge
 browsing-remove-tags = Schlagwörter entfernen…
 browsing-replace-with = <b>Ersetzen durch</b>:
-browsing-reposition = Position ändern…
-browsing-reposition-new-cards = Position neuer Karten ändern
+browsing-reposition = Positionsnummer ändern…
+browsing-reposition-new-cards = Positionsnummer neuer Karten ändern
 browsing-reschedule = Umplanen
 browsing-search-bar-hint = Karten/Notizen suchen (Text eingeben, dann Eingabetaste drücken)
 browsing-search-in = Suchen in:
 browsing-search-within-formatting-slow = Mit Formatierung suchen (langsam)
 browsing-select-deck = Stapel auswählen
 browsing-selected-notes-only = Nur ausgewählte Notizen
-browsing-shift-position-of-existing-cards = Position existierender Karten verändern
+browsing-shift-position-of-existing-cards = Positionsnummer existierender Karten verschieben
 browsing-sidebar = Seitenleiste
 browsing-sidebar-filter = Seitenleiste-Filter
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sortierfeld
 browsing-sorting-on-this-column-is-not = Nach dieser Spalte kann nicht sortiert werden. Bitte eine andere Spalte auswählen.
-browsing-start-position = Anfangsposition:
+browsing-start-position = Start-Positionsnummer:
 browsing-step = Schrittweite:
 browsing-suspended = Ausgeschlossen
 browsing-tag-duplicates = Duplikate verschlagworten
@@ -162,8 +162,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Position von { $count } neuen Karte geändert.
-       *[other] Position von { $count } neuen Karten geändert.
+        [one] Positionsnummer von { $count } neuen Karte geändert.
+       *[other] Positionsnummer von { $count } neuen Karten geändert.
     }
 browsing-reparented-decks =
     { $count ->

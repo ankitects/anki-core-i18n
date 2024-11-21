@@ -39,14 +39,14 @@ card-templates-cloze = Lückentext { $val }
 card-templates-deck-override = Stapel überschreiben …
 card-templates-delete-the-as-card-type-and = Kartentyp '{ $template }' und seine { $cards } löschen?
 card-templates-enter-deck-to-place-new = Name des Stapel, in dem neue { $val }-Karten hinzugefügt werden sollen (Feld kann frei bleiben):
-card-templates-enter-new-card-position-1 = Neue Kartenposition eingeben (1 … { $val }):
+card-templates-enter-new-card-position-1 = Neue Positionsnummer des Kartentyps eingeben (1–{ $val }):
 card-templates-flip = Seiten vertauschen
 card-templates-form = Formular
 card-templates-off = (aus)
 card-templates-on = (ein)
 card-templates-remove-card-type = Kartentyp entfernen …
 card-templates-rename-card-type = Kartentyp umbenennen …
-card-templates-reposition-card-type = Position des Kartentyps ändern…
+card-templates-reposition-card-type = Positionsnummer des Kartentyps ändern…
 card-templates-card-count =
     { $count ->
         [one] { $count } Karte
