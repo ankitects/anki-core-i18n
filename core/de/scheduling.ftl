@@ -90,9 +90,9 @@ scheduling-custom-study = Benutzerdefiniertes Lernen
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 kommt mit einem neuen Zeitplaner, welcher eine Anzahl von Problemen aus vorherigen Versionen von Anki löst. Das Updaten auf diesen wird empfohlen.
+scheduling-update-soon = Anki 2.1 kommt mit einem neuen Zeitplaner, welcher eine Anzahl von Problemen aus vorherigen Versionen von Anki löst. Das Aktualisieren auf diesen wird empfohlen.
 scheduling-update-done = Zeitplaner erfolgreich aktualisiert.
-scheduling-update-button = Updaten
+scheduling-update-button = Aktualisieren
 scheduling-update-later-button = Später
 scheduling-update-more-info-button = Hilfe
 scheduling-update-required =

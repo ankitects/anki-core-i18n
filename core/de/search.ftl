@@ -30,8 +30,8 @@ search-invalid-answer-button = In „`{ $context }`“ wurde eine Antwortknopf z
 
 ## Column labels in browse screen
 
-search-note-modified = Notiz verändert
-search-card-modified = Karte verändert
+search-note-modified = Notiz geändert
+search-card-modified = Karte geändert
 
 ##
 

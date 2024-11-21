@@ -38,20 +38,20 @@ importing-merge-notetypes = Notiztypen zusammenführen
 importing-merge-notetypes-help =
     Bestimmt, wie Anki vorgeht, wenn Sie einen Notiztyp (wie z.B. "Einfach" oder "Lückentext") in Ihre Sammlung importieren, dessen Schema sich geändert hat (Erklärung siehe unten). Falls aktiviert, wird Anki beide Versionen in einer kombinieren, anstatt (wie bisher) beide separat anzulegen. Default-Wert für diese Einstellung: Deaktiviert
     
-    Wann hat sich das Schema eines Notiztyps geändert? Wenn bei dem Notiztyp a) Felder oder b) Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert wurde. Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurde, stellt dies keine Schema-Änderung dar, sodass diese Option nicht relevant ist. Dann kommt es stattdessen auf die Option "Notizen updaten" an.
+    Wann hat sich das Schema eines Notiztyps geändert? Wenn bei dem Notiztyp a) Felder oder b) Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert wurde. Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurde, stellt dies keine Schema-Änderung dar, sodass diese Option nicht relevant ist. Dann kommt es stattdessen auf die Option "Notizen aktualisieren" an.
     
-    Hinweis: Dies erfordert eine einseitige Synchronisierung. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
+    Hinweis: Wenn Sie diese Option aktivieren, kann dies ggf. eine Vollsynchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Der Separator zum Trennen von Datenfeldern kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehender Separator wird nicht unterstützt.
 importing-notes-added-from-file = Notizen hinzugefügt aus Datei: { $val }
 importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in Ihrer Sammlung befinden: { $val }
-importing-notes-skipped-update-due-to-notetype = Notizen nicht geupdatet, da ihr Notiztyp geändert wurde: { $val }
-importing-notes-updated-as-file-had-newer = Notizen geupdatet, da der importierte Stapel eine neuere Version enthielt: { $val }
+importing-notes-skipped-update-due-to-notetype = Notizen nicht aktualisiert, da ihr Notiztyp geändert wurde: { $val }
+importing-notes-updated-as-file-had-newer = Notizen aktualisiert, da der importierte Stapel eine neuere Version enthielt: { $val }
 importing-include-reviews = Wiederholungsverlauf (falls enthalten) ebenfalls importieren
 importing-also-import-progress = Lernfortschritt (falls enthalten) ebenfalls importieren
 importing-with-deck-configs = Stapeloptionen (falls enthalten) ebenfalls importieren
-importing-updates = Vorgehen bei Änderungen
+importing-updates = Vorgehen bei Aktualisierungen
 importing-include-reviews-help =
     Falls aktiviert, werden auch der Wiederholungsverlauf und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).
     
@@ -67,7 +67,7 @@ importing-semicolon = Semikolon
 importing-skipped = Übersprungen
 importing-supermemo-xml-export-xml = Supermemo XML-Export (*.xml)
 importing-tab = Tab
-importing-tag-modified-notes = Geupdateten Notizen folgende Schlagwörter hinzufügen:
+importing-tag-modified-notes = Geänderten Notizen folgende Schlagwörter hinzufügen:
 importing-text-separated-by-tabs-or-semicolons = Durch Tabs oder Semikolons getrennter Text (*)
 importing-the-first-field-of-the-note = Das erste Feld des Notiztyps muss zugeordnet werden.
 importing-the-provided-file-is-not-a = Die ausgewählte Datei ist keine gültige .apkg-Datei.
@@ -75,19 +75,19 @@ importing-this-file-does-not-appear-to = Diese Datei ist wahrscheinlich keine g�
 importing-this-will-delete-your-existing-collection = Hierdurch wird die gesamte derzeitige Sammlung gelöscht und durch die importierte Datei ersetzt. Trotzdem fortfahren?
 importing-unable-to-import-from-a-readonly = Import nicht möglich: Die ausgewählte Datei ist schreibgeschützt.
 importing-unknown-file-format = Unbekannter Dateityp.
-importing-update-existing-notes-when-first-field = Notizen mit übereinstimmendem erstem Feld updaten
-importing-updated = Geupdatet
+importing-update-existing-notes-when-first-field = Notizen mit übereinstimmendem erstem Feld aktualisieren
+importing-updated = Aktualisiert
 importing-update-if-newer = Falls neuer
 importing-update-always = Immer
 importing-update-never = Nie
-importing-update-notes = Notizinhalt updaten:
+importing-update-notes = Notizinhalt aktualisieren:
 importing-update-notes-help =
-    Beeinflusst, wann einzelne in Ihrer Sammlung vorhandene Notizen geupdatet werden.
+    Beeinflusst, wann einzelne in Ihrer Sammlung vorhandene Notizen aktualisiert werden.
     
     Default: "Falls neuer", also wenn die in dem zu importierenden Stapel gefundene Version der Notiz neuer ist als die Version in Ihrer Sammlung.
-importing-update-notetypes = Notiztypen updaten:
+importing-update-notetypes = Notiztypen aktualisieren:
 importing-update-notetypes-help =
-    Beeinflusst, wann ein bereits in Ihrer Sammlung vorhandener Notiztyp (wie z.B. "Einfach" oder "Lückentext") geupdatet wird.
+    Beeinflusst, wann ein bereits in Ihrer Sammlung vorhandener Notiztyp (wie z.B. "Einfach" oder "Lückentext") aktualisiert wird.
     
     Default: "Falls neuer", also wenn die Version des Notiztyps in dem zu importierenden Stapel neuer ist als die Version in Ihrer Sammlung.
     
@@ -109,8 +109,8 @@ importing-note-unchanged =
     }
 importing-note-updated =
     { $count ->
-        [one] { $count } Notiz wurde geupdatet.
-       *[other] { $count } Notizen wurden geupdatet.
+        [one] { $count } Notiz wurde aktualisiert.
+       *[other] { $count } Notizen wurden aktualisiert.
     }
 importing-processed-media-file =
     { $count ->
@@ -137,9 +137,9 @@ importing-duplicate = Duplizieren
 # "Existing notes: Preserve" (verb)
 importing-preserve = Behalten
 # "Existing notes: Update" (verb)
-importing-update = Updaten
+importing-update = Aktualisieren
 importing-tag-all-notes = Alle Notizen verschlagworten
-importing-tag-updated-notes = Geupdateten Notizen Schlagwörter hinzufügen
+importing-tag-updated-notes = Aktualisierten Notizen Schlagwörter hinzufügen
 importing-file = Datei
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Trefferumfang
@@ -158,8 +158,8 @@ importing-notes-added =
     }
 importing-notes-updated =
     { $count ->
-        [one] { $count } Notiz geupdatet.
-       *[other] { $count } Notizen geupdatet.
+        [one] { $count } Notiz aktualisiert.
+       *[other] { $count } Notizen aktualisiert.
     }
 importing-existing-notes-skipped =
     { $count ->
@@ -194,9 +194,9 @@ importing-status = Status
 importing-duplicate-note-added = Doppelt hinzugefügt
 importing-added-new-note = Neu hinzugefügt
 importing-existing-note-skipped = Übersprungen, da die Notiz in der aktuellen Version bereits in der Sammlung vorhanden ist
-importing-note-skipped-update-due-to-notetype = Notiz nicht geupdatet, da ihr Notiztyp geändert wurde
-importing-note-skipped-update-due-to-notetype2 = Notiz nicht geupdatet, da ihr Notiztyp nach dem letzten Import geändert wurde und die Option "{ importing-merge-notetypes }" deaktiviert ist.
-importing-note-updated-as-file-had-newer = Notiz geupdatet, da der importierte Stapel eine neuere Version enthielt
+importing-note-skipped-update-due-to-notetype = Notiz nicht aktualisiert, da ihr Notiztyp geändert wurde
+importing-note-skipped-update-due-to-notetype2 = Notiz nicht aktualisiert, da ihr Notiztyp nach dem letzten Import geändert wurde und die Option "{ importing-merge-notetypes }" deaktiviert ist.
+importing-note-updated-as-file-had-newer = Notiz aktualisiert, da der importierte Stapel eine neuere Version enthielt
 importing-note-skipped-due-to-missing-notetype = Notiz übersprungen, Notiztyp fehlt
 importing-note-skipped-due-to-missing-deck = Notiz übersprungen, Stapel fehlt
 importing-note-skipped-due-to-empty-first-field = Notiz übersprungen, erstes Feld ist leer
@@ -206,19 +206,19 @@ importing-field-separator-help =
     Beachte: Falls das Separator-Zeichen auch innerhalb eines Feldes auftaucht, muss dieses Feld korrekt (d.h. dem CSV-Standard gemäß) formatiert werden. Tabellenkalkulationsprogramme wie LibreOffice tun das automatisch.
 importing-allow-html-in-fields-help = Aktivieren Sie diese Einstellung, falls die Datei HTML-Formatierungen enthält wie z.B. "&lt;br&gt;". Falls deaktiviert, werden diese Zeichen in Ihren Karten nicht als Zeilenumbruch angezeigt, sondern buchstäblich als "&lt;br&gt;".
 importing-notetype-help =
-    Neu importierte Notizen wird dieser Notiztyp zugewiesen und nur bestehende Notizen mit diesem Notiztyp werden geupdatet.
+    Neu importierte Notizen wird dieser Notiztyp zugewiesen und nur bestehende Notizen mit diesem Notiztyp werden aktualisiert.
     
     Sie können auswählen, welche Felder in der Datei welchen Feldern in dem Notiztyp entsprechen, indem Sie das Mapping-Tool verwenden.
 importing-deck-help = Importierte Karten werden in diesem Stapel gespeichert.
 importing-existing-notes-help =
     Was soll passieren, wenn eine zu importierende Notiz identisch zu einer bereits vorhandenen ist?
     
-    - `{ importing-update }`: Die vorhandene Notiz updaten¶
-    - `{ importing-preserve }`: Nichts tun¶
+    - `{ importing-update }`: Die vorhandene Notiz aktualisieren
+    - `{ importing-preserve }`: Nichts tun
     - `{ importing-duplicate }`: Neue (zusätzliche) Notiz erstellen
 importing-match-scope-help = Nur Notizen mit dem gleichen Notiztyp werden daraufhin überprüft, ob sie bereits in der Sammlung vorhanden sind. Zusätzlich kann die Prüfung darauf beschränkt werden, ob im selben Stapel eine identische Notiz vorhanden ist.
-importing-tag-all-notes-help = Diese Schlagwörter werden sowohl den neu importierten als auch den geupdateten Notizen hinzugefügt.
-importing-tag-updated-notes-help = Diese Schlagwörter werden nur den geupdateten Notizen hinzugefügt.
+importing-tag-all-notes-help = Diese Schlagwörter werden sowohl den neu importierten als auch den aktualisierten Notizen hinzugefügt.
+importing-tag-updated-notes-help = Diese Schlagwörter werden nur den aktualisierten Notizen hinzugefügt.
 importing-overview = Überblick
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
