@@ -83,7 +83,7 @@ scheduling-buried-cards-found = Eine oder mehrere Karten wurden zurückgestellt 
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = Zurückstellung aufheben
-scheduling-how-to-custom-study = Wenn außerhalb des regulären Zeitplans gelernt werden soll, kann die { $customStudy }-Funktion genutzt werden.
+scheduling-how-to-custom-study = Wenn außerhalb der regulären Zeitplanung gelernt werden soll, kann die { $customStudy }-Funktion genutzt werden.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Benutzerdefiniertes Lernen
@@ -147,7 +147,7 @@ scheduling-show-new-cards-in-order-added = Neue Karten in der Reihenfolge anzeig
 scheduling-show-new-cards-in-random-order = Neue Karten in zufälliger Reihenfolge anzeigen
 scheduling-starting-ease = Anfängliche Leichtigkeit (Faktor für „Gut“-Knopf)
 scheduling-steps-in-minutes = Lernstufen (in Minuten)
-scheduling-steps-must-be-numbers = Die einzelnen Schritte müssen aus Zahlen bestehen.
+scheduling-steps-must-be-numbers = Die einzelnen Lernstufen müssen aus Zahlen bestehen.
 scheduling-tag-only = Nur verschlagworten
 scheduling-the-default-configuration-cant-be-removed = Die Standardeinstellungen können nicht gelöscht werden.
 scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst eine neue Optionengruppe erstellen.

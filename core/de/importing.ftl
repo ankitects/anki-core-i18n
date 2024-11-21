@@ -48,12 +48,12 @@ importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in Ihrer Sammlung befinden: { $val }
 importing-notes-skipped-update-due-to-notetype = Notizen nicht geupdatet, da ihr Notiztyp geändert wurde: { $val }
 importing-notes-updated-as-file-had-newer = Notizen geupdatet, da der importierte Stapel eine neuere Version enthielt: { $val }
-importing-include-reviews = Lernfortschritt (falls enthalten) ebenfalls importieren
+importing-include-reviews = Wiederholungsverlauf (falls enthalten) ebenfalls importieren
 importing-also-import-progress = Lernfortschritt (falls enthalten) ebenfalls importieren
 importing-with-deck-configs = Stapeloptionen (falls enthalten) ebenfalls importieren
 importing-updates = Vorgehen bei Änderungen
 importing-include-reviews-help =
-    Falls aktiviert, werden auch der Lernfortschritt und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).
+    Falls aktiviert, werden auch der Wiederholungsverlauf und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).
     
     Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten unabhängig von dem enthaltenen Lernstatus als neue Karten importiert und die Standard-Stapeloptionen Ihrer Sammlung verwendet.
 importing-with-deck-configs-help = Wenn aktiviert, werden auch die vom Autor eingestellten Stapeloptionen für den zu importierenden Stapel übernommen (vorausgesetzt, dass der Autor diese mitexportiert hat).

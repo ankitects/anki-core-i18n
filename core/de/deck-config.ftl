@@ -46,11 +46,11 @@ deck-config-learning-steps = Lernstufen
 deck-config-learning-steps-tooltip = Ein oder mehrere Intervalle, durch Leerzeichen getrennt. Der Standardwert ist `1m 10m`. Das erste Intervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte den „Nochmal“-Knopf  drücken. Der „Gut“-Knopf lässt die Karte voranschreiten. Das Intervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der abschließenden Lernstufe der „Gut“-Knopf gedrückt wurde.
 deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
-deck-config-new-insertion-order = Einfügereihenfolge
+deck-config-new-insertion-order = Positionsnummer
 deck-config-new-insertion-order-tooltip = Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Positionsnummer werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung aktualisiert auch die Positionsnummern bereits vorhandener neuer Karten.
 deck-config-new-insertion-order-sequential = Der Reihe nach (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
-deck-config-new-insertion-order-random-with-v3 = Beim v3-Zeitplaner wird empfohlen, diese Einstellung auf „Der Reihe nach“ zu belassen und stattdessen die Reihenfolge für das Einsammeln neuer Karten anzupassen.
+deck-config-new-insertion-order-random-with-v3 = Es wird empfohlen, diese Einstellung auf „Der Reihe nach“ zu belassen und stattdessen die Reihenfolge für das Einsammeln neuer Karten anzupassen.
 
 ## Lapses section
 
@@ -177,7 +177,7 @@ deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zei
 deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
 deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30 % länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
 deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.
-deck-config-hard-interval-tooltip = Der Faktor, der angewendet wird, wenn der „Schwer“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
+deck-config-hard-interval-tooltip = Der Faktor, der bei Wiederholungskarten angewendet wird, wenn der „Schwer“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
 deck-config-new-interval-tooltip = Der auf das Wiederholungsintervall angewendete Faktor, nachdem eine Karte mit „Nochmal“ bewertet wurde.
 deck-config-minimum-interval-tooltip = Gibt die Mindestanzahl an Tagen für das Intervall an, das einer Wiederholungskarte nach dem Abschluss des Wiederlernvorgangs zugewiesen werden soll. Der Standardwert ist 1 Tag, was bedeutet, dass die Karte nach Abschluss des Wiederlernens am nächsten Tag erneut angezeigt wird.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
@@ -268,7 +268,7 @@ deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Erfolgsquote
 deck-config-historical-retention = Frühere Erfolgsquote
 deck-config-smaller-is-better = Je kleiner die Zahlen, desto besser passen die Parameter zu Ihrer Wiederholungsverlauf.
-deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Schritte von 1 Tag oder mehr nicht empfohlen.
+deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Lernstufen von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
 deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
@@ -279,7 +279,7 @@ deck-config-fsrs-tooltip =
     
     FSRS (Free Spaced Repetition Scheduler, „Freier Zeitplaner für verteile Wiederholung“) ist eine Alternative zum klassischem SM‑2 (SuperMemo 2) von Anki. FSRS sagt genauer vorher, wie wahrscheinlich es ist, dass Sie eine Karte vergessen. Somit können Sie mit FSRS bei gleichem Zeitaufwand mehr lernen.
 deck-config-desired-retention-tooltip =
-    Mit dem Standardwert von 0,9 plant Anki die Wiederholung Ihrer Karten so, dass Sie eine Chance von 90 % haben, sich an den Inhalt zu erinnern, wenn die Karte erneut zur Wiederholung ansteht.
+    Mit dem Standardwert von 0,9 legt Anki die Zeitplanung Ihrer Wiederholungen so fest, dass Sie eine Chance von 90 % haben, sich an den Inhalt zu erinnern, wenn die Karte erneut zur Wiederholung ansteht.
     
     Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger anzeigen, um die Wahrscheinlichkeit zu steigern, dass Sie sich daran erinnern. Reduzieren Sie den Wert, zeigt Anki die Karten seltener, was dazu führt, dass Sie mehr vergessen.
     
@@ -359,7 +359,7 @@ deck-config-ignore-before-tooltip = Karten, die vor dem angegebenen Datum wieder
 deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Erfolgsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erfolgsquote zu kopieren.
 deck-config-compute-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote
 deck-config-predicted-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
-deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen, wie die Karten geplant werden. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
+deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
 deck-config-compute-optimal-weights-tooltip =
     Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,
     und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind.
