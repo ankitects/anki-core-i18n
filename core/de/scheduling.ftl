@@ -83,7 +83,7 @@ scheduling-buried-cards-found = Eine oder mehrere Karten wurden zurückgestellt 
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = Zurückstellung aufheben
-scheduling-how-to-custom-study = Wenn außerhalb der regulären Zeitplanung gelernt werden soll, kann die { $customStudy }-Funktion genutzt werden.
+scheduling-how-to-custom-study = Wenn außerhalb der regulären Zeitplanung gelernt werden soll, kann die Funktion „{ $customStudy }“ genutzt werden.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = Benutzerdefiniertes Lernen
