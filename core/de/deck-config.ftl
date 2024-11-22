@@ -18,7 +18,7 @@ deck-config-title = Stapelprofile
 deck-config-daily-limits = Tageshöchstwerte
 deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungskarten.
 deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungskarten, die pro Tag angezeigt werden sollen.
-deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal eingesammelt werden. Der Tageshöchstwert des Oberstapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten.
+deck-config-limit-deck-v3 = Wenn Sie einen übergeordneten Stapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal eingesammelt werden. Der Tageshöchstwert des übergeordneten Stapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten aus allen Unterstapeln zusammen.
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten begrenzt auch die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungskarten z. B. bei 200 liegt und 190 Wiederholungskarten anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
 deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernen eingesammelt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
@@ -28,7 +28,10 @@ deck-config-tab-description =
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungskarten
 deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungskarten auch die Anzahl neuer Karten, die eingeführt werden können. Wenn hingegen diese Einstellung aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungskarten eingeführt.
 deck-config-apply-all-parent-limits = Tageshöchstwerte gelten auch für Unterstapel
-deck-config-apply-all-parent-limits-tooltip = Standardmäßig wirken sich Tageshöchstwerte der Oberstapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Wenn hingegen diese Einstellungen aktiviert ist, wirken sich die Tageshöchstwerte der Oberstapel auch dann aus, wenn Sie einen Unterstapel direkt lernen. Dies ist nützlich, wenn Sie nacheinander verschiedene Unterstapel lernen möchten und die Gesamtanzahl der angezeigten Karten aus allen Unterstapeln zusammen begrenzen wollen.
+deck-config-apply-all-parent-limits-tooltip =
+    Standardmäßig wirken sich Tageshöchstwerte der übergeordneten Stapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Mit dieser Einstellung werden hingegen die Tageshöchstwerte aller übergeordneten Stapel auch beim direkten Lernen eines Unterstapels berücksichtigt.
+    
+    Dies ist nützlich, wenn Sie verschiedene Unterstapel nacheinander lernen und die Gesamtanzahl der angezeigten Karten aus allen Unterstapeln zusammen begrenzen möchten.
 deck-config-affects-entire-collection = Wirkt sich auf die gesamte Sammlung aus.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
