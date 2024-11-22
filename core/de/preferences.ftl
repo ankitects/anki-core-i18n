@@ -1,4 +1,4 @@
-preferences-automatically-sync-on-profile-openclose = Beim Öffnen/Schließen eines Profils automatisch synchronisieren
+preferences-automatically-sync-on-profile-openclose = Beim Öffnen/Schließen eines Benutzerprofils automatisch synchronisieren
 preferences-backups = Sicherungskopien
 preferences-change-deck-depending-on-note-type = Stapel abhängig vom Notiztyp zuweisen
 preferences-changes-will-take-effect-when-you = Die Änderungen werden nach einem Neustart von Anki wirksam.
@@ -31,7 +31,7 @@ preferences-login-successful-sync-now = Anmeldung erfolgreich. Einstellungen spe
 preferences-timebox-time-limit = Zeitbegrenzung für Sitzungen
 preferences-user-interface-size = Schriftgröße der Benutzeroberfläche
 preferences-when-adding-default-to-current-deck = Beim Hinzufügen aktuellen Stapel als Standard festlegen
-preferences-you-can-restore-backups-via-fileswitch = Sie können eine Sicherungskopie über den Menüpunkt Datei > "Profil wechseln" wiederherstellen.
+preferences-you-can-restore-backups-via-fileswitch = Sie können eine Sicherungskopie über den Menüpunkt Datei > "Benutzerprofil wechseln" wiederherstellen.
 preferences-legacy-timezone-handling = Veralteter Umgang mit Zeitzonen (fehleranfällig, aber für AnkiDroid <= 2.14 vorausgesetzt)
 preferences-default-search-text = Standardmäßig eingestellter Suchtext
 preferences-default-search-text-example = z.B. 'deck:current'

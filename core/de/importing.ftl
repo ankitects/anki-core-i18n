@@ -9,7 +9,7 @@ importing-appeared-twice-in-file = Doppelt vorhanden in Datei: { $val }
 importing-by-default-anki-will-detect-the = Für gewöhnlich erkennt Anki das Trennzeichen zwischen zwei Feldern (z.B. ein Komma, Tab oder Ähnliches) automatisch. Sollte Anki das Trennzeichen nicht korrekt erkennen, gaben Sie es hier ein. Anstelle von Tab verwenden Sie bitte: \t.
 importing-cannot-merge-notetypes-of-different-kinds =
     Lückentext-Notiztypen können nicht mit normalen Notiztypen zusammengeführt werden.
-    Sie können die Datei trotzdem importieren, wenn Sie die Option "{ importing-merge-notetypes }" deaktivieren.
+    Sie können die Datei trotzdem importieren, wenn Sie die Einstellung "{ importing-merge-notetypes }" deaktivieren.
 importing-change = Ändern
 importing-colon = Doppelpunkt
 importing-comma = Komma
@@ -38,9 +38,9 @@ importing-merge-notetypes = Notiztypen zusammenführen
 importing-merge-notetypes-help =
     Bestimmt, wie Anki vorgeht, wenn Sie einen Notiztyp (wie z.B. "Einfach" oder "Lückentext") in Ihre Sammlung importieren, dessen Schema sich geändert hat (Erklärung siehe unten). Falls aktiviert, wird Anki beide Versionen in einer kombinieren, anstatt (wie bisher) beide separat anzulegen. Default-Wert für diese Einstellung: Deaktiviert
     
-    Wann hat sich das Schema eines Notiztyps geändert? Wenn bei dem Notiztyp a) Felder oder b) Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert wurde. Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurde, stellt dies keine Schema-Änderung dar, sodass diese Option nicht relevant ist. Dann kommt es stattdessen auf die Option "Notizen aktualisieren" an.
+    Wann hat sich das Schema eines Notiztyps geändert? Wenn bei dem Notiztyp a) Felder oder b) Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert wurde. Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurde, stellt dies keine Schema-Änderung dar, sodass diese Einstellung nicht relevant ist. Dann kommt es stattdessen auf die Einstellung "Notizen aktualisieren" an.
     
-    Hinweis: Wenn Sie diese Option aktivieren, kann dies ggf. eine Vollsynchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
+    Hinweis: Wenn Sie diese Einstellung aktivieren, kann dies ggf. eine Vollsynchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Der Separator zum Trennen von Datenfeldern kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehender Separator wird nicht unterstützt.
 importing-notes-added-from-file = Notizen hinzugefügt aus Datei: { $val }
@@ -50,13 +50,13 @@ importing-notes-skipped-update-due-to-notetype = Notizen nicht aktualisiert, da 
 importing-notes-updated-as-file-had-newer = Notizen aktualisiert, da der importierte Stapel eine neuere Version enthielt: { $val }
 importing-include-reviews = Wiederholungsverlauf (falls enthalten) ebenfalls importieren
 importing-also-import-progress = Lernfortschritt (falls enthalten) ebenfalls importieren
-importing-with-deck-configs = Stapeloptionen (falls enthalten) ebenfalls importieren
+importing-with-deck-configs = Stapelprofile (falls enthalten) ebenfalls importieren
 importing-updates = Vorgehen bei Aktualisierungen
 importing-include-reviews-help =
-    Falls aktiviert, werden auch der Wiederholungsverlauf und die im Stapel gespeicherten Stapeloptionen mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).
+    Falls aktiviert, werden auch der Wiederholungsverlauf und die im Stapel gespeicherten Stapelprofile mitimportiert (vorausgesetzt, diese sind im Stapel vorhanden, weil der Stapelersteller sie mitexportiert hat).
     
-    Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten unabhängig von dem enthaltenen Lernstatus als neue Karten importiert und die Standard-Stapeloptionen Ihrer Sammlung verwendet.
-importing-with-deck-configs-help = Wenn aktiviert, werden auch die vom Autor eingestellten Stapeloptionen für den zu importierenden Stapel übernommen (vorausgesetzt, dass der Autor diese mitexportiert hat).
+    Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten unabhängig von dem enthaltenen Lernstatus als neue Karten importiert und die Standard-Stapelprofil Ihrer Sammlung verwendet.
+importing-with-deck-configs-help = Wenn aktiviert, werden auch gegebenenfalls vom Autor bereitgestellten Stapelprofile importiert. Andernfalls wird allen Stapeln das Standard-Stapelprofil zugewiesen.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
 # the '|' character
@@ -91,7 +91,7 @@ importing-update-notetypes-help =
     
     Default: "Falls neuer", also wenn die Version des Notiztyps in dem zu importierenden Stapel neuer ist als die Version in Ihrer Sammlung.
     
-    Wichtig: Diese Option ist nur relevant, wenn Sie einen Notiztyp importieren, der bereits in Ihrer Sammlung vorhanden ist, und dessen Schema sich NICHT geändert hat. Eine Schema-Änderung liegt vor, wenn bei der Version in Ihrer Sammlung die Anzahl oder Reihenfolge von Feldern oder Kartentypen anders ist. Wenn das der Fall sein sollte, können Sie hingegen über die Option '{ importing-merge-notetypes }' festlegen, wie Anki beim Import vorgehen soll.
+    Wichtig: Diese Einstellung ist nur relevant, wenn Sie einen Notiztyp importieren, der bereits in Ihrer Sammlung vorhanden ist, und dessen Schema sich NICHT geändert hat. Eine Schema-Änderung liegt vor, wenn bei der Version in Ihrer Sammlung die Anzahl oder Reihenfolge von Feldern oder Kartentypen anders ist. Wenn das der Fall sein sollte, können Sie hingegen über die Einstellung '{ importing-merge-notetypes }' festlegen, wie Anki beim Import vorgehen soll.
 importing-note-added =
     { $count ->
         [one] { $count } Notiz wurde hinzugefügt.
@@ -178,8 +178,8 @@ importing-conflicting-notes-skipped =
     }
 importing-conflicting-notes-skipped2 =
     { $count ->
-        [one] { $count } Notiz nicht importiert, da ihr Notiztyp geändert wurde und die Option '{ importing-merge-notetypes }' nicht aktiviert war.
-       *[other] { $count } Notizen nicht importiert, da ihr Notiztyp geändert wurde und die Option '{ importing-merge-notetypes }' nicht aktiviert war.
+        [one] { $count } Notiz nicht importiert, da ihr Notiztyp geändert wurde und die Einstellung '{ importing-merge-notetypes }' nicht aktiviert war.
+       *[other] { $count } Notizen nicht importiert, da ihr Notiztyp geändert wurde und die Einstellung '{ importing-merge-notetypes }' nicht aktiviert war.
     }
 importing-import-log = Import Log
 importing-no-notes-in-file = Keine Notizen in der Datei gefunden.
@@ -195,7 +195,7 @@ importing-duplicate-note-added = Doppelt hinzugefügt
 importing-added-new-note = Neu hinzugefügt
 importing-existing-note-skipped = Übersprungen, da die Notiz in der aktuellen Version bereits in der Sammlung vorhanden ist
 importing-note-skipped-update-due-to-notetype = Notiz nicht aktualisiert, da ihr Notiztyp geändert wurde
-importing-note-skipped-update-due-to-notetype2 = Notiz nicht aktualisiert, da ihr Notiztyp nach dem letzten Import geändert wurde und die Option "{ importing-merge-notetypes }" deaktiviert ist.
+importing-note-skipped-update-due-to-notetype2 = Notiz nicht aktualisiert, da ihr Notiztyp nach dem letzten Import geändert wurde und die Einstellung "{ importing-merge-notetypes }" deaktiviert ist.
 importing-note-updated-as-file-had-newer = Notiz aktualisiert, da der importierte Stapel eine neuere Version enthielt
 importing-note-skipped-due-to-missing-notetype = Notiz übersprungen, Notiztyp fehlt
 importing-note-skipped-due-to-missing-deck = Notiz übersprungen, Stapel fehlt

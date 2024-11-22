@@ -73,7 +73,7 @@ scheduling-learn-remaining =
        *[other] Es sind noch { $remaining } Lernkarten heute fällig.
     }
 scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
-scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungskarten wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Optionen.
+scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungskarten wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Einstellung.
 scheduling-today-new-limit-reached =
     Weitere neue Karten sind verfügbar, aber der Tageshöchstwert für neue Karten
     ist erreicht. Er kann in den Einstellungen erhöht werden, aber
@@ -129,8 +129,8 @@ scheduling-mix-new-cards-and-reviews = Neue Karten und Wiederholungskarten misch
 scheduling-new-cards = Neue Karten
 scheduling-new-cardsday = Tageshöchstwert für neue Karten
 scheduling-new-interval = Intervall für „Gut“-Knopf nach Fehlversuch
-scheduling-new-options-group-name = Name der neuen Stapeloptionengruppe:
-scheduling-options-group = Stapeloptionengruppe:
+scheduling-new-options-group-name = Name des neuen Stapelprofils:
+scheduling-options-group = Stapelprofil:
 scheduling-order = Reihenfolge
 scheduling-parent-limit = (Tageshöchstwert des übergeordneten Stapels: { $val })
 scheduling-reset-counts = Anzahl der Wiederholungen und Fehlversuche zurücksetzen
@@ -138,7 +138,7 @@ scheduling-restore-position = Wenn möglich ursprüngliche Positionsnummer wiede
 scheduling-review = Wiederholen
 scheduling-reviews = Wiederholungen
 scheduling-seconds = Sekunden
-scheduling-set-all-decks-below-to = Allen Unterstapeln von { $val } diese Optionengruppe zuweisen?
+scheduling-set-all-decks-below-to = Allen Unterstapeln von { $val } dieses Stapelprofil zuweisen?
 scheduling-set-for-all-subdecks = Allen Unterstapeln zuweisen
 scheduling-show-answer-timer = Antwortzeit anzeigen
 scheduling-show-new-cards-after-reviews = Zeige neue Karten nach Wiederholungskarten an
@@ -150,7 +150,7 @@ scheduling-steps-in-minutes = Lernstufen (in Minuten)
 scheduling-steps-must-be-numbers = Die einzelnen Lernstufen müssen aus Zahlen bestehen.
 scheduling-tag-only = Nur verschlagworten
 scheduling-the-default-configuration-cant-be-removed = Die Standardeinstellungen können nicht gelöscht werden.
-scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst eine neue Stapeloptionengruppe erstellen.
+scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst ein neues Stapelprofil erstellen.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } Stapel wurde geändert.

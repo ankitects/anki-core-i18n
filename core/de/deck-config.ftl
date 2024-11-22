@@ -11,7 +11,7 @@ deck-config-used-by-decks =
        *[other] { $decks } Stapeln
     }
 deck-config-default-name = Standard
-deck-config-title = Stapeloptionen
+deck-config-title = Stapelprofile
 
 ## Daily limits section
 
@@ -22,13 +22,13 @@ deck-config-limit-deck-v3 = Wenn Sie einen Oberstapel lernen (sprich einen Stape
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten begrenzt auch die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungskarten z. B. bei 200 liegt und 190 Wiederholungskarten anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
 deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernen eingesammelt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
-    - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieser Stapeloptionengruppe, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
+    - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieses Stapelprofils, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
     - `Nur heute`: Ändert den Tageshöchstwert dieses Stapels nur vorübergehend für heute.
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren Tageshöchstwert für Wiederholungskarten
-deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungskarten auch die Anzahl neuer Karten, die eingeführt werden können. Wenn hingegen diese Option aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungskarten eingeführt.
+deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungskarten auch die Anzahl neuer Karten, die eingeführt werden können. Wenn hingegen diese Einstellung aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungskarten eingeführt.
 deck-config-apply-all-parent-limits = Tageshöchstwerte gelten auch für Unterstapel
-deck-config-apply-all-parent-limits-tooltip = Standardmäßig wirken sich Tageshöchstwerte der Oberstapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Wenn hingegen diese Option aktiviert ist, wirken sich die Tageshöchstwerte der Oberstapel auch dann aus, wenn Sie einen Unterstapel direkt lernen. Dies ist nützlich, wenn Sie nacheinander verschiedene Unterstapel lernen möchten und die Gesamtanzahl der angezeigten Karten aus allen Unterstapeln zusammen begrenzen wollen.
+deck-config-apply-all-parent-limits-tooltip = Standardmäßig wirken sich Tageshöchstwerte der Oberstapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Wenn hingegen diese Einstellungen aktiviert ist, wirken sich die Tageshöchstwerte der Oberstapel auch dann aus, wenn Sie einen Unterstapel direkt lernen. Dies ist nützlich, wenn Sie nacheinander verschiedene Unterstapel lernen möchten und die Gesamtanzahl der angezeigten Karten aus allen Unterstapeln zusammen begrenzen wollen.
 deck-config-affects-entire-collection = Wirkt sich auf die gesamte Sammlung aus.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -75,7 +75,7 @@ deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben No
 deck-config-bury-priority-tooltip =
     Wenn Anki Karten einsammelt, dann zunächst die Lernkarten für den aktuellen Tag, danach die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und zuletzt den neuen Karten. Diese Reihenfolge hat Einfluss darauf, wie die Zurückstellung funktioniert:
     
-    - Wenn alle Zurückstelloptionen aktiviert sind, wird die Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
+    - Wenn alle Zurückstellungen aktiviert sind, wird die Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
     - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht zurückstellen. Wenn Sie z. B. die Zurückstellung neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ zurückstellen. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
 
 ## Ordering section
@@ -200,14 +200,14 @@ deck-config-easy-days-no-normal-days = Mindestens ein Tag sollte auf '{ deck-con
 
 ## Adding/renaming
 
-deck-config-add-group = Stapeloptionengruppe hinzufügen
+deck-config-add-group = Stapelprofil hinzufügen
 deck-config-name-prompt = Name
-deck-config-rename-group = Stapeloptionengruppe umbenennen
-deck-config-clone-group = Stapeloptionengruppe duplizieren
+deck-config-rename-group = Stapelprofil umbenennen
+deck-config-clone-group = Stapelprofil duplizieren
 
 ## Removing
 
-deck-config-remove-group = Stapeloptionengruppe entfernen
+deck-config-remove-group = Stapelprofil entfernen
 deck-config-will-require-full-sync = Die angeforderte Änderung erfordert eine einseitige Synchronisierung. Wenn Sie auf einem anderen Gerät Änderungen vorgenommen haben und diese noch nicht mit diesem Gerät synchronisiert wurden, tun Sie dies bitte, bevor Sie fortfahren.
 deck-config-confirm-remove-name = „{ $name }“ entfernen?
 
@@ -215,7 +215,7 @@ deck-config-confirm-remove-name = „{ $name }“ entfernen?
 
 deck-config-save-button = Speichern
 deck-config-save-to-all-subdecks = Auf alle Unterstapel anwenden
-deck-config-save-and-optimize = Alle Stapeloptionengruppen optimieren
+deck-config-save-and-optimize = Alle Stapelprofile optimieren
 deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurücksetzen.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -243,7 +243,7 @@ deck-config-maximum-answer-secs-above-recommended = Die Zeitplanung funktioniert
 
 ## Selecting a deck
 
-deck-config-which-deck = Für welchen Stapel möchten Sie die Optionen anzeigen?
+deck-config-which-deck = Für welchen Stapel möchten Sie die Einstellungen anzeigen?
 
 ## Messages related to the FSRS scheduler
 
@@ -263,7 +263,7 @@ deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
 deck-config-ignore-before = Wiederholungen vor diesem Datum ignorieren
-deck-config-optimize-all-tip = Sie können alle Stapeloptionengruppen gleichzeitig optimieren, indem Sie den Dropdown-Knopf neben „Speichern“ verwenden.
+deck-config-optimize-all-tip = Sie können alle Stapelprofile gleichzeitig optimieren, indem Sie den Dropdown-Knopf neben „Speichern“ verwenden.
 deck-config-evaluate-button = Evaluieren
 deck-config-desired-retention = Gewünschte Erfolgsquote
 deck-config-historical-retention = Frühere Erfolgsquote
@@ -288,31 +288,31 @@ deck-config-historical-retention-tooltip =
     Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen . Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90 % der Karten erinnert haben. War die tatsächliche Erfolgsquote jedoch deutlich höher oder niedriger als 90 %, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
     
     Ihr Wiederholungsverlauf kann aus folgenden Gründen unvollständig sein:
-    1. Weil Sie die Option 'Wiederholungen vor diesem Datum ignorieren' nutzen.
+    1. Weil Sie die Einstellung 'Wiederholungen vor diesem Datum ignorieren' nutzen.
     2. Weil Sie den Wiederholungsverlaufs gelöscht haben, um Speicherplatz freizugeben
     3. Weil Sie Material aus einem anderen SRS-Programm importiert haben.
     
-    Die beiden letzten Gründe sind eher selten. Daher müssen Sie diese Einstellung wahrscheinlich nicht anpassen, es sei denn, Sie haben die erstgenannte Option verwendet.
-deck-config-weights-tooltip2 = FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit Standardparametern. Sie können die untenstehende Funktion verwenden, um die Parameter so zu optimieren, dass sie am besten zu Ihrer Leistung in Stapeln mit dieser Stapeloptionengruppe passen.
+    Die beiden letzten Gründe sind eher selten. Daher ist eine Anpassung dieses Werts wahrscheinlich nicht nötig, es sei denn, Sie haben die erstgenannte Einstellung genutzt.
+deck-config-weights-tooltip2 = FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit Standardparametern. Sie können die untenstehende Funktion verwenden, um die Parameter so zu optimieren, dass sie am besten zu Ihrer Leistung in Stapeln mit diesem Stapelprofil passen.
 deck-config-reschedule-cards-on-change-tooltip =
     Wirkt sich auf die gesamte Sammlung aus und wird nicht gespeichert.
     
-    Diese Option legt fest, ob die Fälligkeitsdaten von Karten angepasst werden, wenn FSRS aktiviert oder dessen Parameter geändert werden.
+    Diese Einstellung legt fest, ob die Fälligkeitsdaten von Karten angepasst werden, wenn FSRS aktiviert oder dessen Parameter geändert werden.
     
     Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelles Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller Karten jedoch sofort angepasst.
 deck-config-reschedule-cards-warning =
-    Je nach gewünschter Erfolgsquote kann diese Option dazu führen, dass viele Karten sofort fällig werden. Daher ist sie zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
+    Je nach gewünschter Erfolgsquote kann diese Einstellung dazu führen, dass viele Karten sofort fällig werden. Daher ist sie zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
     
-    Verwenden Sie diese Option mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
+    Verwenden Sie diese Einstellung mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
 deck-config-ignore-before-tooltip-2 = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
     Wenn Sie auf die „Optimieren“ klicken, analysiert FSRS Ihren Wiederholungsverlauf und ermittelt Parameter, die optimal auf Ihr Gedächtnis und die Inhalte abgestimmt sind, die Sie lernen.
     
-    Für Stapel mit stark unterschiedlichen subjektiven Schwierigkeitsgraden empfiehlt es sich, separate Stapeloptionengruppen anzulegen. So können die Parameter besser an den jeweiligen Schwierigkeitsgrad angepasst werden.
+    Für Stapel mit stark unterschiedlichen subjektiven Schwierigkeitsgraden empfiehlt es sich, separate Stapelprofile anzulegen. So können die Parameter besser an den jeweiligen Schwierigkeitsgrad angepasst werden.
     
     Es ist nicht nötig, die Parameter häufig zu optimieren – einmal alle paar Monate genügt.
     
-    Standardmäßig werden die Parameter basierend auf dem Wiederholungsverlauf aller Stapel ermittelt, die die aktuelle Stapeloptionengruppe nutzen. Sie können vor der Berechnung die Suchkriterien anpassen, um festzulegen, welche Karten zur Optimierung der Parameter herangezogen werden sollen.
+    Standardmäßig werden die Parameter basierend auf dem Wiederholungsverlauf aller Stapel ermittelt, die das aktuelle Stapelprofil nutzen. Sie können vor der Berechnung die Suchkriterien anpassen, um festzulegen, welche Karten zur Optimierung der Parameter herangezogen werden sollen.
 deck-config-compute-optimal-retention-tooltip4 =
     Dieses Tool versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, die maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
     
@@ -328,7 +328,7 @@ deck-config-percent-of-reviews =
         [one] { $pct } % von { $reviews } Wiederholung
        *[other] { $pct } % von { $reviews } Wiederholungen
     }
-deck-config-optimizing-preset = Optimiere Stapeloptionengruppe { $current_count }/{ $total_count }...
+deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
 deck-config-wait-for-audio = Auf Audio warten
@@ -349,7 +349,7 @@ deck-config-bury-if-new-review-or-interday = Zurückstellen, wenn Karte neu, zum
 deck-config-bury-tooltip =
     Geschwisterkarten sind andere Karten von der gleichen Notiz (z. B. Karten in umgekehrter Richtung oder Lückentextkarten von dem gleichen Text).
     
-    Wenn diese Option aus ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Option aktiviert ist, dann wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Option erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten wiederholen.
+    Wenn diese Einstellung deaktiviert ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Einstellung aktiviert ist, wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Einstellung erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten wiederholen.
     
     Wenn Sie den V3-Zeitplaner benutzen, werden Karten mit Status „mehrtägiges Lernen“, ebenfalls zurückgestellt. Solche Karten haben eine aktuelle Lernstufe von einem oder mehr Tagen.
 deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
@@ -359,15 +359,11 @@ deck-config-ignore-before-tooltip = Karten, die vor dem angegebenen Datum wieder
 deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Erfolgsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erfolgsquote zu kopieren.
 deck-config-compute-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote
 deck-config-predicted-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
-deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Option nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Optionengruppe entsprechen.
+deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Einstellung nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Stapelprofil entsprechen.
 deck-config-compute-optimal-weights-tooltip =
-    Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren,
-    und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind.
-    Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapeloptionen zuzuweisen, da
-    die Einstellungen für einfache Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
+    Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren, und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind. Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapelprofile zuzuweisen, da die Einstellungen für einfache Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
     
-    Standardmäßig werden die Einstellungen aus dem Wiederholungsverlauf aller Stapel berechnet, die die aktuelle Voreinstellung verwenden. Sie können
-    optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
+    Standardmäßig werden die Einstellungen aus dem Wiederholungsverlauf aller Stapel berechnet, die das aktuelle Stapelprofil verwenden. Sie können optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
 deck-config-compute-optimal-retention-tooltip2 =
     Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
     
