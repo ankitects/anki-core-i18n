@@ -102,9 +102,9 @@ scheduling-update-required =
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = Immer die Frageseite bei erneuten Abspielen von Audiodateien beifügen
+scheduling-always-include-question-side-when-replaying = Beim erneuten Abspielen der Antwort die Frage abspielen
 scheduling-at-least-one-step-is-required = Mindestens eine Lernstufe ist erforderlich.
-scheduling-automatically-play-audio = Audiodateien automatisch abspielen
+scheduling-automatically-play-audio = Audio automatisch abspielen
 scheduling-bury-related-new-cards-until-the = Geschwisterkarten mit Status „Neu“ bis zum Folgetag zurückstellen
 scheduling-bury-related-reviews-until-the-next = Geschwisterkarten mit Status „Wiederholung“ bis zum Folgetag zurückstellen
 scheduling-days = Tage
@@ -131,7 +131,7 @@ scheduling-new-cardsday = Tageshöchstwert für neue Karten
 scheduling-new-interval = Intervall für „Gut“-Knopf nach Fehlversuch
 scheduling-new-options-group-name = Name des neuen Stapelprofils:
 scheduling-options-group = Stapelprofil:
-scheduling-order = Reihenfolge
+scheduling-order = Positionsnummer
 scheduling-parent-limit = (Tageshöchstwert des übergeordneten Stapels: { $val })
 scheduling-reset-counts = Anzahl der Wiederholungen und Fehlversuche zurücksetzen
 scheduling-restore-position = Wenn möglich ursprüngliche Positionsnummer wiederherstellen
@@ -143,8 +143,8 @@ scheduling-set-for-all-subdecks = Allen Unterstapeln zuweisen
 scheduling-show-answer-timer = Antwortzeit anzeigen
 scheduling-show-new-cards-after-reviews = Zeige neue Karten nach Wiederholungskarten an
 scheduling-show-new-cards-before-reviews = Zeige neue Karten vor Wiederholungskarten an
-scheduling-show-new-cards-in-order-added = Neue Karten in der Reihenfolge anzeigen, in der sie hinzugefügt wurden
-scheduling-show-new-cards-in-random-order = Neue Karten in zufälliger Reihenfolge anzeigen
+scheduling-show-new-cards-in-order-added = Der Reihe nach (älteste Karten zuerst)
+scheduling-show-new-cards-in-random-order = Zufällig
 scheduling-starting-ease = Anfängliche Leichtigkeit (Faktor für „Gut“-Knopf)
 scheduling-steps-in-minutes = Lernstufen (Minuten)
 scheduling-steps-must-be-numbers = Die einzelnen Lernstufen müssen aus Zahlen bestehen.
