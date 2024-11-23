@@ -1,21 +1,21 @@
 studying-again = Nochmal
-studying-all-buried-cards = Alle zurückgestellten Karten
+studying-all-buried-cards = Alle aufgeschobenen Karten
 studying-audio-5s = Audio -5s
 studying-audio-and5s = Audio +5s
-studying-buried-siblings = Zurückgestellte Geschwisterkarten
-studying-bury = Heute zurückstellen
-studying-bury-card = Karte heute zurückstellen
-studying-bury-note = Notiz heute zurückstellen
+studying-buried-siblings = Aufgeschobene Geschwisterkarten
+studying-bury = Bis morgen aufschieben
+studying-bury-card = Karte bis morgen aufgeschoben
+studying-bury-note = Notiz bis morgen aufgeschoben
 studying-card-suspended = Karte wurde ausgeschlossen.
 studying-card-was-a-leech = Karte war eine Lernbremse.
 studying-cards-buried =
     { $count ->
-        [one] { $count } Karte zurückgestellt.
-       *[other] { $count } Karten zurückgestellt.
+        [one] { $count } Karte aufgeschoben.
+       *[other] { $count } Karten aufgeschoben.
     }
 studying-cards-will-be-automatically-returned-to = Wiederholte Karten kehren automatisch in ihren ursprünglichen Stapel zurück.
 studying-continue = Fortsetzen
-studying-counts-differ = Zählungen unterscheiden sich von der Stapelliste, weil Karten zurückgestellt werden. Gewisse Karten wurden ausgeschlossen und andere Karten haben ggf. ihre Platz eingenommen.
+studying-counts-differ = Zählungen unterscheiden sich von der Stapelliste, weil Karten aufgeschoben werden. Gewisse Karten wurden ausgeschlossen und andere Karten haben ggf. ihre Platz eingenommen.
 studying-delete-note = Notiz löschen
 studying-deleting-this-deck-from-the-deck = Wenn dieser Stapel entfernt wird, werden alle verbleibenden Karten wieder ihrem ursprünglichen Stapel zugeführt.
 studying-easy = Einfach
@@ -26,7 +26,7 @@ studying-flag-card = Markieren
 studying-good = Gut
 studying-hard = Schwer
 studying-it-has-been-suspended = Karte wurde ausgeschlossen.
-studying-manually-buried-cards = Manuell zurückgestellte Karten
+studying-manually-buried-cards = Manuell aufgeschobene Karten
 studying-mark-note = Notiz kennzeichnen
 studying-more = Mehr
 studying-no-cards-are-due-yet = Es sind noch keine Karten fällig.
@@ -43,8 +43,8 @@ studying-suspend-note = Notiz dauerhaft ausschließen
 studying-this-is-a-special-deck-for = Dies ist ein besonderer Stapel, dafür angelegt, Karten außerhalb der gewöhnlichen Zeitplanung zu lernen.
 studying-to-review = Wiederholen
 studying-type-answer-unknown-field = Antwort eingeben: Unbekanntes Feld { $val }
-studying-unbury = Zurückstellung aufheben
-studying-what-would-you-like-to-unbury = Welche Zurückstellung möchten Sie aufheben?
+studying-unbury = Nicht mehr aufschieben
+studying-what-would-you-like-to-unbury = Was möchten Sie nicht mehr aufschieben?
 studying-you-havent-recorded-your-voice-yet = Stimme noch nicht aufgezeichnet
 studying-card-studied-in =
     { $count ->

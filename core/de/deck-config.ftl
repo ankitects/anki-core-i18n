@@ -68,18 +68,18 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = Zurückstellung
-deck-config-bury-new-siblings = Geschwisterkarten mit Status „Neu“ zurückstellen
-deck-config-bury-review-siblings = Geschwisterkarten mit Status „Wiederholung“ zurückstellen
-deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status „Mehrtägiges Lernen“ zurückstellen
-deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. Karten in umgekehrter Richtung oder benachbarte Lückentexte) auf den nächsten Tag verschoben werden.
-deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag verschoben werden.
-deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag verschoben werden.
+deck-config-bury-title = Aufschieben
+deck-config-bury-new-siblings = Geschwisterkarten mit Status „Neu“ aufschieben
+deck-config-bury-review-siblings = Geschwisterkarten mit Status „Wiederholung“ aufschieben
+deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status „Mehrtägiges Lernen“ aufschieben
+deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. Karten in umgekehrter Richtung oder benachbarte Lückentexte) auf den nächsten Tag aufgeschoben werden.
+deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag aufgeschoben werden.
+deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag aufgeschoben werden.
 deck-config-bury-priority-tooltip =
-    Wenn Anki Karten einsammelt, dann zunächst die Lernkarten für den aktuellen Tag, danach die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und zuletzt den neuen Karten. Diese Reihenfolge hat Einfluss darauf, wie die Zurückstellung funktioniert:
+    Wenn Anki Karten einsammelt, geschieht dies in folgender Reihenfolge: Zuerst die Lernkarten für den aktuellen Tag, dann die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und schließlich den neuen Karten. Diese Reihenfolge beeinflusst, wie das Aufschieben von Geschwisterkarten funktioniert:
     
-    - Wenn alle Zurückstellungen aktiviert sind, wird die Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
-    - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht zurückstellen. Wenn Sie z. B. die Zurückstellung neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ zurückstellen. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
+    - Wenn das Aufschieben für alle Arten von Karten aktiviert ist, wird diejenige Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
+    - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht aufschieben. Wenn Sie z. B. das Aufschieben neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ aufschieben. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
 
 ## Ordering section
 
@@ -103,9 +103,9 @@ deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge für neue Karten
 deck-config-new-card-sort-order-tooltip-2 =
-    `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
+    `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn das Aufschieben von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
     
-    `Einsammelreihenfolge`: Zeigt Karten in der Reihenfolge, in der sie eingesammelt wurden. Wenn die Zurückstellung von Geschwisterkarten deaktiviert ist, wird dies typischerweise dazu führen, dass alle Karten einer Notiz direkt hintereinander angezeigt werden.
+    `Einsammelreihenfolge`: Zeigt Karten in der Reihenfolge, in der sie eingesammelt wurden. Wenn das Aufschieben von Geschwisterkarten deaktiviert ist, wird dies typischerweise dazu führen, dass alle Karten einer Notiz direkt hintereinander angezeigt werden.
     
     `Kartentyp, dann zufällig`:  Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in zufälliger Reihenfolge angezeigt.  Dieses Verfahren ist nützlich, wenn Sie nicht möchten, dass Geschwisterkarten zu kurz hintereinander erscheinen, aber dennoch die Karten in zufälliger Reihenfolge sehen möchten.
     
@@ -344,17 +344,17 @@ deck-config-desired-retention-below-optimal = Ihre gewünschte Erfolgsquote lieg
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-siblings = Geschwisterkarten zurückstellen
-deck-config-do-not-bury = Geschwisterkarten nicht zurückstellen
-deck-config-bury-if-new = Zurückstellen, wenn neu
-deck-config-bury-if-new-or-review = Zurückstellen, wenn Karte neu oder zum Wiederholen
-deck-config-bury-if-new-review-or-interday = Zurückstellen, wenn Karte neu, zum Wiederholen oder zum „mehrtägigen Lernen“
+deck-config-bury-siblings = Geschwisterkarten aufschieben
+deck-config-do-not-bury = Geschwisterkarten nicht aufschieben
+deck-config-bury-if-new = Aufschieben wenn neu
+deck-config-bury-if-new-or-review = Aufschieben, wenn Karte neu oder zum Wiederholen
+deck-config-bury-if-new-review-or-interday = Aufschieben, wenn Karte neu, zum Wiederholen oder zum „mehrtägigen Lernen“
 deck-config-bury-tooltip =
-    Geschwisterkarten sind andere Karten von der gleichen Notiz (z. B. Karten in umgekehrter Richtung oder Lückentextkarten von dem gleichen Text).
+    Geschwisterkarten sind andere Karten derselben Notiz (z. B. Karten in umgekehrter Abfragerichtung oder Lückentextkarten zum gleichen Inhalt).
     
-    Wenn diese Einstellung deaktiviert ist, können mehrere Karten von der gleichen Notiz am gleichen Tag angezeigt werden. Wenn die Einstellung aktiviert ist, wird Anki die Geschwisterkarten automatisch *zurückstellen* und bis zum nächsten Tag verstecken. Diese Einstellung erlaubt Ihnen auszuwählen, welche Arten von Karten zurückgestellt werden können, wenn sie eine ihrer Geschwisterkarten wiederholen.
+    Ist diese Einstellung deaktiviert, können mehrere Karten derselben Notiz am selben Tag angezeigt werden. Bei aktivierter Einstellung wird Anki Geschwisterkarten automatisch bis zum nächsten Tag *aufschieben*. Zudem können Sie festlegen, welche Arten von Karten aufgeschoben werden sollen, wenn Sie eine ihrer Geschwisterkarten sehen.
     
-    Wenn Sie den V3-Zeitplaner benutzen, werden Karten mit Status „mehrtägiges Lernen“, ebenfalls zurückgestellt. Solche Karten haben eine aktuelle Lernstufe von einem oder mehr Tagen.
+    Mit dem V3-Zeitplaner werden auch Karten im Status „mehrtägiges Lernen“ aufgeschoben. Dabei handelt es sich um Karten, deren aktuelle Lernstufe ein oder mehrere Tage umfasst.
 deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
