@@ -76,7 +76,7 @@ deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. K
 deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag aufgeschoben werden.
 deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag aufgeschoben werden.
 deck-config-bury-priority-tooltip =
-    Wenn Anki Karten einsammelt, geschieht dies in folgender Reihenfolge: Zuerst die Lernkarten für den aktuellen Tag, dann die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und schließlich den neuen Karten. Diese Reihenfolge beeinflusst, wie das Aufschieben von Geschwisterkarten funktioniert:
+    Wenn Anki Karten einsammelt, geschieht dies in folgender Reihenfolge: Zuerst die Lernkarten für den heutigen Tag, dann die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und schließlich den neuen Karten. Diese Reihenfolge beeinflusst, wie das Aufschieben von Geschwisterkarten funktioniert:
     
     - Wenn das Aufschieben für alle Arten von Karten aktiviert ist, wird diejenige Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
     - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht aufschieben. Wenn Sie z. B. das Aufschieben neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ aufschieben. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
