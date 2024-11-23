@@ -354,7 +354,7 @@ deck-config-bury-tooltip =
     
     Ist diese Einstellung deaktiviert, können mehrere Karten derselben Notiz am selben Tag angezeigt werden. Bei aktivierter Einstellung wird Anki Geschwisterkarten automatisch bis zum nächsten Tag *aufschieben*. Zudem können Sie festlegen, welche Arten von Karten aufgeschoben werden sollen, wenn Sie eine ihrer Geschwisterkarten sehen.
     
-    Mit dem V3-Zeitplaner werden auch Karten im Status „mehrtägiges Lernen“ aufgeschoben. Dabei handelt es sich um Karten, deren aktuelle Lernstufe ein oder mehrere Tage umfasst.
+    Mit dem V3-Zeitplaner werden auch Karten mit dem Status „mehrtägiges Lernen“ aufgeschoben. Dabei handelt es sich um Karten, deren aktuelle Lernstufe ein oder mehrere Tage umfasst.
 deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
