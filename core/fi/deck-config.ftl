@@ -174,7 +174,8 @@ deck-config-sort-order-ascending-ease = Helpoimmasta vaikeimpaan
 deck-config-sort-order-descending-ease = Vaikeimmasta helpoimpaan
 deck-config-sort-order-ascending-difficulty = Kasvava vaikeus
 deck-config-sort-order-descending-difficulty = Laskeva vaikeus
-deck-config-sort-order-relative-overdueness = Suhteellinen erääntyneisyys
+deck-config-sort-order-retrievability-ascending = Palautettavuus, nouseva
+deck-config-sort-order-retrievability-descending = Palautettavuus, laskeva
 deck-config-display-order-will-use-current-deck = Anki käyttää sen pakan esitysjärjestystä, jonka valitset opiskeltavaksi, eikä sen mahdollisten alipakkojen esitysjärjestystä.
 
 ## Timer section
@@ -314,7 +315,6 @@ deck-config-historical-retention = Historiallinen retentio
 deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioita muistista.
 deck-config-steps-too-large-for-fsrs = Kun FSRS on päällä, usean päivän aikaisen (uudelleen)oppimisen askelten käyttöä ei suositella.
 deck-config-get-params = Hae parametrit
-deck-config-fsrs-on-all-clients = Varmista, että kaikki käyttämäsi Anki-ohjelmat ovat versioita Anki(Mobile) 23.10+ tai AnkiDroid 2.17+. FSRS ei toimi oikein, jos käytät vanhempaa versiota jollakin laitteella.
 deck-config-predicted-minimum-recommended-retention = Pienin suositeltu retentio: { $num }
 deck-config-complete = { $num } % valmis.
 deck-config-iterations = Iteraatio: { $count }...
@@ -396,3 +396,4 @@ deck-config-compute-optimal-retention-tooltip3 =
     Jotta oppimisprosessia voidaan simuloida tarkasti, tämä toiminto vaatii vähintään 400+ suoritettua kertausta. Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota optimitasoa alhaisemmaksi, koska silloin työmäärä kasvaa ilman että siitä on hyötyä.
 deck-config-seconds-to-show-question-tooltip-2 = Kun automaattinen eteneminen on käytössä, odota näin monta sekuntia ennen kuin vastaus näytetään. Poista käytöstä asettamalla arvoksi 0.
 deck-config-invalid-weights = Painokertoimet on joko jätettävä tyhjäksi, jolloin käytetään oletusarvoja, tai niiden on oltava 17 pilkulla erotettua numeroa.
+deck-config-fsrs-on-all-clients = Varmista, että kaikki käyttämäsi Anki-ohjelmat ovat versioita Anki(Mobile) 23.10+ tai AnkiDroid 2.17+. FSRS ei toimi oikein, jos käytät vanhempaa versiota jollakin laitteella.
