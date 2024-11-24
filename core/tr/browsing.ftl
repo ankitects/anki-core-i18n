@@ -82,6 +82,7 @@ browsing-reschedule = Yeniden Planlama
 browsing-search-bar-hint = Kartları/notları aramak için, metin yazın sonra Enter tuşuna basın
 browsing-search-in = İçinde ara:
 browsing-search-within-formatting-slow = Biçimlemeyi içererek ara (yavaş)
+browsing-select-deck = Desteyi Seç
 browsing-selected-notes-only = Sadece seçilen notlar
 browsing-shift-position-of-existing-cards = Mevcut kartların yerini değiştir
 browsing-sidebar = Kenar Çubuğu
