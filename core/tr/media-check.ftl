@@ -1,6 +1,6 @@
 ## Shown at the top of the media check screen
 
-media-check-window-title = Kontrol  Veritabanı
+media-check-window-title = Ortamı Kontrol Et
 media-check-renamed-count = Yeniden adlandırılan dosyalar: { $count }
 
 ## Shown at the top of each section
@@ -28,4 +28,4 @@ media-check-delete-unused-confirm = Kullanılmayan ortamlar silinsin mi?
 
 ## Buttons
 
-media-check-check-media-action = Kontrol  Veritabanı
+media-check-check-media-action = Ortamı Kontrol Et

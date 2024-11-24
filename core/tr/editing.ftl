@@ -1,5 +1,5 @@
 editing-actual-size = Gerçek boyutu aç/kapat
-editing-add-media = Medya Ekle
+editing-add-media = Ortam Ekle
 editing-an-error-occurred-while-opening = { $val } 'i açarken bir hata oluştu.
 editing-cards = Kartlar
 editing-cut = Kes
