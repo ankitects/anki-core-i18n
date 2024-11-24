@@ -26,6 +26,7 @@ card-templates-no-front-field = Değiştirilecek bir alanın kart şablonunun ö
 card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' ya da benzer bir şeyin kart şablonunun ön ve arkasında bulunması bekleniyordu.
 card-templates-extraneous-cloze = 'cloze:', sadece boşluklu not türünde kullanılabilir.
 card-templates-see-preview = Daha fazla bilgi için önizlemeye bakın.
+card-templates-field-not-found = '{ $field }' alanı bulunamadı.
 card-templates-changes-saved = Değişiklikler kaydedildi.
 card-templates-discard-changes = Değişiklikleri iptal et?
 card-templates-add-card-type = Kart Türü Ekle...

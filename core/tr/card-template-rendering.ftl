@@ -27,3 +27,6 @@ card-template-rendering-no-such-field = '{ $found }' bulundu, ama '{ $field }' a
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Bu kartın ön yüzü boş.
+card-template-rendering-missing-cloze =
+    { $number } numaralı boşluk kartta bulunamadı.
+    Lütfen bir boşluk doldurma ekleyin veya Boş Kartlar aracını kullanın.
