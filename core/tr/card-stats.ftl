@@ -23,11 +23,18 @@ card-stats-review-log-type-review = Gözden Geçirme
 card-stats-review-log-type-relearn = Yeniden Öğrenme
 card-stats-review-log-type-filtered = Filtrelenmiş
 card-stats-review-log-type-manual = Manuel
+card-stats-review-log-type-rescheduled = Yeniden Planlananlar
+card-stats-review-log-elapsed-time = Geçen Süre
 card-stats-no-card = (Gösterilecek kart yok.)
 card-stats-custom-data = Özel Veriler
 card-stats-fsrs-stability = Sabitlik
 card-stats-fsrs-difficulty = Zorluk
 card-stats-fsrs-retrievability = Hatırlanabilirlik
+card-stats-fsrs-forgetting-curve-title = Unutma Eğrisi
+card-stats-fsrs-forgetting-curve-first-week = İlk Hafta
+card-stats-fsrs-forgetting-curve-first-month = İlk Ay
+card-stats-fsrs-forgetting-curve-first-year = İlk Yıl
+card-stats-fsrs-forgetting-curve-all-time = Bütün Zaman
 
 ## Window Titles
 
