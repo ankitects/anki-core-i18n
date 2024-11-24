@@ -239,6 +239,7 @@ deck-config-easy-days-sunday = Sunnuntai
 deck-config-easy-days-normal = Normaali
 deck-config-easy-days-reduced = Vähennetty
 deck-config-easy-days-minimum = Minimi
+deck-config-easy-days-no-normal-days = '{ deck-config-easy-days-normal }' -arvon tulisi olla vähintään yksi päivä.
 
 ## Adding/renaming
 
