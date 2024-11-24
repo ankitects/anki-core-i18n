@@ -4,8 +4,8 @@ exporting-anki-collection-package = Anki Koleksiyon Paketi
 exporting-anki-deck-package = Anki Deste Paketi
 exporting-cards-in-plain-text = Düz Metindeki Kartlar
 exporting-couldnt-save-file = Dosya kaydedilemedi: { $val }
-exporting-export = Dışarıya Aktar...
-exporting-export-format = <b>Dışarıya Aktarım Biçimi</b>:
+exporting-export = Dışa Aktar...
+exporting-export-format = <b>Dışa Aktarma Biçimi</b>:
 exporting-include = <b>Dahil</b>:
 exporting-include-media = Ortam Ekle
 exporting-include-scheduling-information = Zamanlama bilgisini dahil et
@@ -18,8 +18,8 @@ exporting-card-exported =
     }
 exporting-exported-media-file =
     { $count ->
-        [one] { $count } medya dosyası dışa aktarıldı
-       *[other] { $count } medya dosyaları dışa aktarıldı
+        [one] { $count } ortam dosyası dışa aktarıldı
+       *[other] { $count } ortam dosyası dışa aktarıldı
     }
 exporting-note-exported =
     { $count ->

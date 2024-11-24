@@ -15,7 +15,7 @@ importing-first-field-matched = İlk alan eşleşti: { $val }
 importing-ignore-field = Alanı gözardı et.
 importing-ignore-lines-where-first-field-matches = İlk alanı mevcut not ile eşleşen satırları yok say
 importing-ignored = <yoksay>
-importing-import-even-if-existing-note-has = Mevcut not aynı ilk alana sahip olmasına rağmen içeri aktar
+importing-import-even-if-existing-note-has = Mevcut not aynı ilk alana sahip olmasına rağmen içe aktar
 importing-import-options = İçeri aktarma seçenekleri
 importing-importing-complete = İçeri aktarma tamamlandı.
 importing-invalid-file-please-restore-from-backup = Geçersiz dosya. Lütfen yedekten yükleyin.
@@ -28,7 +28,7 @@ importing-multicharacter-separators-are-not-supported-please = Çok karakterli a
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlenmiş Anki Destesi/Koleksiyonu (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Dersi (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' içinde { $found } alan vardı, { $expected } beklendi
-importing-selected-file-was-not-in-utf8 = Seçilen dosya UTF-8 biçiminde değildi. Lütfen klavuzdaki içeri aktarma bölümüne bakın.
+importing-selected-file-was-not-in-utf8 = Seçilen dosya UTF-8 biçiminde değildi. Lütfen kılavuzdaki içe aktarma bölümüne bakın.
 importing-semicolon = Noktalı Virgül
 importing-supermemo-xml-export-xml = Supermemo XML dışa aktarma (*.xml)
 importing-tab = Sekme
@@ -36,8 +36,8 @@ importing-text-separated-by-tabs-or-semicolons = Sekmeler veya noktalı virgüll
 importing-the-first-field-of-the-note = Not türünün ilk alanı eşlenmelidir.
 importing-the-provided-file-is-not-a = Girdiğiniz dosya geçerli bir .apkg dosyası değil.
 importing-this-file-does-not-appear-to = Bu dosya geçerli bir .apkg dosyası gibi görünmüyor. Bu hatayı AnkiWeb'den indirilen bir dosyadan alıyorsanız, indirme başarısız olmuş olabilir. Lütfen tekrar deneyin ve sorun devam ederse lütfen farklı bir tarayıcıyla yeniden deneyin.
-importing-this-will-delete-your-existing-collection = Bu, mevcut koleksiyonunuzu siler ve içeri aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?
-importing-unable-to-import-from-a-readonly = Salt okunur bir dosyadan içeri aktarılamıyor.
+importing-this-will-delete-your-existing-collection = Bu, mevcut koleksiyonunuzu siler ve içe aktardığınız dosyadaki verilerle değiştirir. Emin misiniz?
+importing-unable-to-import-from-a-readonly = Salt okunur bir dosyadan içe aktarılamıyor.
 importing-unknown-file-format = Bilinmeyen dosya biçimi.
 importing-note-added =
     { $count ->
@@ -46,8 +46,8 @@ importing-note-added =
     }
 importing-note-imported =
     { $count ->
-        [one] { $count } not içeri aktarıldı.
-       *[other] { $count } not içeri aktarıldı.
+        [one] { $count } not içe aktarıldı.
+       *[other] { $count } not içe aktarıldı.
     }
 importing-note-unchanged =
     { $count ->
@@ -61,8 +61,8 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] { $count } medya dosyası içeri aktarıldı.
-       *[other] { $count } medya dosyası içeri aktarıldı.
+        [one] { $count } ortam dosyası içe aktarıldı.
+       *[other] { $count } ortam dosyası içe aktarıldı.
     }
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Kopya oluştur
