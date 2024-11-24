@@ -134,7 +134,7 @@ statistics-retrievability-tooltip =
     }
 statistics-future-due-title = Zeitplanung
 statistics-future-due-subtitle = Anzahl der eingeplanten Wiederholungen.
-statistics-added-title = Hinzugefügt
+statistics-added-title = Hinzugefügte Karten
 statistics-added-subtitle = Anzahl neuer Karten, die hinzugefügten wurden.
 statistics-reviews-count-subtitle = Anzahl der beantworteten Fragen.
 statistics-reviews-time-subtitle = Bis zur Beantwortung der Frage vergangene Zeit.
