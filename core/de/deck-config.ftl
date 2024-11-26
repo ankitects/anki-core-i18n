@@ -145,7 +145,7 @@ deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschlie
 ## Timer section
 
 deck-config-timer-title = Timer
-deck-config-maximum-answer-secs = Ignoriere Antwortzeiten über (Sekunden)
+deck-config-maximum-answer-secs = Ignoriere Antwortzeiten länger als (Sekunden)
 deck-config-maximum-answer-secs-tooltip = Die maximale Zeit, die für eine einzelne Wiederholung in der Statistik erfasst wird. Wenn die tatsächliche Antwortzeit diesen Wert überschreitet (z. B. weil Sie den Bildschirm verlassen haben), wird statt der tatsächlichen Zeit die eingestellte maximale Antwortzeit in der Statistik gespeichert.
 deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
 deck-config-stop-timer-on-answer = Timer pausieren, während die Antwort aufgedeckt ist
@@ -276,17 +276,17 @@ deck-config-get-params = Parameter abrufen
 deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count }...
-deck-config-reschedule-cards-on-change = Beim Änderungen alle Karten umplanen
+deck-config-reschedule-cards-on-change = Bei Änderungen alle Karten umplanen
 deck-config-fsrs-tooltip =
     Wirkt sich auf die gesamte Sammlung aus.
     
-    FSRS (Free Spaced Repetition Scheduler, „Freier Zeitplaner für verteile Wiederholung“) ist eine Alternative zum klassischem SM‑2 (SuperMemo 2) von Anki. FSRS sagt genauer vorher, wie wahrscheinlich es ist, dass Sie eine Karte vergessen. Somit können Sie mit FSRS bei gleichem Zeitaufwand mehr lernen.
+    FSRS (Free Spaced Repetition Scheduler, „Freier Zeitplaner für verteile Wiederholung“) ist eine Alternative zum klassischem SM‑2 (SuperMemo 2) von Anki. FSRS prognostiziert genauer, wie wahrscheinlich es ist, dass Sie eine Karte zu einem bestimmten Zeitpunkt vergessen, und ermöglicht Ihnen so, bei gleichem Zeitaufwand mehr zu lernen.
 deck-config-desired-retention-tooltip =
-    Mit dem Standardwert von 0,9 legt Anki die Zeitplanung Ihrer Wiederholungen so fest, dass Sie eine Chance von 90 % haben, sich an den Inhalt zu erinnern, wenn die Karte erneut zur Wiederholung ansteht.
+    Mit dem Standardwert von 0,9 legt Anki die Zeitplanung so fest, dass Sie sich an 90 % der Karten erinnern, die zur Wiederholung anstehen.
     
     Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger anzeigen, um die Wahrscheinlichkeit zu steigern, dass Sie sich daran erinnern. Reduzieren Sie den Wert, zeigt Anki die Karten seltener, was dazu führt, dass Sie mehr vergessen.
     
-    Ändern Sie diesen Wert mit Bedacht: Ein höherer Wert erhöht Ihr Arbeitspensum deutlich, während ein niedrigerer Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
+    Ändern Sie diesen Wert mit Bedacht: Ein hoher Wert erhöht Ihr Arbeitspensum deutlich, während ein niedriger Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
 deck-config-historical-retention-tooltip =
     Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen . Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90 % der Karten erinnert haben. War die tatsächliche Erfolgsquote jedoch deutlich höher oder niedriger als 90 %, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
     

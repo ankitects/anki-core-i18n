@@ -90,7 +90,7 @@ statistics-counts-relearning-cards = Wiedererlernen
 statistics-counts-title = Status
 statistics-counts-separate-suspended-buried-cards = Ausgeschlossene und aufgeschobene Karten separat anzeigen
 statistics-true-retention-title = Tatsächliche Erfolgsquote
-statistics-true-retention-subtitle = Erfolgsquote der Karten mit einem Intervall von ≥ 1 Tag
+statistics-true-retention-subtitle = Erfolgsquote bei Karten mit einem Intervall von einem Tag oder länger
 statistics-true-retention-range = Bereich
 statistics-true-retention-pass = Erfolge
 statistics-true-retention-fail = Fehlversuche
@@ -198,7 +198,7 @@ statistics-hours-reviews = 📊 { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = { $percent } % korrekt ({ $reviews })
 statistics-hours-title = Gedächtnisleistung nach Tageszeit
-statistics-hours-subtitle = Erfolgsrate für Wiederholungen nach Uhrzeit
+statistics-hours-subtitle = Erfolgsquote für Wiederholungen nach Uhrzeit
 # shown when graph is empty
 statistics-no-data = KEINE DATEN
 statistics-calendar-title = Kalender
