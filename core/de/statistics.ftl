@@ -65,12 +65,12 @@ statistics-reviews =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } gelernt ({ $secs-per-card } s/Karte)
-        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } gelernt ({ $secs-per-card } s/Karte)
-        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } gelernt ({ $secs-per-card } s/Karte)
-        [days] Heute { statistics-cards } { statistics-in-time-span-days } gelernt ({ $secs-per-card } s/Karte)
-        [months] Heute { statistics-cards } { statistics-in-time-span-months } gelernt ({ $secs-per-card } s/Karte)
-       *[years] Heute { statistics-cards } { statistics-in-time-span-years } gelernt ({ $secs-per-card } s/Karte)
+        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } gelernt ({ $secs-per-card } Sek./Karte)
+        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } gelernt ({ $secs-per-card } Sek./Karte)
+        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } gelernt ({ $secs-per-card } Sek./Karte)
+        [days] Heute { statistics-cards } { statistics-in-time-span-days } gelernt ({ $secs-per-card } Sek./Karte)
+        [months] Heute { statistics-cards } { statistics-in-time-span-months } gelernt ({ $secs-per-card } Sek./Karte)
+       *[years] Heute { statistics-cards } { statistics-in-time-span-years } gelernt ({ $secs-per-card } Sek./Karte)
     }
 statistics-today-title = Heute
 statistics-today-again-count = Fehlversuche:
