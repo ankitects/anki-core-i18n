@@ -79,10 +79,10 @@ scheduling-today-new-limit-reached =
     ist erreicht. Er kann in den Einstellungen erhöht werden, aber
     bitte daran denken, dass das Arbeitspensum kurzfristiger Wiederholungen
     umso größer wird, je mehr neue Karten eingesetzt werden.
-scheduling-buried-cards-found = Eine oder mehrere Karten wurden bis morgen aufgeschoben. Sie können das { $unburyThem }, um sie sofort anzuzeigen.
+scheduling-buried-cards-found = Eine oder mehrere Karten wurden bis morgen aufgeschoben. Sie können die Funktion „{ $unburyThem }“ nutzen, um sie sofort anzuzeigen.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = Aufschieben deaktivieren
+scheduling-unbury-them = Nicht mehr aufschieben
 scheduling-how-to-custom-study = Wenn außerhalb der regulären Zeitplanung gelernt werden soll, kann die Funktion „{ $customStudy }“ genutzt werden.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
