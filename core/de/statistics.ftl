@@ -103,18 +103,18 @@ statistics-true-retention-year = Letztes Jahr
 statistics-true-retention-all-time = Gesamte Zeit
 statistics-range-all-time = Stapel-Lebensdauer
 statistics-range-1-year-history = letzte 12 Monate
-statistics-range-all-history = Gesamte Verlauf
+statistics-range-all-history = Gesamter Verlauf
 statistics-range-deck = Stapel
 statistics-range-collection = Sammlung
 statistics-range-search = Suche
 statistics-card-ease-title = Leichtigkeit
-statistics-card-difficulty-title = Schwierigkeit
+statistics-card-difficulty-title = Schwierigkeitsgrad
 statistics-card-stability-title = Stabilität
-statistics-card-stability-subtitle = Intervall, in dem die Abrufbarkeit auf 90 % sinkt.
+statistics-card-stability-subtitle = Intervall, in dem die Abrufbarkeit einer Karte auf 90 % sinkt.
 statistics-average-stability = Durchschnittliche Stabilität
 statistics-card-retrievability-title = Abrufbarkeit
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
-statistics-card-difficulty-subtitle2 = Je höher der Schwierigkeitsgrad, desto langsamer erhöht sich die Stabilität.
+statistics-card-difficulty-subtitle2 = Je höher der Schwierigkeitsgrad einer Karte, desto langsamer erhöht sich ihre Stabilität.
 statistics-retrievability-subtitle = Die Wahrscheinlichkeit, dass Sie sich heute an diese Karte erinnern.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -124,8 +124,8 @@ statistics-card-ease-tooltip =
     }
 statistics-card-difficulty-tooltip =
     { $cards ->
-        [one] { $cards } Karte mit { $percent } Schwierigkeit
-       *[other] { $cards } Karten mit { $percent } Schwierigkeit
+        [one] { $cards } Karte mit Schwierigkeitsgrad { $percent }
+       *[other] { $cards } Karten mit Schwierigkeitsgrad { $percent }
     }
 statistics-retrievability-tooltip =
     { $cards ->
@@ -136,7 +136,7 @@ statistics-future-due-title = Zeitplanung
 statistics-future-due-subtitle = Anzahl der eingeplanten Wiederholungen.
 statistics-added-title = Hinzugefügte Karten
 statistics-added-subtitle = Anzahl neuer Karten, die hinzugefügten wurden.
-statistics-reviews-count-subtitle = Anzahl der beantworteten Fragen.
+statistics-reviews-count-subtitle = Anzahl der in der Vergangenheit durchgeführten Wiederholungen
 statistics-reviews-time-subtitle = Bis zur Beantwortung der Frage vergangene Zeit.
 statistics-answer-buttons-title = Antwortknopf
 # eg Button: 4
@@ -197,7 +197,7 @@ statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent } %)
 statistics-hours-reviews = 📊 { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = { $percent } % korrekt ({ $reviews })
-statistics-hours-title = Gedächtnisleistung nach Tageszeit
+statistics-hours-title = Nach Uhrzeit
 statistics-hours-subtitle = Erfolgsquote für Wiederholungen nach Uhrzeit
 # shown when graph is empty
 statistics-no-data = KEINE DATEN
@@ -245,7 +245,7 @@ statistics-cards-per-day =
        *[other] { $count } Karten/Tag
     }
 statistics-average-ease = Durchschnittliche Leichtigkeit
-statistics-average-difficulty = Durchschnittliche Schwierigkeit
+statistics-average-difficulty = Durchschnittlicher Schwierigkeitsgrad
 statistics-average-retrievability = Durchschnittliche Abrufbarkeit
 statistics-estimated-total-knowledge = Geschätztes Gesamtwissen
 statistics-save-pdf = Als PDF speichern
