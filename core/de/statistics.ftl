@@ -172,18 +172,18 @@ statistics-intervals-title = Wiederholungsintervalle
 statistics-intervals-subtitle = Intervall, bis Wiederholungskarten erneut angezeigt werden.
 statistics-intervals-day-range =
     { $cards ->
-        [one] { $cards } Karte mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
-       *[other] { $cards } Karten mit einem { $daysStart }~{ $daysEnd }-Tage-Intervall
+        [one] { $cards } Karte mit einem Intervall von { $daysStart } bis { $daysEnd } Tagen
+       *[other] { $cards } Karten mit einem Intervall von { $daysStart } bis { $daysEnd } Tagen
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] { $cards } Karte mit einem { $day }-Tag-Intervall
-       *[other] { $cards } Karten mit einem { $day }-Tage-Intervall
+        [one] { $cards } Karte mit einem Intervall von { $day } Tagen
+       *[other] { $cards } Karten mit einem Intervall von { $day } Tagen
     }
 statistics-stability-day-range =
     { $cards ->
-        [one] { $cards } Karte mit { $daysStart }~{ $daysEnd } Tagen Stabilität
-       *[other] { $cards } Karten mit { $daysStart }~{ $daysEnd } Tagen Stabilität
+        [one] { $cards } Karte mit { $daysStart } bis { $daysEnd } Tagen Stabilität
+       *[other] { $cards } Karten mit { $daysStart } bis { $daysEnd } Tagen Stabilität
     }
 statistics-stability-day-single =
     { $cards ->
@@ -191,10 +191,10 @@ statistics-stability-day-single =
        *[other] { $cards } Karten mit { $day } Tagen Stabilität
     }
 # hour range, eg "From 14:00-15:00"
-statistics-hours-range = Von { $hourStart }:00~{ $hourEnd }:00
+statistics-hours-range = Von { $hourStart }:00 bis { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent } %)
 # the emoji depicts the graph displaying this number
-statistics-hours-reviews = 📊 { $reviews } Wiederholungen
+statistics-hours-reviews = { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = { $percent } % korrekt ({ $reviews })
 statistics-hours-title = Nach Uhrzeit
@@ -219,7 +219,7 @@ statistics-elapsed-time-years = { $amount } Jr.
 ##
 
 statistics-average-for-days-studied = Durchschnitt an Lerntagen
-statistics-total = Gesamt
+statistics-total = Insgesamt
 statistics-days-studied = Lerntage
 statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
