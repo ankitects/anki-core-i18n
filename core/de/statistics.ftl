@@ -113,7 +113,7 @@ statistics-card-stability-title = Stabilität
 statistics-card-stability-subtitle = Intervall, in dem die Abrufbarkeit einer Karte auf 90 % sinkt.
 statistics-average-stability = Durchschnittliche Stabilität
 statistics-card-retrievability-title = Abrufbarkeit
-statistics-card-ease-subtitle = Je geringer die Leichtigkeit, desto öfter wird eine Karte abgefragt.
+statistics-card-ease-subtitle = Je geringer die Leichtigkeit einer Karte, desto öfter wird sie abgefragt.
 statistics-card-difficulty-subtitle2 = Je höher der Schwierigkeitsgrad einer Karte, desto langsamer erhöht sich ihre Stabilität.
 statistics-retrievability-subtitle = Die Wahrscheinlichkeit, dass Sie sich heute an diese Karte erinnern.
 # eg "3 cards with 150-170% ease"
@@ -137,30 +137,30 @@ statistics-future-due-subtitle = Anzahl der eingeplanten Wiederholungen.
 statistics-added-title = Hinzugefügte Karten
 statistics-added-subtitle = Anzahl neuer Karten, die hinzugefügten wurden.
 statistics-reviews-count-subtitle = Anzahl der in der Vergangenheit durchgeführten Wiederholungen
-statistics-reviews-time-subtitle = Bis zur Beantwortung der Frage vergangene Zeit.
+statistics-reviews-time-subtitle = Zeitaufwand der in der Vergangenheit durchgeführten Wiederholungen
 statistics-answer-buttons-title = Antwortknopf
 # eg Button: 4
 statistics-answer-buttons-button-number = Knopf
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = Male gedrückt
+statistics-answer-buttons-button-pressed = Wie oft gedrückt
 statistics-answer-buttons-subtitle = Wie häufig welcher Antwortknopf gewählt wurde.
 statistics-reviews-title = Wiederholungen
-statistics-reviews-time-checkbox = Zeit
+statistics-reviews-time-checkbox = Zeitaufwand
 statistics-in-days-single =
     { $days ->
         [0] Heute
         [1] Morgen
-        [one] In { $days } Tag
-       *[other] In { $days } Tagen
+        [one] In { $days } Tag
+       *[other] In { $days } Tagen
     }
-statistics-in-days-range = in { $daysStart }-{ $daysEnd }
+statistics-in-days-range = In { $daysStart }-{ $daysEnd } Tagen
 statistics-days-ago-single =
     { $days ->
         [1] Gestern
-        [one] vor { $days } Tag
-       *[other] vor { $days } Tagen
+        [one] Vor { $days } Tag
+       *[other] Vor { $days } Tagen
     }
-statistics-days-ago-range = vor { $daysStart }-{ $daysEnd } Tagen
+statistics-days-ago-range = Vor { $daysStart }-{ $daysEnd } Tagen
 statistics-running-total = Bis hierhin aufsummiert
 statistics-cards-due =
     { $cards ->
