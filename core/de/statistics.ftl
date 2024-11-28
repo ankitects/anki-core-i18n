@@ -8,7 +8,7 @@ statistics-due-for-new-card = Neu #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } Karten/Minute
-statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
+statistics-average-answer-time = { $average-seconds } Sek. ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -56,8 +56,8 @@ statistics-notes =
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
-        [one] { $reviews } Wiederholung
-       *[other] { $reviews } Wiederholungen
+        [one] { $reviews } Wiederholung
+       *[other] { $reviews } Wiederholungen
     }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
@@ -75,13 +75,13 @@ statistics-studied-today =
 statistics-today-title = Heute
 statistics-today-again-count = Fehlversuche:
 statistics-today-type-counts = Neu: { $learnCount }, wiederholt: { $reviewCount }, wiedererlernt: { $relearnCount }, ausgewählte Karten: { $filteredCount }
-statistics-today-no-cards = Heute wurden (noch) keine Karten gelernt.
-statistics-today-no-mature-cards = Heute wurden keine alten Karten wiederholt.
+statistics-today-no-cards = Heute wurden noch keine Karten gelernt.
+statistics-today-no-mature-cards = Heute wurden noch keine alten Karten wiederholt.
 statistics-today-correct-mature = Richtige Antworten bei alten Karten: { $correct }/{ $total } ({ $percent } %)
 statistics-counts-total-cards = Karten insgesamt
 statistics-counts-new-cards = Neu
-statistics-counts-young-cards = Junge Karten
-statistics-counts-mature-cards = Alte Karten
+statistics-counts-young-cards = Wiederholung (kürzeres Intervall)
+statistics-counts-mature-cards = Wiederholung (längeres Intervall)
 statistics-counts-suspended-cards = Ausgeschlossen
 statistics-counts-buried-cards = Aufgeschoben
 statistics-counts-filtered-cards = Gefiltert
