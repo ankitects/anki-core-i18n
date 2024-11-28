@@ -13,7 +13,7 @@ decks-filter-2 = 篩選器 2
 decks-get-shared = 取得共享牌組
 decks-import-file = 匯入檔案
 decks-increasing-intervals = 間隔由小到大
-decks-latest-added-first = 最近新增的優先
+decks-latest-added-first = 最近新增優先
 decks-limit-to = 上限為
 decks-minutes = 分鐘
 decks-most-lapses = 最常遺忘
@@ -24,7 +24,6 @@ decks-order-added = 新增順序
 decks-order-due = 到期順序
 decks-please-select-something = 請選取一個牌組。
 decks-random = 隨機
-decks-relative-overdueness = 相對逾期跨度
 decks-repeat-failed-cards-after = 卡片「重來」後延遲
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = 「{ $button }」延遲
@@ -37,3 +36,8 @@ decks-learn-header = 學習中
 # The count of cards waiting to be reviewed
 decks-review-header = 已到期
 decks-zero-minutes-hint = (0 = 將卡片放回原始牌組)
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+decks-relative-overdueness = 相對逾期跨度
