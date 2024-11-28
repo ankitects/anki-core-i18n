@@ -6,7 +6,7 @@ card-stats-ease = Leichtigkeit
 card-stats-review-count = Wiederholungen
 card-stats-lapse-count = Fehlversuche
 card-stats-average-time = Durchschnittliche Zeit
-card-stats-total-time = Gesamtzeit
+card-stats-total-time = Gesamte Zeit
 card-stats-new-card-position = Positionsnummer
 card-stats-card-template = Kartentyp
 card-stats-note-type = Notiztyp
@@ -38,5 +38,5 @@ card-stats-fsrs-forgetting-curve-all-time = Gesamte Zeit
 
 ## Window Titles
 
-card-stats-current-card = Aktuelle Karte ({ $context })
+card-stats-current-card = Derzeitige Karte ({ $context })
 card-stats-previous-card = Vorherige Karte ({ $context })
