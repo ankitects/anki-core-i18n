@@ -199,7 +199,7 @@ deck-config-easy-days-sunday = Sonntag
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Reduziert
 deck-config-easy-days-minimum = Minimum
-deck-config-easy-days-no-normal-days = Mindestens ein Tag sollte auf '{ deck-config-easy-days-normal }' eingestellt sein.
+deck-config-easy-days-no-normal-days = Mindestens ein Tag sollte auf „{ deck-config-easy-days-normal }“ eingestellt sein.
 
 ## Adding/renaming
 
@@ -236,8 +236,8 @@ deck-config-daily-limit-will-be-capped =
     }
 deck-config-reviews-too-low =
     { $cards ->
-        [one] Wenn { $cards } neue Karte jeden Tag hinzugefügt wird, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
-       *[other] Wenn { $cards } neue Karten jeden Tag hinzugefügt werden, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
+        [one] Wenn jeden Tag { $cards } neue Karte gelernt wird, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
+       *[other] Wenn jeden Tag { $cards } neue Karten gelernt werden, dann sollte Ihr Tageshöchstwert für Wiederholungskarten mindestens { $expected } betragen.
     }
 deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sollte mindestens so lang sein wie die abschließende Lernstufe.
 deck-config-good-above-easy = Das Intervall für einfache Karten sollte mindestens so lang sein wie das Aufstiegsintervall.
