@@ -1,7 +1,7 @@
 studying-again = Nochmal
 studying-all-buried-cards = Alle aufgeschobenen Karten
-studying-audio-5s = Audio −5 Sek.
-studying-audio-and5s = Audio +5 Sek.
+studying-audio-5s = Audio 5 Sek. zurückspulen
+studying-audio-and5s = Audio 5 Sek. vorspulen
 studying-buried-siblings = Aufgeschobene Geschwisterkarten
 studying-bury = Bis morgen aufschieben
 studying-bury-card = Karte bis morgen aufschieben

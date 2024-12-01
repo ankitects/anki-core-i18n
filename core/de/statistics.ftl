@@ -15,33 +15,33 @@ statistics-average-answer-time = { $average-seconds } Sek. ({ statistics-cards-
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] in { $amount } Sekunde
-       *[other] in { $amount } Sekunden
+        [one] in { $amount } Sek.
+       *[other] in { $amount } Sek.
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] in { $amount } Minute
-       *[other] in { $amount } Minuten
+        [one] in { $amount } Min.
+       *[other] in { $amount } Min.
     }
 statistics-in-time-span-hours =
     { $amount ->
-        [one] in { $amount } Stunde
-       *[other] in { $amount } Stunden
+        [one] in { $amount } Std.
+       *[other] in { $amount } Std.
     }
 statistics-in-time-span-days =
     { $amount ->
-        [one] in { $amount } Tag
-       *[other] in { $amount } Tagen
+        [one] in { $amount } Tg.
+       *[other] in { $amount } Tg.
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] in { $amount } Monat
-       *[other] in { $amount } Monaten
+        [one] in { $amount } Mon.
+       *[other] in { $amount } Mon.
     }
 statistics-in-time-span-years =
     { $amount ->
-        [one] in { $amount } Jahr
-       *[other] in { $amount } Jahren
+        [one] in { $amount } Jr.
+       *[other] in { $amount } Jr.
     }
 statistics-cards =
     { $cards ->
