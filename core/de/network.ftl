@@ -1,5 +1,5 @@
 network-offline = Bitte überprüfen Sie Ihre Internetverbindung.
-network-timeout = Die Verbindung wurde wegen Zeitüberschreitung beendet. Bitte versuchen Sie es über ein anderes Netzwerk.
-network-proxy-auth = Ihr Proxy verlangt eine Authentifzierung.
+network-timeout = Zeitüberschreibung bei Verbindung. Bitte versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wechseln Sie das Netzwerk.
+network-proxy-auth = Ihr Proxy-Server verlangt eine Authentifizierung.
 network-other = Ein Netzwerkfehler ist aufgetreten.
-network-details = Details zum Fehler: { $details }
+network-details = Fehlerbeschreibung: { $details }
