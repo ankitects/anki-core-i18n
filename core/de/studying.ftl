@@ -1,7 +1,7 @@
 studying-again = Nochmal
 studying-all-buried-cards = Alle aufgeschobenen Karten
-studying-audio-5s = Audio -5s
-studying-audio-and5s = Audio +5s
+studying-audio-5s = Audio −5 Sek.
+studying-audio-and5s = Audio +5 Sek.
 studying-buried-siblings = Aufgeschobene Geschwisterkarten
 studying-bury = Bis morgen aufschieben
 studying-bury-card = Karte bis morgen aufschieben
@@ -10,8 +10,8 @@ studying-card-suspended = Karte wurde ausgeschlossen.
 studying-card-was-a-leech = Karte war eine Lernbremse.
 studying-cards-buried =
     { $count ->
-        [one] { $count } Karte aufgeschoben.
-       *[other] { $count } Karten aufgeschoben.
+        [one] { $count } Karte aufgeschoben.
+       *[other] { $count } Karten aufgeschoben.
     }
 studying-cards-will-be-automatically-returned-to = Wiederholte Karten kehren automatisch in ihren ursprünglichen Stapel zurück.
 studying-continue = Fortsetzen
