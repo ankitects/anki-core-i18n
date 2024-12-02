@@ -236,8 +236,8 @@ statistics-reviews-per-day =
     }
 statistics-minutes-per-day =
     { $count ->
-        [one] { $count } Minute/Tag
-       *[other] { $count } Minuten/Tag
+        [one] { $count } Minute/Tag
+       *[other] { $count } Minuten/Tag
     }
 statistics-cards-per-day =
     { $count ->

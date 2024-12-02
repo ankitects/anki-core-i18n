@@ -13,7 +13,7 @@ studying-cards-buried =
         [one] { $count } Karte aufgeschoben.
        *[other] { $count } Karten aufgeschoben.
     }
-studying-cards-will-be-automatically-returned-to = Wiederholte Karten kehren automatisch in ihren ursprünglichen Stapel zurück.
+studying-cards-will-be-automatically-returned-to = Die Karten werden nach der Wiederholung automatisch in ihre ursprünglichen Stapel zurückgelegt.
 studying-continue = Fortsetzen
 studying-counts-differ = Zählungen unterscheiden sich von der Stapelliste, weil Karten aufgeschoben werden. Gewisse Karten wurden ausgeschlossen und andere Karten haben ggf. ihre Platz eingenommen.
 studying-delete-note = Notiz löschen
@@ -53,8 +53,8 @@ studying-card-studied-in =
     }
 studying-minute =
     { $count ->
-        [one] { $count } Minute gelernt.
-       *[other] { $count } Minuten gelernt.
+        [one] { $count } Minute gelernt.
+       *[other] { $count } Minuten gelernt.
     }
 studying-question-time-elapsed = Abgelaufene Fragezeit
 studying-answer-time-elapsed = Ant­wort­zeit ab­ge­lau­fen

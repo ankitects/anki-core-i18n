@@ -167,8 +167,8 @@ browsing-changed-new-position =
     }
 browsing-reparented-decks =
     { $count ->
-        [one] { $count } Stapel umbenannt.
-       *[other] { $count } Stapel umbenannt.
+        [one] { $count } Stapel umbenannt.
+       *[other] { $count } Stapel umbenannt.
     }
 browsing-sidebar-card-state-review = Wiederholen
 
