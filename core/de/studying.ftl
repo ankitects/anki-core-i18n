@@ -15,17 +15,17 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Die Karten werden nach der Wiederholung automatisch in ihre ursprünglichen Stapel zurückgelegt.
 studying-continue = Fortsetzen
-studying-counts-differ = Zählungen unterscheiden sich von der Stapelliste, weil Karten aufgeschoben werden. Gewisse Karten wurden ausgeschlossen und andere Karten haben ggf. ihre Platz eingenommen.
+studying-counts-differ = Die Zählung weicht von der Stapelliste ab, weil das Aufschieben von Geschwisterkarten aktiviert ist. Einige Karten wurden aufgeschoben, und andere Karten sind möglicherweise nachgerückt.
 studying-delete-note = Notiz löschen
-studying-deleting-this-deck-from-the-deck = Wenn dieser Stapel entfernt wird, werden alle verbleibenden Karten wieder ihrem ursprünglichen Stapel zugeführt.
+studying-deleting-this-deck-from-the-deck = Wenn Sie diesen Auswahlstapel löschen, werden alle verbleibenden Karten in ihre ursprünglichen Stapel zurückgelegt.
 studying-easy = Einfach
 studying-edit = Bearbeiten
 studying-empty = Leeren
 studying-finish = Fertig
-studying-flag-card = Markieren
+studying-flag-card = Karte markieren
 studying-good = Gut
 studying-hard = Schwer
-studying-it-has-been-suspended = Karte wurde ausgeschlossen.
+studying-it-has-been-suspended = Karte ausgeschlossen.
 studying-manually-buried-cards = Manuell aufgeschobene Karten
 studying-mark-note = Notiz kennzeichnen
 studying-more = Mehr
@@ -56,5 +56,5 @@ studying-minute =
         [one] { $count } Minute gelernt.
        *[other] { $count } Minuten gelernt.
     }
-studying-question-time-elapsed = Abgelaufene Fragezeit
+studying-question-time-elapsed = Fragezeit abgelaufen
 studying-answer-time-elapsed = Ant­wort­zeit ab­ge­lau­fen

@@ -61,7 +61,7 @@ actions-fullscreen-unsupported = Der Vollbildmodus wird von Ihrem aktuell ausgew
 
 ## Flags
 
-actions-flag-number = Markierung { $number }
+actions-flag-number = Markierung { $number }
 actions-flag-red = Rot
 actions-flag-orange = Orange
 actions-flag-green = Grün
