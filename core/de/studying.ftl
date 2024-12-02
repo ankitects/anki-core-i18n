@@ -48,8 +48,8 @@ studying-what-would-you-like-to-unbury = Was möchten Sie nicht mehr aufschieben
 studying-you-havent-recorded-your-voice-yet = Stimme noch nicht aufgezeichnet
 studying-card-studied-in =
     { $count ->
-        [one] { $count } Karte in
-       *[other] { $count } Karten in
+        [one] { $count } Karte in
+       *[other] { $count } Karten in
     }
 studying-minute =
     { $count ->

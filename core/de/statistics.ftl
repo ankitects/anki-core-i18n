@@ -7,7 +7,7 @@ statistics-due-for-new-card = Neu #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
-statistics-cards-per-min = { $cards-per-minute } Karten/Minute
+statistics-cards-per-min = { $cards-per-minute } Karten/Min.
 statistics-average-answer-time = { $average-seconds } Sek. ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
@@ -50,8 +50,8 @@ statistics-cards =
     }
 statistics-notes =
     { $notes ->
-        [one] { $notes } Notiz
-       *[other] { $notes } Notizen
+        [one] { $notes } Notiz
+       *[other] { $notes } Notizen
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -241,8 +241,8 @@ statistics-minutes-per-day =
     }
 statistics-cards-per-day =
     { $count ->
-        [one] { $count } Karte/Tag
-       *[other] { $count } Karten/Tag
+        [one] { $count } Karte/Tag
+       *[other] { $count } Karten/Tag
     }
 statistics-average-ease = Durchschnittliche Leichtigkeit
 statistics-average-difficulty = Durchschnittlicher Schwierigkeitsgrad

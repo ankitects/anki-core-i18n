@@ -20,8 +20,8 @@ exporting-notes-in-plain-text = Notizen als einfache Textdatei
 exporting-selected-notes = Ausgewählte Notizen
 exporting-card-exported =
     { $count ->
-        [one] { $count } Karte wurde exportiert.
-       *[other] { $count } Karten wurden exportiert.
+        [one] { $count } Karte wurde exportiert.
+       *[other] { $count } Karten wurden exportiert.
     }
 exporting-exported-media-file =
     { $count ->
@@ -30,8 +30,8 @@ exporting-exported-media-file =
     }
 exporting-note-exported =
     { $count ->
-        [one] { $count } Notiz exportiert.
-       *[other] { $count } Notizen exportiert.
+        [one] { $count } Notiz exportiert.
+       *[other] { $count } Notizen exportiert.
     }
 exporting-exporting-file = Exportiere Datei...
 exporting-processed-media-files =

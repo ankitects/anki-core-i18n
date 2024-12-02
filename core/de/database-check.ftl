@@ -2,18 +2,18 @@ database-check-corrupt = Die Sammlung ist beschädigt. Bitte führen Sie eine Wi
 database-check-rebuilt = Datenbank neu generiert und optimiert.
 database-check-card-properties =
     { $count ->
-        [one] Ungültige Eigenschaften bei { $count } Karte korrigiert.
-       *[other] Ungültige Eigenschaften bei { $count } Karten korrigiert.
+        [one] Ungültige Eigenschaften bei { $count } Karte korrigiert.
+       *[other] Ungültige Eigenschaften bei { $count } Karten korrigiert.
     }
 database-check-missing-templates =
     { $count ->
-        [one] { $count } Karte ohne Vorlage wurde gelöscht.
-       *[other] { $count } Karten ohne Vorlage wurden gelöscht.
+        [one] { $count } Karte ohne Vorlage wurde gelöscht.
+       *[other] { $count } Karten ohne Vorlage wurden gelöscht.
     }
 database-check-field-count =
     { $count ->
-        [one] { $count } Notiz mit falscher Anzahl von Feldern wurde gelöscht.
-       *[other] { $count } Notizen mit falscher Anzahl von Feldern wurden gelöscht.
+        [one] { $count } Notiz mit falscher Anzahl von Feldern wurde gelöscht.
+       *[other] { $count } Notizen mit falscher Anzahl von Feldern wurden gelöscht.
     }
 database-check-new-card-high-due =
     { $count ->
@@ -22,13 +22,13 @@ database-check-new-card-high-due =
     }
 database-check-card-missing-note =
     { $count ->
-        [one] { $count } Karte ohne zugehörige Notiz wurde gelöscht.
-       *[other] { $count } Karten ohne zugehörige Notiz wurden gelöscht.
+        [one] { $count } Karte ohne zugehörige Notiz wurde gelöscht.
+       *[other] { $count } Karten ohne zugehörige Notiz wurden gelöscht.
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [one] { $count } Karte mit doppelt vorhandener Vorlage wurde gelöscht.
-       *[other] { $count } Karten mit doppelt vorhandener Vorlage wurden gelöscht.
+        [one] { $count } Karte mit doppelt vorhandener Vorlage wurde gelöscht.
+       *[other] { $count } Karten mit doppelt vorhandener Vorlage wurden gelöscht.
     }
 database-check-missing-decks =
     { $count ->
@@ -42,8 +42,8 @@ database-check-revlog-properties =
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-        [one] { $count } Notiz mit ungültigen UTF-8-Zeichen wurden repariert.
-       *[other] { $count } Notizen mit ungültigen UTF-8-Zeichen wurden repariert.
+        [one] { $count } Notiz mit ungültigen UTF-8-Zeichen wurden repariert.
+       *[other] { $count } Notizen mit ungültigen UTF-8-Zeichen wurden repariert.
     }
 database-check-fixed-invalid-ids =
     { $count ->

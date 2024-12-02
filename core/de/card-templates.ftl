@@ -2,8 +2,8 @@
 card-templates-blank = Punkt Punkt Punkt
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] Unten vorgenommene Änderungen werden { $count } Notiz betreffen, die diesen Kartentyp verwenden.
-       *[other] Unten vorgenommene Änderungen werden { $count } Notizen betreffen, die diesen Kartentyp verwenden.
+        [one] Unten vorgenommene Änderungen werden { $count } Notiz betreffen, die diesen Kartentyp verwenden.
+       *[other] Unten vorgenommene Änderungen werden { $count } Notizen betreffen, die diesen Kartentyp verwenden.
     }
 card-templates-card-type = Kartentyp:
 card-templates-front-template = Vorlage für Vorderseite
@@ -49,13 +49,13 @@ card-templates-rename-card-type = Kartentyp umbenennen …
 card-templates-reposition-card-type = Positionsnummer des Kartentyps ändern…
 card-templates-card-count =
     { $count ->
-        [one] { $count } Karte
-       *[other] { $count } Karten
+        [one] { $count } Karte
+       *[other] { $count } Karten
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-        [one] Dieser Vorgang wird { $count } Karte erstellen. Möchten Sie fortfahren?
-       *[other] Dieser Vorgang wird { $count } Karten erstellen. Möchten Sie fortfahren?
+        [one] Dieser Vorgang wird { $count } Karte erstellen. Möchten Sie fortfahren?
+       *[other] Dieser Vorgang wird { $count } Karten erstellen. Möchten Sie fortfahren?
     }
 card-templates-type-boxes-warning = Es wird nur ein Eingabefeld pro Kartenvorlage unterstützt.
 card-templates-restore-to-default = Auf die Standardeinstellungen zurücksetzen

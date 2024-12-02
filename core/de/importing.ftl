@@ -94,13 +94,13 @@ importing-update-notetypes-help =
     Wichtig: Diese Einstellung ist nur relevant, wenn Sie einen Notiztyp importieren, der bereits in Ihrer Sammlung vorhanden ist, und dessen Schema sich NICHT geändert hat. Eine Schema-Änderung liegt vor, wenn bei der Version in Ihrer Sammlung die Anzahl oder Reihenfolge von Feldern oder Kartentypen anders ist. Wenn das der Fall sein sollte, können Sie hingegen über die Einstellung '{ importing-merge-notetypes }' festlegen, wie Anki beim Import vorgehen soll.
 importing-note-added =
     { $count ->
-        [one] { $count } Notiz wurde hinzugefügt.
-       *[other] { $count } Notizen wurden hinzugefügt.
+        [one] { $count } Notiz wurde hinzugefügt.
+       *[other] { $count } Notizen wurden hinzugefügt.
     }
 importing-note-imported =
     { $count ->
-        [one] { $count } Notiz wurde importiert.
-       *[other] { $count } Notizen wurden importiert.
+        [one] { $count } Notiz wurde importiert.
+       *[other] { $count } Notizen wurden importiert.
     }
 importing-note-unchanged =
     { $count ->
@@ -123,13 +123,13 @@ importing-gathering = Daten werden zusammengetragen...
 importing-failed-to-import-media-file = Mediendatei konnte nicht importiert werden: { $debugInfo }
 importing-processed-notes =
     { $count ->
-        [one] { $count } Notiz verarbeitet...
-       *[other] { $count } Notizen verarbeitet...
+        [one] { $count } Notiz verarbeitet...
+       *[other] { $count } Notizen verarbeitet...
     }
 importing-processed-cards =
     { $count ->
-        [one] { $count } Karte verarbeitet...
-       *[other] { $count } Karten verarbeitet...
+        [one] { $count } Karte verarbeitet...
+       *[other] { $count } Karten verarbeitet...
     }
 importing-existing-notes = Vorhandene Notizen
 # "Existing notes: Duplicate" (verb)
@@ -147,8 +147,8 @@ importing-match-scope = Trefferumfang
 importing-notetype-and-deck = Notiztyp und Stapel
 importing-cards-added =
     { $count ->
-        [one] { $count } Karte wurde hinzugefügt.
-       *[other] { $count } Karten wurden hinzugefügt.
+        [one] { $count } Karte wurde hinzugefügt.
+       *[other] { $count } Karten wurden hinzugefügt.
     }
 importing-file-empty = Die Datei, die Sie ausgewählt haben, ist leer.
 importing-notes-added =
@@ -163,18 +163,18 @@ importing-notes-updated =
     }
 importing-existing-notes-skipped =
     { $count ->
-        [one] { $count } Notiz war bereits in Ihrer Sammlung vorhanden.
-       *[other] { $count } Notizen waren bereits in Ihrer Sammlung vorhanden.
+        [one] { $count } Notiz war bereits in Ihrer Sammlung vorhanden.
+       *[other] { $count } Notizen waren bereits in Ihrer Sammlung vorhanden.
     }
 importing-notes-failed =
     { $count ->
-        [one] { $count } Notiz konnte nicht importiert werden.
-       *[other] { $count } Notizen konnten nicht importiert werden.
+        [one] { $count } Notiz konnte nicht importiert werden.
+       *[other] { $count } Notizen konnten nicht importiert werden.
     }
 importing-conflicting-notes-skipped =
     { $count ->
-        [one] { $count } Notiz nicht importiert, da ihr Notiztyp geändert wurde.
-       *[other] { $count } Notizen nicht importiert, da ihr Notiztyp geändert wurde.
+        [one] { $count } Notiz nicht importiert, da ihr Notiztyp geändert wurde.
+       *[other] { $count } Notizen nicht importiert, da ihr Notiztyp geändert wurde.
     }
 importing-conflicting-notes-skipped2 =
     { $count ->

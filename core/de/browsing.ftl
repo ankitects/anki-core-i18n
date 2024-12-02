@@ -103,7 +103,7 @@ browsing-toggle-suspend = Ausschluss ein-/ausschalten
 browsing-treat-input-as-regular-expression = Eingabe als regulären Ausdruck behandeln
 browsing-update-saved-search = Mit aktuellem Suchbegriff überschreiben
 browsing-whole-collection = Gesamte Sammlung
-browsing-window-title-notes = Kartenverwaltung ({ $selected } von { $total } Notizen ausgewählt)
+browsing-window-title-notes = Kartenverwaltung ({ $selected } von { $total } Notizen ausgewählt)
 browsing-you-must-have-at-least-one = Mindestens eine Spalte muss angezeigt werden.
 browsing-group =
     { $count ->
@@ -112,13 +112,13 @@ browsing-group =
     }
 browsing-note-count =
     { $count ->
-        [one] { $count } Notiz
-       *[other] { $count } Notizen
+        [one] { $count } Notiz
+       *[other] { $count } Notizen
     }
 browsing-notes-updated =
     { $count ->
-        [one] { $count } Notiz geändert.
-       *[other] { $count } Notizen geändert.
+        [one] { $count } Notiz geändert.
+       *[other] { $count } Notizen geändert.
     }
 browsing-cards-updated =
     { $count ->
