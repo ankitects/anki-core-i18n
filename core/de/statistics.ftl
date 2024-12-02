@@ -197,7 +197,7 @@ statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent } %)
 statistics-hours-reviews = { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = { $percent } % korrekt ({ $reviews })
-statistics-hours-title = Nach Tageszeit
+statistics-hours-title = Nach Uhrzeit
 statistics-hours-subtitle = Erfolgsquote für Wiederholungen nach Uhrzeit
 # shown when graph is empty
 statistics-no-data = KEINE DATEN
