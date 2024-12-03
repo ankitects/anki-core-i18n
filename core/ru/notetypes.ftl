@@ -52,5 +52,6 @@ notetypes-error-getting-imagecloze = Не удалось открыть запи
 notetypes-error-loading-image-occlusion = Не удалось загрузить скрытие изображения. У вас Anki последней версии?
 notetype-error-no-image-to-show = Нет изображения
 notetypes-no-occlusion-created = Нужна хотя бы одна скрытая область.
+notetypes-no-occlusion-created2 = Невозможно добавить. Либо вы не добавили ни одного скрытия, либо первое поле пусто.
 notetypes-io-select-image = Выберите изображение
 notetypes-io-paste-image-from-clipboard = Вставить изображение из буфера

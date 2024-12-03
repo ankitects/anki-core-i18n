@@ -28,6 +28,7 @@ card-templates-no-front-field = Предполагается, что на лиц
 card-templates-missing-cloze = Предполагается, что на лицевой и обратной стороне шаблона карточки будет '{ "{{" }пробел:Текст{ "}}" }' или что-то подобное.
 card-templates-extraneous-cloze = пропуски: только в типах записей с пропусками.
 card-templates-see-preview = Дополнительная информация в предпросмотре.
+card-templates-field-not-found = Поле '{ $field }' не найдено.
 card-templates-changes-saved = Изменения сохранены.
 card-templates-discard-changes = Отменить изменения?
 card-templates-add-card-type = Добавить тип карточек...

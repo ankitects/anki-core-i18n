@@ -11,6 +11,7 @@ actions-decks = Колоды
 actions-decrement-value = Вычитаемое
 actions-delete = Удалить
 actions-export = Экспортировать
+actions-empty-cards = Пустые карточки
 actions-filter = Фильтр
 actions-help = Справка
 actions-increment-value = Прибавляемое
@@ -55,7 +56,7 @@ actions-previous-card-info = Сведения о предыдущей
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }
-actions-currently-unsupported = Данное действие не поддерживается вашей системой на текущий момент.
+actions-fullscreen-unsupported = Полноэкранный режим не поддерживается вашим видеодрайвером. Попробуйте переключиться на другой из списка на экране настроек.
 
 ## Flags
 
