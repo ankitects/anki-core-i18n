@@ -20,3 +20,4 @@ fields-name-invalid-letter = Имя поля не должно содержат�
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = Исключать из поиска без указания поля (медленнее)
+fields-field-is-required = Это обязательное поле, его нельзя удалить.

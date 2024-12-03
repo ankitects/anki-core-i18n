@@ -23,11 +23,18 @@ card-stats-review-log-type-review = Повторяемые
 card-stats-review-log-type-relearn = Переучиваемые
 card-stats-review-log-type-filtered = Отфильтрованые
 card-stats-review-log-type-manual = Ручной
+card-stats-review-log-type-rescheduled = Перенесено
+card-stats-review-log-elapsed-time = Времени на ответ прошло
 card-stats-no-card = (Нет карточек для показа)
 card-stats-custom-data = Особые данные
 card-stats-fsrs-stability = Стабильность
 card-stats-fsrs-difficulty = Сложность
 card-stats-fsrs-retrievability = Вспоминаемость
+card-stats-fsrs-forgetting-curve-title = Кривая Забывания
+card-stats-fsrs-forgetting-curve-first-week = Первая неделя
+card-stats-fsrs-forgetting-curve-first-month = Первый месяц
+card-stats-fsrs-forgetting-curve-first-year = Первый год
+card-stats-fsrs-forgetting-curve-all-time = Всё время
 
 ## Window Titles
 

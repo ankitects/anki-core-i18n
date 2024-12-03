@@ -62,6 +62,12 @@ statistics-cards =
         [many] { $cards } карточек
        *[other] { $cards } карточек
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } запись
+        [few] { $notes } записи
+       *[many] { $notes } записей
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -118,6 +124,17 @@ statistics-counts-learning-cards = Изучаемые
 statistics-counts-relearning-cards = Переучиваемые
 statistics-counts-title = Количество карточек
 statistics-counts-separate-suspended-buried-cards = Отдельные исключённые/отложенные карточки
+statistics-true-retention-title = Настоящее усвоение
+statistics-true-retention-subtitle = Процент и число вспомненных карточек с интервалом ≥ 1 день.
+statistics-true-retention-pass = Вспомнено
+statistics-true-retention-fail = Забыто
+statistics-true-retention-retention = Усвоение
+statistics-true-retention-today = Сегодня
+statistics-true-retention-yesterday = Вчера
+statistics-true-retention-week = На прошлой неделе
+statistics-true-retention-month = В прошлом месяце
+statistics-true-retention-year = В прошлом году
+statistics-true-retention-all-time = За всё время
 statistics-range-all-time = всё время
 statistics-range-1-year-history = за 12 месяцев
 statistics-range-all-history = вся история
@@ -140,6 +157,12 @@ statistics-card-ease-tooltip =
         [few] { $cards } карты с { $percent } легкости
         [many] { $cards } карт с { $percent } легкости
        *[other] { $cards } карт с { $percent } легкости
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } карточка со сложностью { $percent }
+        [few] { $cards } карточки со сложностью { $percent }
+       *[many] { $cards } карточек со сложностью { $percent }
     }
 statistics-retrievability-tooltip =
     { $cards ->
@@ -204,6 +227,18 @@ statistics-intervals-day-single =
         [many] { $cards } карточек с перерывом в { $day } дней
        *[other] { $cards } карточек с перерывом в { $day } дней
     }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } карточка со стабильностью { $daysStart }~{ $daysEnd } дней
+        [few] { $cards } карточки со стабильностью { $daysStart }~{ $daysEnd } дней
+       *[many] { $cards } карточек со стабильностью { $daysStart }~{ $daysEnd } дней
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } карточка со стабильностью { $day } дней
+        [few] { $cards } карточки со стабильностью { $day } дней
+       *[many] { $cards } карточек со стабильностью { $day } дней
+    }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = С { $hourStart }:00 до { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } верных ({ $percent }%)
@@ -239,6 +274,7 @@ statistics-average-answer-time-label = Среднее время ответа
 statistics-average = В среднем
 statistics-average-interval = Средний интервал
 statistics-due-tomorrow = На завтра
+statistics-daily-load = Ежедневная нагрузка
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } из { $total } ({ $percent }%)
 statistics-average-over-period = Если бы вы учились каждый день
@@ -266,6 +302,7 @@ statistics-cards-per-day =
 statistics-average-ease = Средняя лёгкость
 statistics-average-difficulty = Средняя сложность
 statistics-average-retrievability = Средняя вспоминаемость
+statistics-estimated-total-knowledge = Оценочный общий объём знаний
 statistics-save-pdf = Сохранить как PDF
 statistics-saved = Сохранено.
 statistics-stats = статистика

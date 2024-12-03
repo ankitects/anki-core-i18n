@@ -78,10 +78,12 @@ browsing-reschedule = Позже
 browsing-search-bar-hint = Поиск карточек и записей (введите запрос и нажмите Enter)
 browsing-search-in = Искать в:
 browsing-search-within-formatting-slow = Поиск по форматированию (медленно)
+browsing-select-deck = Выбрать колоду
 browsing-selected-notes-only = Только выбранные записи
 browsing-shift-position-of-existing-cards = Сдвинуть имеющиеся карточки
 browsing-sidebar = Боковая панель
 browsing-sidebar-filter = Фильтр боковой панели
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Поле сортировки
 browsing-sorting-on-this-column-is-not = Невозможно сортировать данную колонку. Выберите другую.
 browsing-start-position = Начальная позиция:
@@ -171,6 +173,7 @@ browsing-reparented-decks =
         [few] Переименованы { $count } колоды.
        *[other] Переименовано { $count } колод.
     }
+browsing-sidebar-card-state-review = Повторяемые
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -178,4 +181,3 @@ browsing-reparented-decks =
 browsing-card-initial = К
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = З
-browsing-sidebar-card-state-review = Повторяемые
