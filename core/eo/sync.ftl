@@ -28,13 +28,14 @@ sync-must-wait-for-end = Daŭras samtempigo. Atendu ĝis la samtempigo finiĝos 
 sync-confirm-empty-download = La loka kolekto havas neniujn kartojn. Ĉu vi volas elŝuti kartojn de AnkiWeb?
 sync-confirm-empty-upload = Kolekto AnkiWeb enhavas neniun karton. Ĉu anstataŭigi ĝin per loka kolekto?
 sync-conflict-explanation =
-    La kartaroj ĉi tie kaj sur AnkiWeb diferencas tiel, ke ili estas nekunfandebla. Tial necesas superskribi la kartarojn sur unu flanko per la kartaroj de la alia.
+    La kartaroj ĉi tie kaj sur AnkiWeb diferencas tiel, ke ili estas nekunfandeblaj. Tial necesas superskribi la kartarojn sur unu flanko per la kartaroj de la alia.
     
-    Se vi elektas elŝuton, Anki elŝutos la kolekton de AnkiWeb kaj vi perdos ĉiujn ŝanĝojn sur ĉi tiu komputilo, kiun vi faris ekde la lasta samtempigo.
+    Se vi elektos elŝuton, Anki elŝutos la kolekton de AnkiWeb kaj vi perdos ĉiujn ŝanĝojn sur ĉi tiu komputilo, kiun vi faris ekde la lasta samtempigo.
     
-    Se vi elektas alŝuton, Anki alŝutos vian kolekton al AnkiWeb kaj vi perdos ĉiujn ŝanĝojn sur AnkiWeb aŭ aliaj aranĝaĵoj ekde ties lasta samtempigo.
+    Se vi elektos alŝuton, Anki alŝutos vian kolekton al AnkiWeb kaj vi perdos ĉiujn ŝanĝojn sur AnkiWeb aŭ aliaj aranĝaĵoj ekde ties lasta samtempigo.
     
-    Post kiam ĉiuj aranĝaĵoj estas samtempigitaj, estontaj ripetoj kaj aldonitaj kartoj povos esti aŭtomate kunfanditaj.
+    Post kiam ĉiuj aranĝaĵoj estos samtempigitaj, estontaj ripetoj kaj aldonataj kartoj povos esti aŭtomate kunfanditaj.
+sync-conflict-explanation2 = Okazis konflikto inter kartaroj en tiu ĉi aparato kaj en AnkiWeb. Elektu kiun version vi volas teni:
 sync-ankiweb-id-label = AnkiWeb-identeco:
 sync-password-label = Pasvorto:
 sync-account-required =
