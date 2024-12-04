@@ -20,7 +20,7 @@ deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag ei
 deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungskarten, die pro Tag angezeigt werden sollen.
 deck-config-limit-deck-v3 = Wenn Sie einen übergeordneten Stapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal eingesammelt werden. Der Tageshöchstwert des übergeordneten Stapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten aus allen Unterstapeln zusammen.
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten begrenzt auch die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungskarten z. B. bei 200 liegt und 190 Wiederholungskarten anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
-deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf mehrtägiges Lernen aus. Zuerst werden die Karten aus dem mehrtägigen Lernen eingesammelt, gefolgt von den Wiederholungskarten.
+deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf tagesübergreifendes Lernen aus. Zuerst werden die Karten aus dem tagesübergreifenden Lernen eingesammelt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
     - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieses Stapelprofils, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
@@ -71,15 +71,15 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Aufschieben
 deck-config-bury-new-siblings = Geschwisterkarten mit Status „Neu“ aufschieben
 deck-config-bury-review-siblings = Geschwisterkarten mit Status „Wiederholung“ aufschieben
-deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status „Mehrtägiges Lernen“ aufschieben
+deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status „Tagesübergreifendes Lernen“ aufschieben
 deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. Karten in umgekehrter Richtung oder benachbarte Lückentexte) auf den nächsten Tag aufgeschoben werden.
 deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag aufgeschoben werden.
 deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag aufgeschoben werden.
 deck-config-bury-priority-tooltip =
-    Wenn Anki Karten einsammelt, geschieht dies in folgender Reihenfolge: Zuerst die Lernkarten für den heutigen Tag, dann die Karten im mehrtägigen Lernen, gefolgt von den Wiederholungskarten und schließlich den neuen Karten. Diese Reihenfolge beeinflusst, wie das Aufschieben von Geschwisterkarten funktioniert:
+    Wenn Anki Karten einsammelt, geschieht dies in folgender Reihenfolge: Zuerst die Lernkarten im eintägigen Lernen, dann die Karten im tagesübergreifenden Lernen, gefolgt von den Wiederholungskarten und schließlich den neuen Karten. Diese Reihenfolge beeinflusst, wie das Aufschieben von Geschwisterkarten funktioniert:
     
     - Wenn das Aufschieben für alle Arten von Karten aktiviert ist, wird diejenige Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
-    - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht aufschieben. Wenn Sie z. B. das Aufschieben neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „mehrtägiges Lernen“ oder „Wiederholung“ aufschieben. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
+    - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht aufschieben. Wenn Sie z. B. das Aufschieben neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „Tagesübergreifendes Lernen“ oder „Wiederholung“ aufschieben. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
 
 ## Ordering section
 
@@ -119,11 +119,11 @@ deck-config-sort-order-template-then-gather = Kartentyp, dann Einsammelreihenfol
 deck-config-sort-order-gather = Einsammelreihenfolge
 deck-config-new-review-priority = Wann neue Karten anzeigen
 deck-config-new-review-priority-tooltip = Wann neue Karten im Verhältnis zu Wiederholungskarten angezeigt werden.
-deck-config-interday-step-priority = Wann Karten im „mehrtägigen Lernen” anzeigen
+deck-config-interday-step-priority = Wann Karten im „tagesübergreifenden Lernen” anzeigen
 deck-config-interday-step-priority-tooltip =
     Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Tagesgrenze überschreiten.
     
-    Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf Karten im „mehrtägigen Lernen” angewendet, und danach auf die Wiederholungskarten. Diese Einstellung steuert die Reihenfolge, in der die eingesammelten Karten angezeigt werden, jedoch werden Karten im „mehrtägige Lernen“ immer zuerst eingesammelt.
+    Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf Karten im „tagesübergreifenden Lernen” angewendet, und danach auf die Wiederholungskarten. Diese Einstellung steuert die Reihenfolge, in der die eingesammelten Karten angezeigt werden, jedoch werden Karten im „tagesübergreifenden Lernen“ immer zuerst eingesammelt.
 deck-config-review-mix-mix-with-reviews = Mit Wiederholungen mischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungen anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungen anzeigen
@@ -348,13 +348,13 @@ deck-config-bury-siblings = Geschwisterkarten aufschieben
 deck-config-do-not-bury = Geschwisterkarten nicht aufschieben
 deck-config-bury-if-new = Aufschieben wenn neu
 deck-config-bury-if-new-or-review = Aufschieben, wenn Karte neu oder zum Wiederholen
-deck-config-bury-if-new-review-or-interday = Aufschieben, wenn Karte neu, zum Wiederholen oder zum „mehrtägigen Lernen“
+deck-config-bury-if-new-review-or-interday = Aufschieben, wenn Karte neu, zum Wiederholen oder zum „tagesübergreifenden Lernen“
 deck-config-bury-tooltip =
     Geschwisterkarten sind andere Karten derselben Notiz (z. B. Karten in umgekehrter Abfragerichtung oder Lückentextkarten zum gleichen Inhalt).
     
     Ist diese Einstellung deaktiviert, können mehrere Karten derselben Notiz am selben Tag angezeigt werden. Bei aktivierter Einstellung wird Anki Geschwisterkarten automatisch bis zum nächsten Tag *aufschieben*. Zudem können Sie festlegen, welche Arten von Karten aufgeschoben werden sollen, wenn Sie eine ihrer Geschwisterkarten sehen.
     
-    Mit dem V3-Zeitplaner werden auch Karten mit dem Status „mehrtägiges Lernen“ aufgeschoben. Dabei handelt es sich um Karten, deren aktuelle Lernstufe ein oder mehrere Tage umfasst.
+    Mit dem V3-Zeitplaner werden auch Karten mit dem Status „tagesübergreifendes Lernen“ aufgeschoben. Dabei handelt es sich um Karten, deren aktuelle Lernstufe ein oder mehrere Tage umfasst.
 deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet werden, bevor die Antwort angezeigt wird. Setzen Sie den Wert auf 0, um die Funktion zu deaktivieren.
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
