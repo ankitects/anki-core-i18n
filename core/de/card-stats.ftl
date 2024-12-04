@@ -6,7 +6,7 @@ card-stats-ease = Leichtigkeit
 card-stats-review-count = Wiederholungen
 card-stats-lapse-count = Fehlversuche
 card-stats-average-time = Durchschnittliche Zeit
-card-stats-total-time = Gesamte Zeit
+card-stats-total-time = Gesamter Zeitaufwand
 card-stats-new-card-position = Positionsnummer
 card-stats-card-template = Kartentyp
 card-stats-note-type = Notiztyp
@@ -34,7 +34,7 @@ card-stats-fsrs-forgetting-curve-title = Vergessenskurve
 card-stats-fsrs-forgetting-curve-first-week = Erste Woche
 card-stats-fsrs-forgetting-curve-first-month = Erster Monat
 card-stats-fsrs-forgetting-curve-first-year = Erstes Jahr
-card-stats-fsrs-forgetting-curve-all-time = Gesamte Zeit
+card-stats-fsrs-forgetting-curve-all-time = Gesamter Verlauf
 
 ## Window Titles
 
