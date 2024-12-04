@@ -20,8 +20,13 @@ sync-media-log-title = Protokolo pri samtempigataj dosieroj
 ## Error messages / dialogs
 
 sync-conflict = Nur unu kopio de Anki povas samtempe samtempigi dosierojn kun via konto. Atendu kelkajn minutojn kaj reprovu.
-sync-wrong-pass = AnkiWeb-identeco aŭ -pasvorto estis malĝusta; bonvolu provi denove.
+sync-server-error = Okazis problemo kun AnkiWeb. Reprovu post kelkaj minutoj.
+sync-client-too-old = Vi uzas tro malnovan version de Anki. Ĝisdatigu la programon al la plej nova versio por pluigi samtempigon.
+sync-wrong-pass = Identigilo aŭ pasvorto al AnkiWeb estas malĝusta; reprovu.
+sync-resync-required = Reprovu ekigi samtempigon. Se tiu ĉi sciigo pluos montriĝi, raportu eraron sur nia subtena retpaĝo.
+sync-must-wait-for-end = Daŭras samtempigo. Atendu ĝis la samtempigo finiĝos kaj reprovu.
 sync-confirm-empty-download = La loka kolekto havas neniujn kartojn. Ĉu vi volas elŝuti kartojn de AnkiWeb?
+sync-confirm-empty-upload = Kolekto AnkiWeb enhavas neniun karton. Ĉu anstataŭigi ĝin per loka kolekto?
 sync-conflict-explanation =
     La kartaroj ĉi tie kaj sur AnkiWeb diferencas tiel, ke ili estas nekunfandebla. Tial necesas superskribi la kartarojn sur unu flanko per la kartaroj de la alia.
     
