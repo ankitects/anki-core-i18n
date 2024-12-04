@@ -65,19 +65,19 @@ statistics-reviews =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } gelernt ({ $secs-per-card } Sek./Karte)
-        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } gelernt ({ $secs-per-card } Sek./Karte)
-        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } gelernt ({ $secs-per-card } Sek./Karte)
-        [days] Heute { statistics-cards } { statistics-in-time-span-days } gelernt ({ $secs-per-card } Sek./Karte)
-        [months] Heute { statistics-cards } { statistics-in-time-span-months } gelernt ({ $secs-per-card } Sek./Karte)
-       *[years] Heute { statistics-cards } { statistics-in-time-span-years } gelernt ({ $secs-per-card } Sek./Karte)
+        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } angesehen ({ $secs-per-card } Sek./Karte)
+        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } angesehen ({ $secs-per-card } Sek./Karte)
+        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } angesehen ({ $secs-per-card } Sek./Karte)
+        [days] Heute { statistics-cards } { statistics-in-time-span-days } angesehen ({ $secs-per-card } Sek./Karte)
+        [months] Heute { statistics-cards } { statistics-in-time-span-months } angesehen ({ $secs-per-card } Sek./Karte)
+       *[years] Heute { statistics-cards } { statistics-in-time-span-years } angesehen ({ $secs-per-card } Sek./Karte)
     }
 statistics-today-title = Heute
 statistics-today-again-count = Fehlversuche:
-statistics-today-type-counts = Neu: { $learnCount }, wiederholt: { $reviewCount }, wiedererlernt: { $relearnCount }, ausgewählte Karten: { $filteredCount }
-statistics-today-no-cards = Heute wurden noch keine Karten gelernt.
-statistics-today-no-mature-cards = Heute wurden noch keine alten Karten wiederholt.
-statistics-today-correct-mature = Richtige Antworten bei alten Karten: { $correct }/{ $total } ({ $percent } %)
+statistics-today-type-counts = Aufteilung: { $learnCount } × neu lernen, { $reviewCount } × wiederholen, { $relearnCount } × wiedererlernen, { $filteredCount } × über Filterdeck lernen.
+statistics-today-no-cards = Heute wurden noch keine Karten angesehen.
+statistics-today-no-mature-cards = Heute wurden noch keine Karten mit längerem Intervall angesehen.
+statistics-today-correct-mature = Richtige Antworten bei Karten mit längerem Intervall: { $correct }/{ $total } ({ $percent } %)
 statistics-counts-total-cards = Karten insgesamt
 statistics-counts-new-cards = Neu
 statistics-counts-young-cards = Wiederholung (kürzeres Intervall)
