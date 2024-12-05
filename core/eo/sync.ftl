@@ -48,17 +48,30 @@ sync-account-required =
     <h1>Konto necesas</h1>
     Senkosta konto necesas por teni vian kolekton samtempigita. <a href="{ $link }">Registriĝu</a> por akiri konton kaj sekve entajpu viajn ensalutilojn malsupre.
 sync-sanity-check-failed = Uzu la eblon “Kontroli datumbazon” kaj reprovu samtempigon. Se la problemo plue okazos, devigu unudirektan samtempigon en agordoj.
+sync-clock-off = Ne eblas samtempigi – horloĝo de via operaciumo estas misagordita.
+sync-upload-too-large = Via kolekto estas tro granda por sendi al AnkiWeb. Vi povas etigi ĝian grandon per forigi nedeziratajn kartarojn (malnepre antaŭe elporti ilin) kaj uzi la eblon “Kontroli datumbazon” por malpliigi grandon de la dosiero. ({ $details })
+sync-sign-in = Ensaluti
+sync-ankihub-dialog-heading = Ensaluti al AnkiHub
+sync-ankihub-username-label = Uzantnomo aŭ retpoŝto:
+sync-ankihub-login-failed = Ne eblas ensaluti al AnkiHub uzante la liveritajn ensalutilojn.
+sync-ankihub-addon-installation = Instali aldonaĵojn AnkiHub
 
 ## Buttons
 
-sync-download-from-ankiweb = Elŝuto el AnkiWeb
-sync-upload-to-ankiweb = Alŝuto al AnkiWeb
+sync-media-log-button = Protokolo pri dosieroj
+sync-abort-button = Ĉesigi
+sync-download-from-ankiweb = Elŝuti el AnkiWeb
+sync-upload-to-ankiweb = Alŝuti al AnkiWeb
 sync-cancel-button = Nuligi
 
 ## Normal sync progress
 
-sync-downloading-from-ankiweb = Elŝutado el AnkiWeb...
-sync-uploading-to-ankiweb = Alŝutado al AnkiWeb...
-sync-syncing = Samtempigado...
-sync-checking = Kontrolado...
-sync-connecting = Konektado...
+sync-downloading-from-ankiweb = Elŝutado el AnkiWeb…
+sync-uploading-to-ankiweb = Alŝutado al AnkiWeb…
+sync-syncing = Samtempigado…
+sync-checking = Kontrolado…
+sync-connecting = Konektado…
+sync-added-updated-count = Aldonis/modifis: { $up }↑ { $down }↓
+sync-log-in-button = Ensaluti
+sync-log-out-button = Elsaluti
+sync-collection-complete = Samtempigo de kolekto finita.
