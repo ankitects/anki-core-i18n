@@ -6,8 +6,8 @@ browsing-addon = Erweiterung
 browsing-all-fields = Alle Felder
 browsing-answer = Antwort
 browsing-any-flag = Beliebige Markierung
-browsing-average-ease = Durchschn. Leichtigkeit
-browsing-average-interval = Durchschn. Intervall
+browsing-average-ease = Durchschnittliche Leichtigkeit
+browsing-average-interval = Durchschnittliches Intervall
 browsing-browser-appearance = Darstellung in der Kartenverwaltung
 browsing-browser-options = Kartenverwaltungseinstellungen
 browsing-buried = Aufgeschoben
@@ -22,16 +22,16 @@ browsing-cards-deleted =
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [one] { $count } Karten aus „{ $deck_name }“ gelöscht.
-       *[other] { $count } Karte aus „{ $deck_name }“ gelöscht.
+        [one] { $count } Karte aus dem Stapel „{ $deck_name }“ gelöscht.
+       *[other] { $count } Karten aus dem Stapel „{ $deck_name }“ gelöscht.
     }
-browsing-change-deck = Verschieben
+browsing-change-deck = In anderen Stapel verschieben
 browsing-change-deck2 = In anderen Stapel verschieben…
 browsing-change-note-type = Notiztyp ändern
 browsing-change-note-type2 = Notiztyp ändern…
 browsing-change-notetype = Notiztyp ändern
 browsing-clear-unused-tags = Verwaiste Schlagwörter löschen
-browsing-confirm-saved-search-overwrite = Ein gespeicherter Suchbegriff mit dem Namen { $name } existiert bereits. Soll dieser überschrieben werden?
+browsing-confirm-saved-search-overwrite = Es gibt bereits eine Suche mit dem Namen „{ $name }“. Möchten Sie sie überschreiben?
 browsing-created = Erstellt
 browsing-current-deck = Aktueller Stapel
 browsing-current-note-type = Aktueller Notiztyp:
@@ -39,7 +39,7 @@ browsing-delete-notes = Notizen löschen
 browsing-duplicate = doppelt
 browsing-ease = Leichtigkeit
 browsing-enter-tags-to-add = Folgende Schlagwörter hinzufügen:
-browsing-enter-tags-to-delete = Folgende Schlagwörter löschen:
+browsing-enter-tags-to-delete = Folgende Schlagwörter entfernen:
 browsing-filtered = (in Auswahlstapel)
 browsing-find = <b>Suchen</b>:
 browsing-find-and-replace = Suchen und ersetzen
