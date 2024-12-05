@@ -35,12 +35,19 @@ sync-conflict-explanation =
     Se vi elektos alŝuton, Anki alŝutos vian kolekton al AnkiWeb kaj vi perdos ĉiujn ŝanĝojn sur AnkiWeb aŭ aliaj aranĝaĵoj ekde ties lasta samtempigo.
     
     Post kiam ĉiuj aranĝaĵoj estos samtempigitaj, estontaj ripetoj kaj aldonataj kartoj povos esti aŭtomate kunfanditaj.
-sync-conflict-explanation2 = Okazis konflikto inter kartaroj en tiu ĉi aparato kaj en AnkiWeb. Elektu kiun version vi volas teni:
-sync-ankiweb-id-label = AnkiWeb-identeco:
+sync-conflict-explanation2 =
+    Okazis konflikto inter kartaroj en tiu ĉi aparato kaj en AnkiWeb. Elektu kiun version vi volas teni:
+    
+    – Elektu “**{ sync-download-from-ankiweb }**” por anstataŭigi lokajn kartarojn per kartaroj el AnkiWeb. Vi perdos ĉiujn ŝanĝojn faritajn en tiu ĉi aparato ekde via antaŭa samtempigo.
+    – Elektu “**{ sync-upload-to-ankiweb }**” por anstataŭigi kartarojn en AnkiWeb per kartaroj de tiu ĉi aparato kaj perdi ĉiujn ŝanĝojn en AnkiWeb.
+    
+    Kiam konflikto estas solvita, samtempigo funkcios laŭkutime.
+sync-ankiweb-id-label = AnkiWeb-identigilo:
 sync-password-label = Pasvorto:
 sync-account-required =
     <h1>Konto necesas</h1>
-    Senkosta konto necesas por teni vian kolekton samtempigita. Bonvolu <a href="{ $link }">ensaluti</a> por konto, poste entajpu viajn indikojn malsupre.
+    Senkosta konto necesas por teni vian kolekton samtempigita. <a href="{ $link }">Registriĝu</a> por akiri konton kaj sekve entajpu viajn ensalutilojn malsupre.
+sync-sanity-check-failed = Uzu la eblon “Kontroli datumbazon” kaj reprovu samtempigon. Se la problemo plue okazos, devigu unudirektan samtempigon en agordoj.
 
 ## Buttons
 
