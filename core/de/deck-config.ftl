@@ -317,9 +317,9 @@ deck-config-compute-optimal-weights-tooltip2 =
     
     Standardmäßig werden die Parameter basierend auf dem Wiederholungsverlauf aller Stapel ermittelt, die das aktuelle Stapelprofil nutzen. Sie können vor der Berechnung die Suchkriterien anpassen, um festzulegen, welche Karten zur Optimierung der Parameter herangezogen werden sollen.
 deck-config-compute-optimal-retention-tooltip4 =
-    Dieses Tool versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
+    Ermittelt die Erfolgsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
     
-    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihrer persönlichen gewünschten Erfolgsquote helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erfolgsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-please-save-your-changes-first = Bitte speichern Sie zuerst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
