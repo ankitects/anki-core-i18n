@@ -105,7 +105,7 @@ statistics-answer-buttons-button-number = 按钮
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = 按键次数
 statistics-answer-buttons-subtitle = 按下每个按钮的次数。
-statistics-reviews-title = 复习次数
+statistics-reviews-title = 复习
 statistics-reviews-time-checkbox = 用时
 statistics-in-days-single =
     { $days ->
