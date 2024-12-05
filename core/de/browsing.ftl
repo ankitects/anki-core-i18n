@@ -30,7 +30,7 @@ browsing-change-deck2 = In anderen Stapel verschieben…
 browsing-change-note-type = Notiztyp ändern
 browsing-change-note-type2 = Notiztyp ändern…
 browsing-change-notetype = Notiztyp ändern
-browsing-clear-unused-tags = Verwaiste Schlagwörter löschen
+browsing-clear-unused-tags = Unbenutzte Schlagwörter löschen
 browsing-confirm-saved-search-overwrite = Es gibt bereits eine Suche mit dem Namen „{ $name }“. Möchten Sie sie überschreiben?
 browsing-created = Erstellt
 browsing-current-deck = Aktueller Stapel
@@ -56,7 +56,7 @@ browsing-last-card = Letzte Karte
 browsing-learning = (lernen)
 browsing-line-size = <b>Liniengröße</b>:
 browsing-manage-note-types = &Notiztypen verwalten…
-browsing-move-cards = Verschieben
+browsing-move-cards = Karten verschieben
 browsing-move-cards-to-deck = Karten verschieben nach:
 browsing-new = (neu)
 browsing-new-note-type = Neuer Notiztyp:
@@ -68,7 +68,7 @@ browsing-optional-filter = Optionaler Filter:
 browsing-override-back-template = Vorlage für Rückseite festlegen:
 browsing-override-font = Schriftart festlegen:
 browsing-override-front-template = Vorlage für Vorderseite festlegen:
-browsing-please-give-your-filter-a-name = Bitte geben Sie Ihrem Filter einen Namen:
+browsing-please-give-your-filter-a-name = Name für den Filter:
 browsing-preview-selected-card = Vorschau für ausgewählte Karte ({ $val })
 browsing-question = Frage
 browsing-queue-bottom = Ende der Warteschlange: { $val }
@@ -79,14 +79,14 @@ browsing-replace-with = <b>Ersetzen durch</b>:
 browsing-reposition = Positionsnummer ändern…
 browsing-reposition-new-cards = Positionsnummer neuer Karten ändern
 browsing-reschedule = Umplanen
-browsing-search-bar-hint = Karten/Notizen suchen (Text eingeben, dann Eingabetaste drücken)
+browsing-search-bar-hint = Karten/Notizen suchen (Suchbegriff eingeben, dann Eingabetaste drücken)
 browsing-search-in = Suchen in:
 browsing-search-within-formatting-slow = Mit Formatierung suchen (langsam)
 browsing-select-deck = Stapel auswählen
 browsing-selected-notes-only = Nur ausgewählte Notizen
 browsing-shift-position-of-existing-cards = Positionsnummer existierender Karten verschieben
 browsing-sidebar = Seitenleiste
-browsing-sidebar-filter = Seitenleiste-Filter
+browsing-sidebar-filter = Filter für Seitenleiste
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sortierfeld
 browsing-sorting-on-this-column-is-not = Nach dieser Spalte kann nicht sortiert werden. Bitte eine andere Spalte auswählen.
@@ -94,7 +94,7 @@ browsing-start-position = Start-Positionsnummer:
 browsing-step = Schrittweite:
 browsing-suspended = Ausgeschlossen
 browsing-tag-duplicates = Duplikate verschlagworten
-browsing-tag-rename-warning-empty = Sie können ein Schlagwort nicht umbenennen, welchem keine Notizen zugeordnet sind.
+browsing-tag-rename-warning-empty = Dem Schlagwort sind  keine Notizen zugeordnet. Es kann nicht umbenannt werden.
 browsing-target-field = Zielfeld:
 browsing-toggle-bury = Aufschieben
 browsing-toggle-showing-cards-notes = Anzeige zwischen Karten und Notizen umschalten
@@ -107,8 +107,8 @@ browsing-window-title-notes = Kartenverwaltung ({ $selected } von { $total } No
 browsing-you-must-have-at-least-one = Mindestens eine Spalte muss angezeigt werden.
 browsing-group =
     { $count ->
-        [one] { $count } Gruppe
-       *[other] { $count } Gruppen
+        [one] { $count } Gruppe
+       *[other] { $count } Gruppen
     }
 browsing-note-count =
     { $count ->
@@ -134,12 +134,12 @@ browsing-sidebar-decks = Stapel
 browsing-sidebar-tags = Schlagwörter
 browsing-sidebar-notetypes = Notiztypen
 browsing-sidebar-saved-searches = Gespeicherte Suchen
-browsing-sidebar-save-current-search = Aktuellen Suchbegriff speichern
+browsing-sidebar-save-current-search = Aktuellen Suche speichern
 browsing-sidebar-card-state = Kartenstatus
 browsing-sidebar-flags = Markierungen
 browsing-today = Heute
-browsing-tooltip-card-modified = Das letzte Mal, bei dem Änderungen an der Karte vorgenommen wurden, inklusive Wiederholungen, Markierungen und Stapeländerungen
-browsing-tooltip-note-modified = Das letzte Mal, bei dem Änderungen an einer Notiz vorgenommen wurden, normalerweise Bearbeitung der Feldinhalte oder Schlagwörter
+browsing-tooltip-card-modified = Zeitpunkt der letzten Änderung der Karte, etwa durch Wiederholungen, Markierungen oder das Verschieben in einen anderen Stapel
+browsing-tooltip-note-modified = Zeitpunkt der letzten Änderung der Notiz, etwa durch Bearbeiten der Schlagwörter oder des Inhalts der Felder
 browsing-tooltip-card = Name des Kartentyps
 browsing-tooltip-cards = Die Anzahl an Karten, die eine Notiz hat
 browsing-tooltip-notetype = Der Name des Notiztyps einer Notiz
@@ -157,8 +157,8 @@ browsing-sidebar-overdue = Überfällig
 browsing-row-deleted = (gelöscht)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] { $count } unbenutztes Schlagwort gelöscht.
-       *[other] { $count } unbenutzte Schlagwörter gelöscht.
+        [one] { $count } unbenutztes Schlagwort gelöscht.
+       *[other] { $count } unbenutzte Schlagwörter gelöscht.
     }
 browsing-changed-new-position =
     { $count ->
