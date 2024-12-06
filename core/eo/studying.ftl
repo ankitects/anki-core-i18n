@@ -2,12 +2,17 @@ studying-again = Denove
 studying-all-buried-cards = Ĉiuj portage kaŝitaj kartoj
 studying-audio-5s = Sono -5 s
 studying-audio-and5s = Sono +5 s
-studying-buried-siblings = portage kaŝitaj parencaj kartoj
+studying-buried-siblings = Portage kaŝitaj parencaj kartoj
 studying-bury = Kaŝi por tago
 studying-bury-card = Kaŝi karton por tago
-studying-bury-note = kaŝi noton por tago
-studying-card-suspended = Karto estas paŭzigita.
-studying-card-was-a-leech = La karto estis sangosuĉanto.
+studying-bury-note = Kaŝi noton por tago
+studying-card-suspended = Karto kaŝita daŭre.
+studying-card-was-a-leech = La karto estis forgesema.
+studying-cards-buried =
+    { $count ->
+        [one] Kaŝis { $count } karton por tago.
+       *[other] Kaŝis { $count } kartojn por tago.
+    }
 studying-cards-will-be-automatically-returned-to = Kartoj estos aŭtomate remetitaj al siaj originalaj kartaroj post vi ripetos ilin.
 studying-continue = Daŭrigi
 studying-delete-note = Forigi noton
