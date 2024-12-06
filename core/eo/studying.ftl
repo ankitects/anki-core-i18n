@@ -1,5 +1,7 @@
 studying-again = Denove
 studying-all-buried-cards = Ĉiuj portage kaŝitaj kartoj
+studying-audio-5s = Sono -5 s
+studying-audio-and5s = Sono +5 s
 studying-buried-siblings = portage kaŝitaj parencaj kartoj
 studying-bury = Kaŝi por tago
 studying-bury-card = Kaŝi karton por tago
