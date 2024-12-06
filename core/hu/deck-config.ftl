@@ -207,7 +207,6 @@ deck-config-sort-order-ascending-ease = Növekvő könnyedség
 deck-config-sort-order-descending-ease = Csökkenő könnyedség
 deck-config-sort-order-ascending-difficulty = Növekvő nehézség
 deck-config-sort-order-descending-difficulty = Csökkenő nehézség
-deck-config-sort-order-relative-overdueness = relatív elmaradás
 deck-config-display-order-will-use-current-deck = Az Anki a tanuláshoz kiválasztott pakli megjelenítési sorrendjét fogja használni, nem pedig az esetleges alpaklik sorrendjét.
 
 ## Timer section
@@ -270,6 +269,9 @@ deck-config-minimum-interval-tooltip = Az a minimális időintervallum, amelyet 
 deck-config-custom-scheduling = Egyedi ütemezés
 deck-config-custom-scheduling-tooltip = Az egész gyűjteményre hatással van. Használata saját felelősségre történik!
 
+# Easy Days section
+
+
 ## Adding/renaming
 
 deck-config-add-group = Előbeállítás hozzáadása
@@ -326,10 +328,10 @@ deck-config-which-deck = Melyik paklihoz szeretne opciókat megjeleníteni?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Kártyák frissítése: { $current_cards_count }/{ $total_cards_count }...
-deck-config-invalid-weights = A paramétereket vagy üresen kell hagyni az alapértelmezett értékek használatához, vagy 17 vesszővel elválasztott számnak kell lennie.
 deck-config-not-enough-history = Nincs elegendő áttekintési előzmény a művelet elvégzéséhez.
 deck-config-unable-to-determine-desired-retention = Nem lehetett meghatározni a minimálisan ajánlott megtartási időt.
 deck-config-compute-minimum-recommended-retention = Minimális ajánlott megtartás
+deck-config-ignore-before = A korábban áttekintett kártyák figyelmen kívül hagyása
 deck-config-historical-retention = Múltbeli megtartás
 deck-config-predicted-minimum-recommended-retention = Minimális ajánlott megtartás: { $num }
 deck-config-desired-retention-tooltip =
@@ -350,10 +352,15 @@ deck-config-historical-retention-tooltip =
     2. Mert korábban törölt áttekintési naplókat, hogy helyet szabadítson fel, vagy más SRS programból importált anyagot.
     
     Ez utóbbi meglehetősen ritka, így hacsak nem az előbbi opciót használja, valószínűleg nem kell módosítania ezt a beállítást.
+deck-config-ignore-before-tooltip-2 =
+    Ha be van állítva, a megadott dátum előtt átnézett kártyákat az FSRS paraméterek optimalizálásakor figyelmen kívül hagyjuk.
+    Ez hasznos lehet, ha valaki más ütemezési adatait importálta, vagy megváltoztatta a válaszgombok használatának módját.
 deck-config-wait-for-audio = Várjon a hangra
+deck-config-show-reminder = Emlékeztető megjelenítése
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-seconds-to-show-question-tooltip = Ha az automatikus előrelépés be van kapcsolva, a válasz megjelenése előtt várandó másodpercek száma. A kikapcsoláshoz állítsa 0-ra.
 deck-config-wait-for-audio-tooltip = Várja meg a hang befejezését, mielőtt automatikusan megjelenik a válasz vagy a következő kérdés.
 deck-config-seconds-to-show-question-tooltip-2 = Ha az automatikus előrelépés be van kapcsolva, a válasz megjelenése előtt várandó másodpercek száma. A kikapcsoláshoz állítsa 0-ra.
+deck-config-invalid-weights = A paramétereket vagy üresen kell hagyni az alapértelmezett értékek használatához, vagy 17 vesszővel elválasztott számnak kell lennie.
