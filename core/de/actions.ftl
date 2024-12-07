@@ -61,7 +61,7 @@ actions-fullscreen-unsupported = Der Vollbildmodus wird von Ihrem aktuell ausgew
 
 ## Flags
 
-actions-flag-number = Markierung { $number }
+actions-flag-number = Flagge { $number }
 actions-flag-red = Rot
 actions-flag-orange = Orange
 actions-flag-green = Grün
@@ -69,8 +69,8 @@ actions-flag-blue = Blau
 actions-flag-pink = Rosa
 actions-flag-turquoise = Türkis
 actions-flag-purple = Violett
-actions-set-flag = Markierung setzen
-actions-nothing-to-undo = Nichts zum Zurücknehmen
+actions-set-flag = Flagge setzen
+actions-nothing-to-undo = Nichts zum Rückgängigmachen
 actions-nothing-to-redo = Nichts zum Wiederherstellen
 actions-auto-advance = Automatisches Aufdecken
 actions-auto-advance-activated = Automatisches Aufdecken aktiviert
