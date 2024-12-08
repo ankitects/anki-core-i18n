@@ -1,7 +1,7 @@
 # The date a card will be ready to review
 statistics-due-date = Lernenda
 # The count of cards waiting to be reviewed
-statistics-due-count = Lernenda
+statistics-due-count = Lernendaj
 
 ## eg 16.8s (3.6 cards/minute)
 
