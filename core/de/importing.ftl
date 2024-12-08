@@ -40,7 +40,7 @@ importing-merge-notetypes-help =
     
     Wann hat sich das Schema eines Notiztyps geändert? Wenn bei dem Notiztyp a) Felder oder b) Kartenvorlagen hinzugefügt oder entfernt oder deren Reihenfolge geändert wurde. Gegenbeispiel: Wenn hingegen nur das Styling oder der Inhalt einer Kartenvorlage geändert wurde, stellt dies keine Schema-Änderung dar, sodass diese Einstellung nicht relevant ist. Dann kommt es stattdessen auf die Einstellung "Notizen aktualisieren" an.
     
-    Hinweis: Wenn Sie diese Einstellung aktivieren, kann dies ggf. eine Vollsynchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
+    Hinweis: Wenn Sie diese Einstellung aktivieren, kann dies ggf. eine Einweg-Synchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Der Separator zum Trennen von Datenfeldern kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehender Separator wird nicht unterstützt.
 importing-notes-added-from-file = Notizen hinzugefügt aus Datei: { $val }

@@ -47,7 +47,7 @@ sync-password-label = Passwort:
 sync-account-required =
     <h1>Anmeldung erforderlich</h1>
     Um die Sammlung zu synchronisieren ist die Anmeldung zu einem kostenfreien Nutzerkonto notwendig, <a href="{ $link }">Registrierung hier</a>. Danach bitte hier Benutzernamen und Passwort eingeben.
-sync-sanity-check-failed = Bitte benutzen Sie die Funktion „Datenbank überprüfen“ und synchronisieren Sie anschließend. Wenn das Problem weiterhin besteht, dann erzwingen Sie bitte eine einseitige Sychronisierung in den Einstellungen.
+sync-sanity-check-failed = Bitte benutzen Sie die Funktion „Datenbank überprüfen“ und synchronisieren Sie anschließend. Wenn das Problem weiterhin besteht, dann erzwingen Sie bitte eine Einweg-Synchronisierung in den Einstellungen.
 sync-clock-off = Synchronisierung kann nicht durchgeführt werden - Ihre System-Uhrzeit ist nicht richtig eingestellt.
 sync-upload-too-large =
     Ihre Sammlungsdatei ist zu groß, um sie zu AnkiWeb zu senden. Sie können die

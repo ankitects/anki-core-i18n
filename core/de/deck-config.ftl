@@ -211,7 +211,7 @@ deck-config-clone-group = Stapelprofil duplizieren
 ## Removing
 
 deck-config-remove-group = Stapelprofil entfernen
-deck-config-will-require-full-sync = Die angeforderte Änderung erfordert eine einseitige Synchronisierung. Wenn Sie auf einem anderen Gerät Änderungen vorgenommen haben und diese noch nicht mit diesem Gerät synchronisiert wurden, tun Sie dies bitte, bevor Sie fortfahren.
+deck-config-will-require-full-sync = Die angeforderte Änderung erfordert eine Einweg-Synchronisierung. Wenn Sie auf einem anderen Gerät Änderungen vorgenommen haben und diese noch nicht mit diesem Gerät synchronisiert wurden, tun Sie dies bitte, bevor Sie fortfahren.
 deck-config-confirm-remove-name = „{ $name }“ entfernen?
 
 ## Other Buttons
