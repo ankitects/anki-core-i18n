@@ -119,7 +119,7 @@ deck-config-sort-order-template-then-gather = Kartentyp, dann Einsammelreihenfol
 deck-config-sort-order-gather = Einsammelreihenfolge
 deck-config-new-review-priority = Wann neue Karten anzeigen
 deck-config-new-review-priority-tooltip = Wann neue Karten im Verhältnis zu Wiederholungskarten angezeigt werden.
-deck-config-interday-step-priority = Wann Karten im „tagesübergreifenden Lernen” anzeigen
+deck-config-interday-step-priority = Wann Karten mit Status „tagesübergreifenden Lernen” anzeigen
 deck-config-interday-step-priority-tooltip =
     Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Tagesgrenze überschreiten.
     
@@ -288,7 +288,7 @@ deck-config-desired-retention-tooltip =
     
     Ändern Sie diesen Wert mit Bedacht: Ein hoher Wert erhöht Ihr Arbeitspensum deutlich, während ein niedriger Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
 deck-config-historical-retention-tooltip =
-    Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen . Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90 % der Karten erinnert haben. War die tatsächliche Erfolgsquote jedoch deutlich höher oder niedriger als 90 %, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
+    Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen. Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90 % der Karten erinnert haben. War die tatsächliche Erfolgsquote jedoch deutlich höher oder niedriger als 90 %, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
     
     Ihr Wiederholungsverlauf kann aus folgenden Gründen unvollständig sein:
     1. Weil Sie die Einstellung 'Wiederholungen vor diesem Datum ignorieren' nutzen.
