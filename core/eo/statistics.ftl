@@ -2,10 +2,13 @@
 statistics-due-date = Lernenda
 # The count of cards waiting to be reviewed
 statistics-due-count = Lernendaj
+# Shown in the Due column of the Browse screen when the card is a new card
+statistics-due-for-new-card = Nova #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } kartoj/minuto
+statistics-average-answer-time = { $average-seconds } s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -45,6 +48,11 @@ statistics-cards =
         [one] { $cards } karton
        *[other] { $cards } kartojn
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } noton
+       *[other] { $notes } notojn
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -65,18 +73,23 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card }s/karto)
 statistics-today-title = Hodiaŭ
-statistics-today-again-count = Denove-nombro:
-statistics-today-type-counts = Por lerni: { $learnCount }, ripeti: { $reviewCount }, relerni: { $relearnCount }, filtrilaĵo: { $filteredCount }
-statistics-today-no-cards = Hodiaŭ vi lernis neniujn kartojn.
-statistics-today-no-mature-cards = Hodiaŭ vi lernis neniujn maljunajn kartojn.
-statistics-today-correct-mature = Ĝustaj respondoj ĉe maljunaj kartoj: { $correct }/{ $total } ({ $percent }%)
+statistics-today-again-count = Nombro da misrespondoj:
+statistics-today-type-counts = Lernataj: { $learnCount }, ripetataj: { $reviewCount }, relernataj: { $relearnCount }, filtrataj: { $filteredCount }
+statistics-today-no-cards = Hodiaŭ vi lernis neniun karton.
+statistics-today-no-mature-cards = Hodiaŭ vi lernis neniun maljunan karton.
+statistics-today-correct-mature = Ĝustaj respondoj al maljunaj kartoj: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Kartoj entute
-statistics-counts-new-cards = Nova
-statistics-counts-young-cards = Juna
-statistics-counts-mature-cards = Maljuna
-statistics-counts-suspended-cards = paŭzigita
-statistics-counts-buried-cards = kaŝita por tago
-statistics-counts-learning-cards = Lernado
+statistics-counts-new-cards = Novaj
+statistics-counts-young-cards = Junaj
+statistics-counts-mature-cards = Maljunaj
+statistics-counts-suspended-cards = Daŭre kaŝitaj
+statistics-counts-buried-cards = Kaŝitaj por tago
+statistics-counts-filtered-cards = Filtritaj
+statistics-counts-learning-cards = Lernataj
+statistics-counts-relearning-cards = Relernataj
+statistics-counts-title = Nombro da kartoj
+statistics-counts-separate-suspended-buried-cards = Apartigi kaŝitajn kartojn
+statistics-true-retention-title = Vera memorado
 statistics-range-all-time = Ekde kreo
 statistics-range-deck = kartaro
 statistics-range-collection = kolekto
