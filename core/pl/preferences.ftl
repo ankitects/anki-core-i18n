@@ -40,7 +40,7 @@ preferences-theme-follow-system = Używaj systemowego
 preferences-theme-light = Jasny
 preferences-theme-dark = Ciemny
 preferences-v3-scheduler = Algorytm planowania V3
-preferences-check-for-updates = Sprawdź aktualizacje programu
+preferences-check-for-updates = Sprawdzaj aktualizacje programu
 preferences-ignore-accents-in-search = Ignoruj znaki diakrytyczne przy wyszukiwaniu (spowalnia)
 preferences-backup-explanation =
     Anki okresowo tworzy kopię zapasową kolekcji. Gdy kopie są starsze niż 2 dni,
@@ -80,7 +80,7 @@ preferences-shortcut-placeholder = Podaj nieużywany klawisz skrótu, albo zosta
 preferences-third-party-services = Usługi stron trzecich
 preferences-ankihub-not-logged-in = Nie zalogowano do AnkiHub.
 preferences-ankiweb-intro = AnkiWeb to darmowy serwis pozwalający na synchronizowanie danych między taliami na różnych urządzeniach. Pozwala też na odtworzenie danych, jeśli twoje urządzenie się zepsuje lub je stracisz.
-preferences-ankihub-intro = AnkiHub umożliwia wspólne edytowanie talii i daje dodatkowe narzędzia do nauki. Część możliwości jest dostępnych za płatną subskrypcją.
+preferences-ankihub-intro = AnkiHub pozwala na wspólne edytowanie talii i daje dodatkowe narzędzia do nauki. Część możliwości jest dostępna za płatną subskrypcją.
 preferences-third-party-description = Usługi stron trzecich nie mają związku z Anki ani oficjalnego wsparcia. Użycie tych usług może wymagać płatności.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

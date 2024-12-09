@@ -112,7 +112,6 @@ deck-config-sort-order-ascending-ease = Po rosnącej łatwości
 deck-config-sort-order-descending-ease = Po malejącej łatwości
 deck-config-sort-order-ascending-difficulty = Trudność rosnąco
 deck-config-sort-order-descending-difficulty = Trudność malejąco
-deck-config-sort-order-relative-overdueness = Według względnego spóźnienia
 deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
 
 ## Timer section
@@ -128,7 +127,6 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Czas pokazywania pytania
-deck-config-seconds-to-show-question-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0 by wyłączyć.
 deck-config-seconds-to-show-answer = Czas pokazywania odpowiedzi
 deck-config-seconds-to-show-answer-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie wykonana reakcja odpowiedzi. Ustaw 0 by wyłączyć.
 deck-config-question-action-show-answer = Pokaż odpowiedź
@@ -136,8 +134,6 @@ deck-config-question-action-show-reminder = Pokaż przypomnienie
 deck-config-question-action = Działanie odpowiedzi
 deck-config-question-action-tool-tip = Działanie wykonywane, gdy pytanie jest pokazane i minął czas na odpowiedź
 deck-config-answer-action = Reakcja odpowiedzi
-deck-config-answer-action-tooltip = Działanie wykonane na aktualnej karcie przed automatycznym przejściem do następnej.
-deck-config-wait-for-audio-tooltip = Czeka, aż dźwięk się skończy przed automatycznym pokazaniem odpowiedzi lub następnego pytania.
 
 ## Audio section
 
@@ -162,6 +158,21 @@ deck-config-new-interval-tooltip = Mnożnik stosowany do interwału karty przy o
 deck-config-minimum-interval-tooltip = Minimalny interwał przypisywany karcie powtórkowej przy odpowiedzi "Powtórz".
 deck-config-custom-scheduling = Własne planowanie
 deck-config-custom-scheduling-tooltip = Ma wpływ na całą kolekcję. Używasz na własne ryzyko!
+
+# Easy Days section
+
+deck-config-easy-days-title = Lżejsze dni
+deck-config-easy-days-monday = Poniedziałek
+deck-config-easy-days-tuesday = Wtorek
+deck-config-easy-days-wednesday = Środa
+deck-config-easy-days-thursday = Czwartek
+deck-config-easy-days-friday = Piątek
+deck-config-easy-days-saturday = Sobota
+deck-config-easy-days-sunday = Niedziela
+deck-config-easy-days-normal = Normalnie
+deck-config-easy-days-reduced = Mniej
+deck-config-easy-days-minimum = Minimalnie
+deck-config-easy-days-no-normal-days = Przynajmniej jeden dzień powinień być ustawiony na '{ deck-config-easy-days-normal }'.
 
 ## Adding/renaming
 
@@ -210,7 +221,6 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 
 ## Messages related to the FSRS scheduler
 
-deck-config-invalid-weights = Parametry muszą albo być zostawione puste, by użyć wartości domyślnych, lub być 17 liczbami oddzielonymi przecinkami.
 deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametry FSRS
@@ -238,3 +248,7 @@ deck-config-do-not-bury = Nie zakopuj podobnych
 deck-config-bury-if-new = Zakop nowe
 deck-config-bury-if-new-or-review = Zakop nowe i powtarzane
 deck-config-bury-if-new-review-or-interday = Zakop nowe, powtarzane i powtarzane między dniami
+deck-config-answer-action-tooltip = Działanie wykonane na aktualnej karcie przed automatycznym przejściem do następnej.
+deck-config-wait-for-audio-tooltip = Czeka, aż dźwięk się skończy przed automatycznym pokazaniem odpowiedzi lub następnego pytania.
+deck-config-seconds-to-show-question-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0 by wyłączyć.
+deck-config-invalid-weights = Parametry muszą albo być zostawione puste, by użyć wartości domyślnych, lub być 17 liczbami oddzielonymi przecinkami.
