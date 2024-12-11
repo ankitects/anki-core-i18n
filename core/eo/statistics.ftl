@@ -134,14 +134,25 @@ statistics-retrievability-tooltip =
     }
 statistics-future-due-title = Prognozo
 statistics-future-due-subtitle = La nombro de ripetoj, kiuj estas lernendaj en la estonto.
-statistics-added-title = Aldonita
+statistics-added-title = Aldonitaj
 statistics-added-subtitle = La nombro de novaj kartoj, kiujn vi aldonis.
-statistics-reviews-count-subtitle = Nombro de demandoj, kiujn vi respondis.
+statistics-reviews-count-subtitle = Nombro de demandoj, al kiuj vi respondis.
 statistics-reviews-time-subtitle = La tempo, kiu pasis por respondi la demandojn.
-statistics-answer-buttons-title = Respondobutonoj
+statistics-answer-buttons-title = Respondaj butonoj
+# eg Button: 4
+statistics-answer-buttons-button-number = Butono
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Nombro de premoj
 statistics-answer-buttons-subtitle = Nombro de fojoj kiam vi premis specifajn butonojn.
 statistics-reviews-title = Ripetoj
 statistics-reviews-time-checkbox = Tempo
+statistics-in-days-single =
+    { $days ->
+        [0] hodiaŭ
+        [1] morgaŭ
+        [one] post { $days } tago
+       *[other] post { $days } tagoj
+    }
 statistics-intervals-title = Intertempoj
 statistics-intervals-subtitle = Intertempoj ĝis ripetoj denove montriĝas.
 statistics-hours-title = Hora disigo
