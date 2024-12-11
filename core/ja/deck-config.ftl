@@ -246,6 +246,8 @@ deck-config-easy-days-tuesday = 火曜日
 deck-config-easy-days-wednesday = 水曜日
 deck-config-easy-days-thursday = 木曜日
 deck-config-easy-days-friday = 金曜日
+deck-config-easy-days-saturday = 土曜日
+deck-config-easy-days-sunday = 日曜日
 
 ## Adding/renaming
 
