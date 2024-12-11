@@ -172,7 +172,6 @@ deck-config-sort-order-ascending-ease = 易しさが低い順
 deck-config-sort-order-descending-ease = 易しさが高い順
 deck-config-sort-order-ascending-difficulty = 難度が低い順
 deck-config-sort-order-descending-difficulty = 難度が高い順
-deck-config-sort-order-relative-overdueness = 期日超過の割合が大きい順
 deck-config-display-order-will-use-current-deck = 表示順序の設定は、学習を開始する時に選択したデッキのオプションでの設定が用いられます。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
 
 ## Timer section
@@ -239,6 +238,14 @@ deck-config-new-interval-tooltip = 復習カードに「もう一度」と回答
 deck-config-minimum-interval-tooltip = 復習カードに`もう一度`と回答し、再学習ステップを完了した後にそのカードが再び表示されるまでの最短日数。
 deck-config-custom-scheduling = カスタムスケジューリング
 deck-config-custom-scheduling-tooltip = この設定はコレクション全体に一括で適用されます。ご自身の責任でご使用ください！
+
+# Easy Days section
+
+deck-config-easy-days-monday = 月曜日
+deck-config-easy-days-tuesday = 火曜日
+deck-config-easy-days-wednesday = 水曜日
+deck-config-easy-days-thursday = 木曜日
+deck-config-easy-days-friday = 金曜日
 
 ## Adding/renaming
 
@@ -309,7 +316,6 @@ deck-config-historical-retention = 履歴欠落期間の推定正答率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-get-params = パラメータを取得
-deck-config-fsrs-on-all-clients = コレクションを他の端末のAnkiと同期している場合は、 それらのAnkiのバージョンがいずれも Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降であることを確認してください。 FSRSは、それらのいずれかが古いバージョンである場合は正しく動作しません。
 deck-config-predicted-minimum-recommended-retention = 有益な目標正答率の下限: { $num }
 deck-config-complete = { $num }% 完了
 deck-config-iterations = 反復: { $count }...
@@ -463,3 +469,4 @@ deck-config-seconds-to-show-question-tooltip-2 =
     
     この自動表示を無効にするには、値を0に設定してください。
 deck-config-invalid-weights = パラメータの欄には、デフォルト値を使用するために何も入力しないままにするか、コンマ (", ") で区切られた17個の数字を入力する必要があります。
+deck-config-fsrs-on-all-clients = コレクションを他の端末のAnkiと同期している場合は、 それらのAnkiのバージョンがいずれも Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降であることを確認してください。 FSRSは、それらのいずれかが古いバージョンである場合は正しく動作しません。
