@@ -12,6 +12,7 @@ actions-decks = Balíčky
 actions-decrement-value = Snížit hodnotu
 actions-delete = Odstranit
 actions-export = Exportovat
+actions-empty-cards = Prázdné karty
 actions-filter = Filtrovat
 actions-help = Nápověda
 actions-increment-value = Zvýšit hodnotu
