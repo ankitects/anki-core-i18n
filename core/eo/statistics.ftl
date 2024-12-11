@@ -162,6 +162,12 @@ statistics-days-ago-single =
     }
 statistics-days-ago-range = antaŭ { $daysStart }–{ $daysEnd } tagoj
 statistics-running-total = Tute
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } lernenda karto
+       *[other] { $cards } lernendaj kartoj
+    }
+statistics-backlog-checkbox = malfruaĵoj
 statistics-intervals-title = Intertempoj
 statistics-intervals-subtitle = Intertempoj ĝis ripetoj denove montriĝas.
 statistics-hours-title = Hora disigo
