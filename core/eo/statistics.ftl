@@ -110,12 +110,28 @@ statistics-range-search = Serĉi
 statistics-card-ease-title = Facileco de kartoj
 statistics-card-difficulty-title = Malfacileco de kartoj
 statistics-card-stability-title = Stabileco de kartoj
-statistics-card-stability-subtitle = Tempo post kiu probablo de rememorigo akiras 90%.
+statistics-card-stability-subtitle = Tempo post kiu rememoriga probablo akiras 90%.
 statistics-average-stability = Mezuma stabileco
-statistics-card-retrievability-title = Probablo de rememorigo de kartoj
+statistics-card-retrievability-title = Rememoriga probablo de kartoj
 statistics-card-ease-subtitle = Ju malpli alta facileco, des pli ofte karto aperos.
 statistics-card-difficulty-subtitle2 = Ju pli alta malfacileco, des malpli rapide stabileco pliiĝos.
 statistics-retrievability-subtitle = Probablo por rememorigi karton hodiaŭ.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] { $cards } karto kun facileco { $percent }
+       *[other] { $cards } kartoj kun facileco { $percent }
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } karto kun malfacileco { $percent }
+       *[other] { $cards } kartoj kun malfacileco { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } karto kun rememoriga probablo { $percent }
+       *[other] { $cards } kartoj kun rememoriga probablo { $percent }
+    }
 statistics-future-due-title = Prognozo
 statistics-future-due-subtitle = La nombro de ripetoj, kiuj estas lernendaj en la estonto.
 statistics-added-title = Aldonita
