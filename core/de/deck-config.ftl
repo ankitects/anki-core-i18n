@@ -304,7 +304,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelles Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller Karten jedoch sofort angepasst.
 deck-config-reschedule-cards-warning =
-    Je nach gewünschter Erfolgsquote kann diese Einstellung dazu führen, dass viele Karten sofort fällig werden. Daher ist sie zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
+    Je nach gewünschter Erfolgsquote kann diese Einstellung dazu führen, dass viele Karten sofort fällig werden. Daher ist sie nicht zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
     
     Verwenden Sie diese Einstellung mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
 deck-config-ignore-before-tooltip-2 = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
