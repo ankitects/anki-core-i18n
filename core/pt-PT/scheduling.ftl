@@ -3,9 +3,12 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
+scheduling-answer-button-time-seconds = { $amount }s
 scheduling-answer-button-time-minutes = { $amount }min(s)
+scheduling-answer-button-time-hours = { $amount }h
 scheduling-answer-button-time-days = { $amount }dia(s)
 scheduling-answer-button-time-months = { $amount }me
+scheduling-answer-button-time-years = { $amount } ano(s)
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,

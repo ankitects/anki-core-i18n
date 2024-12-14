@@ -67,12 +67,22 @@ deck-config-new-gather-priority-position-lowest-first = Crescente
 deck-config-new-gather-priority-position-highest-first = Descendente
 deck-config-new-gather-priority-random-notes = Notas aleatórias
 deck-config-new-gather-priority-random-cards = Fichas aleatórias
+deck-config-sort-order-card-template-then-random = Tipo de ficha, depois aleatório
+deck-config-sort-order-random-note-then-template = Nota aleatória, depois tipo de ficha
+deck-config-sort-order-template-then-gather = Tipo de ficha, depois ordem obtida
+deck-config-sort-order-ascending-difficulty = Fichas fáceis primeiro
+deck-config-sort-order-descending-difficulty = Fichas difíceis primeiro
+deck-config-display-order-will-use-current-deck =
+    O Anki vai utilizar a ordem de exibição do baralho que
+    seleccionou para estudar, e não sub-baralhos que este possa ter.
 
 ## Timer section
 
 
 ## Auto Advance section
 
+deck-config-question-action-show-answer = Mostrar Resposta
+deck-config-question-action-show-reminder = Mostrar Lembrete
 
 ## Audio section
 
@@ -91,6 +101,7 @@ deck-config-new-gather-priority-random-cards = Fichas aleatórias
 
 ## Other Buttons
 
+deck-config-save-button = Guardar
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.

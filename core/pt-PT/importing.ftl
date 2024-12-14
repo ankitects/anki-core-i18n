@@ -1,4 +1,3 @@
-importing-failed = Importação falhou.
 importing-failed-debug-info = Importação falhou. Informações para depuração:
 importing-aborted = Abortado: { $val }
 importing-added-duplicate-with-first-field = Duplicata adicionada com o primeiro campo: { $val }
@@ -64,4 +63,12 @@ importing-processed-media-file =
         [one] { $count } ficheiro de média processado
        *[other] { $count } ficheiros de média processados
     }
+importing-cards-added =
+    { $count ->
+        [one] { $count } ficha adicionada.
+       *[other] { $count } fichas adicionadas.
+    }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
 importing-added = Adicionado

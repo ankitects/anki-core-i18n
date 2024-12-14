@@ -16,6 +16,7 @@ preferences-some-settings-will-take-effect-after = Algumas configurações só s
 preferences-synchronize-audio-and-images-too = Sincronizar áudios e imagens também
 preferences-timebox-time-limit = Tempo limite
 preferences-when-adding-default-to-current-deck = Ao criar, o baralho atual será o padrão
+preferences-default-search-text-example = eg. 'deck:current '
 preferences-full-screen-only = Apenas ecrã completo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

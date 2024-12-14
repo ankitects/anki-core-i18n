@@ -1,9 +1,15 @@
 studying-again = Errei
+studying-all-buried-cards = Todas as fichas adiadas
 studying-bury = Ocultar
 studying-bury-card = Ocultar ficha
 studying-bury-note = Ocultar Nota
 studying-card-suspended = Ficha suspensa.
 studying-card-was-a-leech = Ficha era um sanguessuga.
+studying-cards-buried =
+    { $count ->
+        [one] { $count } ficha adiada.
+       *[other] { $count } fichas adiadas.
+    }
 studying-cards-will-be-automatically-returned-to = As fichas voltarão automaticamente aos seus baralhos originais depois da revisão.
 studying-continue = Avançar
 studying-delete-note = Eliminar nota
