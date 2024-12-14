@@ -170,6 +170,11 @@ statistics-cards-due =
 statistics-backlog-checkbox = malfruaĵoj
 statistics-intervals-title = Intertempoj
 statistics-intervals-subtitle = Intertempoj ĝis ripetoj denove montriĝas.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } karto kun intertempo { $daysStart }–{ $daysEnd } tagoj
+       *[other] { $cards } kartoj kun intertempo { $daysStart }–{ $daysEnd } tagoj
+    }
 statistics-hours-title = Hora disigo
 statistics-hours-subtitle = Sukceso-proporcio al horoj de la tago
 
