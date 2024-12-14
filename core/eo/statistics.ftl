@@ -133,9 +133,9 @@ statistics-retrievability-tooltip =
        *[other] { $cards } kartoj kun rememoriga probablo { $percent }
     }
 statistics-future-due-title = Prognozo
-statistics-future-due-subtitle = La nombro de ripetoj, kiuj estas lernendaj en la estonto.
+statistics-future-due-subtitle = Nombro de ripetoj, kiuj estas lernendaj en la estonto.
 statistics-added-title = Aldonitaj
-statistics-added-subtitle = La nombro de novaj kartoj, kiujn vi aldonis.
+statistics-added-subtitle = Nombro de novaj kartoj, kiujn vi aldonis.
 statistics-reviews-count-subtitle = Nombro de demandoj, al kiuj vi respondis.
 statistics-reviews-time-subtitle = La tempo, kiu pasis por respondi la demandojn.
 statistics-answer-buttons-title = Respondaj butonoj
@@ -174,6 +174,21 @@ statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } karto kun intertempo { $daysStart }–{ $daysEnd } tagoj
        *[other] { $cards } kartoj kun intertempo { $daysStart }–{ $daysEnd } tagoj
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } karto kun { $day }-taga intertempo
+       *[other] { $cards } kartoj kun { $day }-taga intertempo
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } karto kun stabileco de { $daysStart }–{ $daysEnd } tagoj
+       *[other] { $cards } kartoj kun stabileco de { $daysStart }–{ $daysEnd } tagoj
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } karto kun { $day }-taga stabileco
+       *[other] { $cards } kartoj kun { $day }-taga stabileco
     }
 statistics-hours-title = Hora disigo
 statistics-hours-subtitle = Sukceso-proporcio al horoj de la tago
