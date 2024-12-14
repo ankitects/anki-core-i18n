@@ -20,6 +20,11 @@ browsing-cards-deleted =
         [one] na-delete na ang card.
        *[other] na-delete na ang mga card.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } card tinanggal mula sa { $deck_name }.
+       *[other] { $count } na mga cards tinanggal mula sa { $deck_name }.
+    }
 browsing-change-deck = Lumipat ng Deck
 browsing-change-deck2 = Lumipat ng Deck...
 browsing-change-note-type = Baguhin ang Note Type
@@ -77,10 +82,12 @@ browsing-reschedule = I-reschedule
 browsing-search-bar-hint = Mag-search ng mga card o note (i-type ang text, saka pindutin ang Enter)
 browsing-search-in = Mag-search sa:
 browsing-search-within-formatting-slow = I-search sa loob ng formatting (mabagal)
+browsing-select-deck = Pumili ng deck
 browsing-selected-notes-only = Selected notes lang
 browsing-shift-position-of-existing-cards = I-shift ang position ng existing cards
 browsing-sidebar = Sidebar
 browsing-sidebar-filter = Filter ng sidebar
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sort Field
 browsing-sorting-on-this-column-is-not = Hindi supported ang pagso-sort sa column na ito. Mangyaring pumili ng iba.
 browsing-start-position = Sinimulang position:
@@ -163,6 +170,7 @@ browsing-reparented-decks =
         [one] Na-rename ang { $count } deck.
        *[other] Na-rename ang { $count } (na) deck.
     }
+browsing-sidebar-card-state-review = I-review
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

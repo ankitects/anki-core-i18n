@@ -26,6 +26,7 @@ card-templates-no-front-field = Inaasahang makahanap ng field replacement sa har
 card-templates-missing-cloze = Inaasahang mahanap ang '{ "{{" }cloze:Text{ "}}" }' o katulad sa harap at likod ng card template.
 card-templates-extraneous-cloze = Magagamit lang ang 'cloze:' sa mga cloze notetype.
 card-templates-see-preview = Tingnan ang preview para sa higit na impormation.
+card-templates-field-not-found = Hindi mahanap ang '{ $field }' na field.
 card-templates-changes-saved = Na-save ang mga pagbabago.
 card-templates-discard-changes = I-discard ang mga pagbabago?
 card-templates-add-card-type = Magdagdag ng Card Type...
