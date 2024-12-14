@@ -61,6 +61,12 @@ deck-config-bury-interday-learning-tooltip =
 
 ## Ordering section
 
+deck-config-new-gather-priority-deck = Baralho
+deck-config-new-gather-priority-deck-then-random-notes = Baralho, depois notas aleatórias
+deck-config-new-gather-priority-position-lowest-first = Crescente
+deck-config-new-gather-priority-position-highest-first = Descendente
+deck-config-new-gather-priority-random-notes = Notas aleatórias
+deck-config-new-gather-priority-random-cards = Fichas aleatórias
 
 ## Timer section
 
