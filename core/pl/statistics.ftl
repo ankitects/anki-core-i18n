@@ -62,6 +62,12 @@ statistics-cards =
         [many] { $cards } kart
        *[other] { $cards } kart
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } notatka
+        [few] { $notes } notatki
+       *[many] { $notes } notatek
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
@@ -121,8 +127,11 @@ statistics-range-search = Szukaj
 statistics-card-ease-title = Łatwość karty
 statistics-card-difficulty-title = Trudność kart
 statistics-card-stability-title = Stabilność kart
+statistics-card-stability-subtitle = Opóźnienie, po którym przywoływalność spada do 90%.
 statistics-average-stability = Średnia stabilność
+statistics-card-retrievability-title = Przywoływalność karty
 statistics-card-ease-subtitle = Im mniejsza łatwość, tym karta będzie częściej pokazywana.
+statistics-card-difficulty-subtitle2 = Im wyższa trudność, tym wolniej rośnie stabilność.
 statistics-retrievability-subtitle = Prawdopodobieństwo przypomnienia sobie karty dziś.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -130,6 +139,18 @@ statistics-card-ease-tooltip =
         [one] 1 karta z łatwością { $percent }
         [few] { $cards } karty z łatwością { $percent }
        *[other] { $cards } kart z łatwością { $percent }
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } karta z trudnością { $percent }
+        [few] { $cards } karty z trudnością { $percent }
+       *[many] { $cards } kart z trudnością { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } karta z przywoływalnością { $percent }
+        [few] { $cards } karty z przywoływalnością { $percent }
+       *[many] { $cards } kart z przywoływalnością { $percent }
     }
 statistics-future-due-title = Prognoza
 statistics-future-due-subtitle = Liczba powtórek oczekujących w przyszłości.
@@ -242,6 +263,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Średnia łatwość
 statistics-average-difficulty = Średnia trudność
+statistics-average-retrievability = Średnia przywoływalność
 statistics-save-pdf = Zapisz PDF
 statistics-saved = Zapisano.
 statistics-stats = statystyki

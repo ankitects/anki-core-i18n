@@ -29,7 +29,7 @@ importing-map-to = Odwzorowanie na { $val }
 importing-map-to-tags = Odwzorowanie na etykiety
 importing-mapped-to = odwzorowane na <b>{ $val }</b>
 importing-mapped-to-tags = odwzorowane na <b>etykiety</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Połącz typy notatek
 importing-mnemosyne-20-deck-db = Talia Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Wieloznakowe separatory nie są obsługiwane. Wpisz tylko jeden znak.
@@ -115,9 +115,9 @@ importing-notetype-and-deck = Typ notatki i talia
 importing-file-empty = Wybrany plik jest pusty.
 importing-notes-failed =
     { $count ->
-        [one] notatka nie mogła zostać zaimportowana.
-        [few] notatki nie mogły zostać zaimportowane.
-       *[many] { "" }
+        [one] { $count } notatka nie mogła zostać zaimportowana.
+        [few] { $count } notatki nie mogły zostać zaimportowane.
+       *[many] { $count } notatek nie mogło zostać zaimportowanych.
     }
 importing-import-log = Rejestr importu
 importing-no-notes-in-file = W pliku nie znaleziono notatek.

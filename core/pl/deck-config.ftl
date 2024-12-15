@@ -112,6 +112,8 @@ deck-config-sort-order-ascending-ease = Po rosnącej łatwości
 deck-config-sort-order-descending-ease = Po malejącej łatwości
 deck-config-sort-order-ascending-difficulty = Trudność rosnąco
 deck-config-sort-order-descending-difficulty = Trudność malejąco
+deck-config-sort-order-retrievability-ascending = Rosnąca przywoływalność
+deck-config-sort-order-retrievability-descending = Malejąca przywoływalność
 deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
 
 ## Timer section
@@ -127,13 +129,16 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Czas pokazywania pytania
+deck-config-seconds-to-show-question-tooltip-3 = Przy włączonym auto-postępie, liczba sekund zanim zostanie wykonane działanie odpowiedzi. Ustaw 0 by wyłączyć.
 deck-config-seconds-to-show-answer = Czas pokazywania odpowiedzi
 deck-config-seconds-to-show-answer-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie wykonana reakcja odpowiedzi. Ustaw 0 by wyłączyć.
 deck-config-question-action-show-answer = Pokaż odpowiedź
 deck-config-question-action-show-reminder = Pokaż przypomnienie
-deck-config-question-action = Działanie odpowiedzi
+deck-config-question-action = Działanie pytania
 deck-config-question-action-tool-tip = Działanie wykonywane, gdy pytanie jest pokazane i minął czas na odpowiedź
 deck-config-answer-action = Reakcja odpowiedzi
+deck-config-answer-action-tooltip-2 = Reakcja, która zostanie podjęta po pokazaniu odpowiedzi i upłynięciu limitu czasowego.
+deck-config-wait-for-audio-tooltip-2 = Czekaj, aż skończy się dźwięk przed automatycznym zastosowaniem działania odpowiedzi lub reakcji odpowiedzi.
 
 ## Audio section
 
@@ -150,6 +155,7 @@ deck-config-always-include-question-audio-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = Zaawansowane
+deck-config-maximum-interval-tooltip = Maksymalna liczba dni, ile powtarzana karta będzie czekać na kolejną powtórkę. Gdy zostanie osiągnięty  limit powtórek, "Trudna", "Dobra" i "Łatwa" będą miały taką samą przerwę. Im mniejsza wartość, tym większe obciążenie powtórkami.
 deck-config-starting-ease-tooltip = Współczynnik łatwości nowych kart. Domyślnie, wciśnięcie "Dobra" na świeżo nauczonej karcie odłoży w czasie następną powtórkę o 2,5 raza dłużej, niż wynosił wcześniejszy interwał.
 deck-config-easy-bonus-tooltip = Dodatkowy mnożnik, który modyfikuje interwał karty powtórkowej, gdy ocenisz ją jako "Łatwa".
 deck-config-interval-modifier-tooltip = Ten mnożnik jest stosowany przy wszystkich powtórkach. Delikatne zmiany mogą być wykorzystane, aby sprawić, żeby Anki planowało powtórki bardziej agresywnie lub zachowawczo. Przeczytaj poradnik przed zmianą tego ustawienia.
@@ -248,6 +254,7 @@ deck-config-do-not-bury = Nie zakopuj podobnych
 deck-config-bury-if-new = Zakop nowe
 deck-config-bury-if-new-or-review = Zakop nowe i powtarzane
 deck-config-bury-if-new-review-or-interday = Zakop nowe, powtarzane i powtarzane między dniami
+deck-config-seconds-to-show-question-tooltip = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0, by wyłączyć.
 deck-config-answer-action-tooltip = Działanie wykonane na aktualnej karcie przed automatycznym przejściem do następnej.
 deck-config-wait-for-audio-tooltip = Czeka, aż dźwięk się skończy przed automatycznym pokazaniem odpowiedzi lub następnego pytania.
 deck-config-seconds-to-show-question-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0 by wyłączyć.

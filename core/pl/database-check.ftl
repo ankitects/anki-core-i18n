@@ -54,6 +54,12 @@ database-check-notes-with-invalid-utf8 =
         [few] Naprawiono { $count } notatki z nieprawidłowymi znakami utf8.
        *[other] Naprawiono { $count } notatek z nieprawidłowymi znakami utf8.
     }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] Naprawiono { $count } obiekt z datą w przyszłości.
+        [few] Naprawiono { $count } obiekty z datą w przyszłości.
+       *[many] Naprawiono { $count } obiekty z datą w przyszłości.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Brakuje jednego lub więcej typów notatek. Notatkom, które je używały nadano nowe typy notatek, zaczynające się od "db-check", jednak nazwy pól oraz wygląd kart został utracony, więc lepszą opcją może być odtworzenie automatycznej kopii zapasowej.
 
