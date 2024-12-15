@@ -22,6 +22,7 @@ card-templates-no-front-field = 카드 템플릿의 앞면에 교체 필드가 �
 card-templates-missing-cloze = 카드 템플릿의 앞면과 뒷면에 '{ "{{" }cloze:Text{ "}}" }' 등이 없습니다.
 card-templates-extraneous-cloze = 'cloze:'는 빈칸 채우기 유형의 노트에서만 쓸 수 있습니다.
 card-templates-see-preview = 자세한 내용은 미리 보기를 참고하시기 바랍니다.
+card-templates-field-not-found = '{ $field }' 필드를 찾을 수 없습니다.
 card-templates-changes-saved = 변경 사항이 저장됨.
 card-templates-discard-changes = 변경 사항을 취소하시겠습니까?
 card-templates-add-card-type = 카드 유형 추가...
@@ -51,3 +52,6 @@ card-templates-this-will-create-card-proceed =
        *[other] 이는 { $count }개의 카드를 만들 것입니다. 진행할까요?
     }
 card-templates-type-boxes-warning = 카드 템플릿당 입력 상자는 하나만 넣을 수 있습니다.
+card-templates-restore-to-default = 기본 상태로 복구하기
+card-templates-restore-to-default-confirmation = 이 행동은 그 어떤 추가적인 필드들, 템플릿들, 그리고 그 내용물과 사용자 지정 양식(styling)을 제거하며 이 노트 타입의 모든 필드와 템플릿들을 각각의 기본값으로 재설정할 것입니다. 진행을 원하십니까?
+card-templates-restored-to-default = 노트 형식(type)이 기본 상태로 복구되었습니다.

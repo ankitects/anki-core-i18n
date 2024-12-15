@@ -19,6 +19,7 @@ browsing-cards-deleted =
     { $count ->
        *[other] 카드 { $count }개를 삭제했습니다.
     }
+browsing-cards-deleted-with-deckname = { $count }만큼의 카드가 { $deck_name } 덱으로부터 삭제되었습니다.
 browsing-change-deck = 덱 변경
 browsing-change-deck2 = 덱 변경...
 browsing-change-note-type = 노트 유형 변경
@@ -76,10 +77,12 @@ browsing-reschedule = 일정 재조정
 browsing-search-bar-hint = 카드/노트 검색하기 (텍스트를 입력하고 엔터 키를 누르세요)
 browsing-search-in = 찾을 범위:
 browsing-search-within-formatting-slow = 꾸밈 정보 안까지 찾기 (느림)
+browsing-select-deck = 덱 선택
 browsing-selected-notes-only = 선택한 노트만
 browsing-shift-position-of-existing-cards = 기존 카드의 위치 이동
 browsing-sidebar = 사이드바
 browsing-sidebar-filter = 사이드바 검색
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = 정렬 필드
 browsing-sorting-on-this-column-is-not = 이 세로열을 기준으로 정렬할 수 없습니다. 다른 열을 선택하세요.
 browsing-start-position = 시작 위치:
@@ -152,6 +155,7 @@ browsing-changed-new-position =
        *[other] 새 카드 { $count }개의 위치를 바꿨습니다.
     }
 browsing-reparented-decks = 덱 { $count }개의 이름을 바꿨습니다.
+browsing-sidebar-card-state-review = 복습
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -159,4 +163,3 @@ browsing-reparented-decks = 덱 { $count }개의 이름을 바꿨습니다.
 browsing-card-initial = C
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = N
-browsing-sidebar-card-state-review = 복습

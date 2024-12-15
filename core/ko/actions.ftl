@@ -4,6 +4,7 @@ actions-any-selected = 선택된 아무거나
 actions-cancel = 취소
 actions-choose = 선택
 actions-close = 닫기
+actions-discard = 버리기
 actions-copy = 복사하기
 actions-create-copy = 사본 만들기
 actions-custom-study = 맞춤 스터디
@@ -11,6 +12,7 @@ actions-decks = 덱
 actions-decrement-value = 값 감소
 actions-delete = 삭제
 actions-export = 내보내기
+actions-empty-cards = 빈 카드
 actions-filter = 필터
 actions-help = 도움말
 actions-increment-value = 값 증가
@@ -55,7 +57,7 @@ actions-previous-card-info = 이전 카드 정보
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = 귀하의 시스템에서 아직 지원하지 않는 동작입니다.
+actions-fullscreen-unsupported = 현재 사용하는 비디오 드라이브에서 전체 화면 모드를 지원하지 않습니다. preferences(개인 설정) 화면에서 다른 모드로 교체해보세요.
 
 ## Flags
 
@@ -71,3 +73,5 @@ actions-set-flag = 플래그 설정
 actions-nothing-to-undo = 실행 취소할 사항 없음
 actions-nothing-to-redo = 다시 실행할 사항 없음
 actions-auto-advance = 자동 다음
+actions-auto-advance-activated = 자동 향상 활성화됨
+actions-auto-advance-deactivated = 자동 향상 비활성화됨

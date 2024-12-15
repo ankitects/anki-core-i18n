@@ -33,6 +33,13 @@ deck-config-tab-description =
     - `사전 설정`: 사전 설정을 공유하는 모든 덱과 같은 최대치입니다.
     - `현재 덱`: 현재 덱에만 적용되는 최대치입니다.
     - `오늘만`: 일시적으로 적용되는 최대치입니다.
+deck-config-new-cards-ignore-review-limit = 새로운 카드들은 리뷰 제한을 무시합니다.
+deck-config-new-cards-ignore-review-limit-tooltip = 기본값으로는, 리뷰 제한이 새 카드들에도 적용되고 리뷰 제한에 도달했을 때 새 카드들은 보이지 않을 것입니다. 만약 이 옵션이 활성화되어 있다면, 새로운 카드들은 리뷰 제한에 관계 없이 보일 것입니다.
+deck-config-apply-all-parent-limits = 위에서부터 제한이 시작됩니다.
+deck-config-apply-all-parent-limits-tooltip =
+    기본값으로는, 당신이 어떤 덱의 하위 덱을 공부하는 중이라면 그 윗 단계의 덱이 가진 일일 제한이 적용되지 않습니다.
+    만약 이 옵션이 활성화되어 있다면, 제한은 윗 단계의 덱부터 시작됩니다. 이 설정은 만약 당신이 덱 트리를 대상으로 카드들의 전체 제한을 강제하며 각각의 하위 덱을 공부하기 원한다면 유용하게 쓰일 수 있습니다.
+deck-config-affects-entire-collection = 전체 컬렉션에 영향을 미칩니다.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -124,7 +131,9 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `랜덤 카드`: 무작위으로 카드를 모읍니다.
 deck-config-new-gather-priority-deck = 덱
+deck-config-new-gather-priority-deck-then-random-notes = 덱, 이후 무작위 노트들
 deck-config-new-gather-priority-position-lowest-first = 오름차순
+deck-config-new-gather-priority-position-highest-first = 내림차순
 deck-config-new-gather-priority-random-notes = 랜덤 노트
 deck-config-new-gather-priority-random-cards = 랜덤 카드
 deck-config-new-card-sort-order = 새로운 카드의 정렬 순서
@@ -174,7 +183,10 @@ deck-config-sort-order-deck-then-due-date = 덱 후 만기
 deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
 deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
 deck-config-sort-order-ascending-ease = ease 오름차순
-deck-config-sort-order-relative-overdueness = 늦은 정도의 상대값
+deck-config-sort-order-ascending-difficulty = 쉬운 카드 우선
+deck-config-sort-order-descending-difficulty = 어려운 카드 우선
+deck-config-sort-order-retrievability-ascending = 오름차순 검색 가능성
+deck-config-sort-order-retrievability-descending = 내림차순 검색 가능성
 deck-config-display-order-will-use-current-deck =
     Anki는 하위 덱이 아닌 사용자가
     학습할 덱의 표시 순서를 사용합니다.
@@ -188,6 +200,20 @@ deck-config-maximum-answer-secs-tooltip =
     잠시 쉬느라 응답하는 데 시간을 넘겼다면,
     소요 시간은 설정된 최대치로 기록됩니다.
 deck-config-show-answer-timer-tooltip = 학습할 때 각 카드마다 걸리는 시간(초)을 기록하는 타이머를 표시합니다.
+deck-config-stop-timer-on-answer = 답할 때 타이머 정지하기
+deck-config-stop-timer-on-answer-tooltip = 답을 할 때 타이머를 정지시킬지 안 시킬지를 밝힙니다. 이것은 통계에 영향을 미치지 않습니다.
+
+## Auto Advance section
+
+deck-config-seconds-to-show-question = 질문을 보여줄 시간(초)
+deck-config-seconds-to-show-question-tooltip-3 = 자동 향상이 활성화되어 있을 때 질문 동작(action)을 적용하기 전에 몇 초를 기다릴 지를 나타냅니다. 0으로 설정 시 비활성화 됩니다.
+deck-config-seconds-to-show-answer = 답을 보여줄 시간(초)
+deck-config-seconds-to-show-answer-tooltip-2 = 자동 향상이 활성화되어 있을 때 답 동작(action)을 적용하기 전에 몇 초를 기다릴 지를 나타냅니다. 0으로 설정 시 비활성화 됩니다.
+deck-config-question-action-show-answer = 정답 보기
+deck-config-question-action = 질문 동작(action)
+deck-config-question-action-tool-tip = 질문이 제시되고, 시간이 소요된 후에 수행할 동작
+deck-config-answer-action = 답 동작
+deck-config-answer-action-tooltip-2 = 답이 제시되고, 시간이 소요된 후에 수행할 동작
 
 ## Audio section
 
@@ -220,6 +246,18 @@ deck-config-minimum-interval-tooltip = 카드를 '다시'로 평가할 때 복�
 deck-config-custom-scheduling = 사용자 정의 스케줄링
 deck-config-custom-scheduling-tooltip = 컬렉션 전체에 영향을 미칩니다. 위험을 인지하고 사용하시기 바랍니다!
 
+# Easy Days section
+
+deck-config-easy-days-monday = 월요일
+deck-config-easy-days-tuesday = 화요일
+deck-config-easy-days-wednesday = 수요일
+deck-config-easy-days-thursday = 목요일
+deck-config-easy-days-friday = 금요일
+deck-config-easy-days-saturday = 토요일
+deck-config-easy-days-sunday = 일요일
+deck-config-easy-days-minimum = 최소
+deck-config-easy-days-no-normal-days = 적어도 하루는 '{ deck-config-easy-days-normal }'로 설정되어야 합니다.
+
 ## Adding/renaming
 
 deck-config-add-group = 사전 설정 추가
@@ -240,6 +278,7 @@ deck-config-confirm-remove-name = { $name }를 제거하시겠습니까?
 
 deck-config-save-button = Save
 deck-config-save-to-all-subdecks = 모든 하위 덱에 저장
+deck-config-save-and-optimize = 모든 사전 설정을 최적화하기
 deck-config-revert-button-tooltip = 이 설정을 기본값으로 복원
 
 ## These strings are shown via the Description button at the bottom of the
@@ -264,12 +303,26 @@ deck-config-maximum-answer-secs-above-recommended = Anki는 각 질문이 짧을
 
 deck-config-which-deck = 어떤 덱을 고르시겠습니까?
 
-## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+## Messages related to the FSRS scheduler
 
-deck-config-bury-if-new = 새카드만 미루기
-deck-config-bury-if-new-or-review = 새카드 및 복습카드 미루기
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS 인자
+deck-config-compute-optimal-weights = FSRS 인자를 최적화하기
+deck-config-compute-minimum-recommended-retention = 추천하는 유지율을 최소화
+deck-config-optimize-button = 최적화
+deck-config-compute-button = 계산
+deck-config-ignore-before = 이전에 리뷰된 카드들을 무시하기
+deck-config-optimize-all-tip = "저장" 옆에 있는 드롭다운 버튼을 눌러 모든 사전 설정을 한 번에 최적화할 수 있습니다.
+deck-config-evaluate-button = 평가
+deck-config-desired-retention = 바라는 유지율
+deck-config-historical-retention = 역사적인 유지율
 deck-config-wait-for-audio = 오디오 기다리기
 deck-config-show-reminder = 남은 시간 보이기
 deck-config-answer-again = 답 다시
 deck-config-answer-hard = 답 어려움
 deck-config-answer-good = 답 괜찮음
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+deck-config-bury-if-new = 새카드만 미루기
+deck-config-bury-if-new-or-review = 새카드 및 복습카드 미루기

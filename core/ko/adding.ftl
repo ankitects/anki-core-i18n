@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = 추가 (단축키: ctrl+enter)
 adding-added = 추가됨
-adding-close-and-lose-current-input = 입력한 내용을 포기하고 창을 닫을까요?
+adding-discard-current-input = 현재 입력을 버릴까요?
+adding-keep-editing = 편집을 계속하기
 adding-edit = "{ $val }" 수정하기
 adding-history = 이력
 adding-note-deleted = (노트 삭제됨)

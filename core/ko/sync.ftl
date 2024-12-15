@@ -44,6 +44,10 @@ sync-upload-too-large =
     컬렉션 파일이 너무 커서 AnkiWeb으로 전송할 수 없습니다. 파일의
     크기를 줄이려면 필요없는 덱을 (선택적으로 먼저 내보내기한 후) 삭제한 다음,
     데이터베이스 체크하기를 통해 파일 크기를 줄일 수 있습니다. ({ $details })
+sync-sign-in = 로그인
+sync-ankihub-dialog-heading = AnkiHub 로그인
+sync-ankihub-username-label = 사용자 이름 또는 이메일
+sync-ankihub-addon-installation = AnkiHub 애드온(add-on) 설치
 
 ## Buttons
 
@@ -61,4 +65,6 @@ sync-syncing = 동기화 중...
 sync-checking = 검사 중...
 sync-connecting = 연결 중...
 sync-added-updated-count = 추가/수정: { $up }↑ { $down }↓
+sync-log-in-button = 로그인
 sync-log-out-button = 로그아웃
+sync-collection-complete = 컬렉션 동기화가 완료되었습니다.
