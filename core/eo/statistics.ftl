@@ -190,8 +190,18 @@ statistics-stability-day-single =
         [one] { $cards } karto kun { $day }-taga stabileco
        *[other] { $cards } kartoj kun { $day }-taga stabileco
     }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = ekde { $hourStart }:00 ĝis { $hourEnd }:00
+statistics-hours-correct = { $correct }/{ $total } ĝustaj ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } ripetoj
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% ĝustaj ({ $reviews })
 statistics-hours-title = Hora disigo
-statistics-hours-subtitle = Sukceso-proporcio al horoj de la tago
+statistics-hours-subtitle = Elcento da ĝustaj respondoj laŭ horoj.
+# shown when graph is empty
+statistics-no-data = NIENIUJ DATUMOJ
+statistics-calendar-title = Kalendaro
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -199,6 +209,12 @@ statistics-hours-subtitle = Sukceso-proporcio al horoj de la tago
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount } s
+statistics-elapsed-time-minutes = { $amount } min
+statistics-elapsed-time-hours = { $amount } h
+statistics-elapsed-time-days = { $amount } d
+statistics-elapsed-time-months = { $amount } mon.
+statistics-elapsed-time-years = { $amount } a
 
 ##
 
