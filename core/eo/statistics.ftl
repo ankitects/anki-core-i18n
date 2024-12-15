@@ -45,13 +45,13 @@ statistics-in-time-span-years =
     }
 statistics-cards =
     { $cards ->
-        [one] { $cards } karton
-       *[other] { $cards } kartojn
+        [one] { $cards } karto
+       *[other] { $cards } kartoj
     }
 statistics-notes =
     { $notes ->
-        [one] { $notes } noton
-       *[other] { $notes } notojn
+        [one] { $notes } noto
+       *[other] { $notes } notoj
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -64,14 +64,14 @@ statistics-reviews =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Vi hodiaŭ lernis { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card }s/karto)
+    { $unit ->
+        [seconds] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-seconds } ({ $secs-per-card }s/karto)
+        [minutes] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-minutes } ({ $secs-per-card }s/karto)
+        [hours] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-hours } ({ $secs-per-card }s/karto)
+        [days] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-days } ({ $secs-per-card }s/karto)
+        [months] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-months } ({ $secs-per-card }s/karto)
+       *[years] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-years } ({ $secs-per-card }s/karto)
+    }
 statistics-today-title = Hodiaŭ
 statistics-today-again-count = Nombro da misrespondoj:
 statistics-today-type-counts = Lernataj: { $learnCount }, ripetataj: { $reviewCount }, relernataj: { $relearnCount }, filtrataj: { $filteredCount }
@@ -143,7 +143,7 @@ statistics-answer-buttons-title = Respondaj butonoj
 statistics-answer-buttons-button-number = Butono
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Nombro de premoj
-statistics-answer-buttons-subtitle = Nombro de fojoj kiam vi premis specifajn butonojn.
+statistics-answer-buttons-subtitle = Kiomfoje vi premis specifajn butonojn.
 statistics-reviews-title = Ripetoj
 statistics-reviews-time-checkbox = Tempo
 statistics-in-days-single =
@@ -225,8 +225,30 @@ statistics-average-answer-time-label = Mezuma respondotempo
 statistics-average = Meznombro
 statistics-average-interval = Mezuma intertempo
 statistics-due-tomorrow = Lernendaj morgaŭ
+statistics-daily-load = Taga prognozo
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount } el { $total } ({ $percent }%)
 statistics-average-over-period = Se vi lernus ĉiutage
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } ripeto/tago
+       *[other] { $count } ripetoj/tago
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } minuto/tago
+       *[other] { $count } minutoj/tago
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } karto/tago
+       *[other] { $count } kartoj/tago
+    }
 statistics-average-ease = Mezuma facileco
+statistics-average-difficulty = Mezuma malfacileco
+statistics-average-retrievability = Mezuma rememoriga probablo
+statistics-estimated-total-knowledge = Antaŭkalkulita tuta memorigo
 statistics-save-pdf = Konservi kiel PDF
 statistics-saved = Konservita.
 statistics-stats = statistikoj
+statistics-title = Statistikoj
