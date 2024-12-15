@@ -25,6 +25,10 @@ media-check-oversize-header = Plików ważących ponad 100MB nie można zsynchro
 media-check-subfolder-header = Foldery w folderze plików nie są wspierane.
 media-check-missing-header = Użyte w kartach, ale brakujące w folderze z plikami:
 media-check-unused-header = Znaleziono następujące pliki w folderze plików, które nie są używane w żadnych kartach:
+media-check-template-references-field-header =
+    Anki nie może wykryć używanych plików, gdy używasz odniesienia { "{{Field}}" } w etykietach plików/LaTeX. Etykiety plików/LaTeX powinny znajdować się w osobnych notatkach.
+    
+    Odwołuje się do szablonów:
 
 ## Shown once for each file
 

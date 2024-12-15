@@ -15,6 +15,7 @@ importing-field-separator = Separator pól
 importing-field-mapping = Odwzorowanie pól
 importing-field-of-file-is = Pole <b>{ $val }</b> z pliku jest:
 importing-fields-separated-by = Pola oddzielone o: { $val }
+importing-file-must-contain-field-column = Plik musi zawierać co najmniej jedną kolumnę, która może zostać przyporządkowana do pola notatki.
 importing-file-version-unknown-trying-import-anyway = Podjęto próbę importu mimo nieznanej wersji pliku.
 importing-first-field-matched = Pierwsze dopasowane pole: { $val }
 importing-identical = Identyczne
@@ -100,6 +101,18 @@ importing-importing-file = Import pliku...
 importing-extracting = Znajdowanie danych...
 importing-gathering = Zbieranie danych...
 importing-failed-to-import-media-file = Nie udało się zaimportować pliku: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Przeprocesowano { $count } notatkę...
+        [few] Przeprocesowano { $count } notatki...
+       *[many] Przeprocesowano { $count } notatek...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] Przeprocesowano { $count } kartę...
+        [few] Przeprocesowano { $count } karty...
+       *[many] Przeprocesowano { $count } kart...
+    }
 importing-existing-notes = Istniejące notatki
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplikuj
@@ -112,15 +125,57 @@ importing-tag-updated-notes = Nadaj etykietę uaktualnionym notatkom
 importing-file = Plik
 # Used with the 'match scope' option
 importing-notetype-and-deck = Typ notatki i talia
+importing-cards-added =
+    { $count ->
+        [one] { $count } karta dodana.
+        [few] { $count } karty dodane.
+       *[many] { $count } kart dodanych.
+    }
 importing-file-empty = Wybrany plik jest pusty.
+importing-notes-added =
+    { $count ->
+        [one] Zaimportowano { $count } nową notatkę.
+        [few] Zaimportowano { $count } nowe notatki.
+       *[many] Zaimportowano { $count } nowych notatek.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } notatka została użyta do zaktualizowania już istniejących.
+        [few] { $count } notatki zostały użyte do zaktualizowania już istniejących.
+       *[many] { $count } notatek zostało użytych do zaktualizowania już istniejących.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } notatka już znajdowała się w twojej kolekcji.
+        [few] { $count } notatki już znajdowały się w twojej kolekcji.
+       *[many] { $count } notatek już znajdowało sie w twojej kolekcji.
+    }
 importing-notes-failed =
     { $count ->
         [one] { $count } notatka nie mogła zostać zaimportowana.
         [few] { $count } notatki nie mogły zostać zaimportowane.
        *[many] { $count } notatek nie mogło zostać zaimportowanych.
     }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } notatka nie została zaimportowana, ponieważ zmienił się jej typ notatki.
+        [few] { $count } notatki nie zostały zaimportowane, ponieważ zmienił się ich typ notatki.
+       *[many] { $count } notatek nie zostało zaimportowanych, ponieważ zmienił się ich typ notatki.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } notatka nie została zaimportowana, ponieważ zmienił się jej typ notatki oraz nie została włączona opcja "{ importing-merge-notetypes }".
+        [few] { $count } notatki nie zostały zaimportowane, ponieważ zmienił się ich typ notatki oraz nie została włączona opcja "{ importing-merge-notetypes }".
+       *[many] { $count } notatek nie zostało zaimportowanych, ponieważ zmienił się ich typ notatki oraz nie została włączona opcja "{ importing-merge-notetypes }".
+    }
 importing-import-log = Rejestr importu
 importing-no-notes-in-file = W pliku nie znaleziono notatek.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } notatka znaleziona w pliku. Z tych:
+        [few] { $notes } notatki znalezione w pliku. Z tych:
+       *[many] { $notes } notatek znaleziono w pliku. Z tych:
+    }
 importing-show = Pokaż
 importing-details = Szczegóły
 importing-status = Status
@@ -128,11 +183,23 @@ importing-duplicate-note-added = Dodano duplikat notatki
 importing-added-new-note = Dodano nową notatkę
 importing-existing-note-skipped = Pominięto notatkę, ponieważ aktualna kopia już jest w kolekcji
 importing-note-skipped-update-due-to-notetype = Notatka nie została zaktualizowana, ponieważ typ notatki został zmodyfikowany odkąd notatka była pierwszy raz importowana.
+importing-note-skipped-update-due-to-notetype2 = Notatka nie została zaktualizowana, ponieważ typ notatki został zmodyfikowany od czasu kiedy pierwszy raz zaimportowałeś tę notatkę oraz opcja "{ importing-merge-notetypes }" nie była włączona.
 importing-note-updated-as-file-had-newer = Zaktualizowano notatkę, ponieważ plik miał nową wersję
 importing-note-skipped-due-to-missing-notetype = Pominięto notatkę, ponieważ brakowało typu notatki
 importing-note-skipped-due-to-missing-deck = Pominięto notatkę, ponieważ brakowało talii
 importing-note-skipped-due-to-empty-first-field = Pominięto notatkę, ponieważ pierwsze pole jest puste
+importing-field-separator-help =
+    Znak służący do rozdzielana pól w pliku tekstowym. Możesz użyć podglądu, aby sprawdzić czy pola są rozdzielone poprawnie 
+    
+    Pamiętaj, że jeśli ten znak pojawi się jakimkolwiek polu, pole to musi zawierać cudzysłów na początku i końcu z zgodnie ze standardem CSV. Programy do arkuszy kalkulacyjnych takie jak LibreOffice wykonają tę czynność automatycznie.
 importing-deck-help = Importowane karty będą umieszczone w tej talii.
+importing-existing-notes-help =
+    Co robić, gdy zaimportowana notatka jest już w kolekcji.
+    
+    - `{ importing-update }`: Aktualizuj istniejącą.¶
+    - `{ importing-preserve }`: Pomiń.¶
+    - `{ importing-duplicate }`: Stwórz nową.
+importing-tag-updated-notes-help = Te etykiety zostaną dodane do każdej zaktualizowanej notatki.
 importing-overview = Podsumowanie
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

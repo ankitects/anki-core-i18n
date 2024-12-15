@@ -50,6 +50,7 @@ deck-config-learning-steps = Kroki nauki
 deck-config-graduating-interval-tooltip =
     Liczba dni przed ponownym pokazaniem karty, gdy został naciśnięty przycisk "Dobra"
     w ostatnim kroku nauki.
+deck-config-easy-interval-tooltip = Liczba dni zanim karta zostanie pokazana ponownie po naciśnięciu natychmiastowym przycisku "Łatwa", aby usunąć kartę z "Uczonych".
 deck-config-new-insertion-order = Kolejność wstawiania
 deck-config-new-insertion-order-tooltip =
     Kontroluje pozycję (due #) przypisaną nowym kartom gdy je dodajesz.
@@ -129,7 +130,7 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Czas pokazywania pytania
-deck-config-seconds-to-show-question-tooltip-3 = Przy włączonym auto-postępie, liczba sekund zanim zostanie wykonane działanie odpowiedzi. Ustaw 0 by wyłączyć.
+deck-config-seconds-to-show-question-tooltip-3 = Przy włączonym auto-postępie, liczba sekund zanim zostanie wykonane działanie pytania. Ustaw 0 by wyłączyć.
 deck-config-seconds-to-show-answer = Czas pokazywania odpowiedzi
 deck-config-seconds-to-show-answer-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie wykonana reakcja odpowiedzi. Ustaw 0 by wyłączyć.
 deck-config-question-action-show-answer = Pokaż odpowiedź
@@ -228,15 +229,27 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 ## Messages related to the FSRS scheduler
 
 deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
+deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego wskaźnika zapamiętywania.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametry FSRS
 deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
+deck-config-compute-minimum-recommended-retention = Minimalny rekomendowany wskaźnik zapamiętywania
 deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
 deck-config-ignore-before = Ignoruj powtórki przed
 deck-config-evaluate-button = Oceń
+deck-config-desired-retention = Pożądany wskaźnik zapamietywania
+deck-config-historical-retention = Historyczny wskaźnik zapamietywania
+deck-config-predicted-minimum-recommended-retention = Minimalny rekomendowany wskaźnik zapamiętywania: { $num }
 deck-config-complete = Ukończono { $num }%.
 deck-config-iterations = Iteracja: { $count }...
+deck-config-reschedule-cards-on-change = Ponownie zaplanuj przy zmianie
+deck-config-desired-retention-tooltip = Domyślna wartość 0.9 planuje karty w taki sposób, że masz 90% szans na pamiętanie ich, gdy pojawią się ponownie. Jeśli zwiększysz tę wartość, Anki będzie pokazywać karty częściej, aby zwiększyć szansę pamiętania ich. Jeśli ją zmniejszysz, Anki będzie pokazywać karty rzadziej, a ty będziesz zapominał więcej z nich. Bądź ostrożny przy ustawianiu tej wartości - większe wartości poważnie zwiększą liczbę powtórek, a mniejsze wartości mogą demotywować przez zapominanie dużej ilości materiału.
+deck-config-reschedule-cards-on-change-tooltip =
+    Dotyczy całej kolekcji i nie jest zapisywane.
+    
+    Ta opcja kontroluje czy data, kiedy karty mają zostać pokazane zostanie zmieniona po włączeniu FSRS lub 
+    czy zostaną tylko zoptymalizowane parametry. Domyślnie ustawiona opcja to brak zmian: przyszłe powtórki beda używały planowania FSRS, ale nie będzie natychmiastowej zmiany w dziennym obciążeniu powtórkami. Jeśli zostanie włączona opcja ponownego planowania, data kiedy karty zostaną pokazane zostanie zmieniona.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
 deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.
@@ -246,6 +259,7 @@ deck-config-answer-again = Odpowiedz Powtórz
 deck-config-answer-hard = Odpowiedz Trudna
 deck-config-answer-good = Odpowiedz Dobra
 deck-config-days-to-simulate = Dni do zasymulowania
+deck-config-desired-retention-below-optimal = Twój pożądany wskaźnik zapamiętywania jest poniżej optymalnego. Zaleca się jego zwiększenie.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
