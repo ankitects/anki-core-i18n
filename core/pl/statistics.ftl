@@ -205,6 +205,18 @@ statistics-intervals-day-single =
         [few] { $cards } karty z przerwą { $day } dni
        *[other] { $cards } kart z przerwą { $day } dni
     }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } karta z stabilnością { $daysStart }~{ $daysEnd } (wyrażoną w dniach)
+        [few] { $cards } karty ze stabilnością { $daysStart }~{ $daysEnd } (wyrażoną w dniach)
+       *[many] { $cards } kart ze stabilnością { $daysStart }~{ $daysEnd }  (wyrażoną w dniach)
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } karta ze stabilnością { $day } (w dniach)
+        [few] { $cards } karty ze stabilnością { $day } (w dniach)
+       *[many] { $cards } kart ze stabilnością { $day } (w dniach)
+    }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }: 00~{ $hourEnd }: 00
 statistics-hours-correct = { $correct }/{ $total } poprawnych ({ $percent }%)
@@ -240,6 +252,7 @@ statistics-average-answer-time-label = Średni czas odpowiedzi
 statistics-average = Średnia
 statistics-average-interval = Średnia przerwa
 statistics-due-tomorrow = Na jutro
+statistics-daily-load = Dzienna liczba powtórek
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
 statistics-average-over-period = Gdyby uczono się codziennie

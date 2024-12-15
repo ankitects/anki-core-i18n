@@ -199,6 +199,7 @@ importing-existing-notes-help =
     - `{ importing-update }`: Aktualizuj istniejącą.¶
     - `{ importing-preserve }`: Pomiń.¶
     - `{ importing-duplicate }`: Stwórz nową.
+importing-tag-all-notes-help = Te etykiety zostaną dodane zarówno do nowo zaimportowanych jak i zaktualizowanych notatek.
 importing-tag-updated-notes-help = Te etykiety zostaną dodane do każdej zaktualizowanej notatki.
 importing-overview = Podsumowanie
 

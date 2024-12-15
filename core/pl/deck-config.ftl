@@ -228,8 +228,16 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Aktualizowanie kart: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Podane parametry FSRS są nieprawidłowe. Pozostaw je puste, aby użyć domyślnych parametrów.
 deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
 deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego wskaźnika zapamiętywania.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Znaleziono tylko { $count } powtórkę. Musisz mieć co najmniej 400 powtórek aby przeprowadzić tę operację.
+        [few] Znaleziono tylko { $count } powtórki. Musisz mieć co najmniej 400 powtórek aby przeprowadzić tę operację.
+       *[many] Znaleziono tylko { $count } powtórek. Musisz mieć co najmniej 400 powtórek aby przeprowadzić tę operację.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametry FSRS
 deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
@@ -237,20 +245,30 @@ deck-config-compute-minimum-recommended-retention = Minimalny rekomendowany wska
 deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
 deck-config-ignore-before = Ignoruj powtórki przed
+deck-config-optimize-all-tip = Możesz zoptymalizować wszystkie opcje na raz używając przycisku rozwijanego obok opcji "Zapisz".
 deck-config-evaluate-button = Oceń
 deck-config-desired-retention = Pożądany wskaźnik zapamietywania
 deck-config-historical-retention = Historyczny wskaźnik zapamietywania
+deck-config-steps-too-large-for-fsrs = Gdy FSRS jest włączony nie jest rekomendowanie kroków w ilości 1 dnia lub więcej.
 deck-config-predicted-minimum-recommended-retention = Minimalny rekomendowany wskaźnik zapamiętywania: { $num }
 deck-config-complete = Ukończono { $num }%.
 deck-config-iterations = Iteracja: { $count }...
 deck-config-reschedule-cards-on-change = Ponownie zaplanuj przy zmianie
+deck-config-fsrs-tooltip =
+    Wpływa na całą kolekcję
+    
+    FSRS (Free Spaced Repetition Scheduler) to alternatywa dla starszego algorytmu używanego przez Anki - SuperMemo 2 (SM-2) .
+    
+    Może pomóc zapamiętywać więcej materiału w tym samym czasie poprzez dokładniejszą ocenę jaka jest szansa zapomnienia karty. To ustawienie jest wspólne dla wszystkich opcji.
 deck-config-desired-retention-tooltip = Domyślna wartość 0.9 planuje karty w taki sposób, że masz 90% szans na pamiętanie ich, gdy pojawią się ponownie. Jeśli zwiększysz tę wartość, Anki będzie pokazywać karty częściej, aby zwiększyć szansę pamiętania ich. Jeśli ją zmniejszysz, Anki będzie pokazywać karty rzadziej, a ty będziesz zapominał więcej z nich. Bądź ostrożny przy ustawianiu tej wartości - większe wartości poważnie zwiększą liczbę powtórek, a mniejsze wartości mogą demotywować przez zapominanie dużej ilości materiału.
+deck-config-weights-tooltip2 = Parametry FSRS wpływają na to, jak planowane są karty. Anki zaczyna ze standardowymi parametrami. Możesz użyć opcji poniżej, aby zoptymalizować parametry w stosunku do tego, jak dobrze radzisz sobie w taliach używających tej opcji.
 deck-config-reschedule-cards-on-change-tooltip =
     Dotyczy całej kolekcji i nie jest zapisywane.
     
     Ta opcja kontroluje czy data, kiedy karty mają zostać pokazane zostanie zmieniona po włączeniu FSRS lub 
     czy zostaną tylko zoptymalizowane parametry. Domyślnie ustawiona opcja to brak zmian: przyszłe powtórki beda używały planowania FSRS, ale nie będzie natychmiastowej zmiany w dziennym obciążeniu powtórkami. Jeśli zostanie włączona opcja ponownego planowania, data kiedy karty zostaną pokazane zostanie zmieniona.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
+deck-config-optimizing-preset = Optymalizowanie opcji { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
 deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.
 deck-config-wait-for-audio = Czekaj na dźwięk
@@ -268,8 +286,55 @@ deck-config-do-not-bury = Nie zakopuj podobnych
 deck-config-bury-if-new = Zakop nowe
 deck-config-bury-if-new-or-review = Zakop nowe i powtarzane
 deck-config-bury-if-new-review-or-interday = Zakop nowe, powtarzane i powtarzane między dniami
+deck-config-bury-tooltip =
+    Siblings are other cards from the same note (eg forward/reverse cards, or
+    other cloze deletions from the same text).
+    
+    When this option is off, multiple cards from the same note may be seen on the same
+    day. When enabled, Anki will automatically *bury* siblings, hiding them until the next
+    day. This option allows you to choose which kinds of cards may be buried when you answer
+    one of their siblings.
+    
+    When using the V3 scheduler, interday learning cards can also be buried. Interday
+    learning cards are cards with a current learning step of one or more days.
 deck-config-seconds-to-show-question-tooltip = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0, by wyłączyć.
 deck-config-answer-action-tooltip = Działanie wykonane na aktualnej karcie przed automatycznym przejściem do następnej.
 deck-config-wait-for-audio-tooltip = Czeka, aż dźwięk się skończy przed automatycznym pokazaniem odpowiedzi lub następnego pytania.
+deck-config-ignore-before-tooltip =
+    If set, reviews before the provided date will be ignored when optimizing & evaluating FSRS parameters.
+    This can be useful if you imported someone else's scheduling data, or have changed the way you use the answer buttons.
+deck-config-compute-optimal-retention-tooltip =
+    This tool assumes you're starting with 0 cards, and will attempt to calculate the amount of material you'll
+    be able to retain in the given time frame. The estimated retention will greatly depend on your inputs, and
+    if it significantly differs from 0.9, it's a sign that the time you've allocated each day is either too low
+    or too high for the amount of cards you're trying to learn. This number can be useful as a reference, but it
+    is not recommended to copy it into the desired retention field.
+deck-config-compute-optimal-retention = Compute minimum recommended retention
+deck-config-predicted-optimal-retention = Minimalny rekomendowany wskaźnik zapamiętywania: { $num }
+deck-config-weights-tooltip = Parametry FSRS wpływają na to, jak planowane są karty. Anki zaczyna ze standardowymi parametrami. Gdy osiągniesz 1000+ powtórek, możesz użyć opcji poniżej, aby zoptymalizować parametry w stosunku do tego, jak dobrze radzisz sobie w taliach używających tej opcji.
+deck-config-compute-optimal-weights-tooltip =
+    Once you've done 1000+ reviews in Anki, you can use the Optimize button to analyze your review history,
+    and automatically generate parameters that are optimal for your memory and the content you're studying.
+    If you have decks that vary wildly in difficulty, it is recommended to assign them separate presets, as
+    the parameters for easy decks and hard decks will be different. There is no need to optimize your parameters
+    frequently - once every few months is sufficient.
+    
+    By default, parameters will be calculated from the review history of all decks using the current preset. You can
+    optionally adjust the search before calculating the parameters, if you'd like to alter which cards are used for
+    optimizing the parameters.
+deck-config-compute-optimal-retention-tooltip2 =
+    This tool assumes that you’re starting with 0 learned cards, and will attempt to find the desired retention
+    value that will lead to the most material learnt, in the least amount of time. This number can be used as a
+    reference when deciding what to set your desired retention to. You may wish to choose a higher desired retention,
+    if you’re willing to trade more study time for a greater recall rate. Setting your desired retention lower than
+    the minimum is not recommended, as it will lead to more work without benefit.
+deck-config-compute-optimal-retention-tooltip3 =
+    This tool assumes that you’re starting with 0 learned cards, and will attempt to find the desired retention value 
+    that will lead to the most material learnt, in the least amount of time. To accurately simulate your learning process, 
+    this feature requires a minimum of 400+ reviews. The calculated number can serve as a reference when deciding what to 
+    set your desired retention to. You may wish to choose a higher desired retention, if you’re willing to trade more study 
+    time for a greater recall rate. Setting your desired retention lower than the minimum is not recommended, as it will 
+    lead to a higher workload, because of the high forgetting rate.
 deck-config-seconds-to-show-question-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0 by wyłączyć.
 deck-config-invalid-weights = Parametry muszą albo być zostawione puste, by użyć wartości domyślnych, lub być 17 liczbami oddzielonymi przecinkami.
+deck-config-fsrs-on-all-clients = Upewnij się, że wszystkie programy Anki, z których korzystasz mają odpowiednią wersję: Anki(Mobile) 23.10 lub wyższa, AnkiDroid 2.17 lub wyższa . FSRS nie będzie działać poprawnie jeśli któryś z tych programów posiada starszą wersję.

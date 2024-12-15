@@ -86,5 +86,6 @@ preferences-third-party-description = Usługi stron trzecich nie mają związku 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Ogólne
+preferences-reviewer = Reviewer
 preferences-media = Pliki
 preferences-not-logged-in = Nie zalogowano do AnkiWeb.
