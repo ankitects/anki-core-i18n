@@ -6,6 +6,7 @@
 
 search-invalid-search = Malĝusta serĉpeto: { $reason }
 search-misplaced-and = trovis vorton `and`, sed ĝi ne ligas du serĉatajn vortojn. Se vi volas serĉi tiun ĉi vorton, entajpu ĝin inter simplaj citiloj: `"and"`.
+search-misplaced-or = trovis vorton `or`, sed ĝi ne ligas du serĉatajn vortojn. Se vi volas serĉi tiun ĉi vorton, entajpu ĝin inter simplaj citiloj: `"or"`.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
