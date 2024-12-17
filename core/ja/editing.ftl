@@ -36,6 +36,7 @@ editing-mathjax-chemistry = MathJax 化学式
 editing-mathjax-inline = MathJax インライン数式
 editing-mathjax-placeholder = 受け入れる場合は { $accept } を、改行する場合は { $newline } を押してください。
 editing-media = メディア
+editing-open-image = 画像を開く
 editing-show-in-folder = フォルダに表示
 editing-ordered-list = リスト（順序あり）
 editing-outdent = インデントを減らす

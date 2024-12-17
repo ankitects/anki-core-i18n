@@ -172,6 +172,8 @@ deck-config-sort-order-ascending-ease = 易しさが低い順
 deck-config-sort-order-descending-ease = 易しさが高い順
 deck-config-sort-order-ascending-difficulty = 難度が低い順
 deck-config-sort-order-descending-difficulty = 難度が高い順
+deck-config-sort-order-retrievability-ascending = 正答可能性が低い順
+deck-config-sort-order-retrievability-descending = 正答可能性が高い順
 deck-config-display-order-will-use-current-deck = 表示順序の設定は、学習を開始する時に選択したデッキのオプションでの設定が用いられます。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
 
 ## Timer section

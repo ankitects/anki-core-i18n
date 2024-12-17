@@ -20,7 +20,7 @@ statistics-in-time-span-days = { $amount }日後
 statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚
-statistics-notes = { $notes }個のノート
+statistics-notes = ノート{ $notes }個
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews }枚
 # Shown at the bottom of the deck list, and in the statistics screen.
@@ -199,6 +199,7 @@ statistics-cards-per-day =
 statistics-average-ease = 易しさの平均値
 statistics-average-difficulty = 難度の平均
 statistics-average-retrievability = 正答可能性の平均
+statistics-estimated-total-knowledge = 現時点の知識量（推定値）
 statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計
