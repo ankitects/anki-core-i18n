@@ -20,6 +20,7 @@ statistics-in-time-span-days = { $amount }日後
 statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
 statistics-cards = { $cards }枚
+statistics-notes = { $notes }個のノート
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews }枚
 # Shown at the bottom of the deck list, and in the statistics screen.
@@ -63,6 +64,7 @@ statistics-true-retention-yesterday = 昨日
 statistics-true-retention-week = 先週
 statistics-true-retention-month = 先月
 statistics-true-retention-year = 去年
+statistics-true-retention-all-time = 全期間
 statistics-range-all-time = 全期間
 statistics-range-1-year-history = １年間
 statistics-range-all-history = 全期間
