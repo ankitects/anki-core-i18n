@@ -243,7 +243,7 @@ deck-config-custom-scheduling-tooltip = この設定はコレクション全体�
 
 # Easy Days section
 
-deck-config-easy-days-title = 課題の配分調整
+deck-config-easy-days-title = 負担軽減日
 deck-config-easy-days-monday = 月曜日
 deck-config-easy-days-tuesday = 火曜日
 deck-config-easy-days-wednesday = 水曜日
@@ -254,6 +254,7 @@ deck-config-easy-days-sunday = 日曜日
 deck-config-easy-days-normal = 標準
 deck-config-easy-days-reduced = 少なめ
 deck-config-easy-days-minimum = 最小限
+deck-config-easy-days-no-normal-days = 少なくともどれか一つの曜日で「{ deck-config-easy-days-normal }」を選択してください。
 
 ## Adding/renaming
 
