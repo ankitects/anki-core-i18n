@@ -20,6 +20,10 @@ deck-config-title = Opcje talii
 deck-config-daily-limits = Dzienne limity
 deck-config-new-limit-tooltip = Maksymalna liczba nowych kart do pokazania na dzień. Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy, powinno to być co najmniej 10 razy mniej niż limit powtórek.
 deck-config-review-limit-tooltip = Maksymalna dzienna liczba powtórek.
+deck-config-limit-deck-v3 =
+    Podczas nauki talii, która ma w sobie talie podrzędne, limit ustawiony na każdej
+    talii podrzędnej kontroluje maksymalną liczbę kart pobieranych z tej konkretnej talii.
+    Limity wybranej talii kontrolują całkowitą liczbę kart, które bedą pokazywane.
 deck-config-limit-interday-bound-by-reviews =
     Limit powtórek wpływa też na wielodniowe karty w nauce. Przy aplikowaniu limitu,
     wielodniowe karty w nauce są pobierane najpierw, przed kartami powtarzanymi.
@@ -211,6 +215,12 @@ deck-config-description-new-handling = Obsługa Anki 2.1.41+
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] Talia nadrzędna ma limit { $cards } karty, który nadpisze ten limit.
+        [few] Talia nadrzędna ma limit { $cards } kart, który nadpisze ten limit.
+       *[many] Talia nadrzędna ma limit { $cards } kart, który nadpisze ten limit.
+    }
 deck-config-reviews-too-low =
     Jeśli dodajesz { $cards ->
         [one] { $cards } kartę dziennie
@@ -268,6 +278,12 @@ deck-config-reschedule-cards-on-change-tooltip =
     Ta opcja kontroluje czy data, kiedy karty mają zostać pokazane zostanie zmieniona po włączeniu FSRS lub 
     czy zostaną tylko zoptymalizowane parametry. Domyślnie ustawiona opcja to brak zmian: przyszłe powtórki beda używały planowania FSRS, ale nie będzie natychmiastowej zmiany w dziennym obciążeniu powtórkami. Jeśli zostanie włączona opcja ponownego planowania, data kiedy karty zostaną pokazane zostanie zmieniona.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { $pct }% z { $reviews } powtórki
+        [few] { $pct }% z { $reviews } powtórek
+       *[many] { $pct }% z { $reviews } powtórek
+    }
 deck-config-optimizing-preset = Optymalizowanie opcji { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
 deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.

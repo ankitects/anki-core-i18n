@@ -42,6 +42,9 @@ importing-include-reviews = Dołącz powtórki
 importing-also-import-progress = importuj postęp nauki
 importing-with-deck-configs = Importuj opcje talii
 importing-updates = Aktualizacja
+importing-with-deck-configs-help =
+    Jeśli zostanie włączone, jakiekolwiek opcje talii ustawione przez udostępniającego również zostaną zaimportowane.
+    W przeciwnym razie wszystkie talie otrzymają domyślne opcje.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Spakowana kolekcja/talia Anki (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lekcja Pauker 1.8 (*.pau.gz)
 # the '|' character
@@ -66,7 +69,14 @@ importing-update-if-newer = Jeśli nowsze
 importing-update-always = Zawsze
 importing-update-never = Nigdy
 importing-update-notes = Aktualizacja notatki
+importing-update-notes-help =
+    Kiedy aktualizować istniejącą już notatkę w twojej kolekcji. Domyślnie dzieje się to tylko wtedy,
+    gdy dopasowana notatka ma nowszą datę modyfikacji.
 importing-update-notetypes = Aktualizuj typy notatek
+importing-update-notetypes-help =
+    Kiedy aktualizować istniejący już typ notatki w twojej kolekcji. Domyślnie dzieje się to tylko wtedy,
+    gdy dopasowany zaimportowany typ notatki ma nowszą datę modyfikacji. Zmiany w tekście szablonu
+    i w stylach zawsze mogą zostać zaimportowane, jednak w przypadku zmian schematu (np. zmieniona liczba lub kolejność pól) należy włączyć opcję "{ importing-merge-notetypes }".
 importing-note-added =
     { $count ->
         [one] dodano { $count } notatkę
@@ -123,6 +133,8 @@ importing-update = Uaktualnij
 importing-tag-all-notes = Nadaj etykietę wszystkim notatkom
 importing-tag-updated-notes = Nadaj etykietę uaktualnionym notatkom
 importing-file = Plik
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Zakres dopasowania
 # Used with the 'match scope' option
 importing-notetype-and-deck = Typ notatki i talia
 importing-cards-added =

@@ -7,6 +7,10 @@
 search-invalid-search = Nieprawidłowe wyszukiwanie: { $reason }
 search-misplaced-and = znaleziono `and`, jednak nie łączy ono dwóch wyszukiwanych terminów. Jeśli chcesz znaleźć konkretnie to słowo, umieść je w cudzysłowie: `"and"`.
 search-misplaced-or = znaleziono `or`, jednak nie łączy ono dwóch wyszukiwanych terminów. Jeśli chcesz znaleźć konkretnie to słowo, umieść je w cudzysłowie: `"or"`.
+# Here, the ellipsis "..." may be localised.
+search-empty-group = Znaleziono grupę: `(...)`, jednak w nawiasach nie znajdowało się nic do wyszukania. Jeśli chcesz wyszukać nawiasów, ujmij je w cytat: "( )"`.
+search-unopened-group = Znaleziono nawias zamykający - `)`, jednak nie było przed nim nawiasu otwierającego - `(`. Jeśli chcesz wyszukać `)`, ujmij go w cytat lub poprzedź odwrotnym ukośnikiem: `")"` lub `\)`.
+search-unclosed-group = Znaleziono nawias otwierający - `(`, jednak nie było po nim nawiasu zamykającego - `)`. Jeśli chcesz wyszukać `(`, ujmij go w cytat lub poprzedź odwrotnym ukośnikiem: `"("` lub `\(`.
 search-empty-quote = znaleziono parę podwójnych cudzysłowów `""`, ale nie ma między nimi nic do wyszukania. Jeśli chcesz wyszukać właśnie parę cudzysłowów, dodaj backslash: `\"\"`.
 search-unclosed-quote = znaleziono podwójny cudzysłów `", ale nie ma żadnego zamykającego. Jeśli chcesz wyszukać właśnie cudzysłów, dodaj backslash: `\"`.
 search-missing-key = pojawił się dwukropek `:` niepoprzedzony słowem kluczowym. Jeśli chcesz wyszukać znak `:`, poprzedź go ukośnikiem: `\:`.
