@@ -24,6 +24,10 @@ deck-config-limit-deck-v3 =
     Podczas nauki talii, która ma w sobie talie podrzędne, limit ustawiony na każdej
     talii podrzędnej kontroluje maksymalną liczbę kart pobieranych z tej konkretnej talii.
     Limity wybranej talii kontrolują całkowitą liczbę kart, które bedą pokazywane.
+deck-config-limit-new-bound-by-reviews =
+    Limit powtórek ma wpływ na limit nowych kart. Na przykład, jeśli twój limit powtórek 
+    wynosi 200 i masz 190 powtórek, które oczekują, zostanie pokazane maksymalnie 10 nowych kart.
+    Jeśli twój limit powtórek został osiągnięty, to nie będą pokazywane nowe karty.
 deck-config-limit-interday-bound-by-reviews =
     Limit powtórek wpływa też na wielodniowe karty w nauce. Przy aplikowaniu limitu,
     wielodniowe karty w nauce są pobierane najpierw, przed kartami powtarzanymi.
