@@ -56,6 +56,10 @@ deck-config-today-only = Tylko dziś
 deck-config-learning-steps = Kroki nauki
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Przerwy to zazwyczaj minuty (np. `1m`) lub dni (np. `2d`), ale można też używać godzin (np. `1h`) i sekund (np. `30s`).
+deck-config-learning-steps-tooltip =
+    Jedna lub więcej przerw , oddzielonych spacjami. Pierwsza przerwa będzie wykorzystana, gdy użyjesz odpowiedzi "Powtórz" na nowej karcie i domyślne wynosi 1 minutę.
+    Odpowiedź "Dobra" przejdzie do następnego kroku, który domyślnie wynosi 10 minut.
+    Gdy już wszystkie kroki zostana zaliczone karta stanie się kartą powtórkową i pojawi się innego dnia. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Liczba dni przed ponownym pokazaniem karty, gdy został naciśnięty przycisk "Dobra"
     w ostatnim kroku nauki.
@@ -74,7 +78,7 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Kroki ponownej nauki
-deck-config-relearning-steps-tooltip = Zero lub więcej opóźnień, oddzielonych spacjami. Domyślnie naciskając przycisk "Powtórz" na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostana ustalone żadne opóźnienia przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = Zero lub więcej przerw, oddzielonych spacjami. Domyślnie naciskając przycisk "Powtórz" na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostana ustalone żadne przerwy, przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Ile razy musisz użyć odpowiedzi "Powtórz" zanim powtarzana karta zostanie oznaczona jako pijawka. 
     Pijawki to karty, których zabiera bardzo dużo twojego czasu. Kiedy karta zostaje oznaczona jako pijawka dobrym pomysłem jest zmienić jej treść, usunąć ją lub pomyśleć nad mnemotechniką, która pomoże ci ją zapamiętać.
@@ -118,10 +122,18 @@ deck-config-sort-order-gather = W zebranej kolejności
 deck-config-new-review-priority = Kolejność nowych/powtórek
 deck-config-new-review-priority-tooltip = Kiedy pokazywać nowe karty względem kart powtarzanych.
 deck-config-interday-step-priority = Kolejność nauki/powtórek wielodniowych
+deck-config-interday-step-priority-tooltip =
+    Kiedy pokazywać (ponownie) uczone karty, które przekroczyły granice dnia.
+    
+    Limit powtórek ma zawsze zastosowanie najpierw do kart uczonych na przestrzeni dni, a następnie powtórek. Ta opcja kontroluje kolejność pokazywania zebranych kart, jednak karty uczone na przestrzeni dni zawsze bedą miały pierwszeństwo.
 deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
 deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
 deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
 deck-config-review-sort-order = Kolejność przeglądania
+deck-config-review-sort-order-tooltip =
+    Domyślna kolejność prioretyzuje karty, które oczekiwały najdłużej, więc jeśli
+    masz zaległe powtórki, najpierw pojawią się te, które oczekiwały najdłużej.
+    Jeśli masz duże zaległości, których nadrobienie zajmie więcej niż kilka dni lub chcesz widzieć karty w kolejności talii podrzędnej, alternatywne tryby sortowania mogą być dla ciebie odpowiednie/
 deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowy
 deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
 deck-config-sort-order-deck-then-due-date = Talia, potem zaplanowana data
@@ -139,6 +151,7 @@ deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z 
 
 deck-config-timer-title = Czasomierz
 deck-config-maximum-answer-secs = Maksymalnie sekund na odpowiedź
+deck-config-maximum-answer-secs-tooltip = Maksymalny czas, który będzie ujmowany w statystykach dla pojedynczej powtórki. Jeśli odpowiedź przekroczy ten czas (ponieważ na przykład oddaliłeś się od ekranu), czas poświęcony na odpowiedź będzie czasem z ustawionego przez ciebie limitu.
 deck-config-show-answer-timer-tooltip = Pokaż w trybie przeglądania stoper, który pokazuje, ile sekund zajmuje ci przejrzenie danej karty.
 deck-config-stop-timer-on-answer = Zatrzymaj czasomierz po odpowiedzi
 deck-config-stop-timer-on-answer-tooltip =
@@ -226,6 +239,9 @@ deck-config-revert-button-tooltip = Przywróć to ustawienie do domyślnej warto
 ## overview screen.
 
 deck-config-description-new-handling = Obsługa Anki 2.1.41+
+deck-config-description-new-handling-hint =
+    Traktuje dane wejściowe jako markdown i usuwa dane wejściowe HTML. Jeśli opcja jest włączona, opis będzie także wyświetlany na ekranie z gratulacjami.
+    Markdown pojawia się jako tekst w wersjach Anki 2.1.40 i starszych.
 
 ## Warnings shown to the user
 
@@ -255,7 +271,7 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 deck-config-updating-cards = Aktualizowanie kart: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Podane parametry FSRS są nieprawidłowe. Pozostaw je puste, aby użyć domyślnych parametrów.
 deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
-deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego wskaźnika zapamiętywania.
+deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego zapamiętywania.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Znaleziono tylko { $count } powtórkę. Musisz mieć co najmniej 400 powtórek aby przeprowadzić tę operację.
@@ -265,17 +281,18 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametry FSRS
 deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
-deck-config-compute-minimum-recommended-retention = Minimalny rekomendowany wskaźnik zapamiętywania
+deck-config-compute-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie
 deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
 deck-config-ignore-before = Ignoruj powtórki przed
 deck-config-optimize-all-tip = Możesz zoptymalizować wszystkie opcje na raz używając przycisku rozwijanego obok opcji "Zapisz".
 deck-config-evaluate-button = Oceń
-deck-config-desired-retention = Pożądany wskaźnik zapamietywania
-deck-config-historical-retention = Historyczny wskaźnik zapamietywania
+deck-config-desired-retention = Pożądane zapamiętywanie
+deck-config-historical-retention = Historyczne zapamiętywanie
+deck-config-smaller-is-better = Mniejsze liczby oznaczają lepsze dopasowanie do twojej historii powtórek.
 deck-config-steps-too-large-for-fsrs = Gdy FSRS jest włączony nie jest rekomendowanie kroków w ilości 1 dnia lub więcej.
 deck-config-get-params = Zdobądź parametry
-deck-config-predicted-minimum-recommended-retention = Minimalny rekomendowany wskaźnik zapamiętywania: { $num }
+deck-config-predicted-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie: { $num }
 deck-config-complete = Ukończono { $num }%.
 deck-config-iterations = Iteracja: { $count }...
 deck-config-reschedule-cards-on-change = Ponownie zaplanuj przy zmianie
@@ -286,6 +303,14 @@ deck-config-fsrs-tooltip =
     
     Może pomóc zapamiętywać więcej materiału w tym samym czasie poprzez dokładniejszą ocenę jaka jest szansa zapomnienia karty. To ustawienie jest wspólne dla wszystkich opcji.
 deck-config-desired-retention-tooltip = Domyślna wartość 0.9 planuje karty w taki sposób, że masz 90% szans na pamiętanie ich, gdy pojawią się ponownie. Jeśli zwiększysz tę wartość, Anki będzie pokazywać karty częściej, aby zwiększyć szansę pamiętania ich. Jeśli ją zmniejszysz, Anki będzie pokazywać karty rzadziej, a ty będziesz zapominał więcej z nich. Bądź ostrożny przy ustawianiu tej wartości - większe wartości poważnie zwiększą liczbę powtórek, a mniejsze wartości mogą demotywować przez zapominanie dużej ilości materiału.
+deck-config-historical-retention-tooltip =
+    Gdy brakuje części twojej historii powtórek, FSRS musi wypełnić luki. Domyślnie algorytm założy, że gdy przeglądałeś te stare powtórki, pamiętałeś 90% materiału. Jeśli twoje stare zapamiętywanie było znacznie wyższe lub niższe niż 90%, dostosowanie tej opcji pozwoli FSRS lepiej oszacować brakujące powtórki.
+    
+    Twoja historia powtórek może być niekompletna z dwóch powodów:
+    1. Ponieważ używasz opcji "ignoruj powtórki przed...".
+    2. Ponieważ usunąłeś wcześniej dzienniki powtórek, aby uwolnić miejsce lub zaimportowałeś materiał z innego programu SRS.
+    
+    To drugie jest dość rzadkie, więc o ile nie ma do Ciebie zastosowania punkt pierwszy, nie musisz ustawiać tej opcji
 deck-config-weights-tooltip2 = Parametry FSRS wpływają na to, jak planowane są karty. Anki zaczyna ze standardowymi parametrami. Możesz użyć opcji poniżej, aby zoptymalizować parametry w stosunku do tego, jak dobrze radzisz sobie w taliach używających tej opcji.
 deck-config-reschedule-cards-on-change-tooltip =
     Dotyczy całej kolekcji i nie jest zapisywane.
@@ -293,17 +318,20 @@ deck-config-reschedule-cards-on-change-tooltip =
     Ta opcja kontroluje czy data, kiedy karty mają zostać pokazane zostanie zmieniona po włączeniu FSRS lub 
     czy zostaną tylko zoptymalizowane parametry. Domyślnie ustawiona opcja to brak zmian: przyszłe powtórki beda używały planowania FSRS, ale nie będzie natychmiastowej zmiany w dziennym obciążeniu powtórkami. Jeśli zostanie włączona opcja ponownego planowania, data kiedy karty zostaną pokazane zostanie zmieniona.
 deck-config-reschedule-cards-warning =
-    W zależności od twojego oczekiwanego wskaźnika zapamiętywania, może skutkować większą ilością kart do powtórki, więc nie jest zalecane podczas pierwszej zmiany z algorytmu SM-2.
+    W zależności od twojego oczekiwanego zapamiętywania, może skutkować większą ilością kart do powtórki, więc nie jest zalecane podczas pierwszej zmiany z algorytmu SM-2.
     
     Używaj tej opcji oszczędnie, ponieważ doda ona nowy wpis powtórki do każdej z twoich kart i powiększy rozmiar twojej kolekcji
+deck-config-ignore-before-tooltip-2 =
+    Jeśli zostanie ustawione, karty powtórzone przed podaną datą bedą ignorowane podczas optymalizacji parametrów FSRS.
+    Może być przydatne, jeśli zaimportowałeś dane planowania innej osoby lub zmieniłeś sposób korzystania z przycisków odpowiedzi.
 deck-config-compute-optimal-weights-tooltip2 =
     Kiedy klikniesz przycisk Optymalizuj, FSRS przeanalizuje twoją historię powtórek i wygeneruje parametry, które będą optymalne dla twojej pamięci i materiału, którego się uczysz. Jeśli twoim zdaniem, talie, których się uczysz wyraźnie różnią się  poziomem trudności,  zalecane jest nadanie im osobnych opcji, jako że parametry dla łatwych i trudnych talii będą inne. 
     Nie musisz często optymalizować parametrów - wystarczy raz na kilka miesięcy.
     
     Domyślnie  parametry beda obliczane z historii powtórek wszystkich talii używających obecnych opcji. Możesz opcjonalnie dostosować wyszukiwanie przed obliczeniem parametrów, jeśli chciałbyś zmienić, które karty są używane do optymalizowania parametrów.
 deck-config-compute-optimal-retention-tooltip4 =
-    To narzędzie spróbuje znaleźć optymalną wartość wskaźnika zapamiętywania,
-    który doprowadzi do nauki największej ilości materiału w jak najkrótszym czasie. Obliczona wartość może służyć jako odniesienie podczas decyzji przy ustalaniu oczekiwanej wartości wskaźnika zapamiętywania. Możesz ustawić wyższy oczekiwany wskaźnik zapamiętywania, jeśli jesteś chętny poświęcić więcej czasu, aby go osiągnąć. Ustawienie oczekiwanego wskaźnika zapamiętywania niżej niż wartość minimalna nie jest zalecana, ponieważ doprowadzi to do wyższego obciążenia z powodu dużej wartości zapominania.
+    To narzędzie spróbuje znaleźć optymalną wartość zapamiętywania,
+    który doprowadzi do nauki największej ilości materiału w jak najkrótszym czasie. Obliczona wartość może służyć jako odniesienie podczas decyzji przy ustalaniu oczekiwanej wartości zapamiętywania. Możesz ustawić wyższe oczekiwane zapamiętywanie, jeśli jesteś chętny poświęcić więcej czasu, aby je osiągnąć. Ustawienie oczekiwanego zapamiętywania niżej niż wartość minimalna nie jest zalecane, ponieważ doprowadzi to do wyższego obciążenia z powodu dużej wartości zapominania.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
 deck-config-a-100-day-interval =
     { $days ->
