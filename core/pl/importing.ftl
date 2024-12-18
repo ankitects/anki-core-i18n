@@ -35,6 +35,15 @@ importing-mapped-to = odwzorowane na <b>{ $val }</b>
 importing-mapped-to-tags = odwzorowane na <b>etykiety</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Połącz typy notatek
+importing-merge-notetypes-help =
+    Jeśli zostanie zaznaczone, a schemat typu notatki został zmieniony przez Ciebie lub autora talii, Anki
+    połączy obie wersje zamiast zachowywać je oddzielnie.
+    
+    Zmiana schematu notatki oznacza dodawanie, usuwanie, zmieniane kolejności pól lub szablonów
+    lub zmianą pola sortowania.
+    Dla kontrprzykładu, zmiana strony przedniej istniejącego szablonu *nie* jest zmianą schematu.
+    
+    Uwaga: Zmiana ta wymusi synchronizację jednokierunkową i może oznaczyć istniejące notatki jako zmodyfikowane.
 importing-mnemosyne-20-deck-db = Talia Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Wieloznakowe separatory nie są obsługiwane. Wpisz tylko jeden znak.
 importing-notes-added-from-file = Notatki dodane z pliku: { $val }
