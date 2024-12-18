@@ -84,23 +84,23 @@ browsing-search-in = Suchen in:
 browsing-search-within-formatting-slow = Mit Formatierung suchen (langsam)
 browsing-select-deck = Stapel auswählen
 browsing-selected-notes-only = Nur ausgewählte Notizen
-browsing-shift-position-of-existing-cards = Positionsnummer existierender Karten verschieben
+browsing-shift-position-of-existing-cards = Position existierender Karten verschieben
 browsing-sidebar = Seitenleiste
 browsing-sidebar-filter = Filter für Seitenleiste
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Sortierfeld
 browsing-sorting-on-this-column-is-not = Nach dieser Spalte kann nicht sortiert werden. Bitte eine andere Spalte auswählen.
-browsing-start-position = Start-Positionsnummer:
+browsing-start-position = Start-Position:
 browsing-step = Schrittweite:
 browsing-suspended = Ausgeschlossen
 browsing-tag-duplicates = Duplikate verschlagworten
-browsing-tag-rename-warning-empty = Dem Schlagwort sind  keine Notizen zugeordnet. Es kann nicht umbenannt werden.
+browsing-tag-rename-warning-empty = Dem Schlagwort sind keine Notizen zugeordnet. Es kann nicht umbenannt werden.
 browsing-target-field = Zielfeld:
 browsing-toggle-bury = Aufschieben
 browsing-toggle-showing-cards-notes = Anzeige zwischen Karten und Notizen umschalten
 browsing-toggle-mark = Kennzeichnung ein-/ausschalten
 browsing-toggle-suspend = Ausschließen
-browsing-treat-input-as-regular-expression = Eingabe als regulären Ausdruck behandeln
+browsing-treat-input-as-regular-expression = Eingabe als "regulären Ausdruck" behandeln
 browsing-update-saved-search = Mit aktuellem Suchbegriff überschreiben
 browsing-whole-collection = Gesamte Sammlung
 browsing-window-title-notes = Kartenverwaltung ({ $selected } von { $total } Notizen ausgewählt)
@@ -162,8 +162,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Positionsnummer von { $count } neuen Karte geändert.
-       *[other] Positionsnummer von { $count } neuen Karten geändert.
+        [one] Position von { $count } neuen Karte geändert.
+       *[other] Position von { $count } neuen Karten geändert.
     }
 browsing-reparented-decks =
     { $count ->

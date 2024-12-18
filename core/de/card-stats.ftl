@@ -38,5 +38,5 @@ card-stats-fsrs-forgetting-curve-all-time = Gesamter Verlauf
 
 ## Window Titles
 
-card-stats-current-card = Derzeitige Karte ({ $context })
+card-stats-current-card = Aktuelle Karte ({ $context })
 card-stats-previous-card = Vorherige Karte ({ $context })
