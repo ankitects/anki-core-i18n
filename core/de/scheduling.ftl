@@ -74,11 +74,7 @@ scheduling-learn-remaining =
     }
 scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
 scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungskarten wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Einstellung.
-scheduling-today-new-limit-reached =
-    Weitere neue Karten sind verfügbar, aber der Tageshöchstwert für neue Karten
-    ist erreicht. Er kann in den Einstellungen erhöht werden, aber
-    bitte daran denken, dass das Arbeitspensum kurzfristiger Wiederholungen
-    umso größer wird, je mehr neue Karten eingesetzt werden.
+scheduling-today-new-limit-reached = Es sind noch weitere neue Karten verfügbar, aber der Tageshöchstwert für neue Karten wurde erreicht. In den Einstellungen kann dieser Wert erhöht werden, allerdings steigt damit das auch Arbeitspensum in den nächsten Tagen.
 scheduling-buried-cards-found = Eine oder mehrere Karten wurden bis morgen aufgeschoben. Sie können die Funktion { $unburyThem } nutzen, um sie sofort anzuzeigen.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."

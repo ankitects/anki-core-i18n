@@ -189,13 +189,13 @@ deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus.
 # Easy Days section
 
 deck-config-easy-days-title = Tage mit weniger Wiederholungen
-deck-config-easy-days-monday = Montag
-deck-config-easy-days-tuesday = Dienstag
-deck-config-easy-days-wednesday = Mittwoch
-deck-config-easy-days-thursday = Donnerstag
-deck-config-easy-days-friday = Freitag
-deck-config-easy-days-saturday = Samstag
-deck-config-easy-days-sunday = Sonntag
+deck-config-easy-days-monday = Mo.
+deck-config-easy-days-tuesday = Di.
+deck-config-easy-days-wednesday = Mi.
+deck-config-easy-days-thursday = Do.
+deck-config-easy-days-friday = Fr.
+deck-config-easy-days-saturday = Sa.
+deck-config-easy-days-sunday = So.
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Reduziert
 deck-config-easy-days-minimum = Minimum
