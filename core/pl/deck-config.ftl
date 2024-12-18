@@ -36,6 +36,7 @@ deck-config-tab-description =
     - `Ta talia`: Ten limit dotyczy jedynie tej talii.
     - `Tylko dziś`: Tymczasowa zmiana limitu talii.
 deck-config-new-cards-ignore-review-limit = Nowe karty nie są liczone do limitu powtórek
+deck-config-new-cards-ignore-review-limit-tooltip = Domyślnie limit powtórek ma również wpływ na nowe karty i nie zostaną one pokazane, gdy limit powtórek został osiągnięty. Po włączeniu tej opcji nowe karty będą pokazywane bez względu na limit powtórek.
 deck-config-apply-all-parent-limits = Limity liczone od najwyższego poziomu
 deck-config-apply-all-parent-limits-tooltip =
     Domyślnie limity są liczone w wybranej talii. Włączając tę opcję, limity będą liczone
@@ -73,6 +74,10 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Kroki ponownej nauki
+deck-config-relearning-steps-tooltip = Zero lub więcej opóźnień, oddzielonych spacjami. Domyślnie naciskając przycisk "Powtórz" na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostana ustalone żadne opóźnienia przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Ile razy musisz użyć odpowiedzi "Powtórz" zanim powtarzana karta zostanie oznaczona jako pijawka. 
+    Pijawki to karty, których zabiera bardzo dużo twojego czasu. Kiedy karta zostaje oznaczona jako pijawka dobrym pomysłem jest zmienić jej treść, usunąć ją lub pomyśleć nad mnemotechniką, która pomoże ci ją zapamiętać.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Tylko etykieta`: Dodaj do notatki etykietę "leech" i pokaż wyskakujący komunikat.
@@ -86,6 +91,10 @@ deck-config-bury-title = Zakopywanie
 deck-config-bury-new-siblings = Zakop nowe podobne do następnego dnia
 deck-config-bury-review-siblings = Zakop przeglądane podobne do następnego dnia
 deck-config-bury-interday-learning-siblings = Zakop podobne z wielodniowych w nauce
+deck-config-bury-new-tooltip =
+    Czy inne "nowe" karty tej samej notatki (np. odwrotne karty, sąsiadujące karty typu Luka)
+    będą przekładane na następny dzień.
+deck-config-bury-review-tooltip = Czy inne powtarzane karty tej samej notatki będą przekładane na następny dzień.
 deck-config-bury-interday-learning-tooltip =
     Czy inne `uczone` karty tej samej notatki o przerwie > 1 dzień
     będą przełożone na następny dzień.
@@ -116,8 +125,8 @@ deck-config-review-sort-order = Kolejność przeglądania
 deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowy
 deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
 deck-config-sort-order-deck-then-due-date = Talia, potem zaplanowana data
-deck-config-sort-order-ascending-intervals = Po rosnącym odstępie
-deck-config-sort-order-descending-intervals = Po malejącym odstępie
+deck-config-sort-order-ascending-intervals = Po rosnącej przerwie
+deck-config-sort-order-descending-intervals = Po malejącej przerwie
 deck-config-sort-order-ascending-ease = Po rosnącej łatwości
 deck-config-sort-order-descending-ease = Po malejącej łatwości
 deck-config-sort-order-ascending-difficulty = Trudność rosnąco
@@ -167,11 +176,11 @@ deck-config-always-include-question-audio-tooltip =
 deck-config-advanced-title = Zaawansowane
 deck-config-maximum-interval-tooltip = Maksymalna liczba dni, ile powtarzana karta będzie czekać na kolejną powtórkę. Gdy zostanie osiągnięty  limit powtórek, "Trudna", "Dobra" i "Łatwa" będą miały taką samą przerwę. Im mniejsza wartość, tym większe obciążenie powtórkami.
 deck-config-starting-ease-tooltip = Współczynnik łatwości nowych kart. Domyślnie, wciśnięcie "Dobra" na świeżo nauczonej karcie odłoży w czasie następną powtórkę o 2,5 raza dłużej, niż wynosił wcześniejszy interwał.
-deck-config-easy-bonus-tooltip = Dodatkowy mnożnik, który modyfikuje interwał karty powtórkowej, gdy ocenisz ją jako "Łatwa".
+deck-config-easy-bonus-tooltip = Dodatkowy mnożnik, który modyfikuje przerwę karty powtórkowej, gdy ocenisz ją jako "Łatwa".
 deck-config-interval-modifier-tooltip = Ten mnożnik jest stosowany przy wszystkich powtórkach. Delikatne zmiany mogą być wykorzystane, aby sprawić, żeby Anki planowało powtórki bardziej agresywnie lub zachowawczo. Przeczytaj poradnik przed zmianą tego ustawienia.
-deck-config-hard-interval-tooltip = Mnożnik stosowany do interwału karty przy odpowiedzi "Trudna".
-deck-config-new-interval-tooltip = Mnożnik stosowany do interwału karty przy odpowiedzi "Powtórz".
-deck-config-minimum-interval-tooltip = Minimalny interwał przypisywany karcie powtórkowej przy odpowiedzi "Powtórz".
+deck-config-hard-interval-tooltip = Mnożnik stosowany do przerwy karty przy odpowiedzi "Trudna".
+deck-config-new-interval-tooltip = Mnożnik stosowany do przerwy karty przy odpowiedzi "Powtórz".
+deck-config-minimum-interval-tooltip = Minimalna przerwa przypisywana karcie powtórkowej przy odpowiedzi "Powtórz".
 deck-config-custom-scheduling = Własne planowanie
 deck-config-custom-scheduling-tooltip = Ma wpływ na całą kolekcję. Używasz na własne ryzyko!
 
@@ -210,7 +219,7 @@ deck-config-confirm-remove-name = Usunąć { $name }?
 
 deck-config-save-button = Zapisz
 deck-config-save-to-all-subdecks = Zapisz do wszystkich podtalii
-deck-config-save-and-optimize = Optymalizacja wszystkich opcji FSRS
+deck-config-save-and-optimize = Optymalizuj wszystkie opcje FSRS
 deck-config-revert-button-tooltip = Przywróć to ustawienie do domyślnej wartości
 
 ## These strings are shown via the Description button at the bottom of the
@@ -283,7 +292,25 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     Ta opcja kontroluje czy data, kiedy karty mają zostać pokazane zostanie zmieniona po włączeniu FSRS lub 
     czy zostaną tylko zoptymalizowane parametry. Domyślnie ustawiona opcja to brak zmian: przyszłe powtórki beda używały planowania FSRS, ale nie będzie natychmiastowej zmiany w dziennym obciążeniu powtórkami. Jeśli zostanie włączona opcja ponownego planowania, data kiedy karty zostaną pokazane zostanie zmieniona.
+deck-config-reschedule-cards-warning =
+    W zależności od twojego oczekiwanego wskaźnika zapamiętywania, może skutkować większą ilością kart do powtórki, więc nie jest zalecane podczas pierwszej zmiany z algorytmu SM-2.
+    
+    Używaj tej opcji oszczędnie, ponieważ doda ona nowy wpis powtórki do każdej z twoich kart i powiększy rozmiar twojej kolekcji
+deck-config-compute-optimal-weights-tooltip2 =
+    Kiedy klikniesz przycisk Optymalizuj, FSRS przeanalizuje twoją historię powtórek i wygeneruje parametry, które będą optymalne dla twojej pamięci i materiału, którego się uczysz. Jeśli twoim zdaniem, talie, których się uczysz wyraźnie różnią się  poziomem trudności,  zalecane jest nadanie im osobnych opcji, jako że parametry dla łatwych i trudnych talii będą inne. 
+    Nie musisz często optymalizować parametrów - wystarczy raz na kilka miesięcy.
+    
+    Domyślnie  parametry beda obliczane z historii powtórek wszystkich talii używających obecnych opcji. Możesz opcjonalnie dostosować wyszukiwanie przed obliczeniem parametrów, jeśli chciałbyś zmienić, które karty są używane do optymalizowania parametrów.
+deck-config-compute-optimal-retention-tooltip4 =
+    To narzędzie spróbuje znaleźć optymalną wartość wskaźnika zapamiętywania,
+    który doprowadzi do nauki największej ilości materiału w jak najkrótszym czasie. Obliczona wartość może służyć jako odniesienie podczas decyzji przy ustalaniu oczekiwanej wartości wskaźnika zapamiętywania. Możesz ustawić wyższy oczekiwany wskaźnik zapamiętywania, jeśli jesteś chętny poświęcić więcej czasu, aby go osiągnąć. Ustawienie oczekiwanego wskaźnika zapamiętywania niżej niż wartość minimalna nie jest zalecana, ponieważ doprowadzi to do wyższego obciążenia z powodu dużej wartości zapominania.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dnia.
+        [few] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
+       *[many] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
+    }
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% z { $reviews } powtórki
@@ -299,7 +326,7 @@ deck-config-answer-again = Odpowiedz Powtórz
 deck-config-answer-hard = Odpowiedz Trudna
 deck-config-answer-good = Odpowiedz Dobra
 deck-config-days-to-simulate = Dni do zasymulowania
-deck-config-desired-retention-below-optimal = Twój pożądany wskaźnik zapamiętywania jest poniżej optymalnego. Zaleca się jego zwiększenie.
+deck-config-desired-retention-below-optimal = Twoje pożądane zapamiętywanie jest poniżej optymalnego. Zaleca się jego zwiększenie.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
