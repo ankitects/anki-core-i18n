@@ -14,6 +14,7 @@ search-unclosed-group = Znaleziono nawias otwierający - `(`, jednak nie było p
 search-empty-quote = znaleziono parę podwójnych cudzysłowów `""`, ale nie ma między nimi nic do wyszukania. Jeśli chcesz wyszukać właśnie parę cudzysłowów, dodaj backslash: `\"\"`.
 search-unclosed-quote = znaleziono podwójny cudzysłów `", ale nie ma żadnego zamykającego. Jeśli chcesz wyszukać właśnie cudzysłów, dodaj backslash: `\"`.
 search-missing-key = pojawił się dwukropek `:` niepoprzedzony słowem kluczowym. Jeśli chcesz wyszukać znak `:`, poprzedź go ukośnikiem: `\:`.
+search-unknown-escape = Sekwencja ucieczki `{ $val }` nie jest zdefiniowana. Jeśli chcesz wyszukać ukośnik odwrotny `\`, dodaj przed nim jeszcze jeden ukośnik: `\\`.
 search-invalid-argument = `{ $term }` nadano nieprawidłowy  argument '`{ $argument } '`.
 search-invalid-flag-2 = Po tekście wyszukiwania `flag:` należy wpisać prawidłowy numer flagi:  "1" (czerwony),  "2" (pomarańczowy), "3" (zielony), "4" (niebieski), "5" (różowy), "6" (turkusowy), "7" (fioletowy) lub "0" (brak flagi).
 search-invalid-prop-operator = po `prop:{ $val }` musi następować jeden z operatorów porównania: `=`, `!=`, `<`, `>`, `<=` lub `>=`.

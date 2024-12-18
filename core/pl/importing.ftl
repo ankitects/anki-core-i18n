@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = Pliki .anki pochodzą z bardzo starej wer
 importing-anki2-files-are-not-directly-importable = Plików .anki2 nie da się bezpośrednio importować - zaimportuj zamiast tego otrzymany plik .apkg lub .zip.
 importing-appeared-twice-in-file = Pojawił się dwa razy w pliku: { $val }
 importing-by-default-anki-will-detect-the = Domyślnie Anki wykrywa znak oddzielający pola, jak np. tabulator, dwukropek itp. Jeśli Anki nieprawidłowo wykrywa taki znak, możesz wpisać go tutaj. Użyj \t jako oznaczenie tabulacji.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Notatki typu Luka nie mogą zostać połączone ze zwykłīmi typami notatek.
+    W dalszym ciągu możesz zaimportować plik z wyłączoną opcją  '{ importing-merge-notetypes }'.
 importing-change = Zmień
 importing-colon = Dwukropek
 importing-comma = Przecinek
@@ -37,11 +40,15 @@ importing-multicharacter-separators-are-not-supported-please = Wieloznakowe sepa
 importing-notes-added-from-file = Notatki dodane z pliku: { $val }
 importing-notes-found-in-file = Notatki znalezione w pliku: { $val }
 importing-notes-skipped-as-theyre-already-in = Notatki pominięte, gdyż są już w kolekcji: { $val }
+importing-notes-skipped-update-due-to-notetype = Notatki nie zostały zaktualizowane, ponieważ typ notatki został zmodyfikowany od czasu pierwszego zaimportowania notatek: { $val }
 importing-notes-updated-as-file-had-newer = Notatki zaktualizowane nowszą wersją z pliku: { $val }
 importing-include-reviews = Dołącz powtórki
 importing-also-import-progress = importuj postęp nauki
 importing-with-deck-configs = Importuj opcje talii
 importing-updates = Aktualizacja
+importing-include-reviews-help =
+    Jeśli zostanie włączone, jakiekolwiek poprzednie powtórki, które zostały wykonane przez udostępniającego talię również zostaną zaimportowane. 
+    W przeciwnym razie wszystkie karty zostaną zaimportowane jako nowe i wszystkie etykiety "leech" (pijawka) oraz "marked" (oznaczona) zostaną usunięte.
 importing-with-deck-configs-help =
     Jeśli zostanie włączone, jakiekolwiek opcje talii ustawione przez udostępniającego również zostaną zaimportowane.
     W przeciwnym razie wszystkie talie otrzymają domyślne opcje.
@@ -204,6 +211,12 @@ importing-field-separator-help =
     Znak służący do rozdzielana pól w pliku tekstowym. Możesz użyć podglądu, aby sprawdzić czy pola są rozdzielone poprawnie 
     
     Pamiętaj, że jeśli ten znak pojawi się jakimkolwiek polu, pole to musi zawierać cudzysłów na początku i końcu z zgodnie ze standardem CSV. Programy do arkuszy kalkulacyjnych takie jak LibreOffice wykonają tę czynność automatycznie.
+importing-allow-html-in-fields-help =
+    Włącz tę opcję, jeśli plik zawiera formatowanie HTML np. jeśli plik zawiera ciąg
+    '&lt;br&gt;', na karcie tekst przejdzie do nowej linii. Jeśli natomiast ta opcja będzie wyłączona, na karcie pojawi się dosłowny tekst '&lt;br&gt;'.
+importing-notetype-help =
+    Nowo zaimportowane notatki będą miały ten typ notatki oraz tylko istniejące notatki z tym typem notatki zostaną zaktualizowane.
+    Możesz wybrać, które pola w pliku odpowiadają któremu polu w typie notatki używając narzędzia do mapowania.
 importing-deck-help = Importowane karty będą umieszczone w tej talii.
 importing-existing-notes-help =
     Co robić, gdy zaimportowana notatka jest już w kolekcji.
@@ -211,6 +224,7 @@ importing-existing-notes-help =
     - `{ importing-update }`: Aktualizuj istniejącą.¶
     - `{ importing-preserve }`: Pomiń.¶
     - `{ importing-duplicate }`: Stwórz nową.
+importing-match-scope-help = Tylko istniejące notatki z takim samym typem notatek będą sprawdzane pod względem duplikatów. Można to dodatkowo ograniczyć do notatek z kartami znajdującymi się w tej samej talii.
 importing-tag-all-notes-help = Te etykiety zostaną dodane zarówno do nowo zaimportowanych jak i zaktualizowanych notatek.
 importing-tag-updated-notes-help = Te etykiety zostaną dodane do każdej zaktualizowanej notatki.
 importing-overview = Podsumowanie
