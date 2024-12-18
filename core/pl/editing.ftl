@@ -73,7 +73,7 @@ editing-from-clipboard = Ze schowka
 editing-alignment = Wyrównanie
 editing-equations = Równania
 editing-no-image-found-on-clipboard = W schowku nie ma obrazka.
-editing-image-occlusion-mode = Tryb okluzji obrazu (Image Occlusion)
+editing-image-occlusion-mode = Tryb zakrycia obrazu
 editing-image-occlusion-zoom-out = Pomniejsz
 editing-image-occlusion-zoom-in = Powiększ
 editing-image-occlusion-zoom-reset = Domyślne powiększenie
@@ -97,8 +97,8 @@ editing-image-occlusion-ellipse-tool = Elipsa
 editing-image-occlusion-polygon-tool = Wielokąt
 editing-image-occlusion-text-tool = Tekst
 editing-image-occlusion-toggle-mask-editor = Przełącz edytor maski
-editing-image-occlusion-reset = Resetuj okluzję obrazu
-editing-image-occlusion-confirm-reset = Czy na pewno chcesz  zresetować tę okluzje obrazu?
+editing-image-occlusion-reset = Resetuj zakrycie obrazu
+editing-image-occlusion-confirm-reset = Czy na pewno chcesz zresetować te zakrycie obrazu?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

@@ -54,4 +54,4 @@ notetype-error-no-image-to-show = Nie ma obrazu do pokazania.
 notetypes-no-occlusion-created = Musisz zakryć przynajmniej jedną rzecz.
 notetypes-no-occlusion-created2 = Nie udało się dodać. Nie dodano żadnego zakrycia albo pierwsze pole jest puste.
 notetypes-io-select-image = Wybierz obraz
-notetypes-io-paste-image-from-clipboard = Wyklej obraz ze schowka
+notetypes-io-paste-image-from-clipboard = Wklej obraz ze schowka
