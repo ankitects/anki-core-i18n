@@ -1,6 +1,6 @@
 actions-add = Hinzufügen
 actions-all-selected = Alle ausgewählten
-actions-any-selected = Eins der ausgewählten
+actions-any-selected = Eines der ausgewählten
 actions-cancel = Abbrechen
 actions-choose = Auswählen
 actions-close = Schließen
@@ -31,7 +31,7 @@ actions-rename-tag = Schlagwort umbenennen
 actions-rename-with-parents = Hierarchie ändern
 actions-remove-tag = Schlagwort entfernen
 actions-replay-audio = Erneut abspielen
-actions-reposition = Positionsnummer ändern
+actions-reposition = Position ändern
 actions-save = Speichern
 actions-search = Suche
 actions-select = Auswählen
