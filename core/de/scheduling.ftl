@@ -73,20 +73,20 @@ scheduling-learn-remaining =
        *[other] Insgesamt werden heute noch { $remaining } Lernkarten fällig.
     }
 scheduling-congratulations-finished = Herzlichen Glückwunsch! Dieser Stapel ist vorerst geschafft.
-scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungskarten wurde erreicht, aber es warten noch Karten auf ihre Wiederholung. Für optimales Lernen erhöhen Sie den Tageshöchstwert in den Einstellung.
+scheduling-today-review-limit-reached = Der Tageshöchstwert für Wiederholungskarten wurde erreicht, jedoch warten noch weitere Karten auf ihre Wiederholung. Für einen optimalen Lernerfolg erhöhen Sie den Tageshöchstwert in den Einstellungen.
 scheduling-today-new-limit-reached = Es sind noch weitere neue Karten verfügbar, aber der Tageshöchstwert für neue Karten wurde erreicht. In den Einstellungen kann dieser Wert erhöht werden, allerdings steigt damit das auch Arbeitspensum in den nächsten Tagen.
 scheduling-buried-cards-found = Eine oder mehrere Karten wurden bis morgen aufgeschoben. Sie können die Funktion { $unburyThem } nutzen, um sie sofort anzuzeigen.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = „Nicht mehr aufschieben“
-scheduling-how-to-custom-study = Wenn außerhalb der regulären Zeitplanung gelernt werden soll, kann die Funktion { $customStudy } genutzt werden.
+scheduling-how-to-custom-study = Zum Lernen außerhalb der regulären Zeitplanung kann die Funktion { $customStudy } genutzt werden.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = „Benutzerdefiniertes Lernen“
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 kommt mit einem neuen Zeitplaner, welcher eine Anzahl von Problemen aus vorherigen Versionen von Anki löst. Das Aktualisieren auf diesen wird empfohlen.
+scheduling-update-soon = Mit Anki 2.1 wurde ein neuer Zeitplaner eingeführt, der mehrere Probleme aus früheren Versionen behebt. Es wird empfohlen, zu aktualisieren.
 scheduling-update-done = Zeitplaner erfolgreich aktualisiert.
 scheduling-update-button = Aktualisieren
 scheduling-update-later-button = Später
@@ -99,7 +99,7 @@ scheduling-update-required =
 ## Other scheduling strings
 
 scheduling-always-include-question-side-when-replaying = Beim erneuten Abspielen der Antwort die Frage abspielen
-scheduling-at-least-one-step-is-required = Mindestens eine Lernstufe ist erforderlich.
+scheduling-at-least-one-step-is-required = Es ist mindestens eine Lernstufe erforderlich.
 scheduling-automatically-play-audio = Audio automatisch abspielen
 scheduling-bury-related-new-cards-until-the = Geschwisterkarten mit Status „Neu“ bis zum nächsten Tag aufschieben
 scheduling-bury-related-reviews-until-the-next = Geschwisterkarten mit Status „Wiederholung“ bis zum nächsten Tag aufschieben
@@ -145,8 +145,8 @@ scheduling-starting-ease = Anfängliche Leichtigkeit (Faktor für „Gut“-Knop
 scheduling-steps-in-minutes = Lernstufen (Minuten)
 scheduling-steps-must-be-numbers = Die einzelnen Lernstufen müssen aus Zahlen bestehen.
 scheduling-tag-only = Nur verschlagworten
-scheduling-the-default-configuration-cant-be-removed = Die Standardeinstellungen können nicht gelöscht werden.
-scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Soll nur der aktuelle Stapel angepasst werden, bitte zunächst ein neues Stapelprofil erstellen.
+scheduling-the-default-configuration-cant-be-removed = Das Standard-Stapelprofil kann nicht gelöscht werden.
+scheduling-your-changes-will-affect-multiple-decks = Die Änderungen betreffen mehrere Stapel. Um nur den aktuellen Stapel anzupassen, erstellen Sie zuerst ein neues Stapelprofil.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } Stapel wurde geändert.
@@ -154,13 +154,14 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-prompt =
     { $cards ->
-        [one] Karte in wie vielen Tagen anzeigen?
-       *[other] Karten in wie vielen Tagen anzeigen?
+        [one] In wie vielen Tagen soll die Karte fällig werden?
+       *[other] In wie vielen Tagen sollen die Karten fällig werden?
     }
 scheduling-set-due-date-prompt-hint =
-    0 = heute
-    1! = morgen+Wiederholintervall zurücksetzen
-    3-7 = zufällige Auswahl von 3-7 Tagen
+    0: Heute fällig.
+    1!: Morgen fällig, und das Intervall wird auf 1 Tag geändert.
+    2!: Übermorgen fällig, und das Intervall wird auf 2 Tage geändert.
+    3-7: Zufälliger Wert zwischen 3 und 7 Tagen.
 scheduling-set-due-date-done =
     { $cards ->
         [one] Fälligkeitsdatum von { $cards } Karte gesetzt.
@@ -168,6 +169,6 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] { $cards } Karte vergessen.
-       *[other] { $cards } Karten vergessen.
+        [one] Lernfortschritt von { $cards } Karte zurückgesetzt.
+       *[other] Lernfortschritt von { $cards } Karten zurückgesetzt.
     }
