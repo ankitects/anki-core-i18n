@@ -22,9 +22,9 @@ deck-config-limit-deck-v3 = Wenn Sie einen übergeordneten Stapel lernen, legen 
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten begrenzt auch die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungskarten z. B. bei 200 liegt und 190 Wiederholungskarten anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
 deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf tagesübergreifendes Lernen aus. Zuerst werden die Karten aus dem tagesübergreifenden Lernen eingesammelt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
-    - "Vorgabe": Der Tageshöchstwert gilt für alle Stapel dieses Stapelprofils, außer wenn in einem Stapel "Dieser Stapel" oder "Nur heute" gewählt ist.
-    - "Dieser Stapel": Der Tageshöchstwert gilt nur für diesen Stapel.
-    - "Nur heute": Ändert den Tageshöchstwert dieses Stapels nur vorübergehend für heute.
+    - `Vorgabe`: Der Tageshöchstwert gilt für alle Stapel dieses Stapelprofils, außer wenn in einem Stapel „Dieser Stapel“ oder „Nur heute“ gewählt ist.
+    - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
+    - `Nur heute`: Ändert den Tageshöchstwert dieses Stapels nur vorübergehend für heute.
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren den Tageshöchstwert für Wiederholungskarten
 deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungskarten auch die Anzahl neuer Karten, die eingeführt werden können. Wenn diese Einstellung aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungskarten eingeführt.
 deck-config-apply-all-parent-limits = Tageshöchstwerte gelten auch für Unterstapel
@@ -45,10 +45,10 @@ deck-config-today-only = Nur heute
 
 deck-config-learning-steps = Lernstufen
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Intervalle können in Sekunden ("30s"), Minuten ("5m"), Stunden ("1h") oder Tagen ("2d") angegeben werden.
-deck-config-learning-steps-tooltip = Ein oder mehrere Intervalle, durch Leerzeichen getrennt. Der Standardwert ist "1m 10m". Das erste Intervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte "Nochmal" drücken. "Gut" lässt die Karte voranschreiten. Das Intervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der abschließenden Lernstufe "Gut" gedrückt wurde.
-deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem "Einfach" verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
+-deck-config-delay-hint = Intervalle können in Sekunden (`30s`), Minuten (`5m`), Stunden (`1h`) oder Tagen (`2d`) angegeben werden.
+deck-config-learning-steps-tooltip = Ein oder mehrere Intervalle, durch Leerzeichen getrennt. Der Standardwert ist `1m 10m`. Das erste Intervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte „Nochmal“ drücken. „Gut“ lässt die Karte voranschreiten. Das Intervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der abschließenden Lernstufe „Gut“ gedrückt wurde.
+deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
 deck-config-new-insertion-order-tooltip = Legt die Position fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Position werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung ändert auch die Positionen bereits vorhandener neuer Karten.
 deck-config-new-insertion-order-sequential = Der Reihe nach (älteste Karten zuerst)
@@ -62,19 +62,19 @@ deck-config-relearning-steps-tooltip = Null oder mehr Intervalle, durch Leerzeic
 deck-config-leech-threshold-tooltip = Wie oft "Nochmal" gedrückt werden muss, bevor eine Wiederholungskarte als Lernbremse gilt. Lernbremsen sind Karten, die besonders viel Zeit in Anspruch nehmen. Wenn eine Karte als Lernbremse eingestuft wird, ist es ratsam, sie zu überarbeiten, zu löschen oder eine Gedächtnisstütze (Eselsbrücke) zu erstellen, um sie besser zu behalten.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    "Nur verschlagworten": Füge der Notiz das Schlagwort "leech" (Lernbremse) hinzu und zeige ein Pop-up an.
+    `Nur verschlagworten`: Füge der Notiz das Schlagwort „leech“ (Lernbremse) hinzu und zeige ein Pop-up an.
     
-    "Karte ausschließen": Zusätzlich zum Verschlagworten der Notiz wird die Karte ausgeschlossen, bis sie manuell wieder aktiviert wird.
+    `Karte ausschließen`: Zusätzlich zum Verschlagworten der Notiz wird die Karte ausgeschlossen, bis sie manuell wieder aktiviert wird.
 
 ## Burying section
 
 deck-config-bury-title = Aufschieben
-deck-config-bury-new-siblings = Geschwisterkarten mit Status "Neu" aufschieben
-deck-config-bury-review-siblings = Geschwisterkarten mit Status "Wiederholung" aufschieben
-deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status "Tagesübergreifendes Lernen" aufschieben
-deck-config-bury-new-tooltip = Ob andere "neue" Karten derselben Notiz (z. B. Karten in umgekehrter Richtung oder benachbarte Lückentexte) auf den nächsten Tag aufgeschoben werden.
-deck-config-bury-review-tooltip = Ob andere "Wiederholungskarten" derselben Notiz auf den nächsten Tag aufgeschoben werden.
-deck-config-bury-interday-learning-tooltip = Ob andere "Lernkarten" derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag aufgeschoben werden.
+deck-config-bury-new-siblings = Geschwisterkarten mit Status „Neu“ aufschieben
+deck-config-bury-review-siblings = Geschwisterkarten mit Status „Wiederholung“ aufschieben
+deck-config-bury-interday-learning-siblings = Geschwisterkarten mit Status „Tagesübergreifendes Lernen“ aufschieben
+deck-config-bury-new-tooltip = Ob andere `neue` Karten derselben Notiz (z. B. Karten in umgekehrter Richtung oder benachbarte Lückentexte) auf den nächsten Tag aufgeschoben werden.
+deck-config-bury-review-tooltip = Ob andere `Wiederholungs`karten derselben Notiz auf den nächsten Tag aufgeschoben werden.
+deck-config-bury-interday-learning-tooltip = Ob andere `Lern`karten derselben Notiz mit einem Intervall von mehr als einem Tag auf den nächsten Tag aufgeschoben werden.
 deck-config-bury-priority-tooltip =
     Wenn Anki Karten einsammelt, geschieht dies in folgender Reihenfolge: Zuerst die Lernkarten im eintägigen Lernen, dann die Karten im tagesübergreifenden Lernen, gefolgt von den Wiederholungskarten und schließlich den neuen Karten. Diese Reihenfolge beeinflusst, wie das Aufschieben von Geschwisterkarten funktioniert:
     
@@ -86,15 +86,15 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Anzeigereihenfolge
 deck-config-new-gather-priority = Einsammelreihenfolge für neue Karten
 deck-config-new-gather-priority-tooltip-2 =
-    "Stapel": Sammelt Karten aus jedem Unterstapel der Reihe nach ein, beginnend beim obersten. Innerhalb der Unterstapel erfolgt das Einsammeln in aufsteigender Positionsnummer. Wird der Tageshöchstwert des ausgewählten Stapels erreicht, stoppt das Einsammeln, bevor alle Unterstapel durchlaufen sind. Dieses Vorgehen ist bei großen Sammlungen besonders schnell und priorisiert Unterstapel, die weiter oben stehen.
+    `Stapel`: Sammelt Karten aus jedem Unterstapel der Reihe nach ein, beginnend beim obersten. Innerhalb der Unterstapel erfolgt das Einsammeln in aufsteigender Position. Wird der Tageshöchstwert des ausgewählten Stapels erreicht, stoppt das Einsammeln, bevor alle Unterstapel durchlaufen sind. Dieses Vorgehen ist bei großen Sammlungen besonders schnell und priorisiert Unterstapel, die weiter oben stehen.
     
-    "Position (aufsteigend)": Sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge ein. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
+    `Position (aufsteigend)`: Sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge ein. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
     
-    "Position (absteigend)": Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
+    `Position (absteigend)`: Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
     
-    "Zufällige Notizen": Wählt Notizen zufällig aus und sammelt dann jeweils alle dazugehörigen Karten in einem Durchgang ein.
+    `Zufällige Notizen`: Wählt Notizen zufällig aus und sammelt dann jeweils alle dazugehörigen Karten in einem Durchgang ein.
     
-    "Zufällige Karten": Sammelt Karten in zufälliger Reihenfolge ein.
+    `Zufällige Karten`: Sammelt Karten in zufälliger Reihenfolge ein.
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-deck-then-random-notes = Zuerst Stapel, dann zufällige Notizen
 deck-config-new-gather-priority-position-lowest-first = Position (aufsteigend)
@@ -103,15 +103,15 @@ deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge für neue Karten
 deck-config-new-card-sort-order-tooltip-2 =
-    "Kartentyp, dann Einsammelreihenfolge": Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn das Aufschieben von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
+    `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn das Aufschieben von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
     
-    "Einsammelreihenfolge": Zeigt Karten in der Reihenfolge, in der sie eingesammelt wurden. Wenn das Aufschieben von Geschwisterkarten deaktiviert ist, wird dies typischerweise dazu führen, dass alle Karten einer Notiz direkt hintereinander angezeigt werden.
+    `Einsammelreihenfolge`: Zeigt Karten in der Reihenfolge, in der sie eingesammelt wurden. Wenn das Aufschieben von Geschwisterkarten deaktiviert ist, wird dies typischerweise dazu führen, dass alle Karten einer Notiz direkt hintereinander angezeigt werden.
     
-    "Kartentyp, dann zufällig":  Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in zufälliger Reihenfolge angezeigt.  Dieses Verfahren ist nützlich, wenn Sie nicht möchten, dass Geschwisterkarten zu kurz hintereinander erscheinen, aber dennoch die Karten in zufälliger Reihenfolge sehen möchten.
+    `Kartentyp, dann zufällig`:  Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in zufälliger Reihenfolge angezeigt.  Dieses Verfahren ist nützlich, wenn Sie nicht möchten, dass Geschwisterkarten zu kurz hintereinander erscheinen, aber dennoch die Karten in zufälliger Reihenfolge sehen möchten.
     
-    "Zufällige Notiz, dann Kartentyp": Wählt Notizen zufällig aus und zeigt dann jeweils alle Karten dieser Notiz nach Kartentyp geordnet an.
+    `Zufällige Notiz, dann Kartentyp`: Wählt Notizen zufällig aus und zeigt dann jeweils alle Karten dieser Notiz nach Kartentyp geordnet an.
     
-    "Zufällig": Zeigt Karten in zufälliger Reihenfolge an.
+    `Zufällig`: Zeigt Karten in zufälliger Reihenfolge an.
 deck-config-sort-order-card-template-then-random = Kartentyp, dann zufällig
 deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartentyp
 deck-config-sort-order-random = Zufällig
@@ -176,7 +176,7 @@ deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Fr
 ## Advanced section
 
 deck-config-advanced-title = Erweitert
-deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zeitplaner als Intervall für Wiederholungskarten festlegen kann. "Schwer", "Gut" und "Einfach" führen nie zu einem längeren Intervall als diesem Wert. Ein niedrigerer Wert erhöht das Arbeitspensum.
+deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zeitplaner als Intervall für Wiederholungskarten festlegen kann. `Schwer`, `Gut` und `Einfach` führen nie zu einem längeren Intervall als diesem Wert. Ein niedrigerer Wert erhöht das Arbeitspensum.
 deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
 deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30 % länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
 deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.

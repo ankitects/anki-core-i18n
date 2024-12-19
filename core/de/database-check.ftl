@@ -51,7 +51,7 @@ database-check-fixed-invalid-ids =
        *[other] { $count } Objekten mit Zeitstempel in der Zukunft wurden repariert.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Eine oder mehrere Notiztypen fehlten. Den Notizen, die diese genutzt haben, wurden neue Notizentypen beginnend mit "db-check" zugewiesen, aber Feldnamen und Kartendesign sind verloren gegangen. Es könnte besser sein, eine Sicherungskopie zu nutzen.
+database-check-notetypes-recovered = Eine oder mehrere Notiztypen fehlten. Den Notizen, die diese genutzt haben, wurden neue Notizentypen beginnend mit „db-check“ zugewiesen, aber Feldnamen und Kartendesign sind verloren gegangen. Es könnte besser sein, eine Sicherungskopie zu nutzen.
 
 ## Progress info
 
