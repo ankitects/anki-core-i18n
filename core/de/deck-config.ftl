@@ -359,7 +359,7 @@ deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
 deck-config-ignore-before-tooltip = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung und Auswertung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
-deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und versucht, die Menge an Karten zu berechnen, die Sie in dem vorgegebenen Zeitrahmen zu behalten vermögen. Die geschätzte Erfolgsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erfolgsquote zu kopieren.
+deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und schätzt die Menge an Karten, die Sie im vorgegebenen Zeitrahmen zu behalten vermögen. Die ermittelte Erfolgsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erfolgsquote zu kopieren.
 deck-config-compute-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote
 deck-config-predicted-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
 deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Einstellung nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Stapelprofil entsprechen.
@@ -368,15 +368,15 @@ deck-config-compute-optimal-weights-tooltip =
     
     Standardmäßig werden die Einstellungen aus dem Wiederholungsverlauf aller Stapel berechnet, die das aktuelle Stapelprofil verwenden. Sie können optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
 deck-config-compute-optimal-retention-tooltip2 =
-    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht. 
+    Diese Funktion geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und ermittelt die Erfolgsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
     
-    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihrer persönlichen gewünschten Erfolgsquote helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erfolgsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-compute-optimal-retention-tooltip3 =
-    Dieses Tool geht davon aus, dass Sie mit 0 gelernten Karten beginnen und versucht, den Wert für die gewünschte Erfolgsquote zu ermitteln, der maximalen Lernerfolg bei minimalem Zeitaufwand ermöglicht.
+    Diese Funktion geht davon aus, dass Sie mit 0 gelernten Karten beginnen und ermittelt die Erfolgsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
     
     Für eine präzise Simulation Ihres Lernfortschritts sind mindestens 400 Wiederholungen erforderlich.
     
-    Die errechnete Empfehlung kann Ihnen bei der Festlegung Ihrer persönlichen gewünschten Erfolgsquote helfen. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies das Arbeitspensum aufgrund der dann erhöhten Vergessensrate ebenfalls vergrößern würde.
+    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erfolgsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-seconds-to-show-question-tooltip-2 = Wenn Automatisches Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
 deck-config-fsrs-on-all-clients = FSRS funktioniert nur richtig, wenn alle genutzten Apps die Mindestanforderungen erfüllen (Anki und AnkiMobile ab 23.10, AnkiDroid ab 2.17).
