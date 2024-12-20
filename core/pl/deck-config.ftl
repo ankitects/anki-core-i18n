@@ -18,7 +18,7 @@ deck-config-title = Opcje talii
 ## Daily limits section
 
 deck-config-daily-limits = Dzienne limity
-deck-config-new-limit-tooltip = Maksymalna liczba nowych kart do pokazania na dzień. Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy, powinno to być co najmniej 10 razy mniej niż limit powtórek.
+deck-config-new-limit-tooltip = Maksymalna liczba nowych kart do pokazania na dzień. Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy, powinien on być co najmniej 10 razy mniejszy niż ustawiony limit powtórek.
 deck-config-review-limit-tooltip = Maksymalna dzienna liczba powtórek.
 deck-config-limit-deck-v3 =
     Podczas nauki talii, która ma w sobie talie podrzędne, limit ustawiony na każdej
@@ -57,13 +57,13 @@ deck-config-learning-steps = Kroki nauki
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Przerwy to zazwyczaj minuty (np. `1m`) lub dni (np. `2d`), ale można też używać godzin (np. `1h`) i sekund (np. `30s`).
 deck-config-learning-steps-tooltip =
-    Jedna lub więcej przerw , oddzielonych spacjami. Pierwsza przerwa będzie wykorzystana, gdy użyjesz odpowiedzi "Powtórz" na nowej karcie i domyślne wynosi 1 minutę.
-    Odpowiedź "Dobra" przejdzie do następnego kroku, który domyślnie wynosi 10 minut.
+    Jedna lub więcej przerw , oddzielonych spacjami. Pierwsza przerwa będzie wykorzystana, gdy użyjesz odpowiedzi `Powtórz` na nowej karcie i domyślne wynosi 1 minutę.
+    Odpowiedź `Dobra` przejdzie do następnego kroku, który domyślnie wynosi 10 minut.
     Gdy już wszystkie kroki zostana zaliczone karta stanie się kartą powtórkową i pojawi się innego dnia. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Liczba dni przed ponownym pokazaniem karty, gdy został naciśnięty przycisk `Dobra`
     w ostatnim kroku nauki.
-deck-config-easy-interval-tooltip = Liczba dni zanim karta zostanie pokazana ponownie po naciśnięciu natychmiastowym przycisku "Łatwa", aby usunąć kartę z "Uczonych".
+deck-config-easy-interval-tooltip = Liczba dni zanim karta zostanie pokazana ponownie po naciśnięciu natychmiastowym przycisku `Łatwa`, aby usunąć kartę z "Uczonych".
 deck-config-new-insertion-order = Kolejność wstawiania
 deck-config-new-insertion-order-tooltip =
     Kontroluje pozycję (due #) przypisaną nowym kartom gdy je dodajesz.
@@ -80,7 +80,7 @@ deck-config-new-insertion-order-random-with-v3 =
 deck-config-relearning-steps = Kroki ponownej nauki
 deck-config-relearning-steps-tooltip = Zero lub więcej przerw, oddzielonych spacjami. Domyślnie naciskając przycisk `Powtórz` na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostana ustalone żadne przerwy, przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    Ile razy musisz użyć odpowiedzi "Powtórz" zanim powtarzana karta zostanie oznaczona jako pijawka. 
+    Ile razy musisz użyć odpowiedzi `Powtórz` zanim powtarzana karta zostanie oznaczona jako pijawka. 
     Pijawki to karty, których zabiera bardzo dużo twojego czasu. Kiedy karta zostaje oznaczona jako pijawka dobrym pomysłem jest zmienić jej treść, usunąć ją lub pomyśleć nad mnemotechniką, która pomoże ci ją zapamiętać.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -96,17 +96,33 @@ deck-config-bury-new-siblings = Zakop nowe podobne do następnego dnia
 deck-config-bury-review-siblings = Zakop przeglądane podobne do następnego dnia
 deck-config-bury-interday-learning-siblings = Zakop podobne z wielodniowych w nauce
 deck-config-bury-new-tooltip =
-    Czy inne "nowe" karty tej samej notatki (np. odwrotne karty, sąsiadujące karty typu Luka)
+    Czy inne `nowe` karty tej samej notatki (np. odwrotne karty, sąsiadujące karty typu Luka)
     będą przekładane na następny dzień.
-deck-config-bury-review-tooltip = Czy inne powtarzane karty tej samej notatki będą przekładane na następny dzień.
+deck-config-bury-review-tooltip = Czy inne `powtórkowe` karty tej samej notatki będą przekładane na następny dzień.
 deck-config-bury-interday-learning-tooltip =
     Czy inne `uczone` karty tej samej notatki o przerwie > 1 dzień
     będą przełożone na następny dzień.
+deck-config-bury-priority-tooltip =
+    Gdy Anki zbiera karty, zbierane są najpierw karty uczone w ten sam dzień, następnie wielodniowe karty w nauce, potem karty powtarzane, a na końcu nowe karty. Ma to wpływ na to, jak działa zakopywanie.
+    
+    - Jeśli wszystkie opcje zakopywania są włączone, zostanie pokazana karta podobna, która znajduje się najwcześniej na liście. Na przykład: Karta powtarzana będzie pokazana przed nową kartą.
+    
+    - Karty podobne znajdujące się dalej na liście nie mogą zakopać wcześniejszych typów kart. Na przykład: Jeśli wyłączysz zakopywanie nowych kart, a następnie będziesz uczył się nowej karty, nie zakopie ona nowych lub powtarzanych kart nauki wielodniowej i możesz zobaczyć zarówno kartę podobną powtarzaną jak i nową w tej samej sesji
 
 ## Ordering section
 
 deck-config-ordering-title = Kolejność wyświetlania
 deck-config-new-gather-priority = Kolejność zbierania nowych kart
+deck-config-new-gather-priority-tooltip-2 =
+    `Talia`: Karty są zbierane z każdej talii podrzędnej w kolejności, zaczynając od góry. Karty z każdej talii podrzędnej są zbierane w rosnącej pozycji. Jeśli dzienny limit wybranej talii został osiągnięty, zbieranie kart może zakończyć się przed sprawdzeniem wszystkich talii podrzędnych. Ta kolejność jest najszybsza w przypadku dużych kolekcji i pozwala prioretyzować talie podrzędne, które znajdują się na górze.
+    
+    `Pozycja rosnąco`: Karty są zbierane w pozycji rosnącej (due #), co  oznacza zazwyczaj, że najpierw zbierane są karty dodane najdawniej.
+    
+    `Pozycja malejąco`: Karty są zbierane w pozycji malejącej (due #), co oznacza zazwyczaj, że najpierw zbierane są karty dodane najpóźniej.
+    
+    `Losowe notatki`: Notatki są wybierane losowo, a następnie zbierane są wszystkie ich karty.
+    
+    `Losowe karty`: Karty są zbierane w losowej kolejności.
 deck-config-new-gather-priority-deck = Talia
 deck-config-new-gather-priority-deck-then-random-notes = Talia, potem losowe notatki
 deck-config-new-gather-priority-position-lowest-first = Pozycja rosnąco
@@ -119,9 +135,13 @@ deck-config-new-card-sort-order-tooltip-2 =
     Karty każdego numeru typu karty są pokazywane w kolejności, w jakiej zostały zebrane.
     Jeśli opcja zakopywanie podobnych jest wyłączona, zapewni to, że wszystkie karty przód→tył będą pokazane przed kartami tył→przód.
     Jest to przydatne, aby pokazane zostały wszystkie karty tej samej notatki w tej samej sesji, ale nie zbyt blisko siebie.
+    
     `W zebranej kolejności`: Karty są pokazywane dokładnie w kolejności w jakiej zostały zebrane. Jeśli opcja zakopywanie podobnych jest wyłączona skutkuje to zazwyczaj pokazaniem wszystkich kart jednej notatki po sobie.
+    
     `Typ karty, następnie losowo`: Karty są pokazywane według numeru typu karty. Karty każdego numeru typu karty są wyświetlane w losowej kolejności. Ta kolejność jest przydatna aby uniknąć pokazywania kart podobnych zbyt blisko siebie. Będą one jednak dalej pokazywane w losowej kolejności.
+    
     `Losowa notatka, następnie typ karty`: Notatki są wybierane losowo, a następnie wszystkie ich karty wyświetlane są w kolejności.
+    
     `Losowo`: Karty są pokazywane w losowej kolejności.
 deck-config-sort-order-card-template-then-random = Typ karty, następnie losowo
 deck-config-sort-order-random-note-then-template = Losowa notatka, następnie typ karty
@@ -134,7 +154,7 @@ deck-config-interday-step-priority = Kolejność nauki/powtórek wielodniowych
 deck-config-interday-step-priority-tooltip =
     Kiedy pokazywać (ponownie) uczone karty, które przekroczyły granice dnia.
     
-    Limit powtórek ma zawsze zastosowanie najpierw do kart uczonych na przestrzeni dni, a następnie powtórek. Ta opcja kontroluje kolejność pokazywania zebranych kart, jednak karty uczone na przestrzeni dni zawsze bedą miały pierwszeństwo.
+    Limit powtórek ma zawsze zastosowanie najpierw do wielodniowych kart w nauce, a następnie powtórek. Ta opcja kontroluje kolejność pokazywania zebranych kart, jednak wielodniowe karty w nauce zawsze bedą miały pierwszeństwo.
 deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
 deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
 deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
@@ -143,7 +163,7 @@ deck-config-review-sort-order-tooltip =
     Domyślna kolejność prioretyzuje karty, które oczekiwały najdłużej, więc jeśli
     masz zaległe powtórki, najpierw pojawią się te, które oczekiwały najdłużej.
     Jeśli masz duże zaległości, których nadrobienie zajmie więcej niż kilka dni lub chcesz widzieć karty w kolejności talii podrzędnej, alternatywne tryby sortowania mogą być dla ciebie odpowiednie/
-deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowy
+deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowa
 deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
 deck-config-sort-order-deck-then-due-date = Talia, potem zaplanowana data
 deck-config-sort-order-ascending-intervals = Po rosnącej przerwie
