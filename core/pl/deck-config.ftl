@@ -61,7 +61,7 @@ deck-config-learning-steps-tooltip =
     Odpowiedź "Dobra" przejdzie do następnego kroku, który domyślnie wynosi 10 minut.
     Gdy już wszystkie kroki zostana zaliczone karta stanie się kartą powtórkową i pojawi się innego dnia. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
-    Liczba dni przed ponownym pokazaniem karty, gdy został naciśnięty przycisk "Dobra"
+    Liczba dni przed ponownym pokazaniem karty, gdy został naciśnięty przycisk `Dobra`
     w ostatnim kroku nauki.
 deck-config-easy-interval-tooltip = Liczba dni zanim karta zostanie pokazana ponownie po naciśnięciu natychmiastowym przycisku "Łatwa", aby usunąć kartę z "Uczonych".
 deck-config-new-insertion-order = Kolejność wstawiania
@@ -78,7 +78,7 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Kroki ponownej nauki
-deck-config-relearning-steps-tooltip = Zero lub więcej przerw, oddzielonych spacjami. Domyślnie naciskając przycisk "Powtórz" na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostana ustalone żadne przerwy, przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = Zero lub więcej przerw, oddzielonych spacjami. Domyślnie naciskając przycisk `Powtórz` na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostana ustalone żadne przerwy, przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Ile razy musisz użyć odpowiedzi "Powtórz" zanim powtarzana karta zostanie oznaczona jako pijawka. 
     Pijawki to karty, których zabiera bardzo dużo twojego czasu. Kiedy karta zostaje oznaczona jako pijawka dobrym pomysłem jest zmienić jej treść, usunąć ją lub pomyśleć nad mnemotechniką, która pomoże ci ją zapamiętać.
@@ -114,6 +114,15 @@ deck-config-new-gather-priority-position-highest-first = Pozycja malejąco
 deck-config-new-gather-priority-random-notes = Losowe notatki
 deck-config-new-gather-priority-random-cards = Losowe karty
 deck-config-new-card-sort-order = Kolejność nowych kart
+deck-config-new-card-sort-order-tooltip-2 =
+    `Typ karty`: Karty są pokazywane według numeru typu karty.
+    Karty każdego numeru typu karty są pokazywane w kolejności, w jakiej zostały zebrane.
+    Jeśli opcja zakopywanie podobnych jest wyłączona, zapewni to, że wszystkie karty przód→tył będą pokazane przed kartami tył→przód.
+    Jest to przydatne, aby pokazane zostały wszystkie karty tej samej notatki w tej samej sesji, ale nie zbyt blisko siebie.
+    `W zebranej kolejności`: Karty są pokazywane dokładnie w kolejności w jakiej zostały zebrane. Jeśli opcja zakopywanie podobnych jest wyłączona skutkuje to zazwyczaj pokazaniem wszystkich kart jednej notatki po sobie.
+    `Typ karty, następnie losowo`: Karty są pokazywane według numeru typu karty. Karty każdego numeru typu karty są wyświetlane w losowej kolejności. Ta kolejność jest przydatna aby uniknąć pokazywania kart podobnych zbyt blisko siebie. Będą one jednak dalej pokazywane w losowej kolejności.
+    `Losowa notatka, następnie typ karty`: Notatki są wybierane losowo, a następnie wszystkie ich karty wyświetlane są w kolejności.
+    `Losowo`: Karty są pokazywane w losowej kolejności.
 deck-config-sort-order-card-template-then-random = Typ karty, następnie losowo
 deck-config-sort-order-random-note-then-template = Losowa notatka, następnie typ karty
 deck-config-sort-order-random = Losowo
@@ -188,12 +197,12 @@ deck-config-always-include-question-audio-tooltip =
 
 deck-config-advanced-title = Zaawansowane
 deck-config-maximum-interval-tooltip = Maksymalna liczba dni, ile powtarzana karta będzie czekać na kolejną powtórkę. Gdy zostanie osiągnięty  limit powtórek, "Trudna", "Dobra" i "Łatwa" będą miały taką samą przerwę. Im mniejsza wartość, tym większe obciążenie powtórkami.
-deck-config-starting-ease-tooltip = Współczynnik łatwości nowych kart. Domyślnie, wciśnięcie "Dobra" na świeżo nauczonej karcie odłoży w czasie następną powtórkę o 2,5 raza dłużej, niż wynosił wcześniejszy interwał.
-deck-config-easy-bonus-tooltip = Dodatkowy mnożnik, który modyfikuje przerwę karty powtórkowej, gdy ocenisz ją jako "Łatwa".
+deck-config-starting-ease-tooltip = Współczynnik łatwości nowych kart. Domyślnie wciśnięcie `Dobra` na świeżo nauczonej karcie odłoży w czasie następną powtórkę o 2,5 raza dłużej, niż wynosiła wcześniejsza przerwa.
+deck-config-easy-bonus-tooltip = Dodatkowy mnożnik, który modyfikuje przerwę karty powtórkowej, gdy ocenisz ją jako `Łatwa`.
 deck-config-interval-modifier-tooltip = Ten mnożnik jest stosowany przy wszystkich powtórkach. Delikatne zmiany mogą być wykorzystane, aby sprawić, żeby Anki planowało powtórki bardziej agresywnie lub zachowawczo. Przeczytaj poradnik przed zmianą tego ustawienia.
-deck-config-hard-interval-tooltip = Mnożnik stosowany do przerwy karty przy odpowiedzi "Trudna".
-deck-config-new-interval-tooltip = Mnożnik stosowany do przerwy karty przy odpowiedzi "Powtórz".
-deck-config-minimum-interval-tooltip = Minimalna przerwa przypisywana karcie powtórkowej przy odpowiedzi "Powtórz".
+deck-config-hard-interval-tooltip = Mnożnik stosowany do przerwy karty przy odpowiedzi `Trudna`.
+deck-config-new-interval-tooltip = Mnożnik stosowany do przerwy karty przy odpowiedzi `Powtórz`.
+deck-config-minimum-interval-tooltip = Minimalna przerwa przypisywana karcie powtórkowej przy odpowiedzi `Powtórz`.
 deck-config-custom-scheduling = Własne planowanie
 deck-config-custom-scheduling-tooltip = Ma wpływ na całą kolekcję. Używasz na własne ryzyko!
 
