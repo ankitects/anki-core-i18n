@@ -33,13 +33,13 @@ scheduling-next-learn-due =
     }
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] 今日中に再び課題となる習得中カードは、今のところ{ $remaining }枚あります。
+       *[other] 今日中に再び課題となる習得中カードの枚数は、今のところ{ $remaining }枚です。
     }
 scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題をすべて達成しました！
 scheduling-today-review-limit-reached =
     期日に達しているカードがまだ残っていますが、今日の復習枚数が一日の上限に達しています。
     適切なタイミングでの復習によって記憶を維持するため、デッキのオプションで「一日の復習枚数の上限」を上げることを検討してください。
-scheduling-today-new-limit-reached = 未導入の新規カードがまだ残っていますが、今日の新規カード導入枚数がすでに一日の上限に達しています。デッキのオプションで「一日の新規カード導入枚数の上限」を上げることも可能ですが、一日の導入枚数を増やすほど、その後、短めの間隔の復習が急増しやすくなることに注意してください。
+scheduling-today-new-limit-reached = 未導入の新規カードがまだ残っていますが、今日の新規カード導入枚数がすでに一日の上限に達しています。デッキのオプションで「一日の新規カード導入枚数の上限」を上げることも可能ですが、一日の導入枚数を増やすほど、その後、短めの間隔の課題が急増しやすくなることに注意してください。
 scheduling-buried-cards-found = 手動操作またはオプションによる自動操作によって、今日は非表示となっているカードがあります。それらのカードをすぐに学習したい場合は、{ $unburyThem }してください。
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
