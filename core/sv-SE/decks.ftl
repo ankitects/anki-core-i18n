@@ -26,7 +26,7 @@ decks-please-select-something = Du måste välja någonting.
 decks-random = Slumpmässigt
 decks-repeat-failed-cards-after = Repetera felsvarade kort efter
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = Förskjutning för { $button }
+decks-delay-for-button = Frist för { $button }
 decks-reschedule-cards-based-on-my-answers = Schemalägg kort baserat på mina svar i denna kortlek
 decks-study = Studera
 decks-study-deck = Studera kortlek

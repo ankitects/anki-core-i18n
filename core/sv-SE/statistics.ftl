@@ -91,7 +91,7 @@ statistics-answer-buttons-subtitle = Antalet gånger du tryckt på varje knapp.
 statistics-reviews-title = Repetitioner
 statistics-reviews-time-checkbox = Tid
 statistics-intervals-title = Intervaller
-statistics-intervals-subtitle = Tid tills du får repetera ett kort igen.
+statistics-intervals-subtitle = Tid tills ett kort repeteras igen.
 statistics-hours-title = Sammanställning per timme
 statistics-hours-subtitle = Hur ofta du svarar rätt beroende på tidpunkt på dagen.
 

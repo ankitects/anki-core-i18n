@@ -20,7 +20,33 @@ deck-config-new-limit-tooltip = Det maximala antalet nya kort att introducera pe
 deck-config-review-limit-tooltip =
     Det maximala antalet repetitionskort som visas på ett dygn,
     om korten är redo att repeteras.
+deck-config-limit-deck-v3 =
+    Vid studerande av en kortlek med underkortlekar styr gränserna för respektive
+    underkortlek det maximala antalet kort som samlas den kortleken.
+    Den valda kortlekens gränser styr det totala antalet kort som kommer visas.
+deck-config-limit-new-bound-by-reviews =
+    Gränsen för antalet repetitioner påverkar gränsen för antalet nya kort, Ifall gränsen för antalet repetitioner
+    är satt till 200 och 190 repetitioner kvarstår kommer maximalt 10 nya kort att
+    introduceras. Om gränsen för antalet repetitioner är uppnådd kommer inga nya kort
+    att visas.
+deck-config-limit-interday-bound-by-reviews =
+    Gränsen för antal repetitioner påverkar också inlärningskort som löper över flera dagar. När gränsen tillämpas
+    kommer flerdagslöpande inlärningskort att samlas före repetitionskort.
+deck-config-tab-description =
+    - `Förinställning`: Gränsen tillämpas till alla kortlekar som använder denna förinställning.
+    - `Denna kortlek`: Gränsen är specifik till denna kortlek.
+    - `Bara idag`: En tillfällig ändring av denna kortleks gräns.
 deck-config-new-cards-ignore-review-limit = Nya kort ignorerar daglig begränsning
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Som standard tillämpas repetitionsgränsen även för nya kort, och inga nya kort kommer
+    visas när repetitionsgränsen har uppnåtts. Om denna inställning är aktiverad kommer nya kort
+    visas oavsett repetitionsgränsen.
+deck-config-apply-all-parent-limits = Tillämpa alltid gränser på toppnivå
+deck-config-apply-all-parent-limits-tooltip =
+    Som standard kommer de dagliga begränsningarna av en kortlek på högre nivå ej tillämpas när dess underkortlek studeras.
+    Ifall denna inställning är aktiverad kommer begränsningarna
+    i första hand tillämpas från toppnivåkortleken, vilket kan vara till användning då enskilda
+    kortlekar studeras men en total kortgräns bör tillämpas för hela kortleksträdet.
 deck-config-affects-entire-collection = Påverkar hela samlingen
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -33,17 +59,55 @@ deck-config-today-only = Bara idag
 ## New Cards section
 
 deck-config-learning-steps = Inlärningssteg
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Frist skrivs typiskt i minuter (e.g. `1m`) eller dagar (e.g. `2d`), men timmar (e.g. `1h`) och sekunder (e.g. `30s`) är också godtagbara.
+deck-config-learning-steps-tooltip =
+    En eller flera frister, separerade med blanksteg. Den första fristen kommer användas
+    när knappen `Igen` nedtrycks, och är som standard 1 minut.
+    Knappen `Bra` kommer kortet avancera till nästa steg, vilket som standard är 10 minuter.
+    När alla inlärningssteg har passerats kommer kortet att befordras till ett repetitionskort och
+    schemaläggas till en annan dag. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    Antal dagar att vänta innan ett kort visas igen efter att knappen `Bra`
+    har nedtryckts i det sista inlärningssteget.
+deck-config-easy-interval-tooltip =
+    Antal dagar att vänta innan ett kort visas igen efter att knappen `Lätt`
+    använts för att direkt befordra ett kort från inlärning.
 deck-config-new-insertion-order = Insättningsordning
+deck-config-new-insertion-order-tooltip =
+    Styr positionen (aktuell #) nya kort tilldelas när de läggs till.
+    Kort med ett lägre aktuell-tal kommer visas först vid studerande. Ändring
+    av denna inställning kommer automatiskt att uppdatera den befintliga positionen hos nya kort.
 deck-config-new-insertion-order-sequential = Sekventiell (äldsta kort först)
 deck-config-new-insertion-order-random = Slumpmässigt
+deck-config-new-insertion-order-random-with-v3 =
+    Med v3-schemaläggaren är det bättre att lämna detta alternativ satt till sekventiell och
+    istället ändra på samlingsordningen för nya kort.
 
 ## Lapses section
 
 deck-config-relearning-steps = Ominlärningssteg
+deck-config-relearning-steps-tooltip =
+    Noll eller flera frister, separerade med blanksteg. Som standard kommer nedtryckning av knappen `Igen`
+    göra att kortet visas 10 minuter senare. Om inga frister tillhandahålls kommer kortet få sitt intervall förändrat utan att träda in i
+    ominlärning. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Antalet gånger knappen `Igen` måste nedtryckas på ett repetitionskort innan det
+    markeras som en energislukare. Energislukare är kort som tar oskälig tid, och
+    när ett kort markeras som en energislukare är det en bra idé att skriva om det, ta bort det, eller
+    komma på en minnesregel som gör det lättare att komma ihåg kortet.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Tagga endast`: Lägger till en 'leech'-tagg (energislukare-tagg) till noten och visar en notis.
+    `Uteslut kort`: Utöver att tagga kortet, döljs kortet tills det
+    manuellt inbegrips.
 
 ## Burying section
 
 deck-config-bury-title = Nedgrävning
+deck-config-bury-new-siblings = Dölj nya syskon
+deck-config-bury-review-siblings = Dölj repeterande syskon
+deck-config-bury-interday-learning-siblings = Dölj flerdagslöpande inlärningskort
 
 ## Ordering section
 
