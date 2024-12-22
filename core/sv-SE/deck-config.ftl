@@ -332,6 +332,8 @@ deck-config-reviews-too-low =
     }
 deck-config-learning-step-above-graduating-interval = Befordringsintervallet bör vara åtminstone lika långt som det sista inlärningssteget.
 deck-config-good-above-easy = Lättintervallet bör vara åtminstone lika långt som befordringsintervallet.
+deck-config-relearning-steps-above-minimum-interval = Det minsta förfallointervallet borde vara åtminstone lika långt som det sista ominlärningssteget.
+deck-config-maximum-answer-secs-above-recommended = Anki kan schemalägga repetitioner mer effektivt om varje enskild fråga är kortfattad.
 
 ## Selecting a deck
 
@@ -339,6 +341,10 @@ deck-config-which-deck = Vilken kortlek vill du välja?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Uppdaterar kort: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = De tillhandahållna FSRS-parametrarna är ogiltiga. Lämna dem blanka för att använda standardparametrarna.
+deck-config-not-enough-history = Otillräcklig repetitionshistorik för att utföra denna åtgärd.
+deck-config-unable-to-determine-desired-retention = Misslyckades att bestämma en minsta rekommenderad återkallningskvot.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parametrar
 deck-config-compute-optimal-weights = Optimera FSRS-parametrar
