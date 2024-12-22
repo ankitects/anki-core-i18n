@@ -1,6 +1,6 @@
 actions-add = Hinzufügen
-actions-all-selected = Alle ausgewählten
-actions-any-selected = Eines der ausgewählten
+actions-all-selected = Elemente, die alle ausgewählten Kriterien erfüllen
+actions-any-selected = Elemente, die mindestens eines der ausgewählten Kriterien erfüllen
 actions-cancel = Abbrechen
 actions-choose = Auswählen
 actions-close = Schließen
