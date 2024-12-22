@@ -255,6 +255,19 @@ deck-config-maximum-interval-tooltip =
     Det maximala antalet dagar ett repetitionskort kan vänta. När repetitioner
     har nått gränsen kommer `Svår`, `Bra` och `Lätt` alla ge samma frist.
     Ju kortare detta är satt till, desto större kommer arbetsbelastningen att vara.
+deck-config-starting-ease-tooltip =
+    Lätthetsfaktorn nya kort börjar med. Som standard kommer `Bra`-knappen på ett
+    nyligen inlärt kort att uppskjuta nästa repetition med 2,5x den tidigare fristen.
+deck-config-easy-bonus-tooltip =
+    En ytterligare faktor som multipliceras med ett repetitionskorts intervall när det
+    graderas som `Lätt`.
+deck-config-interval-modifier-tooltip =
+    Denna faktor tillämpas för alla repetitioner, och mindre justeringar kan användas för
+    att göra Anki mer konservativ eller aggressiv i sin schemaläggning. Var god
+    se manualen före ändring av denna inställning.
+deck-config-hard-interval-tooltip = Faktorn som multipliceras med ett repetitionsintervall efter att `Svår` svaras.
+deck-config-new-interval-tooltip = Faktorn som multipliceras med ett repetitionsintervall efter att `Igen` svaras.
+deck-config-minimum-interval-tooltip = Minimiintervallet som ges till ett repetitionskort efter att `Igen` svaras.
 deck-config-custom-scheduling = Anpassad schemaläggning
 deck-config-custom-scheduling-tooltip = Påverkar hela samlingen. Använd på egen risk!
 
@@ -271,6 +284,7 @@ deck-config-easy-days-sunday = Söndag
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Minskad
 deck-config-easy-days-minimum = Minimal
+deck-config-easy-days-no-normal-days = Åtminstone en dag bör vara satt till '{ deck-config-easy-days-normal }'.
 
 ## Adding/renaming
 
@@ -282,6 +296,10 @@ deck-config-clone-group = Klona förinställning
 ## Removing
 
 deck-config-remove-group = Radera förinställning
+deck-config-will-require-full-sync =
+    För att utföra den önskade ändringen erfordras en envägssynkronisering. Vid ändringar på
+    en annan enhet som inte än är synkroniserade till denna enhet, var god synkronisera dessa
+    först.
 deck-config-confirm-remove-name = Radera { $name }?
 
 ## Other Buttons
@@ -289,14 +307,31 @@ deck-config-confirm-remove-name = Radera { $name }?
 deck-config-save-button = Spara
 deck-config-save-to-all-subdecks = Spara till alla underkortlekar
 deck-config-save-and-optimize = Optimera alla förinställningar
+deck-config-revert-button-tooltip = Återställ denna inställning till sitt standardvärde.
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
 deck-config-description-new-handling = Anki 2.1.41+-hantering
+deck-config-description-new-handling-hint =
+    Behandlar inmatning som Markdown, och rensar HTML-inmatning. När aktiverad
+    kommer beskrivningen även visas på gratulationsskärmen.
+    Markdown kommer te sig som rå text på Ankiversion 2.1.40 och under.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] En föräldrakortlek har en gräns på { $cards } kort, vilket kommer åsidosätta denna gräns.
+       *[other] En föräldrakortlek har en gräns på { $cards } kort, vilket kommer åsidosätta denna gräns.
+    }
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Om { $cards } nytt kort läggs till varje dag, torde repetitionsgränsen vara åtminstone { $expected }.
+       *[other] Om { $cards } nya kort läggs till varje dag, torde repetitionsgränsen vara åtminstone { $expected }.
+    }
+deck-config-learning-step-above-graduating-interval = Befordringsintervallet bör vara åtminstone lika långt som det sista inlärningssteget.
+deck-config-good-above-easy = Lättintervallet bör vara åtminstone lika långt som befordringsintervallet.
 
 ## Selecting a deck
 
