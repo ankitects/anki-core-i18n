@@ -348,18 +348,27 @@ deck-config-unable-to-determine-desired-retention = Misslyckades att bestämma e
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parametrar
 deck-config-compute-optimal-weights = Optimera FSRS-parametrar
+deck-config-compute-minimum-recommended-retention = Minsta rekommenderad återkallningskvot
 deck-config-optimize-button = Optimera
 deck-config-compute-button = Beräkna
 deck-config-ignore-before = Ignorera repetitioner innan
+deck-config-optimize-all-tip = Alla förinställningar kan optimeras samtidigt genom att använda rullgardinsmenyn intill "Spara".
 deck-config-evaluate-button = Utvärdera
 deck-config-desired-retention = Önskad återkallningskvot
 deck-config-historical-retention = Historisk återkallningskvot
 deck-config-smaller-is-better = Mindre tal antyder en bättre passning till repetitionshistoriken.
 deck-config-steps-too-large-for-fsrs = När FSRS är aktiverat avrådes steg större än 1 dag.
+deck-config-get-params = Hämta parametrar
 deck-config-predicted-minimum-recommended-retention = Minsta rekommenderad återkallningskvot: { $num }
 deck-config-complete = { $num }% färdig
 deck-config-iterations = Iteration: { $count }...
 deck-config-reschedule-cards-on-change = Schemalägg kort igen vid ändring
+deck-config-fsrs-tooltip =
+    Påverkar hela samlingen.
+    
+    FSRS (Free Spaced Repetition Scheduler) är ett alternativ till den gamla schemaläggaren för Anki, SuperMemo 2 (SM-2).
+    Genom att med en högre precision bestämma sannolikheten att ett kort glöms bidrar den nya schemaläggaren till att
+    mer information kan memoreras på samma tid. Denna inställning delas för alla förinställningar.
 deck-config-please-save-your-changes-first = Vänligen spara dina ändringar först.
 deck-config-a-100-day-interval =
     { $days ->
