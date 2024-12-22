@@ -26,10 +26,10 @@ deck-config-tab-description =
     - `Dieser Stapel`: Der Tageshöchstwert gilt nur für diesen Stapel.
     - `Nur heute`: Ändert den Tageshöchstwert dieses Stapels nur vorübergehend für heute.
 deck-config-new-cards-ignore-review-limit = Neue Karten ignorieren den Tageshöchstwert für Wiederholungskarten
-deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungskarten auch die Anzahl neuer Karten, die eingeführt werden können. Wenn diese Einstellung aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungskarten eingeführt.
+deck-config-new-cards-ignore-review-limit-tooltip = Standardmäßig begrenzt der Tageshöchstwert für Wiederholungskarten auch die Anzahl neuer Karten, die eingeführt werden können. Wenn hingegen diese Einstellung aktiviert ist, werden neue Karten unabhängig vom Tageshöchstwert für Wiederholungskarten eingeführt.
 deck-config-apply-all-parent-limits = Tageshöchstwerte gelten auch für Unterstapel
 deck-config-apply-all-parent-limits-tooltip =
-    Standardmäßig wirken sich Tageshöchstwerte der übergeordneten Stapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Mit dieser Einstellung werden die Tageshöchstwerte aller übergeordneten Stapel auch beim direkten Lernen eines Unterstapels berücksichtigt.
+    Standardmäßig wirken sich Tageshöchstwerte der übergeordneten Stapel nicht aus, wenn Sie direkt einen Unterstapel lernen. Mit dieser Einstellung werden hingegen die Tageshöchstwerte aller übergeordneten Stapel auch beim direkten Lernen eines Unterstapels berücksichtigt.
     
     Dies ist nützlich, wenn Sie verschiedene Unterstapel nacheinander lernen und die Gesamtanzahl der angezeigten Karten aus allen Unterstapeln zusammen begrenzen möchten.
 deck-config-affects-entire-collection = Wirkt sich auf die gesamte Sammlung aus.
@@ -50,7 +50,7 @@ deck-config-learning-steps-tooltip = Ein oder mehrere Intervalle, durch Leerzeic
 deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der abschließenden Lernstufe „Gut“ gedrückt wurde.
 deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
 deck-config-new-insertion-order = Einfügereihenfolge
-deck-config-new-insertion-order-tooltip = Legt die Position fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Position werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung ändert auch die Positionen bereits vorhandener neuer Karten.
+deck-config-new-insertion-order-tooltip = Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Positionsnummer werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung ändert auch die Positionsnummern bereits vorhandener neuer Karten.
 deck-config-new-insertion-order-sequential = Der Reihe nach (älteste Karten zuerst)
 deck-config-new-insertion-order-random = Zufällig
 deck-config-new-insertion-order-random-with-v3 = Es wird empfohlen, diese Einstellung auf „Der Reihe nach“ zu belassen und stattdessen die Reihenfolge für das Einsammeln neuer Karten anzupassen.
@@ -58,11 +58,11 @@ deck-config-new-insertion-order-random-with-v3 = Es wird empfohlen, diese Einste
 ## Lapses section
 
 deck-config-relearning-steps = Lernstufen für das Wiedererlernen
-deck-config-relearning-steps-tooltip = Null oder mehr Intervalle, durch Leerzeichen getrennt. Der Standardwert ist "10m": Wenn Sie bei einer Wiederholungskarte "Nochmal" drücken, wird diese nach 10 Minuten erneut angezeigt. Werden keine Intervalle angegeben, ändert sich die Zeitplanung der Karte, ohne dass sie in den Status "Wiedererlernen" übergeht. { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = Wie oft "Nochmal" gedrückt werden muss, bevor eine Wiederholungskarte als Lernbremse gilt. Lernbremsen sind Karten, die besonders viel Zeit in Anspruch nehmen. Wenn eine Karte als Lernbremse eingestuft wird, ist es ratsam, sie zu überarbeiten, zu löschen oder eine Gedächtnisstütze (Eselsbrücke) zu erstellen, um sie besser zu behalten.
+deck-config-relearning-steps-tooltip = Null oder mehr Intervalle, durch Leerzeichen getrennt. Der Standardwert ist „10m“: Wenn Sie bei einer Wiederholungskarte „Nochmal“ drücken, wird diese nach 10 Minuten erneut angezeigt. Werden keine Intervalle angegeben, ändert sich die Zeitplanung der Karte, ohne dass sie in den Status „Wiedererlernen“ übergeht. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = Wie oft „Nochmal“ gedrückt werden muss, bevor eine Wiederholungskarte als Lernbremse gilt. Lernbremsen sind Karten, die besonders viel Zeit in Anspruch nehmen. Wenn eine Karte als Lernbremse eingestuft wird, ist es ratsam, sie zu überarbeiten, zu löschen oder sich eine Gedächtnisstütze (Eselsbrücke) zu machen, um sie besser zu behalten.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Nur verschlagworten`: Füge der Notiz das Schlagwort „leech“ (Lernbremse) hinzu und zeige ein Pop-up an.
+    `Nur verschlagworten`: Füge der Notiz das Schlagwort „leech“ hinzu und zeige ein Pop-up an.
     
     `Karte ausschließen`: Zusätzlich zum Verschlagworten der Notiz wird die Karte ausgeschlossen, bis sie manuell wieder aktiviert wird.
 
@@ -86,19 +86,19 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Anzeigereihenfolge
 deck-config-new-gather-priority = Einsammelreihenfolge für neue Karten
 deck-config-new-gather-priority-tooltip-2 =
-    `Stapel`: Sammelt Karten aus jedem Unterstapel der Reihe nach ein, beginnend beim obersten. Innerhalb der Unterstapel erfolgt das Einsammeln in aufsteigender Position. Wird der Tageshöchstwert des ausgewählten Stapels erreicht, stoppt das Einsammeln, bevor alle Unterstapel durchlaufen sind. Dieses Vorgehen ist bei großen Sammlungen besonders schnell und priorisiert Unterstapel, die weiter oben stehen.
+    `Stapel`: Sammelt Karten aus jedem Unterstapel der Reihe nach ein, beginnend beim obersten. Innerhalb der Unterstapel erfolgt das Einsammeln in aufsteigender Positionsnummer. Wird der Tageshöchstwert des ausgewählten Stapels erreicht, stoppt das Einsammeln, bevor alle Unterstapel durchlaufen sind. Dieses Vorgehen ist bei großen Sammlungen besonders schnell und priorisiert Unterstapel, die weiter oben stehen.
     
-    `Position (aufsteigend)`: Sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge ein. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
+    `Positionsnummer (aufsteigend)`: Sammelt Karten nach Positionsnummer in aufsteigender Reihenfolge ein. Typischerweise bedeutet das, die älteste hinzugefügte Karte zuerst.
     
-    `Position (absteigend)`: Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
+    `Positionsnummer (absteigend)`: Sammelt Karten nach Positionsnummer in absteigender Reihenfolge ein. Typischerweise bedeutet das, die zuletzt hinzugefügte Karte zuerst.
     
     `Zufällige Notizen`: Wählt Notizen zufällig aus und sammelt dann jeweils alle dazugehörigen Karten in einem Durchgang ein.
     
     `Zufällige Karten`: Sammelt Karten in zufälliger Reihenfolge ein.
 deck-config-new-gather-priority-deck = Stapel
 deck-config-new-gather-priority-deck-then-random-notes = Zuerst Stapel, dann zufällige Notizen
-deck-config-new-gather-priority-position-lowest-first = Position (aufsteigend)
-deck-config-new-gather-priority-position-highest-first = Position (absteigend)
+deck-config-new-gather-priority-position-lowest-first = Positionsnummer (aufsteigend)
+deck-config-new-gather-priority-position-highest-first = Positionsnummer (absteigend)
 deck-config-new-gather-priority-random-notes = Zufällige Notizen
 deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge für neue Karten

@@ -17,8 +17,8 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] Es wurde { $count } neue Karte mit einer Position >= 1.000.000 gefunden – bitte ziehen Sie die Änderung der Position dieser Karte in der Kartenverwaltung in Betracht.
-       *[other] Es wurden { $count } neue Karten mit einer Position >= 1.000.000 gefunden – bitte ziehen Sie die Änderung der Position dieser Karten in der Kartenverwaltung in Betracht.
+        [one] Es wurde { $count } neue Karte mit einer Positionsnummer >= 1.000.000 gefunden. Bitte ziehen Sie eine Änderung der Positionsnummer dieser Karte in der Kartenverwaltung in Betracht.
+       *[other] Es wurden { $count } neue Karten mit einer Positionsnummer >= 1.000.000 gefunden. Bitte ziehen Sie eine Änderung der Positionsnummern dieser Karten in der Kartenverwaltung in Betracht.
     }
 database-check-card-missing-note =
     { $count ->
