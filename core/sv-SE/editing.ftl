@@ -35,6 +35,7 @@ editing-mathjax-chemistry = MathJax kemi
 editing-mathjax-inline = MathJax infogad
 editing-mathjax-placeholder = Tryck { $accept } för att godkänna, { $newline } för radbrytning.
 editing-media = Media
+editing-show-in-folder = Visa i katalog
 editing-ordered-list = Sorterad lista
 editing-outdent = Minska indrag
 editing-paste = Klistra in

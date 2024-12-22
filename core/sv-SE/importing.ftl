@@ -1,16 +1,24 @@
 importing-failed-debug-info = Import misslyckades. Felsökningsinformation:
 importing-aborted = Avbröts: { $val }
 importing-added-duplicate-with-first-field = Lade till dublett med första fält: { $val }
+importing-all-supported-formats = Alla stödda format { $val }
 importing-allow-html-in-fields = Tillåt HTML i fälten
+importing-anki-files-are-from-a-very = .anki-filer är från en väldigt gammal version av Anki. De kan importeras med tillägg 175027074 eller med Anki 2.0, tillgängligt på Anki-hemsidan.
+importing-anki2-files-are-not-directly-importable = .anki2-filer är inte direkt importerbara - var god importera istället .apkg- eller .zip-filen som den hör till.
 importing-appeared-twice-in-file = Hittades två gånger i filen: { $val }
 importing-by-default-anki-will-detect-the = Som förval identifierar Anki vilket tecken som används för att skilja fält åt, som tabbsteg, komma osv. Om Anki gör ett felaktigt val av tecken, så kan du ange rätt tecken här. Använd \t för tabbsteg.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Lucktextnoter kan inte sammanfogas med vanliga nottyper.
+    Filen kan fortfarande importeras med '{ importing-merge-notetypes }' inaktiverat.
 importing-change = Ändra
 importing-colon = Kolon
 importing-comma = Kommatecken
 importing-empty-first-field = Tomt första fält: { $val }
+importing-field-separator = Fältseparator
 importing-field-mapping = Fälthopparning
 importing-field-of-file-is = Fält <b>{ $val }</b> i fil är:
 importing-fields-separated-by = Fält separerade av: { $val }
+importing-file-must-contain-field-column = Filen måste innehålla åtminstone en kolumn som motsvarar ett notfält.
 importing-file-version-unknown-trying-import-anyway = Okänd filversion, försöker ändå att importera.
 importing-first-field-matched = Första matchande fält: { $val }
 importing-identical = Identisk
@@ -25,6 +33,8 @@ importing-map-to = Mappa till { $val }
 importing-map-to-tags = Para ihop med etiketter
 importing-mapped-to = parades ihop med <b>{ $val }</b>
 importing-mapped-to-tags = parades ihop med <b>etiketter</b>
+# the action of combining two existing note types to create a new one
+importing-merge-notetypes = Sammanfoga nottyper
 importing-mnemosyne-20-deck-db = Kortlek för Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatorer med fler än ett tecken stöds inte. Skriv in endast ett tecken.
 importing-include-reviews = Inkludera repetitioner
