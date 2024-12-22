@@ -12,6 +12,7 @@ actions-decks = Kortlekar
 actions-decrement-value = Minska värde
 actions-delete = Ta bort
 actions-export = Exportera
+actions-empty-cards = Tomma kort
 actions-filter = Filter
 actions-help = Hjälp
 actions-increment-value = Öka värde

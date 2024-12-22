@@ -17,6 +17,9 @@ deck-config-title = Kortleksalternativ
 
 deck-config-daily-limits = Dagliga begränsningar
 deck-config-new-limit-tooltip = Det maximala antalet nya kort att introducera per dag, om nya kort finns tillgängliga. Eftersom nya kort kortsiktigt kommer öka mängden kort att recensera, bör detta vara åtminstone 10x mindre än gränsen för antalet repetitioner.
+deck-config-review-limit-tooltip =
+    Det maximala antalet repetitionskort som visas på ett dygn,
+    om korten är redo att repeteras.
 deck-config-new-cards-ignore-review-limit = Nya kort ignorerar daglig begränsning
 deck-config-affects-entire-collection = Påverkar hela samlingen
 

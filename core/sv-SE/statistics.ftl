@@ -1,6 +1,15 @@
+# The date a card will be ready to review
 statistics-due-date = Aktuella
+# The count of cards waiting to be reviewed
 statistics-due-count = Aktuella
+
+## eg 16.8s (3.6 cards/minute)
+
 statistics-cards-per-min = { $cards-per-minute } kort/minut
+
+## A span of time studying took place in, for example
+## "(studied 30 cards) in 3 minutes"
+
 statistics-in-time-span-seconds =
     { $amount ->
         [one] en { $amount } sekund
@@ -31,6 +40,21 @@ statistics-in-time-span-years =
         [one] en { $amount } år
        *[other] en { $amount } år
     }
+statistics-cards =
+    { $cards ->
+        [one] { $cards } kort
+       *[other] { $cards } kort
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } repetition
+       *[other] { $reviews } repetitioner
+    }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
 statistics-studied-today =
     Studerade { statistics-cards } { $unit ->
         [seconds] { statistics-in-time-span-seconds }
@@ -40,16 +64,6 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } idag ({ $secs-per-card }s/kort)
-statistics-cards =
-    { $cards ->
-        [one] { $cards } kort
-       *[other] { $cards } kort
-    }
-statistics-reviews =
-    { $reviews ->
-        [one] { $reviews } repetition
-       *[other] { $reviews } repetitioner
-    }
 statistics-today-title = Idag
 statistics-today-again-count = Felaktiga svar:
 statistics-today-type-counts = Att lära: { $learnCount }, Repetera: { $reviewCount }, Att lära om: { $relearnCount }, Filtrerade: { $filteredCount }
@@ -61,35 +75,41 @@ statistics-counts-young-cards = Unga
 statistics-counts-mature-cards = Mogna
 statistics-counts-suspended-cards = Uteslutet
 statistics-counts-buried-cards = Gömt
-statistics-range-all-time = kortlekens liv
+statistics-counts-learning-cards = Nya
+statistics-range-all-time = Kortlekens livstid
 statistics-range-deck = kortlek
 statistics-range-collection = samling
 statistics-range-search = Sök
 statistics-future-due-title = Prognos
-statistics-reviews-title = Repetitioner
-statistics-intervals-title = Intervaller
-statistics-answer-buttons-title = Svarsknappar
-statistics-hours-title = Sammanställning per timme
-statistics-added-title = Tillagda
-statistics-axis-label-answer-count = Svar
-statistics-axis-label-card-count = Kort
-statistics-axis-label-review-time = Repetitionstid
 statistics-future-due-subtitle = Hur många repetitioner som du måste göra senare.
+statistics-added-title = Tillagda
 statistics-added-subtitle = Antalet nya kort du lagt till.
 statistics-reviews-count-subtitle = Antalet repetitioner du gjort.
 statistics-reviews-time-subtitle = Hur lång tid det tagit att repetera korten.
-statistics-intervals-subtitle = Tid tills du får repetera ett kort igen.
+statistics-answer-buttons-title = Svarsknappar
 statistics-answer-buttons-subtitle = Antalet gånger du tryckt på varje knapp.
-statistics-hours-subtitle = Hur ofta du svarar rätt beroende på tidpunkt på dagen.
-statistics-counts-learning-cards = Nya
+statistics-reviews-title = Repetitioner
 statistics-reviews-time-checkbox = Tid
+statistics-intervals-title = Intervaller
+statistics-intervals-subtitle = Tid tills du får repetera ett kort igen.
+statistics-hours-title = Sammanställning per timme
+statistics-hours-subtitle = Hur ofta du svarar rätt beroende på tidpunkt på dagen.
+
+## An amount of elapsed time, used in the graphs to show the amount of
+## time spent studying. For example, English would show "5s" for 5 seconds,
+## "13.5m" for 13.5 minutes, and so on.
+##
+## Please try to keep the text short, as longer text may get cut off.
+
+
+##
+
 statistics-average-for-days-studied = Genomsnitt för dagar med studier
 statistics-total = Totalt
 statistics-days-studied = Dagar med studier
 statistics-average-answer-time-label = Genomsnittlig svarstid
 statistics-average = Genomsnitt
 statistics-average-interval = Genomsnittligt intervall
-statistics-longest-interval = Längsta intervall
 statistics-due-tomorrow = Schemalagda imorgon
 statistics-average-over-period = Om du skulle studera varje dag
 statistics-average-ease = Genomsnittlig lätthet

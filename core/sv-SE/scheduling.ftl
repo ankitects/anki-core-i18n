@@ -1,8 +1,19 @@
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
 scheduling-answer-button-time-seconds = { $amount } sek
 scheduling-answer-button-time-minutes = { $amount } min
 scheduling-answer-button-time-hours = { $amount } tim.
 scheduling-answer-button-time-days = { $amount } dag
 scheduling-answer-button-time-years = { $amount } år
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
 scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } sekund
@@ -33,6 +44,9 @@ scheduling-time-span-years =
         [one] { $amount } år
        *[other] { $amount } år
     }
+
+## Shown in the "Congratulations!" message after study finishes.
+
 scheduling-congratulations-finished = Grattis! Du är klar med den här kortleken för idag.
 scheduling-today-review-limit-reached =
     Gränsen för hur många kort du får repetera per dag är nådd,
@@ -43,7 +57,12 @@ scheduling-today-new-limit-reached =
     per dag är nådd. Du kan ändra detta i inställningarna, men
     kom ihåg att ju fler nya kort du för in, desto tyngre
     blir arbetsbördan med fler repetitioner under den närmsta tiden.
-scheduling-buried-cards-were-delayed = Vissa relaterade eller gömda kort sköts upp till en senare session.
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-at-least-one-step-is-required = Åtminstone ett steg krävs.
 scheduling-automatically-play-audio = Spela upp ljud automatiskt
 scheduling-bury-related-new-cards-until-the = Göm relaterade nya kort tills nästa dag
@@ -56,8 +75,8 @@ scheduling-end = (slut)
 scheduling-general = Allmänt
 scheduling-hard-interval = Hårt intervall
 scheduling-ignore-answer-times-longer-than = Ignorera svarstider längre än
-scheduling-lapses = Bortglömda
-scheduling-lapses2 = försök
+scheduling-lapses = Förfall
+scheduling-lapses2 = förfall
 scheduling-learning = Nya
 scheduling-leech-action = Att göra med energislukare
 scheduling-leech-threshold = Tröskelvärde för energislukare
@@ -87,7 +106,8 @@ scheduling-steps-must-be-numbers = Steg måste vara siffror
 scheduling-tag-only = Tagga bara
 scheduling-the-default-configuration-cant-be-removed = Den förvalda konfigurationen kan inte tas bort.
 scheduling-your-changes-will-affect-multiple-decks = Dina ändringar kommer påverka flera kortlekar. Om du endast vill ändra nuvarande kortlek, vänligen lägg till en ny alternativgrupp först.
-scheduling-deck-updated = { $count ->
-    [one] { $count } kortlek uppdaterad.
-   *[other] { $count } kortlekar uppdaterade.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } kortlek uppdaterad.
+       *[other] { $count } kortlekar uppdaterade.
+    }

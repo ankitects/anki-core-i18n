@@ -1,10 +1,10 @@
-card-stats-added = Tillagda
+card-stats-added = Tillagd
 card-stats-first-review = Första repetitionen
 card-stats-latest-review = Senaste repetition
 card-stats-interval = Intervall
 card-stats-ease = Inlärningsgrad
 card-stats-review-count = Repetitioner
-card-stats-lapse-count = Bortglömda
+card-stats-lapse-count = Förfall
 card-stats-average-time = Genomsnittlig Tid
 card-stats-total-time = Sammanlagd Tid
 card-stats-new-card-position = Position
@@ -23,11 +23,18 @@ card-stats-review-log-type-review = Repetera
 card-stats-review-log-type-relearn = Lär om
 card-stats-review-log-type-filtered = Filtrerad
 card-stats-review-log-type-manual = Manuell
+card-stats-review-log-type-rescheduled = Schemalagd igen
+card-stats-review-log-elapsed-time = Förfluten tid
 card-stats-no-card = (Inga kort att visa.)
 card-stats-custom-data = Anpassad data
 card-stats-fsrs-stability = Stabilitet
 card-stats-fsrs-difficulty = Svårighetsgrad
 card-stats-fsrs-retrievability = Återkallningsgrad
+card-stats-fsrs-forgetting-curve-title = Förglömningskurva
+card-stats-fsrs-forgetting-curve-first-week = Första veckan
+card-stats-fsrs-forgetting-curve-first-month = Första månaden
+card-stats-fsrs-forgetting-curve-first-year = Första året
+card-stats-fsrs-forgetting-curve-all-time = Kortlekens livstid
 
 ## Window Titles
 

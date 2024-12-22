@@ -16,7 +16,7 @@ decks-increasing-intervals = Ökande intervaller
 decks-latest-added-first = Senast tillagda först
 decks-limit-to = Begränsa till
 decks-minutes = minuter
-decks-most-lapses = Flest försök
+decks-most-lapses = Flest förfall
 decks-new-deck-name = Namn på ny kortlek:
 decks-no-deck = [ingen kortlek]
 decks-oldest-seen-first = Äldsta sedda först
@@ -24,7 +24,6 @@ decks-order-added = Ordnade efter tilläggsdatum
 decks-order-due = Ordnade efter nästa repetition
 decks-please-select-something = Du måste välja någonting.
 decks-random = Slumpmässigt
-decks-relative-overdueness = Relativ förfallenhet
 decks-repeat-failed-cards-after = Repetera felsvarade kort efter
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = Förskjutning för { $button }
@@ -37,3 +36,8 @@ decks-learn-header = Att lära
 # The count of cards waiting to be reviewed
 decks-review-header = Aktuella
 decks-zero-minutes-hint = (0 = återvänd kort till ursprunglig kortlek)
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+decks-relative-overdueness = Relativ förfallenhet

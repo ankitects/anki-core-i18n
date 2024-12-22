@@ -26,6 +26,7 @@ card-templates-no-front-field = Förväntade att hitta en fältersättning på k
 card-templates-missing-cloze = Förväntade att hitta "{ "{{" }cloze:Text{ "}}" }" eller dylikt på fram- och baksidan av kortmallen.
 card-templates-extraneous-cloze = "cloze:" kan endast användas på lucktextsnottyper.
 card-templates-see-preview = Se förhandsvisningen för mer information.
+card-templates-field-not-found = Fältet '{ $field }' ej hittat
 card-templates-changes-saved = Ändringar sparade.
 card-templates-discard-changes = Kasta ändringar?
 card-templates-add-card-type = Lägg till korttyp...
