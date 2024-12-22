@@ -345,6 +345,11 @@ deck-config-updating-cards = Uppdaterar kort: { $current_cards_count }/{ $total_
 deck-config-invalid-parameters = De tillhandahållna FSRS-parametrarna är ogiltiga. Lämna dem blanka för att använda standardparametrarna.
 deck-config-not-enough-history = Otillräcklig repetitionshistorik för att utföra denna åtgärd.
 deck-config-unable-to-determine-desired-retention = Misslyckades att bestämma en minsta rekommenderad återkallningskvot.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Enbart { $count } repetition hittades. Åtminstone 400 repetitioner krävs för denna åtgärd.
+       *[other] Enbart { $count } repetitioner hittades. Åtminstone 400 repetitioner krävs för denna åtgärd.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS Parametrar
 deck-config-compute-optimal-weights = Optimera FSRS-parametrar
@@ -448,3 +453,7 @@ deck-config-desired-retention-below-optimal = Den önskade återkallningskvoten 
 
 deck-config-bury-siblings = Dölj syskon
 deck-config-do-not-bury = Dölj inte syskon
+deck-config-bury-if-new = Dölj om ny
+deck-config-bury-if-new-or-review = Dölj om ny eller repeterande
+deck-config-bury-if-new-review-or-interday = Dölj om ny, repeterande eller flerdagslöpande inlärning
+deck-config-predicted-optimal-retention = Minsta rekommenderad återkallningskvot: { $num }

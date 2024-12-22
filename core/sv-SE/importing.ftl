@@ -237,4 +237,6 @@ importing-overview = Översikt
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Importerar samling...
+importing-unable-to-import-filename = Kunde inte importera { $filename }: filtyp stöds ej
+importing-notes-that-could-not-be-imported = Noter som inte kunde importeras som nottyp har ändrats: { $val }
 importing-added = Tillagda

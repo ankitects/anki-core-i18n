@@ -2,6 +2,7 @@ studying-again = Igen
 studying-all-buried-cards = Alla gömda kort
 studying-audio-5s = Ljud -5s
 studying-audio-and5s = Ljud +5s
+studying-buried-siblings = Dolda syskon
 studying-bury = Göm
 studying-bury-card = Göm kort
 studying-bury-note = Göm not
@@ -14,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Korten kommer automatiskt att återföras till sina originalkortlekar efter att du repeterat dem.
 studying-continue = Fortsätt
+studying-counts-differ = Antal skiljer sig från kortlekslistan eftersom döljande är aktiverat. Vissa kort har exkluderats, och andra kan ha tagit deras plats.
 studying-delete-note = Ta bort not
 studying-deleting-this-deck-from-the-deck = Raderas denna kortlek returneras alla kvarstående kort till sina ursprungliga kortlekar.
 studying-easy = Lätt
@@ -42,6 +44,7 @@ studying-this-is-a-special-deck-for = Detta är en specialkortlek för att stude
 studying-to-review = Att repetera
 studying-type-answer-unknown-field = Skriv svar: okänt fält { $val }
 studying-unbury = Visa gömda
+studying-what-would-you-like-to-unbury = Vad önskas visas?
 studying-you-havent-recorded-your-voice-yet = Du har inte spelat in din röst ännu.
 studying-card-studied-in =
     { $count ->
@@ -53,3 +56,5 @@ studying-minute =
         [one] { $count } minut.
        *[other] { $count } minuter.
     }
+studying-question-time-elapsed = Frågotid förfluten
+studying-answer-time-elapsed = Svarstid förfluten

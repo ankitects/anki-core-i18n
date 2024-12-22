@@ -82,9 +82,11 @@ scheduling-today-new-limit-reached =
     per dag är nådd. Du kan ändra detta i inställningarna, men
     kom ihåg att ju fler nya kort du för in, desto tyngre
     blir arbetsbördan med fler repetitioner under den närmsta tiden.
+scheduling-buried-cards-found = Ett eller flera kort doldes och kommer visas imorgon. Det går att { $unburyThem } om de önskas framställas omedelbart.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = visa dem
+scheduling-how-to-custom-study = Vid önskan att studera utanför det regelbundna schemat kan funktionen { $customStudy } användas.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = anpassade studier
@@ -96,9 +98,13 @@ scheduling-update-done = Schemaläggare uppdaterades framgångsrikt.
 scheduling-update-button = Uppdatera
 scheduling-update-later-button = Senare
 scheduling-update-more-info-button = Läs mer
+scheduling-update-required =
+    Samlingen måste uppgraderas till V2-schemaläggaren.
+    Var god välj { scheduling-update-more-info-button } innan vidare åtgärd.
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = Inkludera alltid frågosidan när ljud spelas igen
 scheduling-at-least-one-step-is-required = Åtminstone ett steg krävs.
 scheduling-automatically-play-audio = Spela upp ljud automatiskt
 scheduling-bury-related-new-cards-until-the = Göm relaterade nya kort tills nästa dag
@@ -109,8 +115,10 @@ scheduling-easy-bonus = Enkel bonus
 scheduling-easy-interval = Lätt intervall
 scheduling-end = (slut)
 scheduling-general = Allmänt
+scheduling-graduating-interval = Befordringsintervall
 scheduling-hard-interval = Hårt intervall
 scheduling-ignore-answer-times-longer-than = Ignorera svarstider längre än
+scheduling-interval-modifier = Intervallfaktor
 scheduling-lapses = Förfall
 scheduling-lapses2 = förfall
 scheduling-learning = Nya
@@ -126,6 +134,9 @@ scheduling-new-interval = Nytt intervall
 scheduling-new-options-group-name = Namn på ny alternativgrupp:
 scheduling-options-group = Alternativgrupp:
 scheduling-order = Ordning
+scheduling-parent-limit = (föräldrabegränsning: { $val })
+scheduling-reset-counts = Återställ repetitions- och förfalloantal
+scheduling-restore-position = Återställ ursprunglig position där möjligt
 scheduling-review = Repetera
 scheduling-reviews = Repetitioner
 scheduling-seconds = sekunder
@@ -146,4 +157,23 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } kortlek uppdaterad.
        *[other] { $count } kortlekar uppdaterade.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Visa kort om hur många dagar?
+       *[other] Visa kort om hur många dagar?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = idag
+    1! = imorgon + ändra intervall till 1
+    3-7 = slumpat val av 3-7 dagar
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Sätt förfallodatum för { $cards } kort.
+       *[other] Sätt förfallodatum för { $cards } kort.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Återställ { $cards } kort.
+       *[other] Återställ { $cards } kort.
     }

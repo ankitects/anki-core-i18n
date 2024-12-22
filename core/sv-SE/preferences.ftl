@@ -80,8 +80,12 @@ preferences-shortcut-placeholder = Inmata en oanvänd tangentbordsgenväg, eller
 preferences-third-party-services = Tredjepartstjänster
 preferences-ankihub-not-logged-in = För närvarande ej inloggad till AnkiHub.
 preferences-ankiweb-intro = AnkiWeb är en gratistjänst som synkroniserar kortlekar mellan enheter och tillhandahåller ett sätt att återhämta data om en enhet går sönder eller borttappas.
+preferences-ankihub-intro = AnkiHub tillhandahåller samarbete i kortleksredigering och ytterligare studeringsverktyg. En betald prenumeration krävs för att åtkomma vissa funktioner.
+preferences-third-party-description = Tredjepartstjänster är ej anknutna till eller stödda av Anki. Användning av dessa tjänster kan fordra betalning.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Grundläggande
+preferences-reviewer = Repeterare
 preferences-media = Media
+preferences-not-logged-in = För närvarande ej inloggad till AnkiWeb.

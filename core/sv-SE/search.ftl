@@ -5,6 +5,10 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = Ogiltig sökning: { $reason }
+search-misplaced-and = ett `and` hittades men förbinder inte två söktermer. Om själva ordet önskas sökas, citera det i dubbla citattecken: `"and"`.
+search-misplaced-or = ett `or` hittades men förbinder inte två söktermer. Om själva ordet önskas sökas, citera det i dubbla citattecken: `"or"`.
+# Here, the ellipsis "..." may be localised.
+search-empty-group = en grupp `(...)` hittades, men det fanns inget mellan parenteserna att söka efter. Om bokstavliga parenteser önskas sökas, citera dem i dubbla citattecken: `"( )"`.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
