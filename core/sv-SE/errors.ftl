@@ -3,6 +3,10 @@ errors-filtered-parent-deck = Filtrerade kortlekar kan inte ha underkortlekar.
 errors-filtered-deck-required = Denna handling kan bara utföras på en filtrerad kortlek.
 errors-multiple-notetypes-selected = Vänligen välj noter av endast en nottyp.
 errors-please-check-database = Vänligen använd funktionen Check Database, och försök sedan igen.
+errors-please-check-media = Var god använd Granska media-åtgärden, och försök sedan igen.
+errors-collection-too-new = Denna samlingen kräver en nyare version av Anki för att öppnas.
+errors-invalid-ids = Denna kortlek innehåller tidsstämplar i framtiden. Var god kontakta kortleksförfattaren och be vederbörande att lösa felet.
+errors-inconsistent-db-state = Databasen förefaller vara i ett inkonsekvent tillstånd. Var god använd Kontrollera databas-åtgärden.
 
 ## Card Rendering
 

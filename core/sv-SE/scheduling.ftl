@@ -7,6 +7,7 @@ scheduling-answer-button-time-seconds = { $amount } sek
 scheduling-answer-button-time-minutes = { $amount } min
 scheduling-answer-button-time-hours = { $amount } tim.
 scheduling-answer-button-time-days = { $amount } dag
+scheduling-answer-button-time-months = { $amount }mån
 scheduling-answer-button-time-years = { $amount } år
 
 ## A span of time, such as the delay until a card is shown again, the
@@ -47,6 +48,30 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    { $unit ->
+        [seconds]
+            { $amount ->
+                [one] Nästa inlärningskort kommer vara redo om { $amount } sekund.
+               *[other] Nästa inlärningskort kommer vara redo om { $amount } sekunder.
+            }
+        [minutes]
+            { $amount ->
+                [one] Nästa inlärningskort kommer vara redo om { $amount } minut.
+               *[other] Nästa inlärningskort kommer vara redo om { $amount } minuter.
+            }
+       *[hours]
+            { $amount ->
+                [one] Nästa inlärningskort kommer vara redo om { $amount } timme.
+               *[other] Nästa inlärningskort kommer vara redo om { $amount } timmar.
+            }
+    }
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Det finns ett återstående inlärningskort aktuellt senare idag.
+       *[other] Det finns { $remaining } återstående inlärningskort aktuella senare idag.
+    }
 scheduling-congratulations-finished = Grattis! Du är klar med den här kortleken för idag.
 scheduling-today-review-limit-reached =
     Gränsen för hur många kort du får repetera per dag är nådd,
@@ -57,9 +82,20 @@ scheduling-today-new-limit-reached =
     per dag är nådd. Du kan ändra detta i inställningarna, men
     kom ihåg att ju fler nya kort du för in, desto tyngre
     blir arbetsbördan med fler repetitioner under den närmsta tiden.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = visa dem
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = anpassade studier
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 kommer med en ny schemaläggare som fixar ett antal fel som tidigare Ankiversioner hade. Uppdatering till den rekommenderas.
+scheduling-update-done = Schemaläggare uppdaterades framgångsrikt.
+scheduling-update-button = Uppdatera
+scheduling-update-later-button = Senare
+scheduling-update-more-info-button = Läs mer
 
 ## Other scheduling strings
 

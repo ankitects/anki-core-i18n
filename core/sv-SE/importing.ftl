@@ -37,14 +37,26 @@ importing-mapped-to-tags = parades ihop med <b>etiketter</b>
 importing-merge-notetypes = Sammanfoga nottyper
 importing-mnemosyne-20-deck-db = Kortlek för Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatorer med fler än ett tecken stöds inte. Skriv in endast ett tecken.
+importing-notes-added-from-file = Noter tillagda från filen: { $val }
+importing-notes-found-in-file = Noter hittade i filen: { $val }
+importing-notes-skipped-as-theyre-already-in = Noter skippade eftersom aktuella kopior redan finns i samlingen: { $val }
+importing-notes-skipped-update-due-to-notetype = Noter ej uppdaterade eftersom nottypen har modifierats sedan noterna först importerades: { $val }
+importing-notes-updated-as-file-had-newer = Noter uppdaterade, eftersom filen hade en mer aktuell version: { $val }
 importing-include-reviews = Inkludera repetitioner
+importing-also-import-progress = Importera inlärningsframsteg
+importing-with-deck-configs = Importera kortleksförinställningar
 importing-updates = Uppdateringar
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketerad Ankikortlek/-samling (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
+# the '|' character
+importing-pipe = Pipa
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hade { $found } fält, förväntat antal är { $expected }
 importing-selected-file-was-not-in-utf8 = Den valda filen var inte i UTF-8-format. Se avsnittet i manualen om att importera.
 importing-semicolon = Semikolon
+importing-skipped = Skippad
 importing-supermemo-xml-export-xml = XML-export för Supermemo (*.xml)
 importing-tab = Tabb
+importing-tag-modified-notes = Tagga ändrade noter
 importing-text-separated-by-tabs-or-semicolons = Text separerad med tabbar eller semikolon (*)
 importing-the-first-field-of-the-note = Det första fältet i nottypen måste paras ihop.
 importing-the-provided-file-is-not-a = Den angivna filen är inte en giltig .apkg-fil.
@@ -88,6 +100,16 @@ importing-importing-file = Importerar fil...
 importing-extracting = Extraherar data...
 importing-gathering = Samlar data...
 importing-failed-to-import-media-file = Misslyckades med att importera mediafil: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] { $count } not behandlad...
+       *[other] { $count } noter behandlade...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } kort behandlat...
+       *[other] { $count } kort behandlade...
+    }
 importing-existing-notes = Existerande noter
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Duplicera
@@ -95,7 +117,13 @@ importing-duplicate = Duplicera
 importing-preserve = Bevara
 # "Existing notes: Update" (verb)
 importing-update = Uppdatera
+importing-tag-all-notes = Tagga alla noter
+importing-tag-updated-notes = Tagga uppdaterade noter
 importing-file = Fil
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Matchningskontext
+# Used with the 'match scope' option
+importing-notetype-and-deck = Nottyp och kortlek
 importing-cards-added =
     { $count ->
         [one] { $count } kort tillagt.
@@ -107,15 +135,39 @@ importing-notes-added =
         [one] { $count } ny not importerad.
        *[other] { $count } nya noter importerade.
     }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } not användes för att uppdatera befintliga noter.
+       *[other] { $count } noter användes för att uppdatera befintliga noter.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } not finns redan i samlingen.
+       *[other] { $count } noter finns redan i samlingen.
+    }
 importing-notes-failed =
     { $count ->
         [one] { $count } not kunde inte importeras.
        *[other] { $count } noter kunde inte importeras.
     }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } not importerades ej eftersom dess nottyp har förändrats.
+       *[other] { $count } noter importerades ej eftersom deras nottyper har förändrats.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } not importerades ej eftersom dess nottyp har ändrats samt att '{ importing-merge-notetypes }' inte har aktiverats.
+       *[other] { $count } noter importerades ej eftersom deras nottyper har ändrats samt att '{ importing-merge-notetypes }' inte har aktiverats.
+    }
+importing-import-log = Importlogg
+importing-no-notes-in-file = Inga noter hittades i filen.
 importing-show = Visa
 importing-details = Detaljer
 importing-status = Status
+importing-duplicate-note-added = Dubblettnot tillagd
 importing-added-new-note = Ny not tillagd
+importing-overview = Översikt
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

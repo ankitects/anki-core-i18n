@@ -38,8 +38,16 @@ notetypes-type = Typ
 ## Image Occlusion
 
 notetypes-image = Bild
+notetypes-occlusion-mask = Maskering
+notetypes-occlusion-note = Not
 notetypes-comments-field = Kommentarer
+notetypes-toggle-masks = Växla maskering
+notetypes-image-occlusion-name = Bildskymning
 notetypes-hide-all-guess-one = Dölj alla, gissa en
 notetypes-hide-one-guess-one = Dölj alla, gissa en
+notetypes-error-generating-cloze = Ett fel uppstod när en bildskymningsnot skapades
+notetypes-error-getting-imagecloze = Ett fel uppstod när en bildskymningsnot hämtades
+notetype-error-no-image-to-show = Ingen bild att visa.
+notetypes-no-occlusion-created = Åtminstone en skymning måste skapas.
 notetypes-io-select-image = Välj bild
 notetypes-io-paste-image-from-clipboard = Infoga bild från urklipp
