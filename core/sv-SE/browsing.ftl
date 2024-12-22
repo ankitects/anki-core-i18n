@@ -93,8 +93,8 @@ browsing-sorting-on-this-column-is-not = Den här kolumnen går inte att sortera
 browsing-start-position = Startposition:
 browsing-step = Steg:
 browsing-suspended = Uteslutet
-browsing-tag-duplicates = Tagga dubletter
-browsing-tag-rename-warning-empty = Du kan inte döpa om en tagg som är utan noter.
+browsing-tag-duplicates = Märk dubbletter med etikett
+browsing-tag-rename-warning-empty = En etikett utan noter kan inte döpas om.
 browsing-target-field = Målfält:
 browsing-toggle-bury = Växla dold
 browsing-toggle-showing-cards-notes = Växla kort/noter
@@ -131,7 +131,7 @@ browsing-sidebar-collapse = Minimera
 browsing-sidebar-expand-children = Expandera barn
 browsing-sidebar-collapse-children = Minimera barn
 browsing-sidebar-decks = Kortlekar
-browsing-sidebar-tags = Taggar
+browsing-sidebar-tags = Etiketter
 browsing-sidebar-notetypes = Nottyper
 browsing-sidebar-saved-searches = Sparade sökningar
 browsing-sidebar-save-current-search = Spara nuvarande sökning
@@ -139,7 +139,7 @@ browsing-sidebar-card-state = Kortstatus
 browsing-sidebar-flags = Flaggor
 browsing-today = Idag
 browsing-tooltip-card-modified = Senaste gången ändringar gjordes till ett kort, inklusive repetitioner, flaggor och kortleksändringar
-browsing-tooltip-note-modified = Senaste gången ändringar gjordes till en not, vanligtvis fältinnehåll eller taggändringar
+browsing-tooltip-note-modified = Senaste gången ändringar gjordes till en not, vanligtvis fältinnehåll eller etikettändringar
 browsing-tooltip-card = Namnet på ett korts kortmall
 browsing-tooltip-cards = Antalet kort en not har
 browsing-tooltip-notetype = Namnet på en nots nottyp
@@ -152,13 +152,13 @@ browsing-edited-today = Redigerade
 browsing-sidebar-first-review = Första repetitionen
 browsing-sidebar-rescheduled = Schemalagd igen
 browsing-sidebar-due-today = Aktuella
-browsing-sidebar-untagged = Ej taggad
+browsing-sidebar-untagged = Utan etikett
 browsing-sidebar-overdue = Förfallna
 browsing-row-deleted = (borttagen)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Tog bort { $count } oanvänd tagg.
-       *[other] Tog bort { $count } oanvända taggar.
+        [one] Tog bort { $count } oanvänd etikett.
+       *[other] Tog bort { $count } oanvända etikett.
     }
 browsing-changed-new-position =
     { $count ->

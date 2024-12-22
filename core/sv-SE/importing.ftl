@@ -58,7 +58,7 @@ importing-with-deck-configs = Importera kortleksförinställningar
 importing-updates = Uppdateringar
 importing-include-reviews-help =
     Om aktiverad kommer tidigare repetitioner som kortleksförfattaren inkluderat också att importeras.
-    Annars kommer alla kort importeras som nya kort, och alla 'leech'- eller 'marked'-taggar
+    Annars kommer alla kort importeras som nya kort, och alla 'leech'- eller 'marked'-etiketter
     tas bort.
 importing-with-deck-configs-help =
     Om aktiverad kommer eventuella kortleksinställningar som författaren inkluderat också att importeras.
@@ -73,7 +73,7 @@ importing-semicolon = Semikolon
 importing-skipped = Skippad
 importing-supermemo-xml-export-xml = XML-export för Supermemo (*.xml)
 importing-tab = Tabb
-importing-tag-modified-notes = Tagga ändrade noter
+importing-tag-modified-notes = Märk ändrade noter med etikett:
 importing-text-separated-by-tabs-or-semicolons = Text separerad med tabbar eller semikolon (*)
 importing-the-first-field-of-the-note = Det första fältet i nottypen måste paras ihop.
 importing-the-provided-file-is-not-a = Den angivna filen är inte en giltig .apkg-fil.
@@ -142,8 +142,8 @@ importing-duplicate = Duplicera
 importing-preserve = Bevara
 # "Existing notes: Update" (verb)
 importing-update = Uppdatera
-importing-tag-all-notes = Tagga alla noter
-importing-tag-updated-notes = Tagga uppdaterade noter
+importing-tag-all-notes = Märk alla noter med etikett
+importing-tag-updated-notes = Märk uppdaterade noter med etikett
 importing-file = Fil
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Matchningskontext
@@ -230,8 +230,8 @@ importing-existing-notes-help =
 importing-match-scope-help =
     Endast befintliga noter med samma nottyp kommer kontrolleras för dubletter. Detta kan
     dessutom begränsas till noter med kort i samma kortlek.
-importing-tag-all-notes-help = Dessa taggar kommer läggas till både nyligen importerade och uppdaterade noter.
-importing-tag-updated-notes-help = Dessa taggar kommer läggas till eventuella uppdaterade noter.
+importing-tag-all-notes-help = Dessa etiketter kommer läggas till både nyligen importerade och uppdaterade noter.
+importing-tag-updated-notes-help = Dessa etiketter kommer läggas till eventuella uppdaterade noter.
 importing-overview = Översikt
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

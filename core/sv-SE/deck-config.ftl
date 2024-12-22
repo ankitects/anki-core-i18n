@@ -98,7 +98,7 @@ deck-config-leech-threshold-tooltip =
     komma på en minnesregel som gör det lättare att komma ihåg kortet.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Tagga endast`: Lägger till en 'leech'-tagg (energislukare-tagg) till noten och visar en notis.
+    `Tagga endast`: Lägger till en 'leech'-etikett (energislukare-etikett) till noten och visar en notis.
     `Uteslut kort`: Utöver att tagga kortet, döljs kortet tills det
     manuellt inbegrips.
 
@@ -332,7 +332,7 @@ deck-config-reviews-too-low =
     }
 deck-config-learning-step-above-graduating-interval = Befordringsintervallet bör vara åtminstone lika långt som det sista inlärningssteget.
 deck-config-good-above-easy = Lättintervallet bör vara åtminstone lika långt som befordringsintervallet.
-deck-config-relearning-steps-above-minimum-interval = Det minsta förfallointervallet borde vara åtminstone lika långt som det sista ominlärningssteget.
+deck-config-relearning-steps-above-minimum-interval = Det minsta bortglömningsintervallet borde vara åtminstone lika långt som det sista ominlärningssteget.
 deck-config-maximum-answer-secs-above-recommended = Anki kan schemalägga repetitioner mer effektivt om varje enskild fråga är kortfattad.
 
 ## Selecting a deck
@@ -456,4 +456,55 @@ deck-config-do-not-bury = Dölj inte syskon
 deck-config-bury-if-new = Dölj om ny
 deck-config-bury-if-new-or-review = Dölj om ny eller repeterande
 deck-config-bury-if-new-review-or-interday = Dölj om ny, repeterande eller flerdagslöpande inlärning
+deck-config-bury-tooltip =
+    Syskon är andra kort från samma not (e.g. fram/omvända kort, eller andra
+    lucktexter från samma text).
+    
+    När detta alternativ är inaktiverat kan många kort från samma not visas på samma
+    dag. När detta alternativ är aktiverat kommer Anki att *dölja* syskon, vilket gömmer dem tills nästa
+    dag. Detta alternativ tillåter att välja vilken sorts kort som döljs när en av deras
+    syskon besvaras.
+    
+    När V3-schemaläggaren används kommer flerdagslöpande inlärningskort också att begravas. Flerdagslöpande
+    inlärningskort är kort som har ett nuvarande inlärningssteg på mer än en dag.
+deck-config-seconds-to-show-question-tooltip = När automatisk fortsättning är aktiverad, antalet sekunder att vänta innan svaret avslöjas. Sätt till 0 för att inaktivera.
+deck-config-answer-action-tooltip = Åtgärden att utföra på det nuvarande kortet innan automatisk fortsättning till nästa kort.
+deck-config-wait-for-audio-tooltip = Vänta på att ljudet spelas klart innan automatiskt avslöjande av svaret eller nästa fråga.
+deck-config-ignore-before-tooltip =
+    Om aktiverat kommer repeterade före det tillhandahållna datumet att ignoreras när FSRS-parametrarna optimeras & utvärderas.
+    Detta kan vara användbart om någon annans schemaläggningsdata har importerats, eller sättet svarsknapparna brukas är annorlunda.
+deck-config-compute-optimal-retention-tooltip =
+    Detta verktyg antar att 0 kort börjas med och kommer försöka beräkna mängden innehåll som kommer
+    ihågkommas i den tillhandahållna tidsramen. Den uppskattade återkallningsgraden kommer skilja sig vitt beroende på inmatningarna,
+    och om den skiljer sig avsevärt från 0,9 är det ett tecken att tiden allokerad varje dag är för lite eller för mycket
+    för den mängd kort som studeras. Detta tal kan tjäna som en referens, men rekommenderas inte att kopieras till
+    fältet för önskad återkallningskvot.
+deck-config-compute-optimal-retention = Beräkna minsta rekommenderad återkallningskvot
 deck-config-predicted-optimal-retention = Minsta rekommenderad återkallningskvot: { $num }
+deck-config-weights-tooltip =
+    FSRS-parametrar påverkar hur korten schemaläggs. Anki kommer utgå från standardparametrarna. När 1000+ repetitioner har ansamlats kan alternativet nedan kan användas för att optimera parametrarna för att bäst
+    överensstämma med de kortlekar som använder denna förinställning.
+deck-config-compute-optimal-weights-tooltip =
+    När 1000+ repetitioner har utförts i Anki kan Optimera-knappen användas för att FSRS ska analysera repetitionshistoriken och automatiskt generera parametrar som
+    är optimala för användarens minnesförmåga och det studerade innehållet. Om kortlekar finns som skiljer sig avsevärt i svårighetsgrad
+    rekommenderas att de tilldelas olika förinställningar, eftersom parametrarna för lätta och svåra kortlekar kommer skilja sig.
+    Parametrarna behöver ej justeras ofta - några månaders mellanrum är tillräckligt ofta.
+    
+    Som standard kommer parametrar att beräknas utifrån repetitionshistoriken för alla kortlekar som använder den valda förinställningen.
+    Sökningen kan valfritt justeras innan parametrarna beräknas om de kort som ingår i beräkningen önskas ändras.
+deck-config-compute-optimal-retention-tooltip2 =
+    Detta verktyg antar att 0 inlärda kort finns och kommer försöka hitta den önskade återkallningskvot
+    som kommer leda till att mest material lärs på minst tid. Det beräknade talet kan tjäna som ett referensvärde
+    vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
+    tiden läggs ned för en högre återkallningsgrad. Att sätta den önskade återkallningskvoten under minimivärdet
+    rekommenderas ej, då det kommer leda till mer arbete utan någon vinst.
+deck-config-compute-optimal-retention-tooltip3 =
+    Detta verktyg antar att 0 inlärda kort finns och kommer försöka hitta den önskade återkallningskvot
+    som kommer leda till att mest material lärs på minst tid. För att precist simulera inlärningsframsteg
+    kräver detta verktyg åtminstone 400+ repetitioner. Det beräknade talet kan tjäna som ett referensvärde
+    vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
+    tiden läggs ned för en högre återkallningsgrad. Att sätta den önskade återkallningskvoten under minimivärdet
+    rekommenderas ej, då det kommer leda till en högre arbetsbelastning, på grund av den höga andelen kort som bortglöms.
+deck-config-seconds-to-show-question-tooltip-2 = När automatisk fortsättning är aktiverat, antalet sekunder att vänta innan svaret avslöjas. Sätt till 0 för att inaktivera.
+deck-config-invalid-weights = Parametrarna måste antingen lämnas blanka för att använda standardvärdena, eller vara 17 kommaseparerade tal.
+deck-config-fsrs-on-all-clients = Var god försäkra att alla Anki-klienter är Anki(Mobile) 23.10+ eller AnkiDroid 2.17+. FSRS kommer inte fungera korrekt om en av klienterna är äldre.
