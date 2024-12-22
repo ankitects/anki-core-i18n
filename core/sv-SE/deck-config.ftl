@@ -369,6 +369,59 @@ deck-config-fsrs-tooltip =
     FSRS (Free Spaced Repetition Scheduler) är ett alternativ till den gamla schemaläggaren för Anki, SuperMemo 2 (SM-2).
     Genom att med en högre precision bestämma sannolikheten att ett kort glöms bidrar den nya schemaläggaren till att
     mer information kan memoreras på samma tid. Denna inställning delas för alla förinställningar.
+deck-config-desired-retention-tooltip =
+    Standardvärdet 0,9 schemalägger kort så att sannolikheten att ett visst kort återkallas är 90% när
+    det visas för repetition igen. Om detta värde ökas kommer Anki att visa kort oftare för att öka
+    sannolikheten att de återkallas. Om detta värde minskas kommer Anki att visa kort mer sällan,
+    och fler av korten kommer att glömmas. Var återhållsam vid justering av denna inställning - högre
+    värden kommer öka arbetsbelastningen mycket, och lägre värden kan orsaka missmod när mycket
+    information bortglöms.
+deck-config-historical-retention-tooltip =
+    När en del av repetitionshistoriken saknas måste FSRS fylla i luckorna. Som standard kommer
+    FSRS anta att, när de gamla repetitionerna utfördes, återkallades 90% av korten. Om den gamla
+    återkallningskvoten var avsevärt högre eller lägre än 90% låter denna inställning FSRS bättre
+    uppskatta de saknade repetitionerna.
+    
+    Repetitionshistoriken kan vara ofullständig av två anledningar:
+    1. Eftersom alternativet 'ignorera tidigare repeterade kort' är aktiverat.
+    2. Eftersom repetitionsloggar tidigare har raderats för att frigöra lagringsutrymme, eller eftersom material importerats
+    från ett annat SRS-program.
+    
+    Det senare är tämligen ovanligt, så om inte det tidigare alternativet inte är aktiverat behöver detta alternativ troligen
+    inte justeras.
+deck-config-weights-tooltip2 =
+    FSRS-parametrar påverkar hur korten schemaläggs. Anki kommer utgå från standardparametrarna. Alternativet
+    nedan kan användas för att optimera parametrarna för att bäst överensstämma med de kortlekar som använder denna förinställning.
+deck-config-reschedule-cards-on-change-tooltip =
+    Påverkar hela samlingen, och sparas ej.
+    
+    Detta alternativ styr huruvida förfallodatum för kort kommer ändras när FSRS aktiveras eller parametrarna
+    optimeras. Standard är att inte schemalägga kort igen: framtida repetitioner kommer använda den nya schemaläggningen, men
+    det kommer inte vara någon omedelbar förändring i arbetsbelastningen. Om schemaläggning igen är aktiverat kommer förfallodatumen
+    för kort att förändras.
+deck-config-reschedule-cards-warning =
+    Beroende på den önskade återkallningskvoten kan detta resultera i att ett stort antal kort
+    blir aktuella, så detta rekommenderas ej vid det inledande bytet från SM-2.
+    
+    Använd detta alternativ förbehållsamt, då det kommer lägga till en repetitionspost för varje kort
+    och därmed öka storleken på samlingen.
+deck-config-ignore-before-tooltip-2 =
+    Om aktiverat kommer kort repeterade före det tillhandahållna datumet att ignoreras när FSRS-parametrarna optimeras.
+    Detta kan vara användbart om någon annans schemaläggningsdata har importerats, eller sättet svarsknapparna brukas är annorlunda.
+deck-config-compute-optimal-weights-tooltip2 =
+    När Optimera-knappen nedtrycks kommer FSRS att analysera repetitionshistoriken och generera parametrar som
+    är optimala för användarens minnesförmåga och det studerade innehållet. Om kortlekarna skiljer sig avsevärt i svårighetsgrad
+    rekommenderas att de tilldelas olika förinställningar, eftersom parametrarna för lätta och svåra kortlekar kommer skilja sig.
+    Parametrarna behöver ej justeras ofta - några månaders mellanrum är tillräckligt ofta.
+    
+    Som standard kommer parametrar att beräknas utifrån repetitionshistoriken för alla kortlekar som använder den valda förinställningen.
+    Sökningen kan valfritt justeras innan parametrarna beräknas om de kort som ingår i beräkningen önskas ändras.
+deck-config-compute-optimal-retention-tooltip4 =
+    Detta verktyg kommer försöka hitta den önskade återkallningskvot
+    som kommer leda till att mest material lärs på minst tid. Det beräknade talet kan tjäna som ett referensvärde
+    vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
+    tiden läggs ned för att uppnå den. Att sätta den önskade återkallningskvoten under minimivärdet
+    rekommenderas ej, då det kommer leda till en högre arbetsbelastning på grund av det höga andelen kort som bortglöms.
 deck-config-please-save-your-changes-first = Vänligen spara dina ändringar först.
 deck-config-a-100-day-interval =
     { $days ->
@@ -380,12 +433,16 @@ deck-config-percent-of-reviews =
         [one] { $pct }% av { $reviews } repetition
        *[other] { $pct }% av { $reviews } repetitioner
     }
+deck-config-optimizing-preset = Optimerar förinställning { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = FSRS måste vara aktiverat först.
+deck-config-fsrs-params-optimal = FSRS-parametrarna förefaller redan vara optimala.
 deck-config-wait-for-audio = Vänta på ljud
 deck-config-show-reminder = Visa påminnelse
 deck-config-answer-again = Svara "igen"
 deck-config-answer-hard = Svara "svårt"
 deck-config-answer-good = Svara "bra"
 deck-config-days-to-simulate = Dagar att simulera
+deck-config-desired-retention-below-optimal = Den önskade återkallningskvoten är under det optimala värdet. Att öka den rekommenderas.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

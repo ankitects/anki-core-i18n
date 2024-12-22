@@ -20,8 +20,13 @@ media-check-extracted-count = Extraherade bilder: { $count }
 
 media-check-renamed-header = Några filer har döpts om av kompabilitetsskäl:
 media-check-oversize-header = Filer större än 100 MB kan inte synkas med AnkiWeb.
+media-check-subfolder-header = Underkataloger i mediakatalogen stöds ej.
 media-check-missing-header = Används på kort men saknas i mediamappen:
 media-check-unused-header = Följande filer hittades i media-mappen, men verkar inte användas i något kort:
+media-check-template-references-field-header =
+    Anki kan inte upptäcka använda filer när { "{{Field}}" }-referenser används i media/LaTeX-taggar. Media/LaTeX-taggar bör istället placeras på individuella noter.
+    
+    Referensmallar:
 
 ## Shown once for each file
 

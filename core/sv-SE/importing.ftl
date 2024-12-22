@@ -35,6 +35,16 @@ importing-mapped-to = parades ihop med <b>{ $val }</b>
 importing-mapped-to-tags = parades ihop med <b>etiketter</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Sammanfoga nottyper
+importing-merge-notetypes-help =
+    Om aktiverad, och användaren eller kortleksförfattaren har ändrat på schemat för en nottyp, kommer
+    Anki att sammanfoga de två varianterna istället för att behålla båda.
+    
+    Att ändra på schemat för en nottyp innebär att lägga till, ta bort eller ändra ordningen på fält eller mallar,
+    eller ändra vilket fält som är sorteringsfält.
+    Som ett motexempel utgör ändringar på framsidan av en befintlig mall *inte*
+    en schemaförändring.
+    
+    Varning: Detta kommer kräva en envägssynkronisering, och kan märka befintliga noter som modifierade.
 importing-mnemosyne-20-deck-db = Kortlek för Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatorer med fler än ett tecken stöds inte. Skriv in endast ett tecken.
 importing-notes-added-from-file = Noter tillagda från filen: { $val }
@@ -46,6 +56,13 @@ importing-include-reviews = Inkludera repetitioner
 importing-also-import-progress = Importera inlärningsframsteg
 importing-with-deck-configs = Importera kortleksförinställningar
 importing-updates = Uppdateringar
+importing-include-reviews-help =
+    Om aktiverad kommer tidigare repetitioner som kortleksförfattaren inkluderat också att importeras.
+    Annars kommer alla kort importeras som nya kort, och alla 'leech'- eller 'marked'-taggar
+    tas bort.
+importing-with-deck-configs-help =
+    Om aktiverad kommer eventuella kortleksinställningar som författaren inkluderat också att importeras.
+    Annars kommer alla kortlekar att tilldelas standardförinställningen.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketerad Ankikortlek/-samling (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
 # the '|' character
@@ -70,7 +87,15 @@ importing-update-if-newer = Om nyare
 importing-update-always = Alltid
 importing-update-never = Aldrig
 importing-update-notes = Uppdatera noter
+importing-update-notes-help =
+    När en befintlig not bör uppdateras. Som standard utförs detta endast
+    om den matchande importerade noten var mer nyligen ändrad.
 importing-update-notetypes = Uppdatera nottyper
+importing-update-notetypes-help =
+    När en befintlig not bör uppdateras i samlingen. Som standard utförs detta endast
+    om den matchande importerade noten var mer nyligen ändrad. Ändringar till mallens innehåll
+    och stil kan alltid importeras, men för schemaförändringar (t.ex. att antalet eller ordningen för
+    fälten har ändrats), måste alternativet '{ importing-merge-notetypes }' också vara aktiverat.
 importing-note-added =
     { $count ->
         [one] { $count } not tillagd
@@ -162,11 +187,51 @@ importing-conflicting-notes-skipped2 =
     }
 importing-import-log = Importlogg
 importing-no-notes-in-file = Inga noter hittades i filen.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } not hittad i filen. Av dessa:
+       *[other] { $notes } noter hittade i filen. Av dessa:
+    }
 importing-show = Visa
 importing-details = Detaljer
 importing-status = Status
 importing-duplicate-note-added = Dubblettnot tillagd
 importing-added-new-note = Ny not tillagd
+importing-existing-note-skipped = Not skippades eftersom en à jour kopia redan finns i samlingen
+importing-note-skipped-update-due-to-notetype = Not uppdaterades inte, eftersom nottypen har ändrats sedan noten först importerades
+importing-note-skipped-update-due-to-notetype2 = Not uppdaterades inte, eftersom nottypen har ändrats sedan noten först importerades, och '{ importing-merge-notetypes }' ej var aktiverat
+importing-note-updated-as-file-had-newer = Not uppdaterades eftersom filen hade en nyare version
+importing-note-skipped-due-to-missing-notetype = Not skippades eftersom dess nottyp saknades
+importing-note-skipped-due-to-missing-deck = Not skippades eftersom dess kortlek saknades
+importing-note-skipped-due-to-empty-first-field = Not skippades eftersom dess första fält var tomt
+importing-field-separator-help =
+    Tecknet som separerar fält i textfilen. Förhandsgranskningen kan användas
+    för att kontrollera att fälten separeras korrekt.
+    
+    Var god notera att om detta tecken förekommer i något fält måste fältet
+    citeras enligt CSV-standarden. Kalkylprogram som LibreOffice
+    gör detta automatiskt.
+importing-allow-html-in-fields-help =
+    Aktivera detta om filen innehåller HTML-formattering. Om filen t.ex. innehåller strängen
+    '&lt;br&gt;' kommer den visas som en radbrytning på kortet. Däremot, om detta
+    alternativ är inaktiverat kommer bokstavligen tecknen '&lt;br&gt;' att visas.
+importing-notetype-help =
+    Nyligen importerade noter kommer ha denna nottyp, och endast befintliga noter med
+    denna nottyp kommer uppdateras.
+    
+    Mappningsverktyget kan användas för att välja vilka fält som motsvarar vilka nottypsfält.
+importing-deck-help = Importerade kort kommer placeras i denna kortlek.
+importing-existing-notes-help =
+    Vad som bör göras om en importerad not matchar en befintlig not.
+    
+    - `{ importing-update }`: Uppdatera den befintliga noten.
+    - `{ importing-preserve }`: Gör inget.
+    - `{ importing-duplicate }`: Skapa en ny not.
+importing-match-scope-help =
+    Endast befintliga noter med samma nottyp kommer kontrolleras för dubletter. Detta kan
+    dessutom begränsas till noter med kort i samma kortlek.
+importing-tag-all-notes-help = Dessa taggar kommer läggas till både nyligen importerade och uppdaterade noter.
+importing-tag-updated-notes-help = Dessa taggar kommer läggas till eventuella uppdaterade noter.
 importing-overview = Översikt
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

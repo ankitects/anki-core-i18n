@@ -6,6 +6,7 @@ notetypes-front-field = Framsida
 notetypes-back-field = Baksida
 notetypes-add-reverse-field = Lägg till Omvänt
 notetypes-text-field = Text
+notetypes-back-extra-field = Baksida Extra
 
 ## Default note type names
 
@@ -38,6 +39,7 @@ notetypes-type = Typ
 ## Image Occlusion
 
 notetypes-image = Bild
+notetypes-occlusion = Bildskymning
 notetypes-occlusion-mask = Maskering
 notetypes-occlusion-note = Not
 notetypes-comments-field = Kommentarer
@@ -47,7 +49,9 @@ notetypes-hide-all-guess-one = Dölj alla, gissa en
 notetypes-hide-one-guess-one = Dölj alla, gissa en
 notetypes-error-generating-cloze = Ett fel uppstod när en bildskymningsnot skapades
 notetypes-error-getting-imagecloze = Ett fel uppstod när en bildskymningsnot hämtades
+notetypes-error-loading-image-occlusion = Misslyckades att ladda bildskymning. Är Anki-versionen aktuell?
 notetype-error-no-image-to-show = Ingen bild att visa.
 notetypes-no-occlusion-created = Åtminstone en skymning måste skapas.
+notetypes-no-occlusion-created2 = Misslyckades att lägga till. Antingen finns inga skymningar, eller så är det första fältet tomt.
 notetypes-io-select-image = Välj bild
 notetypes-io-paste-image-from-clipboard = Infoga bild från urklipp

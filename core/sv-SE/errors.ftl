@@ -1,6 +1,10 @@
 errors-parse-number-fail = Ett tal var ogiltigt eller utanför tillåtet intervall.
 errors-filtered-parent-deck = Filtrerade kortlekar kan inte ha underkortlekar.
 errors-filtered-deck-required = Denna handling kan bara utföras på en filtrerad kortlek.
+errors-100-tags-max =
+    Maximalt 100 taggar kan väljas. Att lista de önskade taggarna
+    istället för de oönskade är i regel enklare, och det
+    finns inget behov att välja undertaggarna om en föräldratagg har valts.
 errors-multiple-notetypes-selected = Vänligen välj noter av endast en nottyp.
 errors-please-check-database = Vänligen använd funktionen Check Database, och försök sedan igen.
 errors-please-check-media = Var god använd Granska media-åtgärden, och försök sedan igen.
