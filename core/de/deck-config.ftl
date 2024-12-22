@@ -18,7 +18,7 @@ deck-config-title = Stapelprofile
 deck-config-daily-limits = Tageshöchstwerte
 deck-config-new-limit-tooltip = Die maximale Anzahl neuer Karten, die pro Tag eingeführt werden sollen. Da neue Karten kurzfristig das Arbeitspensum für Wiederholungen erhöhen, sollte der Tageshöchstwert für neue Karten mindestens zehnmal kleiner sein als der für Wiederholungskarten.
 deck-config-review-limit-tooltip = Die maximale Anzahl an Wiederholungskarten, die pro Tag angezeigt werden sollen.
-deck-config-limit-deck-v3 = Wenn Sie einen übergeordneten Stapel lernen, legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal eingesammelt werden. Der Tageshöchstwert des übergeordneten Stapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten aus allen Unterstapeln zusammen.
+deck-config-limit-deck-v3 = Wenn Sie einen übergeordneten Stapel lernen (sprich einen Stapel mit Unterstapeln), legen die in den einzelnen Unterstapeln gesetzten Tageshöchstwerte fest, wie viele Karten aus jedem Unterstapel maximal eingesammelt werden. Der Tageshöchstwert des übergeordneten Stapels steuert hingegen die Gesamtanzahl der anzuzeigenden Karten aus allen Unterstapeln zusammen.
 deck-config-limit-new-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten begrenzt auch die Anzahl neuer Karten, die eingeführt werden können. Wenn der Tageshöchstwert für Wiederholungskarten z. B. bei 200 liegt und 190 Wiederholungskarten anstehen, werden maximal 10 neue Karten eingeführt – selbst wenn der Tageshöchstwert für neue Karten höher ist und weitere neue Karten zur Verfügung stehen.
 deck-config-limit-interday-bound-by-reviews = Der Tageshöchstwert für Wiederholungskarten wirkt sich nicht nur auf Wiederholungskarten, sondern auch auf tagesübergreifendes Lernen aus. Zuerst werden die Karten aus dem tagesübergreifenden Lernen eingesammelt, gefolgt von den Wiederholungskarten.
 deck-config-tab-description =
@@ -49,9 +49,12 @@ deck-config-learning-steps = Lernstufen
 deck-config-learning-steps-tooltip = Ein oder mehrere Intervalle, durch Leerzeichen getrennt. Der Standardwert ist `1m 10m`. Das erste Intervall (1 Minute) wird benutzt, wenn Sie bei einer neuen Karte „Nochmal“ drücken. „Gut“ lässt die Karte voranschreiten. Das Intervall beträgt dann 10 Minuten. Nach Abschluss aller Lernstufen wird die Karte zur Wiederholungskarte und erscheint erst wieder an einem späteren Tag. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem in der abschließenden Lernstufe „Gut“ gedrückt wurde.
 deck-config-easy-interval-tooltip = Anzahl der Tage, bis eine Karte wieder angezeigt wird, nachdem der „Einfach“-Knopf verwendet wurde, um die Karte sofort aus der Lernphase zu entfernen.
-deck-config-new-insertion-order = Einfügereihenfolge
-deck-config-new-insertion-order-tooltip = Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Karten mit einer niedrigeren Positionsnummer werden beim Lernen zuerst angezeigt. Eine Änderung dieser Einstellung ändert auch die Positionsnummern bereits vorhandener neuer Karten.
-deck-config-new-insertion-order-sequential = Der Reihe nach (älteste Karten zuerst)
+deck-config-new-insertion-order = Positionsnummer
+deck-config-new-insertion-order-tooltip =
+    Legt die Positionsnummer fest, die neuen Karten beim Hinzufügen zugewiesen wird. Eine Änderung dieser Einstellung ändert auch die Positionsnummern bereits vorhandener neuer Karten.
+    
+    Ob die Positionsnummer beim Einsammeln neuer Karten berücksichtigt wird, hängt von einer separaten Einstellung ab.
+deck-config-new-insertion-order-sequential = Fortlaufend
 deck-config-new-insertion-order-random = Zufällig
 deck-config-new-insertion-order-random-with-v3 = Es wird empfohlen, diese Einstellung auf „Der Reihe nach“ zu belassen und stattdessen die Reihenfolge für das Einsammeln neuer Karten anzupassen.
 
@@ -128,7 +131,7 @@ deck-config-review-mix-mix-with-reviews = Mit Wiederholungskarten mischen
 deck-config-review-mix-show-after-reviews = Nach Wiederholungskarten anzeigen
 deck-config-review-mix-show-before-reviews = Vor Wiederholungskarten anzeigen
 deck-config-review-sort-order = Sortierreihenfolge für Wiederholungskarten
-deck-config-review-sort-order-tooltip = Die Standardsortierreihenfolge priorisiert die Karten, die am längsten gewartet haben. Bei einem Rückstand werden die Karten zuerst angezeigt, die am längsten auf ihre Wiederholung warten. Wenn Sie einen sehr großen Rückstand haben, dessen Abarbeitung viele Tage in Anspruch nehmen würde, oder wenn Sie die Karten in der Reihenfolge der Unterstapel sehen möchten, kann jedoch eine andere Sortierreihenfolge sinnvoller sein.
+deck-config-review-sort-order-tooltip = Die Standardsortierreihenfolge zeigt zuerst die Karten an, die am längsten auf ihre Wiederholung warten. Bei einem sehr großen Rückstand, dessen Abarbeitung viele Tage dauern würde, oder wenn Sie die Karten in der Reihenfolge der Unterstapel anzeigen möchten, könnte eine andere Sortierreihenfolge sinnvoller sein.
 deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
 deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
 deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
