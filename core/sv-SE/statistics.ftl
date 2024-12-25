@@ -15,8 +15,8 @@ statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-m
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] en { $amount } sekund
-       *[other] en { $amount } sekunder
+        [one] på { $amount } sekund
+       *[other] på { $amount } sekunder
     }
 statistics-in-time-span-minutes =
     { $amount ->
