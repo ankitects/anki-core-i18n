@@ -181,7 +181,7 @@ statistics-average-answer-time-label = 平均回答時間
 statistics-average = 平均
 statistics-average-interval = 復習間隔の平均
 statistics-due-tomorrow = 明日が期日
-statistics-daily-load = 今後の負荷（各期日までの日割り枚数）
+statistics-daily-load = 現在の負荷（各期日までの日割り）
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }日 / { $total }日 ({ $percent }%)
 statistics-average-over-period = 期間全体での平均
