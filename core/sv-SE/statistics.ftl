@@ -20,28 +20,28 @@ statistics-in-time-span-seconds =
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] en { $amount } minut
-       *[other] en { $amount } minuter
+        [one] på { $amount } minut
+       *[other] på { $amount } minuter
     }
 statistics-in-time-span-hours =
     { $amount ->
-        [one] en { $amount } timme
-       *[other] en { $amount } timmar
+        [one] på { $amount } timme
+       *[other] på { $amount } timmar
     }
 statistics-in-time-span-days =
     { $amount ->
-        [one] en { $amount } dag
-       *[other] en { $amount } dagar
+        [one] på { $amount } dag
+       *[other] på { $amount } dagar
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] en { $amount } månad
-       *[other] en { $amount } månader
+        [one] på { $amount } månad
+       *[other] på { $amount } månader
     }
 statistics-in-time-span-years =
     { $amount ->
-        [one] en { $amount } år
-       *[other] en { $amount } år
+        [one] på { $amount } år
+       *[other] på { $amount } år
     }
 statistics-cards =
     { $cards ->
