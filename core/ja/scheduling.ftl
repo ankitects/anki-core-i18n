@@ -33,7 +33,7 @@ scheduling-next-learn-due =
     }
 scheduling-learn-remaining =
     { $remaining ->
-       *[other] 今日中に再び課題となる習得中カードの枚数は、今のところ{ $remaining }枚です。
+       *[other] 今日中に再び課題となる習得中カードは、今のところ全部で{ $remaining }枚です。
     }
 scheduling-congratulations-finished = おめでとうございます！ このデッキの現在の課題をすべて達成しました！
 scheduling-today-review-limit-reached =
