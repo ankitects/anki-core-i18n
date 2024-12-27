@@ -295,7 +295,7 @@ deck-config-historical-retention-tooltip =
     
     Ihr Wiederholungsverlauf kann aus folgenden Gründen unvollständig sein:
     1. Weil Sie die Einstellung 'Wiederholungen vor diesem Datum ignorieren' nutzen.
-    2. Weil Sie den Wiederholungsverlaufs gelöscht haben, um Speicherplatz freizugeben
+    2. Weil Sie den Wiederholungsverlauf gelöscht haben, um Speicherplatz freizugeben.
     3. Weil Sie Material aus einem anderen SRS-Programm importiert haben.
     
     Die beiden letzten Gründe sind eher selten. Daher ist eine Anpassung dieses Werts wahrscheinlich nicht nötig, es sei denn, Sie haben die erstgenannte Einstellung genutzt.
@@ -305,14 +305,14 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     Diese Einstellung legt fest, ob die Fälligkeitsdaten von Karten angepasst werden, wenn FSRS aktiviert oder dessen Parameter geändert werden.
     
-    Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelles Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller Karten jedoch sofort angepasst.
+    Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelle Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller Karten jedoch sofort angepasst.
 deck-config-reschedule-cards-warning =
     Je nach gewünschter Erfolgsquote kann diese Einstellung dazu führen, dass viele Karten sofort fällig werden. Daher ist sie nicht zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
     
     Verwenden Sie diese Einstellung mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
 deck-config-ignore-before-tooltip-2 = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
-    Wenn Sie auf die „Optimieren“ klicken, analysiert FSRS Ihren Wiederholungsverlauf und ermittelt Parameter, die optimal auf Ihr Gedächtnis und die Inhalte abgestimmt sind, die Sie lernen.
+    Wenn Sie auf „Optimieren“ klicken, analysiert FSRS Ihren Wiederholungsverlauf und ermittelt Parameter, die optimal auf Ihr Gedächtnis und die Inhalte abgestimmt sind, die Sie lernen.
     
     Für Stapel mit stark unterschiedlichen subjektiven Schwierigkeitsgraden empfiehlt es sich, separate Stapelprofile anzulegen. So können die Parameter besser an den jeweiligen Schwierigkeitsgrad angepasst werden.
     
