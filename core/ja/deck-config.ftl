@@ -156,7 +156,7 @@ deck-config-interday-step-priority-tooltip =
     「現時点のステップが日をまたいでいる習得中（または再習得中）カード」をどのタイミングで表示するかを選択できます。
     
     「一日の復習枚数の上限」オプションの枚数に従って表示するカードを選び出す際には、この「現時点のステップが日をまたいでいる習得中（または再習得中）カード」が復習カードよりも常に優先されます。それに対してこのオプションでは、その後の「優先的に選び出したそれらのカードと復習カードをどのような順序で表示するか」を設定します。
-deck-config-review-mix-mix-with-reviews = 復習に混ぜ込む
+deck-config-review-mix-mix-with-reviews = 復習と混ぜる
 deck-config-review-mix-show-after-reviews = 復習の後に表示
 deck-config-review-mix-show-before-reviews = 復習の前に表示
 deck-config-review-sort-order = 復習カードを並べる順序
@@ -210,7 +210,7 @@ deck-config-question-action = 質問表示時間経過後の自動アクショ�
 deck-config-question-action-tool-tip = カードの質問側が表示されてから、質問表示時間が経過した後に実行するアクション。
 deck-config-answer-action = 解答表示時間経過後の自動アクション
 deck-config-answer-action-tooltip-2 = カードの解答側が表示されてから、解答表示時間が経過した後に実行するアクション。
-deck-config-wait-for-audio-tooltip-2 = `解答表示時間経過後の自動アクション`または`解答表示時間経過後の自動アクション`を実行する前に、音声の再生が終了するのを待ちます。
+deck-config-wait-for-audio-tooltip-2 = `質問表示時間経過後の自動アクション`を実行する前、および `解答表示時間経過後の自動アクション`を実行する前に、音声の再生が終了するのを待ちます。
 
 ## Audio section
 
@@ -354,7 +354,7 @@ deck-config-historical-retention-tooltip =
     
     (2) は非常にまれなケースなので、(1) が該当していない場合は、おそらくこのオプションの値を調整する必要はないでしょう。
 deck-config-weights-tooltip2 =
-    カードの復習間隔を調整する（目標正答率以外の）16種類の要因についての変数。
+    カードの復習間隔を調整する（目標正答率以外の）18種類の要因についての変数。
     
     デフォルトでは、ユーザー全般に対して一般的におすすめできる値を使用しています。
     
