@@ -253,7 +253,7 @@ deck-config-which-deck = Für welchen Stapel möchten Sie die Einstellungen anze
 
 ## Messages related to the FSRS scheduler
 
-deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count }...
+deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count } …
 deck-config-invalid-parameters = Die angegebenen FSRS-Parameter sind ungültig. Lassen Sie das Feld leer, um die Standardparameter zu verwenden.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
 deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erfolgsquote nicht möglich.
@@ -278,7 +278,7 @@ deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Lernstufen 
 deck-config-get-params = Parameter abrufen
 deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
-deck-config-iterations = Wiederholungszyklus: { $count }...
+deck-config-iterations = Wiederholungszyklus: { $count } …
 deck-config-reschedule-cards-on-change = Bei Änderungen alle Karten umplanen
 deck-config-fsrs-tooltip =
     Wirkt sich auf die gesamte Sammlung aus.
@@ -334,7 +334,7 @@ deck-config-percent-of-reviews =
         [one] { $pct } % von { $reviews } Wiederholung
        *[other] { $pct } % von { $reviews } Wiederholungen
     }
-deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $total_count }...
+deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $total_count } …
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
 deck-config-wait-for-audio = Auf Audio warten

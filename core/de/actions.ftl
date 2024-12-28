@@ -17,7 +17,7 @@ actions-filter = Filter
 actions-help = Hilfe
 actions-increment-value = Wert erhöhen
 actions-import = Importieren
-actions-manage = Verwalten …
+actions-manage = Verwalten …
 actions-name = Name:
 actions-new = Neu
 actions-new-name = Neuer Name:
@@ -56,7 +56,7 @@ actions-card-info = Kartenstatistik
 actions-previous-card-info = Vorherige Kartenstatistik
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
-actions-with-ellipsis = { $action }...
+actions-with-ellipsis = { $action } …
 actions-fullscreen-unsupported = Der Vollbildmodus wird von Ihrem aktuell ausgewählten Grafikkartentreiber nicht unterstützt. Sie können in den Einstellungen einen anderen Grafikkartentreiber auswählen und es damit versuchen. Klicken Sie dazu auf Extras > Einstellungen
 
 ## Flags

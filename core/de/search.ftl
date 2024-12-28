@@ -8,7 +8,7 @@ search-invalid-search = Ungültige Suche: { $reason }
 search-misplaced-and = Es wurde ein `and` gefunden, das nicht zwischen zwei Suchbegriffen steht. Sie können nach dem Wort an sich suchen, indem Sie es mit Anführungszeichen umgeben: `"and"`.
 search-misplaced-or = Es wurde ein `or` gefunden, das nicht zwischen zwei Suchbegriffen steht. Sie können nach dem Wort an sich suchen, indem Sie es mit Anführungszeichen umgeben: `"or"`.
 # Here, the ellipsis "..." may be localised.
-search-empty-group = Es wurde eine Gruppe `(...)` gefunden, jedoch stand nichts zwischen den Klammern, nach dem hätte gesucht werden können. Sie können nach Klammern suchen, indem Sie sie mit Anführungszeichen umgeben: `"()"`.
+search-empty-group = Es wurde eine Gruppe `( …)` gefunden, jedoch stand nichts zwischen den Klammern, nach dem hätte gesucht werden können. Sie können nach Klammern suchen, indem Sie sie mit Anführungszeichen umgeben: `"()"`.
 search-unopened-group = Es wurde eine schließende Klammer `)`,  zuvor jedoch keine öffnende Klammer `(` gefunden. Um nach dem Symbol `)` zu suchen, können Sie es mit Anführungszeichen umgeben oder einen umgekehrten Schrägstrich voranstellen: `")"` oder `\)`.
 search-unclosed-group = Es wurde eine öffnende Klammer `(`,  danach jedoch keine schließende Klammer `)` gefunden. Um nach dem Symbol `(` zu suchen, können Sie es mit Anführungszeichen umgeben oder einen umgekehrten Schrägstrich voranstellen: `"("` oder `\(`.
 search-empty-quote = Es wurde ein Paar Anführungszeichen `""` gefunden, jedoch stand nichts zwischen diesen, nach dem hätte gesucht werden können. Sie können nach Anführungszeichen suchen, indem Sie umgekehrte Schrägstriche voranstellen: `\"\"`.
