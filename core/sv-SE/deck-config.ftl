@@ -99,12 +99,12 @@ deck-config-leech-threshold-tooltip =
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Tagga endast`: Lägger till en 'leech'-etikett (energislukare-etikett) till noten och visar en notis.
-    `Uteslut kort`: Utöver att tagga kortet, döljs kortet tills det
-    manuellt inbegrips.
+    `Lås kort`: Utöver att tagga kortet, uteslut kortet tills det
+    manuellt upplåses.
 
 ## Burying section
 
-deck-config-bury-title = Nedgrävning
+deck-config-bury-title = Döljande
 deck-config-bury-new-siblings = Dölj nya syskon
 deck-config-bury-review-siblings = Dölj repeterande syskon
 deck-config-bury-interday-learning-siblings = Dölj flerdagslöpande inlärningskort
