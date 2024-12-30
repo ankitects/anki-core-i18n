@@ -77,17 +77,15 @@ deck-config-bury-interday-learning-tooltip =
 ## Ordering section
 
 deck-config-new-gather-priority-tooltip-2 =
-    `Baralho`: Junta as fichas de cada um dos sub-baralhos por ordem, de cima para baixo. Fichas de cada um dos sub-baralhos são recolhidas por ordem ascendente de posição. Se o limite diário do baralho for atingido, podem não ser recolhidas fichas de todos os sub-baralhos. A recolha utilizando esta ordem é mais rápida em grandes colecções, e prioriza sub-baralhos no topo.
+    `Baralho`: recolhe as fichas de cada um dos sub-baralhos por ordem, a começar vindo de cima. As fichas de cada um dos sub-baralhos são recolhidas por ordem ascendente de posição. Se o limite diário do baralho for atingido, podem não ser recolhidas fichas de todos os sub-baralhos. A recolha utilizando esta ordem é mais rápida em grandes colecções, e prioriza os sub-baralhos no topo.
     
-    `Ascending position`: Gathers cards by ascending position (due #), which is typically
-    the oldest-added first.
+    `Posição ascendente`: recolhe as fichas por ordem ascendente de posição, o que normalmente quer dizer a mais antiga primeiro.
     
-    `Descending position`: Gathers cards by descending position (due #), which is typically
-    the latest-added first.
+    `Posição descendente`: recolhe as fichas por ordem descendente de posição, o que normalmente quer dizer a mais recente primeiro.
     
-    `Random notes`: Picks notes at random, then gathers all of its cards.
+    `Notas aleatórias`: escolhe notas aleatoriamente, e depois recolhe as suas fichas.
     
-    `Random cards`: Gathers cards in a random order.
+    `Fichas aleatórias`: recolhe fichas aleatoriamente.
 deck-config-new-gather-priority-deck = Baralho
 deck-config-new-gather-priority-deck-then-random-notes = Baralho, depois notas aleatórias
 deck-config-new-gather-priority-position-lowest-first = Crescente
