@@ -29,6 +29,21 @@ deck-config-limit-new-bound-by-reviews =
     O limite de fichas a rever afecta o número de fichas novas a apresentar. Por exemplo,
     se o limite for 200, e houverem 190 fichas por rever, no máximo, serão introduzidas 10
     novas fichas.
+deck-config-limit-interday-bound-by-reviews =
+    O limite de revisões também afecta as fichas em aprendizagem com mais dum dia.
+    Aquando da aplicação do limite, primeiro serão apresentadas as fichas em aprendizagem com mais dum dia, e só depois as a rever.
+deck-config-tab-description =
+    - `Predefinido`: O limite aplica-se a todos os baralhos que tenham o limite predefinido.
+    - `Este baralho`: O limite para este baralho em específico.
+    - `Apenas hoje`: Alterar temporariamente o limite deste baralho.
+deck-config-new-cards-ignore-review-limit = Fichas novas ignoram o limite de revisões
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Por defeito, o limite de revisões também se aplica a novas fichas.
+    Se esta opção for activada, novas fichas serão apresentadas independentemente do limite.
+deck-config-apply-all-parent-limits = Limites herdados do topo
+deck-config-apply-all-parent-limits-tooltip =
+    Por defeito, os limites diários dum baralho dum nível acima não se aplicam ao estudo dos seus sub-baralhos.
+    Se esta opção for activada, os limites do baralho de mais alto nível passarão a ser impostos, o que pode ser útil quando quer estudar sub-baralhos, mas ainda assim limitar o total de fichas estudadas para a árvore do baralho.
 deck-config-affects-entire-collection = Afecta a colecção inteira.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -61,6 +76,18 @@ deck-config-bury-interday-learning-tooltip =
 
 ## Ordering section
 
+deck-config-new-gather-priority-tooltip-2 =
+    `Baralho`: Junta as fichas de cada um dos sub-baralhos por ordem, de cima para baixo. Fichas de cada um dos sub-baralhos são recolhidas por ordem ascendente de posição. Se o limite diário do baralho for atingido, podem não ser recolhidas fichas de todos os sub-baralhos. A recolha utilizando esta ordem é mais rápida em grandes colecções, e prioriza sub-baralhos no topo.
+    
+    `Ascending position`: Gathers cards by ascending position (due #), which is typically
+    the oldest-added first.
+    
+    `Descending position`: Gathers cards by descending position (due #), which is typically
+    the latest-added first.
+    
+    `Random notes`: Picks notes at random, then gathers all of its cards.
+    
+    `Random cards`: Gathers cards in a random order.
 deck-config-new-gather-priority-deck = Baralho
 deck-config-new-gather-priority-deck-then-random-notes = Baralho, depois notas aleatórias
 deck-config-new-gather-priority-position-lowest-first = Crescente
