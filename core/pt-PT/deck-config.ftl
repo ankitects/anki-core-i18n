@@ -56,6 +56,12 @@ deck-config-today-only = Apenas hoje
 ## New Cards section
 
 deck-config-learning-steps = Etapas de Aprendizagem
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = A unidade dos intervalos é, normalmente, minutos (e.g. `1min`) ou dias (e.g. `2d`), mas horas (e.g. `1h`) e segundos (e.g. `30s`) também são suportados.
+deck-config-learning-steps-tooltip =
+    Um ou mais intervalos, separados por espaços. O primeiro intervalo será utilizado quando pressiona o botão `Novamente` numa ficha nova, e, por defeito, é 1 minuto.
+    O botão `Bom` passa a ficha à próxima etapa, que é, por defeito, passados 10 minutos.
+    Depois de completas todas as etapas, a ficha passa a ser uma ficha a rever, e aparecerá num dia diferente. { -deck-config-delay-hint }
 
 ## Lapses section
 
