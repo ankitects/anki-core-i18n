@@ -62,6 +62,15 @@ deck-config-learning-steps-tooltip =
     Um ou mais intervalos, separados por espaços. O primeiro intervalo será utilizado quando pressiona o botão `Novamente` numa ficha nova, e, por defeito, é 1 minuto.
     O botão `Bom` passa a ficha à próxima etapa, que é, por defeito, passados 10 minutos.
     Depois de completas todas as etapas, a ficha passa a ser uma ficha a rever, e aparecerá num dia diferente. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = O número de dias antes de voltar a mostrar a ficha, depois de carregar no botão `Bom` na última etapa de aprendizagem.
+deck-config-easy-interval-tooltip = O número de dias antes de voltar a mostrar a ficha, depois de carregar no botão `Fácil` e a ficha ser imediatamente passada à revisão.
+deck-config-new-insertion-order = Ordem de inserção
+deck-config-new-insertion-order-tooltip =
+    Controla a posição que é dada às novas fichas.
+    Fichas com um número inferior serão apresentadas primeiro para estudo.
+    Alterar esta opção irá actualizar automaticamente a posição das novas fichas existentes.
+deck-config-new-insertion-order-sequential = Sequencial (as mais antigas primeiro)
+deck-config-new-insertion-order-random = Aleatória
 
 ## Lapses section
 
