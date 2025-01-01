@@ -8,14 +8,50 @@ statistics-due-for-new-card = Yeni #{ $number }
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } kart/dakika
+statistics-average-answer-time = { $average-seconds }sn ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
 
+statistics-in-time-span-seconds =
+    { $amount ->
+        [one] { $amount } saniye içinde
+       *[other] { $amount } saniye içinde
+    }
+statistics-in-time-span-minutes =
+    { $amount ->
+        [one] { $amount } dakika içinde
+       *[other] { $amount } dakika içinde
+    }
+statistics-in-time-span-hours =
+    { $amount ->
+        [one] { $amount } saat içinde
+       *[other] { $amount } saat içinde
+    }
+statistics-in-time-span-days =
+    { $amount ->
+        [one] { $amount } gün içinde
+       *[other] { $amount } gün içinde
+    }
+statistics-in-time-span-months =
+    { $amount ->
+        [one] { $amount } ay içinde
+       *[other] { $amount } ay içinde
+    }
+statistics-in-time-span-years =
+    { $amount ->
+        [one] { $amount } yıl içinde
+       *[other] { $amount } yıl içinde
+    }
 statistics-cards =
     { $cards ->
         [one] { $cards } kart
        *[other] { $cards } kart
+    }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } not
+       *[other] { $notes } not
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -23,9 +59,41 @@ statistics-reviews =
         [one] { $reviews } inceleme
        *[other] { $reviews } inceleme
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    { $unit ->
+        [seconds]
+            { statistics-cards }
+            bugün { statistics-in-time-span-seconds } çalışıldı
+            ({ $secs-per-card }sn/kart)
+        [minutes]
+            { statistics-cards }
+            bugün { statistics-in-time-span-minutes } çalışıldı
+            ({ $secs-per-card }dk/kart)
+        [hours]
+            { statistics-cards }
+            bugün { statistics-in-time-span-hours } çalışıldı
+            ({ $secs-per-card }sa/kart)
+        [days]
+            { statistics-cards }
+            bugün { statistics-in-time-span-days } çalışıldı
+            ({ $secs-per-card }g/kart)
+        [months]
+            { statistics-cards }
+            bugün { statistics-in-time-span-months } çalışıldı
+            ({ $secs-per-card }ay/kart)
+       *[years]
+            { statistics-cards }
+            bugün { statistics-in-time-span-years } çalışıldı
+            ({ $secs-per-card }y/kart)
+    }
 statistics-today-title = Bugün
 statistics-today-again-count = Tekrar sayısı:
 statistics-today-type-counts = Öğrenme: { $learnCount }, Gözden Geçirme: { $reviewCount }, Yeniden Öğrenme: { $relearnCount }, Filtrelenmiş: { $filteredCount }
+statistics-today-no-cards = Bugün hiçbir kart çalışılmadı.
 statistics-today-no-mature-cards = Bugün çalışılan olgun kart yok.
 statistics-today-correct-mature = Olgun kartlardaki doğru cevaplar: { $correct }/{ $total } (%{ $percent })
 statistics-counts-total-cards = Toplam kart
@@ -34,10 +102,19 @@ statistics-counts-young-cards = Genç
 statistics-counts-mature-cards = Olgun
 statistics-counts-suspended-cards = Askıya Alındı
 statistics-counts-buried-cards = Gizlendi
+statistics-counts-filtered-cards = Filtrelenmiş
 statistics-counts-learning-cards = Öğrenme
 statistics-counts-relearning-cards = Yeniden öğrenme
+statistics-counts-title = Kart Sayıları
 statistics-counts-separate-suspended-buried-cards = Askıya alınan/Gizlenen kartları ayır
+statistics-true-retention-today = Bugün
+statistics-true-retention-yesterday = Dün
+statistics-true-retention-week = Geçen hafta
+statistics-true-retention-month = Geçen ay
+statistics-true-retention-year = Geçen yıl
+statistics-range-1-year-history = geçen 12 ay
 statistics-range-deck = deste
+statistics-range-collection = koleksiyon
 statistics-range-search = Ara
 statistics-card-ease-title = Kart kolaylığı
 statistics-card-stability-title = Kart sabitliği
@@ -67,9 +144,26 @@ statistics-added-subtitle = Eklediğiniz yeni kartların sayısı.
 statistics-reviews-count-subtitle = Cevapladığınız soruların sayısı.
 statistics-reviews-time-subtitle = Soruları cevaplamak için harcanan süre.
 statistics-answer-buttons-title = Cevap Düğmeleri
+# eg Button: 4
+statistics-answer-buttons-button-number = Düğme
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Kez basıldı
 statistics-answer-buttons-subtitle = Her düğmeye bastığınız sayı.
 statistics-reviews-title = Gözden Geçirmeler
 statistics-reviews-time-checkbox = Zaman
+statistics-in-days-single =
+    { $days ->
+        [1] Yarın
+        [0] Bugün
+       *[other] In { $days } days
+    }
+statistics-in-days-range = { $daysStart } ila { $daysEnd } gün içinde
+statistics-days-ago-single =
+    { $days ->
+        [1] Dün
+       *[other] { $days } days ago
+    }
+statistics-days-ago-range = { $daysStart } ila { $daysEnd } gün önce
 statistics-intervals-title = Süreler
 statistics-intervals-subtitle = Gözden geçirmeler tekrar gösterilene kadar gecikmeler.
 statistics-hours-correct = { $correct }/{ $total } doğruydu (%{ $percent })
