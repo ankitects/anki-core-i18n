@@ -164,8 +164,24 @@ statistics-days-ago-single =
        *[other] { $days } days ago
     }
 statistics-days-ago-range = { $daysStart } ila { $daysEnd } gün önce
-statistics-intervals-title = Süreler
+statistics-cards-due =
+    { $cards ->
+        [one] Sırası gelecek { $cards } kart
+       *[other] Sırası gelecek { $cards } kart
+    }
+statistics-backlog-checkbox = Birikmiş kart
+statistics-intervals-title = Gözden Geçirme Aralıkları
 statistics-intervals-subtitle = Gözden geçirmeler tekrar gösterilene kadar gecikmeler.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $daysStart }~{ $daysEnd } günlük aralıklı { $cards } kart
+       *[other] { $daysStart }~{ $daysEnd } günlük aralıklı { $cards } kart
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $day } günlük aralıklı { $cards } kart
+       *[other] { $day } günlük aralıklı { $cards } kart
+    }
 statistics-hours-correct = { $correct }/{ $total } doğruydu (%{ $percent })
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 %{ $percent } doğruydu ({ $reviews })
