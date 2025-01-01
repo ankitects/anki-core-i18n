@@ -228,7 +228,7 @@ deck-config-revert-button-tooltip = Diese Einstellung auf den Standardwert zurü
 ## overview screen.
 
 deck-config-description-new-handling = Neues Verhalten ab Anki 2.1.41 verwenden
-deck-config-description-new-handling-hint = Behandelt Eingaben als Markdown und bereinigt HTML-Eingaben. Wenn aktiviert, wird die Beschreibung auch auf dem Gratulationsseite angezeigt. Markdown wird in Anki-Version 2.1.40 und älter als Text angezeigt.
+deck-config-description-new-handling-hint = Behandelt Eingaben als Markdown und bereinigt HTML-Eingaben. Wenn aktiviert, wird die Beschreibung auch auf der Gratulationsseite angezeigt. Markdown wird in Anki-Version 2.1.40 und älter als Text angezeigt.
 
 ## Warnings shown to the user
 
