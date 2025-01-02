@@ -151,7 +151,9 @@ browsing-again-today = Tekrar edilenler
 browsing-edited-today = Düzenlenenler
 browsing-sidebar-first-review = İlk Gözden Geçirenler
 browsing-sidebar-rescheduled = Yeniden Planlananlar
+browsing-sidebar-due-today = Vade
 browsing-sidebar-untagged = Etiketlenmemiş
+browsing-sidebar-overdue = Gecikmiş
 browsing-row-deleted = (silinmiş)
 browsing-removed-unused-tags-count =
     { $count ->

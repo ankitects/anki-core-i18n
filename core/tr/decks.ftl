@@ -34,4 +34,4 @@ decks-review-header = Vade
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
-decks-relative-overdueness = Görece vadesi geçmişlik
+decks-relative-overdueness = Görece gecikmişlik
