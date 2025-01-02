@@ -1,5 +1,7 @@
 editing-actual-size = Gerçek boyutu aç/kapat
 editing-add-media = Ortam Ekle
+editing-align-left = Sola hizala
+editing-align-right = Sağa hizala
 editing-an-error-occurred-while-opening = { $val } 'i açarken bir hata oluştu.
 editing-cards = Kartlar
 editing-cut = Kes
@@ -27,7 +29,15 @@ editing-expand-field = Alanı genişlet
 editing-collapse-field = Alanı daralt
 editing-close-html-tags = HTML etiketlerini otomatik olarak kapat
 editing-from-clipboard = Panodan
+editing-alignment = Hizlama
 editing-image-occlusion-toggle-translucent = Yarı Saydamlığı Aç/Kapat
+editing-image-occlusion-alignment = Hizlama
+editing-image-occlusion-align-left = Sola Hizala
+editing-image-occlusion-align-h-center = Yatay Ortalara Hizala
+editing-image-occlusion-align-right = Sağa Hizala
+editing-image-occlusion-align-top = Üste Hizala
+editing-image-occlusion-align-v-center = Dikey Ortalara Hizala
+editing-image-occlusion-align-bottom = Alta Hizala
 editing-image-occlusion-toggle-mask-editor = Örtü Düzenleyicisini Aç/Kapat
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.

@@ -4,6 +4,7 @@
 ## Top section
 
 deck-config-default-name = Varsayılan
+deck-config-title = Deste Seçenekleri
 
 ## Daily limits section
 
@@ -31,6 +32,7 @@ deck-config-today-only = Sadece bugün
 
 ## New Cards section
 
+deck-config-learning-steps = Öğrenme adımları
 
 ## Lapses section
 
