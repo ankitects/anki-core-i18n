@@ -183,7 +183,7 @@ statistics-calendar-title = 年曆
 
 statistics-elapsed-time-seconds = { $amount } 秒
 statistics-elapsed-time-minutes = { $amount } 分
-statistics-elapsed-time-hours = { $amount } 時
+statistics-elapsed-time-hours = { $amount } 小時
 statistics-elapsed-time-days = { $amount } 天
 statistics-elapsed-time-months = { $amount } 個月
 statistics-elapsed-time-years = { $amount } 年

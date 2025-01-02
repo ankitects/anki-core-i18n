@@ -5,7 +5,7 @@
 
 scheduling-answer-button-time-seconds = { $amount } 秒
 scheduling-answer-button-time-minutes = { $amount } 分
-scheduling-answer-button-time-hours = { $amount } 時
+scheduling-answer-button-time-hours = { $amount } 小時
 scheduling-answer-button-time-days = { $amount } 天
 scheduling-answer-button-time-months = { $amount } 個月
 scheduling-answer-button-time-years = { $amount } 年
