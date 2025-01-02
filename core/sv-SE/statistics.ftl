@@ -1,5 +1,5 @@
 # The date a card will be ready to review
-statistics-due-date = Aktuella
+statistics-due-date = Aktuell
 # The count of cards waiting to be reviewed
 statistics-due-count = Aktuella
 # Shown in the Due column of the Browse screen when the card is a new card
@@ -83,7 +83,7 @@ statistics-counts-new-cards = Nya
 statistics-counts-young-cards = Unga
 statistics-counts-mature-cards = Mogna
 statistics-counts-suspended-cards = Låst
-statistics-counts-buried-cards = Gömt
+statistics-counts-buried-cards = Dolda
 statistics-counts-filtered-cards = Filtrerad
 statistics-counts-learning-cards = Nya
 statistics-counts-relearning-cards = Lär om
@@ -92,8 +92,8 @@ statistics-counts-separate-suspended-buried-cards = Separera låsta/dolda kort
 statistics-true-retention-title = Äkta återkallningskvot
 statistics-true-retention-subtitle = Andel klarade med ett intervall ≥ 1 dag.
 statistics-true-retention-range = Spann
-statistics-true-retention-pass = Klara
-statistics-true-retention-fail = Misslyckas
+statistics-true-retention-pass = Klarade
+statistics-true-retention-fail = Misslyckade
 statistics-true-retention-retention = Återkallningskvot
 statistics-true-retention-today = Idag
 statistics-true-retention-yesterday = Igår
@@ -124,13 +124,13 @@ statistics-card-ease-tooltip =
     }
 statistics-card-difficulty-tooltip =
     { $cards ->
-        [one] { $cards } kort med { $percent } svårighetsgrad
-       *[other] { $cards } kort med { $percent } svårighetsgrad
+        [one] { $cards } kort med { $percent } i svårighetsgrad
+       *[other] { $cards } kort med { $percent } i svårighetsgrad
     }
 statistics-retrievability-tooltip =
     { $cards ->
-        [one] { $cards } kort med { $percent } återkallningsgrad
-       *[other] { $cards } kort med { $percent } återkallningsgrad
+        [one] { $cards } kort med { $percent } i återkallningsgrad
+       *[other] { $cards } kort med { $percent } i återkallningsgrad
     }
 statistics-future-due-title = Prognos
 statistics-future-due-subtitle = Hur många repetitioner som du måste göra senare.
@@ -161,7 +161,7 @@ statistics-days-ago-single =
        *[other] { $days } dagar sedan
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } dagar sedan
-statistics-running-total = Löpande totalsumma
+statistics-running-total = Löpande summa
 statistics-cards-due =
     { $cards ->
         [one] { $cards } kort aktuellt

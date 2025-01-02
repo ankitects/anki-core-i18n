@@ -225,9 +225,9 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Antal sekunder fråga visas
-deck-config-seconds-to-show-question-tooltip-3 = När automatisk fortsättning är aktiverad, antalet sekunder att vänta innan frågoåtgärden tillämpas. Sätt till 0 för att inaktivera.
+deck-config-seconds-to-show-question-tooltip-3 = När automatisk frammatning är aktiverad, antalet sekunder att vänta innan frågoåtgärden tillämpas. Sätt till 0 för att inaktivera.
 deck-config-seconds-to-show-answer = Antal sekunder svar visas
-deck-config-seconds-to-show-answer-tooltip-2 = När automatisk fortsättning är aktiverad, antalet sekunder att vänta innan svarsåtgärden tillämpas. Sätt till 0 för att inaktivera.
+deck-config-seconds-to-show-answer-tooltip-2 = När automatisk frammatning är aktiverad, antalet sekunder att vänta innan svarsåtgärden tillämpas. Sätt till 0 för att inaktivera.
 deck-config-question-action-show-answer = Visa svar
 deck-config-question-action-show-reminder = Visa påminnelse
 deck-config-question-action = Frågoåtgärd
@@ -467,7 +467,7 @@ deck-config-bury-tooltip =
     
     När V3-schemaläggaren används kommer flerdagslöpande inlärningskort också att begravas. Flerdagslöpande
     inlärningskort är kort som har ett nuvarande inlärningssteg på mer än en dag.
-deck-config-seconds-to-show-question-tooltip = När automatisk fortsättning är aktiverad, antalet sekunder att vänta innan svaret avslöjas. Sätt till 0 för att inaktivera.
+deck-config-seconds-to-show-question-tooltip = När automatisk frammatning är aktiverad, antalet sekunder att vänta innan svaret avslöjas. Sätt till 0 för att inaktivera.
 deck-config-answer-action-tooltip = Åtgärden att utföra på det nuvarande kortet innan automatisk fortsättning till nästa kort.
 deck-config-wait-for-audio-tooltip = Vänta på att ljudet spelas klart innan automatiskt avslöjande av svaret eller nästa fråga.
 deck-config-ignore-before-tooltip =
@@ -505,6 +505,6 @@ deck-config-compute-optimal-retention-tooltip3 =
     vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
     tiden läggs ned för en högre återkallningsgrad. Att sätta den önskade återkallningskvoten under minimivärdet
     rekommenderas ej, då det kommer leda till en högre arbetsbelastning, på grund av den höga andelen kort som bortglöms.
-deck-config-seconds-to-show-question-tooltip-2 = När automatisk fortsättning är aktiverat, antalet sekunder att vänta innan svaret avslöjas. Sätt till 0 för att inaktivera.
+deck-config-seconds-to-show-question-tooltip-2 = När automatisk frammatning är aktiverad, antalet sekunder att vänta innan svaret avslöjas. Sätt till 0 för att inaktivera.
 deck-config-invalid-weights = Parametrarna måste antingen lämnas blanka för att använda standardvärdena, eller vara 17 kommaseparerade tal.
 deck-config-fsrs-on-all-clients = Var god försäkra att alla Anki-klienter är Anki(Mobile) 23.10+ eller AnkiDroid 2.17+. FSRS kommer inte fungera korrekt om en av klienterna är äldre.

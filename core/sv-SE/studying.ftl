@@ -1,17 +1,17 @@
 studying-again = Igen
-studying-all-buried-cards = Alla gömda kort
+studying-all-buried-cards = Alla dolda kort
 studying-audio-5s = Ljud -5s
 studying-audio-and5s = Ljud +5s
 studying-buried-siblings = Dolda syskon
-studying-bury = Göm
-studying-bury-card = Göm kort
-studying-bury-note = Göm not
+studying-bury = Dölj
+studying-bury-card = Dölj kort
+studying-bury-note = Dölj not
 studying-card-suspended = Kort låst.
 studying-card-was-a-leech = Kortet var en energislukare.
 studying-cards-buried =
     { $count ->
-        [one] { $count } kort gömt.
-       *[other] { $count } kort gömda.
+        [one] { $count } kort dolt.
+       *[other] { $count } kort dolda.
     }
 studying-cards-will-be-automatically-returned-to = Korten kommer automatiskt att återföras till sina originalkortlekar efter att du repeterat dem.
 studying-continue = Fortsätt
@@ -26,15 +26,15 @@ studying-flag-card = Märk kort
 studying-good = Bra
 studying-hard = Svårt
 studying-it-has-been-suspended = Det har låsts.
-studying-manually-buried-cards = Manuellt gömda kort
+studying-manually-buried-cards = Manuellt dolda kort
 studying-mark-note = Markera not
 studying-more = Mer
 studying-no-cards-are-due-yet = Inga kort i kö.
 studying-note-suspended = Not låst.
 studying-pause-audio = Pausa ljud
 studying-please-run-toolsempty-cards = Vänligen kör Verktyg>Tomma kort
-studying-record-own-voice = Spela in din egen röst
-studying-replay-own-voice = Spela upp din egen röst igen
+studying-record-own-voice = Spela in röst
+studying-replay-own-voice = Återuppspela röstinspelning
 studying-show-answer = Visa svar
 studying-space = Mellanslag
 studying-study-now = Studera nu
