@@ -56,8 +56,8 @@ statistics-notes =
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
-        [one] { $reviews } inceleme
-       *[other] { $reviews } inceleme
+        [one] { $reviews } gözden geçirme
+       *[other] { $reviews } gözden geçirme
     }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
@@ -117,8 +117,10 @@ statistics-range-deck = deste
 statistics-range-collection = koleksiyon
 statistics-range-search = Ara
 statistics-card-ease-title = Kart kolaylığı
+statistics-card-difficulty-title = Kart Zorluğu
 statistics-card-stability-title = Kart sabitliği
 statistics-average-stability = Ortalama sabitlik
+statistics-card-retrievability-title = Kart Hatırlanabilirliği
 statistics-card-ease-subtitle = Daha alçak kolaylıktaki kartlar daha sık görünecek.
 statistics-card-difficulty-subtitle2 = Zorluk daha yüksek olduğunda sabitlik daha yavaş artacak.
 # eg "3 cards with 150-170% ease"
@@ -164,6 +166,7 @@ statistics-days-ago-single =
        *[other] { $days } days ago
     }
 statistics-days-ago-range = { $daysStart } ila { $daysEnd } gün önce
+statistics-running-total = Kümülatif toplam
 statistics-cards-due =
     { $cards ->
         [one] Sırası gelecek { $cards } kart
@@ -182,11 +185,28 @@ statistics-intervals-day-single =
         [one] { $day } günlük aralıklı { $cards } kart
        *[other] { $day } günlük aralıklı { $cards } kart
     }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $daysStart }~{ $daysEnd } günlük sabitlikli { $cards } kart
+       *[other] { $daysStart }~{ $daysEnd } günlük sabitlikli { $cards } kart
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $day } günlük sabitlikli { $cards } kart
+       *[other] { $day } günlük sabitlikli { $cards } kart
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }:00 ile { $hourEnd }:00 arası
 statistics-hours-correct = { $correct }/{ $total } doğruydu (%{ $percent })
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } gözden geçirme
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 %{ $percent } doğruydu ({ $reviews })
 statistics-hours-title = Saatlik Analiz
 statistics-hours-subtitle = Günün her saati için başarı oranını inceleyin.
+# shown when graph is empty
+statistics-no-data = VERİ YOK
+statistics-calendar-title = Takvim
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -194,6 +214,12 @@ statistics-hours-subtitle = Günün her saati için başarı oranını inceleyin
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount }sn
+statistics-elapsed-time-minutes = { $amount }dk
+statistics-elapsed-time-hours = { $amount }sa
+statistics-elapsed-time-days = { $amount }g
+statistics-elapsed-time-months = { $amount }ay
+statistics-elapsed-time-years = { $amount }y
 
 ##
 
@@ -204,9 +230,28 @@ statistics-average-answer-time-label = Ortalama cevap süresi
 statistics-average = Ortalama
 statistics-average-interval = Ortalama aralık
 statistics-due-tomorrow = Yarına kadar
+statistics-daily-load = Günlük yük
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total } içinden { $amount } tanesi (%{ $percent })
 statistics-average-over-period = Eğer her gün çalıştıysanız
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } gözden geçirme/gün
+       *[other] { $count } gözden geçirme/gün
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } dakika/gün
+       *[other] { $count } dakika/gün
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } kart/gün
+       *[other] { $count } kart/gün
+    }
 statistics-average-ease = Ortalama kolaylık
+statistics-average-difficulty = Ortalama zorluk
+statistics-average-retrievability = Ortalama hatırlanabilirlik
 statistics-save-pdf = PDF Kaydet
 statistics-stats = İstatistikler
+statistics-title = İstatistikler

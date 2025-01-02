@@ -53,6 +53,10 @@ deck-config-bury-interday-learning-siblings = Günler arası öğrenmesi kardeş
 deck-config-interday-step-priority = Günler arası öğrenmesi/gözden geçirme sırası
 deck-config-sort-order-ascending-ease = Artan kolaylık
 deck-config-sort-order-descending-ease = Azalan kolaylık
+deck-config-sort-order-ascending-difficulty = Önce daha kolay kartlar
+deck-config-sort-order-descending-difficulty = Önce daha zor kartlar
+deck-config-sort-order-retrievability-ascending = Artan hatırlanabilirlik
+deck-config-sort-order-retrievability-descending = Azalan hatırlanabilirlik
 
 ## Timer section
 
@@ -65,6 +69,9 @@ deck-config-maximum-answer-secs = Maksimum cevap saniyeleri
 
 
 ## Advanced section
+
+
+# Easy Days section
 
 
 ## Adding/renaming
