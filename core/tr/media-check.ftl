@@ -25,7 +25,9 @@ media-check-delete-unused-confirm = Kullanılmayan ortamlar silinsin mi?
 
 ## Rendering LaTeX
 
+media-check-all-latex-rendered = Tüm LaTeX oluşturuldu.
 
 ## Buttons
 
+media-check-render-latex = LaTeX'i Oluştur
 media-check-check-media-action = Ortamı Kontrol Et
