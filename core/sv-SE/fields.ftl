@@ -1,4 +1,4 @@
-fields-add-field = Lägg till Fält
+fields-add-field = Lägg till fält
 fields-delete-field-from = Radera fält från { $val }?
 fields-editing-font = Redigeringstypsnitt
 fields-field = Fält:

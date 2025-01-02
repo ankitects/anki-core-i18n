@@ -6,12 +6,12 @@ card-templates-changes-will-affect-notes =
        *[other] Ändringar nedan kommer att påverka de { $count } noter som använder denna korttyp.
     }
 card-templates-card-type = Korttyp:
-card-templates-front-template = Mall för Framsida
-card-templates-back-template = Mall för Baksida
+card-templates-front-template = Mall för framsida
+card-templates-back-template = Mall för baksida
 card-templates-template-styling = Stil
 card-templates-front-preview = Förhandsvisning av framsida
 card-templates-back-preview = Förhandsvisning av baksida
-card-templates-preview-box = Förhandsvisa
+card-templates-preview-box = Förhandsvisning
 card-templates-template-box = Mall
 card-templates-sample-cloze = Det här är ett { "{{c1::" }exempel{ "}}" } på en lucktext.
 card-templates-fill-empty = Fyll tomma fält
