@@ -57,6 +57,8 @@ importing-unable-to-import-from-a-readonly = No es posible importar desde un arc
 importing-unknown-file-format = Formato de archivo desconocido.
 importing-update-existing-notes-when-first-field = Actualizar las tarjetas existentes cuando el primer campo coincida
 importing-updated = Actualizado
+importing-update-always = Siempre
+importing-update-never = Nunca
 importing-note-added =
     { $count ->
         [one] { $count } nota añadida
@@ -116,6 +118,13 @@ importing-cards-added =
        *[other] { $count } tarjetas añadidas.
     }
 importing-file-empty = El archivo que seleccionó está vacío.
+importing-notes-added =
+    { $count ->
+        [one] nueva nota importada
+       *[other] nuevas notas importadas
+    }
+importing-show = Monstrar
+importing-details = Detalles
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -69,6 +69,14 @@ editing-close-html-tags = Etiquetas HTML de cierre automático
 editing-from-clipboard = Desde Portapapeles
 editing-alignment = Alineación
 editing-equations = Ecuaciones
+editing-image-occlusion-delete = Eliminar
+editing-image-occlusion-duplicate = Duplicar
+editing-image-occlusion-select-all = Seleccionar Todo
+editing-image-occlusion-alignment = Alineación
+editing-image-occlusion-align-left = Alinear a la izquierda
+editing-image-occlusion-zoom-tool = Zoom
+editing-image-occlusion-rectangle-tool = Rectángulo
+editing-image-occlusion-text-tool = Texto
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

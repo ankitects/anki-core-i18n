@@ -51,3 +51,4 @@ notetypes-error-generating-cloze = Ocurrió un error al generar una nota de tipo
 notetypes-error-getting-imagecloze = Ocurrió un error al buscar una nota de tipo Oclusión de Imagen
 notetypes-error-loading-image-occlusion = Error al cargar la oclusión de la imagen. ¿Tu versión de Anki está actualizada?
 notetype-error-no-image-to-show = No hay imagen para mostrar
+notetypes-io-select-image = Selecionar imagen

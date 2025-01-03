@@ -12,6 +12,7 @@ actions-decks = Mazos
 actions-decrement-value = Disminuir valor
 actions-delete = Eliminar
 actions-export = Exportar
+actions-empty-cards = Vaciar Tarjetas
 actions-filter = Filtrar
 actions-help = Ayuda
 actions-increment-value = Aumentar valor

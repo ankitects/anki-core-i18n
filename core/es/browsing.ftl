@@ -82,6 +82,7 @@ browsing-reschedule = Reprogramar
 browsing-search-bar-hint = Buscar tarjetas/notas (escriba el texto y luego presione Entrar)
 browsing-search-in = Buscar en:
 browsing-search-within-formatting-slow = Buscar en elementos de formato (lento)
+browsing-select-deck = Seleccionar Mazo
 browsing-selected-notes-only = Solo notas seleccionadas
 browsing-shift-position-of-existing-cards = Cambiar posición de las tarjetas existentes
 browsing-sidebar = Barra lateral
