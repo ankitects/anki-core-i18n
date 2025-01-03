@@ -20,6 +20,8 @@ custom-study-select = Seç
 custom-study-select-tags-to-exclude = Geride kalan etiketleri seç
 custom-study-selective-study = Seçmeli Çalışma
 custom-study-study-by-card-state-or-tag = Kart durumuna veya etikete göre çalış
+custom-study-available-new-cards-2 = Mevcut yeni kartlar: { $countString }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+custom-study-available-new-cards = Mevcut yeni kartlar: { $count }
