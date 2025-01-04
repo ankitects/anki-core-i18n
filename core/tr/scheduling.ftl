@@ -82,10 +82,10 @@ scheduling-today-new-limit-reached =
     Sınırı seçeneklerde arttırabilirsiniz, ama lütfen aklında tutun ki 
     daha fazla yeni kart tanıtıldıkça, kısa süreli gözden geçirme 
     iş yükünüz artacak.
-scheduling-buried-cards-found = Bir veya daha fazla kart gizlendi, yarın da gösterilecek. Onları hemen görmek istiyorsanız, { $unburyThem }abilirsiniz.
+scheduling-buried-cards-found = Bir veya daha fazla kart gömüldü, yarın da gösterilecek. Onları hemen görmek istiyorsanız, { $unburyThem }abilirsiniz.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = gizlemeyi geri al
+scheduling-unbury-them = gömmeyi geri al
 scheduling-how-to-custom-study = Olağan planın dışında çalışmak istiyorsanız, { $customStudy } özelliğini kullanabilirsiniz.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
@@ -102,8 +102,8 @@ scheduling-update-more-info-button = Daha Fazlasını Öğren
 
 scheduling-at-least-one-step-is-required = En az bir adım gereklidir.
 scheduling-automatically-play-audio = Sesi otomatik olarak çal
-scheduling-bury-related-new-cards-until-the = Bir sonraki güne kadar ilgili kartları gizle
-scheduling-bury-related-reviews-until-the-next = Ertesi güne kadar gizli kartlar gözden geçirilir
+scheduling-bury-related-new-cards-until-the = İlgili yeni kartları ertesi güne kadar göm
+scheduling-bury-related-reviews-until-the-next = İlgili gözden geçirmeleri ertesi güne kadar göm
 scheduling-days = günler
 scheduling-description = Açıklama
 scheduling-easy-bonus = Kolay ikramiye

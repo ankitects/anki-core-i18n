@@ -1,4 +1,4 @@
-importing-failed-debug-info = İçeri aktarma gerçekleştirilemedi. Hata ayıklama bilgisi:
+importing-failed-debug-info = İçe aktarma gerçekleştirilemedi. Hata ayıklama bilgisi:
 importing-aborted = İptal Edildi: { $val }
 importing-added-duplicate-with-first-field = İlk alanın aynısı eklendi: { $val }
 importing-allow-html-in-fields = Alanlarda HTML kodlarına izin ver
@@ -16,8 +16,8 @@ importing-ignore-field = Alanı gözardı et.
 importing-ignore-lines-where-first-field-matches = İlk alanı mevcut not ile eşleşen satırları yok say
 importing-ignored = <yoksay>
 importing-import-even-if-existing-note-has = Mevcut not aynı ilk alana sahip olmasına rağmen içe aktar
-importing-import-options = İçeri aktarma seçenekleri
-importing-importing-complete = İçeri aktarma tamamlandı.
+importing-import-options = İçe aktarma seçenekleri
+importing-importing-complete = İçe aktarma tamamlandı.
 importing-invalid-file-please-restore-from-backup = Geçersiz dosya. Lütfen yedekten yükleyin.
 importing-map-to = Eşle { $val }
 importing-map-to-tags = Etiketleri Eşle

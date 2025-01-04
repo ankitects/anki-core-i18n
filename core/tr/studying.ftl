@@ -1,9 +1,9 @@
 studying-again = Tekrar
 studying-all-buried-cards = Tüm Gizlenen Kartlar
 studying-buried-siblings = Gizlenen Kardeşler
-studying-bury = Gizle
-studying-bury-card = Kartı Gizle
-studying-bury-note = Notu Gizle
+studying-bury = Göm
+studying-bury-card = Kartı Göm
+studying-bury-note = Notu Göm
 studying-card-suspended = Kart askıya alındı.
 studying-card-was-a-leech = Kart bir sömürücüydü.
 studying-cards-buried =
@@ -38,8 +38,8 @@ studying-suspend = Askıya Al
 studying-suspend-note = Notu Askıya Al
 studying-to-review = İncelenecek
 studying-type-answer-unknown-field = Cevap yazın: bilinmeyen alan { $val }
-studying-unbury = Gizlemeyi geri̇ al
-studying-what-would-you-like-to-unbury = Neyin gizlemesini geri almak istersiniz?
+studying-unbury = Gömmeyi geri̇ al
+studying-what-would-you-like-to-unbury = Neyin gömmesini geri almak istersiniz?
 studying-you-havent-recorded-your-voice-yet = Sesinizi henüz kaydetmediniz.
 studying-card-studied-in =
     { $count ->

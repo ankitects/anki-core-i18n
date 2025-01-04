@@ -45,10 +45,10 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = Gizleme
-deck-config-bury-new-siblings = Yeni kardeşleri gizle
-deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri gizle
-deck-config-bury-interday-learning-siblings = Günler arası öğrenmesi kardeşleri gizle
+deck-config-bury-title = Gömme
+deck-config-bury-new-siblings = Yeni kardeşleri göm
+deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri göm
+deck-config-bury-interday-learning-siblings = Günler arası öğrenmesi kardeşleri göm
 
 ## Ordering section
 
@@ -117,4 +117,4 @@ deck-config-answer-good = İyi
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-bury-siblings = Kardeşleri gizle
+deck-config-bury-siblings = Kardeşleri göm
