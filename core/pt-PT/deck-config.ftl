@@ -76,6 +76,9 @@ deck-config-new-insertion-order-random-with-v3 = Com a versão 3 do agendador, �
 ## Lapses section
 
 deck-config-relearning-steps = Etapas de reaprendizagem
+deck-config-relearning-steps-tooltip =
+    Zero ou mais intervalos, separados por espaços. Por defeito, quando pressiona o botão `Novamente` numa ficha a rever esta será apresentada novamente em 10 minutos.
+    Se não forem introduzidos intervalos, a ficha terá o seu intervalo alterado, sem entrar na reaprendizagem. { -deck-config-delay-hint }
 
 ## Burying section
 
