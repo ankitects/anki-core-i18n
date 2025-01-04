@@ -71,9 +71,11 @@ deck-config-new-insertion-order-tooltip =
     Alterar esta opção irá actualizar automaticamente a posição das novas fichas existentes.
 deck-config-new-insertion-order-sequential = Sequencial (as mais antigas primeiro)
 deck-config-new-insertion-order-random = Aleatória
+deck-config-new-insertion-order-random-with-v3 = Com a versão 3 do agendador, é melhor deixar isto em sequencial, e ajustar antes a ordem de recolha para as novas fichas.
 
 ## Lapses section
 
+deck-config-relearning-steps = Etapas de reaprendizagem
 
 ## Burying section
 
