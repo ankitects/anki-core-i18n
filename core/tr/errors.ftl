@@ -1,3 +1,4 @@
+errors-filtered-deck-required = Bu eylem sadece filtrelenmiş bir destede kullanılabilir.
 errors-100-tags-max =
     Maksimum 100 etiket seçilebilir. İstediğiniz etiketleri listelemek,
     istemediklerinizi listelemekten genellikle daha kolay, ve
