@@ -1,31 +1,31 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
-card-templates-blank = tukšs
+card-templates-blank = tukšs(a)
 card-templates-changes-will-affect-notes =
     { $count ->
-        [zero] Tālāk nuorādītās izmaiņas neietekmēs nevienu piezīmi kurā tiek izmantuots šis kartes tips.
-        [one] Tālāk norādītās izmaiņas ietekmēs { $count } piezīmi, kurā tiek izmantots šis kartes tips.
-       *[other] Tālāk norādītās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kartes tips.
+        [zero] Noradītas izmaiņas neietekmēs nevienu piezīmi, kurā tiek izmantots šis kārts veids.
+        [one] Norādītās izmaiņas ietekmēs { $count } piezīmi, kurā tiek izmantots šis kārts veids.
+       *[other] Norādītās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kārts veids.
     }
-card-templates-card-type = Kārts tips:
-card-templates-front-template = Priekšas veidne
+card-templates-card-type = Kārts veids:
+card-templates-front-template = Priekšpuses veidne
 card-templates-back-template = Aizmugures veidne
 card-templates-template-styling = Stils
-card-templates-front-preview = Priekšas priekšskatījums
+card-templates-front-preview = Priekšpuses priekšskatījums
 card-templates-back-preview = Aizmugures priekšskatījums
 card-templates-preview-box = Priekšskatījums
 card-templates-template-box = Veidne
-card-templates-sample-cloze = Šis ir { "{{c1:::" }paraugs{ "}}" } cloze dzēšana.
-card-templates-fill-empty = Aizpildīt tukšuos lauciņus
+card-templates-sample-cloze = Šis ir { "{{c1::" }paraugs{ "}}" } cloze dzēšanai.
+card-templates-fill-empty = Aizpildiet trūkstošos lauciņus
 card-templates-night-mode = Nakts režīms
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
-card-templates-add-mobile-class = Pievienuot mobīluo klasi
-card-templates-preview-settings = Opcijas
-card-templates-invalid-template-number = Kārts { $number } veidnei «{ $notetype }» piezīmes tipā ir problēma.
-card-templates-identical-front = Priekša ir identiska ar { $number }. kārts veidni.
-card-templates-no-front-field = Var sagaidīt aizvietuojumu kārts veidnes priekšpusē.
-card-templates-missing-cloze = Var sagaidīt atrast '{ "{{" }cloze:Text{ "}}" }' vai kuo līdzīgu kārts veidnes priekšpusē un aizmugurē.
-card-templates-extraneous-cloze = 'cloze:' var tikt lietuots tikai cloze piezīmes tipuos.
+card-templates-add-mobile-class = Pievienot mobilo klasi
+card-templates-preview-settings = Iespējas
+card-templates-invalid-template-number = Kārts { $number }  veidnē „{ $notetype }” piezīmes veidam ir problēma.
+card-templates-identical-front = Priekšpuse ir identiska ar kāršu veidni „{ $number }”.
+card-templates-no-front-field = Var sagaidīt aizvietojumu kārts veidnes priekšpusē.
+card-templates-missing-cloze = Var sagaidīt atrast '{ "{{" }cloze:Text{ "}}" }' vai ko līdzīgu kārts veidnes priekšpusē un aizmugurē.
+card-templates-extraneous-cloze = 'cloze:' var tikt lietots tikai cloze piezīmes veidos.
 card-templates-see-preview = Lai uzzinātu vairāk, apskatiet priekšskatījumu.
 card-templates-changes-saved = Izmaiņas ir saglabātas.
 card-templates-discard-changes = Atcelt izmaiņas?

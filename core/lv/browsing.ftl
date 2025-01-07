@@ -69,12 +69,12 @@ browsing-notes = Piezīmes
 browsing-optional-filter = Papildus filtri:
 browsing-override-back-template = Pārrakstīt aizmugures veidni:
 browsing-override-font = Pārrakstīt fontu:
-browsing-override-front-template = Pārrakstīt preikšpuses veidni:
-browsing-please-give-your-filter-a-name = Nosauc savu filtru:
-browsing-preview-selected-card = Priekšskatīt atlasīt kārti ({ $val })
+browsing-override-front-template = Pārrakstīt priekšpuses veidni:
+browsing-please-give-your-filter-a-name = Lūdzu, nosauc savu filtru:
+browsing-preview-selected-card = Priekšskatīt atlasīto kārti ({ $val })
 browsing-question = Jautājums
-browsing-queue-bottom = Rindas apakša: { $val }
-browsing-queue-top = Rindas augša: { $val }
+browsing-queue-bottom = Rindas beigas: { $val }
+browsing-queue-top = Rindas sākums: { $val }
 browsing-randomize-order = Secība pēc nejaušības
 browsing-remove-tags = Noņemt birkas...
 browsing-replace-with = <b>Aizvietot ar</b>:
@@ -86,7 +86,7 @@ browsing-search-in = Meklēt:
 browsing-search-within-formatting-slow = Meklēšana formatēšanas ietvaros (lēni)
 browsing-select-deck = Atlasītā kava
 browsing-selected-notes-only = Tikai atlasītās piezīmes
-browsing-shift-position-of-existing-cards = Pārvietot jau pastāvošu karšu pozīciju
+browsing-shift-position-of-existing-cards = Pārvietot pastāvošo karšu pozīciju
 browsing-sidebar = Sānjosla
 browsing-sidebar-filter = Sānjoslas filtrs
 # The field that is used for sorting (sort is an adjective here, not a verb)
@@ -98,24 +98,24 @@ browsing-suspended = Apturētie(ās)
 browsing-tag-duplicates = Birku dublikāti
 browsing-tag-rename-warning-empty = Nevar pārdēvēt birku kurai nav piezīmju.
 browsing-target-field = Mērķa lauciņš:
-browsing-toggle-bury = Sākt aprakšanu
-browsing-toggle-showing-cards-notes = Sākt kārtis/piezīmes
-browsing-toggle-mark = Sākt atzīmēšanu
-browsing-toggle-suspend = Sākt apturēšanu
-browsing-treat-input-as-regular-expression = Uzskatīt ievadi kā parastu izsteksmi
-browsing-update-saved-search = Atjaunuot ar pašreizējuo meklēšanu
+browsing-toggle-bury = Aprakt
+browsing-toggle-showing-cards-notes = Pārslēgt uz kārtīm/piezīmēm
+browsing-toggle-mark = Atzīmēt
+browsing-toggle-suspend = Apturēt
+browsing-treat-input-as-regular-expression = Uzskatīt ievadi kā parastu izteiksmi
+browsing-update-saved-search = Atjaunot ar pašreizēju meklēšanu
 browsing-whole-collection = Visa kolekcija
-browsing-window-title-notes = Pārlūkuot ({ $selected } vai { $total } piezīme(s) atlasīta(s))
+browsing-window-title-notes = Pārlūkot ({ $selected } no { $total } piezīmēm atlasīta(s))
 browsing-you-must-have-at-least-one = Jābūt vismaz vienai kolonnai
 browsing-group =
     { $count ->
-        [zero] { $count } grupas
+        [zero] Nav grupu
         [one] { $count } grupa
        *[other] { $count } grupas
     }
 browsing-note-count =
     { $count ->
-        [zero] { $count } piezīmes
+        [zero] Nav piezīmju
         [one] { $count } piezīme
        *[other] { $count } piezīmes
     }
@@ -127,45 +127,45 @@ browsing-notes-updated =
     }
 browsing-cards-updated =
     { $count ->
-        [zero] Nav neviena kārts atjuanināta.
+        [zero] Nav neviena kārts atjaunināta
         [one] { $count } kārts atjaunināta
        *[other] { $count } kārtis atjauninātas
     }
-browsing-window-title = Pārlūkuot ({ $selected } nuo { $total } kārts(īm) atlasīta(s))
-browsing-sidebar-expand = Paplaināt
+browsing-window-title = Pārlūkot ({ $selected } no { $total } kārtīm atlasīta(s))
+browsing-sidebar-expand = Izvērst
 browsing-sidebar-collapse = Sakļaut
-browsing-sidebar-expand-children = Paplašināt apakšējuos
-browsing-sidebar-collapse-children = Sakļaut apakšējuos
+browsing-sidebar-expand-children = Izvērst apakšējos
+browsing-sidebar-collapse-children = Sakļaut apakšējos
 browsing-sidebar-decks = Kavas
 browsing-sidebar-tags = Birkas
 browsing-sidebar-notetypes = Piezīmju veidi
 browsing-sidebar-saved-searches = Saglabātie meklējumi
-browsing-sidebar-save-current-search = Saglabāt pašreizējuo meklējumu
-browsing-sidebar-card-state = Kārts stāvuoklis
-browsing-sidebar-flags = Karuogi
-browsing-today = Šuodien
-browsing-tooltip-card-modified = Pēdējo reizi kārtij tika veiktas izmaiņas, ieskaitot pārskatus, karodziņus un komplekta izmaiņas.
-browsing-tooltip-note-modified = Pēdējo reizi piezīmē tika veiktas izmaiņas, parasti lauka satura vai tagu rediģēšana.
-browsing-tooltip-card = Kāršu kārts veidņu nuosaukums
+browsing-sidebar-save-current-search = Saglabāt pašreizēju meklējumu
+browsing-sidebar-card-state = Kārts stāvoklis
+browsing-sidebar-flags = Karogi
+browsing-today = Šodien
+browsing-tooltip-card-modified = Pēdējā reize, kad kārtij tika veiktas izmaiņas, ieskaitot pārskatus, karoga un komplekta izmaiņas.
+browsing-tooltip-note-modified = Pēdējā reize, kad piezīmē tika veiktas izmaiņas, parasti lauka satura vai birkas rediģēšana
+browsing-tooltip-card = Kārts veidnes nosaukums
 browsing-tooltip-cards = Karšu skaits piezīmē
-browsing-tooltip-notetype = Piezīmes piezīmju veida nuosaukums
-browsing-tooltip-question = Kārts priekšējā puse, pielāgojama kārts veidnes redaktorā.
-browsing-tooltip-answer = Kārts aizmugurējā puse, pielāgojama kārts veidnes redaktorā.
-browsing-studied-today = Jau izdarīti
-browsing-added-today = Pievienuotie
-browsing-again-today = Atkal
+browsing-tooltip-notetype = Piezīmes veida nosaukums
+browsing-tooltip-question = Kārts priekšējā puse pielāgojama kārts veidnes redaktorā
+browsing-tooltip-answer = Kārts aizmugure pielāgojama kārts veidnes redaktorā
+browsing-studied-today = Jau izdarītie
+browsing-added-today = Pievienotie
+browsing-again-today = No jauna
 browsing-edited-today = Rediģētie
 browsing-sidebar-first-review = Pirmais pārskats
-browsing-sidebar-rescheduled = Pāplānuotie
+browsing-sidebar-rescheduled = Pārplānotie
 browsing-sidebar-due-today = Līdz
 browsing-sidebar-untagged = Bez birkas
-browsing-sidebar-overdue = Nuokavētie
+browsing-sidebar-overdue = Nokavētie
 browsing-row-deleted = (dzēstie)
 browsing-removed-unused-tags-count =
     { $count ->
-        [zero] Nav nuoņemta neviena nelietuota birka.
-        [one] Nuoņemta { $count } nelietuota birka.
-       *[other] Nuoņemtas { $count } nelietuotas birkas.
+        [zero] Nav noņemtā neviena nelietotā birka.
+        [one] Noņemta { $count } nelietota birka.
+       *[other] Noņemtas { $count } nelietotas birkas.
     }
 browsing-changed-new-position =
     { $count ->
