@@ -312,6 +312,11 @@ deck-config-answer-hard = Απαντήστε "Δύσκολο"
 deck-config-answer-good = Απαντήστε "Καλά"
 deck-config-days-to-simulate = Ημέρες για προσομοίωση
 deck-config-desired-retention-below-optimal = Η επιθυμητή ανάκληση είναι χαμηλότερη της βέλτιστης. Συνιστάται η αύξησή της.
+deck-config-fsrs-simulator-experimental = Προσομοιωτής FSRS (πειραματικό)
+deck-config-simulate = Προσομοίωση
+deck-config-clear-last-simulate = Εκκαθάριση προηγούμενης προσομοίωσης
+deck-config-fsrs-simulator-radio-count = Επαναλήψεις
+deck-config-fsrs-simulator-radio-memorized = Απομνημονευμένα
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
