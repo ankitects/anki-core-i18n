@@ -212,7 +212,7 @@ deck-config-confirm-remove-name = 要移除「{ $name }」嗎？
 deck-config-save-button = 儲存
 deck-config-save-to-all-subdecks = 儲存至所有子牌組
 deck-config-save-and-optimize = 最佳化所有預設組
-deck-config-revert-button-tooltip = 將此設定回復為預設值。
+deck-config-revert-button-tooltip = 回復設定為預設值？
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -306,6 +306,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
 deck-config-fsrs-params-optimal = 當前 FSRS 參數已為最佳。
+deck-config-fsrs-params-no-reviews = 找不到複習記錄。請確保所有需要最佳化的牌組（含子牌組）都正在使用此預設組，然後再試一次。
 deck-config-wait-for-audio = 等待音訊播放
 deck-config-show-reminder = 顯示提醒
 deck-config-answer-again = 回答「重來」
@@ -313,6 +314,13 @@ deck-config-answer-hard = 回答「困難」
 deck-config-answer-good = 回答「良好」
 deck-config-days-to-simulate = 模擬天數
 deck-config-desired-retention-below-optimal = 你的期望留存機率低於最佳，建議提高數值。
+deck-config-fsrs-simulator-y-axis-title-time = 每日複習耗時
+deck-config-fsrs-simulator-y-axis-title-count = 每日複習張數
+deck-config-fsrs-simulator-y-axis-title-memorized = 記憶總數
+deck-config-fsrs-simulator-experimental = FSRS 模擬器（實驗性）
+deck-config-additional-new-cards-to-simulate = 額外模擬新卡片數量
+deck-config-simulate = 模擬
+deck-config-clear-last-simulate = 清除上一次模擬
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
