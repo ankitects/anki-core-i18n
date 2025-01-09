@@ -77,14 +77,14 @@ browsing-randomize-order = Karışık Sıra
 browsing-remove-tags = Etiketleri Kaldır...
 browsing-replace-with = <b>...İle Değiştir</b>
 browsing-reposition = Yeniden konumlandır...
-browsing-reposition-new-cards = Yeni kartları yerleştir
+browsing-reposition-new-cards = Yeni Kartları Yeniden Konumlandır
 browsing-reschedule = Yeniden Planlama
 browsing-search-bar-hint = Kartları/notları aramak için, metin yazın sonra Enter tuşuna basın
 browsing-search-in = İçinde ara:
 browsing-search-within-formatting-slow = Biçimlemeyi içererek ara (yavaş)
 browsing-select-deck = Desteyi Seç
 browsing-selected-notes-only = Sadece seçilen notlar
-browsing-shift-position-of-existing-cards = Mevcut kartların yerini değiştir
+browsing-shift-position-of-existing-cards = Mevcut kartların konumunu kaydır
 browsing-sidebar = Kenar Çubuğu
 browsing-sidebar-filter = Kenar Çubuğu filtresi
 # The field that is used for sorting (sort is an adjective here, not a verb)
@@ -162,8 +162,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] { $count } yeni kartın pozisyonu değişti.
-       *[other] { $count } yeni kartın pozisyonu değişti.
+        [one] { $count } yeni kartın konumu değişti.
+       *[other] { $count } yeni kartın konumu değişti.
     }
 browsing-reparented-decks =
     { $count ->
