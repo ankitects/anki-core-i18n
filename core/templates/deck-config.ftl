@@ -315,7 +315,7 @@ deck-config-confirm-remove-name = Remove { $name }?
 deck-config-save-button = Save
 deck-config-save-to-all-subdecks = Save to All Subdecks
 deck-config-save-and-optimize = Optimize All Presets
-deck-config-revert-button-tooltip = Restore this setting to its default value.
+deck-config-revert-button-tooltip = Restore this setting to its default value?
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -452,6 +452,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = Optimizing preset { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS must be enabled first.
 deck-config-fsrs-params-optimal = The FSRS parameters currently appear to be optimal.
+deck-config-fsrs-params-no-reviews = No reviews found. Please check that this preset is assigned to all decks you want to optimize (including subdecks) and try again.
 
 deck-config-wait-for-audio = Wait for audio
 deck-config-show-reminder = Show Reminder
@@ -460,6 +461,15 @@ deck-config-answer-hard = Answer Hard
 deck-config-answer-good = Answer Good
 deck-config-days-to-simulate = Days to simulate
 deck-config-desired-retention-below-optimal = Your desired retention is below optimal. Increasing it is recommended.
+deck-config-fsrs-simulator-y-axis-title-time = Review Time/Day
+deck-config-fsrs-simulator-y-axis-title-count = Review Count/Day
+deck-config-fsrs-simulator-y-axis-title-memorized = Memorized Total
+deck-config-fsrs-simulator-experimental = FSRS simulator (experimental)
+deck-config-additional-new-cards-to-simulate = Additional new cards to simulate
+deck-config-simulate = Simulate
+deck-config-clear-last-simulate = Clear last simulation
+deck-config-fsrs-simulator-radio-count = Reviews
+deck-config-fsrs-simulator-radio-memorized = Memorized
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

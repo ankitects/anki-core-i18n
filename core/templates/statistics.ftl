@@ -59,6 +59,7 @@ statistics-reviews =
         [one] { $reviews } review
        *[other] { $reviews } reviews
     }
+statistics-memorized = {$memorized} memorized
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -96,13 +97,16 @@ statistics-true-retention-subtitle = Pass rate of cards with an interval ≥ 1 d
 statistics-true-retention-range = Range
 statistics-true-retention-pass = Pass
 statistics-true-retention-fail = Fail
+statistics-true-retention-count = Count
 statistics-true-retention-retention = Retention
+statistics-true-retention-all = All
 statistics-true-retention-today = Today
 statistics-true-retention-yesterday = Yesterday
 statistics-true-retention-week = Last week
 statistics-true-retention-month = Last month
 statistics-true-retention-year = Last year
 statistics-true-retention-all-time = All time
+statistics-true-retention-not-applicable = N/A
 statistics-range-all-time = all
 statistics-range-1-year-history = last 12 months
 statistics-range-all-history = all history
