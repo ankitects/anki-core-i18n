@@ -96,6 +96,7 @@ statistics-true-retention-subtitle = Ποσοστό επιτυχίας των κ
 statistics-true-retention-range = Εύρος
 statistics-true-retention-pass = Pass
 statistics-true-retention-fail = Fail
+statistics-true-retention-count = Αριθμός
 statistics-true-retention-retention = Ανάκληση
 statistics-true-retention-today = Σήμερα
 statistics-true-retention-yesterday = Χθες
