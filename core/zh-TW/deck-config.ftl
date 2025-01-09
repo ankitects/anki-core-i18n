@@ -318,7 +318,7 @@ deck-config-fsrs-simulator-y-axis-title-time = 每日複習耗時
 deck-config-fsrs-simulator-y-axis-title-count = 每日複習張數
 deck-config-fsrs-simulator-y-axis-title-memorized = 記憶總數
 deck-config-fsrs-simulator-experimental = FSRS 模擬器（實驗性）
-deck-config-additional-new-cards-to-simulate = 額外模擬新卡片數量
+deck-config-additional-new-cards-to-simulate = 模擬新增卡片數量
 deck-config-simulate = 模擬
 deck-config-clear-last-simulate = 清除上一次模擬
 
