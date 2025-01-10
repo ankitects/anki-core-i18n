@@ -59,6 +59,7 @@ statistics-reviews =
         [one] { $reviews } ripetizione
        *[other] { $reviews } ripetizioni
     }
+statistics-memorized = { $memorized } carte memorizzate
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -94,13 +95,16 @@ statistics-true-retention-subtitle = Tasso di carte corrette aventi un intervall
 statistics-true-retention-range = Intervallo
 statistics-true-retention-pass = Corrette
 statistics-true-retention-fail = Sbagliate
+statistics-true-retention-count = Conteggio
 statistics-true-retention-retention = Ritenzione
+statistics-true-retention-all = Tutte
 statistics-true-retention-today = Oggi
 statistics-true-retention-yesterday = Ieri
 statistics-true-retention-week = Ultima settimana
 statistics-true-retention-month = Ultimo mese
 statistics-true-retention-year = Ultimo anno
 statistics-true-retention-all-time = Tutto il periodo
+statistics-true-retention-not-applicable = N.D.
 statistics-range-all-time = vita del mazzo
 statistics-range-1-year-history = ultimi 12 mesi
 statistics-range-all-history = tutto il periodo
