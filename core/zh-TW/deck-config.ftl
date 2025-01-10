@@ -52,7 +52,7 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議
 
 deck-config-relearning-steps = 重新學習階段
 deck-config-relearning-steps-tooltip = 零或多段時長，用空格分隔。根據預設，複習卡的 `重來` 按鈕延遲為 10 分鐘。若未提供時長，則按下 `重來` 會改變卡片的間隔，但不會進入重新學習狀態。{ -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = 複習卡被標記為低效卡（`leech`）所需按下 `重來` 的次數。低效卡耗費了你大量的時間，對待低效卡最好的方法是將其重寫、刪除，或是使用縮寫、口訣等方式來幫助記憶。
+deck-config-leech-threshold-tooltip = 複習卡被標記為低效卡（`leech`）所需按下 `重來` 的次數。低效卡耗費了你大量的時間，建議對這些卡片重寫、刪除或透過口訣來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `僅加上標籤`：對筆記加上 `leech` 標籤，並顯示一個彈出式視窗。
