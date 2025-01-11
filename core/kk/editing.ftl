@@ -73,7 +73,7 @@ editing-from-clipboard = Буферден
 editing-alignment = Туралау
 editing-equations = Теңдеулер
 editing-no-image-found-on-clipboard = Буферден кескін табылмады
-editing-image-occlusion-mode = Кескіндерді Бүркелемеу Режимі
+editing-image-occlusion-mode = Кескін Бүркемесі Режимі
 editing-image-occlusion-zoom-out = Кішілеу
 editing-image-occlusion-zoom-in = Ірілеу
 editing-image-occlusion-zoom-reset = Масштабты Қалпына Келтіру
@@ -97,6 +97,9 @@ editing-image-occlusion-ellipse-tool = Эллипс
 editing-image-occlusion-polygon-tool = Көпбұрыш
 editing-image-occlusion-text-tool = Мәтін
 editing-image-occlusion-toggle-mask-editor = Перде Редакторын Қосу/Өшіру
+editing-image-occlusion-reset = Кескін Бүркемесін Қалпына Келтіру
+editing-image-occlusion-confirm-reset = Бұл кескін бүркемесін қалпына келтіргіңіз келетініне сенімдісіз бе?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
+editing-html-editor = HTML Редакторы

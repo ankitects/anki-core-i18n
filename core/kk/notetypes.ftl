@@ -39,19 +39,19 @@ notetypes-type = Түр
 ## Image Occlusion
 
 notetypes-image = Кескін
-notetypes-occlusion = Бүркемелеу
+notetypes-occlusion = Бүркеме
 notetypes-occlusion-mask = Перде
 notetypes-occlusion-note = Жазба
 notetypes-comments-field = Пікірлер
 notetypes-toggle-masks = Перде Қосу/Өшіру
-notetypes-image-occlusion-name = Суретті Бүркелемеу
+notetypes-image-occlusion-name = Кескін Бүркемесі
 notetypes-hide-all-guess-one = Бәрін жасыр, Біреуін Анықта
 notetypes-hide-one-guess-one = Біреуін Жасыр, Біреуін Анықта
-notetypes-error-generating-cloze = Суретті бүркелемеу жазбасын жасағанда қате орын алды
-notetypes-error-getting-imagecloze = Суретті бүркелемеу жазбасын алғанда қате орын алды
-notetypes-error-loading-image-occlusion = Суретті бүркемелеуді жүктеу кезінде қате. Anki нұсқасы жаңартылған ба?
+notetypes-error-generating-cloze = Кескін бүркемесі жазбасын жасағанда қате орын алды
+notetypes-error-getting-imagecloze = Кескін бүркемесін жазбасын алғанда қате орын алды
+notetypes-error-loading-image-occlusion = Кескін бүркемесін жүктеу кезінде қате. Anki нұсқасы жаңартылған ба?
 notetype-error-no-image-to-show = Көрсететін сурет жоқ.
-notetypes-no-occlusion-created = Кем дегенде суретті бүркелемеу біреу болу керек.
-notetypes-no-occlusion-created2 = Қосу мүмкін емес. Не бүркемелеуді қоспағансыз, не бірінші өріс бос.
+notetypes-no-occlusion-created = Кем дегенде бір кескін бүркемесін жасау керек.
+notetypes-no-occlusion-created2 = Қосу мүмкін емес. Не бүркемеуді қоспағансыз, не бірінші өріс бос.
 notetypes-io-select-image = Сурет Таңдау
 notetypes-io-paste-image-from-clipboard = Буферден Суретті Қою
