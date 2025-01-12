@@ -76,6 +76,7 @@ statistics-reviews =
         [many] { $reviews } повторень
        *[other] { $reviews } повторень
     }
+statistics-memorized = Запам'ятовано { $memorized }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -111,13 +112,16 @@ statistics-true-retention-subtitle = Коефіцієнт вивчення ка�
 statistics-true-retention-range = Діапазон
 statistics-true-retention-pass = Вивчено
 statistics-true-retention-fail = Забуто
+statistics-true-retention-count = Кількість
 statistics-true-retention-retention = Затримка
+statistics-true-retention-all = Всі
 statistics-true-retention-today = Сьогодні
 statistics-true-retention-yesterday = Вчора
 statistics-true-retention-week = Минулого тижня
 statistics-true-retention-month = Минулого місяця
 statistics-true-retention-year = Минулого року
 statistics-true-retention-all-time = За весь час
+statistics-true-retention-not-applicable = Н/д
 statistics-range-all-time = тривалість життя колоди
 statistics-range-1-year-history = За остані 12 місяців
 statistics-range-all-history = За весь час

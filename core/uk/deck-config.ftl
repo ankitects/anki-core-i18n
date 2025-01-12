@@ -470,6 +470,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = Оптимізація { $current_count } з { $total_count } конфігурацій...
 deck-config-fsrs-must-be-enabled = Спершу слід увімкнути ВПІП.
 deck-config-fsrs-params-optimal = Схоже, що параметри ВПІП є оптимальними.
+deck-config-fsrs-params-no-reviews = Пригадування не знайдено. Перевірте, що конфігурацію вказано для всіх колод які слід оптимізувати (з підколодами) і спробуйте ще раз.
 deck-config-wait-for-audio = Чекати кінця аудіо
 deck-config-show-reminder = Показати нагадування
 deck-config-answer-again = Відповісти знову
@@ -477,6 +478,15 @@ deck-config-answer-hard = Вважати відповідь тяжкою
 deck-config-answer-good = Вважати відповідь доброю
 deck-config-days-to-simulate = Кількість днів для симуляції
 deck-config-desired-retention-below-optimal = Обране значення затримка є меншим за оптимальне. Варто її збільшити.
+deck-config-fsrs-simulator-y-axis-title-time = Пригадування Час/День
+deck-config-fsrs-simulator-y-axis-title-count = Пригадування Кількість/День
+deck-config-fsrs-simulator-y-axis-title-memorized = Всього запам'ятовано
+deck-config-fsrs-simulator-experimental = Симулятор ВПІП (експериментальний)
+deck-config-additional-new-cards-to-simulate = Додаткові нові картки для симуляції
+deck-config-simulate = Симулювати
+deck-config-clear-last-simulate = Очистити останню симуляцію
+deck-config-fsrs-simulator-radio-count = Пригадування
+deck-config-fsrs-simulator-radio-memorized = Запам'ятовано
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
