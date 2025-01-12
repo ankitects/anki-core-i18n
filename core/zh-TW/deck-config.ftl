@@ -321,6 +321,8 @@ deck-config-fsrs-simulator-experimental = FSRS 模擬器（實驗性）
 deck-config-additional-new-cards-to-simulate = 模擬新增卡片數量
 deck-config-simulate = 模擬
 deck-config-clear-last-simulate = 清除上一次模擬
+deck-config-fsrs-simulator-radio-count = 複習
+deck-config-fsrs-simulator-radio-memorized = 記憶
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

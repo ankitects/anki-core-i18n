@@ -41,7 +41,7 @@ statistics-cards = { $cards } 張卡片
 statistics-notes = { $notes } 則筆記
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews } 張複習卡
-statistics-memorized = 已記住 { $memorized }
+statistics-memorized = 已記住 { $memorized } 張
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -77,13 +77,16 @@ statistics-true-retention-subtitle = 間隔大於 1 天的卡片的通過率
 statistics-true-retention-range = 範圍
 statistics-true-retention-pass = 通過
 statistics-true-retention-fail = 失敗
+statistics-true-retention-count = 計數
 statistics-true-retention-retention = 留存機率
+statistics-true-retention-all = 全部
 statistics-true-retention-today = 今天
 statistics-true-retention-yesterday = 昨天
 statistics-true-retention-week = 上週
 statistics-true-retention-month = 上個月
 statistics-true-retention-year = 上一年
 statistics-true-retention-all-time = 不限時間
+statistics-true-retention-not-applicable = 無
 statistics-range-all-time = 不限時間
 statistics-range-1-year-history = 過去 12 個月
 statistics-range-all-history = 所有記錄
