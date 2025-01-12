@@ -35,6 +35,8 @@ card-stats-fsrs-forgetting-curve-first-week = Перший тиждень
 card-stats-fsrs-forgetting-curve-first-month = Перший місяць
 card-stats-fsrs-forgetting-curve-first-year = Перший рік
 card-stats-fsrs-forgetting-curve-all-time = За весь час
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Ймовірність нагадування
+card-stats-fsrs-forgetting-curve-desired-retention = Бажана затримка
 
 ## Window Titles
 
