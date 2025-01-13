@@ -35,6 +35,8 @@ card-stats-fsrs-forgetting-curve-first-week = تۇنجى ھەپتە
 card-stats-fsrs-forgetting-curve-first-month = تۇنجى ئاي
 card-stats-fsrs-forgetting-curve-first-year = تۇنجى يىل
 card-stats-fsrs-forgetting-curve-all-time = ھەممە ۋاقىت
+card-stats-fsrs-forgetting-curve-probability-of-recalling = ئەسلەش ئېھتىماللىقى
+card-stats-fsrs-forgetting-curve-desired-retention = ئارزۇدىكى ئەستە ساقلاش نىسبىتى
 
 ## Window Titles
 
