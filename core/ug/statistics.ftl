@@ -59,6 +59,7 @@ statistics-reviews =
         [one] { $reviews } تەكرارلاش
        *[other] { $reviews } تەكرارلاش
     }
+statistics-memorized = { $memorized } نى ئەستە تۇتتى
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -112,13 +113,16 @@ statistics-true-retention-subtitle = كارتىنىڭ ئوتتۇرىچە ئۆت�
 statistics-true-retention-range = دائىرە
 statistics-true-retention-pass = ئۆتكىنى
 statistics-true-retention-fail = مەغلۇب بولغىنى
+statistics-true-retention-count = سانى
 statistics-true-retention-retention = ساقلىنىش
+statistics-true-retention-all = ھەممىسى
 statistics-true-retention-today = بۈگۈن
 statistics-true-retention-yesterday = تۈنۈگۈن
 statistics-true-retention-week = ئۆتكەن ھەپتە
 statistics-true-retention-month = ئۆتكەن ئاي
 statistics-true-retention-year = ئۆتكەن يىل
 statistics-true-retention-all-time = ھەممە ۋاقىت
+statistics-true-retention-not-applicable = N/A
 statistics-range-all-time = ھەممە
 statistics-range-1-year-history = ئۆتكەن 12 ئاي
 statistics-range-all-history = ھەممە تارىخ

@@ -320,6 +320,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = ئالدى بىلەن FSRS نى قوزغىتىش كېرەك.
 deck-config-fsrs-params-optimal = نۆۋەتتە FSRS نىڭ پارامېتىرلىرى ئەلالاشتۇرۇلغان.
+deck-config-fsrs-params-no-reviews = تەكرارلاش خاتىرىسىنى تاپالمىدى. بارلىق ئەلالاشتۇرۇشقا تېگىشلىك دەستە (تارماق دەستىمۇ ئىچىدە) نىڭ ھەممىسى نۆۋەتتىكى ئالدىن تەڭشەكنى ئىشلىتىۋاتقانلىقىنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.
 deck-config-wait-for-audio = ئۈن قويۇلۇشىنى كۈتىدۇ
 deck-config-show-reminder = ئەسكەرتىشنى كۆرسەت
 deck-config-answer-again = جاۋابى قايتا
@@ -327,6 +328,15 @@ deck-config-answer-hard = جاۋابى تەس
 deck-config-answer-good = جاۋابى ياخشى
 deck-config-days-to-simulate = تەقلىد كۈن
 deck-config-desired-retention-below-optimal = ئارزۇيىڭىزدىكى ئەستە ساقلاش نىسبىتى ئەڭ ياخشى ئەستە ساقلاش نىسبىتىدىن تۆۋەن، كۆپەيتىش تەۋسىيە قىلىنىدۇ.
+deck-config-fsrs-simulator-y-axis-title-time = تەكرارلىغان ۋاقىت/كۈن
+deck-config-fsrs-simulator-y-axis-title-count = تەكرارلىغان سانى/كۈن
+deck-config-fsrs-simulator-y-axis-title-memorized = جەمئىي ئەستە ساقلىغىنى
+deck-config-fsrs-simulator-experimental = FSRS تەقلىدلىگۈچ (تەجرىبە)
+deck-config-additional-new-cards-to-simulate = تەقلىدلەيدىغان قوشۇمچە يېڭى كارتا سانى
+deck-config-simulate = تەقلىد
+deck-config-clear-last-simulate = ئاخىرقى تەقلىدلەشنى تازىلا
+deck-config-fsrs-simulator-radio-count = تەكرارلىقى
+deck-config-fsrs-simulator-radio-memorized = ئەستە تۇتقان
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
