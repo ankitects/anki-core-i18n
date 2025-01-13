@@ -59,6 +59,7 @@ statistics-reviews =
         [one] { $reviews } repetition
        *[other] { $reviews } repetitioner
     }
+statistics-memorized = { $memorized } memorerade
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -94,13 +95,16 @@ statistics-true-retention-subtitle = Andel klarade med ett intervall ≥ 1 dag.
 statistics-true-retention-range = Spann
 statistics-true-retention-pass = Klarade
 statistics-true-retention-fail = Misslyckade
+statistics-true-retention-count = Antal
 statistics-true-retention-retention = Återkallningskvot
+statistics-true-retention-all = Alla
 statistics-true-retention-today = Idag
 statistics-true-retention-yesterday = Igår
 statistics-true-retention-week = Senaste veckan
 statistics-true-retention-month = Senaste månaden
 statistics-true-retention-year = Senaste året
 statistics-true-retention-all-time = Kortlekens livstid
+statistics-true-retention-not-applicable = N/A
 statistics-range-all-time = Kortlekens livstid
 statistics-range-1-year-history = senaste 12 månader
 statistics-range-all-history = livstid

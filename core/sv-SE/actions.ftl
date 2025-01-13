@@ -1,5 +1,13 @@
 actions-add = Lägg till
+# In the browser sidebar, when in "Select" mode, you can right-click on
+# selected criteria elements to create a search term that matches
+# cards/notes meeting ALL the selected criteria elements.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Alla markerade
+# In the browser sidebar, when in "Select" mode, you can right-click on
+# selected criteria elements to create a search term that matches
+# cards/notes meeting ANY of the selected criteria elements.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Alla markerade
 actions-cancel = Avbryt
 actions-choose = Välj
@@ -38,7 +46,7 @@ actions-select = Välj
 actions-shortcut-key = Genväg: { $val }
 actions-suspend-card = Lås kort
 actions-set-due-date = Sätt förfallodatum
-actions-answer-card = Svarskort
+actions-answer-card = Besvara kort
 actions-unbury-unsuspend = Visa/upplås
 actions-add-deck = Lägg till kortlek
 actions-add-note = Lägg till not

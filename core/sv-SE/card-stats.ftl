@@ -35,6 +35,8 @@ card-stats-fsrs-forgetting-curve-first-week = Första veckan
 card-stats-fsrs-forgetting-curve-first-month = Första månaden
 card-stats-fsrs-forgetting-curve-first-year = Första året
 card-stats-fsrs-forgetting-curve-all-time = Kortlekens livstid
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Sannolikhet att återkalla
+card-stats-fsrs-forgetting-curve-desired-retention = Önskad återkallningskvot
 
 ## Window Titles
 

@@ -441,6 +441,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = Optimerar förinställning { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS måste vara aktiverat först.
 deck-config-fsrs-params-optimal = FSRS-parametrarna förefaller redan vara optimala.
+deck-config-fsrs-params-no-reviews = Inga repetitioner kunde hittas. Var god kolla att denna förinställning är tilldelad alla kortlekar som önskas optimeras (inklusive underkortlekar) och försök igen.
 deck-config-wait-for-audio = Vänta på ljud
 deck-config-show-reminder = Visa påminnelse
 deck-config-answer-again = Svara "igen"
@@ -448,6 +449,15 @@ deck-config-answer-hard = Svara "svårt"
 deck-config-answer-good = Svara "bra"
 deck-config-days-to-simulate = Dagar att simulera
 deck-config-desired-retention-below-optimal = Den önskade återkallningskvoten är under det optimala värdet. Att öka den rekommenderas.
+deck-config-fsrs-simulator-y-axis-title-time = Repetitionstid/dag
+deck-config-fsrs-simulator-y-axis-title-count = Repetitionsantal/dag
+deck-config-fsrs-simulator-y-axis-title-memorized = Totalt memorerat
+deck-config-fsrs-simulator-experimental = FSRS-simulator (experimentell)
+deck-config-additional-new-cards-to-simulate = Ytterligare nya kort att simulera
+deck-config-simulate = Simulera
+deck-config-clear-last-simulate = Rensa senaste simulering
+deck-config-fsrs-simulator-radio-count = Repetitioner
+deck-config-fsrs-simulator-radio-memorized = Memorerade
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
