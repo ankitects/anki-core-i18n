@@ -24,30 +24,30 @@ card-templates-preview-settings = Iespējas
 card-templates-invalid-template-number = Kārts { $number }  veidnē „{ $notetype }” piezīmes veidam ir problēma.
 card-templates-identical-front = Priekšpuse ir identiska ar kāršu veidni „{ $number }”.
 card-templates-no-front-field = Var sagaidīt aizvietojumu kārts veidnes priekšpusē.
-card-templates-missing-cloze = Var sagaidīt atrast '{ "{{" }cloze:Text{ "}}" }' vai ko līdzīgu kārts veidnes priekšpusē un aizmugurē.
+card-templates-missing-cloze = Var sagaidīt atrast „{ "{{" }cloze:Text{ "}}" }” vai ko līdzīgu kārts veidnes priekšpusē un aizmugurē.
 card-templates-extraneous-cloze = 'cloze:' var tikt lietots tikai cloze piezīmes veidos.
 card-templates-see-preview = Lai uzzinātu vairāk, apskatiet priekšskatījumu.
 card-templates-field-not-found = Nav atrasts lauks „{ $field }”
 card-templates-changes-saved = Izmaiņas ir saglabātas.
 card-templates-discard-changes = Vai atcelt izmaiņas?
-card-templates-add-card-type = Pievienuot kāršu veidu.
+card-templates-add-card-type = Pievienot kāršu veidu.
 card-templates-anki-couldnt-find-the-line-between = Anki nespēja atrast robežu starp jautājumu un atbildi. Lūdzu, pielāgojiet veidni manuāli, lai pārslēgtu jautājumu un atbildi.
-card-templates-at-least-one-card-type-is = Ir nepieciešams vismaz viens kārtšu veids.
+card-templates-at-least-one-card-type-is = Ir nepieciešams vismaz viens kāršu veids.
 card-templates-browser-appearance = Pārlūka izskats...
 card-templates-card = Kārts { $val }
-card-templates-card-types-for = Kārts tips { $val }
+card-templates-card-types-for = Kārts veids { $val }
 card-templates-cloze = Cloze { $val }
 card-templates-deck-override = Kavas pārrakstīšana...
 card-templates-delete-the-as-card-type-and = Vai dzēst „{ $template }” kārts tipu, un tā { $cards }?
 card-templates-enter-deck-to-place-new = Ievadiet kavu, kurā ievietot { $val } jaunu(as) kārtis, vai atstājiet to tukšu.
 card-templates-enter-new-card-position-1 = Ievadiet jaunu kārts pozīciju (1...{ $val }):
-card-templates-flip = Apgriest
+card-templates-flip = Apgriezt
 card-templates-form = Veidot
 card-templates-off = (izslēgts)
 card-templates-on = (ieslēgts)
 card-templates-remove-card-type = Noņemt kārts veidu...
-card-templates-rename-card-type = Pārdēvēt kārts tipu...
-card-templates-reposition-card-type = Pārkārtuot kārts tipu...
+card-templates-rename-card-type = Pārdēvēt kārts veidu...
+card-templates-reposition-card-type = Pārkārtot kārts veidu...
 card-templates-card-count =
     { $count ->
         [zero] Nav kāršu
@@ -56,13 +56,13 @@ card-templates-card-count =
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-        [zero] Šis neizveiduos nevienu kārti. Vai turpināt?
-        [one] Šis izveiduos { $count } kārti. Vai turpināt?
-       *[other] Šis izveiduos { $count } kārtis. Vai turpināt?
+        [zero] Šis neizveidos nevienu kārti. Vai turpināt?
+        [one] Šis izveidos { $count } kārti. Vai turpināt?
+       *[other] Šis izveidos { $count } kārtis. Vai turpināt?
     }
-card-templates-type-boxes-warning = Vienā kartes veidnē tiek atbalstīta tikai viens rakstīšanas lauciņš.
-card-templates-restore-to-default = Atiestatīt uz nuoklusējumu
+card-templates-type-boxes-warning = Uz vienu kārts veidni ir atbalstīts tikai viens rakstīšanas lauciņš.
+card-templates-restore-to-default = Atiestatīt uz noklusējumu
 card-templates-restore-to-default-confirmation =
-    Tas atjaunos visas šī piezīmju tipa lauciņus un veidņu noklusējuma iestatījuma¶
-    vērtības, nuoņemuot visus(as) papildu lauciņus/veidnes, un to saturu, kā arī jebkuru pielāgotu stilu. Vai vēlaties turpināt?
-card-templates-restored-to-default = Kārts tips tika atiestatīts uz sākuotnējuo stāvuokli.
+    Šis atjaunos visus šīs piezīmes veida lauciņus un visas veidņu noklusējuma iestatījuma¶
+    vērtības, noņemot visu(s(as)) papildu lauciņus/veidnes, un to saturu, kā arī jebkuru pielāgotu stilu. Vai vēlaties turpināt?
+card-templates-restored-to-default = Kārts tips tika atiestatīts uz sākotnēju stāvokli.

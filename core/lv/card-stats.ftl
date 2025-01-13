@@ -35,6 +35,8 @@ card-stats-fsrs-forgetting-curve-first-week = Pirmā nedēļa
 card-stats-fsrs-forgetting-curve-first-month = Pirmais mēnesis
 card-stats-fsrs-forgetting-curve-first-year = Pirmais gads
 card-stats-fsrs-forgetting-curve-all-time = Viss laiks
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Iespēja uz atsaukšanu
+card-stats-fsrs-forgetting-curve-desired-retention = Vēlamā saglabāšana
 
 ## Window Titles
 
