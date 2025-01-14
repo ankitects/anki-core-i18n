@@ -35,6 +35,7 @@ card-stats-fsrs-forgetting-curve-first-week = Πρώτη εβδομάδα
 card-stats-fsrs-forgetting-curve-first-month = Πρώτος μήνας
 card-stats-fsrs-forgetting-curve-first-year = Πρώτο έτος
 card-stats-fsrs-forgetting-curve-all-time = Συνολικός χρόνος
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Πιθανότητα Ανάκλησης
 card-stats-fsrs-forgetting-curve-desired-retention = Επιθυμητή Ανάκληση
 
 ## Window Titles
