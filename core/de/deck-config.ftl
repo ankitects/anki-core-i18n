@@ -337,6 +337,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $total_count } …
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
+deck-config-fsrs-params-no-reviews = Keine Wiederholungen gefunden. Bitte prüfen Sie, ob dieses Stapelprofil allen Stapeln und Unterstapeln zugewiesen ist, die Sie optimieren möchten.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
 deck-config-answer-again = Mit „Nochmal“ antworten
@@ -344,9 +345,13 @@ deck-config-answer-hard = Mit „Schwer“ antworten
 deck-config-answer-good = Mit „Gut“ antworten
 deck-config-days-to-simulate = Zu simulierende Tage
 deck-config-desired-retention-below-optimal = Ihre gewünschte Erfolgsquote liegt unter dem empfohlenen Mindestwert. Es ist ratsam, sie zu erhöhen.
+deck-config-fsrs-simulator-y-axis-title-time = Zeitaufwand pro Tag
+deck-config-fsrs-simulator-y-axis-title-count = Anzahl Wiederholungen pro Tag
 deck-config-fsrs-simulator-experimental = FSRS-Simulator (experimentell)
+deck-config-additional-new-cards-to-simulate = Zusätzliche fiktive neue Karten
 deck-config-simulate = Simulieren
 deck-config-clear-last-simulate = Letzte Simulation löschen
+deck-config-fsrs-simulator-radio-count = Wiederholungen
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
