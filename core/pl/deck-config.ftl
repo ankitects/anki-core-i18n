@@ -384,6 +384,12 @@ deck-config-answer-hard = Odpowiedz Trudna
 deck-config-answer-good = Odpowiedz Dobra
 deck-config-days-to-simulate = Dni do zasymulowania
 deck-config-desired-retention-below-optimal = Twoje pożądane zapamiętywanie jest poniżej optymalnego. Zaleca się jego zwiększenie.
+deck-config-fsrs-simulator-experimental = Symulator FSRS (eksperymentalny)
+deck-config-additional-new-cards-to-simulate = Dodatkowe nowe karty do symulacji
+deck-config-simulate = Symulacja
+deck-config-clear-last-simulate = Wyczyść ostatnią symulację
+deck-config-fsrs-simulator-radio-count = Powtórki
+deck-config-fsrs-simulator-radio-memorized = Zapamiętane
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
