@@ -344,6 +344,9 @@ deck-config-answer-hard = Mit „Schwer“ antworten
 deck-config-answer-good = Mit „Gut“ antworten
 deck-config-days-to-simulate = Zu simulierende Tage
 deck-config-desired-retention-below-optimal = Ihre gewünschte Erfolgsquote liegt unter dem empfohlenen Mindestwert. Es ist ratsam, sie zu erhöhen.
+deck-config-fsrs-simulator-experimental = FSRS-Simulator (experimentell)
+deck-config-simulate = Simulieren
+deck-config-clear-last-simulate = Letzte Simulation löschen
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
