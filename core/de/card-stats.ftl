@@ -35,6 +35,7 @@ card-stats-fsrs-forgetting-curve-first-week = Erste Woche
 card-stats-fsrs-forgetting-curve-first-month = Erster Monat
 card-stats-fsrs-forgetting-curve-first-year = Erstes Jahr
 card-stats-fsrs-forgetting-curve-all-time = Gesamter Verlauf
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Abrufbarkeit
 card-stats-fsrs-forgetting-curve-desired-retention = Gewünschte Erfolgsquote
 
 ## Window Titles
