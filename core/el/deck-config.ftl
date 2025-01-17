@@ -45,6 +45,12 @@ deck-config-today-only = Σήμερα μόνο
 deck-config-learning-steps = Βήματα εκμάθησης
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Οι καθυστερήσεις είναι τυπικά σε λεπτά (π.χ. '1m') ή μέρες (π.χ. '2d'), αλλά ώρες (π.χ. '1h') ή δευτερόλεπτα (π.χ. '30s') υποστηρίζονται επίσης.
+deck-config-learning-steps-tooltip =
+    Μία ή περισσότερες καθυστερήσεις, διαχωρισμένες με κενά. Θα χρησιμοποιηθεί η πρώτη καθυστέρηση
+    όταν πατάτε το κουμπί «ξανά» σε μια νέα κάρτα, και είναι 1 λεπτό από προεπιλογή.
+    Το κουμπί `Καλό` θα προχωρήσει στο επόμενο βήμα, το οποίο είναι 10 λεπτά από προεπιλογή.
+    Μόλις περάσουν όλα τα βήματα, η κάρτα θα γίνει κάρτα για επανάληψη και
+    θα εμφανιστεί σε διαφορετική ημέρα. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     Ο αριθμός ημερών πριν επανεμφανιστεί η κάρτα, αφού πατηθεί το κουμπί 'Καλά'
     στο τελευταίο βήμα εκμάθησης.
@@ -314,11 +320,17 @@ deck-config-days-to-simulate = Ημέρες για προσομοίωση
 deck-config-desired-retention-below-optimal = Η επιθυμητή ανάκληση είναι χαμηλότερη της βέλτιστης. Συνιστάται η αύξησή της.
 deck-config-fsrs-simulator-y-axis-title-time = Χρόνος επαναλήψεων/μέρα
 deck-config-fsrs-simulator-y-axis-title-count = Αριθμός επαναλήψεων/μέρα
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = Σύνολο απομνημονευμένων
 deck-config-fsrs-simulator-experimental = Προσομοιωτής FSRS (πειραματικό)
 deck-config-simulate = Προσομοίωση
 deck-config-clear-last-simulate = Εκκαθάριση προηγούμενης προσομοίωσης
 deck-config-fsrs-simulator-radio-count = Επαναλήψεις
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = Απομνημονευμένα
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

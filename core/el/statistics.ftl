@@ -43,6 +43,24 @@ statistics-in-time-span-years =
         [one] σε { $amount } χρόνο
        *[other] σε { $amount } χρόνια
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Διαβάστηκαν { statistics-cards }
+    { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } σήμερα
+    ({ $secs-per-card }s/κάρτα)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } κάρτα
@@ -59,22 +77,10 @@ statistics-reviews =
         [one] { $reviews } επανάληψη
        *[other] { $reviews } επαναλήψεις
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } απομνημονεύτηκαν
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Διαβάστηκαν { statistics-cards }
-    { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } σήμερα
-    ({ $secs-per-card }s/κάρτα)
 statistics-today-title = Σήμερα
 statistics-today-again-count = Ξανά:
 statistics-today-type-counts = Μελέτη: { $learnCount }, Επανάληψη: { $reviewCount }, Επανεκμάθηση: { $relearnCount }, Φιλτραρισμένες: { $filteredCount }
@@ -92,6 +98,12 @@ statistics-counts-learning-cards = Εκμάθηση
 statistics-counts-relearning-cards = Επανεκμάθηση
 statistics-counts-title = Αριθμός καρτών
 statistics-counts-separate-suspended-buried-cards = Διαχωρισμός καρτών σε αναβολή/αναστολή
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+
 statistics-true-retention-title = Πραγματική Ανάκληση
 statistics-true-retention-subtitle = Ποσοστό επιτυχίας των καρτών με διάστημα ≥ 1 ημέρα.
 statistics-true-retention-range = Εύρος
@@ -99,12 +111,16 @@ statistics-true-retention-pass = Pass
 statistics-true-retention-fail = Fail
 statistics-true-retention-count = Αριθμός
 statistics-true-retention-retention = Ανάκληση
+statistics-true-retention-all = Σύνολο
 statistics-true-retention-today = Σήμερα
 statistics-true-retention-yesterday = Χθες
 statistics-true-retention-week = Τελευταία εβδομάδα
 statistics-true-retention-month = Τελευταίος μήνας
 statistics-true-retention-year = Τελευταίο έτος
 statistics-true-retention-all-time = Συνολικός χρόνος
+
+##
+
 statistics-range-all-time = ζωή της τράπουλας
 statistics-range-1-year-history = τελευταίοι 12 μήνες
 statistics-range-all-history = όλο το ιστορικό

@@ -115,6 +115,7 @@ scheduling-easy-bonus = Βonus ευκολίας
 scheduling-easy-interval = Διάστημα για "Εύκολο"
 scheduling-end = (τέλος)
 scheduling-general = Γενικά
+scheduling-graduating-interval = Διάστημα αποφοίτησης
 scheduling-hard-interval = Διάστημα για "Δύσκολο"
 scheduling-ignore-answer-times-longer-than = Αγνόησε χρόνους απάντησης μεγαλύτερους από
 scheduling-interval-modifier = Tροποποιητής διαστήματος
