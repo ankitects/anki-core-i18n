@@ -37,6 +37,7 @@ card-templates-card = كارتا { $val }
 card-templates-card-types-for = { $val } نىڭ كارتا تۈرى
 card-templates-cloze = بوش ئورۇن تولدۇرۇش { $val }
 card-templates-deck-override = دەستە قاپلا…
+card-templates-copy-info = ئۇچۇرنى چاپلاش تاختىسىغا كۆچۈر
 card-templates-delete-the-as-card-type-and = كارتا تۈرى «{ $template }» ۋە ئۇنىڭ { $cards } نى ئۆچۈرەمدۇ؟
 card-templates-enter-deck-to-place-new = يېڭى كارتىدىن { $val } نى قويىدىغان دەستە ئىسمى كىرگۈزۈلىدۇ ياكى بوش قالدۇرۇلىدۇ:
 card-templates-enter-new-card-position-1 = يېڭى كارتا ئورنى كىرگۈزۈلىدۇ  (1...{ $val }):
