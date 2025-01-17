@@ -38,6 +38,7 @@ card-templates-card = Картка { $val }
 card-templates-card-types-for = Типи картки для { $val }
 card-templates-cloze = Закрито { $val }
 card-templates-deck-override = Заміна колоди…
+card-templates-copy-info = Копіювати до буферу обміну
 card-templates-delete-the-as-card-type-and = Видалити тип картки '{ $template }', та її { $cards }?
 card-templates-enter-deck-to-place-new = Вкажіть колоду для { $val } нових карток або залиште порожнім:
 card-templates-enter-new-card-position-1 = Введіть нову позицію картки (1...{ $val }):
