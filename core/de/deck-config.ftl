@@ -256,7 +256,7 @@ deck-config-which-deck = Für welchen Stapel möchten Sie die Einstellungen anze
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count } …
 deck-config-invalid-parameters = Die angegebenen FSRS-Parameter sind ungültig. Lassen Sie das Feld leer, um die Standardparameter zu verwenden.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
-deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erfolgsquote nicht möglich.
+deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erinnerungsquote nicht möglich.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Es wurde nur { $count } Wiederholung gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
@@ -265,18 +265,18 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS-Parametern
-deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erfolgsquote
+deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote
 deck-config-optimize-button = Optimieren
 deck-config-compute-button = Berechnen
 deck-config-ignore-before = Wiederholungen vor diesem Datum ignorieren
 deck-config-optimize-all-tip = Sie können alle Stapelprofile gleichzeitig optimieren, indem Sie den Dropdown-Knopf neben „Speichern“ verwenden.
 deck-config-evaluate-button = Evaluieren
-deck-config-desired-retention = Gewünschte Erfolgsquote
-deck-config-historical-retention = Frühere Erfolgsquote
+deck-config-desired-retention = Gewünschte Erinnerungsquote
+deck-config-historical-retention = Frühere Erinnerungsquote
 deck-config-smaller-is-better = Je kleiner die Zahlen, desto besser passen die Parameter zu Ihrem Wiederholungsverlauf.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Lernstufen von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
-deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
+deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote: { $num }
 deck-config-complete = { $num } % abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count } …
 deck-config-reschedule-cards-on-change = Bei Änderungen alle Karten umplanen
@@ -291,7 +291,7 @@ deck-config-desired-retention-tooltip =
     
     Ändern Sie diesen Wert mit Bedacht: Ein hoher Wert erhöht Ihr Arbeitspensum deutlich, während ein niedriger Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
 deck-config-historical-retention-tooltip =
-    Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen. Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90 % der Karten erinnert haben. War die tatsächliche Erfolgsquote jedoch deutlich höher oder niedriger als 90 %, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
+    Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen. Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90 % der Karten erinnert haben. War die tatsächliche Erinnerungsquote jedoch deutlich höher oder niedriger als 90 %, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
     
     Ihr Wiederholungsverlauf kann aus folgenden Gründen unvollständig sein:
     1. Weil Sie die Einstellung 'Wiederholungen vor diesem Datum ignorieren' nutzen.
@@ -307,7 +307,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     
     Standardmäßig werden die Karten nicht umgeplant. Die neue Zeitplanung greift erst bei zukünftigen Wiederholungen, sodass sich das aktuelle Arbeitspensum nicht sofort ändert. Wenn die Umplanung aktiviert ist, werden die Fälligkeitsdaten aller Karten jedoch sofort angepasst.
 deck-config-reschedule-cards-warning =
-    Je nach gewünschter Erfolgsquote kann diese Einstellung dazu führen, dass viele Karten sofort fällig werden. Daher ist sie nicht zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
+    Je nach gewünschter Erinnerungsquote kann diese Einstellung dazu führen, dass viele Karten sofort fällig werden. Daher ist sie nicht zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
     
     Verwenden Sie diese Einstellung mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
 deck-config-ignore-before-tooltip-2 = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
@@ -320,9 +320,9 @@ deck-config-compute-optimal-weights-tooltip2 =
     
     Standardmäßig werden die Parameter basierend auf dem Wiederholungsverlauf aller Stapel ermittelt, die das aktuelle Stapelprofil nutzen. Sie können vor der Berechnung die Suchkriterien anpassen, um festzulegen, welche Karten zur Optimierung der Parameter herangezogen werden sollen.
 deck-config-compute-optimal-retention-tooltip4 =
-    Ermittelt die Erfolgsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
+    Ermittelt die Erinnerungsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
     
-    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erfolgsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
+    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erinnerungsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-please-save-your-changes-first = Bitte speichern Sie zuerst Ihre Änderungen.
 deck-config-a-100-day-interval =
     { $days ->
@@ -344,15 +344,21 @@ deck-config-answer-again = Mit „Nochmal“ antworten
 deck-config-answer-hard = Mit „Schwer“ antworten
 deck-config-answer-good = Mit „Gut“ antworten
 deck-config-days-to-simulate = Zu simulierende Tage
-deck-config-desired-retention-below-optimal = Ihre gewünschte Erfolgsquote liegt unter dem empfohlenen Mindestwert. Es ist ratsam, sie zu erhöhen.
+deck-config-desired-retention-below-optimal = Ihre gewünschte Erinnerungsquote liegt unter dem empfohlenen Mindestwert. Es ist ratsam, sie zu erhöhen.
 deck-config-fsrs-simulator-y-axis-title-time = Zeitaufwand pro Tag
 deck-config-fsrs-simulator-y-axis-title-count = Anzahl Wiederholungen pro Tag
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = Abrufbare Karten
 deck-config-fsrs-simulator-experimental = FSRS-Simulator (experimentell)
 deck-config-additional-new-cards-to-simulate = Zusätzliche fiktive neue Karten
 deck-config-simulate = Simulieren
 deck-config-clear-last-simulate = Letzte Simulation löschen
 deck-config-fsrs-simulator-radio-count = Wiederholungen
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = Abrufbare Karten
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
@@ -372,24 +378,24 @@ deck-config-seconds-to-show-question-tooltip = Anzahl der Sekunden, die gewartet
 deck-config-answer-action-tooltip = Die Aktion, die ausgeführt werden soll, bevor automatisch zur nächsten Karte gewechselt wird.
 deck-config-wait-for-audio-tooltip = Auf das Ende des Audios warten, bevor automatisch die Antwort/nächste Frage gezeigt wird.
 deck-config-ignore-before-tooltip = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung und Auswertung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
-deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und schätzt die Menge an Karten, die Sie im vorgegebenen Zeitrahmen zu behalten vermögen. Die ermittelte Erfolgsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erfolgsquote zu kopieren.
-deck-config-compute-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote
-deck-config-predicted-optimal-retention = Empfohlener Mindestwert für die Erfolgsquote: { $num }
+deck-config-compute-optimal-retention-tooltip = Dieses Werkzeug geht davon aus, dass Sie mit 0 Karten beginnen, und schätzt die Menge an Karten, die Sie im vorgegebenen Zeitrahmen zu behalten vermögen. Die ermittelte Erinnerungsquote hängt stark von Ihren Eingaben ab, und wenn sie deutlich von 0,9 abweicht, ist das ein Zeichen dafür, dass die Zeit, die Sie pro Tag eingeplant haben, entweder zu niedrig oder zu hoch für die Menge an Karten ist, die Sie zu lernen versuchen. Diese Zahl kann als Referenz nützlich sein, aber es ist nicht empfehlenswert, sie in das Feld für die gewünschte Erinnerungsquote zu kopieren.
+deck-config-compute-optimal-retention = Empfohlener Mindestwert für die Erinnerungsquote
+deck-config-predicted-optimal-retention = Empfohlener Mindestwert für die Erinnerungsquote: { $num }
 deck-config-weights-tooltip = Die FSRS-Parameter beeinflussen die Zeitplanung der Karten. Anki beginnt mit den Standardeinstellungen. Sobald Sie mehr als 1000 Wiederholungen gesammelt haben, können Sie die untenstehende Einstellung nutzen, um die Parameter so zu optimieren, dass sie Ihren Leistungen in den Stapeln mit dieser Stapelprofil entsprechen.
 deck-config-compute-optimal-weights-tooltip =
     Sobald Sie mehr als tausend Wiederholungen in Anki gemacht haben, können Sie auf Optimieren klicken, um Ihren Wiederholungsverlauf zu analysieren, und automatisch Einstellungen generieren, die für Ihr Gedächtnis und die Inhalte, die Sie lernen, optimal sind. Wenn Sie Stapel mit sehr unterschiedlichen Schwierigkeitsgraden haben, empfiehlt es sich, ihnen separate Stapelprofile zuzuweisen, da die Einstellungen für einfache Stapel und schwere Stapel unterschiedlich sind. Es besteht keine Notwendigkeit, Ihre Einstellungen häufig zu optimieren - einmal alle paar Monate ist ausreichend.
     
     Standardmäßig werden die Einstellungen aus dem Wiederholungsverlauf aller Stapel berechnet, die das aktuelle Stapelprofil verwenden. Sie können optional die Suche vor der Berechnung der Einstellungen anpassen, wenn Sie ändern möchten, welche Karten für die Optimierung der Einstellungen verwendet werden.
 deck-config-compute-optimal-retention-tooltip2 =
-    Diese Funktion geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und ermittelt die Erfolgsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
+    Diese Funktion geht davon aus, dass Sie mit 0 gelernten Karten beginnen, und ermittelt die Erinnerungsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
     
-    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erfolgsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
+    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erinnerungsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-compute-optimal-retention-tooltip3 =
-    Diese Funktion geht davon aus, dass Sie mit 0 gelernten Karten beginnen und ermittelt die Erfolgsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
+    Diese Funktion geht davon aus, dass Sie mit 0 gelernten Karten beginnen und ermittelt die Erinnerungsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
     
     Für eine präzise Simulation Ihres Lernfortschritts sind mindestens 400 Wiederholungen erforderlich.
     
-    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erfolgsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
+    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erinnerungsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-seconds-to-show-question-tooltip-2 = Wenn Automatisches Aufdecken eingeschaltet ist, die Anzahl der Sekunden, die gewartet wird, bevor die Antwort angezeigt wird. Zum Ausschalten auf 0 setzen.
 deck-config-invalid-weights = Die Parameter müssen entweder leer gelassen werden, um die Standardwerte zu verwenden, oder sie müssen aus 17 durch Kommata getrennten Zahlen bestehen.
 deck-config-fsrs-on-all-clients = FSRS funktioniert nur richtig, wenn alle genutzten Apps die Mindestanforderungen erfüllen (Anki und AnkiMobile ab 23.10, AnkiDroid ab 2.17).

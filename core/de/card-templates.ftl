@@ -37,6 +37,7 @@ card-templates-card = Karte { $val }
 card-templates-card-types-for = Kartentypen für { $val }
 card-templates-cloze = Lückentext { $val }
 card-templates-deck-override = Stapel überschreiben …
+card-templates-copy-info = Infos in die Zwischenablage kopieren
 card-templates-delete-the-as-card-type-and = Kartentyp '{ $template }' und seine { $cards } löschen?
 card-templates-enter-deck-to-place-new = Name des Stapel, in dem neue { $val }-Karten hinzugefügt werden sollen (Feld kann frei bleiben):
 card-templates-enter-new-card-position-1 = Neue Positionsnummer des Kartentyps eingeben (1–{ $val }):

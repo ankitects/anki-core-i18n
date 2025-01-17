@@ -43,6 +43,22 @@ statistics-in-time-span-years =
         [one] in { $amount } Jr.
        *[other] in { $amount } Jr.
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    { $unit ->
+        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } angesehen ({ $secs-per-card } Sek./Karte)
+        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } angesehen ({ $secs-per-card } Sek./Karte)
+        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } angesehen ({ $secs-per-card } Sek./Karte)
+        [days] Heute { statistics-cards } { statistics-in-time-span-days } angesehen ({ $secs-per-card } Sek./Karte)
+        [months] Heute { statistics-cards } { statistics-in-time-span-months } angesehen ({ $secs-per-card } Sek./Karte)
+       *[years] Heute { statistics-cards } { statistics-in-time-span-years } angesehen ({ $secs-per-card } Sek./Karte)
+    }
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } Karte
@@ -59,30 +75,20 @@ statistics-reviews =
         [one] { $reviews } Wiederholung
        *[other] { $reviews } Wiederholungen
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } abrufbare Karten
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    { $unit ->
-        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } angesehen ({ $secs-per-card } Sek./Karte)
-        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } angesehen ({ $secs-per-card } Sek./Karte)
-        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } angesehen ({ $secs-per-card } Sek./Karte)
-        [days] Heute { statistics-cards } { statistics-in-time-span-days } angesehen ({ $secs-per-card } Sek./Karte)
-        [months] Heute { statistics-cards } { statistics-in-time-span-months } angesehen ({ $secs-per-card } Sek./Karte)
-       *[years] Heute { statistics-cards } { statistics-in-time-span-years } angesehen ({ $secs-per-card } Sek./Karte)
-    }
 statistics-today-title = Heute
 statistics-today-again-count = Fehlversuche:
 statistics-today-type-counts = Aufteilung: { $learnCount } × neu lernen, { $reviewCount } × wiederholen, { $relearnCount } × wiedererlernen, { $filteredCount } × über Filterstapel lernen.
 statistics-today-no-cards = Heute wurden noch keine Karten angesehen.
-statistics-today-no-mature-cards = Heute wurden noch keine stabilen Wiederholungskarten angesehen.
-statistics-today-correct-mature = Richtige Antworten bei stabilen Wiederholungskarten: { $correct }/{ $total } ({ $percent } %)
+statistics-today-no-mature-cards = Heute wurden noch keine alten Karten wiederholt.
+statistics-today-correct-mature = Richtige Antworten bei alten Karten: { $correct }/{ $total } ({ $percent } %)
 statistics-counts-total-cards = Karten insgesamt
 statistics-counts-new-cards = Neu
-statistics-counts-young-cards = Wiederholung (instabil)
-statistics-counts-mature-cards = Wiederholung (stabil)
+statistics-counts-young-cards = Junge Karten
+statistics-counts-mature-cards = Alte Karten
 statistics-counts-suspended-cards = Ausgeschlossen
 statistics-counts-buried-cards = Aufgeschoben
 statistics-counts-filtered-cards = Filterstapel
@@ -90,13 +96,19 @@ statistics-counts-learning-cards = Lernen
 statistics-counts-relearning-cards = Wiedererlernen
 statistics-counts-title = Status
 statistics-counts-separate-suspended-buried-cards = Ausgeschlossene und aufgeschobene Karten separat anzeigen
-statistics-true-retention-title = Tatsächliche Erfolgsquote
-statistics-true-retention-subtitle = Erfolgsquote bei Karten mit einem Intervall von einem Tag oder länger
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+
+statistics-true-retention-title = Tatsächliche Erinnerungsquote
+statistics-true-retention-subtitle = Erinnerungsquote bei Karten mit einem Intervall von einem Tag oder länger
 statistics-true-retention-range = Bereich
 statistics-true-retention-pass = Erfolge
 statistics-true-retention-fail = Fehl­versuche
 statistics-true-retention-count = Anzahl
-statistics-true-retention-retention = Erfolgs­quote
+statistics-true-retention-retention = ­Erinnerungsquote
 statistics-true-retention-all = Alle
 statistics-true-retention-today = Heute
 statistics-true-retention-yesterday = Gestern
@@ -104,7 +116,12 @@ statistics-true-retention-week = Letzte Woche
 statistics-true-retention-month = Letzter Monat
 statistics-true-retention-year = Letztes Jahr
 statistics-true-retention-all-time = Gesamter Verlauf
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
 statistics-true-retention-not-applicable = –
+
+##
+
 statistics-range-all-time = Gesamte Zeit
 statistics-range-1-year-history = Die letzten 12 Monate
 statistics-range-all-history = Gesamter Verlauf
@@ -202,7 +219,7 @@ statistics-hours-reviews = { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = { $percent } % korrekt ({ $reviews })
 statistics-hours-title = Nach Uhrzeit
-statistics-hours-subtitle = Erfolgsquote für Wiederholungen nach Uhrzeit
+statistics-hours-subtitle = Erinnerungsquote für Wiederholungen nach Uhrzeit
 # shown when graph is empty
 statistics-no-data = KEINE DATEN
 statistics-calendar-title = Kalender
