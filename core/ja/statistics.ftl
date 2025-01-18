@@ -19,10 +19,6 @@ statistics-in-time-span-hours = { $amount }時間
 statistics-in-time-span-days = { $amount }日後
 statistics-in-time-span-months = { $amount }か月後
 statistics-in-time-span-years = { $amount }年後
-statistics-cards = { $cards }枚
-statistics-notes = ノート{ $notes }個
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews }枚
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -36,6 +32,13 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }で学習しています ( { $secs-per-card }秒 / 枚 )
+
+##
+
+statistics-cards = { $cards }枚
+statistics-notes = ノート{ $notes }個
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews = { $reviews }枚
 statistics-today-title = 今日
 statistics-today-again-count = 間違えた回数:
 statistics-today-type-counts = 習得中: { $learnCount }枚、復習: { $reviewCount }枚、再習得中: { $relearnCount }枚、フィルター抽出: { $filteredCount }枚
@@ -53,18 +56,32 @@ statistics-counts-learning-cards = 習得中
 statistics-counts-relearning-cards = 再習得中
 statistics-counts-title = カード枚数
 statistics-counts-separate-suspended-buried-cards = 休止中のカード・今日は非表示にしたカードも区分する
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+
 statistics-true-retention-title = 実際の正答率
 statistics-true-retention-subtitle = 間隔が1日以上のカードの、これまでの学習での正答率
 statistics-true-retention-range = 範囲
 statistics-true-retention-pass = 回答成功
 statistics-true-retention-fail = 回答失敗
+statistics-true-retention-count = 回答数
 statistics-true-retention-retention = 正答率
+statistics-true-retention-all = すべて
 statistics-true-retention-today = 今日
 statistics-true-retention-yesterday = 昨日
 statistics-true-retention-week = 直近1週間
 statistics-true-retention-month = 直近1か月
 statistics-true-retention-year = 直近1年
 statistics-true-retention-all-time = 全期間
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = -
+
+##
+
 statistics-range-all-time = 全期間
 statistics-range-1-year-history = １年間
 statistics-range-all-history = 全期間
