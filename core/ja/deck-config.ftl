@@ -254,7 +254,7 @@ deck-config-easy-days-sunday = 日曜日
 deck-config-easy-days-normal = 標準
 deck-config-easy-days-reduced = 少なめ
 deck-config-easy-days-minimum = 最小限
-deck-config-easy-days-no-normal-days = 少なくともどれか一つの曜日で「{ deck-config-easy-days-normal }」を選択してください。
+deck-config-easy-days-no-normal-days = 少なくともどれか一つの曜日で「{ deck-config-easy-days-normal }」を選択してください。（そうしないと、相対的に他の曜日の負担を軽くすることができません。）
 
 ## Adding/renaming
 
