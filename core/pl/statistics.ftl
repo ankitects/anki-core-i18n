@@ -55,6 +55,22 @@ statistics-in-time-span-years =
         [many] w { $amount } lat
        *[other] w { $amount } lat
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Przejrzano dziś { statistics-cards } { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } ({ $secs-per-card }s/kartę)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } karta
@@ -76,20 +92,10 @@ statistics-reviews =
         [many] { $reviews } powtórek
        *[other] { $reviews } powtórek
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } zapamiętane
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Przejrzano dziś { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card }s/kartę)
 statistics-today-title = Dzisiaj
 statistics-today-again-count = Liczba pomyłek:
 statistics-today-type-counts = Uczone: { $learnCount }, Powtarzane: { $reviewCount }, Uczone ponownie: { $relearnCount }, Filtrowane: { $filteredCount }
@@ -107,7 +113,13 @@ statistics-counts-learning-cards = Uczone
 statistics-counts-relearning-cards = Uczone ponownie
 statistics-counts-title = Liczby kart
 statistics-counts-separate-suspended-buried-cards = Oddziel zawieszone/zakopane karty
-statistics-true-retention-title = Prawdziwe zapamiętywanie
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+
+statistics-true-retention-title = Naprawdę zapamiętane
 statistics-true-retention-subtitle = Odsetek poprawnych odpowiedzi dla kart z przerwą ≥ 1 dzień.
 statistics-true-retention-range = Zakres
 statistics-true-retention-pass = Poprawne
@@ -121,7 +133,12 @@ statistics-true-retention-week = Ostatni tydzień
 statistics-true-retention-month = Ostatni miesiąc
 statistics-true-retention-year = Ostatni rok
 statistics-true-retention-all-time = Cały czas
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
 statistics-true-retention-not-applicable = Nd.
+
+##
+
 statistics-range-all-time = ogół
 statistics-range-1-year-history = ostatnie 12 miesięcy
 statistics-range-all-history = cała historia
@@ -256,7 +273,7 @@ statistics-average-answer-time-label = Średni czas odpowiedzi
 statistics-average = Średnia
 statistics-average-interval = Średnia przerwa
 statistics-due-tomorrow = Na jutro
-statistics-daily-load = Dzienna liczba powtórek
+statistics-daily-load = Dzienne obciążenie
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
 statistics-average-over-period = Gdyby uczono się codziennie
