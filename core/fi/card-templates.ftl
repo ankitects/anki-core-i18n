@@ -37,6 +37,7 @@ card-templates-card = Kortti { $val }
 card-templates-card-types-for = Korttityypit kohteessa { $val }
 card-templates-cloze = Aukkotehtävä
 card-templates-deck-override = Syrjäytä pakka...
+card-templates-copy-info = Kopioi tiedot leikepöydälle
 card-templates-delete-the-as-card-type-and = Poistetaanko '{ $template }'-korttityyppi ja sen { $cards }?
 card-templates-enter-deck-to-place-new = Syötä pakka, johon asetetaan uudet { $val } -kortit tai jätä tyhjäksi:
 card-templates-enter-new-card-position-1 = Syötä kortin uusi sijainti (1...{ $val }):

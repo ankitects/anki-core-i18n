@@ -43,6 +43,23 @@ statistics-in-time-span-years =
         [one] { $amount } vuodessa
        *[other] { $amount } vuodessa
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Tänään opiskeltiin { statistics-cards }
+    { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } ({ $secs-per-card } s/kortti)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } kortti
@@ -59,20 +76,10 @@ statistics-reviews =
         [one] { $reviews } kertaus
        *[other] { $reviews } kertausta
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Tänään opiskeltiin { statistics-cards }
-    { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card } s/kortti)
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } opittu ulkoa
 statistics-today-title = Tänään
 statistics-today-again-count = Uudelleen näyttettäväksi pyydettyjen korttien lukumäärä:
 statistics-today-type-counts = Opittavat: { $learnCount }, Kerrattavat: { $reviewCount }, Uudelleen opittavat: { $relearnCount }, Suodatetut: { $filteredCount }
@@ -90,6 +97,12 @@ statistics-counts-learning-cards = Opittavat
 statistics-counts-relearning-cards = Uudelleen opittavat
 statistics-counts-title = Korttien lukumäärät
 statistics-counts-separate-suspended-buried-cards = Erota hyllytetyt ja haudatut kortit
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+
 statistics-true-retention-title = Todellinen retentio
 statistics-true-retention-subtitle = Läpäisyprosentti korteille, joiden kertausväli on ≥ 1 päivä.
 statistics-true-retention-range = Aikaväli
@@ -104,6 +117,12 @@ statistics-true-retention-week = Viime viikko
 statistics-true-retention-month = Viime kuukausi
 statistics-true-retention-year = Viime vuosi
 statistics-true-retention-all-time = Alusta alkaen
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = Ei laskettavissa
+
+##
+
 statistics-range-all-time = pakan elinkaari
 statistics-range-1-year-history = viimeiset 12 kuukautta
 statistics-range-all-history = koko historia

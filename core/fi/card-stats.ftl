@@ -35,6 +35,8 @@ card-stats-fsrs-forgetting-curve-first-week = Ensimmäinen viikko
 card-stats-fsrs-forgetting-curve-first-month = Ensimmäinen kuukausi
 card-stats-fsrs-forgetting-curve-first-year = Ensimmäinen vuosi
 card-stats-fsrs-forgetting-curve-all-time = Koko aika
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Muistamisen todennäköisyys
+card-stats-fsrs-forgetting-curve-desired-retention = Toivottu retentio
 
 ## Window Titles
 
