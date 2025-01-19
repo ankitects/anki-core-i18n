@@ -2,6 +2,7 @@ importing-failed-debug-info = Importação falhou. Informações para depuraçã
 importing-aborted = Abortado: { $val }
 importing-added-duplicate-with-first-field = Duplicata adicionada com o primeiro campo: { $val }
 importing-allow-html-in-fields = Permitir HTML em campos
+importing-anki-files-are-from-a-very = Ficheiros .anki eram utilizados numa versão bastante antiga do Anki. Pode importá-los com o complemento 175027074 ou com o Anki 2.0, disponível no site do Anki.
 importing-appeared-twice-in-file = Aparece 2 vezes no arquivo: { $val }
 importing-by-default-anki-will-detect-the = Por definição, Anki detecta os caracteres entre os campos, como um tab, vírgula, etc. Se Anki estiver detectando incorretamente, você pode digitá-lo aqui. Use \t para representar tab.
 importing-change = Alterar

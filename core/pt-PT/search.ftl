@@ -16,3 +16,5 @@ search-card-modified = Alterado
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = Ver no navegador

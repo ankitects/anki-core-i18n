@@ -28,6 +28,7 @@ sync-password-label = Senha:
 sync-account-required =
     <h1>Requer conta</h1>
     Uma conta grátis é necessária para manter sua coleção sincronizada. Por favor, <a href="{ $link }">registre-se</a> e então entre com seus detalhes abaixo.
+sync-ankihub-addon-installation = Instalação do Complemento AnkiHub
 
 ## Buttons
 

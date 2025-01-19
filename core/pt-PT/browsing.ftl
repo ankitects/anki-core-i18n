@@ -8,8 +8,8 @@ browsing-answer = Resposta
 browsing-any-flag = Qualquer Bandeira
 browsing-average-ease = Facilidade Média
 browsing-average-interval = Intervalo Médio
-browsing-browser-appearance = Aparência do Painel
-browsing-browser-options = Opções do explorador
+browsing-browser-appearance = Aparência do Explorador
+browsing-browser-options = Opções do Explorador
 browsing-buried = Ocultas
 browsing-card = Ficha
 browsing-cards = Fichas
@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Mudar baralho
 browsing-change-deck2 = Mudar baralho...
 browsing-change-note-type = Mudar Tipo de Nota
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Mudar Tipo de Nota...
 browsing-change-notetype = Mudar o Tipo de Nota
 browsing-clear-unused-tags = Limpar Etiquetas Não-usadas
@@ -103,7 +104,7 @@ browsing-toggle-suspend = Activar/Suspender
 browsing-treat-input-as-regular-expression = Tratar texto como expressão regular
 browsing-update-saved-search = Actualizar com a Pesquisa Actual
 browsing-whole-collection = Coleção inteira
-browsing-window-title-notes = Navegar ({ $selected } de { $total } notas seleccionadas)
+browsing-window-title-notes = Explorar ({ $selected } de { $total } notas seleccionadas)
 browsing-you-must-have-at-least-one = É preciso ter pelo menos uma coluna.
 browsing-group =
     { $count ->
@@ -125,7 +126,7 @@ browsing-cards-updated =
         [one] { $count } ficha actualizada.
        *[other] { $count } fichas actualizadas.
     }
-browsing-window-title = Navegar ({ $selected } de { $total } fichas seleccionadas)
+browsing-window-title = Explorar ({ $selected } de { $total } fichas seleccionadas)
 browsing-sidebar-expand = Expandir
 browsing-sidebar-collapse = Recolher
 browsing-sidebar-expand-children = Expandir Subcategorias
