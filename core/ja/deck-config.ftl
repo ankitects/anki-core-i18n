@@ -411,6 +411,9 @@ deck-config-answer-hard = 回答 (難しい)
 deck-config-answer-good = 回答 (正解)
 deck-config-days-to-simulate = 学習予定期間（日）
 deck-config-desired-retention-below-optimal = 現在、この値よりも低い値が「目標正答率」として設定されています。「目標正答率」をこの値以上に変更することをおすすめします。
+deck-config-fsrs-simulator-experimental = FSRSシミュレータ（実験的機能）
+deck-config-simulate = シミュレート
+deck-config-fsrs-simulator-radio-count = 回答数
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
