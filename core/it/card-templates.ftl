@@ -37,6 +37,7 @@ card-templates-card = Carta { $val }
 card-templates-card-types-for = Tipi di carta per { $val }
 card-templates-cloze = Cloze { $val }
 card-templates-deck-override = Sovrascrivi mazzo...
+card-templates-copy-info = Copia info negli appunti
 card-templates-delete-the-as-card-type-and = Eliminare il tipo di carta '{ $template }' e le sue { $cards }?
 card-templates-enter-deck-to-place-new = Specifica in quale mazzo inserire le nuove carte { $val }, o lascia vuoto:
 card-templates-enter-new-card-position-1 = Specifica una nuova posizione per la carta (1...{ $val }):
