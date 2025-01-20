@@ -42,14 +42,14 @@ statistics-in-time-span-years =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    今天學習了 { statistics-cards }，共花費 { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    }（平均每張卡片花費 { $secs-per-card } 秒）
+    { $unit ->
+        [seconds] 今天學習了 { statistics-cards }，耗時 { statistics-in-time-span-seconds }（{ $secs-per-card } 秒/張）
+        [minutes] 今天學習了 { statistics-cards }，耗時 { statistics-in-time-span-minutes }（{ $secs-per-card } 秒/張）
+        [hours] 今天學習了 { statistics-cards }，耗時 { statistics-in-time-span-hours }（{ $secs-per-card } 秒/張）
+        [days] 今天學習了 { statistics-cards }，耗時 { statistics-in-time-span-days }（{ $secs-per-card } 秒/張）
+        [months] 今天學習了 { statistics-cards }，耗時 { statistics-in-time-span-months }（{ $secs-per-card } 秒/張）
+       *[years] 今天學習了 { statistics-cards }，耗時 { statistics-in-time-span-years }（{ $secs-per-card } 秒/張）
+    }
 
 ##
 
