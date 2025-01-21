@@ -411,10 +411,12 @@ deck-config-answer-hard = 回答 (難しい)
 deck-config-answer-good = 回答 (正解)
 deck-config-days-to-simulate = 学習予定期間（日）
 deck-config-desired-retention-below-optimal = 現在、この値よりも低い値が「目標正答率」として設定されています。「目標正答率」をこの値以上に変更することをおすすめします。
+deck-config-fsrs-simulator-y-axis-title-time = 各日の学習時間
+deck-config-fsrs-simulator-y-axis-title-count = 各日の学習回数
 deck-config-fsrs-simulator-experimental = FSRSシミュレータ（実験的機能）
 deck-config-simulate = シミュレート
 deck-config-clear-last-simulate = 直近のｼﾐｭﾚｰｼｮﾝ結果を消去
-deck-config-fsrs-simulator-radio-count = 回答数
+deck-config-fsrs-simulator-radio-count = 学習回数
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

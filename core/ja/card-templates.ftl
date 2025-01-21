@@ -33,6 +33,7 @@ card-templates-card = カード { $val }
 card-templates-card-types-for = 「{ $val }」が使用するカードタイプ
 card-templates-cloze = 穴埋め問題 { $val }
 card-templates-deck-override = デッキ選択を上書き...
+card-templates-copy-info = 内容一覧をクリップボードにコピー
 card-templates-delete-the-as-card-type-and = カードタイプ「{ $template }」とそれを使用している{ $cards }を削除しますか？
 card-templates-enter-deck-to-place-new = カードタイプ「{ $val }」から生成される新規カードを追加するデッキを選択してください。ここでデッキを選択すると、「追加」ウィンドウでのデッキの選択は無視されます。未指定（空欄）のままにしておくこともできます。
 card-templates-enter-new-card-position-1 = カードの新しい位置を入力してください (1...{ $val }):
