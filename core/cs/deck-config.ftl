@@ -135,9 +135,7 @@ deck-config-new-gather-priority-tooltip-2 =
     `Umístění sestupně`: nabírá karty podle pozice (ke zkoušení) sestupně, což je obvykle
     nejnovější přidané jako první.
     
-    `Poznámky náhodně`: nabírá karty z náhodně vybraných poznámek. Když je odkládání 
-    příbuzných karet zakázáno, umožňuje to vidět všechny karty jedné poznámky v jednom 
-    sezení (např. přední a zadní stranu karty)
+    `Poznámky náhodně`: vybírá poznámky náhodně, poté nabere všechny jejich karty.
     
     `Karty náhodně`: nabírá karty zcela náhodně.
 deck-config-new-gather-priority-deck = Balíček
@@ -148,23 +146,22 @@ deck-config-new-gather-priority-random-notes = Poznámky náhodně
 deck-config-new-gather-priority-random-cards = Karty náhodně
 deck-config-new-card-sort-order = Pořadí řazení nových karet
 deck-config-new-card-sort-order-tooltip-2 =
-    `Typ karty`: Zobrazuje karty v pořadí čísel typu karty. Jestliže je zakázáno odkládání příbuzných 
-    karet, toto zajistí, že se všechny přední strany karet zobrazí dříve, než zadní strany karet.
-    Toto je užitečné, když se mají všechny karty stejné poznámky zobrazovat ve stejném sezení, ale 
-    ne příliš blízko u sebe.
+    `Typ karty, poté pořadí nabrání`: Zobrazuje karty v pořadí podle čísla typu karty. 
+    Karty každého typu karty se zobrazují v pořadí, v jakém byly nabrány. Jestliže je zakázáno 
+    odkládání příbuzných karet, toto zajistí, že se všechny karty líc→rub zobrazí dříve než karty rub→líc.
+    Toto je užitečné, když se mají všechny karty stejné poznámky zobrazovat ve stejném sezení, 
+    ale ne příliš blízko u sebe.
     
     `V pořadí nabrání`: Zobrazuje karty přesně tak, jak byly nabrány. Jestliže je zakázáno odkládání příbuzných 
     karet, toto obvykle vede k tomu, že se všechny karty jedné poznámky zobrazí jedna po druhé.
     
-    `Typ karty, poté náhodně`: Stejně jako `Typ karty`, ale zamíchá karty každého čísla typu karet. 
-    Jestliže použijete `Umístění vzestupně`, aby se nabraly nejstarší karty, mohli byste použít toto 
-    nastavení, abyste viděli tyto karty v náhodném pořadí, ale aby bylo stále zajištěno, že karty stejné 
-    poznámky nebudou příliš blízko u sebe.
+    `Typ karty, poté náhodně`: Zobrazuje karty v pořadí podle čísla typu karty. Karty každého čísla typu karty 
+    se zobrazí v náhodném pořadí. Toto řazení je užitečné, pokud nechcete, aby se příbuzné karty zobrazovaly 
+    příliš blízko sebe, ale přesto chcete, aby se karty zobrazovaly v náhodném pořadí.
     
-    `Poznámky náhodně, poté typ karty`: Vybírá poznámky náhodně, poté zobrazí všechny jejich 
-    příbuzné karty v pořadí.
+    `Poznámky náhodně, poté typ karty`: Vybírá poznámky náhodně, poté zobrazí všechny jejich karty v pořadí.
     
-    `Náhodně`: Zcela zamíchá nabrané karty.
+    `Náhodně`: Zobrazí karty v náhodném pořadí.
 deck-config-sort-order-card-template-then-random = Typ karty, poté náhodně
 deck-config-sort-order-random-note-then-template = Poznámky náhodně, poté typ karty
 deck-config-sort-order-random = Náhodně
