@@ -26,7 +26,7 @@ deck-config-review-limit-tooltip =
     jestliže jsou karty připraveny k zopakování.
 deck-config-limit-deck-v3 =
     Při studování balíčku, který má podřízené balíčky, limity nastavené pro každý 
-    podřízený balíček řídí maximální počet karet vzatých z daného balíčku. 
+    podřízený balíček řídí maximální počet karet nabraných z daného balíčku. 
     Zvolené limity balíčků řídí celkový počet karet, které se zobrazí.
 deck-config-limit-new-bound-by-reviews =
     Limit opakování ovlivní limit nových karet. Například, jestliže je limit opakování 
@@ -196,8 +196,8 @@ deck-config-sort-order-ascending-intervals = Intervaly vzestupně
 deck-config-sort-order-descending-intervals = Intervaly sestupně
 deck-config-sort-order-ascending-ease = Snadnost vzestupně
 deck-config-sort-order-descending-ease = Snadnost sestupně
-deck-config-sort-order-ascending-difficulty = Obtížnost vzestupně
-deck-config-sort-order-descending-difficulty = Obtížnost sestupně
+deck-config-sort-order-ascending-difficulty = Snadné karty nejdříve
+deck-config-sort-order-descending-difficulty = Obtížné karty nejdříve
 deck-config-sort-order-retrievability-ascending = Zapamatování vzestupně
 deck-config-sort-order-retrievability-descending = Zapamatování sestupně
 deck-config-display-order-will-use-current-deck =
