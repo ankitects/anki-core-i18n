@@ -423,6 +423,17 @@ deck-config-answer-hard = Odpovědět těžké
 deck-config-answer-good = Odpovědět dobré
 deck-config-days-to-simulate = Simulovat dní
 deck-config-desired-retention-below-optimal = Vaše požadovaná retence není optimální. Je doporučeno ji zvýšit.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-y-axis-title-memorized = Zapamatováno celkem
+deck-config-additional-new-cards-to-simulate = Další nové karty pro simulaci
+deck-config-clear-last-simulate = Vymazat poslední simulaci
+deck-config-fsrs-simulator-radio-count = Opakování
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Zapamatováno
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

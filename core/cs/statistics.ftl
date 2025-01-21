@@ -55,6 +55,22 @@ statistics-in-time-span-years =
         [many] za { $amount } roku
        *[other] za { $amount } let
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Dnes studováno { statistics-cards } { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } ({ $secs-per-card } s/kartu)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } karta
@@ -77,19 +93,10 @@ statistics-reviews =
         [many] { $reviews } opakování
        *[other] { $reviews } opakování
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Dnes studováno { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card } s/kartu)
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } zapamatováno
 statistics-today-title = Dnes
 statistics-today-again-count = Počet Znovu:
 statistics-today-type-counts = Učit se: { $learnCount }, Opakovat: { $reviewCount }, Znovu se učit: { $relearnCount }, Filtrováno: { $filteredCount }
@@ -107,16 +114,27 @@ statistics-counts-learning-cards = Učení
 statistics-counts-relearning-cards = Znovu učené
 statistics-counts-title = Počet karet
 statistics-counts-separate-suspended-buried-cards = Oddělit vyřazené/přeskočené karty
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+
 statistics-true-retention-title = Skutečná retence
 statistics-true-retention-subtitle = Míra zapamatování karet s intervalem ≥ 1 den.
 statistics-true-retention-pass = Správně
 statistics-true-retention-fail = Špatně
+statistics-true-retention-count = Počet
 statistics-true-retention-retention = Retence
+statistics-true-retention-all = Vše
 statistics-true-retention-today = Dnes
 statistics-true-retention-yesterday = Včera
 statistics-true-retention-week = Minulý týden
 statistics-true-retention-month = Minulý měsíc
 statistics-true-retention-year = Minulý rok
+
+##
+
 statistics-range-all-time = stáří balíku
 statistics-range-1-year-history = posledních 12 měsíců
 statistics-range-all-history = celá historie
