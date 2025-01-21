@@ -24,7 +24,7 @@ card-stats-review-log-type-relearn = 再習得中
 card-stats-review-log-type-filtered = フィルター
 card-stats-review-log-type-manual = 期日手動変更
 card-stats-review-log-type-rescheduled = 期日一括変更
-card-stats-review-log-elapsed-time = 経過時間
+card-stats-review-log-elapsed-time = 前回学習後の経過時間
 card-stats-no-card = （表示するカードがありません）
 card-stats-custom-data = カスタムデータ
 card-stats-fsrs-stability = 安定度
@@ -35,6 +35,7 @@ card-stats-fsrs-forgetting-curve-first-week = 初週
 card-stats-fsrs-forgetting-curve-first-month = 初月
 card-stats-fsrs-forgetting-curve-first-year = 初年
 card-stats-fsrs-forgetting-curve-all-time = 全期間
+card-stats-fsrs-forgetting-curve-probability-of-recalling = 正答できる（答えを思い出せる）可能性
 
 ## Window Titles
 
