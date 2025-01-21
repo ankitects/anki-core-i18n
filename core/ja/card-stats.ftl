@@ -36,6 +36,7 @@ card-stats-fsrs-forgetting-curve-first-month = 初月
 card-stats-fsrs-forgetting-curve-first-year = 初年
 card-stats-fsrs-forgetting-curve-all-time = 全期間
 card-stats-fsrs-forgetting-curve-probability-of-recalling = 正答できる（答えを思い出せる）可能性
+card-stats-fsrs-forgetting-curve-desired-retention = 目標正答率
 
 ## Window Titles
 
