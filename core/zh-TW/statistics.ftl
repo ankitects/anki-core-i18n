@@ -187,9 +187,9 @@ statistics-stability-day-single =
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = 正確率： { $correct }/{ $total } ({ $percent }%)
 # the emoji depicts the graph displaying this number
-statistics-hours-reviews = 📊 複習了 { $reviews } 次
+statistics-hours-reviews = 📊 { $reviews } 張複習卡
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = 📈 答對了 { $percent }%（{ $reviews } 次）
+statistics-hours-correct-reviews = 📈 正確率 { $percent }%（{ $reviews } 張）
 statistics-hours-title = 分時解析
 statistics-hours-subtitle = 一天各時段中複習的成功率
 # shown when graph is empty
@@ -224,7 +224,7 @@ statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent 
 statistics-average-over-period = 平均（包含沒有學習的天數）
 statistics-reviews-per-day =
     { $count ->
-       *[other] { $count } 次複習/天
+       *[other] { $count } 張複習卡/天
     }
 statistics-minutes-per-day =
     { $count ->
