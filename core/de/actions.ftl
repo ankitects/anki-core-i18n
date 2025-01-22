@@ -1,5 +1,17 @@
 actions-add = Hinzufügen
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Elemente, die alle ausgewählten Kriterien erfüllen
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Elemente, die mindestens eines der ausgewählten Kriterien erfüllen
 actions-cancel = Abbrechen
 actions-choose = Auswählen
@@ -21,7 +33,6 @@ actions-manage = Verwalten …
 actions-name = Name:
 actions-new = Neu
 actions-new-name = Neuer Name:
-actions-options = Einstellungen
 actions-options-for = Einstellungen für „{ $val }“
 actions-preview = Vorschau
 actions-rebuild = Neu erstellen
@@ -58,10 +69,12 @@ actions-previous-card-info = Vorherige Kartenstatistik
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action } …
 actions-fullscreen-unsupported = Der Vollbildmodus wird von Ihrem aktuell ausgewählten Grafikkartentreiber nicht unterstützt. Sie können in den Einstellungen einen anderen Grafikkartentreiber auswählen und es damit versuchen. Klicken Sie dazu auf Extras > Einstellungen
-
-## Flags
-
 actions-flag-number = Flagge { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Rot
 actions-flag-orange = Orange
 actions-flag-green = Grün
@@ -69,6 +82,9 @@ actions-flag-blue = Blau
 actions-flag-pink = Rosa
 actions-flag-turquoise = Türkis
 actions-flag-purple = Violett
+
+##
+
 actions-set-flag = Flagge setzen
 actions-nothing-to-undo = Nichts zum Rückgängigmachen
 actions-nothing-to-redo = Nichts zum Wiederherstellen
