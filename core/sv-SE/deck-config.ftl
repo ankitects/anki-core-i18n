@@ -231,9 +231,9 @@ deck-config-seconds-to-show-answer-tooltip-2 = När automatisk frammatning är a
 deck-config-question-action-show-answer = Visa svar
 deck-config-question-action-show-reminder = Visa påminnelse
 deck-config-question-action = Frågoåtgärd
-deck-config-question-action-tool-tip = Vad som händer när fråga visats och tiden är slut
+deck-config-question-action-tool-tip = Åtgärd som utförs när frågan har visats och tiden är slut
 deck-config-answer-action = Svarsåtgärd
-deck-config-answer-action-tooltip-2 = Åtgärd att utföra efter att svaret har visats och tiden förflutit.
+deck-config-answer-action-tooltip-2 = Åtgärd som utförs när svaret har visats och tiden är slut.
 deck-config-wait-for-audio-tooltip-2 = Vänta på att ljudet spelas innan frågo- eller svarsåtgärden tillämpas automatiskt.
 
 ## Audio section
@@ -451,12 +451,18 @@ deck-config-days-to-simulate = Dagar att simulera
 deck-config-desired-retention-below-optimal = Den önskade återkallningskvoten är under det optimala värdet. Att öka den rekommenderas.
 deck-config-fsrs-simulator-y-axis-title-time = Repetitionstid/dag
 deck-config-fsrs-simulator-y-axis-title-count = Repetitionsantal/dag
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = Totalt memorerat
 deck-config-fsrs-simulator-experimental = FSRS-simulator (experimentell)
 deck-config-additional-new-cards-to-simulate = Ytterligare nya kort att simulera
 deck-config-simulate = Simulera
 deck-config-clear-last-simulate = Rensa senaste simulering
 deck-config-fsrs-simulator-radio-count = Repetitioner
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorerade
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

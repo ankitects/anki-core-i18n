@@ -37,6 +37,7 @@ card-templates-card = Kort { $val }
 card-templates-card-types-for = Korttyper för { $val }
 card-templates-cloze = Lucktext
 card-templates-deck-override = Åsidosätt kortlek...
+card-templates-copy-info = Kopiera info till urklipp
 card-templates-delete-the-as-card-type-and = Radera korttypen ”{ $template }” och dess { $cards }?
 card-templates-enter-deck-to-place-new = Skriv in kortlek att lägga nya { $val }-kort i, eller lämna blankt:
 card-templates-enter-new-card-position-1 = Skriv in ny kortposition (1...{ $val }):
