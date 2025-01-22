@@ -33,6 +33,7 @@ actions-manage = Verwalten …
 actions-name = Name:
 actions-new = Neu
 actions-new-name = Neuer Name:
+actions-options = Optionen
 actions-options-for = Einstellungen für „{ $val }“
 actions-preview = Vorschau
 actions-rebuild = Neu erstellen

@@ -19,7 +19,7 @@ card-templates-night-mode = Nachtmodus
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = CSS-Klasse für mobile Endgeräte hinzufügen
-card-templates-preview-settings = Einstellungen
+card-templates-preview-settings = Anzeige
 card-templates-invalid-template-number = Kartenvorlage { $number } von Notiztyp „{ $notetype }“ hat ein Problem.
 card-templates-identical-front = Die Vorderseite ist identisch mit der Kartenvorlage { $number }.
 card-templates-no-front-field = Es wurde erwartet, einen Feldersatz auf der Vorderseite der Kartenvorlage vorzufinden.
