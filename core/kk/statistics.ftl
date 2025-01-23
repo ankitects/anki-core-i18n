@@ -85,9 +85,32 @@ statistics-counts-separate-suspended-buried-cards = Жекеленген кід�
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 
 statistics-true-retention-title = Нақты Есте Сақтау
+statistics-true-retention-subtitle = Аралығы  ≥ 1 күн карталар өтімі.
+statistics-true-retention-range = Аралық
+statistics-true-retention-all = Бәрі
+statistics-true-retention-today = Бүгін
+statistics-true-retention-yesterday = Кеше
+statistics-true-retention-week = Өткен апта
+statistics-true-retention-month = Өткен ай
+statistics-true-retention-year = Өткен жыл
+statistics-true-retention-all-time = Бүкіл уақыт
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
 
 ##
 
+statistics-range-all-time = бүкіл уақыт
+statistics-range-1-year-history = соңғы 12 ай
+statistics-range-all-history = бүкіл тарих
+statistics-range-deck = колода
+statistics-range-collection = жинақ
+statistics-range-search = Іздеу
+statistics-card-ease-title = Карта Жеңілдігі
+statistics-card-difficulty-title = Карта Қиындығы
+statistics-card-stability-title = Карта Тұрақтылығы
+statistics-average-stability = Орташа тұрақтылық
+statistics-card-retrievability-title = Карта Түсірілімі
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
