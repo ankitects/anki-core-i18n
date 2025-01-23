@@ -87,6 +87,8 @@ statistics-counts-separate-suspended-buried-cards = Жекеленген кід�
 statistics-true-retention-title = Нақты Есте Сақтау
 statistics-true-retention-subtitle = Аралығы  ≥ 1 күн карталар өтімі.
 statistics-true-retention-range = Аралық
+statistics-true-retention-count = Санақ
+statistics-true-retention-retention = Сақталым
 statistics-true-retention-all = Бәрі
 statistics-true-retention-today = Бүгін
 statistics-true-retention-yesterday = Кеше
@@ -109,8 +111,66 @@ statistics-range-search = Іздеу
 statistics-card-ease-title = Карта Жеңілдігі
 statistics-card-difficulty-title = Карта Қиындығы
 statistics-card-stability-title = Карта Тұрақтылығы
+statistics-card-stability-subtitle = Түсірілімі 90%-ға түсетін іркіліс.
 statistics-average-stability = Орташа тұрақтылық
 statistics-card-retrievability-title = Карта Түсірілімі
+statistics-card-ease-subtitle = Жеңілдік неғұрлым төмен, карта соғұрлым жиі кездеседі.
+statistics-card-difficulty-subtitle2 = Қиындық неғұрлым жоғары, тұрақтылық соғұрлым баяу өседі.
+statistics-retrievability-subtitle = Бүгін картаны еске түсіру ықтималдығы.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip = Жеңілдігі { $percent } { $cards } карта
+statistics-card-difficulty-tooltip = Қиындығы { $percent } { $cards } карта
+statistics-retrievability-tooltip = Түсірілімі { $percent } { $cards } карта
+statistics-future-due-title = Болжам
+statistics-future-due-subtitle = Келешектегі шолу саны.
+statistics-added-title = Қосылған
+statistics-added-subtitle = Сіз қосқан жаңа карта саны.
+statistics-reviews-count-subtitle = Сіз жауап берген сұрақ саны.
+statistics-reviews-time-subtitle = Сұраққа жауап беруге кеткет уақыт.
+statistics-answer-buttons-title = Жауап Батырмалары
+# eg Button: 4
+statistics-answer-buttons-button-number = Батырма
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Басылған саны
+statistics-answer-buttons-subtitle = Әр батырманы басқан саны.
+statistics-reviews-title = Шолулар
+statistics-reviews-time-checkbox = Уақыт
+statistics-in-days-single =
+    { $days ->
+        [2] Бүрсігүні
+        [1] Ертең
+        [0] Бүгін
+       *[other] { $days } күнде
+    }
+statistics-in-days-range = { $daysStart }-{ $daysEnd } күнде
+statistics-days-ago-single =
+    { $days ->
+        [2] Алдыңгүні
+        [1] Кеше
+       *[other] { $days } күн бұрын
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } күн бұрын
+statistics-running-total = Өспелі нәтиже
+statistics-cards-due = мерізімі келген { $cards } карта
+statistics-backlog-checkbox = Қорлану
+statistics-intervals-title = Шолу Аралықтары
+statistics-intervals-subtitle = Карталарды қайта көрсету алдындағы іркілісі.
+statistics-intervals-day-range = Аралығы { $daysStart }~{ $daysEnd } күн { $cards } карта
+statistics-intervals-day-single = Аралығы { $day } күн { $cards } карта
+statistics-stability-day-range = Тұрақтылығы { $daysStart }~{ $daysEnd } күн { $cards } карта
+statistics-stability-day-single = Тұрақтылығы { $day } күн { $cards } карта
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00 бастап
+statistics-hours-correct = { $correct }/{ $total } дұрыс ({ $percent }%)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } шолу
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% дұрыс ({ $reviews })
+statistics-hours-title = Сағатқа Шаққанда
+statistics-hours-subtitle = Әр сағаттың табыс жиілігі.
+# shown when graph is empty
+statistics-no-data = ДЕРЕК ЖОҚ
+statistics-calendar-title = Күнтізбе
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
@@ -118,6 +178,34 @@ statistics-card-retrievability-title = Карта Түсірілімі
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount }сек
+statistics-elapsed-time-minutes = { $amount }м
+statistics-elapsed-time-hours = { $amount }сағ
+statistics-elapsed-time-days = { $amount }к
+statistics-elapsed-time-months = { $amount }ай
+statistics-elapsed-time-years = { $amount }ж
 
 ##
 
+statistics-average-for-days-studied = Оқыған күндердегі орташа
+statistics-total = Жалпы
+statistics-days-studied = Оқыған күндер
+statistics-average-answer-time-label = Орташа жауап уақыты
+statistics-average = Орташа
+statistics-average-interval = Орташа аралық
+statistics-due-tomorrow = Ертеңге
+statistics-daily-load = Күнделікі жүктеме
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
+statistics-average-over-period = Мерізім орташасы
+statistics-reviews-per-day = { $count } шолу/күн
+statistics-minutes-per-day = { $count } шолу/күн
+statistics-cards-per-day = { $count } карта/күн
+statistics-average-ease = Орташа жеңілдік
+statistics-average-difficulty = Орташа қиындық
+statistics-average-retrievability = Орташа түсірілім
+statistics-estimated-total-knowledge = Жалпы білім шамасы
+statistics-save-pdf = PDF сақтау
+statistics-saved = Сақталды.
+statistics-stats = санақ
+statistics-title = Статистика
