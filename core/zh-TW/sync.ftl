@@ -22,7 +22,7 @@ sync-media-log-title = 媒體同步記錄
 sync-conflict = 一次只能同步一份 Anki 複本到你的帳號。請稍候幾分鐘，然後再試一次。
 sync-server-error = AnkiWeb 遇到了一個問題。請過幾分鐘後再試一次。
 sync-client-too-old = 你的 Anki 版本過舊。請更新至最新版本後再繼續同步。
-sync-wrong-pass = AnkiWeb ID 或密碼錯誤；請再試一次。
+sync-wrong-pass = 電子郵件或密碼錯誤；請再試一次。
 sync-resync-required = 請再次同步。若此訊息持續出現，請回報至支援網站。
 sync-must-wait-for-end = Anki 正在同步中。請等待同步完成，然後再試一次。
 sync-confirm-empty-download = 本地集合沒有任何卡片。要從 AnkiWeb 下載嗎？
@@ -40,7 +40,7 @@ sync-conflict-explanation2 =
     
     - **{ sync-download-from-ankiweb }**：使用 AnkiWeb 上的版本來取代這裡的牌組。在此裝置上一次同步過後所做的任何更動都將遺失。
     - **{ sync-upload-to-ankiweb }**：使用此裝置上的牌組來覆寫 AnkiWeb 上的版本，並刪除 AnkiWeb 上的所有更動。
-sync-ankiweb-id-label = AnkiWeb ID：
+sync-ankiweb-id-label = 電子郵件：
 sync-password-label = 密碼：
 sync-account-required =
     <h1>需要帳號</h1>
