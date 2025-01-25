@@ -325,6 +325,7 @@ deck-config-fsrs-simulator-y-axis-title-count = Αριθμός επαναλήψ�
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = Σύνολο απομνημονευμένων
 deck-config-fsrs-simulator-experimental = Προσομοιωτής FSRS (πειραματικό)
+deck-config-additional-new-cards-to-simulate = Επιπρόσθετες νέες κάρτες για προσομοίωση
 deck-config-simulate = Προσομοίωση
 deck-config-clear-last-simulate = Εκκαθάριση προηγούμενης προσομοίωσης
 deck-config-fsrs-simulator-radio-count = Επαναλήψεις
