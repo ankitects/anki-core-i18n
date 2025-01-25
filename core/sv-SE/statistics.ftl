@@ -256,3 +256,6 @@ statistics-save-pdf = Spara PDF
 statistics-saved = Sparad.
 statistics-stats = statistik
 statistics-title = Statistik
+statistics-true-retention-total = Totalt antal kort
+statistics-true-retention-young = Unga
+statistics-true-retention-mature = Mogna

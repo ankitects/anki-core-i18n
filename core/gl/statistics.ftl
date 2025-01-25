@@ -53,3 +53,6 @@ statistics-due-tomorrow = Obrigadas para mañá
 statistics-average-over-period = Se tivera estudado todos os días
 statistics-average-ease = Termo medio de facilidade
 statistics-stats = estatísticas
+statistics-true-retention-total = Total de tarxetas
+statistics-true-retention-young = Novo/a
+statistics-true-retention-mature = Antigas

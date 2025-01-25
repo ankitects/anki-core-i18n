@@ -216,3 +216,6 @@ statistics-average-ease = Ușurință medie
 statistics-save-pdf = Salvează pdf
 statistics-saved = Salvat.
 statistics-stats = status
+statistics-true-retention-total = Total carduri
+statistics-true-retention-young = Tinere
+statistics-true-retention-mature = Matur(e)

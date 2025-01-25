@@ -219,3 +219,6 @@ statistics-save-pdf = ذخیره PDF
 statistics-saved = ذخیره شد.
 statistics-stats = آمار
 statistics-title = آمارها
+statistics-true-retention-total = تمام کارت‌ها
+statistics-true-retention-young = موقت
+statistics-true-retention-mature = دائم

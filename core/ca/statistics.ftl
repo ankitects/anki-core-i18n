@@ -252,3 +252,6 @@ statistics-save-pdf = Guarda en PDF
 statistics-saved = Guardat.
 statistics-stats = estadístiques
 statistics-title = Estadístiques
+statistics-true-retention-total = Nombre total de targetes
+statistics-true-retention-young = Joves
+statistics-true-retention-mature = Madures

@@ -181,3 +181,6 @@ statistics-average-ease = Độ dễ trung bình
 statistics-save-pdf = Lưu PDF
 statistics-saved = Đã lưu.
 statistics-stats = thống kê
+statistics-true-retention-total = Tổng số thẻ
+statistics-true-retention-young = Trẻ
+statistics-true-retention-mature = Trưởng thành

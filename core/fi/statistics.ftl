@@ -274,3 +274,6 @@ statistics-save-pdf = Tallenna PDF
 statistics-saved = Tallennettu.
 statistics-stats = tilastot
 statistics-title = Tilastot
+statistics-true-retention-total = Kortteja yhteensä
+statistics-true-retention-young = Nuoret
+statistics-true-retention-mature = Varmat

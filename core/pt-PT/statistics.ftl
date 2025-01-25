@@ -210,3 +210,6 @@ statistics-average-difficulty = Dificuldade média
 statistics-save-pdf = Guardar PDF
 statistics-saved = Guardado.
 statistics-stats = estatísticas
+statistics-true-retention-total = Total de fichas
+statistics-true-retention-young = Jovem
+statistics-true-retention-mature = Maduro

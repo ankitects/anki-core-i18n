@@ -211,3 +211,6 @@ statistics-save-pdf = PDF сақтау
 statistics-saved = Сақталды.
 statistics-stats = санақ
 statistics-title = Статистика
+statistics-true-retention-total = Жалпы
+statistics-true-retention-young = Жас
+statistics-true-retention-mature = Жетілген

@@ -252,3 +252,6 @@ statistics-save-pdf = Salvar PDF
 statistics-saved = Salvo.
 statistics-stats = estatísticas
 statistics-title = Estatísticas
+statistics-true-retention-total = Total de cartões
+statistics-true-retention-young = Recentes
+statistics-true-retention-mature = Maduros

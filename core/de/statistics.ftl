@@ -273,3 +273,6 @@ statistics-save-pdf = Als PDF speichern
 statistics-saved = Gespeichert.
 statistics-stats = Statistik
 statistics-title = Statistik
+statistics-true-retention-total = Karten insgesamt
+statistics-true-retention-young = Junge Karten
+statistics-true-retention-mature = Alte Karten

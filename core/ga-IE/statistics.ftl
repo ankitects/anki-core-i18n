@@ -256,3 +256,6 @@ statistics-save-pdf = Sábháil PDF
 statistics-saved = Sábháilte.
 statistics-stats = staitisticí
 statistics-title = Staitisticí
+statistics-true-retention-total = Iomlán
+statistics-true-retention-young = Óg
+statistics-true-retention-mature = Aibí

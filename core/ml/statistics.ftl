@@ -203,3 +203,6 @@ statistics-average-ease = ശരാശരി അനായാസം
 statistics-save-pdf = PDF സംരക്ഷിക്കുക
 statistics-saved = സംരക്ഷിച്ചു
 statistics-stats = സ്ഥിതിവിവരക്കണക്കുകൾ
+statistics-true-retention-total = മൊത്തം
+statistics-true-retention-young = പ്രായം-കുറഞ്ഞത്
+statistics-true-retention-mature = പക്വതയെത്തിയത്

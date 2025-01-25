@@ -299,3 +299,6 @@ statistics-save-pdf = Uložit PDF
 statistics-saved = Uloženo.
 statistics-stats = statistika
 statistics-title = Statistiky
+statistics-true-retention-total = Celkem karet
+statistics-true-retention-young = Mladé
+statistics-true-retention-mature = Zralé

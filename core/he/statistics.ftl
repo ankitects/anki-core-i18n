@@ -270,3 +270,6 @@ statistics-save-pdf = שמור כ-PDF
 statistics-saved = נשמר.
 statistics-stats = סטטיסטיקה
 statistics-title = סטטיסטיקה
+statistics-true-retention-total = סך-הכל כרטיסים
+statistics-true-retention-young = צעירים
+statistics-true-retention-mature = בוגרים

@@ -58,3 +58,6 @@ statistics-average-ease = Priemerná jednoduchosť
 statistics-save-pdf = Uložiť PDF
 statistics-saved = Uložené.
 statistics-stats = stat
+statistics-true-retention-total = Celkom kariet
+statistics-true-retention-young = Mladé
+statistics-true-retention-mature = Zrelé

@@ -132,3 +132,6 @@ statistics-average-ease = Միջին հեշտություն
 statistics-save-pdf = Պահել PDF-ում
 statistics-saved = Պահված է:
 statistics-stats = վիճակագրություն
+statistics-true-retention-total = Քարտերի քանակը
+statistics-true-retention-young = Թարմերը
+statistics-true-retention-mature = Հասունները

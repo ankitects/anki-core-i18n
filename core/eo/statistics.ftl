@@ -252,3 +252,6 @@ statistics-save-pdf = Konservi kiel PDF
 statistics-saved = Konservita.
 statistics-stats = statistikoj
 statistics-title = Statistikoj
+statistics-true-retention-total = Kartoj entute
+statistics-true-retention-young = Junaj
+statistics-true-retention-mature = Maljunaj

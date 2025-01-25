@@ -233,3 +233,6 @@ statistics-save-pdf = אויפֿהיטן PDF
 statistics-saved = אויפֿגעהיט.
 statistics-stats = סטאַט.
 statistics-title = סטאַטיסטיקס
+statistics-true-retention-total = סך-הכּל
+statistics-true-retention-young = יונגע
+statistics-true-retention-mature = דערוואַקסענע

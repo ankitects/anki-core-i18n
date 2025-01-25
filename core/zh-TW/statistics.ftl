@@ -242,3 +242,6 @@ statistics-save-pdf = 儲存為 PDF 檔
 statistics-saved = 已儲存。
 statistics-stats = 統計
 statistics-title = 統計資料
+statistics-true-retention-total = 總計
+statistics-true-retention-young = 未熟練
+statistics-true-retention-mature = 熟練

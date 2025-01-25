@@ -204,3 +204,6 @@ statistics-save-pdf = 保存为 PDF
 statistics-saved = 已保存。
 statistics-stats = 统计
 statistics-title = 统计数据
+statistics-true-retention-total = 总计
+statistics-true-retention-young = 欠熟练
+statistics-true-retention-mature = 已熟练

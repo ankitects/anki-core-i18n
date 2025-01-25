@@ -271,3 +271,6 @@ statistics-save-pdf = Αποθήκευση PDF
 statistics-saved = Αποθηκεύτηκε.
 statistics-stats = στατιστικά
 statistics-title = Στατιστικά
+statistics-true-retention-total = Σύνολο
+statistics-true-retention-young = Πρόσφατες
+statistics-true-retention-mature = Ώριμες

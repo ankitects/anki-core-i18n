@@ -96,3 +96,5 @@ statistics-average-ease = Middels vanskelighetsgrad
 statistics-save-pdf = Lagre PDF
 statistics-saved = Lagret.
 statistics-stats = statistikk
+statistics-true-retention-young = Ung
+statistics-true-retention-mature = Gamle

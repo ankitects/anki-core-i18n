@@ -61,3 +61,6 @@ statistics-average-ease = Erraztasun batezbestekoa
 statistics-save-pdf = Gorde PDF
 statistics-saved = Gordetuta
 statistics-stats = estatistikak
+statistics-true-retention-total = Kartak guztira
+statistics-true-retention-young = Gazte
+statistics-true-retention-mature = heldua

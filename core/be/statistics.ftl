@@ -226,3 +226,6 @@ statistics-save-pdf = Захаваць PDF
 statistics-saved = Захавана.
 statistics-stats = статыстыка
 statistics-title = Статыстыка
+statistics-true-retention-total = Усяго картак
+statistics-true-retention-young = Маладыя карткі
+statistics-true-retention-mature = Сталыя карткі

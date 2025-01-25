@@ -64,3 +64,6 @@ statistics-average-ease = Просечна лакоћа
 statistics-save-pdf = Сачувај као PDF
 statistics-saved = Сачувано.
 statistics-stats = статистика
+statistics-true-retention-total = Укупно карата
+statistics-true-retention-young = Свеже
+statistics-true-retention-mature = Развијен

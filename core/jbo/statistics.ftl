@@ -90,3 +90,6 @@ statistics-average-ease = cnano fi lo'i ni frili
 statistics-save-pdf = rejgau pa me la me py dy fy.
 statistics-saved = .i mo'u rejgau
 statistics-stats = datni
+statistics-true-retention-total = se zilkancu lo'i karda
+statistics-true-retention-young = na'e makcu
+statistics-true-retention-mature = makcu

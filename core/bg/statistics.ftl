@@ -53,3 +53,5 @@ statistics-due-tomorrow = За преглед утре
 statistics-average-over-period = Ако учехте всеки ден
 statistics-average-ease = Средно "спокойствие" (Ease)
 statistics-stats = статистика
+statistics-true-retention-total = Общо карти
+statistics-true-retention-mature = Зрели

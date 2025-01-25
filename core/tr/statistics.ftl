@@ -257,3 +257,6 @@ statistics-save-pdf = PDF Kaydet
 statistics-saved = Kaydedildi.
 statistics-stats = İstatistikler
 statistics-title = İstatistikler
+statistics-true-retention-total = Toplam
+statistics-true-retention-young = Genç
+statistics-true-retention-mature = Olgun

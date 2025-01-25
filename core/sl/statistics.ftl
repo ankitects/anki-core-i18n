@@ -277,3 +277,6 @@ statistics-save-pdf = Shrani PDF
 statistics-saved = Shranjeno.
 statistics-stats = statistika
 statistics-title = Statistike
+statistics-true-retention-total = Skupaj kartic
+statistics-true-retention-young = Sveže
+statistics-true-retention-mature = Zrel

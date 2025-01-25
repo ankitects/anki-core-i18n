@@ -97,3 +97,6 @@ statistics-average-ease = Gemiddelde gemak
 statistics-save-pdf = Opslaan als PDF
 statistics-saved = Opgeslagen.
 statistics-stats = statistieken
+statistics-true-retention-total = Totaal aantal kaarten
+statistics-true-retention-young = Jong
+statistics-true-retention-mature = Volwassen

@@ -202,3 +202,6 @@ statistics-average-ease = ହାରାହାରି ସହଜତା
 statistics-save-pdf = PDF ସଂରକ୍ଷଣ କରନ୍ତୁ
 statistics-saved = ସଞ୍ଚୟ ହୋଇଛି।
 statistics-stats = ପରିସଂଖ୍ୟାନ
+statistics-true-retention-total = ସମୁଦାୟ
+statistics-true-retention-young = ଯୁବ
+statistics-true-retention-mature = ପରିପକ୍ୱ

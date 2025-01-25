@@ -255,3 +255,6 @@ statistics-save-pdf = Salva PDF
 statistics-saved = Salvato.
 statistics-stats = statistiche
 statistics-title = Statistiche
+statistics-true-retention-total = Carte totali
+statistics-true-retention-young = Giovani
+statistics-true-retention-mature = Mature

@@ -226,3 +226,6 @@ statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計
 statistics-title = 統計
+statistics-true-retention-total = 合計
+statistics-true-retention-young = 復習 [未習熟期]
+statistics-true-retention-mature = 復習 [習熟期]

@@ -212,3 +212,6 @@ statistics-save-pdf = Guardar PDF
 statistics-saved = Guardado.
 statistics-stats = estadísticas
 statistics-title = Estadísticas
+statistics-true-retention-total = Tarjetas totales
+statistics-true-retention-young = Jóvenes
+statistics-true-retention-mature = Maduras

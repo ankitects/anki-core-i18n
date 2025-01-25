@@ -340,3 +340,6 @@ statistics-save-pdf = حفظ كـ PDF
 statistics-saved = تم الحفظ.
 statistics-stats = إحصائيات
 statistics-title = إحصائيات
+statistics-true-retention-total = الإجمالي
+statistics-true-retention-young = يافعة
+statistics-true-retention-mature = ناضجة

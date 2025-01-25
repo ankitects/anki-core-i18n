@@ -131,3 +131,6 @@ statistics-average-ease = Átlagos könnyűség
 statistics-save-pdf = Mentés PDF-ként
 statistics-saved = Mentve.
 statistics-stats = statisztikák
+statistics-true-retention-total = Kártyák összesen
+statistics-true-retention-young = Friss
+statistics-true-retention-mature = Veterán

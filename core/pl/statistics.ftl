@@ -303,3 +303,6 @@ statistics-save-pdf = Zapisz PDF
 statistics-saved = Zapisano.
 statistics-stats = statystyki
 statistics-title = Statystyki
+statistics-true-retention-total = Razem
+statistics-true-retention-young = Młode
+statistics-true-retention-mature = Dojrzałe

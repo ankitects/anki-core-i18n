@@ -53,3 +53,6 @@ statistics-longest-interval = langste tussenpouse
 statistics-due-tomorrow = Môre uitstaande
 statistics-average-over-period = As jy elke dag  studeer het
 statistics-average-ease = Gemiddelde gemak
+statistics-true-retention-total = Totale kaarte
+statistics-true-retention-young = Jonk
+statistics-true-retention-mature = Volwasse

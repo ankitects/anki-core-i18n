@@ -54,3 +54,6 @@ statistics-due-tomorrow = Tidsfrist i morgen
 statistics-average-over-period = Hvis du studerer hver dag
 statistics-average-ease = Gennemsnitlig lethed
 statistics-stats = statistik
+statistics-true-retention-total = Kort ialt
+statistics-true-retention-young = Ung
+statistics-true-retention-mature = Moden

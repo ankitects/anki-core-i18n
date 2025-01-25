@@ -307,3 +307,6 @@ statistics-save-pdf = Сохранить как PDF
 statistics-saved = Сохранено.
 statistics-stats = статистика
 statistics-title = Статистика
+statistics-true-retention-total = Всего карточек
+statistics-true-retention-young = Свежие
+statistics-true-retention-mature = Закреплённые

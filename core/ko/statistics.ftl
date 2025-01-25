@@ -158,3 +158,6 @@ statistics-average-ease = 평균 ease
 statistics-save-pdf = PDF로 저장
 statistics-saved = 저장됨.
 statistics-stats = 통계
+statistics-true-retention-total = 전체 카드
+statistics-true-retention-young = 어린 카드
+statistics-true-retention-mature = 성숙 카드

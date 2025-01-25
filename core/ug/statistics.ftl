@@ -274,3 +274,6 @@ statistics-save-pdf = PDF ساقلا
 statistics-saved = ساقلاندى.
 statistics-stats = ئىستاتىستىكا
 statistics-title = ئىستاتىستىكا سانلىق مەلۇمات
+statistics-true-retention-total = جەمئى
+statistics-true-retention-young = خام
+statistics-true-retention-mature = پىششىق

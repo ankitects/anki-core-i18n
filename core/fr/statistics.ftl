@@ -258,3 +258,6 @@ statistics-save-pdf = Enregistrer en PDF
 statistics-saved = Enregistré
 statistics-stats = statistiques
 statistics-title = Statistiques
+statistics-true-retention-total = Nombre total de cartes
+statistics-true-retention-young = Récentes
+statistics-true-retention-mature = Matures
