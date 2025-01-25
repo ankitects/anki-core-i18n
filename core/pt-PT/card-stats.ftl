@@ -35,6 +35,7 @@ card-stats-fsrs-forgetting-curve-first-week = Primeira Semana
 card-stats-fsrs-forgetting-curve-first-month = Primeiro Mês
 card-stats-fsrs-forgetting-curve-first-year = Primeiro Ano
 card-stats-fsrs-forgetting-curve-all-time = Desde Sempre
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Probabilidade de Lembrar
 
 ## Window Titles
 
