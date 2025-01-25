@@ -285,7 +285,7 @@ deck-config-fsrs-tooltip =
     
     FSRS (Free Spaced Repetition Scheduler, „Freier Zeitplaner für verteile Wiederholung“) ist eine Alternative zum klassischem SM‑2 (SuperMemo 2) von Anki. FSRS prognostiziert genauer, wie wahrscheinlich es ist, dass Sie eine Karte zu einem bestimmten Zeitpunkt vergessen, und ermöglicht Ihnen so, bei gleichem Zeitaufwand mehr zu lernen.
 deck-config-desired-retention-tooltip =
-    Mit dem Standardwert von 0,9 legt Anki die Zeitplanung so fest, dass Sie sich an 90 % der Karten erinnern, die zur Wiederholung anstehen.
+    Standardmäßig legt Anki die Zeitplanung so fest, dass Sie sich an 90 % der Karten erinnern, die zur Wiederholung anstehen.
     
     Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger anzeigen, um die Wahrscheinlichkeit zu steigern, dass Sie sich daran erinnern. Reduzieren Sie den Wert, zeigt Anki die Karten seltener, was dazu führt, dass Sie mehr vergessen.
     
