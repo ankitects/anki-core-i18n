@@ -35,6 +35,7 @@ card-stats-fsrs-forgetting-curve-first-week = İlk Hafta
 card-stats-fsrs-forgetting-curve-first-month = İlk Ay
 card-stats-fsrs-forgetting-curve-first-year = İlk Yıl
 card-stats-fsrs-forgetting-curve-all-time = Bütün Zaman
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Hatırlama İhtimali
 
 ## Window Titles
 
