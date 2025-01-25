@@ -1,3 +1,4 @@
+profiles-anki-could-not-read-your-profile = Anki profil verilerini okuyamadı. Pencere büyüklüğü ve senkronize oturum detayları unutuldu.
 profiles-anki-could-not-rename-your-profile = Anki, disk üzerindeki profil klasörünü yeniden adlandıramadığı için profilinizi yeniden adlandıramadı. Lütfen Documents / Anki'ye yazma izninizin olduğundan ve diğer hiçbir programın profil klasörünüze erişemediğinden emin olduktan sonra tekrar deneyin.
 profiles-folder-already-exists = Klasör zaten mevcut.
 profiles-open = Aç
@@ -6,4 +7,9 @@ profiles-please-remove-the-folder-and = Lütfen { $val } klasörünü kaldır ve
 profiles-profiles = Profiller
 profiles-quit = Çık
 profiles-user-1 = Kullanıcı 1
+profiles-confirm-lang-choice = Anki'nin arayüzünü { $lang } dilinde görüntülemek istediğinden emin misin?
+profiles-profile-does-not-exist = İstenilen profil yok.
 profiles-creating-backup = Yedek Oluşturuluyor...
+profiles-backup-created = Yedekleme yaratıldı.
+profiles-backup-creation-failed = Yedekleme yaratımı başarısız: { $reason }
+profiles-backup-unchanged = En sonki yedeklemeden itibaren değişim yok.

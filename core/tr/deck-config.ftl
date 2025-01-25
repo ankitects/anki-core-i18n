@@ -3,6 +3,13 @@
 
 ## Top section
 
+# Used in the deck configuration screen to show how many decks are used
+# by a particular configuration group, eg "Group1 (used by 3 decks)"
+deck-config-used-by-decks =
+    { $decks ->
+        [one] { $decks } destesi tarafından kullanılıyor
+       *[other] { $decks } desteleri tarafından kullanılıyor
+    }
 deck-config-default-name = Varsayılan
 deck-config-title = Deste Seçenekleri
 
@@ -22,6 +29,8 @@ deck-config-tab-description =
     - `Ön ayar`: Sınır, bu ön ayarı kullanan tüm destelerle paylaşılır.
     - `Bu deste`: Sınır, bu desteye özel.
     - `Sadece bugün`: Bu deste için sınırı geçici olarak değiştir.
+deck-config-new-cards-ignore-review-limit = Yeni kartlar revize limitini yok sayar
+deck-config-affects-entire-collection = Tüm koleksiyonu etkiler.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -33,6 +42,8 @@ deck-config-today-only = Sadece bugün
 ## New Cards section
 
 deck-config-learning-steps = Öğrenme adımları
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Aralık süreleri genellikle dakika veya gündür ama saat veya saniye de desteklenir.
 
 ## Lapses section
 

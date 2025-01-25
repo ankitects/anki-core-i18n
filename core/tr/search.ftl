@@ -4,7 +4,9 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
+search-invalid-search = Geçersiz arama:{ $reason }
 search-invalid-flag-2 = `flag:`dan sonra geçerli bir bayrak numarası gelmeli. Örneğin: `1` (kırmızı), `2` (turuncu), `3` (yeşil), `4` (mavi), `5` (pembe), `6` (turkuaz), `7` (mor) veya `0` (bayrak yok).
+search-invalid-other = Lütfen yazı hataları için kontrol edin.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
@@ -21,3 +23,5 @@ search-card-modified = Kart Değiştirildi
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = Tarayıcıda görüntüle
