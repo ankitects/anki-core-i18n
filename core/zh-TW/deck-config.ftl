@@ -211,7 +211,7 @@ deck-config-confirm-remove-name = 要移除「{ $name }」嗎？
 
 deck-config-save-button = 儲存
 deck-config-save-to-all-subdecks = 儲存至所有子牌組
-deck-config-save-and-optimize = 最佳化所有預設組
+deck-config-save-and-optimize = 全部最佳化
 deck-config-revert-button-tooltip = 回復設定為預設值？
 
 ## These strings are shown via the Description button at the bottom of the
@@ -250,10 +250,10 @@ deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。�
 deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-minimum-recommended-retention = 留存機率推薦最小值
-deck-config-optimize-button = 最佳化
+deck-config-optimize-button = 最佳化當前
 deck-config-compute-button = 計算
 deck-config-ignore-before = 複習歷程起始時間
-deck-config-optimize-all-tip = 你可以在「儲存」按鈕旁的下拉式選單中一次最佳化所有預設組。
+deck-config-time-to-optimize = 已長期未最佳化，建議使用「全部最佳化」按鈕。
 deck-config-evaluate-button = 評估
 deck-config-desired-retention = 期望留存機率
 deck-config-historical-retention = 歷史留存機率
@@ -270,7 +270,7 @@ deck-config-fsrs-tooltip =
     FSRS（自由間隔重複排程器）可來取代 Anki 原有的 SuperMemo 2 (SM-2) 排程器。FSRS 預估遺忘時間更為精確，幫你節省時間而又不忘內容。所有牌組預設組共用此設定。
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
-deck-config-desired-retention-tooltip = Anki 會估算你能夠記得卡片內容的機率，即「留存機率」。使用預設值 0.9 時，複習卡會在其留存機率為 90% 時出現。若增加該值，則卡片出現的頻率將增加，從而提高卡片的留存機率。若減少該值，則卡片出現的頻率將減少，留存機率也會下降。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
+deck-config-desired-retention-tooltip = Anki 會估算你能夠記得卡片內容的機率，即「留存機率」。根據預設，複習卡會在留存機率為 90% 時出現。若增加該值，則卡片出現的頻率將增加，從而提高卡片的留存機率。若減少該值，則卡片出現的頻率將減少，留存機率也會下降。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
 deck-config-historical-retention-tooltip =
     如果你的複習歷程有部分遺失，FSRS 需要補齊這些部分。根據預設，FSRS 將假設你在記憶留存機率為 90% 時做出了這些複習。若你先前的留存機率與 90% 相差過多，則可透過調整該選項來使 FSRS 更接近遺失的複習歷程。
     
@@ -293,7 +293,7 @@ deck-config-compute-optimal-weights-tooltip2 =
     按下「最佳化」按鈕後，FSRS 將分析你的複習歷程，並產生對你的記憶和學習內容最佳的參數。如果牌組之間的難度對你差距過大，則建議為各牌組單獨設定預設組，因為難度不同的牌組需要使用不同的參數。參數無需頻繁最佳化，幾個月一次即可。
     
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。在計算參數前，你可以透過調整搜尋條件來更改要用於最佳化參數的卡片。
-deck-config-compute-optimal-retention-tooltip4 = 此工具將嘗試計算出能讓你在最短時間內學習最多內容的期望留存機率。設定期望留存機率時可參考計算結果。若你不在乎多花時間學習，可以透過提高期望留存機率來加強記憶。期望留存機率低於最小值會提高遺忘率，加大工作量，因此不建議設定過低。
+deck-config-compute-optimal-retention-tooltip4 = 此工具將嘗試計算出能讓你在最短時間內學習最多內容的期望留存機率。設定期望留存機率時可參考計算結果。若你不在乎多花時間學習，可以將期望留存機率設定稍高一點來加強記憶。期望留存機率低於最小值會使遺忘率過高，反而導致工作量增加，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-a-100-day-interval =
     { $days ->
@@ -316,12 +316,18 @@ deck-config-days-to-simulate = 模擬天數
 deck-config-desired-retention-below-optimal = 你的期望留存機率低於最佳，建議提高數值。
 deck-config-fsrs-simulator-y-axis-title-time = 每日複習耗時
 deck-config-fsrs-simulator-y-axis-title-count = 每日複習張數
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = 記憶總數
 deck-config-fsrs-simulator-experimental = FSRS 模擬器（實驗性）
 deck-config-additional-new-cards-to-simulate = 模擬新增卡片數量
 deck-config-simulate = 模擬
 deck-config-clear-last-simulate = 清除上一次模擬
 deck-config-fsrs-simulator-radio-count = 複習
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = 記憶
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
@@ -354,3 +360,4 @@ deck-config-compute-optimal-retention-tooltip3 = 這個工具將假設你一開�
 deck-config-seconds-to-show-question-tooltip-2 = 啟用自動前進時，顯示答案前需要等待的秒數。設定為 0 來停用。
 deck-config-invalid-weights = 參數必須設定為 17 個以半形逗號分隔的數字，或留白以使用預設值。
 deck-config-fsrs-on-all-clients = 請確保你的所有用戶端版本都不低於 Anki(Mobile) 23.10 或 AnkiDroid 2.17。若你的用戶端中有部分為較早版本，則 FSRS 將無法正常運作。
+deck-config-optimize-all-tip = 你可以在「儲存」按鈕旁的下拉式選單中一次最佳化所有預設組。
