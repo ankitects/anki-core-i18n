@@ -48,14 +48,14 @@ statistics-in-time-span-years =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    { $unit ->
-        [seconds] Heute { statistics-cards } { statistics-in-time-span-seconds } angesehen ({ $secs-per-card } Sek./Karte)
-        [minutes] Heute { statistics-cards } { statistics-in-time-span-minutes } angesehen ({ $secs-per-card } Sek./Karte)
-        [hours] Heute { statistics-cards } { statistics-in-time-span-hours } angesehen ({ $secs-per-card } Sek./Karte)
-        [days] Heute { statistics-cards } { statistics-in-time-span-days } angesehen ({ $secs-per-card } Sek./Karte)
-        [months] Heute { statistics-cards } { statistics-in-time-span-months } angesehen ({ $secs-per-card } Sek./Karte)
-       *[years] Heute { statistics-cards } { statistics-in-time-span-years } angesehen ({ $secs-per-card } Sek./Karte)
-    }
+    Heute { statistics-cards } { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } gelernt ({ $secs-per-card }s/Karte)
 
 ##
 
@@ -101,14 +101,28 @@ statistics-counts-separate-suspended-buried-cards = Ausgeschlossene und aufgesch
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = Tatsächliche Erinnerungsquote
 statistics-true-retention-subtitle = Erinnerungsquote bei Karten mit einem Intervall von einem Tag oder länger
 statistics-true-retention-range = Bereich
 statistics-true-retention-pass = Erfolge
 statistics-true-retention-fail = Fehl­versuche
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Karten insgesamt
 statistics-true-retention-count = Anzahl
 statistics-true-retention-retention = ­Erinnerungsquote
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Junge Karten
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Alte Karten
 statistics-true-retention-all = Alle
 statistics-true-retention-today = Heute
 statistics-true-retention-yesterday = Gestern
@@ -273,6 +287,3 @@ statistics-save-pdf = Als PDF speichern
 statistics-saved = Gespeichert.
 statistics-stats = Statistik
 statistics-title = Statistik
-statistics-true-retention-total = Karten insgesamt
-statistics-true-retention-young = Junge Karten
-statistics-true-retention-mature = Alte Karten
