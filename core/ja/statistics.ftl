@@ -65,14 +65,28 @@ statistics-counts-separate-suspended-buried-cards = 休止中のカード・今�
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = 実際の正答率
 statistics-true-retention-subtitle = 間隔が1日以上のカードの、これまでの学習での正答率
 statistics-true-retention-range = 範囲
 statistics-true-retention-pass = 回答成功
 statistics-true-retention-fail = 回答失敗
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = 全体
 statistics-true-retention-count = 回答数
 statistics-true-retention-retention = 正答率
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = 復習 [未習熟期]
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = 復習 [習熟期]
 statistics-true-retention-all = すべて
 statistics-true-retention-today = 今日
 statistics-true-retention-yesterday = 昨日
@@ -226,6 +240,3 @@ statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計
 statistics-title = 統計
-statistics-true-retention-total = 合計
-statistics-true-retention-young = 復習 [未習熟期]
-statistics-true-retention-mature = 復習 [習熟期]

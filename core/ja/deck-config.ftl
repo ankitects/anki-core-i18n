@@ -318,7 +318,7 @@ deck-config-compute-minimum-recommended-retention = 有益な目標正答率の�
 deck-config-optimize-button = 最適化
 deck-config-compute-button = 推定
 deck-config-ignore-before = 指定日より前の復習を無視
-deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
+deck-config-time-to-optimize = しばらく最適化が行われていません。「すべてのプリセットで最適化して保存」ボタンを使用することをおすすめします。
 deck-config-evaluate-button = 評価
 deck-config-desired-retention = 目標正答率
 deck-config-historical-retention = 履歴欠落期間の推定正答率
@@ -498,3 +498,4 @@ deck-config-seconds-to-show-question-tooltip-2 =
     この自動表示を無効にするには、値を0に設定してください。
 deck-config-invalid-weights = パラメータの欄には、デフォルト値を使用するために何も入力しないままにするか、コンマ (", ") で区切られた17個の数字を入力する必要があります。
 deck-config-fsrs-on-all-clients = コレクションを他の端末のAnkiと同期している場合は、 それらのAnkiのバージョンがいずれも Anki(Mobile) 23.10 以降または AnkiDroid 2.17 以降であることを確認してください。 FSRSは、それらのいずれかが古いバージョンである場合は正しく動作しません。
+deck-config-optimize-all-tip = （最適化を、このプリセットだけでなく、すべてのプリセットに対して一度に行いたい場合は、画面上部の保存ボタン右側の「∨」ボタン→「すべてのプリセットで最適化して保存」によって実行できます。）
