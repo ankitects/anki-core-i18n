@@ -8,4 +8,4 @@ undo-undo-action = Atsaukt { $val }
 # eg "Answer Card Undone"
 undo-action-undone = { $action } atsaukts
 undo-redo-action = Atcelt atsaukšanu { $action }
-undo-action-redone = { $action } labots
+undo-action-redone = { $action } labošana atsaukta

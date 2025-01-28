@@ -1,6 +1,18 @@
 actions-add = Pievienot
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Visi atlasīti
-actions-any-selected = Daži atlasīti
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-any-selected = Jebkuri atlasīti
 actions-cancel = Atcelt
 actions-choose = Izvēlēties
 actions-close = Aizvērt
@@ -58,10 +70,12 @@ actions-previous-card-info = Iepriekšējās kārts informācija
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Jūsu video draiveris neatbalsta pilnekrāna režīmu. Mēģiniet iestatījumu ekrānā pārslēgties uz citu režīmu.
-
-## Flags
-
 actions-flag-number = Karogs { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Sarkans
 actions-flag-orange = Oranžs
 actions-flag-green = Zaļš
@@ -69,6 +83,9 @@ actions-flag-blue = Zils
 actions-flag-pink = Rozā
 actions-flag-turquoise = Tirkīzs
 actions-flag-purple = Violets
+
+##
+
 actions-set-flag = Iestatīt karogu
 actions-nothing-to-undo = Nav nekas atceļams
 actions-nothing-to-redo = Nav nekas pārstrādājams

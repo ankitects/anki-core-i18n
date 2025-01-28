@@ -90,12 +90,49 @@ deck-config-new-insertion-order-random-with-v3 =
 
 ## Lapses section
 
+deck-config-relearning-steps = Pārapguves soļi
+deck-config-relearning-steps-tooltip =
+    Nulle vai vairāk aizkavju, atdalītas ar atstarpēm. Pēc noklusējuma, nospiežot pogu „No jauna”
+    pārskatīšanas kārtī, tā tiks rādīta atkārtoti pēc 10 minūtēm. Ja aizkaves netiek norādītas,
+    kārtij tiks mainīts intervāls, neievadot to pārapguves režīmā. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Reizes, cik bieži pogu „No jauna” jānospiež pārskatīšanas kārtī, pirms tā tiek atzīmēta
+    kā problēmkārts. Problēmkārts ir tāda, kas prasa daudz jūsu laika, un, kad kartīte
+    tiek atzīmēta kā problēmkārts, ieteicams to pārrakstīt, izdzēst vai izveidot mnemoniku,
+    kas to palīdzēs.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    „Tikai birka”: Pievieno problēmkārtij birku un parāda uznirstošo logu.
+    „Apturēt kārti”: Papildus birkas pievienošanai piezīmei, paslēpj kārti,
+    līdz tā tiek manuāli atjaunota.
 
 ## Burying section
 
+deck-config-bury-title = Paslēpšana
+deck-config-bury-new-siblings = Paslēpt jaunās saistītās kārtis
+deck-config-bury-review-siblings = Paslēpt saistītās pārskatīšanas kārtis
+deck-config-bury-interday-learning-siblings = Paslēpt starpdienu mācīšanās kārtis
+deck-config-bury-new-tooltip =
+    Vai citas „jaunās” kārtis no tās pašas piezīmes (piem., apgrieztās kārts, blakus
+    esošās „cloze” dzēšanas) tiks atliktas līdz nākamajai dienai.
+deck-config-bury-review-tooltip = Vai citas „pārskatīšanas” kārtis no tās pašas piezīmes tiks atliktas līdz nākamajai dienai.
+deck-config-bury-interday-learning-tooltip = Vai citas „mācīšanās” kārtis no tās pašas piezīmes ar intervāliem > 1 dienu tiks atliktas līdz nākamajai dienai.
+deck-config-bury-priority-tooltip =
+    Kad Anki vāc kārtis, tas vispirms savāc iekšdienu mācīšanās kārtis, pēc tam
+    starpdienu mācīšanās kārtis, pēc tam pārskatīšanas kārtis un visbeidzot jaunās kārtis.
+    Tas ietekmē, kā kāršu paslēpšana darbojas:
+    
+    - Ja visi paslēpšanas iestatījumi ir ieslēgti, vispirms tiks rādīta tā saistītā kārts, kas ir 
+    saraksta sākumā. Piemēram, pārskatīšanas kārts tiks rādīta pirms jaunās kārts.
+    - Saistītās kārtis, kas atrodas tālāk sarakstā, nevar paslēpt vecākus kāršu veidus.
+    Piemēram, ja izslēdz paslēpšanu jaunajām kārtīm un to mācies, tā neslēps nekādas
+    starpdienu mācīšanās vai pārskatīšanas kārtis, un tu vari redzēt gan pārskatīšanas,
+    gan jauno saistīto kārti tajā pašā sesijā.
 
 ## Ordering section
 
+deck-config-ordering-title = Attēlošanas secība
+deck-config-new-gather-priority = Jauno kāršu vākšanas secība
 
 ## Timer section
 

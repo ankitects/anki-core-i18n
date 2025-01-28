@@ -38,6 +38,7 @@ card-templates-card = Kārts { $val }
 card-templates-card-types-for = Kārts veids { $val }
 card-templates-cloze = Cloze { $val }
 card-templates-deck-override = Kavas pārrakstīšana...
+card-templates-copy-info = Kopēt informāciju uz starpliktuvi
 card-templates-delete-the-as-card-type-and = Vai dzēst „{ $template }” kārts tipu, un tā { $cards }?
 card-templates-enter-deck-to-place-new = Ievadiet kavu, kurā ievietot { $val } jaunu(as) kārtis, vai atstājiet to tukšu.
 card-templates-enter-new-card-position-1 = Ievadiet jaunu kārts pozīciju (1...{ $val }):
