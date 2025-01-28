@@ -21,7 +21,7 @@ decks-new-deck-name = Namn på ny kortlek:
 decks-no-deck = [ingen kortlek]
 decks-oldest-seen-first = Äldsta sedda först
 decks-order-added = Ordnade efter tilläggsdatum
-decks-order-due = Ordnade efter nästa repetition
+decks-order-due = Ordnade efter förfallodatum
 decks-please-select-something = Du måste välja någonting.
 decks-random = Slumpmässigt
 decks-repeat-failed-cards-after = Repetera felsvarade kort efter
@@ -34,10 +34,10 @@ decks-filtered-deck-search-empty = Inga kort matchade den tillhandahållna sökn
 decks-unmovable-cards = Visa exkluderade kort
 decks-learn-header = Att lära
 # The count of cards waiting to be reviewed
-decks-review-header = Aktuella
+decks-review-header = Förfallna
 decks-zero-minutes-hint = (0 = återvänd kort till ursprunglig kortlek)
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
-decks-relative-overdueness = Relativ förfallenhet
+decks-relative-overdueness = Relativ försening

@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Byt kortlek
 browsing-change-deck2 = Byt kortlek...
 browsing-change-note-type = Ändra nottyp
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Ändra nottyp...
 browsing-change-notetype = Ändra nottyp
 browsing-clear-unused-tags = Rensa oanvända etiketter
@@ -151,9 +152,9 @@ browsing-again-today = Igen idag
 browsing-edited-today = Redigerade
 browsing-sidebar-first-review = Första repetitionen
 browsing-sidebar-rescheduled = Schemalagd igen
-browsing-sidebar-due-today = Aktuella
+browsing-sidebar-due-today = Förfaller idag
 browsing-sidebar-untagged = Utan etikett
-browsing-sidebar-overdue = Förfallna
+browsing-sidebar-overdue = Försenade
 browsing-row-deleted = (borttagen)
 browsing-removed-unused-tags-count =
     { $count ->

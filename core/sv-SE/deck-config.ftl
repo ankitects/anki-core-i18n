@@ -75,9 +75,9 @@ deck-config-easy-interval-tooltip =
     använts för att direkt befordra ett kort från inlärning.
 deck-config-new-insertion-order = Insättningsordning
 deck-config-new-insertion-order-tooltip =
-    Styr positionen (aktuellnr) nya kort tilldelas när de läggs till.
-    Kort med ett lägre aktuellnummer kommer visas först när du studerar. När denna
-    inställning ändras kommer positionen hos nya kort automatiskt att uppdateras.
+    Styr positionen (förfallonr) nya kort tilldelas när de läggs till.
+    När du studerar kommer kort med ett lägre förfallonummer att visas först. När denna
+    inställning ändras uppdateras positionen hos nya kort automatiskt.
 deck-config-new-insertion-order-sequential = Sekventiell (äldsta kort först)
 deck-config-new-insertion-order-random = Slumpmässigt
 deck-config-new-insertion-order-random-with-v3 =
@@ -116,17 +116,12 @@ deck-config-bury-interday-learning-tooltip =
     Huruvida andra inlärningskort tillhörande samma not med intervaller > 1 dag
     bör uppskjutas tills dagen efter.
 deck-config-bury-priority-tooltip =
-    När Anki samlar kort, samlar den först endagslöpande inlärningskort, sedan
-    flerdagslöpande inlärningskort, sedan repetitionskort och till sist nya kort. Detta påverkar
-    hur döljande fungerar:
+    Anki samlar kort i ordningen endagslöpande inlärningskort, flerdagslöpande inlärningskort, repetitionskort och slutligen nya kort. Detta påverkar hur döljande fungerar:
     
-    - Om alla döljningsalternativ är aktiva, kommer syskonet tidigast i
-    listan att visas. Exempelvis kommer ett repetitionskort att visas före
+    - Om alla döljningsalternativ är aktiva visas syskonet tidigast i
+    listan. Exempelvis kommer ett repetitionskort att visas före
     ett nytt kort.
-    - Syskon senare i listan kan inte dölja tidigare korttyper. Till exempel, om
-    döljande av nya kort inaktiveras, och ett nytt kort studeras, kommer inga flerdagslöpande
-    inlärnings- eller repetitionskort att döljas, och både ett repetitionssyskon och ett nytt syskon
-    kan visas under samma session.
+    - Syskon senare i listan kan inte dölja tidigare korttyper. Exempelvis kommer inga repetitionskort eller flerdagslöpande inlärningskort att döljas om du inaktiverar döljande av nya kort och studerar ett nytt kort, alltså kan både ett syskon som är ett repetitionskort och ett syskon som är ett nytt kort visas under samma session.
 
 ## Ordering section
 
@@ -138,11 +133,14 @@ deck-config-new-gather-priority-tooltip-2 =
     sluta innan alla underkortlekar har genomgåtts. Denna ordning är snabbast i stora samlingar, och
     tillåter prioritering av underkortlekar som är närmre toppen.
     
-    `Ökande position`: Samlar kort med ökande position (aktuell #), vilket typiskt sett
+    `Ökande position`: Samlar kort med ökande position (förfallonr), vilket typiskt sett
     är de äldst tillagda först.
-    `Minskande position`: Samlar kort med minskande position (aktuell #), vilket typiskt sett
+    
+    `Minskande position`: Samlar kort med minskande position (förfallonr), vilket typiskt sett
     är de senast tillagda först.
-    `Slumpade noter`: Väljer not slumpmässigt, och samlar sedan alla dess kort.
+    
+    `Slumpade noter`: Väljer noter slumpmässigt, och samlar sedan alla deras respektive kort.
+    
     `Slumpade kort`: Samlar kort i en slumpmässig ordning.
 deck-config-new-gather-priority-deck = Kortlek
 deck-config-new-gather-priority-deck-then-random-notes = Kortlek sedan slumpmässiga noter
@@ -152,16 +150,16 @@ deck-config-new-gather-priority-random-notes = Slumpmässiga noter
 deck-config-new-gather-priority-random-cards = Slumpmässiga kort
 deck-config-new-card-sort-order = Sorteringsordning för nya kort
 deck-config-new-card-sort-order-tooltip-2 =
-    `Korttyp, sedan ordning samlad`: Visar kort i ordning av korttypstal.
-    Kort för respektive korttypstal visas i ordningen de samlades.
-    Om syskondöljande är inaktiverat kommer detta att försäkra att alla framsida→baksida-kort kommer visas före några baksida→framsida-kort.
-    Detta är användbart för att visa alla kort tillhörande en not i samma session, men inte
-    för nära varandra.
+    `Korttyp, sedan ordning samlad`: Visar kort i ordning av korttypsnummer.
+    Korten för respektive korttypsnummer visas i ordningen de samlades.
+    Om syskondöljande är inaktiverat kommer detta att försäkra att alla framsida→baksida-kort visas före några baksida→framsida-kort.
+    Detta är användbart för att alla kort som tillhör en not visas i samma session, men inte
+    för nära inpå varandra.
     
     `Ordning samlad`: Visar kort exakt som de samlades. Om syskondöljande är inaktiverat
     kommer detta typiskt sett resultera i att alla kort för en not visas en efter en.
     
-    `Korttyp, sedan slumpad`: Visar kort i ordning av korttypstal. Kort för respektive korttypstal
+    `Korttyp, sedan slumpad`: Visar kort i ordning av korttypsnummer. Korten för respektive korttypsnummer
     visas i en slumpad ordning. Detta är användbart för att syskonkort inte ska visas för tätt inpå varandra, men att korten fortfarande visas i slumpmässig ordning.
     
     `Slumpad not, sedan korttyp`: Väljer slumpmässigt not, och visar sedan alla dess kort i ordning.
@@ -211,12 +209,12 @@ deck-config-display-order-will-use-current-deck =
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Max antal sekunder för svar
 deck-config-maximum-answer-secs-tooltip =
-    Det maximala antalet sekunder att räkna för en repetition. Om ett svar
+    Det maximala antalet sekunder som räknas för en repetition. Om ett svar
     överstiger denna tid (exempelvis för att skärmen lämnades en stund),
     kommer den åtgångna tiden att räknas som den satta gränsen.
 deck-config-show-answer-timer-tooltip =
-    På repetitionsskärmen, visa ett tidur som räknar antalet sekunder som
-    tagits att repetera ett kort.
+    Visa ett tidur på repetitionsskärmen som räknar antalet sekunder som
+    åtgått för att repetera kortet.
 deck-config-stop-timer-on-answer = Pausa timer medan svar skrivs
 deck-config-stop-timer-on-answer-tooltip =
     Huruvida tiduret bör stannas när svaret avslöjas.
@@ -243,7 +241,7 @@ deck-config-disable-autoplay = Spela inte ljud automatiskt
 deck-config-disable-autoplay-tooltip =
     När aktiverad kommer Anki inte spela ljud automatiskt.
     Det kan fortfarande spelas manuellt genom att trycka på ljudikonen eller använda åtgärden Spela upp ljud igen.
-deck-config-skip-question-when-replaying = Skippa fråga när svar spelas upp igen
+deck-config-skip-question-when-replaying = Hoppa över fråga när svar spelas upp igen
 deck-config-always-include-question-audio-tooltip =
     Huruvida frågans ljud bör inkluderas när Spela upp ljud igen-åtgärden
     används medan svarssidan av kortet åskådas.
@@ -253,7 +251,7 @@ deck-config-always-include-question-audio-tooltip =
 deck-config-advanced-title = Avancerat
 deck-config-maximum-interval-tooltip =
     Det maximala antalet dagar ett repetitionskort kan vänta. När repetitioner
-    har nått gränsen kommer `Svår`, `Bra` och `Lätt` alla ge samma frist.
+    har uppnått gränsen kommer `Svår`, `Bra` och `Lätt` alla ge samma frist.
     Ju kortare detta är satt till, desto större kommer arbetsbelastningen att vara.
 deck-config-starting-ease-tooltip =
     Lätthetsfaktorn nya kort börjar med. Som standard kommer `Bra`-knappen på ett
@@ -405,8 +403,8 @@ deck-config-reschedule-cards-on-change-tooltip =
     det kommer inte vara någon omedelbar förändring i arbetsbelastningen. Om schemaläggning igen är aktiverat kommer förfallodatumen
     för kort att förändras.
 deck-config-reschedule-cards-warning =
-    Beroende på den önskade återkallningskvoten kan detta resultera i att ett stort antal kort
-    blir aktuella, så detta rekommenderas ej vid det inledande bytet från SM-2.
+    Rekommenderas ej vid det inledande bytet från SM-2 eftersom detta, beroende på den önskade
+    återkallningskvoten, kan resultera i att ett stort antal kort förfaller.
     
     Använd detta alternativ förbehållsamt, då det kommer lägga till en repetitionspost för varje kort
     och därmed öka storleken på samlingen.

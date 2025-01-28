@@ -17,8 +17,8 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] Hittade { $count } nytt kort med ett förfallotal >= 1 000 000 - överväg att ompositionera det i Bläddra-skärmen.
-       *[other] Hittade { $count } nya kort med ett förfallotal >= 1 000 000 - överväg att ompositionera dem i Bläddra-skärmen.
+        [one] Hittade { $count } nytt kort med ett förfallonummer >= 1 000 000 - överväg att ompositionera det i Bläddra-skärmen.
+       *[other] Hittade { $count } nya kort med ett förfallonummer >= 1 000 000 - överväg att ompositionera dem i Bläddra-skärmen.
     }
 database-check-card-missing-note =
     { $count ->

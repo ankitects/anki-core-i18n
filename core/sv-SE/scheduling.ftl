@@ -69,8 +69,8 @@ scheduling-next-learn-due =
     }
 scheduling-learn-remaining =
     { $remaining ->
-        [one] Det finns ett återstående inlärningskort aktuellt senare idag.
-       *[other] Det finns { $remaining } återstående inlärningskort aktuella senare idag.
+        [one] Det finns ett återstående inlärningskort som förfaller senare idag.
+       *[other] Det finns { $remaining } återstående inlärningskort som förfaller senare idag.
     }
 scheduling-congratulations-finished = Grattis! Du är klar med den här kortleken för idag.
 scheduling-today-review-limit-reached =
@@ -169,8 +169,8 @@ scheduling-set-due-date-prompt-hint =
     3-7 = slumpat val av 3-7 dagar
 scheduling-set-due-date-done =
     { $cards ->
-        [one] Sätt förfallodatum för { $cards } kort.
-       *[other] Sätt förfallodatum för { $cards } kort.
+        [one] Satte förfallodatum för { $cards } kort.
+       *[other] Satte förfallodatum för { $cards } kort.
     }
 scheduling-forgot-cards =
     { $cards ->

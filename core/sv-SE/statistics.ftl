@@ -1,9 +1,9 @@
 # The date a card will be ready to review
-statistics-due-date = Aktuell
+statistics-due-date = Förfaller
 # The count of cards waiting to be reviewed
-statistics-due-count = Aktuella
+statistics-due-count = Förfallna
 # Shown in the Due column of the Browse screen when the card is a new card
-statistics-due-for-new-card = Ny #{ $number }
+statistics-due-for-new-card = Ny nr { $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
@@ -43,6 +43,22 @@ statistics-in-time-span-years =
         [one] på { $amount } år
        *[other] på { $amount } år
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Studerade { statistics-cards } { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } idag ({ $secs-per-card }s/kort)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } kort
@@ -59,20 +75,10 @@ statistics-reviews =
         [one] { $reviews } repetition
        *[other] { $reviews } repetitioner
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } memorerade
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Studerade { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } idag ({ $secs-per-card }s/kort)
 statistics-today-title = Idag
 statistics-today-again-count = Felaktiga svar:
 statistics-today-type-counts = Att lära: { $learnCount }, Repetera: { $reviewCount }, Att lära om: { $relearnCount }, Filtrerade: { $filteredCount }
@@ -90,13 +96,33 @@ statistics-counts-learning-cards = Nya
 statistics-counts-relearning-cards = Lär om
 statistics-counts-title = Antal kort
 statistics-counts-separate-suspended-buried-cards = Separera låsta/dolda kort
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = Äkta återkallningskvot
 statistics-true-retention-subtitle = Andel klarade med ett intervall ≥ 1 dag.
 statistics-true-retention-range = Spann
 statistics-true-retention-pass = Klarade
 statistics-true-retention-fail = Misslyckade
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Totalt antal kort
 statistics-true-retention-count = Antal
 statistics-true-retention-retention = Återkallningskvot
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Unga
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Mogna
 statistics-true-retention-all = Alla
 statistics-true-retention-today = Idag
 statistics-true-retention-yesterday = Igår
@@ -104,7 +130,12 @@ statistics-true-retention-week = Senaste veckan
 statistics-true-retention-month = Senaste månaden
 statistics-true-retention-year = Senaste året
 statistics-true-retention-all-time = Kortlekens livstid
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
 statistics-true-retention-not-applicable = N/A
+
+##
+
 statistics-range-all-time = Kortlekens livstid
 statistics-range-1-year-history = senaste 12 månader
 statistics-range-all-history = livstid
@@ -137,7 +168,7 @@ statistics-retrievability-tooltip =
        *[other] { $cards } kort med { $percent } i återkallningsgrad
     }
 statistics-future-due-title = Prognos
-statistics-future-due-subtitle = Hur många repetitioner som du måste göra senare.
+statistics-future-due-subtitle = Antal framtida repetitioner.
 statistics-added-title = Tillagda
 statistics-added-subtitle = Antalet nya kort du lagt till.
 statistics-reviews-count-subtitle = Antalet repetitioner du gjort.
@@ -168,8 +199,8 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } dagar sedan
 statistics-running-total = Löpande summa
 statistics-cards-due =
     { $cards ->
-        [one] { $cards } kort aktuellt
-       *[other] { $cards } kort aktuella
+        [one] { $cards } kort förfallet
+       *[other] { $cards } kort förfallna
     }
 statistics-backlog-checkbox = Eftersläpning
 statistics-intervals-title = Intervaller
@@ -228,7 +259,7 @@ statistics-days-studied = Dagar med studier
 statistics-average-answer-time-label = Genomsnittlig svarstid
 statistics-average = Genomsnitt
 statistics-average-interval = Genomsnittligt intervall
-statistics-due-tomorrow = Schemalagda imorgon
+statistics-due-tomorrow = Förfaller imorgon
 statistics-daily-load = Daglig belastning
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } av { $total } ({ $percent }%)
@@ -256,6 +287,3 @@ statistics-save-pdf = Spara PDF
 statistics-saved = Sparad.
 statistics-stats = statistik
 statistics-title = Statistik
-statistics-true-retention-total = Totalt antal kort
-statistics-true-retention-young = Unga
-statistics-true-retention-mature = Mogna
