@@ -84,6 +84,9 @@ deck-config-new-insertion-order-tooltip =
     Mainot šo iespēju, automātiski tiks atjaunināta esošā jaunās kārts pozīcija.
 deck-config-new-insertion-order-sequential = Pēc kārtas (vecākais vispirms)
 deck-config-new-insertion-order-random = Pēc nejaušības
+deck-config-new-insertion-order-random-with-v3 =
+    Ar v3 grafika veidotāju labāk ir atstāt šo iestatījumu uz „Pēc kārtas”
+    un pielāgot jaunās kārts apkopojuma secību.
 
 ## Lapses section
 
