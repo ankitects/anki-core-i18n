@@ -133,6 +133,23 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = Attēlošanas secība
 deck-config-new-gather-priority = Jauno kāršu vākšanas secība
+deck-config-new-gather-priority-tooltip-2 =
+    „Kārts”: vāc kārtis no katras apakškavas secībā, sākot no augšas. Kārtis no katras apakškavas tiek
+    vāktas augošā secībā. Ja tiek sasniegts izvēlētās kavas dienas limits, vākšana var tikt pārtraukta pirms
+    visas apakškavas ir pārbaudītas. Šī secība ir ātrāka lielās kolekcijās un ļauj prioritizēt apakškavas, 
+    kas atrodas tuvāk augšai.
+    
+    „Augošā secība”: vāc kārtis pēc augošas secības (līdz #), kas parasti nozīmē, ka vispirms tiek rādītas tās,
+    kas tika pievienotas pirmās.
+    
+    „Dilstošā secība”: vāc kārtis pēc dilstošas secības (līdz #), kas parasti nozīmē, ka vispirms tiek rādītas tās,
+    kas tika pievienotas pēdējās.
+    
+    „Nejaušās piezīmes”: izvēlas piezīmes nejauši, pēc tam savāc visas tās kārtis.
+    
+    „Nejaušās kārtis”: vāc kārtis nejaušā secībā.
+deck-config-new-gather-priority-deck = Kava
+deck-config-new-gather-priority-deck-then-random-notes = Kava, pēc tam nejaušas piezīmes
 
 ## Timer section
 
