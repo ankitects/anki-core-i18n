@@ -55,6 +55,23 @@ statistics-in-time-span-years =
         [many] תוך { $amount } שנים
        *[other] תוך { $amount } שנים
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    נלמדו { statistics-cards }
+    { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } היום
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } כרטיס
@@ -76,20 +93,10 @@ statistics-reviews =
         [many] { $reviews } חזרות
        *[other] { $reviews } חזרות
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    נלמדו { statistics-cards }
-    { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } היום
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } ניתנים לשינון
 statistics-today-title = היום
 statistics-today-again-count = מנין השגיאות:
 statistics-today-type-counts = לימוד:{ $learnCount }, חזרות: { $reviewCount }, לימוד מחדש: { $relearnCount }, מסוננים: { $filteredCount }
@@ -107,18 +114,46 @@ statistics-counts-learning-cards = נלמדים
 statistics-counts-relearning-cards = נלמדים מחדש
 statistics-counts-title = מניין הכרטיסים
 statistics-counts-separate-suspended-buried-cards = הצג בנפרד כרטיסים מושהים ומוטמנים.
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = שימור אמיתי
 statistics-true-retention-subtitle = שיעור מעבר של כרטיסים עם מרווח של ≥ 1 יום.
 statistics-true-retention-range = טווח
 statistics-true-retention-pass = עבר
 statistics-true-retention-fail = נכשל
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = סך-הכל כרטיסים
+statistics-true-retention-count = כמות
 statistics-true-retention-retention = שימור
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = צעירים
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = בוגרים
+statistics-true-retention-all = הכל
 statistics-true-retention-today = היום
 statistics-true-retention-yesterday = אתמול
 statistics-true-retention-week = שבוע אחרון
 statistics-true-retention-month = חודש אחרון
 statistics-true-retention-year = שנה אחרונה
 statistics-true-retention-all-time = כל הזמן
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = אין
+
+##
+
 statistics-range-all-time = משך חיי חפיסה
 statistics-range-1-year-history = בשנה האחרונה
 statistics-range-all-history = מאז ומתמיד
@@ -270,6 +305,3 @@ statistics-save-pdf = שמור כ-PDF
 statistics-saved = נשמר.
 statistics-stats = סטטיסטיקה
 statistics-title = סטטיסטיקה
-statistics-true-retention-total = סך-הכל כרטיסים
-statistics-true-retention-young = צעירים
-statistics-true-retention-mature = בוגרים

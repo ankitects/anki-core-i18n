@@ -37,6 +37,7 @@ card-templates-card = { $val } כרטיסים
 card-templates-card-types-for = סוגי כרטיסים עבור { $val }
 card-templates-cloze = השלם את החסר { $val }
 card-templates-deck-override = שכתוב חפיסה...
+card-templates-copy-info = העתק מידע ללוח
 card-templates-delete-the-as-card-type-and = מחק את סוג כרטיס '{ $template }' ואת { $cards } שלו?
 card-templates-enter-deck-to-place-new = הקלד חפיסה להכניס { $val } כרטיסים חדשים לתוכה, או השאר ריק:
 card-templates-enter-new-card-position-1 = הכנס מיקום כרטיס חדש (1...{ $val }):

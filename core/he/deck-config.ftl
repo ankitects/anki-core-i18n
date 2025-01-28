@@ -353,7 +353,7 @@ deck-config-compute-minimum-recommended-retention = שמירה מינימלית 
 deck-config-optimize-button = בצע אופטימיזציה
 deck-config-compute-button = חשב
 deck-config-ignore-before = התעלם מחזרות לפני
-deck-config-optimize-all-tip = אתה יכול לבצע אופטימיזציה של כל ההעדפות המוגדרות מראש בבת אחת על ידי שימוש בכפתור שבחלק העליון.
+deck-config-time-to-optimize = עבר זמן מה - מומלץ להשתמש בכפתור אופטימיזציה של הכל.
 deck-config-evaluate-button = הערכה
 deck-config-desired-retention = שימור רצוי
 deck-config-historical-retention = שימור היסטורי
@@ -417,6 +417,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = שפר הגדרות מראש { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = תחילה יש להפעיל את FSRS.
 deck-config-fsrs-params-optimal = נראה כי פרמטרי FSRS כרגע הם אופטימליים.
+deck-config-fsrs-params-no-reviews = לא נמצאו חזרות. אנא בדוק שהגדרה מראש זו מוקצית לכל החפיסות שברצונך לבצע אופטימיזציה (כולל חפיסות משנה) ונסה שוב.
 deck-config-wait-for-audio = המתן לשמע
 deck-config-show-reminder = הצג תזכורת
 deck-config-answer-again = ענה שוב
@@ -424,6 +425,21 @@ deck-config-answer-hard = תשובה קשה
 deck-config-answer-good = תשובה טובה
 deck-config-days-to-simulate = ימים לסימולציה
 deck-config-desired-retention-below-optimal = השמירה הרצויה שלך נמוכה מהאופטימלית. מומלץ להגדיל אותה.
+deck-config-fsrs-simulator-y-axis-title-time = שעת/יום חזרה
+deck-config-fsrs-simulator-y-axis-title-count = כמות/יום חזרה
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-y-axis-title-memorized = סך הכל שינון
+deck-config-fsrs-simulator-experimental = סימולטור FSRS (ניסיוני)
+deck-config-additional-new-cards-to-simulate = כרטיסים חדשים נוספים לסימולטור
+deck-config-simulate = צור סימולציה
+deck-config-clear-last-simulate = נקה סימולציה אחרונה
+deck-config-fsrs-simulator-radio-count = חזרות
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = ניתן לשינון
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -487,3 +503,4 @@ deck-config-invalid-weights = משקלים חייבים להיות ריקים כ
 deck-config-fsrs-on-all-clients =
     אנא ודא שכל גרסאות Anki בכל המכשירים שלך הם Anki(Mobile) 23.10+ או AnkiDroid 2.17+. 
     FSRS לא יעבוד כראוי אם באחד מהמכשירים שלך אתה משתמש בAnki מתחת לגרסאות אלו.
+deck-config-optimize-all-tip = אתה יכול לבצע אופטימיזציה של כל ההעדפות המוגדרות מראש בבת אחת על ידי שימוש בכפתור שבחלק העליון.
