@@ -353,7 +353,7 @@ deck-config-compute-minimum-recommended-retention = Ritenzione minima consigliat
 deck-config-optimize-button = Ottimizza
 deck-config-compute-button = Calcola
 deck-config-ignore-before = Escludi le carte studiate prima di
-deck-config-optimize-all-tip = Ottimizza tutte le preimpostazioni contemporaneamente dal menù a tendina vicino a "Salva".
+deck-config-time-to-optimize = È passato diverso tempo dall'ultima ottimizzazione – è consigliato usare il pulsante "Ottimizza tutto".
 deck-config-evaluate-button = Valuta
 deck-config-desired-retention = Ritenzione desiderata
 deck-config-historical-retention = Ritenzione storica
@@ -451,12 +451,18 @@ deck-config-days-to-simulate = Giorni da simulare
 deck-config-desired-retention-below-optimal = La ritenzione desiderata attualmente impostata è inferiore a quella ottimale. È consigliato aumentarla.
 deck-config-fsrs-simulator-y-axis-title-time = Durata ripetizioni/giorno
 deck-config-fsrs-simulator-y-axis-title-count = Numero ripetizioni/giorno
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = N° carte memorizzate
 deck-config-fsrs-simulator-experimental = Simulatore FSRS (sperimentale)
 deck-config-additional-new-cards-to-simulate = Ulteriori nuove carte da simulare
 deck-config-simulate = Simula
 deck-config-clear-last-simulate = Rimuovi ultima simulazione
 deck-config-fsrs-simulator-radio-count = Ripetizioni
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorizzate
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
@@ -525,3 +531,4 @@ deck-config-invalid-weights = I parametri devono essere lasciati vuoti per utili
 deck-config-fsrs-on-all-clients =
     Assicurarsi che tutte le versioni di Anki siano Anki(Mobile) 23.10+ o AnkiDroid 2.17+. 
     FSRS non funzionerà correttamente se una delle versioni utilizzate è più vecchia.
+deck-config-optimize-all-tip = Ottimizza tutte le preimpostazioni contemporaneamente dal menù a tendina vicino a "Salva".
