@@ -327,7 +327,7 @@ deck-config-confirm-remove-name = Прибрати { $name }?
 
 deck-config-save-button = Зберегти
 deck-config-save-to-all-subdecks = Зберегти до усіх підколод
-deck-config-save-and-optimize = оптимізувати усі конфігурації
+deck-config-save-and-optimize = Оптимізувати усе
 deck-config-revert-button-tooltip = Повернути цей параметр до стандартного значення.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -381,7 +381,7 @@ deck-config-compute-minimum-recommended-retention = Найменша реком�
 deck-config-optimize-button = Оптимізувати
 deck-config-compute-button = Обчислити
 deck-config-ignore-before = Ігнорувати попередні пригадування
-deck-config-optimize-all-tip = Ви можете оптимізувати всі конфігурації одночасно за допомогою спадної кнопки біля "Зберегти".
+deck-config-time-to-optimize = Це було так давно - варто натиснути кнопку "Оптимізувати усе".
 deck-config-evaluate-button = Оцінити
 deck-config-desired-retention = Бажана затримка
 deck-config-historical-retention = Історична затримка
@@ -480,12 +480,18 @@ deck-config-days-to-simulate = Кількість днів для симуляц
 deck-config-desired-retention-below-optimal = Обране значення затримка є меншим за оптимальне. Варто її збільшити.
 deck-config-fsrs-simulator-y-axis-title-time = Пригадування Час/День
 deck-config-fsrs-simulator-y-axis-title-count = Пригадування Кількість/День
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = Всього запам'ятовано
 deck-config-fsrs-simulator-experimental = Симулятор ВПІП (експериментальний)
 deck-config-additional-new-cards-to-simulate = Додаткові нові картки для симуляції
 deck-config-simulate = Симулювати
 deck-config-clear-last-simulate = Очистити останню симуляцію
 deck-config-fsrs-simulator-radio-count = Пригадування
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = Запам'ятовано
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
@@ -551,3 +557,4 @@ deck-config-invalid-weights = Параметри повинні бути пор�
 deck-config-fsrs-on-all-clients =
     Будь ласка, переконайтеся, що всі Ваші Anki клієнти мають версію Anki(Mobile) 23.10+ або AnkiDroid 2.17+.
     Вільний планувальник РП не працюватиме правильно, якщо у Вас є старіші версії.
+deck-config-optimize-all-tip = Ви можете оптимізувати всі конфігурації одночасно за допомогою спадної кнопки біля "Зберегти".
