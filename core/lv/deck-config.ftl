@@ -150,6 +150,11 @@ deck-config-new-gather-priority-tooltip-2 =
     „Nejaušās kārtis”: vāc kārtis nejaušā secībā.
 deck-config-new-gather-priority-deck = Kava
 deck-config-new-gather-priority-deck-then-random-notes = Kava, pēc tam nejaušas piezīmes
+deck-config-new-gather-priority-position-lowest-first = Augoša pozīcija
+deck-config-new-gather-priority-position-highest-first = Dilstoša pozīcija
+deck-config-new-gather-priority-random-notes = Nejaušas piezīmes
+deck-config-new-gather-priority-random-cards = Nejaušas kārtis
+deck-config-new-card-sort-order = Jauna kāršu šķirošanas secība
 
 ## Timer section
 
