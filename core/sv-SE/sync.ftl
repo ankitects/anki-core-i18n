@@ -7,7 +7,7 @@ sync-media-added-count = Tillagt: { $up }↑ { $down }↓
 sync-media-removed-count = Tog bort: { $up }↑ { $down }↓
 sync-media-checked-count = Kontrollerade: { $count }
 sync-media-starting = Mediasynkronisering startar...
-sync-media-complete = Mediasynkronisering fullbordad.
+sync-media-complete = Mediasynkronisering slutförd.
 sync-media-failed = Mediasynkronisering misslyckades.
 sync-media-aborting = Mediasynkronisering avbryts...
 sync-media-aborted = Mediasynkronisering avbruten.
@@ -21,10 +21,10 @@ sync-media-log-title = Mediasynkroniseringslogg
 
 sync-conflict = Endast en Anki-instans kan synkronisera till ett konto samtidigt. Var god vänta ett par minuter och försök igen.
 sync-server-error = AnkiWeb har stött på ett problem. Var god försök igen om ett par minuter.
-sync-client-too-old = Anki-versionen är för gammal. Var god uppdatera till den senaste versionen för att fortsätta synkroniseringen.
+sync-client-too-old = Den aktuella Anki-versionen är utdaterad. Var god uppdatera till den senaste versionen för att fortsätta synkroniseringen.
 sync-wrong-pass = ID:t eller lösenordet för AnkiWeb var felaktigt; var god försök igen.
 sync-resync-required = Vad god synkronisera igen. Om detta meddelande fortsätter att uppstå, var god skapa ett ärende på supportwebbplatsen.
-sync-must-wait-for-end = Anki synkroniserar för närvarande. Var god vänta på att synkroniseringen fullbordas, och försök sedan igen.
+sync-must-wait-for-end = Anki synkroniserar för närvarande. Var god vänta på att synkroniseringen slutförs, och försök sedan igen.
 sync-confirm-empty-download = Den lokala samlingen har inga kort. Vill du ladda ned från AnkiWeb?
 sync-confirm-empty-upload = AnkiWeb-samlingen har inga kort. Ersätt den med lokal samling?
 sync-conflict-explanation =
@@ -56,7 +56,7 @@ sync-upload-too-large =
 sync-sign-in = Logga in
 sync-ankihub-dialog-heading = AnkiHub-inloggning
 sync-ankihub-username-label = Användarnamn eller E-post:
-sync-ankihub-login-failed = Misslyckades att logga in till AnkiHub med de tillhandahållna inloggningsuppgifterna.
+sync-ankihub-login-failed = Det gick inte att logga in till AnkiHub med de tillhandahållna inloggningsuppgifterna.
 sync-ankihub-addon-installation = Installation av AnkiHub-tillägg
 
 ## Buttons
@@ -77,4 +77,4 @@ sync-connecting = Ansluter...
 sync-added-updated-count = Tillagd/ändrad: { $up }↑ { $down }↓
 sync-log-in-button = Logga in
 sync-log-out-button = Logga ut
-sync-collection-complete = Samlingssynkronisering fullbordad.
+sync-collection-complete = Samlingssynkronisering slutförd.

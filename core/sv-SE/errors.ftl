@@ -2,9 +2,9 @@ errors-parse-number-fail = Ett tal var ogiltigt eller utanför tillåtet interva
 errors-filtered-parent-deck = Filtrerade kortlekar kan inte ha underkortlekar.
 errors-filtered-deck-required = Denna handling kan bara utföras på en filtrerad kortlek.
 errors-100-tags-max =
-    Maximalt 100 etiketter kan väljas. Att lista de önskade etiketter
-    istället för de oönskade är i regel enklare, och det
-    finns inget behov att välja underetiketter om en föräldraetikett har valts.
+    Maximalt 100 etiketter kan väljas. Det är i regel enklare att välja
+    de önskade etiketterna istället för de oönskade, och underordnade etiketter
+    behöver inte väljas om en överordnad etikett har valts.
 errors-multiple-notetypes-selected = Vänligen välj noter av endast en nottyp.
 errors-please-check-database = Vänligen använd funktionen Check Database, och försök sedan igen.
 errors-please-check-media = Var god använd Granska media-åtgärden, och försök sedan igen.

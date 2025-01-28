@@ -27,7 +27,7 @@ importing-ignore-lines-where-first-field-matches = Ignorera rader där det förs
 importing-ignored = <ignoreras>
 importing-import-even-if-existing-note-has = Importera även om redan existerande not har samma förstafält
 importing-import-options = Importalternativ
-importing-importing-complete = Import klar.
+importing-importing-complete = Importering slutförd.
 importing-invalid-file-please-restore-from-backup = Fil ogiltig. Vänligen återställ från backup.
 importing-map-to = Mappa till { $val }
 importing-map-to-tags = Para ihop med etiketter
@@ -124,7 +124,7 @@ importing-processed-media-file =
 importing-importing-file = Importerar fil...
 importing-extracting = Extraherar data...
 importing-gathering = Samlar data...
-importing-failed-to-import-media-file = Misslyckades med att importera mediafil: { $debugInfo }
+importing-failed-to-import-media-file = Det gick inte att importera mediafilen: { $debugInfo }
 importing-processed-notes =
     { $count ->
         [one] { $count } not behandlad...
@@ -197,13 +197,13 @@ importing-details = Detaljer
 importing-status = Status
 importing-duplicate-note-added = Dubblettnot tillagd
 importing-added-new-note = Ny not tillagd
-importing-existing-note-skipped = Not hoppades över eftersom en à jour kopia redan finns i samlingen
+importing-existing-note-skipped = Not hoppades över eftersom en aktuell kopia redan finns i samlingen
 importing-note-skipped-update-due-to-notetype = Not uppdaterades ej, eftersom nottypen har ändrats sedan noten först importerades
 importing-note-skipped-update-due-to-notetype2 = Not uppdaterades ej, eftersom nottypen har ändrats sedan noten först importerades, och '{ importing-merge-notetypes }' ej var aktiverat
 importing-note-updated-as-file-had-newer = Not uppdaterades eftersom filen hade en nyare version
-importing-note-skipped-due-to-missing-notetype = Not skippades eftersom dess nottyp saknades
-importing-note-skipped-due-to-missing-deck = Not skippades eftersom dess kortlek saknades
-importing-note-skipped-due-to-empty-first-field = Not skippades eftersom dess första fält var tomt
+importing-note-skipped-due-to-missing-notetype = Not hoppades över eftersom dess nottyp saknades
+importing-note-skipped-due-to-missing-deck = Not hoppades över eftersom dess kortlek saknades
+importing-note-skipped-due-to-empty-first-field = Not hoppades över eftersom dess första fält var tomt
 importing-field-separator-help =
     Tecknet som separerar fält i textfilen. Förhandsgranskningen kan användas
     för att kontrollera att fälten separeras korrekt.

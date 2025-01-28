@@ -320,8 +320,8 @@ deck-config-description-new-handling-hint =
 
 deck-config-daily-limit-will-be-capped =
     { $cards ->
-        [one] En föräldrakortlek har en gräns på { $cards } kort, vilket kommer åsidosätta denna gräns.
-       *[other] En föräldrakortlek har en gräns på { $cards } kort, vilket kommer åsidosätta denna gräns.
+        [one] En överordnad kortlek har en gräns på { $cards } kort, vilket kommer åsidosätta denna gräns.
+       *[other] En överordnad kortlek har en gräns på { $cards } kort, vilket kommer åsidosätta denna gräns.
     }
 deck-config-reviews-too-low =
     { $cards ->
@@ -363,7 +363,7 @@ deck-config-smaller-is-better = Mindre tal antyder en bättre passning till repe
 deck-config-steps-too-large-for-fsrs = När FSRS är aktiverat avrådes steg större än 1 dag.
 deck-config-get-params = Hämta parametrar
 deck-config-predicted-minimum-recommended-retention = Minsta rekommenderad återkallningskvot: { $num }
-deck-config-complete = { $num }% färdig
+deck-config-complete = { $num } % klart
 deck-config-iterations = Iteration: { $count }...
 deck-config-reschedule-cards-on-change = Schemalägg kort igen vid ändring
 deck-config-fsrs-tooltip =

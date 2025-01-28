@@ -1,12 +1,16 @@
 actions-add = Lägg till
-# In the browser sidebar, when in "Select" mode, you can right-click on
-# selected criteria elements to create a search term that matches
-# cards/notes meeting ALL the selected criteria elements.
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Alla markerade
-# In the browser sidebar, when in "Select" mode, you can right-click on
-# selected criteria elements to create a search term that matches
-# cards/notes meeting ANY of the selected criteria elements.
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Alla markerade
 actions-cancel = Avbryt
@@ -36,7 +40,7 @@ actions-rebuild = Återskapa
 actions-rename = Byt namn
 actions-rename-deck = Byt namn på kortlek
 actions-rename-tag = Byt namn på etikett
-actions-rename-with-parents = Byt namn med föräldrar
+actions-rename-with-parents = Byt namn med överordnade
 actions-remove-tag = Ta bort etikett
 actions-replay-audio = Spela upp ljud igen
 actions-reposition = Positionera om
@@ -66,10 +70,12 @@ actions-previous-card-info = Föregående kortinformation
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Fullskärmsläge stöds inte för din grafikdrivrutin. Försök att byta till en annan drivrutin från inställningsskärmen.
-
-## Flags
-
 actions-flag-number = Flagga { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Röd
 actions-flag-orange = Orange
 actions-flag-green = Grön
@@ -77,6 +83,9 @@ actions-flag-blue = Blå
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turkos
 actions-flag-purple = Lila
+
+##
+
 actions-set-flag = Sätt flagga
 actions-nothing-to-undo = Inget att ångra
 actions-nothing-to-redo = Inget att göra om
