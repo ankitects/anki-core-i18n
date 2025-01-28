@@ -51,7 +51,7 @@ database-check-fixed-invalid-ids =
        *[other] Fixade { $count } objekt med tidsstämplar i framtiden.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = En eller fler nottyper saknades. Noterna som använde dem har nu fått nya nottyper börjandes med "db-check", men fältnamnen och kortutseendet har gått förlorade, så det kan vara värt att återställa från en automatisk säkerhetskopiad.
+database-check-notetypes-recovered = En eller fler nottyper saknades. Noterna som använde dessa har nu tilldelats nya nottyper börjandes med "db-check", men fältnamnen och kortutseendet har gått förlorade, så det kan vara värt att återställa från en automatisk säkerhetskopia.
 
 ## Progress info
 

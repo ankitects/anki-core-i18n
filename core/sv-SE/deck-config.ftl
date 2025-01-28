@@ -16,7 +16,7 @@ deck-config-title = Kortleksalternativ
 ## Daily limits section
 
 deck-config-daily-limits = Dagliga begränsningar
-deck-config-new-limit-tooltip = Det maximala antalet nya kort att introducera per dag, om nya kort finns tillgängliga. Eftersom nya kort kortsiktigt kommer öka mängden kort att recensera, bör detta vara åtminstone 10x mindre än gränsen för antalet repetitioner.
+deck-config-new-limit-tooltip = Det maximala antalet nya kort att introducera per dag, om nya kort finns tillgängliga. Eftersom nya kort kortsiktigt kommer öka mängden kort att repetera, bör detta vara åtminstone 10x mindre än gränsen för antalet repetitioner.
 deck-config-review-limit-tooltip =
     Det maximala antalet repetitionskort som visas på ett dygn,
     om korten är redo att repeteras.
@@ -75,9 +75,9 @@ deck-config-easy-interval-tooltip =
     använts för att direkt befordra ett kort från inlärning.
 deck-config-new-insertion-order = Insättningsordning
 deck-config-new-insertion-order-tooltip =
-    Styr positionen (aktuell #) nya kort tilldelas när de läggs till.
-    Kort med ett lägre aktuell-tal kommer visas först vid studerande. Ändring
-    av denna inställning kommer automatiskt att uppdatera den befintliga positionen hos nya kort.
+    Styr positionen (aktuellnr) nya kort tilldelas när de läggs till.
+    Kort med ett lägre aktuellnummer kommer visas först när du studerar. När denna
+    inställning ändras kommer positionen hos nya kort automatiskt att uppdateras.
 deck-config-new-insertion-order-sequential = Sekventiell (äldsta kort först)
 deck-config-new-insertion-order-random = Slumpmässigt
 deck-config-new-insertion-order-random-with-v3 =
