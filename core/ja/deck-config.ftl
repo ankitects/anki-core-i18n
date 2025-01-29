@@ -91,7 +91,7 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = 兄弟関係のカードの非表示
+deck-config-bury-title = 兄弟カードの非表示
 deck-config-bury-new-siblings = 兄弟関係の新規カードを同じ日に表示しない
 deck-config-bury-review-siblings = 兄弟関係の復習カードを同じ日に表示しない
 deck-config-bury-interday-learning-siblings = 兄弟関係の習得中カードで、ステップが日をまたいでいる場合は、同じ日に表示しない
