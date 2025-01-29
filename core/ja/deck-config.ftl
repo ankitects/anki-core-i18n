@@ -273,7 +273,7 @@ deck-config-confirm-remove-name = { $name } を削除しますか？
 
 deck-config-save-button = 保存
 deck-config-save-to-all-subdecks = 保存してサブデッキにも適用
-deck-config-save-and-optimize = すべてのプリセットで最適化して保存
+deck-config-save-and-optimize = すべてのﾌﾟﾘｾｯﾄで最適化して保存
 deck-config-revert-button-tooltip = この設定をデフォルトに戻す
 
 ## These strings are shown via the Description button at the bottom of the
@@ -420,7 +420,7 @@ deck-config-fsrs-simulator-y-axis-title-count = 各日の学習回数
 deck-config-fsrs-simulator-y-axis-title-memorized = 記憶を保持できているカード数
 deck-config-fsrs-simulator-experimental = FSRSシミュレータ（実験的機能）
 deck-config-additional-new-cards-to-simulate = 新規カード追加枚数
-deck-config-simulate = シミュレート
+deck-config-simulate = ｼﾐｭﾚｰﾄ
 deck-config-clear-last-simulate = 直近のｼﾐｭﾚｰｼｮﾝ結果を消去
 deck-config-fsrs-simulator-radio-count = 学習回数
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
