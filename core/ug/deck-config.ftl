@@ -265,7 +265,7 @@ deck-config-compute-minimum-recommended-retention = تەۋسىيە قىلىنغ�
 deck-config-optimize-button = ئەلالاشتۇر
 deck-config-compute-button = ھېسابلا
 deck-config-ignore-before = ئىلگىرىكى تەكرارلاش خاتىرىسىگە پەرۋا قىلما
-deck-config-optimize-all-tip = سىز «ساقلا» توپچىنىڭ ئوڭ تەرىپىدىكى تارتما تىزىملىكتىكى توپچەنى ئىشلىتىپ بارلىق ئالدىن تەڭشەكلەرنى ئەلالاشتۇرالايسىز.
+deck-config-time-to-optimize = ئەلالاشتۇرۇلمىغىنى بىر مەزگىل بولدى - ھەممىنى ئەلالاشتۇر توپچىنى ئىشلىتىش تەۋسىيە قىلىنىدۇ.
 deck-config-evaluate-button = باھالاش
 deck-config-desired-retention = ئارزۇدىكى ئەستە ساقلاش نىسبىتى
 deck-config-historical-retention = تارىختىكى ئەستە ساقلاش نىسبىتى
@@ -330,12 +330,18 @@ deck-config-days-to-simulate = تەقلىد كۈن
 deck-config-desired-retention-below-optimal = ئارزۇيىڭىزدىكى ئەستە ساقلاش نىسبىتى ئەڭ ياخشى ئەستە ساقلاش نىسبىتىدىن تۆۋەن، كۆپەيتىش تەۋسىيە قىلىنىدۇ.
 deck-config-fsrs-simulator-y-axis-title-time = تەكرارلىغان ۋاقىت/كۈن
 deck-config-fsrs-simulator-y-axis-title-count = تەكرارلىغان سانى/كۈن
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = جەمئىي ئەستە ساقلىغىنى
 deck-config-fsrs-simulator-experimental = FSRS تەقلىدلىگۈچ (تەجرىبە)
 deck-config-additional-new-cards-to-simulate = تەقلىدلەيدىغان قوشۇمچە يېڭى كارتا سانى
 deck-config-simulate = تەقلىد
 deck-config-clear-last-simulate = ئاخىرقى تەقلىدلەشنى تازىلا
 deck-config-fsrs-simulator-radio-count = تەكرارلىقى
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = ئەستە تۇتقان
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
@@ -367,3 +373,4 @@ deck-config-compute-optimal-retention-tooltip3 = بۇ قورال سىزنى 0 د
 deck-config-seconds-to-show-question-tooltip-2 = ئۆزلۈكىدىن كۆرسىتىش ئاكتىپلاشقاندا، جاۋابنى ئۆزلۈكىدىن كۆرسىتىشتىن ئىلگىرى كۈتىدىغان ۋاقىت بىرلىكى سېكۇنت. 0 گە تەڭشەلسە چەكلەيدۇ.
 deck-config-invalid-weights = پارامېتىر چوقۇم ئىنگلىزچە 17 پەش «,» بىلەن ئايرىلغان سان بولۇشى ياكى كۆڭۈلدىكى قىممەتنى ئىشلىتىش ئۈچۈن بوش قالدۇرۇلۇشى كېرەك.
 deck-config-fsrs-on-all-clients = Anki خېرىدار پىروگراممىڭىزنىڭ Anki(Mobile) 23.10+ ياكى 2.17+ بولۇشىغا كاپالەتلىك قىلىڭ. ئەگەر خېرىدار پىروگراممىسى كونىراق بولسا، FSRS توغرا ئىشلىمەسلىكى مۇمكىن.
+deck-config-optimize-all-tip = سىز «ساقلا» توپچىنىڭ ئوڭ تەرىپىدىكى تارتما تىزىملىكتىكى توپچەنى ئىشلىتىپ بارلىق ئالدىن تەڭشەكلەرنى ئەلالاشتۇرالايسىز.
