@@ -35,6 +35,8 @@ card-stats-fsrs-forgetting-curve-first-week = الأسبوع الأول
 card-stats-fsrs-forgetting-curve-first-month = الشهر الأول
 card-stats-fsrs-forgetting-curve-first-year = السنة الأولى
 card-stats-fsrs-forgetting-curve-all-time = كل الوقت
+card-stats-fsrs-forgetting-curve-probability-of-recalling = احتمالية الاسترجاع
+card-stats-fsrs-forgetting-curve-desired-retention = معدل التذكر المرغوب فيه
 
 ## Window Titles
 

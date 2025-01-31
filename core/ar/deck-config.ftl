@@ -311,7 +311,7 @@ deck-config-confirm-remove-name = هل تريد حذف { $name }؟
 
 deck-config-save-button = حفظ
 deck-config-save-to-all-subdecks = حفظ في كل الرزم الفرعية
-deck-config-save-and-optimize = تحسين عوامل FSRS لكل المجموعات
+deck-config-save-and-optimize = تحسين كل المجموعات
 deck-config-revert-button-tooltip = استرجاع قيمة الإعداد الافتراضية.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -371,10 +371,10 @@ deck-config-must-have-400-reviews =
 deck-config-weights = عوامل FSRS
 deck-config-compute-optimal-weights = تحسين عوامل FSRS
 deck-config-compute-minimum-recommended-retention = معدل التذكر الأدنى المستحسن
-deck-config-optimize-button = تحسين
+deck-config-optimize-button = تحسين المجموعة الحالية
 deck-config-compute-button = احسب
 deck-config-ignore-before = تجاهل المراجعات قبل
-deck-config-optimize-all-tip = تستطيع تحسين كل المجموعات في الوقت نفسه بالضغط على الزر في الأعلى.
+deck-config-time-to-optimize = مرت فترة. ينصح باستخدام زر تحسين الكل.
 deck-config-evaluate-button = تقييم
 deck-config-desired-retention = معدل التذكر المرغوب فيه
 deck-config-historical-retention = معدل التذكر التاريخي
@@ -457,6 +457,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = حساب المعاملات المثالية لمجموعة الخيارات { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = يجب تفعيل FSRS أولًا.
 deck-config-fsrs-params-optimal = يبدو أن عوامل FSRS محسنة بالفعل.
+deck-config-fsrs-params-no-reviews = لا توجد مراجعات. تأكد من أن هذه المجموعة مضبوطة لكل الرزم التي تريد تحسينها (بما يتضمن الرزم الفرعية) ثم حاول مجددًا.
 deck-config-wait-for-audio = انتظار الصوت
 deck-config-show-reminder = إظهار المُذكّر
 deck-config-answer-again = الإجابة بـ«مجددًا»
@@ -464,6 +465,21 @@ deck-config-answer-hard = الإجابة بـ«صعب»
 deck-config-answer-good = الإجابة بـ«جيد»
 deck-config-days-to-simulate = عدد الأيام المطلوب محاكاتها
 deck-config-desired-retention-below-optimal = معدل التذكر المرغوب فيه أقل من المستحسن. ينصح برفعه.
+deck-config-fsrs-simulator-y-axis-title-time = وقت المراجعة/اليوم
+deck-config-fsrs-simulator-y-axis-title-count = عدد المراجعات/اليوم
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-y-axis-title-memorized = إجمالي المحفوظ
+deck-config-fsrs-simulator-experimental = محاكي FSRS (تجريبي)
+deck-config-additional-new-cards-to-simulate = بطاقات جديدة إضافية للمحاكاة
+deck-config-simulate = محاكاة
+deck-config-clear-last-simulate = مسح المحاكاة الأخيرة
+deck-config-fsrs-simulator-radio-count = مراجعات
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = المحفوظ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -526,3 +542,4 @@ deck-config-invalid-weights = يجب ترك الأوزان فارغة لاستخ
 deck-config-fsrs-on-all-clients =
     يرجى التأكد من أن جميع إصدارات أنكي لديك هي Anki(Mobile) 23.10+ أو AnkiDroid 2.17+. لن يعمل FSRS
     بشكل صحيح إذا كانت أحد إصدارات تطبيقاتك قديما.
+deck-config-optimize-all-tip = تستطيع تحسين كل المجموعات في الوقت نفسه بالضغط على الزر في الأعلى.

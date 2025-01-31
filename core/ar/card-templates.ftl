@@ -41,6 +41,7 @@ card-templates-card = البطاقة { $val }
 card-templates-card-types-for = أنواع البطاقات لـ { $val }
 card-templates-cloze = ملء فراغات { $val }
 card-templates-deck-override = رزمة مهيمنة...
+card-templates-copy-info = نسخ المعلومات إلى الحافظة
 card-templates-delete-the-as-card-type-and = هل تريد حذف نوع البطاقة '{ $template }'، و { $cards }؟
 card-templates-enter-deck-to-place-new = أدخل اسم الرزمة التي تريد وضع { $val } بطاقة جديدة فيها، أو اترك الحقل فارغًا:
 card-templates-enter-new-card-position-1 = أدخل موضع البطاقة الجديد (1...{ $val }):
