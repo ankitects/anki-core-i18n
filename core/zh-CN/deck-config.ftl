@@ -312,7 +312,6 @@ deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留�
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
 deck-config-ignore-before = 忽略该日期前的复习记录
-deck-config-optimize-all-tip = 您可以使用「保存」右侧下拉菜单中的按钮以一次性优化所有预设。
 deck-config-evaluate-button = 评估
 deck-config-desired-retention = 期望的记忆保留率
 deck-config-historical-retention = 历史记忆保留率
@@ -388,6 +387,10 @@ deck-config-answer-hard = 回答「困难」
 deck-config-answer-good = 回答「良好」
 deck-config-days-to-simulate = 模拟天数
 deck-config-desired-retention-below-optimal = 您期望的记忆保留率低于最佳记忆保留率，建议增加。
+deck-config-fsrs-simulator-experimental = FSRS 模拟器 (实验性功能)
+deck-config-additional-new-cards-to-simulate = 模拟中添加的新卡片数
+deck-config-simulate = 开始模拟
+deck-config-clear-last-simulate = 清除上次模拟
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -436,3 +439,4 @@ deck-config-compute-optimal-retention-tooltip3 =
 deck-config-seconds-to-show-question-tooltip-2 = 启用自动前进时，自动显示答案前等待的秒数。设置为 0 以禁用。
 deck-config-invalid-weights = 参数必须设定为 17 个用半角逗号「,」分隔的数字，或留空以使用默认值。
 deck-config-fsrs-on-all-clients = 请确保您的 Anki 客户端为 Anki(Mobile) 23.10+ 或 AnkiDroid 2.17+。如果您的客户端较旧，FSRS 将无法正常工作。
+deck-config-optimize-all-tip = 您可以使用「保存」右侧下拉菜单中的按钮以一次性优化所有预设。

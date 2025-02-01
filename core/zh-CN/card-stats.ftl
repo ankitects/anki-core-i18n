@@ -35,6 +35,8 @@ card-stats-fsrs-forgetting-curve-first-week = 首周
 card-stats-fsrs-forgetting-curve-first-month = 首月
 card-stats-fsrs-forgetting-curve-first-year = 首年
 card-stats-fsrs-forgetting-curve-all-time = 全部时间
+card-stats-fsrs-forgetting-curve-probability-of-recalling = 回忆成功概率
+card-stats-fsrs-forgetting-curve-desired-retention = 期望的记忆保留率
 
 ## Window Titles
 

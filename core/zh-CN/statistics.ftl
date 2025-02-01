@@ -19,10 +19,6 @@ statistics-in-time-span-hours = { $amount } 小时内
 statistics-in-time-span-days = { $amount } 天内
 statistics-in-time-span-months = { $amount } 个月内
 statistics-in-time-span-years = { $amount } 年内
-statistics-cards = { $cards } 张卡片
-statistics-notes = { $notes } 条笔记
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews } 次复习
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -36,6 +32,13 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     }学习了 { statistics-cards }（平均每张卡片 { $secs-per-card } 秒）
+
+##
+
+statistics-cards = { $cards } 张卡片
+statistics-notes = { $notes } 条笔记
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews = { $reviews } 次复习
 statistics-today-title = 今天
 statistics-today-again-count = 「重来」计数：
 statistics-today-type-counts = 学习：{ $learnCount }；复习：{ $reviewCount }；重新学习：{ $relearnCount }；已筛选：{ $filteredCount }
@@ -53,18 +56,41 @@ statistics-counts-learning-cards = 学习中
 statistics-counts-relearning-cards = 重学中
 statistics-counts-title = 卡片数量
 statistics-counts-separate-suspended-buried-cards = 分开统计暂停/搁置的卡片
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = 实际记忆保留率
 statistics-true-retention-subtitle = 间隔大于 1 天的卡片的通过率
 statistics-true-retention-range = 范围
 statistics-true-retention-pass = 通过
 statistics-true-retention-fail = 失败
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = 总计
 statistics-true-retention-retention = 记忆保留率
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = 欠熟练
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = 已熟练
 statistics-true-retention-today = 今天
 statistics-true-retention-yesterday = 昨天
 statistics-true-retention-week = 上周
 statistics-true-retention-month = 上个月
 statistics-true-retention-year = 近一年
 statistics-true-retention-all-time = 全部时间
+
+##
+
 statistics-range-all-time = 全部时间
 statistics-range-1-year-history = 近一年
 statistics-range-all-history = 全部
@@ -165,7 +191,7 @@ statistics-calendar-title = 日程表
 ## Please try to keep the text short, as longer text may get cut off.
 
 statistics-elapsed-time-seconds = { $amount } 秒
-statistics-elapsed-time-minutes = { $amount } 分
+statistics-elapsed-time-minutes = { $amount } 分钟
 statistics-elapsed-time-hours = { $amount } 小时
 statistics-elapsed-time-days = { $amount } 天
 statistics-elapsed-time-months = { $amount } 个月
@@ -204,6 +230,3 @@ statistics-save-pdf = 保存为 PDF
 statistics-saved = 已保存。
 statistics-stats = 统计
 statistics-title = 统计数据
-statistics-true-retention-total = 总计
-statistics-true-retention-young = 欠熟练
-statistics-true-retention-mature = 已熟练

@@ -33,6 +33,7 @@ card-templates-card = 卡片 { $val }
 card-templates-card-types-for = { $val } 的卡片模板
 card-templates-cloze = 填空 { $val }
 card-templates-deck-override = 覆盖牌组…
+card-templates-copy-info = 复制信息到剪切板
 card-templates-delete-the-as-card-type-and = 确定删除「{ $template }」卡片模板及从属于它的 { $cards } 吗？
 card-templates-enter-deck-to-place-new = 请输入要将 { $val } 张新卡片放入的牌组名称（可留空）：
 card-templates-enter-new-card-position-1 = 请输入新卡片的位置（1...{ $val }）：
