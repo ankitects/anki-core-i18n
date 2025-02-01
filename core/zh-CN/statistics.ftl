@@ -39,6 +39,12 @@ statistics-cards = { $cards } 张卡片
 statistics-notes = { $notes } 条笔记
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews } 次复习
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized =
+    COPY LINKNEXTPREVIOUS
+    { $memorized } 已记忆
 statistics-today-title = 今天
 statistics-today-again-count = 「重来」计数：
 statistics-today-type-counts = 学习：{ $learnCount }；复习：{ $reviewCount }；重新学习：{ $relearnCount }；已筛选：{ $filteredCount }
@@ -77,17 +83,22 @@ statistics-true-retention-pass = 通过
 statistics-true-retention-fail = 失败
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = 总计
+statistics-true-retention-count = 总数
 statistics-true-retention-retention = 记忆保留率
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = 欠熟练
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = 已熟练
+statistics-true-retention-all = 所有
 statistics-true-retention-today = 今天
 statistics-true-retention-yesterday = 昨天
 statistics-true-retention-week = 上周
 statistics-true-retention-month = 上个月
 statistics-true-retention-year = 近一年
 statistics-true-retention-all-time = 全部时间
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
 
 ##
 

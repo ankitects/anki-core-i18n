@@ -312,6 +312,7 @@ deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留�
 deck-config-optimize-button = 优化
 deck-config-compute-button = 计算
 deck-config-ignore-before = 忽略该日期前的复习记录
+deck-config-time-to-optimize = 已经有一段时间了—建议使用“优化所有预设”按钮。
 deck-config-evaluate-button = 评估
 deck-config-desired-retention = 期望的记忆保留率
 deck-config-historical-retention = 历史记忆保留率
@@ -380,6 +381,7 @@ deck-config-percent-of-reviews =
 deck-config-optimizing-preset = 正在优化预设 { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = 请您先启用 FSRS。
 deck-config-fsrs-params-optimal = 当前 FSRS 参数已为最佳。
+deck-config-fsrs-params-no-reviews = 未找到复习记录。请检查此预设是否已分配给您想要优化的所有牌组（包括子牌组），然后重试。
 deck-config-wait-for-audio = 等待音频播放完毕
 deck-config-show-reminder = 显示提醒
 deck-config-answer-again = 回答「忘记」
@@ -387,10 +389,21 @@ deck-config-answer-hard = 回答「困难」
 deck-config-answer-good = 回答「良好」
 deck-config-days-to-simulate = 模拟天数
 deck-config-desired-retention-below-optimal = 您期望的记忆保留率低于最佳记忆保留率，建议增加。
+deck-config-fsrs-simulator-y-axis-title-time = 复习时间/天
+deck-config-fsrs-simulator-y-axis-title-count = 复习总数/天
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-y-axis-title-memorized = 已记忆总数
 deck-config-fsrs-simulator-experimental = FSRS 模拟器 (实验性功能)
 deck-config-additional-new-cards-to-simulate = 模拟中添加的新卡片数
 deck-config-simulate = 开始模拟
 deck-config-clear-last-simulate = 清除上次模拟
+deck-config-fsrs-simulator-radio-count = 复习记录
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = 已记忆
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
