@@ -1,11 +1,23 @@
+importing-aborted = Доғарылған: { $val }
+importing-change = Өзгерту
 importing-colon = Қоснүкте
 importing-comma = Үтір
+importing-field-separator = Өріс бөлгіші
+importing-field-mapping = Өрістерді сәйкестендіру
+importing-fields-separated-by = Өрістер бөлгіші: { $val }
+importing-identical = Барабар
+importing-ignore-field = Өрісті елемеу
+importing-ignored = <ескерілмеді>
+importing-import-options = Әкелім баптаулары
+importing-include-reviews = Шолуларды қамту
 importing-updates = Жаңартулар
+importing-pauker-18-lesson-paugz = Pauker 1.8 сабағы (*.pau.gz)
 # the '|' character
 importing-pipe = Тік сызық
 importing-semicolon = Нүктелі үтір
 importing-skipped = Өткізілді
 importing-tab = Қойынша
+importing-tag-modified-notes = Өңделген жазба тамғалары:
 importing-unknown-file-format = Белгесіз файл пішімдеуі.
 importing-updated = Жаңартылды
 importing-update-if-newer = Жаңалау болса
@@ -32,9 +44,19 @@ importing-preserve = Сақтау
 importing-update = Жаңарту
 importing-tag-all-notes = Барлық жазбаны тамғалау
 importing-file = Файл
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Масштабты сәйкестендіру
+# Used with the 'match scope' option
+importing-notetype-and-deck = Жазба түрі және колода
+importing-cards-added = { $count } карта қосылды.
+importing-file-empty = Сіз таңдаған файл бос.
+importing-notes-added = { $count } жаңа жазба қосылды.
+importing-notes-updated = { $count } жазба бар жазбаларды жаңартуға қолданылды.
+importing-no-notes-in-file = Файлда жазба табылған жоқ.
 importing-show = Көрсету
 importing-details = Деректер
 importing-status = Күй
+importing-duplicate-note-added = Көшірме жазба қосылды
 importing-added-new-note = Жаңа жазба қосылды
 importing-note-updated-as-file-had-newer = Жаңа нұсқасы болғандықтан жазба өткізілді
 importing-note-skipped-due-to-missing-notetype = Жазба түрі болмағандықтан жазба өткізілді
