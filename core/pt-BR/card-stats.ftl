@@ -1,5 +1,5 @@
 card-stats-added = Adicionado
-card-stats-first-review = Primeia Revisão
+card-stats-first-review = Primeira Revisão
 card-stats-latest-review = Revisão mais recente
 card-stats-interval = Intervalo
 card-stats-ease = Facilidade
