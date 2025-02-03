@@ -37,6 +37,7 @@ card-templates-card = Cartão { $val }
 card-templates-card-types-for = Tipos de Cartão para { $val }
 card-templates-cloze = Omissão de Palavras { $val }
 card-templates-deck-override = Substituição de Baralho...
+card-templates-copy-info = Copiar informação para a Área de Transferência
 card-templates-delete-the-as-card-type-and = Apagar o tipo de cartão '{ $template }', e os { $cards }?
 card-templates-enter-deck-to-place-new = Abra o baralho para colocar { $val } novas cartas nele ou deixe em branco:
 card-templates-enter-new-card-position-1 = Digite a nova posição do cartão (1...{ $val }):

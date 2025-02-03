@@ -43,6 +43,22 @@ statistics-in-time-span-years =
         [one] em { $amount } ano
        *[other] em { $amount } anos
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Estudado(s) { statistics-cards } { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } hoje ({ $secs-per-card }s/card)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } cartão
@@ -59,19 +75,10 @@ statistics-reviews =
         [one] { $reviews } revisão
        *[other] { $reviews } revisões
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Estudado(s) { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } hoje ({ $secs-per-card }s/card)
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = memorizado
 statistics-today-title = Hoje
 statistics-today-again-count = Contagem de repetições:
 statistics-today-type-counts = Aprendidos: { $learnCount }, Revisados: { $reviewCount }, Reaprendidos: { $relearnCount }, Filtrados: { $filteredCount }
@@ -89,18 +96,46 @@ statistics-counts-learning-cards = Aprendendo
 statistics-counts-relearning-cards = Reaprendendo
 statistics-counts-title = Contagem de Cartões
 statistics-counts-separate-suspended-buried-cards = Separar cartões suspensos/ocultos
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = Retenção Verdadeira
 statistics-true-retention-subtitle = Taxa de aprovação de cartões com intervalo ≥ 1 dia.
 statistics-true-retention-range = Período
 statistics-true-retention-pass = Passou
 statistics-true-retention-fail = Falhou
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Total de cartões
+statistics-true-retention-count = Contagem
 statistics-true-retention-retention = Retenção
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Recentes
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Maduros
+statistics-true-retention-all = Tudo
 statistics-true-retention-today = Hoje
 statistics-true-retention-yesterday = Ontem
 statistics-true-retention-week = Semana passada
 statistics-true-retention-month = Mês passado
 statistics-true-retention-year = Ano passado
 statistics-true-retention-all-time = Todo o período
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
+
+##
+
 statistics-range-all-time = sempre
 statistics-range-1-year-history = últimos 12 meses
 statistics-range-all-history = todo histórico
@@ -252,6 +287,3 @@ statistics-save-pdf = Salvar PDF
 statistics-saved = Salvo.
 statistics-stats = estatísticas
 statistics-title = Estatísticas
-statistics-true-retention-total = Total de cartões
-statistics-true-retention-young = Recentes
-statistics-true-retention-mature = Maduros
