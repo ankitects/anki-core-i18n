@@ -342,6 +342,7 @@ deck-config-compute-minimum-recommended-retention = Retenção mínima recomenda
 deck-config-optimize-button = Otimizar
 deck-config-compute-button = Calcular
 deck-config-ignore-before = Ignorar revisões antes de
+deck-config-time-to-optimize = Já faz um tempo- é recomendado usar o botão Otimizar Tudo.
 deck-config-evaluate-button = Avaliar
 deck-config-desired-retention = Retenção desejada
 deck-config-historical-retention = Retenção histórica
@@ -438,6 +439,15 @@ deck-config-fsrs-simulator-y-axis-title-count = Revisão Contagem/Dia
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-y-axis-title-memorized = Total Memorizado
+deck-config-fsrs-simulator-experimental = Simulador de FSRS (experimental)
+deck-config-additional-new-cards-to-simulate = Novos cartões adicionais para simular
+deck-config-simulate = Simular
+deck-config-clear-last-simulate = Apagar última simulação
+deck-config-fsrs-simulator-radio-count = Revisões
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
