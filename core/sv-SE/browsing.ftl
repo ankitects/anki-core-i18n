@@ -22,8 +22,8 @@ browsing-cards-deleted =
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [one] kort borttagna från
-       *[other] kort borttagna från
+        [one] { $count } kort borttagna från { $deck_name }.
+       *[other] { $count } kort borttagna från { $deck_name }.
     }
 browsing-change-deck = Byt kortlek
 browsing-change-deck2 = Byt kortlek...
