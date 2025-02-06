@@ -140,9 +140,9 @@ deck-config-display-order-will-use-current-deck = 顯示順序以你選取的牌
 deck-config-timer-title = 計時器
 deck-config-maximum-answer-secs = 最大回答秒數
 deck-config-maximum-answer-secs-tooltip = 記錄單次複習耗時的最大秒數。若回答超過此時間（例如可能你複習中途離開了螢幕一段時間），則耗時將被記錄為你設定的上限。
-deck-config-show-answer-timer-tooltip = 在複習畫面顯示一個計時器，計算複習每張卡片所花費的秒數。
-deck-config-stop-timer-on-answer = 回答後停止計時
-deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止計時。不影響統計數據。
+deck-config-show-answer-timer-tooltip = 在學習畫面顯示一個計時器，計算每張卡片的學習耗時。
+deck-config-stop-timer-on-answer = 回答後停止螢幕上的計時器
+deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止螢幕上的計時器。不影響統計數據。
 
 ## Auto Advance section
 
@@ -211,7 +211,7 @@ deck-config-confirm-remove-name = 要移除「{ $name }」嗎？
 
 deck-config-save-button = 儲存
 deck-config-save-to-all-subdecks = 儲存至所有子牌組
-deck-config-save-and-optimize = 全部最佳化
+deck-config-save-and-optimize = 最佳化所有預設組
 deck-config-revert-button-tooltip = 回復設定為預設值？
 
 ## These strings are shown via the Description button at the bottom of the
@@ -250,7 +250,7 @@ deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。�
 deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-minimum-recommended-retention = 留存機率推薦最小值
-deck-config-optimize-button = 最佳化當前
+deck-config-optimize-button = 最佳化當前預設組
 deck-config-compute-button = 計算
 deck-config-ignore-before = 複習歷程起始時間
 deck-config-time-to-optimize = 已長期未最佳化，建議使用「全部最佳化」按鈕。
@@ -303,6 +303,7 @@ deck-config-percent-of-reviews =
     { $reviews ->
        *[other] 進度：{ $pct }%，共 { $reviews } 次複習
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
 deck-config-fsrs-params-optimal = 當前 FSRS 參數已為最佳。
@@ -314,12 +315,9 @@ deck-config-answer-hard = 回答「困難」
 deck-config-answer-good = 回答「良好」
 deck-config-days-to-simulate = 模擬天數
 deck-config-desired-retention-below-optimal = 你的期望留存機率低於最佳，建議提高數值。
-deck-config-fsrs-simulator-y-axis-title-time = 每日複習耗時
-deck-config-fsrs-simulator-y-axis-title-count = 每日複習張數
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = 記憶總數
 deck-config-fsrs-simulator-experimental = FSRS 模擬器（實驗性）
 deck-config-additional-new-cards-to-simulate = 模擬新增卡片數量
 deck-config-simulate = 模擬
@@ -332,6 +330,9 @@ deck-config-fsrs-simulator-radio-memorized = 記憶
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = 每日複習耗時
+deck-config-fsrs-simulator-y-axis-title-count = 每日複習張數
+deck-config-fsrs-simulator-y-axis-title-memorized = 記憶總數
 deck-config-bury-siblings = 回答後暫停關聯卡片
 deck-config-do-not-bury = 不暫停關聯卡片
 deck-config-bury-if-new = 暫停新卡片

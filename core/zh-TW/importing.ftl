@@ -58,6 +58,9 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = 已封裝的 Anki 牌�
 importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
 # the '|' character
 importing-pipe = 直立線符號 (|)
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated = 僅顯示前 { $count } 個欄位。如果出現問題，請嘗試更改欄位分隔符號。
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」行有 { $found } 個欄位，預期 { $expected }
 importing-selected-file-was-not-in-utf8 = 所選檔案不是 UTF-8 格式，請參閱使用手冊的匯入 (Importing) 章節。
 importing-semicolon = 分號
