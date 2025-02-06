@@ -63,7 +63,7 @@ statistics-reviews = { $reviews } 張複習卡
 statistics-memorized = 記得 { $memorized } 張
 statistics-today-title = 今天
 statistics-today-again-count = 按下「重來」的次數：
-statistics-today-type-counts = 新學習：{ $learnCount } 張 – 複習：{ $reviewCount } 張 – 重新學習：{ $relearnCount } 張 – 篩選學習：{ $filteredCount } 張
+statistics-today-type-counts = 新學習：{ $learnCount } 張 ‧ 複習：{ $reviewCount } 張 ‧ 重新學習：{ $relearnCount } 張 ‧ 篩選學習：{ $filteredCount } 張
 statistics-today-no-cards = 今天尚未學習任何卡片
 statistics-today-no-mature-cards = 今天沒有學習熟練卡片
 statistics-today-correct-mature = 熟練卡片回答正確率：{ $correct }/{ $total }（{ $percent }%）
@@ -83,14 +83,28 @@ statistics-counts-separate-suspended-buried-cards = 分開統計擱置/推遲的
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = 實際留存機率
 statistics-true-retention-subtitle = 間隔大於 1 天的卡片的通過率
 statistics-true-retention-range = 範圍
 statistics-true-retention-pass = 通過
 statistics-true-retention-fail = 失敗
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = 總計
 statistics-true-retention-count = 答題次數
 statistics-true-retention-retention = 留存機率
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = 未熟練
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = 熟練
 statistics-true-retention-all = 全部
 statistics-true-retention-today = 今天
 statistics-true-retention-yesterday = 昨天
@@ -242,6 +256,3 @@ statistics-save-pdf = 儲存為 PDF 檔
 statistics-saved = 已儲存。
 statistics-stats = 統計
 statistics-title = 統計資料
-statistics-true-retention-total = 總計
-statistics-true-retention-young = 未熟練
-statistics-true-retention-mature = 熟練
