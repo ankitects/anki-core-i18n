@@ -150,9 +150,9 @@ deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschlie
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Ignoriere Antwortzeiten länger als (Sekunden)
 deck-config-maximum-answer-secs-tooltip = Die maximale Zeit, die für eine einzelne Wiederholung in der Statistik erfasst wird. Wenn die tatsächliche Antwortzeit diesen Wert überschreitet (z. B. weil Sie den Bildschirm verlassen haben), wird statt der tatsächlichen Zeit die eingestellte maximale Antwortzeit in der Statistik gespeichert.
-deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Timer anzeigen, welcher die Sekunden zählt, die Sie zum Überprüfen einer Karte benötigen.
-deck-config-stop-timer-on-answer = Timer pausieren, während die Antwort aufgedeckt ist
-deck-config-stop-timer-on-answer-tooltip = Ob der Timer angehalten werden soll, während die Antwort aufgedeckt ist. Wirkt sich nicht auf die Statistik aus.
+deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Bildschirm-Timer anzeigen, welcher die Zeit zählt, die Sie zum Überprüfen einer Karte benötigen.
+deck-config-stop-timer-on-answer = Bildschirm-Timer pausieren, während die Antwort aufgedeckt ist
+deck-config-stop-timer-on-answer-tooltip = Ob der Bildschirm-Timer angehalten werden soll, wenn die Antwort aufgedeckt wird. Wirkt sich nicht auf die Statistik aus.
 
 ## Auto Advance section
 
@@ -334,6 +334,7 @@ deck-config-percent-of-reviews =
         [one] { $pct } % von { $reviews } Wiederholung
        *[other] { $pct } % von { $reviews } Wiederholungen
     }
+deck-config-percent-input = { $pct } %
 deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $total_count } …
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
@@ -345,12 +346,9 @@ deck-config-answer-hard = Mit „Schwer“ antworten
 deck-config-answer-good = Mit „Gut“ antworten
 deck-config-days-to-simulate = Zu simulierende Tage
 deck-config-desired-retention-below-optimal = Ihre gewünschte Erinnerungsquote liegt unter dem empfohlenen Mindestwert. Es ist ratsam, sie zu erhöhen.
-deck-config-fsrs-simulator-y-axis-title-time = Zeitaufwand pro Tag
-deck-config-fsrs-simulator-y-axis-title-count = Anzahl Wiederholungen pro Tag
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = Abrufbare Karten
 deck-config-fsrs-simulator-experimental = FSRS-Simulator (experimentell)
 deck-config-additional-new-cards-to-simulate = Zusätzliche fiktive neue Karten
 deck-config-simulate = Simulieren
@@ -363,6 +361,9 @@ deck-config-fsrs-simulator-radio-memorized = Abrufbare Karten
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = Zeitaufwand pro Tag
+deck-config-fsrs-simulator-y-axis-title-count = Anzahl Wiederholungen pro Tag
+deck-config-fsrs-simulator-y-axis-title-memorized = Abrufbare Karten
 deck-config-bury-siblings = Geschwisterkarten aufschieben
 deck-config-do-not-bury = Geschwisterkarten nicht aufschieben
 deck-config-bury-if-new = Aufschieben wenn neu
