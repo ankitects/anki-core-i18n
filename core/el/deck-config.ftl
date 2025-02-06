@@ -259,7 +259,7 @@ deck-config-compute-minimum-recommended-retention = Ελάχιστη προτε�
 deck-config-optimize-button = Βελτιστοποίηση
 deck-config-compute-button = Υπολογισμός
 deck-config-ignore-before = Παράλειψη επαναλήψεων πριν
-deck-config-optimize-all-tip = Μπορείτε να βελτιστοποιήσετε όλες τις προεπιλογές ταυτόχρονα πατώντας το κουμπί πάνω.
+deck-config-time-to-optimize = Έχει περάσει καιρός - συνιστάται η χρήση του κουμπιού Βελτιστοποίηση Όλων.
 deck-config-evaluate-button = Εκτίμηση
 deck-config-desired-retention = Επιθυμητή ανάκληση
 deck-config-historical-retention = Ιστορικό ανάκλησης
@@ -308,6 +308,7 @@ deck-config-percent-of-reviews =
         [one] { $pct }% από { $reviews } επανάληψη
        *[other] { $pct }% από { $reviews } επαναλήψεις
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Το FSRS θα πρέπει να είναι πρώτα ενεργοποιημένο.
 deck-config-fsrs-params-optimal = Οι τρέχουσες ρυθμίσεις FSRS είναι βέλτιστες.
@@ -318,12 +319,9 @@ deck-config-answer-hard = Απαντήστε "Δύσκολο"
 deck-config-answer-good = Απαντήστε "Καλά"
 deck-config-days-to-simulate = Ημέρες για προσομοίωση
 deck-config-desired-retention-below-optimal = Η επιθυμητή ανάκληση είναι χαμηλότερη της βέλτιστης. Συνιστάται η αύξησή της.
-deck-config-fsrs-simulator-y-axis-title-time = Χρόνος επαναλήψεων/μέρα
-deck-config-fsrs-simulator-y-axis-title-count = Αριθμός επαναλήψεων/μέρα
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = Σύνολο απομνημονευμένων
 deck-config-fsrs-simulator-experimental = Προσομοιωτής FSRS (πειραματικό)
 deck-config-additional-new-cards-to-simulate = Επιπρόσθετες νέες κάρτες για προσομοίωση
 deck-config-simulate = Προσομοίωση
@@ -336,6 +334,9 @@ deck-config-fsrs-simulator-radio-memorized = Απομνημονευμένα
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = Χρόνος επαναλήψεων/μέρα
+deck-config-fsrs-simulator-y-axis-title-count = Αριθμός επαναλήψεων/μέρα
+deck-config-fsrs-simulator-y-axis-title-memorized = Σύνολο απομνημονευμένων
 deck-config-bury-siblings = Αναβολή ομοειδών
 deck-config-seconds-to-show-question-tooltip = Ο αριθμός των δευτερολέπτων αναμονής πριν από την αποκάλυψη της απάντησης, όταν είναι ενεργοποιημένη η αυτόματη προώθηση. Ορίστε το 0 για απενεργοποίηση.
 deck-config-answer-action-tooltip = Η ενέργεια που θα εκτελεστεί στην τρέχουσα κάρτα πριν την αυτόματη εμφάνιση της επόμενης.
@@ -369,3 +370,4 @@ deck-config-invalid-weights = Οι παράμετροι πρέπει να είν
 deck-config-fsrs-on-all-clients =
     Παρακαλώ βεβαιωθείτε ότι η εκδόση Anki είναι 23.10+ και αυτή του AnkiDroid 2.17+.
     Το FSRS δεν λειτουργεί σωστά εάν οι εκδόσεις είναι παλαιότερες.
+deck-config-optimize-all-tip = Μπορείτε να βελτιστοποιήσετε όλες τις προεπιλογές ταυτόχρονα πατώντας το κουμπί πάνω.
