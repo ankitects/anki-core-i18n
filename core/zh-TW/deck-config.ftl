@@ -301,7 +301,7 @@ deck-config-a-100-day-interval =
     }
 deck-config-percent-of-reviews =
     { $reviews ->
-       *[other] { $reviews } 次複習的 { $pct }%
+       *[other] 進度：{ $pct }%，共 { $reviews } 次複習
     }
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
