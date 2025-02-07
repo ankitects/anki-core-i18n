@@ -176,17 +176,17 @@ deck-config-display-order-will-use-current-deck =
 
 ## Timer section
 
-deck-config-timer-title = 计时
+deck-config-timer-title = 计时器
 deck-config-maximum-answer-secs = 回答时间记录上限（秒）
 deck-config-maximum-answer-secs-tooltip =
     单次复习可记录的最大秒数。
     若回答时间超此限制（如离开屏幕前），
     卡片的回答时长将记录为此项设置的时长。
 deck-config-show-answer-timer-tooltip =
-    在复习界面上显示一个计时器，
-    记录复习每张卡片所用的秒数。
-deck-config-stop-timer-on-answer = 显示答案后停止计时
-deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止计时。不会影响统计数据。
+    在学习界面上显示一个计时器，
+    记录学习每张卡片所用的时间。
+deck-config-stop-timer-on-answer = 显示答案后停止屏幕计时器
+deck-config-stop-timer-on-answer-tooltip = 显示答案后是否停止屏幕计时器。不会影响统计数据。
 
 ## Auto Advance section
 
@@ -309,7 +309,7 @@ deck-config-must-have-400-reviews = 只找到了 { $count } 次复习记录。�
 deck-config-weights = FSRS 参数
 deck-config-compute-optimal-weights = 优化 FSRS 参数
 deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留率
-deck-config-optimize-button = 优化
+deck-config-optimize-button = 优化当前预设
 deck-config-compute-button = 计算
 deck-config-ignore-before = 忽略该日期前的复习记录
 deck-config-time-to-optimize = 已经有一段时间了—建议使用“优化所有预设”按钮。
@@ -378,6 +378,7 @@ deck-config-percent-of-reviews =
     { $reviews ->
        *[other] { $reviews } 次复习的 { $pct }%
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = 正在优化预设 { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = 请您先启用 FSRS。
 deck-config-fsrs-params-optimal = 当前 FSRS 参数已为最佳。
@@ -389,12 +390,9 @@ deck-config-answer-hard = 回答「困难」
 deck-config-answer-good = 回答「良好」
 deck-config-days-to-simulate = 模拟天数
 deck-config-desired-retention-below-optimal = 您期望的记忆保留率低于最佳记忆保留率，建议增加。
-deck-config-fsrs-simulator-y-axis-title-time = 复习时间/天
-deck-config-fsrs-simulator-y-axis-title-count = 复习总数/天
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = 已记忆总数
 deck-config-fsrs-simulator-experimental = FSRS 模拟器 (实验性功能)
 deck-config-additional-new-cards-to-simulate = 模拟中添加的新卡片数
 deck-config-simulate = 开始模拟
@@ -407,6 +405,9 @@ deck-config-fsrs-simulator-radio-memorized = 已记忆
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = 复习时间/天
+deck-config-fsrs-simulator-y-axis-title-count = 复习总数/天
+deck-config-fsrs-simulator-y-axis-title-memorized = 已记忆总数
 deck-config-bury-siblings = 回答后搁置关联卡片
 deck-config-do-not-bury = 回答后不搁置关联卡片
 deck-config-bury-if-new = 搁置关联的新卡片

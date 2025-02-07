@@ -33,7 +33,7 @@ importing-map-to = 对应到 { $val }
 importing-map-to-tags = 对应到标签
 importing-mapped-to = 对应到 <b>{ $val }</b>
 importing-mapped-to-tags = 对应到<b>标签</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = 合并笔记模板
 importing-merge-notetypes-help =
     勾选后，若您或牌组作者更改了笔记模板的架构，Anki 将不会保留两个笔记模板，而会将它们合并。
@@ -63,6 +63,9 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = 打包的 Anki 牌组/�
 importing-pauker-18-lesson-paugz = Pauker 1.8 课程（*.pau.gz）
 # the '|' character
 importing-pipe = 字符（|）
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated = 仅显示前 { $count } 列。若出现问题，请尝试更改字段分隔符。
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」行有 { $found } 个字段，应有 { $expected } 个
 importing-selected-file-was-not-in-utf8 = 选择的文件不是 UTF-8 格式的。请查看帮助文档的导入章节。
 importing-semicolon = 分号
