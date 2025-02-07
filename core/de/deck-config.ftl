@@ -150,9 +150,9 @@ deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschlie
 deck-config-timer-title = Timer
 deck-config-maximum-answer-secs = Ignoriere Antwortzeiten länger als (Sekunden)
 deck-config-maximum-answer-secs-tooltip = Die maximale Zeit, die für eine einzelne Wiederholung in der Statistik erfasst wird. Wenn die tatsächliche Antwortzeit diesen Wert überschreitet (z. B. weil Sie den Bildschirm verlassen haben), wird statt der tatsächlichen Zeit die eingestellte maximale Antwortzeit in der Statistik gespeichert.
-deck-config-show-answer-timer-tooltip = Beim Überprüfen einen Bildschirm-Timer anzeigen, welcher die Zeit zählt, die Sie zum Überprüfen einer Karte benötigen.
+deck-config-show-answer-timer-tooltip = Beim Lernbildschirm einen Timer anzeigen, welcher die Zeit zählt, die Sie zum lernen einer Karte benötigen.
 deck-config-stop-timer-on-answer = Bildschirm-Timer pausieren, während die Antwort aufgedeckt ist
-deck-config-stop-timer-on-answer-tooltip = Ob der Bildschirm-Timer angehalten werden soll, wenn die Antwort aufgedeckt wird. Wirkt sich nicht auf die Statistik aus.
+deck-config-stop-timer-on-answer-tooltip = Ob der Bildschirm-Timer angehalten werden soll, wenn die Antwort aufgedeckt wird. Wirkt sich nicht auf die Statistiken aus.
 
 ## Auto Advance section
 
