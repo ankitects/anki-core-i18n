@@ -33,7 +33,7 @@ importing-map-to = Підмапитись до { $val }
 importing-map-to-tags = Співставити з мітками
 importing-mapped-to = відображувати на <b>{ $val }</b>
 importing-mapped-to-tags = співставлено з <b>мітками</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Об’єднати типи нотаток
 importing-merge-notetypes-help =
     Якщо обрано, і ви чи автор колоди змінили схему для типу нотаток, Anki буде
@@ -65,6 +65,14 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = Пакунок Anki к�
 importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Вертикальна риска (|)
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Показано лише один стовпець. Змініть роздільник поля, якщо такий поділ неправильний.
+        [few] Показано лише перші { $count } стовпці. Змініть роздільник поля, якщо такий поділ неправильний.
+       *[many] Показано лише перші { $count } стовпців. Змініть роздільник поля, якщо такий поділ неправильний.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' вміщує { $found } полів, очікуючих { $expected }
 importing-selected-file-was-not-in-utf8 = Обнаний файл не був у форматі UTF-8. Перегляньте розділ "Імпортування" в інструкції користувача.
 importing-semicolon = Крапка з комою

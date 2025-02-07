@@ -467,6 +467,7 @@ deck-config-percent-of-reviews =
         [few] { $pct }% з { $reviews } пригадувань
        *[many] { $pct }% з { $reviews } пригадувань
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Оптимізація { $current_count } з { $total_count } конфігурацій...
 deck-config-fsrs-must-be-enabled = Спершу слід увімкнути ВПІП.
 deck-config-fsrs-params-optimal = Схоже, що параметри ВПІП є оптимальними.
@@ -478,12 +479,9 @@ deck-config-answer-hard = Вважати відповідь тяжкою
 deck-config-answer-good = Вважати відповідь доброю
 deck-config-days-to-simulate = Кількість днів для симуляції
 deck-config-desired-retention-below-optimal = Обране значення затримка є меншим за оптимальне. Варто її збільшити.
-deck-config-fsrs-simulator-y-axis-title-time = Пригадування Час/День
-deck-config-fsrs-simulator-y-axis-title-count = Пригадування Кількість/День
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = Всього запам'ятовано
 deck-config-fsrs-simulator-experimental = Симулятор ВПІП (експериментальний)
 deck-config-additional-new-cards-to-simulate = Додаткові нові картки для симуляції
 deck-config-simulate = Симулювати
@@ -496,6 +494,9 @@ deck-config-fsrs-simulator-radio-memorized = Запам'ятовано
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = Пригадування Час/День
+deck-config-fsrs-simulator-y-axis-title-count = Пригадування Кількість/День
+deck-config-fsrs-simulator-y-axis-title-memorized = Всього запам'ятовано
 deck-config-bury-siblings = Відкласти сестринські картки
 deck-config-do-not-bury = Не відкладати сестринські картки
 deck-config-bury-if-new = Відкласти, якщо нова картка
