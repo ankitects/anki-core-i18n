@@ -66,7 +66,7 @@ importing-pipe = Pipe
 importing-preview-truncated =
     { $count ->
         [one] Es wird nur die erste Spalte angezeigt. Sollte dies nicht stimmen, versuchen Sie, das Feldtrennzeichen zu verändern.
-       *[other] Es werden nur die ersten { $count } Spalten angezeigt. Sollte dies nicht stimmen, versuchen Sie, das Feldtrennzeichen zu verändern.
+       *[other] Es werden nur die ersten { $count } Spalten angezeigt. Sollte dies nicht stimmen, versuchen Sie, das Feldtrennzeichen zu verändern.
     }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hat { $found } Felder, erwartet wurden { $expected }
 importing-selected-file-was-not-in-utf8 = Die ausgewählte Datei befand sich nicht im UTF-8-Format. Weitere Hinweise dazu finden Sie in der Bedienungsanleitung im Abschnitt »Import«.
