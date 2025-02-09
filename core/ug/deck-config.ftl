@@ -317,6 +317,7 @@ deck-config-percent-of-reviews =
         [one] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
        *[other] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = ئالدى بىلەن FSRS نى قوزغىتىش كېرەك.
 deck-config-fsrs-params-optimal = نۆۋەتتە FSRS نىڭ پارامېتىرلىرى ئەلالاشتۇرۇلغان.
@@ -328,12 +329,9 @@ deck-config-answer-hard = جاۋابى تەس
 deck-config-answer-good = جاۋابى ياخشى
 deck-config-days-to-simulate = تەقلىد كۈن
 deck-config-desired-retention-below-optimal = ئارزۇيىڭىزدىكى ئەستە ساقلاش نىسبىتى ئەڭ ياخشى ئەستە ساقلاش نىسبىتىدىن تۆۋەن، كۆپەيتىش تەۋسىيە قىلىنىدۇ.
-deck-config-fsrs-simulator-y-axis-title-time = تەكرارلىغان ۋاقىت/كۈن
-deck-config-fsrs-simulator-y-axis-title-count = تەكرارلىغان سانى/كۈن
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = جەمئىي ئەستە ساقلىغىنى
 deck-config-fsrs-simulator-experimental = FSRS تەقلىدلىگۈچ (تەجرىبە)
 deck-config-additional-new-cards-to-simulate = تەقلىدلەيدىغان قوشۇمچە يېڭى كارتا سانى
 deck-config-simulate = تەقلىد
@@ -346,6 +344,9 @@ deck-config-fsrs-simulator-radio-memorized = ئەستە تۇتقان
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = تەكرارلىغان ۋاقىت/كۈن
+deck-config-fsrs-simulator-y-axis-title-count = تەكرارلىغان سانى/كۈن
+deck-config-fsrs-simulator-y-axis-title-memorized = جەمئىي ئەستە ساقلىغىنى
 deck-config-bury-siblings = مۇناسىۋەتلىك كارتىلارنى يوشۇر
 deck-config-do-not-bury = مۇناسىۋەتلىك كارتىلارنى يوشۇرما
 deck-config-bury-if-new = يېڭى كارتىلارنى يوشۇر

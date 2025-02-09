@@ -33,7 +33,7 @@ importing-map-to = { $val } غا ماسلاشتۇر
 importing-map-to-tags = بەلگىگە ماسلاشتۇر
 importing-mapped-to = <b>{ $val }</b> غا ماسلاشتۇر
 importing-mapped-to-tags = <b>بەلگە</b> گە ماسلاشتۇرۇلدى
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = خاتىرە تۈرىنى بىرلەشتۈر
 importing-merge-notetypes-help =
     ئەگەر تاللانسا، سىز ياكى دەستە يازغۇچى خاتىرە تۈرى قۇرۇلمىسىنى ئۆزگەرتسە، Anki ئىككى خاتىرە تۈرىنى ساقلاپ قالماي ئۇلارنى بىرلەشتۈرۈۋېتىدۇ.
@@ -59,6 +59,13 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = بولاقلانغان 
 importing-pauker-18-lesson-paugz = Pauker 1.8 دەرسى (*.pau.gz)
 # the '|' character
 importing-pipe = تىك سىزىق (|)
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] پەقەت ئالدىنقى { $count } رەتنىلا كۆرسىتىدۇ. ئەگەر توغرا كۆرۈنمىسە، بۆلەك ئايرىغۇچنى ئۆزگەرتىپ سىناڭ.
+       *[other] پەقەت ئالدىنقى { $count } رەتنىلا كۆرسىتىدۇ. ئەگەر توغرا كۆرۈنمىسە، بۆلەك ئايرىغۇچنى ئۆزگەرتىپ سىناڭ.
+    }
 importing-rows-had-num1d-fields-expected-num2d = «{ $row }»-قۇردا { $found } بۆلەك بار، كۈتۈلگىنى { $expected }
 importing-selected-file-was-not-in-utf8 = تاللانغان ھۆججەت UTF-8 پىچىمىدا ئەمەس. قوللانمىدىكى ئەكىرىش بۆلىكىنى كۆرۈڭ.
 importing-semicolon = چېكىتلىك پەش
