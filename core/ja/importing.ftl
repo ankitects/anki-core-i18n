@@ -36,7 +36,7 @@ importing-map-to = { $val } に割り当てる
 importing-map-to-tags = タグに割り当てる
 importing-mapped-to = <b>{ $val }</b> に割り当てる
 importing-mapped-to-tags = <b>タグ</b> に割り当てる
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = ノートタイプを統合
 importing-merge-notetypes-help =
     このオプションがオンの場合、インポート先またはインポート元のノートタイプのスキーマが変更（※）されていれば、Ankiは変更前と変更後のノートタイプをそれぞれ保持するのではなく、一つのノートタイプに統合します。
@@ -63,6 +63,9 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化さ�
 importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
 # the '|' character
 importing-pipe = パイプ ( | )
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated = 最初の{ $count }列のみを表示しています。 これが正しくないと思われる場合は、フィールドの区切り文字を変更してみてください。
 importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」には { $found } 個のフィールドがありました。予想では { $expected } 個でした。
 importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルのインポート (Importing) に関する項目をご覧ください。
 importing-semicolon = セミコロン ( ; )
