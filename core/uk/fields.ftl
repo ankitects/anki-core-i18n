@@ -1,6 +1,6 @@
 fields-add-field = Додати поле
 fields-delete-field-from = Видалити поле з { $val }?
-fields-editing-font = Шрифт режиму редагування
+fields-editing-font = Редакторський шрифт
 fields-field = Поле:
 fields-field-name = Назва поля:
 fields-description = Опис
