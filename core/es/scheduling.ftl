@@ -7,8 +7,8 @@ scheduling-answer-button-time-seconds = { $amount } s
 scheduling-answer-button-time-minutes = { $amount } m
 scheduling-answer-button-time-hours = { $amount } h
 scheduling-answer-button-time-days = { $amount } d
-scheduling-answer-button-time-months = { $amount } meses
-scheduling-answer-button-time-years = { $amount } años
+scheduling-answer-button-time-months = { $amount } me
+scheduling-answer-button-time-years = { $amount } añ
 
 ## A span of time, such as the delay until a card is shown again, the
 ## amount of time taken to answer a card, and so on. It is used by itself,
@@ -69,9 +69,10 @@ scheduling-next-learn-due =
     }.
 scheduling-learn-remaining =
     { $remaining ->
-        [one] Hay una tarjeta restante en la cola de aprendizaje más tarde para hoy.
-       *[other] Hay { $remaining } tarjetas restantes en la cola de aprendizaje más tarde para hoy.
+        [one] Hay una tarjeta restante en la cola de aprendizaje programada para hoy más tarde.
+       *[other] Hay { $remaining } tarjetas restantes en la cola de aprendizaje programadas para hoy más tarde.
     }
+scheduling-congratulations-finished = ¡Felicitaciones! Has finalizado este mazo por ahora.
 scheduling-today-review-limit-reached =
     Has alcanzado el límite actual de repasos, pero todavía hay tarjetas
     a la espera de ser repasadas. Para una memorización óptima, considera
@@ -81,25 +82,25 @@ scheduling-today-new-limit-reached =
     diario. Puedes aumentar el límite en las opciones, pero ten
     en cuenta que cuantas más tarjetas nuevas introduzcas, más
     aumentará tu carga de trabajo a corto plazo.
-scheduling-buried-cards-found = Una o más tarjetas fueron enterradas y se mostrarán mañana. Puede { $unburyThem } si desea verlos de inmediato.
+scheduling-buried-cards-found = Una o más tarjetas fueron enterradas y se mostrarán mañana. Puedes { $unburyThem } si deseas verlas de inmediato.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = desenterrarlas
-scheduling-how-to-custom-study = Si desea estudiar fuera del horario habitual, puede utilizar la función { $customStudy }.
+scheduling-how-to-custom-study = Si deseas estudiar fuera del horario habitual, puedes utilizar la función { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = estudio personalizado
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 viene con un nuevo planificador, que soluciona una serie de problemas que tenían las versiones anteriores de Anki. Se recomienda actualizar a la nueva versión del programador.
+scheduling-update-soon = Anki 2.1 viene con un nuevo planificador, que soluciona una serie de problemas que tenían las versiones anteriores de Anki. Se recomienda actualizar a la nueva versión del planificador.
 scheduling-update-done = Planificador actualizado con éxito.
 scheduling-update-button = Actualizar
 scheduling-update-later-button = Más tarde
 scheduling-update-more-info-button = Saber más
 scheduling-update-required =
-    Su colección debe actualizarse al planificador V2. Por favor, 
-    seleccione { scheduling-update-more-info-button } antes de continuar.
+    Tu colección debe actualizarse al planificador v2. 
+    Por favor, selecciona { scheduling-update-more-info-button } antes de continuar.
 
 ## Other scheduling strings
 
@@ -115,14 +116,14 @@ scheduling-easy-interval = Intervalo para fácil
 scheduling-end = (fin)
 scheduling-general = General
 scheduling-graduating-interval = Intervalo de graduación
-scheduling-hard-interval = Interval difícil
+scheduling-hard-interval = Intervalo para difícil
 scheduling-ignore-answer-times-longer-than = Ignorar tiempos de respuesta mayores de
 scheduling-interval-modifier = Modificador de intervalo
 scheduling-lapses = Olvidos
 scheduling-lapses2 = olvidos
 scheduling-learning = Aprendiendo
-scheduling-leech-action = Acción para sanguijuelas
-scheduling-leech-threshold = Umbral para sanguijuelas
+scheduling-leech-action = Acción para olvidadas
+scheduling-leech-threshold = Umbral para olvidadas
 scheduling-maximum-interval = Intervalo máximo
 scheduling-maximum-reviewsday = Repasos máximos/día
 scheduling-minimum-interval = Intervalo mínimo
@@ -133,7 +134,7 @@ scheduling-new-interval = Intervalo para nuevas
 scheduling-new-options-group-name = Nombre del nuevo grupo de opciones:
 scheduling-options-group = Grupo de opciones:
 scheduling-order = Orden
-scheduling-parent-limit = (límite precursor: { $val })
+scheduling-parent-limit = (límite del superior: { $val })
 scheduling-reset-counts = Restablecer recuentos de repeticiones y fallos
 scheduling-restore-position = Restaurar la posición original cuando sea posible
 scheduling-review = Repasar
@@ -144,8 +145,8 @@ scheduling-set-for-all-subdecks = Asignar a todos los submazos
 scheduling-show-answer-timer = Mostrar temporizador de respuesta
 scheduling-show-new-cards-after-reviews = Mostrar tarjetas nuevas después de los repasos
 scheduling-show-new-cards-before-reviews = Mostrar tarjetas nuevas antes de los repasos
-scheduling-show-new-cards-in-order-added = Mostrar tarjetas nuevas en el orden añadido
-scheduling-show-new-cards-in-random-order = Mostrar tarjetas nuevas aleatoriamente
+scheduling-show-new-cards-in-order-added = Mostrar tarjetas nuevas en el orden en que se añadieron
+scheduling-show-new-cards-in-random-order = Mostrar tarjetas nuevas en orden aleatorio
 scheduling-starting-ease = Facilidad inicial
 scheduling-steps-in-minutes = Pasos (en minutos)
 scheduling-steps-must-be-numbers = Los pasos deben ser números.
@@ -164,8 +165,8 @@ scheduling-set-due-date-prompt =
     }
 scheduling-set-due-date-prompt-hint =
     0 = hoy
-    1! = mañana + redefinición del intervalo de revisión
-    3-7 = elección aleatoria de 3-7 días
+    1! = mañana + cambiar el intervalo a 1
+    3-7 = elección aleatoria entre 3 y 7 días
 scheduling-set-due-date-done =
     { $cards ->
         [one] Establecer fecha de revisión de { $cards } tarjeta.
@@ -173,6 +174,6 @@ scheduling-set-due-date-done =
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] Olvidó { $cards } tarjeta.
-       *[other] Olvidó { $cards } tarjetas.
+        [one] Reiniciar { $cards } tarjeta.
+       *[other] Reiniciar { $cards } tarjetas.
     }

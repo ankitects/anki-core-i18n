@@ -35,19 +35,46 @@ importing-mapped-to = asignado a <b>{ $val }</b>
 importing-mapped-to-tags = asignado a <b>etiquetas</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Combinar tipos de nota
+importing-merge-notetypes-help =
+    Si está seleccionado, y tú o el autor del mazo alteran el esquema de un tipo de nota, 
+    Anki combinará las dos versiones en lugar de mantener ambas.
+    
+    Alterar el esquema de una nota quiere decir añadir, eliminar o reordenar campos o plantillas, o cambiar el campo según el cual se ordena.
+    Como contraejemplo, cambiar el anverso de una plantilla existente *no* constituye
+    un cambio de esquema.
+    
+    Advertencia: esto requerirá una sincronización en una sola dirección, y puede marcar notas existentes como modificadas.
 importing-mnemosyne-20-deck-db = Mazo Mnemosyne 2.0 (*.db)
-importing-multicharacter-separators-are-not-supported-please = Los separadores de más de un caracter no son válidos. Por favor, introduzca un solo caracter.
+importing-multicharacter-separators-are-not-supported-please = Los separadores de más de un carácter no son válidos. Por favor, introduzca un solo carácter.
 importing-notes-added-from-file = Notas añadidas desde el archivo: { $val }
 importing-notes-found-in-file = Notas encontradas en el archivo: { $val }
-importing-notes-skipped-as-theyre-already-in = Se han omitido las notas porque ya se encuentran en tu colección: { $val }
+importing-notes-skipped-as-theyre-already-in = Notas omitidas, pues ya se encuentran en tu colección copias actualizadas: { $val }
 importing-notes-skipped-update-due-to-notetype = Notas no actualizadas, ya que el tipo de nota ha sido modificado desde que importaste las notas por primera vez: { $val }
-importing-notes-updated-as-file-had-newer = Notas actualizadas; existía una nueva versión del archivo: { $val }
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazo de Anki comprimido/ Colección (*.apkg *.colpkg *.zip)
+importing-notes-updated-as-file-had-newer = Notas actualizadas, existía una nueva versión del archivo: { $val }
+importing-include-reviews = Incluir revisiones
+importing-also-import-progress = Importar cualquier progreso de aprendizaje
+importing-with-deck-configs = Importar cualquier configuración del mazo
+importing-updates = Actualizaciones
+importing-include-reviews-help =
+    Si está activado, cualquier revisión anterior que la persona que compartió el mazo haya incluido también será importada.
+    En caso contrario, todas las tarjetas serán importadas como tarjetas nuevas, y cualquier etiqueta 
+    de “olvidada” o “marcada” será removida.
+importing-with-deck-configs-help =
+    Si está activado, cualquier opción del mazo que la persona que compartió el mazo haya incluido también será importada.
+    En caso contrario, se le asignará la configuración por defecto a todos los mazos.
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazo de Anki/Colección comprimido (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Lección Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Barra vertical
-importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tenía { $found } campos, se esperaban { $expected }
-importing-selected-file-was-not-in-utf8 = El archivo seleccionado no estaba en formato UTF-8. Por favor, lee la sección "importación" del manual.
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Solo se muestra la primera columna. Si esto no parece correcto, trata cambiando el separador de campos.
+       *[other] Solo se muestran las primeras { $count } columnas. Si esto no parece correcto, trata cambiando el separador de campos.
+    }
+importing-rows-had-num1d-fields-expected-num2d = “{ $row }” tenía { $found } campos, se esperaban { $expected }
+importing-selected-file-was-not-in-utf8 = El archivo seleccionado no estaba en formato UTF-8. Por favor, lee la sección sobre importación en el manual.
 importing-semicolon = Punto y coma
 importing-skipped = Saltado
 importing-supermemo-xml-export-xml = XML exportado de Supermemo (*.xml)
@@ -62,8 +89,19 @@ importing-unable-to-import-from-a-readonly = No es posible importar desde un arc
 importing-unknown-file-format = Formato de archivo desconocido.
 importing-update-existing-notes-when-first-field = Actualizar las tarjetas existentes cuando el primer campo coincida
 importing-updated = Actualizado
+importing-update-if-newer = Si es más nueva
 importing-update-always = Siempre
 importing-update-never = Nunca
+importing-update-notes = Actualizar notas
+importing-update-notes-help =
+    Cuándo actualizar una nota existente en tu colección. Por defecto, esto solo se hace
+    si la nota importada que coincide fue modificada más recientemente.
+importing-update-notetypes = Actualizar tipos de nota
+importing-update-notetypes-help =
+    Cuándo actualizar un tipo de nota existente en tu colección. Por defecto, esto solo se hace
+    si el tipo de nota importado coincidente fue modificado más recientemente. Cambios al texto de la plantilla
+    y al formato siempre pueden ser importados, pero para cambios al esquema (por ejemplo, si el número
+    o el orden de los campos cambió) la opción “{ importing-merge-notetypes }” también debe estar activada.
 importing-note-added =
     { $count ->
         [one] { $count } nota añadida
@@ -76,8 +114,8 @@ importing-note-imported =
     }
 importing-note-unchanged =
     { $count ->
-        [one] { $count } nota inalterada
-       *[other] { $count } notas inalteradas
+        [one] { $count } nota sin cambios
+       *[other] { $count } notas sin cambios
     }
 importing-note-updated =
     { $count ->
@@ -86,22 +124,22 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] { $count } archivo multimedia procesado
-       *[other] { $count } archivos multimedia procesados
+        [one] Se importó { $count } archivo multimedia
+       *[other] Se importaron { $count } archivos multimedia
     }
-importing-importing-file = Importando archivo...
-importing-extracting = Extrayendo datos...
-importing-gathering = Reuniendo datos...
+importing-importing-file = Importando archivo…
+importing-extracting = Extrayendo datos…
+importing-gathering = Recopilando datos…
 importing-failed-to-import-media-file = No se pudo importar el archivo multimedia: { $debugInfo }
 importing-processed-notes =
     { $count ->
-        [one] { $count } nota procesada...
-       *[other] { $count } notas procesadas...
+        [one] { $count } nota procesada…
+       *[other] { $count } notas procesadas…
     }
 importing-processed-cards =
     { $count ->
-        [one] Se ha procesado una tarjeta…
-       *[other] Se han procesado { $count } tarjetas…
+        [one] Se procesó { $count } tarjeta…
+       *[other] Se procesaron { $count } tarjetas…
     }
 importing-existing-notes = Notas existentes
 # "Existing notes: Duplicate" (verb)
@@ -122,11 +160,31 @@ importing-cards-added =
         [one] { $count } tarjeta añadida.
        *[other] { $count } tarjetas añadidas.
     }
-importing-file-empty = El archivo que seleccionó está vacío.
+importing-file-empty = El archivo que seleccionaste está vacío.
 importing-notes-added =
     { $count ->
-        [one] nueva nota importada
-       *[other] nuevas notas importadas
+        [one] { $count } nueva nota importada.
+       *[other] { $count } nuevas notas importadas.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] { $count } nota fue utilizada para actualizar notas existentes.
+       *[other] { $count } notas fueron utilizadas para actualizar notas existentes.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } nota ya presente en tu colección.
+       *[other] { $count } notas ya presentes en tu colección.
+    }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } nota no pudo ser importada.
+       *[other] { $count } notas no pudieron ser importadas.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } nota no fue importada, pues su tipo de nota cambió.
+       *[other] { $count } notas no fueron importadas, pues sus tipos de nota cambiaron.
     }
 importing-show = Monstrar
 importing-details = Detalles
