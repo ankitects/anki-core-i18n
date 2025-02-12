@@ -4,8 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Más información
-card-template-rendering-front-side-problem = El anverso tiene un problema:
-card-template-rendering-back-side-problem = El reverso tiene un problema:
+card-template-rendering-front-side-problem = La plantilla del anverso tiene un problema:
+card-template-rendering-back-side-problem = La plantilla del reverso tiene un problema:
 card-template-rendering-browser-front-side-problem = La plantilla de anverso específica del navegador tiene un problema:
 card-template-rendering-browser-back-side-problem = La plantilla de reverso específica del navegador tiene un problema:
 # when the user forgot to close a field reference,
@@ -22,11 +22,11 @@ card-template-rendering-wrong-conditional-closed = Se ha encontrado '{ $found }'
 card-template-rendering-conditional-not-open = Se ha encontrado '{ $found }', pero falta '{ $missing1 }' o '{ $missing2 }'
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
-card-template-rendering-no-such-field = Encontrado '{ $found }', pero no hay ningún campo llamado '{ $field }'
+card-template-rendering-no-such-field = Se ha encontrado '{ $found }', pero no hay ningún campo llamado '{ $field }'
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = La parte frontal de esta tarjeta está en blanco.
+card-template-rendering-empty-front = El anverso de esta tarjeta está en blanco.
 card-template-rendering-missing-cloze =
     No se ha encontrado ningúna respuesta anidada número { $number } en la tarjeta.
-    Puede usar "Vaciar tarjetas" para eliminar esta tarjeta vacía.
+    Por favor añade una, o utiliza la herramienta “Tarjetas vacías”.

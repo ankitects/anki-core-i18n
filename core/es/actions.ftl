@@ -68,7 +68,7 @@ actions-card-info = Información de la tarjeta
 actions-previous-card-info = Información de la tarjeta anterior
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
-actions-with-ellipsis = { $action }...
+actions-with-ellipsis = { $action }…
 actions-fullscreen-unsupported = El modo de pantalla completa no es compatible con tu controlador de vídeo. Intenta cambiar a uno diferente desde el menú de preferencias.
 actions-flag-number = Marcador { $number }
 

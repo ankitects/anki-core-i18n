@@ -9,4 +9,4 @@ adding-shortcut = Atajo: { $val }
 adding-the-first-field-is-empty = El primer campo está vacío.
 adding-you-have-a-cloze-deletion-note = Tienes un tipo de nota de respuesta anidada pero no has insertado ningún nido. ¿Quieres continuar?
 adding-cloze-outside-cloze-notetype = Solo se puede anidar una respuesta en notas de tipo respuesta anidada
-adding-cloze-outside-cloze-field = El anidamiento de una respuesta solo se puede usar en campos que usan el filtro 'cloze:'. Este suele ser el primer campo.
+adding-cloze-outside-cloze-field = El anidamiento de una respuesta solo se puede usar en campos que usan el filtro “cloze:”. Este suele ser el primer campo.

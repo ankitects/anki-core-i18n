@@ -6,50 +6,56 @@
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
-    usado por { $decks ->
-        [one] 1 mazo
-       *[other] { $decks } mazos
+    { $decks ->
+        [one] usado por { $decks } mazo
+       *[other] usado por { $decks } mazos
     }
 deck-config-default-name = Predeterminado
-deck-config-title = Opciones del Mazo
+deck-config-title = Opciones del mazo
 
 ## Daily limits section
 
 deck-config-daily-limits = Límites diarios
 deck-config-new-limit-tooltip =
     El número máximo de nuevas tarjetas para introducir en un día, si hay nuevas tarjetas disponibles.
-    Debido a que el material nuevo aumentará su carga de revisión a corto plazo, esta opción normalmente 
-    debería ser al menos 10 veces menor que su límite de revisión.
+    Debido a que el material nuevo aumentará tu carga de revisión a corto plazo, esta opción normalmente
+    debería ser al menos 10 veces menor que tu límite de revisión.
 deck-config-review-limit-tooltip =
     El número máximo de tarjetas de revisión para mostrar en un día, 
     si las tarjetas están listas para su revisión.
 deck-config-limit-deck-v3 =
-    Al estudiar un mazo que tiene submazos en su interior, los límites establecidos en cada submazo controlan el número máximo de tarjetas que serán obtenidas de ese mazo en particular.
-    Los límites establecidos en el mazo principal controlan el total de cartas que se mostrarán.
+    Al estudiar un mazo que tiene submazos en su interior, los límites establecidos en cada
+    submazo controlan el número máximo de tarjetas que serán obtenidas de ese mazo en particular.
+    Los límites establecidos en el mazo seleccionado controlan el total de cartas que se mostrarán.
 deck-config-limit-new-bound-by-reviews =
-    El límite de revisión afecta el límite de nuevas tarjetas. Por ejemplo, 
-    si su límite de revisiones está definido en 200 y tienes 190 revisiones esperando, 
-    un máximo de 10 tarjetas nuevas serán introducidas. Si su límite de revisiones 
-    fue alcanzado, no se mostrarán nuevas tarjetas.
+    El límite de revisión afecta el límite de nuevas tarjetas. Por ejemplo, si tu límite 
+    de revisiones está definido en 200, y tienes 190 revisiones esperando, 
+    un máximo de 10 tarjetas nuevas serán introducidas. Si tu límite de revisiones 
+    fue alcanzado no se mostrarán nuevas tarjetas.
 deck-config-limit-interday-bound-by-reviews =
-    El límite de revisión también afecta a las tarjetas de aprendizaje entre días. 
-    Al aplicar el límite, primero se obtienen las tarjetas de aprendizaje entre días, 
-    luego las revisiones y finalmente las tarjetas nuevas.
+    El límite de revisión también afecta a las tarjetas de aprendizaje entre días. Al aplicar
+    el límite, primero se obtienen las tarjetas de aprendizaje entre días,  y luego las tarjetas de revisión.
 deck-config-tab-description =
-    - `Preset`: el límite se comparte con todos los mazos que usan este preset.
-    - `Este mazo`: El límite es específico para este mazo.
-    - `Solo hoy`: Realiza un cambio temporal en el límite de este mazo.
+    - 'Configuración': el límite se comparte con todos los mazos que usan esta configuración.
+    - 'Este mazo': El límite es específico para este mazo.
+    - 'Solo hoy': Realiza un cambio temporal en el límite de este mazo.
 deck-config-new-cards-ignore-review-limit = Las tarjetas nuevas ignoran el límite de revisión
 deck-config-new-cards-ignore-review-limit-tooltip =
-    Por defecto, el límite de revisión también se aplica a las nuevas tarjetas, y no se mostrarán 
-    nuevas tarjetas cuando se haya alcanzado el límite de revisión. Si esta opción está habilitada,
+    Por defecto el límite de revisión también se aplica a las nuevas tarjetas, y no se mostrarán 
+    nuevas tarjetas cuando se haya alcanzado el límite de revisión. Si esta opción está habilitada
     se mostrarán nuevas tarjetas independientemente del límite de revisión.
+deck-config-apply-all-parent-limits = Límites empiezan desde arriba
+deck-config-apply-all-parent-limits-tooltip =
+    Por defecto los límites diarios de un mazo superior no aplican si estás estudiando desde su submazo.
+    Si está opción está activada los límites empezarán 
+    desde el mazo superior, lo que puede ser útil si deseas estudiar submazos individuales
+    mientras respetas un límite total de tarjetas para el árbol de mazos.
 deck-config-affects-entire-collection = Afecta a toda la colección.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
-deck-config-shared-preset = Preset
+deck-config-shared-preset = Configuración
 deck-config-deck-only = Este mazo
 deck-config-today-only = Solo hoy
 
@@ -57,36 +63,36 @@ deck-config-today-only = Solo hoy
 
 deck-config-learning-steps = Pasos en la etapa de aprendizaje
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Los intervalos suelen ser minutos (por ejemplo, `1m`) o días (por ejemplo, `2d`), pero también se admiten horas (por ejemplo, `1h`) y segundos (por ejemplo, `30s`).
+-deck-config-delay-hint = Los intervalos suelen ser minutos (por ejemplo, '1m') o días (por ejemplo, '2d'), pero también se admiten horas (por ejemplo, '1h') y segundos (por ejemplo, '30s').
 deck-config-learning-steps-tooltip =
     Uno o más intervalos, separados por espacios. El primer intervalo, que por 
-    defecto es de 1 minuto, será usado cuando usted presione el botón `Otra vez` 
-    en una nueva tarjeta. El botón `Bien` avanzará al siguiente paso, que es de 
+    defecto es de 1 minuto, será usado cuando usted presione el botón 'Otra vez' 
+    en una nueva tarjeta. El botón 'Bien' avanzará al siguiente paso, que es de 
     10 minutos por defecto. Una vez superados todos los pasos, la tarjeta se 
     convertirá en una tarjeta de revisión, y aparecerá en un día diferente. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     El número de días a esperar antes de volver a mostrar una tarjeta, después que el botón 
     'Bien' se presiona en el último paso de la etapa de aprendizaje.
 deck-config-easy-interval-tooltip =
-    El número de días a esperar antes de volver a mostrar una tarjeta, después de presionar el botón `Fácil`
+    El número de días a esperar antes de volver a mostrar una tarjeta, después de presionar el botón 'Fácil'
     para inmediatamente remover una tarjeta de la etapa de aprendizaje.
 deck-config-new-insertion-order = Orden de inserción
 deck-config-new-insertion-order-tooltip =
-    Controla la posición (revisar #) que se asignan a las nuevas tarjetas cuando usted agrega nuevas tarjetas.
+    Controla la posición (revisión #) que se asignan a las nuevas tarjetas cuando usted agrega nuevas tarjetas.
     Las tarjetas con un número de revisión más bajo se mostrarán primero al estudiar.
     Cambiar esta opción actualizará automáticamente la posición de las nuevas tarjetas ya existentes.
 deck-config-new-insertion-order-sequential = Secuencial (las tarjetas más antiguas primero)
 deck-config-new-insertion-order-random = Aleatorio
 deck-config-new-insertion-order-random-with-v3 =
-    Cuando el panificador V3 está habilitado, es mejor mantener seleccionado
-    la opción "Secuencial" y en su lugar, ajustar el Orden de visualización.
+    Cuando el planificador v3 está habilitado, es mejor mantener seleccionado
+    la opción "Secuencial" y en su lugar, ajustar el orden de visualización.
 
 ## Lapses section
 
 deck-config-relearning-steps = Pasos de reaprendizaje
 deck-config-relearning-steps-tooltip =
-    Cero o más intervalos, separados por espacios. De manera predeterminada, al presionar el 
-    botón "Otra vez" en una tarjeta de revisión, esta se mostrará nuevamente 10 minutos después.
+    Cero o más intervalos, separados por espacios. Por defecto al presionar el 
+    botón “Otra vez” en una tarjeta de revisión, esta se mostrará nuevamente 10 minutos después.
     Si no se proporciona ningún intervalo, se cambiará el intervalo de la tarjeta, sin entrar en reaprendizaje. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     La cantidad de veces que se debe presionar "Otra vez" en una tarjeta de revisión 
@@ -202,7 +208,6 @@ deck-config-sort-order-ascending-intervals = Intervalos ascendentes
 deck-config-sort-order-descending-intervals = Intervalos descendentes
 deck-config-sort-order-ascending-ease = Facilidad ascendente
 deck-config-sort-order-descending-ease = Facilidad descendente
-deck-config-sort-order-relative-overdueness = Retraso relativo
 deck-config-display-order-will-use-current-deck =
     Anki usará el orden de visualización del mazo seleccionado
     para estudiar, y no los submazos que pueda tener.
@@ -256,6 +261,9 @@ deck-config-new-interval-tooltip = El multiplicador aplicado a un intervalo de r
 deck-config-minimum-interval-tooltip = El intervalo mínimo dado a una tarjeta de revisión después de responder `Otra vez`.
 deck-config-custom-scheduling = Planificación personalizada
 deck-config-custom-scheduling-tooltip = Afecta a toda la colección. ¡Úselo bajo su propio riesgo!
+
+# Easy Days section
+
 
 ## Adding/renaming
 
