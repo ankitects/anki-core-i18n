@@ -13,6 +13,7 @@ exporting-include = <b>Incluir</b>:
 exporting-include-html-and-media-references = Incluir referencias a HTML y archivos multimedia
 exporting-include-media = Incluir archivos multimedia
 exporting-include-scheduling-information = Incluir información de programación
+exporting-include-deck-configs = Incluir las configuraciones del mazo
 exporting-include-tags = Incluir etiquetas
 exporting-support-older-anki-versions = Compatibilidad con versiones anteriores de Anki (archivos más lentos/más grandes)
 exporting-notes-in-plain-text = Notas en texto plano

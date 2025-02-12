@@ -26,6 +26,7 @@ card-templates-no-front-field = Se espera encontrar un reemplazo de campo en el 
 card-templates-missing-cloze = Se espera encontrar '{ "{{" }cloze:Text{ "}}" }' o similar en el anverso y reverso de la plantilla de tarjeta.
 card-templates-extraneous-cloze = 'cloze:' solo se puede usar en notas de tipo respuesta anidada.
 card-templates-see-preview = Consulte la vista previa para obtener más información.
+card-templates-field-not-found = Campo '{ $field }' no encontrado.
 card-templates-changes-saved = Cambios guardados.
 card-templates-discard-changes = ¿Quieres descartar los cambios?
 card-templates-add-card-type = Añadir tipo de tarjeta...
