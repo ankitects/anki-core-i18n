@@ -414,6 +414,7 @@ deck-config-percent-of-reviews =
         [one] { $pct }% מתוך { $reviews } חזרה
        *[other] { $pct }% מתוך { $reviews } חזרות
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = שפר הגדרות מראש { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = תחילה יש להפעיל את FSRS.
 deck-config-fsrs-params-optimal = נראה כי פרמטרי FSRS כרגע הם אופטימליים.
@@ -425,12 +426,9 @@ deck-config-answer-hard = תשובה קשה
 deck-config-answer-good = תשובה טובה
 deck-config-days-to-simulate = ימים לסימולציה
 deck-config-desired-retention-below-optimal = השמירה הרצויה שלך נמוכה מהאופטימלית. מומלץ להגדיל אותה.
-deck-config-fsrs-simulator-y-axis-title-time = שעת/יום חזרה
-deck-config-fsrs-simulator-y-axis-title-count = כמות/יום חזרה
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = סך הכל שינון
 deck-config-fsrs-simulator-experimental = סימולטור FSRS (ניסיוני)
 deck-config-additional-new-cards-to-simulate = כרטיסים חדשים נוספים לסימולטור
 deck-config-simulate = צור סימולציה
@@ -443,6 +441,9 @@ deck-config-fsrs-simulator-radio-memorized = ניתן לשינון
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = שעת/יום חזרה
+deck-config-fsrs-simulator-y-axis-title-count = כמות/יום חזרה
+deck-config-fsrs-simulator-y-axis-title-memorized = סך הכל שינון
 deck-config-bury-siblings = הטמן אחים
 deck-config-do-not-bury = אל תטמין אחים
 deck-config-bury-if-new = הטמן אם במצב חדש

@@ -35,7 +35,7 @@ importing-map-to = מיפוי ל-{ $val }
 importing-map-to-tags = מיפוי לתגיות
 importing-mapped-to = ממופה ל-<b>{ $val }</b>
 importing-mapped-to-tags = ממופה ל-<b>תגיות</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = מיזוג סוגי רשומות.
 importing-merge-notetypes-help =
     אם מסומן, ואתה או מחבר החפיסה שיניתם את הסכימה של סוג הרשומה, אנקי
@@ -68,6 +68,14 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף ש�
 importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
 # the '|' character
 importing-pipe = צינור
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] רק העמודה הראשונה מוצגת. אם זה לא נראה תקין, נסה לשנות את מפריד השדות.
+        [two] רק שתי העמודות הראשונות מוצגות. אם זה לא נראה תקין, נסה לשנות את מפריד השדות.
+       *[other] רק { $count } העמודות הראשונות מוצגות. אם זה לא נראה תקין, נסה לשנות את מפריד השדות.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ישנם { $found } שדות, מצופים { $expected }
 importing-selected-file-was-not-in-utf8 = הקובץ שנבחר אינו בפורמט UTF-8. ראה אודות ייבוא במדריך למשתמש.
 importing-semicolon = פסיק נקודה
