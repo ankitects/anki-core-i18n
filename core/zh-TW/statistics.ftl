@@ -99,7 +99,7 @@ statistics-true-retention-pass = 通過
 statistics-true-retention-fail = 失敗
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = 總計
-statistics-true-retention-count = 答題次數
+statistics-true-retention-count = 計數
 statistics-true-retention-retention = 留存機率
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = 未熟練
