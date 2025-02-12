@@ -4,9 +4,9 @@
 ## Header/footer
 
 # Link to more detailed information in the manual
-help-for-more-info = Para obtener más información, consulte { $link } en el manual.
+help-for-more-info = Para obtener más información, consulta { $link } en el manual.
 # Tooltip for links to the manual
-help-open-manual-chapter = Abrir { $name } en el manual del usuario
+help-open-manual-chapter = Abrir { $name } en el manual
 help-ok = Aceptar
 
 ## Body
@@ -15,4 +15,4 @@ help-ok = Aceptar
 help-no-explanation =
     ¡Vaya! No parece haber una explicación para esta configuración todavía.
     
-    Puede ayudarnos a completar esta página de ayuda en { $link }.
+    Puedes ayudarnos a completar esta página de ayuda en { $link }.

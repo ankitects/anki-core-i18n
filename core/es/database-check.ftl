@@ -1,4 +1,4 @@
-database-check-corrupt = La colección esta corrompida. Por favor reestablécela desde un respaldo.
+database-check-corrupt = La colección esta corrompida. Por favor, reestablécela desde un respaldo.
 database-check-rebuilt = Base de datos reconstruida y optimizada.
 database-check-card-properties =
     { $count ->
@@ -17,8 +17,8 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-        [one] Se encontró { $count } tarjeta con el número de vencimiento >= 1,000,000 - considere reposicionarla en la vista de explorador.
-       *[other] Se encontraron { $count } tarjetas con el número de vencimiento >= 1,000,000 - considere reposicionarlas en la vista de explorador.
+        [one] Se encontró { $count } tarjeta con el número de revisión >= 1,000,000. Considere reposicionarla en la vista de explorador.
+       *[other] Se encontraron { $count } tarjetas con el número de revisión >= 1,000,000. Considere reposicionarlas en la vista de explorador.
     }
 database-check-card-missing-note =
     { $count ->
@@ -51,7 +51,7 @@ database-check-fixed-invalid-ids =
        *[other] Se corrigieron { $count } objetos con marcas de tiempo en el futuro.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Faltan uno o más tipos de notas. A las notas que los usaban se les han asignado nuevos tipos de notas cuyo  nombre empieza con "db-check", pero los nombres de los campos y el diseño de la tarjeta se han perdido, por lo que es mejor que restaures desde una copia de seguridad automática.
+database-check-notetypes-recovered = Faltan uno o más tipos de notas. A las notas que los usaban se les han asignado nuevos tipos de notas cuyo  nombre empieza con “db-check”, pero los nombres de los campos y el diseño de la tarjeta se han perdido, por lo que es mejor que restaures desde una copia de seguridad automática.
 
 ## Progress info
 

@@ -4,10 +4,10 @@ fields-editing-font = Editando fuente
 fields-field = Campo:
 fields-field-name = Nombre del campo:
 fields-description = Descripción
-fields-description-placeholder = Información para mostrar junto al nombre del campo en la pantalla de edición
+fields-description-placeholder = Texto a mostrar dentro del campo cuando está vacío
 fields-fields-for = Campos para { $val }
 fields-font = Fuente:
-fields-new-position-1 = Nueva posición (1...{ $val }):
+fields-new-position-1 = Nueva posición (1…{ $val }):
 fields-notes-require-at-least-one-field = Las notas requieren al menos un campo.
 fields-reverse-text-direction-rtl = Dirección inversa de texto (RTL)
 fields-collapse-by-default = Colapsar por defecto
@@ -20,3 +20,4 @@ fields-name-invalid-letter = El nombre del campo no debe contener  :, ", { "{" }
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
 fields-exclude-from-search = Excluir de búsquedas no especificadas (más lento)
+fields-field-is-required = Este es un campo requerido, y no puede ser eliminado.

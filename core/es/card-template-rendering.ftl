@@ -10,23 +10,23 @@ card-template-rendering-browser-front-side-problem = La plantilla de anverso esp
 card-template-rendering-browser-back-side-problem = La plantilla de reverso específica del navegador tiene un problema:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
-card-template-rendering-no-closing-brackets = Falta '{ $missing }' en '{ $tag }'
+card-template-rendering-no-closing-brackets = Falta “{ $missing }” en “{ $tag }”
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
-card-template-rendering-conditional-not-closed = Falta '{ $missing }'
+card-template-rendering-conditional-not-closed = Falta “{ $missing }”
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
-card-template-rendering-wrong-conditional-closed = Se ha encontrado '{ $found }', pero se esperaba '{ $expected }'
+card-template-rendering-wrong-conditional-closed = Se encontró “{ $found }”, pero se esperaba “{ $expected }”
 # when the user closed a conditional that wasn't open
 # eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
-card-template-rendering-conditional-not-open = Se ha encontrado '{ $found }', pero falta '{ $missing1 }' o '{ $missing2 }'
+card-template-rendering-conditional-not-open = Se encontró “{ $found }”, pero falta “{ $missing1 }” o “{ $missing2 }”
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
-card-template-rendering-no-such-field = Se ha encontrado '{ $found }', pero no hay ningún campo llamado '{ $field }'
+card-template-rendering-no-such-field = Se encontró “{ $found }”, pero no hay ningún campo llamado “{ $field }”
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = El anverso de esta tarjeta está en blanco.
 card-template-rendering-missing-cloze =
-    No se ha encontrado ningúna respuesta anidada número { $number } en la tarjeta.
-    Por favor añade una, o utiliza la herramienta “Tarjetas vacías”.
+    No se ha encontrado ninguna respuesta anidada número { $number } en la tarjeta.
+    Por favor, añade una o utiliza la herramienta “Tarjetas vacías”.

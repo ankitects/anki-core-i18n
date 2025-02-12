@@ -18,19 +18,19 @@ decks-limit-to = Limitar a
 decks-minutes = minutos
 decks-most-lapses = Más veces olvidadas
 decks-new-deck-name = Nombre del nuevo mazo:
-decks-no-deck = [sin baraja]
-decks-oldest-seen-first = Mostrar antes las más viejas
+decks-no-deck = [sin mazo]
+decks-oldest-seen-first = Mostrar antes las vistas hace más tiempo
 decks-order-added = Orden añadido
-decks-order-due = Orden de programadas
+decks-order-due = Orden de revisión
 decks-please-select-something = Por favor, selecciona algo.
 decks-random = Aleatorio
-decks-repeat-failed-cards-after = Repetir tarjetas fallidas tras
+decks-repeat-failed-cards-after = Repetir tarjetas falladas tras
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = Retraso para { $button }
 decks-reschedule-cards-based-on-my-answers = Reprogramar tarjetas en función de mis respuestas en este mazo
 decks-study = Estudiar
 decks-study-deck = Estudiar mazo
-decks-filtered-deck-search-empty = No se encontraron tarjetas coincidentes. Algunas tarjetas pueden quedar excluidas de la búsqueda porque están suspendidas o en un mazo filtrado diferente.
+decks-filtered-deck-search-empty = No se encontraron tarjetas coincidentes. Algunas tarjetas pueden haber sido excluidas porque están suspendidas o en un mazo filtrado diferente.
 decks-unmovable-cards = Mostrar cualquier tarjeta excluida
 decks-learn-header = Aprender
 # The count of cards waiting to be reviewed

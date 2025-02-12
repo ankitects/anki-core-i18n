@@ -69,7 +69,7 @@ browsing-optional-filter = Filtro opcional:
 browsing-override-back-template = Reemplazar plantilla del reverso:
 browsing-override-font = Reemplazar fuente:
 browsing-override-front-template = Reemplazar plantilla del anverso:
-browsing-please-give-your-filter-a-name = Por favor dale un nombre al filtro:
+browsing-please-give-your-filter-a-name = Por favor, dale un nombre al filtro:
 browsing-preview-selected-card = Previsualizar la tarjeta seleccionada ({ $val })
 browsing-question = Pregunta
 browsing-queue-bottom = Última de la cola: { $val }
@@ -90,7 +90,7 @@ browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Filtro de barra lateral
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Campo para ordenar
-browsing-sorting-on-this-column-is-not = No es posible ordenar según esta columna. Por favor elige otra.
+browsing-sorting-on-this-column-is-not = No es posible ordenar según esta columna. Por favor, elige otra.
 browsing-start-position = Posición de comienzo:
 browsing-step = Paso:
 browsing-suspended = Suspendidas
