@@ -19,5 +19,5 @@ fields-name-first-letter-not-valid = Назва поля не може почи�
 fields-name-invalid-letter = Назва поля не може містити :, ", { "{" } чи { "}" }.
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
-fields-exclude-from-search = Виключити з загального пошуку (повільніше)
+fields-exclude-from-search = Виключити з некваліфікованого пошуку (повільніше)
 fields-field-is-required = Це поле є обов’язковим, його не можна видаляти.
