@@ -186,8 +186,37 @@ importing-conflicting-notes-skipped =
         [one] { $count } nota no fue importada, pues su tipo de nota cambió.
        *[other] { $count } notas no fueron importadas, pues sus tipos de nota cambiaron.
     }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] { $count } nota no fue importada, porque su tipo de nota cambió, y “{ importing-merge-notetypes }” no estaba activado.
+       *[other] { $count } notas no fueron importadas, porque su tipo de nota cambió, y “{ importing-merge-notetypes }” no estaba activado.
+    }
+importing-import-log = Bitácora de importación
+importing-no-notes-in-file = No se encontraron notas en el archivo.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] { $notes } nota encontrada en el archivo. De estas:
+       *[other] { $notes } notas encontradas en el archivo. De estas:
+    }
 importing-show = Monstrar
 importing-details = Detalles
+importing-status = Estado
+importing-duplicate-note-added = Nota duplicada añadida
+importing-added-new-note = Nueva nota añadida
+importing-existing-note-skipped = Nota omitida, porque ya hay una copia actualizada en tu colección
+importing-note-skipped-update-due-to-notetype = Nota no actualizada, porque el tipo de nota ha sido modificado desde que importaste la nota por primera vez
+importing-note-skipped-update-due-to-notetype2 = Nota no actualizada, porque el tipo de nota ha sido modificado desde que importaste la nota por primera vez, y “{ importing-merge-notetypes }” no estaba activado
+importing-note-updated-as-file-had-newer = Nota actualizada, pues el archivo tenía una versión más reciente
+importing-note-skipped-due-to-missing-notetype = Nota omitida, pues falta su tipo de nota
+importing-note-skipped-due-to-missing-deck = Nota omitida, pues falta su mazo
+importing-note-skipped-due-to-empty-first-field = Nota omitida, pues su primer campo está vacío
+importing-field-separator-help =
+    El carácter separando los campos en el archivo de texto. Puedes usar la vista previa
+    para verificar que los campos estén separados correctamente.
+    
+    Por favor, ten en cuenta que si este carácter aparece en cualquier campo, dicho campo
+    debe encontrarse entre comillas, de acuerdo con el estándar CSV. Los programas de hoja de cálculo
+    como LibreOffice harán esto automáticamente.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
