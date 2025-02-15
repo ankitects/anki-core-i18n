@@ -43,22 +43,6 @@ statistics-in-time-span-years =
         [one] em { $amount } ano
        *[other] em { $amount } anos
     }
-statistics-cards =
-    { $cards ->
-        [one] { $cards } ficha
-       *[other] { $cards } fichas
-    }
-statistics-notes =
-    { $notes ->
-        [one] { $notes } nota
-       *[other] { $notes } notas
-    }
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews =
-    { $reviews ->
-        [one] { $reviews } revisão
-       *[other] { $reviews } revisões
-    }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -90,6 +74,25 @@ statistics-studied-today =
             { statistics-in-time-span-years } hoje
             ({ $secs-per-card }s/ficha)
     }
+
+##
+
+statistics-cards =
+    { $cards ->
+        [one] { $cards } ficha
+       *[other] { $cards } fichas
+    }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } nota
+       *[other] { $notes } notas
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } revisão
+       *[other] { $reviews } revisões
+    }
 statistics-today-title = Hoje
 statistics-today-again-count = Contagem de repetições:
 statistics-today-type-counts = Aprendidos: { $learnCount }, Revistos: { $reviewCount }, Reaprendidos: { $relearnCount }, Filtrados: { $filteredCount }
@@ -105,18 +108,42 @@ statistics-counts-buried-cards = Ocultas
 statistics-counts-filtered-cards = Filtradas
 statistics-counts-learning-cards = Aprendizagem
 statistics-counts-title = Congagem de Fichas
+statistics-counts-separate-suspended-buried-cards = Separar fichas suspensas das adiadas
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = Retenção Real
 statistics-true-retention-subtitle = Taxa de acerto para fichas com intervalo ≥ 1 dia.
 statistics-true-retention-range = intervalo
 statistics-true-retention-pass = Certo
 statistics-true-retention-fail = Errado
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Total de fichas
 statistics-true-retention-retention = Retenção
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Jovem
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Maduro
 statistics-true-retention-today = Hoje
 statistics-true-retention-yesterday = Ontem
 statistics-true-retention-week = Na última semana
 statistics-true-retention-month = No último mês
 statistics-true-retention-year = No último ano
 statistics-true-retention-all-time = Sempre
+
+##
+
 statistics-range-all-time = sempre
 statistics-range-1-year-history = Nos últimos 12 meses
 statistics-range-all-history = histórico completo
@@ -210,6 +237,3 @@ statistics-average-difficulty = Dificuldade média
 statistics-save-pdf = Guardar PDF
 statistics-saved = Guardado.
 statistics-stats = estatísticas
-statistics-true-retention-total = Total de fichas
-statistics-true-retention-young = Jovem
-statistics-true-retention-mature = Maduro

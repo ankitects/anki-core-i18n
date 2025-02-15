@@ -35,9 +35,13 @@ card-stats-fsrs-forgetting-curve-first-week = Primeira Semana
 card-stats-fsrs-forgetting-curve-first-month = Primeiro Mês
 card-stats-fsrs-forgetting-curve-first-year = Primeiro Ano
 card-stats-fsrs-forgetting-curve-all-time = Desde Sempre
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Probabilidade de Lembrar
+card-stats-fsrs-forgetting-curve-desired-retention = Retenção desejada
 
 ## Window Titles
 
 card-stats-current-card = Ficha Actual ({ $context })
 card-stats-previous-card = Ficha Anterior ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Probabilidade de Lembrar

@@ -79,6 +79,15 @@ deck-config-relearning-steps = Etapas de reaprendizagem
 deck-config-relearning-steps-tooltip =
     Zero ou mais intervalos, separados por espaços. Por defeito, quando pressiona o botão `Novamente` numa ficha a rever esta será apresentada novamente em 10 minutos.
     Se não forem introduzidos intervalos, a ficha terá o seu intervalo alterado, sem entrar na reaprendizagem. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    O número de vezes que o botão `Outra vez` tem de ser pressionado para que uma ficha seja marcada como sanguessuga.
+    Sanguessugas são fichas que consomem muito tempo.
+    Quando uma for assim marcada, deve analisá-la para tentar perceber o problema, e depois corrigi-la, apagá-la ou arranjar um nova mnemónica.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Apenas etiqueta`: Adicionar uma etiqueta 'sanguessuga' à nota, e apresentar uma janela de informação.
+    
+    `Suspender ficha`: Para além de marcar a nota com a etiqueta, suspender ainda a ficha até que esta seja manualmente activa.
 
 ## Burying section
 
@@ -96,6 +105,8 @@ deck-config-bury-interday-learning-tooltip =
 
 ## Ordering section
 
+deck-config-ordering-title = Ordem de exibição
+deck-config-new-gather-priority = Ordem de recolha para novas fichas
 deck-config-new-gather-priority-tooltip-2 =
     `Baralho`: recolhe as fichas de cada um dos sub-baralhos por ordem, a começar vindo de cima. As fichas de cada um dos sub-baralhos são recolhidas por ordem ascendente de posição. Se o limite diário do baralho for atingido, podem não ser recolhidas fichas de todos os sub-baralhos. A recolha utilizando esta ordem é mais rápida em grandes colecções, e prioriza os sub-baralhos no topo.
     
