@@ -422,6 +422,7 @@ deck-config-percent-of-reviews =
         [one] { $pct }% de { $reviews } avaliação
        *[other] { $pct }% de { $reviews } avaliações
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Otimizando predefinição { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS deve ser ativado primeiro.
 deck-config-fsrs-params-optimal = Os parâmetros do FSRS parecem estar otimizados no momento.
@@ -433,12 +434,9 @@ deck-config-answer-hard = Resposta Difícil
 deck-config-answer-good = Resposta Boa
 deck-config-days-to-simulate = Dias para simular
 deck-config-desired-retention-below-optimal = Sua retenção desejada está abaixo do ótimo. É recomendado aumentá-la.
-deck-config-fsrs-simulator-y-axis-title-time = Revisão Hora/Dia
-deck-config-fsrs-simulator-y-axis-title-count = Revisão Contagem/Dia
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = Total Memorizado
 deck-config-fsrs-simulator-experimental = Simulador de FSRS (experimental)
 deck-config-additional-new-cards-to-simulate = Novos cartões adicionais para simular
 deck-config-simulate = Simular
@@ -451,6 +449,9 @@ deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = Revisão Hora/Dia
+deck-config-fsrs-simulator-y-axis-title-count = Revisão Contagem/Dia
+deck-config-fsrs-simulator-y-axis-title-memorized = Total Memorizado
 deck-config-bury-siblings = Enterrar irmãos
 deck-config-do-not-bury = Não enterrar irmãos
 deck-config-bury-if-new = Enterrar se novo
