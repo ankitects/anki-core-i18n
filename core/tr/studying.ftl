@@ -1,5 +1,7 @@
 studying-again = Tekrar
 studying-all-buried-cards = Tüm Gizlenen Kartlar
+studying-audio-5s = Ses -5sn
+studying-audio-and5s = Ses +5sn
 studying-buried-siblings = Gizlenen Kardeşler
 studying-bury = Göm
 studying-bury-card = Kartı Göm
@@ -28,6 +30,7 @@ studying-mark-note = Notu İşaretle
 studying-more = Diğer
 studying-no-cards-are-due-yet = Henüz zamanı gelmiş kart yok.
 studying-note-suspended = Not askıya alındı.
+studying-pause-audio = Sesi Duraklat
 studying-please-run-toolsempty-cards = Lütfen Araçlar>Boş Kartlar çalıştırın
 studying-record-own-voice = Kendi Sesiniz Kaydedin
 studying-replay-own-voice = Kendi Sesinizi Tekrar Oynat
@@ -36,6 +39,7 @@ studying-space = Boşluk
 studying-study-now = Şimdi Çalış
 studying-suspend = Askıya Al
 studying-suspend-note = Notu Askıya Al
+studying-this-is-a-special-deck-for = Bu, olağan planın dışında çalışmak için özel bir destedir.
 studying-to-review = İncelenecek
 studying-type-answer-unknown-field = Cevap yazın: bilinmeyen alan { $val }
 studying-unbury = Gömmeyi geri̇ al
@@ -51,3 +55,5 @@ studying-minute =
         [one] { $count } dakika.
        *[other] { $count } dakika.
     }
+studying-question-time-elapsed = Soru süresi geçti
+studying-answer-time-elapsed = Cevap süresi geçen

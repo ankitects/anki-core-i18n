@@ -19,7 +19,7 @@ search-invalid-answer-button = "`{ $context }`" içinde 1-4 arasında cevap dü�
 ## Column labels in browse screen
 
 search-note-modified = Not Düzenlendi
-search-card-modified = Kart Değiştirildi
+search-card-modified = Kart Düzenlendi
 
 ##
 

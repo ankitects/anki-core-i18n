@@ -8,6 +8,7 @@ importing-change = Değiştir
 importing-colon = İki nokta üst üste
 importing-comma = Virgül
 importing-empty-first-field = İlk alanı boşalt  :{ $val }
+importing-field-separator = Alan ayırıcı
 importing-field-mapping = Alan eşleştirme
 importing-field-of-file-is = Dosyanın  <b>{ $val }</b> alanı
 importing-fields-separated-by = İle ayrılmış alanlar: { $val }
@@ -27,6 +28,8 @@ importing-mnemosyne-20-deck-db = Mnemosyne 2.0 Deste (*.db)
 importing-multicharacter-separators-are-not-supported-please = Çok karakterli ayırıcılar desteklenmiyor. Lütfen yalnızca bir karakter girin.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlenmiş Anki Destesi/Koleksiyonu (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Dersi (*.pau.gz)
+# the '|' character
+importing-pipe = Dikey çizgi
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' içinde { $found } alan vardı, { $expected } beklendi
 importing-selected-file-was-not-in-utf8 = Seçilen dosya UTF-8 biçiminde değildi. Lütfen kılavuzdaki içe aktarma bölümüne bakın.
 importing-semicolon = Noktalı Virgül
