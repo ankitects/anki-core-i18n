@@ -355,6 +355,7 @@ deck-config-percent-of-reviews =
         [one] { $pct } % { $reviews } kertauksesta
        *[other] { $pct } % { $reviews } kertauksesta
     }
+deck-config-percent-input = { $pct } %
 deck-config-optimizing-preset = Optimoidaan esiasetuksia { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS on otettava käyttöön ensin.
 deck-config-fsrs-params-optimal = FSRS:n painokertoimet vaikuttavat tällä hetkellä optimaalisilta.
@@ -366,12 +367,9 @@ deck-config-answer-hard = Vastaa Vaikea
 deck-config-answer-good = Vastaa Hyvä
 deck-config-days-to-simulate = Simuloitavien päivien määrä
 deck-config-desired-retention-below-optimal = Valitsemasi retentio on alle optimitason. Sen korottaminen on suositeltavaa.
-deck-config-fsrs-simulator-y-axis-title-time = Kertausaika / päivä
-deck-config-fsrs-simulator-y-axis-title-count = Kertausmäärä / päivä
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = Ulkoa opittu yhteensä
 deck-config-fsrs-simulator-experimental = FSRS-simulaattori (kokeellinen)
 deck-config-additional-new-cards-to-simulate = Simulaatioon sisällytettävät uudet lisäkortit
 deck-config-simulate = Simuloi
@@ -384,6 +382,9 @@ deck-config-fsrs-simulator-radio-memorized = Opittu ulkoa
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = Kertausaika / päivä
+deck-config-fsrs-simulator-y-axis-title-count = Kertausmäärä / päivä
+deck-config-fsrs-simulator-y-axis-title-memorized = Ulkoa opittu yhteensä
 deck-config-bury-siblings = Hautaa sisarkortit
 deck-config-do-not-bury = Älä hautaa sisarkortteja
 deck-config-bury-if-new = Hautaa uudet

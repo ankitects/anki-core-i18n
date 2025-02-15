@@ -31,7 +31,7 @@ importing-map-to = Liitä kenttään { $val }
 importing-map-to-tags = Liitä tunnisteisiin
 importing-mapped-to = liitetty kenttään <b>{ $val }</b>
 importing-mapped-to-tags = liitetty <b>tunnisteisiin</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Yhdistä muistiinpanotyypit
 importing-merge-notetypes-help =
     Jos tämä on käytössä, ja sinä tai pakan kirjoittaja muutatte muistiinpanotyypin skeemaa, Anki yhdistää nämä kaksi versiota sen sijaan, että säilyttäisi molemmat.
@@ -63,6 +63,13 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakattu Anki-pakka/koko
 importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
 # the '|' character
 importing-pipe = Putki
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Vain ensimmäinen sarake näytetään. Jos tulos näyttää väärältä, yritä muuttaa kenttien välisenä erottimena käytettävää merkkiä.
+       *[other] Vain ensimmäiset { $count } saraketta näytetään. Jos tulos näyttää väärältä, yritä muuttaa kenttien välisenä erottimena käytettävää merkkiä.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }':ssa oli { $found } kenttää, pitäisi olla { $expected }
 importing-selected-file-was-not-in-utf8 = Valittu tiedosto ei ollut UTF-8-muodossa. Katso käyttöohjeen tuonnista kertova osio.
 importing-semicolon = Puolipiste
