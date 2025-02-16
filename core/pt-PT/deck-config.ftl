@@ -102,6 +102,11 @@ deck-config-bury-review-tooltip = Se as fichas a rever associadas à mesma nota 
 deck-config-bury-interday-learning-tooltip =
     Se as fichas em fase de aprendizagem associadas à mesma nota, com intervalos
     superiores a 1 dia, devem ser adiadas para o próximo dia.
+deck-config-bury-priority-tooltip =
+    Quando o Anki reúne fichas, começa pelas fichas em aprendizagem dentro dum mesmo dia, depois pelas em aprendizagem entre dias, a seguir pelas em revisão, e, no fim, pelas novas fichas.
+    Esta priorização afecta o funcionamento do adiar de fichas:
+    - se tem todas as opções de adiamento activas, a irmã que vem primeiro na lista será apresentada. Por exemplo, uma ficha de revisão tem preferência em relação a uma nova ficha.
+    - irmãs mais à frente na lista não podem adiar tipos de ficha que vêm antes. Por exemplo, se desactivar o adiar de fichas novas, e rever uma ficha nova, não adiará nenhuma ficha em aprendizagem entre dias ou fichas de revisão, e podem ser-lhe apresentadas na mesma sessão uma ficha de revisão irmã e uma nova irmã.
 
 ## Ordering section
 
@@ -123,6 +128,7 @@ deck-config-new-gather-priority-position-lowest-first = Crescente
 deck-config-new-gather-priority-position-highest-first = Descendente
 deck-config-new-gather-priority-random-notes = Notas aleatórias
 deck-config-new-gather-priority-random-cards = Fichas aleatórias
+deck-config-new-card-sort-order = Ordem para fichas novas
 deck-config-sort-order-card-template-then-random = Tipo de ficha, depois aleatório
 deck-config-sort-order-random-note-then-template = Nota aleatória, depois tipo de ficha
 deck-config-sort-order-template-then-gather = Tipo de ficha, depois ordem obtida
