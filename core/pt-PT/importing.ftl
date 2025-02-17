@@ -26,6 +26,12 @@ importing-mapped-to = mapeado para <b>{ $val }</b>
 importing-mapped-to-tags = mapeado para <b>Etiquetas</b>
 importing-mnemosyne-20-deck-db = Baralho Mnemosyne 2.0 (*.db)
 importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+       *[other] Apenas as primeiras { $count } colunas serão apresentada. Se algo não lhe parecer correcto, tente alterar o separador de campos.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tem { $found } campos, de { $expected } esperados
 importing-selected-file-was-not-in-utf8 = O ficheiro selecionado não encontra-se no formato UTF-8. Por favor, veja no manual como fazer a importação corretamente.
 importing-semicolon = Ponto e vírgula

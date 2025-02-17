@@ -12,6 +12,7 @@ preferences-please-restart-anki-to-complete-language = Por favor reinicie o Anki
 preferences-preferences = Preferências
 preferences-scheduling = Reagendar
 preferences-show-next-review-time-above-answer = Mostrar tempo da próxima revisão acima dos botões de resposta
+preferences-show-play-buttons-on-cards-with = Mostrar o botão de reprodução nas fichas com áudio
 preferences-some-settings-will-take-effect-after = Algumas configurações só surtirão efeito quando você reiniciar o Anki
 preferences-synchronize-audio-and-images-too = Sincronizar áudios e imagens também
 preferences-timebox-time-limit = Tempo limite

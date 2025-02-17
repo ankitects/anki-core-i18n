@@ -148,6 +148,12 @@ deck-config-question-action-show-reminder = Mostrar Lembrete
 
 ## Audio section
 
+deck-config-disable-autoplay = Não reproduzir áudio automacticamente
+deck-config-disable-autoplay-tooltip =
+    Quando activado, o Anki não reproduzirá o áudio automacticamente.
+    Este pode ser reproduzido ao tocar no ícone do áudio, ou utilizando o botão Reprod..
+deck-config-skip-question-when-replaying = Passar a pergunta à frente aquando da repetição da resposta
+deck-config-always-include-question-audio-tooltip = Se o áudio da pergunta deve ou não ser reproduzido aquando da da utilização do botão Reprod. enquanto vê o lado da resposta.
 
 ## Advanced section
 
@@ -174,6 +180,7 @@ deck-config-save-button = Guardar
 
 ## Selecting a deck
 
+deck-config-which-deck = Pretende apresentar as definições para que baralho?
 
 ## Messages related to the FSRS scheduler
 
