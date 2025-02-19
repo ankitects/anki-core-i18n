@@ -60,7 +60,7 @@ media-check-all-latex-rendered = すべてのLaTeXをレンダリングしまし
 
 ## Buttons
 
-media-check-delete-unused = 使用されていないファイルを削除
+media-check-delete-unused = 使用なしﾌｧｲﾙを削除
 media-check-render-latex = LaTexをレンダリングする
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = ごみ箱を空にする
@@ -70,4 +70,4 @@ media-check-check-media-action = メディアをチェック
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = missing-media
 # add a tag to notes with missing media
-media-check-add-tag = 欠落ファイルを引用しているノートにタグ
+media-check-add-tag = 欠落ﾌｧｲﾙ名記載ﾉｰﾄにﾀｸﾞ
