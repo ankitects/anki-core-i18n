@@ -75,3 +75,4 @@ actions-nothing-to-redo = قايتىلايدىغان مەشغۇلات يوق
 actions-auto-advance = ئۆزلۈكىدىن كۆرسەت
 actions-auto-advance-activated = ئۆزلۈكىدىن كۆرسىتىش قوزغىتىلدى
 actions-auto-advance-deactivated = ئۆزلۈكىدىن كۆرسىتىش چەكلەندى
+actions-processing = بىر تەرەپ قىلىۋاتىدۇ…

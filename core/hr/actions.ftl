@@ -21,3 +21,4 @@ actions-reposition = Premjesti
 actions-search = Pretraživanje
 actions-shortcut-key = Kratica: { $val }
 actions-suspend-card = Suspendiraj karticu
+actions-processing = Obrađujem...

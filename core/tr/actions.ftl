@@ -75,3 +75,4 @@ actions-nothing-to-redo = Yeniden yapılacak bir şey yok.
 actions-auto-advance = Otomatik İlerleme
 actions-auto-advance-activated = Otomakik İlerleme etkinleştirildi
 actions-auto-advance-deactivated = Otomakik İlerleme devre dışı bırakıldı
+actions-processing = İşleniyor...

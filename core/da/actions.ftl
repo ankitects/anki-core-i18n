@@ -73,3 +73,4 @@ actions-nothing-to-undo = Intet at fortryde
 actions-nothing-to-redo = Intet at omgøre
 actions-auto-advance-activated = Auto Advance stået til
 actions-auto-advance-deactivated = Auto Advance slået fra
+actions-processing = Behandler...

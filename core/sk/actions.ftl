@@ -30,3 +30,4 @@ actions-save = Uložiť
 actions-search = Hľadať
 actions-shortcut-key = Klávesová skratka: { $val }
 actions-suspend-card = Dať kartu bokom
+actions-processing = Spracováva sa...

@@ -70,3 +70,4 @@ actions-flag-purple = ବାଇଗଣୀ
 actions-set-flag = ପତାକା ନ୍ୟସ୍ତ କରନ୍ତୁ
 actions-nothing-to-undo = ପୂର୍ବବତ୍ କରିବା ପାଇଁ କିଛି ନାହିଁ
 actions-nothing-to-redo = ପୁନଃକରଣ କରିବା ପାଇଁ କିଛି ନାହିଁ
+actions-processing = ପ୍ରକ୍ରିୟାରତ...

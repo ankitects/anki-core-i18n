@@ -74,3 +74,4 @@ actions-nothing-to-redo = Nincs mit újracsinálni
 actions-auto-advance = Autómatikus előrelépés
 actions-auto-advance-activated = Autómatikus előrelépés bekapcsolva
 actions-auto-advance-deactivated = Autómatikus előrelépés kikapcsolva
+actions-processing = Feldolgozás…

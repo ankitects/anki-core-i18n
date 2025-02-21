@@ -92,3 +92,4 @@ actions-nothing-to-redo = Nichts zum Wiederherstellen
 actions-auto-advance = Automatisches Aufdecken
 actions-auto-advance-activated = Automatisches Aufdecken aktiviert
 actions-auto-advance-deactivated = Automatisches Aufdecken deaktiviert
+actions-processing = Verarbeitung läuft …

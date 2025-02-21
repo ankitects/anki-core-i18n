@@ -75,3 +75,4 @@ actions-nothing-to-redo = やり直すものがありません
 actions-auto-advance = カードの自動送り
 actions-auto-advance-activated = カードの自動送りを開始しました
 actions-auto-advance-deactivated = カードの自動送りを停止しました
+actions-processing = 処理中...

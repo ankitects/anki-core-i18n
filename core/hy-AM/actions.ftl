@@ -30,3 +30,4 @@ actions-save = Պահել
 actions-search = Որոնում
 actions-shortcut-key = Ստեղանաշարի ստեղնը՝ { $val }
 actions-suspend-card = Հեռացնել քարտը
+actions-processing = Մշակում...

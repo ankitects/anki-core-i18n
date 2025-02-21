@@ -61,3 +61,4 @@ actions-flag-pink = പിങ്ക്
 actions-flag-turquoise = നീലരത്നം
 actions-flag-purple = പര്‍പ്പിള്‍
 actions-set-flag = ഫ്ലാഗ് സജ്ജമാക്കുക
+actions-processing = പ്രോസസ്സ് ചെയ്യുന്നു...

@@ -70,3 +70,4 @@ actions-set-flag = Socraigh Bratach
 actions-nothing-to-undo = Gan dada le cealú
 actions-nothing-to-redo = Gan dada le hathdhéanamh
 actions-auto-advance = Ar Aghaidh go hUathoibríoch
+actions-processing = Ag próiseáil...

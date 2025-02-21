@@ -23,3 +23,4 @@ actions-replay-audio = Повторно стартиране на аудиото
 actions-reposition = Разместване
 actions-search = Търсене
 actions-shortcut-key = Бутон за бърз достъп: { $val }
+actions-processing = Обработка…

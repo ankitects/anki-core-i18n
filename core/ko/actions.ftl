@@ -75,3 +75,4 @@ actions-nothing-to-redo = 다시 실행할 사항 없음
 actions-auto-advance = 자동 다음
 actions-auto-advance-activated = 자동 향상 활성화됨
 actions-auto-advance-deactivated = 자동 향상 비활성화됨
+actions-processing = 처리 중...

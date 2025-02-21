@@ -75,3 +75,4 @@ actions-nothing-to-redo = Τίποτα προς ακύρωση αναίρεση�
 actions-auto-advance = Αυτόματη προώθηση
 actions-auto-advance-activated = Αυτόματη Πρόοδος ενεργοποιημένη
 actions-auto-advance-deactivated = Αυτόματη Πρόοδος απενεργοποιημένη
+actions-processing = Επεξεργασία...

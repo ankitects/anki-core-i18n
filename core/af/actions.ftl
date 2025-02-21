@@ -29,3 +29,4 @@ actions-reposition = Herposisioneer
 actions-search = Soek
 actions-shortcut-key = Kortpad sleutel: { $val }
 actions-suspend-card = Skort Kaart Op
+actions-processing = Verwerk tans...

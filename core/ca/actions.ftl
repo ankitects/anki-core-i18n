@@ -75,3 +75,4 @@ actions-nothing-to-redo = Res que refer
 actions-auto-advance = Avançament automàtic
 actions-auto-advance-activated = S’ha activat l’avançament automàtic
 actions-auto-advance-deactivated = S’ha desactivat l’avançament automàtic
+actions-processing = S'està processant…

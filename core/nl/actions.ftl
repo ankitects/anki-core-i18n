@@ -57,3 +57,4 @@ actions-flag-red = Rood
 actions-flag-orange = Oranje
 actions-flag-green = Groen
 actions-flag-blue = Blauw
+actions-processing = Bezig met verwerken...

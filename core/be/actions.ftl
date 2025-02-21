@@ -71,3 +71,4 @@ actions-set-flag = Задаць сцяжок
 actions-nothing-to-undo = Нечага адрабляць
 actions-nothing-to-redo = Нечага ўзнаўляць
 actions-auto-advance = Аўтапрасоўв.
+actions-processing = Апрацоўка...

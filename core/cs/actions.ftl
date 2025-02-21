@@ -73,3 +73,4 @@ actions-set-flag = Nastavit příznak
 actions-auto-advance = Automatický posun
 actions-auto-advance-activated = Automatický posun povolen
 actions-auto-advance-deactivated = Automatický posun zakázán
+actions-processing = Zpracovává se...

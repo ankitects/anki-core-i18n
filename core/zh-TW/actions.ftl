@@ -75,3 +75,4 @@ actions-nothing-to-redo = 沒有可重做的動作
 actions-auto-advance = 自動前進
 actions-auto-advance-activated = 已啟用自動前進
 actions-auto-advance-deactivated = 已停用自動前進
+actions-processing = 處理中...

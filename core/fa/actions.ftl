@@ -75,3 +75,4 @@ actions-nothing-to-redo = تکرار ممکن نیست
 actions-auto-advance = پیشروی خودکار
 actions-auto-advance-activated = پیشروی خودکار: روشن
 actions-auto-advance-deactivated = پیشروی خودکار: خاموش
+actions-processing = درحال پردازش...

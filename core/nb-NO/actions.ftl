@@ -68,3 +68,4 @@ actions-flag-pink = Rosa
 actions-flag-turquoise = Turkis
 actions-flag-purple = Lilla
 actions-set-flag = Tilføy flagg
+actions-processing = Behandler...

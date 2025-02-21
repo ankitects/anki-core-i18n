@@ -75,3 +75,4 @@ actions-nothing-to-redo = Nenio por refari
 actions-auto-advance = Aŭtomata malkaŝo
 actions-auto-advance-activated = Aŭtomata malkaso estas aktiva
 actions-auto-advance-deactivated = Aŭtomata malkaso estas malaktiva
+actions-processing = Laborado...

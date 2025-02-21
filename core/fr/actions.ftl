@@ -75,3 +75,4 @@ actions-nothing-to-redo = Rien à annuler
 actions-auto-advance = Avance automatique
 actions-auto-advance-activated = Avance automatique activée
 actions-auto-advance-deactivated = Avance automatique désactivée
+actions-processing = Traitement...

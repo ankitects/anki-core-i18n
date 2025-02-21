@@ -75,3 +75,4 @@ actions-nothing-to-redo = لا يوجد أي إجراء لإعادة تطبيق�
 actions-auto-advance = تقديم تلقائي
 actions-auto-advance-activated = تم تفعيل التقديم التلقائي
 actions-auto-advance-deactivated = تم تعطيل التقديم التلقائي
+actions-processing = تجري المعالجة...

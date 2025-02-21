@@ -68,3 +68,4 @@ actions-flag-pink = Roza
 actions-flag-turquoise = Turkizna
 actions-flag-purple = Vijolična
 actions-set-flag = Nastavi zastavico
+actions-processing = V obdelavi ...

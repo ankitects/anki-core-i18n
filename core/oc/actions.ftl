@@ -11,3 +11,4 @@ actions-filter = Filtrar
 actions-help = Ajuda
 actions-import = Importar
 actions-new = Novèl
+actions-processing = Tractament en cors...

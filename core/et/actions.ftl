@@ -6,3 +6,4 @@ actions-export = Eksport
 actions-help = Abi
 actions-import = Impordi
 actions-search = Otsi
+actions-processing = Töötlen...

@@ -69,3 +69,4 @@ actions-set-flag = Setează Fanion
 actions-nothing-to-undo = Nimic de anulat
 actions-nothing-to-redo = Nimic de refăcut
 actions-auto-advance = Avansare automată
+actions-processing = Se procesează...

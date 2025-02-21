@@ -69,3 +69,4 @@ actions-set-flag = Đặt cờ
 actions-nothing-to-undo = Không còn gì để hoàn tác
 actions-nothing-to-redo = Không còn gì để làm lại
 actions-auto-advance = Tự động Nâng cao
+actions-processing = Đang xử lý...

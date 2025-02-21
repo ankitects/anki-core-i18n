@@ -75,3 +75,4 @@ actions-nothing-to-redo = Niente da ripristinare
 actions-auto-advance = Avanzamento automatico
 actions-auto-advance-activated = Avanzamento automatico abilitato
 actions-auto-advance-deactivated = Avanzamento automatico disabilitato
+actions-processing = Elaborazione in corso...

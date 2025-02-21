@@ -63,3 +63,4 @@ actions-flag-pink = Arrosa
 actions-flag-turquoise = Turkesa
 actions-flag-purple = Morea
 actions-set-flag = Ezarri bandera
+actions-processing = Prozesatzen...

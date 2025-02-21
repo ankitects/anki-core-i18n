@@ -75,3 +75,4 @@ actions-nothing-to-redo = Ei uudelleen tehtävää toimintoa
 actions-auto-advance = Autom. eteneminen
 actions-auto-advance-activated = Automaattinen eteneminen käytössä
 actions-auto-advance-deactivated = Automaattinen eteneminen pois käytöstä
+actions-processing = Käsitellään...

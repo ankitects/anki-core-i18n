@@ -75,3 +75,4 @@ actions-nothing-to-redo = Нічого повторити
 actions-auto-advance = Автоперехід
 actions-auto-advance-activated = Автоперехід ввімкнено
 actions-auto-advance-deactivated = Автоперехід вимкнено
+actions-processing = Обробка даних...

@@ -75,3 +75,4 @@ actions-nothing-to-redo = Nada a refazer
 actions-auto-advance = Avanço Automático
 actions-auto-advance-activated = Avanço Automático Activado
 actions-auto-advance-deactivated = Avanço Automático Desactivado
+actions-processing = Processando...

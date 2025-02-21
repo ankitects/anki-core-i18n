@@ -17,3 +17,4 @@ actions-options = पर्याय
 
 ## Flags
 
+actions-processing = विश्लेषण करत आहे...

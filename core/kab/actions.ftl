@@ -20,3 +20,4 @@ actions-preview = Taskant
 actions-rename = Beddel isem
 actions-save = Sekles
 actions-search = Nadi
+actions-processing = Asesfer n { $val }

@@ -24,3 +24,4 @@ actions-reposition = Reposiciónar
 actions-search = Busca
 actions-shortcut-key = Tecla de atallo: { $val }
 actions-suspend-card = Suspender tarxeta
+actions-processing = Procesando...

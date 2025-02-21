@@ -92,3 +92,4 @@ actions-nothing-to-redo = Inget att göra om
 actions-auto-advance = Automatisk frammatning
 actions-auto-advance-activated = Automatisk frammatning aktiverad
 actions-auto-advance-deactivated = Automatisk frammatning avaktiverad
+actions-processing = Behandlar...

@@ -29,3 +29,4 @@ actions-reposition = nu basti lo se pormoi
 actions-save = rejgau
 actions-search = sisku
 actions-suspend-card = mipri pa karda
+actions-processing = .i ca'o gunka

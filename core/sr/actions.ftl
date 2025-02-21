@@ -25,3 +25,4 @@ actions-save = Сачувај
 actions-search = Тражи
 actions-shortcut-key = На тастатури: { $val }
 actions-suspend-card = Суспендуј карту
+actions-processing = Обрада...
