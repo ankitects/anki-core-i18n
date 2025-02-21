@@ -306,6 +306,7 @@ deck-config-easy-days-normal = Звичайний
 deck-config-easy-days-reduced = Скорочений
 deck-config-easy-days-minimum = Мінімум
 deck-config-easy-days-no-normal-days = '{ deck-config-easy-days-normal }' повинен бути хоча б одним днем
+deck-config-easy-days-change = Поточні пригадування не буде переплановано допоки у налаштуваннях ВПІП увімкнено '{ deck-config-reschedule-cards-on-change }'
 
 ## Adding/renaming
 
