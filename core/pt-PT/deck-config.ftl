@@ -163,14 +163,31 @@ deck-config-review-mix-mix-with-reviews = Misturar com revisões
 deck-config-review-mix-show-after-reviews = Mostrar depois das revisões
 deck-config-review-mix-show-before-reviews = Mostrar antes das revisões
 deck-config-review-sort-order = Ordem das revisões
+deck-config-review-sort-order-tooltip =
+    A ordenação padrão prioriza fichas que estão há mais tempo à espera, 
+    garantido que as mais antigas vão aparecer primeiro, mesmo que tenha deixado
+    revisões por fazer. Se tiver uma grande número de fichas para trás, 
+    ou desejar ver as fichas por ordem de sub-baralho, pode preferir as ordenações
+    alternativas.
+deck-config-sort-order-due-date-then-random = Data de revisão, depois aleatória
+deck-config-sort-order-due-date-then-deck = Data de revisão, depois baralho
+deck-config-sort-order-deck-then-due-date = Baralho, depois data de revisão
+deck-config-sort-order-ascending-intervals = Intervalos crescentes
+deck-config-sort-order-descending-intervals = Intervalos decrescentes
+deck-config-sort-order-ascending-ease = Aumentando a facilidade
+deck-config-sort-order-descending-ease = Diminuindo a facilidade
 deck-config-sort-order-ascending-difficulty = Fichas fáceis primeiro
 deck-config-sort-order-descending-difficulty = Fichas difíceis primeiro
+deck-config-sort-order-retrievability-ascending = Aumentando a facilidade de recolha
+deck-config-sort-order-retrievability-descending = Diminuindo a facilidade de recolha
 deck-config-display-order-will-use-current-deck =
     O Anki vai utilizar a ordem de exibição do baralho que
     seleccionou para estudar, e não sub-baralhos que este possa ter.
 
 ## Timer section
 
+deck-config-timer-title = Temporizadores
+deck-config-maximum-answer-secs = Número máximo de segundos para responder
 
 ## Auto Advance section
 
