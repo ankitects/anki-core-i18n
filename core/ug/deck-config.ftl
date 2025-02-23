@@ -199,6 +199,7 @@ deck-config-easy-days-normal = ئادەتتىكى
 deck-config-easy-days-reduced = ئازايتىلدى
 deck-config-easy-days-minimum = ئەڭ ئاز
 deck-config-easy-days-no-normal-days = كەم دېگەندە بىر كۈن «{ deck-config-easy-days-normal }» دەپ تەڭشىلىشى كېرەك.
+deck-config-easy-days-change = مەۋجۇت تەكرارلايدىغانلار FSRS تاللانمىسىدىكى «{ deck-config-reschedule-cards-on-change }» قوزغىتىلمىغۇچە قايتا كۈنتەرتىپلەنمەيدۇ.
 
 ## Adding/renaming
 
