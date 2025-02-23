@@ -193,6 +193,7 @@ deck-config-easy-days-normal = 正常
 deck-config-easy-days-reduced = 減少
 deck-config-easy-days-minimum = 最少
 deck-config-easy-days-no-normal-days = 至少應有一天設定為「{ deck-config-easy-days-normal }」。
+deck-config-easy-days-change = 需要在 FSRS 選項中啟用「{ deck-config-reschedule-cards-on-change }」才會重新排程現有的複習卡。
 
 ## Adding/renaming
 
