@@ -129,9 +129,40 @@ deck-config-new-gather-priority-position-highest-first = Descendente
 deck-config-new-gather-priority-random-notes = Notas aleatórias
 deck-config-new-gather-priority-random-cards = Fichas aleatórias
 deck-config-new-card-sort-order = Ordem para fichas novas
+deck-config-new-card-sort-order-tooltip-2 =
+    `Tipo de ficha, depois ordem de recolha`: Mostrar fichas ordenadas por tipo de ficha.
+    Fichas do mesmo tipo são apresentadas na ordem em que foram recolhidas.
+    Se tem desactivada a opção de adiar irmãs, isto assegurará que todas as fichas frente→verso são vistas antes de qualquer ficha verso→frente.
+    Isto é útil para que sejam apresentadas todas as fichas da mesma nota na mesma sessão, mas não demasiado perto umas das outras.
+    
+    `Ordem de recolha`: Mostrar fichas exactamente na ordem em que foram recolhidas.
+    Se tem desactivada a opção de adiar irmãs, normalmente, isto resultará em que sejam apresentadas todas as fichas duma mesma nota seguidas umas às outras.
+    
+    `Tipo de ficha, depois aleatória`: Mostrar fichas ordenadas por tipo de ficha.
+    Fichas do mesmo tipo são apresentadas de forma aleatória.
+    Este tipo de ordenação é útil se não quer que fichas irmãs sejam apresentadas umas a seguir às outras, mas quer à mesma que as fichas sejam apresentadas de forma aleatória.
+    
+    `Nota aleatória, depois tipo de ficha`: São escolhidas notas de forma aleatória, e depois são apresentadas todas as suas fichas.
+    
+    `Aleatória`: Mostrar fichas de forma aleatória.
 deck-config-sort-order-card-template-then-random = Tipo de ficha, depois aleatório
 deck-config-sort-order-random-note-then-template = Nota aleatória, depois tipo de ficha
+deck-config-sort-order-random = Aleatória
 deck-config-sort-order-template-then-gather = Tipo de ficha, depois ordem obtida
+deck-config-sort-order-gather = Ordem de recolha
+deck-config-new-review-priority = Ordem novas/revisão
+deck-config-new-review-priority-tooltip = Quando mostrar fichas novas em relação a fichas de revisão.
+deck-config-interday-step-priority = Ordem de fichas em aprendizagem entre dias/revisão
+deck-config-interday-step-priority-tooltip =
+    Quando apresentar fichas em (re-)aprendizagem entre vários dias.
+    
+    O limite de revisão é sempre aplicado primeiso a fichas em aprendizagem entre dias, 
+    e só depois a fichas de revisão. Esta opção controla a ordem em que as fichas recolhidas são apresentadas, 
+    mas fichas em aprendizagem entre dias serão sempre recolhidas primeiro.
+deck-config-review-mix-mix-with-reviews = Misturar com revisões
+deck-config-review-mix-show-after-reviews = Mostrar depois das revisões
+deck-config-review-mix-show-before-reviews = Mostrar antes das revisões
+deck-config-review-sort-order = Ordem das revisões
 deck-config-sort-order-ascending-difficulty = Fichas fáceis primeiro
 deck-config-sort-order-descending-difficulty = Fichas difíceis primeiro
 deck-config-display-order-will-use-current-deck =
