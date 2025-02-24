@@ -198,8 +198,8 @@ deck-config-sort-order-ascending-ease = Ökande lätthet
 deck-config-sort-order-descending-ease = Minskande lätthet
 deck-config-sort-order-ascending-difficulty = Ökande svårighet
 deck-config-sort-order-descending-difficulty = Minskande svårighet
-deck-config-sort-order-retrievability-ascending = Ökande återkallningsgrad
-deck-config-sort-order-retrievability-descending = Minskande återkallningsgrad
+deck-config-sort-order-retrievability-ascending = Ökande återkallbarhet
+deck-config-sort-order-retrievability-descending = Minskande återkallbarhet
 deck-config-display-order-will-use-current-deck =
     Anki kommer använda visningsordningen från den kortleken
     som har valts, och inte dess eventuella underkortlekar.
@@ -447,12 +447,9 @@ deck-config-answer-hard = Svara "svårt"
 deck-config-answer-good = Svara "bra"
 deck-config-days-to-simulate = Dagar att simulera
 deck-config-desired-retention-below-optimal = Den önskade återkallningskvoten är under det optimala värdet. Att öka den rekommenderas.
-deck-config-fsrs-simulator-y-axis-title-time = Repetitionstid/dag
-deck-config-fsrs-simulator-y-axis-title-count = Repetitionsantal/dag
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = Totalt memorerat
 deck-config-fsrs-simulator-experimental = FSRS-simulator (experimentell)
 deck-config-additional-new-cards-to-simulate = Ytterligare nya kort att simulera
 deck-config-simulate = Simulera
@@ -465,6 +462,9 @@ deck-config-fsrs-simulator-radio-memorized = Memorerade
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = Repetitionstid/dag
+deck-config-fsrs-simulator-y-axis-title-count = Repetitionsantal/dag
+deck-config-fsrs-simulator-y-axis-title-memorized = Totalt memorerat
 deck-config-bury-siblings = Dölj syskon
 deck-config-do-not-bury = Dölj inte syskon
 deck-config-bury-if-new = Dölj om ny
@@ -489,7 +489,7 @@ deck-config-ignore-before-tooltip =
     Detta kan vara användbart om någon annans schemaläggningsdata har importerats, eller sättet svarsknapparna brukas är annorlunda.
 deck-config-compute-optimal-retention-tooltip =
     Detta verktyg antar att 0 kort börjas med och kommer försöka beräkna mängden innehåll som kommer
-    ihågkommas i den tillhandahållna tidsramen. Den uppskattade återkallningsgraden kommer skilja sig vitt beroende på inmatningarna,
+    ihågkommas i den tillhandahållna tidsramen. Den uppskattade återkallningskvoten kommer skilja sig vitt beroende på inmatningarna,
     och om den skiljer sig avsevärt från 0,9 är det ett tecken att tiden allokerad varje dag är för lite eller för mycket
     för den mängd kort som studeras. Detta tal kan tjäna som en referens, men rekommenderas inte att kopieras till
     fältet för önskad återkallningskvot.
@@ -510,14 +510,14 @@ deck-config-compute-optimal-retention-tooltip2 =
     Detta verktyg antar att 0 inlärda kort finns och kommer försöka hitta den önskade återkallningskvot
     som kommer leda till att mest material lärs på minst tid. Det beräknade talet kan tjäna som ett referensvärde
     vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
-    tiden läggs ned för en högre återkallningsgrad. Att sätta den önskade återkallningskvoten under minimivärdet
+    du lägger ned tiden för en högre återkallningskvot. Att sätta den önskade återkallningskvoten under minimivärdet
     rekommenderas ej, då det kommer leda till mer arbete utan någon vinst.
 deck-config-compute-optimal-retention-tooltip3 =
     Detta verktyg antar att 0 inlärda kort finns och kommer försöka hitta den önskade återkallningskvot
     som kommer leda till att mest material lärs på minst tid. För att precist simulera inlärningsframsteg
     kräver detta verktyg åtminstone 400+ repetitioner. Det beräknade talet kan tjäna som ett referensvärde
     vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
-    tiden läggs ned för en högre återkallningsgrad. Att sätta den önskade återkallningskvoten under minimivärdet
+    du lägger ned tiden för en högre återkallningskvot. Att sätta den önskade återkallningskvoten under minimivärdet
     rekommenderas ej, då det kommer leda till en högre arbetsbelastning, på grund av den höga andelen kort som bortglöms.
 deck-config-seconds-to-show-question-tooltip-2 = När automatisk frammatning är aktiverad, antalet sekunder att vänta innan svaret avslöjas. Sätt till 0 för att inaktivera.
 deck-config-invalid-weights = Parametrarna måste antingen lämnas blanka för att använda standardvärdena, eller vara 17 kommaseparerade tal.

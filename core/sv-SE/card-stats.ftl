@@ -29,16 +29,19 @@ card-stats-no-card = (Inga kort att visa.)
 card-stats-custom-data = Anpassad data
 card-stats-fsrs-stability = Stabilitet
 card-stats-fsrs-difficulty = Svårighetsgrad
-card-stats-fsrs-retrievability = Återkallningsgrad
+card-stats-fsrs-retrievability = Återkallbarhet
 card-stats-fsrs-forgetting-curve-title = Förglömningskurva
 card-stats-fsrs-forgetting-curve-first-week = Första veckan
 card-stats-fsrs-forgetting-curve-first-month = Första månaden
 card-stats-fsrs-forgetting-curve-first-year = Första året
 card-stats-fsrs-forgetting-curve-all-time = Kortlekens livstid
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Sannolikhet att återkalla
 card-stats-fsrs-forgetting-curve-desired-retention = Önskad återkallningskvot
 
 ## Window Titles
 
 card-stats-current-card = Nuvarande kort ({ $context })
 card-stats-previous-card = Föregående kort ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Sannolikhet att återkalla

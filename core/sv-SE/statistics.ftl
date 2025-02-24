@@ -145,9 +145,9 @@ statistics-range-search = Sök
 statistics-card-ease-title = Korts lätthet
 statistics-card-difficulty-title = Korts svårighetsgrad
 statistics-card-stability-title = Korts stabilitet
-statistics-card-stability-subtitle = Tid tills återkallningsgraden faller under 90%
+statistics-card-stability-subtitle = Tid tills återkallbarheten faller under 90%
 statistics-average-stability = Genomsnittlig stabilitet
-statistics-card-retrievability-title = Korts återkallningsgrad
+statistics-card-retrievability-title = Korts återkallbarhet
 statistics-card-ease-subtitle = Ju lägre lätthet, desto mer frekvent kommer ett kort visas.
 statistics-card-difficulty-subtitle2 = Ju högre svårighetsgrad, desto långsammare kommer stabilitet öka.
 statistics-retrievability-subtitle = Sannolikheten att ett kort återkallas idag.
@@ -164,8 +164,8 @@ statistics-card-difficulty-tooltip =
     }
 statistics-retrievability-tooltip =
     { $cards ->
-        [one] { $cards } kort med { $percent } i återkallningsgrad
-       *[other] { $cards } kort med { $percent } i återkallningsgrad
+        [one] { $cards } kort med { $percent } i återkallbarhet
+       *[other] { $cards } kort med { $percent } i återkallbarhet
     }
 statistics-future-due-title = Prognos
 statistics-future-due-subtitle = Antal framtida repetitioner.
@@ -281,7 +281,7 @@ statistics-cards-per-day =
     }
 statistics-average-ease = Genomsnittlig lätthet
 statistics-average-difficulty = Genomsnittlig svårighetsgrad
-statistics-average-retrievability = Genomsnittlig återkallningsgrad
+statistics-average-retrievability = Genomsnittlig återkallbarhet
 statistics-estimated-total-knowledge = Uppskattad total kunskap
 statistics-save-pdf = Spara PDF
 statistics-saved = Sparad.
