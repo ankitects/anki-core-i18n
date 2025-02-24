@@ -247,6 +247,7 @@ deck-config-easy-days-normal = 正常
 deck-config-easy-days-reduced = 减少
 deck-config-easy-days-minimum = 最少
 deck-config-easy-days-no-normal-days = 至少一天应设置为「{ deck-config-easy-days-normal }」。
+deck-config-easy-days-change = 需在 FSRS 设置中启用「{ deck-config-reschedule-cards-on-change }」才会将已经复习过的卡片重新排程。
 
 ## Adding/renaming
 
