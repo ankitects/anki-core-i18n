@@ -255,6 +255,7 @@ deck-config-easy-days-normal = 標準
 deck-config-easy-days-reduced = 少なめ
 deck-config-easy-days-minimum = 最小限
 deck-config-easy-days-no-normal-days = 少なくともどれか一つの曜日で「{ deck-config-easy-days-normal }」を選択してください。（そうしないと、相対的に他の曜日の負担を軽くすることができません。）
+deck-config-easy-days-change = FSRSについてのオプション「{ deck-config-reschedule-cards-on-change }」がオンになっていない場合、各カードの、すでに予定済みの期日は変更（再スケジュール）されません。
 
 ## Adding/renaming
 
