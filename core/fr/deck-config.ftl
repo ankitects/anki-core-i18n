@@ -239,6 +239,7 @@ deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Réduit
 deck-config-easy-days-minimum = Minimum
 deck-config-easy-days-no-normal-days = Au moins un jour doit être paramétré sur "{ deck-config-easy-days-normal }".
+deck-config-easy-days-change = Les révisions existantes ne seront pas re-planifiées sauf si '{ deck-config-reschedule-cards-on-change }' est activé dans les options FSRS.
 
 ## Adding/renaming
 
@@ -307,9 +308,7 @@ deck-config-compute-minimum-recommended-retention = Rétention minimum recommand
 deck-config-optimize-button = Optimiser
 deck-config-compute-button = Calculer
 deck-config-ignore-before = Ignorer les révisions avant
-deck-config-optimize-all-tip =
-    Vous pouvez optimiser tous les préréglages en même temps en utilisant le bouton déroulant
-    à côté de "Sauvegarder".
+deck-config-time-to-optimize = Ça fait longtemps - utiliser le bouton "Optimiser tous les préréglages" est recommandé.
 deck-config-evaluate-button = Évaluer
 deck-config-desired-retention = Rétention souhaitée
 deck-config-historical-retention = Rétention historique
@@ -381,9 +380,11 @@ deck-config-percent-of-reviews =
         [one] { $pct }% de { $reviews } révision
        *[other] { $pct }% de { $reviews } révisions
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Optimisation des préréglages { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Le FSRS doit être préalablement activé.
 deck-config-fsrs-params-optimal = Les paramètres du FSRS semblent actuellement être optimaux.
+deck-config-fsrs-params-no-reviews = Aucune révision trouvée. Merci de vérifier que ce préréglage est assigné à tous les paquets que vous souhaitez optimiser (sous-paquets compris) et réessayez.
 deck-config-wait-for-audio = Attendre l'audio
 deck-config-show-reminder = Afficher le rappel
 deck-config-answer-again = Réponse à revoir
@@ -391,6 +392,18 @@ deck-config-answer-hard = Réponse difficile
 deck-config-answer-good = Réponse correcte
 deck-config-days-to-simulate = Nombre de jours à simuler
 deck-config-desired-retention-below-optimal = Votre taux de rétention souhaité est inférieur à la valeur optimale. Il est recommandé de l'augmenter.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = Simulateur FSRS (expérimental)
+deck-config-additional-new-cards-to-simulate = Cartes supplémentaires à simuler
+deck-config-simulate = Simuler
+deck-config-clear-last-simulate = Supprimer la dernière simulation
+deck-config-fsrs-simulator-radio-count = Révisions
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Mémorisées
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -430,3 +443,6 @@ deck-config-invalid-weights = Les paramètres doivent être soit laissés vides 
 deck-config-fsrs-on-all-clients =
     Veuillez vérifier que tous vos clients Anki soient Anki(Mobile) 23.10+ ou AnkiDroid 2.17+. La FSRS
     ne fonctionnera pas correctement si l'un de vos clients est plus ancien.
+deck-config-optimize-all-tip =
+    Vous pouvez optimiser tous les préréglages en même temps en utilisant le bouton déroulant
+    à côté de "Sauvegarder".

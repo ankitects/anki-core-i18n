@@ -37,6 +37,7 @@ card-templates-card = Carte { $val }
 card-templates-card-types-for = Types de carte pour { $val }
 card-templates-cloze = Texte à trous
 card-templates-deck-override = Deck pour cette carte
+card-templates-copy-info = Copier les informations dans le presse-papiers
 card-templates-delete-the-as-card-type-and = Supprimer le type de carte « { $template } », et ses { $cards } ?
 card-templates-enter-deck-to-place-new = Indiquez dans quel paquet placer les { $val } nouvelles cartes, ou laissez vide :
 card-templates-enter-new-card-position-1 = Entrez la position de la carte (1…{ $val }) :

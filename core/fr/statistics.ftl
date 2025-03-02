@@ -47,6 +47,24 @@ statistics-in-time-span-years =
         [one] en { $amount } année
        *[other] en { $amount } années
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    { statistics-cards }
+    { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } aujourd'hui
+    ({ $secs-per-card }s/carte)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } carte
@@ -63,21 +81,10 @@ statistics-reviews =
         [one] { $reviews } révision
        *[other] { $reviews } révisions
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    { statistics-cards }
-    { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } aujourd'hui
-    ({ $secs-per-card }s/carte)
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } mémorisée.s
 statistics-today-title = Aujourd’hui
 statistics-today-again-count = Oublis :
 statistics-today-type-counts = Apprises : { $learnCount }, Revues : { $reviewCount }, Réapprises : { $relearnCount }, Filtrées : { $filteredCount }
@@ -95,18 +102,46 @@ statistics-counts-learning-cards = À repasser
 statistics-counts-relearning-cards = Réapprentissage
 statistics-counts-title = Nombre de cartes
 statistics-counts-separate-suspended-buried-cards = Séparer les cartes suspendues/enfouies
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = Rétention Réelle
 statistics-true-retention-subtitle = Taux de réussite des cartes avec un intervalle ≥ 1 jour.
 statistics-true-retention-range = Intervalle
 statistics-true-retention-pass = Réussite
 statistics-true-retention-fail = Échec
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Nombre total de cartes
+statistics-true-retention-count = Nombre
 statistics-true-retention-retention = Rétention
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Récentes
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Matures
+statistics-true-retention-all = Tout
 statistics-true-retention-today = Aujourd’hui
 statistics-true-retention-yesterday = Hier
 statistics-true-retention-week = Semaine dernière
 statistics-true-retention-month = Mois dernier
 statistics-true-retention-year = Année passée
 statistics-true-retention-all-time = Depuis le début
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
+
+##
+
 statistics-range-all-time = vie du paquet
 statistics-range-1-year-history = 12 derniers mois
 statistics-range-all-history = tout l'historique
@@ -258,6 +293,3 @@ statistics-save-pdf = Enregistrer en PDF
 statistics-saved = Enregistré
 statistics-stats = statistiques
 statistics-title = Statistiques
-statistics-true-retention-total = Nombre total de cartes
-statistics-true-retention-young = Récentes
-statistics-true-retention-mature = Matures

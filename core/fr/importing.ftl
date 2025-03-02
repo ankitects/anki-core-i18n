@@ -33,7 +33,7 @@ importing-map-to = Associer à { $val }
 importing-map-to-tags = Associer aux étiquettes
 importing-mapped-to = associé à <b>{ $val }</b>
 importing-mapped-to-tags = associé à <b>Tags</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Fusionner les types de notes
 importing-merge-notetypes-help =
     Si coché, et que vous ou l'auteur du paquet avez altéré le schéma d'un type de note, Anki fusionnera les deux versions au lieu de garder les deux.
@@ -62,6 +62,13 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = Fichier de Paquet/Colle
 importing-pauker-18-lesson-paugz = Pauker 1,8 leçon
 # the '|' character
 importing-pipe = Barre verticale
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Seule la première colonne est affichée. Si ce n'est pas attendu, essayez de changer le séparateur de champ.
+       *[other] Seules les { $count } premières colonnes sont affichées. Si ce n'est pas attendu, essayez de changer le séparateur de champ.
+    }
 importing-rows-had-num1d-fields-expected-num2d = « { $row } » avait { $found } champs au lieu des { $expected } prévus
 importing-selected-file-was-not-in-utf8 = Le fichier sélectionné n’était pas au format UTF-8. Merci de consulter la section du manuel relative à l’import de fichiers.
 importing-semicolon = Point-virgule
