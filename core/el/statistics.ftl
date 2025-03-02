@@ -103,14 +103,28 @@ statistics-counts-separate-suspended-buried-cards = Διαχωρισμός κα�
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = Πραγματική Ανάκληση
 statistics-true-retention-subtitle = Ποσοστό επιτυχίας των καρτών με διάστημα ≥ 1 ημέρα.
 statistics-true-retention-range = Εύρος
 statistics-true-retention-pass = Pass
 statistics-true-retention-fail = Fail
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Σύνολο
 statistics-true-retention-count = Αριθμός
 statistics-true-retention-retention = Ανάκληση
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Πρόσφατες
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Ώριμες
 statistics-true-retention-all = Σύνολο
 statistics-true-retention-today = Σήμερα
 statistics-true-retention-yesterday = Χθες
@@ -118,6 +132,9 @@ statistics-true-retention-week = Τελευταία εβδομάδα
 statistics-true-retention-month = Τελευταίος μήνας
 statistics-true-retention-year = Τελευταίο έτος
 statistics-true-retention-all-time = Συνολικός χρόνος
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
 
 ##
 
@@ -271,6 +288,3 @@ statistics-save-pdf = Αποθήκευση PDF
 statistics-saved = Αποθηκεύτηκε.
 statistics-stats = στατιστικά
 statistics-title = Στατιστικά
-statistics-true-retention-total = Σύνολο
-statistics-true-retention-young = Πρόσφατες
-statistics-true-retention-mature = Ώριμες

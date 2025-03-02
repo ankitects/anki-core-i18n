@@ -192,6 +192,7 @@ deck-config-easy-days-normal = Κανονικό
 deck-config-easy-days-reduced = Μειωμένο
 deck-config-easy-days-minimum = Ελάχιστο
 deck-config-easy-days-no-normal-days = Τουλάχιστον μία ημέρα θα πρέπει να έχει οριστεί σε '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Οι υπάρχουσες επαναλήψεις δεν θα επαναπρογραμματιστούν, εκτός εάν το '{ deck-config-reschedule-cards-on-change }' είναι ενεργοποιημένο στις επιλογές FSRS.
 
 ## Adding/renaming
 
