@@ -26,6 +26,7 @@ sync-wrong-pass = La ID de AnkiWeb o la contraseña son incorrectas; por favor, 
 sync-resync-required = Por favor, sincroniza otra vez. Si el error sigue apareciendo, por favor, publica en el sitio de soporte.
 sync-must-wait-for-end = Anki se está sincronizando actualmente. Espere a que se complete la sincronización e intente nuevamente.
 sync-confirm-empty-download = La colección local no contiene ninguna tarjeta. ¿Desea descargarlas de AnkiWeb?
+sync-confirm-empty-upload = No hay tarjetas en la colección de AnkiWeb. ¿Reemplazarla con la colección local?
 sync-conflict-explanation =
     Tus mazos aquí y en AnkiWeb difieren de tal manera que no pueden ser combinados, por lo que es necesario sobrescribir los mazos de un lado con los del otro.
     
@@ -46,6 +47,10 @@ sync-upload-too-large =
     eliminando los mazos no deseados (opcionalmente exportándolas primero, por seguridad)
     y luego hacer clic en Comprobar base de datos (en el menú Herramientas) para reducir
     el tamaño del archivo. ({ $details })
+sync-sign-in = Iniciar sesión
+sync-ankihub-dialog-heading = Iniciar sesión en AnkiHub
+sync-ankihub-username-label = Usuario o correo electrónico:
+sync-ankihub-login-failed = Incapaz de iniciar sesión en Ankihub con las credenciales que se han proporcionado.
 
 ## Buttons
 
@@ -63,4 +68,6 @@ sync-syncing = Sincronizando...
 sync-checking = Comprobando…
 sync-connecting = Conectando...
 sync-added-updated-count = Añadido/modificado: { $up }↑ { $down }↓
+sync-log-in-button = Iniciar sesión
 sync-log-out-button = Cerrar sesión
+sync-collection-complete = Se ha sincronizado la colección

@@ -24,8 +24,8 @@ preferences-show-play-buttons-on-cards-with = Mostrar botones de reproducción e
 preferences-show-remaining-card-count = Mostrar el número de tarjetas restantes
 preferences-some-settings-will-take-effect-after = Algunos ajustes tendrán efecto después de reiniciar Anki.
 preferences-tab-synchronisation = Sincronización
-preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Sincronización</b><br> Actualmente no está activada; haz clic en el botón de sincronizar en la pantalla principal para activarla.
 preferences-synchronize-audio-and-images-too = Sincronizar también los sonidos y las imágenes
+preferences-login-successful-sync-now = Se ha iniciado la sesión. ¿Guardar preferencias y sincronizar la collección?
 preferences-timebox-time-limit = Límite de sesión de estudio
 preferences-user-interface-size = Tamaño de interfaz de usuario
 preferences-when-adding-default-to-current-deck = Al añadir, hacerlo en el mazo actual de manera predeterminada
@@ -38,6 +38,7 @@ preferences-theme-follow-system = Seguir el sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Oscuro
 preferences-v3-scheduler = Algoritmo de planificación V3
+preferences-check-for-updates = Comprobar si hay actualizaciones
 preferences-ignore-accents-in-search = Ignorar acentos en la búsqueda (más lento)
 preferences-backup-explanation =
     Anki periódicamente hace una copia de seguridad de tu colección. Después de que las 
@@ -74,9 +75,12 @@ preferences-network-timeout = Tiempo límite de red excedido
 preferences-reset-window-sizes = Restablecer tamaños de las ventanas
 preferences-reset-window-sizes-complete = Se han restablecido los tamaños y las ubicaciones de las ventanas.
 preferences-shortcut-placeholder = Ingrese una tecla de atajo no utilizada o déjela en blanco para deshabilitarla.
+preferences-third-party-services = Servicios de terceros
+preferences-ankiweb-intro = Ankiweb es un servicio gratuito que te permite mantener sincronizados los datos de tus tarjetas entre tus dispositivos, y proporciona una manera de recuperar los datos si tu dispositivo se estropea o si se pierde.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Básico
 preferences-reviewer = Revisor
 preferences-media = Multimedia
+preferences-not-logged-in = No has iniciado sesión ha AnkiWeb.

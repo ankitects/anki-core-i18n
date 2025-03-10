@@ -47,17 +47,6 @@ statistics-in-time-span-years =
         [one] en { $amount } año
        *[other] en { $amount } años
     }
-statistics-cards =
-    { $cards ->
-        [one] { $cards } tarjeta
-       *[other] { $cards } tarjetas
-    }
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews =
-    { $reviews ->
-        [one] { $reviews } repaso
-       *[other] { $reviews } repasos
-    }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -71,6 +60,29 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } hoy ({ $secs-per-card }s/tarjeta)
+
+##
+
+statistics-cards =
+    { $cards ->
+        [one] { $cards } tarjeta
+       *[other] { $cards } tarjetas
+    }
+statistics-notes =
+    { $notes ->
+        [one] nota
+       *[other] notas
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } repaso
+       *[other] { $reviews } repasos
+    }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } tarjetas memorizadas.
 statistics-today-title = Hoy
 statistics-today-again-count = Total de otra vez:
 statistics-today-type-counts = Aprender: { $learnCount }, Repasar: { $reviewCount }, Reaprender: { $relearnCount }, Filtradas: { $filteredCount }
@@ -88,11 +100,37 @@ statistics-counts-learning-cards = Aprendiendo
 statistics-counts-relearning-cards = Reaprendiendo
 statistics-counts-title = Conteo de Tarjetas
 statistics-counts-separate-suspended-buried-cards = Separar tarjetas suspendidas/enterradas
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
+statistics-true-retention-title = Retención actual
+statistics-true-retention-pass = Acertadas
+statistics-true-retention-fail = Fallidas
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Tarjetas totales
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Jóvenes
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Maduras
 statistics-true-retention-today = Hoy
 statistics-true-retention-yesterday = Ayer
 statistics-true-retention-week = La semana pasada
 statistics-true-retention-month = El mes pasado
 statistics-true-retention-year = El año pasado
+
+##
+
 statistics-range-all-time = vida del mazo
 statistics-range-1-year-history = últimos 12 meses
 statistics-range-all-history = todo el historial
@@ -101,12 +139,24 @@ statistics-range-collection = colección
 statistics-range-search = Buscar
 statistics-card-ease-title = Facilidad de la Tarjeta
 statistics-card-stability-title = Stabilidad de tarjeta
+statistics-card-retrievability-title = Recordabilidad de las tarjetas
 statistics-card-ease-subtitle = Cómo más baja sea la facilidad, más frequentemente aparecerá la tarjeta.
+statistics-retrievability-subtitle = La probabilidad de recordar una tarjeta hoy.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
         [one] 1 tarjeta con { $percent } facilidad
        *[other] { $cards } tarjetas con { $percent } facilidad
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } tarjeta con una dificultad de { $percent }
+       *[other] { $cards } tarjetas con una dificultad de { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } tarjeta con una recordabilidad de { $percent }
+       *[other] { $cards } tarjetas con una recordabilidad de { $percent }
     }
 statistics-future-due-title = Pronóstico
 statistics-future-due-subtitle = El número de repasos programados en el futuro.
@@ -189,6 +239,7 @@ statistics-average-answer-time-label = Tiempo de respuesta promedio
 statistics-average = Promedio
 statistics-average-interval = Intervalo promedio
 statistics-due-tomorrow = Programadas para mañana
+statistics-daily-load = Carga diaria
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
 statistics-average-over-period = Si hubieses estudiado todos los días
@@ -208,10 +259,9 @@ statistics-cards-per-day =
        *[other] { $count } tarjetas/día
     }
 statistics-average-ease = Facilidad promedio
+statistics-average-difficulty = Dificultad media
+statistics-average-retrievability = Recordabilidad media
 statistics-save-pdf = Guardar PDF
 statistics-saved = Guardado.
 statistics-stats = estadísticas
 statistics-title = Estadísticas
-statistics-true-retention-total = Tarjetas totales
-statistics-true-retention-young = Jóvenes
-statistics-true-retention-mature = Maduras

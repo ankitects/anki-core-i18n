@@ -154,6 +154,7 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Tarjetas aleatorias`: reúne tarjetas de forma completamente aleatoria.
 deck-config-new-gather-priority-deck = Mazo
+deck-config-new-gather-priority-deck-then-random-notes = Mazo, luego notas aleatorias
 deck-config-new-gather-priority-position-lowest-first = Posición ascendente
 deck-config-new-gather-priority-position-highest-first = Posición descendente
 deck-config-new-gather-priority-random-notes = Notas aleatorias
@@ -210,6 +211,8 @@ deck-config-sort-order-ascending-ease = Facilidad ascendente
 deck-config-sort-order-descending-ease = Facilidad descendente
 deck-config-sort-order-ascending-difficulty = Tarjetas fáciles primero
 deck-config-sort-order-descending-difficulty = Tarjetas difíciles primero
+deck-config-sort-order-retrievability-ascending = Recordabilidad ascendente
+deck-config-sort-order-retrievability-descending = Recordabilidad descendente
 deck-config-display-order-will-use-current-deck =
     Anki usará el orden de visualización del mazo seleccionado
     para estudiar, y no los submazos que pueda tener.
@@ -233,7 +236,10 @@ deck-config-seconds-to-show-question = La cantidad de segundos que se mostrará 
 deck-config-seconds-to-show-answer = La cantidad de segundos que se mostrará la pregunta
 deck-config-question-action-show-answer = Mostrar respuesta
 deck-config-question-action-show-reminder = Mostrar recordatorio
+deck-config-question-action = Acción de pregunta
 deck-config-question-action-tool-tip = La acción a realizar después de que se muestre la pregunta y haya transcurrido el tiempo.
+deck-config-answer-action = Acción de respuesta
+deck-config-answer-action-tooltip-2 = La acción a realizar tras mostrar la respuesta, y que el tiempo halla pasado.
 
 ## Audio section
 
@@ -269,6 +275,7 @@ deck-config-custom-scheduling-tooltip = Afecta a toda la colección. ¡Úselo ba
 
 # Easy Days section
 
+deck-config-easy-days-title = Dias fáciles
 deck-config-easy-days-monday = Lunes
 deck-config-easy-days-tuesday = Martes
 deck-config-easy-days-wednesday = Miércoles
@@ -277,6 +284,9 @@ deck-config-easy-days-friday = Viernes
 deck-config-easy-days-saturday = Sábado
 deck-config-easy-days-sunday = Domingo
 deck-config-easy-days-normal = Normal
+deck-config-easy-days-reduced = Reducido
+deck-config-easy-days-minimum = Mínimo
+deck-config-easy-days-change = Los repasos actuales no serán reprogramados a menos que  '{ deck-config-reschedule-cards-on-change }' esté habilitado en los ajustes de FSRS.
 
 ## Adding/renaming
 
@@ -297,6 +307,7 @@ deck-config-confirm-remove-name = ¿Remover { $name }?
 
 deck-config-save-button = Guardar
 deck-config-save-to-all-subdecks = Guardar para todos los submazos
+deck-config-save-and-optimize = Optimizar todos los preajustes
 deck-config-revert-button-tooltip = Restaure esta configuración a su valor predeterminado.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -331,6 +342,8 @@ deck-config-which-deck = ¿Qué mazo quieres?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Actualización de tarjetas en curso: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Los parametros FSRS introducidos son inválidos. Deja los campos vacios para usar los parametros por defecto.
 deck-config-not-enough-history = No hay suficientes repasos en el historial para ejecutar esta operación.
 deck-config-unable-to-determine-desired-retention = No se ha podido determinar una retención minima recomendada.
 deck-config-must-have-400-reviews =
@@ -338,14 +351,26 @@ deck-config-must-have-400-reviews =
         [one] Sólo se han encontrado { $count } opiniones. Debe tener al menos 400 opiniones para esta operación.
        *[other] { "" }
     }
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Parámetros FSRS
+deck-config-compute-optimal-weights = Optimizar los parámetros FSRS
+deck-config-compute-minimum-recommended-retention = Retención mínima recomendada
+deck-config-optimize-button = Optimizar
+deck-config-compute-button = Calcular
 deck-config-ignore-before = Ignorar tarjetas repasadas antes de
 deck-config-time-to-optimize = Ha pasado un buen tiempo - usar el botón para optimizar todo es recomendado
+deck-config-evaluate-button = Evaluar
 deck-config-desired-retention = Retención deseada
 deck-config-historical-retention = Retención histórica
 deck-config-smaller-is-better = Los números más pequeños indican un mejor ajuste a su historial de revisiones.
 deck-config-steps-too-large-for-fsrs = Cuando el FSRS está activado, no se recomiendan pasos de 1 día o más.
+deck-config-get-params = Obtener parámetros
 deck-config-predicted-minimum-recommended-retention = Retención minima recomendada
+deck-config-complete = { $num }% completo.
+deck-config-iterations = Iteración: { $count }...
 deck-config-reschedule-cards-on-change = Reprogramar tarjetas tras el cambio
+deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
+deck-config-percent-input = { $pct }%
 deck-config-fsrs-must-be-enabled = Primero, hay que activar FSRS.
 deck-config-wait-for-audio = Esperar al audio
 deck-config-show-reminder = Mostrar recordatorio
@@ -354,6 +379,12 @@ deck-config-answer-hard = Difícil
 deck-config-answer-good = Bien
 deck-config-days-to-simulate = Días de simulación
 deck-config-simulate = Simular
+deck-config-clear-last-simulate = Borrar la última simulación
+deck-config-fsrs-simulator-radio-count = Repasos
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -374,3 +405,5 @@ deck-config-bury-tooltip =
     Cuando se utiliza el programador V3, las tarjetas de aprendizaje interdía también pueden ser
     enterradas. Las tarjetas de aprendizaje interdía son tarjetas con un paso de aprendizaje actual
     de uno o más días.
+deck-config-compute-optimal-retention = Calcular la retención mínima recomendada
+deck-config-predicted-optimal-retention = Minimum recommended retention: { $num }

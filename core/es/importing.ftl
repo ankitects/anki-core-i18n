@@ -217,6 +217,8 @@ importing-field-separator-help =
     Por favor, ten en cuenta que si este carácter aparece en cualquier campo, dicho campo
     debe encontrarse entre comillas, de acuerdo con el estándar CSV. Los programas de hoja de cálculo
     como LibreOffice harán esto automáticamente.
+importing-deck-help = Las tarjetas importadas serán puestas en este mazo.
+importing-overview = Resumen
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
