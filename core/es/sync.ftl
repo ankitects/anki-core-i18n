@@ -35,6 +35,12 @@ sync-conflict-explanation =
     Si eliges subir, Anki subirá tu colección a AnkiWeb, y se perderá cualquier cambio que hayas hecho en AnkiWeb o en tus otros dispositivos desde la última sincronización.
     
     Después de que todos los dispositivos se hayan sincronizado, los futuros repasos y las tarjetas añadidas podrán ser combinados automáticamente.
+sync-conflict-explanation2 =
+    Hay un conflicto entre mazos en este dispositivo y AnkiWeb. Debes elegir que versión guardar:
+    -Selecciona **{ sync-download-from-ankiweb }** para reemplazar los mazos en este dispositivo con la versión de AnkiWeb. Perderás cualquier cambio que hayas realizado desde la última vez que sincronizaste este dispositivo.
+    -Selecciona **{ sync-upload-to-ankiweb }** para sobrescribir la versión de AnkiWeb con los mazos que se encuentran en este dispositivo, y eliminar cualquier cambio en AnkiWeb.
+    
+    Una vez que se resuelva el conflicto, la sincronización funcionará como normal.
 sync-ankiweb-id-label = ID de AnkiWeb:
 sync-password-label = Contraseña:
 sync-account-required =

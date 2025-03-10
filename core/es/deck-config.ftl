@@ -229,17 +229,23 @@ deck-config-show-answer-timer-tooltip =
     Mostrar un cronómetro en la pantalla de estudio, que muestra el número de segundos que
     te demoras en contestar una tarjeta.
 deck-config-stop-timer-on-answer = Detener temporizador al responder
+deck-config-stop-timer-on-answer-tooltip =
+    Determina si el temporizador se detiene cuando se muestre la respuesta.
+    Esta opción no afecta las estatísticas.
 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = La cantidad de segundos que se mostrará la pregunta
+deck-config-seconds-to-show-question-tooltip-3 = Cuando avanzar automáticamente esté activado, el number de segundos a esperar antes de aplicar la acción de pregunta. Establece la opción a 0 para deshabilitar.
 deck-config-seconds-to-show-answer = La cantidad de segundos que se mostrará la pregunta
+deck-config-seconds-to-show-answer-tooltip-2 = Cuando avanzar automáticamente esté activado, el number de segundos a esperar antes de aplicar la acción de respuesta. Establece la opción a 0 para deshabilitar.
 deck-config-question-action-show-answer = Mostrar respuesta
 deck-config-question-action-show-reminder = Mostrar recordatorio
 deck-config-question-action = Acción de pregunta
 deck-config-question-action-tool-tip = La acción a realizar después de que se muestre la pregunta y haya transcurrido el tiempo.
 deck-config-answer-action = Acción de respuesta
 deck-config-answer-action-tooltip-2 = La acción a realizar tras mostrar la respuesta, y que el tiempo halla pasado.
+deck-config-wait-for-audio-tooltip-2 = Espera a que el audio termine de reproducirse antes de aplicar la acción de pregunta o la acción de respuesta automáticamente.
 
 ## Audio section
 
@@ -376,6 +382,14 @@ deck-config-fsrs-tooltip =
     FSRS (Free Spaced Repetition Scheduler), o en español "Programador de repetición espaciada libre" es una alternativa al viejo programador, SM-2 (SuperMemo 2) de Anki.
     Determinando más precisamente la probailidad de olvidarse una tarjeta, te puede ayudar a recordar más material en la misma cantidad de tiempo. Este ajuste se comparte con todos los preajustes.
 deck-config-desired-retention-tooltip = Por defecto, Anki programa las tarjetas de modo que tengas una probabilidad del 90% de recordarlas cuando aparezcan para repasarlas. Si aumentas este valor, Anki mostrará las tarjetas más frequentemente para aumentar la probabilidad de que te acuerdes de ellas. Si reduces el valor, Anki mostrará las tarjetas menos frequentemente, y te olvidarás más de ellas. Ten prudencia cuando ajustes el valor - valores más altos aumentarán tu carga de trabajo, y valores más bajos pueden desmotivarte, dado que te olvidas de mucha información.
+deck-config-historical-retention-tooltip =
+    Cuando falte parte de tu historial de repasos, FSRS necesita llenar los huecos. Por defecto, asumirá que cuando hiciste previos repasos, recordaste 90% de la información. Si tu vieja retención era mucho más o mucho menos que 90%, ajustar esta opción permitirá a FSRS a aproximar de una manera mejor los repasos que faltan.
+    
+    Tu historal de repasos puede estar incompleto por una de estas dos razones:
+    1. Porque estás usando la opción 'ignorar tarjetas repasadas previamente'.
+    2. Porque eliminaste el historial de repaso para liberar espacio, o importaste información de una aplicación de programación de repetición espaciada (SRS) distinta.
+    
+    El segundo caso es bastante inusual, asi que a menos que esté utilizando la primera opción, probablemente no necesite ajustar esta opción.
 deck-config-weights-tooltip2 = Los parámetros FSRS afectan como se programan las tarjetas. Anki comenzará con los parámetros por defecto. Puedes usar la siguiente opción para optimizar los parámetros para que se adapten a tu rendimiento en mazos usando este preajuste.
 deck-config-reschedule-cards-on-change-tooltip =
     Afecta a toda la colección y no se guarda.

@@ -115,6 +115,7 @@ statistics-counts-separate-suspended-buried-cards = Separar tarjetas suspendidas
 ##      window is certain sizes.
 
 statistics-true-retention-title = Retención actual
+statistics-true-retention-range = Intervalo
 statistics-true-retention-pass = Acertadas
 statistics-true-retention-fail = Fallidas
 # This will usually be the same as statistics-counts-total-cards
@@ -124,11 +125,13 @@ statistics-true-retention-retention = Retención
 statistics-true-retention-young = Jóvenes
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Maduras
+statistics-true-retention-all = Todas
 statistics-true-retention-today = Hoy
 statistics-true-retention-yesterday = Ayer
 statistics-true-retention-week = La semana pasada
 statistics-true-retention-month = El mes pasado
 statistics-true-retention-year = El año pasado
+statistics-true-retention-all-time = Periodo entero
 
 ##
 
@@ -139,9 +142,12 @@ statistics-range-deck = mazo
 statistics-range-collection = colección
 statistics-range-search = Buscar
 statistics-card-ease-title = Facilidad de la Tarjeta
+statistics-card-difficulty-title = Dificultad de las tarjetas
 statistics-card-stability-title = Stabilidad de tarjeta
+statistics-average-stability = Estabilidad media
 statistics-card-retrievability-title = Recordabilidad de las tarjetas
 statistics-card-ease-subtitle = Cómo más baja sea la facilidad, más frequentemente aparecerá la tarjeta.
+statistics-card-difficulty-subtitle2 = La mayor la dificultad, más lento aumentará la estabilidad.
 statistics-retrievability-subtitle = La probabilidad de recordar una tarjeta hoy.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -204,6 +210,16 @@ statistics-intervals-day-single =
     { $cards ->
         [one] 1 tarjeta con un interval de  { $day } dias
        *[other] { $cards } tarjetas con un interval de { $day } dias
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } tarjeta con una estabilidad de  { $daysStart }~{ $daysEnd } días
+       *[other] { $cards } tarjetas con una estabilidad de  { $daysStart }~{ $daysEnd } días
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } tarjeta con una estabilidad de { $day } día
+       *[other] { $cards } tarjetas con una estabilidad de { $day } días
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Desde { $hourStart }:00~{ $hourEnd }:00

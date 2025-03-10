@@ -63,6 +63,7 @@ preferences-review = Repasar
 preferences-answer-keys = Teclas de Respuesta
 preferences-distractions = Distracciones
 preferences-minimalist-mode = Modo minimalista
+preferences-minimalist-mode-tooltip = Simplifica y compacta la interfaz
 preferences-editing = Edición
 preferences-browsing = Navegación
 preferences-default-deck = Mazo por defecto
@@ -77,6 +78,7 @@ preferences-reset-window-sizes-complete = Se han restablecido los tamaños y las
 preferences-shortcut-placeholder = Ingrese una tecla de atajo no utilizada o déjela en blanco para deshabilitarla.
 preferences-third-party-services = Servicios de terceros
 preferences-ankiweb-intro = Ankiweb es un servicio gratuito que te permite mantener sincronizados los datos de tus tarjetas entre tus dispositivos, y proporciona una manera de recuperar los datos si tu dispositivo se estropea o si se pierde.
+preferences-third-party-description = Los servicios de terceros no están afiliados a Anki, ni están avalados por Anki. El uso de estos servicios puede requerir pago.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
