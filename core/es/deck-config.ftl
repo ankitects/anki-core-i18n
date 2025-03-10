@@ -369,15 +369,32 @@ deck-config-predicted-minimum-recommended-retention = Retención minima recomend
 deck-config-complete = { $num }% completo.
 deck-config-iterations = Iteración: { $count }...
 deck-config-reschedule-cards-on-change = Reprogramar tarjetas tras el cambio
+deck-config-reschedule-cards-on-change-tooltip =
+    Afecta a toda la colección y no se guarda.
+    
+    Esta opción determina si las fechas de repaso de las tarjetas serán reprogramadas cuando habilites FSRS, u optimices los parámetros. La opción por defecto es no reprogramar las tarjetas: los repasos futuros de las tarjetas usarán la nueva programación, pero no habrá un cambio inmediato a tu carga de trabajo. Si se activa la reprogramación, las fechas de repasos de las tarjetas serán cambiadas.
+deck-config-reschedule-cards-warning =
+    Dependiendo en tu retención deseada, esto puede resultar en una gran cantidad de tarjetas que tendrás que repasar, asi que no se recomienda si es la primera vez que usas FSRS.
+    Usa esta opción con prudencia, ya que añadirá una entrada de repaso a tus tarjetas, y aumentará el tamaño de tu colección.
 deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
+deck-config-percent-of-reviews =
+    { $reviews ->
+        [one] { "" }
+       *[other] { $pct }% de { $reviews } repasos
+    }
 deck-config-percent-input = { $pct }%
 deck-config-fsrs-must-be-enabled = Primero, hay que activar FSRS.
+deck-config-fsrs-params-optimal = Parece que los parámetros FSRS son óptimos.
 deck-config-wait-for-audio = Esperar al audio
 deck-config-show-reminder = Mostrar recordatorio
 deck-config-answer-again = Otra Vez
 deck-config-answer-hard = Difícil
 deck-config-answer-good = Bien
 deck-config-days-to-simulate = Días de simulación
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = Simulador FSRS (experimental)
 deck-config-simulate = Simular
 deck-config-clear-last-simulate = Borrar la última simulación
 deck-config-fsrs-simulator-radio-count = Repasos
