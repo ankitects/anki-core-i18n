@@ -119,6 +119,7 @@ statistics-true-retention-pass = Acertadas
 statistics-true-retention-fail = Fallidas
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Tarjetas totales
+statistics-true-retention-retention = Retención
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Jóvenes
 # This will usually be the same as statistics-counts-mature-cards
@@ -261,6 +262,7 @@ statistics-cards-per-day =
 statistics-average-ease = Facilidad promedio
 statistics-average-difficulty = Dificultad media
 statistics-average-retrievability = Recordabilidad media
+statistics-estimated-total-knowledge = Estimación total de conocimiento
 statistics-save-pdf = Guardar PDF
 statistics-saved = Guardado.
 statistics-stats = estadísticas

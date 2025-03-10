@@ -51,6 +51,7 @@ sync-sign-in = Iniciar sesión
 sync-ankihub-dialog-heading = Iniciar sesión en AnkiHub
 sync-ankihub-username-label = Usuario o correo electrónico:
 sync-ankihub-login-failed = Incapaz de iniciar sesión en Ankihub con las credenciales que se han proporcionado.
+sync-ankihub-addon-installation = Instalación de complementos de AnkiHub.
 
 ## Buttons
 
