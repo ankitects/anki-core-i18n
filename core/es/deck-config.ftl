@@ -208,6 +208,8 @@ deck-config-sort-order-ascending-intervals = Intervalos ascendentes
 deck-config-sort-order-descending-intervals = Intervalos descendentes
 deck-config-sort-order-ascending-ease = Facilidad ascendente
 deck-config-sort-order-descending-ease = Facilidad descendente
+deck-config-sort-order-ascending-difficulty = Tarjetas fáciles primero
+deck-config-sort-order-descending-difficulty = Tarjetas difíciles primero
 deck-config-display-order-will-use-current-deck =
     Anki usará el orden de visualización del mazo seleccionado
     para estudiar, y no los submazos que pueda tener.
@@ -223,9 +225,12 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Mostrar un cronómetro en la pantalla de estudio, que muestra el número de segundos que
     te demoras en contestar una tarjeta.
+deck-config-stop-timer-on-answer = Detener temporizador al responder
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = La cantidad de segundos que se mostrará la pregunta
+deck-config-seconds-to-show-answer = La cantidad de segundos que se mostrará la pregunta
 deck-config-question-action-show-answer = Mostrar respuesta
 deck-config-question-action-show-reminder = Mostrar recordatorio
 deck-config-question-action-tool-tip = La acción a realizar después de que se muestre la pregunta y haya transcurrido el tiempo.
@@ -264,6 +269,14 @@ deck-config-custom-scheduling-tooltip = Afecta a toda la colección. ¡Úselo ba
 
 # Easy Days section
 
+deck-config-easy-days-monday = Lunes
+deck-config-easy-days-tuesday = Martes
+deck-config-easy-days-wednesday = Miércoles
+deck-config-easy-days-thursday = Jueves
+deck-config-easy-days-friday = Viernes
+deck-config-easy-days-saturday = Sábado
+deck-config-easy-days-sunday = Domingo
+deck-config-easy-days-normal = Normal
 
 ## Adding/renaming
 
@@ -318,15 +331,21 @@ deck-config-which-deck = ¿Qué mazo quieres?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-not-enough-history = No hay suficientes repasos en el historial para ejecutar esta operación.
+deck-config-unable-to-determine-desired-retention = No se ha podido determinar una retención minima recomendada.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Sólo se han encontrado { $count } opiniones. Debe tener al menos 400 opiniones para esta operación.
        *[other] { "" }
     }
+deck-config-ignore-before = Ignorar tarjetas repasadas antes de
+deck-config-time-to-optimize = Ha pasado un buen tiempo - usar el botón para optimizar todo es recomendado
 deck-config-desired-retention = Retención deseada
 deck-config-historical-retention = Retención histórica
 deck-config-smaller-is-better = Los números más pequeños indican un mejor ajuste a su historial de revisiones.
 deck-config-steps-too-large-for-fsrs = Cuando el FSRS está activado, no se recomiendan pasos de 1 día o más.
+deck-config-predicted-minimum-recommended-retention = Retención minima recomendada
+deck-config-reschedule-cards-on-change = Reprogramar tarjetas tras el cambio
 deck-config-fsrs-must-be-enabled = Primero, hay que activar FSRS.
 deck-config-wait-for-audio = Esperar al audio
 deck-config-show-reminder = Mostrar recordatorio
@@ -334,6 +353,7 @@ deck-config-answer-again = Otra Vez
 deck-config-answer-hard = Difícil
 deck-config-answer-good = Bien
 deck-config-days-to-simulate = Días de simulación
+deck-config-simulate = Simular
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
