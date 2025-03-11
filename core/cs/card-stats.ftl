@@ -35,8 +35,12 @@ card-stats-fsrs-forgetting-curve-first-week = První týden
 card-stats-fsrs-forgetting-curve-first-month = První měsíc
 card-stats-fsrs-forgetting-curve-first-year = První rok
 card-stats-fsrs-forgetting-curve-all-time = Po celou dobu
+card-stats-fsrs-forgetting-curve-desired-retention = Požadovaná retence
 
 ## Window Titles
 
 card-stats-current-card = Současná karta ({ $context })
 card-stats-previous-card = Předchozí karta ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

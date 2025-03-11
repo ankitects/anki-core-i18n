@@ -10,6 +10,7 @@ editing-center = Na střed
 editing-change-color = Změnit barvu
 editing-cloze-deletion = Doplňovačka
 editing-cloze-deletion-repeat = Doplňovačka (stejná karta)
+editing-copy-image = Kopírovat obrázek
 editing-couldnt-record-audio-have-you-installed = Zvuk nebylo možné nahrát. Máte nainstalovaný „lame“?
 editing-customize-card-templates = Přizpůsobit šablony karet
 editing-customize-fields = Přizpůsobit pole

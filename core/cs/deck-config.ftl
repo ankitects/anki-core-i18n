@@ -354,7 +354,7 @@ deck-config-compute-minimum-recommended-retention = Minimální doporučená ret
 deck-config-optimize-button = Optimalizovat
 deck-config-compute-button = Vypočítat
 deck-config-ignore-before = Ignorovat opakování před
-deck-config-optimize-all-tip = Můžete optimalizovat všechny předvolby najednou použitím tlačítka výše.
+deck-config-time-to-optimize = Už je to nějakou dobu - doporučuje se použít tlačítko Optimalizovat vše.
 deck-config-evaluate-button = Vyhodnotit
 deck-config-desired-retention = Požadovaná retence
 deck-config-historical-retention = Historická retence
@@ -413,6 +413,7 @@ deck-config-percent-of-reviews =
         [few] { $pct }% ze { $reviews } opakování
        *[other] { $pct }% z { $reviews } opakování
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Optimalizuje se předvolba { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Nejdříve musí být povoleno FSRS.
 deck-config-fsrs-params-optimal = FSRS parametry se nyní zdají být optimální.
@@ -426,8 +427,9 @@ deck-config-desired-retention-below-optimal = Vaše požadovaná retence není o
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = Zapamatováno celkem
+deck-config-fsrs-simulator-experimental = FSRS simulátor (experimentální)
 deck-config-additional-new-cards-to-simulate = Další nové karty pro simulaci
+deck-config-simulate = Simulovat
 deck-config-clear-last-simulate = Vymazat poslední simulaci
 deck-config-fsrs-simulator-radio-count = Opakování
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
@@ -437,6 +439,7 @@ deck-config-fsrs-simulator-radio-memorized = Zapamatováno
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-memorized = Zapamatováno celkem
 deck-config-seconds-to-show-question-tooltip = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
 deck-config-answer-action-tooltip = Akce, která se provede na současnou kartu předtím, než se automaticky posunete na další.
 deck-config-wait-for-audio-tooltip = Čeká se, než dohraje zvuková stopa, až poté se automaticky zobrazí odpověď nebo další otázka
@@ -467,3 +470,4 @@ deck-config-invalid-weights = Váhy musí být buď ponechány prázdné, kdy se
 deck-config-fsrs-on-all-clients =
     Prosím ujistěte se, že všechny vaše Anki klienty jsou Anki(Mobile) 23.10+ nebo AnkiDroid 2.17+. FSRS nebude 
     fungovat správně, jestliže je některý z vašich klientů starší.
+deck-config-optimize-all-tip = Můžete optimalizovat všechny předvolby najednou použitím tlačítka výše.

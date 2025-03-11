@@ -119,19 +119,36 @@ statistics-counts-separate-suspended-buried-cards = Oddělit vyřazené/přesko�
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = Skutečná retence
 statistics-true-retention-subtitle = Míra zapamatování karet s intervalem ≥ 1 den.
 statistics-true-retention-pass = Správně
 statistics-true-retention-fail = Špatně
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Celkem karet
 statistics-true-retention-count = Počet
 statistics-true-retention-retention = Retence
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Mladé
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Zralé
 statistics-true-retention-all = Vše
 statistics-true-retention-today = Dnes
 statistics-true-retention-yesterday = Včera
 statistics-true-retention-week = Minulý týden
 statistics-true-retention-month = Minulý měsíc
 statistics-true-retention-year = Minulý rok
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
 
 ##
 
@@ -299,6 +316,3 @@ statistics-save-pdf = Uložit PDF
 statistics-saved = Uloženo.
 statistics-stats = statistika
 statistics-title = Statistiky
-statistics-true-retention-total = Celkem karet
-statistics-true-retention-young = Mladé
-statistics-true-retention-mature = Zralé

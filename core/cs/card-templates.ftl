@@ -39,6 +39,7 @@ card-templates-card = Karta { $val }
 card-templates-card-types-for = Typy karet pro { $val }
 card-templates-cloze = Doplňovačka { $val }
 card-templates-deck-override = Přepsat balíček...
+card-templates-copy-info = Zkopírovat informace do schránky
 card-templates-delete-the-as-card-type-and = Odstranit typ karty „{ $template }“ a jeho { $cards }?
 card-templates-enter-deck-to-place-new = Zadejte balíček pro umístění { $val } nových karet, nebo nechte prázdné:
 card-templates-enter-new-card-position-1 = Pozice nové karty (1...{ $val })
