@@ -115,6 +115,7 @@ statistics-counts-separate-suspended-buried-cards = Separar tarjetas suspendidas
 ##      window is certain sizes.
 
 statistics-true-retention-title = Retención actual
+statistics-true-retention-subtitle = Tasa de tarjetas acertadas, que tengan un intervalo de 1 día o más.
 statistics-true-retention-range = Intervalo
 statistics-true-retention-pass = Acertadas
 statistics-true-retention-fail = Fallidas
@@ -144,6 +145,7 @@ statistics-range-search = Buscar
 statistics-card-ease-title = Facilidad de la Tarjeta
 statistics-card-difficulty-title = Dificultad de las tarjetas
 statistics-card-stability-title = Stabilidad de tarjeta
+statistics-card-stability-subtitle = El tiempo que debe transcurrir hasta que la probabilidad de recordarse disminuya a 90%.
 statistics-average-stability = Estabilidad media
 statistics-card-retrievability-title = Recordabilidad de las tarjetas
 statistics-card-ease-subtitle = Cómo más baja sea la facilidad, más frequentemente aparecerá la tarjeta.

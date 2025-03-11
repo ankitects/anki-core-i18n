@@ -77,6 +77,7 @@ preferences-reset-window-sizes = Restablecer tamaños de las ventanas
 preferences-reset-window-sizes-complete = Se han restablecido los tamaños y las ubicaciones de las ventanas.
 preferences-shortcut-placeholder = Ingrese una tecla de atajo no utilizada o déjela en blanco para deshabilitarla.
 preferences-third-party-services = Servicios de terceros
+preferences-ankihub-not-logged-in = No has iniciado sesión a AnkiHub.
 preferences-ankiweb-intro = Ankiweb es un servicio gratuito que te permite mantener sincronizados los datos de tus tarjetas entre tus dispositivos, y proporciona una manera de recuperar los datos si tu dispositivo se estropea o si se pierde.
 preferences-third-party-description = Los servicios de terceros no están afiliados a Anki, ni están avalados por Anki. El uso de estos servicios puede requerir pago.
 

@@ -439,6 +439,7 @@ deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-memorized = Tarjetas memorizadas
 deck-config-bury-siblings = Enterrar tarjetas hermanas
 deck-config-do-not-bury = No enterrar tarjetas hermanas
 deck-config-bury-if-new = Enterrar si es nueva
@@ -459,3 +460,6 @@ deck-config-bury-tooltip =
 deck-config-compute-optimal-retention = Calcular la retención mínima recomendada
 deck-config-predicted-optimal-retention = Minimum recommended retention: { $num }
 deck-config-weights-tooltip = Los parámetros FSRS afectan como se programan las tarjetas. Anki empezará con los parámetros por defecto. Una vez que acumules más de 1000 repasos, podrás usar la siguiente opción para optimizar los parámetos para que se adapten lo mejor posible a tu rendimiento en mazos usando este preajuste.
+deck-config-fsrs-on-all-clients =
+    Asegúrese de tener Anki(Mobile) 23.10+, o AnkiDroid 2.17+.
+    FSRS no funcionará correctamente con versiones inferiores.
