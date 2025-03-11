@@ -133,6 +133,9 @@ statistics-true-retention-week = La semana pasada
 statistics-true-retention-month = El mes pasado
 statistics-true-retention-year = El año pasado
 statistics-true-retention-all-time = Periodo entero
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
 
 ##
 

@@ -401,6 +401,10 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip-2 =
     Si la opción es habilitada, tarjetas repasadas antes de la fecha proporcionada serán excluidas cuando optimices los parámetros FSRS.
     Esta opción puede ser útil si importaste los datos de programación de otra persona, o si cambiaste la manera en la que usas los botones de respuesta.
+deck-config-compute-optimal-weights-tooltip2 =
+    Cuando presiones el butón "Optimizar", FSRS analizará tu historial de repasos, y generará parámetros que sean optimos para tu memoria y el contenido que estés estudiando. Si tus mazos varian mucho en dificultad, se recomienda asignarles diferentes preajustes, ya que los parámetros para mazos fáciles y para mazos difíciles serán diferentes.
+    No necesitas optimizar tus parámetros frequentemente - hacerlo una vez cada pocos meses es suficiente.
+    Por defecto, los parámetros serán calculados usando el historial de repasos de todos los mazos usando el preajuste seleccionado actualmente. Puedes alterar opcionalmente que tarjetas son utilizadas para calcular los parámetros, si ajustas la búsqueda antes de calcular los parámetros.
 deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
 deck-config-a-100-day-interval =
     { $days ->
@@ -439,6 +443,7 @@ deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = Hora/Día de repaso
 deck-config-fsrs-simulator-y-axis-title-memorized = Tarjetas memorizadas
 deck-config-bury-siblings = Enterrar tarjetas hermanas
 deck-config-do-not-bury = No enterrar tarjetas hermanas
