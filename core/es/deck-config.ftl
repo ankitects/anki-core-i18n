@@ -398,6 +398,9 @@ deck-config-reschedule-cards-on-change-tooltip =
 deck-config-reschedule-cards-warning =
     Dependiendo en tu retención deseada, esto puede resultar en una gran cantidad de tarjetas que tendrás que repasar, asi que no se recomienda si es la primera vez que usas FSRS.
     Usa esta opción con prudencia, ya que añadirá una entrada de repaso a tus tarjetas, y aumentará el tamaño de tu colección.
+deck-config-ignore-before-tooltip-2 =
+    Si la opción es habilitada, tarjetas repasadas antes de la fecha proporcionada serán excluidas cuando optimices los parámetros FSRS.
+    Esta opción puede ser útil si importaste los datos de programación de otra persona, o si cambiaste la manera en la que usas los botones de respuesta.
 deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
 deck-config-a-100-day-interval =
     { $days ->
