@@ -218,6 +218,12 @@ importing-field-separator-help =
     debe encontrarse entre comillas, de acuerdo con el estándar CSV. Los programas de hoja de cálculo
     como LibreOffice harán esto automáticamente.
 importing-deck-help = Las tarjetas importadas serán puestas en este mazo.
+importing-existing-notes-help =
+    Qué hacer cuando una nota importada coincida con una existente.
+    
+    - `{ importing-update }`: Actualizar la nota existente.¶
+    - `{ importing-preserve }`: Hacer nada.¶
+    - `{ importing-duplicate }`: Crear una nota nueva.
 importing-tag-all-notes-help = Se añadirán las etiquetas tanto a las notas que importes y a las que actualices.
 importing-tag-updated-notes-help = Estas etiquetas serán añadidas a las notas que actualizes.
 importing-overview = Resumen

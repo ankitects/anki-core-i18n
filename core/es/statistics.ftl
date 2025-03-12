@@ -121,6 +121,7 @@ statistics-true-retention-pass = Acertadas
 statistics-true-retention-fail = Fallidas
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Tarjetas totales
+statistics-true-retention-count = Recuento
 statistics-true-retention-retention = Retención
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Jóvenes

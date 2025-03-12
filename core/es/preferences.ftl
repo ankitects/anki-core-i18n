@@ -13,6 +13,8 @@ preferences-media-is-not-backed-up = No existe ninguna copia de seguridad de los
 preferences-on-next-sync-force-changes-in = Forzar cambios en una dirección en la próxima sincronización
 preferences-paste-clipboard-images-as-png = Pegar imágenes del portapapeles como PNG
 preferences-paste-without-shift-key-strips-formatting = Pegar sin la tecla Mayús elimina el formato
+preferences-generate-latex-images-automatically = Genera imágenes LaTeX (riesgo de securidad)
+preferences-latex-generation-disabled = La generación de imágenes LaTex está desactivada en las preferencias.
 preferences-periodically-sync-media = Sincronizar archivos multimedia periódicamente
 preferences-please-restart-anki-to-complete-language = Por favor, reinicia Anki para completar el cambio de idioma.
 preferences-preferences = Preferencias
@@ -79,6 +81,7 @@ preferences-shortcut-placeholder = Ingrese una tecla de atajo no utilizada o dé
 preferences-third-party-services = Servicios de terceros
 preferences-ankihub-not-logged-in = No has iniciado sesión a AnkiHub.
 preferences-ankiweb-intro = Ankiweb es un servicio gratuito que te permite mantener sincronizados los datos de tus tarjetas entre tus dispositivos, y proporciona una manera de recuperar los datos si tu dispositivo se estropea o si se pierde.
+preferences-ankihub-intro = AnkiHub proporciona el editaje colaborativo de mazos, y herramientas adicionales para estudiar. Se requiere una subscripción pagada para acceder parte de la funcionalidad.
 preferences-third-party-description = Los servicios de terceros no están afiliados a Anki, ni están avalados por Anki. El uso de estos servicios puede requerir pago.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
