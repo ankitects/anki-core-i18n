@@ -1,9 +1,12 @@
 adding-add-shortcut-ctrlandenter = បន្ថែម (ផ្លូវកាត់: ctrl+enter)
 adding-added = បានបន្ថែម
-adding-close-and-lose-current-input = បិទ និងបាត់បង់កាតកំពុងបញ្ចូល?
+adding-discard-current-input = បោះបង់ការបញ្ចូលនេះ?
+adding-keep-editing = បន្តកែប្រែ
 adding-edit = កែប្រែ "{ $val }"
 adding-history = ប្រវត្តិ
 adding-note-deleted = (កាតត្រូវបានលុបចោល)
 adding-shortcut = ផ្លូវកាត់: { $val }
-adding-the-first-field-is-empty = ប្រអប់ទី១មិនមានអក្សរ
-adding-you-have-a-cloze-deletion-note = អ្នកមានប្រភេទកាតលុបចោលខ្លូស ប៉ុន្តែមិនបានបង្កើតការលុបចោលខ្លូសណាមួយ។ បន្តទៅមុខ?
+adding-the-first-field-is-empty = ប្រអប់ទីមួយគឺទទេ។
+adding-you-have-a-cloze-deletion-note = អ្នកមានប្រភេទកំណត់ត្រាបែបបំពេញចន្លោះ តែមិនទាន់ធ្វើការលុបចោល cloze ណាមួយទេ។ បន្តទៅមុខ?
+adding-cloze-outside-cloze-notetype = ការលុប​​ cloze អាចប្រើបានតែលើប្រភេទកំណត់ត្រាបែបបំពេញចន្លោះប៉ុណ្ណោះ។
+adding-cloze-outside-cloze-field = ការលុប Cloze អាចប្រើបានតែក្នុងប្រអប់សំណួរ-ចម្លើយដែលប្រើ 'cloze:' ប៉ុណ្ណោះ។ ជាធម្មតា នេះជាប្រអប់ទីមួយ។
