@@ -270,6 +270,7 @@ deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Reduzido
 deck-config-easy-days-minimum = Mínimo
 deck-config-easy-days-no-normal-days = Pelo menos um dia deve ser definido como '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = As revisões existentes não serão reprogramadas a menos que '{ deck-config-reschedule-cards-on-change }' esteja habilitado nas opções do FSRS.
 
 ## Adding/renaming
 
