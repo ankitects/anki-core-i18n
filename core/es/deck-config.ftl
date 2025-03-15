@@ -405,6 +405,11 @@ deck-config-compute-optimal-weights-tooltip2 =
     Cuando presiones el butón "Optimizar", FSRS analizará tu historial de repasos, y generará parámetros que sean optimos para tu memoria y el contenido que estés estudiando. Si tus mazos varian mucho en dificultad, se recomienda asignarles diferentes preajustes, ya que los parámetros para mazos fáciles y para mazos difíciles serán diferentes.
     No necesitas optimizar tus parámetros frequentemente - hacerlo una vez cada pocos meses es suficiente.
     Por defecto, los parámetros serán calculados usando el historial de repasos de todos los mazos usando el preajuste seleccionado actualmente. Puedes alterar opcionalmente que tarjetas son utilizadas para calcular los parámetros, si ajustas la búsqueda antes de calcular los parámetros.
+deck-config-compute-optimal-retention-tooltip4 =
+    Esta herramienta intentará determinar el valor de la retención que resultará en la mayor cantidad de material aprendido, en el menor tiempo posible.
+    El número calculado puede servir como referencia cuando decidas el valor de retención que deseas poner.
+    Puede que quieras elegir un valor de retención más alto si deseas invertir más tiempo de estudio para conseguirlo.
+    Poner el valor de retención más bajo que el valor recomendado no se recomienda, ya que resultará en una carga de trabajo más alta, por la tasa de olvido más alta.
 deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
 deck-config-a-100-day-interval =
     { $days ->

@@ -224,6 +224,9 @@ importing-existing-notes-help =
     - `{ importing-update }`: Actualizar la nota existente.¶
     - `{ importing-preserve }`: Hacer nada.¶
     - `{ importing-duplicate }`: Crear una nota nueva.
+importing-match-scope-help =
+    Solo las notas existentes, del mismo tipo de nota, serán comprobadas para ver si están duplicadas.
+    Adicionalmente, se puede restringir a notas en el mismo mazo.
 importing-tag-all-notes-help = Se añadirán las etiquetas tanto a las notas que importes y a las que actualices.
 importing-tag-updated-notes-help = Estas etiquetas serán añadidas a las notas que actualizes.
 importing-overview = Resumen
