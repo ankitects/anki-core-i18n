@@ -16,17 +16,15 @@ card-template-rendering-no-closing-brackets = រកមិនឃើញ '{ $missi
 card-template-rendering-conditional-not-closed = រកមិនឃើញ '{ $missing }'
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
-card-template-rendering-wrong-conditional-closed = រកឃើញ '{ $found }', ប៉ុន្តែតម្រូវឲ្យមាន '{ $expected }'
+card-template-rendering-wrong-conditional-closed = បានរកឃើញ '{ $found }' តែតម្រូវឱ្យមាន '{ $expected }'
 # when the user closed a conditional that wasn't open
 # eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
-card-template-rendering-conditional-not-open = រកឃើញ { $found }, ប៉ុន្តែរកមិនឃើញ  { $missing1 } ឬ { $missing2 }
+card-template-rendering-conditional-not-open = បានរកឃើញ '{ $found }' តែរកមិនឃើញ '{ $missing1 }' ឬ '{ $missing2 }'
 # when the user referenced a field that doesn't exist
 # eg, Found '{{Field}}', but there is not field called 'Field'
-card-template-rendering-no-such-field = រកឃើញ{ $found } ប៉ុន្តែមិនមែនកន្លែងសម្រាប់ដាក់{ $field }
+card-template-rendering-no-such-field = បានរកឃើញ '{ $found }' តែមិនមានប្រអប់សំណួរ-ចម្លើយឈ្មោះ '{ $field }'​ ទេ
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.
-card-template-rendering-empty-front = ផ្នែកខាងមុខនៃកាតនេះមិនមានអក្សរ
-card-template-rendering-missing-cloze =
-    មិនមានខ្លូស{ $number }នៅលើកាត
-    សុំលុបខ្លូស ឬប្រើឧបករណ៍ ការទទេរ
+card-template-rendering-empty-front = ផ្នែកខាងមុខនៃកាតនេះគឺទទេ។
+card-template-rendering-missing-cloze = គ្មាន cloze ចំនួន { $number } នៅលើកាត។ សូមកំណត់ការលុប cloze ឬប្រើឧបករណ៍ធ្វើឱ្យកាតទទេ។
