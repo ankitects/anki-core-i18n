@@ -4,14 +4,16 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = ព័ត៌មាន​បន្ថែម
-card-template-rendering-front-side-problem = គំរូខាងមុខមានបញ្ហា
-card-template-rendering-back-side-problem = គំរូខាងក្រោយមានបញ្ហា
+card-template-rendering-front-side-problem = គំរូខាងមុខមានបញ្ហា:
+card-template-rendering-back-side-problem = គំរូខាងក្រោយមានបញ្ហា:
+card-template-rendering-browser-front-side-problem = គំរូខាងមុខផ្នែក brower-specific មានបញ្ហា:
+card-template-rendering-browser-back-side-problem = គំរូខាងក្រោយផ្នែក browser-specific មានបញ្ហា:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
-card-template-rendering-no-closing-brackets = រកមិនឃើញ { $missing } ក្នុង { $tag }
+card-template-rendering-no-closing-brackets = រកមិនឃើញ '{ $missing }' ក្នុង '{ $tag }'
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
-card-template-rendering-conditional-not-closed = រកមិនឃើញ { $missing }
+card-template-rendering-conditional-not-closed = រកមិនឃើញ '{ $missing }'
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
 card-template-rendering-wrong-conditional-closed = រកឃើញ '{ $found }', ប៉ុន្តែតម្រូវឲ្យមាន '{ $expected }'
