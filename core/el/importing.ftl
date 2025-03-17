@@ -33,7 +33,7 @@ importing-map-to = Χάρτης στο { $val }
 importing-map-to-tags = Χάρτης σε Ετικέτες
 importing-mapped-to = σε αντιστοιχία προς <b>{ $val }</b>
 importing-mapped-to-tags = σε αντιστοιχία προς  <b>Ετικέτες</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Συγχώνευση τύπων σημειώσεων
 importing-merge-notetypes-help = Αν είναι επιλεγμένο, και εσείς ή ο συντάκτης της τράπουλας τροποποιήσει τον σχεδιασμό ενός τύπου σημειώσεων, το Anki θα συγχωνεύσει τις δύο εκδόσεις αντί να κρατήσει και τις δύο. Τροποποίηση του σχεδιασμού ενός τύπου σημειώσεων σημαίνει προσθήκη, αφαίρεση ή αναδιάταξη πεδίων ή προτύπων, ή αλλαγή του πεδίου ταξινόμησης. Ως αντιπαράδειγμα, η αλλαγή της μπροστινής πλευράς ενός υπάρχοντος προτύπου *δεν* συνιστά αλλαγή σχεδιασμού. Προειδοποίηση: Αυτό θα απαιτήσει συγχρονισμό προς μία κατεύθυνση και μπορεί να μαρκάρει τις υπάρχουσες σημειώσεις ως τροποποιημένες.
 importing-mnemosyne-20-deck-db = Τράπουλα Mnemosyne 2.0 (*.db)
@@ -54,6 +54,13 @@ importing-with-deck-configs-help =
     Αν ενεργοποιημένο, θα εισαχθούν επίσης επιλογές τραπουλών τις οποίες συμπεριέλαβε ο διαμοιραστής.
     Διαφορετικά,  όλες οι τράπουλες θα λάβουν τις προεπιλεγμένες ρυθμίσεις.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Πακεταρισμένη τράπουλα/συλλογή Anki (*.apkg *.colpkg *.zip)
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Εμφανίζεται μόνο η πρώτη { $count } στήλη. Αν αυτό δεν είναι σωστό, δοκιμάστε να αλλάξετε το διαχωριστικό των πεδίων.
+       *[other] Εμφανίζονται μόνο οι πρώτες { $count } στήλες. Αν αυτό δεν είναι σωστό, δοκιμάστε να αλλάξετε το διαχωριστικό των πεδίων.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' είχε { $found } πεδία, αναμένωντας { $expected }
 importing-selected-file-was-not-in-utf8 = Το επιλεγμένο αρχείο δεν ήταν σε μορφή UTF-8. Παρακαλώ δείτε την αντίστοιχη ενότητα στο εγχειρίδιο.
 importing-semicolon = Άνω τελεία
