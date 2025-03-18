@@ -1,4 +1,12 @@
+importing-failed-debug-info = Импорт сәтсіз аяқталды. Оңдау мәліметі:
 importing-aborted = Доғарылған: { $val }
+importing-added-duplicate-with-first-field = Алғашқы өрісі қайталанған элемент қосылды: { $val }
+importing-all-supported-formats = Барлық қолдау көрсетілетін пішімдер { $val }
+importing-allow-html-in-fields = Өрістерде HTML қолдануды рұқсат ету
+importing-anki-files-are-from-a-very = .anki файлдары Anki-дің ескі нұсқасынан. Оларды 175027074 қосымшасы арқылы немесе Anki 2.0 нұсқасын пайдаланып импорттауға болады, ол Anki веб-сайтында бар.
+importing-anki2-files-are-not-directly-importable = .anki2 файлдарын тікелей импорттауға болмайды, орнына берілген .apkg не .zip файлын импорттаңыз.
+importing-appeared-twice-in-file = Файлда екі рет кездесті: { $val }
+importing-by-default-anki-will-detect-the = Әдетте, Anki шегініс, үтір және тағы басқа таңбаларды анықтайды. Егер Anki таңбаны дұрыс анықамаса, оны осында енгізуге болады. Шегіністі көрсету үшін \t қолданыңыз.
 importing-change = Өзгерту
 importing-colon = Қоснүкте
 importing-comma = Үтір
