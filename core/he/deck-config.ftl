@@ -280,6 +280,7 @@ deck-config-easy-days-normal = רגיל
 deck-config-easy-days-reduced = מופחת
 deck-config-easy-days-minimum = מינימום
 deck-config-easy-days-no-normal-days = לפחות יום אחד צריך להיות מוגדר ל '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = חזרות קיימות לא יתוזמנו מחדש אלא אם '{ deck-config-reschedule-cards-on-change }' מופעל באפשרויות FSRS.
 
 ## Adding/renaming
 
