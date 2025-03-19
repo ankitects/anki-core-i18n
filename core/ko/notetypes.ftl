@@ -35,3 +35,14 @@ notetypes-note-types = 노트 유형
 notetypes-options = 옵션...
 notetypes-please-add-another-note-type-first = 먼저 다른 노트 유형을 추가하세요.
 notetypes-type = 유형
+
+## Image Occlusion
+
+notetypes-image = 이미지
+notetypes-occlusion-mask = 마스크
+notetypes-occlusion-note = 노트
+notetypes-hide-all-guess-one = 전부 가리고 하나씩 맞히기
+notetypes-hide-one-guess-one = 하나씩 가리고 맞히기
+notetypes-error-generating-cloze = image occlusion 노트를 생성 중 오류가 발생했습니다
+notetype-error-no-image-to-show = 표시할 이미지 없음.
+notetypes-io-select-image = 이미지 선택

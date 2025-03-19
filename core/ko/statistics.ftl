@@ -19,9 +19,6 @@ statistics-in-time-span-hours = { $amount }시간 동안
 statistics-in-time-span-days = { $amount }일 동안
 statistics-in-time-span-months = { $amount }달 동안
 statistics-in-time-span-years = { $amount }년 동안
-statistics-cards = { $cards }카드
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews }복습
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -35,6 +32,13 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } 오늘({ $secs-per-card }s/card)
+
+##
+
+statistics-cards = { $cards }카드
+statistics-notes = 노트
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews = { $reviews }복습
 statistics-today-title = 오늘
 statistics-today-again-count = '다시' 버튼 누른 횟수:
 statistics-today-type-counts = 학습: { $learnCount }, 복습: { $reviewCount }, 재학습: { $relearnCount }, 필터됨:{ $filteredCount }
@@ -50,8 +54,40 @@ statistics-counts-buried-cards = 미뤄짐
 statistics-counts-filtered-cards = 필터링됨
 statistics-counts-learning-cards = 학습 카드
 statistics-counts-relearning-cards = 재학습 카드
-statistics-counts-title = 카드 갯수
+statistics-counts-title = 카드 개수
 statistics-counts-separate-suspended-buried-cards = 일시중단/미뤄진 카드 제외하기
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = 전체 카드
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = 어린 카드
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = 성숙 카드
+statistics-true-retention-today = 오늘
+statistics-true-retention-yesterday = 어제
+statistics-true-retention-week = 지난 주
+statistics-true-retention-month = 지난 달
+statistics-true-retention-year = 작년
+statistics-true-retention-all-time = 전체
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
+
+##
+
 statistics-range-all-time = 전체
 statistics-range-1-year-history = 최근 12달간
 statistics-range-all-history = 모든 기록
@@ -158,6 +194,3 @@ statistics-average-ease = 평균 ease
 statistics-save-pdf = PDF로 저장
 statistics-saved = 저장됨.
 statistics-stats = 통계
-statistics-true-retention-total = 전체 카드
-statistics-true-retention-young = 어린 카드
-statistics-true-retention-mature = 성숙 카드

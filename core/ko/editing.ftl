@@ -64,6 +64,7 @@ editing-warning-cloze-deletions-will-not-work = 빈칸 뚫기는 화면 위쪽�
 editing-mathjax-preview = MathJax 미리보기
 editing-shrink-images = 이미지 줄여보기
 editing-close-html-tags = HTML 태그 자동 완성
+editing-image-occlusion-confirm-reset = image occlusion을 초기화하시겠습니까?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

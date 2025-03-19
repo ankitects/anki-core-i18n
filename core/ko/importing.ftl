@@ -38,6 +38,7 @@ importing-notes-added-from-file = 파일에서 노트를 추가함 : { $val }
 importing-notes-found-in-file = 파일에서 노트를 발견함 : { $val }
 importing-notes-skipped-as-theyre-already-in = 이미 컬렉션에 있기 때문에 노트를 추가하지 않았습니다 : { $val }
 importing-notes-updated-as-file-had-newer = 파일이 최신 버전을 가졌기 때문에 업데이트된 노트 : { $val }
+importing-updates = 덮어쓰기
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 압축된 Anki 덱/컬렉션 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lesson (*.pau.gz)
 # the '|' character
@@ -58,6 +59,8 @@ importing-unable-to-import-from-a-readonly = 읽기 전용 파일은 가져올 �
 importing-unknown-file-format = 알 수 없는 파일 형식.
 importing-update-existing-notes-when-first-field = 첫 필드가 일치할 경우 기존의 노트를 업데이트
 importing-updated = 업데이트됨
+importing-update-always = 항상
+importing-update-notetypes = 노트 유형 업데이트
 importing-note-added =
     { $count ->
        *[other] { $count }노트를 추가했습니다.
@@ -94,6 +97,8 @@ importing-update = 덮어쓰기
 importing-tag-all-notes = 모든 노트 태그
 importing-tag-updated-notes = 덮어쓴 노트 태그
 importing-file = 파일
+importing-show = 보이기
+importing-added-new-note = 새 노트 추가됨
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

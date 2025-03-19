@@ -26,6 +26,7 @@ sync-wrong-pass = AnkiWeb 아이디나 비밀번호가 틀렸습니다. 다시 �
 sync-resync-required = 다시 동기화하십시오. 이 메시지가 계속 나타나면 지원 사이트에 게시하십시오.
 sync-must-wait-for-end = Anki가 동기화 중입니다. 동기화가 끝날 때까지 기다린 뒤 다시 시도하십시오.
 sync-confirm-empty-download = 로컬의 컬렉션에는 카드가 존재하지 않습니다. AnkiWebAnkiweb에서 다운로드할까요?
+sync-confirm-empty-upload = AnkiWeb 컬렉션에 카드가 없습니다. 로컬 컬렉션으로 대체하시겠습니까?
 sync-conflict-explanation =
     이 기기에 저장된 내용과 AnkiWeb에 저장된 내용이 차이가 나기 때문에, 한쪽의 내용을 다른 쪽으로 덮어써야만 합니다.
     
