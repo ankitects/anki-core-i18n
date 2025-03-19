@@ -30,12 +30,13 @@ importing-map-to = { $val }로 배정
 importing-map-to-tags = 태그로 배정
 importing-mapped-to = <b>{ $val }</b>에 배정됨
 importing-mapped-to-tags = <b>태그</b>로 배정됨
+# the action of combining two existing note types to create a new one
+importing-merge-notetypes = 노트 타입 병합
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 덱 (*.db)
 importing-multicharacter-separators-are-not-supported-please = 여러 글자의 분리 기호를 지원하지 않습니다. 하나의 분리 기호만 사용해주세요.
 importing-notes-added-from-file = 파일에서 노트를 추가함 : { $val }
 importing-notes-found-in-file = 파일에서 노트를 발견함 : { $val }
 importing-notes-skipped-as-theyre-already-in = 이미 컬렉션에 있기 때문에 노트를 추가하지 않았습니다 : { $val }
-importing-notes-that-could-not-be-imported = 노트 타입이 바뀌었기 때문에 불러올 수 없는 노트 : { $val }
 importing-notes-updated-as-file-had-newer = 파일이 최신 버전을 가졌기 때문에 업데이트된 노트 : { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 압축된 Anki 덱/컬렉션 (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 Lesson (*.pau.gz)
@@ -98,4 +99,5 @@ importing-file = 파일
 
 importing-importing-collection = 컬렉션 가져오는 중...
 importing-unable-to-import-filename = { $filename }을 가져오지 못했습니다. 지원하지 않는 파일 유형입니다.
+importing-notes-that-could-not-be-imported = 노트 타입이 바뀌었기 때문에 불러올 수 없는 노트 : { $val }
 importing-added = 추가됨
