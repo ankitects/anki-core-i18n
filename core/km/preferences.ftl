@@ -17,6 +17,34 @@ preferences-show-remaining-card-count = បង្ហាញចំនួនកា�
 preferences-some-settings-will-take-effect-after = ការកំណត់មួយចំនួននឹងមានប្រសិទ្ធភាពបន្ទាប់ពីអ្នកចាប់ផ្តើម Anki ឡើងវិញ។
 preferences-tab-synchronisation = ការធ្វើសមកាលកម្ម
 preferences-synchronize-audio-and-images-too = ធ្វើសមកាលកម្មសំឡេង និងរូបភាពផងដែរ
+preferences-theme = ផ្ទៃស្បែក
+preferences-theme-follow-system = អនុវត្តតាមប្រព័ន្ធ
+preferences-theme-light = ភ្លឺ
+preferences-theme-dark = ងងឹត
+preferences-daily-backups = ការបម្រុងទុកប្រចាំថ្ងៃដែលត្រូវរក្សាទុក:
+preferences-weekly-backups = ការបម្រុងទុកប្រចាំសប្ដាហ៍ដែលត្រូវរក្សាទុក:
+preferences-monthly-backups = ការបម្រុងទុកប្រចាំខែដែលត្រូវរក្សាទុក:
+preferences-reduce-motion = កាត់បន្ថយចលនា
+preferences-always = ជានិច្ច
+preferences-full-screen-only = អេក្រង់ពេញប៉ុណ្ណោះ
+preferences-appearance = រូបរាង
+preferences-general = ទូទៅ
+preferences-style = រចនាប័ទ្ម
+preferences-review = រំឭក
+preferences-answer-keys = គ្រាប់ចុចចម្លើយ
+preferences-distractions = ការរំខាន
+preferences-editing = ការកែសម្រួល
+preferences-browsing = ការរុករក
+preferences-default-deck = ហ៊ូលំនាំដើម
+preferences-account = គណនី AnkiWeb
+preferences-note = កំណត់ត្រា
+preferences-scheduler = កម្មវិធីរៀបចំកាលវិភាគ
+preferences-import-export = នាំចូល/នាំចេញ
+preferences-shortcut-placeholder = បញ្ចូលគ្រាប់ចុចផ្លូវកាត់ដែលមិនប្រើ ឬទុកចោលដើម្បីបិទ។
+preferences-third-party-services = សេវាកម្មភាគីទីបី
+preferences-ankihub-not-logged-in = បច្ចុប្បន្ន​មិន​បាន​ចូល​ទៅ AnkiHub ទេ។
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+preferences-basic = ធម្មតា
+preferences-not-logged-in = បច្ចុប្បន្ន​មិន​បាន​ចូល​ទៅ​កាន់ AnkiWeb ទេ។
