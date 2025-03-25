@@ -254,7 +254,7 @@ statistics-elapsed-time-years = { $amount } Jr.
 ##
 
 statistics-average-for-days-studied = Durchschnitt an Lerntagen
-statistics-total = Insgesamt
+statistics-total = Aufsummiert
 statistics-days-studied = Lerntage
 statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
