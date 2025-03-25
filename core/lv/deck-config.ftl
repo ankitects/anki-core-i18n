@@ -161,6 +161,7 @@ deck-config-new-card-sort-order = Jauna kāršu šķirošanas secība
 
 ## Auto Advance section
 
+deck-config-question-action-show-answer = Parādīt atbildi
 
 ## Audio section
 
@@ -170,6 +171,13 @@ deck-config-new-card-sort-order = Jauna kāršu šķirošanas secība
 
 # Easy Days section
 
+deck-config-easy-days-monday = Pirmdiena
+deck-config-easy-days-tuesday = Otrdiena
+deck-config-easy-days-wednesday = Trešdiena
+deck-config-easy-days-thursday = Ceturtdiena
+deck-config-easy-days-friday = Piektdiena
+deck-config-easy-days-saturday = Sestdiena
+deck-config-easy-days-sunday = Svētdiena
 
 ## Adding/renaming
 
@@ -179,6 +187,7 @@ deck-config-new-card-sort-order = Jauna kāršu šķirošanas secība
 
 ## Other Buttons
 
+deck-config-save-button = Saglabāt
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
