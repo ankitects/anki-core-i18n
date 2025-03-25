@@ -50,7 +50,7 @@ actions-select = Atlasīt
 actions-shortcut-key = Saīsnes taustiņš: { $val }
 actions-suspend-card = Apturēt kārti
 actions-set-due-date = Noteikt termiņu
-actions-answer-card = Atbildes kārts
+actions-answer-card = Atbildes karte
 actions-unbury-unsuspend = Atkopt
 actions-add-deck = Pievienot kavu
 actions-add-note = Pievienot piezīmi
@@ -64,8 +64,8 @@ actions-add-notetype = Pievienot piezīmes veidu
 actions-remove-notetype = Noņemt piezīmes veidu
 actions-update-notetype = Atjaunot piezīmes veidu
 actions-update-config = Atjaunot konfigurāciju
-actions-card-info = Kārts informācija
-actions-previous-card-info = Iepriekšējās kārts informācija
+actions-card-info = Kartes informācija
+actions-previous-card-info = Iepriekšējās kartes informācija
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...

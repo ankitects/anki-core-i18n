@@ -8,12 +8,12 @@ card-stats-lapse-count = Apļl
 card-stats-average-time = Vidējais laiks
 card-stats-total-time = Kopējais laiks
 card-stats-new-card-position = Pozīcija
-card-stats-card-template = Kārts veids
+card-stats-card-template = Kartes veids
 card-stats-note-type = Piezīmes veids
 card-stats-deck-name = Kava
 card-stats-preset = Iepriekš iestatītais
 card-stats-note-id = Piezīmes identifikators
-card-stats-card-id = Kārts identifikators
+card-stats-card-id = Kartes identifikators
 card-stats-review-log-rating = Vērtējums
 card-stats-review-log-type = Veids
 card-stats-review-log-date = Datums
@@ -35,10 +35,13 @@ card-stats-fsrs-forgetting-curve-first-week = Pirmā nedēļa
 card-stats-fsrs-forgetting-curve-first-month = Pirmais mēnesis
 card-stats-fsrs-forgetting-curve-first-year = Pirmais gads
 card-stats-fsrs-forgetting-curve-all-time = Viss laiks
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Iespēja uz atsaukšanu
 card-stats-fsrs-forgetting-curve-desired-retention = Vēlamā saglabāšana
 
 ## Window Titles
 
-card-stats-current-card = Pašreizējā kārts ({ $context })
+card-stats-current-card = Pašreizējā karte ({ $context })
 card-stats-previous-card = Iepriekšējā kārts ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Iespēja uz atsaukšanu
