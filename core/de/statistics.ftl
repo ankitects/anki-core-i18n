@@ -258,7 +258,7 @@ statistics-total = Aufsummiert
 statistics-days-studied = Lerntage
 statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
-statistics-average-interval = Mittleres Intervall
+statistics-average-interval = Durchschnittliches Intervall
 statistics-due-tomorrow = Morgen fällig
 statistics-daily-load = Tägliches Arbeitspensum
 # eg 5 of 15 (33.3%)
