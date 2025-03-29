@@ -38,6 +38,7 @@ card-templates-card = Karta { $val }
 card-templates-card-types-for = Typy kart dla { $val }
 card-templates-cloze = Luka { $val }
 card-templates-deck-override = Nadpisz talię...
+card-templates-copy-info = Skopiuj informacje do schowka
 card-templates-delete-the-as-card-type-and = Usunąć typ kart '{ $template }' i jego { $cards }?
 card-templates-enter-deck-to-place-new = Wprowadź talię do wprowadzenia nowych kart { $val } lub pozostaw puste pole:
 card-templates-enter-new-card-position-1 = Wprowadź nową pozycję karty (1...{ $val }):

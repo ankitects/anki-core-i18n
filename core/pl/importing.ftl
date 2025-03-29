@@ -65,6 +65,14 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = Spakowana kolekcja/tali
 importing-pauker-18-lesson-paugz = Lekcja Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Kreska pionowa
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Pokazywane są tylko pierwsze { $count } kolumny. Jeśli wydaje się, że coś jest nie tak, spróbuj zmienić separator pola.
+        [few] Pokazywane są tylko pierwsze { $count } kolumny. Jeśli wydaje się, że coś jest nie tak, spróbuj zmienić separator pola.
+       *[many] Pokazywanych jest tylko pierwszych { $count } kolumn. Jeśli wydaje się, że coś jest nie tak, spróbuj zmienić separator pola.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ma { $found } pól, oczekiwano { $expected }
 importing-selected-file-was-not-in-utf8 = Wybrany plik nie używa kodowania UTF-8. Przeczytaj rozdział o imporcie w instrukcji
 importing-semicolon = Średnik

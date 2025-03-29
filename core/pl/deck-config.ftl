@@ -240,6 +240,7 @@ deck-config-easy-days-normal = Normalnie
 deck-config-easy-days-reduced = Mniej
 deck-config-easy-days-minimum = Minimalnie
 deck-config-easy-days-no-normal-days = Przynajmniej jeden dzień powinień być ustawiony na '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Dopóki '{ deck-config-reschedule-cards-on-change }' jest włączona w opcjach FSRS, istniejące powtórki nie będą ponownie planowane.
 
 ## Adding/renaming
 
@@ -314,7 +315,7 @@ deck-config-compute-minimum-recommended-retention = Minimalne rekomendowane zapa
 deck-config-optimize-button = Optymalizuj
 deck-config-compute-button = Wylicz
 deck-config-ignore-before = Ignoruj powtórki przed
-deck-config-optimize-all-tip = Możesz zoptymalizować wszystkie opcje na raz używając przycisku rozwijanego obok opcji "Zapisz".
+deck-config-time-to-optimize = Minęło już trochę czasu - zaleca się użycie przycisku "Optymalizuj wszystkie opcje FSRS"
 deck-config-evaluate-button = Oceń
 deck-config-desired-retention = Pożądane zapamiętywanie
 deck-config-historical-retention = Historyczne zapamiętywanie
@@ -374,9 +375,11 @@ deck-config-percent-of-reviews =
         [few] { $pct }% z { $reviews } powtórek
        *[many] { $pct }% z { $reviews } powtórek
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Optymalizowanie opcji { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
 deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.
+deck-config-fsrs-params-no-reviews = Nie znaleziono powtórek. Sprawdź, czy ta opcja FSRS jest przypisana do wszystkich talii, które chcesz zoptymalizować (wliczając w to podtalie) i spróbuj ponownie.
 deck-config-wait-for-audio = Czekaj na dźwięk
 deck-config-show-reminder = Pokaż przypomnienie
 deck-config-answer-again = Odpowiedz Powtórz
@@ -384,15 +387,24 @@ deck-config-answer-hard = Odpowiedz Trudna
 deck-config-answer-good = Odpowiedz Dobra
 deck-config-days-to-simulate = Dni do zasymulowania
 deck-config-desired-retention-below-optimal = Twoje pożądane zapamiętywanie jest poniżej optymalnego. Zaleca się jego zwiększenie.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Symulator FSRS (eksperymentalny)
 deck-config-additional-new-cards-to-simulate = Dodatkowe nowe karty do symulacji
 deck-config-simulate = Symulacja
 deck-config-clear-last-simulate = Wyczyść ostatnią symulację
 deck-config-fsrs-simulator-radio-count = Powtórki
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamiętane
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = .
+deck-config-fsrs-simulator-y-axis-title-count = .
+deck-config-fsrs-simulator-y-axis-title-memorized = .
 deck-config-bury-siblings = Zakop podobne
 deck-config-do-not-bury = Nie zakopuj podobnych
 deck-config-bury-if-new = Zakop nowe
@@ -450,3 +462,4 @@ deck-config-compute-optimal-retention-tooltip3 =
 deck-config-seconds-to-show-question-tooltip-2 = Przy włączonym auto-postępie, liczba sekund zanim zostanie pokazana odpowiedź. Ustaw 0 by wyłączyć.
 deck-config-invalid-weights = Parametry muszą albo być zostawione puste, by użyć wartości domyślnych, lub być 17 liczbami oddzielonymi przecinkami.
 deck-config-fsrs-on-all-clients = Upewnij się, że wszystkie programy Anki, z których korzystasz mają odpowiednią wersję: Anki(Mobile) 23.10 lub wyższa, AnkiDroid 2.17 lub wyższa . FSRS nie będzie działać poprawnie jeśli któryś z tych programów posiada starszą wersję.
+deck-config-optimize-all-tip = Możesz zoptymalizować wszystkie opcje na raz używając przycisku rozwijanego obok opcji "Zapisz".
