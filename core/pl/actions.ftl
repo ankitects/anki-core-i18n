@@ -1,5 +1,17 @@
 actions-add = Dodaj
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Wszystkie wybrane
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Jakiekolwiek wybrane
 actions-cancel = Anuluj
 actions-choose = Wybierz
@@ -36,7 +48,7 @@ actions-save = Zapisz
 actions-search = Szukanie
 actions-select = Wybór
 actions-shortcut-key = Skrót klawiszowy: { $val }
-actions-suspend-card = Zawieszenie karty
+actions-suspend-card = Zawieś kartę
 actions-set-due-date = Ustawienie terminu
 actions-answer-card = Odpowiedź do karty
 actions-unbury-unsuspend = Odkopanie/odwieszenie
@@ -58,10 +70,12 @@ actions-previous-card-info = Informacje o poprzedniej karcie
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Tryb pełnoekranowy nie jest obsługiwany przez twój sterownik graficzny. Spróbuj ustawić inny w oknie ustawień.
-
-## Flags
-
 actions-flag-number = Flaga { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Czerwona
 actions-flag-orange = Pomarańczowa
 actions-flag-green = Zielona
@@ -69,6 +83,9 @@ actions-flag-blue = Niebieska
 actions-flag-pink = Różowa
 actions-flag-turquoise = Turkusowa
 actions-flag-purple = Fioletowa
+
+##
+
 actions-set-flag = Ustaw flagę
 actions-nothing-to-undo = Nic do cofnięcia
 actions-nothing-to-redo = Nic do ponowienia

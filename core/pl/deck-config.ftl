@@ -86,7 +86,7 @@ deck-config-leech-threshold-tooltip =
 deck-config-leech-action-tooltip =
     `Tylko etykieta`: Dodaj do notatki etykietę "leech" i pokaż wyskakujący komunikat.
     
-    `Zawieszenie karty`: Oprócz dodania etykiety, dodatkowo ukryj kartę, póki
+    `Zawieś kartę`: Oprócz dodania etykiety, dodatkowo ukryj kartę, póki
     nie zostanie ręcznie odwieszona.
 
 ## Burying section

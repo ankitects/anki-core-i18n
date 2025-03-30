@@ -43,7 +43,7 @@ importing-merge-notetypes-help =
     lub zmianą pola sortowania.
     Dla kontrprzykładu, zmiana strony przedniej istniejącego szablonu *nie* jest zmianą schematu.
     
-    Uwaga: Zmiana ta wymusi synchronizację jednokierunkową i może oznaczyć istniejące notatki jako zmodyfikowane.
+    Uwaga: Zmiana ta wymusi synchronizację w jedną stronę i może oznaczyć istniejące notatki jako zmodyfikowane.
 importing-mnemosyne-20-deck-db = Talia Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Wieloznakowe separatory nie są obsługiwane. Wpisz tylko jeden znak.
 importing-notes-added-from-file = Notatki dodane z pliku: { $val }
