@@ -301,7 +301,7 @@ deck-config-which-deck = Którą talię chcesz wybrać?
 deck-config-updating-cards = Aktualizowanie kart: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Podane parametry FSRS są nieprawidłowe. Pozostaw je puste, aby użyć domyślnych parametrów.
 deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
-deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego zapamiętywania.
+deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego zalecanego zapamiętywania.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Znaleziono tylko { $count } powtórkę. Musisz mieć co najmniej 400 powtórek aby przeprowadzić tę operację.
