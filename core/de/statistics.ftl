@@ -260,7 +260,7 @@ statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
 statistics-average-interval = Durchschnittliches Intervall
 statistics-due-tomorrow = Morgen fällig
-statistics-daily-load = Tägliches Arbeitspensum
+statistics-daily-load = Prognose für tägliches Arbeitspensum
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent } %)
 statistics-average-over-period = Wenn jeden Tag gelernt würde
