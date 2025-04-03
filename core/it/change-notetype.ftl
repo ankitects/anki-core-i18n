@@ -11,4 +11,4 @@ change-notetype-to-from-cloze =
     Quando si cambia da o verso il tipo di nota Cloze, i numeri delle carte rimangono invariati.
     
     Se si passa a un tipo di nota normale e le cancellazioni cloze superano
-    il numero di modelli disponibili, le carte in eccesso verranno rimosse.
+    il numero di modelli disponibili, le carte in eccesso vengono rimosse.
