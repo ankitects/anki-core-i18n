@@ -92,3 +92,4 @@ actions-nothing-to-redo = Nav nekas pārstrādājams
 actions-auto-advance = Automātiskais avanss
 actions-auto-advance-activated = Automātiskais avanss ieslēgts
 actions-auto-advance-deactivated = Automātiskas avanss izslēgts
+actions-processing = Apstrāde...
