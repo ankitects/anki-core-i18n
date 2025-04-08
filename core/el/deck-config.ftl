@@ -236,6 +236,7 @@ deck-config-reviews-too-low =
         [one] { $cards } νέα κάρτα κάθε μέρα
        *[other] { $cards } νέες κάρτες κάθε μέρα
     }, το όριο επαναλήψεων σας πρέπει να είναι τουλάχιστον { $expected }.
+deck-config-good-above-easy = Το εύκολο διάστημα θα πρέπει να είναι τουλάχιστον όσο και το διάστημα αποφοίτησης.
 deck-config-relearning-steps-above-minimum-interval = Το ελάχιστο διάστημα παρέλευσης πρέπει να είναι τουλάχιστον όσο και το τελικό βήμα επανεκμάθησης.
 deck-config-maximum-answer-secs-above-recommended = Το Anki μπορεί να προγραμματίσει τις επαναλήψεις πιο αποτελεσματικά όταν κρατάτε την κάθε ερώτηση σύντομη.
 
@@ -320,6 +321,7 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Το FSRS θα πρέπει να είναι πρώτα ενεργοποιημένο.
 deck-config-fsrs-params-optimal = Οι τρέχουσες ρυθμίσεις FSRS είναι βέλτιστες.
+deck-config-fsrs-params-no-reviews = Δεν βρέθηκαν επαναλήψεις. Παρακαλούμε ελέγξτε ότι αυτή η προεπιλογή έχει εκχωρηθεί σε όλες τις τράπουλες που θέλετε να βελτιστοποιήσετε (συμπεριλαμβανομένων των υποενοτήτων) και δοκιμάστε ξανά.
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
 deck-config-answer-again = Απαντήστε "Ξανά"
