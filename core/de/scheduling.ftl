@@ -167,6 +167,11 @@ scheduling-set-due-date-done =
         [one] Fälligkeitsdatum von { $cards } Karte gesetzt.
        *[other] Fälligkeitsdatum von { $cards } Karten gesetzt.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } Karte bewertet.
+       *[other] { $cards } Karten bewertet.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Lernfortschritt von { $cards } Karte zurückgesetzt.

@@ -84,7 +84,7 @@ deck-config-bury-priority-tooltip =
     - Wenn das Aufschieben für alle Arten von Karten aktiviert ist, wird diejenige Geschwisterkarte angezeigt, die in der oben genannten Reihenfolge zuerst kommt. So erhält beispielsweise eine Wiederholungskarte Vorrang vor einer neuen Karte.
     - Geschwisterkarten, die weiter hinten in der Liste stehen, können weiter vorne stehende Geschwisterkarten nicht aufschieben. Wenn Sie z. B. das Aufschieben neuer Karten deaktivieren und eine neue Karte lernen, wird diese keine Karten mit dem Status „Tagesübergreifendes Lernen“ oder „Wiederholung“ aufschieben. Somit können Sie am selben Tag sowohl eine Geschwisterkarte mit dem Status „Wiederholung“ als auch eine mit dem Status „Neu“ sehen.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Anzeigereihenfolge
 deck-config-new-gather-priority = Einsammelreihenfolge für neue Karten
@@ -98,12 +98,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Zufällige Notizen`: Wählt Notizen zufällig aus und sammelt dann jeweils alle dazugehörigen Karten in einem Durchgang ein.
     
     `Zufällige Karten`: Sammelt Karten in zufälliger Reihenfolge ein.
-deck-config-new-gather-priority-deck = Stapel
-deck-config-new-gather-priority-deck-then-random-notes = Zuerst Stapel, dann zufällige Notizen
-deck-config-new-gather-priority-position-lowest-first = Positionsnummer (aufsteigend)
-deck-config-new-gather-priority-position-highest-first = Positionsnummer (absteigend)
-deck-config-new-gather-priority-random-notes = Zufällige Notizen
-deck-config-new-gather-priority-random-cards = Zufällige Karten
 deck-config-new-card-sort-order = Sortierreihenfolge für neue Karten
 deck-config-new-card-sort-order-tooltip-2 =
     `Kartentyp, dann Einsammelreihenfolge`: Zeigt Karten geordnet nach Kartentyp an. Karten desselben Kartentyps werden in der Reihenfolge angezeigt, in der sie eingesammelt wurden. Wenn das Aufschieben von Geschwisterkarten deaktiviert ist, stellt dies sicher, dass alle „Vorderseite → Rückseite“-Karten vor allen „Rückseite → Vorderseite“-Karten angezeigt werden. Dieses Verfahren ist nützlich, um alle Karten einer Notiz in derselben Sitzung anzuzeigen, aber nicht zu kurz hintereinander.
@@ -115,11 +109,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Zufällige Notiz, dann Kartentyp`: Wählt Notizen zufällig aus und zeigt dann jeweils alle Karten dieser Notiz nach Kartentyp geordnet an.
     
     `Zufällig`: Zeigt Karten in zufälliger Reihenfolge an.
-deck-config-sort-order-card-template-then-random = Kartentyp, dann zufällig
-deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartentyp
-deck-config-sort-order-random = Zufällig
-deck-config-sort-order-template-then-gather = Kartentyp, dann Einsammelreihenfolge
-deck-config-sort-order-gather = Einsammelreihenfolge
 deck-config-new-review-priority = Wann neue Karten anzeigen
 deck-config-new-review-priority-tooltip = Wann neue Karten im Verhältnis zu Wiederholungskarten angezeigt werden.
 deck-config-interday-step-priority = Wann Karten mit Status „tagesübergreifenden Lernen” anzeigen
@@ -127,23 +116,62 @@ deck-config-interday-step-priority-tooltip =
     Wann Lernkarten und Wiedererlernkarten angezeigt werden, die die Tagesgrenze überschreiten.
     
     Der Tageshöchstwert für Wiederholungskarten wird immer zuerst auf Karten im „tagesübergreifenden Lernen” angewendet, und danach auf die Wiederholungskarten. Diese Einstellung steuert die Reihenfolge, in der die eingesammelten Karten angezeigt werden, jedoch werden Karten im „tagesübergreifenden Lernen“ immer zuerst eingesammelt.
-deck-config-review-mix-mix-with-reviews = Mit Wiederholungskarten mischen
-deck-config-review-mix-show-after-reviews = Nach Wiederholungskarten anzeigen
-deck-config-review-mix-show-before-reviews = Vor Wiederholungskarten anzeigen
 deck-config-review-sort-order = Sortierreihenfolge für Wiederholungskarten
 deck-config-review-sort-order-tooltip = Die Standardsortierreihenfolge zeigt zuerst die Karten an, die am längsten auf ihre Wiederholung warten. Bei einem sehr großen Rückstand, dessen Abarbeitung viele Tage dauern würde, oder wenn Sie die Karten in der Reihenfolge der Unterstapel anzeigen möchten, könnte eine andere Sortierreihenfolge sinnvoller sein.
-deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
-deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
-deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
-deck-config-sort-order-ascending-intervals = Intervall (aufsteigend)
-deck-config-sort-order-descending-intervals = Intervall (absteigend)
-deck-config-sort-order-ascending-ease = Leichtigkeit (aufsteigend)
-deck-config-sort-order-descending-ease = Leichtigkeit (absteigend)
-deck-config-sort-order-ascending-difficulty = Schwierigkeitsgrad (aufsteigend)
-deck-config-sort-order-descending-difficulty = Schwierigkeitsgrad (absteigend)
-deck-config-sort-order-retrievability-ascending = Abrufbarkeit (aufsteigend)
-deck-config-sort-order-retrievability-descending = Abrufbarkeit (absteigend)
 deck-config-display-order-will-use-current-deck = Anki berücksichtigt ausschließlich die Anzeigereihenfolge des gewählten Stapels, nicht jedoch die der Unterstapel.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Stapel
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Zuerst Stapel, dann zufällige Notizen
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Positionsnummer (aufsteigend)
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Positionsnummer (absteigend)
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Zufällige Notizen
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Zufällige Karten
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Kartentyp, dann zufällig
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Zufällige Notiz, dann Kartentyp
+# Sort the cards randomly.
+deck-config-sort-order-random = Zufällig
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Kartentyp, dann Einsammelreihenfolge
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Einsammelreihenfolge
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Mit Wiederholungskarten mischen
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Nach Wiederholungskarten anzeigen
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Vor Wiederholungskarten anzeigen
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Fälligkeitsdatum, dann zufällig
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Fälligkeitsdatum, dann Stapel
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Stapel, dann Fälligkeitsdatum
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervall (aufsteigend)
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervall (absteigend)
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Leichtigkeit (aufsteigend)
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Leichtigkeit (absteigend)
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Schwierigkeitsgrad (aufsteigend)
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Schwierigkeitsgrad (absteigend)
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Abrufbarkeit (aufsteigend)
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Abrufbarkeit (absteigend)
 
 ## Timer section
 
@@ -247,6 +275,7 @@ deck-config-learning-step-above-graduating-interval = Das Aufstiegsintervall sol
 deck-config-good-above-easy = Das Intervall für einfache Karten sollte mindestens so lang sein wie das Aufstiegsintervall.
 deck-config-relearning-steps-above-minimum-interval = Das Mindestintervall sollte mindestens so lang sein wie die abschließende Lernstufe für das Wiedererlernen.
 deck-config-maximum-answer-secs-above-recommended = Die Zeitplanung funktioniert besser, wenn die Antwortzeit kürzer ist.
+deck-config-too-short-maximum-interval = Ein Höchstintervall von weniger als 6 Monaten wird nicht empfohlen.
 
 ## Selecting a deck
 
