@@ -1,5 +1,17 @@
 actions-add = Додати
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Усі вибрані
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Будь-які вибрані
 actions-cancel = Скасувати
 actions-choose = Вибрати
@@ -38,6 +50,8 @@ actions-select = Вибрати
 actions-shortcut-key = Гаряча клавіша: { $val }
 actions-suspend-card = Призупинити картку
 actions-set-due-date = Вказати дату пригадування
+actions-toggle-load-balancer = Перемкнути балансир навантаження
+actions-grade-now = Оцінити
 actions-answer-card = Відповідь на картку
 actions-unbury-unsuspend = Повернути/поновити
 actions-add-deck = Додати колоду
@@ -58,10 +72,12 @@ actions-previous-card-info = Інформація про попередню ка
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Повноекранний режим не підтримується вашим відеодрайвером. Спробуйте змінити його у налаштуваннях.
-
-## Flags
-
 actions-flag-number = { $number } прапорець
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Червоний
 actions-flag-orange = Помаранчевий
 actions-flag-green = Зелений
@@ -69,6 +85,9 @@ actions-flag-blue = Синій
 actions-flag-pink = Рожевий
 actions-flag-turquoise = Бірюзовий
 actions-flag-purple = Фіолетовий
+
+##
+
 actions-set-flag = Встановити прапорець
 actions-nothing-to-undo = Нічого відновити
 actions-nothing-to-redo = Нічого повторити

@@ -138,7 +138,7 @@ deck-config-bury-priority-tooltip =
     того ж дня чи пригадувальної картки, а отже ви можете бачити як пригадувальну
     так і нову сестринські картки в межах однієї сесії.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Порядок показу
 deck-config-new-gather-priority = Порядок збирання нових карток
@@ -160,12 +160,6 @@ deck-config-new-gather-priority-tooltip-2 =
     картки (напр. як зворотну -> передню картку так і передню -> зворотну картку).
     
     `За випадковими картками`: збирає картки абсолютно випадковим чином.
-deck-config-new-gather-priority-deck = За колодою
-deck-config-new-gather-priority-deck-then-random-notes = За колодою, потім за випадковими нотатками
-deck-config-new-gather-priority-position-lowest-first = За зростанням
-deck-config-new-gather-priority-position-highest-first = За спаданням
-deck-config-new-gather-priority-random-notes = За випадковими нотатками
-deck-config-new-gather-priority-random-cards = За випадковими картками
 deck-config-new-card-sort-order = Порядок сортування нових карток
 deck-config-new-card-sort-order-tooltip-2 =
     `За типом картки`: Показувати картки за номером типу картки. Якщо приховування
@@ -187,11 +181,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     тоді показує всі сестринські картки за порядком.
     
     `Випадково`: Повністю перемішує зібрані картки.
-deck-config-sort-order-card-template-then-random = За типом картки, далі випадково
-deck-config-sort-order-random-note-then-template = За випадковою нотаткою, далі за типом картки
-deck-config-sort-order-random = Випадково
-deck-config-sort-order-template-then-gather = За типом картки
-deck-config-sort-order-gather = За порядком збору
 deck-config-new-review-priority = Порядок нових/пригадувальних
 deck-config-new-review-priority-tooltip = Коли показувати нові картки, відносно пригадувальних.
 deck-config-interday-step-priority = Порядок навчальних/пригадувальних для наступного дня
@@ -201,9 +190,6 @@ deck-config-interday-step-priority-tooltip =
     Межа пригадування завжди застосовується спершу до навчальних карток, а тоді
     до пригадувальних. Цей параметр керує порядком показу зібраних карток, однак картки
     які переносяться на наступний день завжди збираються першими.
-deck-config-review-mix-mix-with-reviews = Перемішати з пригадувальними
-deck-config-review-mix-show-after-reviews = Показувати після пригадувальних
-deck-config-review-mix-show-before-reviews = Показувати перед пригадувальними
 deck-config-review-sort-order = Порядок сортування пригадувальних карток
 deck-config-review-sort-order-tooltip =
     Типовий порядок сортування надає перевагу карткам, які найдовше 
@@ -212,20 +198,62 @@ deck-config-review-sort-order-tooltip =
     перелік пригадування є настільки великим, що його очищення може 
     зайняти декілька днів, або Ви хочете бачити картки з вкладених колод,
     скористайтеся іншим порядком сортування.
-deck-config-sort-order-due-date-then-random = За датою пригадування, далі - випадково
-deck-config-sort-order-due-date-then-deck = За датою пригадування, далі - за колодою
-deck-config-sort-order-deck-then-due-date = За колодою. далі - за датою пригадування
-deck-config-sort-order-ascending-intervals = За зростанням інтервалів
-deck-config-sort-order-descending-intervals = За спаданням інтервалів
-deck-config-sort-order-ascending-ease = За зростанням легкості
-deck-config-sort-order-descending-ease = За спаданням легкості
-deck-config-sort-order-ascending-difficulty = За зростанням складності
-deck-config-sort-order-descending-difficulty = За спаданням складності
-deck-config-sort-order-retrievability-ascending = За легкістю пригадування
-deck-config-sort-order-retrievability-descending = За складністю пригадування
 deck-config-display-order-will-use-current-deck =
     Anki використовує порядок показу, зазначений для колоди,
     яку Ви вивчаєте, опускаючи налаштування вкладених колод
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = За колодою
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = За колодою, потім за випадковими нотатками
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = За зростанням
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = За спаданням
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = За випадковими нотатками
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = За випадковими картками
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = За типом картки, далі випадково
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = За випадковою нотаткою, далі за типом картки
+# Sort the cards randomly.
+deck-config-sort-order-random = Випадково
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = За типом картки
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = За порядком збору
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Перемішати з пригадувальними
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Показувати після пригадувальних
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Показувати перед пригадувальними
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = За датою пригадування, далі - випадково
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = За датою пригадування, далі - за колодою
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = За колодою. далі - за датою пригадування
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = За зростанням інтервалів
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = За спаданням інтервалів
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = За зростанням легкості
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = За спаданням легкості
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = За зростанням складності
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = За спаданням складності
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = За легкістю пригадування
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = За складністю пригадування
 
 ## Timer section
 
@@ -358,6 +386,7 @@ deck-config-learning-step-above-graduating-interval = Градуйований �
 deck-config-good-above-easy = Інтервал легкості має бути щонайменше таким же, як і градуйований інтервал.
 deck-config-relearning-steps-above-minimum-interval = Інтервал найменшого кола має бути щонайменше таким же, як і кінцевий крок перенавчання.
 deck-config-maximum-answer-secs-above-recommended = Anki може ефективніше планувати пригадування, якщо запитання є короткими.
+deck-config-too-short-maximum-interval = Не радимо встановлювати значення максимального інтервалу менше 6 місяців.
 
 ## Selecting a deck
 

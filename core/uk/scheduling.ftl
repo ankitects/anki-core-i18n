@@ -195,6 +195,12 @@ scheduling-set-due-date-done =
         [few] Встановлено дату пригадування для { $cards } карток.
        *[many] Встановлено дату пригадування для { $cards } карток.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Оцінено { $cards } картку.
+        [few] Оцінено { $cards } картки.
+       *[many] Оцінено { $cards } карток.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] { $cards } картку було забуто.
