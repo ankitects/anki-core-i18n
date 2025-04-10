@@ -42,9 +42,7 @@ statistics-reviews = { $reviews } 次复习
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
 # cards that can be recalled or retrieved on a specific date.
-statistics-memorized =
-    COPY LINKNEXTPREVIOUS
-    { $memorized } 已记忆
+statistics-memorized = 已记忆 { $memorized } 张
 statistics-today-title = 今天
 statistics-today-again-count = 「重来」计数：
 statistics-today-type-counts = 学习：{ $learnCount }；复习：{ $reviewCount }；重新学习：{ $relearnCount }；已筛选：{ $filteredCount }
