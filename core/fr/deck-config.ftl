@@ -100,7 +100,7 @@ deck-config-bury-priority-tooltip =
     aucune carte d'apprentissage ou de révision du jour, et vous pourrez voir une carte sœur de révision et une nouvelle
     carte sœur dans la même session.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Ordre d'Affichage
 deck-config-new-gather-priority = Ordre de collecte des nouvelles cartes
@@ -110,12 +110,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Ordre décroissant` : rassemble les cartes par position décroissante (échéance), c.à.d. généralement les plus récentes ajoutées en premier.
     `Notes aléatoires` : rassemble les cartes de notes choisies au hasard. Si l'enfouissement des cartes sœurs est désactivé, cela permet à toutes les cartes d'une même note d'apparaître dans une session (par ex. à la fois une carte recto->verso et une carte verso->recto)
     `Cartes aléatoires` : rassemble les cartes complètement aléatoirement
-deck-config-new-gather-priority-deck = Paquet
-deck-config-new-gather-priority-deck-then-random-notes = Paquet puis notes aléatoires
-deck-config-new-gather-priority-position-lowest-first = Ordre croissant
-deck-config-new-gather-priority-position-highest-first = Ordre décroissant
-deck-config-new-gather-priority-random-notes = Notes aléatoires
-deck-config-new-gather-priority-random-cards = Cartes aléatoires
 deck-config-new-card-sort-order = Ordre de classement des nouvelles cartes
 deck-config-new-card-sort-order-tooltip-2 =
     `Par type de carte`: Affiche les cartes par ordre de numéro de type de carte. Si l'enfouissement des cartes sœurs est désactivé, ceci permet de s'assurer que toutes les cartes recto→verso seront vues avant les cartes verso→recto. C'est utile pour avoir toutes les cartes d'une même note présentées dans une même session, sans être trop rapprochées les unes des autres.
@@ -127,11 +121,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Notes aléatoires, puis par type de carte`: Choisit des notes au hasard, puis montre toutes leurs carte sœurs dans l'ordre.
     
     `Aléatoire`: Mélange complètement les cartes rassemblées.
-deck-config-sort-order-card-template-then-random = Modèle de carte, puis aléatoirement
-deck-config-sort-order-random-note-then-template = Carte aléatoire. puis type de carte
-deck-config-sort-order-random = Aléatoirement
-deck-config-sort-order-template-then-gather = Modèle de carte, puis dans l'ordre de la collecte
-deck-config-sort-order-gather = Dans l'ordre collectée
 deck-config-new-review-priority = Ordre nouvelle/à réviser
 deck-config-new-review-priority-tooltip = Quand montrer les nouvelles cartes par rapport aux cartes de révision.
 deck-config-interday-step-priority = Ordre d'apprentissage/de révision interjournalier
@@ -141,29 +130,68 @@ deck-config-interday-step-priority-tooltip =
     La limite de révision est toujours appliquée en premier lieu aux cartes d'apprentissage inter-journalières, et
     ensuite aux révisions. Cette option permet de contrôler l'ordre dans lequel les cartes rassemblées sont affichées,
     mais les cartes d'apprentissage inter-journalier seront toujours rassemblées en premier.
-deck-config-review-mix-mix-with-reviews = Mélanger avec les cartes à réviser
-deck-config-review-mix-show-after-reviews = Afficher après les cartes à réviser
-deck-config-review-mix-show-before-reviews = Afficher avant les cartes à réviser
 deck-config-review-sort-order = Ordre de classement des cartes à réviser
 deck-config-review-sort-order-tooltip =
     L'ordre par défaut donne la priorité aux cartes qui ont été en attente le plus longtemps, de sorte que
     si vous avez un retard dans vos révisions, celles qui attendent depuis le plus longtemps apparaîtront
     en premier. Si vous avez un retard important qui prendra plus que quelques jours à
     résorber, ou si vous souhaitez voir les cartes dans l'ordre des sous-paquets, vous pouvez préférer les ordres de tri alternatifs.
-deck-config-sort-order-due-date-then-random = Date d'échéance, puis aléatoirement
-deck-config-sort-order-due-date-then-deck = Date d'échéance, puis dans l'ordre du paquet
-deck-config-sort-order-deck-then-due-date = Dans l'ordre du paquet, puis par date d'échéance
-deck-config-sort-order-ascending-intervals = Intervalles croissants
-deck-config-sort-order-descending-intervals = Intervalles décroissants
-deck-config-sort-order-ascending-ease = Facilité croissante
-deck-config-sort-order-descending-ease = Facilité décroissante
-deck-config-sort-order-ascending-difficulty = Difficulté croissante
-deck-config-sort-order-descending-difficulty = Difficulté décroissante
-deck-config-sort-order-retrievability-ascending = Retrouvabilité ascendante
-deck-config-sort-order-retrievability-descending = Retrouvabilité descendante
 deck-config-display-order-will-use-current-deck =
     Anki va utiliser l'ordre d'affichage du paquet que vous
     avez sélectionné pour étudier, et non ceux des sous-paquets qu'il peut avoir.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Paquet
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Paquet puis notes aléatoires
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Ordre croissant
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Ordre décroissant
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Notes aléatoires
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Cartes aléatoires
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Modèle de carte, puis aléatoirement
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Carte aléatoire. puis type de carte
+# Sort the cards randomly.
+deck-config-sort-order-random = Aléatoirement
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Modèle de carte, puis dans l'ordre de la collecte
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Dans l'ordre collectée
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Mélanger avec les cartes à réviser
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Afficher après les cartes à réviser
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Afficher avant les cartes à réviser
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Date d'échéance, puis aléatoirement
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Date d'échéance, puis dans l'ordre du paquet
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Dans l'ordre du paquet, puis par date d'échéance
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervalles croissants
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervalles décroissants
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Facilité croissante
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Facilité décroissante
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Difficulté croissante
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Difficulté décroissante
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Retrouvabilité ascendante
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Retrouvabilité descendante
 
 ## Timer section
 
@@ -285,6 +313,7 @@ deck-config-learning-step-above-graduating-interval = L'intervalle de graduation
 deck-config-good-above-easy = L'intervalle facile devrait être au moins aussi long que l'intervalle gradué.
 deck-config-relearning-steps-above-minimum-interval = L'intervalle minimal devrait être au moins aussi long que votre étape finale de réapprentissage.
 deck-config-maximum-answer-secs-above-recommended = Anki peut planifier vos révisions plus efficacement lorsque vous gardez chaque question courte.
+deck-config-too-short-maximum-interval = Un intervalle maximal inférieur à 6 mois n'est pas recommandé.
 
 ## Selecting a deck
 

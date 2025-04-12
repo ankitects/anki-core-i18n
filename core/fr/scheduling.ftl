@@ -172,6 +172,11 @@ scheduling-set-due-date-done =
         [one] Définir la date d'échéance de la carte.
        *[other] Définir la date d'échéance de { $cards } cartes.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } carte calibrée
+       *[other] { $cards } cartes calibrées
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Une carte réinitialisée.

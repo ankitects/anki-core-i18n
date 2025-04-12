@@ -44,3 +44,4 @@ card-stats-previous-card = Carte précédente ({ $context })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Probabilité de rappel

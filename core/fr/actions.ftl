@@ -1,5 +1,17 @@
 actions-add = Ajouter
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Tous les sélectionnés
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Toute sélection
 actions-cancel = Annuler
 actions-choose = Choisir
@@ -38,6 +50,8 @@ actions-select = Sélectionner
 actions-shortcut-key = Raccourci : { $val }
 actions-suspend-card = Suspendre la carte
 actions-set-due-date = Définir une date d'échéance
+actions-toggle-load-balancer = Basculer l'équilibreur de charge
+actions-grade-now = Calibrer maintenant
 actions-answer-card = Réponse
 actions-unbury-unsuspend = Déterrer/Enlever la suspension
 actions-add-deck = Ajouter un paquet
@@ -58,10 +72,12 @@ actions-previous-card-info = Informations de la carte précédente
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action } ...
 actions-fullscreen-unsupported = Le mode plein écran n'est pas pris en charge par votre pilote vidéo. Essayez d'en changer à partir de l'écran des préférences.
-
-## Flags
-
 actions-flag-number = Marqueur { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Rouge
 actions-flag-orange = Orange
 actions-flag-green = Vert
@@ -69,6 +85,9 @@ actions-flag-blue = Bleu
 actions-flag-pink = Rose
 actions-flag-turquoise = Turquoise
 actions-flag-purple = Violet
+
+##
+
 actions-set-flag = Définir le marqueur
 actions-nothing-to-undo = Rien à annuler
 actions-nothing-to-redo = Rien à annuler
