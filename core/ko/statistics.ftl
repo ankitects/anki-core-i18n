@@ -105,9 +105,11 @@ statistics-range-search = 찾기
 statistics-card-ease-title = 카드 ease
 statistics-card-difficulty-title = 카드 난이도
 statistics-card-stability-title = 카드 안정성
+statistics-card-stability-subtitle = 기억 확률이 90%가 될 때까지의 지연
 statistics-average-stability = 평균 안정성
 statistics-card-retrievability-title = 카드 기억 확률
 statistics-card-ease-subtitle = ease가 낮을수록 카드가 더 자주 등장합니다.
+statistics-card-difficulty-subtitle2 = 난이도가 높을수록, 안정성이 천천히 증가합니다.
 statistics-retrievability-subtitle = 오늘의 카드 기억 확률
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -158,6 +160,7 @@ statistics-intervals-day-single =
     { $cards ->
        *[other] { $day }일의 복습 주기를 가진 { $cards }개 카드
     }
+statistics-stability-day-single = { $day }일의 안정성인 카드 { $cards }개
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } 정답 ({ $percent }%)

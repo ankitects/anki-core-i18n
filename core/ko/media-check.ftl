@@ -5,11 +5,12 @@ media-check-window-title = 미디어 검사
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
 media-check-trash-count = 휴지통: 파일 { $count }개, { $megs }MB
-media-check-missing-count = 잃어버린 파일: { $count }
-media-check-unused-count = 사용되지 않은 파일: { $count }
-media-check-renamed-count = 이름이 변경된 파일: { $count }
-media-check-oversize-count = 100MB 이상: { $count }
-media-check-subfolder-count = 서브폴더: { $count }
+media-check-missing-count = 잃어버린 파일: { $count }개
+media-check-unused-count = 사용되지 않은 파일: { $count }개
+media-check-renamed-count = 이름이 변경된 파일: { $count }개
+media-check-oversize-count = 100MB 이상: { $count }개
+media-check-subfolder-count = 서브폴더: { $count }개
+media-check-extracted-count = 추출된 이미지: { $count }개
 
 ## Shown at the top of each section
 
@@ -64,3 +65,7 @@ media-check-empty-trash = Empty Trash
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = 삭제 파일 복구
 media-check-check-media-action = 미디어 검사
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = 찾을 수 없는 미디어
+# add a tag to notes with missing media
+media-check-add-tag = 태그 없음

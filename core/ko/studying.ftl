@@ -50,3 +50,5 @@ studying-minute =
     { $count ->
        *[other] { $count }분.
     }
+studying-question-time-elapsed = 답변 시간 초과
+studying-answer-time-elapsed = 응답 시간 초과
