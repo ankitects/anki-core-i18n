@@ -34,6 +34,13 @@ sync-conflict-explanation =
     이 컴퓨터의 내용을 AnkiWeb에 덮어쓰려면 'AnkiWeb으로 업로드'를 선택해 주세요. (주의: 마지막 동기화 이후 AnkiWeb이나 다른 기기에서 이루어진 변경 사항은 소실됩니다.)
     
     모든 기기들이 동기화되고 나면, 이후의 복습 내용과 추가된 카드는 자동적으로 처리될 수 있습니다.
+sync-conflict-explanation2 =
+    현재 이 기기의 덱과 AnkiWeb 간에 충돌이 발생했습니다. 유지할 버전을 선택해야합니다:
+    
+    - { sync-download-from-ankiweb }의 경우, 이 기기의 덱을 AnkiWeb의 버전으로 덮어씁니다. 마지막 동기화 이후 이 기기에서 변경된 사항은 모두 사라집니다.
+    - { sync-upload-to-ankiweb }의 경우, 이 기기의 덱을 AnkiWeb으로 업로드하며, AnkiWeb의 변경 사항은 삭제됩니다.
+    
+    충돌이 해결되면, 이후 동기화는 정상적으로 작동합니다.
 sync-ankiweb-id-label = AnkiWeb 아이디:
 sync-password-label = 비밀번호:
 sync-account-required =
@@ -48,6 +55,7 @@ sync-upload-too-large =
 sync-sign-in = 로그인
 sync-ankihub-dialog-heading = AnkiHub 로그인
 sync-ankihub-username-label = 사용자 이름 또는 이메일
+sync-ankihub-login-failed = 해당 계정으로 AnkiHub에 로그인할 수 없습니다.
 sync-ankihub-addon-installation = AnkiHub 애드온(add-on) 설치
 
 ## Buttons

@@ -109,7 +109,7 @@ deck-config-bury-interday-learning-tooltip =
     주기가 하루 이상인 동일한 노트의 다른 `학습` 카드를
     다음 날까지 미룰지 여부를 나타냅니다.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = 표시 순서
 deck-config-new-gather-priority = 새로운 카드의 수집 순서
@@ -130,12 +130,6 @@ deck-config-new-gather-priority-tooltip-2 =
     (예를 들어, 앞면->뒷면과 뒷면->앞면 카드 모두)
     
     `랜덤 카드`: 무작위으로 카드를 모읍니다.
-deck-config-new-gather-priority-deck = 덱
-deck-config-new-gather-priority-deck-then-random-notes = 덱, 이후 무작위 노트들
-deck-config-new-gather-priority-position-lowest-first = 오름차순
-deck-config-new-gather-priority-position-highest-first = 내림차순
-deck-config-new-gather-priority-random-notes = 랜덤 노트
-deck-config-new-gather-priority-random-cards = 랜덤 카드
 deck-config-new-card-sort-order = 새로운 카드의 정렬 순서
 deck-config-new-card-sort-order-tooltip-2 =
     `카드 유형`: 카드 유형 번호 순서대로 카드를 표시합니다. 인접한 카드 미루기를
@@ -154,11 +148,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     순서대로 보여줍니다.
     
     `랜덤`: 수집된 카드를 완전히 뒤섞습니다.
-deck-config-sort-order-card-template-then-random = 카드 유형 후 랜덤
-deck-config-sort-order-random-note-then-template = 랜덤 노트 후 카드 유형
-deck-config-sort-order-random = 랜덤
-deck-config-sort-order-template-then-gather = 카드 유형
-deck-config-sort-order-gather = 수집 순서
 deck-config-new-review-priority = 새/복습 카드 순서
 deck-config-new-review-priority-tooltip = 복습 카드 대비 새 카드를 보여줄 시기를 나타냅니다.
 deck-config-interday-step-priority = interday 학습카드/복습카드 순서
@@ -168,29 +157,68 @@ deck-config-interday-step-priority-tooltip =
     복습 한도는 항상 interday 학습 카드에 먼저 적용되고, 그 다음에
     복습 카드에 적용됩니다. 이 옵션은 수집된 카드가 표시되는 순서를
     바꿀 수 있지만, interday 학습 카드가 항상 먼저 수집됩니다.
-deck-config-review-mix-mix-with-reviews = 복습 카드와 섞기
-deck-config-review-mix-show-after-reviews = 복습한 뒤에 표시
-deck-config-review-mix-show-before-reviews = 복습하기 전에 표시
 deck-config-review-sort-order = 복습 정렬 순서
 deck-config-review-sort-order-tooltip =
     기본 순서는 가장 오래 기다린 카드를 먼저 보여줍니다.
     그래서 복습을 밀리면 가장 오래된 카드가 먼저 나타납니다.
     따라잡는 데 며칠이 걸리거나 카드를 하위 덱 순서대로
     보려면 다른 정렬 순서를 사용하는 걸 추천합니다.
-deck-config-sort-order-due-date-then-random = 만기 후 랜덤
-deck-config-sort-order-due-date-then-deck = 만기 후 덱
-deck-config-sort-order-deck-then-due-date = 덱 후 만기
-deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
-deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
-deck-config-sort-order-ascending-ease = ease 오름차순
-deck-config-sort-order-descending-ease = ease 내림차순
-deck-config-sort-order-ascending-difficulty = 쉬운 카드 우선
-deck-config-sort-order-descending-difficulty = 어려운 카드 우선
-deck-config-sort-order-retrievability-ascending = 오름차순 검색 가능성
-deck-config-sort-order-retrievability-descending = 내림차순 검색 가능성
 deck-config-display-order-will-use-current-deck =
     Anki는 하위 덱이 아닌 사용자가
     학습할 덱의 표시 순서를 사용합니다.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = 덱
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = 덱, 이후 무작위 노트들
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = 오름차순
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = 내림차순
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = 랜덤 노트
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = 랜덤 카드
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = 카드 유형 후 랜덤
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = 랜덤 노트 후 카드 유형
+# Sort the cards randomly.
+deck-config-sort-order-random = 랜덤
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = 카드 유형
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = 수집 순서
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = 복습 카드와 섞기
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = 복습한 뒤에 표시
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = 복습하기 전에 표시
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = 만기 후 랜덤
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = 만기 후 덱
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = 덱 후 만기
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = 복습간격이 짧은 것부터
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = 복습간격이 긴 것부터
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = ease 오름차순
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = ease 내림차순
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = 쉬운 카드 우선
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = 어려운 카드 우선
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = 오름차순 검색 가능성
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = 내림차순 검색 가능성
 
 ## Timer section
 
@@ -211,6 +239,7 @@ deck-config-seconds-to-show-question-tooltip-3 = 자동 향상이 활성화되�
 deck-config-seconds-to-show-answer = 답을 보여줄 시간(초)
 deck-config-seconds-to-show-answer-tooltip-2 = 자동 향상이 활성화되어 있을 때 답 동작(action)을 적용하기 전에 몇 초를 기다릴 지를 나타냅니다. 0으로 설정 시 비활성화 됩니다.
 deck-config-question-action-show-answer = 정답 보기
+deck-config-question-action-show-reminder = 남은 시간 보이기
 deck-config-question-action = 질문 동작(action)
 deck-config-question-action-tool-tip = 질문이 제시되고, 시간이 소요된 후에 수행할 동작
 deck-config-answer-action = 답 동작
@@ -249,6 +278,7 @@ deck-config-custom-scheduling-tooltip = 컬렉션 전체에 영향을 미칩니�
 
 # Easy Days section
 
+deck-config-easy-days-title = 쉬어가는 요일
 deck-config-easy-days-monday = 월요일
 deck-config-easy-days-tuesday = 화요일
 deck-config-easy-days-wednesday = 수요일
@@ -256,6 +286,8 @@ deck-config-easy-days-thursday = 목요일
 deck-config-easy-days-friday = 금요일
 deck-config-easy-days-saturday = 토요일
 deck-config-easy-days-sunday = 일요일
+deck-config-easy-days-normal = 보통
+deck-config-easy-days-reduced = 감소
 deck-config-easy-days-minimum = 최소
 deck-config-easy-days-no-normal-days = 적어도 하루는 '{ deck-config-easy-days-normal }'로 설정되어야 합니다.
 
@@ -299,6 +331,7 @@ deck-config-learning-step-above-graduating-interval = 졸업 주기는 적어도
 deck-config-good-above-easy = 쉬움 주기는 적어도 졸업 주기만큼은 되어야 합니다.
 deck-config-relearning-steps-above-minimum-interval = 최소 반복 주기는 적어도 최종 복습 간격만큼은 되어야 합니다.
 deck-config-maximum-answer-secs-above-recommended = Anki는 각 질문이 짧을수록 리뷰 일정을 더 효율적으로 잡을 수 있습니다.
+deck-config-too-short-maximum-interval = 6개월보다 짧은 최대 간격은 권장되지 않습니다.
 
 ## Selecting a deck
 
@@ -306,6 +339,8 @@ deck-config-which-deck = 어떤 덱을 고르시겠습니까?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = 카드 업데이트 중: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = FSRS 인자가 유효하지 않습니다. 기본값을 사용하려면 칸을 비워두세요.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 인자
 deck-config-compute-optimal-weights = FSRS 인자를 최적화하기
@@ -314,13 +349,23 @@ deck-config-optimize-button = 최적화
 deck-config-compute-button = 계산
 deck-config-ignore-before = 이전에 리뷰된 카드들을 무시하기
 deck-config-evaluate-button = 평가
-deck-config-desired-retention = 바라는 유지율
-deck-config-historical-retention = 역사적인 유지율
+deck-config-desired-retention = 목표 기억률
+deck-config-historical-retention = 기억률 추정
+deck-config-please-save-your-changes-first = 변경사항을 저장해주세요.
+deck-config-percent-input = { $pct }%
+deck-config-fsrs-must-be-enabled = FSRS를 활성화해야 합니다.
 deck-config-wait-for-audio = 오디오 기다리기
 deck-config-show-reminder = 남은 시간 보이기
 deck-config-answer-again = 답 다시
 deck-config-answer-hard = 답 어려움
 deck-config-answer-good = 답 괜찮음
+deck-config-days-to-simulate = 시뮬레이션 할 기간
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = FSRS 시물레이터 (실험적 기능)
+deck-config-simulate = 시뮬레이션 하기
+deck-config-clear-last-simulate = 시뮬레이션 초기화
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

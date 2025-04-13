@@ -39,6 +39,10 @@ statistics-cards = { $cards }카드
 statistics-notes = 노트
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = { $reviews }복습
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } 기억함
 statistics-today-title = 오늘
 statistics-today-again-count = '다시' 버튼 누른 횟수:
 statistics-today-type-counts = 학습: { $learnCount }, 복습: { $reviewCount }, 재학습: { $relearnCount }, 필터됨:{ $filteredCount }
@@ -70,12 +74,16 @@ statistics-counts-separate-suspended-buried-cards = 일시중단/미뤄진 카�
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-range = 범위
+statistics-true-retention-fail = 실패
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = 전체 카드
+statistics-true-retention-retention = 기억률
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = 어린 카드
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = 성숙 카드
+statistics-true-retention-all = 전체
 statistics-true-retention-today = 오늘
 statistics-true-retention-yesterday = 어제
 statistics-true-retention-week = 지난 주
@@ -95,12 +103,18 @@ statistics-range-deck = 덱
 statistics-range-collection = 컬렉션
 statistics-range-search = 찾기
 statistics-card-ease-title = 카드 ease
+statistics-card-difficulty-title = 카드 난이도
+statistics-card-stability-title = 카드 안정성
+statistics-average-stability = 평균 안정성
+statistics-card-retrievability-title = 카드 기억 확률
 statistics-card-ease-subtitle = ease가 낮을수록 카드가 더 자주 등장합니다.
+statistics-retrievability-subtitle = 오늘의 카드 기억 확률
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
        *[other] { $percent } ease의 { $cards }개 카드
     }
+statistics-retrievability-tooltip = { $percent } 기억 확률의 { $cards }개 카드
 statistics-future-due-title = 예상
 statistics-future-due-subtitle = 앞으로 공부할 복습량
 statistics-added-title = 추가됨
@@ -191,6 +205,7 @@ statistics-cards-per-day =
        *[other] { $count } 카드/일
     }
 statistics-average-ease = 평균 ease
+statistics-average-retrievability = 평균 카드 기억 확률
 statistics-save-pdf = PDF로 저장
 statistics-saved = 저장됨.
 statistics-stats = 통계
