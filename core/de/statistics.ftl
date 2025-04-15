@@ -84,7 +84,7 @@ statistics-today-again-count = Fehlversuche:
 statistics-today-type-counts = Aufteilung: { $learnCount } × neu lernen, { $reviewCount } × wiederholen, { $relearnCount } × wiedererlernen, { $filteredCount } × über Filterstapel lernen.
 statistics-today-no-cards = Heute wurden noch keine Karten gelernt.
 statistics-today-no-mature-cards = Heute wurden noch keine alten Karten wiederholt.
-statistics-today-correct-mature = Richtige Antworten bei alten Karten: { $correct }/{ $total } ({ $percent } %)
+statistics-today-correct-mature = Richtige Antworten bei alten Karten: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Karten insgesamt
 statistics-counts-new-cards = Neu
 statistics-counts-young-cards = Junge Karten
@@ -145,7 +145,7 @@ statistics-range-search = Suche
 statistics-card-ease-title = Leichtigkeit
 statistics-card-difficulty-title = Schwierigkeitsgrad
 statistics-card-stability-title = Stabilität
-statistics-card-stability-subtitle = Intervall, in dem die Abrufbarkeit einer Karte auf 90 % sinkt.
+statistics-card-stability-subtitle = Intervall, in dem die Abrufbarkeit einer Karte auf 90% sinkt.
 statistics-average-stability = Durchschnittliche Stabilität
 statistics-card-retrievability-title = Abrufbarkeit
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit einer Karte, desto öfter wird sie abgefragt.
@@ -227,11 +227,11 @@ statistics-stability-day-single =
     }
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Von { $hourStart }:00 bis { $hourEnd }:00
-statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent } %)
+statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = { $percent } % korrekt ({ $reviews })
+statistics-hours-correct-reviews = { $percent }% korrekt ({ $reviews })
 statistics-hours-title = Nach Uhrzeit
 statistics-hours-subtitle = Erinnerungsquote für Wiederholungen nach Uhrzeit
 # shown when graph is empty
@@ -260,9 +260,14 @@ statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
 statistics-average-interval = Durchschnittliches Intervall
 statistics-due-tomorrow = Morgen fällig
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Prognose für tägliches Arbeitspensum
 # eg 5 of 15 (33.3%)
-statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent } %)
+statistics-amount-of-total-with-percentage = { $amount } von { $total } ({ $percent }%)
 statistics-average-over-period = Wenn jeden Tag gelernt würde
 statistics-reviews-per-day =
     { $count ->
