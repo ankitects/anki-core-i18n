@@ -1,19 +1,19 @@
 card-stats-added = Pievienots
 card-stats-first-review = Pirmais pārskats
 card-stats-latest-review = Pēdējais pārskats
-card-stats-interval = Intervāls
+card-stats-interval = Starplaiks
 card-stats-ease = Vienkāršība
 card-stats-review-count = Pārskati
-card-stats-lapse-count = Apļl
+card-stats-lapse-count = Misēkļi
 card-stats-average-time = Vidējais laiks
 card-stats-total-time = Kopējais laiks
-card-stats-new-card-position = Pozīcija
-card-stats-card-template = Kartes veids
+card-stats-new-card-position = Vieta
+card-stats-card-template = Kartītes veids
 card-stats-note-type = Piezīmes veids
 card-stats-deck-name = Kava
-card-stats-preset = Iepriekš iestatītais
+card-stats-preset = Priekšiestatījums
 card-stats-note-id = Piezīmes identifikators
-card-stats-card-id = Kartes identifikators
+card-stats-card-id = Kartītes identifikators
 card-stats-review-log-rating = Vērtējums
 card-stats-review-log-type = Veids
 card-stats-review-log-date = Datums
@@ -25,10 +25,10 @@ card-stats-review-log-type-filtered = Filtrētie
 card-stats-review-log-type-manual = Pašrocīgi
 card-stats-review-log-type-rescheduled = Pārplānotie
 card-stats-review-log-elapsed-time = Pagājušais laiks
-card-stats-no-card = (Nav kāršu kuras parādīt)
+card-stats-no-card = (Nav kartīšu, ko parādīt.)
 card-stats-custom-data = Pielāgotie dati
-card-stats-fsrs-stability = Stabilitāte
-card-stats-fsrs-difficulty = Grūtības pakāpe
+card-stats-fsrs-stability = Noturība
+card-stats-fsrs-difficulty = Grūtība
 card-stats-fsrs-retrievability = Atgūstamība
 card-stats-fsrs-forgetting-curve-title = Aizmiršanas līkme
 card-stats-fsrs-forgetting-curve-first-week = Pirmā nedēļa
@@ -39,9 +39,9 @@ card-stats-fsrs-forgetting-curve-desired-retention = Vēlamā saglabāšana
 
 ## Window Titles
 
-card-stats-current-card = Pašreizējā karte ({ $context })
-card-stats-previous-card = Iepriekšējā kārts ({ $context })
+card-stats-current-card = Pašreizējā kartīte ({ $context })
+card-stats-previous-card = Iepriekšējā kartīte ({ $context })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Iespēja uz atsaukšanu
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Atsaukšanas iespējamība

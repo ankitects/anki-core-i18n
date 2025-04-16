@@ -32,6 +32,12 @@ statistics-today-title = Šodien
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount } s
+statistics-elapsed-time-minutes = { $amount } m
+statistics-elapsed-time-hours = { $amount } h
+statistics-elapsed-time-days = { $amount } d
+statistics-elapsed-time-months = { $amount } mēn.
+statistics-elapsed-time-years = { $amount } g
 
 ##
 

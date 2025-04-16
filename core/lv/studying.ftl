@@ -6,3 +6,5 @@ studying-finish = Pabeigt
 studying-good = Labi
 studying-hard = Grūti
 studying-more = Vairāk
+studying-question-time-elapsed = Jautājuma laiks beidzies
+studying-answer-time-elapsed = Atbildes laiks beidzies

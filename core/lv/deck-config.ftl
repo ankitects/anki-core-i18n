@@ -96,10 +96,10 @@ deck-config-relearning-steps-tooltip =
     pārskatīšanas kārtī, tā tiks rādīta atkārtoti pēc 10 minūtēm. Ja aizkaves netiek norādītas,
     kārtij tiks mainīts intervāls, neievadot to pārapguves režīmā. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
-    Reizes, cik bieži pogu „No jauna” jānospiež pārskatīšanas kārtī, pirms tā tiek atzīmēta
-    kā problēmkārts. Problēmkārts ir tāda, kas prasa daudz jūsu laika, un, kad kartīte
-    tiek atzīmēta kā problēmkārts, ieteicams to pārrakstīt, izdzēst vai izveidot mnemoniku,
-    kas to palīdzēs.
+    Cik reižu pārskatāmajā kartītē jāspiež "Vēlreiz", pirms tā tiek atzīmēta kā
+    izsūcoša. Izsūcošās kartītes ir kartītes, kas patērē daudz laika, un, kad
+    kartīte ir atzīmēta kā izsūcoša, laba doma ir pārrakstīt, izdzēst to vai
+    izdomāt mnemoniku, kas palīdzētu to atcerēties.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     „Tikai birka”: pievieno piezīmei birku "leech" un parāda uznirstošo logu.
@@ -114,8 +114,8 @@ deck-config-bury-new-siblings = Paslēpt jaunās saistītās kārtis
 deck-config-bury-review-siblings = Paslēpt saistītās pārskatīšanas kārtis
 deck-config-bury-interday-learning-siblings = Paslēpt starpdienu mācīšanās kārtis
 deck-config-bury-new-tooltip =
-    Vai citas „jaunās” kārtis no tās pašas piezīmes (piem., apgrieztās kārts, blakus
-    esošās „cloze” dzēšanas) tiks atliktas līdz nākamajai dienai.
+    Vai citas tās pašas piezīmes „jaunās” kartītes (piem., apvērstās kartītes, blakus esošās
+    aizpildes izdzēšanas) tiks atliktas līdz nākamajai dienai.
 deck-config-bury-review-tooltip = Vai citas „pārskatīšanas” kārtis no tās pašas piezīmes tiks atliktas līdz nākamajai dienai.
 deck-config-bury-interday-learning-tooltip = Vai citas „mācīšanās” kārtis no tās pašas piezīmes ar intervāliem > 1 dienu tiks atliktas līdz nākamajai dienai.
 deck-config-bury-priority-tooltip =
@@ -205,6 +205,7 @@ deck-config-save-button = Saglabāt
 
 ## Warnings shown to the user
 
+deck-config-relearning-steps-above-minimum-interval = Mazākajam pieļaujamajam misēkļu starplaikam ir jābūt vismaz tikpat ilgam kā pēdējam pārapguves solim.
 
 ## Selecting a deck
 
@@ -214,3 +215,14 @@ deck-config-save-button = Saglabāt
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-bury-tooltip =
+    Līdzkartītes ir citas vienas piezīmes kartītes (piem., priekšējās/apvērstās kartītes
+    vai citas aizpildes izdzēšanas tajā pašā tekstā).
+    
+    Kad šī iespēja ir izslēgta, vairākas vienas piezīmes kartītes var tikt parādītas tajā pašā
+    dienā. Kad iespējota, Anki automātiski *noraks* līdzkartītes, paslēpjot tās līdz nākamajai
+    dienai. Šī iespēja ļauj izvēlēties, kura veida kartītes var tikt paslēptas, kad tiek atbildēts
+    uz vienu no to līdzkartītēm.
+    
+    Kad tiek izmantots V3 plānotājs, var paslēpt arī starpdienu mācīšanās kartītes. Starpdienu
+    mācīšanās kartītes ir kartītes ar pašreizējo mācīšanās soli, kas ir viena vai vairākas dienas.

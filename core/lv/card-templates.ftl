@@ -1,5 +1,5 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
-card-templates-blank = tukšs(a)
+card-templates-blank = tukšs
 card-templates-changes-will-affect-notes =
     { $count ->
         [zero] Noradītas izmaiņas neietekmēs nevienu piezīmi, kurā tiek izmantots šis kārts veids.
@@ -14,7 +14,7 @@ card-templates-front-preview = Priekšpuses priekšskatījums
 card-templates-back-preview = Aizmugures priekšskatījums
 card-templates-preview-box = Priekšskatījums
 card-templates-template-box = Veidne
-card-templates-sample-cloze = Šis ir { "{{c1::" }paraugs{ "}}" } cloze dzēšanai.
+card-templates-sample-cloze = Šis ir { "{{c1::" }paraugs{ "}}" } aizpildes dzēšanai.
 card-templates-fill-empty = Aizpildiet trūkstošos lauciņus
 card-templates-night-mode = Nakts režīms
 # Add "mobile" class to card preview, so the card appears like it would
@@ -24,8 +24,8 @@ card-templates-preview-settings = Iespējas
 card-templates-invalid-template-number = Kārts { $number }  veidnē „{ $notetype }” piezīmes veidam ir problēma.
 card-templates-identical-front = Priekšpuse ir identiska ar kāršu veidni „{ $number }”.
 card-templates-no-front-field = Var sagaidīt aizvietojumu kārts veidnes priekšpusē.
-card-templates-missing-cloze = Var sagaidīt atrast „{ "{{" }cloze:Text{ "}}" }” vai ko līdzīgu kārts veidnes priekšpusē un aizmugurē.
-card-templates-extraneous-cloze = 'cloze:' var tikt lietots tikai cloze piezīmes veidos.
+card-templates-missing-cloze = Tiek sagaidīts atrast „{ "{{" }cloze:Teksts{ "}}" }” vai līdzīgu kartītes veidnes priekšpusē un aizmugurē.
+card-templates-extraneous-cloze = 'cloze:' var izmantot tikai aizpildes piezīmju veidos.
 card-templates-see-preview = Lai uzzinātu vairāk, apskatiet priekšskatījumu.
 card-templates-field-not-found = Nav atrasts lauks „{ $field }”
 card-templates-changes-saved = Izmaiņas ir saglabātas.
@@ -36,7 +36,7 @@ card-templates-at-least-one-card-type-is = Ir nepieciešams vismaz viens kāršu
 card-templates-browser-appearance = Pārlūka izskats...
 card-templates-card = Kārts { $val }
 card-templates-card-types-for = Kārts veids { $val }
-card-templates-cloze = Cloze { $val }
+card-templates-cloze = Aizpilde { $val }
 card-templates-deck-override = Kavas pārrakstīšana...
 card-templates-copy-info = Kopēt informāciju uz starpliktuvi
 card-templates-delete-the-as-card-type-and = Vai dzēst „{ $template }” kārts tipu, un tā { $cards }?

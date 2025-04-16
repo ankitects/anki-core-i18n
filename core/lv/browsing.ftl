@@ -17,15 +17,15 @@ browsing-card-list = Kartīšu saraksts
 browsing-cards-cant-be-manually-moved-into = Kartītes nevar pašrocīgi pārvietot atlasītā kavā.
 browsing-cards-deleted =
     { $count ->
-        [zero] Nav neviena kārts dzēsta.
-        [one] { $count } kārts dzēsta.
-       *[other] { $count } kārtis dzēstas.
+        [zero] Izdzēstas { $count } kartītes.
+        [one] Izdzēsta { $count } kartīte.
+       *[other] Izdzēstas { $count } kartītes.
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [zero] Nav neviena kārts dzēsta no { $deck_name }.
-        [one] { $count } kārts dzēsta no { $deck_name }.
-       *[other] { $count } kārtis dzēstas no { $deck_name }.
+        [zero] { $count } kartīšu izdzēstas no { $deck_name }.
+        [one] { $count } kartīte izdzēsta no { $deck_name }.
+       *[other] { $count } kartītes izdzēstas no { $deck_name }.
     }
 browsing-change-deck = Mainīt kavu
 browsing-change-deck2 = Mainīt kavu...
@@ -47,7 +47,7 @@ browsing-filtered = (filtrēts)
 browsing-find = <b>Meklēt</b>:
 browsing-find-and-replace = Meklēt un aizstāt
 browsing-find-duplicates = Atrast dublikātus
-browsing-first-card = Pirmā karte
+browsing-first-card = Pirmā kartīte
 browsing-flag = Karogs
 browsing-font = <b>Fonts</b>:
 browsing-font-size = <b>Fonta izmērs</b>:
@@ -55,16 +55,16 @@ browsing-found-as-across-bs = Atrasts { $part } starp { $whole }.
 browsing-ignore-case = Ignorēt gadījumu
 browsing-in = <b></b>:
 browsing-interval = Intervāls
-browsing-last-card = Pēdējā karte
+browsing-last-card = Pēdējā kartīte
 browsing-learning = (mācos)
 browsing-line-size = <b>Līnijas izmērs</b>:
 browsing-manage-note-types = Pārvaldīt piezīmju veidus
-browsing-move-cards = Pārvietot kārtis
-browsing-move-cards-to-deck = Pārvietot kārtis uz citu kavu:
+browsing-move-cards = Pārvietot kartītes
+browsing-move-cards-to-deck = Pārvietot kartītes uz kavu:
 browsing-new = (jauns(a))
 browsing-new-note-type = Jauns piezīmes veids:
 browsing-no-flag = Nav karoga
-browsing-no-selection = Nav ne karogu ne piezīmju atlasītu.
+browsing-no-selection = Nav atlasītas ne kartītes, ne piezīmes.
 browsing-note = Piezīme
 browsing-notes = Piezīmes
 browsing-optional-filter = Papildus filtri:
@@ -72,7 +72,7 @@ browsing-override-back-template = Pārrakstīt aizmugures veidni:
 browsing-override-font = Pārrakstīt fontu:
 browsing-override-front-template = Pārrakstīt priekšpuses veidni:
 browsing-please-give-your-filter-a-name = Lūdzu, nosauc savu filtru:
-browsing-preview-selected-card = Priekšskatīt atlasīto kārti ({ $val })
+browsing-preview-selected-card = Priekšskatīt atlasīto kartīti ({ $val })
 browsing-question = Jautājums
 browsing-queue-bottom = Rindas beigas: { $val }
 browsing-queue-top = Rindas sākums: { $val }
@@ -80,14 +80,14 @@ browsing-randomize-order = Secība pēc nejaušības
 browsing-remove-tags = Noņemt birkas...
 browsing-replace-with = <b>Aizvietot ar</b>:
 browsing-reposition = Pārvietot...
-browsing-reposition-new-cards = Pārvietuot jaunās kartes
+browsing-reposition-new-cards = Pārvietot jaunās kartītes
 browsing-reschedule = Pārplānot
-browsing-search-bar-hint = Meklēt kārtis/piezīmes (ierakstiet tekstu, tad spiediet uz Enter)
+browsing-search-bar-hint = Meklēt kartītes/piezīmes (jāievada teksts, tad jāspiež "Enter")
 browsing-search-in = Meklēt:
 browsing-search-within-formatting-slow = Meklēšana formatēšanas ietvaros (lēni)
 browsing-select-deck = Atlasītā kava
 browsing-selected-notes-only = Tikai atlasītās piezīmes
-browsing-shift-position-of-existing-cards = Pārvietot pastāvošo karšu pozīciju
+browsing-shift-position-of-existing-cards = Pārbīdīt esošo kartīšu vietu
 browsing-sidebar = Sānjosla
 browsing-sidebar-filter = Sānjoslas filtrs
 # The field that is used for sorting (sort is an adjective here, not a verb)
@@ -100,7 +100,7 @@ browsing-tag-duplicates = Birku dublikāti
 browsing-tag-rename-warning-empty = Nevar pārdēvēt birku kurai nav piezīmju.
 browsing-target-field = Mērķa lauciņš:
 browsing-toggle-bury = Aprakt
-browsing-toggle-showing-cards-notes = Pārslēgt uz kārtīm/piezīmēm
+browsing-toggle-showing-cards-notes = Pārslēgt kartītes/piezīmes
 browsing-toggle-mark = Atzīmēt
 browsing-toggle-suspend = Apturēt
 browsing-treat-input-as-regular-expression = Uzskatīt ievadi kā parastu izteiksmi
@@ -128,11 +128,11 @@ browsing-notes-updated =
     }
 browsing-cards-updated =
     { $count ->
-        [zero] Nav neviena kārts atjaunināta
-        [one] { $count } kārts atjaunināta
-       *[other] { $count } kārtis atjauninātas
+        [zero] Atjauninātas { $count } kartītes
+        [one] Atjaunināta { $count } kartīte
+       *[other] Atjauninātas { $count } kartītes
     }
-browsing-window-title = Pārlūkot ({ $selected } no { $total } kārtīm atlasīta(s))
+browsing-window-title = Pārlūkot (atlasīta(s) { $selected } no { $total } kartītēm)
 browsing-sidebar-expand = Izvērst
 browsing-sidebar-collapse = Sakļaut
 browsing-sidebar-expand-children = Izvērst apakšējos
@@ -142,16 +142,16 @@ browsing-sidebar-tags = Birkas
 browsing-sidebar-notetypes = Piezīmju veidi
 browsing-sidebar-saved-searches = Saglabātie meklējumi
 browsing-sidebar-save-current-search = Saglabāt pašreizēju meklējumu
-browsing-sidebar-card-state = Kārts stāvoklis
+browsing-sidebar-card-state = Kartītes stāvoklis
 browsing-sidebar-flags = Karogi
 browsing-today = Šodien
-browsing-tooltip-card-modified = Pēdējā reize, kad kārtij tika veiktas izmaiņas, ieskaitot pārskatus, karoga un komplekta izmaiņas.
+browsing-tooltip-card-modified = Pēdējā reize, kad kartītē tika veiktas izmaiņas, ieskaitot pārskatīšanas, karoga un kavas izmaiņas.
 browsing-tooltip-note-modified = Pēdējā reize, kad piezīmē tika veiktas izmaiņas, parasti lauka satura vai birkas rediģēšana
-browsing-tooltip-card = Kārts veidnes nosaukums
-browsing-tooltip-cards = Karšu skaits piezīmē
+browsing-tooltip-card = Kartītes veidnes nosaukums
+browsing-tooltip-cards = Kartīšu skaits piezīmē
 browsing-tooltip-notetype = Piezīmes veida nosaukums
-browsing-tooltip-question = Kārts priekšējā puse pielāgojama kārts veidnes redaktorā
-browsing-tooltip-answer = Kārts aizmugure pielāgojama kārts veidnes redaktorā
+browsing-tooltip-question = Kartītes priekšpuse, pielāgojama kartīšu veidņu redaktorā
+browsing-tooltip-answer = Kartītes aizmugure, pielāgojama kartīšu veidņu redaktorā
 browsing-studied-today = Jau izdarītie
 browsing-added-today = Pievienotie
 browsing-again-today = No jauna
@@ -170,9 +170,9 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [zero] Nav mainīta pozīcija nevienai jaunai kārtij.
-        [one] Mainīta pozīcija { $count } kārtij.
-       *[other] Mainīta pozīcija { $count } kārtīm.
+        [zero] Nomainīta vieta { $count } jauno kartīšu.
+        [one] Nomainīta vieta { $count } jaunajai kartītei.
+       *[other] Nomainīta vieta { $count } jaunajām kartītēm.
     }
 browsing-reparented-decks =
     { $count ->
