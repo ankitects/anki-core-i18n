@@ -68,15 +68,16 @@ deck-config-learning-steps = Mācību soļi
 -deck-config-delay-hint = Aizkaves parasti tiek norādītas minūtēs (piem. „1 min”) vai dienās (piem. „2 d”), taču tiek atbalstītas arī stundas (piem. „1 st.”) un sekundes (piem. „30 s”).
 deck-config-learning-steps-tooltip =
     Viena vai vairākas aizkaves, atdalītas ar atstarpēm. Pirmā aizkave tiks piemērota,
-    kad nospiedīsiet pogu „No jauna” jaunai kārtij, un pēc noklusējuma tī ir 1 minūte.
-    Poga „Labi” pāries uz nākamo soli, kas pēc noklusējuma ir 10 minūtes. Kads visi
-    soļi būs izieti, kārts kļūs par pārskatāmo kārti un parādīsies citā dienā. { -deck-config-delay-hint }
+    kad jaunā kartīte tiek nospiesta poga „Vēlreiz”, un pēc noklusējuma tā ir 1 minūte.
+    Poga „Labi” pāries uz nākamo soli, kas pēc noklusējuma ir 10 minūtes.
+    Tiklīdz visi soļi būs izieti, kartīte kļūs par pārskatāmo kartīti, un tā parādīsies
+    citā dienā. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
-    Dienu skaits, kas jāgaida, pirms kārts tiek rādīta atkārtoti pēc tam,
+    Dienu skaits, kas jāgaida, pirms kartīte tiek atkal parādīta pēc tam,
     kad pēdējā mācību solī ir nospiesta poga „Labi”.
 deck-config-easy-interval-tooltip =
-    Dienu skaits, kas jāgaida, pirms kārts tiek rādīta atkārtoti, pēc pogas „Viegls” uzspiešanas,
-    kārts uzreiz tiks noņemta no mācību procesa.
+    Dienu skaits, kas jāgaida, pirms kartīte tiek atkal rādīta pēc pogas „Viegli”
+    izmantošanas, kas uzreiz noņem kartīti no mācīšanās.
 deck-config-new-insertion-order = Ievietošanas secība
 deck-config-new-insertion-order-tooltip =
     Pārvalda pozīciju (līdz #), kuru jaunām kārtīm piešķir, tās pievienojot.
@@ -92,13 +93,14 @@ deck-config-new-insertion-order-random-with-v3 =
 
 deck-config-relearning-steps = Pārapguves soļi
 deck-config-relearning-steps-tooltip =
-    Nulle vai vairāk aizkavju, atdalītas ar atstarpēm. Pēc noklusējuma, nospiežot pogu „No jauna”
-    pārskatīšanas kārtī, tā tiks rādīta atkārtoti pēc 10 minūtēm. Ja aizkaves netiek norādītas,
-    kārtij tiks mainīts intervāls, neievadot to pārapguves režīmā. { -deck-config-delay-hint }
+    Nulle vai vairāk aizkavju, atdalītas ar atstarpēm. Pēc noklusējuma pogas „Vēlreiz”
+    nospiešana pārskatāmajā kartītē tā tiks rādīta atkārtoti pēc 10 minūtēm. Ja nav
+    norādītas aizkaves, tiks mainīts kartītes starplaiks, nepārejot uz pārapguvi.
+    { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Cik reižu pārskatāmajā kartītē jāspiež "Vēlreiz", pirms tā tiek atzīmēta kā
     izsūcoša. Izsūcošās kartītes ir kartītes, kas patērē daudz laika, un, kad
-    kartīte ir atzīmēta kā izsūcoša, laba doma ir pārrakstīt, izdzēst to vai
+    kartīte ir atzīmēta kā izsūcoša, laba doma ir to pārrakstīt, izdzēst vai
     izdomāt mnemoniku, kas palīdzētu to atcerēties.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -178,6 +180,8 @@ deck-config-question-action-show-answer = Parādīt atbildi
 
 ## Advanced section
 
+deck-config-new-interval-tooltip = Reizinātājs, kas tiek pielietots pārskatīšanas starplaikam, kad tiek atbildēts ar "Vēlreiz".
+deck-config-minimum-interval-tooltip = Mazākais pieļaujamais pārskatāmajai kartītei piešķiramais starplaiks pēc atbildēšanas ar "Vēlreiz".
 
 # Easy Days section
 

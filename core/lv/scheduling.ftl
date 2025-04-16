@@ -20,4 +20,6 @@
 
 scheduling-lapses = Misēkļi
 scheduling-lapses2 = misēkļi
+scheduling-leech-action = Izsūcošo kartīšu darbība
+scheduling-leech-threshold = Izsūcošo kartīšu slieksnis
 scheduling-reset-counts = Atiestatīt atkārtojumu un misēkļu skaitu

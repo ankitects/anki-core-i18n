@@ -1,4 +1,5 @@
-studying-again = Atkal
+studying-again = Vēlreiz
+studying-card-was-a-leech = Kartīte bija izsūcoša.
 studying-continue = Turpināt
 studying-easy = Viegli
 studying-edit = Rediģēt
