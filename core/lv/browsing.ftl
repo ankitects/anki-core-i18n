@@ -11,10 +11,10 @@ browsing-average-interval = Vidējais intervāls
 browsing-browser-appearance = Pārlūka izskats
 browsing-browser-options = Pārlūka opcijas
 browsing-buried = Apraktie
-browsing-card = Kārts
-browsing-cards = Kartes
-browsing-card-list = Karšu saraksts
-browsing-cards-cant-be-manually-moved-into = Kartes nevar manuāli tikt pārvietuotas filtrētā kavā.
+browsing-card = Kartīte
+browsing-cards = Kartītes
+browsing-card-list = Kartīšu saraksts
+browsing-cards-cant-be-manually-moved-into = Kartītes nevar pašrocīgi pārvietot atlasītā kavā.
 browsing-cards-deleted =
     { $count ->
         [zero] Nav neviena kārts dzēsta.

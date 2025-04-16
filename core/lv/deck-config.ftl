@@ -102,9 +102,10 @@ deck-config-leech-threshold-tooltip =
     kas to palīdzēs.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    „Tikai birka”: Pievieno problēmkārtij birku un parāda uznirstošo logu.
-    „Apturēt kārti”: Papildus birkas pievienošanai piezīmei, paslēpj kārti,
-    līdz tā tiek manuāli atjaunota.
+    „Tikai birka”: pievieno piezīmei birku "leech" un parāda uznirstošo logu.
+    
+    „Apturēt kartīti”: papildus piezīmes atzīmēšanai ar birku paslēpj kartīti,
+    līdz tā tiek pašrocīgi atjaunota.
 
 ## Burying section
 
@@ -129,7 +130,7 @@ deck-config-bury-priority-tooltip =
     starpdienu mācīšanās vai pārskatīšanas kārtis, un tu vari redzēt gan pārskatīšanas,
     gan jauno saistīto kārti tajā pašā sesijā.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Attēlošanas secība
 deck-config-new-gather-priority = Jauno kāršu vākšanas secība
@@ -148,13 +149,22 @@ deck-config-new-gather-priority-tooltip-2 =
     „Nejaušās piezīmes”: izvēlas piezīmes nejauši, pēc tam savāc visas tās kārtis.
     
     „Nejaušās kārtis”: vāc kārtis nejaušā secībā.
-deck-config-new-gather-priority-deck = Kava
-deck-config-new-gather-priority-deck-then-random-notes = Kava, pēc tam nejaušas piezīmes
-deck-config-new-gather-priority-position-lowest-first = Augoša pozīcija
-deck-config-new-gather-priority-position-highest-first = Dilstoša pozīcija
-deck-config-new-gather-priority-random-notes = Nejaušas piezīmes
-deck-config-new-gather-priority-random-cards = Nejaušas kārtis
 deck-config-new-card-sort-order = Jauna kāršu šķirošanas secība
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Kava
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Kava, pēc tam nejaušas piezīmes
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Augoša pozīcija
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Dilstoša pozīcija
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Nejaušas piezīmes
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Nejaušas kārtis
 
 ## Timer section
 

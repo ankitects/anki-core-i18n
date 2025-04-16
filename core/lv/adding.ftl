@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = Pievienot (īsceļš: ctrl+enter)
 adding-added = Pievienots
-adding-discard-current-input = Vai dzēst pašreizējo ievadi?
+adding-discard-current-input = Atmest pašreizējo ievadi?
 adding-keep-editing = Turpināt rediģēšanu
 adding-edit = Rediģēt „{ $val }”
 adding-history = Vēsture
