@@ -79,7 +79,7 @@ deck-config-bury-priority-tooltip =
     - ئەگەر بارلىق يوشۇرۇش تاللانمىلىرى قوزغىتىلغان بولسا، تىزىمنىڭ ئەڭ ئالدىدىكى ئالاقىدار كارتىنى كۆرسىتىدۇ. مەسىلەن، تەكرارلايدىغان كارتىنى يېڭى كارتىدىن بۇرۇن كۆرسىتىدۇ.
     - تىزىمنىڭ ئارقىسىدىكى ئالاقىدار كارتا تىزىمنىڭ ئالدىدىكى كارتىنىڭ تۈرىنى يوشۇرالمايدۇ. مەسىلەن، يېڭى كارتا يوشۇر چەكلەنگەندە، يېڭى كارتا ئۆگەنگەندە ئالاقىدار كۈن ئاتلاپ ئۆگىنىدىغان كارتا ۋە تەكرارلايدىغان كارتىنى يوشۇرمايدۇ. شۇڭلاشقا ئالاقىدار يېڭى كارتا ۋە تەكرارلايدىغان كارتا بىر قېتىملىق تەكرارلاشتا بىرلا ۋاقىتتا كۆرۈنۈشى مۇمكىن.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = كۆرسىتىش تەرتىپى
 deck-config-new-gather-priority = يېڭى كارتىنى تارتىش تەرتىپى
@@ -93,12 +93,6 @@ deck-config-new-gather-priority-tooltip-2 =
     «خاتىرە ئىختىيارى تەرتىپتە»: ئالدى بىلەن تاللىغان خاتىرىنى ئىختىيارى تەرتىپتە تىزىدۇ، ئاندىن ئارىسىدىن كارتىنى تارتىدۇ. ئالاقىدار كارتىنى يوشۇرۇش ئىقتىدارى چەكلەنگەندە، بىر خاتىرىنىڭ بارلىق كارتىسى بىر قېتىملىق تەكرارلاشتا كۆرۈنىدۇ. (مەسىلەن، ئالدى يۈزى -› كەينى يۈزى ۋە كەينى يۈزى -› ئالدى يۈزى بىر قېتىملىق تەكرارلاشتا كۆرۈنىدۇ)
     
     «كارتا ئىختىيارى تەرتىپتە»: كارتىنى پۈتۈنلەي ئىختىيارىي تەرتىپتە تارتىپ توپلايدۇ.
-deck-config-new-gather-priority-deck = دەستە
-deck-config-new-gather-priority-deck-then-random-notes = دەستە ئاندىن خالىغان خاتىرە
-deck-config-new-gather-priority-position-lowest-first = ئۆسكۈچى تەرتىپ
-deck-config-new-gather-priority-position-highest-first = كېمەيگۈچى تەرتىپ
-deck-config-new-gather-priority-random-notes = خالىغان خاتىرە
-deck-config-new-gather-priority-random-cards = خالىغان كارتا
 deck-config-new-card-sort-order = يېڭى كارتا تەرتىپلەش تەرتىپى
 deck-config-new-card-sort-order-tooltip-2 =
     «كارتا تۈرى»: كارتىنى كارتا تۈرى نومۇرى بويىچە كۆرسىتىدۇ. ئەگەر ئالاقىدار كارتىنى يوشۇرۇش ئىقتىدارى قوزغىتىلغان بولسا، بارلىق ئالدى يۈزى ← كەينى يۈزى كارتىنىڭ ئالدىنلىقى كەينى يۈزى ← ئالدى يۈزى كارتىنىڭ كۆرسىتىلىشىدىن ئىلگىرى بولىدۇ. بۇ تاللانما ئوخشاش بىر خاتىرىنىڭ كارتىسى بىر قېتىملىق تەكرارلاشقا كۆرسىتىلىدۇ ھەمدە ئارىلىقى بەك يېقىن بولۇپ كېتىشنىڭ ئالدىنى ئالىدۇ.
@@ -110,11 +104,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     «ئىختىيارى خاتىرە ← كارتا تۈرى»: خاتىرە ئىختىيارى تەرتىپتە تارتىلىدۇ، ئاندىن ئۇنىڭغا ئالاقىدار بارلىق كارتىلارنى  تەرتىپ بويىچە كۆرسىتىدۇ.
     
     «ئىختىيارى»: توپلىغان كارتىنىڭ ھەممىسىنى تولۇق ئارىلاشتۇرۇۋېتىدۇ.
-deck-config-sort-order-card-template-then-random = كارتا تۈرى، ئاندىن خالىغانچە
-deck-config-sort-order-random-note-then-template = خالىغانچە خاتىرە، ئاندىن كارتا تۈرى
-deck-config-sort-order-random = خالىغانچە
-deck-config-sort-order-template-then-gather = كارتا تۈرى
-deck-config-sort-order-gather = توپلاش تەرتىپى
 deck-config-new-review-priority = يېڭى/تەكرارلاش تەرتىپى
 deck-config-new-review-priority-tooltip = تەكرارلايدىغان كارتىغا مۇناسىۋەتلىك يېڭى كارتىنى قاچان كۆرسىتىدۇ.
 deck-config-interday-step-priority = كۈن ئاتلاپ ئۆگىنىش/تەكرارلايدىغان كارتا تەرتىپى
@@ -123,23 +112,62 @@ deck-config-interday-step-priority-tooltip =
     
     تەكرارلايدىغان كارتا چېكى ئالدى بىلەن كۈن ئاتلايدىغان كارتىغا قوللىنىلىدۇ، ئاندىن تەكرارلايدىغان كارتىغا قوللىنىلىدۇ.
     گەرچە بۇ تاللانما تارتىدىغان كارتىنىڭ كۆرسىتىش تەرتىپىنى تەڭشىيەلىسىمۇ ئەمما ھەمىشە كۈن ھالقىغان كارتىنى ئالدىن تارتىپ ئالىدۇ.
-deck-config-review-mix-mix-with-reviews = يېڭىسى بىلەن تەكرارلايدىغىنى ئارىلاش
-deck-config-review-mix-show-after-reviews = ئاۋۋال تەكرارلاپ ئاندىن يېڭىنى ئۆگىنىدۇ
-deck-config-review-mix-show-before-reviews = ئاۋۋال يېڭىنى ئۆگىنىپ ئاندىن تەكرارلايدۇ
 deck-config-review-sort-order = تەكرارلايدىغان كارتا تەرتىپى
 deck-config-review-sort-order-tooltip = كۆڭۈلدىكى ئەھۋالدا كارتا كۈتىدىغان ۋاقىتنىڭ ئۇزۇن قىسقىلىق تەرتىپى بويىچە كارتىنى كۆرسىتىدۇ، يىغىلىپ قالغان كارتا بولسا، كۈتكەن ۋاقتى ئەڭ ئۇزۇن بولغان كارتا ئالدى بىلەن كۆرۈنىدۇ. ئەگەر بىر قانچە كۈن سەرپ قىلىپ يىغىلىپ قالغان كارتىنى بىر تەرەپ قىلىشنى خالىمىغاندا ياكى تارماق تەستە تەرتىپى بويىچە تىزىشنى ئۈمىد قىلغاندا، باشقا تەرتىپلەش ئۇسۇلىغا ئۆزگەرتىش تەۋسىيە قىلىنىدۇ.
-deck-config-sort-order-due-date-then-random = ئاۋۋال مۆھلىتى توشقاننى ئاندىن خالىغانچە
-deck-config-sort-order-due-date-then-deck = ئاۋۋال مۆھلىتى توشقاننى ئاندىن دەستە
-deck-config-sort-order-deck-then-due-date = ئاۋۋال دەستە ئاندىن مۆھلىتى توشقاننى
-deck-config-sort-order-ascending-intervals = مەزگىل ئۆسكۈچى
-deck-config-sort-order-descending-intervals = مەزگىل كېمەيگۈچى
-deck-config-sort-order-ascending-ease = ئاسانلىق ئۆسكۈچى
-deck-config-sort-order-descending-ease = ئاسانلىق كېمەيگۈچى
-deck-config-sort-order-ascending-difficulty = قىيىنلىق ئۆسكۈچى
-deck-config-sort-order-descending-difficulty = قىيىنلىق كېمەيگۈچى
-deck-config-sort-order-retrievability-ascending = ئۆسكۈچى ئەستە تۇتۇشچانلىق
-deck-config-sort-order-retrievability-descending = كېڭەيگۈچى ئەستە تۇتۇشچانلىق
 deck-config-display-order-will-use-current-deck = تاللانغان دەستەدىكى ئۆگىنىش تەرتىپى بويىچە كۆرسىتىدۇ، Anki تارماق دەستە تەرتىپىگە پەرۋا قىلمايدۇ.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = دەستە
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = دەستە ئاندىن خالىغان خاتىرە
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = ئۆسكۈچى تەرتىپ
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = كېمەيگۈچى تەرتىپ
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = خالىغان خاتىرە
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = خالىغان كارتا
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = كارتا تۈرى، ئاندىن خالىغانچە
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = خالىغانچە خاتىرە، ئاندىن كارتا تۈرى
+# Sort the cards randomly.
+deck-config-sort-order-random = خالىغانچە
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = كارتا تۈرى
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = توپلاش تەرتىپى
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = يېڭىسى بىلەن تەكرارلايدىغىنى ئارىلاش
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = ئاۋۋال تەكرارلاپ ئاندىن يېڭىنى ئۆگىنىدۇ
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = ئاۋۋال يېڭىنى ئۆگىنىپ ئاندىن تەكرارلايدۇ
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = ئاۋۋال مۆھلىتى توشقاننى ئاندىن خالىغانچە
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = ئاۋۋال مۆھلىتى توشقاننى ئاندىن دەستە
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = ئاۋۋال دەستە ئاندىن مۆھلىتى توشقاننى
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = مەزگىل ئۆسكۈچى
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = مەزگىل كېمەيگۈچى
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = ئاسانلىق ئۆسكۈچى
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = ئاسانلىق كېمەيگۈچى
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = قىيىنلىق ئۆسكۈچى
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = قىيىنلىق كېمەيگۈچى
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = ئۆسكۈچى ئەستە تۇتۇشچانلىق
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = كېڭەيگۈچى ئەستە تۇتۇشچانلىق
 
 ## Timer section
 
@@ -243,6 +271,7 @@ deck-config-learning-step-above-graduating-interval = ئوقۇش پۈتتۈرۈ�
 deck-config-good-above-easy = ئاسان كارتىنىڭ قايتا كۆرۈنۈش مەزگىلى ئوقۇش پۈتتۈرۈش كارتىسىنىڭ قايتا كۆرۈنۈش ئارىلىقىدىن كەم بولماسلىقى كېرەك.
 deck-config-relearning-steps-above-minimum-interval = ئەڭ قىسقا ئۇنتۇش مەزگىلى ئاخىرقى قېتىملىق قايتا ئۆگىنىش باسقۇچىدىن كەم بولماسلىقى كېرەك.
 deck-config-maximum-answer-secs-above-recommended = ھەر بىر سوئالغا جاۋاب بېرىش ۋاقتى قىسقا بولغاندا، Anki تەكرارلاش كۈنتەرتىپىنى تېخىمۇ ئۈنۈملۈك ئورۇنلاشتۇرالايدۇ.
+deck-config-too-short-maximum-interval = ئەڭ ئۇزۇن مەزگىلنى 6 ئايدىن قىسقا قىلىپ تەڭشەش تەۋسىيە قىلىنىدۇ.
 
 ## Selecting a deck
 

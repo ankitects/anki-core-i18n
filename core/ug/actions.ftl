@@ -1,5 +1,17 @@
 actions-add = قوش
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = ھەممىسى تاللاندى
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = خالىغان تاللانغىنى
 actions-cancel = ۋاز كەچ
 actions-choose = تاللا
@@ -38,6 +50,8 @@ actions-select = تاللا
 actions-shortcut-key = قىسقا يول كۇنۇپكىسى: { $val }
 actions-suspend-card = كارتىنى كېچىكتۈر
 actions-set-due-date = مۆھلەت چېسلا تەڭشىكى
+actions-toggle-load-balancer = يۈك تەڭپۇڭلاشتۇرغۇچنى ئالماشتۇر
+actions-grade-now = دەرھال باھالاش
 actions-answer-card = جاۋاب كارتا
 actions-unbury-unsuspend = يوشۇرما/كېچىكتۈرمە
 actions-add-deck = دەستە قوش
@@ -58,10 +72,12 @@ actions-previous-card-info = ئالدىنقى كارتا ئۇچۇرى
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }…
 actions-fullscreen-unsupported = پۈتۈن ئېكران ھالىتى كۆرسىتىش كارتىڭىزنىڭ قوزغاتقۇچ پىروگراممىسىنى قوللىمايدۇ. مايىللىق ئېكرانىدىن باشقا بىرىنى تاللاپ سىناڭ.
-
-## Flags
-
 actions-flag-number = بايراق { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = قىزىل
 actions-flag-orange = قىزغۇچ سېرىق
 actions-flag-green = يېشىل
@@ -69,6 +85,9 @@ actions-flag-blue = كۆك
 actions-flag-pink = ھالرەڭ
 actions-flag-turquoise = توق يېشىل
 actions-flag-purple = بىنەپشە
+
+##
+
 actions-set-flag = بايراق تەڭشەك
 actions-nothing-to-undo = يېنىۋالىدىغان مەشغۇلات يوق
 actions-nothing-to-redo = قايتىلايدىغان مەشغۇلات يوق

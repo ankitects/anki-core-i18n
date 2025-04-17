@@ -165,6 +165,11 @@ scheduling-set-due-date-done =
         [one] { $cards } كارتىغا مۆھلەت تەڭشەلدى.
        *[other] { $cards } كارتىغا مۆھلەت تەڭشەلدى.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } كارتا باھالاندى.
+       *[other] { $cards } كارتا باھالاندى.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] { $cards } كارتىنى ئەسلىگە قايتۇردى.
