@@ -50,6 +50,7 @@ actions-select = Välj
 actions-shortcut-key = Genväg: { $val }
 actions-suspend-card = Lås kort
 actions-set-due-date = Sätt förfallodatum
+actions-toggle-load-balancer = Växla lastbalanserare
 actions-answer-card = Besvara kort
 actions-unbury-unsuspend = Visa/upplås
 actions-add-deck = Lägg till kortlek

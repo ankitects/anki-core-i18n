@@ -123,7 +123,7 @@ deck-config-bury-priority-tooltip =
     ett nytt kort.
     - Syskon senare i listan kan inte dölja tidigare korttyper. Exempelvis kommer inga repetitionskort eller flerdagslöpande inlärningskort att döljas om du inaktiverar döljande av nya kort och studerar ett nytt kort, alltså kan både ett syskon som är ett repetitionskort och ett syskon som är ett nytt kort visas under samma session.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Visningsordning
 deck-config-new-gather-priority = Samlingsordning för nya kort
@@ -142,12 +142,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Slumpade noter`: Väljer noter slumpmässigt, och samlar sedan alla deras respektive kort.
     
     `Slumpade kort`: Samlar kort i en slumpmässig ordning.
-deck-config-new-gather-priority-deck = Kortlek
-deck-config-new-gather-priority-deck-then-random-notes = Kortlek sedan slumpmässiga noter
-deck-config-new-gather-priority-position-lowest-first = Ökande position
-deck-config-new-gather-priority-position-highest-first = Minskande position
-deck-config-new-gather-priority-random-notes = Slumpmässiga noter
-deck-config-new-gather-priority-random-cards = Slumpmässiga kort
 deck-config-new-card-sort-order = Sorteringsordning för nya kort
 deck-config-new-card-sort-order-tooltip-2 =
     `Korttyp, sedan ordning samlad`: Visar kort i ordning av korttypsnummer.
@@ -165,11 +159,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Slumpad not, sedan korttyp`: Väljer slumpmässigt not, och visar sedan alla dess kort i ordning.
     
     `Slumpmässig`: Visar kort i en slumpmässig ordning.
-deck-config-sort-order-card-template-then-random = Korttyp, sedan slumpmässigt
-deck-config-sort-order-random-note-then-template = Slumpad not, sedan korttyp
-deck-config-sort-order-random = Slumpmässigt
-deck-config-sort-order-template-then-gather = Korttyp
-deck-config-sort-order-gather = Ordning samlad
 deck-config-new-review-priority = Ordning för nya kort/repetitionskort
 deck-config-new-review-priority-tooltip = När nya kort bör visas i förhållande till repetitionskort.
 deck-config-interday-step-priority = Ordning för flerdagslöpande inlärningskort/repetitionskort
@@ -179,9 +168,6 @@ deck-config-interday-step-priority-tooltip =
     Repetitionsgränsen tillämpas alltid först på flerdagslöpande inlärningskort, och
     därefter repetitionskort. Denna inställning kommer styra ordningen de samlade korten visas i,
     men flerdagslöpande inlärningskort kommer alltid samlas först.
-deck-config-review-mix-mix-with-reviews = Sammanväv med repetitionskort
-deck-config-review-mix-show-after-reviews = Visa efter repetitioner
-deck-config-review-mix-show-before-reviews = Visa innan repetitioner
 deck-config-review-sort-order = Sorteringsordning för repetitionskort
 deck-config-review-sort-order-tooltip =
     Standardordningen prioriterar kort som har väntat längst, så att,
@@ -189,20 +175,62 @@ deck-config-review-sort-order-tooltip =
     först. Vid en stor eftersläpning som kommer ta mer än ett antal dagar
     att beta av, eller önskan om att se kort i underkortleksordning, kan de andra
     sorteringsordningarna vara att föredra.
-deck-config-sort-order-due-date-then-random = Förfallodatum, sedan slumpad
-deck-config-sort-order-due-date-then-deck = Förfallodatum, sedan kortlek
-deck-config-sort-order-deck-then-due-date = Kortlek, sedan förfallodatum
-deck-config-sort-order-ascending-intervals = Ökande intervall
-deck-config-sort-order-descending-intervals = Minskande intervall
-deck-config-sort-order-ascending-ease = Ökande lätthet
-deck-config-sort-order-descending-ease = Minskande lätthet
-deck-config-sort-order-ascending-difficulty = Ökande svårighet
-deck-config-sort-order-descending-difficulty = Minskande svårighet
-deck-config-sort-order-retrievability-ascending = Ökande återkallbarhet
-deck-config-sort-order-retrievability-descending = Minskande återkallbarhet
 deck-config-display-order-will-use-current-deck =
     Anki kommer använda visningsordningen från den kortleken
     som har valts, och inte dess eventuella underkortlekar.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Kortlek
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Kortlek sedan slumpmässiga noter
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Ökande position
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Minskande position
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Slumpmässiga noter
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Slumpmässiga kort
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Korttyp, sedan slumpmässigt
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Slumpad not, sedan korttyp
+# Sort the cards randomly.
+deck-config-sort-order-random = Slumpmässigt
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Korttyp
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Ordning samlad
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Sammanväv med repetitionskort
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Visa efter repetitioner
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Visa innan repetitioner
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Förfallodatum, sedan slumpad
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Förfallodatum, sedan kortlek
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Kortlek, sedan förfallodatum
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Ökande intervall
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Minskande intervall
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Ökande lätthet
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Minskande lätthet
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Ökande svårighet
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Minskande svårighet
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Ökande återkallbarhet
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Minskande återkallbarhet
 
 ## Timer section
 
@@ -332,6 +360,7 @@ deck-config-learning-step-above-graduating-interval = Befordringsintervallet bö
 deck-config-good-above-easy = Lättintervallet bör vara åtminstone lika långt som befordringsintervallet.
 deck-config-relearning-steps-above-minimum-interval = Det minsta bortglömningsintervallet borde vara åtminstone lika långt som det sista ominlärningssteget.
 deck-config-maximum-answer-secs-above-recommended = Anki kan schemalägga repetitioner mer effektivt om varje enskild fråga är kortfattad.
+deck-config-too-short-maximum-interval = Ett största intervall på mindre än 6 månader rekommenderas ej.
 
 ## Selecting a deck
 
@@ -436,6 +465,7 @@ deck-config-percent-of-reviews =
         [one] { $pct }% av { $reviews } repetition
        *[other] { $pct }% av { $reviews } repetitioner
     }
+deck-config-percent-input = { $pct } %
 deck-config-optimizing-preset = Optimerar förinställning { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS måste vara aktiverat först.
 deck-config-fsrs-params-optimal = FSRS-parametrarna förefaller redan vara optimala.
