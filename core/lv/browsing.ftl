@@ -160,7 +160,7 @@ browsing-sidebar-first-review = Pirmais pārskats
 browsing-sidebar-rescheduled = Pārplānotie
 browsing-sidebar-due-today = Līdz
 browsing-sidebar-untagged = Bez birkas
-browsing-sidebar-overdue = Nokavētie
+browsing-sidebar-overdue = Nokavētās
 browsing-row-deleted = (dzēstie)
 browsing-removed-unused-tags-count =
     { $count ->

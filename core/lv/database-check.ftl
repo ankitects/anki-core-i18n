@@ -2,15 +2,15 @@ database-check-corrupt = Kolekcijas fails ir buojāts. Lūdzu, atjaunuojiet tuo 
 database-check-rebuilt = Datubāze ir pārbūvēta un optimizēta.
 database-check-card-properties =
     { $count ->
-        [zero] Nav salabuota neviena nederīga kārts īpašība.
-        [one] Ir salabuota { $count } nederīga kārts īpašība.
-       *[other] Ir salabuotas { $count } nederīgas kārts īpašības.
+        [zero] Salabotas { $count } nederīgas kartīšu īpašības.
+        [one] Salabota { $count } nederīga kartīšu īpašība.
+       *[other] Salabotas { $count } nederīgas kakrtīšu īpašības.
     }
 database-check-missing-templates =
     { $count ->
-        [zero] Nav dzēsta neviena kārts bez veidnes.
-        [one] Ir dzēsta { $count } kārts bez veidnes.
-       *[other] Ir dzēstas { $count } kārtis bez veidnes.
+        [zero] Izdzēstas { $count } kartīšu bez veidnes.
+        [one] Izdzēsta { $count } kartīte bez veidnes.
+       *[other] Izdzēstas { $count } kartītes bez veidnes.
     }
 database-check-field-count =
     { $count ->
@@ -20,21 +20,21 @@ database-check-field-count =
     }
 database-check-new-card-high-due =
     { $count ->
-        [zero] Nav atrasta neviena jauna kārts ar kārtas numuru ≥ 1 000 000 000.
-        [one] Atrasta { $count } jauna kārts ar kārtas numuru ≥ 1 000 000 000 - apsveriet iespēju mainīt tās atrašanās vietu pārlūka ekrānā.
-       *[other] Atrastas { $count } jauna kārts ar kārtas numuru ≥ 1 000 000 000 - apsveriet iespēju mainīt tuo atrašanās vietas pārlūka ekrānā.
+        [zero] Atrastas { $count } jaunas kartītes ar kārtas numuru ≥ 1 000 000 000 - jāapsver pārkārtot to pārlūkošanas ekrānā.
+        [one] Atrasta { $count } jauna kartīte ar kārtas numuru ≥ 1 000 000 000 - jāapsver pārkārto to pārlūkošanas ekrānā.
+       *[other] Atrastas { $count } jaunas kartītes ar kārtas numuru ≥ 1 000 000 000 - jāapsver pārkārtot to pārlūkošanas ekrānā.
     }
 database-check-card-missing-note =
     { $count ->
-        [zero] Nav dzēsta neviena kārts bez piezīmes.
-        [one] Ir dzēsta { $count } kārts bez peizīmes.
-       *[other] Ir dzēstas { $count } kārtis bez piezīmes.
+        [zero] Izdzēstas { $count } kartītes bez piezīmes.
+        [one] Izdzēsta { $count } kartīte bez piezīmes.
+       *[other] Izdzēstas { $count } kartītes bez piezīmes.
     }
 database-check-duplicate-card-ords =
     { $count ->
-        [zero] Nav dzēsta neviena kārts ar dublētu veidni.
-        [one] Ir dzēsta { $count } kārts ar dublētu veidni.
-       *[other] Ir dzēstas { $count } kārtis ar dublētām veidnēm.
+        [zero] Izdzēstas { $count } kartītes ar divkāršu veidni.
+        [one] Izdzēsta { $count } kartīte ar divkāršu veidni.
+       *[other] Izdzēstas { $count } kartītes ar divkāršu veidni.
     }
 database-check-missing-decks =
     { $count ->
@@ -61,13 +61,13 @@ database-check-fixed-invalid-ids =
        *[other] Ir labuoti { $count } objekti ar laika zīmēm nākuotnē.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Viens vai vairāki piezīmju tipi netika atrasti. Tajām piezīmēm kuras tuos lietuoja, ir duots pietīmes tips kas sākas ar «db-check», bet lauciņu nuosaukumi un kāršu dizaini ir zaudēti, tātad būtu labāk ja tās atjaunuotu nuo automātiskā dublējuma.
+database-check-notetypes-recovered = Trūkst viens vai vairāki piezīmju veidi. Piezīmēm, kurās tie tika izmantoti, ir piešķirti jauni piezīmju veidi, kas sākas ar «db-check», bet lauku nosaukumi un kartīšu izskats ir zaudēts, tāpēc būtu labāk atjaunot no automātiskas rezerves kopijas.
 
 ## Progress info
 
 database-check-checking-integrity = Pārskata kolekciju...
 database-check-rebuilding = Pārtaisa...
-database-check-checking-cards = Pārskata kārtis...
+database-check-checking-cards = Pārbauda kartītes...
 database-check-checking-notes = Pārskata piezīmes...
 database-check-checking-history = Pārskata vēsturi...
 database-check-title = Pārskata datubāzi...

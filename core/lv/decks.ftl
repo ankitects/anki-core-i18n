@@ -1,4 +1,6 @@
 decks-get-shared = Saņemt kopīgotos
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Atlikt { $button }
 decks-learn-header = Mācīties
 
 ## Sort order of cards

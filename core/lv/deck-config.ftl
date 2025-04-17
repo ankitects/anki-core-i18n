@@ -216,6 +216,15 @@ deck-config-relearning-steps-above-minimum-interval = Mazākajam pieļaujamajam 
 
 ## Messages related to the FSRS scheduler
 
+deck-config-desired-retention-tooltip =
+    Pēc noklusējuma Anki ieplāno kartītes, lai tām būtu 90% atcerēšanās iespējamība, kad
+    atkal pienāk to pārskatīšana. Ja šo vērtību palielina, Anki biežāk rādīs kartītes,
+    lai tām palielinātu atcerēšanās iespēju. Ja vērtība tiek samazināta, Aki retāk rādīs
+    kartītes, tādējādi vairāk tiks aizmirsts. Vēlams ievērot piesardzību, kad šo pielāgo, -
+    lielākas vērtības ievērojami palielinās noslogojumu, un mazākas vērtības var būt
+    nomācošas, kad tiek aizmirsts daudz vielas.
+deck-config-fsrs-params-no-reviews = Nav atrasta neviena pārskatīšana. Lūgums pārbaudīt, ka šis priekšiestatījums ir piešķirts visām optimizējamajām kavām (tajā skaitā apakškavām), un mēģināt vēlreiz.
+deck-config-answer-again = Atbildēt vēlreiz
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
