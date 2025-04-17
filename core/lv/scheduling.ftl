@@ -9,6 +9,42 @@
 ## such as in the Interval column of the browse screen,
 ## and labels like "Total Time" in the card info screen.
 
+scheduling-time-span-seconds =
+    { $amount ->
+        [zero] { $amount } sekunžu
+        [one] { $amount } sekunde
+       *[other] { $amount } sekundes
+    }
+scheduling-time-span-minutes =
+    { $amount ->
+        [zero] { $amount } minūšu
+        [one] { $amount } minūte
+       *[other] { $amount } minūtes
+    }
+scheduling-time-span-hours =
+    { $amount ->
+        [zero] { $amount } stundu
+        [one] { $amount } stunda
+       *[other] { $amount } stundas
+    }
+scheduling-time-span-days =
+    { $amount ->
+        [zero] { $amount } dienu
+        [one] { $amount } diena
+       *[other] { $amount } dienas
+    }
+scheduling-time-span-months =
+    { $amount ->
+        [zero] { $amount } mēnešu
+        [one] { $amount } mēnesis
+       *[other] { $amount } mēneši
+    }
+scheduling-time-span-years =
+    { $amount ->
+        [zero] { $amount } gadu
+        [one] { $amount } gads
+       *[other] { $amount } gadi
+    }
 
 ## Shown in the "Congratulations!" message after study finishes.
 

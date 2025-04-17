@@ -8,6 +8,7 @@
 ##
 
 statistics-today-title = Šodien
+statistics-today-again-count = Vēlreiz skaits:
 
 ## True Retention represents your actual retention rate from past reviews, in
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
@@ -25,6 +26,7 @@ statistics-today-title = Šodien
 
 ##
 
+statistics-intervals-subtitle = Aizkavē, līdz pārskatāmās kartītes tiek atkal parādītas.
 
 ## An amount of elapsed time, used in the graphs to show the amount of
 ## time spent studying. For example, English would show "5s" for 5 seconds,
