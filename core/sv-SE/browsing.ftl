@@ -159,7 +159,7 @@ browsing-row-deleted = (borttagen)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Tog bort { $count } oanvänd etikett.
-       *[other] Tog bort { $count } oanvända etikett.
+       *[other] Tog bort { $count } oanvända etiketter.
     }
 browsing-changed-new-position =
     { $count ->
