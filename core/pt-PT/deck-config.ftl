@@ -257,6 +257,16 @@ deck-config-maximum-interval-tooltip =
     O número máximo de dias que uma revisão deve aguardar. Quando o número
     de revisões atingiu o limite, `Difícil`, `Bom` e `Fácil` vão todos adicionar o mesmo atraso.
     Quanto menor for este valor, maior será a sua carga.
+deck-config-starting-ease-tooltip =
+    O multiplicador de facilidade com que as novas fichas começam. Por defeito, o botão `Bom` numa
+    ficha recém aprendida vai programar a próxima revisão para daí a 2.5x o atraso anterior.
+deck-config-easy-bonus-tooltip =
+    Um multiplicador extra que é aplicado ao intervalo duma ficha quando
+    esta é classificada como `Fácil`.
+deck-config-interval-modifier-tooltip =
+    Este multiplicador é aplicado a todas as revisões, e pequenos ajustes permitem 
+    que o Anki seja mais conservador ou mais agressivo no seu planeamento. Por favor
+    consulte o manual antes de alterar esta opção.
 
 # Easy Days section
 
