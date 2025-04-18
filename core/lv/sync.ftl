@@ -17,6 +17,10 @@ sync-wrong-pass = E-pasta adrese vai parole bija nepareiza; lūgums mēģināt v
 sync-resync-required = Lūgums sinhronizēt vēlreiz. Ja šis ziņojums turpina parādīties, lūgums vērsties atbalsta vietnē.
 sync-must-wait-for-end = Anki pašlaik sinhronizē. Lūgums uzgaidīt, līdz sinhronizēšana tiek pabeigta, tad jāmēģina vēlreiz.
 sync-sanity-check-failed = Lūgums izmantot "Pārbaudīt datubāzi", tad sinhronizēt vēlreiz. Ja sarežģījumi turpinās, lūgums iestatījumu ekrānā veikt uzspiestu vienvirziena sinhronizēšanu.
+sync-upload-too-large =
+    Krājuma datne ir pārāk liela, lai to nosūtītu AnkiWeb. Tās izmēru var
+    samazināt ar nevajadzīgo kavu noņemšanu (pēc izvēles pirms tam tās izgūstot)
+    un tad izmantot "Pārbaudīt datubāzi", lai samazinātu datnes lielumu. ({ $details })
 
 ## Buttons
 

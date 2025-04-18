@@ -52,7 +52,7 @@ deck-config-apply-all-parent-limits-tooltip =
     ja mācāties no tā apakškavas. Ja šī opcija ir aktivizēta, ierobežojumi tiks piemēroti, sākot no
     augstākā līmeņa kavas, kas var būt noderīgi, ja vēlaties mācīties atsevišķas apakškavas,
     vienlaikus nosakot kopējo ierobežojumu kāršu skaitam visā komplekta hierarhijā.
-deck-config-affects-entire-collection = Ietekmē visu kolekciju.
+deck-config-affects-entire-collection = Ietekmē visu krājumu.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.

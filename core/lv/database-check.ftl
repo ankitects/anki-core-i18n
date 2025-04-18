@@ -1,4 +1,4 @@
-database-check-corrupt = Kolekcijas fails ir buojāts. Lūdzu, atjaunuojiet tuo nuo automātiskās dublējuma kopijas.
+database-check-corrupt = Krājuma datne ir bojāta. Lūgums atjaunot no automātiskās rezerves kopijas.
 database-check-rebuilt = Datubāze ir pārbūvēta un optimizēta.
 database-check-card-properties =
     { $count ->
@@ -14,9 +14,9 @@ database-check-missing-templates =
     }
 database-check-field-count =
     { $count ->
-        [zero] Nav salabuota neviena piezīme ar nepareizu lauciņu skaitu.
-        [one] Ir salabuota { $count } piezīme ar nepareizu lauciņu skaitu.
-       *[other] Ir salabuotas { $count } piezīmes ar nepareiziem lauciņu skaitiem.
+        [zero] Salabotas { $count } piezīmes ar nepareizu lauku skaitu.
+        [one] Salabota { $count } piezīme ar nepareizu lauku skaitu.
+       *[other] Salabotas { $count } piezīmes ar nepareizu lauku skaitu.
     }
 database-check-new-card-high-due =
     { $count ->
@@ -38,36 +38,36 @@ database-check-duplicate-card-ords =
     }
 database-check-missing-decks =
     { $count ->
-        [zero] Nav labuota neviena trūkstuoša kava.
-        [one] Ir labuota { $count } trūkstuoša kava.
-       *[other] Ir labuotas { $count } trūkstuošas kavas.
+        [zero] Salabotas { $count } trūkstošās kavas.
+        [one] Salabota { $count } trūkstoša kava.
+       *[other] Salabotas { $count } trūkstošas kavas.
     }
 database-check-revlog-properties =
     { $count ->
-        [zero] Nav labuots neviens jauns ieraksts ar nederīgām īpašībām.
-        [one] Ir labuots { $count } jauns ieraksts ar nederīgām īpašībām.
-       *[other] Ir labuoti { $count } jauni ieraksti ar nederīgām īpašībām.
+        [zero] Salaboti { $count } pārskatīšanas ierakstu ar nederīgām īpašībām.
+        [one] Salabots { $count } pārskatīšanas ieraksts ar nederīgām īpašībām.
+       *[other] Salaboti { $count } pārskatīšanas ieraksti ar nederīgām īpašībām.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
-        [zero] Nav labuota neviena piezīme ar nederīgām utf8 rakstzīmēm.
-        [one] Ir labuota { $count } peizīme ar nederīgām utf8 rakstzīmēm.
-       *[other] Ir labuotas { $count } piezīmes ar nederīgām utf8 rakstzīmēm.
+        [zero] Salabotas { $count } piezīmes ar nederīgām UTF8 rakstzīmēm.
+        [one] Salabota { $count } piezīme ar nederīgām UTF8 rakstzīmēm.
+       *[other] Salabotas { $count } piezīmes ar nederīgām UTF8 rakstzīmēm.
     }
 database-check-fixed-invalid-ids =
     { $count ->
-        [zero] Nav labuots neviens objekts ar laika zīmēm nākuotnē.
-        [one] Ir labuots { $count } objekts ar laika zīmēm nakuotnē.
-       *[other] Ir labuoti { $count } objekti ar laika zīmēm nākuotnē.
+        [zero] Salaboti { $count } objektu ar laikspiedoliem nākotnē.
+        [one] Salabots { $count } objekts ar laikspiedoliem nākotnē.
+       *[other] Salaboti { $count } objekti ar laikspiedoliem nākotnē.
     }
 # "db-check" is always in English
 database-check-notetypes-recovered = Trūkst viens vai vairāki piezīmju veidi. Piezīmēm, kurās tie tika izmantoti, ir piešķirti jauni piezīmju veidi, kas sākas ar «db-check», bet lauku nosaukumi un kartīšu izskats ir zaudēts, tāpēc būtu labāk atjaunot no automātiskas rezerves kopijas.
 
 ## Progress info
 
-database-check-checking-integrity = Pārskata kolekciju...
-database-check-rebuilding = Pārtaisa...
+database-check-checking-integrity = Pārbauda krājumu...
+database-check-rebuilding = Pārbūvē...
 database-check-checking-cards = Pārbauda kartītes...
-database-check-checking-notes = Pārskata piezīmes...
-database-check-checking-history = Pārskata vēsturi...
-database-check-title = Pārskata datubāzi...
+database-check-checking-notes = Pārbauda piezīmes...
+database-check-checking-history = Pārbauda vēsturi...
+database-check-title = Pārbaudīt datubāzi

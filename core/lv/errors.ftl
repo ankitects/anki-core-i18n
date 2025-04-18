@@ -2,6 +2,7 @@ errors-parse-number-fail = Skaitlis bija nederīgs vai ārpus pieļaujamā diapa
 errors-multiple-notetypes-selected = Lūdzu, izvēlieties piezīmes tikai no viena piezīmju veida.
 errors-please-check-database = Lūgums izmantot darbību "Pārbaudīt datubāzi", tad mēģināt vēlreiz.
 errors-please-check-media = Lūgums izmantot darbību "Pārbaudīt informācijas nesējus", tad mēģināt vēlreiz.
+errors-inconsistent-db-state = Šķiet, ka datubāze ir nepastāvīgā stāvoklī. Lūgums izmantot darbību "Pārbaudīt datubāzi".
 
 ## Card Rendering
 
