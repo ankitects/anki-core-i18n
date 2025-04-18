@@ -108,7 +108,7 @@ deck-config-bury-priority-tooltip =
     - se tem todas as opções de adiamento activas, a irmã que vem primeiro na lista será apresentada. Por exemplo, uma ficha de revisão tem preferência em relação a uma nova ficha.
     - irmãs mais à frente na lista não podem adiar tipos de ficha que vêm antes. Por exemplo, se desactivar o adiar de fichas novas, e rever uma ficha nova, não adiará nenhuma ficha em aprendizagem entre dias ou fichas de revisão, e podem ser-lhe apresentadas na mesma sessão uma ficha de revisão irmã e uma nova irmã.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Ordem de exibição
 deck-config-new-gather-priority = Ordem de recolha para novas fichas
@@ -122,12 +122,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Notas aleatórias`: escolhe notas aleatoriamente, e depois recolhe as suas fichas.
     
     `Fichas aleatórias`: recolhe fichas aleatoriamente.
-deck-config-new-gather-priority-deck = Baralho
-deck-config-new-gather-priority-deck-then-random-notes = Baralho, depois notas aleatórias
-deck-config-new-gather-priority-position-lowest-first = Crescente
-deck-config-new-gather-priority-position-highest-first = Descendente
-deck-config-new-gather-priority-random-notes = Notas aleatórias
-deck-config-new-gather-priority-random-cards = Fichas aleatórias
 deck-config-new-card-sort-order = Ordem para fichas novas
 deck-config-new-card-sort-order-tooltip-2 =
     `Tipo de ficha, depois ordem de recolha`: Mostrar fichas ordenadas por tipo de ficha.
@@ -145,11 +139,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Nota aleatória, depois tipo de ficha`: São escolhidas notas de forma aleatória, e depois são apresentadas todas as suas fichas.
     
     `Aleatória`: Mostrar fichas de forma aleatória.
-deck-config-sort-order-card-template-then-random = Tipo de ficha, depois aleatório
-deck-config-sort-order-random-note-then-template = Nota aleatória, depois tipo de ficha
-deck-config-sort-order-random = Aleatória
-deck-config-sort-order-template-then-gather = Tipo de ficha, depois ordem obtida
-deck-config-sort-order-gather = Ordem de recolha
 deck-config-new-review-priority = Ordem novas/revisão
 deck-config-new-review-priority-tooltip = Quando mostrar fichas novas em relação a fichas de revisão.
 deck-config-interday-step-priority = Ordem de fichas em aprendizagem entre dias/revisão
@@ -159,9 +148,6 @@ deck-config-interday-step-priority-tooltip =
     O limite de revisão é sempre aplicado primeiso a fichas em aprendizagem entre dias, 
     e só depois a fichas de revisão. Esta opção controla a ordem em que as fichas recolhidas são apresentadas, 
     mas fichas em aprendizagem entre dias serão sempre recolhidas primeiro.
-deck-config-review-mix-mix-with-reviews = Misturar com revisões
-deck-config-review-mix-show-after-reviews = Mostrar depois das revisões
-deck-config-review-mix-show-before-reviews = Mostrar antes das revisões
 deck-config-review-sort-order = Ordem das revisões
 deck-config-review-sort-order-tooltip =
     A ordenação padrão prioriza fichas que estão há mais tempo à espera, 
@@ -169,33 +155,94 @@ deck-config-review-sort-order-tooltip =
     revisões por fazer. Se tiver uma grande número de fichas para trás, 
     ou desejar ver as fichas por ordem de sub-baralho, pode preferir as ordenações
     alternativas.
-deck-config-sort-order-due-date-then-random = Data de revisão, depois aleatória
-deck-config-sort-order-due-date-then-deck = Data de revisão, depois baralho
-deck-config-sort-order-deck-then-due-date = Baralho, depois data de revisão
-deck-config-sort-order-ascending-intervals = Intervalos crescentes
-deck-config-sort-order-descending-intervals = Intervalos decrescentes
-deck-config-sort-order-ascending-ease = Aumentando a facilidade
-deck-config-sort-order-descending-ease = Diminuindo a facilidade
-deck-config-sort-order-ascending-difficulty = Fichas fáceis primeiro
-deck-config-sort-order-descending-difficulty = Fichas difíceis primeiro
-deck-config-sort-order-retrievability-ascending = Aumentando a facilidade de recolha
-deck-config-sort-order-retrievability-descending = Diminuindo a facilidade de recolha
 deck-config-display-order-will-use-current-deck =
     O Anki vai utilizar a ordem de exibição do baralho que
     seleccionou para estudar, e não sub-baralhos que este possa ter.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Baralho
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Baralho, depois notas aleatórias
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Crescente
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Descendente
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Notas aleatórias
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Fichas aleatórias
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Tipo de ficha, depois aleatório
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Nota aleatória, depois tipo de ficha
+# Sort the cards randomly.
+deck-config-sort-order-random = Aleatória
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Tipo de ficha, depois ordem obtida
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Ordem de recolha
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Misturar com revisões
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Mostrar depois das revisões
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Mostrar antes das revisões
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Data de revisão, depois aleatória
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Data de revisão, depois baralho
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Baralho, depois data de revisão
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervalos crescentes
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervalos decrescentes
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Aumentando a facilidade
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Diminuindo a facilidade
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Fichas fáceis primeiro
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Fichas difíceis primeiro
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Aumentando a facilidade de recolha
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Diminuindo a facilidade de recolha
 
 ## Timer section
 
 deck-config-timer-title = Temporizadores
 deck-config-maximum-answer-secs = Número máximo de segundos para responder
+deck-config-maximum-answer-secs-tooltip =
+    O número máximo de segundos contabilizados por revisão. Se uma resposta
+    exceder este tempo (porque, por exemplo se afastou do ecrã por alguma razão),
+    o tempo considerado será o do limite.
+deck-config-show-answer-timer-tooltip = Mostrar um temporizador para cada revisão, na página de estudo.
+deck-config-stop-timer-on-answer = Parar temporizador aquando da resposta
+deck-config-stop-timer-on-answer-tooltip =
+    Se o temporizador deve parar quando a resposta é revelada.
+    Isto não afecta as estatísticas.
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Número de segundos para mostrar a pergunta
+deck-config-seconds-to-show-question-tooltip-3 = O número de segundos de espera antes de aplicar a acção da pergunta, quando o avançar automaticamente está activo. Atribua o valor 0 para desactivar.
+deck-config-seconds-to-show-answer = O número de segundos para mostrar a resposta
+deck-config-seconds-to-show-answer-tooltip-2 = O número de segundos de espera antes de aplicar a acção da resposta, quando o avançar automaticamente está activo. Atribua o valor 0 para desactivar.
 deck-config-question-action-show-answer = Mostrar Resposta
 deck-config-question-action-show-reminder = Mostrar Lembrete
+deck-config-question-action = Acção da pergunta
+deck-config-question-action-tool-tip = A acção a aplicar depois de ter sido mostrada a pergunta, e o tempo limite tenha sido ultrapassado.
+deck-config-answer-action = Acção da resposta
+deck-config-answer-action-tooltip-2 = A acção a aplicar depois de ter sido mostrada a resposta, e o tempo limite tenha sido ultrapassado.
+deck-config-wait-for-audio-tooltip-2 = Aguardar pelo fim do áudio antes de aplicar a acção da pergunta ou da resposta.
 
 ## Audio section
 
+deck-config-audio-title = Áudio
 deck-config-disable-autoplay = Não reproduzir áudio automacticamente
 deck-config-disable-autoplay-tooltip =
     Quando activado, o Anki não reproduzirá o áudio automacticamente.
@@ -205,6 +252,11 @@ deck-config-always-include-question-audio-tooltip = Se o áudio da pergunta deve
 
 ## Advanced section
 
+deck-config-advanced-title = Avançadas
+deck-config-maximum-interval-tooltip =
+    O número máximo de dias que uma revisão deve aguardar. Quando o número
+    de revisões atingiu o limite, `Difícil`, `Bom` e `Fácil` vão todos adicionar o mesmo atraso.
+    Quanto menor for este valor, maior será a sua carga.
 
 # Easy Days section
 
