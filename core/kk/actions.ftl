@@ -1,5 +1,17 @@
 actions-add = Қосу
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Бөлшектенгеннің бәрі
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Бөлшектенгеннің әр-бірі
 actions-cancel = Болдырмау
 actions-choose = Таңдау
@@ -11,12 +23,12 @@ actions-custom-study = Жеке оқу
 actions-decks = Колодалар
 actions-decrement-value = Мәнді кеміту
 actions-delete = Жою
-actions-export = Әкету
+actions-export = Экспорттау
 actions-empty-cards = Бос карталар
 actions-filter = Сүзгі
 actions-help = Көмек
 actions-increment-value = Мәнді өсірмелеу
-actions-import = Әкелу
+actions-import = Импорт
 actions-manage = Басқару...
 actions-name = Атау:
 actions-new = Жаңа
@@ -58,10 +70,12 @@ actions-previous-card-info = Алдыңғы картаның деректері
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Толық экран режимі сіздің бейне драйверіңізбен жұмыс істемейді. Баптаулар экранында басқа драйверге ауысып көріңіз.
-
-## Flags
-
 actions-flag-number = { $number } Жалауша
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Қызыл
 actions-flag-orange = Жалқын
 actions-flag-green = Жасыл
@@ -69,6 +83,9 @@ actions-flag-blue = Көк
 actions-flag-pink = Қызғылт
 actions-flag-turquoise = Перуза
 actions-flag-purple = Күлгін
+
+##
+
 actions-set-flag = Жалауша қою
 actions-nothing-to-undo = Қайтаратын нәрсе жоқ
 actions-nothing-to-redo = Қайта істейтін нәрсе жоқ
