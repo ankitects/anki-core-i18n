@@ -46,6 +46,9 @@ importing-include-reviews = Шолуларды қамту
 importing-also-import-progress = Кез келген оқу барысын импорттау
 importing-with-deck-configs = Кез келген колода баптауларын импорттау
 importing-updates = Жаңартулар
+importing-with-deck-configs-help =
+    Егер қосылса, колоданы бөліскен пайдаланушы қосқан барлық баптаулары де импортталады.
+    Әйтпесе, барлық колодалар әдепкі баптаумен тағайындалады.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Дестеленген Anki Колодасы/Жинағы (*.apkg *.colpkg *.zip)
 importing-pauker-18-lesson-paugz = Pauker 1.8 сабағы (*.pau.gz)
 # the '|' character
@@ -60,6 +63,7 @@ importing-tag-modified-notes = Өңделген жазба тамғалары:
 importing-text-separated-by-tabs-or-semicolons = Мәтін шегіністермен немесе үтірлі нүктелермен бөлінген (*)
 importing-the-first-field-of-the-note = Жазба түрінің бірінші өрісі сәйкестендірілуі қажет.
 importing-the-provided-file-is-not-a = Берілген файл жарамды .apkg файлы емес.
+importing-this-will-delete-your-existing-collection = Бұл сіздің бар жинағыңызды өшіріп, оны импортталып жатқан файлдағы деректермен алмастырады. Сіз сенімдісіз бе?
 importing-unable-to-import-from-a-readonly = Тек оқу үшін ашылған файлдан импорттау мүмкін емес.
 importing-unknown-file-format = Белгесіз файл пішімдеуі.
 importing-update-existing-notes-when-first-field = Бірінші өрісі сәйкес келген жазбаларды жаңарту
