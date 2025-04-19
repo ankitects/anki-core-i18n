@@ -217,6 +217,12 @@ importing-field-separator-help =
     Por favor, ten en cuenta que si este carácter aparece en cualquier campo, dicho campo
     debe encontrarse entre comillas, de acuerdo con el estándar CSV. Los programas de hoja de cálculo
     como LibreOffice harán esto automáticamente.
+importing-allow-html-in-fields-help = Habilita esto si el archivo contiene formato  HTML. P.ej. si el archivo cotiene la cadena '&lt;br&gt;', aparecerá como un salto de línealidad en tu tarjeta. Sin embargo, con esta opción deshabilitada, los caracteres '&lt;br&gt;' se mostrarán como texto plano.
+importing-notetype-help =
+    Las notas que se importen ahora tendrán este tipo de nota, y sólo las notas existentes con este¶
+    tipo de nota se actualizarán¶
+    ¶
+    Puedes elegir qué campos corresponden a cada tipo de nota mediante la herramienta de mapeo¶.
 importing-deck-help = Las tarjetas importadas serán puestas en este mazo.
 importing-existing-notes-help =
     Qué hacer cuando una nota importada coincida con una existente.

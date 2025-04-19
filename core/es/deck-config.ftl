@@ -131,7 +131,7 @@ deck-config-bury-priority-tooltip =
     ninguna tarjeta de aprendizaje entre días o de revisión, y puedes ver tanto un 
     hermano de revisión como un hermano nuevo en la misma sesión
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Orden de visualización
 deck-config-new-gather-priority = Nuevo orden de recolección de tarjetas
@@ -153,12 +153,6 @@ deck-config-new-gather-priority-tooltip-2 =
     sesión (por ejemplo, una tarjeta anverso->reverso y reverso->anverso)
     
     `Tarjetas aleatorias`: reúne tarjetas de forma completamente aleatoria.
-deck-config-new-gather-priority-deck = Mazo
-deck-config-new-gather-priority-deck-then-random-notes = Mazo, luego notas aleatorias
-deck-config-new-gather-priority-position-lowest-first = Posición ascendente
-deck-config-new-gather-priority-position-highest-first = Posición descendente
-deck-config-new-gather-priority-random-notes = Notas aleatorias
-deck-config-new-gather-priority-random-cards = Tarjeta aleatoria
 deck-config-new-card-sort-order = Nuevo orden de clasificación de tarjetas
 deck-config-new-card-sort-order-tooltip-2 =
     `Plantilla de tarjeta`: muestra las cartas en orden de la plantilla de tarjeta. Si tiene deshabilitado 
@@ -177,11 +171,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     hermanas en orden.
     
     `Random`: mezcla completamente las cartas recompiladas.
-deck-config-sort-order-card-template-then-random = Plantilla de tarjeta, luego aleatoria
-deck-config-sort-order-random-note-then-template = Nota aleatoria, luego plantilla de tarjeta
-deck-config-sort-order-random = Aleatorio
-deck-config-sort-order-template-then-gather = Plantilla de tarjeta
-deck-config-sort-order-gather = Orden de recolección
 deck-config-new-review-priority = Nuevos/revisiones (orden de estudio)
 deck-config-new-review-priority-tooltip = Cuándo mostrar nuevas tarjetas en relación con las tarjetas de revisión.
 deck-config-interday-step-priority = Aprendizaje entre días/revisiones (orden de estudio)
@@ -191,9 +180,6 @@ deck-config-interday-step-priority-tooltip =
     El límite de revisión siempre se aplica primero a las tarjetas de aprendizaje entre días 
     y luego a las revisiones. Esta opción controlará el orden en que se muestran las tarjetas 
     recopiladas, pero las tarjetas de aprendizaje entre días siempre se recopilarán primero.
-deck-config-review-mix-mix-with-reviews = Mezclar con las tarjetas para revisar
-deck-config-review-mix-show-after-reviews = Mostrar después de las tarjetas para revisar
-deck-config-review-mix-show-before-reviews = Mostrar antes de las tarjetas para revisar
 deck-config-review-sort-order = Revisar orden de clasificación
 deck-config-review-sort-order-tooltip =
     El orden predeterminado prioriza las tarjetas que llevan más tiempo esperando, 
@@ -202,20 +188,62 @@ deck-config-review-sort-order-tooltip =
     tardará más de unos pocos días en salir de la cola, o si desea ver las tarjetas en el 
     orden de los submazos, es posible que usted prefiera los órdenes de clasificación 
     alternativos.
-deck-config-sort-order-due-date-then-random = Fecha de revisión, luego aleatorio
-deck-config-sort-order-due-date-then-deck = Fecha de revisión, luego mazo
-deck-config-sort-order-deck-then-due-date = Mazo, luego fecha de revisión
-deck-config-sort-order-ascending-intervals = Intervalos ascendentes
-deck-config-sort-order-descending-intervals = Intervalos descendentes
-deck-config-sort-order-ascending-ease = Facilidad ascendente
-deck-config-sort-order-descending-ease = Facilidad descendente
-deck-config-sort-order-ascending-difficulty = Tarjetas fáciles primero
-deck-config-sort-order-descending-difficulty = Tarjetas difíciles primero
-deck-config-sort-order-retrievability-ascending = Recordabilidad ascendente
-deck-config-sort-order-retrievability-descending = Recordabilidad descendente
 deck-config-display-order-will-use-current-deck =
     Anki usará el orden de visualización del mazo seleccionado
     para estudiar, y no los submazos que pueda tener.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Mazo
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Mazo, luego notas aleatorias
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Posición ascendente
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Posición descendente
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Notas aleatorias
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Tarjeta aleatoria
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Plantilla de tarjeta, luego aleatoria
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Nota aleatoria, luego plantilla de tarjeta
+# Sort the cards randomly.
+deck-config-sort-order-random = Aleatorio
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Plantilla de tarjeta
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Orden de recolección
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Mezclar con las tarjetas para revisar
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Mostrar después de las tarjetas para revisar
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Mostrar antes de las tarjetas para revisar
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Fecha de revisión, luego aleatorio
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Fecha de revisión, luego mazo
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Mazo, luego fecha de revisión
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervalos ascendentes
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervalos descendentes
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Facilidad ascendente
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Facilidad descendente
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Tarjetas fáciles primero
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Tarjetas difíciles primero
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Recordabilidad ascendente
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Recordabilidad descendente
 
 ## Timer section
 
@@ -342,6 +370,7 @@ deck-config-learning-step-above-graduating-interval = El intervalo de graduació
 deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo como el intervalo de graduación.
 deck-config-relearning-steps-above-minimum-interval = El intervalo mínimo debería ser al menos tan largo como el último paso de la etapa de reaprendizaje.
 deck-config-maximum-answer-secs-above-recommended = Hacer preguntas breves (cortas, pequeñas) permite que Anki pueda programar sus revisiones de manera más eficiente.
+deck-config-too-short-maximum-interval = In intervalo máximo de menos de 6 meses no es recomendable.
 
 ## Selecting a deck
 

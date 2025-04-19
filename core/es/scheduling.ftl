@@ -172,6 +172,11 @@ scheduling-set-due-date-done =
         [one] Establecer fecha de revisión de { $cards } tarjeta.
        *[other] Establecer fecha de revisión de { $cards } tarjetas.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } tarjeta calificada.
+       *[other] { $cards } tarjetas calificadas.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Reiniciar { $cards } tarjeta.
