@@ -29,6 +29,7 @@ card-stats-no-card = (Neniu karto montrebla)
 card-stats-custom-data = propraj datumoj
 card-stats-fsrs-stability = stabileco
 card-stats-fsrs-difficulty = Malfacileco
+card-stats-fsrs-retrievability = Rememoriga probablo
 card-stats-fsrs-forgetting-curve-first-week = Unua semajno
 card-stats-fsrs-forgetting-curve-first-month = Unua monato
 card-stats-fsrs-forgetting-curve-first-year = Unua jaro
@@ -38,3 +39,6 @@ card-stats-fsrs-forgetting-curve-all-time = Tuta tempo
 
 card-stats-current-card = Nuna karto ({ $context })
 card-stats-previous-card = Antaŭa karto ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
