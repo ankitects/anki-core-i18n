@@ -6,7 +6,7 @@ notetypes-front-field = Передня сторона
 notetypes-back-field = Зворотна сторона
 notetypes-add-reverse-field = Додати зворотну сторону
 notetypes-text-field = Текст
-notetypes-back-extra-field = Зворотна сторона за бажанням
+notetypes-back-extra-field = Додатково
 
 ## Default note type names
 
