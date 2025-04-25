@@ -112,6 +112,7 @@ statistics-counts-separate-suspended-buried-cards = Ausgeschlossene und aufgesch
 
 statistics-true-retention-title = Tatsächliche Erinnerungsquote
 statistics-true-retention-subtitle = Erinnerungsquote bei Karten mit einem Intervall von einem Tag oder länger
+statistics-true-retention-tooltip = Wenn FSRS verwendet wird, liegt die tatsächliche Erinnerungsquote voraussichtlich nahe an der gewünschten Erinnerungsquote. Die Daten für einen einzelnen Tag können Schwankungen unterliegen, weshalb eine Betrachtung über einen Zeitraum von mindestens einem Monat sinnvoller ist.
 statistics-true-retention-range = Bereich
 statistics-true-retention-pass = Erfolge
 statistics-true-retention-fail = Fehl­versuche

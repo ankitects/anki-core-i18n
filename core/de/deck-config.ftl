@@ -208,8 +208,9 @@ deck-config-always-include-question-audio-tooltip = Ob auch das Audio auf der Fr
 
 deck-config-advanced-title = Erweitert
 deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zeitplaner als Intervall für Wiederholungskarten festlegen kann. `Schwer`, `Gut` und `Einfach` führen nie zu einem längeren Intervall als diesem Wert. Ein niedrigerer Wert erhöht das Arbeitspensum.
-deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
+deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsgrads (Faktors) für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
 deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30% länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
+deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.
 deck-config-hard-interval-tooltip = Der Faktor, der bei Wiederholungskarten angewendet wird, wenn der „Schwer“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
 deck-config-new-interval-tooltip = Der auf das Wiederholungsintervall angewendete Faktor, nachdem eine Karte mit „Nochmal“ bewertet wurde.
 deck-config-minimum-interval-tooltip = Gibt die Mindestanzahl an Tagen für das Intervall an, das einer Wiederholungskarte nach dem Abschluss des Wiederlernvorgangs zugewiesen werden soll. Der Standardwert ist 1 Tag, was bedeutet, dass die Karte nach Abschluss des Wiederlernens am nächsten Tag erneut angezeigt wird.
@@ -385,6 +386,9 @@ deck-config-simulate = Simulieren
 deck-config-clear-last-simulate = Letzte Simulation löschen
 deck-config-fsrs-simulator-radio-count = Wiederholungen
 deck-config-advanced-settings = Erweitert
+deck-config-smooth-graph = Kurve glätten
+deck-config-suspend-leeches = Lernbremsen dauerhaft ausschließen
+deck-config-save-options-to-preset = Änderungen ins Stapelprofil übertragen
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
