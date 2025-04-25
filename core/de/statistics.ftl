@@ -142,11 +142,11 @@ statistics-range-all-history = Gesamter Verlauf
 statistics-range-deck = Stapel
 statistics-range-collection = Sammlung
 statistics-range-search = Suche
-statistics-card-ease-title = Leichtigkeit
+statistics-card-ease-title = Leichtigkeitsgrad
 statistics-card-difficulty-title = Schwierigkeitsgrad
 statistics-card-stability-title = Stabilität
 statistics-card-stability-subtitle = Intervall, in dem die Abrufbarkeit einer Karte auf 90% sinkt.
-statistics-average-stability = Durchschnittliche Stabilität
+statistics-median-stability = Median der Stabilität
 statistics-card-retrievability-title = Abrufbarkeit
 statistics-card-ease-subtitle = Je geringer die Leichtigkeit einer Karte, desto öfter wird sie abgefragt.
 statistics-card-difficulty-subtitle2 = Je höher der Schwierigkeitsgrad einer Karte, desto langsamer erhöht sich ihre Stabilität.
@@ -254,11 +254,14 @@ statistics-elapsed-time-years = { $amount } Jr.
 ##
 
 statistics-average-for-days-studied = Durchschnitt an Lerntagen
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Aufsummiert
 statistics-days-studied = Lerntage
 statistics-average-answer-time-label = Durchschnittliche Antwortzeit
 statistics-average = Durchschnitt
-statistics-average-interval = Durchschnittliches Intervall
+statistics-median-interval = Median der Intervalle
 statistics-due-tomorrow = Morgen fällig
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -284,11 +287,19 @@ statistics-cards-per-day =
         [one] { $count } Karte/Tag
        *[other] { $count } Karten/Tag
     }
-statistics-average-ease = Durchschnittliche Leichtigkeit
-statistics-average-difficulty = Durchschnittlicher Schwierigkeitsgrad
+statistics-median-ease = Median des Leichtigkeitsgrads
+statistics-median-difficulty = Median des Schwierigkeitsgrads
 statistics-average-retrievability = Durchschnittliche Abrufbarkeit
 statistics-estimated-total-knowledge = Geschätztes Gesamtwissen
 statistics-save-pdf = Als PDF speichern
 statistics-saved = Gespeichert.
 statistics-stats = Statistik
 statistics-title = Statistik
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Durchschnittliche Stabilität
+statistics-average-interval = Durchschnittliches Intervall
+statistics-average-ease = Durchschnittlicher Leichtigkeitsgrad
+statistics-average-difficulty = Durchschnittlicher Schwierigkeitsgrad

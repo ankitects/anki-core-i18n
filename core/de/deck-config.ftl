@@ -161,9 +161,9 @@ deck-config-sort-order-ascending-intervals = Intervall (aufsteigend)
 # Sort the cards by the interval, in descending order (longest to shortest).
 deck-config-sort-order-descending-intervals = Intervall (absteigend)
 # Sort the cards by ease, in ascending order (lowest to highest ease).
-deck-config-sort-order-ascending-ease = Leichtigkeit (aufsteigend)
+deck-config-sort-order-ascending-ease = Leichtigkeitsgrad (aufsteigend)
 # Sort the cards by ease, in descending order (highest to lowest ease).
-deck-config-sort-order-descending-ease = Leichtigkeit (absteigend)
+deck-config-sort-order-descending-ease = Leichtigkeitsgrad (absteigend)
 # Sort the cards by difficulty, in ascending order (easiest to hardest).
 deck-config-sort-order-ascending-difficulty = Schwierigkeitsgrad (aufsteigend)
 # Sort the cards by difficulty, in descending order (hardest to easiest).
@@ -210,7 +210,6 @@ deck-config-advanced-title = Erweitert
 deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zeitplaner als Intervall für Wiederholungskarten festlegen kann. `Schwer`, `Gut` und `Einfach` führen nie zu einem längeren Intervall als diesem Wert. Ein niedrigerer Wert erhöht das Arbeitspensum.
 deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsfaktors für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
 deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30% länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
-deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.
 deck-config-hard-interval-tooltip = Der Faktor, der bei Wiederholungskarten angewendet wird, wenn der „Schwer“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
 deck-config-new-interval-tooltip = Der auf das Wiederholungsintervall angewendete Faktor, nachdem eine Karte mit „Nochmal“ bewertet wurde.
 deck-config-minimum-interval-tooltip = Gibt die Mindestanzahl an Tagen für das Intervall an, das einer Wiederholungskarte nach dem Abschluss des Wiederlernvorgangs zugewiesen werden soll. Der Standardwert ist 1 Tag, was bedeutet, dass die Karte nach Abschluss des Wiederlernens am nächsten Tag erneut angezeigt wird.
@@ -276,6 +275,7 @@ deck-config-good-above-easy = Das Intervall für einfache Karten sollte mindeste
 deck-config-relearning-steps-above-minimum-interval = Das Mindestintervall sollte mindestens so lang sein wie die abschließende Lernstufe für das Wiedererlernen.
 deck-config-maximum-answer-secs-above-recommended = Die Zeitplanung funktioniert besser, wenn die Antwortzeit kürzer ist.
 deck-config-too-short-maximum-interval = Ein Höchstintervall von weniger als 6 Monaten wird nicht empfohlen.
+deck-config-ignore-before-info = Rund { $included } von insgesamt { $totalCards } werden zur Optimierung der FSRS-Parameter verwendet.
 
 ## Selecting a deck
 
@@ -384,6 +384,7 @@ deck-config-additional-new-cards-to-simulate = Zusätzliche fiktive neue Karten
 deck-config-simulate = Simulieren
 deck-config-clear-last-simulate = Letzte Simulation löschen
 deck-config-fsrs-simulator-radio-count = Wiederholungen
+deck-config-advanced-settings = Erweitert
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

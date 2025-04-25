@@ -2,7 +2,7 @@ card-stats-added = Hinzugefügt
 card-stats-first-review = Erstmals wiederholt
 card-stats-latest-review = Zuletzt wiederholt
 card-stats-interval = Intervall
-card-stats-ease = Leichtigkeit
+card-stats-ease = Leichtigkeitsgrad
 card-stats-review-count = Wiederholungen
 card-stats-lapse-count = Fehlversuche
 card-stats-average-time = Durchschnittliche Zeit
@@ -35,10 +35,13 @@ card-stats-fsrs-forgetting-curve-first-week = Erste Woche
 card-stats-fsrs-forgetting-curve-first-month = Erster Monat
 card-stats-fsrs-forgetting-curve-first-year = Erstes Jahr
 card-stats-fsrs-forgetting-curve-all-time = Gesamter Verlauf
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Abrufbarkeit
 card-stats-fsrs-forgetting-curve-desired-retention = Gewünschte Erinnerungsquote
 
 ## Window Titles
 
 card-stats-current-card = Aktuelle Karte ({ $context })
 card-stats-previous-card = Vorherige Karte ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Abrufbarkeit
