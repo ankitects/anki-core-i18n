@@ -323,6 +323,7 @@ deck-config-good-above-easy = 「简单」卡片再现间隔不应少于毕业�
 deck-config-relearning-steps-above-minimum-interval = 最小遗忘间隔不应少于最后一个重学阶段的时长。
 deck-config-maximum-answer-secs-above-recommended = 当保持问题均简短时，排程可更有效率。
 deck-config-too-short-maximum-interval = 不建议设置短于 6 个月的最大间隔
+deck-config-ignore-before-info = （约）{ $included }/{ $totalCards } 张卡片将用于优化 FSRS 参数
 
 ## Selecting a deck
 
@@ -428,6 +429,10 @@ deck-config-additional-new-cards-to-simulate = 模拟中添加的新卡片数
 deck-config-simulate = 开始模拟
 deck-config-clear-last-simulate = 清除上次模拟
 deck-config-fsrs-simulator-radio-count = 复习记录
+deck-config-advanced-settings = 高级设置
+deck-config-smooth-graph = 平滑图表
+deck-config-suspend-leeches = 暂停记忆难点卡片
+deck-config-save-options-to-preset = 保存更改到预设
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

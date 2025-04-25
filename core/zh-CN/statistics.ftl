@@ -76,6 +76,7 @@ statistics-counts-separate-suspended-buried-cards = 分开统计暂停/搁置的
 
 statistics-true-retention-title = 实际记忆保留率
 statistics-true-retention-subtitle = 间隔大于 1 天的卡片的通过率
+statistics-true-retention-tooltip = 若使用 FSRS，您的真实记忆保留率预期会接近目标保留率。请注意单日数据存在波动，建议查看月度数据。
 statistics-true-retention-range = 范围
 statistics-true-retention-pass = 通过
 statistics-true-retention-fail = 失败
@@ -110,7 +111,7 @@ statistics-card-ease-title = 卡片简易度
 statistics-card-difficulty-title = 卡片难度
 statistics-card-stability-title = 卡片记忆稳定期
 statistics-card-stability-subtitle = 记忆可提取性下降至 90% 的时间间隔。
-statistics-average-stability = 平均稳定期
+statistics-median-stability = 记忆稳定期中位数
 statistics-card-retrievability-title = 卡片记忆可提取性
 statistics-card-ease-subtitle = 卡片简易度越低，其出现频率越高。
 statistics-card-difficulty-subtitle2 = 卡片难度越高，记忆稳定期提升越慢。
@@ -209,12 +210,20 @@ statistics-elapsed-time-years = { $amount } 年
 ##
 
 statistics-average-for-days-studied = 平均值（只计实际学习天数）
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = 总计
 statistics-days-studied = 学习天数
 statistics-average-answer-time-label = 平均回答用时
 statistics-average = 平均
-statistics-average-interval = 平均间隔
+statistics-median-interval = 间隔中位数
 statistics-due-tomorrow = 明天到期
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = 每日工作量
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
@@ -231,11 +240,19 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } 张/天
     }
-statistics-average-ease = 平均简易度
-statistics-average-difficulty = 平均难度
+statistics-median-ease = 简易度中位数
+statistics-median-difficulty = 难度中位数
 statistics-average-retrievability = 平均记忆可提取性
 statistics-estimated-total-knowledge = 预估习得总数
 statistics-save-pdf = 保存为 PDF
 statistics-saved = 已保存。
 statistics-stats = 统计
 statistics-title = 统计数据
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = 平均稳定期
+statistics-average-interval = 平均间隔
+statistics-average-ease = 平均简易度
+statistics-average-difficulty = 平均难度
