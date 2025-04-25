@@ -1,4 +1,4 @@
-adding-add-shortcut-ctrlandenter = Pievienot (īsceļš: ctrl+enter)
+adding-add-shortcut-ctrlandenter = Pievienot (saīsne: ctrl+enter)
 adding-added = Pievienots
 adding-discard-current-input = Atmest pašreizējo ievadi?
 adding-keep-editing = Turpināt rediģēšanu

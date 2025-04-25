@@ -51,7 +51,7 @@ actions-shortcut-key = Saīsnes taustiņš: { $val }
 actions-suspend-card = Apturēt kartīti
 actions-set-due-date = Iestatīt beigu datumu
 actions-answer-card = Atbildes kartīte
-actions-unbury-unsuspend = Atkopt
+actions-unbury-unsuspend = Atcelt paslēpšanu/atlikšanu
 actions-add-deck = Pievienot kavu
 actions-add-note = Pievienot piezīmi
 actions-update-tag = Atjaunināt birku
@@ -63,7 +63,7 @@ actions-build-filtered-deck = Veidot kavu
 actions-add-notetype = Pievienot piezīmes veidu
 actions-remove-notetype = Noņemt piezīmes veidu
 actions-update-notetype = Atjaunot piezīmes veidu
-actions-update-config = Atjaunot konfigurāciju
+actions-update-config = Atjaunināt konfigurāciju
 actions-card-info = Informācija par kartīti
 actions-previous-card-info = Informācija par iepriekšējo kartīti
 # By convention, the name of a menu action is suffixed with "..." if additional
