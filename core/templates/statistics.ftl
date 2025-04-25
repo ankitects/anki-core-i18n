@@ -114,6 +114,7 @@ statistics-counts-separate-suspended-buried-cards = Separate suspended/buried ca
 
 statistics-true-retention-title = True Retention
 statistics-true-retention-subtitle = Pass rate of cards with an interval ≥ 1 day.
+statistics-true-retention-tooltip = If you are using FSRS, your true retention is expected to be close to your desired retention. Please keep in mind that data for a single day is noisy, so it's better to look at monthly data.
 statistics-true-retention-range = Range
 statistics-true-retention-pass = Pass
 statistics-true-retention-fail = Fail
@@ -148,7 +149,7 @@ statistics-card-ease-title = Card Ease
 statistics-card-difficulty-title = Card Difficulty
 statistics-card-stability-title = Card Stability
 statistics-card-stability-subtitle = The delay at which retrievability falls to 90%.
-statistics-average-stability = Average stability
+statistics-median-stability = Median stability
 statistics-card-retrievability-title = Card Retrievability
 statistics-card-ease-subtitle = The lower the ease, the more frequently a card will appear.
 statistics-card-difficulty-subtitle2 = The higher the difficulty, the slower stability will increase.
@@ -254,11 +255,14 @@ statistics-elapsed-time-years = { $amount }y
 ##
 
 statistics-average-for-days-studied = Average for days studied
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Total
 statistics-days-studied = Days studied
 statistics-average-answer-time-label = Average answer time
 statistics-average = Average
-statistics-average-interval = Average interval
+statistics-median-interval = Median interval
 statistics-due-tomorrow = Due tomorrow
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -284,11 +288,19 @@ statistics-cards-per-day =
         [one] { $count } card/day
        *[other] { $count } cards/day
     }
-statistics-average-ease = Average ease
-statistics-average-difficulty = Average difficulty
+statistics-median-ease = Median ease
+statistics-median-difficulty = Median difficulty
 statistics-average-retrievability = Average retrievability
 statistics-estimated-total-knowledge = Estimated total knowledge
 statistics-save-pdf = Save PDF
 statistics-saved = Saved.
 statistics-stats = stats
 statistics-title = Statistics
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Average stability
+statistics-average-interval = Average interval
+statistics-average-ease = Average ease
+statistics-average-difficulty = Average difficulty
