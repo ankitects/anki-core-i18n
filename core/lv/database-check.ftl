@@ -4,7 +4,7 @@ database-check-card-properties =
     { $count ->
         [zero] Salabotas { $count } nederīgas kartīšu īpašības.
         [one] Salabota { $count } nederīga kartīšu īpašība.
-       *[other] Salabotas { $count } nederīgas kakrtīšu īpašības.
+       *[other] Salabotas { $count } nederīgas kartīšu īpašības.
     }
 database-check-missing-templates =
     { $count ->

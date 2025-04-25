@@ -7,9 +7,9 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     { $decks ->
-        [zero] Neizmanto neviena piezīme
-        [one] (Ne)izmanto { $decks } piezīme
-       *[other] (Ne)izmanto { $decks } piezīmes
+        [zero] ir izmantota { $decks } kavās
+        [one] ir izmantota { $decks } kavās
+       *[other] ir izmantota { $decks } kavās
     }
 deck-config-default-name = Noklusējums
 deck-config-title = Kavu opcijas
@@ -106,7 +106,7 @@ deck-config-leech-threshold-tooltip =
 deck-config-leech-action-tooltip =
     „Tikai birka”: pievieno piezīmei birku "leech" un parāda uznirstošo logu.
     
-    „Apturēt kartīti”: papildus piezīmes atzīmēšanai ar birku paslēpj kartīti,
+    „Atlikt kartīti”: papildus piezīmes atzīmēšanai ar birku paslēpj kartīti,
     līdz tā tiek pašrocīgi atjaunota.
 
 ## Burying section
@@ -225,6 +225,7 @@ deck-config-desired-retention-tooltip =
     nomācošas, kad tiek aizmirsts daudz vielas.
 deck-config-fsrs-params-no-reviews = Nav atrasta neviena pārskatīšana. Lūgums pārbaudīt, ka šis priekšiestatījums ir piešķirts visām optimizējamajām kavām (tajā skaitā apakškavām), un mēģināt vēlreiz.
 deck-config-answer-again = Atbildēt vēlreiz
+deck-config-suspend-leeches = Atlikt izsūcošās kartītes
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

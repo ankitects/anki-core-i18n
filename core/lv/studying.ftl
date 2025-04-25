@@ -1,4 +1,5 @@
 studying-again = Vēlreiz
+studying-card-suspended = Kartīte atlikta.
 studying-card-was-a-leech = Kartīte bija izsūcoša.
 studying-continue = Turpināt
 studying-easy = Viegli
@@ -6,6 +7,10 @@ studying-edit = Rediģēt
 studying-finish = Pabeigt
 studying-good = Labi
 studying-hard = Grūti
+studying-it-has-been-suspended = Tā tika atlikta.
 studying-more = Vairāk
+studying-note-suspended = Piezīme atlikta.
+studying-suspend = Atlikt
+studying-suspend-note = Atlikt piezīmi
 studying-question-time-elapsed = Jautājuma laiks beidzies
 studying-answer-time-elapsed = Atbildes laiks beidzies

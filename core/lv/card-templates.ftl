@@ -9,7 +9,7 @@ card-templates-changes-will-affect-notes =
 card-templates-card-type = Kartītes veids:
 card-templates-front-template = Priekšpuses veidne
 card-templates-back-template = Aizmugures veidne
-card-templates-template-styling = Stils
+card-templates-template-styling = Izskata pielāgošana
 card-templates-front-preview = Priekšpuses priekšskatījums
 card-templates-back-preview = Aizmugures priekšskatījums
 card-templates-preview-box = Priekšskatījums
@@ -65,5 +65,5 @@ card-templates-type-boxes-warning = Katrā kartītes veidnē tiek atbalstīts ti
 card-templates-restore-to-default = Atjaunot uz noklusējumu
 card-templates-restore-to-default-confirmation =
     Tas šajā piezīmju veidā atiestatīs visus laukus un veidnes uz to noklusējuma
-    vērtībām, noņemot visus papildu laukus/veidnes un to saturu un jebkuru pielāgoto stilu. Vai turpināt?
+    vērtībām, noņemot visus papildu laukus/veidnes un to saturu un jebkādu izskata pielāgojumu. Turpināt?
 card-templates-restored-to-default = Kartītes veids tika atjaunots uz tā sākotnējo stāvokli.

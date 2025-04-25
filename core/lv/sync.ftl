@@ -8,6 +8,7 @@ sync-media-removed-count = Noņemts: { $up }↑ { $down }↓
 sync-media-checked-count = Pārbaudīts: { $count }
 sync-media-starting = Sākas multivides sinhronizācija...
 sync-media-complete = Multivides sinhronizācija pabeigta.
+sync-media-failed = Informācijas nesēju sinhronizēšana neizdevās.
 
 ## Error messages / dialogs
 
@@ -21,6 +22,7 @@ sync-upload-too-large =
     Krājuma datne ir pārāk liela, lai to nosūtītu AnkiWeb. Tās izmēru var
     samazināt ar nevajadzīgo kavu noņemšanu (pēc izvēles pirms tam tās izgūstot)
     un tad izmantot "Pārbaudīt datubāzi", lai samazinātu datnes lielumu. ({ $details })
+sync-ankihub-login-failed = Ar norādītajiem pieteikšanās datiem nevarēja pieteikties AnkiHub.
 
 ## Buttons
 

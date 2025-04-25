@@ -9,6 +9,8 @@
 
 statistics-today-title = Šodien
 statistics-today-again-count = Vēlreiz skaits:
+statistics-counts-suspended-cards = Atliktas
+statistics-counts-separate-suspended-buried-cards = Atdalīt atliktās/paslēptās kartītes
 
 ## True Retention represents your actual retention rate from past reviews, in
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
@@ -23,6 +25,7 @@ statistics-today-again-count = Vēlreiz skaits:
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-fail = Atteice
 
 ##
 
@@ -45,3 +48,7 @@ statistics-elapsed-time-years = { $amount } g
 
 statistics-average = Vidējais
 statistics-title = Statistika
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
