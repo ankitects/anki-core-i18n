@@ -387,6 +387,7 @@ deck-config-good-above-easy = Інтервал легкості має бути 
 deck-config-relearning-steps-above-minimum-interval = Інтервал найменшого кола має бути щонайменше таким же, як і кінцевий крок перенавчання.
 deck-config-maximum-answer-secs-above-recommended = Anki може ефективніше планувати пригадування, якщо запитання є короткими.
 deck-config-too-short-maximum-interval = Не радимо встановлювати значення максимального інтервалу менше 6 місяців.
+deck-config-ignore-before-info = Буде використано приблизно { $included }/{ $totalCards } карток для оптимізації параметрів ВПІП.
 
 ## Selecting a deck
 
@@ -517,6 +518,10 @@ deck-config-additional-new-cards-to-simulate = Додаткові нові ка�
 deck-config-simulate = Симулювати
 deck-config-clear-last-simulate = Очистити останню симуляцію
 deck-config-fsrs-simulator-radio-count = Пригадування
+deck-config-advanced-settings = Додаткові налаштування
+deck-config-smooth-graph = Графік однорідності
+deck-config-suspend-leeches = Призупиняти приставучі
+deck-config-save-options-to-preset = Зберегти зміни до конфігурації
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
