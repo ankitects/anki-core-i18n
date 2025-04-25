@@ -55,6 +55,22 @@ statistics-in-time-span-years =
         [many] за { $amount } років
        *[other] за { $amount } років
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Сьогодні переглянуто { statistics-cards }, { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } ({ $secs-per-card }s/картку)
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } картка
@@ -76,20 +92,10 @@ statistics-reviews =
         [many] { $reviews } повторень
        *[other] { $reviews } повторень
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
 statistics-memorized = Запам'ятовано { $memorized }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Сьогодні переглянуто { statistics-cards }, { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card }s/картку)
 statistics-today-title = Сьогодні
 statistics-today-again-count = Кількість карток з відповіддю "Знову":
 statistics-today-type-counts = Вивченні: { $learnCount }, Повторюванні: { $reviewCount }, Забуті: { $relearnCount }, Відфільтровані: { $filteredCount }
@@ -107,13 +113,34 @@ statistics-counts-learning-cards = Навчання
 statistics-counts-relearning-cards = Перенавчання
 statistics-counts-title = Кількість карток
 statistics-counts-separate-suspended-buried-cards = Відокремити призупинені/приховані картки
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = Справжня затримка
 statistics-true-retention-subtitle = Коефіцієнт вивчення карток з інтервалом ≥ 1 дня.
+statistics-true-retention-tooltip = При використанні ВПІП, очікується, що Ваша правдива затримка буде близькою до бажаної. Пам'ятайте, що дані за один день містять шуми, тому краще оцінювати місячні дані.
 statistics-true-retention-range = Діапазон
 statistics-true-retention-pass = Вивчено
 statistics-true-retention-fail = Забуто
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Загальна кількість карток
 statistics-true-retention-count = Кількість
 statistics-true-retention-retention = Затримка
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Незрілі
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Зрілі
 statistics-true-retention-all = Всі
 statistics-true-retention-today = Сьогодні
 statistics-true-retention-yesterday = Вчора
@@ -121,7 +148,12 @@ statistics-true-retention-week = Минулого тижня
 statistics-true-retention-month = Минулого місяця
 statistics-true-retention-year = Минулого року
 statistics-true-retention-all-time = За весь час
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
 statistics-true-retention-not-applicable = Н/д
+
+##
+
 statistics-range-all-time = тривалість життя колоди
 statistics-range-1-year-history = За остані 12 місяців
 statistics-range-all-history = За весь час
@@ -132,7 +164,7 @@ statistics-card-ease-title = Легкість картки
 statistics-card-difficulty-title = Складність картки
 statistics-card-stability-title = Стійкість картки
 statistics-card-stability-subtitle = Затримка при якій легкість пригадування опускається до 90%
-statistics-average-stability = Середня стійкість
+statistics-median-stability = Медіанна стабільність
 statistics-card-retrievability-title = Легкість пригадування картки
 statistics-card-ease-subtitle = Чим менша легкість, тим частіше з'являтиметься картка.
 statistics-card-difficulty-subtitle2 = Чим більша складність, тим повільніше зростає стійкість.
@@ -252,12 +284,20 @@ statistics-elapsed-time-years = { $amount }р
 ##
 
 statistics-average-for-days-studied = Середній показник за дні роботи з програмою
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Разом
 statistics-days-studied = Днів роботи з програмою
 statistics-average-answer-time-label = Середній час відповіді
 statistics-average = Середнє
-statistics-average-interval = Середній інтервал
+statistics-median-interval = Медіанний інтервал
 statistics-due-tomorrow = Пригадати завтра
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Щоденне навантаження
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } з { $total } ({ $percent }%)
@@ -280,14 +320,19 @@ statistics-cards-per-day =
         [few] { $count } картки/добу
        *[other] { $count } карток/добу
     }
-statistics-average-ease = Середня легкість
-statistics-average-difficulty = Усереднена складність
+statistics-median-ease = Медіанне "легко"
+statistics-median-difficulty = Медіанна складність
 statistics-average-retrievability = Середня легкість пригадування
 statistics-estimated-total-knowledge = Загальна кількість знань
 statistics-save-pdf = Зберегти в форматі PDF
 statistics-saved = Збережено.
 statistics-stats = статистика
 statistics-title = Статистика
-statistics-true-retention-total = Загальна кількість карток
-statistics-true-retention-young = Незрілі
-statistics-true-retention-mature = Зрілі
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Середня стійкість
+statistics-average-interval = Середній інтервал
+statistics-average-ease = Середня легкість
+statistics-average-difficulty = Усереднена складність
