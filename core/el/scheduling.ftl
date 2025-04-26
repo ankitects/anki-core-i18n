@@ -172,6 +172,11 @@ scheduling-set-due-date-done =
         [one] Ορισμός προθεσμίας για { $cards } κάρτα.
        *[other] Ορισμός προθεσμίας για { $cards } κάρτες.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } βαθμολογημένη κάρτα.
+       *[other] { $cards } βαθμολογημένες κάρτες.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Επαναφορά { $cards } κάρτας.

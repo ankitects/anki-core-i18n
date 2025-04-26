@@ -1,5 +1,17 @@
 actions-add = Προσθήκη
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Όλα επιλεγμένα
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Οποιοδήποτε επιλεγμένο
 actions-cancel = Άκυρο
 actions-choose = Επιλογή
@@ -38,6 +50,7 @@ actions-select = Επιλογή
 actions-shortcut-key = Πλήκτρο συντόμευσης: { $val }
 actions-suspend-card = Αναστολή κάρτας
 actions-set-due-date = Ορισμός διορίας
+actions-toggle-load-balancer = Βαθμολόγηση Τώρα
 actions-answer-card = Απάντηση κάρτας
 actions-unbury-unsuspend = Άρση αναβολής/αναστολής
 actions-add-deck = Προσθήκη τράπουλας
@@ -58,10 +71,12 @@ actions-previous-card-info = Πληροφορίες προηγούμενης κ�
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Η πλήρης οθόνη δεν υποστηρίζεται από τον οδηγό βίντεο σας. Δοκιμάστε να μεταβείτε σε έναν διαφορετικό από την οθόνη των προτιμήσεων.
-
-## Flags
-
 actions-flag-number = Σήμανση { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Κόκκινο
 actions-flag-orange = Πορτοκαλί
 actions-flag-green = Πράσινο
@@ -69,6 +84,9 @@ actions-flag-blue = Μπλε
 actions-flag-pink = Ροζ
 actions-flag-turquoise = Τυρκουάζ
 actions-flag-purple = Μωβ
+
+##
+
 actions-set-flag = Σήμανση
 actions-nothing-to-undo = Τίποτα προς αναίρεση
 actions-nothing-to-redo = Τίποτα προς ακύρωση αναίρεσης
