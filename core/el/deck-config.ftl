@@ -88,42 +88,70 @@ deck-config-bury-interday-learning-tooltip =
     Αν άλλες κάρτες "προς εκμάθηση" της ίδιας σημείωσης με διαστήματα > 1 μέρα
     θα καθυστερήσουν έως την επόμενη ημέρα.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Σειρά εμφάνισης
 deck-config-new-gather-priority = Σειρά συγκέντρωσης νέων καρτών
-deck-config-new-gather-priority-deck = Τράπουλα
-deck-config-new-gather-priority-deck-then-random-notes = Τράπουλα, μετά τυχαίες σημειώσεις
-deck-config-new-gather-priority-position-lowest-first = Αύξουσα θέση
-deck-config-new-gather-priority-position-highest-first = Φθίνουσα θέση
-deck-config-new-gather-priority-random-notes = Τυχαίες σημειώσεις
-deck-config-new-gather-priority-random-cards = Τυχαίες κάρτες
 deck-config-new-card-sort-order = Σειρά ταξινόμησης νέων καρτών
-deck-config-sort-order-card-template-then-random = Τύπος κάρτας, μετά τυχαία
-deck-config-sort-order-random-note-then-template = Τυχαία σημείωση, μετά τύπος κάρτας
-deck-config-sort-order-random = Τυχαία
-deck-config-sort-order-template-then-gather = Τύπος κάρτας
-deck-config-sort-order-gather = Σειρά συγκέντρωσης
 deck-config-new-review-priority = Σειρά νέων/επαναλήψεων
 deck-config-new-review-priority-tooltip = Πότε θα εμφανίζονται οι νέες κάρτες σε σχέση με τις επαναλήψεις.
 deck-config-interday-step-priority = Ενδοημερήσια σειρά εκμάθησης/επανάληψης
-deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
-deck-config-review-mix-show-after-reviews = Εμφάνιση μετά από επαναλήψεις
-deck-config-review-mix-show-before-reviews = Εμφάνιση πριν από επαναλήψεις
 deck-config-review-sort-order = Σειρά ταξινόμησης επαναλήψεων
 deck-config-review-sort-order-tooltip = Η προεπιλεγμένη σειρά δίνει προτεραιότητα στις κάρτες που περιμένουν περισσότερο, έτσι ώστε αν έχετε πολλές επαναλήψεις, οι κάρτες που περιμένουν περισσότερο θα εμφανιστούν πρώτα. Αν έχετε μεγάλο όγκο αναμονής που θα χρειαστεί περισσότερες από μερικές ημέρες για να καθαρίσει ή αν θέλετε να βλέπετε τις κάρτες σε σειρά subdecks, ίσως θεωρήσετε προτιμότερες τις εναλλακτικές σειρές ταξινόμησης.
-deck-config-sort-order-due-date-then-random = Προθεσμία, μετά τυχαία
-deck-config-sort-order-due-date-then-deck = Προθεσμία, μετά τράπουλα
-deck-config-sort-order-deck-then-due-date = Τράπουλα, μετά προθεσμία
-deck-config-sort-order-ascending-intervals = Αύξοντα διαστήματα
-deck-config-sort-order-descending-intervals = Φθίνοντα διαστήματα
-deck-config-sort-order-ascending-ease = Αύξουσα ευκολία
-deck-config-sort-order-descending-ease = Φθίνουσα ευκολία
-deck-config-sort-order-ascending-difficulty = Αύξουσα δυσκολία
-deck-config-sort-order-descending-difficulty = Φθίνουσα δυσκολία
-deck-config-sort-order-retrievability-ascending = Αύξουσα ανακτησιμότητα
-deck-config-sort-order-retrievability-descending = Φθίνουσα ανακτησιμότητα
 deck-config-display-order-will-use-current-deck = Το Anki θα χρησιμοποιήσει την σειρά προβολής από την τράπουλα που επιλέγετε για διάβασμα και όχι από τις υπο-τράπουλες που μπορεί να έχει.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Τράπουλα
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Τράπουλα, μετά τυχαίες σημειώσεις
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Αύξουσα θέση
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Φθίνουσα θέση
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Τυχαίες σημειώσεις
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Τυχαίες κάρτες
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Τύπος κάρτας, μετά τυχαία
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Τυχαία σημείωση, μετά τύπος κάρτας
+# Sort the cards randomly.
+deck-config-sort-order-random = Τυχαία
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Τύπος κάρτας
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Σειρά συγκέντρωσης
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Ανάμιξη με επαναλήψεις
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Εμφάνιση μετά από επαναλήψεις
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Εμφάνιση πριν από επαναλήψεις
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Προθεσμία, μετά τυχαία
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Προθεσμία, μετά τράπουλα
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Τράπουλα, μετά προθεσμία
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Αύξοντα διαστήματα
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Φθίνοντα διαστήματα
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Αύξουσα ευκολία
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Φθίνουσα ευκολία
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Αύξουσα δυσκολία
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Φθίνουσα δυσκολία
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Αύξουσα ανακτησιμότητα
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Φθίνουσα ανακτησιμότητα
 
 ## Timer section
 
@@ -239,6 +267,8 @@ deck-config-reviews-too-low =
 deck-config-good-above-easy = Το εύκολο διάστημα θα πρέπει να είναι τουλάχιστον όσο και το διάστημα αποφοίτησης.
 deck-config-relearning-steps-above-minimum-interval = Το ελάχιστο διάστημα παρέλευσης πρέπει να είναι τουλάχιστον όσο και το τελικό βήμα επανεκμάθησης.
 deck-config-maximum-answer-secs-above-recommended = Το Anki μπορεί να προγραμματίσει τις επαναλήψεις πιο αποτελεσματικά όταν κρατάτε την κάθε ερώτηση σύντομη.
+deck-config-too-short-maximum-interval = Δεν συνιστάται μέγιστο διάστημα μικρότερο των 6 μηνών.
+deck-config-ignore-before-info = (Περίπου) { $included }/{ $totalCards } κάρτες θα χρησιμοποιηθούν για τη βελτιστοποίηση των παραμέτρων FSRS.
 
 ## Selecting a deck
 
@@ -337,6 +367,8 @@ deck-config-additional-new-cards-to-simulate = Επιπρόσθετες νέες
 deck-config-simulate = Προσομοίωση
 deck-config-clear-last-simulate = Εκκαθάριση προηγούμενης προσομοίωσης
 deck-config-fsrs-simulator-radio-count = Επαναλήψεις
+deck-config-advanced-settings = Ρυθμίσεις για προχωρημένους
+deck-config-save-options-to-preset = Αποθήκευση αλλαγών στην προεπιλογή
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

@@ -148,7 +148,7 @@ statistics-card-ease-title = Ευκολία κάρτας
 statistics-card-difficulty-title = Δυσκολία κάρτας
 statistics-card-stability-title = Σταθερότητα κάρτας
 statistics-card-stability-subtitle = Η καθυστέρηση στην οποία η πιθανότητα ανάκλησης είναι 90%.
-statistics-average-stability = Μέση σταθερότητα
+statistics-median-stability = Μέση σταθερότητα
 statistics-card-retrievability-title = Ανακτησιμότητα κάρτας
 statistics-card-ease-subtitle = Όσο χαμηλότερη η ευκολία, τόσο πιο συχνά θα εμφανίζεται η κάρτα.
 statistics-card-difficulty-subtitle2 = Όσο μεγαλύτερη η δυσκολία, τόσο πιο αργά θα αυξηθεί η σταθερότητα.
@@ -255,12 +255,20 @@ statistics-elapsed-time-years = { $amount }y
 ##
 
 statistics-average-for-days-studied = Μέσος όρος για ημέρες μελέτης
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Σύνολο
 statistics-days-studied = Ημέρες μελέτης
 statistics-average-answer-time-label = Μέσος χρόνος απάντησης
 statistics-average = Μέσος
-statistics-average-interval = Μέσο ενδιάμεσο διάστημα
+statistics-median-interval = Μέσο διάστημα
 statistics-due-tomorrow = Προθεσμία αύριο
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Καθημερινός φόρτος
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } από { $total } ({ $percent }%)
@@ -280,11 +288,19 @@ statistics-cards-per-day =
         [one] { $count } κάρτα/μέρα
        *[other] { $count } κάρτες/μέρα
     }
-statistics-average-ease = Μέσος όρος ευκολίας
-statistics-average-difficulty = Μέση δυσκολία
+statistics-median-ease = Μέση ευκολία
+statistics-median-difficulty = Μέση δυσκολία
 statistics-average-retrievability = Μέση ανακτησιμότητα
 statistics-estimated-total-knowledge = Εκτιμώμενη συνολική γνώση
 statistics-save-pdf = Αποθήκευση PDF
 statistics-saved = Αποθηκεύτηκε.
 statistics-stats = στατιστικά
 statistics-title = Στατιστικά
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Μέση σταθερότητα
+statistics-average-interval = Μέσο ενδιάμεσο διάστημα
+statistics-average-ease = Μέσος όρος ευκολίας
+statistics-average-difficulty = Μέση δυσκολία
