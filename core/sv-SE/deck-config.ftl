@@ -378,7 +378,7 @@ deck-config-must-have-400-reviews =
        *[other] Enbart { $count } repetitioner hittades. Åtminstone 400 repetitioner krävs för denna åtgärd.
     }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = FSRS Parametrar
+deck-config-weights = FSRS-parametrar
 deck-config-compute-optimal-weights = Optimera FSRS-parametrar
 deck-config-compute-minimum-recommended-retention = Minsta rekommenderad återkallningskvot
 deck-config-optimize-button = Optimera
