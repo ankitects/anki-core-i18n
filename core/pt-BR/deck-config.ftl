@@ -115,7 +115,7 @@ deck-config-bury-priority-tooltip =
     aprendizado interdiário ou revisões, e você pode ver tanto um cartão irmão de revisão quanto um novo na mesma
     sessão.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Ordem de Exibição
 deck-config-new-gather-priority = Agrupamento de cartões novos
@@ -131,12 +131,6 @@ deck-config-new-gather-priority-tooltip-2 =
     e verso->cartão frontal)
     
     `Cartões aleatórios`: reúne os cartões de forma completamente aleatória.
-deck-config-new-gather-priority-deck = Baralho
-deck-config-new-gather-priority-deck-then-random-notes = Baralho, em seguida, notas aleatórias
-deck-config-new-gather-priority-position-lowest-first = Posição ascendente
-deck-config-new-gather-priority-position-highest-first = Posição descendente
-deck-config-new-gather-priority-random-notes = Notas Aleatórias
-deck-config-new-gather-priority-random-cards = Cartões Aleatórios
 deck-config-new-card-sort-order = Classificação de cartões novos
 deck-config-new-card-sort-order-tooltip-2 =
     `Tipo de cartão`: Exibe os cartões na ordem do número do tipo de cartão. Se você tem irmão enterrando desabilitado, isso garantirá que todos os cartões frente→verso sejam vistos antes de qualquer cartão verso→frente. Isto é útil para ter todas as cartas da mesma nota mostradas na mesma sessão, mas não muito próximos um do outro.
@@ -148,11 +142,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Nota aleatória, depois tipo de cartão`: Escolhe notas aleatoriamente e mostra todos os seus irmãos em ordem.
     
     `Aleatório`: Embaralha totalmente as cartas reunidas.
-deck-config-sort-order-card-template-then-random = Modelo do cartão, depois aleatório
-deck-config-sort-order-random-note-then-template = Nota aleatória e, em seguida, modelo do cartão
-deck-config-sort-order-random = Aleatório
-deck-config-sort-order-template-then-gather = Modelo do cartão
-deck-config-sort-order-gather = Ordem de agrupamento
 deck-config-new-review-priority = Ordem de novos vs revisão
 deck-config-new-review-priority-tooltip = Quando mostrar novos cartões em relação aos cartões de revisão.
 deck-config-interday-step-priority = Ordem de aprendizado vs revisão entre dias.
@@ -164,9 +153,6 @@ deck-config-interday-step-priority-tooltip =
     dias subsequentes, e em seguida, à revisões. Esta opção controlará a ordem em
     que os cartões reunidos são mostrados, mas os cartões de aprendizagem durante 
     o dia sempre serão reunidos primeiro.
-deck-config-review-mix-mix-with-reviews = Misturar com revisões
-deck-config-review-mix-show-after-reviews = Mostrar depois de revisões
-deck-config-review-mix-show-before-reviews = Mostrar antes de revisões
 deck-config-review-sort-order = Ordem de classificação de revisões
 deck-config-review-sort-order-tooltip =
     A ordem padrão prioriza os cartões que estão esperando há mais tempo, para que
@@ -174,21 +160,63 @@ deck-config-review-sort-order-tooltip =
     primeiro. Se você tiver um grande acúmulo de cartões, levará mais do que alguns dias para
     limpar a fila, ou se desejar ver os cartões em ordem do sub-baralho, você pode encontrar as
     ordens de classificação alternativas preferíveis.
-deck-config-sort-order-due-date-then-random = Data de revisão, depois aleatório
-deck-config-sort-order-due-date-then-deck = Data de revisão, depois baralho
-deck-config-sort-order-deck-then-due-date = Baralho, depois data de revisão
-deck-config-sort-order-ascending-intervals = Intervalos ascendentes
-deck-config-sort-order-descending-intervals = Intervalos descendentes
-deck-config-sort-order-ascending-ease = Facilidade ascendente
-deck-config-sort-order-descending-ease = Facilidade descendente
-deck-config-sort-order-ascending-difficulty = Cartões fáceis primeiro
-deck-config-sort-order-descending-difficulty = Cartões difíceis primeiro
-deck-config-sort-order-retrievability-ascending = Mais prováveis de esquecer
-deck-config-sort-order-retrievability-descending = Mais prováveis de lembrar
 deck-config-display-order-will-use-current-deck =
     O Anki usará a ordem de exibição do baralho que você 
     selecionar para estudar, e não de quaisquer sub-baralho 
     que possa ter.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Baralho
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Baralho, em seguida, notas aleatórias
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Posição ascendente
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Posição descendente
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Notas Aleatórias
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Cartões Aleatórios
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Modelo do cartão, depois aleatório
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Nota aleatória e, em seguida, modelo do cartão
+# Sort the cards randomly.
+deck-config-sort-order-random = Aleatório
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Modelo do cartão
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Ordem de agrupamento
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Misturar com revisões
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Mostrar depois de revisões
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Mostrar antes de revisões
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Data de revisão, depois aleatório
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Data de revisão, depois baralho
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Baralho, depois data de revisão
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervalos ascendentes
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervalos descendentes
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Facilidade ascendente
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Facilidade descendente
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Cartões fáceis primeiro
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Cartões difíceis primeiro
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Mais prováveis de esquecer
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Mais prováveis de lembrar
 
 ## Timer section
 
@@ -320,6 +348,8 @@ deck-config-learning-step-above-graduating-interval = O intervalo de graduação
 deck-config-good-above-easy = O intervalo de facilidade deve ser pelo menos tão longo quanto o intervalo de graduação.
 deck-config-relearning-steps-above-minimum-interval = O intervalo mínimo de lapso deve ser pelo menos tão longo quanto sua etapa final de reaprendizagem.
 deck-config-maximum-answer-secs-above-recommended = Anki pode agendar suas avaliações com mais eficiência quando você utiliza perguntas curtas.
+deck-config-too-short-maximum-interval = Um intervalo máximo menor que 6 meses não é recomendado.
+deck-config-ignore-before-info = (Aproximadamente) { $included }/{ $totalCards } cartas serão usadas para otimizar os parâmetros de FSRS.
 
 ## Selecting a deck
 
@@ -443,6 +473,9 @@ deck-config-additional-new-cards-to-simulate = Novos cartões adicionais para si
 deck-config-simulate = Simular
 deck-config-clear-last-simulate = Apagar última simulação
 deck-config-fsrs-simulator-radio-count = Revisões
+deck-config-advanced-settings = Configurações Avançadas
+deck-config-smooth-graph = Gráfico suave
+deck-config-save-options-to-preset = Salvar Mudanças na Predefinição
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

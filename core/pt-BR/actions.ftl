@@ -50,6 +50,7 @@ actions-select = Selecionar
 actions-shortcut-key = Tecla de atalho: { $val }
 actions-suspend-card = Suspender Cartão
 actions-set-due-date = Definir Data de Revisão
+actions-grade-now = Avaliar Agora
 actions-answer-card = Responder Cartão
 actions-unbury-unsuspend = Remover Ocultação/Suspensão
 actions-add-deck = Adicionar Baralho

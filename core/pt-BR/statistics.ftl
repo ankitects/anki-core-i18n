@@ -146,7 +146,7 @@ statistics-card-ease-title = Facilidade do Cartão
 statistics-card-difficulty-title = Dificuldade do Cartão
 statistics-card-stability-title = Estabilidade do Cartão
 statistics-card-stability-subtitle = Atraso previsto em que você tem 90% de chance de se lembrar.
-statistics-average-stability = Estabilidade média
+statistics-median-stability = Estabilidade mediana
 statistics-card-retrievability-title = Recuperabilidade
 statistics-card-ease-subtitle = Quanto menor a facilidade, mais frequentemente o cartão aparecerá.
 statistics-card-difficulty-subtitle2 = Quanto maior a dificuldade, mais lento será o aumento da estabilidade.
@@ -254,12 +254,20 @@ statistics-elapsed-time-years = { $amount }a
 ##
 
 statistics-average-for-days-studied = Média dos dias estudados
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Total
 statistics-days-studied = Dias estudados
 statistics-average-answer-time-label = Tempo médio de resposta
 statistics-average = Média
-statistics-average-interval = Intervalo médio
+statistics-median-interval = Intervalo mediano
 statistics-due-tomorrow = A Revisar amanhã
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Carga diária.
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
@@ -279,11 +287,18 @@ statistics-cards-per-day =
         [one] { $count } cartão/dia
        *[other] { $count } cartões/dia
     }
-statistics-average-ease = Dificuldade média
-statistics-average-difficulty = Dificuldade média
+statistics-median-difficulty = Dificuldade mediana
 statistics-average-retrievability = Recuperabilidade média
 statistics-estimated-total-knowledge = Conhecimento total estimado
 statistics-save-pdf = Salvar PDF
 statistics-saved = Salvo.
 statistics-stats = estatísticas
 statistics-title = Estatísticas
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Estabilidade média
+statistics-average-interval = Intervalo médio
+statistics-average-ease = Dificuldade média
+statistics-average-difficulty = Dificuldade média
