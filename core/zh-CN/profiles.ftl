@@ -1,6 +1,6 @@
 profiles-anki-could-not-read-your-profile = Anki 无法读取您的资料数据。窗口大小和您的同步登录细节已丢失。
 profiles-anki-could-not-rename-your-profile = 因为 Anki 不能重命名你的配置文件夹，所以不能重命名你的配置文件。请确定你有文档/Anki 文件夹的写权限，同时没有其它程序正在访问你的配置文件目录后，再重试。
-profiles-folder-already-exists = 文件夹已存在.
+profiles-folder-already-exists = 文件夹已存在。
 profiles-open = 打开
 profiles-open-backup = 打开备份…
 profiles-please-remove-the-folder-and = 请删除目录 { $val } 后再重试。
@@ -15,5 +15,5 @@ profiles-prefs-file-is-corrupt = Anki 的 prefs21.db 文件已损坏并被重新
 profiles-profile-does-not-exist = 请求的账户不存在
 profiles-creating-backup = 正在创建备份…
 profiles-backup-created = 备份已创建。
-profiles-backup-creation-failed = 备份创建失败: { $reason }
+profiles-backup-creation-failed = 备份创建失败：{ $reason }
 profiles-backup-unchanged = 上次备份后无变更。

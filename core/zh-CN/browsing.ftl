@@ -19,7 +19,7 @@ browsing-cards-deleted =
     { $count ->
        *[other] { $count } 张卡片已删除。
     }
-browsing-cards-deleted-with-deckname = 已删除「{ $deck_name }」中的  { $count } 张卡片。
+browsing-cards-deleted-with-deckname = 已删除「{ $deck_name }」中的 { $count } 张卡片。
 browsing-change-deck = 更改所属牌组
 browsing-change-deck2 = 更改所属牌组…
 browsing-change-note-type = 更改笔记模板
@@ -86,7 +86,7 @@ browsing-sidebar-filter = 侧边栏筛选条件
 browsing-sort-field = 排序字段
 browsing-sorting-on-this-column-is-not = 不支持该列排序，请选择另一列。
 browsing-start-position = 开始位置：
-browsing-step = 步幅:
+browsing-step = 步幅：
 browsing-suspended = 已暂停
 browsing-tag-duplicates = 复制标签
 browsing-tag-rename-warning-empty = 无法重命名没有笔记的标签。
