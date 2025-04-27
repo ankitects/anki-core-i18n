@@ -51,6 +51,7 @@ actions-shortcut-key = Πλήκτρο συντόμευσης: { $val }
 actions-suspend-card = Αναστολή κάρτας
 actions-set-due-date = Ορισμός διορίας
 actions-toggle-load-balancer = Βαθμολόγηση Τώρα
+actions-grade-now = Βαθμολογήστε Τώρα
 actions-answer-card = Απάντηση κάρτας
 actions-unbury-unsuspend = Άρση αναβολής/αναστολής
 actions-add-deck = Προσθήκη τράπουλας

@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Αλλαγή τράπουλας
 browsing-change-deck2 = Αλλαγή τράπουλας...
 browsing-change-note-type = Αλλαγή Τύπου Σημείωσης
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Αλλαγή Τύπου Σημείωσης...
 browsing-change-notetype = Αλλαγή Τύπου Σημείωσης
 browsing-clear-unused-tags = Εκκαθάριση μη χρησιμοποιούμενων ετικετών
@@ -98,6 +99,7 @@ browsing-tag-rename-warning-empty = Δεν μπορείτε να μετονομ�
 browsing-target-field = Πεδίο στόχος:
 browsing-toggle-bury = Αναβολή
 browsing-toggle-showing-cards-notes = Εναλλαγή καρτών/σημειώσεων
+browsing-toggle-mark = Μαρκάρισμα
 browsing-toggle-suspend = Αναστολή
 browsing-treat-input-as-regular-expression = Διαχείριση καταχώρησης ως κανονική έκφραση
 browsing-update-saved-search = Ανανέωση με τρέχουσα αναζήτηση

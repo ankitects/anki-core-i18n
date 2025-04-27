@@ -4,8 +4,10 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = Περισσότερες πληροφορίες
-card-template-rendering-front-side-problem = Το πρόσθιο πρότυπο έχει πρόβλημα:
+card-template-rendering-front-side-problem = Το πρότυπο της πρόσθιας πλευράς έχει πρόβλημα:
 card-template-rendering-back-side-problem = Το οπίσθιο πρότυπο έχει πρόβλημα:
+card-template-rendering-browser-front-side-problem = Το σχετιζόμενο με τον φυλλομετρητή (browser) πρότυπο της πρόσθιας πλευράς έχει πρόβλημα:
+card-template-rendering-browser-back-side-problem = Το σχετιζόμενο με τον φυλλομετρητή (browser) πρότυπο της οπίσθιας πλευράς έχει πρόβλημα:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Λείπει '{ $missing }' σε '{ $tag }'
