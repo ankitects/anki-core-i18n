@@ -112,6 +112,7 @@ statistics-counts-separate-suspended-buried-cards = Separar cartões suspensos/o
 
 statistics-true-retention-title = Retenção Verdadeira
 statistics-true-retention-subtitle = Taxa de aprovação de cartões com intervalo ≥ 1 dia.
+statistics-true-retention-tooltip = Se você está usando FSRS, sua retenção verdadeira deve estar próxima da retenção desejada. Por favor, tenha em mente que os dados de um único dia podem ser imprecisos, então é melhor analisar os dados mensais.
 statistics-true-retention-range = Período
 statistics-true-retention-pass = Passou
 statistics-true-retention-fail = Falhou
@@ -287,6 +288,7 @@ statistics-cards-per-day =
         [one] { $count } cartão/dia
        *[other] { $count } cartões/dia
     }
+statistics-median-ease = Dificuldade mediana
 statistics-median-difficulty = Dificuldade mediana
 statistics-average-retrievability = Recuperabilidade média
 statistics-estimated-total-knowledge = Conhecimento total estimado
