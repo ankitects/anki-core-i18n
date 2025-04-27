@@ -137,6 +137,7 @@ scheduling-set-due-date-done =
     { $cards ->
        *[other] 已為 { $cards } 張卡片設定到期日。
     }
+scheduling-graded-cards-done = 已對 { $cards } 張卡片評等。
 scheduling-forgot-cards =
     { $cards ->
        *[other] 已重置 { $cards } 張卡片。

@@ -74,7 +74,7 @@ deck-config-bury-priority-tooltip =
     - 啟用所有推遲選項時，會顯示順序最前的關聯卡片。例如，複習卡會優先於新卡片顯示。
     - 順序靠後的關聯卡片無法使類型較前的卡片被推遲。例如，停用「推遲關聯的新卡片」時，學習新卡片將不會推遲跨天學習卡片和複習卡，因此關聯的複習卡和新卡片可能會同時出現。
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = 顯示順序
 deck-config-new-gather-priority = 新卡片收集順序
@@ -88,12 +88,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `隨機筆記`：隨機選取筆記，然後收集筆記中所有卡片。
     
     `隨機卡片`：依隨機順序收集卡片。
-deck-config-new-gather-priority-deck = 牌組順序
-deck-config-new-gather-priority-deck-then-random-notes = 牌組→隨機筆記
-deck-config-new-gather-priority-position-lowest-first = 順序遞增
-deck-config-new-gather-priority-position-highest-first = 順序遞減
-deck-config-new-gather-priority-random-notes = 隨機筆記
-deck-config-new-gather-priority-random-cards = 隨機卡片
 deck-config-new-card-sort-order = 新卡片排序順序
 deck-config-new-card-sort-order-tooltip-2 =
     `卡片類型→收集順序`：依卡片類型的序號順序來顯示卡片。當停用推遲關聯卡片時，所有「正面→背面」卡片都會在所有「背面→正面」卡片之前顯示。若要在單次學習中顯示同一則筆記的所有卡片，此選項可以幫你拉開關聯卡片間的距離。
@@ -105,11 +99,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `隨機筆記→卡片類型`：隨機挑選筆記，然後順序顯示所有關聯卡片。
     
     `隨機`：完全隨機顯示收集的卡片。
-deck-config-sort-order-card-template-then-random = 卡片類型→隨機
-deck-config-sort-order-random-note-then-template = 隨機筆記→卡片類型
-deck-config-sort-order-random = 隨機
-deck-config-sort-order-template-then-gather = 卡片類型→收集順序
-deck-config-sort-order-gather = 收集順序
 deck-config-new-review-priority = 新卡片/複習卡順序
 deck-config-new-review-priority-tooltip = 新卡片與複習卡顯示的先後順序。
 deck-config-interday-step-priority = 跨天學習/複習卡順序
@@ -117,23 +106,62 @@ deck-config-interday-step-priority-tooltip =
     跨天學習時，（重新）學習中的卡片的顯示順序。
     
     複習上限總是優先計算跨天學習的卡片，再套用到複習卡。此選項將控制卡片被收集後的顯示順序，但跨天學習卡片永遠會被優先收集。
-deck-config-review-mix-mix-with-reviews = 與複習卡混合
-deck-config-review-mix-show-after-reviews = 先顯示複習卡
-deck-config-review-mix-show-before-reviews = 後顯示複習卡
 deck-config-review-sort-order = 複習卡排序順序
 deck-config-review-sort-order-tooltip = 預設的順序會優先顯示等待最久的卡片，這樣當有複習卡積壓時，越久沒學習的卡片會越早出現。如果你積壓了大量卡片，需要好幾天的時間來趕上進度，或者想要依子牌組順序顯示卡片，建議尋找其他更合適的順序。
-deck-config-sort-order-due-date-then-random = 到期日期→隨機
-deck-config-sort-order-due-date-then-deck = 到期日期→牌組順序
-deck-config-sort-order-deck-then-due-date = 牌組順序→到期日期
-deck-config-sort-order-ascending-intervals = 間隔遞增
-deck-config-sort-order-descending-intervals = 間隔遞減
-deck-config-sort-order-ascending-ease = 輕鬆度遞增
-deck-config-sort-order-descending-ease = 輕鬆度遞減
-deck-config-sort-order-ascending-difficulty = 簡單卡片優先
-deck-config-sort-order-descending-difficulty = 困難卡片優先
-deck-config-sort-order-retrievability-ascending = 留存機率遞增
-deck-config-sort-order-retrievability-descending = 留存機率遞減
 deck-config-display-order-will-use-current-deck = 顯示順序以你選取的牌組為準，子牌組的設定不會生效。
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = 牌組順序
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = 牌組→隨機筆記
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = 順序遞增
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = 順序遞減
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = 隨機筆記
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = 隨機卡片
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = 卡片類型→隨機
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = 隨機筆記→卡片類型
+# Sort the cards randomly.
+deck-config-sort-order-random = 隨機
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = 卡片類型→收集順序
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = 收集順序
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = 與複習卡混合
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = 先顯示複習卡
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = 後顯示複習卡
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = 到期日期→隨機
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = 到期日期→牌組順序
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = 牌組順序→到期日期
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = 間隔遞增
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = 間隔遞減
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = 輕鬆度遞增
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = 輕鬆度遞減
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = 簡單卡片優先
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = 困難卡片優先
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = 留存機率遞增
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = 留存機率遞減
 
 ## Timer section
 
@@ -235,6 +263,8 @@ deck-config-learning-step-above-graduating-interval = 畢業間隔不應短於�
 deck-config-good-above-easy = 「簡單」間隔不應短於畢業間隔。
 deck-config-relearning-steps-above-minimum-interval = 最小遺忘間隔不應短於最後一個重新學習階段。
 deck-config-maximum-answer-secs-above-recommended = 請儘量保持問題簡潔，這樣 Anki 能更有效率地為你排程複習。
+deck-config-too-short-maximum-interval = 最長間隔不建議設定低於 6 個月。
+deck-config-ignore-before-info = 約 { $included }/{ $totalCards } 張卡片將用於最佳化 FSRS 參數。
 
 ## Selecting a deck
 
@@ -254,7 +284,7 @@ deck-config-compute-minimum-recommended-retention = 留存機率推薦最小值
 deck-config-optimize-button = 最佳化當前預設組
 deck-config-compute-button = 計算
 deck-config-ignore-before = 複習歷程起始時間
-deck-config-time-to-optimize = 已長期未最佳化，建議使用「全部最佳化」按鈕。
+deck-config-time-to-optimize = 已長期未最佳化，建議使用「最佳化所有預設組」按鈕。
 deck-config-evaluate-button = 評估
 deck-config-desired-retention = 期望留存機率
 deck-config-historical-retention = 歷史留存機率
@@ -324,6 +354,10 @@ deck-config-additional-new-cards-to-simulate = 模擬新增卡片數量
 deck-config-simulate = 模擬
 deck-config-clear-last-simulate = 清除上一次模擬
 deck-config-fsrs-simulator-radio-count = 複習
+deck-config-advanced-settings = 進階設定
+deck-config-smooth-graph = 平滑圖表
+deck-config-suspend-leeches = 擱置低效卡
+deck-config-save-options-to-preset = 儲存更動到預設組
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

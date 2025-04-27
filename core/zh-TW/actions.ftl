@@ -1,5 +1,17 @@
 actions-add = 新增
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = 所有選取的
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = 任何選取的
 actions-cancel = 取消
 actions-choose = 選擇
@@ -38,6 +50,8 @@ actions-select = 選取
 actions-shortcut-key = 快速鍵：{ $val }
 actions-suspend-card = 擱置卡片
 actions-set-due-date = 設定到期日
+actions-toggle-load-balancer = 切換平衡工作量
+actions-grade-now = 馬上評等
 actions-answer-card = 回答卡片
 actions-unbury-unsuspend = 取消推遲/取消擱置
 actions-add-deck = 新增牌組
@@ -58,10 +72,12 @@ actions-previous-card-info = 上一張卡片資訊
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = 你的視訊驅動程式不支援全螢幕模式。請在偏好設定中嘗試切換到不同的驅動程式。
-
-## Flags
-
 actions-flag-number = 旗標 { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = 紅色
 actions-flag-orange = 橙色
 actions-flag-green = 綠色
@@ -69,6 +85,9 @@ actions-flag-blue = 藍色
 actions-flag-pink = 粉紅色
 actions-flag-turquoise = 青綠色
 actions-flag-purple = 紫色
+
+##
+
 actions-set-flag = 設定旗標
 actions-nothing-to-undo = 沒有可復原的動作
 actions-nothing-to-redo = 沒有可重做的動作

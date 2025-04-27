@@ -94,6 +94,7 @@ statistics-counts-separate-suspended-buried-cards = 分開統計擱置/推遲的
 
 statistics-true-retention-title = 實際留存機率
 statistics-true-retention-subtitle = 間隔大於 1 天的卡片的通過率
+statistics-true-retention-tooltip = 使用 FSRS 時，實際留存機率應更為接近你的期望留存機率。單日統計資料存在雜訊，請按月為準參考。
 statistics-true-retention-range = 範圍
 statistics-true-retention-pass = 通過
 statistics-true-retention-fail = 失敗
@@ -128,7 +129,7 @@ statistics-card-ease-title = 卡片輕鬆度
 statistics-card-difficulty-title = 卡片難度
 statistics-card-stability-title = 卡片穩固期
 statistics-card-stability-subtitle = 留存機率下降到 90% 所需的天數
-statistics-average-stability = 平均穩固期
+statistics-median-stability = 穩固期中位數
 statistics-card-retrievability-title = 卡片留存機率
 statistics-card-ease-subtitle = 卡片的輕鬆度越低，出現的頻率就越高
 statistics-card-difficulty-subtitle2 = 難度越高，穩固期增長的速度越慢
@@ -203,7 +204,7 @@ statistics-hours-correct = 正確率： { $correct }/{ $total } ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } 次複習
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = 📈 正確率 { $percent }%（{ $reviews } 張）
+statistics-hours-correct-reviews = 📈 正確率 { $percent }%（{ $reviews } 次）
 statistics-hours-title = 分時解析
 statistics-hours-subtitle = 一天各時段中複習的成功率
 # shown when graph is empty
@@ -226,12 +227,20 @@ statistics-elapsed-time-years = { $amount } 年
 ##
 
 statistics-average-for-days-studied = 平均（只計算實際學習天數）
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = 總計
 statistics-days-studied = 學習天數
 statistics-average-answer-time-label = 平均回答耗時
 statistics-average = 平均
-statistics-average-interval = 平均間隔
+statistics-median-interval = 間隔中位數
 statistics-due-tomorrow = 明天到期
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = 每日工作量
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
@@ -248,11 +257,19 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } 張卡片/天
     }
-statistics-average-ease = 平均輕鬆度
-statistics-average-difficulty = 平均難度
+statistics-median-ease = 輕鬆度中位數
+statistics-median-difficulty = 難度中位數
 statistics-average-retrievability = 平均留存機率
 statistics-estimated-total-knowledge = 預估已理解
 statistics-save-pdf = 儲存為 PDF 檔
 statistics-saved = 已儲存。
 statistics-stats = 統計
 statistics-title = 統計資料
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = 平均穩固期
+statistics-average-interval = 平均間隔
+statistics-average-ease = 平均輕鬆度
+statistics-average-difficulty = 平均難度
