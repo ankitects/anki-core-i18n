@@ -6,6 +6,7 @@ importing-include-reviews-help =
     Ja iespējots, tiks ievietotas arī visas iepriekšējās pārskatīšanas, kuras kopīgotājs iekļāva.
     Pretējā gadījumā visas kartītes tiks ievietotas kā jaunas, un visas "leech" vai "marked"
     birkas tiks noņemtas.
+importing-supermemo-xml-export-xml = Supermemo XML izgūšana (*.xml)
 importing-this-file-does-not-appear-to = Nešķiet, ka šī datne ir derīga .apkg datne. Ja šī kļūda ir par datni, kas lejupielādēta no AnkiWeb, ir iespējams, ka lejupielāde neizdevās. Lūgums mēģināt vēlreiz, un, ja sarežģījums turpinās, lūgums mēģināt vēlreiz ar citu pārlūku.
 importing-update-notetypes-help =
     Kad krājumā atjaunināt esošu piezīmju veidu. Pēc noklusējum tas tiek darīts,
