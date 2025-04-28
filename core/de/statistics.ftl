@@ -174,12 +174,12 @@ statistics-added-title = Hinzugefügte Karten
 statistics-added-subtitle = Anzahl neuer Karten, die hinzugefügten wurden.
 statistics-reviews-count-subtitle = Anzahl der in der Vergangenheit durchgeführten Wiederholungen
 statistics-reviews-time-subtitle = Zeitaufwand der in der Vergangenheit durchgeführten Wiederholungen
-statistics-answer-buttons-title = Antwortknopf
+statistics-answer-buttons-title = Bewertung
 # eg Button: 4
 statistics-answer-buttons-button-number = Knopf
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Wie oft gedrückt
-statistics-answer-buttons-subtitle = Wie häufig welcher Antwortknopf gewählt wurde.
+statistics-answer-buttons-subtitle = Wie häufig welcher Bewertung gewählt wurde.
 statistics-reviews-title = Wiederholungen
 statistics-reviews-time-checkbox = Zeitaufwand
 statistics-in-days-single =

@@ -211,7 +211,7 @@ deck-config-maximum-interval-tooltip = Die maximale Anzahl an Tagen, die der Zei
 deck-config-starting-ease-tooltip = Der Anfangswert des Leichtigkeitsgrads (Faktors) für neue Karten. Standardmäßig sorgt der „Gut“-Knopf bei einer neu gelernten Karte dafür, dass das nächste Intervall 2,5-mal so lang ist wie das vorherige.
 deck-config-easy-bonus-tooltip = Wenn bei einer Wiederholungskarte „Einfach“ gewählt wird, wird ein Intervall verwendet, das dem für „Gut“ entspricht, jedoch mit diesem Zusatzfaktor multipliziert wird. Beim Standardwert von 1,30 ist das Intervall für „Einfach“ um 30% länger als das für „Gut“. Liegt das „Gut“-Intervall beispielsweise bei 10 Tagen, beträgt das „Einfach“-Intervall 13 Tage.
 deck-config-interval-modifier-tooltip = Dieser Faktor wird auf alle Intervalle angewendet, und durch kleinere Anpassungen kann Anki in seiner Zeitplanung konservativer oder aggressiver eingestellt werden. Bitte lesen Sie das Handbuch, bevor Sie diese Einstellung ändern.
-deck-config-hard-interval-tooltip = Der Faktor, der bei Wiederholungskarten angewendet wird, wenn der „Schwer“-Knopf gedrückt wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
+deck-config-hard-interval-tooltip = Der Faktor, der bei Wiederholungskarten angewendet wird, wenn eine Karte mit „Schwer“ bewertet wird. Der Wert bezieht sich auf das vorherige Intervall. Mit dem Standardwert von 1,20 würde eine Karte mit einem 10-Tage-Intervall ein neues Intervall von 12 Tagen erhalten.
 deck-config-new-interval-tooltip = Der auf das Wiederholungsintervall angewendete Faktor, nachdem eine Karte mit „Nochmal“ bewertet wurde.
 deck-config-minimum-interval-tooltip = Gibt die Mindestanzahl an Tagen für das Intervall an, das einer Wiederholungskarte nach dem Abschluss des Wiederlernvorgangs zugewiesen werden soll. Der Standardwert ist 1 Tag, was bedeutet, dass die Karte nach Abschluss des Wiederlernens am nächsten Tag erneut angezeigt wird.
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
@@ -341,7 +341,7 @@ deck-config-reschedule-cards-warning =
     Je nach gewünschter Erinnerungsquote kann diese Einstellung dazu führen, dass viele Karten sofort fällig werden. Daher ist sie nicht zu empfehlen, wenn Sie gerade von SM-2 zu FSRS wechseln.
     
     Verwenden Sie diese Einstellung mit Bedacht, da sie bei jeder Karte einen zusätzlichen Wiederholungseintrag erzeugt und die Größe Ihrer Sammlung deutlich erhöhen kann.
-deck-config-ignore-before-tooltip-2 = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Antwortknöpfe verwenden, geändert haben.
+deck-config-ignore-before-tooltip-2 = Karten, die vor dem angegebenen Datum wiederholt wurden, werden bei der Optimierung der FSRS-Parameter ignoriert. Dies kann hilfreich sein, wenn Sie die Zeitplanung von jemand anderem importiert haben oder die Art und Weise, wie Sie die Bewertungsknöpfe verwenden, geändert haben.
 deck-config-compute-optimal-weights-tooltip2 =
     Wenn Sie auf „Optimieren“ klicken, analysiert FSRS Ihren Wiederholungsverlauf und ermittelt Parameter, die optimal auf Ihr Gedächtnis und die Inhalte abgestimmt sind, die Sie lernen.
     
@@ -372,9 +372,9 @@ deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
 deck-config-fsrs-params-no-reviews = Keine Wiederholungen gefunden. Bitte prüfen Sie, ob dieses Stapelprofil allen Stapeln und Unterstapeln zugewiesen ist, die Sie optimieren möchten und versuchen Sie es anschließend erneut.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
-deck-config-answer-again = Mit „Nochmal“ antworten
-deck-config-answer-hard = Mit „Schwer“ antworten
-deck-config-answer-good = Mit „Gut“ antworten
+deck-config-answer-again = Mit „Nochmal“ bewerten
+deck-config-answer-hard = Mit „Schwer“ bewerten
+deck-config-answer-good = Mit „Gut“ bewerten
 deck-config-days-to-simulate = Zu simulierende Tage
 deck-config-desired-retention-below-optimal = Ihre gewünschte Erinnerungsquote liegt unter dem empfohlenen Mindestwert. Es ist ratsam, sie zu erhöhen.
 # Description of the y axis in the FSRS simulation
