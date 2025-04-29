@@ -43,23 +43,6 @@ statistics-in-time-span-years =
         [one] { $amount } يىل
        *[other] { $amount } يىل
     }
-statistics-cards =
-    { $cards ->
-        [one] { $cards } كارتا
-       *[other] { $cards } كارتا
-    }
-statistics-notes =
-    { $notes ->
-        [one] { $notes } خاتىرە
-       *[other] { $notes } خاتىرە
-    }
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews =
-    { $reviews ->
-        [one] { $reviews } تەكرارلاش
-       *[other] { $reviews } تەكرارلاش
-    }
-statistics-memorized = { $memorized } نى ئەستە تۇتتى
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -91,6 +74,29 @@ statistics-studied-today =
             { statistics-cards } ئۆگەندى 
             ({ $secs-per-card }سېكۇنت/كارتا)
     }
+
+##
+
+statistics-cards =
+    { $cards ->
+        [one] { $cards } كارتا
+       *[other] { $cards } كارتا
+    }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } خاتىرە
+       *[other] { $notes } خاتىرە
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } تەكرارلاش
+       *[other] { $reviews } تەكرارلاش
+    }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } نى ئەستە تۇتتى
 statistics-today-title = بۈگۈن
 statistics-today-again-count = تەكرار قېتىم سانى:
 statistics-today-type-counts = ئۆگىنىش: { $learnCount }، تەكرارلاش: { $reviewCount }، قايتا ئۆگىنىش: { $relearnCount }، سۈزۈلگەن: { $filteredCount }
@@ -108,13 +114,34 @@ statistics-counts-learning-cards = ئۆگىنىۋاتىدۇ
 statistics-counts-relearning-cards = قايتا ئۆگىنىۋاتىدۇ
 statistics-counts-title = كارتا سانى
 statistics-counts-separate-suspended-buried-cards = كېچىكتۈرۈلگەن/يوشۇرۇلغان كارتىنى ئايرىيدۇ
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = ھەقىقىي ساقلىنىش
 statistics-true-retention-subtitle = كارتىنىڭ ئوتتۇرىچە ئۆتۈش نىسبىتى ≥ 1 كۈن.
+statistics-true-retention-tooltip = ئەگەر FSRS ئىشلەتسىڭىز، سىزنىڭ ھەقىقىي ئەستە ساقلاش نىسبىتىڭىز نىشاندىكى ساقلىنىش نىسبىتىگە يېقىنلىشىشى مۇمكىن. كۈندىلىك سانلىق مەلۇماتنىڭ تەۋرىنىشى چوڭراق، شۇڭلاشقا ئايلىق سانلىق مەلۇماتنى كۆرگىنىڭىز ياخشى.
 statistics-true-retention-range = دائىرە
 statistics-true-retention-pass = ئۆتكىنى
 statistics-true-retention-fail = مەغلۇب بولغىنى
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = جەمئى
 statistics-true-retention-count = سانى
 statistics-true-retention-retention = ساقلىنىش
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = خام
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = پىششىق
 statistics-true-retention-all = ھەممىسى
 statistics-true-retention-today = بۈگۈن
 statistics-true-retention-yesterday = تۈنۈگۈن
@@ -122,7 +149,12 @@ statistics-true-retention-week = ئۆتكەن ھەپتە
 statistics-true-retention-month = ئۆتكەن ئاي
 statistics-true-retention-year = ئۆتكەن يىل
 statistics-true-retention-all-time = ھەممە ۋاقىت
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
 statistics-true-retention-not-applicable = N/A
+
+##
+
 statistics-range-all-time = ھەممە
 statistics-range-1-year-history = ئۆتكەن 12 ئاي
 statistics-range-all-history = ھەممە تارىخ
@@ -133,7 +165,7 @@ statistics-card-ease-title = كارتا ئاسانلىقى
 statistics-card-difficulty-title = كارتا قىيىنلىقى
 statistics-card-stability-title = كارتا ئەستە ساقلىنىشچانلىقى
 statistics-card-stability-subtitle = ئەستە ساقلىنىشچانلىقنىڭ %90 كە تۆۋەنلەشنىڭ ۋاقىت ئارىلىقى.
-statistics-average-stability = ئوتتۇرىچە ئەستە ساقلىنىشچانلىقى
+statistics-median-stability = ئەستە مۇقىملىشىش ئوتتۇرا قىممىتى
 statistics-card-retrievability-title = كارتىنىڭ ئەستە تۇرۇشچانلىقى
 statistics-card-ease-subtitle = كارتىنىڭ ئاسانلىقى قانچە تۆۋەن بولسا ئۇنىڭ كۆرۈلۈشى شۇنچە يۇقىرى بولىدۇ.
 statistics-card-difficulty-subtitle2 = كارتا قانچە قىيىن بولسا ئەستە ساقلىنىشچانلىقنىڭ ئۆرلىشى شۇنچە ئاستا بولىدۇ.
@@ -241,12 +273,20 @@ statistics-elapsed-time-years = { $amount } يىل
 ##
 
 statistics-average-for-days-studied = ئەمەلىي ئۆگەنگەن كۈننىڭ ئوتتۇرىچە قىممىتى
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = جەمئى
 statistics-days-studied = ئۆگەنگەن كۈن سانى
 statistics-average-answer-time-label = جاۋابقا كەتكەن ئوتتۇرىچە ۋاقىت
 statistics-average = ئوتتۇرىچە
-statistics-average-interval = ئوتتۇرىچە مەزگىلى
+statistics-median-interval = ئەستە تۇتۇش ئارىلىق ئوتتۇرا قىممىتى
 statistics-due-tomorrow = ئەتىگىچە
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = كۈندىلىك يۈكلەش
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } / { $total } ({ $percent }%)
@@ -266,14 +306,19 @@ statistics-cards-per-day =
         [one] { $amount } كارتا/كۈن
        *[other] { $amount } كارتا/كۈن
     }
-statistics-average-ease = ئوتتۇرىچە ئاسانلىقى
-statistics-average-difficulty = ئوتتۇرىچە قىيىنلىقى
+statistics-median-ease = ئاسانلىق ئوتتۇرا قىممىتى
+statistics-median-difficulty = قىيىنلىق ئوتتۇرا قىممىتى
 statistics-average-retrievability = ئوتتۇرىچە ئەستە تۇتۇشچانلىق
 statistics-estimated-total-knowledge = مۆلچەرلەنگەن ئومۇمىي بىلىم
 statistics-save-pdf = PDF ساقلا
 statistics-saved = ساقلاندى.
 statistics-stats = ئىستاتىستىكا
 statistics-title = ئىستاتىستىكا سانلىق مەلۇمات
-statistics-true-retention-total = جەمئى
-statistics-true-retention-young = خام
-statistics-true-retention-mature = پىششىق
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = ئوتتۇرىچە ئەستە ساقلىنىشچانلىقى
+statistics-average-interval = ئوتتۇرىچە مەزگىلى
+statistics-average-ease = ئوتتۇرىچە ئاسانلىقى
+statistics-average-difficulty = ئوتتۇرىچە قىيىنلىقى

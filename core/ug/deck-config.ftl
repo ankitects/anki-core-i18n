@@ -272,6 +272,7 @@ deck-config-good-above-easy = ئاسان كارتىنىڭ قايتا كۆرۈن�
 deck-config-relearning-steps-above-minimum-interval = ئەڭ قىسقا ئۇنتۇش مەزگىلى ئاخىرقى قېتىملىق قايتا ئۆگىنىش باسقۇچىدىن كەم بولماسلىقى كېرەك.
 deck-config-maximum-answer-secs-above-recommended = ھەر بىر سوئالغا جاۋاب بېرىش ۋاقتى قىسقا بولغاندا، Anki تەكرارلاش كۈنتەرتىپىنى تېخىمۇ ئۈنۈملۈك ئورۇنلاشتۇرالايدۇ.
 deck-config-too-short-maximum-interval = ئەڭ ئۇزۇن مەزگىلنى 6 ئايدىن قىسقا قىلىپ تەڭشەش تەۋسىيە قىلىنىدۇ.
+deck-config-ignore-before-info = (تەخمىنەن) { $included }/{ $totalCards } كارتا FSRS نى ئەلالاشتۇرۇشقا ئىشلىتىلىدۇ.
 
 ## Selecting a deck
 
@@ -367,6 +368,10 @@ deck-config-additional-new-cards-to-simulate = تەقلىدلەيدىغان قو
 deck-config-simulate = تەقلىد
 deck-config-clear-last-simulate = ئاخىرقى تەقلىدلەشنى تازىلا
 deck-config-fsrs-simulator-radio-count = تەكرارلىقى
+deck-config-advanced-settings = ئالىي تەڭشەك
+deck-config-smooth-graph = سىلىق گىرافىك
+deck-config-suspend-leeches = ئۈنۈمسىز كارتىنى ۋاقىتلىق توختىتىدۇ
+deck-config-save-options-to-preset = ئۆزگىرىشنى ئالدىن تەڭشەككە ساقلايدۇ
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
