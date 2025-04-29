@@ -7,6 +7,10 @@
 search-invalid-search = Nederīga meklēšana: { $reason }
 search-misplaced-and = tika atrasts `and`, bet tas nesavieno divas meklēšanas vārdkopas. Ja ir vēlēšanās meklēt pašu vārdu, tas ir jāievieto divkāršajās pēdiņās: `"and"`.
 search-misplaced-or = tika atrasts `or`, bet tas nesavieno divas meklēšanas vārdkopas. Ja ir vēlēšanās meklēt pašu vārdu, tas ir jāievieto divkāršajās pēdiņās: `"or"`.
+# Here, the ellipsis "..." may be localised.
+search-empty-group = tika atrasta kopa `(...)`, bet starp iekavām nav nekā, ko meklēt. Ja ir vēlēšanās meklēt burtiskas iekavas, tās ir jāievieto divkāršajās pēdiņās: `"()"`.
+search-unopened-group = tika atrasta aizverošā iekava `)`, bet pirms tās nav atverošās iekavas `(`. Ja ir vēlēšanās meklēt burtisku `)`, tā ir jāievieto divkāršajās pēdiņās vai pirms tās jāizmanto atpakaļslīpsvītra: `")"` vai `\)`.
+search-invalid-other = lūgums pārbaudīt, vai nav rakstības kļūdu.
 
 ## eg. expected a number in "due>5x", but found "5x"
 

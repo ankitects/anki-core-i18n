@@ -137,20 +137,20 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Attēlošanas secība
 deck-config-new-gather-priority = Jauno kāršu vākšanas secība
 deck-config-new-gather-priority-tooltip-2 =
-    „Kārts”: vāc kārtis no katras apakškavas secībā, sākot no augšas. Kārtis no katras apakškavas tiek
-    vāktas augošā secībā. Ja tiek sasniegts izvēlētās kavas dienas limits, vākšana var tikt pārtraukta pirms
-    visas apakškavas ir pārbaudītas. Šī secība ir ātrāka lielās kolekcijās un ļauj prioritizēt apakškavas, 
-    kas atrodas tuvāk augšai.
+    „Kava”: secīgi iegūst kartītes no katras apakškavas, sākot no augšas. Kartītes no katras apakškavas tiek
+    iegūtas augošā secībā. Ja tiek sasniegts izvēlētās kavas dienas ierobežojums, iegūšana var tikt
+    pārtraukta, pirms ir pārbaudītas visas apakškavas. Šī secība ir ātrāka lielos krājumos, un
+    ļauj noteikt lielāku svarīgumu apakškavām, kas atrodas tuvāk augšai.
     
-    „Augošā secība”: vāc kārtis pēc augošas secības (līdz #), kas parasti nozīmē, ka vispirms tiek rādītas tās,
-    kas tika pievienotas pirmās.
+    „Augošs novietojums”: iegūst kartītes augošā secībā (līdz #), kas parasti nozīmē,
+    ka pirmās ir senāk pievienotās.
     
-    „Dilstošā secība”: vāc kārtis pēc dilstošas secības (līdz #), kas parasti nozīmē, ka vispirms tiek rādītas tās,
-    kas tika pievienotas pēdējās.
+    „Dilstošs novietojums”: iegūst kartītes dilstošā secībā (līdz #), kas parasti nozīmē,
+    ka pirmās ir nesenāk pievienotās.
     
-    „Nejaušās piezīmes”: izvēlas piezīmes nejauši, pēc tam savāc visas tās kārtis.
+    „Nejaušās piezīmes”: atlasa piezīmes nejauši, pēc tam iegūst tās visas kārtis.
     
-    „Nejaušās kārtis”: vāc kārtis nejaušā secībā.
+    „Nejaušas kartītes”: iegūst kartītes nejaušā secībā.
 deck-config-new-card-sort-order = Jauna kāršu šķirošanas secība
 
 ## Gather order and sort order of cards – Combobox entries
@@ -182,6 +182,7 @@ deck-config-question-action-show-answer = Parādīt atbildi
 
 deck-config-new-interval-tooltip = Reizinātājs, kas tiek pielietots pārskatīšanas starplaikam, kad tiek atbildēts ar "Vēlreiz".
 deck-config-minimum-interval-tooltip = Mazākais pieļaujamais pārskatāmajai kartītei piešķiramais starplaiks pēc atbildēšanas ar "Vēlreiz".
+deck-config-custom-scheduling-tooltip = Ietekmē visu krājumu. Jāizmanto uz savu atbildību.
 
 # Easy Days section
 
