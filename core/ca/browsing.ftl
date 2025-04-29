@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Canvia de baralla
 browsing-change-deck2 = Canvia de baralla…
 browsing-change-note-type = Canvia el tipus de nota
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Canvia el tipus de nota…
 browsing-change-notetype = Canvia el tipus de nota
 browsing-clear-unused-tags = Neteja les etiquetes no utilitzades
@@ -132,7 +133,7 @@ browsing-sidebar-expand-children = Expandeix els secundaris
 browsing-sidebar-collapse-children = Redueix els secundaris
 browsing-sidebar-decks = Baralles
 browsing-sidebar-tags = Etiquetes
-browsing-sidebar-notetypes = Tipus de notes
+browsing-sidebar-notetypes = Tipus de nota
 browsing-sidebar-saved-searches = Cerques guardades
 browsing-sidebar-save-current-search = Guarda la cerca actual
 browsing-sidebar-card-state = Estat de la targeta
