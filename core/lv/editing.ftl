@@ -11,12 +11,32 @@ editing-to-make-a-cloze-deletion-on = Lai izveidotu aizpildes izdzēšanu esoša
 editing-collapse = Sakļaut
 editing-collapse-field = Sakļaut lauku
 editing-warning-cloze-deletions-will-not-work = Brīdinājums, aizpildes izdzēšanas nedarbosies, līdz augšā veids netiks nomainīts uz "Aizpilde".
+editing-image-occlusion-mode = Attēla aizklāšanas režīms
 editing-image-occlusion-zoom-out = Attālināt
 editing-image-occlusion-zoom-in = Pietuvināt
 editing-image-occlusion-zoom-reset = Atiestatīt tālummaiņu
-editing-image-occlusion-delete = Dzēst
+editing-image-occlusion-toggle-translucent = Pārslēgt caurspīdību
+editing-image-occlusion-delete = Izdzēst
+editing-image-occlusion-duplicate = Pavairot
+editing-image-occlusion-group = Apkopot atlasīto
+editing-image-occlusion-ungroup = Atcelt atlasītā apkopošanu
 editing-image-occlusion-select-all = Atlasīt visu
+editing-image-occlusion-alignment = Līdzināšana
+editing-image-occlusion-align-left = Līdzināt pie kreisās malas
+editing-image-occlusion-align-h-center = Līdzināt vidū (līmeniski)
+editing-image-occlusion-align-right = Līdzināt pie labās malas
+editing-image-occlusion-align-top = Līdzināt pie augšējās malas
+editing-image-occlusion-align-v-center = Līdzināt vidū (stateniski)
+editing-image-occlusion-align-bottom = Līdzināt pie apakšējās malas
+editing-image-occlusion-select-tool = Atlasīt
 editing-image-occlusion-zoom-tool = Tālummaiņa
+editing-image-occlusion-rectangle-tool = Taisnstūris
+editing-image-occlusion-ellipse-tool = Elipse
+editing-image-occlusion-polygon-tool = Daudzstūris
+editing-image-occlusion-text-tool = Teksts
+editing-image-occlusion-toggle-mask-editor = Pārslēgt masku redaktoru
+editing-image-occlusion-reset = Atiestatīt attēla aizklāšanu
+editing-image-occlusion-confirm-reset = Vai tiešām atiestatīt šī attēla aizklāšanu?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 

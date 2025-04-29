@@ -38,7 +38,7 @@ browsing-confirm-saved-search-overwrite = Saglabātā meklēšana ar nosaukumu �
 browsing-created = Izveidots/a
 browsing-current-deck = Pašreizējā kava
 browsing-current-note-type = Pašreizējais piezīmes veids:
-browsing-delete-notes = Dzēstās piezīmes
+browsing-delete-notes = Izdzēst piezīmes
 browsing-duplicate = dublēt
 browsing-ease = Vienkāršība
 browsing-enter-tags-to-add = Ievadīt pievienojamās birkas:
@@ -69,7 +69,7 @@ browsing-note = Piezīme
 browsing-notes = Piezīmes
 browsing-optional-filter = Papildus filtri:
 browsing-override-back-template = Pārrakstīt aizmugures veidni:
-browsing-override-font = Pārrakstīt fontu:
+browsing-override-font = Aizvietot fontu:
 browsing-override-front-template = Pārrakstīt priekšpuses veidni:
 browsing-please-give-your-filter-a-name = Lūgums piešķirt savam atlasītājam nosaukumu:
 browsing-preview-selected-card = Priekšskatīt atlasīto kartīti ({ $val })
@@ -161,7 +161,7 @@ browsing-sidebar-rescheduled = Pārplānotie
 browsing-sidebar-due-today = Līdz
 browsing-sidebar-untagged = Bez birkas
 browsing-sidebar-overdue = Nokavētās
-browsing-row-deleted = (dzēstie)
+browsing-row-deleted = (izdzēstās)
 browsing-removed-unused-tags-count =
     { $count ->
         [zero] Noņemtas { $count } neizmantotu birku.

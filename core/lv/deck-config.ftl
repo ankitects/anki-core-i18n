@@ -18,9 +18,9 @@ deck-config-title = Kavu opcijas
 
 deck-config-daily-limits = Dienas limiti
 deck-config-new-limit-tooltip =
-    Maksimālais dienā ieviešamo jauno karšu skaits, ja ir pieejamas jaunas kārtis.
-    Tā kā jaunais materiāls palielinās jūsu īstermiņa pārskatīšanas darba slodzi, tam
-    parasti ir jābūt vismaz 10 reizes mazākam par jūsu pārskatīšanas limitu.
+    Lielākais dienā priekšā stādāmo jauno kartīšu skaits, ja ir pieejamas jaunas kartītes.
+    Tā kā jauna viela īstermiņā palielinās pārskatīšanas apjomu, tam parasti
+    vajadzētu būt vismaz 10 reizes mazākam par pārskatīšanas ierobežojumu.
 deck-config-review-limit-tooltip =
     Maksimālais dienas pārskatīšanas karšu skaits,
     ja kartes ir sagatavotas pārskatīšanai.
@@ -210,6 +210,12 @@ deck-config-save-button = Saglabāt
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [zero] Vecākkavai ir { $cards } kartīšu ierobežojums, kas aizvietos šo ierobežojumu.
+        [one] Vecākkavai ir { $cards } kartītes ierobežojums, kas aizvietos šo ierobežojumu.
+       *[other] Vecākkavai ir { $cards } kartīšu ierobežojums, kas aizvietos šo ierobežojumu.
+    }
 deck-config-relearning-steps-above-minimum-interval = Mazākajam pieļaujamajam misēkļu starplaikam ir jābūt vismaz tikpat ilgam kā pēdējam pārapguves solim.
 
 ## Selecting a deck

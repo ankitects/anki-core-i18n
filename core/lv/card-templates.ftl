@@ -2,9 +2,9 @@
 card-templates-blank = tukšs
 card-templates-changes-will-affect-notes =
     { $count ->
-        [zero] Zemāk esošās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kartītes veids.
-        [one] Zemāk esošās izmaiņas ietekmēs { $count } piezīmi, kurā tiek izmantots šis kartītes veids.
-       *[other] Zemāk esošās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kartītes veids.
+        [zero] Zemāk esošās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kartīšu veids.
+        [one] Zemāk esošās izmaiņas ietekmēs { $count } piezīmi, kurā tiek izmantots šis kartīšu veids.
+       *[other] Zemāk esošās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kartīšu veids.
     }
 card-templates-card-type = Kartītes veids:
 card-templates-front-template = Priekšpuses veidne
@@ -16,7 +16,7 @@ card-templates-preview-box = Priekšskatījums
 card-templates-template-box = Veidne
 card-templates-sample-cloze = Šis ir { "{{c1::" }paraugs{ "}}" } aizpildes dzēšanai.
 card-templates-fill-empty = Jāaizpilda tukšie lauki
-card-templates-night-mode = Nakts režīms
+card-templates-night-mode = Nakts izskats
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = Pievienot mobilo klasi
@@ -28,16 +28,16 @@ card-templates-missing-cloze = Tiek sagaidīts atrast „{ "{{" }cloze:Teksts{ "
 card-templates-extraneous-cloze = 'cloze:' var izmantot tikai aizpildes piezīmju veidos.
 card-templates-see-preview = Apskatīt priekšskatījumu, lai iegūtu vairāk informācijas.
 card-templates-field-not-found = Lauks „{ $field }” nav atrasts
-card-templates-changes-saved = Izmaiņas ir saglabātas.
+card-templates-changes-saved = Izmaiņas saglabātas.
 card-templates-discard-changes = Atmest izmaiņas?
 card-templates-add-card-type = Pievienot kartīšu veidu...
 card-templates-anki-couldnt-find-the-line-between = Anki nespēja atrast robežu starp jautājumu un atbildi. Lūgums pašrocīgi pielāgot veidni, lai pārslēgtos starp jautājumu un atbildi.
 card-templates-at-least-one-card-type-is = Ir nepieciešams vismaz viens kartīšu veids.
 card-templates-browser-appearance = Pārlūka izskats...
 card-templates-card = Kartīte { $val }
-card-templates-card-types-for = Kartītes veids { $val }
+card-templates-card-types-for = Kartīšu veidi { $val }
 card-templates-cloze = Aizpilde { $val }
-card-templates-deck-override = Kavas pārrakstīšana...
+card-templates-deck-override = Kavas aizvietošana...
 card-templates-copy-info = Ievietot informāciju starpliktuvē
 card-templates-delete-the-as-card-type-and = Izdzēst kartītes veidu „{ $template }” un tā { $cards }?
 card-templates-enter-deck-to-place-new = Ievadīt kavas, kurā ievietot { $val } jaunu(as) kartītes, vai atstāt to tukšu:
