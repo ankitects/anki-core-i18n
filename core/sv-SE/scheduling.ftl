@@ -172,6 +172,11 @@ scheduling-set-due-date-done =
         [one] Satte förfallodatum för { $cards } kort.
        *[other] Satte förfallodatum för { $cards } kort.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Graderade { $cards } kort.
+       *[other] Graderade { $cards } kort.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Återställ { $cards } kort.

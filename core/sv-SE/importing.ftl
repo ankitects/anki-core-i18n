@@ -67,6 +67,13 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketerad Ankikortlek/-
 importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
 # the '|' character
 importing-pipe = Pipa
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Endast den första kolumnen visas.
+       *[other] Endast de första { $count } kolumnerna visas. Ifall detta förefaller vara felaktigt, pröva att ändra fältseparatorn.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hade { $found } fält, förväntat antal är { $expected }
 importing-selected-file-was-not-in-utf8 = Den valda filen var inte i UTF-8-format. Se avsnittet i manualen om att importera.
 importing-semicolon = Semikolon

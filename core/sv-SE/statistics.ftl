@@ -112,6 +112,7 @@ statistics-counts-separate-suspended-buried-cards = Separera låsta/dolda kort
 
 statistics-true-retention-title = Äkta återkallningskvot
 statistics-true-retention-subtitle = Andel klarade med ett intervall ≥ 1 dag.
+statistics-true-retention-tooltip = Ifall du använder FSRS förväntas din äkta återkallningskvot vara närmre din önskade återkallningskvot. Ha i åtanke att datan för en enskild dag är brusig, alltså är det bättre att att jämföra månatliga data.
 statistics-true-retention-range = Spann
 statistics-true-retention-pass = Klarade
 statistics-true-retention-fail = Misslyckade
@@ -146,7 +147,7 @@ statistics-card-ease-title = Korts lätthet
 statistics-card-difficulty-title = Korts svårighetsgrad
 statistics-card-stability-title = Korts stabilitet
 statistics-card-stability-subtitle = Tid tills återkallbarheten faller under 90%
-statistics-average-stability = Genomsnittlig stabilitet
+statistics-median-stability = Medianstabilitet
 statistics-card-retrievability-title = Korts återkallbarhet
 statistics-card-ease-subtitle = Ju lägre lätthet, desto mer frekvent kommer ett kort visas.
 statistics-card-difficulty-subtitle2 = Ju högre svårighetsgrad, desto långsammare kommer stabilitet öka.
@@ -254,12 +255,20 @@ statistics-elapsed-time-years = { $amount } år
 ##
 
 statistics-average-for-days-studied = Genomsnitt för dagar med studier
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Totalt
 statistics-days-studied = Dagar med studier
 statistics-average-answer-time-label = Genomsnittlig svarstid
 statistics-average = Genomsnitt
-statistics-average-interval = Genomsnittligt intervall
+statistics-median-interval = Medianintervall
 statistics-due-tomorrow = Förfaller imorgon
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Daglig belastning
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } av { $total } ({ $percent }%)
@@ -279,11 +288,19 @@ statistics-cards-per-day =
         [one] { $count } kort/dag
        *[other] { $count } kort/dag
     }
-statistics-average-ease = Genomsnittlig lätthet
-statistics-average-difficulty = Genomsnittlig svårighetsgrad
+statistics-median-ease = Medianlätthet
+statistics-median-difficulty = Mediansvårighetsgrad
 statistics-average-retrievability = Genomsnittlig återkallbarhet
 statistics-estimated-total-knowledge = Uppskattad total kunskap
 statistics-save-pdf = Spara PDF
 statistics-saved = Sparad.
 statistics-stats = statistik
 statistics-title = Statistik
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Genomsnittlig stabilitet
+statistics-average-interval = Genomsnittligt intervall
+statistics-average-ease = Genomsnittlig lätthet
+statistics-average-difficulty = Genomsnittlig svårighetsgrad

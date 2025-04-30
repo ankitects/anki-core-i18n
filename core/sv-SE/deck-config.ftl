@@ -311,6 +311,7 @@ deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Minskad
 deck-config-easy-days-minimum = Minimal
 deck-config-easy-days-no-normal-days = Åtminstone en dag bör vara satt till '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Befintliga repetitioner kommer inte schemaläggas igen såvida '{ deck-config-reschedule-cards-on-change }' inte är aktiverad i FSRS-alternativen.
 
 ## Adding/renaming
 
@@ -361,6 +362,7 @@ deck-config-good-above-easy = Lättintervallet bör vara åtminstone lika långt
 deck-config-relearning-steps-above-minimum-interval = Det minsta bortglömningsintervallet borde vara åtminstone lika långt som det sista ominlärningssteget.
 deck-config-maximum-answer-secs-above-recommended = Anki kan schemalägga repetitioner mer effektivt om varje enskild fråga är kortfattad.
 deck-config-too-short-maximum-interval = Ett största intervall på mindre än 6 månader rekommenderas ej.
+deck-config-ignore-before-info = (Uppskattningsvis) { $included }/{ $totalCards } kort kommer användas för att optimera FSRS-parametrarna.
 
 ## Selecting a deck
 
@@ -485,6 +487,10 @@ deck-config-additional-new-cards-to-simulate = Ytterligare nya kort att simulera
 deck-config-simulate = Simulera
 deck-config-clear-last-simulate = Rensa senaste simulering
 deck-config-fsrs-simulator-radio-count = Repetitioner
+deck-config-advanced-settings = Avancerade inställningar
+deck-config-smooth-graph = Glatt kurva
+deck-config-suspend-leeches = Lås energislukare
+deck-config-save-options-to-preset = Spara ändringar till förinställning
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
