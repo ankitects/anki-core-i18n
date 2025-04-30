@@ -178,7 +178,7 @@ statistics-answer-buttons-title = Bewertung
 # eg Button: 4
 statistics-answer-buttons-button-number = Knopf
 # eg Times pressed: 123
-statistics-answer-buttons-button-pressed = Wie oft gedrückt
+statistics-answer-buttons-button-pressed = Anzahl der Verwendungen
 statistics-answer-buttons-subtitle = Wie häufig welcher Bewertung gewählt wurde.
 statistics-reviews-title = Wiederholungen
 statistics-reviews-time-checkbox = Zeitaufwand
@@ -232,7 +232,7 @@ statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
-statistics-hours-correct-reviews = { $percent }% korrekt ({ $reviews })
+statistics-hours-correct-reviews = { $percent }% richtig ({ $reviews })
 statistics-hours-title = Nach Uhrzeit
 statistics-hours-subtitle = Erinnerungsquote für Wiederholungen nach Uhrzeit
 # shown when graph is empty
