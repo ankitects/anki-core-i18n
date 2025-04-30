@@ -112,7 +112,7 @@ statistics-counts-separate-suspended-buried-cards = Separera låsta/dolda kort
 
 statistics-true-retention-title = Äkta återkallningskvot
 statistics-true-retention-subtitle = Andel klarade med ett intervall ≥ 1 dag.
-statistics-true-retention-tooltip = Ifall du använder FSRS förväntas din äkta återkallningskvot vara närmre din önskade återkallningskvot. Ha i åtanke att datan för en enskild dag är brusig, alltså är det bättre att att jämföra månatliga data.
+statistics-true-retention-tooltip = Ifall du använder FSRS förväntas din äkta återkallningskvot vara närmre din önskade återkallningskvot. Ha i åtanke att data för en enskild dag är brusiga, alltså är det bättre att att jämföra månatliga data.
 statistics-true-retention-range = Spann
 statistics-true-retention-pass = Klarade
 statistics-true-retention-fail = Misslyckade
@@ -236,7 +236,7 @@ statistics-hours-correct-reviews = 📈 { $percent }% korrekta ({ $reviews })
 statistics-hours-title = Sammanställning per timme
 statistics-hours-subtitle = Hur ofta du svarar rätt beroende på tidpunkt på dagen.
 # shown when graph is empty
-statistics-no-data = INGEN DATA
+statistics-no-data = INGA DATA
 statistics-calendar-title = Kalender
 
 ## An amount of elapsed time, used in the graphs to show the amount of

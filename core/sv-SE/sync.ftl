@@ -28,11 +28,11 @@ sync-must-wait-for-end = Anki synkroniserar för närvarande. Var god vänta på
 sync-confirm-empty-download = Den lokala samlingen har inga kort. Vill du ladda ned från AnkiWeb?
 sync-confirm-empty-upload = AnkiWeb-samlingen har inga kort. Ersätt den med lokal samling?
 sync-conflict-explanation =
-    Dina kortlekar här och på AnkiWeb skiljer sig från varandra på ett sådant sätt att de inte kan sammanfogas, och det är nödvändigt att skriva över kortlekarna på den ena sidan med kortlekarna på den andra.
+    Dina kortlekar här och på AnkiWeb skiljer sig från varandra på ett sådant sätt att de inte kan sammanfogas, varför det är nödvändigt att skriva över kortlekarna på den ena sidan med kortlekarna på den andra.
     
-    Om du väljer ladda ned, kommer Anki att ladda ned samlingen från AnkiWeb, och alla ändringar du har gjort på din dator sedan den synaste synkningen kommer att gå förlorade.
+    Om du väljer ladda ned, kommer Anki att ladda ned samlingen från AnkiWeb, och alla ändringar du har gjort på din dator sedan den senaste synkningen kommer att gå förlorade.
     
-    Om du väljer ladda upp, kommer Anki att ladda upp samlingen till AnkiWeb, och alla ändringar du har gjort på AnkiWeb eller på dina andra enheter sedan den synaste synkningen till den enheten kommer att gå förlorade.
+    Om du väljer ladda upp, kommer Anki att ladda upp samlingen till AnkiWeb, och alla ändringar du har gjort på AnkiWeb eller på dina andra enheter sedan den senaste synkningen till den enheten kommer att gå förlorade.
     
     När alla enheter är synkade, kommer framtida repetitioner och tillagda kort automatiskt att sammanfogas med varandra.
 sync-conflict-explanation2 =
@@ -47,7 +47,7 @@ sync-password-label = Lösenord:
 sync-account-required =
     <h1>Konto krävs</h1>
     Ett gratis konto krävs för att hålla din samling synkroniserad. <a href="{ $link }">Registrera</a> ett konto och ange sedan dina detaljer nedan.
-sync-sanity-check-failed = Vad god använd Kontrollera databas-funktionen och synkronisera sedan igen. Om problem fortsätter, var god gör en envägssynkronisering i inställningsskärmen.
+sync-sanity-check-failed = Vad god använd funktionen Kontrollera databas och synkronisera sedan igen. Om problemen fortsätter, gör en envägssynkronisering i inställningsskärmen.
 sync-clock-off = Kunde ej synkronisera - datorklockan är inte korrekt synkroniserad.
 sync-upload-too-large =
     Samlingen är för stor för att skickas till AnkiWeb. Dess storlek kan minskas

@@ -5,8 +5,8 @@ errors-100-tags-max =
     Maximalt 100 etiketter kan väljas. Det är i regel enklare att välja
     de önskade etiketterna istället för de oönskade, och underordnade etiketter
     behöver inte väljas om en överordnad etikett har valts.
-errors-multiple-notetypes-selected = Vänligen välj noter av endast en nottyp.
-errors-please-check-database = Vänligen använd funktionen Check Database, och försök sedan igen.
+errors-multiple-notetypes-selected = Var god välj noter av endast en nottyp.
+errors-please-check-database = Var god använd funktionen Kontrollera databas, och försök sedan igen.
 errors-please-check-media = Var god använd Granska media-åtgärden, och försök sedan igen.
 errors-collection-too-new = Denna samlingen kräver en nyare version av Anki för att öppnas.
 errors-invalid-ids = Denna kortlek innehåller tidsstämplar i framtiden. Var god kontakta kortleksförfattaren och be vederbörande att lösa felet.

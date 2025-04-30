@@ -1,4 +1,4 @@
-database-check-corrupt = Samlingen korrupt. Var vänlig se manualen.
+database-check-corrupt = Samlingen är korrupt. Var god se manualen.
 database-check-rebuilt = Databasen återuppbyggd och optimerad.
 database-check-card-properties =
     { $count ->

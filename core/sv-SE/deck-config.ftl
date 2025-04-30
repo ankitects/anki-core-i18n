@@ -456,7 +456,7 @@ deck-config-compute-optimal-retention-tooltip4 =
     vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
     tiden läggs ned för att uppnå den. Att sätta den önskade återkallningskvoten under minimivärdet
     rekommenderas ej, då det kommer leda till en högre arbetsbelastning på grund av det höga andelen kort som bortglöms.
-deck-config-please-save-your-changes-first = Vänligen spara dina ändringar först.
+deck-config-please-save-your-changes-first = Var god spara dina ändringar först.
 deck-config-a-100-day-interval =
     { $days ->
         [one] Ett 100-dagarsintervall kommer bli { $days } dag.
