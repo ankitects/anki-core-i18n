@@ -93,5 +93,5 @@ actions-nothing-to-undo = Inget att ångra
 actions-nothing-to-redo = Inget att göra om
 actions-auto-advance = Automatisk frammatning
 actions-auto-advance-activated = Automatisk frammatning aktiverad
-actions-auto-advance-deactivated = Automatisk frammatning avaktiverad
+actions-auto-advance-deactivated = Automatisk frammatning inaktiverad
 actions-processing = Behandlar...
