@@ -31,7 +31,7 @@ browsing-change-note-type = Canvia el tipus de nota
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Canvia el tipus de nota…
 browsing-change-notetype = Canvia el tipus de nota
-browsing-clear-unused-tags = Neteja les etiquetes no utilitzades
+browsing-clear-unused-tags = Suprimeix les etiquetes no utilitzades
 browsing-confirm-saved-search-overwrite = Ja existeix una cerca guardada amb el nom «{ $name }». Voleu sobreescriure-la?
 browsing-created = S'ha afegit
 browsing-current-deck = Baralla actual
