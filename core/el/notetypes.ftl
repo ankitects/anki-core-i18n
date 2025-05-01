@@ -6,6 +6,7 @@ notetypes-front-field = Μπροστά
 notetypes-back-field = Πίσω
 notetypes-add-reverse-field = Προσθήκη αναστροφής
 notetypes-text-field = Κείμενο
+notetypes-back-extra-field = Back Extra
 
 ## Default note type names
 
