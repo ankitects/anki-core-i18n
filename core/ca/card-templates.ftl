@@ -37,6 +37,7 @@ card-templates-card = Targeta { $val }
 card-templates-card-types-for = Tipus de targetes per { $val }
 card-templates-cloze = Text amb buits { $val }
 card-templates-deck-override = Reemplaçar la baralla…
+card-templates-copy-info = Copia la informació al porta-retalls
 card-templates-delete-the-as-card-type-and = Voleu suprimir el tipus de targeta «{ $template }» i les seves { $cards }?
 card-templates-enter-deck-to-place-new = Seleccioneu la baralla en què voleu col·locar les { $val } noves targetes, o bé deixeu el camp en blanc:
 card-templates-enter-new-card-position-1 = Introduïu la nova posició de la targeta (1...{ $val }):
