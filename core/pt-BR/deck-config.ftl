@@ -475,6 +475,7 @@ deck-config-clear-last-simulate = Apagar última simulação
 deck-config-fsrs-simulator-radio-count = Revisões
 deck-config-advanced-settings = Configurações Avançadas
 deck-config-smooth-graph = Gráfico suave
+deck-config-suspend-leeches = Suspender cartões errados com frequência (sanguessugas)
 deck-config-save-options-to-preset = Salvar Mudanças na Predefinição
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
