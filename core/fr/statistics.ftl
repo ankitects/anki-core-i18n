@@ -118,6 +118,7 @@ statistics-counts-separate-suspended-buried-cards = Séparer les cartes suspendu
 
 statistics-true-retention-title = Rétention Réelle
 statistics-true-retention-subtitle = Taux de réussite des cartes avec un intervalle ≥ 1 jour.
+statistics-true-retention-tooltip = Si vous utilisez FSRS, il est souhaité que votre vraie rétention soit proche de votre rétention désirée. Veuillez garder en tête que les données d'un seul jour sont bruitées, il est alors mieux de regarder les données mensuelles.
 statistics-true-retention-range = Intervalle
 statistics-true-retention-pass = Réussite
 statistics-true-retention-fail = Échec
@@ -152,7 +153,7 @@ statistics-card-ease-title = Facilité de la carte
 statistics-card-difficulty-title = Difficulté de la carte
 statistics-card-stability-title = Stabilité de la carte
 statistics-card-stability-subtitle = Délai à partir duquel la retrouvabilité tombe à 90%
-statistics-average-stability = Stabilité moyenne
+statistics-median-stability = Stabilité médiane
 statistics-card-retrievability-title = Retrouvabilité de la carte
 statistics-card-ease-subtitle = Moins une carte est facile, plus souvent elle apparaîtra.
 statistics-card-difficulty-subtitle2 = Au plus la difficulté est grande, au plus l'augmentation de la stabilité sera lente.
@@ -260,12 +261,20 @@ statistics-elapsed-time-years = { $amount }année
 ##
 
 statistics-average-for-days-studied = Moyenne (par jour travaillé)
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Total
 statistics-days-studied = Jours travaillés
 statistics-average-answer-time-label = Durée de réponse moyenne
 statistics-average = Moyenne
-statistics-average-interval = Intervalle moyen
+statistics-median-interval = Intervalle médian
 statistics-due-tomorrow = Prévues pour demain
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Charge journalière
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } sur { $total } ({ $percent }%)
@@ -285,11 +294,19 @@ statistics-cards-per-day =
         [one] { $count } carte/jour
        *[other] { $count } cartes/jour
     }
-statistics-average-ease = Facilité moyenne
-statistics-average-difficulty = Difficulté moyenne
+statistics-median-ease = Facilité médiane
+statistics-median-difficulty = Difficulté médiane
 statistics-average-retrievability = Retrouvabilité moyenne
 statistics-estimated-total-knowledge = Estimation des connaissances totales
 statistics-save-pdf = Enregistrer en PDF
 statistics-saved = Enregistré
 statistics-stats = statistiques
 statistics-title = Statistiques
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Stabilité moyenne
+statistics-average-interval = Intervalle moyen
+statistics-average-ease = Facilité moyenne
+statistics-average-difficulty = Difficulté moyenne

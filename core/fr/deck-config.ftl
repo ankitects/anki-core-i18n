@@ -314,6 +314,7 @@ deck-config-good-above-easy = L'intervalle facile devrait être au moins aussi l
 deck-config-relearning-steps-above-minimum-interval = L'intervalle minimal devrait être au moins aussi long que votre étape finale de réapprentissage.
 deck-config-maximum-answer-secs-above-recommended = Anki peut planifier vos révisions plus efficacement lorsque vous gardez chaque question courte.
 deck-config-too-short-maximum-interval = Un intervalle maximal inférieur à 6 mois n'est pas recommandé.
+deck-config-ignore-before-info = (Approximativement) { $included }/{ $totalCards } cartes seront utilisées pour optimiser les paramètres FSRS.
 
 ## Selecting a deck
 
@@ -429,6 +430,10 @@ deck-config-additional-new-cards-to-simulate = Cartes supplémentaires à simule
 deck-config-simulate = Simuler
 deck-config-clear-last-simulate = Supprimer la dernière simulation
 deck-config-fsrs-simulator-radio-count = Révisions
+deck-config-advanced-settings = Paramètres avancés
+deck-config-smooth-graph = Lisser le graphique
+deck-config-suspend-leeches = Suspendre les cartes pénibles (cartes « sangsue »)
+deck-config-save-options-to-preset = Sauvegarder les Changements au Prérèglage
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
