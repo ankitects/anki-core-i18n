@@ -165,6 +165,11 @@ scheduling-set-due-date-done =
         [one] Aseta { $cards } kortin eräpäivä.
        *[other] Aseta { $cards } kortin eräpäivä.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } kortti arvioitu.
+       *[other] { $cards } korttia arvioitu.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Unohda { $cards } kortti.

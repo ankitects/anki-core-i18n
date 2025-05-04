@@ -102,14 +102,29 @@ statistics-counts-separate-suspended-buried-cards = Erota hyllytetyt ja haudatut
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = Todellinen retentio
 statistics-true-retention-subtitle = Läpäisyprosentti korteille, joiden kertausväli on ≥ 1 päivä.
+statistics-true-retention-tooltip = Jos käytät FSRS:ää, todellisen retention odotetaan olevan lähellä toivottua retentiota. Muista, että yhden päivän tiedoissa on paljon vaihtelua, joten on parempi tarkastella kuukausittaisia tietoja.
 statistics-true-retention-range = Aikaväli
 statistics-true-retention-pass = Oikein
 statistics-true-retention-fail = Väärin
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Kortteja yhteensä
 statistics-true-retention-count = Määrä
 statistics-true-retention-retention = Retentio
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Nuoret
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Varmat
 statistics-true-retention-all = Kaikki
 statistics-true-retention-today = Tänään
 statistics-true-retention-yesterday = Eilen
@@ -133,7 +148,7 @@ statistics-card-ease-title = Korttien helppous
 statistics-card-difficulty-title = Kortin vaikeus
 statistics-card-stability-title = Korttien vakaus
 statistics-card-stability-subtitle = Ennustettu viive, jonka kuluttua muistat asian 90 % todennäköisyydellä.
-statistics-average-stability = Keskimääräinen vakaus
+statistics-median-stability = Mediaanivakaus
 statistics-card-retrievability-title = Kortin palautettavuus
 statistics-card-ease-subtitle = Mitä pienempi helppous, sitä useammin kortti ilmestyy kerrattavaksi.
 statistics-card-difficulty-subtitle2 = Mitä vaikeampi kortti, sitä hitaammin vakaus kasvaa.
@@ -241,12 +256,20 @@ statistics-elapsed-time-years = { $amount } v
 ##
 
 statistics-average-for-days-studied = Opiskelupäivien keskiarvo
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Yhteensä
 statistics-days-studied = Opiskelupäivät
 statistics-average-answer-time-label = Keskimääräinen vastausaika
 statistics-average = Keskiarvo
-statistics-average-interval = Keskimääräinen kertausväli
+statistics-median-interval = Mediaanikertausväli
 statistics-due-tomorrow = Erääntyy huomenna
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Päivittäinen työmäärä
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent } %)
@@ -266,14 +289,19 @@ statistics-cards-per-day =
         [one] { $count } kortti/päivä
        *[other] { $count } korttia/päivä
     }
-statistics-average-ease = Keskimääräinen helppous
-statistics-average-difficulty = Keskimääräinen vaikeus
+statistics-median-ease = Mediaanihelppous
+statistics-median-difficulty = Mediaanivaikeus
 statistics-average-retrievability = Keskimääräinen palautettavuus
 statistics-estimated-total-knowledge = Arvioitu kokonaisosaaminen
 statistics-save-pdf = Tallenna PDF
 statistics-saved = Tallennettu.
 statistics-stats = tilastot
 statistics-title = Tilastot
-statistics-true-retention-total = Kortteja yhteensä
-statistics-true-retention-young = Nuoret
-statistics-true-retention-mature = Varmat
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Keskimääräinen vakaus
+statistics-average-interval = Keskimääräinen kertausväli
+statistics-average-ease = Keskimääräinen helppous
+statistics-average-difficulty = Keskimääräinen vaikeus
