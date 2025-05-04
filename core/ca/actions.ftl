@@ -1,5 +1,17 @@
 actions-add = Afegeix
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Tot seleccionat
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Qualsevol seleccionat
 actions-cancel = Anuŀla
 actions-choose = Tria
@@ -20,7 +32,7 @@ actions-import = Importa
 actions-manage = Gestiona…
 actions-name = Nom:
 actions-new = Noves
-actions-new-name = Nom nou:
+actions-new-name = Nou nom:
 actions-options = Opcions
 actions-options-for = Opcions per a { $val }
 actions-preview = Previsualització
@@ -58,10 +70,12 @@ actions-previous-card-info = Informació de la targeta anterior
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }…
 actions-fullscreen-unsupported = El vostre controlador de vídeo no és compatible amb el mode de pantalla completa. Seleccioneu-ne un altre en el menú de preferències.
-
-## Flags
-
 actions-flag-number = Senyal { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Roig
 actions-flag-orange = Taronja
 actions-flag-green = Verd
@@ -69,6 +83,9 @@ actions-flag-blue = Blau
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turquesa
 actions-flag-purple = Morat
+
+##
+
 actions-set-flag = Selecciona un senyal
 actions-nothing-to-undo = Res que desfer
 actions-nothing-to-redo = Res que refer
