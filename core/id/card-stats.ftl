@@ -22,9 +22,25 @@ card-stats-review-log-type-review = Ulasan
 card-stats-review-log-type-relearn = Pelajari Ulang
 card-stats-review-log-type-filtered = Ter-filter
 card-stats-review-log-type-manual = Manual
+card-stats-review-log-type-rescheduled = Terjadwal ulang
+card-stats-review-log-elapsed-time = Waktu Berlalu
 card-stats-no-card = (tidak ada kartu untuk ditampilkan.)
+card-stats-custom-data = Data Kustom
+card-stats-fsrs-stability = Stabilitas
+card-stats-fsrs-difficulty = Tingkat Kesulitan
+card-stats-fsrs-retrievability = Dapat-ambil-ulang
+card-stats-fsrs-forgetting-curve-title = Kurva Lupa
+card-stats-fsrs-forgetting-curve-first-week = Minggu Pertama
+card-stats-fsrs-forgetting-curve-first-month = Bulan Pertama
+card-stats-fsrs-forgetting-curve-first-year = Tahun Pertama
+card-stats-fsrs-forgetting-curve-all-time = Sepanjang Waktu
+card-stats-fsrs-forgetting-curve-desired-retention = Retensi yang Diinginkan
 
 ## Window Titles
 
 card-stats-current-card = Kartu saat ini ({ $context })
 card-stats-previous-card = Kartu Sebelumnya ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Probabilitas Pengingatan
