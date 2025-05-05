@@ -107,7 +107,7 @@ deck-config-interday-step-priority-tooltip =
     
     複習上限總是優先計算跨天學習的卡片，再套用到複習卡。此選項將控制卡片被收集後的顯示順序，但跨天學習卡片永遠會被優先收集。
 deck-config-review-sort-order = 複習卡排序順序
-deck-config-review-sort-order-tooltip = 預設的順序會優先顯示等待最久的卡片，這樣當有複習卡積壓時，越久沒學習的卡片會越早出現。如果你積壓了大量卡片，需要好幾天的時間來趕上進度，或者想要依子牌組順序顯示卡片，建議尋找其他更合適的順序。
+deck-config-review-sort-order-tooltip = 預設的順序會優先顯示等待最久的卡片，當有複習卡積壓時，最早需要複習的卡片將最先出現。如有大量卡片積壓需要多日完成，或需依子牌組順序顯示卡片，建議使用其他順序。
 deck-config-display-order-will-use-current-deck = 顯示順序以你選取的牌組為準，子牌組的設定不會生效。
 
 ## Gather order and sort order of cards – Combobox entries
