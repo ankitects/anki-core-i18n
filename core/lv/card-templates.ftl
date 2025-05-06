@@ -2,7 +2,7 @@
 card-templates-blank = tukšs
 card-templates-changes-will-affect-notes =
     { $count ->
-        [zero] Zemāk esošās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kartīšu veids.
+        [zero] Zemāk esošās izmaiņas ietekmēs { $count } piezīmju, kurās tiek izmantots šis kartīšu veids.
         [one] Zemāk esošās izmaiņas ietekmēs { $count } piezīmi, kurā tiek izmantots šis kartīšu veids.
        *[other] Zemāk esošās izmaiņas ietekmēs { $count } piezīmes, kurās tiek izmantots šis kartīšu veids.
     }
@@ -46,7 +46,7 @@ card-templates-flip = Apgriezt
 card-templates-form = Veidot
 card-templates-off = (izslēgts)
 card-templates-on = (ieslēgts)
-card-templates-remove-card-type = Noņemt kartītes veidu...
+card-templates-remove-card-type = Noņemt kartītšu veidu...
 card-templates-rename-card-type = Pārdēvēt kartītes veidu...
 card-templates-reposition-card-type = Pārkārtot kartītes veidu...
 card-templates-card-count =

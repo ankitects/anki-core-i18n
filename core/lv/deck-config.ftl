@@ -16,7 +16,7 @@ deck-config-title = Kavu opcijas
 
 ## Daily limits section
 
-deck-config-daily-limits = Dienas limiti
+deck-config-daily-limits = Dienas ierobežojumi
 deck-config-new-limit-tooltip =
     Lielākais dienā priekšā stādāmo jauno kartīšu skaits, ja ir pieejamas jaunas kartītes.
     Tā kā jauna viela īstermiņā palielinās pārskatīšanas apjomu, tam parasti
@@ -223,6 +223,12 @@ deck-config-relearning-steps-above-minimum-interval = Mazākajam pieļaujamajam 
 
 ## Messages related to the FSRS scheduler
 
+deck-config-fsrs-tooltip =
+    Ietekmē visu krājumu.
+    
+    Free Spaced Repetition Scheduler (FSRS) ir aizvietotājs Anki novecojušajam Super Memo 2 (SM-2) algoritmam.
+    Ar precīzāku kartītes aizmiršanas iespējas noteikšanu, tas var palīdzēt atcerēties
+    vairāk vielas tajā pašā laika daudzumā. Šis iestatījums ir kopīgs visiem priekšiestatījumiem.
 deck-config-desired-retention-tooltip =
     Pēc noklusējuma Anki ieplāno kartītes, lai tām būtu 90% atcerēšanās iespējamība, kad
     atkal pienāk to pārskatīšana. Ja šo vērtību palielina, Anki biežāk rādīs kartītes,

@@ -10,6 +10,7 @@ search-misplaced-or = tika atrasts `or`, bet tas nesavieno divas meklēšanas v�
 # Here, the ellipsis "..." may be localised.
 search-empty-group = tika atrasta kopa `(...)`, bet starp iekavām nav nekā, ko meklēt. Ja ir vēlēšanās meklēt burtiskas iekavas, tās ir jāievieto divkāršajās pēdiņās: `"()"`.
 search-unopened-group = tika atrasta aizverošā iekava `)`, bet pirms tās nav atverošās iekavas `(`. Ja ir vēlēšanās meklēt burtisku `)`, tā ir jāievieto divkāršajās pēdiņās vai pirms tās jāizmanto atpakaļslīpsvītra: `")"` vai `\)`.
+search-unclosed-group = tika atrasta atverošā iekava `(`, bet nebija tai sekojošas aizverošās iekavas `)`. Ja ir vēlēšanās meklēt burtisku `(`, tā ir jāiekļauj pēdiņās vai pirms tās ir jāpievieno atpakaļslīpsvītra: `"("` vai `\(`.
 search-invalid-other = lūgums pārbaudīt, vai nav rakstības kļūdu.
 
 ## eg. expected a number in "due>5x", but found "5x"
