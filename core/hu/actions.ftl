@@ -1,5 +1,17 @@
 actions-add = Hozzáadás
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = összes kiválasztva
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Minden kiválasztott
 actions-cancel = Mégsem
 actions-choose = Kiválasztás
@@ -12,6 +24,7 @@ actions-decks = Paklik
 actions-decrement-value = Érték csökkentése
 actions-delete = Törlés
 actions-export = Exportálás
+actions-empty-cards = Kártyák kiürítése
 actions-filter = Szűrő
 actions-help = Súgó
 actions-increment-value = Érték növelése
@@ -37,6 +50,8 @@ actions-select = Kijelölés
 actions-shortcut-key = Gyorsbillentyű: { $val }
 actions-suspend-card = Kártya felfüggesztése
 actions-set-due-date = Az esedékesség beállítása
+actions-toggle-load-balancer = Terheléselosztó bekapcsolása
+actions-grade-now = Osztályozás
 actions-answer-card = Válaszkártya
 actions-unbury-unsuspend = Félretevés/felfüggesztés megszüntetése
 actions-add-deck = Pakli hozzáadása
@@ -57,10 +72,12 @@ actions-previous-card-info = Előző kártya információ
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = A teljes képernyős módot nem támogatja a videó illesztőprogram. Próbáljon meg másikra váltani a beállítások képernyőn.
-
-## Flags
-
 actions-flag-number = Zászló { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Piros
 actions-flag-orange = Narancssárga
 actions-flag-green = Zöld
@@ -68,6 +85,9 @@ actions-flag-blue = Kék
 actions-flag-pink = Rózsaszin
 actions-flag-turquoise = Türkiz
 actions-flag-purple = Lila
+
+##
+
 actions-set-flag = Zászló beállítása
 actions-nothing-to-undo = Nincs mit visszacsinálni
 actions-nothing-to-redo = Nincs mit újracsinálni

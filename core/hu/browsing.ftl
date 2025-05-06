@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Áthelyezés
 browsing-change-deck2 = Pakliváltás...
 browsing-change-note-type = Jegyzettípus módosítása
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Jegyzet&típus módosítása...
 browsing-change-notetype = Jegyzettípus módosítása
 browsing-clear-unused-tags = Törölje a nem használt címkéket
@@ -82,6 +83,7 @@ browsing-reschedule = Átütemezés
 browsing-search-bar-hint = Kártyák/jegyzetek keresése (írja be a szöveget, majd nyomja meg az Entert)
 browsing-search-in = Keresés ebben:
 browsing-search-within-formatting-slow = Keresés a formázásban (lassú)
+browsing-select-deck = Pakli kiválasztása
 browsing-selected-notes-only = Csak kiválasztott jegyzetek
 browsing-shift-position-of-existing-cards = Meglévő kártyák eltolása
 browsing-sidebar = Oldalsáv
@@ -102,6 +104,7 @@ browsing-toggle-suspend = Kártya felfüggesztése
 browsing-treat-input-as-regular-expression = A bevitt szöveg reguláris kifejezésként értendő
 browsing-update-saved-search = Frissítés az aktuális kereséssel
 browsing-whole-collection = Teljes gyűjtemény
+browsing-window-title-notes = Böngészés ({ $selected } a { $total } jegyzetből kiválasztva)
 browsing-you-must-have-at-least-one = Legalább egy oszlopnak lennie kell.
 browsing-group =
     { $count ->
@@ -123,6 +126,7 @@ browsing-cards-updated =
         [one] { $count } kártya frissítve.
        *[other] { $count } kártyák frissítve.
     }
+browsing-window-title = Böngészés ({ $selected } a { $total } pakliból kiválasztva)
 browsing-sidebar-expand = Bővíteni
 browsing-sidebar-collapse = Összeomlás
 browsing-sidebar-expand-children = Gyermekek bővítése

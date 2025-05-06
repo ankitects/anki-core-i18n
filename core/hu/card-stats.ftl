@@ -29,10 +29,13 @@ card-stats-no-card = (Nincs megjelenítendő kártya.)
 card-stats-custom-data = Egyedi adatok
 card-stats-fsrs-stability = Stabilitás
 card-stats-fsrs-difficulty = Nehézség
+card-stats-fsrs-retrievability = Előhívás
 card-stats-fsrs-forgetting-curve-title = Felejtési görbe
 card-stats-fsrs-forgetting-curve-first-week = Első hét
 card-stats-fsrs-forgetting-curve-first-month = Első hónap
 card-stats-fsrs-forgetting-curve-first-year = Első év
+card-stats-fsrs-forgetting-curve-all-time = Összes idő
+card-stats-fsrs-forgetting-curve-desired-retention = Ideális késleltetés
 
 ## Window Titles
 
