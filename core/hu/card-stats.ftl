@@ -23,12 +23,22 @@ card-stats-review-log-type-review = Ismétlés
 card-stats-review-log-type-relearn = Újratanulás
 card-stats-review-log-type-filtered = Szűrt
 card-stats-review-log-type-manual = Manual
+card-stats-review-log-type-rescheduled = Átütemezett
+card-stats-review-log-elapsed-time = Eltelt idő
 card-stats-no-card = (Nincs megjelenítendő kártya.)
 card-stats-custom-data = Egyedi adatok
 card-stats-fsrs-stability = Stabilitás
 card-stats-fsrs-difficulty = Nehézség
+card-stats-fsrs-forgetting-curve-title = Felejtési görbe
+card-stats-fsrs-forgetting-curve-first-week = Első hét
+card-stats-fsrs-forgetting-curve-first-month = Első hónap
+card-stats-fsrs-forgetting-curve-first-year = Első év
 
 ## Window Titles
 
 card-stats-current-card = Jelenlegi kártya ({ $context })
 card-stats-previous-card = Előző kártya ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Emlékezés valószínűsége
