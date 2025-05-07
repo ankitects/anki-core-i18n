@@ -6,6 +6,6 @@ undo-redo = Refés
 # eg "Undo Answer Card"
 undo-undo-action = Desfés { $val }
 # eg "Answer Card Undone"
-undo-action-undone = S'ha desfet { $action }
+undo-action-undone = S’ha desfet { $action }
 undo-redo-action = Refés { $action }
-undo-action-redone = S'ha refet { $action }
+undo-action-redone = S’ha refet { $action }
