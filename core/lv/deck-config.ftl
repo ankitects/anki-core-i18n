@@ -236,6 +236,13 @@ deck-config-desired-retention-tooltip =
     kartītes, tādējādi vairāk tiks aizmirsts. Vēlams ievērot piesardzību, kad šo pielāgo, -
     lielākas vērtības ievērojami palielinās noslogojumu, un mazākas vērtības var būt
     nomācošas, kad tiek aizmirsts daudz vielas.
+deck-config-reschedule-cards-on-change-tooltip =
+    Ietekmē visu krājumu, un netiek saglabāts.
+    
+    Šī iespēja nosaka, vai kartīšu pienākšanas laika datumi tiks mainīti, kad tiks iespējots FSRS vai optimizētas
+    raksturvērtības. Noklusējums ir nepārplānot kartītes: nākotnes izskatīšanas izmantos jauno plānošanu, bet
+    esošajam darba apjomam nebūs tūlītēju izmaiņu. Ja ir iespējota pārplānošana, kartīšu pienākšanas laika datumi
+    tiks mainīti.
 deck-config-fsrs-params-no-reviews = Nav atrasta neviena pārskatīšana. Lūgums pārbaudīt, ka šis priekšiestatījums ir piešķirts visām optimizējamajām kavām (tajā skaitā apakškavām), un mēģināt vēlreiz.
 deck-config-answer-again = Atbildēt vēlreiz
 deck-config-suspend-leeches = Atlikt izsūcošās kartītes

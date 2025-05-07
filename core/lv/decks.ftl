@@ -1,3 +1,4 @@
+decks-delete-deck = Izdzēst kavu
 decks-get-shared = Saņemt kopīgotos
 decks-repeat-failed-cards-after = Atlikt "Atkārtot nesekmīgās kartītes" pēc
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
