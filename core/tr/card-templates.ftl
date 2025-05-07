@@ -37,6 +37,7 @@ card-templates-card = Kart { $val }
 card-templates-card-types-for = { $val } için Kart Türleri
 card-templates-cloze = Boşluklu
 card-templates-deck-override = Desteyi Geçersiz Kılma...
+card-templates-copy-info = Bilgiyi panoya kopyala.
 card-templates-delete-the-as-card-type-and = '{ $template }' kart türü ve { $cards } kartları silinsin mi?
 card-templates-enter-deck-to-place-new = Desteye yeni { $val } kartları yerleştirin, ya da boş bırakın:
 card-templates-enter-new-card-position-1 = Yeni kart sırasını girin (1...{ $val }):
