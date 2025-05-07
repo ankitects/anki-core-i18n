@@ -22,8 +22,8 @@ deck-config-new-limit-tooltip =
     Tā kā jauna viela īstermiņā palielinās pārskatīšanas apjomu, tam parasti
     vajadzētu būt vismaz 10 reizes mazākam par pārskatīšanas ierobežojumu.
 deck-config-review-limit-tooltip =
-    Maksimālais dienas pārskatīšanas karšu skaits,
-    ja kartes ir sagatavotas pārskatīšanai.
+    Lielākais dienā parādāmo pārskatāmo kartīšu skaits,
+    ja kartītes ir sagatavotas pārskatīšanai.
 deck-config-limit-deck-v3 =
     Izpētot kāršu komplektu, kurā ir apakškavas, katrai apakškavai
     notiek limitkontrole uz maksimālo kāršu skaitu, kas tiek savākts no konkrētā kavā.

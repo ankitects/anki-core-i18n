@@ -1,11 +1,11 @@
-adding-add-shortcut-ctrlandenter = Pievienot (saīsne: ctrl+enter)
-adding-added = Pievienots
+adding-add-shortcut-ctrlandenter = Pievienot (īsinājumtaustiņi: ctrl+enter)
+adding-added = Pievienota
 adding-discard-current-input = Atmest pašreizējo ievadi?
-adding-keep-editing = Turpināt rediģēšanu
-adding-edit = Rediģēt „{ $val }”
+adding-keep-editing = Turpināt labošanu
+adding-edit = Labot „{ $val }”
 adding-history = Vēsture
 adding-note-deleted = (Piezīme izdzēsta)
-adding-shortcut = Īsceļš: { $val }
+adding-shortcut = Īsinājumtaustiņi: { $val }
 adding-the-first-field-is-empty = Pirmais lauks ir tukšs.
 adding-you-have-a-cloze-deletion-note = Tev ir aizpildes piezīmes veids, bet nav veikta neviena aizpildes izdzēšana. Turpināt?
 adding-cloze-outside-cloze-notetype = Aizpildes izdzēšanu var izmantot tikai aizpildes piezīmju veidiem.

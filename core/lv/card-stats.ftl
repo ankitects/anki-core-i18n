@@ -1,6 +1,6 @@
 card-stats-added = Pievienots
-card-stats-first-review = Pirmais pārskats
-card-stats-latest-review = Pēdējais pārskats
+card-stats-first-review = Pirmā pārskatīšana
+card-stats-latest-review = Pēdējā pārskatīšana
 card-stats-interval = Starplaiks
 card-stats-ease = Vienkāršība
 card-stats-review-count = Pārskati
