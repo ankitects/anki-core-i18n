@@ -117,7 +117,7 @@ deck-config-bury-priority-tooltip =
     - Jos kaikki hautaustoiminnot ovat käytössä, näytetään se sisarkortti, joka tulee luettelossa ensimmäisenä. Esimerkiksi kerrattava kortti näytetään ennen uutta korttia.
     - Luettelossa myöhemmin olevat sisarkortit eivät voi haudata aikaisempia korttityyppejä. Jos esimerkiksi poistat uusien korttien hautaamisen käytöstä ja opiskelet uutta korttia, usean päivän aikana opittavia tai kerrattavia kortteja ei haudata, ja saatat nähdä sekä kerrattavan sisarkortin että uuden sisarkortin saman istunnon aikana.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Esitysjärjestys
 deck-config-new-gather-priority = Uusien korttien keräysjärjestys
@@ -131,12 +131,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Satunnaiset muistiinpanot`: kerää kortteja satunnaisesti valituista muistiinpanoista. Kun sisarkorttien hautaaminen on poistettu käytöstä, tämä mahdollistaa sen, että kaikki muistiinpanon kortit näkyvät samassa istunnossa (esim. sekä etupuoli->kääntöpuoli että kääntöpuoli->etupuoli -kortit)
     
     `Satunnaiset kortit`: kerää kortteja täysin satunnaisesti.
-deck-config-new-gather-priority-deck = Pakan järjestyksen mukaan
-deck-config-new-gather-priority-deck-then-random-notes = Ensin pakka, sitten satunnaiset muistiinpanot
-deck-config-new-gather-priority-position-lowest-first = Nousevassa järjestyksessä
-deck-config-new-gather-priority-position-highest-first = Laskevassa järjestyksessä
-deck-config-new-gather-priority-random-notes = Satunnaiset muistiinpanot
-deck-config-new-gather-priority-random-cards = Satunnaiset kortit
 deck-config-new-card-sort-order = Uusien korttien lajittelujärjestys
 deck-config-new-card-sort-order-tooltip-2 =
     `Korttimallin mukaan`: Näyttää kortit korttimallien mukaisessa järjestyksessä. Jos sisarkorttien hautaaminen on pois käytöstä, tämä varmistaa, että kaikki etupuoli->kääntöpuoli-kortit näkyvät ennen kääntöpuoli->etupuoli-kortteja.
@@ -148,11 +142,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Satunnainen muistiinpano, sitten korttimallin mukaan`: Poimii muistiinpanoja satunnaisesti ja näyttää sitten kaikki niiden sisarkortit järjestyksesä.
     
     `Satunnainen`: Sekoittaa kerätyt kortit täysin.
-deck-config-sort-order-card-template-then-random = Korttimallin mukaan, sitten satunnaisesti
-deck-config-sort-order-random-note-then-template = Satunnainen muistiinpano, sitten korttimallin mukaan
-deck-config-sort-order-random = Satunnainen
-deck-config-sort-order-template-then-gather = Korttimallin mukaan
-deck-config-sort-order-gather = Keräysjärjestyksen mukaan
 deck-config-new-review-priority = Uusien ja kerrattavien keskinäinen järjestys
 deck-config-new-review-priority-tooltip = Milloin uudet kortit näytetään suhteessa kerrattaviin kortteihin.
 deck-config-interday-step-priority = Usean päivän aikana opittavien ja kerrattavien keskinäinen järjestys
@@ -160,23 +149,62 @@ deck-config-interday-step-priority-tooltip =
     Milloin näytetään opittavat kortit (tai uudelleen opittavat kortit), joita tarvitsee opiskella usean päivän ajan.
     
     Kertausten enimmäismäärää sovelletaan aina ensin usean päivän aikana opittaviin kortteihin, ja sitten kerrattaviin. Tämä asetus ohjaa järjestystä, jossa kerätyt kortit näytetään, mutta usean päivän aikana opittavat kortit kerätään aina ensin.
-deck-config-review-mix-mix-with-reviews = Sekoita kerrattavien kanssa
-deck-config-review-mix-show-after-reviews = Näytä kerrattavien korttien jälkeen
-deck-config-review-mix-show-before-reviews = Näytä ennen kerrattavia kortteja
 deck-config-review-sort-order = Kerrattavien korttien lajittelujärjestys
 deck-config-review-sort-order-tooltip = Oletusarvoisesti asetetaan etusijalle kortit, jotka ovat odottaneet pisimpään, joten jos kerrattavaa on paljon, pisimpään kertausta odottaneet kortit näytetään ensin. Jos kerrattavia kortteja on rästissä paljon, ja niiden läpikäymiseen kuluisi useampi päivä, tai jos haluat nähdä kortit alipakkojen mukaisessa järjestyksessä, vaihtoehtoinen lajittelujärjestys saattaa olla harkitsemisen arvoinen.
-deck-config-sort-order-due-date-then-random = Eräpäivän mukaan, sitten satunnaisesti
-deck-config-sort-order-due-date-then-deck = Eräpäivän mukaan, sitten pakasta
-deck-config-sort-order-deck-then-due-date = Pakan järjestyksen mukaan, sitten eräpäivän mukaan
-deck-config-sort-order-ascending-intervals = Kertausvälien mukaan nousevassa järjestyksessä
-deck-config-sort-order-descending-intervals = Kertausvälien mukaan laskevassa järjestyksessä
-deck-config-sort-order-ascending-ease = Helpoimmasta vaikeimpaan
-deck-config-sort-order-descending-ease = Vaikeimmasta helpoimpaan
-deck-config-sort-order-ascending-difficulty = Kasvava vaikeus
-deck-config-sort-order-descending-difficulty = Laskeva vaikeus
-deck-config-sort-order-retrievability-ascending = Palautettavuus, nouseva
-deck-config-sort-order-retrievability-descending = Palautettavuus, laskeva
 deck-config-display-order-will-use-current-deck = Anki käyttää sen pakan esitysjärjestystä, jonka valitset opiskeltavaksi, eikä sen mahdollisten alipakkojen esitysjärjestystä.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Pakan järjestyksen mukaan
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Ensin pakka, sitten satunnaiset muistiinpanot
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Nousevassa järjestyksessä
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Laskevassa järjestyksessä
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Satunnaiset muistiinpanot
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Satunnaiset kortit
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Korttimallin mukaan, sitten satunnaisesti
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Satunnainen muistiinpano, sitten korttimallin mukaan
+# Sort the cards randomly.
+deck-config-sort-order-random = Satunnainen
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Korttimallin mukaan
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Keräysjärjestyksen mukaan
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Sekoita kerrattavien kanssa
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Näytä kerrattavien korttien jälkeen
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Näytä ennen kerrattavia kortteja
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Eräpäivän mukaan, sitten satunnaisesti
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Eräpäivän mukaan, sitten pakasta
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Pakan järjestyksen mukaan, sitten eräpäivän mukaan
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Kertausvälien mukaan nousevassa järjestyksessä
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Kertausvälien mukaan laskevassa järjestyksessä
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Helpoimmasta vaikeimpaan
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Vaikeimmasta helpoimpaan
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Kasvava vaikeus
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Laskeva vaikeus
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Palautettavuus, nouseva
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Palautettavuus, laskeva
 
 ## Timer section
 
@@ -240,6 +268,7 @@ deck-config-easy-days-normal = Normaali
 deck-config-easy-days-reduced = Vähennetty
 deck-config-easy-days-minimum = Minimi
 deck-config-easy-days-no-normal-days = '{ deck-config-easy-days-normal }' -arvon tulisi olla vähintään yksi päivä.
+deck-config-easy-days-change = Nykyisiä kertauksia ei ajasteta uudelleen, ellei ”{ deck-config-reschedule-cards-on-change }” ole käytössä FSRS-asetuksissa.
 
 ## Adding/renaming
 
@@ -286,6 +315,8 @@ deck-config-learning-step-above-graduating-interval = Valmistumisen jälkeisen k
 deck-config-good-above-easy = Helpon kortin kertausvälin tulisi olla vähintään yhtä pitkä kuin valmistumisen jälkeisen kertausvälin.
 deck-config-relearning-steps-above-minimum-interval = Vähimmäiskertausvälin tulisi olla ainakin yhtä suuri kuin viimeisen uudelleen oppimisen askeleen.
 deck-config-maximum-answer-secs-above-recommended = Anki ajoittaa kertaukset tehokkaammin, kun pidät kun pidät kysymykset lyhyinä.
+deck-config-too-short-maximum-interval = Enimmäisaikaväliksi ei suositella alle 6:a kuukautta.
+deck-config-ignore-before-info = (Arviolta) { $included }/{ $totalCards } kortista käytetään FSRS-painokertoimien optimointiin.
 
 ## Selecting a deck
 
@@ -315,7 +346,7 @@ deck-config-desired-retention = Toivottu retentio
 deck-config-historical-retention = Historiallinen retentio
 deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioita muistista.
 deck-config-steps-too-large-for-fsrs = Kun FSRS on päällä, usean päivän aikaisen (uudelleen)oppimisen askelten käyttöä ei suositella.
-deck-config-get-params = Hae parametrit
+deck-config-get-params = Hae painokertoimet
 deck-config-predicted-minimum-recommended-retention = Pienin suositeltu retentio: { $num }
 deck-config-complete = { $num } % valmis.
 deck-config-iterations = Iteraatio: { $count }...
@@ -332,15 +363,15 @@ deck-config-historical-retention-tooltip =
     2. Koska olet aiemmin poistanut kertaustiedot vapauttaaksesi tilaa tai tuonut aineistoa toisesta aikavälikertausohjelmasta.
     
     Jälkimmäinen tapaus on melko harvinainen, joten jos et ole käyttänyt ensimmäistä vaihtoehtoa, sinun ei todennäköisesti tarvitse muokata tätä asetusta.
-deck-config-weights-tooltip2 = FSRS-parametrit vaikuttavat korttien ajoitukseen. Anki aloittaa oletusarvoisilla parametreilla. Voit käyttää alla olevaa valintaa optimoidaksesi parametrit, jotta ne vastaavat parhaiten suoritustasi tätä esiasetusta käyttävissä pakoissa.
+deck-config-weights-tooltip2 = FSRS-painokertoimet vaikuttavat korttien ajoitukseen. Anki aloittaa oletusarvoisilla parametreilla. Voit käyttää alla olevaa valintaa optimoidaksesi painokertoimet, jotta ne vastaavat parhaiten tasoasi tätä esiasetusta käyttävissä pakoissa.
 deck-config-reschedule-cards-on-change-tooltip = Tällä valinnalla määritetään, muutetaanko korttien eräpäiviä, kun otat FSRS:n käyttöön tai muutat painokertoimia. Oletusarvoisesti kortteja ei ajoiteta uudelleen: tulevissa tarkistuksissa käytetään uutta ajoitusta, mutta työmäärään ei tule välitöntä muutosta. Jos aikataulun muuttaminen otetaan käyttöön, korttien eräpäiviä muutetaan.
 deck-config-reschedule-cards-warning = Riippuen toivomastasi retentioajasta, tämä voi johtaa siihen, että suuri määrä kortteja erääntyy, joten sitä ei suositella, kun siirryt ensimmäistä kertaa SM2:sta.
 deck-config-ignore-before-tooltip-2 =
     Jos tämä asetetaan, ennen annettua päivämäärää tarkistettuja kortteja ei oteta huomioon FSRS-parametreja optimoitaessa.
     Tämä voi olla hyödyllistä, jos olet tuonut jonkun toisen aikataulutiedot tai muuttanut tapaa, jolla käytät vastauspainikkeita.
 deck-config-compute-optimal-weights-tooltip2 =
-    Kun painat Optimoi-painiketta, FSRS analysoi kertaushistoriasi ja luo parametrit, jotka ovat optimaaliset muistisi ja opiskelemasi sisällön kannalta. Jos eri pakkojen vaikeusasteiden välillä on suuria eroja, on suositeltavaa määrittää niille erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen parametrit tulevat olemaan erilaiset. Parametrejä ei tarvitse optimoida usein - kerta muutaman kuukauden välein riittää.
-    Oletusarvoisesti parametrit lasketaan kaikkien nykyistä esiasetusta käyttävien pakkojen kertaushistoriasta. Voit valinnaisesti säätää hakua ennen parametrien laskemista, jos haluat vaikuttaa siihen, mitä kortteja käytetään parametrien optimointiin.
+    Kun painat Optimoi-painiketta, FSRS analysoi kertaushistoriasi ja luo painokertoimet, jotka ovat optimaaliset muistisi ja opiskelemasi sisällön kannalta. Jos eri pakkojen vaikeusasteiden välillä on suuria eroja, on suositeltavaa määrittää niille erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen painokertoimet tulevat olemaan erilaiset. Painokertoimia ei tarvitse optimoida usein – kerta muutaman kuukauden välein riittää.
+    Oletusarvoisesti painokertoimet lasketaan kaikkien nykyistä esiasetusta käyttävien pakkojen kertaushistoriasta. Voit valinnaisesti säätää hakua ennen painokertoimien laskemista, jos haluat vaikuttaa siihen, mitä kortteja käytetään painokertoimien optimointiin.
 deck-config-compute-optimal-retention-tooltip4 =
     Tämä työkalu yrittää löytää sopivan retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa.
     Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota tätä arvoa alhaisemmaksi, koska se tekee unohtamisesta todennäköisempää ja näin ollen lisää työmäärää.
@@ -375,6 +406,10 @@ deck-config-additional-new-cards-to-simulate = Simulaatioon sisällytettävät u
 deck-config-simulate = Simuloi
 deck-config-clear-last-simulate = Poista viimeisin simulaatio
 deck-config-fsrs-simulator-radio-count = Kertaukset
+deck-config-advanced-settings = Lisäasetukest
+deck-config-smooth-graph = Sulavalinjainen kuvaaja
+deck-config-suspend-leeches = Hyllytä resurssisyöpöt
+deck-config-save-options-to-preset = Tallenna muutokset esiasetuksiin
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
