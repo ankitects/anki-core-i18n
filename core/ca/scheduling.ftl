@@ -78,7 +78,7 @@ scheduling-today-review-limit-reached =
     per repassar. Per a una memorització òptima, considereu
     augmentar el límit diari en la configuració.
 scheduling-today-new-limit-reached = Hi ha més targetes noves disponibles, però heu arribat al límit diari. Podeu augmentar aquest límit en la configuració, però aneu amb compte: com més targetes noves introduïu, més augmentarà la vostra càrrega de treball a curt termini.
-scheduling-buried-cards-found = S'han enterrat una o més targetes, que es mostraran demà. Podeu { $unburyThem } si voleu veure-les immediatament.
+scheduling-buried-cards-found = Una o més targetes enterrades es mostraran demà. Podeu { $unburyThem } si voleu repassar-les ara.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = desenterrar-les
