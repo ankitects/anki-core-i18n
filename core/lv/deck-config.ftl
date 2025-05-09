@@ -12,7 +12,7 @@ deck-config-used-by-decks =
        *[other] ir izmantota { $decks } kavās
     }
 deck-config-default-name = Noklusējums
-deck-config-title = Kavu opcijas
+deck-config-title = Kavu iespējas
 
 ## Daily limits section
 
