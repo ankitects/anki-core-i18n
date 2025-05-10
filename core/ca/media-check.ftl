@@ -22,7 +22,7 @@ media-check-renamed-header = S'ha canviat el nom d'alguns fitxers per qüestions
 media-check-oversize-header = Els fitxers de més de 100 MB no poden sincronizar-se amb AnkiWeb.
 media-check-subfolder-header = Anki no és compatible amb la creació de subcarpetes dins de la carpeta de fitxers multimèdia.
 media-check-missing-header = Hi ha targetes que fan referència als fitxers següents, tot i que no s'han trobat en la carpeta dels fitxers multimèdia:
-media-check-unused-header = La carpeta multimèdia conté els següents fitxers, tot i que cap targeta els fa servir:
+media-check-unused-header = La carpeta multimèdia conté els següents fitxers, però cap targeta els fa servir:
 media-check-template-references-field-header =
     Anki no pot detectar els fitxers si feu servir { "{{Field}}" } referències en les etiquetes multimèdia o LaTeX. Afegiu les etiquetes multimèdia o LaTeX a cada nota de manera individual.
     
