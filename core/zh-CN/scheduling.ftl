@@ -51,7 +51,7 @@ scheduling-custom-study = 自定义学习
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Anki 2.1 搭载了新版的排程算法，解决了旧版本 Anki 中存在的一些问题。推荐更新。
+scheduling-update-soon = Anki 2.1 采用了新版的排程算法，解决了旧版本 Anki 中存在的一些问题。推荐更新。
 scheduling-update-done = 已成功更新排程算法。
 scheduling-update-button = 更新
 scheduling-update-later-button = 稍后
@@ -92,7 +92,7 @@ scheduling-new-interval = 「重来」复习间隔乘数
 scheduling-new-options-group-name = 新设置组名称：
 scheduling-options-group = 设置组：
 scheduling-order = 顺序
-scheduling-parent-limit = （父牌组上限: { $val }）
+scheduling-parent-limit = （父牌组上限：{ $val }）
 scheduling-reset-counts = 复习和遗忘次数归零
 scheduling-restore-position = 如可能，恢复初始位置。
 scheduling-review = 复习

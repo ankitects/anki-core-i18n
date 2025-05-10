@@ -424,7 +424,7 @@ deck-config-desired-retention-below-optimal = 您期望的记忆保留率低于�
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-experimental = FSRS 模拟器 (实验性功能)
+deck-config-fsrs-simulator-experimental = FSRS 模拟器（实验性功能）
 deck-config-additional-new-cards-to-simulate = 模拟中添加的新卡片数
 deck-config-simulate = 开始模拟
 deck-config-clear-last-simulate = 清除上次模拟

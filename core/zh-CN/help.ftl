@@ -16,5 +16,5 @@ help-no-explanation =
 ## Footer
 
 # Link to more detailed information in the manual
-help-for-more-info = 更多信息，请参阅帮助手册中的{ $link }。
+help-for-more-info = 更多信息，请参阅帮助手册中的 { $link }。
 help-ok = 确定
