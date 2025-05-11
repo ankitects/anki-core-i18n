@@ -88,7 +88,7 @@ deck-config-new-insertion-order-tooltip =
     שינוי הגדרה זו יעדכן אוטומטית את המיקום הקיים של כרטיסים חדשים.
 deck-config-new-insertion-order-sequential = לפי סדר הוספה (הכרטיסים הישנים ראשונים)
 deck-config-new-insertion-order-random = אקראי
-deck-config-new-insertion-order-random-with-v3 = עם מתזמן V3, עדיף להשאיר את הסט הזה לרצף, ולהתאים את סדר איסוף הכרטיסים החדש במקום זאת.
+deck-config-new-insertion-order-random-with-v3 = עם מתזמן V3, עדיף להשאיר את ההגדרה הזו לרצף, ולהתאים את סדר איסוף הכרטיסים החדש במקום זאת.
 
 ## Lapses section
 
@@ -136,8 +136,8 @@ deck-config-bury-priority-tooltip =
 
 ## Gather order and sort order of cards
 
-deck-config-ordering-title = סדר תצוגה
-deck-config-new-gather-priority = סדר איסוף כרטיס חדש
+deck-config-ordering-title = סדר חזרה
+deck-config-new-gather-priority = קדימות לאיסוף כרטיס חדש
 deck-config-new-gather-priority-tooltip-2 =
     `חפיסה`: לחזרה נאספים כרטיסים מכל חפיסה לפי הסדר, החל מלמעלה. כרטיסים מכל חפיסה נאספים בסדר עולה. אם הכמות עולה על ההגבלה היומית של החפיסה שנבחרה, ייתכן שהאיסוף ייפסק לפני שכל החפיסות נבדקו. הסדר הזה הוא המהיר ביותר באוספים גדולים, ומאפשר לך לתעדף תת-חפיסות הקרובות יותר לראש.
     
@@ -148,7 +148,7 @@ deck-config-new-gather-priority-tooltip-2 =
     `רשומות אקראיות`: אוסף כרטיסים של רשומות שנבחרו באקראי. כאשר 'הטמנת אחים' מושבתת, זה מאפשר לראות את כל הכרטיסים  של הרשומה בהפעלה (למשל, גם כרטיס קדמי->אחורי וגם אחורי->כרטיס קדמי)
     
     `כרטיסים אקראיים`: אוסף כרטיסים באופן אקראי לחלוטין.
-deck-config-new-card-sort-order = סדר מיון כרטיסים חדש
+deck-config-new-card-sort-order = סדר חזרה של כרטיסים חדשים
 deck-config-new-card-sort-order-tooltip-2 =
     `תבנית כרטיס`: מציג כרטיסים בסדר תבנית כרטיס. אם 'הטמנת אחים' מושבתת, זה יבטיח שכל הכרטיסים הקדמיים->אחוריים ייראו לפני כל הכרטיסים  האחוריים->קדמיים.
     
