@@ -184,6 +184,12 @@ scheduling-set-due-date-done =
         [one] הוגדר תאריך יעד לכרטיס אחד.
        *[other] הוגדר תאריך יעד ל{ $cards } כרטיסים.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] כרטיס אחד דורג
+        [two] { $cards } כרטיסים דורגו
+       *[other] { $cards } כרטיסים דורגו
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] כרטיס { $cards } נשכח.

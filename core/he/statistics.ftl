@@ -130,6 +130,7 @@ statistics-counts-separate-suspended-buried-cards = הצג בנפרד כרטיס
 
 statistics-true-retention-title = שימור אמיתי
 statistics-true-retention-subtitle = שיעור מעבר של כרטיסים עם מרווח של ≥ 1 יום.
+statistics-true-retention-tooltip = אם אתם משתמשים ב-FSRS, צפויה רמת השמירה האמיתית שלכם להיות קרובה לרמת השמירה הרצויה. שימו לב שנתונים ליום בודד הם לא מדויקים, לכן עדיף להסתכל על נתונים חודשיים.
 statistics-true-retention-range = טווח
 statistics-true-retention-pass = עבר
 statistics-true-retention-fail = נכשל
@@ -164,7 +165,7 @@ statistics-card-ease-title = קלות הכרטיס
 statistics-card-difficulty-title = קושי כרטיס
 statistics-card-stability-title = יציבות כרטיס
 statistics-card-stability-subtitle = כרטיסים במרווח שבו יש לך סיכוי של 90% לזכור.
-statistics-average-stability = יציבות ממוצעת
+statistics-median-stability = יציבות חציונית
 statistics-card-retrievability-title = אחזור כרטיס
 statistics-card-ease-subtitle = ככל שהקלות נמוכה יותר, כך גוברת התדירות שהכרטיס יופיע.
 statistics-card-difficulty-subtitle2 = ככל שהקושי גבוה יותר, היציבות איטית יותר תגדל.
@@ -272,12 +273,20 @@ statistics-elapsed-time-years = { $amount } שנ'
 ##
 
 statistics-average-for-days-studied = ממוצע עבור ימים שנלמדו
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = סך-הכל
 statistics-days-studied = ימי לימוד
 statistics-average-answer-time-label = זמן תשובה ממוצע
 statistics-average = ממוצע
-statistics-average-interval = מרווח ממוצע
+statistics-median-interval = טווח חציוני
 statistics-due-tomorrow = מתוזמן למחר
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = עומס יומי
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } מתוך { $total } ({ $percent }%)
@@ -297,11 +306,19 @@ statistics-cards-per-day =
         [one] { $count } כרטיס ליום
        *[other] { $count } כרטיסים ליום
     }
-statistics-average-ease = קלות ממוצעת
-statistics-average-difficulty = קושי ממוצע
+statistics-median-ease = קלות חציונית
+statistics-median-difficulty = קושי חציוני
 statistics-average-retrievability = יכולת אחזור ממוצעת
 statistics-estimated-total-knowledge = ידע כולל משוער
 statistics-save-pdf = שמור כ-PDF
 statistics-saved = נשמר.
 statistics-stats = סטטיסטיקה
 statistics-title = סטטיסטיקה
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = יציבות ממוצעת
+statistics-average-interval = מרווח ממוצע
+statistics-average-ease = קלות ממוצעת
+statistics-average-difficulty = קושי ממוצע

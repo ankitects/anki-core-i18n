@@ -1,5 +1,17 @@
 actions-add = הוספה
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = כל אלו שנבחרו
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = כל אחד שנבחר
 actions-cancel = ביטול
 actions-choose = בחירה
@@ -38,6 +50,8 @@ actions-select = בחירה
 actions-shortcut-key = מקש קיצור: { $val }
 actions-suspend-card = השהה כרטיס
 actions-set-due-date = הגדר תאריך יעד
+actions-toggle-load-balancer = הפעל/כבה את מאזן העומסים
+actions-grade-now = דרג עכשיו
 actions-answer-card = ענה על כרטיס
 actions-unbury-unsuspend = הוצא מהטמנה/השהיה
 actions-add-deck = הוסף חפיסה
@@ -58,10 +72,12 @@ actions-previous-card-info = מידע כרטיס קודם
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = מצב מסך מלא אינו נתמך עבור דרייבר הווידאו שלך. נסה לעבור לדרייבר אחר בחלון ההעדפות.
-
-## Flags
-
 actions-flag-number = דגל#{ $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = אדום
 actions-flag-orange = כתום
 actions-flag-green = ירוק
@@ -69,6 +85,9 @@ actions-flag-blue = כחול
 actions-flag-pink = ורוד
 actions-flag-turquoise = טורקיז
 actions-flag-purple = סגול
+
+##
+
 actions-set-flag = הצבת דגל
 actions-nothing-to-undo = אין מה לבטל
 actions-nothing-to-redo = אין מה לבצע שוב

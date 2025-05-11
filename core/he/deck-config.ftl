@@ -134,7 +134,7 @@ deck-config-bury-priority-tooltip =
     אם הושבתה הטמנת הכרטיסים החדשים וכעת נלמד כרטיס חדש, זה לא יטמין שום
     כרטיסי למידה או סקירה, וייתכן שתראה גם אח חזרה וגם אח חדש באותה חזרה.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = סדר תצוגה
 deck-config-new-gather-priority = סדר איסוף כרטיס חדש
@@ -148,12 +148,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `רשומות אקראיות`: אוסף כרטיסים של רשומות שנבחרו באקראי. כאשר 'הטמנת אחים' מושבתת, זה מאפשר לראות את כל הכרטיסים  של הרשומה בהפעלה (למשל, גם כרטיס קדמי->אחורי וגם אחורי->כרטיס קדמי)
     
     `כרטיסים אקראיים`: אוסף כרטיסים באופן אקראי לחלוטין.
-deck-config-new-gather-priority-deck = חפיסה
-deck-config-new-gather-priority-deck-then-random-notes = חפיסה ואח"כ רשומות אקראיות
-deck-config-new-gather-priority-position-lowest-first = סדר עולה
-deck-config-new-gather-priority-position-highest-first = סדר יורד
-deck-config-new-gather-priority-random-notes = רשומות אקראיות
-deck-config-new-gather-priority-random-cards = כרטיסים אקראיים
 deck-config-new-card-sort-order = סדר מיון כרטיסים חדש
 deck-config-new-card-sort-order-tooltip-2 =
     `תבנית כרטיס`: מציג כרטיסים בסדר תבנית כרטיס. אם 'הטמנת אחים' מושבתת, זה יבטיח שכל הכרטיסים הקדמיים->אחוריים ייראו לפני כל הכרטיסים  האחוריים->קדמיים.
@@ -165,11 +159,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `רשומה אקראית, ואז תבנית כרטיס`: בוחר רשומות באקראי, ואז מציג את כל האחים שלהן לפי הסדר.
     
     `אקראי`: מערבב במלואו את הכרטיסים שנאספו.
-deck-config-sort-order-card-template-then-random = תבנית כרטיס, ולאחר מכן סדר אקראי
-deck-config-sort-order-random-note-then-template = רשומה אקראית. ואז, תבנית כרטיס
-deck-config-sort-order-random = אקראי
-deck-config-sort-order-template-then-gather = תבנית כרטיס ולאחר מכן בסדר האסיפה
-deck-config-sort-order-gather = סדר האסיפה
 deck-config-new-review-priority = סדר חדש/חזרה
 deck-config-new-review-priority-tooltip = מתי להציג כרטיסים חדשים ביחס לכרטיסי חזרה.
 deck-config-interday-step-priority = סדר למידה/חזרה יומית
@@ -177,9 +166,6 @@ deck-config-interday-step-priority-tooltip =
     מתי להציג (מחדש) כרטיסי למידה שנותרו מאתמול.
     
     במידה וכמות הכרטיסים לחזרה וללמידה גדולים מהמגבלה היומית, המגבלה תחול על הכרטיסים לחזרה ולא על אלה שללמידה. הגדרה זו משפיעה על הסדר שבו יוצגו הכרטיסים לאחר שנקבע אילו כרטיסים יופיעו היום במסגרת המגבלה היומית, אבל לא תשפיע על אילו כרטיסים לא יופיעו כלל.
-deck-config-review-mix-mix-with-reviews = ערבב עם חזרות
-deck-config-review-mix-show-after-reviews = הצג לאחר חזרות
-deck-config-review-mix-show-before-reviews = הצג לפני חזרות
 deck-config-review-sort-order = מיין סדר חזרה
 deck-config-review-sort-order-tooltip =
     סדר ברירת המחדל נותן עדיפות לכרטיסים שחיכו הכי הרבה זמן, כך
@@ -188,20 +174,62 @@ deck-config-review-sort-order-tooltip =
     לך מספר ימים עד שתסיים אותה או שאתה מעוניין לראות
     כרטיסים לפי הסדר של תתי החפיסות, ייתכן שתמצא את פקודות המיון
     החליפיות עדיפות.
-deck-config-sort-order-due-date-then-random = תאריך יעד, ואז אקראי
-deck-config-sort-order-due-date-then-deck = תאריך יעד, ואז חפיסה
-deck-config-sort-order-deck-then-due-date = חפיסה, ואז תאריך היעד
-deck-config-sort-order-ascending-intervals = מרווחים עולים
-deck-config-sort-order-descending-intervals = מרווחים יורדים
-deck-config-sort-order-ascending-ease = קלות עולה
-deck-config-sort-order-descending-ease = קלות יורדת
-deck-config-sort-order-ascending-difficulty = קושי בסדר עולה
-deck-config-sort-order-descending-difficulty = קושי בסדר יורד
-deck-config-sort-order-retrievability-ascending = יכולת אחזור עולה
-deck-config-sort-order-retrievability-descending = יכולת אחזור יורדת
 deck-config-display-order-will-use-current-deck =
     אנקי ישתמש בהגדרת סדר החזרות לפי החפיסה שאתה 
     בוחר ללמוד, ולא לפי ההגדרות של תתי -החפיסה שלה.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = חפיסה
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = חפיסה ואח"כ רשומות אקראיות
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = סדר עולה
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = סדר יורד
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = רשומות אקראיות
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = כרטיסים אקראיים
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = תבנית כרטיס, ולאחר מכן סדר אקראי
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = רשומה אקראית. ואז, תבנית כרטיס
+# Sort the cards randomly.
+deck-config-sort-order-random = אקראי
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = תבנית כרטיס ולאחר מכן בסדר האסיפה
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = סדר האסיפה
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = ערבב עם חזרות
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = הצג לאחר חזרות
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = הצג לפני חזרות
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = תאריך יעד, ואז אקראי
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = תאריך יעד, ואז חפיסה
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = חפיסה, ואז תאריך היעד
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = מרווחים עולים
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = מרווחים יורדים
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = קלות עולה
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = קלות יורדת
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = קושי בסדר עולה
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = קושי בסדר יורד
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = יכולת אחזור עולה
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = יכולת אחזור יורדת
 
 ## Timer section
 
@@ -330,6 +358,8 @@ deck-config-learning-step-above-graduating-interval = מרווח הסיום צר
 deck-config-good-above-easy = המרווח הקל צריך להיות ארוך לפחות כמו מרווח הסיום.
 deck-config-relearning-steps-above-minimum-interval = מרווח הזמן המזערי המינימלי צריך להיות לפחות כמו שלב הלימוד מחדש הסופי שלך.
 deck-config-maximum-answer-secs-above-recommended = אנקי יכול לתזמן את החזרות שלך בצורה יעילה יותר כאשר אתה מקצר כל שאלה.
+deck-config-too-short-maximum-interval = מרווח זמן מקסימלי של פחות מ- 6 חודשים אינו מומלץ.
+deck-config-ignore-before-info = { $included }/{ $totalCards } כרטיסים (בערך) ישמשו לאופטימיזציה של פרמטרי FSRS.
 
 ## Selecting a deck
 
@@ -435,6 +465,10 @@ deck-config-additional-new-cards-to-simulate = כרטיסים חדשים נוס�
 deck-config-simulate = צור סימולציה
 deck-config-clear-last-simulate = נקה סימולציה אחרונה
 deck-config-fsrs-simulator-radio-count = חזרות
+deck-config-advanced-settings = הגדרות מתקדמות
+deck-config-smooth-graph = גרף חלק
+deck-config-suspend-leeches = השהה כרטיסי עלוקה
+deck-config-save-options-to-preset = שמור שינויים בקבוצת הגדרות
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
