@@ -1,9 +1,20 @@
-scheduling-answer-button-time-seconds = { $amount } s
-scheduling-answer-button-time-minutes = { $amount } m
-scheduling-answer-button-time-hours = { $amount } h
-scheduling-answer-button-time-days = { $amount } t
-scheduling-answer-button-time-months = { $amount } mo
-scheduling-answer-button-time-years = { $amount } j
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
+scheduling-answer-button-time-seconds = { $amount } s
+scheduling-answer-button-time-minutes = { $amount } min
+scheduling-answer-button-time-hours = { $amount } h
+scheduling-answer-button-time-days = { $amount } d
+scheduling-answer-button-time-months = { $amount } mon.
+scheduling-answer-button-time-years = { $amount } a
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
 scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } sekundo
@@ -34,6 +45,9 @@ scheduling-time-span-years =
         [one] { $amount } jaro
        *[other] { $amount } jaroj
     }
+
+## Shown in the "Congratulations!" message after study finishes.
+
 scheduling-congratulations-finished = Gratulon! Vi finis ĉi tiun kartaron por hodiaŭ.
 scheduling-today-review-limit-reached =
     La hodiaŭa ripetlimigo estas atingita, sed ankoraŭ ĉeestas
@@ -43,7 +57,12 @@ scheduling-today-new-limit-reached =
     Ĉeestas ankoraŭ pli da kartoj, sed la taga limigo estis atingita. Vi povas
     kreski la limigon ĉe la opcioj, sed bonvolu teni en la kapo ke ju pli da kartoj
     vi enkondukas, des pli ŝarĝanta via mallongdaŭra ripetado estos.
-scheduling-buried-cards-were-delayed = Kelkaj rilataj aŭ portage kaŝitaj kartoj estis flankenmetitaj. Ili reaperos en posta seanco.
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-always-include-question-side-when-replaying = Ĉiam inkluzivi la demandoflankon dum la reludo de sono
 scheduling-at-least-one-step-is-required = Almenaŭ unu paŝo necesas.
 scheduling-automatically-play-audio = Aŭtomate ludi sonon
@@ -91,7 +110,8 @@ scheduling-steps-must-be-numbers = Paŝoj devas esti nombroj.
 scheduling-tag-only = Aldoni nur etikedon
 scheduling-the-default-configuration-cant-be-removed = La apriora agordo ne povas esti forigita.
 scheduling-your-changes-will-affect-multiple-decks = Viaj ŝanĝoj efikos sur multaj kartaroj. Se vi nur volas ŝanĝi la aktualan kartaron, bonvolu unue aldoni novan opciogrupon.
-scheduling-deck-updated = { $count ->
-    [one] { $count } kartaro estas ĝisdatigita.
-   *[other] { $count } kartaroj estas ĝisdatigitaj.
-  }
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } kartaro estas ĝisdatigita.
+       *[other] { $count } kartaroj estas ĝisdatigitaj.
+    }
