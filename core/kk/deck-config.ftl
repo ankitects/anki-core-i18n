@@ -120,6 +120,7 @@ deck-config-audio-title = Аудио
 
 deck-config-advanced-title = Қосымша
 deck-config-custom-scheduling = Өзгертпелі жоспарлау
+deck-config-custom-scheduling-tooltip = Бүкіл жинаққа әсер етеді. Жауапкершілік өзіңізде!
 
 # Easy Days section
 
