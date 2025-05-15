@@ -39,7 +39,7 @@ notetypes-type = Typ
 ## Image Occlusion
 
 notetypes-image = Bild
-notetypes-occlusion = Verdeckung
+notetypes-occlusion = Bildverdeckung
 notetypes-occlusion-mask = Verdecken
 notetypes-occlusion-note = Notiz
 notetypes-comments-field = Kommentare
@@ -51,7 +51,7 @@ notetypes-error-generating-cloze = Es ist ein Fehler beim Erstellen einer Bildve
 notetypes-error-getting-imagecloze = Es ist ein Fehler beim Abrufen einer Bildverdeckungsnotiz aufgetreten.
 notetypes-error-loading-image-occlusion = Fehler beim Laden der Bildverdeckung. Ist Ihre Anki-Version aktuell?
 notetype-error-no-image-to-show = Kein Bild zum Anzeigen
-notetypes-no-occlusion-created = Bitte zumindest eine Stelle verdecken.
-notetypes-no-occlusion-created2 = Erstellen nicht möglich. Sie haben entweder keine Verdeckungen hinzugefügt oder das erste Feld ist leer.
+notetypes-no-occlusion-created = Bitte zumindest eine Stelle des Bildes verdecken.
+notetypes-no-occlusion-created2 = Erstellen nicht möglich. Sie haben entweder keine Bildverdeckungen hinzugefügt oder das erste Feld ist leer.
 notetypes-io-select-image = Bild auswählen
 notetypes-io-paste-image-from-clipboard = Bild aus Zwischenablage einfügen

@@ -80,8 +80,8 @@ editing-image-occlusion-zoom-reset = Zoom zurücksetzen
 editing-image-occlusion-toggle-translucent = Transparenz ein-/ausschalten
 editing-image-occlusion-delete = Löschen
 editing-image-occlusion-duplicate = Duplizieren
-editing-image-occlusion-group = Gruppenauswahl
-editing-image-occlusion-ungroup = Gruppierung der Auswahl aufheben
+editing-image-occlusion-group = Gruppieren
+editing-image-occlusion-ungroup = Gruppierung aufheben
 editing-image-occlusion-select-all = Alle auswählen
 editing-image-occlusion-alignment = Ausrichtung
 editing-image-occlusion-align-left = Links ausrichten
@@ -97,8 +97,8 @@ editing-image-occlusion-ellipse-tool = Ellipse
 editing-image-occlusion-polygon-tool = Vieleck
 editing-image-occlusion-text-tool = Text
 editing-image-occlusion-toggle-mask-editor = Maskeneditor ein-/ausschalten
-editing-image-occlusion-reset = Verdeckung zurücksetzen
-editing-image-occlusion-confirm-reset = Sind Sie sicher, dass Sie diese Verdeckung zurücksetzen wollen?
+editing-image-occlusion-reset = Bildverdeckung zurücksetzen
+editing-image-occlusion-confirm-reset = Sind Sie sicher, dass Sie diese Bildverdeckung zurücksetzen wollen?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
