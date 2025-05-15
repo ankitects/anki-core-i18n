@@ -14,10 +14,11 @@ importing-change = Ändern
 importing-colon = Doppelpunkt
 importing-comma = Komma
 importing-empty-first-field = Erstes Feld ist leer: { $val }
-importing-field-separator = Feld-Trennzeichen
+importing-field-separator = Feldtrennzeichen
+importing-field-separator-guessed = Feldtrennzeichen (automatisch erkannt)
 importing-field-mapping = Feldzuordnung
 importing-field-of-file-is = Feld <b>{ $val }</b> der Datei ist:
-importing-fields-separated-by = Feld-Trennzeichen: { $val }
+importing-fields-separated-by = Feldtrennzeichen: { $val }
 importing-file-must-contain-field-column = Die Datei muss mindestens eine Spalte beinhalten, die einem Notizfeld zugeordnet werden kann.
 importing-file-version-unknown-trying-import-anyway = Die Dateiversion ist unbekannt. Es wird trotzdem versucht, den Import durchzuführen.
 importing-first-field-matched = Erstes Feld stimmt überein mit: { $val }
@@ -42,7 +43,7 @@ importing-merge-notetypes-help =
     
     Hinweis: Wenn Sie diese Einstellung aktivieren, kann dies ggf. eine Einweg-Synchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
-importing-multicharacter-separators-are-not-supported-please = Der Separator zum Trennen von Datenfeldern kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehender Separator wird nicht unterstützt.
+importing-multicharacter-separators-are-not-supported-please = Das Feldtrennzeichen kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehendes Feldtrennzeichen wird nicht unterstützt.
 importing-notes-added-from-file = Notizen hinzugefügt aus Datei: { $val }
 importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in Ihrer Sammlung befinden: { $val }
@@ -208,9 +209,11 @@ importing-note-skipped-due-to-missing-notetype = Notiz übersprungen, Notiztyp f
 importing-note-skipped-due-to-missing-deck = Notiz übersprungen, Stapel fehlt
 importing-note-skipped-due-to-empty-first-field = Notiz übersprungen, erstes Feld ist leer
 importing-field-separator-help =
-    Das Separator-Zeichen, das die verschiedenen Felder in der Text-Datei trennt. Sie können die Vorschau verwenden, um zu prüfen, ob die Felder korrekt getrennt werden.
+    Das Zeichen, das die verschiedenen Felder in der Textdatei trennt. In der Vorschau können Sie prüfen, ob die Felder korrekt getrennt werden.
     
-    Beachte: Falls das Separator-Zeichen auch innerhalb eines Feldes auftaucht, muss dieses Feld korrekt (d.h. dem CSV-Standard gemäß) formatiert werden. Tabellenkalkulationsprogramme wie LibreOffice tun das automatisch.
+    Falls das Feldtrennzeichen selbst auch innerhalb eines Feldes vorkommt, muss dieses Feld dem CSV-Standard gemäß in Anführungszeichen gesetzt werden. Tabellenkalkulationen wie LibreOffice erledigen dies automatisch.
+    
+    Das Feldtrennzeichen kann nicht geändert werden, wenn die Textdatei in einer Kopfzeile die Verwendung eines bestimmten Feldtrennzeichens vorschreibt. Ist keine Kopfzeile vorhanden, versucht Anki, das Trennzeichen automatisch zu erkennen.
 importing-allow-html-in-fields-help = Aktivieren Sie diese Einstellung, falls die Datei HTML-Formatierungen enthält wie z.B. "&lt;br&gt;". Falls deaktiviert, werden diese Zeichen in Ihren Karten nicht als Zeilenumbruch angezeigt, sondern buchstäblich als "&lt;br&gt;".
 importing-notetype-help =
     Neu importierte Notizen wird dieser Notiztyp zugewiesen und nur bestehende Notizen mit diesem Notiztyp werden aktualisiert.
