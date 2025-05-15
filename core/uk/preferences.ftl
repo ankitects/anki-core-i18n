@@ -87,6 +87,12 @@ preferences-third-party-description = Сторонні сервіси не по�
 
 preferences-url-schemes = Схеми URL
 preferences-url-scheme-prompt = Дозволені { preferences-url-schemes } (відокремлені пробілами):
+preferences-url-scheme-warning =
+    Відкривання `{ $link }` заблоковано, ймовірно, з міркувань безпеки.
+    
+     Додайте `{ $scheme }` у дозволені { preferences-url-schemes }, якщо довіряєте автору колоди та хочете продовжити.
+preferences-url-scheme-allow-once = Дозволити цього разу
+preferences-url-scheme-always-allow = Дозволяти завжди
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
