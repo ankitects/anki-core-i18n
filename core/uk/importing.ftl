@@ -15,6 +15,7 @@ importing-colon = Двокрапка
 importing-comma = Кома
 importing-empty-first-field = Порожнє перше поле: { $val }
 importing-field-separator = Поля розділює
+importing-field-separator-guessed = Роздільник полів (здогадка)
 importing-field-mapping = Відповідність полів
 importing-field-of-file-is = Поле <b>{ $val }</b> з файлу:
 importing-fields-separated-by = Поля, розділені: { $val }

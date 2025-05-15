@@ -83,6 +83,11 @@ preferences-ankiweb-intro = AnkiWeb це безкоштовний сервіс, 
 preferences-ankihub-intro = AnkiHub забезпечує спільне редагування колод та інші засоби навчання. Щоб отримати доступ слід оформити платну підписку.
 preferences-third-party-description = Сторонні сервіси не пов'язані з Anki і їх робота не гарантована. Доступ до таких сервісів може бути платним.
 
+## URL scheme related
+
+preferences-url-schemes = Схеми URL
+preferences-url-scheme-prompt = Дозволені { preferences-url-schemes } (відокремлені пробілами):
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Базова
