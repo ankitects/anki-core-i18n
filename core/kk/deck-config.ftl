@@ -172,6 +172,7 @@ deck-config-answer-again = Қайтадан Деу
 deck-config-answer-hard = Қиын Деу
 deck-config-answer-good = Жақсы Деу
 deck-config-fsrs-simulator-radio-count = Шолулар
+deck-config-smooth-graph = Тегіс график
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
