@@ -108,7 +108,7 @@ deck-config-maximum-answer-secs = Жауап беру уақытының шег�
 ## Auto Advance section
 
 deck-config-question-action-show-answer = Жауабын Көрсету
-deck-config-question-action-show-reminder = Қалғанын Көрсету
+deck-config-question-action-show-reminder = Ескерткішті Көрсету
 deck-config-question-action = Сұрақ әрекеті
 deck-config-answer-action = Жауап әрекеті
 
@@ -154,6 +154,7 @@ deck-config-save-button = Сақтау
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ қолдауы
 
 ## Warnings shown to the user
 
@@ -163,16 +164,30 @@ deck-config-save-button = Сақтау
 
 ## Messages related to the FSRS scheduler
 
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS параметрлері
 deck-config-compute-button = Есептеу
+deck-config-ignore-before = Бұрын шолынған карталарды елемеу
 deck-config-evaluate-button = Бағалау
 deck-config-get-params = Баптауларды Алу
+deck-config-complete = { $num }% аяқталған.
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
+deck-config-a-100-day-interval = 100 күн аралық { $days } күн болады.
+deck-config-percent-of-reviews = { $reviews } шолудың { $pct }%-ы
 deck-config-percent-input = { $pct }%
+deck-config-fsrs-must-be-enabled = Алдымен FSRS қосылуы керек.
+deck-config-show-reminder = Ескерткішті Көрсету
 deck-config-answer-again = Қайтадан Деу
 deck-config-answer-hard = Қиын Деу
 deck-config-answer-good = Жақсы Деу
 deck-config-fsrs-simulator-radio-count = Шолулар
+deck-config-advanced-settings = Қосымша Баптаулар
 deck-config-smooth-graph = Тегіс график
+deck-config-save-options-to-preset = Өзгерістерді Баптамаға Сақтау
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Жатталған
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
