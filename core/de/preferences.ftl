@@ -81,6 +81,17 @@ preferences-ankiweb-intro = AnkiWeb ist ein kostenloser Dienst, der es Ihnen erm
 preferences-ankihub-intro = AnkiHub ermöglicht gemeinsames Bearbeiten von Stapeln und bietet zusätzliche Lernwerkzeuge. Einige Funktionen erfordern ein kostenpflichtiges Abonnement.
 preferences-third-party-description = Dienste von Drittanbieter stehen in keiner Verbindung zu Anki. Die Nutzung dieser Dienste kann kostenpflichtig sein.
 
+## URL scheme related
+
+preferences-url-schemes = URL-Schemata
+preferences-url-scheme-prompt = Erlaubte { preferences-url-schemes } (durch Leerzeichen getrennt):
+preferences-url-scheme-warning =
+    Der Versuch, `{ $link }` zu öffnen, wurde blockiert, da dies ein Sicherheitsproblem darstellen könnte.
+    
+    Sollten Sie dem Autoren Ihres Stapels vertrauen, können Sie `{ $scheme }` zu Ihren erlaubten { preferences-url-schemes } hinzufügen.
+preferences-url-scheme-allow-once = Einmalig erlauben
+preferences-url-scheme-always-allow = Immer erlauben
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Einfach

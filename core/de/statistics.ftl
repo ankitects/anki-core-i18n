@@ -229,6 +229,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Von { $hourStart }:00 bis { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } richtig ({ $percent }%)
+statistics-hours-correct-info = → (nicht „Nochmal“)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = { $reviews } Wiederholungen
 # the emoji depicts the graph displaying this number
