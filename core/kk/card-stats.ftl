@@ -11,7 +11,7 @@ card-stats-new-card-position = Орын
 card-stats-card-template = Карта Түрі
 card-stats-note-type = Жазба Түрі
 card-stats-deck-name = Колода
-card-stats-preset = Белгіленім
+card-stats-preset = Баптама
 card-stats-note-id = Жазба ID
 card-stats-card-id = Карта ID
 card-stats-review-log-rating = Баға
@@ -40,3 +40,6 @@ card-stats-fsrs-forgetting-curve-all-time = Толық Уақыт
 
 card-stats-current-card = Ағымдағы Карта ({ $context })
 card-stats-previous-card = Алдыңғы Карта ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
