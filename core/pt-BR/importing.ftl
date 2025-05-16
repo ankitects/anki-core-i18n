@@ -15,6 +15,7 @@ importing-colon = Dois pontos
 importing-comma = Vírgula
 importing-empty-first-field = Primeiro campo vazio: { $val }
 importing-field-separator = Separador de campo
+importing-field-separator-guessed = Separador de campo (detectado auto)
 importing-field-mapping = Mapeamento de campo
 importing-field-of-file-is = Campo <b>{ $val }</b> do arquivo é:
 importing-fields-separated-by = Campos separados por: { $val }

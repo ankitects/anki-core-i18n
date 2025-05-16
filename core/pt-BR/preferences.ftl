@@ -83,6 +83,17 @@ preferences-ankiweb-intro = AnkiWeb é um serviço gratuito que permite manter o
 preferences-ankihub-intro = AnkiHub fornece edição colaborativa de baralhos e ferramentas de estudo adicionais. Uma assinatura paga é necessária para acessar certos recursos.
 preferences-third-party-description = Serviços de terceiros não são afiliados e não são endossados ​​pelo Anki. O uso desses serviços pode exigir pagamento.
 
+## URL scheme related
+
+preferences-url-schemes = Esquemas de URL
+preferences-url-scheme-prompt = { preferences-url-schemes } permitidos (separados por espaço):
+preferences-url-scheme-warning =
+    Tentativa de abrir { $link } bloqueada, pois isso pode representar um risco de segurança.
+    
+    Se você confia no autor do baralho e deseja continuar, adicione { $scheme } à sua lista de { preferences-url-schemes } permitidos.
+preferences-url-scheme-allow-once = Permitir desta vez
+preferences-url-scheme-always-allow = Sempre permitir
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Básico

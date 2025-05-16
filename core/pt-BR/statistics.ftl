@@ -229,6 +229,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = De { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correto ({ $percent }%)
+statistics-hours-correct-info = → (não é 'Novamente')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } revisões
 # the emoji depicts the graph displaying this number
