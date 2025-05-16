@@ -15,6 +15,7 @@ importing-colon = 冒号
 importing-comma = 逗号
 importing-empty-first-field = 首字段为空: { $val }
 importing-field-separator = 字段分隔符
+importing-field-separator-guessed = 字段分隔符（自动检测）
 importing-field-mapping = 字段匹配
 importing-field-of-file-is = 文件中的第 <b>{ $val }</b> 个字段为：
 importing-fields-separated-by = 字段分隔字符：{ $val }
@@ -183,6 +184,7 @@ importing-field-separator-help =
     文本文件中用以分隔字段的字符。您可以使用预览来检查字段分隔是否正确。
     请注意，若字段内容包含该字符本身，则该字段内容需依照 CSV 标准加上引号。
     LibreOffice 等工作表程序会自动进行该操作。
+    若文本文件通过文件头强制指定了特定分隔符，则无法修改此设置。若不存在文件头，Anki 将自动检测分隔符。
 importing-allow-html-in-fields-help =
     如果文件中包含 HTML 格式，请启用此选项。例如，若文件包含字符串「&lt;br&gt;」，则会在您的卡片中显示为换行。
     如果您未启用此选项，则会原样显示「&lt;br&gt;」。
