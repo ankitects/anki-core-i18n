@@ -243,6 +243,10 @@ deck-config-reschedule-cards-on-change-tooltip =
     raksturvērtības. Noklusējums ir nepārplānot kartītes: nākotnes izskatīšanas izmantos jauno plānošanu, bet
     esošajam darba apjomam nebūs tūlītēju izmaiņu. Ja ir iespējota pārplānošana, kartīšu pienākšanas laika datumi
     tiks mainīti.
+deck-config-reschedule-cards-warning =
+    Atkarībā no vēlamā saglabāšanas laika tas var beigties ar liela daudzuma kartīšu laika pienākšanu, tādēļ nav ieteicams, kad pirmoreiz notiek pārslēgšanāš no SM-2.
+    
+    Šī iespēja ir jāizmanto piesardzīgi, jo tā pievienos jaunu pārskatīšanas ierakstu katrai kartītei un palielinās krājuma izmēru.
 deck-config-fsrs-params-no-reviews = Nav atrasta neviena pārskatīšana. Lūgums pārbaudīt, ka šis priekšiestatījums ir piešķirts visām optimizējamajām kavām (tajā skaitā apakškavām), un mēģināt vēlreiz.
 deck-config-answer-again = Atbildēt vēlreiz
 deck-config-suspend-leeches = Atlikt izsūcošās kartītes
