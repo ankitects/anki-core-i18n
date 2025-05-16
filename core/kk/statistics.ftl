@@ -83,14 +83,28 @@ statistics-counts-separate-suspended-buried-cards = Жекеленген кід�
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = Нақты Есте Сақтау
 statistics-true-retention-subtitle = Аралығы  ≥ 1 күн карталар өтімі.
 statistics-true-retention-range = Аралық
 statistics-true-retention-pass = Өту
 statistics-true-retention-fail = Қате
-statistics-true-retention-count = Санақ
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Жалпы
+statistics-true-retention-count = Санау
 statistics-true-retention-retention = Сақталым
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Жас
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Жетілген
 statistics-true-retention-all = Бәрі
 statistics-true-retention-today = Бүгін
 statistics-true-retention-yesterday = Кеше
@@ -114,7 +128,6 @@ statistics-card-ease-title = Карта Жеңілдігі
 statistics-card-difficulty-title = Карта Қиындығы
 statistics-card-stability-title = Карта Тұрақтылығы
 statistics-card-stability-subtitle = Түсірілімі 90%-ға түсетін іркіліс.
-statistics-average-stability = Орташа тұрақтылық
 statistics-card-retrievability-title = Карта Түсірілімі
 statistics-card-ease-subtitle = Жеңілдік неғұрлым төмен, карта соғұрлым жиі кездеседі.
 statistics-card-difficulty-subtitle2 = Қиындық неғұрлым жоғары, тұрақтылық соғұрлым баяу өседі.
@@ -190,12 +203,19 @@ statistics-elapsed-time-years = { $amount }ж
 ##
 
 statistics-average-for-days-studied = Оқыған күндердегі орташа
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Жалпы
 statistics-days-studied = Оқыған күндер
 statistics-average-answer-time-label = Орташа жауап уақыты
 statistics-average = Орташа
-statistics-average-interval = Орташа аралық
 statistics-due-tomorrow = Ертеңге
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Күнделікі жүктеме
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
@@ -203,14 +223,17 @@ statistics-average-over-period = Мерізім орташасы
 statistics-reviews-per-day = { $count } шолу/күн
 statistics-minutes-per-day = { $count } шолу/күн
 statistics-cards-per-day = { $count } карта/күн
-statistics-average-ease = Орташа жеңілдік
-statistics-average-difficulty = Орташа қиындық
 statistics-average-retrievability = Орташа түсірілім
 statistics-estimated-total-knowledge = Жалпы білім шамасы
 statistics-save-pdf = PDF сақтау
 statistics-saved = Сақталды.
 statistics-stats = санақ
 statistics-title = Статистика
-statistics-true-retention-total = Жалпы
-statistics-true-retention-young = Жас
-statistics-true-retention-mature = Жетілген
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Орташа тұрақтылық
+statistics-average-interval = Орташа аралық
+statistics-average-ease = Орташа жеңілдік
+statistics-average-difficulty = Орташа қиындық
