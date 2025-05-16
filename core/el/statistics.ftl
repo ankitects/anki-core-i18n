@@ -230,6 +230,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Από { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } σωστά ({ $percent }%)
+statistics-hours-correct-info = → (όχι 'Ξανά')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } επαναλήψεις
 # the emoji depicts the graph displaying this number

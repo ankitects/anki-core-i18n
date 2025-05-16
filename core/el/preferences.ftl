@@ -80,6 +80,12 @@ preferences-ankiweb-intro = Το AnkiWeb είναι μια δωρεάν υπηρ
 preferences-ankihub-intro = Το AnkiHub παρέχει συλλογική επεξεργασία τραπουλών και πρόσθετα εργαλεία μελέτης. Για την πρόσβαση σε ορισμένες λειτουργίες απαιτείται συνδρομή επί πληρωμή.
 preferences-third-party-description = Οι υπηρεσίες τρίτων δεν συνδέονται και δεν προωθούνται από το Anki. Η χρήση αυτών των υπηρεσιών μπορεί να απαιτεί πληρωμή.
 
+## URL scheme related
+
+preferences-url-scheme-prompt = Επιτρεπόμενα { preferences-url-schemes } (διαχωρισμένα με κενό):
+preferences-url-scheme-allow-once = Επιτρέψτε μια φορά
+preferences-url-scheme-always-allow = Να επιτρέπεται πάντα
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Βασικό
