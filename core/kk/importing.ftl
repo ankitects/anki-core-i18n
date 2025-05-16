@@ -86,7 +86,7 @@ importing-processed-notes = Өңделген { $count } жазба...
 importing-processed-cards = Өңделген { $count } карта...
 importing-existing-notes = Бар жазбалар
 # "Existing notes: Duplicate" (verb)
-importing-duplicate = Көшірме жасау
+importing-duplicate = Телнұсқа жасау
 # "Existing notes: Preserve" (verb)
 importing-preserve = Сақтау
 # "Existing notes: Update" (verb)
@@ -112,7 +112,7 @@ importing-notes-found-in-file2 = Файлда { $notes } жазба табылд
 importing-show = Көрсету
 importing-details = Деректер
 importing-status = Күй
-importing-duplicate-note-added = Көшірме жазба қосылды
+importing-duplicate-note-added = Телнұсқа жазба қосылды
 importing-added-new-note = Жаңа жазба қосылды
 importing-existing-note-skipped = Жазба өткізілді, себебі жаңа көшірмесі онсыз да жинағыңызда бар: { $val }
 importing-note-skipped-update-due-to-notetype = Жазба жаңартылмады, себебі жазба түрі алғаш импортталғаннан кейін өзгертілген

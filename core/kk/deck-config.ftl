@@ -107,6 +107,8 @@ deck-config-maximum-answer-secs = Жауап беру уақытының шег�
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Сұрақты көрсету уақыты (секунд)
+deck-config-seconds-to-show-answer = Жауапты көрсету уақыты (секунд)
 deck-config-question-action-show-answer = Жауабын Көрсету
 deck-config-question-action-show-reminder = Ескерткішті Көрсету
 deck-config-question-action = Сұрақ әрекеті
@@ -172,6 +174,7 @@ deck-config-ignore-before = Бұрын шолынған карталарды е�
 deck-config-evaluate-button = Бағалау
 deck-config-get-params = Баптауларды Алу
 deck-config-complete = { $num }% аяқталған.
+deck-config-iterations = Итерация: { $count }...
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
 deck-config-a-100-day-interval = 100 күн аралық { $days } күн болады.
 deck-config-percent-of-reviews = { $reviews } шолудың { $pct }%-ы
@@ -181,6 +184,8 @@ deck-config-show-reminder = Ескерткішті Көрсету
 deck-config-answer-again = Қайтадан Деу
 deck-config-answer-hard = Қиын Деу
 deck-config-answer-good = Жақсы Деу
+deck-config-simulate = Симуляциялау
+deck-config-clear-last-simulate = Соңғы Симуляцияны Тазалау
 deck-config-fsrs-simulator-radio-count = Шолулар
 deck-config-advanced-settings = Қосымша Баптаулар
 deck-config-smooth-graph = Тегіс график
