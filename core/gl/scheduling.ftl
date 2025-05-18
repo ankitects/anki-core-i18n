@@ -1,3 +1,20 @@
+## The next time a card will be shown, in a short form that will fit
+## on the answer buttons. For example, English shows "4d" to
+## represent the card will be due in 4 days, "3m" for 3 minutes, and
+## "5mo" for 5 months.
+
+scheduling-answer-button-time-seconds = { $amount }s
+scheduling-answer-button-time-minutes = { $amount }m
+scheduling-answer-button-time-hours = { $amount }h
+scheduling-answer-button-time-days = { $amount }d
+scheduling-answer-button-time-months = { $amount }me
+scheduling-answer-button-time-years = { $amount }a
+
+## A span of time, such as the delay until a card is shown again, the
+## amount of time taken to answer a card, and so on. It is used by itself,
+## such as in the Interval column of the browse screen,
+## and labels like "Total Time" in the card info screen.
+
 scheduling-time-span-seconds =
     { $amount ->
         [one] { $amount } segundo
@@ -28,7 +45,10 @@ scheduling-time-span-years =
         [one] { $amount } ano
        *[other] { $amount } anos
     }
-scheduling-congratulations-finished = Parabéns! Rematou este feixe polo de agora.
+
+## Shown in the "Congratulations!" message after study finishes.
+
+scheduling-congratulations-finished = Parabéns! Remataches esta baralla por agora.
 scheduling-today-review-limit-reached =
     O límite de revisión para hoxe foi acadado, pero aínda hai cartas
     pendentes de ser revisadas. Para unha óptima memoria, considere
@@ -38,7 +58,12 @@ scheduling-today-new-limit-reached =
     Pode incrementar o límite nas opción, pero por favor,
     teña en mente que cantas máis cartas introduza, máis alta
     será a súa carga de traballo a curto prazo.
-scheduling-buried-cards-were-delayed = Algunhas cartas relacionadas ou soterradas foron atrasadas ata unha sesión posterior.
+
+## Scheduler upgrade
+
+
+## Other scheduling strings
+
 scheduling-at-least-one-step-is-required = Requirese polo menos  un paso.
 scheduling-automatically-play-audio = Reproducir o son automaticamente
 scheduling-bury-related-new-cards-until-the = Descarta as novas tarxetas relacionadas ata o día seguinte
@@ -71,8 +96,8 @@ scheduling-parent-limit = (límite anterior: { $val })
 scheduling-review = Repaso
 scheduling-reviews = Repasos
 scheduling-seconds = segundos
-scheduling-set-all-decks-below-to = Definir todos os feixes de embaixo { $val } con este grupo de opcións?
-scheduling-set-for-all-subdecks = Definir para fotos os feixes secundarios
+scheduling-set-all-decks-below-to = Asignar este grupo de opcións a tódalas barallas embaixo de { $val }?
+scheduling-set-for-all-subdecks = Definir para tódalas subbarallas
 scheduling-show-answer-timer = Amosar o temporizador de respostas
 scheduling-show-new-cards-after-reviews = Amosar as novas tarxetas despois dos repasos
 scheduling-show-new-cards-before-reviews = Amosar as novas tarxetas antes dos repasos
@@ -83,8 +108,9 @@ scheduling-steps-in-minutes = Pasos (en minutos)
 scheduling-steps-must-be-numbers = Os pasos deben ser números.
 scheduling-tag-only = Só as etiquetas
 scheduling-the-default-configuration-cant-be-removed = A configuración predeterminada non pode ser retirada.
-scheduling-your-changes-will-affect-multiple-decks = Os seus cambios afectarán a varios feixes. Se quere cambiar unicamente o feixe actual, engada primeiro un novo grupo de opcións.
-scheduling-deck-updated = { $count ->
-    [one] { $count } feixe actualizado.
-   *[other] { $count } feixes actualizados.
-  }
+scheduling-your-changes-will-affect-multiple-decks = Os cambios afectarán a varias barallas. Se queres cambiar só a baralla actual, engade primeiro un novo grupo de opcións.
+scheduling-deck-updated =
+    { $count ->
+        [one] { $count } baralla actualizada.
+       *[other] { $count } barallas actualizadas.
+    }

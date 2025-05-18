@@ -10,7 +10,7 @@ card-stats-total-time = Tempo total
 card-stats-new-card-position = Posición
 card-stats-card-template = Tipo de tarxeta
 card-stats-note-type = Tipo de nota
-card-stats-deck-name = Feixe
+card-stats-deck-name = Baralla
 card-stats-note-id = ID da nota
 card-stats-card-id = ID da carta
 card-stats-review-log-rating = Cualificación
@@ -22,3 +22,9 @@ card-stats-review-log-type-review = Repaso
 card-stats-review-log-type-relearn = Volver estudar
 card-stats-review-log-type-filtered = Filtrado
 card-stats-review-log-type-rescheduled = Reprogramar
+
+## Window Titles
+
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

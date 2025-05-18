@@ -49,12 +49,12 @@ statistics-in-time-span-years =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] Estudaches { statistics-cards } { statistics-in-time-span-seconds } hoxe ({ $secs-per-card }s/tarxeta)
-        [minutes] Estudaches { statistics-cards } { statistics-in-time-span-minutes } hoxe ({ $secs-per-card }s/tarxeta)
-        [hours] Estudaches { statistics-cards } { statistics-in-time-span-hours } hoxe ({ $secs-per-card }s/tarxeta)
-        [days] Estudaches { statistics-cards } { statistics-in-time-span-days } hoxe ({ $secs-per-card }s/tarxeta)
-        [months] Estudaches { statistics-cards } { statistics-in-time-span-months } hoxe ({ $secs-per-card }s/tarxeta)
-       *[years] Estudaches { statistics-cards } { statistics-in-time-span-years } hoxe ({ $secs-per-card }s/tarxeta)
+        [seconds] Hoxe estudaches { statistics-cards } { statistics-in-time-span-seconds } ({ $secs-per-card }s/tarxeta)
+        [minutes] Hoxe estudaches { statistics-cards } { statistics-in-time-span-minutes } ({ $secs-per-card }s/tarxeta)
+        [hours] Hoxe estudaches { statistics-cards } { statistics-in-time-span-hours } ({ $secs-per-card }s/tarxeta)
+        [days] Hoxe estudaches { statistics-cards } { statistics-in-time-span-days } ({ $secs-per-card }s/tarxeta)
+        [months] Hoxe estudaches { statistics-cards } { statistics-in-time-span-months } ({ $secs-per-card }s/tarxeta)
+       *[years] Hoxe estudaches { statistics-cards } { statistics-in-time-span-years } ({ $secs-per-card }s/tarxeta)
     }
 
 ##
@@ -116,8 +116,8 @@ statistics-true-retention-mature = Antigas
 
 ##
 
-statistics-range-all-time = vida do feixe
-statistics-range-deck = feixe
+statistics-range-all-time = vida da baralla
+statistics-range-deck = baralla
 statistics-range-collection = colección
 statistics-range-search = Busca
 statistics-future-due-title = Prognóstico

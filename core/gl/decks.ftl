@@ -1,36 +1,45 @@
-decks-add-new-deck-ctrlandn = Añadir un novo feixe (Ctrl+N)
-decks-are-you-sure-you-wish-to = Confirma que quere eliminar { $val }?
+decks-add-new-deck-ctrlandn = Engadir unha nova baralla (Ctrl+N)
 decks-build = Compilación
 decks-cards-selected-by = tarxetas seleccionadas por
-decks-create-deck = Crear un feixe
-decks-deck = Feixe
-decks-decreasing-intervals = Intervalos decrecentes
-decks-delete-deck = Eliminar feixe
+decks-create-deck = Crear baralla
+decks-deck = Baralla
+decks-delete-deck = Eliminar baralla
 decks-filter = Filtro:
 decks-get-shared = Obter compartidos
 decks-import-file = Importar un ficheiro
-decks-increasing-intervals = Incrementar os intervalos
-decks-latest-added-first = Primeiro as últimas engadidas
 decks-limit-to = Limitar a
 decks-minutes = minutos
-decks-most-lapses = Períodos maiores
-decks-name-for-deck = Nome para o feixe:
-decks-new-deck-name = Nome do novo feixe:
-decks-no-deck = [sen feixe]
-decks-oldest-seen-first = Primeiro vense as máis antigas
-decks-order-added = Orde engadido
-decks-order-due = Orde das obrigadas
+decks-new-deck-name = Nome da nova baralla:
+decks-no-deck = [sen baralla]
 decks-please-select-something = Seleccione algo.
-decks-random = Ao chou
-decks-relative-overdueness = Retraso relativo
-decks-reschedule-cards-based-on-my-answers = Reprogramar tarxetas en función das miñas respostas neste feixe
+decks-reschedule-cards-based-on-my-answers = Reprogramar tarxetas en función das miñas respostas nesta baralla
 decks-study = Estudar
-decks-study-deck = Estudar un feixe
-decks-the-provided-search-did-not-match = A busca solicitada non devolveu ningunha tarxeta. Quere revisalo?
-decks-it-has-card =
-    { $count ->
-        [one] Ten { $count } tarxeta.
-       *[other] Ten { $count } tarxetas.
-    }
-decks-review-header = Obrigadas
+decks-study-deck = Estudar baralla
 decks-learn-header = Aprender
+# The count of cards waiting to be reviewed
+decks-review-header = Obrigadas
+
+## Sort order of cards
+
+# Combobox entry: Sort the cards by the date they were added, in ascending order (oldest to newest)
+decks-order-added = Orde engadido
+# Combobox entry: Sort the cards by the date they were added, in descending order (newest to oldest)
+decks-latest-added-first = Primeiro as últimas engadidas
+# Combobox entry: Sort the cards by due date, in ascending order (oldest due date to newest)
+decks-order-due = Orde das obrigadas
+# Combobox entry: Sort the cards by the number of lapses, in descending order (most lapses to least lapses)
+decks-most-lapses = Períodos maiores
+# Combobox entry: Sort the cards by the interval, in ascending order (shortest to longest)
+decks-increasing-intervals = Incrementar os intervalos
+# Combobox entry: Sort the cards by the interval, in descending order (longest to shortest)
+decks-decreasing-intervals = Intervalos decrecentes
+# Combobox entry: Sort the cards by the last review date, in ascending order (oldest seen to newest seen)
+decks-oldest-seen-first = Primeiro vense as máis antigas
+# Combobox entry: Sort the cards in random order
+decks-random = Ao chou
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+# Combobox entry: Sort the cards by relative overdueness, in descending order (most overdue to least overdue)
+decks-relative-overdueness = Retraso relativo

@@ -1,7 +1,7 @@
 custom-study-all-cards-in-random-order-dont = Tódalas tarxetas ao chou (non reprogramar)
 custom-study-all-review-cards-in-random-order = Tódalas tarxetas de repaso ao chou
 custom-study-cards = tarxetas
-custom-study-cards-from-the-deck = tarxetas do feixe
+custom-study-cards-from-the-deck = tarxetas da baralla
 custom-study-choose-tags = Escoller as etiquetas
 custom-study-custom-study-session = Sesión de estudo personalizado
 custom-study-due-cards-only = Só as tarxetas obrigadas
@@ -23,3 +23,6 @@ custom-study-select = Seleccionar
 custom-study-select-tags-to-exclude = Selecciona as etiquetas a excluír:
 custom-study-selective-study = Estudio selectivo
 custom-study-study-by-card-state-or-tag = Estudar segundo o estado ou a etiqueta da tarxeta
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

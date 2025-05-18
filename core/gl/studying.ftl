@@ -10,10 +10,10 @@ studying-cards-buried =
         [one] { $count } tarxeta agochada.
        *[other] { $count } tarxetas agochadas.
     }
-studying-cards-will-be-automatically-returned-to = As tarxetas devolveranse automaticamente ás suas barallas orixinais unha vez as teñas repasado.
+studying-cards-will-be-automatically-returned-to = As tarxetas devolveranse automaticamente ás súas barallas orixinais unha vez as teñas repasado.
 studying-continue = Continuar
 studying-delete-note = Eliminar a nota
-studying-deleting-this-deck-from-the-deck = Ao eliminar este feixe da lista de feixes devolveranse todas as tarxetas restantes ao seu feixe orixinal.
+studying-deleting-this-deck-from-the-deck = Ao eliminar esta baralla da lista de barallas devolveranse tódalas tarxetas restantes á súa baralla orixinal.
 studying-easy = Doado
 studying-edit = Editar
 studying-empty = Baleira
@@ -32,7 +32,7 @@ studying-space = Espazo
 studying-study-now = Estudar agora
 studying-suspend = Suspender
 studying-suspend-note = Suspender nota
-studying-this-is-a-special-deck-for = Este é un feixe especial para estudar fora do horario normal.
+studying-this-is-a-special-deck-for = Esta é unha baralla especial para estudar fóra do horario normal.
 studying-to-review = Para repasar
 studying-type-answer-unknown-field = Tipo de resposta: campo descoñecido { $val }
 studying-unbury = Desagochar
