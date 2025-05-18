@@ -20,12 +20,12 @@ sync-media-log-title = 媒体同步日志
 ## Error messages / dialogs
 
 sync-conflict = 仅能同时同步一个设备的数据，请稍后重试。
-sync-server-error = AnkiWeb服务出现错误，请稍后重试。
+sync-server-error = AnkiWeb 服务出现错误，请稍后重试。
 sync-client-too-old = 当前 Anki 软件版本过低，请更新至最新版本以继续同步。
 sync-wrong-pass = 用户名或密码错误，请重试。
 sync-resync-required = 请尝试再次同步。如此信息反复出现，请在支持网站上反馈。
 sync-must-wait-for-end = 当前正在同步，请在同步完成后重试。
-sync-confirm-empty-download = 本地集合为空，是否立即从AnkiWeb下载？
+sync-confirm-empty-download = 本地集合为空，是否立即从 AnkiWeb 下载？
 sync-confirm-empty-upload = AnkiWeb 的集合没有卡片。是否要用本地集合替换 AnkiWeb 的集合？
 sync-conflict-explanation =
     本地牌组与 AnkiWeb 上的牌组存在不能合并的差异，所以必须覆盖其中之一。
@@ -46,7 +46,7 @@ sync-ankiweb-id-label = AnkiWeb 账号：
 sync-password-label = 密码：
 sync-account-required =
     <h1>需要账号</h1>
-    需要一个免费帐号以同步您的集合，请先<a href="{ $link }">注册</a> 帐号，并在下方登录。
+    需要一个免费帐号以同步您的集合，请先<a href="{ $link }">注册</a>帐号，并在下方登录。
 sync-sanity-check-failed = 请使用「检查数据库」功能，然后再次同步。若问题仍然存在，请在设置界面中进行强制单向同步。
 sync-clock-off = 无法同步 - 本地时间设置错误。
 sync-upload-too-large =
