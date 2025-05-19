@@ -1,8 +1,9 @@
 browsing-add-notes = Engadir Notas...
-browsing-add-tags2 = Engadir Etiquetas...
+browsing-add-tags2 = Engadir etiquetas...
 browsing-addon = Complemento
 browsing-all-fields = Tódolos campos
 browsing-answer = Resposta
+browsing-any-flag = Calquera bandeira
 browsing-browser-appearance = Aparencia do explorador
 browsing-browser-options = Opcións do explorador
 browsing-buried = Agochadas
@@ -10,10 +11,17 @@ browsing-card = Tarxeta
 browsing-cards = Tarxetas
 browsing-card-list = Lista de tarxetas
 browsing-cards-cant-be-manually-moved-into = Non é posíbel mover tarxetas manualmente a unha baralla filtrada.
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] Eliminouse { $count } tarxeta da baralla { $deck_name }.
+       *[other] Elimináronse { $count } tarxetas da baralla { $deck_name }.
+    }
 browsing-change-deck = Cambiar baralla
+browsing-change-deck2 = Cambiar baralla...
 browsing-change-note-type = Cambiar tipo de nota
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Cambiar tipo de nota...
+browsing-clear-unused-tags = Borrar etiquetas non utilizadas
 browsing-created = Creado
 browsing-current-deck = Baralla actual
 browsing-current-note-type = Tipo de nota actual:
@@ -99,14 +107,29 @@ browsing-sidebar-decks = Barallas
 browsing-sidebar-tags = Etiquetas
 browsing-sidebar-notetypes = Tipos de nota
 browsing-sidebar-saved-searches = Buscas gardadas
+browsing-sidebar-card-state = Estado da tarxeta
 browsing-sidebar-flags = Bandeiras
 browsing-today = Hoxe
+browsing-tooltip-card-modified = A última vez que se modificou unha tarxeta, incluíndo repasos, bandeiras e cambios de baralla
 browsing-studied-today = Estudadas
 browsing-added-today = Engadidas
 browsing-again-today = De novo
+browsing-edited-today = Editadas
 browsing-sidebar-first-review = Primeiro repaso
+browsing-sidebar-rescheduled = Reprogramadas
 browsing-sidebar-due-today = Pendentes
 browsing-sidebar-untagged = Sen etiquetar
+browsing-sidebar-overdue = Atrasadas
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Eliminouse { $count } etiqueta sen utilizar.
+       *[other] Elimináronse { $count } etiquetas sen utilizar.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Renomeouse { $count } baralla.
+       *[other] Renomeáronse { $count } barallas.
+    }
 browsing-sidebar-card-state-review = Repaso
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
