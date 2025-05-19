@@ -247,6 +247,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = מ- { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } נכונים ({ $percent }%)
+statistics-hours-correct-info = → (לא 'שוב')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } חזרות
 # the emoji depicts the graph displaying this number

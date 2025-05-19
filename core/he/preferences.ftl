@@ -83,6 +83,17 @@ preferences-ankiweb-intro = AnkiWeb הוא שירות חינמי המאפשר ל
 preferences-ankihub-intro = AnkiHub מספק עריכת חפיסות שיתופית וכלי לימוד נוספים. נדרש מנוי בתשלום כדי לגשת לתכונות מסוימות.
 preferences-third-party-description = שירותי צד שלישי אינם קשורים ואינם מאושרים על ידי אנקי. שימוש בשירותים אלה עשוי לדרוש תשלום.
 
+## URL scheme related
+
+preferences-url-schemes = סכמות כתובות URL
+preferences-url-scheme-prompt = ‏{ preferences-url-schemes } מותרים (מופרדים ברווחים):
+preferences-url-scheme-warning =
+    ניסיון לפתוח את `{ $link }` נחסם, דבר העשוי להוות בעיית אבטחה.
+    
+    אם אתה סומך על יוצר החפיסה וברצונך להמשיך, תוכל להוסיף `{ $scheme }` לרשימת { preferences-url-schemes } המותרת.
+preferences-url-scheme-allow-once = אפשר פעם אחת
+preferences-url-scheme-always-allow = אפשר תמיד
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = בסיסי

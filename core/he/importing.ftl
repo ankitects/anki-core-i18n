@@ -17,6 +17,7 @@ importing-colon = נקודותיים
 importing-comma = פסיק
 importing-empty-first-field = שדה ראשון ריק: { $val }
 importing-field-separator = מפריד שדות
+importing-field-separator-guessed = מפריד שדות (ניחוש)
 importing-field-mapping = מיפוי שדות
 importing-field-of-file-is = שדה <b>{ $val }</b> של הקובץ הינו:
 importing-fields-separated-by = שדות מופרדים על-ידי: { $val }
