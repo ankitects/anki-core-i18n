@@ -189,6 +189,7 @@ deck-config-optimize-button = Осы Баптаманы Оңтайландыру
 deck-config-compute-button = Есептеу
 deck-config-ignore-before = Бұрын шолынған карталарды елемеу
 deck-config-evaluate-button = Бағалау
+deck-config-desired-retention = Күткен меңгерім
 deck-config-get-params = Баптауларды Алу
 deck-config-complete = { $num }% аяқталған.
 deck-config-iterations = Итерация: { $count }...

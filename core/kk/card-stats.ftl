@@ -35,6 +35,7 @@ card-stats-fsrs-forgetting-curve-first-week = Бірінші Апта
 card-stats-fsrs-forgetting-curve-first-month = Бірінші Ай
 card-stats-fsrs-forgetting-curve-first-year = Бірінші Жыл
 card-stats-fsrs-forgetting-curve-all-time = Толық Уақыт
+card-stats-fsrs-forgetting-curve-desired-retention = Күткен Меңгерім
 
 ## Window Titles
 
