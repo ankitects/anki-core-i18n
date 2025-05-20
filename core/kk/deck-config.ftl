@@ -12,6 +12,13 @@ deck-config-title = Колода Баптаулары
 ## Daily limits section
 
 deck-config-daily-limits = Күндік Шектеулер
+deck-config-new-limit-tooltip =
+    Күніне берілетін жаңа карта санының шегі. (Жаңа карта қолжетімді болғанда)
+    Жаңа материал қысқа мерізімді шолу жүктемесін арттыратындықтан, бұл әдетте
+    шолу шектеуінен ең дегенде 10x кіші болуы керек.
+deck-config-review-limit-tooltip =
+    Күніне көрсетілетін шолу карталарының шектеу саны. 
+    (егер карталар дайын болса).
 deck-config-affects-entire-collection = Бүкіл жинаққа әсер есер етеді.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -44,6 +51,7 @@ deck-config-ordering-title = Көрсету Реті
 deck-config-new-gather-priority = Карталардың жиналған реті
 deck-config-new-card-sort-order = Жаңа карта жинау реті
 deck-config-new-review-priority = Жаңа/шолу реті
+deck-config-new-review-priority-tooltip = Шолу карталарына қарағанда жаңа карталар қашан көрсетіледі.
 deck-config-interday-step-priority = Күнаралық оқу/шолу реті
 deck-config-review-sort-order = Шолуды сұрыптау реті
 
@@ -104,6 +112,7 @@ deck-config-sort-order-retrievability-descending = Түсірілімнің ке
 
 deck-config-timer-title = Таймер
 deck-config-maximum-answer-secs = Жауап беру уақытының шегі (секунд)
+deck-config-stop-timer-on-answer = Жауап бергенде экрандағы таймерді тоқтату
 
 ## Auto Advance section
 
@@ -117,6 +126,7 @@ deck-config-answer-action = Жауап әрекеті
 ## Audio section
 
 deck-config-audio-title = Аудио
+deck-config-disable-autoplay = Аудионы автоматты түрде ойнамау
 
 ## Advanced section
 
@@ -170,6 +180,8 @@ deck-config-description-new-handling = Anki 2.1.41+ қолдауы
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Карталарды жаңарту: { $current_cards_count }/{ $total_cards_count }...
+deck-config-not-enough-history = Бұл әрекетті орындау үшін шолу тарихы жеткіліксіз.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS параметрлері
 deck-config-compute-optimal-weights = FSRS параметрлерін оңтайландыру
@@ -185,6 +197,7 @@ deck-config-a-100-day-interval = 100 күн аралық { $days } күн бол
 deck-config-percent-of-reviews = { $reviews } шолудың { $pct }%-ы
 deck-config-percent-input = { $pct }%
 deck-config-fsrs-must-be-enabled = Алдымен FSRS қосылуы керек.
+deck-config-wait-for-audio = Аудионы күту
 deck-config-show-reminder = Ескерткішті Көрсету
 deck-config-answer-again = Қайтадан Деу
 deck-config-answer-hard = Қиын Деу
@@ -194,6 +207,7 @@ deck-config-clear-last-simulate = Соңғы Симуляцияны Тазала
 deck-config-fsrs-simulator-radio-count = Шолулар
 deck-config-advanced-settings = Қосымша Баптаулар
 deck-config-smooth-graph = Тегіс график
+deck-config-suspend-leeches = Жабысқақтарды кідірту
 deck-config-save-options-to-preset = Өзгерістерді Баптамаға Сақтау
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
