@@ -153,6 +153,9 @@ deck-config-confirm-remove-name = { $name } жою?
 ## Other Buttons
 
 deck-config-save-button = Сақтау
+deck-config-save-to-all-subdecks = Барлық Туынды Колодасына Сақтау
+deck-config-save-and-optimize = Барлық Баптаманы Оңтайландыру
+deck-config-revert-button-tooltip = Осы баптауды қалпына келтіру?
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -169,6 +172,8 @@ deck-config-description-new-handling = Anki 2.1.41+ қолдауы
 
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS параметрлері
+deck-config-compute-optimal-weights = FSRS параметрлерін оңтайландыру
+deck-config-optimize-button = Осы Баптаманы Оңтайландыру
 deck-config-compute-button = Есептеу
 deck-config-ignore-before = Бұрын шолынған карталарды елемеу
 deck-config-evaluate-button = Бағалау
