@@ -3,6 +3,7 @@ exporting-anki-20-deck = Baralla Anki 2.0
 exporting-anki-deck-package = Baralla Anki
 exporting-cards-in-plain-text = Tarxetas en texto simple
 exporting-collection = colección
+exporting-collection-exported = Colección exportada.
 exporting-couldnt-save-file = Non foi posíbel gardar o ficheiro: { $val }
 exporting-export = Exportar...
 exporting-export-format = <b>Formato de exportación</b>:

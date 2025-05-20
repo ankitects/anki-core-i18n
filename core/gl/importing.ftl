@@ -1,4 +1,3 @@
-importing-failed = Fracasou a importación.
 importing-failed-debug-info = Fracasou a importación. Información de depuración:
 importing-aborted = Interrompido: { $val }
 importing-added-duplicate-with-first-field = Engadida duplicada con primeiro campo: { $val }
@@ -59,4 +58,8 @@ importing-note-updated =
         [one] { $count } nota actualizada
        *[other] { $count } notas actualizadas
     }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-importing-collection = Importando colección...
 importing-added = Engadida
