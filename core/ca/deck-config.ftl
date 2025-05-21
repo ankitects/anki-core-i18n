@@ -122,42 +122,31 @@ deck-config-bury-priority-tooltip =
     no s’enterrarà cap targeta d’aprenentatge entre dies o targeta per repassar. Fins i tot, podríeu
     arribar a veure una targeta relacionada per repassar i una targeta relacionada nova en la mateixa sessió.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Ordre de visualització
 deck-config-new-gather-priority = Ordre de recopilació de les targetes noves
 deck-config-new-gather-priority-tooltip-2 =
-    `Baralla`: mostra les targetes de cada baralla en ordre ascendent, començant pel principi. Quan arribeu al límit diari de la baralla seleccionada, la recopilació es detindrà abans que s’hagin comprovat totes les baralles. Aquest ordre és més ràpid en col·leccions grans i permet prioritzar les baralles secundàries situades més amunt.
+    `Baralla`: mostra les targetes de cada baralla en ordre creixent, començant pel principi. Quan arribeu al límit diari de la baralla seleccionada, la recopilació es detindrà abans que s’hagin comprovat totes les baralles. Aquest ordre és més ràpid en col·leccions grans i permet prioritzar les baralles secundàries situades més amunt.
     
-    `Ordre ascendent`: mostra les targetes en ordre ascendent (número de repàs), que generalment coincideix amb l’ordre en què les heu afegides.
+    `Ordre creixent`: mostra les targetes en ordre creixent (número de repàs), que generalment coincideix amb l’ordre en què les heu afegides.
     
-    `Ordre descendent`: mostra les targetes en ordre descendent (número de repàs), que generalment coincideix amb les últimes targetes que heu afegit.
+    `Ordre decreixent`: mostra les targetes en ordre decreixent (número de repàs), que generalment coincideix amb les últimes targetes que heu afegit.
     
     `Notes aleatòries`: mostra targetes de notes seleccionades aleatòriament. Si desactiveu l’opció «Enterra les targetes relacionades», veureu totes les targetes d’una nota en una sola sessió (per exemple, veureu tant la targeta anvers → revers com la targeta inversa, revers → anvers).
     
     `Targetes aleatòries`: mostra les targetes de manera aleatòria.
-deck-config-new-gather-priority-deck = Baralla
-deck-config-new-gather-priority-deck-then-random-notes = Baralla i després notes aleatòries
-deck-config-new-gather-priority-position-lowest-first = Ordre ascendent
-deck-config-new-gather-priority-position-highest-first = Ordre descendent
-deck-config-new-gather-priority-random-notes = Notes aleatòries
-deck-config-new-gather-priority-random-cards = Targetes aleatòries
 deck-config-new-card-sort-order = Ordre de les targetes noves
 deck-config-new-card-sort-order-tooltip-2 =
     `Tipus de targeta`: mostra les targetes segons l'ordre del número de tipus de targeta. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes anvers→revers es mostraran abans que les targetes revers→anvers.
     
     `Ordre de recopilació`: mostra les targetes segons l'ordre en què s'han recopilat. Si heu desactivat l'opció d'enterrar les targetes relacionades, totes les targetes d'una nota es mostraran seguides.
     
-    `Tipus de la targeta i després aleatòriament`: semblant a «Tipus de targeta», tot i que mostra les targetes de cada tipus de targeta aleatòriament. Si feu servir l'opció «Posició ascendent» per a recopilar les targetes més antigues, podeu activar aquesta opció perquè aquestes targetes es mostrin de manera aleatòria. D'aquesta manera, les targetes d'una mateixa nota no es presentaran seguides.
+    `Tipus de la targeta i després aleatòriament`: semblant a «Tipus de targeta», tot i que mostra les targetes de cada tipus de targeta aleatòriament. Si feu servir l'opció «Ordre creixent» per a recopilar les targetes més antigues, podeu activar aquesta opció perquè aquestes targetes es mostrin de manera aleatòria. D'aquesta manera, les targetes d'una mateixa nota no es presentaran seguides.
     
     `Nota aleatòria i després tipus de la targeta`: mostra les notes aleatòriament i, després, totes les targetes relacionades en ordre.
     
     `Aleatòriament`: mostra les targetes recopilades de manera aleatòria.
-deck-config-sort-order-card-template-then-random = Tipus de la targeta i després aleatòriament
-deck-config-sort-order-random-note-then-template = Nota aleatòria i després tipus de la targeta
-deck-config-sort-order-random = Aleatori
-deck-config-sort-order-template-then-gather = Tipus de targeta
-deck-config-sort-order-gather = Ordre de recopilació
 deck-config-new-review-priority = Ordre de noves i per repassar
 deck-config-new-review-priority-tooltip = Quan es mostraran les targetes noves en relació amb les targetes per repassar.
 deck-config-interday-step-priority = Ordre d'aprenentatge entre dies i de repàs
@@ -167,9 +156,6 @@ deck-config-interday-step-priority-tooltip =
     El límit de repassos sempre s’aplicarà primer a les targetes d’aprenentatge entre dies i després als
     repassos. Aquesta opció controla l’ordre en què es mostren les targetes, tot i que les targetes
     d’aprenentatge entre dies sempre es mostraran primer.
-deck-config-review-mix-mix-with-reviews = Barreja amb les targetes per repassar
-deck-config-review-mix-show-after-reviews = Després de les targetes per repassar
-deck-config-review-mix-show-before-reviews = Abans de les targetes per repassar
 deck-config-review-sort-order = Ordre de les targetes per repassar
 deck-config-review-sort-order-tooltip =
     Amb l’ordre per defecte, es prioritzen les targetes que duen més temps en espera.
@@ -177,19 +163,62 @@ deck-config-review-sort-order-tooltip =
     apareixeran primer. Si heu acumulat un gran nombre de repassos que tardareu més d’un dia a
     resoldre (o si preferiu veure les targetes en l’ordre de les baralles secundàries), proveu
     els altres ordres de classificació.
-deck-config-sort-order-due-date-then-random = Data de repàs i després en ordre aleatori
-deck-config-sort-order-due-date-then-deck = Data de repàs i després baralla
-deck-config-sort-order-deck-then-due-date = Baralla i després data de repàs
-deck-config-sort-order-ascending-intervals = Intervals ascendents
-deck-config-sort-order-descending-intervals = Intervals descendents
-deck-config-sort-order-ascending-ease = Facilitat ascendent
-deck-config-sort-order-descending-ease = Facilitat descendent
-deck-config-sort-order-ascending-difficulty = Dificultat ascendent
-deck-config-sort-order-descending-difficulty = Dificultat descendent
-deck-config-sort-order-relative-overdueness = Endarreriment relatiu
 deck-config-display-order-will-use-current-deck =
     Anki farà servir l’ordre de visualització de la baralla que estudieu
     i no el de cap baralla secundària que pugui contenir.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Baralla
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Baralla i després notes aleatòries
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Ordre creixent
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Ordre decreixent
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Notes aleatòries
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Targetes aleatòries
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Tipus de la targeta i després aleatòriament
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Nota aleatòria i després tipus de la targeta
+# Sort the cards randomly.
+deck-config-sort-order-random = Aleatori
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Tipus de targeta
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Ordre de recopilació
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Barreja amb les targetes per repassar
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Després de les targetes per repassar
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Abans de les targetes per repassar
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Data de repàs i després en ordre aleatori
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Data de repàs i després baralla
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Baralla i després data de repàs
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervals creixents
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervals decreixents
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Facilitat creixent
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Facilitat decreixent
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Dificultat decreixent
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Dificultat decreixent
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Recuperabilitat creixent
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Recuperabilitat decreixent
 
 ## Timer section
 
@@ -336,14 +365,12 @@ deck-config-compute-minimum-recommended-retention = Retenció recomanada mínima
 deck-config-optimize-button = Optimitza
 deck-config-compute-button = Calcula
 deck-config-ignore-before = Ignora els repassos abans del
-deck-config-optimize-all-tip = Podeu optimitzar totes les configuracions de baralla prement el botó superior.
 deck-config-evaluate-button = Avalua
 deck-config-desired-retention = Retenció desitjada
 deck-config-historical-retention = Retenció històrica
 deck-config-smaller-is-better = Uns nombres menors indiquen un millor ajustament al vostre historial de repassos.
 deck-config-steps-too-large-for-fsrs = Quan el FSRS està activat, no és recomanable que feu servir passos d’aprenentatge de més d’un dia.
 deck-config-get-params = Obtén els paràmetres
-deck-config-fsrs-on-all-clients = Feu servir Anki(Mobile) 23.10+ o AnkiDroid 2.17+ en tots els vostres dispositius. El FSRS no funcionarà correctament si algun dels clients és més antic.
 deck-config-predicted-minimum-recommended-retention = Retenció recomanada mínima: { $num }
 deck-config-complete = { $num } % completat.
 deck-config-iterations = Iteració: { $count }…
@@ -398,3 +425,5 @@ deck-config-predicted-optimal-retention = Retenció òptima prevista: { $num }
 deck-config-weights-tooltip = Els paràmetres del FSRS afecten la programació de les targetes. Anki començarà amb els paràmetres per defecte. Una vegada hàgiu acumulat més de 1000 repassos, podeu utilitzar aquesta opció per a optimitzar els paràmetres i ajustar millor el vostre rendiment en les baralles que utilitzen aquesta configuració prefixada.
 deck-config-seconds-to-show-question-tooltip-2 = Nombre de segons abans que es mostri la resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
 deck-config-invalid-weights = Deixeu els paràmetres en blanc per a utilitzar els valors per defecte o introduïu 17 nombres separats per comes.
+deck-config-fsrs-on-all-clients = Feu servir Anki(Mobile) 23.10+ o AnkiDroid 2.17+ en tots els vostres dispositius. El FSRS no funcionarà correctament si algun dels clients és més antic.
+deck-config-optimize-all-tip = Podeu optimitzar totes les configuracions de baralla prement el botó superior.

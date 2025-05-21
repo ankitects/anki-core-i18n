@@ -32,7 +32,7 @@ decks-zero-minutes-hint = (0 = retorna la targeta a la baralla original)
 ## Sort order of cards
 
 # Combobox entry: Sort the cards by the date they were added, in ascending order (oldest to newest)
-decks-order-added = Ordre afegit
+decks-order-added = Ordre d’addició
 # Combobox entry: Sort the cards by the date they were added, in descending order (newest to oldest)
 decks-latest-added-first = Últimes afegides primer
 # Combobox entry: Sort the cards by due date, in ascending order (oldest due date to newest)
