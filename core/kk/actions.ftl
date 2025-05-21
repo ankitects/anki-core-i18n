@@ -69,7 +69,7 @@ actions-previous-card-info = Алдыңғы картаның деректері
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = Толық экран режимі сіздің бейне драйверіңізбен жұмыс істемейді. Баптаулар экранында басқа драйверге ауысып көріңіз.
+actions-fullscreen-unsupported = Толық экран режимі сіздің бейне драйверіңізбен жұмыс істемейді. Бапталымдар бейнебеті арқылы басқа драйверге ауысып көріңіз.
 actions-flag-number = { $number } Жалауша
 
 ## The same translation may used for two independent actions:

@@ -112,7 +112,7 @@ deck-config-sort-order-retrievability-descending = Түсірілімнің ке
 
 deck-config-timer-title = Таймер
 deck-config-maximum-answer-secs = Жауап беру уақытының шегі (секунд)
-deck-config-stop-timer-on-answer = Жауап бергенде экрандағы таймерді тоқтату
+deck-config-stop-timer-on-answer = Жауап бергенде бейнебет таймерін тоқтату
 
 ## Auto Advance section
 
