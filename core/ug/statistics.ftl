@@ -247,6 +247,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } توغرىلىقى ({ $percent }%)
+statistics-hours-correct-info = ← («قايتا» ئەمەس)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } قېتىم تەكرارلىدى
 # the emoji depicts the graph displaying this number

@@ -81,6 +81,17 @@ preferences-ankiweb-intro = AnkiWeb كارتا سانلىق مەلۇماتلىر
 preferences-ankihub-intro = AnkiHub ھەمكارلىقتىكى دەستە تەھرىرلەش ۋە قوشۇمچە ئۆگىنىش قوراللىرى بىلەن تەمىنلەيدۇ. بەزى ئىقتىدارنى ئىشلىتىش ئۈچۈن ھەقلىق مۇشتەرى بولۇش زۆرۈر.
 preferences-third-party-description = ئۈچىنچى تەرەپ مۇلازىمىتى Anki بىلەن مۇناسىۋەتسىز ھەمدە قوللىمايدۇ. بۇ مۇلازىمەتلەرنى ئىشلىتىش ئۈچۈن ھەق تۆلىشىڭىز مۇمكىن.
 
+## URL scheme related
+
+preferences-url-schemes = تور ئادرېس كېلىشىمى
+preferences-url-scheme-prompt = { preferences-url-schemes } يول قويدى (بوشلۇقتا ئايرىلىدۇ):
+preferences-url-scheme-warning =
+    ئۇلانما «{ $link }» نى ئېچىشقا ئۇرۇنۇش توسۇلدى، بۇ مەشغۇلاتنىڭ بىخەتەرلىك خەتىرى بار.
+    
+    ئەگەر دەستە يازغۇچىغا ئىشىنىپ، مەشغۇلاتنى داۋاملاشتۇرماقچى بولسىڭىز، «{ $scheme }» نى يول قويىدىغان { preferences-url-schemes } غا قوشالايسىز.
+preferences-url-scheme-allow-once = بىر قېتىملا يول قوي
+preferences-url-scheme-always-allow = ھەمىشە يول قوي
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = ئاساسى

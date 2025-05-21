@@ -15,6 +15,7 @@ importing-colon = قوش چېكىت
 importing-comma = پەش
 importing-empty-first-field = تۇنجى بۆلەك باش: { $val }
 importing-field-separator = بۆلەك ئايرىغۇچ
+importing-field-separator-guessed = بۆلەك ئايرىغۇچ (ئۆزلۈكىدىن بايقايدۇ)
 importing-field-mapping = بۆلەك خەرىتىلەش
 importing-field-of-file-is = ھۆججەتنىڭ <b>{ $val }</b> بۆلىكى:
 importing-fields-separated-by = بۆلەك ئايرىغۇچ: { $val }
