@@ -3,10 +3,13 @@
 
 ## Media synchronization
 
+sync-media-added-count = Engadidos: { $up }↑ { $down }↓
+sync-media-removed-count = Eliminados: { $up }↑ { $down }↓
+sync-media-checked-count = Comprobados: { $count }
 
 ## Error messages / dialogs
 
-sync-wrong-pass = O ID ou o contrasinal de AnkiWeb son incorrectos; tenteo de novo.
+sync-wrong-pass = O ID de AnkiWeb ou o contrasinal son incorrectos; téntao de novo.
 sync-conflict-explanation =
     As súas barallas aquí e en AnkiWeb difiren ata tal punto que non poden ser fundidas, así que é preciso sobreescribir as barallas dun lado coas do outro.
     
@@ -32,4 +35,7 @@ sync-uploading-to-ankiweb = Enviando a AnkiWeb...
 sync-syncing = Sincronizando...
 sync-checking = Comprobando...
 sync-connecting = Conectando...
+sync-added-updated-count = Engadidos/modificados: { $up }↑ { $down }↓
+sync-log-in-button = Iniciar sesión
+sync-log-out-button = Pechar sesión
 sync-collection-complete = Colección sincronizada.
