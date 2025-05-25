@@ -84,10 +84,10 @@ preferences-third-party-description = 第三方服务不隶属于 Anki，也不�
 ## URL scheme related
 
 preferences-url-schemes = URL 协议
-preferences-url-scheme-prompt = 允许的 { preferences-url-schemes }（用空格分隔）：
+preferences-url-scheme-prompt = 允许的 URL 模式（用空格分隔）：
 preferences-url-scheme-warning =
     已拦截尝试打开的链接 `{ $link }`，该操作可能存在安全风险。
-    若您信任牌组作者并希望继续操作，可将 `{ $scheme }` 添加到允许的 { preferences-url-schemes } 中。
+    若您信任牌组作者并希望继续操作，可将 `{ $scheme }` 添加到允许的 URL 模式中。
 preferences-url-scheme-allow-once = 仅允许一次
 preferences-url-scheme-always-allow = 始终允许
 
