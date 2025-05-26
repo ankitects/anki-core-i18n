@@ -201,6 +201,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = 正確率： { $correct }/{ $total } ({ $percent }%)
+statistics-hours-correct-info = →（不含「重來」）
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } 次複習
 # the emoji depicts the graph displaying this number

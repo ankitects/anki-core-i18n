@@ -39,7 +39,7 @@ deck-config-today-only = 僅限今天
 deck-config-learning-steps = 學習階段
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = 延遲時間通常使用分鐘（如 `5m`）或天（如 `2d`），但也支援小時（如 `1h`）和秒（如 `30s`）。
-deck-config-learning-steps-tooltip = 一或多段時長，用空格分隔。第一段時長是新卡片的 `重來` 按鈕延遲，預設值為 1 分鐘。按下 `良好` 按鈕將使卡片前進到下一階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將在未來出現。{ -deck-config-delay-hint }
+deck-config-learning-steps-tooltip = 一或多段時長，以空格分隔。第一段時長是新卡片的 `重來` 按鈕延遲，預設值為 1 分鐘。按下 `良好` 按鈕將使卡片前進到下一階段，預設值為 10 分鐘。完成所有階段後，卡片即成為複習卡，並將在未來出現。{ -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = 按下 `良好` 按鈕完成最後一個學習階段後，卡片再次顯示前需等待的天數。
 deck-config-easy-interval-tooltip = 按下 `簡單` 按鈕直接跳過「學習中」狀態後，再次顯示卡片前需等待的天數。
 deck-config-new-insertion-order = 插入順序
@@ -51,7 +51,7 @@ deck-config-new-insertion-order-random-with-v3 = 使用 V3 排程器時，建議
 ## Lapses section
 
 deck-config-relearning-steps = 重新學習階段
-deck-config-relearning-steps-tooltip = 零或多段時長，用空格分隔。根據預設，複習卡的 `重來` 按鈕延遲為 10 分鐘。若未提供時長，則按下 `重來` 會改變卡片的間隔，但不會進入重新學習狀態。{ -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = 零或多段時長，以空格分隔。根據預設，複習卡的 `重來` 按鈕延遲為 10 分鐘。若未提供時長，則按下 `重來` 會改變卡片的間隔，但不會進入重新學習狀態。{ -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = 複習卡被標記為低效卡（`leech`）所需按下 `重來` 的次數。低效卡耗費了你大量的時間，建議對這些卡片重寫、刪除或透過口訣來幫助記憶。
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =

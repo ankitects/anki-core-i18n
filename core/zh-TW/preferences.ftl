@@ -81,6 +81,17 @@ preferences-ankiweb-intro = AnkiWeb 是一項免費服務，可以把你的卡�
 preferences-ankihub-intro = AnkiHub 可以合作編輯牌組，並提供其他學習工具。部分功能需付費訂閱。
 preferences-third-party-description = Anki 與第三方服務無合作關係，不予擔保。使用這些服務可能需要付費。
 
+## URL scheme related
+
+preferences-url-schemes = URL Schemes
+preferences-url-scheme-prompt = 允許的 URL Schemes（以空格分隔）：
+preferences-url-scheme-warning =
+    已阻止開啟 `{ $link }`，可能存在安全性問題。
+    
+    如果你信任牌組作者，請在「允許的 URL Schemes」中加入 `{ $scheme }` 以繼續開啟。
+preferences-url-scheme-allow-once = 允許一次
+preferences-url-scheme-always-allow = 總是允許
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = 基本
