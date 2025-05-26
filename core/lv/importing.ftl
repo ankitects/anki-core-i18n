@@ -10,6 +10,7 @@ importing-include-reviews-help =
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Anki kavas/krājuma pakotne (*.apkg, *.colpakg, *.zip)
 importing-supermemo-xml-export-xml = Supermemo XML izgūšana (*.xml)
 importing-this-file-does-not-appear-to = Nešķiet, ka šī datne ir derīga .apkg datne. Ja šī kļūda ir par datni, kas lejupielādēta no AnkiWeb, ir iespējams, ka lejupielāde neizdevās. Lūgums mēģināt vēlreiz, un, ja sarežģījums turpinās, lūgums mēģināt vēlreiz ar citu pārlūku.
+importing-this-will-delete-your-existing-collection = Tas izdzēsīs esošo krājumu un aizvietos to ar datiem no datnes, kura tiek ievietota. Turpināt?
 importing-update-notetypes-help =
     Kad krājumā atjaunināt esošu piezīmju veidu. Pēc noklusējum tas tiek darīts,
     ja atbilstošais ievietotais piezīmju veids tika nesen izmainīts. Izmaiņas veidnes tekstā
