@@ -310,6 +310,7 @@ deck-config-smaller-is-better = קלענערע צאָלן ווײַזן אָן ד
 deck-config-steps-too-large-for-fsrs = ווען FSRS גילט, שטאַפּלען 1 טאָג אָדער מער זענען נישט כּדאי.
 deck-config-complete = { $num }% פֿאַרענדיקט
 deck-config-iterations = גילגול: { $count }…
+deck-config-reschedule-cards-on-change = אָפּלייגן קאַרטלעך אויפֿן טוישן
 deck-config-please-save-your-changes-first = קודם, ביטע היט אויף טוישונגען.
 deck-config-a-100-day-interval =
     { $days ->
@@ -321,6 +322,7 @@ deck-config-percent-of-reviews =
         [one] { $pct }% פון { $reviews } איבער׳חזר׳ונג
        *[other] { $pct }% פון { $reviews } איבער׳חזר׳ונגען
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = ס׳אָפּטימיזירט זיך מוסטער { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = FSRS מוז קודם אַקטיווירט ווערן.
 deck-config-fsrs-params-optimal = ס׳זעט אויס, ווי די פּאַראַמעטערס פֿון FSRS זענען שוין אָפּטימיזירט.

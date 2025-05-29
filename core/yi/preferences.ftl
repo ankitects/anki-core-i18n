@@ -77,9 +77,18 @@ preferences-reset-window-sizes-complete = פֿענצטער גרייסן און �
 preferences-shortcut-placeholder = אַרײַנשרײַבן אַ נישט-געניצט גיך-קנעפּל, אָדער לאָז ליידיק כּדי צו מאַכן אומניצלעך.
 preferences-third-party-services = זײַטיקע דינסטן
 preferences-ankihub-not-logged-in = יעצט נישט אַרײַנלאָגירט אין AnkiHub.
+preferences-ankiweb-intro = דורך AnkiWeb קען מען בחינם סינכראָניזירן דאַטן לענגויס פֿאַרשידענע מכשירים. קען מען אויך צוריקבאַקומען אַזעלכע דאַטן דערפֿון אַז די מכשירים ווערן (חלילה) צעבראָכן אָדער פֿאַרלוירן.
+preferences-ankihub-intro = AnkiHub דערלויבן, מע זאָל קענען מיטאַרבעטן אויף טעשלעך און שטעלט צו נאָך אַנדער לערן-מכשירים. מע מוז באַצאָלן אויף אַן אַבאָנעמענט כּדי צו קענען ניצן געוויסע שטריכן.
+preferences-third-party-description = זײַטיקע („דריטער-צד״) דינסטן האָבן נישט קיין שײַכות מיט אַנקי. קען זײַן, אַז מע מוז באַצאָלן כּדי צו ניצן דערפֿון.
 
 ## URL scheme related
 
+preferences-url-schemes = URL (יו-אַר-על) סכעמעס
+preferences-url-scheme-prompt = דערלויבענע URL סכעמעס (צעטיילט פֿון בלויזן):
+preferences-url-scheme-warning =
+    בלאָקירט אַ פּרוּוו צו עפֿענען ׳{ $link }׳, וואָס קען זײַן אַ זיכערהייט פּראָבלעם. 
+    
+    אויב דו געטרויסט דעם מחבר הטעשל און ווילסט ממשיך זײַן, קענסט צולייגן ׳{ $scheme }׳ אַרײַן אין די ערלויבענע סכעמעס.
 preferences-url-scheme-allow-once = דערלויבן איין מאָל
 preferences-url-scheme-always-allow = דערלויבן תּמיד
 
