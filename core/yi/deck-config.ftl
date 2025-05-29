@@ -87,7 +87,7 @@ deck-config-bury-priority-tooltip =
     - ווען אַלע אָפּהאַלן-ברירות גילטן, דער געשוויסטער וואָס קומט ערשנטס אין דער רשימה וועט זיך באַווײַזן פֿאַר אַ נײַ קאַרטל
     - געשוויסטער וואָס שפּעטער אין דער רשימה קענען נישט אָפּהאַלטן פֿריערדיקע קאַרטלגרופּעס. למשל, אויב מע מאַכט בטל דאָס אָפּהאַלטן נײַע קאַרטלעך, אַז מע חזר׳ט אײַן אַ נײַע קאַרטלן, ס׳וועט נישט אָפּהאַלטן קיין צווישן-טעג אָדער חזר׳קאַרטלעך, און מע קען זען סײַ אַ חזר-געשוויסטער סײַ אַ נײַ געשוויסטער קאַרטל אין דער זעלביקער זיצונג.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = ווײַז׳סדר
 deck-config-new-gather-priority = נײַער קאַרטל-זאַמלונג סדר
@@ -101,12 +101,6 @@ deck-config-new-gather-priority-tooltip-2 =
     ׳נאָטיצן אויף טראַף׳: עס זאַמלען זיך נאָטיצן געקליבן סתּם אַזוי. ווען ׳אפּהאַלטן געשוויסטער׳ גילט נישט, עס דערלויבט, אַז אַלע קאַרטלעך פֿון אַ נאָטיץ זאָלן זיך זען אין אַ סעסיע (וו.צ.ב סײַ פֿאָרנט←הינטן און אַ הינטן←פֿאָרנט קאַרטלעך).
     
     ׳קאַרטלעך אויף טאַרף׳: ס׳ זאַמלען זיך קאַרטלעך אין גאַנצן אויף טראַף.
-deck-config-new-gather-priority-deck = טעשל
-deck-config-new-gather-priority-deck-then-random-notes = טעשל, דערנאָך נאָטיצן אויף טראַף
-deck-config-new-gather-priority-position-lowest-first = באַרג-אַרויף
-deck-config-new-gather-priority-position-highest-first = באַרג-אַראָפּ
-deck-config-new-gather-priority-random-notes = נאָטיצן אויף טראַף
-deck-config-new-gather-priority-random-cards = קאַרטלעך אויף טראַף
 deck-config-new-card-sort-order = נײַע קאַרטל סאָרטיר-סדר
 deck-config-new-card-sort-order-tooltip-2 =
     ׳קאַרטלגרופּע׳: ס׳ווײַזן זיך קאַרטלעך לויטן סדר פֿון קאַרטלגרופּע. ווען ׳אָפּהאַלטן געשוויסטער׳ גילט נישט, אָט דאָס וועט פֿאַרזיכערן אַז אַלע פֿאָרנט←הינטן קאַרטלעך זאָלן זיך זען פֿאַר יעדער הינטן←פֿאָרנט קאַרטל. דאָס איז ניצלעך כּדי זיך צו באַווײַזן אַלע קאַרטלעך פֿון איין נאָטיץ אין דער זעלבער סעסיע, נאָר נישט צו נאָענט איינער פֿונעם צווייטן.
@@ -118,11 +112,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     ׳נאָטיץ אויף טראַף, דערנאָך קאַרטלגרופּע׳: ס׳קלײַבן אויס נאָטיצן אויף טראַף, דערנאָך, ס׳ווײַזן זיך אַלע געשוויסטער דערפֿון לויט׳ן סדר.
     
     ׳אויף טראַף׳: ס׳צעמישן זיך אין גאַנצן די פֿאַרזאַמלטע קאַרטלעך.
-deck-config-sort-order-card-template-then-random = קאַרטלגרופּע, דערנאָך אויף טראַף
-deck-config-sort-order-random-note-then-template = נאָטיץ אויף טראַף, דערנאָך קאַרטלגרופּע
-deck-config-sort-order-random = אויף טראַף
-deck-config-sort-order-template-then-gather = קאַרטלגרופּע
-deck-config-sort-order-gather = סדר פֿאַרזאַמלט
 deck-config-new-review-priority = נײַ/חזר-סדר
 deck-config-new-review-priority-tooltip = ווען נײַע קאַרטלעך זאָלן זיך ווײַזן לגבי חזר-קאַרטלעך
 deck-config-interday-step-priority = צווישטן-טעג לערן-/איבערחזר-סדר
@@ -130,22 +119,62 @@ deck-config-interday-step-priority-tooltip =
     ווען ס׳זאָלן זיך ווײַזן (קריק)לערן-קאַרטלעך וואָס גיין איבער אַ גרענעץ פֿון אַ מעת-לעת.
     
     דער חזר-גרענעץ גילט שטענדיק ערשט אויף צווישן-טעג לערן-קאַרטלעך, דערנאָך חזר-קאַרטלעך. די ברירה וועט באַשטימען דעם סדר וואָס פֿון אים ווערן די פֿאַרזאַמלטע קאַרטלעך באַוויזן, אָבער צווישן-טעג לערן-קאַרטלעך וועלן זיך תּמיד פֿאַרזאַמלען קודם.
-deck-config-review-mix-mix-with-reviews = צעמישן מיט חזר-קאַרטלעך
-deck-config-review-mix-show-after-reviews = ווײַזן נאָך חזר-קאַרטלעך
-deck-config-review-mix-show-before-reviews = ווײַזן פֿאַר חזר-קאַרטלעך
 deck-config-review-sort-order = איבער׳חזר סאָרטיר-סדר
 deck-config-review-sort-order-tooltip = דער סדר דורך פֿעליקייט פּריאָריטיזירט קאַרטלעך וואָס וואַרטן שוין צום לאַנגסטן, אַזוי ווי, ווען ס׳איז דאָ אַ זאַפּאַס אָנגעזאַמלטע חזר-קאַרטלעך, די וואָס זענען שוין גרייט צום לאַנגסטן זאָלן זיך באַווײַזן קודם. אויב ס׳איז דאָ אַ גרעסער צאָל אָנגעזאַלטע וואָס ס׳וועט דויערן מער ווי אַ פּאָר טעג די צו פֿאַרענדיקן, אויב דו ווילסט זען קאַרטלעך אין אַ סדר פֿון סוב-טעשל, קען זײַן, אַ דו וועסט גיכער ניצן אַלטערנאַטיווע סאָרטיר-סדרים.
-deck-config-sort-order-due-date-then-random = טערמין, דערנאָך אויף טראַף
-deck-config-sort-order-due-date-then-deck = טערמין, דערנאָך טעשל
-deck-config-sort-order-deck-then-due-date = טעשל, דערנאָך טערמין
-deck-config-sort-order-ascending-intervals = צווישנצײַט באַרג-אַרויף
-deck-config-sort-order-descending-intervals = צווישנצײַט באַרג-אַראָפּ
-deck-config-sort-order-ascending-ease = גרינגקייט באַרג-אַרויף
-deck-config-sort-order-descending-ease = גרינגקייט באַרג-אַראָפּ
-deck-config-sort-order-ascending-difficulty = שוועריקייט באַרג-אַרויף
-deck-config-sort-order-descending-difficulty = שוועריקייט באַרג-אַראָפּ
-deck-config-sort-order-relative-overdueness = רעלאַטיוו אָפּלייגעניש
 deck-config-display-order-will-use-current-deck = ANKI וועט ניצן דעם סאָרטיר-סדר פֿונעם אויסגעקליבענעם טעשל, אַנשטאָט פֿון אַ סוב-טעשל, ווען ס׳איז דאָ איינס.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = טעשל
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = טעשל, דערנאָך נאָטיצן אויף טראַף
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = באַרג-אַרויף
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = באַרג-אַראָפּ
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = נאָטיצן אויף טראַף
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = קאַרטלעך אויף טראַף
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = קאַרטלגרופּע, דערנאָך אויף טראַף
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = נאָטיץ אויף טראַף, דערנאָך קאַרטלגרופּע
+# Sort the cards randomly.
+deck-config-sort-order-random = אויף טראַף
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = קאַרטלגרופּע
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = סדר פֿאַרזאַמלט
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = צעמישן מיט חזר-קאַרטלעך
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = ווײַזן נאָך חזר-קאַרטלעך
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = ווײַזן פֿאַר חזר-קאַרטלעך
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = טערמין, דערנאָך אויף טראַף
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = טערמין, דערנאָך טעשל
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = טעשל, דערנאָך טערמין
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = צווישנצײַט באַרג-אַרויף
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = צווישנצײַט באַרג-אַראָפּ
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = גרינגקייט באַרג-אַרויף
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = גרינגקייט באַרג-אַראָפּ
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = שוועריקייט באַרג-אַרויף
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = שוועריקייט באַרג-אַראָפּ
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = דערמאָנענקייט באַרג-אַרויף
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = דערמאָנענקייט באַרג-אַראָפּ
 
 ## Timer section
 
@@ -195,6 +224,21 @@ deck-config-minimum-interval-tooltip = די מינימאַלע צווישנצײ�
 deck-config-custom-scheduling = צופּאַסן פּלאַנירונג
 deck-config-custom-scheduling-tooltip = ס׳גילט אויף דער גאַנצער זאַמלונג. היט זיך, אויפֿן אייגענעם אחריות!
 
+# Easy Days section
+
+deck-config-easy-days-title = גרינגע טעג
+deck-config-easy-days-monday = מאָנטיק
+deck-config-easy-days-tuesday = דינסטיק
+deck-config-easy-days-wednesday = מיטוואָך
+deck-config-easy-days-thursday = דאָנערשטיק
+deck-config-easy-days-friday = פֿרײַטיק
+deck-config-easy-days-saturday = שבת
+deck-config-easy-days-sunday = זונטיק
+deck-config-easy-days-normal = נאָרמאַל
+deck-config-easy-days-reduced = רעדוצירט
+deck-config-easy-days-minimum = מינימום
+deck-config-easy-days-no-normal-days = כאָטש איין טאָג זאָל מען אײַנשטעלן אויף '{ deck-config-easy-days-normal }'
+
 ## Adding/renaming
 
 deck-config-add-group = צולייגן מוסטער
@@ -236,6 +280,7 @@ deck-config-learning-step-above-graduating-interval = די גראַדויִרן-
 deck-config-good-above-easy = די גרינג-צווישנצײַט זאָל נײַן לכל-הפּחוט אַזוי לאַנג ווי די גראַדויִרן-צווישנצײַט.
 deck-config-relearning-steps-above-minimum-interval = די מינימאַלע פֿאַרטונקל-צווישנצײַט זאָל זײַן לכל-הפּחוט אַזוי לאַנג ווי דעם לעצטן קריקלער-שטאַפּל.
 deck-config-maximum-answer-secs-above-recommended = אַנקי קען פּלאַנירן עפֿעקטיווער איבער׳חזר׳ונגען, ווען יעדע פֿראַגע איז אַ קורצע.
+deck-config-too-short-maximum-interval = ס׳איז כּדאי, די מאַקסימאַל צווישנצײַט זאָל נישט זײַן ווייניק פון 6 מאָנאַטן.
 
 ## Selecting a deck
 
@@ -243,6 +288,13 @@ deck-config-which-deck = פֿון וועלכען טעשל ווילסטו ווײ�
 
 ## Messages related to the FSRS scheduler
 
+deck-config-not-enough-history = דער איבער׳חזר-זכּרון קלעקט נישט אויסצופֿירן די פֿונקציע.
+deck-config-unable-to-determine-desired-retention = מ׳האָט נישט געקענט באַשטימען אַ מינימאַל-רעקאָמענדירט אָנהאַלטן.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] נאָר { $count } איבער׳חזר׳ונג האָט מען געפֿונען. מע דאַרף כאָטש 400 איבער׳חזר׳ונגען אויף אויסצופֿירן די פֿונקציע.
+       *[other] נאָר { $count } איבער׳חזר׳ונגען האָט מען געפֿונען. מע דאַרף כאָטש 400 איבער׳חזר׳ונגען אויף אויסצופֿירן די פֿונקציע.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS פּאַראַמעטערס
 deck-config-compute-optimal-weights = אָפּטימיזירן FSRS פּאַראַמעטערס
@@ -250,7 +302,7 @@ deck-config-compute-minimum-recommended-retention = מינימאַל רעקאָ�
 deck-config-optimize-button = אָפּטימיזירן
 deck-config-compute-button = אויסרעכענען
 deck-config-ignore-before = איגנאָרירן קאַרטלעך וואָס פֿריער איבערגע׳חזר׳ט
-deck-config-optimize-all-tip = מע קען אָפּטימיזירן אַלע מוסטערס מיט אַ מאָל בײַם ניצן דאָס אַראָפּצי-קנעפּל פּונקט לעבן "אויפֿהיטן".
+deck-config-time-to-optimize = שוין לאַנג זיך נישט געזען - ס׳איז כּדאי צו „אָפּטימיזירן אַלץ״.
 deck-config-evaluate-button = אָפּשאַצן
 deck-config-desired-retention = געוווּנטשן זכּרון
 deck-config-historical-retention = היסטאָריש זכּרון
@@ -286,3 +338,4 @@ deck-config-do-not-bury = אָפּהאַלטן נישט קיין געשוויס�
 deck-config-bury-if-new = אָפּהאַלטן ווען נײַ
 deck-config-bury-if-new-or-review = אָפּהאַַלטן ווען נײַ אָדער אויף איבערצו׳חזר׳ן
 deck-config-bury-if-new-review-or-interday = אָפּהאַַלטן ווען נײַ, אויף איבערצו׳חזר׳ן, אָדער צווישן-טעג אײַנצו׳חזר׳ן
+deck-config-optimize-all-tip = מע קען אָפּטימיזירן אַלע מוסטערס מיט אַ מאָל בײַם ניצן דאָס אַראָפּצי-קנעפּל פּונקט לעבן "אויפֿהיטן".

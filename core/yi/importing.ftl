@@ -13,6 +13,7 @@ importing-colon = צווייפּינטל
 importing-comma = קאָמע
 importing-empty-first-field = ליידיק ערשט פֿעלד: { $val }
 importing-field-separator = פֿעלד-מחיצה
+importing-field-separator-guessed = פֿעלד-סעפּעראַטאָר (געטראָפֿן)
 importing-field-mapping = פֿעלדער צונויפֿפּאָרן
 importing-field-of-file-is = פֿעלד <b>{ $val }</b> פון דער טעקע איז:
 importing-fields-separated-by = פֿעדלער ווערן צעטיילט מיט: { $val }
@@ -31,7 +32,7 @@ importing-map-to = צונויפֿפּאָרן מיט { $val }
 importing-map-to-tags = צונויפֿפּאָרן מיט צעטלען
 importing-mapped-to = צונויפֿגעפּאָרט מיט <b>{ $val }</b>
 importing-mapped-to-tags = צונויפֿגעפּאָרט מיט <b>צעטלען</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = צונויפֿגיסן מיני נאָטיצן
 importing-merge-notetypes-help =
     ווען ס׳איז חל, און דו אָדער דער מחבר פון טעשל האָבן איבערגעביטן די סכעמע פון אַ נאָטיצגרופּע, Anki וועט צונויפֿגיסן די 2 ווערסיעס אַנשטאָט׳ן האַטלן ביידע.
@@ -61,6 +62,13 @@ importing-packaged-anki-deckcollection-apkg-colpkg-zip = אײַנגעפּאַק�
 importing-pauker-18-lesson-paugz = Pauker 1.8 לעקציע (*.pau.gz)
 # the '|' character
 importing-pipe = טרויב-סימבאָל
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] נאָר דער ערשטער עמוד ווערט געוויזן. ווען נישט ריכטיק, פּרוביר אויסצובײַטן דעם פֿעלד-סעפּעראַטאָר.
+       *[other] נאָר די ערשטע עמודים ווערן געוויזן. ווען נישט ריכטיק, פּרוביר אויסצובײַטן דעם פֿעלד-סעפּעראַטאָר.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' האָט געהאַט { $found }, ס׳האָט זיך געריכט { $expected }
 importing-selected-file-was-not-in-utf8 = אויסגעקליבענע טעקע איז נישט געווען אין פֿאָרמאַט UTF-8. גיב אַ קוק אויפֿן ׳אַרײַנפֿירן׳ אָפּטייל פֿונעם האַנטביכל.
 importing-semicolon = פּינטל-קאָמע

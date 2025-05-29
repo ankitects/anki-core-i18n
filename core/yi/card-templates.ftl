@@ -37,6 +37,7 @@ card-templates-card = קאַרטל { $val }
 card-templates-card-types-for = מיני קאַרלעך פון { $val }
 card-templates-cloze = שפּאַלט { $val }
 card-templates-deck-override = טעשל בטל מאַכן…
+card-templates-copy-info = קאָפּירן ידיעות אין קליפּבאָורד
 card-templates-delete-the-as-card-type-and = אָפּמעקן די '{ $template }' קאַרטלגרופּע, און אַזאַ { $cards }?
 card-templates-enter-deck-to-place-new = שרײַבט אַרײַן טעשל וואָס אין אים צוצושטעלן קאַרטלעך, אָדער לאָזן פּוסט:
 card-templates-enter-new-card-position-1 = שטעלט צו אַ נײַע קאַרטל-פּאָזיציע (1…{ $val }):

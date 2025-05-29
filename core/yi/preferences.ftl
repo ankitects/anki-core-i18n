@@ -27,7 +27,6 @@ preferences-show-remaining-card-count = ווײַזן חשבון פון געבל�
 preferences-some-settings-will-take-effect-after = טייל פֿיקסירונגען וועלן ווערן גילטיק בײַם צולאָדן ANKI אויף ס׳נײַ.
 preferences-tab-synchronisation = סינכראָניזאַציע
 preferences-synchronize-audio-and-images-too = סינכראָניזירן אוידיאָ און אויך בילדער
-preferences-not-logged-in = יעצט נישט אַרײַנלאָגירט אין AnkiWeb.
 preferences-login-successful-sync-now = דאָס אַרײַנלאָגירן איז מצליח געווען. אויפֿהיטן אויסוואַלן און סינכראָניזירן שוין?
 preferences-timebox-time-limit = צײַט-גרענעץ פון צײַטקעסטל
 preferences-user-interface-size = גרייס פון ניצער-צווישנבינד
@@ -41,6 +40,7 @@ preferences-theme-follow-system = לויט דער סיסטעם
 preferences-theme-light = ליכטיק
 preferences-theme-dark = טונקל
 preferences-v3-scheduler = V3 פּלאַנירער
+preferences-check-for-updates = זע צי ס׳איז דאָ אַ נײַע דערהײַנטיקונג
 preferences-ignore-accents-in-search = פֿאַרקוקן דיאַקריטלעך בײַם זוכן (פּאַמעלעכער)
 preferences-backup-explanation = פּעריאָדיש מאַכט ANKI אַ רעזערוו-קאָפּיע פון דײַן זאַמלונג. נאָך רעזערוו-קאָפּיעס ווערן אַלט מער פון 2 טעג, ANKI וועט אָנהייבן צוצונעמען טייל כּדי אָפּפֿרײַען אָרט אויפֿן דיסק.
 preferences-daily-backups = טעגלעכע רעזערוו-קאָפּיעס וועס צו האַלטן:
@@ -75,9 +75,17 @@ preferences-network-timeout = נעץ איז אויס
 preferences-reset-window-sizes = אײַנשטעלן פֿענצטער גרײסן אויף ס׳נײַ
 preferences-reset-window-sizes-complete = פֿענצטער גרייסן און פּלעצער זענען אײַנגעשטעלט געוואָרן אויף ס׳נײַ.
 preferences-shortcut-placeholder = אַרײַנשרײַבן אַ נישט-געניצט גיך-קנעפּל, אָדער לאָז ליידיק כּדי צו מאַכן אומניצלעך.
+preferences-third-party-services = זײַטיקע דינסטן
+preferences-ankihub-not-logged-in = יעצט נישט אַרײַנלאָגירט אין AnkiHub.
+
+## URL scheme related
+
+preferences-url-scheme-allow-once = דערלויבן איין מאָל
+preferences-url-scheme-always-allow = דערלויבן תּמיד
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = עיקרדיק
 preferences-reviewer = רעצענזענט
 preferences-media = מעדיע
+preferences-not-logged-in = יעצט נישט אַרײַנלאָגירט אין AnkiWeb.

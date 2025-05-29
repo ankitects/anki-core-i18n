@@ -1,5 +1,17 @@
 actions-add = צולייגן
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = אַלע אויסגעקליבענע
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = וואָסער אויסגעקליבענע
 actions-cancel = אַנולירן
 actions-choose = קלײַבן
@@ -12,6 +24,7 @@ actions-decks = טעשלעך
 actions-decrement-value = ווייניקער
 actions-delete = אָפּמעקן
 actions-export = אַרויספֿירן
+actions-empty-cards = ליידיקע קאַרטלעך
 actions-filter = פֿילטרירן
 actions-help = הילף
 actions-increment-value = אַ שטאַפּל ווייניקער
@@ -36,7 +49,9 @@ actions-search = זוכן
 actions-select = אויסקלײַבן
 actions-shortcut-key = גיכקנעפּל:
 actions-suspend-card = אָפּשטעלן קאַרטל
-actions-set-due-date = שטעלן טערמין
+actions-set-due-date = באַשטימען טערמין
+actions-toggle-load-balancer = איבערשליסן משׂא-באַלאַנסירער
+actions-grade-now = שאַצן שוין
 actions-answer-card = ענטפֿער קאַרטל
 actions-unbury-unsuspend = צוריקנעמען
 actions-add-deck = שאַפֿן טעשל
@@ -57,10 +72,12 @@ actions-previous-card-info = פֿריִערדיקע קאַרטל פּרטים
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = …
 actions-fullscreen-unsupported = פֿול-עקראַן-מאָדוס אַרבעט נישט מיט דײַן ווידעאָראָד. פּרוביר איבערצובײַטן אין אַן אַנדער דורך די אויסוואַל-עקראַן.
-
-## Flags
-
 actions-flag-number = אַרויסהייבן
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = רויט
 actions-flag-orange = אָראַנזש
 actions-flag-green = גרין
@@ -68,9 +85,13 @@ actions-flag-blue = בלאָ
 actions-flag-pink = ראָזע
 actions-flag-turquoise = טורקיזן
 actions-flag-purple = פּערפּל
+
+##
+
 actions-set-flag = צולייגן סימן
 actions-nothing-to-undo = גאָרנישט צו אַנולירן
 actions-nothing-to-redo = גאָרנישט צו איבערמאַכן
 actions-auto-advance = אויטאָ-פֿאָראויסגיין
 actions-auto-advance-activated = אויטאָ-פֿאָראויסגיין אַקטיווירט
 actions-auto-advance-deactivated = אויטאָ-פֿאָראויסגיין בטל געוואָרן
+actions-processing = פּראָצעסירנדיק…

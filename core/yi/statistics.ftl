@@ -43,17 +43,6 @@ statistics-in-time-span-years =
         [one] אין { $amount } יאָר
        *[other] אין { $amount } יאָרן
     }
-statistics-cards =
-    { $cards ->
-        [one] { $cards } קאַרטל
-       *[other] { $cards } קאַרטלעך
-    }
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews =
-    { $reviews ->
-        [one] { $reviews } איבער׳חזר׳ונג
-       *[other] { $reviews } איבער׳חזר׳ונגען
-    }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -66,6 +55,20 @@ statistics-studied-today =
         [days] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-days } הײַנט ({ $secs-per-card }ס/קאַרטל)
         [months] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-months }הײַנט ({ $secs-per-card }ס/קאַרטל)
        *[years] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-years } הײַנט ({ $secs-per-card }ס/קאַרטל)
+    }
+
+##
+
+statistics-cards =
+    { $cards ->
+        [one] { $cards } קאַרטל
+       *[other] { $cards } קאַרטלעך
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } איבער׳חזר׳ונג
+       *[other] { $reviews } איבער׳חזר׳ונגען
     }
 statistics-today-title = הײַנט
 statistics-today-again-count = ווידער-חשבון:
@@ -84,6 +87,29 @@ statistics-counts-learning-cards = לערנענדיקע
 statistics-counts-relearning-cards = קריקלערנענדיקע
 statistics-counts-title = קאַרטל חשבונות
 statistics-counts-separate-suspended-buried-cards = באַזונדערע אָפּגעשטעלטע/אָפּגעהאַלטענע קאַרטלעך
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = סך-הכּל
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = יונגע
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = דערוואַקסענע
+
+##
+
 statistics-range-all-time = אַלע
 statistics-range-1-year-history = פֿאַרגאַנגענע 12 חדשים
 statistics-range-all-history = גאַנצע געשיכטע
@@ -93,9 +119,8 @@ statistics-range-search = זוכן
 statistics-card-ease-title = קאַרטל-גרינגקייט
 statistics-card-difficulty-title = קאַרטל-שוועריקייט
 statistics-card-stability-title = קאַרטל-געזעצקייט
-statistics-card-stability-subtitle = דער אָפּייג וואָס נאָך אים, פֿאַלט די אָפּגעטראָגנקייט ביז 90%.
-statistics-average-stability = דורכשניטלעכע געזעצקייט
-statistics-card-retrievability-title = קאַרטל אָפּגעטראָגנקייט
+statistics-card-stability-subtitle = דער אָפּייג וואָס נאָך אים, פֿאַלט די דערמאָנענקייט ביז 90%.
+statistics-card-retrievability-title = קאַרטל דערמאָנענקייט
 statistics-card-ease-subtitle = וואָס נידעריקער די גרינגקייט, אַלץ אָפֿטער וועט אַ קאַרטל ווערן אויסגעוויזן.
 statistics-card-difficulty-subtitle2 = וואָס העכער די שוועריקייט, אַלץ פּאַמעלעכער וואָס די געזעצקייט ווערן פֿאַרגרעסערט.
 statistics-retrievability-subtitle = דער משמעות פון זיך דערמאָנען אַ קאַרטל הײַנט.
@@ -112,8 +137,8 @@ statistics-card-difficulty-tooltip =
     }
 statistics-retrievability-tooltip =
     { $cards ->
-        [one] { $cards } קאַרטל מיט { $percent } אָפּגעטראָגנקייט
-       *[other] { $cards } קאַרטלעך מיט { $percent } אָפּגעטראָגנקייט
+        [one] { $cards } קאַרטל מיט { $percent } דערמאָנענקייט
+       *[other] { $cards } קאַרטלעך מיט { $percent } דערמאָנענקייט
     }
 statistics-future-due-title = טערמיניקע און צוקונפֿט
 statistics-future-due-subtitle = דער צאָל טערמיניקע איבער׳חזר׳ונגען אינעם צוקונפֿט.
@@ -202,11 +227,13 @@ statistics-elapsed-time-years = { $amount }י
 ##
 
 statistics-average-for-days-studied = דורכשניט פון שטודיר-טעג
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = סך-הכּל
 statistics-days-studied = טעג אײַנגע׳חזר׳ט
 statistics-average-answer-time-label = ענטפֿער-משך אין דורכשניט
 statistics-average = דורכשניט
-statistics-average-interval = דורכשניטלעכער צווישנצײַט
 statistics-due-tomorrow = טערמיניק מאָרגן
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } פון { $total } ({ $percent }%)
@@ -226,13 +253,16 @@ statistics-cards-per-day =
         [one] { $count } קאַרטל/טאָג
        *[other] { $count } קאַרטלעך/טאָג
     }
-statistics-average-ease = דורכשניטלעכע גרינגקייט
-statistics-average-difficulty = דורכשניטלעכע שוועריקייט
-statistics-average-retrievability = דורכשניטלעכע אָפּגעטראָגנקייט
+statistics-average-retrievability = דורכשניטלעכע דערמאָנענקייט
 statistics-save-pdf = אויפֿהיטן PDF
 statistics-saved = אויפֿגעהיט.
 statistics-stats = סטאַט.
 statistics-title = סטאַטיסטיקס
-statistics-true-retention-total = סך-הכּל
-statistics-true-retention-young = יונגע
-statistics-true-retention-mature = דערוואַקסענע
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = דורכשניטלעכע געזעצקייט
+statistics-average-interval = דורכשניטלעכער צווישנצײַט
+statistics-average-ease = דורכשניטלעכע גרינגקייט
+statistics-average-difficulty = דורכשניטלעכע שוועריקייט
