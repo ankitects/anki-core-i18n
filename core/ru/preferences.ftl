@@ -27,6 +27,7 @@ preferences-show-remaining-card-count = Показывать количеств�
 preferences-some-settings-will-take-effect-after = Некоторые параметры вступят в силу только после перезапуска Anki.
 preferences-tab-synchronisation = Синхронизация
 preferences-synchronize-audio-and-images-too = Синхронизировать аудио и изображения
+preferences-login-successful-sync-now = Вход выполнен успешно. Сохранить настройки и синхронизировать сейчас?
 preferences-timebox-time-limit = Лимит ограничения времени
 preferences-user-interface-size = Размер интерфейса
 preferences-when-adding-default-to-current-deck = Добавлять в текущую колоду
@@ -39,6 +40,7 @@ preferences-theme-follow-system = Как в системе
 preferences-theme-light = Светлая
 preferences-theme-dark = Тёмная
 preferences-v3-scheduler = Планировщик V3
+preferences-check-for-updates = Проверять наличие обновлений программы
 preferences-ignore-accents-in-search = Игнорировать диакритические знаки при поиске (медленнее)
 preferences-backup-explanation =
     Anki периодически создает резервную копию ваших коллекций при выходе. После двух дней,
@@ -62,6 +64,7 @@ preferences-review = Учёба
 preferences-answer-keys = Кнопки ответа
 preferences-distractions = Помехи
 preferences-minimalist-mode = Минималистичный
+preferences-minimalist-mode-tooltip = Сделать интерфейс более компактным/менее вычурным
 preferences-editing = Редактирование
 preferences-browsing = Список
 preferences-default-deck = Колода по умолчанию
@@ -74,6 +77,20 @@ preferences-network-timeout = Ожидание сети
 preferences-reset-window-sizes = Сбросить размер окон
 preferences-reset-window-sizes-complete = Размер и положения окон сброшены.
 preferences-shortcut-placeholder = Введите неиспользуемое сочетание клавиш или оставьте пустым, чтобы не отключить.
+preferences-third-party-services = Сторонние сервисы
+preferences-ankihub-intro = AnkiHub обеспечивает совместное редактирование колоды и дополнительные инструменты для обучения. Для доступа к определенным функциям требуется платная подписка.
+preferences-third-party-description = Сторонние сервисы не связаны с Anki и не одобрены ею. Использование этих сервисов может быть платным.
+
+## URL scheme related
+
+preferences-url-schemes = URL схемы
+preferences-url-scheme-prompt = Разрешенные схемы URL (через пробел):
+preferences-url-scheme-warning =
+    Заблокирована попытка открыть `{ $link }`, что может быть проблемой безопасности.
+    
+    Если вы доверяете автору колоды и хотите продолжить, вы можете добавить `{ $scheme }` в разрешенные схемы URL.
+preferences-url-scheme-allow-once = Разрешить на 1 раз
+preferences-url-scheme-always-allow = Всегда разрешать
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

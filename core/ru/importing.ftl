@@ -33,7 +33,7 @@ importing-map-to = Сопоставить { $val }
 importing-map-to-tags = Сопоставить меткам
 importing-mapped-to = сопоставить <b>{ $val }</b>
 importing-mapped-to-tags = сопоставить <b>меткам</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Объединить типы записи
 importing-mnemosyne-20-deck-db = Колода Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Разделители из нескольких символов не поддерживаются. Введите только один символ.
@@ -183,6 +183,7 @@ importing-note-skipped-due-to-empty-first-field = Запись пропущен�
 importing-deck-help = Импортированные карточки будут помещены в эту колоду.
 importing-tag-all-notes-help = Эти метки будут добавлены к импортированным и обновлённым записям.
 importing-tag-updated-notes-help = Эти метки будут добавлены к обновлённым записям.
+importing-overview = Обзор
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

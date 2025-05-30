@@ -385,6 +385,7 @@ deck-config-percent-of-reviews =
         [few] { $pct }% от { $reviews } повторений
        *[many] { $pct }% от { $reviews } повторений
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Оптимизация предустановки { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Сначала необходимо включить FSRS.
 deck-config-fsrs-params-optimal = В настоящее время параметры FSRS, вероятно, оптимальны.
