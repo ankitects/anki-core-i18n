@@ -238,6 +238,7 @@ deck-config-easy-days-normal = נאָרמאַל
 deck-config-easy-days-reduced = רעדוצירט
 deck-config-easy-days-minimum = מינימום
 deck-config-easy-days-no-normal-days = כאָטש איין טאָג זאָל מען אײַנשטעלן אויף '{ deck-config-easy-days-normal }'
+deck-config-easy-days-change = טעשלעך וואָס זענען שוין פֿאַראַן וועלן נישט ווערט אָפּגעלייגט סײַדן מ׳האָט אַקטיווירט '{ deck-config-reschedule-cards-on-change }' אין די FSRS ברירות.
 
 ## Adding/renaming
 
