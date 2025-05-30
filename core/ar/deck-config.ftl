@@ -321,6 +321,7 @@ deck-config-easy-days-normal = عادي
 deck-config-easy-days-reduced = مخفض
 deck-config-easy-days-minimum = أدنى
 deck-config-easy-days-no-normal-days = يجب ضبط يوم واحد على الأقل إلى '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = المراجعات الموجودة لا يتم إعادة جدولتها إلا إذا كان خيار '{ deck-config-reschedule-cards-on-change }' في إعدادت FSRS مفعلًا.
 
 ## Adding/renaming
 
@@ -375,6 +376,8 @@ deck-config-learning-step-above-graduating-interval = فاصل التخرج يج
 deck-config-good-above-easy = يجب أن يكون فاصل البطاقات السهلة على الأقل بطول فاصل التخرج.
 deck-config-relearning-steps-above-minimum-interval = فاصل السقطات الأقصر يجب أن يكون على الأقل بطول خطوة إعادة التعلم الأخيرة.
 deck-config-maximum-answer-secs-above-recommended = يجدول أنكي مراجعاتك بشكل أكثر فعالية عندما تكون الأسئلة قصيرة.
+deck-config-too-short-maximum-interval = لا يستحسن ضبط الفاصل الأقصى لمدة أقصر من 6 شهور.
+deck-config-ignore-before-info = سيتم استخدام { $included } / { $totalCards } بطاقة تقريبًا لتحسين عوامل FSRS.
 
 ## Selecting a deck
 
@@ -503,6 +506,9 @@ deck-config-simulate = محاكاة
 deck-config-clear-last-simulate = مسح المحاكاة الأخيرة
 deck-config-fsrs-simulator-radio-count = مراجعات
 deck-config-advanced-settings = الإعدادات المتقدمة
+deck-config-smooth-graph = رسم بياني سلس
+deck-config-suspend-leeches = البطاقات المستعصية المعلقة
+deck-config-save-options-to-preset = حفظ التغييرات في مجموعة الخيارات
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

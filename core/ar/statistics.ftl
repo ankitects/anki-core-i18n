@@ -146,8 +146,9 @@ statistics-counts-separate-suspended-buried-cards = فصل البطاقات ال
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
-statistics-true-retention-title = الحفظ الحقيقي
+statistics-true-retention-title = التذكر الحقيقي
 statistics-true-retention-subtitle = معدل النجاح للبطاقات بفاصل ≥ يوم.
+statistics-true-retention-tooltip = إذا كنت تستخدم FSRS، فإن معدل التذكر الحقيقي يجب أن يكون قريبًا لمعدل التذكر المرغوب فيه. وجب التنويه أن بيانات اليوم واحد متذبذة لذلك يفضل معاينة البيانات الشهرية.
 statistics-true-retention-range = النطاق
 statistics-true-retention-pass = ناجح
 statistics-true-retention-fail = فاشل
@@ -182,7 +183,7 @@ statistics-card-ease-title = سهولة البطاقة
 statistics-card-difficulty-title = صعوبة البطاقة
 statistics-card-stability-title = استقرار البطاقة
 statistics-card-stability-subtitle = توقع وقت التأخر عندما يكون لديك فرصة 90% للتذكر.
-statistics-average-stability = متوسط الاستقرار
+statistics-median-stability = الاستقرار المتوسط
 statistics-card-retrievability-title = إمكانية استرجاع البطاقة
 statistics-card-ease-subtitle = كلما كانت السهولة منخفضة، ظهرت البطاقة مرات أكثر.
 statistics-card-difficulty-subtitle2 = كلما زادت الصعوبة، نقص معدل زيادة الاستقرار.
@@ -304,6 +305,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = خلال { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } صحيح ({ $percent }%)
+statistics-hours-correct-info = ← (غير 'مجددًا')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } مراجعة
 # the emoji depicts the graph displaying this number
@@ -330,12 +332,20 @@ statistics-elapsed-time-years = { $amount } ع
 ##
 
 statistics-average-for-days-studied = معدل أيام الدراسة
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = إجمالي
 statistics-days-studied = أيام الدراسة
 statistics-average-answer-time-label = معدل زمن الإجابة
 statistics-average = المعدل
-statistics-average-interval = معدل الفاصل الزمني
+statistics-median-interval = الفاصل الزمني المتوسط
 statistics-due-tomorrow = مستحقة غدًا
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = العبء اليومي
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } من { $total } ({ $percent }%)
@@ -367,11 +377,19 @@ statistics-cards-per-day =
         [many] { $count } بطاقة في اليوم
        *[other] { $count } بطاقة في اليوم
     }
-statistics-average-ease = معدل السهولة
-statistics-average-difficulty = معدل الصعوبة
+statistics-median-ease = السهولة المتوسطة
+statistics-median-difficulty = الصعوبة المتوسطة
 statistics-average-retrievability = معدل إمكانية الاسترجاع
 statistics-estimated-total-knowledge = إجمالي المعرفة المقدرة
 statistics-save-pdf = حفظ كـ PDF
 statistics-saved = تم الحفظ.
 statistics-stats = إحصائيات
 statistics-title = إحصائيات
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = متوسط الاستقرار
+statistics-average-interval = معدل الفاصل الزمني
+statistics-average-ease = معدل السهولة
+statistics-average-difficulty = معدل الصعوبة

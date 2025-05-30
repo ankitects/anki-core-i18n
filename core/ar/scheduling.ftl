@@ -222,6 +222,15 @@ scheduling-set-due-date-done =
         [many] ضبط تاريخ الاستحقاق لـ{ $cards } بطاقة.
        *[other] ضبط تاريخ الاستحقاق لـ{ $cards } بطاقة.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [zero] لم يتم تقييم أي بطاقة.
+        [one] تم تقييم بطاقة واحدة.
+        [two] تم تقييم بطاقتين.
+        [few] تم تقييم { $cards } بطاقات.
+        [many] تم تقييم { $cards } بطاقة.
+       *[other] تم تقييم { $cards } بطاقة.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [zero] نسيان { $cards } بطاقة.

@@ -83,6 +83,17 @@ preferences-ankiweb-intro = أنكي ويب هي خدمة تسمح له بمزا
 preferences-ankihub-intro = يوفر AnkiHub خدمة تحرير الرزم التعاونية وأدوات دراسة إضافية. يتطلب اشتراك مدفوع للوصول لبعض الميزات.
 preferences-third-party-description = الخدمات الخارجية لا تنتمي لأنكي ولا نروج لها. قد يتطلب استخدام هذه الخدمات الدفع.
 
+## URL scheme related
+
+preferences-url-schemes = مخططات عناوين الويب
+preferences-url-scheme-prompt = مخططات عناوين الويب المسموح بها (مفصولة بفراغ):
+preferences-url-scheme-warning =
+    تم حظر محاولة لفتح `{ $link }`، لأنها قد تسبب خرقًا للأمان.
+    
+    إذا كنت تثق بمؤلف الرزمة وتريد الاستمرار، تستطيع إضافة `{ $scheme }` إلى قائمة مخططات عناوين الويب المسموح بها.
+preferences-url-scheme-allow-once = السماح مرة
+preferences-url-scheme-always-allow = السماح دائمًا
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = أساسي
