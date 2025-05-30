@@ -39,6 +39,7 @@ card-templates-card = Карточка { $val }
 card-templates-card-types-for = Типы карточек для { $val }
 card-templates-cloze = Задание с пропусками { $val }
 card-templates-deck-override = Подмена колоды...
+card-templates-copy-info = Копировать в буфер обмена
 card-templates-delete-the-as-card-type-and = Удалить тип карточек '{ $template }' и его { $cards }?
 card-templates-enter-deck-to-place-new = Укажите колоду для новых { $val } карточек, или оставьте поле пустым:
 card-templates-enter-new-card-position-1 = Введите позиция новых карточек (1...{ $val }):

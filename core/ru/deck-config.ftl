@@ -34,6 +34,9 @@ deck-config-tab-description =
 deck-config-new-cards-ignore-review-limit = Лимит повторений не влияет на новые
 deck-config-new-cards-ignore-review-limit-tooltip = По умолчанию  лимит повторений применяется к новым карточкам, и ни одна из новых не будет показана по достижении этого лимита. Если опция включена, то новые карточки будут показаны вне зависимости от лимита.
 deck-config-apply-all-parent-limits = Лимиты начинаются сверху
+deck-config-apply-all-parent-limits-tooltip =
+    По умолчанию ежедневные лимиты колоды более высокого уровня не применяются, если вы изучаете ее подколоду.
+    Если эта опция включена, лимиты будут начинаться с колоды верхнего уровня, что может быть полезно, если вы хотите изучать отдельные подколоды, одновременно применяя общий лимит на карты для дерева колоды.
 deck-config-affects-entire-collection = Действует для всей коллекции
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -85,7 +88,7 @@ deck-config-bury-priority-tooltip =
     - Если у вас включены все опции откладывания, то будет показана первая по списку связанная карточка. Например, повторяемая будет показана раньше новой.
     - Связанные карточки, которые ниже по списку, не влияют на те, что выше. Например, если отключить откладывание новых и изучить новую карточку, она не отложит перенесённые и повторяемые, и вы увидите как повторяемую, так и новую.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Порядок показа
 deck-config-new-gather-priority = Порядок отбора новых
@@ -100,12 +103,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Случайные записи`: отбирает карточки случайных записей. Если связанные откладываются, то это позволяет повторить все карточки записи во время учебного сеанса.
     
     `Случайные карточки`: отбирает карточки случайным образом.
-deck-config-new-gather-priority-deck = По колоде
-deck-config-new-gather-priority-deck-then-random-notes = По колоде, потом случайный
-deck-config-new-gather-priority-position-lowest-first = По возрастанию номеров
-deck-config-new-gather-priority-position-highest-first = По убыванию номеров
-deck-config-new-gather-priority-random-notes = Случайные записи
-deck-config-new-gather-priority-random-cards = Случайные карточки
 deck-config-new-card-sort-order = Порядок новых
 deck-config-new-card-sort-order-tooltip-2 =
     `По типу карточки`: Показывает карточки по порядку номера типа карточки. Если у вас отключено откладывание связанных, то это гарантирует, что все карточки вида Лицо→Оборот будут показаны раньше Оборот→Лицо.
@@ -118,34 +115,68 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Случайная запись, затем тип карточки`: Отбирает записи в случайном порядке, затем показывает все связанные карточки по порядку.
     
     `Случайный`: Полностью перетасовывает отобранные карточки.
-deck-config-sort-order-card-template-then-random = По типу карточки, потом случайный
-deck-config-sort-order-random-note-then-template = Случайная запись, затем тип карточки
-deck-config-sort-order-random = Случайный
-deck-config-sort-order-template-then-gather = По типу карточки
-deck-config-sort-order-gather = По порядку отбора
 deck-config-new-review-priority = Порядок новых и повторяемых
 deck-config-new-review-priority-tooltip = Когда показывать новые карточки по отношению к повторяемым.
 deck-config-interday-step-priority = Порядок перенесённых
 deck-config-interday-step-priority-tooltip =
     Когда показывать изучаемые и переучиваемые, которые переносятся на следующий день.
     Лимит повторяемых сначала применяется к перенесённым изучаемым, после — к повторяемым. Этот параметр управляет порядком показа, но отбираются перенесённые изучаемые всегда первыми.
-deck-config-review-mix-mix-with-reviews = Перемешать с повторяемыми
-deck-config-review-mix-show-after-reviews = Показывать после повторяемых
-deck-config-review-mix-show-before-reviews = Показывать до повторяемых
 deck-config-review-sort-order = Порядок повторяемых
 deck-config-review-sort-order-tooltip = По умолчанию первыми идут старые карточки. Если у вас накопилось много карточек, то первыми будут те, что в очереди дольше всего. Если просмотр накопившихся займёт несколько дней или вы хотите повторять карточки в порядке подколод, то другой порядок может подойти лучше.
-deck-config-sort-order-due-date-then-random = По сроку, потом случайный
-deck-config-sort-order-due-date-then-deck = По сроку, потом по колоде
-deck-config-sort-order-deck-then-due-date = По колоде, потом по сроку
-deck-config-sort-order-ascending-intervals = По возрастанию интервалов
-deck-config-sort-order-descending-intervals = По убыванию интервалов
-deck-config-sort-order-ascending-ease = По увеличению лёгкости
-deck-config-sort-order-descending-ease = По уменьшению лёгкости
-deck-config-sort-order-ascending-difficulty = По возрастанию сложности
-deck-config-sort-order-descending-difficulty = По убыванию сложности
-deck-config-sort-order-retrievability-ascending = По возрастанию вспоминаемости
-deck-config-sort-order-retrievability-descending = По убыванию вспоминаемости
 deck-config-display-order-will-use-current-deck = Anki будет использовать порядок показа из колоды, которую вы выбрали для учёбы, а не из её подколод.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = По колоде
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = По колоде, потом случайный
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = По возрастанию номеров
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = По убыванию номеров
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Случайные записи
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Случайные карточки
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = По типу карточки, потом случайный
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Случайная запись, затем тип карточки
+# Sort the cards randomly.
+deck-config-sort-order-random = Случайный
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = По типу карточки
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = По порядку отбора
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Перемешать с повторяемыми
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Показывать после повторяемых
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Показывать до повторяемых
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = По сроку, потом случайный
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = По сроку, потом по колоде
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = По колоде, потом по сроку
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = По возрастанию интервалов
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = По убыванию интервалов
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = По увеличению лёгкости
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = По уменьшению лёгкости
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = По возрастанию сложности
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = По убыванию сложности
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = По возрастанию вспоминаемости
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = По убыванию вспоминаемости
 
 ## Timer section
 
@@ -154,10 +185,23 @@ deck-config-maximum-answer-secs = Максимум секунд для отве�
 deck-config-maximum-answer-secs-tooltip = Максимум секунд для одного ответа. Если время ответа больше этого значения (например, если вы отошли от компьютера), то записанным временем будет заданный максимум.
 deck-config-show-answer-timer-tooltip = Показывать на экране учёбы секундомер, который засекает, сколько времени уходит у вас на ответ.
 deck-config-stop-timer-on-answer = Остановить таймер при ответе
+deck-config-stop-timer-on-answer-tooltip =
+    Останавливать ли экранный таймер при появлении ответа.
+    Это не влияет на статистику.
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Время отображения вопроса (секунды)
+deck-config-seconds-to-show-question-tooltip-3 = Когда активирован автопросмотр, количество секунд ожидания перед применением действия вопроса. Установите 0, чтобы отключить.
+deck-config-seconds-to-show-answer = Время отображения ответа (секунды)
+deck-config-seconds-to-show-answer-tooltip-2 = Когда активирован автопросмотр, количество секунд ожидания перед применением действия ответа. Установите 0, чтобы отключить.
 deck-config-question-action-show-answer = Показать ответ
+deck-config-question-action-show-reminder = Показать напоминание
+deck-config-question-action = Действие для вопроса
+deck-config-question-action-tool-tip = Действие, которое необходимо выполнить после отображения вопроса и истечения установленного времени.
+deck-config-answer-action = Действие для ответа
+deck-config-answer-action-tooltip-2 = Действие, которое необходимо выполнить после того, как ответ показан и время истекло. Чтобы отключить, установите 0.
+deck-config-wait-for-audio-tooltip-2 = Ожидать окончания звука, прежде чем автоматически применить действие вопроса или ответа.
 
 ## Audio section
 
@@ -198,6 +242,7 @@ deck-config-easy-days-normal = Обычный
 deck-config-easy-days-reduced = Сниженный
 deck-config-easy-days-minimum = Минимальный
 deck-config-easy-days-no-normal-days = Хотя бы один день должен быть '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Существующие повторы не будут перенесены, если в настройках FSRS не включен параметр '{ deck-config-reschedule-cards-on-change }'.
 
 ## Adding/renaming
 
@@ -245,6 +290,7 @@ deck-config-learning-step-above-graduating-interval = Интервал пере�
 deck-config-good-above-easy = Интервал лёгких не должен быть короче интервала перевода.
 deck-config-relearning-steps-above-minimum-interval = Минимальный интервал забытых не должен быть короче последнего шага переучиваемых.
 deck-config-maximum-answer-secs-above-recommended = Anki планирует более эффективно, когда вопросы короткие.
+deck-config-too-short-maximum-interval = Максимальный интервал не рекомендуется устанавливать менее 6 месяцев (180 дней).
 
 ## Selecting a deck
 
@@ -268,7 +314,6 @@ deck-config-compute-minimum-recommended-retention = Минимальное ре�
 deck-config-optimize-button = Оптимизировать
 deck-config-compute-button = Вычислить
 deck-config-ignore-before = Игнорировать карточки, повторенные до
-deck-config-optimize-all-tip = Вы можете оптимизировать все предустановки сразу, воспользовавшись кнопкой из выпадающего списка рядом с "Сохранить".
 deck-config-evaluate-button = Оценить
 deck-config-desired-retention = Желаемое усвоение
 deck-config-historical-retention = Историческое усвоение
@@ -397,3 +442,4 @@ deck-config-invalid-weights = Поле для параметров должно 
 deck-config-fsrs-on-all-clients =
     Пожалуйста, убедитесь, что вы используете Anki(Mobile) 23.10+ или AnkiDroid 2.17+. 
     FSRS будет работать некорректно, если вы используете более старые версии Anki.
+deck-config-optimize-all-tip = Вы можете оптимизировать все предустановки сразу, воспользовавшись кнопкой из выпадающего списка рядом с "Сохранить".
