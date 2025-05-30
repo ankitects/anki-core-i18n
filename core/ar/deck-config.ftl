@@ -130,7 +130,7 @@ deck-config-bury-priority-tooltip =
     بخطوات تتجاوز اليوم الواحد أو بطاقات مراجعة، وقد ترى بطاقة مراجعة وشقيقتها الجديدة
     في جلسة الدراسة نفسها.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = ترتيب العرض
 deck-config-new-gather-priority = ترتيب جلب البطاقات الجديدة
@@ -151,12 +151,6 @@ deck-config-new-gather-priority-tooltip-2 =
     (مثلًا كل من بطاقات أمام->خلف وخلف->أمام)
     
     `جلب البطاقات عشوائيًا`: يجلب البطاقات بشكل عشوائي تمامًا.
-deck-config-new-gather-priority-deck = الرزمة
-deck-config-new-gather-priority-deck-then-random-notes = الرزمة ثم ملحوظات عشوائية
-deck-config-new-gather-priority-position-lowest-first = مواضع متصاعدة
-deck-config-new-gather-priority-position-highest-first = مواضع متناقصة
-deck-config-new-gather-priority-random-notes = جلب الملحوظات عشوائيًا
-deck-config-new-gather-priority-random-cards = جلب البطاقات عشوائيًا
 deck-config-new-card-sort-order = ترتيب فرز البطاقات الجديدة
 deck-config-new-card-sort-order-tooltip-2 =
     `نوع البطاقة`:  يعرض البطاقات بترتيب أنواع البطاقات. إذا كان دفن الأشقاء غير مفعل،
@@ -176,11 +170,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     بالترتيب.
     
     `عشوائي`: يخلط البطاقات المجلوبة بشكل كامل.
-deck-config-sort-order-card-template-then-random = نوع البطاقة، ثم عشوائي
-deck-config-sort-order-random-note-then-template = فرز الملحوظات عشوائيًا، ثم نوع البطاقة
-deck-config-sort-order-random = عشوائي
-deck-config-sort-order-template-then-gather = نوع البطاقة
-deck-config-sort-order-gather = ترتيب الجلب
 deck-config-new-review-priority = ترتيب البطاقات الجديدة/المراجعات
 deck-config-new-review-priority-tooltip = وقت إظهار البطاقات الجديدة بالنسبة لبطاقات المراجعة.
 deck-config-interday-step-priority = ترتيب بطاقات التعلم ذات الخطوات التي تتجاوز اليوم الواحد والمراجعات
@@ -190,29 +179,68 @@ deck-config-interday-step-priority-tooltip =
     يطبق حد المراجعة على بطاقات التعلم التي تتجاوز خطواتها اليوم الواحد أولًا دومًا،
     ثم المراجعات. يسمح هذا الخيار بالتحكم بترتيب إظهار البطاقات المجلوبة،
     لكن بطاقات التعلم سابقة الذكر تُجلب أولًا دومًا.
-deck-config-review-mix-mix-with-reviews = خلط مع المراجعات
-deck-config-review-mix-show-after-reviews = إظهار بعد المراجعات
-deck-config-review-mix-show-before-reviews = إظهار قبل المراجعات
 deck-config-review-sort-order = ترتيب فرز المراجعات
 deck-config-review-sort-order-tooltip =
     يفضّل الترتيب الافتراضي البطاقات التي انتظرت لمدة أطول، لذلك
     إذا كانت لديك مراجعات متراكمة، ستظهر المراجعات التي انتظرت أطول أولًا.
     إذا كان لديك تراكم كبير يأخذ أكثر من عدة أيام لإنهائه، فقد تفضل
     ترتيبات الفرز البديلة.
-deck-config-sort-order-due-date-then-random = تاريخ الاستحقاق، ثم عشوائي
-deck-config-sort-order-due-date-then-deck = تاريخ الاستحقاق، ثم الرزمة
-deck-config-sort-order-deck-then-due-date = الرزمة، ثم تاريخ الاستحقاق
-deck-config-sort-order-ascending-intervals = فواصل متزايدة
-deck-config-sort-order-descending-intervals = فواصل متناقصة
-deck-config-sort-order-ascending-ease = سهولة متصاعدة
-deck-config-sort-order-descending-ease = سهولة متناقصة
-deck-config-sort-order-ascending-difficulty = البطاقات السهلة أولًا
-deck-config-sort-order-descending-difficulty = البطاقات الصعبة أولًا
-deck-config-sort-order-retrievability-ascending = إمكانية الاسترجاع تصاعديًا
-deck-config-sort-order-retrievability-descending = إمكانية الاسترجاع تنازليًا
 deck-config-display-order-will-use-current-deck =
     سيستخدم أنكي ترتيب العرض من الرزمة 
     التي تحددها لدراستها، وليس أي رزمة فرعية لها.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = الرزمة
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = الرزمة ثم ملحوظات عشوائية
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = مواضع متصاعدة
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = مواضع متناقصة
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = جلب الملحوظات عشوائيًا
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = جلب البطاقات عشوائيًا
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = نوع البطاقة، ثم عشوائي
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = فرز الملحوظات عشوائيًا، ثم نوع البطاقة
+# Sort the cards randomly.
+deck-config-sort-order-random = عشوائي
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = نوع البطاقة
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = ترتيب الجلب
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = خلط مع المراجعات
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = إظهار بعد المراجعات
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = إظهار قبل المراجعات
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = تاريخ الاستحقاق، ثم عشوائي
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = تاريخ الاستحقاق، ثم الرزمة
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = الرزمة، ثم تاريخ الاستحقاق
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = فواصل متزايدة
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = فواصل متناقصة
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = سهولة متصاعدة
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = سهولة متناقصة
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = البطاقات السهلة أولًا
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = البطاقات الصعبة أولًا
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = إمكانية الاسترجاع تصاعديًا
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = إمكانية الاسترجاع تنازليًا
 
 ## Timer section
 
@@ -454,6 +482,7 @@ deck-config-percent-of-reviews =
         [many] { $pct } من أصل { $reviews } مراجعة
        *[other] { $pct } من أصل { $reviews } مراجعة
     }
+deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = حساب المعاملات المثالية لمجموعة الخيارات { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = يجب تفعيل FSRS أولًا.
 deck-config-fsrs-params-optimal = يبدو أن عوامل FSRS محسنة بالفعل.
@@ -465,17 +494,15 @@ deck-config-answer-hard = الإجابة بـ«صعب»
 deck-config-answer-good = الإجابة بـ«جيد»
 deck-config-days-to-simulate = عدد الأيام المطلوب محاكاتها
 deck-config-desired-retention-below-optimal = معدل التذكر المرغوب فيه أقل من المستحسن. ينصح برفعه.
-deck-config-fsrs-simulator-y-axis-title-time = وقت المراجعة/اليوم
-deck-config-fsrs-simulator-y-axis-title-count = عدد المراجعات/اليوم
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = إجمالي المحفوظ
 deck-config-fsrs-simulator-experimental = محاكي FSRS (تجريبي)
 deck-config-additional-new-cards-to-simulate = بطاقات جديدة إضافية للمحاكاة
 deck-config-simulate = محاكاة
 deck-config-clear-last-simulate = مسح المحاكاة الأخيرة
 deck-config-fsrs-simulator-radio-count = مراجعات
+deck-config-advanced-settings = الإعدادات المتقدمة
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -483,6 +510,9 @@ deck-config-fsrs-simulator-radio-memorized = المحفوظ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-fsrs-simulator-y-axis-title-time = وقت المراجعة/اليوم
+deck-config-fsrs-simulator-y-axis-title-count = عدد المراجعات/اليوم
+deck-config-fsrs-simulator-y-axis-title-memorized = إجمالي المحفوظ
 deck-config-bury-siblings = ادفن الشقيقات
 deck-config-do-not-bury = لا تدفن الشقيقات
 deck-config-bury-if-new = دفن الجديدة
