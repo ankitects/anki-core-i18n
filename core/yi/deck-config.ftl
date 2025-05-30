@@ -264,6 +264,10 @@ deck-config-revert-button-tooltip = צוריקציִען די פֿיקסירונ
 ## overview screen.
 
 deck-config-description-new-handling = אַנקי 2.1.41+ האַלטונג
+deck-config-description-new-handling-hint =
+    ס׳באַהאַנדלט אַרײַנוואַרג ווי „מאַרקדאַון״, און רייניקט עס אָפּ HTML אַרײַנוואַרג.
+    ווען ס׳איז אַקטיוו, די באַשרײַבונג ווערט אויך באַוויזן אויף די „מזל טוב״ עקראַן.
+    מאַרקדאָון ווײַזט זיך ווי טעקסט אין Anki 2.1.40 און עלטער.
 
 ## Warnings shown to the user
 
