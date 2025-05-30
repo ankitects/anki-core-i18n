@@ -106,9 +106,13 @@ deck-config-ordering-title = Ordre d'Affichage
 deck-config-new-gather-priority = Ordre de collecte des nouvelles cartes
 deck-config-new-gather-priority-tooltip-2 =
     `Paquet` : rassemble les cartes de chaque paquet dans l'ordre, en commençant par le haut. Les cartes de chaque paquet sont rassemblées par ordre croissant. Si la limite quotidienne du paquet choisi est atteinte, la collecte peut s'arrêter avant que tous les paquets aient été vérifiés. Cet ordre est le plus rapide pour les grandes collections, et permet de donner la priorité aux sous-paquets qui sont plus proches du sommet.
+    
     `Ordre croissant` : rassemble les cartes par position croissante (échéance), c.à.d. généralement les plus anciennes ajoutées en premier.
+    
     `Ordre décroissant` : rassemble les cartes par position décroissante (échéance), c.à.d. généralement les plus récentes ajoutées en premier.
+    
     `Notes aléatoires` : rassemble les cartes de notes choisies au hasard. Si l'enfouissement des cartes sœurs est désactivé, cela permet à toutes les cartes d'une même note d'apparaître dans une session (par ex. à la fois une carte recto->verso et une carte verso->recto)
+    
     `Cartes aléatoires` : rassemble les cartes complètement aléatoirement
 deck-config-new-card-sort-order = Ordre de classement des nouvelles cartes
 deck-config-new-card-sort-order-tooltip-2 =
