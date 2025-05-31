@@ -31,18 +31,18 @@ media-check-oversize-count =
     }
 media-check-subfolder-count =
     { $count ->
-        [one] Sous-fichier : { $count }
-       *[other] Sous-fichiers : { $count }
+        [one] Sous-dossier : { $count }
+       *[other] Sous-dossiers: { $count }
     }
 media-check-extracted-count = Images extraites: { $count }
 
 ## Shown at the top of each section
 
-media-check-renamed-header = Certains fichiers ont été renommés pour compatibilité :
+media-check-renamed-header = Certains fichiers ont été renommés par souci de compatibilité :
 media-check-oversize-header = Les fichiers de plus de 100 Mo ne peuvent être synchronisés avec AnkiWeb.
-media-check-subfolder-header = Les fichiers contenus dans le dossier des médias ne sont pas pris en charge.
-media-check-missing-header = Utilisé par des cartes mais manquant dans le dossier média :
-media-check-unused-header = Les fichiers suivants ont été trouvés dans le dossier des médias, mais ne semblent être utilisés sur aucune carte :
+media-check-subfolder-header = Les dossiers contenus dans le dossier des médias ne sont pas pris en charge.
+media-check-missing-header = Les fichiers suivants sont nécessaire pour afficher certaines cartes mais sont manquantes dans le dossier des médias :
+media-check-unused-header = Les fichiers suivants ont été trouvés dans le dossier des médias, mais ne semblent être utilisés par aucune carte :
 media-check-template-references-field-header =
     Anki ne peut pas détecter les fichiers quand vous utilisez des références { "{{Field}}" }  dans les tags media/LaTeX. Les tags media/LaTeX doivent plutot être placés sur des notes individuelles.
     
@@ -97,4 +97,4 @@ media-check-check-media-action = Vérifier les médias
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = média-manquant
 # add a tag to notes with missing media
-media-check-add-tag = Étiquette Manquante
+media-check-add-tag = Étiqueter les manques
