@@ -90,7 +90,7 @@ browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Filtre de la barra lateral
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Camp d’ordenació
-browsing-sorting-on-this-column-is-not = No és possible canviar l'ordre en aquesta columna; trieu-ne una altra.
+browsing-sorting-on-this-column-is-not = No és possible ordenar aquesta columna. Trieu-ne una altra.
 browsing-start-position = Posició inicial:
 browsing-step = Pas:
 browsing-suspended = Suspeses
