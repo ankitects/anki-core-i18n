@@ -411,6 +411,9 @@ deck-config-answer-hard = Ответить «трудно»
 deck-config-answer-good = Ответить «хорошо»
 deck-config-days-to-simulate = Число дней для симуляции
 deck-config-desired-retention-below-optimal = Ваше значение желаемого усвоения ниже оптимального. Рекомендуется увеличить его.
+deck-config-fsrs-simulator-radio-count = Повторение
+deck-config-advanced-settings = Расширенные настройки
+deck-config-smooth-graph = Плавный график
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -420,6 +423,7 @@ deck-config-fsrs-simulator-radio-memorized = Выученo
 
 deck-config-fsrs-simulator-y-axis-title-time = Повторяли в день
 deck-config-fsrs-simulator-y-axis-title-count = Кол. повторений в день
+deck-config-fsrs-simulator-y-axis-title-memorized = Всего выучено
 deck-config-bury-siblings = Откладывать связанные
 deck-config-do-not-bury = Не откладывать связанные
 deck-config-bury-if-new = Откладывать новые
