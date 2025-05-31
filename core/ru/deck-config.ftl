@@ -291,6 +291,21 @@ deck-config-good-above-easy = Интервал лёгких не должен б
 deck-config-relearning-steps-above-minimum-interval = Минимальный интервал забытых не должен быть короче последнего шага переучиваемых.
 deck-config-maximum-answer-secs-above-recommended = Anki планирует более эффективно, когда вопросы короткие.
 deck-config-too-short-maximum-interval = Максимальный интервал не рекомендуется устанавливать менее 6 месяцев (180 дней).
+deck-config-ignore-before-info =
+    { $totalCards ->
+        [one]
+            (Примерно) { $included }/{ $amount } карточка
+            будет использована для оптимизации параметра FSRS (Гибкого графика интервальных повторений).
+        [few]
+            (Примерно) { $included }/{ $amount } карточек
+            будет использовано для оптимизации параметра FSRS (Гибкого графика интервальных повторений).
+        [many]
+            (Примерно) { $included }/{ $amount } карточек
+            будет использовано для оптимизации параметра FSRS (Гибкого графика интервальных повторений).
+       *[other]
+            (Примерно) { $included }/{ $amount } карточки
+            будет использовано для оптимизации параметра FSRS (Гибкого графика интервальных повторений).
+    }
 
 ## Selecting a deck
 
@@ -396,6 +411,10 @@ deck-config-answer-hard = Ответить «трудно»
 deck-config-answer-good = Ответить «хорошо»
 deck-config-days-to-simulate = Число дней для симуляции
 deck-config-desired-retention-below-optimal = Ваше значение желаемого усвоения ниже оптимального. Рекомендуется увеличить его.
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Выученo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
