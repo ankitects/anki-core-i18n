@@ -12,6 +12,7 @@ studying-cards-buried =
     { $count ->
         [one] Отложена { $count } карточка
         [few] Отложены { $count } карточки
+        [many] Отложено { $count } карточек
        *[other] Отложено { $count } карточек
     }
 studying-cards-will-be-automatically-returned-to = Карточки автоматически вернутся в свои колоды после повторения.
@@ -51,12 +52,14 @@ studying-card-studied-in =
     { $count ->
         [one] { $count } карточка изучена за
         [few] { $count } карточки изучены за
+        [many] { $count } карточек изучены за
        *[other] { $count } карточек изучены за
     }
 studying-minute =
     { $count ->
         [one] { $count } минуту.
         [few] { $count } минуты.
+        [many] { $count } минут.
        *[other] { $count } минут.
     }
 studying-question-time-elapsed = Время вопроса истекло

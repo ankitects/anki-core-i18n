@@ -205,6 +205,7 @@ statistics-retrievability-tooltip =
     { $cards ->
         [one] { $cards } карточка с { $percent } вспоминаемости
         [few] { $cards } карточек с { $percent } вспоминаемости
+        [many] { $cards } карточек с { $percent } вспоминаемости
        *[other] { $cards } карточек с { $percent } вспоминаемости
     }
 statistics-future-due-title = Прогноз
@@ -245,6 +246,7 @@ statistics-cards-due =
     { $cards ->
         [one] { $cards } к просмотру
         [few] { $cards } к просмотру
+        [many] { $cards } к просмотру
        *[other] { $cards } к просмотру
     }
 statistics-backlog-checkbox = Отставание

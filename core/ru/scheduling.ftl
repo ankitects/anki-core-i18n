@@ -184,6 +184,7 @@ scheduling-set-due-date-prompt =
     { $cards ->
         [one] Через сколько дней показать карточку?
         [few] Через сколько дней показать карточки?
+        [many] Через сколько дней показать карточки?
        *[other] Через сколько дней показать карточки?
     }
 scheduling-set-due-date-prompt-hint =
@@ -194,6 +195,7 @@ scheduling-set-due-date-done =
     { $cards ->
         [one] Установлено расписание { $cards } карточки.
         [few] Установлено расписание { $cards } карточек.
+        [many] Установлено расписание { $cards } карточек.
        *[other] Установлено расписание { $cards } карточек.
     }
 scheduling-graded-cards-done =
@@ -206,5 +208,6 @@ scheduling-forgot-cards =
     { $cards ->
         [one] Сброшена { $cards } карточка.
         [few] Сброшены { $cards } карточки.
+        [many] Сброшено { $cards } карточек.
        *[other] Сброшено { $cards } карточек.
     }
