@@ -177,6 +177,7 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } колода обновлена.
         [few] { $count } колоды обновлены.
+        [many] { $count } колод обновлено.
        *[other] { $count } колод обновлено.
     }
 scheduling-set-due-date-prompt =
@@ -194,6 +195,12 @@ scheduling-set-due-date-done =
         [one] Установлено расписание { $cards } карточки.
         [few] Установлено расписание { $cards } карточек.
        *[other] Установлено расписание { $cards } карточек.
+    }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Рейтинг { $cards } карты
+        [few] Рейтинг { $cards } карт
+       *[many] Рейтинг { $cards } карт
     }
 scheduling-forgot-cards =
     { $cards ->

@@ -18,7 +18,8 @@ browsing-cards-cant-be-manually-moved-into = Нельзя вручную пер�
 browsing-cards-deleted =
     { $count ->
         [one] { $count } карточка удалена.
-        [few] { $count } карточки удалено.
+        [few] { $count } карточки удалены.
+        [many] { $count } карточек удалено.
        *[other] { $count } карточек удалено.
     }
 browsing-cards-deleted-with-deckname =
@@ -30,6 +31,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = В другую колоду
 browsing-change-deck2 = В другую колоду...
 browsing-change-note-type = Сменить тип записи
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Сменить тип записи...
 browsing-change-notetype = Сменить тип записи
 browsing-clear-unused-tags = Удалить неиспользуемые метки
@@ -111,24 +113,28 @@ browsing-group =
     { $count ->
         [one] { $count } группа
         [few] { $count } группы
+        [many] { $count } групп
        *[other] { $count } групп
     }
 browsing-note-count =
     { $count ->
         [one] { $count } запись
         [few] { $count } записи
+        [many] { $count } записей
        *[other] { $count } записей
     }
 browsing-notes-updated =
     { $count ->
         [one] { $count } запись обновлена.
         [few] { $count } записи обновлены.
+        [many] { $count } записей обновлено.
        *[other] { $count } записей обновлено.
     }
 browsing-cards-updated =
     { $count ->
         [one] { $count } карточка обновлена.
         [few] { $count } карточки обновлены.
+        [many] { $count } карточек обновлено.
        *[other] { $count } карточек обновлено.
     }
 browsing-window-title = Список карточек (выбрано { $selected } из { $total } записей)
@@ -165,18 +171,21 @@ browsing-removed-unused-tags-count =
     { $count ->
         [one] Удалена { $count } неиспользуемая метка.
         [few] Удалены { $count } неиспользуемых меток.
+        [many] Удалено { $count } неиспользуемых меток.
        *[other] Удалено { $count } неиспользуемых меток.
     }
 browsing-changed-new-position =
     { $count ->
         [one] Местоположение { $count } новой карты изменено.
         [few] Местоположение { $count } новых карт изменено.
+        [many] Местоположение { $count } новых карт изменено.
        *[other] Местоположение { $count } новых карт изменено.
     }
 browsing-reparented-decks =
     { $count ->
         [one] Переименована { $count }  колода.
         [few] Переименованы { $count } колоды.
+        [many] Переименовано { $count } колод.
        *[other] Переименовано { $count } колод.
     }
 browsing-sidebar-card-state-review = Повторяемые

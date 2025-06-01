@@ -54,12 +54,14 @@ card-templates-card-count =
     { $count ->
         [one] { $count } карточка
         [few] { $count } карточки
+        [many] { $count } карточек
        *[other] { $count } карточек
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
         [one] Будет создана { $count } карточка. Продолжить?
         [few] Будут созданы { $count } карточки. Продолжить?
+        [many] Будет создано { $count } карточек. Продолжить?
        *[other] Будет создано { $count } карточек. Продолжить?
     }
 card-templates-type-boxes-warning = Поддерживается только одно поле ввода в шаблоне карточки.

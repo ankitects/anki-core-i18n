@@ -22,18 +22,21 @@ exporting-card-exported =
     { $count ->
         [one] { $count } карточка экспортирована.
         [few] { $count } карточки экспортированы.
+        [many] { $count } карточек экспортировано.
        *[other] { $count } карточек экспортировано.
     }
 exporting-exported-media-file =
     { $count ->
         [one] Экспортирован { $count } медиафайл
         [few] Экспортировано { $count } медиафайла
+        [many] Экспортировано { $count } медиафайлов
        *[other] Экспортировано { $count } медиафайлов
     }
 exporting-note-exported =
     { $count ->
         [one] { $count } запись экспортирована.
         [few] { $count } записи экспортированы.
+        [many] { $count } записей экспортировано.
        *[other] { $count } записей экспортировано.
     }
 exporting-exporting-file = Файл экспортируется...
@@ -41,6 +44,7 @@ exporting-processed-media-files =
     { $count ->
         [one] Обработан { $count } медиафайл...
         [few] Обработаны { $count } медиафайла...
+        [many] Обработано { $count } медиафайлов...
        *[other] Обработано { $count } медиафайлов...
     }
 exporting-include-deck = Вместе с названием колоды

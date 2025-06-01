@@ -100,30 +100,35 @@ importing-note-added =
     { $count ->
         [one] { $count } запись добавлена
         [few] { $count } записи добавлены
+        [many] { $count } записей добавлено
        *[other] { $count } записей добавлено
     }
 importing-note-imported =
     { $count ->
         [one] { $count } запись импортирована.
         [few] { $count } записи импортированы.
+        [many] { $count } записей импортировано.
        *[other] { $count } записей импортировано.
     }
 importing-note-unchanged =
     { $count ->
         [one] { $count } запись не изменена
         [few] { $count } записи не изменены
+        [many] { $count } записей не изменено
        *[other] { $count } записей не изменено
     }
 importing-note-updated =
     { $count ->
         [one] { $count } запись обновлена
         [few] { $count } записи обновлены
+        [many] { $count } записей обновлено
        *[other] { $count } записей обновлено
     }
 importing-processed-media-file =
     { $count ->
         [one] Обработан { $count } медиафайл
         [few] Обработано { $count } медиафайла
+        [many] Обработано { $count } медиафайлов
        *[other] Обработано { $count } медиафайлов
     }
 importing-importing-file = Файл импортируется...
@@ -134,12 +139,14 @@ importing-processed-notes =
     { $count ->
         [one] Обработана { $count } запись...
         [few] Обработаны { $count } записи...
+        [many] Обработано { $count } записей...
        *[other] Обработано { $count } записей...
     }
 importing-processed-cards =
     { $count ->
         [one] Обработана { $count } карточка...
         [few] Обработаны { $count } карточек...
+        [many] Обработано { $count } карточек...
        *[other] Обработано { $count } карточек...
     }
 importing-existing-notes = Существующие записи
@@ -160,6 +167,7 @@ importing-cards-added =
     { $count ->
         [one] { $count } карточка добавлена.
         [few] { $count } карточки добавлены.
+        [many] { $count } карточек добавлено.
        *[other] { $count } карточек добавлено.
     }
 importing-file-empty = Выбранный файл пуст.
@@ -167,18 +175,21 @@ importing-notes-added =
     { $count ->
         [one] { $count } новая запись импортирована.
         [few] { $count } новые записи импортированы.
+        [many] { $count } новых записей импортировано.
        *[other] { $count } новых записей импортировано.
     }
 importing-notes-updated =
     { $count ->
         [one] { $count } запись обновила существующие.
         [few] { $count } записи обновили существующие.
+        [many] { $count } записей обновили существующие.
        *[other] { $count } записей обновили существующие.
     }
 importing-existing-notes-skipped =
     { $count ->
         [one] { $count } запись уже в коллекции.
         [few] { $count } записи уже в коллекции.
+        [many] { $count } записей уже в коллекции.
        *[other] { $count } записей уже в коллекции.
     }
 importing-notes-failed =
@@ -191,6 +202,7 @@ importing-conflicting-notes-skipped =
     { $count ->
         [one] { $count } запись не импортирована, потому что изменился её тип.
         [few] { $count } записи не импортированы, потому что изменился их тип.
+        [many] { $count } записей не импортировано, потому что изменился их тип.
        *[other] { $count } записей не импортировано, потому что изменился их тип.
     }
 importing-conflicting-notes-skipped2 =
@@ -203,10 +215,11 @@ importing-import-log = Журнал импорта
 importing-no-notes-in-file = В файле не найдены записи.
 importing-notes-found-in-file2 =
     { $notes ->
-        [one] { $notes } запись
-        [few] { $notes } записи
-       *[other] { $notes } записей
-    }  найдено в файле, из которых:
+        [one] { $notes } запись  найдено в файле, из которых:
+        [few] { $notes } записи  найдено в файле, из которых:
+        [many] { $notes } записей  найдено в файле, из которых:
+       *[other] { $notes } записей  найдено в файле, из которых:
+    }
 importing-show = Показать
 importing-details = Подробности
 importing-status = Статус

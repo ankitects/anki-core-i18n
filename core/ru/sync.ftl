@@ -58,6 +58,7 @@ sync-sign-in = Войти
 sync-ankihub-dialog-heading = AnkiHub логин
 sync-ankihub-username-label = Имя пользователя или email:
 sync-ankihub-login-failed = Не удаётся войти на Ankihub с введёнными логином/паролем.
+sync-ankihub-addon-installation = Установка дополнения AnkiHub
 
 ## Buttons
 

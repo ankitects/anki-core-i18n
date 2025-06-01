@@ -110,6 +110,10 @@ statistics-reviews =
         [many] { $reviews } повторений
        *[other] { $reviews } повторений
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } выучено
 statistics-today-title = Сегодня
 statistics-today-again-count = Возвратов:
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
@@ -143,6 +147,7 @@ statistics-counts-separate-suspended-buried-cards = Отдельные искл�
 
 statistics-true-retention-title = Настоящее усвоение
 statistics-true-retention-subtitle = Процент и число вспомненных карточек с интервалом ≥ 1 день.
+statistics-true-retention-tooltip = При использовании FSRS фактический показатель усвоения, скорее всего, будет близок к желаемому показателю усвоения. Данные за один день могут колебаться, поэтому полезнее рассматривать период не менее одного месяца.
 statistics-true-retention-range = Диапазон
 statistics-true-retention-pass = Вспомнено
 statistics-true-retention-fail = Забыто
@@ -177,6 +182,7 @@ statistics-card-ease-title = Лёгкость карточек
 statistics-card-difficulty-title = Сложность карточки
 statistics-card-stability-title = Стабильность карточки
 statistics-card-stability-subtitle = Интервал, за который вероятность вспомнить карточку падает до 90%.
+statistics-median-stability = Медиана стабильности
 statistics-card-retrievability-title = Вспоминаемость карточки
 statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карточка.
 statistics-card-difficulty-subtitle2 = Чем выше сложность, тем медленнее будет увеличиваться стабильность.
@@ -273,6 +279,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = С { $hourStart }:00 до { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } верных ({ $percent }%)
+statistics-hours-correct-info = → (не 'Снова')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = { $reviews } повторений
 # the emoji depicts the graph displaying this number
@@ -306,6 +313,7 @@ statistics-total = Всего
 statistics-days-studied = Дней учёбы
 statistics-average-answer-time-label = Среднее время ответа
 statistics-average = В среднем
+statistics-median-interval = Средний интервал
 statistics-due-tomorrow = На завтра
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -337,6 +345,8 @@ statistics-cards-per-day =
         [many] { $count } карточек за день
        *[other] { $count } карточек за день
     }
+statistics-median-ease = Медиана легкости
+statistics-median-difficulty = Средний уровень сложности
 statistics-average-retrievability = Средняя вспоминаемость
 statistics-estimated-total-knowledge = Оценочный общий объём знаний
 statistics-save-pdf = Сохранить как PDF

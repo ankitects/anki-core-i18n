@@ -78,6 +78,8 @@ preferences-reset-window-sizes = Сбросить размер окон
 preferences-reset-window-sizes-complete = Размер и положения окон сброшены.
 preferences-shortcut-placeholder = Введите неиспользуемое сочетание клавиш или оставьте пустым, чтобы не отключить.
 preferences-third-party-services = Сторонние сервисы
+preferences-ankihub-not-logged-in = В данный момент вы не вошли в AnkiHub.
+preferences-ankiweb-intro = AnkiWeb — это бесплатный сервис, который позволяет синхронизировать данные ваших карточек на всех ваших устройствах и предоставляет возможность восстановить данные в случае поломки или утери устройства.
 preferences-ankihub-intro = AnkiHub обеспечивает совместное редактирование колоды и дополнительные инструменты для обучения. Для доступа к определенным функциям требуется платная подписка.
 preferences-third-party-description = Сторонние сервисы не связаны с Anki и не одобрены ею. Использование этих сервисов может быть платным.
 
@@ -97,3 +99,4 @@ preferences-url-scheme-always-allow = Всегда разрешать
 preferences-basic = Основные
 preferences-reviewer = Просмотр
 preferences-media = Медиа
+preferences-not-logged-in = В данный момент вы не вошли в AnkiWeb.
