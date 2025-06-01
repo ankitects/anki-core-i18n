@@ -72,7 +72,7 @@ importing-preview-truncated =
 importing-rows-had-num1d-fields-expected-num2d = « { $row } » avait { $found } champs au lieu des { $expected } prévus
 importing-selected-file-was-not-in-utf8 = Le fichier sélectionné n’était pas au format UTF-8. Merci de consulter la section du manuel relative à l’import de fichiers.
 importing-semicolon = Point-virgule
-importing-skipped = Passée
+importing-skipped = Ignorée
 importing-supermemo-xml-export-xml = XML issu de SUPERMEMO (*.xml)
 importing-tab = Tabulation
 importing-tag-modified-notes = Étiquette les notes modifiées :
@@ -174,8 +174,8 @@ importing-existing-notes-skipped =
     }
 importing-notes-failed =
     { $count ->
-        [one] note n'a pas pu être importée
-       *[other] notes n'ont pas pu être importées
+        [one] { $count } note n'a pas pu être importée
+       *[other] { $count } notes n'ont pas pu être importées
     }
 importing-conflicting-notes-skipped =
     { $count ->
