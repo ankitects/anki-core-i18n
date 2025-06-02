@@ -112,16 +112,19 @@ statistics-counts-separate-suspended-buried-cards = Apartigi kaŝitajn kartojn
 
 statistics-true-retention-title = Vera memorado
 statistics-true-retention-subtitle = Elcento da memorigitaj kartoj por intertempo ≥ 1 tago.
+statistics-true-retention-tooltip = Se vi uzas FSRS, via vera memorado probable estos proksimuma al via dezirata memorado. Memoru, ke datumoj por unuopa tago estas bruplenaj, do estas pli bone rigardi al monataj datumoj.
 statistics-true-retention-range = Variejo
 statistics-true-retention-pass = Ĝustaj
 statistics-true-retention-fail = Malĝustaj
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Kartoj entute
+statistics-true-retention-count = Nombro
 statistics-true-retention-retention = Memorado
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Junaj
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Maljunaj
+statistics-true-retention-all = Ĉiuj
 statistics-true-retention-today = Hodiaŭ
 statistics-true-retention-yesterday = Hieraŭ
 statistics-true-retention-week = Antaŭa semajno
