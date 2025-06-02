@@ -131,6 +131,9 @@ statistics-true-retention-week = Antaŭa semajno
 statistics-true-retention-month = Antaŭa monato
 statistics-true-retention-year = Antaŭa jaro
 statistics-true-retention-all-time = Tuta tempo
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = –
 
 ##
 
@@ -144,6 +147,7 @@ statistics-card-ease-title = Facileco de kartoj
 statistics-card-difficulty-title = Malfacileco de kartoj
 statistics-card-stability-title = Stabileco de kartoj
 statistics-card-stability-subtitle = Tempo post kiu rememoriga probablo akiras 90%.
+statistics-median-stability = Mediana stabileco
 statistics-card-retrievability-title = Rememoriga probablo de kartoj
 statistics-card-ease-subtitle = Ju malpli alta facileco, des pli ofte karto aperos.
 statistics-card-difficulty-subtitle2 = Ju pli alta malfacileco, des malpli rapide stabileco pliiĝos.
@@ -225,6 +229,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = ekde { $hourStart }:00 ĝis { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } ĝustaj ({ $percent }%)
+statistics-hours-correct-info = → (alia ol “Denove”)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } ripetoj
 # the emoji depicts the graph displaying this number
@@ -258,6 +263,7 @@ statistics-total = Sumo
 statistics-days-studied = Tagoj de lernado
 statistics-average-answer-time-label = Mezuma respondotempo
 statistics-average = Meznombro
+statistics-median-interval = Mediana intertempo
 statistics-due-tomorrow = Lernendaj morgaŭ
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -283,6 +289,8 @@ statistics-cards-per-day =
         [one] { $count } karto/tago
        *[other] { $count } kartoj/tago
     }
+statistics-median-ease = Mediana facileco
+statistics-median-difficulty = Mediana malfacileco
 statistics-average-retrievability = Mezuma rememoriga probablo
 statistics-estimated-total-knowledge = Antaŭkalkulita tuta memorigo
 statistics-save-pdf = Konservi kiel PDF
