@@ -15,9 +15,9 @@ decks-please-select-something = Seleccione algo.
 decks-reschedule-cards-based-on-my-answers = Reprogramar tarxetas en función das miñas respostas nesta baralla
 decks-study = Estudar
 decks-study-deck = Estudar baralla
-decks-learn-header = Aprender
+decks-learn-header = Aprendendo
 # The count of cards waiting to be reviewed
-decks-review-header = Obrigadas
+decks-review-header = Pendentes
 
 ## Sort order of cards
 
@@ -26,7 +26,7 @@ decks-order-added = Orde engadido
 # Combobox entry: Sort the cards by the date they were added, in descending order (newest to oldest)
 decks-latest-added-first = Primeiro as últimas engadidas
 # Combobox entry: Sort the cards by due date, in ascending order (oldest due date to newest)
-decks-order-due = Orde das obrigadas
+decks-order-due = Orde de repaso
 # Combobox entry: Sort the cards by the number of lapses, in descending order (most lapses to least lapses)
 decks-most-lapses = Períodos maiores
 # Combobox entry: Sort the cards by the interval, in ascending order (shortest to longest)

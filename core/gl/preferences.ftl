@@ -2,6 +2,7 @@ preferences-automatically-sync-on-profile-openclose = Sincronizar automaticament
 preferences-backups = Copias de seguranza
 preferences-change-deck-depending-on-note-type = Cambiar baralla dependendo do tipo de nota
 preferences-hours-past-midnight = horas pasada a medianoite
+preferences-language = Idioma
 preferences-learn-ahead-limit = Tempo límite para adiantar o estudo
 preferences-mins = mins.
 preferences-network = Rede

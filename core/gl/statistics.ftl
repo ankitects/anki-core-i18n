@@ -121,7 +121,7 @@ statistics-range-deck = baralla
 statistics-range-collection = colección
 statistics-range-search = Busca
 statistics-future-due-title = Prognóstico
-statistics-future-due-subtitle = O número de repasos obrigados no futuro.
+statistics-future-due-subtitle = O número de repasos programados no futuro.
 statistics-added-title = Engadida
 statistics-added-subtitle = O número de cartas que engadiu.
 statistics-reviews-count-subtitle = O número de preguntas que ten respondido.
@@ -177,7 +177,7 @@ statistics-total = Total
 statistics-days-studied = Días estudados
 statistics-average-answer-time-label = Tempo medio de resposta
 statistics-average = Termo medio
-statistics-due-tomorrow = Obrigadas para mañá
+statistics-due-tomorrow = Programadas para mañá
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
 # the future. Unlike the other strings in the table that display actual data 
