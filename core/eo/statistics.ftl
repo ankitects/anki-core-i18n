@@ -43,6 +43,22 @@ statistics-in-time-span-years =
         [one] en { $amount } jaro
        *[other] en { $amount } jaroj
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    { $unit ->
+        [seconds] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-seconds } ({ $secs-per-card }s/karto)
+        [minutes] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-minutes } ({ $secs-per-card }s/karto)
+        [hours] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-hours } ({ $secs-per-card }s/karto)
+        [days] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-days } ({ $secs-per-card }s/karto)
+        [months] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-months } ({ $secs-per-card }s/karto)
+       *[years] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-years } ({ $secs-per-card }s/karto)
+    }
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } karto
@@ -59,19 +75,10 @@ statistics-reviews =
         [one] { $reviews } ripeto
        *[other] { $reviews } ripetoj
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    { $unit ->
-        [seconds] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-seconds } ({ $secs-per-card }s/karto)
-        [minutes] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-minutes } ({ $secs-per-card }s/karto)
-        [hours] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-hours } ({ $secs-per-card }s/karto)
-        [days] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-days } ({ $secs-per-card }s/karto)
-        [months] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-months } ({ $secs-per-card }s/karto)
-       *[years] Vi hodiaŭ lernis { statistics-cards }n { statistics-in-time-span-years } ({ $secs-per-card }s/karto)
-    }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } memoritaj
 statistics-today-title = Hodiaŭ
 statistics-today-again-count = Nombro da misrespondoj:
 statistics-today-type-counts = Lernataj: { $learnCount }, ripetataj: { $reviewCount }, relernataj: { $relearnCount }, filtrataj: { $filteredCount }
@@ -89,18 +96,41 @@ statistics-counts-learning-cards = Lernataj
 statistics-counts-relearning-cards = Relernataj
 statistics-counts-title = Nombro da kartoj
 statistics-counts-separate-suspended-buried-cards = Apartigi kaŝitajn kartojn
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = Vera memorado
 statistics-true-retention-subtitle = Elcento da memorigitaj kartoj por intertempo ≥ 1 tago.
 statistics-true-retention-range = Variejo
 statistics-true-retention-pass = Ĝustaj
 statistics-true-retention-fail = Malĝustaj
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Kartoj entute
 statistics-true-retention-retention = Memorado
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Junaj
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Maljunaj
 statistics-true-retention-today = Hodiaŭ
 statistics-true-retention-yesterday = Hieraŭ
 statistics-true-retention-week = Antaŭa semajno
 statistics-true-retention-month = Antaŭa monato
 statistics-true-retention-year = Antaŭa jaro
 statistics-true-retention-all-time = Tuta tempo
+
+##
+
 statistics-range-all-time = ekde kreo
 statistics-range-1-year-history = antaŭaj 12 monatoj
 statistics-range-all-history = tuta historio
@@ -111,7 +141,6 @@ statistics-card-ease-title = Facileco de kartoj
 statistics-card-difficulty-title = Malfacileco de kartoj
 statistics-card-stability-title = Stabileco de kartoj
 statistics-card-stability-subtitle = Tempo post kiu rememoriga probablo akiras 90%.
-statistics-average-stability = Mezuma stabileco
 statistics-card-retrievability-title = Rememoriga probablo de kartoj
 statistics-card-ease-subtitle = Ju malpli alta facileco, des pli ofte karto aperos.
 statistics-card-difficulty-subtitle2 = Ju pli alta malfacileco, des malpli rapide stabileco pliiĝos.
@@ -219,12 +248,19 @@ statistics-elapsed-time-years = { $amount } a
 ##
 
 statistics-average-for-days-studied = Meznombro por lerntagoj
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Sumo
 statistics-days-studied = Tagoj de lernado
 statistics-average-answer-time-label = Mezuma respondotempo
 statistics-average = Meznombro
-statistics-average-interval = Mezuma intertempo
 statistics-due-tomorrow = Lernendaj morgaŭ
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Taga prognozo
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } el { $total } ({ $percent }%)
@@ -244,14 +280,17 @@ statistics-cards-per-day =
         [one] { $count } karto/tago
        *[other] { $count } kartoj/tago
     }
-statistics-average-ease = Mezuma facileco
-statistics-average-difficulty = Mezuma malfacileco
 statistics-average-retrievability = Mezuma rememoriga probablo
 statistics-estimated-total-knowledge = Antaŭkalkulita tuta memorigo
 statistics-save-pdf = Konservi kiel PDF
 statistics-saved = Konservita.
 statistics-stats = statistikoj
 statistics-title = Statistikoj
-statistics-true-retention-total = Kartoj entute
-statistics-true-retention-young = Junaj
-statistics-true-retention-mature = Maljunaj
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Mezuma stabileco
+statistics-average-interval = Mezuma intertempo
+statistics-average-ease = Mezuma facileco
+statistics-average-difficulty = Mezuma malfacileco
