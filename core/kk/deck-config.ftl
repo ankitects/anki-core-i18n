@@ -32,6 +32,7 @@ deck-config-today-only = Бүгін ғана
 
 deck-config-learning-steps = Оқу қадамдары
 deck-config-new-insertion-order = Енгізу реті
+deck-config-new-insertion-order-sequential = Реттік (алдымен ескі карталар)
 deck-config-new-insertion-order-random = Кездейсоқ
 
 ## Lapses section
@@ -127,6 +128,7 @@ deck-config-answer-action = Жауап әрекеті
 
 deck-config-audio-title = Аудио
 deck-config-disable-autoplay = Аудионы автоматты түрде ойнамау
+deck-config-skip-question-when-replaying = Жауапты қайта қарағанда сұрақты өткізу
 
 ## Advanced section
 
@@ -174,6 +176,8 @@ deck-config-description-new-handling = Anki 2.1.41+ қолдауы
 
 ## Warnings shown to the user
 
+deck-config-too-short-maximum-interval = 6 айдан қысқа шекті аралық қоймаған жөн.
+deck-config-ignore-before-info = FSRS баптауларын оңтайландыруға (шамамен) { $included }/{ $totalCards } карта қолданылады.
 
 ## Selecting a deck
 
@@ -197,6 +201,7 @@ deck-config-please-save-your-changes-first = Алдымен өзгерістер
 deck-config-a-100-day-interval = 100 күн аралық { $days } күн болады.
 deck-config-percent-of-reviews = { $reviews } шолудың { $pct }%-ы
 deck-config-percent-input = { $pct }%
+deck-config-optimizing-preset = Баптаманы оңтайландыру { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Алдымен FSRS қосылуы керек.
 deck-config-wait-for-audio = Аудионы күту
 deck-config-show-reminder = Ескерткішті Көрсету

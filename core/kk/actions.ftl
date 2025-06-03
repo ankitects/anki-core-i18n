@@ -70,7 +70,7 @@ actions-previous-card-info = Алдыңғы картаның деректері
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Толық экран режимі сіздің бейне драйверіңізбен жұмыс істемейді. Бапталымдар бейнебеті арқылы басқа драйверге ауысып көріңіз.
-actions-flag-number = { $number } Жалауша
+actions-flag-number = { $number } Жалау
 
 ## The same translation may used for two independent actions:
 ## searching for cards with a flag of the specified color, and
@@ -86,7 +86,7 @@ actions-flag-purple = Күлгін
 
 ##
 
-actions-set-flag = Жалауша қою
+actions-set-flag = Жалау қою
 actions-nothing-to-undo = Қайтаратын нәрсе жоқ
 actions-nothing-to-redo = Қайта істейтін нәрсе жоқ
 actions-auto-advance = Аутоілгерілу
