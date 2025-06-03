@@ -13,6 +13,7 @@ importing-colon = Kaksoispiste
 importing-comma = Pilkku
 importing-empty-first-field = Tyhjä ensimmäinen kenttä: { $val }
 importing-field-separator = Kenttien erotin
+importing-field-separator-guessed = Kenttien erotin (päätelty)
 importing-field-mapping = Kenttäliitokset
 importing-field-of-file-is = Tiedoston <b>{ $val }.</b> kenttä on:
 importing-fields-separated-by = Kenttien erotin: { $val }

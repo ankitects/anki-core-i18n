@@ -81,6 +81,17 @@ preferences-ankiweb-intro = AnkiWeb on ilmainen palvelu, jonka avulla voit pitä
 preferences-ankihub-intro = AnkiHub tarjoaa mahdollisuuden työstää korttipakkoja yhdessä muiden kanssa ja muita opiskelutyökaluja. Tiettyjen ominaisuuksien käyttö edellyttää maksullista tilausta.
 preferences-third-party-description = Anki ei ole sidoksissa kolmannen osapuolen palveluihin eikä ole niiden tukija. Näiden palvelujen käyttö saattaa edellyttää maksua.
 
+## URL scheme related
+
+preferences-url-schemes = URL-skeemat
+preferences-url-scheme-prompt = Sallitut URL-skeemat (eroteltu välilyönnein):
+preferences-url-scheme-warning =
+    Estettiin yritys avata `{ $link }`, joka saattaa olla ongelma tietoturvan kannalta.
+    
+    Jos luotat pakan tekijään ja haluat jatkaa, lisää `{ $scheme }` sallittuihin URL-skeemoihin.
+preferences-url-scheme-allow-once = Salli kerran
+preferences-url-scheme-always-allow = Salli aina
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Perusasetukset
