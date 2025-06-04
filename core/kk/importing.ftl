@@ -95,7 +95,7 @@ importing-tag-all-notes = Барлық жазбаны тамғалау
 importing-tag-updated-notes = Жаңартылған жазбаларды тамғалау
 importing-file = Файл
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
-importing-match-scope = Масштабты сәйкестендіру
+importing-match-scope = Өлшемді сәйкестендіру
 # Used with the 'match scope' option
 importing-notetype-and-deck = Жазба түрі және колода
 importing-cards-added = { $count } карта қосылды.
