@@ -410,6 +410,7 @@ deck-config-weights = Параметри ВПІП
 deck-config-compute-optimal-weights = Оптимізувати параметри ВПІП
 deck-config-compute-minimum-recommended-retention = Найменша рекомендована затримка
 deck-config-optimize-button = Оптимізувати
+deck-config-health-check = Перевіряти стан при оптимізації (повільно)
 deck-config-compute-button = Обчислити
 deck-config-ignore-before = Ігнорувати попередні пригадування
 deck-config-time-to-optimize = Це було так давно - варто натиснути кнопку "Оптимізувати усе".
@@ -486,12 +487,9 @@ deck-config-compute-optimal-retention-tooltip4 =
     пригадування. Не радимо встановлювати значення бажаної затримки меншим за мінімальне, адже наслідком буде
     більше навантаження у зв'язку з вищим коефіцієнтом забування.
 deck-config-please-save-your-changes-first = Будь ласка, збережіть зміни.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] 100-денний інтервал стане { $days } денним.
-        [few] 100-денний інтервал стане { $days } денним.
-       *[many] 100-денний інтервал стане { $days } дненним.
-    }
+deck-config-workload-factor-change =
+    Приблизне навантаження:  { $factor }x
+    (порівняно з { $previousDR }% бажаної затримки)
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% з { $reviews } пригадування
@@ -529,6 +527,12 @@ deck-config-fsrs-simulator-radio-memorized = Запам'ятовано
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 100-денний інтервал стане { $days } денним.
+        [few] 100-денний інтервал стане { $days } денним.
+       *[many] 100-денний інтервал стане { $days } дненним.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Пригадування Час/День
 deck-config-fsrs-simulator-y-axis-title-count = Пригадування Кількість/День
 deck-config-fsrs-simulator-y-axis-title-memorized = Всього запам'ятовано
