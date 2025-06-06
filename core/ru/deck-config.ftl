@@ -330,6 +330,7 @@ deck-config-weights = Параметры FSRS
 deck-config-compute-optimal-weights = Оптимизировать параметры FSRS
 deck-config-compute-minimum-recommended-retention = Минимальное рекомендуемое усвоение
 deck-config-optimize-button = Оптимизировать
+deck-config-health-check = Проверка работоспособности при оптимизации (медленно)
 deck-config-compute-button = Вычислить
 deck-config-ignore-before = Игнорировать карточки, повторенные до
 deck-config-time-to-optimize = С момента последней оптимизации прошло некоторое время — рекомендуется воспользоваться кнопкой «Оптимизировать все пакетные профили».
@@ -393,12 +394,12 @@ deck-config-compute-optimal-retention-tooltip4 =
     Этот инструмент попытается найти желаемую величину усвоения, которая приведет к наибольшему усвоению материала за наименьшее время. Рассчитанное число может служить ориентиром при принятии решения о том, каким должно быть желаемое усвоение. Вы можете выбрать более высокое значение, если вы готовы потратить больше учебного времени на его достижение. Устанавливать желаемый уровень удержания ниже минимального не рекомендуется, так как это приведет к увеличению нагрузки 
     из-за большого количества забытых карточек.
 deck-config-please-save-your-changes-first = Пожалуйста, сначала сохраните изменения.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Интервал в 100 дней превратится в { $days } день.
-        [few] Интервал в 100 дней превратится в { $days } дня.
-       *[many] Интервал в 100 дней превратится в { $days } дней.
-    }
+deck-config-workload-factor-change =
+    Примерная рабочая нагрузка: { $factor }x
+    (по сравнению с { $previousDR }% желаемого усвоения)
+deck-config-workload-factor-unchanged = Чем выше это значение, тем чаще вам будут показываться карточки.
+deck-config-desired-retention-too-low = Желаемый вами уровень усвоения очень низкий, что может привести к очень длительным интервалам.
+deck-config-desired-retention-too-high = Желаемый вами уровень усвоения очень высок, что может привести к очень коротким интервалам.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% от { $reviews } повторения
@@ -409,6 +410,15 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Оптимизация предустановки { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Сначала необходимо включить FSRS.
 deck-config-fsrs-params-optimal = В настоящее время параметры FSRS, вероятно, оптимальны.
+deck-config-fsrs-bad-fit-warning =
+    FSRS сложно предсказать вашу память. Рекомендации:
+    
+    - Приостановите или переформулируйте приставучие.
+    - Используйте кнопки ответов последовательно. Помните, что «Сложно» — это проходной балл, а не провальный.
+    - Поймите, прежде чем запоминать.
+    
+    Если вы будете следовать этим рекомендациям, производительность, как правило, улучшится в течение следующих нескольких месяцев.
+deck-config-fsrs-good-fit = FSRS хорошо адаптирован к вашей памяти.
 deck-config-fsrs-params-no-reviews = Повторений не обнаружено. Проверьте, что этот пакетный профиль назначен всем колодам и подколодам, которые вы хотите оптимизировать, затем попробуйте еще раз.
 deck-config-wait-for-audio = Ждать аудио
 deck-config-show-reminder = Показать напоминание
@@ -427,7 +437,7 @@ deck-config-clear-last-simulate = Удалить последнюю симуля
 deck-config-fsrs-simulator-radio-count = Повторение
 deck-config-advanced-settings = Расширенные настройки
 deck-config-smooth-graph = Плавный график
-deck-config-suspend-leeches = Навсегда устранить барьеры в обучении
+deck-config-suspend-leeches = Приостановить приставучии
 deck-config-save-options-to-preset = Сохранить изменения в предустановке
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
@@ -436,6 +446,12 @@ deck-config-fsrs-simulator-radio-memorized = Выученo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Интервал в 100 дней превратится в { $days } день.
+        [few] Интервал в 100 дней превратится в { $days } дня.
+       *[many] Интервал в 100 дней превратится в { $days } дней.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Повторяли в день
 deck-config-fsrs-simulator-y-axis-title-count = Кол. повторений в день
 deck-config-fsrs-simulator-y-axis-title-memorized = Всего выучено

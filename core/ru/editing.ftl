@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Прямоугольник
 editing-image-occlusion-ellipse-tool = Овал
 editing-image-occlusion-polygon-tool = Многоугольник
 editing-image-occlusion-text-tool = Текст
+editing-image-occlusion-fill-tool = Заполнить цветом
 editing-image-occlusion-toggle-mask-editor = Переключатель изменения маски
 editing-image-occlusion-reset = Удалить сделанные скрытия части картинки
 editing-image-occlusion-confirm-reset = Вы уверены, что хотите удалить сделанные скрытия части картинки?
