@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Прямокутник
 editing-image-occlusion-ellipse-tool = Овал
 editing-image-occlusion-polygon-tool = Багатокутник
 editing-image-occlusion-text-tool = Текст
+editing-image-occlusion-fill-tool = Заповнити кольором
 editing-image-occlusion-toggle-mask-editor = Редактор масок
 editing-image-occlusion-reset = Скасувати закриття зображення
 editing-image-occlusion-confirm-reset = Ви справді хочете скасувати закриття зображення?

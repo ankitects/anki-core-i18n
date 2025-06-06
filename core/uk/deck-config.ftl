@@ -490,6 +490,9 @@ deck-config-please-save-your-changes-first = Будь ласка, збережі
 deck-config-workload-factor-change =
     Приблизне навантаження:  { $factor }x
     (порівняно з { $previousDR }% бажаної затримки)
+deck-config-workload-factor-unchanged = Зі збільшенням значення картки показуватимуться частіше.
+deck-config-desired-retention-too-low = Бажана затримка є дуже малою і може призвести до дуже довгих інтервалів.
+deck-config-desired-retention-too-high = Бажана затримка є дуже великою і може призвести до дуже коротких інтервалів.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% з { $reviews } пригадування
@@ -500,6 +503,15 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Оптимізація { $current_count } з { $total_count } конфігурацій...
 deck-config-fsrs-must-be-enabled = Спершу слід увімкнути ВПІП.
 deck-config-fsrs-params-optimal = Схоже, що параметри ВПІП є оптимальними.
+deck-config-fsrs-bad-fit-warning =
+    ВПІП складно передбачити запам'ятовування. Поради:
+    
+    - Призупиніть або переформулюйте приставучі картки.
+    - Використовуйте кнопки відповідей відповідно. Пам'ятайте, що "Тяжко" це мірило успіху, а не невдачі.
+    - Зрозумійте перед тим, як запам'ятовувати.
+    
+    Використовуючи ці поради, Ви покращите продуктивність впродовж кількох наступних місяців.
+deck-config-fsrs-good-fit = ВПІП добре налаштовано до Вашого запам'ятовування.
 deck-config-fsrs-params-no-reviews = Пригадування не знайдено. Перевірте, що конфігурацію вказано для всіх колод які слід оптимізувати (з підколодами) і спробуйте ще раз.
 deck-config-wait-for-audio = Чекати кінця аудіо
 deck-config-show-reminder = Показати нагадування
