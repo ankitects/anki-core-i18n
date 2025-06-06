@@ -341,6 +341,7 @@ deck-config-weights = FSRS 参数
 deck-config-compute-optimal-weights = 优化 FSRS 参数
 deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留率
 deck-config-optimize-button = 优化当前预设
+deck-config-health-check = 优化时检查健康状况（较慢）
 deck-config-compute-button = 计算
 deck-config-ignore-before = 忽略该日期前的复习记录
 deck-config-time-to-optimize = 已有一段时间未优化参数，建议使用「优化所有预设」按钮。
@@ -401,10 +402,12 @@ deck-config-compute-optimal-retention-tooltip4 =
     如果您愿意以更多的学习时间换取更高的记忆保留率，您可能希望选择一个更高的期望记忆保留率。
     并不推荐将期望记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
 deck-config-please-save-your-changes-first = 请先保存您预设配置的更改。
-deck-config-a-100-day-interval =
-    { $days ->
-       *[other] 原为 100 天的间隔将变为 { $days } 天。
-    }
+deck-config-workload-factor-change =
+    预计工作量：{ $factor } 倍
+    （对比期望记忆保留率 { $previousDR }%）
+deck-config-workload-factor-unchanged = 数值越高，卡片出现频率越高
+deck-config-desired-retention-too-low = 您的期望记忆保留率过低，可能导致复习间隔过长。
+deck-config-desired-retention-too-high = 您的期望记忆保留率过高，可能导致复习间隔过短。
 deck-config-percent-of-reviews =
     { $reviews ->
        *[other] { $reviews } 次复习的 { $pct }%
@@ -413,6 +416,15 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = 正在优化预设 { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = 请您先启用 FSRS。
 deck-config-fsrs-params-optimal = 当前 FSRS 参数已为最佳。
+deck-config-fsrs-bad-fit-warning =
+    FSRS 难以预测您的记忆规律。建议：
+    
+    - 暂停或重制记忆难点卡片
+    - 保持评分按钮使用一致性（「困难」表示通过而非失败）
+    - 先理解后记忆
+    
+    遵循建议后，通常数月内会有改善。
+deck-config-fsrs-good-fit = FSRS 已良好适配您的记忆模式。
 deck-config-fsrs-params-no-reviews = 未找到复习记录。确保此预设已分配给您想要优化的所有牌组（包括子牌组），然后重试。
 deck-config-wait-for-audio = 等待音频播放完毕
 deck-config-show-reminder = 显示提醒
@@ -440,6 +452,10 @@ deck-config-fsrs-simulator-radio-memorized = 已记忆
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+       *[other] 原为 100 天的间隔将变为 { $days } 天。
+    }
 deck-config-fsrs-simulator-y-axis-title-time = 复习时间/天
 deck-config-fsrs-simulator-y-axis-title-count = 复习总数/天
 deck-config-fsrs-simulator-y-axis-title-memorized = 已记忆总数

@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = 矩形
 editing-image-occlusion-ellipse-tool = 椭圆形
 editing-image-occlusion-polygon-tool = 多边形
 editing-image-occlusion-text-tool = 文本
+editing-image-occlusion-fill-tool = 填充颜色
 editing-image-occlusion-toggle-mask-editor = 切换图片遮盖编辑器
 editing-image-occlusion-reset = 重置图片遮盖
 editing-image-occlusion-confirm-reset = 您确定要重置图片遮盖吗？
