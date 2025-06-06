@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Rechteck
 editing-image-occlusion-ellipse-tool = Ellipse
 editing-image-occlusion-polygon-tool = Vieleck
 editing-image-occlusion-text-tool = Text
+editing-image-occlusion-fill-tool = Mit Farbe füllen
 editing-image-occlusion-toggle-mask-editor = Maskeneditor ein-/ausschalten
 editing-image-occlusion-reset = Bildverdeckung zurücksetzen
 editing-image-occlusion-confirm-reset = Sind Sie sicher, dass Sie diese Bildverdeckung zurücksetzen wollen?
