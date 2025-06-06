@@ -355,11 +355,10 @@ deck-config-compute-optimal-retention-tooltip4 =
     
     Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erinnerungsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-please-save-your-changes-first = Bitte speichern Sie zuerst Ihre Änderungen.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
-       *[other] Ein Intervall von 100 Tagen wird zu { $days } Tagen.
-    }
+deck-config-workload-factor-change = Das Arbeitspensum beträgt etwa { $factor } mal so viel wie bei einer gewünschten Erinnerungsquote von { $previousDR }%.
+deck-config-workload-factor-unchanged = Je höher dieser Wert, desto öfter werden die Karten gezeigt.
+deck-config-desired-retention-too-low = Die gewünschte Erinnerungsquote ist sehr niedrig. Das kann zu sehr langen Intervallen führen.
+deck-config-desired-retention-too-high = Die gewünschte Erinnerungsquote ist sehr hoch. Das kann zu sehr kurzen Intervallen führen.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% von { $reviews } Wiederholung
@@ -396,6 +395,11 @@ deck-config-fsrs-simulator-radio-memorized = Abrufbare Karten
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
+       *[other] Ein Intervall von 100 Tagen wird zu { $days } Tagen.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Zeitaufwand pro Tag
 deck-config-fsrs-simulator-y-axis-title-count = Anzahl Wiederholungen pro Tag
 deck-config-fsrs-simulator-y-axis-title-memorized = Abrufbare Karten

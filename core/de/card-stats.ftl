@@ -7,7 +7,7 @@ card-stats-review-count = Wiederholungen
 card-stats-lapse-count = Fehlversuche
 card-stats-average-time = Durchschnittliche Zeit
 card-stats-total-time = Gesamter Zeitaufwand
-card-stats-new-card-position = Position
+card-stats-new-card-position = Positionsnummer
 card-stats-card-template = Kartentyp
 card-stats-note-type = Notiztyp
 card-stats-deck-name = Stapel
@@ -44,4 +44,4 @@ card-stats-previous-card = Vorherige Karte ({ $context })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Abrufwahrscheinlichkeit
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Abrufbarkeit
