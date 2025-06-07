@@ -341,11 +341,9 @@ deck-config-compute-optimal-retention-tooltip4 =
     πρόθυμοι να επενδύσετε περισσότερο χρόνο μελέτης για να το επιτύχετε. Θέτοντας την επιθυμητή συγκράτησή σας χαμηλότερα από την ελάχιστη
     δεν συνιστάται, καθώς θα οδηγήσει σε υψηλότερο φόρτο εργασίας, λόγω του υψηλού ποσοστού λήθης.
 deck-config-please-save-your-changes-first = Παρακαλώ αποθηκεύσετε πρώτα τις αλλαγές σας.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Διάστημα 100 ημερών θα γίνει { $days } ημέρας.
-       *[other] Διάστημα 100 ημερών θα γίνει { $days } ημερών.
-    }
+deck-config-workload-factor-unchanged = Όσο υψηλότερη είναι αυτή η τιμή, τόσο πιο συχνά θα σας εμφανίζονται κάρτες.
+deck-config-desired-retention-too-low = Η επιθυμητή ανάκληση είναι πολύ χαμηλή, γεγονός που μπορεί να οδηγήσει σε πολύ μεγάλα διαστήματα.
+deck-config-desired-retention-too-high = Η επιθυμητή ανάκληση είναι πολύ υψηλή, γεγονός που μπορεί να οδηγήσει σε πολύ μικρά διαστήματα.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% από { $reviews } επανάληψη
@@ -355,6 +353,7 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Το FSRS θα πρέπει να είναι πρώτα ενεργοποιημένο.
 deck-config-fsrs-params-optimal = Οι τρέχουσες ρυθμίσεις FSRS είναι βέλτιστες.
+deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμένο στη μνήμη σας.
 deck-config-fsrs-params-no-reviews = Δεν βρέθηκαν επαναλήψεις. Παρακαλούμε ελέγξτε ότι αυτή η προεπιλογή έχει εκχωρηθεί σε όλες τις τράπουλες που θέλετε να βελτιστοποιήσετε (συμπεριλαμβανομένων των υποενοτήτων) και δοκιμάστε ξανά.
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
@@ -381,6 +380,11 @@ deck-config-fsrs-simulator-radio-memorized = Απομνημονευμένα
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Διάστημα 100 ημερών θα γίνει { $days } ημέρας.
+       *[other] Διάστημα 100 ημερών θα γίνει { $days } ημερών.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Χρόνος επαναλήψεων/μέρα
 deck-config-fsrs-simulator-y-axis-title-count = Αριθμός επαναλήψεων/μέρα
 deck-config-fsrs-simulator-y-axis-title-memorized = Σύνολο απομνημονευμένων
