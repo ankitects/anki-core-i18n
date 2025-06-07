@@ -371,6 +371,7 @@ deck-config-weights = Parâmetros do modelo
 deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
 deck-config-compute-minimum-recommended-retention = Retenção mínima recomendada
 deck-config-optimize-button = Otimizar
+deck-config-health-check = Verificar integridade ao otimizar (lento)
 deck-config-compute-button = Calcular
 deck-config-ignore-before = Ignorar revisões antes de
 deck-config-time-to-optimize = Já faz um tempo- é recomendado usar o botão Otimizar Tudo.
@@ -443,11 +444,12 @@ deck-config-compute-optimal-retention-tooltip4 =
     por uma maior taxa de recordação. Definir a retenção desejada abaixo do mínimo não é recomendado,
     pois isso resultará em uma carga de trabalho maior devido à alta taxa de esquecimento.
 deck-config-please-save-your-changes-first = Por favor, salve suas alterações primeiro.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Um intervalo de 100 dias será convertido para { $days } dia
-       *[other] Um intervalo de 100 dias será convertido para { $days } dias
-    }
+deck-config-workload-factor-change =
+    Carga de trabalho aproximada: { $factor }x
+    (comparado aos { $previousDR }% de retenção desejada)
+deck-config-workload-factor-unchanged = Quanto maior este valor, mais frequentemente os cartões serão mostrados para você.
+deck-config-desired-retention-too-low = Sua retenção desejada está muito baixa, o que pode levar a intervalos muito longos.
+deck-config-desired-retention-too-high = Sua retenção desejada está muito alta, o que pode levar a intervalos muito curtos.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% de { $reviews } avaliação
@@ -457,6 +459,15 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Otimizando predefinição { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS deve ser ativado primeiro.
 deck-config-fsrs-params-optimal = Os parâmetros do FSRS parecem estar otimizados no momento.
+deck-config-fsrs-bad-fit-warning =
+    Sua memória é difícil de prever para o FSRS. Recomendações:
+    
+    Suspenda ou reformule cartões sanguessugas.
+    Use os botões de resposta de forma consistente. Lembre-se de que "Difícil" é uma nota de aprovação, não de reprovação.
+    Entenda antes de memorizar.
+    
+    Se você seguir essas sugestões, o desempenho geralmente melhorará nos próximos meses.
+deck-config-fsrs-good-fit = O FSRS está bem ajustado à sua memória.
 deck-config-fsrs-params-no-reviews = Nenhuma revisão encontrada. Por favor, verifique que essa predefinição está atribuída a todos baralhos que você gostaria de otimizar (incluindo sub-baralhos) e tente novamente.
 deck-config-wait-for-audio = Esperando pelo Áudio
 deck-config-show-reminder = Mostrar lembrete
@@ -484,6 +495,11 @@ deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Um intervalo de 100 dias será convertido para { $days } dia
+       *[other] Um intervalo de 100 dias será convertido para { $days } dias
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Revisão Hora/Dia
 deck-config-fsrs-simulator-y-axis-title-count = Revisão Contagem/Dia
 deck-config-fsrs-simulator-y-axis-title-memorized = Total Memorizado

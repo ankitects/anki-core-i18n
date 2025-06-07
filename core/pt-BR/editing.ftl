@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Retângulo
 editing-image-occlusion-ellipse-tool = Elipse
 editing-image-occlusion-polygon-tool = Polígono
 editing-image-occlusion-text-tool = Texto
+editing-image-occlusion-fill-tool = Preencher com cor
 editing-image-occlusion-toggle-mask-editor = Editor de Máscara
 editing-image-occlusion-reset = Redefinir Ocultação de Imagem
 editing-image-occlusion-confirm-reset = Você tem certeza de que quer redefinir esta oclusão de imagem?
