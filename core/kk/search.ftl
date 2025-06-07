@@ -26,7 +26,7 @@ search-invalid-number = "`{ $context }`" ішінде сан күтілді, б�
 search-invalid-whole-number = "`{ $context }`" ішінде бүтін сан күтілді, бірақ "`{ $provided }`" табылды.
 search-invalid-positive-whole-number = "`{ $context }`" ішінде оң сан күтілді, бірақ "`{ $provided }`" табылды.
 search-invalid-negative-whole-number = "`{ $context }`" ішінде 0-мен тең немесе одан кіші бүтін сан күтілді, бірақ "`{ $provided }`" табылды.
-search-invalid-answer-button = { $context } ішінде 1 мен 4 арасындағы жауап батырмасы күтілді, бірақ { $provided } табылды.
+search-invalid-answer-button = { $context } ішінде 1 мен 4 арасындағы жауап түймесі күтілді, бірақ { $provided } табылды.
 
 ## Column labels in browse screen
 

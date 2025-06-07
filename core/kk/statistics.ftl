@@ -142,12 +142,12 @@ statistics-added-title = Қосылған
 statistics-added-subtitle = Сіз қосқан жаңа карта саны.
 statistics-reviews-count-subtitle = Сіз жауап берген сұрақ саны.
 statistics-reviews-time-subtitle = Сұраққа жауап беруге кеткет уақыт.
-statistics-answer-buttons-title = Жауап Батырмалары
+statistics-answer-buttons-title = Жауап Түймелері
 # eg Button: 4
-statistics-answer-buttons-button-number = Батырма
+statistics-answer-buttons-button-number = Түйме
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Басылған саны
-statistics-answer-buttons-subtitle = Әр батырманы басқан саны.
+statistics-answer-buttons-subtitle = Әр түймені басқан саны.
 statistics-reviews-title = Шолулар
 statistics-reviews-time-checkbox = Уақыт
 statistics-in-days-single =
