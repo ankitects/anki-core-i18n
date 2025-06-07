@@ -294,6 +294,7 @@ deck-config-weights = FSRS پارامېتىر
 deck-config-compute-optimal-weights = FSRS پارامېتىرنى ئەلالاشتۇرۇش
 deck-config-compute-minimum-recommended-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى
 deck-config-optimize-button = ئەلالاشتۇر
+deck-config-health-check = ئەلالاشتۇرغاندا ساغلاملىق ئەھۋالىنى تەكشۈرىدۇ (ئاستا)
 deck-config-compute-button = ھېسابلا
 deck-config-ignore-before = ئىلگىرىكى تەكرارلاش خاتىرىسىگە پەرۋا قىلما
 deck-config-time-to-optimize = ئەلالاشتۇرۇلمىغىنى بىر مەزگىل بولدى - ھەممىنى ئەلالاشتۇر توپچىنى ئىشلىتىش تەۋسىيە قىلىنىدۇ.
@@ -338,11 +339,12 @@ deck-config-compute-optimal-weights-tooltip2 =
     كۆڭۈلدىكى ئەھۋالدا، مەزكۇر ئالدىن تەڭشەكنى ئىشلىتىدىغان دەستەنىڭ تەكرارلاش خاتىرىسىگە ئاساسەن پارامېتىر ھېسابلىنىدۇ. ئەگەر قايسى پارامېتىرنىڭ ئەلالاشتۇرۇلغان كارتىغا ئىشلىتىدىغانلىقىنى ئۆزگەرتمەكچى بولسىڭىز، پارامېتىرنى ھېسابلاشتىن ئىلگىرى ئىزدەش مەزمۇنىنى تەڭشەشنى تاللىسىڭىز بولىدۇ.
 deck-config-compute-optimal-retention-tooltip4 = بۇ قورال ئەڭ قىسقا ۋاقىتتا ئەڭ كۆپ ماتېرىيال ئۆگىنەلەيدىغانلىقىنى ھېسابلاپ ئارزۇدىكى ئەستە ساقلاش نىسبىتىنى تېپىپ چىقىدۇ، ئەستە ساقلاش نىسبىتىنى قانچە قىلىپ تەڭشەشنى قارار قىلغاندا، بۇ ھېسابلانغان سانلىق قىممەتتىن پايلانغىلى بولىدۇ. ئەگەر تېخىمۇ كۆپ ۋاقىتتا تېخىمۇ يۇقىرى ئەستە ساقلاش نىسبىتىگە ئېرىشمەكچى بولسىڭىز، تېخىمۇ يۇقىرى ئەستە ساقلاش نىسبىتىنى تاللاڭ. ئەستە ساقلاش نىسبىتىنى ئەڭ تۆۋەن قىممەتتىنمۇ تۆۋەن تەڭشەش تەشەببۇس قىلىنمايدۇ، چۈنكى يۇقىرى ئۇنتۇش نىسبىتى خىزمەت ۋاقتىنى ئاشۇرۇۋېتىدۇ.
 deck-config-please-save-your-changes-first = ئاۋۋال ئۆزگەرتىشىڭىزنى ساقلاڭ.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] ئەسلىدىكى 100 كۈنلۈك مەزگىل { $days } كۈنگە ئۆزگىرىدۇ.
-       *[other] ئەسلىدىكى 100 كۈنلۈك مەزگىل { $days } كۈنگە ئۆزگىرىدۇ.
-    }
+deck-config-workload-factor-change =
+    مۆلچەردىكى خىزمەت مىقدارى: { $factor }x
+    (%{ $previousDR } مۆلچەردىكى ئەستە تۇرۇش نىسبىتىنى سېلىشتۇرىدۇ)
+deck-config-workload-factor-unchanged = قىممىتى قانچە يۇقىرى بولسا، كارتىنىڭ كۆرۈنۈش نىسبىتى شۇنچە يۇقىرى بولىدۇ.
+deck-config-desired-retention-too-low = سىزنىڭ مۆلچەردىكى ئەستە قالدۇرۇش نىسبىتىڭىز بەك تۆۋەن، تەكرارلاش ئارىلىقى بەك ئۇزۇن بولۇپ كېتىشى مۇمكىن.
+deck-config-desired-retention-too-high = سىزنىڭ مۆلچەردىكى ئەستە قالدۇرۇش نىسبىتىڭىز بەك يۇقىرى، تەكرارلاش ئارىلىقى بەك قىسقا بولۇپ قېلىشى مۇمكىن.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
@@ -352,6 +354,15 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = ئالدى بىلەن FSRS نى قوزغىتىش كېرەك.
 deck-config-fsrs-params-optimal = نۆۋەتتە FSRS نىڭ پارامېتىرلىرى ئەلالاشتۇرۇلغان.
+deck-config-fsrs-bad-fit-warning =
+    FSRS ئەستە ساقلاش قانۇنىيىتىڭىزنى مۆلچەرلىيەلمىدى. تەكلىپ:
+    
+    - ئەستە ساقلاش تەس كارتىنى ۋاقىتلىق توختىتىڭ ياكى ئەسلىگە قايتۇرۇڭ.
+    - جاۋاب توپچىنى ئىشلىتىشتە بىردەكلىكنى ساقلاڭ. «تەس» ئۆتكەنلىكىنى ئەمما مەغلۇپ بولغانلىقىنى بىلدۈرمەيدۇ.
+    - ئاۋۋال چۈشىنىپ ئاندىن ئەستە تۇتۇڭ.
+    
+    ئەگەر بۇ تەكلىپكە ئەگەشسىڭىز، بىر قانچە ئايدا ئۈنۈمىنى كۆرىسىز.
+deck-config-fsrs-good-fit = FSRS ئەستە ساقلاش ھالىتىڭىزگە ياخشى ماسلاشتى.
 deck-config-fsrs-params-no-reviews = تەكرارلاش خاتىرىسىنى تاپالمىدى. بارلىق ئەلالاشتۇرۇشقا تېگىشلىك دەستە (تارماق دەستىمۇ ئىچىدە) نىڭ ھەممىسى نۆۋەتتىكى ئالدىن تەڭشەكنى ئىشلىتىۋاتقانلىقىنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.
 deck-config-wait-for-audio = ئۈن قويۇلۇشىنى كۈتىدۇ
 deck-config-show-reminder = ئەسكەرتىشنى كۆرسەت
@@ -379,6 +390,11 @@ deck-config-fsrs-simulator-radio-memorized = ئەستە تۇتقان
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] ئەسلىدىكى 100 كۈنلۈك مەزگىل { $days } كۈنگە ئۆزگىرىدۇ.
+       *[other] ئەسلىدىكى 100 كۈنلۈك مەزگىل { $days } كۈنگە ئۆزگىرىدۇ.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = تەكرارلىغان ۋاقىت/كۈن
 deck-config-fsrs-simulator-y-axis-title-count = تەكرارلىغان سانى/كۈن
 deck-config-fsrs-simulator-y-axis-title-memorized = جەمئىي ئەستە ساقلىغىنى

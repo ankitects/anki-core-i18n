@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = چاسا
 editing-image-occlusion-ellipse-tool = ئېللىپىس
 editing-image-occlusion-polygon-tool = كۆپ تەرەپلىك
 editing-image-occlusion-text-tool = تېكىست
+editing-image-occlusion-fill-tool = رەڭ تولدۇرىدۇ
 editing-image-occlusion-toggle-mask-editor = نىقاب تەھرىرلىگۈچنى ئاچ/ياپ
 editing-image-occlusion-reset = سۈرەت دالدىلاشنى ئەسلىگە قايتۇر
 editing-image-occlusion-confirm-reset = بۇ سۈرەت دالدىلاشنى راستتىنلا ئەسلىگە قايتۇرامسىز؟
