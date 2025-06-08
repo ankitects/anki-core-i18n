@@ -31,6 +31,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Změnit balíček
 browsing-change-deck2 = Změnit balíček...
 browsing-change-note-type = Změň typ poznámky
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Změnit typ poznámky...
 browsing-change-notetype = Změnit typ poznámky
 browsing-clear-unused-tags = Vymazat nepoužívané štítky
@@ -91,7 +92,7 @@ browsing-shift-position-of-existing-cards = Změnit pozici existujících karet
 browsing-sidebar = Postranní panel
 browsing-sidebar-filter = Filtr postranního panelu
 # The field that is used for sorting (sort is an adjective here, not a verb)
-browsing-sort-field = Setřídit pole
+browsing-sort-field = Pole třídění
 browsing-sorting-on-this-column-is-not = Třízení dle toho sloupce není podporováno. Vyberte prosím jiný.
 browsing-start-position = Počáteční pozice:
 browsing-step = Krok:
