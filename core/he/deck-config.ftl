@@ -382,6 +382,7 @@ deck-config-weights = משקלי מודל
 deck-config-compute-optimal-weights = בצע אופטימיזציה של משקלי FSRS
 deck-config-compute-minimum-recommended-retention = שמירה מינימלית מומלצת
 deck-config-optimize-button = בצע אופטימיזציה
+deck-config-health-check = בדוק תקינות בעת אופטימיזציה (איטי)
 deck-config-compute-button = חשב
 deck-config-ignore-before = התעלם מחזרות לפני
 deck-config-time-to-optimize = עבר זמן מה - מומלץ להשתמש בכפתור אופטימיזציה של הכל.
@@ -435,11 +436,12 @@ deck-config-compute-optimal-weights-tooltip2 =
     כברירת מחדל, הפרמטרים יחושבו מהיסטוריית החזרה של כל החפיסות תוך שימוש בהגדרה הנוכחית. אתה יכול להתאים את החיפוש לפני חישוב הפרמטרים, אם ברצונך לשנות את ההגדרה אילו כרטיסים משמשים לאופטימיזציה של הפרמטרים.
 deck-config-compute-optimal-retention-tooltip4 = כלי זה ינסה למצוא את ערך השמירה הרצוי שיוביל ללמידה היעילה ביותר, במינימום זמן. המספר המחושב יכול לשמש כשאתה מחליט למה להגדיר את השמירה הרצויה שלך. ייתכן שתרצה לבחור שמירה רצויה גבוהה יותר, שזה אומר להפסיד יותר זמן לימוד עבור שיעור חזרות גבוה יותר. הגדרת השמירה הרצויה נמוכה מהמינימום לא מומלצת, מכיוון שזה יוביל לעומס עבודה גבוה יותר, בגלל שיעור השכחה הגבוה.
 deck-config-please-save-your-changes-first = אנא שמור את השינויים שלך תחילה.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] מרווח של 100 ימים יהפוך ל{ $days } יום.
-       *[other] מרווח של 100 ימים יהפוך ל{ $days } ימים.
-    }
+deck-config-workload-factor-change =
+    עומס משוער: { $factor }x
+    (בהשוואה ל-{ $previousDR }% שימור רצוי)
+deck-config-workload-factor-unchanged = ככל שערך זה גבוה יותר, כך יוצגו כרטיסים בתדירות גבוהה יותר.
+deck-config-desired-retention-too-low = השמירה הרצויה נמוכה מאוד, מה שיכול להוביל למרווחי זמן ארוכים מאוד.
+deck-config-desired-retention-too-high = השמירה הרצויה גבוהה מאוד, מה שיכול להוביל למרווחי זמן קצרים מאוד.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% מתוך { $reviews } חזרה
@@ -449,6 +451,15 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = שפר הגדרות מראש { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = תחילה יש להפעיל את FSRS.
 deck-config-fsrs-params-optimal = נראה כי פרמטרי FSRS כרגע הם אופטימליים.
+deck-config-fsrs-bad-fit-warning =
+    קשה ל-FSRS לחזות את הזיכרון שלך. המלצות:
+    
+    - להשעות או לנסח מחדש כרטיסי עלוקה.
+    - השתמשו בכפתורי התשובה באופן עקבי. זכרו ש"קשה" הוא ציון עובר, לא ציון נכשל.
+    - להבין לפני שאתה משנן.
+    
+    מעקב אחר ההצעות האלה, ישפר בדרך כלל את הביצועים במהלך החודשים הקרובים.
+deck-config-fsrs-good-fit = FSRS מותאם היטב לזיכרון שלך.
 deck-config-fsrs-params-no-reviews = לא נמצאו חזרות. אנא בדוק שהגדרה מראש זו מוקצית לכל החפיסות שברצונך לבצע אופטימיזציה (כולל חפיסות משנה) ונסה שוב.
 deck-config-wait-for-audio = המתן לשמע
 deck-config-show-reminder = הצג תזכורת
@@ -476,6 +487,11 @@ deck-config-fsrs-simulator-radio-memorized = ניתן לשינון
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] מרווח של 100 ימים יהפוך ל{ $days } יום.
+       *[other] מרווח של 100 ימים יהפוך ל{ $days } ימים.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = שעת/יום חזרה
 deck-config-fsrs-simulator-y-axis-title-count = כמות/יום חזרה
 deck-config-fsrs-simulator-y-axis-title-memorized = סך הכל שינון
