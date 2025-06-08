@@ -88,6 +88,7 @@ editing-image-occlusion-rectangle-tool = Ορθογώνιο παραλληλόγ
 editing-image-occlusion-ellipse-tool = Έλλειψη
 editing-image-occlusion-polygon-tool = Πολύγωνο
 editing-image-occlusion-text-tool = Κείμενο
+editing-image-occlusion-fill-tool = Γέμισε με χρώμα
 editing-image-occlusion-toggle-mask-editor = Εναλλαγή σε Mask Editor
 editing-image-occlusion-reset = Επαναφορά επικάλυψης εικόνας
 editing-image-occlusion-confirm-reset = Είστε σίγουροι ότι θέλετε να επαναφέρετε αυτή την επικάλυψη εικόνας;
