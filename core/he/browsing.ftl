@@ -22,13 +22,14 @@ browsing-cards-deleted =
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [one] קלף נמחק מהחפיסה { $deck_name }.
-        [two] שני קלפים נמחקו מהחפיסה { $deck_name }.
-       *[other] { $count } קלפים נמחקו מהחפיסה { $deck_name }.
+        [one] כרטיס אחד נמחק מהחפיסה { $deck_name }.
+        [two] שני כרטיסים נמחקו מהחפיסה { $deck_name }.
+       *[other] { $count } כרטיסים נמחקו מהחפיסה { $deck_name }.
     }
 browsing-change-deck = שנה חפיסה
 browsing-change-deck2 = שנה חפיסה...
 browsing-change-note-type = שנה סוג רשומה
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = שנה סוג רשומה...
 browsing-change-notetype = שנה סוג רשומה
 browsing-clear-unused-tags = נקה תגיות שאינן בשימוש
@@ -150,7 +151,7 @@ browsing-studied-today = נלמדו היום
 browsing-added-today = התווסף היום
 browsing-again-today = לחצן "שוב" היום
 browsing-edited-today = נערכו היום
-browsing-sidebar-first-review = חזרה ראשונה היום
+browsing-sidebar-first-review = נלמדו לראשונה היום
 browsing-sidebar-rescheduled = תוזמן מחדש היום
 browsing-sidebar-due-today = תאריך יעד
 browsing-sidebar-untagged = ללא תגית
