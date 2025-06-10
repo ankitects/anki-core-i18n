@@ -70,6 +70,8 @@ browsing-search-in = Buscar en:
 browsing-search-within-formatting-slow = Buscar en elementos de formato (lento)
 browsing-select-deck = Seleccionar baralla
 browsing-shift-position-of-existing-cards = Cambiar a posición das tarxetas existentes
+browsing-sidebar = Barra lateral
+browsing-sidebar-filter = Buscar na barra lateral
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Campo ordenado
 browsing-sorting-on-this-column-is-not = Non é posíbel cambiar a orde por esta columna. Escolla outra.
@@ -106,7 +108,7 @@ browsing-cards-updated =
        *[other] { $count } tarxetas actualizadas.
     }
 browsing-window-title = Explorar ({ $selected } de { $total } tarxetas seleccionadas)
-browsing-sidebar-expand = Expandir
+browsing-sidebar-expand = Estender
 browsing-sidebar-decks = Barallas
 browsing-sidebar-tags = Etiquetas
 browsing-sidebar-notetypes = Tipos de nota
