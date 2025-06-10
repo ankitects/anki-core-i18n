@@ -298,7 +298,7 @@ deck-config-weights = FSRS-Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS-Parametern
 deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote
 deck-config-optimize-button = Dieses Stapelprofil optimieren
-deck-config-health-check = Beim Optimieren Anpassung prüfen (langsam)
+deck-config-health-check = Beim Optimieren zusätzlich prüfen, ob sich FSRS gut an Ihr Gedächtnis angepasst hat (langsam)
 deck-config-compute-button = Berechnen
 deck-config-ignore-before = Wiederholungen vor diesem Datum ignorieren
 deck-config-time-to-optimize = Die letzte Optimierung ist eine Weile her – es wird empfohlen, den Knopf „Alle Stapelprofile optimieren“ zu verwenden.
@@ -370,13 +370,13 @@ deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $tot
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
 deck-config-fsrs-bad-fit-warning =
-    Ihr Gedächtnis ist für FSRS schwer vorherzusagen. Empfehlungen:
+    FSRS hat Schwierigkeiten, sich an Ihr Gedächtnis anzupassen. Empfehlungen:
     
-    - Schließen Sie Lernbremsen aus oder formulieren Sie sie um.
-    - Nutzen Sie die Antworttasten stets auf die gleiche Weise. Denken Sie daran: Nur „Nochmal“ gilt als Fehlversuch – „Schwer“, „Gut“ und „Einfach“ zählen alle als bestanden.
-    - Bevor Inhalte mit Anki wiederholt werden, sollten sie zunächst verstanden sein.
+    - Formulieren Sie Lernbremsen um oder schließen Sie sie aus.
+    - Nutzen Sie die Antworttasten stets auf die gleiche Weise. Denken Sie daran: Nur „Nochmal“ gilt als Fehlversuch – „Schwer“, „Gut“ und „Einfach“ gelten alle als bestanden.
+    - Wiederholen Sie Inhalte erst mit Anki, nachdem Sie sie verstanden haben.
     
-    Wenn Sie diese Empfehlungen befolgen, wird sich die Leistung in den nächsten Monaten normalerweise verbessern.
+    Wenn Sie diese Empfehlungen umsetzen, wird sich FSRS im Laufe der nächsten Monate besser an Ihr Gedächtnis anpassen.
 deck-config-fsrs-good-fit = FSRS hat sich gut an Ihr Gedächtnis angepasst.
 deck-config-fsrs-params-no-reviews = Keine Wiederholungen gefunden. Bitte prüfen Sie, ob dieses Stapelprofil allen Stapeln und Unterstapeln zugewiesen ist, die Sie optimieren möchten und versuchen Sie es anschließend erneut.
 deck-config-wait-for-audio = Auf Audio warten
