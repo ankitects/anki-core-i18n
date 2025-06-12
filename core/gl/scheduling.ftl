@@ -93,6 +93,8 @@ scheduling-new-options-group-name = Nome do novo grupo de opcións:
 scheduling-options-group = Grupo de opcións:
 scheduling-order = Orde
 scheduling-parent-limit = (límite anterior: { $val })
+scheduling-reset-counts = Reiniciar o contador de repeticións e lapsos
+scheduling-restore-position = Restaurar a posición orixinal cando sexa posíbel
 scheduling-review = Repaso
 scheduling-reviews = Repasos
 scheduling-seconds = segundos
@@ -113,4 +115,19 @@ scheduling-deck-updated =
     { $count ->
         [one] { $count } baralla actualizada.
        *[other] { $count } barallas actualizadas.
+    }
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Estableceuse a data de repaso de { $cards } tarxeta.
+       *[other] Establecéronse as datas de repaso de { $cards } tarxetas.
+    }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Avaliouse { $cards } tarxeta.
+       *[other] Avaliáronse { $cards } tarxetas.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Esqueceuse { $cards } tarxeta.
+       *[other] Esquecéronse { $cards } tarxetas.
     }
