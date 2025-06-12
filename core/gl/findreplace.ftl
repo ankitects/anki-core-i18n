@@ -1,4 +1,5 @@
-findreplace-notes-updated = { $total ->
-    [one] {$changed} de {$total} nota actualizada
-   *[other] {$changed} de {$total} notas actualizadas
-  }
+findreplace-notes-updated =
+    { $total ->
+        [one] Actualizouse { $changed } de { $total } nota
+       *[other] Actualizáronse { $changed } de { $total } notas
+    }
