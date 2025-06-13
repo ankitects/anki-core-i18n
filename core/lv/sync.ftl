@@ -17,7 +17,21 @@ sync-server-error = AnkiWeb gadījās sarežģījums. Lūgums pēc dažām minū
 sync-wrong-pass = E-pasta adrese vai parole bija nepareiza; lūgums mēģināt vēlreiz.
 sync-resync-required = Lūgums sinhronizēt vēlreiz. Ja šis ziņojums turpina parādīties, lūgums vērsties atbalsta vietnē.
 sync-must-wait-for-end = Anki pašlaik sinhronizē. Lūgums uzgaidīt, līdz sinhronizēšana tiek pabeigta, tad jāmēģina vēlreiz.
+sync-confirm-empty-download = Vietējā krājumā nav kartīšu. Lejupielādēt no AnkiWeb?
+sync-confirm-empty-upload = AnkiWeb krājumā nav kartīšu. Aizstāt to ar vietējo krājumu?
+sync-conflict-explanation =
+    Kavas šeit un AnkiWeb atšķiras tādā veidā, ka tās nevar apvienot, tādēļ vienā pusē ir nepieciešams pārrakstīt kavas ar kavām no otras puses.
+    
+    Ja izvēlas lejupielādēt, Anki iegūs krājumu no AnkiWeb, un jebkuras izmaiņas, kas šajā ierīcē tika veiktas kopš pēdējās sinhronizēšanas reizes, tiks zaudētas.
+    
+    Ja izvēlas augšupielādēt, Anki nosūtīts datus no šīs ierīces uz AnkiWeb, un jebkuras izmaiņas, kas gaida AnkiWeb, tiks zaudētas.
+    
+    Kad visas ierīces būs vienādotas, turpmākās pārskatīšanas un pievienotās kartītes var tikt automātiski apvienotas.
+sync-account-required =
+    <h1>Nepieciešams konts</h1>
+    Ir nepieciešams bezmaksas konts, lai turētu savu krājumu vienādotu. Lūgums <a href="{ $link }">izveidot</a> kontu, tad zemāk ievadīt savu informāciju.
 sync-sanity-check-failed = Lūgums izmantot "Pārbaudīt datubāzi", tad sinhronizēt vēlreiz. Ja sarežģījumi turpinās, lūgums iestatījumu ekrānā veikt uzspiestu vienvirziena sinhronizēšanu.
+# “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
     Krājuma datne ir pārāk liela, lai to nosūtītu AnkiWeb. Tās izmēru var
     samazināt ar nevajadzīgo kavu noņemšanu (pēc izvēles pirms tam tās izgūstot)
@@ -29,3 +43,4 @@ sync-ankihub-login-failed = Ar norādītajiem pieteikšanās datiem nevarēja pi
 
 ## Normal sync progress
 
+sync-collection-complete = Krājuma vienādošana pabeigta.

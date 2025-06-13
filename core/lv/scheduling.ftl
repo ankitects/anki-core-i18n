@@ -51,6 +51,9 @@ scheduling-time-span-years =
 
 ## Scheduler upgrade
 
+scheduling-update-required =
+    Krājumu ir nepieciešams jaunināt V2 plānotājam.
+    Lūgums pirms turpināšanas atlasīt { scheduling-update-more-info-button }.
 
 ## Other scheduling strings
 

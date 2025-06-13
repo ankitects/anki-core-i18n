@@ -29,6 +29,7 @@ statistics-true-retention-fail = Atteice
 
 ##
 
+statistics-range-collection = krājums
 statistics-intervals-subtitle = Aizkavē, līdz pārskatāmās kartītes tiek atkal parādītas.
 
 ## An amount of elapsed time, used in the graphs to show the amount of
