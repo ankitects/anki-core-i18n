@@ -327,6 +327,12 @@ deck-config-compute-optimal-weights-tooltip2 =
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。在計算參數前，你可以透過調整搜尋條件來更改要用於最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip4 = 此工具將嘗試計算出能讓你在最短時間內學習最多內容的期望留存機率。設定期望留存機率時可參考計算結果。若你不在乎多花時間學習，可以將期望留存機率設定稍高一點來加強記憶。期望留存機率低於最小值會使遺忘率過高，反而導致工作量增加，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
+deck-config-workload-factor-change =
+    預估工作量：{ $factor } 倍
+    （與 { $previousDR }% 期望留存機率相比）
+deck-config-workload-factor-unchanged = 數值越高，卡片出現的頻率就越高。
+deck-config-desired-retention-too-low = 當前期望留存機率過低，將導致間隔過長。
+deck-config-desired-retention-too-high = 當前期望留存機率過高，將導致間隔過短。
 deck-config-percent-of-reviews =
     { $reviews ->
        *[other] 進度：{ $pct }%，共 { $reviews } 次複習
@@ -335,6 +341,15 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
 deck-config-fsrs-params-optimal = 當前 FSRS 參數已為最佳。
+deck-config-fsrs-bad-fit-warning =
+    FSRS 難以根據你的記憶情況進行預測。請嘗試：
+    
+    - 擱置或重寫低效卡。
+    - 不頻繁改變回答按鈕的用法。注意：回答「困難」表示答題正確，請勿在答題失敗時按下。
+    - 理解內容後再記憶。
+    
+    做到這些建議之後，一般在幾個月內就能改善表現。
+deck-config-fsrs-good-fit = 已根據你的記憶情況調整 FSRS。
 deck-config-fsrs-params-no-reviews = 找不到複習記錄。請確保所有需要最佳化的牌組（含子牌組）都正在使用此預設組，然後再試一次。
 deck-config-wait-for-audio = 等待音訊播放
 deck-config-show-reminder = 顯示提醒
