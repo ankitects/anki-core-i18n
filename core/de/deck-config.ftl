@@ -227,9 +227,9 @@ deck-config-easy-days-thursday = Do.
 deck-config-easy-days-friday = Fr.
 deck-config-easy-days-saturday = Sa.
 deck-config-easy-days-sunday = So.
-deck-config-easy-days-normal = Normal
-deck-config-easy-days-reduced = Reduziert
-deck-config-easy-days-minimum = Minimum
+deck-config-easy-days-normal = Nor­mal
+deck-config-easy-days-reduced = Redu­ziert
+deck-config-easy-days-minimum = Mini­mum
 deck-config-easy-days-no-normal-days = Mindestens ein Tag sollte auf „{ deck-config-easy-days-normal }“ eingestellt sein.
 deck-config-easy-days-change = Bereits vorhandene Wiederholungen werden nicht umgeplant, außer "{ deck-config-reschedule-cards-on-change }" ist in den FSRS-Einstellungen aktiviert.
 
