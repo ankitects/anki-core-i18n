@@ -84,6 +84,11 @@ preferences-ankiweb-intro = Ankiweb es un servicio gratuito que te permite mante
 preferences-ankihub-intro = AnkiHub proporciona el editaje colaborativo de mazos, y herramientas adicionales para estudiar. Se requiere una subscripción pagada para acceder parte de la funcionalidad.
 preferences-third-party-description = Los servicios de terceros no están afiliados a Anki, ni están avalados por Anki. El uso de estos servicios puede requerir pago.
 
+## URL scheme related
+
+preferences-url-scheme-allow-once = Permitir una vez
+preferences-url-scheme-always-allow = Permitir simpre
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Básico

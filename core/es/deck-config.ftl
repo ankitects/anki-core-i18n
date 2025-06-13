@@ -371,6 +371,7 @@ deck-config-good-above-easy = El intervalo fácil debe ser al menos tan largo co
 deck-config-relearning-steps-above-minimum-interval = El intervalo mínimo debería ser al menos tan largo como el último paso de la etapa de reaprendizaje.
 deck-config-maximum-answer-secs-above-recommended = Hacer preguntas breves (cortas, pequeñas) permite que Anki pueda programar sus revisiones de manera más eficiente.
 deck-config-too-short-maximum-interval = In intervalo máximo de menos de 6 meses no es recomendable.
+deck-config-ignore-before-info = (Aproximádamente) { $included }/{ $totalCards } tarjetas serán usadas para optimizar los parámetros FSRS.
 
 ## Selecting a deck
 
@@ -440,11 +441,6 @@ deck-config-compute-optimal-retention-tooltip4 =
     Puede que quieras elegir un valor de retención más alto si deseas invertir más tiempo de estudio para conseguirlo.
     Poner el valor de retención más bajo que el valor recomendado no se recomienda, ya que resultará en una carga de trabajo más alta, por la tasa de olvido más alta.
 deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Un intervalo de 100 diás se volverá en { $days } día.
-       *[other] Un intervalo de 100 días se volverá en { $days } días.
-    }
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { "" }
@@ -470,6 +466,7 @@ deck-config-additional-new-cards-to-simulate = Tarjetas adicionales a simular
 deck-config-simulate = Simular
 deck-config-clear-last-simulate = Borrar la última simulación
 deck-config-fsrs-simulator-radio-count = Repasos
+deck-config-advanced-settings = Ajustes avanzados
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -477,6 +474,11 @@ deck-config-fsrs-simulator-radio-memorized = Memorizado
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Un intervalo de 100 diás se volverá en { $days } día.
+       *[other] Un intervalo de 100 días se volverá en { $days } días.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Hora/Día de repaso
 deck-config-fsrs-simulator-y-axis-title-memorized = Tarjetas memorizadas
 deck-config-bury-siblings = Enterrar tarjetas hermanas
