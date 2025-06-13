@@ -282,6 +282,7 @@ deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-minimum-recommended-retention = 留存機率推薦最小值
 deck-config-optimize-button = 最佳化當前預設組
+deck-config-health-check = 最佳化時檢查健康情況（較慢）
 deck-config-compute-button = 計算
 deck-config-ignore-before = 複習歷程起始時間
 deck-config-time-to-optimize = 已長期未最佳化，建議使用「最佳化所有預設組」按鈕。
@@ -326,10 +327,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。在計算參數前，你可以透過調整搜尋條件來更改要用於最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip4 = 此工具將嘗試計算出能讓你在最短時間內學習最多內容的期望留存機率。設定期望留存機率時可參考計算結果。若你不在乎多花時間學習，可以將期望留存機率設定稍高一點來加強記憶。期望留存機率低於最小值會使遺忘率過高，反而導致工作量增加，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
-deck-config-a-100-day-interval =
-    { $days ->
-       *[other] 若間隔原為 100 天，則將變為 { $days } 天。
-    }
 deck-config-percent-of-reviews =
     { $reviews ->
        *[other] 進度：{ $pct }%，共 { $reviews } 次複習
@@ -365,6 +362,10 @@ deck-config-fsrs-simulator-radio-memorized = 記憶
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+       *[other] 若間隔原為 100 天，則將變為 { $days } 天。
+    }
 deck-config-fsrs-simulator-y-axis-title-time = 每日複習耗時
 deck-config-fsrs-simulator-y-axis-title-count = 每日複習張數
 deck-config-fsrs-simulator-y-axis-title-memorized = 記憶總數
