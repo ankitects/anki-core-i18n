@@ -78,6 +78,11 @@ preferences-shortcut-placeholder = Prem una tecla de drecera no utilitzada o dei
 preferences-third-party-services = Serveis de tercers
 preferences-ankihub-not-logged-in = No heu iniciat cap sessió a AnkiHub.
 
+## URL scheme related
+
+preferences-url-scheme-allow-once = Permet una vegada
+preferences-url-scheme-always-allow = Permet sempre
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Bàsica

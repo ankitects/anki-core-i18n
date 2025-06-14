@@ -158,8 +158,8 @@ browsing-sidebar-overdue = En retard
 browsing-row-deleted = (esborrada)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] S'ha esborrat una etiqueta no utilizada.
-       *[other] S'han esborrat { $count } etiquetes no utilizades.
+        [one] S’ha suprmit una etiqueta no utilizada.
+       *[other] S’han suprimit { $count } etiquetes no utilizades.
     }
 browsing-changed-new-position =
     { $count ->

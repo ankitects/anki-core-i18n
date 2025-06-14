@@ -50,6 +50,7 @@ actions-select = Selecciona
 actions-shortcut-key = Tecla de drecera: { $val }
 actions-suspend-card = Suspèn la targeta
 actions-set-due-date = Defineix una data de repàs
+actions-grade-now = Avalua ara
 actions-answer-card = Respon la targeta
 actions-unbury-unsuspend = Desenterra/anul·la la suspensió
 actions-add-deck = Afegeix una baralla

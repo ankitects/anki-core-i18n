@@ -382,16 +382,12 @@ deck-config-fsrs-tooltip =
     Si heu utilitzat prèviament la versió de programació personalitzada del FSRS, assegureu-vos de buidar la secció de planificació personalitzada abans d’activar aquesta opció.
 deck-config-desired-retention-tooltip = El valor per defecte de 0,9 programarà les targetes perquè tingueu un 90 % de possibilitats de recordar-les quan torneu a repassar-les. Si augmenteu aquest valor, Anki mostrarà les targetes amb més freqüència per augmentar les possibilitats que les recordeu. Si reduïu el valor, Anki mostrarà les targetes amb menys freqüència i n’oblidareu més. Aneu amb compte amb aquest paràmetre, perquè un valor alt augmentarà molt la vostra càrrega de treball i un de molt baix pot fer que oblideu més material, cosa que podria desmotivar-vos.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Un interval de 100 dies esdevindrà un dia.
-       *[other] Un interval de 100 dies esdevindrà { $days } dies.
-    }
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct } % de { $reviews } repàs
        *[other] { $pct } % de { $reviews } repassos
     }
+deck-config-percent-input = { $pct } %
 deck-config-optimizing-preset = S’esta optimitzant la configuració de baralla { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = Primer heu d’activar el FSRS.
 deck-config-fsrs-params-optimal = Sembla que els paràmetres del FSRS són òptims.
@@ -401,9 +397,19 @@ deck-config-answer-again = De nou
 deck-config-answer-hard = Resposta difícil
 deck-config-answer-good = Resposta correcta
 deck-config-days-to-simulate = Dies que se simularan
+deck-config-additional-new-cards-to-simulate = Targetes addicionals que se simularan
+deck-config-simulate = Simula
+deck-config-clear-last-simulate = Esborra l’última simulació
+deck-config-fsrs-simulator-radio-count = Repassos
+deck-config-advanced-settings = Configuració avançada
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Un interval de 100 dies esdevindrà un dia.
+       *[other] Un interval de 100 dies esdevindrà { $days } dies.
+    }
 deck-config-bury-siblings = Enterra les targetes relacionades
 deck-config-do-not-bury = No enterris les targetes relacionades
 deck-config-bury-if-new = Enterra les noves

@@ -168,6 +168,11 @@ scheduling-set-due-date-done =
         [one] Estableix la data de repàs d'una targeta.
        *[other] Estableix la data de repàs de { $cards } targetes.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] S’ha avaluat una targeta.
+       *[other] S’han avaluat { $cards } targetes.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Heu oblidat una targeta.
