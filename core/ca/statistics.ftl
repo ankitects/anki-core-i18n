@@ -47,6 +47,22 @@ statistics-in-time-span-years =
         [one] en { $amount } any
        *[other] en { $amount } anys
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    Avui heu estudiat { statistics-cards } { $unit ->
+        [seconds] { statistics-in-time-span-seconds }
+        [minutes] { statistics-in-time-span-minutes }
+        [hours] { statistics-in-time-span-hours }
+        [days] { statistics-in-time-span-days }
+        [months] { statistics-in-time-span-months }
+       *[years] { statistics-in-time-span-years }
+    } ({ $secs-per-card } segons per targeta).
+
+##
+
 statistics-cards =
     { $cards ->
         [one] { $cards } targeta
@@ -63,19 +79,10 @@ statistics-reviews =
         [one] { $reviews } repàs
        *[other] { $reviews } repassos
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    Avui heu estudiat { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } ({ $secs-per-card } segons per targeta).
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } memoritzades
 statistics-today-title = Avui
 statistics-today-again-count = Oblidades:
 statistics-today-type-counts = Apreses: { $learnCount }, Repassades: { $reviewCount }, Tornades a aprendre: { $relearnCount }, Filtrades: { $filteredCount }
@@ -93,17 +100,40 @@ statistics-counts-learning-cards = Aprenent
 statistics-counts-relearning-cards = Reaprenent
 statistics-counts-title = Recompte de targetes
 statistics-counts-separate-suspended-buried-cards = Separa les targetes suspeses/enterrades
+
+## True Retention represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" parameter of FSRS, which forecasts
+## future retention. True Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
 statistics-true-retention-title = Retenció vertadera
 statistics-true-retention-range = Interval
 statistics-true-retention-pass = Aprovades
 statistics-true-retention-fail = Suspeses
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Nombre total de targetes
 statistics-true-retention-retention = Retenció
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Joves
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Madures
 statistics-true-retention-today = Avui
 statistics-true-retention-yesterday = Ahir
 statistics-true-retention-week = La setmana passada
 statistics-true-retention-month = El mes passat
 statistics-true-retention-year = L’any passat
 statistics-true-retention-all-time = Sempre
+
+##
+
 statistics-range-all-time = vida de la baralla
 statistics-range-1-year-history = últims 12 mesos
 statistics-range-all-history = tot l’historial
@@ -114,7 +144,7 @@ statistics-card-ease-title = Facilitat de la targeta
 statistics-card-difficulty-title = Dificultat de les targetes
 statistics-card-stability-title = Estabilitat de les targetes
 statistics-card-stability-subtitle = Retard dins del qual és probable que en recordeu el 90 %.
-statistics-average-stability = Estabilitat mitjana
+statistics-median-stability = Estabilitat mediana
 statistics-card-retrievability-title = Recuperabilitat de les targetes
 statistics-card-ease-subtitle = Com més baixa sigui la facilitat, més freqüentment apareixerà la targeta.
 statistics-card-difficulty-subtitle2 = Com més gran sigui la dificultat, més lentament augmentarà l’estabilitat.
@@ -220,12 +250,20 @@ statistics-elapsed-time-years = { $amount }a
 ##
 
 statistics-average-for-days-studied = Mitjana per dia estudiat
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Total
 statistics-days-studied = Dies que heu estudiat
 statistics-average-answer-time-label = Temps de resposta mitjà
 statistics-average = Mitjana
-statistics-average-interval = Interval mitjà
+statistics-median-interval = Interval medià
 statistics-due-tomorrow = Programades per a demà
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Càrrega diària
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent } %)
@@ -245,13 +283,19 @@ statistics-cards-per-day =
         [one] { $count } targeta/dia
        *[other] { $count } targetes/dia
     }
-statistics-average-ease = Facilitat mitjana
-statistics-average-difficulty = Dificultat mitjana
+statistics-median-ease = Facilitat mediana
+statistics-median-difficulty = Dificultat mediana
 statistics-average-retrievability = Recuperabilitat mitjana
+statistics-estimated-total-knowledge = Coneixement total estimat
 statistics-save-pdf = Guarda en PDF
 statistics-saved = Guardat.
 statistics-stats = estadístiques
 statistics-title = Estadístiques
-statistics-true-retention-total = Nombre total de targetes
-statistics-true-retention-young = Joves
-statistics-true-retention-mature = Madures
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Estabilitat mitjana
+statistics-average-interval = Interval mitjà
+statistics-average-ease = Facilitat mitjana
+statistics-average-difficulty = Dificultat mitjana

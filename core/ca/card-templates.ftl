@@ -6,10 +6,10 @@ card-templates-changes-will-affect-notes =
        *[other] Aquests canvis afectaran a { $count } notes que utilitzen aquest tipus de targeta.
     }
 card-templates-card-type = Tipus de targeta:
-card-templates-front-template = Plantilla de l'anvers
+card-templates-front-template = Plantilla de l’anvers
 card-templates-back-template = Plantilla del revers
 card-templates-template-styling = Estil
-card-templates-front-preview = Previsualització de l'anvers
+card-templates-front-preview = Previsualització de l’anvers
 card-templates-back-preview = Previsualització del revers
 card-templates-preview-box = Previsualització
 card-templates-template-box = Plantilla

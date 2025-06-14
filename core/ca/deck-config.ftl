@@ -238,8 +238,8 @@ deck-config-stop-timer-on-answer-tooltip =
 
 ## Auto Advance section
 
-deck-config-seconds-to-show-question = Segons abans de mostrar la pregunta
-deck-config-seconds-to-show-answer = Segons abans de mostrar la resposta
+deck-config-seconds-to-show-question = Segons abans que es mostri la pregunta
+deck-config-seconds-to-show-answer = Segons abans que es mostri la resposta
 deck-config-seconds-to-show-answer-tooltip-2 = Nombre de segons abans que s’apliqui l’acció de resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
 deck-config-question-action-show-answer = Mostra la resposta
 deck-config-question-action-show-reminder = Mostra un recordatori
@@ -359,8 +359,8 @@ deck-config-must-have-400-reviews =
        *[other] Només s’han trobat { $count } repassos. Per a dur a terme aquesta acció, heu de tenir almenys 400 repassos.
     }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
-deck-config-weights = Paràmetres FSRS
-deck-config-compute-optimal-weights = Optimitza els paràmetres FSRS
+deck-config-weights = Paràmetres del FSRS
+deck-config-compute-optimal-weights = Optimitza els paràmetres del FSRS
 deck-config-compute-minimum-recommended-retention = Retenció recomanada mínima
 deck-config-optimize-button = Optimitza
 deck-config-compute-button = Calcula
@@ -397,11 +397,21 @@ deck-config-answer-again = De nou
 deck-config-answer-hard = Resposta difícil
 deck-config-answer-good = Resposta correcta
 deck-config-days-to-simulate = Dies que se simularan
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = Simulador del FSRS (experimental)
 deck-config-additional-new-cards-to-simulate = Targetes addicionals que se simularan
 deck-config-simulate = Simula
 deck-config-clear-last-simulate = Esborra l’última simulació
 deck-config-fsrs-simulator-radio-count = Repassos
 deck-config-advanced-settings = Configuració avançada
+deck-config-suspend-leeches = Suspèn les sangoneres
+deck-config-save-options-to-preset = Guarda els canvis en la configuració de baralla
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Memoritzades
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
