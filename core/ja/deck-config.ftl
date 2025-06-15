@@ -328,6 +328,7 @@ deck-config-learning-step-above-graduating-interval = 習得ステップ修了�
 deck-config-good-above-easy = 「簡単」と回答後の最初の復習間隔は、習得ステップ修了後の最初の復習間隔より長くする（少なくとも同じにする）ことをお勧めします。
 deck-config-relearning-steps-above-minimum-interval = 復習再開時の復習間隔の下限は、最後の再習得ステップの間隔より長くする（少なくとも同じにする）ことをお勧めします。
 deck-config-maximum-answer-secs-above-recommended = 回答時間を短く保つほうが、効率的な学習スケジュール作成に役立ちます。
+deck-config-too-short-maximum-interval = 復習間隔の上限は、6か月（＝180日）以上の値にすることをおすすめします。
 
 ## Selecting a deck
 
@@ -345,6 +346,7 @@ deck-config-weights = FSRSパラメータ
 deck-config-compute-optimal-weights = FSRSパラメータ値を最適化
 deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
 deck-config-optimize-button = 最適化
+deck-config-health-check = 最適化を実行する際にパラメータの信頼性もチェック（低速）
 deck-config-compute-button = 推定
 deck-config-ignore-before = 指定日より前の復習を無視
 deck-config-time-to-optimize = しばらく最適化が行われていません。「すべてのプリセットで最適化して保存」ボタンを使用することをおすすめします。
@@ -450,6 +452,9 @@ deck-config-additional-new-cards-to-simulate = 新規カード追加枚数
 deck-config-simulate = ｼﾐｭﾚｰﾄ
 deck-config-clear-last-simulate = 直近のｼﾐｭﾚｰﾄ結果を消去
 deck-config-fsrs-simulator-radio-count = 学習回数
+deck-config-advanced-settings = 高度な設定
+deck-config-smooth-graph = グラフをスムーズにする
+deck-config-save-options-to-preset = 変更をﾌﾟﾘｾｯﾄに反映
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
