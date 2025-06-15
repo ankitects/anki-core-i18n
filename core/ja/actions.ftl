@@ -1,5 +1,17 @@
 actions-add = 追加
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = 選択条件すべてを含む
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = 選択条件のいずれかを含む
 actions-cancel = キャンセル
 actions-choose = 選択
@@ -38,6 +50,7 @@ actions-select = 選択
 actions-shortcut-key = ショートカットキーは「{ $val }」
 actions-suspend-card = カードを休止
 actions-set-due-date = 期日を指定
+actions-grade-now = 今すぐ評価（回答）
 actions-answer-card = カードへの回答
 actions-unbury-unsuspend = 非表示解除 / 休止解除
 actions-add-deck = デッキの追加
@@ -58,10 +71,12 @@ actions-previous-card-info = 直前カード情報
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = 使用しているビデオドライバでは、フルスクリーンモードはサポートされていません。[設定] → [表示] の画面で別のドライバに切り替えてみてください。
-
-## Flags
-
 actions-flag-number = フラグ{ $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = レッド
 actions-flag-orange = オレンジ
 actions-flag-green = グリーン
@@ -69,6 +84,9 @@ actions-flag-blue = ブルー
 actions-flag-pink = ピンク
 actions-flag-turquoise = ターコイズ
 actions-flag-purple = パープル
+
+##
+
 actions-set-flag = フラグの変更
 actions-nothing-to-undo = 元に戻すものがありません
 actions-nothing-to-redo = やり直すものがありません

@@ -113,7 +113,7 @@ deck-config-bury-priority-tooltip =
     - すべての非表示オプションが有効になっている場合、リスト内の兄弟どうしのうち、最も先に並んでいるカードのみが表示されます。例えば、リスト内のある復習カードとある新規カードが兄弟どうしの場合、復習カードの方が先に並んでいるので、復習カードが表示され、新規カードは当日は非表示となります。
     - リスト内の兄弟どうしのうちで後ろに並んでいるカードの非表示を解除したとしても、先に並んでいる別の種類のカードが代わりに非表示になるということはありません。例えばリスト内の、ある復習カードとある新規カードが兄弟どうしの場合、たとえ新規カードの非表示を解除して学習したとしても、代わりに復習カードが非表示になってしまうことはありません。つまりこの場合は、兄弟どうしである復習カードと新規カードの両方が同じ日に表示されることになります。
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = 表示順序
 deck-config-new-gather-priority = 新規カードを集める順序
@@ -127,12 +127,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `ランダム（ノート単位）`: ランダムに選んだノートからカードを集めます。「兄弟関係のカードの非表示」オプションがオフになっている場合は、同じノートから作成されたカード（例えば、《表面→裏面》カードと《裏面→表面》カード）がすべて同じセッションで表示されます。
     
     `ランダム（カード単位）`: 完全にランダムにカードを集めます。
-deck-config-new-gather-priority-deck = デッキの並び順（上から）
-deck-config-new-gather-priority-deck-then-random-notes = デッキの並び順（上から）→ランダム（ノート単位）
-deck-config-new-gather-priority-position-lowest-first = 位置（新規カード番号）の昇順
-deck-config-new-gather-priority-position-highest-first = 位置（新規カード番号）の降順
-deck-config-new-gather-priority-random-notes = ランダム（ノート単位）
-deck-config-new-gather-priority-random-cards = ランダム（カード単位）
 deck-config-new-card-sort-order = 集めた新規カードを並べる順序
 deck-config-new-card-sort-order-tooltip-2 =
     `カードタイプ順`: 「カード 1」「カード 2」といったカードタイプごとにグループ分けをし、カードタイプの数字順に、グループごとにカードを表示していきます。同じカードタイプどうしのカードは、集めたときの順序で表示されます。「兄弟関係のカードの非表示」カテゴリの各オプションを無効にしている場合は、例えば、カードタイプが「カード 1」である《表面→裏面》カードをすべて表示してから、カードタイプが「カード 2」である《裏面→表面》カードを表示していきます。兄弟関係のカード（＝同じノートから作られたカード）どうしを同じセッションで表示したいが、近づけすぎないようにもしたい、という場合に適した設定です。
@@ -144,11 +138,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `ランダム（ノート単位）→カードタイプ順`: ノートをランダムに並べ、ノートがカードを複数持つ場合（つまり、兄弟関係のカードがある場合）はそれらのカードをカードタイプ順に表示します。
     
     `ランダム（カード単位）`: 集めたカードを完全にランダムな並びで表示します。
-deck-config-sort-order-card-template-then-random = カードタイプ順→ランダム
-deck-config-sort-order-random-note-then-template = ランダム（ノート単位）→カードタイプ順
-deck-config-sort-order-random = ランダム（カード単位）
-deck-config-sort-order-template-then-gather = カードタイプ順
-deck-config-sort-order-gather = 集めたときの順序
 deck-config-new-review-priority = 新規カード表示のタイミング
 deck-config-new-review-priority-tooltip = 新規カードを、復習カードとの関連でいつ表示するのか選択できます。
 deck-config-interday-step-priority = 日をまたいだステップの習得中（再習得中）カード表示のタイミング
@@ -156,25 +145,64 @@ deck-config-interday-step-priority-tooltip =
     「現時点のステップが日をまたいでいる習得中（または再習得中）カード」をどのタイミングで表示するかを選択できます。
     
     「一日の復習枚数の上限」オプションの枚数に従って表示するカードを選び出す際には、この「現時点のステップが日をまたいでいる習得中（または再習得中）カード」が復習カードよりも常に優先されます。それに対してこのオプションでは、その後の「優先的に選び出したそれらのカードと復習カードをどのような順序で表示するか」を設定します。
-deck-config-review-mix-mix-with-reviews = 復習と混ぜる
-deck-config-review-mix-show-after-reviews = 復習の後に表示
-deck-config-review-mix-show-before-reviews = 復習の前に表示
 deck-config-review-sort-order = 復習カードを並べる順序
 deck-config-review-sort-order-tooltip =
     デフォルトでは、最も長い期間待機しているカードが最初に表示されるよう、待機日数が大きい順にカードを表示します。
     復習カードが蓄積してすべてのカードをこなすのに数日以上を要する場合や、あるいはサブデッキの順番でカード学習をしたい場合など、状況や好みに応じて別のソート方法を選択することができます。
-deck-config-sort-order-due-date-then-random = 期日超過日数が多い順→同日数はランダム
-deck-config-sort-order-due-date-then-deck = 期日超過日数が多い順→同日数はデッキの並び順
-deck-config-sort-order-deck-then-due-date = デッキ並び順→デッキ内は期日超過日数多い順
-deck-config-sort-order-ascending-intervals = 復習間隔が短い順
-deck-config-sort-order-descending-intervals = 復習間隔が長い順
-deck-config-sort-order-ascending-ease = 易しさが低い順
-deck-config-sort-order-descending-ease = 易しさが高い順
-deck-config-sort-order-ascending-difficulty = 難度が低い順
-deck-config-sort-order-descending-difficulty = 難度が高い順
-deck-config-sort-order-retrievability-ascending = 正答可能性が低い順
-deck-config-sort-order-retrievability-descending = 正答可能性が高い順
 deck-config-display-order-will-use-current-deck = 表示順序の設定は、学習を開始する時に選択したデッキのオプションでの設定が用いられます。つまり、選択したデッキのサブデッキのカードを表示する際にも、そのサブデッキのオプションではなく、選択したデッキのオプションでの設定が適用されます。
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = デッキの並び順（上から）
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = デッキの並び順（上から）→ランダム（ノート単位）
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = 位置（新規カード番号）の昇順
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = 位置（新規カード番号）の降順
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = ランダム（ノート単位）
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = ランダム（カード単位）
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = カードタイプ順→ランダム
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = ランダム（ノート単位）→カードタイプ順
+# Sort the cards randomly.
+deck-config-sort-order-random = ランダム（カード単位）
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = カードタイプ順
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = 集めたときの順序
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = 復習と混ぜる
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = 復習の後に表示
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = 復習の前に表示
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = 期日超過日数が多い順→同日数はランダム
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = 期日超過日数が多い順→同日数はデッキの並び順
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = デッキ並び順→デッキ内は期日超過日数多い順
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = 復習間隔が短い順
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = 復習間隔が長い順
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = 易しさが低い順
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = 易しさが高い順
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = 難度が低い順
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = 難度が高い順
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = 正答可能性が低い順
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = 正答可能性が高い順
 
 ## Timer section
 
@@ -337,7 +365,7 @@ deck-config-fsrs-tooltip =
     
     「カスタムスケジューリング」オプションを事前に使用していた場合は、このFSRSオプションをオンにする前に、必ずカスタムスケジューリングの入力欄の内容を消去してください。
 deck-config-desired-retention-tooltip =
-    デフォルト値の0.9では、あなたがカードを復習する際に答えを忘れずに覚えている確率が90%となるタイミングを予測してスケジュールを組み立てます。
+    デフォルトの値（90%）では、あなたがカードを復習する際に答えを忘れずに覚えている確率が90%となるタイミングを予測してスケジュールを組み立てます。
     
     この値を上げると、Ankiはあなたが答えを忘れずに覚えていやすくなるよう、より頻繁に、つまり、より短めの間隔でカードを表示します。
     
@@ -393,11 +421,11 @@ deck-config-compute-optimal-retention-tooltip4 =
     
     この値よりも低い値を`目標正答率`として設定するのはおすすめしません。復習間隔が大きくなりすぎて正答を思い出しにくくなり、かえって学習の負担が高くなると予想されるためです。
 deck-config-please-save-your-changes-first = 変更を先に保存してください
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] 【参考】 たとえば、デフォルトの目標正答率だと復習間隔が100日になる場合、この目標正答率だと、その復習間隔は{ $days }日になります。
-       *[other] 【参考】 たとえば、デフォルトの目標正答率だと復習間隔が100日になる場合、この目標正答率だと、その復習間隔は{ $days }日になります。
-    }
+deck-config-workload-factor-change =
+    変更後の学習負荷は、変更前（{ $previousDR }%）の場合の
+    およそ{ $factor }倍となります
+deck-config-desired-retention-too-low = 目標正答率が非常に低くなっています。復習間隔が極端に長くなってしまう可能性があります。
+deck-config-desired-retention-too-high = 目標正答率が非常に高くなっています。復習間隔が極端に短くなってしまう可能性があります。
 deck-config-percent-of-reviews =
     { $reviews ->
        *[other] 復習履歴{ $reviews }件の{ $pct }%を読み込みました...
@@ -429,6 +457,11 @@ deck-config-fsrs-simulator-radio-memorized = 記憶保持
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 【参考】 たとえば、デフォルトの目標正答率だと復習間隔が100日になる場合、この目標正答率だと、その復習間隔は{ $days }日になります。
+       *[other] 【参考】 たとえば、デフォルトの目標正答率だと復習間隔が100日になる場合、この目標正答率だと、その復習間隔は{ $days }日になります。
+    }
 deck-config-fsrs-simulator-y-axis-title-time = 各日の学習時間
 deck-config-fsrs-simulator-y-axis-title-count = 各日の学習回数
 deck-config-fsrs-simulator-y-axis-title-memorized = 記憶を保持できているカード数
