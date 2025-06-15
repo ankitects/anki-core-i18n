@@ -286,6 +286,7 @@ deck-config-good-above-easy = די גרינג-צווישנצײַט זאָל נײ
 deck-config-relearning-steps-above-minimum-interval = די מינימאַלע פֿאַרטונקל-צווישנצײַט זאָל זײַן לכל-הפּחוט אַזוי לאַנג ווי דעם לעצטן קריקלער-שטאַפּל.
 deck-config-maximum-answer-secs-above-recommended = אַנקי קען פּלאַנירן עפֿעקטיווער איבער׳חזר׳ונגען, ווען יעדע פֿראַגע איז אַ קורצע.
 deck-config-too-short-maximum-interval = ס׳איז כּדאי, די מאַקסימאַל צווישנצײַט זאָל נישט זײַן ווייניק פון 6 מאָנאַטן.
+deck-config-ignore-before-info = (בערך) { $included }/{ $totalCards } קאַרטלעך וועלן ווערן געניצט כּדי צו אָפּטימיזירן די FSRS פּאַראַמעטערס.
 
 ## Selecting a deck
 
@@ -293,6 +294,8 @@ deck-config-which-deck = פֿון וועלכען טעשל ווילסטו ווײ�
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = דערהײַנטיקנדיק קאַרטלעך: { $current_cards_count }/{ $total_cards_count }…
+deck-config-invalid-parameters = זי צוגעשטעלטע FSRS פּאַראַמעטערס זענען פּסול. לאָז זיי ליידיק כּדי צו ניצן די פּאַראַמעטערס דורך פֿעליקייט.
 deck-config-not-enough-history = דער איבער׳חזר-זכּרון קלעקט נישט אויסצופֿירן די פֿונקציע.
 deck-config-unable-to-determine-desired-retention = מ׳האָט נישט געקענט באַשטימען אַ מינימאַל-רעקאָמענדירט אָנהאַלטן.
 deck-config-must-have-400-reviews =
@@ -305,6 +308,7 @@ deck-config-weights = FSRS פּאַראַמעטערס
 deck-config-compute-optimal-weights = אָפּטימיזירן FSRS פּאַראַמעטערס
 deck-config-compute-minimum-recommended-retention = מינימאַל רעקאָמענדירטע זכּרון
 deck-config-optimize-button = אָפּטימיזירן
+deck-config-health-check = איבערקוקן ס׳געזונט בשעת׳ן אָפּטימיזירן (פּאַמעלעך)
 deck-config-compute-button = אויסרעכענען
 deck-config-ignore-before = איגנאָרירן קאַרטלעך וואָס פֿריער איבערגע׳חזר׳ט
 deck-config-time-to-optimize = שוין לאַנג זיך נישט געזען - ס׳איז כּדאי צו „אָפּטימיזירן אַלץ״.
@@ -313,15 +317,12 @@ deck-config-desired-retention = געוווּנטשן זכּרון
 deck-config-historical-retention = היסטאָריש זכּרון
 deck-config-smaller-is-better = קלענערע צאָלן ווײַזן אָן די וואָס זענען בעסער צוגעפּאַסט אויף דער איבער׳חזר׳ונג געשיכטע.
 deck-config-steps-too-large-for-fsrs = ווען FSRS גילט, שטאַפּלען 1 טאָג אָדער מער זענען נישט כּדאי.
+deck-config-get-params = אָפּטראָגן פּאַראַמס
+deck-config-predicted-minimum-recommended-retention = מינימאַל רעקאָמענדירטע זכּרון: { $num }
 deck-config-complete = { $num }% פֿאַרענדיקט
 deck-config-iterations = גילגול: { $count }…
 deck-config-reschedule-cards-on-change = אָפּלייגן קאַרטלעך אויפֿן טוישן
 deck-config-please-save-your-changes-first = קודם, ביטע היט אויף טוישונגען.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] אַ צווישנצײַט פֿון 100 טעג וועט ווערן { $days } טאָג.
-       *[other] אַ צווישנצײַט פֿון 100 טעג וועט ווערן { $days } טעג.
-    }
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% פון { $reviews } איבער׳חזר׳ונג
@@ -340,6 +341,11 @@ deck-config-days-to-simulate = טעג אויף צו סימולירן
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] אַ צווישנצײַט פֿון 100 טעג וועט ווערן { $days } טאָג.
+       *[other] אַ צווישנצײַט פֿון 100 טעג וועט ווערן { $days } טעג.
+    }
 deck-config-bury-siblings = אָפּהאַלטן געשוויסטער
 deck-config-do-not-bury = אָפּהאַלטן נישט קיין געשוויסטער
 deck-config-bury-if-new = אָפּהאַלטן ווען נײַ
