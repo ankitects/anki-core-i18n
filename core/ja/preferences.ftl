@@ -81,6 +81,11 @@ preferences-ankiweb-intro = AnkiWebは、フラッシュカードのデータを
 preferences-ankihub-intro = AnkiHubは、デッキの共同編集機能などの学習ツールを提供します。 一部の機能は、利用するために有料の会員登録が必要です。
 preferences-third-party-description = サードパーティーサービスは、Ankiとは別の開発者によって管理されており、Ankiが信頼性を保証するものではありません。 また、サービスによっては料金の支払いが必要となる場合があります。
 
+## URL scheme related
+
+preferences-url-schemes = URLスキーム
+preferences-url-scheme-prompt = 許可するURLスキーム（複数入力する場合はスペースで区切る）
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = 基本
