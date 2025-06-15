@@ -134,7 +134,7 @@ statistics-true-retention-all-time = Sempre
 
 ##
 
-statistics-range-all-time = vida de la baralla
+statistics-range-all-time = Vida de la baralla
 statistics-range-1-year-history = últims 12 mesos
 statistics-range-all-history = tot l’historial
 statistics-range-deck = baralla
