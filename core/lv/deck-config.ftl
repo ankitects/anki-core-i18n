@@ -236,6 +236,13 @@ deck-config-desired-retention-tooltip =
     kartītes, tādējādi vairāk tiks aizmirsts. Vēlams ievērot piesardzību, kad šo pielāgo, -
     lielākas vērtības ievērojami palielinās noslogojumu, un mazākas vērtības var būt
     nomācošas, kad tiek aizmirsts daudz vielas.
+deck-config-historical-retention-tooltip =
+    Kad trūkst daļa no pārskatīšanas vēstures, FSRS ir nepieciešams aizpildīt robus. Pēc noklusējuma tas
+    pieņems, ka, kad tika veiktas vecās pārskatīšanas, Tu atcerējies 90% no vielas. Ja prātā tika paturēts
+    vērā ņemami vairāk vai mazāk nekā 90%, šīs iespējas pielāgošana ļaus FSRS labāk novērtēt
+    trūkstošās pārskatīšanas.
+    
+    Pārskatīšanu vēsture var būt nepilnīga divu iemeslu dēļ:
 deck-config-reschedule-cards-on-change-tooltip =
     Ietekmē visu krājumu, un netiek saglabāts.
     
