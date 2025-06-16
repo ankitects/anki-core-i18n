@@ -243,6 +243,12 @@ deck-config-historical-retention-tooltip =
     trūkstošās pārskatīšanas.
     
     Pārskatīšanu vēsture var būt nepilnīga divu iemeslu dēļ:
+    1. jo Tu izmanto iespēju "Neņemt vērāk kartītes, kas pārskatītas prims";
+    2. jo Tu iepriekš izdzēsi pārskatīšanas žurnālus, lai atbrīvotu vietu, vai ievietoji vielu no citas
+    SRS programmas.
+    
+    Pēdējais iemesls ir diezgan rets, tā ka, ja vien neizmanto pirmo, visdrīzāk nav nepieciešams pielāgot
+    šo iespēju.
 deck-config-reschedule-cards-on-change-tooltip =
     Ietekmē visu krājumu, un netiek saglabāts.
     
