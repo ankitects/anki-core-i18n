@@ -198,7 +198,7 @@ importing-notes-found-in-file2 =
         [one] { $notes } nota encontrada en el archivo. De estas:
        *[other] { $notes } notas encontradas en el archivo. De estas:
     }
-importing-show = Monstrar
+importing-show = Mostrar
 importing-details = Detalles
 importing-status = Estado
 importing-duplicate-note-added = Nota duplicada añadida
