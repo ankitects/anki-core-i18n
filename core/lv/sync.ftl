@@ -27,6 +27,13 @@ sync-conflict-explanation =
     Ja izvēlas augšupielādēt, Anki nosūtīts datus no šīs ierīces uz AnkiWeb, un jebkuras izmaiņas, kas gaida AnkiWeb, tiks zaudētas.
     
     Kad visas ierīces būs vienādotas, turpmākās pārskatīšanas un pievienotās kartītes var tikt automātiski apvienotas.
+sync-conflict-explanation2 =
+    Ir nesaderība starp šajā ierīcē un AnkiWeb esošajām kavām. Jāizvēlas, kuru versiju paturēt:
+    
+    - atlasīt **{ sync-download-from-ankiweb }**, lai aizvietotu šeit esošās kavas ar AnkiWeb versiju; tiks zaudētas jebkādas izmaiņas, kas tika veiktas šajā ierīcē pēc pēdējās sinhronizēšanas;
+    - atlasīt **{ sync-upload-to-ankiweb }**, lai pārrakstītu AnkiWeb versijas ar šajā ierīcē esošajām kavām un izdzēstu jebkādas AnkiWeb esošās izmaiņas.
+    
+    Tiklīdz nesaderība būs novērsta, sinhronizēšana darbosies kā ierasts.
 sync-account-required =
     <h1>Nepieciešams konts</h1>
     Ir nepieciešams bezmaksas konts, lai turētu savu krājumu vienādotu. Lūgums <a href="{ $link }">izveidot</a> kontu, tad zemāk ievadīt savu informāciju.

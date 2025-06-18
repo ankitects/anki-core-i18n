@@ -2,6 +2,7 @@ studying-again = Vēlreiz
 studying-card-suspended = Kartīte atlikta.
 studying-card-was-a-leech = Kartīte bija izsūcoša.
 studying-continue = Turpināt
+studying-delete-note = Izdzēst piezīmi
 studying-easy = Viegli
 studying-edit = Labot
 studying-finish = Pabeigt

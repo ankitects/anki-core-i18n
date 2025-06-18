@@ -10,6 +10,8 @@ notetypes-cloze-name = Aizpilde
 
 ## Default card template names
 
+notetypes-delete-this-note-type-and-all = Izdzēst šo piezīmju viedu un visas tā kartītes?
+notetypes-delete-this-unused-note-type = Izdzēst šo neizmantoto piezīmju veidu?
 
 ## Image Occlusion
 
