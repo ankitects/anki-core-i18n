@@ -408,6 +408,8 @@ deck-config-percent-of-reviews =
        *[many] { $pct }% от { $reviews } повторений
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Проверка на предмет улучшения...
 deck-config-optimizing-preset = Оптимизация предустановки { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Сначала необходимо включить FSRS.
 deck-config-fsrs-params-optimal = В настоящее время параметры FSRS, вероятно, оптимальны.
@@ -483,6 +485,8 @@ deck-config-ignore-before-tooltip =
 deck-config-compute-optimal-retention-tooltip =
     Этот инструмент предполагает, что вы начинаете с 0 карточек, и попытается рассчитать количество материала, которое вы сможете усвоить за данный промежуток времени.
     Расчетное усвоение будет во многом зависеть от ваших данных, и если оно значительно отличается от 0.9, это признак того, что время, которое вы выделяете каждый день, либо слишком мало, либо слишком большое для количества карточек, которые вы пытаетесь выучить. Это число может быть полезным в качестве справочного материала, но не рекомендуется копировать его в желаемое поле усвоения.
+deck-config-health-check-tooltip1 = Если FSRS с трудом адаптируется к вашей памяти, появится предупреждение.
+deck-config-health-check-tooltip2 = Проверка работоспособности выполняется только при использовании функции «Оптимизировать» (текущую предустановку).
 deck-config-compute-optimal-retention = Вычислить минимальное рекомендуемое усвоение
 deck-config-predicted-optimal-retention = Минимальное рекомендуемое усвоение: { $num }
 deck-config-weights-tooltip =
