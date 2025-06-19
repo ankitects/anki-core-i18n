@@ -261,7 +261,7 @@ deck-config-minimum-interval-tooltip = 复习卡片选择「重来」后的最�
 deck-config-custom-scheduling = 自定义排程
 deck-config-custom-scheduling-tooltip = 该设置将影响所有集合。请务必谨慎使用！
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = 轻松日
 deck-config-easy-days-monday = 周一
@@ -341,7 +341,8 @@ deck-config-weights = FSRS 参数
 deck-config-compute-optimal-weights = 优化 FSRS 参数
 deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留率
 deck-config-optimize-button = 优化当前预设
-deck-config-health-check = 优化时检查健康状况（较慢）
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text }（较慢）
 deck-config-compute-button = 计算
 deck-config-ignore-before = 忽略该日期前的复习记录
 deck-config-time-to-optimize = 已有一段时间未优化参数，建议使用「优化所有预设」按钮。
@@ -413,18 +414,11 @@ deck-config-percent-of-reviews =
        *[other] { $reviews } 次复习的 { $pct }%
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = 检查改进中……
 deck-config-optimizing-preset = 正在优化预设 { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = 请您先启用 FSRS。
 deck-config-fsrs-params-optimal = 当前 FSRS 参数已为最佳。
-deck-config-fsrs-bad-fit-warning =
-    FSRS 难以预测您的记忆规律。建议：
-    
-    - 暂停或重制记忆难点卡片
-    - 保持评分按钮使用一致性（「困难」表示通过而非失败）
-    - 先理解后记忆
-    
-    遵循建议后，通常数月内会有改善。
-deck-config-fsrs-good-fit = FSRS 已良好适配您的记忆模式。
 deck-config-fsrs-params-no-reviews = 未找到复习记录。确保此预设已分配给您想要优化的所有牌组（包括子牌组），然后重试。
 deck-config-wait-for-audio = 等待音频播放完毕
 deck-config-show-reminder = 显示提醒
@@ -449,6 +443,25 @@ deck-config-save-options-to-preset = 保存更改到预设
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = 已记忆
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = 优化时检查健康状况（较慢）
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    健康检查：
+    FSRS 难以预测您的记忆规律。建议：
+    
+    - 暂停或重制记忆难点卡片
+    - 保持评分按钮使用一致性（「困难」表示通过而非失败）
+    - 先理解后记忆
+    
+    遵循建议后，通常数月内会有改善。
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    健康检查：
+    FSRS 已良好适配您的记忆。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -479,6 +492,8 @@ deck-config-compute-optimal-retention-tooltip =
     该工具假设您从 0 张卡片开始，并将尝试计算您在给定时间范围内能够保留记忆的材料量。
     预估的记忆保留率很大程度上取决于您的输入：如果它与 0.9 有显著差异，则表明您每天分配的时间对于您要学习的卡片数量来说太低或太高。
     该数字可用作参考，但不建议将其复制到期望记忆保留率字段中。
+deck-config-health-check-tooltip1 = 当 FSRS 难以适配您的记忆模式时将显示警告。
+deck-config-health-check-tooltip2 = 健康状况检查仅在「优化当前预设」时执行
 deck-config-compute-optimal-retention = 计算推荐的最小记忆保留率
 deck-config-predicted-optimal-retention = 预估最佳记忆保留率：{ $num }
 deck-config-weights-tooltip =
