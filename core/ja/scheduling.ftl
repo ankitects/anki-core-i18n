@@ -130,6 +130,7 @@ scheduling-set-due-date-done =
     { $cards ->
        *[other] { $cards }枚のカードの期日を設定しました。
     }
+scheduling-graded-cards-done = { $cards }枚のカードの評価を回答しました。
 scheduling-forgot-cards =
     { $cards ->
        *[other] { $cards }枚のカードを新規カードに戻しました。

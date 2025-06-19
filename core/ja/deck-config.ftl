@@ -346,6 +346,8 @@ deck-config-weights = FSRSパラメータ
 deck-config-compute-optimal-weights = FSRSパラメータ値を最適化
 deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
 deck-config-optimize-button = 最適化
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text }（低速）
 deck-config-compute-button = 推定
 deck-config-ignore-before = 指定日より前の復習を無視
 deck-config-time-to-optimize = しばらく最適化が行われていません。「すべてのプリセットで最適化して保存」ボタンを使用することをおすすめします。
@@ -472,11 +474,11 @@ deck-config-fsrs-bad-fit-warning =
     
     【推奨事項】
     - カードの復習を始める前に、そのカードの内容を理解（習得）する。（カードの内容を理解（習得）していないうちは、そのカードの復習を始めない。）
-    - 回答ボタンを選択する際は、一貫した基準にもとづいて選択する。
-    -「難しい」は、「正しい答えを思い出せたが、思い出すのが難しかった」場合に選択する。正しい答えを思い出せなかった場合には「難しい」ではなく「もう一度」を選択する。
+    - 回答ボタンを選択する際は、一貫した基準によって選択する。
+    - 回答「難しい」は、「正しい答えを思い出せたが、思い出すのが難しかった」場合に選択する。正しい答えを思い出せなかった場合には「難しい」ではなく「もう一度」を選択する。
     - 「leech」（苦戦、習得困難）タグの付いたカードは、より記憶しやすい内容に改善するか、休止する
     
-    上記の推奨事項を行うと、通常は数か月後には、より信頼性の高いFSRSパラメータを利用できます。
+    これらの推奨事項を行うと、通常は数か月後には、より信頼性の高いFSRSパラメータを利用できるようになります。
 # Message box showing the result of the health check
 deck-config-fsrs-good-fit =
     FSRSパラメータは、あなた個人の記憶の推移のために適切に調整されていると思われます。

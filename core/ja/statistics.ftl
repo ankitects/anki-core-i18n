@@ -110,7 +110,7 @@ statistics-card-ease-title = カードの易しさ
 statistics-card-difficulty-title = カードの難度
 statistics-card-stability-title = カードの安定度
 statistics-card-stability-subtitle = そのカードに正解できる確率が100％から90%に減少するまでの間隔の長さ
-statistics-average-stability = 安定度の平均
+statistics-median-stability = 安定度の中央値
 statistics-card-retrievability-title = カードの正答可能性
 statistics-card-ease-subtitle = 易しさが低いほど、カードが表示される頻度が高くなります。
 statistics-card-difficulty-subtitle2 = 難度が高いほど、安定度が上がりにくくなります
@@ -210,12 +210,20 @@ statistics-elapsed-time-years = { $amount }年
 ##
 
 statistics-average-for-days-studied = 学習した日での平均
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = 合計
 statistics-days-studied = 学習した日の割合
 statistics-average-answer-time-label = 平均回答時間
 statistics-average = 平均
-statistics-average-interval = 復習間隔の平均
+statistics-median-interval = 復習間隔の中央値
 statistics-due-tomorrow = 明日が期日
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = 現在の負荷
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }日 / { $total }日 ({ $percent }%)
@@ -232,11 +240,19 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count }枚 / 日
     }
-statistics-average-ease = 易しさの平均値
-statistics-average-difficulty = 難度の平均
+statistics-median-ease = 易しさの中央値
+statistics-median-difficulty = 難度の中央値
 statistics-average-retrievability = 正答可能性の平均
 statistics-estimated-total-knowledge = 現時点の知識量（推定値）
 statistics-save-pdf = PDFで保存
 statistics-saved = 保存しました。
 statistics-stats = 統計
 statistics-title = 統計
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = 安定度の平均
+statistics-average-interval = 復習間隔の平均
+statistics-average-ease = 易しさの平均値
+statistics-average-difficulty = 難度の平均

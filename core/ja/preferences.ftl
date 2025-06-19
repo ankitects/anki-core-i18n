@@ -85,6 +85,8 @@ preferences-third-party-description = サードパーティーサービスは、
 
 preferences-url-schemes = URLスキーム
 preferences-url-scheme-prompt = 許可するURLスキーム（複数入力する場合はスペースで区切る）
+preferences-url-scheme-allow-once = 今回だけ許可
+preferences-url-scheme-always-allow = 常に許可
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
