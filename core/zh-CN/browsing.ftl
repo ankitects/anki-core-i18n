@@ -23,6 +23,7 @@ browsing-cards-deleted-with-deckname = 已删除「{ $deck_name }」中的 { $co
 browsing-change-deck = 更改所属牌组
 browsing-change-deck2 = 更改所属牌组…
 browsing-change-note-type = 更改笔记模板
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = 更改笔记模板…
 browsing-change-notetype = 更改笔记模板
 browsing-clear-unused-tags = 删除未使用的标签
@@ -76,7 +77,7 @@ browsing-reposition-new-cards = 重排新卡片的位置
 browsing-reschedule = 重新排程
 browsing-search-bar-hint = 搜索卡片/笔记（输入文本，然后按回车键）
 browsing-search-in = 搜索位置：
-browsing-search-within-formatting-slow = 用格式搜索（速度较慢）
+browsing-search-within-formatting-slow = 用格式搜索（较慢）
 browsing-select-deck = 选择牌组
 browsing-selected-notes-only = 仅选中的笔记
 browsing-shift-position-of-existing-cards = 更改现有卡片的位置
