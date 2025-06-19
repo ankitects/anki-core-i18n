@@ -320,7 +320,7 @@ deck-config-minimum-interval-tooltip = Мінімальний початкови
 deck-config-custom-scheduling = Індивідуальне планування
 deck-config-custom-scheduling-tooltip = Впливає на всю колекцію. Використовуйте на свій страх і ризик!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Легкі дні
 deck-config-easy-days-monday = Понеділок
@@ -409,8 +409,9 @@ deck-config-must-have-400-reviews =
 deck-config-weights = Параметри ВПІП
 deck-config-compute-optimal-weights = Оптимізувати параметри ВПІП
 deck-config-compute-minimum-recommended-retention = Найменша рекомендована затримка
-deck-config-optimize-button = Оптимізувати
-deck-config-health-check = Перевіряти стан при оптимізації (повільно)
+deck-config-optimize-button = Оптимізувати поточну конфігурацію
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (повільно)
 deck-config-compute-button = Обчислити
 deck-config-ignore-before = Ігнорувати попередні пригадування
 deck-config-time-to-optimize = Це було так давно - варто натиснути кнопку "Оптимізувати усе".
@@ -500,18 +501,11 @@ deck-config-percent-of-reviews =
        *[many] { $pct }% з { $reviews } пригадувань
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Перевірка наявності вдосконалень…
 deck-config-optimizing-preset = Оптимізація { $current_count } з { $total_count } конфігурацій...
 deck-config-fsrs-must-be-enabled = Спершу слід увімкнути ВПІП.
 deck-config-fsrs-params-optimal = Схоже, що параметри ВПІП є оптимальними.
-deck-config-fsrs-bad-fit-warning =
-    ВПІП складно передбачити запам'ятовування. Поради:
-    
-    - Призупиніть або переформулюйте приставучі картки.
-    - Використовуйте кнопки відповідей відповідно. Пам'ятайте, що "Тяжко" це мірило успіху, а не невдачі.
-    - Зрозумійте перед тим, як запам'ятовувати.
-    
-    Використовуючи ці поради, Ви покращите продуктивність впродовж кількох наступних місяців.
-deck-config-fsrs-good-fit = ВПІП добре налаштовано до Вашого запам'ятовування.
 deck-config-fsrs-params-no-reviews = Пригадування не знайдено. Перевірте, що конфігурацію вказано для всіх колод які слід оптимізувати (з підколодами) і спробуйте ще раз.
 deck-config-wait-for-audio = Чекати кінця аудіо
 deck-config-show-reminder = Показати нагадування
@@ -536,6 +530,22 @@ deck-config-save-options-to-preset = Зберегти зміни до конфі
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Запам'ятовано
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = Перевіряти стан при оптимізації (повільно)
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    ВПІП складно передбачити запам'ятовування. Поради:
+    
+    - Призупиніть або переформулюйте приставучі картки.
+    - Використовуйте кнопки відповідей відповідно. Пам'ятайте, що "Тяжко" це мірило успіху, а не невдачі.
+    - Зрозумійте перед тим, як запам'ятовувати.
+    
+    Використовуючи ці поради, Ви покращите продуктивність впродовж кількох наступних місяців.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit = ВПІП добре налаштовано до Вашого запам'ятовування.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -576,6 +586,8 @@ deck-config-compute-optimal-retention-tooltip =
     його суттєва відмінність від 0,9, означатиме, що виділений Вами щоденний час на навчання, є або занадто малим
     або занадто великим для тієї кількості карток, які ви намагаєтеся вивчити. Цей параметр можна використовувати як 
     еталон, але не радимо встановлювати його як значення затримки.
+deck-config-health-check-tooltip1 = Показувати попередження якщо ВПІП має проблеми з налаштуванням пам'яті.
+deck-config-health-check-tooltip2 = Перевірка стану відбувається при використанні "Оптимізувати поточну конфігурацію"
 deck-config-compute-optimal-retention = Обчислити оптимальне запам'ятовування
 deck-config-predicted-optimal-retention = Прогнозоване оптимальне пригадування: { $num }
 deck-config-weights-tooltip =
