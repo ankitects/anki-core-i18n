@@ -346,7 +346,7 @@ deck-config-weights = FSRSパラメータ
 deck-config-compute-optimal-weights = FSRSパラメータ値を最適化
 deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
 deck-config-optimize-button = 最適化
-deck-config-health-check = 最適化を実行する際にパラメータの信頼性もチェック（低速）
+deck-config-health-check = 最適化を実行する際にFSRSパラメータの信頼性もチェック（低速）
 deck-config-compute-button = 推定
 deck-config-ignore-before = 指定日より前の復習を無視
 deck-config-time-to-optimize = しばらく最適化が行われていません。「すべてのプリセットで最適化して保存」ボタンを使用することをおすすめします。
@@ -426,6 +426,7 @@ deck-config-please-save-your-changes-first = 変更を先に保存してくだ�
 deck-config-workload-factor-change =
     変更後の学習負荷は、変更前（{ $previousDR }%）の場合の
     およそ{ $factor }倍となります
+deck-config-workload-factor-unchanged = この値が高いほど、復習間隔の伸び方がゆるやかになり、より頻繁にカードが表示されます。
 deck-config-desired-retention-too-low = 目標正答率が非常に低くなっています。復習間隔が極端に長くなってしまう可能性があります。
 deck-config-desired-retention-too-high = 目標正答率が非常に高くなっています。復習間隔が極端に短くなってしまう可能性があります。
 deck-config-percent-of-reviews =
@@ -436,7 +437,20 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = { $total_count }個中{ $current_count }個目のプリセットを最適化しています...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
 deck-config-fsrs-params-optimal = FSRSパラメータは、今のところ、このままの値が最適であると思われます。
-deck-config-fsrs-good-fit = FSRSパラメータは、回答履歴から見出されたあなたの記憶パターンに沿って適切に調整されていると思われます。
+deck-config-fsrs-bad-fit-warning =
+    FSRSは今のところ、あなた個人の記憶の今後の推移について、信頼性の高い予測を行うことが困難です。
+    （これまでの記憶の推移について、信頼性の高いデータが蓄積されていないと判断されるため。）
+    
+    【推奨事項】
+    - カードの復習を始める前に、そのカードの内容を理解（習得）する。（カードの内容を理解（習得）していないうちは、そのカードの復習を始めない。）
+    - 回答ボタンを選択する際は、一貫した基準にもとづいて選択する。
+    -「難しい」は、「正しい答えを思い出せたが、思い出すのが難しかった」場合に選択する。正しい答えを思い出せなかった場合には「難しい」ではなく「もう一度」を選択する。
+    - 「leech」（苦戦、習得困難）タグの付いたカードは、より記憶しやすい内容に改善するか、休止する
+    
+    上記の推奨事項を行うと、通常は数か月後には、より信頼性の高いFSRSパラメータを利用できます。
+deck-config-fsrs-good-fit =
+    FSRSパラメータは、あなた個人の記憶の推移のために適切に調整されていると思われます。
+    （これまでの記憶の推移について、信頼性の高いデータが蓄積されていると判断されるため。）
 deck-config-fsrs-params-no-reviews = 該当する復習が見つかりません。今回FSRSパラメータを最適化したいデッキ（サブデッキを含む）すべてがこのプリセットを使用していることを確認してから、操作をやり直してください。
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
