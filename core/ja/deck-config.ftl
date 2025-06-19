@@ -436,6 +436,7 @@ deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = { $total_count }個中{ $current_count }個目のプリセットを最適化しています...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
 deck-config-fsrs-params-optimal = FSRSパラメータは、今のところ、このままの値が最適であると思われます。
+deck-config-fsrs-good-fit = FSRSパラメータは、回答履歴から見出されたあなたの記憶パターンに沿って適切に調整されていると思われます。
 deck-config-fsrs-params-no-reviews = 該当する復習が見つかりません。今回FSRSパラメータを最適化したいデッキ（サブデッキを含む）すべてがこのプリセットを使用していることを確認してから、操作をやり直してください。
 deck-config-wait-for-audio = 音声再生終了を待つ
 deck-config-show-reminder = リマインダーを表示
