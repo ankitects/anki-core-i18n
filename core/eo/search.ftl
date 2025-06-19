@@ -5,8 +5,10 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = Malĝusta serĉpeto: { $reason }
-search-misplaced-and = trovis vorton `and`, sed ĝi ne ligas du serĉatajn vortojn. Se vi volas serĉi tiun ĉi vorton, entajpu ĝin inter simplaj citiloj: `"and"`.
-search-misplaced-or = trovis vorton `or`, sed ĝi ne ligas du serĉatajn vortojn. Se vi volas serĉi tiun ĉi vorton, entajpu ĝin inter simplaj citiloj: `"or"`.
+search-misplaced-and = trovis vorton `and`, sed ĝi ne ligas du serĉatajn vortojn. Se vi volas serĉi tiun ĉi vorton, enigu ĝin inter simplaj citiloj: `"and"`.
+search-misplaced-or = trovis vorton `or`, sed ĝi ne ligas du serĉatajn vortojn. Se vi volas serĉi tiun ĉi vorton, enigu ĝin inter simplaj citiloj: `"or"`.
+# Here, the ellipsis "..." may be localised.
+search-empty-group = trovis grupon `(…)`, sed estis nenio inter krampoj por serĉi. Se vi volas serĉi krampojn, enigu ilin inter simplaj citiloj: `"( )"`.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
