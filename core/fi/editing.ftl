@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Suorakulmio
 editing-image-occlusion-ellipse-tool = Soikio
 editing-image-occlusion-polygon-tool = Monikulmio
 editing-image-occlusion-text-tool = Teksti
+editing-image-occlusion-fill-tool = Täytä värillä
 editing-image-occlusion-toggle-mask-editor = Näytä/piilota maskien muokkausnäkymä
 editing-image-occlusion-reset = Nollaa kuvan peite
 editing-image-occlusion-confirm-reset = Haluatko varmasti nollata tämän kuvan peitteen?

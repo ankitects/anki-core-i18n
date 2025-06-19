@@ -254,7 +254,7 @@ deck-config-minimum-interval-tooltip = Kertausvälin vähimmäispituus, kun käy
 deck-config-custom-scheduling = Mukautettu aikataulutus
 deck-config-custom-scheduling-tooltip = Vaikuttaa koko kokoelmaan. Käytä omalla vastuulla!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Helpot päivät
 deck-config-easy-days-monday = Maanantai
@@ -338,6 +338,8 @@ deck-config-weights = Mallin painokertoimet
 deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
 deck-config-compute-minimum-recommended-retention = Pienin suositeltu retentio
 deck-config-optimize-button = Optimoi
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (hidas)
 deck-config-compute-button = Laske
 deck-config-ignore-before = Älä huomioi kertauksia, jotka tapahtuivat ennen
 deck-config-time-to-optimize = Viime kerrasta on jo aikaa - on suositeltavaa käyttää Optimoi kaikki esiasetukset -painiketta.
@@ -376,17 +378,20 @@ deck-config-compute-optimal-retention-tooltip4 =
     Tämä työkalu yrittää löytää sopivan retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa.
     Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota tätä arvoa alhaisemmaksi, koska se tekee unohtamisesta todennäköisempää ja näin ollen lisää työmäärää.
 deck-config-please-save-your-changes-first = Tallenna muutoksesi ennen tämän toiminnon suorittamista.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
-       *[other] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
-    }
+deck-config-workload-factor-change =
+    Arvioitu työmäärä: { $factor }x
+    (verrattuna { $previousDR } % toivottuun retentioon)
+deck-config-workload-factor-unchanged = Mitä korkeampi tämä arvo on, sitä useammin kortit näytetään.
+deck-config-desired-retention-too-low = Toivottu retentiosi on hyvin matala, mikä voi johtaa erittäin pitkiin kertausväleihin.
+deck-config-desired-retention-too-high = Toivottu retentiosi on hyvin ,korkea mikä voi johtaa erittäin lyhyisiin kertausväleihin.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct } % { $reviews } kertauksesta
        *[other] { $pct } % { $reviews } kertauksesta
     }
 deck-config-percent-input = { $pct } %
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Etsitään parannettavaa...
 deck-config-optimizing-preset = Optimoidaan esiasetuksia { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS on otettava käyttöön ensin.
 deck-config-fsrs-params-optimal = FSRS:n painokertoimet vaikuttavat tällä hetkellä optimaalisilta.
@@ -415,8 +420,32 @@ deck-config-save-options-to-preset = Tallenna muutokset esiasetuksiin
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Opittu ulkoa
 
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = Suorita kuntotarkistus optimoinnin yhteydessä
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Kuntotarkastus:
+    FSRS:n on vaikea ennustaa muistiasi. Suosituksia:
+    
+    - Hyllytä tai muotoile resurssisyöpöt kortit uudelleen.
+    - Käytä vastauspainikkeita johdonmukaisesti. Pidä mielessä, että ”Vaikea” on hyväksytty arvosana, ei hylätty.
+    - Ymmärrä ennen kuin opettelet ulkoa.
+    
+    Jos noudatat näitä suosituksia, suorituskyky paranee yleensä seuraavien kuukausien aikana.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Kuntotarkistus:
+    FSRS mukautuu muistisi toimintaan hyvin.
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
+       *[other] 100 päivän kertausvälistä tulee { $days } päivän mittainen.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Kertausaika / päivä
 deck-config-fsrs-simulator-y-axis-title-count = Kertausmäärä / päivä
 deck-config-fsrs-simulator-y-axis-title-memorized = Ulkoa opittu yhteensä
@@ -436,6 +465,8 @@ deck-config-ignore-before-tooltip =
     Jos tämä asetus on käytössä, ennen annettua päivämäärää tehdyt kertaukset jätetään huomiotta FSRS:n painokertoimien optimoinnissa ja arvioinnissa.
     Tämä voi olla hyödyllistä, jos olet tuonut jonkun muun aikataulutiedot tai muuttanut tapaa, jolla käytät vastauspainikkeita.
 deck-config-compute-optimal-retention-tooltip = Tämä työkalu olettaa, että aloitat 0 kortista, ja yrittää laskea, kuinka paljon materiaalia pystyt säilyttämään muistissasi annetussa ajassa (retentio). Arvioitu retentio riippuu huomattavasti syöttötiedoistasi, ja jos se poikkeaa merkittävästi 0,9:stä, se on merkki siitä, että kullekin päivälle varattu aika on joko liian pieni tai liian suuri siihen korttimäärään nähden, jonka yrität oppia. Tämä luku voi olla hyödyllinen viitteenä, mutta sitä ei suositella kopioitavaksi Toivottu retentio -kenttään.
+deck-config-health-check-tooltip1 = Tässä näytetään varoitus jos FSRS:llä on ongelmia mukautua muistisi mukaan.
+deck-config-health-check-tooltip2 = Kuntotarkistus suoritetaan vain, kun nykyistä esiasetusta varten optimointi on käytössä.
 deck-config-compute-optimal-retention = Laske optimaalinen retentio
 deck-config-predicted-optimal-retention = Ennustettu optimaalinen retentio: { $num }
 deck-config-weights-tooltip = Mallin painokertoimet vaikuttavat korttien aikataulutukseen. Kun kertauksia on yli 1000, voit optimoida painokertoimet alapuolella.
