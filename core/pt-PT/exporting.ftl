@@ -11,17 +11,22 @@ exporting-export-format = <b>Formato a exportar</b>:
 exporting-include = <b>Incluir</b>:
 exporting-include-media = Incluir média
 exporting-include-scheduling-information = Incluir informações de agendamento
+exporting-include-deck-configs = Incluir os modelos dos baralhos
 exporting-include-tags = Incluir etiquetas
 exporting-notes-in-plain-text = Notas em Texto Puro
-exporting-card-exported = { $count ->
-    [one] { $count } ficha exportada.
-   *[other] { $count } fichas exportadas.
-  }
-exporting-exported-media-file = { $count ->
-    [one] { $count } ficheiro de média exportado
-   *[other] { $count } ficheiros de média exportados
-  }
-exporting-note-exported = { $count ->
-    [one] { $count } nota exportada.
-   *[other] { $count } notas exportadas.
-  }
+exporting-card-exported =
+    { $count ->
+        [one] { $count } ficha exportada.
+       *[other] { $count } fichas exportadas.
+    }
+exporting-exported-media-file =
+    { $count ->
+        [one] { $count } ficheiro de média exportado
+       *[other] { $count } ficheiros de média exportados
+    }
+exporting-note-exported =
+    { $count ->
+        [one] { $count } nota exportada.
+       *[other] { $count } notas exportadas.
+    }
+exporting-include-deck = Incluir o nome do baralho

@@ -208,9 +208,9 @@ deck-config-sort-order-ascending-difficulty = Fichas fáceis primeiro
 # Sort the cards by difficulty, in descending order (hardest to easiest).
 deck-config-sort-order-descending-difficulty = Fichas difíceis primeiro
 # Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
-deck-config-sort-order-retrievability-ascending = Aumentando a facilidade de recolha
+deck-config-sort-order-retrievability-ascending = Facilidade em relembrar ascendente
 # Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
-deck-config-sort-order-retrievability-descending = Diminuindo a facilidade de recolha
+deck-config-sort-order-retrievability-descending = Facilidade em relembrar descendente
 
 ## Timer section
 
@@ -268,18 +268,36 @@ deck-config-interval-modifier-tooltip =
     que o Anki seja mais conservador ou mais agressivo no seu planeamento. Por favor
     consulte o manual antes de alterar esta opção.
 
-# Easy Days section
+## Easy Days section.
 
+deck-config-easy-days-title = Dias Fáceis
+deck-config-easy-days-monday = Seg
+deck-config-easy-days-tuesday = Ter
+deck-config-easy-days-wednesday = Qua
+deck-config-easy-days-thursday = Qui
+deck-config-easy-days-friday = Sex
+deck-config-easy-days-saturday = Sáb
+deck-config-easy-days-sunday = Dom
+deck-config-easy-days-reduced = Reduzido
+deck-config-easy-days-minimum = Mínimo
+deck-config-easy-days-no-normal-days = Deve configurar pelo menos um dia como '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Revisões existentes não serão reagendadas a não ser que a opção '{ deck-config-reschedule-cards-on-change }' esteja activa nas opções de FSRS.
 
 ## Adding/renaming
 
+deck-config-add-group = Adicionar modelo
+deck-config-rename-group = Renomear modelo
+deck-config-clone-group = Clonar modelo
 
 ## Removing
 
+deck-config-remove-group = Remover modelo
 
 ## Other Buttons
 
 deck-config-save-button = Guardar
+deck-config-save-to-all-subdecks = Atribuir a todos os sub-baralhos
+deck-config-save-and-optimize = Optimizar todos os modelos
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -287,6 +305,7 @@ deck-config-save-button = Guardar
 
 ## Warnings shown to the user
 
+deck-config-relearning-steps-above-minimum-interval = O intervalo mínimo deve ser pelo menos tão longo quanto a sua última etapa de reaprendizagem.
 
 ## Selecting a deck
 
@@ -294,6 +313,12 @@ deck-config-which-deck = Pretende apresentar as definições para que baralho?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-optimize-button = Optimizar o modelo actual
+deck-config-time-to-optimize = Já há algum tempo que aqui não vinha - é recomendado utilizar o botão "Optimizar todos os modelos".
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-optimize-all-tip = Pode optimizar todos os modelos duma só vez utilizando o botão com a seta para baixo ao lado de "Guardar".

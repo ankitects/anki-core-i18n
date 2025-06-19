@@ -107,6 +107,7 @@ statistics-counts-suspended-cards = Suspenso
 statistics-counts-buried-cards = Ocultas
 statistics-counts-filtered-cards = Filtradas
 statistics-counts-learning-cards = Aprendizagem
+statistics-counts-relearning-cards = Reaprendizagem
 statistics-counts-title = Congagem de Fichas
 statistics-counts-separate-suspended-buried-cards = Separar fichas suspensas das adiadas
 
@@ -153,6 +154,20 @@ statistics-range-search = Procurar
 statistics-card-ease-title = Facilidade da Ficha
 statistics-card-difficulty-title = Dificuldade da Ficha
 statistics-card-stability-title = Estabilidade da Ficha
+statistics-card-stability-subtitle = O tempo até que a sua capacidade de se relembrar desce até aos 90%.
+statistics-card-retrievability-title = Facilidade em Relembrar da Ficha
+statistics-card-difficulty-subtitle2 = Quanto mais alta for a dificuldade, mais lentamente aumenta a estabilidade.
+statistics-retrievability-subtitle = A probabilidade de se lembrar duma ficha, hoje.
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } ficha com { $percent } de dificuldade
+       *[other] { $cards } fichas com { $percent } de dificuldade
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } ficha com { $percent } de facilidade em relembrar
+       *[other] { $cards } fichas com { $percent } de facilidade em relembrar
+    }
 statistics-future-due-title = Previsão
 statistics-future-due-subtitle = Quantas revisões agendadas para o futuro.
 statistics-added-title = Adicionado
@@ -183,6 +198,16 @@ statistics-cards-due =
     }
 statistics-intervals-title = Intervalos
 statistics-intervals-subtitle = Intervalos entre as revisões.
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } ficha com uma estabilidade entre { $daysStart }~{ $daysEnd } dias(s) de estabilidade
+       *[other] { $cards } fichas com uma estabilidade entre { $daysStart }~{ $daysEnd } dias(s) de estabilidade
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } ficha com { $day } dias(s) de estabilidade
+       *[other] { $cards } fichas com { $day } dias(s) de estabilidade
+    }
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } revisões
 # the emoji depicts the graph displaying this number
@@ -207,12 +232,19 @@ statistics-elapsed-time-years = { $amount } ano(s)
 ##
 
 statistics-average-for-days-studied = Média dos dias estudados
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Total
 statistics-days-studied = Dias estudados
 statistics-average-answer-time-label = Tempo médio de resposta
 statistics-average = Média
-statistics-average-interval = Intervalo médio
 statistics-due-tomorrow = A rever amanhã
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Carga diária
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
@@ -232,8 +264,13 @@ statistics-cards-per-day =
         [one] { $count } ficha/dia
        *[other] { $count } fichas/dia
     }
-statistics-average-ease = Dificuldade média
-statistics-average-difficulty = Dificuldade média
 statistics-save-pdf = Guardar PDF
 statistics-saved = Guardado.
 statistics-stats = estatísticas
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-interval = Intervalo médio
+statistics-average-ease = Dificuldade média
+statistics-average-difficulty = Dificuldade média
