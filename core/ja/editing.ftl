@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = 矩形マスク
 editing-image-occlusion-ellipse-tool = 楕円形マスク
 editing-image-occlusion-polygon-tool = 多角形マスク
 editing-image-occlusion-text-tool = 文字
+editing-image-occlusion-fill-tool = 選択した色でマスクを塗りつぶし
 editing-image-occlusion-toggle-mask-editor = マスクエディタを表示
 editing-image-occlusion-reset = この画像穴埋め問題をリセット
 editing-image-occlusion-confirm-reset = 画像を選択する前の初期状態（画像選択用の画面）にリセットします。現在の画像上に追加したマスクや文字だけでなく、その画像自体を表示しなくなります。本当によろしいですか？
