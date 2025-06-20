@@ -85,6 +85,10 @@ preferences-third-party-description = サードパーティーサービスは、
 
 preferences-url-schemes = URLスキーム
 preferences-url-scheme-prompt = 許可するURLスキーム（複数入力する場合はスペースで区切る）
+preferences-url-scheme-warning =
+    `{ $link }` を開こうとする動作をブロックしました。この動作はセキュリティ上の問題となる可能性があります。
+    
+    デッキの作成者を信頼し、この動作を許可したい場合は、[許可するURLスキーム] に `{ $scheme }` を追加してください。（[ツール]→[設定]→[学習]→[学習]→[URLスキーム...]→[許可するURLスキーム] ）
 preferences-url-scheme-allow-once = 今回だけ許可
 preferences-url-scheme-always-allow = 常に許可
 
