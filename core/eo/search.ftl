@@ -35,3 +35,5 @@ search-card-modified = Modifis karton
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = Montri en foliumilo
