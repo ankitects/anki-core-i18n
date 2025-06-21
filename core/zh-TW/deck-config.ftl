@@ -372,7 +372,7 @@ deck-config-fsrs-simulator-radio-memorized = 記憶
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 # Checkbox
-deck-config-health-check = 最佳化時檢查健康情況（較慢）
+deck-config-health-check = 最佳化時檢查健康情況
 # Message box showing the result of the health check
 deck-config-fsrs-bad-fit-warning =
     健康檢查：FSRS 難以根據你的記憶情況進行預測。請嘗試：
@@ -412,6 +412,8 @@ deck-config-answer-action-tooltip = 自動前進到下一張卡片之前要為�
 deck-config-wait-for-audio-tooltip = 等待音訊播放結束後再自動顯示答案或前進到下一道問題。
 deck-config-ignore-before-tooltip = 設定後，最佳化及評估 FSRS 參數時將無視在所選日期前做出的複習。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
 deck-config-compute-optimal-retention-tooltip = 這個工具將假設你一開始有 0 張卡片，並將嘗試計算在給出的時間範圍內，你所記內容能夠留存的數量。你的輸入值將對預估的留存機率產生很大的影響，因此如果預估留存機率與 0.9 相差較大，可能是因為相對於你要學習的卡片的數量，你過多/過少分配了每天的時間。此數值可供參考，但不建議複製到「期望留存機率」欄位中。
+deck-config-health-check-tooltip1 = 當 FSRS 難以根據你的記憶情況進行調整時，將顯示警告。
+deck-config-health-check-tooltip2 = 僅當使用「最佳化當前預設組」時才會檢查健康情況。
 deck-config-compute-optimal-retention = 計算留存機率推薦最小值
 deck-config-predicted-optimal-retention = 留存機率推薦最小值：{ $num }
 deck-config-weights-tooltip = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。當複習超過 1000 次以後，你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的表現。

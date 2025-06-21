@@ -77,7 +77,7 @@ preferences-reset-window-sizes-complete = 已重設視窗大小及位置。
 preferences-shortcut-placeholder = 輸入一個未使用的快速鍵，或留空以停用。
 preferences-third-party-services = 第三方服務
 preferences-ankihub-not-logged-in = 未登入 AnkiHub。
-preferences-ankiweb-intro = AnkiWeb 是一項免費服務，可以把你的卡片資料同步到所有裝置上，裝置損毀或遺失了也不用擔心資料遺失。
+preferences-ankiweb-intro = 你可以使用 AnkiWeb 來跨裝置同步卡片，裝置損毀或遺失時也可以輕鬆還原資料。使用 AnkiWeb 無需付費。
 preferences-ankihub-intro = AnkiHub 可以合作編輯牌組，並提供其他學習工具。部分功能需付費訂閱。
 preferences-third-party-description = Anki 與第三方服務無合作關係，不予擔保。使用這些服務可能需要付費。
 
