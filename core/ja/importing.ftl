@@ -18,6 +18,7 @@ importing-colon = コロン ( : )
 importing-comma = コンマ ( , )
 importing-empty-first-field = 最初のフィールドが空白：{ $val }
 importing-field-separator = フィールドの区切り
+importing-field-separator-guessed = フィールドの区切り
 importing-field-mapping = フィールドの割り当て
 importing-field-of-file-is = ファイルの<b>{ $val }</b>番目のフィールドは：
 importing-fields-separated-by = フィールドの区切り: { $val }
@@ -188,9 +189,12 @@ importing-note-skipped-due-to-missing-notetype = このノートのインポー�
 importing-note-skipped-due-to-missing-deck = このノートのインポートをスキップしました（デッキが不明なため）
 importing-note-skipped-due-to-empty-first-field = このノートのインポートをスキップしました（最初のフィールドが空のため）
 importing-field-separator-help =
-    テキストファイル内で各フィールドを区切っている文字。プレビューを使用して、フィールドが正しく区切られているかどうかを確認できます。
+    テキストファイル内で各フィールドを区切っている文字。フィールドが正しく区切られているかどうかは、このオプションの下方に表示されるプレビューで確認できます。
     
     この文字自体をフィールド内に表示したい場合、そのフィールドをCSVの一般的な書式に従って引用符で囲む必要があることに注意してください。LibreOfficeのような表計算ソフトは自動的にこれを行います。
+    
+    テキストファイルのファイルヘッダーによって特定の区切り文字の使用が強制されている場合は、変更できません。
+    一方、テキストファイルにファイルヘッダーがない場合は、Ankiはそのテキストの内容から区切り文字を推測し、選択します。プレビューを確認して、その選択が誤っていると思われる場合は、適切な別の区切り文字を選択してください。
 importing-allow-html-in-fields-help =
     ファイルにHTMLの書式が含まれている場合は、このオプションをオンにしてください。
     
