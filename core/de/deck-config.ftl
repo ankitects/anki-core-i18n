@@ -217,7 +217,7 @@ deck-config-minimum-interval-tooltip = Gibt die Mindestanzahl an Tagen für das 
 deck-config-custom-scheduling = Benutzerdefinierte Zeitplanung
 deck-config-custom-scheduling-tooltip = Wirkt sich auf die gesamte Sammlung aus. Nutzung auf eigene Gefahr!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Tage mit weniger Wiederholungen
 deck-config-easy-days-monday = Mo.
@@ -298,7 +298,8 @@ deck-config-weights = FSRS-Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS-Parametern
 deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote
 deck-config-optimize-button = Dieses Stapelprofil optimieren
-deck-config-health-check = Beim Optimieren zusätzlich prüfen, ob sich FSRS gut an Ihr Gedächtnis angepasst hat (langsam)
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (langsam)
 deck-config-compute-button = Berechnen
 deck-config-ignore-before = Wiederholungen vor diesem Datum ignorieren
 deck-config-time-to-optimize = Die letzte Optimierung ist eine Weile her – es wird empfohlen, den Knopf „Alle Stapelprofile optimieren“ zu verwenden.
@@ -366,18 +367,11 @@ deck-config-percent-of-reviews =
        *[other] { $pct }% von { $reviews } Wiederholungen
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Optimieren …
 deck-config-optimizing-preset = Optimiere Stapelprofil { $current_count }/{ $total_count } …
 deck-config-fsrs-must-be-enabled = FSRS muss zunächst aktiviert werden.
 deck-config-fsrs-params-optimal = Die FSRS-Parameter sind bereits optimal.
-deck-config-fsrs-bad-fit-warning =
-    FSRS hat Schwierigkeiten, sich an Ihr Gedächtnis anzupassen. Empfehlungen:
-    
-    - Formulieren Sie Lernbremsen um oder schließen Sie sie aus.
-    - Nutzen Sie die Antworttasten stets auf die gleiche Weise. Denken Sie daran: Nur „Nochmal“ gilt als Fehlversuch – „Schwer“, „Gut“ und „Einfach“ gelten alle als bestanden.
-    - Wiederholen Sie Inhalte erst mit Anki, nachdem Sie sie verstanden haben.
-    
-    Wenn Sie diese Empfehlungen umsetzen, wird sich FSRS im Laufe der nächsten Monate besser an Ihr Gedächtnis anpassen.
-deck-config-fsrs-good-fit = FSRS hat sich gut an Ihr Gedächtnis angepasst.
 deck-config-fsrs-params-no-reviews = Keine Wiederholungen gefunden. Bitte prüfen Sie, ob dieses Stapelprofil allen Stapeln und Unterstapeln zugewiesen ist, die Sie optimieren möchten und versuchen Sie es anschließend erneut.
 deck-config-wait-for-audio = Auf Audio warten
 deck-config-show-reminder = Erinnerung anzeigen
@@ -402,6 +396,22 @@ deck-config-save-options-to-preset = Änderungen ins Stapelprofil übertragen
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Abrufbare Karten
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = Beim Optimieren zusätzlich prüfen, ob sich FSRS gut an Ihr Gedächtnis angepasst hat (langsam)
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    FSRS hat Schwierigkeiten, sich an Ihr Gedächtnis anzupassen. Empfehlungen:
+    
+    - Formulieren Sie Lernbremsen um oder schließen Sie sie aus.
+    - Nutzen Sie die Antworttasten stets auf die gleiche Weise. Denken Sie daran: Nur „Nochmal“ gilt als Fehlversuch – „Schwer“, „Gut“ und „Einfach“ gelten alle als bestanden.
+    - Wiederholen Sie Inhalte erst mit Anki, nachdem Sie sie verstanden haben.
+    
+    Wenn Sie diese Empfehlungen umsetzen, wird sich FSRS im Laufe der nächsten Monate besser an Ihr Gedächtnis anpassen.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit = FSRS hat sich gut an Ihr Gedächtnis angepasst.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
