@@ -121,7 +121,7 @@ deck-config-bury-new-tooltip =
     ידחו ליום הבא.
 deck-config-bury-review-tooltip = האם כרטיסים אחרים במצב `חזרה` מאותה רשומה ידחו ליום הבא.
 deck-config-bury-interday-learning-tooltip =
-    האם כרטיסים אחרים במצב `למידה` מאותה רשומה עם מרווחים של יותר מ 1 יום
+    האם כרטיסים אחרים במצב `למידה` מאותה רשומה עם מרווחים של יותר מיום אחד
     ידחו ליום הבא.
 deck-config-bury-priority-tooltip =
     כאשר הכרטיסים מסודרים לחזרה, הראשונים בסדר העדיפויות הם כרטיסי 
@@ -129,10 +129,10 @@ deck-config-bury-priority-tooltip =
     כרטיסים חדשים. זה משפיע על איך עובדת ההטמנה:
     
     - אם כל אפשרויות ההטמנה מופעלות, האח שמגיע הכי מוקדם מרשימה זו יוצג.
-    לדוגמה, כרטיס חזרה יוצג בהעדפה לכרטיס חדש.
+    לדוגמה, תהיה עדיפות בסדר ההטמנה לכרטיס חזרה על פני כרטיס אח חדש (שיוטמן).
     - אחים בהמשך הרשימה לא יכולים להטמין סוגי כרטיסים מוקדמים יותר. לדוגמה, 
     אם הושבתה הטמנת הכרטיסים החדשים וכעת נלמד כרטיס חדש, זה לא יטמין שום
-    כרטיסי למידה או סקירה, וייתכן שתראה גם אח חזרה וגם אח חדש באותה חזרה.
+    כרטיסי למידה או חזרה, וייתכן שתראה גם אח חזרה וגם אח חדש באותה חזרה.
 
 ## Gather order and sort order of cards
 
@@ -294,7 +294,7 @@ deck-config-minimum-interval-tooltip = מרווח הזמן המינימלי המ
 deck-config-custom-scheduling = תזמון בהתאמה אישית
 deck-config-custom-scheduling-tooltip = משפיע על כל האוסף. השתמש באחריותך בלבד!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = ימים קלים
 deck-config-easy-days-monday = יום שני
@@ -382,7 +382,8 @@ deck-config-weights = משקלי מודל
 deck-config-compute-optimal-weights = בצע אופטימיזציה של משקלי FSRS
 deck-config-compute-minimum-recommended-retention = שמירה מינימלית מומלצת
 deck-config-optimize-button = בצע אופטימיזציה
-deck-config-health-check = בדוק תקינות בעת אופטימיזציה (איטי)
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (איטי)
 deck-config-compute-button = חשב
 deck-config-ignore-before = התעלם מחזרות לפני
 deck-config-time-to-optimize = עבר זמן מה - מומלץ להשתמש בכפתור אופטימיזציה של הכל.
@@ -448,18 +449,11 @@ deck-config-percent-of-reviews =
        *[other] { $pct }% מתוך { $reviews } חזרות
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = בודק אם יש שיפור...
 deck-config-optimizing-preset = שפר הגדרות מראש { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = תחילה יש להפעיל את FSRS.
 deck-config-fsrs-params-optimal = נראה כי פרמטרי FSRS כרגע הם אופטימליים.
-deck-config-fsrs-bad-fit-warning =
-    קשה ל-FSRS לחזות את הזיכרון שלך. המלצות:
-    
-    - להשעות או לנסח מחדש כרטיסי עלוקה.
-    - השתמשו בכפתורי התשובה באופן עקבי. זכרו ש"קשה" הוא ציון עובר, לא ציון נכשל.
-    - להבין לפני שאתה משנן.
-    
-    מעקב אחר ההצעות האלה, ישפר בדרך כלל את הביצועים במהלך החודשים הקרובים.
-deck-config-fsrs-good-fit = FSRS מותאם היטב לזיכרון שלך.
 deck-config-fsrs-params-no-reviews = לא נמצאו חזרות. אנא בדוק שהגדרה מראש זו מוקצית לכל החפיסות שברצונך לבצע אופטימיזציה (כולל חפיסות משנה) ונסה שוב.
 deck-config-wait-for-audio = המתן לשמע
 deck-config-show-reminder = הצג תזכורת
@@ -484,6 +478,22 @@ deck-config-save-options-to-preset = שמור שינויים בקבוצת הגד
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = ניתן לשינון
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = בדוק תקינות בעת אופטימיזציה (איטי)
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    קשה ל-FSRS לחזות את הזיכרון שלך. המלצות:
+    
+    - להשעות או לנסח מחדש כרטיסי עלוקה.
+    - השתמשו בכפתורי התשובה באופן עקבי. זכרו ש"קשה" הוא ציון עובר, לא ציון נכשל.
+    - להבין לפני שאתה משנן.
+    
+    מעקב אחר ההצעות האלה, ישפר בדרך כלל את הביצועים במהלך החודשים הקרובים.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit = FSRS מותאם היטב לזיכרון שלך.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -523,6 +533,8 @@ deck-config-compute-optimal-retention-tooltip =
     ואם זה שונה משמעותית מ-0.9, זה סימן שהזמן שהקצבת בכל יום נמוך מדי
     או גבוה מדי עבור כמות הקלפים שאתה מנסה ללמוד. מספר זה יכול להיות שימושי כהפניה, אבל הוא
     לא מומלץ להעתיק אותו לשדה השמירה הרצוי.
+deck-config-health-check-tooltip1 = פעולה זו תציג אזהרה אם FSRS מתקשה להסתגל לזיכרון שלך.
+deck-config-health-check-tooltip2 = בדיקת תקינות מתבצעת רק בעת שימוש באפשרות אופטימיזציה של הגדרה נוכחית.
 deck-config-compute-optimal-retention = חישוב יכולת זכירה אופטימלית
 deck-config-predicted-optimal-retention = תחלופה מיטבית חזויה: { $num }
 deck-config-weights-tooltip =
