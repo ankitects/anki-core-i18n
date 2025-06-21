@@ -284,7 +284,7 @@ deck-config-minimum-interval-tooltip = O intervalo mínimo dado a um cartão de 
 deck-config-custom-scheduling = Agendamento personalizado
 deck-config-custom-scheduling-tooltip = Afeta toda a coleção. Use por conta e risco!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Dias de Descanso
 deck-config-easy-days-monday = Segunda
@@ -371,7 +371,8 @@ deck-config-weights = Parâmetros do modelo
 deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
 deck-config-compute-minimum-recommended-retention = Retenção mínima recomendada
 deck-config-optimize-button = Otimizar
-deck-config-health-check = Verificar integridade ao otimizar (lento)
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (lento)
 deck-config-compute-button = Calcular
 deck-config-ignore-before = Ignorar revisões antes de
 deck-config-time-to-optimize = Já faz um tempo- é recomendado usar o botão Otimizar Tudo.
@@ -456,18 +457,11 @@ deck-config-percent-of-reviews =
        *[other] { $pct }% de { $reviews } avaliações
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Verificando melhorias...
 deck-config-optimizing-preset = Otimizando predefinição { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS deve ser ativado primeiro.
 deck-config-fsrs-params-optimal = Os parâmetros do FSRS parecem estar otimizados no momento.
-deck-config-fsrs-bad-fit-warning =
-    Sua memória é difícil de prever para o FSRS. Recomendações:
-    
-    Suspenda ou reformule cartões sanguessugas.
-    Use os botões de resposta de forma consistente. Lembre-se de que "Difícil" é uma nota de aprovação, não de reprovação.
-    Entenda antes de memorizar.
-    
-    Se você seguir essas sugestões, o desempenho geralmente melhorará nos próximos meses.
-deck-config-fsrs-good-fit = O FSRS está bem ajustado à sua memória.
 deck-config-fsrs-params-no-reviews = Nenhuma revisão encontrada. Por favor, verifique que essa predefinição está atribuída a todos baralhos que você gostaria de otimizar (incluindo sub-baralhos) e tente novamente.
 deck-config-wait-for-audio = Esperando pelo Áudio
 deck-config-show-reminder = Mostrar lembrete
@@ -492,6 +486,22 @@ deck-config-save-options-to-preset = Salvar Mudanças na Predefinição
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorizado
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = Verificar integridade ao otimizar (lento)
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Sua memória é difícil de prever para o FSRS. Recomendações:
+    
+    Suspenda ou reformule cartões sanguessugas.
+    Use os botões de resposta de forma consistente. Lembre-se de que "Difícil" é uma nota de aprovação, não de reprovação.
+    Entenda antes de memorizar.
+    
+    Se você seguir essas sugestões, o desempenho geralmente melhorará nos próximos meses.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit = O FSRS está bem ajustado à sua memória.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -531,6 +541,8 @@ deck-config-compute-optimal-retention-tooltip =
     se diferir significativamente de 0,9, é um sinal de que o tempo que você alocou cada dia é ou muito baixo
     ou muito alto para a quantidade de cartões que você está tentando aprender. Este número pode ser útil como referência, mas é
     não recomendado copiá-lo para o campo de retenção desejado.
+deck-config-health-check-tooltip1 = Isso exibirá um aviso se o FSRS tiver dificuldade em se adaptar à sua memória.
+deck-config-health-check-tooltip2 = A verificação de integridade é realizada apenas ao usar Otimizar Predefinição Atual.
 deck-config-compute-optimal-retention = Calcular retenção ótima
 deck-config-predicted-optimal-retention = Retenção ótima prevista: { $num }
 deck-config-weights-tooltip =
