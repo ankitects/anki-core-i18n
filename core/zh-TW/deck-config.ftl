@@ -207,7 +207,7 @@ deck-config-minimum-interval-tooltip = 複習卡回答 `重来` 後的最小間�
 deck-config-custom-scheduling = 自訂排程
 deck-config-custom-scheduling-tooltip = 影響整個集合。請謹慎使用！
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = 放鬆日
 deck-config-easy-days-monday = 星期一
@@ -282,7 +282,8 @@ deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
 deck-config-compute-minimum-recommended-retention = 留存機率推薦最小值
 deck-config-optimize-button = 最佳化當前預設組
-deck-config-health-check = 最佳化時檢查健康情況（較慢）
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text }（較慢）
 deck-config-compute-button = 計算
 deck-config-ignore-before = 複習歷程起始時間
 deck-config-time-to-optimize = 已長期未最佳化，建議使用「最佳化所有預設組」按鈕。
@@ -338,18 +339,11 @@ deck-config-percent-of-reviews =
        *[other] 進度：{ $pct }%，共 { $reviews } 次複習
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = 正在檢查改善情況...
 deck-config-optimizing-preset = 正在最佳化預設組 { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = 必須先啟用 FSRS。
 deck-config-fsrs-params-optimal = 當前 FSRS 參數已為最佳。
-deck-config-fsrs-bad-fit-warning =
-    FSRS 難以根據你的記憶情況進行預測。請嘗試：
-    
-    - 擱置或重寫低效卡。
-    - 不頻繁改變回答按鈕的用法。注意：回答「困難」表示答題正確，請勿在答題失敗時按下。
-    - 理解內容後再記憶。
-    
-    做到這些建議之後，一般在幾個月內就能改善表現。
-deck-config-fsrs-good-fit = 已根據你的記憶情況調整 FSRS。
 deck-config-fsrs-params-no-reviews = 找不到複習記錄。請確保所有需要最佳化的牌組（含子牌組）都正在使用此預設組，然後再試一次。
 deck-config-wait-for-audio = 等待音訊播放
 deck-config-show-reminder = 顯示提醒
@@ -374,6 +368,24 @@ deck-config-save-options-to-preset = 儲存更動到預設組
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = 記憶
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = 最佳化時檢查健康情況（較慢）
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    健康檢查：FSRS 難以根據你的記憶情況進行預測。請嘗試：
+    
+    - 擱置或重寫低效卡。
+    - 不頻繁改變回答按鈕的用法。注意：回答「困難」表示答題正確，請勿在答題失敗時按下。
+    - 理解內容後再記憶。
+    
+    做到這些建議之後，一般在幾個月內就能有所改善。
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    健康檢查：
+    FSRS 可以根據你的記憶情況進行調整。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
