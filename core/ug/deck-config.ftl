@@ -213,7 +213,7 @@ deck-config-minimum-interval-tooltip = تەكرارلايدىغان كارتىغ
 deck-config-custom-scheduling = ئىختىيارى كۈنتەرتىپ
 deck-config-custom-scheduling-tooltip = پۈتكۈل توپلامغا تەسىر كۆرسىتىدۇ، ئىشلىتىشتە ئېھتىيات قىلىڭ!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = ھەر كۈنى
 deck-config-easy-days-monday = دۈشەنبە
@@ -294,7 +294,8 @@ deck-config-weights = FSRS پارامېتىر
 deck-config-compute-optimal-weights = FSRS پارامېتىرنى ئەلالاشتۇرۇش
 deck-config-compute-minimum-recommended-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى
 deck-config-optimize-button = ئەلالاشتۇر
-deck-config-health-check = ئەلالاشتۇرغاندا ساغلاملىق ئەھۋالىنى تەكشۈرىدۇ (ئاستا)
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (ئاستا)
 deck-config-compute-button = ھېسابلا
 deck-config-ignore-before = ئىلگىرىكى تەكرارلاش خاتىرىسىگە پەرۋا قىلما
 deck-config-time-to-optimize = ئەلالاشتۇرۇلمىغىنى بىر مەزگىل بولدى - ھەممىنى ئەلالاشتۇر توپچىنى ئىشلىتىش تەۋسىيە قىلىنىدۇ.
@@ -351,18 +352,11 @@ deck-config-percent-of-reviews =
        *[other] { $reviews } نىڭ تەكرارالىنىشى { $pct }%
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = ياخشىلىنىشنى تەكشۈرۈۋاتىدۇ…
 deck-config-optimizing-preset = ئالدىن تەڭشەكنى ئەلالاشتۇرۇۋاتىدۇ { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = ئالدى بىلەن FSRS نى قوزغىتىش كېرەك.
 deck-config-fsrs-params-optimal = نۆۋەتتە FSRS نىڭ پارامېتىرلىرى ئەلالاشتۇرۇلغان.
-deck-config-fsrs-bad-fit-warning =
-    FSRS ئەستە ساقلاش قانۇنىيىتىڭىزنى مۆلچەرلىيەلمىدى. تەكلىپ:
-    
-    - ئەستە ساقلاش تەس كارتىنى ۋاقىتلىق توختىتىڭ ياكى ئەسلىگە قايتۇرۇڭ.
-    - جاۋاب توپچىنى ئىشلىتىشتە بىردەكلىكنى ساقلاڭ. «تەس» ئۆتكەنلىكىنى ئەمما مەغلۇپ بولغانلىقىنى بىلدۈرمەيدۇ.
-    - ئاۋۋال چۈشىنىپ ئاندىن ئەستە تۇتۇڭ.
-    
-    ئەگەر بۇ تەكلىپكە ئەگەشسىڭىز، بىر قانچە ئايدا ئۈنۈمىنى كۆرىسىز.
-deck-config-fsrs-good-fit = FSRS ئەستە ساقلاش ھالىتىڭىزگە ياخشى ماسلاشتى.
 deck-config-fsrs-params-no-reviews = تەكرارلاش خاتىرىسىنى تاپالمىدى. بارلىق ئەلالاشتۇرۇشقا تېگىشلىك دەستە (تارماق دەستىمۇ ئىچىدە) نىڭ ھەممىسى نۆۋەتتىكى ئالدىن تەڭشەكنى ئىشلىتىۋاتقانلىقىنى تەكشۈرۈپ ئاندىن قايتا سىناڭ.
 deck-config-wait-for-audio = ئۈن قويۇلۇشىنى كۈتىدۇ
 deck-config-show-reminder = ئەسكەرتىشنى كۆرسەت
@@ -387,6 +381,22 @@ deck-config-save-options-to-preset = ئۆزگىرىشنى ئالدىن تەڭش�
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = ئەستە تۇتقان
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = ئەلالاشتۇرغاندا ساغلاملىق ئەھۋالىنى تەكشۈرىدۇ (ئاستا)
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    FSRS ئەستە ساقلاش قانۇنىيىتىڭىزنى مۆلچەرلىيەلمىدى. تەكلىپ:
+    
+    - ئەستە ساقلاش تەس كارتىنى ۋاقىتلىق توختىتىڭ ياكى ئەسلىگە قايتۇرۇڭ.
+    - جاۋاب توپچىنى ئىشلىتىشتە بىردەكلىكنى ساقلاڭ. «تەس» ئۆتكەنلىكىنى ئەمما مەغلۇپ بولغانلىقىنى بىلدۈرمەيدۇ.
+    - ئاۋۋال چۈشىنىپ ئاندىن ئەستە تۇتۇڭ.
+    
+    ئەگەر بۇ تەكلىپكە ئەگەشسىڭىز، بىر قانچە ئايدا ئۈنۈمىنى كۆرىسىز.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit = FSRS ئەستە ساقلاش ھالىتىڭىزگە ياخشى ماسلاشتى.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -413,6 +423,8 @@ deck-config-answer-action-tooltip = كېيىنكى كارتىنى كۆرسىتى
 deck-config-wait-for-audio-tooltip = جاۋاب كۆرسىتىش ياكى كېيىنكى كارتىنى كۆرسىتىشتىن ئىلگىرى ئۈننىڭ قويۇلۇپ تاماملىنىشىنى كۈتىدۇ.
 deck-config-ignore-before-tooltip = ئەگەر تەڭشەلسە، FSRS پارامېتىرىنى ئەلالاشتۇرۇش ۋە باھالاش بېرىلگەن چېسلادىن ئىلگىرىكى تەكرارلاش خاتىرىسىگە پەرۋا قىلمايدۇ. بۇ تاللانما باشقىلارنىڭ كۈنتەرتىپىدىكى سانلىق مەلۇماتنى ئەكىرگەندە ئىشلىتىشكە بولىدۇ ياكى ھەر قايسى جاۋاب توپچە ئۇسۇلىنى ئۆزگەرتكەندە ماس كېلىدۇ.
 deck-config-compute-optimal-retention-tooltip = بۇ قورال سىزنى 0 كارتىدىن باشلىدى دەپ پەرەز قىلىدۇ ھەمدە سىز بەلگىلىگەن ۋاقىت دائىرىسىدە ئەستە ساقلىيالايدىغان ماتېرىيالنىڭ مىقدارىنى ھېسابلاشنى سىنايدۇ. مۆلچەرلىگەن ئەستە ساقلاش نىسبىتى كۆپ ھاللاردا كىرگۈزگىنىڭىزگە باغلىق بولىدۇ: ئەگەر ئۇ 0.9 بىلەن زور دەرىجىدە پەرقلەنسە، ئۇنداقتا ھەر كۈنى تەقسىملەنگەن ۋاقىت ئۆگىنىدىغان كارتىنىڭ مىقدارىغا نىسبەتەن بەك يۇقىرى ياكى بەك تۆۋەن ئىكەنلىكىنى بىلدۈرىدۇ. بۇ سانلىق مەلۇماتنى پايدىنىش سۈپىتىدە قوللانسا بولىدۇ، ئەمما ئۇنى مۆھلىتى توشىدىغان خاتىرىنىڭ ئەستە ساقلاش نىسبىتى بۆلىكىگە كۆچۈرۈش تەۋسىيە قىلىنمايدۇ.
+deck-config-health-check-tooltip1 = ئەگەر FSRS ئەستە ساقلاش ھالىتىڭىزگە پەقەت ماس كەلمىگەندە ئاگاھلاندۇرۇشنى كۆرسىتىدۇ.
+deck-config-health-check-tooltip2 = ساغلاملىق ئەھۋالىنى تەكشۈرۈش پەقەت نۆۋەتتىكى ئالدىن تەڭشەكنى ئەلالاشتۇرغاندىلا ئىجرا قىلىنىدۇ.
 deck-config-compute-optimal-retention = كومپيۇتېر تەۋسىيە قىلغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى
 deck-config-predicted-optimal-retention = تەۋسىيە قىلىنغان ئەڭ تۆۋەن ئەستە ساقلاش نىسبىتى: { $num }
 deck-config-weights-tooltip = FSRS پارامېتىرى كارتىنى كۈنتەرتىپكە قانداق تىزىشقا تەسىر كۆرسىتىدۇ. Anki كۆڭۈلدىكى پارامېتىر قىممىتىنى ئىشلىتىدۇ. +1000 قېتىملىق تەكرارلاش توپلانغاندىن كېيىن، تۆۋەندىكى تاللانمىنى ئىشلىتىپ پارامېتىرلارنى ئەلالاشتۇرۇپ، بۇ ئالدىن تەڭشەلگەن قىممەتنى ئىشلىتىدىغان دەستەدىكى تەكرارلاش ئىپادىڭىز بىلەن ماسلاشتۇرىدۇ.
