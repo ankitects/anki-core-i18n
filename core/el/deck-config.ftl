@@ -211,7 +211,7 @@ deck-config-minimum-interval-tooltip = Το ελάχιστο διάστημα π
 deck-config-custom-scheduling = Προσαρμοσμένος προγραμματισμός
 deck-config-custom-scheduling-tooltip = Επηρεάζει ολόκληρη την συλλογή. Χρησιμοποιήστε με δική σας ευθύνη!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Εύκολες Ημέρες
 deck-config-easy-days-monday = Δευτέρα
@@ -294,6 +294,8 @@ deck-config-weights = Παράμετροι FSRS
 deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέτρων FSRS
 deck-config-compute-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση
 deck-config-optimize-button = Βελτιστοποίηση
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (αργό)
 deck-config-compute-button = Υπολογισμός
 deck-config-ignore-before = Παράλειψη επαναλήψεων πριν
 deck-config-time-to-optimize = Έχει περάσει καιρός - συνιστάται η χρήση του κουμπιού Βελτιστοποίηση Όλων.
@@ -341,6 +343,9 @@ deck-config-compute-optimal-retention-tooltip4 =
     πρόθυμοι να επενδύσετε περισσότερο χρόνο μελέτης για να το επιτύχετε. Θέτοντας την επιθυμητή συγκράτησή σας χαμηλότερα από την ελάχιστη
     δεν συνιστάται, καθώς θα οδηγήσει σε υψηλότερο φόρτο εργασίας, λόγω του υψηλού ποσοστού λήθης.
 deck-config-please-save-your-changes-first = Παρακαλώ αποθηκεύσετε πρώτα τις αλλαγές σας.
+deck-config-workload-factor-change =
+    Κατά προσέγγιση φόρτος εργασίας: { $factor }x
+    (σε σύγκριση με { $previousDR }% επιθυμητή ανάκληση)
 deck-config-workload-factor-unchanged = Όσο υψηλότερη είναι αυτή η τιμή, τόσο πιο συχνά θα σας εμφανίζονται κάρτες.
 deck-config-desired-retention-too-low = Η επιθυμητή ανάκληση είναι πολύ χαμηλή, γεγονός που μπορεί να οδηγήσει σε πολύ μεγάλα διαστήματα.
 deck-config-desired-retention-too-high = Η επιθυμητή ανάκληση είναι πολύ υψηλή, γεγονός που μπορεί να οδηγήσει σε πολύ μικρά διαστήματα.
@@ -350,10 +355,11 @@ deck-config-percent-of-reviews =
        *[other] { $pct }% από { $reviews } επαναλήψεις
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Έλεγχος για βελτίωση...
 deck-config-optimizing-preset = Βελτιστοποίηση προεπιλογής { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Το FSRS θα πρέπει να είναι πρώτα ενεργοποιημένο.
 deck-config-fsrs-params-optimal = Οι τρέχουσες ρυθμίσεις FSRS είναι βέλτιστες.
-deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμένο στη μνήμη σας.
 deck-config-fsrs-params-no-reviews = Δεν βρέθηκαν επαναλήψεις. Παρακαλούμε ελέγξτε ότι αυτή η προεπιλογή έχει εκχωρηθεί σε όλες τις τράπουλες που θέλετε να βελτιστοποιήσετε (συμπεριλαμβανομένων των υποενοτήτων) και δοκιμάστε ξανά.
 deck-config-wait-for-audio = Αναμονή για ήχο
 deck-config-show-reminder = Εμφάνιση υπενθύμισης
@@ -378,6 +384,13 @@ deck-config-save-options-to-preset = Αποθήκευση αλλαγών στη�
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Απομνημονευμένα
 
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = Έλεγχος υγείας κατά τη βελτιστοποίηση
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμένο στη μνήμη σας.
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-a-100-day-interval =
@@ -399,6 +412,8 @@ deck-config-compute-optimal-retention-tooltip =
     Αυτό το εργαλείο υποθέτει ότι ξεκινάτε με 0 κάρτες και επιχειρεί να υπολογίσει την ποσότητα υλικού που θα είστε
     ικανοί να απομνημονεύσετε σε δεδομένο χρονικό διάστημα. Η εκτιμούμενη ανάκληση εξαρτάται από τις εισαγωγές σας και αν διαφέρει κατά πολύ από 0.9 είναι ένα σημάδι ότι ο χρόνος που αφιερώνετε κάθε μέρα είναι είτε λίγος
     ή υψηλός για τον αριθμό καρτών που προσπαθείτε να μάθετε. Αυτός ο αριθμός είναι χρήσιμος σαν reference, αλλά δεν συνίσταται να τον αντιγράφετε στο πεδίο της επιθυμητής ανάκλησης.
+deck-config-health-check-tooltip1 = Αυτό θα εμφανίσει μια προειδοποίηση εάν το FSRS δυσκολεύεται να προσαρμοστεί στη μνήμη σας.
+deck-config-health-check-tooltip2 = Ο έλεγχος υγείας εκτελείται μόνο όταν χρησιμοποιείτε τη λειτουργία Βελτιστοποίηση τρέχουσας προεπιλογής.
 deck-config-compute-optimal-retention = Υπολογισμός βέλτιστης ανάκλησης.
 deck-config-predicted-optimal-retention = Εκτιμώμενη βέλτιστη απομνημόνευση: { $num }
 deck-config-weights-tooltip =
