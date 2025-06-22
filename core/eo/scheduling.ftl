@@ -73,14 +73,12 @@ scheduling-learn-remaining =
        *[other] { $remaining } pliaj kartoj atendas hodiaŭan lernadon.
     }
 scheduling-congratulations-finished = Gratulon! Vi finis lernadon de tiu ĉi kartaro por hodiaŭ.
-scheduling-today-review-limit-reached =
-    La hodiaŭa ripetlimigo estas atingita, sed ankoraŭ ĉeestas
-    ripetendaj kartoj. Por memori optimume, bonvolu pripensi
-    la altigon de la taga limigo ĉe la opcioj.
-scheduling-today-new-limit-reached =
-    Ĉeestas ankoraŭ pli da kartoj, sed la taga limigo estis atingita. Vi povas
-    kreski la limigon ĉe la opcioj, sed bonvolu teni en la kapo ke ju pli da kartoj
-    vi enkondukas, des pli ŝarĝanta via mallongdaŭra ripetado estos.
+scheduling-today-review-limit-reached = La hodiaŭa limigo de ripetoj estas atingita, sed ankoraŭ ĉeestas ripetendaj kartoj. Por plej bone memorado pripensu altigi la tagan limigon en la agordoj.
+scheduling-today-new-limit-reached = Ĉeestas ankoraŭ pli da kartoj, sed la taga limigo estis atingita. Vi povas pliigi la limigon en la agordoj, sed estu konscia, ke ju pli da kartoj vi enkondukos, des pli da kartoj vi devos ripeti dum la proksima tempo.
+scheduling-buried-cards-found = Unu aŭ pliaj kartoj estas kaŝitaj por tago kaj estos montritaj morgaŭ. Vi povas { $unburyThem }, se vi volas ripeti ilin nun.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = malkaŝi ilin
 
 ## Scheduler upgrade
 
