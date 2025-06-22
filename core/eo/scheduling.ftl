@@ -48,6 +48,30 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    { $unit ->
+        [seconds]
+            { $amount ->
+                [one] La sekva karto por lerni estos disponebla post { $amount } sekundo.
+               *[other] La sekva karto por lerni estos disponebla post { $amount } sekundoj.
+            }
+        [minutes]
+            { $amount ->
+                [one] La sekva karto por lerni estos disponebla post { $amount } minuto.
+               *[other] La sekva karto por lerni estos disponebla post { $amount } minutoj.
+            }
+       *[hours]
+            { $amount ->
+                [one] La sekva karto por lerni estos disponebla post { $amount } horo.
+               *[other] La sekva karto por lerni estos disponebla post { $amount } horoj.
+            }
+    }
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Unu plia karto atendas hodiaŭan lernadon.
+       *[other] { $remaining } pliaj kartoj atendas hodiaŭan lernadon.
+    }
 scheduling-congratulations-finished = Gratulon! Vi finis ĉi tiun kartaron por hodiaŭ.
 scheduling-today-review-limit-reached =
     La hodiaŭa ripetlimigo estas atingita, sed ankoraŭ ĉeestas
