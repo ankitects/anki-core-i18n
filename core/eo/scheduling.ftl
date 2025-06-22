@@ -72,7 +72,7 @@ scheduling-learn-remaining =
         [one] Unu plia karto atendas hodiaŭan lernadon.
        *[other] { $remaining } pliaj kartoj atendas hodiaŭan lernadon.
     }
-scheduling-congratulations-finished = Gratulon! Vi finis ĉi tiun kartaron por hodiaŭ.
+scheduling-congratulations-finished = Gratulon! Vi finis lernadon de tiu ĉi kartaro por hodiaŭ.
 scheduling-today-review-limit-reached =
     La hodiaŭa ripetlimigo estas atingita, sed ankoraŭ ĉeestas
     ripetendaj kartoj. Por memori optimume, bonvolu pripensi
