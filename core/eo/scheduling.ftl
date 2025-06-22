@@ -133,9 +133,9 @@ scheduling-restore-position = Restarigi originalan pozicion (se eblas)
 scheduling-review = Ripetado
 scheduling-reviews = Ripetoj
 scheduling-seconds = sekundoj
-scheduling-set-all-decks-below-to = Ĉu agordi ĉiujn kartarojn sub { $val } al ĉi tiu opciogrupo?
+scheduling-set-all-decks-below-to = Ĉu agordi ĉiujn kartarojn sub { $val } al tiu ĉi grupo de agordoj?
 scheduling-set-for-all-subdecks = Agordi al ĉiuj subkartaroj
-scheduling-show-answer-timer = Montri tempomezurilon por respondoj
+scheduling-show-answer-timer = Montri tempmezurilon por respondoj
 scheduling-show-new-cards-after-reviews = Montri novajn kartojn post ripetoj
 scheduling-show-new-cards-before-reviews = Montri novajn kartojn antaŭ ripetoj
 scheduling-show-new-cards-in-order-added = Montri novajn kartojn laŭ ordo de aldono
@@ -144,10 +144,34 @@ scheduling-starting-ease = Komenca facileco
 scheduling-steps-in-minutes = Paŝoj (en minutoj)
 scheduling-steps-must-be-numbers = Paŝoj devas esti nombroj.
 scheduling-tag-only = Aldoni nur etikedon
-scheduling-the-default-configuration-cant-be-removed = La apriora agordo ne povas esti forigita.
-scheduling-your-changes-will-affect-multiple-decks = Viaj ŝanĝoj efikos sur multaj kartaroj. Se vi nur volas ŝanĝi la aktualan kartaron, bonvolu unue aldoni novan opciogrupon.
+scheduling-the-default-configuration-cant-be-removed = La implicita agordaro ne povas esti forigita.
+scheduling-your-changes-will-affect-multiple-decks = Viaj ŝanĝoj aplikiĝos al multaj kartaroj. Se vi nur volas ŝanĝi la aktualan kartaron, unue aldonu novan grupon de agordoj.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } kartaro estas ĝisdatigita.
        *[other] { $count } kartaroj estas ĝisdatigitaj.
+    }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Post kiom da tagoj montri karton?
+       *[other] Post kiom da tagoj montri kartojn?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = hodiaŭ
+    1! = morgaŭ + ŝanĝi intertempon al 1
+    3–7 = elekti hazarde inter 3–7 tagoj
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] Agordis limdaton por { $cards } karto.
+       *[other] Agordis limdatojn por { $cards } kartoj.
+    }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Atribuis noton por { $cards } karto.
+       *[other] Atribuis notojn por { $cards } kartoj.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] Reagordis { $cards } karton.
+       *[other] Reagordis { $cards } karotjn.
     }

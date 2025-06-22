@@ -1,5 +1,17 @@
 actions-add = Aldoni
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Ĉio elektita
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Io ajn elektita
 actions-cancel = Nuligi
 actions-choose = Elekti
@@ -38,6 +50,7 @@ actions-select = Elekti
 actions-shortcut-key = Fulmoklavo: { $val }
 actions-suspend-card = Paŭzigi karton
 actions-set-due-date = Agordi limdaton
+actions-grade-now = Agordi noton
 actions-answer-card = Respondi al karto
 actions-unbury-unsuspend = Malkaŝi/Malpaŭzigi
 actions-add-deck = Aldoni kartaron
@@ -46,7 +59,7 @@ actions-update-tag = Ĝisdatigi etikedon
 actions-update-note = Ĝisdatigi noton
 actions-update-card = Ĝisdatigi karton
 actions-update-deck = Ĝisdatigi kartaron
-actions-forget-card = Forgesi karton
+actions-forget-card = Reagordi karton
 actions-build-filtered-deck = Kunmeti kartaron
 actions-add-notetype = Aldoni nototipon
 actions-remove-notetype = Forigi nototipon
@@ -58,10 +71,12 @@ actions-previous-card-info = Informo pri antaŭa karto
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Plenekrana reĝimo ne estas subtenata de via vidkarta pelilo. Vi povas elekti alian pelilon en la preferoj.
-
-## Flags
-
 actions-flag-number = Indikilo { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Ruĝa
 actions-flag-orange = oranĝa
 actions-flag-green = Verda
@@ -69,6 +84,9 @@ actions-flag-blue = blua
 actions-flag-pink = Roza
 actions-flag-turquoise = turkisa
 actions-flag-purple = viola
+
+##
+
 actions-set-flag = Meti indikilon
 actions-nothing-to-undo = Nenio por malfari
 actions-nothing-to-redo = Nenio por refari
