@@ -79,9 +79,21 @@ scheduling-buried-cards-found = Unu aŭ pliaj kartoj estas kaŝitaj por tago kaj
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = malkaŝi ilin
+scheduling-how-to-custom-study = Vi vi volas lerni ekster la norma lern-plano, vi povas aktivigi la agordon { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = propra lernado
 
 ## Scheduler upgrade
 
+scheduling-update-soon = La versio 2.1 de Anki liveras novan planilon, kiu riparas kelkajn problemojn ĉeestantajn en la antaŭaj versioj de Anki. Ĝisdatigo estas konsilinda.
+scheduling-update-done = Sukcese ĝisdatigis la planilon.
+scheduling-update-button = Ĝisdatigi
+scheduling-update-later-button = Poste
+scheduling-update-more-info-button = pliajn informojn
+scheduling-update-required =
+    Vi kolekto devas esti ĝisdatigita al la planilo de versio V2.
+    Legu la { scheduling-update-more-info-button } antaŭ ol pluigi.
 
 ## Other scheduling strings
 
