@@ -15,6 +15,7 @@ importing-colon = Dwukropek
 importing-comma = Przecinek
 importing-empty-first-field = Puste pierwsze pole: { $val }
 importing-field-separator = Separator pól
+importing-field-separator-guessed = Separator pól (wykryty automatycznie)
 importing-field-mapping = Odwzorowanie pól
 importing-field-of-file-is = Pole <b>{ $val }</b> z pliku jest:
 importing-fields-separated-by = Pola oddzielone o: { $val }
@@ -105,31 +106,36 @@ importing-note-added =
     { $count ->
         [one] dodano { $count } notatkę
         [few] dodano { $count } notatki
-       *[other] dodano { $count } notatek
+        [other] dodano { $count } notatek
+       *[many] dodano { $count } notatek
     }
 importing-note-imported =
     { $count ->
         [one] zaimportowano { $count } notatkę.
         [few] zaimportowano { $count } notatki.
-       *[other] zaimportowano { $count } notatek.
+        [other] zaimportowano { $count } notatek.
+       *[many] zaimportowano { $count } notatek.
     }
 importing-note-unchanged =
     { $count ->
         [one] nie zmieniono { $count } notatki
         [few] nie zmieniono { $count } notatek
-       *[other] nie zmieniono { $count } notatek
+        [other] nie zmieniono żadnej notatki
+       *[many] nie zmieniono { $count } notatek
     }
 importing-note-updated =
     { $count ->
         [one] zaktualizowano { $count } notatkę
         [few] zaktualizowano { $count } notatki
-       *[other] zaktualizowano { $count } notatek
+        [other] zaktualizowano { $count } notatek
+       *[many] zaktualizowano { $count } notatek
     }
 importing-processed-media-file =
     { $count ->
         [one] Przetworzono { $count } plik
         [few] Przetworzono { $count } pliki
-       *[other] Przetworzono { $count } plików
+        [other] Przetworzono { $count } plików
+       *[many] Przetworzono { $count } plików
     }
 importing-importing-file = Import pliku...
 importing-extracting = Znajdowanie danych...

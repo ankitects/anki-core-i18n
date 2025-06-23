@@ -118,14 +118,29 @@ statistics-counts-separate-suspended-buried-cards = Oddziel zawieszone/zakopane 
 ## comparison to the "desired retention" parameter of FSRS, which forecasts
 ## future retention. True Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
 
 statistics-true-retention-title = Naprawdę zapamiętane
 statistics-true-retention-subtitle = Odsetek poprawnych odpowiedzi dla kart z przerwą ≥ 1 dzień.
+statistics-true-retention-tooltip = Jeśli używasz FSRS, rzeczywisty poziom zapamiętania powinien być zbliżony do docelowego. Pamiętaj, że dane z pojedynczego dnia mogą być mało reprezentatywne — lepiej analizować dane miesięczne.
 statistics-true-retention-range = Zakres
 statistics-true-retention-pass = Poprawne
 statistics-true-retention-fail = Pomyłki
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Razem
 statistics-true-retention-count = Liczba
 statistics-true-retention-retention = Zapamiętywanie
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Młode
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Dojrzałe
 statistics-true-retention-all = Wszystkie
 statistics-true-retention-today = Dzisiaj
 statistics-true-retention-yesterday = Wczoraj
@@ -149,7 +164,7 @@ statistics-card-ease-title = Łatwość karty
 statistics-card-difficulty-title = Trudność kart
 statistics-card-stability-title = Stabilność kart
 statistics-card-stability-subtitle = Opóźnienie, po którym przywoływalność spada do 90%.
-statistics-average-stability = Średnia stabilność
+statistics-median-stability = Mediana stabilności
 statistics-card-retrievability-title = Przywoływalność karty
 statistics-card-ease-subtitle = Im mniejsza łatwość, tym karta będzie częściej pokazywana.
 statistics-card-difficulty-subtitle2 = Im wyższa trudność, tym wolniej rośnie stabilność.
@@ -159,6 +174,7 @@ statistics-card-ease-tooltip =
     { $cards ->
         [one] 1 karta z łatwością { $percent }
         [few] { $cards } karty z łatwością { $percent }
+        [many] { $cards } kart z łatwością { $percent }
        *[other] { $cards } kart z łatwością { $percent }
     }
 statistics-card-difficulty-tooltip =
@@ -193,6 +209,7 @@ statistics-in-days-single =
         [1] Jutro
         [one] za { $days } dzień
         [few] za { $days } dni
+        [many] za { $days } dni
        *[other] za { $days } dni
     }
 statistics-in-days-range = za { $daysStart }-{ $daysEnd } dni
@@ -201,6 +218,7 @@ statistics-days-ago-single =
         [1] Wczoraj
         [one] { $days } dzień temu
         [few] { $days } dni temu
+        [many] { $days } dni temu
        *[other] { $days } dni temu
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } dni temu
@@ -209,6 +227,7 @@ statistics-cards-due =
     { $cards ->
         [one] 1 karta oczekuje
         [few] { $cards } karty oczekują
+        [many] { $cards } kart oczekuje
        *[other] { $cards } kart oczekuje
     }
 statistics-backlog-checkbox = Zaległości
@@ -218,12 +237,14 @@ statistics-intervals-day-range =
     { $cards ->
         [one] 1 karta z przerwą { $daysStart }~{ $daysEnd } dni
         [few] { $cards } karty z przerwą { $daysStart }~{ $daysEnd } dni
+        [many] { $cards } kart z przerwą { $daysStart }~{ $daysEnd } dni
        *[other] { $cards } kart z przerwą { $daysStart }~{ $daysEnd } dni
     }
 statistics-intervals-day-single =
     { $cards ->
         [one] 1 karta z przerwą { $day } dni
         [few] { $cards } karty z przerwą { $day } dni
+        [many] { $cards } kart z przerwą { $day } dni
        *[other] { $cards } kart z przerwą { $day } dni
     }
 statistics-stability-day-range =
@@ -241,6 +262,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }: 00~{ $hourEnd }: 00
 statistics-hours-correct = { $correct }/{ $total } poprawnych ({ $percent }%)
+statistics-hours-correct-info = → (nie ‘Jeszcze raz’)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } powtórek
 # the emoji depicts the graph displaying this number
@@ -267,12 +289,20 @@ statistics-elapsed-time-years = { $amount }r
 ##
 
 statistics-average-for-days-studied = Średnia dla dni, gdy się uczono
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Razem
 statistics-days-studied = Dni nauki
 statistics-average-answer-time-label = Średni czas odpowiedzi
 statistics-average = Średnia
-statistics-average-interval = Średnia przerwa
+statistics-median-interval = Mediana odstępu
 statistics-due-tomorrow = Na jutro
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Dzienne obciążenie
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
@@ -281,28 +311,36 @@ statistics-reviews-per-day =
     { $count ->
         [one] { $count } powtórka/dzień
         [few] { $count } powtórki/dzień
+        [many] { $count } powtórek/dzień
        *[other] { $count } powtórek/dzień
     }
 statistics-minutes-per-day =
     { $count ->
         [one] { $count } minuta/dzień
         [few] { $count } minuty/dzień
+        [many] { $count } minut/dzień
        *[other] { $count } minut/dzień
     }
 statistics-cards-per-day =
     { $count ->
         [one] { $count } karta/dzień
         [few] { $count } karty/dzień
+        [many] { $count } kart/dzień
        *[other] { $count } kart/dzień
     }
-statistics-average-ease = Średnia łatwość
-statistics-average-difficulty = Średnia trudność
+statistics-median-ease = Mediana łatwości
+statistics-median-difficulty = Mediana trudności
 statistics-average-retrievability = Średnia przywoływalność
 statistics-estimated-total-knowledge = Szacunkowa całkowita wiedza
 statistics-save-pdf = Zapisz PDF
 statistics-saved = Zapisano.
 statistics-stats = statystyki
 statistics-title = Statystyki
-statistics-true-retention-total = Razem
-statistics-true-retention-young = Młode
-statistics-true-retention-mature = Dojrzałe
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Średnia stabilność
+statistics-average-interval = Średnia przerwa
+statistics-average-ease = Średnia łatwość
+statistics-average-difficulty = Średnia trudność

@@ -326,10 +326,17 @@ deck-config-good-above-easy = Przerwa dla łatwych powinna być przynajmniej tak
 deck-config-relearning-steps-above-minimum-interval = Minimalna przerwa pomyłki powinna być przynajmniej długa jak ostatni krok ponownej nauki.
 deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie planować powtórki tylko pod warunkiem, że będziesz ustawiać krótkie pytania.
 deck-config-too-short-maximum-interval = Nie zaleca się stosowania maksymalnego okresu krótszego niż 6 miesięcy.
+deck-config-ignore-before-info =
+    { $included ->
+        [one] (Około) { $included }/{ $totalCards } karta zostanie użyta do optymalizacji ustawień FSRS.
+        [few] (Około) { $included }/{ $totalCards } karty zostaną użyte do optymalizacji ustawień FSRS.
+        [many] (Około) { $included }/{ $totalCards } kart zostanie użytych do optymalizacji ustawień FSRS.
+       *[other] (Około) { $included }/{ $totalCards } kart zostanie użytych do optymalizacji ustawień FSRS.
+    }
 
 ## Selecting a deck
 
-deck-config-which-deck = Którą talię chcesz wybrać?
+deck-config-which-deck = Dla której talii chcesz wyświetlić opcje?
 
 ## Messages related to the FSRS scheduler
 
@@ -348,6 +355,8 @@ deck-config-weights = Parametry FSRS
 deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
 deck-config-compute-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie
 deck-config-optimize-button = Optymalizuj
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (działa wolno)
 deck-config-compute-button = Wylicz
 deck-config-ignore-before = Ignoruj powtórki przed
 deck-config-time-to-optimize = Minęło już trochę czasu - zaleca się użycie przycisku "Optymalizuj wszystkie opcje FSRS"
@@ -398,13 +407,26 @@ deck-config-compute-optimal-retention-tooltip4 =
     To narzędzie spróbuje znaleźć optymalną wartość zapamiętywania,
     który doprowadzi do nauki największej ilości materiału w jak najkrótszym czasie. Obliczona wartość może służyć jako odniesienie podczas decyzji przy ustalaniu oczekiwanej wartości zapamiętywania. Możesz ustawić wyższe oczekiwane zapamiętywanie, jeśli jesteś chętny poświęcić więcej czasu, aby je osiągnąć. Ustawienie oczekiwanego zapamiętywania niżej niż wartość minimalna nie jest zalecane, ponieważ doprowadzi to do wyższego obciążenia z powodu dużej wartości zapominania.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
+deck-config-workload-factor-change =
+    Przybliżone obciążenie: { $factor }x
+    (w porównaniu z { $previousDR }% docelowego poziomu zapamiętania)
+deck-config-workload-factor-unchanged = Im wyższa wartość, tym częściej karta będzie się pojawiać.
+deck-config-desired-retention-too-low =
+    Docelowy poziom zapamiętania jest bardzo niski. Odstępy w wyświetlaniu
+    mogą być wydłużone.
+deck-config-desired-retention-too-high =
+    Docelowy poziom zapamiętania jest bardzo wysoki. Odstępy w wyświetlaniu
+    mogą być bardzo krótkie.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% z { $reviews } powtórki
         [few] { $pct }% z { $reviews } powtórek
-       *[many] { $pct }% z { $reviews } powtórek
+        [many] { $pct }% z { $reviews } powtórek
+       *[other] { $pct }% z { $reviews } powtórek
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Sprawdzanie postępów...
 deck-config-optimizing-preset = Optymalizowanie opcji { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Musisz najpierw włączyć FSRS.
 deck-config-fsrs-params-optimal = Parametry FSRS wyglądają obecnie na optymalne.
@@ -424,6 +446,10 @@ deck-config-additional-new-cards-to-simulate = Dodatkowe nowe karty do symulacji
 deck-config-simulate = Symulacja
 deck-config-clear-last-simulate = Wyczyść ostatnią symulację
 deck-config-fsrs-simulator-radio-count = Powtórki
+deck-config-advanced-settings = Ustawienia zaawansowane
+deck-config-smooth-graph = Wygładzony wykres
+deck-config-suspend-leeches = Zawieś fiszki trudne do zapamiętania
+deck-config-save-options-to-preset = Zapisz zmiany w ustawieniach wstępnych
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -431,14 +457,31 @@ deck-config-fsrs-simulator-radio-memorized = Zapamiętane
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Sprawdzaj kondycję podczas optymalizacji
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Sprawdzenie kondycji:
+    Twoja pamięć jest trudna do przewidzenia przez FSRS. Zalecenia:
+    
+    - Zawieś lub zmodyfikuj fiszki trudne do zapamiętania.
+    - Używaj spójnie przycisków odpowiedzi. Pamiętaj, że „Trudne” to ocena dopuszczająca, nie negatywna.
+    - Staraj się rozumieć materiał, zanim go zapamiętasz.
+    
+    Jeśli zastosujesz się do tych wskazówek, Twoje wyniki zwykle poprawią się w ciągu kilku miesięcy.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Sprawdzenie kondycji:
+    FSRS dobrze dostosowuje się do Twojej pamięci.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-a-100-day-interval =
     { $days ->
-        [one] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dnia.
-        [few] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
-       *[many] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
+        [one] Stu-dniowa przerwa zmieni się w { $days } dzień.
+        [few] Stu-dniowa przerwa zmieni się w { $days } dni.
+        [other] Stu-dniowa przerwa zmieni się w { $days } dni.
+       *[many] Stu-dniowa przerwa zmieni się w { $days } dni.
     }
 deck-config-fsrs-simulator-y-axis-title-time = .
 deck-config-fsrs-simulator-y-axis-title-count = .

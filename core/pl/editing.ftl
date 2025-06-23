@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Prostokąt
 editing-image-occlusion-ellipse-tool = Elipsa
 editing-image-occlusion-polygon-tool = Wielokąt
 editing-image-occlusion-text-tool = Tekst
+editing-image-occlusion-fill-tool = Wypełnij kolorem
 editing-image-occlusion-toggle-mask-editor = Przełącz edytor maski
 editing-image-occlusion-reset = Resetuj zakrycie obrazu
 editing-image-occlusion-confirm-reset = Czy na pewno chcesz zresetować te zakrycie obrazu?

@@ -62,31 +62,35 @@ scheduling-time-span-years =
 
 # eg "The next learning card will be ready in 5 minutes."
 scheduling-next-learn-due =
-    Następna karta będzie dostępna za { $unit ->
+    { $unit ->
         [seconds]
             { $amount ->
-                [one] { $amount } sekundę
-                [few] { $amount } sekundy
-               *[other] { $amount } sekund
+                [one] Następna karta będzie dostępna za { $amount } sekundę
+                [few] Następna karta będzie dostępna za { $amount } sekundy
+                [many] Następna karta będzie dostępna za { $amount } sekund
+               *[other] Następna karta będzie dostępna za { $amount } sekund
             }
         [minutes]
             { $amount ->
-                [one] { $amount } minutę
-                [few] { $amount } minuty
-               *[other] { $amount } minut
+                [one] Następna karta będzie dostępna za { $amount } minutę
+                [few] Następna karta będzie dostępna za { $amount } minuty
+                [many] Następna karta będzie dostępna za { $amount } minut
+               *[other] Następna karta będzie dostępna za { $amount } minut
             }
        *[hours]
             { $amount ->
-                [one] { $amount } godzinę
-                [few] { $amount } godziny
-               *[other] { $amount } godzin
+                [one] Następna karta będzie dostępna za { $amount } godzinę
+                [few] Następna karta będzie dostępna za { $amount } godziny
+                [many] Następna karta będzie dostępna za { $amount } godzin
+               *[other] Następna karta będzie dostępna za { $amount } godzin
             }
     }
 scheduling-learn-remaining =
     { $remaining ->
-        [one] { $remaining } karta czeka na przejrzenie dziś w późniejszym czasie.
-        [few] { $remaining } karty czekają na przejrzenie dziś w późniejszym czasie.
-       *[other] { $remaining } kart czeka na przejrzenie dziś w późniejszym czasie.
+        [one] { $remaining } karta czeka na przejrzenie dzisiaj.
+        [few] { $remaining } karty czekają na przejrzenie dzisiaj.
+        [many] { $remaining } kart czeka na przejrzenie dzisiaj.
+       *[other] { $remaining } kart czeka na przejrzenie dzisiaj.
     }
 scheduling-congratulations-finished = Gratulacje! Zakończono powtórki na dziś.
 scheduling-today-review-limit-reached =
@@ -171,12 +175,14 @@ scheduling-deck-updated =
     { $count ->
         [one] Zaktualizowano { $count } talię.
         [few] Zaktualizowano { $count } talie.
+        [many] Zaktualizowano { $count } talii.
        *[other] Zaktualizowano { $count } talii.
     }
 scheduling-set-due-date-prompt =
     { $cards ->
         [one] Za ile dni pokazać kartę?
         [few] Za ile dni pokazać karty?
+        [many] Za ile dni pokazać karty?
        *[other] Za ile dni pokazać karty?
     }
 scheduling-set-due-date-prompt-hint =
@@ -187,11 +193,20 @@ scheduling-set-due-date-done =
     { $cards ->
         [one] Ustaw termin przejrzenia { $cards } karty.
         [few] Ustaw termin przejrzenia { $cards } kart.
+        [many] Ustaw termin przejrzenia { $cards } kart.
        *[other] Ustaw termin przejrzenia { $cards } kart.
+    }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Oceniono { $cards } kartę.
+        [few] Oceniono { $cards } karty.
+        [other] Nie oceniono żadnej karty.
+       *[many] Oceniono { $cards } kart.
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] Zapomniano { $cards } kartę.
-        [few] Zapomniano { $cards } karty.
-       *[other] Zapomniano { $cards } kart.
+        [one] Zresetuj { $cards } kartę.
+        [few] Zresetuj { $cards } karty.
+        [many] Zresetuj { $cards } kart.
+       *[other] Nie resetuj żadnej karty.
     }

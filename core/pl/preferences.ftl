@@ -83,6 +83,17 @@ preferences-ankiweb-intro = AnkiWeb to darmowy serwis pozwalający na synchroniz
 preferences-ankihub-intro = AnkiHub pozwala na wspólne edytowanie talii i daje dodatkowe narzędzia do nauki. Część możliwości jest dostępna za płatną subskrypcją.
 preferences-third-party-description = Usługi stron trzecich nie mają związku z Anki ani oficjalnego wsparcia. Użycie tych usług może wymagać płatności.
 
+## URL scheme related
+
+preferences-url-schemes = Schematy URL
+preferences-url-scheme-prompt = Dozwolone schematy URL (oddzielone spacją):
+preferences-url-scheme-warning =
+    Zablokowano próbę otwarcia `{ $link }`, co może stanowić zagrożenie.
+    
+    Jeśli ufasz autorowi talii i chcesz kontynuować, możesz dodać `{ $scheme }` do dozwolonych schematów URL.
+preferences-url-scheme-allow-once = Zezwól raz
+preferences-url-scheme-always-allow = Zawsze zezwalaj
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Ogólne
