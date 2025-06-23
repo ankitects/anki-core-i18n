@@ -89,10 +89,10 @@ deck-config-leech-threshold-tooltip =
     Pijawki to karty, których zabiera bardzo dużo twojego czasu. Kiedy karta zostaje oznaczona jako pijawka dobrym pomysłem jest zmienić jej treść, usunąć ją lub pomyśleć nad mnemotechniką, która pomoże ci ją zapamiętać.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    `Tylko etykieta`: Dodaj do notatki etykietę "leech" i pokaż wyskakujący komunikat.
+    `Tylko tag`: Dodaj tag „leech” — oznaczający kartę często zapominaną
+    i problematyczną — do notatki i wyświetl okienko z powiadomieniem.
     
-    `Zawieś kartę`: Oprócz dodania etykiety, dodatkowo ukryj kartę, póki
-    nie zostanie ręcznie odwieszona.
+    `Zawieś kartę`: Oprócz oznaczenia notatki tagiem, ukryj kartę do czasu jej ręcznego odblokowania.
 
 ## Burying section
 

@@ -5,10 +5,11 @@ empty-cards-preserve-notes-checkbox = Zachowaj notatki bez poprawnych kart
 empty-cards-delete-button = Usuń
 empty-cards-not-found = Brak pustych kart.
 empty-cards-deleted-count =
-    Usunięto { $cards ->
-        [one] { $cards } kartę
-        [few] { $cards } karty
-       *[other] { $cards } kart
+    { $cards ->
+        [one] Usunięto { $cards } kartę.
+        [few] Usunięto { $cards } karty.
+        [many] Usunięto { $cards } kart.
+       *[other] Nie usunięto żadnej karty.
     }
 empty-cards-delete-empty-cards = Usuń puste karty
 empty-cards-delete-empty-notes = Usuń puste notatki

@@ -26,9 +26,11 @@ media-check-subfolder-header = Foldery w folderze plików nie są wspierane.
 media-check-missing-header = Użyte w kartach, ale brakujące w folderze z plikami:
 media-check-unused-header = Znaleziono następujące pliki w folderze plików, które nie są używane w żadnych kartach:
 media-check-template-references-field-header =
-    Anki nie może wykryć używanych plików, gdy używasz odniesienia { "{{Field}}" } w etykietach plików/LaTeX. Etykiety plików/LaTeX powinny znajdować się w osobnych notatkach.
+    Anki nie może wykryć używanych plików, jeśli w tagach media/LaTeX zostały zastosowane
+    odwołania w formacie { "{{Field}}" }. Tagów media/LaTeX należy używać dla pojedynczych
+    notatek.
     
-    Odwołuje się do szablonów:
+    Szablony referencyjne:
 
 ## Shown once for each file
 
@@ -52,16 +54,18 @@ media-check-checked = Sprawdzono { $count }...
 media-check-delete-unused-confirm = Usunąć nieużywane pliki?
 media-check-files-remaining =
     { $count ->
-        [one] 1 plik
-        [few] { $count } pliki
-       *[other] { $count } plików
-    } - liczba pozostałych do zakończenia.
+        [one] Pozostał { $count } plik.
+        [few] Pozostały { $count } pliki.
+        [many] Pozostało { $count } plików.
+       *[other] Pozostało { $count } plików.
+    }
 media-check-delete-unused-complete =
     { $count ->
-        [one] 1 plik
-        [few] { $count } pliki
-       *[other] { $count } plików
-    } przeniesiono do kosza.
+        [one] { $count } plik został przeniesiony do kosza.
+        [few] { $count } pliki zostały przeniesione do kosza.
+        [many] { $count } plików zostało przeniesionych do kosza.
+       *[other] Żaden plik nie został przeniesiony do kosza.
+    }
 media-check-trash-emptied = Kosz opróżniony
 media-check-trash-restored = Przywrócono usunięte pliki do folderu plików.
 
@@ -81,4 +85,4 @@ media-check-check-media-action = Sprawdź pliki
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = brak-pliku
 # add a tag to notes with missing media
-media-check-add-tag = Brakująca etykieta
+media-check-add-tag = Brakujący tag

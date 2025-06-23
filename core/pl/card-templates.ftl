@@ -4,7 +4,8 @@ card-templates-changes-will-affect-notes =
     { $count ->
         [one] Poniższe zmiany będą miały wpływ na { $count } notatkę, która używa tego typu karty.
         [few] Poniższe zmiany będą miały wpływ na { $count } notatki, które używają tego typu karty.
-       *[other] Poniższe zmiany będą miały wpływ na { $count } notatek, które używają tego typu karty.
+        [many] Poniższe zmiany będą miały wpływ na { $count } notatatek, które używają tego typu karty.
+       *[other] Poniższe zmiany nie będą miały wpływu na żadną notatkę, ponieważ żadna nie używa tego typu karty.
     }
 card-templates-card-type = Typ karty:
 card-templates-front-template = Szablon przodu
@@ -53,13 +54,15 @@ card-templates-card-count =
     { $count ->
         [one] { $count } karta
         [few] { $count } karty
+        [many] { $count } kart
        *[other] { $count } kart
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
         [one] Zostanie stworzona { $count } karta. Kontynuować?
         [few] Zostaną stworzone { $count } karty. Kontynuować?
-       *[other] Zostanie stworzonych { $count } kart. Kontynuować?
+        [many] Zostanie stworzonych { $count } kart. Kontynuować?
+       *[other] Nie zostanie stworzona żadna karta. Kontynuować?
     }
 card-templates-type-boxes-warning = Szablon karty może zawierać tylko jedno pole wprowadzania.
 card-templates-restore-to-default = Przywróć domyślne

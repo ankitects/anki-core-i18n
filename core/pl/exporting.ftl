@@ -14,7 +14,7 @@ exporting-include-html-and-media-references = Dołącz HTML i odnośniki do plik
 exporting-include-media = Dołącz pliki
 exporting-include-scheduling-information = Dołącz informację o planowaniu
 exporting-include-deck-configs = Dołącz opcje talii
-exporting-include-tags = Dołącz etykiety
+exporting-include-tags = Uwzględnij tagi
 exporting-support-older-anki-versions = Zgodność ze starymi wersjami Anki (wolniej, większe pliki)
 exporting-notes-in-plain-text = Notatki jako zwykły tekst
 exporting-selected-notes = Wybrane notatki
@@ -22,19 +22,22 @@ exporting-card-exported =
     { $count ->
         [one] Wyeksportowano { $count } kartę.
         [few] Wyeksportowano { $count } karty.
-       *[other] Wyeksportowano { $count } kart.
+        [many] Wyeksportowano { $count } kart.
+       *[other] Nie wyeksportowano żadnej karty.
     }
 exporting-exported-media-file =
     { $count ->
         [one] Wyeksportowano { $count } plik
         [few] Wyeksportowano { $count } pliki
-       *[other] Wyeksportowano { $count } plików
+        [many] Wyeksportowano { $count } plików
+       *[other] Nie wyeksportowano żadnego pliku
     }
 exporting-note-exported =
     { $count ->
         [one] Wyeksportowano { $count } notatkę.
         [few] Wyeksportowano { $count } notatki.
-       *[other] Wyeksportowano { $count } notatek.
+        [many] Wyeksportowano { $count } notatek.
+       *[other] Nie wyeksportowano żadnej notatki.
     }
 exporting-exporting-file = Eksport pliku...
 exporting-processed-media-files =

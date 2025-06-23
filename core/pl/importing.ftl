@@ -31,9 +31,9 @@ importing-import-options = Opcje importowania
 importing-importing-complete = Importowanie zakończone.
 importing-invalid-file-please-restore-from-backup = Nieprawidłowy plik. Przywróć kopię zapasową.
 importing-map-to = Odwzorowanie na { $val }
-importing-map-to-tags = Odwzorowanie na etykiety
+importing-map-to-tags = Przypisz do tagów
 importing-mapped-to = odwzorowane na <b>{ $val }</b>
-importing-mapped-to-tags = odwzorowane na <b>etykiety</b>
+importing-mapped-to-tags = przypisane do <b>tagów</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Połącz typy notatek
 importing-merge-notetypes-help =
@@ -57,8 +57,10 @@ importing-also-import-progress = importuj postęp nauki
 importing-with-deck-configs = Importuj opcje talii
 importing-updates = Aktualizacja
 importing-include-reviews-help =
-    Jeśli zostanie włączone, jakiekolwiek poprzednie powtórki, które zostały wykonane przez udostępniającego talię również zostaną zaimportowane. 
-    W przeciwnym razie wszystkie karty zostaną zaimportowane jako nowe i wszystkie etykiety "leech" (pijawka) oraz "marked" (oznaczona) zostaną usunięte.
+    Jeśli opcja jest włączona, zostaną zaimportowane również wszystkie wcześniejsze powtórki
+    dołączone przez udostępniającego talię. W przeciwnym razie wszystkie karty zostaną
+    zaimportowane jako nowe, a tagi „leech” — oznaczające kartę często zapominaną
+    problematyczną — i „marked” zostaną usunięte.
 importing-with-deck-configs-help =
     Jeśli zostanie włączone, jakiekolwiek opcje talii ustawione przez udostępniającego również zostaną zaimportowane.
     W przeciwnym razie wszystkie talie otrzymają domyślne opcje.
@@ -80,7 +82,7 @@ importing-semicolon = Średnik
 importing-skipped = Pominięte
 importing-supermemo-xml-export-xml = Eksport XML Supermemo (*.xml)
 importing-tab = Tabulator
-importing-tag-modified-notes = Nadaj etykietę zmodyfikowanym notatkom:
+importing-tag-modified-notes = Nadaj tagi zmodyfikowanym notatkom:
 importing-text-separated-by-tabs-or-semicolons = Tekst oddzielony tabulacją lub średnikami (*)
 importing-the-first-field-of-the-note = Pierwsze pole typu notatki musi być przypisane.
 importing-the-provided-file-is-not-a = Podany plik nie jest poprawnym plikiem .apkg.

@@ -1,5 +1,5 @@
 browsing-add-notes = Dodaj notatki...
-browsing-add-tags2 = Dodaj etykiety...
+browsing-add-tags2 = Dodaj tag...
 browsing-add-to-selected-notes = Dodaj do wybranych notatek
 browsing-remove-from-selected-notes = Usuń z wybranych notatek
 browsing-addon = Dodatek
@@ -19,6 +19,7 @@ browsing-cards-deleted =
     { $count ->
         [one] Usunięto { $count } kartę.
         [few] Usunięto { $count } karty.
+        [many] Usunięto { $count } kart.
        *[other] Usunięto { $count } kart.
     }
 browsing-cards-deleted-with-deckname =
@@ -30,9 +31,10 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Zmień talię
 browsing-change-deck2 = Zmień talię...
 browsing-change-note-type = Zmień typ notatki
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Zmień typ notatki...
 browsing-change-notetype = Zmień typ notatki
-browsing-clear-unused-tags = Usuń nieużywane etykiety
+browsing-clear-unused-tags = Usuń nieużywane tagi
 browsing-confirm-saved-search-overwrite = Zapisane wyszukiwanie o nazwie { $name } już istnieje. Czy chcesz je nadpisać?
 browsing-created = Utworzona
 browsing-current-deck = Aktualna talia
@@ -40,8 +42,8 @@ browsing-current-note-type = Aktualny typ notatki:
 browsing-delete-notes = Usuń notatki
 browsing-duplicate = duplikat
 browsing-ease = Łatwość
-browsing-enter-tags-to-add = Wpisz etykiety do dodania:
-browsing-enter-tags-to-delete = Wpisz etykiety do usunięcia:
+browsing-enter-tags-to-add = Wpisz tagi do dodania:
+browsing-enter-tags-to-delete = Wpisz tagi do usunięcia:
 browsing-filtered = (filtrowana)
 browsing-find = <b>Znajdź</b>:
 browsing-find-and-replace = Znajdź i zamień
@@ -76,7 +78,7 @@ browsing-question = Pytanie
 browsing-queue-bottom = Koniec kolejki: { $val }
 browsing-queue-top = Początek kolejki: { $val }
 browsing-randomize-order = Kolejnośc losowa
-browsing-remove-tags = Usuń etykiety...
+browsing-remove-tags = Usuń tagi...
 browsing-replace-with = <b>Zastąp przez</b>:
 browsing-reposition = Zmień pozycję...
 browsing-reposition-new-cards = Zmień pozycję nowych kart
@@ -95,8 +97,8 @@ browsing-sorting-on-this-column-is-not = Sortowanie po tej kolumnie nie jest mo�
 browsing-start-position = Położenie początkowe:
 browsing-step = Krok:
 browsing-suspended = Zawieszone
-browsing-tag-duplicates = Nadaj etykiety duplikatom
-browsing-tag-rename-warning-empty = Nie możesz zmienić nazwy etykiety nieprzypisanej do żadnej notatki.
+browsing-tag-duplicates = Nadaj tagi duplikatom
+browsing-tag-rename-warning-empty = Nie możesz zmienić nazwy tagu nieprzypisanego do żadnej notatki.
 browsing-target-field = Pole docelowe:
 browsing-toggle-bury = Przełącz zakopanie
 browsing-toggle-showing-cards-notes = Przełącz pokazywanie kart/notatek
@@ -111,25 +113,29 @@ browsing-group =
     { $count ->
         [one] { $count } grupa
         [few] { $count } grupy
+        [many] { $count } grup
        *[other] { $count } grup
     }
 browsing-note-count =
     { $count ->
         [one] { $count } notatka
         [few] { $count } notatki
+        [many] { $count } notatek
        *[other] { $count } notatek
     }
 browsing-notes-updated =
     { $count ->
-        [one] { $count } notatka zaktualizowana.
-        [few] { $count } notatki zaktualizowane .
-       *[other] { $count } notatek zaktualizowanych.
+        [one] Zaktualizowano { $count } notatkę.
+        [few] Zaktualizowano { $count } notatki.
+        [many] Zaktualizowano { $count } notatek.
+       *[other] Zaktualizowano { $count } notatek.
     }
 browsing-cards-updated =
     { $count ->
-        [one] zaktualizowano { $count } kartę.
-        [few] zaktualizowano { $count } karty.
-       *[other] zaktualizowano { $count } kart.
+        [one] Zaktualizowano { $count } kartę.
+        [few] Zaktualizowano { $count } karty.
+        [many] Zaktualizowano { $count } kart.
+       *[other] Zaktualizowano { $count } kart.
     }
 browsing-window-title = Przeglądaj (wybrano { $selected } z { $total } kart)
 browsing-sidebar-expand = Rozwiń
@@ -137,7 +143,7 @@ browsing-sidebar-collapse = Złóż
 browsing-sidebar-expand-children = Rozwiń podtalie
 browsing-sidebar-collapse-children = Zwiń podtalie
 browsing-sidebar-decks = Talie
-browsing-sidebar-tags = Etykiety
+browsing-sidebar-tags = Tagi
 browsing-sidebar-notetypes = Typy notatek
 browsing-sidebar-saved-searches = Zapisane wyszukiwania
 browsing-sidebar-save-current-search = Zapisz obecne wyszukiwanie
@@ -145,7 +151,7 @@ browsing-sidebar-card-state = Stan karty
 browsing-sidebar-flags = Flagi
 browsing-today = Dzisiaj
 browsing-tooltip-card-modified = Ostatni raz, gdy dokonano zmian w karcie, w tym powtórki, flagi i zmiany w talii
-browsing-tooltip-note-modified = Ostatni czas, gdy zmieniono notatkę, zazwyczaj edytując zawartość pól lub etykiety
+browsing-tooltip-note-modified = Data ostatniej zmiany w notatce, zwykle zawartości pól lub tagów
 browsing-tooltip-card = Nazwa szablonu karty
 browsing-tooltip-cards = Liczba kart, jakie zawiera notatka
 browsing-tooltip-notetype = Nazwa typu notatki
@@ -158,26 +164,29 @@ browsing-edited-today = Edytowane dzisiaj
 browsing-sidebar-first-review = Pierwsze przeglądnięcie
 browsing-sidebar-rescheduled = Zmieniono plan
 browsing-sidebar-due-today = Na dziś
-browsing-sidebar-untagged = Bez etykiety
+browsing-sidebar-untagged = Bez tagów
 browsing-sidebar-overdue = Zaległe
 browsing-row-deleted = (usunięto)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Usunięto { $count } nieużywaną etykietę.
-        [few] Usunięto { $count } nieużywane etykiety.
-       *[other] Usunięto { $count } nieużywanych etykiet.
+        [one] Usunięto { $count } nieużywany tag.
+        [few] Usunięto { $count } nieużywane tagi.
+        [many] Usunięto { $count } nieużywanych tagów.
+       *[other] Nie usunięto żadnych nieużywanych tagów.
     }
 browsing-changed-new-position =
     { $count ->
         [one] Zmieniono pozycję { $count } nowej karty .
         [few] Zmieniono pozycję { $count } nowych kart.
-       *[other] Zmieniono pozycję { $count } nowych kart.
+        [many] Zmieniono pozycję { $count } nowych kart.
+       *[other] Nie zmieniono pozycji żadnej nowej karty.
     }
 browsing-reparented-decks =
     { $count ->
         [one] Zmieniono nazwę { $count } talii.
         [few] Zmieniono nazwę { $count } talii.
-       *[other] Zmieniono nazwę { $count } talii.
+        [many] Zmieniono nazwę { $count } talii.
+       *[other] Nie zmieniono nazwy żadnej talii.
     }
 browsing-sidebar-card-state-review = Powtarzane
 

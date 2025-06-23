@@ -12,7 +12,8 @@ studying-cards-buried =
     { $count ->
         [one] Zakopano { $count } kartę.
         [few] Zakopano { $count } karty.
-       *[other] Zakopano { $count } kart.
+        [many] Zakopano { $count } kart.
+       *[other] Nie zakopano żadnej karty.
     }
 studying-cards-will-be-automatically-returned-to = Po zakończeniu powtórek, karty automatycznie powrócą do talii źródłowej.
 studying-continue = Kontynuuj
@@ -51,12 +52,14 @@ studying-card-studied-in =
     { $count ->
         [one] Przejrzano { $count } kartę w
         [few] Przejrzano { $count } karty w
+        [many] Przejrzano { $count } kart w
        *[other] Przejrzano { $count } kart w
     }
 studying-minute =
     { $count ->
         [one] { $count } minuta.
         [few] { $count } minuty.
+        [many] { $count } minut.
        *[other] { $count } minut.
     }
 studying-question-time-elapsed = Minął czas na odpowiedź

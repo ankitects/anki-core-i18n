@@ -3,7 +3,7 @@ custom-study-all-cards-in-random-order-dont = Wszystkie karty w losowej kolejno�
 custom-study-all-review-cards-in-random-order = Wszystkie karty w losowej kolejności
 custom-study-cards = kart
 custom-study-cards-from-the-deck = kart z talii
-custom-study-choose-tags = Wybierz etykiety
+custom-study-choose-tags = Wybierz tagi
 custom-study-custom-study-session = Sesja nauki własnej
 custom-study-due-cards-only = Tylko karty oczekujące
 custom-study-increase-todays-new-card-limit = Zwiększenie dzisiejszego limitu nowych kart
@@ -15,20 +15,20 @@ custom-study-no-cards-matched-the-criteria-you = Żadne karty nie odpowiadają p
 custom-study-ok = OK
 custom-study-preview-new-cards = Podgląd nowych kart
 custom-study-preview-new-cards-added-in-the = Podglądnij nowe karty dodane przez ostatnie
-custom-study-require-one-or-more-of-these = Wymagaj co najmniej jednej z etykiet:
+custom-study-require-one-or-more-of-these = Wymagany przynajmniej jeden z tych tagów:
 custom-study-review-ahead = Powtórka z wyprzedzeniem
 custom-study-review-ahead-by = Powtórz z wyprzedzeniem o
 custom-study-review-cards-forgotten-in-last = Powtórz karty zapomniane przez ostatnie
 custom-study-review-forgotten-cards = Powtórka zapomnianych kart
 custom-study-select = Wybierz
-custom-study-select-tags-to-exclude = Wybierz etykiety do wykluczenia:
+custom-study-select-tags-to-exclude = Wybierz tagi do wykluczenia:
 custom-study-selective-study = Selektywna nauka
-custom-study-study-by-card-state-or-tag = Powtórka według stanu karty lub etykiety
+custom-study-study-by-card-state-or-tag = Powtórka według stanu karty lub tagu
 custom-study-available-new-cards-2 = Dostępne nowe karty: { $countString }
 custom-study-available-review-cards-2 = Dostępne karty do powtórki: { $countString }
 custom-study-available-child-count = ({ $count } w podtaliach)
 
-## DEPRECATED - you do not need to translate these.
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Dostępne nowe karty: { $count }
 custom-study-available-review-cards = Dostępne karty do powtórki: { $count }
