@@ -7,10 +7,10 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     { $decks ->
-        [one] używa { $decks } talia
-        [few] używają { $decks } talie
-        [many] używa { $decks } talii
-       *[other] używa { $decks } talii
+        [one] używana przez { $decks } talię
+        [few] używajna przez { $decks } talie
+        [many] używana przez { $decks } talii
+       *[other] używana przez { $decks } talii
     }
 deck-config-default-name = Domyślna
 deck-config-title = Opcje talii
@@ -18,16 +18,21 @@ deck-config-title = Opcje talii
 ## Daily limits section
 
 deck-config-daily-limits = Dzienne limity
-deck-config-new-limit-tooltip = Maksymalna liczba nowych kart do pokazania na dzień. Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy, powinien on być co najmniej 10 razy mniejszy niż ustawiony limit powtórek.
-deck-config-review-limit-tooltip = Maksymalna dzienna liczba powtórek.
+deck-config-new-limit-tooltip =
+    Maksymalna liczba nowych kart do pokazania na dzień.
+    Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy,
+    powinien on być co najmniej 10 razy mniejszy niż ustawiony limit powtórek.
+deck-config-review-limit-tooltip =
+    Maksymalna dzienna liczba powtórek,
+    jeśli istnieją karty do powtórki.
 deck-config-limit-deck-v3 =
     Podczas nauki talii, która ma w sobie talie podrzędne, limit ustawiony na każdej
     talii podrzędnej kontroluje maksymalną liczbę kart pobieranych z tej konkretnej talii.
     Limity wybranej talii kontrolują całkowitą liczbę kart, które bedą pokazywane.
 deck-config-limit-new-bound-by-reviews =
     Limit powtórek ma wpływ na limit nowych kart. Na przykład, jeśli twój limit powtórek 
-    wynosi 200 i masz 190 powtórek, które oczekują, zostanie pokazane maksymalnie 10 nowych kart.
-    Jeśli twój limit powtórek został osiągnięty, to nie będą pokazywane nowe karty.
+    wynosi 200 i masz 190 oczekujących powtórek, zostanie pokazane maksymalnie 10 nowych kart.
+    Jeśli twój limit powtórek został osiągnięty, nowe karty nie będą pokazywane.
 deck-config-limit-interday-bound-by-reviews =
     Limit powtórek wpływa też na wielodniowe karty w nauce. Przy aplikowaniu limitu,
     wielodniowe karty w nauce są pobierane najpierw, przed kartami powtarzanymi.
@@ -109,7 +114,7 @@ deck-config-bury-priority-tooltip =
     
     - Karty podobne znajdujące się dalej na liście nie mogą zakopać wcześniejszych typów kart. Na przykład: Jeśli wyłączysz zakopywanie nowych kart, a następnie będziesz uczył się nowej karty, nie zakopie ona nowych lub powtarzanych kart nauki wielodniowej i możesz zobaczyć zarówno kartę podobną powtarzaną jak i nową w tej samej sesji
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Kolejność wyświetlania
 deck-config-new-gather-priority = Kolejność zbierania nowych kart
@@ -123,12 +128,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Losowe notatki`: Notatki są wybierane losowo, a następnie zbierane są wszystkie ich karty.
     
     `Losowe karty`: Karty są zbierane w losowej kolejności.
-deck-config-new-gather-priority-deck = Talia
-deck-config-new-gather-priority-deck-then-random-notes = Talia, potem losowe notatki
-deck-config-new-gather-priority-position-lowest-first = Pozycja rosnąco
-deck-config-new-gather-priority-position-highest-first = Pozycja malejąco
-deck-config-new-gather-priority-random-notes = Losowe notatki
-deck-config-new-gather-priority-random-cards = Losowe karty
 deck-config-new-card-sort-order = Kolejność nowych kart
 deck-config-new-card-sort-order-tooltip-2 =
     `Typ karty`: Karty są pokazywane według numeru typu karty.
@@ -143,11 +142,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Losowa notatka, następnie typ karty`: Notatki są wybierane losowo, a następnie wszystkie ich karty wyświetlane są w kolejności.
     
     `Losowo`: Karty są pokazywane w losowej kolejności.
-deck-config-sort-order-card-template-then-random = Typ karty, następnie losowo
-deck-config-sort-order-random-note-then-template = Losowa notatka, następnie typ karty
-deck-config-sort-order-random = Losowo
-deck-config-sort-order-template-then-gather = Typ karty
-deck-config-sort-order-gather = W zebranej kolejności
 deck-config-new-review-priority = Kolejność nowych/powtórek
 deck-config-new-review-priority-tooltip = Kiedy pokazywać nowe karty względem kart powtarzanych.
 deck-config-interday-step-priority = Kolejność nauki/powtórek wielodniowych
@@ -155,26 +149,65 @@ deck-config-interday-step-priority-tooltip =
     Kiedy pokazywać (ponownie) uczone karty, które przekroczyły granice dnia.
     
     Limit powtórek ma zawsze zastosowanie najpierw do wielodniowych kart w nauce, a następnie powtórek. Ta opcja kontroluje kolejność pokazywania zebranych kart, jednak wielodniowe karty w nauce zawsze bedą miały pierwszeństwo.
-deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
-deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
-deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
 deck-config-review-sort-order = Kolejność przeglądania
 deck-config-review-sort-order-tooltip =
     Domyślna kolejność prioretyzuje karty, które oczekiwały najdłużej, więc jeśli
     masz zaległe powtórki, najpierw pojawią się te, które oczekiwały najdłużej.
     Jeśli masz duże zaległości, których nadrobienie zajmie więcej niż kilka dni lub chcesz widzieć karty w kolejności talii podrzędnej, alternatywne tryby sortowania mogą być dla ciebie odpowiednie/
-deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowa
-deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
-deck-config-sort-order-deck-then-due-date = Talia, potem zaplanowana data
-deck-config-sort-order-ascending-intervals = Po rosnącej przerwie
-deck-config-sort-order-descending-intervals = Po malejącej przerwie
-deck-config-sort-order-ascending-ease = Po rosnącej łatwości
-deck-config-sort-order-descending-ease = Po malejącej łatwości
-deck-config-sort-order-ascending-difficulty = Trudność rosnąco
-deck-config-sort-order-descending-difficulty = Trudność malejąco
-deck-config-sort-order-retrievability-ascending = Rosnąca przywoływalność
-deck-config-sort-order-retrievability-descending = Malejąca przywoływalność
 deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Talia
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Talia, potem losowe notatki
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Pozycja rosnąco
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Pozycja malejąco
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Losowe notatki
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Losowe karty
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Typ karty, następnie losowo
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Losowa notatka, następnie typ karty
+# Sort the cards randomly.
+deck-config-sort-order-random = Losowo
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Typ karty
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = W zebranej kolejności
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Pokaż po powtórkach
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Pokaż przed powtórkami
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Zaplanowana data, potem losowa
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Zaplanowana data, potem talia
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Talia, potem zaplanowana data
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Po rosnącej przerwie
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Po malejącej przerwie
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Po rosnącej łatwości
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Po malejącej łatwości
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Trudność rosnąco
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Trudność malejąco
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Rosnąca przywoływalność
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Malejąca przywoływalność
 
 ## Timer section
 
@@ -226,16 +259,16 @@ deck-config-minimum-interval-tooltip = Minimalna przerwa przypisywana karcie pow
 deck-config-custom-scheduling = Własne planowanie
 deck-config-custom-scheduling-tooltip = Ma wpływ na całą kolekcję. Używasz na własne ryzyko!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Lżejsze dni
-deck-config-easy-days-monday = Poniedziałek
-deck-config-easy-days-tuesday = Wtorek
-deck-config-easy-days-wednesday = Środa
-deck-config-easy-days-thursday = Czwartek
-deck-config-easy-days-friday = Piątek
-deck-config-easy-days-saturday = Sobota
-deck-config-easy-days-sunday = Niedziela
+deck-config-easy-days-monday = Pon.
+deck-config-easy-days-tuesday = Wt.
+deck-config-easy-days-wednesday = Śr.
+deck-config-easy-days-thursday = Czw.
+deck-config-easy-days-friday = Pt.
+deck-config-easy-days-saturday = Sob.
+deck-config-easy-days-sunday = Nd.
 deck-config-easy-days-normal = Normalnie
 deck-config-easy-days-reduced = Mniej
 deck-config-easy-days-minimum = Minimalnie
@@ -282,15 +315,17 @@ deck-config-daily-limit-will-be-capped =
        *[many] Talia nadrzędna ma limit { $cards } kart, który nadpisze ten limit.
     }
 deck-config-reviews-too-low =
-    Jeśli dodajesz { $cards ->
-        [one] { $cards } kartę dziennie
-        [few] { $cards } karty dziennie
-       *[other] { $cards } kart dziennie
-    }, twój limit powinien wynosić przynajmniej { $expected }.
+    { $cards ->
+        [one] Jeśli dodajesz { $cards } kartę dziennie, twój limit powinien wynosić przynajmniej { $expected }.
+        [few] Jeśli dodajesz { $cards } karty dziennie, twój limit powinien wynosić przynajmniej { $expected }.
+        [many] Jeśli dodajesz { $cards } kart dziennie, twój limit powinien wynosić przynajmniej { $expected }.
+       *[other] Jeśli dodajesz { $cards } kart dziennie, twój limit powinien wynosić przynajmniej { $expected }.
+    }
 deck-config-learning-step-above-graduating-interval = Przerwa dla kart po nauce powinna być przynajmniej tak długa jak ostatni z kroków nauki.
 deck-config-good-above-easy = Przerwa dla łatwych powinna być przynajmniej tak długa jak przerwa dla kart po nauce.
 deck-config-relearning-steps-above-minimum-interval = Minimalna przerwa pomyłki powinna być przynajmniej długa jak ostatni krok ponownej nauki.
 deck-config-maximum-answer-secs-above-recommended = Anki będzie skutecznie planować powtórki tylko pod warunkiem, że będziesz ustawiać krótkie pytania.
+deck-config-too-short-maximum-interval = Nie zaleca się stosowania maksymalnego okresu krótszego niż 6 miesięcy.
 
 ## Selecting a deck
 
@@ -363,12 +398,6 @@ deck-config-compute-optimal-retention-tooltip4 =
     To narzędzie spróbuje znaleźć optymalną wartość zapamiętywania,
     który doprowadzi do nauki największej ilości materiału w jak najkrótszym czasie. Obliczona wartość może służyć jako odniesienie podczas decyzji przy ustalaniu oczekiwanej wartości zapamiętywania. Możesz ustawić wyższe oczekiwane zapamiętywanie, jeśli jesteś chętny poświęcić więcej czasu, aby je osiągnąć. Ustawienie oczekiwanego zapamiętywania niżej niż wartość minimalna nie jest zalecane, ponieważ doprowadzi to do wyższego obciążenia z powodu dużej wartości zapominania.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dnia.
-        [few] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
-       *[many] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
-    }
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% z { $reviews } powtórki
@@ -400,8 +429,17 @@ deck-config-fsrs-simulator-radio-count = Powtórki
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamiętane
 
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dnia.
+        [few] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
+       *[many] Przerwa w wysokości 100 dni stanie się przerwą w wysokości  { $days } dni.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = .
 deck-config-fsrs-simulator-y-axis-title-count = .
 deck-config-fsrs-simulator-y-axis-title-memorized = .
