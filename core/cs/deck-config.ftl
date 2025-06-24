@@ -119,7 +119,7 @@ deck-config-bury-priority-tooltip =
     - Jsou-li povoleny všechny možnosti přeskakování, zobrazí se příbuzné karty, které jsou v tomto seznamu na řadě nejdříve. Například, karta k zopakování se zobrazí přednostně před novou kartou.
     - Příbuzné karty níže na seznamu nemohou přeskočit typy karet, které jsou výše. Například, jestliže zakážete přeskakování nových karet a učíte se novou kartu, nepřeskočí žádnou učenou kartu, která překračuje do dalšího dne nebo kartu k zopakování a můžete tak vidět obě příbuzné karty během jednoho procvičování.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Pořadí zobrazování
 deck-config-new-gather-priority = Pořadí nabírání nových karet
@@ -138,12 +138,6 @@ deck-config-new-gather-priority-tooltip-2 =
     `Poznámky náhodně`: vybírá poznámky náhodně, poté nabere všechny jejich karty.
     
     `Karty náhodně`: nabírá karty zcela náhodně.
-deck-config-new-gather-priority-deck = Balíček
-deck-config-new-gather-priority-deck-then-random-notes = Balíček, poté poznámky náhodně
-deck-config-new-gather-priority-position-lowest-first = Umístění vzestupně
-deck-config-new-gather-priority-position-highest-first = Umístění sestupně
-deck-config-new-gather-priority-random-notes = Poznámky náhodně
-deck-config-new-gather-priority-random-cards = Karty náhodně
 deck-config-new-card-sort-order = Pořadí řazení nových karet
 deck-config-new-card-sort-order-tooltip-2 =
     `Typ karty, poté pořadí nabrání`: Zobrazuje karty v pořadí podle čísla typu karty. 
@@ -162,11 +156,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Poznámky náhodně, poté typ karty`: Vybírá poznámky náhodně, poté zobrazí všechny jejich karty v pořadí.
     
     `Náhodně`: Zobrazí karty v náhodném pořadí.
-deck-config-sort-order-card-template-then-random = Typ karty, poté náhodně
-deck-config-sort-order-random-note-then-template = Poznámky náhodně, poté typ karty
-deck-config-sort-order-random = Náhodně
-deck-config-sort-order-template-then-gather = Typ karty
-deck-config-sort-order-gather = V pořadí nabrání
 deck-config-new-review-priority = Pořadí nové/opakování
 deck-config-new-review-priority-tooltip = Kdy zobrazit nové karty ve vztahu k opakovaným kartám.
 deck-config-interday-step-priority = Pořadí učení/opakování mezi dny
@@ -176,9 +165,6 @@ deck-config-interday-step-priority-tooltip =
     Limit opakování se vždy použije jako první na učené karty, které překračují do dalšího 
     dne, a poté na opakování. Tato volba řídí pořadí, v jakém jsou nabrané karty zobrazeny, 
     ale učené karty překračující do dalšího dne budou vždy nabrány jako první.
-deck-config-review-mix-mix-with-reviews = Smíchat s opakováním
-deck-config-review-mix-show-after-reviews = Zobrazit po opakování
-deck-config-review-mix-show-before-reviews = Zobrazit před opakováním
 deck-config-review-sort-order = Pořadí řazení opakování
 deck-config-review-sort-order-tooltip =
     Výchozí řazení upřednostňuje karty, které čekaly nejdéle, takže jestliže máte 
@@ -186,20 +172,62 @@ deck-config-review-sort-order-tooltip =
     velké množství nevyřízených opakování, která zaberou více, než několik málo 
     dní, nebo si přejte vidět karty v pořadí podřízených balíčků, můžete shledat 
     alternativní pořadí řazení vhodnější.
-deck-config-sort-order-due-date-then-random = Datum zkoušení, poté náhodně
-deck-config-sort-order-due-date-then-deck = Datum zkoušení, poté balíček
-deck-config-sort-order-deck-then-due-date = Balíček, poté datum zkoušení
-deck-config-sort-order-ascending-intervals = Intervaly vzestupně
-deck-config-sort-order-descending-intervals = Intervaly sestupně
-deck-config-sort-order-ascending-ease = Snadnost vzestupně
-deck-config-sort-order-descending-ease = Snadnost sestupně
-deck-config-sort-order-ascending-difficulty = Snadné karty nejdříve
-deck-config-sort-order-descending-difficulty = Obtížné karty nejdříve
-deck-config-sort-order-retrievability-ascending = Zapamatování vzestupně
-deck-config-sort-order-retrievability-descending = Zapamatování sestupně
 deck-config-display-order-will-use-current-deck =
     Anki použije pořadí zobrazování balíčku, který jste vybrali 
     ke studiu, a ne podřízených balíčků, které může mít.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Balíček
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Balíček, poté poznámky náhodně
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Umístění vzestupně
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Umístění sestupně
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Poznámky náhodně
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Karty náhodně
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Typ karty, poté náhodně
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Poznámky náhodně, poté typ karty
+# Sort the cards randomly.
+deck-config-sort-order-random = Náhodně
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Typ karty
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = V pořadí nabrání
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Smíchat s opakováním
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Zobrazit po opakování
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Zobrazit před opakováním
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Datum zkoušení, poté náhodně
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Datum zkoušení, poté balíček
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Balíček, poté datum zkoušení
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervaly vzestupně
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervaly sestupně
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Snadnost vzestupně
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Snadnost sestupně
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Snadné karty nejdříve
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Obtížné karty nejdříve
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Zapamatování vzestupně
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Zapamatování sestupně
 
 ## Timer section
 
@@ -267,7 +295,7 @@ deck-config-minimum-interval-tooltip = Minimální interval daný opakované kar
 deck-config-custom-scheduling = Vlastní plánování
 deck-config-custom-scheduling-tooltip = Ovlivní celou kolekci. Používejte na vlastní nebezpečí!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Snadné dny
 deck-config-easy-days-monday = Pondělí
@@ -278,7 +306,7 @@ deck-config-easy-days-friday = Pátek
 deck-config-easy-days-saturday = Sobota
 deck-config-easy-days-sunday = Neděle
 deck-config-easy-days-normal = Normální
-deck-config-easy-days-reduced = Redukované
+deck-config-easy-days-reduced = Snížené
 deck-config-easy-days-minimum = Minimální
 deck-config-easy-days-no-normal-days = Alespoň jeden den by měl být nastaven na '{ deck-config-easy-days-normal }'.
 
@@ -401,12 +429,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Ve výchozím nastavení se parametry vypočítají z historie opakování všech balíčků, které používají aktuální předvolbu. Pokud chcete změnit, které karty se použijí pro optimalizaci parametrů, můžete navíc před výpočtem parametrů upravit vyhledávání.
 deck-config-compute-optimal-retention-tooltip4 = Tento nástroj se pokusí najít požadovanou hodnotu retence, která povede k naučení se co největšího množství materiálu za co nejkratší dobu. Vypočítané číslo může sloužit jako referenční hodnota při rozhodování, jakou hodnotu požadované retence nastavit. Pokud jste ochotni vyměnit více studijního času za vyšší míru zapamatování, můžete zvolit vyšší hodnotu požadované retence. Nastavení požadované retence na nižší než minimální hodnotu se nedoporučuje, protože to povede k vyšší pracovní zátěži kvůli vysoké míře zapomínání.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] 100denní interval se změní na { $days } den.
-        [few] 100denní interval se změní na { $days } dny.
-       *[other] 100denní interval se změní na { $days } dní.
-    }
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% z { $reviews } opakování
@@ -437,8 +459,17 @@ deck-config-fsrs-simulator-radio-count = Opakování
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamatováno
 
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 100denní interval se změní na { $days } den.
+        [few] 100denní interval se změní na { $days } dny.
+       *[other] 100denní interval se změní na { $days } dní.
+    }
 deck-config-fsrs-simulator-y-axis-title-memorized = Zapamatováno celkem
 deck-config-seconds-to-show-question-tooltip = Když je automatický posun aktivovaný, počet sekund, po které se čeká, než se zobrazí odpověď. Nastavením na 0 je zakázán.
 deck-config-answer-action-tooltip = Akce, která se provede na současnou kartu předtím, než se automaticky posunete na další.
