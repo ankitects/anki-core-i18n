@@ -20,6 +20,11 @@ deck-config-new-limit-tooltip =
     Bu, yeni kartlar mevcutsa bir günde tanıtılacak maksimum yeni kart sayısı.
     Yeni materyaller kısa süreli gözden geçirme iş yükünüzü arttıracağı için, 
     bu genellikle gözden geçirme sınırınızdan en az on kat daha az olmalı.
+deck-config-review-limit-tooltip = Bu, yeni kartlar mevcutsa, bir günde tanıtılacak maksimum yeni kart sayısı.
+deck-config-limit-deck-v3 =
+    Altdeste içeren bir desteyi çalışırken, bir altdesteye koyulan sınır, 
+    sadece o altdesteden gelen kartların toplanma sınırını belirler. 
+    Seçilen destenin sınırları gösterilecek toplam kart sayısını belirler.
 deck-config-limit-new-bound-by-reviews =
     Gözden geçirme sınırı yeni sınırı etkiler. Örneğin, eğer gözden geçirme 
     sınırınız 200'de ve 190 gözden geçirme kartı bekliyorsa, en fazla 10 
@@ -30,6 +35,7 @@ deck-config-tab-description =
     - `Bu deste`: Sınır, bu desteye özel.
     - `Sadece bugün`: Bu deste için sınırı geçici olarak değiştir.
 deck-config-new-cards-ignore-review-limit = Yeni kartlar revize limitini yok sayar
+deck-config-apply-all-parent-limits-tooltip = Varsayılan olarak, eğer bir altdesteyi çalışıyorsanız, üst-seviye destenin sınırları bu desteyi etkilemez. Eğer bu seçenek etkinleştirilirse, sınırlar üst-düzey desteden başlar. Bu, eğer alt-desteleri çalışmak ve aynı zamanda deste ağacındaki kartlara genel bir sınır koymak istiyorsanız faydalı olabilir.
 deck-config-affects-entire-collection = Tüm koleksiyonu etkiler.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -44,6 +50,10 @@ deck-config-today-only = Sadece bugün
 deck-config-learning-steps = Öğrenme adımları
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Aralık süreleri genellikle dakika veya gündür ama saat veya saniye de desteklenir.
+deck-config-new-insertion-order-tooltip =
+    Yeni bir kart eklediğinizde kartlara atanan pozisyonu (sıra numarası) belirler. 
+    Daha düşük sıra numarasına sahip kartlar çalışmada önce gösterilir. Bu ayarı 
+    değiştirmek kartların varolan pozisyonunu kendiliğinden günceller.
 
 ## Lapses section
 
@@ -60,19 +70,38 @@ deck-config-bury-title = Gömme
 deck-config-bury-new-siblings = Yeni kardeşleri göm
 deck-config-bury-review-siblings = Gözden geçirilmiş kardeşleri göm
 deck-config-bury-interday-learning-siblings = Günler arası öğrenmesi kardeşleri göm
+deck-config-bury-priority-tooltip =
+    Anki kartları derlerken, önce gün içi öğrenme kartlarını, sonra
+    günler arası öğrenme kartlarını, sonra gözden geçirme kartlarını, en sonda da yeni eklenen kartları
+    toplar. Bu, gömmenin işleyişini etkiler:
+    - Eğer tüm gömme seçenekerini etkinleştirdiyseniz, o listede en önde gelen kardeş gösterilir. Örneğin, bir gözden geçirme kartı yeni eklenen bir karttan daha önceliklidir.
+    - Listede sonra gelen kardeşler, önceki kart türlerini gömemez. Örneğin, eğer yeni kartların gömülmesini kapatırsanız ve yeni eklenen bir kartı çalışırsanız, bu günler arası öğrenme kartlarını ya da gözden geçirme kartların hiçbirini gömmez. Bu durumda, hem bir gözden geçirme kardeş kartı hem de yeni eklenen bir kardeş kartı aynı oturumda görebilirsiniz.
 
-## Ordering section
+## Gather order and sort order of cards
 
-deck-config-new-gather-priority-position-lowest-first = Artan konum
-deck-config-new-gather-priority-position-highest-first = Azalan konum
 deck-config-interday-step-priority = Günler arası öğrenmesi/gözden geçirme sırası
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Artan konum
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Azalan konum
+# Sort the cards by the interval, in ascending order (shortest to longest).
 deck-config-sort-order-ascending-intervals = Artan aralık
+# Sort the cards by the interval, in descending order (longest to shortest).
 deck-config-sort-order-descending-intervals = Azalan aralık
+# Sort the cards by ease, in ascending order (lowest to highest ease).
 deck-config-sort-order-ascending-ease = Artan kolaylık
+# Sort the cards by ease, in descending order (highest to lowest ease).
 deck-config-sort-order-descending-ease = Azalan kolaylık
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
 deck-config-sort-order-ascending-difficulty = Önce daha kolay kartlar
+# Sort the cards by difficulty, in descending order (hardest to easiest).
 deck-config-sort-order-descending-difficulty = Önce daha zor kartlar
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
 deck-config-sort-order-retrievability-ascending = Artan hatırlanabilirlik
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
 deck-config-sort-order-retrievability-descending = Azalan hatırlanabilirlik
 
 ## Timer section
@@ -88,7 +117,7 @@ deck-config-maximum-answer-secs = Maksimum cevap saniyeleri
 ## Advanced section
 
 
-# Easy Days section
+## Easy Days section.
 
 
 ## Adding/renaming
@@ -129,6 +158,9 @@ deck-config-show-reminder = Hatırlatıcıyı Göster
 deck-config-answer-again = Tekrar Cevapla
 deck-config-answer-hard = Zor
 deck-config-answer-good = İyi
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
