@@ -247,9 +247,9 @@ deck-config-stop-timer-on-answer-tooltip =
 
 ## Auto Advance section
 
-deck-config-seconds-to-show-question = שניות להצגת השאלה
+deck-config-seconds-to-show-question = שניות המתנה בהצגת השאלה
 deck-config-seconds-to-show-question-tooltip-3 = כשמופעלת התקדמות אוטומטית, זה מספר השניות להמתנה בטרם החלת פעולת השאלה. 0 להשבתה.
-deck-config-seconds-to-show-answer = שניות להצגת התשובה
+deck-config-seconds-to-show-answer = שניות המתנה בהצגת התשובה
 deck-config-seconds-to-show-answer-tooltip-2 = מספר השניות שיש להמתין לפני החלת פעולת התשובה כאשר התקדמות אוטומטית מופעלת. הגדר ל0 כדי להשבית.
 deck-config-question-action-show-answer = הצגת תשובה
 deck-config-question-action-show-reminder = הצגת תזכורת
