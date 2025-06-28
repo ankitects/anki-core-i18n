@@ -15,6 +15,11 @@ browsing-card = Tarxeta
 browsing-cards = Tarxetas
 browsing-card-list = Lista de tarxetas
 browsing-cards-cant-be-manually-moved-into = Non é posíbel mover tarxetas manualmente a unha baralla filtrada.
+browsing-cards-deleted =
+    { $count ->
+        [one] Eliminouse { $count } tarxeta.
+       *[other] Elimináronse { $count } tarxetas.
+    }
 browsing-cards-deleted-with-deckname =
     { $count ->
         [one] Eliminouse { $count } tarxeta da baralla { $deck_name }.
@@ -75,6 +80,7 @@ browsing-replace-with = <b>Substituír con</b>:
 browsing-reposition = Reposicionar...
 browsing-reposition-new-cards = Reposicionar tarxetas novas
 browsing-reschedule = Reprogramar
+browsing-search-bar-hint = Buscar tarxetas/notas (escribe o texto e preme a tecla Retorno)
 browsing-search-in = Buscar en:
 browsing-search-within-formatting-slow = Buscar en elementos de formato (lento)
 browsing-select-deck = Seleccionar baralla
@@ -89,12 +95,14 @@ browsing-start-position = Posición inicial:
 browsing-step = Paso:
 browsing-suspended = Suspendidas
 browsing-tag-duplicates = Etiquetas duplicadas
+browsing-tag-rename-warning-empty = Non podes renomear unha etiqueta que non teña notas.
 browsing-target-field = Campo de destino:
 browsing-toggle-bury = Agochar
 browsing-toggle-showing-cards-notes = Tarxetas/Notas
 browsing-toggle-mark = Marcar
 browsing-toggle-suspend = Suspender
 browsing-treat-input-as-regular-expression = Tratar a entrada como expresión regular
+browsing-update-saved-search = Actualizar coa busca actual
 browsing-whole-collection = Colección enteira
 browsing-you-must-have-at-least-one = Ten que haber polol menos unha columna.
 browsing-group =
@@ -119,10 +127,14 @@ browsing-cards-updated =
     }
 browsing-window-title = Explorar ({ $selected } de { $total } tarxetas seleccionadas)
 browsing-sidebar-expand = Estender
+browsing-sidebar-collapse = Colapsar
+browsing-sidebar-expand-children = Expandir fillos
+browsing-sidebar-collapse-children = Colapsar fillos
 browsing-sidebar-decks = Barallas
 browsing-sidebar-tags = Etiquetas
 browsing-sidebar-notetypes = Tipos de nota
 browsing-sidebar-saved-searches = Buscas gardadas
+browsing-sidebar-save-current-search = Gardar busca actual
 browsing-sidebar-card-state = Estado da tarxeta
 browsing-sidebar-flags = Bandeiras
 browsing-today = Hoxe
@@ -136,10 +148,16 @@ browsing-sidebar-rescheduled = Reprogramadas
 browsing-sidebar-due-today = Pendentes
 browsing-sidebar-untagged = Sen etiquetar
 browsing-sidebar-overdue = Atrasadas
+browsing-row-deleted = (eliminada)
 browsing-removed-unused-tags-count =
     { $count ->
         [one] Eliminouse { $count } etiqueta sen utilizar.
        *[other] Elimináronse { $count } etiquetas sen utilizar.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Cambiouse a posición de { $count } tarxeta nova.
+       *[other] Cambiouse a posición de { $count } tarxetas novas.
     }
 browsing-reparented-decks =
     { $count ->
