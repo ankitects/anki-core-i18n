@@ -1,9 +1,13 @@
 browsing-add-notes = Engadir notas...
 browsing-add-tags2 = Engadir etiquetas...
+browsing-add-to-selected-notes = Engadir ás notas seleccionadas
+browsing-remove-from-selected-notes = Eliminar das notas seleccionadas
 browsing-addon = Complemento
 browsing-all-fields = Tódolos campos
 browsing-answer = Resposta
 browsing-any-flag = Calquera bandeira
+browsing-average-ease = Facilidade media
+browsing-average-interval = Intervalo medio
 browsing-browser-appearance = Aparencia do explorador
 browsing-browser-options = Opcións do explorador
 browsing-buried = Agochadas
@@ -21,7 +25,9 @@ browsing-change-deck2 = Cambiar baralla...
 browsing-change-note-type = Cambiar tipo de nota
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Cambiar tipo de nota...
+browsing-change-notetype = Cambiar tipo de nota
 browsing-clear-unused-tags = Borrar etiquetas non utilizadas
+browsing-confirm-saved-search-overwrite = Xa existe unha busca gardada co nome { $name }. Queres substituíla?
 browsing-created = Creado
 browsing-current-deck = Baralla actual
 browsing-current-note-type = Tipo de nota actual:
@@ -51,11 +57,14 @@ browsing-move-cards-to-deck = Mover tarxetas á baralla:
 browsing-new = (nova)
 browsing-new-note-type = Novo tipo de nota:
 browsing-no-flag = Sen bandeira
+browsing-no-selection = Non se seleccionou ningunha tarxeta ou nota.
 browsing-note = Nota
 browsing-notes = Notas
+browsing-optional-filter = Filtro opcional:
 browsing-override-back-template = Substituír o modelo do reverso:
 browsing-override-font = Substutuir o tipo de letra
 browsing-override-front-template = Substituír o modelo do anverso:
+browsing-please-give-your-filter-a-name = Nomea o filtro:
 browsing-preview-selected-card = Vista previa da tarxeta seleccionada ({ $val })
 browsing-question = Pregunta
 browsing-queue-bottom = Última da cola: { $val }
@@ -69,6 +78,7 @@ browsing-reschedule = Reprogramar
 browsing-search-in = Buscar en:
 browsing-search-within-formatting-slow = Buscar en elementos de formato (lento)
 browsing-select-deck = Seleccionar baralla
+browsing-selected-notes-only = Só notas seleccionadas
 browsing-shift-position-of-existing-cards = Cambiar a posición das tarxetas existentes
 browsing-sidebar = Barra lateral
 browsing-sidebar-filter = Buscar na barra lateral
@@ -77,7 +87,7 @@ browsing-sort-field = Campo ordenado
 browsing-sorting-on-this-column-is-not = Non é posíbel cambiar a orde por esta columna. Escolla outra.
 browsing-start-position = Posición inicial:
 browsing-step = Paso:
-browsing-suspended = Suspendida
+browsing-suspended = Suspendidas
 browsing-tag-duplicates = Etiquetas duplicadas
 browsing-target-field = Campo de destino:
 browsing-toggle-bury = Agochar
@@ -136,7 +146,7 @@ browsing-reparented-decks =
         [one] Renomeouse { $count } baralla.
        *[other] Renomeáronse { $count } barallas.
     }
-browsing-sidebar-card-state-review = Repaso
+browsing-sidebar-card-state-review = Repasando
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
