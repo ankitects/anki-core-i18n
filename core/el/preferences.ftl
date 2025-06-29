@@ -82,6 +82,7 @@ preferences-third-party-description = Οι υπηρεσίες τρίτων δε�
 
 ## URL scheme related
 
+preferences-url-schemes = Σχήματα URL
 preferences-url-scheme-prompt = Επιτρεπόμενα { preferences-url-schemes } (διαχωρισμένα με κενό):
 preferences-url-scheme-allow-once = Επιτρέψτε μια φορά
 preferences-url-scheme-always-allow = Να επιτρέπεται πάντα
