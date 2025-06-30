@@ -367,6 +367,7 @@ deck-config-desired-retention-tooltip =
     如果您增加数值，Anki 会增加展示卡片的频率，以增加您回忆成功的概率。
     如果您降低数值，Anki 会降低展示卡片的频率，您也可能会遗忘更多的卡片。
     请保守地增加数值，因为这会增加您的工作量；而较低的数值可能会让您在忘记很多内容时心情低落。
+deck-config-desired-retention-tooltip2 = 上面默认提供的工作量是一个粗略的近似值。请使用模拟器以为了获得更高的准确性。
 deck-config-historical-retention-tooltip =
     当您的一些复习记录缺失时，FSRS 需要填补空白。默认情况下它会假设您在进行那些旧的复习时，记住了 90% 的材料。如果您之前的记忆保留率显著高于或低于 90%，更改此选项可以使 FSRS 更好地估计缺失的复习记录。
     

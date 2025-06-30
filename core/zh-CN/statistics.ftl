@@ -97,7 +97,7 @@ statistics-true-retention-year = 近一年
 statistics-true-retention-all-time = 全部时间
 # If there are no reviews within a specific time period, the retention
 # percentage cannot be calculated and is displayed as "N/A."
-statistics-true-retention-not-applicable = N/A
+statistics-true-retention-not-applicable = -
 
 ##
 
