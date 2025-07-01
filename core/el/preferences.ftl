@@ -84,6 +84,10 @@ preferences-third-party-description = Οι υπηρεσίες τρίτων δε�
 
 preferences-url-schemes = Σχήματα URL
 preferences-url-scheme-prompt = Επιτρεπόμενα { preferences-url-schemes } (διαχωρισμένα με κενό):
+preferences-url-scheme-warning =
+    Αποκλείστηκε η προσπάθεια ανοίγματος του `{ $link }`, το οποίο μπορεί να αποτελεί πρόβλημα ασφαλείας.
+    
+    Εάν εμπιστεύεστε τον συντάκτη της συλλογής και επιθυμείτε να συνεχίσετε, μπορείτε να προσθέσετε το `{ $scheme }` στα επιτρεπόμενα URL Schemes.
 preferences-url-scheme-allow-once = Επιτρέψτε μια φορά
 preferences-url-scheme-always-allow = Να επιτρέπεται πάντα
 
