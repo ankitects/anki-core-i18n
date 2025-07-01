@@ -1,0 +1,39 @@
+editing-cards = Kartalar
+editing-change-color = Rangini oʻzgartirish
+editing-copy-image = Rasmdan nusxa olish
+editing-couldnt-record-audio-have-you-installed = Audioni yozib boʻlmadi. 'lame'ni oʻrnatganmisiz?
+editing-customize-card-templates = Karta shablonlarini moslashtirish
+editing-customize-fields = Maydonlarni moslashtirish
+editing-edit-html = HTMLʻni tahrirlash
+editing-fields = Maydonlar
+editing-italic-text = Kursiv matn
+editing-latex = LaTeX
+editing-latex-equation = LaTeX tenglama
+editing-latex-math-env = LaTeX matematika muhiti
+editing-mathjax-block = MathJax bloki
+editing-mathjax-chemistry = MathJax kimyo
+editing-open-image = Rasm ochish
+editing-show-in-folder = Jildda koʻrsatish
+editing-ordered-list = Tartiblangan roʻyxat
+editing-paste = Qoʻyish
+editing-record-audio = Audioni yozib olish
+editing-tags = Teglar
+editing-tags-add = Teg qoʻshish
+editing-tags-copy = Teglardan nusxa olish
+editing-tags-remove = Teglarni olib tashlash
+editing-text-color = Matn rangi
+editing-toggle-html-editor = HTML muharririni yoqish/oʻchirish
+editing-equations = Tenglamalar
+editing-no-image-found-on-clipboard = Buferda rasm topilmadi.
+editing-image-occlusion-zoom-out = Kichiklashtirish
+editing-image-occlusion-zoom-in = Kattalashtirish
+editing-image-occlusion-delete = Oʻchirish
+editing-image-occlusion-zoom-tool = Masshtab
+editing-image-occlusion-rectangle-tool = Toʻrtburchak
+editing-image-occlusion-ellipse-tool = Ellips
+editing-image-occlusion-polygon-tool = Koʻpburchak
+editing-image-occlusion-text-tool = Matn
+
+## You don't need to translate these strings, as they will be replaced with different ones soon.
+
+editing-html-editor = HTML muharriri
