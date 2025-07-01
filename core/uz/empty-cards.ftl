@@ -1,6 +1,7 @@
 empty-cards-for-note-type = { $notetype } turidagi boʻsh kartalar:
 empty-cards-count-line = { $existing_count } ta kartadan { $empty_count } tasi boʻsh ({ $template_names }).
 empty-cards-window-title = Boʻsh kartalar
+empty-cards-preserve-notes-checkbox = Yaroqli kartalarsiz qaydlarni qoldirish
 empty-cards-delete-button = Oʻchirish
 empty-cards-not-found = Boʻsh karta yoʻq.
 empty-cards-deleted-count =
