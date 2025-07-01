@@ -1,0 +1,12 @@
+profiles-folder-already-exists = Jild allaqachon mavjud.
+profiles-open = Ochish
+profiles-open-backup = Zaxirani ochish...
+profiles-please-remove-the-folder-and = { $val } jildini oʻchirib qayta urinib koʻring.
+profiles-profiles = Profillar
+profiles-quit = Chiqish
+profiles-user-1 = Foydalanuvchi 1
+profiles-profile-does-not-exist = Soʻralgan profil mavjud emas.
+profiles-creating-backup = Zaxira yaratilmoqda...
+profiles-backup-created = Zaxira yaratildi.
+profiles-backup-creation-failed = Zaxirani yaratib boʻlmadi: { $reason }
+profiles-backup-unchanged = Oxirgi zaxiradan beri oʻzgarishlar yoʻq.
