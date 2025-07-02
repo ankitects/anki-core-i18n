@@ -15,6 +15,21 @@ database-check-field-count =
         [one] Notoʻgʻri maydonlar soniga ega { $count } ta qayd tuzatildi.
        *[other] Notoʻgʻri maydonlar soniga ega { $count } ta qayd tuzatildi.
     }
+database-check-card-missing-note =
+    { $count ->
+        [one] { $count } ta qaydsiz karta oʻchirildi.
+       *[other] { $count } ta qaydsiz karta oʻchirildi.
+    }
+database-check-revlog-properties =
+    { $count ->
+        [one] Xususiyatli yaroqsiz { $count } ta takrorlash yozuvlari tuzatildi.
+       *[other] Xususiyatli yaroqsiz { $count } ta takrorlash yozuvlari tuzatildi.
+    }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] Yaroqsiz utf8 belgilari bor { $count } ta qayd tuzatildi.
+       *[other] Yaroqsiz utf8 belgilari bor { $count } ta qayd tuzatildi.
+    }
 
 ## Progress info
 
