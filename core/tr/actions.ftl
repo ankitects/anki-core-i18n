@@ -1,5 +1,17 @@
 actions-add = Ekle
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Tüm seçilenler
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Herhangi bir seçilen
 actions-cancel = İptal
 actions-choose = Seç
@@ -38,6 +50,7 @@ actions-select = Seç
 actions-shortcut-key = Kısayol tuşu: { $val }
 actions-suspend-card = Kartı Askıya Al
 actions-set-due-date = Son Tarihi Ayarla
+actions-toggle-load-balancer = Yük Dengeleyici Aç/Kapat
 actions-answer-card = Kartı cevapla
 actions-unbury-unsuspend = Gömmeyi/Askıya Almayı Geri Al
 actions-add-deck = Deste Ekle
@@ -58,10 +71,12 @@ actions-previous-card-info = Önceki Kart Bilgisi
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Tam ekran kipi video sürücünüz için desteklenmiyor. Tercihler ekranında farklı bir tanesine değiştirmeyi deneyin.
-
-## Flags
-
 actions-flag-number = { $number } Bayrak
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Kırmızı
 actions-flag-orange = Turuncu
 actions-flag-green = Yeşil
@@ -69,6 +84,9 @@ actions-flag-blue = Mavi
 actions-flag-pink = Pembe
 actions-flag-turquoise = Turkuaz
 actions-flag-purple = Mor
+
+##
+
 actions-set-flag = Bayrakla İşaretle
 actions-nothing-to-undo = Geri alınacak bir şey yok
 actions-nothing-to-redo = Yeniden yapılacak bir şey yok.
