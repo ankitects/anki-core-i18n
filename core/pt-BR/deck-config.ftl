@@ -397,6 +397,7 @@ deck-config-desired-retention-tooltip =
     menos frequentemente, e você esquecerá mais deles. Seja conservador ao ajustar isso - valores mais altos
     aumentarão significativamente sua carga de trabalho, e valores mais baixos podem ser desmotivadores quando você esquece
     muito material.
+deck-config-desired-retention-tooltip2 = Os valores de carga de estudo exibidos na dica são apenas estimativas aproximadas. Para maior precisão, use o simulador.
 deck-config-historical-retention-tooltip =
     Quando parte do seu histórico de revisão está faltando, o FSRS precisa preencher as lacunas. Por padrão,
     ele assumirá que, quando você fez aquelas revisões antigas, você se lembrou de 90% do material. 
