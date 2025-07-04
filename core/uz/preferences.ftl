@@ -11,6 +11,7 @@ preferences-next-day-starts-at = Keyingi kunning boshlanishini
 preferences-media-is-not-backed-up = Media fayllar zaxiralanmagan. Xavfsiz boʻlish uchun Anki jildingizning vaqti-vaqti bilan zaxiralang.
 preferences-on-next-sync-force-changes-in = Keyingi sinxronlashda, oʻzgarishlarni bir tomonlama majburiy sinxronlash
 preferences-paste-clipboard-images-as-png = Buferdagi rasmlarni PNG sifatida qoʻyish
+preferences-paste-without-shift-key-strips-formatting = Shift tugmasisiz qoʻyish matn formatlashini olib tashlaydi
 preferences-generate-latex-images-automatically = LaTeX rasmlarini hosil qilish (xavfsizlik xatari bor)
 preferences-latex-generation-disabled = LaTeX rasmlarini hosil qilish afzalliklarda oʻchirilgan
 preferences-periodically-sync-media = Media fayllarni vaqti-vaqti bilan sinxronlash
@@ -27,6 +28,8 @@ preferences-synchronize-audio-and-images-too = Audio va rasmlarni ham sinxronlas
 preferences-login-successful-sync-now = Tizimga kirildi. Afzalliklarni saqlab sinxronlansinmi?
 preferences-user-interface-size = Foydalanuvchi interfeysi oʻlchami
 preferences-when-adding-default-to-current-deck = Birlamchi sifatida joriy dastaga qoʻshish
+preferences-you-can-restore-backups-via-fileswitch = Zaxira nusxalarini Fayl > Profilni almashtirish orqali tiklashingiz mumkin.
+preferences-legacy-timezone-handling = Eski vaqt mintaqasini boshqarish funksiyasi (xatoliklar boʻlishi mumkin, ammo AnkiDroid { "<=" } 2.14 uchun zarur)
 preferences-default-search-text = Birlamchi qidiruv matni
 preferences-default-search-text-example = masalan 'deck:current '
 preferences-theme = Mavzu
@@ -53,8 +56,10 @@ preferences-full-screen-only = Faqat butun ekranda
 preferences-appearance = Koʻrinish
 preferences-general = Umumiy
 preferences-style = Stil
+preferences-review = Takrorlash
 preferences-answer-keys = Javob tugmalari
 preferences-minimalist-mode = Minimalist rejimi
+preferences-minimalist-mode-tooltip = Interfeysni yanada ixchamroq/soddaroq qilish
 preferences-editing = Tahrirlash
 preferences-default-deck = Birlamchi dasta
 preferences-account = AnkiWeb hisobi
@@ -67,10 +72,14 @@ preferences-reset-window-sizes-complete = Oyna oʻlchamlari va joylashuvlari qay
 preferences-shortcut-placeholder = Ishlatilmagan klaviatura yorligʻini kiriting yoki oʻchirish uchun boʻsh qoldiring.
 preferences-third-party-services = Uchinchi tomon xizmatlari
 preferences-ankihub-not-logged-in = Hozirda AnkiHubʼga kirmagansiz.
+preferences-ankiweb-intro = AnkiWeb bepul xizmat boʻlib, flesh-karta maʼlumotlarini qurilmalaringiz orasida sinxronlash imkonini beradi. Qurilmangiz buzilsa yoki yoʻqolib qolsa, maʼlumotlarni qayta tiklash imkonini beradi.
+preferences-ankihub-intro = AnkiHub boshqalar bilan birgalikda dasta tahrirlash imkoniyati va qoʻshimcha oʻrganish vositalarini taqdim etadi. Muayyan funksiyalarni ishlatish uchun pulli obuna talab qilinadi.
+preferences-third-party-description = Uchinchi tomon xizmatlari Anki bilan aloqasi yoʻq va Anki tomonidan qoʻllab-quvvatlanmagan. Ushbu xizmatlardan foydalanish toʻlov talab qilishi mumkin.
 
 ## URL scheme related
 
 preferences-url-schemes = URL sxemalar
+preferences-url-scheme-prompt = Ruxsat etilgan URL sxemalar (boʻshliq bilan ajrating):
 preferences-url-scheme-allow-once = Bir martta ruxsat berish
 preferences-url-scheme-always-allow = Har doim ruxsat berish
 
