@@ -323,6 +323,7 @@ deck-config-desired-retention-tooltip =
     Wenn Sie diesen Wert erhöhen, wird Anki die Karten häufiger anzeigen, um die Wahrscheinlichkeit zu steigern, dass Sie sich daran erinnern. Reduzieren Sie den Wert, zeigt Anki die Karten seltener, was dazu führt, dass Sie mehr vergessen.
     
     Ändern Sie diesen Wert mit Bedacht: Ein hoher Wert erhöht Ihr Arbeitspensum deutlich, während ein niedriger Wert entmutigend wirken kann, weil Sie Karten häufiger vergessen.
+deck-config-desired-retention-tooltip2 = Die Werte im Infofeld stellen lediglich eine grobe Schätzung des Arbeitspensums dar. Für eine genauere Berechnung kann der Simulator verwendet werden.
 deck-config-historical-retention-tooltip =
     Wenn ein Teil des Wiederholungsverlaufs fehlt, muss FSRS eine Schätzung vornehmen. Standardmäßig wird angenommen, dass Sie sich bei den alten Wiederholungen an 90% der Karten erinnert haben. War die tatsächliche Erinnerungsquote jedoch deutlich höher oder niedriger als 90%, ermöglicht die Anpassung dieses Werts FSRS eine genauere Schätzung des fehlenden Wiederholungsverlaufs.
     
