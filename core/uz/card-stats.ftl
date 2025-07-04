@@ -20,9 +20,21 @@ card-stats-review-log-type-learn = Oʻrganish
 card-stats-review-log-type-review = Takrorlash
 card-stats-review-log-type-relearn = Qayta oʻrganish
 card-stats-review-log-type-filtered = Filtrlangan
+card-stats-review-log-type-rescheduled = Qayta rejalashtirildi
+card-stats-review-log-elapsed-time = Oʻtgan vaqt
+card-stats-no-card = (Koʻrsatiladigan karta yoʻq.)
+card-stats-fsrs-stability = Barqarorlik
+card-stats-fsrs-difficulty = Qiyinlik
+card-stats-fsrs-retrievability = Esda qoluvchanlik
+card-stats-fsrs-forgetting-curve-first-week = Birinchi hafta
+card-stats-fsrs-forgetting-curve-first-month = Birinchi oy
+card-stats-fsrs-forgetting-curve-first-year = Birinchi yil
+card-stats-fsrs-forgetting-curve-all-time = Butun vaqt
 
 ## Window Titles
 
+card-stats-current-card = Joriy karta ({ $context })
+card-stats-previous-card = Oldingi karta ({ $context })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

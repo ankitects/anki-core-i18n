@@ -1,7 +1,16 @@
 fields-add-field = Maydon qoʻshish
 fields-delete-field-from = { $val } dan maydon oʻchirilsinmi?
+fields-editing-font = Muharrir shrifti
 fields-field = Maydon:
 fields-field-name = Maydon nomi:
 fields-description = Tavsif
+fields-description-placeholder = Maydon boʻsh boʻlganda koʻrsatiladigan matn
+fields-fields-for = { $val } uchun maydonlar
 fields-font = Shrift:
+fields-notes-require-at-least-one-field = Qaydda kamida bitta maydon boʻlishi kerak.
+fields-reverse-text-direction-rtl = Matnning oʻngdan chapga yoʻnalishi
 fields-size = Oʻlcham:
+fields-that-field-name-is-already-used = Maydon nomi ishlatilgan.
+fields-name-first-letter-not-valid = Maydon nomi #, ^ yoki / bilan boshlanmasligi kerak.
+fields-name-invalid-letter = Maydon nomida :, ", { "{" } yoki { "}" } boʻlmasligi kerak.
+fields-field-is-required = Bu majburiy maydon va uni oʻchirib boʻlmaydi.
