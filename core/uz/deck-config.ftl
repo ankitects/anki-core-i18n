@@ -38,27 +38,52 @@ deck-config-relearning-steps = Qayta oʻrganish bosqichlari
 
 ## Burying section
 
+deck-config-bury-title = Koʻmish
+deck-config-bury-new-siblings = Yangilarga aloqadorlarni koʻmish
+deck-config-bury-review-siblings = Takrorlanganlarga aloqadorlarni koʻmish
 
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = Koʻrsatish tartibi
+deck-config-new-card-sort-order = Yangi kartalar saralash tartibi
+deck-config-new-review-priority = Yangi/takrorlash tartibi
+deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
 
 ## Gather order and sort order of cards – Combobox entries
 
 # Gather new cards ordered by deck.
 deck-config-new-gather-priority-deck = Dasta
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Dasta boʻyicha, soʻng tasodify qaydlar
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = Tasodifiy qaydlar
 # Gather new cards randomly.
 deck-config-new-gather-priority-random-cards = Tasodifiy kartalar
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Karta turi boʻyicha, soʻng tasodifiy
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Tasodify qaydlar, keyin karta turi boʻyicha
 # Sort the cards randomly.
 deck-config-sort-order-random = Tasodifiy
 # How new cards or interday learning cards are mixed with review cards.
 deck-config-review-mix-mix-with-reviews = Takrorlanadiganlar bilan aralashtirish
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Belgilangan vaqti boʻyicha, soʻng tasodify
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Belgilangan vaqti boʻyicha, soʻng dasta boʻyicha
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Dasta boʻyicha, soʻng belgilangan vaqt boʻyicha
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Avval oson kartalar
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Avval qiyin kartalar
 
 ## Timer section
 
 deck-config-timer-title = Taymerlar
+deck-config-maximum-answer-secs = Javob berish uchun eng koʻp vaqt (soniyalarda)
+deck-config-maximum-answer-secs-tooltip = Bitta takrorlashni qayd etish uchun maksimal vaqt, soniyalarda. Agar javob bu vaqtdan oshib ketadigan boʻlsa (masalan, siz ekrandan uzoqlashganingiz sababli), qayd etilgan vaqt siz oʻrnatgan chegara sifatida yozib olinadi.
+deck-config-show-answer-timer-tooltip = Oʻrganish ekranida har bir kartani oʻrganishga sarflagan vaqtingizni hisoblaydigan taymerni koʻrsatadi.
 
 ## Auto Advance section
 
