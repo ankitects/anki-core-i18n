@@ -61,9 +61,9 @@ statistics-counts-relearning-cards = 重学中
 statistics-counts-title = 卡片数量
 statistics-counts-separate-suspended-buried-cards = 分开统计暂停/搁置的卡片
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention rate represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention rate is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -74,9 +74,9 @@ statistics-counts-separate-suspended-buried-cards = 分开统计暂停/搁置的
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
-statistics-true-retention-title = 实际记忆保留率
+statistics-true-retention-title = 记忆保留率
 statistics-true-retention-subtitle = 间隔大于 1 天的卡片的通过率
-statistics-true-retention-tooltip = 若使用 FSRS，您的真实记忆保留率预期会接近目标保留率。请注意单日数据存在波动，建议查看月度数据。
+statistics-true-retention-tooltip = 若使用 FSRS，您的实际记忆保留率预计会接近目标保留率。请注意单日数据存在波动，建议查看月度数据。
 statistics-true-retention-range = 范围
 statistics-true-retention-pass = 通过
 statistics-true-retention-fail = 失败
