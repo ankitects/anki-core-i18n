@@ -17,7 +17,7 @@ browsing-card-list = قائمة البطاقات
 browsing-cards-cant-be-manually-moved-into = لا يمكن نقل البطاقات يدويًا إلى رزمة مفلترة.
 browsing-cards-deleted =
     { $count ->
-        [zero] ولا بطاقة حذفت.
+        [zero] لا بطاقة حذفت.
         [one] حذفت بطاقة واحدة.
         [two] حذفت بطاقتان.
         [few] حذفت { $count } بطاقات.
@@ -36,6 +36,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = تغيير الرزمة
 browsing-change-deck2 = تغيير الرزمة...
 browsing-change-note-type = تغيير نوع الملحوظة
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = تغيير نوع الملحوظة...
 browsing-change-notetype = تغيير نوع الملحوظة
 browsing-clear-unused-tags = حذف الوسوم غير المستخدمة
