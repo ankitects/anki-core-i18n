@@ -1,3 +1,7 @@
+# The date a card will be ready to review
+statistics-due-date = Belgilangan vaqti
+# The count of cards waiting to be reviewed
+statistics-due-count = Belgilangan vaqti
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Yangi #{ $number }
 
@@ -39,6 +43,37 @@ statistics-in-time-span-years =
         [one] { $amount } yilda
        *[other] { $amount } yilda
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    { $unit ->
+        [seconds]
+            Bugun { statistics-cards }
+            { statistics-in-time-span-seconds } oʻrganildi
+            ({ $secs-per-card }sn/karta)
+        [minutes]
+            Bugun { statistics-cards }
+            { statistics-in-time-span-minutes } oʻrganildi
+            ({ $secs-per-card }sn/karta)
+        [hours]
+            Bugun { statistics-cards }
+            { statistics-in-time-span-hours } oʻrganildi
+            ({ $secs-per-card }sn/karta)
+        [days]
+            Bugun { statistics-cards }
+            { statistics-in-time-span-days } oʻrganildi
+            ({ $secs-per-card }sn/karta)
+        [months]
+            Bugun { statistics-cards }
+            { statistics-in-time-span-months } oʻrganildi
+            ({ $secs-per-card }sn/karta)
+       *[years]
+            Bugun { statistics-cards }
+            { statistics-in-time-span-years } oʻrganildi
+            ({ $secs-per-card }sn/karta)
+    }
 
 ##
 
@@ -52,7 +87,19 @@ statistics-notes =
         [one] { $notes } ta qayd
        *[other] { $notes } ta qayd
     }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } ta takrorlash
+       *[other] { $reviews } ta takrorlash
+    }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } tasi esda qoldi
 statistics-today-title = Bugun
+statistics-today-type-counts = Oʻrganildi: { $learnCount }, takrorlandi: { $reviewCount }, qaytadan oʻrganildi: { $relearnCount }, filtrlandi: { $filteredCount }
+statistics-today-no-cards = Bugun hech qancha karta oʻrganilmadi.
 statistics-counts-total-cards = Jami
 statistics-counts-new-cards = Yangi
 statistics-counts-young-cards = Yosh
@@ -60,9 +107,9 @@ statistics-counts-suspended-cards = Toʻxtatilgan
 statistics-counts-filtered-cards = Filtrlangan
 statistics-counts-title = Kartalar soni
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention rate represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention rate is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
