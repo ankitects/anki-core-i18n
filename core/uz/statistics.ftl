@@ -100,12 +100,19 @@ statistics-memorized = { $memorized } tasi esda qoldi
 statistics-today-title = Bugun
 statistics-today-type-counts = Oʻrganildi: { $learnCount }, takrorlandi: { $reviewCount }, qaytadan oʻrganildi: { $relearnCount }, filtrlandi: { $filteredCount }
 statistics-today-no-cards = Bugun hech qancha karta oʻrganilmadi.
+statistics-today-no-mature-cards = Bugun hech qanday yetuk karta oʻrganilmadi.
+statistics-today-correct-mature = Yetuk kartalardagi toʻgʻri javoblar: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Jami
 statistics-counts-new-cards = Yangi
 statistics-counts-young-cards = Yosh
+statistics-counts-mature-cards = Yetuk
 statistics-counts-suspended-cards = Toʻxtatilgan
+statistics-counts-buried-cards = Koʻmilgan
 statistics-counts-filtered-cards = Filtrlangan
+statistics-counts-learning-cards = Oʻrganilmoqda
+statistics-counts-relearning-cards = Qayta oʻrganilmoqda
 statistics-counts-title = Kartalar soni
+statistics-counts-separate-suspended-buried-cards = Toʻxtatilgan/koʻmilgan kartalarni ajratish
 
 ## Retention rate represents your actual retention rate from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
@@ -120,8 +127,16 @@ statistics-counts-title = Kartalar soni
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-pass = Esda
+statistics-true-retention-fail = Unutildi
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = JamiJami
+statistics-true-retention-count = Soni
+statistics-true-retention-retention = Esda salqash
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Yosh
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Yetuk
 statistics-true-retention-all = Barchasi
 statistics-true-retention-today = Bugun
 statistics-true-retention-yesterday = Kecha
@@ -135,6 +150,7 @@ statistics-true-retention-not-applicable = N/A
 
 ##
 
+statistics-range-all-time = butun vaqt
 statistics-range-1-year-history = oxirgi 12 oy
 statistics-range-all-history = butun tarix
 statistics-range-deck = dasta
@@ -142,14 +158,80 @@ statistics-range-collection = toʻplam
 statistics-range-search = Qidiruv
 statistics-card-ease-title = Karta osonligi
 statistics-card-difficulty-title = Karta qiyinligi
+statistics-card-stability-title = Karta barqarorligi
+statistics-median-stability = Barqarorlik medianasi
+statistics-card-ease-subtitle = Osonlik qanchalik past boʻlsa, karta shunchalik tez-tez koʻrinadi.
+statistics-card-difficulty-subtitle2 = Qiyinligi qanchalik baland boʻlsa, barqarorlik shunchalik sekinroq oʻsadi.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] Osonligi { $percent } boʻlgan { $cards } ta karta bor
+       *[other] Osonligi { $percent } boʻlgan { $cards } ta karta bor
+    }
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] Qiyinligi { $percent } boʻlgan { $cards } ta karta bor
+       *[other] Qiyinligi { $percent } boʻlgan { $cards } ta karta bor
+    }
+statistics-future-due-subtitle = Kelajakda keladigan takrorlashlar soni.
+statistics-added-title = Qoʻshildi
 statistics-added-subtitle = Siz qoʻshgan yangi kartalar soni
 statistics-reviews-count-subtitle = Siz javob bergan savollar soni.
 statistics-reviews-time-subtitle = Savollarga javob berish uchun ketgan vaqt.
 statistics-answer-buttons-title = Javob tugmalari
 # eg Button: 4
 statistics-answer-buttons-button-number = Tugma
+# eg Times pressed: 123
+statistics-answer-buttons-button-pressed = Bosgilgan soni
+statistics-answer-buttons-subtitle = Har bir tugmani necha marta bosganingiz soni.
 statistics-reviews-title = Takrorlashlar
 statistics-reviews-time-checkbox = Vaqt
+statistics-in-days-single =
+    { $days ->
+        [0] Bugun
+        [1] Ertaga
+        [one] { $days } kundan keyin
+       *[other] { $days } kundan keyin
+    }
+statistics-in-days-range = { $daysStart }-{ $daysEnd } kundan keyin
+statistics-days-ago-single =
+    { $days ->
+        [1] Kecha
+        [one] { $days } kun oldin
+       *[other] { $days } kun oldin
+    }
+statistics-days-ago-range = { $daysStart }-{ $daysEnd } kun oldin
+statistics-backlog-checkbox = Yigʻilib qolgan kartalar
+statistics-intervals-title = Takrorlashlar oraligʻi
+statistics-intervals-day-range =
+    { $cards ->
+        [one] Oraligʻi { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
+       *[other] Oraligʻi { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] Oraligʻi { $day } kun boʻlgan { $cards } ta karta bor
+       *[other] Oraligʻi { $day } kun boʻlgan { $cards } ta karta bor
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] Barqarorligi { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
+       *[other] Barqarorligi { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] Barqarorligi { $day } kun boʻlgan { $cards } ta karta bor
+       *[other] Barqarorligi { $day } kun boʻlgan { $cards } ta karta bor
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = { $hourStart }:00 dan { $hourEnd }:00 gacha
+statistics-hours-correct = { $correct }/{ $total } toʻgʻri ({ $percent }%)
+statistics-hours-correct-info = → ('Qaytadan' emas)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } ta takrorlash
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% toʻgʻri ({ $reviews })
+statistics-hours-title = Soatlik tahlil
 # shown when graph is empty
 statistics-no-data = MAʼLUMOT YOʻQ
 statistics-calendar-title = Taqvim
@@ -160,17 +242,50 @@ statistics-calendar-title = Taqvim
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount } sn
+statistics-elapsed-time-minutes = { $amount } dq
+statistics-elapsed-time-hours = { $amount } sa
+statistics-elapsed-time-days = { $amount } k
 statistics-elapsed-time-months = { $amount } oy
 statistics-elapsed-time-years = { $amount } yil
 
 ##
 
+statistics-average-for-days-studied = Oʻrgangan kunlarning oʻrtachasi
 # This term is used in a variety of contexts to refers to the total amount of
 # items (e.g., cards, mature cards, etc) for a given period, rather than the
 # total of all existing items.
 statistics-total = Jami
+statistics-days-studied = Oʻrgangan kunlar soni
 statistics-average-answer-time-label = Oʻrtacha javob berish vaqti
 statistics-average = Oʻrtacha
+statistics-median-interval = Oraliq medianasi
+statistics-due-tomorrow = Ertaga
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
+statistics-daily-load = Kunlik yuklama
+# eg 5 of 15 (33.3%)
+statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
+statistics-reviews-per-day =
+    { $count ->
+        [one] { $count } takrorlash/kun
+       *[other] { $count } takrorlash/kun
+    }
+statistics-minutes-per-day =
+    { $count ->
+        [one] { $count } daqiqa/kun
+       *[other] { $count } daqiqa/kun
+    }
+statistics-cards-per-day =
+    { $count ->
+        [one] { $count } karta/kun
+       *[other] { $count } karta/kun
+    }
+statistics-median-ease = Osonlik medianasi
+statistics-median-difficulty = Qiyinlik medianasi
 statistics-save-pdf = PDF saqlash
 statistics-saved = Saqlandi.
 statistics-stats = statistika
@@ -179,5 +294,7 @@ statistics-title = Statistika
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
+statistics-average-stability = Oʻrtacha barqarorlik
+statistics-average-interval = Oʻrtacha oraliq
 statistics-average-ease = Oʻrtacha osonlik
 statistics-average-difficulty = Oʻrtacha qiyinlik
