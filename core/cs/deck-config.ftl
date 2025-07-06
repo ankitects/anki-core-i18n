@@ -380,6 +380,8 @@ deck-config-weights = Váhy modelu
 deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
 deck-config-compute-minimum-recommended-retention = Minimální doporučená retence
 deck-config-optimize-button = Optimalizovat
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (pomalé)
 deck-config-compute-button = Vypočítat
 deck-config-ignore-before = Ignorovat opakování před
 deck-config-time-to-optimize = Už je to nějakou dobu - doporučuje se použít tlačítko Optimalizovat vše.
@@ -429,6 +431,9 @@ deck-config-compute-optimal-weights-tooltip2 =
     Ve výchozím nastavení se parametry vypočítají z historie opakování všech balíčků, které používají aktuální předvolbu. Pokud chcete změnit, které karty se použijí pro optimalizaci parametrů, můžete navíc před výpočtem parametrů upravit vyhledávání.
 deck-config-compute-optimal-retention-tooltip4 = Tento nástroj se pokusí najít požadovanou hodnotu retence, která povede k naučení se co největšího množství materiálu za co nejkratší dobu. Vypočítané číslo může sloužit jako referenční hodnota při rozhodování, jakou hodnotu požadované retence nastavit. Pokud jste ochotni vyměnit více studijního času za vyšší míru zapamatování, můžete zvolit vyšší hodnotu požadované retence. Nastavení požadované retence na nižší než minimální hodnotu se nedoporučuje, protože to povede k vyšší pracovní zátěži kvůli vysoké míře zapomínání.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
+deck-config-workload-factor-unchanged = Čím vyšší je tato hodnota, tím častěji se vám budou karty zobrazovat.
+deck-config-desired-retention-too-low = Vaše požadovaná retence je velmi nízká, což může vést k velmi dlouhým intervalům.
+deck-config-desired-retention-too-high = Vaše požadovaná retence je velmi vysoká, což může vést k velmi krátkým intervalům.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% z { $reviews } opakování
@@ -436,9 +441,12 @@ deck-config-percent-of-reviews =
        *[other] { $pct }% z { $reviews } opakování
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Hledají se vylepšení...
 deck-config-optimizing-preset = Optimalizuje se předvolba { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Nejdříve musí být povoleno FSRS.
 deck-config-fsrs-params-optimal = FSRS parametry se nyní zdají být optimální.
+deck-config-fsrs-params-no-reviews = Nebyla nalezena žádná opakování. Ujistěte se, že je toto předvolba přiřazena ke všem balíčkům (včetně podřízených balíčků), které chcete optimalizovat, a zkuste to znovu.
 deck-config-wait-for-audio = Čekat na zvukovou stopu
 deck-config-show-reminder = Zobrazit upomínku
 deck-config-answer-again = Odpovědět znovu
@@ -454,6 +462,9 @@ deck-config-additional-new-cards-to-simulate = Další nové karty pro simulaci
 deck-config-simulate = Simulovat
 deck-config-clear-last-simulate = Vymazat poslední simulaci
 deck-config-fsrs-simulator-radio-count = Opakování
+deck-config-advanced-settings = Pokročilé nastavení
+deck-config-suspend-leeches = Vyřadit pijavice
+deck-config-save-options-to-preset = Uložit změny do předvolby
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -461,6 +472,12 @@ deck-config-fsrs-simulator-radio-memorized = Zapamatováno
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Při optimalizaci zkontrolovat zdraví
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Kontrola zdraví:
+    FSRS se může dobře přizpůsobit vaší paměti.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -482,6 +499,7 @@ deck-config-compute-optimal-retention-tooltip =
     a pokud se výrazně liší od 0,9, je to znamení, že čas, který jste přidělili na každý den, je buď příliš nízký,
     nebo příliš vysoký na množství karet, které se pokoušíte naučit. Toto číslo může být užitečné jako reference, ale
     nedoporučuje se jej kopírovat do pole požadovaná retence.
+deck-config-health-check-tooltip1 = Zobrazí se varování, jestliže má FSRS potíže přizpůsobit se vaší paměti.
 deck-config-compute-optimal-retention = Vypočítat optimální retenci
 deck-config-predicted-optimal-retention = Předpovězená optimální retence: { $num }
 deck-config-weights-tooltip =
