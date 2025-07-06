@@ -100,6 +100,8 @@ browsing-cards-updated =
         [one] { $count } ta karta yangilandi.
        *[other] { $count } ta karta yangilandi.
     }
+browsing-sidebar-expand = Yoyish
+browsing-sidebar-collapse = Yigʻish
 browsing-sidebar-decks = Dastalar
 browsing-sidebar-tags = Teglar
 browsing-sidebar-notetypes = Qayd turlari
