@@ -499,6 +499,7 @@ deck-config-advanced-settings = Impostazioni avanzate
 deck-config-smooth-graph = Grafico smussato
 deck-config-suspend-leeches = Sospendi carte sanguisuga
 deck-config-save-options-to-preset = Salva modifiche nella preimpostazione
+deck-config-save-options-to-preset-confirm = Sovrascrivere le opzioni nella preimpostazione attuale con quelle del simulatore?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
