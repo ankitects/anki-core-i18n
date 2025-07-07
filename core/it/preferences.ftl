@@ -83,6 +83,17 @@ preferences-ankiweb-intro = AnkiWeb è un servizio gratuito che ti permette di m
 preferences-ankihub-intro = AnkiHub permette la modifica collaborativa dei mazzi e fornisce strumenti di studio aggiuntivi. Per utilizzare alcune funzionalità è necessario un abbonamento a pagamento.
 preferences-third-party-description = I servizi di terze parti non sono affiliati né sostenuti da Anki e potrebbero richiedere un pagamento per l'utilizzo.
 
+## URL scheme related
+
+preferences-url-schemes = Schemi URL
+preferences-url-scheme-prompt = Schemi URL consentiti (separati da spazio):
+preferences-url-scheme-warning =
+    È stata bloccata l'apertura di `{ $link }`, in quanto potrebbe rappresentare un rischio per la sicurezza.
+    
+    Se ti fidi dell'autore del mazzo e intendi procedere, puoi aggiungere `{ $scheme }` all'elenco degli schemi URL consentiti.
+preferences-url-scheme-allow-once = Consenti una volta
+preferences-url-scheme-always-allow = Consenti sempre
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Basilare

@@ -172,6 +172,11 @@ scheduling-set-due-date-done =
         [one] Imposta la data di scadenza di { $cards } carta.
        *[other] Imposta la data di scadenza di { $cards } carte.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Valutata { $cards } carta.
+       *[other] Valutate { $cards } carte.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Dimenticata { $cards } carta.

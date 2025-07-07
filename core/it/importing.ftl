@@ -13,6 +13,7 @@ importing-colon = Due punti
 importing-comma = Virgola
 importing-empty-first-field = Primo campo vuoto: { $val }
 importing-field-separator = Separatore di campo
+importing-field-separator-guessed = Separatore di campo (rilevato)
 importing-field-mapping = Mappatura dei campi
 importing-field-of-file-is = Il campo <b>{ $val }</b> del file è:
 importing-fields-separated-by = Campi separati da: { $val }
@@ -31,7 +32,7 @@ importing-map-to = Mappa su { $val }
 importing-map-to-tags = Mappa verso le etichette
 importing-mapped-to = mappato su <b>{ $val }</b>
 importing-mapped-to-tags = mappato verso le <b>etichette</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Unisci tipi di nota
 importing-merge-notetypes-help =
     Se selezionato ed è stato modificato lo schema di un tipo di nota, verranno unite le due versioni
@@ -61,14 +62,19 @@ importing-with-deck-configs-help =
     Se abilitato, verranno importate anche eventuali impostazioni (preimpostazione) incluse dall'autore del mazzo. 
     In caso contrario, tutti i mazzi verranno assegnati alla preimpostazione predefinita.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacchetto mazzo/collezione Anki (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Barra verticale (Pipe)
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Viene mostrata solo la prima colonna. Se non ti sembra corretto, prova a cambiare il separatore di campo.
+       *[other] Vengono mostrate solo le prime { $count } colonne. Se non ti sembra corretto, prova a cambiare il separatore di campo.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' contiene { $found } campi, ma ne erano previsti { $expected }
 importing-selected-file-was-not-in-utf8 = Il file selezionato non è nel formato UTF-8. Consulta la sezione Importazione nel manuale.
 importing-semicolon = Punto e virgola
 importing-skipped = Ignorato
-importing-supermemo-xml-export-xml = Supermemo esportato in XML (*.xml)
 importing-tab = Tabulazione
 importing-tag-modified-notes = Etichetta le note modificate:
 importing-text-separated-by-tabs-or-semicolons = Testo separato da tabulazioni o punti e virgola (*)
@@ -234,3 +240,5 @@ importing-importing-collection = Importazione della collezione...
 importing-unable-to-import-filename = Impossibile importare { $filename }: tipo di file non supportato
 importing-notes-that-could-not-be-imported = Note che non è stato possibile importare poiché è cambiato il tipo di nota: { $val }
 importing-added = Aggiunto
+importing-pauker-18-lesson-paugz = Lezione di Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo esportato in XML (*.xml)

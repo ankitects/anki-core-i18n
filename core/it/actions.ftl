@@ -1,5 +1,17 @@
 actions-add = Aggiungi
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Tutte selezionate
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Qualsiasi selezionata
 actions-cancel = Annulla
 actions-choose = Scegli
@@ -38,6 +50,8 @@ actions-select = Seleziona
 actions-shortcut-key = Tasto di scorciatoia: { $val }
 actions-suspend-card = Sospendi carta
 actions-set-due-date = Imposta data di scadenza
+actions-toggle-load-balancer = Attiva/disattiva bilanciatore del carico
+actions-grade-now = Valuta ora
 actions-answer-card = Rispondi alla carta
 actions-unbury-unsuspend = Disseppellisci/Annulla sospensione
 actions-add-deck = Aggiungi mazzo
@@ -58,10 +72,12 @@ actions-previous-card-info = Info carta precedente
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = La modalità a schermo intero non è supportata dal driver video di questo dispositivo. Accedere alla schermata Preferenze, cambiare il driver video e quindi riprovare.
-
-## Flags
-
 actions-flag-number = Assegna bandiera { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Rossa
 actions-flag-orange = Arancione
 actions-flag-green = Verde
@@ -69,6 +85,9 @@ actions-flag-blue = Blu
 actions-flag-pink = Rosa
 actions-flag-turquoise = Turchese
 actions-flag-purple = Viola
+
+##
+
 actions-set-flag = Imposta bandiera
 actions-nothing-to-undo = Niente da annullare
 actions-nothing-to-redo = Niente da ripristinare

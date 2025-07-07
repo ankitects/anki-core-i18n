@@ -130,7 +130,7 @@ deck-config-bury-priority-tooltip =
     non verrà seppellita alcuna carta in apprendimento intergiornaliero o da ripetere. 
     Pertanto, potresti incontrare sia una carta sorella da ripetere che una nuova carta sorella nella stessa sessione.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Ordine di presentazione
 deck-config-new-gather-priority = Ordine di recupero delle nuove carte
@@ -147,12 +147,6 @@ deck-config-new-gather-priority-tooltip-2 =
     Se la sepoltura delle carte sorelle è disabilitata, ciò permette di vedere tutte le carte di una nota in una singola sessione (es. sia la carta fronte→retro che la carta retro→fronte).
     
     `Casuale (carte)`: recupera le carte in maniera completamente casuale.
-deck-config-new-gather-priority-deck = Mazzo
-deck-config-new-gather-priority-deck-then-random-notes = Mazzo, quindi note casuali
-deck-config-new-gather-priority-position-lowest-first = Posizione crescente
-deck-config-new-gather-priority-position-highest-first = Posizione decrescente
-deck-config-new-gather-priority-random-notes = Casuale (note)
-deck-config-new-gather-priority-random-cards = Casuale (carte)
 deck-config-new-card-sort-order = Ordine delle nuove carte
 deck-config-new-card-sort-order-tooltip-2 =
     `Tipo di carta, poi in ordine di recupero`: mostra le carte seguendo l'ordine dei tipi di carta. Se la sepoltura delle carte sorelle è disabilitata, questo assicura per es. che tutte le carte fronte→retro vengano mostrate prima di quelle retro→fronte. Questo è utile per avere tutte le carte della stessa nota mostrate nella stessa sessione, ma non troppo vicine le une alle altre.
@@ -164,11 +158,6 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Nota casuale, quindi tipo di carta`: recupera le note in maniera casuale, quindi mostra tutte le loro carte, in ordine.
     
     `Casuale`: mescola completamente le carte recuperate.
-deck-config-sort-order-card-template-then-random = Tipo di carta, poi in ordine casuale
-deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
-deck-config-sort-order-random = Casuale
-deck-config-sort-order-template-then-gather = Tipo di carta
-deck-config-sort-order-gather = Ordine di recupero
 deck-config-new-review-priority = Ordine nuove/da ripassare
 deck-config-new-review-priority-tooltip = Determina quando mostrare le nuove carte in relazione a quelle di ripasso.
 deck-config-interday-step-priority = Ordine apprendimento intergiornaliero/ripetizioni
@@ -177,9 +166,6 @@ deck-config-interday-step-priority-tooltip =
     
     Il limite di ripetizioni è sempre applicato prima alle carte in apprendimento intergiornaliero
     e solo poi a quelle da ripetere. Questa opzione determina l'ordine secondo il quale vengono mostrate le carte recuperate, ma le carte in apprendimento intergiornaliero sono sempre recuperate per prime.
-deck-config-review-mix-mix-with-reviews = Mischia con le carte di ripasso
-deck-config-review-mix-show-after-reviews = Mostra dopo le carte di ripasso
-deck-config-review-mix-show-before-reviews = Mostra prima delle carte di ripasso
 deck-config-review-sort-order = Ordine delle carte di ripasso
 deck-config-review-sort-order-tooltip =
     L'ordine predefinito dà priorità alle carte che sono in attesa da più tempo, così
@@ -187,20 +173,62 @@ deck-config-review-sort-order-tooltip =
     apparirà per prima. Se hai una lunga lista che richiederebbe più di qualche giorno
     per essere completata, o desideri vedere le carte secondo l'ordine dei mazzi figli,
     troverai più utili i metodi di ordinamento alternativi.
-deck-config-sort-order-due-date-then-random = Data di scadenza, poi a caso
-deck-config-sort-order-due-date-then-deck = Data di scadenza, poi ordine del mazzo
-deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi data di scadenza
-deck-config-sort-order-ascending-intervals = Intervalli crescenti
-deck-config-sort-order-descending-intervals = Intervalli decrescenti
-deck-config-sort-order-ascending-ease = Facilità crescente
-deck-config-sort-order-descending-ease = Facilità decrescente
-deck-config-sort-order-ascending-difficulty = Difficoltà crescente
-deck-config-sort-order-descending-difficulty = Difficoltà decrescente
-deck-config-sort-order-retrievability-ascending = Rammentabilità crescente
-deck-config-sort-order-retrievability-descending = Rammentabilità decrescente
 deck-config-display-order-will-use-current-deck =
     Verrà usato l'ordine di apparizione del mazzo selezionato da studiare,
     e non di suoi eventuali mazzi figli.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Mazzo
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Mazzo, quindi note casuali
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Posizione crescente
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Posizione decrescente
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Casuale (note)
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Casuale (carte)
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Tipo di carta, poi in ordine casuale
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Nota casuale, quindi tipo di carta
+# Sort the cards randomly.
+deck-config-sort-order-random = Casuale
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Tipo di carta
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Ordine di recupero
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Mischia con le carte di ripasso
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Mostra dopo le carte di ripasso
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Mostra prima delle carte di ripasso
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Data di scadenza, poi a caso
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Data di scadenza, poi ordine del mazzo
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Ordine del mazzo, poi data di scadenza
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Intervalli crescenti
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Intervalli decrescenti
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Facilità crescente
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Facilità decrescente
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Difficoltà crescente
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Difficoltà decrescente
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Rammentabilità crescente
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Rammentabilità decrescente
 
 ## Timer section
 
@@ -268,7 +296,7 @@ deck-config-minimum-interval-tooltip = L'intervallo minimo dato ad una carta rip
 deck-config-custom-scheduling = Pianificazione personalizzata
 deck-config-custom-scheduling-tooltip = Influisce sull'intera collezione. Usare a proprio rischio e pericolo!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Giorni di riposo
 deck-config-easy-days-monday = Lunedì
@@ -282,6 +310,7 @@ deck-config-easy-days-normal = Normale
 deck-config-easy-days-reduced = Ridotto
 deck-config-easy-days-minimum = Minimo
 deck-config-easy-days-no-normal-days = Almeno un giorno deve essere impostato come '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Le ripetizioni esistenti non saranno ripianificate a meno che l'opzione "{ deck-config-reschedule-cards-on-change }" non sia attiva nelle impostazioni di FSRS.
 
 ## Adding/renaming
 
@@ -330,6 +359,8 @@ deck-config-learning-step-above-graduating-interval = L'intervallo di promozione
 deck-config-good-above-easy = L'intervallo delle carte facili dovrebbe essere lungo almeno quanto l'intervallo di promozione.
 deck-config-relearning-steps-above-minimum-interval = L'intervallo minimo dovrebbe essere lungo almeno quanto il passo finale di riapprendimento.
 deck-config-maximum-answer-secs-above-recommended = È possibile pianificare le ripetizioni in maniera più efficiente se le domande sono mantenute brevi.
+deck-config-too-short-maximum-interval = È sconsigliato impostare un intervallo massimo sotto i 6 mesi.
+deck-config-ignore-before-info = Per ottimizzare i parametri FSRS, verranno utilizzate (all'incirca) { $included }/{ $totalCards } carte.
 
 ## Selecting a deck
 
@@ -351,6 +382,8 @@ deck-config-weights = Parametri FSRS
 deck-config-compute-optimal-weights = Ottimizza i parametri FSRS
 deck-config-compute-minimum-recommended-retention = Ritenzione minima consigliata
 deck-config-optimize-button = Ottimizza
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (lento)
 deck-config-compute-button = Calcola
 deck-config-ignore-before = Escludi le carte studiate prima di
 deck-config-time-to-optimize = È passato diverso tempo dall'ultima ottimizzazione – è consigliato usare il pulsante "Ottimizza tutto".
@@ -380,6 +413,7 @@ deck-config-desired-retention-tooltip =
     Il valore predefinito di 0,9 pianificherà le carte in modo da avere una probabilità del 90% di ricordarle quando riemergeranno per la revisione. Aumentando questo valore, le carte verranno mostrate più frequentemente per incrementare la probabilità di ricordarle. Diminuendo questo valore, le carte verranno mostrate meno frequentemente e crescerà il rischio di dimenticarle.
     
     È consigliato essere prudenti nell'apportare modifiche a questo parametro: valori più alti aumenteranno notevolmente il proprio carico di lavoro, mentre valori più bassi possono causare demoralizzazione quando comportano il dimenticare molte informazioni.
+deck-config-desired-retention-tooltip2 = I valori di carico di lavoro mostrati nel riquadro informativo sono una stima approssimativa. Usa il simulatore per una maggiore accuratezza.
 deck-config-historical-retention-tooltip =
     Quando manca parte dello storico delle ripetizioni, FSRS deve necessariamente colmare le lacune.
     Per impostazione predefinita si presuppone che sia stato ricordato il 90% del materiale delle vecchie ripetizioni.
@@ -428,16 +462,20 @@ deck-config-compute-optimal-retention-tooltip4 =
     un valore di ritenzione desiderata inferiore al minimo,
     in quanto comporta una mole di lavoro maggiore, a causa del tasso elevato di oblio (dimenticanza nel tempo).
 deck-config-please-save-your-changes-first = Per favore salva prima le modifiche.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Un intervallo di 100 giorni diventerà di { $days } giorno.
-       *[other] Un intervallo di 100 giorni diventerà di { $days } giorni.
-    }
+deck-config-workload-factor-change =
+    Carico di lavoro approssimativo: { $factor }x
+    (rispetto al { $previousDR }% di ritenzione desiderata)
+deck-config-workload-factor-unchanged = All'aumentare di questo valore le carte vengono mostrate più frequentemente.
+deck-config-desired-retention-too-low = La ritenzione desiderata è molto bassa, il che può portare a intervalli molto lunghi.
+deck-config-desired-retention-too-high = La ritenzione desiderata è molto alta, il che può portare a intervalli molto brevi.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% di { $reviews } ripetizione
        *[other] { $pct }% di { $reviews } ripetizioni
     }
+deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Controllo miglioramenti...
 deck-config-optimizing-preset = Ottimizzazione della preimpostazione in corso { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Abilita prima FSRS.
 deck-config-fsrs-params-optimal = Attualmente i parametri FSRS sembrano essere ottimali.
@@ -449,24 +487,52 @@ deck-config-answer-hard = Rispondi Difficile
 deck-config-answer-good = Rispondi Normale
 deck-config-days-to-simulate = Giorni da simulare
 deck-config-desired-retention-below-optimal = La ritenzione desiderata attualmente impostata è inferiore a quella ottimale. È consigliato aumentarla.
-deck-config-fsrs-simulator-y-axis-title-time = Durata ripetizioni/giorno
-deck-config-fsrs-simulator-y-axis-title-count = Numero ripetizioni/giorno
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-y-axis-title-memorized = N° carte memorizzate
 deck-config-fsrs-simulator-experimental = Simulatore FSRS (sperimentale)
 deck-config-additional-new-cards-to-simulate = Ulteriori nuove carte da simulare
 deck-config-simulate = Simula
 deck-config-clear-last-simulate = Rimuovi ultima simulazione
 deck-config-fsrs-simulator-radio-count = Ripetizioni
+deck-config-advanced-settings = Impostazioni avanzate
+deck-config-smooth-graph = Grafico smussato
+deck-config-suspend-leeches = Sospendi carte sanguisuga
+deck-config-save-options-to-preset = Salva modifiche nella preimpostazione
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorizzate
 
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = Verifica l'integrità durante l'ottimizzazione
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Verifica dell'integrità:
+    La memoria è difficile da prevedere per FSRS. Suggerimenti:
+    
+    - Sospendi o riformula le carte sanguisuga.
+    - Usa i pulsanti di risposta in maniera coerente. Ricorda che "Difficile" è una valutazione di superamento, non di fallimento.
+    - Comprendi prima di memorizzare.
+    
+    Seguendo questi suggerimenti, le prestazioni in genere migliorano nel giro di qualche mese.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Verifica dell'integrità:
+    FSRS si adatta bene alla tua memoria.
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Un intervallo di 100 giorni diventerà di { $days } giorno.
+       *[other] Un intervallo di 100 giorni diventerà di { $days } giorni.
+    }
+deck-config-fsrs-simulator-y-axis-title-time = Durata ripetizioni/giorno
+deck-config-fsrs-simulator-y-axis-title-count = Numero ripetizioni/giorno
+deck-config-fsrs-simulator-y-axis-title-memorized = N° carte memorizzate
 deck-config-bury-siblings = Seppellisci carte sorelle
 deck-config-do-not-bury = Non seppellire carte sorelle
 deck-config-bury-if-new = Seppellisci se nuove
