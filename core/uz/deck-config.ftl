@@ -24,6 +24,7 @@ deck-config-affects-entire-collection = Butun toʻplamga taʼsir qiladi.
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Andoza
 deck-config-deck-only = Bu dasta
 deck-config-today-only = Faqat bugun
 
@@ -152,7 +153,7 @@ deck-config-easy-days-change = Agar '{ deck-config-reschedule-cards-on-change }'
 deck-config-add-group = Andoza qoʻshish
 deck-config-name-prompt = Nomi
 deck-config-rename-group = Andoza nomini oʻzgartirish
-deck-config-clone-group = Andozani nusxalash
+deck-config-clone-group = Andozani koʻchirish
 
 ## Removing
 

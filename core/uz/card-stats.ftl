@@ -10,6 +10,7 @@ card-stats-total-time = Jami vaqt
 card-stats-card-template = Karta turi
 card-stats-note-type = Qayd turi
 card-stats-deck-name = Dasta
+card-stats-preset = Andoza
 card-stats-note-id = Qayd ID
 card-stats-card-id = Karta ID
 card-stats-review-log-rating = Baho
