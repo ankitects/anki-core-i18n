@@ -44,10 +44,10 @@ scheduling-learn-remaining = Бүгінге { $remaining } оқу қалды.
 scheduling-congratulations-finished = Құттықтаймыз! Әзірше колоданы бітірдіңіз.
 scheduling-today-review-limit-reached = Бүгінгі шолу лимитіне жеттіңіз, бірақ әлі де қаралуы керек карталар бар. Есте сақтауды жақсарту үшін күнделікті лимитті баптаулардан көбейтуді қарастырыңыз
 scheduling-today-new-limit-reached = Жаңа карталар әлі де бар, бірақ күнделікті лимитке жеттіңіз. Лимитті баптаулардан арттыра аласыз, бірақ есте сақтаңыз, жаңа карталарды көбірек енгізсеңіз, қысқа мерзімді шолу жүктемесі де артады.
-scheduling-buried-cards-found = Бір не одан да көп карта тығылды және ертең көрсетіледі. Қазір көргіңіз келсе, { $unburyThem } мүмкін.
+scheduling-buried-cards-found = Бір не одан да көп карта тығылды және ертең көрсетіледі. Қазір көргіңіз келсе, { $unburyThem } болады.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = оларды қайтару
+scheduling-unbury-them = оларды ақтару
 scheduling-how-to-custom-study = Әдепкі жоспардан тыс оқығыңыз келсе, { $customStudy } мүмкіндігін пайдалана аласыз.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
