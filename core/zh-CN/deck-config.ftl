@@ -440,6 +440,7 @@ deck-config-advanced-settings = 高级设置
 deck-config-smooth-graph = 平滑图表
 deck-config-suspend-leeches = 暂停记忆难点卡片
 deck-config-save-options-to-preset = 保存更改到预设
+deck-config-save-options-to-preset-confirm = 是否用模拟器中当前设置的选项覆盖当前预设中的选项？
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
