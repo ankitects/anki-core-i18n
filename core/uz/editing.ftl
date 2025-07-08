@@ -46,6 +46,7 @@ editing-expand = Yoyish
 editing-collapse = Yigʻish
 editing-expand-field = Maydonni yoyish
 editing-collapse-field = Maydonni yigʻish
+editing-mathjax-preview = MathJax namunasi
 editing-shrink-images = Rasmlarni kichiklashtirish
 editing-close-html-tags = HTML teglarini avtomatik tarzda yopish
 editing-from-clipboard = Buferdan

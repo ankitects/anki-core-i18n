@@ -1,3 +1,5 @@
+# This word is used by TTS voices instead of the elided part of a cloze.
+card-templates-blank = boʻsh
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] Quyidagi oʻzgarishlar ushbu karta turini qoʻllagan { $count } ta qaydga taʼsir qiladi.
@@ -7,9 +9,9 @@ card-templates-card-type = Karta turi:
 card-templates-front-template = Oldi shabloni
 card-templates-back-template = Orqa shabloni
 card-templates-template-styling = Stil
-card-templates-front-preview = Oldini koʻrish
-card-templates-back-preview = Orqasini koʻrish
-card-templates-preview-box = Koʻrish
+card-templates-front-preview = Oldi namunasi
+card-templates-back-preview = Orqa namunasi
+card-templates-preview-box = Namuna
 card-templates-template-box = Shablon
 card-templates-fill-empty = Boʻsh maydonlarni toʻldirish
 card-templates-night-mode = Tungi rejim
@@ -23,7 +25,7 @@ card-templates-changes-saved = Oʻzgarishlar saqlandi.
 card-templates-discard-changes = Oʻzgarishlar bekor qilinsinmi?
 card-templates-add-card-type = Karta turini qoʻshish...
 card-templates-at-least-one-card-type-is = Kamida bitta karta turi kerak.
-card-templates-browser-appearance = Brauzer koʻrinishi...
+card-templates-browser-appearance = Karta brauzeri koʻrinishi...
 card-templates-card = Karta { $val }
 card-templates-card-types-for = { $val } uchun karta turlari
 card-templates-copy-info = Buferga nusxa olish

@@ -153,7 +153,7 @@ deck-config-easy-days-change = Agar '{ deck-config-reschedule-cards-on-change }'
 deck-config-add-group = Andoza qoʻshish
 deck-config-name-prompt = Nomi
 deck-config-rename-group = Andoza nomini oʻzgartirish
-deck-config-clone-group = Andozani koʻchirish
+deck-config-clone-group = Andozani nusxalash
 
 ## Removing
 
