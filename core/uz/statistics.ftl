@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Belgilangan vaqti
+statistics-due-date = Muddati
 # The count of cards waiting to be reviewed
-statistics-due-count = Belgilangan vaqti
+statistics-due-count = Muddati
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Yangi #{ $number }
 

@@ -16,10 +16,12 @@ decks-study = Oʻrganish
 decks-study-deck = Dastani oʻrganish
 decks-learn-header = Oʻrganilmoqda
 # The count of cards waiting to be reviewed
-decks-review-header = Vaqti keldi
+decks-review-header = Muddatli
 
 ## Sort order of cards
 
+# Combobox entry: Sort the cards by due date, in ascending order (oldest due date to newest)
+decks-order-due = Muddati boʻyicha
 # Combobox entry: Sort the cards in random order
 decks-random = Tasodifiy
 

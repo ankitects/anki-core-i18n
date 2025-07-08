@@ -1,4 +1,18 @@
 actions-add = Qoʻshish
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-all-selected = Barcha tanlanganlar
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-any-selected = Har qaydan tanlangan
 actions-cancel = Bekor qilish
 actions-choose = Tanlash
 actions-close = Yopish
@@ -26,14 +40,17 @@ actions-rebuild = Qayta qurish
 actions-rename = Nomini oʻzgartirish
 actions-rename-deck = Dasta nomini oʻzgartirish
 actions-rename-tag = Teg nomini oʻzgartirish
+actions-rename-with-parents = Ustteglar bilan birga nomini oʻzgartirish
 actions-remove-tag = Tegni oʻchirish
 actions-replay-audio = Audioni qayta ijro etish
-actions-reposition = Joyini oʻzgartirish
+actions-reposition = Oʻrnini oʻzgartirish
 actions-save = Saqlash
 actions-search = Qidirish
 actions-select = Tanlash
 actions-shortcut-key = Klaviatura yorligʻi: { $val }
 actions-suspend-card = Kartani toʻxtatish
+actions-set-due-date = Muddatini belgilash
+actions-toggle-load-balancer = Yuklama muvozanatlovchini yoqish/oʻchirish
 actions-grade-now = Hozir baholash
 actions-answer-card = Javob kartasi
 actions-unbury-unsuspend = Koʻmishni/Toʻxtatib turishni bekor qilish

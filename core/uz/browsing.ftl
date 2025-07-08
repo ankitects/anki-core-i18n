@@ -71,8 +71,8 @@ browsing-queue-bottom = Navbat oxiri: { $val }
 browsing-queue-top = Navbat boshi: { $val }
 browsing-remove-tags = Teglarni oʻchirish...
 browsing-replace-with = <b>Quyidagi bilan almashtirish</b>:
-browsing-reposition = Joyini oʻzgartirish...
-browsing-reposition-new-cards = Yangi kartalar joyini oʻzgartirish
+browsing-reposition = Oʻrnini oʻzgartirish...
+browsing-reposition-new-cards = Yangi kartalar oʻrnini oʻzgartirish
 browsing-reschedule = Qayta rejalashtirish
 browsing-search-bar-hint = Kartalar/qaydlarni qidirish (matn kiritib Enter bosing)
 browsing-search-in = Quyidagida qidirish:
@@ -123,6 +123,7 @@ browsing-tooltip-card = Karta shablonini nomi
 browsing-tooltip-cards = Qayddagi kartalar soni
 browsing-tooltip-notetype = Qayd turini nomi
 browsing-sidebar-rescheduled = Qayta rejalashtirildi
+browsing-sidebar-overdue = Muddati oʻtgan
 browsing-row-deleted = (oʻchirilgan)
 browsing-removed-unused-tags-count =
     { $count ->
@@ -131,8 +132,8 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] { $count } ta yangi kartani joyi oʻzgartirildi.
-       *[other] { $count } ta yangi kartani joyi oʻzgartirildi.
+        [one] { $count } ta yangi karta oʻrni oʻzgartirildi.
+       *[other] { $count } ta yangi kartalar oʻrni oʻzgartirildi.
     }
 browsing-reparented-decks =
     { $count ->

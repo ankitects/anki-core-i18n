@@ -73,11 +73,11 @@ deck-config-review-mix-show-after-reviews = Takrorlashdan keyin koʻrsatish
 # How new cards or interday learning cards are mixed with review cards.
 deck-config-review-mix-show-before-reviews = Takrorlashdan oldin koʻrsatish
 # Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
-deck-config-sort-order-due-date-then-random = Belgilangan vaqti boʻyicha, soʻng tasodify
+deck-config-sort-order-due-date-then-random = Muddati boʻyicha, soʻng tasodify
 # Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
-deck-config-sort-order-due-date-then-deck = Belgilangan vaqti boʻyicha, soʻng dasta boʻyicha
+deck-config-sort-order-due-date-then-deck = Muddati boʻyicha, soʻng dasta boʻyicha
 # Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
-deck-config-sort-order-deck-then-due-date = Dasta boʻyicha, soʻng belgilangan vaqt boʻyicha
+deck-config-sort-order-deck-then-due-date = Dasta boʻyicha, soʻng muddati boʻyicha
 # Sort the cards by the interval, in ascending order (shortest to longest).
 deck-config-sort-order-ascending-intervals = Oraliq oʻsib borish tartibi boʻyicha
 # Sort the cards by the interval, in descending order (longest to shortest).
@@ -176,8 +176,8 @@ deck-config-revert-button-tooltip = Bu sozlama birlamchi qiymatiga qaytarilsinmi
 
 deck-config-daily-limit-will-be-capped =
     { $cards ->
-        [one] Bosh dastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
-       *[other] Bosh dastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
+        [one] Ustdastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
+       *[other] Ustdastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
     }
 
 ## Selecting a deck

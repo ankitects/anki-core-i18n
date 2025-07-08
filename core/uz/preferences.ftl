@@ -62,15 +62,18 @@ preferences-general = Umumiy
 preferences-style = Stil
 preferences-review = Takrorlash
 preferences-answer-keys = Javob tugmalari
+preferences-distractions = Diqqatni jamlash
 preferences-minimalist-mode = Minimalist rejimi
 preferences-minimalist-mode-tooltip = Interfeysni yanada ixchamroq/soddaroq qilish
 preferences-editing = Tahrirlash
+preferences-browsing = Karta brauzeri
 preferences-default-deck = Birlamchi dasta
 preferences-account = AnkiWeb hisobi
 preferences-note = Qayd
 preferences-scheduler = Rejalashtiruvchi
 preferences-user-interface = Foydalanuvchi interfeysi
 preferences-import-export = Import/eksport
+preferences-network-timeout = Tarmoq kutish vaqti
 preferences-reset-window-sizes = Oyna oʻlchamlarini qayta tiklash
 preferences-reset-window-sizes-complete = Oyna oʻlchamlari va joylashuvlari qayta tiklandi
 preferences-shortcut-placeholder = Ishlatilmagan klaviatura yorligʻini kiriting yoki oʻchirish uchun boʻsh qoldiring.
@@ -84,11 +87,16 @@ preferences-third-party-description = Uchinchi tomon xizmatlari Anki bilan aloqa
 
 preferences-url-schemes = URL sxemalar
 preferences-url-scheme-prompt = Ruxsat etilgan URL sxemalar (boʻshliq bilan ajrating):
+preferences-url-scheme-warning =
+    `{ $link }` ni ochishga urinish bloklandi, bu xavfsizlik muammosi boʻlishi mumkin.
+    
+    Agar siz dasta muallifiga ishonsangiz va davom etishni istasangiz, `{ $scheme }` ni ruxsat etilgan URL sxemalaringizga qoʻshishingiz mumkin.
 preferences-url-scheme-allow-once = Bir martta ruxsat berish
 preferences-url-scheme-always-allow = Har doim ruxsat berish
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Asosiy
+preferences-reviewer = Reviewer
 preferences-media = Media
 preferences-not-logged-in = Hozirda AnkiWebʼga kirmagansiz.

@@ -31,12 +31,13 @@ card-templates-card-types-for = { $val } uchun karta turlari
 card-templates-deck-override = Dastasini almashtirish...
 card-templates-copy-info = Buferga nusxa olish
 card-templates-delete-the-as-card-type-and = '{ $template }' karta turi va shu turdagi { $cards } ta karta oʻchirilsinmi?
+card-templates-enter-new-card-position-1 = Kartaning yangi oʻrnini kiriting (1...{ $val }):
 card-templates-flip = Oʻgirish
 card-templates-off = (oʻchiq)
 card-templates-on = (yoniq)
 card-templates-remove-card-type = Karta turini oʻchirish...
 card-templates-rename-card-type = Karta turi nomini oʻzgartirish...
-card-templates-reposition-card-type = Karta turi joyini oʻzgartirish
+card-templates-reposition-card-type = Karta turi oʻrnini oʻzgartirish
 card-templates-card-count =
     { $count ->
         [one] { $count } ta karta

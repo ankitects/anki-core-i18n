@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Batafsil
 card-template-rendering-front-side-problem = Oldi shablonda muammo bor:
 card-template-rendering-back-side-problem = Orqa shablonda muammo bor:
+card-template-rendering-browser-front-side-problem = Karta brauzeriga uchun maxsus oldi shablonida muammo bor:
+card-template-rendering-browser-back-side-problem = Karta brauzeriga uchun maxsus orqa shablonida muammo bor:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = '{ $tag }'da '{ $missing }' yoʻq
@@ -25,3 +27,6 @@ card-template-rendering-no-such-field = '{ $found }' topildi, lekin '{ $field }'
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Kartaning oldi tarafi boʻsh.
+card-template-rendering-missing-cloze =
+    Kartada { $number } raqamli boʻshliq topilmadi.
+    Yoki toʻldiriladigan boʻshliqni qoʻshing yoki Boʻsh kartalar asbobidan foydalaning.
