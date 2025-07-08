@@ -5,6 +5,7 @@ actions-close = Yopish
 actions-discard = Bekor qilish
 actions-copy = Nusxa olish
 actions-create-copy = Nusxa yaratish
+actions-custom-study = Maxsus oʻrganish
 actions-decks = Dastalar
 actions-decrement-value = Qiymatni kamaytirish
 actions-delete = Oʻchirish

@@ -127,12 +127,13 @@ statistics-counts-separate-suspended-buried-cards = Toʻxtatilgan/koʻmilgan kar
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-title = Eslab qolish nisbati
 statistics-true-retention-pass = Esda
 statistics-true-retention-fail = Unutildi
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = JamiJami
 statistics-true-retention-count = Soni
-statistics-true-retention-retention = Esda salqash
+statistics-true-retention-retention = Eslab qolish nisbati
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Yosh
 # This will usually be the same as statistics-counts-mature-cards

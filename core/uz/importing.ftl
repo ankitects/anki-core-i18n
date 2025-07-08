@@ -1,4 +1,5 @@
 importing-aborted = Toʻxtatildi: { $val }
+importing-added-duplicate-with-first-field = Nusxa qoʻshildi, birinchi maydoni: { $val }
 importing-all-supported-formats = Barcha qoʻllab-quvvatlanadigan formatlar { $val }
 importing-allow-html-in-fields = Maydonlarda HTMLʻga ruxsat berish
 importing-change = Oʻzgartirish
@@ -54,6 +55,8 @@ importing-importing-file = Fayl import qilinmoqda...
 importing-gathering = Maʼlumot toʻplanmoqda...
 importing-failed-to-import-media-file = Media faylni import qilib boʻlmadi: { $debugInfo }
 importing-existing-notes = Mavjud qaydlar
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Nusxalash
 # "Existing notes: Preserve" (verb)
 importing-preserve = Saqlab qolish
 # "Existing notes: Update" (verb)
@@ -108,8 +111,10 @@ importing-notes-found-in-file2 =
     }
 importing-show = Koʻrsatish
 importing-details = Tafsilotlar
+importing-duplicate-note-added = Qayd nusxasi qoʻshildi
 importing-added-new-note = Yangi qayd qoʻshildi
 importing-deck-help = Import qilingan kartalar bu dastaga joylashtiriladi.
+importing-match-scope-help = Faqat bir xil turdagi mavjud qaydlar nusxalar borligi tekshiriladi. Bu, qoʻshimcha ravishda, bitta dastadagi qayd kartalari bilan cheklanishi mumkin.
 importing-tag-all-notes-help = Bu teglar yangi qoʻshilgan va yangilangan qaydlarga qoʻshiladi.
 importing-tag-updated-notes-help = Bu teglar har qanday yangilangan qaydlarga qoʻshiladi.
 

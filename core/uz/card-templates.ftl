@@ -28,6 +28,7 @@ card-templates-at-least-one-card-type-is = Kamida bitta karta turi kerak.
 card-templates-browser-appearance = Karta brauzeri koʻrinishi...
 card-templates-card = Karta { $val }
 card-templates-card-types-for = { $val } uchun karta turlari
+card-templates-deck-override = Dastasini almashtirish...
 card-templates-copy-info = Buferga nusxa olish
 card-templates-delete-the-as-card-type-and = '{ $template }' karta turi va shu turdagi { $cards } ta karta oʻchirilsinmi?
 card-templates-flip = Oʻgirish

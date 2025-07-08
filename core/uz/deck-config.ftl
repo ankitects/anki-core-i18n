@@ -174,6 +174,11 @@ deck-config-revert-button-tooltip = Bu sozlama birlamchi qiymatiga qaytarilsinmi
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] Bosh dastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
+       *[other] Bosh dastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
+    }
 
 ## Selecting a deck
 

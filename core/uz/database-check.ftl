@@ -20,6 +20,11 @@ database-check-card-missing-note =
         [one] { $count } ta qaydsiz karta oʻchirildi.
        *[other] { $count } ta qaydsiz karta oʻchirildi.
     }
+database-check-duplicate-card-ords =
+    { $count ->
+        [one] Shabloni takrorlangan { $count } ta karta oʻchirildi.
+       *[other] Shabloni takrorlangan { $count } ta karta oʻchirildi.
+    }
 database-check-revlog-properties =
     { $count ->
         [one] Xususiyatli yaroqsiz { $count } ta takrorlash yozuvlari tuzatildi.
