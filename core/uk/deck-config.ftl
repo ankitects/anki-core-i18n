@@ -527,6 +527,7 @@ deck-config-advanced-settings = Додаткові налаштування
 deck-config-smooth-graph = Графік однорідності
 deck-config-suspend-leeches = Призупиняти приставучі
 deck-config-save-options-to-preset = Зберегти зміни до конфігурації
+deck-config-save-options-to-preset-confirm = Замістити налаштування поточної конфігурації поточними налаштуваннями симулятора?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
