@@ -1,6 +1,8 @@
+custom-study-must-rename-deck = Oldin mavjud maxsus oʻrganish dasta nomini oʻzgartiring.
 custom-study-cards = kartalar
 custom-study-cards-from-the-deck = Dastadagi kartalar
 custom-study-choose-tags = Teg tanlash
+custom-study-custom-study-session = Maxsus oʻrganish seansi
 custom-study-increase-todays-new-card-limit = Bugungi yangi kartalar cheklovini oshirish
 custom-study-new-cards-only = Faqat yangi kartalar
 custom-study-ok = OK

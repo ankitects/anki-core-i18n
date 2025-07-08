@@ -54,7 +54,7 @@ actions-previous-card-info = Oldingi karta maʼlumotlari
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = Video drayveringiz butun ekran rejimini qoʻllab-quvvatlamaydi. Afzalliklar ekranida boshqasiga oʻtib koʻring.
+actions-fullscreen-unsupported = Video drayveringiz butun ekran rejimini qoʻllab-quvvatlamaydi. Sozlamalar ekranida boshqasiga oʻtib koʻring.
 actions-flag-number = { $number } bayroq
 
 ## The same translation may used for two independent actions:

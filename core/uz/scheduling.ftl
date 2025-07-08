@@ -49,6 +49,10 @@ scheduling-time-span-years =
 ## Shown in the "Congratulations!" message after study finishes.
 
 scheduling-congratulations-finished = Tabriklaymiz! Hozircha bu dastani tugatdingiz.
+scheduling-how-to-custom-study = Odatdagi kun tartibingizdan tashqari oʻrganmoqchi boʻlsangiz, { $customStudy } funksiyasini ishlatishingiz mumkin.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = maxsus oʻrganish
 
 ## Scheduler upgrade
 
