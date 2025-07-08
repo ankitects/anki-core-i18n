@@ -392,7 +392,8 @@ deck-config-fsrs-simulator-radio-count = Wiederholungen
 deck-config-advanced-settings = Erweitert
 deck-config-smooth-graph = Kurve glätten
 deck-config-suspend-leeches = Lernbremsen dauerhaft ausschließen
-deck-config-save-options-to-preset = Änderungen ins Stapelprofil übertragen
+deck-config-save-options-to-preset = Einstellungen ins Stapelprofil übertragen
+deck-config-save-options-to-preset-confirm = Die Einstellungen im Stapelprofil mit den derzeit im Simulator gesetzten Einstellungen überschreiben?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
