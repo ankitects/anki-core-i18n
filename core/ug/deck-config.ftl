@@ -378,6 +378,7 @@ deck-config-advanced-settings = ئالىي تەڭشەك
 deck-config-smooth-graph = سىلىق گىرافىك
 deck-config-suspend-leeches = ئۈنۈمسىز كارتىنى ۋاقىتلىق توختىتىدۇ
 deck-config-save-options-to-preset = ئۆزگىرىشنى ئالدىن تەڭشەككە ساقلايدۇ
+deck-config-save-options-to-preset-confirm = تەقلىدلىگۈچتىكى نۆۋەتتىكى تەڭشەكنىڭ تاللانمىسىنى ھازىرقى ئالدىن تەڭشەكتىكى تاللانما بىلەن قاپلىۋېتەمدۇ يوق؟
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
