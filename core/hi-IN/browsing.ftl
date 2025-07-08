@@ -13,8 +13,6 @@ browsing-browser-options = ब्राउज़र विकल्प
 browsing-buried = दफन
 browsing-card = कार्ड
 browsing-cards = पत्ते
-# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
-browsing-card-initial = C
 browsing-card-list = कार्ड सूची
 browsing-cards-cant-be-manually-moved-into = कार्ड को मैन्युअल रूप से फ़िल्टर किए गए डेक में नहीं ले जाया जा सकता है।
 browsing-cards-deleted =
@@ -25,6 +23,7 @@ browsing-cards-deleted =
 browsing-change-deck = डेक बदलें
 browsing-change-deck2 = डेक बदलें...
 browsing-change-note-type = नोट प्रकार बदलें
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = नोट प्रकार बदलें...
 browsing-change-notetype = नोट प्रकार बदलें
 browsing-clear-unused-tags = अप्रयुक्त टैग साफ़ करें
@@ -61,8 +60,6 @@ browsing-no-flag = कोई झंडा नहीं
 browsing-no-selection = कोई कार्ड या नोट नहीं चुना गया।
 browsing-note = टिप्पणी
 browsing-notes = टिप्पणियाँ
-# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
-browsing-note-initial = N
 browsing-optional-filter = वैकल्पिक फ़िल्टर:
 browsing-override-back-template = वापस टेम्पलेट ओवरराइड करें:
 browsing-override-font = फ़ॉन्ट ओवरराइड करें:
@@ -85,6 +82,7 @@ browsing-selected-notes-only = केवल चयनित नोट्स
 browsing-shift-position-of-existing-cards = मौजूदा कार्ड की शिफ्ट स्थिति
 browsing-sidebar = साइडबार
 browsing-sidebar-filter = साइडबार फ़िल्टर
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = क्रमबद्ध क्षेत्र
 browsing-sorting-on-this-column-is-not = इस स्तंभ पर क्रमित करना समर्थित नहीं है। कृपया दूसरा चुनें।
 browsing-start-position = शुरुआत की स्थिति:
@@ -166,6 +164,11 @@ browsing-reparented-decks =
         [one] { $count } डेक का नाम बदला।
        *[other] { $count } डेक का नाम बदला।
     }
+browsing-sidebar-card-state-review = समीक्षा
 
-## obsolete; no need to translate
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
