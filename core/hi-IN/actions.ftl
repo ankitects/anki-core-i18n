@@ -1,5 +1,17 @@
 actions-add = जोडें
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = सभी चुने गए
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = कोई भी चयनित
 actions-cancel = रद्द करें
 actions-choose = चुनें
@@ -53,11 +65,13 @@ actions-previous-card-info = पिछले कार्ड की जानक
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = यह कार्रवाई फ़िलहाल आपके सिस्टम पर समर्थित नहीं है।
-
-## Flags
-
+actions-fullscreen-unsupported = आपके अङ्कीय दृश्य संचालक के लिए पूर्ण चित्रपट अवस्था समर्थित नहीं है। प्राथमिकता चित्रपट से किसी दूसरी अवस्था पर बदलने का प्रयास करें।
 actions-flag-number = { $number } झंडा
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = लाल
 actions-flag-orange = नारंगी
 actions-flag-green = हरा
@@ -65,4 +79,9 @@ actions-flag-blue = नीला
 actions-flag-pink = गुलाबी
 actions-flag-turquoise = फ़िरोज़ा
 actions-flag-purple = बैंगनी
-actions-set-flag = झंडा सेट करें
+
+##
+
+actions-set-flag = झंडा लगाओ
+actions-nothing-to-undo = पूर्ववत करने के लिए कुछ नहीं
+actions-nothing-to-redo = दोबारा करने को कुछ नहीं
