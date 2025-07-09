@@ -73,7 +73,7 @@ scheduling-learn-remaining =
        *[other] Bugunga { $remaining } ta oʻrganish kartasi qoldi.
     }
 scheduling-congratulations-finished = Tabriklaymiz! Hozircha bu dastani tugatdingiz.
-scheduling-today-review-limit-reached = Bugungi takrorlash chegarasidan oshib ketdingiz, lekin hali takrorlanishi kutilayotgan kartalar bor. Optimal xotira uchun kunlik cheklovni parametrlarda oshirish haqida oʻylab koʻring.
+scheduling-today-review-limit-reached = Bugungi takrorlash limitidan oshib ketdingiz, lekin hali takrorlanishi kutilayotgan kartalar bor. Optimal xotira uchun kunlik limitni parametrlarda oshirish haqida oʻylab koʻring.
 scheduling-today-new-limit-reached = Hali yangi kartalar mavjud, ammo kunlik limitga erishildi. Parametrlarda limitni oshirishingiz mumkin, lekin shuni yodda tutingki, qancha koʻp yangi kartalar qoʻshsangiz, qisqa muddatli takrorlash yuklamangiz shunchalik yuqori boʻladi.
 scheduling-buried-cards-found = Bir yoki bir nechta kartalar koʻmilgan va ertaga koʻrsatiladi. Agar ularni darhol koʻrmoqchi boʻlsangiz, { $unburyThem }ingiz mumkin.
 # used in scheduling-buried-cards-found
@@ -108,8 +108,14 @@ scheduling-general = Umumiy
 scheduling-lapses = Unutilishlar
 scheduling-lapses2 = unutishlar
 scheduling-learning = Oʻrganilmoqda
+scheduling-maximum-interval = Eng uzun oraliq
+scheduling-minimum-interval = Eng qisqa oraliq
+scheduling-mix-new-cards-and-reviews = Yangi kartalarni takrorlashlanadiganlar bilan aralashtirish
 scheduling-new-cards = Yangi kartalar
 scheduling-new-cardsday = Yangi kartalar/kun
+scheduling-new-interval = Yangi oraliq
+scheduling-order = Tartib
+scheduling-parent-limit = (Ustdasta limiti: { $val })
 scheduling-set-for-all-subdecks = Barcha ostdastalar uchun sozlash
 scheduling-deck-updated =
     { $count ->

@@ -15,7 +15,7 @@ deck-config-title = Dasta parametrlari
 
 ## Daily limits section
 
-deck-config-daily-limits = Kunlik cheklovlar
+deck-config-daily-limits = Kunlik limitlar
 deck-config-review-limit-tooltip =
     Agar kartalar takrorlash uchun tayyor boʻlsa,
     bir kunda koʻrsatiladigan takrorlanadigan kartalarining maksimal soni.
@@ -176,8 +176,8 @@ deck-config-revert-button-tooltip = Bu sozlama birlamchi qiymatiga qaytarilsinmi
 
 deck-config-daily-limit-will-be-capped =
     { $cards ->
-        [one] Ustdastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
-       *[other] Ustdastasini cheklovi { $cards } ta karta boʻlgani uchun uchun bu cheklovni almashtiradi.
+        [one] Ustdastasini limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
+       *[other] Ustdastasini limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
     }
 
 ## Selecting a deck
