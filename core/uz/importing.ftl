@@ -28,10 +28,12 @@ importing-include-reviews = Takrorlashlarni oʻz ichiga olish
 importing-also-import-progress = Har qanday oʻrganish progressini import qilish
 importing-with-deck-configs = Har qanday dasta andozalarini import qilish
 importing-updates = Yangilanishlar
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlangan Anki dastasi/toʻplami (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Tik chiziq
 importing-semicolon = Nuqta vergul
 importing-skipped = Oʻtkazib yuborildi
+importing-tab = Tab
 importing-unable-to-import-from-a-readonly = Faqat oʻqish uchun fayldan import qilib boʻlmadi.
 importing-unknown-file-format = Nomaʼlum fayl formati.
 importing-update-existing-notes-when-first-field = Birinchi maydoni mos kelsa mavjud qaydlarni yangilash
@@ -67,8 +69,19 @@ importing-processed-media-file =
        *[other] { $count } ta media fayl import qilindi
     }
 importing-importing-file = Fayl import qilinmoqda...
+importing-extracting = Maʼlumot chiqarilmoqda...
 importing-gathering = Maʼlumot toʻplanmoqda...
 importing-failed-to-import-media-file = Media faylni import qilib boʻlmadi: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] { $count } ta qayd qayta ishlandi...
+       *[other] { $count } ta qayd qayta ishlandi...
+    }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } ta karta qayta ishlandi...
+       *[other] { $count } ta karta qayta ishlandi...
+    }
 importing-existing-notes = Mavjud qaydlar
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Nusxalash
@@ -126,8 +139,16 @@ importing-notes-found-in-file2 =
     }
 importing-show = Koʻrsatish
 importing-details = Tafsilotlar
+importing-status = Holati
 importing-duplicate-note-added = Qayd nusxasi qoʻshildi
 importing-added-new-note = Yangi qayd qoʻshildi
+importing-existing-note-skipped = Qayd oʻtkazib yuborildi, chunki toʻplamingizda yangi versiyasi allaqachon mavjud
+importing-note-skipped-update-due-to-notetype = Qayd yangilanmadi, chunki qayd turi birinchi marta import qilingandan keyin oʻzgartirilgan
+importing-note-skipped-update-due-to-notetype2 = Qayd yangilanmadi, chunki qayd turi birinchi marta import qilingandan keyin oʻzgartirilgan va '{ importing-merge-notetypes }' yoqilmagan
+importing-note-updated-as-file-had-newer = Qayd yangilandi, chunki faylda yangiroq versiya bor edi
+importing-note-skipped-due-to-missing-notetype = Qayd oʻtkazib yuborildi, chunki uni qayd turi yoʻq edi
+importing-note-skipped-due-to-missing-deck = Qayd oʻtkazib yuborildi, chunki uni dastasi yoʻq edi
+importing-note-skipped-due-to-empty-first-field = Qayd oʻtkazib yuborildi, chunki uni birinchi maydoni boʻsh edi
 importing-deck-help = Import qilingan kartalar bu dastaga joylashtiriladi.
 importing-match-scope-help = Faqat bir xil turdagi mavjud qaydlar nusxalar borligi tekshiriladi. Bu, qoʻshimcha ravishda, bitta dastadagi qayd kartalari bilan cheklanishi mumkin.
 importing-tag-all-notes-help = Bu teglar yangi qoʻshilgan va yangilangan qaydlarga qoʻshiladi.
@@ -136,6 +157,7 @@ importing-tag-updated-notes-help = Bu teglar har qanday yangilangan qaydlarga qo
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Toʻplam import qilinmoqda...
+importing-unable-to-import-filename = { $filename } ni import qilib boʻlmadi: file turi qoʻllab-quvvatlanmaydi
 importing-added = Qoʻshildi
 importing-pauker-18-lesson-paugz = Pauker 1.8 darsi (*.pau.gz)
 importing-supermemo-xml-export-xml = Supermemo XML eksporti (*.xml)
