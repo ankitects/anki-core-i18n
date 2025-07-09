@@ -94,14 +94,14 @@ statistics-counts-separate-suspended-buried-cards = 分開統計擱置/推遲的
 
 statistics-true-retention-title = 留存比率
 statistics-true-retention-subtitle = 間隔大於 1 天的卡片的通過率
-statistics-true-retention-tooltip = 使用 FSRS 時，留存比率應與期望留存機率接近。單日統計資料存在雜訊，請按月為準參考。
+statistics-true-retention-tooltip = 使用 FSRS 時，留存比率應與期望留存比率接近。單日統計資料存在雜訊，請按月為準參考。
 statistics-true-retention-range = 範圍
 statistics-true-retention-pass = 通過
 statistics-true-retention-fail = 失敗
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = 總計
 statistics-true-retention-count = 計數
-statistics-true-retention-retention = 留存機率
+statistics-true-retention-retention = 留存比率
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = 未熟練
 # This will usually be the same as statistics-counts-mature-cards
@@ -201,7 +201,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = 正確率： { $correct }/{ $total } ({ $percent }%)
-statistics-hours-correct-info = →（不含「重來」）
+statistics-hours-correct-info = →（非「重來」）
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } 次複習
 # the emoji depicts the graph displaying this number
