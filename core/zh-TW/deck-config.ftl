@@ -304,6 +304,7 @@ deck-config-fsrs-tooltip =
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
 deck-config-desired-retention-tooltip = Anki 會估算你能夠記得卡片內容的機率，即「留存機率」。根據預設，複習卡會在留存機率為 90% 時出現。若增加該值，則卡片出現的頻率將增加，從而提高卡片的留存機率。若減少該值，則卡片出現的頻率將減少，留存機率也會下降。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
+deck-config-desired-retention-tooltip2 = 資訊框中顯示的工作量數值僅為粗略估算結果。如需更精準的估算值，請使用模擬器。
 deck-config-historical-retention-tooltip =
     如果你的複習歷程有部分遺失，FSRS 需要補齊這些部分。根據預設，FSRS 將假設你在記憶留存機率為 90% 時做出了這些複習。若你先前的留存機率與 90% 相差過多，則可透過調整該選項來使 FSRS 更接近遺失的複習歷程。
     
@@ -364,6 +365,7 @@ deck-config-advanced-settings = 進階設定
 deck-config-smooth-graph = 平滑圖表
 deck-config-suspend-leeches = 擱置低效卡
 deck-config-save-options-to-preset = 儲存更動到預設組
+deck-config-save-options-to-preset-confirm = 要用模擬器中設定的選項覆寫當前預設組選項嗎？
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
