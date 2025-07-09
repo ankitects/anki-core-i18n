@@ -1,20 +1,35 @@
+importing-failed-debug-info = Import qilib boʻlmadi. Debag maʼlumotlari:
 importing-aborted = Toʻxtatildi: { $val }
 importing-added-duplicate-with-first-field = Nusxa qoʻshildi, birinchi maydoni: { $val }
 importing-all-supported-formats = Barcha qoʻllab-quvvatlanadigan formatlar { $val }
 importing-allow-html-in-fields = Maydonlarda HTMLʻga ruxsat berish
+importing-anki-files-are-from-a-very = .anki fayllari Anki ning juda eski versiyasidan. Ularni 175027074 kengaytmasi oraqli yoki Anki veb-saytidagi Anki 2.0 bilan import qilishingiz mumkin.
+importing-anki2-files-are-not-directly-importable = .anki2 fayllarini toʻgʻridan-toʻgʻri import qilib boʻlmaydi - oʻrniga siz olgan .apkg yoki .zip faylni import qiling.
 importing-change = Oʻzgartirish
 importing-colon = Ikki nuqta
 importing-comma = Vergul
 importing-empty-first-field = Birinchi maydoni boʻsh: { $val }
+importing-field-separator = Maydon ajratqichi
+importing-field-separator-guessed = Maydon ajratqichi (tahminiy)
 importing-field-of-file-is = Faylning <b>{ $val }</b> maydoni:
+importing-fields-separated-by = Maydon quyidagi bilan ajratilgan: { $val }
+importing-identical = Bir xil
 importing-ignore-field = Maydonni oʻtkazib yuborish
 importing-ignore-lines-where-first-field-matches = Birinchi maydoni mavjud bir qaydga mos kelsa oʻtkazib yuborish
+importing-ignored = <qoldirildi>
+importing-import-even-if-existing-note-has = Birinchi maydoni mavjud boʻlgan qaydniki bilan bir xil boʻlsa ham import qilish
 importing-import-options = Import parametrlari
 importing-importing-complete = Import qilish tugadi.
 importing-invalid-file-please-restore-from-backup = Fayl yaroqsiz. Zaxiradan qayta tiklang.
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Qayd turlarini birlashtirish
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 dasta (*.db)
+importing-include-reviews = Takrorlashlarni oʻz ichiga olish
+importing-also-import-progress = Har qanday oʻrganish progressini import qilish
+importing-with-deck-configs = Har qanday dasta andozalarini import qilish
+importing-updates = Yangilanishlar
+# the '|' character
+importing-pipe = Tik chiziq
 importing-semicolon = Nuqta vergul
 importing-skipped = Oʻtkazib yuborildi
 importing-unable-to-import-from-a-readonly = Faqat oʻqish uchun fayldan import qilib boʻlmadi.

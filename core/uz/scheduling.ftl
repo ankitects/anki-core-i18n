@@ -86,6 +86,7 @@ scheduling-custom-study = maxsus oʻrganish
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 dagi yangi rejalashtiruvchi oldingi Anki versiyalarida mavjud boʻlgan bir qator muammolarni hal qiladi. Yangilash tavsiya etiladi.
 scheduling-update-done = Rejalashtiruvchi muvaffaqiyatli yangilandi.
 scheduling-update-button = Yangilash
 scheduling-update-later-button = Keyinroq
@@ -96,6 +97,7 @@ scheduling-update-required =
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = Audioni qayta tinglashda har doim savol tomoni bilan tinglash
 scheduling-at-least-one-step-is-required = Kamida bitta bosqich kerak.
 scheduling-automatically-play-audio = Audio avtomatik tarzda ijro etilsin
 scheduling-bury-related-new-cards-until-the = Aloqador yangi kartalarni keyingi kungacha koʻmish
@@ -103,20 +105,47 @@ scheduling-bury-related-reviews-until-the-next = Aloqador takrorlash kartalarini
 scheduling-days = kun
 scheduling-description = Tavsif
 scheduling-easy-bonus = Osonlik bonusi
+scheduling-easy-interval = Oson oraliq
 scheduling-end = (oxiri)
 scheduling-general = Umumiy
+scheduling-graduating-interval = Bitiriuv oraligʻi
+scheduling-hard-interval = Qiyin oraliq
+scheduling-ignore-answer-times-longer-than = Shu vaqtdan oshib ketdan javoblar inobatga olinmasin
+scheduling-interval-modifier = Oraliq oʻzgartiruvchisi
 scheduling-lapses = Unutilishlar
 scheduling-lapses2 = unutishlar
 scheduling-learning = Oʻrganilmoqda
+scheduling-leech-action = Yopishqoq karta amali
+scheduling-leech-threshold = Yopishqoq karta chegarasi
 scheduling-maximum-interval = Eng uzun oraliq
+scheduling-maximum-reviewsday = Kuniga eng koʻp takrorlashlar
 scheduling-minimum-interval = Eng qisqa oraliq
 scheduling-mix-new-cards-and-reviews = Yangi kartalarni takrorlashlanadiganlar bilan aralashtirish
 scheduling-new-cards = Yangi kartalar
 scheduling-new-cardsday = Yangi kartalar/kun
 scheduling-new-interval = Yangi oraliq
+scheduling-new-options-group-name = Yangi parametrlar guruhi nomi:
+scheduling-options-group = Parametrlar guruhi:
 scheduling-order = Tartib
 scheduling-parent-limit = (Ustdasta limiti: { $val })
+scheduling-reset-counts = Takrorlashlar va unutilishlar sonini tiklash
+scheduling-restore-position = Iloji boʻlsa, original oʻrnini tiklash
+scheduling-review = Takrorlash
+scheduling-reviews = Takrorlashlar
+scheduling-seconds = soniya
+scheduling-set-all-decks-below-to = { $val } ostidagi barcha dastalar shu parametrlar guruhiga sozlansinmi?
 scheduling-set-for-all-subdecks = Barcha ostdastalar uchun sozlash
+scheduling-show-answer-timer = Javob taymerini koʻrsatish
+scheduling-show-new-cards-after-reviews = Yangi kartalarni takrorlashdan keyin koʻrsatish
+scheduling-show-new-cards-before-reviews = Yangi kartalarni takrorlashdan oldin koʻrsatish
+scheduling-show-new-cards-in-order-added = Yangi kartalarni qoʻshilgan tartibi boʻyicha koʻrsatish
+scheduling-show-new-cards-in-random-order = Yangi kartalarni tasodifiy tartibda koʻrsatish
+scheduling-starting-ease = Boshlangʻich osonlik
+scheduling-steps-in-minutes = Bosqichlar (daqiqalarda)
+scheduling-steps-must-be-numbers = Bosqichlar son boʻlishi kerak.
+scheduling-tag-only = Faqat teg qoʻyish
+scheduling-the-default-configuration-cant-be-removed = Birlamchi konfiguratsiyani oʻchiribi boʻlmaydi.
+scheduling-your-changes-will-affect-multiple-decks = Oʻzgartirishlaringiz bir nechta dastaga taʼsir qiladi. Agar faqat joriy dastani oʻzgartirmoqchi boʻlsangiz, avval yangi parametrlar guruhini qoʻshing.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } ta dasta yangilandi
@@ -126,6 +155,15 @@ scheduling-set-due-date-prompt =
     { $cards ->
         [one] Karta nechi kundan keyin koʻrsatilsin?
        *[other] Kartalar nechi kundan keyin koʻrsatilsin?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = bugun
+    1! = ertaga + oraliqni 1 oʻzgartirish
+    3-7 = 3-7 kun orasidagi tasodifiy kun
+scheduling-set-due-date-done =
+    { $cards ->
+        [one] { $cards } ta karta muddati belgilandi.
+       *[other] { $cards } ta karta muddati belgilandi.
     }
 scheduling-graded-cards-done =
     { $cards ->
