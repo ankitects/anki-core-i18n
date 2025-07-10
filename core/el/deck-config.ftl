@@ -380,6 +380,7 @@ deck-config-fsrs-simulator-radio-count = Επαναλήψεις
 deck-config-advanced-settings = Ρυθμίσεις για προχωρημένους
 deck-config-smooth-graph = Ομαλό γράφημα
 deck-config-save-options-to-preset = Αποθήκευση αλλαγών στην προεπιλογή
+deck-config-save-options-to-preset-confirm = Αντικατάσταση των επιλογών της τρέχουσας προεπιλογής με τις επιλογές που έχουν οριστεί στον προσομοιωτή;
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
