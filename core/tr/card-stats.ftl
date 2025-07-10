@@ -35,9 +35,13 @@ card-stats-fsrs-forgetting-curve-first-week = İlk Hafta
 card-stats-fsrs-forgetting-curve-first-month = İlk Ay
 card-stats-fsrs-forgetting-curve-first-year = İlk Yıl
 card-stats-fsrs-forgetting-curve-all-time = Bütün Zaman
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Hatırlama İhtimali
+card-stats-fsrs-forgetting-curve-desired-retention = İstenen Hatırlama Oranı
 
 ## Window Titles
 
 card-stats-current-card = Geçerli Kart ({ $context })
 card-stats-previous-card = Önceki Kart ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Hatırlama İhtimali
