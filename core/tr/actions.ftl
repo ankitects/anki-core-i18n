@@ -51,6 +51,7 @@ actions-shortcut-key = Kısayol tuşu: { $val }
 actions-suspend-card = Kartı Askıya Al
 actions-set-due-date = Son Tarihi Ayarla
 actions-toggle-load-balancer = Yük Dengeleyici Aç/Kapat
+actions-grade-now = Şimdi Değerlendir
 actions-answer-card = Kartı cevapla
 actions-unbury-unsuspend = Gömmeyi/Askıya Almayı Geri Al
 actions-add-deck = Deste Ekle

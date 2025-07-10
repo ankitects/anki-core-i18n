@@ -60,4 +60,5 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-type-boxes-warning = Kart şablonu başına sadece bir yazma kutusu desteklenir.
 card-templates-restore-to-default = Varsayılana Geri Yükle
+card-templates-restore-to-default-confirmation = Bu, tüm alanları ve şablonları varsayılan değerlerine sıfırlar, ek alan/şablonları ve tüm özel tasarımları kaldırır. Devam etmek istiyor musun?
 card-templates-restored-to-default = Not türü orijinal durumuna geri yüklendi.

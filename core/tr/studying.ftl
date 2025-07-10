@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Kartlar incelemenizden sonra otomatik olarak orjinal destelerine döndürülecekler.
 studying-continue = Devam Et
+studying-counts-differ = Gömme etkinleştirildiği için kart sayısı deste listesindekinden farklı. Bazı kartlar gösterilmiyor ve onların yerine diğer kartlar geçmiş olabilir.
 studying-delete-note = Notu Sil
 studying-deleting-this-deck-from-the-deck = Bu desteyi deste listesinden sildiğinizde geri kalan tüm kartlar orijinal desteye geri dönecektir.
 studying-easy = Kolay
