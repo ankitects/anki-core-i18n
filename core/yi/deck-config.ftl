@@ -224,7 +224,7 @@ deck-config-minimum-interval-tooltip = די מינימאַלע צווישנצײ�
 deck-config-custom-scheduling = צופּאַסן פּלאַנירונג
 deck-config-custom-scheduling-tooltip = ס׳גילט אויף דער גאַנצער זאַמלונג. היט זיך, אויפֿן אייגענעם אחריות!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = גרינגע טעג
 deck-config-easy-days-monday = מאָנטיק
@@ -308,7 +308,8 @@ deck-config-weights = FSRS פּאַראַמעטערס
 deck-config-compute-optimal-weights = אָפּטימיזירן FSRS פּאַראַמעטערס
 deck-config-compute-minimum-recommended-retention = מינימאַל רעקאָמענדירטע זכּרון
 deck-config-optimize-button = אָפּטימיזירן
-deck-config-health-check = איבערקוקן ס׳געזונט בשעת׳ן אָפּטימיזירן (פּאַמעלעך)
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (פּאַמעלעך)
 deck-config-compute-button = אויסרעכענען
 deck-config-ignore-before = איגנאָרירן קאַרטלעך וואָס פֿריער איבערגע׳חזר׳ט
 deck-config-time-to-optimize = שוין לאַנג זיך נישט געזען - ס׳איז כּדאי צו „אָפּטימיזירן אַלץ״.
@@ -338,6 +339,11 @@ deck-config-answer-again = ענטפֿער ווידער
 deck-config-answer-hard = ענטפֿער שווער
 deck-config-answer-good = ענטפֿער גוט
 deck-config-days-to-simulate = טעג אויף צו סימולירן
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = איבערקוקן ס׳געזונט בשעת׳ן אָפּטימיזירן
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
