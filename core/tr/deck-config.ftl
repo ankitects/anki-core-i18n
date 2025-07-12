@@ -54,6 +54,7 @@ deck-config-new-insertion-order-tooltip =
     Yeni bir kart eklediğinizde kartlara atanan pozisyonu (sıra numarası) belirler. 
     Daha düşük sıra numarasına sahip kartlar çalışmada önce gösterilir. Bu ayarı 
     değiştirmek kartların varolan pozisyonunu kendiliğinden günceller.
+deck-config-new-insertion-order-random = Rastgele
 
 ## Lapses section
 
