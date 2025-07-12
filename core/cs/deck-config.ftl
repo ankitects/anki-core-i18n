@@ -358,6 +358,8 @@ deck-config-learning-step-above-graduating-interval = Interval absolvování by 
 deck-config-good-above-easy = Interval pro snadné by měl být nejméně stejně dlouhý jako interval absolvování.
 deck-config-relearning-steps-above-minimum-interval = Minimální interval chyby by měl být nejméně stejně dlouhý jako poslední krok znovu učených.
 deck-config-maximum-answer-secs-above-recommended = Anki může plánovat Vaše opakování účinněji, když máte krátké otázky.
+deck-config-too-short-maximum-interval = Maximální interval kratší než 6 měsíců se nedoporučuje.
+deck-config-ignore-before-info = (Přibližně) { $included }/{ $totalCards } karet se použije k optimalizování FSRS parametrů.
 
 ## Selecting a deck
 

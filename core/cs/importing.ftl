@@ -15,6 +15,7 @@ importing-colon = Dvojtečka
 importing-comma = Čárka
 importing-empty-first-field = Prázdné první pole: { $val }
 importing-field-separator = Oddělovač polí
+importing-field-separator-guessed = Oddělovač polí (odhadnutý)
 importing-field-mapping = Přiřazení polí
 importing-field-of-file-is = Pole <b>{ $val }</b> souboru je:
 importing-fields-separated-by = Pole rozděleny pomocí: { $val }
@@ -33,7 +34,7 @@ importing-map-to = Přiřadit na { $val }
 importing-map-to-tags = Přiřadit ke štítkům
 importing-mapped-to = přiřazeno na <b>{ $val }</b>
 importing-mapped-to-tags = přiřazeno na <b>Štítky</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Sloučit typy poznámek
 importing-merge-notetypes-help =
     Je-li zaškrtnuto a vy nebo autor balíčku jste změnili schéma typu poznámky, Anki
@@ -61,14 +62,12 @@ importing-include-reviews-help =
     V opačném případě budou všechny karty importovány jako nové karty.
 importing-with-deck-configs-help = Je-li povoleno, veškeré nastavení balíčku, které osoba sdílející balíček zahrnula, bude také importováno. V opačném případě budou všechny balíčky přiřazeny k výchozí předvolbě.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balíček/kolekce (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 lekce (*.pau.gz)
 # the '|' character
 importing-pipe = Svislá čára
 importing-rows-had-num1d-fields-expected-num2d = „{ $row }“ mělo { $found } polí, namísto očekávaných { $expected }
 importing-selected-file-was-not-in-utf8 = Vybraný soubor není ve formátu UTF-8. Blíže viz manuál kapitola Import.
 importing-semicolon = Středník
 importing-skipped = Přeskočeno
-importing-supermemo-xml-export-xml = Supermemo XML export (*.xml)
 importing-tab = Tabulátor
 importing-tag-modified-notes = Štítek modifikovaných poznámek:
 importing-text-separated-by-tabs-or-semicolons = Text oddělený tabulátory nebo středníky (*)
@@ -255,3 +254,5 @@ importing-importing-collection = Importuje se kolekce…
 importing-unable-to-import-filename = Nelze importovat { $filename }: typ souboru není podporován
 importing-notes-that-could-not-be-imported = Poznámky, které nemohly být importovány, protože se změnil typ poznámky: { $val }
 importing-added = Přidáno
+importing-pauker-18-lesson-paugz = Pauker 1.8 lekce (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo XML export (*.xml)
