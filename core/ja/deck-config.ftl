@@ -466,7 +466,7 @@ deck-config-fsrs-simulator-radio-memorized = 記憶保持
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 # Checkbox
-deck-config-health-check = 最適化を実行する際にFSRSパラメータの信頼性もチェック（低速）
+deck-config-health-check = 最適化を実行する際にFSRSパラメータの信頼性もチェック
 # Message box showing the result of the health check
 deck-config-fsrs-bad-fit-warning =
     FSRSは今のところ、あなた個人の記憶の今後の推移について、信頼性の高い予測を行うことが困難です。
