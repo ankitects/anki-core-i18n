@@ -357,6 +357,7 @@ deck-config-fsrs-tooltip =
     Free Spaced Repetition Scheduler (FSRS) on vaihtoehto Ankin vanhalle SuperMemo 2 (SM2) -aikataulutusohjelmalle.
     Se määrittää tarkemmin, milloin olet vaarassa unohtaa oppimaasi, ja auttaa sinua muistamaan enemmän materiaalia samassa ajassa. Tämä asetus vaikuttaa kaikkien pakkojen esiasetuksiin.
 deck-config-desired-retention-tooltip = Oletusarvo 0,9 ajoittaa kortit niin, että sinulla on 90 % mahdollisuus muistaa ne, kun ne tulevat uudelleen kerrattaviksi. Jos arvoa kasvatetaan, Anki näyttää kortteja useammin, jotta muistaisit ne todennäköisemmin. Jos arvoa pienennetään, Anki näyttää kortteja harvemmin, ja unohtanet niistä aiempaa suuremman osan. Ole varovainen säätäessäsi tätä arvoa - suuremmat arvot lisäävät työmäärääsi huomattavasti, ja pienemmät arvot saattavat johtaa siihen, että et muista oppimaasi materiaalia yhtä hyvin, mikä voi olla lannistavaa.
+deck-config-desired-retention-tooltip2 = Tietolaatikon näyttämä työmäärä on karkea arvio. Käytä simulaattoria, jos kaipaat tarkempaa arviota.
 deck-config-historical-retention-tooltip =
     Kun osa kertaushistoriastasi puuttuu, FSRS:n on täytettävä aukot. Lähtökohtaisesti se olettaa, että muistit aikanaan kerratessasi 90 % oppimateriaalista. Jos vanha retentionsi oli huomattavasti suurempi tai pienempi kuin 90 %, tämän vaihtoehdon säätäminen antaa FSRS:lle mahdollisuuden arvioida puuttuvia kertauksia paremmin.
     
@@ -415,6 +416,7 @@ deck-config-advanced-settings = Lisäasetukest
 deck-config-smooth-graph = Sulavalinjainen kuvaaja
 deck-config-suspend-leeches = Hyllytä resurssisyöpöt
 deck-config-save-options-to-preset = Tallenna muutokset esiasetuksiin
+deck-config-save-options-to-preset-confirm = Korvataanko nykyisen esiasetuksen asetusket asetuksilla, jotka ovat tällä hetkellä käytössä simulaattorissa?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
