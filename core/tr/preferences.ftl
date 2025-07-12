@@ -13,9 +13,15 @@ preferences-please-restart-anki-to-complete-language = Dil değişikliğini tama
 preferences-preferences = Tercihler
 preferences-scheduling = Yeniden Planlama
 preferences-show-next-review-time-above-answer = Cevap düğmelerinin üstünde sonraki gözden geçirme süresini göster
+preferences-spacebar-rates-card = Boşluk tuşu (veya enter) da kartın cevabını gösterir
 preferences-some-settings-will-take-effect-after = Bazı ayarlar Anki'yi yeniden başlattığınızdan sonra etkili olacaktır.
+preferences-tab-synchronisation = Senkronizasyon
 preferences-synchronize-audio-and-images-too = Ses ve resimleri de senkronize edin
 preferences-timebox-time-limit = Zaman sınırı
+preferences-user-interface-size = Kullanıcı arayüzü boyutu
+preferences-theme = Tema
+preferences-theme-light = Açık
+preferences-theme-dark = Koyu
 preferences-v3-scheduler = V3 planlayıcı
 preferences-scheduler = Planlayıcı
 
