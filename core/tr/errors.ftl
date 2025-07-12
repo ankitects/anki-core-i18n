@@ -3,6 +3,7 @@ errors-100-tags-max =
     Maksimum 100 etiket seçilebilir. İstediğiniz etiketleri listelemek,
     istemediklerinizi listelemekten genellikle daha kolay, ve
     üst bir etiket seçerseniz, alt etiketlerini seçmeniz gerekmez.
+errors-collection-too-new = Bu koleksiyonun açılması için Anki'nin daha yeni bir sürümü gerekiyor.
 errors-inconsistent-db-state = Veritabanınız tutarsız bir durumda gibi görünüyor. Lütfen Veritabanını Kontrol Et eylemini kullanın.
 
 ## Card Rendering

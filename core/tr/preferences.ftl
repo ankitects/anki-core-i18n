@@ -2,6 +2,7 @@ preferences-automatically-sync-on-profile-openclose = Açma/kapama anında profi
 preferences-backups = Yedekler
 preferences-change-deck-depending-on-note-type = Not türüne göre desteyi değiştir
 preferences-changes-will-take-effect-when-you = Değişiklikler, Anki'yi yeniden başlattığınızda etkili olacaktır.
+preferences-language = Dil
 preferences-learn-ahead-limit = Önceden öğrenme sınırı
 preferences-mins = dk
 preferences-network = Ağ
@@ -17,6 +18,9 @@ preferences-synchronize-audio-and-images-too = Ses ve resimleri de senkronize ed
 preferences-timebox-time-limit = Zaman sınırı
 preferences-v3-scheduler = V3 planlayıcı
 preferences-scheduler = Planlayıcı
+
+## URL scheme related
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

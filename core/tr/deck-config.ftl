@@ -54,6 +54,7 @@ deck-config-new-insertion-order-tooltip =
     Yeni bir kart eklediğinizde kartlara atanan pozisyonu (sıra numarası) belirler. 
     Daha düşük sıra numarasına sahip kartlar çalışmada önce gösterilir. Bu ayarı 
     değiştirmek kartların varolan pozisyonunu kendiliğinden günceller.
+deck-config-new-insertion-order-sequential = Sıralı (en eski kartlardan başlayarak)
 deck-config-new-insertion-order-random = Rastgele
 
 ## Lapses section
@@ -87,10 +88,20 @@ deck-config-display-order-will-use-current-deck =
 
 ## Gather order and sort order of cards – Combobox entries
 
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Deste
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Deste, ardından rastgele notlar
 # Gather new cards ordered by position number, ascending (lowest to highest).
 deck-config-new-gather-priority-position-lowest-first = Artan konum
 # Gather new cards ordered by position number, descending (highest to lowest).
 deck-config-new-gather-priority-position-highest-first = Azalan konum
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Rastgele notlar
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Rastgele kartlar
+# Sort the cards randomly.
+deck-config-sort-order-random = Rastgele
 # Sort the cards by the interval, in ascending order (shortest to longest).
 deck-config-sort-order-ascending-intervals = Artan aralık
 # Sort the cards by the interval, in descending order (longest to shortest).
@@ -114,15 +125,29 @@ deck-config-maximum-answer-secs = Maksimum cevap saniyeleri
 
 ## Auto Advance section
 
+deck-config-question-action-show-answer = Cevabı Göster
+deck-config-question-action-show-reminder = Hatırlatıcıyı Göster
 
 ## Audio section
 
+deck-config-audio-title = Ses
 
 ## Advanced section
 
+deck-config-advanced-title = Gelişmiş
 
 ## Easy Days section.
 
+deck-config-easy-days-monday = Pazartesi
+deck-config-easy-days-tuesday = Salı
+deck-config-easy-days-wednesday = Çarşamba
+deck-config-easy-days-thursday = Perşembe
+deck-config-easy-days-friday = Cuma
+deck-config-easy-days-saturday = Cumartesi
+deck-config-easy-days-sunday = Pazar
+deck-config-easy-days-normal = Normal
+deck-config-easy-days-reduced = Azaltılmış
+deck-config-easy-days-minimum = Minimum
 
 ## Adding/renaming
 
@@ -162,6 +187,7 @@ deck-config-show-reminder = Hatırlatıcıyı Göster
 deck-config-answer-again = Tekrar Cevapla
 deck-config-answer-hard = Zor
 deck-config-answer-good = İyi
+deck-config-advanced-settings = Gelişmiş Ayarlar
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
