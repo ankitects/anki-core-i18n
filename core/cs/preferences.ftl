@@ -77,7 +77,11 @@ preferences-reset-window-sizes = Resetovat velikosti oken
 preferences-reset-window-sizes-complete = Velikosti oken a jejich pozice byly resetovány.
 preferences-shortcut-placeholder = Vypnete zadáním nepoužívané klávesy nebo ponecháním prázdného pole.
 preferences-third-party-services = Služby třetích stran
+preferences-ankihub-not-logged-in = V současné době nejste přihlášen k AnkiHub.
 preferences-ankiweb-intro = AnkiWeb je bezplatná služba, která vám umožní synchronizovat vaše data kartiček ve všech vašich zařízeních a poskytuje způsob, jak data obnovit, pokud se vaše zařízení rozbije nebo ztratí.
+
+## URL scheme related
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

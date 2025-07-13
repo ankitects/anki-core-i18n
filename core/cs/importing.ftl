@@ -64,6 +64,15 @@ importing-with-deck-configs-help = Je-li povoleno, veškeré nastavení balíčk
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Zabalený Anki balíček/kolekce (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Svislá čára
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Zobrazuje se pouze první sloupec. Pokud se zdá, že to není v pořádku, zkuste změnit oddělovač polí.
+        [few] Zobrazují se pouze první { $count } sloupce. Pokud se zdá, že to není v pořádku, zkuste změnit oddělovač polí.
+        [many] { "" }
+       *[other] Zobrazuje se pouze prvních { $count } sloupců. Pokud se zdá, že to není v pořádku, zkuste změnit oddělovač polí.
+    }
 importing-rows-had-num1d-fields-expected-num2d = „{ $row }“ mělo { $found } polí, namísto očekávaných { $expected }
 importing-selected-file-was-not-in-utf8 = Vybraný soubor není ve formátu UTF-8. Blíže viz manuál kapitola Import.
 importing-semicolon = Středník
