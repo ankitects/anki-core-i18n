@@ -475,6 +475,7 @@ deck-config-advanced-settings = הגדרות מתקדמות
 deck-config-smooth-graph = גרף חלק
 deck-config-suspend-leeches = השהה כרטיסי עלוקה
 deck-config-save-options-to-preset = שמור שינויים בקבוצת הגדרות
+deck-config-save-options-to-preset-confirm = להחליף את האפשרויות בהגדרה הנוכחית שלך עם האפשרויות המוגדרות כעת בסימולטור?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
