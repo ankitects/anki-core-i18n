@@ -36,4 +36,6 @@ notetypes-type = Tür
 ## Image Occlusion
 
 notetypes-occlusion-note = Not
+notetypes-comments-field = Yorumlar
 notetypes-toggle-masks = Örtüleri Aç/Kapat
+notetype-error-no-image-to-show = Gösterilecek resim yok.

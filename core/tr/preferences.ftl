@@ -26,6 +26,7 @@ preferences-theme-dark = Koyu
 preferences-v3-scheduler = V3 planlayıcı
 preferences-always = Her Zaman
 preferences-appearance = Görünüm
+preferences-general = Genel
 preferences-account = AnkiWeb Hesabı
 preferences-note = Not
 preferences-scheduler = Planlayıcı
