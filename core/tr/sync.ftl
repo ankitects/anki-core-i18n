@@ -27,12 +27,22 @@ sync-resync-required = Lütfen yeniden senkronize edin. Eğer bu mesaj hâlâ de
 sync-must-wait-for-end = Anki şu an senkronize ediyor. Lütfen senkronizenin tamamlanmasını bekleyin, sonra yeniden deneyin.
 sync-confirm-empty-download = Yerel koleksiyonun kartları yok. AnkiWeb'den indirilsin mi?
 sync-confirm-empty-upload = AnkiWeb'deki koleksiyonun kartları yok. Yerel koleksiyonla değiştirelim mi?
+sync-conflict-explanation =
+    Buradaki ve AnkiWeb'deki desteleriniz, birleştirilemeyecek kadar farklı olduğundan, bir taraftaki destelerin diğer taraftaki destelerle değiştirilmesi gerekiyor.
+    
+    İndirmeyi seçerseniz, Anki koleksiyonu AnkiWeb'den alır ve son senkronizasyondan beri bu cihazda yaptığınız tüm değişiklikler kaybolur.
+    
+    Yüklemeyi seçerseniz, Anki bu cihazın verilerini AnkiWeb'e gönderir ve AnkiWeb'de bekleyen tüm değişiklikler kaybolur.
+    
+    Tüm cihazlar senkronize olduktan sonra, gelecekteki gözden geçirmeler ve eklenen kartlar otomatikman birleştirilebilir.
 sync-ankiweb-id-label = Kullanıcı Adı:
 sync-password-label = Parola:
 sync-account-required =
     <h1>Hesap Gerekli</h1>
     Koleksiyonunuzun eşitlenmesi için ücretsiz hesap açmanız gerekiyor.  Lütfen  <a href="{ $link }">hesap açın</a> ve bilgilerinizi yazın.
 sync-clock-off = Senkronize edilemedi - sistem saatin doğru saate ayarlanmamış.
+sync-sign-in = Oturum aç
+sync-ankihub-username-label = Kullanıcı adı veya E-posta
 
 ## Buttons
 

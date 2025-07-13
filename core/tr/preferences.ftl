@@ -20,10 +20,17 @@ preferences-synchronize-audio-and-images-too = Ses ve resimleri de senkronize ed
 preferences-timebox-time-limit = Zaman sınırı
 preferences-user-interface-size = Kullanıcı arayüzü boyutu
 preferences-theme = Tema
+preferences-theme-follow-system = Sisteme Uy
 preferences-theme-light = Açık
 preferences-theme-dark = Koyu
 preferences-v3-scheduler = V3 planlayıcı
+preferences-always = Her Zaman
+preferences-appearance = Görünüm
+preferences-account = AnkiWeb Hesabı
+preferences-note = Not
 preferences-scheduler = Planlayıcı
+preferences-user-interface = Kullanıcı arayüzü
+preferences-import-export = İçe/Dışa Aktarma
 
 ## URL scheme related
 

@@ -43,22 +43,6 @@ statistics-in-time-span-years =
         [one] { $amount } yıl içinde
        *[other] { $amount } yıl içinde
     }
-statistics-cards =
-    { $cards ->
-        [one] { $cards } kart
-       *[other] { $cards } kart
-    }
-statistics-notes =
-    { $notes ->
-        [one] { $notes } not
-       *[other] { $notes } not
-    }
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews =
-    { $reviews ->
-        [one] { $reviews } gözden geçirme
-       *[other] { $reviews } gözden geçirme
-    }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -90,6 +74,25 @@ statistics-studied-today =
             bugün { statistics-in-time-span-years } çalışıldı
             ({ $secs-per-card }y/kart)
     }
+
+##
+
+statistics-cards =
+    { $cards ->
+        [one] { $cards } kart
+       *[other] { $cards } kart
+    }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } not
+       *[other] { $notes } not
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } gözden geçirme
+       *[other] { $reviews } gözden geçirme
+    }
 statistics-today-title = Bugün
 statistics-today-again-count = Tekrar sayısı:
 statistics-today-type-counts = Öğrenme: { $learnCount }, Gözden Geçirme: { $reviewCount }, Yeniden Öğrenme: { $relearnCount }, Filtrelenmiş: { $filteredCount }
@@ -107,11 +110,34 @@ statistics-counts-learning-cards = Öğrenme
 statistics-counts-relearning-cards = Yeniden öğrenme
 statistics-counts-title = Kart Sayıları
 statistics-counts-separate-suspended-buried-cards = Askıya alınan/Gizlenen kartları ayır
+
+## Retention rate represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention rate is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Toplam
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Genç
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Olgun
 statistics-true-retention-today = Bugün
 statistics-true-retention-yesterday = Dün
 statistics-true-retention-week = Geçen hafta
 statistics-true-retention-month = Geçen ay
 statistics-true-retention-year = Geçen yıl
+
+##
+
 statistics-range-1-year-history = geçen 12 ay
 statistics-range-deck = deste
 statistics-range-collection = koleksiyon
@@ -120,10 +146,10 @@ statistics-card-ease-title = Kart kolaylığı
 statistics-card-difficulty-title = Kart Zorluğu
 statistics-card-stability-title = Kart sabitliği
 statistics-card-stability-subtitle = Hatırlanabilirliğin %90'a düştüğü gecikme.
-statistics-average-stability = Ortalama sabitlik
 statistics-card-retrievability-title = Kart Hatırlanabilirliği
 statistics-card-ease-subtitle = Daha alçak kolaylıktaki kartlar daha sık görünecek.
 statistics-card-difficulty-subtitle2 = Zorluk daha yüksek olduğunda sabitlik daha yavaş artacak.
+statistics-retrievability-subtitle = Bir kartın bugün hatırlanma olasılığı.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -225,12 +251,19 @@ statistics-elapsed-time-years = { $amount }y
 ##
 
 statistics-average-for-days-studied = Ortalama çalışılan gün
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Toplam
 statistics-days-studied = Çalışılan günler
 statistics-average-answer-time-label = Ortalama cevap süresi
 statistics-average = Ortalama
-statistics-average-interval = Ortalama aralık
 statistics-due-tomorrow = Yarına kadar
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Günlük yük
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $total } içinden { $amount } tanesi (%{ $percent })
@@ -250,13 +283,17 @@ statistics-cards-per-day =
         [one] { $count } kart/gün
        *[other] { $count } kart/gün
     }
-statistics-average-ease = Ortalama kolaylık
-statistics-average-difficulty = Ortalama zorluk
 statistics-average-retrievability = Ortalama hatırlanabilirlik
+statistics-estimated-total-knowledge = Tahminî toplam bilgi
 statistics-save-pdf = PDF Kaydet
 statistics-saved = Kaydedildi.
 statistics-stats = İstatistikler
 statistics-title = İstatistikler
-statistics-true-retention-total = Toplam
-statistics-true-retention-young = Genç
-statistics-true-retention-mature = Olgun
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Ortalama sabitlik
+statistics-average-interval = Ortalama aralık
+statistics-average-ease = Ortalama kolaylık
+statistics-average-difficulty = Ortalama zorluk
