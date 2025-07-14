@@ -7,6 +7,8 @@
 search-invalid-search = Geçersiz arama:{ $reason }
 search-misplaced-and = Bir `and` bulundu, ancak iki arama terimini birbirine bağlamıyor. Kelimenin kendisini aramak istiyorsanız, tırnak işareti içine alın: `"and"`.
 search-misplaced-or = Bir `or` bulundu, ancak iki arama terimini birbirine bağlamıyor. Kelimenin kendisini aramak istiyorsanız, tırnak işareti içine alın: `"or"`.
+# Here, the ellipsis "..." may be localised.
+search-empty-group = `(...)` grubu bulundu, ancak parantezler arasında aranacak hiçbir şey yoktu. Parantezlerin kendisini aramak istiyorsanız, onları tırnak işareti içine alın: `"( )"`.
 search-invalid-flag-2 = `flag:`dan sonra geçerli bir bayrak numarası gelmeli. Örneğin: `1` (kırmızı), `2` (turuncu), `3` (yeşil), `4` (mavi), `5` (pembe), `6` (turkuaz), `7` (mor) veya `0` (bayrak yok).
 search-invalid-other = Lütfen yazı hataları için kontrol edin.
 
