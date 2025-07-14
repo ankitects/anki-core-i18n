@@ -32,23 +32,23 @@ statistics-studied-today =
         [minutes]
             Бүгін { statistics-cards }
             { statistics-in-time-span-minutes } оқылған
-            ({ $secs-per-card }мин/карта)
+            ({ $secs-per-card }с/карта)
         [hours]
             Бүгін { statistics-cards }
             { statistics-in-time-span-hours } оқылған
-            ({ $secs-per-card }сағ/карта)
+            ({ $secs-per-card }с/карта)
         [days]
             Бүгін { statistics-cards }
             { statistics-in-time-span-days } оқылған
-            ({ $secs-per-card }к/карта)
+            ({ $secs-per-card }с/карта)
         [months]
             Бүгін { statistics-cards }
             { statistics-in-time-span-months } оқылған
-            ({ $secs-per-card }ай/карта)
+            ({ $secs-per-card }с/карта)
        *[years]
             Бүгін { statistics-cards }
             { statistics-in-time-span-years } оқылған
-            ({ $secs-per-card }ж/карта)
+            ({ $secs-per-card }с/карта)
     }
 
 ##
@@ -79,9 +79,9 @@ statistics-counts-relearning-cards = Қайталауда
 statistics-counts-title = Карта Саны
 statistics-counts-separate-suspended-buried-cards = Жекеленген кідіртілген/тығылған карталар
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention rate represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention rate is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -216,7 +216,7 @@ statistics-due-tomorrow = Ертеңге
 # the future. Unlike the other strings in the table that display actual data 
 # derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
 # ‘Daily load’ is a projection based on the given data.
-statistics-daily-load = Күнделікі жүктеме
+statistics-daily-load = Күнделікті жүктеме
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
 statistics-average-over-period = Мерізім орташасы

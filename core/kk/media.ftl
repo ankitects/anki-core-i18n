@@ -4,4 +4,4 @@ media-for-security-reasons-is-not = Қауіпсіздік үшін '{ $val }' �
 media-generated-file = Жасалған файл: { $val }
 media-have-you-installed-latex-and-dvipngdvisvgm = latex пен dvipng/dvisvgm жүктеп алдыңыз ба?
 media-recordingtime = Жазуда...<br>Уақыт: { $secs }
-media-sound-and-video-on-cards-will = mpv немесе mplayer жүктелмейінше дыбыс пен видео карталар жұмыс істемейді .
+media-sound-and-video-on-cards-will = mpv немесе mplayer жүктелмейінше дыбыс пен бейне карталар жұмыс істемейді .
