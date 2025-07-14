@@ -1,6 +1,6 @@
 adding-add-shortcut-ctrlandenter = Дадаць (спалучэнне клавіш: ctrl+enter)
 adding-added = Дададзена
-adding-close-and-lose-current-input = Закрыць і страціць бягучыя ўведзеныя даныя?
+adding-keep-editing = Працягнуць рэдагаванне
 adding-edit = Рэдагаваць "{ $val }"
 adding-history = Гісторыя
 adding-note-deleted = (Нататка выдалена)

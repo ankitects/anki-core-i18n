@@ -30,6 +30,7 @@ card-stats-fsrs-forgetting-curve-first-week = Першы тыдзень
 card-stats-fsrs-forgetting-curve-first-month = Першы месяц
 card-stats-fsrs-forgetting-curve-first-year = Першы год
 card-stats-fsrs-forgetting-curve-all-time = Увесь час
+card-stats-fsrs-forgetting-curve-desired-retention = Жаданае запамінанне
 
 ## Window Titles
 

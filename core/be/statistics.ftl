@@ -130,9 +130,11 @@ statistics-counts-separate-suspended-buried-cards = Раздзяляць пры�
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-title = Актуальнае запамінанне
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Усяго картак
 statistics-true-retention-count = Колькасць
+statistics-true-retention-retention = Запамінанне
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Маладыя карткі
 # This will usually be the same as statistics-counts-mature-cards

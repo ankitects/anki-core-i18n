@@ -214,8 +214,13 @@ deck-config-which-deck = Якую калоду вы хочаце?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-unable-to-determine-desired-retention = Немагчыма вызначыць мінімальнае рэкамендаванае запамінанне.
+deck-config-compute-minimum-recommended-retention = Мінімальнае рэкамендаванае запамінанне
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (павольна)
+deck-config-desired-retention = Жаданае запамінанне
+deck-config-historical-retention = Гістарычнае запамінанне
+deck-config-predicted-minimum-recommended-retention = Мінімальнае рэкамендаванае запамінанне: { $num }
 deck-config-complete = { $num }% выканана.
 deck-config-iterations = Ітэрацыя: { $count }...
 deck-config-wait-for-audio = Чакаць аўдыя
@@ -235,3 +240,5 @@ deck-config-bury-siblings = Адкладваць сястрынскія
 deck-config-do-not-bury = Не адкладваць сястрынскія
 deck-config-bury-if-new = Адкладваць новае
 deck-config-bury-if-new-or-review = Адкладваць новыя або на пераглядзе
+deck-config-compute-optimal-retention = Падлічыць мінімальнае рэкамендаванае запамінанне
+deck-config-predicted-optimal-retention = Мінімальнае рэкамендаванае запамінанне: { $num }

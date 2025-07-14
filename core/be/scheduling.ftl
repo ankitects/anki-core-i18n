@@ -103,6 +103,7 @@ scheduling-custom-study = дапасаванае навучанне
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 ідзе разам з новым планіроўшчыкам, які выпраўляе пэўную колькасць праблем, якія былі ў папярэдніх версіях Anki. Рэкамендуецца зрабіць абнаўленне.
 scheduling-update-done = Планіроўшчык абноўлены.
 scheduling-update-button = Абнавіць
 scheduling-update-later-button = Пазней
@@ -179,6 +180,13 @@ scheduling-set-due-date-done =
         [many] тэрміны { $cards } картак
        *[other] тэрмін { $cards } картак
     }.
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Ацэнена { $cards } картка.
+        [few] Ацэнена { $cards } карткі.
+        [many] Ацэнена { $cards } картак.
+       *[other] Ацэнена { $cards } картак.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Забыта { $cards } картка
