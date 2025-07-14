@@ -1,9 +1,22 @@
 actions-add = Дадаць
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Усё выбранае
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Любое з выбранага
 actions-cancel = Скасаваць
 actions-choose = Выбраць
 actions-close = Закрыць
+actions-discard = Адхіліць
 actions-copy = Скапіяваць
 actions-create-copy = Стварыць копію
 actions-custom-study = Дапасаванае навучанне
@@ -11,6 +24,7 @@ actions-decks = Калоды
 actions-decrement-value = Паменшыць значэнне
 actions-delete = Выдаліць
 actions-export = Экспартаваць
+actions-empty-cards = Пустыя карткі
 actions-filter = Фільтраваць
 actions-help = Даведка
 actions-increment-value = Павялічыць значэнне
@@ -55,11 +69,12 @@ actions-previous-card-info = Звесткі аб папярэдняй картц
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-currently-unsupported = Гэта дзеянне зараз не падтрымліваецца на вашай сістэме.
-
-## Flags
-
 actions-flag-number = Сцяжок { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Чырвоны
 actions-flag-orange = Аранжавы
 actions-flag-green = Зялёны
@@ -67,6 +82,9 @@ actions-flag-blue = Сіні
 actions-flag-pink = Ружовы
 actions-flag-turquoise = Бірузовы
 actions-flag-purple = Фіялетавы
+
+##
+
 actions-set-flag = Задаць сцяжок
 actions-nothing-to-undo = Нечага адрабляць
 actions-nothing-to-redo = Нечага ўзнаўляць
