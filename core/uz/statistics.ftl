@@ -98,6 +98,7 @@ statistics-reviews =
 # cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } tasi esda qoldi
 statistics-today-title = Bugun
+statistics-today-again-count = Qaytadan takrorlanganlar:
 statistics-today-type-counts = Oʻrganildi: { $learnCount }, takrorlandi: { $reviewCount }, qaytadan oʻrganildi: { $relearnCount }, filtrlandi: { $filteredCount }
 statistics-today-no-cards = Bugun hech qancha karta oʻrganilmadi.
 statistics-today-no-mature-cards = Bugun hech qanday yetuk karta oʻrganilmadi.
