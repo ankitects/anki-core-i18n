@@ -30,6 +30,7 @@ deck-config-tab-description =
     - `Набор налад`: Абмежаванне распаўсюджваецца на ўсе калоды, якія выкарыстоўваюць гэты набор налад.
     - `Гэта калода`: Абмежаванне, спецыфічнае для гэтай калоды.
     - `Толькі сёння`: Зрабіць часовую змену у абмежаванні гэтай калоды.
+deck-config-affects-entire-collection = Уплывае на ўсю калекцыю.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -73,41 +74,72 @@ deck-config-bury-new-siblings = Адкладваць новыя сястрынс
 deck-config-bury-review-siblings = Адкладваць сястрынскія да перагляду
 deck-config-bury-interday-learning-siblings = Адкладваць сястрынскія карткі на вывучэнні, на іншыя дні
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Парадак паказвання
 deck-config-new-gather-priority = Парадак збірання новых картак
-deck-config-new-gather-priority-deck = Калода
-deck-config-new-gather-priority-position-lowest-first = Па ўзрастанні пазіцыі
-deck-config-new-gather-priority-position-highest-first = Па ўбыванні пазіцыі
-deck-config-new-gather-priority-random-notes = Выпадковыя нататкі
-deck-config-new-gather-priority-random-cards = Выпадковыя карткі
 deck-config-new-card-sort-order = Парадак сартавання новых картак
-deck-config-sort-order-card-template-then-random = Па шаблоне карткі, потым выпадковы
-deck-config-sort-order-random-note-then-template = Выпадковая нататка, потым тып карткі
-deck-config-sort-order-random = Выпадковы
-deck-config-sort-order-template-then-gather = Па шаблоне каркі, потым па парадку збірання
-deck-config-sort-order-gather = У парадку збірання
 deck-config-new-review-priority = Парадак новых/пераглядаў
 deck-config-new-review-priority-tooltip = Калі паказваць новыя карткі адносна картак да перагляду.
 deck-config-interday-step-priority = Парадак вывучэння/пераглядаў між дзён
-deck-config-review-mix-mix-with-reviews = Змешваць з пераглядамі
-deck-config-review-mix-show-after-reviews = Паказваць пасля пераглядаў
-deck-config-review-mix-show-before-reviews = Паказваць перад пераглядамі
 deck-config-review-sort-order = Парадак сартавання пераглядаў
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Калода
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Па ўзрастанні пазіцыі
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Па ўбыванні пазіцыі
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Выпадковыя нататкі
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Выпадковыя карткі
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Па шаблоне карткі, потым выпадковы
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Выпадковая нататка, потым тып карткі
+# Sort the cards randomly.
+deck-config-sort-order-random = Выпадковы
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Па шаблоне каркі, потым па парадку збірання
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = У парадку збірання
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Змешваць з пераглядамі
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Паказваць пасля пераглядаў
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Паказваць перад пераглядамі
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
 deck-config-sort-order-due-date-then-random = Па тэрміне, потым выпадковы
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
 deck-config-sort-order-due-date-then-deck = Па тэрміне, потым па калодзе
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
 deck-config-sort-order-deck-then-due-date = Па калодзе, потым па тэрміне
+# Sort the cards by the interval, in ascending order (shortest to longest).
 deck-config-sort-order-ascending-intervals = Па ўзрастанні інтэрвалаў
+# Sort the cards by the interval, in descending order (longest to shortest).
 deck-config-sort-order-descending-intervals = Па ўбыванні інтэрвалаў
+# Sort the cards by ease, in ascending order (lowest to highest ease).
 deck-config-sort-order-ascending-ease = Па ўзрастанні лёгкасці
+# Sort the cards by ease, in descending order (highest to lowest ease).
 deck-config-sort-order-descending-ease = Па ўбыванні лёгкасці
-deck-config-sort-order-relative-overdueness = Адносная пратэрмінаванасць
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Спачатку простыя карткі
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Спачатку складаныя карткі
 
 ## Timer section
 
 deck-config-timer-title = Таймер
 deck-config-maximum-answer-secs = Максімум секунд для адказу
+
+## Auto Advance section
+
+deck-config-question-action-show-answer = Паказаць адказ
+deck-config-question-action-show-reminder = Паказаць напамін
 
 ## Audio section
 
@@ -126,6 +158,20 @@ deck-config-new-interval-tooltip = Множнік, які ўжываецца д�
 deck-config-minimum-interval-tooltip = Мінімальны інтэрвал, які надаецца картцы да перагляду пасля адказу «Зноў».
 deck-config-custom-scheduling = Уласны расклад
 deck-config-custom-scheduling-tooltip = Уплывае на ўсю калекцыю. Выкарыстоўвайце на ўласную рызыку!
+
+## Easy Days section.
+
+deck-config-easy-days-title = Лёгкія дні
+deck-config-easy-days-monday = пн
+deck-config-easy-days-tuesday = аў
+deck-config-easy-days-wednesday = ср
+deck-config-easy-days-thursday = чц
+deck-config-easy-days-friday = пт
+deck-config-easy-days-saturday = сб
+deck-config-easy-days-sunday = нд
+deck-config-easy-days-normal = Звычайна
+deck-config-easy-days-reduced = Менш
+deck-config-easy-days-minimum = Мінімальна
 
 ## Adding/renaming
 
@@ -166,14 +212,26 @@ deck-config-good-above-easy = Інтэрвал для лёгкіх павіне�
 
 deck-config-which-deck = Якую калоду вы хочаце?
 
+## Messages related to the FSRS scheduler
+
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (павольна)
+deck-config-complete = { $num }% выканана.
+deck-config-iterations = Ітэрацыя: { $count }...
+deck-config-wait-for-audio = Чакаць аўдыя
+deck-config-show-reminder = Паказваць напамін
+deck-config-answer-again = Адказаць зноў
+deck-config-answer-hard = Адказаць «цяжка»
+deck-config-answer-good = Адказаць «добра»
+deck-config-simulate = Сімуляваць
+deck-config-clear-last-simulate = Ачысціць апошнюю сімуляцыю
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Адкладваць сястрынскія
 deck-config-do-not-bury = Не адкладваць сястрынскія
 deck-config-bury-if-new = Адкладваць новае
 deck-config-bury-if-new-or-review = Адкладваць новыя або на пераглядзе
-deck-config-wait-for-audio = Чакаць аўдыя
-deck-config-show-reminder = Паказваць напамін
-deck-config-answer-again = Адказаць зноў
-deck-config-answer-hard = Адказаць «цяжка»
-deck-config-answer-good = Адказаць «добра»

@@ -59,22 +59,7 @@ statistics-in-time-span-years =
         [one] за { $amount } год
         [few] за { $amount } гады
         [many] за { $amount } гадоў
-       *[other] за { $amount } гадоў
-    }
-statistics-cards =
-    { $cards ->
-        [one] { $cards } картка
-        [few] { $cards } карткі
-        [many] { $cards } картак
-       *[other] { $cards } картак
-    }
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews =
-    { $reviews ->
-        [one] { $reviews } перагляд
-        [few] { $reviews } перагляды
-        [many] { $reviews } пераглядаў
-       *[other] { $reviews } пераглядаў
+       *[other] за { $amount } гады
     }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
@@ -89,6 +74,31 @@ statistics-studied-today =
         [months] { statistics-in-time-span-months }
        *[years] { statistics-in-time-span-years }
     } ({ $secs-per-card } с/картку)
+
+##
+
+statistics-cards =
+    { $cards ->
+        [one] { $cards } картка
+        [few] { $cards } карткі
+        [many] { $cards } картак
+       *[other] { $cards } картак
+    }
+statistics-notes =
+    { $cards ->
+        [one] { $notes } нататка
+        [few] { $notes } нататкі
+        [many] { $notes } нататак
+       *[other] { $notes } нататак
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } перагляд
+        [few] { $reviews } перагляды
+        [many] { $reviews } пераглядаў
+       *[other] { $reviews } пераглядаў
+    }
 statistics-today-title = Сёння
 statistics-today-again-count = Колькасць забытых картак:
 statistics-today-type-counts = Вывучаюцца: { $learnCount }, на перагляд: { $reviewCount }, на паўторнае вывучэнне: { $relearnCount }, фільтраваных: { $filteredCount }
@@ -106,6 +116,40 @@ statistics-counts-learning-cards = Вывучаюцца
 statistics-counts-relearning-cards = Вывучаюцца паўторна
 statistics-counts-title = Колькасць картак
 statistics-counts-separate-suspended-buried-cards = Раздзяляць прыпыненыя/адкладзеныя карткі
+
+## Retention rate represents your actual retention rate from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention rate is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Усяго картак
+statistics-true-retention-count = Колькасць
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Маладыя карткі
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Сталыя карткі
+statistics-true-retention-all = Усе
+statistics-true-retention-today = Сёння
+statistics-true-retention-yesterday = Учора
+statistics-true-retention-week = Мінулы тыдзень
+statistics-true-retention-month = Мінулы месяц
+statistics-true-retention-year = Летась
+statistics-true-retention-all-time = За ўвесь час
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = Н/д
+
+##
+
 statistics-range-all-time = агулам
 statistics-range-1-year-history = апошнія 12 месяцаў
 statistics-range-all-history = уся гісторыя
@@ -169,6 +213,11 @@ statistics-intervals-subtitle = Затрымка перад наступным �
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = З { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } правільных ({ $percent }%)
+statistics-hours-correct-info = → (не «Зноў»)
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 Пераглядаў: { $reviews }
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% правільных ({ $reviews })
 statistics-hours-title = Разбіўка па гадзінах
 statistics-hours-subtitle = Пераглядзець ацэнку паспяховасці для кожнай гадзіны дня.
 # shown when graph is empty
@@ -191,12 +240,20 @@ statistics-elapsed-time-years = { $amount } г.
 ##
 
 statistics-average-for-days-studied = Сярэдняе за дні навучання
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Усяго
 statistics-days-studied = Дзён навучання
 statistics-average-answer-time-label = Сярэдні час адказу
 statistics-average = Сярэдняе
-statistics-average-interval = Сярэдні інтэрвал
 statistics-due-tomorrow = На заўтра
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
+statistics-daily-load = Штодзённая нагрузка
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } з { $total } ({ $percent }%)
 statistics-average-over-period = Сярэдняе за перыяд
@@ -221,11 +278,13 @@ statistics-cards-per-day =
         [many] { $count } картак у
        *[other] { $count } картак у
     } дзень
-statistics-average-ease = Сярэдняя лёгкасць
 statistics-save-pdf = Захаваць PDF
 statistics-saved = Захавана.
 statistics-stats = статыстыка
 statistics-title = Статыстыка
-statistics-true-retention-total = Усяго картак
-statistics-true-retention-young = Маладыя карткі
-statistics-true-retention-mature = Сталыя карткі
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-interval = Сярэдні інтэрвал
+statistics-average-ease = Сярэдняя лёгкасць

@@ -13,6 +13,8 @@ preferences-media-is-not-backed-up = Медыя не былі рэзервова
 preferences-on-next-sync-force-changes-in = Пры наступнай сінхранізацыі прымусіць да зменаў у адным кірунку
 preferences-paste-clipboard-images-as-png = Устаўляць відарысы з буферу абмену як PNG
 preferences-paste-without-shift-key-strips-formatting = Устаўка без клавішы Shift пазбаўляе фарматавання
+preferences-generate-latex-images-automatically = Генераваць відарысы LaTeX (рызыка для бяспекі)
+preferences-latex-generation-disabled = Генераванне відарысаў LaTeX выключана ў параметрах.
 preferences-periodically-sync-media = Перыядычна сінхранізаваць медыя
 preferences-please-restart-anki-to-complete-language = Перазапусціце Anki, каб завяршыць змену мовы.
 preferences-preferences = Параметры
@@ -23,8 +25,8 @@ preferences-show-play-buttons-on-cards-with = Паказваць кнопкі п
 preferences-show-remaining-card-count = Паказваць колькасць пазасталых картак
 preferences-some-settings-will-take-effect-after = Некаторыя налады набудуць моц толькі пасля перазапуску Anki.
 preferences-tab-synchronisation = Сінхранізацыя
-preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Сінхранізацыя</b><br>У дадзены момант не ўключана; націсніце кнопку сінхранізацыі на галоўным акне каб уключыць.
 preferences-synchronize-audio-and-images-too = Сінхранізаваць таксама аўдыя і відарысы
+preferences-login-successful-sync-now = Уваход выкананы. Захаваць параметры і пачаць сінхранізацыю?
 preferences-timebox-time-limit = Абмежаванне для часавага поля
 preferences-user-interface-size = Памер інтэрфейсу
 preferences-when-adding-default-to-current-deck = Прадвызначана дадаваць да бягучай калоды
@@ -37,6 +39,7 @@ preferences-theme-follow-system = Прытрымлівацца сістэмна�
 preferences-theme-light = Светлая
 preferences-theme-dark = Цёмная
 preferences-v3-scheduler = Планіроўшчык V3
+preferences-check-for-updates = Правяраць наяўнасць абнаўленняў
 preferences-ignore-accents-in-search = Ігнараваць сімвалы націску ў пошуку (павольней)
 preferences-backup-explanation =
     Anki перыядычна робіць рэзервовыя копіі вашай калекцыі. Калі рэзервовым копіям больш за 2 дні,
@@ -68,6 +71,13 @@ preferences-note = Нататка
 preferences-scheduler = Планіроўшчык
 preferences-user-interface = Карыстальніцкі інтэрфейс
 preferences-import-export = Імпарт/экспарт
+preferences-reset-window-sizes = Скінуць памер вокнаў
+preferences-reset-window-sizes-complete = Памеры вокнаў і іх месцазнаходжанні скінуты.
+
+## URL scheme related
+
+preferences-url-scheme-allow-once = Дазволіць адзін раз
+preferences-url-scheme-always-allow = Дазваляць заўсёды
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

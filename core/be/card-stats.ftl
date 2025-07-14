@@ -24,8 +24,17 @@ card-stats-review-log-type-filtered = Фільтраваных
 card-stats-review-log-type-manual = Дапаможнік
 card-stats-no-card = (Няма картак да адлюстравання.)
 card-stats-custom-data = Адмысловыя даныя
+card-stats-fsrs-stability = Стабільнасць
+card-stats-fsrs-difficulty = Складанасць
+card-stats-fsrs-forgetting-curve-first-week = Першы тыдзень
+card-stats-fsrs-forgetting-curve-first-month = Першы месяц
+card-stats-fsrs-forgetting-curve-first-year = Першы год
+card-stats-fsrs-forgetting-curve-all-time = Увесь час
 
 ## Window Titles
 
 card-stats-current-card = Бягучая картка ({ $context })
 card-stats-previous-card = Папярэдняя картка ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

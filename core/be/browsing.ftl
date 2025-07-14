@@ -22,9 +22,17 @@ browsing-cards-deleted =
         [many] { $count } картак выдалена.
        *[other] { $count } картак выдалена.
     }
+browsing-cards-deleted-with-deckname =
+    { $count ->
+        [one] { $count } картка выдалена з { $deck_name }.
+        [few] { $count } карткі выдалены з { $deck_name }.
+        [many] { $count } картак выдалена з { $deck_name }.
+       *[other] { $count } картак выдалена з { $deck_name }.
+    }
 browsing-change-deck = Змяніць калоду
 browsing-change-deck2 = Змяніць калоду...
 browsing-change-note-type = Змяніць тып нататкі
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Змяніць тып нататкі...
 browsing-change-notetype = Змяніць тып нататкі
 browsing-clear-unused-tags = Ачысціць неўжываныя цэтлікі
@@ -79,10 +87,12 @@ browsing-reschedule = Пераназначыць час
 browsing-search-bar-hint = Шукаць карткі/нататкі (увядзіце тэкст, затым націсніце Enter)
 browsing-search-in = Шукаць у:
 browsing-search-within-formatting-slow = Шукаць у фарматаванні (павольна)
+browsing-select-deck = Выбраць калоду
 browsing-selected-notes-only = Толькі выбраныя нататкі
 browsing-shift-position-of-existing-cards = Змяніць пазіцыю існуючых картак
 browsing-sidebar = Бакавая панэль
 browsing-sidebar-filter = Фільтр бакавой панэлі
+# The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Поле сартавання
 browsing-sorting-on-this-column-is-not = Сартаванне гэтага слупка не падтрымліваецца. Выберыце іншы.
 browsing-start-position = Пачатковая пазіцыя:
@@ -179,6 +189,7 @@ browsing-reparented-decks =
         [many] Перайменавана { $count } калод
        *[other] Перайменавана { $count } калод
     }.
+browsing-sidebar-card-state-review = На перагляд
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -186,4 +197,3 @@ browsing-reparented-decks =
 browsing-card-initial = К
 # Exactly one character representing 'Notes'; should differ from browsing-card-initial.
 browsing-note-initial = Н
-browsing-sidebar-card-state-review = На перагляд

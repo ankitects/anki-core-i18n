@@ -5,6 +5,7 @@ exporting-anki-deck-package = Пакет калод Anki
 exporting-cards-in-plain-text = Карткі чыстым тэкстам
 exporting-collection = калекцыя
 exporting-collection-exported = Калекцыя экспартавана.
+exporting-colpkg-too-new = Абнавіцеся да апошняй версіі Anki, пасля чаго імпартуйце файл .colpkg/.apkg зноў.
 exporting-couldnt-save-file = Не атрымалася захаваць файл: { $val }
 exporting-export = Экспартаваць...
 exporting-export-format = <b>Фармат экспарту</b>:

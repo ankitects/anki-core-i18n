@@ -29,21 +29,22 @@ importing-map-to = Супаставіць да { $val }
 importing-map-to-tags = Супаставіць да цэтлікаў
 importing-mapped-to = супастаўлена да <b>{ $val }</b>
 importing-mapped-to-tags = супастаўлена да <b>цэтлікаў</b>
+# the action of combining two existing note types to create a new one
+importing-merge-notetypes = Аб’яднаць тыпы нататак
 importing-mnemosyne-20-deck-db = Калода Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Шматзначныя раздзяляльнікі не падтрымліваюцца. Увядзіце толькі адзін сімвал.
 importing-notes-added-from-file = Нататак, дададзена з файла: { $val }
 importing-notes-found-in-file = Нататак знойдзена ў файле: { $val }
 importing-notes-skipped-as-theyre-already-in = Нататак прапушчана, бо яны ўжо ў вашай калекцыі: { $val }
 importing-notes-updated-as-file-had-newer = Нататак абноўлена, бо файл меў найноўшую версію: { $val }
+importing-updates = Абнаўленні
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Спакаваная калода/калекцыя Anki (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Вертыкальныя рыска
 importing-rows-had-num1d-fields-expected-num2d = У «{ $row }» { $found } палёў, чакалася { $expected }
 importing-selected-file-was-not-in-utf8 = Выбраны файл быў не ў фармаце UTF-8. Праглядзіце раздзел аб імпартаванні ў дапаможніку.
 importing-semicolon = Кропкі з коскаю
 importing-skipped = Прапушчана
-importing-supermemo-xml-export-xml = Экспарт XML для Supermemo (*.xml)
 importing-tab = Табуляцыі
 importing-tag-modified-notes = Пазначыць змененыя нататкі цэтлікам:
 importing-text-separated-by-tabs-or-semicolons = Тэкст, падзелены табуляцыямі або кропкамі з коскай (*)
@@ -55,6 +56,11 @@ importing-unable-to-import-from-a-readonly = Немагчыма імпартав
 importing-unknown-file-format = Невядомы фармат файла.
 importing-update-existing-notes-when-first-field = Абнавіць існуючыя нататкі, калі першае поле супадае
 importing-updated = Абноўлена
+importing-update-if-newer = Калі навейшыя
+importing-update-always = Заўсёды
+importing-update-never = Ніколі
+importing-update-notes = Абнавіць нататкі
+importing-update-notetypes = Абнавіць тыпы нататак
 importing-note-added =
     { $count ->
         [one] Дадана { $count } нататка
@@ -127,6 +133,18 @@ importing-cards-added =
        *[other] Дададзена { $count } картак
     }.
 importing-file-empty = Выбраны вамі файл — пусты.
+importing-notes-added =
+    { $count ->
+        [one] Імпартавана { $count } новая нататка.
+        [few] Імпартавана { $count } новыя нататкі.
+        [many] Імпартавана { $count } новых нататак.
+       *[other] Імпартавана { $count } новых нататак.
+    }
+importing-import-log = Журнал імпартавання
+importing-no-notes-in-file = У файле не знойдзена нататак.
+importing-show = Паказаць
+importing-added-new-note = Дададзена новая нататка
+importing-overview = Агляд
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -134,3 +152,5 @@ importing-importing-collection = Імпартаванне калекцыі...
 importing-unable-to-import-filename = Немагчыма імпартаваць { $filename }: тып файла не падтрымліваецца
 importing-notes-that-could-not-be-imported = Нататак, якіх немагчыма імпартаваць, бо тып нататкі змяніўся: { $val }
 importing-added = Дададзена
+importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Экспарт XML для Supermemo (*.xml)
