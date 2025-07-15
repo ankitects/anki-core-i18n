@@ -47,6 +47,7 @@ importing-merge-notetypes-help =
     Увага: Ця дія вимагає односторонньої синхронізації і може позначити наявні нотатки як змінені.
 importing-mnemosyne-20-deck-db = Колода Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Багатосимвольні розділювачі не підтримуються. Будь ласка, введіть тільки один символ.
+importing-new-deck-will-be-created = Буде створено колоду: { $name }
 importing-notes-added-from-file = Нотатки додані з файлу: { $val }
 importing-notes-found-in-file = Нотатки знайдені в файлі: { $val }
 importing-notes-skipped-as-theyre-already-in = Нотатки пропущено, оскільки вже є в колекції: { $val }
@@ -63,7 +64,6 @@ importing-with-deck-configs-help =
     Якщо ввімкнено, імпортуються налаштування колоди, які включив співвласник колоди.
     Якщо вимкнено, усі колоди матимуть типову конфігурацію.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Пакунок Anki колода/колекція (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Вертикальна риска (|)
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -78,7 +78,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' вміщує { $foun
 importing-selected-file-was-not-in-utf8 = Обнаний файл не був у форматі UTF-8. Перегляньте розділ "Імпортування" в інструкції користувача.
 importing-semicolon = Крапка з комою
 importing-skipped = Пропущені
-importing-supermemo-xml-export-xml = Файл Supermemo у форматі XML (*.xml)
 importing-tab = Табуляція
 importing-tag-modified-notes = Додати мітку зміненим записам:
 importing-text-separated-by-tabs-or-semicolons = Текстовий файл, розділений TAB або крапкою з комою (*)
@@ -267,3 +266,5 @@ importing-importing-collection = Імпортування колекції…
 importing-unable-to-import-filename = Неможливо імпортувати { $filename }: тип файлу не підтримується
 importing-notes-that-could-not-be-imported = Нотатки не імпортовано через зміну їх типу: { $val }
 importing-added = Додано
+importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Файл Supermemo у форматі XML (*.xml)
