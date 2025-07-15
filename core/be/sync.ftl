@@ -36,7 +36,7 @@ sync-upload-too-large =
 sync-sign-in = Увайсці
 sync-ankihub-dialog-heading = Уваход да AnkiHub
 sync-ankihub-username-label = Імя карыстальніка або эл. пошта:
-sync-ankihub-addon-installation = Усталяванне дадатковага кампанента з AnkiHub
+sync-ankihub-addon-installation = Усталяванне дадатку з AnkiHub
 
 ## Buttons
 

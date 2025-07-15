@@ -30,6 +30,7 @@ deck-config-tab-description =
     - `Набор налад`: Абмежаванне распаўсюджваецца на ўсе калоды, якія выкарыстоўваюць гэты набор налад.
     - `Гэта калода`: Абмежаванне, спецыфічнае для гэтай калоды.
     - `Толькі сёння`: Зрабіць часовую змену у абмежаванні гэтай калоды.
+deck-config-new-cards-ignore-review-limit = Ліміт пераглядаў не ўплывае на новыя карткі
 deck-config-affects-entire-collection = Уплывае на ўсю калекцыю.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -88,6 +89,8 @@ deck-config-review-sort-order = Парадак сартавання перагл
 
 # Gather new cards ordered by deck.
 deck-config-new-gather-priority-deck = Калода
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Калода, а потым выпадковыя нататкі
 # Gather new cards ordered by position number, ascending (lowest to highest).
 deck-config-new-gather-priority-position-lowest-first = Па ўзрастанні пазіцыі
 # Gather new cards ordered by position number, descending (highest to lowest).
@@ -140,6 +143,7 @@ deck-config-maximum-answer-secs = Максімум секунд для адка�
 
 deck-config-question-action-show-answer = Паказаць адказ
 deck-config-question-action-show-reminder = Паказаць напамін
+deck-config-answer-action = Дзеянне пасля адказу
 
 ## Audio section
 
@@ -223,6 +227,8 @@ deck-config-historical-retention = Гістарычнае запамінанне
 deck-config-predicted-minimum-recommended-retention = Мінімальнае рэкамендаванае запамінанне: { $num }
 deck-config-complete = { $num }% выканана.
 deck-config-iterations = Ітэрацыя: { $count }...
+deck-config-please-save-your-changes-first = Спачатку захавайце свае змены.
+deck-config-percent-input = { $pct }%
 deck-config-wait-for-audio = Чакаць аўдыя
 deck-config-show-reminder = Паказваць напамін
 deck-config-answer-again = Адказаць зноў
@@ -230,6 +236,12 @@ deck-config-answer-hard = Адказаць «цяжка»
 deck-config-answer-good = Адказаць «добра»
 deck-config-simulate = Сімуляваць
 deck-config-clear-last-simulate = Ачысціць апошнюю сімуляцыю
+deck-config-fsrs-simulator-radio-count = На перагляд
+deck-config-advanced-settings = Пашыраныя налады
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Завучана
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 

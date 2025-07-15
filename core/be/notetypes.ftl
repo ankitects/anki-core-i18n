@@ -46,3 +46,4 @@ notetypes-toggle-masks = Пераключыць маскі
 notetypes-image-occlusion-name = Перакрыццё відарысаў
 notetype-error-no-image-to-show = Няма відарыса.
 notetypes-io-select-image = Выбраць відарыс
+notetypes-io-paste-image-from-clipboard = Уставіць відарыс з буфера абмену

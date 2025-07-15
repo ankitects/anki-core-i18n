@@ -99,6 +99,10 @@ statistics-reviews =
         [many] { $reviews } пераглядаў
        *[other] { $reviews } пераглядаў
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = Завучана: { $memorized }
 statistics-today-title = Сёння
 statistics-today-again-count = Колькасць забытых картак:
 statistics-today-type-counts = Вывучаюцца: { $learnCount }, на перагляд: { $reviewCount }, на паўторнае вывучэнне: { $relearnCount }, фільтраваных: { $filteredCount }
@@ -159,6 +163,8 @@ statistics-range-deck = калода
 statistics-range-collection = калекцыя
 statistics-range-search = Пошук
 statistics-card-ease-title = Лёгкасць карткі
+statistics-card-difficulty-title = Складанасць карткі
+statistics-card-stability-title = Стабільнасць карткі
 statistics-card-ease-subtitle = Чым ніжэй лёгкасці, тым часцей будзе з’яўляцца картка.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -290,3 +296,4 @@ statistics-title = Статыстыка
 
 statistics-average-interval = Сярэдні інтэрвал
 statistics-average-ease = Сярэдняя лёгкасць
+statistics-average-difficulty = Сярэдняя складанасць
