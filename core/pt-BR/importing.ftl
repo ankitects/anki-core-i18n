@@ -48,6 +48,7 @@ importing-merge-notetypes-help =
     Aviso: Isso exigirá uma sincronização unidirecional, e pode marcar notas existentes como modificadas.
 importing-mnemosyne-20-deck-db = Baralho Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separadores multi-caractere não são suportados. Por favor, digite apenas um caractere.
+importing-new-deck-will-be-created = Um novo deck será criado: { $name }
 importing-notes-added-from-file = Notas adicionadas do arquivo: { $val }
 importing-notes-found-in-file = Notas encontradas no arquivo: { $val }
 importing-notes-skipped-as-theyre-already-in = Notas ignoradas, pois já estão em sua coleção: { $val }
@@ -64,7 +65,6 @@ importing-with-deck-configs-help =
     Se ativado, todas as opções de baralho incluídas pelo compartilhador do baralho também serão importadas.
     Caso contrário, todos os baralhos serão atribuídos ao preset padrão.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pacote de Baralho/Coleção do Anki (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Pipe
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -78,7 +78,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tem { $found } campo
 importing-selected-file-was-not-in-utf8 = O arquivo selecionado não encontra-se no formato UTF-8. Por favor, veja no manual como fazer a importação corretamente.
 importing-semicolon = Ponto e vírgula
 importing-skipped = Ignorado
-importing-supermemo-xml-export-xml = Exportação em Supermemo XML (*.xml)
 importing-tab = Tab
 importing-tag-modified-notes = Notas com etiquetas modificadas:
 importing-text-separated-by-tabs-or-semicolons = Texto separado por tabs ou ponto e vírgula (*)
@@ -248,3 +247,5 @@ importing-importing-collection = Importando coleção...
 importing-unable-to-import-filename = Não foi possível importar { $filename }: tipo de arquivo não suportado
 importing-notes-that-could-not-be-imported = Notas que não pudiam ser importadas conforme o tipo de nota foram alteradas: { $val }
 importing-added = Adicionado
+importing-pauker-18-lesson-paugz = Pauker Lição 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Exportação em Supermemo XML (*.xml)
