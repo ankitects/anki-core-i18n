@@ -307,7 +307,7 @@ deck-config-minimum-interval-tooltip = الفاصل الأدنى المعطى ل
 deck-config-custom-scheduling = جدولة مخصصة
 deck-config-custom-scheduling-tooltip = يؤثر بكل المجموعة. استخدم على مسؤوليتك الخاصة!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = الأيام السهلة
 deck-config-easy-days-monday = الاثنين
@@ -403,6 +403,8 @@ deck-config-weights = عوامل FSRS
 deck-config-compute-optimal-weights = تحسين عوامل FSRS
 deck-config-compute-minimum-recommended-retention = معدل التذكر الأدنى المستحسن
 deck-config-optimize-button = تحسين المجموعة الحالية
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (بطيء)
 deck-config-compute-button = احسب
 deck-config-ignore-before = تجاهل المراجعات قبل
 deck-config-time-to-optimize = مرت فترة. ينصح باستخدام زر تحسين الكل.
@@ -427,6 +429,7 @@ deck-config-desired-retention-tooltip =
     لزيادة فرص تذكرها. إذا قمت بتقليل القيمة، فسوف يعرض أنكي البطاقات بشكل أقل تكرارًا، وسوف تنسى 
     المزيد منها. كن حذرا عند ضبط هذه القيمة - فالقيم الأعلى ستزيد عبء العمل بشكل كبير، والقيم 
     المنخفضة يمكن أن تكون محبطة عندما تنسى الكثير من المواد.
+deck-config-desired-retention-tooltip2 = قيم الحمل في صندوق المعلومات تقريبية. استخدم المحاكي لدقة أعلى.
 deck-config-historical-retention-tooltip =
     عدما يكون قسم من سجل مراجعاتك مفقودًا، تحتاج FSRS لملء الفراغات.
     يفترض أنك تذكرتك 90% من المعلومات في المراجعات القديمة افتراضيًا.
@@ -467,15 +470,11 @@ deck-config-compute-optimal-retention-tooltip4 =
     قد ترغب باستخدام قيمة أكبر إذا كنت تريد ضمان تذكر أفضل على حساب وقت دراسة أطول.
     لا ينصح باستخدام قيمة أصغر من القيمة المستحسنة لأن هذا سيؤدي إلى جهد أكبر بدون عائد.
 deck-config-please-save-your-changes-first = يرجى حفظ التغييرات أولًا.
-deck-config-a-100-day-interval =
-    { $days ->
-        [zero] يصبح فاصل 100 يوم { $days } يوم.
-        [one] يصبح فاصل 100 يوم يومًا واحدًا.
-        [two] يصبح فاصل 100 يوم يومين
-        [few] يصبح فاصل 100 يوم { $days } أيام.
-        [many] يصبح فاصل 100 يوم { $days } يوم.
-       *[other] يصبح فاصل 100 يوم { $days } يوم.
-    }
+deck-config-workload-factor-change =
+    الحمل التقريبي: { $factor }x
+    (مقارنة بمعدل التذكر المرغوب فيه { $previousDR }%)
+deck-config-workload-factor-unchanged = كلما كانت القيمة أعلى، تظهر البطاقات بشكل متكرر أكثر.
+deck-config-desired-retention-too-low = معدل التذكر المرغوب فيه الخاص بك ضئيل جدًا، ما قد يؤدي إلى فواصل طويلة جدًا.
 deck-config-percent-of-reviews =
     { $reviews ->
         [zero] { $pct } من أصل { $reviews } مراجعة
@@ -486,6 +485,8 @@ deck-config-percent-of-reviews =
        *[other] { $pct } من أصل { $reviews } مراجعة
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = يجري التحقق من التحسينات...
 deck-config-optimizing-preset = حساب المعاملات المثالية لمجموعة الخيارات { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = يجب تفعيل FSRS أولًا.
 deck-config-fsrs-params-optimal = يبدو أن عوامل FSRS محسنة بالفعل.
@@ -514,8 +515,20 @@ deck-config-save-options-to-preset = حفظ التغييرات في مجموعة
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = المحفوظ
 
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [zero] يصبح فاصل 100 يوم { $days } يوم.
+        [one] يصبح فاصل 100 يوم يومًا واحدًا.
+        [two] يصبح فاصل 100 يوم يومين
+        [few] يصبح فاصل 100 يوم { $days } أيام.
+        [many] يصبح فاصل 100 يوم { $days } يوم.
+       *[other] يصبح فاصل 100 يوم { $days } يوم.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = وقت المراجعة/اليوم
 deck-config-fsrs-simulator-y-axis-title-count = عدد المراجعات/اليوم
 deck-config-fsrs-simulator-y-axis-title-memorized = إجمالي المحفوظ
