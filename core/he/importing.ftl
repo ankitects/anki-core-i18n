@@ -50,6 +50,7 @@ importing-merge-notetypes-help =
     אזהרה: זה ידרוש סנכרון חד כיווני, ועלול לסמן רשומות קיימות כשינויים.
 importing-mnemosyne-20-deck-db = חפיסת Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = מפסיקים עם תווים מרובים אינם נתמכים. אנא הכנס תו אחד בלבד.
+importing-new-deck-will-be-created = חפיסה חדשה תיווצר: { $name }
 importing-notes-added-from-file = רשומות נוספו מקובץ: { $val }
 importing-notes-found-in-file = רשומות נמצאו בקובץ: { $val }
 importing-notes-skipped-as-theyre-already-in = רשומות שדולגו, מפני שהן כבר קיימות באוסף שלך: { $val }
@@ -66,7 +67,6 @@ importing-with-deck-configs-help =
     אם אפשרות זו מופעלת, כל אפשרויות החפיסה שכלל יוצר החפיסה ייובאו גם הן.
     אחרת, כל החפיסות יוגדרו כברירת מחדל.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = חפיסה/אוסף של Anki ארוזים (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
 # the '|' character
 importing-pipe = צינור
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -81,7 +81,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ישנם { $found } 
 importing-selected-file-was-not-in-utf8 = הקובץ שנבחר אינו בפורמט UTF-8. ראה אודות ייבוא במדריך למשתמש.
 importing-semicolon = פסיק נקודה
 importing-skipped = דולג(ו)
-importing-supermemo-xml-export-xml = יצוא Supermemo XML (*.xml)
 importing-tab = טאב
 importing-tag-modified-notes = רשומות שהתג השתנה:
 importing-text-separated-by-tabs-or-semicolons = טקסט מופרד באמצעות טאבים או נקודה ופסיק (*)
@@ -252,3 +251,5 @@ importing-importing-collection = מייבא אוסף...
 importing-unable-to-import-filename = { $filename } לא ניתן לייבוא: סוג הקובץ לא נתמך
 importing-notes-that-could-not-be-imported = רשומות שלא יובאו משום שסוג הרשומה השתנה: { $val }
 importing-added = נוספו
+importing-pauker-18-lesson-paugz = Pauker 1.8 שיעור (*.pau.gz)
+importing-supermemo-xml-export-xml = יצוא Supermemo XML (*.xml)
