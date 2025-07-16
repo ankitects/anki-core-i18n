@@ -46,6 +46,7 @@ importing-merge-notetypes-help =
     Avviso: questa modifica richiederà una sincronizzazione unidirezionale e alcune note già esistenti potrebbero essere contrassegnate come 'modificate'.
 importing-mnemosyne-20-deck-db = Mazzo di Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatori multi-carattere non sono supportati. Inserisci un solo carattere.
+importing-new-deck-will-be-created = Verrà creato un nuovo mazzo: { $name }
 importing-notes-added-from-file = Note aggiunte dal file: { $val }
 importing-notes-found-in-file = Note trovate nel file: { $val }
 importing-notes-skipped-as-theyre-already-in = Note ignorate, poiché una copia aggiornata è già presente nella propria collezione: { $val }
