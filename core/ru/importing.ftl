@@ -48,6 +48,7 @@ importing-merge-notetypes-help =
     Предупреждение: это потребует односторонней синхронизации и может пометить существующие заметки как измененные.
 importing-mnemosyne-20-deck-db = Колода Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Разделители из нескольких символов не поддерживаются. Введите только один символ.
+importing-new-deck-will-be-created = Будет создана новая колода: { $name }
 importing-notes-added-from-file = Записи, добавленные из файла: { $val }
 importing-notes-found-in-file = Записи, найденные в файле: { $val }
 importing-notes-skipped-as-theyre-already-in = Пропущенные записи, которые уже есть в коллекции: { $val }
@@ -60,7 +61,6 @@ importing-updates = Процедура обновления
 importing-include-reviews-help = Если включено, все предыдущие обзоры, которые включил пользователь, разделяющий колоду, также будут импортированы. В противном случае все карты будут импортированы как новые карты, а любые теги «leech» или «marked» будут удалены.
 importing-with-deck-configs-help = Если включено, все параметры колоды, которые включил пользователь колоды, также будут импортированы. В противном случае всем колодам будет назначена предустановка по умолчанию.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Упакованная колода/коллекция Anki (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Черта
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -75,7 +75,6 @@ importing-rows-had-num1d-fields-expected-num2d = В '{ $row }' { $found } пол
 importing-selected-file-was-not-in-utf8 = Выбранный файл не в кодировке UTF-8. Пожалуйста, прочтите раздел об импорте в руководстве.
 importing-semicolon = Точка с запятой
 importing-skipped = Пропущено
-importing-supermemo-xml-export-xml = Экспорт в Supermemo XML (*.xml)
 importing-tab = Табуляция
 importing-tag-modified-notes = Метки для изменённых:
 importing-text-separated-by-tabs-or-semicolons = Текст, разделённый табуляцией или точками с запятой
@@ -266,3 +265,5 @@ importing-importing-collection = Импортирование коллекции
 importing-unable-to-import-filename = Не удалось импортировать { $filename }: тип файлов не поддерживается
 importing-notes-that-could-not-be-imported = Записи, которые не импортированы, потому что изменился их тип: { $val }
 importing-added = Успешно добавлено
+importing-pauker-18-lesson-paugz = Урок Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Экспорт в Supermemo XML (*.xml)
