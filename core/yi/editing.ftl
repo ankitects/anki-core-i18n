@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = גראָדעק
 editing-image-occlusion-ellipse-tool = עליפּס
 editing-image-occlusion-polygon-tool = פּאָליגאָן
 editing-image-occlusion-text-tool = טעקסט
+editing-image-occlusion-fill-tool = באַפֿאַרבן
 editing-image-occlusion-toggle-mask-editor = איבערסליסן מאַסקע שאַפֿער
 editing-image-occlusion-reset = אײַנשטעלן בילד-אָקליזיע אויף ס׳נײַ
 editing-image-occlusion-confirm-reset = ביסט זיכער, אַז דו ווילסט אײַנשטעלן אָט די בילד-אָקליזיע אויף ס׳נײַ?

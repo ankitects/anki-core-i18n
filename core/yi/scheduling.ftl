@@ -165,6 +165,11 @@ scheduling-set-due-date-done =
         [one] באַשטימען טערמין פון { $cards } קאַרטל.
        *[other] באַשטימען טערמין פון { $cards } קאַרטלעך.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] צייכנס געשטעלט אויף { $cards } קאַרטל.
+       *[other] צייכנס געשטעלט אויף { $cards } קאַרטלעך.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] אײַנשטעלן { $cards } קאַרטל אויף ס׳נײַ.

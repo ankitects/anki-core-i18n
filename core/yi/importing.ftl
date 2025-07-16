@@ -43,6 +43,7 @@ importing-merge-notetypes-help =
     היט זיך: דאָס וועט דאַרפֿן אַן אַהינ-סינך, און יעצטיקע נאָטיצן קענען ווערן פֿאַרצייכענט אַלס ׳מאָדיפֿיצירט׳.
 importing-mnemosyne-20-deck-db = טעשל מיט Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = מחיצות מוזן באַשטיין אין נאָר איין אות
+importing-new-deck-will-be-created = ס׳וועט ווערן באַשאַפֿן אַ נײַ טעשל: { $name }
 importing-notes-added-from-file = נאָטיצן צוגעשטעלט פון טעקע: { $val }
 importing-notes-found-in-file = נאָטיצן געפֿונען אין טעקע: { $val }
 importing-notes-skipped-as-theyre-already-in = איבערגעהיפּט נאָטיצן, ווײַל דערהײַנטיקטע קאָפּיעס זענען שוין אין דײַן זאַמלונג: { $val }
@@ -59,7 +60,6 @@ importing-with-deck-configs-help =
     ווען אַקטיווירט, אַרײַנגענעמענע טעשל-ברירות וועלן אויך אַרײַנגעפֿירט ווערן. 
     אַנישט, וועלן אַלע טעשלעך באַשטימט ווערן אויפֿן מוסטער-טעשל לויט פֿעליקייט.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = אײַנגעפּאַקט ANKI טעשל/זאַמלונג (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 לעקציע (*.pau.gz)
 # the '|' character
 importing-pipe = טרויב-סימבאָל
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -73,7 +73,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' האָט געהאַ�
 importing-selected-file-was-not-in-utf8 = אויסגעקליבענע טעקע איז נישט געווען אין פֿאָרמאַט UTF-8. גיב אַ קוק אויפֿן ׳אַרײַנפֿירן׳ אָפּטייל פֿונעם האַנטביכל.
 importing-semicolon = פּינטל-קאָמע
 importing-skipped = איבערגעהיפּט
-importing-supermemo-xml-export-xml = אַרויספֿירן Supermemo XML (*.xml)
 importing-tab = טאַבקלאַוויש
 importing-tag-modified-notes = באַצעטלען אויסגעביטענע נאָטיצן:
 importing-text-separated-by-tabs-or-semicolons = טעקסט צעטיילט פון טאַבקלאַווישן אָדער פּינטל-קאָמעס (*)
@@ -228,3 +227,5 @@ importing-importing-collection = אַרײַנפֿירנדיק זאַמלונג�
 importing-unable-to-import-filename = מ׳האָט נישט געקענט אַרײַנפֿירן { $filename }: דער סאָרט טעקע ווערט נישט דערקענט
 importing-notes-that-could-not-be-imported = נאָטיצן וואָס זענען נישט געראָטן אַרײַנגעפֿירט ווערן, צוליב וואָס די נאָטיצגרופּע איז שוין געביטן געוואָרן: { $val }
 importing-added = געשאַפֿן
+importing-pauker-18-lesson-paugz = Pauker 1.8 לעקציע (*.pau.gz)
+importing-supermemo-xml-export-xml = אַרויספֿירן Supermemo XML (*.xml)

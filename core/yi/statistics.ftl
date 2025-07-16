@@ -64,12 +64,21 @@ statistics-cards =
         [one] { $cards } קאַרטל
        *[other] { $cards } קאַרטלעך
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } נאָטיץ
+       *[other] { $notes } נאָטיצן
+    }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
         [one] { $reviews } איבער׳חזר׳ונג
        *[other] { $reviews } איבער׳חזר׳ונגען
     }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } קאַרטלעך אויסגעלערנט
 statistics-today-title = הײַנט
 statistics-today-again-count = ווידער-חשבון:
 statistics-today-type-counts = לערנען: { $learnCount }, אײַנ׳חזר׳ן: { $reviewCount }, קריקלערנען: { $relearnCount }, פֿילטרירט: { $filteredCount }
@@ -88,9 +97,9 @@ statistics-counts-relearning-cards = קריקלערנענדיקע
 statistics-counts-title = קאַרטל חשבונות
 statistics-counts-separate-suspended-buried-cards = באַזונדערע אָפּגעשטעלטע/אָפּגעהאַלטענע קאַרטלעך
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -101,12 +110,30 @@ statistics-counts-separate-suspended-buried-cards = באַזונדערע אָפ�
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-title = זכּרון
+statistics-true-retention-subtitle = צאָל איבערהיפּן (קאַרטלעך מיט צווישנצײַט ≥ 1 טאַָג)
+statistics-true-retention-tooltip = אַז מע ניצט FSRS, ס׳איז ערוואַרטעט אַז דער זכּרון-צאָל זאָל זײַן כּמעט גלײַך מיט דעם געוווּנטשן זכּרון. האַלט אין אויג, אַז די דאַטן פֿון איין מעת-לעת איז אומפּינקטלעך, איז דאָך בעסער איבערצוקוקן חדושלעכע דאַטן.
+statistics-true-retention-range = גאַמע
+statistics-true-retention-pass = ריכטיק
+statistics-true-retention-fail = פֿאַרפֿעלט
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = סך-הכּל
+statistics-true-retention-count = צאָל
+statistics-true-retention-retention = זכּרון
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = יונגע
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = דערוואַקסענע
+statistics-true-retention-all = אַלע
+statistics-true-retention-today = הײַנט
+statistics-true-retention-yesterday = נעכטן
+statistics-true-retention-week = פֿאַריקע וואָך
+statistics-true-retention-month = פֿאַריקע חודש
+statistics-true-retention-year = פֿאַר אַ יאָרן
+statistics-true-retention-all-time = אַלע צײַטן
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = נישט חל
 
 ##
 
@@ -120,6 +147,7 @@ statistics-card-ease-title = קאַרטל-גרינגקייט
 statistics-card-difficulty-title = קאַרטל-שוועריקייט
 statistics-card-stability-title = קאַרטל-געזעצקייט
 statistics-card-stability-subtitle = דער אָפּייג וואָס נאָך אים, פֿאַלט די דערמאָנענקייט ביז 90%.
+statistics-median-stability = מיטלפּונקט סטאַבילקייט
 statistics-card-retrievability-title = קאַרטל דערמאָנענקייט
 statistics-card-ease-subtitle = וואָס נידעריקער די גרינגקייט, אַלץ אָפֿטער וועט אַ קאַרטל ווערן אויסגעוויזן.
 statistics-card-difficulty-subtitle2 = וואָס העכער די שוועריקייט, אַלץ פּאַמעלעכער וואָס די געזעצקייט ווערן פֿאַרגרעסערט.
@@ -201,6 +229,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = פון { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } ריכטיק ({ $percent }%)
+statistics-hours-correct-info = ← (נישט 'ווידער')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } איבער׳חזר׳ונגען
 # the emoji depicts the graph displaying this number
@@ -234,7 +263,14 @@ statistics-total = סך-הכּל
 statistics-days-studied = טעג אײַנגע׳חזר׳ט
 statistics-average-answer-time-label = ענטפֿער-משך אין דורכשניט
 statistics-average = דורכשניט
+statistics-median-interval = מיטלפּונקט צווישנצײַט
 statistics-due-tomorrow = טערמיניק מאָרגן
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
+statistics-daily-load = טעגלעכע משׂא
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } פון { $total } ({ $percent }%)
 statistics-average-over-period = דורכשניט לויט זמן
@@ -253,7 +289,10 @@ statistics-cards-per-day =
         [one] { $count } קאַרטל/טאָג
        *[other] { $count } קאַרטלעך/טאָג
     }
+statistics-median-ease = מיטלפּונקט גרינגקייט
+statistics-median-difficulty = מיטלפּונקט שוועריקייט
 statistics-average-retrievability = דורכשניטלעכע דערמאָנענקייט
+statistics-estimated-total-knowledge = סך-הכּל וויסן לויט אָפּשאַץ
 statistics-save-pdf = אויפֿהיטן PDF
 statistics-saved = אויפֿגעהיט.
 statistics-stats = סטאַט.

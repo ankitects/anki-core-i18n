@@ -314,7 +314,7 @@ deck-config-compute-button = אויסרעכענען
 deck-config-ignore-before = איגנאָרירן קאַרטלעך וואָס פֿריער איבערגע׳חזר׳ט
 deck-config-time-to-optimize = שוין לאַנג זיך נישט געזען - ס׳איז כּדאי צו „אָפּטימיזירן אַלץ״.
 deck-config-evaluate-button = אָפּשאַצן
-deck-config-desired-retention = געוווּנטשן זכּרון
+deck-config-desired-retention = געוווּנטשענער זכּרון
 deck-config-historical-retention = היסטאָריש זכּרון
 deck-config-smaller-is-better = קלענערע צאָלן ווײַזן אָן די וואָס זענען בעסער צוגעפּאַסט אויף דער איבער׳חזר׳ונג געשיכטע.
 deck-config-steps-too-large-for-fsrs = ווען FSRS גילט, שטאַפּלען 1 טאָג אָדער מער זענען נישט כּדאי.
@@ -324,6 +324,8 @@ deck-config-complete = { $num }% פֿאַרענדיקט
 deck-config-iterations = גילגול: { $count }…
 deck-config-reschedule-cards-on-change = אָפּלייגן קאַרטלעך אויפֿן טוישן
 deck-config-please-save-your-changes-first = קודם, ביטע היט אויף טוישונגען.
+deck-config-desired-retention-too-low = דער געוווּנטשענער זכּרון איז גאָר נידעריק, וואָס קען גורם זײַן גאַנץ לאַנגע צווישנצײַטן.
+deck-config-desired-retention-too-high = דער געוווּנטשענער זכּרון איז גאָר הויך, וואָס קען גורם זײַן גאַנץ קורצע צווישנצײַטן.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% פון { $reviews } איבער׳חזר׳ונג
@@ -339,6 +341,11 @@ deck-config-answer-again = ענטפֿער ווידער
 deck-config-answer-hard = ענטפֿער שווער
 deck-config-answer-good = ענטפֿער גוט
 deck-config-days-to-simulate = טעג אויף צו סימולירן
+deck-config-desired-retention-below-optimal = דער געוווּנטשענער זכּרון איז נידעריקער ווי אָפּטימאַל, איז כּדאי אים צו פֿאַרגרעסערן.
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = אויסגעלערנט
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -357,4 +364,5 @@ deck-config-do-not-bury = אָפּהאַלטן נישט קיין געשוויס�
 deck-config-bury-if-new = אָפּהאַלטן ווען נײַ
 deck-config-bury-if-new-or-review = אָפּהאַַלטן ווען נײַ אָדער אויף איבערצו׳חזר׳ן
 deck-config-bury-if-new-review-or-interday = אָפּהאַַלטן ווען נײַ, אויף איבערצו׳חזר׳ן, אָדער צווישן-טעג אײַנצו׳חזר׳ן
+deck-config-predicted-optimal-retention = מינימאַל רעקאָמענדירטע זכּרון: { $num }
 deck-config-optimize-all-tip = מע קען אָפּטימיזירן אַלע מוסטערס מיט אַ מאָל בײַם ניצן דאָס אַראָפּצי-קנעפּל פּונקט לעבן "אויפֿהיטן".

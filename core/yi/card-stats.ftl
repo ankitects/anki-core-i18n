@@ -35,7 +35,7 @@ card-stats-fsrs-forgetting-curve-first-week = ערשטע וואָך
 card-stats-fsrs-forgetting-curve-first-month = ערשטער חודש
 card-stats-fsrs-forgetting-curve-first-year = ערשטע יאָר
 card-stats-fsrs-forgetting-curve-all-time = אַלע צײַטן
-card-stats-fsrs-forgetting-curve-desired-retention = געוואונטשענע אָנהאַלט
+card-stats-fsrs-forgetting-curve-desired-retention = געוואונטשענער זכּרון
 
 ## Window Titles
 
