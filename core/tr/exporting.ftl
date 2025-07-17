@@ -4,14 +4,19 @@ exporting-anki-collection-package = Anki Koleksiyon Paketi
 exporting-anki-deck-package = Anki Deste Paketi
 exporting-cards-in-plain-text = Düz Metindeki Kartlar
 exporting-collection = koleksiyon
+exporting-collection-exported = Koleksiyon dışa aktarıldı.
+exporting-colpkg-too-new = Lütfen Anki'yi son sürümüne güncelleyin, ardından .colpkg/.apkg dosyasını tekrar içe aktarın.
 exporting-couldnt-save-file = Dosya kaydedilemedi: { $val }
 exporting-export = Dışa Aktar...
 exporting-export-format = <b>Dışa Aktarma Biçimi</b>:
 exporting-include = <b>Dahil</b>:
+exporting-include-html-and-media-references = HTML ve medya dosyalarını dahil et
 exporting-include-media = Ortam Ekle
 exporting-include-scheduling-information = Zamanlama bilgisini dahil et
 exporting-include-tags = Etiketleri dahil et
+exporting-support-older-anki-versions = Eski Anki sürümlerini destekle (daha yavaş/daha büyük dosyalar)
 exporting-notes-in-plain-text = Düz Metinli Notlar
+exporting-selected-notes = Seçili Notlar
 exporting-card-exported =
     { $count ->
         [one] { $count } kart dışa aktarıldı.
@@ -27,3 +32,6 @@ exporting-note-exported =
         [one] { $count } not dışa aktarıldı.
        *[other] { $count } not dışa aktarıldı.
     }
+exporting-exporting-file = Dosya dışa aktarılıyor…
+exporting-include-deck = Deste ismini dahil et
+exporting-include-notetype = Not türü ismini dahil et
