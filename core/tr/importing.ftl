@@ -91,7 +91,12 @@ importing-file-empty = Seçtiğiniz dosya boş.
 importing-show = Göster
 importing-details = Ayrıntılar
 importing-added-new-note = Yeni not eklendi
-importing-existing-notes-help = İçe aktarılan bir not mevcut bir notla çakışırsa ne yapılmalı? - `{ importing-update }`: Mevcut notu güncelle. - `{ importing-preserve }`: Hiçbir şey yapma. - `{ importing-duplicate }`: Yeni bir not oluştur.
+importing-existing-notes-help =
+    İçe aktarılan bir not mevcut bir notla çakışırsa ne yapılmalı?
+    
+    - `{ importing-update }`: Mevcut notu güncelle.
+    - `{ importing-preserve }`: Hiçbir şey yapma.
+    - `{ importing-duplicate }`: Yeni bir not oluştur.
 importing-tag-all-notes-help = Bu etiketler hem yeni içe aktarılan hem de güncellenen notlara eklenecektir.
 importing-tag-updated-notes-help = Bu etiketler güncellenen notlara eklenecektir.
 
