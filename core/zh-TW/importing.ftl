@@ -44,6 +44,7 @@ importing-merge-notetypes-help =
     警告：這將需要單向同步，且可能會將現有筆記標記為已修改。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 的牌組 (*.db)
 importing-multicharacter-separators-are-not-supported-please = 無法使用多字符的分隔，請只輸入一個字符。
+importing-new-deck-will-be-created = 將建立新牌組「{ $name }」
 importing-notes-added-from-file = 從檔案中加入的筆記：{ $val }
 importing-notes-found-in-file = 從檔案中找到的筆記：{ $val }
 importing-notes-skipped-as-theyre-already-in = 由於最新的副本已在集合中，因此略過了筆記：{ $val }
@@ -56,7 +57,6 @@ importing-updates = 更新
 importing-include-reviews-help = 啟用後，牌組分享者包含的複習歷程也會被匯入。如未啟用，則所有卡片將匯入為新卡片，並將移除「leech」及「marked」標籤。
 importing-with-deck-configs-help = 啟用後，牌組分享者包含的任何牌組選項也會被匯入。如未啟用，則所有牌組都將使用預設選項。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = 已封裝的 Anki 牌組/集合 (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
 # the '|' character
 importing-pipe = 直立線符號 (|)
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -66,7 +66,6 @@ importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」行有 { $found }
 importing-selected-file-was-not-in-utf8 = 所選檔案不是 UTF-8 格式，請參閱使用手冊的匯入 (Importing) 章節。
 importing-semicolon = 分號
 importing-skipped = 已略過
-importing-supermemo-xml-export-xml = Supermemo XML 匯出檔 (*.xml)
 importing-tab = 分頁
 importing-tag-modified-notes = 為更動的筆記加上標籤：
 importing-text-separated-by-tabs-or-semicolons = Tab 字元或分號所分隔的文字檔 (*)
@@ -202,3 +201,5 @@ importing-importing-collection = 匯入集合中...
 importing-unable-to-import-filename = 無法匯入 { $filename }：不支援此檔案類型
 importing-notes-that-could-not-be-imported = 因更動筆記類型而無法匯入的筆記：{ $val }
 importing-added = 已新增
+importing-pauker-18-lesson-paugz = Pauker 1.8 課程 (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo XML 匯出檔 (*.xml)
