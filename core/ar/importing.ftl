@@ -48,6 +48,7 @@ importing-merge-notetypes-help =
     تحذير: سيتطلب ذلك مزامنة أحادية الاتجاه، وقد يضع علامة على الملاحظات الحالية على أنها معدلة.
 importing-mnemosyne-20-deck-db = رزمة Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = الفواصل المكونة من أكثر من رمز غير مدعومة. الرجاء إدخال رمز واحد فقط.
+importing-new-deck-will-be-created = سيتم إنشاء رزمة جديدة: { $name }
 importing-notes-added-from-file = عدد الملحوظات المضافة من الملف: { $val }
 importing-notes-found-in-file = عدد الملحوظات الموجودة في الملف: { $val }
 importing-notes-skipped-as-theyre-already-in = عدد الملحوظات المتخطاة لكونها موجودة في مجموعتك: { $val }
@@ -64,7 +65,6 @@ importing-with-deck-configs-help =
     في حالة التمكين، سيتم استيراد أي مجموعات خيارات ضمنها الشخص الذي شارك الرزمة.
     خلاف ذلك، سيتم استخدام مجموعة الخيارات الافتراضية لكل الرزم.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = حزمة رزمة/مجموعة أنكي (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = درس Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = شريط عمودي
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -82,7 +82,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' له { $found } حق
 importing-selected-file-was-not-in-utf8 = الملف المحدد ليس بصيغة UTF-8. الرجاء الرجوع إلى قسم الاستيراد في دليل الاستخدام.
 importing-semicolon = فاصلة منقوطة
 importing-skipped = مُتخطَّى
-importing-supermemo-xml-export-xml = تصدير (xml.*) Supermemo XML
 importing-tab = مفتاح Tab
 importing-tag-modified-notes = أضف وسم إلى الملحوظات المعدلة:
 importing-text-separated-by-tabs-or-semicolons = نص مفصول برموز جدولة أو فواصل منقوطة (*)
@@ -315,3 +314,5 @@ importing-importing-collection = يجري استيراد المجموعة...
 importing-unable-to-import-filename = فشل استيراد { $filename }: نوع الملف غير مدعوم
 importing-notes-that-could-not-be-imported = الملحوظات التي لا يمكن استيرادها لأن نوع الملحوظة قد تغيّر: { $val }
 importing-added = أُضيفت
+importing-pauker-18-lesson-paugz = درس Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = تصدير (xml.*) Supermemo XML

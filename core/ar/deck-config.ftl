@@ -475,6 +475,7 @@ deck-config-workload-factor-change =
     (مقارنة بمعدل التذكر المرغوب فيه { $previousDR }%)
 deck-config-workload-factor-unchanged = كلما كانت القيمة أعلى، تظهر البطاقات بشكل متكرر أكثر.
 deck-config-desired-retention-too-low = معدل التذكر المرغوب فيه الخاص بك ضئيل جدًا، ما قد يؤدي إلى فواصل طويلة جدًا.
+deck-config-desired-retention-too-high = معدل التذكر المرغوب فيه الخاص بك عال جدًا، ما قد يؤدي إلى فواصل زمنية قصيرة جدًا.
 deck-config-percent-of-reviews =
     { $reviews ->
         [zero] { $pct } من أصل { $reviews } مراجعة
@@ -510,6 +511,7 @@ deck-config-advanced-settings = الإعدادات المتقدمة
 deck-config-smooth-graph = رسم بياني سلس
 deck-config-suspend-leeches = البطاقات المستعصية المعلقة
 deck-config-save-options-to-preset = حفظ التغييرات في مجموعة الخيارات
+deck-config-save-options-to-preset-confirm = هل تريد استبدال الخيارات في المجموعة الحالية بالخيارات المضبوطة حاليًا في المحاكي؟
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -517,6 +519,22 @@ deck-config-fsrs-simulator-radio-memorized = المحفوظ
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = فحص الدقة عند التحسين
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    فحص الدقة:
+    يصعب على FSRS فهم ذاكرتك. نصائح:
+    
+    - علق البطاقات المستعصية أو أعد صياغتها.
+    - استخدم أزرار الإجابة بشكل صحيح. لاحظ أن "صعب" تقييم نجاح وليس فشل.
+    - افهم قبل الحفظ.
+    
+    سيتحسن أداؤك في غضون أشهر قليلة غالبًا إذا طبقت هذه النصائح.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    فحص الدقة:
+    يستطيع FSRS التكيف مع ذاكرتك بشكل جيد.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
@@ -558,6 +576,8 @@ deck-config-compute-optimal-retention-tooltip =
     بشكل كبير عن 0.9، فهذه علامة على أن الوقت الذي خصصته كل يوم إما منخفض جدًا أو مرتفع جدًا 
     بالنسبة لعدد البطاقات التي تحاول تعلمها. يمكن أن يكون هذا الرقم مفيدًا كمرجع، ولكن لا يوصى 
     بنسخه في حقل معدل التذكر المرغوب فيه.
+deck-config-health-check-tooltip1 = يظهر هذا تحذيرًا إذا استصعب على FSRS التكيف مع ذاكرتك.
+deck-config-health-check-tooltip2 = يجرى فحص الدقة فقط عند استخدام خيار تحسين المجموعة الحالية.
 deck-config-compute-optimal-retention = حساب معدل التذكر الأمثل
 deck-config-predicted-optimal-retention = معدل التذكر الأمثل المتوقع: { $num }
 deck-config-weights-tooltip =
