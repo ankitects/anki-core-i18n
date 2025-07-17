@@ -10,6 +10,11 @@ database-check-missing-templates =
         [one] Şablonu olmayan { $count } kart silindi.
        *[other] Şablonu olmayan { $count } kart silindi.
     }
+database-check-field-count =
+    { $count ->
+        [one] Yanlış alan sayısına sahip { $count } not düzeltildi.
+       *[other] Yanlış alan sayısına sahip { $count } not düzeltildi.
+    }
 database-check-card-missing-note =
     { $count ->
         [one] Notu olmayan { $count } kart silindi.
