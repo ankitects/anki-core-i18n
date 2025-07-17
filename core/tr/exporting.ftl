@@ -3,6 +3,7 @@ exporting-anki-20-deck = Anki 2.0 Destesi
 exporting-anki-collection-package = Anki Koleksiyon Paketi
 exporting-anki-deck-package = Anki Deste Paketi
 exporting-cards-in-plain-text = Düz Metindeki Kartlar
+exporting-collection = koleksiyon
 exporting-couldnt-save-file = Dosya kaydedilemedi: { $val }
 exporting-export = Dışa Aktar...
 exporting-export-format = <b>Dışa Aktarma Biçimi</b>:

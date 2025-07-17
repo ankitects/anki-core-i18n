@@ -3,6 +3,9 @@ errors-100-tags-max =
     Maksimum 100 etiket seçilebilir. İstediğiniz etiketleri listelemek,
     istemediklerinizi listelemekten genellikle daha kolay, ve
     üst bir etiket seçerseniz, alt etiketlerini seçmeniz gerekmez.
+errors-multiple-notetypes-selected = Lütfen sadece bir not türünden not seçin.
+errors-please-check-database = Lütfen Veritabanını Kontrol Et eylemini kullanın ve ardından tekrar deneyin.
+errors-please-check-media = Lütfen Medyayı Kontrol Et eylemini kullanın ve ardından tekrar deneyin.
 errors-collection-too-new = Bu koleksiyonun açılması için Anki'nin daha yeni bir sürümü gerekiyor.
 errors-inconsistent-db-state = Veritabanınız tutarsız bir durumda gibi görünüyor. Lütfen Veritabanını Kontrol Et eylemini kullanın.
 
