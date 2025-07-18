@@ -44,6 +44,7 @@ importing-merge-notetypes-help =
     Hinweis: Wenn Sie diese Einstellung aktivieren, kann dies ggf. eine Einweg-Synchronisierung erforderlich machen. Zudem werden betroffene Notizen möglicherweise geändert gekennzeichnet werden.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0-Stapel (*.db)
 importing-multicharacter-separators-are-not-supported-please = Das Feldtrennzeichen kann nur aus einem einzigen Zeichen bestehen. Ein aus mehreren Zeichen bestehendes Feldtrennzeichen wird nicht unterstützt.
+importing-new-deck-will-be-created = Ein neuer Stapel namens „{ $name }“ wird erstellt.
 importing-notes-added-from-file = Notizen hinzugefügt aus Datei: { $val }
 importing-notes-found-in-file = Notizen gefunden in Datei: { $val }
 importing-notes-skipped-as-theyre-already-in = Notizen übersprungen, da sich diese bereits in Ihrer Sammlung befinden: { $val }
@@ -59,7 +60,6 @@ importing-include-reviews-help =
     Falls deaktiviert (oder falls kein Lernfortschritt im Stapel vorhanden ist), werden alle Karten unabhängig von dem enthaltenen Lernstatus als neue Karten importiert und das Standard-Stapelprofil Ihrer Sammlung verwendet.
 importing-with-deck-configs-help = Wenn aktiviert, werden ggf. auch die vom Autor bereitgestellten Stapelprofile importiert. Anderenfalls wird allen Stapeln das Standard-Stapelprofil zugewiesen.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Komprimierte Anki-Stapeldatei/Sammlung (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
 # the '|' character
 importing-pipe = Pipe
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -73,7 +73,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hat { $found } Felde
 importing-selected-file-was-not-in-utf8 = Die ausgewählte Datei befand sich nicht im UTF-8-Format. Weitere Hinweise dazu finden Sie in der Bedienungsanleitung im Abschnitt »Import«.
 importing-semicolon = Semikolon
 importing-skipped = Übersprungen
-importing-supermemo-xml-export-xml = Supermemo XML-Export (*.xml)
 importing-tab = Tab
 importing-tag-modified-notes = Geänderten Notizen folgende Schlagwörter hinzufügen:
 importing-text-separated-by-tabs-or-semicolons = Durch Tabs oder Semikolons getrennter Text (*)
@@ -237,3 +236,5 @@ importing-importing-collection = Sammlung wird importiert …
 importing-unable-to-import-filename = { $filename } kann nicht importiert werden: Dateityp nicht unterstützt
 importing-notes-that-could-not-be-imported = Notizen, die nicht importiert werden konnten, weil sich der Notiztyp geändert hat: { $val }
 importing-added = Hinzugefügt
+importing-pauker-18-lesson-paugz = Pauker 1.8 Lektion (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo XML-Export (*.xml)
