@@ -1,11 +1,23 @@
 ## Shown at the top of the media check screen
 
 media-check-window-title = Ortamı Kontrol Et
+# the number of files, and the total space used by files
+# that have been moved to the trash folder. eg,
+# "Trash folder: 3 files, 3.47MB"
+media-check-trash-count =
+    { $count ->
+        [one] Çöp kutusu: { $count } dosya, { $megs } MB
+       *[other] Çöp kutusu: { $count } dosya, { $megs } MB
+    }
+media-check-unused-count = Kullanılmayan dosyalar: { $count }
 media-check-renamed-count = Yeniden adlandırılan dosyalar: { $count }
+media-check-oversize-count = 100 MB'den fazla: { $count }
 
 ## Shown at the top of each section
 
 media-check-renamed-header = Bazı dosyalar uyumluluk için yeniden adlandırıldı.
+media-check-oversize-header = 100 MB'ın üzerindeki dosyalar AnkiWeb ile senkronize edilemez.
+media-check-subfolder-header = Ortam klasörünün içindeki klasörler desteklenmiyor.
 
 ## Shown once for each file
 
