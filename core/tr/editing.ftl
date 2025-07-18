@@ -8,6 +8,7 @@ editing-bold-text = Kalın metin
 editing-cards = Kartlar
 editing-change-color = Rengi değiştir
 editing-copy-image = Resmi kopyala
+editing-couldnt-record-audio-have-you-installed = Ses kaydı yapılamadı. "lame"i yüklediniz mi?
 editing-cut = Kes
 editing-double-click-image = resmi çift tıklama
 editing-double-click-to-expand = genişletmek için çift tıklama

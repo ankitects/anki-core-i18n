@@ -1,6 +1,7 @@
 importing-failed-debug-info = İçe aktarma gerçekleştirilemedi. Hata ayıklama bilgisi:
 importing-aborted = İptal Edildi: { $val }
 importing-added-duplicate-with-first-field = İlk alanın aynısı eklendi: { $val }
+importing-all-supported-formats = Desteklenen tüm formatlar { $val }
 importing-allow-html-in-fields = Alanlarda HTML kodlarına izin ver
 importing-anki-files-are-from-a-very = .anki dosyaları, Anki'nin çok eski bir sürümünden kalma. Bu dosyaları 175027074 numaralı eklentiyle veya Anki web sitesinde bulunan Anki 2.0 ile içe aktarabilirsiniz.
 importing-anki2-files-are-not-directly-importable = .anki2 dosyaları doğrudan içe aktarılamaz - lütfen bunun yerine size verilen .apkg veya .zip dosyasını içe aktarın.
@@ -35,7 +36,9 @@ importing-multicharacter-separators-are-not-supported-please = Çok karakterli a
 importing-new-deck-will-be-created = Yeni bir deste oluşturulacak: { $name }
 importing-notes-added-from-file = Dosyadan eklenen notlar: { $val }
 importing-notes-found-in-file = Dosyada bulunan notlar: { $val }
+importing-notes-updated-as-file-had-newer = Dosya daha yeni bir sürüme sahip olduğu için notlar güncellendi: { $val }
 importing-include-reviews = Gözden geçirmeleri dahil et
+importing-with-deck-configs = Deste ön ayarlarını içe aktar
 importing-updates = Güncellemeler
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlenmiş Anki Destesi/Koleksiyonu (*.apkg *.colpkg *.zip)
 # the '|' character

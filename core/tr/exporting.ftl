@@ -13,6 +13,7 @@ exporting-include = <b>Dahil</b>:
 exporting-include-html-and-media-references = HTML ve medya dosyalarını dahil et
 exporting-include-media = Ortam Ekle
 exporting-include-scheduling-information = Zamanlama bilgisini dahil et
+exporting-include-deck-configs = Deste ön ayarlarını dahil et
 exporting-include-tags = Etiketleri dahil et
 exporting-support-older-anki-versions = Eski Anki sürümlerini destekle (daha yavaş/daha büyük dosyalar)
 exporting-notes-in-plain-text = Düz Metinli Notlar
@@ -33,5 +34,11 @@ exporting-note-exported =
        *[other] { $count } not dışa aktarıldı.
     }
 exporting-exporting-file = Dosya dışa aktarılıyor…
+exporting-processed-media-files =
+    { $count ->
+        [one] { $count } ortam dosyası işlendi…
+       *[other] { $count } ortam dosyası işlendi…
+    }
 exporting-include-deck = Deste ismini dahil et
 exporting-include-notetype = Not türü ismini dahil et
+exporting-include-guid = Benzersiz tanıtıcıyı dahil et
