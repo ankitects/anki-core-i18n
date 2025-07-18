@@ -23,7 +23,7 @@ deck-config-tab-description =
     - `僅限今天`：暫時更改當前牌組的的上限。
 deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
 deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，新卡片也會計入複習上限，因此當複習卡達到上限時，新卡片也不會再顯示。啟用此選項後，新卡片將不再計入複習上限。
-deck-config-apply-all-parent-limits = 取頂層牌組上限
+deck-config-apply-all-parent-limits = 套用頂層牌組上限
 deck-config-apply-all-parent-limits-tooltip = 根據預設，學習子牌組時將會套用所選牌組設定的上限，而不是上層牌組的上限。啟用此選項後，頂層牌組設定的上限將被套用，這樣可確保你在學習子牌組時不超過總上限。
 deck-config-affects-entire-collection = 影響整個集合。
 
@@ -306,7 +306,7 @@ deck-config-fsrs-tooltip =
 deck-config-desired-retention-tooltip = 根據預設，複習卡會在留存機率為 90% 時出現。若增加該值，則卡片出現的頻率將增加，使你更有可能記住卡片內容。若減少該值，則卡片出現的頻率將減少，導致遺忘更多內容。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
 deck-config-desired-retention-tooltip2 = 資訊框中顯示的工作量數值僅為粗略估算結果。如需更精準的估算值，請使用模擬器。
 deck-config-historical-retention-tooltip =
-    如果你的複習歷程有部分遺失，FSRS 需要補齊這些部分。根據預設，FSRS 將假設你在記憶留存比率為 90% 時做出了這些複習。若你先前的留存比率與 90% 相差過多，則可透過調整該選項來使 FSRS 更接近遺失的複習歷程。
+    如果你的複習歷程有部分遺失，FSRS 需要補齊這些部分。根據預設，FSRS 將假設你在記憶留存機率為 90% 時做出了這些複習。若你先前的留存比率與 90% 相差過多，則可透過調整該選項來使 FSRS 更接近遺失的複習歷程。
     
     複習歷程不完整可能是因以下兩種原因：
     1. 你使用了「複習歷程起始時間」選項。
@@ -387,7 +387,7 @@ deck-config-fsrs-bad-fit-warning =
 # Message box showing the result of the health check
 deck-config-fsrs-good-fit =
     健康檢查：
-    FSRS 可以根據你的記憶情況進行調整。
+    FSRS 可以良好地根據你的記憶情況進行調整。
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

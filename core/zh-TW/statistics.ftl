@@ -60,7 +60,7 @@ statistics-reviews = { $reviews } 次複習
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
 # cards that can be recalled or retrieved on a specific date.
-statistics-memorized = 記得 { $memorized } 張
+statistics-memorized = 記住了 { $memorized } 張卡片
 statistics-today-title = 今天
 statistics-today-again-count = 按下「重來」的次數：
 statistics-today-type-counts = 新學習：{ $learnCount } 張 ‧ 複習：{ $reviewCount } 張 ‧ 重新學習：{ $relearnCount } 張 ‧ 篩選學習：{ $filteredCount } 張
@@ -79,9 +79,9 @@ statistics-counts-relearning-cards = 重新學習中
 statistics-counts-title = 卡片數量
 statistics-counts-separate-suspended-buried-cards = 分開統計擱置/推遲的卡片
 
-## Retention rate represents your actual retention rate from past reviews, in
+## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
-## future retention. Retention rate is the percentage of all reviewed cards
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
