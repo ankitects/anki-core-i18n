@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Yüklemeyi seçerseniz, Anki bu cihazın verilerini AnkiWeb'e gönderir ve AnkiWeb'de bekleyen tüm değişiklikler kaybolur.
     
     Tüm cihazlar senkronize olduktan sonra, gelecekteki gözden geçirmeler ve eklenen kartlar otomatikman birleştirilebilir.
+sync-conflict-explanation2 =
+    Bu cihazdaki ve AnkiWeb’deki desteler arasında bir çakışma var. Hangi sürümü koruyacağınızı seçmelisiniz:
+    
+    - Buradaki desteleri AnkiWeb sürümüyle değiştirmek için **{ sync-download-from-ankiweb }** ögesini seçin. Son senkronizasyonunuzdan beri bu cihazda yaptığınız tüm değişiklikleri kaybedeceksiniz.
+    - Bu cihazdaki desteleri AnkiWeb sürümlerinin üzerine yazmak ve AnkiWeb'deki tüm değişiklikleri silmek için **{ sync-upload-to-ankiweb }** ögesini seçin.
+    
+     Çakışma çözüldükten sonra senkronizasyon her zamanki gibi çalışacaktır.
 sync-ankiweb-id-label = Kullanıcı Adı:
 sync-password-label = Parola:
 sync-account-required =
