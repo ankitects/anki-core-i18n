@@ -111,9 +111,9 @@ statistics-counts-relearning-cards = Yeniden öğrenme
 statistics-counts-title = Kart Sayıları
 statistics-counts-separate-suspended-buried-cards = Askıya alınan/Gizlenen kartları ayır
 
-## Retention rate represents your actual retention rate from past reviews, in
+## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
-## future retention. Retention rate is the percentage of all reviewed cards
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -130,6 +130,7 @@ statistics-true-retention-total = Toplam
 statistics-true-retention-young = Genç
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Olgun
+statistics-true-retention-all = Hepsi
 statistics-true-retention-today = Bugün
 statistics-true-retention-yesterday = Dün
 statistics-true-retention-week = Geçen hafta
@@ -139,6 +140,7 @@ statistics-true-retention-year = Geçen yıl
 ##
 
 statistics-range-1-year-history = geçen 12 ay
+statistics-range-all-history = Tüm geçmiş
 statistics-range-deck = deste
 statistics-range-collection = koleksiyon
 statistics-range-search = Ara

@@ -22,6 +22,7 @@ preferences-show-remaining-card-count = Kalan kart sayısını göster
 preferences-some-settings-will-take-effect-after = Bazı ayarlar Anki'yi yeniden başlattığınızdan sonra etkili olacaktır.
 preferences-tab-synchronisation = Senkronizasyon
 preferences-synchronize-audio-and-images-too = Ses ve resimleri de senkronize edin
+preferences-login-successful-sync-now = Giriş başarılı. Tercihler kaydedilip senkronizasyon yapılsın mı?
 preferences-timebox-time-limit = Zaman sınırı
 preferences-user-interface-size = Kullanıcı arayüzü boyutu
 preferences-theme = Tema
@@ -30,8 +31,13 @@ preferences-theme-light = Açık
 preferences-theme-dark = Koyu
 preferences-v3-scheduler = V3 planlayıcı
 preferences-always = Her Zaman
+preferences-full-screen-only = Yalnızca tam ekran
 preferences-appearance = Görünüm
 preferences-general = Genel
+preferences-style = Stil
+preferences-review = Gözden Geçirme
+preferences-answer-keys = Cevap anahtarları
+preferences-default-deck = Varsayılan deste
 preferences-account = AnkiWeb Hesabı
 preferences-note = Not
 preferences-scheduler = Planlayıcı
@@ -40,6 +46,8 @@ preferences-import-export = İçe/Dışa Aktarma
 
 ## URL scheme related
 
+preferences-url-scheme-allow-once = Bir Kez İzin Ver
+preferences-url-scheme-always-allow = Her Zaman İzin Ver
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
