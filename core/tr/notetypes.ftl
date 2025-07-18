@@ -35,7 +35,10 @@ notetypes-type = Tür
 
 ## Image Occlusion
 
+notetypes-image = Resim
 notetypes-occlusion-note = Not
 notetypes-comments-field = Yorumlar
 notetypes-toggle-masks = Örtüleri Aç/Kapat
 notetype-error-no-image-to-show = Gösterilecek resim yok.
+notetypes-io-select-image = Resim seç
+notetypes-io-paste-image-from-clipboard = Panodan Resim Yapıştır

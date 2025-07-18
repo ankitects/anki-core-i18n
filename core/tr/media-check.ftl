@@ -37,6 +37,12 @@ media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 ## Deleting unused media
 
 media-check-delete-unused-confirm = Kullanılmayan ortamlar silinsin mi?
+media-check-delete-unused-complete =
+    { $count ->
+        [one] { $count } dosya çöp kutusuna taşındı.
+       *[other] { $count } dosya çöp kutusuna taşındı.
+    }
+media-check-trash-emptied = Çöp kutusu boş.
 
 ## Rendering LaTeX
 
@@ -46,4 +52,8 @@ media-check-all-latex-rendered = Tüm LaTeX oluşturuldu.
 
 media-check-delete-unused = Kullanılmayanları Sil
 media-check-render-latex = LaTeX'i Oluştur
+# button to permanently delete media files from the trash folder
+media-check-empty-trash = Çöp Kutusunu Boşalt
+# button to move deleted files from the trash back into the media folder
+media-check-restore-trash = Silinenleri Geri Yükle
 media-check-check-media-action = Ortamı Kontrol Et

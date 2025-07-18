@@ -57,6 +57,7 @@ importing-unknown-file-format = Bilinmeyen dosya biçimi.
 importing-update-always = Her Zaman
 importing-update-never = Hiçbir Zaman
 importing-update-notes = Notları güncelle
+importing-update-notes-help = Koleksiyonunuzdaki mevcut bir notu ne zaman güncellemelisiniz? Varsayılan olarak, bu yalnızca eşleşen içe aktarılan not yakın zamanda değiştirilmişse yapılır.
 importing-update-notetypes = Not türlerini güncelle
 importing-note-added =
     { $count ->
@@ -87,13 +88,63 @@ importing-importing-file = Dosya içe aktarılıyor…
 importing-extracting = Veriler ayıklanıyor…
 importing-gathering = Veri toplanıyor…
 importing-failed-to-import-media-file = Medya dosyası içe aktarılamadı: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] { $count } not işlendi…
+       *[other] { $count } not işlendi…
+    }
+importing-processed-cards =
+    { $count ->
+        [one] { $count } kart işlendi…
+       *[other] { $count } kart işlendi…
+    }
+importing-existing-notes = Mevcut notlar
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Kopya oluştur
+# "Existing notes: Update" (verb)
+importing-update = Güncelleştir
+importing-tag-all-notes = Tüm notları etiketle
+importing-tag-updated-notes = Güncellenen notları etiketle
 importing-file = Dosya
+# Used with the 'match scope' option
+importing-notetype-and-deck = Not türü ve deste
+importing-cards-added =
+    { $count ->
+        [one] { $count } kart eklendi.
+       *[other] { $count } kart eklendi.
+    }
 importing-file-empty = Seçtiğiniz dosya boş.
+importing-notes-added =
+    { $count ->
+        [one] { $count } yeni not içe aktarıldı.
+       *[other] { $count } yeni not içe aktarıldı.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] Mevcut notları güncellemek için { $count } adet not kullanıldı.
+       *[other] Mevcut notları güncellemek için { $count } adet not kullanıldı.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } not koleksiyonunuzda zaten mevcut.
+       *[other] { $count } not koleksiyonunuzda zaten mevcut.
+    }
+importing-notes-failed =
+    { $count ->
+        [one] { $count } not içe aktarılamadı.
+       *[other] { $count } not içe aktarılamadı.
+    }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] { $count } adet not, türü değiştiği için içe aktarılamadı.
+       *[other] { $count } adet not, türleri değiştiği için içe aktarılamadı.
+    }
+importing-no-notes-in-file = Dosyada not bulunamadı.
 importing-show = Göster
 importing-details = Ayrıntılar
 importing-added-new-note = Yeni not eklendi
+importing-note-updated-as-file-had-newer = Dosya daha yeni bir sürüme sahip olduğu için not güncellendi
+importing-deck-help = İçe aktarılan kartlar bu desteye yerleştirilecek.
 importing-existing-notes-help =
     İçe aktarılan bir not mevcut bir notla çakışırsa ne yapılmalı?
     
