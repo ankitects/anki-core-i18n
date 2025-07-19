@@ -19,6 +19,7 @@ browsing-cards-deleted =
     { $count ->
         [one] Видалено { $count } картку.
         [few] Видалено { $count } картки.
+        [many] Видалено { $count } картки.
        *[other] Видалено { $count } карток.
     }
 browsing-cards-deleted-with-deckname =
@@ -30,6 +31,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Змінити колоду
 browsing-change-deck2 = Змінити колоду...
 browsing-change-note-type = Змінити тип нотатки
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Змінити тип нотатки...
 browsing-change-notetype = Змінити тип нотатки
 browsing-clear-unused-tags = Очистити невикористані мітки
@@ -111,6 +113,7 @@ browsing-group =
     { $count ->
         [one] { $count } група
         [few] { $count } групи
+        [many] { $count } груп
        *[other] { $count } груп
     }
 browsing-note-count =
