@@ -478,6 +478,16 @@ deck-config-fsrs-simulator-radio-memorized = Zapamatováno
 # Checkbox
 deck-config-health-check = Při optimalizaci zkontrolovat zdraví
 # Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Kontrola zdraví:
+    Pro FSRS je obtížné předvídat vaši paměť. Doporučení:
+    
+    - Vyřaďte pijavice nebo změňte jejich formulace.
+    - Tlačítka odpovědí používejte důsledně. Mějte na paměti, že „těžké“ je známka správné odpovědi, nikoliv špatné odpovědi.
+    - Než se budete učit nazpaměť, porozumějte.
+    
+    Pokud se budete řídit těmito doporučeními, výkon se v průběhu několika následujících měsíců obvykle zlepší.
+# Message box showing the result of the health check
 deck-config-fsrs-good-fit =
     Kontrola zdraví:
     FSRS se může dobře přizpůsobit vaší paměti.
