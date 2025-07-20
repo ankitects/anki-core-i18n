@@ -115,9 +115,9 @@ statistics-counts-relearning-cards = Znovu učené
 statistics-counts-title = Počet karet
 statistics-counts-separate-suspended-buried-cards = Oddělit vyřazené/přeskočené karty
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -130,6 +130,7 @@ statistics-counts-separate-suspended-buried-cards = Oddělit vyřazené/přesko�
 
 statistics-true-retention-title = Skutečná retence
 statistics-true-retention-subtitle = Míra zapamatování karet s intervalem ≥ 1 den.
+statistics-true-retention-tooltip = Pokud používáte FSRS, očekává se, že vaše retence se bude blížit požadované retenci. Mějte prosím na paměti, že data za jeden den nejsou čistá, proto je lepší se dívat na měsíční data.
 statistics-true-retention-pass = Správně
 statistics-true-retention-fail = Špatně
 # This will usually be the same as statistics-counts-total-cards
@@ -162,7 +163,6 @@ statistics-card-ease-title = Snadnost karet
 statistics-card-difficulty-title = Obtížnost karet
 statistics-card-stability-title = Stabilita karty
 statistics-card-stability-subtitle = Předpovězená prodleva, kdy máte 90% šanci na zapamatování.
-statistics-average-stability = Průměrná stabilita
 statistics-card-retrievability-title = Zapamatování karet
 statistics-card-ease-subtitle = Čím nižší je snadnost, tím častěji se bude karta objevovat.
 statistics-card-difficulty-subtitle2 = Čím vyšší obtížnost, tím pomaleji se bude zvyšovat stabilita.
@@ -280,12 +280,19 @@ statistics-elapsed-time-years = { $amount } let
 ##
 
 statistics-average-for-days-studied = Průměr za studijní dny
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Celkem
 statistics-days-studied = Studováno dní
 statistics-average-answer-time-label = Průměrný čas odpovědi
 statistics-average = Průměr
-statistics-average-interval = Průměrný interval
 statistics-due-tomorrow = Zítra ke zkoušení
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
 statistics-daily-load = Denní zátěž
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } z { $total } ({ $percent }%)
@@ -308,11 +315,17 @@ statistics-cards-per-day =
         [few] { $count } karty/den
        *[other] { $count } karet/den
     }
-statistics-average-ease = Průměrná snadnost
-statistics-average-difficulty = Průměrná obtížnost
 statistics-average-retrievability = Průměrné zapamatování
 statistics-estimated-total-knowledge = Odhadované celkové zapamatování
 statistics-save-pdf = Uložit PDF
 statistics-saved = Uloženo.
 statistics-stats = statistika
 statistics-title = Statistiky
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-stability = Průměrná stabilita
+statistics-average-interval = Průměrný interval
+statistics-average-ease = Průměrná snadnost
+statistics-average-difficulty = Průměrná obtížnost

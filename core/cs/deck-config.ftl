@@ -468,6 +468,7 @@ deck-config-fsrs-simulator-radio-count = Opakování
 deck-config-advanced-settings = Pokročilé nastavení
 deck-config-suspend-leeches = Vyřadit pijavice
 deck-config-save-options-to-preset = Uložit změny do předvolby
+deck-config-save-options-to-preset-confirm = Přepsat nastavení v aktuální předvolbě nastavením, které je aktuálně zadáno v simulátoru?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

@@ -48,6 +48,7 @@ importing-merge-notetypes-help =
     Varování: Tato akce vyžaduje synchronizaci v jednom směru a může označit stávající poznámky jako modifikované.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 balíček (*.db)
 importing-multicharacter-separators-are-not-supported-please = Víceznakové oddělovače nejsou podporovány. Prosím, vložte pouze jeden znak.
+importing-new-deck-will-be-created = Vytvoří se nový balíček: { $name }
 importing-notes-added-from-file = Poznámky přidané ze souboru: { $val }
 importing-notes-found-in-file = Poznámky nalezené v souboru: { $val }
 importing-notes-skipped-as-theyre-already-in = Přeskočené poznámky, které jsou již v kolekci: { $val }
