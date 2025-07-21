@@ -192,6 +192,13 @@ scheduling-set-due-date-done =
         [few] Nastavit datum zkoušení { $cards } karet.
        *[other] Nastavit datum zkoušení { $cards } karet.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] Zodpovězena { $cards } karta.
+        [few] Zodpovězeny { $cards } karty.
+        [many] Zodpovězeno { $cards } karty.
+       *[other] Zodpovězeno { $cards } karet.
+    }
 scheduling-forgot-cards =
     { $cards ->
         [one] Zapomenuta { $cards } karta.
