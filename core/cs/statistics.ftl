@@ -163,6 +163,7 @@ statistics-card-ease-title = Snadnost karet
 statistics-card-difficulty-title = Obtížnost karet
 statistics-card-stability-title = Stabilita karty
 statistics-card-stability-subtitle = Předpovězená prodleva, kdy máte 90% šanci na zapamatování.
+statistics-median-stability = Medián stability
 statistics-card-retrievability-title = Zapamatování karet
 statistics-card-ease-subtitle = Čím nižší je snadnost, tím častěji se bude karta objevovat.
 statistics-card-difficulty-subtitle2 = Čím vyšší obtížnost, tím pomaleji se bude zvyšovat stabilita.
@@ -287,6 +288,7 @@ statistics-total = Celkem
 statistics-days-studied = Studováno dní
 statistics-average-answer-time-label = Průměrný čas odpovědi
 statistics-average = Průměr
+statistics-median-interval = Medián intervalu
 statistics-due-tomorrow = Zítra ke zkoušení
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -315,6 +317,8 @@ statistics-cards-per-day =
         [few] { $count } karty/den
        *[other] { $count } karet/den
     }
+statistics-median-ease = Medián snadnosti
+statistics-median-difficulty = Medián obtížnosti
 statistics-average-retrievability = Průměrné zapamatování
 statistics-estimated-total-knowledge = Odhadované celkové zapamatování
 statistics-save-pdf = Uložit PDF
