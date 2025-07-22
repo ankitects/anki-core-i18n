@@ -45,6 +45,7 @@ importing-merge-notetypes-help =
     ئاگاھلاندۇرۇش: بۇنىڭ ئۈچۈن مەجبۇرىي تاق يۆنىلىشلىك قەدەمداشلاشقا توغرا كېلىدۇ، شۇنىڭ بىلەن بىللە مەۋجۇت خاتىرە ئۆزگەرتىلگەن دەپ قارىلىشى مۇمكىن.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 دەستە (*.db)
 importing-multicharacter-separators-are-not-supported-please = كۆپ ھەرپ ئايرىغۇچنى قوللىمايدۇ. پەقەت بىرلا ھەرپ كىرگۈزۈڭ.
+importing-new-deck-will-be-created = يېڭى دەستە قۇرۇلىدۇ: { $name }
 importing-notes-added-from-file = خاتىرە ھۆججەتتىن قوشۇلدى: { $val }
 importing-notes-found-in-file = ھۆججەتتىن تېپىلغان خاتىرە: { $val }
 importing-notes-skipped-as-theyre-already-in = نۆۋەتتىكى توپلىمىڭىزدا مەۋجۇت بولغانلىقتىن خاتىرىدىن ئاتلىدى: { $val }
@@ -57,7 +58,6 @@ importing-updates = يېڭىلانما
 importing-include-reviews-help = ئەگەر قوزغىتىلسا، دەستە ھەمبەھىرلىگۈچىنىڭ تەكرارلاش ئەھۋالىمۇ ئەكىرىلىدۇ. ئۇنداق بولمىسا، بارلىق كارتا يېڭى كارتا سۈپىتىدە ئەكىرىلىدۇ، شۇنىڭ بىلەن بىللە بارلىق ئەستە ساقلاش قىيىن نۇقتىلىرى «ئۇنتۇغاق كارتا» ياكى «بەلگە قويۇلغان كارتا» بەلگىسى چىقىرىۋېتىلىدۇ.
 importing-with-deck-configs-help = ئەگەر قوزغىتىلسا، بارلىق دەستە ھەمبەھىرلىگۈچىلەرنىڭ دەستە سەپلىمىلىرىمۇ بىللە ئەكىرىلىدۇ. ئۇنداق بولمىسا، بارلىق دەستە كۆڭۈلدىكى ئالدىن تەڭشەكنى قوللىنىدۇ.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = بولاقلانغان Anki دەستە/توپلام (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 دەرسى (*.pau.gz)
 # the '|' character
 importing-pipe = تىك سىزىق (|)
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -71,7 +71,6 @@ importing-rows-had-num1d-fields-expected-num2d = «{ $row }»-قۇردا { $foun
 importing-selected-file-was-not-in-utf8 = تاللانغان ھۆججەت UTF-8 پىچىمىدا ئەمەس. قوللانمىدىكى ئەكىرىش بۆلىكىنى كۆرۈڭ.
 importing-semicolon = چېكىتلىك پەش
 importing-skipped = ئاتلىدى
-importing-supermemo-xml-export-xml = Supermemo XML چىقىرىش (*.xml)
 importing-tab = جەدۋەل بەلگىسى (Tab)
 importing-tag-modified-notes = بەلگە ئۆزگەرتىش خاتىرىسى:
 importing-text-separated-by-tabs-or-semicolons = جەدۋەل بەلگىسى ياكى چېكىتلىك پەش بىلەن ئايرىلغان تېكىست (*)
@@ -224,3 +223,5 @@ importing-importing-collection = توپلامنى ئەكىرىۋاتىدۇ…
 importing-unable-to-import-filename = { $filename } نى ئەكىرەلمەيدۇ: ھۆججەت تۈرىنى قوللىمايدۇ
 importing-notes-that-could-not-be-imported = خاتىرە تۈرى ئۆزگەرتىلگەنلىكتىن خاتىرەنى ئەكىرەلمەيدۇ: { $val }
 importing-added = قوشۇلدى
+importing-pauker-18-lesson-paugz = Pauker 1.8 دەرسى (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo XML چىقىرىش (*.xml)
