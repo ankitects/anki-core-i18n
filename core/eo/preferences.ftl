@@ -23,11 +23,30 @@ preferences-show-learning-cards-with-larger-steps = Montri lernkartojn kun pli g
 preferences-show-next-review-time-above-answer = Montri tempon de sekva ripeto super respondaj butonoj
 preferences-spacebar-rates-card = Spacostango (aŭ eniga klavo) ankaŭ montras respondon
 preferences-show-play-buttons-on-cards-with = Montri lud-stirilojn ĉe kartoj kun sono
-preferences-some-settings-will-take-effect-after = Kelkaj agordoj efektivos nur post relanĉo de Anki.
+preferences-show-remaining-card-count = Montri nombron da restantaj kartoj
+preferences-some-settings-will-take-effect-after = Kelkaj agordoj efektiviĝos nur post relanĉo de Anki.
+preferences-tab-synchronisation = Samtempigo
 preferences-synchronize-audio-and-images-too = Samtempigi ankaŭ sonojn kaj bildojn
-preferences-timebox-time-limit = Tempokadra limigo
+preferences-login-successful-sync-now = Sukcese ensalutinta. Ĉu konservi preferojn kaj samtempigi nun?
+preferences-timebox-time-limit = Limigo de lernada tempo
+preferences-user-interface-size = Grando de fasado
 preferences-when-adding-default-to-current-deck = dum aldoni, elekti la nunan kartaron
-preferences-you-can-restore-backups-via-fileswitch = Vi povas rekrei sekurkopion per la menuero Dosiero>Ŝanĝi profilon
+preferences-you-can-restore-backups-via-fileswitch = Vi povas rekrei sekurkopion per la menuero Dosiero → Ŝanĝi profilon.
+preferences-legacy-timezone-handling = Kaduka pritraktado de horzonoj (erara, sed necesa por AnkiDroid ≤ 2.14)
+preferences-default-search-text = Implicita teksto de serĉo
+preferences-default-search-text-example = ekz. “deck:current”
+preferences-theme = Haŭto
+preferences-theme-follow-system = laŭ operaciumo
+preferences-theme-light = hela
+preferences-theme-dark = malhela
+preferences-v3-scheduler = Planilo V3
+preferences-check-for-updates = Kontroli pri ĝisdatigoj
+preferences-ignore-accents-in-search = Ignori supersignojn dum serĉi (pli malrapide)
+preferences-backup-explanation = Anki periode sekurkopias vian kolekton. Iuj sekurkopioj pli malnovaj ol 2 tagoj povas esti forigitaj de Anki por liberigi diskspacon.
+preferences-daily-backups = Tagaj sekurkopioj por teni:
+preferences-weekly-backups = Semajnaj sekurkopioj por teni:
+preferences-monthly-backups = Monataj sekurkopioj por teni:
+preferences-minutes-between-backups = Minutoj inter aŭtomataj sekurkopioj:
 
 ## URL scheme related
 
