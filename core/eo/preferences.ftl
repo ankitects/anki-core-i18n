@@ -1,32 +1,35 @@
 preferences-automatically-sync-on-profile-openclose = Aŭtomate samtempigi je fermo aŭ malfermo de profilo
 preferences-backups = Sekurkopioj
-preferences-backups2 = sekurkopiojn
-preferences-backupsanki-will-create-a-backup-of = <b>Sekurkopioj</b><br>Anki kreos sekurkopion de via kolekto ĉiutempe ĝi estas fermata aŭ samtempigata.
-preferences-basic = Baza
 preferences-change-deck-depending-on-note-type = Ŝanĝi kartaron laŭ nototipo
 preferences-changes-will-take-effect-when-you = Ŝanĝoj efikos post relanĉo de Anki.
-preferences-hardware-acceleration-faster-may-cause-display = Aparatara plirapidigo (pli rapida, eble kaŭzos vidigilajn problemojn)
 preferences-hours-past-midnight = horoj post noktomezo
-preferences-interface-language = Interfaca lingvo:
-preferences-keep = Konservi
+preferences-language = Lingvo
+preferences-interrupt-current-audio-when-answering = Ĉesigi ludi sonon dum respondi
 preferences-learn-ahead-limit = Antaŭlerna limigo
 preferences-mins = minutoj
-preferences-network = Reto
-preferences-next-day-starts-at = Sekva tago komencas je
-preferences-note-media-is-not-backed-up = Noto: aŭdovidaĵoj ne estas sekurkopiitaj. Bonvolu krei regulan sekurkopion de via Ankio-dosierujo por esti sekura.
-preferences-on-next-sync-force-changes-in = Ĉe la venonta samtempigo, devigi ŝanĝojn en unu direkto
+preferences-network = Samtempigo
+preferences-next-day-starts-at = Sekva tago komenciĝas
+preferences-media-is-not-backed-up = Sekurkopio ne enhavas aŭdvidaĵojn. Por esti sekura, regule sekurkopiu vian dosierujo Anki.
+preferences-on-next-sync-force-changes-in = Dum la venonta samtempigo, devigi ŝanĝojn en unu direkto
 preferences-paste-clipboard-images-as-png = Alglui tondujajn bildojn kiel PNG
-preferences-please-restart-anki-to-complete-language = Bonvolu relanĉi Anki pro finfari la lingvoŝanĝon.
+preferences-paste-without-shift-key-strips-formatting = Alglui sen premi la majuskligan klavon por senigi tekstaranĝon
+preferences-generate-latex-images-automatically = Generi grafikojn el LaTeX (sekureca vundeblo)
+preferences-latex-generation-disabled = Generi grafikojn el LaTeX estas malaktiva en la preferoj.
+preferences-periodically-sync-media = Periode samtempigi aŭdvidaĵojn
+preferences-please-restart-anki-to-complete-language = Relanĉu Anki pro finfari la ŝanĝon de lingvo.
 preferences-preferences = Preferoj
 preferences-scheduling = Replani
 preferences-show-learning-cards-with-larger-steps = Montri lernkartojn kun pli grandaj paŝoj antaŭ ripetokarojn
 preferences-show-next-review-time-above-answer = Montri tempon de sekva ripeto super respondobutonoj
-preferences-show-remaining-card-count-during-review = Montri nombron de restantaj kartoj dum ripetado
 preferences-some-settings-will-take-effect-after = Kelkaj agordoj efektivos nur post relanĉo de Anki.
-preferences-synchronisation = <b>Samtempigo</b>
-preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Samtempigo</b><br> Nuntempe ne ebligita; klaki la Samtempigo-butonon en la ĉefa fenestro por ebligi ĝin.
 preferences-synchronize-audio-and-images-too = Samtempigi ankaŭ sonojn kaj bildojn
-preferences-this-will-reset-any-cards-in = Tiu procezo nuligos ĉiujn kartojn en lernado, forigi filtritajn kartarojn kaj ŝanĝi la planiloversion. Daŭrigi?
 preferences-timebox-time-limit = Tempokadra limigo
 preferences-when-adding-default-to-current-deck = Ĉe aldono, apriori al aktuala kartaro
 preferences-you-can-restore-backups-via-fileswitch = Vi povas rekrei sekurkopion per la menuero Dosiero>Ŝanĝi profilon
+
+## URL scheme related
+
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+preferences-basic = Baza
