@@ -23,7 +23,7 @@ preferences-show-learning-cards-with-larger-steps = Montri lernkartojn kun pli g
 preferences-show-next-review-time-above-answer = Montri tempon de sekva ripeto super respondaj butonoj
 preferences-spacebar-rates-card = Spacostango (aŭ eniga klavo) ankaŭ montras respondon
 preferences-show-play-buttons-on-cards-with = Montri lud-stirilojn ĉe kartoj kun sono
-preferences-show-remaining-card-count = Montri nombron da restantaj kartoj
+preferences-show-remaining-card-count = Montri nombron da pliaj kartoj
 preferences-some-settings-will-take-effect-after = Kelkaj agordoj efektiviĝos nur post relanĉo de Anki.
 preferences-tab-synchronisation = Samtempigo
 preferences-synchronize-audio-and-images-too = Samtempigi ankaŭ sonojn kaj bildojn
@@ -47,6 +47,7 @@ preferences-daily-backups = Tagaj sekurkopioj por teni:
 preferences-weekly-backups = Semajnaj sekurkopioj por teni:
 preferences-monthly-backups = Monataj sekurkopioj por teni:
 preferences-minutes-between-backups = Minutoj inter aŭtomataj sekurkopioj:
+preferences-reduce-motion = Limigi efektojn
 
 ## URL scheme related
 
