@@ -20,7 +20,7 @@ preferences-please-restart-anki-to-complete-language = Relanĉu Anki pro finfari
 preferences-preferences = Preferoj
 preferences-scheduling = Planado
 preferences-show-learning-cards-with-larger-steps = Montri lernkartojn kun pli grandaj paŝoj antaŭ ripetokarojn
-preferences-show-next-review-time-above-answer = Montri tempon de sekva ripeto super respondaj butonoj
+preferences-show-next-review-time-above-answer = Montri tempon de sekva ripeto super respondobutonoj
 preferences-spacebar-rates-card = Spacostango (aŭ eniga klavo) ankaŭ montras respondon
 preferences-show-play-buttons-on-cards-with = Montri lud-stirilojn ĉe kartoj kun sono
 preferences-show-remaining-card-count = Montri nombron da pliaj kartoj
@@ -48,6 +48,25 @@ preferences-weekly-backups = Semajnaj sekurkopioj por teni:
 preferences-monthly-backups = Monataj sekurkopioj por teni:
 preferences-minutes-between-backups = Minutoj inter aŭtomataj sekurkopioj:
 preferences-reduce-motion = Limigi efektojn
+preferences-reduce-motion-tooltip = Malaktivigi diversajn movildojn kaj transpasajn efektojn de la fasado
+preferences-custom-sync-url = Mem-gastigata samtempiga servilo
+preferences-custom-sync-url-disclaimer = por spertulaj uzantoj – legu la gvidlibron
+preferences-hide-top-bar-during-review = Kaŝi supran strion dum ripetado
+preferences-hide-bottom-bar-during-review = Kaŝi malsupran strion dum ripetado
+preferences-always = ĉiam
+preferences-full-screen-only = nur plenekrane
+preferences-appearance = Aspekto
+preferences-general = Ĝeneralaj
+preferences-style = Stilo
+preferences-review = Ripetado
+preferences-answer-keys = Respond-klavoj
+preferences-distractions = Distraĵoj
+preferences-minimalist-mode = Minimuma reĝimo
+preferences-minimalist-mode-tooltip = Pli kompakta fasado (malpli da ornamaĵoj)
+preferences-editing = Redaktado
+preferences-browsing = Foliumado
+preferences-default-deck = Implicita kartaro
+preferences-account = AnkiWeb-konto
 
 ## URL scheme related
 

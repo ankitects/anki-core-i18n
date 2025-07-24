@@ -97,9 +97,9 @@ statistics-counts-relearning-cards = Relernataj
 statistics-counts-title = Nombro da kartoj
 statistics-counts-separate-suspended-buried-cards = Apartigi kaŝitajn kartojn
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -174,7 +174,7 @@ statistics-added-title = Aldonitaj
 statistics-added-subtitle = Nombro de novaj kartoj, kiujn vi aldonis.
 statistics-reviews-count-subtitle = Nombro de demandoj, al kiuj vi respondis.
 statistics-reviews-time-subtitle = La tempo, kiu pasis por respondi la demandojn.
-statistics-answer-buttons-title = Respondaj butonoj
+statistics-answer-buttons-title = Respondobutonoj
 # eg Button: 4
 statistics-answer-buttons-button-number = Butono
 # eg Times pressed: 123

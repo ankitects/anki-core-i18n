@@ -26,7 +26,7 @@ search-invalid-number = atendis nombron en “`{ $context }`”, sed trovis “`
 search-invalid-whole-number = atendis plennombron en “`{ $context }`”, sed trovis “`{ $provided }`”.
 search-invalid-positive-whole-number = atendis pozitivan plennombron en “`{ $context }`”, sed trovis “`{ $provided }`”.
 search-invalid-negative-whole-number = atendis plennombron malpli grandan aŭ egalan al 0 en “`{ $context }`”, sed trovis “`{ $provided }`”.
-search-invalid-answer-button = atendis respondan butonon inter 1–4 en “`{ $context }`”, sed trovis “`{ $provided }`”.
+search-invalid-answer-button = atendis respondobutonon inter 1–4 en “`{ $context }`”, sed trovis “`{ $provided }`”.
 
 ## Column labels in browse screen
 
