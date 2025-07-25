@@ -310,7 +310,7 @@ deck-config-revert-button-tooltip = この設定をデフォルトに戻す
 
 deck-config-description-new-handling = Markdown記法を有効にする (Anki 2.1.41以降で有効)
 deck-config-description-new-handling-hint =
-    Markdown形式の文字列として扱い、HTMLの入力は無視します。「おめでとうございます」の画面でもこの説明文が表示されます。
+    Markdown形式の文字列として扱い、HTML形式の入力は無視します。このオプションをオンにすると、「おめでとうございます」の画面でもこの説明文が表示されます。
     
     なお、古いバージョンのAnki（バージョン 2.1.40まで）では、Markdown形式の文字列はプレーンテキストとして表示されます。
 
