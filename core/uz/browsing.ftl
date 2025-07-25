@@ -50,6 +50,7 @@ browsing-flag = Bayroq
 browsing-font = <b>Shrift</b>:
 browsing-font-size = <b>Shrift oʻlchami</b>:
 browsing-found-as-across-bs = { $whole }dan { $part } topildi.
+browsing-ignore-case = Registr hisobga olinmasin
 browsing-in = <b>Ichida</b>:
 browsing-interval = Oraliq
 browsing-last-card = Oxirgi karta
@@ -90,6 +91,7 @@ browsing-sidebar-filter = Yon panel filtri
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Saralash maydoni
 browsing-sorting-on-this-column-is-not = Ushbu ustunda saralash qoʻllab-quvvatlanmagan. Boshqasini tanlang.
+browsing-start-position = Boshlangʻich oʻrin:
 browsing-step = Qadam:
 browsing-suspended = Toʻxtatilgan
 browsing-tag-duplicates = Nusxalarni teglash
@@ -97,7 +99,9 @@ browsing-tag-rename-warning-empty = Qaydsiz teg nomini oʻzgartira olmaysiz.
 browsing-target-field = Nishondagi maydon:
 browsing-toggle-bury = Koʻmishni yoqish/oʻchirish
 browsing-toggle-showing-cards-notes = Kartalar/qaydlar yoqish/oʻchirish
+browsing-toggle-mark = Belgilash/belgini olib tashlash
 browsing-toggle-suspend = Toʻxtatishni yoqish/oʻchirish
+browsing-treat-input-as-regular-expression = Kiritishni muntazam ifoda sifatida qabul qilish
 browsing-update-saved-search = Joriy qidiruv bilan yangilash
 browsing-whole-collection = Butun toʻplam
 browsing-window-title-notes = Koʻrib chiqish ({ $total } ta qayddan { $selected } tasi tanlandi)
@@ -135,10 +139,21 @@ browsing-sidebar-save-current-search = Joriy qidiruvni saqlash
 browsing-sidebar-card-state = Karta holati
 browsing-sidebar-flags = Bayroqlar
 browsing-today = Bugun
+browsing-tooltip-card-modified = Kartaga kiritilgan oxirgi oʻzgarishlar vaqti (takrorlashlar, bayroqlar va dastasini oʻzgartirishlar)
+browsing-tooltip-note-modified = Qaydga oxirgi marta kiritilgan oʻzgarishlar vaqti (maydonlar tarkibi yoki teglarni tahrirlash)
 browsing-tooltip-card = Karta shablonini nomi
 browsing-tooltip-cards = Qayddagi kartalar soni
 browsing-tooltip-notetype = Qayd turini nomi
+browsing-tooltip-question = Kartani oldi tomoni. Karta shablon muharririda sozlash mumkin
+browsing-tooltip-answer = Kartani orqa tomoni. Karta shablon muharririda sozlash mumkin
+browsing-studied-today = Oʻrganilgan
+browsing-added-today = Qoʻshilgan
+browsing-again-today = Qaytadan
+browsing-edited-today = Tahrirlangan
+browsing-sidebar-first-review = Birinchi takrorlash
 browsing-sidebar-rescheduled = Qayta rejalashtirildi
+browsing-sidebar-due-today = Muddati
+browsing-sidebar-untagged = Tegi yoʻq
 browsing-sidebar-overdue = Muddati oʻtgan
 browsing-row-deleted = (oʻchirilgan)
 browsing-removed-unused-tags-count =
@@ -156,6 +171,7 @@ browsing-reparented-decks =
         [one] { $count } ta dastani nomi oʻzgartirildi.
        *[other] { $count } ta dastani nomi oʻzgartirildi.
     }
+browsing-sidebar-card-state-review = Takrorlash
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
