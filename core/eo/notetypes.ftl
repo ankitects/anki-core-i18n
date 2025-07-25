@@ -13,7 +13,7 @@ notetypes-back-extra-field = Plia dorso
 notetypes-basic-name = Baza
 notetypes-basic-reversed-name = Baza (en ambaŭ direktoj)
 notetypes-basic-optional-reversed-name = Baza (en unu aŭ ambaŭ direktoj)
-notetypes-basic-type-answer-name = Baza (entajpi la respondon)
+notetypes-basic-type-answer-name = Baza (enigi la respondon)
 notetypes-cloze-name = Truteksto
 
 ## Default card template names
