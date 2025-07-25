@@ -39,3 +39,11 @@ notetypes-type = Tipo
 ## Image Occlusion
 
 notetypes-image = Bildo
+notetypes-occlusion = Vualo
+notetypes-occlusion-mask = Masko
+notetypes-occlusion-note = Noto
+notetypes-comments-field = Komentoj
+notetypes-toggle-masks = Baskuligi maskojn
+notetypes-image-occlusion-name = Vualita bildo
+notetypes-hide-all-guess-one = Vuali ĉiujn, diveni unu
+notetypes-hide-one-guess-one = Vuali unu, diveni unu
