@@ -35,21 +35,47 @@ importing-mapped-to = <b>{ $val }</b> ga moslashtirilgan
 importing-mapped-to-tags = <b>Teglarga</b> moslashtirilgan
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Qayd turlarini birlashtirish
+importing-merge-notetypes-help =
+    Belgilangan boʻlsa va siz yoki dasta muallifi qayd turi sxemasini oʻzgartirgan boʻlsa, Anki ikkala versiyani ham saqlash oʻrniga ikkita versiyani birlashtiradi.
+    
+    Qayd turi sxemasini oʻzgartirish bu maydonlar yoki shablonlarni qoʻshish, olib tashlash yoki tartibini oʻzgartirish yoki tartiblash maydonini oʻzgartirishni anglatadi.
+    Qarama-qarshi misol sifatida, mavjud shablonning old tomonini oʻzgartirish sxemani oʻzgartir<b>ma</b>ydi.
+    
+    Ogohlantirish: Bu bir tomonlama sinxronlashni talab qiladi va mavjud qaydlarni oʻzgartirilgan deb belgilashi mumkin.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 dasta (*.db)
+importing-multicharacter-separators-are-not-supported-please = Koʻp belgili ajratgichlar qoʻllab-quvvatlanmaydi. Faqat bitta belgi kiriting.
 importing-new-deck-will-be-created = Yangi dasta yaratiladi: { $name }
 importing-include-reviews = Takrorlashlarni oʻz ichiga olish
 importing-also-import-progress = Har qanday oʻrganish progressini import qilish
 importing-with-deck-configs = Har qanday dasta andozalarini import qilish
 importing-updates = Yangilanishlar
+importing-include-reviews-help =
+    Agar yoqilsa, dasta ulashuvchining avvalgi takrorlashlari ham import qilinadi.
+    
+    Aks holda, barcha kartalar yangi kartalar sifatida import qilinadi va har qanday "leech" yoki "marked" teglar olib tashlanadi.
+importing-with-deck-configs-help =
+    Agar yoqilsa, dasta ulashuvchining har qanday dasta parametrlari ham import qilinadi.
+    Aks holda, barcha dastalar birlamchi andozaga oʻrnatilgan boʻladi.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlangan Anki dastasi/toʻplami (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Tik chiziq
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Faqat birinchi { $count } ta ustun koʻrsatilgan. Agar bu notoʻgʻri boʻlsa, maydon ajratgichni oʻzgartirib koʻring.
+       *[other] Faqat birinchi { $count } ta ustun koʻrsatilgan. Agar bu notoʻgʻri boʻlsa, maydon ajratgichni oʻzgartirib koʻring.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' da { $found } ta maydon topildi, lekin { $expected } ta kutilgandi
 importing-selected-file-was-not-in-utf8 = Tanlangan fayl UTF-8 formatida emas. Qoʻllanmaning import boʻlimiga murojaat qiling.
 importing-semicolon = Nuqta vergul
 importing-skipped = Oʻtkazib yuborildi
 importing-tab = Tab
 importing-text-separated-by-tabs-or-semicolons = Tab yoki nuqta vergullar bilan ajratilgan matn (*)
+importing-the-first-field-of-the-note = Qayd turining birinchi maydoni moslashtirilgan boʻlishi kereak.
+importing-the-provided-file-is-not-a = Berilgan file yaroqli .apkg fayl emas.
+importing-this-file-does-not-appear-to = Bu fayl yaroqli .apkg fayli emas. Agar siz AnkiWebʻdan yuklab olingan faylda ushbu xatoga duch kelsangiz, yuklab olish muvaffaqiyatsiz boʻlgan boʻlishi mumkin. Qayta urinib koʻring va agar muammo davom etsa, boshqa brauzer bilan qayta urinib koʻring.
+importing-this-will-delete-your-existing-collection = Bu sizning mavjud toʻplamingizni oʻchiradi va uni import qilayotgan fayldagi maʻlumotlar bilan almashtiradi. Ishonchingiz komilmi?
 importing-unable-to-import-from-a-readonly = Faqat oʻqish uchun fayldan import qilib boʻlmadi.
 importing-unknown-file-format = Nomaʼlum fayl formati.
 importing-update-existing-notes-when-first-field = Birinchi maydoni mos kelsa mavjud qaydlarni yangilash
@@ -58,7 +84,9 @@ importing-update-if-newer = Yangiroq boʻlsa
 importing-update-always = Har doim
 importing-update-never = Hech qachon
 importing-update-notes = Qaydlarni yangilash
+importing-update-notes-help = Toʻplamingizdagi mavjud qaydni qachon yangilash kerak. Birlamchi sifatida, bu faqat mos keladigan import qilingan qayd yaqinda oʻzgartirilgan boʻlsa amalga oshiriladi.
 importing-update-notetypes = Qayd turlarini yangilash
+importing-update-notetypes-help = Toʻplamingizdagi mavjud qayd turini qachon yangilash kerak. Birlamchi sifatida, bu faqat mos keladigan import qilingan qayd turi yaqinda oʻzgartirilgan boʻlsa amalga oshiriladi. Shablon matni va stili oʻzgarishlarini har doim import qilish mumkin, lekin sxema oʻzgarishlari uchun (masalan, maydonlar soni yoki tartibi oʻzgargan boʻlsa) '{ importing-merge-notetypes }' sozlamasi yoqilishi kerak.
 importing-note-added =
     { $count ->
         [one] { $count } ta qayd qoʻshildi
@@ -165,7 +193,25 @@ importing-note-updated-as-file-had-newer = Qayd yangilandi, chunki faylda yangir
 importing-note-skipped-due-to-missing-notetype = Qayd oʻtkazib yuborildi, chunki uni qayd turi yoʻq edi
 importing-note-skipped-due-to-missing-deck = Qayd oʻtkazib yuborildi, chunki uni dastasi yoʻq edi
 importing-note-skipped-due-to-empty-first-field = Qayd oʻtkazib yuborildi, chunki uni birinchi maydoni boʻsh edi
+importing-field-separator-help =
+    Matn faylidagi maydonlarni ajratuvchi belgi. Maydonlar toʻgʻri ajratilganligini tekshirish uchun namunadan foydalanishingiz mumkin.
+    
+    Shuni esda tutingki, agar bu belgi biron bir maydonda paydo boʻlsa, maydon CSV standartiga muvofiq koʻrsatilishi kerak. LibreOffice kabi elektron jadval dasturlari buni avtomatik ravishda bajaradi.
+    
+    Agar matn fayli fayl sarlavhasida koʻrsatilgan ajratgichdan foydalanishga majbur qilsa, uni oʻzgartirib boʻlmaydi.
+    Agar fayl sarlavhasi mavjud boʻlmasa, Anki qaysi ajratgich ishlatilganini aniqlashga harakat qiladi.
+importing-allow-html-in-fields-help = Agar faylda HTML formatlashi mavjud boʻlsa, buni yoqing. Masalan, agar faylda '&lt;br&gt;' qatori boʻlsa, u sizning kartangizda qator uzilishi sifatida paydo boʻladi. Aks holda, ushbu parametr oʻchirilgan boʻlsa, '&lt;br&gt;' harflari koʻrsatiladi.
+importing-notetype-help =
+    Yangi import qilingan qaydlar ushbu qayd turida boʻladi va faqat ushbu turdagi qaydlar yangilanadi.
+    
+    Moslashtirish vositasi yordamida fayldagi qaysi maydonlar qaysi qayd turidagi maydonlarga mos kelishini sozlashingiz mumkin.
 importing-deck-help = Import qilingan kartalar bu dastaga joylashtiriladi.
+importing-existing-notes-help =
+    Import qilingan qayd mavjud qaydga mos kelsa nima qilish kerak.
+    
+    - `{ importing-update }`: Mavjud qaydni yangilash.
+    - `{ importing-preserve }`: Hechnima qilmaslik.
+    - `{ importing-duplicate }`: Yangi qayd yaratish.
 importing-match-scope-help = Faqat bir xil turdagi mavjud qaydlar nusxalar borligi tekshiriladi. Bu, qoʻshimcha ravishda, bitta dastadagi qayd kartalari bilan cheklanishi mumkin.
 importing-tag-all-notes-help = Bu teglar yangi qoʻshilgan va yangilangan qaydlarga qoʻshiladi.
 importing-tag-updated-notes-help = Bu teglar har qanday yangilangan qaydlarga qoʻshiladi.
