@@ -1,14 +1,25 @@
-notetypes-front-field = Antaŭo
-notetypes-back-field = Reen
+notetypes-notetype = Nototipo
+
+## Default field names in newly created note types
+
+notetypes-front-field = Fronto
+notetypes-back-field = Dorso
 notetypes-add-reverse-field = Aldoni malan direkton
 notetypes-text-field = Teksto
+notetypes-back-extra-field = Plia dorso
+
+## Default note type names
+
 notetypes-basic-name = Baza
 notetypes-basic-reversed-name = Baza (en ambaŭ direktoj)
 notetypes-basic-optional-reversed-name = Baza (en unu aŭ ambaŭ direktoj)
-notetypes-cloze-name = Truteksto
 notetypes-basic-type-answer-name = Baza (entajpi la respondon)
-notetypes-card-2-name = 2-a karto
+notetypes-cloze-name = Truteksto
+
+## Default card template names
+
 notetypes-card-1-name = 1-a karto
+notetypes-card-2-name = 2-a karto
 notetypes-add = Aldoni: { $val }
 notetypes-add-note-type = Aldoni nototipon
 notetypes-cards = Kartoj...
@@ -24,3 +35,6 @@ notetypes-note-types = Nototipoj
 notetypes-options = Opcioj...
 notetypes-please-add-another-note-type-first = Bonvolu aldoni alian nototipon antaŭe.
 notetypes-type = Tipo
+
+## Image Occlusion
+
