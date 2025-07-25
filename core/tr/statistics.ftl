@@ -136,6 +136,10 @@ statistics-true-retention-yesterday = Dün
 statistics-true-retention-week = Geçen hafta
 statistics-true-retention-month = Geçen ay
 statistics-true-retention-year = Geçen yıl
+statistics-true-retention-all-time = Tüm zamanlar
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = Yok
 
 ##
 
@@ -144,7 +148,7 @@ statistics-range-all-history = Tüm geçmiş
 statistics-range-deck = deste
 statistics-range-collection = koleksiyon
 statistics-range-search = Ara
-statistics-card-ease-title = Kart kolaylığı
+statistics-card-ease-title = Kart Kolaylığı
 statistics-card-difficulty-title = Kart Zorluğu
 statistics-card-stability-title = Kart sabitliği
 statistics-card-stability-subtitle = Hatırlanabilirliğin %90'a düştüğü gecikme.
@@ -260,6 +264,7 @@ statistics-total = Toplam
 statistics-days-studied = Çalışılan günler
 statistics-average-answer-time-label = Ortalama cevap süresi
 statistics-average = Ortalama
+statistics-median-interval = Ortanca aralık
 statistics-due-tomorrow = Yarına kadar
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 

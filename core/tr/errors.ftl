@@ -14,3 +14,5 @@ errors-inconsistent-db-state = Veritabanınız tutarsız bir durumda gibi görü
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+errors-invalid-input-empty = Geçersiz giriş.
+errors-invalid-input-details = Geçersiz giriş: { $details }

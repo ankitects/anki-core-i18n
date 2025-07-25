@@ -9,9 +9,11 @@ media-check-trash-count =
         [one] Çöp kutusu: { $count } dosya, { $megs } MB
        *[other] Çöp kutusu: { $count } dosya, { $megs } MB
     }
+media-check-missing-count = Kayıp dosyalar: { $count }
 media-check-unused-count = Kullanılmayan dosyalar: { $count }
 media-check-renamed-count = Yeniden adlandırılan dosyalar: { $count }
 media-check-oversize-count = 100 MB'den fazla: { $count }
+media-check-subfolder-count = Alt klasörler: { $count }
 
 ## Shown at the top of each section
 
@@ -24,6 +26,7 @@ media-check-subfolder-header = Ortam klasörünün içindeki klasörler destekle
 media-check-renamed-file = Yeniden adlandırıldı: { $old } -> { $new }
 media-check-oversize-file = 100 MB'den fazla: { $filename }
 media-check-subfolder-file = Klasör: { $filename }
+media-check-missing-file = Kayıp: { $filename }
 media-check-unused-file = Kullanılmayan: { $filename }
 
 ##
@@ -37,12 +40,18 @@ media-check-notetype-template = { $notetype }: { $card_type } ({ $side })
 ## Deleting unused media
 
 media-check-delete-unused-confirm = Kullanılmayan ortamlar silinsin mi?
+media-check-files-remaining =
+    { $count ->
+        [one] { $count } dosya kaldı.
+       *[other] { $count } dosya kaldı.
+    }
 media-check-delete-unused-complete =
     { $count ->
         [one] { $count } dosya çöp kutusuna taşındı.
        *[other] { $count } dosya çöp kutusuna taşındı.
     }
 media-check-trash-emptied = Çöp kutusu boş.
+media-check-trash-restored = Silinen dosyalar medya klasörüne geri yüklendi.
 
 ## Rendering LaTeX
 

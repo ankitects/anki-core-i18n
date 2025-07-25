@@ -49,6 +49,7 @@ sync-account-required =
     Koleksiyonunuzun eşitlenmesi için ücretsiz hesap açmanız gerekiyor.  Lütfen  <a href="{ $link }">hesap açın</a> ve bilgilerinizi yazın.
 sync-clock-off = Senkronize edilemedi - sistem saatin doğru saate ayarlanmamış.
 sync-sign-in = Oturum aç
+sync-ankihub-dialog-heading = AnkiHub Girişi
 sync-ankihub-username-label = Kullanıcı adı veya E-posta
 
 ## Buttons

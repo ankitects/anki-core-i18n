@@ -25,6 +25,11 @@ database-check-duplicate-card-ords =
         [one] Yinelenen şablonlarla { $count } kart silindi.
        *[other] Yinelenen şablonlarla { $count } kart silindi.
     }
+database-check-missing-decks =
+    { $count ->
+        [one] { $count } eksik kart düzeltildi.
+       *[other] { $count } eksik kart düzeltildi.
+    }
 # "db-check" is always in English
 database-check-notetypes-recovered = Bir veya daha fazla not türü eksik. Bu türleri kullanan notlara "db-check" ile başlayan yeni not türleri atandı, ancak alan adları ve kart tasarımı kaybolduğu için otomatik bir yedeklemeden geri yüklemeniz daha iyi olabilir.
 

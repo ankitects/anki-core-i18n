@@ -81,6 +81,7 @@ deck-config-bury-priority-tooltip =
 
 ## Gather order and sort order of cards
 
+deck-config-ordering-title = Görüntüleme Sırası
 deck-config-interday-step-priority = Günler arası öğrenmesi/gözden geçirme sırası
 deck-config-display-order-will-use-current-deck =
     Anki çalışmak için seçtiğiniz destenin gösterim düzenini

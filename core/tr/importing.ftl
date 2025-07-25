@@ -139,9 +139,11 @@ importing-conflicting-notes-skipped =
         [one] { $count } adet not, türü değiştiği için içe aktarılamadı.
        *[other] { $count } adet not, türleri değiştiği için içe aktarılamadı.
     }
+importing-import-log = İçeri Aktarma Günlüğü
 importing-no-notes-in-file = Dosyada not bulunamadı.
 importing-show = Göster
 importing-details = Ayrıntılar
+importing-status = Durum
 importing-added-new-note = Yeni not eklendi
 importing-note-updated-as-file-had-newer = Dosya daha yeni bir sürüme sahip olduğu için not güncellendi
 importing-deck-help = İçe aktarılan kartlar bu desteye yerleştirilecek.
@@ -156,6 +158,7 @@ importing-tag-updated-notes-help = Bu etiketler güncellenen notlara eklenecekti
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+importing-importing-collection = Koleksiyon içeri aktarılıyor...
 importing-added = Eklendi
 importing-pauker-18-lesson-paugz = Pauker 1.8 Dersi (*.pau.gz)
 importing-supermemo-xml-export-xml = Supermemo XML dışa aktarma (*.xml)
