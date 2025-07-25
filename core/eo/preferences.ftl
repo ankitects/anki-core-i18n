@@ -74,9 +74,17 @@ preferences-import-export = Enporti/elporti
 preferences-network-timeout = Templimo de konekto
 preferences-reset-window-sizes = Restarigi implicitajn grandojn de fenestroj
 preferences-reset-window-sizes-complete = Restarigis implicitajn grandojn kaj aranĝojn de fenestroj.
+preferences-shortcut-placeholder = Premu neasignitan klavon aŭ forlasu kampon malplena por malaktivigi.
+preferences-third-party-services = Eksteraj servoj
+preferences-ankihub-not-logged-in = Nuntempe ne ensalutinta al AnkiHub.
+preferences-ankiweb-intro = AnkiWeb estas senpaga servo ebliganta samtempigi datumojn de lernkartojn inter pluraj aparatoj. Ĝi ankaŭ ebligas restarigi datumojn, kiam via aparato perdiĝos aŭ difektiĝos.
+preferences-ankihub-intro = AnkiHub ebligas kunlabore redakti kartarojn kaj liveras pliajn lernajn ilojn. Pagenda abono estas necesa por aliri kelkajn eblojn.
+preferences-third-party-description = Servoj de eksteraj liverantoj ne rilatiĝas al kaj ne estas subtenataj de Anki. Uzi tiun ĉi servojn povas postuli pagon.
 
 ## URL scheme related
 
+preferences-url-schemes = Skemoj de retadresoj
+preferences-url-scheme-prompt = Permesataj retadresoj (disigitaj per spaceto)j:
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
