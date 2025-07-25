@@ -67,6 +67,13 @@ preferences-editing = Redaktado
 preferences-browsing = Foliumado
 preferences-default-deck = Implicita kartaro
 preferences-account = AnkiWeb-konto
+preferences-note = Averto
+preferences-scheduler = Planado
+preferences-user-interface = Fasado
+preferences-import-export = Enporti/elporti
+preferences-network-timeout = Templimo de konekto
+preferences-reset-window-sizes = Restarigi implicitajn grandojn de fenestroj
+preferences-reset-window-sizes-complete = Restarigis implicitajn grandojn kaj aranĝojn de fenestroj.
 
 ## URL scheme related
 
