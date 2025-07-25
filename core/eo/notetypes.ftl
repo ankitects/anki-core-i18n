@@ -22,19 +22,20 @@ notetypes-card-1-name = 1-a karto
 notetypes-card-2-name = 2-a karto
 notetypes-add = Aldoni: { $val }
 notetypes-add-note-type = Aldoni nototipon
-notetypes-cards = Kartoj...
+notetypes-cards = Kartoj
 notetypes-clone = Kloni: { $val }
-notetypes-copy = { $val } kopio
+notetypes-copy = kopio de { $val }
 notetypes-create-scalable-images-with-dvisvgm = Krei skaleblan bildon per dvisvgm
-notetypes-delete-this-note-type-and-all = Ĉu forigi ĉi tiun nototipon kaj ĉiujn ĝiajn kartojn?
-notetypes-delete-this-unused-note-type = Ĉu forigi ĉi tiun neuzatan nototipon?
-notetypes-fields = Kampoj...
-notetypes-footer = Paĝopiedo
-notetypes-header = Ĉapo
+notetypes-delete-this-note-type-and-all = Ĉu forigi tiun ĉi nototipon kaj ĉiujn ĝiajn kartojn?
+notetypes-delete-this-unused-note-type = Ĉu forigi tiun ĉi neuzatan nototipon?
+notetypes-fields = Kampoj
+notetypes-footer = Paĝpiedo
+notetypes-header = Paĝkapo
 notetypes-note-types = Nototipoj
-notetypes-options = Opcioj...
-notetypes-please-add-another-note-type-first = Bonvolu aldoni alian nototipon antaŭe.
+notetypes-options = Elektebloj
+notetypes-please-add-another-note-type-first = Unue aldonu alian nototipon.
 notetypes-type = Tipo
 
 ## Image Occlusion
 
+notetypes-image = Bildo
