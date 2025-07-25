@@ -85,7 +85,12 @@ preferences-third-party-description = Servoj de eksteraj liverantoj ne rilatiĝa
 
 preferences-url-schemes = Skemoj de retadresoj
 preferences-url-scheme-prompt = Permesataj retadresoj (disigitaj per spaceto)j:
+preferences-url-scheme-warning =
+    Blokis provon de malfermi `{ $link }` pro sekureca kialo.
+    
+    Se vi konfidas la aŭtoron de kartaro kaj volas pluigi, aldonu `{ $scheme }` al la listo de permesataj skemoj de retadresoj.
+preferences-url-scheme-allow-once = Permesi unufoje
+preferences-url-scheme-always-allow = Permesi ĉiam
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-preferences-basic = Baza
