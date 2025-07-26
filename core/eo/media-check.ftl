@@ -74,3 +74,7 @@ media-check-empty-trash = Malplenigi rubujon
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Restarigi forigitajn
 media-check-check-media-action = Kontroli aŭdovidaĵojn
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = aŭdvidaĵo_mankas
+# add a tag to notes with missing media
+media-check-add-tag = Etikedi mankajn
