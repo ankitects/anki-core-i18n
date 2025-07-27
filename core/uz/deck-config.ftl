@@ -19,6 +19,18 @@ deck-config-daily-limits = Kunlik limitlar
 deck-config-review-limit-tooltip =
     Agar kartalar takrorlash uchun tayyor boʻlsa,
     bir kunda koʻrsatiladigan takrorlanadigan kartalarining maksimal soni.
+deck-config-limit-deck-v3 =
+    Ostdastalari boʻlgan dastani oʻrganayotganingizda, har bir ostdastada oʻrnatilgan limit ushbu ostdastadan toʻplangan kartalarning maksimal sonini belgilaydi.
+    Tanlangan dastadagi limit jami koʻrsatiladigan kartalar sonini belgilaydi.
+deck-config-limit-new-bound-by-reviews = Takrorlash limiti yangi kartalar limitiga taʼsir qiladi. Misol uchun, agar takrorlash limitingiz 200 ga oʻrnatilgan boʻlsa va navbatda 190 ta takrorlash kartalari boʻlsa, koʻpi bilan 10 ta yangi karta koʻrsatiladi. Takrorlash limitiga yetgan boʻlsangiz, yangi kartalar koʻrsatilmaydi.
+deck-config-limit-interday-bound-by-reviews = Takrorlash limiti kunlararo oʻrganish kartalariga ham taʼsir qiladi. Limitni qoʻllashda avval kunlararo oʻrganish kartalari yigʻiladi, soʻngra takrorlash kartalari.
+deck-config-tab-description =
+    - `Andoza`: Limit ushbu andozadan foydalanadigan barcha dastalarga qoʻllaniladi.
+    - `Bu dasta`: LImit faqat shu dastaga xosdir.
+    - `Faqat bugun`: Ushbu dasta limitiga vaqtinchalik oʻzgartirish kiritish.
+deck-config-new-cards-ignore-review-limit = Takrorlash limiti yangi kartalar limitiga taʼsir qilmaydi
+deck-config-new-cards-ignore-review-limit-tooltip = Birlamchi sifatida, takrorlash limiti yangi kartalar uchun ham amal qiladi va takrorlash limitiga yetganida yangi kartalar koʻrsatilmaydi. Agar ushbu parametr yoqilgan boʻlsa, takrorlash limitidan qatʼi nazar, yangi kartalar koʻrsatilaveradi.
+deck-config-apply-all-parent-limits = Limitlar yuqoridan boshlanadi
 deck-config-affects-entire-collection = Butun toʻplamga taʼsir qiladi.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
