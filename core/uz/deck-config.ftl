@@ -85,6 +85,7 @@ deck-config-ordering-title = Koʻrsatish tartibi
 deck-config-new-gather-priority = Yangi kartalarni yigʻish tartibi
 deck-config-new-card-sort-order = Yangi kartalar saralash tartibi
 deck-config-new-review-priority = Yangi/takrorlash tartibi
+deck-config-interday-step-priority = Kunlararo oʻrganish/takrorlash kartalar tartibi
 deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
 
 ## Gather order and sort order of cards – Combobox entries
@@ -103,6 +104,8 @@ deck-config-sort-order-card-template-then-random = Karta turi boʻyicha, soʻng 
 deck-config-sort-order-random-note-then-template = Tasodify qaydlar, keyin karta turi boʻyicha
 # Sort the cards randomly.
 deck-config-sort-order-random = Tasodifiy
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Yigʻish tartibi
 # How new cards or interday learning cards are mixed with review cards.
 deck-config-review-mix-mix-with-reviews = Takrorlanadiganlar bilan aralashtirish
 # How new cards or interday learning cards are mixed with review cards.
