@@ -43,21 +43,46 @@ deck-config-today-only = Faqat bugun
 ## New Cards section
 
 deck-config-learning-steps = Oʻrganish bosqichlari
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Kechikishlar odatda daqiqalarda (masalan, `1m`) yoki kunlarda (masalan,`2d`) belgilanadi, lekin soatlarda (masalan,`1h`) yoki soniyalarda (masalan,`30s`) ham belgilash mumkin.
+deck-config-learning-steps-tooltip =
+    Boʻshliqlar bilan ajratilgan holda bir nechta kechikishlarni kiriting. Birinchi kechikish yangi kartada `Qaytadan` tugmasini bosganingizda qoʻllaniladi va bu birlamchi sifatida 1 daqiqa.
+    `Yaxshi` tugmasi kartani keyingi bosqichga oʻtkazadi, bu birlamchi sifatida 10 daqiqa.
+    Barcha bosqichlar bajarilgandan soʻng, karta takrorlash kartasiga aylanadi va boshqa kunda koʻrsatiladi. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = Yakuniy oʻrganish bosqichida `Yaxshi` tugmasi bosilgach, kartani yana koʻrsatishdan oldin kutish kerak boʻlgan kunlar soni.
+deck-config-new-insertion-order = Kiritish tartibi
+deck-config-new-insertion-order-tooltip =
+    Yangi kartalar qoʻshilganda yangi kartalar oʻrnini (muddati #) belgilaydi.
+    Oʻrganish paytida birinchi navbatda raqami pastroq kartalar koʻrsatiladi. Ushbu parametrni oʻzgartirish yangi kartalarning mavjud oʻrnini avtomatik ravishda yangilaydi.
+deck-config-new-insertion-order-sequential = Ketma-ket (avval eng eski kartalar)
 deck-config-new-insertion-order-random = Tasodifiy
+deck-config-new-insertion-order-random-with-v3 = V3 rejalashtiruvchisi uchun ketma-ket tartibni qoldirgani maʼqul va uni oʻrniga yangi kartalarni yigʻish tartibini sozlash yaxshiroqdir.
 
 ## Lapses section
 
 deck-config-relearning-steps = Qayta oʻrganish bosqichlari
+deck-config-relearning-steps-tooltip = Boʻshliqlar bilan ajratilgan holda nol yoki undan ortiq kechikishlar kiriting. Birlamchi sifatida, takrorlash kartasidagi `Yana` tugmasini bosish uni 10 daqiqadan soʻng yana koʻrsatadi. Agar kechikishlar belgilanmasa, kartani qayta oʻrganishga kiritmasdan, uning oraligʻi oʻzgartiriladi. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = Takrorlash kartasini yopishqoq sifatida belgilanishidan oldin `Yana` tugmasini necha marta bosish kerak. Yopishqoq kartalar bu vaqtingizni koʻp oladigan kartalardir. Agar karta yopishqoq sifatida belgilangansa, uni eslab qolishingizga yordam berish uchun uni qaytadan tahrirlashingiz, oʻchirib tashlashingiz yoki mnemonika ishlatganingiz maʼqul.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Faqat teg qoʻyish`: qaydga 'leech' tegini qoʻshadi va qalqib chiquvchi xabar koʻrsatadi.
+    
+    `Kartani toʻxtatish`: qaydga teg qoʻyishdan tashqari tashqari, kartani qoʻlda toʻxtatishdan chiqarmaguningizcha yashiradi.
 
 ## Burying section
 
 deck-config-bury-title = Koʻmish
 deck-config-bury-new-siblings = Yangilarga aloqadorlarni koʻmish
 deck-config-bury-review-siblings = Takrorlanganlarga aloqadorlarni koʻmish
+deck-config-bury-interday-learning-siblings = Aloqador kunlararo oʻrganilayotgan kartalarni koʻmish
+deck-config-bury-new-tooltip = Bitta qaydning boshqa `yangi` kartalari (masalan, teskari kartalar, aloqador boʻshliqni toʻldirish kartalari) keyingi kunga qoldiriladimi.
+deck-config-bury-review-tooltip = Bitta qaydning boshqa `takrorlash` kartalari keyingi kunga qoldiriladimi.
+deck-config-bury-interday-learning-tooltip = Bitta qaydning boshqa, oraligʻi 1 kundan ortiq boʻlgan, `oʻrganish` kartalari keyingi kunga qoldiriladimi.
 
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = Koʻrsatish tartibi
+deck-config-new-gather-priority = Yangi kartalarni yigʻish tartibi
 deck-config-new-card-sort-order = Yangi kartalar saralash tartibi
 deck-config-new-review-priority = Yangi/takrorlash tartibi
 deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
