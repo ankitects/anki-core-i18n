@@ -51,6 +51,7 @@ sync-clock-off = Senkronize edilemedi - sistem saatin doğru saate ayarlanmamı�
 sync-sign-in = Oturum aç
 sync-ankihub-dialog-heading = AnkiHub Girişi
 sync-ankihub-username-label = Kullanıcı adı veya E-posta
+sync-ankihub-addon-installation = AnkiHub Eklenti Kurulumu
 
 ## Buttons
 

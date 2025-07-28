@@ -3,6 +3,7 @@ preferences-backups = Yedekler
 preferences-change-deck-depending-on-note-type = Not türüne göre desteyi değiştir
 preferences-changes-will-take-effect-when-you = Değişiklikler, Anki'yi yeniden başlattığınızda etkili olacaktır.
 preferences-language = Dil
+preferences-interrupt-current-audio-when-answering = Cevap verirken mevcut sesi kes
 preferences-learn-ahead-limit = Önceden öğrenme sınırı
 preferences-mins = dk
 preferences-network = Ağ
@@ -51,6 +52,7 @@ preferences-review = Gözden Geçirme
 preferences-answer-keys = Cevap anahtarları
 preferences-minimalist-mode = Minimalist mod
 preferences-minimalist-mode-tooltip = Arayüzü daha kompakt/daha sade hale getirin
+preferences-browsing = Göz Atma
 preferences-default-deck = Varsayılan deste
 preferences-account = AnkiWeb Hesabı
 preferences-note = Not
@@ -62,6 +64,8 @@ preferences-reset-window-sizes = Pencere Boyutlarını Sıfırla
 preferences-reset-window-sizes-complete = Pencere boyutları ve konumları sıfırlandı.
 preferences-shortcut-placeholder = Kullanılmayan bir kısayol tuşu girin veya devre dışı bırakmak için boş bırakın.
 preferences-third-party-services = Üçüncü Taraf Hizmetleri
+preferences-ankihub-intro = AnkiHub, ortak çalışmaya dayalı deste düzenleme ve ek çalışma araçları sunar. Bazı özelliklere erişmek için ücretli abonelik gereklidir.
+preferences-third-party-description = Üçüncü taraf hizmetleri Anki ile bağlantılı değildir ve Anki tarafından desteklenmemektedir. Bu hizmetlerin kullanımı ücretli olabilir.
 
 ## URL scheme related
 

@@ -163,6 +163,8 @@ deck-config-remove-group = Ön Ayarı Sil
 
 ## Other Buttons
 
+deck-config-save-button = Kaydet
+deck-config-save-to-all-subdecks = Tüm Alt Destelere Kaydet
 deck-config-save-and-optimize = Tüm Ön Ayarları Optimize Et
 deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 
@@ -178,16 +180,34 @@ deck-config-revert-button-tooltip = Bu ayarı varsayılan değerine geri yükle.
 
 ## Messages related to the FSRS scheduler
 
+deck-config-optimize-button = Mevcut Ön Ayarı Optimize Et
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (yavaş)
+deck-config-compute-button = Hesapla
 deck-config-complete = %{ $num } tamamlandı.
+deck-config-please-save-your-changes-first = Lütfen önce değişikliklerinizi kaydedin.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $reviews } gözden geçirmekten %{ $pct }
        *[other] { $reviews } gözden geçirmekten %{ $pct }
     }
+deck-config-percent-input = %{ $pct }
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = İyileştirme için kontrol ediliyor...
+deck-config-fsrs-must-be-enabled = Önce FSRS etkinleştirilmelidir.
+deck-config-fsrs-params-optimal = FSRS değişkenleri şu anda ideal görünmektedir.
 deck-config-show-reminder = Hatırlatıcıyı Göster
 deck-config-answer-again = Tekrar Cevapla
 deck-config-answer-hard = Zor
 deck-config-answer-good = İyi
+deck-config-days-to-simulate = Simüle edilecek gün sayısı
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = FSRS Simülatörü (Deneysel)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Karar Vermeme Yardım Et (Deneysel)
+deck-config-simulate = Simüle et
+deck-config-clear-last-simulate = Son Simülasyonu Temizle
 deck-config-advanced-settings = Gelişmiş Ayarlar
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
@@ -196,3 +216,4 @@ deck-config-advanced-settings = Gelişmiş Ayarlar
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 deck-config-bury-siblings = Kardeşleri göm
+deck-config-bury-if-new = Yeniyse göm

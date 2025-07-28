@@ -141,11 +141,18 @@ importing-conflicting-notes-skipped =
     }
 importing-import-log = İçeri Aktarma Günlüğü
 importing-no-notes-in-file = Dosyada not bulunamadı.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] Dosyada { $notes } not bulundu. Bunlar:
+       *[other] Dosyada { $notes } not bulundu. Bunlar:
+    }
 importing-show = Göster
 importing-details = Ayrıntılar
 importing-status = Durum
+importing-duplicate-note-added = Yinelenen not eklendi
 importing-added-new-note = Yeni not eklendi
 importing-note-updated-as-file-had-newer = Dosya daha yeni bir sürüme sahip olduğu için not güncellendi
+importing-note-skipped-due-to-empty-first-field = İlk alanı boş olduğu için not atlandı
 importing-deck-help = İçe aktarılan kartlar bu desteye yerleştirilecek.
 importing-existing-notes-help =
     İçe aktarılan bir not mevcut bir notla çakışırsa ne yapılmalı?
@@ -155,10 +162,12 @@ importing-existing-notes-help =
     - `{ importing-duplicate }`: Yeni bir not oluştur.
 importing-tag-all-notes-help = Bu etiketler hem yeni içe aktarılan hem de güncellenen notlara eklenecektir.
 importing-tag-updated-notes-help = Bu etiketler güncellenen notlara eklenecektir.
+importing-overview = Genel Bakış
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Koleksiyon içeri aktarılıyor...
+importing-unable-to-import-filename = { $filename } içe aktarılamadı: Dosya türü desteklenmiyor
 importing-added = Eklendi
 importing-pauker-18-lesson-paugz = Pauker 1.8 Dersi (*.pau.gz)
 importing-supermemo-xml-export-xml = Supermemo XML dışa aktarma (*.xml)
