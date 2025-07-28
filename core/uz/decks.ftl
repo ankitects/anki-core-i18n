@@ -1,7 +1,7 @@
 decks-add-new-deck-ctrlandn = Yangi dasta qoʻshish (Ctrl+N)
 decks-build = Qurish
 decks-cards-selected-by = karta tanlash usuli
-decks-create-deck = Dasta yasash
+decks-create-deck = Dasta yaratish
 decks_create_even_if_empty = Boʻsh boʻlsa ham, ushbu dastani yaratish/yangilash
 decks-custom-steps-in-minutes = Maxsus bosqishlar (daqiqalarda)
 decks-deck = Dasta
