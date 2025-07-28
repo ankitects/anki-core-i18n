@@ -385,6 +385,8 @@ deck-config-desired-retention-below-optimal = Ihre gewünschte Erinnerungsquote 
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS-Simulator (experimentell)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS-Simulator für die gewünschte Erinnerungsquote (experimentell)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Entscheidungshilfe (experimentell)
 deck-config-additional-new-cards-to-simulate = Zusätzliche fiktive neue Karten
 deck-config-simulate = Simulieren
 deck-config-clear-last-simulate = Letzte Simulation löschen
@@ -394,10 +396,14 @@ deck-config-smooth-graph = Kurve glätten
 deck-config-suspend-leeches = Lernbremsen dauerhaft ausschließen
 deck-config-save-options-to-preset = Einstellungen ins Stapelprofil übertragen
 deck-config-save-options-to-preset-confirm = Die Einstellungen im Stapelprofil mit den derzeit im Simulator gesetzten Einstellungen überschreiben?
+deck-config-plotted-on-x-axis = (siehe x-Achse)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Abrufbare Karten
+deck-config-fsrs-simulator-radio-ratio = Zeitaufwand pro abrufbarer Karte
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } pro abrufbarer Karte
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
