@@ -87,6 +87,7 @@ deck-config-new-card-sort-order = Yangi kartalar saralash tartibi
 deck-config-new-review-priority = Yangi/takrorlash tartibi
 deck-config-interday-step-priority = Kunlararo oʻrganish/takrorlash kartalar tartibi
 deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
+deck-config-display-order-will-use-current-deck = Anki siz oʻrganish uchun tanlagan dastadagi koʻrsatish tartibidan foydalanadi va undagi har qanday ostdastadan emas.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -94,6 +95,10 @@ deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
 deck-config-new-gather-priority-deck = Dasta
 # Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-deck-then-random-notes = Dasta boʻyicha, soʻng tasodify qaydlar
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Oʻrni oʻsib borish tartibi boʻyicha
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Oʻrni kamayib borish tartibi boʻyicha
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = Tasodifiy qaydlar
 # Gather new cards randomly.
@@ -104,6 +109,8 @@ deck-config-sort-order-card-template-then-random = Karta turi boʻyicha, soʻng 
 deck-config-sort-order-random-note-then-template = Tasodify qaydlar, keyin karta turi boʻyicha
 # Sort the cards randomly.
 deck-config-sort-order-random = Tasodifiy
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Karta turi, keyin yig'ish tartibi boʻyicha
 # Sort the cards by the order they were gathered, in ascending order (oldest to newest).
 deck-config-sort-order-gather = Yigʻish tartibi
 # How new cards or interday learning cards are mixed with review cards.
@@ -169,6 +176,15 @@ deck-config-always-include-question-audio-tooltip = Kartaning javob tomoniga qar
 ## Advanced section
 
 deck-config-advanced-title = Kengaytirilgan
+deck-config-maximum-interval-tooltip =
+    Takrorlash kartasi kutadigan maksimal kunlar soni. Takrorlashlar limitiga yetganida, `Qiyin`, `Yaxshi` va `Oson` hammasi bir xil kechikishni beradi.
+    Buni qanchalik qisqa oʻrnatsangiz, ish yukingiz shunchalik koʻp boʻladi.
+deck-config-starting-ease-tooltip = Yangi kartalar uchun belgilangan osonlik koʻpaytiruvchisi. Birlamchi sifatida, yangi oʻrganilgan kartadagi `Yaxshi` tugmasi keyingi takrorlashni oldingi kechikishdan 2,5 baravar ortiq kechiktiradi.
+deck-config-easy-bonus-tooltip = `Oson` deb baholaganingizda takrorlash kartasi oraligʻiga qoʻllaniladigan qoʻshimcha koʻpaytiruvchi.
+deck-config-interval-modifier-tooltip = Ushbu koʻpaytiruvchi barcha takrorlashlar uchun qoʻllaniladi. Anki rejalashtiruvchisini yanada konservativ yoki aggressiv qilish uchun kichik tuzatishlar qilish mumkin. Ushbu parametrni oʻzgartirishdan oldin qoʻllanmani koʻring.
+deck-config-hard-interval-tooltip = `Qiyin` deb javob berganda takrorlash oraligʻiga qoʻllaniladigan koʻpaytiruvchi.
+deck-config-new-interval-tooltip = `Qaytadan` deb javob berganda takrorlash oraligʻiga qoʻllaniladigan koʻpaytiruvchi.
+deck-config-minimum-interval-tooltip = Takrorlash kartasiga `Qaytadan` deb javob berganda beriladigan eng kam oraliq.
 deck-config-custom-scheduling = Rejalashtirishni moslash
 deck-config-custom-scheduling-tooltip = Butun toʻplamga taʼsir qiladi. Ishlatishda ehtiyot boʻling!
 
@@ -211,6 +227,10 @@ deck-config-revert-button-tooltip = Bu sozlama birlamchi qiymatiga qaytarilsinmi
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ qoʻllash uslubi
+deck-config-description-new-handling-hint =
+    Kirishni markdown sifatida qabul qiladi va HTML kiritishni tozalaydi. Yoqilganda tabriklar ekranida tavsif ham koʻrsatiladi.
+    Anki 2.1.40 va undan pastki versiyalarda Markdown matn sifatida koʻrsatiladi.
 
 ## Warnings shown to the user
 
@@ -219,12 +239,31 @@ deck-config-daily-limit-will-be-capped =
         [one] Ustdastasini limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
        *[other] Ustdastasini limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
     }
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Agar har kuni { $cards } ta yangi karta qoʻshsangiz, takrorlash limitingiz kamida { $expected } boʻlishi kerak.
+       *[other] Agar har kuni { $cards } ta yangi karta qoʻshsangiz, takrorlash limitingiz kamida { $expected } boʻlishi kerak.
+    }
+deck-config-relearning-steps-above-minimum-interval = Eng kam unutishlar oraligʻi hech boʻlmaganda oxirgi qayta oʻrganish bosqichiga teng boʻlishi kerak.
+deck-config-maximum-answer-secs-above-recommended = Har bir savol qisqa boʻlganda, Anki takrorlashlarni yanada samaraliroq rejalashtira oladi.
+deck-config-too-short-maximum-interval = 6 oydan kam boʻlgan maksimal interval tavsiya etilmaydi.
+deck-config-ignore-before-info = (Taxminan) { $included }/{ $totalCards } kartalar FSRS parametrlarini optimallashtirish uchun ishlatiladi.
 
 ## Selecting a deck
 
+deck-config-which-deck = Qaysi dasta uchun parametrlarni koʻrishni xohlaysiz?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Kartalar yangilanmoqda: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Taqdim etilgan FSRS parametrlar yaroqsiz. Birlamchi parametrlardan foydalanish uchun ularni boʻsh qoldiring.
+deck-config-not-enough-history = Bu amalni bajarish uchun takrorlashlar tarixi yetarli emas.
+deck-config-unable-to-determine-desired-retention = Minimal tavsiya etilgan eslab qolish nisbatini aniqlab boʻlmadi.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Faqat { $count } ta takrorlash topildi. Ushbu amal uchun kamida 400 ta takrorlashga ega boʻlishingiz kerak.
+       *[other] Faqat { $count } ta takrorlash topildi. Ushbu amal uchun kamida 400 ta takrorlashga ega boʻlishingiz kerak.
+    }
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS parametrlari
 deck-config-compute-optimal-weights = FSRS parametrlarini optimallashtirish
@@ -233,8 +272,12 @@ deck-config-optimize-button = Joriy andozani optimallashtirish
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (sekin)
 deck-config-compute-button = Hisoblash
+deck-config-time-to-optimize = Oxirgi optimallashtirishdan beri ancha vaqt oʻtdi - "Barcha andozalarni optimllashtirish" tugmasidan foydalanish tavsiya etiladi.
 deck-config-desired-retention = Siz istagan eslab qolish nisbati
 deck-config-historical-retention = Oldingi eslab qolish nisbati
+deck-config-smaller-is-better = Kichik qiymatlar algoritm sizning takrorlashlar tarixingizga yaxshiroq mos kelganini bildiradi.
+deck-config-steps-too-large-for-fsrs = FSRS yoqilgan boʻlsa, 1 kun yoki undan ortiq bosqichlar tavsiya etilmaydi.
+deck-config-get-params = Parametrlarni olish
 deck-config-predicted-minimum-recommended-retention = Minimal tavsiya etilgan eslab qolish nisbati: { $num }
 deck-config-complete = { $num }% yakunlandi.
 deck-config-iterations = Iteratsiya: { $count }...
