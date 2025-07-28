@@ -282,6 +282,11 @@ deck-config-predicted-minimum-recommended-retention = Minimal tavsiya etilgan es
 deck-config-complete = { $num }% yakunlandi.
 deck-config-iterations = Iteratsiya: { $count }...
 deck-config-reschedule-cards-on-change = Kartalar oʻzgarganda qayta rejalashtirish
+deck-config-desired-retention-tooltip2 = Axborot oynasida koʻrsatilgan ish yuki qiymatlari noaniq taxmindir. Koʻproq aniqlik uchun simulyatordan foydalaning.
+deck-config-reschedule-cards-on-change-tooltip =
+    Butun toʻplamga taʼsir qiladi va saqlanmaydi.
+    
+    Ushbu parametr FSRS yoqilganda yoki parametrlar optimallashtirilganda kartalar muddati oʻzgarishini nazorat qiladi. Birlamchi sifatida kartalar qayta rejalashtirilmaydi: kelajakdagi takrorlashlar yangi rejalashtirishdan foydalanadi, ammo ish yukingiz darhol oʻzgarmaydi. Qayta rejalashtirish yoqilgan boʻlsa, kartalar muddatlari oʻzgaradi.
 deck-config-please-save-your-changes-first = Avval oʻzgartirishlaringizni saqlang.
 deck-config-desired-retention-too-low = Siz istagan eslab qolish nisbati juda past, va juda uzun oraliqlarga olib kelishi mumkin.
 deck-config-percent-input = { $pct }%
@@ -319,3 +324,6 @@ deck-config-wait-for-audio-tooltip = Javobni koʻrsatish yoki keyingi savolga o�
 deck-config-compute-optimal-retention = Minimal tavsiya etilgan eslab qolish nisbatini hisoblash
 deck-config-predicted-optimal-retention = Minimal tavsiya etilgan eslab qolish nisbati: { $num }
 deck-config-seconds-to-show-question-tooltip-2 = Avtomatik ilgarilash yoqilgan boʻlsa, javobni koʻrsatishdan oldin kutish vaqti (soniyalarda). Oʻchirish uchun 0 ga sozlang.
+deck-config-invalid-weights = Birlamchi parametrlardan foydalanish uchun parametrlar boʻsh qolishi yoki vergul bilan ajratilgan 17 raqamdan iborat boʻlishi kerak.
+deck-config-fsrs-on-all-clients = Iltimos, barcha Anki mijozlaringiz Anki(Mobile) 23.10+ yoki AnkiDroid 2.17+ ekanligiga ishonch hosil qiling. Mijozlaringizdan birining versiyasi eskiroq boʻlsa, FSRS toʻgʻri ishlamaydi.
+deck-config-optimize-all-tip = "Saqlash" yonidagi pastga ochiladigan tugmani bosib, barcha andozalarni bir vaqtning oʻzida optimallashtirishingiz mumkin.
