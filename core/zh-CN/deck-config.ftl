@@ -431,7 +431,9 @@ deck-config-desired-retention-below-optimal = 您期望的记忆保留率低于�
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-experimental = FSRS 模拟器（实验性功能）
+deck-config-fsrs-simulator-experimental = FSRS 模拟器（实验性）
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS 期望记忆保留率模拟器（实验性）
+deck-config-fsrs-desired-retention-help-me-decide-experimental = 帮我决定（实验性）
 deck-config-additional-new-cards-to-simulate = 模拟中添加的新卡片数
 deck-config-simulate = 开始模拟
 deck-config-clear-last-simulate = 清除上次模拟
@@ -441,10 +443,14 @@ deck-config-smooth-graph = 平滑图表
 deck-config-suspend-leeches = 暂停记忆难点卡片
 deck-config-save-options-to-preset = 保存更改到预设
 deck-config-save-options-to-preset-confirm = 是否用模拟器中当前设置的选项覆盖当前预设中的选项？
+deck-config-plotted-on-x-axis = （绘制在 X 轴上）
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
-deck-config-fsrs-simulator-radio-memorized = 已记忆
+deck-config-fsrs-simulator-radio-memorized = 已记忆卡片
+deck-config-fsrs-simulator-radio-ratio = 时间/记忆比
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time }每已记忆的卡片
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
