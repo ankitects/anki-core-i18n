@@ -370,6 +370,8 @@ deck-config-desired-retention-below-optimal = ئارزۇيىڭىزدىكى ئە�
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS تەقلىدلىگۈچ (تەجرىبە)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS ئۈمىد قىلغان ئەستە ساقلاش نىسبىتىنى تەقلىدلىگۈچ (تەجرىبە)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = ماڭا ياردەملىشىپ قارار قىلىدۇ (تەجرىبە)
 deck-config-additional-new-cards-to-simulate = تەقلىدلەيدىغان قوشۇمچە يېڭى كارتا سانى
 deck-config-simulate = تەقلىد
 deck-config-clear-last-simulate = ئاخىرقى تەقلىدلەشنى تازىلا
@@ -379,10 +381,14 @@ deck-config-smooth-graph = سىلىق گىرافىك
 deck-config-suspend-leeches = ئۈنۈمسىز كارتىنى ۋاقىتلىق توختىتىدۇ
 deck-config-save-options-to-preset = ئۆزگىرىشنى ئالدىن تەڭشەككە ساقلايدۇ
 deck-config-save-options-to-preset-confirm = تەقلىدلىگۈچتىكى نۆۋەتتىكى تەڭشەكنىڭ تاللانمىسىنى ھازىرقى ئالدىن تەڭشەكتىكى تاللانما بىلەن قاپلىۋېتەمدۇ يوق؟
+deck-config-plotted-on-x-axis = (X ئوقىدا سىزىدۇ)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = ئەستە تۇتقان
+deck-config-fsrs-simulator-radio-ratio = ۋاقىت/ئەستە ساقلاش نىسبىتى
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } ھەر كارتىنى ئەستە ساقلاش
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
