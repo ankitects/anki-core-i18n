@@ -50,29 +50,29 @@ statistics-in-time-span-years =
 statistics-studied-today =
     { $unit ->
         [seconds]
-            Bugun { statistics-cards }
-            { statistics-in-time-span-seconds } oʻrganildi
-            ({ $secs-per-card }sn/karta)
+            Bugun { statistics-in-time-span-seconds }
+            { statistics-cards } oʻrganildi
+            ({ $secs-per-card } s/karta)
         [minutes]
-            Bugun { statistics-cards }
-            { statistics-in-time-span-minutes } oʻrganildi
-            ({ $secs-per-card }sn/karta)
+            Bugun { statistics-in-time-span-minutes }
+            { statistics-cards } oʻrganildi
+            ({ $secs-per-card } s/karta)
         [hours]
-            Bugun { statistics-cards }
-            { statistics-in-time-span-hours } oʻrganildi
-            ({ $secs-per-card }sn/karta)
+            Bugun { statistics-in-time-span-hours }
+            { statistics-cards } oʻrganildi
+            ({ $secs-per-card } s/karta)
         [days]
-            Bugun { statistics-cards }
-            { statistics-in-time-span-days } oʻrganildi
-            ({ $secs-per-card }sn/karta)
+            Bugun { statistics-in-time-span-days }
+            { statistics-cards } oʻrganildi
+            ({ $secs-per-card } s/karta)
         [months]
-            Bugun { statistics-cards }
-            { statistics-in-time-span-months } oʻrganildi
-            ({ $secs-per-card }sn/karta)
+            Bugun { statistics-in-time-span-months }
+            { statistics-cards } oʻrganildi
+            ({ $secs-per-card } s/karta)
        *[years]
-            Bugun { statistics-cards }
-            { statistics-in-time-span-years } oʻrganildi
-            ({ $secs-per-card }sn/karta)
+            Bugun { statistics-in-time-span-years }
+            { statistics-cards } oʻrganildi
+            ({ $secs-per-card } s/karta)
     }
 
 ##
@@ -115,9 +115,9 @@ statistics-counts-relearning-cards = Qayta oʻrganilmoqda
 statistics-counts-title = Kartalar soni
 statistics-counts-separate-suspended-buried-cards = Toʻxtatilgan/koʻmilgan kartalarni ajratish
 
-## Retention rate represents your actual retention rate from past reviews, in
+## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
-## future retention. Retention rate is the percentage of all reviewed cards
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -161,9 +161,12 @@ statistics-range-search = Qidiruv
 statistics-card-ease-title = Karta osonligi
 statistics-card-difficulty-title = Karta qiyinligi
 statistics-card-stability-title = Karta barqarorligi
+statistics-card-stability-subtitle = Xotirlanarlik 90% ga tushadigan kechikish
 statistics-median-stability = Barqarorlik medianasi
+statistics-card-retrievability-title = Karta xotirlanarligi
 statistics-card-ease-subtitle = Osonlik qanchalik past boʻlsa, karta shunchalik tez-tez koʻrinadi.
 statistics-card-difficulty-subtitle2 = Qiyinligi qanchalik baland boʻlsa, barqarorlik shunchalik sekinroq oʻsadi.
+statistics-retrievability-subtitle = Bugun kartani esga olish ehtimoli.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
@@ -174,6 +177,11 @@ statistics-card-difficulty-tooltip =
     { $cards ->
         [one] Qiyinligi { $percent } boʻlgan { $cards } ta karta bor
        *[other] Qiyinligi { $percent } boʻlgan { $cards } ta karta bor
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] Xotirlanarligi { $percent } boʻlgan { $cards } ta karta
+       *[other] Xotirlanarligi { $percent } boʻlgan { $cards } ta karta
     }
 statistics-future-due-subtitle = Kelajakda keladigan takrorlashlar soni.
 statistics-added-title = Qoʻshildi
@@ -244,9 +252,9 @@ statistics-calendar-title = Taqvim
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
-statistics-elapsed-time-seconds = { $amount } sn
+statistics-elapsed-time-seconds = { $amount } s
 statistics-elapsed-time-minutes = { $amount } dq
-statistics-elapsed-time-hours = { $amount } sa
+statistics-elapsed-time-hours = { $amount } soat
 statistics-elapsed-time-days = { $amount } k
 statistics-elapsed-time-months = { $amount } oy
 statistics-elapsed-time-years = { $amount } yil
@@ -288,6 +296,7 @@ statistics-cards-per-day =
     }
 statistics-median-ease = Osonlik medianasi
 statistics-median-difficulty = Qiyinlik medianasi
+statistics-average-retrievability = Oʻrtacha xotirlanarlik
 statistics-save-pdf = PDF saqlash
 statistics-saved = Saqlandi.
 statistics-stats = statistika

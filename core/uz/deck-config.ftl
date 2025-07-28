@@ -137,6 +137,10 @@ deck-config-sort-order-descending-ease = Osonlik kamayib borish tartibi boʻyich
 deck-config-sort-order-ascending-difficulty = Avval oson kartalar
 # Sort the cards by difficulty, in descending order (hardest to easiest).
 deck-config-sort-order-descending-difficulty = Avval qiyin kartalar
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Xotirlanarlik oʻsib borish tartibi boʻyicha
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Xotirlanarlik kamayib borish tartibi boʻyicha
 
 ## Timer section
 
