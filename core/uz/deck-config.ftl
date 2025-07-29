@@ -78,11 +78,26 @@ deck-config-bury-interday-learning-siblings = Aloqador kunlararo oʻrganilayotga
 deck-config-bury-new-tooltip = Bitta qaydning boshqa `yangi` kartalari (masalan, teskari kartalar, aloqador boʻshliqni toʻldirish kartalari) keyingi kunga qoldiriladimi.
 deck-config-bury-review-tooltip = Bitta qaydning boshqa `takrorlash` kartalari keyingi kunga qoldiriladimi.
 deck-config-bury-interday-learning-tooltip = Bitta qaydning boshqa, oraligʻi 1 kundan ortiq boʻlgan, `oʻrganish` kartalari keyingi kunga qoldiriladimi.
+deck-config-bury-priority-tooltip =
+    Anki kartalarni yigʻganda, u birinchi navbatda kunlik kartalarini, soʻngra kunlararo kartalarini, soʻngra takrorlash kartalarini va nihoyat yangi kartalarni toʻplaydi. Bu koʻmish qanday ishlashiga taʼsir qiladi:
+    
+    - Agar sizda barcha koʻmish parametrlari yoqilgan boʻlsa, ushbu roʻyxatda keladigan eng birinchi aloqador karta ko'rsatiladi. Masalan, yangi kartadan koʻra takrorlash kartasi koʻrsatiladi.
+    - Roʻyxatdagi keyingi aloqador kartalar oldingi karta turlarini koʻma olmaydi. Misol uchun, agar yangi kartalarni koʻmishni oʻchirib qoʻysangiz va yangi kartani oʻrgansangiz, u har qanday kunlararo oʻrganish yoki takrorlash kartalarini koʻmmaydi va bir seansda aloqador takrorlash va yangi kartalarni koʻrishingiz mumkin.
 
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = Koʻrsatish tartibi
 deck-config-new-gather-priority = Yangi kartalarni yigʻish tartibi
+deck-config-new-gather-priority-tooltip-2 =
+    `Dasta`: yuqoridan boshlab tartib boʻyicha, har bir ostdastadagi kartalarni yigʻadi. Har bir ostdastadagi kartalar oʻrni oʻsib borish tartibida yigʻiladi. Agar tanlangan dasta kunlik limitiga yetsa, barcha ostdastalar tekshirilmay qolib yigʻish toʻxtatilishi mumkin. Bu tartib katta toʻplamlarda eng tez ishlaydi va yuqoriga yaqinroq boʻlgan dastalarga ustuvorlik berishga imkon beradi.
+    
+    `Oʻrni oʻsib borish tartibi boʻyicha`: kartalar oʻrni oʻsib borish tartibi boʻyicha toʻplanadi (muddati #), bu odatda eng avval qoʻshilgan kartalar.
+    
+    `Oʻrni kamayib borish tartibi boʻyicha`: kartalar oʻrni kamayib borish tartibi boʻyicha toʻplanadi (muddati #), bu odatda eng yanqinda qoʻshilgan kartalar.
+    
+    `Tasodifiy qaydlar`: qaydlarni tasodifiy ravishda tanlaydi, soʻngra barcha kartalarini yigʻadi.
+    
+    "Tasodifiy kartalar": kartalarni tasodifiy tartibda toʻplaydi.
 deck-config-new-card-sort-order = Yangi kartalar saralash tartibi
 deck-config-new-review-priority = Yangi/takrorlash tartibi
 deck-config-interday-step-priority = Kunlararo oʻrganish/takrorlash kartalar tartibi
