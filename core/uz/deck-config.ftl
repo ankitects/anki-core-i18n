@@ -99,9 +99,25 @@ deck-config-new-gather-priority-tooltip-2 =
     
     "Tasodifiy kartalar": kartalarni tasodifiy tartibda toʻplaydi.
 deck-config-new-card-sort-order = Yangi kartalar saralash tartibi
+deck-config-new-card-sort-order-tooltip-2 =
+    `Karta turi, keyin yig'ish tartibi boʻyicha`: karta turi raqami boʻyicha kartalarni koʻrsatadi. Har bir karta turidagi kartalar ular yigʻilgan tartibda koʻrsatiladi. Agar aloqador kartalarni koʻmish funksiyasi oʻchirilgan bo‘lsa, bu barcha old→orqa kartalar orqa→old kartalardan oldin koʻrsatilishini taʼminlaydi. Bu bitta qaydning barcha kartalari, bir-biriga juda yaqin boʻlmagan holda, bir seansda koʻrsatilishi uchun qoʻl keladi.
+    
+    `Yigʻish tartibi`: kartalar qanday yigʻilgan boʻlsa, xuddi shunday tartibda koʻrsatiladi. Agar aloqador kartalarni koʻmish funksiyasi oʻchirilgan boʻlsa, bu odatda barcha qayd kartalari ketma-ket koʻrsatilishiga olib keladi.
+    
+    `Karta turi boʻyicha, soʻng tasodifiy`: kartalar karta turi raqami tartibida koʻrsatiladi. Har bir karta turidagi kartalar tasodifiy tartibda koʻrsatiladi. Agar aloqador kartalar bir-biriga juda yaqin koʻrsatilishini istamasangiz, lekin kartalar tasodifiy tartibda koʻrsatilishini xohlasangiz, bu tartib sizga qoʻl kelishi mumkin.
+    
+    `Tasodify qaydlar, keyin karta turi boʻyicha`: qaydlarni tasodifiy ravishda tanlaydi, soʻngra barcha kartalarini tartibi boʻyicha koʻrsatadi.
+    
+    `Tasodifiy`: kartalarni tasodifiy tartibda koʻrsatadi.
 deck-config-new-review-priority = Yangi/takrorlash tartibi
+deck-config-new-review-priority-tooltip = Takrorlash kartalariga nisbatan yangi kartalar qachon koʻrsatilishi kerak.
 deck-config-interday-step-priority = Kunlararo oʻrganish/takrorlash kartalar tartibi
+deck-config-interday-step-priority-tooltip =
+    Bir kunlik chegarasidan kesib oʻtgan (qayta) oʻrganilayotgan kartalar qachon koʻrsatilishi kerak.
+    
+    Takrorlash limiti har doim birinchi navbatda kunlararo oʻrganish kartalariga, keyin esa takrorlash kartalariga qoʻllaniladi. Ushbu parametr yigʻilgan kartalarning koʻrsatilish tartibini nazorat qiladi, lekin kunlararo oʻrganish kartalari har doim birinchi boʻlib yigʻiladi.
 deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
+deck-config-review-sort-order-tooltip = Birlamchi tartib eng uzoq navbatda turgan kartalarga ustuvorlik beradi, shuning uchun agar sizda yiigʻilib qolgan kartalar boʻlsa, eng uzoq navbatda turgan kartalar birinchi boʻlib koʻrsatiladi. Agar yigʻilib qolgan kartalarga bir necha kundan koʻproq vaqt ketadigan boʻlsa yoki kartalarni ostdasta tartibida koʻrishni istasangiz, muqobil tartiblash uslubi afzalroq boʻlishi mumkin.
 deck-config-display-order-will-use-current-deck = Anki siz oʻrganish uchun tanlagan dastadagi koʻrsatish tartibidan foydalanadi va undagi har qanday ostdastadan emas.
 
 ## Gather order and sort order of cards – Combobox entries
@@ -291,7 +307,9 @@ deck-config-optimize-button = Joriy andozani optimallashtirish
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (sekin)
 deck-config-compute-button = Hisoblash
+deck-config-ignore-before = Shu sanadan oldin takrorlangan kartalar inobatga olinmasin
 deck-config-time-to-optimize = Oxirgi optimallashtirishdan beri ancha vaqt oʻtdi - "Barcha andozalarni optimllashtirish" tugmasidan foydalanish tavsiya etiladi.
+deck-config-evaluate-button = Hisoblash
 deck-config-desired-retention = Siz istagan eslab qolish nisbati
 deck-config-historical-retention = Oldingi eslab qolish nisbati
 deck-config-smaller-is-better = Kichik qiymatlar algoritm sizning takrorlashlar tarixingizga yaxshiroq mos kelganini bildiradi.
@@ -301,11 +319,28 @@ deck-config-predicted-minimum-recommended-retention = Minimal tavsiya etilgan es
 deck-config-complete = { $num }% yakunlandi.
 deck-config-iterations = Iteratsiya: { $count }...
 deck-config-reschedule-cards-on-change = Kartalar oʻzgarganda qayta rejalashtirish
+deck-config-desired-retention-tooltip = Birlamchi sifatida, Anki kartalarni qayta takrorlash uchun kelganda ularni eslab qolish ehtimoli 90% boʻlish maqsadida ularni rejalashtiradi. Agar ushbu qiymatni oshirsangiz, Anki ularni eslab qolish ehtimolini oshirish uchun kartalarni tez-tez koʻrsatadi. Agar qiymatni kamaytirsangiz, Anki kartalarni kamroq koʻrsatadi va siz ularni koʻpini unutasiz. Buni oʻzgartirishda konservativ boʻling - yuqori qiymatlar sizning ish yukingizni sezilarli darajada oshiradi va pastroq qiymatlar koʻp materiallarni unutganingizda tushkunlikka tushurishi mumkin.
 deck-config-desired-retention-tooltip2 = Axborot oynasida koʻrsatilgan ish yuki qiymatlari noaniq taxmindir. Koʻproq aniqlik uchun simulyatordan foydalaning.
+deck-config-historical-retention-tooltip =
+    Takrorlash tarixining bir qismi yoʻq boʻlsa, FSRS shu boʻshliqlarni toʻldirishi kerak. Birlamchi sifatida, siz eski takrorlashlarni qilganingizda, materialning 90 foizini eslab qoldingiz deb hisoblaydi. Agar sizning eski eslab qolish nisbatingiz sezilarli darajada  90% dan yuqori yoki past boʻlsa, ushbu parametrni oʻzgartirish FSRSga yetishmayotgan takrorlashlarni yaxshiroq taxmin qilishga yordam beradi.
+    
+    Takrorlashlar tarixi ikki sababga koʻra toʻliq boʻlmasligi mumkin:
+    1. Chunki siz 'Shu sanadan oldin takrorlangan kartalar inobatga olinmasin' parametrini yoqgansiz.
+    2. Joy boʻshatish uchun oldingi takrorlash jurnallarini oʻchirib tashlagansiz yoki boshqa SRS dasturidan material import qilgansiz.
+    
+    Ikkinchisi juda kam uchraydi, shuning uchun siz birinchi variantni ishlatmasangiz, ehtimol bu variantni sozlashingiz shart emas.
+deck-config-weights-tooltip2 = FSRS parametrlari kartalar qanday rejalashtirilishiga taʼsir qiladi. Anki birlamchi parametrlar bilan boshlaydi. Ushbu andoza qoʻllanilgan dastalarda oʻrganish samaradorligingizga mos kelishi uchun parametrlarni optimallashtirish uchun quyidagi parametrni ishlatishingiz mumkin.
 deck-config-reschedule-cards-on-change-tooltip =
     Butun toʻplamga taʼsir qiladi va saqlanmaydi.
     
     Ushbu parametr FSRS yoqilganda yoki parametrlar optimallashtirilganda kartalar muddati oʻzgarishini nazorat qiladi. Birlamchi sifatida kartalar qayta rejalashtirilmaydi: kelajakdagi takrorlashlar yangi rejalashtirishdan foydalanadi, ammo ish yukingiz darhol oʻzgarmaydi. Qayta rejalashtirish yoqilgan boʻlsa, kartalar muddatlari oʻzgaradi.
+deck-config-reschedule-cards-warning =
+    Siz istagan eslab qolish nisbatingizga qarab, bu koʻp sonli kartalar muddatli boʻlib qolishiga olib kelishi mumkin, shuning uchun SM-2 dan birinchi marotaba oʻtishda tavsiya etilmaydi.
+    
+    Ushbu parametrni kamdan-kam hollarda ishlating, chunki u har bir kartangizga takrorlash yozuvini qoʻshadi va toʻplamingiz hajmini oshiradi.
+deck-config-ignore-before-tooltip-2 =
+    Agar yoqilsa, taqdim etilgan sanadan oldin takrorlangan kartalar FSRS parametrlarini optimallashtirishda eʼtiborga olinmaydi.
+    Agar siz boshqa birovning rejalashtirish maʼlumotlarini import qilgan boʻlsangiz yoki javob tugmalaridan foydalanish uslubingizni oʻzgartirgan boʻlsangiz, bu sizga qoʻl kelishi mumkin.
 deck-config-please-save-your-changes-first = Avval oʻzgartirishlaringizni saqlang.
 deck-config-desired-retention-too-low = Siz istagan eslab qolish nisbati juda past, va juda uzun oraliqlarga olib kelishi mumkin.
 deck-config-percent-input = { $pct }%
