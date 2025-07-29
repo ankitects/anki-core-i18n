@@ -491,6 +491,8 @@ deck-config-desired-retention-below-optimal = La ritenzione desiderata attualmen
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Simulatore FSRS (sperimentale)
+deck-config-fsrs-simulate-desired-retention-experimental = Simulatore di ritenzione desiderata FSRS (sperimentale)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Aiutami a decidere (sperimentale)
 deck-config-additional-new-cards-to-simulate = Ulteriori nuove carte da simulare
 deck-config-simulate = Simula
 deck-config-clear-last-simulate = Rimuovi ultima simulazione
@@ -500,10 +502,14 @@ deck-config-smooth-graph = Grafico smussato
 deck-config-suspend-leeches = Sospendi carte sanguisuga
 deck-config-save-options-to-preset = Applica modifiche alla preimpostazione
 deck-config-save-options-to-preset-confirm = Sovrascrivere le opzioni nella preimpostazione attuale con quelle del simulatore?
+deck-config-plotted-on-x-axis = (rappresentata sull'asse x)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorizzate
+deck-config-fsrs-simulator-radio-ratio = Rapporto tra durata e carte memorizzate
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per carta memorizzata
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -563,6 +569,8 @@ deck-config-compute-optimal-retention-tooltip =
     alla quantità di carte che si sta cercando di imparare. 
     Questo numero può essere utile come riferimento, ma non è consigliato copiarlo nel campo
     Ritenzione desiderata.
+deck-config-health-check-tooltip1 = Questo mostrerà un avviso se FSRS fatica ad adattarsi alla tua memoria.
+deck-config-health-check-tooltip2 = La verifica dell'integrità viene eseguita solo quando si utilizza "Ottimizza".
 deck-config-compute-optimal-retention = Calcola ritenzione ottimale
 deck-config-predicted-optimal-retention = Ritenzione ottimale stimata: { $num }
 deck-config-weights-tooltip =
