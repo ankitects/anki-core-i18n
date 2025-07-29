@@ -24,7 +24,7 @@ deck-config-tab-description =
 deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
 deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，新卡片也會計入複習上限，因此當複習卡達到上限時，新卡片也不會再顯示。啟用此選項後，新卡片將不再計入複習上限。
 deck-config-apply-all-parent-limits = 套用頂層牌組上限
-deck-config-apply-all-parent-limits-tooltip = 根據預設，學習子牌組時將會套用所選牌組設定的上限，而不是上層牌組的上限。啟用此選項後，頂層牌組設定的上限將被套用，這樣可確保你在學習子牌組時不超過總上限。
+deck-config-apply-all-parent-limits-tooltip = 根據預設，學習子牌組時不會套用上層牌組的每日上限。啟用此選項後，Anki 會套用頂層牌組的每日上限，這樣可確保你在學習各子牌組時不超過總上限。
 deck-config-affects-entire-collection = 影響整個集合。
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -303,7 +303,7 @@ deck-config-fsrs-tooltip =
     FSRS（自由間隔重複排程器）可來取代 Anki 原有的 SuperMemo 2 (SM-2) 排程器。FSRS 預估遺忘時間更為精確，幫你節省時間而又不忘內容。所有牌組預設組共用此設定。
     
     若你先前使用了「自訂排程」版本的 FSRS，請在啟用此選項前清空「自訂排程」中的內容。
-deck-config-desired-retention-tooltip = 根據預設，複習卡會在留存機率為 90% 時出現。若增加該值，則卡片出現的頻率將增加，使你更有可能記住卡片內容。若減少該值，則卡片出現的頻率將減少，導致遺忘更多內容。請保守調整該值，數值較高會大大加重你的工作量，數值較低則會導致你遺忘大量內容而洩氣。
+deck-config-desired-retention-tooltip = 根據預設，複習卡會在留存機率為 90% 時出現。若增加該值，則卡片出現的頻率將增加，使你更有可能記住卡片內容。若減少該值，則卡片出現的頻率將減少，導致遺忘更多內容。請保守調整該值，數值較高會大大加重你的工作量；數值較低則會導致你遺忘大量內容，進而影響你的學習動機。
 deck-config-desired-retention-tooltip2 = 資訊框中顯示的工作量數值僅為粗略估算結果。如需更精準的估算值，請使用模擬器。
 deck-config-historical-retention-tooltip =
     如果你的複習歷程有部分遺失，FSRS 需要補齊這些部分。根據預設，FSRS 將假設你在記憶留存機率為 90% 時做出了這些複習。若你先前的留存比率與 90% 相差過多，則可透過調整該選項來使 FSRS 更接近遺失的複習歷程。
@@ -313,7 +313,7 @@ deck-config-historical-retention-tooltip =
     2. 你先前刪除了複習記錄來清理空間，或匯入了另一個間隔重複程式的內容。
     
     後者較為罕見，因此若你未使用前者，則無需調整該設定。
-deck-config-weights-tooltip2 = FSRS 參數會影響卡片排程。一開始 Anki 會先使用預設參數。你可以使用下方的選項來最佳化參數以符合你在使用此預設組的牌組中的學習表現。
+deck-config-weights-tooltip2 = FSRS 參數影響卡片排程。Anki 提供了預設參數。你可以使用下方的選項來最佳化參數，以符合你在使用此預設組的牌組中的學習表現。
 deck-config-reschedule-cards-on-change-tooltip =
     影響整個集合，且不會被儲存。
     
@@ -324,7 +324,7 @@ deck-config-reschedule-cards-warning =
     使用此選項會對每張卡片都加入一條複習記錄，使集合佔用更多空間，因此請勿過度使用。
 deck-config-ignore-before-tooltip-2 = 設定後，最佳化 FSRS 參數時將無視在所選日期前做出複習的卡片。此選項在你匯入了他人的排程資料，或改變了各回答按鈕的用法時，相當實用。
 deck-config-compute-optimal-weights-tooltip2 =
-    按下「最佳化」按鈕後，FSRS 將分析你的複習歷程，並產生對你的記憶和學習內容最佳的參數。如果牌組之間的難度對你差距過大，則建議為各牌組單獨設定預設組，因為難度不同的牌組需要使用不同的參數。參數無需頻繁最佳化，幾個月一次即可。
+    按下「最佳化」按鈕後，FSRS 將分析你的複習歷程，為你的記憶和學習內容產生最佳參數。如果各牌組難度差距過大，則建議為各牌組單獨設定預設組，因為難度不同的牌組需要使用不同的參數。參數無需頻繁最佳化，幾個月一次即可。
     
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。在計算參數前，你可以透過調整搜尋條件來更改要用於最佳化參數的卡片。
 deck-config-compute-optimal-retention-tooltip4 = 此工具將嘗試計算出能讓你在最短時間內學習最多內容的期望留存比率。設定期望留存比率時可參考計算結果。若你不在乎多花時間學習，可以將期望留存比率設定稍高一點來加強記憶。期望留存比率低於最小值會使遺忘率過高，反而導致工作量增加，因此不建議設定過低。
