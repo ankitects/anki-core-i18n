@@ -132,7 +132,7 @@ statistics-true-retention-title = Eslab qolish nisbati
 statistics-true-retention-subtitle = Oraligʻi ≥ 1 kun kartalar oʻtish nisbati.
 statistics-true-retention-tooltip = Agar FSRSdan foydalanayotgan boʻlsangiz, eslab qolish nisbatingiz siz istagan saqlab qolish nisbatiga yaqin boʻlishi kutiladi. Shuni yodda tutingki, bir kunlik maʼlumotlar noaniq, shuning uchun oylik maʼlumotlarni koʻrib chiqganiz yaxshiroq.
 statistics-true-retention-range = Diapazon
-statistics-true-retention-pass = Esda
+statistics-true-retention-pass = Oʻtdi
 statistics-true-retention-fail = Unutildi
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = JamiJami

@@ -16,6 +16,10 @@ deck-config-title = Dasta parametrlari
 ## Daily limits section
 
 deck-config-daily-limits = Kunlik limitlar
+deck-config-new-limit-tooltip =
+    Agar yangi kartalar mavjud boʻlsa, bir kunda joriy qilinadigan yangi kartalarning maksimal soni.
+    Yangi materiallar sizning qisqa muddatli takrorlash ish yukingizni oshirishi sababli bu odatda
+    takrorlash limitidan kamida 10 baravar kichikroq boʻlishi kerak.
 deck-config-review-limit-tooltip =
     Agar kartalar takrorlash uchun tayyor boʻlsa,
     bir kunda koʻrsatiladigan takrorlanadigan kartalarining maksimal soni.
@@ -31,6 +35,9 @@ deck-config-tab-description =
 deck-config-new-cards-ignore-review-limit = Takrorlash limiti yangi kartalar limitiga taʼsir qilmaydi
 deck-config-new-cards-ignore-review-limit-tooltip = Birlamchi sifatida, takrorlash limiti yangi kartalar uchun ham amal qiladi va takrorlash limitiga yetganida yangi kartalar koʻrsatilmaydi. Agar ushbu parametr yoqilgan boʻlsa, takrorlash limitidan qatʼi nazar, yangi kartalar koʻrsatilaveradi.
 deck-config-apply-all-parent-limits = Limitlar yuqoridan boshlanadi
+deck-config-apply-all-parent-limits-tooltip =
+    Birlamchi sifatida, agar ostdastadan oʻrganayotgan boʻlsangiz, uning bosh dasta kunlik limiti ostdastaga qoʻllanilmaydi.
+    Agar ushbu parametr yoqilgan boʻlsa, limitlar bosh dastadan boshlanadi. Bu dasta daraxti uchun umumiy karta limitini qoʻllagan holda xolis ostdastalarni oʻrganmoqchi boʻlsangiz foydali boʻlishi mumkin.
 deck-config-affects-entire-collection = Butun toʻplamga taʼsir qiladi.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -50,6 +57,7 @@ deck-config-learning-steps-tooltip =
     `Yaxshi` tugmasi kartani keyingi bosqichga oʻtkazadi, bu birlamchi sifatida 10 daqiqa.
     Barcha bosqichlar bajarilgandan soʻng, karta takrorlash kartasiga aylanadi va boshqa kunda koʻrsatiladi. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Yakuniy oʻrganish bosqichida `Yaxshi` tugmasi bosilgach, kartani yana koʻrsatishdan oldin kutish kerak boʻlgan kunlar soni.
+deck-config-easy-interval-tooltip = `Oson` tugmasini bosib karta oʻrganishdan olib tashlangandan keyin yana koʻrsatilishidan oldin kutiladigan kunlar soni.
 deck-config-new-insertion-order = Kiritish tartibi
 deck-config-new-insertion-order-tooltip =
     Yangi kartalar qoʻshilganda yangi kartalar oʻrnini (muddati #) belgilaydi.
@@ -279,6 +287,8 @@ deck-config-reviews-too-low =
         [one] Agar har kuni { $cards } ta yangi karta qoʻshsangiz, takrorlash limitingiz kamida { $expected } boʻlishi kerak.
        *[other] Agar har kuni { $cards } ta yangi karta qoʻshsangiz, takrorlash limitingiz kamida { $expected } boʻlishi kerak.
     }
+deck-config-learning-step-above-graduating-interval = Bitiruv oraligʻi kamida oxirgi oʻrganish bosqichiga teng boʻlishi kerak.
+deck-config-good-above-easy = Oson oraliq kamida bitiruv oraligʻiga teng boʻlishi kerak.
 deck-config-relearning-steps-above-minimum-interval = Eng kam unutishlar oraligʻi hech boʻlmaganda oxirgi qayta oʻrganish bosqichiga teng boʻlishi kerak.
 deck-config-maximum-answer-secs-above-recommended = Har bir savol qisqa boʻlganda, Anki takrorlashlarni yanada samaraliroq rejalashtira oladi.
 deck-config-too-short-maximum-interval = 6 oydan kam boʻlgan maksimal interval tavsiya etilmaydi.
@@ -319,6 +329,11 @@ deck-config-predicted-minimum-recommended-retention = Minimal tavsiya etilgan es
 deck-config-complete = { $num }% yakunlandi.
 deck-config-iterations = Iteratsiya: { $count }...
 deck-config-reschedule-cards-on-change = Kartalar oʻzgarganda qayta rejalashtirish
+deck-config-fsrs-tooltip =
+    Butun toʻplamga taʼsir qiladi.
+    
+    Free Spaced Repetition Scheduler (FSRS) Anki eski SuperMemo 2 (SM-2) algoritmiga muqobildir.
+    Kartani unutish ehtimolini aniqroq belgilagash orqali, u oldingi bilan bir xil vaqt ichida koʻproq materialni eslab qolishingizga yordam beradi. Bu sozlama barcha andozalar tomonidan qoʻllaniladi.
 deck-config-desired-retention-tooltip = Birlamchi sifatida, Anki kartalarni qayta takrorlash uchun kelganda ularni eslab qolish ehtimoli 90% boʻlish maqsadida ularni rejalashtiradi. Agar ushbu qiymatni oshirsangiz, Anki ularni eslab qolish ehtimolini oshirish uchun kartalarni tez-tez koʻrsatadi. Agar qiymatni kamaytirsangiz, Anki kartalarni kamroq koʻrsatadi va siz ularni koʻpini unutasiz. Buni oʻzgartirishda konservativ boʻling - yuqori qiymatlar sizning ish yukingizni sezilarli darajada oshiradi va pastroq qiymatlar koʻp materiallarni unutganingizda tushkunlikka tushurishi mumkin.
 deck-config-desired-retention-tooltip2 = Axborot oynasida koʻrsatilgan ish yuki qiymatlari noaniq taxmindir. Koʻproq aniqlik uchun simulyatordan foydalaning.
 deck-config-historical-retention-tooltip =
@@ -398,6 +413,22 @@ deck-config-fsrs-simulator-ratio-tooltip = Har bir kartani yodlashga { $time } s
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Optimallashtirishda sogʻliqni tekshirish
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Sogʻliqni tekshirish:
+    Sizning xotirangizni tahmin qilish FSRS uchun qiyin. Tavsiyalar:
+    
+    - Yopishqoq kartalarni toʻxtatib turish yoki qayta shakllantiring.
+    - Javob tugmalaridan doimiy ravishda bir xil foydalaning. Yodda tutingki, "Qiyin" bu oʻtmaydigan baho emas, balki oʻtadigan bahodir.
+    - Yodlashdan oldin materialni tushunib oling.
+    
+    Agar siz ushbu tavsiyalarga amal qilsangiz, keyingi bir necha oy ichida unumdorligingiz odatda yaxshilanadi.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Sogʻliqni tekshirish:
+    FSRS xotirangizga yaxshi moslasha oladi.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
