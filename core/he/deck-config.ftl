@@ -465,6 +465,8 @@ deck-config-desired-retention-below-optimal = השמירה הרצויה שלך �
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = סימולטור FSRS (ניסיוני)
+deck-config-fsrs-simulate-desired-retention-experimental = סימולטור שימור רצוי של FSRS (ניסיוני)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = עזור לי להחליט (ניסיוני)
 deck-config-additional-new-cards-to-simulate = כרטיסים חדשים נוספים לסימולטור
 deck-config-simulate = צור סימולציה
 deck-config-clear-last-simulate = נקה סימולציה אחרונה
@@ -474,10 +476,14 @@ deck-config-smooth-graph = גרף חלק
 deck-config-suspend-leeches = השהה כרטיסי עלוקה
 deck-config-save-options-to-preset = שמור שינויים בקבוצת הגדרות
 deck-config-save-options-to-preset-confirm = להחליף את האפשרויות בהגדרה הנוכחית שלך עם האפשרויות המוגדרות כעת בסימולטור?
+deck-config-plotted-on-x-axis = (מוצג על ציר ה-X)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = ניתן לשינון
+deck-config-fsrs-simulator-radio-ratio = זמן / יחס שינון
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } לכל כרטיס ששונן
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
