@@ -5,6 +5,7 @@ importing-all-supported-formats = Barcha qoʻllab-quvvatlanadigan formatlar { $v
 importing-allow-html-in-fields = Maydonlarda HTMLʻga ruxsat berish
 importing-anki-files-are-from-a-very = .anki fayllari Anki ning juda eski versiyasidan. Ularni 175027074 kengaytmasi oraqli yoki Anki veb-saytidagi Anki 2.0 bilan import qilishingiz mumkin.
 importing-anki2-files-are-not-directly-importable = .anki2 fayllarini toʻgʻridan-toʻgʻri import qilib boʻlmaydi - oʻrniga siz olgan .apkg yoki .zip faylni import qiling.
+importing-appeared-twice-in-file = Faylda ikki marta koʻrindi: { $val }
 importing-by-default-anki-will-detect-the = Birlamchi sifatida, Anki tab, vergul va shu kabi maydonlarni ajratuvchi belgini aniqlaydi. Agar Anki belgini notoʻgʻri aniqlasa, uni shu yerga kiritishingiz mumkin. Tabni ifodalash uchun \t dan foydalaning.
 importing-cannot-merge-notetypes-of-different-kinds =
     Boʻshliqni toʻldirish qayd turlarini oddiy qayd turlari bilan birlashtirib boʻlmaydi.
@@ -45,6 +46,11 @@ importing-merge-notetypes-help =
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 dasta (*.db)
 importing-multicharacter-separators-are-not-supported-please = Koʻp belgili ajratgichlar qoʻllab-quvvatlanmaydi. Faqat bitta belgi kiriting.
 importing-new-deck-will-be-created = Yangi dasta yaratiladi: { $name }
+importing-notes-added-from-file = Fayldan qoʻshilgan qaydlar: { $val }
+importing-notes-found-in-file = Faylda topilgan qaydlar: { $val }
+importing-notes-skipped-as-theyre-already-in = Qaydlar oʻtkazib yuborildi, chunki toʻplamingizda eng soʻnggi nusxalari allaqachon mavjud: { $val }
+importing-notes-skipped-update-due-to-notetype = Qaydlar yangilanmadi, chunki birinchi marotaba qaydlarni import qilganingizdan keyin qayd turi oʻzgartirilgan: { $val }
+importing-notes-updated-as-file-had-newer = Qaydlar yangilandi, chunki faylda yangi versiyasi mavjud: { $val }
 importing-include-reviews = Takrorlashlarni oʻz ichiga olish
 importing-also-import-progress = Har qanday oʻrganish progressini import qilish
 importing-with-deck-configs = Har qanday dasta andozalarini import qilish
@@ -71,6 +77,7 @@ importing-selected-file-was-not-in-utf8 = Tanlangan fayl UTF-8 formatida emas. Q
 importing-semicolon = Nuqta vergul
 importing-skipped = Oʻtkazib yuborildi
 importing-tab = Tab
+importing-tag-modified-notes = Teg qoʻshilgan qaydlar:
 importing-text-separated-by-tabs-or-semicolons = Tab yoki nuqta vergullar bilan ajratilgan matn (*)
 importing-the-first-field-of-the-note = Qayd turining birinchi maydoni moslashtirilgan boʻlishi kereak.
 importing-the-provided-file-is-not-a = Berilgan file yaroqli .apkg fayl emas.
@@ -136,6 +143,8 @@ importing-update = Yangilash
 importing-tag-all-notes = Barcha qaydlarni teglash
 importing-tag-updated-notes = Yangilangan qaydlarga teg qoʻshish
 importing-file = Fayl
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Moslik doirasi
 # Used with the 'match scope' option
 importing-notetype-and-deck = Qayd turi va dasta
 importing-cards-added =
@@ -215,11 +224,15 @@ importing-existing-notes-help =
 importing-match-scope-help = Faqat bir xil turdagi mavjud qaydlar nusxalar borligi tekshiriladi. Bu, qoʻshimcha ravishda, bitta dastadagi qayd kartalari bilan cheklanishi mumkin.
 importing-tag-all-notes-help = Bu teglar yangi qoʻshilgan va yangilangan qaydlarga qoʻshiladi.
 importing-tag-updated-notes-help = Bu teglar har qanday yangilangan qaydlarga qoʻshiladi.
+importing-overview = Xulosa
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 importing-importing-collection = Toʻplam import qilinmoqda...
 importing-unable-to-import-filename = { $filename } ni import qilib boʻlmadi: file turi qoʻllab-quvvatlanmaydi
+importing-notes-that-could-not-be-imported =
+    Notes that could not be imported as note type has changed: { $val }
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 importing-added = Qoʻshildi
 importing-pauker-18-lesson-paugz = Pauker 1.8 darsi (*.pau.gz)
 importing-supermemo-xml-export-xml = Supermemo XML eksporti (*.xml)

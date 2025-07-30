@@ -375,7 +375,7 @@ deck-config-desired-retention-below-optimal = Siz istagan eslab qolish nisbati o
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
-deck-config-fsrs-simulator-experimental = FSRS simulyatori (tajribaviy)
+deck-config-fsrs-simulator-experimental = FSRS simulyatori (eksperimental)
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS istalgan eslab qolish nisbati simulyatori (eksperimental)
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Qaror qabul qilishga yordam (eksperimental)
 deck-config-additional-new-cards-to-simulate = Simulyatsiya uchun qoʻshimcha yangi kartalar
@@ -386,19 +386,117 @@ deck-config-advanced-settings = Kengaytirilgan sozlamalar
 deck-config-smooth-graph = Tekis grafik
 deck-config-suspend-leeches = Yopishqoqlarni toʻxtatish
 deck-config-save-options-to-preset = Oʻzgarishlarni andozaga saqlash
+deck-config-save-options-to-preset-confirm = Joriy andozadagi parametrlarni simulyatorda oʻrnatilgan parametrlar bilan qayta yozilsinmi?
+deck-config-plotted-on-x-axis = (X oʻqi boʻyicha chizildi)
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Yodlandi
+deck-config-fsrs-simulator-radio-ratio = Vaqt/yodanganlar nisbati
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = Har bir kartani yodlashga { $time } sarflandi
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] 100 kunlik oraliq { $days } kunga aylanadi.
+       *[other] 100 kunlik oraliq { $days } kunga aylanadi.
+    }
+deck-config-fsrs-simulator-y-axis-title-time = Takorlash vaqti/kun
+deck-config-fsrs-simulator-y-axis-title-count = Takrorlashlar soni/kun
+deck-config-fsrs-simulator-y-axis-title-memorized = Jami yodlandi
 deck-config-bury-siblings = Aloqadorlarni koʻmish
 deck-config-do-not-bury = Aloqadorlar koʻmilmasin
 deck-config-bury-if-new = Yangi boʻlsa koʻmilsin
 deck-config-bury-if-new-or-review = Yangi yoki takrorlash boʻlsa koʻmilsin
+deck-config-bury-if-new-review-or-interday = Agar yangi, takrorlash yoki kunlararo oʻrganish boʻlsa koʻmilsin
+deck-config-bury-tooltip =
+    Siblings are other cards from the same note (eg forward/reverse cards, or
+    other cloze deletions from the same text).
+    
+    When this option is off, multiple cards from the same note may be seen on the same
+    day. When enabled, Anki will automatically *bury* siblings, hiding them until the next
+    day. This option allows you to choose which kinds of cards may be buried when you answer
+    one of their siblings.
+    
+    When using the V3 scheduler, interday learning cards can also be buried. Interday
+    
+    
+    learning cards are cards with a current learning step of one or more days.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-seconds-to-show-question-tooltip =
+    When auto advance is activated, the number of seconds to wait before revealing the answer. Set to 0 to disable.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-answer-action-tooltip =
+    The action to perform on the current card before automatically advancing to the next one.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 deck-config-wait-for-audio-tooltip = Javobni koʻrsatish yoki keyingi savolga oʻtishdan oldin audio tugashini kutish.
+deck-config-ignore-before-tooltip =
+    If set, reviews before the provided date will be ignored when optimizing & evaluating FSRS parameters.
+    
+    
+    This can be useful if you imported someone else's scheduling data, or have changed the way you use the answer buttons.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-compute-optimal-retention-tooltip =
+    This tool assumes you're starting with 0 cards, and will attempt to calculate the amount of material you'll
+    be able to retain in the given time frame. The estimated retention will greatly depend on your inputs, and
+    if it significantly differs from 0.9, it's a sign that the time you've allocated each day is either too low
+    or too high for the amount of cards you're trying to learn. This number can be useful as a reference, but it
+    
+    
+    is not recommended to copy it into the desired retention field.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-health-check-tooltip1 =
+    This will show a warning if FSRS struggles to adapt to your memory.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-health-check-tooltip2 =
+    Health check is performed only when using Optimize Current Preset.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 deck-config-compute-optimal-retention = Minimal tavsiya etilgan eslab qolish nisbatini hisoblash
 deck-config-predicted-optimal-retention = Minimal tavsiya etilgan eslab qolish nisbati: { $num }
+deck-config-weights-tooltip =
+    FSRS parameters affect how cards are scheduled. Anki will start with default parameters. Once
+    you've accumulated 1000+ reviews, you can use the option below to optimize the parameters to best
+    
+    
+    match your performance in decks using this preset.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-compute-optimal-weights-tooltip =
+    Once you've done 1000+ reviews in Anki, you can use the Optimize button to analyze your review history,
+    and automatically generate parameters that are optimal for your memory and the content you're studying.
+    If you have decks that vary wildly in difficulty, it is recommended to assign them separate presets, as
+    the parameters for easy decks and hard decks will be different. There is no need to optimize your parameters
+    frequently - once every few months is sufficient.
+    
+    By default, parameters will be calculated from the review history of all decks using the current preset. You can
+    optionally adjust the search before calculating the parameters, if you'd like to alter which cards are used for
+    
+    
+    optimizing the parameters.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-compute-optimal-retention-tooltip2 =
+    This tool assumes that you’re starting with 0 learned cards, and will attempt to find the desired retention
+    value that will lead to the most material learnt, in the least amount of time. This number can be used as a
+    reference when deciding what to set your desired retention to. You may wish to choose a higher desired retention,
+    if you’re willing to trade more study time for a greater recall rate. Setting your desired retention lower than
+    
+    
+    the minimum is not recommended, as it will lead to more work without benefit.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-compute-optimal-retention-tooltip3 =
+    This tool assumes that you’re starting with 0 learned cards, and will attempt to find the desired retention value 
+    that will lead to the most material learnt, in the least amount of time. To accurately simulate your learning process, 
+    this feature requires a minimum of 400+ reviews. The calculated number can serve as a reference when deciding what to 
+    set your desired retention to. You may wish to choose a higher desired retention, if you’re willing to trade more study 
+    time for a greater recall rate. Setting your desired retention lower than the minimum is not recommended, as it will 
+    
+    
+    lead to a higher workload, because of the high forgetting rate.
+    GROUP COMMENT NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 deck-config-seconds-to-show-question-tooltip-2 = Avtomatik ilgarilash yoqilgan boʻlsa, javobni koʻrsatishdan oldin kutish vaqti (soniyalarda). Oʻchirish uchun 0 ga sozlang.
 deck-config-invalid-weights = Birlamchi parametrlardan foydalanish uchun parametrlar boʻsh qolishi yoki vergul bilan ajratilgan 17 raqamdan iborat boʻlishi kerak.
 deck-config-fsrs-on-all-clients = Iltimos, barcha Anki mijozlaringiz Anki(Mobile) 23.10+ yoki AnkiDroid 2.17+ ekanligiga ishonch hosil qiling. Mijozlaringizdan birining versiyasi eskiroq boʻlsa, FSRS toʻgʻri ishlamaydi.

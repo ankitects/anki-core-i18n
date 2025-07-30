@@ -129,6 +129,9 @@ statistics-counts-separate-suspended-buried-cards = Toʻxtatilgan/koʻmilgan kar
 ##      window is certain sizes.
 
 statistics-true-retention-title = Eslab qolish nisbati
+statistics-true-retention-subtitle = Oraligʻi ≥ 1 kun kartalar oʻtish nisbati.
+statistics-true-retention-tooltip = Agar FSRSdan foydalanayotgan boʻlsangiz, eslab qolish nisbatingiz siz istagan saqlab qolish nisbatiga yaqin boʻlishi kutiladi. Shuni yodda tutingki, bir kunlik maʼlumotlar noaniq, shuning uchun oylik maʼlumotlarni koʻrib chiqganiz yaxshiroq.
+statistics-true-retention-range = Diapazon
 statistics-true-retention-pass = Esda
 statistics-true-retention-fail = Unutildi
 # This will usually be the same as statistics-counts-total-cards
@@ -183,6 +186,7 @@ statistics-retrievability-tooltip =
         [one] Xotirlanarligi { $percent } boʻlgan { $cards } ta karta
        *[other] Xotirlanarligi { $percent } boʻlgan { $cards } ta karta
     }
+statistics-future-due-title = Prognoz
 statistics-future-due-subtitle = Kelajakda keladigan takrorlashlar soni.
 statistics-added-title = Qoʻshildi
 statistics-added-subtitle = Siz qoʻshgan yangi kartalar soni
@@ -211,8 +215,15 @@ statistics-days-ago-single =
        *[other] { $days } kun oldin
     }
 statistics-days-ago-range = { $daysStart }-{ $daysEnd } kun oldin
+statistics-running-total = Oʻsuvchi jami
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } ta kartani muddati keladi
+       *[other] { $cards } ta kartani muddati keladi
+    }
 statistics-backlog-checkbox = Yigʻilib qolgan kartalar
 statistics-intervals-title = Takrorlashlar oraligʻi
+statistics-intervals-subtitle = Takrorlash kartalari qayta koʻrsatilgunga qadar kechikishlar.
 statistics-intervals-day-range =
     { $cards ->
         [one] Oraligʻi { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
@@ -242,6 +253,7 @@ statistics-hours-reviews = 📊 { $reviews } ta takrorlash
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% toʻgʻri ({ $reviews })
 statistics-hours-title = Soatlik tahlil
+statistics-hours-subtitle = Kunning har bir soati uchun muvaffaqiyat darajasi.
 # shown when graph is empty
 statistics-no-data = MAʼLUMOT YOʻQ
 statistics-calendar-title = Taqvim
@@ -279,6 +291,7 @@ statistics-due-tomorrow = Ertaga
 statistics-daily-load = Kunlik yuklama
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
+statistics-average-over-period = Har kuni oʻrganganingizda
 statistics-reviews-per-day =
     { $count ->
         [one] { $count } takrorlash/kun
@@ -297,6 +310,7 @@ statistics-cards-per-day =
 statistics-median-ease = Osonlik medianasi
 statistics-median-difficulty = Qiyinlik medianasi
 statistics-average-retrievability = Oʻrtacha xotirlanarlik
+statistics-estimated-total-knowledge = Taxminiy jami bilim hajmi
 statistics-save-pdf = PDF saqlash
 statistics-saved = Saqlandi.
 statistics-stats = statistika
