@@ -297,7 +297,7 @@ deck-config-minimum-interval-tooltip = Minimiintervallet som ges till ett repeti
 deck-config-custom-scheduling = Anpassad schemaläggning
 deck-config-custom-scheduling-tooltip = Påverkar hela samlingen. Använd på egen risk!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Lätta dagar
 deck-config-easy-days-monday = Måndag
@@ -384,6 +384,8 @@ deck-config-weights = FSRS-parametrar
 deck-config-compute-optimal-weights = Optimera FSRS-parametrar
 deck-config-compute-minimum-recommended-retention = Minsta rekommenderad återkallningskvot
 deck-config-optimize-button = Optimera
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (långsam)
 deck-config-compute-button = Beräkna
 deck-config-ignore-before = Ignorera repetitioner innan
 deck-config-time-to-optimize = Det var ett tag sedan - att använda knappen Optimera alla förinställningar rekommenderas.
@@ -410,6 +412,7 @@ deck-config-desired-retention-tooltip =
     och fler av korten kommer att glömmas. Var återhållsam vid justering av denna inställning - högre
     värden kommer öka arbetsbelastningen mycket, och lägre värden kan orsaka missmod när mycket
     information bortglöms.
+deck-config-desired-retention-tooltip2 = Arbetsbelastningen som står i inforutan är en grov uppskattning. För att öka precisionen, var god använd simulatorn.
 deck-config-historical-retention-tooltip =
     När en del av repetitionshistoriken saknas måste FSRS fylla i luckorna. Som standard kommer
     FSRS anta att, när de gamla repetitionerna utfördes, återkallades 90% av korten. Om den gamla
@@ -457,17 +460,20 @@ deck-config-compute-optimal-retention-tooltip4 =
     tiden läggs ned för att uppnå den. Att sätta den önskade återkallningskvoten under minimivärdet
     rekommenderas ej, då det kommer leda till en högre arbetsbelastning på grund av det höga andelen kort som bortglöms.
 deck-config-please-save-your-changes-first = Var god spara dina ändringar först.
-deck-config-a-100-day-interval =
-    { $days ->
-        [one] Ett 100-dagarsintervall kommer bli { $days } dag.
-       *[other] Ett 100-dagarsintervall kommer bli { $days } dagar.
-    }
+deck-config-workload-factor-change =
+    Uppskattad arbetsbelastning: { $factor }x
+    (i jämförelse med den önskade återkallningskvoten på { $previousDR }%)
+deck-config-workload-factor-unchanged = Ju högre värde, desto oftare kommer kort att visas.
+deck-config-desired-retention-too-low = Den önskade återkallningskvoten är mycket låg, vilket kan leda till väldigt långa intervaller.
+deck-config-desired-retention-too-high = Den önskade återkallningskvoten är mycket hög, vilket kan leda till väldigt korta intervaller.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct }% av { $reviews } repetition
        *[other] { $pct }% av { $reviews } repetitioner
     }
 deck-config-percent-input = { $pct } %
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Kollar efter förbättingar...
 deck-config-optimizing-preset = Optimerar förinställning { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = FSRS måste vara aktiverat först.
 deck-config-fsrs-params-optimal = FSRS-parametrarna förefaller redan vara optimala.
@@ -483,6 +489,8 @@ deck-config-desired-retention-below-optimal = Den önskade återkallningskvoten 
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS-simulator (experimentell)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS simulator för önskad återkallningskvot (experimentell)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Hjälpverktyg (experimentell)
 deck-config-additional-new-cards-to-simulate = Ytterligare nya kort att simulera
 deck-config-simulate = Simulera
 deck-config-clear-last-simulate = Rensa senaste simulering
@@ -491,13 +499,42 @@ deck-config-advanced-settings = Avancerade inställningar
 deck-config-smooth-graph = Glatt kurva
 deck-config-suspend-leeches = Lås energislukare
 deck-config-save-options-to-preset = Spara ändringar till förinställning
+deck-config-save-options-to-preset-confirm = Skriva över alternativen i den nuvarande förinställningen med alternativen som är satta i simulatorn?
+deck-config-plotted-on-x-axis = (ritad på X-axeln)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorerade
+deck-config-fsrs-simulator-radio-ratio = Kvot för tidsåtgång per memorerad
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per memorerat kort
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+# Checkbox
+deck-config-health-check = Kontrollera FSRS anpassning till användarens minnesförmåga
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    FSRS-kontroll:
+    Användarens minne är svårförutsägbart. Förslag:
+    
+    - Lås eller omformulera energislukare
+    - Använd svarsknapparna konsekvent. Kom ihåg att "svår" innebär att kortet graderas som avklarat, inte misslyckat.
+    - Förstå innehåller före memorering.
+    
+    Vid efterlevnad av dessa förslag brukar prestandan förbättras över de kommande månaderna.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    FSRS-kontroll:
+    FSRS kan anpassa sig väl till användarens minnesförmåga.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval =
+    { $days ->
+        [one] Ett 100-dagarsintervall kommer bli { $days } dag.
+       *[other] Ett 100-dagarsintervall kommer bli { $days } dagar.
+    }
 deck-config-fsrs-simulator-y-axis-title-time = Repetitionstid/dag
 deck-config-fsrs-simulator-y-axis-title-count = Repetitionsantal/dag
 deck-config-fsrs-simulator-y-axis-title-memorized = Totalt memorerat

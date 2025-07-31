@@ -83,6 +83,17 @@ preferences-ankiweb-intro = AnkiWeb är en gratistjänst som synkroniserar kortl
 preferences-ankihub-intro = AnkiHub tillhandahåller samarbete i kortleksredigering och ytterligare studeringsverktyg. En betald prenumeration krävs för att åtkomma vissa funktioner.
 preferences-third-party-description = Tredjepartstjänster är ej anknutna till eller stödda av Anki. Användning av dessa tjänster kan fordra betalning.
 
+## URL scheme related
+
+preferences-url-schemes = URL-scheman
+preferences-url-scheme-prompt = Tillåt URL-scheman (blankstegsseparerad)
+preferences-url-scheme-warning =
+    Förhindrade försök att öppna `{ $link }`, vilket kan utgöra ett säkerhetsproblem.
+    
+    Ifall du litar på kortleksförfattaren och önskar att fortsätta, kan du lägga till `{ $scheme }` till dina tillåtna URL-scheman.
+preferences-url-scheme-allow-once = Tillåt en gång
+preferences-url-scheme-always-allow = Tillåt alltid
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Grundläggande

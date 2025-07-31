@@ -97,9 +97,9 @@ statistics-counts-relearning-cards = Lär om
 statistics-counts-title = Antal kort
 statistics-counts-separate-suspended-buried-cards = Separera låsta/dolda kort
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -229,6 +229,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Från { $hourStart }.00 till { $hourEnd }.00
 statistics-hours-correct = { $correct }/{ $total } korrekta ({ $percent }%)
+statistics-hours-correct-info = → (inte "Igen")
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } repetitioner
 # the emoji depicts the graph displaying this number

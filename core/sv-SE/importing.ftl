@@ -15,6 +15,7 @@ importing-colon = Kolon
 importing-comma = Kommatecken
 importing-empty-first-field = Tomt första fält: { $val }
 importing-field-separator = Fältseparator
+importing-field-separator-guessed = Fältseparator (gissad)
 importing-field-mapping = Fälthopparning
 importing-field-of-file-is = Fält <b>{ $val }</b> i fil är:
 importing-fields-separated-by = Fält separerade av: { $val }
@@ -44,9 +45,10 @@ importing-merge-notetypes-help =
     Som ett motexempel utgör ändringar på framsidan av en befintlig mall *inte*
     en schemaförändring.
     
-    Varning: Detta kommer kräva en envägssynkronisering, och kan märka befintliga noter som modifierade.
+    Varning: Detta kommer kräva en envägssynkronisering, och kan etikettera befintliga noter som modifierade.
 importing-mnemosyne-20-deck-db = Kortlek för Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatorer med fler än ett tecken stöds inte. Skriv in endast ett tecken.
+importing-new-deck-will-be-created = En ny kortlek kommer skapas: { $name }
 importing-notes-added-from-file = Noter tillagda från filen: { $val }
 importing-notes-found-in-file = Noter hittade i filen: { $val }
 importing-notes-skipped-as-theyre-already-in = Noter hoppades över eftersom aktuella kopior redan finns i samlingen: { $val }
@@ -64,7 +66,6 @@ importing-with-deck-configs-help =
     Om aktiverad kommer eventuella kortleksinställningar som författaren inkluderat också att importeras.
     Annars kommer alla kortlekar att tilldelas standardförinställningen.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketerad Ankikortlek/-samling (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
 # the '|' character
 importing-pipe = Pipa
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -78,9 +79,8 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' hade { $found } fäl
 importing-selected-file-was-not-in-utf8 = Den valda filen var inte i UTF-8-format. Se avsnittet i manualen om att importera.
 importing-semicolon = Semikolon
 importing-skipped = Hoppades över
-importing-supermemo-xml-export-xml = XML-export för Supermemo (*.xml)
 importing-tab = Tabb
-importing-tag-modified-notes = Märk ändrade noter med etikett:
+importing-tag-modified-notes = Etikettera ändrade noter:
 importing-text-separated-by-tabs-or-semicolons = Text separerad med tabbar eller semikolon (*)
 importing-the-first-field-of-the-note = Det första fältet i nottypen måste paras ihop.
 importing-the-provided-file-is-not-a = Den angivna filen är inte en giltig .apkg-fil.
@@ -149,8 +149,8 @@ importing-duplicate = Duplicera
 importing-preserve = Bevara
 # "Existing notes: Update" (verb)
 importing-update = Uppdatera
-importing-tag-all-notes = Märk alla noter med etikett
-importing-tag-updated-notes = Märk uppdaterade noter med etikett
+importing-tag-all-notes = Etikettera alla noter
+importing-tag-updated-notes = Etikettera uppdaterade noter
 importing-file = Fil
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Matchningskontext
@@ -247,3 +247,5 @@ importing-importing-collection = Importerar samling...
 importing-unable-to-import-filename = Kunde inte importera { $filename }: filtyp stöds ej
 importing-notes-that-could-not-be-imported = Noter som inte kunde importeras som nottyp har ändrats: { $val }
 importing-added = Tillagda
+importing-pauker-18-lesson-paugz = Pauker 1.8-lektion (*.pau.gz)
+importing-supermemo-xml-export-xml = XML-export för Supermemo (*.xml)

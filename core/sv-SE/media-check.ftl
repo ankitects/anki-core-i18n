@@ -77,4 +77,4 @@ media-check-check-media-action = Granska media
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = media-saknas
 # add a tag to notes with missing media
-media-check-add-tag = Etikett saknas
+media-check-add-tag = Etikettera saknad

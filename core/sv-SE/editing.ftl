@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Rektangel
 editing-image-occlusion-ellipse-tool = Ellips
 editing-image-occlusion-polygon-tool = Polygon
 editing-image-occlusion-text-tool = Text
+editing-image-occlusion-fill-tool = Fyll med färg
 editing-image-occlusion-toggle-mask-editor = Växla maskeringsredigerare
 editing-image-occlusion-reset = Återställ bildskymning
 editing-image-occlusion-confirm-reset = Är du säker på att du vill återställa denna bildskymning?
