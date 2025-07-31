@@ -255,6 +255,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Od { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } správně ({ $percent }%)
+statistics-hours-correct-info = → (ne „Znovu“)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } opakování
 # the emoji depicts the graph displaying this number
