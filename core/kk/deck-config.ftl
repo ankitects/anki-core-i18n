@@ -19,6 +19,16 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip =
     Күніне көрсетілетін шолу карталарының шектеу саны. 
     (егер карталар дайын болса).
+deck-config-limit-deck-v3 =
+    Егер ішкі колодалары бар колодамен жұмыс істеп жатсаңыз, әр ішкі колодаға қойылған шектеулер сол колодадан алынатын ең көп карточка санын анықтайды.
+    Ал таңдалған негізгі колоданың шектеулері көрсетілетін жалпы карточкалар санын реттейді.
+deck-config-limit-new-bound-by-reviews =
+    Шолу шектеуі жаңа карточкалар шектеуіне әсер етеді.
+    Мысалы, егер шолу шектеуі 200 болып орнатылса және 190 карточка қайталауға дайын тұрса, ең көбі 10 жаңа карточка ғана көрсетіледі.
+    Егер шолу шектеуі толып қалса, жаңа карточкалар мүлде көрсетілмейді.
+deck-config-limit-interday-bound-by-reviews =
+    Шолу шектеуі күнаралық оқу карточкаларына да әсер етеді.
+    Шектеу қолданылғанда, алдымен күнаралық оқу карточкалары алынады, содан кейін шолу карточкалары қосылады.
 deck-config-affects-entire-collection = Бүкіл жинаққа әсер есер етеді.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -45,6 +55,8 @@ deck-config-bury-title = Тығу
 deck-config-bury-new-siblings = Жаңа туыстарын тығу
 deck-config-bury-review-siblings = Шолу туыстарын тығу
 deck-config-bury-interday-learning-siblings = Күнаралық оқу туыстарын тығу
+deck-config-bury-review-tooltip = Сол жазбаға тиесілі басқа `шолу` карточкаларының келесі күнге дейін шегерілу / шегерілмеуі.
+deck-config-bury-interday-learning-tooltip = Сол жазбаға тиесілі, аралығы 1 күннен асатын басқа `оқу` карточкаларының келесі күнге дейін шегерілу / шегерілмеуі.
 
 ## Gather order and sort order of cards
 
@@ -136,7 +148,7 @@ deck-config-advanced-title = Қосымша
 deck-config-custom-scheduling = Өзгертпелі жоспарлау
 deck-config-custom-scheduling-tooltip = Бүкіл жинаққа әсер етеді. Жауапкершілік өзіңізде!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Жеңіл Күндер
 deck-config-easy-days-monday = Дүйсенбі
@@ -198,7 +210,6 @@ deck-config-get-params = Баптауларды Алу
 deck-config-complete = { $num }% аяқталған.
 deck-config-iterations = Итерация: { $count }...
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
-deck-config-a-100-day-interval = 100 күн аралық { $days } күн болады.
 deck-config-percent-of-reviews = { $reviews } шолудың { $pct }%-ы
 deck-config-percent-input = { $pct }%
 deck-config-optimizing-preset = Баптаманы оңтайландыру { $current_count }/{ $total_count }...
@@ -220,8 +231,12 @@ deck-config-save-options-to-preset = Өзгерістерді Баптамаға
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Жатталған
 
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-a-100-day-interval = 100 күн аралық { $days } күн болады.
 deck-config-fsrs-simulator-y-axis-title-time = Review Time/Day
 deck-config-fsrs-simulator-y-axis-title-count = Review Count/Day
 deck-config-fsrs-simulator-y-axis-title-memorized = Memorized Total

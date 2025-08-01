@@ -33,6 +33,7 @@ card-templates-card = { $val } Карта
 card-templates-card-types-for = { $val } үшін Карта Түрлері
 card-templates-cloze = { $val } Саңлақ Толтыру
 card-templates-deck-override = Колоданы Басып Өту...
+card-templates-copy-info = Ақпаратты буферге көшіру
 card-templates-delete-the-as-card-type-and = '{ $template }' карта түрін және оның { $cards } картасын жою?
 card-templates-enter-deck-to-place-new = { $val } карта қосуға колоданы енгізіңіз не бос қалдырыңыз:
 card-templates-enter-new-card-position-1 = Картаның жаңа орнын енгізіңіз (1...{ $val }):
