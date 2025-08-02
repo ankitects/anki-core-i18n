@@ -442,6 +442,7 @@ deck-config-desired-retention-below-optimal = Twoje pożądane zapamiętywanie j
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Symulator FSRS (eksperymentalny)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomóż mi zdecydować (eksperymentalne)
 deck-config-additional-new-cards-to-simulate = Dodatkowe nowe karty do symulacji
 deck-config-simulate = Symulacja
 deck-config-clear-last-simulate = Wyczyść ostatnią symulację
@@ -450,6 +451,7 @@ deck-config-advanced-settings = Ustawienia zaawansowane
 deck-config-smooth-graph = Wygładzony wykres
 deck-config-suspend-leeches = Zawieś fiszki trudne do zapamiętania
 deck-config-save-options-to-preset = Zapisz zmiany w ustawieniach wstępnych
+deck-config-plotted-on-x-axis = (Narysowane na osi X)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.

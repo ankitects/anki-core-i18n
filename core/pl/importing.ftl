@@ -47,6 +47,7 @@ importing-merge-notetypes-help =
     Uwaga: Zmiana ta wymusi synchronizację w jedną stronę i może oznaczyć istniejące notatki jako zmodyfikowane.
 importing-mnemosyne-20-deck-db = Talia Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Wieloznakowe separatory nie są obsługiwane. Wpisz tylko jeden znak.
+importing-new-deck-will-be-created = Zostanie utworzona nowa talia: { $name }
 importing-notes-added-from-file = Notatki dodane z pliku: { $val }
 importing-notes-found-in-file = Notatki znalezione w pliku: { $val }
 importing-notes-skipped-as-theyre-already-in = Notatki pominięte, gdyż są już w kolekcji: { $val }
@@ -65,7 +66,6 @@ importing-with-deck-configs-help =
     Jeśli zostanie włączone, jakiekolwiek opcje talii ustawione przez udostępniającego również zostaną zaimportowane.
     W przeciwnym razie wszystkie talie otrzymają domyślne opcje.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Spakowana kolekcja/talia Anki (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Lekcja Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Kreska pionowa
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -80,7 +80,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }' ma { $found } pól, 
 importing-selected-file-was-not-in-utf8 = Wybrany plik nie używa kodowania UTF-8. Przeczytaj rozdział o imporcie w instrukcji
 importing-semicolon = Średnik
 importing-skipped = Pominięte
-importing-supermemo-xml-export-xml = Eksport XML Supermemo (*.xml)
 importing-tab = Tabulator
 importing-tag-modified-notes = Nadaj tagi zmodyfikowanym notatkom:
 importing-text-separated-by-tabs-or-semicolons = Tekst oddzielony tabulacją lub średnikami (*)
@@ -260,3 +259,5 @@ importing-importing-collection = Import kolekcji...
 importing-unable-to-import-filename = Nie udało się zaimportować { $filename }: ten typ pliku nie jest obsługiwany
 importing-notes-that-could-not-be-imported = Notatki niezaimportowane, gdyż zmienił się typ notatki: { $val }
 importing-added = Dodano
+importing-pauker-18-lesson-paugz = Lekcja Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Eksport XML Supermemo (*.xml)
