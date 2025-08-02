@@ -11,10 +11,10 @@ browsing-average-interval = Vidējais intervāls
 browsing-browser-appearance = Pārlūka izskats
 browsing-browser-options = Pārlūka iespējas
 browsing-buried = Apraktie
-browsing-card = Kartīte
-browsing-cards = Kartītes
-browsing-card-list = Kartīšu saraksts
-browsing-cards-cant-be-manually-moved-into = Kartītes nevar pašrocīgi pārvietot atlasītā kavā.
+browsing-card = Karte
+browsing-cards = Kartes
+browsing-card-list = Karšu saraksts
+browsing-cards-cant-be-manually-moved-into = Kartes nevar manuāli pārvietot filtrētā kavā.
 browsing-cards-deleted =
     { $count ->
         [zero] Izdzēstas { $count } kartītes.
@@ -23,9 +23,9 @@ browsing-cards-deleted =
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
-        [zero] { $count } kartīšu izdzēstas no { $deck_name }.
-        [one] { $count } kartīte izdzēsta no { $deck_name }.
-       *[other] { $count } kartītes izdzēstas no { $deck_name }.
+        [zero] Nav nevienas kartes izdzēstas no { $deck_name }.
+        [one] { $count } karte izdzēsta no { $deck_name }.
+       *[other] { $count } karte izdzēstas no { $deck_name }.
     }
 browsing-change-deck = Mainīt kavu
 browsing-change-deck2 = Mainīt kavu...
@@ -47,7 +47,7 @@ browsing-filtered = (filtrēts)
 browsing-find = <b>Meklēt</b>:
 browsing-find-and-replace = Meklēt un aizstāt
 browsing-find-duplicates = Atrast dublikātus
-browsing-first-card = Pirmā kartīte
+browsing-first-card = Pirmā karte
 browsing-flag = Karogs
 browsing-font = <b>Fonts</b>:
 browsing-font-size = <b>Fonta izmērs</b>:
@@ -55,16 +55,16 @@ browsing-found-as-across-bs = Atrasts { $part } starp { $whole }.
 browsing-ignore-case = Ignorēt gadījumu
 browsing-in = <b></b>:
 browsing-interval = Intervāls
-browsing-last-card = Pēdējā kartīte
+browsing-last-card = Pēdējā karte
 browsing-learning = (mācos)
 browsing-line-size = <b>Līnijas izmērs</b>:
 browsing-manage-note-types = Pārvaldīt piezīmju veidus
-browsing-move-cards = Pārvietot kartītes
-browsing-move-cards-to-deck = Pārvietot kartītes uz kavu:
+browsing-move-cards = Pārvietot kartes
+browsing-move-cards-to-deck = Pārvietot kartes uz kavu:
 browsing-new = (jauns(a))
 browsing-new-note-type = Jauns piezīmes veids:
 browsing-no-flag = Nav karoga
-browsing-no-selection = Nav atlasītas ne kartītes, ne piezīmes.
+browsing-no-selection = Nav atlasītas ne kartes, ne piezīmes.
 browsing-note = Piezīme
 browsing-notes = Piezīmes
 browsing-optional-filter = Papildus filtri:

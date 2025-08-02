@@ -28,5 +28,5 @@ card-template-rendering-no-such-field = Atrasts „{ $found }”, bet nav lauka 
 # are missing.
 card-template-rendering-empty-front = Kartītes priekšpuse ir tukša.
 card-template-rendering-missing-cloze =
-    Kartītē nav atrasta aizpilde { $number }.¶
-    Lūgums vai nu ievietot aizpildes izdzēšanu, vai izmantot kartīšu iztukšošanas rīku.
+    Kārtī nav atrasts atstarpju aizpildīšanas (cloze) ({ $number }) elements.
+    Lūdzu, vai nu pievienojiet atstarpju aizpildīšanas elementu (cloze deletion), vai izmantojiet Tukšo kāršu rīku
