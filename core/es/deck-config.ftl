@@ -307,7 +307,7 @@ deck-config-minimum-interval-tooltip = El intervalo mínimo dado a una tarjeta d
 deck-config-custom-scheduling = Planificación personalizada
 deck-config-custom-scheduling-tooltip = Afecta a toda la colección. ¡Úselo bajo su propio riesgo!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Dias fáciles
 deck-config-easy-days-monday = Lunes
@@ -393,6 +393,8 @@ deck-config-weights = Parámetros FSRS
 deck-config-compute-optimal-weights = Optimizar los parámetros FSRS
 deck-config-compute-minimum-recommended-retention = Retención mínima recomendada
 deck-config-optimize-button = Optimizar
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (lento)
 deck-config-compute-button = Calcular
 deck-config-ignore-before = Ignorar tarjetas repasadas antes de
 deck-config-time-to-optimize = Ha pasado un buen tiempo - usar el botón para optimizar todo es recomendado
@@ -462,15 +464,22 @@ deck-config-desired-retention-below-optimal = Tu retención deseada está por de
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Simulador FSRS (experimental)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Ayúdame a decidir (Experimental)
 deck-config-additional-new-cards-to-simulate = Tarjetas adicionales a simular
 deck-config-simulate = Simular
 deck-config-clear-last-simulate = Borrar la última simulación
 deck-config-fsrs-simulator-radio-count = Repasos
 deck-config-advanced-settings = Ajustes avanzados
+deck-config-save-options-to-preset = Guardar Cambios a el Preajuste
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorizado
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } por carta memorizada
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
