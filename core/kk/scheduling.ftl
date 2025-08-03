@@ -128,4 +128,9 @@ scheduling-set-due-date-done =
         [one] Картаның мерізімін орнату.
        *[other] Карталардың мерізімін орнату.
     }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } карта бағаланды.
+       *[other] { $cards } карта бағаланды.
+    }
 scheduling-forgot-cards = { $cards } картаны қалпына келтіру.

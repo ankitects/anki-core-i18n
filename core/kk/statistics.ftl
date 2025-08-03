@@ -94,6 +94,7 @@ statistics-counts-separate-suspended-buried-cards = Жекеленген кід�
 
 statistics-true-retention-title = Нақты Есте Сақтау
 statistics-true-retention-subtitle = Аралығы  ≥ 1 күн карталар өтімі.
+statistics-true-retention-tooltip = Егер сіз FSRS қолдансаңыз, есте сақталым көрсеткіші күткен мәніңізге жақын болады деп болжанады. Бір күндік деректер дәл болмауы мүмкін, сондықтан айлық деректерге қараған жөн.
 statistics-true-retention-range = Аралық
 statistics-true-retention-pass = Өту
 statistics-true-retention-fail = Қате
@@ -178,6 +179,7 @@ statistics-stability-day-single = Тұрақтылығы { $day } күн { $card
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00 бастап
 statistics-hours-correct = { $correct }/{ $total } дұрыс ({ $percent }%)
+statistics-hours-correct-info = → ('Қайтадан' емес)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } шолу
 # the emoji depicts the graph displaying this number

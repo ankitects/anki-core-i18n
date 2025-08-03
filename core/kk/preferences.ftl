@@ -85,6 +85,14 @@ preferences-third-party-description = Үшінші тарап қызметтер
 
 ## URL scheme related
 
+preferences-url-schemes = URL Сұлбалары
+preferences-url-scheme-prompt = Рұқсат етілген URL сұлбалары (бос орын арқылы):
+preferences-url-scheme-warning =
+    Қауіпсіздікті `{ $link }` сілтемесін ашу әрекеті бұғатталды.
+    
+    Егер сіз колода авторына сенсеңіз және жалғастырғыңыз келсе, `{ $scheme }` сұлбасын рұқсат етілген URL сұлбаларына қосыңыз.
+preferences-url-scheme-allow-once = Бір рет рұқсат беру
+preferences-url-scheme-always-allow = Әрқашан рұқсат беру
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = тіктөртбұрыш
 editing-image-occlusion-ellipse-tool = Эллипс
 editing-image-occlusion-polygon-tool = Көпбұрыш
 editing-image-occlusion-text-tool = Мәтін
+editing-image-occlusion-fill-tool = Түспен толтыру
 editing-image-occlusion-toggle-mask-editor = Перде Редакторын Қосу/Өшіру
 editing-image-occlusion-reset = Кескін Бүркемесін Қалпына Келтіру
 editing-image-occlusion-confirm-reset = Бұл кескін бүркемесін қалпына келтіргіңіз келетініне сенімдісіз бе?
