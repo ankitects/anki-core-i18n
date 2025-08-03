@@ -202,6 +202,8 @@ deck-config-not-enough-history = Бұл әрекетті орындау үшін
 deck-config-weights = FSRS параметрлері
 deck-config-compute-optimal-weights = FSRS параметрлерін оңтайландыру
 deck-config-optimize-button = Осы Баптаманы Оңтайландыру
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = ( $text ) (баяу)
 deck-config-compute-button = Есептеу
 deck-config-ignore-before = Бұрын шолынған карталарды елемеу
 deck-config-evaluate-button = Бағалау

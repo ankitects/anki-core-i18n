@@ -79,9 +79,9 @@ statistics-counts-relearning-cards = Қайталауда
 statistics-counts-title = Карта Саны
 statistics-counts-separate-suspended-buried-cards = Жекеленген кідіртілген/тығылған карталар
 
-## Retention rate represents your actual retention rate from past reviews, in
+## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
-## future retention. Retention rate is the percentage of all reviewed cards
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -128,6 +128,7 @@ statistics-card-ease-title = Карта Жеңілдігі
 statistics-card-difficulty-title = Карта Қиындығы
 statistics-card-stability-title = Карта Тұрақтылығы
 statistics-card-stability-subtitle = Түсірілімі 90%-ға түсетін іркіліс.
+statistics-median-stability = Орташа тұрақтылық
 statistics-card-retrievability-title = Карта Түсірілімі
 statistics-card-ease-subtitle = Жеңілдік неғұрлым төмен, карта соғұрлым жиі кездеседі.
 statistics-card-difficulty-subtitle2 = Қиындық неғұрлым жоғары, тұрақтылық соғұрлым баяу өседі.
@@ -210,6 +211,7 @@ statistics-total = Жалпы
 statistics-days-studied = Оқыған күндер
 statistics-average-answer-time-label = Орташа жауап уақыты
 statistics-average = Орташа
+statistics-median-interval = Орташа аралық
 statistics-due-tomorrow = Ертеңге
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -223,6 +225,8 @@ statistics-average-over-period = Мерізім орташасы
 statistics-reviews-per-day = { $count } шолу/күн
 statistics-minutes-per-day = { $count } шолу/күн
 statistics-cards-per-day = { $count } карта/күн
+statistics-median-ease = Орташа жеңілдік
+statistics-median-difficulty = Орташа қиындық
 statistics-average-retrievability = Орташа түсірілім
 statistics-estimated-total-knowledge = Жалпы білім шамасы
 statistics-save-pdf = PDF сақтау
