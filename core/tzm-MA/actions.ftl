@@ -46,3 +46,5 @@ actions-flag-purple = ⴰⵊⵏⵊⴰⵕⵉ
 ##
 
 actions-set-flag = ⵙⵏⵎⵍ ⴰⵔⵛⵓⵎ
+actions-nothing-to-undo = ⵓⵔ ⵉⵍⵍⵉ ⵎⴰⵢⴷ ⵉⵙⵙⵔⵏ
+actions-nothing-to-redo = ⵓⵔ ⵉⵍⵍⵉ ⵎⴰⵢⴷ ⵉⵙⵙⵔⵏ
