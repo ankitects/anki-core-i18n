@@ -49,4 +49,4 @@ exporting-processed-media-files =
     }
 exporting-include-deck = Вместе с названием колоды
 exporting-include-notetype = Вместе с названием типа записи
-exporting-include-guid = Вместе с уникальным идентификатором
+exporting-include-guid = Вместе с уникальным ID
