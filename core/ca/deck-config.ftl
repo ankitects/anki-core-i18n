@@ -444,6 +444,21 @@ deck-config-fsrs-simulator-radio-memorized = Memoritzades
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Comprova l’estat en optimitzar
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Comprovació de l’estat:
+    Al FSRS li costa predir la vostra memòria. Recomanacions:
+    – Suspengueu o reformuleu les targetes difícils (sangoneres).
+    – Feu servir els botons de resposta de manera coherent (recordeu que «Difícil» compta com a encert).
+    – Entengueu els continguts abans de memoritzar-los.
+    
+    En seguir aquestes recomanacions, el rendiment sol millorar al cap d’uns mesos.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Comprovació de l’estat:
+    el FSRS s’adapta bé a la vostra memòria.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
