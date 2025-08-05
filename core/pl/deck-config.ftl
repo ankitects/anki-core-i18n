@@ -8,7 +8,7 @@
 deck-config-used-by-decks =
     { $decks ->
         [one] używana przez { $decks } talię
-        [few] używajna przez { $decks } talie
+        [few] używana przez { $decks } talie
         [many] używana przez { $decks } talii
        *[other] używana przez { $decks } talii
     }
