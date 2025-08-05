@@ -281,7 +281,7 @@ deck-config-minimum-interval-tooltip = L'interval mínim que s'aplica a una targ
 deck-config-custom-scheduling = Planificació personalitzada
 deck-config-custom-scheduling-tooltip = Atenció: afectarà a tota la col·lecció. Feu-la servir amb precaució!
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-title = Dies fàcils
 deck-config-easy-days-monday = Dilluns
@@ -363,6 +363,8 @@ deck-config-weights = Paràmetres del FSRS
 deck-config-compute-optimal-weights = Optimitza els paràmetres del FSRS
 deck-config-compute-minimum-recommended-retention = Retenció recomanada mínima
 deck-config-optimize-button = Optimitza
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (lent)
 deck-config-compute-button = Calcula
 deck-config-ignore-before = Ignora els repassos abans del
 deck-config-evaluate-button = Avalua
@@ -380,14 +382,17 @@ deck-config-fsrs-tooltip =
     Aquest planificador pot ajudar-vos a recordar més material en el mateix temps, ja que determina amb més precisió quan és probable que us n’oblideu. Totes les baralles prefixades comparteixen aquest paràmetre.
     
     Si heu utilitzat prèviament la versió de programació personalitzada del FSRS, assegureu-vos de buidar la secció de planificació personalitzada abans d’activar aquesta opció.
-deck-config-desired-retention-tooltip = El valor per defecte de 0,9 programarà les targetes perquè tingueu un 90 % de possibilitats de recordar-les quan torneu a repassar-les. Si augmenteu aquest valor, Anki mostrarà les targetes amb més freqüència per augmentar les possibilitats que les recordeu. Si reduïu el valor, Anki mostrarà les targetes amb menys freqüència i n’oblidareu més. Aneu amb compte amb aquest paràmetre, perquè un valor alt augmentarà molt la vostra càrrega de treball i un de molt baix pot fer que oblideu més material, cosa que podria desmotivar-vos.
+deck-config-desired-retention-tooltip = Amb el valor per defecte, 0,9, teniu un 90 % de probabilitat de recordar les targetes quan les repasseu. Si l’augmenteu, Anki us les mostrarà més sovint perquè sigui més probable que les recordeu. Si el reduïu, apareixeran menys sovint i n’oblidareu més. Aneu amb compte: un valor alt augmentarà molt la càrrega d’estudi i un valor baix pot fer que oblideu més contingut i perdeu la motivació.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
+deck-config-workload-factor-unchanged = Com més gran sigui aquest valor, més sovint apareixeran les targetes.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $pct } % de { $reviews } repàs
        *[other] { $pct } % de { $reviews } repassos
     }
 deck-config-percent-input = { $pct } %
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = S’està optimitzant en funció de les millores…
 deck-config-optimizing-preset = S’esta optimitzant la configuració de baralla { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = Primer heu d’activar el FSRS.
 deck-config-fsrs-params-optimal = Sembla que els paràmetres del FSRS són òptims.
@@ -412,6 +417,9 @@ deck-config-save-options-to-preset = Guarda els canvis en la configuració de ba
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memoritzades
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

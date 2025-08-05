@@ -57,4 +57,4 @@ studying-minute =
        *[other] { $count } minuts.
     }
 studying-question-time-elapsed = S’ha esgotat el temps de resposta.
-studying-answer-time-elapsed = El temps de resposta ha acabat.
+studying-answer-time-elapsed = S’ha esgotat el temps de resposta.

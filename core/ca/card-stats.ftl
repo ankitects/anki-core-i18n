@@ -24,6 +24,7 @@ card-stats-review-log-type-relearn = Reaprenentatge
 card-stats-review-log-type-filtered = Filtrades
 card-stats-review-log-type-manual = Manual
 card-stats-review-log-type-rescheduled = Replanificades
+card-stats-review-log-elapsed-time = Temps transcorregut
 card-stats-no-card = (No hi ha cap targeta que es pugui mostrar).
 card-stats-custom-data = Dades personalitzades
 card-stats-fsrs-stability = Estabilitat

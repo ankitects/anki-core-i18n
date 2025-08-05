@@ -76,7 +76,7 @@ preferences-reset-window-sizes = Reestableix la mida de les finestres
 preferences-reset-window-sizes-complete = S’ha reestablert la mida i la posició de les finestres.
 preferences-shortcut-placeholder = Prem una tecla de drecera no utilitzada o deixa l’espai en blanc per a desactivar-la.
 preferences-third-party-services = Serveis de tercers
-preferences-ankihub-not-logged-in = No heu iniciat cap sessió a AnkiHub.
+preferences-ankihub-not-logged-in = No heu iniciat la sessió a AnkiHub.
 
 ## URL scheme related
 
@@ -88,4 +88,4 @@ preferences-url-scheme-always-allow = Permet sempre
 preferences-basic = Bàsica
 preferences-reviewer = Revisor
 preferences-media = Multimèdia
-preferences-not-logged-in = No heu iniciat cap sessió a AnkiWeb.
+preferences-not-logged-in = No heu iniciat la sessió a AnkiWeb.

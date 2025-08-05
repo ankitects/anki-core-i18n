@@ -30,10 +30,11 @@ importing-map-to = Associa a { $val }
 importing-map-to-tags = Associa a les etiquetes
 importing-mapped-to = assignat a <b>{ $val }</b>
 importing-mapped-to-tags = assignat a <b>Etiquetes</b>
-# the action of combining two existing notetypes to create a new one
+# the action of combining two existing note types to create a new one
 importing-merge-notetypes = Fusiona els tipus de nota
 importing-mnemosyne-20-deck-db = Baralla Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Els separadors de més d'un caràcter no son vàlids; introduïu un sol caràcter.
+importing-new-deck-will-be-created = Es crearà una nova baralla: { $name }
 importing-notes-added-from-file = Notes afegides des del fitxer: { $val }
 importing-notes-found-in-file = Notes trobades en el fitxer: { $val }
 importing-notes-skipped-as-theyre-already-in = S’han omès les notes perquè ja n’hi ha versions actualitzades en la col·lecció: { $val }
@@ -47,14 +48,12 @@ importing-with-deck-configs-help =
     Si activeu aquesta opció, s’importaran les configuracions de baralla de la persona que l’ha compartida.
     En cas contrari, s’assignarà la configuració per defecte a totes les baralles.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida d’Anki o col·lecció (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Barra vertical
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tenia { $found } camps, se n'esperaven { $expected }
 importing-selected-file-was-not-in-utf8 = El fitxer seleccionat no està en format UTF-8; llegiu la secció del manual referent a la importació per a més informació.
 importing-semicolon = Punt i coma
 importing-skipped = Omès
-importing-supermemo-xml-export-xml = XML exportat de Supermemo (*.xml)
 importing-tab = Tabulació
 importing-tag-modified-notes = Etiqueta les notes modificades:
 importing-text-separated-by-tabs-or-semicolons = Text separat per tabulacions o punt i coma (*)
@@ -172,12 +171,12 @@ importing-details = Detalls
 importing-status = Estat
 importing-duplicate-note-added = S’ha afegit una nota duplicada.
 importing-added-new-note = S’ha afegit una nota nova.
-importing-existing-note-skipped = S’ha saltat la nota perquè ja n’existeix una còpia actualitzada en la col·lecció.
+importing-existing-note-skipped = S’ha ignorat la nota perquè ja en teniu una còpia actualitzada
 importing-note-skipped-update-due-to-notetype = No s’ha actualitzat la nota perquè el tipus de nota s’ha modificat des de la importació original: { $val }
 importing-note-updated-as-file-had-newer = Nota actualitzada perquè el fitxer contenia una versió més recent: { $val }
-importing-note-skipped-due-to-missing-notetype = S’ha saltat la nota perquè en falta el tipus
-importing-note-skipped-due-to-missing-deck = S’ha saltat la nota perquè en falta la baralla
-importing-note-skipped-due-to-empty-first-field = S’ha saltat la nota perquè el primer camp està buit
+importing-note-skipped-due-to-missing-notetype = S’ha ignorat la nota perquè no té tipus
+importing-note-skipped-due-to-missing-deck = S’ha ignorat la nota perquè no té baralla
+importing-note-skipped-due-to-empty-first-field = S’ha ignorat la nota perquè el primer camp està buit
 importing-field-separator-help =
     Caràcter amb què se separaran els camps del fitxer de text. Podeu utilitzar la previsualització per a comprovar si els camps estan separats correctament.
     
@@ -205,3 +204,5 @@ importing-importing-collection = S'està important la col·lecció…
 importing-unable-to-import-filename = No s'ha pogut importar el fitxer { $filename }. Tipus de fitxer no compatible.
 importing-notes-that-could-not-be-imported = Notes que no s'han pogut importar a causa d'un canvi de tipus de nota: { $val }
 importing-added = S'ha afegit
+importing-pauker-18-lesson-paugz = Lliçó de Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = XML exportat de Supermemo (*.xml)

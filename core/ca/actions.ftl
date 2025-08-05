@@ -50,6 +50,7 @@ actions-select = Selecciona
 actions-shortcut-key = Tecla de drecera: { $val }
 actions-suspend-card = Suspèn la targeta
 actions-set-due-date = Defineix una data de repàs
+actions-toggle-load-balancer = Activa/desactiva el gestor de la càrrega
 actions-grade-now = Avalua ara
 actions-answer-card = Respon la targeta
 actions-unbury-unsuspend = Desenterra/anul·la la suspensió

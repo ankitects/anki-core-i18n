@@ -98,12 +98,12 @@ statistics-counts-buried-cards = Enterrades
 statistics-counts-filtered-cards = Filtrades
 statistics-counts-learning-cards = Aprenent
 statistics-counts-relearning-cards = Reaprenent
-statistics-counts-title = Recompte de targetes
+statistics-counts-title = Totes les targetes
 statistics-counts-separate-suspended-buried-cards = Separa les targetes suspeses/enterrades
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -120,17 +120,22 @@ statistics-true-retention-pass = Aprovades
 statistics-true-retention-fail = Suspeses
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Nombre total de targetes
+statistics-true-retention-count = Total
 statistics-true-retention-retention = Retenció
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Joves
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Madures
+statistics-true-retention-all = Totes
 statistics-true-retention-today = Avui
 statistics-true-retention-yesterday = Ahir
 statistics-true-retention-week = La setmana passada
 statistics-true-retention-month = El mes passat
 statistics-true-retention-year = L’any passat
 statistics-true-retention-all-time = Sempre
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = n/a
 
 ##
 
@@ -224,6 +229,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Des de { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correctes ({ $percent } %)
+statistics-hours-correct-info = → (excepte «De nou»)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } repassos
 # the emoji depicts the graph displaying this number
@@ -288,7 +294,7 @@ statistics-median-difficulty = Dificultat mediana
 statistics-average-retrievability = Recuperabilitat mitjana
 statistics-estimated-total-knowledge = Coneixement total estimat
 statistics-save-pdf = Guarda en PDF
-statistics-saved = Guardat.
+statistics-saved = S’ha guardat.
 statistics-stats = estadístiques
 statistics-title = Estadístiques
 

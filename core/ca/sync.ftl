@@ -42,12 +42,14 @@ sync-account-required =
     Cal que tingueu un compte gratuït per a mantenir la vostra col·lecció actualitzada. <a href="{ $link }">Registreu-vos</a> i inseriu les vostres credencials a sota.
 sync-sanity-check-failed = Feu servir la funció «Verifica la base de dades» i, tot seguit, torneu-la a sincronitzar. Si els problemes persisteixen, forceu la sincronització completa des del menú de preferències.
 sync-clock-off = No s'ha pogut sincronitzar la base de dades. Comproveu que el rellotge del vostre dispositiu mostra l'hora correcta.
+# “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
     El fitxer de col·lecció és massa gran per carregar-lo a AnkiWeb. Podeu reduir-ne la mida 
     treient les baralles que no utilitzeu (si voleu, podeu exportar-les abans) i, tot seguit, fent servir la funció «Verifica la base de dades» per a reduir la mida del fitxer. ({ $details })
 sync-sign-in = Inicia la sessió
 sync-ankihub-dialog-heading = Inicia la sessió a AnkiHub
 sync-ankihub-username-label = Nom d’usuari o adreça electrònica:
+sync-ankihub-login-failed = No s’ha pogut iniciar la sessió a AnkiHub amb les credencials proporcionades.
 sync-ankihub-addon-installation = Instal·lació del complement d’AnkiHub
 
 ## Buttons
