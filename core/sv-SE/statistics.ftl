@@ -48,14 +48,14 @@ statistics-in-time-span-years =
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
 # version unmodified.
 statistics-studied-today =
-    Studerade { statistics-cards } { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    } idag ({ $secs-per-card }s/kort)
+    { $unit ->
+        [seconds] Idag studerades { statistics-cards } { statistics-in-time-span-seconds } ({ $secs-per-card }s/kort)
+        [minutes] Idag studerades { statistics-cards } { statistics-in-time-span-minutes } ({ $secs-per-card }s/kort)
+        [hours] Idag studerades { statistics-cards } { statistics-in-time-span-hours } ({ $secs-per-card }s/kort)
+        [days] Idag studerades { statistics-cards } { statistics-in-time-span-days } ({ $secs-per-card }s/kort)
+        [months] Idag studerades { statistics-cards } { statistics-in-time-span-months } ({ $secs-per-card }s/kort)
+       *[years] Idag studerades { statistics-cards } { statistics-in-time-span-years } ({ $secs-per-card }s/kort)
+    }
 
 ##
 
