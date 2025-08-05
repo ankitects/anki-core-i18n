@@ -27,6 +27,7 @@ actions-export = ⴰⵙⵉⴼⴹ
 actions-empty-cards = ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵉⵅⵡⴰⵏ
 actions-filter = ⵙⵜⵉ
 actions-help = ⴰⵎⴰⵡⴰⵙ
+actions-increment-value = ⵙⵙⵓⵍⵓ ⴰⵜⵉⴳ
 actions-import = ⵙⵙⴽⵛⵎ
 actions-manage = ⵙⵙⵓⴳⵓⵔ...
 actions-name = ⴰⵙⵙⴰⵖ :
@@ -52,7 +53,13 @@ actions-set-due-date = ⴰⵙⵏⵎⵍ ⵏ ⵓⵙⴰⴽⵓⴷ ⵏ ⵓⵣⵎⵣ �
 actions-toggle-load-balancer = ⴰⵙⵎⵓⵜⵜⴳ ⵏ ⵓⵙⵎⵙⴰⵙⴰ ⵏ ⵜⵣⵎⵎⴰⵔ
 actions-grade-now = ⵙⵏⴳⴰⴷⴷⴰ ⴷⵖⵉ
 actions-answer-card = ⵜⴰⵎⵔⴰⵔⵓⵜ
+actions-unbury-unsuspend = ⴽⴽⵙ ⵉⴳⵍ
 actions-add-deck = ⵔⵏⵓ ⵢⴰⵏ ⵓⴽⵍⴽⵉⵎ
+actions-add-note = ⵔⵏⵓ ⵜⵓⵙⵎⵉⵔⵜ
+actions-update-tag = ⵙⵙⵏⴼⵍ ⴰⵙⴽⵏⵍ
+actions-update-note = ⵙⵙⵏⴼⵍ ⵜⵓⵙⵎⵉⵔⵜ
+actions-update-card = ⵙⵙⵏⴼⵍ ⵜⴰⴽⴰⵔⴹⴰ
+actions-update-deck = ⵙⵙⵏⴼⵍ ⴰⴽⵍⴽⵉⵎ
 actions-flag-number = ⴰⵔⵛⵛⵓⵎ { $number }
 
 ## The same translation may used for two independent actions:
