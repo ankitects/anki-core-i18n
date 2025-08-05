@@ -60,6 +60,18 @@ actions-update-tag = ⵙⵙⵏⴼⵍ ⴰⵙⴽⵏⵍ
 actions-update-note = ⵙⵙⵏⴼⵍ ⵜⵓⵙⵎⵉⵔⵜ
 actions-update-card = ⵙⵙⵏⴼⵍ ⵜⴰⴽⴰⵔⴹⴰ
 actions-update-deck = ⵙⵙⵏⴼⵍ ⴰⴽⵍⴽⵉⵎ
+actions-forget-card = ⵙⵙⵓⵖⵓⵍ ⵜⴰⴽⴰⵔⴹⴰ ⵙ ⵓⴷⴷⴰⴷ ⴰⵙⵏⵜⴰⵢ
+actions-build-filtered-deck = ⵙⵙⴽⵔ ⴰⴽⵍⴽⵉⵎ
+actions-add-notetype = ⵔⵏⵓ ⴰⵙⵔⵜⵓ ⵏ ⵜⵓⵙⵎⵉⵔⵜ
+actions-remove-notetype = ⴽⵙⵙ ⴰⵙⵔⵜⵓ ⵏ ⵜⵓⵙⵎⵉⵔⵜ
+actions-update-notetype = ⵙⵙⵏⴼⵍ ⴰⵙⵔⵜⵓ ⵏ ⵜⵓⵙⵎⵉⵔⵜ
+actions-update-config = ⵙⵙⵏⴼⵍ ⴰⵙⵔⵓⵙ
+actions-card-info = ⵜⴰⴽⴰⵔⴹⴰ ⵏ ⵉⵏⵖⵎⵉⵙⵙⵏ
+actions-previous-card-info = ⵉⵏⵖⵎⵉⵙⵏ ⵏ ⵜⴰⴽⴰⵔⴹⴰ ⵉⵣⵔⵉⵏ
+# By convention, the name of a menu action is suffixed with "..." if additional
+# input is required before it can be performed. E.g. "Export..." vs. "Delete".
+actions-with-ellipsis = { $action } ...
+actions-fullscreen-unsupported = ⵓⵔ ⴷⴰ ⵉⵜⵜⵎⵓⵙⵙⵓ ⵓⵏⴰⵔⵓⵣ ⵏ ⵜⵉⵡⵍⴰⴼⵜ ⵜⴰⵡⵍⴰⴼⵜ ⵙ ⵓⵏⵎⵀⴰⵍ ⵏ ⵓⴱⵉⴷⵢⵓ ⵏⵏⴽ. ⵔⵉⵎ ⴰⴷ ⵜⵙⵏⴼⵍⴷ ⵙⴳ ⵜⴰⵡⵍⴰⴼⵜ ⵏ ⵓⵙⵜⴰⵢ.
 actions-flag-number = ⴰⵔⵛⵛⵓⵎ { $number }
 
 ## The same translation may used for two independent actions:
