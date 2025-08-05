@@ -171,7 +171,7 @@ statistics-retrievability-tooltip =
        *[other] { $cards } targetes amb una recuperabilitat del { $percent }
     }
 statistics-future-due-title = Previsió
-statistics-future-due-subtitle = Nombre de repassos futurs programats.
+statistics-future-due-subtitle = Nombre de repassos futurs planificats.
 statistics-added-title = Targetes afegides
 statistics-added-subtitle = Nombre de targetes noves que heu afegit.
 statistics-reviews-count-subtitle = Nombre de preguntes que heu respost.
@@ -264,7 +264,7 @@ statistics-days-studied = Dies que heu estudiat
 statistics-average-answer-time-label = Temps de resposta mitjà
 statistics-average = Mitjana
 statistics-median-interval = Interval medià
-statistics-due-tomorrow = Programades per a demà
+statistics-due-tomorrow = Planificades per a demà
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
 # the future. Unlike the other strings in the table that display actual data 

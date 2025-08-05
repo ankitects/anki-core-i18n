@@ -239,12 +239,16 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Segons abans que es mostri la pregunta
+deck-config-seconds-to-show-question-tooltip-3 = Quan l’avançament automàtic està activat, nombre de segons abans que es dugui a terme l’acció de la pregunta. Escriviu 0 per a desactivar aquesta opció.
 deck-config-seconds-to-show-answer = Segons abans que es mostri la resposta
-deck-config-seconds-to-show-answer-tooltip-2 = Nombre de segons abans que s’apliqui l’acció de resposta quan l’avançament automàtic està activat. Escriviu 0 per a desactivar aquesta opció.
+deck-config-seconds-to-show-answer-tooltip-2 = Quan l’avançament automàtic està activat, nombre de segons abans que es dugui a terme l’acció de la resposta. Escriviu 0 per a desactivar aquesta opció.
 deck-config-question-action-show-answer = Mostra la resposta
 deck-config-question-action-show-reminder = Mostra un recordatori
 deck-config-question-action = Acció de pregunta
+deck-config-question-action-tool-tip = L’acció que es durà a terme després que es mostri la pregunta i s’esgoti el temps.
 deck-config-answer-action = Acció de resposta
+deck-config-answer-action-tooltip-2 = L’acció que es durà a terme després que es mostri la resposta i s’esgoti el temps.
+deck-config-wait-for-audio-tooltip-2 = Espera que el so acabi abans de dur a terme automàticament l’acció de pregunta o resposta.
 
 ## Audio section
 
@@ -279,7 +283,7 @@ deck-config-hard-interval-tooltip = El multiplicador que s'aplica a un interval 
 deck-config-new-interval-tooltip = El multiplicador que s'aplica a un interval de repàs quan premeu `De nou`.
 deck-config-minimum-interval-tooltip = L'interval mínim que s'aplica a una targeta de repàs quan premeu `De nou`.
 deck-config-custom-scheduling = Planificació personalitzada
-deck-config-custom-scheduling-tooltip = Atenció: afectarà a tota la col·lecció. Feu-la servir amb precaució!
+deck-config-custom-scheduling-tooltip = Afecta tota la col·lecció. Feu-la servir sota la vostra responsabilitat!
 
 ## Easy Days section.
 
@@ -294,6 +298,8 @@ deck-config-easy-days-sunday = Diumenge
 deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Reduït
 deck-config-easy-days-minimum = Mínim
+deck-config-easy-days-no-normal-days = Establiu com a mínim un dia en «{ deck-config-easy-days-normal }».
+deck-config-easy-days-change = Els repassos existents no es replanificaran tret que activeu «{ deck-config-reschedule-cards-on-change }» en la configuració del FSRS.
 
 ## Adding/renaming
 
@@ -343,6 +349,8 @@ deck-config-learning-step-above-graduating-interval = L'interval de graduació h
 deck-config-good-above-easy = L'interval per a les targetes fàcils ha de ser almenys tan gran com l'interval de graduació.
 deck-config-relearning-steps-above-minimum-interval = L'interval mínim ha de ser almenys tan gran com l'últim pas de l'etapa de reaprenentatge.
 deck-config-maximum-answer-secs-above-recommended = Anki podrà planificar millor els vostres repassos si feu preguntes breus.
+deck-config-too-short-maximum-interval = Es recomana un interval màxim superior a 6 mesos.
+deck-config-ignore-before-info = S’utilitzaran aproximadament { $included } targetes de { $totalCards } per a optimitzar els paràmetres del FSRS.
 
 ## Selecting a deck
 
@@ -351,6 +359,7 @@ deck-config-which-deck = Quina baralla voleu?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = S’estan actualitzant les targetes: { $current_cards_count } de { $total_cards_count }…
+deck-config-invalid-parameters = Els paràmetres del FSRS proporcionats no són vàlids. Deixeu-los en blanc per a utilitzar els paràmetres per defecte.
 deck-config-not-enough-history = La quantitat de repassos és insuficient per a executar aquesta operació.
 deck-config-unable-to-determine-desired-retention = No s’ha pogut determinar un nivell de retenció òptim.
 deck-config-must-have-400-reviews =
@@ -366,7 +375,8 @@ deck-config-optimize-button = Optimitza
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (lent)
 deck-config-compute-button = Calcula
-deck-config-ignore-before = Ignora els repassos abans del
+deck-config-ignore-before = Ignora les targetes repassades abans del
+deck-config-time-to-optimize = Els paràmetres no s’han optimitzat en molt de temps. Premeu «Optimitza totes les configuracions de baralla».
 deck-config-evaluate-button = Avalua
 deck-config-desired-retention = Retenció desitjada
 deck-config-historical-retention = Retenció històrica
@@ -383,6 +393,20 @@ deck-config-fsrs-tooltip =
     
     Si heu utilitzat prèviament la versió de programació personalitzada del FSRS, assegureu-vos de buidar la secció de planificació personalitzada abans d’activar aquesta opció.
 deck-config-desired-retention-tooltip = Amb el valor per defecte, 0,9, teniu un 90 % de probabilitat de recordar les targetes quan les repasseu. Si l’augmenteu, Anki us les mostrarà més sovint perquè sigui més probable que les recordeu. Si el reduïu, apareixeran menys sovint i n’oblidareu més. Aneu amb compte: un valor alt augmentarà molt la càrrega d’estudi i un valor baix pot fer que oblideu més contingut i perdeu la motivació.
+deck-config-desired-retention-tooltip2 = Els valors de càrrega d’estudi proporcionats són aproximats. Per a una major precisió, feu servir el simulador.
+deck-config-historical-retention-tooltip =
+    Si l’historial de repàs està incomplet, el FSRS ha d’omplir els buits. Per defecte, suposarà que, en aquests repassos, recordàveu el 90 % del contigut. Si la retenció era molt diferent, ajusteu aquest valor perquè el càlcul sigui més precís.
+    
+    L’historial pot estar incomplet perquè:
+    1. feu servir l’opció «Ignora les targetes repassades abans del».
+    2. heu esborrat registres de repàs per a alliberar espai o heu importat material d’un altre programa SRS.
+    
+    El segon cas és poc habitual, així que, treu que feu servir l’opció «Ignora les targetes repassades abans del», no cal que toqueu res.
+deck-config-weights-tooltip2 = Els paràmetres del FSRS determinen la planificació de les targetes. Anki comença amb uns paràmetres per defecte, però podeu utilitzar aquesta opció per a optimitzar-los segons el vostre rendiment en les baralles que utilitzen aquesta configuració.
+deck-config-reschedule-cards-on-change-tooltip =
+    Aquesta opció afecta tota la col·lecció i no es guarda.
+    
+    Permet decidir si les dates de repàs de les targetes canviaran en activar el FSRS o optimitzar els paràmetres. Per defecte, les targetes no es replanificaran: els propers repassos seguiran la nova planificació, però la càrrega d’estudi no canviarà immediatament. Si activeu aquesta opció, les dates de repàs es modificaran.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
 deck-config-workload-factor-unchanged = Com més gran sigui aquest valor, més sovint apareixeran les targetes.
 deck-config-percent-of-reviews =
