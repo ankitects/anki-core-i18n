@@ -29,6 +29,8 @@ deck-config-limit-new-bound-by-reviews =
 deck-config-limit-interday-bound-by-reviews =
     Шолу шектеуі күнаралық оқу карточкаларына да әсер етеді.
     Шектеу қолданылғанда, алдымен күнаралық оқу карточкалары алынады, содан кейін шолу карточкалары қосылады.
+deck-config-new-cards-ignore-review-limit = Шолу шектеуі жаңа карталарға әсер етпейді
+deck-config-apply-all-parent-limits = Шектеулер жоғарыдан басталады
 deck-config-affects-entire-collection = Бүкіл жинаққа әсер есер етеді.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
