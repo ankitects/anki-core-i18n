@@ -43,6 +43,8 @@ deck-config-today-only = Бүгін ғана
 ## New Cards section
 
 deck-config-learning-steps = Оқу қадамдары
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Шегерулер әдетте минутпен (мыс. `1m`) немесе күнмен (мыс. `2d`) беріледі, бірақ сағат (мыс. `1h`) және секунд (мыс. `30s`) та қолдануға болады.
 deck-config-new-insertion-order = Енгізу реті
 deck-config-new-insertion-order-sequential = Реттік (алдымен ескі карталар)
 deck-config-new-insertion-order-random = Кездейсоқ
