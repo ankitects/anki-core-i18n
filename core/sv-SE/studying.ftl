@@ -44,7 +44,7 @@ studying-this-is-a-special-deck-for = Detta är en specialkortlek för att stude
 studying-to-review = Att repetera
 studying-type-answer-unknown-field = Skriv svar: okänt fält { $val }
 studying-unbury = Visa dolda
-studying-what-would-you-like-to-unbury = Vad önskas visas?
+studying-what-would-you-like-to-unbury = Vad vill du visa?
 studying-you-havent-recorded-your-voice-yet = Du har inte spelat in din röst ännu.
 studying-card-studied-in =
     { $count ->

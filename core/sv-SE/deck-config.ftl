@@ -566,6 +566,8 @@ deck-config-compute-optimal-retention-tooltip =
     och om den skiljer sig avsevärt från 0,9 är det ett tecken att tiden allokerad varje dag är för lite eller för mycket
     för den mängd kort som studeras. Detta tal kan tjäna som en referens, men rekommenderas inte att kopieras till
     fältet för önskad återkallningskvot.
+deck-config-health-check-tooltip1 = Detta kommer visa en varning om FSRS misslyckas att anpassa sig till användarens minne.
+deck-config-health-check-tooltip2 = FSRS-kontroll utförs endast vid användning av Optimera denna förinställning.
 deck-config-compute-optimal-retention = Beräkna minsta rekommenderad återkallningskvot
 deck-config-predicted-optimal-retention = Minsta rekommenderad återkallningskvot: { $num }
 deck-config-weights-tooltip =
