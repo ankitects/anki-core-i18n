@@ -7,7 +7,7 @@ exporting-collection = samling
 exporting-collection-exported = Samling exporterad.
 exporting-colpkg-too-new = Var god uppdatera till den senaste Ankiversionen och importera .colpkg/.apkg-filen igen.
 exporting-couldnt-save-file = Kunde inte spara fil: { $val }
-exporting-export = Exportera...
+exporting-export = Exportera
 exporting-export-format = <b>Exportformat</b>:
 exporting-include = <b>Inkludera</b>:
 exporting-include-html-and-media-references = Inkludera HTML- och mediereferenser
@@ -33,11 +33,11 @@ exporting-note-exported =
         [one] { $count } not exporterad.
        *[other] { $count } noter exporterade.
     }
-exporting-exporting-file = Exporterar fil...
+exporting-exporting-file = Exporterar fil ...
 exporting-processed-media-files =
     { $count ->
-        [one] Behandlade { $count } mediafil...
-       *[other] Behandlade { $count } mediafiler...
+        [one] { $count } mediafil bearbetad ...
+       *[other] { $count } mediafiler bearbetade ...
     }
 exporting-include-deck = Inkludera kortleksnamn
 exporting-include-notetype = Inkludera nottypsnamn

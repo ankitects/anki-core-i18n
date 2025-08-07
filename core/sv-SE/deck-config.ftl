@@ -370,7 +370,7 @@ deck-config-which-deck = Vilken kortlek vill du välja?
 
 ## Messages related to the FSRS scheduler
 
-deck-config-updating-cards = Uppdaterar kort: { $current_cards_count }/{ $total_cards_count }...
+deck-config-updating-cards = Uppdaterar kort: { $current_cards_count } av { $total_cards_count } ...
 deck-config-invalid-parameters = De tillhandahållna FSRS-parametrarna är ogiltiga. Lämna dem blanka för att använda standardparametrarna.
 deck-config-not-enough-history = Otillräcklig repetitionshistorik för att utföra denna åtgärd.
 deck-config-unable-to-determine-desired-retention = Misslyckades att bestämma en minsta rekommenderad återkallningskvot.
@@ -397,7 +397,7 @@ deck-config-steps-too-large-for-fsrs = När FSRS är aktiverat avrådes steg st�
 deck-config-get-params = Hämta parametrar
 deck-config-predicted-minimum-recommended-retention = Minsta rekommenderad återkallningskvot: { $num }
 deck-config-complete = { $num } % klart
-deck-config-iterations = Iteration: { $count }...
+deck-config-iterations = Iteration: { $count } ...
 deck-config-reschedule-cards-on-change = Schemalägg kort igen vid ändring
 deck-config-fsrs-tooltip =
     Påverkar hela samlingen.
@@ -473,8 +473,8 @@ deck-config-percent-of-reviews =
     }
 deck-config-percent-input = { $pct } %
 # This message appears during FSRS parameter optimization.
-deck-config-checking-for-improvement = Kollar efter förbättingar...
-deck-config-optimizing-preset = Optimerar förinställning { $current_count }/{ $total_count }...
+deck-config-checking-for-improvement = Granskar för förbätting ...
+deck-config-optimizing-preset = Optimerar förinställning { $current_count } av { $total_count } ...
 deck-config-fsrs-must-be-enabled = FSRS måste vara aktiverat först.
 deck-config-fsrs-params-optimal = FSRS-parametrarna förefaller redan vara optimala.
 deck-config-fsrs-params-no-reviews = Inga repetitioner kunde hittas. Var god kolla att denna förinställning är tilldelad alla kortlekar som önskas optimeras (inklusive underkortlekar) och försök igen.

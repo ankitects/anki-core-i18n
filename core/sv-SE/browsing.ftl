@@ -1,5 +1,5 @@
-browsing-add-notes = Lägg till noter...
-browsing-add-tags2 = Lägg till etiketter...
+browsing-add-notes = Lägg till noter
+browsing-add-tags2 = Lägg till etiketter
 browsing-add-to-selected-notes = Lägg till markerade noter
 browsing-remove-from-selected-notes = Ta bort från markerade noter
 browsing-addon = Tillägg
@@ -17,8 +17,8 @@ browsing-card-list = Kortlista
 browsing-cards-cant-be-manually-moved-into = Kort kan inte flyttas manuellt till en filtrerad kortlek.
 browsing-cards-deleted =
     { $count ->
-        [one] { $count } kort borttaget
-       *[other] { $count } kort borttagna
+        [one] { $count } kort borttaget.
+       *[other] { $count } kort borttagna.
     }
 browsing-cards-deleted-with-deckname =
     { $count ->
@@ -26,10 +26,10 @@ browsing-cards-deleted-with-deckname =
        *[other] { $count } kort borttagna från { $deck_name }.
     }
 browsing-change-deck = Byt kortlek
-browsing-change-deck2 = Byt kortlek...
+browsing-change-deck2 = Byt kortlek
 browsing-change-note-type = Ändra nottyp
 # Action in a context menu (right mouse-click on a card type)
-browsing-change-note-type2 = Ändra nottyp...
+browsing-change-note-type2 = Ändra nottyp
 browsing-change-notetype = Ändra nottyp
 browsing-clear-unused-tags = Rensa oanvända etiketter
 browsing-confirm-saved-search-overwrite = En sparad sökning med namnet { $name } finns redan. Vill du skriva över den?
@@ -56,7 +56,7 @@ browsing-interval = Intervall
 browsing-last-card = Sista kortet
 browsing-learning = (inlärning)
 browsing-line-size = <b>Linjestorlek</b>:
-browsing-manage-note-types = Hantera nottyper...
+browsing-manage-note-types = Hantera nottyper
 browsing-move-cards = Flytta kort
 browsing-move-cards-to-deck = Flytta kort till kortlek:
 browsing-new = (ny)
@@ -75,9 +75,9 @@ browsing-question = Fråga
 browsing-queue-bottom = Köbotten: { $val }
 browsing-queue-top = Kötopp: { $val }
 browsing-randomize-order = Slumpa ordning
-browsing-remove-tags = Ta bort etiketter...
+browsing-remove-tags = Ta bort etiketter
 browsing-replace-with = <b>Ersätt med</b>:
-browsing-reposition = Positionera om...
+browsing-reposition = Positionera om
 browsing-reposition-new-cards = Positionera om nya kort
 browsing-reschedule = Schemalägg igen
 browsing-search-bar-hint = Sök kort/noter (skriv text, sedan tryck Enter)

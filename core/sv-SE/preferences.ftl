@@ -31,7 +31,7 @@ preferences-login-successful-sync-now = Inloggning lyckades. Spara preferenser o
 preferences-timebox-time-limit = Tidsgräns för tidsfönster
 preferences-user-interface-size = Gränssnittsstorlek
 preferences-when-adding-default-to-current-deck = När du lägger till, använd nuvarande kortlek som förval
-preferences-you-can-restore-backups-via-fileswitch = Säkerhetskopior kan återställas via Arkiv>Ändra Profil.
+preferences-you-can-restore-backups-via-fileswitch = Säkerhetskopior kan återställas via Arkiv>Växla profil
 preferences-legacy-timezone-handling = Gammal tidshantering (buggig, men nödvändig för AnkiDroid <= 2.14)
 preferences-default-search-text = Standardsöktext
 preferences-default-search-text-example = t.ex. 'deck:current '
