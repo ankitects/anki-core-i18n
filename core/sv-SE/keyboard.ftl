@@ -1,2 +1,2 @@
 keyboard-ctrl = Ctrl
-keyboard-shift = Shift
+keyboard-shift = Skift
