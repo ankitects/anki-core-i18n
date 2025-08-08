@@ -61,9 +61,9 @@ statistics-counts-relearning-cards = 再習得中
 statistics-counts-title = カード枚数
 statistics-counts-separate-suspended-buried-cards = 休止中のカード・今日は非表示にしたカードも区分する
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -74,7 +74,7 @@ statistics-counts-separate-suspended-buried-cards = 休止中のカード・今�
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
-statistics-true-retention-title = 実際の正答率
+statistics-true-retention-title = 正答率
 statistics-true-retention-subtitle = 間隔が1日以上のカードの、これまでの学習での正答率
 statistics-true-retention-tooltip = FSRSを有効にしている場合、実際の正答率の値は、目標正答率の値に近くなることが期待されます。ただし、単日（「今日」「昨日」）での値は（回答数が比較的少ないため）変動しやすいという点には留意してください。「目標正答率と実際の正答率を比較したい」という場合は、「直近1か月」など、回答数が比較的多い期間での値に注目するほうが有意義でしょう。
 statistics-true-retention-range = 範囲
