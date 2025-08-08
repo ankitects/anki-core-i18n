@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] ئىناۋەتسىز كارتا خاسلىقىدىن { $count } ئوڭشالدى.
        *[other] ئىناۋەتسىز كارتا خاسلىقىدىن { $count } ئوڭشالدى.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] { $count } كارتىغا ئاخىرقى قېتىم تەكشۈرگەن ۋاقىت قوشۇلدى.
+       *[other] { $count } كارتىغا ئاخىرقى قېتىم تەكشۈرگەن ۋاقىت قوشۇلدى.
+    }
 database-check-missing-templates =
     { $count ->
         [one] قېلىپى يوق { $count } كارتا ئۆچۈرۈلدى.
