@@ -176,10 +176,10 @@ browsing-removed-unused-tags-count =
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Местоположение { $count } новой карты изменено.
-        [few] Местоположение { $count } новых карт изменено.
-        [many] Местоположение { $count } новых карт изменено.
-       *[other] Местоположение { $count } новых карт изменено.
+        [one] Позиция { $count } новой карточки изменено.
+        [few] Позиции { $count } новых карточек изменено.
+        [many] Позиции { $count } новых карточек изменено.
+       *[other] Позиции { $count } новых карточек изменено.
     }
 browsing-reparented-decks =
     { $count ->

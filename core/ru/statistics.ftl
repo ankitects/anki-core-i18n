@@ -132,9 +132,9 @@ statistics-counts-relearning-cards = Переучиваемые
 statistics-counts-title = Количество карточек
 statistics-counts-separate-suspended-buried-cards = Отдельные исключённые/отложенные карточки
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -190,10 +190,10 @@ statistics-retrievability-subtitle = Вероятность вспомнить �
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
-        [one] { $cards } карта с { $percent } легкости
-        [few] { $cards } карты с { $percent } легкости
-        [many] { $cards } карт с { $percent } легкости
-       *[other] { $cards } карт с { $percent } легкости
+        [one] { $cards } карточка с { $percent } лёгкости
+        [few] { $cards } карточки с { $percent } лёгкости
+        [many] { $cards } карточек с { $percent } лёгкости
+       *[other] { $cards } карточек с { $percent } лёгкости
     }
 statistics-card-difficulty-tooltip =
     { $cards ->
