@@ -20,7 +20,7 @@ deck-config-title = Параметры колоды
 deck-config-daily-limits = Ежедневный лимит
 deck-config-new-limit-tooltip =
     Максимум новых карточек в день, если они доступны.
-    Поскольку новый материал увеличивает краткосрочную нагрузку на память, это число обычно должно быть в 10 раз меньше лимита просмотров
+    Поскольку новый материал увеличивает краткосрочную учебную нагрузку, это число обычно должно быть в 10 раз меньше лимита повторений.
 deck-config-review-limit-tooltip = Максимум повторяемых карточек в день, если подошёл их срок.
 deck-config-limit-deck-v3 =
     Когда вы учите колоду с подколодами, лимиты каждой подколоды устанавливают максимум карточек, которые будут выбраны из этой подколоды.
@@ -437,7 +437,6 @@ deck-config-smooth-graph = Плавный график
 deck-config-suspend-leeches = Приостановить приставучии
 deck-config-save-options-to-preset = Сохранить изменения в предустановке
 deck-config-save-options-to-preset-confirm = Перезаписать параметры в текущей предустановке параметрами, которые в данный момент установлены в симуляторе?
-deck-config-plotted-on-x-axis = (Отложено по оси X)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -464,6 +463,7 @@ deck-config-fsrs-good-fit = FSRS хорошо адаптирован к ваше
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-plotted-on-x-axis = (Отложено по оси X)
 deck-config-a-100-day-interval =
     { $days ->
         [one] Интервал в 100 дней превратится в { $days } день.
@@ -471,7 +471,7 @@ deck-config-a-100-day-interval =
        *[many] Интервал в 100 дней превратится в { $days } дней.
     }
 deck-config-fsrs-simulator-y-axis-title-time = Повторяли в день
-deck-config-fsrs-simulator-y-axis-title-count = Кол. повторений в день
+deck-config-fsrs-simulator-y-axis-title-count = Повторений в день
 deck-config-fsrs-simulator-y-axis-title-memorized = Всего выучено
 deck-config-bury-siblings = Откладывать связанные
 deck-config-do-not-bury = Не откладывать связанные

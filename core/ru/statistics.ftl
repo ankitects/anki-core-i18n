@@ -130,7 +130,7 @@ statistics-counts-filtered-cards = Отфильтрованные
 statistics-counts-learning-cards = Изучаемые
 statistics-counts-relearning-cards = Переучиваемые
 statistics-counts-title = Количество карточек
-statistics-counts-separate-suspended-buried-cards = Отдельные исключённые/отложенные карточки
+statistics-counts-separate-suspended-buried-cards = Исключённые и отложенные отдельно
 
 ## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
@@ -146,7 +146,7 @@ statistics-counts-separate-suspended-buried-cards = Отдельные искл�
 ##      window is certain sizes.
 
 statistics-true-retention-title = Настоящее усвоение
-statistics-true-retention-subtitle = Процент и число вспомненных карточек с интервалом ≥ 1 день.
+statistics-true-retention-subtitle = Процент правильных карточек с интервалом больше 1 дня.
 statistics-true-retention-tooltip = При использовании FSRS фактический показатель усвоения, скорее всего, будет близок к желаемому показателю усвоения. Данные за один день могут колебаться, поэтому полезнее рассматривать период не менее одного месяца.
 statistics-true-retention-range = Диапазон
 statistics-true-retention-pass = Вспомнено
@@ -181,11 +181,11 @@ statistics-range-search = Поиск
 statistics-card-ease-title = Лёгкость карточек
 statistics-card-difficulty-title = Сложность карточки
 statistics-card-stability-title = Стабильность карточки
-statistics-card-stability-subtitle = Интервал, за который вероятность вспомнить карточку падает до 90%.
+statistics-card-stability-subtitle = Время, за которое вспоминаемость падает до 90%.
 statistics-median-stability = Медиана стабильности
 statistics-card-retrievability-title = Вспоминаемость карточки
 statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карточка.
-statistics-card-difficulty-subtitle2 = Чем выше сложность, тем медленнее будет увеличиваться стабильность.
+statistics-card-difficulty-subtitle2 = Чем выше сложность, тем медленнее растё стабильность.
 statistics-retrievability-subtitle = Вероятность вспомнить карточку сегодня.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -211,7 +211,7 @@ statistics-retrievability-tooltip =
 statistics-future-due-title = Прогноз
 statistics-future-due-subtitle = Число повторяемых в последующие дни.
 statistics-added-title = Добавленные
-statistics-added-subtitle = Количество новых карт, которые вы добавили.
+statistics-added-subtitle = Количество новых карточек.
 statistics-reviews-count-subtitle = Количество вопросов, на которые вы ответили.
 statistics-reviews-time-subtitle = Время, затраченное на ответы
 statistics-answer-buttons-title = Кнопки ответа
@@ -251,7 +251,7 @@ statistics-cards-due =
     }
 statistics-backlog-checkbox = Отставание
 statistics-intervals-title = Интервалы
-statistics-intervals-subtitle = Задержки перед следующим повторением.
+statistics-intervals-subtitle = Время до следующего показа повторяемых.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } карточка с перерывом в { $daysStart }~{ $daysEnd } дней
@@ -287,7 +287,7 @@ statistics-hours-reviews = { $reviews } повторений
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = { $percent }% правильных ({ $reviews })
 statistics-hours-title = По часам
-statistics-hours-subtitle = Доля удачных повторений в определенный час
+statistics-hours-subtitle = Процент правильных ответов в зависимости от времени.
 # shown when graph is empty
 statistics-no-data = Нет данных
 statistics-calendar-title = Календарь
@@ -328,10 +328,10 @@ statistics-amount-of-total-with-percentage = { $amount } из { $total } ({ $per
 statistics-average-over-period = Если бы вы учились каждый день
 statistics-reviews-per-day =
     { $count ->
-        [one] { $count } просмотр за день
-        [few] { $count } просмотра за день
-        [many] { $count } просмотров за день
-       *[other] { $count } просмотров за день
+        [one] { $count } повторение в день
+        [few] { $count } повторения в день
+        [many] { $count } повторений в день
+       *[other] { $count } повторений в день
     }
 statistics-minutes-per-day =
     { $count ->
