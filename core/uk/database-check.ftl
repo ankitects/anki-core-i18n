@@ -7,6 +7,12 @@ database-check-card-properties =
         [many] Виправлено { $count } карток з недійсними властивостями.
        *[other] Виправлено { $count } карток з недійсними властивостями.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Попередній час пригадування додано до { $count } картки.
+        [few] Попередній час пригадування додано до { $count } карток.
+       *[many] Попередній час пригадування додано до { $count } карток.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Вилучено { $count } картку з відсутнім шаблоном.
