@@ -1,6 +1,7 @@
 database-check-corrupt = 集合文件已损坏。请从自动备份中恢复。
 database-check-rebuilt = 已优化重建数据库。
 database-check-card-properties = 已修复 { $count } 条无效的卡片属性。
+database-check-card-last-review-time-empty = 已为 { $count } 张卡片添加最后复习时间。
 database-check-missing-templates = 已删除 { $count } 张缺失内容模板的卡片。
 database-check-field-count =
     { $count ->
