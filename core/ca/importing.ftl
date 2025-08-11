@@ -7,11 +7,15 @@ importing-anki-files-are-from-a-very = Aquests fitxers .anki són d'una versió 
 importing-anki2-files-are-not-directly-importable = Els fitxers .anki2 no es poden importar directament; en el seu lloc, importeu els fitxers .apkg o .zip que heu rebut.
 importing-appeared-twice-in-file = Ha aparegut dues vegades en el fitxer: { $val }
 importing-by-default-anki-will-detect-the = Per defecte, Anki detectarà una tabulació, una coma o similar entre camps. Si Anki reconeix malament aquest caràcter, introduïu-lo ací. Per a representar la tabulació, heu de fer servir \t.
+importing-cannot-merge-notetypes-of-different-kinds =
+    No és possible combinar tipus de nota amb buits amb tipus de nota normals.
+    Podeu importar el fitxer amb l’opció «{ importing-merge-notetypes }» desactivada.
 importing-change = Canvia
 importing-colon = Dos punts
 importing-comma = Coma
 importing-empty-first-field = Primer camp buit: { $val }
-importing-field-separator = Separador de camp
+importing-field-separator = Separador de camps
+importing-field-separator-guessed = Separador de camps (detectat)
 importing-field-mapping = Assignació de camps
 importing-field-of-file-is = El camp <b>{ $val }</b> del fitxer és:
 importing-fields-separated-by = Camps separats per: { $val }
@@ -32,6 +36,13 @@ importing-mapped-to = assignat a <b>{ $val }</b>
 importing-mapped-to-tags = assignat a <b>Etiquetes</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Fusiona els tipus de nota
+importing-merge-notetypes-help =
+    Si activeu aquesta opció i s’ha modificat l’estructura d’un tipus de nota, Anki en fusionarà les dues versions.
+    
+    S’ha modificat l’estructura d’un tipus de nota si s’ha afegit, eliminat o canviat l’ordre de camps o plantilles o si s’ha canviat el camp d’ordenació.
+    Modificar l’anvers d’una plantilla *no* en modifica l’estructura.
+    
+    Avís: haureu de forçar la sincronització i les notes podrien marcar-se com a modificades.
 importing-mnemosyne-20-deck-db = Baralla Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Els separadors de més d'un caràcter no son vàlids; introduïu un sol caràcter.
 importing-new-deck-will-be-created = Es crearà una nova baralla: { $name }
@@ -44,12 +55,22 @@ importing-include-reviews = Inclou els repassos
 importing-also-import-progress = Importa també qualsevol procés d’aprenentatge
 importing-with-deck-configs = Importa les configuracions de baralla
 importing-updates = Actualitzacions
+importing-include-reviews-help =
+    Si activeu aquesta opció, s’importaran els repassos del creador de la baralla.
+    En cas contrari, totes les targetes s’importaran com a noves i s’eliminaran les etiquetes «leech» i «marked».
 importing-with-deck-configs-help =
     Si activeu aquesta opció, s’importaran les configuracions de baralla de la persona que l’ha compartida.
     En cas contrari, s’assignarà la configuració per defecte a totes les baralles.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Baralla comprimida d’Anki o col·lecció (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Barra vertical
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Només es mostra la primera columna. Si no és correcte, canvieu el separador de camps.
+       *[other] Només es mostren les primeres { $count } columnes. Si no és correcte, canvieu el separador de camps.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' tenia { $found } camps, se n'esperaven { $expected }
 importing-selected-file-was-not-in-utf8 = El fitxer seleccionat no està en format UTF-8; llegiu la secció del manual referent a la importació per a més informació.
 importing-semicolon = Punt i coma
@@ -69,7 +90,11 @@ importing-update-if-newer = Si són més noves
 importing-update-always = Sempre
 importing-update-never = Mai
 importing-update-notes = Actualitza les notes
+importing-update-notes-help = Quan s’actualitzaran les notes de la col·lecció. Per defecte, només s’actualitzaran si les notes importades coincidents s’han modificat més recentment.
 importing-update-notetypes = Actualtza els tipus de nota
+importing-update-notetypes-help =
+    Quan s’actualitzaran els tipus de nota de la col·lecció. Per defecte, només s’actualitzaran si els tipus de nota importats coincidents s’han modificat més recentment.
+    Els canvis en el text i l’estil de les plantilles sempre es poden importar. Per a actualitzar els canvis d’estructura (per exemple, si s’ha modificat la quantitat o l’ordre dels camps), activeu l’opció «{ importing-merge-notetypes }».
 importing-note-added =
     { $count ->
         [one] S'ha afegit una nota
@@ -173,14 +198,17 @@ importing-duplicate-note-added = S’ha afegit una nota duplicada.
 importing-added-new-note = S’ha afegit una nota nova.
 importing-existing-note-skipped = S’ha ignorat la nota perquè ja en teniu una còpia actualitzada
 importing-note-skipped-update-due-to-notetype = No s’ha actualitzat la nota perquè el tipus de nota s’ha modificat des de la importació original: { $val }
+importing-note-skipped-update-due-to-notetype2 = No s’ha actualitzat la nota perquè el tipus de nota s’ha modificat des que la vau importar i no heu activat «{ importing-merge-notetypes }».
 importing-note-updated-as-file-had-newer = Nota actualitzada perquè el fitxer contenia una versió més recent: { $val }
 importing-note-skipped-due-to-missing-notetype = S’ha ignorat la nota perquè no té tipus
 importing-note-skipped-due-to-missing-deck = S’ha ignorat la nota perquè no té baralla
 importing-note-skipped-due-to-empty-first-field = S’ha ignorat la nota perquè el primer camp està buit
 importing-field-separator-help =
-    Caràcter amb què se separaran els camps del fitxer de text. Podeu utilitzar la previsualització per a comprovar si els camps estan separats correctament.
+    Caràcter amb què se separaran els camps del fitxer de text. Podeu fer servir la previsualització per a comprovar que els camps estiguin ben separats.
     
-    Tingueu en compte que si aquest caràcter apareix en qualsevol camp, aquest haurà d’estar formatat d’acord amb l’estàndard CSV. Els programes de full de càlcul com el LibreOffice ho fan automàticament.
+    Tingueu en compte que, si aquest caràcter apareix en un camp, aquest haurà de seguir l’estàndard CSV. Els programes de càlcul, com LibreOffice, ho fan automàticament.
+    
+    Aquest caràcter no es pot canviar si el fitxer de text obliga a utilitzar un separador mitjançant una capçalera. Si no hi ha capçalera, Anki intentarà detectar el separador.
 importing-allow-html-in-fields-help = Activeu aquesta opció si el fitxer conté text en format HTML. Així, per exemple, la cadena ‘&lt;br&gt;’ apareixerà com a salt de línia en la targeta. Si desactiveu aquesta opció, es mostraran els caràcters ‘&lt;br&gt;’.
 importing-notetype-help =
     Les notes recentment importades tindran aquest tipus de nota, i només s’actualitzaran les notes existents que tinguin aquest tipus de nota.

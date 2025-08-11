@@ -77,6 +77,7 @@ preferences-reset-window-sizes-complete = S’ha reestablert la mida i la posici
 preferences-shortcut-placeholder = Prem una tecla de drecera no utilitzada o deixa l’espai en blanc per a desactivar-la.
 preferences-third-party-services = Serveis de tercers
 preferences-ankihub-not-logged-in = No heu iniciat la sessió a AnkiHub.
+preferences-ankiweb-intro = AnkiWeb és un servei gratuït que us permet sincronitzar les targetes en tots els dispositius i recuperar les dades si el dispositiu es malmet o es perd.
 
 ## URL scheme related
 

@@ -312,9 +312,8 @@ deck-config-clone-group = Duplica la configuració
 
 deck-config-remove-group = Suprimeix la configuració
 deck-config-will-require-full-sync =
-    Les modificacions que heu fet requereixen una sincronització unidireccional.
-    Abans de continuar, sincronitzeu els canvis que hàgiu fet en un altre dispositiu
-    si encara no els heu sincronitzats amb aquest dispositiu.
+    Aquestes modificacions requereixen forçar la sincronització.
+    Abans de continuar, sincronitzeu els canvis fets en altres dispositius si encara no els heu sincronitzats amb aquest.
 deck-config-confirm-remove-name = Voleu eliminar { $name }?
 
 ## Other Buttons
@@ -380,7 +379,7 @@ deck-config-time-to-optimize = Els paràmetres no s’han optimitzat en molt de 
 deck-config-evaluate-button = Avalua
 deck-config-desired-retention = Retenció desitjada
 deck-config-historical-retention = Retenció històrica
-deck-config-smaller-is-better = Uns nombres menors indiquen un millor ajustament al vostre historial de repassos.
+deck-config-smaller-is-better = Uns nombres més baixos indiquen un millor ajustament al vostre historial de repàs.
 deck-config-steps-too-large-for-fsrs = Quan el FSRS està activat, no és recomanable que feu servir passos d’aprenentatge de més d’un dia.
 deck-config-get-params = Obtén els paràmetres
 deck-config-predicted-minimum-recommended-retention = Retenció recomanada mínima: { $num }
@@ -415,6 +414,14 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip-2 =
     Si activeu aquesta opció, les targetes repassades abans de la data indicada s’ignoraran en optimitzar els paràmetres de l’FSRS.
     Aquesta opció pot ser útil si heu importat la programació d’una altra persona o heu canviat la manera d’utilitzar els botons de resposta.
+deck-config-compute-optimal-weights-tooltip2 =
+    Quan premeu «Optimitza», l’FSRS analitzarà l’historial de repàs i generarà paràmetres òptims segons la vostra memòria i el contingut que estudieu. Si les baralles tenen una dificultat subjectiva molt diferent, es recomana assignar-los configuracions diferents, ja que els paràmetres per a baralles fàcils i difícils variaran. No cal optimitzar els paràmetres sovint: una vegada cada pocs mesos és suficient.
+    
+    Per defecte, els paràmetres es calcularan segons l’historial de repàs de totes les baralles que utilitzen aquesta configuració. Opcionalment, podeu ajustar la cerca abans de calcular-los si voleu canviar quines targetes s’utilitzaran per a l’optimització.
+deck-config-compute-optimal-retention-tooltip4 =
+    Aquesta opció intentarà trobar el valor de retenció desitjada perquè aprengueu més contingut en menys temps. Aquesta xifra pot servir-vos de referència per a decidir la retenció desitjada.
+    
+    És possible que preferiu un valor de retenció desitjada més alt si esteu disposats a dedicar-hi més temps. No es recomana fixar la retenció per sota del mínim, ja que oblidareu més contingut i augmentarà la càrrega d’estudi.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
 deck-config-workload-factor-change =
     Càrrega d’estudi aproximada: { $factor }x
@@ -461,6 +468,8 @@ deck-config-save-options-to-preset-confirm = Voleu substituir les opcions d’aq
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memoritzades
 deck-config-fsrs-simulator-radio-ratio = Relació entre temps i targetes memoritzades
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per targeta memoritzada
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 

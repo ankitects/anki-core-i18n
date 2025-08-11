@@ -28,19 +28,19 @@ sync-must-wait-for-end = Anki s'està sincronitzant ara mateix. Espereu que es c
 sync-confirm-empty-download = La col·lecció local no conté cap targeta. Voleu descarregar-ne des d’AnkiWeb?
 sync-confirm-empty-upload = La col·lecció d’AnkiWeb està buida. Voleu substituir-la per la col·lecció local?
 sync-conflict-explanation =
-    Les baralles locals i les d’AnkiWeb no coincideixen, de manera que no és possible combinar-les. Per tant, cal sobreescriure un dels dos grups de baralles amb els de l’altre.
+    Les baralles d’aquest dispositiu i les d’AnkiWeb són diferents i no es poden combinar. Cal substituir les baralles d’una ubicació per les de l’altra.
     
-    Si seleccioneu «Descarrega», Anki descarregarà la col·lecció des d’AnkiWeb i perdreu qualsevol canvi que hàgiu fet en el vostre ordinador des de l’última sincronització.
+    Si premeu «Descarrega», Anki baixarà la col·lecció d’AnkiWeb i perdreu tots els canvis fets en aquest dispositiu des de l’última sincronització.
     
-    Si seleccioneu «Carrega», Anki carregarà la vostra col·lecció a AnkiWeb i perdreu qualsevol canvi que hàgiu fet en AnkiWeb o en qualsevol altre dispositiu des de l’última sincronització.
+    Si premeu «Carrega», Anki pujarà la col·lecció a AnkiWeb i perdreu tots els canvis fets en AnkiWeb o en altres dispositiu des de l’última sincronització.
     
-    Després de sincronitzar tots els dispositius, podreu combinar automàticament tots els repassos futurs i les targetes afegides.
+    Quan tots els dispositius estiguin sincronitzats, els repassos futurs i les targetes noves es combinaran automàticament.
 sync-ankiweb-id-label = Identificador d'AnkiWeb:
 sync-password-label = Contrasenya:
 sync-account-required =
     <h1>Cal tenir un compte</h1>
     Cal que tingueu un compte gratuït per a mantenir la vostra col·lecció actualitzada. <a href="{ $link }">Registreu-vos</a> i inseriu les vostres credencials a sota.
-sync-sanity-check-failed = Feu servir la funció «Verifica la base de dades» i, tot seguit, torneu-la a sincronitzar. Si els problemes persisteixen, forceu la sincronització completa des del menú de preferències.
+sync-sanity-check-failed = Premeu «Verifica la base de dades» i torneu a sincronitzar la col·lecció. Si els problemes persisteixen, forceu la sincronització des del menú de preferències.
 sync-clock-off = No s'ha pogut sincronitzar la base de dades. Comproveu que el rellotge del vostre dispositiu mostra l'hora correcta.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
