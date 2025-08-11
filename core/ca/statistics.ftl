@@ -115,6 +115,8 @@ statistics-counts-separate-suspended-buried-cards = Separa les targetes suspeses
 ##      window is certain sizes.
 
 statistics-true-retention-title = Retenció vertadera
+statistics-true-retention-subtitle = Percentatge d’encerts de les targetes amb un interval ≥ 1 dia.
+statistics-true-retention-tooltip = Si feu servir l’FSRS, la vostra retenció ha d’acostar-se a la retenció desitjada. Tingueu en compte que les dades d’un sol dia són poc fiables, així que és millor observar les dades mensuals.
 statistics-true-retention-range = Interval
 statistics-true-retention-pass = Aprovades
 statistics-true-retention-fail = Suspeses

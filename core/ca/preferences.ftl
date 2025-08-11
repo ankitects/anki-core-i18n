@@ -78,9 +78,17 @@ preferences-shortcut-placeholder = Prem una tecla de drecera no utilitzada o dei
 preferences-third-party-services = Serveis de tercers
 preferences-ankihub-not-logged-in = No heu iniciat la sessió a AnkiHub.
 preferences-ankiweb-intro = AnkiWeb és un servei gratuït que us permet sincronitzar les targetes en tots els dispositius i recuperar les dades si el dispositiu es malmet o es perd.
+preferences-ankihub-intro = AnkiHub permet editar baralles de manera col·laborativa i proporciona eines d’estudi addicionals. Per a accedir a algunes funcions, cal una subscripció de pagament.
+preferences-third-party-description = Els serveis de tercers són independents i no estan avalats per Anki. Aquests serveis poden ser de pagament.
 
 ## URL scheme related
 
+preferences-url-schemes = Esquemes d’URL
+preferences-url-scheme-prompt = Esquemes d’URL permesos (separats per espais):
+preferences-url-scheme-warning =
+    S’ha bloquejat l’intent d’obrir `{ $link }` perquè pot suposar un risc de seguretat.
+    
+    Si confieu en l’autor de la baralla i voleu continuar, podeu afegir `{ $scheme }` als esquemes d’URL permesos.
 preferences-url-scheme-allow-once = Permet una vegada
 preferences-url-scheme-always-allow = Permet sempre
 

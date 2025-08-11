@@ -59,11 +59,11 @@ deck-config-learning-steps = Etapes d’aprenentatge
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Generalment, els intervals s’expressen en minuts (`1m`) o dies (`2d`), tot i que també podeu fer servir hores (`1h`) i segons (`30s`).
 deck-config-learning-steps-tooltip =
-    Un o més intervals separats amb espais. Anki farà servir el primer interval,
-    que per defecte és d'un minut, quan premeu el botó `De nou` en una targeta nova.
-    El botó `Correcte` avançarà al pas següent, que és de 10 minuts per defecte.
-    Una vegada hàgiu superat tots els passos, la targeta es convertirà en una targeta de repàs
-    i apareixerà en un dia diferent. { -deck-config-delay-hint }
+    Un o més intervals separats per espais. Anki farà servir el primer interval,
+    que per defecte és d’un minut, quan premeu el botó `De nou` en una targeta nova.
+    El botó `Correcte` avançarà al següent pas, que per defecte és de 10 minuts.
+    Quan hàgiu superat tots els passos, la targeta passarà a ser una targeta de repàs
+    i apareixerà un altre dia. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip =
     El nombre de dies que han de passar fins que una targeta es torni a mostrar
     després que hàgiu premut el botó `Correcte`en l'últim pas de l'etapa d'aprenentatge.

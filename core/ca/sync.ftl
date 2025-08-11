@@ -35,6 +35,12 @@ sync-conflict-explanation =
     Si premeu «Carrega», Anki pujarà la col·lecció a AnkiWeb i perdreu tots els canvis fets en AnkiWeb o en altres dispositiu des de l’última sincronització.
     
     Quan tots els dispositius estiguin sincronitzats, els repassos futurs i les targetes noves es combinaran automàticament.
+sync-conflict-explanation2 =
+    S’ha produït un conflicte entre les baralles d’aquest dispositiu i les d’AnkiWeb. Trieu quines voleu conservar:
+    – **{ sync-download-from-ankiweb }:** substitueix les baralles d’aquest dispositiu amb les d’AnkiWeb (perdreu els canvis fets en aquest dispositiu des de l’última sincronització).
+    – **{ sync-upload-to-ankiweb }:** substitueix les baralles d’AnkiWeb amb les baralles d’aquest dispositiu i elimina qualsevol canvi en AnkiWeb.
+    
+    Quan s’hagi resolt el conflicte, la sincronització funcionarà amb normalitat.
 sync-ankiweb-id-label = Identificador d'AnkiWeb:
 sync-password-label = Contrasenya:
 sync-account-required =
