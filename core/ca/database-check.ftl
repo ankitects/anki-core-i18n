@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] S’ha corregit una propietat invàlida.
        *[other] S’han corregit { $count } propietats invàlides.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] S’ha afegit l’última data de repàs a una targeta.
+       *[other] S’ha afegit l’última data de repàs a { $count } targetes.
+    }
 database-check-missing-templates =
     { $count ->
         [one] S'ha suprimit una targeta sense plantilla.
