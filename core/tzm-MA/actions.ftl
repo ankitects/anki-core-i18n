@@ -91,3 +91,7 @@ actions-flag-purple = ⴰⵊⵏⵊⴰⵕⵉ
 actions-set-flag = ⵙⵏⵎⵍ ⴰⵔⵛⵓⵎ
 actions-nothing-to-undo = ⵓⵔ ⵉⵍⵍⵉ ⵎⴰⵢⴷ ⵉⵙⵙⵔⵏ
 actions-nothing-to-redo = ⵓⵔ ⵉⵍⵍⵉ ⵎⴰⵢⴷ ⵉⵙⵙⵔⵏ
+actions-auto-advance = ⵣⵣⵉⴳⵣ ⵓⵟⵓⵎⴰⵜⵉⴽ
+actions-auto-advance-activated = ⴰⵣⵣⵉⴳⵣ ⵓⵟⵓⵎⴰⵜⵉⴽ ⵉⵙⵙⵔⴼⵓⵏ
+actions-auto-advance-deactivated = ⴰⵣⵣⵉⴳⵣ ⴰⵟⵓⵎⴰⵜⵉⴽⵉ ⵓⵔ ⵉⵙⵙⵔⴼⵓⵏ
+actions-processing = ⴰⵙⵎⴽⵍ
