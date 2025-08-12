@@ -81,18 +81,20 @@ statistics-reviews =
 statistics-memorized = { $memorized } memorizadas
 statistics-today-title = Hoxe
 statistics-today-again-count = Conta de repeticións:
-statistics-today-type-counts = Aprender: { $learnCount }, Repasar: { $reviewCount }, Volver estudar: { $relearnCount }, Filtradas: { $filteredCount }
+statistics-today-type-counts = Aprender: { $learnCount }, Repasar: { $reviewCount }, Reaprender: { $relearnCount }, Filtradas: { $filteredCount }
 statistics-today-no-cards = Hoxe non estudaches ningunha tarxeta.
 statistics-today-no-mature-cards = Hoxe non se estudaron tarxetas maduras.
 statistics-today-correct-mature = Respostas correctas en tarxetas maduras: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Total de tarxetas
 statistics-counts-new-cards = Novas
-statistics-counts-young-cards = Novo/a
+statistics-counts-young-cards = Mozas
 statistics-counts-mature-cards = Maduras
 statistics-counts-suspended-cards = Suspendida
 statistics-counts-buried-cards = Agochadas
 statistics-counts-filtered-cards = Filtradas
 statistics-counts-learning-cards = Aprendendo
+statistics-counts-relearning-cards = Reaprendendo
+statistics-counts-separate-suspended-buried-cards = Separar tarxetas suspensas/agochadas
 
 ## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
@@ -110,9 +112,11 @@ statistics-counts-learning-cards = Aprendendo
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Total de tarxetas
 # This will usually be the same as statistics-counts-young-cards
-statistics-true-retention-young = Novo/a
+statistics-true-retention-young = Mozas
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Maduras
+statistics-true-retention-today = Hoxe
+statistics-true-retention-yesterday = Onte
 
 ##
 
@@ -120,6 +124,15 @@ statistics-range-all-time = vida da baralla
 statistics-range-deck = baralla
 statistics-range-collection = colección
 statistics-range-search = Busca
+statistics-card-difficulty-title = Dificultade das tarxetas
+statistics-card-stability-title = Estabilidade das tarxetas
+statistics-median-stability = Estabilidade mediana
+statistics-card-difficulty-subtitle2 = Canto maior sexa a dificultade, máis lento aumentará a estabilidade.
+statistics-card-difficulty-tooltip =
+    { $cards ->
+        [one] { $cards } tarxeta cunha dificultade de { $percent }
+       *[other] { $cards } tarxetas cunha dificultade de { $percent }
+    }
 statistics-future-due-title = Prognóstico
 statistics-future-due-subtitle = O número de repasos programados no futuro.
 statistics-added-title = Engadida
@@ -202,6 +215,7 @@ statistics-cards-per-day =
         [one] { $count } tarxeta/día
        *[other] { $count } tarxetas/día
     }
+statistics-median-difficulty = Dificultade mediana
 statistics-save-pdf = Gardar en PDF
 statistics-saved = Gardado.
 statistics-stats = estatísticas
