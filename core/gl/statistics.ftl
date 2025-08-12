@@ -88,15 +88,15 @@ statistics-today-correct-mature = Respostas correctas en tarxetas maduras: { $co
 statistics-counts-total-cards = Total de tarxetas
 statistics-counts-new-cards = Novas
 statistics-counts-young-cards = Novo/a
-statistics-counts-mature-cards = Antigas
+statistics-counts-mature-cards = Maduras
 statistics-counts-suspended-cards = Suspendida
 statistics-counts-buried-cards = Agochadas
 statistics-counts-filtered-cards = Filtradas
 statistics-counts-learning-cards = Aprendendo
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -112,7 +112,7 @@ statistics-true-retention-total = Total de tarxetas
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Novo/a
 # This will usually be the same as statistics-counts-mature-cards
-statistics-true-retention-mature = Antigas
+statistics-true-retention-mature = Maduras
 
 ##
 
