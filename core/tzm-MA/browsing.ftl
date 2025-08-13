@@ -93,6 +93,7 @@ browsing-sort-field = ⴰⵙⵎⵙⴰⵙⴰ ⵙ ⵉⴳⵔ
 browsing-sorting-on-this-column-is-not = ⵓⵔ ⵉⵜⵜⵓⵊⵊⴰ ⵓⵙⵎⵙⴰⵙⴰ ⴳ ⵜⵔⵙⵍⵜ ⴰⴷ. ⴰⵡⵜⴰⵢ ⵏⵏⵉⴹⵏ.
 browsing-start-position = ⴰⴷⵖⴰⵔ ⵏ ⵓⵣⵡⵓⵔ :
 browsing-step = ⴰⵙⵓⵔⵉⴼ :
+browsing-suspended = ⴰⵊⴳⴰⴳⴰⵍ
 browsing-tooltip-card-modified = ⵜⵉⴽⴽⵍⵜ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵍⵍⵉ ⴳ ⵜⵜⵓⵙⴽⴰⵔⵏ ⵉⵙⵏⴼⵍⵏ ⴳ ⵜⴽⴰⵕⴹⴰ, ⵉⵙⵏⴼⵍⵏ, ⵉⵎⵙⵜⴳⴳⴰⵔⵏ ⴷ ⵉⵙⵏⴼⵍⵏ ⵏ ⵜⴱⴰⴷⵓⵜⵉⵏ
 browsing-tooltip-note-modified = ⵜⵉⴽⴽⵍⵜ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵍⵍⵉ ⴳ ⵉⵜⵜⵓⵙⴽⴰⵔ ⵢⴰⵏ ⵓⵙⵏⴼⵍ ⵖⴼ ⵢⴰⵜ ⵜⵏⴰⴼⵓⵜ, ⵙ ⵓⵎⴰⵜⴰ ⵖⴼ ⵓⵡⵜⵜⵓ ⵏ ⵢⵉⴳⵔ ⵏⵖ ⴰⵙⵏⴼⵍ ⵏ ⵜⵎⴰⵜⴰⵔⵜ
 browsing-tooltip-card = ⴰⵙⵙⴰⵖ ⵏ ⵓⵏⴰⵡ ⵏ ⵜⴰⴽⴰⵔⴹⴰ
