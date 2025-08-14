@@ -47,10 +47,12 @@ sync-password-label = Parola:
 sync-account-required =
     <h1>Hesap Gerekli</h1>
     Koleksiyonunuzun eşitlenmesi için ücretsiz hesap açmanız gerekiyor.  Lütfen  <a href="{ $link }">hesap açın</a> ve bilgilerinizi yazın.
+sync-sanity-check-failed = Lütfen "Veritabanını Kontrol Et" işlevini kullanın ve ardından tekrar senkronize edin. Sorun devam ederse, lütfen tercihler ekranından tek yönlü senkronizasyonu zorlayın.
 sync-clock-off = Senkronize edilemedi - sistem saatin doğru saate ayarlanmamış.
 sync-sign-in = Oturum aç
 sync-ankihub-dialog-heading = AnkiHub Girişi
 sync-ankihub-username-label = Kullanıcı adı veya E-posta
+sync-ankihub-login-failed = Sağlanan kimlik bilgileriyle AnkiHub'a giriş yapılamıyor.
 sync-ankihub-addon-installation = AnkiHub Eklenti Kurulumu
 
 ## Buttons

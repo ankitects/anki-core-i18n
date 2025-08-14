@@ -12,6 +12,7 @@ importing-colon = İki nokta üst üste
 importing-comma = Virgül
 importing-empty-first-field = İlk alanı boşalt  :{ $val }
 importing-field-separator = Alan ayırıcı
+importing-field-separator-guessed = Alan ayırıcı (tahmini)
 importing-field-mapping = Alan eşleştirme
 importing-field-of-file-is = Dosyanın  <b>{ $val }</b> alanı
 importing-fields-separated-by = İle ayrılmış alanlar: { $val }
@@ -101,11 +102,15 @@ importing-processed-cards =
 importing-existing-notes = Mevcut notlar
 # "Existing notes: Duplicate" (verb)
 importing-duplicate = Kopya oluştur
+# "Existing notes: Preserve" (verb)
+importing-preserve = Koru
 # "Existing notes: Update" (verb)
-importing-update = Güncelleştir
+importing-update = Güncelle
 importing-tag-all-notes = Tüm notları etiketle
 importing-tag-updated-notes = Güncellenen notları etiketle
 importing-file = Dosya
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Eşleşme kapsamı
 # Used with the 'match scope' option
 importing-notetype-and-deck = Not türü ve deste
 importing-cards-added =
@@ -151,6 +156,7 @@ importing-details = Ayrıntılar
 importing-status = Durum
 importing-duplicate-note-added = Yinelenen not eklendi
 importing-added-new-note = Yeni not eklendi
+importing-existing-note-skipped = Güncel bir kopya zaten koleksiyonunuzda bulunduğundan not atlandı
 importing-note-updated-as-file-had-newer = Dosya daha yeni bir sürüme sahip olduğu için not güncellendi
 importing-note-skipped-due-to-empty-first-field = İlk alanı boş olduğu için not atlandı
 importing-deck-help = İçe aktarılan kartlar bu desteye yerleştirilecek.

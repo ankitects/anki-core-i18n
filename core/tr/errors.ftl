@@ -11,6 +11,7 @@ errors-inconsistent-db-state = Veritabanınız tutarsız bir durumda gibi görü
 
 ## Card Rendering
 
+errors-option-not-set = '{ $option }' ayarlanmadı
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
