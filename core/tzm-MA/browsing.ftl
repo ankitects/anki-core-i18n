@@ -103,7 +103,43 @@ browsing-toggle-mark = ⵕⵛⵎ / ⴽⵙⵙ ⴰⵕⵛⵓⵎ
 browsing-toggle-suspend = ⴰⴳⵍ
 browsing-treat-input-as-regular-expression = ⴰⵙⵎⴽⵍ ⵏ ⵓⴽⵛⵛⵓⵎ ⴰⵎⵎ ⵢⴰⵜ ⵜⴳⵓⵔⵉ ⵜⴰⵢⵢⵓⵔⴰⵏⵜ
 browsing-update-saved-search = ⴰⵙⴷⵖⵉ ⵙ ⵓⵔⵣⴰⵓ ⴰⴷ
-browsing-tooltip-card-modified = ⵜⵉⴽⴽⵍⵜ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵍⵍⵉ ⴳ ⵜⵜⵓⵙⴽⴰⵔⵏ ⵉⵙⵏⴼⵍⵏ ⴳ ⵜⴽⴰⵕⴹⴰ, ⵉⵙⵏⴼⵍⵏ, ⵉⵎⵙⵜⴳⴳⴰⵔⵏ ⴷ ⵉⵙⵏⴼⵍⵏ ⵏ ⵜⴱⴰⴷⵓⵜⵉⵏ
+browsing-whole-collection = ⴰⴽⴽⵯ ⴰⵣⵎⵎⵓⵣ
+browsing-window-title-notes = ⵙⴽⵙⵓ ({ $selected } ⵉ { $total } ⵏ ⵜⵓⵙⵎⵉⵔⵉⵏ ⵉⵜⵜⵓⵙⵜⴰⵢⵏ)
+browsing-you-must-have-at-least-one = ⵉⵇⵇⴰⵏⴷ ⴰⴷ ⴷⴰⵔⴽ ⴽⵔⴰ ⵏ ⵢⴰⵜ ⵜⴰⵏⵏⴰⵍⵜ
+browsing-group =
+    { $count ->
+        [one] ⵓⵣⵎⵎⵢⵣ
+       *[other] ⵏ ⵉⵣⵎⵎⵓⵣⵏ
+    }
+browsing-note-count =
+    { $count ->
+        [one] ⵜⵓⵙⵎⵉⵔⵜ
+       *[other] ⵏ ⵜⵓⵙⵎⵉⵔⵉⵏ
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] ⵜⵓⵙⵎⵉⵔⵜ ⵉⵜⵜⵓⵙⴷⵖⴰⵏ
+       *[other] ⵏ ⵜⵓⵙⵎⵉⵔⵉⵏ ⵉⵜⵜⵓⵙⴷⵖⴰⵏ
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] ⵜⴰⴽⴰⵕⴹⴰ ⵉⵜⵜⵓⵙⴷⵖⴰⵏ
+       *[other] ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵉⵜⵜⵓⵙⴷⵖⴰⵏ
+    }
+browsing-window-title = ⵙⴽⵙⵓ ({ $selected } ⴳ { $total } ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵉⵜⵜⵓⵙⵜⴰⵢⵏ
+browsing-sidebar-expand = ⵙⵖⵉⵡⵙ
+browsing-sidebar-collapse = ⵙⵎⵥⵉⵢ
+browsing-sidebar-expand-children = ⵙⵖⵉⵡⵙ ⵉⵛⵉⵔⵔⴰⵏ
+browsing-sidebar-collapse-children = ⵙⵎⵥⵉⵢ ⵉⵛⵉⵔⵔⴰⵏ
+browsing-sidebar-decks = ⵉⴽⵍⴽⵉⵎⵏ
+browsing-sidebar-tags = ⴰⵙⴽⵏⵍ
+browsing-sidebar-notetypes = ⴰⵏⴰⵡ ⵏ ⵜⵓⵙⵎⵉⵔⵉⵏ
+browsing-sidebar-saved-searches = ⵉⵔⵣⵣⵓⵜⵏ ⵉⵜⵜⵓⵣⵎⵎⴰⵎⵏ
+browsing-sidebar-save-current-search = ⵣⵎⵎⴻⵎ ⴰⵔⵣⵣⵓ ⴰⴷ
+browsing-sidebar-card-state = ⴰⴷⴷⴰⴷ ⵏ ⵜⴽⴰⵕⴹⴰ
+browsing-sidebar-flags = ⵉⵏⵎⵎⴰⵍⵏ
+browsing-today = ⴰⵙⵙ ⴰⴷ
+browsing-tooltip-card-modified = ⵜⵉⴽⴽⵍⵜ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵍⵍⵉ ⴳ ⵜⵜⵓⵙⴽⴰⵔⵏ ⵉⵙⵏⴼⵍⵏ ⴳ ⴽⵔⴰ ⵏ ⵜⴽⴰⵕⴹⴰ, ⵉⵣⵣⵔⴰⵢⵏ, ⵉⵏⵎⵎⴰⵍⵏ ⴷ ⴰⵡⴷ ⵉⵙⵏⴼⵍⵏ ⵏ ⵉⴽⵍⴽⵉⵎⵏ
 browsing-tooltip-note-modified = ⵜⵉⴽⴽⵍⵜ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵍⵍⵉ ⴳ ⵉⵜⵜⵓⵙⴽⴰⵔ ⵢⴰⵏ ⵓⵙⵏⴼⵍ ⵖⴼ ⵢⴰⵜ ⵜⵏⴰⴼⵓⵜ, ⵙ ⵓⵎⴰⵜⴰ ⵖⴼ ⵓⵡⵜⵜⵓ ⵏ ⵢⵉⴳⵔ ⵏⵖ ⴰⵙⵏⴼⵍ ⵏ ⵜⵎⴰⵜⴰⵔⵜ
 browsing-tooltip-card = ⴰⵙⵙⴰⵖ ⵏ ⵓⵏⴰⵡ ⵏ ⵜⴰⴽⴰⵔⴹⴰ
 browsing-tooltip-cards = ⵓⵟⵟⵓⵏ ⵏ ⵜⴽⴰⵕⴹⴰ ⵏⵏⴰ ⵖⵓⵔ ⵉⵍⵍⴰ ⵡⴰⵜⵉⴳ
@@ -111,6 +147,20 @@ browsing-tooltip-notetype = ⴰⵙⵙⴰⵖ ⵏ ⵓⵏⴰⵡ ⵏ ⵜⵓⵙⵎⵉ
 browsing-tooltip-question = ⵜⴰⵎⴰ ⵏ ⵜⴽⴰⵕⴹⴰ, ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⵏⴼⵍⴷ ⴳ ⵓⵙⵏⴼⵍⵓⵍ ⵏ ⵓⵎⴷⵢⴰ.
 browsing-tooltip-answer = ⵜⴰⵎⴰ ⵏ ⴹⴰⵕⵜ ⵏ ⵜⴽⴰⵕⴹⴰ, ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⵏⴼⵍⴷ ⴳ ⵓⵙⵏⴼⵍⵓⵍ ⵏ ⵜⴽⴰⵕⴹⴰ.
 browsing-studied-today = ⴰⵙⵙⴰ ⵏ ⵜⵖⵓⵔⵉ
+browsing-added-today = ⵉⵜⵜⵓⵔⵏⵓ ⴰⵙⵙ ⴰⴷ
+browsing-again-today = ⵜⵓⵙⵎⵉⵔⵉⵏ ⵙ ⴰⵙⵙ ⴷⴷⵖ
+browsing-edited-today = ⵉⵜⵜⵓⵙⵏⴼⵍ
+browsing-sidebar-first-review = ⴰⵣⵔⵔⴰⵢ ⴰⵎⵣⵡⴰⵔⵓ
+browsing-sidebar-rescheduled = ⵙⵖⵉⵡⵙ ⵜⵉⴽⴽⵍⵜ ⵢⴰⴹⵏ
+browsing-sidebar-due-today = ⵉⵜⵜⵓⴹⴼⵉⵕⵏ
+browsing-sidebar-untagged = ⵡⴰⵔ ⴰⵙⴽⵏⵍ
+browsing-sidebar-overdue = ⵉⵄⵟⵟⵕ
+browsing-row-deleted = (ⵉⵜⵜⵓⵢⴰⴽⵙ)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] ⵓⵙⴽⵏⵍ ⵓⵔ ⵉⵜⵜⵓⵙⵎⵓⵔⵙⵏ ⵉⵜⵜⵓⵢⴰⴽⵙⵏ
+       *[other] ⵏ ⵉⵙⴽⴽⴰⵍⵏ ⵓⵔ ⵉⵜⵜⵓⵙⵎⵓⵔⵙⵏ ⵉⵜⵜⵓⵢⴰⴽⵙⵏ
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
