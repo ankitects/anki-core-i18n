@@ -408,6 +408,8 @@ deck-config-desired-retention-below-optimal = Valitsemasi retentio on alle optim
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS-simulaattori (kokeellinen)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS:n toivotun retention simulaattori (kokeellinen)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Auta valitsemaan (kokeellinen)
 deck-config-additional-new-cards-to-simulate = Simulaatioon sisällytettävät uudet lisäkortit
 deck-config-simulate = Simuloi
 deck-config-clear-last-simulate = Poista viimeisin simulaatio
@@ -421,6 +423,9 @@ deck-config-save-options-to-preset-confirm = Korvataanko nykyisen esiasetuksen a
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Opittu ulkoa
+deck-config-fsrs-simulator-radio-ratio = Suhdeluku: aika / ulkoa opittujen määrä
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per ulkoa opittu kortti
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -443,6 +448,7 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-plotted-on-x-axis = (Piirretty X-akselille)
 deck-config-a-100-day-interval =
     { $days ->
         [one] 100 päivän kertausvälistä tulee { $days } päivän mittainen.

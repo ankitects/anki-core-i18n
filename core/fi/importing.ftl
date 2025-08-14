@@ -45,6 +45,7 @@ importing-merge-notetypes-help =
     Varoitus: Tämä edellyttää yksisuuntaista synkronointia ja saattaa merkitä olemassa olevat muistiinpanot muuttuneiksi.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 -pakka (*.db)
 importing-multicharacter-separators-are-not-supported-please = Monimerkkisiä erottimia ei tueta. Anna erottimeksi vain yksi merkki.
+importing-new-deck-will-be-created = Luodaan uusi pakka: { $name }
 importing-notes-added-from-file = Muistiinpanoja lisätty tiedostosta: { $val }
 importing-notes-found-in-file = Muistiinpanoja löydetty tiedostosta: { $val }
 importing-notes-skipped-as-theyre-already-in = Muistiinpanoja, jotka ohitettiin, koska ne ovat jo kokoelmassasi: { $val }
@@ -61,7 +62,6 @@ importing-with-deck-configs-help =
     Jos tämä on käytössä, myös pakan jakajan sisällyttämät pakan asetukset tuodaan.
     Muussa tapauksessa kaikille pakoille annetaan oletusasetukset.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakattu Anki-pakka/kokoelma (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
 # the '|' character
 importing-pipe = Putki
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -75,7 +75,6 @@ importing-rows-had-num1d-fields-expected-num2d = '{ $row }':ssa oli { $found } k
 importing-selected-file-was-not-in-utf8 = Valittu tiedosto ei ollut UTF-8-muodossa. Katso käyttöohjeen tuonnista kertova osio.
 importing-semicolon = Puolipiste
 importing-skipped = Ohitettu
-importing-supermemo-xml-export-xml = Supermemo XML -vienti (*.xml)
 importing-tab = Sarkain
 importing-tag-modified-notes = Merkitse muokatut muistiinpanot tunnisteella:
 importing-text-separated-by-tabs-or-semicolons = Sarkaimilla tai puolipisteillä eroteltu teksti (*)
@@ -120,8 +119,8 @@ importing-note-updated =
     }
 importing-processed-media-file =
     { $count ->
-        [one] Käsiteltiin { $count } mediatiedosto
-       *[other] Käsiteltiin { $count } mediatiedostoa
+        [one] Tuotiin { $count } mediatiedosto
+       *[other] Tuotiin { $count } mediatiedostoa
     }
 importing-importing-file = Tuodaan tiedostoa...
 importing-extracting = Puretaan dataa...
@@ -191,9 +190,9 @@ importing-import-log = Tuonnin loki
 importing-no-notes-in-file = Tiedostosta ei löytynyt muistiinpanoja.
 importing-notes-found-in-file2 =
     { $notes ->
-        [one] Tiedostosta löytyi { $notes } muistiinpano
-       *[other] Tiedostosta löytyi { $notes } muistiinpanoa
-    }Niiden joukosta:
+        [one] Tiedostosta löytyi { $notes } muistiinpano. Niiden joukosta:
+       *[other] Tiedostosta löytyi { $notes } muistiinpanoa. Niiden joukosta:
+    }
 importing-show = Näytä
 importing-details = Tiedot
 importing-status = Tila
@@ -235,3 +234,5 @@ importing-importing-collection = Tuodaan kokoelmaa...
 importing-unable-to-import-filename = Tiedoston { $filename } tuonti ei onnistunut: tiedostotyyppiä ei tueta
 importing-notes-that-could-not-be-imported = Muistiinpanoja, joita ei voitu tuoda, koska muistiinpanotyyppi on muuttunut: { $val }
 importing-added = Lisätty
+importing-pauker-18-lesson-paugz = Pauker 1.8 oppitunti (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo XML -vienti (*.xml)

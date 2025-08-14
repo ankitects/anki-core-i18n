@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] Korjattiin { $count } kortti, jossa oli virheellisiä ominaisuuksia.
        *[other] Korjattiin { $count } korttia, joissa oli virheellisiä ominaisuuksia.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Lisättiin viimeisen kertauksen ajankohta { $count } korttiin.
+       *[other] Lisättiin viimeisen kertauksen ajankohta { $count } korttiin.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Poistettiin { $count } kortti, josta puuttui malline.
