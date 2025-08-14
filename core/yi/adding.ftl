@@ -1,7 +1,7 @@
 adding-add-shortcut-ctrlandenter = שאַפֿן (גיכקנעפּל: ctrl+enter)
 adding-added = געשאַפֿן
 adding-discard-current-input = אָפּוואַרפֿן יעצטיקע אַרײַנוואַרג?
-adding-keep-editing = רעדאַקטירן ווײַטער
+adding-keep-editing = צופּאַסן ווײַטער
 adding-edit = בײַטן "{ $val }"
 adding-history = פֿריִער
 adding-note-deleted = (נאָטיץ אָפּגעמעקט)
