@@ -324,6 +324,7 @@ deck-config-complete = { $num }% פֿאַרענדיקט
 deck-config-iterations = גילגול: { $count }…
 deck-config-reschedule-cards-on-change = אָפּלייגן קאַרטלעך אויפֿן טוישן
 deck-config-please-save-your-changes-first = קודם, ביטע היט אויף טוישונגען.
+deck-config-workload-factor-unchanged = וואָס העכער אָט דער ציפֿער, אַלץ אָפֿטער וועט קאַרטלעך ווערן דיר געוויזן.
 deck-config-desired-retention-too-low = דער געוווּנטשענער זכּרון איז גאָר נידעריק, וואָס קען גורם זײַן גאַנץ לאַנגע צווישנצײַטן.
 deck-config-desired-retention-too-high = דער געוווּנטשענער זכּרון איז גאָר הויך, וואָס קען גורם זײַן גאַנץ קורצע צווישנצײַטן.
 deck-config-percent-of-reviews =
@@ -332,6 +333,8 @@ deck-config-percent-of-reviews =
        *[other] { $pct }% פון { $reviews } איבער׳חזר׳ונגען
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = באַקוקנדיק אויף פֿאַרבעסערונגען…
 deck-config-optimizing-preset = ס׳אָפּטימיזירט זיך מוסטער { $current_count }/{ $total_count }…
 deck-config-fsrs-must-be-enabled = FSRS מוז קודם אַקטיווירט ווערן.
 deck-config-fsrs-params-optimal = ס׳זעט אויס, ווי די פּאַראַמעטערס פֿון FSRS זענען שוין אָפּטימיזירט.
