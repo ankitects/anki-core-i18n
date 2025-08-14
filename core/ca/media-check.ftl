@@ -73,7 +73,7 @@ media-check-render-latex = Renderitza LaTeX
 media-check-empty-trash = Buida la paperera
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Restaura els eliminats
-media-check-check-media-action = Verifica els fitxers multimèdia
+media-check-check-media-action = Comprova els fitxers multimèdia
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = falta-multimèdia
 # add a tag to notes with missing media

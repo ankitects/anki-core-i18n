@@ -46,12 +46,10 @@ sync-password-label = Contrasenya:
 sync-account-required =
     <h1>Cal tenir un compte</h1>
     Cal que tingueu un compte gratuït per a mantenir la vostra col·lecció actualitzada. <a href="{ $link }">Registreu-vos</a> i inseriu les vostres credencials a sota.
-sync-sanity-check-failed = Premeu «Verifica la base de dades» i torneu a sincronitzar la col·lecció. Si els problemes persisteixen, forceu la sincronització des del menú de preferències.
+sync-sanity-check-failed = Premeu «Comprova la base de dades» i torneu a sincronitzar la col·lecció. Si els problemes persisteixen, forceu la sincronització des del menú de preferències.
 sync-clock-off = No s'ha pogut sincronitzar la base de dades. Comproveu que el rellotge del vostre dispositiu mostra l'hora correcta.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
-sync-upload-too-large =
-    El fitxer de col·lecció és massa gran per carregar-lo a AnkiWeb. Podeu reduir-ne la mida 
-    treient les baralles que no utilitzeu (si voleu, podeu exportar-les abans) i, tot seguit, fent servir la funció «Verifica la base de dades» per a reduir la mida del fitxer. ({ $details })
+sync-upload-too-large = El fitxer de col·lecció és massa gran per pujar-lo a AnkiWeb. Podeu reduir-ne la mida eliminant les baralles que no utilitzeu (si voleu, podeu exportar-les abans) i, a continuació, fent servir la funció «Comprova la base de dades» per a reduir la mida del fitxer. ({ $details })
 sync-sign-in = Inicia la sessió
 sync-ankihub-dialog-heading = Inicia la sessió a AnkiHub
 sync-ankihub-username-label = Nom d’usuari o adreça electrònica:
@@ -71,7 +69,7 @@ sync-cancel-button = Anul·la
 sync-downloading-from-ankiweb = S'està baixant des d'AnkiWeb…
 sync-uploading-to-ankiweb = S’està pujant a AnkiWeb…
 sync-syncing = S'està sincronitzant…
-sync-checking = S'està verificant…
+sync-checking = S’està comprovant…
 sync-connecting = S'està connectant…
 sync-added-updated-count = Afegides o modificades: { $up }↑ { $down }↓
 sync-log-in-button = Inicia la sessió

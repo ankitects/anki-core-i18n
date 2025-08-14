@@ -6,11 +6,11 @@ errors-100-tags-max =
     és més senzill que enumereu les etiquetes que voleu en comptes d'aquelles que no voleu
     i no cal que seleccioneu les etiquetes secundàries si heu seleccionat una etiqueta principal.
 errors-multiple-notetypes-selected = Seleccioneu notes d'un sol tipus de nota.
-errors-please-check-database = Feu servir l'acció «Verifica la base de dades» i torneu-ho a intentar.
+errors-please-check-database = Premeu «Comprova la base de dades» i torneu-ho a intentar.
 errors-please-check-media = Feu servir l'acció «Comprovar multimèdia» i torneu-ho a intentar.
 errors-collection-too-new = Per a poder obrir aquesta col·lecció, necessiteu una versió més recent d'Anki.
 errors-invalid-ids = Aquesta baralla conté targetes datades en el futur. Poseu-vos en contacte amb l’autor i demaneu-li de resoldre el problema.
-errors-inconsistent-db-state = Sembla que la base de dades presenta incoherències. Feu servir la funció «Verifica la base de dades».
+errors-inconsistent-db-state = La base de dades presenta incoherències. Premeu «Comprova la base de dades».
 
 ## Card Rendering
 
