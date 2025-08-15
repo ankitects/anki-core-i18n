@@ -161,6 +161,21 @@ browsing-removed-unused-tags-count =
         [one] ⵓⵙⴽⵏⵍ ⵓⵔ ⵉⵜⵜⵓⵙⵎⵓⵔⵙⵏ ⵉⵜⵜⵓⵢⴰⴽⵙⵏ
        *[other] ⵏ ⵉⵙⴽⴽⴰⵍⵏ ⵓⵔ ⵉⵜⵜⵓⵙⵎⵓⵔⵙⵏ ⵉⵜⵜⵓⵢⴰⴽⵙⵏ
     }
+browsing-changed-new-position =
+    { $count ->
+        [one] ⵓⴷⵖⴰⵔ ⵉⵜⵓⵙⵏⴼⵍⵏ ⵉ { $count } ⵜⴰⴽⴰⵕⴹⴰ ⵜⴰⵎⴰⵢⵏⵓⵜ
+       *[other] ⵏ ⵉⴷⵖⴰⵔⵏ ⵉⵜⵓⵙⵏⴼⴰⵍⵏ ⵉ { $count } ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } ⴰⴽⵍⴽⵉⵎ ⵉⵜⵜⵓⵙⵎⴰⵍⵏ
+       *[other] { $count } ⵏ ⵉⴽⵍⴽⵉⵎⵏ ⵉⵜⵜⵓⵙⵎⴰⵍⵏ
+    }
+browsing-sidebar-card-state-review = ⴰⵣⵣⵔⴰⵢ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = ⵜⴰⴽⴰⵕⴹⴰ
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = ⵜⵓⵙⵎⵉⵔⵜ
