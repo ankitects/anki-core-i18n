@@ -88,7 +88,7 @@ deck-config-ignore-before-info = (Approximately) { $included }/{ $totalCards } c
 ## Messages related to the FSRS scheduler
 
 deck-config-compute-optimal-weights = Optimise FSRS parameters
-deck-config-optimize-button = Optimise
+deck-config-optimize-button = Optimise Current Preset
 deck-config-time-to-optimize = It's been a while - using the Optimise All Presets button is recommended.
 deck-config-desired-retention-tooltip =
     The default value of 0.9 will schedule cards so you have a 90% chance of remembering them when
