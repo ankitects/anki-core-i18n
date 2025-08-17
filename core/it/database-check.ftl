@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] Corretta { $count } carta con proprietà non valide.
        *[other] Corrette { $count } carte con proprietà non valide.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Aggiunta data dell'ultima ripetizione a { $count } carta.
+       *[other] Aggiunta data dell'ultima ripetizione a { $count } carte.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Cancellata { $count } carta con modello mancante.
@@ -13,7 +18,7 @@ database-check-missing-templates =
 database-check-field-count =
     { $count ->
         [one] Corretta { $count } nota con conteggio dei campi errato.
-       *[other] Corretta { $count } note con conteggio dei campi errato.
+       *[other] Corrette { $count } note con conteggio dei campi errato.
     }
 database-check-new-card-high-due =
     { $count ->

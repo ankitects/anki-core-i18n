@@ -97,9 +97,9 @@ statistics-counts-relearning-cards = In riapprendimento
 statistics-counts-title = Conteggio delle carte
 statistics-counts-separate-suspended-buried-cards = Separa le carte sospese/seppellite
 
-## Retention rate represents your actual retention rate from past reviews, in
+## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
-## future retention. Retention rate is the percentage of all reviewed cards
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -272,7 +272,7 @@ statistics-due-tomorrow = Da ripetere domani
 statistics-daily-load = Carico giornaliero
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } di { $total } ({ $percent }%)
-statistics-average-over-period = Se avessi studiato ogni giorno
+statistics-average-over-period = Media per il periodo
 statistics-reviews-per-day =
     { $count ->
         [one] { $count } ripetizione/giorno
