@@ -44,3 +44,4 @@ card-stats-previous-card = ⵜⴰⴽⴰⵕⴹⴰ ⵉⵣⵡⴰⵔⵏ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+card-stats-fsrs-forgetting-curve-probability-of-recalling = ⵜⴰⴼⵓⵍⵜ ⵏ ⵓⴽⵜⵜⴰⵢ
