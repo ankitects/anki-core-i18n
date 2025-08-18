@@ -62,27 +62,27 @@ statistics-in-time-span-years =
 statistics-studied-today =
     { $unit ->
         [seconds]
-            Сегодня изучено { statistics-cards }
+            Сегодня { statistics-cards }
             { statistics-in-time-span-seconds }
             ({ $secs-per-card } с/карт.)
         [minutes]
-            Сегодня изучено { statistics-cards }
+            Сегодня { statistics-cards }
             { statistics-in-time-span-minutes }
             ({ $secs-per-card } с/карт.)
         [hours]
-            Сегодня изучено { statistics-cards }
+            Сегодня { statistics-cards }
             { statistics-in-time-span-hours }
-            ({ $secs-per-card } с/карт.)
+            ({ $secs-per-card } с/к.)
         [days]
-            Сегодня изучено { statistics-cards }
+            Сегодня { statistics-cards }
             { statistics-in-time-span-days }
             ({ $secs-per-card } с/карт.)
         [months]
-            Сегодня изучено { statistics-cards }
+            Сегодня { statistics-cards }
             { statistics-in-time-span-months }
             ({ $secs-per-card } с/карт.)
        *[years]
-            Сегодня изучено { statistics-cards }
+            Сегодня { statistics-cards }
             { statistics-in-time-span-years }
             ({ $secs-per-card } с/карт.)
     }
