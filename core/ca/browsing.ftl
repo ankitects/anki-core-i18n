@@ -118,13 +118,13 @@ browsing-note-count =
     }
 browsing-notes-updated =
     { $count ->
-        [one] S'ha actualitzat una nota.
-       *[other] S'han actualitzat { $count } notes.
+        [one] S’ha actualitzat una nota.
+       *[other] S’han actualitzat { $count } notes.
     }
 browsing-cards-updated =
     { $count ->
-        [one] S'ha actualitzat una targeta.
-       *[other] S'han actualitzat { $count } targetes.
+        [one] S’ha actualitzat una targeta.
+       *[other] S’han actualitzat { $count } targetes.
     }
 browsing-window-title = Navega (n’heu seleccionat { $selected } de { $total })
 browsing-sidebar-expand = Expandeix
