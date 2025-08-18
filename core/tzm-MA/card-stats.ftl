@@ -27,9 +27,20 @@ card-stats-review-log-type-rescheduled = ⵙⵖⵉⵡⵙ ⵜⵉⴽⴽⵍⵜ ⵢ�
 card-stats-review-log-elapsed-time = ⴰⴳⵓⵔ ⵉⵣⵔⵉⵏ
 card-stats-no-card = (ⵓⵔ ⵉⵍⵍⵉ ⴽⵔⴰ ⵏ ⵜⴽⴰⵕⴹⴰ ⵉ ⵓⵙⴼⵙⵔ)
 card-stats-custom-data = ⵉⵙⴼⴽⴰ ⵓⵙⵍⵉⴳⵏ
+card-stats-fsrs-stability = ⴰⵔⴳⴳⵉⴳ
+card-stats-fsrs-difficulty = ⴰⵏⵎⴰⵔ
+card-stats-fsrs-retrievability = ⵉⵖⵉⵢ ⵏ ⵜⴰⵎⵢⴰⴼⵉⵜ
+card-stats-fsrs-forgetting-curve-title = ⵜⵉⴽⵏⵉⵜ ⵏ ⵜⴰⵜⵜⵓⵜ
+card-stats-fsrs-forgetting-curve-first-week = ⵉⵎⴰⵍⴰⵙⵙ ⴰⵎⵣⵡⴰⵔⵓ
+card-stats-fsrs-forgetting-curve-first-month = ⴰⵢⵢⵓⵔ ⴰⵎⵣⵡⴰⵔⵓ
+card-stats-fsrs-forgetting-curve-first-year = ⴰⵙⵙⴳⴳⵯⴰⵙⵙ ⴰⵎⵣⵡⴰⵔⵓ
+card-stats-fsrs-forgetting-curve-all-time = ⵙⴳ ⵡⴰⴽⴰⵎ
+card-stats-fsrs-forgetting-curve-desired-retention = ⵓⵎⵓⵣ ⵉⵜⵜⵓⵢⵉⵣⵉⵣⵏ
 
 ## Window Titles
 
+card-stats-current-card = ⵜⴰⴽⴰⵕⴹⴰ ⵏ ⴷⵖⵉ  ({ $context })
+card-stats-previous-card = ⵜⴰⴽⴰⵕⴹⴰ ⵉⵣⵡⴰⵔⵏ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
