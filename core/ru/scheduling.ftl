@@ -188,8 +188,8 @@ scheduling-set-due-date-prompt =
        *[other] Через сколько дней показать карточки?
     }
 scheduling-set-due-date-prompt-hint =
-    0 = завтра
-    1! = завтра + сбросить интервал
+    0 = сегодня
+    1! = завтра + изменить интервал на 1
     3-7 = случайный выбор 3-7 дней
 scheduling-set-due-date-done =
     { $cards ->
