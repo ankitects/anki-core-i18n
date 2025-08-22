@@ -60,8 +60,8 @@ sync-ankihub-addon-installation = Instal·lació del complement d’AnkiHub
 
 sync-media-log-button = Registre dels fitxers multimèdia
 sync-abort-button = Interromp
-sync-download-from-ankiweb = Descarrega des d’AnkiWeb
-sync-upload-to-ankiweb = Carrega a AnkiWeb
+sync-download-from-ankiweb = Baixa d’AnkiWeb
+sync-upload-to-ankiweb = Puja a AnkiWeb
 sync-cancel-button = Anul·la
 
 ## Normal sync progress
