@@ -15,7 +15,7 @@ card-templates-preview-box = Previsualització
 card-templates-template-box = Plantilla
 card-templates-sample-cloze = Aquest és un { "{{c1::" }exemple{ "}}" } de resposta d'una nota amb buits.
 card-templates-fill-empty = Omple els camps buits
-card-templates-night-mode = Mode nocturn
+card-templates-night-mode = Mode fosc
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
 card-templates-add-mobile-class = Afegeix la classe per a dispositius mòbils
