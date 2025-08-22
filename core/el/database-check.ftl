@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] Διορθώθηκε { $count } μη έγκυρη ιδιότητα κάρτας.
        *[other] Διορθώθηκαν { $count } μη έγκυρες ιδιότητες κάρτας.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Προστέθηκε η τελευταία ώρα αξιολόγησης σε { $count } κάρτα .
+       *[other] Προστέθηκε η τελευταία ώρα αξιολόγησης σε { $count } κάρτες.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Διαγράφηκε { $count } κάρτα με ελλείπον πρότυπο.

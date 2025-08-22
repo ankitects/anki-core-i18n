@@ -385,6 +385,7 @@ deck-config-save-options-to-preset-confirm = Αντικατάσταση των �
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Απομνημονευμένα
+deck-config-fsrs-simulator-radio-ratio = Χρόνος / Αναλογία απομνημόνευσης
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } ανά απομνημονευμένη κάρτα
 
@@ -397,6 +398,7 @@ deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμέ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-plotted-on-x-axis = (Απεικονίζεται στον άξονα Χ)
 deck-config-a-100-day-interval =
     { $days ->
         [one] Διάστημα 100 ημερών θα γίνει { $days } ημέρας.
