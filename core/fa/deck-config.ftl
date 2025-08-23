@@ -35,6 +35,20 @@ deck-config-limit-interday-bound-by-reviews =
     حد مرور بر کارت‌هایی که در مرحله یادگیری قرار دارند نیز تأثیر می‌گذارد.
     هنگام اعمال کردن حد مرور، ابتدا کارت‌هایی که در مرحله یادگیری قرار دارند
     نمایش داده خواهند شد، سپس کارت‌های مرور و در نهایت کارت‌های نمایش داده خواهند شد.
+deck-config-tab-description =
+    پیش‌تنظیم: محدودیت برای همهٔ بسته‌هایی که از این پیش‌تنظیم استفاده می‌کنند، اعمال می‌شود.
+    این بسته: محدودیت فقط مخصوص همین بسته است.
+    فقط امروز: تغییری موقت در محدودیت همین بسته ایجاد می‌شود.
+deck-config-new-cards-ignore-review-limit = کارت‌های جدید محدودیت مرور را نادیده می‌گیرند.
+deck-config-apply-all-parent-limits = محدودها از بالا شروع می‌شوند
+deck-config-affects-entire-collection = روی کل مجموعه تأثیر می‌گذارد.
+
+## Daily limit tabs: please try to keep these as short as the English version,
+## as longer text will not fit on small screens.
+
+deck-config-shared-preset = پیش‌تنظیم
+deck-config-deck-only = این بسته
+deck-config-today-only = فقط امروز
 
 ## New Cards section
 
@@ -90,38 +104,12 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = دفن کردن
 deck-config-bury-new-siblings = کارت‌های جدید مرتبط تا روز بعد دفن شوند
 deck-config-bury-review-siblings = کارت‌های مرور مرتبط تا روز بعد دفن شوند
-deck-config-bury-tooltip =
-    کارت‌هایی که از یک نوع هستند (مثلاً کارت‌های جاخالی که از یک
-    یادداشت ساخته می‌شوند) با تأخیر نمایش داده شوند یا خیر.
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = ترتیب نمایش
 deck-config-new-gather-priority = ترتیب جمع‌آوری کارت‌های جدید
-deck-config-new-gather-priority-tooltip =
-    `دسته`: کارت‌ها را به ترتیب از هر زیردسته جمع‌آوری می‌کند و زمانی که
-    به حد دسته رسید، متوقف می‌شود. این کار سریع‌تر است و به شما کمک می‌کند
-    که دسته‌ها را به ترتیب نزدیکی به بالا اولویت‌بندی کنید.
-    
-    `موقعیت`: کارت‌ها را از همه دسته‌ها قبل از مرتب‌سازی جمع‌آوری می‌کند. این کار
-    باعث نمایش کارت‌ها به ترتیب موقعیت (due #) می‌شود حتی اگر کارت در دسته‌ای
-    قرار دارد که به بالا نزدیک‌تر نیست.
-deck-config-new-gather-priority-deck = دسته
-deck-config-new-gather-priority-position-lowest-first = ترتیب صعودی
-deck-config-new-gather-priority-position-highest-first = ترتیب نزولی
 deck-config-new-card-sort-order = ترتیب نمایش کارت‌های جدید
-deck-config-new-card-sort-order-tooltip =
-    ترتیب نمایش کارت‌ها بعد از جمع‌آوری. آنکی به صورت پیش‌فرض
-    و جهت جلوگیری از نمایش چندین کارت از یک یادداشت به صورت متوالی
-    کارت‌ها را ابتدا به ترتیب قالب کارت مرتب می‌کند.
-deck-config-sort-order-card-template-then-lowest-position = قالب کارت، سپس ترتیب صعودی
-deck-config-sort-order-card-template-then-highest-position = قالب کارت، سپس ترتیب نزولی
-deck-config-sort-order-card-template-then-random = قالب کارت، سپس به صورت تصادفی
-deck-config-sort-order-lowest-position = ترتیب صعودی
-deck-config-sort-order-highest-position = ترتیب نزولی
-deck-config-sort-order-random = تصادفی
-deck-config-sort-order-template-then-gather = قالب کارت، سپس به ترتیب جمع‌آوری
-deck-config-sort-order-gather = به ترتیب جمع‌آوری
 deck-config-new-review-priority = ترتیب کارت جدید/مرور
 deck-config-new-review-priority-tooltip = زمان نمایش کارت‌های جدید در ارتباط با کارت‌های مرور.
 deck-config-interday-step-priority = ترتیب نمایش کارت‌های یادگیری/مرور روزانه
@@ -134,9 +122,6 @@ deck-config-interday-step-priority-tooltip =
     این گزینه ترتیب نمایش کارت‌های جمع‌آوری شده را تعیین می‌کند،
     ولی کارت‌هایی که در مرحله یادگیری دارند و زمان مرورشان کمتر از
     یک روز است همواره ابتدا نمایش داده خواهند شد.
-deck-config-review-mix-mix-with-reviews = ترکیب با کارت‌های مرور
-deck-config-review-mix-show-after-reviews = نمایش بعد از کارت‌های مرور
-deck-config-review-mix-show-before-reviews = نمایش قبل از کارت‌های مرور
 deck-config-review-sort-order = ترتیب مرور
 deck-config-review-sort-order-tooltip =
     ترتیب نمایش پیش‌فرض کارت‌هایی را ابتدا نمایش می‌دهد که مدت زمان
@@ -145,17 +130,53 @@ deck-config-review-sort-order-tooltip =
     عقب افتاده شما بیش از اندازه زیاد است و مرور کامل آنها بیشتر از چند روز
     طول می‌کشد، یا اگر می‌خواهید کارت‌ها به ترتیب زیردسته‌ها نمایش داده شوند
     ممکن است از ترتیب‌های نمیش دیگر بیشتر خوشتان بیاید.
-deck-config-sort-order-due-date-then-random = زمان مرور، سپس تصادفی
-deck-config-sort-order-due-date-then-deck = زمان مرور، سپس به ترتیب دسته
-deck-config-sort-order-deck-then-due-date = دسته، سپس به ترتیب تاریخ مرور
-deck-config-sort-order-ascending-intervals = افزایش بازه زمانی
-deck-config-sort-order-descending-intervals = کاهش بازه زمانی
-deck-config-sort-order-ascending-ease = افزایش سختی
-deck-config-sort-order-descending-ease = کاهش سختی
 deck-config-display-order-will-use-current-deck =
     آنکی از ترتیب نمایش کارت‌ها در دسته انتخاب شده
     استفاده خواهد کرد و از ترتیب نمایش کارت‌ها در 
     زیر دسته‌ها استفاده نخواهد کرد.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = دسته
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = ترتیب صعودی
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = ترتیب نزولی
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = قالب کارت، سپس به صورت تصادفی
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = ابتدا یاداشت تصادفی، سپس نوع کارت
+# Sort the cards randomly.
+deck-config-sort-order-random = تصادفی
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = قالب کارت، سپس به ترتیب جمع‌آوری
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = به ترتیب جمع‌آوری
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = ترکیب با کارت‌های مرور
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = نمایش بعد از کارت‌های مرور
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = نمایش قبل از کارت‌های مرور
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = زمان مرور، سپس تصادفی
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = زمان مرور، سپس به ترتیب دسته
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = دسته، سپس به ترتیب تاریخ مرور
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = افزایش بازه زمانی
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = کاهش بازه زمانی
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = افزایش سختی
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = کاهش سختی
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = ابتدا کارت‌های آسان
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = ابتدا کارت‌های سخت
 
 ## Timer section
 
@@ -169,6 +190,10 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     در صفحه مرور کارت‌ها، یک زمان سنج نشان می‌دهد که زمانی که
     صرف مرور یک کارت می‌شود (به ثانیه) را نشان می‌دهد.
+
+## Auto Advance section
+
+deck-config-question-action-show-answer = نمایش پاسخ
 
 ## Audio section
 
@@ -210,6 +235,20 @@ deck-config-minimum-interval-tooltip =
 deck-config-custom-scheduling = زمانبندی سفارشی
 deck-config-custom-scheduling-tooltip = همه مجموعه را تحت تأثیر قرار خواهد داد. با مسئولیت خود از این گزینه استفاده کنید!
 
+## Easy Days section.
+
+deck-config-easy-days-title = روزهای آسان
+deck-config-easy-days-monday = دوشنبه
+deck-config-easy-days-tuesday = سه‌شنبه
+deck-config-easy-days-wednesday = چهارشنبه
+deck-config-easy-days-thursday = پنجشنبه
+deck-config-easy-days-friday = جمعه
+deck-config-easy-days-saturday = شنبه
+deck-config-easy-days-sunday = یکشنبه
+deck-config-easy-days-normal = عادی
+deck-config-easy-days-reduced = کاهش‌یافته
+deck-config-easy-days-minimum = حداقل
+
 ## Adding/renaming
 
 deck-config-add-group = افزودن پیش‌تنظیم
@@ -220,7 +259,6 @@ deck-config-clone-group = تکثیر پیش‌تنظیم
 ## Removing
 
 deck-config-remove-group = حذف پیش‌تنظیم
-deck-config-confirm-normal = حذف { $name }؟
 deck-config-will-require-full-sync =
     تغییرات موردنظر شما نیاز به همگام‌سازی یک طرفه خواهند داشت. اگر
     تغییراتی روی دستگاه‌های دیگر دارید که هنوز با این دستگاه همگام‌سازی
@@ -260,8 +298,20 @@ deck-config-relearning-steps-above-minimum-interval = بازه زمانی فرا
 ## Selecting a deck
 
 deck-config-which-deck = کدام دسته را انتخاب می‌کنید؟
+
+## Messages related to the FSRS scheduler
+
 deck-config-wait-for-audio = توقف برای صوت
 deck-config-show-reminder = نمایش یادآور
 deck-config-answer-again = پاسخ دوباره
 deck-config-answer-hard = پاسخ سخت
 deck-config-answer-good = پاسخ خوب
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+deck-config-bury-tooltip =
+    کارت‌هایی که از یک نوع هستند (مثلاً کارت‌های جاخالی که از یک
+    یادداشت ساخته می‌شوند) با تأخیر نمایش داده شوند یا خیر.
