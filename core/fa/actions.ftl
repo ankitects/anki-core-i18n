@@ -53,7 +53,7 @@ actions-set-due-date = تعیین زمان مرور
 actions-toggle-load-balancer = روشن/خاموش کردن متعادل‌کنندهٔ بار
 actions-grade-now = همین‌حالا نمره بده
 actions-answer-card = پاسخ به کارت
-actions-unbury-unsuspend = لغو دفن/تعلیق
+actions-unbury-unsuspend = لغو مخفی‌کردن/تعلیق
 actions-add-deck = افزودن دسته
 actions-add-note = افزودن یادداشت
 actions-update-tag = به‌روز‌رسانی برچسب
@@ -71,6 +71,7 @@ actions-previous-card-info = اطلاعات کارت قبلی
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }…
+actions-fullscreen-unsupported = حالت تمام‌صفحه برای درایور ویدئوی شما پشتیبانی نمی‌شود. از صفحهٔ تنظیمات درایور دیگری انتخاب کنید.
 actions-flag-number = نشانه { $number }
 
 ## The same translation may used for two independent actions:

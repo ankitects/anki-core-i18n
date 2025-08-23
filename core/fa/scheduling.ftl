@@ -80,10 +80,10 @@ scheduling-today-new-limit-reached =
     کارت‌های جدیدی بیشتر در دسته وجود دارد، ولی تعداد کارت‌های جدید محدود شده است
     شما می‌توانید از طریق اختیارات، حداکثر تعداد کارت‌های جدید مطالعه شده در یک روز را افزایش دهید.
     ولی به یاد داشته باشید، هرچه تعداد کارت‌های جدید بیشتری مطالعه کنید، تعداد کارت‌هایی که باید در کوتاه‌مدت مطالعه کنید بیشتر می‌شوند.
-scheduling-buried-cards-found = یک یا چند کارت دفن شده بودند و فردا نشان داده خواهند شد. اگر می خواهید الان آنها را ببینید می توانید { $unburyThem }.
+scheduling-buried-cards-found = یک یا چند کارت به حالت مخفی درآمده‌اند و فردا نمایش داده خواهند شد. اگر بخواهید همین حالا آن‌ها را ببینید، می‌توانید { $unburyThem }.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = آنها از ار دفن خارج کنید
+scheduling-unbury-them = آن‌ها را از حالت مخفی خارج کنید
 scheduling-how-to-custom-study = اگر می خواهید خارج از برنامه عادی مطالعه کنید، می توانید از ویژگی { $customStudy } استفاده کنید.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."

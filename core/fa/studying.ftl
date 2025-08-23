@@ -43,8 +43,8 @@ studying-suspend-note = معلق کردن یادداشت
 studying-this-is-a-special-deck-for = این یک دستۀ ویژه برای مطالعه خارج از زمانبندی عادی است.
 studying-to-review = برای مرور
 studying-type-answer-unknown-field = نوع جواب: فیلد ناشناخته { $val }
-studying-unbury = لغو تعلیق
-studying-what-would-you-like-to-unbury = مایل به لغو دفن کدام کارت‌ها هستید؟
+studying-unbury = نمایش دوباره
+studying-what-would-you-like-to-unbury = مایل به نمایش دوبارهٔ کدام کارت‌ها هستید؟
 studying-you-havent-recorded-your-voice-yet = هنوز صدای ضبط شده تان را ندارید.
 studying-card-studied-in =
     { $count ->
