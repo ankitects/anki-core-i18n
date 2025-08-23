@@ -36,6 +36,7 @@ card-templates-card = کارت { $val }
 card-templates-card-types-for = نوع کارت‌ها برای { $val }
 card-templates-cloze = جاخالی { $val }
 card-templates-deck-override = ابطال دسته...
+card-templates-copy-info = کپی اطلاعات در کلیپ‌بورد
 card-templates-delete-the-as-card-type-and = حذف '{ $template }' نوع کارت، و { $cards } آن؟
 card-templates-enter-deck-to-place-new = برای قرادادن { $val } کارت جدید دسته‌ای را وارد کنید، یا خالی بگذارید:
 card-templates-enter-new-card-position-1 = موقعیت کارت جدید را وارد کنید (1...{ $val }):

@@ -4,6 +4,11 @@ database-check-card-properties =
     { $count ->
        *[other] تعداد { $count } مشخصات کارت خراب تعمیر شد.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] زمان آخرین مرور به { $count } کارت اضافه شد.
+       *[other] زمان آخرین مرور به { $count } کارت اضافه شد.
+    }
 database-check-missing-templates =
     { $count ->
         [one] تعداد { $count } کارت فاقد قالب حذف شد.
