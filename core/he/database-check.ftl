@@ -7,6 +7,12 @@ database-check-card-properties =
         [many] תוקנו { $count } כרטיסים עם מאפיינים שגויים.
        *[other] תוקנו { $count } כרטיסים עם מאפיינים שגויים.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] נוסף זמן לימוד אחרון לכרטיס אחד.
+        [two] נוסף זמן לימוד אחרון ל- { $count } כרטיסים.
+       *[other] נוסף זמן לימוד אחרון ל- { $count } כרטיסים.
+    }
 database-check-missing-templates =
     { $count ->
         [one] נמחק { $count } כרטיס ללא תבנית.
