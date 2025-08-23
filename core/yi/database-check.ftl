@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] { $count } פּסול קאַרטל-אייגנקייט איז פֿאַרריכט געוואָרן.
        *[other] { $count } פּסולע קאַרטל-אייגנקייטן זענען פֿאַרריכט געוואָרן.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] צוגעלייגט לעצטיקע אײַנ׳חזר-צײַט צו { $count } קאַרטל.
+       *[other] צוגעלייגט לעצטיקע אײַנ׳חזר-צײַט צו { $count } קאַרטלעך.
+    }
 database-check-missing-templates =
     { $count ->
         [one] { $count } קאַרטל וואָס ס׳פֿעלט אים אַ מוסטער איז אויסגעמעקט געוואָרן.

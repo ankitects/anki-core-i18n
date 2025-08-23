@@ -351,6 +351,7 @@ deck-config-answer-hard = ענטפֿער שווער
 deck-config-answer-good = ענטפֿער גוט
 deck-config-days-to-simulate = טעג אויף צו סימולירן
 deck-config-desired-retention-below-optimal = דער געוווּנטשענער זכּרון איז נידעריקער ווי אָפּטימאַל, איז כּדאי אים צו פֿאַרגרעסערן.
+deck-config-additional-new-cards-to-simulate = איבעריקע נײַע קאַרטלעך אויף צו סומילירן
 deck-config-simulate = סימולירן
 deck-config-clear-last-simulate = אָפּרייניקען לעצטיקע סימולאַציע
 deck-config-fsrs-simulator-radio-count = איבער׳חזר׳ונגען
@@ -362,6 +363,8 @@ deck-config-save-options-to-preset = אויפֿהיטן בײַטן אינעם מ
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = אויסגעלערנט
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } לויט אויסגעלערנט קאַרטל
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -370,11 +373,13 @@ deck-config-health-check = איבערקוקן ס׳געזונט בשעת׳ן אָ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-plotted-on-x-axis = <MARKED AS NOT NEEDED>
 deck-config-a-100-day-interval =
     { $days ->
         [one] אַ צווישנצײַט פֿון 100 טעג וועט ווערן { $days } טאָג.
        *[other] אַ צווישנצײַט פֿון 100 טעג וועט ווערן { $days } טעג.
     }
+deck-config-fsrs-simulator-y-axis-title-time = <MARKED AS NOT NEEDED>
 deck-config-fsrs-simulator-y-axis-title-count = אײַנחזר צאָל / טאָג
 deck-config-fsrs-simulator-y-axis-title-memorized = סך-הכּל אויסגעלערנט
 deck-config-bury-siblings = אָפּהאַלטן געשוויסטער
@@ -382,5 +387,21 @@ deck-config-do-not-bury = אָפּהאַלטן נישט קיין געשוויס�
 deck-config-bury-if-new = אָפּהאַלטן ווען נײַ
 deck-config-bury-if-new-or-review = אָפּהאַַלטן ווען נײַ אָדער אויף איבערצו׳חזר׳ן
 deck-config-bury-if-new-review-or-interday = אָפּהאַַלטן ווען נײַ, אויף איבערצו׳חזר׳ן, אָדער צווישן-טעג אײַנצו׳חזר׳ן
+deck-config-bury-tooltip = <MARKED AS NOT NEEDED>
+deck-config-seconds-to-show-question-tooltip = <MARKED AS NOT NEEDED>
+deck-config-answer-action-tooltip = <MARKED AS NOT NEEDED>
+deck-config-wait-for-audio-tooltip = <MARKED AS NOT NEEDED>
+deck-config-ignore-before-tooltip = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention-tooltip = <MARKED AS NOT NEEDED>
+deck-config-health-check-tooltip1 = <MARKED AS NOT NEEDED>
+deck-config-health-check-tooltip2 = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention = <MARKED AS NOT NEEDED>
 deck-config-predicted-optimal-retention = מינימאַל רעקאָמענדירטע זכּרון: { $num }
+deck-config-weights-tooltip = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-weights-tooltip = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention-tooltip2 = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention-tooltip3 = <MARKED AS NOT NEEDED>
+deck-config-seconds-to-show-question-tooltip-2 = ווען אויטאָ-פֿאָראויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן באַווײַזן די ענטפֿער. כּדי בטל צו מאַכן, שטעלן ׳0׳.
+deck-config-invalid-weights = <MARKED AS NOT NEEDED>
+deck-config-fsrs-on-all-clients = <MARKED AS NOT NEEDED>
 deck-config-optimize-all-tip = מע קען אָפּטימיזירן אַלע מוסטערס מיט אַ מאָל בײַם ניצן דאָס אַראָפּצי-קנעפּל פּונקט לעבן "אויפֿהיטן".
