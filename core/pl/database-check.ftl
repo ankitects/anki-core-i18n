@@ -7,6 +7,12 @@ database-check-card-properties =
         [many] Naprawiono { $count } kart z nieprawidłowymi wartościami.
        *[other] Nie naprawiono żadnej karty z nieprawidłowymi wartościami.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Dodano ostatni czas powtórki do { $count } karty.
+        [few] Dodano ostatni czas powtórki do { $count } kart.
+       *[many] Dodano ostatni czas powtórki do { $count } kart.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Usunięto { $count } kartę z brakującym szablonem.

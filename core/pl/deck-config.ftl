@@ -377,6 +377,7 @@ deck-config-fsrs-tooltip =
     
     Może pomóc zapamiętywać więcej materiału w tym samym czasie poprzez dokładniejszą ocenę jaka jest szansa zapomnienia karty. To ustawienie jest wspólne dla wszystkich opcji.
 deck-config-desired-retention-tooltip = Domyślna wartość 0.9 planuje karty w taki sposób, że masz 90% szans na pamiętanie ich, gdy pojawią się ponownie. Jeśli zwiększysz tę wartość, Anki będzie pokazywać karty częściej, aby zwiększyć szansę pamiętania ich. Jeśli ją zmniejszysz, Anki będzie pokazywać karty rzadziej, a ty będziesz zapominał więcej z nich. Bądź ostrożny przy ustawianiu tej wartości - większe wartości poważnie zwiększą liczbę powtórek, a mniejsze wartości mogą demotywować przez zapominanie dużej ilości materiału.
+deck-config-desired-retention-tooltip2 = Podane wartości obciążenia są przybliżone. Aby uzyskać większą dokładność, skorzystaj z symulatora.
 deck-config-historical-retention-tooltip =
     Gdy brakuje części twojej historii powtórek, FSRS musi wypełnić luki. Domyślnie algorytm założy, że gdy przeglądałeś te stare powtórki, pamiętałeś 90% materiału. Jeśli twoje stare zapamiętywanie było znacznie wyższe lub niższe niż 90%, dostosowanie tej opcji pozwoli FSRS lepiej oszacować brakujące powtórki.
     
@@ -451,11 +452,15 @@ deck-config-fsrs-simulator-radio-count = Powtórki
 deck-config-advanced-settings = Ustawienia zaawansowane
 deck-config-smooth-graph = Wygładzony wykres
 deck-config-suspend-leeches = Zawieś fiszki trudne do zapamiętania
-deck-config-save-options-to-preset = Zapisz zmiany w ustawieniach wstępnych
+deck-config-save-options-to-preset = Zapisz zmiany w opcjach
+deck-config-save-options-to-preset-confirm = Nadpisać ustawienia w obecnych opcjach zmianami ustawionymi obecnie w symulatorze?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamiętane
+deck-config-fsrs-simulator-radio-ratio = Stosunek czasu do zapamiętania
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } na jedną zapamiętaną kartę
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
