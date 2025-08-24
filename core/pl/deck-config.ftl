@@ -451,7 +451,6 @@ deck-config-advanced-settings = Ustawienia zaawansowane
 deck-config-smooth-graph = Wygładzony wykres
 deck-config-suspend-leeches = Zawieś fiszki trudne do zapamiętania
 deck-config-save-options-to-preset = Zapisz zmiany w ustawieniach wstępnych
-deck-config-plotted-on-x-axis = (Narysowane na osi X)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -478,6 +477,7 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-plotted-on-x-axis = (Narysowane na osi X)
 deck-config-a-100-day-interval =
     { $days ->
         [one] Stu-dniowa przerwa zmieni się w { $days } dzień.
@@ -516,6 +516,8 @@ deck-config-compute-optimal-retention-tooltip =
     if it significantly differs from 0.9, it's a sign that the time you've allocated each day is either too low
     or too high for the amount of cards you're trying to learn. This number can be useful as a reference, but it
     is not recommended to copy it into the desired retention field.
+deck-config-health-check-tooltip1 = NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+deck-config-health-check-tooltip2 = NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future. Health check is performed only when using Optimize Current Preset.
 deck-config-compute-optimal-retention = Compute minimum recommended retention
 deck-config-predicted-optimal-retention = Minimalny rekomendowany wskaźnik zapamiętywania: { $num }
 deck-config-weights-tooltip = Parametry FSRS wpływają na to, jak planowane są karty. Anki zaczyna ze standardowymi parametrami. Gdy osiągniesz 1000+ powtórek, możesz użyć opcji poniżej, aby zoptymalizować parametry w stosunku do tego, jak dobrze radzisz sobie w taliach używających tej opcji.
