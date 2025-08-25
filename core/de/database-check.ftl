@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] Ungültige Eigenschaften bei { $count } Karte korrigiert.
        *[other] Ungültige Eigenschaften bei { $count } Karten korrigiert.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Das Datum der letzten Wiederholung wurde bei { $count } Karte für die direkte Abfrage verfügbar gemacht.
+       *[other] Das Datum der letzten Wiederholung wurde bei { $count } Karten für die direkte Abfrage verfügbar gemacht.
+    }
 database-check-missing-templates =
     { $count ->
         [one] { $count } Karte ohne Vorlage wurde gelöscht.
