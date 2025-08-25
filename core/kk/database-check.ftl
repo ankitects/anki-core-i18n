@@ -7,7 +7,7 @@ database-check-new-card-high-due = Мерізімі >= 1,000,000 { $count } жа
 database-check-card-missing-note = Жазбасы жоқ { $count } карта жойылды.
 database-check-duplicate-card-ords = Үлгісі қайталанған { $count } карта жойылды.
 database-check-missing-decks = { $count } жоқ колода түзелді.
-database-check-revlog-properties = Қасиеттері жарамсыз { $count } шолу түзелді.
+database-check-revlog-properties = Қасиеттері жарамсыз { $count } шолым түзелді.
 database-check-notes-with-invalid-utf8 = Жарамсыз utf8 таңбалары бар { $count } жазба түзелді.
 database-check-fixed-invalid-ids = Уақыт белгісі болашақта тұрған { $count } нысан түзелді.
 # "db-check" is always in English

@@ -25,10 +25,10 @@ custom-study-select-tags-to-exclude = Шығарып тастайтын тамғ
 custom-study-selective-study = Таңдамалы оқу
 custom-study-study-by-card-state-or-tag = Карта күйі не таңбасы бойынша оқу
 custom-study-available-new-cards-2 = Қолжетімді жаңа карталар: { $countString }
-custom-study-available-review-cards-2 = Қолжетімді шолулар: { $countString }
+custom-study-available-review-cards-2 = Қолжетімді шолымдар: { $countString }
 custom-study-available-child-count = (туынды колодаларында { $count })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 custom-study-available-new-cards = Қолжетімді жаңа карталар: { $count }
-custom-study-available-review-cards = Қолжетімді шолулар: { $count }
+custom-study-available-review-cards = Қолжетімді шолымдар: { $count }
