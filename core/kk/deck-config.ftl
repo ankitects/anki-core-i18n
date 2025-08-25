@@ -165,6 +165,7 @@ deck-config-easy-days-sunday = Жексенбі
 deck-config-easy-days-normal = Қалыпты
 deck-config-easy-days-reduced = Ықшамдалған
 deck-config-easy-days-minimum = Минимум
+deck-config-easy-days-no-normal-days = Кемінде бір күн '{ deck-config-easy-days-normal }' болуы керек.
 
 ## Adding/renaming
 
@@ -218,6 +219,8 @@ deck-config-iterations = Итерация: { $count }...
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
 deck-config-percent-of-reviews = { $reviews } шолымдардың { $pct }%-ы
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Жетілдірулерді тексеру...
 deck-config-optimizing-preset = Баптаманы оңтайландыру { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Алдымен FSRS қосылуы керек.
 deck-config-wait-for-audio = Аудионы күту
@@ -236,12 +239,16 @@ deck-config-save-options-to-preset = Өзгерістерді Баптамаға
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Жатталған
+deck-config-fsrs-simulator-radio-ratio = Уақыт / Жатталған арасалмағы
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = Жатталған картаға { $time }
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-plotted-on-x-axis = (X білігіне түсірілген)
 deck-config-a-100-day-interval = 100 күн аралық { $days } күн болады.
 deck-config-fsrs-simulator-y-axis-title-time = Review Time/Day
 deck-config-fsrs-simulator-y-axis-title-count = Review Count/Day

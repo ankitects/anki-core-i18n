@@ -1,6 +1,7 @@
 database-check-corrupt = Жинақ файлы бүлінген. Авоматты сақтық көшірмеден қалпына келтіріңіз.
 database-check-rebuilt = Дерекқор қайта құрылды және оңтайландырылды.
 database-check-card-properties = { $count } жарамсыз карта қасиеті түзелді.
+database-check-card-last-review-time-empty = Кейінгі шолым уақыты { $count } картаға қосылды.
 database-check-missing-templates = Үлгісі жоқ { $count } карта жойылды.
 database-check-field-count = Өріс саны қате { $count } жазба түзелді.
 database-check-new-card-high-due = Мерізімі >= 1,000,000 { $count } жаңа карта табылды. Шолғыш бейнебетіне жылжытуды қарастырыңыз.

@@ -14,7 +14,7 @@ notetypes-basic-name = Қарапайым
 notetypes-basic-reversed-name = Қарапайым (және кері карта)
 notetypes-basic-optional-reversed-name = Қарапайым (қосымша кері карта)
 notetypes-basic-type-answer-name = Қарапайым (жауапты теру)
-notetypes-cloze-name = Саңылақ толтыру
+notetypes-cloze-name = Саңылау толтыру
 
 ## Default card template names
 

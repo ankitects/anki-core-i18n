@@ -15,6 +15,7 @@ importing-colon = Қоснүкте
 importing-comma = Үтір
 importing-empty-first-field = Бос бірінші өріс: { $val }
 importing-field-separator = Өріс бөлгіші
+importing-field-separator-guessed = Өріс бөлгіші (жорамал)
 importing-field-mapping = Өрістерді сәйкестендіру
 importing-field-of-file-is = Файлдың <b>{ $val }</b> өрісі:
 importing-fields-separated-by = Өрістер бөлгіші: { $val }
