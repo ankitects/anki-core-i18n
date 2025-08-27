@@ -11,7 +11,7 @@ card-stats-new-card-position = מיקום
 card-stats-card-template = סוג כרטיס
 card-stats-note-type = סוג רשומה
 card-stats-deck-name = חפיסה
-card-stats-preset = כל קבוצת ההגדרות
+card-stats-preset = משויך לקבוצת ההגדרות
 card-stats-note-id = מזהה רשומה
 card-stats-card-id = מזהה כרטיס
 card-stats-review-log-rating = ניקוד
@@ -35,10 +35,13 @@ card-stats-fsrs-forgetting-curve-first-week = שבוע ראשון
 card-stats-fsrs-forgetting-curve-first-month = חודש ראשון
 card-stats-fsrs-forgetting-curve-first-year = שנה ראשונה
 card-stats-fsrs-forgetting-curve-all-time = כל הזמן
-card-stats-fsrs-forgetting-curve-probability-of-recalling = הסתברות להיזכרות
 card-stats-fsrs-forgetting-curve-desired-retention = שימור רצוי
 
 ## Window Titles
 
 card-stats-current-card = כרטיס נוכחי ({ $context })
 card-stats-previous-card = כרטיס קודם ({ $context })
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+card-stats-fsrs-forgetting-curve-probability-of-recalling = הסתברות להיזכרות
