@@ -115,9 +115,9 @@ statistics-counts-relearning-cards = נלמדים מחדש
 statistics-counts-title = מניין הכרטיסים
 statistics-counts-separate-suspended-buried-cards = הצג בנפרד כרטיסים מושהים ומוטמנים.
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -129,7 +129,7 @@ statistics-counts-separate-suspended-buried-cards = הצג בנפרד כרטיס
 ##      window is certain sizes.
 
 statistics-true-retention-title = שימור אמיתי
-statistics-true-retention-subtitle = שיעור מעבר של כרטיסים עם מרווח של ≥ 1 יום.
+statistics-true-retention-subtitle = אחוזי הידע של כרטיסים עם מרווח של ≥ 1 יום.
 statistics-true-retention-tooltip = אם אתם משתמשים ב-FSRS, צפויה רמת השמירה האמיתית שלכם להיות קרובה לרמת השמירה הרצויה. שימו לב שנתונים ליום בודד הם לא מדויקים, לכן עדיף להסתכל על נתונים חודשיים.
 statistics-true-retention-range = טווח
 statistics-true-retention-pass = עבר
@@ -164,12 +164,12 @@ statistics-range-search = חיפוש
 statistics-card-ease-title = קלות הכרטיס
 statistics-card-difficulty-title = קושי כרטיס
 statistics-card-stability-title = יציבות כרטיס
-statistics-card-stability-subtitle = כרטיסים במרווח שבו יש לך סיכוי של 90% לזכור.
+statistics-card-stability-subtitle = כרטיסים במרווח שבו סיכויי הזכירה של השאלה במבחן ירדו ל90%.
 statistics-median-stability = יציבות חציונית
 statistics-card-retrievability-title = אחזור כרטיס
 statistics-card-ease-subtitle = ככל שהקלות נמוכה יותר, כך גוברת התדירות שהכרטיס יופיע.
-statistics-card-difficulty-subtitle2 = ככל שהקושי גבוה יותר, היציבות איטית יותר תגדל.
-statistics-retrievability-subtitle = כמה סביר שתזכור.
+statistics-card-difficulty-subtitle2 = ככל שרמת הקושי גבוהה יותר, כך היציבות תגדל לאט יותר.
+statistics-retrievability-subtitle = כמה סביר שתזכור את התשובה במבחן.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->

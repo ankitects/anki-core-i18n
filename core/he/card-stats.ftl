@@ -1,4 +1,4 @@
-card-stats-added = נוספו
+card-stats-added = נוסף
 card-stats-first-review = חזרה ראשונה
 card-stats-latest-review = חזרה אחרונה
 card-stats-interval = מרווח-זמן
