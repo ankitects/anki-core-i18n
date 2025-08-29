@@ -115,7 +115,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     `Случайная запись, затем тип карточки`: Отбирает записи в случайном порядке, затем показывает все связанные карточки по порядку.
     
     `Случайный`: Полностью перетасовывает отобранные карточки.
-deck-config-new-review-priority = Порядок новых и повторяемых
+deck-config-new-review-priority = Порядок новых (к повторяемым)
 deck-config-new-review-priority-tooltip = Когда показывать новые карточки по отношению к повторяемым.
 deck-config-interday-step-priority = Порядок перенесённых
 deck-config-interday-step-priority-tooltip =
