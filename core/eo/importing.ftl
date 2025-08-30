@@ -1,9 +1,9 @@
-importing-failed = Enporto fiaskis.
-importing-failed-debug-info = Enporto fiaskis. Sencimigaj informoj:
+importing-failed-debug-info = Malsukcesis enporti. Senerarigaj informoj:
 importing-aborted = Nuligita: { $val }
 importing-added-duplicate-with-first-field = Aldono de duoblaĵo kun la unua kampo: { $val }
+importing-all-supported-formats = Ĉiuj subtenataj dosiertipoj
 importing-allow-html-in-fields = Permesi HTML en kampoj
-importing-anki-files-are-from-a-very = .anki-dosieroj devenas de malnovegaj versioj de Anki. Vi povas enporti ilin per Anki 2.0, kiu estas havebla sur la retpaĝo de Anki.
+importing-anki-files-are-from-a-very = .anki-dosieroj devenas de malnovegaj versioj de Anki. Vi povas enporti ilin per la aldonaĵo 175027074 aŭ per Anki 2.0 , kiu estas disponebla en la Anki-retejo.
 importing-anki2-files-are-not-directly-importable = .anki2-dosieroj ne estas senpere enportebla - bonvolu enporti anstataŭe la .apkg aŭ .zip-dosieron, kiun vi ricevis.
 importing-appeared-twice-in-file = Troviĝis duoble en dosiero: { $val }
 importing-by-default-anki-will-detect-the = Laŭnorme Anki detektos la signojn inter kampoj, kiel ekzemple tabulatoron, komon, ktp. Se Anki malĝuste detektas signon, vi povas enmeti ĝin ĉi tie. Uzu \t por reprezenti tabulatoron.
@@ -33,15 +33,12 @@ importing-multicharacter-separators-are-not-supported-please = Plursignaj disigi
 importing-notes-added-from-file = Notoj, kiuj  estas aldonitaj de la dosiero: { $val }
 importing-notes-found-in-file = Notoj, kiuj estas trovitaj en la dosiero: { $val }
 importing-notes-skipped-as-theyre-already-in = Notoj estas preterpasitaj, ĉar ili jam troviĝas en via kolekto: { $val }
-importing-notes-that-could-not-be-imported = Notoj, kiuj ne estas enportebla, ĉar la nototipo ŝanĝiĝis: { $val }
 importing-notes-updated-as-file-had-newer = Notoj estas ĝisdatigitaj, ĉar dosiero havas pli novan version: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakita Anki-Kartaro/Kolekto (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Leciono de Pauker 1.8 (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' havis { $found } kampojn, anstataŭ la atendita { $expected }
 importing-selected-file-was-not-in-utf8 = La elektita dosiero ne havis la datumaranĝon UTF-8. Bonvolu atenti la ĉapitron "Import" en la manlibro.
 importing-semicolon = Punktokomo
 importing-skipped = Preterpasita
-importing-supermemo-xml-export-xml = Supermemo XML elportaĵo (*.xml)
 importing-text-separated-by-tabs-or-semicolons = Teksto apartigite per taboj aŭ punktokomoj (*)
 importing-the-first-field-of-the-note = La unua kampo de la nototipo devas esti mapita.
 importing-the-provided-file-is-not-a = La elektita dosiero ne estas valida .apkg-dosiero
@@ -76,4 +73,10 @@ importing-processed-media-file =
         [one] { $count } prilaborita aŭdovidaĵo
        *[other] { $count } prilaboritaj aŭdovidaĵoj
     }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-notes-that-could-not-be-imported = Notoj, kiuj ne estas enportebla, ĉar la nototipo ŝanĝiĝis: { $val }
 importing-added = Aldonita
+importing-pauker-18-lesson-paugz = Leciono de Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo XML elportaĵo (*.xml)
