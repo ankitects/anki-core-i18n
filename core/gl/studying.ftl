@@ -21,9 +21,11 @@ studying-easy = Doado
 studying-edit = Editar
 studying-empty = Baleira
 studying-finish = Terminar
+studying-flag-card = Abandeirar etiqueta
 studying-good = Ben
 studying-hard = Difícil
 studying-it-has-been-suspended = Foi suspendida.
+studying-manually-buried-cards = Tarxetas agochadas manualmente
 studying-mark-note = Marcar nota
 studying-more = Máis
 studying-no-cards-are-due-yet = Non hai tarxetas pendentes
@@ -53,3 +55,5 @@ studying-minute =
         [one] { $count } minuto.
        *[other] { $count } minutos.
     }
+studying-question-time-elapsed = Esgotouse o tempo de pregunta
+studying-answer-time-elapsed = Esgotouse o tempo de resposta

@@ -6,6 +6,16 @@
 sync-media-added-count = Engadidos: { $up }↑ { $down }↓
 sync-media-removed-count = Eliminados: { $up }↑ { $down }↓
 sync-media-checked-count = Comprobados: { $count }
+sync-media-starting = Comezando a sincronización de multimedia...
+sync-media-complete = Completouse a sincronización de multimedia.
+sync-media-failed = Fallou a sincronización de multimedia.
+sync-media-aborting = Cancelando a sincronización de multimedia...
+sync-media-aborted = Cancelouse a sincronización de multimedia.
+# Shown in the sync log to indicate media syncing will not be done, because it
+# was previously disabled by the user in the preferences screen.
+sync-media-disabled = Desactivouse a sincronización de multimedia.
+# Title of the screen that shows syncing progress history
+sync-media-log-title = Rexistro de sincronización de multimedia
 
 ## Error messages / dialogs
 

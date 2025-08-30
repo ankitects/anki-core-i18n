@@ -1,4 +1,18 @@
 actions-add = Engadir
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-all-selected = Todas seleccionadas
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-any-selected = Calquera seleccionada
 actions-cancel = Cancelar
 actions-choose = Escoller
 actions-close = Pechar
@@ -9,6 +23,7 @@ actions-custom-study = Estudo personalizado
 actions-decks = Barallas
 actions-delete = Eliminar
 actions-export = Exportar
+actions-empty-cards = Tarxetas baleiras
 actions-filter = Filtrar
 actions-help = Axuda
 actions-import = Importar
@@ -32,6 +47,8 @@ actions-search = Busca
 actions-select = Seleccionar
 actions-shortcut-key = Tecla de atallo: { $val }
 actions-suspend-card = Suspender tarxeta
+actions-answer-card = Responder tarxeta
+actions-unbury-unsuspend = Desagochar/anular suspensión
 actions-add-deck = Engadir baralla
 actions-add-note = Engadir nota
 actions-update-tag = Actualizar etiqueta

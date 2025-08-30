@@ -27,4 +27,6 @@ card-template-rendering-no-such-field = Encontrouse "{ $found }", mais non hai n
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = O anverso desta tarxeta está baleiro.
-card-template-rendering-missing-cloze = Non se encontrou ningún oco número { $number } na tarxeta.
+card-template-rendering-missing-cloze =
+    Non se encontrou ningún oco número { $number } na tarxeta.
+    Engade un oco ou usa a ferramenta "Tarxetas baleiras".
