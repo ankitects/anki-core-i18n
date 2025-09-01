@@ -275,12 +275,10 @@ deck-config-which-deck = 要顯示哪一個牌組的選項？
 deck-config-updating-cards = 正在更新卡片：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = 提供的 FSRS 參數無效。留空以使用預設參數。
 deck-config-not-enough-history = 複習歷程過少，無法執行此動作。
-deck-config-unable-to-determine-desired-retention = 無法計算出留存比率推薦最小值。
 deck-config-must-have-400-reviews = 只找到了 { $count } 筆複習記錄。至少需要 400 筆複習記錄才能執行此動作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 參數
 deck-config-compute-optimal-weights = 最佳化 FSRS 參數
-deck-config-compute-minimum-recommended-retention = 留存比率推薦最小值
 deck-config-optimize-button = 最佳化當前預設組
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text }（較慢）
@@ -293,7 +291,6 @@ deck-config-historical-retention = 歷史留存比率
 deck-config-smaller-is-better = 數字越小表示越符合你的複習歷程。
 deck-config-steps-too-large-for-fsrs = 啟用 FSRS 時，不建議設定超過一天的學習階段。
 deck-config-get-params = 取得參數
-deck-config-predicted-minimum-recommended-retention = 留存比率推薦最小值：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 反覆運算次數：{ $count }...
 deck-config-reschedule-cards-on-change = 更改同時重新排程卡片
@@ -327,7 +324,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     按下「最佳化」按鈕後，FSRS 將分析你的複習歷程，為你的記憶和學習內容產生最佳參數。如果各牌組難度差距過大，則建議為各牌組單獨設定預設組，因為難度不同的牌組需要使用不同的參數。參數無需頻繁最佳化，幾個月一次即可。
     
     根據預設，最佳化參數時會計算所有使用當前預設組的牌組的複習歷程。在計算參數前，你可以透過調整搜尋條件來更改要用於最佳化參數的卡片。
-deck-config-compute-optimal-retention-tooltip4 = 此工具將嘗試計算出能讓你在最短時間內學習最多內容的期望留存比率。設定期望留存比率時可參考計算結果。若你不在乎多花時間學習，可以將期望留存比率設定稍高一點來加強記憶。期望留存比率低於最小值會使遺忘率過高，反而導致工作量增加，因此不建議設定過低。
 deck-config-please-save-your-changes-first = 請先儲存更動。
 deck-config-workload-factor-change =
     預估工作量：{ $factor } 倍
@@ -368,7 +364,6 @@ deck-config-smooth-graph = 平滑圖表
 deck-config-suspend-leeches = 擱置低效卡
 deck-config-save-options-to-preset = 儲存更動到預設組
 deck-config-save-options-to-preset-confirm = 要用模擬器中設定的選項覆寫當前預設組選項嗎？
-deck-config-plotted-on-x-axis = （繪製於 X 軸上）
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -385,7 +380,7 @@ deck-config-health-check = 最佳化時檢查健康情況
 deck-config-fsrs-bad-fit-warning =
     健康檢查：FSRS 難以根據你的記憶情況進行預測。請嘗試：
     
-    - 擱置或重寫低效卡。
+    - 擱置或重寫總是反覆遺忘的卡片。
     - 不頻繁改變回答按鈕的用法。注意：回答「困難」表示答題正確，請勿在答題失敗時按下。
     - 理解內容後再記憶。
     
@@ -397,6 +392,11 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = 無法計算出留存比率推薦最小值。
+deck-config-predicted-minimum-recommended-retention = 留存比率推薦最小值：{ $num }
+deck-config-compute-minimum-recommended-retention = 留存比率推薦最小值
+deck-config-compute-optimal-retention-tooltip4 = 此工具將嘗試計算出能讓你在最短時間內學習最多內容的期望留存比率。設定期望留存比率時可參考計算結果。若你不在乎多花時間學習，可以將期望留存比率設定稍高一點來加強記憶。期望留存比率低於最小值會使遺忘率過高，反而導致工作量增加，因此不建議設定過低。
+deck-config-plotted-on-x-axis = （繪製於 X 軸上）
 deck-config-a-100-day-interval =
     { $days ->
        *[other] 若間隔原為 100 天，則將變為 { $days } 天。
