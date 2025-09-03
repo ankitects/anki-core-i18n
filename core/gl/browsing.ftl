@@ -31,7 +31,7 @@ browsing-change-note-type = Cambiar tipo de nota
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Cambiar tipo de nota...
 browsing-change-notetype = Cambiar tipo de nota
-browsing-clear-unused-tags = Borrar etiquetas non utilizadas
+browsing-clear-unused-tags = Borrar etiquetas non usadas
 browsing-confirm-saved-search-overwrite = Xa existe unha busca gardada co nome { $name }. Queres substituíla?
 browsing-created = Creado
 browsing-current-deck = Baralla actual
