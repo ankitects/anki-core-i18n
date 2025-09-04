@@ -334,12 +334,10 @@ deck-config-which-deck = 您想显示哪个牌组的选项？
 deck-config-updating-cards = 更新卡片中：{ $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = 提供的 FSRS 参数无效。可以将它们留空以使用默认参数。
 deck-config-not-enough-history = 复习历史记录过少，无法执行该操作。
-deck-config-unable-to-determine-desired-retention = 无法计算出推荐的最小记忆保留率
 deck-config-must-have-400-reviews = 只找到了 { $count } 次复习记录。至少需要复习 400 次才能进行此操作。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS 参数
 deck-config-compute-optimal-weights = 优化 FSRS 参数
-deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留率
 deck-config-optimize-button = 优化当前预设
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text }（较慢）
@@ -352,7 +350,6 @@ deck-config-historical-retention = 历史记忆保留率
 deck-config-smaller-is-better = 数字越小表示越符合您的复习历史记录。
 deck-config-steps-too-large-for-fsrs = FSRS 启用时，不推荐设置超过一天的学习阶段间隔。
 deck-config-get-params = 获取参数
-deck-config-predicted-minimum-recommended-retention = 推荐的最小记忆保留率：{ $num }
 deck-config-complete = 已完成 { $num }%。
 deck-config-iterations = 迭代次数：{ $count }…
 deck-config-reschedule-cards-on-change = 更改时将卡片重新排程
@@ -398,11 +395,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     无需经常优化您的参数——每隔几个月优化一次就足够了。
     默认情况下，将根据所有使用该预设配置的牌组的复习历史记录计算出参数。
     如果您想要更改用于优化参数的卡片，您可以选择在计算参数之前调整搜索框的内容。
-deck-config-compute-optimal-retention-tooltip4 =
-    该工具会尝试找出在最少的时间内能学习最多材料的期望记忆保留率。
-    在决定将期望记忆保留率设置为多少时，可以将此计算出的数值作为参考。
-    如果您愿意以更多的学习时间换取更高的记忆保留率，您可能希望选择一个更高的期望记忆保留率。
-    并不推荐将期望记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
 deck-config-please-save-your-changes-first = 请先保存您预设配置的更改。
 deck-config-workload-factor-change =
     预计工作量：{ $factor } 倍
@@ -433,6 +425,7 @@ deck-config-desired-retention-below-optimal = 您期望的记忆保留率低于�
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS 模拟器（实验性）
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS 期望记忆保留率模拟器（实验性）
+deck-config-fsrs-simulate-save-preset = 优化后，请在运行模拟器之前保存预设配置。
 deck-config-fsrs-desired-retention-help-me-decide-experimental = 帮我决定（实验性）
 deck-config-additional-new-cards-to-simulate = 模拟中添加的新卡片数
 deck-config-simulate = 开始模拟
@@ -443,7 +436,6 @@ deck-config-smooth-graph = 平滑图表
 deck-config-suspend-leeches = 暂停记忆难点卡片
 deck-config-save-options-to-preset = 保存更改到预设
 deck-config-save-options-to-preset-confirm = 是否用模拟器中当前设置的选项覆盖当前预设中的选项？
-deck-config-plotted-on-x-axis = （绘制在 X 轴上）
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -461,7 +453,7 @@ deck-config-fsrs-bad-fit-warning =
     健康检查：
     FSRS 难以预测您的记忆规律。建议：
     
-    - 暂停或重制记忆难点卡片
+    - 暂停或重制您反复遗忘的卡片
     - 保持评分按钮使用一致性（「困难」表示通过而非失败）
     - 先理解后记忆
     
@@ -473,6 +465,15 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = 无法计算出推荐的最小记忆保留率
+deck-config-predicted-minimum-recommended-retention = 推荐的最小记忆保留率：{ $num }
+deck-config-compute-minimum-recommended-retention = 推荐的最小记忆保留率
+deck-config-compute-optimal-retention-tooltip4 =
+    该工具会尝试找出在最少的时间内能学习最多材料的期望记忆保留率。
+    在决定将期望记忆保留率设置为多少时，可以将此计算出的数值作为参考。
+    如果您愿意以更多的学习时间换取更高的记忆保留率，您可能希望选择一个更高的期望记忆保留率。
+    并不推荐将期望记忆保留率设置低于最低值，因为这会因高遗忘率而带来更多的工作量。
+deck-config-plotted-on-x-axis = （绘制在 X 轴上）
 deck-config-a-100-day-interval =
     { $days ->
        *[other] 原为 100 天的间隔将变为 { $days } 天。
