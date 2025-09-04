@@ -318,7 +318,6 @@ deck-config-which-deck = Какую колоду вы выбираете?
 deck-config-updating-cards = Обновление карт: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Указанные параметры FSRS недействительны. Оставьте поле для параметров пустым, чтобы использовать параметры по умолчанию.
 deck-config-not-enough-history = Недостаточно повторений для выполнения данной операции.
-deck-config-unable-to-determine-desired-retention = Не удалось вычислить минимальное рекомендуемое усвоение
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Найдено только { $count } повторение. Для выполнения этой операции у вас должно быть не менее 400 повторений.
@@ -328,7 +327,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Параметры FSRS
 deck-config-compute-optimal-weights = Оптимизировать параметры FSRS
-deck-config-compute-minimum-recommended-retention = Минимальное рекомендуемое усвоение
 deck-config-optimize-button = Оптимизировать
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (медленно)
@@ -341,7 +339,6 @@ deck-config-historical-retention = Историческое усвоение
 deck-config-smaller-is-better = Низкие значения указывают, что алгоритм хорошо адаптировался к вашей истории повторений.
 deck-config-steps-too-large-for-fsrs = Когда включён FSRS, шаги длиннее 1 дня не рекомендуются.
 deck-config-get-params = Получить параметры
-deck-config-predicted-minimum-recommended-retention = Минимальное рекомендуемое усвоение: { $num }
 deck-config-complete = { $num }% выполнено.
 deck-config-iterations = Итерация { $count }...
 deck-config-reschedule-cards-on-change = Перепланировать карточки при изменениях.
@@ -392,9 +389,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Не нужно часто оптимизировать параметры - достаточно одного раза в несколько месяцев.
     
     По умолчанию параметры будут оптимизированы на основе истории просмотров всех колод, использующих текущую предустановку. Вы можете дополнительно настроить поиск перед оптимизацией параметров, если вы хотите изменить, какие карты будут использоваться для оптимизации.
-deck-config-compute-optimal-retention-tooltip4 =
-    Этот инструмент попытается найти желаемую величину усвоения, которая приведет к наибольшему усвоению материала за наименьшее время. Рассчитанное число может служить ориентиром при принятии решения о том, каким должно быть желаемое усвоение. Вы можете выбрать более высокое значение, если вы готовы потратить больше учебного времени на его достижение. Устанавливать желаемый уровень удержания ниже минимального не рекомендуется, так как это приведет к увеличению нагрузки 
-    из-за большого количества забытых карточек.
 deck-config-please-save-your-changes-first = Пожалуйста, сначала сохраните изменения.
 deck-config-workload-factor-change =
     Примерная рабочая нагрузка: { $factor }x
@@ -427,6 +421,7 @@ deck-config-desired-retention-below-optimal = Ваше значение жела
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Симулятор FSRS (Гибкого графика интервальных повторений) (пробный)
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS симулятор желаемого удержания (экспериментальный)
+deck-config-fsrs-simulate-save-preset = После оптимизации сохраните конфигурацию перед запуском симулятора.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Помощь в принятии решения (экспериментальный)
 deck-config-additional-new-cards-to-simulate = Дополнительные новые карточки для тестирования
 deck-config-simulate = Протестировать
@@ -463,6 +458,12 @@ deck-config-fsrs-good-fit = FSRS хорошо адаптирован к ваше
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Не удалось вычислить минимальное рекомендуемое усвоение
+deck-config-predicted-minimum-recommended-retention = Минимальное рекомендуемое усвоение: { $num }
+deck-config-compute-minimum-recommended-retention = Минимальное рекомендуемое усвоение
+deck-config-compute-optimal-retention-tooltip4 =
+    Этот инструмент попытается найти желаемую величину усвоения, которая приведет к наибольшему усвоению материала за наименьшее время. Рассчитанное число может служить ориентиром при принятии решения о том, каким должно быть желаемое усвоение. Вы можете выбрать более высокое значение, если вы готовы потратить больше учебного времени на его достижение. Устанавливать желаемый уровень удержания ниже минимального не рекомендуется, так как это приведет к увеличению нагрузки 
+    из-за большого количества забытых карточек.
 deck-config-plotted-on-x-axis = (Отложено по оси X)
 deck-config-a-100-day-interval =
     { $days ->
