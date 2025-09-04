@@ -287,7 +287,6 @@ deck-config-which-deck = Für welchen Stapel möchten Sie die Einstellungen anze
 deck-config-updating-cards = Kartenaktualisierung: { $current_cards_count }/{ $total_cards_count } …
 deck-config-invalid-parameters = Die angegebenen FSRS-Parameter sind ungültig. Lassen Sie das Feld leer, um die Standardparameter zu verwenden.
 deck-config-not-enough-history = Zu wenige Wiederholungen um diese Aktion durchzuführen.
-deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erinnerungsquote nicht möglich.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Es wurde nur { $count } Wiederholung gefunden. Für diesen Vorgang sind mindestens 400 Wiederholungen erforderlich.
@@ -296,7 +295,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-Parameter
 deck-config-compute-optimal-weights = Optimierung von FSRS-Parametern
-deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote
 deck-config-optimize-button = Dieses Stapelprofil optimieren
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (langsam)
@@ -309,7 +307,6 @@ deck-config-historical-retention = Frühere Erinnerungsquote
 deck-config-smaller-is-better = Je kleiner die Zahlen, desto besser passen die Parameter zu Ihrem Wiederholungsverlauf.
 deck-config-steps-too-large-for-fsrs = Wenn FSRS aktiviert ist, sind Lernstufen von 1 Tag oder mehr nicht empfohlen.
 deck-config-get-params = Parameter abrufen
-deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote: { $num }
 deck-config-complete = { $num }% abgeschlossen.
 deck-config-iterations = Wiederholungszyklus: { $count } …
 deck-config-reschedule-cards-on-change = Bei Änderungen alle Karten umplanen
@@ -353,10 +350,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Es ist nicht nötig, die Parameter häufig zu optimieren – einmal alle paar Monate genügt.
     
     Standardmäßig werden die Parameter basierend auf dem Wiederholungsverlauf aller Stapel ermittelt, die das aktuelle Stapelprofil nutzen. Sie können vor der Berechnung die Suchkriterien anpassen, um festzulegen, welche Karten zur Optimierung der Parameter herangezogen werden sollen.
-deck-config-compute-optimal-retention-tooltip4 =
-    Ermittelt die Erinnerungsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
-    
-    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erinnerungsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
 deck-config-please-save-your-changes-first = Bitte speichern Sie zuerst Ihre Änderungen.
 deck-config-workload-factor-change = Das Arbeitspensum beträgt etwa { $factor } mal so viel wie bei einer gewünschten Erinnerungsquote von { $previousDR }%.
 deck-config-workload-factor-unchanged = Je höher dieser Wert, desto öfter werden die Karten gezeigt.
@@ -386,6 +379,7 @@ deck-config-desired-retention-below-optimal = Ihre gewünschte Erinnerungsquote 
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS-Simulator (experimentell)
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS-Simulator für die gewünschte Erinnerungsquote (experimentell)
+deck-config-fsrs-simulate-save-preset = Das Stapelprofil wurde optimiert. Es muss vor dem Start des Simulators gespeichert werden.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Entscheidungshilfe (experimentell)
 deck-config-additional-new-cards-to-simulate = Zusätzliche fiktive neue Karten
 deck-config-simulate = Simulieren
@@ -396,7 +390,6 @@ deck-config-smooth-graph = Kurve glätten
 deck-config-suspend-leeches = Lernbremsen dauerhaft ausschließen
 deck-config-save-options-to-preset = Einstellungen ins Stapelprofil übertragen
 deck-config-save-options-to-preset-confirm = Die Einstellungen im Stapelprofil mit den derzeit im Simulator gesetzten Einstellungen überschreiben?
-deck-config-plotted-on-x-axis = (siehe x-Achse)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -423,6 +416,14 @@ deck-config-fsrs-good-fit = FSRS hat sich gut an Ihr Gedächtnis angepasst.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Bestimmung des empfohlenen Mindestwerts für die Erinnerungsquote nicht möglich.
+deck-config-predicted-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote: { $num }
+deck-config-compute-minimum-recommended-retention = Empfohlener Mindestwert für die Erinnerungsquote
+deck-config-compute-optimal-retention-tooltip4 =
+    Ermittelt die Erinnerungsquote, bei der der Zeitaufwand im Verhältnis zum Lernerfolg am geringsten ist.
+    
+    Dieser Wert hilft Ihnen bei der Wahl Ihrer gewünschten Erinnerungsquote. Sie können einen höheren Wert wählen, wenn Sie bereit sind, dafür mehr Zeit zu investieren. Es ist jedoch nicht sinnvoll, einen niedrigeren Wert zu wählen, da dies den Zeitaufwand durch eine erhöhte Vergessensrate ebenfalls vergrößern würde.
+deck-config-plotted-on-x-axis = (siehe x-Achse)
 deck-config-a-100-day-interval =
     { $days ->
         [one] Ein Intervall von 100 Tagen wird zu { $days } Tag.
