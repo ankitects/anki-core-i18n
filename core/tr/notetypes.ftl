@@ -23,6 +23,7 @@ notetypes-add-note-type = Not Türü Ekle
 notetypes-cards = Kartlar...
 notetypes-clone = Kopyala: { $val }
 notetypes-copy = { $val } kopyası
+notetypes-create-scalable-images-with-dvisvgm = dvisvgm ile ölçeklenebilir görüntüler oluşturun
 notetypes-delete-this-note-type-and-all = Bu not türü ve tüm kartları silinsin mi?
 notetypes-delete-this-unused-note-type = Kullanılmayan bu not türü silinsin mi?
 notetypes-fields = Alanlar...

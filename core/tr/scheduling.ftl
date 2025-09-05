@@ -93,6 +93,7 @@ scheduling-custom-study = özel çalışma
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1, önceki Anki sürümlerinde bulunan bazı sorunları gideren yeni bir zamanlayıcı içeriyor. Güncellemeniz önerilir.
 scheduling-update-done = Planlayıcı başarıyla güncellendi.
 scheduling-update-button = Güncelleştir
 scheduling-update-later-button = Daha sonra

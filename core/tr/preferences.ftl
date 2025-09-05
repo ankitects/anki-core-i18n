@@ -26,6 +26,7 @@ preferences-synchronize-audio-and-images-too = Ses ve resimleri de senkronize ed
 preferences-login-successful-sync-now = Giriş başarılı. Tercihler kaydedilip senkronizasyon yapılsın mı?
 preferences-timebox-time-limit = Zaman sınırı
 preferences-user-interface-size = Kullanıcı arayüzü boyutu
+preferences-you-can-restore-backups-via-fileswitch = Yedeklemeleri Dosya > Profil Değiştir yoluyla geri yükleyebilirsiniz.
 preferences-default-search-text = Varsayılan arama metni
 preferences-default-search-text-example = örn. "deck:current"
 preferences-theme = Tema

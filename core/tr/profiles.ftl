@@ -11,6 +11,7 @@ profiles-user-1 = Kullanıcı 1
 profiles-confirm-lang-choice = Anki'nin arayüzünü { $lang } dilinde görüntülemek istediğinden emin misin?
 profiles-could-not-create-data-folder = Anki, veri klasörünü oluşturamadı. Lütfen kılavuzun Dosya Konumları bölümüne bakın ve konumun salt okunur olmadığından emin olun.
 profiles-prefs-corrupt-title = Tercihler Bozuk
+profiles-prefs-file-is-corrupt = Anki'nin prefs21.db dosyası bozuldu ve yeniden oluşturuldu. Birden fazla profil kullanıyorsanız, kartlarınızı kurtarmak için lütfen aynı adları kullanarak profillerinizi tekrar ekleyin.
 profiles-profile-does-not-exist = İstenilen profil yok.
 profiles-creating-backup = Yedek Oluşturuluyor...
 profiles-backup-created = Yedekleme yaratıldı.
