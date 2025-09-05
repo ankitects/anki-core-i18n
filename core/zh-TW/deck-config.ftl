@@ -354,6 +354,7 @@ deck-config-desired-retention-below-optimal = 你的期望留存比率低於最�
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS 模擬器（實驗性）
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS 期望留存比率模擬器（實驗性）
+deck-config-fsrs-simulate-save-preset = 完成最佳化後，請先儲存設定檔再執行模擬器。
 deck-config-fsrs-desired-retention-help-me-decide-experimental = 幫我選擇（實驗性）
 deck-config-additional-new-cards-to-simulate = 模擬新增卡片數量
 deck-config-simulate = 模擬
