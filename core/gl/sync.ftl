@@ -20,6 +20,9 @@ sync-media-log-title = Rexistro de sincronización de multimedia
 ## Error messages / dialogs
 
 sync-wrong-pass = O ID de AnkiWeb ou o contrasinal son incorrectos; téntao de novo.
+sync-must-wait-for-end = O Anki estase sincronizando neste momento. Espera a que sincronización remate e téntao de novo.
+sync-confirm-empty-download = A colección local non ten tarxetas. Queres descargalas dende o AnkiWeb?
+sync-confirm-empty-upload = A colección do AnkiWeb non ten tarxetas. Queres substituílas pola colección local?
 sync-conflict-explanation =
     As súas barallas aquí e en AnkiWeb difiren ata tal punto que non poden ser fundidas, así que é preciso sobreescribir as barallas dun lado coas do outro.
     
@@ -31,9 +34,15 @@ sync-password-label = Constrasinal:
 sync-account-required =
     <h1>Requírese unha conta</h1>
     Requírese unha conta gratuíta para manter a súa colección sincronizada. <a href="{ $link }">Rexístrese</a> e introduza os seus datos embaixo.
+sync-sign-in = Iniciar sesión
+sync-ankihub-dialog-heading = Iniciar sesión no AnkiHub
+sync-ankihub-username-label = Usuario ou correo electrónico:
+sync-ankihub-login-failed = Non se puido iniciar sesión no AnkiHub coas credencias fornecidas.
 
 ## Buttons
 
+sync-media-log-button = Rexistro dos ficheiros multimedia
+sync-abort-button = Cancelar
 sync-download-from-ankiweb = Descargar desde AnkiWeb
 sync-upload-to-ankiweb = Enviar a AnkiWeb
 sync-cancel-button = Cancelar

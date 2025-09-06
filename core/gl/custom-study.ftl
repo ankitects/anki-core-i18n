@@ -1,3 +1,4 @@
+custom-study-must-rename-deck = Renomea a baralla de estudo personalizado existente para continuar.
 custom-study-all-cards-in-random-order-dont = Tódalas tarxetas ao chou (non reprogramar)
 custom-study-all-review-cards-in-random-order = Tódalas tarxetas de repaso ao chou
 custom-study-cards = tarxetas
@@ -23,6 +24,11 @@ custom-study-select = Seleccionar
 custom-study-select-tags-to-exclude = Selecciona as etiquetas a excluír:
 custom-study-selective-study = Estudio selectivo
 custom-study-study-by-card-state-or-tag = Estudar segundo o estado ou a etiqueta da tarxeta
+custom-study-available-new-cards-2 = Tarxetas novas dispoñíbeis: { $countString }
+custom-study-available-review-cards-2 = Tarxetas dispoñíbeis para repasar: { $countString }
+custom-study-available-child-count = ({ $count } en barallas secundarias)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+custom-study-available-new-cards = Tarxetas novas dispoñíbeis: { $count }
+custom-study-available-review-cards = Tarxetas dispoñíbeis para repasar: { $count }

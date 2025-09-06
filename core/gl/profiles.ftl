@@ -5,3 +5,5 @@ profiles-please-remove-the-folder-and = Por favor elimine o cartafol { $val } e 
 profiles-profiles = Perfiles
 profiles-quit = Saír
 profiles-user-1 = Usuario 1
+profiles-creating-backup = Creando copia de seguranza...
+profiles-backup-created = Creouse unha copia de seguranza.
