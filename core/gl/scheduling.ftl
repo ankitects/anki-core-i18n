@@ -58,6 +58,10 @@ scheduling-today-new-limit-reached =
     Pode incrementar o límite nas opción, pero por favor,
     teña en mente que cantas máis cartas introduza, máis alta
     será a súa carga de traballo a curto prazo.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = desagochalas
+scheduling-how-to-custom-study = Se queres estudar fóra da programación habitual, podes usar a opción { $customStudy }.
 
 ## Scheduler upgrade
 
