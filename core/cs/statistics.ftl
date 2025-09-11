@@ -147,6 +147,7 @@ statistics-true-retention-yesterday = Včera
 statistics-true-retention-week = Minulý týden
 statistics-true-retention-month = Minulý měsíc
 statistics-true-retention-year = Minulý rok
+statistics-true-retention-all-time = Za celou dobu
 # If there are no reviews within a specific time period, the retention
 # percentage cannot be calculated and is displayed as "N/A."
 statistics-true-retention-not-applicable = N/A
