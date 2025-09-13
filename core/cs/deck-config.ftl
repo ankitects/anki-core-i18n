@@ -370,7 +370,6 @@ deck-config-which-deck = Který balíček požadujete?
 deck-config-updating-cards = Aktualizují se karty: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Zadané parametry FSRS jsou neplatné. Ponechte je prázdné, použijí se tak výchozí parametry.
 deck-config-not-enough-history = K provedení této operace není dostatečná historie opakování.
-deck-config-unable-to-determine-desired-retention = Nelze určit optimální retenci.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Bylo nalezeno pouze { $count } opakování. Tato činnost vyžaduje alespoň 400 opakování.
@@ -381,7 +380,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Váhy modelu
 deck-config-compute-optimal-weights = Optimalizovat FSRS váhy
-deck-config-compute-minimum-recommended-retention = Minimální doporučená retence
 deck-config-optimize-button = Optimalizovat
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (pomalé)
@@ -393,7 +391,6 @@ deck-config-desired-retention = Požadovaná retence
 deck-config-historical-retention = Historická retence
 deck-config-smaller-is-better = Menší čísla naznačují lepší způsobilost pro vaši historii opakování.
 deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delší než 1 den nejsou doporučeny.
-deck-config-predicted-minimum-recommended-retention = Minimální doporučená retence: { $num }
 deck-config-complete = { $num }% hotovo.
 deck-config-iterations = Iterace: { $count }...
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
@@ -432,8 +429,10 @@ deck-config-compute-optimal-weights-tooltip2 =
     Parametry nemusíte optimalizovat často - stačí jednou za několik měsíců.
     
     Ve výchozím nastavení se parametry vypočítají z historie opakování všech balíčků, které používají aktuální předvolbu. Pokud chcete změnit, které karty se použijí pro optimalizaci parametrů, můžete navíc před výpočtem parametrů upravit vyhledávání.
-deck-config-compute-optimal-retention-tooltip4 = Tento nástroj se pokusí najít požadovanou hodnotu retence, která povede k naučení se co největšího množství materiálu za co nejkratší dobu. Vypočítané číslo může sloužit jako referenční hodnota při rozhodování, jakou hodnotu požadované retence nastavit. Pokud jste ochotni vyměnit více studijního času za vyšší míru zapamatování, můžete zvolit vyšší hodnotu požadované retence. Nastavení požadované retence na nižší než minimální hodnotu se nedoporučuje, protože to povede k vyšší pracovní zátěži kvůli vysoké míře zapomínání.
 deck-config-please-save-your-changes-first = Prosím nejdříve uložte změny.
+deck-config-workload-factor-change =
+    Přibližná pracovní zátěž: { $factor }x
+    (v porovnání s { $previousDR }% požadované retence)
 deck-config-workload-factor-unchanged = Čím vyšší je tato hodnota, tím častěji se vám budou karty zobrazovat.
 deck-config-desired-retention-too-low = Vaše požadovaná retence je velmi nízká, což může vést k velmi dlouhým intervalům.
 deck-config-desired-retention-too-high = Vaše požadovaná retence je velmi vysoká, což může vést k velmi krátkým intervalům.
@@ -461,6 +460,8 @@ deck-config-desired-retention-below-optimal = Vaše požadovaná retence není o
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS simulátor (experimentální)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS simulátor požadované retence (experimentální)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomoz mi rozhodnout (experimentální)
 deck-config-additional-new-cards-to-simulate = Další nové karty pro simulaci
 deck-config-simulate = Simulovat
 deck-config-clear-last-simulate = Vymazat poslední simulaci
@@ -473,6 +474,7 @@ deck-config-save-options-to-preset-confirm = Přepsat nastavení v aktuální p�
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Zapamatováno
+deck-config-fsrs-simulator-radio-ratio = Poměr čas / zapamatováno
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -495,6 +497,10 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Nelze určit optimální retenci.
+deck-config-predicted-minimum-recommended-retention = Minimální doporučená retence: { $num }
+deck-config-compute-minimum-recommended-retention = Minimální doporučená retence
+deck-config-compute-optimal-retention-tooltip4 = Tento nástroj se pokusí najít požadovanou hodnotu retence, která povede k naučení se co největšího množství materiálu za co nejkratší dobu. Vypočítané číslo může sloužit jako referenční hodnota při rozhodování, jakou hodnotu požadované retence nastavit. Pokud jste ochotni vyměnit více studijního času za vyšší míru zapamatování, můžete zvolit vyšší hodnotu požadované retence. Nastavení požadované retence na nižší než minimální hodnotu se nedoporučuje, protože to povede k vyšší pracovní zátěži kvůli vysoké míře zapomínání.
 deck-config-a-100-day-interval =
     { $days ->
         [one] 100denní interval se změní na { $days } den.

@@ -7,6 +7,13 @@ database-check-card-properties =
         [many] Opraveno { $count } karty s nesprávnými vlastnostmi.
        *[other] Opraveno { $count } karet s nesprávnými vlastnostmi.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Přidán čas posledního opakování k { $count } kartě.
+        [few] Přidán čas posledního opakování ke { $count } kartám.
+        [many] { "" }
+       *[other] Přidán čas posledního opakování k { $count } kartám.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Odstraněna { $count } karta s chybějící šablonou.
