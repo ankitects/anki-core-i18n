@@ -1,7 +1,7 @@
 importing-failed-debug-info = Malsukcesis enporti. Senerarigaj informoj:
 importing-aborted = Nuligita: { $val }
 importing-added-duplicate-with-first-field = Aldono de duoblaĵo kun la unua kampo: { $val }
-importing-all-supported-formats = Ĉiuj subtenataj dosiertipoj
+importing-all-supported-formats = Ĉiuj subtenataj dosiertipoj { $val }
 importing-allow-html-in-fields = Permesi HTML en kampoj
 importing-anki-files-are-from-a-very = .anki-dosieroj devenas de malnovegaj versioj de Anki. Vi povas enporti ilin per la aldonaĵo 175027074 aŭ per Anki 2.0 , kiu estas disponebla en la Anki-retejo.
 importing-anki2-files-are-not-directly-importable = .anki2-dosieroj ne estas senpere enportebla - bonvolu enporti anstataŭe la .apkg aŭ .zip-dosieron, kiun vi ricevis.
