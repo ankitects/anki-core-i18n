@@ -137,7 +137,7 @@ deck-config-bury-priority-tooltip =
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = סדר חזרה
-deck-config-new-gather-priority = קדימות לאיסוף כרטיס חדש
+deck-config-new-gather-priority = סדר איסוף כרטיסים חדשים
 deck-config-new-gather-priority-tooltip-2 =
     `חפיסה`: לחזרה נאספים כרטיסים מכל חפיסה לפי הסדר, החל מלמעלה. כרטיסים מכל חפיסה נאספים בסדר עולה. אם הכמות עולה על ההגבלה היומית של החפיסה שנבחרה, ייתכן שהאיסוף ייפסק לפני שכל החפיסות נבדקו. הסדר הזה הוא המהיר ביותר באוספים גדולים, ומאפשר לך לתעדף תת-חפיסות הקרובות יותר לראש.
     
@@ -161,12 +161,12 @@ deck-config-new-card-sort-order-tooltip-2 =
     `אקראי`: מערבב במלואו את הכרטיסים שנאספו.
 deck-config-new-review-priority = סדר חדש/חזרה
 deck-config-new-review-priority-tooltip = מתי להציג כרטיסים חדשים ביחס לכרטיסי חזרה.
-deck-config-interday-step-priority = סדר למידה/חזרה יומית
+deck-config-interday-step-priority = סדר למידה בין-יומית/חזרות
 deck-config-interday-step-priority-tooltip =
     מתי להציג (מחדש) כרטיסי למידה שנותרו מאתמול.
     
     במידה וכמות הכרטיסים לחזרה וללמידה גדולים מהמגבלה היומית, המגבלה תחול על הכרטיסים לחזרה ולא על אלה שללמידה. הגדרה זו משפיעה על הסדר שבו יוצגו הכרטיסים לאחר שנקבע אילו כרטיסים יופיעו היום במסגרת המגבלה היומית, אבל לא תשפיע על אילו כרטיסים לא יופיעו כלל.
-deck-config-review-sort-order = מיין סדר חזרה
+deck-config-review-sort-order = סדר מיון חזרות
 deck-config-review-sort-order-tooltip =
     סדר ברירת המחדל נותן עדיפות לכרטיסים שחיכו הכי הרבה זמן, כך
     שאם יש לך כמות כרטיסים גדולה לחזרה, הכרטיסים הממתינים במשך
@@ -213,7 +213,7 @@ deck-config-sort-order-due-date-then-random = תאריך יעד, ואז אקרא
 # Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
 deck-config-sort-order-due-date-then-deck = תאריך יעד, ואז חפיסה
 # Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
-deck-config-sort-order-deck-then-due-date = חפיסה, ואז תאריך היעד
+deck-config-sort-order-deck-then-due-date = חפיסה, ואז תאריך יעד
 # Sort the cards by the interval, in ascending order (shortest to longest).
 deck-config-sort-order-ascending-intervals = מרווחים עולים
 # Sort the cards by the interval, in descending order (longest to shortest).
@@ -266,7 +266,7 @@ deck-config-disable-autoplay = אל תפעיל שמע אוטומטית
 deck-config-disable-autoplay-tooltip =
     כאשר מופעל, אנקי לא ינגן קבצי שמע באופן אוטומטי.
     ניתן להפעיל אותו באופן ידני על ידי לחיצה/הקשה על סמל שמע, או על ידי שימוש בפעולת השמע שוב.
-deck-config-skip-question-when-replaying = דלג על השאלה בעת תשובה חוזרת
+deck-config-skip-question-when-replaying = דלג על השאלה בניגון חוזר של התשובה
 deck-config-always-include-question-audio-tooltip =
     הגדרה זו קובעת האם יש לכלול את שמע השאלה כאשר אפשרות ההשמעה מחדש
     מופעלת בעת הסתכלות בצד התשובה של כרטיס.
