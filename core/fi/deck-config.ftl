@@ -327,7 +327,6 @@ deck-config-which-deck = Minkä pakan haluaisit?
 deck-config-updating-cards = Päivitetään kortteja: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Annetut FSRS:n painokertoimet ovat virheellisiä. Jätä ne tyhjiksi käyttääksesi oletusarvoja.
 deck-config-not-enough-history = Ei riittävästi menneitä kertauksia tämän toiminnon suorittamiseen.
-deck-config-unable-to-determine-desired-retention = Optimaalisen retention määrittäminen ei onnistunut.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Vain { $count } kertaus löytyi. Tämä toiminto edellyttää vähintään 400 kertausta.
@@ -336,7 +335,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Mallin painokertoimet
 deck-config-compute-optimal-weights = Laske optimaaliset painokertoimet
-deck-config-compute-minimum-recommended-retention = Pienin suositeltu retentio
 deck-config-optimize-button = Optimoi
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (hidas)
@@ -349,7 +347,6 @@ deck-config-historical-retention = Historiallinen retentio
 deck-config-smaller-is-better = Pienemmät numerot merkitsevät parempia arvioita muistista.
 deck-config-steps-too-large-for-fsrs = Kun FSRS on päällä, usean päivän aikaisen (uudelleen)oppimisen askelten käyttöä ei suositella.
 deck-config-get-params = Hae painokertoimet
-deck-config-predicted-minimum-recommended-retention = Pienin suositeltu retentio: { $num }
 deck-config-complete = { $num } % valmis.
 deck-config-iterations = Iteraatio: { $count }...
 deck-config-reschedule-cards-on-change = Aikatauluta kortit uudelleen muutoksen yhteydessä
@@ -375,9 +372,6 @@ deck-config-ignore-before-tooltip-2 =
 deck-config-compute-optimal-weights-tooltip2 =
     Kun painat Optimoi-painiketta, FSRS analysoi kertaushistoriasi ja luo painokertoimet, jotka ovat optimaaliset muistisi ja opiskelemasi sisällön kannalta. Jos eri pakkojen vaikeusasteiden välillä on suuria eroja, on suositeltavaa määrittää niille erilliset esiasetukset, sillä helppojen ja vaikeiden pakkojen painokertoimet tulevat olemaan erilaiset. Painokertoimia ei tarvitse optimoida usein – kerta muutaman kuukauden välein riittää.
     Oletusarvoisesti painokertoimet lasketaan kaikkien nykyistä esiasetusta käyttävien pakkojen kertaushistoriasta. Voit valinnaisesti säätää hakua ennen painokertoimien laskemista, jos haluat vaikuttaa siihen, mitä kortteja käytetään painokertoimien optimointiin.
-deck-config-compute-optimal-retention-tooltip4 =
-    Tämä työkalu yrittää löytää sopivan retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa.
-    Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota tätä arvoa alhaisemmaksi, koska se tekee unohtamisesta todennäköisempää ja näin ollen lisää työmäärää.
 deck-config-please-save-your-changes-first = Tallenna muutoksesi ennen tämän toiminnon suorittamista.
 deck-config-workload-factor-change =
     Arvioitu työmäärä: { $factor }x
@@ -409,6 +403,7 @@ deck-config-desired-retention-below-optimal = Valitsemasi retentio on alle optim
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS-simulaattori (kokeellinen)
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS:n toivotun retention simulaattori (kokeellinen)
+deck-config-fsrs-simulate-save-preset = Tallenna pakan esiasetukset optimoinnin jälkeen ennen kuin käytät simulaattoria.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Auta valitsemaan (kokeellinen)
 deck-config-additional-new-cards-to-simulate = Simulaatioon sisällytettävät uudet lisäkortit
 deck-config-simulate = Simuloi
@@ -448,6 +443,12 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Optimaalisen retention määrittäminen ei onnistunut.
+deck-config-predicted-minimum-recommended-retention = Pienin suositeltu retentio: { $num }
+deck-config-compute-minimum-recommended-retention = Pienin suositeltu retentio
+deck-config-compute-optimal-retention-tooltip4 =
+    Tämä työkalu yrittää löytää sopivan retentioarvon, jonka avulla opit mahdollisimman paljon materiaalia mahdollisimman lyhyessä ajassa.
+    Voit käyttää tätä lukua vertailukohtana päättäessäsi, mihin arvoon toivottu retentio asetetaan. Voit halutessasi valita korkeamman toivotun retentioarvon, jos olet valmis käyttämään enemmän aikaa oppimiseen ja sitä kautta muistamaan enemmän. Ei ole suositeltavaa asettaa toivottua retentiota tätä arvoa alhaisemmaksi, koska se tekee unohtamisesta todennäköisempää ja näin ollen lisää työmäärää.
 deck-config-plotted-on-x-axis = (Piirretty X-akselille)
 deck-config-a-100-day-interval =
     { $days ->
