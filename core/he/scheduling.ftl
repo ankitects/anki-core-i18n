@@ -101,7 +101,7 @@ scheduling-unbury-them = להוציא אותם מ"הטמנה"
 scheduling-how-to-custom-study = אם אתה רוצה ללמוד מחוץ לתוכנית הרגילה, תוכל להשתמש באפשרות { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
-scheduling-custom-study = לימוד מותאם
+scheduling-custom-study = לימוד מותאם אישית
 
 ## Scheduler upgrade
 
