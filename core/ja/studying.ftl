@@ -49,11 +49,11 @@ studying-what-would-you-like-to-unbury = どの種類のカードの非表示を
 studying-you-havent-recorded-your-voice-yet = まだ自分の声を録音していません。
 studying-card-studied-in =
     { $count ->
-       *[other] { $count }枚のカードを学習しました
+       *[other] { $count }枚のカードを
     }
 studying-minute =
     { $count ->
-       *[other] （時間枠：{ $count }分）
+       *[other] この{ $count }分間で学習しました
     }
 studying-question-time-elapsed = 質問表示時間が経過しました
 studying-answer-time-elapsed = 回答する時間になりました
