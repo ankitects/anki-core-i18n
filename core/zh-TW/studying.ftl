@@ -47,7 +47,7 @@ studying-what-would-you-like-to-unbury = 要取消推遲哪些卡片？
 studying-you-havent-recorded-your-voice-yet = 尚未錄製聲音。
 studying-card-studied-in =
     { $count ->
-       *[other] 學習了 { $count } 張卡片：花費
+       *[other] 已學習 { $count } 張卡片，耗時
     }
 studying-minute =
     { $count ->
