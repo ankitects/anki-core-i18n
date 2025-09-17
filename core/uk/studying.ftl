@@ -47,6 +47,32 @@ studying-type-answer-unknown-field = Введення  відповіді з к�
 studying-unbury = Повернути
 studying-what-would-you-like-to-unbury = Які хочете повернути?
 studying-you-havent-recorded-your-voice-yet = Ви ще не записали ваш голос.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $cards } картку вивчено за { $minutes } хвилину.
+                [few] { $cards } картку вивчено за { $minutes } хвилини.
+               *[many] { $cards } картку вивчено за { $minutes } хвилин.
+            }
+        [few]
+            { $minutes ->
+                [one] { $cards } картки вивчено за { $minutes } хвилину.
+                [few] { $cards } картки вивчено за { $minutes } хвилини.
+               *[many] { $cards } картки вивчено за { $minutes } хвилин.
+            }
+       *[many]
+            { $minutes ->
+                [one] { $cards } карток вивчено за { $minutes } хвилину.
+                [few] { $cards } карток вивчено за { $minutes } хвилини.
+               *[many] { $cards } карток вивчено за { $minutes } хвилин.
+            }
+    }
+studying-question-time-elapsed = Час запитання вичерпано
+studying-answer-time-elapsed = Час для відповіді закінчився
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] Вивчено { $count } картку протягом
@@ -59,5 +85,3 @@ studying-minute =
         [few] { $count } хвилин.
        *[other] { $count } хвилин.
     }
-studying-question-time-elapsed = Час запитання вичерпано
-studying-answer-time-elapsed = Час для відповіді закінчився
