@@ -47,6 +47,12 @@ studying-type-answer-unknown-field = 解答キー入力: 不明なフィール�
 studying-unbury = 非表示を解除
 studying-what-would-you-like-to-unbury = どの種類のカードの非表示を解除しますか？
 studying-you-havent-recorded-your-voice-yet = まだ自分の声を録音していません。
+studying-card-studied-in-minute = { $minutes }分で{ $cards }枚のカードを学習しました
+studying-question-time-elapsed = 質問表示時間が経過しました
+studying-answer-time-elapsed = 回答する時間になりました
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
        *[other] { $count }枚のカードを
@@ -55,5 +61,3 @@ studying-minute =
     { $count ->
        *[other] この{ $count }分間で学習しました
     }
-studying-question-time-elapsed = 質問表示時間が経過しました
-studying-answer-time-elapsed = 回答する時間になりました
