@@ -45,6 +45,12 @@ studying-type-answer-unknown-field = 输入答案：未知字段 { $val }
 studying-unbury = 取消搁置
 studying-what-would-you-like-to-unbury = 您想取消搁置吗？
 studying-you-havent-recorded-your-voice-yet = 尚未录制自己的声音。
+studying-card-studied-in-minute = 在 { $minutes } 分钟内学习了 { $cards } 张卡片。
+studying-question-time-elapsed = 问题显示已超时
+studying-answer-time-elapsed = 回答已超时
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
        *[other] 已学习 { $count } 张卡片，用时
@@ -53,5 +59,3 @@ studying-minute =
     { $count ->
        *[other] { $count } 分钟。
     }
-studying-question-time-elapsed = 问题显示已超时
-studying-answer-time-elapsed = 回答已超时
