@@ -46,6 +46,24 @@ studying-type-answer-unknown-field = Antwort eingeben: Unbekanntes Feld „{ $va
 studying-unbury = Nicht mehr aufschieben
 studying-what-would-you-like-to-unbury = Was möchten Sie nicht mehr aufschieben?
 studying-you-havent-recorded-your-voice-yet = Stimme noch nicht aufgezeichnet
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $cards } Karte in { $minutes } Minute gelernt.
+               *[other] { $cards } Karte in { $minutes } Minuten gelernt.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $cards } Karten in { $minutes } Minute gelernt.
+               *[other] { $cards } Karten in { $minutes } Minuten gelernt.
+            }
+    }
+studying-question-time-elapsed = Fragezeit abgelaufen
+studying-answer-time-elapsed = Ant­wort­zeit ab­ge­lau­fen
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } Karte in
@@ -56,5 +74,3 @@ studying-minute =
         [one] { $count } Minute gelernt.
        *[other] { $count } Minuten gelernt.
     }
-studying-question-time-elapsed = Fragezeit abgelaufen
-studying-answer-time-elapsed = Ant­wort­zeit ab­ge­lau­fen
