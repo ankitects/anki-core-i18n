@@ -360,7 +360,6 @@ deck-config-which-deck = Quina baralla voleu?
 deck-config-updating-cards = S’estan actualitzant les targetes: { $current_cards_count } de { $total_cards_count }…
 deck-config-invalid-parameters = Els paràmetres de l’FSRS que heu proporcionat no són vàlids. Deixeu aquest camp en blanc per a utilitzar els paràmetres per defecte.
 deck-config-not-enough-history = La quantitat de repassos és insuficient per a executar aquesta operació.
-deck-config-unable-to-determine-desired-retention = No s’ha pogut determinar un nivell de retenció òptim.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Només s’ha trobat un repàs. Per a dur a terme aquesta acció, heu de tenir almenys 400 repassos.
@@ -369,7 +368,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Paràmetres de l’FSRS
 deck-config-compute-optimal-weights = Optimitza els paràmetres de l’FSRS
-deck-config-compute-minimum-recommended-retention = Retenció recomanada mínima
 deck-config-optimize-button = Optimitza
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (lent)
@@ -382,7 +380,6 @@ deck-config-historical-retention = Retenció històrica
 deck-config-smaller-is-better = Uns nombres més baixos indiquen un millor ajustament al vostre historial de repàs.
 deck-config-steps-too-large-for-fsrs = Quan el FSRS està activat, no és recomanable que feu servir passos d’aprenentatge de més d’un dia.
 deck-config-get-params = Obtén els paràmetres
-deck-config-predicted-minimum-recommended-retention = Retenció recomanada mínima: { $num }
 deck-config-complete = { $num } % completat.
 deck-config-iterations = Iteració: { $count }…
 deck-config-reschedule-cards-on-change = Replanifica les targetes en cas de canvi
@@ -418,10 +415,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Quan premeu «Optimitza», l’FSRS analitzarà l’historial de repàs i generarà paràmetres òptims segons la vostra memòria i el contingut que estudieu. Si les baralles tenen una dificultat subjectiva molt diferent, es recomana assignar-los configuracions diferents, ja que els paràmetres per a baralles fàcils i difícils variaran. No cal optimitzar els paràmetres sovint: una vegada cada pocs mesos és suficient.
     
     Per defecte, els paràmetres es calcularan segons l’historial de repàs de totes les baralles que utilitzen aquesta configuració. Opcionalment, podeu ajustar la cerca abans de calcular-los si voleu canviar quines targetes s’utilitzaran per a l’optimització.
-deck-config-compute-optimal-retention-tooltip4 =
-    Aquesta opció intentarà trobar el valor de retenció desitjada perquè aprengueu més contingut en menys temps. Aquesta xifra pot servir-vos de referència per a decidir la retenció desitjada.
-    
-    És possible que preferiu un valor de retenció desitjada més alt si esteu disposats a dedicar-hi més temps. No es recomana fixar la retenció per sota del mínim, ja que oblidareu més contingut i augmentarà la càrrega d’estudi.
 deck-config-please-save-your-changes-first = Guardeu els canvis primer.
 deck-config-workload-factor-change =
     Càrrega d’estudi aproximada: { $factor }x
@@ -453,6 +446,7 @@ deck-config-desired-retention-below-optimal = La retenció desitjada no és òpt
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Simulador del FSRS (experimental)
 deck-config-fsrs-simulate-desired-retention-experimental = Simulador de retenció desitjada de l’FSRS (experimental)
+deck-config-fsrs-simulate-save-preset = Després de l’optimització, guardeu la configuració de baralla abans de fer servir el simulador.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Ajuda’m a decidir! (Experimental)
 deck-config-additional-new-cards-to-simulate = Targetes addicionals que se simularan
 deck-config-simulate = Simula
@@ -491,6 +485,13 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = No s’ha pogut determinar un nivell de retenció òptim.
+deck-config-predicted-minimum-recommended-retention = Retenció recomanada mínima: { $num }
+deck-config-compute-minimum-recommended-retention = Retenció recomanada mínima
+deck-config-compute-optimal-retention-tooltip4 =
+    Aquesta opció intentarà trobar el valor de retenció desitjada perquè aprengueu més contingut en menys temps. Aquesta xifra pot servir-vos de referència per a decidir la retenció desitjada.
+    
+    És possible que preferiu un valor de retenció desitjada més alt si esteu disposats a dedicar-hi més temps. No es recomana fixar la retenció per sota del mínim, ja que oblidareu més contingut i augmentarà la càrrega d’estudi.
 deck-config-a-100-day-interval =
     { $days ->
         [one] Un interval de 100 dies esdevindrà un dia.

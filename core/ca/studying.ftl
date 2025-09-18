@@ -46,6 +46,32 @@ studying-type-answer-unknown-field = Escriu la resposta: camp desconegut { $val 
 studying-unbury = Desenterrar
 studying-what-would-you-like-to-unbury = Què voleu desenterrar?
 studying-you-havent-recorded-your-voice-yet = Encara no heu enregistrat la vostra veu.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one]
+                    Heu estudiat una targeta
+                    en un minut.
+               *[other]
+                    Heu estudiat una targeta
+                    en { $minutes } minuts.
+            }
+       *[other]
+            { $minutes ->
+                [one]
+                    Heu estudiat { $cards } targetes
+                    en un minut.
+               *[other]
+                    Heu estudiat { $cards } targetes
+                    en { $minutes } minuts.
+            }
+    }
+studying-question-time-elapsed = S’ha esgotat el temps de resposta.
+studying-answer-time-elapsed = S’ha esgotat el temps de resposta.
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] Heu estudiat una targeta en
@@ -56,5 +82,3 @@ studying-minute =
         [one] Un minut.
        *[other] { $count } minuts.
     }
-studying-question-time-elapsed = S’ha esgotat el temps de resposta.
-studying-answer-time-elapsed = S’ha esgotat el temps de resposta.
