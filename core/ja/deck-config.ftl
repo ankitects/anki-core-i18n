@@ -424,6 +424,8 @@ deck-config-percent-of-reviews =
        *[other] 復習履歴{ $reviews }件の{ $pct }%を読み込みました...
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = 最適化に関するチェックを行っています...
 deck-config-optimizing-preset = { $total_count }個中{ $current_count }個目のプリセットを最適化しています...
 deck-config-fsrs-must-be-enabled = 先にFSRSを有効にする必要があります。
 deck-config-fsrs-params-optimal = FSRSパラメータは、今のところ、このままの値が最適であると思われます。
@@ -440,6 +442,7 @@ deck-config-desired-retention-below-optimal = 現在、この値よりも低い�
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRSシミュレータ（実験的機能）
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS目標正答率シミュレーター（実験的機能）
+deck-config-fsrs-simulate-save-preset = FSRSパラメータが変更されています。この機能を使用するには、先にウィンドウ右上の「保存」ボタンを押して、
 deck-config-additional-new-cards-to-simulate = 新規カード追加枚数
 deck-config-simulate = ｼﾐｭﾚｰﾄ
 deck-config-clear-last-simulate = 直近のｼﾐｭﾚｰﾄ結果を消去
