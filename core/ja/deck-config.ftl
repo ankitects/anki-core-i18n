@@ -339,12 +339,10 @@ deck-config-which-deck = どのデッキを選択しますか？
 deck-config-updating-cards = カードを更新中: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = 入力されているFSRSパラメータが無効です。 デフォルトのパラメータを使用するには、空欄のままにしてください。
 deck-config-not-enough-history = この操作を行うために十分な数の復習履歴がありません。
-deck-config-unable-to-determine-desired-retention = 有益な目標正答率の下限を推定できませんでした
 deck-config-must-have-400-reviews = 復習履歴が{ $count }件しか見つかりません。この操作を実行するには400件以上の復習履歴が必要です。
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRSパラメータ
 deck-config-compute-optimal-weights = FSRSパラメータ値を最適化
-deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
 deck-config-optimize-button = 最適化
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text }（低速）
@@ -357,7 +355,6 @@ deck-config-historical-retention = 履歴欠落期間の推定正答率
 deck-config-smaller-is-better = 各数値が小さいほど、復習履歴とよく適合していることを意味します。
 deck-config-steps-too-large-for-fsrs = FSRSオプションがオンの場合、1日以上の間隔のステップは推奨されません。
 deck-config-get-params = パラメータを取得
-deck-config-predicted-minimum-recommended-retention = 有益な目標正答率の下限: { $num }
 deck-config-complete = { $num }% 完了
 deck-config-iterations = 反復: { $count }...
 deck-config-reschedule-cards-on-change = パラメータ変更の際に既存のスケジュールも変更
@@ -415,14 +412,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     「最適化」を頻繁に行う必要はありません。数か月に一度で十分です。
     
     デフォルトでは、「最適化」によるパラメータの値は、そのプリセットを使用しているデッキ内のすべてのカードの復習履歴にもとづいて計算されます。計算対象となるカードの条件を変更したい場合は、その条件をFSRSパラメータ欄の一つ下の欄に入力してから「最適化」ボタンを押してください。
-deck-config-compute-optimal-retention-tooltip4 =
-    このツールは、最も学習効率の高い（＝最高水準の学習成果を、できるだけ少ない学習時間・学習回数で達成する）`目標正答率`を推定します。
-    
-    この値は、あなたが`目標正答率`の値を調整する際の参考値とすることができます。
-    
-    「学習時間や学習回数が増えてもかまわないから、実際の正答率をさらに高くしたい」という場合は、この値よりも高い値を`目標正答率`として設定するのもよいでしょう。
-    
-    この値よりも低い値を`目標正答率`として設定するのはおすすめしません。復習間隔が大きくなりすぎて正答を思い出しにくくなり、かえって学習の負担が高くなると予想されるためです。
 deck-config-please-save-your-changes-first = 変更を先に保存してください
 deck-config-workload-factor-change =
     変更後の学習負荷は、変更前（{ $previousDR }%）の場合の
@@ -450,6 +439,7 @@ deck-config-desired-retention-below-optimal = 現在、この値よりも低い�
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRSシミュレータ（実験的機能）
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS目標正答率シミュレーター（実験的機能）
 deck-config-additional-new-cards-to-simulate = 新規カード追加枚数
 deck-config-simulate = ｼﾐｭﾚｰﾄ
 deck-config-clear-last-simulate = 直近のｼﾐｭﾚｰﾄ結果を消去
@@ -486,6 +476,17 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = 有益な目標正答率の下限を推定できませんでした
+deck-config-predicted-minimum-recommended-retention = 有益な目標正答率の下限: { $num }
+deck-config-compute-minimum-recommended-retention = 有益な目標正答率の下限
+deck-config-compute-optimal-retention-tooltip4 =
+    このツールは、最も学習効率の高い（＝最高水準の学習成果を、できるだけ少ない学習時間・学習回数で達成する）`目標正答率`を推定します。
+    
+    この値は、あなたが`目標正答率`の値を調整する際の参考値とすることができます。
+    
+    「学習時間や学習回数が増えてもかまわないから、実際の正答率をさらに高くしたい」という場合は、この値よりも高い値を`目標正答率`として設定するのもよいでしょう。
+    
+    この値よりも低い値を`目標正答率`として設定するのはおすすめしません。復習間隔が大きくなりすぎて正答を思い出しにくくなり、かえって学習の負担が高くなると予想されるためです。
 deck-config-a-100-day-interval =
     { $days ->
         [one] 【参考】 たとえば、デフォルトの目標正答率だと復習間隔が100日になる場合、この目標正答率だと、その復習間隔は{ $days }日になります。
