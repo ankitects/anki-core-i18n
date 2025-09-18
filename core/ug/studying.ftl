@@ -46,6 +46,24 @@ studying-type-answer-unknown-field = جاۋاب كىرگۈزۈلىدۇ: يوچۇ
 studying-unbury = يوشۇرما
 studying-what-would-you-like-to-unbury = يوشۇرۇشنى بىكار قىلماقچىمۇسىز؟
 studying-you-havent-recorded-your-voice-yet = تېخى ئۆزىڭىزنىڭ ئاۋازىنى ئۈنگە ئالمىدىڭىز.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $minutes } مىنۇتتا { $cards } كارتا ئۆگەندى.
+               *[other] { $minutes } مىنۇتتا { $cards } كارتا ئۆگەندى.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $minutes } مىنۇتتا { $cards } كارتا ئۆگەندى.
+               *[other] { $minutes } مىنۇتتا { $cards } كارتا ئۆگەندى.
+            }
+    }
+studying-question-time-elapsed = سوئال كۆرسىتىش ۋاقتى توشتى
+studying-answer-time-elapsed = جاۋاب كۆرسىتىش ۋاقتى توشتى
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } كارتا ئۆگىنىش ۋاقتى:
@@ -56,5 +74,3 @@ studying-minute =
         [one] { $amount } مىنۇت.
        *[other] { $amount } مىنۇت.
     }
-studying-question-time-elapsed = سوئال كۆرسىتىش ۋاقتى توشتى
-studying-answer-time-elapsed = جاۋاب كۆرسىتىش ۋاقتى توشتى
