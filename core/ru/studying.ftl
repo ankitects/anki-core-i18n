@@ -48,6 +48,32 @@ studying-type-answer-unknown-field = Напишите ответ: неизвес
 studying-unbury = Вернуть
 studying-what-would-you-like-to-unbury = Какие вы хотите вернуть?
 studying-you-havent-recorded-your-voice-yet = Вы ещё не записали своего голоса.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $cards } карта изучена за { $minutes } минуту.
+                [few] { $cards } карта изучена за { $minutes } минуты.
+               *[many] { $cards } карта изучена за { $minutes } минут.
+            }
+        [few]
+            { $minutes ->
+                [one] { $cards } карты изучены за { $minutes } минуту.
+                [few] { $cards } карты изучены за { $minutes } минуты.
+               *[many] { $cards } карты изучены за { $minutes } минут.
+            }
+       *[many]
+            { $minutes ->
+                [one] { $cards } карт изучено за { $minutes } минуту.
+                [few] { $cards } карт изучено за { $minutes } минуты.
+               *[many] { $cards } карт изучено за { $minutes } минут.
+            }
+    }
+studying-question-time-elapsed = Время вопроса истекло
+studying-answer-time-elapsed = Время ответа истекло
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } карточка изучена за
@@ -62,5 +88,3 @@ studying-minute =
         [many] { $count } минут.
        *[other] { $count } минут.
     }
-studying-question-time-elapsed = Время вопроса истекло
-studying-answer-time-elapsed = Время ответа истекло
