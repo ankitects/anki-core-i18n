@@ -48,6 +48,50 @@ studying-type-answer-unknown-field = Wpisz odpowiedź: nieznane pole { $val }
 studying-unbury = Odkop
 studying-what-would-you-like-to-unbury = Co chcesz odkopać?
 studying-you-havent-recorded-your-voice-yet = Nie nagrałeś jeszcze swojego głosu.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one]
+                    Przejrzano { $cards } kartę
+                    w { $minutes } minutę.
+                [few]
+                    Przejrzano { $cards } kartę
+                    w { $minutes } minuty.
+               *[many]
+                    Przejrzano { $cards } kartę
+                    w { $minutes } minut.
+            }
+        [few]
+            { $minutes ->
+                [one]
+                    Przejrzano { $cards } karty
+                    w { $minutes } minutę.
+                [few]
+                    Przejrzano { $cards } karty
+                    w { $minutes } minuty.
+               *[many]
+                    Przejrzano { $cards } karty
+                    w { $minutes } minut.
+            }
+       *[many]
+            { $minutes ->
+                [one]
+                    Przejrzano { $cards } kart
+                    w { $minutes } minutę.
+                [few]
+                    Przejrzano { $cards } kartę
+                    w { $minutes } minuty.
+               *[many]
+                    Przejrzano { $cards } kart
+                    w { $minutes } minut.
+            }
+    }
+studying-question-time-elapsed = Minął czas na odpowiedź
+studying-answer-time-elapsed = Minął czas na odpowiedź
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] Przejrzano { $count } kartę w
@@ -62,5 +106,3 @@ studying-minute =
         [many] { $count } minut.
        *[other] { $count } minut.
     }
-studying-question-time-elapsed = Minął czas na odpowiedź
-studying-answer-time-elapsed = Minął czas na odpowiedź

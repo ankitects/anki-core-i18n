@@ -343,7 +343,6 @@ deck-config-which-deck = Dla której talii chcesz wyświetlić opcje?
 deck-config-updating-cards = Aktualizowanie kart: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Podane parametry FSRS są nieprawidłowe. Pozostaw je puste, aby użyć domyślnych parametrów.
 deck-config-not-enough-history = Historia powtórek jest niewystarczająca do przeprowadzenia tej operacji.
-deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego zalecanego zapamiętywania.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Znaleziono tylko { $count } powtórkę. Musisz mieć co najmniej 400 powtórek aby przeprowadzić tę operację.
@@ -353,7 +352,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parametry FSRS
 deck-config-compute-optimal-weights = Optymalizuj parametry FSRS
-deck-config-compute-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie
 deck-config-optimize-button = Optymalizuj
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (działa wolno)
@@ -366,7 +364,6 @@ deck-config-historical-retention = Historyczne zapamiętywanie
 deck-config-smaller-is-better = Mniejsze liczby oznaczają lepsze dopasowanie do twojej historii powtórek.
 deck-config-steps-too-large-for-fsrs = Gdy FSRS jest włączony nie jest rekomendowanie kroków w ilości 1 dnia lub więcej.
 deck-config-get-params = Zdobądź parametry
-deck-config-predicted-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie: { $num }
 deck-config-complete = Ukończono { $num }%.
 deck-config-iterations = Iteracja: { $count }...
 deck-config-reschedule-cards-on-change = Ponownie zaplanuj przy zmianie
@@ -404,9 +401,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Nie musisz często optymalizować parametrów - wystarczy raz na kilka miesięcy.
     
     Domyślnie  parametry beda obliczane z historii powtórek wszystkich talii używających obecnych opcji. Możesz opcjonalnie dostosować wyszukiwanie przed obliczeniem parametrów, jeśli chciałbyś zmienić, które karty są używane do optymalizowania parametrów.
-deck-config-compute-optimal-retention-tooltip4 =
-    To narzędzie spróbuje znaleźć optymalną wartość zapamiętywania,
-    który doprowadzi do nauki największej ilości materiału w jak najkrótszym czasie. Obliczona wartość może służyć jako odniesienie podczas decyzji przy ustalaniu oczekiwanej wartości zapamiętywania. Możesz ustawić wyższe oczekiwane zapamiętywanie, jeśli jesteś chętny poświęcić więcej czasu, aby je osiągnąć. Ustawienie oczekiwanego zapamiętywania niżej niż wartość minimalna nie jest zalecane, ponieważ doprowadzi to do wyższego obciążenia z powodu dużej wartości zapominania.
 deck-config-please-save-your-changes-first = Najpierw zapisz dokonane zmiany.
 deck-config-workload-factor-change =
     Przybliżone obciążenie: { $factor }x
@@ -444,6 +438,7 @@ deck-config-desired-retention-below-optimal = Twoje pożądane zapamiętywanie j
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Symulator FSRS (eksperymentalny)
 deck-config-fsrs-simulate-desired-retention-experimental = Symulator pożądanego zapamiętywania FSRS (eksperymentalne)
+deck-config-fsrs-simulate-save-preset = Po optymalizacji zapisz talię zanim uruchomisz symulator.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomóż mi zdecydować (eksperymentalne)
 deck-config-additional-new-cards-to-simulate = Dodatkowe nowe karty do symulacji
 deck-config-simulate = Symulacja
@@ -483,6 +478,12 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Nie można ustalić minimalnego zalecanego zapamiętywania.
+deck-config-predicted-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie: { $num }
+deck-config-compute-minimum-recommended-retention = Minimalne rekomendowane zapamiętywanie
+deck-config-compute-optimal-retention-tooltip4 =
+    To narzędzie spróbuje znaleźć optymalną wartość zapamiętywania,
+    który doprowadzi do nauki największej ilości materiału w jak najkrótszym czasie. Obliczona wartość może służyć jako odniesienie podczas decyzji przy ustalaniu oczekiwanej wartości zapamiętywania. Możesz ustawić wyższe oczekiwane zapamiętywanie, jeśli jesteś chętny poświęcić więcej czasu, aby je osiągnąć. Ustawienie oczekiwanego zapamiętywania niżej niż wartość minimalna nie jest zalecane, ponieważ doprowadzi to do wyższego obciążenia z powodu dużej wartości zapominania.
 deck-config-plotted-on-x-axis = (Narysowane na osi X)
 deck-config-a-100-day-interval =
     { $days ->
