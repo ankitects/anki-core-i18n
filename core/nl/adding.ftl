@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = Toevoegen (sneltoets: ctrl+enter)
 adding-added = Toegevoegd
-adding-close-and-lose-current-input = Sluiten en huidige invoer verwerpen?
+adding-discard-current-input = Huidige invoer verwijderen?
+adding-keep-editing = Blijf bewerken
 adding-edit = Bewerk "{ $val }"
 adding-history = Geschiedenis
 adding-note-deleted = (Aantekening verwijderd)
