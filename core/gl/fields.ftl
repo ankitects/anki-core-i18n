@@ -1,6 +1,6 @@
 fields-add-field = Engadir un campo
 fields-delete-field-from = Eliminar campo de { $val }?
-fields-editing-font = Editando o tipo de letra
+fields-editing-font = Tipo de letra de edición
 fields-field = Campo:
 fields-field-name = Nome do campo:
 fields-description = Descrición
@@ -13,7 +13,7 @@ fields-reverse-text-direction-rtl = Dirección inversa do texto (RTL)
 fields-collapse-by-default = Colapsar por defecto
 fields-html-by-default = Usar editor HTML por defecto
 fields-size = Tamaño:
-fields-sort-by-this-field-in-the = Ordear segundo este campo no navegador
+fields-sort-by-this-field-in-the = Ordenar segundo este campo no explorador
 fields-that-field-name-is-already-used = Este nome de campo xa está a ser usado.
 fields-name-first-letter-not-valid = O nome do campo non pode comezar por #, ^ ou /.
 fields-name-invalid-letter = O nome do campo non debe conter :, ", { "{" } ou { "}" }.

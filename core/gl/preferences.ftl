@@ -1,6 +1,7 @@
 preferences-automatically-sync-on-profile-openclose = Sincronizar automaticamente ao abrir/pechar o perfil
 preferences-backups = Copias de seguranza
 preferences-change-deck-depending-on-note-type = Cambiar baralla dependendo do tipo de nota
+preferences-changes-will-take-effect-when-you = Os cambios terán efecto cando reinicies o Anki.
 preferences-hours-past-midnight = horas pasada a medianoite
 preferences-language = Idioma
 preferences-interrupt-current-audio-when-answering = Interromper o son ao responder
@@ -34,6 +35,7 @@ preferences-theme-follow-system = O mesmo do sistema
 preferences-theme-light = Claro
 preferences-theme-dark = Escuro
 preferences-v3-scheduler = Algoritmo de planificación V3
+preferences-check-for-updates = Comprobar se hai actualizacións
 preferences-ignore-accents-in-search = Ignorar acentos na busca (máis lento)
 preferences-backup-explanation =
     O Anki crea copias de seguranza da túa colección periodicamente. Cando as copias teñan máis de 2 días,
@@ -49,6 +51,7 @@ preferences-custom-sync-url-disclaimer = Se es usuario avanzado, consulta o manu
 preferences-hide-top-bar-during-review = Ocultar a barra superior durante o estudo
 preferences-hide-bottom-bar-during-review = Ocultar a barra inferior durante o estudo
 preferences-always = Sempre
+preferences-full-screen-only = Só no modo pantalla completa
 preferences-appearance = Aparencia
 preferences-general = Xeral
 preferences-style = Estilo

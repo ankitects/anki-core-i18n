@@ -49,12 +49,12 @@ statistics-in-time-span-years =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] Hoxe estudaches { statistics-cards } { statistics-in-time-span-seconds } ({ $secs-per-card }s/tarxeta)
-        [minutes] Hoxe estudaches { statistics-cards } { statistics-in-time-span-minutes } ({ $secs-per-card }s/tarxeta)
-        [hours] Hoxe estudaches { statistics-cards } { statistics-in-time-span-hours } ({ $secs-per-card }s/tarxeta)
-        [days] Hoxe estudaches { statistics-cards } { statistics-in-time-span-days } ({ $secs-per-card }s/tarxeta)
-        [months] Hoxe estudaches { statistics-cards } { statistics-in-time-span-months } ({ $secs-per-card }s/tarxeta)
-       *[years] Hoxe estudaches { statistics-cards } { statistics-in-time-span-years } ({ $secs-per-card }s/tarxeta)
+        [seconds] Hoxe estudaches { statistics-cards } { statistics-in-time-span-seconds } ({ $secs-per-card } s/tarxeta)
+        [minutes] Hoxe estudaches { statistics-cards } { statistics-in-time-span-minutes } ({ $secs-per-card } s/tarxeta)
+        [hours] Hoxe estudaches { statistics-cards } { statistics-in-time-span-hours } ({ $secs-per-card } s/tarxeta)
+        [days] Hoxe estudaches { statistics-cards } { statistics-in-time-span-days } ({ $secs-per-card } s/tarxeta)
+        [months] Hoxe estudaches { statistics-cards } { statistics-in-time-span-months } ({ $secs-per-card } s/tarxeta)
+       *[years] Hoxe estudaches { statistics-cards } { statistics-in-time-span-years } ({ $secs-per-card } s/tarxeta)
     }
 
 ##
@@ -80,7 +80,7 @@ statistics-reviews =
 # cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } memorizadas
 statistics-today-title = Hoxe
-statistics-today-again-count = Conta de repeticións:
+statistics-today-again-count = Contaxe de repeticións:
 statistics-today-type-counts = Aprender: { $learnCount }, Repasar: { $reviewCount }, Reaprender: { $relearnCount }, Filtradas: { $filteredCount }
 statistics-today-no-cards = Hoxe non estudaches ningunha tarxeta.
 statistics-today-no-mature-cards = Hoxe non se estudaron tarxetas maduras.
@@ -94,6 +94,7 @@ statistics-counts-buried-cards = Agochadas
 statistics-counts-filtered-cards = Filtradas
 statistics-counts-learning-cards = Aprendendo
 statistics-counts-relearning-cards = Reaprendendo
+statistics-counts-title = Contaxe de tarxetas
 statistics-counts-separate-suspended-buried-cards = Separar tarxetas suspensas/agochadas
 
 ## Retention represents your actual retention from past reviews, in
@@ -109,18 +110,34 @@ statistics-counts-separate-suspended-buried-cards = Separar tarxetas suspensas/a
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-title = Retención
+statistics-true-retention-subtitle = Tasa de tarxetas acertadas con intervalo ≥ 1 día.
+statistics-true-retention-pass = Acertadas
+statistics-true-retention-fail = Falladas
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Total de tarxetas
+statistics-true-retention-count = Contaxe
+statistics-true-retention-retention = Retención
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Mozas
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Maduras
+statistics-true-retention-all = Todo
 statistics-true-retention-today = Hoxe
 statistics-true-retention-yesterday = Onte
+statistics-true-retention-week = A semana pasada
+statistics-true-retention-month = O mes pasado
+statistics-true-retention-year = O ano pasado
+statistics-true-retention-all-time = Sempre
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = N/A
 
 ##
 
 statistics-range-all-time = vida da baralla
+statistics-range-1-year-history = últimos 12 meses
+statistics-range-all-history = todo o historial
 statistics-range-deck = baralla
 statistics-range-collection = colección
 statistics-range-search = Busca
@@ -133,18 +150,18 @@ statistics-card-difficulty-tooltip =
         [one] { $cards } tarxeta cunha dificultade de { $percent }
        *[other] { $cards } tarxetas cunha dificultade de { $percent }
     }
-statistics-future-due-title = Prognóstico
+statistics-future-due-title = Previsión
 statistics-future-due-subtitle = O número de repasos programados no futuro.
-statistics-added-title = Engadida
-statistics-added-subtitle = O número de cartas que engadiu.
-statistics-reviews-count-subtitle = O número de preguntas que ten respondido.
+statistics-added-title = Engadidas
+statistics-added-subtitle = O número de tarxetas que se engadiron.
+statistics-reviews-count-subtitle = O número de preguntas que respondiches.
 statistics-reviews-time-subtitle = O tempo que levou responder ás preguntas.
 statistics-answer-buttons-title = Botóns de resposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Botón
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Veces premido
-statistics-answer-buttons-subtitle = O número de veces que ten premido cada botón.
+statistics-answer-buttons-subtitle = O número de veces que premiches cada botón.
 statistics-reviews-title = Repasos
 statistics-reviews-time-checkbox = Hora
 statistics-in-days-single =
@@ -155,8 +172,14 @@ statistics-in-days-single =
        *[other] En { $days } días
     }
 statistics-in-days-range = En { $daysStart }-{ $daysEnd } días
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } tarxeta pendente
+       *[other] { $cards } tarxetas pendentes
+    }
 statistics-intervals-title = Intervalos
 statistics-intervals-subtitle = Atrasos ata que os repasos se amosen de novo.
+statistics-hours-correct = { $correct }/{ $total } correctas ({ $percent }%)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } repasos
 # the emoji depicts the graph displaying this number
@@ -215,7 +238,10 @@ statistics-cards-per-day =
         [one] { $count } tarxeta/día
        *[other] { $count } tarxetas/día
     }
+statistics-median-ease = Facilidade media
 statistics-median-difficulty = Dificultade mediana
+statistics-average-retrievability = Recuperabilidade media
+statistics-estimated-total-knowledge = Coñecemento total estimado
 statistics-save-pdf = Gardar en PDF
 statistics-saved = Gardado.
 statistics-stats = estatísticas
