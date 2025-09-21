@@ -3,10 +3,10 @@ importing-aborted = אָפּגעשטעלט: { $val }
 importing-added-duplicate-with-first-field = דופּליקאַט צוגעשטעלט מיט ערשטער פֿעלד: { $val }
 importing-all-supported-formats = אַלע דערקענטע פֿאָרמאַטן { $val }
 importing-allow-html-in-fields = דערלויבן HTML אין פֿעלדער
-importing-anki-files-are-from-a-very = ".anki" טעקעס זענען פון ממש אַן אַלטער ווערסיע פון ANKI. מע קען זיי אַרײַנפֿירן מיט צולייגונג 175027074 אָדער מיט אַנקי 2.0, וואָס געפֿינט זיך אויפֿן אַנקי וועבזײַטל.
+importing-anki-files-are-from-a-very = ".anki" טעקעס זענען פון ממש אַן אַלטער ווערסיע פון „אַנקי״. מע קען זיי אַרײַנפֿירן מיט צולייגונג 175027074 אָדער מיט אַנקי 2.0, וואָס געפֿינט זיך אויפֿן אַנקי וועבזײַטל.
 importing-anki2-files-are-not-directly-importable = .anki2 טעקעס קען מען זיי נישט גלײַך אַרײַנפֿירן - אַנשטאָט, פֿיר אַרײַן די געקריגנע .apkg אָדער .zip טעקע.
 importing-appeared-twice-in-file = צוויי מאָל זיך געפֿונען אין טעקע: { $val }
-importing-by-default-anki-will-detect-the = דורך פֿעליקייט דערקענט ANKI דעם אות צווישן פֿעדלער, למשל טאַבקלאַוויש, קאָמע, אא״וו. ווען ANKI דערקענט אים נישט ריכטיק, קען מען אים אַרײַנלייגן דאָ. מע באַטײַט טאַבקלאַוויש מיט "t/".
+importing-by-default-anki-will-detect-the = דורך פֿעליקייט דערקענט „אַנקי״ דעם אות צווישן פֿעדלער, למשל טאַבקלאַוויש, קאָמע, אא״וו. ווען „אַנקי״ דערקענט אים נישט ריכטיק, קען מען אים אַרײַנלייגן דאָ. מע באַטײַט טאַבקלאַוויש מיט "t/".
 importing-cannot-merge-notetypes-of-different-kinds = שפּאַלט נאָטיצגרופּע קען מע נישט צונויפֿגיסן מיט סתּם נאָטיצגרופּע. די טעקע אָבער קען מען נאָך אַלץ אַרײַנפֿירן בײַם דעאַקטיווירן '{ importing-merge-notetypes }' .
 importing-change = בײַטן
 importing-colon = צווייפּינטל
@@ -38,7 +38,7 @@ importing-merge-notetypes-help =
     ווען ס׳איז חל, און דו אָדער דער מחבר פון טעשל האָבן איבערגעביטן די סכעמע פון אַ נאָטיצגרופּע, Anki וועט צונויפֿגיסן די 2 ווערסיעס אַנשטאָט׳ן האַטלן ביידע.
     
     דאָס איבערבײַטן אַ סכעמע מײנט צושטעלן, אָפּנעמען, אָדער אויס׳סדר׳ן פֿעלדער אָדער מוסטערן, אָדער איבערבײַטן דאָס סאָרטיר-פֿעלד.
-    אַ משל אויף פֿאַרקערט: איבערבײַטן דעם פֿאָרנט פון אַן איצטיקע מוסטער איז נישט גלײַך מיט קיין סכעמע-בײַט.
+    אַ משל אויף פֿאַרקערט: איבערבײַטן דעם פֿאָרנט פון אַ יעצטיקע מוסטער איז נישט גלײַך מיט קיין סכעמע-בײַט.
     
     היט זיך: דאָס וועט דאַרפֿן אַן אַהינ-סינך, און יעצטיקע נאָטיצן קענען ווערן פֿאַרצייכענט אַלס ׳מאָדיפֿיצירט׳.
 importing-mnemosyne-20-deck-db = טעשל מיט Mnemosyne 2.0 (*.db)
@@ -59,7 +59,7 @@ importing-include-reviews-help =
 importing-with-deck-configs-help =
     ווען אַקטיווירט, אַרײַנגענעמענע טעשל-ברירות וועלן אויך אַרײַנגעפֿירט ווערן. 
     אַנישט, וועלן אַלע טעשלעך באַשטימט ווערן אויפֿן מוסטער-טעשל לויט פֿעליקייט.
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = אײַנגעפּאַקט ANKI טעשל/זאַמלונג (*.apkg *.colpkg *.zip)
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = אײַנגעפּאַקט „אַנקי״ טעשל/זאַמלונג (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = טרויב-סימבאָל
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -79,7 +79,7 @@ importing-text-separated-by-tabs-or-semicolons = טעקסט צעטיילט פו�
 importing-the-first-field-of-the-note = דאָס ערשטע פֿעלד פון דער נאָטיצגרופּע מוז ווערן צונויפֿגעפּאָרט.
 importing-the-provided-file-is-not-a = די אָנגעגעבענע טעקע איז נישט קיין גילטיקע ׳.apkg׳ טעקע.
 importing-this-file-does-not-appear-to = אַפּנים איז די טעקע נישט קיין גילטיקע .apkg טעקע. ווען ס׳קומט פֿאָר די טעות פון אַ טעקע וואָס איז אַראָפּגעלאָדנט געוואָרן פון AnkiWeb, מסתּמא האָט זיך דער אַראָפּלאָד דורכגעפֿאַלן. פּרוּוו ווידער אַ מאָל, און, אַז דער פּראָבלעם קומט ווײַטער פֿאָר, פּרוּוו מיט אַן אַנדער בלעטערער.
-importing-this-will-delete-your-existing-collection = דאָס וועט אָפּמעקן דײַנע איצטיקע זאַמלונג און זי פֿאַרבײַטן מיט די דאַטן אין דער טעקע וואָס דו ווילסט אַרײַנפֿירן. ביסט זשע זיכער?
+importing-this-will-delete-your-existing-collection = דאָס וועט אָפּמעקן דײַנע יעצטיקע זאַמלונג און זי פֿאַרבײַטן מיט די דאַטן אין דער טעקע וואָס דו ווילסט אַרײַנפֿירן. ביסט זשע זיכער?
 importing-unable-to-import-from-a-readonly = מע קען נישט אַרײַנפֿירן פון אַ טעקע וואָס נאָר צום לייענען.
 importing-unknown-file-format = טעקע-פאָרמאַט נישט דערקענט.
 importing-update-existing-notes-when-first-field = דערהײַנטיקן עקסיסטירנדיקע נאָטיצן ווען דאָס ערשטע פֿעלד גלײַכט זיך.

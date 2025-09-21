@@ -30,7 +30,7 @@ card-templates-field-not-found = פֿעלד '{ $field }' ווערט נישט ג�
 card-templates-changes-saved = טוישונגען אויפֿגעהיטן.
 card-templates-discard-changes = אַוועקוואַרפֿן טוישונגען?
 card-templates-add-card-type = שאַפֿן קאַרטלגרופּע…
-card-templates-anki-couldnt-find-the-line-between = ANKI האָט נישט געפֿונען די ליניע צווישן דער פֿראַגע און דעם ענטפֿער. פּאַסט צו דעם מוסטער בידים כּדי איבערצובײַטן די פֿראַגע און ענטפֿער.
+card-templates-anki-couldnt-find-the-line-between = „אַנקי״ האָט נישט געפֿונען די ליניע צווישן דער פֿראַגע און דעם ענטפֿער. פּאַסט צו דעם מוסטער בידים כּדי איבערצובײַטן די פֿראַגע און ענטפֿער.
 card-templates-at-least-one-card-type-is = ס׳מוז דאָ זײַן כאָטש איינע קאַרטלגרופּע.
 card-templates-browser-appearance = בלעטערער אָנבליק…
 card-templates-card = קאַרטל { $val }
@@ -58,7 +58,7 @@ card-templates-this-will-create-card-proceed =
         [one] { $count } קאַרטל וועט ווערן באַשאַפֿן. זאָל מע ממשיך זײַן?
        *[other] { $count } קאַרטלעך וועלן באַשאַפֿן ווערן. זאָל מע ממשיך זײַן?
     }
-card-templates-type-boxes-warning = ס׳קען זײַן נאָך איין וואָרטיר-קעסטל פּער מוסטער-קאַרטל.
+card-templates-type-boxes-warning = ס׳קען זײַן נאָך איין וואָרטיר-קעסטל אין יעדעס מוסטער-קאַרטל.
 card-templates-restore-to-default = אויפֿריכטן ווי לכתּחילה
 card-templates-restore-to-default-confirmation = אַלע פֿעלדער און מוסטערן פון דער נאָטיצגרופּע וועלן אויפֿגעריכט ווערן אַזוי ויי לכתּחילה, און ס׳וועלן אַוועקגעוואָרפֿן ווערן אַלע איבעריקע פֿעלדער/מוסטערן, אַזאַ אינהאַלט און צוגעפּאַסטע שטייגערס. ווילסטו ממשיך זײַן?
 card-templates-restored-to-default = די נאָטיצגרופּע איז אויפֿגעריכטן געוואָרן אינעם ערשטן מצבֿ.

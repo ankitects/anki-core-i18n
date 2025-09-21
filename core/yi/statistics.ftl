@@ -49,12 +49,12 @@ statistics-in-time-span-years =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-seconds }הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [minutes] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-minutes } הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [hours] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-hours } הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [days] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-days } הײַנט ({ $secs-per-card }ס/קאַרטל)
-        [months] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-months }הײַנט ({ $secs-per-card }ס/קאַרטל)
-       *[years] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-years } הײַנט ({ $secs-per-card }ס/קאַרטל)
+        [seconds] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-seconds } הײַנט ({ $secs-per-card } ס/קאַרטל)
+        [minutes] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-minutes } הײַנט ({ $secs-per-card } ס/קאַרטל)
+        [hours] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-hours }  הײַנט ({ $secs-per-card } ס/קאַרטל)
+        [days] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-days }  הײַנט ({ $secs-per-card } ס/קאַרטל)
+        [months] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-months }הײַנט ({ $secs-per-card } ס/קאַרטל)
+       *[years] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-years } הײַנט ({ $secs-per-card } ס/קאַרטל)
     }
 
 ##
@@ -81,7 +81,7 @@ statistics-reviews =
 statistics-memorized = { $memorized } קאַרטלעך אויסגעלערנט
 statistics-today-title = הײַנט
 statistics-today-again-count = ווידער-חשבון:
-statistics-today-type-counts = לערנען: { $learnCount }, אײַנ׳חזר׳ן: { $reviewCount }, קריקלערנען: { $relearnCount }, פֿילטרירט: { $filteredCount }
+statistics-today-type-counts = לערנענדיק: { $learnCount }, אײַנ׳חזר׳נדיק: { $reviewCount }, קריקלערנענדיק: { $relearnCount }, פֿילטרירטע: { $filteredCount }
 statistics-today-no-cards = קיין קאַרטל איז הײַנט נישט אײַנגע׳חזר׳ט געוואָרן.
 statistics-today-no-mature-cards = קיין דערוואַקסן קאַרטל איז הײַנט נישט אײַנגע׳חזר׳ט געוואָרן.
 statistics-today-correct-mature = ריכטיקע ענטפֿערס אויף דערוואַקסענע קאַרטלעך: { $correct }/{ $total } ({ $percent }%)
@@ -149,7 +149,7 @@ statistics-card-stability-title = קאַרטל-געזעצקייט
 statistics-card-stability-subtitle = דער אָפּייג וואָס נאָך אים, פֿאַלט די דערמאָנענקייט ביז 90%.
 statistics-median-stability = מיטלפּונקט סטאַבילקייט
 statistics-card-retrievability-title = קאַרטל דערמאָנענקייט
-statistics-card-ease-subtitle = וואָס נידעריקער די גרינגקייט, אַלץ אָפֿטער וועט אַ קאַרטל ווערן אויסגעוויזן.
+statistics-card-ease-subtitle = וואָס נידעריקער די גרינגקייט, אַלץ אָפֿטער ווערט אַ קאַרטל אויסגעוויזן.
 statistics-card-difficulty-subtitle2 = וואָס העכער די שוועריקייט, אַלץ פּאַמעלעכער וואָס די געזעצקייט ווערן פֿאַרגרעסערט.
 statistics-retrievability-subtitle = דער משמעות פון זיך דערמאָנען אַ קאַרטל הײַנט.
 # eg "3 cards with 150-170% ease"
@@ -168,18 +168,18 @@ statistics-retrievability-tooltip =
         [one] { $cards } קאַרטל מיט { $percent } דערמאָנענקייט
        *[other] { $cards } קאַרטלעך מיט { $percent } דערמאָנענקייט
     }
-statistics-future-due-title = טערמיניקע און צוקונפֿט
-statistics-future-due-subtitle = דער צאָל טערמיניקע איבער׳חזר׳ונגען אינעם צוקונפֿט.
+statistics-future-due-title = טערמיניקע אין צוקונפֿט
+statistics-future-due-subtitle = וויפֿל איבער׳חזר׳ונגען וועט ווערן טערמיניק אין דער צוקונפֿט.
 statistics-added-title = צוגעלייגט
-statistics-added-subtitle = דער צאָל נײַע קאַרטלעך וואָס זענען געשאַפֿן געוואָרן.
-statistics-reviews-count-subtitle = דער צאָל פֿראַגעס וואָס זענען געענטפֿערט געוואָרן.
+statistics-added-subtitle = וויפֿל נײַע קאַרטלעך זענען געשאַפֿן געוואָרן.
+statistics-reviews-count-subtitle = וויפֿל פֿראַגעס זענען געענטפֿערט געוואָרן.
 statistics-reviews-time-subtitle = דער משך פון ענטפֿערן פֿראַגעס.
-statistics-answer-buttons-title = ענטפֿער-קענפּלעך
+statistics-answer-buttons-title = ענטפֿער-קנעפּלעך
 # eg Button: 4
 statistics-answer-buttons-button-number = קנעפּל
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = מאָל געקוועטשט
-statistics-answer-buttons-subtitle = דער צאָל מאָל וואָס אַלע קנעפּל איז געקוועטשט געוואָרן.
+statistics-answer-buttons-subtitle = וויפֿל מאָל איז איטלעכע קנעפּל געקוועטשט געוואָרן.
 statistics-reviews-title = איבער׳חזר׳ונגען
 statistics-reviews-time-checkbox = משך
 statistics-in-days-single =
@@ -201,7 +201,7 @@ statistics-running-total = גיייִקער סך-הכּל
 statistics-cards-due =
     { $cards ->
         [one] { $cards } קאַרטל טערמיניק
-       *[other] { $cards } קאַרטלעך טערמיניק
+       *[other] { $cards } טערמיניקע קאַרטלעך
     }
 statistics-backlog-checkbox = אָנגעזאַמלטע
 statistics-intervals-title = איבער׳חזר-צווישנצײַטן
@@ -234,7 +234,7 @@ statistics-hours-correct-info = ← (נישט 'ווידער')
 statistics-hours-reviews = 📊 { $reviews } איבער׳חזר׳ונגען
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% ריכטיק ({ $reviews })
-statistics-hours-title = צעפּרטלונג לויט שעהען
+statistics-hours-title = צע׳פּרט׳לונג לויט שעהען
 statistics-hours-subtitle = איבער׳חזר-הצלחה פון אַלע שעה פֿונעם טאָג.
 # shown when graph is empty
 statistics-no-data = קיין דאַטן
@@ -264,7 +264,7 @@ statistics-days-studied = טעג אײַנגע׳חזר׳ט
 statistics-average-answer-time-label = ענטפֿער-משך אין דורכשניט
 statistics-average = דורכשניט
 statistics-median-interval = מיטלפּונקט צווישנצײַט
-statistics-due-tomorrow = טערמיניק מאָרגן
+statistics-due-tomorrow = טערמיניקע מאָרגן
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
 # the future. Unlike the other strings in the table that display actual data 
@@ -296,7 +296,7 @@ statistics-estimated-total-knowledge = סך-הכּל וויסן לויט אָפ�
 statistics-save-pdf = אויפֿהיטן PDF
 statistics-saved = אויפֿגעהיט.
 statistics-stats = סטאַט.
-statistics-title = סטאַטיסטיקס
+statistics-title = סטאַטיסטיק
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.

@@ -1,4 +1,4 @@
-change-notetype-current = איצטיקער
+change-notetype-current = יעצטיקער
 change-notetype-new = נײַער
 change-notetype-nothing = (גאָרנישט)
 change-notetype-collapse = צונויפֿוויקלען
