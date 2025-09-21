@@ -41,11 +41,16 @@ studying-study-now = אײַנ׳חזר׳ן יעצט
 studying-suspend = אָפּשטעלן
 studying-suspend-note = אָפּשטעלן נאָטיץ
 studying-this-is-a-special-deck-for = דאָס איז אַ ספּעציעלע טעשל אויף אײַנצו׳חזר׳ן מחוץ דעם געוויינטלעכן צײַטפּלאַן.
-studying-to-review = וואָס אײַנצו׳חזר׳ן
+studying-to-review = אײַנצו׳חזר׳ן
 studying-type-answer-unknown-field = סאָרט ענטפֿער: אומבאַקאַנטע פֿעלד { $val }
 studying-unbury = צוריקנעמען
 studying-what-would-you-like-to-unbury = וואָס ווילסטו צוריקנעמען?
 studying-you-havent-recorded-your-voice-yet = דו האָסט נאָך נישט רעקאָרדירט דײַן קול.
+studying-question-time-elapsed = פֿראַגע צײַט פֿאַרבײַגעגאַנגען
+studying-answer-time-elapsed = ענטפֿער צײַט פֿאַרבײַגעגאַנגען
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } קאַרטל אײַנגע׳חזר׳ט אין
@@ -56,5 +61,3 @@ studying-minute =
         [one] { $count } מינוט.
        *[other] { $count } מינוטן.
     }
-studying-question-time-elapsed = פֿראַגע צײַט פֿאַרבײַגעגאַנגען
-studying-answer-time-elapsed = ענטפֿער צײַט פֿאַרבײַגעגאַנגען
