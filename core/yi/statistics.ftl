@@ -49,12 +49,14 @@ statistics-in-time-span-years =
 # version unmodified.
 statistics-studied-today =
     { $unit ->
-        [seconds] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-seconds } הײַנט ({ $secs-per-card } ס/קאַרטל)
-        [minutes] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-minutes } הײַנט ({ $secs-per-card } ס/קאַרטל)
-        [hours] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-hours }  הײַנט ({ $secs-per-card } ס/קאַרטל)
-        [days] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-days }  הײַנט ({ $secs-per-card } ס/קאַרטל)
-        [months] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-months }הײַנט ({ $secs-per-card } ס/קאַרטל)
-       *[years] אײַנגע׳חזר׳ט { statistics-cards }{ statistics-in-time-span-years } הײַנט ({ $secs-per-card } ס/קאַרטל)
+        [seconds] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-seconds } הײַנט ({ $secs-per-card } סעק/קאַרטל)
+        [minutes] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-minutes } הײַנט ({ $secs-per-card } סעק/קאַרטל)
+        [hours]
+            אײַנגע׳חזר׳ט { statistics-cards }
+            { statistics-in-time-span-hours }  הײַנט ({ $secs-per-card } סעק/קאַרטל)
+        [days] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-days }  הײַנט ({ $secs-per-card } ס/קאַרטל)
+        [months] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-months } הײַנט ({ $secs-per-card } סעק/קאַרטל)
+       *[years] אײַנגע׳חזר׳ט { statistics-cards } { statistics-in-time-span-years } הײַנט ({ $secs-per-card } סעק/קאַרטל)
     }
 
 ##
