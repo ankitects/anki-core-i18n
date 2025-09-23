@@ -79,7 +79,7 @@ scheduling-buried-cards-found = עס זענען דאָ קאַרטלעך ווא�
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = צוריקנעמען זיי
-scheduling-how-to-custom-study = ווען דו ווילסט זיך לערנען אויסן דעם געווייטלעכן פּלאַן, קענסט ניצן { $customStudy }.
+scheduling-how-to-custom-study = ווען דו ווילסט זיך לערנען אויסן דעם געווייטלעכן פּלאַן, קענסט { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = אײַנ׳חזר׳ן צוגעפּאַסט
@@ -114,7 +114,7 @@ scheduling-ignore-answer-times-longer-than = פֿאַרקוקן ענטפֿער-�
 scheduling-interval-modifier = צווישנצײַט מאָדיפֿיצירער
 scheduling-lapses = פֿאַרטונקלונגען
 scheduling-lapses2 = פֿאַרטונקלונגען
-scheduling-learning = לערנענדיק
+scheduling-learning = לערנענדיקע
 scheduling-leech-action = שנאָרער-טוּונג
 scheduling-leech-threshold = שנאָרער-שוועל
 scheduling-maximum-interval = מאַקסימאַל צווישנצײַט

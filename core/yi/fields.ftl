@@ -1,11 +1,11 @@
-fields-add-field = צושטעלן פֿעלד
+fields-add-field = נײַע פֿעלד
 fields-delete-field-from = אויסמעקן פֿעלד פון { $val }?
-fields-editing-font = צופּאַסנדיק שריפֿט
+fields-editing-font = צופּאַס-שריפֿט
 fields-field = פֿעלד:
 fields-field-name = פֿעלד-נאָמען:
 fields-description = באַשרײַבונג
 fields-description-placeholder = טעקסט וואָס צו אַרויסצוווײַזן אינעם פֿעלד ווען ס׳איז פּוסט
-fields-fields-for = פֿעלדער אויף { $val }
+fields-fields-for = פֿעלדער פֿון { $val }
 fields-font = שריפֿט:
 fields-new-position-1 = נײַע פּאָזיציע (1…{ $val }):
 fields-notes-require-at-least-one-field = נאָטיצן באַדאַרפֿן כאָטש איין פֿעלד.

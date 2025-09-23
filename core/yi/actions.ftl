@@ -1,4 +1,4 @@
-actions-add = צולייגן
+actions-add = שאַפֿן
 # Action in context menu:
 # In the browser sidebar, when in "Select" mode, right-click on the
 # selected criteria elements. In the context menu, click on "Search" to open
@@ -31,7 +31,7 @@ actions-increment-value = אַ שטאַפּל ווייניקער
 actions-import = אַרײַנפֿירן
 actions-manage = אָנפֿירן
 actions-name = נאָמען:
-actions-new = נײַ
+actions-new = נײַע
 actions-new-name = נײַער נאָמען:
 actions-options = ברירות
 actions-options-for = ברירות בנוגע
@@ -91,7 +91,7 @@ actions-flag-purple = פּערפּל
 actions-set-flag = צולייגן סימן
 actions-nothing-to-undo = גאָרנישט צו אַנולירן
 actions-nothing-to-redo = גאָרנישט צו איבערמאַכן
-actions-auto-advance = אויטאָ-פֿאָראויסגיין
-actions-auto-advance-activated = אויטאָ-פֿאָראויסגיין אַקטיווירט
-actions-auto-advance-deactivated = אויטאָ-פֿאָראויסגיין בטל געוואָרן
+actions-auto-advance = אויטאָ-פֿאָרויסגיין
+actions-auto-advance-activated = אויטאָ-פֿאָרויסגיין אַקטיווירט
+actions-auto-advance-deactivated = אויטאָ-פֿאָרויסגיין בטל געוואָרן
 actions-processing = פּראָצעסירנדיק…

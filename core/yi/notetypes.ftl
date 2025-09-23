@@ -13,7 +13,7 @@ notetypes-back-extra-field = הינטן (איבעריק)
 notetypes-basic-name = עיקרדיק
 notetypes-basic-reversed-name = עיקרדיק (און פֿאַרקערט קאַרטל)
 notetypes-basic-optional-reversed-name = עיקרדיק (ברירהדיק פֿאַרקערט קאַרטל)
-notetypes-basic-type-answer-name = עיקרדיק (אַרײַןקלאַפּן די ענטפֿער)
+notetypes-basic-type-answer-name = עיקרדיק (אַרײַנקלאַפּן די ענטפֿער)
 notetypes-cloze-name = שפּאַלט
 
 ## Default card template names

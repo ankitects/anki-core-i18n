@@ -190,9 +190,9 @@ deck-config-stop-timer-on-answer-tooltip =
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = סעקונדעס אויף צו ווײַזן פֿראַגע
-deck-config-seconds-to-show-question-tooltip-3 = ווען אויטאָ-פֿאָראויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן ניצן די פֿראַגע טוּונג. כּדי בטל צו מאַכן, שטעלן ׳0׳.
+deck-config-seconds-to-show-question-tooltip-3 = ווען אויטאָ-פֿאָרויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן ניצן די פֿראַגע טוּונג. כּדי בטל צו מאַכן, שטעלן ׳0׳.
 deck-config-seconds-to-show-answer = סעקונדעס אויף צו ווײַזן ענטפֿער
-deck-config-seconds-to-show-answer-tooltip-2 = ווען אויטאָ-פֿאָראויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן ניצן די ענטפֿער טוּונג. כּדי בטל צו מאַכן, שטעלן ׳0׳.
+deck-config-seconds-to-show-answer-tooltip-2 = ווען אויטאָ-פֿאָרויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן ניצן די ענטפֿער טוּונג. כּדי בטל צו מאַכן, שטעלן ׳0׳.
 deck-config-question-action-show-answer = באַווײַזן ענטפֿער
 deck-config-question-action-show-reminder = באַווײַזן דערמאָנונג
 deck-config-question-action = פֿראַגע טוּונג
@@ -401,7 +401,7 @@ deck-config-weights-tooltip = <MARKED AS NOT NEEDED>
 deck-config-compute-optimal-weights-tooltip = <MARKED AS NOT NEEDED>
 deck-config-compute-optimal-retention-tooltip2 = <MARKED AS NOT NEEDED>
 deck-config-compute-optimal-retention-tooltip3 = <MARKED AS NOT NEEDED>
-deck-config-seconds-to-show-question-tooltip-2 = ווען אויטאָ-פֿאָראויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן באַווײַזן די ענטפֿער. כּדי בטל צו מאַכן, שטעלן ׳0׳.
+deck-config-seconds-to-show-question-tooltip-2 = ווען אויטאָ-פֿאָרויסגיין איז חל, די ציפֿער סעקונדעס אויף צו וואַרטן ביז׳ן באַווײַזן די ענטפֿער. כּדי בטל צו מאַכן, שטעלן ׳0׳.
 deck-config-invalid-weights = <MARKED AS NOT NEEDED>
 deck-config-fsrs-on-all-clients = <MARKED AS NOT NEEDED>
 deck-config-optimize-all-tip = מע קען אָפּטימיזירן אַלע מוסטערס מיט אַ מאָל בײַם ניצן דאָס אַראָפּצי-קנעפּל פּונקט לעבן "אויפֿהיטן".
