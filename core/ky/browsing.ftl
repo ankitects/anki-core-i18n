@@ -85,6 +85,97 @@ browsing-search-in = Издөө жери:
 browsing-search-within-formatting-slow = Форматтоо ичинен издөө (жай)
 browsing-select-deck = Карталар топтомун тандоо
 browsing-selected-notes-only = Тандалган эскертмелер гана
+browsing-shift-position-of-existing-cards = Учурдагы карталардын ордун жылдыруу
+browsing-sidebar = Каптал тилке
+browsing-sidebar-filter = Каптал тилкенин чыпкасы
+# The field that is used for sorting (sort is an adjective here, not a verb)
+browsing-sort-field = Иреттөө талаасы
+browsing-sorting-on-this-column-is-not = Бул мамыча боюнча иреттөө колдоого алынбайт. Башкасын тандаңыз.
+browsing-start-position = Баштапкы орду:
+browsing-step = Кадам:
+browsing-suspended = Токтотулган
+browsing-tag-duplicates = Дубликаттарды белгилөө
+browsing-tag-rename-warning-empty = Эч кандай эскертмеси жок тегдин атын өзгөртө албайсыз.
+browsing-target-field = Максаттуу талаа:
+browsing-toggle-bury = Көмүүнү которуу
+browsing-toggle-showing-cards-notes = Карта/Эскертме которуу
+browsing-toggle-mark = Белгини которуу
+browsing-toggle-suspend = Токтотууну которуу
+browsing-treat-input-as-regular-expression = Киргизилгенди регулярдуу туюнтма катары кабыл алуу
+browsing-update-saved-search = Учурдагы издөө менен жаңыртуу
+browsing-whole-collection = Бүткүл коллекция
+browsing-window-title-notes = Кароо ({ $total } ичинен { $selected } эскертме тандалды)
+browsing-you-must-have-at-least-one = Жок дегенде бир мамыча болушу керек.
+browsing-group =
+    { $count ->
+        [one] { $count } топ
+       *[other] { $count } топтоптор
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } эскертме
+       *[other] { $count } эскертмелер
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } эскертме жаңыртылды.
+       *[other] { $count } эскертмелер жаңыртылды.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } карта жаңыртылды.
+       *[other] { $count } карталар жаңыртылды.
+    }
+browsing-window-title = Кароо ({ $total } ичинен { $selected } карта тандалды)
+browsing-sidebar-expand = Жайуу
+browsing-sidebar-collapse = Жыйноо
+browsing-sidebar-expand-children = Туундуларды жайуу
+browsing-sidebar-collapse-children = Туундуларды жыйноо
+browsing-sidebar-decks = Топтомдор
+browsing-sidebar-tags = Тегдер
+browsing-sidebar-notetypes = Эскертме түрлөрү
+browsing-sidebar-saved-searches = Сакталган издөөлөр
+browsing-sidebar-save-current-search = Учурдагы издөөнү сактоо
+browsing-sidebar-card-state = Картанын абалы
+browsing-sidebar-flags = Желекчелер
+browsing-today = Бүгүн
+browsing-tooltip-card-modified = Картага акыркы жолу өзгөртүүлөр киргизилген убакыт (кайталоолор, желекчелер жана топтомдун өзгөрүүлөрүн кошкондо)
+browsing-tooltip-note-modified = Эскертмеге акыркы жолу өзгөртүүлөр киргизилген убакыт (адатта талаанын мазмуну же тегдердин түзөтүүлөрү)
+browsing-tooltip-card = Картанын карта калыбынын аталышы
+browsing-tooltip-cards = Эскертменин карталарынын саны
+browsing-tooltip-notetype = Эскертменин эскертме түрүнүн аталышы
+browsing-tooltip-question = Картанын алдыңкы бети (карта калыбынын редакторунда ыңгайлаштырылат)
+browsing-tooltip-answer = Картанын арткы бети (карта калыбынын редакторунда ыңгайлаштырылат)
+browsing-studied-today = Окулган
+browsing-added-today = Кошулган
+browsing-again-today = Кайра
+browsing-edited-today = Түзөтүлгөн
+browsing-sidebar-first-review = Биринчи кайталоо
+browsing-sidebar-rescheduled = Кайра пландаштырылган
+browsing-sidebar-due-today = Бүгүнкүгө
+browsing-sidebar-untagged = Тегсиз
+browsing-sidebar-overdue = Мөөнөтү өтүп кеткен
+browsing-row-deleted = (өчүрүлгөн)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] { $count } колдонулбаган тег өчүрүлдү.
+       *[other] { $count } колдонулбаган тегдер өчүрүлдү.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] { $count } жаңы картанын орду алмаштырылды.
+       *[other] { $count } жаңы карталардын орду алмаштырылды.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] { $count } топтомдун аты өзгөртүлдү.
+       *[other] { $count } топтомдордун аты өзгөртүлдү.
+    }
+browsing-sidebar-card-state-review = Кайталоо
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = К
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = Э
