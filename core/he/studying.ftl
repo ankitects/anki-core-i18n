@@ -46,6 +46,32 @@ studying-type-answer-unknown-field = סוג תשובה: שדה בלתי ידוע
 studying-unbury = הוצא מהטמנה
 studying-what-would-you-like-to-unbury = האם תרצה להוציא מהטמנה?
 studying-you-havent-recorded-your-voice-yet = לא הקלטת את קולך עדיין.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] כרטיס אחד נלמד בדקה.
+                [two] כרטיס אחד נלמד בשתי דקות.
+               *[other] כרטיס אחד נלמד ב{ $minutes } דקות.
+            }
+        [two]
+            { $minutes ->
+                [one] שני כרטיסים נלמדו בדקה.
+                [two] שני כרטיסים נלמדו בשתי דקות.
+               *[other] שני כרטיסים נלמדו ב{ $minutes } דקות.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $cards } כרטיסים נלמדו בדקה.
+                [two] { $cards } כרטיסים נלמדו בשתי דקות.
+               *[other] { $cards } כרטיסים נלמדו ב{ $minutes } דקות.
+            }
+    }
+studying-question-time-elapsed = זמן השאלה חלף
+studying-answer-time-elapsed = זמן התשובה חלף
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } כרטיס נלמד ב
@@ -56,5 +82,3 @@ studying-minute =
         [one] { $count } דקה.
        *[other] { $count } דקות.
     }
-studying-question-time-elapsed = זמן השאלה חלף
-studying-answer-time-elapsed = זמן התשובה חלף
