@@ -78,7 +78,7 @@ scheduling-today-new-limit-reached = ס׳בלײַבן נאָך נײַע קאַר
 scheduling-buried-cards-found = עס זענען דאָ קאַרטלעך וואָס זענען אָפּגעהאַלטן געוואָרן, און וועט מאָרגן ווערן אַרויסגעוויזן. קענסט { $unburyThem } ווען דו ווילסט זיי זען תּיכף-ומיד.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = צוריקנעמען זיי
+scheduling-unbury-them = זיי צוריקנעמען
 scheduling-how-to-custom-study = ווען דו ווילסט זיך לערנען אויסן דעם געווייטלעכן פּלאַן, קענסט { $customStudy }.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
