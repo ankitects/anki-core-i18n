@@ -81,7 +81,17 @@ actions-flag-number = Желекче { $number }
 actions-flag-red = Кызыл
 actions-flag-orange = Кызгылт сары
 actions-flag-green = Жашыл
+actions-flag-blue = Көк
+actions-flag-pink = Кызгылт
+actions-flag-turquoise = Бирюза
+actions-flag-purple = Кызгылт көк
 
 ##
 
+actions-set-flag = Желекче коюу
+actions-nothing-to-undo = Артка кайтара турган эч нерсе жок
+actions-nothing-to-redo = Алдыга кайтара турган эч нерсе жок
+actions-auto-advance = Авто-өтүү
+actions-auto-advance-activated = Авто-өтүү иштетилди
+actions-auto-advance-deactivated = Авто-өтүү өчүрүлдү
 actions-processing = Иштелүүдө...
