@@ -45,7 +45,7 @@ studying-type-answer-unknown-field = 輸入答案：未知欄位 { $val }
 studying-unbury = 取消推遲
 studying-what-would-you-like-to-unbury = 要取消推遲哪些卡片？
 studying-you-havent-recorded-your-voice-yet = 尚未錄製聲音。
-studying-card-studied-in-minute = 在{ $minutes }分鐘内學習了{ $cards }張卡。
+studying-card-studied-in-minute = 學習了 { $cards } 張卡片，耗時 { $minutes } 分鐘。
 studying-question-time-elapsed = 問題經過時間
 studying-answer-time-elapsed = 回答經過時間
 
