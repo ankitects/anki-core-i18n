@@ -237,7 +237,7 @@ statistics-hours-reviews = 📊 { $reviews } איבער׳חזר׳ונגען
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% ריכטיק ({ $reviews })
 statistics-hours-title = צע׳פּרט׳לונג לויט שעהען
-statistics-hours-subtitle = איבער׳חזר-הצלחה פון אַלע שעה פֿונעם טאָג.
+statistics-hours-subtitle = אײַנ׳חזר-הצלחה פון יעדער שעה פֿונעם טאָג.
 # shown when graph is empty
 statistics-no-data = קיין דאַטן
 statistics-calendar-title = קאַלענדאַר
