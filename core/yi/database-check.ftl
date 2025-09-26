@@ -42,8 +42,8 @@ database-check-missing-decks =
     }
 database-check-revlog-properties =
     { $count ->
-        [one] { $count } איבער׳חזר׳ונג-איינס מיט פּסולע אייגנקייטן איז פֿאַרריכט געוואָרן.
-       *[other] { $count } איבער׳חזר׳ונג-איינסן מיט פּסולע אייגנקייטן זענען פֿאַרריכט געוואָרן.
+        [one] { $count } אײַנ׳חזר׳ונג מיט פּסולע אייגנקייטן איז פֿאַרריכט געוואָרן.
+       *[other] { $count } אײַנ׳חזר׳ונג מיט פּסולע אייגנקייטן זענען פֿאַרריכט געוואָרן.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
