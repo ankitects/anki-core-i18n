@@ -135,7 +135,7 @@ browsing-sidebar-expand-children = צעוויקלען סוב-שטיקלעך
 browsing-sidebar-collapse-children = צונויפֿוויקלען סוב-שטיקלעך
 browsing-sidebar-decks = טעשלעך
 browsing-sidebar-tags = צעטלען
-browsing-sidebar-notetypes = מיני נאָטיץ
+browsing-sidebar-notetypes = נאָטיצגרופּעס
 browsing-sidebar-saved-searches = אויפֿגעהיטנע זוכן
 browsing-sidebar-save-current-search = אויפֿהיטן יעצטיקן זוך
 browsing-sidebar-card-state = קאַרטל-מצבֿ
@@ -155,7 +155,7 @@ browsing-edited-today = געביטן
 browsing-sidebar-first-review = ערשטע איבער׳חזר׳ונג
 browsing-sidebar-rescheduled = טערמין אָפּגעלייגט
 browsing-sidebar-due-today = טערמיניק
-browsing-sidebar-untagged = אָן צעטל
+browsing-sidebar-untagged = אָן קיין צעטל
 browsing-sidebar-overdue = פֿאַרשפּעטיקט
 browsing-row-deleted = (אָפּגעמעקט)
 browsing-removed-unused-tags-count =
@@ -173,7 +173,7 @@ browsing-reparented-decks =
         [one] איבערגעביטן דעם נאָמען פון { $count } טעשל.
        *[other] איבערגעביטן די נעמען פון { $count } טעשלעך.
     }
-browsing-sidebar-card-state-review = אײַנ׳חזר׳ן
+browsing-sidebar-card-state-review = איבערצו׳חזר׳ן
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
