@@ -74,8 +74,8 @@ statistics-notes =
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
     { $reviews ->
-        [one] { $reviews } איבער׳חזר׳ונג
-       *[other] { $reviews } איבער׳חזר׳ונגען
+        [one] { $reviews } אײַנ׳חזר׳ונג
+       *[other] { $reviews } אײַנ׳חזר׳ונגען
     }
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
@@ -182,7 +182,7 @@ statistics-answer-buttons-button-number = קנעפּל
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = מאָל געקוועטשט
 statistics-answer-buttons-subtitle = וויפֿל מאָל איז איטלעכע קנעפּל געקוועטשט געוואָרן.
-statistics-reviews-title = איבער׳חזר׳ונגען
+statistics-reviews-title = אײַנ׳חזר׳ונגען
 statistics-reviews-time-checkbox = משך
 statistics-in-days-single =
     { $days ->
@@ -278,8 +278,8 @@ statistics-amount-of-total-with-percentage = { $amount } פון { $total } ({ $p
 statistics-average-over-period = דורכשניט לויט זמן
 statistics-reviews-per-day =
     { $count ->
-        [one] { $count } איבער׳חזר׳ונג/טאָג
-       *[other] { $count } איבער׳חזר׳ונגען/טאָג
+        [one] { $count } איבער׳חזר׳ונג / טאָג
+       *[other] { $count } איבער׳חזר׳ונגען / טאָג
     }
 statistics-minutes-per-day =
     { $count ->
