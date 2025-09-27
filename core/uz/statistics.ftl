@@ -15,33 +15,33 @@ statistics-average-answer-time = { $average-seconds } s ({ statistics-cards-per-
 
 statistics-in-time-span-seconds =
     { $amount ->
-        [one] { $amount } soniyada
-       *[other] { $amount } soniyada
+        [one] { $amount } soniya ichida
+       *[other] { $amount } soniya ichida
     }
 statistics-in-time-span-minutes =
     { $amount ->
-        [one] { $amount } daqiqada
-       *[other] { $amount } daqiqada
+        [one] { $amount } daqiqa ichida
+       *[other] { $amount } daqiqa ichida
     }
 statistics-in-time-span-hours =
     { $amount ->
-        [one] { $amount } soatda
-       *[other] { $amount } soatda
+        [one] { $amount } soat ichida
+       *[other] { $amount } soat ichida
     }
 statistics-in-time-span-days =
     { $amount ->
-        [one] { $amount } kunda
-       *[other] { $amount } kunda
+        [one] { $amount } kun ichida
+       *[other] { $amount } kun ichida
     }
 statistics-in-time-span-months =
     { $amount ->
-        [one] { $amount } oyda
-       *[other] { $amount } oyda
+        [one] { $amount } oy ichida
+       *[other] { $amount } oy ichida
     }
 statistics-in-time-span-years =
     { $amount ->
-        [one] { $amount } yilda
-       *[other] { $amount } yilda
+        [one] { $amount } yil ichida
+       *[other] { $amount } yil ichida
     }
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
@@ -52,27 +52,27 @@ statistics-studied-today =
         [seconds]
             Bugun { statistics-in-time-span-seconds }
             { statistics-cards } oʻrganildi
-            ({ $secs-per-card } s/karta)
+            ({ $secs-per-card } soniya/karta)
         [minutes]
             Bugun { statistics-in-time-span-minutes }
             { statistics-cards } oʻrganildi
-            ({ $secs-per-card } s/karta)
+            ({ $secs-per-card } soniya/karta)
         [hours]
             Bugun { statistics-in-time-span-hours }
             { statistics-cards } oʻrganildi
-            ({ $secs-per-card } s/karta)
+            ({ $secs-per-card } soniya/karta)
         [days]
             Bugun { statistics-in-time-span-days }
             { statistics-cards } oʻrganildi
-            ({ $secs-per-card } s/karta)
+            ({ $secs-per-card } soniya/karta)
         [months]
             Bugun { statistics-in-time-span-months }
             { statistics-cards } oʻrganildi
-            ({ $secs-per-card } s/karta)
+            ({ $secs-per-card } soniya/karta)
        *[years]
             Bugun { statistics-in-time-span-years }
             { statistics-cards } oʻrganildi
-            ({ $secs-per-card } s/karta)
+            ({ $secs-per-card } soniya/karta)
     }
 
 ##
