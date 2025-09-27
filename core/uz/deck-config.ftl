@@ -303,7 +303,6 @@ deck-config-which-deck = Qaysi dasta uchun parametrlarni koʻrishni xohlaysiz?
 deck-config-updating-cards = Kartalar yangilanmoqda: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Taqdim etilgan FSRS parametrlar yaroqsiz. Birlamchi parametrlardan foydalanish uchun ularni boʻsh qoldiring.
 deck-config-not-enough-history = Bu amalni bajarish uchun takrorlashlar tarixi yetarli emas.
-deck-config-unable-to-determine-desired-retention = Minimal tavsiya etilgan eslab qolish nisbatini aniqlab boʻlmadi.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Faqat { $count } ta takrorlash topildi. Ushbu amal uchun kamida 400 ta takrorlashga ega boʻlishingiz kerak.
@@ -312,7 +311,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS parametrlari
 deck-config-compute-optimal-weights = FSRS parametrlarini optimallashtirish
-deck-config-compute-minimum-recommended-retention = Minimal tavsiya etilgan eslab qolish nisbati
 deck-config-optimize-button = Joriy andozani optimallashtirish
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (sekin)
@@ -325,7 +323,6 @@ deck-config-historical-retention = Oldingi eslab qolish nisbati
 deck-config-smaller-is-better = Kichik qiymatlar algoritm sizning takrorlashlar tarixingizga yaxshiroq mos kelganini bildiradi.
 deck-config-steps-too-large-for-fsrs = FSRS yoqilgan boʻlsa, 1 kun yoki undan ortiq bosqichlar tavsiya etilmaydi.
 deck-config-get-params = Parametrlarni olish
-deck-config-predicted-minimum-recommended-retention = Minimal tavsiya etilgan eslab qolish nisbati: { $num }
 deck-config-complete = { $num }% yakunlandi.
 deck-config-iterations = Iteratsiya: { $count }...
 deck-config-reschedule-cards-on-change = Kartalar oʻzgarganda qayta rejalashtirish
@@ -360,7 +357,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Optimallashtirish tugmasini bosganingizda, FSRS takrorlash tarixini tahlil qilib xotirangiz va oʻrganayotgan kontentingiz uchun optimal parametrlarni yaratadi. Agar sizning dastalaringiz subʼyektiv qiyinchiligi jihatdan juda farqlansa, ularga alohida andoza belgilash tavsiya etiladi, chunki oson dastalar va qiyin dastalar uchun parametrlar turli xil boʻladi. Parametrlarni tez-tez optimallashtirishning hojati yoʻq - bir necha oyda bir marta qilsangiz yetarli.
     
     Birlamchi sifatida, parametrlar joriy andozadan foydalangan holda barcha dastalarni takrorlash tarixidan hisoblab chiqiladi. Parametrlarni optimallashtirish uchun qaysi kartalar ishlatilishini oʻzgartirmoqchi boʻlsangiz, parametrlarni hisoblashdan oldin ixtiyoriy ravishda qidiruvni sozlashingiz mumkin.
-deck-config-compute-optimal-retention-tooltip4 = Ushbu vosita eng kam vaqt ichida eng koʻp materialni oʻrganishga yordam beradigan eslab qolish nisbatini topishga harakat qiladi. Hisoblangan raqam kerakli eslab qolish nisbatini oʻrnatishni hal qilishda maʻlumotnoma sifatida xizmat qilishi mumkin. Agar bunga erishish uchun koʻproq oʻqish vaqtini sarflashga tayyor boʻlsangiz, yuqoriroq eslab qolish nisbatini tanlashingiz mumkin. Istalgan eslab qolish nisbatini minimal darajadan pastga sozlash tavsiya etilmaydi, chunki bu koʻp unutishlarga va ish yukining oshishiga olib keladi.
 deck-config-please-save-your-changes-first = Avval oʻzgartirishlaringizni saqlang.
 deck-config-workload-factor-change =
     Taxminiy ish yuki: { $factor }x
@@ -392,6 +388,7 @@ deck-config-desired-retention-below-optimal = Siz istagan eslab qolish nisbati o
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS simulyatori (eksperimental)
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS istalgan eslab qolish nisbati simulyatori (eksperimental)
+deck-config-fsrs-simulate-save-preset = Optimizatsiyadan soʻng simulyatorni ishga tushurishdan oldin dasta andozasini saqlang.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Qaror qabul qilishga yordam (eksperimental)
 deck-config-additional-new-cards-to-simulate = Simulyatsiya uchun qoʻshimcha yangi kartalar
 deck-config-simulate = Simyulatsiya qilish
@@ -402,7 +399,6 @@ deck-config-smooth-graph = Tekis grafik
 deck-config-suspend-leeches = Yopishqoqlarni toʻxtatish
 deck-config-save-options-to-preset = Oʻzgarishlarni andozaga saqlash
 deck-config-save-options-to-preset-confirm = Joriy andozadagi parametrlarni simulyatorda oʻrnatilgan parametrlar bilan qayta yozilsinmi?
-deck-config-plotted-on-x-axis = (X oʻqi boʻyicha chizildi)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -432,6 +428,11 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Minimal tavsiya etilgan eslab qolish nisbatini aniqlab boʻlmadi.
+deck-config-predicted-minimum-recommended-retention = Minimal tavsiya etilgan eslab qolish nisbati: { $num }
+deck-config-compute-minimum-recommended-retention = Minimal tavsiya etilgan eslab qolish nisbati
+deck-config-compute-optimal-retention-tooltip4 = Ushbu vosita eng kam vaqt ichida eng koʻp materialni oʻrganishga yordam beradigan eslab qolish nisbatini topishga harakat qiladi. Hisoblangan raqam kerakli eslab qolish nisbatini oʻrnatishni hal qilishda maʻlumotnoma sifatida xizmat qilishi mumkin. Agar bunga erishish uchun koʻproq oʻqish vaqtini sarflashga tayyor boʻlsangiz, yuqoriroq eslab qolish nisbatini tanlashingiz mumkin. Istalgan eslab qolish nisbatini minimal darajadan pastga sozlash tavsiya etilmaydi, chunki bu koʻp unutishlarga va ish yukining oshishiga olib keladi.
+deck-config-plotted-on-x-axis = (X oʻqi boʻyicha chizildi)
 deck-config-a-100-day-interval =
     { $days ->
         [one] 100 kunlik oraliq { $days } kunga aylanadi.

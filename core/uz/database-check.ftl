@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] { $count } ta yaroqsiz karta xususiyatlari tuzatildi.
        *[other] { $count } ta yaroqsiz karta xususiyatlari tuzatildi.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] { $count } ta kartaga oxirgi takrorlash vaqti  qoʻshildi.
+       *[other] { $count } ta kartaga oxirgi takrorlash vaqti  qoʻshildi.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Shabloni yoʻq { $count } ta karta oʻchirildi.
