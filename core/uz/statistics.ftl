@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = Muddati
+statistics-due-date = Muddat
 # The count of cards waiting to be reviewed
-statistics-due-count = Muddati
+statistics-due-count = Muddat
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Yangi #{ $number }
 
