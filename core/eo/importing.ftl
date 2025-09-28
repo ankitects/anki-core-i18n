@@ -11,8 +11,8 @@ importing-cannot-merge-notetypes-of-different-kinds =
     Nototipoj truteksto ne povas esti kunfanditaj kun normaj nototipoj.
     Vi plue povas enporti la dosieron kun malaktiva agordo «{ importing-merge-notetypes }».
 importing-change = Ŝanĝi
-importing-colon = Dupunkto
-importing-comma = Komo
+importing-colon = dupunkto
+importing-comma = komo
 importing-empty-first-field = Malplena unua kampo: { $val }
 importing-field-mapping = Akordigo de kampoj
 importing-field-of-file-is = Kampo <b>{ $val }</b> de dosiero estas:
