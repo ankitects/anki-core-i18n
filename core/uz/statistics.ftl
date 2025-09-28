@@ -100,7 +100,7 @@ statistics-memorized = { $memorized } tasi esda qoldi
 statistics-today-title = Bugun
 statistics-today-again-count = Qaytadan takrorlanganlar:
 statistics-today-type-counts = Oʻrganildi: { $learnCount }, takrorlandi: { $reviewCount }, qaytadan oʻrganildi: { $relearnCount }, filtrlandi: { $filteredCount }
-statistics-today-no-cards = Bugun hech qancha karta oʻrganilmadi.
+statistics-today-no-cards = Bugun hech qanday karta oʻrganilmadi.
 statistics-today-no-mature-cards = Bugun hech qanday yetuk karta oʻrganilmadi.
 statistics-today-correct-mature = Yetuk kartalardagi toʻgʻri javoblar: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Jami
@@ -135,7 +135,7 @@ statistics-true-retention-range = Diapazon
 statistics-true-retention-pass = Oʻtdi
 statistics-true-retention-fail = Unutildi
 # This will usually be the same as statistics-counts-total-cards
-statistics-true-retention-total = JamiJami
+statistics-true-retention-total = Jami
 statistics-true-retention-count = Soni
 statistics-true-retention-retention = Eslab qolish nisbati
 # This will usually be the same as statistics-counts-young-cards
@@ -310,7 +310,7 @@ statistics-cards-per-day =
 statistics-median-ease = Osonlik medianasi
 statistics-median-difficulty = Qiyinlik medianasi
 statistics-average-retrievability = Oʻrtacha xotirlanarlik
-statistics-estimated-total-knowledge = Taxminiy jami bilim hajmi
+statistics-estimated-total-knowledge = Taxminiy butun bilim hajmi
 statistics-save-pdf = PDF saqlash
 statistics-saved = Saqlandi.
 statistics-stats = statistika
