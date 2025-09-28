@@ -4,9 +4,12 @@ importing-added-duplicate-with-first-field = Aldono de duoblaĵo kun la unua kam
 importing-all-supported-formats = Ĉiuj subtenataj dosiertipoj { $val }
 importing-allow-html-in-fields = Permesi HTML en kampoj
 importing-anki-files-are-from-a-very = .anki-dosieroj devenas de malnovegaj versioj de Anki. Vi povas enporti ilin per la aldonaĵo 175027074 aŭ per Anki 2.0 , kiu estas disponebla en la Anki-retejo.
-importing-anki2-files-are-not-directly-importable = .anki2-dosieroj ne estas senpere enportebla - bonvolu enporti anstataŭe la .apkg aŭ .zip-dosieron, kiun vi ricevis.
+importing-anki2-files-are-not-directly-importable = .anki2-dosieroj ne estas senpere enporteblaj – anstataŭ tio, enportu la ricevitan dosieron .apkg aŭ .zip.
 importing-appeared-twice-in-file = Troviĝis duoble en dosiero: { $val }
-importing-by-default-anki-will-detect-the = Laŭnorme Anki detektos la signojn inter kampoj, kiel ekzemple tabulatoron, komon, ktp. Se Anki malĝuste detektas signon, vi povas enmeti ĝin ĉi tie. Uzu \t por reprezenti tabulatoron.
+importing-by-default-anki-will-detect-the = Laŭnorme Anki detektos la disigilon: tebelilon, komon, ktp. Se Anki malĝuste detektas signon, vi povas enmeti ĝin tie ĉi. Uzu \t por reprezenti tabelilon.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Nototipoj truteksto ne povas esti kunfanditaj kun normaj nototipoj.
+    Vi plue povas enporti la dosieron kun malaktiva agordo «{ importing-merge-notetypes }».
 importing-change = Ŝanĝi
 importing-colon = Dupunkto
 importing-comma = Komo
