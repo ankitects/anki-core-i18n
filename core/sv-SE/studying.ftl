@@ -46,6 +46,24 @@ studying-type-answer-unknown-field = Skriv svar: okänt fält { $val }
 studying-unbury = Visa dolda
 studying-what-would-you-like-to-unbury = Vad vill du visa?
 studying-you-havent-recorded-your-voice-yet = Du har inte spelat in din röst ännu.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $cards } kort studerat på { $minutes } minut.
+               *[other] { $cards } kort studerat på { $minutes } minuter.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $cards } kort studerat på { $minutes } minut.
+               *[other] { $cards } kort studerat på { $minutes } minuter.
+            }
+    }
+studying-question-time-elapsed = Frågotid förfluten
+studying-answer-time-elapsed = Svarstid förfluten
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } kort studerat i
@@ -56,5 +74,3 @@ studying-minute =
         [one] { $count } minut.
        *[other] { $count } minuter.
     }
-studying-question-time-elapsed = Frågotid förfluten
-studying-answer-time-elapsed = Svarstid förfluten

@@ -3,11 +3,11 @@
 ## represent the card will be due in 4 days, "3m" for 3 minutes, and
 ## "5mo" for 5 months.
 
-scheduling-answer-button-time-seconds = { $amount } sek
+scheduling-answer-button-time-seconds = { $amount } s
 scheduling-answer-button-time-minutes = { $amount } min
-scheduling-answer-button-time-hours = { $amount } tim.
-scheduling-answer-button-time-days = { $amount } dag
-scheduling-answer-button-time-months = { $amount }mån
+scheduling-answer-button-time-hours = { $amount } tim
+scheduling-answer-button-time-days = { $amount } d
+scheduling-answer-button-time-months = { $amount } mån
 scheduling-answer-button-time-years = { $amount } år
 
 ## A span of time, such as the delay until a card is shown again, the

@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] Åtgärdade { $count } kort med ogiltiga egenskaper
        *[other] Åtgärdade { $count } kort med ogiltiga egenskaper
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Senaste repetitionstid lades till { $count } kort.
+       *[other] Senaste repetitionstid lades till { $count } kort.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Tog bort { $count } kort som saknade mall.

@@ -373,7 +373,6 @@ deck-config-which-deck = Vilken kortlek vill du välja?
 deck-config-updating-cards = Uppdaterar kort: { $current_cards_count } av { $total_cards_count } ...
 deck-config-invalid-parameters = De tillhandahållna FSRS-parametrarna är ogiltiga. Lämna dem blanka för att använda standardparametrarna.
 deck-config-not-enough-history = Otillräcklig repetitionshistorik för att utföra denna åtgärd.
-deck-config-unable-to-determine-desired-retention = Misslyckades att bestämma en minsta rekommenderad återkallningskvot.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Enbart { $count } repetition hittades. Åtminstone 400 repetitioner krävs för denna åtgärd.
@@ -382,7 +381,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS-parametrar
 deck-config-compute-optimal-weights = Optimera FSRS-parametrar
-deck-config-compute-minimum-recommended-retention = Minsta rekommenderad återkallningskvot
 deck-config-optimize-button = Optimera
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (långsam)
@@ -395,7 +393,6 @@ deck-config-historical-retention = Historisk återkallningskvot
 deck-config-smaller-is-better = Mindre tal antyder en bättre passning till repetitionshistoriken.
 deck-config-steps-too-large-for-fsrs = När FSRS är aktiverat avrådes steg större än 1 dag.
 deck-config-get-params = Hämta parametrar
-deck-config-predicted-minimum-recommended-retention = Minsta rekommenderad återkallningskvot: { $num }
 deck-config-complete = { $num } % klart
 deck-config-iterations = Iteration: { $count } ...
 deck-config-reschedule-cards-on-change = Schemalägg kort igen vid ändring
@@ -453,12 +450,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     
     Som standard kommer parametrar att beräknas utifrån repetitionshistoriken för alla kortlekar som använder den valda förinställningen.
     Sökningen kan valfritt justeras innan parametrarna beräknas om de kort som ingår i beräkningen önskas ändras.
-deck-config-compute-optimal-retention-tooltip4 =
-    Detta verktyg kommer försöka hitta den önskade återkallningskvot
-    som kommer leda till att mest material lärs på minst tid. Det beräknade talet kan tjäna som ett referensvärde
-    vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
-    tiden läggs ned för att uppnå den. Att sätta den önskade återkallningskvoten under minimivärdet
-    rekommenderas ej, då det kommer leda till en högre arbetsbelastning på grund av det höga andelen kort som bortglöms.
 deck-config-please-save-your-changes-first = Var god spara dina ändringar först.
 deck-config-workload-factor-change =
     Uppskattad arbetsbelastning: { $factor }x
@@ -490,6 +481,7 @@ deck-config-desired-retention-below-optimal = Den önskade återkallningskvoten 
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS-simulator (experimentell)
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS simulator för önskad återkallningskvot (experimentell)
+deck-config-fsrs-simulate-save-preset = Efter att du har optimerat, var god spara kortleken innan du kör simulatorn.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Hjälpverktyg (experimentell)
 deck-config-additional-new-cards-to-simulate = Ytterligare nya kort att simulera
 deck-config-simulate = Simulera
@@ -500,7 +492,6 @@ deck-config-smooth-graph = Glatt kurva
 deck-config-suspend-leeches = Lås energislukare
 deck-config-save-options-to-preset = Spara ändringar till förinställning
 deck-config-save-options-to-preset-confirm = Skriva över alternativen i den nuvarande förinställningen med alternativen som är satta i simulatorn?
-deck-config-plotted-on-x-axis = (ritad på X-axeln)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -530,6 +521,16 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Misslyckades att bestämma en minsta rekommenderad återkallningskvot.
+deck-config-predicted-minimum-recommended-retention = Minsta rekommenderad återkallningskvot: { $num }
+deck-config-compute-minimum-recommended-retention = Minsta rekommenderad återkallningskvot
+deck-config-compute-optimal-retention-tooltip4 =
+    Detta verktyg kommer försöka hitta den önskade återkallningskvot
+    som kommer leda till att mest material lärs på minst tid. Det beräknade talet kan tjäna som ett referensvärde
+    vid ändring av den önskade återkallningskvoten. Det kan vara värt att välja en högre önskad återkallningskvot om
+    tiden läggs ned för att uppnå den. Att sätta den önskade återkallningskvoten under minimivärdet
+    rekommenderas ej, då det kommer leda till en högre arbetsbelastning på grund av det höga andelen kort som bortglöms.
+deck-config-plotted-on-x-axis = (ritad på X-axeln)
 deck-config-a-100-day-interval =
     { $days ->
         [one] Ett 100-dagarsintervall kommer bli { $days } dag.
