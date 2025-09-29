@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = Thêm (phím tắt: Ctrl+Enter)
 adding-added = Đã thêm
-adding-close-and-lose-current-input = Đóng và bỏ qua các nhập liệu hiện hành
+adding-discard-current-input = Hủy bỏ nhập liệu hiện tại?
+adding-keep-editing = Tiếp tục chỉnh sửa
 adding-edit = Chỉnh sửa "{ $val }"
 adding-history = Lịch sử
 adding-note-deleted = (Đã xóa phiếu)
