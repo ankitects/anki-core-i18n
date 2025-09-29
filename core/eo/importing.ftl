@@ -14,9 +14,12 @@ importing-change = Ŝanĝi
 importing-colon = dupunkto
 importing-comma = komo
 importing-empty-first-field = Malplena unua kampo: { $val }
-importing-field-mapping = Akordigo de kampoj
+importing-field-separator = Apartigilo de kampoj
+importing-field-separator-guessed = Apartigilo de kampoj (divenita)
+importing-field-mapping = Mapigi kampojn
 importing-field-of-file-is = Kampo <b>{ $val }</b> de dosiero estas:
 importing-fields-separated-by = Kampoj estas apartigataj per: { $val }
+importing-file-must-contain-field-column = Dosiero devas enhavi almenaŭ unu kolumnon, kiu povas esti mapigita al la kampo de noto.
 importing-file-version-unknown-trying-import-anyway = La versio de la dosiero estas nekonata. Tamen estas provata realigi la enporton.
 importing-first-field-matched = La unua kampo estas egala al: { $val }
 importing-identical = Identa
@@ -24,13 +27,21 @@ importing-ignore-field = Ignori kampon
 importing-ignore-lines-where-first-field-matches = Ignori liniojn, en kiuj la unua kampo kongruas kun ekzistanta noto
 importing-ignored = <ignorata>
 importing-import-even-if-existing-note-has = Enporti eĉ se ekzistanta noto havas la saman unuan kampon
-importing-import-options = Opcioj de enporto
+importing-import-options = Agordoj pri enporto
 importing-importing-complete = Enporto finiĝis.
-importing-invalid-file-please-restore-from-backup = Malvalida dosiero. Bonvolu rekreu ĝin el savkopio.
-importing-map-to = Mapi al { $val }
-importing-map-to-tags = Mapi al etikedoj
-importing-mapped-to = mapita al <b>{ $val }</b>
-importing-mapped-to-tags = mapita al <b>Etikedoj</b>
+importing-invalid-file-please-restore-from-backup = Malvalida dosiero. Bonvolu rekreu ĝin el sekurkopio.
+importing-map-to = Mapigi al { $val }
+importing-map-to-tags = Mapigi al etikedoj
+importing-mapped-to = mapigita al <b>{ $val }</b>
+importing-mapped-to-tags = Mapigita al <b>etikedoj</b>
+# the action of combining two existing note types to create a new one
+importing-merge-notetypes = Kunfandi nototipojn
+importing-merge-notetypes-help =
+    Se markita, kaj kiam vi aŭ aŭtoro de kartaro modifos skemon de nototipon, Anki kunfandos ilin, anstataŭ teni la du versiojn.
+    
+    Per modifi nototipon oni konsideras: ŝanĝi, forigi, reordigi kampojn aŭ ŝablonojn, aŭ ŝanĝi la ordigan kampon. Kiel kontraŭekzemplo: ŝanĝi la frontan kampon de ekzistanta ŝablono *ne* estas konsiderata kiel modifi skemon.
+    
+    Averto: tiu ĉi ŝanĝo postulos unudirektan samtempigon kaj povas marki ekzistantajn notojn kiel modifitajn.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 kartaro (*.db)
 importing-multicharacter-separators-are-not-supported-please = Plursignaj disigiloj ne estas subtenataj. Bonvolu enigi nur unu signon.
 importing-notes-added-from-file = Notoj, kiuj  estas aldonitaj de la dosiero: { $val }
