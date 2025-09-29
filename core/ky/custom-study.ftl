@@ -21,6 +21,14 @@ custom-study-review-ahead-by = Ушунча күн алдын ала кайта�
 custom-study-review-cards-forgotten-in-last = Акыркы убакта унутулган карталарды кайталоо
 custom-study-review-forgotten-cards = Унутулган карталарды кайталоо
 custom-study-select = Тандоо
+custom-study-select-tags-to-exclude = Чыгарыла турган тегдерди тандаңыз:
+custom-study-selective-study = Тандап окуу
+custom-study-study-by-card-state-or-tag = Картанын абалы же теги боюнча окуу
+custom-study-available-new-cards-2 = Жеткиликтүү жаңы карталар: { $countString }
+custom-study-available-review-cards-2 = Жеткиликтүү кайталоо карталары: { $countString }
+custom-study-available-child-count = ({ $count } ички топтомдордо)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+custom-study-available-new-cards = Жеткиликтүү жаңы карталар: { $count }
+custom-study-available-review-cards = Жеткиликтүү кайталоо карталары: { $count }
