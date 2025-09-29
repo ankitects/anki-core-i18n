@@ -31,10 +31,28 @@ deck-config-limit-new-bound-by-reviews =
     được giới thiệu. Nếu bạn đã đạt đến giới hạn ôn tập, sẽ không có thẻ mới
     được xem.
 deck-config-limit-interday-bound-by-reviews = Giới hạn ôn tập cũng sẽ áp dụng cho những thẻ cần học trong ngày. Khi áp dụng giới hạn, hệ thống sẽ hiển thị thẻ trong ngày trước, sau đó ôn lại, và cuối cùng là những thẻ mới.
+deck-config-tab-description =
+    - `Cài đặt sắn`: Giới hạn áp dụng cho tất cả các bộ thẻ sử dụng cài đặt sẵn này.
+    - `Bộ thẻ này`: Giới hạn áp dụng cho bộ thẻ này.
+    - `Chỉ hôm nay`: Tạm thời thay đổi giới hạn cho bộ thẻ này.
+deck-config-new-cards-ignore-review-limit = Thẻ mới bỏ qua giới hạn ôn tập
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Theo mặc định, giới hạn ôn tập được sự dụng trên thẻ mới, và các thẻ mới sẽ
+    không hiển diện khi đến giới hạn ôn tập. Nếu tùy chọn này được bật, các thẻ mới
+    sẽ hiển diện bất kể giới hạn ôn tập.
+deck-config-apply-all-parent-limits = Giới hạn bắt đầu từ trên cùng
+deck-config-apply-all-parent-limits-tooltip =
+    Theo mặc đinh, giới hạn hàng ngày của một bộ thẻ bậc cao không được sử dụng khi bạn học từ tập con
+    Nếu tùy chọn này được bất, giới hạn sẽ
+    bắt đầu từ bộ thẻ bậc cao. Điều này có hữu ích nếu bạn muốn học từng tập con một trong khi tuân theo một giới hạn tổng trên tất cả các thẻ trông bộ.
+deck-config-affects-entire-collection = Ảnh hưởng đến toàn bộ sưu tập.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Nhóm trước
+deck-config-deck-only = Bộ thẻ này
+deck-config-today-only = Hôm nay thôi
 
 ## New Cards section
 
@@ -60,6 +78,9 @@ deck-config-new-insertion-order-tooltip =
     tùy chọn này sẽ tự động cập nhật vị trí hiện có của các thẻ mới.
 deck-config-new-insertion-order-sequential = Tuần tự (thẻ cũ nhất trước)
 deck-config-new-insertion-order-random = Ngẫu nhiên
+deck-config-new-insertion-order-random-with-v3 =
+    Với bộ lập lịch biểu v3, bạn nên giữ cài đặt tuần tự và
+    thay đổi thứ tự tập hợp thẻ.
 
 ## Lapses section
 
@@ -86,29 +107,17 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Đang tạm hoãn
 deck-config-bury-new-siblings = Hoãn các thẻ anh em của thẻ mới cho tới ngày tiếp theo
 deck-config-bury-review-siblings = Hoãn các thẻ anh em của thẻ ôn tập cho tới ngày tiếp theo
+deck-config-bury-interday-learning-siblings = Tạm hoãn thẻ anh em trong ngày
 
-## Ordering section
+## Gather order and sort order of cards
 
 deck-config-ordering-title = Thứ tự hiển thị
 deck-config-new-gather-priority = Ưu tiên nhóm thẻ mới
-deck-config-new-gather-priority-deck = Bộ thẻ
-deck-config-new-gather-priority-deck-then-random-notes = Bộ thẻ, sau đó phiếu ngẫu nhiên
-deck-config-new-gather-priority-position-lowest-first = Vị trí tăng dần
-deck-config-new-gather-priority-position-highest-first = Vị trí giảm dần
-deck-config-new-gather-priority-random-notes = Phiếu ngẫu nhiên
 deck-config-new-card-sort-order = Thứ tự sắp xếp thẻ mới
-deck-config-sort-order-card-template-then-random = Mẫu thẻ, sau đó là ngẫu nhiên
-deck-config-sort-order-random-note-then-template = Phiếu ngẫu nhiên, sau đó theo loại thẻ
-deck-config-sort-order-random = Ngẫu nhiên
-deck-config-sort-order-template-then-gather = Theo mẫu thẻ, rồi đến thứ tự tập hợp thẻ
-deck-config-sort-order-gather = Theo thứ tự tập hợp thẻ
 deck-config-new-review-priority = Ưu tiên thẻ mới/ôn tập
 deck-config-new-review-priority-tooltip = Thời điểm hiển thị thẻ mới liên quan đến thẻ ôn tập.
 deck-config-interday-step-priority = Ưu tiên học/ôn tập trong ngày
 deck-config-interday-step-priority-tooltip = Khi nào hiển thị (lại) các thẻ học tập vượt qua ranh giới trong ngày.
-deck-config-review-mix-mix-with-reviews = Trộn các thẻ ôn tập
-deck-config-review-mix-show-after-reviews = Xem sau các thẻ ôn tập
-deck-config-review-mix-show-before-reviews = Xem trước các thẻ ôn tập
 deck-config-review-sort-order = Xem lại thứ tự sắp xếp
 deck-config-review-sort-order-tooltip =
     Thứ tự mặc định ưu tiên các thẻ bị xếp vào hàng đợi lâu nhất, do đó
@@ -116,16 +125,52 @@ deck-config-review-sort-order-tooltip =
     đầu tiên. Nếu bạn có một lượng lớn tồn đọng sẽ mất hơn vài ngày để giải quyết
     sạch sẽ, hoặc nếu muốn xem các thẻ theo thứ tự bộ thẻ con, bạn có thể tìm thẻ thay thế
     sắp xếp thứ tự thích hợp.
-deck-config-sort-order-due-date-then-random = Theo ngày đến hạn, sau đó ngẫu nhiên
-deck-config-sort-order-due-date-then-deck = Theo ngày đến hạn, sau đó theo bộ thẻ
-deck-config-sort-order-deck-then-due-date = Theo bộ thẻ, sau đó theo ngày đến hạn
-deck-config-sort-order-ascending-intervals = Theo khoảng cách tăng dần
-deck-config-sort-order-descending-intervals = Theo khoảng cách giảm dần
-deck-config-sort-order-ascending-ease = Bội số tăng dần
-deck-config-sort-order-descending-ease = Bội số giảm dần
 deck-config-display-order-will-use-current-deck =
     Anki sẽ sử dụng thứ tự hiển thị từ bộ thẻ mà bạn
     chọn để học, chứ không phải bất kỳ bộ thẻ con có thể có nào khác.
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Bộ thẻ
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Bộ thẻ, sau đó phiếu ngẫu nhiên
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Vị trí tăng dần
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Vị trí giảm dần
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Phiếu ngẫu nhiên
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Mẫu thẻ, sau đó là ngẫu nhiên
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Phiếu ngẫu nhiên, sau đó theo loại thẻ
+# Sort the cards randomly.
+deck-config-sort-order-random = Ngẫu nhiên
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Theo mẫu thẻ, rồi đến thứ tự tập hợp thẻ
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Theo thứ tự tập hợp thẻ
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Trộn các thẻ ôn tập
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Xem sau các thẻ ôn tập
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Xem trước các thẻ ôn tập
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Theo ngày đến hạn, sau đó ngẫu nhiên
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Theo ngày đến hạn, sau đó theo bộ thẻ
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Theo bộ thẻ, sau đó theo ngày đến hạn
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Theo khoảng cách tăng dần
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Theo khoảng cách giảm dần
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Bội số tăng dần
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Bội số giảm dần
 
 ## Timer section
 
@@ -138,6 +183,9 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Trong màn hình xem lại, hiển thị bộ đếm số giây bạn
     ôn tập từng thẻ.
+
+## Auto Advance section
+
 
 ## Audio section
 
@@ -170,6 +218,9 @@ deck-config-new-interval-tooltip = Cấp số được áp dụng cho một kho�
 deck-config-minimum-interval-tooltip = Khoảng thời gian tối thiểu được cung cấp cho thẻ ôn tập sau khi trả lời `Lại '.
 deck-config-custom-scheduling = Tùy chỉnh lên lịch
 deck-config-custom-scheduling-tooltip = Ảnh hưởng đến toàn bộ bộ sưu tập. Sử dụng bạn sẽ có nguy cơ gặp rủi ro!
+
+## Easy Days section.
+
 
 ## Adding/renaming
 
@@ -225,6 +276,9 @@ deck-config-show-reminder = Hiển thị Lời nhắc
 deck-config-answer-again = Trả lời lần nữa
 deck-config-answer-hard = Trả lời Khó
 deck-config-answer-good = Trả lời Tốt
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

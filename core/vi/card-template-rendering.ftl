@@ -6,6 +6,8 @@
 card-template-rendering-more-info = Thông tin bổ sung
 card-template-rendering-front-side-problem = Mẫu mặt trước gặp vấn đề:
 card-template-rendering-back-side-problem = Mẫu mặt sau gặp vấn đề:
+card-template-rendering-browser-front-side-problem = Mẫu mặt trước gặp vẫn đề liên quan đến trình duyệt:
+card-template-rendering-browser-back-side-problem = Mẫu mặt sau gặp vẫn đề liên quan đến trình duyệt:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = Thiếu '{ $missing }' trong '{ $tag }'

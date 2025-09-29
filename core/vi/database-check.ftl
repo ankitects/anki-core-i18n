@@ -1,6 +1,7 @@
 database-check-corrupt = Bộ sưu tập bị hỏng. Xin vui lòng tham khảo tài liệu hướng dẫn.
 database-check-rebuilt = Đã tái dựng và tối ưu hóa cơ sở dữ liệu.
 database-check-card-properties = Đã sửa { $count } thẻ có thuộc tính không hợp lệ.
+database-check-card-last-review-time-empty = Đã thêm { $count } thẻ vào lần ôn trước.
 database-check-missing-templates = Đã xóa { $count } thẻ thiếu kiểu mẫu.
 database-check-field-count =
     { $count ->
@@ -27,6 +28,7 @@ database-check-notes-with-invalid-utf8 =
     { $count ->
        *[other] Đã sửa { $count } phiếu có kí tự utf8 không hợp lệ.
     }
+database-check-fixed-invalid-ids = Đã sửa { $count } đối tượng với thời gian trong tương lai.
 # "db-check" is always in English
 database-check-notetypes-recovered = Thiếu một hoặc nhiều loại phiếu. Các phiếu sử dụng chúng đã được phân vào loại phiếu mới bắt đầu bằng "db-check", nhưng tên trường và thiết kế thẻ đã bị mất, vì vậy tốt hơn hết bạn nên khôi phục từ bản sao lưu tự động.
 

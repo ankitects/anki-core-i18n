@@ -1,5 +1,6 @@
 change-notetype-current = Hiện tại
 change-notetype-new = Mới
+change-notetype-nothing = (Trống)
 change-notetype-collapse = Thu gọn
 change-notetype-expand = Mở rộng
 change-notetype-will-discard-content = Sẽ loại bỏ nội dung trong các trường:

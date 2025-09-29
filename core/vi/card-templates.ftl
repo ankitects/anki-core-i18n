@@ -25,6 +25,7 @@ card-templates-no-front-field = Dự kiến ​​sẽ tìm thấy trường tha
 card-templates-missing-cloze = Dự kiến ​​sẽ tìm thấy '{ "{{" }cloze:Text{ "}}" }' hoặc tương tự ở mặt trước và mặt sau của thẻ mẫu.
 card-templates-extraneous-cloze = 'cloze:' chỉ có thể được sử dụng trên loại phiếu điền.
 card-templates-see-preview = Xem bản xem trước để có thêm thông tin.
+card-templates-field-not-found = Không tìm thấy trường '{ $field }'
 card-templates-changes-saved = Những thay đổi đã được lưu.
 card-templates-discard-changes = Hủy bỏ thay đổi?
 card-templates-add-card-type = Thêm loại thẻ...
@@ -35,6 +36,7 @@ card-templates-card = Thẻ { $val }
 card-templates-card-types-for = Kiểu Thẻ { $val }
 card-templates-cloze = Điền chỗ trống
 card-templates-deck-override = Ghi đè Bộ thẻ...
+card-templates-copy-info = Sao chép thông tin sang bộ nhớ tạm
 card-templates-delete-the-as-card-type-and = Bạn muốn xoá kiểu thẻ '{ $template }' và { $cards } của nó?
 card-templates-enter-deck-to-place-new = Nhập bộ thẻ để thêm thẻ mới kiểu { $val }, hoặc để trống:
 card-templates-enter-new-card-position-1 = Nhập vị trí thẻ mới (1...{ $val }):
@@ -53,4 +55,7 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] Tạo { $count } thẻ. Tiến hành?
     }
+card-templates-type-boxes-warning = Một kiểu thẻ chỉ được chứa một ô nhập
 card-templates-restore-to-default = Khôi phục về mặc định
+card-templates-restore-to-default-confirmation = Tất cả các trường và kiểu mẫu trong ghi chú này sẽ bị cài lại về mặc định, các trường/kiểu mẫu, nội dung và định kiểu đã thêm sẽ bị xóa. Bạn có muốn tiếp tục không?
+card-templates-restored-to-default = Loại ghí chú đã được khôi phục về trạng thái ban đầu.
