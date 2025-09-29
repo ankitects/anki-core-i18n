@@ -108,6 +108,20 @@ deck-config-bury-title = Đang tạm hoãn
 deck-config-bury-new-siblings = Hoãn các thẻ anh em của thẻ mới cho tới ngày tiếp theo
 deck-config-bury-review-siblings = Hoãn các thẻ anh em của thẻ ôn tập cho tới ngày tiếp theo
 deck-config-bury-interday-learning-siblings = Tạm hoãn thẻ anh em trong ngày
+deck-config-bury-new-tooltip = Các thẻ mới cùng loại ghi chú (v.d. thẻ ngược, liền kề với khoảng điền) có bị trì hoãn đến ngày hôm sau hay không.
+deck-config-bury-review-tooltip = Các thẻ ôn tạp cùng loại ghi chú có bị trì hoãn đến ngày hôm sau hay không.
+deck-config-bury-interday-learning-tooltip =
+    Các thẻ đang học cùng loại ghi chú với khoảng thời gian > 1 ngày
+    có bị trì hoãn đến ngày hôm sau hay không.
+deck-config-bury-priority-tooltip =
+    Anki bắt đầu tập hợp các thẻ bằng các thẻ đang học trong ngày, sau đó 
+    các thẻ đang học ngày khác, rồi các thẻ ôn tập, và cuối cùng là các thẻ mới. Việc này
+    có liên quan đến phương pháp tạm hoãn:
+    - Nếu bạn bật tất cả các tùy chọn tạm hoãn, thẻ anh em đến sớm nhất
+    trong danh sách sẽ hiển thị. Ví dụ, một thẻ ôn tập sẽ hiện trước một thẻ mới.
+    - Thẻ anh em đến sau trong danh sách không thể tạm hoãn những loại thẻ khác. Ví dụ,
+    nếu bạn tắt việc tạm hoãn thẻ mới, và học một thẻ mới, các thẻ đang học trong ngày sẽ không
+    bị tạm hoãn và bạn có thể thấy cả thẻ anh em ôn tập, cả thẻ anh em mới trong mọt buổi học.
 
 ## Gather order and sort order of cards
 
@@ -171,6 +185,14 @@ deck-config-sort-order-descending-intervals = Theo khoảng cách giảm dần
 deck-config-sort-order-ascending-ease = Bội số tăng dần
 # Sort the cards by ease, in descending order (highest to lowest ease).
 deck-config-sort-order-descending-ease = Bội số giảm dần
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Thẻ dễ trước
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Thẻ khó trước
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Khả năng truy xuất đi lên
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Khả năng truy xuất đi xuống
 
 ## Timer section
 

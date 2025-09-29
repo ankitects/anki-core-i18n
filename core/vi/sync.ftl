@@ -26,6 +26,7 @@ sync-wrong-pass = ID hoặc mật khẩu Anki Web không chính xác; xin vui l�
 sync-resync-required = Vui lòng đồng bộ lại. Nếu thông báo này tiếp tục xuất hiện, vui lòng đăng trên trang web hỗ trợ.
 sync-must-wait-for-end = Anki hiện đang đồng bộ hóa. Vui lòng đợi quá trình đồng bộ hóa hoàn tất, sau đó thử lại.
 sync-confirm-empty-download = Bộ sưu tập gốc không có thẻ. Tải xuống từ AnkiWeb?
+sync-confirm-empty-upload = Bộ sưu tập AnkiWeb không có thẻ. Thay thế với bộ sưu tập gốc?
 sync-conflict-explanation =
     Bộ thẻ của bạn ở đây và trên AnkiWeb khác nhau đến nỗi không thể kết hợp với nhau được, vì vậy cần phải ghi đè một bộ lên bộ còn lại.
     
@@ -41,6 +42,7 @@ sync-account-required =
     Bạn cần có tài khoản (miễn phí) để đồng bộ bộ sưu tập. Xin vui lòng <a href="{ $link }">đăng ký</a> tài khoản rồi nhập thông tin chi tiết vào phía dưới.
 sync-sanity-check-failed = Vui lòng sử dụng chức năng Kiểm tra Cơ sở dữ liệu, sau đó đồng bộ hóa lại. Nếu sự cố vẫn tiếp diễn, vui lòng buộc đồng bộ hóa hoàn toàn trong màn hình tùy chọn.
 sync-clock-off = Không thể đồng bộ hóa - đồng hồ của bạn không được đặt đúng giờ.
+# “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
     Tệp bộ sưu tập của bạn quá lớn để gửi đến AnkiWeb. Bạn có thể giảm kích thước
     bằng cách loại bỏ bất kỳ bộ bài không mong muốn nào (tùy chọn xuất chúng trước), và 
