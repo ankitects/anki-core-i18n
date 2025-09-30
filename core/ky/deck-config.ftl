@@ -123,46 +123,200 @@ deck-config-new-review-priority = Жаңы/кайталоо тартиби
 deck-config-new-review-priority-tooltip = Жаңы карталарды кайталоо карталарына карата качан көрсөтүү керек.
 deck-config-interday-step-priority = Күндөр аралык үйрөнүү/кайталоо тартиби
 deck-config-interday-step-priority-tooltip = Күн чегинен өткөн (кайра) үйрөнүү карталарын качан көрсөтүү керек. Кайталоо чеги дайыма алгач күндөр аралык үйрөнүү карталарына, андан кийин кайталоо карталарына колдонулат. Бул жөндөө чогултулган карталардын көрсөтүлүү тартибин көзөмөлдөйт, бирок күндөр аралык үйрөнүү карталары дайыма биринчи чогултулат.
+deck-config-review-sort-order = Кайталоону иреттөө тартиби
+deck-config-review-sort-order-tooltip =
+    Баштапкы тартип эң көп күткөн карталарга артыкчылык берет, ошондуктан эң көп күткөндөр биринчи пайда болот. 
+    Эгер сизде тазалоого бир нече күндөн ашык убакыт кете турган чоң карыз болсо, же ички топтом тартибинде карталарды көргүңүз келсе, альтернативдүү иреттөө тартиптерин артык көрүшүңүз мүмкүн.
+deck-config-display-order-will-use-current-deck = Anki сиз окуу үчүн тандаган топтомдун көрсөтүү тартибин колдонот, жана анын ичиндеги ички топтомдорду эмес.
 
 ## Gather order and sort order of cards – Combobox entries
 
+# Gather new cards ordered by deck.
+deck-config-new-gather-priority-deck = Топтом
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = Топтом, анан кокус эскертмелер
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = Өсүү тартибиндеги орду
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = Кемүү тартибиндеги орду
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-random-notes = Кокус эскертмелер
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Кокус карталар
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = Карта түрү, анан рандом(туш келди)
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = Рандомдук эскертме, анан карта түрү
+# Sort the cards randomly.
+deck-config-sort-order-random = Кокус / Туш келди
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = Карта түрү, анан чогултулган тартип
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = Чогултулган тартип
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = Кайталоолор менен аралаштыруу
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = Кайталоолордон кийин көрсөтүү
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = Кайталоолорго чейин көрсөтүү
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = Аткаруу мөөнөтү, анан кокус
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = Аткаруу мөөнөтү, анан топтом
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = Топтом, анан аткаруу мөөнөтү
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = Өсүүчү аралыктар
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = Кемүүчү аралыктар
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = Өсүүчү оңойлук
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = Оңойлукту азайтуу
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = Оңой карталар биринчи
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = Татаал карталар биринчи
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Эстеп чыгуу жеңилдигине жараша өсүү тартибинде
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Эстеп чыгуу жеңилдигине жараша төмөндөө тартибинде
 
 ## Timer section
 
+deck-config-timer-title = Таймерлер
+deck-config-maximum-answer-secs = Жооп үчүн максималдуу секунд
+deck-config-maximum-answer-secs-tooltip = Бир кайталоону жазуу үчүн максималдуу секунд саны. Эгер жооп бул убакыттан ашып кетсе (мисалы, экрандан алыстап кеткендиктен), алынган убакыт сиз койгон чек катары жазылат.
+deck-config-show-answer-timer-tooltip = "Окуу" экранында, ар бир картаны окууга кетирген убактыңызды эсептеген таймерди көрсөтүү.
+deck-config-stop-timer-on-answer = Жооп бергенде экрандагы таймерди токтотуу
+deck-config-stop-timer-on-answer-tooltip = Жооп ачылганда экрандагы таймерди токтотуу керекпи. Бул статистикага таасир этпейт.
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Суроону көрсөтүү үчүн секунд
+deck-config-seconds-to-show-question-tooltip-3 = Авто-өтүү иштетилгенде, суроо аракетин колдонуудан мурун күтө турган секунддардын саны. Өчүрүү үчүн 0 деп коюңуз.
+deck-config-seconds-to-show-answer = Жоопту көрсөтүү үчүн секунд
+deck-config-seconds-to-show-answer-tooltip-2 = Авто-өтүү иштетилгенде, жооп аракетин колдонуудан мурун күтө турган секунддардын саны. Өчүрүү үчүн 0 деп коюңуз.
+deck-config-question-action-show-answer = Жообун көрсөтүү
+deck-config-question-action-show-reminder = Эстеткичти көрсөтүү
+deck-config-question-action = Суроо аракети
+deck-config-question-action-tool-tip = Суроо көрсөтүлүп, убакыт өткөндөн кийин аткарыла турган аракет.
+deck-config-answer-action = Жооп аракети
+deck-config-answer-action-tooltip-2 = Жооп көрсөтүлүп, убакыт өткөндөн кийин аткарыла турган аракет.
+deck-config-wait-for-audio-tooltip-2 = Суроо же жооп аракетин автоматтык түрдө колдонуудан мурун аудионун бүтүшүн күтүү.
 
 ## Audio section
 
+deck-config-audio-title = Аудио
+deck-config-disable-autoplay = Аудиону автоматтык түрдө ойнотпоо
+deck-config-disable-autoplay-tooltip = Иштетилгенде, Anki аудиону автоматтык түрдө ойнотпойт. Аны аудио сүрөтчөсүн басуу аркылуу же "Кайра ойнотуу" аракетин колдонуу менен кол менен ойнотсо болот.
+deck-config-skip-question-when-replaying = Жоопту кайра ойнотуп жатканда суроону өткөрүп жиберүү
+deck-config-always-include-question-audio-tooltip = "Кайра ойнотуу" аракети картанын жооп жагын карап жатканда колдонулганда, суроонун аудиосу кошулушу керекпи.
 
 ## Advanced section
 
+deck-config-advanced-title = Өркүндөтүлгөн
+deck-config-maximum-interval-tooltip = Кайталоо картасы күтө турган максималдуу күндөрдүн саны. Кайталоолор чекке жеткенде, 'Оор', 'Жакшы' жана 'Оңой' баары бирдей кечиктирүүнү берет. Муну канчалык кыска койсоңуз, жумуш жүгүңүз ошончолук чоң болот.
+deck-config-starting-ease-tooltip = Жаңы карталар баштаган оңойлук көбөйткүчү. Адатта, жаңы үйрөнүлгөн картадагы 'Жакшы' баскычы кийинки кайталоону мурунку кечиктирүүдөн 2.5 эсе кечиктирет.
+deck-config-easy-bonus-tooltip = Кайталоо картасын 'Оңой' деп баалаганда, анын интервалына колдонулуучу кошумча көбөйткүч.
+deck-config-interval-modifier-tooltip = Бул көбөйткүч бардык кайталоолорго колдонулат, жана кичине тууралоолор Anki'ни пландоодо консервативдүү же агрессивдүү кылуу үчүн колдонулушу мүмкүн. Бул жөндөөнү өзгөртүүдөн мурун колдонмону караңыз.
+deck-config-hard-interval-tooltip = 'Оор' деп жооп бергенде кайталоо интервалына колдонулуучу көбөйткүч.
+deck-config-new-interval-tooltip = 'Кайра' деп жооп бергенде кайталоо интервалына колдонулуучу көбөйткүч.
+deck-config-minimum-interval-tooltip = 'Кайра' деп жооп бергенден кийин кайталоо картасына берилген минималдуу интервал.
+deck-config-custom-scheduling = Жекече пландаштыруу
+deck-config-custom-scheduling-tooltip = Бүткүл коллекцияга таасир этет. Өз тобокелчилигиңиз менен колдонуңуз!
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Оңой күндөр
+deck-config-easy-days-monday = Дш
+deck-config-easy-days-tuesday = Шш
+deck-config-easy-days-wednesday = Шр
+deck-config-easy-days-thursday = Бш
+deck-config-easy-days-friday = Жм
+deck-config-easy-days-saturday = Иш
+deck-config-easy-days-sunday = Жш
+deck-config-easy-days-normal = Кадимки
+deck-config-easy-days-reduced = Азайтылган
+deck-config-easy-days-minimum = Минималдуу
+deck-config-easy-days-no-normal-days = Жок дегенде бир күн '{ deck-config-easy-days-normal }' деп коюлушу керек.
+deck-config-easy-days-change = FSRS жөндөөлөрүндө '{ deck-config-reschedule-cards-on-change }' иштетилбесе, учурдагы кайталоолор кайра пландаштырылбайт.
 
 ## Adding/renaming
 
+deck-config-add-group = Алдын ала жөндөө кошуу
+deck-config-name-prompt = Аты
+deck-config-rename-group = Алдын ала жөндөөнүн атын өзгөртүү
+deck-config-clone-group = Алдын ала жөндөөнү клондоо
 
 ## Removing
 
+deck-config-remove-group = Алдын ала жөндөөнү өчүрүү
+deck-config-will-require-full-sync = Суралган өзгөртүү бир тараптуу шайкештештирүүнү талап кылат. Эгер башка түзмөктө өзгөртүүлөрдү киргизип, аларды бул түзмөккө шайкештештире элек болсоңуз, улантуудан мурун муну жасаңыз.
+deck-config-confirm-remove-name = { $name } өчүрүлсүнбү?
 
 ## Other Buttons
 
+deck-config-save-button = Сактоо
+deck-config-save-to-all-subdecks = Бардык ички топтомдорго сактоо
+deck-config-save-and-optimize = Бардык алдын ала жөндөөлөрдү оптималдаштыруу
+deck-config-revert-button-tooltip = Бул жөндөөнү баштапкы маанисине кайтарасызбы?
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Anki 2.1.41+ иштетүүсү
+deck-config-description-new-handling-hint = Киргизилгенди markdown катары кабыл алып, HTML киргизүүнү тазалайт. Иштетилгенде, сүрөттөмө куттуктоо экранында да көрсөтүлөт. Markdown Anki 2.1.40 жана андан төмөнкү версияларда текст катары көрүнөт.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] Түпкү топтомдун { $cards } карта чеги бар, ал бул чекти алмаштырат.
+       *[other] Түпкү топтомдун { $cards } карталар чеги бар, ал бул чекти алмаштырат.
+    }
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Күн сайын { $cards } жаңы карта кошуп жатсаңыз, кайталоо чегиңиз жок дегенде { $expected } болушу керек.
+       *[other] Күн сайын { $cards } жаңы карталар кошуп жатсаңыз, кайталоо чегиңиз жок дегенде { $expected } болушу керек.
+    }
+deck-config-learning-step-above-graduating-interval = "Аяктаган" интервал жок дегенде акыркы үйрөнүү кадамыңыздай узун болушу керек.
+deck-config-good-above-easy = "Оңой" интервал жок дегенде "аяктаган" интервалдай узун болушу керек.
+deck-config-relearning-steps-above-minimum-interval = Минималдуу "унутуу" интервалы жок дегенде акыркы кайра үйрөнүү кадамыңыздай узун болушу керек.
+deck-config-maximum-answer-secs-above-recommended = Ар бир суроону кыска кармасаңыз, Anki кайталоолоруңузду натыйжалуураак пландаштыра алат.
+deck-config-too-short-maximum-interval = 6 айдан аз максималдуу интервал сунушталбайт.
+deck-config-ignore-before-info = FSRS параметрлерин оптималдаштыруу үчүн (болжол менен) { $included }/{ $totalCards } карта колдонулат.
 
 ## Selecting a deck
 
+deck-config-which-deck = Кайсы топтомдун жөндөөлөрүн көрсөткүңүз келет?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Карталар жаңыртылууда: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Берилген FSRS параметрлери жараксыз. Баштапкы параметрлерди колдонуу үчүн аларды бош калтырыңыз.
+deck-config-not-enough-history = Бул операцияны аткаруу үчүн кайталоо тарыхы жетишсиз.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Болгону { $count } кайталоо табылды. Бул операция үчүн сизде жок дегенде 400 кайталоо болушу керек.
+       *[other] Болгону { $count } кайталоолор табылды. Бул операция үчүн сизде жок дегенде 400 кайталоо болушу керек.
+    }
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS параметрлери
+deck-config-compute-optimal-weights = FSRS параметрлерин оптималдаштыруу
+deck-config-optimize-button = Учурдагы алдын ала жөндөөнү оптималдаштыруу
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (жай)
+deck-config-compute-button = Эсептөө
+deck-config-ignore-before = Мурун кайталанган карталарды эске албоо
+deck-config-time-to-optimize = Бир топ убакыт өттү - "Бардык алдын ала жөндөөлөрдү оптималдаштыруу" баскычын колдонуу сунушталат.
+deck-config-evaluate-button = Баалоо
+deck-config-desired-retention = Каалаган эске сактоо
+deck-config-historical-retention = Тарыхый эске сактоо
+deck-config-smaller-is-better = Кичирээк сандар сиздин кайталоо тарыхыңызга жакшыраак дал келерин көрсөтөт.
+deck-config-steps-too-large-for-fsrs = FSRS иштетилгенде, 1 күн же андан көп кадамдар сунушталбайт.
+deck-config-get-params = Параметрлерди алуу
+deck-config-complete = { $num }% аяктады.
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
