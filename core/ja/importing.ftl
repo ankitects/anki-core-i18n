@@ -47,6 +47,7 @@ importing-merge-notetypes-help =
     注意：ノートタイプの統合を行った場合、次回の同期で一方向同期（一方のデータベースをもう片方に上書きする同期）が必要となります。また、既存のノートが変更済みとしてマークされる可能性があります。
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 デッキ (*.db)
 importing-multicharacter-separators-are-not-supported-please = 複数文字のデリミタを使用することができません。１文字のみ入力してください。
+importing-new-deck-will-be-created = 新しいデッキを作成します：{ $name }
 importing-notes-added-from-file = ファイルから追加したノート: { $val }枚
 importing-notes-found-in-file = ファイル内にあるノート: { $val }枚
 importing-notes-skipped-as-theyre-already-in = すでにコレクション内に最新版が存在するためスキップされたノート: { $val }枚
@@ -61,7 +62,6 @@ importing-with-deck-configs-help =
     オンにすると、デッキ作成者がデッキに設定した各オプションもすべてインポートします。
     オフにすると、インポートするすべてのデッキにデフォルトのプリセットを適用します。
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = パッケージ化されたAnkiデッキ／コレクション (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
 # the '|' character
 importing-pipe = パイプ ( | )
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -71,7 +71,6 @@ importing-rows-had-num1d-fields-expected-num2d = 「{ $row }」には { $found }
 importing-selected-file-was-not-in-utf8 = 選択したファイルは UTF-8 形式ではありません。マニュアルのインポート (Importing) に関する項目をご覧ください。
 importing-semicolon = セミコロン ( ; )
 importing-skipped = スキップ
-importing-supermemo-xml-export-xml = Supermemo 用の XML 形式 (*.xml)
 importing-tab = タブ
 importing-tag-modified-notes = 更新されたノートに付けるタグ：
 importing-text-separated-by-tabs-or-semicolons = テキスト(タブ区切りまたはセミコロン区切り) (*)
@@ -221,3 +220,5 @@ importing-importing-collection = コレクションをインポート中...
 importing-unable-to-import-filename = { $filename }をインポートできません：このファイルのタイプはサポートされていません。
 importing-notes-that-could-not-be-imported = ノートタイプが変更されたためインポートできなかったノート：{ $val }
 importing-added = 追加済
+importing-pauker-18-lesson-paugz = Pauker 1.8 レッスン (*.pau.gz)
+importing-supermemo-xml-export-xml = Supermemo 用の XML 形式 (*.xml)
