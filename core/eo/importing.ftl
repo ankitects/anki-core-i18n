@@ -42,7 +42,7 @@ importing-merge-notetypes-help =
     Per modifi nototipon oni konsideras: ŝanĝi, forigi, reordigi kampojn aŭ ŝablonojn, aŭ ŝanĝi la ordigan kampon. Kiel kontraŭekzemplo: ŝanĝi la frontan kampon de ekzistanta ŝablono *ne* estas konsiderata kiel modifi skemon.
     
     Averto: tiu ĉi ŝanĝo postulos unudirektan samtempigon kaj povas marki ekzistantajn notojn kiel modifitajn.
-importing-mnemosyne-20-deck-db = Mnemosyne 2.0 kartaro (*.db)
+importing-mnemosyne-20-deck-db = Kartaro Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Plursignaj disigiloj ne estas subtenataj. Bonvolu enigi nur unu signon.
 importing-notes-added-from-file = Notoj, kiuj  estas aldonitaj de la dosiero: { $val }
 importing-notes-found-in-file = Notoj, kiuj estas trovitaj en la dosiero: { $val }
