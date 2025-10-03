@@ -191,6 +191,11 @@ statistics-stability-day-single = { $cards } thẻ với độ ổn định { $d
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Từ { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } đúng ({ $percent }%)
+statistics-hours-correct-info = → (ngoại trừ 'Lặp lại')
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } bài ôn tập
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% đúng ({ $reviews })
 statistics-hours-title = Chia nhỏ Theo giờ
 statistics-hours-subtitle = Tỷ lệ ôn tập thành công mỗi giờ trong ngày
 # shown when graph is empty
@@ -220,7 +225,14 @@ statistics-total = Tổng
 statistics-days-studied = Số ngày đã học
 statistics-average-answer-time-label = Thời gian trả lời trung bình
 statistics-average = Trung bình
+statistics-median-interval = Khoảng cánh trung vị
 statistics-due-tomorrow = Đến hạn ngày mai
+# This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
+# forecasted estimate of the number of cards expected to be reviewed daily in 
+# the future. Unlike the other strings in the table that display actual data 
+# derived from the current scheduling (e.g., ‘Average’, ‘Due tomorrow’),
+# ‘Daily load’ is a projection based on the given data.
+statistics-daily-load = Số lượng trong ngày
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } trong { $total } ({ $percent }%)
 statistics-average-over-period = Nếu học hàng ngày thì
@@ -236,12 +248,19 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } thẻ/ngày
     }
+statistics-median-ease = Độ dễ trung vị
+statistics-median-difficulty = Độ khó trung vị
+statistics-average-retrievability = Khả năng truy xuất trung bình
+statistics-estimated-total-knowledge = Ước tính tổng kiến thức
 statistics-save-pdf = Lưu PDF
 statistics-saved = Đã lưu.
 statistics-stats = thống kê
+statistics-title = Thống kê
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
+statistics-average-stability = Độ ổn định trung bình
 statistics-average-interval = Khoảng cách trung bình
 statistics-average-ease = Độ dễ trung bình
+statistics-average-difficulty = Độ khó trung bình

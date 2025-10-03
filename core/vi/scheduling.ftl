@@ -73,6 +73,9 @@ scheduling-update-done = Đã cập nhật thành công bộ lập lịch biểu
 scheduling-update-button = Cập nhật
 scheduling-update-later-button = Để sau
 scheduling-update-more-info-button = Tìm hiểu thêm
+scheduling-update-required =
+    Bạn cần nâng cấp bộ sưu tập lên bộ lập lịch biểu V2.
+    Hãy chọn { scheduling-update-more-info-button } trước khi tiếp tục.
 
 ## Other scheduling strings
 
@@ -107,6 +110,8 @@ scheduling-new-options-group-name = Tên nhóm tùy chọn mới:
 scheduling-options-group = Nhóm tùy chọn:
 scheduling-order = Thứ tự
 scheduling-parent-limit = (giới hạn ở cấp trên: { $val })
+scheduling-reset-counts = Đặt lại số lần lặp lại và bỏ sót
+scheduling-restore-position = Khôi phục vị trí ban đầu nếu có thể
 scheduling-review = Ôn tập
 scheduling-reviews = Ôn tập
 scheduling-seconds = giây
@@ -139,6 +144,7 @@ scheduling-set-due-date-done =
     { $cards ->
        *[other] Đặt ngày đến hạn của { $cards } thẻ.
     }
+scheduling-graded-cards-done = Đã chấm điểm { $cards } thẻ.
 scheduling-forgot-cards =
     { $cards ->
        *[other] Quên { $cards } thẻ.

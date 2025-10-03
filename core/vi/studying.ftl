@@ -14,6 +14,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Thẻ sẽ được tự động chuyển lại bộ thẻ gốc sau khi ôn tập.
 studying-continue = Tiếp
+studying-counts-differ = Số lượng khác với danh sách bộ thẻ vì chế độ tạm hoãn đang bật. Một số thẻ đã bị loại, và được thay thế bởi một sỗ thẻ khác.
 studying-delete-note = Xóa Phiếu
 studying-deleting-this-deck-from-the-deck = Khi xóa bộ thẻ này khỏi danh sách, toàn bộ thẻ còn lại sẽ được trả về bộ thẻ gốc.
 studying-easy = Dễ
@@ -44,6 +45,12 @@ studying-type-answer-unknown-field = Kiểu trả lời: trường tin không bi
 studying-unbury = Bỏ tạm hoãn
 studying-what-would-you-like-to-unbury = Bạn muốn Bỏ tạm hoãn?
 studying-you-havent-recorded-your-voice-yet = Bạn chưa thu tiếng.
+studying-card-studied-in-minute = Đã học { $cards } thẻ trong { $minutes } phút.
+studying-question-time-elapsed = Thời gian hỏi đã qua
+studying-answer-time-elapsed = Thời gian trả lời đã qua
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
        *[other] Đã học { $count } thẻ trong
@@ -51,8 +58,4 @@ studying-card-studied-in =
 studying-minute =
     { $count ->
        *[other] { $count } phút.
-    }
-studying-note-and-its-card-deleted =
-    { $count ->
-       *[other] Đã xóa phiếu và { $count } thẻ liên kết.
     }

@@ -14,3 +14,6 @@ profiles-prefs-corrupt-title = Tùy chỉnh bị hỏng
 profiles-prefs-file-is-corrupt = Tệp prefs21.db của Anki đã bị hỏng và đã được tạo lại. Nếu bạn đang sử dụng nhiều cấu hình, vui lòng thêm lại chúng bằng các tên giống nhau để khôi phục thẻ của bạn.
 profiles-profile-does-not-exist = Hồ sơ được yêu cầu không tồn tại.
 profiles-creating-backup = Tạo bản sao lưu...
+profiles-backup-created = Đã tạo bản sao lưu.
+profiles-backup-creation-failed = Tạo bản sao lưu không thành công: { $reason }
+profiles-backup-unchanged = Không có thay đổi sau bản sao cuối cùng.
