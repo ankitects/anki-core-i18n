@@ -1,3 +1,5 @@
+notetypes-notetype = Kiểu Ghi chú
+
 ## Default field names in newly created note types
 
 notetypes-front-field = Mặt trước
@@ -33,3 +35,23 @@ notetypes-note-types = Các Kiểu Phiếu
 notetypes-options = Tùy chọn...
 notetypes-please-add-another-note-type-first = Xin đưa thêm một kiểu phiếu khác trước.
 notetypes-type = Kiểu
+
+## Image Occlusion
+
+notetypes-image = Hình ảnh
+notetypes-occlusion = Che khuất
+notetypes-occlusion-mask = Mặt nạ
+notetypes-occlusion-note = Ghi chú
+notetypes-comments-field = Bình luận
+notetypes-toggle-masks = Bật tắt Mặt nạ
+notetypes-image-occlusion-name = Che khuất hình ảnh
+notetypes-hide-all-guess-one = Che tất cả, Đoán một
+notetypes-hide-one-guess-one = Che một, Đoán một
+notetypes-error-generating-cloze = Gặp lỗi khi tạo ghi chú che khuất hình ảnh
+notetypes-error-getting-imagecloze = Gặp lỗi khi tải ghi chú che khuất hình ảnh
+notetypes-error-loading-image-occlusion = Gặp lỗi khi tải hình ảnh che khuất. Phiên bản Anki của bạn đã được cập nhật chưa?
+notetype-error-no-image-to-show = Không có hình ảnh để hiển thị.
+notetypes-no-occlusion-created = Bạn phải che khuất ít nhật một lần.
+notetypes-no-occlusion-created2 = Không thể thêm được. Bạn chưa che khuất hình ảnh hoặc trường tin đầu bị trống.
+notetypes-io-select-image = Chọn Hình ảnh
+notetypes-io-paste-image-from-clipboard = Dán Hình ảnh từ Bộ nhớ tạm

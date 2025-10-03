@@ -1,11 +1,15 @@
 importing-failed-debug-info = Nhập thất bại. Thông tin gỡ lỗi:
 importing-aborted = Đã huỷ: { $val }
 importing-added-duplicate-with-first-field = Đã thêm thẻ trùng với trường đầu tiên: { $val }
+importing-all-supported-formats = Tất cả các định dạng được hỗ trợ { $val }
 importing-allow-html-in-fields = Cho phép HTML trong trường tin
 importing-anki-files-are-from-a-very = Các tệp .anki là từ một phiên bản rất cũ của Anki. Bạn có thể nhập chúng bằng Anki 2.0, có sẵn trên trang web Anki.
 importing-anki2-files-are-not-directly-importable = Các tệp .anki2 không thể nhập trực tiếp - vui lòng nhập tệp .apkg hoặc .zip thay thế mà bạn đã nhận được.
 importing-appeared-twice-in-file = Xuất hiện 2 lần trong tập tin: { $val }
 importing-by-default-anki-will-detect-the = Mặc định, Anki sẽ phát hiện ký tự giữa các trường tin, ví dụ như tab, phẩy...v.v Nếu Anki phát hiện không chính xác, bạn có thể nhập vào đây. Dùng \t để biểu diễn ký tự tab.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Ghi chú điền chỗ trống không thể được nhập với ghi chú thường.
+    Bạn vẫn có thể nhập tập tin nếu bạn tắt '{ importing-merge-notetypes }'.
 importing-change = Thay đổi
 importing-colon = Dấu hai chấm
 importing-comma = Dấu phẩy
@@ -32,15 +36,12 @@ importing-multicharacter-separators-are-not-supported-please = Dấu phân tách
 importing-notes-added-from-file = Phiếu được thêm từ tệp: { $val }
 importing-notes-found-in-file = Phiếu đã tìm thấy trong tệp: { $val }
 importing-notes-skipped-as-theyre-already-in = Các phiếu đã bị bỏ qua, vì chúng đã có trong bộ sưu tập của bạn: { $val }
-importing-notes-that-could-not-be-imported = Không thể nhập Phiếu vì loại Phiếu đã thay đổi: { $val }
 importing-notes-updated-as-file-had-newer = Đã cập nhật các Phiếu, vì tệp đã có phiên bản mới hơn: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Đóng gói Bộ thẻ/Bộ sưu tập Anki (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Bài học Pauker 1.8 (*.pau.gz)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' có { $found } trường tin, yêu cầu { $expected }
 importing-selected-file-was-not-in-utf8 = Tập tin được chọn không có định dạng UTF-8. Vui lòng tham khảo phần nhập vào của tài liệu hướng dẫn.
 importing-semicolon = Dấu chấm phẩy
 importing-skipped = Bỏ qua
-importing-supermemo-xml-export-xml = Tập tin xuất XML của Sumermemo (*.xml)
 importing-tab = Tab
 importing-tag-modified-notes = Gắn thẻ phiếu đã sửa đổi:
 importing-text-separated-by-tabs-or-semicolons = Văn bản ngăn cách bởi ký tự Tab hay Dấu chấm phẩy (*)
@@ -72,4 +73,10 @@ importing-processed-media-file =
     { $count ->
        *[other] Xử lý { $count } thư mục phương tiện
     }
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+
+importing-notes-that-could-not-be-imported = Không thể nhập Phiếu vì loại Phiếu đã thay đổi: { $val }
 importing-added = Đã thêm
+importing-pauker-18-lesson-paugz = Bài học Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = Tập tin xuất XML của Sumermemo (*.xml)

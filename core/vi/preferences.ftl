@@ -77,10 +77,26 @@ preferences-network-timeout = Thời gian chờ kết nối
 preferences-reset-window-sizes = Đặt lại kích cỡ cửa sổ
 preferences-reset-window-sizes-complete = Đã đặt lại vị trí và kích cỡ của các cửa sổ.
 preferences-shortcut-placeholder = Nhập một phím chưa gán chức năng nào, hoặc bỏ trống để tắt phím tắt này.
+preferences-third-party-services = Dịch vụ bên thứ ba
+preferences-ankihub-not-logged-in = Hiện tại không đang đăng nhập vào AnkiHub.
+preferences-ankiweb-intro = AnkiWeb là một dịch vụ miễn phí giúp bạn đồng bộ dữ liệu thẻ của bạn giữa nhiều thiết bị, và là một cách để khôi phục thông tin nếu thiết bị của bạn hỏng hoặc bị mất.
+preferences-ankihub-intro = AnkiHub cung cấp tính năng chỉnh sửa bộ thẻ và gồm công cụ học tập bổ sung. Bạn cần trả phí để truy cập một số tính năng nhất định.
+preferences-third-party-description = Dịch vụ bên thứ ba không liên quan và không được xác nhận bởi Anki. Một số dịch vụ có thể yêu cầu trả phí.
 
 ## URL scheme related
 
+preferences-url-schemes = Lược đồ url
+preferences-url-scheme-prompt = Lược đồ URL cho phép (phân giải bằng dấu cách):
+preferences-url-scheme-warning =
+    Đã chặn mở `{ $link }` vì có thể dẫn đến vấn đề bảo mật.
+    
+    Nếu bạn tin tưởng tác giả bộ thẻ này và muốn tiếp tục, bạn có thể thêm `{ $scheme }` vào lược đồ URL cho phép của mình.
+preferences-url-scheme-allow-once = Cho phép Một lần
+preferences-url-scheme-always-allow = Cho phép Mãi mãi
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Cơ bản
+preferences-reviewer = Người đánh giá
+preferences-media = Phương tiện
+preferences-not-logged-in = Hiện tại không đang đăng nhập vào AnkiWeb.
