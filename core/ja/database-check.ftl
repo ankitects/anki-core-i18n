@@ -1,6 +1,7 @@
 database-check-corrupt = コレクションが壊れています。マニュアルをご覧ください。
 database-check-rebuilt = データベースを再構築し最適化しました。
 database-check-card-properties = 無効なプロパティを持っている{ $count }枚のカードを修正しました。
+database-check-card-last-review-time-empty = 以前学習した{ $count }枚のカードの情報を整理・補完（直近の学習日時の情報を、学習履歴を参照してカードに直接記録）しました。
 database-check-missing-templates = テンプレートがない{ $count }枚のカードを削除しました。
 database-check-field-count =
     { $count ->
