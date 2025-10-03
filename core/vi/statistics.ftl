@@ -37,9 +37,6 @@ statistics-in-time-span-years =
     { $amount ->
        *[other] trong { $amount } năm
     }
-statistics-cards = { $cards } thẻ
-# a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews } thẻ ôn tập
 # Shown at the bottom of the deck list, and in the statistics screen.
 # eg "Studied 3 cards in 13 seconds today (4.33s/card)."
 # The { statistics-in-time-span-seconds } part should be pasted in from the English
@@ -55,8 +52,17 @@ statistics-studied-today =
        *[years] { statistics-in-time-span-years }
     } hôm nay
     ({ $secs-per-card }giây/thẻ)
-# eg, "Time taken to review card: 5s"
-statistics-seconds-taken = { $seconds }giây
+
+##
+
+statistics-cards = { $cards } thẻ
+statistics-notes = { $notes } ghi chú
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews = { $reviews } thẻ ôn tập
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } thẻ đã nhớ
 statistics-today-title = Hôm nay
 statistics-today-again-count = Học lại:
 statistics-today-type-counts = Học: { $learnCount }, Ôn: { $reviewCount }, Học lại: { $relearnCount }, Lọc: { $filteredCount }
@@ -74,6 +80,47 @@ statistics-counts-learning-cards = Đang học
 statistics-counts-relearning-cards = Đang học lại
 statistics-counts-title = Số lượng thẻ
 statistics-counts-separate-suspended-buried-cards = Tách riêng thẻ đã ngừng/tạm hoãn
+
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
+statistics-true-retention-title = Đã nhớ
+statistics-true-retention-subtitle = Độ nhớ của thẻ với khoảng thời gian ≥ 1 ngày
+statistics-true-retention-tooltip = Nếu bạn đang dùng FSRS, độ nhớ của bạn sẽ gần với thời gian lưu trữ mong muốn. Xin lưu ý rằng dữ liệu cho một ngày khá nhiễu, bạn nên nhìn dữ liệu của cả tháng.
+statistics-true-retention-range = Phạm vi
+statistics-true-retention-pass = Đậu
+statistics-true-retention-fail = Rớt
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Tổng số thẻ
+statistics-true-retention-count = Số lượng
+statistics-true-retention-retention = Lưu trữ
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Trẻ
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Trưởng thành
+statistics-true-retention-all = Tất cả
+statistics-true-retention-today = Hôm nay
+statistics-true-retention-yesterday = Hôm qua
+statistics-true-retention-week = Tuần trước
+statistics-true-retention-month = Tháng trước
+statistics-true-retention-year = Năm trước
+statistics-true-retention-all-time = Tổng thời gian
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = Không xác định
+
+##
+
 statistics-range-all-time = dòng đời bộ thẻ
 statistics-range-1-year-history = 12 tháng trước
 statistics-range-all-history = tất cả lịch sử
@@ -81,12 +128,21 @@ statistics-range-deck = bộ thẻ
 statistics-range-collection = bộ sưu tập
 statistics-range-search = Tìm
 statistics-card-ease-title = Thẻ Dễ
+statistics-card-difficulty-title = Độ khó của thẻ
+statistics-card-stability-title = Độ ổn định của thẻ
+statistics-card-stability-subtitle = Thời gian giãn cách khi khả năng truy xuất xuống dưới 90%.
+statistics-median-stability = Độ ổn định trung vị
+statistics-card-retrievability-title = Khả năng truy xuất của thẻ
 statistics-card-ease-subtitle = Mức độ dễ càng thấp, thẻ sẽ xuất hiện càng thường xuyên.
+statistics-card-difficulty-subtitle2 = Độ khó càng cao, độ ổn định tăng càng chậm.
+statistics-retrievability-subtitle = Xác suất nhớ lại thẻ hôm nay.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
     { $cards ->
        *[other] { $cards } thẻ với { $percent } dễ
     }
+statistics-card-difficulty-tooltip = { $cards } thẻ với độ khó { $percent }
+statistics-retrievability-tooltip = { $cards } thẻ với khả năng truy xuất { $percent }
 statistics-future-due-title = Dự báo
 statistics-future-due-subtitle = Số thẻ ôn tập đến hạn trong tương lai.
 statistics-added-title = Đã thêm
@@ -130,6 +186,8 @@ statistics-intervals-day-single =
     { $cards ->
        *[other] { $cards } thẻ trong khoảng { $day } ngày
     }
+statistics-stability-day-range = { $cards } thẻ với độ ổn định { $daysStart }~{ $daysEnd } ngày
+statistics-stability-day-single = { $cards } thẻ với độ ổn định { $day } ngày
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Từ { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } đúng ({ $percent }%)
@@ -155,12 +213,13 @@ statistics-elapsed-time-years = { $amount }y
 ##
 
 statistics-average-for-days-studied = Số ngày trung bình đã học
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Tổng
 statistics-days-studied = Số ngày đã học
 statistics-average-answer-time-label = Thời gian trả lời trung bình
 statistics-average = Trung bình
-statistics-average-interval = Khoảng cách trung bình
-statistics-longest-interval = Khoảng lâu nhất
 statistics-due-tomorrow = Đến hạn ngày mai
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } trong { $total } ({ $percent }%)
@@ -177,10 +236,12 @@ statistics-cards-per-day =
     { $count ->
        *[other] { $count } thẻ/ngày
     }
-statistics-average-ease = Độ dễ trung bình
 statistics-save-pdf = Lưu PDF
 statistics-saved = Đã lưu.
 statistics-stats = thống kê
-statistics-true-retention-total = Tổng số thẻ
-statistics-true-retention-young = Trẻ
-statistics-true-retention-mature = Trưởng thành
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-interval = Khoảng cách trung bình
+statistics-average-ease = Độ dễ trung bình
