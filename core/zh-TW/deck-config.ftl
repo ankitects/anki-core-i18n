@@ -22,7 +22,7 @@ deck-config-tab-description =
     - `當前牌組`：當前牌組的上限。
     - `僅限今天`：暫時更改當前牌組的的上限。
 deck-config-new-cards-ignore-review-limit = 新卡片不受複習上限影響
-deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，新卡片也會計入複習上限，因此當複習卡達到上限時，新卡片也不會再顯示。啟用此選項後，新卡片將不再計入複習上限。
+deck-config-new-cards-ignore-review-limit-tooltip = 根據預設，新卡片也會計入複習上限，因此當複習次數達到上限時，新卡片也不會再顯示。啟用此選項後，新卡片將不再計入複習上限。
 deck-config-apply-all-parent-limits = 套用頂層牌組上限
 deck-config-apply-all-parent-limits-tooltip = 根據預設，學習子牌組時不會套用上層牌組的每日上限。啟用此選項後，Anki 會套用頂層牌組的每日上限，這樣可確保你在學習各子牌組時不超過總上限。
 deck-config-affects-entire-collection = 影響整個集合。
