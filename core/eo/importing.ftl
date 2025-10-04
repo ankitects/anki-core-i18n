@@ -43,10 +43,11 @@ importing-merge-notetypes-help =
     
     Averto: tiu ĉi ŝanĝo postulos unudirektan samtempigon kaj povas marki ekzistantajn notojn kiel modifitajn.
 importing-mnemosyne-20-deck-db = Kartaro Mnemosyne 2.0 (*.db)
-importing-multicharacter-separators-are-not-supported-please = Plursignaj disigiloj ne estas subtenataj. Bonvolu enigi nur unu signon.
-importing-notes-added-from-file = Notoj, kiuj  estas aldonitaj de la dosiero: { $val }
+importing-multicharacter-separators-are-not-supported-please = Plursignaj apartigiloj ne estas subtenataj. Enigu nur unu signon.
+importing-new-deck-will-be-created = Nova kartaro estos kreita: { $name }
+importing-notes-added-from-file = Notoj aldonitaj el la dosiero: { $val }
 importing-notes-found-in-file = Notoj, kiuj estas trovitaj en la dosiero: { $val }
-importing-notes-skipped-as-theyre-already-in = Notoj estas preterpasitaj, ĉar ili jam troviĝas en via kolekto: { $val }
+importing-notes-skipped-as-theyre-already-in = Notoj preterpasitaj, ĉar iliaj ĝisdataj kopioj jam troviĝas en via kolekto: { $val }
 importing-notes-updated-as-file-had-newer = Notoj estas ĝisdatigitaj, ĉar dosiero havas pli novan version: { $val }
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakita Anki-Kartaro/Kolekto (*.apkg *.colpkg *.zip)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' havis { $found } kampojn, anstataŭ la atendita { $expected }
