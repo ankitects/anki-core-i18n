@@ -167,6 +167,29 @@ importing-notes-failed =
         [one] Ne povis enporti { $count } noton.
        *[other] Ne povis enporti { $count } notojn.
     }
+importing-conflicting-notes-skipped =
+    { $count ->
+        [one] Ne enportis { $count } noton, ĉar ĝia nototipo ŝanĝiĝis.
+       *[other] Ne enportis { $count } notojn, ĉar iliaj nototipoj ŝanĝiĝis.
+    }
+importing-conflicting-notes-skipped2 =
+    { $count ->
+        [one] Ne enportis { $count } noton, ĉar ĝia nototipo ŝanĝiĝis kaj la agordo “{ importing-merge-notetypes }” estis malaktiva.
+       *[other] Ne enportis { $count } notojn, ĉar iliaj nototipoj ŝanĝiĝis kaj la agordo “{ importing-merge-notetypes }” estis malaktiva.
+    }
+importing-import-log = Protokolo pri enporto
+importing-no-notes-in-file = Trovis neniun noton en la dosiero.
+importing-notes-found-in-file2 =
+    { $notes ->
+        [one] Trovis { $notes } noton en la dosiero:
+       *[other] Trovis { $notes } notojn en la dosiero:
+    }
+importing-show = Vidigi
+importing-details = Detaloj
+importing-status = Stato
+importing-duplicate-note-added = Aldonis duobligon de noto
+importing-added-new-note = Aldonis novan noton
+importing-existing-note-skipped = Preterpasis noton, ĉar ĝia ĝisdata kopio jam estas en via kolekto
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
