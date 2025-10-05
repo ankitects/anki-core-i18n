@@ -71,19 +71,27 @@ importing-selected-file-was-not-in-utf8 = La elektita dosiero ne havis la datuma
 importing-semicolon = punktokomo
 importing-skipped = Preterpasita
 importing-tab = tabo
-importing-text-separated-by-tabs-or-semicolons = Teksto apartigite per taboj aŭ punktokomoj (*)
-importing-the-first-field-of-the-note = La unua kampo de la nototipo devas esti mapita.
-importing-the-provided-file-is-not-a = La elektita dosiero ne estas valida .apkg-dosiero
-importing-this-file-does-not-appear-to = Tiu dosiero verŝajne ne estas valida .apkg-dosiero. Se tiu eraro okazas ĉe dosiero, kiun vi elŝutis de AnkiWeb, la elŝutado verŝajne malsukcesis. Bonvolu reprovi ĝin kaj se la problemo daŭras, bonvolu reprovi ĝin per alia foliumilo.
-importing-this-will-delete-your-existing-collection = Ĉi tio forigos vian ekzistantan kolekton kaj anstataŭigos ĝin per la datumoj en la dosiero, kiun vi enportas. Ĉu vi certas?
+importing-tag-modified-notes = Etikedi modifitajn notojn:
+importing-text-separated-by-tabs-or-semicolons = Teksto apartigita per taboj aŭ punktokomoj (*)
+importing-the-first-field-of-the-note = La unua kampo de la nototipo devas esti mapigita.
+importing-the-provided-file-is-not-a = La elektita dosiero ne estas valida dosiero .apkg.
+importing-this-file-does-not-appear-to = Tiu ĉi dosiero verŝajne ne estas valida dosiero .apkg. Se tiu ĉi eraro okazas pri dosiero, kiun vi elŝutis de AnkiWeb, la elŝutado verŝajne malsukcesis. Reprovu kaj se la problemo reokazas, reprovu uzi alian retfoliumilon.
+importing-this-will-delete-your-existing-collection = Tio ĉi forigos vian ekzistantan kolekton kaj anstataŭigos ĝin per la datumoj el la enportata dosiero. Ĉu vi certas?
 importing-unable-to-import-from-a-readonly = Enporto el nurlega dosiero ne estas ebla.
-importing-unknown-file-format = Nekonata dosierformato.
+importing-unknown-file-format = Nekonata dosierformo.
 importing-update-existing-notes-when-first-field = Ĝisdatigi ekzistantan noton, kiam la unua kampo kongruas kun
 importing-updated = Ĝisdatigita
+importing-update-if-newer = se pli nova
+importing-update-always = ĉiam
+importing-update-never = neniam
+importing-update-notes = Ĝisdatigi noton
+importing-update-notes-help = Elektu kiam ĝisdatigi ekzistan noton en via kolekto. Implicite tio ĉi estas farita, kiam la kongrua enportata noto estis antaŭe modifita.
+importing-update-notetypes = Ĝisdatigi nototipon
+importing-update-notetypes-help = Elektu kiam ĝisdatigi ekzistan nototipon en via kolekto. Implicite tio ĉi estas farita, kiam la kongrua enportata nototipo estis antaŭe modifita. Ŝanĝoj al teksto de ŝablono kaj al stilo ĉiam povas esti enportitaj; sed por enporti ŝanĝojn al skemo (ekz. ŝanĝita nombro da kolumnoj), la agordo “{ importing-merge-notetypes }” devas esti aktiva.
 importing-note-added =
     { $count ->
-        [one] { $count } noto estas aldonita
-       *[other] { $count } notoj estas aldonitaj
+        [one] aldonis { $count } noton
+       *[other] aldonis { $count } notojn
     }
 importing-note-imported =
     { $count ->
