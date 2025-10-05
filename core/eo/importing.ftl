@@ -95,23 +95,32 @@ importing-note-added =
     }
 importing-note-imported =
     { $count ->
-        [one] { $count } noto estas enportita.
-       *[other] { $count } notoj estas enportitaj.
+        [one] enportis { $count } noton.
+       *[other] enportis { $count } notojn.
     }
 importing-note-unchanged =
     { $count ->
-        [one] { $count } noto restas senŝanĝa
-       *[other] { $count } notoj restas senŝanĝaj
+        [one] ne ŝanĝis { $count } noton
+       *[other] ne ŝanĝis { $count } notojn
     }
 importing-note-updated =
     { $count ->
-        [one] { $count } noto estas ĝisdatigita
-       *[other] { $count } notoj estas ĝisdatigitaj
+        [one] ĝisdatigis { $count } noton
+       *[other] ĝisdatigis { $count } notojn
     }
 importing-processed-media-file =
     { $count ->
-        [one] { $count } prilaborita aŭdovidaĵo
-       *[other] { $count } prilaboritaj aŭdovidaĵoj
+        [one] Prilaboris { $count } aŭdvidaĵon
+       *[other] Prilaboris { $count } aŭdvidaĵojn
+    }
+importing-importing-file = Enportado de dosiero…
+importing-extracting = Eltirado de datumoj…
+importing-gathering = Kolektado de datumoj…
+importing-failed-to-import-media-file = Malsukcesis enporti aŭdvidaĵon: { $debugInfo }
+importing-processed-notes =
+    { $count ->
+        [one] Prilaboris { $count } noton…
+       *[other] Prilaboris { $count } notojn…
     }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
