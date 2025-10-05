@@ -1,5 +1,5 @@
 adding-add-shortcut-ctrlandenter = Afegeix (drecera: Ctrl+retorn)
-adding-added = S'ha afegit
+adding-added = S’ha afegit
 adding-discard-current-input = Voleu descartar l’entrada?
 adding-keep-editing = Segueix editant
 adding-edit = Edita «{ $val }»
