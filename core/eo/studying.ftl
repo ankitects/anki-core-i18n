@@ -36,7 +36,7 @@ studying-please-run-toolsempty-cards = Bonvolu ruli Iloj → Malplenaj kartoj
 studying-record-own-voice = Registri sian sonon
 studying-replay-own-voice = Reludi sian voĉon
 studying-show-answer = Montri la respondon
-studying-space = Spaceto
+studying-space = spaceto
 studying-study-now = Nun lerni
 studying-suspend = Daŭre kaŝi
 studying-suspend-note = Daŭre kaŝi noton
@@ -46,6 +46,11 @@ studying-type-answer-unknown-field = Entajpu respondon: nekonata kampo { $val }
 studying-unbury = Malkaŝi
 studying-what-would-you-like-to-unbury = Kion vi volas malkaŝi?
 studying-you-havent-recorded-your-voice-yet = Vi ankoraŭ ne registris vian sonon.
+studying-question-time-elapsed = Pasis tempo de demando
+studying-answer-time-elapsed = Pasis tempo por respondi
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] Lernis { $count } karton dum
@@ -56,5 +61,3 @@ studying-minute =
         [one] { $count } minuto.
        *[other] { $count } minutoj.
     }
-studying-question-time-elapsed = Pasis tempo de demando
-studying-answer-time-elapsed = Pasis tempo por respondi

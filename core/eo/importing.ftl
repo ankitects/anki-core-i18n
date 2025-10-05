@@ -57,10 +57,20 @@ importing-updates = Ĝisdatigoj
 importing-include-reviews-help = Se aktiva, ĉiuj antaŭaj ripetoj – alligitaj de kunhaviginto de la kartaro – ankaŭ estos enportitaj. Aliokaze ĉiuj kartoj estos enportitaj kiel novaj kartoj kaj ĉiuj etikedoj «leech» kaj «marked» estos forigitaj.
 importing-with-deck-configs-help = Se aktiva, ĉiuj preferoj de kartaro – alligitaj de kunhaviginto de la kartaro – ankaŭ estos enportitaj. Aliokaze ĉiuj kartaroj ricevos la implicitan antaŭagordon.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakita kartaro/kolekto Anki (*.apkg *.colpkg *.zip)
+# the '|' character
+importing-pipe = vertikala streko
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated =
+    { $count ->
+        [one] Nur la { $count } unua kolumno estas montrata. Se io aspektas malĝuste, provu ŝanĝi apartigilon.
+       *[other] Nur la { $count } unuaj kolumnoj estas montrataj. Se io aspektas malĝuste, provu ŝanĝi apartigilon.
+    }
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' havis { $found } kampojn, anstataŭ la atendita { $expected }
-importing-selected-file-was-not-in-utf8 = La elektita dosiero ne havis la datumaranĝon UTF-8. Bonvolu atenti la ĉapitron "Import" en la manlibro.
-importing-semicolon = Punktokomo
+importing-selected-file-was-not-in-utf8 = La elektita dosiero ne havis la datumaranĝon UTF-8. Legu la ĉapitron «Importing» (Enporto) en la dokumentaro.
+importing-semicolon = punktokomo
 importing-skipped = Preterpasita
+importing-tab = tabo
 importing-text-separated-by-tabs-or-semicolons = Teksto apartigite per taboj aŭ punktokomoj (*)
 importing-the-first-field-of-the-note = La unua kampo de la nototipo devas esti mapita.
 importing-the-provided-file-is-not-a = La elektita dosiero ne estas valida .apkg-dosiero
