@@ -122,6 +122,51 @@ importing-processed-notes =
         [one] Prilaboris { $count } noton…
        *[other] Prilaboris { $count } notojn…
     }
+importing-processed-cards =
+    { $count ->
+        [one] Prilaboris { $count } karton…
+       *[other] Prilaboris { $count } kartojn…
+    }
+importing-existing-notes = Ekzistaj notoj
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = duobligi
+# "Existing notes: Preserve" (verb)
+importing-preserve = ne ŝanĝi
+# "Existing notes: Update" (verb)
+importing-update = ĝisdatigi
+importing-tag-all-notes = Etikedi ĉiujn notojn
+importing-tag-updated-notes = Etikedi ĝisdatigitajn notojn
+importing-file = Dosiero
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Amplekso de kongruo
+# Used with the 'match scope' option
+importing-notetype-and-deck = nototipo kaj kartaro
+importing-cards-added =
+    { $count ->
+        [one] Aldonis { $count } karton.
+       *[other] Aldonis { $count } kartojn.
+    }
+importing-file-empty = La elektita dosiero estas malplena.
+importing-notes-added =
+    { $count ->
+        [one] Enportis { $count } novan noton.
+       *[other] Enportis { $count } novajn notojn.
+    }
+importing-notes-updated =
+    { $count ->
+        [one] Uzis { $count } noton por ĝisdatigi ekzistajn notojn.
+       *[other] Uzis { $count } notojn por ĝisdatigi ekzistajn notojn.
+    }
+importing-existing-notes-skipped =
+    { $count ->
+        [one] { $count } noto jam ekzistas en via kolekto.
+       *[other] { $count } notoj jam ekzistas en via kolekto.
+    }
+importing-notes-failed =
+    { $count ->
+        [one] Ne povis enporti { $count } noton.
+       *[other] Ne povis enporti { $count } notojn.
+    }
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
