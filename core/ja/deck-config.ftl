@@ -456,6 +456,9 @@ deck-config-save-options-to-preset-confirm = 現在このシミュレーター�
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = 記憶保持
+deck-config-fsrs-simulator-radio-ratio = 1枚あたりの学習時間（期間全体の学習コスト）
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = 1枚あたり { $time } の学習コスト（学習時間）で、指定期間の間、記憶を保持
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
