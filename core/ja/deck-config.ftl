@@ -215,7 +215,7 @@ deck-config-maximum-answer-secs-tooltip =
     
     「回答タイマーを表示する」オプションがオンの場合、この秒数に達するとタイマーのカウントアップが停止します。
 deck-config-show-answer-timer-tooltip = カード学習画面に、表示中のカードの回答秒数をカウントするタイマーを表示します。
-deck-config-stop-timer-on-answer = 解答表示でタイマーを停止する
+deck-config-stop-timer-on-answer = 解答を表示したときに、タイマーのカウントを停止する
 deck-config-stop-timer-on-answer-tooltip =
     解答側を表示した時点でタイマーのカウントアップを停止するか、それとも続行するかを設定します。
     この設定はあくまでタイマーのカウント表示についてのものであり、カードへの回答秒数についての統計には影響しません。つまり、タイマーのカウントアップを停止した場合でも、その後、回答ボタンを押すまでの秒数は引き続き計測されます。
