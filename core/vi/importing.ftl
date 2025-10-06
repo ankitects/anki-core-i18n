@@ -14,9 +14,12 @@ importing-change = Thay đổi
 importing-colon = Dấu hai chấm
 importing-comma = Dấu phẩy
 importing-empty-first-field = Trống trường tin đầu tiên: { $val }
+importing-field-separator = Phân cách trường tin
+importing-field-separator-guessed = Phân cách trường tin (đoán)
 importing-field-mapping = Ánh xạ trường tin
 importing-field-of-file-is = Trường <b>{ $val }</b> của tập tin là:
 importing-fields-separated-by = Trường tin phân cách bằng: { $val }
+importing-file-must-contain-field-column = Tập tin phải chứa ít nhất một cột có thể ánh xạ tới trường ghi chú.
 importing-file-version-unknown-trying-import-anyway = Phiên bản tệp không xác định, vẫn thử nhập.
 importing-first-field-matched = Trường đầu tiên khớp: { $val }
 importing-identical = Đồng nhất
@@ -31,12 +34,31 @@ importing-map-to = Ánh xạ với { $val }
 importing-map-to-tags = Ánh xạ với Nhãn
 importing-mapped-to = ánh xạ với <b>{ $val }</b>
 importing-mapped-to-tags = ánh xạ với <b>Nhãn</b>
+# the action of combining two existing note types to create a new one
+importing-merge-notetypes = Hợp nhất các loại ghi chú
+importing-merge-notetypes-help =
+    Nếu được chọn, và bạn hoặc tác giả bộ thẻ đã thay đổi lược đồ của một loại ghi chú, Anki sẽ
+    hợp nhất hai phiên bản thay vì giữ nguyên cả hai.
+    
+    Việc thay đổi lược đồ của một loại ghi chú có nghĩa là thêm, xóa hoặc sắp xếp lại các trường tin hoặc mẫu,
+    hoặc thay đổi trường sắp xếp.
+    
+    Một ví dụ phản chứng là việc thay đổi mặt trước của một mẫu hiện *không* cấu thành
+    thay đổi lược đồ.
+    
+    Cảnh báo: Thao tác này sẽ yêu cầu đồng bộ một chiều và có thể đánh dấu rằng các ghi chú đã được sửa đổi.
 importing-mnemosyne-20-deck-db = Bộ thẻ Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Dấu phân tách nhiều ký tự không được hỗ trợ. Vui lòng chỉ nhập một ký tự.
+importing-new-deck-will-be-created = Sẽ tạo một bộ thẻ mới: { $name }
 importing-notes-added-from-file = Phiếu được thêm từ tệp: { $val }
 importing-notes-found-in-file = Phiếu đã tìm thấy trong tệp: { $val }
 importing-notes-skipped-as-theyre-already-in = Các phiếu đã bị bỏ qua, vì chúng đã có trong bộ sưu tập của bạn: { $val }
+importing-notes-skipped-update-due-to-notetype = Ghi chú chưa được cập nhật vì loại ghi chú đã bị thay đổi từ khi bạn nhập ghi chú: { $val }
 importing-notes-updated-as-file-had-newer = Đã cập nhật các Phiếu, vì tệp đã có phiên bản mới hơn: { $val }
+importing-include-reviews = Thêm ôn tập
+importing-also-import-progress = Nhập tiến trình học tập
+importing-with-deck-configs = Nhập cài đặt sẵn trên bộ thẻ
+importing-updates = Cập nhật
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Đóng gói Bộ thẻ/Bộ sưu tập Anki (*.apkg *.colpkg *.zip)
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' có { $found } trường tin, yêu cầu { $expected }
 importing-selected-file-was-not-in-utf8 = Tập tin được chọn không có định dạng UTF-8. Vui lòng tham khảo phần nhập vào của tài liệu hướng dẫn.
