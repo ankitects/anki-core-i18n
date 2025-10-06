@@ -30,9 +30,9 @@ sync-confirm-empty-upload = La col·lecció d’AnkiWeb està buida. Voleu subst
 sync-conflict-explanation =
     Les baralles d’aquest dispositiu i les d’AnkiWeb són diferents i no es poden combinar. Cal substituir les baralles d’una ubicació per les de l’altra.
     
-    Si premeu «Descarrega», Anki baixarà la col·lecció d’AnkiWeb i perdreu tots els canvis fets en aquest dispositiu des de l’última sincronització.
+    Si premeu «Baixa d’AnkiWeb», Anki baixarà la col·lecció d’AnkiWeb i perdreu tots els canvis fets en aquest dispositiu des de l’última sincronització.
     
-    Si premeu «Carrega», Anki pujarà la col·lecció a AnkiWeb i perdreu tots els canvis fets en AnkiWeb o en altres dispositiu des de l’última sincronització.
+    Si premeu «Puja a AnkiWeb», Anki pujarà la col·lecció a AnkiWeb i perdreu tots els canvis fets en AnkiWeb o en altres dispositiu des de l’última sincronització.
     
     Quan tots els dispositius estiguin sincronitzats, els repassos futurs i les targetes noves es combinaran automàticament.
 sync-conflict-explanation2 =
