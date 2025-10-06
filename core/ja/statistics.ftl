@@ -76,7 +76,7 @@ statistics-counts-separate-suspended-buried-cards = 休止中のカード・今�
 
 statistics-true-retention-title = 正答率
 statistics-true-retention-subtitle = 間隔が1日以上のカードの、これまでの学習での正答率
-statistics-true-retention-tooltip = FSRSを有効にしている場合、実際の正答率の値は、目標正答率の値に近くなることが期待されます。ただし、単日（「今日」「昨日」）での値は（回答数が比較的少ないため）変動しやすいという点には留意してください。「目標正答率と実際の正答率を比較したい」という場合は、「直近1か月」など、回答数が比較的多い期間での値に注目するほうが有意義でしょう。
+statistics-true-retention-tooltip = FSRSを有効にしている場合、正答率の値は、目標正答率の値に近くなることが期待されます。ただし、単日（「今日」「昨日」）での値は（回答数が比較的少ないため）変動しやすいという点には留意してください。「正答率を目標正答率と比較したい」という場合は、「直近1か月」など、回答数が比較的多い期間での値に注目するほうが有意義でしょう。
 statistics-true-retention-range = 範囲
 statistics-true-retention-pass = 回答成功
 statistics-true-retention-fail = 回答失敗

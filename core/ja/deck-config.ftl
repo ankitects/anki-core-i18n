@@ -451,6 +451,7 @@ deck-config-advanced-settings = 高度な設定
 deck-config-smooth-graph = グラフをスムーズにする
 deck-config-suspend-leeches = 「leech」（苦戦、習得困難）タグの付いたカードを休止する
 deck-config-save-options-to-preset = 変更をﾌﾟﾘｾｯﾄに反映
+deck-config-save-options-to-preset-confirm = 現在このシミュレーターの各オプションで指定している内容と同じになるよう、元のプリセットの各オプションの既存の設定内容を変更します。よろしいですか？
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
