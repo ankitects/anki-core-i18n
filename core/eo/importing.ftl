@@ -190,6 +190,12 @@ importing-status = Stato
 importing-duplicate-note-added = Aldonis duobligon de noto
 importing-added-new-note = Aldonis novan noton
 importing-existing-note-skipped = Preterpasis noton, ĉar ĝia ĝisdata kopio jam estas en via kolekto
+importing-note-skipped-update-due-to-notetype = Ne ĝisdatigis noton, ĉar nototipo estis modifita ekde via unua enporto de la noto
+importing-note-skipped-update-due-to-notetype2 = Ne ĝisdatigis noton, ĉar nototipo estis modifita ekde via unua enporto de la noto kaj la agordo “{ importing-merge-notetypes }” estis malaktiva
+importing-note-updated-as-file-had-newer = Ĝisdatigis noton, ĉar dosiero havis pli novan version
+importing-note-skipped-due-to-missing-notetype = Preterpasis noton, ĉar ĝia nototipo mankis
+importing-note-skipped-due-to-missing-deck = Preterpasis noton, ĉar ĝia kartaro mankis
+importing-note-skipped-due-to-empty-first-field = Preterpasis noton, ĉar ĝia unua kampo estis malplena
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
