@@ -196,6 +196,28 @@ importing-note-updated-as-file-had-newer = Ĝisdatigis noton, ĉar dosiero havis
 importing-note-skipped-due-to-missing-notetype = Preterpasis noton, ĉar ĝia nototipo mankis
 importing-note-skipped-due-to-missing-deck = Preterpasis noton, ĉar ĝia kartaro mankis
 importing-note-skipped-due-to-empty-first-field = Preterpasis noton, ĉar ĝia unua kampo estis malplena
+importing-field-separator-help =
+    Signo apartiganta kampojn en la teksta dosiero. Vi povas uzi la antaŭvidon por kontroli, ĉu kampoj estas ĝuste apartigataj.
+    
+    Rimarku, ke se tiu ĉi signo aperos en iu kampo, tiu ĉi kampo devas esti inter citiloj laŭ la normo CSV. Tabelkalkuliloj kiel LibreOffice kutime faras tion ĉi aŭtomate.
+    
+    Ĝi estas neŝanĝebla, se la teksta dosiero devigas uzi la difinitan apartigilon en la dosierkapo.Se dosierkapo mankas, Anki provos diveni la apartigilon.
+importing-allow-html-in-fields-help = Aktivigu tiun ĉi agordon, se la dosiero enhavas HTML-datum-aranĝon, ekzemple se dosiero enhavas la tekstĉenon “&lt;br&gt;”, ĝi montriĝos kiel nova linio sur via karto. Se tiu ĉi agordo restos malaktiva, sur la karto montriĝos la signoj “&lt;br&gt;”.
+importing-notetype-help =
+    Nove enportitaj notoj havos tiun ĉi nototipon kaj nur ekzistaj notoj kun tiu ĉi nototipo estos ĝisdatigitaj.
+    
+    Vi povas akordi kiuj kampoj en la dosiero respondu al kiuj kampoj de la nototipo per la ilo “Mapigi kampojn”.
+importing-deck-help = Kartoj estos enportitaj al tiu ĉi kartaro.
+importing-existing-notes-help =
+    Kion fari, se la enportata noto jam estas en la kolekto.
+    
+     - `{ importing-update }`: ĝisdatigi la ekzistan noton.
+     - `{ importing-preserve }`: preterpasi.
+     - `{ importing-duplicate }`: krei novan noton.
+importing-match-scope-help = Nur ekzistaj notoj de la sama nototipo estos kontrolataj pri duobligoj. Tio ĉi povas esti limigita al notoj kun kartoj en la sama kartaro.
+importing-tag-all-notes-help = Etikedoj aldonotaj al kaj nove enportitaj kaj al ĝisdatigitaj notoj.
+importing-tag-updated-notes-help = Etikedoj aldonotaj al ĉiuj ĝisdatigitaj notoj.
+importing-overview = Sumigo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
