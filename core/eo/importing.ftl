@@ -221,7 +221,3 @@ importing-overview = Sumigo
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-importing-notes-that-could-not-be-imported = Notoj, kiuj ne estas enportebla, ĉar la nototipo ŝanĝiĝis: { $val }
-importing-added = Aldonita
-importing-pauker-18-lesson-paugz = Leciono de Pauker 1.8 (*.pau.gz)
-importing-supermemo-xml-export-xml = Supermemo XML elportaĵo (*.xml)
