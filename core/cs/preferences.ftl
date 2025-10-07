@@ -64,6 +64,7 @@ preferences-review = Opakování
 preferences-answer-keys = Klávesy odpovědí
 preferences-distractions = Rozptylování
 preferences-minimalist-mode = Minimalistický režim
+preferences-minimalist-mode-tooltip = Rozhraní bude kompaktnější/jednodušší
 preferences-editing = Editování
 preferences-browsing = Prohlížení
 preferences-default-deck = Výchozí balíček
