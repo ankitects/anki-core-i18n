@@ -87,7 +87,7 @@ importing-update-never = neniam
 importing-update-notes = Ĝisdatigi noton
 importing-update-notes-help = Elektu kiam ĝisdatigi ekzistan noton en via kolekto. Implicite tio ĉi estas farita, kiam la kongrua enportata noto estis antaŭe modifita.
 importing-update-notetypes = Ĝisdatigi nototipon
-importing-update-notetypes-help = Elektu kiam ĝisdatigi ekzistan nototipon en via kolekto. Implicite tio ĉi estas farita, kiam la kongrua enportata nototipo estis antaŭe modifita. Ŝanĝoj al teksto de ŝablono kaj al stilo ĉiam povas esti enportitaj; sed por enporti ŝanĝojn al skemo (ekz. ŝanĝita nombro da kolumnoj), la agordo “{ importing-merge-notetypes }” devas esti aktiva.
+importing-update-notetypes-help = Elektu kiam ĝisdatigi ekzistan nototipon en via kolekto. Implicite tio ĉi fariĝos, kiam la kongrua enportata nototipo estis antaŭe modifita. Ŝanĝoj al teksto de ŝablono kaj al stilo ĉiam povas esti enportitaj; sed por enporti ŝanĝojn al skemo (ekz. ŝanĝita nombro da kolumnoj), la agordo “{ importing-merge-notetypes }” devas esti aktiva.
 importing-note-added =
     { $count ->
         [one] aldonis { $count } noton
