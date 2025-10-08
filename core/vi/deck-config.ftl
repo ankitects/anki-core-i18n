@@ -127,7 +127,39 @@ deck-config-bury-priority-tooltip =
 
 deck-config-ordering-title = Thứ tự hiển thị
 deck-config-new-gather-priority = Ưu tiên nhóm thẻ mới
+deck-config-new-gather-priority-tooltip-2 =
+    `Bộ thẻ`: Thu thập các thẻ từ mỗi tập con theo thứ tự, bắt đầu từ trên cùng. Các thẻ từ mỗi tập con được
+    thu theo thứ tự tăng dần. Nếu bộ thẻ đã chọn đạt đến giới hạn trong ngày, việc thu thập có thể dừng lại 
+    trước khi kiểm tra tất cả các tập con. Thứ tự này nhanh nhất trong các bộ thẻ lớn và
+    cho phép bạn ưu tiên các tập con gần đầu hơn.
+    
+    `Vị trí tăng dần`: Thu thập các thẻ theo thứ tự tăng dần (số #), thường là thẻ được thêm vào trước.
+    
+    `Vị trí giảm dần`: Thu thập các thẻ theo thứ tự giảm dần (số #), thường là thẻ được thêm vào sau cùng.
+    
+    `Ghi chú ngẫu nhiên`: Chọn các ghi chú ngẫu nhiên, sau đó thu thập tất cả các thẻ liên quan.
+    
+    `Thẻ ngẫu nhiên`: Thu thập các thẻ theo thứ tự ngẫu nhiên.
 deck-config-new-card-sort-order = Thứ tự sắp xếp thẻ mới
+deck-config-new-card-sort-order-tooltip-2 =
+    `Loại thẻ, sau đó theo thứ tự`: Hiển thị các thẻ theo thứ tự của loại thẻ.
+    Các thẻ của mỗi loại được hiển thị theo thứ tự được sắp xếp.
+    Nếu bạn đã tắt tùy chọn tạm hoãn thẻ anh em, tùy chọn này sẽ đảm bảo tất cả các thẻ 
+    trước → sau được hiển thị trước thẻ sau → trước.
+    Tùy chọn này hữu ích nễu bạn muốn hiển thị tất cả các thẻ cùng một ghi chú trong cùng một buổi học, 
+    nhưng không hiển thị chúng quá gần nhau.
+    
+    `Thứ tự được sắp xếp`: Hiển thị các thẻ như chúng được sắp xếp. Nếu tùy tạm hoãn thẻ anh em bị tắt,
+    điều này thường dẫn đến việc tất cả các thẻ của một ghi chú được hiển thị lần lượt.
+    
+    `Loại thẻ, sau đó ngẫu nhiên`: Hiển thị các thẻ theo thứ tự số loại thẻ. Các thẻ của mỗi loại thẻ
+    số được hiển thị theo thứ tự ngẫu nhiên. Thứ tự này hữu ích nếu bạn không muốn các thẻ anh em
+    xuất hiện quá gần nhau, nhưng vẫn muốn các thẻ xuất hiện theo thứ tự ngẫu nhiên.
+    
+    `Ghi chú ngẫu nhiên, sau đó theo loại thẻ`: Chọn các ghi chú ngẫu nhiên, sau đó hiển thị tất cả các thẻ liên kết
+    theo thứ tự.
+    
+    `Ngẫu nhiên`: Hiển thị các thẻ theo thứ tự ngẫu nhiên.
 deck-config-new-review-priority = Ưu tiên thẻ mới/ôn tập
 deck-config-new-review-priority-tooltip = Thời điểm hiển thị thẻ mới liên quan đến thẻ ôn tập.
 deck-config-interday-step-priority = Ưu tiên học/ôn tập trong ngày
@@ -155,8 +187,10 @@ deck-config-new-gather-priority-position-lowest-first = Vị trí tăng dần
 deck-config-new-gather-priority-position-highest-first = Vị trí giảm dần
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = Phiếu ngẫu nhiên
+# Gather new cards randomly.
+deck-config-new-gather-priority-random-cards = Thẻ ngẫu nhiên
 # Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
-deck-config-sort-order-card-template-then-random = Mẫu thẻ, sau đó là ngẫu nhiên
+deck-config-sort-order-card-template-then-random = Loại thẻ, sau đó là ngẫu nhiên
 # Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
 deck-config-sort-order-random-note-then-template = Phiếu ngẫu nhiên, sau đó theo loại thẻ
 # Sort the cards randomly.
@@ -205,6 +239,7 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Trong màn hình xem lại, hiển thị bộ đếm số giây bạn
     ôn tập từng thẻ.
+deck-config-stop-timer-on-answer = Dừng bộ hẹn giờ trên màn hình sau khi trả lời
 
 ## Auto Advance section
 
