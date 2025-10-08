@@ -149,9 +149,56 @@ importing-notes-failed = Không thể nhập { $count } ghi chú.
 importing-conflicting-notes-skipped = { $count } ghi chú không được nhập vì loại ghi chú đã thay đổi.
 importing-conflicting-notes-skipped2 = { $count } ghi chú không được nhập, vì loại ghi chú dã thay đổi và '{ importing-merge-notetypes }' không được bật.
 importing-import-log = Nhật ký Nhập
+importing-no-notes-in-file = Không tìm thấy ghi chú trong tập tin.
+importing-notes-found-in-file2 = Đã tìm thấy { $notes } ghi chú trong tập tin. Trong đó:
+importing-show = Xem
+importing-details = Chi tiết
+importing-status = Trạng thái
+importing-duplicate-note-added = Đã thêm ghi chú trùng
+importing-added-new-note = Đã thêm ghi chú mới
+importing-existing-note-skipped = Đã bỏ qua ghi chú vì đã có bản sao được cập nhật trong bộ sưu tập của bạn
+importing-note-skipped-update-due-to-notetype = Chưa cập nhật ghi chú vì loại ghi chú đã được chỉnh sửa từ khi bạn nhập ghi chú này
+importing-note-skipped-update-due-to-notetype2 = Chưa cập nhật ghi chú vì loại ghi chú đã được chỉnh sửa từ khi bạn nhập ghi chú này, và '{ importing-merge-notetypes }' không được bật
+importing-note-updated-as-file-had-newer = Đã cập nhật ghi chú vì tập tin có phiên bản mới
+importing-note-skipped-due-to-missing-notetype = Đã bỏ qua ghi chú vì thiếu loại ghi chú
+importing-note-skipped-due-to-missing-deck = Đã bỏ qua ghi chú vì thiếu bộ thẻ
+importing-note-skipped-due-to-empty-first-field = Đã bỏ qua ghi chú vì thiếu trường tin đầu tiên
+importing-field-separator-help =
+    Các trường phân cách ký tự trong tệp văn bản. Bạn có thể sử dụng công cụ xem trước 
+    để kiểm tra xem các trường đã được phân cách chính xác hay chưa.
+    
+    Xin lưu ý rằng nếu ký tự này xuất hiện trong bất kỳ trường nào, trường đó phải được 
+    sắp xếp theo tiêu chuẩn CSV. Các chương trình bảng tính như LibreOffice sẽ tự động thực hiện việc này.
+    
+    Không thể thay đổi ký tự này nếu tệp văn bản bắt buộc sử dụng một dấu phân cách cụ thể trong tiêu đề tệp.
+    Nếu không có tiêu đề tệp, Anki sẽ cố gắng đoán dấu phân cách là gì.
+importing-allow-html-in-fields-help =
+    Bật tùy chọn này nếu tệp chứa định dạng HTML. Ví dụ: nếu tệp chứa chuỗi
+    '&lt;br&gt;', chuỗi này sẽ hiện như một ngắt dòng trên thẻ của bạn. Mặt khác, 
+    nếu tùy chọn này bị tắt, các ký tự '&lt;br&gt;' sẽ được hiển thị nguyên thể.
+importing-notetype-help =
+    Các ghi chú mới nhập sẽ có loại ghi chú này và chỉ những ghi chú hiện có
+    với loại ghi chú này mới được cập nhật.
+    
+    Bạn có thể chọn trường nào trong tệp tương ứng với loại ghi chú nào bằng công cụ ánh xạ.
+importing-deck-help = Các thẻ đã nhập sẽ được thêm vào bộ thẻ này.
+importing-existing-notes-help =
+    Phải làm thế nào nếu ghi chú đã nhập trùng khớp với ghi chú hiện có.
+    
+    - `{ importing-update }`: Cập nhật ghi chú hiện có.
+    - `{ importing-preserve }`: Không làm gì cả.
+    - `{ importing-duplicate }`: Tạo ghi chú mới.
+importing-match-scope-help =
+    Chỉ tìm trùng lặp với những ghi chú hiện có cùng loại.
+    Điều này cũng có thể được giới hạn với ghi chú trong thẻ cùng bộ.
+importing-tag-all-notes-help = Các nhãn này sẽ được thêm vào ghi chú mới nhập và ghi chú đã cập nhật.
+importing-tag-updated-notes-help = Các nhãn này sẽ được thêm vào tất cả ghi chú đã cập nhật.
+importing-overview = Tổng quát
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+importing-importing-collection = Đang nhập bộ sưu tập...
+importing-unable-to-import-filename = Không thể nhập { $filename }: loại tập tin không được hỗ trợ
 importing-notes-that-could-not-be-imported = Không thể nhập Phiếu vì loại Phiếu đã thay đổi: { $val }
 importing-added = Đã thêm
 importing-pauker-18-lesson-paugz = Bài học Pauker 1.8 (*.pau.gz)
