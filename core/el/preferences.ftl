@@ -5,6 +5,7 @@ preferences-changes-will-take-effect-when-you = Οι αλλαγές θα εφα�
 preferences-hours-past-midnight = ώρες μετά τα μεσάνυχτα
 preferences-language = Γλώσσα
 preferences-interrupt-current-audio-when-answering = Διακοπή ήχου κατά τη διάρκεια απάντησης
+preferences-learn-ahead-limit = Όριο της εκμάθησης εκ των προτέρων
 preferences-mins = λεπτά
 preferences-network = Δίκτυο
 preferences-next-day-starts-at = Η επόμενη μέρα αρχίζει στις

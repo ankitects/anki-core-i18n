@@ -283,7 +283,6 @@ deck-config-which-deck = Τις ρυθμίσεις ποιας τράπουλας
 deck-config-updating-cards = Ενημέρωση καρτών: { $current_cards_count }/{ $total_cards_count }
 deck-config-invalid-parameters = Οι παρεχόμενες παράμετροι FSRS δεν είναι έγκυρες. Αφήστε τις κενές για να χρησιμοποιήσετε τις προεπιλεγμένες παραμέτρους.
 deck-config-not-enough-history = Το ιστορικό των επαναλήψεων δεν είναι αρκετό για τη διενέργεια αυτής της λειτουργίας.
-deck-config-unable-to-determine-desired-retention = Αδύνατη η εκτίμηση της βέλτιστης ανάκλησης.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Μόνο { $count } επανάληψη βρέθηκε. Πρέπει να έχετε τουλάχιστον 400 επαναλήψεις για αυτή την ενέργεια.
@@ -292,7 +291,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Παράμετροι FSRS
 deck-config-compute-optimal-weights = Βελτιστοποίηση παραμέτρων FSRS
-deck-config-compute-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση
 deck-config-optimize-button = Βελτιστοποίηση
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (αργό)
@@ -305,7 +303,6 @@ deck-config-historical-retention = Ιστορικό ανάκλησης
 deck-config-smaller-is-better = Μικρότεροι αριθμοί υποδεικνύουν καλύτερη ταύτιση με το ιστορικό των επαναλήψεων σας.
 deck-config-steps-too-large-for-fsrs = Όταν το FSRS είναι ενεργοποιημένο, βήματα εκμάθησης μίας ή περισσότερων ημερών δεν προτείνονται.
 deck-config-get-params = Λήψη παραμέτρων
-deck-config-predicted-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση: { $num }
 deck-config-complete = { $num }% ολοκληρώθηκε.
 deck-config-iterations = Επανάληψη: { $count }...
 deck-config-reschedule-cards-on-change = Επαναπρογραμματισμός καρτών σε αλλαγή
@@ -337,12 +334,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Από προεπιλογή, οι παράμετροι θα υπολογίζονται από το ιστορικό επαναλήψεων όλων των τραπουλών που χρησιμοποιούν την τρέχουσα προεπιλογή. Μπορείτε να
     προαιρετικά ρυθμίσετε την αναζήτηση πριν από τον υπολογισμό των παραμέτρων, αν θέλετε να αλλάξετε ποιες κάρτες χρησιμοποιούνται για
     βελτιστοποίηση των παραμέτρων.
-deck-config-compute-optimal-retention-tooltip4 =
-    Αυτό το εργαλείο θα προσπαθήσει να βρει την επιθυμητή τιμή διατήρησης 
-    που θα οδηγήσει στην εκμάθηση της μεγαλύτερης ύλης, στο λιγότερο δυνατό χρονικό διάστημα. Ο υπολογισμένος αριθμός μπορεί να χρησιμεύσει ως σημείο αναφοράς
-    όταν αποφασίζετε σε ποια τιμή θα θέσετε την επιθυμητή τιμή διατήρησης. Μπορεί να επιθυμείτε να επιλέξετε μια υψηλότερη επιθυμητή τιμή διατήρησης, εάν είστε 
-    πρόθυμοι να επενδύσετε περισσότερο χρόνο μελέτης για να το επιτύχετε. Θέτοντας την επιθυμητή συγκράτησή σας χαμηλότερα από την ελάχιστη
-    δεν συνιστάται, καθώς θα οδηγήσει σε υψηλότερο φόρτο εργασίας, λόγω του υψηλού ποσοστού λήθης.
 deck-config-please-save-your-changes-first = Παρακαλώ αποθηκεύσετε πρώτα τις αλλαγές σας.
 deck-config-workload-factor-change =
     Κατά προσέγγιση φόρτος εργασίας: { $factor }x
@@ -373,6 +364,7 @@ deck-config-desired-retention-below-optimal = Η επιθυμητή ανάκλη
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Προσομοιωτής FSRS (πειραματικό)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS Προσομοιωτής επιθυμητής ανάκλησης (πειραματικός)
 deck-config-additional-new-cards-to-simulate = Επιπρόσθετες νέες κάρτες για προσομοίωση
 deck-config-simulate = Προσομοίωση
 deck-config-clear-last-simulate = Εκκαθάριση προηγούμενης προσομοίωσης
@@ -398,6 +390,15 @@ deck-config-fsrs-good-fit = Το FSRS είναι καλά προσαρμοσμέ
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Αδύνατη η εκτίμηση της βέλτιστης ανάκλησης.
+deck-config-predicted-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση: { $num }
+deck-config-compute-minimum-recommended-retention = Ελάχιστη προτεινόμενη ανάκληση
+deck-config-compute-optimal-retention-tooltip4 =
+    Αυτό το εργαλείο θα προσπαθήσει να βρει την επιθυμητή τιμή διατήρησης 
+    που θα οδηγήσει στην εκμάθηση της μεγαλύτερης ύλης, στο λιγότερο δυνατό χρονικό διάστημα. Ο υπολογισμένος αριθμός μπορεί να χρησιμεύσει ως σημείο αναφοράς
+    όταν αποφασίζετε σε ποια τιμή θα θέσετε την επιθυμητή τιμή διατήρησης. Μπορεί να επιθυμείτε να επιλέξετε μια υψηλότερη επιθυμητή τιμή διατήρησης, εάν είστε 
+    πρόθυμοι να επενδύσετε περισσότερο χρόνο μελέτης για να το επιτύχετε. Θέτοντας την επιθυμητή συγκράτησή σας χαμηλότερα από την ελάχιστη
+    δεν συνιστάται, καθώς θα οδηγήσει σε υψηλότερο φόρτο εργασίας, λόγω του υψηλού ποσοστού λήθης.
 deck-config-plotted-on-x-axis = (Απεικονίζεται στον άξονα Χ)
 deck-config-a-100-day-interval =
     { $days ->

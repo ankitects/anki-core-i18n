@@ -46,6 +46,24 @@ studying-type-answer-unknown-field = Πληκτρολογήστε απάντησ
 studying-unbury = Αναίρεση αναβολής
 studying-what-would-you-like-to-unbury = Τι θα θέλατε να επαναφέρετε από αναβολή;
 studying-you-havent-recorded-your-voice-yet = Δεν έχετε ηχογραφήσει τη φωνή σας ακόμα
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] Mία { $cards } κάρτα μελετήθηκε σε ένα { $minutes } λεπτό.
+               *[other] Mία { $cards } κάρτα μελετήθηκε σε { $minutes } λεπτά.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $cards } κάρτες μελετήθηκαν σε ένα { $minutes } λεπτό.
+               *[other] { $cards } κάρτες μελετήθηκαν σε { $minutes } λεπτά.
+            }
+    }
+studying-question-time-elapsed = O χρόνος ερώτησης παρήλθε
+studying-answer-time-elapsed = Χρόνος απάντησης
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } κάρτα διαβάστηκε στο
@@ -56,5 +74,3 @@ studying-minute =
         [one] { $count } λεπτό
        *[other] { $count } λεπτά
     }
-studying-question-time-elapsed = O χρόνος ερώτησης παρήλθε
-studying-answer-time-elapsed = Χρόνος απάντησης
