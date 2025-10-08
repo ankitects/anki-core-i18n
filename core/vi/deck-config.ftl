@@ -240,14 +240,31 @@ deck-config-show-answer-timer-tooltip =
     Trong màn hình xem lại, hiển thị bộ đếm số giây bạn
     ôn tập từng thẻ.
 deck-config-stop-timer-on-answer = Dừng bộ hẹn giờ trên màn hình sau khi trả lời
+deck-config-stop-timer-on-answer-tooltip =
+    Việc dừng bộ hẹn giờ trên màn hình sau khi trả lời hay không.
+    Điều này không ảnh hưởng đến thống kê.
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Hiển thị câu hỏi trong vòng bao nhiêu giây
+deck-config-seconds-to-show-question-tooltip-3 = Khi tính năng tự động đi tiếp được kích hoạt, phải chờ bao nhiêu giây trước khi áp dụng hành động khi hỏi. Đặt số 0 để tắt.
+deck-config-seconds-to-show-answer = Hiển thị câu trả lời trong vòng bao nhiêu giây
+deck-config-seconds-to-show-answer-tooltip-2 = Khi tính năng tự động đi tiếp được kích hoạt, phải chờ bao nhiêu giây trước khi áp dụng hành động khi trả lời. Đặt số 0 để tắt.
+deck-config-question-action-show-answer = Hiển thị Câu trả lời
+deck-config-question-action-show-reminder = Hiển thị Lời nhắc
+deck-config-question-action = Hành động khi hỏi
+deck-config-question-action-tool-tip = Hành động sau khi hiển thị câu hỏi và thời gian đã qua.
+deck-config-answer-action = Hành động khi trả lời
+deck-config-answer-action-tooltip-2 = Hành động sau khi hiển thị câu trả lời và thời gian đã qua.
+deck-config-wait-for-audio-tooltip-2 = Đợi âm thanh phát xong trước khi tự động áp dụng hành động khi hỏi hoặc hành động khi trả lời.
 
 ## Audio section
 
 deck-config-audio-title = Âm thanh
 deck-config-disable-autoplay = Không tự động phát âm thanh
+deck-config-disable-autoplay-tooltip =
+    Khi được bật, Anki sẽ không tự động phát âm thanh.
+    Bạn có thể phát thủ công bằng cách nhấp/chạm vào biểu tượng âm thanh hoặc sử dụng thao tác Phát lại.
 deck-config-skip-question-when-replaying = Bỏ qua câu hỏi khi phát lại câu trả lời
 deck-config-always-include-question-audio-tooltip =
     Liệu câu hỏi dạng âm thanh có nên được đưa vào khi tác vụ Phát lại
@@ -278,6 +295,19 @@ deck-config-custom-scheduling-tooltip = Ảnh hưởng đến toàn bộ bộ s�
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Ngày dễ
+deck-config-easy-days-monday = Thứ 2
+deck-config-easy-days-tuesday = Thứ 3
+deck-config-easy-days-wednesday = Thứ 4
+deck-config-easy-days-thursday = Thứ 5
+deck-config-easy-days-friday = Thứ 6
+deck-config-easy-days-saturday = Thứ 7
+deck-config-easy-days-sunday = CN
+deck-config-easy-days-normal = Bình thường
+deck-config-easy-days-reduced = Giảm
+deck-config-easy-days-minimum = Tối thiểu
+deck-config-easy-days-no-normal-days = Ít nhất một ngày cần phải cài sang '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Các bài ôn tập hiện tại sẽ không được lập lịch lại trừ khi '{ deck-config-reschedule-cards-on-change }' được bật trong tùy chọn FSRS.
 
 ## Adding/renaming
 
@@ -296,6 +326,7 @@ deck-config-confirm-remove-name = Xóa { $name }?
 
 deck-config-save-button = Lưu
 deck-config-save-to-all-subdecks = Lưu vào mọi Tập con
+deck-config-save-and-optimize = Tối ưu hóa Tất cả các Nhóm trước
 deck-config-revert-button-tooltip = Khôi phục cài đặt gốc.
 
 ## These strings are shown via the Description button at the bottom of the
@@ -320,6 +351,9 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = Khoảng thời gian hoàn thành ít nhất phải dài bằng bước học cuối cùng của bạn.
 deck-config-good-above-easy = Khoảng thời gian dễ ít nhất phải dài bằng khoảng thời gian hoàn thành.
 deck-config-relearning-steps-above-minimum-interval = Khoảng thời gian trôi đi tối thiểu ít nhất phải dài bằng bước học lại cuối cùng của bạn.
+deck-config-maximum-answer-secs-above-recommended = Anki có thể lên lịch ôn tập hiệu quả hơn khi bạn đặt câu hỏi ngắn gọn.
+deck-config-too-short-maximum-interval = Không nên cài đặt thời gian tối đa dưới 6 tháng.
+deck-config-ignore-before-info = (Khoảng) { $included }/{ $totalCards } thẻ sẽ được sử dụng để tối ưu hóa cài đặt FSRS.
 
 ## Selecting a deck
 
@@ -328,6 +362,21 @@ deck-config-which-deck = Bạn muốn bộ thẻ nào?
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Đang cập nhật thẻ: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Cài đặt FSRS được cung cấp không hợp lệ. Vùi lòng để trường trống để sử dụng cài đặt mặc định.
+deck-config-not-enough-history = Chưa đủ lịch sử ôn tập để thực hiện thao tác này.
+deck-config-must-have-400-reviews = Chỉ tìm được { $count } bài ôn tập. Bạn cần có ít nhất 400 bài để thực hiện thao tác này.
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Cài đặt FSRS
+deck-config-compute-optimal-weights = Tối ưu hóa cài đặt FSRS
+deck-config-optimize-button = Tối ưu hóa Cài đặt Hiện tại
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (chậm)
+deck-config-compute-button = Tính
+deck-config-ignore-before = Bỏ qua thẻ đã ôn rồi
+deck-config-time-to-optimize = Nhiều thời gian đã trôi qua - bạn nên sử dụng nút Tối ưu hóa Cài đặt Hiện tại.
+deck-config-evaluate-button = Đánh giá
+deck-config-desired-retention = Thời gian lưu trữ mong muốn
+deck-config-historical-retention = Thời gian lưu trữ
 deck-config-wait-for-audio = Chờ Âm thanh
 deck-config-show-reminder = Hiển thị Lời nhắc
 deck-config-answer-again = Trả lời lần nữa
