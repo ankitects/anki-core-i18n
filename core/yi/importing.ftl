@@ -33,7 +33,7 @@ importing-map-to-tags = צונויפֿפּאָרן מיט צעטלען
 importing-mapped-to = צונויפֿגעפּאָרט מיט <b>{ $val }</b>
 importing-mapped-to-tags = צונויפֿגעפּאָרט מיט <b>צעטלען</b>
 # the action of combining two existing note types to create a new one
-importing-merge-notetypes = צונויפֿגיסן מיני נאָטיצן
+importing-merge-notetypes = צונויפֿגיסן נאָטיץ-גרופּעס
 importing-merge-notetypes-help =
     ווען ס׳איז חל, און דו אָדער דער מחבר פון טעשל האָבן איבערגעביטן די סכעמע פון אַ נאָטיצגרופּע, Anki וועט צונויפֿגיסן די 2 ווערסיעס אַנשטאָט׳ן האַטלן ביידע.
     
@@ -89,7 +89,7 @@ importing-update-always = תּמיד
 importing-update-never = קיין מאָל
 importing-update-notes = דערהײַנטיקן נאָטיצן
 importing-update-notes-help = ווען צו דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיץ אין דײַן זאַמלונג. דורך פֿעליקייט, דאָס ווערט געטאָן נאָר ווען די צוגעפּאַסטע נאָטיץ וואָס אַרײַנגעפֿירט איז גאָר לעצטנס מאָדיפֿיצירט געוואָרן.
-importing-update-notetypes = צונויפֿגיסן מיני-נאָטיצן
+importing-update-notetypes = דערהײַנטיקן נאָטיץ-גרופּעס
 importing-update-notetypes-help = ווען ס׳וועט זיך דערהײַנטיקן אַן עקסיסטירנדיקע נאָטיצגרופּע איז דײַן זאַמלונג. דורך פֿעליקייט, ס׳געשיט נאָר אַז מע פֿירט אַרײַן אַ גלײַכע נאָטיצגרופּע וואָס איז שפּעטער מאָדיפֿיצירט געוואָרן. טוישונגען אין מוסטער-טעקסט און שטייגער קען מען תּמיד אימפּאָרטירן, אָבער אויב דער צאָל אָדער סדר פון פֿעלדער האָט זיך געביטן, די { importing-merge-notetypes } ברירה מוז אויך ווערן אַקטיווירט.
 importing-note-added =
     { $count ->
