@@ -376,7 +376,40 @@ deck-config-ignore-before = Bỏ qua thẻ đã ôn rồi
 deck-config-time-to-optimize = Nhiều thời gian đã trôi qua - bạn nên sử dụng nút Tối ưu hóa Cài đặt Hiện tại.
 deck-config-evaluate-button = Đánh giá
 deck-config-desired-retention = Thời gian lưu trữ mong muốn
-deck-config-historical-retention = Thời gian lưu trữ
+deck-config-historical-retention = Lịch sử Thời gian lưu trữ
+deck-config-smaller-is-better = Số nhỏ hơn hợp với lịch sử ôn tập của bạn hơn.
+deck-config-steps-too-large-for-fsrs = Khi FSRS được bật, các bước 1 ngày hoặc hơn không được khuyến khích.
+deck-config-get-params = Lấy Cài đặt
+deck-config-complete = Xong { $num }%
+deck-config-iterations = Lần lặp lại: { $count }...
+deck-config-reschedule-cards-on-change = Lên lịch thẻ lại khi thay đổi
+deck-config-fsrs-tooltip =
+    Ảnh hưởng đến toàn bộ bộ sưu tập.
+    
+    Bộ lập lịch lặp lại khoảng cách tự do (FSRS) là một giải pháp thay thế cho thuật toán SuperMemo 2 (SM-2) cũ của Anki.
+    Bằng cách xác định chính xác hơn khả năng bạn quên một thẻ, Anki có thể giúp bạn nhớ
+    nhiều nội dung hơn trong cùng một khoảng thời gian. Cài đặt này được áp dụng cho tất cả các nhóm trước.
+deck-config-desired-retention-tooltip =
+    Theo mặc định, Anki lên lịch các thẻ để cho bạn có 90% khả năng nhớ khi ôn tập lại. 
+    Nếu bạn tăng số này, Anki sẽ hiển thị thẻ thường xuyên hơn để tăng khả năng nhớ của bạn. 
+    Nếu bạn giảm số này, Anki sẽ hiển thị thẻ ít hơn và bạn sẽ quên nhiều hơn. 
+    Hãy thận trọng khi điều chỉnh số này - số cao hơn sẽ làm tăng đáng kể lượng công việc của bạn, 
+    và số thấp hơn có thể gây nản lòng khi bạn quên nhiều tài liệu.
+deck-config-desired-retention-tooltip2 = Chỉ số lượng công việc được cung cấp trong hộp thông tin chỉ là số ước tính. Để có độ chính xác cao hơn, hãy sử dụng trình mô phỏng.
+deck-config-historical-retention-tooltip =
+    Khi lịch sử ôn tập của bạn bị thiếu, FSRS cần điền vào các khoảng trống. Theo mặc định, 
+    hệ thống sẽ giả định rằng khi bạn ôn tập trước đó, bạn đã nhớ 90% nội dung. Nếu tỷ lệ nhớ cũ 
+    của bạn cao hơn hoặc thấp hơn 90% một cách đáng kể, việc điều chỉnh tùy chọn này sẽ cho phép 
+    FSRS ước tính tốt hơn các buổi ôn tập bị thiếu.
+    
+    Lịch sử ôn tập của bạn có thể không đầy đủ vì hai lý do:
+    1. Vì bạn đang sử dụng tùy chọn 'bỏ qua các thẻ đã được ôn trước đó'.
+    2. Vì trước đó bạn đã xóa nhật ký ôn tập để giải phóng dung lượng hoặc đã nhập tài liệu từ một chương trình SRS khác.
+    
+    Trường hợp thứ hai khá hiếm, vì vậy trừ khi bạn đang sử dụng tùy chọn đầu tiên, bạn có thể không cần điều chỉnh tùy chọn này.
+deck-config-weights-tooltip2 =
+    Cài đặt FSRS ảnh hưởng đến cách lên lịch cho các thẻ. Anki sẽ bắt đầu với cài đặt mặc định. 
+    Bạn có thể sử dụng tùy chọn bên dưới để tối ưu hóa các cài đặt sao cho phù hợp nhất với hiệu suất của bạn khi ôn các bộ thẻ này.
 deck-config-wait-for-audio = Chờ Âm thanh
 deck-config-show-reminder = Hiển thị Lời nhắc
 deck-config-answer-again = Trả lời lần nữa
