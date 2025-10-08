@@ -35,6 +35,13 @@ sync-conflict-explanation =
     Nếu chọn tải lên, Anki sẽ tải bộ sưu tập của bạn lên AnkiWeb, và mọi thay đổi trên AnkiWeb hoặc các thiết bị khác từ lần đồng bộ trước sẽ bị mất.
     
     Sau khi mọi thiết bị đã được đồng bộ, những lần ôn tập và thêm thẻ mới trong tương lai sẽ được tự động kết hợp với nhau.
+sync-conflict-explanation2 =
+    Có mâu thuẫn giữa các bộ thẻ trên thiết bị này và AnkiWeb. Bạn phải chọn phiên bản để giữ lại:
+    
+    - Chọn **{ sync-download-from-ankiweb }** để thay thế các bộ thẻ trên thiết bị này bằng phiên bản của AnkiWeb. Bạn sẽ mất mọi thay đổi đã thực hiện trên thiết bị này từ lần đồng bộ cuối cùng.
+    - Chọn **{ sync-upload-to-ankiweb }** để ghi đè phiên bản của AnkiWeb bằng bộ thẻ từ thiết bị này và xóa mọi thay đổi trên AnkiWeb.
+    
+    Sau khi vấn đề được giải quyết, quá trình đồng bộ sẽ tiếp tục hoạt động bình thường.
 sync-ankiweb-id-label = ID AnkiWeb:
 sync-password-label = Mật khẩu:
 sync-account-required =
@@ -47,6 +54,11 @@ sync-upload-too-large =
     Tệp bộ sưu tập của bạn quá lớn để gửi đến AnkiWeb. Bạn có thể giảm kích thước
     bằng cách loại bỏ bất kỳ bộ bài không mong muốn nào (tùy chọn xuất chúng trước), và 
     sau đó sử dụng Kiểm tra Cơ sở dữ liệu để thu nhỏ kích thước tệp xuống. ({ $details })
+sync-sign-in = Đăng nhập
+sync-ankihub-dialog-heading = Đăng nhập AnkiHub
+sync-ankihub-username-label = Tên người dùng hoặc email:
+sync-ankihub-login-failed = Không thể đăng nhập lên AnkiHub với thông tin đã cung cấp.
+sync-ankihub-addon-installation = Tải tiện ích AnkiHub
 
 ## Buttons
 
@@ -64,4 +76,6 @@ sync-syncing = Đang đồng bộ...
 sync-checking = Đang kiểm tra...
 sync-connecting = Đang kết nối...
 sync-added-updated-count = Đã thêm/sửa đổi: { $up }↑ { $down }↓
+sync-log-in-button = Đăng nhập
 sync-log-out-button = Đăng xuất
+sync-collection-complete = Đã hoàn thành đồng bộ hóa bộ sưu tập.
