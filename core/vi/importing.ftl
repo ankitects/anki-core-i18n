@@ -59,7 +59,18 @@ importing-include-reviews = Thêm ôn tập
 importing-also-import-progress = Nhập tiến trình học tập
 importing-with-deck-configs = Nhập cài đặt sẵn trên bộ thẻ
 importing-updates = Cập nhật
+importing-include-reviews-help =
+    Nếu được bật, mọi bài đánh giá trước mà người chia sẻ bộ thẻ đã thêm cũng sẽ được nhập
+    Nếu không, tất cả các thẻ sẽ được nhập dưới dạng thẻ mới và mọi nhãn "thẻ bám" hoặc "đã đánh dấu" sẽ bị xóa.
+importing-with-deck-configs-help =
+    Nếu được bật, mọi loại tùy chỉnh mà người chia sẻ bộ thẻ đã thêm cũng sẽ được nhập
+    Nếu không, tất cả các bộ thẻ sẽ sự dụng nhóm trước mặc định.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Đóng gói Bộ thẻ/Bộ sưu tập Anki (*.apkg *.colpkg *.zip)
+# the '|' character
+importing-pipe = Dấu thanh dọc
+# Warning displayed when the csv import preview table is clipped (some columns were hidden)
+# $count is intended to be a large number (1000 and above)
+importing-preview-truncated = Chỉ hiển thị { $count } cột đầu tiên. Nếu điều này có vẻ không đúng, hãy thử thay đổi dấu phân cách trường.
 importing-rows-had-num1d-fields-expected-num2d = '{ $row }' có { $found } trường tin, yêu cầu { $expected }
 importing-selected-file-was-not-in-utf8 = Tập tin được chọn không có định dạng UTF-8. Vui lòng tham khảo phần nhập vào của tài liệu hướng dẫn.
 importing-semicolon = Dấu chấm phẩy
@@ -75,6 +86,20 @@ importing-unable-to-import-from-a-readonly = Không thể nhập được từ t
 importing-unknown-file-format = Định dạng tập tin không xác định.
 importing-update-existing-notes-when-first-field = Cập nhật các phiếu hiện tại khi so khớp trường tin đầu tiên
 importing-updated = Đã cập nhật
+importing-update-if-newer = Nếu mới hơn
+importing-update-always = Luôn luôn
+importing-update-never = Không bao giờ
+importing-update-notes = Ghi chú cập nhật
+importing-update-notes-help =
+    Khi cần cập nhật ghi chú hiện có trong bộ sưu tập của bạn. Theo mặc định, 
+    việc này chỉ được thực hiện nếu ghi chú đã nhập trùng khớp đã được chỉnh sửa gần đây hơn.
+importing-update-notetypes = Cập nhật loại ghi chú
+importing-update-notetypes-help =
+    Khi nào cần cập nhật loại ghi chú hiện có trong bộ sưu tập của bạn. Theo mặc định, 
+    việc này chỉ được thực hiện nếu loại ghi chú đã nhập trùng khớp đã được sửa đổi gần đây hơn. 
+    Các thay đổi về bản mẫu và kiểu dáng luôn có thể được nhập, 
+    nhưng tùy chọn '{ importing-merge-notetypes }' cũng cần được bật đối với các thay đổi về lược đồ 
+    (ví dụ: số lượng hoặc thứ tự các trường đã thay đổi).
 importing-note-added =
     { $count ->
        *[other] Đã thêm { $count } phiếu
@@ -95,6 +120,35 @@ importing-processed-media-file =
     { $count ->
        *[other] Xử lý { $count } thư mục phương tiện
     }
+importing-importing-file = Đang nhập tập tin...
+importing-extracting = Đang trích xuất dữ liệu...
+importing-gathering = Đang thu thập dữ liệu...
+importing-failed-to-import-media-file = Không thể nhập tệp phương tiện: { $debugInfo }
+importing-processed-notes = Đã xử lý { $count } ghi chú...
+importing-processed-cards = Đã xủ lý { $count } thẻ...
+importing-existing-notes = Thẻ đã có
+# "Existing notes: Duplicate" (verb)
+importing-duplicate = Trùng
+# "Existing notes: Preserve" (verb)
+importing-preserve = Giữ
+# "Existing notes: Update" (verb)
+importing-update = Cập nhật
+importing-tag-all-notes = Dán nhãn cho tất cả ghi chú
+importing-tag-updated-notes = Dán nhãn cho ghi chú đã cập nhật
+importing-file = Tập tin
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Phạm vi làm khớp
+# Used with the 'match scope' option
+importing-notetype-and-deck = Loại ghi chú và bộ thẻ
+importing-cards-added = Đã thêm { $count } thẻ
+importing-file-empty = Tập tin bạn lựa chọn đang trống.
+importing-notes-added = Đã nhập { $count } ghi chú mới.
+importing-notes-updated = { $count } ghi chú đã được sử dụng để cập nhận ghi chú đã có.
+importing-existing-notes-skipped = Đã có { $count } ghi chú trong bộ sưu tập của bạn.
+importing-notes-failed = Không thể nhập { $count } ghi chú.
+importing-conflicting-notes-skipped = { $count } ghi chú không được nhập vì loại ghi chú đã thay đổi.
+importing-conflicting-notes-skipped2 = { $count } ghi chú không được nhập, vì loại ghi chú dã thay đổi và '{ importing-merge-notetypes }' không được bật.
+importing-import-log = Nhật ký Nhập
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
