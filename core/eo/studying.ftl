@@ -46,18 +46,29 @@ studying-type-answer-unknown-field = Entajpu respondon: nekonata kampo { $val }
 studying-unbury = Malkaŝi
 studying-what-would-you-like-to-unbury = Kion vi volas malkaŝi?
 studying-you-havent-recorded-your-voice-yet = Vi ankoraŭ ne registris vian sonon.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one]
+                    Lernis { $cards } karton
+                    dum { $minutes } minuto.
+               *[other]
+                    Lernis { $cards } karton
+                    dum { $minutes } minutoj.
+            }
+       *[other]
+            { $minutes ->
+                [one]
+                    Lernis { $cards } kartojn
+                    dum { $minutes } minuto.
+               *[other]
+                    Lernis { $cards } kartojn
+                    dum { $minutes } minutoj.
+            }
+    }
 studying-question-time-elapsed = Pasis tempo de demando
 studying-answer-time-elapsed = Pasis tempo por respondi
 
 ## OBSOLETE; you do not need to translate this
 
-studying-card-studied-in =
-    { $count ->
-        [one] Lernis { $count } karton dum
-       *[other] Lernis { $count } kartojn dum
-    }
-studying-minute =
-    { $count ->
-        [one] { $count } minuto.
-       *[other] { $count } minutoj.
-    }
