@@ -13,6 +13,8 @@ card-templates-front-preview = ⵜⴰⴽⴹⵡⵉⵜ ⵏ ⴷⴰⵜ
 card-templates-back-preview = ⵜⴰⴽⴹⵡⵉⵜ ⵏ ⴹⴰⵕⵜ
 card-templates-preview-box = ⵜⴰⴳⴹⵡⵉⵜ
 card-templates-template-box = ⴰⵏⴰⵡ
+card-templates-sample-cloze = ⵉⴳⴰ ⵓⴽⵓⵙ ⴰⴷ ⵏ { "{{c1::" } ⵜⵓⵙⵙⵉⴼⵜ { "}}" } .
+card-templates-fill-empty = ⵛⵛⴰⵔ ⵉⴳⵔⴰⵏ ⵉⵅⵡⴰⵏ
 card-templates-night-mode = ⴰⵎⵎⴰⴽ ⵏ ⴳⴳⵉⴹ
 # Add "mobile" class to card preview, so the card appears like it would
 # on a mobile device.
@@ -21,3 +23,5 @@ card-templates-preview-settings = ⵜⵉⴼⵔⵏⵉⵡⵉⵏ
 card-templates-invalid-template-number = ⵜⵍⵍⴰ ⵢⴰⵜ ⵜⵎⴽⵔⵉⵙⵜ ⴳ ⵓⵣⵓⵔⵜ ⵏ ⵜⴽⴰⵕⴹⴰ { $number }
 card-templates-identical-front = ⵉⴳⴰ ⴰⵥⵉ ⵏ ⴷⴰⵜ ⴰⵎ ⴰⵥⵓⵔⵜ { $number }
 card-templates-no-front-field = ⵏⵍⵍⴰ ⴷⴰⵏⵜⵇⵍⵇⵍ ⴰⴷ ⵏⴰⴼ ⵢⴰⵏ ⵓⵙⵏⴼⵍ ⵏ ⵢⵉⴳⵔ ⵅⴼ ⴰⵥⵉ ⵏ ⴷⴰⵜ ⵏ ⵓⵥⵓⵔⵜ ⵏ ⵜⴽⴰⵕⴹⴰ
+card-templates-missing-cloze = ⴷⴰⵜⵜⵇⵍⵍⵖ ⴰⴷ ⴰⴼⵖ  '{ "{{" }cloze:Text{ "}}" } ⵏⵖ ⴽⵔⴰ ⵏ ⵓⴹⵕⵉⵚ ⴰⴳⴰⵏ ⴰⵎ  ⵡⴰⵣⵉⵢ ⵏ ⴷⴰⵜ ⵏⵖ ⴷ ⴹⴰⵕⵜ ⵏ ⵜⴽⴰⵕⴹⴰ.
+card-templates-extraneous-cloze = 'cloze:' ⵓⵔ ⵉⵣⵎⵔ ⴰⴷ ⵉⵜⵜⵓⵙⵎⵔⴰⵙ ⵖⴰⵙ ⴳ ⵡⴰⵏⴰⵡ ⵏ ⵜⵏⵇⵇⵉⴹⵜ "ⴰⵎⴰⵡⴰⵍ ⵏ ⵉⴹⵕⵉⵚⵏ ⵉⵔⵥⵎⵏ".
