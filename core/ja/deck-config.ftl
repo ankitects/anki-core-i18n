@@ -443,7 +443,7 @@ deck-config-desired-retention-below-optimal = 現在、この値よりも低い�
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRSシミュレータ（実験的機能）
-deck-config-fsrs-simulate-desired-retention-experimental = 正答率ｺｽﾊﾟ比較ｼﾐｭﾚｰﾀ（実験的機能）
+deck-config-fsrs-simulate-desired-retention-experimental = 目標正答率ｺｽﾊﾟ比較ｼﾐｭﾚｰﾀ（実験的機能）
 deck-config-fsrs-simulate-save-preset = 「最適化」オプション（または手入力）によってFSRSパラメータが変更されています。このオプションを使用する前に、このプリセットを保存してください。
 deck-config-fsrs-desired-retention-help-me-decide-experimental = 正答率ｺｽﾊﾟ比較ｼﾐｭﾚｰﾀ（実験的機能）
 deck-config-additional-new-cards-to-simulate = 新規カード追加枚数
