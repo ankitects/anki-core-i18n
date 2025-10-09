@@ -329,6 +329,7 @@ deck-config-good-above-easy = 「簡単」と回答後の最初の復習間隔�
 deck-config-relearning-steps-above-minimum-interval = 復習再開時の復習間隔の下限は、最後の再習得ステップの間隔より長くする（少なくとも同じにする）ことをお勧めします。
 deck-config-maximum-answer-secs-above-recommended = 回答時間を短く保つほうが、効率的な学習スケジュール作成に役立ちます。
 deck-config-too-short-maximum-interval = 復習間隔の上限は、6か月（＝180日）以上の値にすることをおすすめします。
+deck-config-ignore-before-info = FSRSパラメータの最適化のために全{ $totalCards }枚中のおよそ{ $included }枚のカードを参照します。
 
 ## Selecting a deck
 
