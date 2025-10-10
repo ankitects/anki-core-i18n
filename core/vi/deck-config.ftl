@@ -410,6 +410,22 @@ deck-config-historical-retention-tooltip =
 deck-config-weights-tooltip2 =
     Cài đặt FSRS ảnh hưởng đến cách lên lịch cho các thẻ. Anki sẽ bắt đầu với cài đặt mặc định. 
     Bạn có thể sử dụng tùy chọn bên dưới để tối ưu hóa các cài đặt sao cho phù hợp nhất với hiệu suất của bạn khi ôn các bộ thẻ này.
+deck-config-reschedule-cards-on-change-tooltip =
+    Ảnh hưởng đến toàn bộ bộ sưu tập và không được lưu lại.
+    
+    Tùy chọn này kiểm soát việc ngày đến hạn của thẻ sẽ được thay đổi khi bạn bật FSRS hoặc khi 
+    bạn tối ưu hóa các cài đặt. Theo mặc định, các thẻ sẽ không lên lịch lại: các bài ôn tập trong tương lai 
+    sẽ sử dụng lịch mới, nhưng sẽ không có thay đổi ngay lập tức đối với khối lượng công việc của bạn. 
+    Nếu tính năng lên lịch lại được bật, ngày đến hạn của thẻ sẽ được thay đổi.
+deck-config-reschedule-cards-warning =
+    Tùy thuộc vào nhu cầu nhớ của bạn, điều này có thể dẫn đến việc một số lượng lớn thẻ đến hạn, 
+    do đó khi bạn mới chuyển từ SM-2 thì việc sử dụng không được khuyến khích.
+    
+    Hãy sử dụng tùy chọn này một cách tiết kiệm, vì nó sẽ thêm một mục ôn tập vào mỗi thẻ của bạn 
+    và làm tăng kích cỡ bộ sưu tập của bạn.
+deck-config-ignore-before-tooltip-2 =
+    Nếu được thiết lập, các thẻ đã ôn trước ngày được cung cấp sẽ bị bỏ qua khi tối ưu hóa các cài đặt FSRS.
+    Điều này có thể hữu ích nếu bạn đã nhập dữ liệu lịch trình của người khác hoặc đã thay đổi cách sử dụng nút trả lời.
 deck-config-wait-for-audio = Chờ Âm thanh
 deck-config-show-reminder = Hiển thị Lời nhắc
 deck-config-answer-again = Trả lời lần nữa
