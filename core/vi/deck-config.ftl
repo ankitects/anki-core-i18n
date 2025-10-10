@@ -426,17 +426,119 @@ deck-config-reschedule-cards-warning =
 deck-config-ignore-before-tooltip-2 =
     Nếu được thiết lập, các thẻ đã ôn trước ngày được cung cấp sẽ bị bỏ qua khi tối ưu hóa các cài đặt FSRS.
     Điều này có thể hữu ích nếu bạn đã nhập dữ liệu lịch trình của người khác hoặc đã thay đổi cách sử dụng nút trả lời.
+deck-config-compute-optimal-weights-tooltip2 =
+    Khi bạn ấn nút Tối ưu hóa, FSRS sẽ phân tích lịch sử ôn tập của bạn và tạo ra các cài đặt tối ưu 
+    cho trí nhớ và nội dung bạn đang học. Nếu các bộ bài của bạn có độ khó khác nhau, bạn nên gắn 
+    cho chúng các cài đặt trước riêng biệt, vì các tham số cho bộ thẻ dễ và bộ thẻ khó sẽ khác nhau.
+    Bạn không cần phải tối ưu hóa các tham số thường xuyên - vài tháng một lần là đủ.
+    
+    Theo mặc định, các cài đặt sẽ được tính toán từ lịch sử ôn tập của tất cả các bộ thẻ sử dụng 
+    cài đặt trước hiện tại. Bạn cũng có thể điều chỉnh tìm kiếm trước khi tính toán các tham số, 
+    nếu bạn muốn thay đổi số thẻ được sử dụng để tối ưu hóa các cài đặt.
+deck-config-please-save-your-changes-first = Vui lòng lưu lại những thay đổi của bạn trước.
+deck-config-workload-factor-change =
+    Khối lượng công việc ước tính: { $factor }x
+    (so với { $previousDR }% tỷ lệ nhớ mong muốn)
+deck-config-workload-factor-unchanged = Số này càng to thì tần suất hiển thị thẻ cho bạn càng thường xuyên hơn.
+deck-config-desired-retention-too-low = Tỷ lệ nhớ mong muốn của bạn rất thấp, điều này có thể dẫn đến khoảng thời gian dài hơn.
+deck-config-desired-retention-too-high = Tỷ lệ nhớ mong muốn của bạn rất cao, điều này có thể dẫn đến khoảng thời gian ngắn hơn.
+deck-config-percent-of-reviews = { $pct }% của { $reviews } bài ôn tập
+deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Đang kiểm tra để cải thiện...
+deck-config-optimizing-preset = Đang tối ưu hóa cái đặt trước { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = Bạn cần bật FSRS trước.
+deck-config-fsrs-params-optimal = Các cài đặt FSRS có vẻ đã tối ưu rồi.
+deck-config-fsrs-params-no-reviews = Không tìm thấy bài ôn nào. Hãy đảm bảo cài đặt trước này được gắn cho tất cả các bộ bài (bao gồm cả tập con) mà bạn muốn tối ưu hóa và thử lại.
 deck-config-wait-for-audio = Chờ Âm thanh
 deck-config-show-reminder = Hiển thị Lời nhắc
 deck-config-answer-again = Trả lời lần nữa
 deck-config-answer-hard = Trả lời Khó
 deck-config-answer-good = Trả lời Tốt
+deck-config-days-to-simulate = Ngày để mô phỏng
+deck-config-desired-retention-below-optimal = Thời gian nhớ mong muốn của bạn chưa đạt mức tối ưu. Bạn nên tăng thời gian này.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = Mô phỏng FSRS (thí nghiệm)
+deck-config-fsrs-simulate-desired-retention-experimental = Mô phỏng FSRS cho Thời gian nhớ Mong Muốn (thí nghiệm)
+deck-config-fsrs-simulate-save-preset = Sau khi tối ưu hóa, vui lòng lưu cài đặt trước của bộ thẻ trước khi bắt đầu mô phỏng.
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Giúp Tôi Chọn (thí nghiệm)
+deck-config-additional-new-cards-to-simulate = Thẻ mới để mô phỏng
+deck-config-simulate = Mô phỏng
+deck-config-clear-last-simulate = Xóa Mô phỏng Trước
+deck-config-fsrs-simulator-radio-count = Ôn tập
+deck-config-advanced-settings = Cài đặt Nâng cao
+deck-config-smooth-graph = Đồ thị cong
+deck-config-suspend-leeches = Dừng thẻ bám
+deck-config-save-options-to-preset = Lưu Thay đổi trên Cài đặt trước
+deck-config-save-options-to-preset-confirm = Ghi đè các tùy chọn trong cài đặt trước hiện tại của bạn bằng các tùy chọn được cài đặt trong trình mô phỏng?
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Đã nhớ
+deck-config-fsrs-simulator-radio-ratio = Tỷ lệ Thời gian / Đã nhớ
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } cho một thẻ đã nhớ
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Kiểm tra sức khỏe khi tối ưu hóa
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Kiểm tra sức khỏe:
+    FSRS không thể dự đoán trí nhớ của bạn một cách dễ dàng. Khuyến nghị:
+    
+    - Tạm hoãn hoặc sắp xếp lại bất kỳ thẻ nào bạn quên thường xuyên.
+    - Sử dụng các nút trả lời một cách nhất quán. Lưu ý rằng "Khó" là điểm đạt, không phải điểm trượt.
+    - Hiểu rõ trước khi ghi nhớ.
+    
+    Nếu bạn theo những gợi ý này, hiệu suất thường sẽ được cải thiện trong vài tháng tới.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Kiểm tra sức khỏe:
+    FSRS có thể thích ứng tốt với trí nhớ của bạn.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Không thể xác định độ nhớ tối thiểu để khuyến nghị.
+deck-config-predicted-minimum-recommended-retention = Độ nhớ tối thiểu khuyến nghị: { $num }
+deck-config-compute-minimum-recommended-retention = Độ nhớ tối thiểu khuyến nghị
+deck-config-compute-optimal-retention-tooltip4 =
+    Công cụ này sẽ cố gắng tìm ra độ ghi nhớ mong muốn 
+    giúp bạn tiếp thu được nhiều kiến ​​thức nhất trong thời gian ngắn nhất. Con số được tính 
+    có thể dùng làm chỉ sổ tham chiếu khi quyết định mức ghi nhớ mong muốn của bạn.
+    Bạn có thể chọn mức ghi nhớ mong muốn cao hơn nếu bạn sẵn sàng đầu tư nhiều thời gian học hơn. 
+    Không nên đặt mức ghi nhớ mong muốn thấp hơn mức tối thiểu vì điều này sẽ dẫn đến 
+    khối lượng công việc cao hơn do tỷ lệ quên cao hơn.
+deck-config-plotted-on-x-axis = (Được vẽ trên trục X)
+deck-config-a-100-day-interval = Khoảng thời gian 100 ngày sẽ trở thành { $days } ngày.
+deck-config-fsrs-simulator-y-axis-title-time = <MARKED AS NOT NEEDED>
+deck-config-fsrs-simulator-y-axis-title-count = <MARKED AS NOT NEEDED>
+deck-config-fsrs-simulator-y-axis-title-memorized = <MARKED AS NOT NEEDED>
+deck-config-bury-siblings = <MARKED AS NOT NEEDED>
+deck-config-do-not-bury = <MARKED AS NOT NEEDED>
+deck-config-bury-if-new = <MARKED AS NOT NEEDED>
+deck-config-bury-if-new-or-review = <MARKED AS NOT NEEDED>
+deck-config-bury-if-new-review-or-interday = <MARKED AS NOT NEEDED>
 deck-config-bury-tooltip =
     Cho dù các thẻ khác cùng phiếu (vd các thẻ đảo, liền kề
     với khoảng điền) sẽ bị trì hoãn cho đến ngày hôm sau.
+deck-config-seconds-to-show-question-tooltip = <MARKED AS NOT NEEDED>
+deck-config-answer-action-tooltip = <MARKED AS NOT NEEDED>
+deck-config-wait-for-audio-tooltip = <MARKED AS NOT NEEDED>
+deck-config-ignore-before-tooltip = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention-tooltip = <MARKED AS NOT NEEDED>
+deck-config-health-check-tooltip1 = <MARKED AS NOT NEEDED>
+deck-config-health-check-tooltip2 = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention = <MARKED AS NOT NEEDED>
+deck-config-predicted-optimal-retention = <MARKED AS NOT NEEDED>
+deck-config-weights-tooltip = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-weights-tooltip = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention-tooltip2 = <MARKED AS NOT NEEDED>
+deck-config-compute-optimal-retention-tooltip3 = <MARKED AS NOT NEEDED>
+deck-config-seconds-to-show-question-tooltip-2 = <MARKED AS NOT NEEDED>
+deck-config-invalid-weights = <MARKED AS NOT NEEDED>
+deck-config-fsrs-on-all-clients = <MARKED AS NOT NEEDED>
+deck-config-optimize-all-tip = <MARKED AS NOT NEEDED>
