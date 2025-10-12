@@ -129,8 +129,8 @@ statistics-true-retention-mature = דערוואַקסענע
 statistics-true-retention-all = אַלע
 statistics-true-retention-today = הײַנט
 statistics-true-retention-yesterday = נעכטן
-statistics-true-retention-week = פֿאַריקע וואָך
-statistics-true-retention-month = פֿאַריקע חודש
+statistics-true-retention-week = פֿאָריקע וואָך
+statistics-true-retention-month = פֿאָריקע חודש
 statistics-true-retention-year = פֿאַר אַ יאָרן
 statistics-true-retention-all-time = אַלע צײַטן
 # If there are no reviews within a specific time period, the retention
@@ -237,7 +237,7 @@ statistics-hours-reviews = 📊 { $reviews } איבער׳חזר׳ונגען
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% ריכטיק ({ $reviews })
 statistics-hours-title = צע׳פּרט׳לונג לויט שעהען
-statistics-hours-subtitle = אײַנ׳חזר-הצלחה פון יעדער שעה פֿונעם טאָג.
+statistics-hours-subtitle = הצלחה לויט שעה פֿונעם טאָג.
 # shown when graph is empty
 statistics-no-data = קיין דאַטן
 statistics-calendar-title = קאַלענדאַר
