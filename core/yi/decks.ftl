@@ -5,26 +5,17 @@ decks-create-deck = שאַפֿן טעשל
 decks_create_even_if_empty = שאַפֿן/דערהײַנטיקן דאָס טעשל, אַפֿילו ווען ליידיק
 decks-custom-steps-in-minutes = צוגעפּאַסטע שטאַפּלען (אין מינוטן)
 decks-deck = טעשל
-decks-decreasing-intervals = פֿאַרקלענערנדיקע שטאַפּלען
 decks-delete-deck = אָפּמעקן טעשל
 decks-enable-second-filter = אַקטיווירן צווייטן פֿילטער
 decks-filter = פֿילטרירן:
 decks-filter-2 = פֿילטער 2
 decks-get-shared = נעמען שותּפֿישע
 decks-import-file = אַרײַנפֿירן טעקע
-decks-increasing-intervals = פֿאַרגרעסערנדיקע שטאַפּלען
-decks-latest-added-first = קודם לעצטע צוגעלייגטע
 decks-limit-to = באַגרעניצן אויף
 decks-minutes = מינוטן
-decks-most-lapses = מערסטע אויסגליטשן
-decks-new-deck-name = נאָמען פון נײַ טעשל:
+decks-new-deck-name = נאָמען פֿון ס׳נײַע טעשל:
 decks-no-deck = [קיין טעשל]
-decks-oldest-seen-first = קודם עלטסטער געזען
-decks-order-added = סדר פון שאַפֿונג
-decks-order-due = סדר פון טערמין
 decks-please-select-something = זײַט מוחל, קלײַבט עפּעס אויס.
-decks-random = צופֿעליק
-decks-relative-overdueness = רעלאַטיוו אָפּלייגעניש
 decks-repeat-failed-cards-after = איבער׳חזר׳ן דורכגעפֿאַלן קאַרטלעך נאָך
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = אָפּלייגן אויף { $button }
@@ -37,3 +28,28 @@ decks-learn-header = לערנען
 # The count of cards waiting to be reviewed
 decks-review-header = טערמיניק
 decks-zero-minutes-hint = (0 = צוריקלייגן קאַרטל אינעם עיקר-טעשל)
+
+## Sort order of cards
+
+# Combobox entry: Sort the cards by the date they were added, in ascending order (oldest to newest)
+decks-order-added = סדר פון שאַפֿונג
+# Combobox entry: Sort the cards by the date they were added, in descending order (newest to oldest)
+decks-latest-added-first = קודם לעצטע צוגעלייגטע
+# Combobox entry: Sort the cards by due date, in ascending order (oldest due date to newest)
+decks-order-due = סדר פון טערמין
+# Combobox entry: Sort the cards by the number of lapses, in descending order (most lapses to least lapses)
+decks-most-lapses = מערסטע אויסגליטשן
+# Combobox entry: Sort the cards by the interval, in ascending order (shortest to longest)
+decks-increasing-intervals = פֿאַרגרעסערנדיקע שטאַפּלען
+# Combobox entry: Sort the cards by the interval, in descending order (longest to shortest)
+decks-decreasing-intervals = פֿאַרקלענערנדיקע שטאַפּלען
+# Combobox entry: Sort the cards by the last review date, in ascending order (oldest seen to newest seen)
+decks-oldest-seen-first = קודם עלטסטער געזען
+# Combobox entry: Sort the cards in random order
+decks-random = צופֿעליק
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+# Combobox entry: Sort the cards by relative overdueness, in descending order (most overdue to least overdue)
+decks-relative-overdueness = רעלאַטיוו אָפּלייגעניש

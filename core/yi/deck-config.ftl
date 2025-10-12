@@ -244,7 +244,7 @@ deck-config-easy-days-change = טעשלעך וואָס זענען שוין פֿ�
 
 deck-config-add-group = צולייגן מוסטער
 deck-config-name-prompt = נאָמען
-deck-config-rename-group = געבן מוסטער אַן אַנדער נאָמען
+deck-config-rename-group = טוישן מוסטער-נאָמען
 deck-config-clone-group = דופּליקירן מוסטער
 
 ## Removing

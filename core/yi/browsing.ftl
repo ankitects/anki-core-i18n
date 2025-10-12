@@ -88,8 +88,8 @@ browsing-search-within-formatting-slow = זוכן צווישן פֿאָרמאַ�
 browsing-select-deck = אויסקלײַבן טעשל
 browsing-selected-notes-only = נאָר אויסגעקליבענע נאָטיצן
 browsing-shift-position-of-existing-cards = איבעררוקן פּאָזיציע פון יעצטיקע קאַרטלעך
-browsing-sidebar = זײַט-קעסטעלע
-browsing-sidebar-filter = זײַט-קעסטעלע פֿילטער
+browsing-sidebar = זײַט-קעסטל
+browsing-sidebar-filter = זײַט-קעסטל פֿילטער
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = סאָרטיר-פֿעלד
 browsing-sorting-on-this-column-is-not = סאָרטירן אין דער קאָלאָנקע ווערט נישט מעגלעך. קלײַבט אויס אַן אַנדערע.

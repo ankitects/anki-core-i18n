@@ -11,14 +11,14 @@ media-check-trash-count =
     }
 media-check-missing-count = פֿעלנדיקע טעקעס: { $count }
 media-check-unused-count = נישט-געניצטע טעקעס: { $count }
-media-check-renamed-count = טעקעס וואָס מ׳האָט זיי געגעבן אַן אַנדער נאָמען: { $count }
+media-check-renamed-count = איבערגעביטן נאָמען פֿון טעקעס: { $count }
 media-check-oversize-count = איבער 100 מעגאַבײַט: { $count }
 media-check-subfolder-count = אונטערפּאַפּקעס: { $count }
 media-check-extracted-count = אַרויסגעצויגנע בילדער: { $count }
 
 ## Shown at the top of each section
 
-media-check-renamed-header = טייל טעקעס האָט זיי געגעבן אַן אַנדער נאָמען, זיי זאָלן זײַן גוט צוגעפּאַסט:
+media-check-renamed-header = טייל טעקעס האָט מען זיי געטוישט דעם נאָמען, זיי זאָלן זײַן גוט צוגעפּאַסט:
 media-check-oversize-header = טעקעס וואָס איבער 100 מעגאַבײַט קען נישט סינכראָניזירט ווערן מיט „אַנקי-וועב״.
 media-check-subfolder-header = פּאַפּקעס וואָס אינעווייניק די מעדיע-פּאַפּקע ווערן נישט דערקענט.
 media-check-missing-header = אויף די ווײַטערדיקע טעקעס האָט מע געטײַטלט בײַ קאַטלעך, כאָטש זיי זענען נישט געפֿונען געוואָרן אין דער מעדיע-פּאַפּקע:
