@@ -6,6 +6,8 @@ errors-multiple-notetypes-selected = Elektu notojn nur de unu nototipo.
 errors-please-check-database = Plenumu la agon “Kontroli datumbazon” kaj sekve reprovu.
 errors-please-check-media = Plenumu la agon “Kontroli aŭdvidaĵojn” kaj sekve reprovu.
 errors-collection-too-new = Por malfermi tiun ĉi kolekton, necesas uzi pli novan version de Anki.
+errors-invalid-ids = Tiu ĉi kartaro enhavas estontecajn tempindikojn. Kontaktu kun la aŭtoro de kartaro kaj petu lin pri ripari la problemon.
+errors-inconsistent-db-state = Via datumbazo ŝajnas esti malkohera. Plenumu la agon “Kontroli datumbazon”.
 
 ## Card Rendering
 
