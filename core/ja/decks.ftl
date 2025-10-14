@@ -46,7 +46,7 @@ decks-decreasing-intervals = 間隔が大きい順
 # Combobox entry: Sort the cards by the last review date, in ascending order (oldest seen to newest seen)
 decks-oldest-seen-first = 前回表示日時が古い順
 # Combobox entry: Sort the cards in random order
-decks-random = 無作為
+decks-random = ランダム
 
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
