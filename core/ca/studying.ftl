@@ -10,8 +10,8 @@ studying-card-suspended = S’ha suspès la targeta.
 studying-card-was-a-leech = La targeta era una sangonera.
 studying-cards-buried =
     { $count ->
-        [one] S'ha enterrat una targeta.
-       *[other] S'han enterrat { $count } targetes.
+        [one] S’ha enterrat una targeta.
+       *[other] S’han enterrat { $count } targetes.
     }
 studying-cards-will-be-automatically-returned-to = Les targetes tornaran automàticament a la baralla original quan les repasseu.
 studying-continue = Continua
