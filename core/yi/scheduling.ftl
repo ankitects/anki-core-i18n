@@ -153,7 +153,7 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-prompt =
     { $cards ->
-        [one] אויסווײַזן קאַרטלעך נאָך וויפֿל טעג?
+        [one] אויסווײַזן קאַרטל נאָך וויפֿל טעג?
        *[other] אויסווײַזן קאַרטלעך נאָך וויפֿל טעג?
     }
 scheduling-set-due-date-prompt-hint =
