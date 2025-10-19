@@ -55,7 +55,9 @@ editing-tags-remove = Forigi etikedojn
 editing-tags-select-all = Elekti ĉiujn etikedojn
 editing-text-color = Koloro de teksto
 editing-text-highlight-color = Koloro de sign-emfazo
-editing-to-make-a-cloze-deletion-on = Por krei trutekston ĉe ekzistanta noto, unuafoje vi devas ŝanĝi ĝin al truteksto-tipo, ĉe Redakti > Ŝanĝi nototipon.
+editing-to-make-a-cloze-deletion-on = Por krei truon en teksto de la ekzista noto, unue ŝanĝu ĝian nototipon al “Truteksto” per la menuo Noto → Ŝanĝi nototipon.
+editing-toggle-html-editor = Baskuligi HTML-redaktilon
+editing-toggle-visual-editor = Baskuligi pervidan redaktilon
 editing-warning-cloze-deletions-will-not-work = Averto! Trutekstaj malplenoj ne funkcios, ĝis vi supre elektos la nototipon Truteksto.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
