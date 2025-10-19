@@ -46,6 +46,19 @@ studying-type-answer-unknown-field = סאָרט ענטפֿער: אומבאַקא
 studying-unbury = צוריקנעמען
 studying-what-would-you-like-to-unbury = וואָס ווילסטו צוריקנעמען?
 studying-you-havent-recorded-your-voice-yet = דו האָסט נאָך נישט רעקאָרדירט דײַן קול.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $cards } קאַרטל אײַנגע׳חזר׳ט אין { $minutes } מינוט.
+               *[other] { $cards } קאַרטל אײַנגע׳חזר׳ט אין { $minutes } מינוט.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $cards } קאַרטלעך אײַנגע׳חזר׳ט אין { $minutes } מינוט.
+               *[other] { $cards } קאַרטלעך אײַנגע׳חזר׳ט אין { $minutes } מינוט.
+            }
+    }
 studying-question-time-elapsed = פֿראַגע צײַט פֿאַרבײַגעגאַנגען
 studying-answer-time-elapsed = ענטפֿער צײַט פֿאַרבײַגעגאַנגען
 
@@ -59,5 +72,5 @@ studying-card-studied-in =
 studying-minute =
     { $count ->
         [one] { $count } מינוט.
-       *[other] { $count } מינוטן.
+       *[other] { $count } מינוט.
     }

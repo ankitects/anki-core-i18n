@@ -348,6 +348,11 @@ deck-config-answer-hard = ענטפֿערן „שווער״
 deck-config-answer-good = ענטפֿערן „גוט״
 deck-config-days-to-simulate = טעג אויף צו סימולירן
 deck-config-desired-retention-below-optimal = דער געוווּנטשענער זכּרון איז נידעריקער ווי אָפּטימאַל, איז כּדאי אים צו פֿאַרגרעסערן.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = FSRS סימולירער (עקספּערימענטאַל)
+deck-config-fsrs-simulate-save-preset = נאָכ׳ן אָפּטימיזירן, היט אויף דײַן טעשל-מוסטער פֿאַר׳ן אויספֿירן דעם סימולירער.
 deck-config-additional-new-cards-to-simulate = איבעריקע נײַע קאַרטלעך אויף צו סומילירן
 deck-config-simulate = סימולירן
 deck-config-clear-last-simulate = אָפּרייניקען לעצטיקע סימולאַציע
@@ -356,10 +361,12 @@ deck-config-advanced-settings = אַוואַנסירטע ברירות
 deck-config-smooth-graph = פֿאַרגלעטן גראַפֿיק
 deck-config-suspend-leeches = אָפּשטעלן שנאָרערס
 deck-config-save-options-to-preset = אויפֿהיטן בײַטן אינעם מוסטער
+deck-config-save-options-to-preset-confirm = איבערשרײַבן די ברירות אין דײַן יעצטיקע מוסטער מיט די ברירות וואָס מ׳האָט זיי פֿיקסירט אינעם סימולירער?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = אויסגעלערנט
+deck-config-fsrs-simulator-radio-ratio = צײַט / אויסגעלערנט פּראָפּאָרציע
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } לויט אויסגעלערנט קאַרטל
 
@@ -380,7 +387,7 @@ deck-config-a-100-day-interval =
        *[other] אַ צווישנצײַט פֿון 100 טעג וועט ווערן { $days } טעג.
     }
 deck-config-fsrs-simulator-y-axis-title-time = <MARKED AS NOT NEEDED>
-deck-config-fsrs-simulator-y-axis-title-count = אײַנחזר צאָל / טאָג
+deck-config-fsrs-simulator-y-axis-title-count = אײַנחזר-צאָל / טאָג
 deck-config-fsrs-simulator-y-axis-title-memorized = סך-הכּל אויסגעלערנט
 deck-config-bury-siblings = אָפּהאַלטן געשוויסטער
 deck-config-do-not-bury = אָפּהאַלטן נישט קיין געשוויסטער
