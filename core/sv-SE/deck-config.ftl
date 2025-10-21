@@ -311,7 +311,7 @@ deck-config-easy-days-normal = Normal
 deck-config-easy-days-reduced = Minskad
 deck-config-easy-days-minimum = Minimal
 deck-config-easy-days-no-normal-days = Åtminstone en dag bör vara satt till '{ deck-config-easy-days-normal }'.
-deck-config-easy-days-change = Befintliga repetitioner kommer inte schemaläggas igen såvida '{ deck-config-reschedule-cards-on-change }' inte är aktiverad i FSRS-alternativen.
+deck-config-easy-days-change = Befintliga repetitioner kommer inte omplaneras såvida '{ deck-config-reschedule-cards-on-change }' inte är aktiverad i FSRS-alternativen.
 
 ## Adding/renaming
 
@@ -395,7 +395,7 @@ deck-config-steps-too-large-for-fsrs = När FSRS är aktiverat avrådes steg st�
 deck-config-get-params = Hämta parametrar
 deck-config-complete = { $num } % klart
 deck-config-iterations = Iteration: { $count } ...
-deck-config-reschedule-cards-on-change = Schemalägg kort igen vid ändring
+deck-config-reschedule-cards-on-change = Omplanera kort vid ändring
 deck-config-fsrs-tooltip =
     Påverkar hela samlingen.
     
@@ -429,10 +429,8 @@ deck-config-weights-tooltip2 =
 deck-config-reschedule-cards-on-change-tooltip =
     Påverkar hela samlingen, och sparas ej.
     
-    Detta alternativ styr huruvida förfallodatum för kort kommer ändras när FSRS aktiveras eller parametrarna
-    optimeras. Standard är att inte schemalägga kort igen: framtida repetitioner kommer använda den nya schemaläggningen, men
-    det kommer inte vara någon omedelbar förändring i arbetsbelastningen. Om schemaläggning igen är aktiverat kommer förfallodatumen
-    för kort att förändras.
+    Detta alternativ styr om kortens förfallodatum ändras när du aktiverar FSRS eller optimerar parametrarna. Standard är att inte omplanera kort: framtida repetitioner kommer använda den nya schemaläggningen, men
+    det kommer inte vara någon omedelbar förändring i arbetsbelastningen. Om schemaläggning igen är aktiverat kommer kortens förfallodatum däremot att förändras.
 deck-config-reschedule-cards-warning =
     Rekommenderas ej vid det inledande bytet från SM-2 eftersom detta, beroende på den önskade
     återkallningskvoten, kan resultera i att ett stort antal kort förfaller.

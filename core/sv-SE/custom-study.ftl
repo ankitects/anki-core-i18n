@@ -1,5 +1,5 @@
 custom-study-must-rename-deck = Var god döp om den befintliga Anpassade studier-kortleken först.
-custom-study-all-cards-in-random-order-dont = Alla kort i slumpmässig ordning ( ingen omschemaläggning)
+custom-study-all-cards-in-random-order-dont = Alla kort i slumpmässig ordning (omplanera ej)
 custom-study-all-review-cards-in-random-order = Alla repetitionskort i slumpmässig ordning
 custom-study-cards = kort
 custom-study-cards-from-the-deck = kort från kortleken
