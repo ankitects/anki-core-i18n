@@ -496,14 +496,14 @@ deck-config-save-options-to-preset-confirm = Skriva över alternativen i den nuv
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorerade
-deck-config-fsrs-simulator-radio-ratio = Kvot för tidsåtgång per memorerad
+deck-config-fsrs-simulator-radio-ratio = Tid per memorerad
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } per memorerat kort
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 # Checkbox
-deck-config-health-check = Kontrollera FSRS anpassning till användarens minnesförmåga
+deck-config-health-check = Kontrollera FSRS anpassningsgrad vid optimering
 # Message box showing the result of the health check
 deck-config-fsrs-bad-fit-warning =
     FSRS-kontroll:
