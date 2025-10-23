@@ -46,6 +46,24 @@ studying-type-answer-unknown-field = Tipo de resposta: campo desconhecido { $val
 studying-unbury = Desocultar
 studying-what-would-you-like-to-unbury = O que você gostaria de desocultar?
 studying-you-havent-recorded-your-voice-yet = Você ainda não gravou sua voz.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $cards } cartão estudado em { $minutes } minuto.
+               *[other] { $cards } cartão estudado em { $minutes } minutos.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $cards } cartões estudados em { $minutes } minuto.
+               *[other] { $cards } cartões estudados em { $minutes } minutos.
+            }
+    }
+studying-question-time-elapsed = Tempo decorrido da pergunta
+studying-answer-time-elapsed = Tempo de resposta decorrido
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } cartão estudado em
@@ -56,5 +74,3 @@ studying-minute =
         [one] { $count } minuto.
        *[other] { $count } minutos.
     }
-studying-question-time-elapsed = Tempo decorrido da pergunta
-studying-answer-time-elapsed = Tempo de resposta decorrido

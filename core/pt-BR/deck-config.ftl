@@ -360,7 +360,6 @@ deck-config-which-deck = Qual baralho você gostaria?
 deck-config-updating-cards = Atualizando cartões: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Os parâmetros FSRS fornecidos são inválidos. Deixe-os em branco para usar os parâmetros padrão.
 deck-config-not-enough-history = A quantidade de revisões históricas é insuficiente para executar esta operação.
-deck-config-unable-to-determine-desired-retention = Não é possível determinar uma retenção ótima.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Apenas { $count } revisão foi encontrada. Você deve ter pelo menos 400 revisões para esta operação.
@@ -369,7 +368,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parâmetros do modelo
 deck-config-compute-optimal-weights = Otimizar parâmetros do FSRS
-deck-config-compute-minimum-recommended-retention = Retenção mínima recomendada
 deck-config-optimize-button = Otimizar
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (lento)
@@ -382,7 +380,6 @@ deck-config-historical-retention = Retenção histórica
 deck-config-smaller-is-better = Números menores indicam um ajuste melhor ao seu histórico de revisão.
 deck-config-steps-too-large-for-fsrs = Quando o FSRS está ativado, etapas de aprendizado com mais de 1 dia não são recomendadas.
 deck-config-get-params = Obter Parâmetros
-deck-config-predicted-minimum-recommended-retention = Retenção mínima recomendada: { $num }
 deck-config-complete = { $num }% concluído.
 deck-config-iterations = Iteração: { $count }...
 deck-config-reschedule-cards-on-change = Reagendar cartões ao alterar
@@ -439,12 +436,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Por padrão, os parâmetros serão calculados a partir do histórico de revisão de todos os decks que usam a predefinição atual. Você pode
     opcionalmente, ajuste a pesquisa antes de calcular os parâmetros, se desejar alterar quais cartões são usados
     otimizando os parâmetros.
-deck-config-compute-optimal-retention-tooltip4 =
-    Essa ferramenta tentará encontrar o valor de retenção desejado que levará ao máximo de material aprendido
-    no menor tempo possível. O número calculado pode servir como referência ao decidir qual valor de retenção você deseja definir. 
-    Você pode optar por escolher uma retenção desejada mais alta, se estiver disposto a trocar mais tempo de estudo
-    por uma maior taxa de recordação. Definir a retenção desejada abaixo do mínimo não é recomendado,
-    pois isso resultará em uma carga de trabalho maior devido à alta taxa de esquecimento.
 deck-config-please-save-your-changes-first = Por favor, salve suas alterações primeiro.
 deck-config-workload-factor-change =
     Carga de trabalho aproximada: { $factor }x
@@ -476,6 +467,7 @@ deck-config-desired-retention-below-optimal = Sua retenção desejada está abai
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Simulador de FSRS (experimental)
 deck-config-fsrs-simulate-desired-retention-experimental = Simulador de Retenção Desejada do FSRS (Experimental)
+deck-config-fsrs-simulate-save-preset = Após otimizar, favor salvar a predefinição do seu baralho antes de executar o simulador.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Me Ajude a Decidir (Experimental)
 deck-config-additional-new-cards-to-simulate = Novos cartões adicionais para simular
 deck-config-simulate = Simular
@@ -486,7 +478,6 @@ deck-config-smooth-graph = Gráfico suave
 deck-config-suspend-leeches = Suspender cartões errados com frequência (sanguessugas)
 deck-config-save-options-to-preset = Salvar Mudanças na Predefinição
 deck-config-save-options-to-preset-confirm = Substituir as opções da sua predefinição atual pelas opções que estão atualmente definidas no simulador?
-deck-config-plotted-on-x-axis = (Representado no eixo X)
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -513,6 +504,16 @@ deck-config-fsrs-good-fit = O FSRS está bem ajustado à sua memória.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Não é possível determinar uma retenção ótima.
+deck-config-predicted-minimum-recommended-retention = Retenção mínima recomendada: { $num }
+deck-config-compute-minimum-recommended-retention = Retenção mínima recomendada
+deck-config-compute-optimal-retention-tooltip4 =
+    Essa ferramenta tentará encontrar o valor de retenção desejado que levará ao máximo de material aprendido
+    no menor tempo possível. O número calculado pode servir como referência ao decidir qual valor de retenção você deseja definir. 
+    Você pode optar por escolher uma retenção desejada mais alta, se estiver disposto a trocar mais tempo de estudo
+    por uma maior taxa de recordação. Definir a retenção desejada abaixo do mínimo não é recomendado,
+    pois isso resultará em uma carga de trabalho maior devido à alta taxa de esquecimento.
+deck-config-plotted-on-x-axis = (Representado no eixo X)
 deck-config-a-100-day-interval =
     { $days ->
         [one] Um intervalo de 100 dias será convertido para { $days } dia

@@ -1,9 +1,14 @@
-database-check-corrupt = A coleção está corrompida. Por favor, veja o manual.
+database-check-corrupt = O arquivo da coleção está corrompido. Por favor, restaure a partir de um backup automático.
 database-check-rebuilt = Banco de dados reconstruído e otimizado.
 database-check-card-properties =
     { $count ->
-        [one] { $count } cartão com propriedades inválidas foi concertado.
-       *[other] { $count } cartões com propriedades inválidas foram concertados.
+        [one] { $count } propriedade inválida de cartão foi consertada.
+       *[other] { $count } propriedades inválidas de cartão foram consertadas.
+    }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Adicionado último horário de revisão a { $count } cartão.
+       *[other] Adicionado último horário de revisão a { $count } cartões.
     }
 database-check-missing-templates =
     { $count ->
