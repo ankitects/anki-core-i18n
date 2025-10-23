@@ -28,13 +28,13 @@ sync-must-wait-for-end = Anki synkroniserar för närvarande. Var god vänta på
 sync-confirm-empty-download = Den lokala samlingen har inga kort. Vill du ladda ned från AnkiWeb?
 sync-confirm-empty-upload = AnkiWeb-samlingen har inga kort. Ersätt den med lokal samling?
 sync-conflict-explanation =
-    Dina kortlekar här och på AnkiWeb skiljer sig från varandra på ett sådant sätt att de inte kan sammanfogas, varför det är nödvändigt att skriva över kortlekarna på den ena sidan med kortlekarna på den andra.
+    Dina kortlekar här och på AnkiWeb skiljer sig från varandra på ett sådant sätt att de inte kan sammanfogas. Det är nödvändigt att skriva över kortlekarna på den ena sidan med kortlekarna på den andra.
     
-    Om du väljer ladda ned, kommer Anki att ladda ned samlingen från AnkiWeb, och alla ändringar du har gjort på din dator sedan den senaste synkningen kommer att gå förlorade.
+    Om du väljer ladda ned kommer Anki att ladda ned samlingen från AnkiWeb. Alla ändringar du har gjort på din dator sedan den senaste synkroniseringen kommer att gå förlorade.
     
-    Om du väljer ladda upp, kommer Anki att ladda upp samlingen till AnkiWeb, och alla ändringar du har gjort på AnkiWeb eller på dina andra enheter sedan den senaste synkningen till den enheten kommer att gå förlorade.
+    Om du väljer ladda upp kommer Anki att ladda upp samlingen till AnkiWeb. Alla ändringar du har gjort på AnkiWeb, eller på dina andra enheter sedan den senaste synkroniseringen till den enheten, kommer att gå förlorade.
     
-    När alla enheter är synkade, kommer framtida repetitioner och tillagda kort automatiskt att sammanfogas med varandra.
+    När alla enheter är synkade kommer framtida repetitioner och tillagda kort automatiskt att sammanfogas med varandra.
 sync-conflict-explanation2 =
     Det finns en konflikt mellan kortlekar på denna enhet och AnkiWeb. Vilken version som ska behållas måste väljas:
     

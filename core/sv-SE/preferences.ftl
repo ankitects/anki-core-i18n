@@ -1,4 +1,4 @@
-preferences-automatically-sync-on-profile-openclose = Synka automatiskt när profil öppnas/stängs
+preferences-automatically-sync-on-profile-openclose = Synkronisera automatiskt när profil öppnas/stängs
 preferences-backups = Säkerhetskopior
 preferences-change-deck-depending-on-note-type = Ändra kortlek beroende på nottyp
 preferences-changes-will-take-effect-when-you = Ändringar träder i kraft först när Anki startats om.
@@ -10,7 +10,7 @@ preferences-mins = min
 preferences-network = Nätverk
 preferences-next-day-starts-at = Nästa dag börjar
 preferences-media-is-not-backed-up = Media säkerhetskopieras ej. Var god skapa periodvis säkerhetskopior av Anki-mappen för säkerhets skull.
-preferences-on-next-sync-force-changes-in = Vid nästa synkning, tvinga ändringar i en riktning
+preferences-on-next-sync-force-changes-in = Vid nästa synkronisering, tvinga ändringar i en riktning
 preferences-paste-clipboard-images-as-png = Klistra in bilder som PNG
 preferences-paste-without-shift-key-strips-formatting = Klistra in utan skiftläge rensar formattering
 preferences-generate-latex-images-automatically = Skapa LaTeX-bilder (säkerhetsrisk)
