@@ -107,7 +107,7 @@ deck-config-leech-action-tooltip =
 deck-config-bury-title = Döljande
 deck-config-bury-new-siblings = Dölj nya syskon
 deck-config-bury-review-siblings = Dölj repeterande syskon
-deck-config-bury-interday-learning-siblings = Dölj flerdagslöpande inlärningskort
+deck-config-bury-interday-learning-siblings = Dölj flerdagslöpande inlärningskort som är syskon
 deck-config-bury-new-tooltip =
     Huruvida andra nya kort tillhörande samma not (e.g. omvända kort, intilliggande lucktexter)
     bör uppskjutas tills dagen efter.
