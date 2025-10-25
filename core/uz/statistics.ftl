@@ -265,9 +265,9 @@ statistics-calendar-title = Taqvim
 ## Please try to keep the text short, as longer text may get cut off.
 
 statistics-elapsed-time-seconds = { $amount } s
-statistics-elapsed-time-minutes = { $amount } dq
+statistics-elapsed-time-minutes = { $amount } daq.
 statistics-elapsed-time-hours = { $amount } soat
-statistics-elapsed-time-days = { $amount } k
+statistics-elapsed-time-days = { $amount } kun
 statistics-elapsed-time-months = { $amount } oy
 statistics-elapsed-time-years = { $amount } yil
 
