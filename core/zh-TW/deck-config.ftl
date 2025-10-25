@@ -170,7 +170,7 @@ deck-config-maximum-answer-secs = 最大回答秒數
 deck-config-maximum-answer-secs-tooltip = 記錄單次複習耗時的最大秒數。若回答超過此時間（例如可能你複習中途離開了螢幕一段時間），則耗時將被記錄為你設定的上限。
 deck-config-show-answer-timer-tooltip = 在學習畫面顯示一個計時器，計算每張卡片的學習耗時。
 deck-config-stop-timer-on-answer = 顯示答案後停止螢幕上的計時器
-deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止螢幕上的計時器。不影響統計數據。
+deck-config-stop-timer-on-answer-tooltip = 顯示答案後是否停止螢幕上的計時器。不影響統計資料。
 
 ## Auto Advance section
 
@@ -191,7 +191,7 @@ deck-config-wait-for-audio-tooltip-2 = 等待音訊播放結束後再自動套�
 deck-config-audio-title = 音訊
 deck-config-disable-autoplay = 關閉音訊自動播放
 deck-config-disable-autoplay-tooltip = 啟用後，Anki 不會自動播放音訊。你可以按下音訊按鈕或使用「重播」動作來手動播放。
-deck-config-skip-question-when-replaying = 重播答案時跳過問題
+deck-config-skip-question-when-replaying = 重播答案時略過問題
 deck-config-always-include-question-audio-tooltip = 啟用後，在卡片答案面執行「重播音訊」動作時，將不會同時播放問題面上的音訊。
 
 ## Advanced section
