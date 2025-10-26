@@ -58,7 +58,14 @@ editing-text-highlight-color = Koloro de sign-emfazo
 editing-to-make-a-cloze-deletion-on = Por krei truon en teksto de la ekzista noto, unue ŝanĝu ĝian nototipon al “Truteksto” per la menuo Noto → Ŝanĝi nototipon.
 editing-toggle-html-editor = Baskuligi HTML-redaktilon
 editing-toggle-visual-editor = Baskuligi pervidan redaktilon
-editing-warning-cloze-deletions-will-not-work = Averto! Trutekstaj malplenoj ne funkcios, ĝis vi supre elektos la nototipon Truteksto.
+editing-toggle-sticky = Baskuligi alpinglitan
+editing-expand = Etendi
+editing-collapse = Maletendi
+editing-expand-field = Etendi kampon
+editing-collapse-field = Maletendi kampon
+editing-underline-text = Substrekita teksto
+editing-unordered-list = Neordigita listo
+editing-warning-cloze-deletions-will-not-work = Averto! Truoj en teksto ne funkcios, ĝis vi ŝanĝos la nototipon al “Truteksto”.
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
