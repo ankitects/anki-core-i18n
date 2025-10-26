@@ -66,6 +66,18 @@ editing-collapse-field = Maletendi kampon
 editing-underline-text = Substrekita teksto
 editing-unordered-list = Neordigita listo
 editing-warning-cloze-deletions-will-not-work = Averto! Truoj en teksto ne funkcios, ĝis vi ŝanĝos la nototipon al “Truteksto”.
+editing-mathjax-preview = Antaŭmontri MathJax
+editing-shrink-images = Etigi bildojn
+editing-close-html-tags = Aŭtomate fermi HTML-etikedojn
+editing-from-clipboard = El tondujo
+editing-alignment = Ĝisrandigo
+editing-equations = Formuloj
+editing-no-image-found-on-clipboard = En tondujo estas neniu bildo.
+editing-image-occlusion-mode = Reĝimo de vualado
+editing-image-occlusion-zoom-out = Malgrandigi
+editing-image-occlusion-zoom-in = Pligrandigi
+editing-image-occlusion-zoom-reset = Nuligi pligrandigon
+editing-image-occlusion-toggle-translucent = Baskuligi travideblon
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
