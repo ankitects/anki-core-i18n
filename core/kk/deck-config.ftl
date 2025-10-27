@@ -198,6 +198,7 @@ deck-config-ignore-before-info = FSRS баптауларын оңтайланд�
 
 ## Selecting a deck
 
+deck-config-which-deck = Қай колоданың баптауларын көрсетесіз?
 
 ## Messages related to the FSRS scheduler
 
@@ -211,8 +212,10 @@ deck-config-optimize-button = Осы Баптаманы Оңтайландыру
 deck-config-slow-suffix = ( $text ) (баяу)
 deck-config-compute-button = Есептеу
 deck-config-ignore-before = Бұрын шолынған карталарды елемеу
+deck-config-time-to-optimize = Көп уақыт өтті. Барлық Қалыпты Оңтайландыру түймесін басқан жөн.
 deck-config-evaluate-button = Бағалау
 deck-config-desired-retention = Күткен меңгерім
+deck-config-historical-retention = Тарихи меңгерім
 deck-config-get-params = Баптауларды Алу
 deck-config-complete = { $num }% аяқталған.
 deck-config-iterations = Итерация: { $count }...

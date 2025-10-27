@@ -42,7 +42,13 @@ studying-type-answer-unknown-field = Жауапты теріңз: { $val } бе�
 studying-unbury = Ақтару
 studying-what-would-you-like-to-unbury = Нені ақтарасыз?
 studying-you-havent-recorded-your-voice-yet = Дауысыңызды әлі жазған жоқсыз.
-studying-card-studied-in = { $count } карта оқылды. Уақыт:
-studying-minute = { $count } минут.
+studying-card-studied-in-minute =
+    { $cards } карта
+    { $minutes } минутте оқылды.
 studying-question-time-elapsed = Сұраққа кеткен уақыт
 studying-answer-time-elapsed = Жауапқа кеткен уақыт
+
+## OBSOLETE; you do not need to translate this
+
+studying-card-studied-in = { $count } карта оқылды. Уақыт:
+studying-minute = { $count } минут.
