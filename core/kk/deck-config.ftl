@@ -203,7 +203,9 @@ deck-config-which-deck = Қай колоданың баптауларын көр
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Карталарды жаңарту: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Ұсынылған FSRS баптаулары жарамсыз. Босы қалдырыңыз не қалыпты баптауларды қолданыңыз.
 deck-config-not-enough-history = Бұл әрекетті орындау үшін шолым тарихы жеткіліксіз.
+deck-config-must-have-400-reviews = { $count } шолым ғана табылды. Бұл әрекет үшін кемінде 400 шолым қажет.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS параметрлері
 deck-config-compute-optimal-weights = FSRS параметрлерін оңтайландыру
@@ -216,9 +218,12 @@ deck-config-time-to-optimize = Көп уақыт өтті. Барлық Қалы
 deck-config-evaluate-button = Бағалау
 deck-config-desired-retention = Күткен меңгерім
 deck-config-historical-retention = Тарихи меңгерім
+deck-config-smaller-is-better = Сандар неғұрлым кіші болса, шолу тарихыңызға соғұрлым жақсы сәйкес келеді.
+deck-config-steps-too-large-for-fsrs = FSRS қосылғанда 1 күн не одан да үлкен қадам қоймаған жөн.
 deck-config-get-params = Баптауларды Алу
 deck-config-complete = { $num }% аяқталған.
 deck-config-iterations = Итерация: { $count }...
+deck-config-reschedule-cards-on-change = Өзгерісте карталарды қайта жоспарлау
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
 deck-config-percent-of-reviews = { $reviews } шолымдардың { $pct }%-ы
 deck-config-percent-input = { $pct }%
@@ -231,6 +236,13 @@ deck-config-show-reminder = Ескерткішті Көрсету
 deck-config-answer-again = Қайтадан Деу
 deck-config-answer-hard = Қиын Деу
 deck-config-answer-good = Жақсы Деу
+deck-config-days-to-simulate = Есептелетін күндер саны
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = FSRS Симуляторы (Эксперименттік)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Шешуге көмектес (Эксперименттік)
+deck-config-additional-new-cards-to-simulate = Есептелетін қосымша жаңа карталар
 deck-config-simulate = Симуляциялау
 deck-config-clear-last-simulate = Соңғы Симуляцияны Тазалау
 deck-config-fsrs-simulator-radio-count = Шолымдар
@@ -238,6 +250,7 @@ deck-config-advanced-settings = Қосымша Баптаулар
 deck-config-smooth-graph = Тегіс график
 deck-config-suspend-leeches = Жабысқақтарды кідірту
 deck-config-save-options-to-preset = Өзгерістерді Баптамаға Сақтау
+deck-config-save-options-to-preset-confirm = Ағымдағы қалыптағы баптауларды симулятордағы баптауларға ауыстырасыз ба?
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
@@ -248,9 +261,24 @@ deck-config-fsrs-simulator-ratio-tooltip = Жатталған картаға { $
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Оңтайландыру кезінде саулықты тексеру
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Саулық Тексерісі:
+    FSRS жадыңызға жақсы бейімделе алады.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Unable to determine a minimum recommended retention.
+deck-config-predicted-minimum-recommended-retention = Minimum recommended retention: { $num }
+deck-config-compute-minimum-recommended-retention = Minimum recommended retention
+deck-config-compute-optimal-retention-tooltip4 =
+    This tool will attempt to find the desired retention value 
+    that will lead to the most material learnt, in the least amount of time. The calculated number can serve as a reference
+    when deciding what to set your desired retention to. You may wish to choose a higher desired retention if you’re 
+    willing to invest more study time to achieve it. Setting your desired retention lower than the minimum
+    is not recommended, as it will lead to a higher workload, because of the high forgetting rate.
 deck-config-plotted-on-x-axis = (X білігіне түсірілген)
 deck-config-a-100-day-interval = 100 күн аралық { $days } күн болады.
 deck-config-fsrs-simulator-y-axis-title-time = Review Time/Day
@@ -284,6 +312,8 @@ deck-config-compute-optimal-retention-tooltip =
     if it significantly differs from 0.9, it's a sign that the time you've allocated each day is either too low
     or too high for the amount of cards you're trying to learn. This number can be useful as a reference, but it
     is not recommended to copy it into the desired retention field.
+deck-config-health-check-tooltip1 = This will show a warning if FSRS struggles to adapt to your memory.
+deck-config-health-check-tooltip2 = Health check is performed only when using Optimize Current Preset.
 deck-config-compute-optimal-retention = Compute minimum recommended retention
 deck-config-predicted-optimal-retention = Minimum recommended retention: { $num }
 deck-config-weights-tooltip =
