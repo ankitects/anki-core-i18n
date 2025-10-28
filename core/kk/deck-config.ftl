@@ -71,6 +71,9 @@ deck-config-new-review-priority = Жаңа/шолым реті
 deck-config-new-review-priority-tooltip = Шолым карталарына қарағанда жаңа карталар қашан көрсетіледі.
 deck-config-interday-step-priority = Күнаралық оқу/шолу реті
 deck-config-review-sort-order = Шолымдарды сұрыптау реті
+deck-config-display-order-will-use-current-deck =
+    Anki көрсету ретін сіз оқуға таңдаған колодадан
+    таңдайды, болуы мүмкін туындыларға қарамай.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -138,7 +141,10 @@ deck-config-seconds-to-show-answer = Жауапты көрсету уақыты 
 deck-config-question-action-show-answer = Жауабын Көрсету
 deck-config-question-action-show-reminder = Ескерткішті Көрсету
 deck-config-question-action = Сұрақ әрекеті
+deck-config-question-action-tool-tip = Сұрақ көрсетіліп, уақыт өткеннен кейін атқарылатын әрекет.
 deck-config-answer-action = Жауап әрекеті
+deck-config-answer-action-tooltip-2 = Жауап көрсетіліп, уақыт өткеннен кейін атқарылатын әрекет.
+deck-config-wait-for-audio-tooltip-2 = Аудио аяқтағаннан соң сұрақ әрекетін не жауап әрекетін автоматты түрде атқару.
 
 ## Audio section
 
