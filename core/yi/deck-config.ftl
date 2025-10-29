@@ -325,6 +325,7 @@ deck-config-fsrs-tooltip =
     
     דער „פֿרײַ גערוקטער איבער׳חזר-פּלאַנירער״ (FSRS) איז אַן אַלטערנאַטיוו פֿאר אַנקי׳ס אַמאָליקער "SuperMemo 2" (SM-2) אַלגאָריטעם.
     מיטן גלײַכער באַשטימען דאָס מעגלעכקייט פֿונעם פֿאַרגעסן אַ קאַרטל, ס׳קען דיך העלפֿן אויסלערנען מער לערנוואַרג אינעם זעלבן משך. די אָ פֿיקסירונג ווערט געניצט בשותּפֿותדיק איבער אַלע מוסטערן.
+deck-config-desired-retention-tooltip = דורך פֿעליקייט ווערן קאַרטלעך פּלאַנירט כּדי ס׳איז דאָ אַ 90% שאַנס אַ דו וועסט זיך דערמאָנען אַ קאַרטל ווען עס ווערט ווידער איבערגע׳חזר׳ט. וואָס גערסער דער צאָל, אַלץ אָפֿטער ווערן קאַרטלעך אָנגעוויזן, כּדי מע זאָל זיי זיך אַלץ מעגלעכער דערמאָנען. וואָס קלענער דער צאָל, אַלץ זעלטענער ווערן קאַרטלעך אָנגעוויזן, הייסט עס אַ מער פֿון זיי ווערן אָפֿטער פֿאַרגעסן. גיב אַכטונג מיטן דאָס צופּאַסן: העכערע צאָלן וועלן ממש פֿאַרגרעסערן דײַן אָנלאָדונג, קענען דאָך פֿאָרט קלענערע צאָלן ווערן אַן אַנטוישונג אַז מע פֿאַרגעסט מער ידיועת.
 deck-config-please-save-your-changes-first = קודם, ביטע היט אויף טוישונגען.
 deck-config-workload-factor-unchanged = וואָס העכער אָט דער ציפֿער, אַלץ אָפֿטער וועט קאַרטלעך ווערן דיר געוויזן.
 deck-config-desired-retention-too-low = דער געוווּנטשענער זכּרון איז גאָר נידעריק, וואָס קען גורם זײַן גאַנץ לאַנגע צווישנצײַטן.
@@ -352,7 +353,9 @@ deck-config-desired-retention-below-optimal = דער געוווּנטשענער 
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS סימולירער (עקספּערימענטאַל)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS געוווּנטשענער זכּרון סימולירער (עקספּערימענטאַל)
 deck-config-fsrs-simulate-save-preset = נאָכ׳ן אָפּטימיזירן, היט אויף דײַן טעשל-מוסטער פֿאַר׳ן אויספֿירן דעם סימולירער.
+deck-config-fsrs-desired-retention-help-me-decide-experimental = העלף מיך באַשליסן (עקספּערימענטאַל)
 deck-config-additional-new-cards-to-simulate = איבעריקע נײַע קאַרטלעך אויף צו סומילירן
 deck-config-simulate = סימולירן
 deck-config-clear-last-simulate = אָפּרייניקען לעצטיקע סימולאַציע
