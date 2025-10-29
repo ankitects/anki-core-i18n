@@ -45,9 +45,18 @@ deck-config-today-only = Бүгін ғана
 deck-config-learning-steps = Оқу қадамдары
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Шегерулер әдетте минутпен (мыс. `1m`) немесе күнмен (мыс. `2d`) беріледі, бірақ сағат (мыс. `1h`) және секунд (мыс. `30s`) та қолдануға болады.
+deck-config-graduating-interval-tooltip =
+    Оқудың соңғы қадамында `Жақсы` түймесі басылғанда картаны қайтадан
+    көрсеткеніне дейін өтетін күн саны.
+deck-config-easy-interval-tooltip =
+    Оқудан алып тастау үшін `Оңай` түймесі басылғанда картаны қайтадан
+    көрсеткеніне дейін өтетін күн саны.
 deck-config-new-insertion-order = Енгізу реті
 deck-config-new-insertion-order-sequential = Реттік (алдымен ескі карталар)
 deck-config-new-insertion-order-random = Кездейсоқ
+deck-config-new-insertion-order-random-with-v3 =
+    v3 жоспарлаушысына сай, бұны реттік деп қалдырып, жаңа карта
+    жинау ретін түзеткен жөн.
 
 ## Lapses section
 
@@ -59,6 +68,9 @@ deck-config-bury-title = Тығу
 deck-config-bury-new-siblings = Жаңа туыстарын тығу
 deck-config-bury-review-siblings = Шолым тектестерін тығу
 deck-config-bury-interday-learning-siblings = Күнаралық оқу туыстарын тығу
+deck-config-bury-new-tooltip =
+    Сол жазбаға тиесілі, аралығы 1 күннен асатын басқа `жаңа` карталарының (мыс. теріс
+    карта, іргелес саңылау) келесі күнге дейін шегерілуі-шегерілмеуі.
 deck-config-bury-review-tooltip = Сол жазбаға тиесілі басқа `шолым` карталарының келесі күнге дейін шегерілу/шегерілмеуі.
 deck-config-bury-interday-learning-tooltip = Сол жазбаға тиесілі, аралығы 1 күннен асатын басқа `оқу` карталарының келесі күнге дейін шегерілу/шегерілмеуі.
 
