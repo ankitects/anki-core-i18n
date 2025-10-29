@@ -132,12 +132,20 @@ deck-config-sort-order-retrievability-descending = Түсірілімнің ке
 
 deck-config-timer-title = Таймер
 deck-config-maximum-answer-secs = Жауап беру уақытының шегі (секунд)
+deck-config-show-answer-timer-tooltip =
+    Оқу экранында картаны оқуға жұмсалған уақыт өлшейтін
+    сағатты көрсету.
 deck-config-stop-timer-on-answer = Жауап бергенде бейнебет таймерін тоқтату
+deck-config-stop-timer-on-answer-tooltip =
+    Жауап көрсетіленде экрандағы таймерді тоқтату-тоқтатпау.
+    Статистикаға әсер етпейді.
 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Сұрақты көрсету уақыты (секунд)
+deck-config-seconds-to-show-question-tooltip-3 = Аутоілгеру қосылған кезінде сұрақ әрекетін атқарғанша өтетін уақыт. Өшіру үшін 0 деп қойыңыз.
 deck-config-seconds-to-show-answer = Жауапты көрсету уақыты (секунд)
+deck-config-seconds-to-show-answer-tooltip-2 = Аутоілгеру қосылған кезінде жауап әрекетін атқарғанша өтетін уақыт. Өшіру үшін 0 деп қойыңыз.
 deck-config-question-action-show-answer = Жауабын Көрсету
 deck-config-question-action-show-reminder = Ескерткішті Көрсету
 deck-config-question-action = Сұрақ әрекеті
@@ -150,11 +158,23 @@ deck-config-wait-for-audio-tooltip-2 = Аудио аяқтағаннан соң 
 
 deck-config-audio-title = Аудио
 deck-config-disable-autoplay = Аудионы автоматты түрде ойнамау
+deck-config-disable-autoplay-tooltip =
+    Қосылғанда Anki аудионы автоматты түрде ойнамайды.
+    Аудио сүретін басу немесе Қайталау әрекетін қолдану арқылы қолмен ойнатуға болады.
 deck-config-skip-question-when-replaying = Жауапты қайта қарағанда сұрақты өткізу
+deck-config-always-include-question-audio-tooltip =
+    Қайталау әрекеті қосылып, картаның жауап жағын қарағанда сұрақ
+    аудиосын қосу-қоспау.
 
 ## Advanced section
 
 deck-config-advanced-title = Қосымша
+deck-config-easy-bonus-tooltip =
+    `Оңай` дегенде шолым картасының аралығына қолданылатын қосымша
+    көбейткіш.
+deck-config-hard-interval-tooltip = `Қиын` дегенде шолым аралығына қолданылатын көбейткіш.
+deck-config-new-interval-tooltip = `Қайтадан` дегенде шолым аралығына қолданылатын көбейткіш.
+deck-config-minimum-interval-tooltip = `Қайтадан` дегенде шолым картасына берілетін ең қысқа аралық.
 deck-config-custom-scheduling = Өзгертпелі жоспарлау
 deck-config-custom-scheduling-tooltip = Бүкіл жинаққа әсер етеді. Жауапкершілік өзіңізде!
 
