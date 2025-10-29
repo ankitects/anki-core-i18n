@@ -377,6 +377,19 @@ deck-config-fsrs-simulator-ratio-tooltip = { $time } לויט אויסגעלער
 
 # Checkbox
 deck-config-health-check = איבערקוקן ס׳געזונט בשעת׳ן אָפּטימיזירן
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    געזונט-קאָנטראָל:
+    איז שווער פֿאָרויסצוזען דײַן זכּרון. עצות: 
+    - אָפּשטעלן אָדער פֿאָרמוליר אויף ס׳נײַ אָפֿט-פֿאַרגעסענע קאַרטלעך
+    - ניץ אױסהאַלטעוודיק די ענטפֿער קנעפּלעך. היט זיך אַז „שווער״ הייסט ריכטיק, נישט טעותדיק.
+    - פֿאַרשטיי איידער דו פֿאַרגעדענקסט.
+    
+    ווען דו היטסט זיך די עצות, קער די פּעולה זיך פֿאַרבעסערן אין די קומעדיקע חדשים.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    געזונט-קאָנטראָל:
+    FSRS קען זיך גוט צופּאַסן אויף דײַן זכּרון.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
