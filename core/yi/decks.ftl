@@ -19,7 +19,7 @@ decks-please-select-something = זײַט מוחל, קלײַבט עפּעס או�
 decks-repeat-failed-cards-after = איבער׳חזר׳ן דורכגעפֿאַלן קאַרטלעך נאָך
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = אָפּלייגן אויף { $button }
-decks-reschedule-cards-based-on-my-answers = בײַטן באַשטימטע צײַט פון קאַרטלעך לויט מײַנע ענטפֿער אין דעם טעשל
+decks-reschedule-cards-based-on-my-answers = אויס׳סדר׳ן קאַרטלעך לויט מײַנע ענטפֿער אין דעם טעשל
 decks-study = אײַנ׳חזר׳ן
 decks-study-deck = אײַנ׳חזר׳ן טעשל
 decks-filtered-deck-search-empty = קיין קאַרטל האָט זיך נישט געפּאַסט צו דעם געגעבנעם זוך. ס׳קען זײַן, אַז טייל קאַרטלעך זענען אַרויסגעלאָזט פון חשבון, ווײַל זיי זענען אין אַן אַנדער פֿילטרירטן טעשל, אָדער זענען אָפּגעשטעלט געוואָרן.
