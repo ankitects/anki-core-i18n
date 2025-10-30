@@ -1,4 +1,4 @@
-custom-study-must-rename-deck = קודם שטעלט אַ נײַעם נאָמען אויפֿן „אײַנ׳חזר׳ן צוגעפּאַסט״ טעשל.
+custom-study-must-rename-deck = קודם שטעלט אַ נײַעם נאָמען אויפֿן „אײַנ׳חזר׳ן זיך צוגעפּאַסט״ טעשל.
 custom-study-all-cards-in-random-order-dont = אַלע קאַרטלעך אין אַ צופֿעליקן סדר (נישט אָפּלייגן)
 custom-study-all-review-cards-in-random-order = אַלע קאַרטלעך וואָס איבערצו׳חזר׳ן אין אַ צופֿעליקן סדר
 custom-study-cards = קאַרטלעך
