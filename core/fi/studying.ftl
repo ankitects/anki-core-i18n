@@ -46,6 +46,24 @@ studying-type-answer-unknown-field = Kirjoita vastaus: tuntematon kenttä { $val
 studying-unbury = Poista piilotus
 studying-what-would-you-like-to-unbury = Minkä piilotuksen haluaisit poistaa?
 studying-you-havent-recorded-your-voice-yet = Et ole vielä nauhoittanut ääntäsi.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one] { $cards } kortti opiskeltu { $minutes } minuutissa.
+               *[other] { $cards } kortti opiskeltu { $minutes } minuutissa.
+            }
+       *[other]
+            { $minutes ->
+                [one] { $cards } korttia opiskeltu { $minutes } minuutissa
+               *[other] { $cards } korttia opiskeltu { $minutes } minuutissa
+            }
+    }
+studying-question-time-elapsed = Kysymyksen esitysaika päättyi
+studying-answer-time-elapsed = Vastausaika päättyi
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } kortti opiskeltu ajassa
@@ -56,5 +74,3 @@ studying-minute =
         [one] { $count } minuutti.
        *[other] { $count } minuuttia.
     }
-studying-question-time-elapsed = Kysymyksen esitysaika päättyi
-studying-answer-time-elapsed = Vastausaika päättyi
