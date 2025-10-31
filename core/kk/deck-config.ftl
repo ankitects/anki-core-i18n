@@ -61,6 +61,12 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Қайта оқу қадамдары
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Тек Тамғалау`: картаға `жабысқақ` тамғасын беріп, қалқыма көрсету.
+    
+    `Картаны Кідірту`: Картаны тамғалаудың үстінде, қолмен
+    тірілтілмейінше жасыру.
 
 ## Burying section
 
@@ -181,6 +187,7 @@ deck-config-always-include-question-audio-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = Қосымша
+deck-config-starting-ease-tooltip = Жаңа карталардың жеңілдік көбейткіші. Әдетте `Жақсы` түймесі жаңадан оқылған картаға бұрынғы шегерілімнен 2.5 есе үлкен шегерілім береді.
 deck-config-easy-bonus-tooltip =
     `Оңай` дегенде шолым картасының аралығына қолданылатын қосымша
     көбейткіш.
@@ -204,6 +211,7 @@ deck-config-easy-days-normal = Қалыпты
 deck-config-easy-days-reduced = Ықшамдалған
 deck-config-easy-days-minimum = Минимум
 deck-config-easy-days-no-normal-days = Кемінде бір күн '{ deck-config-easy-days-normal }' болуы керек.
+deck-config-easy-days-change = FSRS баптаулырындағы `{ deck-config-reschedule-cards-on-change }` қосылмаса, бар шолымдар жаңартылмайды.
 
 ## Adding/renaming
 
@@ -231,6 +239,8 @@ deck-config-description-new-handling = Anki 2.1.41+ қолдауы
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped = Аталық колодасының осы шектеуді жауып тастайтын { $cards } карта шектеуі бар.
+deck-config-reviews-too-low = Күніне { $cards } жаңа карта қосаты болсаңыз, шолым шектеуіңіз кемінде { $expected } болуға тиіс.
 deck-config-too-short-maximum-interval = 6 айдан қысқа шекті аралық қоймаған жөн.
 deck-config-ignore-before-info = FSRS баптауларын оңтайландыруға (шамамен) { $included }/{ $totalCards } карта қолданылады.
 
@@ -263,6 +273,9 @@ deck-config-complete = { $num }% аяқталған.
 deck-config-iterations = Итерация: { $count }...
 deck-config-reschedule-cards-on-change = Өзгерісте карталарды қайта жоспарлау
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
+deck-config-workload-factor-change =
+    Болжам жүктеме: { $factor }x
+    (қалаулы жүктеменің { $previousDR }%-ымен салыстырғанда)
 deck-config-percent-of-reviews = { $reviews } шолымдардың { $pct }%-ы
 deck-config-percent-input = { $pct }%
 # This message appears during FSRS parameter optimization.
