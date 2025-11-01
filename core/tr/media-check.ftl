@@ -20,6 +20,7 @@ media-check-subfolder-count = Alt klasörler: { $count }
 media-check-renamed-header = Bazı dosyalar uyumluluk için yeniden adlandırıldı.
 media-check-oversize-header = 100 MB'ın üzerindeki dosyalar AnkiWeb ile senkronize edilemez.
 media-check-subfolder-header = Ortam klasörünün içindeki klasörler desteklenmiyor.
+media-check-unused-header = Aşağıdaki dosyalar medya klasöründe bulundu, ancak hiçbir kartta kullanılmıyor gibi görünüyor:
 
 ## Shown once for each file
 
@@ -67,3 +68,5 @@ media-check-empty-trash = Çöp Kutusunu Boşalt
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Silinenleri Geri Yükle
 media-check-check-media-action = Ortamı Kontrol Et
+# a tag for notes with missing media files (must not contain whitespace)
+media-check-missing-media-tag = kayıp-medya
