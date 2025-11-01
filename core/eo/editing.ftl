@@ -78,6 +78,7 @@ editing-image-occlusion-zoom-out = Malgrandigi
 editing-image-occlusion-zoom-in = Pligrandigi
 editing-image-occlusion-zoom-reset = Nuligi pligrandigon
 editing-image-occlusion-toggle-translucent = Baskuligi travideblon
+editing-image-occlusion-delete = Forigi
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
