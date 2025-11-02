@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Ortangulo
 editing-image-occlusion-ellipse-tool = Elipso
 editing-image-occlusion-polygon-tool = Plurangulo
 editing-image-occlusion-text-tool = Teksto
+editing-image-occlusion-fill-tool = Plenigi per koloro
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
