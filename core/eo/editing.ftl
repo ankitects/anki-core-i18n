@@ -79,6 +79,12 @@ editing-image-occlusion-zoom-in = Pligrandigi
 editing-image-occlusion-zoom-reset = Nuligi pligrandigon
 editing-image-occlusion-toggle-translucent = Baskuligi travideblon
 editing-image-occlusion-delete = Forigi
+editing-image-occlusion-duplicate = Duobligi
+editing-image-occlusion-group = Grupigi elektitajn
+editing-image-occlusion-ungroup = Malgrupigi elektitajn
+editing-image-occlusion-select-all = Elekti ĉiujn
+editing-image-occlusion-alignment = Ĝisrandigo
+editing-image-occlusion-align-left = Ĝisrandigi maldekstren
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
