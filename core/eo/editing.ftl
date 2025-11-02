@@ -97,6 +97,9 @@ editing-image-occlusion-ellipse-tool = Elipso
 editing-image-occlusion-polygon-tool = Plurangulo
 editing-image-occlusion-text-tool = Teksto
 editing-image-occlusion-fill-tool = Plenigi per koloro
+editing-image-occlusion-toggle-mask-editor = Baskuligi redaktilon de masko
+editing-image-occlusion-reset = Nuligi vualon de bildo
+editing-image-occlusion-confirm-reset = Ĉu vi certe volas nuligi tiun ĉi vualon de bildo?
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
