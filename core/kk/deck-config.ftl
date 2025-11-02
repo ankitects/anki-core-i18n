@@ -241,6 +241,10 @@ deck-config-description-new-handling = Anki 2.1.41+ қолдауы
 
 deck-config-daily-limit-will-be-capped = Аталық колодасының осы шектеуді жауып тастайтын { $cards } карта шектеуі бар.
 deck-config-reviews-too-low = Күніне { $cards } жаңа карта қосаты болсаңыз, шолым шектеуіңіз кемінде { $expected } болуға тиіс.
+deck-config-learning-step-above-graduating-interval = Бітіру аралығы кем дегенде соңғы оқу аралығымен бірдей болуы керек.
+deck-config-good-above-easy = Оңай аралығы кем дегенде бітіру аралығымен бірдей болуы керек.
+deck-config-relearning-steps-above-minimum-interval = Ең кіші босау аралығы кем дегенде соңғы оқу аралығымен бірдей болуы керек.
+deck-config-maximum-answer-secs-above-recommended = Әр сұрақ қысқа болғанда, Anki шолымдарыңызды тиімдірек жоспарлай алады.
 deck-config-too-short-maximum-interval = 6 айдан қысқа шекті аралық қоймаған жөн.
 deck-config-ignore-before-info = FSRS баптауларын оңтайландыруға (шамамен) { $included }/{ $totalCards } карта қолданылады.
 
@@ -276,22 +280,29 @@ deck-config-please-save-your-changes-first = Алдымен өзгерістер
 deck-config-workload-factor-change =
     Болжам жүктеме: { $factor }x
     (қалаулы жүктеменің { $previousDR }%-ымен салыстырғанда)
+deck-config-workload-factor-unchanged = Бұл мән неғұрлым жоғары, карталар соғұрлым жиі көрсетіледі.
+deck-config-desired-retention-too-low = Қалаулы меңгерім өте төмен, бұл аралықтарды өте ұзақ етуі мүмкін.
+deck-config-desired-retention-too-high = Қалаулы меңгерім өте жоғары, бұл аралықтарды өте қысқа етуі мүмкін.
 deck-config-percent-of-reviews = { $reviews } шолымдардың { $pct }%-ы
 deck-config-percent-input = { $pct }%
 # This message appears during FSRS parameter optimization.
 deck-config-checking-for-improvement = Жетілдірулерді тексеру...
 deck-config-optimizing-preset = Баптаманы оңтайландыру { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Алдымен FSRS қосылуы керек.
+deck-config-fsrs-params-optimal = Қазір FSRS баптаулары оңтайлы болып көріненді.
 deck-config-wait-for-audio = Аудионы күту
 deck-config-show-reminder = Ескерткішті Көрсету
 deck-config-answer-again = Қайтадан Деу
 deck-config-answer-hard = Қиын Деу
 deck-config-answer-good = Жақсы Деу
 deck-config-days-to-simulate = Есептелетін күндер саны
+deck-config-desired-retention-below-optimal = Қалаулы меңгеріміңіз тиімді мөлшерден кем. Оны көтерген жөн.
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS Симуляторы (Эксперименттік)
+deck-config-fsrs-simulate-desired-retention-experimental = Қалаулы Меңгерім FSRS Симуляторы (эксперименттік)
+deck-config-fsrs-simulate-save-preset = Оңтайландырудан кейін, симуляторды жеккенге дейін колодаңызды сақтаңыз.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Шешуге көмектес (Эксперименттік)
 deck-config-additional-new-cards-to-simulate = Есептелетін қосымша жаңа карталар
 deck-config-simulate = Симуляциялау
