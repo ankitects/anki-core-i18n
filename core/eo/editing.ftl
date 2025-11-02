@@ -85,6 +85,17 @@ editing-image-occlusion-ungroup = Malgrupigi elektitajn
 editing-image-occlusion-select-all = Elekti ĉiujn
 editing-image-occlusion-alignment = Ĝisrandigo
 editing-image-occlusion-align-left = Ĝisrandigi maldekstren
+editing-image-occlusion-align-h-center = Centrigi horizontale
+editing-image-occlusion-align-right = Ĝisrandigi dekstren
+editing-image-occlusion-align-top = Ĝisrandigi supren
+editing-image-occlusion-align-v-center = Centrigi vertikale
+editing-image-occlusion-align-bottom = Ĝisrandigi malsupren
+editing-image-occlusion-select-tool = Elekti
+editing-image-occlusion-zoom-tool = Pligrandigi
+editing-image-occlusion-rectangle-tool = Ortangulo
+editing-image-occlusion-ellipse-tool = Elipso
+editing-image-occlusion-polygon-tool = Plurangulo
+editing-image-occlusion-text-tool = Teksto
 
 ## You don't need to translate these strings, as they will be replaced with different ones soon.
 
