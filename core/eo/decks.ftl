@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = Aldoni novan kartaron (Stir’+N)
 decks-build = Kunmeti
 decks-cards-selected-by = kartoj elektitaj laŭ
 decks-create-deck = Krei kartaron
+decks_create_even_if_empty = Krei/ĝisdatigi tiun ĉi kartaron eĉ kiam ĝi estas malplena
 decks-custom-steps-in-minutes = Propraj paŝoj (en minutoj)
 decks-deck = Kartaro
 decks-delete-deck = Forigi kartaron
