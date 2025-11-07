@@ -55,6 +55,8 @@ database-check-fixed-invalid-ids =
         [one] ⵢⴰⵜ ⵜⵖⴰⵡⵙⴰ ⵜⵜⵓⵙⴰⵖⴷ ⵙ ⵢⴰⵏ ⵡⴰⴽⵓⴷ ⴳ ⵉⵎⴰⵍ
        *[other] { $count } ⵏ ⵜⵖⴰⵡⵙⵉⵡⵉⵏ ⵉⵜⵜⵓⵙⴽⴰⵔⵏⵜ ⵙ ⵢⴰⵏ ⵡⴰⴽⵓⴷ ⴳ ⵉⵎⴰⵍ
     }
+# "db-check" is always in English
+database-check-notetypes-recovered = ⵓⵔ ⵉⵍⵍⵉ ⵢⴰⵏ ⵡⴰⵏⴰⵡ ⵏ ⵜⵓⵙⵎⵉⵔⵜ ⵏⵖⴷ ⴽⵉⴳⴰⵏ ⵏ ⵜⵓⵙⵎⵉⵔⵉⵏ. ⵜⵓⵙⵎⵉⵔⵉⵏ ⵉⵣⴷⵉⵏⵜ ⵖⵓⵔⵙⵏⵜ ⵢⴰⵏ ⴰⵏⴰⵡ ⴰⵎⴰⵢⵏⵓ  "db-check". ⴰⵙⵙⴰⵖⵏ ⵏ ⵉⴳⵔⴰⵏ ⵏ ⵡⴰⵎⴰⵎⴽ ⵏ ⵜⴽⴰⵕⴹⴰ ⵣⵍⴰⵏⵜ, ⵉⵇⵇⴰⵏⴰⴽ ⴰⴷ ⵜⵙⵓⵖⵓⵍⵜ ⴰⵎⵣⵔⴰⴳ ⵓⵟⵓⵎⴰⵜⵉⴽ ⵉⵣⵔⵉⵏ.
 
 ## Progress info
 
