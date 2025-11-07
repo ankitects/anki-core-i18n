@@ -40,6 +40,21 @@ database-check-missing-decks =
         [one] ⵉⵙⵙⵓⵙⵜⵡⴰ ⵢⴰⵏ ⵓⴽⵍⴽⵉⵎ "Deck" ⵓⵔ ⵉⵍⵍⵉⵏ
        *[other] ⵙⵙⵓⵙⵜⵡⴰⵏ { $count } ⵏ ⵉⴽⵍⴽⵉⵎⵏ "Decks" ⵓⵔ ⵉⵍⵍⵉⵏ
     }
+database-check-revlog-properties =
+    { $count ->
+        [one] ⵢⴰⵜ ⵜⵙⵖⵓⵏⵜ ⵜⵜⵓⵚⴽⴰ ⴰⵛⴽⵓ ⵜⵉⵥⵍⴰⵢⵉⵏ ⵏⵏⵙ ⵓⴱⴹⵉⵍⵏ.
+       *[other] { $count } ⵏ ⵜⵙⵖⵓⵏⵉⵏ ⵜⵜⵓⵚⴽⴰⵏⵜ ⴰⵛⴽⵓ ⵜⵉⵥⵍⴰⵢⵉⵏ ⵏⵏⵙⵏⵜ ⵓⴱⴹⵉⵍⵏ.
+    }
+database-check-notes-with-invalid-utf8 =
+    { $count ->
+        [one] ⵜⵓⵙⵎⵉⵔⵜ ⵉⵜⵜⵓⵙⵏⴼⵍⵏ ⵙ ⵉⵙⴽⴽⵉⵍⵏ ⵏ ⵓⵜⴼ8 (UTF8) ⵓⴱⴹⵉⵍⵏ
+       *[other] ⵜⵓⵙⵎⵉⵔⵉⵏ ⵉⵜⵜⵓⵙⵏⴼⴰⵍⵏ ⵙ ⵉⵙⴽⴽⵉⵍⵏ ⵓⵜⴼ8 (UTF8) ⵓⴱⴹⵉⵍⵏ
+    }
+database-check-fixed-invalid-ids =
+    { $count ->
+        [one] ⵢⴰⵜ ⵜⵖⴰⵡⵙⴰ ⵜⵜⵓⵙⴰⵖⴷ ⵙ ⵢⴰⵏ ⵡⴰⴽⵓⴷ ⴳ ⵉⵎⴰⵍ
+       *[other] { $count } ⵏ ⵜⵖⴰⵡⵙⵉⵡⵉⵏ ⵉⵜⵜⵓⵙⴽⴰⵔⵏⵜ ⵙ ⵢⴰⵏ ⵡⴰⴽⵓⴷ ⴳ ⵉⵎⴰⵍ
+    }
 
 ## Progress info
 
