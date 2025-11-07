@@ -10,7 +10,8 @@ deck-config-used-by-decks =
         [one] uzata de { $decks } kartaro
        *[other] uzata de { $decks } kartaroj
     }
-deck-config-default-name = Defaŭlta
+deck-config-default-name = Implicita
+deck-config-title = Agordoj pri kartaro
 
 ## Daily limits section
 
@@ -33,11 +34,18 @@ deck-config-new-insertion-order-random = hazarde
 ## Burying section
 
 
-## Ordering section
+## Gather order and sort order of cards
 
+
+## Gather order and sort order of cards – Combobox entries
+
+# Gather new cards ordered by deck.
 deck-config-new-gather-priority-deck = Kartaro
+# Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = Hazardaj notoj
+# Gather new cards randomly.
 deck-config-new-gather-priority-random-cards = Hazardaj kartoj
+# Sort the cards randomly.
 deck-config-sort-order-random = hazarde
 
 ## Timer section
@@ -51,6 +59,9 @@ deck-config-question-action-show-answer = Montri respondon
 
 
 ## Advanced section
+
+
+## Easy Days section.
 
 
 ## Adding/renaming
@@ -74,6 +85,9 @@ deck-config-save-button = Konservi
 
 
 ## Messages related to the FSRS scheduler
+
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
