@@ -365,6 +365,7 @@ deck-config-desired-retention-below-optimal = Η επιθυμητή ανάκλη
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Προσομοιωτής FSRS (πειραματικό)
 deck-config-fsrs-simulate-desired-retention-experimental = FSRS Προσομοιωτής επιθυμητής ανάκλησης (πειραματικός)
+deck-config-fsrs-simulate-save-preset = Μετά την βελτιστοποίηση, αποθηκεύστε τις προεπιλογές της τράπουλάς σας πριν εκτελέσετε τον προσομοιωτή.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Βοήθησέ με να αποφασίσω (Πειραματικό)
 deck-config-additional-new-cards-to-simulate = Επιπρόσθετες νέες κάρτες για προσομοίωση
 deck-config-simulate = Προσομοίωση
