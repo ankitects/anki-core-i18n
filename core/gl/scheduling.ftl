@@ -54,10 +54,10 @@ scheduling-today-review-limit-reached =
     pendentes de ser revisadas. Para unha óptima memoria, considere
     incrementar o límite diario nas opcións.
 scheduling-today-new-limit-reached =
-    Hai máis cartas dispoñíbeis pero o límite diario foi sobrepasado.
-    Pode incrementar o límite nas opción, pero por favor,
-    teña en mente que cantas máis cartas introduza, máis alta
-    será a súa carga de traballo a curto prazo.
+    Hai máis tarxetas dispoñíbeis, pero alcanzaches o límite diario.
+    Podes incrementar o límite nas opcións, pero ten en conta: 
+    cantas máis tarxetas introduzas, máis alta será a túa carga de
+    traballo a curto prazo.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = desagochalas

@@ -45,6 +45,32 @@ studying-type-answer-unknown-field = Tipo de resposta: campo descoñecido { $val
 studying-unbury = Desagochar
 studying-what-would-you-like-to-unbury = Que queres desagochar?
 studying-you-havent-recorded-your-voice-yet = Aínda non gravou a súa voz.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one]
+                    Estudaches { $cards } tarxeta en
+                    { $minutes } minuto.
+               *[other]
+                    Estudaches { $cards } tarxeta en
+                    { $minutes } minutos.
+            }
+       *[other]
+            { $minutes ->
+                [one]
+                    Estudaches { $cards } tarxetas en
+                    { $minutes } minuto.
+               *[other]
+                    Estudaches { $cards } tarxetas en
+                    { $minutes } minutos.
+            }
+    }
+studying-question-time-elapsed = Esgotouse o tempo de pregunta
+studying-answer-time-elapsed = Esgotouse o tempo de resposta
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [one] { $count } tarxeta estudada en
@@ -55,5 +81,3 @@ studying-minute =
         [one] { $count } minuto.
        *[other] { $count } minutos.
     }
-studying-question-time-elapsed = Esgotouse o tempo de pregunta
-studying-answer-time-elapsed = Esgotouse o tempo de resposta
