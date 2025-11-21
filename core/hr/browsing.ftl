@@ -120,6 +120,7 @@ browsing-note-count =
         [few] { $count } bilješke
        *[other] { $count } bilješki
     }
+browsing-today = Danas
 browsing-studied-today = Učeno danas
 browsing-added-today = Dodano danas
 browsing-again-today = Ponovno danas
