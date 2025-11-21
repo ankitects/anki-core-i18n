@@ -6,6 +6,13 @@ actions-add = Dodaj
 # cards/notes meeting ALL of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
 actions-all-selected = Sve odabrano
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-any-selected = Bilo koja odabrana
 actions-cancel = Otkaži
 actions-choose = Odaberi
 actions-close = Zatvori
