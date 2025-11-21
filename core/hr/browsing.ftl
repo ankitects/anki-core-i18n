@@ -120,11 +120,41 @@ browsing-note-count =
         [few] { $count } bilješke
        *[other] { $count } bilješki
     }
+browsing-window-title = Pregledaj ({ $selected } od { $total } odabraih kartica)
+browsing-sidebar-expand = Proširi
+browsing-sidebar-collapse = Sakrij
+browsing-sidebar-expand-children = Proširi Podstavke
+browsing-sidebar-collapse-children = Sakrij Podstavke
+browsing-sidebar-decks = Špilovi
+browsing-sidebar-tags = Oznake
+browsing-sidebar-notetypes = Vrste bilješki
+browsing-sidebar-saved-searches = Spremljena pretraživanja
+browsing-sidebar-save-current-search = Spremi trenutnu pretragu
+browsing-sidebar-card-state = Stanje kartice
+browsing-sidebar-flags = Oznake
 browsing-today = Danas
-browsing-studied-today = Učeno danas
-browsing-added-today = Dodano danas
-browsing-again-today = Ponovno danas
+browsing-tooltip-card-modified = Posljednji put kada su napravljene promjene na karti, uključujući recenzije, zastavice i promjene špila
+browsing-tooltip-note-modified = Posljednji put kada su napravljene promjene u bilješci, obično uređivanja sadržaja polja ili oznaka
+browsing-tooltip-card = Naziv predloška kartice
+browsing-tooltip-cards = Broj kartica koja bilješka ima
+browsing-tooltip-notetype = Naziv vrste bilješke bilješke
+browsing-tooltip-question = Prednja strana kartice, prilagodljiva u uređivaču predložaka kartica
+browsing-tooltip-answer = Stražnja strana kartice, prilagodljiva u uređivaču predložaka kartica
+browsing-studied-today = Učeno
+browsing-added-today = Dodano
+browsing-again-today = Ponoveno
+browsing-edited-today = Uređeno
+browsing-sidebar-first-review = Prvi Pregled
+browsing-sidebar-rescheduled = Prerasporedi
+browsing-sidebar-due-today = Isteklo
+browsing-sidebar-untagged = Bez Oznaka
+browsing-sidebar-overdue = Zakašnjelo
+browsing-row-deleted = (obrisano)
 browsing-sidebar-card-state-review = Ponavljanje
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = K
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = B
