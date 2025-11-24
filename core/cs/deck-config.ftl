@@ -391,6 +391,7 @@ deck-config-desired-retention = Požadovaná retence
 deck-config-historical-retention = Historická retence
 deck-config-smaller-is-better = Menší čísla naznačují lepší způsobilost pro vaši historii opakování.
 deck-config-steps-too-large-for-fsrs = Je-li FSRS povoleno, kroky učení delší než 1 den nejsou doporučeny.
+deck-config-get-params = Získat parametry
 deck-config-complete = { $num }% hotovo.
 deck-config-iterations = Iterace: { $count }...
 deck-config-reschedule-cards-on-change = Přeplánovat karty po změně
@@ -405,6 +406,7 @@ deck-config-desired-retention-tooltip =
     karty méně často, a vy jich více zapomenete. Při nastavování buďte konzervativní - vyšší 
     hodnoty významně zvýší vaše vytížení a nižší hodnoty mohou být demotivující, když zapomenete 
     hodně materiálu.
+deck-config-desired-retention-tooltip2 = Hodnoty pracovní zátěže uvedené v informačním rámečku jsou přibližné. Pro větší přesnost použijte simulátor.
 deck-config-historical-retention-tooltip =
     Jestliže chybí část vaší historie opakování, FSRS musí vyplnit mezery. Ve výchozím nastavení bude předpokládat, že když jste dělali tato stará opakování, pamatovali jste si 90 % materiálu. Pokud vaše stará retence byla znatelně vyšší nebo nižší než 90 %, změna tohoto nastavení umožní FSRS lépe aproximovat chybějící opakování.
     
