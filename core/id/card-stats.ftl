@@ -11,6 +11,7 @@ card-stats-new-card-position = Posisi
 card-stats-card-template = Jenis Kartu
 card-stats-note-type = Jenis Catatan
 card-stats-deck-name = Dek
+card-stats-preset = setelan awal
 card-stats-note-id = ID Catatan
 card-stats-card-id = ID Kartu
 card-stats-review-log-rating = Rating

@@ -25,6 +25,7 @@ card-templates-no-front-field = Diduga ditemukan pengganti bidang pada bagian de
 card-templates-missing-cloze = Diduga ditemukan '{ "{{" }cloze:Text{ "}}" }' atau mirip pada bagian depan dan belakang template kartu
 card-templates-extraneous-cloze = 'perumpangan:' hanya bisa digunakan pada jeniscatatan rumpang
 card-templates-see-preview = Lihat tampilan untuk informasi lebih lanjut.
+card-templates-field-not-found = Bidang '{ $field }' tidak ditemukan
 card-templates-changes-saved = Perubahan disimpan.
 card-templates-discard-changes = Batalkan perubahan?
 card-templates-add-card-type = Tambahkan Jenis Kartu....
@@ -35,6 +36,7 @@ card-templates-card = Kartu { $val }
 card-templates-card-types-for = Jenis Kartu untuk { $val }
 card-templates-cloze = Rumpang { $val }
 card-templates-deck-override = Tindih Dek...
+card-templates-copy-info = Salin Informasi ke Clipboard
 card-templates-delete-the-as-card-type-and = Hapus '{ $template }' jenis kartu, dan { $cards }?
 card-templates-enter-deck-to-place-new = Masukkan dek untuk menempatkan { $val } kartu baru ke dalam. atau biarkan kosong:
 card-templates-enter-new-card-position-1 = Masukkan posisi kartu baru (1...{ $val }):
@@ -54,3 +56,6 @@ card-templates-this-will-create-card-proceed =
        *[other] Ini akan membuat { $count } kartu. Lanjutkan?
     }
 card-templates-type-boxes-warning = Hanya mendukung satu typing box per template kartu
+card-templates-restore-to-default = Memulihkan ke Default
+card-templates-restore-to-default-confirmation = Ini akan mengatur ulang semua bidang dan template dalam tipe catatan ini ke nilai defaultnya, menghapus semua bidang/template tambahan beserta isinya, dan semua gaya kustom. Apakah Anda ingin melanjutkan?
+card-templates-restored-to-default = Tipe catatan telah dikembalikan ke kondisi aslinya.
