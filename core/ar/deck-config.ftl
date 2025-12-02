@@ -496,6 +496,8 @@ deck-config-desired-retention-below-optimal = معدل التذكر المرغو
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = محاكي FSRS (تجريبي)
 deck-config-fsrs-simulate-desired-retention-experimental = محاكي الاحتفاظ المطلوب FSRS (تجريبي)
+deck-config-fsrs-simulate-save-preset = بعد التحسين، يرجى حفظ إعدادات مجموعة البطاقات المسبقة قبل تشغيل المحاكي.
+deck-config-fsrs-desired-retention-help-me-decide-experimental = ساعدني في اتخاذ القرار (تجريبي)
 deck-config-additional-new-cards-to-simulate = بطاقات جديدة إضافية للمحاكاة
 deck-config-simulate = محاكاة
 deck-config-clear-last-simulate = مسح المحاكاة الأخيرة
@@ -509,6 +511,9 @@ deck-config-save-options-to-preset-confirm = هل تريد استبدال الخ
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = المحفوظ
+deck-config-fsrs-simulator-radio-ratio = العلاقة بين الوقت والبطاقات المحفوظة
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } لكل بطاقة محفوظة
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
@@ -539,6 +544,7 @@ deck-config-compute-optimal-retention-tooltip4 =
     يمكن استخدام هذا العدد كمرجع عند ضبط قيمة التذكر المرغوب فيه.
     قد ترغب باستخدام قيمة أكبر إذا كنت تريد ضمان تذكر أفضل على حساب وقت دراسة أطول.
     لا ينصح باستخدام قيمة أصغر من القيمة المستحسنة لأن هذا سيؤدي إلى جهد أكبر بدون عائد.
+deck-config-plotted-on-x-axis = (مرسوم على المحور س)
 deck-config-a-100-day-interval =
     { $days ->
         [zero] يصبح فاصل 100 يوم { $days } يوم.

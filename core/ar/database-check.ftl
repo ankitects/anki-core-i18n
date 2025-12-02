@@ -9,6 +9,15 @@ database-check-card-properties =
         [many] تم إصلاح { $count } خاصية بطاقة غير صالحة.
        *[other] تم إصلاح { $count } خاصية بطاقة غير صالحة.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [zero] أضيف وقت المراجعة الأخيرة إلى { $count } بطاقة.
+        [one] أضيف وقت المراجعة الأخيرة إلى بطاقة { $count }.
+        [two] أضيف وقت المراجعة الأخيرة إلى بطاقتين { $count }.
+        [few] أضيف وقت المراجعة الأخيرة إلى { $count } بطاقات.
+        [many] أضيف وقت المراجعة الأخيرة إلى { $count } بطاقة.
+       *[other] أضيف وقت المراجعة الأخيرة إلى { $count } بطاقة.
+    }
 database-check-missing-templates =
     { $count ->
         [zero] لم يتم حذف أي بطاقة بقالب مفقود.
