@@ -50,6 +50,32 @@ studying-type-answer-unknown-field = أدخل الجواب: حقل غير معر
 studying-unbury = نكش
 studying-what-would-you-like-to-unbury = ما الذي تريد نكشه؟
 studying-you-havent-recorded-your-voice-yet = لم تسجّل صوتك بعد.
+studying-card-studied-in-minute =
+    { $cards ->
+        [one]
+            { $minutes ->
+                [one]
+                    تمت دراسة { $cards } بطاقة في
+                    { $minutes } دقيقة.
+               *[other]
+                    تمت دراسة { $cards } بطاقة في
+                    { $minutes } دقائق.
+            }
+       *[other]
+            { $minutes ->
+                [one]
+                    تمت دراسة { $cards } بطاقات في
+                    { $minutes } دقيقة.
+               *[other]
+                    تمت دراسة { $cards } بطاقات في
+                    { $minutes } دقائق.
+            }
+    }
+studying-question-time-elapsed = نفذ وقت السؤال
+studying-answer-time-elapsed = مضى وقت الإجابة
+
+## OBSOLETE; you do not need to translate this
+
 studying-card-studied-in =
     { $count ->
         [zero] درست { $count } بطاقة خلال
@@ -68,5 +94,3 @@ studying-minute =
         [many] { $count } دقيقة.
        *[other] { $count } دقيقة.
     }
-studying-question-time-elapsed = نفذ وقت السؤال
-studying-answer-time-elapsed = مضى وقت الإجابة

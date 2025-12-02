@@ -388,7 +388,6 @@ deck-config-which-deck = ما الرزمة التي تريد عرض خيارات
 deck-config-updating-cards = تحديث البطاقات: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = عوامل FSRS المزودة غير صالحة. أبق الحقل فارغًا لاستخدام العوامل الافتراضية.
 deck-config-not-enough-history = محفوظات المراجعة غير كافية لتنفيذ هذه العملية.
-deck-config-unable-to-determine-desired-retention = فشل تعيين معدل تذكر أمثل.
 deck-config-must-have-400-reviews =
     { $count ->
         [zero] لا توجد أي مراجعة. يجب أن يكون هناك 400 مراجعة على الأقل لهذه العملية.
@@ -401,7 +400,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = عوامل FSRS
 deck-config-compute-optimal-weights = تحسين عوامل FSRS
-deck-config-compute-minimum-recommended-retention = معدل التذكر الأدنى المستحسن
 deck-config-optimize-button = تحسين المجموعة الحالية
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (بطيء)
@@ -414,7 +412,6 @@ deck-config-historical-retention = معدل التذكر التاريخي
 deck-config-smaller-is-better = تشير الأرقام الأصغر إلى ملاءمة أفضل لسجل المراجعة الخاص بك.
 deck-config-steps-too-large-for-fsrs = عند تمكين FSRS، لا يوصى بخطوات (إعادة) التعلم بين الأيام.
 deck-config-get-params = الحصول على المعلمات.
-deck-config-predicted-minimum-recommended-retention = معدل التذكر الأدنى المستحسن: { $num }
 deck-config-complete = اكتمل { $num }%.
 deck-config-iterations = التكرار: { $count }...
 deck-config-reschedule-cards-on-change = إعادة جدولة البطاقات عند التغيير
@@ -464,11 +461,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     
     سيتم حساب العوامل باستخدام سجل المراجعة بكل الرزم في مجموعة الخيارات الحالية بشكل افتراضي.
     يمكنك ضبط البحث قبل حساب العوامل إذا كنت تريد التحكم بالبطاقات المستخدمة في الحساب.
-deck-config-compute-optimal-retention-tooltip4 =
-    هذه الأداة تحاول إيجاد قيمة التذكر المرغوب فيه التي تنتج أكبر قدر من المعلومات المتعلمة في أقل وقت ممكن.
-    يمكن استخدام هذا العدد كمرجع عند ضبط قيمة التذكر المرغوب فيه.
-    قد ترغب باستخدام قيمة أكبر إذا كنت تريد ضمان تذكر أفضل على حساب وقت دراسة أطول.
-    لا ينصح باستخدام قيمة أصغر من القيمة المستحسنة لأن هذا سيؤدي إلى جهد أكبر بدون عائد.
 deck-config-please-save-your-changes-first = يرجى حفظ التغييرات أولًا.
 deck-config-workload-factor-change =
     الحمل التقريبي: { $factor }x
@@ -503,6 +495,7 @@ deck-config-desired-retention-below-optimal = معدل التذكر المرغو
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = محاكي FSRS (تجريبي)
+deck-config-fsrs-simulate-desired-retention-experimental = محاكي الاحتفاظ المطلوب FSRS (تجريبي)
 deck-config-additional-new-cards-to-simulate = بطاقات جديدة إضافية للمحاكاة
 deck-config-simulate = محاكاة
 deck-config-clear-last-simulate = مسح المحاكاة الأخيرة
@@ -538,6 +531,14 @@ deck-config-fsrs-good-fit =
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = فشل تعيين معدل تذكر أمثل.
+deck-config-predicted-minimum-recommended-retention = معدل التذكر الأدنى المستحسن: { $num }
+deck-config-compute-minimum-recommended-retention = معدل التذكر الأدنى المستحسن
+deck-config-compute-optimal-retention-tooltip4 =
+    هذه الأداة تحاول إيجاد قيمة التذكر المرغوب فيه التي تنتج أكبر قدر من المعلومات المتعلمة في أقل وقت ممكن.
+    يمكن استخدام هذا العدد كمرجع عند ضبط قيمة التذكر المرغوب فيه.
+    قد ترغب باستخدام قيمة أكبر إذا كنت تريد ضمان تذكر أفضل على حساب وقت دراسة أطول.
+    لا ينصح باستخدام قيمة أصغر من القيمة المستحسنة لأن هذا سيؤدي إلى جهد أكبر بدون عائد.
 deck-config-a-100-day-interval =
     { $days ->
         [zero] يصبح فاصل 100 يوم { $days } يوم.
