@@ -4,7 +4,7 @@
 ## "5mo" for 5 months.
 
 scheduling-answer-button-time-seconds = { $amount } s
-scheduling-answer-button-time-minutes = { $amount } daq.
+scheduling-answer-button-time-minutes = { $amount } min
 scheduling-answer-button-time-hours = { $amount } soat
 scheduling-answer-button-time-days = { $amount } kun
 scheduling-answer-button-time-months = { $amount } oy
@@ -22,8 +22,8 @@ scheduling-time-span-seconds =
     }
 scheduling-time-span-minutes =
     { $amount ->
-        [one] { $amount } daqiqa
-       *[other] { $amount } daqiqa
+        [one] { $amount } minut
+       *[other] { $amount } minut
     }
 scheduling-time-span-hours =
     { $amount ->
