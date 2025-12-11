@@ -4,7 +4,7 @@
 ## Media synchronization
 
 sync-media-added-count = Afegits: { $up }↑ { $down }↓
-sync-media-removed-count = Eliminades: { $up }↑ { $down }↓
+sync-media-removed-count = Eliminats: { $up }↑ { $down }↓
 sync-media-checked-count = Comprovats: { $count }
 sync-media-starting = Iniciant la sincronizació dels fitxers multimèdia…
 sync-media-complete = Sincronitació dels fitxers multimèdia completada.
