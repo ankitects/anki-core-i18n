@@ -6,6 +6,12 @@ database-check-card-properties =
         [one] Salabota { $count } nederīga kartīšu īpašība.
        *[other] Salabotas { $count } nederīgas kartīšu īpašības.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [zero] Pievienots pēdējais pārskata laiks { $count } kartītēs.
+        [one] Pievienots pēdējais pārskata laiks { $count } kartītē.
+       *[other] Pievienots pēdējais pārskata laiks { $count } kartītē(s).
+    }
 database-check-missing-templates =
     { $count ->
         [zero] Izdzēstas { $count } kartīšu bez veidnes.
