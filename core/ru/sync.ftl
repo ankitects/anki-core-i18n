@@ -64,7 +64,7 @@ sync-ankihub-addon-installation = Установка дополнения AnkiHu
 
 sync-media-log-button = Журнал медиафайлов
 sync-abort-button = Отменить
-sync-download-from-ankiweb = Загрузить с AnkiWeb
+sync-download-from-ankiweb = Скачать с AnkiWeb
 sync-upload-to-ankiweb = Выгрузить на AnkiWeb
 sync-cancel-button = Отменить
 

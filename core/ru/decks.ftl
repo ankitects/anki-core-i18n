@@ -27,7 +27,7 @@ decks-unmovable-cards = Показать все исключённые карт�
 decks-learn-header = Изучаемые
 # The count of cards waiting to be reviewed
 decks-review-header = К просмотру
-decks-zero-minutes-hint = (0 = вернуть карту в исходную колоду)
+decks-zero-minutes-hint = (0 = вернуть карточку в исходную колоду)
 
 ## Sort order of cards
 
