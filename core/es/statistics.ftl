@@ -101,9 +101,9 @@ statistics-counts-relearning-cards = Reaprendiendo
 statistics-counts-title = Conteo de Tarjetas
 statistics-counts-separate-suspended-buried-cards = Separar tarjetas suspendidas/enterradas
 
-## True Retention represents your actual retention rate from past reviews, in
-## comparison to the "desired retention" parameter of FSRS, which forecasts
-## future retention. True Retention is the percentage of all reviewed cards
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
 ## that were marked as "Hard," "Good," or "Easy" within a specific time period.
 ##
 ## Most of these strings are used as column / row headings in a table.
@@ -289,6 +289,7 @@ statistics-cards-per-day =
         [one] { $count } tarjeta/día
        *[other] { $count } tarjetas/día
     }
+statistics-median-ease = Facilidad mediana
 statistics-median-difficulty = Dificultad mediana
 statistics-average-retrievability = Recordabilidad media
 statistics-estimated-total-knowledge = Estimación total de conocimiento

@@ -382,7 +382,6 @@ deck-config-which-deck = ¿Qué mazo quieres?
 deck-config-updating-cards = Actualización de tarjetas en curso: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Los parametros FSRS introducidos son inválidos. Deja los campos vacios para usar los parametros por defecto.
 deck-config-not-enough-history = No hay suficientes repasos en el historial para ejecutar esta operación.
-deck-config-unable-to-determine-desired-retention = No se ha podido determinar una retención minima recomendada.
 deck-config-must-have-400-reviews =
     { $count ->
         [one] Sólo se han encontrado { $count } opiniones. Debe tener al menos 400 opiniones para esta operación.
@@ -391,7 +390,6 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Parámetros FSRS
 deck-config-compute-optimal-weights = Optimizar los parámetros FSRS
-deck-config-compute-minimum-recommended-retention = Retención mínima recomendada
 deck-config-optimize-button = Optimizar
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (lento)
@@ -404,7 +402,6 @@ deck-config-historical-retention = Retención histórica
 deck-config-smaller-is-better = Los números más pequeños indican un mejor ajuste a su historial de revisiones.
 deck-config-steps-too-large-for-fsrs = Cuando el FSRS está activado, no se recomiendan pasos de 1 día o más.
 deck-config-get-params = Obtener parámetros
-deck-config-predicted-minimum-recommended-retention = Retención minima recomendada
 deck-config-complete = { $num }% completo.
 deck-config-iterations = Iteración: { $count }...
 deck-config-reschedule-cards-on-change = Reprogramar tarjetas tras el cambio
@@ -437,11 +434,6 @@ deck-config-compute-optimal-weights-tooltip2 =
     Cuando presiones el butón "Optimizar", FSRS analizará tu historial de repasos, y generará parámetros que sean optimos para tu memoria y el contenido que estés estudiando. Si tus mazos varian mucho en dificultad, se recomienda asignarles diferentes preajustes, ya que los parámetros para mazos fáciles y para mazos difíciles serán diferentes.
     No necesitas optimizar tus parámetros frequentemente - hacerlo una vez cada pocos meses es suficiente.
     Por defecto, los parámetros serán calculados usando el historial de repasos de todos los mazos usando el preajuste seleccionado actualmente. Puedes alterar opcionalmente que tarjetas son utilizadas para calcular los parámetros, si ajustas la búsqueda antes de calcular los parámetros.
-deck-config-compute-optimal-retention-tooltip4 =
-    Esta herramienta intentará determinar el valor de la retención que resultará en la mayor cantidad de material aprendido, en el menor tiempo posible.
-    El número calculado puede servir como referencia cuando decidas el valor de retención que deseas poner.
-    Puede que quieras elegir un valor de retención más alto si deseas invertir más tiempo de estudio para conseguirlo.
-    Poner el valor de retención más bajo que el valor recomendado no se recomienda, ya que resultará en una carga de trabajo más alta, por la tasa de olvido más alta.
 deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
 deck-config-percent-of-reviews =
     { $reviews ->
@@ -483,6 +475,14 @@ deck-config-fsrs-simulator-ratio-tooltip = { $time } por carta memorizada
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = No se ha podido determinar una retención minima recomendada.
+deck-config-predicted-minimum-recommended-retention = Retención minima recomendada
+deck-config-compute-minimum-recommended-retention = Retención mínima recomendada
+deck-config-compute-optimal-retention-tooltip4 =
+    Esta herramienta intentará determinar el valor de la retención que resultará en la mayor cantidad de material aprendido, en el menor tiempo posible.
+    El número calculado puede servir como referencia cuando decidas el valor de retención que deseas poner.
+    Puede que quieras elegir un valor de retención más alto si deseas invertir más tiempo de estudio para conseguirlo.
+    Poner el valor de retención más bajo que el valor recomendado no se recomienda, ya que resultará en una carga de trabajo más alta, por la tasa de olvido más alta.
 deck-config-a-100-day-interval =
     { $days ->
         [one] Un intervalo de 100 diás se volverá en { $days } día.
@@ -507,6 +507,7 @@ deck-config-bury-tooltip =
     Cuando se utiliza el programador V3, las tarjetas de aprendizaje interdía también pueden ser
     enterradas. Las tarjetas de aprendizaje interdía son tarjetas con un paso de aprendizaje actual
     de uno o más días.
+deck-config-health-check-tooltip1 = Esto mostrará un aviso si a FSRS le cuesta adaptarse a tu memoria.
 deck-config-compute-optimal-retention = Calcular la retención mínima recomendada
 deck-config-predicted-optimal-retention = Minimum recommended retention: { $num }
 deck-config-weights-tooltip = Los parámetros FSRS afectan como se programan las tarjetas. Anki empezará con los parámetros por defecto. Una vez que acumules más de 1000 repasos, podrás usar la siguiente opción para optimizar los parámetos para que se adapten lo mejor posible a tu rendimiento en mazos usando este preajuste.
