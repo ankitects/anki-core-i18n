@@ -1,3 +1,4 @@
+importing-aborted = Цуцлагдсан: { $val }
 importing-by-default-anki-will-detect-the = Анки стандарт процессоор талбарын хооронд тэмдгийг илрүүлнэ, жишээ нь, таслал, цэгтэй таслал, гэх мэт. Анки тэмдгийг буруу илрүүлбэл энд оруулна уу. Таб бол \t хэрэглэнэ уу.
 importing-change = Өөрчлөх
 importing-colon = Давхар цэг
@@ -21,6 +22,11 @@ importing-updates = Шинэчлэлтүүд
 # the '|' character
 importing-pipe = Босоо зураас (|)
 importing-semicolon = Цэгтэй таслал
+importing-tab = Tab
+importing-updated = Шинэчлэсэн
+importing-update-always = Дандаа
+importing-update-never = Хэзээ ч үгүй
+importing-update-notes = Тэмдэглэлүүдийг шинэчлэх
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
