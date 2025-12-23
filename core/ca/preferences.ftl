@@ -1,6 +1,6 @@
 preferences-automatically-sync-on-profile-openclose = Sincronitza automàticament en obrir o tancar un perfil
 preferences-backups = Còpies de seguretat
-preferences-change-deck-depending-on-note-type = Canvia la baralla en funció del tipus de nota
+preferences-change-deck-depending-on-note-type = Canvia de baralla en funció del tipus de nota
 preferences-changes-will-take-effect-when-you = Els canvis s’aplicaran quan reinicieu Anki.
 preferences-hours-past-midnight = hora/hores després de la mitjanit
 preferences-language = Llengua
@@ -31,7 +31,7 @@ preferences-login-successful-sync-now = S’ha iniciat la sessió. Voleu desar l
 preferences-timebox-time-limit = Límit de la sessió d’estudi
 preferences-user-interface-size = Mida de la interfície d’usuari
 preferences-when-adding-default-to-current-deck = Afegeix la baralla actual per defecte
-preferences-you-can-restore-backups-via-fileswitch = Podeu restaurar una còpia de seguretat des del menú Fitxer → Canvia de perfil.
+preferences-you-can-restore-backups-via-fileswitch = Podeu restaurar una còpia de seguretat des del menú Fitxer > Canvia de perfil.
 preferences-legacy-timezone-handling = Gestió de zones horàries antiga (tot i que té errors, és necessària si feu servir AnkiDroid 2.14 o inferior)
 preferences-default-search-text = Text de cerca per defecte
 preferences-default-search-text-example = per exemple: 'deck:current'

@@ -25,8 +25,8 @@ browsing-cards-deleted-with-deckname =
         [one] S’ha suprimit una targeta de la baralla { $deck_name }.
        *[other] S’han suprimit { $count } targetes de la baralla { $deck_name }.
     }
-browsing-change-deck = Canvia de baralla
-browsing-change-deck2 = Canvia de baralla…
+browsing-change-deck = Mou de baralla
+browsing-change-deck2 = Mou de baralla…
 browsing-change-note-type = Canvia el tipus de nota
 # Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Canvia el tipus de nota…
