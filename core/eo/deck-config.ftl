@@ -20,12 +20,17 @@ deck-config-new-limit-tooltip = La maksimuma nombro da novaj kartoj por montri p
 deck-config-review-limit-tooltip = La maksimuma nombro da kartoj por ripeti dum tago (se ekzistas kartoj por ripeti).
 deck-config-limit-deck-v3 = Ripetante kartaron, kiu ampleksas subkartarojn; la limigoj agorditaj al ĉiu subkartaro difinas la maksimumaj nombroj da kartoj prenataj el tiu kartaro. La limigoj de elektita kartaro difinas la tutan nombron da kartoj por montri.
 deck-config-limit-new-bound-by-reviews = La limigo de ripetoj influas la novan limigon. Ekzemplo: se via limigo de ripetoj estas 200 kaj vi havas 190 atendantajn ripetojn, maksimume 10 novaj kartoj estos montrataj. Se vi atingos limigon de ripetoj, neniu nova karto montriĝos.
+deck-config-limit-interday-bound-by-reviews = La limigo de ripetoj ankaŭ influas plurtage lernatajn kartojn. Post apliki la limigon, la plurtage lernataj kartoj estas montrataj antaŭ ol ripetataj kartoj.
+deck-config-tab-description =
+    - `Antaŭagordo`: la limigo aplikiĝas al ĉiuj kartaroj uzantaj tiun ĉi antaŭagordon.
+    - `Tiu ĉi kartaro`: la limigo aplikiĝas nur al tiu ĉi kartaro.
+    - `Nur hodiaŭ`: faras provizoran ŝanĝon nur al tiu ĉi kartaro.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
 deck-config-shared-preset = Antaŭagordo
-deck-config-deck-only = Ĉi tiu kartaro
+deck-config-deck-only = Tiu ĉi kartaro
 deck-config-today-only = Nur hodiaŭ
 
 ## New Cards section
