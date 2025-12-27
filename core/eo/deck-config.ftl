@@ -25,6 +25,8 @@ deck-config-tab-description =
     - `Antaŭagordo`: la limigo aplikiĝas al ĉiuj kartaroj uzantaj tiun ĉi antaŭagordon.
     - `Tiu ĉi kartaro`: la limigo aplikiĝas nur al tiu ĉi kartaro.
     - `Nur hodiaŭ`: faras provizoran ŝanĝon nur al tiu ĉi kartaro.
+deck-config-new-cards-ignore-review-limit = Novaj kartoj ignoras limigon de ripetoj
+deck-config-new-cards-ignore-review-limit-tooltip = Implicite la limigo de ripetoj aplikiĝas ankaŭ al novaj kartoj, do neniu nova karto montriĝos antaŭ ol akiri la limigon de ripetoj. Se tiu ĉi agordo estas aktiva, novaj kartoj montriĝos malgraŭ la limigo de ripetoj.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
