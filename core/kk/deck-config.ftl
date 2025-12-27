@@ -29,6 +29,10 @@ deck-config-limit-new-bound-by-reviews =
 deck-config-limit-interday-bound-by-reviews =
     Шолым шектеуі күнаралық оқу карталарына да әсер етеді.
     Шектеу қолданылғанда, алдымен күнаралық оқу карталары алынады, содан кейін шолым карталары қосылады.
+deck-config-tab-description =
+    - `Баптама`: Шектеу осы баптаманы қолданатын колодаларға қойылады.
+    - `Осы колода`: Шектеу тек осы колодаға қойылады.
+     - `Бүгін ғана`: Осы колоданың шектеуін уақытша өзгерту.
 deck-config-new-cards-ignore-review-limit = Шолым шектеуі жаңа карталарға әсер етпейді
 deck-config-apply-all-parent-limits = Шектеулер жоғарыдан басталады
 deck-config-affects-entire-collection = Бүкіл жинаққа әсер есер етеді.
@@ -290,6 +294,7 @@ deck-config-checking-for-improvement = Жетілдірулерді тексер
 deck-config-optimizing-preset = Баптаманы оңтайландыру { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Алдымен FSRS қосылуы керек.
 deck-config-fsrs-params-optimal = Қазір FSRS баптаулары оңтайлы болып көріненді.
+deck-config-fsrs-params-no-reviews = Шолым табылмады. Осы баптаманы оңтайландырғыңыз келетін барлық колодаға (ішкілеріне де) орнатылғанына көз жеткізіп, қайтадан байқап көріңіз.
 deck-config-wait-for-audio = Аудионы күту
 deck-config-show-reminder = Ескерткішті Көрсету
 deck-config-answer-again = Қайтадан Деу
