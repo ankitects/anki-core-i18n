@@ -34,6 +34,10 @@ deck-config-tab-description =
     - `Осы колода`: Шектеу тек осы колодаға қойылады.
      - `Бүгін ғана`: Осы колоданың шектеуін уақытша өзгерту.
 deck-config-new-cards-ignore-review-limit = Шолым шектеуі жаңа карталарға әсер етпейді
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Әддетте шолу шектеуі тек жаңа карталарға қойылады және шектеу жетілгенде
+    жаңа карта көрсетілмейді. Осы баптау қосылғанда жаңа карталар шектеуге
+    қарамастан көрсетіледі.
 deck-config-apply-all-parent-limits = Шектеулер жоғарыдан басталады
 deck-config-affects-entire-collection = Бүкіл жинаққа әсер есер етеді.
 
