@@ -39,6 +39,11 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     жаңа карта көрсетілмейді. Осы баптау қосылғанда жаңа карталар шектеуге
     қарамастан көрсетіледі.
 deck-config-apply-all-parent-limits = Шектеулер жоғарыдан басталады
+deck-config-apply-all-parent-limits-tooltip =
+    Әдетте ішкі колодадан оқығанда жоғарғы  колоданың күндік шектеуі қолданылмайды.
+    Осы баптау қосылғанда шектеулер ең жоғарғы деңгейдегі колодадан басталады.
+    Бұл бүкіл колодалар ағашына шектеу қоя тұра, жеке ішкі колодаларды оқығыңыз
+    келсе пайдалы бола алады.
 deck-config-affects-entire-collection = Бүкіл жинаққа әсер есер етеді.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
