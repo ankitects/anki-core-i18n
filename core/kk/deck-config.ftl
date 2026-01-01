@@ -200,6 +200,10 @@ deck-config-always-include-question-audio-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = Қосымша
+deck-config-maximum-interval-tooltip =
+    Шолу картсы күте алатын шекті күн саны. Шолулар шектеуге жеткенде
+    `Қиын`, `Жақсы`, `Оңай` түгел бірдей аралық береді.
+    Бұл аралық неғұрлым қысқа, жүктемеңіз соғұрлым жоғары.
 deck-config-starting-ease-tooltip = Жаңа карталардың жеңілдік көбейткіші. Әдетте `Жақсы` түймесі жаңадан оқылған картаға бұрынғы шегерілімнен 2.5 есе үлкен шегерілім береді.
 deck-config-easy-bonus-tooltip =
     `Оңай` дегенде шолым картасының аралығына қолданылатын қосымша
@@ -293,6 +297,7 @@ deck-config-get-params = Баптауларды Алу
 deck-config-complete = { $num }% аяқталған.
 deck-config-iterations = Итерация: { $count }...
 deck-config-reschedule-cards-on-change = Өзгерісте карталарды қайта жоспарлау
+deck-config-desired-retention-tooltip2 = Мәлімет терезесіндегі жүктеме мөлшері болжамды есеп. Жоғарырық дәлдік үшін симуляторды қолданыңыз.
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
 deck-config-workload-factor-change =
     Болжам жүктеме: { $factor }x
