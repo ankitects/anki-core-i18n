@@ -60,3 +60,9 @@ database-check-notetypes-recovered = ⵓⵔ ⵉⵍⵍⵉ ⵢⴰⵏ ⵡⴰⵏⴰ�
 
 ## Progress info
 
+database-check-checking-integrity = ⵜⵉⵎⵏⵥⵉⵜ ⵏ ⵜⵉⴳⵔⵓⵎⵎⵉⵏ
+database-check-rebuilding = ⴰⵍⵙ ⵏ ⵓⴽⴰⵔⴰⵙ ...
+database-check-checking-cards = ⵜⵉⵎⵏⵥⵉⵜ ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ
+database-check-checking-notes = ⵜⵉⵎⵏⵥⵉⵜ ⵏ ⵜⵓⵙⵎⵉⵔⵉⵏ
+database-check-checking-history = ⵜⵉⵎⵏⵥⵜ ⵏ ⵓⵎⵣⵔⵓⵢ
+database-check-title = ⵜⵉⵎⵏⵥⵜ ⵏ ⵜⴰⵙⵉⵍ ⵏ ⵉⵙⴼⴽⴰ
