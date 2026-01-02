@@ -74,6 +74,11 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Қайта оқу қадамдары
+deck-config-relearning-steps-tooltip =
+    Нөл және одан да көп ірклістер, бостықтармен бөлінген. Әдетте,
+    шолу картасында `Қайтадан` түймесін басқанда карта 10 минуттен
+    кейін қайта көрсетіледі. Еш іркіліс қойылмаса, карта қайта оқуға
+    өтпей, оның аралығы өзгереді. { -deck-config-delay-hint }
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Тек Тамғалау`: картаға `жабысқақ` тамғасын беріп, қалқыма көрсету.
@@ -244,6 +249,9 @@ deck-config-clone-group = Баптаманы Көшіру
 ## Removing
 
 deck-config-remove-group = Баптаманы Жою
+deck-config-will-require-full-sync =
+    Сұралған өзгеріс біржақты үйлесімді қажет етеді. Басқа құрылғыда өзгерістер
+    жасап, оларды осы құрыда үйлестірмесеңіз, жалғастырмас бұрын оны істеңіз.
 deck-config-confirm-remove-name = { $name } жою?
 
 ## Other Buttons
