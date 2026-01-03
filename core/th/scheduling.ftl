@@ -24,6 +24,9 @@ scheduling-time-span-years = { $amount } ปี
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = เรียนแบบกำหนดเอง
 
 ## Scheduler upgrade
 
@@ -31,11 +34,14 @@ scheduling-update-later-button = ภายหลัง
 
 ## Other scheduling strings
 
+scheduling-automatically-play-audio = เล่นเสียงอัตโนมัติ
 scheduling-days = วัน
 scheduling-description = คำอธิบาย
 scheduling-end = (เสร็จสิ้น)
 scheduling-general = ทั่วไป
 scheduling-learning = กำลังเรียนอยู่
+scheduling-maximum-interval = ระยะห่างสูงสุด
+scheduling-minimum-interval = ระยะห่างต่ำสุด
 scheduling-new-cards = การ์ดใหม่
 scheduling-new-cardsday = การ์ดใหม่ต่อวัน
 scheduling-new-options-group-name = ชื่อกลุ่มตัวเลือกใหม่:
@@ -49,3 +55,5 @@ scheduling-show-new-cards-after-reviews = เมื่อทบทวนเส�
 scheduling-show-new-cards-before-reviews = แสดงการ์ดใหม่ก่อนทบทวน
 scheduling-show-new-cards-in-order-added = แสดงการ์ดใหม่ตามลำดับการเพิ่มการ์ด
 scheduling-show-new-cards-in-random-order = แสดงการ์ดใหม่ตามลำดับสุ่ม
+scheduling-tag-only = แท็กเท่านั้น
+scheduling-deck-updated = อัปเดตสำรับ { $count } ชุดแล้ว

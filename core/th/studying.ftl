@@ -1,5 +1,6 @@
 studying-again = อีกครั้ง
 studying-delete-note = ลบโน้ต
+studying-deleting-this-deck-from-the-deck = เมื่อลบสำรับนี้จากรายการสำรับแล้ว การ์ดทั้งหมดที่เหลือจะกลับคืนสู่สำรับเดิม
 studying-easy = ง่าย
 studying-edit = แก้ไข
 studying-empty = ว่างเปล่า
@@ -12,6 +13,7 @@ studying-record-own-voice = อัดเสียงตัวเอง
 studying-replay-own-voice = เล่นเสียงตัวเองซ้ำ
 studying-show-answer = แสดงคำตอบ
 studying-study-now = เรียนเลย
+studying-you-havent-recorded-your-voice-yet = ยังไม่มีการอัดเสียง
 studying-card-studied-in-minute = เรียนการ์ด { $cards } ใบในเวลา { $minutes } นาที
 
 ## OBSOLETE; you do not need to translate this

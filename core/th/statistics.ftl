@@ -35,6 +35,7 @@ statistics-today-again-count = จำนวนการตอบ "อีกค�
 statistics-counts-total-cards = ทั้งหมด
 statistics-counts-new-cards = ใหม่
 statistics-counts-suspended-cards = ถูกแขวนแล้ว
+statistics-counts-filtered-cards = กรองแล้ว
 statistics-counts-learning-cards = กำลังเรียน
 statistics-counts-relearning-cards = กำลังเรียนใหม่
 statistics-counts-title = จำนวนการ์ด
@@ -61,6 +62,9 @@ statistics-true-retention-week = สัปดาห์ที่แล้ว
 statistics-true-retention-month = เดือนที่แล้ว
 statistics-true-retention-year = ปีที่แล้ว
 statistics-true-retention-all-time = ตลอดกาล
+# If there are no reviews within a specific time period, the retention
+# percentage cannot be calculated and is displayed as "N/A."
+statistics-true-retention-not-applicable = ไม่มีข้อมูล
 
 ##
 
@@ -69,6 +73,7 @@ statistics-range-all-history = ประวัติทั้งหมด
 statistics-range-deck = สำรับ
 statistics-range-search = ค้นหา
 statistics-card-difficulty-title = ความยากของการ์ด
+statistics-future-due-title = ครบกำหนดในอนาคต
 statistics-added-title = เพิ่มแล้ว
 statistics-added-subtitle = จำนวนการ์ดใหม่ที่ได้เพิ่มไปแล้ว
 statistics-reviews-count-subtitle = จำนวนคำถามที่ได้ตอบไป
@@ -92,6 +97,7 @@ statistics-days-ago-single =
        *[other] { $days } วันก่อน
     }
 statistics-cards-due = มีการ์ด { $cards } ใบครบกำหนด
+statistics-intervals-title = ระยะห่างในการทบทวน
 statistics-hours-title = แยกตามชั่วโมง
 # shown when graph is empty
 statistics-no-data = ไม่มีข้อมูล
@@ -122,6 +128,7 @@ statistics-due-tomorrow = ครบกำหนดพรุ่งนี้
 statistics-reviews-per-day = ทบทวน { $count } ครั้ง/วัน
 statistics-minutes-per-day = { $count } นาที/วัน
 statistics-cards-per-day = { $count } การ์ด/วัน
+statistics-estimated-total-knowledge = ความรู้ทั้งหมดที่ประมาณการ
 statistics-save-pdf = บันทึก PDF
 statistics-saved = บันทึกแล้ว
 statistics-stats = สถิติ
