@@ -1,4 +1,7 @@
 studying-again = อีกครั้ง
+studying-card-suspended = พักการ์ดแล้ว
+studying-cards-will-be-automatically-returned-to = หลังทบทวนแล้ว การ์ดจะกลับสำรับเดิมโดยอัตโนมัติ
+studying-continue = ทำต่อ
 studying-delete-note = ลบโน้ต
 studying-deleting-this-deck-from-the-deck = เมื่อลบสำรับนี้จากรายการสำรับแล้ว การ์ดทั้งหมดที่เหลือจะกลับคืนสู่สำรับเดิม
 studying-easy = ง่าย
@@ -7,12 +10,17 @@ studying-empty = ว่างเปล่า
 studying-finish = เสร็จ
 studying-good = ดี
 studying-hard = ยาก
+studying-it-has-been-suspended = ถูกพักแล้ว
 studying-no-cards-are-due-yet = ยังไม่มีการ์ดครบกำหนด
+studying-note-suspended = พักโน้ตแล้ว
 studying-pause-audio = หยุดเล่นเสียงชั่วคราว
 studying-record-own-voice = อัดเสียงตัวเอง
 studying-replay-own-voice = เล่นเสียงตัวเองซ้ำ
 studying-show-answer = แสดงคำตอบ
 studying-study-now = เรียนเลย
+studying-suspend = พัก
+studying-suspend-note = พักโน้ต
+studying-this-is-a-special-deck-for = สำรับนี้เป็นสำรับพิเศษ สำหรับเรียนนอกกำหนดการปกติ
 studying-you-havent-recorded-your-voice-yet = ยังไม่มีการอัดเสียง
 studying-card-studied-in-minute = เรียนการ์ด { $cards } ใบในเวลา { $minutes } นาที
 

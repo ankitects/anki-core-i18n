@@ -1,10 +1,12 @@
 editing-add-media = เพิ่มสื่อ
 editing-align-left = จัดชิดซ้าย
 editing-align-right = จัดชิดขวา
+editing-attach-picturesaudiovideo = แนบภาพ/เสียง/วีดีโอ
 editing-bold-text = ตัวหนา
 editing-cards = การ์ด
 editing-change-color = เปลี่ยนสี
 editing-copy-image = คัดลอกภาพ
+editing-customize-fields = ปรับแต่งช่องข้อมูล
 editing-cut = ตัด
 editing-edit-current = แก้ไขการ์ดปัจจุบัน
 editing-edit-html = แก้ไข HTML

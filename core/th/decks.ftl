@@ -2,6 +2,7 @@ decks-add-new-deck-ctrlandn = เพิ่มสำรับใหม่
 decks-build = สร้าง
 decks-cards-selected-by = การ์ดเลือกโดย
 decks-create-deck = สร้างสำรับ
+decks_create_even_if_empty = สร้าง/อัปเดตสำรับนี้ แม้ว่าสำรับนี้จะว่างเปล่า
 decks-deck = สำรับ
 decks-delete-deck = ลบสำรับ
 decks-enable-second-filter = เปิดตัวกรองที่สอง

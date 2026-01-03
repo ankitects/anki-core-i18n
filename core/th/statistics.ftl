@@ -32,9 +32,11 @@ statistics-reviews = ทบทวน { $reviews } รายการ
 statistics-memorized = จดจำการ์ด { $memorized } ใบแล้ว
 statistics-today-title = วันนี้
 statistics-today-again-count = จำนวนการตอบ "อีกครั้ง":
+statistics-today-type-counts = เรียนรู้: { $learnCount }, ทบทวน: { $reviewCount }, เรียนรู้ซ้ำ: { $relearnCount }, กรอง: { $filteredCount }
+statistics-today-no-cards = ไม่มีการ์ดที่เรียนวันนี้
 statistics-counts-total-cards = ทั้งหมด
 statistics-counts-new-cards = ใหม่
-statistics-counts-suspended-cards = ถูกแขวนแล้ว
+statistics-counts-suspended-cards = ถูกพักแล้ว
 statistics-counts-filtered-cards = กรองแล้ว
 statistics-counts-learning-cards = กำลังเรียน
 statistics-counts-relearning-cards = กำลังเรียนใหม่
@@ -56,6 +58,7 @@ statistics-counts-title = จำนวนการ์ด
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = ทั้งหมด
 statistics-true-retention-count = จำนวน
+statistics-true-retention-all = ทั้งหมด
 statistics-true-retention-today = วันนี้
 statistics-true-retention-yesterday = เมื่อวาน
 statistics-true-retention-week = สัปดาห์ที่แล้ว
@@ -73,7 +76,9 @@ statistics-range-all-history = ประวัติทั้งหมด
 statistics-range-deck = สำรับ
 statistics-range-search = ค้นหา
 statistics-card-difficulty-title = ความยากของการ์ด
+statistics-card-difficulty-tooltip = มีการ์ด { $cards } ใบที่มีความยาก { $percent }
 statistics-future-due-title = ครบกำหนดในอนาคต
+statistics-future-due-subtitle = จำนวนการทบทวนที่จะครบกำหนดในอนาคต
 statistics-added-title = เพิ่มแล้ว
 statistics-added-subtitle = จำนวนการ์ดใหม่ที่ได้เพิ่มไปแล้ว
 statistics-reviews-count-subtitle = จำนวนคำถามที่ได้ตอบไป
@@ -137,4 +142,3 @@ statistics-title = สถิติ
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
-statistics-average-difficulty = ความยากโดยเฉลี่ย

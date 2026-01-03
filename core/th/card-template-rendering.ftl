@@ -10,3 +10,10 @@ card-template-rendering-no-closing-brackets = ขาด '{ $missing }' ใน '{
 # when the user opened a conditional, but forgot to close it
 # eg, Missing '{{/Conditional}}'
 card-template-rendering-conditional-not-closed = ขาด '{ $missing }'
+# when the user closed a conditional that wasn't open
+# eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
+card-template-rendering-conditional-not-open = พบ '{ $found }' แต่ขาด '{ $missing1 }' หรือ '{ $missing2 }'
+# This message is shown when the front side of the card is blank,
+# either due to a badly-designed template, or because required fields
+# are missing.
+card-template-rendering-empty-front = ด้านหน้าของการ์ดนี้ว่างเปล่า

@@ -6,6 +6,7 @@
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks = ใช้ในสำรับ { $decks } ชุด
+deck-config-default-name = ค่าเริ่มต้น
 deck-config-title = ตัวเลือกสำรับ
 
 ## Daily limits section
@@ -19,6 +20,7 @@ deck-config-today-only = วันนี้เท่านั้น
 
 ## New Cards section
 
+deck-config-easy-interval-tooltip = จำนวนวันก่อนที่จะแสดงการ์ดอีกครั้ง หลังจากกดปุ่ม "ง่าย" ระหว่างเรียนรู้
 deck-config-new-insertion-order-random = สุ่ม
 
 ## Lapses section
@@ -35,6 +37,8 @@ deck-config-ordering-title = แสดงลำดับ
 
 # Gather new cards ordered by deck.
 deck-config-new-gather-priority-deck = สำรับ
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = เรียงตามประเภทการ์ด แล้วสุ่ม
 # Sort the cards randomly.
 deck-config-sort-order-random = สุ่ม
 # How new cards or interday learning cards are mixed with review cards.
@@ -49,9 +53,12 @@ deck-config-sort-order-descending-difficulty = การ์ดยากก่อ
 ## Timer section
 
 deck-config-timer-title = ตัวจับเวลา
+deck-config-stop-timer-on-answer = เมื่อตอบแล้ว ให้หยุดตัวจับเวลาบนหน้าจอ
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = จำนวนวินาทีที่จะแสดงคำถาม
+deck-config-seconds-to-show-answer = จำนวนวินาทีที่จะแสดงคำตอบ
 deck-config-question-action-show-answer = แสดงคำตอบ
 
 ## Audio section
@@ -94,6 +101,7 @@ deck-config-description-new-handling = การจัดการ Anki 2.1.41+
 
 ## Warnings shown to the user
 
+deck-config-too-short-maximum-interval = ไม่ควรตั้งระยะห่างสูงสุดต่ำกว่า 6 เดือน
 
 ## Selecting a deck
 

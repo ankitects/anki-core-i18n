@@ -15,3 +15,5 @@ search-card-modified = การ์ดถูกแก้ไขแล้ว
 
 ##
 
+# Tooltip for search lines outside browser
+search-view-in-browser = ดูในเบราว์เซอร์
