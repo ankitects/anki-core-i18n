@@ -6,6 +6,7 @@ browsing-addon = ส่วนเสริม
 browsing-all-fields = ช่องข้อมูลทั้งหมด
 browsing-answer = คำตอบ
 browsing-any-flag = ธงใดก็ได้
+browsing-average-ease = ค่าความง่ายในการจำเฉลี่ย
 browsing-average-interval = ระยะห่างโดยเฉลี่ย
 browsing-browser-appearance = รูปลักษณ์เบราว์เซอร์
 browsing-browser-options = ตัวเลือกเบราว์เซอร์
@@ -87,6 +88,7 @@ browsing-sidebar-card-state = สถานะการ์ด
 browsing-sidebar-flags = ธง
 browsing-today = วันนี้
 browsing-tooltip-card = ชื่อแม่แบบของการ์ด
+browsing-tooltip-cards = จำนวนการ์ดที่โน้ตนี้มี
 browsing-tooltip-notetype = ชื่อประเภทของโน้ต
 browsing-studied-today = เรียนแล้ว
 browsing-added-today = เพิ่มแล้ว
@@ -99,7 +101,7 @@ browsing-row-deleted = (ลบแล้ว)
 browsing-removed-unused-tags-count = ลบแท็กที่ไม่ได้ใช้ { $count } แท็กแล้ว
 browsing-changed-new-position = เปลี่ยนตำแหน่งของการ์ดใหม่ { $count } ใบ
 browsing-reparented-decks = เปลี่ยนชื่อสำรับ { $count } ชุดแล้ว
-browsing-sidebar-card-state-review = บทวิจารณ์
+browsing-sidebar-card-state-review = ทบทวน
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

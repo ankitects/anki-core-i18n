@@ -30,6 +30,7 @@ deck-config-new-insertion-order-random = สุ่ม
 
 ## Burying section
 
+deck-config-bury-title = การซ่อนสำหรับวันนี้
 
 ## Gather order and sort order of cards
 
@@ -55,6 +56,7 @@ deck-config-sort-order-descending-difficulty = การ์ดยากก่อ
 ## Timer section
 
 deck-config-timer-title = ตัวจับเวลา
+deck-config-maximum-answer-secs = ระยะเวลาสูงสุดในการตอบ (วินาที)
 deck-config-stop-timer-on-answer = เมื่อตอบแล้ว ให้หยุดตัวจับเวลาบนหน้าจอ
 
 ## Auto Advance section

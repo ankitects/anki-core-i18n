@@ -1,3 +1,4 @@
+empty-cards-for-note-type = การ์ดว่างเปล่าของ { $notetype }:
 empty-cards-window-title = การ์ดว่างเปล่า
 empty-cards-delete-button = ลบ
 empty-cards-not-found = ไม่มีการ์ดว่างเปล่า

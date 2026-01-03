@@ -1,5 +1,7 @@
 studying-again = อีกครั้ง
 studying-all-buried-cards = การ์ดทั้งหมดที่ถูกซ่อนสำหรับวันนี้
+studying-audio-5s = กรอเสียงถอยหลัง 5 วินาที
+studying-audio-and5s = กรอเสียงไปข้างหน้า 5 วินาที
 studying-bury = ซ่อนวันนี้
 studying-bury-card = ซ่อนการ์ดวันนี้
 studying-bury-note = ซ่อนโน้ตวันนี้
@@ -16,6 +18,7 @@ studying-finish = เสร็จ
 studying-good = ดี
 studying-hard = ยาก
 studying-it-has-been-suspended = ถูกพักแล้ว
+studying-manually-buried-cards = การ์ดที่ถูกซ่อนสำหรับวันนี้ด้วยมือ
 studying-no-cards-are-due-yet = ยังไม่มีการ์ดครบกำหนด
 studying-note-suspended = พักโน้ตแล้ว
 studying-pause-audio = หยุดเล่นเสียงชั่วคราว

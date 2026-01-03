@@ -35,6 +35,7 @@ actions-shortcut-key = คีย์ลัด: { $val }
 actions-suspend-card = พักการ์ด
 actions-set-due-date = ตั้งวันครบกำหนด
 actions-answer-card = การ์ดคำตอบ
+actions-unbury-unsuspend = เลิกซ่อน/เลิกพัก
 actions-add-deck = เพิ่มสำรับ
 actions-add-note = เพิ่มโน้ต
 actions-update-tag = อัปเดตแท็ก

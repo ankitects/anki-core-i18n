@@ -1,3 +1,6 @@
+database-check-card-missing-note = ลบการ์ด { $count } ใบที่ขาดโน้ตแล้ว
+database-check-duplicate-card-ords = ลบการ์ด { $count } ใบที่มีแม่แบบซ้ำกันแล้ว
+
 ## Progress info
 
 database-check-checking-cards = ตรวจสอบการ์ด...
