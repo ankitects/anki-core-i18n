@@ -306,6 +306,9 @@ deck-config-complete = { $num }% аяқталған.
 deck-config-iterations = Итерация: { $count }...
 deck-config-reschedule-cards-on-change = Өзгерісте карталарды қайта жоспарлау
 deck-config-desired-retention-tooltip2 = Мәлімет терезесіндегі жүктеме мөлшері болжамды есеп. Жоғарырық дәлдік үшін симуляторды қолданыңыз.
+deck-config-weights-tooltip2 =
+    FSRS баптаулары карталар кестесіне әсер етеді. Anki әдепкі баптаулармен бастайды. Төмендегі баптауды  пайдаланып, осы баптаманы қолданатын колодалардың параметрлерін үлгеріміңізге барынша сәйкес
+    келетіндей оңтайландыра аласыз.
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
 deck-config-workload-factor-change =
     Болжам жүктеме: { $factor }x
