@@ -2,6 +2,7 @@ card-stats-added = เพิ่มแล้ว
 card-stats-first-review = ทบทวนครั้งแรก
 card-stats-latest-review = ทบทวนครั้งล่าสุด
 card-stats-interval = ระยะห่างระหว่างการทบทวน
+card-stats-ease = ค่าความง่ายในการจำ
 card-stats-review-count = ทบทวน
 card-stats-average-time = เวลาเฉลี่ย
 card-stats-total-time = เวลารวม

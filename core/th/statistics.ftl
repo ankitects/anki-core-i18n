@@ -75,7 +75,9 @@ statistics-range-1-year-history = 12 เดือนที่ผ่านมา
 statistics-range-all-history = ประวัติทั้งหมด
 statistics-range-deck = สำรับ
 statistics-range-search = ค้นหา
+statistics-card-ease-title = ค่าความง่ายในการจำการ์ด
 statistics-card-difficulty-title = ความยากของการ์ด
+statistics-card-ease-subtitle = ยิ่งค่าความง่ายในการจำต่ำ การ์ดยิ่งปรากฏบ่อย
 statistics-card-difficulty-tooltip = มีการ์ด { $cards } ใบที่มีความยาก { $percent }
 statistics-future-due-title = ครบกำหนดในอนาคต
 statistics-future-due-subtitle = จำนวนการทบทวนที่จะครบกำหนดในอนาคต
@@ -142,3 +144,4 @@ statistics-title = สถิติ
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
+statistics-average-ease = ค่าความง่ายในการจำเฉลี่ย

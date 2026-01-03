@@ -1,5 +1,10 @@
 studying-again = อีกครั้ง
+studying-all-buried-cards = การ์ดทั้งหมดที่ถูกซ่อนสำหรับวันนี้
+studying-bury = ซ่อนวันนี้
+studying-bury-card = ซ่อนการ์ดวันนี้
+studying-bury-note = ซ่อนโน้ตวันนี้
 studying-card-suspended = พักการ์ดแล้ว
+studying-cards-buried = การ์ด { $count } ใบถูกซ่อนสำหรับวันนี้
 studying-cards-will-be-automatically-returned-to = หลังทบทวนแล้ว การ์ดจะกลับสำรับเดิมโดยอัตโนมัติ
 studying-continue = ทำต่อ
 studying-delete-note = ลบโน้ต
@@ -21,6 +26,8 @@ studying-study-now = เรียนเลย
 studying-suspend = พัก
 studying-suspend-note = พักโน้ต
 studying-this-is-a-special-deck-for = สำรับนี้เป็นสำรับพิเศษ สำหรับเรียนนอกกำหนดการปกติ
+studying-to-review = ถึงเวลาทบทวน
+studying-unbury = เลิกซ่อน
 studying-you-havent-recorded-your-voice-yet = ยังไม่มีการอัดเสียง
 studying-card-studied-in-minute = เรียนการ์ด { $cards } ใบในเวลา { $minutes } นาที
 

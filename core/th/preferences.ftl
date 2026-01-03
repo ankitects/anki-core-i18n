@@ -21,6 +21,7 @@ preferences-default-deck = สำรับเริ่มต้น
 preferences-account = บัญชี AnkiWeb
 preferences-note = โน้ต
 preferences-import-export = นำเข้า/ส่งออก
+preferences-ankihub-not-logged-in = ไม่ได้เข้าสู่ระบบ AnkiHub ในปัจจุบัน
 
 ## URL scheme related
 

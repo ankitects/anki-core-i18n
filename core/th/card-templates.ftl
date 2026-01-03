@@ -1,5 +1,6 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
 card-templates-blank = ว่างเปล่า
+card-templates-changes-will-affect-notes = การเปลี่ยนแปลงด้านล่างจะกระทบโน้ตจำนวน { $count } โน้ตที่ใช้ประเภทการ์ดนี้
 card-templates-card-type = ประเภทการ์ด:
 card-templates-front-template = แม่แบบด้านหน้า
 card-templates-back-template = แม่แบบด้านหลัง
@@ -10,6 +11,7 @@ card-templates-template-box = แม่แบบ
 card-templates-fill-empty = เติมช่องข้อมูลเปล่า
 card-templates-night-mode = โหมดกลางคืน
 card-templates-preview-settings = ตัวเลือก
+card-templates-field-not-found = ไม่พบช่องข้อมูล '{ $field }'
 card-templates-changes-saved = บันทึกการเปลี่ยนแปลงแล้ว
 card-templates-discard-changes = ละทิ้งการเปลี่ยนแปลง?
 card-templates-add-card-type = เพิ่มประเภทการ์ด...

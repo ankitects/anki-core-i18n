@@ -7,3 +7,4 @@ adding-history = ประวัติ
 adding-note-deleted = (โน้ตถูกลบแล้ว)
 adding-shortcut = ทางลัด: { $val }
 adding-the-first-field-is-empty = ช่องข้อมูลแรกว่างเปล่า
+adding-you-have-a-cloze-deletion-note = คุณใช้โน้ตประเภทเติมคำ แต่ไม่ได้สร้างช่องเติมคำ ดำเนินการต่อไหม

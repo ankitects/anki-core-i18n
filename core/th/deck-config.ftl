@@ -112,6 +112,7 @@ deck-config-which-deck = ต้องการแสดงตัวเลือ�
 
 ## Messages related to the FSRS scheduler
 
+deck-config-please-save-your-changes-first = กรุณาบันทึกการเปลี่ยนแปลงก่อน
 deck-config-percent-input = { $pct }%
 deck-config-wait-for-audio = รอเสียง
 deck-config-answer-again = ตอบ "อีกครั้ง"
