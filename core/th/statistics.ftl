@@ -1,9 +1,14 @@
+# The date a card will be ready to review
+statistics-due-date = วันที่ครบกำหนด
+# The count of cards waiting to be reviewed
+statistics-due-count = การ์ดที่ครบกำหนด
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = ใหม่ #{ $number }
 
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } การ์ด/นาที
+statistics-average-answer-time = { $average-seconds } วินาที ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -18,14 +23,21 @@ statistics-in-time-span-years = ใน { $amount } ปี
 ##
 
 statistics-cards = การ์ด { $cards } ใบ
+statistics-notes = โน้ต { $notes } โน้ต
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews = ทบทวน { $reviews } รายการ
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = จดจำการ์ด { $memorized } ใบแล้ว
 statistics-today-title = วันนี้
+statistics-today-again-count = จำนวนการตอบ "อีกครั้ง":
 statistics-counts-total-cards = ทั้งหมด
 statistics-counts-new-cards = ใหม่
 statistics-counts-suspended-cards = ถูกแขวนแล้ว
 statistics-counts-learning-cards = กำลังเรียน
 statistics-counts-relearning-cards = กำลังเรียนใหม่
+statistics-counts-title = จำนวนการ์ด
 
 ## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
@@ -42,6 +54,7 @@ statistics-counts-relearning-cards = กำลังเรียนใหม่
 
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = ทั้งหมด
+statistics-true-retention-count = จำนวน
 statistics-true-retention-today = วันนี้
 statistics-true-retention-yesterday = เมื่อวาน
 statistics-true-retention-week = สัปดาห์ที่แล้ว
@@ -51,13 +64,21 @@ statistics-true-retention-all-time = ตลอดกาล
 
 ##
 
+statistics-range-1-year-history = 12 เดือนที่ผ่านมา
+statistics-range-all-history = ประวัติทั้งหมด
 statistics-range-deck = สำรับ
 statistics-range-search = ค้นหา
 statistics-card-difficulty-title = ความยากของการ์ด
+statistics-added-title = เพิ่มแล้ว
+statistics-added-subtitle = จำนวนการ์ดใหม่ที่ได้เพิ่มไปแล้ว
+statistics-reviews-count-subtitle = จำนวนคำถามที่ได้ตอบไป
+statistics-reviews-time-subtitle = ระยะเวลาที่ใช้ตอบคำถาม
+statistics-answer-buttons-title = ปุ่มคำตอบ
 # eg Button: 4
 statistics-answer-buttons-button-number = ปุ่ม
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = จำนวนครั้งที่กด
+statistics-answer-buttons-subtitle = จำนวนครั้งที่กดแต่ละปุ่ม
 statistics-reviews-title = ทบทวน
 statistics-in-days-single =
     { $days ->
@@ -70,6 +91,10 @@ statistics-days-ago-single =
         [1] เมื่อวาน
        *[other] { $days } วันก่อน
     }
+statistics-cards-due = มีการ์ด { $cards } ใบครบกำหนด
+statistics-hours-title = แยกตามชั่วโมง
+# shown when graph is empty
+statistics-no-data = ไม่มีข้อมูล
 statistics-calendar-title = ปฏิทิน
 
 ## An amount of elapsed time, used in the graphs to show the amount of
@@ -78,6 +103,12 @@ statistics-calendar-title = ปฏิทิน
 ##
 ## Please try to keep the text short, as longer text may get cut off.
 
+statistics-elapsed-time-seconds = { $amount } วินาที
+statistics-elapsed-time-minutes = { $amount } นาที
+statistics-elapsed-time-hours = { $amount } ชั่วโมง
+statistics-elapsed-time-days = { $amount } วัน
+statistics-elapsed-time-months = { $amount } เดือน
+statistics-elapsed-time-years = { $amount } ปี
 
 ##
 
@@ -86,6 +117,11 @@ statistics-calendar-title = ปฏิทิน
 # total of all existing items.
 statistics-total = ทั้งหมด
 statistics-average-answer-time-label = เวลาการตอบโดยเฉลี่ย
+statistics-average = เฉลี่ย
+statistics-due-tomorrow = ครบกำหนดพรุ่งนี้
+statistics-reviews-per-day = ทบทวน { $count } ครั้ง/วัน
+statistics-minutes-per-day = { $count } นาที/วัน
+statistics-cards-per-day = { $count } การ์ด/วัน
 statistics-save-pdf = บันทึก PDF
 statistics-saved = บันทึกแล้ว
 statistics-stats = สถิติ

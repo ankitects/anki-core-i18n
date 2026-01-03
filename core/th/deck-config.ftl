@@ -37,9 +37,18 @@ deck-config-ordering-title = แสดงลำดับ
 deck-config-new-gather-priority-deck = สำรับ
 # Sort the cards randomly.
 deck-config-sort-order-random = สุ่ม
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = ทบทวนแล้วค่อยแสดง
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = แสดงก่อนทบทวน
+# Sort the cards by difficulty, in ascending order (easiest to hardest).
+deck-config-sort-order-ascending-difficulty = การ์ดง่ายก่อน
+# Sort the cards by difficulty, in descending order (hardest to easiest).
+deck-config-sort-order-descending-difficulty = การ์ดยากก่อน
 
 ## Timer section
 
+deck-config-timer-title = ตัวจับเวลา
 
 ## Auto Advance section
 
@@ -52,9 +61,19 @@ deck-config-disable-autoplay = ไม่เล่นเสียงโดยอ�
 
 ## Advanced section
 
+deck-config-advanced-title = ขั้นสูง
 
 ## Easy Days section.
 
+deck-config-easy-days-monday = จ.
+deck-config-easy-days-tuesday = อ.
+deck-config-easy-days-wednesday = พ.
+deck-config-easy-days-thursday = พฤ.
+deck-config-easy-days-friday = ศ.
+deck-config-easy-days-saturday = ส.
+deck-config-easy-days-sunday = อา.
+deck-config-easy-days-normal = ปกติ
+deck-config-easy-days-minimum = ขั้นต่ำ
 
 ## Adding/renaming
 
@@ -62,6 +81,7 @@ deck-config-name-prompt = ชื่อ
 
 ## Removing
 
+deck-config-confirm-remove-name = นำ { $name } ออก?
 
 ## Other Buttons
 
@@ -70,6 +90,7 @@ deck-config-save-button = บันทึก
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = การจัดการ Anki 2.1.41+
 
 ## Warnings shown to the user
 
@@ -80,6 +101,13 @@ deck-config-save-button = บันทึก
 ## Messages related to the FSRS scheduler
 
 deck-config-percent-input = { $pct }%
+deck-config-answer-again = ตอบ "อีกครั้ง"
+deck-config-answer-hard = ตอบ "ยาก"
+deck-config-answer-good = ตอบ "ดี"
+deck-config-days-to-simulate = จำนวนวันที่จะจำลอง
+deck-config-simulate = จำลอง
+deck-config-fsrs-simulator-radio-count = การทบทวน
+deck-config-advanced-settings = การตั้งค่าขั้นสูง
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 

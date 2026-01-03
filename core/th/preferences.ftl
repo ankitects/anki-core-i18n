@@ -1,8 +1,28 @@
 preferences-backups = สำรองข้อมูล
 preferences-language = ภาษา
+preferences-mins = นาที
+preferences-next-day-starts-at = วันใหม่เริ่มต้นตอน
+preferences-default-search-text-example = เช่น "deck:current"
+preferences-theme-light = สว่าง
+preferences-theme-dark = มืด
+preferences-reduce-motion = ลดการเคลื่อนไหว
+preferences-custom-sync-url-disclaimer = สำหรับผู้ใช้ที่มีความชำนาญ กรุณาดูคู่มือ
+preferences-hide-top-bar-during-review = ซ่อนแถบด้านบนระหว่างทบทวน
+preferences-hide-bottom-bar-during-review = ซ่อนแถบด้านล่างระหว่างทบทวน
+preferences-always = ทุกครั้ง
+preferences-full-screen-only = ขยายเต็มหน้าจอเท่านั้น
+preferences-appearance = รูปลักษณ์
+preferences-general = ทั่วไป
+preferences-review = ทบทวน
+preferences-minimalist-mode = โหมดมินิมอล
+preferences-account = บัญชี AnkiWeb
+preferences-note = โน้ต
+preferences-import-export = นำเข้า/ส่งออก
 
 ## URL scheme related
 
+preferences-url-scheme-allow-once = อนุญาตเฉพาะครั้งนี้
+preferences-url-scheme-always-allow = อนุญาตทุกครั้ง
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

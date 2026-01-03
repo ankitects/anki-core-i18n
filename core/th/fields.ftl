@@ -1,1 +1,12 @@
+fields-add-field = เพิ่มช่องข้อมูล
+fields-delete-field-from = ลบช่องข้อมูลจาก { $val } ?
+fields-field = ช่องข้อมูล:
+fields-field-name = ชื่อช่องข้อมูล:
+fields-description = คำอธิบาย
+fields-description-placeholder = ข้อความสำหรับแสดงในช่องข้อมูล เมื่อช่องข้อมูลนี้ว่างเปล่า
+fields-fields-for = ช่องข้อมูลของ { $val }
+fields-font = ฟอนต์:
+fields-notes-require-at-least-one-field = โน้ตต้องมีช่องข้อมูลอย่างน้อยหนึ่งช่อง
 fields-size = ขนาด:
+fields-name-first-letter-not-valid = ชื่อช่องข้อมูลต้องไม่เริ่มต้นด้วย #, ^ หรือ /
+fields-name-invalid-letter = ชื่อช่องข้อมูลต้องไม่มี :, ", { "{" } หรือ { "}" }
