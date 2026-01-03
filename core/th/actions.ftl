@@ -32,13 +32,22 @@ actions-save = บันทึก
 actions-search = ค้นหา
 actions-select = เลือก
 actions-shortcut-key = คีย์ลัด: { $val }
+actions-suspend-card = พักการ์ด
 actions-set-due-date = ตั้งวันครบกำหนด
 actions-answer-card = การ์ดคำตอบ
 actions-add-deck = เพิ่มสำรับ
 actions-add-note = เพิ่มโน้ต
+actions-update-tag = อัปเดตแท็ก
+actions-update-note = อัปเดตโน้ต
+actions-update-card = อัปเดตการ์ด
+actions-update-deck = อัปเดตสำรับ
+actions-forget-card = รีเซ็ตการ์ด
 actions-add-notetype = เพิ่มประเภทโน้ต
 actions-remove-notetype = นำประเภทโน้ตออก
+actions-update-notetype = อัปเดตประเภทโน้ต
+actions-update-config = อัปเดตการตั้งค่า
 actions-card-info = ข้อมูลการ์ด
+actions-previous-card-info = ข้อมูลการ์ดก่อนหน้า
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
@@ -58,4 +67,5 @@ actions-flag-purple = ม่วง
 
 ##
 
+actions-set-flag = ตั้งธง
 actions-processing = กำลังดำเนินการ...

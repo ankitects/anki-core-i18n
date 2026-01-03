@@ -1,3 +1,4 @@
+importing-allow-html-in-fields = อนุญาตให้ใส่ HTML ในช่องข้อมูล
 importing-change = เปลี่ยน
 importing-colon = ทวิภาค
 importing-comma = จุลภาค

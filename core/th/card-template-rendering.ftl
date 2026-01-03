@@ -4,6 +4,8 @@
 
 # Label of link users can click on
 card-template-rendering-more-info = ข้อมูลเพิ่มเติม
+card-template-rendering-front-side-problem = แม่แบบด้านหน้ามีปัญหา:
+card-template-rendering-back-side-problem = แม่แบบด้านหลังมีปัญหา:
 # when the user forgot to close a field reference,
 # eg, Missing '}}' in '{{Field'
 card-template-rendering-no-closing-brackets = ขาด '{ $missing }' ใน '{ $tag }'

@@ -11,6 +11,7 @@ deck-config-title = ตัวเลือกสำรับ
 
 ## Daily limits section
 
+deck-config-daily-limits = จำนวนสูงสุดต่อวัน
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -21,6 +22,7 @@ deck-config-today-only = วันนี้เท่านั้น
 ## New Cards section
 
 deck-config-easy-interval-tooltip = จำนวนวันก่อนที่จะแสดงการ์ดอีกครั้ง หลังจากกดปุ่ม "ง่าย" ระหว่างเรียนรู้
+deck-config-new-insertion-order-sequential = ตามลำดับ (การ์ดเก่าที่สุดก่อน)
 deck-config-new-insertion-order-random = สุ่ม
 
 ## Lapses section
@@ -65,6 +67,7 @@ deck-config-question-action-show-answer = แสดงคำตอบ
 
 deck-config-audio-title = เสียง
 deck-config-disable-autoplay = ไม่เล่นเสียงโดยอัตโนมัติ
+deck-config-skip-question-when-replaying = ข้ามคำถามเมื่อเล่นคำตอบซ้ำ
 
 ## Advanced section
 
@@ -105,10 +108,12 @@ deck-config-too-short-maximum-interval = ไม่ควรตั้งระย
 
 ## Selecting a deck
 
+deck-config-which-deck = ต้องการแสดงตัวเลือกให้กับสำรับไหน
 
 ## Messages related to the FSRS scheduler
 
 deck-config-percent-input = { $pct }%
+deck-config-wait-for-audio = รอเสียง
 deck-config-answer-again = ตอบ "อีกครั้ง"
 deck-config-answer-hard = ตอบ "ยาก"
 deck-config-answer-good = ตอบ "ดี"

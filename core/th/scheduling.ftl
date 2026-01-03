@@ -24,12 +24,22 @@ scheduling-time-span-years = { $amount } ปี
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    { $unit ->
+        [seconds] การ์ดเรียนรู้ใบต่อไปจะพร้อมใน { $amount } วินาที
+        [minutes] การ์ดเรียนรู้ใบต่อไปจะพร้อมใน { $amount } นาที
+       *[hours] การ์ดเรียนรู้ใบต่อไปจะพร้อมใน { $amount } ชั่วโมง
+    }
+scheduling-today-review-limit-reached = ได้ทบทวนเป็นจำนวนครั้งสูงสุดที่ตั้งไว้แล้วสำหรับวันนี้ แต่ยังมีการ์ดที่ยังรอการทบทวน ลองพิจารณาเพิ่มจำนวนการทบทวนประจำวันในการตั้งค่า เพื่อจำให้ได้ดีที่สุด
+scheduling-how-to-custom-study = หากต้องการเรียนนอกกำหนดการปกติ สามารถใช้ฟีเจอร์ { $customStudy }
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = เรียนแบบกำหนดเอง
 
 ## Scheduler upgrade
 
+scheduling-update-button = อัปเดต
 scheduling-update-later-button = ภายหลัง
 
 ## Other scheduling strings
@@ -41,6 +51,7 @@ scheduling-end = (เสร็จสิ้น)
 scheduling-general = ทั่วไป
 scheduling-learning = กำลังเรียนอยู่
 scheduling-maximum-interval = ระยะห่างสูงสุด
+scheduling-maximum-reviewsday = จำนวนการทบทวนสูงสุดต่อวัน
 scheduling-minimum-interval = ระยะห่างต่ำสุด
 scheduling-new-cards = การ์ดใหม่
 scheduling-new-cardsday = การ์ดใหม่ต่อวัน
