@@ -2,6 +2,7 @@ importing-allow-html-in-fields = อนุญาตให้ใส่ HTML ใ�
 importing-change = เปลี่ยน
 importing-colon = ทวิภาค
 importing-comma = จุลภาค
+importing-empty-first-field = ช่องข้อมูลช่องแรกว่างเปล่า: { $val }
 importing-import-options = ตัวเลือกการนำเข้า
 importing-importing-complete = การนำเข้าสำเร็จ
 importing-new-deck-will-be-created = จะสร้างสำรับใหม่: { $name }
@@ -29,6 +30,9 @@ importing-note-updated = อัปเดตโน้ต { $count } โน้ต�
 importing-processed-media-file = นำเข้าไฟล์สื่อ { $count } ไฟล์แล้ว
 importing-importing-file = กำลังนำเข้าไฟล์...
 importing-gathering = กำลังรวบรวมข้อมูล...
+importing-failed-to-import-media-file = ไม่สามารถนำเข้าไฟล์สื่อ: { $debugInfo }
+importing-processed-notes = ประมวลผลโน้ต { $count } โน้ต...
+importing-processed-cards = ประมวลผลการ์ด { $count } ใบ...
 # "Existing notes: Update" (verb)
 importing-update = อัปเดต
 importing-tag-all-notes = แท็กโน้ตทั้งหมด
@@ -38,10 +42,15 @@ importing-notetype-and-deck = ประเภทโน้ตและสำร�
 importing-cards-added = เพิ่มการ์ด { $count } ใบแล้ว
 importing-file-empty = ไฟล์ที่เลือกไว้เป็นไฟล์เปล่า
 importing-notes-added = นำเข้าโน้ตใหม่ { $count } โน้ตแล้ว
+importing-notes-failed = โน้ตจำนวน { $count } โน้ต ไม่สามารถนำเข้าได้
+importing-conflicting-notes-skipped = โน้ตจำนวน { $count } โน้ตไม่ถูกนำเข้า เพราะประเภทโน้ตมีการเปลี่ยนแปลง
 importing-no-notes-in-file = ไม่พบโน้ตในไฟล์
 importing-show = แสดง
 importing-details = รายละเอียด
 importing-status = สถานะ
+importing-note-skipped-due-to-missing-notetype = โน้ตถูกข้าม เพราะขาดประเภทโน้ต
+importing-note-skipped-due-to-missing-deck = โน้ตถูกข้าม เพราะขาดสำรับ
+importing-note-skipped-due-to-empty-first-field = โน้ตถูกข้าม เพราะช่องข้อมูลช่องแรกว่างเปล่า
 importing-overview = ภาพรวม
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.

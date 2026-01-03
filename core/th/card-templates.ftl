@@ -11,6 +11,7 @@ card-templates-template-box = แม่แบบ
 card-templates-fill-empty = เติมช่องข้อมูลเปล่า
 card-templates-night-mode = โหมดกลางคืน
 card-templates-preview-settings = ตัวเลือก
+card-templates-extraneous-cloze = 'cloze:' ใช้ได้ในโน้ตประเภทเติมคำเท่านั้น
 card-templates-field-not-found = ไม่พบช่องข้อมูล '{ $field }'
 card-templates-changes-saved = บันทึกการเปลี่ยนแปลงแล้ว
 card-templates-discard-changes = ละทิ้งการเปลี่ยนแปลง?
