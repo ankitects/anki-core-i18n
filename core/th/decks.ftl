@@ -4,6 +4,7 @@ decks-create-deck = สร้างสำรับ
 decks-deck = สำรับ
 decks-delete-deck = ลบสำรับ
 decks-filter = ตัวกรอง:
+decks-filter-2 = ตัวกรอง 2
 decks-import-file = นำเข้าไฟล์
 decks-minutes = นาที
 decks-new-deck-name = ชื่อสำรับใหม่:
