@@ -1,4 +1,18 @@
 actions-add = เพิ่ม
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-all-selected = ตรงตามทุกเงื่อนไขที่เลือก
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
+actions-any-selected = ตรงตามเงื่อนไขที่เลือกอย่างน้อยหนึ่งข้อ
 actions-cancel = ยกเลิก
 actions-choose = เลือก
 actions-close = ปิด

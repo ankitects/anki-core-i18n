@@ -7,6 +7,7 @@ fields-description = คำอธิบาย
 fields-description-placeholder = ข้อความสำหรับแสดงในช่องข้อมูล เมื่อช่องข้อมูลนี้ว่างเปล่า
 fields-fields-for = ช่องข้อมูลของ { $val }
 fields-font = ฟอนต์:
+fields-new-position-1 = ตำแหน่งใหม่ (1...{ $val }):
 fields-notes-require-at-least-one-field = โน้ตต้องมีช่องข้อมูลอย่างน้อยหนึ่งช่อง
 fields-collapse-by-default = ย่อโดยอัตโนมัติ
 fields-html-by-default = ใช้เครื่องมือแก้ไข HTML เป็นค่าเริ่มต้น

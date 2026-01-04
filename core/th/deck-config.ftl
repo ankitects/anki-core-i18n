@@ -12,6 +12,7 @@ deck-config-title = ตัวเลือกสำรับ
 ## Daily limits section
 
 deck-config-daily-limits = จำนวนสูงสุดต่อวัน
+deck-config-review-limit-tooltip = จำนวนสูงสุดของการ์ดทบทวนที่จะแสดงในแต่ละวัน ถ้าการ์ดพร้อมทบทวนแล้ว
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.

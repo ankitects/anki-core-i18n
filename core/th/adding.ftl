@@ -9,3 +9,4 @@ adding-shortcut = ทางลัด: { $val }
 adding-the-first-field-is-empty = ช่องข้อมูลแรกว่างเปล่า
 adding-you-have-a-cloze-deletion-note = คุณใช้โน้ตประเภทเติมคำ แต่ไม่ได้สร้างช่องเติมคำ ดำเนินการต่อไหม
 adding-cloze-outside-cloze-notetype = สร้างช่องเติมคำได้เฉพาะในโน้ตประเภทเติมคำเท่านั้น
+adding-cloze-outside-cloze-field = ช่องเติมคำใส่ได้เฉพาะในช่องข้อมูลที่ใช้ตัวกรอง 'cloze:' ซึ่งมักจะเป็นช่องข้อมูลช่องแรก

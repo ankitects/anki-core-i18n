@@ -39,3 +39,4 @@ notetypes-occlusion-note = โน้ต
 notetypes-comments-field = ความคิดเห็น
 notetype-error-no-image-to-show = ไม่มีรูปสำหรับแสดง
 notetypes-io-select-image = เลือกรูป
+notetypes-io-paste-image-from-clipboard = วางภาพจากคลิปบอร์ด
