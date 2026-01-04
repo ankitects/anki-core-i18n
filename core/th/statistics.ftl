@@ -36,6 +36,7 @@ statistics-today-type-counts = เรียนรู้: { $learnCount }, ทบ
 statistics-today-no-cards = ไม่มีการ์ดที่เรียนวันนี้
 statistics-counts-total-cards = ทั้งหมด
 statistics-counts-new-cards = ใหม่
+statistics-counts-mature-cards = แก่กล้า
 statistics-counts-suspended-cards = ถูกพักแล้ว
 statistics-counts-buried-cards = ถูกซ่อนสำหรับวันนี้
 statistics-counts-filtered-cards = กรองแล้ว
