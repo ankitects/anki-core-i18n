@@ -18,7 +18,7 @@ decks-no-deck = [neniu kartaro]
 decks-please-select-something = Elektu almenaŭ unu.
 decks-repeat-failed-cards-after = Ripeti malsukcese lernitajn kartojn post
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = Prokrasto por butono “{ $button }”
+decks-delay-for-button = Intertempo por butono “{ $button }”
 decks-reschedule-cards-based-on-my-answers = Replani kartojn laŭ miaj respondoj donitaj en tiu ĉi kartaro
 decks-study = Lernado
 decks-study-deck = Lernkartaro

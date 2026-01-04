@@ -41,6 +41,9 @@ deck-config-today-only = Nur hodiaŭ
 ## New Cards section
 
 deck-config-learning-steps = Lernpaŝoj
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Intertempoj kutime estos en minutoj (ekzemple `1m`) aŭ tagoj (ekzemple `2d`), sed vi ankaŭ povas uzi horojn (ekzemple `1h`) kaj sekundojn (ekzemple `30s`).
+deck-config-learning-steps-tooltip = Unu aŭ pli intertempoj, disigitaj per spacetoj. La unua intertempo estos uzita, kiam vi alklakos la butonon “Denove” ĉe nova karto, ĝi implicite estas 1 minuto. La butono “Bona” movos karton al la sekva paŝo, kiu implicite estas 10 minutoj.  Kiam ĉiuj paŝoj estos plenumitaj, la karto estiĝos ripeta karto kaj aperos je alia tago. { -deck-config-delay-hint }
 deck-config-new-insertion-order-random = hazarde
 
 ## Lapses section
