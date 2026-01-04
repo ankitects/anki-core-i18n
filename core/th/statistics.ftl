@@ -33,7 +33,9 @@ statistics-memorized = จดจำการ์ด { $memorized } ใบแล�
 statistics-today-title = วันนี้
 statistics-today-again-count = จำนวนการตอบ "อีกครั้ง":
 statistics-today-type-counts = เรียนรู้: { $learnCount }, ทบทวน: { $reviewCount }, เรียนรู้ซ้ำ: { $relearnCount }, กรอง: { $filteredCount }
-statistics-today-no-cards = ไม่มีการ์ดที่เรียนวันนี้
+statistics-today-no-cards = ไม่มีการ์ดที่ฝึกฝนวันนี้
+statistics-today-no-mature-cards = ไม่มีการ์ดแก่กล้าที่ฝึกฝนวันนี้
+statistics-today-correct-mature = อัตราการตอบการ์ดแก่กล้าถูก: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = ทั้งหมด
 statistics-counts-new-cards = ใหม่
 statistics-counts-mature-cards = แก่กล้า
@@ -43,6 +45,7 @@ statistics-counts-filtered-cards = กรองแล้ว
 statistics-counts-learning-cards = กำลังเรียน
 statistics-counts-relearning-cards = กำลังเรียนใหม่
 statistics-counts-title = จำนวนการ์ด
+statistics-counts-separate-suspended-buried-cards = แยกการ์ดที่ถูกพัก/ซ่อน
 
 ## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
@@ -60,6 +63,8 @@ statistics-counts-title = จำนวนการ์ด
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = ทั้งหมด
 statistics-true-retention-count = จำนวน
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = แก่กล้า
 statistics-true-retention-all = ทั้งหมด
 statistics-true-retention-today = วันนี้
 statistics-true-retention-yesterday = เมื่อวาน
@@ -108,7 +113,7 @@ statistics-days-ago-single =
        *[other] { $days } วันก่อน
     }
 statistics-cards-due = มีการ์ด { $cards } ใบครบกำหนด
-statistics-intervals-title = ระยะห่างในการทบทวน
+statistics-intervals-title = ระยะห่างระหว่างการทบทวน
 statistics-hours-title = แยกตามชั่วโมง
 # shown when graph is empty
 statistics-no-data = ไม่มีข้อมูล
@@ -129,10 +134,12 @@ statistics-elapsed-time-years = { $amount } ปี
 
 ##
 
+statistics-average-for-days-studied = ค่าเฉลี่ยวันที่ฝึกฝน
 # This term is used in a variety of contexts to refers to the total amount of
 # items (e.g., cards, mature cards, etc) for a given period, rather than the
 # total of all existing items.
 statistics-total = ทั้งหมด
+statistics-days-studied = จำนวนวันที่ฝึกฝน
 statistics-average-answer-time-label = เวลาการตอบโดยเฉลี่ย
 statistics-average = เฉลี่ย
 statistics-due-tomorrow = ครบกำหนดพรุ่งนี้
@@ -148,4 +155,3 @@ statistics-title = สถิติ
 ## These strings are no longer used - you do not need to translate them if they
 ## are not already translated.
 
-statistics-average-ease = ค่าความง่ายในการจำเฉลี่ย

@@ -69,4 +69,6 @@ actions-flag-purple = ม่วง
 ##
 
 actions-set-flag = ตั้งธง
+actions-nothing-to-undo = ไม่มีอะไรให้เลิกทำ
+actions-nothing-to-redo = ไม่มีอะไรให้ทำซ้ำ
 actions-processing = กำลังดำเนินการ...
