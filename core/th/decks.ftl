@@ -17,6 +17,7 @@ decks-filtered-deck-search-empty = ไม่พบการ์ดที่ตร
 decks-learn-header = เรียน
 # The count of cards waiting to be reviewed
 decks-review-header = ครบกำหนด
+decks-zero-minutes-hint = (0 = นำการ์ดคืนสำรับต้นสังกัด)
 
 ## Sort order of cards
 

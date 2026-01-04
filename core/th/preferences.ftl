@@ -1,6 +1,8 @@
 preferences-backups = สำรองข้อมูล
+preferences-changes-will-take-effect-when-you = การเปลี่ยนแปลงจะส่งผลหลังปิดแล้วเปิด Anki ใหม่อีกครั้ง
 preferences-language = ภาษา
 preferences-mins = นาที
+preferences-network = การซิงก์
 preferences-next-day-starts-at = วันใหม่เริ่มต้นตอน
 preferences-default-search-text = ข้อความค้นหาเริ่มต้น
 preferences-default-search-text-example = เช่น "deck:current"
