@@ -38,6 +38,7 @@ statistics-today-no-mature-cards = ไม่มีการ์ดแก่กล
 statistics-today-correct-mature = อัตราการตอบการ์ดแก่กล้าถูก: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = ทั้งหมด
 statistics-counts-new-cards = ใหม่
+statistics-counts-young-cards = แบเบาะ
 statistics-counts-mature-cards = แก่กล้า
 statistics-counts-suspended-cards = ถูกพักแล้ว
 statistics-counts-buried-cards = ถูกซ่อนสำหรับวันนี้
@@ -63,6 +64,8 @@ statistics-counts-separate-suspended-buried-cards = แยกการ์ดท�
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = ทั้งหมด
 statistics-true-retention-count = จำนวน
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = แบเบาะ
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = แก่กล้า
 statistics-true-retention-all = ทั้งหมด
