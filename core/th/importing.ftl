@@ -1,5 +1,6 @@
 importing-failed-debug-info = การนำเข้าไม่สำเร็จ ข้อมูลสำหรับดีบั๊ก:
 importing-allow-html-in-fields = อนุญาตให้ใส่ HTML ในช่องข้อมูล
+importing-anki-files-are-from-a-very = ไฟล์ .anki มาจาก Anki รุ่นเก่ามาก คุณสามารถนำเข้าไฟล์เหล่านี้ด้วยส่วนเสริม 175027074 หรือด้วย Anki รุ่น 2.0 ซึ่งสามารถดาวน์โหลดได้จากเว็บไซต์ Anki
 importing-appeared-twice-in-file = ปรากฏสองครั้งในไฟล์: { $val }
 importing-change = เปลี่ยน
 importing-colon = ทวิภาค
