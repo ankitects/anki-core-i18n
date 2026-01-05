@@ -15,6 +15,14 @@ deck-config-title = ⵜⵉⴼⵔⵏⵉⵡⵉⵏ ⵏ ⵓⴽⵍⴽⵉⵎ
 
 ## Daily limits section
 
+deck-config-daily-limits = ⵉⵎⴰⵔⴰⵏ ⵉⴽⵓⵢⴰⵙⵙⵏ
+deck-config-new-limit-tooltip =
+    ⴰⵎⵏⵏⴰⵡ ⴰⵏⴰⴼⵍⵍⴰ ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ ⵉⵜⵖⵉⴷⵜ ⴰⴷ ⵜⵙⴽⵛⵎⵜ ⴽⵓⵢⵢⴰⵙⵙ (ⴰⵙⴰ ⵍⵍⴰⵏⵜ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ).
+    ⴰⵛⴽⵓ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ ⵖⵉⵏⵜ ⴰⴷ ⵙⵙⴰⵍⵉⵏⵜ ⵜⴰⵡⵓⵔⵉ ⵏ ⵡⴰⴽⵓⴷ ⵉⵏⵎⴰⵍⴰⵏ, ⵉⵍⵎⵎⴰ ⵢⵓⴼ ⴰⴷ ⵓⵔ ⵜⵎⵙⵉⵜ ⵓⴳⴳⴰⵔ ⵏ 10% ⵏ ⴰⴱⴰⴷⵓ ⵏ ⵓⵣⵔⵔⴰⵢ ⵏ ⴽⵓⵢⴰⵙⵙ.
+deck-config-review-limit-tooltip =
+    ⴰⵎⵏⵏⴰⵡ ⴰⵏⴰⴼⵍⵍⴰ ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵉⵜⵜⵓⵢⴰⵏⵏⴰⵢⵜ ⵢⴰⴷ ⵉ ⵜⵖⵉⴷⵜ ⴰⴷ ⵜⵣⵔⵔⵉⵜ ⴽⵓⵢⴰⵙⵙ.
+    ⴰⵙⴰ ⵉ ⵜⵖⵉⴷⵜ ⴰⵜⵏⵜ ⵜⵣⵔⵉⵜⵏⵜ.
+deck-config-limit-deck-v3 = ⴷⵉⵏⵏⴰⵖ ⴰⴷ ⵜⴰⵜⵇⵔⵔⴰⵜ ⵢⴰⵏ ⵓⴽⵍⴽⵉⵎ ⵉ ⴷⵉⴽⵙ ⴷⴰⵡⴰⵙ ⵉⴽⵍⴽⵉⵎⵏ ⵢⴰⴹⵏ, ⵉⵎⴰⵔⴰⵏ ⵏ ⴽⵓ ⴷⴰⵡ-ⵓⴽⵍⴽⵉⵎ ⴷⴰⵢⵣⴳⵓ ⴰⵎⵏⵏⴰⵡ ⴰⵏⴰⴼⵍⵍⴰ ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ s ⵙ ⵓⵎⵡⵉⵍⴰⵏ ⴳ ⴰⴽⵍⴽⵉⵎ ⴰⴷ. ⵉⵎⴰⵔⴰⵏ ⵏ ⵏ ⵓⴽⵍⴽⵉⵎ ⵓⴼⵔⵉⵏ ⴷⴰ ⵉⵣⴳⴰ ⴰⵎⵏⵏⴰⵡ ⵏ ⵜⵎⵓⵜⵜⵔⵜ ⴰⵢⵏⵏⴰ ⵜⵙⴽⵙⵓⵜ.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
