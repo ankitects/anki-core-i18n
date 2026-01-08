@@ -56,14 +56,14 @@ statistics-studied-today =
 statistics-cards = { $cards } карта
 statistics-notes = { $notes } жазба
 # a count of how many cards have been answered, eg "Total: 34 reviews"
-statistics-reviews = { $reviews } шолым
+statistics-reviews = { $reviews } қайталау
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
 # cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } есте сақталған
 statistics-today-title = Бүгін
 statistics-today-again-count = Қайталаулар саны:
-statistics-today-type-counts = Оқу: { $learnCount }, Шолым: { $reviewCount }, Қайталау: { $relearnCount }, Сүзілген: { $filteredCount }
+statistics-today-type-counts = Оқу: { $learnCount }, Қайталау: { $reviewCount }, Қайта оқу: { $relearnCount }, Сүзілген: { $filteredCount }
 statistics-today-no-cards = Бүгін карта оқылған жоқ.
 statistics-today-no-mature-cards = Бүгін жетілген карта оқылған жоқ.
 statistics-today-correct-mature = Жетілген картадағы дұрыс жауаптар: { $correct }/{ $total } ({ $percent }%)
@@ -75,7 +75,7 @@ statistics-counts-suspended-cards = Кідіртілген
 statistics-counts-buried-cards = Тығылған
 statistics-counts-filtered-cards = Сүзілген
 statistics-counts-learning-cards = Оқуда
-statistics-counts-relearning-cards = Қайталауда
+statistics-counts-relearning-cards = Қайта оқу
 statistics-counts-title = Карта Саны
 statistics-counts-separate-suspended-buried-cards = Жекеленген кідіртілген/тығылған карталар
 
@@ -139,7 +139,7 @@ statistics-card-ease-tooltip = Жеңілдігі { $percent } { $cards } кар
 statistics-card-difficulty-tooltip = Қиындығы { $percent } { $cards } карта
 statistics-retrievability-tooltip = Түсірілімі { $percent } { $cards } карта
 statistics-future-due-title = Болжам
-statistics-future-due-subtitle = Келешектегі шолым саны.
+statistics-future-due-subtitle = Келешектегі қайталау саны.
 statistics-added-title = Қосылған
 statistics-added-subtitle = Сіз қосқан жаңа карта саны.
 statistics-reviews-count-subtitle = Сіз жауап берген сұрақ саны.
@@ -150,7 +150,7 @@ statistics-answer-buttons-button-number = Түйме
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Басылған саны
 statistics-answer-buttons-subtitle = Әр түймені басқан саны.
-statistics-reviews-title = Шолымдар
+statistics-reviews-title = Қайталаулар
 statistics-reviews-time-checkbox = Уақыт
 statistics-in-days-single =
     { $days ->
@@ -170,7 +170,7 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } күн бұрын
 statistics-running-total = Өспелі нәтиже
 statistics-cards-due = мерізімі келген { $cards } карта
 statistics-backlog-checkbox = Қорлану
-statistics-intervals-title = Шолым Аралықтары
+statistics-intervals-title = Қайталар Аралықтары
 statistics-intervals-subtitle = Карталарды қайта көрсету алдындағы іркілісі.
 statistics-intervals-day-range = Аралығы { $daysStart }~{ $daysEnd } күн { $cards } карта
 statistics-intervals-day-single = Аралығы { $day } күн { $cards } карта
@@ -181,7 +181,7 @@ statistics-hours-range = { $hourStart }:00~{ $hourEnd }:00 бастап
 statistics-hours-correct = { $correct }/{ $total } дұрыс ({ $percent }%)
 statistics-hours-correct-info = → ('Қайтадан' емес)
 # the emoji depicts the graph displaying this number
-statistics-hours-reviews = 📊 { $reviews } шолым
+statistics-hours-reviews = 📊 { $reviews } қайталау
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% дұрыс ({ $reviews })
 statistics-hours-title = Сағатқа Шаққанда
@@ -224,8 +224,8 @@ statistics-daily-load = Күнделікті жүктеме
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount }/{ $total } ({ $percent }%)
 statistics-average-over-period = Мерізім орташасы
-statistics-reviews-per-day = { $count } шолым/күн
-statistics-minutes-per-day = { $count } шолым/күн
+statistics-reviews-per-day = { $count } қайталау/күн
+statistics-minutes-per-day = { $count } қайталау/күн
 statistics-cards-per-day = { $count } карта/күн
 statistics-median-ease = Орташа жеңілдік
 statistics-median-difficulty = Орташа қиындық

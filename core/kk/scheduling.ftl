@@ -42,8 +42,15 @@ scheduling-next-learn-due =
     }
 scheduling-learn-remaining = Бүгінге { $remaining } оқу қалды.
 scheduling-congratulations-finished = Құттықтаймыз! Әзірше колоданы бітірдіңіз.
-scheduling-today-review-limit-reached = Бүгінгі шолым лимитіне жеттіңіз, бірақ әлі де қаралуы керек карталар бар. Есте сақтауды жақсарту үшін күнделікті лимитті баптаулардан көбейтуді қарастырыңыз
-scheduling-today-new-limit-reached = Жаңа карталар әлі де бар, бірақ күнделікті лимитке жеттіңіз. Лимитті баптаулардан арттыра аласыз, бірақ есте сақтаңыз: жаңа карталарды көбірек енгізсеңіз, қысқа мерзімді шолым жүктемесі де артады.
+scheduling-today-review-limit-reached =
+    Бүгінгі қайталау шегіне жеттіңіз, бірақ әлі де қаралуы керек
+    карталар бар. Есте сақтауды жақсарту үшін күнделікті лимитті
+    баптаулардан көбейтуді қарастырыңыз
+scheduling-today-new-limit-reached =
+    Жаңа карталар әлі де бар, бірақ күнделікті шектеуге жеттіңіз.
+    Шектеуді баптаулардан арттыра аласыз, бірақ есте сақтаңыз:
+    жаңа карталарды көбірек енгізсеңіз, қысқа мерзімді қайталау
+    жүктемесі де артады.
 scheduling-buried-cards-found = Бір не одан да көп карта тығылды және ертең көрсетіледі. Қазір көргіңіз келсе, { $unburyThem } болады.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
@@ -68,7 +75,7 @@ scheduling-always-include-question-side-when-replaying = Аудионы қайт
 scheduling-at-least-one-step-is-required = Кем дегенде бір қадам керек.
 scheduling-automatically-play-audio = Автоматты түрде аудионы ойнату
 scheduling-bury-related-new-cards-until-the = Түйіндес карталарды келесі күнге дейін тығу.
-scheduling-bury-related-reviews-until-the-next = Түйіндес шолымдарды келесі күнге дейін тығу.
+scheduling-bury-related-reviews-until-the-next = Түйіндес қайталауларды келесі күнге дейін тығу.
 scheduling-days = күн
 scheduling-description = Сипаттама
 scheduling-easy-bonus = Оңай бонус
@@ -85,9 +92,9 @@ scheduling-learning = Оқу
 scheduling-leech-action = Жабысқақ әрекеті
 scheduling-leech-threshold = Жабысқақ шегі
 scheduling-maximum-interval = Ең үлкен аралық
-scheduling-maximum-reviewsday = Күніне ең көп шолым
+scheduling-maximum-reviewsday = Күніне ең көп қайталау
 scheduling-minimum-interval = Ең қысқа аралық
-scheduling-mix-new-cards-and-reviews = Жаңа карталар мен шолымдарды араластыру
+scheduling-mix-new-cards-and-reviews = Жаңа карталар мен қайталауларды араластыру
 scheduling-new-cards = Жаңа Карталар
 scheduling-new-cardsday = Жаңа карталар/күн
 scheduling-new-interval = Жаңа аралық
@@ -97,14 +104,14 @@ scheduling-order = Рет
 scheduling-parent-limit = (аталық шектеуі: { $val })
 scheduling-reset-counts = Қайталау мен босалу санын қалпына келтіру
 scheduling-restore-position = Мүмкін жерде бастапқы орнын қалпына келтіру
-scheduling-review = Шолым
-scheduling-reviews = Шолымдар
+scheduling-review = Қайталау
+scheduling-reviews = Қайталаулар
 scheduling-seconds = секунд
 scheduling-set-all-decks-below-to = { $val } мәнінен төмен колодаларды осы топқа қою?
 scheduling-set-for-all-subdecks = Барлық туынды колодасына орнату
 scheduling-show-answer-timer = Жауап таймерін көрсету
-scheduling-show-new-cards-after-reviews = Жаңа карталарды шолымнан кейін көрсету
-scheduling-show-new-cards-before-reviews = Жаңа карталарды шолымға дейін көрсету
+scheduling-show-new-cards-after-reviews = Жаңа карталарды қайталаулардан кейін көрсету
+scheduling-show-new-cards-before-reviews = Жаңа карталарды қайталауларға дейін көрсету
 scheduling-show-new-cards-in-order-added = Жаңа карталарды қосу ретінде көрсету
 scheduling-show-new-cards-in-random-order = Жаңа карталарды кездейсоқ ретте көрсету
 scheduling-starting-ease = Бастау оңайлығы

@@ -262,9 +262,9 @@ deck-config-interval-modifier-tooltip =
     Бұл көбейткіш барлық қайталауларға қолданылады, ал шағын түзетулер
     арқылы Anki-дің жоспарлауын сақтырақ немесе белсендірек етуге болады.
     Осы баптауды өзгертпес бұрын нұсқаулықты көріңіз.
-deck-config-hard-interval-tooltip = `Қиын` дегенде шолым аралығына қолданылатын көбейткіш.
-deck-config-new-interval-tooltip = `Қайтадан` дегенде шолым аралығына қолданылатын көбейткіш.
-deck-config-minimum-interval-tooltip = `Қайтадан` дегенде шолым картасына берілетін ең қысқа аралық.
+deck-config-hard-interval-tooltip = `Қиын` дегенде қайталау аралығына қолданылатын көбейткіш.
+deck-config-new-interval-tooltip = `Қайтадан` дегенде қайталау аралығына қолданылатын көбейткіш.
+deck-config-minimum-interval-tooltip = `Қайтадан` дегенде қайталау картасына берілетін ең қысқа аралық.
 deck-config-custom-scheduling = Өзгертпелі жоспарлау
 deck-config-custom-scheduling-tooltip = Бүкіл жинаққа әсер етеді. Жауапкершілік өзіңізде!
 
@@ -282,7 +282,7 @@ deck-config-easy-days-normal = Қалыпты
 deck-config-easy-days-reduced = Ықшамдалған
 deck-config-easy-days-minimum = Минимум
 deck-config-easy-days-no-normal-days = Кемінде бір күн '{ deck-config-easy-days-normal }' болуы керек.
-deck-config-easy-days-change = FSRS баптаулырындағы `{ deck-config-reschedule-cards-on-change }` қосылмаса, бар шолымдар жаңартылмайды.
+deck-config-easy-days-change = FSRS баптаулырындағы `{ deck-config-reschedule-cards-on-change }` қосылмаса, бар қайталаулар жаңартылмайды.
 
 ## Adding/renaming
 
@@ -319,11 +319,11 @@ deck-config-description-new-handling-hint =
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped = Аталық колодасының осы шектеуді жауып тастайтын { $cards } карта шектеуі бар.
-deck-config-reviews-too-low = Күніне { $cards } жаңа карта қосаты болсаңыз, шолым шектеуіңіз кемінде { $expected } болуға тиіс.
+deck-config-reviews-too-low = Күніне { $cards } жаңа карта қосаты болсаңыз, қайталау шектеуіңіз кемінде { $expected } болуға тиіс.
 deck-config-learning-step-above-graduating-interval = Бітіру аралығы кем дегенде соңғы оқу аралығымен бірдей болуы керек.
 deck-config-good-above-easy = Оңай аралығы кем дегенде бітіру аралығымен бірдей болуы керек.
 deck-config-relearning-steps-above-minimum-interval = Ең кіші босау аралығы кем дегенде соңғы оқу аралығымен бірдей болуы керек.
-deck-config-maximum-answer-secs-above-recommended = Әр сұрақ қысқа болғанда, Anki шолымдарыңызды тиімдірек жоспарлай алады.
+deck-config-maximum-answer-secs-above-recommended = Әр сұрақ қысқа болғанда, Anki қайталауларыңызды тиімдірек жоспарлай алады.
 deck-config-too-short-maximum-interval = 6 айдан қысқа шекті аралық қоймаған жөн.
 deck-config-ignore-before-info = FSRS баптауларын оңтайландыруға (шамамен) { $included }/{ $totalCards } карта қолданылады.
 
@@ -335,8 +335,8 @@ deck-config-which-deck = Қай колоданың баптауларын көр
 
 deck-config-updating-cards = Карталарды жаңарту: { $current_cards_count }/{ $total_cards_count }...
 deck-config-invalid-parameters = Ұсынылған FSRS баптаулары жарамсыз. Босы қалдырыңыз не қалыпты баптауларды қолданыңыз.
-deck-config-not-enough-history = Бұл әрекетті орындау үшін шолым тарихы жеткіліксіз.
-deck-config-must-have-400-reviews = { $count } шолым ғана табылды. Бұл әрекет үшін кемінде 400 шолым қажет.
+deck-config-not-enough-history = Бұл әрекетті орындау үшін қайталау тарихы жеткіліксіз.
+deck-config-must-have-400-reviews = { $count } қайталау ғана табылды. Бұл әрекет үшін кемінде 400 қайталау қажет.
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS параметрлері
 deck-config-compute-optimal-weights = FSRS параметрлерін оңтайландыру
@@ -344,12 +344,12 @@ deck-config-optimize-button = Осы Баптаманы Оңтайландыру
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = ( $text ) (баяу)
 deck-config-compute-button = Есептеу
-deck-config-ignore-before = Бұрын шолынған карталарды елемеу
+deck-config-ignore-before = Бұрын қайталанған карталарды елемеу
 deck-config-time-to-optimize = Көп уақыт өтті. Барлық Қалыпты Оңтайландыру түймесін басқан жөн.
 deck-config-evaluate-button = Бағалау
 deck-config-desired-retention = Күткен меңгерім
 deck-config-historical-retention = Тарихи меңгерім
-deck-config-smaller-is-better = Сандар неғұрлым кіші болса, шолу тарихыңызға соғұрлым жақсы сәйкес келеді.
+deck-config-smaller-is-better = Сандар неғұрлым кіші болса, қайталау тарихыңызға соғұрлым жақсы сәйкес келеді.
 deck-config-steps-too-large-for-fsrs = FSRS қосылғанда 1 күн не одан да үлкен қадам қоймаған жөн.
 deck-config-get-params = Баптауларды Алу
 deck-config-complete = { $num }% аяқталған.
@@ -376,15 +376,17 @@ deck-config-reschedule-cards-on-change-tooltip =
     Бүкіл жинаққа әсер етеді және сақталмайды.
     
     Бұл опция FSRS-ті қосқанда немесе баптауларын оңтайландырғанда карталардың мерзім күндері
-    өзгерер-өзгермесін анықтайды. Әдетте қайта жоспарлау өшірулі: болашақ шолулар жаңа
+    өзгерер-өзгермесін анықтайды. Әдетте қайта жоспарлау өшірулі: болашақ қайталаулар жаңа
     0жоспарлауды қолданады, бірақ жүктемеде бірден өзгеріс болмайды. Қайта жоспарлау қосылса,
     карталардың мерзім күндері жаңартылады.
 deck-config-reschedule-cards-warning =
-    Меңгерім деңгейіне байланысты бұл баптау көп картаның бірден мерзімді болуына әкелуі мүмкін, сондықтан SM-2 жүйесінен алғаш ауысқанда қолдану ұсынылмайды.
+    Меңгерім деңгейіне байланысты бұл баптау көп картаның бірден мерзімді болуына
+    әкелуі мүмкін, сондықтан SM-2 жүйесінен алғаш ауысқанда қолдану ұсынылмайды.
     
-    Бұл опцияны сақтықпен пайдаланыңыз: ол әр картаға шолу жазбасын қосады және жинақ көлемін ұлғайтады.
+    Бұл опцияны сақтықпен пайдаланыңыз: ол әр картаға қайталау жазбасын қосады
+    және жинақ көлемін ұлғайтады.
 deck-config-ignore-before-tooltip-2 =
-    Егер орнатылса, берілген күнге дейін шолынған карталар FSRS параметрлерін оңтайландыру кезінде есепке алынбайды.
+    Егер орнатылса, берілген күнге дейін қайталанған карталар FSRS параметрлерін оңтайландыру кезінде есепке алынбайды.
     Бұл басқа біреудің жоспарлау деректерін импорттаған болсаңыз немесе жауап түймелерін пайдалану тәсілін өзгерткен жағдайда пайдалы.
 deck-config-please-save-your-changes-first = Алдымен өзгерістеріңізді сақтаңыз.
 deck-config-workload-factor-change =
@@ -393,14 +395,14 @@ deck-config-workload-factor-change =
 deck-config-workload-factor-unchanged = Бұл мән неғұрлым жоғары, карталар соғұрлым жиі көрсетіледі.
 deck-config-desired-retention-too-low = Қалаулы меңгерім өте төмен, бұл аралықтарды өте ұзақ етуі мүмкін.
 deck-config-desired-retention-too-high = Қалаулы меңгерім өте жоғары, бұл аралықтарды өте қысқа етуі мүмкін.
-deck-config-percent-of-reviews = { $reviews } шолымдардың { $pct }%-ы
+deck-config-percent-of-reviews = { $reviews } қайталаулардың { $pct }%-ы
 deck-config-percent-input = { $pct }%
 # This message appears during FSRS parameter optimization.
 deck-config-checking-for-improvement = Жетілдірулерді тексеру...
 deck-config-optimizing-preset = Баптаманы оңтайландыру { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Алдымен FSRS қосылуы керек.
 deck-config-fsrs-params-optimal = Қазір FSRS баптаулары оңтайлы болып көріненді.
-deck-config-fsrs-params-no-reviews = Шолым табылмады. Осы баптаманы оңтайландырғыңыз келетін барлық колодаға (ішкілеріне де) орнатылғанына көз жеткізіп, қайтадан байқап көріңіз.
+deck-config-fsrs-params-no-reviews = Қайталау табылмады. Осы баптаманы оңтайландырғыңыз келетін барлық колодаға (ішкілеріне де) орнатылғанына көз жеткізіп, қайтадан байқап көріңіз.
 deck-config-wait-for-audio = Аудионы күту
 deck-config-show-reminder = Ескерткішті Көрсету
 deck-config-answer-again = Қайтадан Деу
@@ -418,7 +420,7 @@ deck-config-fsrs-desired-retention-help-me-decide-experimental = Шешуге к
 deck-config-additional-new-cards-to-simulate = Есептелетін қосымша жаңа карталар
 deck-config-simulate = Симуляциялау
 deck-config-clear-last-simulate = Соңғы Симуляцияны Тазалау
-deck-config-fsrs-simulator-radio-count = Шолымдар
+deck-config-fsrs-simulator-radio-count = Қайталаулар
 deck-config-advanced-settings = Қосымша Баптаулар
 deck-config-smooth-graph = Тегіс график
 deck-config-suspend-leeches = Жабысқақтарды кідірту
