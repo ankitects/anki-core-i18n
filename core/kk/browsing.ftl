@@ -118,8 +118,8 @@ browsing-sidebar-save-current-search = Ағымдағы Іздеуді Сақт�
 browsing-sidebar-card-state = Карта күйі
 browsing-sidebar-flags = Жалаулар
 browsing-today = Бүгін
-browsing-tooltip-card-modified = Картаны соңғы өңдеу уақыты (шолымдар, жалау мен колода өзгерістері есептенген)
-browsing-tooltip-note-modified = Жазбаны соңғы өңдеу уақыты (шолымдар, жалауша мен колода өзгерістері есептенген)
+browsing-tooltip-card-modified = Картаны соңғы өңдеу уақыты (қайталаулар, жалау мен колода өзгерістері есептенген)
+browsing-tooltip-note-modified = Жазбаны соңғы өңдеу уақыты (қайталаулар, жалауша мен колода өзгерістері есептенген)
 browsing-tooltip-card = Картаның үлгісінің атауы
 browsing-tooltip-cards = Жазбадағы карталар саны
 browsing-tooltip-notetype = Жазбаның түрінің атауы
@@ -129,7 +129,7 @@ browsing-studied-today = Оқылған
 browsing-added-today = Қосылған
 browsing-again-today = Қайтадан
 browsing-edited-today = Өңделген
-browsing-sidebar-first-review = Бірінші Шолым
+browsing-sidebar-first-review = Бірінші Қайталау
 browsing-sidebar-rescheduled = Қайта Жоспарланды
 browsing-sidebar-due-today = Бүгінге
 browsing-sidebar-untagged = Тамғаланбаған
@@ -138,7 +138,7 @@ browsing-row-deleted = (жойылған)
 browsing-removed-unused-tags-count = Қолданылмайтын { $count } тамға жойылды.
 browsing-changed-new-position = { $count } карта жылжытылды.
 browsing-reparented-decks = { $count } қайта аталды.
-browsing-sidebar-card-state-review = Шолу
+browsing-sidebar-card-state-review = Қайталау
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
