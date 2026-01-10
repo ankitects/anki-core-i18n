@@ -4,6 +4,7 @@
 ## It's ok to change quotes outside of backticks however, eg:
 ## "`{ $context }`" => 「`{ $context }`」
 
+search-misplaced-and = พบ `and` ที่ไม่ได้ใช้เชื่อมข้อความค้นหาสองข้อความเข้าด้วยกัน หากต้องการค้นหาคำว่า and โดยตรง ให้ใส่อัญประกาศคู่: `"and"`
 
 ## eg. expected a number in "due>5x", but found "5x"
 
