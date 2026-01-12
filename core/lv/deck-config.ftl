@@ -152,6 +152,24 @@ deck-config-new-gather-priority-tooltip-2 =
     
     „Nejaušas kartītes”: iegūst kartītes nejaušā secībā.
 deck-config-new-card-sort-order = Jauna kāršu šķirošanas secība
+deck-config-new-card-sort-order-tooltip-2 =
+    `Kartes tips, tad savākšanas secība`: parāda kartes pēc kartes tipa numura.
+    Kartes ar katru kartes tipa numuru tiek parādītas tādā secībā, kādā tās tika savāktas. ¶
+    Ja jums ir atspējota brāļu apglabāšana, tas nodrošinās, ka visas priekšējās→aizmugurējās kartes tiek parādītas pirms jebkādām aizmugurējām→priekšējām kartēm.¶
+    Tas ir noderīgi, lai visas vienas piezīmes kartes tiktu parādītas vienā sesijā, bet ne¶
+    pārāk tuvu viena otrai.¶
+    ¶
+    `Sakārtotas pēc savākšanas kārtības`: parāda kartes tieši tādā secībā, kādā tās tika savāktas. Ja brāļu apglabāšana ir atspējota,¶
+    tas parasti nozīmē, ka visas vienas piezīmes kartes tiek parādītas viena pēc otras.¶
+    ¶
+    `Kartes tips, tad nejauši`: parāda kartes pēc kartes tipa numura. Kārtis ar katru kartes¶
+    tipa numuru tiek parādītas nejaušā secībā. Šī secība ir noderīga, ja nevēlaties, lai līdzīgas kartes¶
+    parādītos pārāk tuvu viena otrai, bet tomēr vēlaties, lai kartes parādītos nejaušā secībā.¶
+    ¶
+    `Nejauša piezīme, tad kartes tips`: Izvēlas piezīmes nejauši, tad parāda visas tās kartes¶
+    secībā.¶
+    ¶
+    `Nejauši`: Parāda kartes nejaušā secībā.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -184,7 +202,7 @@ deck-config-new-interval-tooltip = Reizinātājs, kas tiek pielietots pārskatī
 deck-config-minimum-interval-tooltip = Mazākais pieļaujamais pārskatāmajai kartītei piešķiramais starplaiks pēc atbildēšanas ar "Vēlreiz".
 deck-config-custom-scheduling-tooltip = Ietekmē visu krājumu. Jāizmanto uz savu atbildību.
 
-# Easy Days section
+## Easy Days section.
 
 deck-config-easy-days-monday = Pirmdiena
 deck-config-easy-days-tuesday = Otrdiena
@@ -263,6 +281,9 @@ deck-config-reschedule-cards-warning =
 deck-config-fsrs-params-no-reviews = Nav atrasta neviena pārskatīšana. Lūgums pārbaudīt, ka šis priekšiestatījums ir piešķirts visām optimizējamajām kavām (tajā skaitā apakškavām), un mēģināt vēlreiz.
 deck-config-answer-again = Atbildēt vēlreiz
 deck-config-suspend-leeches = Atlikt izsūcošās kartītes
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
+
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
