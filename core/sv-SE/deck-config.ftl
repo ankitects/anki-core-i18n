@@ -354,8 +354,8 @@ deck-config-daily-limit-will-be-capped =
     }
 deck-config-reviews-too-low =
     { $cards ->
-        [one] Om { $cards } nytt kort läggs till varje dag, torde repetitionsgränsen vara åtminstone { $expected }.
-       *[other] Om { $cards } nya kort läggs till varje dag, torde repetitionsgränsen vara åtminstone { $expected }.
+        [one] Om { $cards } nytt kort läggs till varje dag, bör repetitionsgränsen vara åtminstone { $expected }.
+       *[other] Om { $cards } nya kort läggs till varje dag, bör repetitionsgränsen vara åtminstone { $expected }.
     }
 deck-config-learning-step-above-graduating-interval = Befordringsintervallet bör vara åtminstone lika långt som det sista inlärningssteget.
 deck-config-good-above-easy = Lättintervallet bör vara åtminstone lika långt som befordringsintervallet.
