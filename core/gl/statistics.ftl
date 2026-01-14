@@ -112,6 +112,7 @@ statistics-counts-separate-suspended-buried-cards = Separar tarxetas suspensas/a
 
 statistics-true-retention-title = Retención
 statistics-true-retention-subtitle = Taxa de tarxetas atinadas cun intervalo ≥ 1 día.
+statistics-true-retention-tooltip = Se estás a usar FSRS, a túa retención real debería estar próxima á retención desexada. Ten en conta que os datos dun só día poden ser ruidosos e pouco representativos, porén é mellor atender os datos mensuais.
 statistics-true-retention-range = Intervalo
 statistics-true-retention-pass = Atinadas
 statistics-true-retention-fail = Falladas
@@ -142,12 +143,21 @@ statistics-range-all-history = todo o historial
 statistics-range-deck = baralla
 statistics-range-collection = colección
 statistics-range-search = Busca
+statistics-card-ease-title = Facilidade das tarxetas
 statistics-card-difficulty-title = Dificultade das tarxetas
 statistics-card-stability-title = Estabilidade das tarxetas
+statistics-card-stability-subtitle = O tempo a transcorrer ata que a probabilidade de lembrar caia a 90%.
 statistics-median-stability = Estabilidade mediana
 statistics-card-retrievability-title = Recuperabilidade das tarxetas
-statistics-card-difficulty-subtitle2 = Canto maior sexa a dificultade, máis lento aumentará a estabilidade.
+statistics-card-ease-subtitle = Canto menor sexa a facilidade, con maior frecuencia aparecerá a tarxeta.
+statistics-card-difficulty-subtitle2 = Canto maior sexa a dificultade, máis lenta aumentará a estabilidade.
 statistics-retrievability-subtitle = A probabilidade de lembrar unha tarxeta hoxe.
+# eg "3 cards with 150-170% ease"
+statistics-card-ease-tooltip =
+    { $cards ->
+        [one] { $cards } tarxeta cunha facilidade de { $percent }
+       *[other] { $cards } tarxetas cunha facilidade de { $percent }
+    }
 statistics-card-difficulty-tooltip =
     { $cards ->
         [one] { $cards } tarxeta cunha dificultade de { $percent }
@@ -180,20 +190,52 @@ statistics-in-days-single =
        *[other] En { $days } días
     }
 statistics-in-days-range = En { $daysStart }-{ $daysEnd } días
+statistics-days-ago-single =
+    { $days ->
+        [1] Onte
+        [one] Hai { $days } día
+       *[other] Hai { $days } días
+    }
+statistics-days-ago-range = Hai { $daysStart }-{ $daysEnd } días
+statistics-running-total = Total acumulado
 statistics-cards-due =
     { $cards ->
         [one] { $cards } tarxeta pendente
        *[other] { $cards } tarxetas pendentes
     }
+statistics-backlog-checkbox = Acumulado
 statistics-intervals-title = Intervalos
 statistics-intervals-subtitle = Atrasos ata que os repasos se amosen de novo.
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } tarxeta cun intervalo de { $daysStart }~{ $daysEnd } días
+       *[other] { $cards } tarxetas cun intervalo de { $daysStart }~{ $daysEnd } días
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } tarxeta cun intervalo de { $day } días(s)
+       *[other] { $cards } tarxetas cun intervalo de { $day } días(s)
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } tarxeta cunha estabilidade de { $daysStart }~{ $daysEnd } días
+       *[other] { $cards } tarxetas cunha estabilidade de { $daysStart }~{ $daysEnd } días
+    }
+statistics-stability-day-single =
+    { $cards ->
+        [one] { $cards } tarxeta cunha estabilidade de { $day } día(s)
+       *[other] { $cards } tarxetas cunha estabilidade de { $day } día(s)
+    }
+# hour range, eg "From 14:00-15:00"
+statistics-hours-range = Dende { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correctas ({ $percent }%)
+statistics-hours-correct-info = → (agás 'De novo')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } repasos
 # the emoji depicts the graph displaying this number
 statistics-hours-correct-reviews = 📈 { $percent }% correctas ({ $reviews })
 statistics-hours-title = Distribución horaria
-statistics-hours-subtitle = Porcentaxe de repasos correctos ao longo do día.
+statistics-hours-subtitle = A porcentaxe de repasos correctos ao longo do día.
 # shown when graph is empty
 statistics-no-data = SEN DATOS
 statistics-calendar-title = Calendario
