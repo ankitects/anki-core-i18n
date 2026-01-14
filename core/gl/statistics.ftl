@@ -78,7 +78,7 @@ statistics-reviews =
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
 # cards that can be recalled or retrieved on a specific date.
-statistics-memorized = { $memorized } memorizadas
+statistics-memorized = { $memorized } tarxetas memorizadas
 statistics-today-title = Hoxe
 statistics-today-again-count = Contaxe de repeticións:
 statistics-today-type-counts = Aprender: { $learnCount }, Repasar: { $reviewCount }, Reaprender: { $relearnCount }, Filtradas: { $filteredCount }
@@ -111,8 +111,9 @@ statistics-counts-separate-suspended-buried-cards = Separar tarxetas suspensas/a
 ##      window is certain sizes.
 
 statistics-true-retention-title = Retención
-statistics-true-retention-subtitle = Tasa de tarxetas acertadas con intervalo ≥ 1 día.
-statistics-true-retention-pass = Acertadas
+statistics-true-retention-subtitle = Taxa de tarxetas atinadas cun intervalo ≥ 1 día.
+statistics-true-retention-range = Intervalo
+statistics-true-retention-pass = Atinadas
 statistics-true-retention-fail = Falladas
 # This will usually be the same as statistics-counts-total-cards
 statistics-true-retention-total = Total de tarxetas
@@ -144,18 +145,25 @@ statistics-range-search = Busca
 statistics-card-difficulty-title = Dificultade das tarxetas
 statistics-card-stability-title = Estabilidade das tarxetas
 statistics-median-stability = Estabilidade mediana
+statistics-card-retrievability-title = Recuperabilidade das tarxetas
 statistics-card-difficulty-subtitle2 = Canto maior sexa a dificultade, máis lento aumentará a estabilidade.
+statistics-retrievability-subtitle = A probabilidade de lembrar unha tarxeta hoxe.
 statistics-card-difficulty-tooltip =
     { $cards ->
         [one] { $cards } tarxeta cunha dificultade de { $percent }
        *[other] { $cards } tarxetas cunha dificultade de { $percent }
+    }
+statistics-retrievability-tooltip =
+    { $cards ->
+        [one] { $cards } tarxeta cunha recuperabilidade de { $percent }
+       *[other] { $cards } tarxetas cunha recuperabilidade de { $percent }
     }
 statistics-future-due-title = Previsión
 statistics-future-due-subtitle = O número de repasos programados no futuro.
 statistics-added-title = Engadidas
 statistics-added-subtitle = O número de tarxetas que se engadiron.
 statistics-reviews-count-subtitle = O número de preguntas que respondiches.
-statistics-reviews-time-subtitle = O tempo que levou responder ás preguntas.
+statistics-reviews-time-subtitle = O tempo que che levou responder ás preguntas.
 statistics-answer-buttons-title = Botóns de resposta
 # eg Button: 4
 statistics-answer-buttons-button-number = Botón
@@ -205,14 +213,15 @@ statistics-elapsed-time-years = { $amount }a
 
 ##
 
-statistics-average-for-days-studied = Termo medio nos días estudiados
+statistics-average-for-days-studied = Media nos días estudados
 # This term is used in a variety of contexts to refers to the total amount of
 # items (e.g., cards, mature cards, etc) for a given period, rather than the
 # total of all existing items.
 statistics-total = Total
 statistics-days-studied = Días estudados
 statistics-average-answer-time-label = Tempo medio de resposta
-statistics-average = Termo medio
+statistics-average = Media
+statistics-median-interval = Intervalo mediano
 statistics-due-tomorrow = Programadas para mañá
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -222,7 +231,7 @@ statistics-due-tomorrow = Programadas para mañá
 statistics-daily-load = Carga cotiá
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } de { $total } ({ $percent }%)
-statistics-average-over-period = Se tivera estudado todos os días
+statistics-average-over-period = De ter estudado todos os días
 statistics-reviews-per-day =
     { $count ->
         [one] { $count } repaso/día
@@ -238,7 +247,7 @@ statistics-cards-per-day =
         [one] { $count } tarxeta/día
        *[other] { $count } tarxetas/día
     }
-statistics-median-ease = Facilidade media
+statistics-median-ease = Facilidade mediana
 statistics-median-difficulty = Dificultade mediana
 statistics-average-retrievability = Recuperabilidade media
 statistics-estimated-total-knowledge = Coñecemento total estimado
@@ -252,5 +261,5 @@ statistics-title = Estatísticas
 
 statistics-average-stability = Estabilidade media
 statistics-average-interval = Intervalo medio
-statistics-average-ease = Termo medio de facilidade
+statistics-average-ease = Facilidade media
 statistics-average-difficulty = Dificultade media
