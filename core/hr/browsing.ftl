@@ -150,6 +150,12 @@ browsing-sidebar-due-today = Isteklo
 browsing-sidebar-untagged = Bez Oznaka
 browsing-sidebar-overdue = Zakašnjelo
 browsing-row-deleted = (obrisano)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] { $count } nekorištena oznaka uklonjena.
+        [few] { $count } nekorištene oznake uklonjene.
+       *[other] { $count } nekorištenih oznaka uklonjeno.
+    }
 browsing-sidebar-card-state-review = Ponavljanje
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
