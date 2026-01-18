@@ -1,31 +1,18 @@
-# This word is used by TTS voices instead of the elided part of a cloze.
-card-templates-blank = prazan
 card-templates-card-type = Vrsta kartice:
 card-templates-front-template = Predložak prednje strane
 card-templates-back-template = Predložak stražnje strane
 card-templates-template-styling = Stil
-card-templates-front-preview = Pregled prednje strane
-card-templates-back-preview = Pregled stražnje strane
-card-templates-preview-box = Pregled
 card-templates-template-box = Predložak
-card-templates-sample-cloze = Ovo je { "{{c1::" }primjer{ "}}" } cloze brisanja.
 card-templates-fill-empty = Ispunite prazna polja
 card-templates-night-mode = Noćni način rada
-# Add "mobile" class to card preview, so the card appears like it would
-# on a mobile device.
-card-templates-add-mobile-class = Dodaj Mobilnu Klasu
 card-templates-preview-settings = Opcije
 card-templates-invalid-template-number = Predložak kartice { $number } u vrsti bilješke '{ $notetype }' ima problem.
 card-templates-identical-front = Prednja strana je identična predlošku kartice { $number }.
-card-templates-no-front-field = Očekuje se da će se na prednjoj strani predloška kartice pronaći zamjena za polje.
-card-templates-missing-cloze = Očekivalo se pronalaženje '{ "{{" }cloze:Text{ "}}" }' ili sličnog na prednjoj i stražnjoj strani predloška kartice.
-card-templates-extraneous-cloze = 'cloze:' se može koristiti samo na cloze tipovima bilješki.
-card-templates-see-preview = Za više informacija pogledajte pregled.
 card-templates-field-not-found = Polje '{ $field }' nije pronađeno.
 card-templates-changes-saved = Promjene spremljene.
 card-templates-discard-changes = Odbaciti promjene?
 card-templates-add-card-type = Dodaj vrstu kartice...
-card-templates-anki-couldnt-find-the-line-between = Anki nije pronašao crtu između pitanja i odgovora. Ručno prilagodite obrazac za zamjenu pitanja i odgovora.
+card-templates-anki-couldnt-find-the-line-between = Anki nije uspio pronaći crtu između pitanja i odgovora. Ručno prilagodite obrazac za zamjenu pitanja i odgovora.
 card-templates-at-least-one-card-type-is = Potrebna je barem jedna vrsta kartice.
 card-templates-browser-appearance = Izgled preglednika...
 card-templates-card = Kartica { $val }

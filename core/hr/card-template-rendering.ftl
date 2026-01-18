@@ -27,6 +27,3 @@ card-template-rendering-no-such-field = Pronađeno je '{ $found }', ali ne posto
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Prednja strana ove kartice je prazna.
-card-template-rendering-missing-cloze =
-    Nije pronađen cloze { $number } na kartici.
-    Molimo dodajte brisanje cloze stavke ili upotrijebite alat za prazne kartice.

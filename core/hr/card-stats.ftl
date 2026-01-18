@@ -1,8 +1,6 @@
 card-stats-added = Dodano
-card-stats-first-review = Prvi Pregled
-card-stats-latest-review = Zadnji Pregled
 card-stats-interval = Interval
-card-stats-ease = Težina
+card-stats-ease = Lakoća
 card-stats-review-count = Ponavljanja
 card-stats-lapse-count = Promašaji
 card-stats-average-time = Prosječno vrijeme
@@ -11,7 +9,6 @@ card-stats-new-card-position = Pozicija
 card-stats-card-template = Vrsta kartice
 card-stats-note-type = Vrsta bilješke
 card-stats-deck-name = Špil
-card-stats-preset = Unaprijed Postavljeno
 card-stats-note-id = ID Bilješke
 card-stats-card-id = ID Kartice
 card-stats-review-log-rating = Ocjena
@@ -20,22 +17,17 @@ card-stats-review-log-date = Datum
 card-stats-review-log-time-taken = Vrijeme
 card-stats-review-log-type-learn = Učenje
 card-stats-review-log-type-review = Ponavljanje
-card-stats-review-log-type-relearn = Ponovno uči
 card-stats-review-log-type-filtered = Filtrirano
 card-stats-review-log-type-manual = Ručno
-card-stats-review-log-type-rescheduled = Prerasporedi
 card-stats-review-log-elapsed-time = Proteklo vrijeme
 card-stats-no-card = (Nema kartice za prikaz.)
-card-stats-custom-data = Prilagođeni podaci
 card-stats-fsrs-stability = Stabilnost
 card-stats-fsrs-difficulty = Teškoća
-card-stats-fsrs-retrievability = Povratnost
 card-stats-fsrs-forgetting-curve-title = Krivulja Zaborava
 card-stats-fsrs-forgetting-curve-first-week = Prvi tjedan
 card-stats-fsrs-forgetting-curve-first-month = Prvi mjesec
 card-stats-fsrs-forgetting-curve-first-year = Prva godina
 card-stats-fsrs-forgetting-curve-all-time = Sva vremena
-card-stats-fsrs-forgetting-curve-desired-retention = Željena Zadrživost
 
 ## Window Titles
 
