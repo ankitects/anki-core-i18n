@@ -3,37 +3,29 @@
 
 ## Top section
 
-deck-config-default-name = Početna vrijednost
+# Used in the deck configuration screen to show how many decks are used
+# by a particular configuration group, eg "Group1 (used by 3 decks)"
+deck-config-used-by-decks =
+    { $decks ->
+        [one] se koristi u { $decks } špilu
+        [few] se koristi u { $decks } špila
+       *[other] se koristi u { $decks } špilova
+    }
+deck-config-default-name = Zadano
 deck-config-title = Opcije špila
 
 ## Daily limits section
 
 deck-config-daily-limits = Dnevni limiti
-deck-config-new-limit-tooltip =
-    Maksimalan broj novih kartica koje se mogu uvesti u jednom danu, ako su nove kartice dostupne.
-    Budući da će novi materijal povećati vaše kratkoročno radno opterećenje pregleda, to bi obično trebalo biti barem 10 puta manje od vašeg ograničenja pregleda.
-deck-config-review-limit-tooltip = Maksimalan broj kartica za pregled koje će se prikazati u jednom danu, ako su kartice spremne za pregled.
-deck-config-limit-deck-v3 =
-    Prilikom proučavanja špila koji ima podšpilove, ograničenja postavljena na svakom podšpilu kontroliraju maksimalni broj karata prikupljenih iz tog određenog špila.
-    Ograničenja odabranog špila kontroliraju ukupan broj karata koje će biti prikazane.
-deck-config-limit-new-bound-by-reviews = Ograničenje pregleda utječe na novo ograničenje. Na primjer, ako je vaše ograničenje pregleda postavljeno na 200, a čeka vas 190 pregleda, bit će predstavljeno maksimalno 10 novih kartica. Ako je vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
-deck-config-limit-interday-bound-by-reviews = Ograničenje pregleda također utječe na kartice za učenje tijekom dana. Prilikom primjene ograničenja, prvo se prikupljaju kartice za učenje tijekom dana, a zatim kartice za pregled.
-deck-config-tab-description =
-    - `Predložak`: Ograničenje vrijedi za sve špilove koji koriste ovaj predložak.
-    - `Ovaj špil`: Ograničenje vrijedi samo za ovaj špil.
-    - `Samo danas`: Privremeno promijeni ograničenje za ovaj špil.
-deck-config-new-cards-ignore-review-limit = Nove kartice ignoriraju ograničenje pregleda
-deck-config-new-cards-ignore-review-limit-tooltip = Prema zadanim postavkama, ograničenje pregleda primjenjuje se i na nove kartice i nove kartice neće se prikazivati ​​kada se dosegne ograničenje pregleda. Ako je ova opcija omogućena, nove kartice će se prikazivati ​​bez obzira na ograničenje pregleda.
-deck-config-apply-all-parent-limits = Ograničenja počinju od vrha
+deck-config-apply-all-parent-limits = Limiti počinju od vrha
 deck-config-apply-all-parent-limits-tooltip =
     Prema zadanim postavkama, dnevni limiti višeg špila ne primjenjuju se ako učite iz njegovog podšpila.
-    Ako je ova opcija omogućena, limiti će početi od špila najviše razine, što može biti korisno ako želite učiti pojedinačne podšpilove, a istovremeno provoditi ukupni limit karata za stablo špila.
+    Ako je ova opcija omogućena, limiti će početi od špila najviše razine, što može biti korisno ako želite učiti pojedinačne podšpilove, a istovremeno nametnuti ukupni limit karata za stablo špila.
 deck-config-affects-entire-collection = Utječe na cijelu kolekciju.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
-deck-config-shared-preset = Unaprijed Postavljeno
 deck-config-deck-only = Ovaj špil
 deck-config-today-only = Samo danas
 
