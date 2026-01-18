@@ -32,41 +32,14 @@ deck-config-today-only = Samo danas
 ## New Cards section
 
 deck-config-learning-steps = Koraci učenja
-# Please don't translate `1m`, `2d`
--deck-config-delay-hint = Kašnjenja su obično minute (npr. `1m`) ili dani (npr. `2d`), ali podržani su i sati (npr. `1h`) i sekunde (npr. `30s`).
-deck-config-learning-steps-tooltip =
-    Jedno ili više kašnjenja, odvojenih razmacima. Prvo kašnjenje će se koristiti
-    kada pritisnete gumb `Ponovno` na novoj kartici i prema zadanim postavkama iznosi 1 minutu.
-    Gumb `Dobro` će prijeći na sljedeći korak, koji je prema zadanim postavkama 10 minuta.
-    Nakon što su svi koraci dovršeni, kartica će postati kartica za pregled i
-    pojavit će se drugog dana. { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = Broj dana čekanja prije ponovnog prikazivanja kartice, nakon što se pritisne gumb "Dobro" u posljednjem koraku učenja.
-deck-config-easy-interval-tooltip = Broj dana čekanja prije ponovnog prikazivanja karte, nakon što se klikom na gumb `Lagano` odmah ukloni karta iz učenja.
-deck-config-new-insertion-order = Nalog za umetanje
-deck-config-new-insertion-order-tooltip =
-    Kontrolira poziciju (broj dospijeća) koja se dodjeljuje novim karticama kada dodajete nove kartice.
-    Kartice s nižim brojem dospijeća bit će prikazane prve prilikom učenja. Promjenom ove opcije automatski će se ažurirati postojeća pozicija novih kartica.
+deck-config-new-insertion-order = Poredak umetanja
 deck-config-new-insertion-order-sequential = Sekvencijalno (prvo najstarije kartice)
 deck-config-new-insertion-order-random = Nasumično
-deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je ostaviti ovu postavku na sekvencijalno i umjesto toga prilagoditi novi redoslijed prikupljanja kartica.
+deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je postaviti ovu postavku na "sekvencijalno" i umjesto toga prilagoditi redoslijed prikupljanja novih kartica.
 
 ## Lapses section
 
-deck-config-relearning-steps = Ponovno učenje koraka
-deck-config-relearning-steps-tooltip =
-    Nula ili više kašnjenja, odvojenih razmacima. Prema zadanim postavkama, pritiskom na gumb `Ponovno`
-    na kartici za pregled, ona će se ponovno prikazati 10 minuta kasnije. Ako kašnjenja nisu navedena, interval kartice će se promijeniti bez ponovnog
-    učenja. { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip =
-    Broj puta koliko se `Ponovno` mora pritisnuti na kartici za pregled prije nego što se
-    označi kao pijavica. Pijavice su kartice koje vam oduzimaju puno vremena i
-    kada je kartica označena kao pijavica, dobra je ideja prepisati je, izbrisati je ili
-    smisliti mnemotehniku ​​koja će vam pomoći da je zapamtite.
-# See actions-suspend-card and scheduling-tag-only for the wording
-deck-config-leech-action-tooltip =
-    `Samo oznaka`: Dodajte oznaku 'leech' bilješci i prikažite skočni prozor.
-    
-    `Suspendiraj karticu`: Osim označavanja bilješke, sakrijte karticu dok se ručno ne odsugne.
+deck-config-relearning-steps = Koraci za ponovno učenje
 
 ## Burying section
 

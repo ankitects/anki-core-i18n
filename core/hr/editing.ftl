@@ -1,15 +1,12 @@
-editing-add-media = Dodaj medije
 editing-cards = Kartice
 editing-cut = Izreži
-editing-edit-current = Uređivanje aktualnog
-editing-edit-html = Promijeni HTML
+editing-edit-html = Uredi HTML
 editing-fields = Polja
 editing-latex = LaTeX
 editing-latex-equation = LaTeX jednadžba
 editing-latex-math-env = LaTeX math okr.
 editing-mathjax-block = MathJax blok
 editing-mathjax-inline = MathJax inline
-editing-media = Medijske datoteke
 editing-open-image = Otvori sliku
 editing-show-in-folder = Pokaži u mapi
 editing-paste = Zalijepi
