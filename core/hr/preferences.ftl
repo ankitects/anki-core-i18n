@@ -19,6 +19,11 @@ preferences-synchronize-audio-and-images-too = Sinkroniziraj i audio i slikovne 
 preferences-login-successful-sync-now = Prijava uspješna. Spremi postavke i sinkroniziraj?
 preferences-timebox-time-limit = Vremensko ograničenje
 preferences-user-interface-size = Veličina korisničkog sučelja
+preferences-default-search-text-example = npr. "deck:current"
+preferences-theme = Tema
+preferences-theme-light = Svijetla
+preferences-theme-dark = Tamna
+preferences-check-for-updates = Traži novije verzije
 
 ## URL scheme related
 
