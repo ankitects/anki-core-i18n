@@ -8,6 +8,7 @@ preferences-interrupt-current-audio-when-answering = Prekini trenutni zvuk pri o
 preferences-mins = minuta
 preferences-network = Sinkronizacija
 preferences-next-day-starts-at = Idući dan počinje u
+preferences-media-is-not-backed-up = Bilješka: ne postoji sigurnosna kopija medijskih datoteka. Napravite periodično sigurnosno kopiranje svoje Anki mape kako biste bili sigurni.
 preferences-paste-clipboard-images-as-png = Zalijepi slike iz međuspremnika kao PNG
 preferences-generate-latex-images-automatically = Generiraj LaTeX slike (sigurnosni rizik)
 preferences-latex-generation-disabled = Generiranje LaTeX slika je onemogućeno u postavkama.
@@ -30,6 +31,24 @@ preferences-theme-dark = Tamna
 preferences-v3-scheduler = V3 raspoređivač
 preferences-check-for-updates = Traži novije verzije
 preferences-ignore-accents-in-search = Ignoriraj naglaske u pretraživanju (sporije)
+preferences-backup-explanation = Anki periodički radi sigurnosnu kopije Vaše kolekcije. Nakon što kopije postanu starije od 2 dana, Anki će početi brisati neke od njih kako bi oslobodio mjesta na disku.
+preferences-daily-backups = Zadrži ovoliko dnevnih sigurnosnih kopija:
+preferences-weekly-backups = Zadrži ovoliko tjednih sigurnosnih kopija:
+preferences-monthly-backups = Zadrži ovoliko mjesečnih sigurnosnih kopija:
+preferences-minutes-between-backups = Broj minuta između sigurnosnih kopija:
+preferences-reduce-motion = Smanji animacije
+preferences-reduce-motion-tooltip = Onemogući razne animacije i tranzicije u korisničkom sučelju
+preferences-custom-sync-url = Vlastiti server za sinkronizaciju
+preferences-custom-sync-url-disclaimer = Za napredne korisnike - pogledajte priručnik za više informacija
+preferences-distractions = Distrakcije
+preferences-minimalist-mode = Minimalistički način
+preferences-minimalist-mode-tooltip = Kompaktno korisničko sučelje (manje ukrašeno)
+preferences-editing = Uređivanje
+preferences-browsing = Pregledavanje
+preferences-default-deck = Zadani špil
+preferences-account = AnkiWeb račun
+preferences-scheduler = Raspoređivač
+preferences-user-interface = Korisničko sučelje
 
 ## URL scheme related
 
