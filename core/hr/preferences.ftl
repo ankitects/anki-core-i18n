@@ -6,7 +6,6 @@ preferences-hours-past-midnight = sati iza ponoći
 preferences-language = Jezik
 preferences-interrupt-current-audio-when-answering = Prekini trenutni zvuk pri odgovaranju
 preferences-mins = minuta
-preferences-network = Mreža
 preferences-next-day-starts-at = Idući dan počinje u
 preferences-paste-clipboard-images-as-png = Zalijepi slike iz međuspremnika kao PNG
 preferences-please-restart-anki-to-complete-language = Ponovno pokrenite Anki kako biste dovršili promjenu jezika.

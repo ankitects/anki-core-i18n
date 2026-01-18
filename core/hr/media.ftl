@@ -1,1 +1,1 @@
-media-recordingtime = Snimam...<br>Vrijeme: { $secs }
+media-recordingtime = Snimanje...<br>Vrijeme: { $secs }
