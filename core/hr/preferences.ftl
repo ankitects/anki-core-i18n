@@ -1,22 +1,27 @@
 preferences-automatically-sync-on-profile-openclose = Automatska sinkronizacija prilikom otvaranja/zatvaranja profila
 preferences-backups = Sigurnosne kopije
-preferences-backups2 = sigurnosne kopije
-preferences-backupsanki-will-create-a-backup-of = <b>Sigurnosne kopije</b><br>Anki će napraviti sigurnosnu kopiju vaše kolekcije svaki put kada se zatvori ili sinkronizira.
 preferences-change-deck-depending-on-note-type = Promijeni špil ovisno o vrsti bilješke
+preferences-changes-will-take-effect-when-you = Promjene će stupiti na snagu kada se Anki ponovno pokrene.
 preferences-hours-past-midnight = sati iza ponoći
-preferences-interface-language = Jezik sučelja:
-preferences-keep = Zadrži
+preferences-language = Jezik
+preferences-interrupt-current-audio-when-answering = Prekini trenutni zvuk pri odgovaranju
 preferences-mins = minuta
 preferences-network = Mreža
 preferences-next-day-starts-at = Idući dan počinje u
-preferences-note-media-is-not-backed-up = Bilješka: ne postoji sigurnosna kopija medijskih datoteka. Napravite periodično sigurnosno kopiranje svoje Anki mape kako biste bili sigurni.
 preferences-paste-clipboard-images-as-png = Zalijepi slike iz međuspremnika kao PNG
+preferences-please-restart-anki-to-complete-language = Ponovno pokrenite Anki kako biste dovršili promjenu jezika.
 preferences-preferences = Prilagodbe
 preferences-scheduling = Prerasporedi
 preferences-show-next-review-time-above-answer = Prikaži vrijeme sljedećeg ponavljanja iznad tipki s odgovorima
-preferences-show-remaining-card-count-during-review = Prikaži broj preostalih kartica tijekom ponavljanja
 preferences-some-settings-will-take-effect-after = Neka podešenja će početi djelovati kada ponovno pokrenete Anki.
-preferences-synchronisation = <b>Sinkronizacija</b>
-preferences-synchronizationnot-currently-enabled-click-the-sync = <b>Sinkronizacija</b><br> Nije uključena; za uključivanje kliknite tipku za sinkronizaciju u glavnom prozoru.
+preferences-tab-synchronisation = Sinkronizacija
 preferences-synchronize-audio-and-images-too = Sinkroniziraj i audio i slikovne datoteke
+preferences-login-successful-sync-now = Prijava uspješna. Spremi postavke i sinkroniziraj?
 preferences-timebox-time-limit = Vremensko ograničenje
+preferences-user-interface-size = Veličina korisničkog sučelja
+
+## URL scheme related
+
+
+## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
+

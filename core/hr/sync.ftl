@@ -39,7 +39,7 @@ sync-conflict-explanation2 =
     Špilovi na ovom uređaju i na AnkiWebu se ne podudaraju. Odaberite koji ćete špil zadržati:
     
     - Odaberite **{ sync-download-from-ankiweb }** kako biste zamijenili lokalne špilove s verzijama s AnkiWeba. Izgubit ćete sve promjene koje su napravljene na ovom uređaju nakon zadnje sinkronizacije.
-    - Odaberite **{ sync-upload-to-ankiweb }** kako biste pregazili špilove na AnkiWebu s verzijama špilova s ovog uređaja i kako biste izbrisali bilo kakve promjene na AnkiWebu.
+    - Odaberite **{ sync-upload-to-ankiweb }** kako biste zamijenili špilove na AnkiWebu s verzijama špilova s ovog uređaja i kako biste izbrisali bilo kakve promjene na AnkiWebu.
     
     Nakon što se nepodudaranje razriješi, sinkronizacija će funkcionirati na uobičajen način.
 sync-ankiweb-id-label = E-mail:
@@ -47,6 +47,7 @@ sync-password-label = Lozinka:
 sync-account-required =
     <h1>Potreban je račun</h1>
     Za sinkronizaciju vaše kolekcije treba Vam besplatan račun.  <a href="{ $link }">Registrirajte</a> račun, a zatim dolje unesite svoje podatke.
+sync-sanity-check-failed = Pokrenite funkciju "Provjeri bazu podataka" te zatim sinkronizirajte ponovno. Ako se problem nastavi, iz ekrana postavki prisilno sprovedite sinkronizaciju s jedne strane.
 sync-clock-off = Nije moguće sinkronizirati - Vaš sat nije podešen na točno vrijeme.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
@@ -57,9 +58,11 @@ sync-sign-in = Prijava
 sync-ankihub-dialog-heading = AnkiHub prijava
 sync-ankihub-username-label = Korisničko ime ili e-mail:
 sync-ankihub-login-failed = Nije se moguće prijaviti u AnkiHub pomoću upisanih vjerodajnica.
+sync-ankihub-addon-installation = Instalacija dodatka AnkiHub
 
 ## Buttons
 
+sync-media-log-button = Zapisnik medijskih datoteka
 sync-abort-button = Prekini
 sync-download-from-ankiweb = Preuzmi sa AnkiWeb-a
 sync-upload-to-ankiweb = Pošalji na AnkiWeb

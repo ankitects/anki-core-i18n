@@ -93,5 +93,5 @@ actions-nothing-to-undo = Ništa za poništiti
 actions-nothing-to-redo = Ništa za ponoviti
 actions-auto-advance = Automatsko napredovanje
 actions-auto-advance-activated = Automatsko napredovanje omogućeno
-actions-auto-advance-deactivated = Automatsko napredovanje omogućeno
-actions-processing = Obrađujem...
+actions-auto-advance-deactivated = Automatsko napredovanje onemogućeno
+actions-processing = Obrađivanje...
