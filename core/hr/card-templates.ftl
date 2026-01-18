@@ -12,29 +12,32 @@ card-templates-field-not-found = Polje '{ $field }' nije pronađeno.
 card-templates-changes-saved = Promjene spremljene.
 card-templates-discard-changes = Odbaciti promjene?
 card-templates-add-card-type = Dodaj vrstu kartice...
-card-templates-anki-couldnt-find-the-line-between = Anki nije uspio pronaći crtu između pitanja i odgovora. Ručno prilagodite obrazac za zamjenu pitanja i odgovora.
+card-templates-anki-couldnt-find-the-line-between = Anki nije uspio pronaći crtu između pitanja i odgovora. Ručno prilagodite obrazac kako biste zamijenili pitanje i odgovor.
 card-templates-at-least-one-card-type-is = Potrebna je barem jedna vrsta kartice.
 card-templates-browser-appearance = Izgled preglednika...
 card-templates-card = Kartica { $val }
 card-templates-card-types-for = Vrste kartica za { $val }
-card-templates-cloze = Cloze { $val }
-card-templates-deck-override = Prebrisavanje špila...
 card-templates-copy-info = Kopiraj informacije u međuspremnik
 card-templates-delete-the-as-card-type-and = Izbrisati vrstu kartice '{ $template }' i njezine { $cards }?
 card-templates-enter-deck-to-place-new = Unesite špil za spremanje novih { $val } karata, ili ostavite prazno:
-card-templates-enter-new-card-position-1 = Unesi novu poziciju karte (1...{ $val }):
+card-templates-enter-new-card-position-1 = Unesite novu poziciju karte (1...{ $val }):
 card-templates-flip = Preokreni
 card-templates-form = Obrazac
 card-templates-off = (isklj)
 card-templates-on = (uklj)
 card-templates-remove-card-type = Ukloni vrstu kartice...
 card-templates-rename-card-type = Preimenuj vrstu kartice...
-card-templates-reposition-card-type = Premještanje vrste kartice...
 card-templates-card-count =
     { $count ->
         [one] { $count } kartica
-        [few] { $count } kartica
+        [few] { $count } kartice
        *[other] { $count } kartica
+    }
+card-templates-this-will-create-card-proceed =
+    { $count ->
+        [one] Ovo će stvoriti { $count } karticu. Nastaviti?
+        [few] Ovo će stvoriti { $count } kartice. Nastaviti?
+       *[other] Ovo će stvoriti { $count } kartica. Nastaviti?
     }
 card-templates-type-boxes-warning = Podržan je samo jedan okvir za tipkanje po predlošku kartice.
 card-templates-restore-to-default = Vrati na zadano
