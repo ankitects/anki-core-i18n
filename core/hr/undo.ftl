@@ -8,4 +8,4 @@ undo-undo-action = Poništi { $val }
 # eg "Answer Card Undone"
 undo-action-undone = { $action } poništeno
 undo-redo-action = Ponovi { $action }
-undo-action-redone = { $action } ponovno urađeno
+undo-action-redone = { $action } ponovljeno
