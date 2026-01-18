@@ -1,4 +1,11 @@
+database-check-corrupt = Datoteka kolekcije je oštećena. Obnovite je iz automatske sigurnosne kopije.
 database-check-rebuilt = Baza podataka ponovno izgrađena i optimizirana.
+database-check-card-properties =
+    { $count ->
+        [one] Popravljeno { $count } neispravno svojstvo kartice.
+        [few] Popravljena { $count } neispravna svojstva kartice.
+       *[other] Popravljeno { $count } neispravnih svojstva kartice.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Izbrisana { $count } kartica s nedostajućim predlošcima.
@@ -45,3 +52,4 @@ database-check-rebuilding = Ponovna izgradnja...
 database-check-checking-cards = Provjeravanje kartica...
 database-check-checking-notes = Provjeravanje bilješki...
 database-check-checking-history = Provjeravanje povijesti...
+database-check-title = Provjeri bazu podataka
