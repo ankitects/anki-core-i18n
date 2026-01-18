@@ -27,13 +27,40 @@ sync-resync-required = Sinkronizirajte ponovno. Ako se ova poruka nastavi pojavl
 sync-must-wait-for-end = Anki se trenutno sinkronizira. Pričekajte da sinkronizacija završi, zatim pokušajte ponovno.
 sync-confirm-empty-download = Lokalna kolekcija nema kartica. Želite li je skinuti s AnkiWeba?
 sync-confirm-empty-upload = AnkiWeb kolekcija nema kartica. Želite li je zamijeniti s lokalnom kolekcijom?
+sync-conflict-explanation =
+    Špilovi na ovom uređaju i špilovi na AnkiWebu se razlikuju na način da ih se ne može spojiti, što znači da je potrebno pregaziti špilove na jednoj strani onima s druge strane.
+    
+    Ako odaberete preuzimanje, Anki će dohvatiti kolekciju s AnkiWeba, što znači da će biti izgubljene bilo kakve promjene koje ste na ovom uređaju napravili nakon zadnje sinkronizacije.
+    
+    Ako odaberete prijenos, Anki će podatke s ovog uređaja prenijeti na AnkiWeb, što znači da će bilo kakve promjene koje čekaju na AnkiWebu biti izgubljene.
+    
+    Kad svi uređaji budu sinkronizirani, buduća ponavljanja i dodane kartice moći će se automatski pripojiti.
+sync-conflict-explanation2 =
+    Špilovi na ovom uređaju i na AnkiWebu se ne podudaraju. Odaberite koji ćete špil zadržati:
+    
+    - Odaberite **{ sync-download-from-ankiweb }** kako biste zamijenili lokalne špilove s verzijama s AnkiWeba. Izgubit ćete sve promjene koje su napravljene na ovom uređaju nakon zadnje sinkronizacije.
+    - Odaberite **{ sync-upload-to-ankiweb }** kako biste pregazili špilove na AnkiWebu s verzijama špilova s ovog uređaja i kako biste izbrisali bilo kakve promjene na AnkiWebu.
+    
+    Nakon što se nepodudaranje razriješi, sinkronizacija će funkcionirati na uobičajen način.
+sync-ankiweb-id-label = E-mail:
 sync-password-label = Lozinka:
 sync-account-required =
     <h1>Potreban je račun</h1>
     Za sinkronizaciju vaše kolekcije treba Vam besplatan račun.  <a href="{ $link }">Registrirajte</a> račun, a zatim dolje unesite svoje podatke.
+sync-clock-off = Nije moguće sinkronizirati - Vaš sat nije podešen na točno vrijeme.
+# “details” expands to a string such as “300.14 MB > 300.00 MB”
+sync-upload-too-large =
+    Vaša kolekcija je prevelika da bi se poslala na AnkiWeb. Možete je smanjiti tako što uklonite neželjene špilove (koje prije toga možete izvesti) i zatim upotrijebite funkciju "Provjeri bazu podataka" kako biste smanjili veličinu datoteke.
+    
+    { $details } (bez kompresije)
+sync-sign-in = Prijava
+sync-ankihub-dialog-heading = AnkiHub prijava
+sync-ankihub-username-label = Korisničko ime ili e-mail:
+sync-ankihub-login-failed = Nije se moguće prijaviti u AnkiHub pomoću upisanih vjerodajnica.
 
 ## Buttons
 
+sync-abort-button = Prekini
 sync-download-from-ankiweb = Preuzmi sa AnkiWeb-a
 sync-upload-to-ankiweb = Pošalji na AnkiWeb
 sync-cancel-button = Otkaži
@@ -45,3 +72,7 @@ sync-uploading-to-ankiweb = Šaljem na AnkiWeb...
 sync-syncing = Sinkronizacija...
 sync-checking = Provjera u tijeku...
 sync-connecting = Povezivanje…
+sync-added-updated-count = Dodano/izmijenjeno: { $up }↑ { $down }↓
+sync-log-in-button = Prijavi se
+sync-log-out-button = Odjavi se
+sync-collection-complete = Dovršena sinkronizacija kolekcije.
