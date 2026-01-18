@@ -1,12 +1,9 @@
 adding-add-shortcut-ctrlandenter = Dodaj (prečac: ctrl+enter)
 adding-added = Dodano
 adding-discard-current-input = Odbaciti trenutni unos?
-adding-keep-editing = Nastavite s uređivanjem
+adding-keep-editing = Nastavi uređivati
 adding-edit = Uredi "{ $val }"
 adding-history = Povijest
 adding-note-deleted = (Bilješka izbrisana)
 adding-shortcut = Prečac: { $val }
 adding-the-first-field-is-empty = Prvo polje je prazno.
-adding-you-have-a-cloze-deletion-note = Imate vrstu cloze bilješke, ali niste izvršili nikakve cloze bilješke. Želite li nastaviti?
-adding-cloze-outside-cloze-notetype = Brisanje cloze bilješke može se koristiti samo na tipovima cloze bilješki.
-adding-cloze-outside-cloze-field = Brisanje cloze bilješke može se koristiti samo u poljima koja koriste filtar 'cloze:'. Ovo je obično prvo polje.
