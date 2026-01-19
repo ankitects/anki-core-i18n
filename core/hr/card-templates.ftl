@@ -1,13 +1,23 @@
+card-templates-changes-will-affect-notes =
+    { $count ->
+        [one] Niže navedene promjene  će utjecati na { $count } bilješku koja koristi ovu vrstu kartice.
+        [few] Niže navedene promjene  će utjecati na { $count } bilješke koje koriste ovu vrstu kartice.
+       *[other] Niže navedene promjene  će utjecati na { $count } bilješki koje koriste ovu vrstu kartice.
+    }
 card-templates-card-type = Vrsta kartice:
 card-templates-front-template = Predložak prednje strane
 card-templates-back-template = Predložak stražnje strane
 card-templates-template-styling = Stil
+card-templates-front-preview = Pregled prednje strane
+card-templates-back-preview = Pregled stražnje strane
+card-templates-preview-box = Pregled
 card-templates-template-box = Predložak
 card-templates-fill-empty = Ispunite prazna polja
 card-templates-night-mode = Noćni način rada
 card-templates-preview-settings = Opcije
 card-templates-invalid-template-number = Predložak kartice { $number } u vrsti bilješke '{ $notetype }' ima problem.
 card-templates-identical-front = Prednja strana je identična predlošku kartice { $number }.
+card-templates-see-preview = Za više informacija pogledajte pregled.
 card-templates-field-not-found = Polje '{ $field }' nije pronađeno.
 card-templates-changes-saved = Promjene spremljene.
 card-templates-discard-changes = Odbaciti promjene?
