@@ -13,8 +13,10 @@ decks-import-file = Uvezi datoteku
 decks-limit-to = Ograniči na
 decks-new-deck-name = Naziv novog špila:
 decks-please-select-something = Odaberite nešto.
+decks-reschedule-cards-based-on-my-answers = Prerasporedi kartice na temelju mojih odgovora u ovom špilu
 decks-study = Uči
 decks-study-deck = Uči špil
+decks-filtered-deck-search-empty = Nijedna kartica ne odgovara navedenom pretraživanju. Neke su kartice možda isključene jer se nalaze u drugom filtriranom špilu ili su suspendirane.
 decks-zero-minutes-hint = (0 = vrati karticu u izvorni špil)
 
 ## Sort order of cards

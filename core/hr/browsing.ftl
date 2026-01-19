@@ -6,6 +6,7 @@ browsing-addon = Dodatak
 browsing-all-fields = Sva polja
 browsing-answer = Odgovor
 browsing-any-flag = Bilo koja zastavica
+browsing-average-ease = Prosj. lakoća
 browsing-average-interval = Prosječni interval
 browsing-browser-appearance = Izgled preglednika
 browsing-browser-options = Opcije preglednika
@@ -93,6 +94,7 @@ browsing-sorting-on-this-column-is-not = Sortiranje prema ovom stupcu nije podr�
 browsing-start-position = Početni položaj:
 browsing-step = Korak:
 browsing-suspended = Suspendirano
+browsing-tag-duplicates = Označi duplikate
 browsing-tag-rename-warning-empty = Ne možete preimenovati oznaku koja nema bilješki.
 browsing-target-field = Ciljno polje:
 browsing-toggle-showing-cards-notes = Uključi/isključi kartice/bilješke
@@ -100,6 +102,12 @@ browsing-toggle-mark = Uključi/isključi oznaku
 browsing-treat-input-as-regular-expression = Tretira unos kao regularni izraz
 browsing-update-saved-search = Ažuriraj s trenutnom pretragom
 browsing-whole-collection = Cijela kolekcija
+browsing-window-title-notes =
+    { $total ->
+        [one] Pregledavanje (odabrano { $selected } od { $total } bilješke)
+        [few] Pregledavanje (odabrano { $selected } od { $total } bilješke)
+       *[other] Pregledavanje (odabrano { $selected } od { $total } bilješki)
+    }
 browsing-you-must-have-at-least-one = Morate imati barem jedan stupac.
 browsing-group =
     { $count ->
@@ -125,8 +133,16 @@ browsing-cards-updated =
         [few] { $count } kartice ažurirane.
        *[other] { $count } kartica ažurirano.
     }
+browsing-window-title =
+    { $total ->
+        [one] Pregledavanje (odabrano { $selected } od { $total } kartice)
+        [few] Pregledavanje (odabrano { $selected } od { $total } kartice)
+       *[other] Pregledavanje (odabrano { $selected } od { $total } kartica)
+    }
 browsing-sidebar-expand = Proširi
-browsing-sidebar-expand-children = Proširi Podstavke
+browsing-sidebar-collapse = Sklopi
+browsing-sidebar-expand-children = Proširi podstavke
+browsing-sidebar-collapse-children = Sklopi podstavke
 browsing-sidebar-decks = Špilovi
 browsing-sidebar-tags = Oznake
 browsing-sidebar-notetypes = Vrste bilješki
@@ -135,6 +151,7 @@ browsing-sidebar-save-current-search = Spremi trenutno pretraživanje
 browsing-sidebar-card-state = Stanje kartice
 browsing-sidebar-flags = Zastavice
 browsing-today = Danas
+browsing-tooltip-card-modified = Posljednji put kada su napravljene promjene na karti, uključujući ponavljanja, zastavice i promjene špila
 browsing-tooltip-note-modified = Vrijeme kad su posljednji put napravljene promjene u bilješci, obično uređivanja sadržaja polja ili oznaka
 browsing-tooltip-card = Naziv predloška kartice
 browsing-tooltip-cards = Broj kartica koja bilješka ima
@@ -144,6 +161,9 @@ browsing-tooltip-answer = Stražnja strana kartice, prilagodljiva u uređivaču 
 browsing-studied-today = Učeno
 browsing-added-today = Dodano
 browsing-edited-today = Uređeno
+browsing-sidebar-first-review = Prvo ponavljanje
+browsing-sidebar-rescheduled = Preraspoređeno
+browsing-sidebar-due-today = Na redu
 browsing-sidebar-untagged = Bez oznaka
 browsing-sidebar-overdue = Zakašnjelo
 browsing-row-deleted = (obrisano)
