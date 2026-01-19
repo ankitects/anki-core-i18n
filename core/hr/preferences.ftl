@@ -30,6 +30,7 @@ preferences-timebox-time-limit = Vremensko ograničenje
 preferences-user-interface-size = Veličina korisničkog sučelja
 preferences-you-can-restore-backups-via-fileswitch = Možete obnoviti sigurnosnu kopiju odlaskom na Datoteka > Promijeni profil
 preferences-legacy-timezone-handling = Stari način rukovanja vremenskim zonama (bugovito, ali potrebno za AnkiDroid <= 2.14)
+preferences-default-search-text = Zadani tekst za pretraživanje
 preferences-default-search-text-example = npr. "deck:current"
 preferences-theme = Tema
 preferences-theme-follow-system = Kao u sustavu
@@ -47,6 +48,8 @@ preferences-reduce-motion = Smanji animacije
 preferences-reduce-motion-tooltip = Onemogući razne animacije i tranzicije u korisničkom sučelju
 preferences-custom-sync-url = Vlastiti server za sinkronizaciju
 preferences-custom-sync-url-disclaimer = Za napredne korisnike - pogledajte priručnik za više informacija
+preferences-hide-top-bar-during-review = Sakrij gornju traku prilikom ponavljanja
+preferences-hide-bottom-bar-during-review = Sakrij donju traku prilikom ponavljanja
 preferences-always = Uvijek
 preferences-full-screen-only = Samo u punom ekranu
 preferences-appearance = Izgled
@@ -70,9 +73,18 @@ preferences-shortcut-placeholder = Unesi nekorišteni tipku prečaca ili ostavit
 preferences-third-party-services = Usluge trećih strana
 preferences-ankiweb-intro = AnkiWeb je besplatna usluga koja omogućuje sinkronizaciju kartica između Vaših uređaja i omogućuje oporavak tih kartica u slučaju da izgubite ili slomite uređaj.
 preferences-ankihub-intro = AnkiHub pruža kolaboracijsko uređivanje špilova i dodatne alate za učenje. Plaćena pretplata je nužna kako bi se pristupilo određenim značajkama.
+preferences-third-party-description = Usluge trećih strana nisu povezane s Ankijem, niti ih Anki podržava. Korištenje tih usluga usluga može zahtijevati plaćanje.
 
 ## URL scheme related
 
+preferences-url-schemes = URL sheme
+preferences-url-scheme-prompt = Dozvoljene URL sheme (odvojene razmakom)
+preferences-url-scheme-warning =
+    Blokiran je pokušaj da se otvori '{ $link }' koji bi mogao predstavljati sigurnosnu prijetnju.
+    
+    Ako vjerujete autoru špila i želite nastaviti, možete dodati '{ $scheme }' u dozvoljene URL sheme.
+preferences-url-scheme-allow-once = Dopusti jednom
+preferences-url-scheme-always-allow = Uvijek dopusti
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
