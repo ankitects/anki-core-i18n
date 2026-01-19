@@ -64,6 +64,13 @@ deck-config-relearning-steps = Koraci za ponovno učenje
 
 ## Easy Days section.
 
+deck-config-easy-days-monday = Pon
+deck-config-easy-days-tuesday = Uto
+deck-config-easy-days-wednesday = Sri
+deck-config-easy-days-thursday = Čet
+deck-config-easy-days-friday = Pet
+deck-config-easy-days-saturday = Sub
+deck-config-easy-days-sunday = Ned
 
 ## Adding/renaming
 

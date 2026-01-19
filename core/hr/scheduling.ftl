@@ -54,9 +54,51 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    { $unit ->
+        [seconds]
+            { $amount ->
+                [one] Sljedeća kartica za učenje bit će dostupna za { $amount } sekundu.
+                [few] Sljedeća kartica za učenje bit će dostupna za { $amount } sekunde.
+               *[other] Sljedeća kartica za učenje bit će dostupna za { $amount } sekundi.
+            }
+        [minutes]
+            { $amount ->
+                [one] Sljedeća kartica za učenje bit će dostupna za { $amount } minutu.
+                [few] Sljedeća kartica za učenje bit će dostupna za { $amount } minute.
+               *[other] Sljedeća kartica za učenje bit će dostupna za { $amount } minuta.
+            }
+       *[hours]
+            { $amount ->
+                [one] Sljedeća kartica za učenje bit će dostupna za { $amount } sat.
+                [few] Sljedeća kartica za učenje bit će dostupna za { $amount } sata.
+               *[other] Sljedeća kartica za učenje bit će dostupna za { $amount } sati.
+            }
+    }
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Ostala je jedna kartica koja je kasnije danas na redu.
+        [few] Ostale su { $remaining } kartice koje su kasnije danas na redu.
+       *[other] Ostalo je { $remaining } kartica koje su kasnije danas na redu.
+    }
+scheduling-congratulations-finished = Čestitke! Zasad ste završili ovaj špil.
+scheduling-today-review-limit-reached = Današnji dnevni limit ponavljanja je dosegnut, no ostalo je još kartica za ponavljanje. Za optimalno pamćenje, povećajte dnevni limit u postavkama.
+scheduling-today-new-limit-reached = Dostupno je još novih kartica, ali dosegnut je dnevni limit. Možete povećati limit u postavkama, ali imajte na umu da što više novih kartica uvedete, to će Vaše kratkotrajno opterećenje ponavljanja postati veće.
+scheduling-buried-cards-found = Jedna ili više kartica je zakopana te će sutra biti prikazana. Možete { $unburyThem } ako ih želite odmah vidjeti.
+# used in scheduling-buried-cards-found
+# "... you can unbury them if you wish to see..."
+scheduling-unbury-them = ih otkopati
 
 ## Scheduler upgrade
 
+scheduling-update-soon = Anki 2.1 dolazi s novim raspoređivačem, koji rješava brojne probleme iz prethodnih verzija Ankija. Preporučuje se ažuriranje.
+scheduling-update-done = Raspoređivač je uspješno ažuriran.
+scheduling-update-later-button = Kasnije
+scheduling-update-more-info-button = Nauči više
+scheduling-update-required =
+    Vaša kolekcija mora biti ažurirana na V2 raspoređivač.
+    Stisnite { scheduling-update-more-info-button } prije nego što nastavite.
 
 ## Other scheduling strings
 
@@ -64,6 +106,7 @@ scheduling-at-least-one-step-is-required = Potreban je bar jedan korak.
 scheduling-automatically-play-audio = Automatska reprodukcija zvučnog zapisa
 scheduling-days = dana
 scheduling-description = Opis
+scheduling-end = (kraj)
 scheduling-general = Općenito
 scheduling-ignore-answer-times-longer-than = Ignoriraj vremena odgovora duža od
 scheduling-interval-modifier = Modifikator intervala
@@ -84,6 +127,10 @@ scheduling-reviews = Ponavljanja
 scheduling-seconds = sekundi
 scheduling-set-all-decks-below-to = Sve špilove ispod { $val } postavi u ovu grupu opcija?
 scheduling-set-for-all-subdecks = Postavi za sve pod-špilove
+scheduling-show-new-cards-after-reviews = Prikaži nove kartice nakon ponavljanja
+scheduling-show-new-cards-before-reviews = Prikaži nove kartice prije ponavljanja
+scheduling-show-new-cards-in-order-added = Prikaži nove kartice redoslijedom kojim su dodane
+scheduling-show-new-cards-in-random-order = Prikaži nove kartice u nasumičnom redoslijedu
 scheduling-starting-ease = Početna težina
 scheduling-steps-in-minutes = Koraka (u minutama)
 scheduling-steps-must-be-numbers = Koraci moraju biti brojevi.
@@ -94,4 +141,16 @@ scheduling-deck-updated =
         [one] { $count } špil aktualiziran.
         [few] { $count } špila aktualizirana.
        *[other] { $count } špilova aktualizirano.
+    }
+scheduling-graded-cards-done =
+    { $cards ->
+        [one] { $cards } kartica ocijenjena.
+        [few] { $cards } kartice ocijenjene.
+       *[other] { $cards } kartica ocijenjeno.
+    }
+scheduling-forgot-cards =
+    { $cards ->
+        [one] { $cards } kartica resetirana.
+        [few] { $cards } kartice resetirane.
+       *[other] { $cards } kartica resetirano.
     }

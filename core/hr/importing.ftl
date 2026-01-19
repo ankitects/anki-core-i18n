@@ -1,4 +1,5 @@
 importing-failed-debug-info = Uvoz nije uspio. Informacije o grešci:
+importing-aborted = Prekinuto: { $val }
 importing-added-duplicate-with-first-field = Dodan duplikat s prvim poljem: { $val }
 importing-all-supported-formats = Svi podržani formati { $val }
 importing-allow-html-in-fields = Dozvoli HTML u poljima
@@ -29,7 +30,10 @@ importing-map-to = Preslikaj u { $val }
 importing-map-to-tags = Preslikaj u oznake
 importing-mapped-to = preslikano u <b>{ $val }</b>
 importing-mapped-to-tags = Preslikano u <b>Tags</b>
+# the action of combining two existing note types to create a new one
+importing-merge-notetypes = Spoji vrste bilješki
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 špil (*.db)
+importing-multicharacter-separators-are-not-supported-please = Separatori od više znakova nisu podržani. Unesite samo jedan znak.
 importing-new-deck-will-be-created = Novi špil će biti stvoren: { $name }
 importing-notes-added-from-file = Bilješke dodane iz datoteke: { $val }
 importing-notes-found-in-file = Bilješke nađene u datoteci: { $val }
@@ -39,6 +43,12 @@ importing-notes-updated-as-file-had-newer = Bilješke ažurirane jer je datoteka
 importing-include-reviews = Uključi ponavljanja
 importing-also-import-progress = Uvezi napredak učenja
 importing-with-deck-configs = Uvezi predloške špila
+importing-include-reviews-help =
+    Ako je omogućeno, uvozit će se i sva prethodna ponavljanja koje je uključio autor dijeljenog špila.
+    U suprotnom će se sve kartice uvesti kao nove kartice, a sve će se oznake „pijavice” ili „označeno” ukloniti.
+importing-with-deck-configs-help =
+    Ako je omogućeno, uvozit će se i sve opcije špila koje je autor dijeljenog špila uključio.
+    U suprotnom će svim špilovima biti dodijeljen zadani predložak.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakiran Anki špil/kolekcija (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Pipe
@@ -55,6 +65,7 @@ importing-selected-file-was-not-in-utf8 = Odabrana datoteka nije bila u UTF-8 fo
 importing-semicolon = Točka-zarez
 importing-skipped = Preskočeno
 importing-tab = Tabulator
+importing-tag-modified-notes = Označi izmijenjene bilješke:
 importing-text-separated-by-tabs-or-semicolons = Tekst odvojen tabulatorom ili točkom-zarez (*)
 importing-the-first-field-of-the-note = Prvo polje tipa bilješke mora biti preslikano.
 importing-the-provided-file-is-not-a = Navedena datoteka nije valjana .apkg datoteka.
@@ -191,7 +202,17 @@ importing-note-updated-as-file-had-newer = Bilješka ažurirana jer je datoteka 
 importing-note-skipped-due-to-missing-notetype = Bilješka preskočena jer je nedostajala njena vrsta bilješke
 importing-note-skipped-due-to-missing-deck = Bilješka preskočena jer nedostaje njen špil
 importing-note-skipped-due-to-empty-first-field = Bilješka preskočena jer je njeno prvo polje prazno
+importing-field-separator-help =
+    Separator polja u tekstnoj datoteci. Možete koristiti pregled da biste provjerili jesu li polja ispravno odvojena.
+    
+    Napominjemo da ako se taj znak pojavljuje u bilo kojem polju, polje se mora citirati u skladu sa standardom CSV. Programi proračunske tablice kao što je LibreOffice to će učiniti automatski.
+    
+    Ne može se promijeniti ako tekstualna datoteka prisiljava korištenje određenog separatora putem zaglavlja. Ako zaglavlje datoteke nije prisutno, Anki će pokušati pogoditi što je separator.
 importing-allow-html-in-fields-help = Omogućite ovo ako datoteka sadrži HTML formatiranje. Npr. ako datoteka sadrži niz '&lt;br&gt;', prikazat će se kao prijelom retka na vašoj kartici. S druge strane, ako je ta mogućnost onemogućena, prikazat će se doslovni znakovi  '&lt;br&gt;'.
+importing-notetype-help =
+    Novouvezene bilješke imat će ovu vrstu bilješki, a ažurirat će se samo postojeće bilješke s tom vrstom bilješki.
+    
+    Možete odabrati koja polja u datoteci odgovaraju kojim poljima vrste bilješke s alatom za mapiranje.
 importing-deck-help = Uvezene kartice bit će stavljene u ovaj špil.
 importing-existing-notes-help =
     Što učiniti ako se uvezena bilješka podudara s postojećom.
