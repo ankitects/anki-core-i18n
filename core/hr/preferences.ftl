@@ -88,3 +88,7 @@ preferences-url-scheme-always-allow = Uvijek dopusti
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+preferences-basic = Osnovno
+preferences-reviewer = Ponavljač
+preferences-media = Mediji
+preferences-not-logged-in = Trenutno niste prijavljeni na AnkiWeb
