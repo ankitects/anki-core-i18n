@@ -1,8 +1,8 @@
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] Niže navedene promjene  će utjecati na { $count } bilješku koja koristi ovu vrstu kartice.
-        [few] Niže navedene promjene  će utjecati na { $count } bilješke koje koriste ovu vrstu kartice.
-       *[other] Niže navedene promjene  će utjecati na { $count } bilješki koje koriste ovu vrstu kartice.
+        [one] Promjene u polju niže će utjecati na { $count } bilješku koja koristi ovu vrstu kartice.
+        [few] Promjene u polju niže će utjecati na { $count } bilješke koje koriste ovu vrstu kartice.
+       *[other] Promjene u polju niže će utjecati na { $count } bilješki koje koriste ovu vrstu kartice.
     }
 card-templates-card-type = Vrsta kartice:
 card-templates-front-template = Predložak prednje strane
@@ -12,7 +12,7 @@ card-templates-front-preview = Pregled prednje strane
 card-templates-back-preview = Pregled stražnje strane
 card-templates-preview-box = Pregled
 card-templates-template-box = Predložak
-card-templates-fill-empty = Ispunite prazna polja
+card-templates-fill-empty = Ispuni prazna polja
 card-templates-night-mode = Noćni način rada
 card-templates-preview-settings = Opcije
 card-templates-invalid-template-number = Predložak kartice { $number } u vrsti bilješke '{ $notetype }' ima problem.
