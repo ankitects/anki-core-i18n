@@ -6,6 +6,12 @@ database-check-card-properties =
         [few] Popravljena { $count } neispravna svojstva kartice.
        *[other] Popravljeno { $count } neispravnih svojstva kartice.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Vrijeme posljednjeg ponavljanja je dodano na { $count } karticu.
+        [few] Vrijeme posljednjeg ponavljanja je dodano na { $count } kartice.
+       *[other] Vrijeme posljednjeg ponavljanja je dodano na { $count } kartica.
+    }
 database-check-missing-templates =
     { $count ->
         [one] Izbrisana { $count } kartica s nedostajućim predlošcima.
@@ -24,11 +30,23 @@ database-check-card-missing-note =
         [few] Izbrisane { $count } kartice s nedostajućom bilješkom.
        *[other] Izbrisano { $count } kartica s nedostajućom bilješkom.
     }
+database-check-duplicate-card-ords =
+    { $count ->
+        [one] Obrisana { $count } kartica s podvojenim predloškom.
+        [few] Obrisane { $count } kartice s podvojenim predloškom.
+       *[other] Obrisano { $count } kartica s podvojenim predloškom.
+    }
 database-check-missing-decks =
     { $count ->
         [one] Popravljen { $count } nedostajući špil.
         [few] Popravljena { $count } nedostajuća špila.
        *[other] Popravljeno { $count } nedostajućih špilova.
+    }
+database-check-revlog-properties =
+    { $count ->
+        [one] Popravljen { $count } unos o ponavljanju s neispravnim svojstvima.
+        [few] Popravljena { $count } unosa o ponavljanju s neispravnim svojstvima.
+       *[other] Popravljeno { $count } unosa o ponavljanju s neispravnim svojstvima.
     }
 database-check-notes-with-invalid-utf8 =
     { $count ->
