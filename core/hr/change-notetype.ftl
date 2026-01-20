@@ -1,6 +1,8 @@
-change-notetype-current = Trenutna
-change-notetype-new = Nova
+change-notetype-current = Trenutno
+change-notetype-new = Novo
 change-notetype-nothing = (Ništa)
+change-notetype-collapse = Sklopi
+change-notetype-expand = Proširi
 change-notetype-will-discard-content = Odbacit će se sadržaj u sljedećim poljima:
 change-notetype-will-discard-cards = Uklonit će se sljedeće kartice:
 change-notetype-fields = Polja

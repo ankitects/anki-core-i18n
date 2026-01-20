@@ -14,9 +14,14 @@ card-templates-preview-box = Pregled
 card-templates-template-box = Predložak
 card-templates-fill-empty = Ispuni prazna polja
 card-templates-night-mode = Noćni način rada
+# Add "mobile" class to card preview, so the card appears like it would
+# on a mobile device.
+card-templates-add-mobile-class = Dodaj klasu "mobile"
 card-templates-preview-settings = Opcije
-card-templates-invalid-template-number = Predložak kartice { $number } u vrsti bilješke '{ $notetype }' ima problem.
+card-templates-invalid-template-number = Predložak kartice { $number } u tipu bilješke '{ $notetype }' ima problem.
 card-templates-identical-front = Prednja strana je identična predlošku kartice { $number }.
+card-templates-no-front-field = Na prednjoj strani predloška kartice se očekuje zamjena za polje.
+card-templates-missing-cloze = Na prednjoj i stražnjoj strani predloška kartice se očekuje naći '{ "{{" }cloze:Text{ "}}" }'.
 card-templates-see-preview = Za više informacija pogledajte pregled.
 card-templates-field-not-found = Polje '{ $field }' nije pronađeno.
 card-templates-changes-saved = Promjene spremljene.
@@ -37,6 +42,7 @@ card-templates-off = (isklj)
 card-templates-on = (uklj)
 card-templates-remove-card-type = Ukloni vrstu kartice...
 card-templates-rename-card-type = Preimenuj vrstu kartice...
+card-templates-reposition-card-type = Promijeni poziciju tipa kartice...
 card-templates-card-count =
     { $count ->
         [one] { $count } kartica
@@ -52,4 +58,4 @@ card-templates-this-will-create-card-proceed =
 card-templates-type-boxes-warning = Podržan je samo jedan okvir za tipkanje po predlošku kartice.
 card-templates-restore-to-default = Vrati na zadano
 card-templates-restore-to-default-confirmation = Ovim će se sva polja i predlošci u ovoj vrsti bilješke vratiti na zadane vrijednosti, uklanjajući sva dodatna polja/predloške i njihov sadržaj te prilagođene stilove. Želite li nastaviti?
-card-templates-restored-to-default = Vrsta bilješke vraćena je u izvorno stanje.
+card-templates-restored-to-default = Tip bilješke vraćena je u izvorno stanje.
