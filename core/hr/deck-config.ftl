@@ -17,6 +17,14 @@ deck-config-title = Opcije špila
 ## Daily limits section
 
 deck-config-daily-limits = Dnevni limiti
+deck-config-new-limit-tooltip =
+    Maksimalni broj novih kartica koje se mogu uvesti u jednom danu, ako su nove kartice dostupne.
+    Budući da će novi materijal povećati vaše kratkoročno radno opterećenje ponavljanja, to bi obično trebalo biti barem 10 puta manje od Vašeg limita ponavljanja.
+deck-config-review-limit-tooltip = Maksimalni broj kartica ponavljanja koji će se prikazati u jednom danu, ako ima kartica koje su spremne za ponavljanje.
+deck-config-limit-deck-v3 = Prilikom učenja špila koji ima podšpilove, limiti postavljeni na svakom podšpilu kontroliraju maksimalni broj karata sabranih iz tog određenog špila. Limiti odabranog špila kontroliraju ukupan broj kartica koje će biti prikazane.
+deck-config-limit-new-bound-by-reviews = Limit ponavljanja utječe na limit novih kartica. Na primjer, ako je Vaš limit ponavljanja postavljen na 200, a čeka Vas 190 ponavljanja, bit će uvedeno maksimalno 10 novih kartica. Ako je Vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
+deck-config-new-cards-ignore-review-limit = Nove kartice ignoriraju limit ponavljanja
+deck-config-new-cards-ignore-review-limit-tooltip = Prema zadanim postavkama, limit ponavljanja primjenjuje se i na nove kartice pa se stoga nove kartice neće se prikazivati ​​kada se dosegne limit ponavljanja. Ako je ova opcija omogućena, nove kartice će se prikazivati ​​bez obzira na limit ponavljanja.
 deck-config-apply-all-parent-limits = Limiti počinju od vrha
 deck-config-apply-all-parent-limits-tooltip =
     Prema zadanim postavkama, dnevni limiti višeg špila ne primjenjuju se ako učite iz njegovog podšpila.
@@ -32,6 +40,8 @@ deck-config-today-only = Samo danas
 ## New Cards section
 
 deck-config-learning-steps = Koraci učenja
+deck-config-graduating-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se pritisne gumb "Dobro" u posljednjem koraku učenja.
+deck-config-easy-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se klikom na gumb `Lako` odmah ukloni karta iz učenja.
 deck-config-new-insertion-order = Poredak umetanja
 deck-config-new-insertion-order-sequential = Sekvencijalno (prvo najstarije kartice)
 deck-config-new-insertion-order-random = Nasumično
@@ -40,13 +50,26 @@ deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je
 ## Lapses section
 
 deck-config-relearning-steps = Koraci za ponovno učenje
+deck-config-leech-threshold-tooltip = Broj puta koliko se 'Ponovno' mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (Pijavice su kartice koje vam oduzimaju puno vremena.) Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će vam pomoći da je zapamtite.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    'Samo označi': Dodaj oznaku 'pijavica' na bilješku i prikaži skočni prozorčić.
+    
+    'Suspendiraj karticu': Uz označavanje bilješke također sakrij karticu dok ne bude ručno maknuta iz suspenzije.
 
 ## Burying section
 
+deck-config-bury-title = Zakapanje
 
 ## Gather order and sort order of cards
 
+deck-config-ordering-title = Redoslijed prikaza
 deck-config-new-gather-priority = Redoslijed sabiranja novih kartica
+deck-config-new-card-sort-order = Redoslijed sortiranja novih kartica
+deck-config-new-review-priority = Redoslijed novih/ponavljanja
+deck-config-new-review-priority-tooltip = Kad da se prikažu nove karticu u odnosu na kartice ponavljanja.
+deck-config-review-sort-order = Redoslijed sortiranja kartica ponavljanja
+deck-config-display-order-will-use-current-deck = Anki će koristiti redoslijed prikaza od špila koji ste odabrali učiti, a ne od njegovih podšpilova.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -156,6 +179,8 @@ deck-config-easy-days-change = Postojeća ponavljanja neće biti preraspoređena
 
 ## Warnings shown to the user
 
+deck-config-too-short-maximum-interval = Ne preporučuje se maksimalni interval kraći od 6 mjeseci.
+deck-config-ignore-before-info = (Otprilike) { $included }/{ $totalCards } kartica će se koristiti za optimizaciju FSRS parametara.
 
 ## Selecting a deck
 
@@ -177,8 +202,34 @@ deck-config-weights = FSRS parametri
 deck-config-compute-optimal-weights = Optimiziraj FSRS parametre
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (sporo)
+deck-config-compute-button = Izračunaj
 deck-config-ignore-before = Ignoriraj ranije ponovljene kartice
 deck-config-time-to-optimize = Prošlo je dosta vremena - preporuča se korištenje gumba ''{ deck-config-save-and-optimize }".
+deck-config-steps-too-large-for-fsrs = Kad je FSRS uključen, ne preporučuju se koraci od jednog dana ili dulje.
+deck-config-complete = { $num }% dovršeno.
+deck-config-iterations = Iteracija: { $count }...
+deck-config-desired-retention-tooltip2 = Vrijednosti radnog opterećenja koje pruža informacijski okvir gruba su aproksimacija. Za veću razinu točnosti koristite simulator.
+deck-config-please-save-your-changes-first = Prvo spremite svoje promjene.
+deck-config-workload-factor-unchanged = Što je ova vrijednost viša, to će se češće prikazivati kartice.
+deck-config-percent-of-reviews = { $pct }% od { $reviews } ponavljanja
+deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Provjera mogućih poboljšanja...
+deck-config-fsrs-must-be-enabled = Prvo mora biti uključen FSRS.
+deck-config-fsrs-params-optimal = Trenutno se čini da su FSRS parametri optimalni.
+deck-config-wait-for-audio = Čekaj zvuk
+deck-config-show-reminder = Prikaži podsjetnik
+deck-config-answer-again = Odgovori "Ponovno"
+deck-config-answer-hard = Odgovori "Teško"
+deck-config-answer-good = Odgovori "Dobro"
+deck-config-days-to-simulate = Broj dana za simulirati
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = FSRS simulator (eksperimentalno)
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomozi mi odlučiti (eksperimentalno)
+deck-config-additional-new-cards-to-simulate = Dodatne nove kartice za simulaciju
+deck-config-simulate = Simuliraj
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
