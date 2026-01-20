@@ -230,9 +230,48 @@ deck-config-fsrs-simulator-experimental = FSRS simulator (eksperimentalno)
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomozi mi odlučiti (eksperimentalno)
 deck-config-additional-new-cards-to-simulate = Dodatne nove kartice za simulaciju
 deck-config-simulate = Simuliraj
+deck-config-clear-last-simulate = Očisti zadnju simulaciju
+deck-config-fsrs-simulator-radio-count = Ponavljanja
+deck-config-advanced-settings = Napredne postavke
+deck-config-smooth-graph = Glatki graf
+deck-config-suspend-leeches = Suspendiraj pijavice
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } po zapamćenoj kartici
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = placeholder
+deck-config-predicted-minimum-recommended-retention = placeholder
+deck-config-compute-minimum-recommended-retention = placeholder
+deck-config-compute-optimal-retention-tooltip4 = placeholder
+deck-config-plotted-on-x-axis = (Prikazano na X-osi)
+deck-config-a-100-day-interval = placeholder
+deck-config-fsrs-simulator-y-axis-title-time = placeholder
+deck-config-fsrs-simulator-y-axis-title-count = placeholder
+deck-config-fsrs-simulator-y-axis-title-memorized = placeholder
+deck-config-bury-siblings = placeholder
+deck-config-do-not-bury = placeholder
+deck-config-bury-if-new = placeholder
+deck-config-bury-if-new-or-review = placeholder
+deck-config-bury-if-new-review-or-interday = placeholder
+deck-config-bury-tooltip = placeholder
+deck-config-seconds-to-show-question-tooltip = placeholder
+deck-config-answer-action-tooltip = placeholder
+deck-config-wait-for-audio-tooltip = placeholder
+deck-config-ignore-before-tooltip = placeholder
+deck-config-compute-optimal-retention-tooltip = placeholder
+deck-config-health-check-tooltip1 = placeholder
+deck-config-health-check-tooltip2 = placeholder
+deck-config-compute-optimal-retention = placeholder
+deck-config-predicted-optimal-retention = placeholder
+deck-config-weights-tooltip = placeholder
+deck-config-compute-optimal-weights-tooltip = placeholder
+deck-config-compute-optimal-retention-tooltip2 = placeholder
+deck-config-compute-optimal-retention-tooltip3 = placeholder
+deck-config-seconds-to-show-question-tooltip-2 = placeholder
+deck-config-invalid-weights = placeholder
+deck-config-fsrs-on-all-clients = placeholder
+deck-config-optimize-all-tip = placeholder
