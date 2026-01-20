@@ -7,9 +7,9 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     { $decks ->
-        [one] se koristi u { $decks } špilu
-        [few] se koristi u { $decks } špila
-       *[other] se koristi u { $decks } špilova
+        [one] koristi se u { $decks } špilu
+        [few] koristi se u { $decks } špila
+       *[other] koristi se u { $decks } špilova
     }
 deck-config-default-name = Zadano
 deck-config-title = Opcije špila
@@ -52,9 +52,14 @@ deck-config-relearning-steps = Koraci za ponovno učenje
 
 ## Timer section
 
+deck-config-maximum-answer-secs = Maksimalni broj sekundi za odgovor
+deck-config-maximum-answer-secs-tooltip = Maksimalni broj sekundi koji će se zapisati za jedno ponavljanje. Ako odgovor premaši ovo vrijeme (jer ste se, primjerice, udaljili od zaslona), vrijeme će se zapisati kao ograničenje koje ste postavili.
+deck-config-stop-timer-on-answer = Zaustavi brojač na ekranu pri odgovoru
+deck-config-stop-timer-on-answer-tooltip = Da li da se zaustavi brojač na ekranu kad se pokaže odgovor. Ovo ne utječe na statistiku.
 
 ## Auto Advance section
 
+deck-config-seconds-to-show-question = Vrijeme za prikaz pitanja (sekunde)
 
 ## Audio section
 
@@ -64,6 +69,7 @@ deck-config-relearning-steps = Koraci za ponovno učenje
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Lakši dani
 deck-config-easy-days-monday = Pon
 deck-config-easy-days-tuesday = Uto
 deck-config-easy-days-wednesday = Sri
@@ -71,6 +77,11 @@ deck-config-easy-days-thursday = Čet
 deck-config-easy-days-friday = Pet
 deck-config-easy-days-saturday = Sub
 deck-config-easy-days-sunday = Ned
+deck-config-easy-days-normal = Normalno
+deck-config-easy-days-reduced = Smanjeno
+deck-config-easy-days-minimum = Minimalno
+deck-config-easy-days-no-normal-days = Bar jedan dan treba biti postavljen na '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Postojeća ponavljanja neće biti preraspoređena osim ako '{ deck-config-reschedule-cards-on-change }' nije uključeno u FSRS postavkama.
 
 ## Adding/renaming
 
