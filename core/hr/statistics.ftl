@@ -1,6 +1,7 @@
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } kartica/minuti
+statistics-average-answer-time = { $average-seconds }s ({ statistics-cards-per-min })
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
@@ -63,7 +64,30 @@ statistics-cards =
         [few] { $cards } kartice
        *[other] { $cards } kartica
     }
+statistics-notes =
+    { $notes ->
+        [one] { $notes } bilješka
+        [few] { $notes } bilješke
+       *[other] { $notes } bilješki
+    }
+# a count of how many cards have been answered, eg "Total: 34 reviews"
+statistics-reviews =
+    { $reviews ->
+        [one] { $reviews } ponavljanje
+        [few] { $reviews } ponavljanja
+       *[other] { $reviews } ponavljanja
+    }
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized =
+    { $memorized ->
+        [one] { $memorized } kartica zapamćena
+        [few] { $memorized } kartice zapamćene
+       *[other] { $memorized } kartica zapamćeno
+    }
 statistics-today-title = Danas
+statistics-today-type-counts = Učenje: { $learnCount }, ponavljanje: { $reviewCount }, povovno učenje: { $relearnCount }, filtrirano: { $filteredCount }
 statistics-today-no-cards = Danas niste učili nijednu karticu.
 statistics-today-no-mature-cards = Danas niste učili nijednu zrelu karticu.
 statistics-today-correct-mature = Točnih odgovora na zrelim karticama: { $correct }/{ $total } ({ $percent }%)
@@ -169,6 +193,26 @@ statistics-days-ago-single =
        *[other] Pred { $days } dana
     }
 statistics-days-ago-range = Pred { $daysStart }-{ $daysEnd } dana
+statistics-running-total = Tekući ukupni rezultat
+statistics-intervals-title = Intervali ponavljanja
+statistics-intervals-day-range =
+    { $cards ->
+        [one] { $cards } kartica s intervalom od { $daysStart }~{ $daysEnd } dana
+        [few] { $cards } kartice s intervalom od { $daysStart }~{ $daysEnd } dana
+       *[other] { $cards } kartica s intervalom od { $daysStart }~{ $daysEnd } dana
+    }
+statistics-intervals-day-single =
+    { $cards ->
+        [one] { $cards } kartica s intervalom od { $day } dana
+        [few] { $cards } kartice s intervalom od { $day } dana
+       *[other] { $cards } kartica s intervalom od { $day } dana
+    }
+statistics-stability-day-range =
+    { $cards ->
+        [one] { $cards } kartica sa stabilnošću od { $daysStart }~{ $daysEnd } dana
+        [few] { $cards } kartice sa stabilnošću od { $daysStart }~{ $daysEnd } dana
+       *[other] { $cards } kartica sa stabilnošću od { $daysStart }~{ $daysEnd } dana
+    }
 statistics-stability-day-single =
     { $cards ->
         [one] { $cards } kartica sa stabilnošću od { $day } dana
@@ -179,6 +223,12 @@ statistics-stability-day-single =
 statistics-hours-range = Od { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } točnih ({ $percent }%)
 statistics-hours-correct-info = → (ne 'Ponovno')
+# the emoji depicts the graph displaying this number
+statistics-hours-reviews = 📊 { $reviews } ponavljanja
+# the emoji depicts the graph displaying this number
+statistics-hours-correct-reviews = 📈 { $percent }% točno ({ $reviews })
+statistics-hours-title = Po satu
+statistics-hours-subtitle = Stopa uspješnosti ponavljanja za svaki sat u danu.
 # shown when graph is empty
 statistics-no-data = NEMA PODATAKA
 statistics-calendar-title = Kalendar
@@ -203,6 +253,7 @@ statistics-average-for-days-studied = Prosjek za dane u kojima ste učili
 # items (e.g., cards, mature cards, etc) for a given period, rather than the
 # total of all existing items.
 statistics-total = Ukupno
+statistics-days-studied = Dani u kojima ste učili
 statistics-average-answer-time-label = Srednje vrijeme za odgovor
 statistics-average = Prosjek
 statistics-median-interval = Medijan intervala
@@ -215,6 +266,7 @@ statistics-due-tomorrow = Sutra na redu
 statistics-daily-load = Dnevno opterećenje
 # eg 5 of 15 (33.3%)
 statistics-amount-of-total-with-percentage = { $amount } od { $total } ({ $percent }%)
+statistics-average-over-period = Prosjek tokom razdoblja
 statistics-reviews-per-day =
     { $count ->
         [one] { $count } ponavljanje/dan

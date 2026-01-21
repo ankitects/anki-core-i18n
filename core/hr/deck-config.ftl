@@ -166,13 +166,23 @@ deck-config-easy-days-change = Postojeća ponavljanja neće biti preraspoređena
 
 ## Adding/renaming
 
+deck-config-add-group = Dodaj predložak
+deck-config-name-prompt = Naziv
+deck-config-rename-group = Preimenuj predložak
+deck-config-clone-group = Kloniraj predložak
 
 ## Removing
 
+deck-config-remove-group = Ukloni predložak
 deck-config-will-require-full-sync = Tražena promjena zahtijeva sinkronizaciju u jednom smjeru. Ako ste napravili promjene na drugom uređaju koje još niste sinkronizirali na ovaj uređaj, učinite to prije nego što nastavite.
+deck-config-confirm-remove-name = Ukloniti { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Spremi
+deck-config-save-to-all-subdecks = Spremi u sve podšpilove
+deck-config-save-and-optimize = Optimiziraj sve predloške
+deck-config-revert-button-tooltip = Vrati ovu postavku na zadanu vrijednost?
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -180,6 +190,12 @@ deck-config-will-require-full-sync = Tražena promjena zahtijeva sinkronizaciju 
 
 ## Warnings shown to the user
 
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Ako dodajete { $cards } novu karticu svaki dan, Vaš limit ponavljanja bi trebao biti barem { $expected }.
+        [few] Ako dodajete { $cards } nove kartice svaki dan, Vaš limit ponavljanja bi trebao biti barem { $expected }.
+       *[other] Ako dodajete { $cards } novih kartica svaki dan, Vaš limit ponavljanja bi trebao biti barem { $expected }.
+    }
 deck-config-too-short-maximum-interval = Ne preporučuje se maksimalni interval kraći od 6 mjeseci.
 deck-config-ignore-before-info = (Otprilike) { $included }/{ $totalCards } kartica će se koristiti za optimizaciju FSRS parametara.
 
@@ -201,12 +217,15 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = FSRS parametri
 deck-config-compute-optimal-weights = Optimiziraj FSRS parametre
+deck-config-optimize-button = Optimiziraj trenutni predložak
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (sporo)
 deck-config-compute-button = Izračunaj
 deck-config-ignore-before = Ignoriraj ranije ponovljene kartice
 deck-config-time-to-optimize = Prošlo je dosta vremena - preporuča se korištenje gumba ''{ deck-config-save-and-optimize }".
+deck-config-evaluate-button = Evaluiraj
 deck-config-steps-too-large-for-fsrs = Kad je FSRS uključen, ne preporučuju se koraci od jednog dana ili dulje.
+deck-config-get-params = Dobij parametre
 deck-config-complete = { $num }% dovršeno.
 deck-config-iterations = Iteracija: { $count }...
 deck-config-desired-retention-tooltip2 = Vrijednosti radnog opterećenja koje pruža informacijski okvir gruba su aproksimacija. Za veću razinu točnosti koristite simulator.
@@ -216,8 +235,10 @@ deck-config-percent-of-reviews = { $pct }% od { $reviews } ponavljanja
 deck-config-percent-input = { $pct }%
 # This message appears during FSRS parameter optimization.
 deck-config-checking-for-improvement = Provjera mogućih poboljšanja...
+deck-config-optimizing-preset = Optimizacija predloška { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Prvo mora biti uključen FSRS.
 deck-config-fsrs-params-optimal = Trenutno se čini da su FSRS parametri optimalni.
+deck-config-fsrs-params-no-reviews = Nijedno ponavljanje nije pronađeno. Osigurajte da je ovaj predložak dodijeljen svim špilovima (uključujući podšpilove) koje želite optimizirati, a zatim pokušajte ponovno.
 deck-config-wait-for-audio = Čekaj zvuk
 deck-config-show-reminder = Prikaži podsjetnik
 deck-config-answer-again = Odgovori "Ponovno"
@@ -228,6 +249,7 @@ deck-config-days-to-simulate = Broj dana za simulirati
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS simulator (eksperimentalno)
+deck-config-fsrs-simulate-save-preset = Nakon optimizacije, spremite predložak špila prije pokretanja simulatora.Nakon optimizacije, spremite predložak špila prije pokretanja simulatora.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomozi mi odlučiti (eksperimentalno)
 deck-config-additional-new-cards-to-simulate = Dodatne nove kartice za simulaciju
 deck-config-simulate = Simuliraj
@@ -236,6 +258,7 @@ deck-config-fsrs-simulator-radio-count = Ponavljanja
 deck-config-advanced-settings = Napredne postavke
 deck-config-smooth-graph = Glatki graf
 deck-config-suspend-leeches = Suspendiraj pijavice
+deck-config-save-options-to-preset = Spremi promjene u predložak
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } po zapamćenoj kartici
 
