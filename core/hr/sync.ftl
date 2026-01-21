@@ -25,7 +25,7 @@ sync-client-too-old = Vaša verzija Ankija je prestara. Ažurirajte program na n
 sync-wrong-pass = AnkiWeb ID ili lozinka su bili pogrešni; pokušajte ponovno.
 sync-resync-required = Sinkronizirajte ponovno. Ako se ova poruka nastavi pojavljivati, javite se na stranicu za podršku s Vašim problemom.
 sync-must-wait-for-end = Anki se trenutno sinkronizira. Pričekajte da sinkronizacija završi, zatim pokušajte ponovno.
-sync-confirm-empty-download = Lokalna kolekcija nema kartica. Želite li je skinuti s AnkiWeba?
+sync-confirm-empty-download = Lokalna kolekcija nema kartica. Želite li je preuzeti s AnkiWeba?
 sync-confirm-empty-upload = AnkiWeb kolekcija nema kartica. Želite li je zamijeniti s lokalnom kolekcijom?
 sync-conflict-explanation =
     Špilovi na ovom uređaju i špilovi na AnkiWebu se razlikuju na način da ih se ne može spojiti, što znači da je potrebno pregaziti špilove na jednoj strani onima s druge strane.
@@ -53,7 +53,7 @@ sync-clock-off = Nije moguće sinkronizirati - Vaš sat nije podešen na točno 
 sync-upload-too-large =
     Vaša kolekcija je prevelika da bi se poslala na AnkiWeb. Možete je smanjiti tako što uklonite neželjene špilove (koje prije toga možete izvesti) i zatim upotrijebite funkciju "Provjeri bazu podataka" kako biste smanjili veličinu datoteke.
     
-    { $details } (bez kompresije)
+    { $details } (bez sažimanja)
 sync-sign-in = Prijava
 sync-ankihub-dialog-heading = AnkiHub prijava
 sync-ankihub-username-label = Korisničko ime ili e-mail:
