@@ -1,4 +1,5 @@
 studying-again = Ponovo
+studying-all-buried-cards = Sve zakopane kartice
 studying-audio-5s = Audio -5s
 studying-audio-and5s = Audio +5s
 studying-bury = Zakopaj
@@ -12,11 +13,13 @@ studying-cards-buried =
         [few] { $count } kartice zakopane.
        *[other] { $count } kartica zakopano.
     }
+studying-cards-will-be-automatically-returned-to = Kartice će se automatski vratiti u svoje originalne špilove nakon što ih ponovite.
 studying-continue = Nastavi
 studying-delete-note = Obriši bilješku
 studying-deleting-this-deck-from-the-deck = Brisanjem ovog špila s popisa špilova će se sve preostale kartice vratiti u svoj izvorni špil.
 studying-easy = Lagano
 studying-edit = Uredi
+studying-empty = Isprazni
 studying-finish = Završi
 studying-flag-card = Postavi zastavicu
 studying-good = Dobro
