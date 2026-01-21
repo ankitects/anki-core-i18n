@@ -4,6 +4,7 @@ errors-filtered-deck-required = Ova radnja je primjenjiva samo na filtriranim š
 errors-100-tags-max = Ne možete izabrati više od 100 oznaka. Često je lakše izabrati oznake koje želite umjesto one koje ne želite. Također, nije potrebno odabrati oznake niže razine ako ste već odabrali oznaku više razine.
 errors-multiple-notetypes-selected = Odaberite bilješke samo jednog tipa.
 errors-please-check-database = Uporabite funkciju "Provjeri bazu podataka" te pokušajte ponovno.
+errors-please-check-media = Uporabite funkciju "Provjeri medije" te pokušajte ponovno.
 errors-collection-too-new = Za otvaranje ove kolekcije potrebna je novija verzija programa Anki.
 errors-invalid-ids = Ovaj špil sadrži vremenske oznake u budućnosti. Kontaktirajte autora špila i zamolite ih da isprave ovu grešku.
 errors-inconsistent-db-state = Izgleda da je Vaša baza podataka u nekonzistentnom stanju. Uporabite funkciju "Provjeri bazu podataka".

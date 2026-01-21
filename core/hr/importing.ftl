@@ -18,6 +18,7 @@ importing-field-of-file-is = Polje <b>{ $val }</b> datoteke je:
 importing-fields-separated-by = Polja su odvojena sa: { $val }
 importing-file-must-contain-field-column = Datoteka mora sadržavati bar jedan stupac koji se može preslikati u polje bilješke
 importing-file-version-unknown-trying-import-anyway = Nepoznata verzija datoteke, uvoz će se svejedno pokušati.
+importing-first-field-matched = Prvo polje se poklapa s: { $val }
 importing-identical = Identično
 importing-ignore-field = Ignoriraj polje
 importing-ignore-lines-where-first-field-matches = Ignoriraj linije gdje se prvo polje podudara sa postojećom bilješkom
@@ -32,6 +33,13 @@ importing-mapped-to = preslikano u <b>{ $val }</b>
 importing-mapped-to-tags = Preslikano u <b>Tags</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Spoji vrste bilješki
+importing-merge-notetypes-help =
+    Ako je označeno i ako ste Vi ili autor špila izmijenili shemu tipa bilješke, Anki će spojiti te dvije verzije umjesto da zadrži obje.
+    
+    Pod mijenjanjem sheme tipa bilješke se podrazumijeva dodavanje, uklanjanje ili preraspoređivanje polja ili predložaka, ili mijenjanje polja za sortiranje.
+    Za razliku od toga, mijenjanje prednje strane postojećeg predloška se *ne* broji kao promjena sheme.
+    
+    Upozorenje: Ovo zahtijeva sinkronizaciju u jednom smjeru i može označiti postojeće bilješke kao izmijenjene.
 importing-mnemosyne-20-deck-db = Mnemosyne 2.0 špil (*.db)
 importing-multicharacter-separators-are-not-supported-please = Separatori od više znakova nisu podržani. Unesite samo jedan znak.
 importing-new-deck-will-be-created = Novi špil će biti stvoren: { $name }
@@ -43,6 +51,7 @@ importing-notes-updated-as-file-had-newer = Bilješke ažurirane jer je datoteka
 importing-include-reviews = Uključi ponavljanja
 importing-also-import-progress = Uvezi napredak učenja
 importing-with-deck-configs = Uvezi predloške špila
+importing-updates = Ažuriranje
 importing-include-reviews-help =
     Ako je omogućeno, uvozit će se i sva prethodna ponavljanja koje je uključio autor dijeljenog špila.
     U suprotnom će se sve kartice uvesti kao nove kartice, a sve će se oznake „pijavice” ili „označeno” ukloniti.
@@ -194,6 +203,7 @@ importing-notes-found-in-file2 =
 importing-show = Pokaži
 importing-details = Detalji
 importing-status = Status
+importing-duplicate-note-added = Dodana duplikatna bilješka
 importing-added-new-note = Dodana nova bilješka
 importing-existing-note-skipped = Bilješka preskočena jer u Vašoj kolekciji već postoji ažurna kopija
 importing-note-skipped-update-due-to-notetype = Bilješka nije ažurirana jer se vrsta bilješke promijenila otkad je prvo bila uvezena

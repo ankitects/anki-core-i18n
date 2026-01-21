@@ -169,6 +169,7 @@ deck-config-easy-days-change = Postojeća ponavljanja neće biti preraspoređena
 
 ## Removing
 
+deck-config-will-require-full-sync = Tražena promjena zahtijeva sinkronizaciju u jednom smjeru. Ako ste napravili promjene na drugom uređaju koje još niste sinkronizirali na ovaj uređaj, učinite to prije nego što nastavite.
 
 ## Other Buttons
 
