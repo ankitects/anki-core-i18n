@@ -122,7 +122,7 @@ statistics-today-no-mature-cards = Ни одна закреплённая не �
 statistics-today-correct-mature = Верных ответов в закреплённых: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Всего карточек
 statistics-counts-new-cards = Новые
-statistics-counts-young-cards = Свежие
+statistics-counts-young-cards = Свежеизученные
 statistics-counts-mature-cards = Закреплённые
 statistics-counts-suspended-cards = Исключённые
 statistics-counts-buried-cards = Отложенные
@@ -156,7 +156,7 @@ statistics-true-retention-total = Всего карточек
 statistics-true-retention-count = Кол-во
 statistics-true-retention-retention = Усвоение
 # This will usually be the same as statistics-counts-young-cards
-statistics-true-retention-young = Свежие
+statistics-true-retention-young = Свежеизученные
 # This will usually be the same as statistics-counts-mature-cards
 statistics-true-retention-mature = Закреплённые
 statistics-true-retention-all = Все
