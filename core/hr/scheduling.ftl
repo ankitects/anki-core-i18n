@@ -94,6 +94,7 @@ scheduling-unbury-them = ih otkopati
 
 scheduling-update-soon = Anki 2.1 dolazi s novim raspoređivačem, koji rješava brojne probleme iz prethodnih verzija Ankija. Preporučuje se ažuriranje.
 scheduling-update-done = Raspoređivač je uspješno ažuriran.
+scheduling-update-button = Ažuriraj
 scheduling-update-later-button = Kasnije
 scheduling-update-more-info-button = Nauči više
 scheduling-update-required =
@@ -102,10 +103,12 @@ scheduling-update-required =
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = Uvijek uključi stranu s pitanjem pri ponovnoj reprodukciji zvuka
 scheduling-at-least-one-step-is-required = Potreban je bar jedan korak.
 scheduling-automatically-play-audio = Automatska reprodukcija zvučnog zapisa
 scheduling-days = dana
 scheduling-description = Opis
+scheduling-easy-bonus = Bonus za "Lako"
 scheduling-end = (kraj)
 scheduling-general = Općenito
 scheduling-ignore-answer-times-longer-than = Ignoriraj vremena odgovora duža od
@@ -122,11 +125,13 @@ scheduling-new-options-group-name = Novi naziv grupe postavki:
 scheduling-options-group = Grupa postavki:
 scheduling-order = Redoslijed
 scheduling-parent-limit = (ograničenje za nadređeni komplet: { $val })
+scheduling-restore-position = Obnovi originalnu poziciju ako je moguće
 scheduling-review = Ponavljanje
 scheduling-reviews = Ponavljanja
 scheduling-seconds = sekundi
 scheduling-set-all-decks-below-to = Sve špilove ispod { $val } postavi u ovu grupu opcija?
 scheduling-set-for-all-subdecks = Postavi za sve pod-špilove
+scheduling-show-answer-timer = Prikaži brojač vremena
 scheduling-show-new-cards-after-reviews = Prikaži nove kartice nakon ponavljanja
 scheduling-show-new-cards-before-reviews = Prikaži nove kartice prije ponavljanja
 scheduling-show-new-cards-in-order-added = Prikaži nove kartice redoslijedom kojim su dodane
@@ -142,6 +147,16 @@ scheduling-deck-updated =
         [few] { $count } špila aktualizirana.
        *[other] { $count } špilova aktualizirano.
     }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Pokaži karticu za koliko dana?
+        [few] Pokaži kartice za koliko dana?
+       *[other] Pokaži kartice za koliko dana?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = danas
+    1! = sutra + promijeni interval na 1
+    3-7 = nasumičan odabir između 3 i 7 dana.
 scheduling-graded-cards-done =
     { $cards ->
         [one] { $cards } kartica ocijenjena.

@@ -10,6 +10,7 @@ profiles-quit = Izlaz
 profiles-user-1 = Korisnik 1
 profiles-confirm-lang-choice = Jeste li sigurni da želite prikazati Ankijevo sučelje na jeziku: { $lang }?
 profiles-could-not-create-data-folder = Anki nije mogao stvoriti svoju mapu za podatke. Pogledajte odjeljak priručnika "File Locations" te osigurajte da ta lokacija nije samo za čitanje.
+profiles-prefs-corrupt-title = Postavke neispravne
 profiles-prefs-file-is-corrupt = Ankijeva datoteka pref21.db bila je neispravna i ponovno je stvorena. Ako ste koristili više profila, ponovno ih dodajte pod istim nazivom kako biste povratili svoje kartice.
 profiles-profile-does-not-exist = Traženi profil ne postoji.
 profiles-creating-backup = Stvaranje sigurnosne kopije...

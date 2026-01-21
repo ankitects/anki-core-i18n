@@ -147,6 +147,8 @@ importing-update = Ažuriraj
 importing-tag-all-notes = Označi sve bilješke
 importing-tag-updated-notes = Označi ažurirane bilješke
 importing-file = Datoteka
+# "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
+importing-match-scope = Područje poklapanja
 # Used with the 'match scope' option
 importing-notetype-and-deck = Vrsta bilješke i špil
 importing-cards-added =
