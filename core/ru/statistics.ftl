@@ -184,7 +184,7 @@ statistics-card-stability-title = Стабильность карточки
 statistics-card-stability-subtitle = Время, за которое вспоминаемость падает до 90%.
 statistics-median-stability = Медиана стабильности
 statistics-card-retrievability-title = Вспоминаемость карточки
-statistics-card-ease-subtitle = Чем ниже легкость, тем чаще будет появляться карточка.
+statistics-card-ease-subtitle = Чем ниже лёгкость, тем чаще будет появляться карточка.
 statistics-card-difficulty-subtitle2 = Чем выше сложность, тем медленнее растё стабильность.
 statistics-retrievability-subtitle = Вероятность вспомнить карточку сегодня.
 # eg "3 cards with 150-170% ease"
