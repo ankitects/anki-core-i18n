@@ -42,8 +42,8 @@ actions-rename-deck = Rename Dek
 actions-rename-tag = Rename Label
 actions-rename-with-parents = Rename dengan Induk
 actions-remove-tag = Hapus Label
-actions-replay-audio = Replay Audio
-actions-reposition = Reposisi
+actions-replay-audio = Putar Ulang Audio
+actions-reposition = Ubah Posisi
 actions-save = Simpan
 actions-search = Cari
 actions-select = Pilih
@@ -62,8 +62,8 @@ actions-update-card = Perbarui Kartu
 actions-update-deck = Perbarui Dek
 actions-forget-card = Lupakan Kartu
 actions-build-filtered-deck = Bangun Dek
-actions-add-notetype = Tambahkan Jeniscatatan
-actions-remove-notetype = Hapus Jeniscatatan
+actions-add-notetype = Tambahkan Jenis catatan
+actions-remove-notetype = Hapus Jenis Catatan
 actions-update-notetype = Perbarui Jeniscatatan
 actions-update-config = Perbarui Konfig
 actions-card-info = Info Kartu
@@ -88,7 +88,7 @@ actions-flag-purple = Ungu
 
 ##
 
-actions-set-flag = Atur Flag
+actions-set-flag = Atur Penanda
 actions-nothing-to-undo = Tidak ada yang dapat diurungkan
 actions-nothing-to-redo = Tidak ada yang dapat diulang
 actions-auto-advance = Maju Otomatis

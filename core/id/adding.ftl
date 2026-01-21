@@ -9,4 +9,4 @@ adding-shortcut = Shortcut: { $val }
 adding-the-first-field-is-empty = Bidang pertama kosong
 adding-you-have-a-cloze-deletion-note = Kamu punya jenis catatan rumpang tapi belum melakukan perumpangan sama sekali. Lanjutkan?
 adding-cloze-outside-cloze-notetype = Perumpangan hanya dapat dilakukan pada jenis catatan rumpang
-adding-cloze-outside-cloze-field = Perumpangan hanya dapat digunakan pada bidang yang menggunakan filter 'cloze:'. Biasanya ada pada bidang pertama.
+adding-cloze-outside-cloze-field = Perumpangan hanya dapat digunakan pada bidang yang menggunakan filter 'rumpang:'. Biasanya ada pada bidang pertama.

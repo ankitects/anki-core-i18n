@@ -5,13 +5,13 @@ card-templates-changes-will-affect-notes =
        *[other] Perubahan berikut akan berdampak ke { $count } catatan yang menggunakan jenis kartu ini.
     }
 card-templates-card-type = Jenis Kartu:
-card-templates-front-template = Template depan
-card-templates-back-template = Template Belakang
+card-templates-front-template = Templat depan
+card-templates-back-template = Templat Belakang
 card-templates-template-styling = Penataan
 card-templates-front-preview = Tampilan Depan
 card-templates-back-preview = Tampilan Belakang
 card-templates-preview-box = Tampilan
-card-templates-template-box = Template
+card-templates-template-box = Templat
 card-templates-sample-cloze = Ini adalah { "{{c1::" }sampel{ "}}" } perumpangan.
 card-templates-fill-empty = Isi bidang yang kosong
 card-templates-night-mode = Mode Malam
@@ -19,11 +19,11 @@ card-templates-night-mode = Mode Malam
 # on a mobile device.
 card-templates-add-mobile-class = Tambahkan Kelas Mobile
 card-templates-preview-settings = Opsi
-card-templates-invalid-template-number = Template kartu { $number } di jeniscatatan '{ $notetype }' mempunyai masalah.
-card-templates-identical-front = Bidang depan mirip dengan template kartu { $number }.
-card-templates-no-front-field = Diduga ditemukan pengganti bidang pada bagian depan template kartu
-card-templates-missing-cloze = Diduga ditemukan '{ "{{" }cloze:Text{ "}}" }' atau mirip pada bagian depan dan belakang template kartu
-card-templates-extraneous-cloze = 'perumpangan:' hanya bisa digunakan pada jeniscatatan rumpang
+card-templates-invalid-template-number = Templat kartu { $number } di jenis catatan '{ $notetype }' mempunyai masalah.
+card-templates-identical-front = Bidang depan mirip dengan templat kartu { $number }.
+card-templates-no-front-field = Diduga ditemukan pengganti bidang pada bagian depan templat kartu
+card-templates-missing-cloze = Diduga ditemukan '{ "{{" }cloze:Text{ "}}" }' atau mirip pada bagian depan dan belakang templat kartu
+card-templates-extraneous-cloze = 'perumpangan:' hanya bisa digunakan pada jenis catatan rumpang
 card-templates-see-preview = Lihat tampilan untuk informasi lebih lanjut.
 card-templates-field-not-found = Bidang '{ $field }' tidak ditemukan
 card-templates-changes-saved = Perubahan disimpan.
@@ -55,7 +55,7 @@ card-templates-this-will-create-card-proceed =
     { $count ->
        *[other] Ini akan membuat { $count } kartu. Lanjutkan?
     }
-card-templates-type-boxes-warning = Hanya mendukung satu typing box per template kartu
+card-templates-type-boxes-warning = Hanya mendukung satu typing box per templat kartu
 card-templates-restore-to-default = Memulihkan ke Default
-card-templates-restore-to-default-confirmation = Ini akan mengatur ulang semua bidang dan template dalam tipe catatan ini ke nilai defaultnya, menghapus semua bidang/template tambahan beserta isinya, dan semua gaya kustom. Apakah Anda ingin melanjutkan?
-card-templates-restored-to-default = Tipe catatan telah dikembalikan ke kondisi aslinya.
+card-templates-restore-to-default-confirmation = Ini akan mengatur ulang semua bidang dan templat dalam tipe catatan ini ke nilai bawaannya, menghapus semua bidang/templat tambahan beserta isinya, dan semua gaya kustom. Apakah Anda ingin melanjutkan?
+card-templates-restored-to-default = Jenis catatan telah dikembalikan ke kondisi aslinya.
