@@ -229,9 +229,9 @@ importing-deck-help = Uvezene kartice bit će stavljene u ovaj špil.
 importing-existing-notes-help =
     Što učiniti ako se uvezena bilješka podudara s postojećom.
     
-    - `{ importing-update }`: Ažurirajte postojeću bilješku.
-    - `{ importing-preserve }`: Ne činite ništa.
-    - `{ importing-duplicate }`: Stvorite novu bilješku.
+    - `{ importing-update }`: Ažuriraj postojeću bilješku.
+    - `{ importing-preserve }`: Ne čini ništa.
+    - `{ importing-duplicate }`: Stvori novu bilješku.
 importing-match-scope-help = Bit će provjereni duplikati samo postojećih bilješki iste vrste. To se može dodatno ograničiti na bilješke s karticama u istom špilu.
 importing-tag-all-notes-help = Ove oznake će biti dodane i ažuriranim i novo dodanim bilješkama.
 importing-tag-updated-notes-help = Ove oznake bit će dodane svi ažuriranim bilješkama.

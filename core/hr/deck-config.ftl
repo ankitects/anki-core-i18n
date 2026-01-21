@@ -40,7 +40,7 @@ deck-config-today-only = Samo danas
 ## New Cards section
 
 deck-config-learning-steps = Koraci učenja
-deck-config-graduating-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se pritisne gumb "Dobro" u posljednjem koraku učenja.
+deck-config-graduating-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se pritisne gumb `Dobro` u posljednjem koraku učenja.
 deck-config-easy-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se klikom na gumb `Lako` odmah ukloni karta iz učenja.
 deck-config-new-insertion-order = Poredak umetanja
 deck-config-new-insertion-order-sequential = Sekvencijalno (prvo najstarije kartice)
@@ -50,12 +50,12 @@ deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je
 ## Lapses section
 
 deck-config-relearning-steps = Koraci za ponovno učenje
-deck-config-leech-threshold-tooltip = Broj puta koliko se 'Ponovno' mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (Pijavice su kartice koje vam oduzimaju puno vremena.) Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će vam pomoći da je zapamtite.
+deck-config-leech-threshold-tooltip = Broj puta koliko se `Ponovno` mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (Pijavice su kartice koje vam oduzimaju puno vremena.) Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će vam pomoći da je zapamtite.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    'Samo označi': Dodaj oznaku 'pijavica' na bilješku i prikaži skočni prozorčić.
+    `Samo označi`: Dodaj oznaku 'pijavica' na bilješku i prikaži skočni prozorčić.
     
-    'Suspendiraj karticu': Uz označavanje bilješke također sakrij karticu dok ne bude ručno maknuta iz suspenzije.
+    `Suspendiraj karticu`: Uz označavanje bilješke također sakrij karticu dok ne bude ručno maknuta iz suspenzije.
 
 ## Burying section
 

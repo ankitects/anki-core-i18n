@@ -89,6 +89,7 @@ scheduling-buried-cards-found = Jedna ili više kartica je zakopana te će sutra
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = ih otkopati
+scheduling-how-to-custom-study = Ako želite učiti izvan uobičajenog rasporeda, možete koristiti mogućnost { $customStudy }.
 
 ## Scheduler upgrade
 
@@ -115,9 +116,11 @@ scheduling-ignore-answer-times-longer-than = Ignoriraj vremena odgovora duža od
 scheduling-interval-modifier = Modifikator intervala
 scheduling-learning = Učenje
 scheduling-leech-action = Postupak za pijavice
+scheduling-leech-threshold = Prag za pijavice
 scheduling-maximum-interval = Najveći razmak
 scheduling-maximum-reviewsday = Maksimalan broj ponavljanja po danu
 scheduling-minimum-interval = Najmanji razmak
+scheduling-mix-new-cards-and-reviews = Miješaj nove kartice i ponavljanja
 scheduling-new-cards = Nove kartice
 scheduling-new-cardsday = Novih kartica po danu
 scheduling-new-interval = Novi interval

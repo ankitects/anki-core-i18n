@@ -85,9 +85,9 @@ preferences-third-party-description = Usluge trećih strana nisu povezane s Anki
 preferences-url-schemes = URL sheme
 preferences-url-scheme-prompt = Dozvoljene URL sheme (odvojene razmakom)
 preferences-url-scheme-warning =
-    Blokiran je pokušaj da se otvori '{ $link }' koji bi mogao predstavljati sigurnosnu prijetnju.
+    Blokiran je pokušaj da se otvori `{ $link }` koji bi mogao predstavljati sigurnosnu prijetnju.
     
-    Ako vjerujete autoru špila i želite nastaviti, možete dodati '{ $scheme }' u dozvoljene URL sheme.
+    Ako vjerujete autoru špila i želite nastaviti, možete dodati `{ $scheme }` u dozvoljene URL sheme.
 preferences-url-scheme-allow-once = Dopusti jednom
 preferences-url-scheme-always-allow = Uvijek dopusti
 
