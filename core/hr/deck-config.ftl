@@ -50,7 +50,7 @@ deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je
 ## Lapses section
 
 deck-config-relearning-steps = Koraci za ponovno učenje
-deck-config-leech-threshold-tooltip = Broj puta koliko se `Ponovno` mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (Pijavice su kartice koje vam oduzimaju puno vremena.) Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će vam pomoći da je zapamtite.
+deck-config-leech-threshold-tooltip = Broj puta koliko se `Ponovno` mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (pijavice su kartice koje Vam oduzimaju puno vremena). Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će Vam pomoći da je zapamtite.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Samo označi`: Dodaj oznaku 'pijavica' na bilješku i prikaži skočni prozorčić.
