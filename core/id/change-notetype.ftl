@@ -6,7 +6,7 @@ change-notetype-expand = Perluas
 change-notetype-will-discard-content = Akan membuang konten pada bidang berikut:
 change-notetype-will-discard-cards = Akan menghapus pada kartu berikut:
 change-notetype-fields = Bidang
-change-notetype-templates = Templates
+change-notetype-templates = Templat
 change-notetype-to-from-cloze =
     Jika mengubah ke atau dari jeniscatatan rumpang, jumlah kartu akan tidak berubah.
     jika mengubah ke jeniscatatan rumpang, dan ada lebih banyak perumpangan
