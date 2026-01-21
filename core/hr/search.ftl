@@ -22,6 +22,11 @@ search-invalid-other = provjerite da niste nešto pogrešno napisali.
 
 ## eg. expected a number in "due>5x", but found "5x"
 
+search-invalid-number = očekivao se broj u "`{ $context }`", no pronađeno je "`{ $provided }`".
+search-invalid-whole-number = očekivao se cijeli broj u "`{ $context }`", no pronađeno je "`{ $provided }`".
+search-invalid-positive-whole-number = očekivao se pozitivni cijeli broj u "`{ $context }`", no pronađeno je "`{ $provided }`".
+search-invalid-negative-whole-number = očekivao se cijeli broj manji ili jednak nuli u "`{ $context }`", no pronađeno je "`{ $provided }`".
+search-invalid-answer-button = očekivao se gumb za odgovor između 1 i 4 u "`{ $context }`", no pronađeno je "`{ $provided }`".
 
 ## Column labels in browse screen
 

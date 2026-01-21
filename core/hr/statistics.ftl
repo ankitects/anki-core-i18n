@@ -1,5 +1,6 @@
 ## eg 16.8s (3.6 cards/minute)
 
+statistics-cards-per-min = { $cards-per-minute } kartica/minuti
 
 ## A span of time studying took place in, for example
 ## "(studied 30 cards) in 3 minutes"
