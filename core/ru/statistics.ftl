@@ -115,7 +115,7 @@ statistics-reviews =
 # cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } выучено
 statistics-today-title = Сегодня
-statistics-today-again-count = Возвратов:
+statistics-today-again-count = Количество "Снова":
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
 statistics-today-no-cards = Ни одна карточка не была повторена сегодня.
 statistics-today-no-mature-cards = Ни одна закреплённая не была повторена сегодня
