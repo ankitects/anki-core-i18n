@@ -5,34 +5,32 @@
 
 # Used in the deck configuration screen to show how many decks are used
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
-deck-config-used-by-decks =
-    (one) digunakan oleh { $decks } set kartu
-    (other/many) digunakan oleh { $decks } set kartu
+deck-config-used-by-decks = Digunakan oleh { $decks } dek
 deck-config-default-name = Bawaan
-deck-config-title = Opsi Set Kartu
+deck-config-title = Opsi Dek
 
 ## Daily limits section
 
 deck-config-daily-limits = Batas Harian
 deck-config-new-limit-tooltip =
     Jumlah maksimum kartu baru yang dapat diperkenalkan dalam sehari, jika kartu baru tersedia.
-    Karena materi baru akan meningkatkan beban ulasan jangka pendek Anda, ini sebaiknya
+    Karena materi baru akan meningkatkan beban ulasan jangka pendek, ini sebaiknya
     setidaknya 10 kali lebih kecil dari batas ulasan Anda.
 deck-config-review-limit-tooltip =
     Jumlah maksimum kartu ulasan yang ditampilkan dalam sehari,
     jika kartu sudah siap untuk diulas.
 deck-config-limit-deck-v3 =
-    Saat mempelajari set kartu yang memiliki sub-set di dalamnya, batas yang ditetapkan pada setiap
-    sub-set mengontrol jumlah maksimum kartu yang diambil dari set kartu tersebut.
-    Batas pada set kartu yang dipilih mengontrol total kartu yang akan ditampilkan.
+    Saat mempelajari dek yang memiliki sub-set di dalamnya, batas yang ditetapkan pada setiap
+    sub-set mengontrol jumlah maksimum kartu yang diambil dari dek tersebut.
+    Batas pada dek yang dipilih mengontrol total kartu yang akan ditampilkan.
 deck-config-limit-new-bound-by-reviews = Batasan ulasan memengaruhi batasan baru. Misalnya, jika batas ulasan Anda disetel ke 200, dan Anda memiliki 190 ulasan yang menunggu, maksimal 10 kartu baru akan diperkenalkan. Jika batas ulasan Anda telah tercapai, tidak ada kartu baru yang akan ditampilkan.
-deck-config-limit-interday-bound-by-reviews = Batas ulasan juga memengaruhi kartu pembelajaran antar hari. Saat menerapkan batas, kartu pembelajaran antar hari dikumpulkan terlebih dahulu, lalu ulas kartu.
+deck-config-limit-interday-bound-by-reviews = Batas ulasan juga memengaruhi kartu pembelajaran antar hari. aat batas diterapkan, kartu pembelajaran antarhari dikumpulkan terlebih dahulu, kemudian kartu ulasan.
 deck-config-tab-description =
-    - `Preset`: Batas berlaku untuk semua dek yang menggunakan preset ini.
-    - `This deck`: Batas berlaku hanya untuk dek ini.
-    - `Hari ini saja`: Ubah sementara batas dek ini.
+    - `Prasetel`: Batas ini berlaku untuk semua dek yang menggunakan prasetel ini.
+    - `Dek ini`: Batas ini khusus untuk dek ini.
+    - `Hari ini saja`: Membuat perubahan sementara pada batas dek ini.
 deck-config-new-cards-ignore-review-limit = Kartu baru mengabaikan batas ulasan.
-deck-config-new-cards-ignore-review-limit-tooltip = Secara default, batas ulasan juga berlaku untuk kartu baru, dan kartu baru tidak akan ditampilkan setelah batas ulasan tercapai. Jika opsi ini diaktifkan, kartu baru akan tetap ditampilkan meskipun batas ulasan tercapai.
+deck-config-new-cards-ignore-review-limit-tooltip = Secara bawaan, batas ulasan juga berlaku untuk kartu baru, dan kartu baru tidak akan ditampilkan setelah batas ulasan tercapai. Jika opsi ini diaktifkan, kartu baru akan tetap ditampilkan meskipun batas ulasan tercapai.
 deck-config-apply-all-parent-limits = Batas dimulai dari atas.
 deck-config-apply-all-parent-limits-tooltip = Secara default, batas harian dari set kartu tingkat atas tidak berlaku jika Anda belajar dari subdek nya. Jika opsi ini diaktifkan, batas akan dimulai dari set kartu tingkat atas, yang berguna jika Anda ingin belajar dari subdek individu, sambil menerapkan batas total kartu untuk rangkaian dek.
 deck-config-affects-entire-collection = Mempengaruhi seluruh koleksi.
@@ -193,7 +191,7 @@ deck-config-question-action = Aksi pertanyaan
 ## Advanced section
 
 
-# Easy Days section
+## Easy Days section.
 
 
 ## Adding/renaming
@@ -216,6 +214,9 @@ deck-config-question-action = Aksi pertanyaan
 
 
 ## Messages related to the FSRS scheduler
+
+
+## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
