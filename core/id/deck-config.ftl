@@ -32,44 +32,49 @@ deck-config-tab-description =
 deck-config-new-cards-ignore-review-limit = Kartu baru mengabaikan batas ulasan.
 deck-config-new-cards-ignore-review-limit-tooltip = Secara bawaan, batas ulasan juga berlaku untuk kartu baru, dan kartu baru tidak akan ditampilkan setelah batas ulasan tercapai. Jika opsi ini diaktifkan, kartu baru akan tetap ditampilkan meskipun batas ulasan tercapai.
 deck-config-apply-all-parent-limits = Batas dimulai dari atas.
-deck-config-apply-all-parent-limits-tooltip = Secara default, batas harian dari set kartu tingkat atas tidak berlaku jika Anda belajar dari subdek nya. Jika opsi ini diaktifkan, batas akan dimulai dari set kartu tingkat atas, yang berguna jika Anda ingin belajar dari subdek individu, sambil menerapkan batas total kartu untuk rangkaian dek.
+deck-config-apply-all-parent-limits-tooltip = Secara bawaan, batas harian pada dek tingkat atas tidak berlaku jika Anda belajar dari subdek-nya. Jika opsi ini diaktifkan, batas akan diterapkan mulai dari dek tingkat atas, yang dapat berguna jika Anda ingin mempelajari subdek secara terpisah sambil tetap memberlakukan batas total kartu untuk keseluruhan pohon dek.
 deck-config-affects-entire-collection = Mempengaruhi seluruh koleksi.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
-deck-config-shared-preset = Preset
-deck-config-deck-only = Set kartu ini
+deck-config-shared-preset = Prasetel
+deck-config-deck-only = Dek ini
 deck-config-today-only = Hari ini saja
 
 ## New Cards section
 
 deck-config-learning-steps = Langkah pembelajaran
 # Please don't translate `1m`, `2d`
--deck-config-delay-hint = Penundaan umumnya dalam hitungan menit (misal, 1m) atau hari (misal, 2d), tetapi jam (misal, 1h) dan detik (misal, 30s) juga didukung.
-deck-config-learning-steps-tooltip = Satu atau lebih penundaan, dipisahkan dengan spasi. Penundaan pertama akan digunakan saat Anda menekan tombol `Again` pada kartu baru, dan secara default adalah 1 menit. Tombol `Good` akan melanjutkan ke langkah berikutnya, yang secara default adalah 10 menit. Setelah semua langkah dilalui, kartu akan menjadi kartu ulasan, dan akan muncul pada hari yang berbeda. { -deck-config-delay-hint }
-deck-config-graduating-interval-tooltip = Jumlah hari yang harus ditunggu sebelum menampilkan kartu lagi, setelah tombol `Good` ditekan pada langkah pembelajaran terakhir.
-deck-config-easy-interval-tooltip = Jumlah hari yang harus ditunggu sebelum menampilkan kartu lagi, setelah tombol Easy digunakan untuk langsung menghapus kartu dari pembelajaran.
+-deck-config-delay-hint = Jeda umumnya dalam hitungan menit (misal, '1m') atau hari (misal, '2d'), tetapi jam (misal, '1h') dan detik (misal, '30s') juga didukung.
+deck-config-learning-steps-tooltip = Satu atau lebih jeda, dipisahkan dengan spasi. Jeda pertama digunakan saat Anda menekan tombol `Lagi` pada kartu baru, dan secara bawaan adalah 1 menit. Tombol `Lumayan` akan melanjutkan ke langkah berikutnya, yang secara bawaan adalah 10 menit. Setelah semua langkah dilalui, kartu akan menjadi kartu ulasan, dan akan muncul pada hari yang berbeda. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip = Jumlah hari jeda sebelum kartu ditampilkan kembali, setelah tombol 'Lumayan' ditekan pada langkah pembelajaran terakhir.
+deck-config-easy-interval-tooltip = Jumlah hari jeda sebelum kartu ditampilkan kembali, setelah tombol 'Mudah' digunakan untuk langsung mengeluarkan kartu dari pembelajaran.
 deck-config-new-insertion-order = Urutan penyisipan
 deck-config-new-insertion-order-tooltip =
     Mengatur posisi (berdasarkan nomor tenggat) kartu baru yang ditambahkan.
     Kartu dengan nomor tenggat lebih rendah akan ditampilkan lebih dulu saat belajar. Mengubah opsi ini akan otomatis memperbarui posisi kartu baru yang ada.
-deck-config-new-insertion-order-sequential = Berurutan (kartu tertua pertama)
+deck-config-new-insertion-order-sequential = Berurutan (kartu paling lama terlebih dulu)
 deck-config-new-insertion-order-random = Acak
-deck-config-new-insertion-order-random-with-v3 = Dengan penjadwal v3, sebaiknya biarkan ini diatur ke urutkan, dan sesuaikan urutan pengumpulan kartu baru sebagai gantinya.
+deck-config-new-insertion-order-random-with-v3 = Dengan scheduler v3, sebaiknya opsi ini dibiarkan pada pengaturan berurutan, dan sebagai gantinya menyesuaikan urutan pengambilan kartu baru.
 
 ## Lapses section
 
 deck-config-relearning-steps = Langkah pembelajaran ulang
-deck-config-relearning-steps-tooltip = Nol atau lebih penundaan, dipisahkan dengan spasi. Secara default, menekan tombol Lagi pada kartu tinjauan akan menampilkannya kembali 10 menit kemudian. Jika tidak ada penundaan yang diberikan, interval kartu akan diubah, tanpa memasuki pembelajaran ulang. { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = Jumlah kali tombol Lagi harus ditekan pada kartu tinjauan sebelum kartu tersebut ditandai sebagai leech. Leech adalah kartu yang memakan banyak waktu Anda, dan ketika kartu ditandai sebagai leech, sebaiknya tulis ulang, hapus, atau pikirkan mnemonik untuk membantu mengingatnya.
+deck-config-relearning-steps-tooltip = Nol atau lebih jeda, dipisahkan dengan spasi. Secara bawaan, menekan tombol 'Lagi' pada kartu ulasan akan menampilkannya kembali 10 menit kemudian. Jika tidak ada jeda yang diberikan, interval kartu akan diubah, tanpa memasuki pembelajaran ulang. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = Jumlah kali tombol 'Lagi' harus ditekan pada kartu ulasan sebelum kartu tersebut ditandai sebagai leech. Leech adalah kartu yang memakan banyak waktu Anda, dan ketika kartu ditandai sebagai leech, sebaiknya kartu tersebut ditulis ulang, dihapus, atau diberi mnemonik agar lebih mudah diingat.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    'Hanya Label': Menambahkan label leech pada catatan, dan menampilkan pop-up.
+    
+    'Cabut Kartu': Selain menambahkan label pada catatan, kartu akan disembunyikan hingga diaktifkan kembali secara manual.
 
 ## Burying section
 
-deck-config-bury-title = Penyembunyian
-deck-config-bury-new-siblings = Sembunyikan saudara baru
-deck-config-bury-review-siblings = Sembunyikan saudara tinjauan
-deck-config-bury-interday-learning-siblings = Sembunyikan saudara pembelajaran antar hari
+deck-config-bury-title = Pendam
+deck-config-bury-new-siblings = Pendam kartu terkait
+deck-config-bury-review-siblings = Pendam kartu ulasan terkait
+deck-config-bury-interday-learning-siblings = Pendam kartu pembelajaran antar hari terkait
 deck-config-bury-new-tooltip = Apakah kartu `baru` lainnya dengan catatan yang sama (misalnya, kartu terbalik, penghapusan cloze berdekatan) akan ditunda hingga hari berikutnya.
 deck-config-bury-review-tooltip = Apakah kartu tinjauan lainnya dengan catatan yang sama akan ditunda hingga hari berikutnya.
 deck-config-bury-interday-learning-tooltip = Apakah kartu `belajar` lainnya dengan interval > 1 hari dari catatan yang sama akan ditunda hingga hari berikutnya.
