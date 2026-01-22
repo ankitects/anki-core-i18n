@@ -118,12 +118,12 @@ statistics-today-title = Сегодня
 statistics-today-again-count = Количество "Снова":
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
 statistics-today-no-cards = Ни одна карточка не была повторена сегодня.
-statistics-today-no-mature-cards = Зрелые карты ещё не повторяли сегодня.
-statistics-today-correct-mature = Верных ответов в зрелых картах: { $correct }/{ $total } ({ $percent }%)
+statistics-today-no-mature-cards = Давно изученные карты сегодня не повторяли.
+statistics-today-correct-mature = Верных ответов в давно изученных картах: { $correct }/{ $total } ({ $percent }%)
 statistics-counts-total-cards = Всего карточек
 statistics-counts-new-cards = Новые
 statistics-counts-young-cards = Свежеизученные
-statistics-counts-mature-cards = Зрелые
+statistics-counts-mature-cards = Давно изученные
 statistics-counts-suspended-cards = Исключённые
 statistics-counts-buried-cards = Отложенные
 statistics-counts-filtered-cards = Отфильтрованные
@@ -158,7 +158,7 @@ statistics-true-retention-retention = Усвоение
 # This will usually be the same as statistics-counts-young-cards
 statistics-true-retention-young = Свежеизученные
 # This will usually be the same as statistics-counts-mature-cards
-statistics-true-retention-mature = Зрелые
+statistics-true-retention-mature = Давно изученные
 statistics-true-retention-all = Все
 statistics-true-retention-today = Сегодня
 statistics-true-retention-yesterday = Вчера
