@@ -208,7 +208,7 @@ statistics-retrievability-tooltip =
         [many] { $cards } карточек с { $percent } вспоминаемости
        *[other] { $cards } карточек с { $percent } вспоминаемости
     }
-statistics-future-due-title = Прогноз
+statistics-future-due-title = Прогноз повторений
 statistics-future-due-subtitle = Число повторяемых в последующие дни.
 statistics-added-title = Добавленные
 statistics-added-subtitle = Количество новых карточек.
