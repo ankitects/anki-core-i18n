@@ -250,7 +250,7 @@ statistics-cards-due =
        *[other] { $cards } к просмотру
     }
 statistics-backlog-checkbox = Отставание
-statistics-intervals-title = Интервалы
+statistics-intervals-title = Интервалы повторений
 statistics-intervals-subtitle = Время до следующего показа повторяемых.
 statistics-intervals-day-range =
     { $cards ->
