@@ -1,5 +1,5 @@
-profiles-anki-could-not-read-your-profile = Anki nije mogao pročitati Vaše podatke profila. Veličine prozora i detalji za prijavu na sinkronizaciju su zaboravljeni.
-profiles-anki-could-not-rename-your-profile = Anki nije mogao preimenovati Vaš profil jer nije mogao preimenovati mapu na disku. Osigurajte da imate dopuštenja pisati u Documents/Anki i da nijedan drugi program ne pristupa Vašoj mapi profila, zatim pokušajte ponovno.
+profiles-anki-could-not-read-your-profile = Anki nije mogao pročitati vaše podatke profila. Veličine prozora i detalji za prijavu na sinkronizaciju su zaboravljeni.
+profiles-anki-could-not-rename-your-profile = Anki nije mogao preimenovati vaš profil jer nije mogao preimenovati mapu na disku. Osigurajte da imate dopuštenja pisati u Documents/Anki i da nijedan drugi program ne pristupa vašoj mapi profila, zatim pokušajte ponovno.
 profiles-folder-already-exists = Mapa već postoji.
 profiles-open = Otvori
 profiles-open-backup = Otvori sigurnosnu kopiju...

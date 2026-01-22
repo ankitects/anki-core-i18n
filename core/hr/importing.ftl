@@ -34,7 +34,7 @@ importing-mapped-to-tags = Preslikano u <b>Tags</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Spoji vrste bilješki
 importing-merge-notetypes-help =
-    Ako je označeno i ako ste Vi ili autor špila izmijenili shemu tipa bilješke, Anki će spojiti te dvije verzije umjesto da zadrži obje.
+    Ako je označeno i ako ste vi ili autor špila izmijenili shemu tipa bilješke, Anki će spojiti te dvije verzije umjesto da zadrži obje.
     
     Pod mijenjanjem sheme tipa bilješke se podrazumijeva dodavanje, uklanjanje ili preraspoređivanje polja ili predložaka, ili mijenjanje polja za sortiranje.
     Za razliku od toga, mijenjanje prednje strane postojećeg predloška se *ne* broji kao promjena sheme.
@@ -45,7 +45,7 @@ importing-multicharacter-separators-are-not-supported-please = Separatori od vi�
 importing-new-deck-will-be-created = Novi špil će biti stvoren: { $name }
 importing-notes-added-from-file = Bilješke dodane iz datoteke: { $val }
 importing-notes-found-in-file = Bilješke nađene u datoteci: { $val }
-importing-notes-skipped-as-theyre-already-in = Bilješke koje su preskočene jer se ažurne kopije već nalaze u Vašoj kolekciji: { $val }
+importing-notes-skipped-as-theyre-already-in = Bilješke koje su preskočene jer se ažurne kopije već nalaze u vašoj kolekciji: { $val }
 importing-notes-skipped-update-due-to-notetype = Bilješke nisu ažurirane jer je tip bilješke bio mijenjan od prošlog uvoza: { $val }
 importing-notes-updated-as-file-had-newer = Bilješke ažurirane jer je datoteka imala noviju verziju: { $val }
 importing-include-reviews = Uključi ponavljanja
@@ -172,9 +172,9 @@ importing-notes-updated =
     }
 importing-existing-notes-skipped =
     { $count ->
-        [one] { $count } bilješka već postoji u Vašoj kolekciji.
-        [few] { $count } bilješke već postoje u Vašoj kolekciji.
-       *[other] { $count } bilješki već postoji u Vašoj kolekciji.
+        [one] { $count } bilješka već postoji u vašoj kolekciji.
+        [few] { $count } bilješke već postoje u vašoj kolekciji.
+       *[other] { $count } bilješki već postoji u vašoj kolekciji.
     }
 importing-notes-failed =
     { $count ->
@@ -207,7 +207,7 @@ importing-details = Detalji
 importing-status = Status
 importing-duplicate-note-added = Dodana duplikatna bilješka
 importing-added-new-note = Dodana nova bilješka
-importing-existing-note-skipped = Bilješka preskočena jer u Vašoj kolekciji već postoji ažurna kopija
+importing-existing-note-skipped = Bilješka preskočena jer u vašoj kolekciji već postoji ažurna kopija
 importing-note-skipped-update-due-to-notetype = Bilješka nije ažurirana jer se vrsta bilješke promijenila otkad je prvo bila uvezena
 importing-note-skipped-update-due-to-notetype2 = Bilješka nije ažurirana jer se vrsta bilješke promijenila otkad je prvo bila uvezena i '{ importing-merge-notetypes }' nije bilo uključeno
 importing-note-updated-as-file-had-newer = Bilješka ažurirana jer je datoteka imala noviju verziju

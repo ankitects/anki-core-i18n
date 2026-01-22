@@ -68,7 +68,7 @@ actions-previous-card-info = Informacije o prethodnoj kartici
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = Način rada preko cijelog zaslona nije podržan za Vaš upravljački program za video. Pokušajte se prebaciti na drugi način sa zaslona postavki.
+actions-fullscreen-unsupported = Način rada preko cijelog zaslona nije podržan za vaš upravljački program za video. Pokušajte se prebaciti na drugi način sa zaslona postavki.
 
 ## The same translation may used for two independent actions:
 ## searching for cards with a flag of the specified color, and

@@ -22,7 +22,7 @@ deck-config-new-limit-tooltip =
     Budući da će novi materijal povećati vaše kratkoročno radno opterećenje ponavljanja, to bi obično trebalo biti barem 10 puta manje od Vašeg limita ponavljanja.
 deck-config-review-limit-tooltip = Maksimalni broj kartica ponavljanja koji će se prikazati u jednom danu, ako ima kartica koje su spremne za ponavljanje.
 deck-config-limit-deck-v3 = Prilikom učenja špila koji ima podšpilove, limiti postavljeni na svakom podšpilu kontroliraju maksimalni broj karata sabranih iz tog određenog špila. Limiti odabranog špila kontroliraju ukupan broj kartica koje će biti prikazane.
-deck-config-limit-new-bound-by-reviews = Limit ponavljanja utječe na limit novih kartica. Na primjer, ako je Vaš limit ponavljanja postavljen na 200, a čeka Vas 190 ponavljanja, bit će uvedeno maksimalno 10 novih kartica. Ako je Vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
+deck-config-limit-new-bound-by-reviews = Limit ponavljanja utječe na limit novih kartica. Na primjer, ako je vaš limit ponavljanja postavljen na 200, a čeka vas 190 ponavljanja, bit će uvedeno maksimalno 10 novih kartica. Ako je vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
 deck-config-new-cards-ignore-review-limit = Nove kartice ignoriraju limit ponavljanja
 deck-config-new-cards-ignore-review-limit-tooltip = Prema zadanim postavkama, limit ponavljanja primjenjuje se i na nove kartice pa se stoga nove kartice neće se prikazivati ​​kada se dosegne limit ponavljanja. Ako je ova opcija omogućena, nove kartice će se prikazivati ​​bez obzira na limit ponavljanja.
 deck-config-apply-all-parent-limits = Limiti počinju od vrha

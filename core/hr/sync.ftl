@@ -46,7 +46,7 @@ sync-ankiweb-id-label = E-mail:
 sync-password-label = Lozinka:
 sync-account-required =
     <h1>Potreban je račun</h1>
-    Za sinkronizaciju vaše kolekcije treba Vam besplatan račun.  <a href="{ $link }">Registrirajte</a> račun, a zatim dolje unesite svoje podatke.
+    Za sinkronizaciju vaše kolekcije treba vam besplatan račun.  <a href="{ $link }">Registrirajte</a> račun, a zatim dolje unesite svoje podatke.
 sync-sanity-check-failed = Pokrenite funkciju "Provjeri bazu podataka" te zatim sinkronizirajte ponovno. Ako se problem nastavi, iz ekrana postavki prisilno sprovedite sinkronizaciju u jednom smjeru.
 sync-clock-off = Nije moguće sinkronizirati - Vaš sat nije podešen na točno vrijeme.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”

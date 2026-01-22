@@ -41,7 +41,7 @@ preferences-theme-dark = Tamno
 preferences-v3-scheduler = V3 raspoređivač
 preferences-check-for-updates = Traži novije verzije
 preferences-ignore-accents-in-search = Ignoriraj naglaske u pretraživanju (sporije)
-preferences-backup-explanation = Anki periodički radi sigurnosnu kopije Vaše kolekcije. Nakon što kopije postanu starije od 2 dana, Anki će početi brisati neke od njih kako bi oslobodio mjesta na disku.
+preferences-backup-explanation = Anki periodički radi sigurnosnu kopije vaše kolekcije. Nakon što kopije postanu starije od 2 dana, Anki će početi brisati neke od njih kako bi oslobodio mjesta na disku.
 preferences-daily-backups = Zadrži ovoliko dnevnih sigurnosnih kopija:
 preferences-weekly-backups = Zadrži ovoliko tjednih sigurnosnih kopija:
 preferences-monthly-backups = Zadrži ovoliko mjesečnih sigurnosnih kopija:
@@ -76,7 +76,7 @@ preferences-reset-window-sizes-complete = Veličine i pozicije prozora su reseti
 preferences-shortcut-placeholder = Unesi nekorišteni tipku prečaca ili ostavite prazno kako biste onemogućili.
 preferences-third-party-services = Usluge trećih strana
 preferences-ankihub-not-logged-in = Trenutno niste prijavljeni u AnkiHub.
-preferences-ankiweb-intro = AnkiWeb je besplatna usluga koja omogućuje sinkronizaciju kartica između Vaših uređaja i omogućuje oporavak tih kartica u slučaju da izgubite ili slomite uređaj.
+preferences-ankiweb-intro = AnkiWeb je besplatna usluga koja omogućuje sinkronizaciju kartica između vaših uređaja i omogućuje oporavak tih kartica u slučaju da izgubite ili slomite uređaj.
 preferences-ankihub-intro = AnkiHub pruža kolaboracijsko uređivanje špilova i dodatne alate za učenje. Plaćena pretplata je nužna kako bi se pristupilo određenim značajkama.
 preferences-third-party-description = Usluge trećih strana nisu povezane s Ankijem, niti ih Anki podržava. Korištenje tih usluga usluga može zahtijevati plaćanje.
 
