@@ -94,26 +94,44 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Urutan tampilan
 deck-config-new-gather-priority = urutan pengambilan kartu baru
 deck-config-new-gather-priority-tooltip-2 =
-    Here are the translations:
-    `Deck`: Mengumpulkan kartu dari setiap subdeck secara berurutan, dimulai dari atas. Kartu dari setiap subdeck dikumpulkan berdasarkan posisi naik. Jika batas harian deck yang dipilih tercapai, pengumpulan dapat berhenti sebelum semua subdeck diperiksa. Urutan ini lebih cepat pada koleksi besar, dan memungkinkan prioritas pada subdeck yang lebih dekat dengan atas.
-    `Ascending position`: Mengumpulkan kartu berdasarkan posisi naik (due #), yang biasanya adalah kartu yang pertama kali ditambahkan.
-    `Descending position`: Mengumpulkan kartu berdasarkan posisi turun (due #), yang biasanya adalah kartu yang terbaru ditambahkan.
-    `Random notes`: Memilih catatan secara acak, lalu mengumpulkan semua kartunya.
-    `Random cards`: Mengumpulkan kartu secara acak.
-deck-config-new-card-sort-order = Urutan sortiran kartu baru
+    `Dek`: Mengumpulkan kartu dari setiap subdek secara berurutan, dimulai dari bagian teratas.
+    Kartu dari setiap subdek 
+    dikumpulkan berdasarkan posisi menaik.
+    Jika batas harian dek yang dipilih tercapai, proses pengambilan 
+    dapat berhenti sebelum semua subdeck diperiksa.
+    Urutan ini paling cepat untuk koleksi besar, dan 
+    memungkinkan Anda memprioritaskan subdek yang berada lebih dekat ke atas.
+    
+    `Posisi menaik`: Mengumpulkan kartu berdasarkan posisi naik (due #), yang biasanya 
+    adalah kartu yang pertama kali ditambahkan.
+    
+    `Posisi menurun: Mengumpulkan kartu berdasarkan posisi turun (due #), yang biasanya 
+    adalah kartu yang terbaru ditambahkan.
+    
+    `Catatan acak`: Memilih catatan secara acak, lalu mengumpulkan semua kartunya.
+    
+    `Kartu acak`: Mengumpulkan kartu secara acak.
+deck-config-new-card-sort-order = Urutan penyortiran kartu baru
 deck-config-new-card-sort-order-tooltip-2 =
-    `Card type, then order gathered`: Tampilkan kartu dengan nomor jenis kartu. Kartu dari setiap nomor jenis kartu ditampilkan sesuai urutan pengumpulan. Jika penyembunyian saudara non-aktif, semua kartu front→back akan terlihat sebelum kartu back→front. Ini berguna agar semua kartu dari catatan yang sama muncul dalam sesi yang sama, tetapi tidak terlalu berdekatan.
+    `Jenis kartu, lalu urutan pengambilan`: Menampilkan kartu berdasarkan nomor tipe kartu.
+    Kartu dari setiap tipe kartu ditampilkan sesuai urutan saat kartu tersebut dikumpulkan.
+    Jika kartu pendam yang terkait dinonaktifkan, pengaturan ini memastikan semua kartu depan→belakang ditampilkan sebelum kartu belakang→depan.
+    Opsi ini berguna untuk menampilkan semua kartu dari catatan yang sama dalam satu sesi, tetapi tidak terlalu berdekatan.
     
-    `Order gathered`: Tampilkan kartu persis seperti saat dikumpulkan. Jika penyembunyian saudara dinonaktifkan, umumnya membuat semua kartu dari satu catatan terlihat urut.
+    `Urutan pengambilan`: Tampilkan kartu persis seperti saat dikumpulkan. Jika kartu pendam yang terkait dinonaktifkan, umumnya membuat semua kartu dari satu catatan terlihat urut.
     
-    `Card type, then random`: Tampilkan kartu dengan nomor jenis kartu. Kartu dari setiap nomor jenis kartu ditampilkan acak. Urutan ini berguna jika Anda tidak ingin kartu saudara muncul terlalu dekat satu sama lain, tetapi ingin kartu muncul acak.
+    `Jenis kartu, lalu acak`: Menampilkan kartu berdasarkan nomor jenis kartu.
+    Kartu dari setiap jenis kartu ditampilkan dalam urutan acak.
+    Urutan ini berguna jika Anda tidak ingin kartu yang terkait 
+    muncul terlalu berdekatan, tetapi tetap ingin urutan acak.
     
-    `Random note, then card type`: Pilih catatan secara acak, lalu tampilkan semua kartunya sesuai urutan.
+    `Catatan acak, lalu jenis kartu`: Memilih catatan secara acak, lalu 
+    menampilkan semua kartunya secara berurutan.
     
-    `Random`: Tampilkan kartu secara acak.
-deck-config-new-review-priority = ulas / urutan baru
-deck-config-new-review-priority-tooltip = Waktu menampilkan kartu baru terkait dengan kartu ulasan.
-deck-config-interday-step-priority = Urutan pelajaran/ulasan antar hari
+    `Acak`: Menampilkan kartu secara acak.
+deck-config-new-review-priority = Urutan baru/ulasan
+deck-config-new-review-priority-tooltip = Menentukan kapan kartu baru ditampilkan dibandingkan dengan kartu ulasan.
+deck-config-interday-step-priority = Urutan pelajaran antar hari/ulasan
 deck-config-interday-step-priority-tooltip =
     Kapan menampilkan kartu belajar / pengulangan yang melewati batas hari.
     
