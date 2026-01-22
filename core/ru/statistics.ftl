@@ -220,7 +220,7 @@ statistics-answer-buttons-button-number = Кнопка
 # eg Times pressed: 123
 statistics-answer-buttons-button-pressed = Раз нажато
 statistics-answer-buttons-subtitle = Сколько раз вы нажали каждую кнопку.
-statistics-reviews-title = Повторение
+statistics-reviews-title = Повторения
 statistics-reviews-time-checkbox = Время
 statistics-in-days-single =
     { $days ->
