@@ -75,18 +75,24 @@ deck-config-bury-title = Pendam
 deck-config-bury-new-siblings = Pendam kartu terkait
 deck-config-bury-review-siblings = Pendam kartu ulasan terkait
 deck-config-bury-interday-learning-siblings = Pendam kartu pembelajaran antar hari terkait
-deck-config-bury-new-tooltip = Apakah kartu `baru` lainnya dengan catatan yang sama (misalnya, kartu terbalik, penghapusan cloze berdekatan) akan ditunda hingga hari berikutnya.
-deck-config-bury-review-tooltip = Apakah kartu tinjauan lainnya dengan catatan yang sama akan ditunda hingga hari berikutnya.
-deck-config-bury-interday-learning-tooltip = Apakah kartu `belajar` lainnya dengan interval > 1 hari dari catatan yang sama akan ditunda hingga hari berikutnya.
+deck-config-bury-new-tooltip = Apakah kartu `baru` lainnya dengan catatan yang sama (misalnya, kartu terbalik, perumpangan yag berdekatan) akan ditunda hingga hari berikutnya.
+deck-config-bury-review-tooltip = Apakah kartu ulasan lainnya dengan catatan yang sama akan ditunda hingga hari berikutnya.
+deck-config-bury-interday-learning-tooltip = Apakah kartu 'belajar'  lain dari catatan yang sama dengan interval > 1 hari akan ditunda hingga hari berikutnya.
 deck-config-bury-priority-tooltip =
-    Saat Anki mengumpulkan kartu, urutannya adalah kartu belajar intrahari, kartu belajar antarahari, kartu ulasan, dan kartu baru. Ini memengaruhi penguburan:
-    - Dengan semua opsi penyembunyian diaktifkan, kartu yang lebih awal akan ditampilkan, misalnya kartu ulasan lebih dulu daripada kartu baru.
-    - Kartu yang lebih terlambat tidak bisa mengubur kartu yang lebih awal. Misalnya, menonaktifkan penguburan kartu baru tidak akan mengubur kartu belajar antarahari atau ulasan, sehingga keduanya bisa muncul dalam sesi yang sama.
+    Saat Anki mengumpulkan kartu, urutannya adalah kartu belajar harian, lalu
+    kartu belajar antar hari, kartu ulasan, dan kartu baru. Ini memengaruhi 
+    cara kartu dipendam:
+    - Jika semua opsi pendam diaktifkan, kartu terkait yang muncul paling awal dalam urutan tersebut yang akan ditampilkan. Misalnya, kartu ulasan akan ditampilkan lebih dulu 
+    dibandingkan kartu baru.
+    - Kartu terkait yang berada lebih akhir dalam urutan tidak dapat menyembunyikan tipe kartu yang lebih awal. Sebagai contoh, jika Anda 
+    menonaktifkan pendam pada kartu baru lalu mempelajari sebuah kartu baru, kartu tersebut tidak akan memendam kartu belajar antar hari 
+    atau kartu ulasan, sehingga Anda dapat melihat kartu ulasan terkait dan kartu baru terkait 
+    dalam sesi yang sama.
 
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = Urutan tampilan
-deck-config-new-gather-priority = urutan kumpulan kartu baru
+deck-config-new-gather-priority = urutan pengambilan kartu baru
 deck-config-new-gather-priority-tooltip-2 =
     Here are the translations:
     `Deck`: Mengumpulkan kartu dari setiap subdeck secara berurutan, dimulai dari atas. Kartu dari setiap subdeck dikumpulkan berdasarkan posisi naik. Jika batas harian deck yang dipilih tercapai, pengumpulan dapat berhenti sebelum semua subdeck diperiksa. Urutan ini lebih cepat pada koleksi besar, dan memungkinkan prioritas pada subdeck yang lebih dekat dengan atas.
