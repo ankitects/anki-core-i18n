@@ -27,3 +27,6 @@ card-template-rendering-no-such-field = Pronađeno je '{ $found }', ali ne posto
 # either due to a badly-designed template, or because required fields
 # are missing.
 card-template-rendering-empty-front = Prednja strana ove kartice je prazna.
+card-template-rendering-missing-cloze =
+    Na kartici nije nađeno nadopunjavanje s brojem { $number }.
+    Ili dodajte nadopunjavanje, ili pokrenite alat "Prazne kartice".

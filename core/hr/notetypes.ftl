@@ -14,6 +14,7 @@ notetypes-basic-name = Osnovna
 notetypes-basic-reversed-name = Osnovna (i obratna kartica)
 notetypes-basic-optional-reversed-name = Osnovna (obratna kartica po volji)
 notetypes-basic-type-answer-name = Osnovna (upisivanje odgovora)
+notetypes-cloze-name = Nadopunjavanje teksta
 
 ## Default card template names
 

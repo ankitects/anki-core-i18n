@@ -61,6 +61,7 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Zakapanje
+deck-config-bury-new-tooltip = Da li će druge `nove` kartice od iste bilješke (npr. obratne kartice, susjedne kartice na nadopunjavanje) biti odgođene na sljedeći dan.
 
 ## Gather order and sort order of cards
 
