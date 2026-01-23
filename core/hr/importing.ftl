@@ -34,7 +34,7 @@ importing-mapped-to-tags = Preslikano u <b>Tags</b>
 # the action of combining two existing note types to create a new one
 importing-merge-notetypes = Spoji vrste bilješki
 importing-merge-notetypes-help =
-    Ako je označeno i ako ste vi ili autor špila izmijenili shemu tipa bilješke, Anki će spojiti te dvije verzije umjesto da zadrži obje.
+    Ako je označeno i ako ste vi ili autor/ica špila izmijenili shemu tipa bilješke, Anki će spojiti te dvije verzije umjesto da zadrži obje.
     
     Pod mijenjanjem sheme tipa bilješke se podrazumijeva dodavanje, uklanjanje ili preraspoređivanje polja ili predložaka, ili mijenjanje polja za sortiranje.
     Za razliku od toga, mijenjanje prednje strane postojećeg predloška se *ne* broji kao promjena sheme.
@@ -53,10 +53,10 @@ importing-also-import-progress = Uvezi napredak učenja
 importing-with-deck-configs = Uvezi predloške špila
 importing-updates = Ažuriranje
 importing-include-reviews-help =
-    Ako je omogućeno, uvozit će se i sva prethodna ponavljanja koje je uključio autor dijeljenog špila.
+    Ako je omogućeno, uvozit će se i sva prethodna ponavljanja koja je uključio/la autor/ica dijeljenog špila.
     U suprotnom će se sve kartice uvesti kao nove kartice, a sve će se oznake „pijavice” ili „označeno” ukloniti.
 importing-with-deck-configs-help =
-    Ako je omogućeno, uvozit će se i sve opcije špila koje je autor dijeljenog špila uključio.
+    Ako je omogućeno, uvozit će se i sve opcije špila koje je autor/ica dijeljenog špila uključio/la.
     U suprotnom će svim špilovima biti dodijeljen zadani predložak.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Pakiran Anki špil/kolekcija (*.apkg *.colpkg *.zip)
 # the '|' character
@@ -69,7 +69,7 @@ importing-preview-truncated =
         [few] Samo su prva { $count } stupca prikazana. Ako ovo ne valja, pokušajte zamijeniti separator polja.
        *[other] Samo je prvih { $count } stupaca prikazano. Ako ovo ne valja, pokušajte zamijeniti separator polja.
     }
-importing-rows-had-num1d-fields-expected-num2d = '{ $row }' je imao { $found } polja, očekivano je { $expected }
+importing-rows-had-num1d-fields-expected-num2d = '{ $row }' je ima { $found } polja, očekivano je { $expected }
 importing-selected-file-was-not-in-utf8 = Odabrana datoteka nije bila u UTF-8 formatu. Pogledajte dio priručnika o uvoženju.
 importing-semicolon = Točka-zarez
 importing-skipped = Preskočeno

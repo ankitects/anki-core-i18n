@@ -9,7 +9,7 @@ preferences-learn-ahead-limit = Limit učenja unaprijed
 preferences-mins = min.
 preferences-network = Sinkronizacija
 preferences-next-day-starts-at = Idući dan počinje u
-preferences-media-is-not-backed-up = Bilješka: ne postoji sigurnosna kopija medijskih datoteka. Napravite periodično sigurnosno kopiranje svoje Anki mape kako biste bili sigurni.
+preferences-media-is-not-backed-up = Ne postoji sigurnosna kopija medijskih datoteka. S vremena na vrijeme napravite sigurnosnu kopiju vaše Anki mape kako biste bili sigurni.
 preferences-on-next-sync-force-changes-in = Pri sljedećoj sinkronizaciji prisili promjene u jednom smjeru
 preferences-paste-clipboard-images-as-png = Zalijepi slike iz međuspremnika kao PNG
 preferences-paste-without-shift-key-strips-formatting = Lijepljenje bez tipke Shift uklanja formatiranje
@@ -41,7 +41,7 @@ preferences-theme-dark = Tamno
 preferences-v3-scheduler = V3 raspoređivač
 preferences-check-for-updates = Traži novije verzije
 preferences-ignore-accents-in-search = Ignoriraj naglaske u pretraživanju (sporije)
-preferences-backup-explanation = Anki periodički radi sigurnosnu kopije vaše kolekcije. Nakon što kopije postanu starije od 2 dana, Anki će početi brisati neke od njih kako bi oslobodio mjesta na disku.
+preferences-backup-explanation = Anki s vremena na vrijeme radi sigurnosnu kopiju vaše kolekcije. Nakon što kopije postanu starije od 2 dana, Anki će početi brisati neke od njih kako bi oslobodio mjesta na disku.
 preferences-daily-backups = Zadrži ovoliko dnevnih sigurnosnih kopija:
 preferences-weekly-backups = Zadrži ovoliko tjednih sigurnosnih kopija:
 preferences-monthly-backups = Zadrži ovoliko mjesečnih sigurnosnih kopija:
@@ -85,9 +85,9 @@ preferences-third-party-description = Usluge trećih strana nisu povezane s Anki
 preferences-url-schemes = URL sheme
 preferences-url-scheme-prompt = Dozvoljene URL sheme (odvojene razmakom)
 preferences-url-scheme-warning =
-    Blokiran je pokušaj da se otvori `{ $link }` koji bi mogao predstavljati sigurnosnu prijetnju.
+    Blokiran je pokušaj da se otvori `{ $link }` jer može predstavljati sigurnosnu prijetnju.
     
-    Ako vjerujete autoru špila i želite nastaviti, možete dodati `{ $scheme }` u dozvoljene URL sheme.
+    Ako vjerujete autoru/ici špila i želite nastaviti, možete dodati `{ $scheme }` u dozvoljene URL sheme.
 preferences-url-scheme-allow-once = Dopusti jednom
 preferences-url-scheme-always-allow = Uvijek dopusti
 

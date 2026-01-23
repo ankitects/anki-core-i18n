@@ -19,7 +19,7 @@ deck-config-title = Opcije špila
 deck-config-daily-limits = Dnevni limiti
 deck-config-new-limit-tooltip =
     Maksimalni broj novih kartica koje se mogu uvesti u jednom danu, ako su nove kartice dostupne.
-    Budući da će novi materijal povećati vaše kratkoročno radno opterećenje ponavljanja, to bi obično trebalo biti barem 10 puta manje od Vašeg limita ponavljanja.
+    Budući da će novi materijal povećati vaše kratkoročno radno opterećenje ponavljanja, to bi obično trebalo biti barem 10 puta manje od vašeg limita ponavljanja.
 deck-config-review-limit-tooltip = Maksimalni broj kartica ponavljanja koji će se prikazati u jednom danu, ako ima kartica koje su spremne za ponavljanje.
 deck-config-limit-deck-v3 = Prilikom učenja špila koji ima podšpilove, limiti postavljeni na svakom podšpilu kontroliraju maksimalni broj karata sabranih iz tog određenog špila. Limiti odabranog špila kontroliraju ukupan broj kartica koje će biti prikazane.
 deck-config-limit-new-bound-by-reviews = Limit ponavljanja utječe na limit novih kartica. Na primjer, ako je vaš limit ponavljanja postavljen na 200, a čeka vas 190 ponavljanja, bit će uvedeno maksimalno 10 novih kartica. Ako je vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
@@ -50,7 +50,7 @@ deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je
 ## Lapses section
 
 deck-config-relearning-steps = Koraci za ponovno učenje
-deck-config-leech-threshold-tooltip = Broj puta koliko se `Ponovno` mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (pijavice su kartice koje Vam oduzimaju puno vremena). Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će Vam pomoći da je zapamtite.
+deck-config-leech-threshold-tooltip = Broj puta koliko se `Ponovno` mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (pijavice su kartice koje vam oduzimaju puno vremena). Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će vam pomoći da je zapamtite.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Samo označi`: Dodaj oznaku 'pijavica' na bilješku i prikaži skočni prozorčić.
@@ -192,9 +192,9 @@ deck-config-revert-button-tooltip = Vrati ovu postavku na zadanu vrijednost?
 
 deck-config-reviews-too-low =
     { $cards ->
-        [one] Ako dodajete { $cards } novu karticu svaki dan, Vaš limit ponavljanja bi trebao biti barem { $expected }.
-        [few] Ako dodajete { $cards } nove kartice svaki dan, Vaš limit ponavljanja bi trebao biti barem { $expected }.
-       *[other] Ako dodajete { $cards } novih kartica svaki dan, Vaš limit ponavljanja bi trebao biti barem { $expected }.
+        [one] Ako dodajete { $cards } novu karticu svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
+        [few] Ako dodajete { $cards } nove kartice svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
+       *[other] Ako dodajete { $cards } novih kartica svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
     }
 deck-config-too-short-maximum-interval = Ne preporučuje se maksimalni interval kraći od 6 mjeseci.
 deck-config-ignore-before-info = (Otprilike) { $included }/{ $totalCards } kartica će se koristiti za optimizaciju FSRS parametara.

@@ -23,7 +23,7 @@ sync-conflict = Istodobno se samo jedna kopija Ankija može sinkronizirati s va�
 sync-server-error = AnkiWeb je naišao na problem. Pokušajte ponovno za par minuta.
 sync-client-too-old = Vaša verzija Ankija je prestara. Ažurirajte program na najnoviju verziju kako biste nastavili sinkronizaciju.
 sync-wrong-pass = AnkiWeb ID ili lozinka su bili pogrešni; pokušajte ponovno.
-sync-resync-required = Sinkronizirajte ponovno. Ako se ova poruka nastavi pojavljivati, javite se na stranicu za podršku s Vašim problemom.
+sync-resync-required = Sinkronizirajte ponovno. Ako se ova poruka nastavi pojavljivati, javite se na stranicu za podršku s vašim problemom.
 sync-must-wait-for-end = Anki se trenutno sinkronizira. Pričekajte da sinkronizacija završi, zatim pokušajte ponovno.
 sync-confirm-empty-download = Lokalna kolekcija nema kartica. Želite li je preuzeti s AnkiWeba?
 sync-confirm-empty-upload = AnkiWeb kolekcija nema kartica. Želite li je zamijeniti s lokalnom kolekcijom?
@@ -48,7 +48,7 @@ sync-account-required =
     <h1>Potreban je račun</h1>
     Za sinkronizaciju vaše kolekcije treba vam besplatan račun.  <a href="{ $link }">Registrirajte</a> račun, a zatim dolje unesite svoje podatke.
 sync-sanity-check-failed = Pokrenite funkciju "Provjeri bazu podataka" te zatim sinkronizirajte ponovno. Ako se problem nastavi, iz ekrana postavki prisilno sprovedite sinkronizaciju u jednom smjeru.
-sync-clock-off = Nije moguće sinkronizirati - Vaš sat nije podešen na točno vrijeme.
+sync-clock-off = Nije moguće sinkronizirati - vaš sat nije podešen na točno vrijeme.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
     Vaša kolekcija je prevelika da bi se poslala na AnkiWeb. Možete je smanjiti tako što uklonite neželjene špilove (koje prije toga možete izvesti) i zatim upotrijebite funkciju "Provjeri bazu podataka" kako biste smanjili veličinu datoteke.

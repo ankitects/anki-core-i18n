@@ -6,7 +6,7 @@ errors-multiple-notetypes-selected = Odaberite bilješke samo jednog tipa.
 errors-please-check-database = Uporabite funkciju "Provjeri bazu podataka" te pokušajte ponovno.
 errors-please-check-media = Uporabite funkciju "Provjeri medije" te pokušajte ponovno.
 errors-collection-too-new = Za otvaranje ove kolekcije potrebna je novija verzija programa Anki.
-errors-invalid-ids = Ovaj špil sadrži vremenske oznake u budućnosti. Kontaktirajte autora špila i zamolite ih da isprave ovu grešku.
+errors-invalid-ids = Ovaj špil sadrži vremenske oznake u budućnosti. Kontaktirajte autora/icu špila i zamolite ih da isprave ovu grešku.
 errors-inconsistent-db-state = Izgleda da je vaša baza podataka u nekonzistentnom stanju. Uporabite funkciju "Provjeri bazu podataka".
 
 ## Card Rendering
