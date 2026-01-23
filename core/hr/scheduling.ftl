@@ -85,7 +85,7 @@ scheduling-learn-remaining =
 scheduling-congratulations-finished = Čestitke! Zasad ste završili ovaj špil.
 scheduling-today-review-limit-reached = Današnji dnevni limit ponavljanja je dosegnut, no ostalo je još kartica za ponavljanje. Za optimalno pamćenje, povećajte dnevni limit u postavkama.
 scheduling-today-new-limit-reached = Dostupno je još novih kartica, ali dosegnut je dnevni limit. Možete povećati limit u postavkama, ali imajte na umu da što više novih kartica uvedete, to će vaše kratkotrajno opterećenje ponavljanja postati veće.
-scheduling-buried-cards-found = Jedna ili više kartica je zakopana te će sutra biti prikazana. Možete { $unburyThem } ako ih želite odmah vidjeti.
+scheduling-buried-cards-found = Neke kartice su zakopane te će sutra biti prikazane. Možete { $unburyThem } ako ih želite odmah vidjeti.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = ih otkopati

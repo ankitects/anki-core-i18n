@@ -7,6 +7,9 @@ importing-anki-files-are-from-a-very = . anki datoteke su iz vrlo stare verzije 
 importing-anki2-files-are-not-directly-importable = .anki2 datoteke nije moguće izravno uvesti – umjesto toga uvezite .apkg ili .zip datoteku koju ste primili.
 importing-appeared-twice-in-file = Pojavilo se dvaput u datoteci: { $val }
 importing-by-default-anki-will-detect-the = Anki će implicitno prepoznati znak između polja, kao što su tabulator, zarez itd. Ako Anki krivo prepoznaje znak, možete ga unijeti ovdje. Upotrijebite \t za tabulator.
+importing-cannot-merge-notetypes-of-different-kinds =
+    Tip bilješki na nadopunjavanje ne može se sjediniti s tipom običnih bilješki.
+    I dalje možete uvesti datoteku ako isključite '{ importing-merge-notetypes }'.
 importing-change = Promijeni
 importing-colon = Dvotočka
 importing-comma = Zarez
@@ -32,9 +35,9 @@ importing-map-to-tags = Preslikaj u oznake
 importing-mapped-to = preslikano u <b>{ $val }</b>
 importing-mapped-to-tags = Preslikano u <b>Tags</b>
 # the action of combining two existing note types to create a new one
-importing-merge-notetypes = Spoji vrste bilješki
+importing-merge-notetypes = Sjedini vrste bilješki
 importing-merge-notetypes-help =
-    Ako je označeno i ako ste vi ili autor/ica špila izmijenili shemu tipa bilješke, Anki će spojiti te dvije verzije umjesto da zadrži obje.
+    Ako je označeno i ako ste vi ili autor/ica špila izmijenili shemu tipa bilješke, Anki će sjediniti te dvije verzije umjesto da zadrži obje.
     
     Pod mijenjanjem sheme tipa bilješke se podrazumijeva dodavanje, uklanjanje ili preraspoređivanje polja ili predložaka, ili mijenjanje polja za sortiranje.
     Za razliku od toga, mijenjanje prednje strane postojećeg predloška se *ne* broji kao promjena sheme.

@@ -18,6 +18,7 @@ preferences-latex-generation-disabled = Generiranje LaTeX slika je onemogućeno 
 preferences-periodically-sync-media = Periodički sinkroniziraj medijske datoteke
 preferences-please-restart-anki-to-complete-language = Ponovno pokrenite Anki kako biste dovršili promjenu jezika.
 preferences-preferences = Postavke
+preferences-scheduling = Raspoređivanje
 preferences-show-learning-cards-with-larger-steps = Prikaži kartice učenju s većim koracima prije ponavljanja
 preferences-show-next-review-time-above-answer = Prikaži vrijeme sljedećeg ponavljanja iznad tipki s odgovorima
 preferences-spacebar-rates-card = Razmak (ili enter) također pokazuje odgovor

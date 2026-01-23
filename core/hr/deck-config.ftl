@@ -34,6 +34,7 @@ deck-config-affects-entire-collection = Utječe na cijelu kolekciju.
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = Predložak
 deck-config-deck-only = Ovaj špil
 deck-config-today-only = Samo danas
 
@@ -119,6 +120,7 @@ deck-config-sort-order-descending-difficulty = Prvo teške kartice
 deck-config-timer-title = Brojači
 deck-config-maximum-answer-secs = Maksimalni broj sekundi za odgovor
 deck-config-maximum-answer-secs-tooltip = Maksimalni broj sekundi koji će se zapisati za jedno ponavljanje. Ako odgovor premaši ovo vrijeme (jer ste se, primjerice, udaljili od zaslona), vrijeme će se zapisati kao ograničenje koje ste postavili.
+deck-config-show-answer-timer-tooltip = Na ekranu za učenje prikaži brojač koji mjeri koliko dugo traje da naučite pojedinu karticu.
 deck-config-stop-timer-on-answer = Zaustavi brojač na ekranu pri odgovoru
 deck-config-stop-timer-on-answer-tooltip = Da li da se zaustavi brojač na ekranu kad se pokaže odgovor. Ovo ne utječe na statistiku.
 
@@ -147,6 +149,9 @@ deck-config-always-include-question-audio-tooltip = Da li da se uključi zvuk ka
 ## Advanced section
 
 deck-config-advanced-title = Napredno
+deck-config-easy-bonus-tooltip = Interval na kartici ponavljanja će se pomnožiti ovim brojem kad je ocijenite s `Lako`.
+deck-config-interval-modifier-tooltip = Svi intervali ponavljanja se množe ovim brojem pa se uz male promjene nad njim Anki može podesiti da bude konzervativniji ili agresivniju u svom raspoređivanju. Pogledajte priručnik prije mijenjanja ove postavke.
+deck-config-custom-scheduling-tooltip = Utječe na cijelu kolekciju. Koristite na vlastitu odgovornost!
 
 ## Easy Days section.
 
@@ -187,6 +192,7 @@ deck-config-revert-button-tooltip = Vrati ovu postavku na zadanu vrijednost?
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling-hint = Tretira unos kao markdown i čisti HTML unos. Kad je uključeno, opis će se također prikazivati na ekranu s čestitkama. Markdown se prikazuje kao tekst u Anki verziji 2.1.40 i niže.
 
 ## Warnings shown to the user
 

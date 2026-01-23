@@ -28,13 +28,13 @@ sync-must-wait-for-end = Anki se trenutno sinkronizira. Pričekajte da sinkroniz
 sync-confirm-empty-download = Lokalna kolekcija nema kartica. Želite li je preuzeti s AnkiWeba?
 sync-confirm-empty-upload = AnkiWeb kolekcija nema kartica. Želite li je zamijeniti s lokalnom kolekcijom?
 sync-conflict-explanation =
-    Špilovi na ovom uređaju i špilovi na AnkiWebu se razlikuju na način da ih se ne može spojiti, što znači da je potrebno pregaziti špilove na jednoj strani onima s druge strane.
+    Špilovi na ovom uređaju i špilovi na AnkiWebu se razlikuju na način da ih se ne može sjediniti, što znači da je potrebno pregaziti špilove na jednoj strani onima s druge strane.
     
     Ako odaberete preuzimanje, Anki će dohvatiti kolekciju s AnkiWeba, što znači da će biti izgubljene bilo kakve promjene koje ste na ovom uređaju napravili nakon zadnje sinkronizacije.
     
     Ako odaberete prijenos, Anki će podatke s ovog uređaja prenijeti na AnkiWeb, što znači da će bilo kakve promjene koje čekaju na AnkiWebu biti izgubljene.
     
-    Kad svi uređaji budu sinkronizirani, buduća ponavljanja i dodane kartice moći će se automatski pripojiti.
+    Kad svi uređaji budu sinkronizirani, buduća ponavljanja i dodane kartice moći će se automatski sjediniti.
 sync-conflict-explanation2 =
     Špilovi na ovom uređaju i na AnkiWebu se ne podudaraju. Odaberite koji ćete špil zadržati:
     

@@ -61,7 +61,7 @@ database-check-fixed-invalid-ids =
        *[other] Popravljeno { $count } objekata s vremenskim oznakama u budućnosti.
     }
 # "db-check" is always in English
-database-check-notetypes-recovered = Nedostajala je jedna ili više vrsti bilješki. Bilješkama koje su koristile te vrste dane su nove vrste koje počinju s "db-check", no imena polja i dizajn kartica su se izgubili. Predlažemo da ih obnovite iz automatske sigurnosne kopije.
+database-check-notetypes-recovered = Nedostajale su neke vrste bilješki. Bilješkama koje su koristile te vrste dane su nove vrste koje počinju s "db-check", no imena polja i dizajn kartica su se izgubili. Predlažemo da ih obnovite iz automatske sigurnosne kopije.
 
 ## Progress info
 

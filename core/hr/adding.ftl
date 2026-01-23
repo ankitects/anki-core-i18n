@@ -7,3 +7,6 @@ adding-history = Povijest
 adding-note-deleted = (Bilješka izbrisana)
 adding-shortcut = Prečac: { $val }
 adding-the-first-field-is-empty = Prvo polje je prazno.
+adding-you-have-a-cloze-deletion-note = Odabrali ste tip bilješke na nadopunjavanje, no niste odabrali tekst koji se mora nadopuniti. Nastaviti?
+adding-cloze-outside-cloze-notetype = Nadopunjavanje se može koristiti samo kod tipa bilješke na nadopunjavanje.
+adding-cloze-outside-cloze-field = Samo se u poljima s filtrom 'cloze:' može odabrati tekst koji treba nadopuniti. To je obično prvo polje.
