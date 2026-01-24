@@ -142,6 +142,40 @@ browsing-today = Sot
 browsing-tooltip-card-modified = Hera e fundit që ndryshimet janë bërë në një kartë, duke përfshirë ndryshimet në përsëritjet, flamujt dhe pakot
 browsing-tooltip-note-modified = Hera e fundit që ndryshimet janë bërë në një shënim, zakonisht përmbajtja e fushës ose ndryshimet në etiketë
 browsing-tooltip-card = Emri i shabllonit të kartës që ka karta
+browsing-tooltip-cards = Numri i kartave që ka një shënim
+browsing-tooltip-notetype = Emri i llojit të shënimit që ka shënimi
+browsing-tooltip-question = Ana e parme e kartës, e personalizueshme në përpunuesin e shablloneve
+browsing-tooltip-answer = Ana e pasme e kartës, e personalizushme në përpunuesin e shablloneve
+browsing-studied-today = Mësuar
+browsing-added-today = U shtua
+browsing-again-today = Prap
+browsing-edited-today = Nryshuar
+browsing-sidebar-first-review = Përsëritja e parë
+browsing-sidebar-rescheduled = Orari i ndërruar
+browsing-sidebar-due-today = Për të mësuar
+browsing-sidebar-untagged = Pa etiketë
+browsing-sidebar-overdue = Jasht afatit
+browsing-row-deleted = (i fshirë)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] U hoq { $count } etiketë e papërdorur.
+       *[other] U hoqën { $count } etiketa të pa përdorura.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] U ndryshua pozita e { $count } karte të re.
+       *[other] U ndryshua pozita e { $count } kartave të reja.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] U riemërtua { $count } pako.
+       *[other] U riemërtuan { $count } pako.
+    }
+browsing-sidebar-card-state-review = Përsëritje
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+# Exactly one character representing 'Cards'; should differ from browsing-note-initial.
+browsing-card-initial = C
+# Exactly one character representing 'Notes'; should differ from browsing-card-initial.
+browsing-note-initial = N
