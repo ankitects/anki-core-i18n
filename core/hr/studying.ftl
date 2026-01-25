@@ -15,6 +15,7 @@ studying-cards-buried =
     }
 studying-cards-will-be-automatically-returned-to = Kartice će se automatski vratiti u svoje originalne špilove nakon što ih ponovite.
 studying-continue = Nastavi
+studying-counts-differ = Broj se razlikuje od onog na popisi špilova jer je uključeno zakapanje. Neke kartice su isključene i druge su kartice možda preuzele njihovo mjesto.
 studying-delete-note = Obriši bilješku
 studying-deleting-this-deck-from-the-deck = Brisanjem ovog špila s popisa špilova će se sve preostale kartice vratiti u svoj izvorni špil.
 studying-easy = Lagano
@@ -29,6 +30,7 @@ studying-manually-buried-cards = Ručno zakopane kartice
 studying-more = Više
 studying-note-suspended = Bilješka suspendirana.
 studying-pause-audio = Pauziraj zvuk
+studying-please-run-toolsempty-cards = Pokrenite Alati>Prazne kartice
 studying-record-own-voice = Snimi vlastiti glas
 studying-replay-own-voice = Reproduciraj vlastiti glas
 studying-show-answer = Prikaži odgovor
@@ -80,6 +82,8 @@ studying-card-studied-in-minute =
                     { $minutes } minuta.
             }
     }
+studying-question-time-elapsed = Vrijeme pitanja isteklo
+studying-answer-time-elapsed = Vrijeme odgovora isteklo
 
 ## OBSOLETE; you do not need to translate this
 
