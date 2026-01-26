@@ -23,6 +23,7 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip = Maksimalni broj kartica ponavljanja koji će se prikazati u jednom danu, ako ima kartica koje su spremne za ponavljanje.
 deck-config-limit-deck-v3 = Prilikom učenja špila koji ima podšpilove, limiti postavljeni na svakom podšpilu kontroliraju maksimalni broj karata sabranih iz tog određenog špila. Limiti odabranog špila kontroliraju ukupan broj kartica koje će biti prikazane.
 deck-config-limit-new-bound-by-reviews = Limit ponavljanja utječe na limit novih kartica. Na primjer, ako je vaš limit ponavljanja postavljen na 200, a čeka vas 190 ponavljanja, bit će uvedeno maksimalno 10 novih kartica. Ako je vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
+deck-config-limit-interday-bound-by-reviews = Limit ponavljanja također utječe na kartice koje prekoračuju u sljedeći dan. Prilikom primjene limita, kartice koje prekoračuju u sljedeći dan se sakupljaju prve, a onda kartice ponavljanja.
 deck-config-tab-description =
     - `Predložak`: Ovaj se limit primjenjuje na sve špilove koji koriste ovaj predložak.
     - `Ovaj špil`: Limit se primjenjuje samo na ovaj špil.
@@ -80,7 +81,13 @@ deck-config-new-gather-priority = Redoslijed sabiranja novih kartica
 deck-config-new-card-sort-order = Redoslijed sortiranja novih kartica
 deck-config-new-review-priority = Redoslijed novih/ponavljanja
 deck-config-new-review-priority-tooltip = Kad da se prikažu nove karticu u odnosu na kartice ponavljanja.
+deck-config-interday-step-priority = Redoslijed učenja/ponavljanja između dana
+deck-config-interday-step-priority-tooltip =
+    Kad pokazati kartice (ponovnog) učenja koje prekoračuju u drugi dan.
+    
+    Limit ponavljanja uvijek se prvo primjenjuje na kartice koje prekoračuju u drugi dan, a zatim na kartice ponavljanja. Ova postavka određuje kojim će redoslijedom prikupljene kartice biti prikazane, no kartice koje prekoračuju u drugi dan će uvijek biti prikupljene prve.
 deck-config-review-sort-order = Redoslijed sortiranja kartica ponavljanja
+deck-config-review-sort-order-tooltip = Zadani redoslijed daje prednost karticama koje su najdulje čekale tako da će se, ako vam se nakupilo puno ponavljanja, one pojaviti prve. Ako imate velik zaostatak za koji je potrebno više od par dana da se raščisti, ili ako želite vidjeti kartice u redoslijedu podšpila, drugi redoslijedi sortiranja će vam možda više odgovarati.
 deck-config-display-order-will-use-current-deck = Anki će koristiti redoslijed prikaza od špila koji ste odabrali učiti, a ne od njegovih podšpilova.
 
 ## Gather order and sort order of cards – Combobox entries
@@ -160,8 +167,13 @@ deck-config-always-include-question-audio-tooltip = Da li da se uključi zvuk ka
 ## Advanced section
 
 deck-config-advanced-title = Napredno
+deck-config-maximum-interval-tooltip = Maksimalni broj dana koji će kartica ponavljanja čekati. Kad kartica dosegne limit, `Teško`, `Dobro` i `Lako` svi će dati istu odgodu. Što ste ovo postavili kraće, to će vaše radno opterećenje biti veće.
+deck-config-starting-ease-tooltip = Faktor lakoće s kojim počinju nove kartice. Standardno, gumb `Dobro` će na novo naučenoj kartici odgoditi sljedeće ponavljanje za količinu vremena koja je 2,5 puta dulja od prijašnje odgode.
 deck-config-easy-bonus-tooltip = Interval na kartici ponavljanja će se pomnožiti ovim brojem kad je ocijenite s `Lako`.
 deck-config-interval-modifier-tooltip = Svi intervali ponavljanja se množe ovim brojem pa se uz male promjene nad njim Anki može podesiti da bude konzervativniji ili agresivniju u svom raspoređivanju. Pogledajte priručnik prije mijenjanja ove postavke.
+deck-config-hard-interval-tooltip = Broj kojim se množi interval ponavljanja kad se odgovori `Teško`.
+deck-config-new-interval-tooltip = Broj kojim se množi interval ponavljanja kad se odgovori `Ponovno`.
+deck-config-minimum-interval-tooltip = Minimalni interval koji je dan kartici ponavljanja kad se odgovori `Ponovno`.
 deck-config-custom-scheduling-tooltip = Utječe na cijelu kolekciju. Koristite na vlastitu odgovornost!
 
 ## Easy Days section.
@@ -203,16 +215,24 @@ deck-config-revert-button-tooltip = Vrati ovu postavku na zadanu vrijednost?
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Postupanje kao u Anki 2.1.41+
 deck-config-description-new-handling-hint = Tretira unos kao markdown i čisti HTML unos. Kad je uključeno, opis će se također prikazivati na ekranu s čestitkama. Markdown se prikazuje kao tekst u Anki verziji 2.1.40 i niže.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] Nadređeni špil ima limit od { $cards } kartice, što će nadjačati ovaj limit.
+        [few] Nadređeni špil ima limit od { $cards } kartice, što će nadjačati ovaj limit.
+       *[other] Nadređeni špil ima limit od { $cards } kartica, što će nadjačati ovaj limit.
+    }
 deck-config-reviews-too-low =
     { $cards ->
         [one] Ako dodajete { $cards } novu karticu svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
         [few] Ako dodajete { $cards } nove kartice svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
        *[other] Ako dodajete { $cards } novih kartica svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
     }
+deck-config-maximum-answer-secs-above-recommended = Anki može učinkovitije rasporediti vaša ponavljanja ako svako pitanje zadržite kratkim.
 deck-config-too-short-maximum-interval = Ne preporučuje se maksimalni interval kraći od 6 mjeseci.
 deck-config-ignore-before-info = (Otprilike) { $included }/{ $totalCards } kartica će se koristiti za optimizaciju FSRS parametara.
 
@@ -245,6 +265,12 @@ deck-config-steps-too-large-for-fsrs = Kad je FSRS uključen, ne preporučuju se
 deck-config-get-params = Dobij parametre
 deck-config-complete = { $num }% dovršeno.
 deck-config-iterations = Iteracija: { $count }...
+deck-config-reschedule-cards-on-change = Prerasporedi kartice pri promjeni
+deck-config-fsrs-tooltip =
+    Utječe na cijelu kolekciju.
+    
+    FSRS (Free Spaced Repetition Scheduler) je alternativa Ankijevom starom SuperMemo 2 (SM-2) algoritmu.
+    Preciznijim određivanjem toga kad ćete zaboraviti karticu, može vam pomoći zapamtiti više materijala u istom vremenu. Svi predlošci dijele ovu postavku.
 deck-config-desired-retention-tooltip2 = Vrijednosti radnog opterećenja koje pruža informacijski okvir gruba su aproksimacija. Za veću razinu točnosti koristite simulator.
 deck-config-please-save-your-changes-first = Prvo spremite svoje promjene.
 deck-config-workload-factor-unchanged = Što je ova vrijednost viša, to će se češće prikazivati kartice.
