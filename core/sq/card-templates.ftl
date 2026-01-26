@@ -60,3 +60,5 @@ card-templates-this-will-create-card-proceed =
     }
 card-templates-type-boxes-warning = Vetëm një kuti shkrimi për shabllon karte mbështetet.
 card-templates-restore-to-default = Kthe vlerat e paracaktuara
+card-templates-restore-to-default-confirmation = Kjo kthen të gjitha vlerat e paracaktuara ne fushat dhe shabllonët në këtë lloj shënimi, duke hequr hequr të gjitha fushat/shabllonët shtesë, dhe të gjitë silimin e personalizuar. Dëshironi të vazhdoni?
+card-templates-restored-to-default = Lloji shënimit është kthyer në formën originale.
