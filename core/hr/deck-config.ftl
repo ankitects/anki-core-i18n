@@ -23,6 +23,10 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip = Maksimalni broj kartica ponavljanja koji će se prikazati u jednom danu, ako ima kartica koje su spremne za ponavljanje.
 deck-config-limit-deck-v3 = Prilikom učenja špila koji ima podšpilove, limiti postavljeni na svakom podšpilu kontroliraju maksimalni broj karata sabranih iz tog određenog špila. Limiti odabranog špila kontroliraju ukupan broj kartica koje će biti prikazane.
 deck-config-limit-new-bound-by-reviews = Limit ponavljanja utječe na limit novih kartica. Na primjer, ako je vaš limit ponavljanja postavljen na 200, a čeka vas 190 ponavljanja, bit će uvedeno maksimalno 10 novih kartica. Ako je vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
+deck-config-tab-description =
+    - `Predložak`: Ovaj se limit primjenjuje na sve špilove koji koriste ovaj predložak.
+    - `Ovaj špil`: Limit se primjenjuje samo na ovaj špil.
+    - `Samo danas`: Napravi privremenu promjenu limita samo za ovaj špil.
 deck-config-new-cards-ignore-review-limit = Nove kartice ignoriraju limit ponavljanja
 deck-config-new-cards-ignore-review-limit-tooltip = Prema zadanim postavkama, limit ponavljanja primjenjuje se i na nove kartice pa se stoga nove kartice neće se prikazivati ​​kada se dosegne limit ponavljanja. Ako je ova opcija omogućena, nove kartice će se prikazivati ​​bez obzira na limit ponavljanja.
 deck-config-apply-all-parent-limits = Limiti počinju od vrha
@@ -41,6 +45,9 @@ deck-config-today-only = Samo danas
 ## New Cards section
 
 deck-config-learning-steps = Koraci učenja
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Odgode su obično minute `1min` ili dani (npr. `2d`), no podržani su i sati (npr. `1h`) i sekunde (npr. `30s`).
+deck-config-learning-steps-tooltip = Jedna ili više odgoda odvojenih zarezom. Prva odgoda bit će korištena kad pritisnete gumb `Ponovno` na novoj kartici i standardno je postavljena na 1 minutu. Gumb `Dobro` napreduje na sljedeći korak koji je standardno postavljen na 10 minuta. Nakon što se prođe kroz sve korake, kartica postaje kartica ponavljanja i pojavit će se neki drugi dan. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se pritisne gumb `Dobro` u posljednjem koraku učenja.
 deck-config-easy-interval-tooltip = Koliko dana da se čeka prije ponovnog prikazivanja kartice nakon što se klikom na gumb `Lako` odmah ukloni karta iz učenja.
 deck-config-new-insertion-order = Poredak umetanja
@@ -51,6 +58,7 @@ deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je
 ## Lapses section
 
 deck-config-relearning-steps = Koraci za ponovno učenje
+deck-config-relearning-steps-tooltip = Nula ili više odgoda odvojenih zarezom. Standardno, ako se na kartici ponavljanja pritisne na gumb `Ponovno`, ona će se ponovno pojaviti za 10 minuta. Ako nije zadana nijedna odgoda, promijenit će se kartičin interval bez da uđe u ponovno učenje. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = Broj puta koliko se `Ponovno` mora pritisnuti na kartici ponavljanja prije nego što se označi kao pijavica (pijavice su kartice koje vam oduzimaju puno vremena). Kada je kartica označena kao pijavica, dobra je ideja preformulirati je, izbrisati je ili smisliti mnemotehniku ​​koja će vam pomoći da je zapamtite.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -62,6 +70,8 @@ deck-config-leech-action-tooltip =
 
 deck-config-bury-title = Zakapanje
 deck-config-bury-new-tooltip = Da li će druge `nove` kartice od iste bilješke (npr. obratne kartice, susjedne kartice na nadopunjavanje) biti odgođene na sljedeći dan.
+deck-config-bury-review-tooltip = Da li će druge kartice `za ponavljanje` od iste bilješke biti odgođene na sljedeći dan.
+deck-config-bury-interday-learning-tooltip = Da li će druge kartice `za učenje` od iste bilješke s intervalima većim od 1 dana biti odgođene na sljedeći dan.
 
 ## Gather order and sort order of cards
 
