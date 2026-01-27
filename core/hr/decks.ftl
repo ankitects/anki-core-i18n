@@ -3,6 +3,7 @@ decks-build = Izradi
 decks-cards-selected-by = kartica, odabranih po
 decks-create-deck = Stvori špil
 decks_create_even_if_empty = Stvori/ažuriraj ovaj špil čak i ako je prazan
+decks-custom-steps-in-minutes = Koraci po izboru (u minutama)
 decks-deck = Špil
 decks-delete-deck = Obriši špil
 decks-enable-second-filter = Omogući drugi filtar
@@ -14,6 +15,8 @@ decks-limit-to = Ograniči na
 decks-new-deck-name = Naziv novog špila:
 decks-no-deck = [nijedan špil]
 decks-please-select-something = Odaberite nešto.
+# e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
+decks-delay-for-button = Odgoda za { $button }
 decks-reschedule-cards-based-on-my-answers = Prerasporedi kartice na temelju mojih odgovora u ovom špilu
 decks-study = Uči
 decks-study-deck = Uči špil

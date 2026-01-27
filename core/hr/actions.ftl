@@ -35,6 +35,7 @@ actions-new = Novo
 actions-new-name = Novi naziv:
 actions-options = Postavke
 actions-options-for = Postavke za { $val }
+actions-preview = Pregled
 actions-rebuild = Ponovno izgradi
 actions-rename = Preimenuj
 actions-rename-deck = Preimenuj špil
@@ -59,6 +60,7 @@ actions-update-note = Ažuriraj bilješku
 actions-update-card = Ažuriraj karticu
 actions-update-deck = Ažuriraj špil
 actions-forget-card = Resetiraj karticu
+actions-build-filtered-deck = Sastavi špil
 actions-add-notetype = Dodaj vrstu bilješke
 actions-remove-notetype = Ukloni vrstu bilješke
 actions-update-notetype = Ažuriraj vrstu bilješke
@@ -69,6 +71,7 @@ actions-previous-card-info = Informacije o prethodnoj kartici
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Način rada preko cijelog zaslona nije podržan za vaš upravljački program za video. Pokušajte se prebaciti na drugi način sa zaslona postavki.
+actions-flag-number = Zastavica { $number }
 
 ## The same translation may used for two independent actions:
 ## searching for cards with a flag of the specified color, and

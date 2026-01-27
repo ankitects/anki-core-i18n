@@ -90,6 +90,9 @@ scheduling-buried-cards-found = Neke kartice su zakopane te će sutra biti prika
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = ih otkopati
 scheduling-how-to-custom-study = Ako želite učiti izvan uobičajenog rasporeda, možete koristiti mogućnost { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = učenje po mjeri
 
 ## Scheduler upgrade
 
@@ -110,8 +113,10 @@ scheduling-automatically-play-audio = Automatska reprodukcija zvučnog zapisa
 scheduling-days = dana
 scheduling-description = Opis
 scheduling-easy-bonus = Bonus za "Lako"
+scheduling-easy-interval = Interval za lagane
 scheduling-end = (kraj)
 scheduling-general = Općenito
+scheduling-hard-interval = Interval za teške
 scheduling-ignore-answer-times-longer-than = Ignoriraj vremena odgovora duža od
 scheduling-interval-modifier = Modifikator intervala
 scheduling-learning = Učenje
@@ -144,6 +149,7 @@ scheduling-steps-in-minutes = Koraka (u minutama)
 scheduling-steps-must-be-numbers = Koraci moraju biti brojevi.
 scheduling-tag-only = Samo oznaka
 scheduling-the-default-configuration-cant-be-removed = Standardna konfiguracija se ne može ukloniti.
+scheduling-your-changes-will-affect-multiple-decks = Vaše će promjene utjecati na više špilova. Ako želite promijeniti samo trenutni špil, prvo dodajte novu grupu opcija.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } špil aktualiziran.
