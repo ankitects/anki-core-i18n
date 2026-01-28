@@ -34,7 +34,7 @@ decks-zero-minutes-hint = (0 = вернуть карточку в исходну
 # Combobox entry: Sort the cards by the date they were added, in ascending order (oldest to newest)
 decks-order-added = В порядке добавления
 # Combobox entry: Sort the cards by the date they were added, in descending order (newest to oldest)
-decks-latest-added-first = Сначала последнее добавление
+decks-latest-added-first = Сначала последние добавленные
 # Combobox entry: Sort the cards by due date, in ascending order (oldest due date to newest)
 decks-order-due = По расписанию повторения
 # Combobox entry: Sort the cards by the number of lapses, in descending order (most lapses to least lapses)
