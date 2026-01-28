@@ -1,3 +1,7 @@
+# The date a card will be ready to review
+statistics-due-date = Na redu
+# The count of cards waiting to be reviewed
+statistics-due-count = Na redu
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Nova #{ $number }
 
@@ -168,6 +172,8 @@ statistics-card-difficulty-tooltip =
         [few] { $cards } kartice s { $percent } teškoće
        *[other] { $cards } kartica s { $percent } teškoće
     }
+statistics-future-due-title = Prognoza
+statistics-future-due-subtitle = Broj ponavljanja planiranih u budućnosti.
 statistics-added-title = Dodano
 statistics-added-subtitle = Broj novo dodanih kartica.
 statistics-reviews-count-subtitle = Broj odgovorenih pitanja.
@@ -198,6 +204,12 @@ statistics-days-ago-single =
     }
 statistics-days-ago-range = Pred { $daysStart }-{ $daysEnd } dana
 statistics-running-total = Tekući ukupni rezultat
+statistics-cards-due =
+    { $cards ->
+        [one] { $cards } kartica na redu
+        [few] { $cards } kartice na redu
+       *[other] { $cards } kartica na redu
+    }
 statistics-intervals-title = Intervali ponavljanja
 statistics-intervals-day-range =
     { $cards ->

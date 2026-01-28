@@ -24,6 +24,8 @@ decks-study-deck = Uči špil
 decks-filtered-deck-search-empty = Nijedna kartica ne odgovara navedenom pretraživanju. Neke su kartice možda isključene jer se nalaze u drugom filtriranom špilu ili su suspendirane.
 decks-unmovable-cards = Pokaži isključene kartice
 decks-learn-header = Učenje
+# The count of cards waiting to be reviewed
+decks-review-header = Na redu
 decks-zero-minutes-hint = (0 = vrati karticu u izvorni špil)
 
 ## Sort order of cards
