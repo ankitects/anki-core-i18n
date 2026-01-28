@@ -286,7 +286,12 @@ deck-config-fsrs-tooltip =
 deck-config-desired-retention-tooltip = Anki po zadanome raspoređuje kartice tako da imate 90% vjerojatnost da ih se sjetite kad se ponovno pojave za ponavljanje. Ako povećate ovu vrijednost, Anki će učestalije prikazivati kartice kako bi povećao vjerojatnost da ih se sjetite. Ako smanjite vrijednost, Anki će rjeđe prikazivati kartice pa ćete ih više zaboraviti. Budite konzervativni kad mijenjate ovu vrijednost - veće vrijednosti će mnogo povećati vaše radno opterećenje, a manje vrijednosti mogu biti obeshrabrujuće kad zaboravite mnogo štiva.
 deck-config-desired-retention-tooltip2 = Vrijednosti radnog opterećenja koje pruža informacijski okvir gruba su aproksimacija. Za veću razinu točnosti koristite simulator.
 deck-config-please-save-your-changes-first = Prvo spremite svoje promjene.
+deck-config-workload-factor-change =
+    Približno radno opterećenje: { $factor }x
+    (u usporedbi s { $previousDR }% željenom retencijom)
 deck-config-workload-factor-unchanged = Što je ova vrijednost viša, to će se češće prikazivati kartice.
+deck-config-desired-retention-too-low = Vaša željena retencija je vrlo niska, što može dovesti do vrlo dugih intervala.
+deck-config-desired-retention-too-high = Vaša željena retencija je vrlo visoka, što može dovesti do vrlo kratkih intervala.
 deck-config-percent-of-reviews = { $pct }% od { $reviews } ponavljanja
 deck-config-percent-input = { $pct }%
 # This message appears during FSRS parameter optimization.
@@ -301,10 +306,12 @@ deck-config-answer-again = Odgovori "Ponovno"
 deck-config-answer-hard = Odgovori "Teško"
 deck-config-answer-good = Odgovori "Dobro"
 deck-config-days-to-simulate = Broj dana za simulirati
+deck-config-desired-retention-below-optimal = Vaša željena retencija je ispod optimalne razine. Preporučuje se povisiti je.
 # Description of the y axis in the FSRS simulation
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = FSRS simulator (eksperimentalno)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS simulator željene retencije (eksperimentalno)
 deck-config-fsrs-simulate-save-preset = Nakon optimizacije, spremite predložak špila prije pokretanja simulatora.Nakon optimizacije, spremite predložak špila prije pokretanja simulatora.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Pomozi mi odlučiti (eksperimentalno)
 deck-config-additional-new-cards-to-simulate = Dodatne nove kartice za simulaciju

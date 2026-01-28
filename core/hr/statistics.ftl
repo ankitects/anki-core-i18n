@@ -124,6 +124,8 @@ statistics-counts-separate-suspended-buried-cards = Razdvoji suspendirane/pokopa
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
+statistics-true-retention-title = Retencija
+statistics-true-retention-tooltip = Ako koristite FSRS, očekuje se da će vaša retencija biti blizu željene retencije. Imajte na umu da podaci za pojedini dan imaju mnogo šuma pa je bolje gledati podatke za cijeli mjesec.
 statistics-true-retention-pass = Prolaz
 statistics-true-retention-fail = Pad
 # This will usually be the same as statistics-counts-total-cards
