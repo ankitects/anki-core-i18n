@@ -23,7 +23,7 @@ deck-config-new-limit-tooltip =
 deck-config-review-limit-tooltip = Maksimalni broj kartica ponavljanja koji će se prikazati u jednom danu, ako ima kartica koje su spremne za ponavljanje.
 deck-config-limit-deck-v3 = Prilikom učenja špila koji ima podšpilove, limiti postavljeni na svakom podšpilu kontroliraju maksimalni broj karata sabranih iz tog određenog špila. Limiti odabranog špila kontroliraju ukupan broj kartica koje će biti prikazane.
 deck-config-limit-new-bound-by-reviews = Limit ponavljanja utječe na limit novih kartica. Na primjer, ako je vaš limit ponavljanja postavljen na 200, a čeka vas 190 ponavljanja, bit će uvedeno maksimalno 10 novih kartica. Ako je vaše ograničenje pregleda dosegnuto, neće se prikazivati ​​nove kartice.
-deck-config-limit-interday-bound-by-reviews = Limit ponavljanja također utječe na kartice koje prekoračuju u sljedeći dan. Prilikom primjene limita, kartice koje prekoračuju u sljedeći dan se sakupljaju prve, a onda kartice ponavljanja.
+deck-config-limit-interday-bound-by-reviews = Limit ponavljanja također utječe na kartice koje prekoračuju u sljedeći dan. Prilikom primjene limita, kartice koje prekoračuju u sljedeći dan se sabiru prve, a onda kartice ponavljanja.
 deck-config-tab-description =
     - `Predložak`: Ovaj se limit primjenjuje na sve špilove koji koriste ovaj predložak.
     - `Ovaj špil`: Limit se primjenjuje samo na ovaj špil.
@@ -54,7 +54,7 @@ deck-config-easy-interval-tooltip = Koliko dana da se čeka prije ponovnog prika
 deck-config-new-insertion-order = Poredak umetanja
 deck-config-new-insertion-order-sequential = Sekvencijalno (prvo najstarije kartice)
 deck-config-new-insertion-order-random = Nasumično
-deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je postaviti ovu postavku na "sekvencijalno" i umjesto toga prilagoditi redoslijed prikupljanja novih kartica.
+deck-config-new-insertion-order-random-with-v3 = S v3 raspoređivačem, bolje je postaviti ovu postavku na "sekvencijalno" i umjesto toga prilagoditi redoslijed sabiranja novih kartica.
 
 ## Lapses section
 
@@ -70,9 +70,17 @@ deck-config-leech-action-tooltip =
 ## Burying section
 
 deck-config-bury-title = Zakapanje
+deck-config-bury-new-siblings = Zakopaj nove srodne kartice
+deck-config-bury-review-siblings = Zakopaj srodne kartice ponavljanja
+deck-config-bury-interday-learning-siblings = Zakopaj srodne kartice učenja koje prekoračuju u idući dan
 deck-config-bury-new-tooltip = Da li će druge `nove` kartice od iste bilješke (npr. obratne kartice, susjedne kartice na nadopunjavanje) biti odgođene na sljedeći dan.
 deck-config-bury-review-tooltip = Da li će druge kartice `za ponavljanje` od iste bilješke biti odgođene na sljedeći dan.
 deck-config-bury-interday-learning-tooltip = Da li će druge kartice `za učenje` od iste bilješke s intervalima većim od 1 dana biti odgođene na sljedeći dan.
+deck-config-bury-priority-tooltip =
+    Kad Anki sabire kartice, prvo sabire kartice koje ne prekoračuju u idući dan, zatim one koje prekoračuju, zatim kartice ponavljanja te naposljetku nove kartice. Ovo utječe na to kako funkcionira zakapanje:
+    
+    - Ako su sve opcije zakapanja uključene, bit će prikazana srodna kartica koja se pojavljuje prva u tom popisu. Na primjer, prikazat će se kartica ponavljanja radije nego nova kartica.
+    - Srodne kartice na popisu ne mogu zakopati ranije tipove kartica. Na primjer, ako isključite zakapanje novih kartica i učite novu karticu, ona neće zakopati nijednu karticu koja prekoračuje u idući dan niti kartice ponavljanja. Može se dogoditi da vidite i srodnu karticu ponavljanja i novu srodnu karticu u istoj sesiji.
 
 ## Gather order and sort order of cards
 
@@ -85,7 +93,7 @@ deck-config-interday-step-priority = Redoslijed učenja/ponavljanja između dana
 deck-config-interday-step-priority-tooltip =
     Kad pokazati kartice (ponovnog) učenja koje prekoračuju u drugi dan.
     
-    Limit ponavljanja uvijek se prvo primjenjuje na kartice koje prekoračuju u drugi dan, a zatim na kartice ponavljanja. Ova postavka određuje kojim će redoslijedom prikupljene kartice biti prikazane, no kartice koje prekoračuju u drugi dan će uvijek biti prikupljene prve.
+    Limit ponavljanja uvijek se prvo primjenjuje na kartice koje prekoračuju u drugi dan, a zatim na kartice ponavljanja. Ova postavka određuje kojim će redoslijedom sabrane kartice biti prikazane, no kartice koje prekoračuju u drugi dan će uvijek biti sabrane prve.
 deck-config-review-sort-order = Redoslijed sortiranja kartica ponavljanja
 deck-config-review-sort-order-tooltip = Zadani redoslijed daje prednost karticama koje su najdulje čekale tako da će se, ako vam se nakupilo puno ponavljanja, one pojaviti prve. Ako imate velik zaostatak za koji je potrebno više od par dana da se raščisti, ili ako želite vidjeti kartice u redoslijedu podšpila, drugi redoslijedi sortiranja će vam možda više odgovarati.
 deck-config-display-order-will-use-current-deck = Anki će koristiti redoslijed prikaza od špila koji ste odabrali učiti, a ne od njegovih podšpilova.

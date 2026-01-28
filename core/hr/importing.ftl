@@ -57,7 +57,7 @@ importing-with-deck-configs = Uvezi predloške špila
 importing-updates = Ažuriranje
 importing-include-reviews-help =
     Ako je omogućeno, uvozit će se i sva prethodna ponavljanja koja je uključio/la autor/ica dijeljenog špila.
-    U suprotnom će se sve kartice uvesti kao nove kartice, a sve će se oznake „pijavice” ili „označeno” ukloniti.
+    U suprotnom će se sve kartice uvesti kao nove kartice, a sve će se oznake „pijavice” ili „markirano” ukloniti.
 importing-with-deck-configs-help =
     Ako je omogućeno, uvozit će se i sve opcije špila koje je autor/ica dijeljenog špila uključio/la.
     U suprotnom će svim špilovima biti dodijeljen zadani predložak.

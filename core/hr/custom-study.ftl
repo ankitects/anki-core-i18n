@@ -1,4 +1,5 @@
 custom-study-must-rename-deck = Prvo preimenujte postojeći špil za učenje po mjeri
+custom-study-all-cards-in-random-order-dont = Sve kartice u nasumičnom redoslijedu (ne preraspoređuj)
 custom-study-all-review-cards-in-random-order = Sve kartice za ponavljanje u nasumičnom redoslijedu
 custom-study-cards = kartice
 custom-study-cards-from-the-deck = kartica iz špila

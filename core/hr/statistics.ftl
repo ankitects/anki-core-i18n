@@ -1,3 +1,6 @@
+# Shown in the Due column of the Browse screen when the card is a new card
+statistics-due-for-new-card = Nova #{ $number }
+
 ## eg 16.8s (3.6 cards/minute)
 
 statistics-cards-per-min = { $cards-per-minute } kartica/minuti
@@ -87,6 +90,7 @@ statistics-memorized =
        *[other] { $memorized } kartica zapamćeno
     }
 statistics-today-title = Danas
+statistics-today-again-count = Broj "Ponovno":
 statistics-today-type-counts = Učenje: { $learnCount }, ponavljanje: { $reviewCount }, povovno učenje: { $relearnCount }, filtrirano: { $filteredCount }
 statistics-today-no-cards = Danas niste učili nijednu karticu.
 statistics-today-no-mature-cards = Danas niste učili nijednu zrelu karticu.

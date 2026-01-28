@@ -15,6 +15,7 @@ decks-limit-to = Ograniči na
 decks-new-deck-name = Naziv novog špila:
 decks-no-deck = [nijedan špil]
 decks-please-select-something = Odaberite nešto.
+decks-repeat-failed-cards-after = Odgodi opetovano krivo odgovorene kartice nakon
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
 decks-delay-for-button = Odgoda za { $button }
 decks-reschedule-cards-based-on-my-answers = Prerasporedi kartice na temelju mojih odgovora u ovom špilu
