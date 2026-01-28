@@ -279,6 +279,7 @@ deck-config-fsrs-tooltip =
     
     FSRS (Free Spaced Repetition Scheduler) je alternativa Ankijevom starom SuperMemo 2 (SM-2) algoritmu.
     Preciznijim određivanjem toga kad ćete zaboraviti karticu, može vam pomoći zapamtiti više materijala u istom vremenu. Svi predlošci dijele ovu postavku.
+deck-config-desired-retention-tooltip = Anki po zadanome raspoređuje kartice tako da imate 90% vjerojatnost da ih se sjetite kad se ponovno pojave za ponavljanje. Ako povećate ovu vrijednost, Anki će učestalije prikazivati kartice kako bi povećao vjerojatnost da ih se sjetite. Ako smanjite vrijednost, Anki će rjeđe prikazivati kartice pa ćete ih više zaboraviti. Budite konzervativni kad mijenjate ovu vrijednost - veće vrijednosti će mnogo povećati vaše radno opterećenje, a manje vrijednosti mogu biti obeshrabrujuće kad zaboravite mnogo štiva.
 deck-config-desired-retention-tooltip2 = Vrijednosti radnog opterećenja koje pruža informacijski okvir gruba su aproksimacija. Za veću razinu točnosti koristite simulator.
 deck-config-please-save-your-changes-first = Prvo spremite svoje promjene.
 deck-config-workload-factor-unchanged = Što je ova vrijednost viša, to će se češće prikazivati kartice.
