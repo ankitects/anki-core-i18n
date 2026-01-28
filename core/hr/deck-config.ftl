@@ -140,6 +140,10 @@ deck-config-sort-order-descending-ease = Lakoća (silazno)
 deck-config-sort-order-ascending-difficulty = Prvo lagane kartice
 # Sort the cards by difficulty, in descending order (hardest to easiest).
 deck-config-sort-order-descending-difficulty = Prvo teške kartice
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Vjerojatnost prisjećanja (uzlazno)
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Vjerojatnost prisjećanja (silazno)
 
 ## Timer section
 
