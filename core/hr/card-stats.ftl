@@ -32,6 +32,7 @@ card-stats-fsrs-forgetting-curve-first-week = Prvi tjedan
 card-stats-fsrs-forgetting-curve-first-month = Prvi mjesec
 card-stats-fsrs-forgetting-curve-first-year = Prva godina
 card-stats-fsrs-forgetting-curve-all-time = Sva vremena
+card-stats-fsrs-forgetting-curve-desired-retention = Željena retencija
 
 ## Window Titles
 

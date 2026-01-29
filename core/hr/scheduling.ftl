@@ -118,6 +118,7 @@ scheduling-easy-bonus = Bonus za "Lako"
 scheduling-easy-interval = Interval za lagane
 scheduling-end = (kraj)
 scheduling-general = Općenito
+scheduling-graduating-interval = Interval apsolviranja
 scheduling-hard-interval = Interval za teške
 scheduling-ignore-answer-times-longer-than = Ignoriraj vremena odgovora duža od
 scheduling-interval-modifier = Modifikator intervala

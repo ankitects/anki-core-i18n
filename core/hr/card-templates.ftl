@@ -35,6 +35,7 @@ card-templates-browser-appearance = Izgled preglednika...
 card-templates-card = Kartica { $val }
 card-templates-card-types-for = Vrste kartica za { $val }
 card-templates-cloze = Nadopunjavanje { $val }
+card-templates-deck-override = Nadjačaj špil...
 card-templates-copy-info = Kopiraj informacije u međuspremnik
 card-templates-delete-the-as-card-type-and = Izbrisati vrstu kartice '{ $template }' i njezine { $cards }?
 card-templates-enter-deck-to-place-new = Unesite špil za spremanje novih { $val } karata, ili ostavite prazno:

@@ -244,6 +244,8 @@ deck-config-reviews-too-low =
         [few] Ako dodajete { $cards } nove kartice svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
        *[other] Ako dodajete { $cards } novih kartica svaki dan, vaš limit ponavljanja bi trebao biti barem { $expected }.
     }
+deck-config-learning-step-above-graduating-interval = Interval apsolviranja treba biti jednako dug ili dulji od vašeg zadnjeg koraka učenja.
+deck-config-good-above-easy = Interval za lagane treba biti jednako dug ili dulji od intervala apsolviranja.
 deck-config-maximum-answer-secs-above-recommended = Anki može učinkovitije rasporediti vaša ponavljanja ako svako pitanje zadržite kratkim.
 deck-config-too-short-maximum-interval = Ne preporučuje se maksimalni interval kraći od 6 mjeseci.
 deck-config-ignore-before-info = (Otprilike) { $included }/{ $totalCards } kartica će se koristiti za optimizaciju FSRS parametara.
@@ -270,9 +272,12 @@ deck-config-optimize-button = Optimiziraj trenutni predložak
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (sporo)
 deck-config-compute-button = Izračunaj
-deck-config-ignore-before = Ignoriraj ranije ponovljene kartice
+deck-config-ignore-before = Ignoriraj kartice ponovljene prije
 deck-config-time-to-optimize = Prošlo je dosta vremena - preporuča se korištenje gumba ''{ deck-config-save-and-optimize }".
 deck-config-evaluate-button = Evaluiraj
+deck-config-desired-retention = Željena retencija
+deck-config-historical-retention = Povijesna retencija
+deck-config-smaller-is-better = Manji brojevi ukazuju na bolje poklapanje s vašom povijesti ponavljanja.
 deck-config-steps-too-large-for-fsrs = Kad je FSRS uključen, ne preporučuju se koraci od jednog dana ili dulje.
 deck-config-get-params = Dobij parametre
 deck-config-complete = { $num }% dovršeno.
@@ -285,6 +290,19 @@ deck-config-fsrs-tooltip =
     Preciznijim određivanjem toga kad ćete zaboraviti karticu, može vam pomoći zapamtiti više materijala u istom vremenu. Svi predlošci dijele ovu postavku.
 deck-config-desired-retention-tooltip = Anki po zadanome raspoređuje kartice tako da imate 90% vjerojatnost da ih se sjetite kad se ponovno pojave za ponavljanje. Ako povećate ovu vrijednost, Anki će učestalije prikazivati kartice kako bi povećao vjerojatnost da ih se sjetite. Ako smanjite vrijednost, Anki će rjeđe prikazivati kartice pa ćete ih više zaboraviti. Budite konzervativni kad mijenjate ovu vrijednost - veće vrijednosti će mnogo povećati vaše radno opterećenje, a manje vrijednosti mogu biti obeshrabrujuće kad zaboravite mnogo štiva.
 deck-config-desired-retention-tooltip2 = Vrijednosti radnog opterećenja koje pruža informacijski okvir gruba su aproksimacija. Za veću razinu točnosti koristite simulator.
+deck-config-historical-retention-tooltip =
+    Kad dio vaše povijesti ponavljanja nedostaje, FSRS mora popuniti praznine. Po zadanim postavkama, pretpostavit će da ste se sjetili 90% štiva kad ste obavljali ta stara ponavljanja. Ako je vaša stara retencija bila znatno viša ili niža od 90%, podešavanje ove postavke omogućit će da FSRS bolje aproksimira nedostajuća ponavljanja.
+    
+    Vaša povijest ponavljanja može biti nepotpuna iz dva razloga:
+    1. Jer ste koristili opciju 'ignoriraj kartice ponovljene prije'.
+    2. Jer ste prije izbrisali zapisnike ponavljanja kako biste oslobodili mjesta ili jer ste uvezli štivo iz drugog SRS programa.
+    
+    Drugi razlog je prilično rijedak pa ako niste koristili prethodno spomenutu opciju, vjerojatno ne morate podešavati ovu postavku.
+deck-config-compute-optimal-weights-tooltip2 =
+    Kad pritisnete gumb Optimiziraj, FSRS će analizirati vašu povijest ponavljanja i generirati parametre koji su optimalni za vaše sjećanje i za sadržaj koji učite. Ako vaši špilovi imaju vrlo različite subjektivne težine, preporučuje se dodijeliti im različite predloške jer će parametri za lake i teške špilove biti drugačiji.
+    Nije potrebno često optimizirati parametre - jednom svakih par mjeseci je dovoljno.
+    
+    Po zadanim postavkama, parametri će biti izračunati iz povijesti ponavljanja svih špilova koji koriste trenutni predložak. Ako želite, možete podesiti pretraživanje prije izračuna parametara ako želite promijeniti koje će kartice biti korištene za optimizaciju parametara.
 deck-config-please-save-your-changes-first = Prvo spremite svoje promjene.
 deck-config-workload-factor-change =
     Približno radno opterećenje: { $factor }x
@@ -327,6 +345,18 @@ deck-config-fsrs-simulator-ratio-tooltip = { $time } po zapamćenoj kartici
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Provjeri zdravlje pri optimizaciji
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Provjera zdravlja:
+    FSRS teško predviđa vaše pamćenje. Preporuke:
+    
+    - Suspendirajte ili preformulirajte kartice koje stalno zaboravljate.
+    - Koristite gumbe za odgovor na konzistentan način. Imajte na umu da je "Teško" prolazna ocjena, a ne pad.
+    - Razumijte prije nego pokušate zapamtiti.
+    
+    Ako slijedite ove prijedloge, rezultati obično porastu kroz sljedećih par mjeseci.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

@@ -212,7 +212,9 @@ statistics-cards-due =
         [few] { $cards } kartice na redu
        *[other] { $cards } kartica na redu
     }
+statistics-backlog-checkbox = Zaostatak
 statistics-intervals-title = Intervali ponavljanja
+statistics-intervals-subtitle = Odgode nakon kojih se ponovno prikazuju kartice ponavljanja.
 statistics-intervals-day-range =
     { $cards ->
         [one] { $cards } kartica s intervalom od { $daysStart }~{ $daysEnd } dana
