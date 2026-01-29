@@ -87,6 +87,19 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Redoslijed prikaza
 deck-config-new-gather-priority = Redoslijed sabiranja novih kartica
 deck-config-new-card-sort-order = Redoslijed sortiranja novih kartica
+deck-config-new-card-sort-order-tooltip-2 =
+    `Tip kartice, zatim redoslijed sabiranja`: prikazuje kartice poredane po broju njihovog tipa kartice.
+    Kartice svakog tipa kartice prikazane su redoslijedom kojim su sabrane. 
+    Ako je zakapanje srodnih kartica isključeno, ovo će osigurati da su sve kartice vrste "prednja strana→poleđina" viđene prije ijedne kartice vrste "poleđina→prednja strana".
+    Ovo je korisno kako bi se imalo sve kartice iste bilješke u istoj sesiji, ali da ne budu preblizu jedna drugoj.
+    
+    `Redoslijed sabiranja`: Prikazuje kartice točno onako kako su sabrane. Ako je zakapanje srodnih kartica isključeno, ovo obično rezultira time da se sve kartice iste bilješke prikažu jedna za drugom.
+    
+    `Vrsta kartice, zatim nasumično`: Prikazuje kartice poredane po broju tipa kartice. Kartice istog broja tipa kartice prikazane su nasumičnim redoslijedom. Ovaj redoslijed je koristan ako ne želite da se srodne kartice pojave jedna preblizu drugoj, ali da i dalje želite da se kartice pojavljuju nasumičnim redoslijedom.
+    
+    `Nasumična bilješka, zatim tip kartice`: Nasumično odabire bilješke, zatim prikazuje sve njihove kartice po redu.
+    
+    `Nasumično`: Prikazuje kartice nasumičnim redoslijedom.
 deck-config-new-review-priority = Redoslijed novih/ponavljanja
 deck-config-new-review-priority-tooltip = Kad da se prikažu nove karticu u odnosu na kartice ponavljanja.
 deck-config-interday-step-priority = Redoslijed učenja/ponavljanja između dana
