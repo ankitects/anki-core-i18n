@@ -93,7 +93,7 @@ browsing-sidebar = Боковая панель
 browsing-sidebar-filter = Фильтр боковой панели
 # The field that is used for sorting (sort is an adjective here, not a verb)
 browsing-sort-field = Поле сортировки
-browsing-sorting-on-this-column-is-not = Невозможно сортировать данную колонку. Выберите другую.
+browsing-sorting-on-this-column-is-not = Невозможно сортировать данный столбец. Выберите другой.
 browsing-start-position = Начальная позиция:
 browsing-step = Шаг:
 browsing-suspended = Исключённые
