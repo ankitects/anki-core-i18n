@@ -8,8 +8,8 @@ browsing-answer = Ответ
 browsing-any-flag = Любой флажок
 browsing-average-ease = Средняя лёгкость
 browsing-average-interval = Средний интервал
-browsing-browser-appearance = Вид в списке карточек
-browsing-browser-options = Параметры списка карточек
+browsing-browser-appearance = Вид в окне "Просмотр"
+browsing-browser-options = Параметры окна "Просмотр"
 browsing-buried = Отложенные
 browsing-card = Карточка
 browsing-cards = Карточки
@@ -107,7 +107,7 @@ browsing-toggle-suspend = Исключить — включить
 browsing-treat-input-as-regular-expression = Регулярное выражение
 browsing-update-saved-search = Обновить поиск
 browsing-whole-collection = Вся коллекция
-browsing-window-title-notes = Список карточек (выбрано { $selected } из { $total } записей)
+browsing-window-title-notes = Просмотр (выбрано { $selected } из { $total } записей)
 browsing-you-must-have-at-least-one = Нужен хотя бы один столбец.
 browsing-group =
     { $count ->
@@ -137,7 +137,7 @@ browsing-cards-updated =
         [many] { $count } карточек обновлено.
        *[other] { $count } карточек обновлено.
     }
-browsing-window-title = Список карточек (выбрано { $selected } из { $total } карт)
+browsing-window-title = Просмотр (выбрано { $selected } из { $total } карт)
 browsing-sidebar-expand = Развернуть
 browsing-sidebar-collapse = Свернуть
 browsing-sidebar-expand-children = Развернуть группу
