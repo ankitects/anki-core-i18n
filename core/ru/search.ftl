@@ -36,4 +36,4 @@ search-card-modified = Карточка изменена
 ##
 
 # Tooltip for search lines outside browser
-search-view-in-browser = Показать в списке
+search-view-in-browser = Показать в браузере
