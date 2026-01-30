@@ -1,8 +1,8 @@
 adding-add-shortcut-ctrlandenter = Добавить запись (Ctrl+Enter)
 adding-added = Успешно добавлено
 adding-discard-current-input = Отказаться от введенных данных?
-adding-keep-editing = Править дальше
-adding-edit = Править "{ $val }"
+adding-keep-editing = Продолжить редактирование
+adding-edit = Редактировать "{ $val }"
 adding-history = История
 adding-note-deleted = (запись удалена)
 adding-shortcut = Горячая клавиша: { $val }
