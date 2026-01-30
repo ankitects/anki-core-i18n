@@ -51,7 +51,6 @@ actions-shortcut-key = Горячая клавиша: { $val }
 actions-suspend-card = Исключить карточку
 actions-set-due-date = Задать срок
 actions-toggle-load-balancer = Выровнять ежедневную нагрузку
-actions-grade-now = Оценить сейчас
 actions-answer-card = Ответ
 actions-unbury-unsuspend = Вернуть/Включить
 actions-add-deck = Добавить колоду
