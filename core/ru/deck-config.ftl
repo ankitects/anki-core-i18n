@@ -48,7 +48,7 @@ deck-config-today-only = Только сегодня
 
 ## New Cards section
 
-deck-config-learning-steps = Шаги изучаемых
+deck-config-learning-steps = Шаги изучения
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Интервалы обычно задаются в минутах (например, `1m`) или днях (`2d`), но их можно также задавать в часах (`1h`) и секундах (`30s`).
 deck-config-learning-steps-tooltip = Один или более интервалов, разделённых пробелами. Первый будет назначен, когда вы нажмёте `Снова` на новой карточке (по умолчанию 1 минута). Нажатие `Хорошо` назначит карточке следующий интервал (по умолчанию 10 минут). Когда карточка пройдёт все шаги, она станет повторяемой и появится в другой день. { -deck-config-delay-hint }
@@ -66,7 +66,7 @@ deck-config-new-insertion-order-random-with-v3 =
 
 ## Lapses section
 
-deck-config-relearning-steps = Шаги переучиваемых
+deck-config-relearning-steps = Шаги переучивания
 deck-config-relearning-steps-tooltip = Ноль или более интервалов, разделённых пробелами. По умолчанию, когда вы нажмёте `Снова` на повторяемой карточке, она будет показана снова через 10 минут. Если интервалы не заданы, её срок изменится без перевода в переучиваемые. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = Количество нажатий `Снова`, после которого повторяемая карточка помечается как приставучая. Такие карточки тратят ваше время, и их стоит переделать, удалить или подкрепить мнемоническим правилом.
 # See actions-suspend-card and scheduling-tag-only for the wording
