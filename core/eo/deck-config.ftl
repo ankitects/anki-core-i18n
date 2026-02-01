@@ -46,6 +46,7 @@ deck-config-learning-steps = Lernpaŝoj
 deck-config-learning-steps-tooltip = Unu aŭ pli intertempoj, disigitaj per spacetoj. La unua intertempo estos uzita, kiam vi alklakos la butonon “Denove” ĉe nova karto, ĝi implicite estas 1 minuto. La butono “Bona” movos karton al la sekva paŝo, kiu implicite estas 10 minutoj.  Kiam ĉiuj paŝoj estos plenumitaj, la karto estiĝos ripeta karto kaj aperos je alia tago. { -deck-config-delay-hint }
 deck-config-graduating-interval-tooltip = Nombro da tagoj por atendi antaŭ ol montri la karton denove, se estis premita la butono `Bona` dum la fina lernpaŝo.
 deck-config-easy-interval-tooltip = La nombra da tagoj por atendi antaŭ ol montri la karton denove, se estis premita la butono `Facila` por senprokraste forigi la karton el lernado.
+deck-config-new-insertion-order = Ordo de enmeto
 deck-config-new-insertion-order-random = hazarde
 
 ## Lapses section
