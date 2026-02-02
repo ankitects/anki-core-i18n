@@ -133,9 +133,11 @@ deck-config-new-review-priority = Urutan baru/ulasan
 deck-config-new-review-priority-tooltip = Menentukan kapan kartu baru ditampilkan dibandingkan dengan kartu ulasan.
 deck-config-interday-step-priority = Urutan pelajaran antar hari/ulasan
 deck-config-interday-step-priority-tooltip =
-    Kapan menampilkan kartu belajar / pengulangan yang melewati batas hari.
+    Menentukan kapan kartu pembelajaran (ulang) yang melewati batas hari akan ditampilkan.
     
-    Batas ulasan selalu diterapkan pertama pada kartu pembelajaran antar hari, lalu kartu ulasan. Opsi ini mengatur urutan kumpulan kartu yang ditampilkan, namun kartu pembelajaran antar hari selalu dikumpulkan terlebih dahulu.
+    Batas ulasan selalu diterapkan terlebih dahulu pada kartu belajar antar hari, 
+    kemudian pada kartu ulasan. Opsi ini mengatur urutan tampilan kartu yang telah dikumpulkan,
+    tetapi kartu belajar antar hari akan selalu dikumpulkan lebih dulu.
 deck-config-review-sort-order = Urutan penyortiran ulasan
 deck-config-review-sort-order-tooltip = Urutan awal memprioritaskan kartu yang paling lama menunggu. Jika tumpukan Anda besar atau ingin melihat kartu berdasarkan subdeck, Anda bisa memilih urutan sortir alternatif.
 deck-config-display-order-will-use-current-deck = Anki akan menggunakan urutan tampilan dari dek pilih untuk dipelajari, bukan subdeknya.
