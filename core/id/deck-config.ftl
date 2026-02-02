@@ -139,8 +139,15 @@ deck-config-interday-step-priority-tooltip =
     kemudian pada kartu ulasan. Opsi ini mengatur urutan tampilan kartu yang telah dikumpulkan,
     tetapi kartu belajar antar hari akan selalu dikumpulkan lebih dulu.
 deck-config-review-sort-order = Urutan penyortiran ulasan
-deck-config-review-sort-order-tooltip = Urutan awal memprioritaskan kartu yang paling lama menunggu. Jika tumpukan Anda besar atau ingin melihat kartu berdasarkan subdeck, Anda bisa memilih urutan sortir alternatif.
-deck-config-display-order-will-use-current-deck = Anki akan menggunakan urutan tampilan dari dek pilih untuk dipelajari, bukan subdeknya.
+deck-config-review-sort-order-tooltip =
+    Secara bawaan, kartu yang telah menunggu paling lama akan diprioritaskan, sehingga 
+    kartu ulasan yang paling lama tertunda akan muncul lebih dulu. 
+    Jika penumpukan ulasan Anda sangat besar atau Anda ingin kartu ditampilkan 
+    berdasarkan urutan sub dek, 
+    opsi pengurutan lain mungkin lebih sesuai.
+deck-config-display-order-will-use-current-deck =
+    Anki akan menggunakan urutan tampilan dari dek yang Anda 
+    pilih untuk dipelajari, bukan dari subdeck yang dimilikinya.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -163,9 +170,9 @@ deck-config-sort-order-random-note-then-template = Catatan acak, lalu tipe kartu
 # Sort the cards randomly.
 deck-config-sort-order-random = Acak
 # Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
-deck-config-sort-order-template-then-gather = Tipe kartu, lalu urut kumpulan
+deck-config-sort-order-template-then-gather = Jenis kartu, lalu urutan pengambilan
 # Sort the cards by the order they were gathered, in ascending order (oldest to newest).
-deck-config-sort-order-gather = Urut kumpulan
+deck-config-sort-order-gather = Urutan pengambilan
 # How new cards or interday learning cards are mixed with review cards.
 deck-config-review-mix-mix-with-reviews = Campur dengan ulasan
 # How new cards or interday learning cards are mixed with review cards.
@@ -175,44 +182,47 @@ deck-config-review-mix-show-before-reviews = Tampilkan sebelum ulasan
 # Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
 deck-config-sort-order-due-date-then-random = Tenggat waktu, lalu acak
 # Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
-deck-config-sort-order-due-date-then-deck = Tenggat waktu, lalu set kartu
+deck-config-sort-order-due-date-then-deck = Tenggat waktu, lalu dek
 # Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
-deck-config-sort-order-deck-then-due-date = Set kartu, lalu tenggat waktu
+deck-config-sort-order-deck-then-due-date = Dek, lalu tenggat waktu
 # Sort the cards by the interval, in ascending order (shortest to longest).
-deck-config-sort-order-ascending-intervals = Jarakan naik
+deck-config-sort-order-ascending-intervals = Interval menaik
 # Sort the cards by the interval, in descending order (longest to shortest).
-deck-config-sort-order-descending-intervals = Jarakan turun
+deck-config-sort-order-descending-intervals = Interval menurun
 # Sort the cards by ease, in ascending order (lowest to highest ease).
-deck-config-sort-order-ascending-ease = Kemudahan naik
+deck-config-sort-order-ascending-ease = Kemudahan menaik
 # Sort the cards by ease, in descending order (highest to lowest ease).
-deck-config-sort-order-descending-ease = Kemudahan turun
+deck-config-sort-order-descending-ease = Kemudahan menurun
 # Sort the cards by difficulty, in ascending order (easiest to hardest).
 deck-config-sort-order-ascending-difficulty = Kartu termudah pertama
 # Sort the cards by difficulty, in descending order (hardest to easiest).
 deck-config-sort-order-descending-difficulty = Kartu tersulit pertama
 # Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
-deck-config-sort-order-retrievability-ascending = Terambilan Naik
+deck-config-sort-order-retrievability-ascending = Keterambilan menaik
 # Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
-deck-config-sort-order-retrievability-descending = Terambilan Turun
+deck-config-sort-order-retrievability-descending = Keterambilan menurun
 
 ## Timer section
 
 deck-config-timer-title = Pengatur Waktu
-deck-config-maximum-answer-secs = Detik maks. jawaban
-deck-config-maximum-answer-secs-tooltip = Jumlah maksimum detik untuk merekam satu ulasan. Jika jawaban melebihi waktu ini (misalnya karena Anda meninggalkan layar), waktu yang tercatat akan menjadi batas ditetapkan.
-deck-config-show-answer-timer-tooltip = tampilkan timer yang menghitung durasi belajar per kartu.
-deck-config-stop-timer-on-answer = Hentikan timer saat jawaban ditampilkan.
+deck-config-maximum-answer-secs = Detik maksimal jawaban
+deck-config-maximum-answer-secs-tooltip =
+    Jumlah detik maksimal yang akan dicatat untuk satu kali ulasan. Jika waktu menjawab 
+    melebihi batas ini (misalnya karena Anda meninggalkan layar), 
+    waktu yang tercatat akan dibatasi pada nilai yang Anda tetapkan.
+deck-config-show-answer-timer-tooltip = Pada layar Belajar, tampilkan pengatur waktu yang menghitung lama waktu Anda mempelajari setiap kartu.
+deck-config-stop-timer-on-answer = Hentikan pengatur waktu saat jawaban ditampilkan.
 deck-config-stop-timer-on-answer-tooltip =
-    Hentikan timer saat jawaban tampil.
-    Statistik tidak terpengaruh
+    Hentikan pengatur waktu saat jawaban ditampilkan.
+    Ini tidak mempengaruhi statistik
 
 ## Auto Advance section
 
 deck-config-seconds-to-show-question = Durasi tampilan pertanyaan (detik)
-deck-config-seconds-to-show-question-tooltip-3 = Saat otomatis maju aktif, jumlah detik ditunggu sebelum aksi pertanyaan diterapkan. Atur 0 untuk non-aktif.
-deck-config-seconds-to-show-answer = Durasi tampil jawaban (detik)
-deck-config-seconds-to-show-answer-tooltip-2 = jeda detik sebelum tindakan jawaban diterapkan (0 untuk nonaktif)
-deck-config-question-action-show-answer = tampilkan jawab
+deck-config-seconds-to-show-question-tooltip-3 = Saat lanjut otomatis diaktifkan, jumlah detik yang ditunggu sebelum menerapkan aksi pertanyaan. Atur ke 0 untuk menonaktifkan.
+deck-config-seconds-to-show-answer = Durasi tampilan jawaban (detik)
+deck-config-seconds-to-show-answer-tooltip-2 = Saat lanjut otomatis diaktifkan, jumlah detik yang ditunggu sebelum menerapkan aksi pertanyaan. Atur ke 0 untuk menonaktifkan.
+deck-config-question-action-show-answer = tampilkan jawaban
 deck-config-question-action-show-reminder = tampilkan pengingat
 deck-config-question-action = Aksi pertanyaan
 
