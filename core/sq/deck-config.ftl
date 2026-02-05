@@ -45,13 +45,23 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     shfaqet kur të arrihet limiti i përsëritjeve. Nëse ky cilësim është lejuar, kartat e reja
     do të shfaqen pavarsisht limitit të përsëritjeve.
 deck-config-apply-all-parent-limits = Limitet fillojnë nga lartë
+deck-config-apply-all-parent-limits-tooltip =
+    Me paracaktim, limiti ditor i një pakoje nuk vlen nëse mësoni nga nënpako.
+    Nëse ky cilësim është i lejuar, në këtë rast limitet do të
+    fillojnë nga pakoja e nivelit më të lartë, e cila mund të jetë e dobishme nëse dëshironi të mësoni nënpakot e vequara,
+    përderisa përforconi një limit total në karta për pemën e pakos.
+deck-config-affects-entire-collection = Ndikon në tërë koleksionin.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
 
+deck-config-shared-preset = E parapregaditur
+deck-config-deck-only = Kjo pako
+deck-config-today-only = Vetëm sot
 
 ## New Cards section
 
+deck-config-learning-steps = Hapat mësimor
 
 ## Lapses section
 
