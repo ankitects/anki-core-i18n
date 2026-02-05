@@ -62,6 +62,8 @@ deck-config-today-only = Vetëm sot
 ## New Cards section
 
 deck-config-learning-steps = Hapat mësimor
+# Please don't translate `1m`, `2d`
+-deck-config-delay-hint = Shtyerjet janë zakonisht minuta (p.sh. `1m`) ose ditë (p.sh. `2d`), por orët (p.sh. `1h`) dhe sekondat (p.sh. `30s`) mbështeten.
 
 ## Lapses section
 
