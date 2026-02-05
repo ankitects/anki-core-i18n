@@ -88,10 +88,98 @@ browsing-selected-notes-only = Einast valde notat
 browsing-shift-position-of-existing-cards = Brigd plassering på eksisterande kort
 browsing-sidebar = Sidestolpe
 browsing-sidebar-filter = Sidestolpesfilter
+# The field that is used for sorting (sort is an adjective here, not a verb)
+browsing-sort-field = Sorteringsfelt
+browsing-sorting-on-this-column-is-not = Å sortera på dette feltet er ikkje støtta. Venlegast vel eit anna felt.
+browsing-start-position = Byrjingsplass:
+browsing-step = Steg:
+browsing-suspended = Suspendert
+browsing-tag-duplicates = Tagga duplikat
+browsing-tag-rename-warning-empty = Du kan ikkje døypa om eit tagg som ikkje har notat.
+browsing-target-field = Målfelt:
+browsing-toggle-bury = Gravlagt
+browsing-toggle-showing-cards-notes = Kort/notat
+browsing-toggle-mark = Merkt
+browsing-toggle-suspend = Suspendert
+browsing-treat-input-as-regular-expression = Handsama inndata som regulæruttrykk
+browsing-update-saved-search = Oppdater med noverande søk
+browsing-whole-collection = Heil samling
+browsing-window-title-notes =
+    { $selected ->
+        [one] Utforska ({ $selected } av { $total } notat valt)
+       *[other] Utforska ({ $selected } av { $total } notat valde)
+    }
+browsing-you-must-have-at-least-one = Du lyt ha minst éi søyle.
+browsing-group =
+    { $count ->
+        [one] { $count } gruppe
+       *[other] { $count } grupper
+    }
+browsing-note-count =
+    { $count ->
+        [one] { $count } notat
+       *[other] { $count } notat
+    }
+browsing-notes-updated =
+    { $count ->
+        [one] { $count } notat oppdatert.
+       *[other] { $count } notat oppdaterte.
+    }
+browsing-cards-updated =
+    { $count ->
+        [one] { $count } kort oppdatert.
+       *[other] { $count } kort oppdaterte.
+    }
+browsing-window-title =
+    { $selected ->
+        [one] Utforska ({ $selected } av { $total } kort valt)
+       *[other] Utforska ({ $selected } av { $total } kort valde)
+    }
+browsing-sidebar-expand = Vida ut
+browsing-sidebar-collapse = Minka
+browsing-sidebar-expand-children = Vida ut born
+browsing-sidebar-collapse-children = Minka born
+browsing-sidebar-decks = Kortstokkar
+browsing-sidebar-tags = Taggar
+browsing-sidebar-notetypes = Notattypar
+browsing-sidebar-saved-searches = Lagra søk
+browsing-sidebar-save-current-search = Lagra noverande søk
+browsing-sidebar-card-state = Kortstatus
+browsing-sidebar-flags = Flagg
+browsing-today = I dag
+browsing-tooltip-card-modified = Den siste gongen endringar vart gjorde på eit kort, inkludert gjennomgangar, flaggingar og kortstokksbytingar
+browsing-tooltip-note-modified = Den siste gongen endringar vart gjorde på eit notat, vanlegvis feltinnhald eller taggbrigdingar
+browsing-tooltip-card = Namnet på kortmalen til eit kort
+browsing-tooltip-cards = Talet på kort eit notat har
+browsing-tooltip-notetype = Namnet på notattypen til eit notat
+browsing-tooltip-question = Forsida til eit kort, tilpasseleg i kortmalsredigeraren
+browsing-tooltip-answer = Baksida til eit kort, tilpasseleg i kortmalsredigeraren
+browsing-studied-today = Studert
+browsing-added-today = Lagt til
+browsing-again-today = Att
+browsing-edited-today = Redigert
+browsing-sidebar-first-review = Fyrste gjennomgang
+browsing-sidebar-rescheduled = Planlagt på nytt
 browsing-sidebar-due-today = Forfell
 browsing-sidebar-untagged = Utagga
 browsing-sidebar-overdue = Uteståande
 browsing-row-deleted = (sletta)
+browsing-removed-unused-tags-count =
+    { $count ->
+        [one] Tok bort { $count } ubruka tagg.
+       *[other] Tok bort { $count } ubruka taggar.
+    }
+browsing-changed-new-position =
+    { $count ->
+        [one] Brigda plassering av { $count } nytt kort.
+       *[other] Brigda plassering av { $count } nye kort.
+    }
+browsing-reparented-decks =
+    { $count ->
+        [one] Døypte om { $count } kortstokk.
+       *[other] Døypte om { $count } kortstokkar.
+    }
+browsing-sidebar-card-state-review = Gjennomgang
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
