@@ -460,14 +460,14 @@ deck-config-fsrs-simulator-ratio-tooltip = { $time } na jedną zapamiętaną kar
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
 # Checkbox
-deck-config-health-check = Sprawdzaj kondycję podczas optymalizacji
+deck-config-health-check = Sprawdź kondycję podczas optymalizacji
 # Message box showing the result of the health check
 deck-config-fsrs-bad-fit-warning =
     Sprawdzenie kondycji:
     Twoja pamięć jest trudna do przewidzenia przez FSRS. Zalecenia:
     
     - Zawieś lub zmodyfikuj fiszki trudne do zapamiętania.
-    - Używaj spójnie przycisków odpowiedzi. Pamiętaj, że „Trudne” to ocena dopuszczająca, nie negatywna.
+    - Używaj spójnie przycisków odpowiedzi. Pamiętaj, że „Trudna” to ocena dopuszczająca, nie negatywna.
     - Staraj się rozumieć materiał, zanim go zapamiętasz.
     
     Jeśli zastosujesz się do tych wskazówek, Twoje wyniki zwykle poprawią się w ciągu kilku miesięcy.
