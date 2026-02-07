@@ -20,7 +20,7 @@ deck-config-title = Opcje talii
 deck-config-daily-limits = Dzienne limity
 deck-config-new-limit-tooltip =
     Maksymalna liczba nowych kart do pokazania na dzień.
-    Ponieważ nowy materiał zwiększy twój krótkoterminowy nakład pracy,
+    Jako, że nowy materiał zwiększy twój krótkoterminowy nakład pracy,
     powinien on być co najmniej 10 razy mniejszy niż ustawiony limit powtórek.
 deck-config-review-limit-tooltip =
     Maksymalna dzienna liczba powtórek,
@@ -72,10 +72,10 @@ deck-config-easy-interval-tooltip = Liczba dni zanim karta zostanie pokazana pon
 deck-config-new-insertion-order = Kolejność wstawiania
 deck-config-new-insertion-order-tooltip =
     Kontroluje pozycję (due #) przypisaną nowym kartom gdy je dodajesz.
-    Karty z niższym numerem będą pokazane najpierw przy nauce. Zmiana
-    tej opcji automatycznie zaktualizuje pozycję istniejących teraz nowych kart.
+    Karty z niższym numerem będą pokazywane w pierwszej kolejności podczas nauki. Zmiana
+    tej opcji automatycznie zaktualizuje pozycję istniejących już nowych kart.
 deck-config-new-insertion-order-sequential = Po kolei (najpierw najstarsze karty)
-deck-config-new-insertion-order-random = Losowy
+deck-config-new-insertion-order-random = Losowa
 deck-config-new-insertion-order-random-with-v3 =
     Przy algorytmie planowania V3, lepiej wybrać "Po kolei"
     i dostosować zbieranie nowych kart.
@@ -83,10 +83,10 @@ deck-config-new-insertion-order-random-with-v3 =
 ## Lapses section
 
 deck-config-relearning-steps = Kroki ponownej nauki
-deck-config-relearning-steps-tooltip = Zero lub więcej przerw, oddzielonych spacjami. Domyślnie naciskając przycisk `Powtórz` na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostana ustalone żadne przerwy, przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = Zero lub więcej przerw, oddzielonych spacjami. Domyślnie naciskając przycisk `Powtórz` na karcie powtórkowej, zostanie ona pokazana 10 minut później. Jeśli nie zostaną ustalone żadne przerwy, przerwa karty zostanie zmieniona, bez przechodzenia do fazy ponownej nauki. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip =
     Ile razy musisz użyć odpowiedzi `Powtórz` zanim powtarzana karta zostanie oznaczona jako pijawka. 
-    Pijawki to karty, których zabiera bardzo dużo twojego czasu. Kiedy karta zostaje oznaczona jako pijawka dobrym pomysłem jest zmienić jej treść, usunąć ją lub pomyśleć nad mnemotechniką, która pomoże ci ją zapamiętać.
+    Pijawki to karty, których  nauka zabiera bardzo dużo twojego czasu. Kiedy karta zostaje oznaczona jako pijawka dobrym pomysłem jest zmienić jej treść, usunąć ją lub pomyśleć nad mnemotechniką, która pomoże ci ją zapamiętać.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     `Tylko tag`: Dodaj tag „leech” — oznaczający kartę często zapominaną
@@ -135,7 +135,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     Jeśli opcja zakopywanie podobnych jest wyłączona, zapewni to, że wszystkie karty przód→tył będą pokazane przed kartami tył→przód.
     Jest to przydatne, aby pokazane zostały wszystkie karty tej samej notatki w tej samej sesji, ale nie zbyt blisko siebie.
     
-    `W zebranej kolejności`: Karty są pokazywane dokładnie w kolejności w jakiej zostały zebrane. Jeśli opcja zakopywanie podobnych jest wyłączona skutkuje to zazwyczaj pokazaniem wszystkich kart jednej notatki po sobie.
+    `Kolejność zebrania`: Karty są pokazywane dokładnie w kolejności, w jakiej zostały zebrane. Jeśli opcja zakopywana podobnych jest wyłączona, skutkuje to zazwyczaj pokazaniem wszystkich kart jednej notatki po sobie.
     
     `Typ karty, następnie losowo`: Karty są pokazywane według numeru typu karty. Karty każdego numeru typu karty są wyświetlane w losowej kolejności. Ta kolejność jest przydatna aby uniknąć pokazywania kart podobnych zbyt blisko siebie. Będą one jednak dalej pokazywane w losowej kolejności.
     
@@ -146,15 +146,15 @@ deck-config-new-review-priority = Kolejność nowych/powtórek
 deck-config-new-review-priority-tooltip = Kiedy pokazywać nowe karty względem kart powtarzanych.
 deck-config-interday-step-priority = Kolejność nauki/powtórek wielodniowych
 deck-config-interday-step-priority-tooltip =
-    Kiedy pokazywać (ponownie) uczone karty, które przekroczyły granice dnia.
+    Kiedy pokazywać (ponownie) uczone karty, których przerwa przekroczyła granicę dnia.
     
     Limit powtórek ma zawsze zastosowanie najpierw do wielodniowych kart w nauce, a następnie powtórek. Ta opcja kontroluje kolejność pokazywania zebranych kart, jednak wielodniowe karty w nauce zawsze bedą miały pierwszeństwo.
 deck-config-review-sort-order = Kolejność przeglądania
 deck-config-review-sort-order-tooltip =
     Domyślna kolejność prioretyzuje karty, które oczekiwały najdłużej, więc jeśli
     masz zaległe powtórki, najpierw pojawią się te, które oczekiwały najdłużej.
-    Jeśli masz duże zaległości, których nadrobienie zajmie więcej niż kilka dni lub chcesz widzieć karty w kolejności talii podrzędnej, alternatywne tryby sortowania mogą być dla ciebie odpowiednie/
-deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
+    Jeśli masz duże zaległości, których nadrobienie zajmie więcej niż kilka dni lub chcesz widzieć karty w kolejności talii podrzędnej, alternatywne tryby sortowania mogą być dla ciebie odpowiednie.
+deck-config-display-order-will-use-current-deck = Anki wykorzysta kolejność wyświetlania  z talii, której będziesz się uczył, zamiast z którejś z jej podtalii.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -179,7 +179,7 @@ deck-config-sort-order-random = Losowo
 # Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
 deck-config-sort-order-template-then-gather = Typ karty
 # Sort the cards by the order they were gathered, in ascending order (oldest to newest).
-deck-config-sort-order-gather = W zebranej kolejności
+deck-config-sort-order-gather = Kolejność zebrania
 # How new cards or interday learning cards are mixed with review cards.
 deck-config-review-mix-mix-with-reviews = Mieszaj z powtórkami
 # How new cards or interday learning cards are mixed with review cards.
@@ -249,7 +249,7 @@ deck-config-always-include-question-audio-tooltip =
 ## Advanced section
 
 deck-config-advanced-title = Zaawansowane
-deck-config-maximum-interval-tooltip = Maksymalna liczba dni, ile powtarzana karta będzie czekać na kolejną powtórkę. Gdy zostanie osiągnięty  limit powtórek, "Trudna", "Dobra" i "Łatwa" będą miały taką samą przerwę. Im mniejsza wartość, tym większe obciążenie powtórkami.
+deck-config-maximum-interval-tooltip = Maksymalna liczba dni, ile powtarzana karta będzie czekać na kolejną powtórkę. Gdy zostanie osiągnięty  limit powtórek, `Trudna`, `Dobra` i `Łatwa` będą miały taką samą przerwę. Im mniejsza wartość, tym większe obciążenie powtórkami.
 deck-config-starting-ease-tooltip = Współczynnik łatwości nowych kart. Domyślnie wciśnięcie `Dobra` na świeżo nauczonej karcie odłoży w czasie następną powtórkę o 2,5 raza dłużej, niż wynosiła wcześniejsza przerwa.
 deck-config-easy-bonus-tooltip = Dodatkowy mnożnik, który modyfikuje przerwę karty powtórkowej, gdy ocenisz ją jako `Łatwa`.
 deck-config-interval-modifier-tooltip = Ten mnożnik jest stosowany przy wszystkich powtórkach. Delikatne zmiany mogą być wykorzystane, aby sprawić, żeby Anki planowało powtórki bardziej agresywnie lub zachowawczo. Przeczytaj poradnik przed zmianą tego ustawienia.
@@ -388,7 +388,7 @@ deck-config-reschedule-cards-on-change-tooltip =
     Dotyczy całej kolekcji i nie jest zapisywane.
     
     Ta opcja kontroluje czy data, kiedy karty mają zostać pokazane zostanie zmieniona po włączeniu FSRS lub 
-    czy zostaną tylko zoptymalizowane parametry. Domyślnie ustawiona opcja to brak zmian: przyszłe powtórki beda używały planowania FSRS, ale nie będzie natychmiastowej zmiany w dziennym obciążeniu powtórkami. Jeśli zostanie włączona opcja ponownego planowania, data kiedy karty zostaną pokazane zostanie zmieniona.
+    czy nastąpi tylko optymalizacja parametrów. Domyślnie ustawiona opcja to brak zmian: przyszłe powtórki beda używały planowania FSRS, ale nie będzie natychmiastowej zmiany w dziennym obciążeniu powtórkami. Jeśli zostanie włączona opcja ponownego planowania, data kiedy karty zostaną pokazane zostanie zmieniona.
 deck-config-reschedule-cards-warning =
     W zależności od twojego oczekiwanego zapamiętywania, może skutkować większą ilością kart do powtórki, więc nie jest zalecane podczas pierwszej zmiany z algorytmu SM-2.
     
@@ -523,8 +523,8 @@ deck-config-compute-optimal-retention-tooltip =
     if it significantly differs from 0.9, it's a sign that the time you've allocated each day is either too low
     or too high for the amount of cards you're trying to learn. This number can be useful as a reference, but it
     is not recommended to copy it into the desired retention field.
-deck-config-health-check-tooltip1 = NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
-deck-config-health-check-tooltip2 = NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future. Health check is performed only when using Optimize Current Preset.
+deck-config-health-check-tooltip1 = Jeśli FSRS będzie miało trudności aby dostosować się do Twojej pamięci, pojawi się ostrzeżenie
+deck-config-health-check-tooltip2 = Sprawdzenie kondycji ma miejsce tylko, gdy włączona jest opcja "Optymalizuj wszystkie opcje FSRS"
 deck-config-compute-optimal-retention = Compute minimum recommended retention
 deck-config-predicted-optimal-retention = Minimalny rekomendowany wskaźnik zapamiętywania: { $num }
 deck-config-weights-tooltip = Parametry FSRS wpływają na to, jak planowane są karty. Anki zaczyna ze standardowymi parametrami. Gdy osiągniesz 1000+ powtórek, możesz użyć opcji poniżej, aby zoptymalizować parametry w stosunku do tego, jak dobrze radzisz sobie w taliach używających tej opcji.
