@@ -1,5 +1,5 @@
 # The date a card will be ready to review
-statistics-due-date = Oczekuje
+statistics-due-date = Następna powtórka
 # The count of cards waiting to be reviewed
 statistics-due-count = Oczekujące
 # Shown in the Due column of the Browse screen when the card is a new card
