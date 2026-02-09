@@ -47,16 +47,21 @@ deck-config-learning-steps-tooltip = Unu aŭ pli intertempoj, disigitaj per spac
 deck-config-graduating-interval-tooltip = Nombro da tagoj por atendi antaŭ ol montri la karton denove, se estis premita la butono `Bona` dum la fina lernpaŝo.
 deck-config-easy-interval-tooltip = La nombra da tagoj por atendi antaŭ ol montri la karton denove, se estis premita la butono `Facila` por senprokraste forigi la karton el lernado.
 deck-config-new-insertion-order = Ordo de enmeto
+deck-config-new-insertion-order-tooltip = Agordas pozicion (kampo Lernenda” #) asignitan al nova karto. Ju malpli altan pozicion “Lernenda” la karto havas, des pli frue la karto estos montrita por lerni. Ŝanĝi tiun ĉi agordon aŭtomate ŝanĝos ekzistajn poziciojn de novaj kartoj.
+deck-config-new-insertion-order-sequential = laŭvice (malpli novaj kartoj unue)
 deck-config-new-insertion-order-random = hazarde
+deck-config-new-insertion-order-random-with-v3 = Uzante la planilon V3 estas pli bone lasi tion ĉi al “laŭvice” kaj alĝustigi la agordon “Ordo de kolekti novajn kartojn”.
 
 ## Lapses section
 
+deck-config-relearning-steps = Relernpaŝoj
 
 ## Burying section
 
 
 ## Gather order and sort order of cards
 
+deck-config-new-gather-priority = Ordo de kolekti novajn kartojn
 
 ## Gather order and sort order of cards – Combobox entries
 
