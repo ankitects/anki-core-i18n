@@ -161,8 +161,8 @@ importing-duplicate = Duplikuj
 importing-preserve = Nie zmieniaj
 # "Existing notes: Update" (verb)
 importing-update = Uaktualnij
-importing-tag-all-notes = Nadaj etykietę wszystkim notatkom
-importing-tag-updated-notes = Nadaj etykietę uaktualnionym notatkom
+importing-tag-all-notes = Nadaj tag wszystkim notatkom
+importing-tag-updated-notes = Nadaj tag uaktualnionym notatkom
 importing-file = Plik
 # "Match scope: notetype / notetype and deck". Controls how duplicates are matched.
 importing-match-scope = Zakres dopasowania
@@ -250,7 +250,7 @@ importing-existing-notes-help =
     - `{ importing-duplicate }`: Stwórz nową.
 importing-match-scope-help = Tylko istniejące notatki z takim samym typem notatek będą sprawdzane pod względem duplikatów. Można to dodatkowo ograniczyć do notatek z kartami znajdującymi się w tej samej talii.
 importing-tag-all-notes-help = Te etykiety zostaną dodane zarówno do nowo zaimportowanych jak i zaktualizowanych notatek.
-importing-tag-updated-notes-help = Te etykiety zostaną dodane do każdej zaktualizowanej notatki.
+importing-tag-updated-notes-help = Te tagi zostaną dodane do każdej zaktualizowanej notatki.
 importing-overview = Podsumowanie
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
