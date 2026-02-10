@@ -225,7 +225,7 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } dni temu
 statistics-running-total = Razem
 statistics-cards-due =
     { $cards ->
-        [one] 1 karta oczekuje
+        [one] { $cards } karta oczekuje
         [few] { $cards } karty oczekują
         [many] { $cards } kart oczekuje
        *[other] { $cards } kart oczekuje
