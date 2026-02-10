@@ -15,6 +15,7 @@ importing-colon = Dos puntos
 importing-comma = Coma
 importing-empty-first-field = Primer campo vacio: { $val }
 importing-field-separator = Separador de campos
+importing-field-separator-guessed = Separador de campo (detectado)
 importing-field-mapping = Asignar campos
 importing-field-of-file-is = El campo <b>{ $val }</b> del archivo es:
 importing-fields-separated-by = Campos separados por: { $val }
@@ -46,6 +47,7 @@ importing-merge-notetypes-help =
     Advertencia: esto requerirá una sincronización en una sola dirección, y puede marcar notas existentes como modificadas.
 importing-mnemosyne-20-deck-db = Mazo Mnemosyne 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Los separadores de más de un carácter no son válidos. Por favor, introduzca un solo carácter.
+importing-new-deck-will-be-created = Un nuevo mazo se creará: { $name }
 importing-notes-added-from-file = Notas añadidas desde el archivo: { $val }
 importing-notes-found-in-file = Notas encontradas en el archivo: { $val }
 importing-notes-skipped-as-theyre-already-in = Notas omitidas, pues ya se encuentran en tu colección copias actualizadas: { $val }
@@ -63,7 +65,6 @@ importing-with-deck-configs-help =
     Si está activado, cualquier opción del mazo que la persona que compartió el mazo haya incluido también será importada.
     En caso contrario, se le asignará la configuración por defecto a todos los mazos.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Mazo de Anki/Colección comprimido (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Lección Pauker 1.8 (*.pau.gz)
 # the '|' character
 importing-pipe = Barra vertical
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -77,7 +78,6 @@ importing-rows-had-num1d-fields-expected-num2d = “{ $row }” tenía { $found 
 importing-selected-file-was-not-in-utf8 = El archivo seleccionado no estaba en formato UTF-8. Por favor, lee la sección sobre importación en el manual.
 importing-semicolon = Punto y coma
 importing-skipped = Saltado
-importing-supermemo-xml-export-xml = XML exportado de Supermemo (*.xml)
 importing-tab = Tabulación
 importing-tag-modified-notes = Etiqueta las notas modificadas:
 importing-text-separated-by-tabs-or-semicolons = Texto separado por tabulaciones o punto y coma (*)
@@ -243,3 +243,5 @@ importing-importing-collection = Importando colección...
 importing-unable-to-import-filename = No fue posible importar { $filename }: tipo de archivo no compatible
 importing-notes-that-could-not-be-imported = Notas que no pudieron importarse debido a un cambio de tipo: { $val }
 importing-added = Añadidas
+importing-pauker-18-lesson-paugz = Lección Pauker 1.8 (*.pau.gz)
+importing-supermemo-xml-export-xml = XML exportado de Supermemo (*.xml)

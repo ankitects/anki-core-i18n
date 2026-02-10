@@ -411,6 +411,7 @@ deck-config-fsrs-tooltip =
     FSRS (Free Spaced Repetition Scheduler), o en español "Programador de repetición espaciada libre" es una alternativa al viejo programador, SM-2 (SuperMemo 2) de Anki.
     Determinando más precisamente la probailidad de olvidarse una tarjeta, te puede ayudar a recordar más material en la misma cantidad de tiempo. Este ajuste se comparte con todos los preajustes.
 deck-config-desired-retention-tooltip = Por defecto, Anki programa las tarjetas de modo que tengas una probabilidad del 90% de recordarlas cuando aparezcan para repasarlas. Si aumentas este valor, Anki mostrará las tarjetas más frequentemente para aumentar la probabilidad de que te acuerdes de ellas. Si reduces el valor, Anki mostrará las tarjetas menos frequentemente, y te olvidarás más de ellas. Ten prudencia cuando ajustes el valor - valores más altos aumentarán tu carga de trabajo, y valores más bajos pueden desmotivarte, dado que te olvidas de mucha información.
+deck-config-desired-retention-tooltip2 = Los valores de carga de trabajo que han sido proporcionados por la caja de información son estimaciones aproximadas. Para aumentar la precisión, usa el simulador.
 deck-config-historical-retention-tooltip =
     Cuando falte parte de tu historial de repasos, FSRS necesita llenar los huecos. Por defecto, asumirá que cuando hiciste previos repasos, recordaste 90% de la información. Si tu vieja retención era mucho más o mucho menos que 90%, ajustar esta opción permitirá a FSRS a aproximar de una manera mejor los repasos que faltan.
     
@@ -435,12 +436,20 @@ deck-config-compute-optimal-weights-tooltip2 =
     No necesitas optimizar tus parámetros frequentemente - hacerlo una vez cada pocos meses es suficiente.
     Por defecto, los parámetros serán calculados usando el historial de repasos de todos los mazos usando el preajuste seleccionado actualmente. Puedes alterar opcionalmente que tarjetas son utilizadas para calcular los parámetros, si ajustas la búsqueda antes de calcular los parámetros.
 deck-config-please-save-your-changes-first = Por favor, guarde sus cambios primero.
+deck-config-workload-factor-change =
+    Carga de trabajo aproximada: { $factor }x
+    (comparado a { $previousDR }% de retención deseada)
+deck-config-workload-factor-unchanged = Cuanto más alto sea este valor, mayor será la frecuencia con la que se te mostrarán las tarjetas.
+deck-config-desired-retention-too-low = Tu retención deseada es muy baja, lo que puede llevar a intervalos muy largos.
+deck-config-desired-retention-too-high = Tu retención deseada es muy alta, lo que puede llevar a intervalos muy cortos.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { "" }
        *[other] { $pct }% de { $reviews } repasos
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Comprobando si ha mejorado...
 deck-config-optimizing-preset = Optimizando preajustes { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Primero, hay que activar FSRS.
 deck-config-fsrs-params-optimal = Parece que los parámetros FSRS son óptimos.
@@ -456,17 +465,20 @@ deck-config-desired-retention-below-optimal = Tu retención deseada está por de
 # diagram (Deck options -> FSRS) showing the total number of
 # cards that can be recalled or retrieved on a specific date.
 deck-config-fsrs-simulator-experimental = Simulador FSRS (experimental)
+deck-config-fsrs-simulate-save-preset = Después de optimizar, guarda la configuración de tu mazo antes de usar el simulador.
 deck-config-fsrs-desired-retention-help-me-decide-experimental = Ayúdame a decidir (Experimental)
 deck-config-additional-new-cards-to-simulate = Tarjetas adicionales a simular
 deck-config-simulate = Simular
 deck-config-clear-last-simulate = Borrar la última simulación
 deck-config-fsrs-simulator-radio-count = Repasos
 deck-config-advanced-settings = Ajustes avanzados
+deck-config-suspend-leeches = Suspender sanguijuelas
 deck-config-save-options-to-preset = Guardar Cambios a el Preajuste
 # Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
 # to show the total number of cards that can be recalled or retrieved on a
 # specific date.
 deck-config-fsrs-simulator-radio-memorized = Memorizado
+deck-config-fsrs-simulator-radio-ratio = Proporción de Tiempo / Tarjetas memorizadas
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } por carta memorizada
 
