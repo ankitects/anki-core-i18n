@@ -85,3 +85,5 @@ actions-flag-purple = बैंगनी
 actions-set-flag = झंडा लगाओ
 actions-nothing-to-undo = पूर्ववत करने के लिए कुछ नहीं
 actions-nothing-to-redo = दोबारा करने को कुछ नहीं
+actions-auto-advance = स्वतः उन्नत
+actions-auto-advance-activated = स्वतः उन्नत समर्थ है
