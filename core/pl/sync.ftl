@@ -30,9 +30,9 @@ sync-confirm-empty-upload = Kolekcja w AnkiWeb nie zawiera żadnych kart. Zastą
 sync-conflict-explanation =
     Twoje talie tu i w AnkiWeb różnią się w taki sposób, że nie mogą zostać złączone. Konieczne jest nadpisanie talii po jednej stronie taliami z drugiej strony.
     
-    Jeśli wybierzesz pobieranie, Anki ściągnie kolekcję z AnkiWeb i wszystkie zmiany wykonane na Twoim komputerze od ostatniej synchronizacji zostaną utracone.
+    Jeśli wybierzesz pobieranie, Anki ściągnie kolekcję z AnkiWeb i wszystkie zmiany wykonane na twoim urządzeniu od ostatniej synchronizacji zostaną utracone.
     
-    Jeśli wybierzesz przesyłanie, Anki wyśle Twoją kolekcję do AnkiWeb i wszystkie zmiany wykonane w AnkiWeb lub na innych urządzeniach od ostatniej synchronizacji zostaną utracone.
+    Jeśli wybierzesz przesyłanie, Anki wyśle Twoją kolekcję do AnkiWeb i wszystkie zmiany wykonane od ostatniej synchronizacji w AnkiWeb lub na innych urządzeniach  zostaną utracone.
     
     Po zsynchronizowaniu wszystkich urządzeń kolejne powtórki i dodane karty zostaną złączone automatycznie.
 sync-conflict-explanation2 =
@@ -49,6 +49,7 @@ sync-account-required =
     Wymagane jest posiadanie darmowego konta, aby Twoja kolekcja mogła być synchronizowana. <a href="{ $link }">Zarejestruj</a> konto, a następnie wprowadź poniżej swoje dane.
 sync-sanity-check-failed = Użyj opcji Sprawdź bazę danych, a następnie zsynchronizuj ponownie. Jeśli problem nie ustępuje wymuś w ustawieniach synchronizację w jedną stronę.
 sync-clock-off = Nie można zsynchronizować - twój zegar nie ma ustawionego poprawnego czasu.
+# “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
     Twoja kolekcja jest za duża, żeby przesłać ją do AnkiWeb. Możesz zmniejszyć
     jej rozmiar usuwając niepotrzebne talie (opcjonalnie eksportując je wcześniej),
