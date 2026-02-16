@@ -64,15 +64,53 @@ deck-config-today-only = Vetëm sot
 deck-config-learning-steps = Hapat mësimor
 # Please don't translate `1m`, `2d`
 -deck-config-delay-hint = Shtyerjet janë zakonisht minuta (p.sh. `1m`) ose ditë (p.sh. `2d`), por orët (p.sh. `1h`) dhe sekondat (p.sh. `30s`) mbështeten.
+deck-config-learning-steps-tooltip =
+    Një apo më shumë vonesa, të ndara me hapsirë. Vonesa e parë do të përdoret
+    kur ju shtypni butonin `Përsëri` në një kartë të re, dhe është e paracaktuar të jetë 1 minut.
+    Butoni `Mirë` avancon në hapin e radhës, që është paracaktuar të jetë 10 minuta.
+    Pasi të gjithë hapat janë kaluar, karta bëhet kartë për përsëritje, dhe
+    do shfaqet në një ditë tjeter. { -deck-config-delay-hint }
+deck-config-graduating-interval-tooltip =
+    Numri i ditëve për të pritur para se një kartë shfaqet përsëri, pasi butoni `Mirë`
+    është shtypur në hapin e fundit të mësuarit.
+deck-config-easy-interval-tooltip =
+    Numri i ditëve për të pritur para se një kartë shfaqet përsëri, pasi butoni `Lehtë`
+    është përdorur për ta larguar kartën menjëherë nga mësimi.
+deck-config-new-insertion-order = Renditja e të shtuarit
+deck-config-new-insertion-order-tooltip =
+    Kontrollon pozicionin (për të mësuar #) që i përcaktohet kartave të reja kur shtoni karta të reja.
+    Kartat me numër më të ulët do të shtohen së pari gjatë mësimit. Kur ndërroni
+    këtë opsion pozicioni i kartave të reja do ndërrohet automatikisht.
+deck-config-new-insertion-order-sequential = Me radhë (kartat më të vjetra të parat)
+deck-config-new-insertion-order-random = Rastësor
+deck-config-new-insertion-order-random-with-v3 =
+    Me ndërtuesin e orarit v3, është më mirë ta leni këtë të vendosur "Me radhë", dhe të
+    ndreqni renditjen e bashkësisë së kartës së re.
 
 ## Lapses section
 
+deck-config-relearning-steps = Hapat e rimësimit
+deck-config-relearning-steps-tooltip = Zero ose më shumë vonesa, të ndara nga hapsira. Me paracaktim, duke shtypur butonin `Përsëri` në një kartë për përsëritje do ta shfaqë atë prapë 10 minuta më vonë. Nëse asnjë vonesë nuk është dhënë, kartës do ti ndryshohet intervali, pa u futur në rimësim. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Hera e satë `Përsëri` është shtypur duhet të jetë prezent në një kartë për përsëritje para se të shënjohet si kartë shushunjë. Shushunjat janë karta që konsumojnë shumë kohë, dhe 
+    që kur të shënjohen si shushunjë, është ide e mirë ta rishkruani atë, ta fshini atë, ose
+    të mendoni një mnemonikë, që ju ndihmon ta mbani në mend.
+# See actions-suspend-card and scheduling-tag-only for the wording
+deck-config-leech-action-tooltip =
+    `Vetëm etiketë`: Shto një etiketë `shushunjë` në shënim, dhe shfaq një dritare.
+    
+    `Pezullo kartën`: Përveq etiketimit të shënimit, fshih kartën përderisa nuk është hequr pezullimi manualisht.
 
 ## Burying section
 
+deck-config-bury-title = Duke groposur
+deck-config-bury-new-siblings = Gropos binjakun e ri
+deck-config-bury-review-siblings = Gropos binjakun për përsëritje
+deck-config-bury-interday-learning-siblings = Gropos hapat e mësimit brendaditor
 
 ## Gather order and sort order of cards
 
+deck-config-ordering-title = Radha e shfaqjes
 
 ## Gather order and sort order of cards – Combobox entries
 
