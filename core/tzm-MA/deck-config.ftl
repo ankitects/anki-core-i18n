@@ -24,6 +24,7 @@ deck-config-review-limit-tooltip =
     ⴰⵙⴰ ⵉ ⵜⵖⵉⴷⵜ ⴰⵜⵏⵜ ⵜⵣⵔⵉⵜⵏⵜ.
 deck-config-limit-deck-v3 = ⴷⵉⵏⵏⴰⵖ ⴰⴷ ⵜⴰⵜⵇⵔⵔⴰⵜ ⵢⴰⵏ ⵓⴽⵍⴽⵉⵎ ⵉ ⴷⵉⴽⵙ ⴷⴰⵡⴰⵙ ⵉⴽⵍⴽⵉⵎⵏ ⵢⴰⴹⵏ, ⵉⵎⴰⵔⴰⵏ ⵏ ⴽⵓ ⴷⴰⵡ-ⵓⴽⵍⴽⵉⵎ ⴷⴰⵢⵣⴳⵓ ⴰⵎⵏⵏⴰⵡ ⴰⵏⴰⴼⵍⵍⴰ ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ s ⵙ ⵓⵎⵡⵉⵍⴰⵏ ⴳ ⴰⴽⵍⴽⵉⵎ ⴰⴷ. ⵉⵎⴰⵔⴰⵏ ⵏ ⵏ ⵓⴽⵍⴽⵉⵎ ⵓⴼⵔⵉⵏ ⴷⴰ ⵉⵣⴳⴰ ⴰⵎⵏⵏⴰⵡ ⵏ ⵜⵎⵓⵜⵜⵔⵜ ⴰⵢⵏⵏⴰ ⵜⵙⴽⵙⵓⵜ.
 deck-config-limit-new-bound-by-reviews = ⴰⵎⴰⵔⵉ ⵏ ⵓⵣⵔⵔⴰⵢ ⴷⴰⵢⵙⵓⵔⵓ ⴰⵎⴰⵔⵉ ⴰⵎⴰⵢⵏⵓ. ⵙ ⵓⵎⴷⵢⴰ, ⵎⴽ ⵓⵎⴰⵔⵉ ⵏ ⵓⵣⵔⵔⴰⵢ ⵉⴳⴰ 200, ⴷ ⵖⵓⵔⴽ 190 ⵏ ⵉⵣⵔⵔⵓⵢⵏ ⴷⴰⵜⵇⵇⵍⵏ, ⴰⵣⵣⵓⵔ ⵏ 10 ⵏ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ ⵇⴰⴷ ⴰⴷ ⴽⵛⵎⵏⵜ. ⵎⴽ ⵜⴳⵓⵍⴰⴷⵜ ⴰⵎⴰⵔⵉ ⵏ ⵓⵣⵔⵔⴰⵢ, ⴰⵡⴷ ⵢⴰⵜ ⵜⴰⴽⴰⵕⴹⴰ ⵜⴰⵎⴰⵢⵏⵓⵜ ⵓⵔ ⵏⵏⴰ ⵜⵜⵓⵢⴰⵏⴰⵢ.
+deck-config-limit-interday-bound-by-reviews = ⴰⵎⴰⵔⵉ ⵏ ⵓⵣⵔⵔⴰⵢ ⴰⴽⵓⵢⵢⴰⵙ ⵓⵔ ⴷⴰ ⵉⵙⵓⵔ ⵜⵉⴽⴰⵔⴹⵉⵡⵉⵏ ⵉⵜⵜⵓⵍⵎⴰⴷⵏ ⴳⵔ-ⵡⵓⵙⵙⴰⵏ. ⴰⴷⴷⴰⵢ ⴰⵎⴰⵔⵉ ⵜⵜⵓⴳⴰ, ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
