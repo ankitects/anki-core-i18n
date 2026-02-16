@@ -7,5 +7,5 @@ undo-redo = Повторить
 undo-undo-action = Отменить - { $val }
 # eg "Answer Card Undone"
 undo-action-undone = Отменено: { $action }
-undo-redo-action = Переделать { $action }
+undo-redo-action = Повторить { $action }
 undo-action-redone = { $action } повторено
