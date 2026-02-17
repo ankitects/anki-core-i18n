@@ -29,18 +29,18 @@ scheduling-next-learn-due =
     { $unit ->
         [seconds]
             { $amount ->
-               *[other] Келесі оқу картасы { $amount } секундтан кейін дайын болады.
+               *[other] Келесі үйрену картасы { $amount } секундтан кейін дайын болады.
             }
         [minutes]
             { $amount ->
-               *[other] Келесі оқу картасы { $amount } минуттан кейін дайын болады.
+               *[other] Келесі үйрену картасы { $amount } минуттан кейін дайын болады.
             }
        *[hours]
             { $amount ->
-               *[other] Келесі оқу картасы { $amount } сағаттан кейін дайын болады.
+               *[other] Келесі үйрену картасы { $amount } сағаттан кейін дайын болады.
             }
     }
-scheduling-learn-remaining = Бүгінге { $remaining } оқу қалды.
+scheduling-learn-remaining = Бүгінге { $remaining } үйрену қалды.
 scheduling-congratulations-finished = Құттықтаймыз! Әзірше колоданы бітірдіңіз.
 scheduling-today-review-limit-reached =
     Бүгінгі қайталау шегіне жеттіңіз, бірақ әлі де қаралуы керек
@@ -88,7 +88,7 @@ scheduling-ignore-answer-times-longer-than = Осы уақыттан ұзақ ж
 scheduling-interval-modifier = Аралық өзгерткіші
 scheduling-lapses = Босаулар
 scheduling-lapses2 = босаулар
-scheduling-learning = Оқу
+scheduling-learning = Үйрену
 scheduling-leech-action = Жабысқақ әрекеті
 scheduling-leech-threshold = Жабысқақ шегі
 scheduling-maximum-interval = Ең үлкен аралық

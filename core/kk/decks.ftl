@@ -24,7 +24,7 @@ decks-study = Оқу
 decks-study-deck = Колоданы Оқу
 decks-filtered-deck-search-empty = Берілген іздеуге сәйкес карталар табылған жоқ. Кейбір карталар басқа сүзілген колодада немесе кідіртілген болуы себепті көрінбейді.
 decks-unmovable-cards = Қамтылмаған карталарды көрсету
-decks-learn-header = Оқу
+decks-learn-header = Үйрену
 # The count of cards waiting to be reviewed
 decks-review-header = Бүгінге
 decks-zero-minutes-hint = (0 = карталарды бастапқы колодасына қайтару)
