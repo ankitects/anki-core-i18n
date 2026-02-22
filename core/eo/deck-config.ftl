@@ -69,6 +69,9 @@ deck-config-bury-title = Kaŝado (por tago)
 deck-config-bury-new-siblings = Kaŝi novajn parencajn kartojn
 deck-config-bury-review-siblings = Kaŝi ripetatajn parencajn kartojn
 deck-config-bury-interday-learning-siblings = Kaŝi plurtage lernatajn parencajn kartojn
+deck-config-bury-new-tooltip = Ĉu aliaj `novaj` kartoj de la sama noto (ekz. kartoj en mala direkto, apudaj truoj en teksto) estos prokrastitaj je unu tago.
+deck-config-bury-review-tooltip = Ĉu aliaj `ripetataj` kartoj de la sama noto estos prokrastitaj je unu tago.
+deck-config-bury-interday-learning-tooltip = Ĉu aliaj `lernataj` kartoj de la sama noto kun intertempoj > 1 tago estos prokrastitaj je unu tago.
 
 ## Gather order and sort order of cards
 
