@@ -65,9 +65,10 @@ deck-config-leech-action-tooltip =
 
 ## Burying section
 
-deck-config-bury-title = Kaŝado
-deck-config-bury-new-siblings = Kaŝi por tago novajn parencajn kartojn
-deck-config-bury-review-siblings = Kaŝi por tago ripetatajn parencajn kartojn
+deck-config-bury-title = Kaŝado (por tago)
+deck-config-bury-new-siblings = Kaŝi novajn parencajn kartojn
+deck-config-bury-review-siblings = Kaŝi ripetatajn parencajn kartojn
+deck-config-bury-interday-learning-siblings = Kaŝi plurtage lernatajn parencajn kartojn
 
 ## Gather order and sort order of cards
 
