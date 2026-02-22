@@ -55,6 +55,8 @@ deck-config-new-insertion-order-random-with-v3 = Uzante la planilon V3 estas pli
 ## Lapses section
 
 deck-config-relearning-steps = Relernpaŝoj
+deck-config-relearning-steps-tooltip = Nul aŭ pli intertempoj, disigitaj per spacetoj. Implicite premi la butonon `Denove` remontros ripetatan karton post 10 minutoj. Se neniu intertempo estas agordita, intertempo de la karto ŝanĝiĝos, sen ŝanĝi staton de la karto al “relernata”. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip = Kiomfoje la butono `Denove` devas esti premita ĉe ripetata karto antaŭ ol ĝi estos markita kiel “forgesema”. Forgesemaj kartoj bezonas multan vian tempon por lerni. Konsideru reskribi tian karton, forigi ĝin aŭ elpensi memorarton, kiu helpos al vi memori ĝin.
 
 ## Burying section
 
