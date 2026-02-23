@@ -29,7 +29,9 @@ deck-config-tab-description =
     - 'ⴷⴰⵜ-ⵓⴼⵔⵓ' : ⴰⵎⴰⵔⵉ ⵜⵙⵙⴰⵔ ⴳⵔ ⵉⴽⵍⴽⵉⵎⵏ ⵉⵖⵓⵔⵙⵏ ⴷⴰⵜ-ⵓⴽⵍⴽⵉⵎ ⴰⴷ.
     - 'ⴰⴽⵍⴽⵉⵎ ⴰⴷ' : ⴰⵎⴰⵔⵉ ⵉⴳⴰ ⴰⵥⵍⴰⵢ ⵉ ⵓⴽⵍⴽⵉⵎ ⴰⴷ.
     - 'ⵖⵉ ⴰⵙ ⴷⴷⵖ' : ⴰⵙⵏⴼⵍ ⴰⴽⵓⴷⴰⵏ ⵏ ⵓⵎⴰⵔⵉ ⵏ ⵓⴽⵍⴽⵉⵎ.
-deck-config-new-cards-ignore-review-limit = ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ  ⵓⵔ ⴷⴰ ⵙⴽⴰⵔⵏ ⵙ ⵓⵎⴰⵔⵉ ⵏ ⵓⵣⵔⵔⴰⵢ
+deck-config-new-cards-ignore-review-limit = ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ  ⵓⵔ ⴷⴰ ⵙⴽⴰⵔⵏ ⵙ ⵓⵎⴰⵔⵉ ⵏ ⵓⵣⵔⵔⴰⵢ.
+deck-config-new-cards-ignore-review-limit-tooltip = ⵙⵉ ⵜⵉⵣⵡⵓⵔⵉ, ⴰⵎⴰⵔⵉ ⵏ ⵓⵣⵔⴰⵢ ⴷⴰ ⵜⵜⵓⵙⴽⴰⵔ ⴰⵡⴷ ⵖⴼ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ, ⴷ ⴰⵡⴷ ⵢⴰⵜ ⵜⴰⴽⴰⵕⴹⴰ ⵜⴰⵎⴰⵢⵏⵓⵜ ⵓⵔ ⵏⵏⴰ ⵜⵉⵏⵏⵉⵢⵜ ⴰⵙⴰ ⵉⵜⴳⵓⵍⴰⴷⵜ ⴰⵎⴰⵔⵉ ⵏ ⵓⵣⵔⴰⵢ ⵏⵏⵙ. ⴰⵙⴰ ⵜⵜⵓⵙⵓⵔⴼ ⵜⴰⵙⵎⵎⵙⵜⵉⵜ ⴰⴷ, ⴰⴷ ⵜⵙⴽⵙⵓⵜ ⵜⵉⴽⴰⵕⴹⵉⵡⵉⵏ ⵜⵉⵎⴰⵢⵏⵓⵜⵉⵏ ⵎⴰ ⵉⵎⵛ ⵉⴳⴰ ⵓⵎⴰⵔⵉ ⵏ ⵓⵣⵔⵔⴰⵢ.
+deck-config-apply-all-parent-limits = ⵉⵎⴰⵔⵉⵜⵏ ⵉⵙⵖⵏⵓⵜⵏ ⵙⵉ ⵓⴽⵍⴽⵉⵎ ⵏ ⵓⵎⵢⴰⵙⴰ
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
