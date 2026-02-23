@@ -19,7 +19,7 @@ sync-media-log-title = Media fayllar sinxronlash jurnali
 
 ## Error messages / dialogs
 
-sync-conflict = Ankiʼning faqat bitta nusxasi bir vaqtning oʻzida hisobingizga sinxronlanishi mumkin. Bir necha daqiqa kutib turing, keyin qayta urinib koʻring.
+sync-conflict = Ankiʼning faqat bitta nusxasi bir vaqtning oʻzida akkauntingizga sinxronlanishi mumkin. Bir necha daqiqa kutib turing, keyin qayta urinib koʻring.
 sync-server-error = AnkiWeb muammoga duch keldi. Bir necha daqiqadan soʻng qayta urinib koʻring.
 sync-client-too-old = Anki versiyangiz juda eski. Sinxronlashni davom ettirish uchun soʻnggi versiyaga yangilang.
 sync-wrong-pass = E-pochta manzili yoki parol notoʻgʻri; qayta urinib koʻring.
@@ -45,8 +45,8 @@ sync-conflict-explanation2 =
 sync-ankiweb-id-label = Elektron pochta:
 sync-password-label = Parol:
 sync-account-required =
-    <h1>Hisob talab qilinadi</h1>
-    Toʻplamingizni sinxronlash uchun bepul hisob qaydnomasi talab qilinadi. Hisob qaydnomasini ochish uchun <a href="{ $link }">roʻyxatdan oʻting</a>, soʻng quyida maʼlumotlaringizni kiriting.
+    <h1>Akkaunt talab qilinadi</h1>
+    Toʻplamingizni sinxronlash uchun bepul akkaunt talab qilinadi. Akkauntni ochish uchun <a href="{ $link }">roʻyxatdan oʻting</a>, soʻngra quyida maʼlumotlaringizni kiriting.
 sync-sanity-check-failed = Maʼlumotlar bazasini tekshirish funksiyasini ishlating, soʻng qayta sinxronlang. Muammo davom etsa, sozlamalar ekranida bir tomonlama sinxronlashni majburlang.
 sync-clock-off = Sinxronlab boʻlmadi - soatingiz toʻgʻri sozlanmagan.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
