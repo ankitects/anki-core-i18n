@@ -107,6 +107,13 @@ deck-config-bury-title = Duke groposur
 deck-config-bury-new-siblings = Gropos binjakun e ri
 deck-config-bury-review-siblings = Gropos binjakun për përsëritje
 deck-config-bury-interday-learning-siblings = Gropos hapat e mësimit brendaditor
+deck-config-bury-new-tooltip =
+    Nëse karta të tjera `të reja` të shënimit të njejtë (p.sh kartat e kthyera mbrapsht, fshirjet cloze të afërta)
+    do të shtyhen deri në ditën e ardhshme.
+deck-config-bury-review-tooltip = Nëse karta të tjera `përsëritje` të shënimit të njejtë do të shtyhen deri në ditën e ardhshme.
+deck-config-bury-interday-learning-tooltip =
+    Nëse kartat e tjera `të mësimit` të shënimit të njejtë me intervalet > 1 ditë
+    do të shtyhen deri në diten e radhës.
 
 ## Gather order and sort order of cards
 
