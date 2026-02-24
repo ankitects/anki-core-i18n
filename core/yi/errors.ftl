@@ -16,5 +16,5 @@ errors-option-not-set = '{ $option }' נישט אײַנגעשטעלט
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-errors-invalid-input-empty = אַרײַנוואַרג גילט נישט.
+errors-invalid-input-empty = פּסול אַרײַנוואַרג.
 errors-invalid-input-details = פּסול אַרײַנוואַרג: { $details }
