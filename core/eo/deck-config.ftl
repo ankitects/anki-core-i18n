@@ -72,19 +72,40 @@ deck-config-bury-interday-learning-siblings = Kaŝi plurtage lernatajn parencajn
 deck-config-bury-new-tooltip = Ĉu aliaj `novaj` kartoj de la sama noto (ekz. kartoj en mala direkto, apudaj truoj en teksto) estos prokrastitaj je unu tago.
 deck-config-bury-review-tooltip = Ĉu aliaj `ripetataj` kartoj de la sama noto estos prokrastitaj je unu tago.
 deck-config-bury-interday-learning-tooltip = Ĉu aliaj `lernataj` kartoj de la sama noto kun intertempoj > 1 tago estos prokrastitaj je unu tago.
+deck-config-bury-priority-tooltip =
+    Anki prenas kartojn laŭ la jena ordo: tiu-ĉi-tage lernataj kartoj, plurtage lernataj kartoj, ripetataj kartoj, novaj kartoj. Tio ĉi influas al maniero kiel kaŝado funkcias:
+    
+    - Se ĉiuj agordoj pri kaŝado estas aktivaj, parenca karto estanta pli unue en la listo estos montrata. Ekzemplo: ripetata karto montriĝos prefere al nova karto.
+    - Parencaj kartoj estantaj poste en la listo ne povas kaŝi pli antaŭajn kartojn. Ekzemplo: se vi malaktivigos kaŝadon de novaj kartoj, kaj sekve lernos novan karton, ĝi ne povos kaŝi plurtagan aŭ ripetatan karton, do vi povas vidi kaj ripetatan parencan kaj novan kartojn dum unu lernada seanco.
 
 ## Gather order and sort order of cards
 
+deck-config-ordering-title = Ordo de vidigo
 deck-config-new-gather-priority = Ordo de preni novajn kartojn
+deck-config-new-gather-priority-tooltip-2 =
+    `Kartaro`: prenas kartojn de ĉiu subkartaro laŭ ordo, komence de plej supera. Kartoj el ĉiu subkartaro estas prenataj laŭ kreskanta ordo. Se la taga limigo por elektita kartaro estos akirita, prenata finos antaŭ ol kontroli ĉiujn subkartarojn. Tiu ĉi ordiga maniero estas plej rapida en grandaj kolektoj kaj ebligos al vi antaŭrangigi kartarojn estantajn pli supere.
+    
+    `Pozicio kreskante`: prenas kartojn laŭ kreskanta ordo (parametro “Lernenda #”), kutime unue prenas malnovajn kartojn.
+    
+    `Pozicio malkreskante`: prenas kartojn laŭ malkreskanta ordo (parametro “Lernenda #”), kutime unue prenas plej novajn karotjn.
+    
+    `Hazardaj notoj`: hazarde prenas notojn kaj sekve prenas ĉiujn iliajn kartojn.
+    
+    `Hazardaj kartoj`: prenas kartojn en hazarda ordo.
+deck-config-new-card-sort-order = Ordo de novaj kartoj
 
 ## Gather order and sort order of cards – Combobox entries
 
 # Gather new cards ordered by deck.
-deck-config-new-gather-priority-deck = Kartaro
+deck-config-new-gather-priority-deck = kartaro
+# Gather new cards ordered by position number, ascending (lowest to highest).
+deck-config-new-gather-priority-position-lowest-first = pozicio kreskante
+# Gather new cards ordered by position number, descending (highest to lowest).
+deck-config-new-gather-priority-position-highest-first = pozicio malkreskante
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
-deck-config-new-gather-priority-random-notes = Hazardaj notoj
+deck-config-new-gather-priority-random-notes = hazardaj notoj
 # Gather new cards randomly.
-deck-config-new-gather-priority-random-cards = Hazardaj kartoj
+deck-config-new-gather-priority-random-cards = hazardaj kartoj
 # Sort the cards randomly.
 deck-config-sort-order-random = hazarde
 
