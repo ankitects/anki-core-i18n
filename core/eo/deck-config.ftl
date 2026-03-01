@@ -93,6 +93,16 @@ deck-config-new-gather-priority-tooltip-2 =
     
     `Hazardaj kartoj`: prenas kartojn en hazarda ordo.
 deck-config-new-card-sort-order = Ordo de novaj kartoj
+deck-config-new-card-sort-order-tooltip-2 =
+    `Kartotipo, kaj ordo de preno`: ordigas kartojn laŭ numero de kartotipo. Kartoj de ĉiu numero de kartotipo montriĝas laŭ ordo de preno. Se kaŝado de parencaj kartoj estas malaktiva, tio ĉi certigos, ke ĉiuj kartoj de speco “fronto→dorso” montriĝos antaŭ ĉiuj kartoj de speco “dorso→fronto”. Tio ĉi utilas por montri ĉiujn kartojn de la sama noto dum unu lernada seanco, sed ne tro proksime.
+    
+    `Ordo de preno`: ordigas kartojn ĝuste laŭ ordo de preno. Se kaŝado de parencaj kartoj estas malaktiva, tio ĉi probable montros ĉiujn kartojn de la sama noto unu post alia.
+    
+    `Kartotipo, kaj hazarde`: ordigas kartojn laŭ numero de kartotipo. Kartoj de ĉiu numero kartotipo montriĝos hazarde. Tio ĉi utilas, se vi ne volas por ke parencaj kartoj estu tro proksime, sed plue volas montri ilin laŭ hazarda ordo.
+    
+    `Hazarda noto, kaj kartotipo`: prenas notojn hazarde, kaj sekve montras ĉiujn iliajn kartoj laŭ la ordo.
+    
+    `Hazarde`: prenas kartojn laŭ hazarda ordo.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -106,8 +116,16 @@ deck-config-new-gather-priority-position-highest-first = pozicio malkreskante
 deck-config-new-gather-priority-random-notes = hazardaj notoj
 # Gather new cards randomly.
 deck-config-new-gather-priority-random-cards = hazardaj kartoj
+# Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
+deck-config-sort-order-card-template-then-random = kartotipo, kaj hazarde
+# Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
+deck-config-sort-order-random-note-then-template = hazarda noto, kaj kartotipo
 # Sort the cards randomly.
 deck-config-sort-order-random = hazarde
+# Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-template-then-gather = kartotipo, kaj ordo de preno
+# Sort the cards by the order they were gathered, in ascending order (oldest to newest).
+deck-config-sort-order-gather = ordo de preno
 
 ## Timer section
 
