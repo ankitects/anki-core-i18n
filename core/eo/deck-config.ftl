@@ -111,6 +111,8 @@ deck-config-interday-step-priority-tooltip =
     
     La limigo de ripetoj aplikiĝas unue al plurtage lernataj kartoj, kaj sekve al ripetataj kartoj. Tiu ĉi agordo ebligas alĝustigi ordon de prenataj kartoj, sed plurtage lernataj kartoj ĉiam montriĝos unue.
 deck-config-review-sort-order = Ordo de ripetataj
+deck-config-review-sort-order-tooltip = La implicita ordo antaŭrangigas plej longe atendantajn kartojn, do se vi havas malfruon kun ripetoj, la plej longe atendantaj ripetoj unue montriĝos. Se vi havas grandan malfruon, kiu necesigas kelkajn tagojn por prilabori aŭ volas vidi kartojn laŭ ordo de subkartaroj, alternativaj manieroj de ordigo povas helpi al vi fari tion.
+deck-config-display-order-will-use-current-deck = Anki uzos ordon de la vidigo de kartaro elektita por lerni, ne de ĝiaj subkartaroj.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -119,9 +121,9 @@ deck-config-new-gather-priority-deck = kartaro
 # Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-deck-then-random-notes = kartaro, sekve hazardaj notoj
 # Gather new cards ordered by position number, ascending (lowest to highest).
-deck-config-new-gather-priority-position-lowest-first = pozicio kreskante
+deck-config-new-gather-priority-position-lowest-first = laŭ pozicio kreskante
 # Gather new cards ordered by position number, descending (highest to lowest).
-deck-config-new-gather-priority-position-highest-first = pozicio malkreskante
+deck-config-new-gather-priority-position-highest-first = laŭ pozicio malkreskante
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = hazardaj notoj
 # Gather new cards randomly.
@@ -142,6 +144,20 @@ deck-config-review-mix-mix-with-reviews = miksi kun ripetoj
 deck-config-review-mix-show-after-reviews = montri post ripetoj
 # How new cards or interday learning cards are mixed with review cards.
 deck-config-review-mix-show-before-reviews = montri antaŭ ol ripetoj
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
+deck-config-sort-order-due-date-then-random = planita dato, sekve hazarde
+# Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
+deck-config-sort-order-due-date-then-deck = planita dato, sekve kartaro
+# Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
+deck-config-sort-order-deck-then-due-date = kartaro, sekve planita dato
+# Sort the cards by the interval, in ascending order (shortest to longest).
+deck-config-sort-order-ascending-intervals = laŭ intertempoj kreskante
+# Sort the cards by the interval, in descending order (longest to shortest).
+deck-config-sort-order-descending-intervals = laŭ intertempoj malkreskante
+# Sort the cards by ease, in ascending order (lowest to highest ease).
+deck-config-sort-order-ascending-ease = laŭ facileco kreskante
+# Sort the cards by ease, in descending order (highest to lowest ease).
+deck-config-sort-order-descending-ease = laŭ facileco malkreskante
 
 ## Timer section
 
