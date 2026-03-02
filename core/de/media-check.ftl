@@ -75,6 +75,6 @@ media-check-empty-trash = Papierkorb leeren
 media-check-restore-trash = Gelöschte Dateien wiederherstellen
 media-check-check-media-action = Medien überprüfen
 # a tag for notes with missing media files (must not contain whitespace)
-media-check-missing-media-tag = Fehlende Medien
+media-check-missing-media-tag = Fehlende-Medien
 # add a tag to notes with missing media
 media-check-add-tag = Schlagwort Fehlend
