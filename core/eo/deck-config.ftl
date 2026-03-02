@@ -94,20 +94,30 @@ deck-config-new-gather-priority-tooltip-2 =
     `Hazardaj kartoj`: prenas kartojn en hazarda ordo.
 deck-config-new-card-sort-order = Ordo de novaj kartoj
 deck-config-new-card-sort-order-tooltip-2 =
-    `Kartotipo, kaj ordo de preno`: ordigas kartojn laŭ numero de kartotipo. Kartoj de ĉiu numero de kartotipo montriĝas laŭ ordo de preno. Se kaŝado de parencaj kartoj estas malaktiva, tio ĉi certigos, ke ĉiuj kartoj de speco “fronto→dorso” montriĝos antaŭ ĉiuj kartoj de speco “dorso→fronto”. Tio ĉi utilas por montri ĉiujn kartojn de la sama noto dum unu lernada seanco, sed ne tro proksime.
+    `Kartotipo, sekve ordo de preno`: ordigas kartojn laŭ numero de kartotipo. Kartoj de ĉiu numero de kartotipo montriĝas laŭ ordo de preno. Se kaŝado de parencaj kartoj estas malaktiva, tio ĉi certigos, ke ĉiuj kartoj de speco “fronto→dorso” montriĝos antaŭ ĉiuj kartoj de speco “dorso→fronto”. Tio ĉi utilas por montri ĉiujn kartojn de la sama noto dum unu lernada seanco, sed ne tro proksime.
     
     `Ordo de preno`: ordigas kartojn ĝuste laŭ ordo de preno. Se kaŝado de parencaj kartoj estas malaktiva, tio ĉi probable montros ĉiujn kartojn de la sama noto unu post alia.
     
-    `Kartotipo, kaj hazarde`: ordigas kartojn laŭ numero de kartotipo. Kartoj de ĉiu numero kartotipo montriĝos hazarde. Tio ĉi utilas, se vi ne volas por ke parencaj kartoj estu tro proksime, sed plue volas montri ilin laŭ hazarda ordo.
+    `Kartotipo, sekve hazarde`: ordigas kartojn laŭ numero de kartotipo. Kartoj de ĉiu numero kartotipo montriĝos hazarde. Tio ĉi utilas, se vi ne volas por ke parencaj kartoj estu tro proksime, sed plue volas montri ilin laŭ hazarda ordo.
     
     `Hazarda noto, kaj kartotipo`: prenas notojn hazarde, kaj sekve montras ĉiujn iliajn kartoj laŭ la ordo.
     
     `Hazarde`: prenas kartojn laŭ hazarda ordo.
+deck-config-new-review-priority = Ordo de novaj/ripetataj
+deck-config-new-review-priority-tooltip = Kie enmeti novajn kartojn rilate al ripetataj kartoj.
+deck-config-interday-step-priority = Ordo de plurtage lernataj/ripetataj
+deck-config-interday-step-priority-tooltip =
+    Kie montri (re)lernatajn kartojn, kies intertempo estas pli longa ol tago.
+    
+    La limigo de ripetoj aplikiĝas unue al plurtage lernataj kartoj, kaj sekve al ripetataj kartoj. Tiu ĉi agordo ebligas alĝustigi ordon de prenataj kartoj, sed plurtage lernataj kartoj ĉiam montriĝos unue.
+deck-config-review-sort-order = Ordo de ripetataj
 
 ## Gather order and sort order of cards – Combobox entries
 
 # Gather new cards ordered by deck.
 deck-config-new-gather-priority-deck = kartaro
+# Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
+deck-config-new-gather-priority-deck-then-random-notes = kartaro, sekve hazardaj notoj
 # Gather new cards ordered by position number, ascending (lowest to highest).
 deck-config-new-gather-priority-position-lowest-first = pozicio kreskante
 # Gather new cards ordered by position number, descending (highest to lowest).
@@ -117,15 +127,21 @@ deck-config-new-gather-priority-random-notes = hazardaj notoj
 # Gather new cards randomly.
 deck-config-new-gather-priority-random-cards = hazardaj kartoj
 # Sort the cards first by their type, in ascending order (alphabetically), then randomized within each type.
-deck-config-sort-order-card-template-then-random = kartotipo, kaj hazarde
+deck-config-sort-order-card-template-then-random = kartotipo, sekve hazarde
 # Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
-deck-config-sort-order-random-note-then-template = hazarda noto, kaj kartotipo
+deck-config-sort-order-random-note-then-template = hazarda noto, sekve kartotipo
 # Sort the cards randomly.
 deck-config-sort-order-random = hazarde
 # Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
 deck-config-sort-order-template-then-gather = kartotipo, kaj ordo de preno
 # Sort the cards by the order they were gathered, in ascending order (oldest to newest).
 deck-config-sort-order-gather = ordo de preno
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-mix-with-reviews = miksi kun ripetoj
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-after-reviews = montri post ripetoj
+# How new cards or interday learning cards are mixed with review cards.
+deck-config-review-mix-show-before-reviews = montri antaŭ ol ripetoj
 
 ## Timer section
 
