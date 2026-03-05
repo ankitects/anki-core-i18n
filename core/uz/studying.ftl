@@ -7,7 +7,7 @@ studying-bury = Koʻmish
 studying-bury-card = Kartani koʻmish
 studying-bury-note = Qaydni koʻmish
 studying-card-suspended = Karta toʻxtatildi.
-studying-card-was-a-leech = Karta yopishqoq edi.
+studying-card-was-a-leech = Karta yopishqoq.
 studying-cards-buried =
     { $count ->
         [one] { $count } ta karta koʻmildi.
