@@ -15,6 +15,7 @@ importing-colon = Deux-points
 importing-comma = Virgule
 importing-empty-first-field = Premier champ vierge : { $val }
 importing-field-separator = Séparateur de champ
+importing-field-separator-guessed = Séparateur de champ (deviné)
 importing-field-mapping = Correspondance des champs
 importing-field-of-file-is = Le champ <b>{ $val }</b> du fichier est :
 importing-fields-separated-by = Champs séparés par : { $val }
@@ -43,6 +44,7 @@ importing-merge-notetypes-help =
     Attention : Ceci nécessitera une synchronisation unilatérale, et risque de marquer les notes existantes comme modifiées.
 importing-mnemosyne-20-deck-db = Paquet MNEMOSYNE 2.0 (*.db)
 importing-multicharacter-separators-are-not-supported-please = Les séparateurs multi-caractères ne sont pas supportés. S.v.p. entrez un caractère unique.
+importing-new-deck-will-be-created = Un nouveau paquet sera créé : { $name }
 importing-notes-added-from-file = Notes ajoutées depuis fichier : { $val }
 importing-notes-found-in-file = Notes trouvées dans fichier: { $val }
 importing-notes-skipped-as-theyre-already-in = Notes sautées car elles sont déjà dans votre collection : { $val }
@@ -59,7 +61,6 @@ importing-with-deck-configs-help =
     Si activé, toute option de paquet que le créateur du paquet partagé a inclus va aussi être importée.
     Sinon, le préréglage par défaut sera assigné.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Fichier de Paquet/Collection Anki (*.apkg *.colpkg *.zip)
-importing-pauker-18-lesson-paugz = Pauker 1,8 leçon
 # the '|' character
 importing-pipe = Barre verticale
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -73,7 +74,6 @@ importing-rows-had-num1d-fields-expected-num2d = « { $row } » avait { $found
 importing-selected-file-was-not-in-utf8 = Le fichier sélectionné n’était pas au format UTF-8. Merci de consulter la section du manuel relative à l’import de fichiers.
 importing-semicolon = Point-virgule
 importing-skipped = Ignorée
-importing-supermemo-xml-export-xml = XML issu de SUPERMEMO (*.xml)
 importing-tab = Tabulation
 importing-tag-modified-notes = Étiquette les notes modifiées :
 importing-text-separated-by-tabs-or-semicolons = Fichier texte séparé par des tabulations ou des points-virgules (*)
@@ -243,3 +243,5 @@ importing-importing-collection = Importation de la collection...
 importing-unable-to-import-filename = Impossible d'importer { $filename } : type de fichier non supporté
 importing-notes-that-could-not-be-imported = Notes ne pouvant pas être importées car le type de note a changé : { $val }
 importing-added = Ajouté
+importing-pauker-18-lesson-paugz = Pauker 1,8 leçon
+importing-supermemo-xml-export-xml = XML issu de SUPERMEMO (*.xml)

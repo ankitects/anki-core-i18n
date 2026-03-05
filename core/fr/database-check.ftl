@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] Corrigé { $count } carte invalide.
        *[other] Corrigé { $count } cartes invalides.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Ajouté l'heure de la dernière révision à { $count } carte.
+       *[other] Ajouté l'heure de la dernière révision à { $count } cartes.
+    }
 database-check-missing-templates =
     { $count ->
         [one] { $count } carte sans modèle supprimée.

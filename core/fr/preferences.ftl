@@ -83,6 +83,17 @@ preferences-ankiweb-intro = AnkiWeb est un service gratuit qui vous permet de sy
 preferences-ankihub-intro = AnkiHub permet l'édition collaborative de paquets et offre des outils d'étude supplémentaires. Un abonnement payant est nécessaire pour accéder à certaines fonctionnalités.
 preferences-third-party-description = Les services tiers ne sont pas affiliés avec ni endossés par Anki. L'utilisation de ces services peut nécessiter un paiement.
 
+## URL scheme related
+
+preferences-url-schemes = Schémas d'URL
+preferences-url-scheme-prompt = Schémas d'URL autorisés (séparés par des espaces) :
+preferences-url-scheme-warning =
+    Tentative bloquée d'ouverture de { $link }, ce qui peut être un problème de sécurité. 
+    
+    Si vous faites confiance à l'auteur du paquet et souhaitez continuer, vous pouvez ajouter { $scheme } à vos schémas d'URL autorisés.
+preferences-url-scheme-allow-once = Autoriser une fois
+preferences-url-scheme-always-allow = Toujours autoriser
+
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Basique

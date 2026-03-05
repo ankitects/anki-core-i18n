@@ -96,6 +96,7 @@ editing-image-occlusion-rectangle-tool = Rectangle
 editing-image-occlusion-ellipse-tool = Ellipse
 editing-image-occlusion-polygon-tool = Polygone
 editing-image-occlusion-text-tool = Texte
+editing-image-occlusion-fill-tool = Remplir avec une couleur
 editing-image-occlusion-toggle-mask-editor = Basculer l'éditeur de masques.
 editing-image-occlusion-reset = Réinitialiser le schéma à remplir
 editing-image-occlusion-confirm-reset = Êtes-vous sûr de vouloir réinitialiser ce schéma à remplir?
