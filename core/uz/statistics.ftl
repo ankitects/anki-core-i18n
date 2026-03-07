@@ -129,7 +129,7 @@ statistics-counts-separate-suspended-buried-cards = Toʻxtatilgan/koʻmilgan kar
 ##      window is certain sizes.
 
 statistics-true-retention-title = Eslab qolish nisbati
-statistics-true-retention-subtitle = Oraligʻi ≥ 1 kun kartalar oʻtish nisbati.
+statistics-true-retention-subtitle = Intervali ≥ 1 kun kartalar oʻtish nisbati.
 statistics-true-retention-tooltip = Agar FSRSdan foydalanayotgan boʻlsangiz, eslab qolish nisbatingiz siz istagan saqlab qolish nisbatiga yaqin boʻlishi kutiladi. Shuni yodda tutingki, bir kunlik maʼlumotlar noaniq, shuning uchun oylik maʼlumotlarni koʻrib chiqganiz yaxshiroq.
 statistics-true-retention-range = Diapazon
 statistics-true-retention-pass = Oʻtdi
@@ -222,17 +222,17 @@ statistics-cards-due =
        *[other] { $cards } ta kartani muddati keladi
     }
 statistics-backlog-checkbox = Yigʻilib qolgan kartalar
-statistics-intervals-title = Takrorlashlar oraligʻi
+statistics-intervals-title = Takrorlashlar intervali
 statistics-intervals-subtitle = Takrorlash kartalari qayta koʻrsatilgunga qadar kechikishlar.
 statistics-intervals-day-range =
     { $cards ->
-        [one] Oraligʻi { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
-       *[other] Oraligʻi { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
+        [one] Intervali { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
+       *[other] Intervali { $daysStart }~{ $daysEnd } kun boʻlgan { $cards } ta karta bor
     }
 statistics-intervals-day-single =
     { $cards ->
-        [one] Oraligʻi { $day } kun boʻlgan { $cards } ta karta bor
-       *[other] Oraligʻi { $day } kun boʻlgan { $cards } ta karta bor
+        [one] Intervali { $day } kun boʻlgan { $cards } ta karta bor
+       *[other] Intervali { $day } kun boʻlgan { $cards } ta karta bor
     }
 statistics-stability-day-range =
     { $cards ->
@@ -281,7 +281,7 @@ statistics-total = Jami
 statistics-days-studied = Oʻrgangan kunlar soni
 statistics-average-answer-time-label = Oʻrtacha javob berish vaqti
 statistics-average = Oʻrtacha
-statistics-median-interval = Oraliq medianasi
+statistics-median-interval = Interval medianasi
 statistics-due-tomorrow = Ertaga
 # This string, ‘Daily load,’ appears in the ‘Future due’ table and represents a
 # forecasted estimate of the number of cards expected to be reviewed daily in 
@@ -320,6 +320,6 @@ statistics-title = Statistika
 ## are not already translated.
 
 statistics-average-stability = Oʻrtacha barqarorlik
-statistics-average-interval = Oʻrtacha oraliq
+statistics-average-interval = Oʻrtacha interval
 statistics-average-ease = Oʻrtacha osonlik
 statistics-average-difficulty = Oʻrtacha qiyinlik

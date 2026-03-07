@@ -1,7 +1,7 @@
 card-stats-added = Qoʻshildi
 card-stats-first-review = Birinchi takrorlash
 card-stats-latest-review = Oxirgi takrorlash
-card-stats-interval = Oraliq
+card-stats-interval = Interval
 card-stats-ease = Osonlik
 card-stats-review-count = Takrorlashlar
 card-stats-lapse-count = Unutilishlar

@@ -24,7 +24,7 @@ deck-config-review-limit-tooltip =
     Agar kartalar takrorlash uchun tayyor boʻlsa,
     bir kunda koʻrsatiladigan takrorlanadigan kartalarining maksimal soni.
 deck-config-limit-deck-v3 =
-    Ostdastalari boʻlgan dastani oʻrganayotganingizda, har bir ostdastada oʻrnatilgan limit ushbu ostdastadan toʻplangan kartalarning maksimal sonini belgilaydi.
+    Ichida boshqa dastalar boʻlgan dastani oʻrganayotganingizda, har bir ichki dastada oʻrnatilgan limit ushbu ichki dastadan toʻplangan kartalarning maksimal sonini belgilaydi.
     Tanlangan dastadagi limit jami koʻrsatiladigan kartalar sonini belgilaydi.
 deck-config-limit-new-bound-by-reviews = Takrorlash limiti yangi kartalar limitiga taʼsir qiladi. Misol uchun, agar takrorlash limitingiz 200 ga oʻrnatilgan boʻlsa va navbatda 190 ta takrorlash kartalari boʻlsa, koʻpi bilan 10 ta yangi karta koʻrsatiladi. Takrorlash limitiga yetgan boʻlsangiz, yangi kartalar koʻrsatilmaydi.
 deck-config-limit-interday-bound-by-reviews = Takrorlash limiti kunlararo oʻrganish kartalariga ham taʼsir qiladi. Limitni qoʻllashda avval kunlararo oʻrganish kartalari yigʻiladi, soʻngra takrorlash kartalari.
@@ -36,8 +36,8 @@ deck-config-new-cards-ignore-review-limit = Takrorlash limiti yangi kartalar lim
 deck-config-new-cards-ignore-review-limit-tooltip = Birlamchi sifatida, takrorlash limiti yangi kartalar uchun ham amal qiladi va takrorlash limitiga yetganida yangi kartalar koʻrsatilmaydi. Agar ushbu parametr yoqilgan boʻlsa, takrorlash limitidan qatʼi nazar, yangi kartalar koʻrsatilaveradi.
 deck-config-apply-all-parent-limits = Limitlar yuqoridan boshlanadi
 deck-config-apply-all-parent-limits-tooltip =
-    Birlamchi sifatida, agar ostdastadan oʻrganayotgan boʻlsangiz, uning bosh dasta kunlik limiti ostdastaga qoʻllanilmaydi.
-    Agar ushbu parametr yoqilgan boʻlsa, limitlar bosh dastadan boshlanadi. Bu dasta daraxti uchun umumiy karta limitini qoʻllagan holda xolis ostdastalarni oʻrganmoqchi boʻlsangiz foydali boʻlishi mumkin.
+    Birlamchi sifatida, agar ichki dastadan oʻrganayotgan boʻlsangiz, uning bosh dasta kunlik limiti ichki dastaga qoʻllanilmaydi.
+    Agar ushbu parametr yoqilgan boʻlsa, limitlar bosh dastadan boshlanadi. Bu dasta daraxti uchun umumiy karta limitini qoʻllagan holda xolis ichki dastalarni oʻrganmoqchi boʻlsangiz foydali boʻlishi mumkin.
 deck-config-affects-entire-collection = Butun kolleksiyaga taʼsir qiladi.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
@@ -69,7 +69,7 @@ deck-config-new-insertion-order-random-with-v3 = V3 rejalashtiruvchisi uchun ket
 ## Lapses section
 
 deck-config-relearning-steps = Qayta oʻrganish bosqichlari
-deck-config-relearning-steps-tooltip = Boʻshliqlar bilan ajratilgan holda nol yoki undan ortiq kechikishlar kiriting. Birlamchi sifatida, takrorlash kartasidagi `Yana` tugmasini bosish uni 10 daqiqadan soʻng yana koʻrsatadi. Agar kechikishlar belgilanmasa, kartani qayta oʻrganishga kiritmasdan, uning oraligʻi oʻzgartiriladi. { -deck-config-delay-hint }
+deck-config-relearning-steps-tooltip = Boʻshliqlar bilan ajratilgan holda nol yoki undan ortiq kechikishlar kiriting. Birlamchi sifatida, takrorlash kartasidagi `Yana` tugmasini bosish uni 10 daqiqadan soʻng yana koʻrsatadi. Agar kechikishlar belgilanmasa, kartani qayta oʻrganishga kiritmasdan, uning intervali oʻzgartiriladi. { -deck-config-delay-hint }
 deck-config-leech-threshold-tooltip = Takrorlash kartasini yopishqoq sifatida belgilanishidan oldin `Yana` tugmasini necha marta bosish kerak. Yopishqoq kartalar bu vaqtingizni koʻp oladigan kartalardir. Agar karta yopishqoq sifatida belgilangansa, uni eslab qolishingizga yordam berish uchun uni qaytadan tahrirlashingiz, oʻchirib tashlashingiz yoki mnemonika ishlatganingiz maʼqul.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
@@ -85,7 +85,7 @@ deck-config-bury-review-siblings = Takrorlanganlarga aloqadorlarni koʻmish
 deck-config-bury-interday-learning-siblings = Aloqador kunlararo oʻrganilayotgan kartalarni koʻmish
 deck-config-bury-new-tooltip = Bitta qaydning boshqa `yangi` kartalari (masalan, teskari kartalar, aloqador boʻshliqni toʻldirish kartalari) keyingi kunga qoldiriladimi.
 deck-config-bury-review-tooltip = Bitta qaydning boshqa `takrorlash` kartalari keyingi kunga qoldiriladimi.
-deck-config-bury-interday-learning-tooltip = Bitta qaydning boshqa, oraligʻi 1 kundan ortiq boʻlgan, `oʻrganish` kartalari keyingi kunga qoldiriladimi.
+deck-config-bury-interday-learning-tooltip = Bitta qaydning boshqa, intervali 1 kundan ortiq boʻlgan, `oʻrganish` kartalari keyingi kunga qoldiriladimi.
 deck-config-bury-priority-tooltip =
     Anki kartalarni yigʻganda, u birinchi navbatda kunlik kartalarini, soʻngra kunlararo kartalarini, soʻngra takrorlash kartalarini va nihoyat yangi kartalarni toʻplaydi. Bu koʻmish qanday ishlashiga taʼsir qiladi:
     
@@ -125,8 +125,8 @@ deck-config-interday-step-priority-tooltip =
     
     Takrorlash limiti har doim birinchi navbatda kunlararo oʻrganish kartalariga, keyin esa takrorlash kartalariga qoʻllaniladi. Ushbu parametr yigʻilgan kartalarning koʻrsatilish tartibini nazorat qiladi, lekin kunlararo oʻrganish kartalari har doim birinchi boʻlib yigʻiladi.
 deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
-deck-config-review-sort-order-tooltip = Birlamchi tartib eng uzoq navbatda turgan kartalarga ustuvorlik beradi, shuning uchun agar sizda yiigʻilib qolgan kartalar boʻlsa, eng uzoq navbatda turgan kartalar birinchi boʻlib koʻrsatiladi. Agar yigʻilib qolgan kartalarga bir necha kundan koʻproq vaqt ketadigan boʻlsa yoki kartalarni ostdasta tartibida koʻrishni istasangiz, muqobil tartiblash uslubi afzalroq boʻlishi mumkin.
-deck-config-display-order-will-use-current-deck = Anki siz oʻrganish uchun tanlagan dastadagi koʻrsatish tartibidan foydalanadi va undagi har qanday ostdastadan emas.
+deck-config-review-sort-order-tooltip = Birlamchi tartib eng uzoq navbatda turgan kartalarga ustuvorlik beradi, shuning uchun agar sizda yiigʻilib qolgan kartalar boʻlsa, eng uzoq navbatda turgan kartalar birinchi boʻlib koʻrsatiladi. Agar yigʻilib qolgan kartalarga bir necha kundan koʻproq vaqt ketadigan boʻlsa yoki kartalarni ichki dasta tartibida koʻrishni istasangiz, muqobil tartiblash uslubi afzalroq boʻlishi mumkin.
+deck-config-display-order-will-use-current-deck = Anki siz oʻrganish uchun tanlagan dastadagi koʻrsatish tartibidan foydalanadi va undagi har qanday ichki dastadan emas.
 
 ## Gather order and sort order of cards – Combobox entries
 
@@ -165,9 +165,9 @@ deck-config-sort-order-due-date-then-deck = Muddati boʻyicha, soʻng dasta boʻ
 # Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
 deck-config-sort-order-deck-then-due-date = Dasta boʻyicha, soʻng muddati boʻyicha
 # Sort the cards by the interval, in ascending order (shortest to longest).
-deck-config-sort-order-ascending-intervals = Oraliq oʻsib borish tartibi boʻyicha
+deck-config-sort-order-ascending-intervals = Interval oʻsib borish tartibi boʻyicha
 # Sort the cards by the interval, in descending order (longest to shortest).
-deck-config-sort-order-descending-intervals = Oraliq kamayib borish tartibi boʻyicha
+deck-config-sort-order-descending-intervals = Interval kamayib borish tartibi boʻyicha
 # Sort the cards by ease, in ascending order (lowest to highest ease).
 deck-config-sort-order-ascending-ease = Osonlik oʻsib borish tartibi boʻyicha
 # Sort the cards by ease, in descending order (highest to lowest ease).
@@ -223,11 +223,11 @@ deck-config-maximum-interval-tooltip =
     Takrorlash kartasi kutadigan maksimal kunlar soni. Takrorlashlar limitiga yetganida, `Qiyin`, `Yaxshi` va `Oson` hammasi bir xil kechikishni beradi.
     Buni qanchalik qisqa oʻrnatsangiz, ish yukingiz shunchalik koʻp boʻladi.
 deck-config-starting-ease-tooltip = Yangi kartalar uchun belgilangan osonlik koʻpaytiruvchisi. Birlamchi sifatida, yangi oʻrganilgan kartadagi `Yaxshi` tugmasi keyingi takrorlashni oldingi kechikishdan 2,5 baravar ortiq kechiktiradi.
-deck-config-easy-bonus-tooltip = `Oson` deb baholaganingizda takrorlash kartasi oraligʻiga qoʻllaniladigan qoʻshimcha koʻpaytiruvchi.
+deck-config-easy-bonus-tooltip = `Oson` deb baholaganingizda takrorlash kartasi intervaliga qoʻllaniladigan qoʻshimcha koʻpaytiruvchi.
 deck-config-interval-modifier-tooltip = Ushbu koʻpaytiruvchi barcha takrorlashlar uchun qoʻllaniladi. Anki rejalashtiruvchisini yanada konservativ yoki aggressiv qilish uchun kichik tuzatishlar qilish mumkin. Ushbu parametrni oʻzgartirishdan oldin qoʻllanmani koʻring.
-deck-config-hard-interval-tooltip = `Qiyin` deb javob berganda takrorlash oraligʻiga qoʻllaniladigan koʻpaytiruvchi.
-deck-config-new-interval-tooltip = `Qaytadan` deb javob berganda takrorlash oraligʻiga qoʻllaniladigan koʻpaytiruvchi.
-deck-config-minimum-interval-tooltip = Takrorlash kartasiga `Qaytadan` deb javob berganda beriladigan eng kam oraliq.
+deck-config-hard-interval-tooltip = `Qiyin` deb javob berganda takrorlash intervaliga qoʻllaniladigan koʻpaytiruvchi.
+deck-config-new-interval-tooltip = `Qaytadan` deb javob berganda takrorlash intervaliga qoʻllaniladigan koʻpaytiruvchi.
+deck-config-minimum-interval-tooltip = Takrorlash kartasiga `Qaytadan` deb javob berganda beriladigan minimal interval.
 deck-config-custom-scheduling = Rejalashtirishni moslash
 deck-config-custom-scheduling-tooltip = Butun kolleksiyaga taʼsir qiladi. Ishlatishda ehtiyot boʻling!
 
@@ -263,7 +263,7 @@ deck-config-confirm-remove-name = { $name } oʻchirilsinmi?
 ## Other Buttons
 
 deck-config-save-button = Saqlash
-deck-config-save-to-all-subdecks = Barcha ostdastalarga saqlash
+deck-config-save-to-all-subdecks = Barcha ichki dastalarga saqlash
 deck-config-save-and-optimize = Barcha andozalarni optimllashtirish
 deck-config-revert-button-tooltip = Bu sozlama birlamchi qiymatiga qaytarilsinmi?
 
@@ -279,17 +279,17 @@ deck-config-description-new-handling-hint =
 
 deck-config-daily-limit-will-be-capped =
     { $cards ->
-        [one] Ustdastasini limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
-       *[other] Ustdastasini limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
+        [one] Ona dasta limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
+       *[other] Ona dasta limiti { $cards } ta karta boʻlgani uchun uchun bu limitni almashtiradi.
     }
 deck-config-reviews-too-low =
     { $cards ->
         [one] Agar har kuni { $cards } ta yangi karta qoʻshsangiz, takrorlash limitingiz kamida { $expected } boʻlishi kerak.
        *[other] Agar har kuni { $cards } ta yangi karta qoʻshsangiz, takrorlash limitingiz kamida { $expected } boʻlishi kerak.
     }
-deck-config-learning-step-above-graduating-interval = Bitiruv oraligʻi kamida oxirgi oʻrganish bosqichiga teng boʻlishi kerak.
-deck-config-good-above-easy = Oson oraliq kamida bitiruv oraligʻiga teng boʻlishi kerak.
-deck-config-relearning-steps-above-minimum-interval = Eng kam unutishlar oraligʻi hech boʻlmaganda oxirgi qayta oʻrganish bosqichiga teng boʻlishi kerak.
+deck-config-learning-step-above-graduating-interval = Bitiruv intervali kamida oxirgi oʻrganish bosqichiga teng boʻlishi kerak.
+deck-config-good-above-easy = Oson intervali kamida bitiruv intervaliga teng boʻlishi kerak.
+deck-config-relearning-steps-above-minimum-interval = Eng kam unutishlar intervali hech boʻlmaganda oxirgi qayta oʻrganish bosqichiga teng boʻlishi kerak.
 deck-config-maximum-answer-secs-above-recommended = Har bir savol qisqa boʻlganda, Anki takrorlashlarni yanada samaraliroq rejalashtira oladi.
 deck-config-too-short-maximum-interval = 6 oydan kam boʻlgan maksimal interval tavsiya etilmaydi.
 deck-config-ignore-before-info = (Taxminan) { $included }/{ $totalCards } kartalar FSRS parametrlarini optimallashtirish uchun ishlatiladi.
@@ -362,8 +362,8 @@ deck-config-workload-factor-change =
     Taxminiy ish yuki: { $factor }x
     ({ $previousDR }% eslab qolish nisbati bilan solishtirganda)
 deck-config-workload-factor-unchanged = Bu qiymat qanchalik baland boʻlsa, kartalar shunchalik tez-tez koʻrsatiladi.
-deck-config-desired-retention-too-low = Siz istagan eslab qolish nisbati juda past, va juda uzun oraliqlarga olib kelishi mumkin.
-deck-config-desired-retention-too-high = Siz istagan eslab qolish nisbati juda yuqori, bu juda qisqa vaqt oraligʻiga olib kelishi mumkin.
+deck-config-desired-retention-too-low = Siz istagan eslab qolish nisbati juda past, va juda uzun intervallarga olib kelishi mumkin.
+deck-config-desired-retention-too-high = Siz istagan eslab qolish nisbati juda yuqori, bu juda qisqa intervallarga olib kelishi mumkin.
 deck-config-percent-of-reviews =
     { $reviews ->
         [one] { $reviews } ta takrorlashlardan { $pct }%
@@ -375,7 +375,7 @@ deck-config-checking-for-improvement = Yaxshilash uchun tekshirilmoqda...
 deck-config-optimizing-preset = { $current_count }/{ $total_count } andoza optimallashtirilmoqda...
 deck-config-fsrs-must-be-enabled = Avval FSRS yoqilishi kerak.
 deck-config-fsrs-params-optimal = Joriy FSRS parametrlari optimal koʻrinadi.
-deck-config-fsrs-params-no-reviews = Hech qanday takrorlash yozuvi topilmadi. Ushbu andoza siz optimallashtirmoqchi boʻlgan barcha dastalarga (shu jumladan ostdastalarga) oʻrnatilganligiga ishonch hosil qiling va qaytadan urinib koʻring.
+deck-config-fsrs-params-no-reviews = Hech qanday takrorlash yozuvi topilmadi. Ushbu andoza siz optimallashtirmoqchi boʻlgan barcha dastalarga (shu jumladan ichki dastalarga ham) oʻrnatilganligiga ishonch hosil qiling va qaytadan urinib koʻring.
 deck-config-wait-for-audio = Audioni kutish
 deck-config-show-reminder = Eslatma koʻrsatish
 deck-config-answer-again = Qaytadan deb javob berish
@@ -435,8 +435,8 @@ deck-config-compute-optimal-retention-tooltip4 = Ushbu vosita eng kam vaqt ichid
 deck-config-plotted-on-x-axis = (X oʻqi boʻyicha chizildi)
 deck-config-a-100-day-interval =
     { $days ->
-        [one] 100 kunlik oraliq { $days } kunga aylanadi.
-       *[other] 100 kunlik oraliq { $days } kunga aylanadi.
+        [one] 100 kunlik interval { $days } kunga aylanadi.
+       *[other] 100 kunlik interval { $days } kunga aylanadi.
     }
 deck-config-fsrs-simulator-y-axis-title-time = Takorlash vaqti/kun
 deck-config-fsrs-simulator-y-axis-title-count = Takrorlashlar soni/kun

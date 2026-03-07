@@ -30,7 +30,7 @@ sync-confirm-empty-upload = AnkiWeb kolleksiyasida kartalar yoʻq. Qurilmadagi k
 sync-conflict-explanation =
     Qurilmangizdagi va AnkiWebʼdagi dastalaringiz bir-biridan shunday farq qiladiki, ularni birlashtirib boʻlmaydi, shuning uchun bir joydagi dastalarni boshqa joydagi dastalar bilan almashtirish kerak.
     
-    Yuklab olishni tanlasangiz, Anki toʻplamni AnkiWebʼdan oladi va ushbu qurilmadagi oxirgi sinxronlashdan keyingi barcha oʻzgarishlaringiz yoʻqoladi.
+    Yuklab olishni tanlasangiz, Anki kolleksiyani AnkiWebʼdan oladi va ushbu qurilmadagi oxirgi sinxronlashdan keyingi barcha oʻzgarishlaringiz yoʻqoladi.
     
     Yuklashni tanlasangiz, Anki ushbu qurilmadagi maʼlumotlarini AnkiWebʼga yuboradi va AnkiWebʼda kutilayotgan har qanday oʻzgarishlar yoʻqoladi.
     
@@ -46,12 +46,12 @@ sync-ankiweb-id-label = Elektron pochta:
 sync-password-label = Parol:
 sync-account-required =
     <h1>Akkaunt talab qilinadi</h1>
-    Toʻplamingizni sinxronlash uchun bepul akkaunt talab qilinadi. Akkauntni ochish uchun <a href="{ $link }">roʻyxatdan oʻting</a>, soʻngra quyida maʼlumotlaringizni kiriting.
+    Kolleksiyangizni sinxronlash uchun bepul akkaunt talab qilinadi. Akkauntni ochish uchun <a href="{ $link }">roʻyxatdan oʻting</a>, soʻngra quyida maʼlumotlaringizni kiriting.
 sync-sanity-check-failed = Maʼlumotlar bazasini tekshirish funksiyasini ishlating, soʻng qayta sinxronlang. Muammo davom etsa, sozlamalar ekranida bir tomonlama sinxronlashni majburlang.
 sync-clock-off = Sinxronlab boʻlmadi - soatingiz toʻgʻri sozlanmagan.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
-    Toʻplam faylingiz AnkiWebʼga yuborish uchun juda katta. Uni oʻlchamini har qanday keraksiz dastalarni olib tashlagandan keyin (istasangiz avval ularni eksport qilib) maʼlumotlar bazasini tekshirish funksiyasidan foydalanish orqali fayl hajmini kamaytirishingiz mumkin.
+    Kolleksiya faylingizni AnkiWebʼga yuborish uchun juda katta. Uni oʻlchamini har qanday keraksiz dastalarni olib tashlagandan keyin (istasangiz avval ularni eksport qilib) maʼlumotlar bazasini tekshirish funksiyasidan foydalanish orqali fayl hajmini kamaytirishingiz mumkin.
     
     ({ $details })
 sync-sign-in = Tizimga kirish
@@ -78,4 +78,4 @@ sync-connecting = Ulanilmoqda...
 sync-added-updated-count = Qoʻshildi/oʻzgartirildi: { $up }↑ { $down }↓
 sync-log-in-button = Tizimga kirish
 sync-log-out-button = Tizimdan chiqish
-sync-collection-complete = Toʻplam sinxronizatsiyasi tugadi.
+sync-collection-complete = Kolleksiya sinxronizatsiyasi tugadi.

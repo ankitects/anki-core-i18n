@@ -26,7 +26,7 @@ custom-study-selective-study = Tanlab oʻrganish
 custom-study-study-by-card-state-or-tag = Karta holati yoki tegi boʻyicha oʻrganish
 custom-study-available-new-cards-2 = Mavjud yangi kartalar: { $countString }
 custom-study-available-review-cards-2 = Mavjud takrorlash kartalari: { $countString }
-custom-study-available-child-count = (ostdastalarda { $count } ta)
+custom-study-available-child-count = (Ichki dastalarda { $count } ta)
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

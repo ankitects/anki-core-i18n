@@ -40,9 +40,9 @@ decks-order-due = Muddati boʻyicha
 # Combobox entry: Sort the cards by the number of lapses, in descending order (most lapses to least lapses)
 decks-most-lapses = Eng koʻp unutishlar
 # Combobox entry: Sort the cards by the interval, in ascending order (shortest to longest)
-decks-increasing-intervals = Oraliq oʻsib borish tartibi boʻyicha
+decks-increasing-intervals = Interval oʻsib borish tartibi boʻyicha
 # Combobox entry: Sort the cards by the interval, in descending order (longest to shortest)
-decks-decreasing-intervals = Oraliq kamayib borish tartibi boʻyicha
+decks-decreasing-intervals = Interval kamayib borish tartibi boʻyicha
 # Combobox entry: Sort the cards by the last review date, in ascending order (oldest seen to newest seen)
 decks-oldest-seen-first = Avval eng eskilar
 # Combobox entry: Sort the cards in random order
