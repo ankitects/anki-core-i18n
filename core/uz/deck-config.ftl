@@ -38,7 +38,7 @@ deck-config-apply-all-parent-limits = Limitlar yuqoridan boshlanadi
 deck-config-apply-all-parent-limits-tooltip =
     Birlamchi sifatida, agar ostdastadan oʻrganayotgan boʻlsangiz, uning bosh dasta kunlik limiti ostdastaga qoʻllanilmaydi.
     Agar ushbu parametr yoqilgan boʻlsa, limitlar bosh dastadan boshlanadi. Bu dasta daraxti uchun umumiy karta limitini qoʻllagan holda xolis ostdastalarni oʻrganmoqchi boʻlsangiz foydali boʻlishi mumkin.
-deck-config-affects-entire-collection = Butun toʻplamga taʼsir qiladi.
+deck-config-affects-entire-collection = Butun kolleksiyaga taʼsir qiladi.
 
 ## Daily limit tabs: please try to keep these as short as the English version,
 ## as longer text will not fit on small screens.
@@ -97,7 +97,7 @@ deck-config-bury-priority-tooltip =
 deck-config-ordering-title = Koʻrsatish tartibi
 deck-config-new-gather-priority = Yangi kartalarni yigʻish tartibi
 deck-config-new-gather-priority-tooltip-2 =
-    `Dasta`: yuqoridan boshlab tartib boʻyicha, har bir ostdastadagi kartalarni yigʻadi. Har bir ostdastadagi kartalar oʻrni oʻsib borish tartibida yigʻiladi. Agar tanlangan dasta kunlik limitiga yetsa, barcha ostdastalar tekshirilmay qolib yigʻish toʻxtatilishi mumkin. Bu tartib katta toʻplamlarda eng tez ishlaydi va yuqoriga yaqinroq boʻlgan dastalarga ustuvorlik berishga imkon beradi.
+    `Dasta`: yuqoridan boshlab tartib boʻyicha, har bir ichki dastadagi kartalarni yigʻadi. Har bir ichki dastadagi kartalar oʻrni oʻsib borish tartibida yigʻiladi. Agar tanlangan dasta kunlik limitiga yetsa, barcha ichki dastalar tekshirilmay qolib yigʻish toʻxtatilishi mumkin. Bu tartib katta kolleksiyalarda eng tez ishlaydi va yuqoriga yaqinroq boʻlgan dastalarga ustuvorlik berishga imkon beradi.
     
     `Oʻrni oʻsib borish tartibi boʻyicha`: kartalar oʻrni oʻsib borish tartibi boʻyicha toʻplanadi (muddati #), bu odatda eng avval qoʻshilgan kartalar.
     
@@ -229,7 +229,7 @@ deck-config-hard-interval-tooltip = `Qiyin` deb javob berganda takrorlash oralig
 deck-config-new-interval-tooltip = `Qaytadan` deb javob berganda takrorlash oraligʻiga qoʻllaniladigan koʻpaytiruvchi.
 deck-config-minimum-interval-tooltip = Takrorlash kartasiga `Qaytadan` deb javob berganda beriladigan eng kam oraliq.
 deck-config-custom-scheduling = Rejalashtirishni moslash
-deck-config-custom-scheduling-tooltip = Butun toʻplamga taʼsir qiladi. Ishlatishda ehtiyot boʻling!
+deck-config-custom-scheduling-tooltip = Butun kolleksiyaga taʼsir qiladi. Ishlatishda ehtiyot boʻling!
 
 ## Easy Days section.
 
@@ -327,7 +327,7 @@ deck-config-complete = { $num }% yakunlandi.
 deck-config-iterations = Iteratsiya: { $count }...
 deck-config-reschedule-cards-on-change = Kartalar oʻzgarganda qayta rejalashtirish
 deck-config-fsrs-tooltip =
-    Butun toʻplamga taʼsir qiladi.
+    Butun kolleksiyaga taʼsir qiladi.
     
     Free Spaced Repetition Scheduler (FSRS) Anki eski SuperMemo 2 (SM-2) algoritmiga muqobildir.
     Kartani unutish ehtimolini aniqroq belgilagash orqali, u oldingi bilan bir xil vaqt ichida koʻproq materialni eslab qolishingizga yordam beradi. Bu sozlama barcha andozalar tomonidan qoʻllaniladi.
@@ -343,13 +343,13 @@ deck-config-historical-retention-tooltip =
     Ikkinchisi juda kam uchraydi, shuning uchun siz birinchi variantni ishlatmasangiz, ehtimol bu variantni sozlashingiz shart emas.
 deck-config-weights-tooltip2 = FSRS parametrlari kartalar qanday rejalashtirilishiga taʼsir qiladi. Anki birlamchi parametrlar bilan boshlaydi. Ushbu andoza qoʻllanilgan dastalarda oʻrganish samaradorligingizga mos kelishi uchun parametrlarni optimallashtirish uchun quyidagi parametrni ishlatishingiz mumkin.
 deck-config-reschedule-cards-on-change-tooltip =
-    Butun toʻplamga taʼsir qiladi va saqlanmaydi.
+    Butun kolleksiyaga taʼsir qiladi va saqlanmaydi.
     
     Ushbu parametr FSRS yoqilganda yoki parametrlar optimallashtirilganda kartalar muddati oʻzgarishini nazorat qiladi. Birlamchi sifatida kartalar qayta rejalashtirilmaydi: kelajakdagi takrorlashlar yangi rejalashtirishdan foydalanadi, ammo ish yukingiz darhol oʻzgarmaydi. Qayta rejalashtirish yoqilgan boʻlsa, kartalar muddatlari oʻzgaradi.
 deck-config-reschedule-cards-warning =
     Siz istagan eslab qolish nisbatingizga qarab, bu koʻp sonli kartalar muddatli boʻlib qolishiga olib kelishi mumkin, shuning uchun SM-2 dan birinchi marotaba oʻtishda tavsiya etilmaydi.
     
-    Ushbu parametrni kamdan-kam hollarda ishlating, chunki u har bir kartangizga takrorlash yozuvini qoʻshadi va toʻplamingiz hajmini oshiradi.
+    Ushbu parametrni kamdan-kam hollarda ishlating, chunki u har bir kartangizga takrorlash yozuvini qoʻshadi va kolleksiyangiz hajmini oshiradi.
 deck-config-ignore-before-tooltip-2 =
     Agar yoqilsa, taqdim etilgan sanadan oldin takrorlangan kartalar FSRS parametrlarini optimallashtirishda eʼtiborga olinmaydi.
     Agar siz boshqa birovning rejalashtirish maʼlumotlarini import qilgan boʻlsangiz yoki javob tugmalaridan foydalanish uslubingizni oʻzgartirgan boʻlsangiz, bu sizga qoʻl kelishi mumkin.

@@ -43,7 +43,7 @@ preferences-v3-scheduler = V3 rejalashtiruvchi
 preferences-check-for-updates = Dastur yangilanishlarini tekshirish
 preferences-ignore-accents-in-search = Qidiruvda diakritik belgilarni inobatga olmaslik (sekinroq)
 preferences-backup-explanation =
-    Anki vaqti-vaqti bilan toʻplamingizni zaxiralab turadi. Zaxira nusxalari 2 kundan ortiq turgandan keyin,
+    Anki vaqti-vaqti bilan kolleksiyangizni zaxiralab turadi. Zaxira nusxalari 2 kundan ortiq turgandan keyin,
     Anki diskda boʻsh joy yaratish uchun ularni baʼzilarini oʻchirib tashlaydi.
 preferences-daily-backups = Saqlash uchun kunlik zaxira nusxalar soni:
 preferences-weekly-backups = Saqlash uchun haftalik zaxira nusxalar soni:

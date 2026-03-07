@@ -48,7 +48,7 @@ importing-multicharacter-separators-are-not-supported-please = Koʻp belgili ajr
 importing-new-deck-will-be-created = Yangi dasta yaratiladi: { $name }
 importing-notes-added-from-file = Fayldan qoʻshilgan qaydlar: { $val }
 importing-notes-found-in-file = Faylda topilgan qaydlar: { $val }
-importing-notes-skipped-as-theyre-already-in = Qaydlar oʻtkazib yuborildi, chunki toʻplamingizda eng soʻnggi nusxalari allaqachon mavjud: { $val }
+importing-notes-skipped-as-theyre-already-in = Qaydlar oʻtkazib yuborildi, chunki kolleksiyangizda eng soʻnggi nusxalari allaqachon mavjud: { $val }
 importing-notes-skipped-update-due-to-notetype = Qaydlar yangilanmadi, chunki birinchi marotaba qaydlarni import qilganingizdan keyin qayd turi oʻzgartirilgan: { $val }
 importing-notes-updated-as-file-had-newer = Qaydlar yangilandi, chunki faylda yangi versiyasi mavjud: { $val }
 importing-include-reviews = Takrorlashlarni oʻz ichiga olish
@@ -62,7 +62,7 @@ importing-include-reviews-help =
 importing-with-deck-configs-help =
     Agar yoqilsa, dasta ulashuvchining har qanday dasta parametrlari ham import qilinadi.
     Aks holda, barcha dastalar birlamchi andozaga oʻrnatilgan boʻladi.
-importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlangan Anki dastasi/toʻplami (*.apkg *.colpkg *.zip)
+importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketlangan Anki dastasi/kolleksiyasi (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Tik chiziq
 # Warning displayed when the csv import preview table is clipped (some columns were hidden)
@@ -82,7 +82,7 @@ importing-text-separated-by-tabs-or-semicolons = Tab yoki nuqta vergullar bilan 
 importing-the-first-field-of-the-note = Qayd turining birinchi maydoni moslashtirilgan boʻlishi kereak.
 importing-the-provided-file-is-not-a = Berilgan file yaroqli .apkg fayl emas.
 importing-this-file-does-not-appear-to = Bu fayl yaroqli .apkg fayli emas. Agar siz AnkiWebʻdan yuklab olingan faylda ushbu xatoga duch kelsangiz, yuklab olish muvaffaqiyatsiz boʻlgan boʻlishi mumkin. Qayta urinib koʻring va agar muammo davom etsa, boshqa brauzer bilan qayta urinib koʻring.
-importing-this-will-delete-your-existing-collection = Bu sizning mavjud toʻplamingizni oʻchiradi va uni import qilayotgan fayldagi maʻlumotlar bilan almashtiradi. Ishonchingiz komilmi?
+importing-this-will-delete-your-existing-collection = Bu sizning mavjud kolleksiyangizni oʻchiradi va uni import qilayotgan fayldagi maʻlumotlar bilan almashtiradi. Ishonchingiz komilmi?
 importing-unable-to-import-from-a-readonly = Faqat oʻqish uchun fayldan import qilib boʻlmadi.
 importing-unknown-file-format = Nomaʼlum fayl formati.
 importing-update-existing-notes-when-first-field = Birinchi maydoni mos kelsa mavjud qaydlarni yangilash
@@ -91,9 +91,9 @@ importing-update-if-newer = Yangiroq boʻlsa
 importing-update-always = Har doim
 importing-update-never = Hech qachon
 importing-update-notes = Qaydlarni yangilash
-importing-update-notes-help = Toʻplamingizdagi mavjud qaydni qachon yangilash kerak. Birlamchi sifatida, bu faqat mos keladigan import qilingan qayd yaqinda oʻzgartirilgan boʻlsa amalga oshiriladi.
+importing-update-notes-help = Kolleksiyangizdagi mavjud qaydni qachon yangilash kerak. Birlamchi sifatida, bu faqat mos keladigan import qilingan qayd yaqinda oʻzgartirilgan boʻlsa amalga oshiriladi.
 importing-update-notetypes = Qayd turlarini yangilash
-importing-update-notetypes-help = Toʻplamingizdagi mavjud qayd turini qachon yangilash kerak. Birlamchi sifatida, bu faqat mos keladigan import qilingan qayd turi yaqinda oʻzgartirilgan boʻlsa amalga oshiriladi. Shablon matni va stili oʻzgarishlarini har doim import qilish mumkin, lekin sxema oʻzgarishlari uchun (masalan, maydonlar soni yoki tartibi oʻzgargan boʻlsa) '{ importing-merge-notetypes }' sozlamasi yoqilishi kerak.
+importing-update-notetypes-help = Kolleksiyangizdagi mavjud qayd turini qachon yangilash kerak. Birlamchi sifatida, bu faqat mos keladigan import qilingan qayd turi yaqinda oʻzgartirilgan boʻlsa amalga oshiriladi. Shablon matni va stili oʻzgarishlarini har doim import qilish mumkin, lekin sxema oʻzgarishlari uchun (masalan, maydonlar soni yoki tartibi oʻzgargan boʻlsa) '{ importing-merge-notetypes }' sozlamasi yoqilishi kerak.
 importing-note-added =
     { $count ->
         [one] { $count } ta qayd qoʻshildi
@@ -165,8 +165,8 @@ importing-notes-updated =
     }
 importing-existing-notes-skipped =
     { $count ->
-        [one] { $count } ta qayd toʻplamingizda allaqachon mavjud.
-       *[other] { $count } ta qayd toʻplamingizda allaqachon mavjud.
+        [one] { $count } ta qayd kolleksiyangizda allaqachon mavjud.
+       *[other] { $count } ta qayd kolleksiyangizda allaqachon mavjud.
     }
 importing-notes-failed =
     { $count ->
@@ -195,7 +195,7 @@ importing-details = Tafsilotlar
 importing-status = Holati
 importing-duplicate-note-added = Qayd nusxasi qoʻshildi
 importing-added-new-note = Yangi qayd qoʻshildi
-importing-existing-note-skipped = Qayd oʻtkazib yuborildi, chunki toʻplamingizda yangi versiyasi allaqachon mavjud
+importing-existing-note-skipped = Qayd oʻtkazib yuborildi, chunki kolleksiyangizda yangi versiyasi allaqachon mavjud
 importing-note-skipped-update-due-to-notetype = Qayd yangilanmadi, chunki qayd turi birinchi marta import qilingandan keyin oʻzgartirilgan
 importing-note-skipped-update-due-to-notetype2 = Qayd yangilanmadi, chunki qayd turi birinchi marta import qilingandan keyin oʻzgartirilgan va '{ importing-merge-notetypes }' yoqilmagan
 importing-note-updated-as-file-had-newer = Qayd yangilandi, chunki faylda yangiroq versiya bor edi
@@ -228,7 +228,7 @@ importing-overview = Xulosa
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-importing-importing-collection = Toʻplam import qilinmoqda...
+importing-importing-collection = Kolleksiyangiz import qilinmoqda...
 importing-unable-to-import-filename = { $filename } ni import qilib boʻlmadi: file turi qoʻllab-quvvatlanmaydi
 importing-notes-that-could-not-be-imported =
     Notes that could not be imported as note type has changed: { $val }

@@ -92,7 +92,7 @@ scheduling-update-button = Yangilash
 scheduling-update-later-button = Keyinroq
 scheduling-update-more-info-button = Batafsil
 scheduling-update-required =
-    Toʻplamingiz V2 rejalashtiruvchisiga yangilanishi kerak.
+    Kolleksiyangiz V2 rejalashtiruvchisiga yangilanishi kerak.
     Davom etishdan oldin { scheduling-update-more-info-button } ni tanlang.
 
 ## Other scheduling strings

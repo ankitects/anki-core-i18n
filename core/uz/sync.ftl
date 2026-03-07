@@ -25,8 +25,8 @@ sync-client-too-old = Anki versiyangiz juda eski. Sinxronlashni davom ettirish u
 sync-wrong-pass = E-pochta manzili yoki parol notoʻgʻri; qayta urinib koʻring.
 sync-resync-required = Qayta sinxronlab koʻring. Agar bu xabar qayta paydo boʻladigan boʻlsa, qoʻllab-quvvatlash saytiga yuklang.
 sync-must-wait-for-end = Anki hozirda sinxronlashmoqda. Sinxronlash tugashini kuting, keyin qayta urinib koʻring.
-sync-confirm-empty-download = Qurilmadagi toʻplamda kartalar yoʻq. AnkiWebʼdan yuklab olinsinmi?
-sync-confirm-empty-upload = AnkiWeb toʻplamida kartalar yoʻq. Qurilmadagi toʻplam bilan almashtirilsinmi?
+sync-confirm-empty-download = Qurilmadagi kolleksiyada kartalar yoʻq. AnkiWebʼdan yuklab olinsinmi?
+sync-confirm-empty-upload = AnkiWeb kolleksiyasida kartalar yoʻq. Qurilmadagi kolleksiya bilan almashtirilsinmi?
 sync-conflict-explanation =
     Qurilmangizdagi va AnkiWebʼdagi dastalaringiz bir-biridan shunday farq qiladiki, ularni birlashtirib boʻlmaydi, shuning uchun bir joydagi dastalarni boshqa joydagi dastalar bilan almashtirish kerak.
     

@@ -1,10 +1,10 @@
 exporting-all-decks = Barcha dastalar
 exporting-anki-20-deck = Anki 2.0 dastasi
-exporting-anki-collection-package = Anki toʻplam paketi
+exporting-anki-collection-package = Anki kolleksiya paketi
 exporting-anki-deck-package = Anki dasta paketi
 exporting-cards-in-plain-text = Kartalar oddiy matnda
-exporting-collection = toʻplam
-exporting-collection-exported = Toʻplam eksport qilindi
+exporting-collection = kolleksiya
+exporting-collection-exported = Kolleksiya eksport qilindi
 exporting-colpkg-too-new = Oxirig Anki versiyasiga yangilang, soʻng .colpkg/.apkg faylini qayta import qiling.
 exporting-couldnt-save-file = Faylni saqlab boʻlmadi: { $val }
 exporting-export = Eksport qilish...
