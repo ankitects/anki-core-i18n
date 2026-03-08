@@ -1,5 +1,17 @@
 actions-add = Add
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ALL of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-all-selected = All selected
+# Action in context menu:
+# In the browser sidebar, when in "Select" mode, right-click on the
+# selected criteria elements. In the context menu, click on "Search" to open
+# a submenu. This entry in the submenu creates a search term that matches
+# cards/notes meeting ANY of the selected criteria.
+# https://github.com/ankitects/anki/pull/1044
 actions-any-selected = Any selected
 actions-cancel = Cancel
 actions-choose = Choose
@@ -12,6 +24,7 @@ actions-decks = Decks
 actions-decrement-value = Decrement value
 actions-delete = Delete
 actions-export = Export
+actions-empty-cards = Empty Cards
 actions-filter = Filter
 actions-help = Help
 actions-increment-value = Increment value
@@ -37,6 +50,8 @@ actions-select = Select
 actions-shortcut-key = Shortcut key: { $val }
 actions-suspend-card = Suspend Card
 actions-set-due-date = Set Due Date
+actions-toggle-load-balancer = Toggle Load Balancer
+actions-grade-now = Grade Now
 actions-answer-card = Answer Card
 actions-unbury-unsuspend = Unbury/Unsuspend
 actions-add-deck = Add Deck
@@ -57,10 +72,12 @@ actions-previous-card-info = Previous Card Info
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
 actions-fullscreen-unsupported = Full screen mode is not supported for your video driver. Try switching to a different one from the preferences screen.
-
-## Flags
-
 actions-flag-number = Flag { $number }
+
+## The same translation may used for two independent actions:
+## searching for cards with a flag of the specified color, and
+## toggling the flag of the specified color on a card.
+
 actions-flag-red = Red
 actions-flag-orange = Orange
 actions-flag-green = Green
@@ -68,9 +85,13 @@ actions-flag-blue = Blue
 actions-flag-pink = Pink
 actions-flag-turquoise = Turquoise
 actions-flag-purple = Purple
+
+##
+
 actions-set-flag = Set Flag
 actions-nothing-to-undo = Nothing to undo
 actions-nothing-to-redo = Nothing to redo
 actions-auto-advance = Auto Advance
 actions-auto-advance-activated = Auto Advance enabled
 actions-auto-advance-deactivated = Auto Advance disabled
+actions-processing = Processing...

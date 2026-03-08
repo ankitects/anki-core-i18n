@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Change Deck
 browsing-change-deck2 = Change Deck...
 browsing-change-note-type = Change Note Type
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Change Note Type...
 browsing-change-notetype = Change Notetype
 browsing-clear-unused-tags = Clear Unused Tags
@@ -56,6 +57,18 @@ browsing-last-card = Last Card
 browsing-learning = (learning)
 browsing-line-size = <b>Line Size</b>:
 browsing-manage-note-types = Manage Note Types
+browsing-move-cards = Move Cards
+browsing-move-cards-to-deck = Move cards to deck:
+browsing-new = (new)
+browsing-new-note-type = New note type:
+browsing-no-flag = No Flag
+browsing-no-selection = No cards or notes selected.
+browsing-note = Note
+browsing-notes = Notes
+browsing-optional-filter = Optional filter:
+browsing-override-back-template = Override back template:
+browsing-override-font = Override font:
+browsing-override-front-template = Override front template:
 browsing-randomize-order = Randomise order
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
