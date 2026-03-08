@@ -7,6 +7,12 @@ database-check-card-properties =
         [many] Выпраўлена { $count } памылковых уласцівасцяў картак
        *[other] Выпраўлена { $count } памылковых уласцівасцяў картак
     }.
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Час апошняга перагляду дададзены для { $count } карткі
+        [few] Час апошняга перагляду дададзены для { $count } картак
+       *[many] Час апошняга перагляду дададзены для { $count } картак
+    }
 database-check-missing-templates =
     { $count ->
         [one] Выдалена { $count } картка

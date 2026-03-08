@@ -50,6 +50,7 @@ actions-select = Выбраць
 actions-shortcut-key = Клавіятурны скарот: { $val }
 actions-suspend-card = Прыпыніць картку
 actions-set-due-date = Задаць тэрмін
+actions-toggle-load-balancer = Уключыць балансіроўшчык нагрузкі
 actions-grade-now = Ацаніць
 actions-answer-card = Адказ да карткі
 actions-unbury-unsuspend = Вярнуць/Узнавіць
