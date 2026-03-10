@@ -166,9 +166,9 @@ deck-config-sort-order-ascending-intervals = По возрастанию инт�
 # Sort the cards by the interval, in descending order (longest to shortest).
 deck-config-sort-order-descending-intervals = По убыванию интервалов
 # Sort the cards by ease, in ascending order (lowest to highest ease).
-deck-config-sort-order-ascending-ease = По увеличению лёгкости
+deck-config-sort-order-ascending-ease = По возрастанию лёгкости
 # Sort the cards by ease, in descending order (highest to lowest ease).
-deck-config-sort-order-descending-ease = По уменьшению лёгкости
+deck-config-sort-order-descending-ease = По убыванию лёгкости
 # Sort the cards by difficulty, in ascending order (easiest to hardest).
 deck-config-sort-order-ascending-difficulty = По возрастанию сложности
 # Sort the cards by difficulty, in descending order (hardest to easiest).
