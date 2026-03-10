@@ -132,9 +132,9 @@ deck-config-new-gather-priority-deck = По колоде
 # Gather new cards ordered by deck, then ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-deck-then-random-notes = По колоде, потом случайный
 # Gather new cards ordered by position number, ascending (lowest to highest).
-deck-config-new-gather-priority-position-lowest-first = По возрастанию номеров
+deck-config-new-gather-priority-position-lowest-first = По возрастанию № позиции
 # Gather new cards ordered by position number, descending (highest to lowest).
-deck-config-new-gather-priority-position-highest-first = По убыванию номеров
+deck-config-new-gather-priority-position-highest-first = По убыванию № позиции
 # Gather the cards ordered by random notes, ensuring all cards of the same note are grouped together.
 deck-config-new-gather-priority-random-notes = Случайные записи
 # Gather new cards randomly.
