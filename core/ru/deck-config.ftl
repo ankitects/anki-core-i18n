@@ -341,7 +341,7 @@ deck-config-steps-too-large-for-fsrs = Когда включён FSRS, шаги 
 deck-config-get-params = Получить параметры
 deck-config-complete = { $num }% выполнено.
 deck-config-iterations = Итерация { $count }...
-deck-config-reschedule-cards-on-change = Перепланировать карточки при изменениях.
+deck-config-reschedule-cards-on-change = Перепланировать карточки при изменениях
 deck-config-fsrs-tooltip =
     Затрагивает всю коллекцию.
     Free Spaced Repetition Scheduler (FSRS) - это альтернатива предыдущему алгоритму Anki, SuperMemo 2 (SM2).
