@@ -10,7 +10,7 @@ browsing-average-ease = Средняя лёгкость
 browsing-average-interval = Средний интервал
 browsing-browser-appearance = Вид в окне "Просмотр"
 browsing-browser-options = Параметры окна "Просмотр"
-browsing-buried = Отложенные
+browsing-buried = Отложена
 browsing-card = Карточка
 browsing-cards = Карточки
 browsing-card-list = Список карточек
@@ -57,12 +57,12 @@ browsing-ignore-case = Игнорировать регистр
 browsing-in = <b>Где искать</b>:
 browsing-interval = Интервал
 browsing-last-card = Последняя карточка
-browsing-learning = (изучаемые)
+browsing-learning = (изучение)
 browsing-line-size = <b>Высота строки</b>:
 browsing-manage-note-types = Управление типами записей
 browsing-move-cards = Переместить карточки
 browsing-move-cards-to-deck = Переместить карточки в колоду:
-browsing-new = (новые)
+browsing-new = (новая)
 browsing-new-note-type = Новый тип записи:
 browsing-no-flag = Без флажка
 browsing-no-selection = Карточки или записи не выбраны.
@@ -96,7 +96,7 @@ browsing-sort-field = Поле сортировки
 browsing-sorting-on-this-column-is-not = Невозможно сортировать данный столбец. Выберите другой.
 browsing-start-position = Начальная позиция:
 browsing-step = Шаг:
-browsing-suspended = Исключённые
+browsing-suspended = Исключена
 browsing-tag-duplicates = Пометить повторы
 browsing-tag-rename-warning-empty = Невозможно переименовать метку без записей.
 browsing-target-field = Главное поле:
@@ -188,7 +188,7 @@ browsing-reparented-decks =
         [many] Переименовано { $count } колод.
        *[other] Переименовано { $count } колод.
     }
-browsing-sidebar-card-state-review = Повторяемые
+browsing-sidebar-card-state-review = Повторяемая
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
