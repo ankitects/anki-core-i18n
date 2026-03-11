@@ -170,6 +170,8 @@ deck-config-sort-order-retrievability-descending = laŭ rememoriga probablo malk
 ## Timer section
 
 deck-config-timer-title = Tempmezuriloj
+deck-config-maximum-answer-secs = Maksimuma responda tempo (sekundoj)
+deck-config-maximum-answer-secs-tooltip = La maksimuma nombro da sekundoj por registri respondon. Se respondado troigos tiun ĉi tempon – ekzemple, ĉar vi malproksimiĝos de la komputilo – la responda tempo registriĝos kiel la limigo agordita tie ĉi.
 
 ## Auto Advance section
 
