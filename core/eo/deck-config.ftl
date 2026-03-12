@@ -185,10 +185,15 @@ deck-config-seconds-to-show-answer-tooltip-2 = Kiam aŭtomata malkaŝo estas akt
 deck-config-question-action-show-answer = montri respondon
 deck-config-question-action-show-reminder = montri sciigon
 deck-config-question-action = Ago de demando
-deck-config-question-action-tool-tip = La ago por plenumi post vidigi demandon kaj pasis tempo por respondi.
+deck-config-question-action-tool-tip = La ago por plenumi post vidigi demandon kaj kiam pasis tempo por respondi.
+deck-config-answer-action = Ago de respondo
+deck-config-answer-action-tooltip-2 = La ago por plenumi post vidigi respondon kaj kiam pasis tempo por respondi.
+deck-config-wait-for-audio-tooltip-2 = Atendi ĝis sono finiĝos antaŭ ol aŭtomate plenumi la agon de demando aŭ respondo.
 
 ## Audio section
 
+deck-config-audio-title = Sono
+deck-config-disable-autoplay = Ne ludi sonon aŭtomate
 
 ## Advanced section
 
