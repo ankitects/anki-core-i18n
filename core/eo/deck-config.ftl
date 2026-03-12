@@ -178,7 +178,14 @@ deck-config-stop-timer-on-answer-tooltip = Ĉu halti la tempmezurilon post montr
 
 ## Auto Advance section
 
-deck-config-question-action-show-answer = Montri respondon
+deck-config-seconds-to-show-question = Montri demandon por (sekundoj)
+deck-config-seconds-to-show-question-tooltip-3 = Kiam aŭtomata malkaŝo estas aktiva, nombro da sekundoj por atendi antaŭ ol plenumi agon de demando. Agordu al 0 por malaktivigi.
+deck-config-seconds-to-show-answer = Montri respondon por (sekundoj)
+deck-config-seconds-to-show-answer-tooltip-2 = Kiam aŭtomata malkaŝo estas aktiva, nombro da sekundoj antaŭ ol plenumi agon de respondo. Agordu al 0 por malaktivigi.
+deck-config-question-action-show-answer = montri respondon
+deck-config-question-action-show-reminder = montri sciigon
+deck-config-question-action = Ago de demando
+deck-config-question-action-tool-tip = La ago por plenumi post vidigi demandon kaj pasis tempo por respondi.
 
 ## Audio section
 
