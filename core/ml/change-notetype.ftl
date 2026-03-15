@@ -1,5 +1,7 @@
 change-notetype-current = നിലവിലുള്ളത്
 change-notetype-new = പുതിയത്
+change-notetype-collapse = ചുരുക്കുക
+change-notetype-expand = വലുതാക്കുക
 change-notetype-will-discard-content = ഇനിപ്പറയുന്ന മണ്ഡലങ്ങളിലെ ഉള്ളടക്കം നിരസിക്കും:
 change-notetype-will-discard-cards = ഇനിപ്പറയുന്ന കാർഡുകൾ നീക്കംചെയ്യും:
 change-notetype-fields = മണ്ഡലങ്ങള്‍

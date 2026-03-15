@@ -1,6 +1,7 @@
 adding-add-shortcut-ctrlandenter = ചേര്‍ക്കുക (എളുപ്പവഴി: ctrl+enter)
 adding-added = ചേര്‍ത്തു
-adding-close-and-lose-current-input = അടച്ചതിനു ശേഷം നിലവിലെ ഇൻപുട്ട് ഉപേക്ഷിക്കണോ??
+adding-discard-current-input = നിലവിലെ വിവരങ്ങൾ ഒഴിവാക്കണോ?
+adding-keep-editing = പരിഷ്കരണം തുടരുക
 adding-edit = { $val } തിരുത്തുക
 adding-history = ചരിത്രം
 adding-note-deleted = കുറിപ്പ് ഇല്ലാതാക്കി
