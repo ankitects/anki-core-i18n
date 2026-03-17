@@ -399,9 +399,7 @@ deck-config-reschedule-cards-on-change = Omplanera kort vid ändring
 deck-config-fsrs-tooltip =
     Påverkar hela samlingen.
     
-    FSRS (Free Spaced Repetition Scheduler) är ett alternativ till den gamla schemaläggaren för Anki, SuperMemo 2 (SM-2).
-    Genom att med en högre precision bestämma sannolikheten att ett kort glöms bidrar den nya schemaläggaren till att
-    mer information kan memoreras på samma tid. Denna inställning delas för alla förinställningar.
+    FSRS (Free Spaced Repetition Scheduler) är ett alternativ till den gamla schemaläggaren för Anki, SuperMemo 2 (SM-2). FSRS kan mer exakt bestämma sannolikheten att ett kort glöms, vilket i slutändan innebär att mer information kan memoreras på samma tid. Inställningen är gemensam för alla förinställningar.
 deck-config-desired-retention-tooltip =
     Standardvärdet 0,9 schemalägger kort så att sannolikheten att ett visst kort återkallas är 90% när
     det visas för repetition igen. Om detta värde ökas kommer Anki att visa kort oftare för att öka
