@@ -125,7 +125,7 @@ deck-config-interday-step-priority-tooltip =
     
     Takrorlash limiti har doim birinchi navbatda kunlararo oʻrganish kartalariga, keyin esa takrorlash kartalariga qoʻllaniladi. Ushbu parametr yigʻilgan kartalarning koʻrsatilish tartibini nazorat qiladi, lekin kunlararo oʻrganish kartalari har doim birinchi boʻlib yigʻiladi.
 deck-config-review-sort-order = Takrorlanadiganlarni saralash tartibi
-deck-config-review-sort-order-tooltip = Birlamchi tartib eng uzoq navbatda turgan kartalarga ustuvorlik beradi, shuning uchun agar sizda yiigʻilib qolgan kartalar boʻlsa, eng uzoq navbatda turgan kartalar birinchi boʻlib koʻrsatiladi. Agar yigʻilib qolgan kartalarga bir necha kundan koʻproq vaqt ketadigan boʻlsa yoki kartalarni ichki dasta tartibida koʻrishni istasangiz, muqobil tartiblash uslubi afzalroq boʻlishi mumkin.
+deck-config-review-sort-order-tooltip = Birlamchi tartib eng uzoq navbatda turgan kartalarga ustuvorlik beradi, shuning uchun agar sizda yiigʻilib qolgan kartalar boʻlsa, eng uzoq navbatda turgan kartalar birinchi boʻlib koʻrsatiladi. Agar muddati oʻtgan kartalarga bir necha kundan koʻproq vaqt ketadigan boʻlsa yoki kartalarni ichki dasta tartibida koʻrishni istasangiz, muqobil tartiblash uslubi afzalroq boʻlishi mumkin.
 deck-config-display-order-will-use-current-deck = Anki siz oʻrganish uchun tanlagan dastadagi koʻrsatish tartibidan foydalanadi va undagi har qanday ichki dastadan emas.
 
 ## Gather order and sort order of cards – Combobox entries
@@ -198,7 +198,7 @@ deck-config-seconds-to-show-question = Savolni koʻrsatilish vaqti (soniyalarda)
 deck-config-seconds-to-show-question-tooltip-3 = Avtomatik ilgarilash yoqilganda, savol amalini qoʻllashdan oldin kutish kerak boʻlgan vaqt (soniyalarda). Oʻchirish uchun 0 ga oʻrnating.
 deck-config-seconds-to-show-answer = Javobni koʻrsatish vaqti (soniyalarda)
 deck-config-seconds-to-show-answer-tooltip-2 = Avtomatik ilgarilash yoqilganda, javob amalini qoʻllashdan oldin kutish kerak boʻlgan vaqt (soniyalarda). Oʻchirish uchun 0 ga oʻrnating.
-deck-config-question-action-show-answer = Javobni koʻrsatish
+deck-config-question-action-show-answer = Javobini koʻrish
 deck-config-question-action-show-reminder = Eslatma koʻrsatish
 deck-config-question-action = Savoldan keyingi amal
 deck-config-question-action-tool-tip = Savol koʻrsatilgandan keyin va taymer tugagandan keyin bajariladigan amal.

@@ -221,7 +221,7 @@ statistics-cards-due =
         [one] { $cards } ta kartani muddati keladi
        *[other] { $cards } ta kartani muddati keladi
     }
-statistics-backlog-checkbox = Yigʻilib qolgan kartalar
+statistics-backlog-checkbox = Muddati oʻtganlar
 statistics-intervals-title = Takrorlashlar intervali
 statistics-intervals-subtitle = Takrorlash kartalari qayta koʻrsatilgunga qadar kechikishlar.
 statistics-intervals-day-range =
