@@ -8,6 +8,6 @@ change-notetype-will-discard-cards = Akan menghapus pada kartu berikut:
 change-notetype-fields = Bidang
 change-notetype-templates = Templat
 change-notetype-to-from-cloze =
-    Jika mengubah ke atau dari jeniscatatan rumpang, jumlah kartu akan tidak berubah.
-    jika mengubah ke jeniscatatan rumpang, dan ada lebih banyak perumpangan
-    dibanding template kartu yang ada, maka setiap kartu tambahan akan dihapus.
+    Jika mengubah ke atau dari jenis catatan rumpang, jumlah kartu tidak akan berubah.
+    jika mengubah ke jenis catatan rumpang, dan ada lebih banyak perumpangan
+    Dibandingkan template kartu yang ada, setiap kartu tambahan akan dihapus.
