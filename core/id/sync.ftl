@@ -37,12 +37,30 @@ sync-conflict-explanation =
     Setelah semua perangkat tersinkronisasi, tinjauan dan kartu baru di masa mendatang akan tersedia.…
 sync-ankiweb-id-label = Email:
 sync-password-label = Sandi:
+sync-sanity-check-failed = Silakan gunakan fungsi Periksa Basis Data, lalu sinkronkan lagi. Jika masalah tetap berlanjut, silakan paksa sinkronisasi satu arah di pengaturan preferensi.
+sync-clock-off = Tidak dapat melakukan sinkronisasi - Jam perangkat anda tidak disetel ke waktu yang benar.
 sync-sign-in = Masuk
 sync-ankihub-dialog-heading = Login ke Ankihub
 sync-ankihub-username-label = Username atau Email:
+sync-ankihub-login-failed = Tidak dapat masuk ke AnkiHub dengan kredensial yang diberikan.
+sync-ankihub-addon-installation = Instalasi Add-on Ankihub
 
 ## Buttons
 
+sync-media-log-button = Log media
+sync-abort-button = Batalkan
+sync-download-from-ankiweb = Unduh dari Ankiweb
+sync-upload-to-ankiweb = Unggah ke AnkiWeb
+sync-cancel-button = Batalkan
 
 ## Normal sync progress
 
+sync-downloading-from-ankiweb = Mengunduh dari Ankiweb...
+sync-uploading-to-ankiweb = Mengunggah ke AnkiWeb...
+sync-syncing = Menyinkron...
+sync-checking = Memeriksa...
+sync-connecting = Menghubungkan...
+sync-added-updated-count = Ditambahkan/dimodifikasi: { $up }↑ { $down }↓
+sync-log-in-button = Login
+sync-log-out-button = Logout
+sync-collection-complete = Sinkronisasi koleksi telah berhasil.
