@@ -224,6 +224,7 @@ deck-config-easy-days-sunday = Di.
 deck-config-easy-days-normal = Norme
 deck-config-easy-days-reduced = Malpli
 deck-config-easy-days-minimum = Minimume
+deck-config-easy-days-no-normal-days = Almenaŭ unu tago estu agordita al `{ deck-config-easy-days-normal }`.
 
 ## Adding/renaming
 
