@@ -201,15 +201,29 @@ deck-config-always-include-question-audio-tooltip = Ĉu ludi sonon de demando je
 ## Advanced section
 
 deck-config-advanced-title = Altnivelaj
-deck-config-maximum-interval-tooltip = La maksimuma nombro da tagoj, kiom ripetata karto atendos ĝis la sekva ripeto. Kiam la limigo estos atingita, prokrastoj por “Malfacila”, “Bona” kaj “Facila” estos egalaj. Ju malpli alta tiu ĉi agordo estos, des pli granda estos via necesa peno.
-deck-config-starting-ease-tooltip = La facilec-obligilo por novaj kartoj. Implicite presi la butonon “Bona” ĉe nove lernita karto prokrastos la sekvan ripeton je 2,5 × antaŭa intertempo.
-deck-config-easy-bonus-tooltip = Kroma obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas “Facila”.
+deck-config-maximum-interval-tooltip = La maksimuma nombro da tagoj, kiom ripetata karto atendos ĝis la sekva ripeto. Kiam la limigo estos atingita, prokrastoj por `Malfacila`, `Bona` kaj `Facila` estos egalaj. Ju malpli alta tiu ĉi agordo estos, des pli granda estos via necesa peno.
+deck-config-starting-ease-tooltip = La facilec-obligilo por novaj kartoj. Implicite presi la butonon `Bona` ĉe nove lernita karto prokrastos la sekvan ripeton je 2,5 × antaŭa intertempo.
+deck-config-easy-bonus-tooltip = Kroma obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas `Facila`.
 deck-config-interval-modifier-tooltip = Tiu ĉi obligilo aplikiĝas al ĉiuj ripetataj kartoj. Delikataj modifoj al ĝi kaŭzos Anki plani ripetojn pli konserveme aŭ pli agrese. Legu la gvidlibron antaŭ ol modifi tiun ĉi agordon.
-deck-config-hard-interval-tooltip = Obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas “Malfacila”.
-deck-config-new-interval-tooltip = Obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas “Denove”.
+deck-config-hard-interval-tooltip = La obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas `Malfacila`.
+deck-config-new-interval-tooltip = La obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas `Denove`.
+deck-config-minimum-interval-tooltip = La minimuma intertempo, kiu aplikiĝos al ripetata karto, al kiu via respondo estas `Denove`.
+deck-config-custom-scheduling = Propra planilo
+deck-config-custom-scheduling-tooltip = Influas la tutan kolekton. Uzu nur je via risko!
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Facilaj tagoj
+deck-config-easy-days-monday = Lu.
+deck-config-easy-days-tuesday = Ma.
+deck-config-easy-days-wednesday = Me.
+deck-config-easy-days-thursday = Ĵa.
+deck-config-easy-days-friday = Ve.
+deck-config-easy-days-saturday = Sa.
+deck-config-easy-days-sunday = Di.
+deck-config-easy-days-normal = Norme
+deck-config-easy-days-reduced = Malpli
+deck-config-easy-days-minimum = Minimume
 
 ## Adding/renaming
 
