@@ -202,6 +202,11 @@ deck-config-always-include-question-audio-tooltip = Ĉu ludi sonon de demando je
 
 deck-config-advanced-title = Altnivelaj
 deck-config-maximum-interval-tooltip = La maksimuma nombro da tagoj, kiom ripetata karto atendos ĝis la sekva ripeto. Kiam la limigo estos atingita, prokrastoj por “Malfacila”, “Bona” kaj “Facila” estos egalaj. Ju malpli alta tiu ĉi agordo estos, des pli granda estos via necesa peno.
+deck-config-starting-ease-tooltip = La facilec-obligilo por novaj kartoj. Implicite presi la butonon “Bona” ĉe nove lernita karto prokrastos la sekvan ripeton je 2,5 × antaŭa intertempo.
+deck-config-easy-bonus-tooltip = Kroma obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas “Facila”.
+deck-config-interval-modifier-tooltip = Tiu ĉi obligilo aplikiĝas al ĉiuj ripetataj kartoj. Delikataj modifoj al ĝi kaŭzos Anki plani ripetojn pli konserveme aŭ pli agrese. Legu la gvidlibron antaŭ ol modifi tiun ĉi agordon.
+deck-config-hard-interval-tooltip = Obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas “Malfacila”.
+deck-config-new-interval-tooltip = Obligilo, kiu aplikiĝas al intertempo de ripetata karto, al kiu via respondo estas “Denove”.
 
 ## Easy Days section.
 
