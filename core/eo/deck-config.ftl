@@ -194,9 +194,14 @@ deck-config-wait-for-audio-tooltip-2 = Atendi ĝis sono finiĝos antaŭ ol aŭto
 
 deck-config-audio-title = Sono
 deck-config-disable-autoplay = Ne ludi sonon aŭtomate
+deck-config-disable-autoplay-tooltip = Kiam aktiva, Anki ne ludos sonon aŭtomate. La sono povos esti ludita permane per alklaki/frapeti bildsimbolon de sono aŭ per uzi la agon “Reludi”.
+deck-config-skip-question-when-replaying = Preterpasi demandon dum reludi respondon
+deck-config-always-include-question-audio-tooltip = Ĉu ludi sonon de demando je uzi la agon “Reludi” dum montri dorsan flankon de la karto.
 
 ## Advanced section
 
+deck-config-advanced-title = Altnivelaj
+deck-config-maximum-interval-tooltip = La maksimuma nombro da tagoj, kiom ripetata karto atendos ĝis la sekva ripeto. Kiam la limigo estos atingita, prokrastoj por “Malfacila”, “Bona” kaj “Facila” estos egalaj. Ju malpli alta tiu ĉi agordo estos, des pli granda estos via necesa peno.
 
 ## Easy Days section.
 
