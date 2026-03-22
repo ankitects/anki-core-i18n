@@ -35,6 +35,11 @@ sync-conflict-explanation =
     Jika Anda memilih unggah, Anki akan mengirim data perangkat ini ke AnkiWeb, dan setiap perubahan yang menunggu di AnkiWeb akan hilang. 
     
     Setelah semua perangkat tersinkronisasi, tinjauan dan kartu baru di masa mendatang akan tersedia.…
+sync-ankiweb-id-label = Email:
+sync-password-label = Sandi:
+sync-sign-in = Masuk
+sync-ankihub-dialog-heading = Login ke Ankihub
+sync-ankihub-username-label = Username atau Email:
 
 ## Buttons
 
