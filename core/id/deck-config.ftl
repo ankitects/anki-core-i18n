@@ -247,32 +247,158 @@ deck-config-maximum-interval-tooltip =
     Jumlah hari maksimum yang akan ditunggu oleh kartu ulasan. Ketika ulasan telah mencapai batas, `Sulit`, `Baik`, dan `Mudah` semuanya akan memberikan penundaan yang sama.
     
     Semakin pendek Anda menetapkan ini, semakin besar beban studi Anda.
-deck-config-starting-ease-tooltip = Pengali kemudahan yang akan digunakan kartu baru saat pertama kali dipelajari. Secara default, tombol `Bagus` pada kartu yang baru dipelajari akan menunda ulasan berikutnya sebanyak 2,5 kali penundaan sebelumnya.
+deck-config-starting-ease-tooltip = Pengali kemudahan yang akan digunakan kartu baru saat pertama kali dipelajari. Secara default, tombol `Baik` pada kartu yang baru dipelajari akan menunda ulasan berikutnya sebanyak 2,5 kali penundaan sebelumnya.
+deck-config-easy-bonus-tooltip = Pengali tambahan yang diterapkan pada jeda kartu ulasan saat Anda memberi peringkat `Mudah`.
+deck-config-interval-modifier-tooltip =
+    Pengali ini diterapkan pada semua ulasan, dan penyesuaian kecil dapat digunakan
+    untuk membuat Anki lebih konservatif atau agresif dalam penjadwalannya. Silakan lihat
+    panduan manual sebelum mengubah opsi ini.
+deck-config-hard-interval-tooltip = Pengali yang diterapkan pada interval peninjauan saat menjawab `Sulit`.
+deck-config-new-interval-tooltip = Pengali yang diterapkan pada interval peninjauan saat menjawab `Lagi`.
+deck-config-minimum-interval-tooltip = Pengali yang diterapkan pada interval peninjauan saat menjawab `Lagi`.
+deck-config-custom-scheduling = Penjadwalan khusus
+deck-config-custom-scheduling-tooltip = Ini mempengaruhi seluruh koleksi dek Anda. Harap gunakan dengan bijak!
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Hari-hari Santai
+deck-config-easy-days-monday = Senin
+deck-config-easy-days-tuesday = Selasa
+deck-config-easy-days-wednesday = Rabu
+deck-config-easy-days-thursday = Kamis
+deck-config-easy-days-friday = Jumat
+deck-config-easy-days-saturday = Sabtu
+deck-config-easy-days-sunday = Minggu
+deck-config-easy-days-normal = Normal
+deck-config-easy-days-reduced = Diringankan
+deck-config-easy-days-minimum = Minimal
+deck-config-easy-days-no-normal-days = Setidaknya satu hari harus diatur ke '{ deck-config-easy-days-normal }'.
+deck-config-easy-days-change = Tinjauan yang sudah ada tidak akan dijadwalkan ulang kecuali '{ deck-config-reschedule-cards-on-change }' diaktifkan dalam opsi FSRS.
 
 ## Adding/renaming
 
+deck-config-add-group = Tambahkan Preset
+deck-config-name-prompt = Nama
+deck-config-rename-group = Ubah nama Preset
+deck-config-clone-group = Salin Preset
 
 ## Removing
 
+deck-config-remove-group = Hapus Preset
+deck-config-will-require-full-sync =
+    Perubahan yang diminta akan memerlukan sinkronisasi satu arah. Jika Anda telah melakukan perubahan pada perangkat lain, dan belum menyinkronkannya ke perangkat ini,
+    harap lakukan terlebih dahulu sebelum Anda melanjutkan.
+deck-config-confirm-remove-name = Hapus { $name }?
 
 ## Other Buttons
 
+deck-config-save-button = Simpan
+deck-config-save-to-all-subdecks = Simpan ke semua Subdek
+deck-config-save-and-optimize = Optimalkan Semua Preset
+deck-config-revert-button-tooltip = Kembalikan pengaturan ini ke opsi defaultnya?
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Penanganan khusus untuk Anki 2.1.41+
+deck-config-description-new-handling-hint =
+    Memperlakukan input sebagai markdown, dan membersihkan input HTML. Saat diaktifkan,
+    deskripsi juga akan ditampilkan di layar ucapan selamat.
+    Markdown akan muncul sebagai teks pada Anki 2.1.40 dan di bawahnya.
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped = Dek induk memiliki batasan sebanyak { $cards } kartu, yang akan mengabaikan batasan ini.
+deck-config-reviews-too-low = Jika menambahkan { $cards } kartu baru setiap hari, batas peninjauan Anda setidaknya harus { $expected }.
+deck-config-learning-step-above-graduating-interval = Interval kelulusan kartu baru setidaknya harus sama panjangnya dengan langkah pembelajaran terakhir Anda.
+deck-config-good-above-easy = Interval mudah setidaknya harus sama panjangnya dengan interval kelulusan kartu baru.
+deck-config-relearning-steps-above-minimum-interval = Interval jeda minimum setidaknya harus sama panjangnya dengan langkah kartu yang dipelajari ulang terakhir Anda.
+deck-config-maximum-answer-secs-above-recommended = Anki dapat menjadwalkan sesi peninjauan Anda dengan lebih efisien jika setiap pertanyaan dibuat singkat.
+deck-config-too-short-maximum-interval = Interval maksimal kurang dari 6 bulan tidak disarankan.
+deck-config-ignore-before-info = (Kurang lebih) { $included }/{ $totalCards } kartu akan digunakan untuk mengoptimalkan parameter FSRS.
 
 ## Selecting a deck
 
+deck-config-which-deck = Dek mana yang ingin Anda tampilkan opsinya?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Memperbarui kartu: { $current_cards_count }/{ $total_cards_count }...
+deck-config-invalid-parameters = Parameter FSRS yang diberikan tidak valid. Biarkan kosong untuk menggunakan parameter default.
+deck-config-not-enough-history = Riwayat peninjauan tidak mencukupi untuk melakukan operasi ini.
+deck-config-must-have-400-reviews = Hanya ditemukan { $count } ulasan. Anda harus memiliki setidaknya 400 tinjauan agar operasi ini berhasil.
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Parameter FSRS
+deck-config-compute-optimal-weights = Optimalkan parameter FSRS
+deck-config-optimize-button = Optimalkan Preset Saat Ini
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (lambat)
+deck-config-compute-button = Kalkulasikan
+deck-config-ignore-before = Abaikan kartu yang telah ditinjau sebelumnya
+deck-config-time-to-optimize = Sudah lama sekali - disarankan untuk menggunakan tombol Optimalkan Semua Preset.
+deck-config-evaluate-button = Evaluasikan
+deck-config-desired-retention = Retensi yang diinginkan
+deck-config-historical-retention = Retensi historis
+deck-config-smaller-is-better = Angka yang lebih kecil menunjukkan kesesuaian yang lebih baik dengan riwayat ulasan Anda.
+deck-config-steps-too-large-for-fsrs = Saat FSRS diaktifkan, langkah waktu 1 hari atau lebih tidak disarankan.
+deck-config-get-params = Dapatkan Parameter
+deck-config-complete = { $num }% selesai.
+deck-config-iterations = Iterasi: { $count }...
+deck-config-reschedule-cards-on-change = Jadwalkan ulang kartu jika terjadi perubahan
+deck-config-fsrs-tooltip =
+    Ini memengaruhi seluruh koleksi Anda.
+    
+    Free Spaced Repetition Scheduler (FSRS) adalah pengganti untuk algoritma SuperMemo 2 (SM-2) Anki yang sudah jadul.
+    
+    Dengan menentukan secara lebih akurat seberapa besar kemungkinan Anda melupakan sebuah kartu, ini dapat membantu Anda mengingat lebih banyak materi dalam waktu yang sama. Pengaturan ini berlaku untuk semua preset.
+deck-config-desired-retention-tooltip =
+    Secara default, Anki menjadwalkan kartu sehingga Anda memiliki peluang 90% untuk mengingatnya ketika kartu tersebut muncul untuk ditinjau kembali. Jika Anda meningkatkan nilai ini, Anki akan menampilkan kartu lebih sering untuk meningkatkan peluang Anda mengingatnya.
+    Jika Anda menurunkan nilainya, Anki akan menampilkan kartu lebih jarang, dan Anda akan melupakan lebih banyak kartu.
+    Berhati-hatilah saat menyesuaikan ini - nilai yang lebih tinggi akan sangat meningkatkan beban studi Anda, dan nilai yang lebih rendah dapat menurunkan semangat Anda ketika Anda melupakan banyak materi.
+deck-config-desired-retention-tooltip2 = Nilai beban studi yang diberikan oleh kotak informasi hanyalah perkiraan kasar. Untuk tingkat akurasi yang lebih tinggi, gunakan simulator.
+deck-config-historical-retention-tooltip =
+    Ketika sebagian riwayat ulasan Anda hilang, FSRS perlu mengisi kekosongan tersebut. Secara default, FSRS akan menganggap bahwa ketika Anda melakukan ulasan lama tersebut, Anda mengingat sebanyak 90% dari materi itu.
+    Jika tingkat retensi lama Anda jauh lebih tinggi atau lebih rendah dari 90%, menyesuaikan opsi ini akan memungkinkan FSRS untuk memperkirakan ulasan yang hilang dengan lebih baik.
+    
+    Riwayat ulasan Anda mungkin tidak lengkap karena dua alasan:
+    1. Karena Anda menggunakan opsi 'Abaikan kartu yang telah ditinjau sebelumnya'.
+    2. Karena Anda sebelumnya menghapus log ulasan untuk mengosongkan ruang, atau mengimpor materi dari program SRS yang berbeda.
+    
+    Masih ada lagi, tapi sisa-sisa itu cukup jarang terjadi, jadi kecuali Anda menggunakan opsi pertama, Anda mungkin tidak perlu menyesuaikan opsi ini.
+deck-config-weights-tooltip2 = Parameter FSRS memengaruhi bagaimaan cara kartu-kartu dijadwalkan. Anki akan dimulai dengan parameter default. Anda dapat menggunakan opsi di bawah ini untuk mengoptimalkan parameter agar sesuai dengan performa Anda di dek yang menggunakan preset ini.
+deck-config-reschedule-cards-on-change-tooltip =
+    Ini memengaruhi seluruh koleksi, dan tidak disimpan.
+    
+    Opsi ini mengontrol apakah tanggal jatuh tempo kartu akan diubah saat Anda mengaktifkan FSRS, atau mengoptimalkan parameter.
+    Secara default, kartu tidak dijadwal ulang: tinjauan di masa mendatang akan menggunakan penjadwalan baru, tetapi tidak akan ada perubahan langsung pada beban studi Anda.
+    Jika penjadwalan ulang diaktifkan, tanggal jatuh tempo kartu akan diubah.
+deck-config-reschedule-cards-warning =
+    Tergantung pada tingkat retensi yang Anda inginkan, ini dapat mengakibatkan sejumlah besar kartu menjadi jatuh tempo, sehingga tidak disarankan saat pertama kali beralih dari SM-2.
+    
+    Gunakan opsi ini dengan bijak, karena akan menambahkan entri ulasan ke setiap kartu Anda, dan meningkatkan ukuran koleksi Anda.
+deck-config-ignore-before-tooltip-2 = Jika diatur, kartu yang ditinjau sebelum tanggal yang diberikan akan diabaikan saat mengoptimalkan parameter FSRS. Ini dapat berguna jika Anda mengimpor data penjadwalan orang lain, atau telah mengubah cara Anda menggunakan tombol jawaban.
+deck-config-compute-optimal-weights-tooltip2 =
+    Saat Anda mengklik tombol Optimalkan, FSRS akan menganalisis riwayat seluruh ulasan Anda, dan menghasilkan parameter yang optimal untuk daya ingat Anda dan konten yang sedang Anda pelajari. Jika tingkat kesulitan dek Anda sangat bervariasi, disarankan untuk menetapkan preset terpisah untuk setiap dek, karena parameter untuk dek mudah dan dek sulit akan berbeda.
+    
+    Anda tidak perlu mengoptimalkan parameter Anda secara terus-menerus; setiap beberapa bulan saja sudah cukup.
+    
+    Secara default, parameter akan dihitung dari riwayat ulasan semua dek yang menggunakan preset saat ini. Anda dapat menyesuaikan pencarian sebelum menghitung parameter jika Anda ingin mengubah kartu mana yang digunakan untuk mengoptimalkan parameter.
+deck-config-please-save-your-changes-first = Harap simpan perubahan Anda terlebih dahulu.
+deck-config-workload-factor-change =
+    Perkiraan beban studi: { $factor }x
+    (dibandingkan dengan { $previousDR }% retensi sebelumnya)
+deck-config-workload-factor-unchanged = Semakin tinggi nilai ini, semakin sering kartu akan ditampilkan kepada Anda.
+deck-config-desired-retention-too-low = Tingkat retensi yang Anda inginkan sangat rendah, yang dapat menyebabkan interval yang sangat panjang.
+deck-config-desired-retention-too-high = Tingkat retensi yang Anda inginkan sangat tinggi, yang dapat menyebabkan interval yang sangat singkat.
+deck-config-percent-of-reviews = { $pct }% dari { $reviews } ulasan
+deck-config-percent-input = { $pct }
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Memeriksa apakah ada yang bisa diimprovisasi...
+deck-config-optimizing-preset = Mengoptimalkan preset { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = FSRS harus diaktifkan terlebih dahulu.
+deck-config-fsrs-params-optimal = Parameter FSRS saat ini tampaknya sudah optimal.
+deck-config-fsrs-params-no-reviews = Tidak ada ulasan yang ditemukan. Pastikan preset ini diterapkan ke semua deck (termasuk subdeck) yang ingin Anda optimalkan, lalu coba lagi.
+deck-config-wait-for-audio = Tunggu Audio
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
