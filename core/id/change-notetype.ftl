@@ -1,7 +1,7 @@
 change-notetype-current = Saat ini
 change-notetype-new = Baru
 change-notetype-nothing = (Tidak ada)
-change-notetype-collapse = Lipat
+change-notetype-collapse = Tutup
 change-notetype-expand = Perluas
 change-notetype-will-discard-content = Akan membuang konten pada bidang berikut:
 change-notetype-will-discard-cards = Akan menghapus pada kartu berikut:

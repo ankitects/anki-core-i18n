@@ -62,10 +62,10 @@ deck-config-new-insertion-order-random-with-v3 = Dengan scheduler v3, sebaiknya 
 
 deck-config-relearning-steps = Langkah pembelajaran ulang
 deck-config-relearning-steps-tooltip = Nol atau lebih jeda, dipisahkan dengan spasi. Secara bawaan, menekan tombol 'Lagi' pada kartu ulasan akan menampilkannya kembali 10 menit kemudian. Jika tidak ada jeda yang diberikan, interval kartu akan diubah, tanpa memasuki pembelajaran ulang. { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip = Jumlah kali tombol 'Lagi' harus ditekan pada kartu ulasan sebelum kartu tersebut ditandai sebagai leech. Leech adalah kartu yang memakan banyak waktu Anda, dan ketika kartu ditandai sebagai leech, sebaiknya kartu tersebut ditulis ulang, dihapus, atau diberi mnemonik agar lebih mudah diingat.
+deck-config-leech-threshold-tooltip = Jumlah kali tombol 'Lagi' harus ditekan pada kartu ulasan sebelum kartu tersebut ditandai sebagai bandel. Kartu bandel adalah kartu yang memakan banyak waktu Anda, dan ketika kartu ditandai sebagai bandel, sebaiknya kartu tersebut ditulis ulang, dihapus, atau diberi mnemonik agar lebih mudah diingat.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    'Hanya Label': Menambahkan label leech pada catatan, dan menampilkan pop-up.
+    'Hanya Label': Menambahkan label bandel pada catatan, dan menampilkan pop-up.
     
     'Cabut Kartu': Selain menambahkan label pada catatan, kartu akan disembunyikan hingga diaktifkan kembali secara manual.
 
@@ -399,9 +399,56 @@ deck-config-fsrs-must-be-enabled = FSRS harus diaktifkan terlebih dahulu.
 deck-config-fsrs-params-optimal = Parameter FSRS saat ini tampaknya sudah optimal.
 deck-config-fsrs-params-no-reviews = Tidak ada ulasan yang ditemukan. Pastikan preset ini diterapkan ke semua deck (termasuk subdeck) yang ingin Anda optimalkan, lalu coba lagi.
 deck-config-wait-for-audio = Tunggu Audio
+deck-config-show-reminder = Tampilkan Pengingat
+deck-config-answer-again = Jawab Lagi
+deck-config-answer-hard = Jawab Sulit
+deck-config-answer-good = Jawab Baik
+deck-config-days-to-simulate = Berapa hari untuk simulasi
+deck-config-desired-retention-below-optimal = Tingkat retensi yang Anda inginkan saat ini masih di bawah optimal. Disarankan untuk meningkatkannya.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = Simulasi FSRS (Eksperimental)
+deck-config-fsrs-simulate-desired-retention-experimental = Tingkat retensi yang Diinginkan untuk simulasi FSRS (Eksperimental)
+deck-config-fsrs-simulate-save-preset = Setelah melakukan optimasi, harap simpan preset dek Anda sebelum menjalankan simulator.
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Bantu Aku Memutuskan (Eksperimental)
+deck-config-additional-new-cards-to-simulate = Kartu baru tambahan untuk simulasi
+deck-config-simulate = Simulasikan
+deck-config-clear-last-simulate = Hapus Simulasi Terakhir
+deck-config-fsrs-simulator-radio-count = Ulasan
+deck-config-advanced-settings = Pengaturan Tingkat Lanjut
+deck-config-smooth-graph = Grafik halus
+deck-config-suspend-leeches = Tangguhkan kartu-kartu bandel
+deck-config-save-options-to-preset = Simpan Perubahan pada Preset
+deck-config-save-options-to-preset-confirm = Apakah Anda ingin menimpa opsi di preset Anda saat ini dengan opsi yang saat ini diatur di simulasi?
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Diingat
+deck-config-fsrs-simulator-radio-ratio = Rasio Waktu / Ingatan
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = { $time } per kartu yang diingat
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Periksa kondisi saat melakukan optimasi
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Pemeriksaan Kesehatan:
+    Kemampuan ingatan Anda sulit diprediksi oleh FSRS. Rekomendasi:
+    
+    - Tangguhkan atau formulasikan ulang kartu apa pun yang terus-menerus Anda lupakan.
+    - Gunakan tombol jawaban secara konsisten. Ingatlah bahwa "Sulit" adalah nilai lulus, bukan nilai gagal.
+    - Pahami sebelum mengingat.
+    
+    Jika Anda mengikuti saran-saran ini, kinerja biasanya akan meningkat dalam beberapa bulan ke depan.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Pemeriksaan Kesehatan:
+    FSRS dapat beradaptasi dengan memori Anda dengan baik.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
+deck-config-unable-to-determine-desired-retention = Tidak dapat menentukan retensi minimum yang direkomendasikan.
+deck-config-predicted-minimum-recommended-retention = Retensi minimum yang disarankan: { $num }

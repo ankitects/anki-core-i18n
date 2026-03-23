@@ -4,4 +4,4 @@ media-for-security-reasons-is-not = Demi keamanan, '{ $val } dilarang pada kartu
 media-generated-file = File dibuat: { $val }
 media-have-you-installed-latex-and-dvipngdvisvgm = apakah latex dan dvipng/dvisvgm terpasang?
 media-recordingtime = Merekam...<br>Waktu: { $secs }
-media-sound-and-video-on-cards-will = Suara dan gambar di kartu tak berfungsi hingga mpv or mplayer terpasang
+media-sound-and-video-on-cards-will = Pemutaran suara dan video pada kartu tidak akan berfungsi sampai mpv atau mplayer diinstal.
