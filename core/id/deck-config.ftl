@@ -20,8 +20,8 @@ deck-config-review-limit-tooltip =
     Jumlah maksimum kartu ulasan yang ditampilkan dalam sehari,
     jika kartu sudah siap untuk diulas.
 deck-config-limit-deck-v3 =
-    Saat mempelajari dek yang memiliki sub-set di dalamnya, batas yang ditetapkan pada setiap
-    sub-set mengontrol jumlah maksimum kartu yang diambil dari dek tersebut.
+    Saat mempelajari dek yang memiliki sub-dek di dalamnya, batas yang ditetapkan pada setiap
+    sub-dek mengontrol jumlah maksimum kartu yang diambil dari dek tersebut.
     Batas pada dek yang dipilih mengontrol total kartu yang akan ditampilkan.
 deck-config-limit-new-bound-by-reviews = Batasan ulasan memengaruhi batasan baru. Misalnya, jika batas ulasan Anda disetel ke 200, dan Anda memiliki 190 ulasan yang menunggu, maksimal 10 kartu baru akan diperkenalkan. Jika batas ulasan Anda telah tercapai, tidak ada kartu baru yang akan ditampilkan.
 deck-config-limit-interday-bound-by-reviews = Batas ulasan juga memengaruhi kartu pembelajaran antar hari. aat batas diterapkan, kartu pembelajaran antarhari dikumpulkan terlebih dahulu, kemudian kartu ulasan.
@@ -222,15 +222,32 @@ deck-config-seconds-to-show-question = Durasi tampilan pertanyaan (detik)
 deck-config-seconds-to-show-question-tooltip-3 = Saat lanjut otomatis diaktifkan, jumlah detik yang ditunggu sebelum menerapkan aksi pertanyaan. Atur ke 0 untuk menonaktifkan.
 deck-config-seconds-to-show-answer = Durasi tampilan jawaban (detik)
 deck-config-seconds-to-show-answer-tooltip-2 = Saat lanjut otomatis diaktifkan, jumlah detik yang ditunggu sebelum menerapkan aksi pertanyaan. Atur ke 0 untuk menonaktifkan.
-deck-config-question-action-show-answer = tampilkan jawaban
-deck-config-question-action-show-reminder = tampilkan pengingat
+deck-config-question-action-show-answer = Tampilkan jawaban
+deck-config-question-action-show-reminder = Tampilkan pengingat
 deck-config-question-action = Aksi pertanyaan
+deck-config-question-action-tool-tip = Tindakan yang harus dilakukan setelah pertanyaan ditampilkan, dan waktu telah berlalu.
+deck-config-answer-action = Tindakan jawaban
+deck-config-answer-action-tooltip-2 = Tindakan yang harus dilakukan setelah jawaban ditampilkan, dan waktu telah berlalu.
+deck-config-wait-for-audio-tooltip-2 = Tunggu hingga  pemutaran audio selesai sebelum menerapkan tindakan pertanyaan atau tindakan jawaban secara otomatis.
 
 ## Audio section
 
+deck-config-audio-title = Audio
+deck-config-disable-autoplay = Jangan putar audio secara otomatis
+deck-config-disable-autoplay-tooltip =
+    Saat diaktifkan, Anki tidak akan memutar audio secara otomatis.
+    Audio dapat diputar secara manual dengan mengklik/mengetuk ikon audio, atau dengan menggunakan tindakan Putar Ulang.
+deck-config-skip-question-when-replaying = Lewati pertanyaan saat memutar ulang jawaban
+deck-config-always-include-question-audio-tooltip = Apakah audio pertanyaan harus disertakan ketika tindakan Putar Ulang digunakan saat melihat sisi jawaban kartu.
 
 ## Advanced section
 
+deck-config-advanced-title = Opsi Tingkat lanjut
+deck-config-maximum-interval-tooltip =
+    Jumlah hari maksimum yang akan ditunggu oleh kartu ulasan. Ketika ulasan telah mencapai batas, `Sulit`, `Baik`, dan `Mudah` semuanya akan memberikan penundaan yang sama.
+    
+    Semakin pendek Anda menetapkan ini, semakin besar beban studi Anda.
+deck-config-starting-ease-tooltip = Pengali kemudahan yang akan digunakan kartu baru saat pertama kali dipelajari. Secara default, tombol `Bagus` pada kartu yang baru dipelajari akan menunda ulasan berikutnya sebanyak 2,5 kali penundaan sebelumnya.
 
 ## Easy Days section.
 
