@@ -5,8 +5,6 @@
 ## "`{ $context }`" => 「`{ $context }`」
 
 search-invalid-search = Pencarian tidak valid: { $reason }
-search-misplaced-and = Kata 'and' (dan) ditemukan tetapi tidak menghubungkan dua istilah pencarian. Jika Anda ingin mencari kata itu sendiri, beri tanda kutip ganda: "and".
-search-misplaced-or = Kata `or` (atau) ditemukan tetapi tidak menghubungkan dua istilah pencarian. Jika Anda ingin mencari kata itu sendiri, beri tanda kutip ganda: `"or"`.
 search-invalid-other = Harap periksa kesalahan pengetikan.
 
 ## eg. expected a number in "due>5x", but found "5x"

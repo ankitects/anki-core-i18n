@@ -12,7 +12,7 @@ actions-all-selected = Pilih Semua
 # a submenu. This entry in the submenu creates a search term that matches
 # cards/notes meeting ANY of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
-actions-any-selected = Pilih tiap-tiap
+actions-any-selected = Apa pun yang dipilih
 actions-cancel = Batal
 actions-choose = Memilih
 actions-close = Tutup
@@ -48,7 +48,7 @@ actions-save = Simpan
 actions-search = Cari
 actions-select = Pilih
 actions-shortcut-key = Tombol Shortcut: { $val }
-actions-suspend-card = Cabut Kartu
+actions-suspend-card = Tangguhkan Kartu
 actions-set-due-date = Atur Batas Waktu
 actions-toggle-load-balancer = Nyala/matikan Penyeimbang
 actions-grade-now = Nilai Sekarang
