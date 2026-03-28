@@ -225,6 +225,7 @@ deck-config-easy-days-normal = Norme
 deck-config-easy-days-reduced = Malpli
 deck-config-easy-days-minimum = Minimume
 deck-config-easy-days-no-normal-days = Almenaŭ unu tago estu agordita al `{ deck-config-easy-days-normal }`.
+deck-config-easy-days-change = Tiel longe, kiel la agordo “{ deck-config-reschedule-cards-on-change }” estos aktiva en la sekcio “FSRS”, ekzistaj ripetoj ne estos replanitaj.
 
 ## Adding/renaming
 
