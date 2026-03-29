@@ -230,13 +230,21 @@ deck-config-easy-days-change = Tiel longe, kiel la agordo “{ deck-config-resch
 ## Adding/renaming
 
 deck-config-add-group = Aldoni antaŭagordon
+deck-config-name-prompt = Nomo
+deck-config-rename-group = Alinomi antaŭagordon
+deck-config-clone-group = Duobligi antaŭagordon
 
 ## Removing
 
+deck-config-remove-group = Forigi antaŭagordon
+deck-config-will-require-full-sync = La petita ŝanĝo postulos unudirektan samtempigon. Se vi faris ŝanĝojn ĉe alia aparato, kiuj ne estas samtempigitaj kun tiu ĉi aparato, faru la samtempigon antaŭ ol pluigi.
+deck-config-confirm-remove-name = Ĉu forigi la antaŭagordon { $name }?
 
 ## Other Buttons
 
 deck-config-save-button = Konservi
+deck-config-save-to-all-subdecks = Konservi al ĉiuj subkartaroj
+deck-config-save-and-optimize = Plejbonigi ĉiujn antaŭagordojn
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
