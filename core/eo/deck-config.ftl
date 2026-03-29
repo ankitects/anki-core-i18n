@@ -229,6 +229,7 @@ deck-config-easy-days-change = Tiel longe, kiel la agordo “{ deck-config-resch
 
 ## Adding/renaming
 
+deck-config-add-group = Aldoni antaŭagordon
 
 ## Removing
 
