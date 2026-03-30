@@ -245,10 +245,12 @@ deck-config-confirm-remove-name = Ĉu forigi la antaŭagordon { $name }?
 deck-config-save-button = Konservi
 deck-config-save-to-all-subdecks = Konservi al ĉiuj subkartaroj
 deck-config-save-and-optimize = Plejbonigi ĉiujn antaŭagordojn
+deck-config-revert-button-tooltip = Restarigi tiun ĉi agordon al implicita valoro
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
 
+deck-config-description-new-handling = Subteni Anki 2.1.41+
 
 ## Warnings shown to the user
 
