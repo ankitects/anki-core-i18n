@@ -42,11 +42,11 @@ sync-conflict-explanation2 =
     - **{ sync-upload-to-ankiweb }** ni tanlasangiz, AnkiWebʼdagi dastalar ushbu qurilmadagi dastalar bilan almashtiriladi va AnkiWebʼdagi har qanday oʼzgarishlarni yoʻqoladi.
     
     Ixtilof bartaraf etilgach, sinxronlash odatdagidek ishlaydi.
-sync-ankiweb-id-label = Elektron pochta:
+sync-ankiweb-id-label = E‑pochta:
 sync-password-label = Parol:
 sync-account-required =
-    <h1>Akkaunt talab qilinadi</h1>
-    Kolleksiyangizni sinxronlash uchun bepul akkaunt talab qilinadi. Akkauntni ochish uchun <a href="{ $link }">roʻyxatdan oʻting</a>, soʻngra quyida maʼlumotlaringizni kiriting.
+    <h1>Akkaunt zarur</h1>
+    Kolleksiyangizni sinxronlash uchun bepul akkaunt boʻlishi shart. Iltimos, akkaunt ochish uchun <a href="{ $link }">roʻyxatdan oʻting</a>, soʻngra maʼlumotlaringizni pastga kiriting.
 sync-sanity-check-failed = Maʼlumotlar bazasini tekshirish funksiyasini ishlating, soʻng qayta sinxronlang. Muammo davom etsa, sozlamalar ekranida bir tomonlama sinxronlashni majburlang.
 sync-clock-off = Sinxronlab boʻlmadi - soatingiz toʻgʻri sozlanmagan.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
