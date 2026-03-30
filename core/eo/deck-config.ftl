@@ -251,6 +251,7 @@ deck-config-revert-button-tooltip = Restarigi tiun ĉi agordon al implicita valo
 ## overview screen.
 
 deck-config-description-new-handling = Subteni Anki 2.1.41+
+deck-config-description-new-handling-hint = Trakti enigon kiel Markdown kaj forigi HTML-datumojn el enigo. Kiam aktiva, la priskribo ankaŭ montriĝos sur la ekrano de gratuloj. Markdown estos vidigita kiel teksto en Anki 2.1.40 kaj pli malnovaj.
 
 ## Warnings shown to the user
 
