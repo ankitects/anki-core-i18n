@@ -19,5 +19,5 @@ fields-name-first-letter-not-valid = Maydon nomi #, ^ yoki / bilan boshlanmaslig
 fields-name-invalid-letter = Maydon nomida :, ", { "{" } yoki { "}" } boʻlmasligi kerak.
 # If enabled, the field is not included when searching for 'text', 're:text' and so on,
 # but is when searching for a specific field, eg 'field:text'.
-fields-exclude-from-search = Maydon belgilanmagan qidiruvlardan chiqarib tashlash (sekinroq)
+fields-exclude-from-search = Maydon belgilanmagan qidiruvlardan chiqarib tashlash (sekin ishlaydi)
 fields-field-is-required = Bu majburiy maydon va uni oʻchirib boʻlmaydi.

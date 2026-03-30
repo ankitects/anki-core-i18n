@@ -1,7 +1,7 @@
 studying-again = Qaytadan
 studying-all-buried-cards = Barcha koʻmilgan kartalar
-studying-audio-5s = Audio -5 sn
-studying-audio-and5s = Audio +5 sn
+studying-audio-5s = Audio -5 s
+studying-audio-and5s = Audio +5 s
 studying-buried-siblings = Koʻmilgan aloqador kartalar
 studying-bury = Koʻmish
 studying-bury-card = Kartani koʻmish

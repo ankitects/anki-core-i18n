@@ -35,13 +35,13 @@ preferences-you-can-restore-backups-via-fileswitch = Zaxira nusxalarini Fayl > P
 preferences-legacy-timezone-handling = Eski vaqt mintaqasini boshqarish funksiyasi (xatoliklar boʻlishi mumkin, ammo AnkiDroid { "<=" } 2.14 uchun zarur)
 preferences-default-search-text = Birlamchi qidiruv matni
 preferences-default-search-text-example = masalan 'deck:current '
-preferences-theme = Mavzu
+preferences-theme = Tema
 preferences-theme-follow-system = Tizimga rioya qilish
 preferences-theme-light = Yorugʻ
-preferences-theme-dark = Tungi
+preferences-theme-dark = Qorongʻu
 preferences-v3-scheduler = V3 rejalashtiruvchi
 preferences-check-for-updates = Dastur yangilanishlarini tekshirish
-preferences-ignore-accents-in-search = Qidiruvda diakritik belgilarni inobatga olmaslik (sekinroq)
+preferences-ignore-accents-in-search = Qidiruvda diakritik belgilarni inobatga olmaslik (sekin ishlaydi)
 preferences-backup-explanation =
     Anki vaqti-vaqti bilan kolleksiyangizni zaxiralab turadi. Zaxira nusxalari 2 kundan ortiq turgandan keyin,
     Anki diskda boʻsh joy yaratish uchun ularni baʼzilarini oʻchirib tashlaydi.
