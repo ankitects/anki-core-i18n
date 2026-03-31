@@ -255,6 +255,18 @@ deck-config-description-new-handling-hint = Trakti enigon kiel Markdown kaj fori
 
 ## Warnings shown to the user
 
+deck-config-daily-limit-will-be-capped =
+    { $cards ->
+        [one] Limigo de supera kartaro estas { $cards } karto, kiu superskribos tiun ĉi limigon.
+       *[other] Limigo de supera kartaro estas { $cards } kartoj, kiu superskribos tiun ĉi limigon.
+    }
+deck-config-reviews-too-low =
+    { $cards ->
+        [one] Se vi aldonas { $cards } karton ĉiutage, via limigo de ripetoj estu almenaŭ { $expected }.
+       *[other] Se vi aldonas { $cards } kartojn ĉiutage, via limigo de ripetoj estu almenaŭ { $expected }.
+    }
+deck-config-learning-step-above-graduating-interval = La intertempo por lernitaj kartoj estu almenaŭ tiel longa kiel via lasta lernpaŝo.
+deck-config-good-above-easy = La intertempo de facila respondo estu almenaŭ tiel longa kiel la intertempo de lernitaj kartoj.
 
 ## Selecting a deck
 
