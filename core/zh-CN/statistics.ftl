@@ -75,7 +75,7 @@ statistics-counts-separate-suspended-buried-cards = 分开统计暂停/搁置的
 ##      window is certain sizes.
 
 statistics-true-retention-title = 记忆保留率
-statistics-true-retention-subtitle = 间隔大于 1 天的卡片的通过率
+statistics-true-retention-subtitle = 间隔大于等于 1 天的卡片的通过率
 statistics-true-retention-tooltip = 若使用 FSRS，您的实际记忆保留率预计会接近目标保留率。请注意单日数据存在波动，建议查看月度数据。
 statistics-true-retention-range = 范围
 statistics-true-retention-pass = 通过

@@ -93,7 +93,7 @@ statistics-counts-separate-suspended-buried-cards = 分開統計擱置/推遲的
 ##      window is certain sizes.
 
 statistics-true-retention-title = 留存比率
-statistics-true-retention-subtitle = 間隔大於 1 天的卡片的通過率
+statistics-true-retention-subtitle = 間隔大於等於 1 天的卡片的通過率
 statistics-true-retention-tooltip = 使用 FSRS 時，留存比率應與期望留存比率接近。單日統計資料存在雜訊，請按月為準參考。
 statistics-true-retention-range = 範圍
 statistics-true-retention-pass = 通過
