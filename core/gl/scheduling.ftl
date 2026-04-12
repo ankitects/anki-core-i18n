@@ -103,7 +103,7 @@ scheduling-review = Repaso
 scheduling-reviews = Repasos
 scheduling-seconds = segundos
 scheduling-set-all-decks-below-to = Asignar este grupo de opcións a tódalas barallas embaixo de { $val }?
-scheduling-set-for-all-subdecks = Definir para tódalas subbarallas
+scheduling-set-for-all-subdecks = Definir para tódalas barallas secundarias
 scheduling-show-answer-timer = Amosar o temporizador de respostas
 scheduling-show-new-cards-after-reviews = Amosar as novas tarxetas despois dos repasos
 scheduling-show-new-cards-before-reviews = Amosar as novas tarxetas antes dos repasos
@@ -122,8 +122,8 @@ scheduling-deck-updated =
     }
 scheduling-set-due-date-done =
     { $cards ->
-        [one] Estableceuse a data de repaso de { $cards } tarxeta.
-       *[other] Establecéronse as datas de repaso de { $cards } tarxetas.
+        [one] Estabeleceuse a data de repaso de { $cards } tarxeta.
+       *[other] Estabelecéronse as datas de repaso de { $cards } tarxetas.
     }
 scheduling-graded-cards-done =
     { $cards ->
