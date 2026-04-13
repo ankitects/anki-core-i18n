@@ -7,8 +7,8 @@
 # by a particular configuration group, eg "Group1 (used by 3 decks)"
 deck-config-used-by-decks =
     { $decks ->
-        [one] { $decks } destesi tarafından kullanılıyor
-       *[other] { $decks } desteleri tarafından kullanılıyor
+        [one] { $decks } deste tarafından kullanılıyor
+       *[other] { $decks } deste tarafından kullanılıyor
     }
 deck-config-default-name = Varsayılan
 deck-config-title = Deste Seçenekleri
@@ -17,24 +17,33 @@ deck-config-title = Deste Seçenekleri
 
 deck-config-daily-limits = Günlük Sınırlar
 deck-config-new-limit-tooltip =
-    Bu, yeni kartlar mevcutsa bir günde tanıtılacak maksimum yeni kart sayısı.
-    Yeni materyaller kısa süreli gözden geçirme iş yükünüzü arttıracağı için, 
-    bu genellikle gözden geçirme sınırınızdan en az on kat daha az olmalı.
-deck-config-review-limit-tooltip = Bu, yeni kartlar mevcutsa, bir günde tanıtılacak maksimum yeni kart sayısı.
+    Bu, yeni kartlar mevcutsa bir günde tanıtılacak maksimum yeni kart sayısıdır.
+    Yeni materyaller kısa süreli gözden geçirme yükünüzü arttıracağı için bu,
+    genellikle gözden geçirme sınırınızdan en az on kat küçük olmalı.
+deck-config-review-limit-tooltip =
+    Bu, yeni kartlar mevcutsa
+    bir günde tanıtılacak maksimum yeni kart sayısıdır.
 deck-config-limit-deck-v3 =
-    Altdeste içeren bir desteyi çalışırken, bir altdesteye koyulan sınır, 
-    sadece o altdesteden gelen kartların toplanma sınırını belirler. 
+    Altdeste içeren bir desteyi çalışırken bir altdesteye koyulan sınır, 
+    yalnızca o altdesteden gelen kartların hazırlanma sınırını belirler. 
     Seçilen destenin sınırları gösterilecek toplam kart sayısını belirler.
 deck-config-limit-new-bound-by-reviews =
     Gözden geçirme sınırı yeni sınırı etkiler. Örneğin, eğer gözden geçirme 
-    sınırınız 200'de ve 190 gözden geçirme kartı bekliyorsa, en fazla 10 
-    yeni kart tanıtılacaktır. Gözden geçirme sınırınıza ulaşıldıysa, 
-    hiç yeni kart gösterilmeyecektir.
+    sınırınız 200'de ve 190 gözden geçirme kartınız bekliyorsa en fazla 10 
+    yeni kart tanıtılacaktır. Gözden geçirme sınırınıza ulaştığınızda 
+    hiçbir yeni kart gösterilmeyecektir.
+deck-config-limit-interday-bound-by-reviews =
+    Gözden geçirme sınırı aynı zamanda güniçi öğrenme kartlarını etkilemektedir. Sınırı uygularken
+    önce güniçi öğrenme kartları ardından ise gözden geçirme kartları hazırlanmaktadır.
 deck-config-tab-description =
-    - `Ön ayar`: Sınır, bu ön ayarı kullanan tüm destelerle paylaşılır.
-    - `Bu deste`: Sınır, bu desteye özel.
-    - `Sadece bugün`: Bu deste için sınırı geçici olarak değiştir.
-deck-config-new-cards-ignore-review-limit = Yeni kartlar revize limitini yok sayar
+    - `Ön ayar`: Sınır bu ön ayarı kullanan tüm destelerle paylaşılır.
+    - `Bu deste`: Sınır bu desteye özeldir.
+    - `Yalnızca bugün`: Bu deste için sınırı geçici olarak değiştirir.
+deck-config-new-cards-ignore-review-limit = Yeni kartlar gözden geçirme limitini yok sayar
+deck-config-new-cards-ignore-review-limit-tooltip =
+    Varsayılan olarak, gözden geçirme sınırı yeni kartlara da uygulanır ve yeni kartlar
+    gözden geçirme sınırına ulaşılması halinde gösterilmez. Eğer bu seçenek açıksa, yeni kartlar
+    yeni kartlar gözden geçirme sınırına bakılmaksızın gösterilecektir.
 deck-config-apply-all-parent-limits-tooltip = Varsayılan olarak, eğer bir altdesteyi çalışıyorsanız, üst-seviye destenin sınırları bu desteyi etkilemez. Eğer bu seçenek etkinleştirilirse, sınırlar üst-düzey desteden başlar. Bu, eğer alt-desteleri çalışmak ve aynı zamanda deste ağacındaki kartlara genel bir sınır koymak istiyorsanız faydalı olabilir.
 deck-config-affects-entire-collection = Tüm koleksiyonu etkiler.
 

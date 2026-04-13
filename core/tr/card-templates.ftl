@@ -38,8 +38,8 @@ card-templates-card-types-for = { $val } için Kart Türleri
 card-templates-cloze = Boşluk Doldurma { $val }
 card-templates-deck-override = Desteyi Geçersiz Kılma...
 card-templates-copy-info = Bilgiyi panoya kopyala.
-card-templates-delete-the-as-card-type-and = '{ $template }' kart türü ve { $cards } kartları silinsin mi?
-card-templates-enter-deck-to-place-new = Desteye yeni { $val } kartları yerleştirin, ya da boş bırakın:
+card-templates-delete-the-as-card-type-and = '{ $template }' kart türü ve bunun { $cards } kartı silinsin mi?
+card-templates-enter-deck-to-place-new = { $val } yeni kartın yerleştireceği desteği girin, veya boş bırakın:
 card-templates-enter-new-card-position-1 = Yeni kart sırasını girin (1...{ $val }):
 card-templates-flip = Çevir
 card-templates-form = Biçim
@@ -55,10 +55,10 @@ card-templates-card-count =
     }
 card-templates-this-will-create-card-proceed =
     { $count ->
-        [one] Bu { $count } kart oluşturacak. Devam etsin mi?
-       *[other] Bu { $count } kart oluşturacak. Devam etsin mi?
+        [one] Bu { $count } kart oluşturacak. Devam edilsin mi?
+       *[other] Bu { $count } kart oluşturacak. Devam edilsin mi?
     }
-card-templates-type-boxes-warning = Kart şablonu başına sadece bir yazma kutusu desteklenir.
-card-templates-restore-to-default = Varsayılana Geri Yükle
-card-templates-restore-to-default-confirmation = Bu, tüm alanları ve şablonları varsayılan değerlerine sıfırlar, ek alan/şablonları ve tüm özel tasarımları kaldırır. Devam etmek istiyor musun?
-card-templates-restored-to-default = Not türü orijinal durumuna geri yüklendi.
+card-templates-type-boxes-warning = Kart şablonu başına yalnızca bir yazma kutusu desteklenmektedir.
+card-templates-restore-to-default = Varsayılana Dön
+card-templates-restore-to-default-confirmation = Bu, tüm alanları ve şablonları varsayılan değerlerine sıfırlar, ek alan/şablonları, bunların içeriğini ve tüm özel tasarımları kaldırır. Devam etmek istiyor musun?
+card-templates-restored-to-default = Not türü orijinal durumuna döndürüldü.
