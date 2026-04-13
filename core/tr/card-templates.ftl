@@ -2,15 +2,15 @@
 card-templates-blank = boş
 card-templates-changes-will-affect-notes =
     { $count ->
-        [one] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } kartı etkileyecek.
-       *[other] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } kartı etkileyecek.
+        [one] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } notu etkileyecek.
+       *[other] Aşağıdaki değişiklikler bu kart türünü kullanan { $count } notu etkileyecek.
     }
 card-templates-card-type = Kart Türü:
 card-templates-front-template = Ön Şablon
 card-templates-back-template = Arka Şablon
-card-templates-template-styling = Stil oluşturma
-card-templates-front-preview = Ön Önizleme
-card-templates-back-preview = Arka Önizleme
+card-templates-template-styling = Tasarlama
+card-templates-front-preview = Önün Önizlemesi
+card-templates-back-preview = Arkanın Önizlemesi
 card-templates-preview-box = Önizleme
 card-templates-template-box = Şablon
 card-templates-sample-cloze = Bu { "{{c1::" }örnek{ "}}" } bir boşluk doldurma.
@@ -22,20 +22,20 @@ card-templates-add-mobile-class = Mobil Sınıfı Ekle
 card-templates-preview-settings = Seçenekler
 card-templates-invalid-template-number = '{ $notetype }' not türünün { $number } numaralı kart şablonunda bir hata var.
 card-templates-identical-front = Ön taraf { $number } numaralı kart şablonuyla aynı.
-card-templates-no-front-field = Değiştirilecek bir alanın kart şablonunun önünde bulunması bekleniyordu.
+card-templates-no-front-field = Alan için yapılacak değişimin kartın önünde bulunması bekleniyordu.
 card-templates-missing-cloze = '{ "{{" }cloze:Text{ "}}" }' ya da benzer bir şeyin kart şablonunun ön ve arkasında bulunması bekleniyordu.
-card-templates-extraneous-cloze = 'cloze:', sadece boşluklu not türünde kullanılabilir.
+card-templates-extraneous-cloze = 'cloze:', yalnızca boşluk doldurma not türünde kullanılabilir.
 card-templates-see-preview = Daha fazla bilgi için önizlemeye bakın.
 card-templates-field-not-found = '{ $field }' alanı bulunamadı.
 card-templates-changes-saved = Değişiklikler kaydedildi.
-card-templates-discard-changes = Değişiklikleri iptal et?
+card-templates-discard-changes = Değişiklikler iptal edilsin mi?
 card-templates-add-card-type = Kart Türü Ekle...
-card-templates-anki-couldnt-find-the-line-between = Anki, soruyla cevap arasında bağlantı kuramadı. Soru ve cevabın yerini değiştirmek için şablonu elle ayarlayın.
-card-templates-at-least-one-card-type-is = En az bir kart türü gereklidir.
-card-templates-browser-appearance = Arayıcı Görünümü...
+card-templates-anki-couldnt-find-the-line-between = Anki, soruyla cevap arasındaki ayırıcı çizgiyi bulamadı. Soru ve cevabın yerini değiştirmek için şablonu elle ayarlayın.
+card-templates-at-least-one-card-type-is = En az bir kart türü gerekmektedir.
+card-templates-browser-appearance = Tarayıcı Görünümü...
 card-templates-card = Kart { $val }
 card-templates-card-types-for = { $val } için Kart Türleri
-card-templates-cloze = Boşluklu
+card-templates-cloze = Boşluk Doldurma { $val }
 card-templates-deck-override = Desteyi Geçersiz Kılma...
 card-templates-copy-info = Bilgiyi panoya kopyala.
 card-templates-delete-the-as-card-type-and = '{ $template }' kart türü ve { $cards } kartları silinsin mi?

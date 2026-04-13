@@ -1,6 +1,6 @@
 card-stats-added = Eklendi
 card-stats-first-review = İlk Gözden Geçirme
-card-stats-latest-review = En Son Gözden Geçirme
+card-stats-latest-review = Son Yapılan Gözden Geçirme
 card-stats-interval = Aralık
 card-stats-ease = Kolaylık
 card-stats-review-count = Gözden Geçirmeler
@@ -26,22 +26,22 @@ card-stats-review-log-type-manual = Manuel
 card-stats-review-log-type-rescheduled = Yeniden Planlananlar
 card-stats-review-log-elapsed-time = Geçen Süre
 card-stats-no-card = (Gösterilecek kart yok.)
-card-stats-custom-data = Özel Veriler
-card-stats-fsrs-stability = Sabitlik
+card-stats-custom-data = Özel Veri
+card-stats-fsrs-stability = İstikrar
 card-stats-fsrs-difficulty = Zorluk
 card-stats-fsrs-retrievability = Hatırlanabilirlik
 card-stats-fsrs-forgetting-curve-title = Unutma Eğrisi
 card-stats-fsrs-forgetting-curve-first-week = İlk Hafta
 card-stats-fsrs-forgetting-curve-first-month = İlk Ay
 card-stats-fsrs-forgetting-curve-first-year = İlk Yıl
-card-stats-fsrs-forgetting-curve-all-time = Bütün Zaman
-card-stats-fsrs-forgetting-curve-desired-retention = İstenen Hatırlama Oranı
+card-stats-fsrs-forgetting-curve-all-time = Tüm Zamanlar
+card-stats-fsrs-forgetting-curve-desired-retention = İstenen Devamlılık
 
 ## Window Titles
 
-card-stats-current-card = Geçerli Kart ({ $context })
+card-stats-current-card = Mevcut Kart ({ $context })
 card-stats-previous-card = Önceki Kart ({ $context })
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-card-stats-fsrs-forgetting-curve-probability-of-recalling = Hatırlama İhtimali
+card-stats-fsrs-forgetting-curve-probability-of-recalling = Hatırlanma İhtimali

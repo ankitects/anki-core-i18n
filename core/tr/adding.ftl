@@ -9,4 +9,4 @@ adding-shortcut = Kısayol: { $val }
 adding-the-first-field-is-empty = İlk alan boş.
 adding-you-have-a-cloze-deletion-note = Boşluk doldurmalı bir notunuz var ama hiç boşluk eklemediniz. Devam edilsin mi?
 adding-cloze-outside-cloze-notetype = Boşluk doldurma sadece boşluk doldurmalı bir not türünde kullanılabilir.
-adding-cloze-outside-cloze-field = Boşluk doldurma, yalnızca 'cloze:' filtresi kullanan alanlarda kullanılabilir. Bu genellikle ilk alandır.
+adding-cloze-outside-cloze-field = Boşluk doldurma, yalnızca 'cloze:' filtresi kullanan alanlarda kullanılabilir. Bu, genellikle ilk alandır.
