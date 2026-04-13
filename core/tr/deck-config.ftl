@@ -44,6 +44,7 @@ deck-config-new-cards-ignore-review-limit-tooltip =
     Varsayılan olarak, gözden geçirme sınırı yeni kartlara da uygulanır ve yeni kartlar
     gözden geçirme sınırına ulaşılması halinde gösterilmez. Eğer bu seçenek açıksa, yeni kartlar
     yeni kartlar gözden geçirme sınırına bakılmaksızın gösterilecektir.
+deck-config-apply-all-parent-limits = Sınırlar en tepeden başlar
 deck-config-apply-all-parent-limits-tooltip = Varsayılan olarak, eğer bir altdesteyi çalışıyorsanız, üst-seviye destenin sınırları bu desteyi etkilemez. Eğer bu seçenek etkinleştirilirse, sınırlar üst-düzey desteden başlar. Bu, eğer alt-desteleri çalışmak ve aynı zamanda deste ağacındaki kartlara genel bir sınır koymak istiyorsanız faydalı olabilir.
 deck-config-affects-entire-collection = Tüm koleksiyonu etkiler.
 
