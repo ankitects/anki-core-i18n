@@ -5,7 +5,7 @@ browsing-remove-from-selected-notes = Seçilen Notlardan Kaldır
 browsing-addon = Eklenti
 browsing-all-fields = Tüm Alanlar
 browsing-answer = Cevap
-browsing-any-flag = Herhangi Bir Bayrak
+browsing-any-flag = Herhangi bir Bayrak
 browsing-average-ease = Ort. Kolaylık
 browsing-average-interval = Ort. Aralık
 browsing-browser-appearance = Tarayıcı Görünümü
@@ -28,6 +28,7 @@ browsing-cards-deleted-with-deckname =
 browsing-change-deck = Desteyi Değiştir
 browsing-change-deck2 = Desteyi Değiştir...
 browsing-change-note-type = Not Türünü Değiştir
+# Action in a context menu (right mouse-click on a card type)
 browsing-change-note-type2 = Not Türünü Değiştir...
 browsing-change-notetype = Not Türünü Değiştir
 browsing-clear-unused-tags = Kullanılmayan Etiketleri Sil

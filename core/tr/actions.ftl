@@ -5,14 +5,14 @@ actions-add = Ekle
 # a submenu. This entry in the submenu creates a search term that matches
 # cards/notes meeting ALL of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
-actions-all-selected = Tüm seçilenler
+actions-all-selected = Seçilen hepsi
 # Action in context menu:
 # In the browser sidebar, when in "Select" mode, right-click on the
 # selected criteria elements. In the context menu, click on "Search" to open
 # a submenu. This entry in the submenu creates a search term that matches
 # cards/notes meeting ANY of the selected criteria.
 # https://github.com/ankitects/anki/pull/1044
-actions-any-selected = Herhangi bir seçilen
+actions-any-selected = Seçilen herhangi biri
 actions-cancel = İptal
 actions-choose = Seç
 actions-close = Kapat
@@ -52,7 +52,7 @@ actions-suspend-card = Kartı Askıya Al
 actions-set-due-date = Son Tarihi Ayarla
 actions-toggle-load-balancer = Yük Dengeleyici Aç/Kapat
 actions-grade-now = Şimdi Değerlendir
-actions-answer-card = Kartı cevapla
+actions-answer-card = Kartı Cevapla
 actions-unbury-unsuspend = Gömmeyi/Askıya Almayı Geri Al
 actions-add-deck = Deste Ekle
 actions-add-note = Not Ekle
@@ -61,7 +61,7 @@ actions-update-note = Notu Güncelle
 actions-update-card = Kartı Güncelle
 actions-update-deck = Desteyi Güncelle
 actions-forget-card = Kartı Unut
-actions-build-filtered-deck = Desteyi oluştur
+actions-build-filtered-deck = Desteyi Oluştur
 actions-add-notetype = Not Türü Ekle
 actions-remove-notetype = Not Türünü Sil
 actions-update-notetype = Not Türü Güncelle
@@ -71,8 +71,8 @@ actions-previous-card-info = Önceki Kart Bilgisi
 # By convention, the name of a menu action is suffixed with "..." if additional
 # input is required before it can be performed. E.g. "Export..." vs. "Delete".
 actions-with-ellipsis = { $action }...
-actions-fullscreen-unsupported = Tam ekran kipi video sürücünüz için desteklenmiyor. Tercihler ekranında farklı bir tanesine değiştirmeyi deneyin.
-actions-flag-number = { $number } Bayrak
+actions-fullscreen-unsupported = Tam ekran modu video sürücünüz için desteklenmiyor. Tercihler ekranından farklı bir tanesine geçmeyi deneyin.
+actions-flag-number = Bayrak { $number }
 
 ## The same translation may used for two independent actions:
 ## searching for cards with a flag of the specified color, and
@@ -88,9 +88,9 @@ actions-flag-purple = Mor
 
 ##
 
-actions-set-flag = Bayrakla İşaretle
+actions-set-flag = Bayrakla
 actions-nothing-to-undo = Geri alınacak bir şey yok
-actions-nothing-to-redo = Yeniden yapılacak bir şey yok.
+actions-nothing-to-redo = Yeniden yapılacak bir şey yok
 actions-auto-advance = Otomatik İlerleme
 actions-auto-advance-activated = Otomakik İlerleme etkinleştirildi
 actions-auto-advance-deactivated = Otomakik İlerleme devre dışı bırakıldı
