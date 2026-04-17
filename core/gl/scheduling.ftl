@@ -48,6 +48,30 @@ scheduling-time-span-years =
 
 ## Shown in the "Congratulations!" message after study finishes.
 
+# eg "The next learning card will be ready in 5 minutes."
+scheduling-next-learn-due =
+    { $unit ->
+        [seconds]
+            { $amount ->
+                [one] A próxima tarxeta estará dispoñíbel en { $amount } segundo.
+               *[other] A próxima tarxeta estará dispoñíbel en { $amount } segundos.
+            }
+        [minutes]
+            { $amount ->
+                [one] A próxima tarxeta estará dispoñíbel en { $amount } minuto.
+               *[other] A próxima tarxeta estará dispoñíbel en { $amount } minutos.
+            }
+       *[hours]
+            { $amount ->
+                [one] A próxima tarxeta estará dispoñíbel en { $amount } hora.
+               *[other] A próxima tarxeta estará dispoñíbel en { $amount } horas.
+            }
+    }
+scheduling-learn-remaining =
+    { $remaining ->
+        [one] Queda unha tarxeta na cola de aprendizaxe para máis tarde hoxe.
+       *[other] Quedan  { $remaining } tarxetas na cola de aprendizaxe para máis tarde hoxe.
+    }
 scheduling-congratulations-finished = Parabéns! Remataches esta baralla por agora.
 scheduling-today-review-limit-reached =
     O límite de revisión para hoxe foi acadado, pero aínda hai cartas
@@ -58,16 +82,29 @@ scheduling-today-new-limit-reached =
     Podes incrementar o límite nas opcións, pero ten en conta: 
     cantas máis tarxetas introduzas, máis alta será a túa carga de
     traballo a curto prazo.
+scheduling-buried-cards-found = Unha ou máis tarxetas foron agochadas e amosaranse mañá. Podes { $unburyThem } se prefires repasalas agora.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = desagochalas
 scheduling-how-to-custom-study = Se queres estudar fóra da programación habitual, podes usar a opción { $customStudy }.
+# used in scheduling-how-to-custom-study
+# "... you can use the custom study feature."
+scheduling-custom-study = estudo personalizado
 
 ## Scheduler upgrade
 
+scheduling-update-soon = O Anki 2.1 vén cun novo planificador que corrixe algúns problemas presentes en versións anteriores do Anki. Porén, recoméndase actualizar ao novo planificador.
+scheduling-update-done = Actualizouse o planificador con éxito.
+scheduling-update-button = Actualizar
+scheduling-update-later-button = Máis tarde
+scheduling-update-more-info-button = Saber máis
+scheduling-update-required =
+    A túa colección precisa seren actualizada á versión 2 do planificador.
+    Selecciona { scheduling-update-more-info-button } antes de continuar.
 
 ## Other scheduling strings
 
+scheduling-always-include-question-side-when-replaying = Incluír sempre o anverso cando se volva a reproducir o son.
 scheduling-at-least-one-step-is-required = Requirese polo menos  un paso.
 scheduling-automatically-play-audio = Reproducir o son automaticamente
 scheduling-bury-related-new-cards-until-the = Descarta as novas tarxetas relacionadas ata o día seguinte
@@ -79,6 +116,7 @@ scheduling-easy-interval = Intervalo para fácil
 scheduling-end = (fin)
 scheduling-general = Xeral
 scheduling-graduating-interval = Intervalo para pasar
+scheduling-hard-interval = Intervalo para difícil
 scheduling-ignore-answer-times-longer-than = Ignorar os tempos de resposta maiores de
 scheduling-interval-modifier = Modificador do intervalo
 scheduling-lapses = Períodos
@@ -120,6 +158,15 @@ scheduling-deck-updated =
         [one] { $count } baralla actualizada.
        *[other] { $count } barallas actualizadas.
     }
+scheduling-set-due-date-prompt =
+    { $cards ->
+        [one] Dentro de cantos días queres amosar a tarxeta?
+       *[other] Dentro de cantos días queres amosar as tarxetas?
+    }
+scheduling-set-due-date-prompt-hint =
+    0 = hoxe
+    1! = mañá + cambiar o intervalo a 1
+    3-7 = escolla aleatoria de 3 a 7 días
 scheduling-set-due-date-done =
     { $cards ->
         [one] Estabeleceuse a data de repaso de { $cards } tarxeta.

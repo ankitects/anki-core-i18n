@@ -184,7 +184,7 @@ deck-config-simulate = Simular
 deck-config-clear-last-simulate = Limpar última simulación
 deck-config-fsrs-simulator-radio-count = Repasos
 deck-config-advanced-settings = Configuración avanzada
-deck-config-suspend-leeches = Sambesugas suspensas
+deck-config-suspend-leeches = Samesugas suspensas
 deck-config-save-options-to-preset = Gardar cambios no perfil de estudo
 # $time here is pre-formatted e.g. "10 Seconds" 
 deck-config-fsrs-simulator-ratio-tooltip = { $time } por tarxeta memorizada
