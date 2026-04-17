@@ -7,4 +7,6 @@ adding-history = Historial
 adding-note-deleted = (Nota eliminada)
 adding-shortcut = Atallo: { $val }
 adding-the-first-field-is-empty = O primeiro campo está baleiro.
-adding-you-have-a-cloze-deletion-note = Ten un tipo de nota de ocos mais non inseriu ningún oco. Quere continuar?
+adding-you-have-a-cloze-deletion-note = Tes un tipo de nota de resposta aniñada mais non inseriches ningún niño. Queres continuar?
+adding-cloze-outside-cloze-notetype = Só se pode aniñar unha resposta en notas de tipo resposta aniñada.
+adding-cloze-outside-cloze-field = O aniñamento dunha resposta só se pode usar en campos que usan o filtro «cloze:». Este é normalmente o primeiro campo.
