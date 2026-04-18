@@ -99,7 +99,7 @@ statistics-counts-filtered-cards = Filtrades
 statistics-counts-learning-cards = Aprenent
 statistics-counts-relearning-cards = Reaprenent
 statistics-counts-title = Totes les targetes
-statistics-counts-separate-suspended-buried-cards = Separa les targetes suspeses/enterrades
+statistics-counts-separate-suspended-buried-cards = Separa les targetes suspeses o enterrades
 
 ## Retention represents your actual retention from past reviews, in
 ## comparison to the "desired retention" setting of FSRS, which forecasts
