@@ -280,6 +280,19 @@ deck-config-which-deck = Por kiu kartaro vi volas montri agordojn?
 
 deck-config-updating-cards = Ĝisdatigado de notoj: { $current_cards_count }/{ $total_cards_count }…
 deck-config-invalid-parameters = La liveritaj parametroj de FSRS estas eraraj. Lasu la kampon malplena por uzi implicitajn parametrojn.
+deck-config-not-enough-history = Nesufiĉa historio de ripetoj por plenumi tiun ĉi agon.
+deck-config-must-have-400-reviews =
+    { $count ->
+        [one] Trovis nur { $count } ripeton. Vi devas havi almenaŭ 400 ripetojn por plenumi tiun ĉi agon.
+       *[other] Trovis nur { $count } ripetojn. Vi devas havi almenaŭ 400 ripetojn por plenumi tiun ĉi agon.
+    }
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = Parametroj de FSRS
+deck-config-compute-optimal-weights = Plejbonigi parametrojn de FSRS
+deck-config-optimize-button = Plejbonigi nunan agordaron
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (malrapida)
+deck-config-compute-button = Kalkuli
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
