@@ -293,6 +293,8 @@ deck-config-optimize-button = Plejbonigi nunan agordaron
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (malrapida)
 deck-config-compute-button = Kalkuli
+deck-config-ignore-before = Ignori kartojn ripetitajn antaŭ ol
+deck-config-time-to-optimize = Pasis kelkan tempon – estas konsilinde uzi nun la butonon “Plejbonigi ĉiujn agordarojn”.
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
