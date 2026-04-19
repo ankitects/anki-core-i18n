@@ -104,7 +104,7 @@ deck-config-new-card-sort-order-tooltip-2 =
     
     `Hazarde`: prenas kartojn laŭ hazarda ordo.
 deck-config-new-review-priority = Ordo de novaj/ripetataj
-deck-config-new-review-priority-tooltip = Kie enmeti novajn kartojn rilate al ripetataj kartoj.
+deck-config-new-review-priority-tooltip = Kiam enmeti novajn kartojn rilate al ripetataj kartoj.
 deck-config-interday-step-priority = Ordo de plurtage lernataj/ripetataj
 deck-config-interday-step-priority-tooltip =
     Kie montri (re)lernatajn kartojn, kies intertempo estas pli longa ol tago.
