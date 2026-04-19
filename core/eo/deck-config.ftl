@@ -267,6 +267,7 @@ deck-config-reviews-too-low =
     }
 deck-config-learning-step-above-graduating-interval = La intertempo por lernitaj kartoj estu almenaŭ tiel longa kiel via lasta lernpaŝo.
 deck-config-good-above-easy = La intertempo de facila respondo estu almenaŭ tiel longa kiel la intertempo de lernitaj kartoj.
+deck-config-relearning-steps-above-minimum-interval = La minimuma intertempo de misrespondo estu almenaŭ tiel longa kiel via fina relernpaŝo.
 
 ## Selecting a deck
 
