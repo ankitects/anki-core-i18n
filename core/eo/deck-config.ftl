@@ -268,12 +268,18 @@ deck-config-reviews-too-low =
 deck-config-learning-step-above-graduating-interval = La intertempo por lernitaj kartoj estu almenaŭ tiel longa kiel via lasta lernpaŝo.
 deck-config-good-above-easy = La intertempo de facila respondo estu almenaŭ tiel longa kiel la intertempo de lernitaj kartoj.
 deck-config-relearning-steps-above-minimum-interval = La minimuma intertempo de misrespondo estu almenaŭ tiel longa kiel via fina relernpaŝo.
+deck-config-maximum-answer-secs-above-recommended = Anki povas plani viajn ripetojn pli efike, kiam tempo por ĉiu via respondo estas mallonga.
+deck-config-too-short-maximum-interval = Maksimuma intertempo malpli longa ol 6 monatoj ne estas konsilinda.
+deck-config-ignore-before-info = Proksimume { $included }/{ $totalCards } kartoj estos uzataj por plejbonigi parametrojn de FSRS.
 
 ## Selecting a deck
 
+deck-config-which-deck = Por kiu kartaro vi volas montri agordojn?
 
 ## Messages related to the FSRS scheduler
 
+deck-config-updating-cards = Ĝisdatigado de notoj: { $current_cards_count }/{ $total_cards_count }…
+deck-config-invalid-parameters = La liveritaj parametroj de FSRS estas eraraj. Lasu la kampon malplena por uzi implicitajn parametrojn.
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
