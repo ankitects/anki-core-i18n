@@ -298,6 +298,7 @@ deck-config-time-to-optimize = Pasis kelkan tempon – estas konsilinde uzi nun 
 deck-config-evaluate-button = Taksi
 deck-config-desired-retention = Dezirata memorigado
 deck-config-historical-retention = Historia memorigado
+deck-config-smaller-is-better = Malpli grandaj nombroj indikas pli bonan alĝustigon al via historio de ripetoj.
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
