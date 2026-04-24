@@ -218,8 +218,8 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } kun oldin
 statistics-running-total = Oʻsuvchi jami
 statistics-cards-due =
     { $cards ->
-        [one] { $cards } ta kartani muddati keladi
-       *[other] { $cards } ta kartani muddati keladi
+        [one] { $cards } ta karta qoldi
+       *[other] { $cards } ta karta qoldi
     }
 statistics-backlog-checkbox = Muddati oʻtganlar
 statistics-intervals-title = Takrorlashlar intervali
