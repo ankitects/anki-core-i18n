@@ -310,6 +310,15 @@ deck-config-fsrs-tooltip =
     La planilo FSRS («Free Spaced Repetition Scheduler») estas alternativo al la kaduka algoritmo SM-2 (SuperMemo 2). Per pli precize determini kiam vi probable forgesos karton, ĝi povas helpi al vi memori pli en la sama kvanto da tempo. Tio ĉi aplikiĝas al ĉiuj antaŭagordoj.
 deck-config-desired-retention-tooltip = Implicite Anki planas montri kartojn tiel, ke vi havas 90% ŝancon por memori karton, kiam ĝi montriĝos ree. Se vi pliigos tiun ĉi valoron, Anki montros kartojn pli ofte por pliigi vian ŝancon por memori ilin. Se vi malpliigos tiun ĉi valoron, Anki montros kartojn malpli ofte kaj vi forgesos pli da ili. Estu singarda dum manipuli tiun ĉi agordon – pli altaj valoroj pliigos vian necesan penon kaj malpli altaj valoroj malfervorigos vin, kiam vi estos forgesanta multan lern-materialon.
 deck-config-desired-retention-tooltip2 = La liverataj valoroj de necesa peno estas proksimumaj. Por precizigi ilin, uzu la simulilon.
+deck-config-historical-retention-tooltip =
+    Kiam parto da via historio de ripetoj mankas, FSRS devas plenigi la mankojn. Implicite ĝi supozos, ke dum tiuj estintaj ripetoj vi memoris 90% de lern-materialo. Se via historia memorigado estis signife pli aŭ malpli granda ol 90%, alĝustigi tiun ĉi agordon ebligos al FSRS pli bone proksimumigi la mankajn ripetojn.
+    
+    Via historio de ripetoj povas esti nekompleta pro du kialoj:
+    1. Vi uzas la agordon “Ignori kartojn ripetitajn antaŭ ol…”.
+    2. Vi forviŝis historion de ripetoj por liberigi spacon aŭ vi enportis materialon el alia period-ripeta programo.
+    
+    La dua kialo estas malofta, do escepte se vi uzis la agordon “Ignori…”, vi ne devas alĝustigi tiun ĉi agordon.
+deck-config-weights-tooltip2 = Parametroj de FSRS influas kiel kartoj estas planataj. Anki komenciĝos kun implicitaj parametroj. Vi povas uzi la suban agordon por plejbonigi la parametrojn por ke ili plej bone kongruu kun via rapido lerni kartarojn, kiuj uzis tiun ĉi agordon.
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
