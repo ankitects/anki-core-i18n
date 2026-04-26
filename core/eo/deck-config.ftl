@@ -304,6 +304,12 @@ deck-config-get-params = Akiri parametrojn
 deck-config-complete = Farita en { $num }%.
 deck-config-iterations = Iteracio: { $count }…
 deck-config-reschedule-cards-on-change = Replani kartojn je ŝanĝo
+deck-config-fsrs-tooltip =
+    Influas la tutan kolekton
+    
+    La planilo FSRS («Free Spaced Repetition Scheduler») estas alternativo al la kaduka algoritmo SM-2 (SuperMemo 2). Per pli precize determini kiam vi probable forgesos karton, ĝi povas helpi al vi memori pli en la sama kvanto da tempo. Tio ĉi aplikiĝas al ĉiuj antaŭagordoj.
+deck-config-desired-retention-tooltip = Implicite Anki planas montri kartojn tiel, ke vi havas 90% ŝancon por memori karton, kiam ĝi montriĝos ree. Se vi pliigos tiun ĉi valoron, Anki montros kartojn pli ofte por pliigi vian ŝancon por memori ilin. Se vi malpliigos tiun ĉi valoron, Anki montros kartojn malpli ofte kaj vi forgesos pli da ili. Estu singarda dum manipuli tiun ĉi agordon – pli altaj valoroj pliigos vian necesan penon kaj malpli altaj valoroj malfervorigos vin, kiam vi estos forgesanta multan lern-materialon.
+deck-config-desired-retention-tooltip2 = La liverataj valoroj de necesa peno estas proksimumaj. Por precizigi ilin, uzu la simulilon.
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
