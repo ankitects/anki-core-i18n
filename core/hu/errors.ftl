@@ -1,21 +1,23 @@
-errors-parse-number-fail = A szám érvénytelen vagy tartományon kívüli
-errors-filtered-parent-deck = Szortírozott kártyáknak nem lehetnek paklijai
-errors-filtered-deck-required = Ezt a műveletet csak szortírozott kártyákon lehet elvégezni
+errors-parse-number-fail = Érvénytelen vagy tartományon kívüli szám.
+errors-filtered-parent-deck = Szűrt pakliknak nem lehet alpaklija.
+errors-filtered-deck-required = Ez a műveletet csak szűrt paklira alkalmazható.
 errors-100-tags-max =
-    Legfeljebb 100 címke választható ki. A listázás
-    címkék felsorolása a nem kívántak helyett általában egyszerűbb, és általában
-    nincs szükség az alcímkék kiválasztására, ha már kiválasztott egy címkét.
-errors-multiple-notetypes-selected = Kérjük, csak egy jegyzettípusból válasszon jegyzeteket.
-errors-please-check-database = Kérlek használd az Adatbázis ellenőrzése funkciót, majd próbáld újra
-errors-please-check-media = Kérlek használd a Média ellenőrzése funkciót, majd próbáld újra
-errors-collection-too-new = A kollekció megnyitásához az Anki újabb verziójára van szükség
-errors-inconsistent-db-state = Úgy tűnik az adatbázisod inkonzisztens állapotban van. Kérlek használd az Adatbázis ellenőrzése funkciót!
+    Legfeljebb 100 címke választható ki. A kívánt
+    címkék felsorolása a nem kívántak helyett általában egyszerűbb, emellett
+    ha egy címke ki van választva, az alcímkéit nem kell külön kiválasztani.
+errors-multiple-notetypes-selected = Csak egy jegyzettípusból válassz jegyzeteket!
+errors-please-check-database = Használd az Adatbázis ellenőrzése funkciót, majd próbáld újra!
+errors-please-check-media = Használd a Média ellenőrzése funkciót, majd próbáld újra!
+errors-collection-too-new = A gyűjtemény megnyitásához az Anki újabb verziója szükséges.
+errors-invalid-ids = A gyűjtemény jövőbeni időbélyegeket tartalmaz. Értesítsd a pakli készítőjét, hogy kijavíthassa a hibákat.
+errors-inconsistent-db-state = Úgy tűnik, az adatbázisod inkonzisztens állapotban van. Használd az Adatbázis ellenőrzése funkciót!
 
 ## Card Rendering
 
+errors-bad-directive = Hiba a "{ $directive }" direktívában: { $error }
 errors-option-not-set = { $option } nincs beállítva
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-errors-invalid-input-empty = Érvénytelen bemenet
+errors-invalid-input-empty = Érvénytelen bemenet.
 errors-invalid-input-details = Érvénytelen bemenet: { $details }
