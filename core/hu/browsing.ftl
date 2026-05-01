@@ -154,18 +154,15 @@ browsing-sidebar-overdue = Késedelmes
 browsing-row-deleted = (törölve)
 browsing-removed-unused-tags-count =
     { $count ->
-        [one] Eltávolítottuk a { $count } nem használt címkét.
-       *[other] Eltávolítottuk a { $count } nem használt címkéket.
+       *[other] { $count } nem használt címke eltávolítva.
     }
 browsing-changed-new-position =
     { $count ->
-        [one] Megváltozott a { $count } új kártya pozíciója.
-       *[other] Megváltozott a { $count } új kártyák pozíciójai.
+       *[other] { $count } új kártya pozíciója megváltoztatva.
     }
 browsing-reparented-decks =
     { $count ->
-        [one] Átnevezett { $count } pakli.
-       *[other] Átnevezett { $count } paklik.
+       *[other] { $count } pakli átnevezve.
     }
 browsing-sidebar-card-state-review = Ismétlés
 
