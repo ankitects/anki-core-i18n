@@ -1,5 +1,6 @@
 importing-failed-debug-info = Sikertelen importálás. Információ a hiba elhárításához:
 importing-aborted = Megszakítva: { $val }
+importing-added-duplicate-with-first-field = Első mezőben egyező változat hozzáadva: { $val }
 importing-all-supported-formats = Minden támogatott formátum { $val }
 importing-allow-html-in-fields = HTML-formázás engedélyezése a mezőkben
 importing-anki-files-are-from-a-very = Az .anki kiterjesztésű fájlok az Anki nagyon régi változatából származnak. Importálásuk az Anki honlapjáról letölthető Anki 2.0 vagy 175027074 bővítmény segítségével lehetséges.
@@ -198,10 +199,45 @@ importing-note-updated-as-file-had-newer = Jegyzet frissítve újabb verzióra
 importing-note-skipped-due-to-missing-notetype = Jegyzet kihagva, mivel a típusa hiányzott
 importing-note-skipped-due-to-missing-deck = Jegyzet kihagyva, mivel a paklija hiányzott
 importing-note-skipped-due-to-empty-first-field = Jegyzet kihagyva, mivel az első mezője üres
+importing-field-separator-help =
+    A szövegfájlban a mezőket elválasztó karakter. Az előnézetben ellenőrizheted,
+    hogy a mzők megfelelően vannak-e elválasztva.
+    
+    Amennyiben ez a karakter bármelyik mezőben szerepel, azt a CSV szabványnak
+    megfelelően idézőjelek közé kell tenni. Táblázatkezelő programok ezt
+    automatikusan megteszik.
+    
+    Ha a fájl fejlécében megadja a határolójelet, az nem módosítható.
+    Amennyiben nincs fejléc, az Anki megpróbálja felsimerni a használt karaktert.
+importing-allow-html-in-fields-help =
+    Engedélyezd, ha a fájlban HTML formázás található. Például ha "&lt;br&gt;" szerepel,
+    az a kártyán sortörésként fog megjelenni. Ha ez nincs engedélyezve, a
+    "&lt;br&gt;" lesznek megjelenítve.
+importing-notetype-help =
+    Az újonnan importált jegyzetek típusa. A meglévő jegyzetek közül csak az ilyen típusúak
+    lesznek frissítve.
+    
+    A Mezőleképezés eszközzel kiválaszthatod, hogy a fájl melyik mezője melyik jegyzettípus-mezőhöz
+    tartozzon.
+importing-deck-help = Az importált kártyák ebbe a pakliba kerülnek.
+importing-existing-notes-help =
+    Amennyiben egy importált jegyzet egy meglévővel egyezik:
+    
+    - `{ importing-update }`: Meglévő jegyzet frissítése
+    - `{ importing-preserve }`: Jegyzet kihagyása
+    - `{ importing-duplicate }`: Új jegyzet létrehozása
+importing-match-scope-help =
+    Csak az azonos típusú jegyzetek között lehessen egyezés. Ez tovább
+    szűkíthető csak azonos pakliban lévő jegyzetekre.
+importing-tag-all-notes-help = Az újonnan importált és frissített jegyzetekre akalmazott címkék.
+importing-tag-updated-notes-help = Az újonnan importált jegyzetekre alkalmazott címkék.
+importing-overview = Áttekintés
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-importing-notes-that-could-not-be-imported = Jegyzetek, amelyeket nem lehetett importálni, mert a jegyzettípus megváltozott: { $val }
+importing-importing-collection = Gyűjtemény importálása...
+importing-unable-to-import-filename = { $filename } importálása sikertelen: nem támogatott formátum
+importing-notes-that-could-not-be-imported = Jegyzetek, amelyeket nem lehetett importálni, mivel a típusuk megváltozott: { $val }
 importing-added = Hozzáadva
 importing-pauker-18-lesson-paugz = Pauker 1.8 lecke (*.pau.gz)
 importing-supermemo-xml-export-xml = XML-be exportált Supermemo-fájl (*.xml)
