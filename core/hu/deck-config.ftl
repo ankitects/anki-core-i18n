@@ -408,17 +408,7 @@ deck-config-desired-retention-tooltip =
     megmutatni a kártyákat, és így többet fogsz elfelejteni belőlük. Légy óvatos ennek beállításakor —
     a magasabb értékek jelentősen megnövelik a munkaterhelését, az alacsonyabb értékek pedig 
     demoralizálóak lehetnek, ha sokat felejtesz.
-deck-config-historical-retention-tooltip =
-    Ha az áttekintési előzmények egy része hiányzik, az FSRS-nek ki kell töltenie a hiányosságokat. 
-    Alapértelmezés szerint azt feltételezi, hogy amikor ezeket a régi áttekintéseket végezte, az anyag 90%-ára emlékezett. 
-    Ha az Ön régi emlékezete jelentősen magasabb vagy alacsonyabb volt, mint 90%, akkor ennek az opciónak a beállítása lehetővé
-    teszi az FSRS számára, hogy jobban megközelítse a hiányzó áttekintéseket.
-    
-    Az Ön áttekintési előzményei két okból lehetnek hiányosak:
-    1. Mert a "korábban áttekintett kártyák figyelmen kívül hagyása" opciót használja.
-    2. Mert korábban törölt áttekintési naplókat, hogy helyet szabadítson fel, vagy más SRS programból importált anyagot.
-    
-    Ez utóbbi meglehetősen ritka, így hacsak nem az előbbi opciót használja, valószínűleg nem kell módosítania ezt a beállítást.
+deck-config-desired-retention-tooltip2 = Az információs dobozban közölt számok csupán becsült értékek. Pontosabb eredményekhez használd a szimulátort.
 deck-config-ignore-before-tooltip-2 =
     Ha be van állítva, a megadott dátum előtt átnézett kártyákat az FSRS paraméterek optimalizálásakor figyelmen kívül hagyjuk.
     Ez hasznos lehet, ha valaki más ütemezési adatait importálta, vagy megváltoztatta a válaszgombok használatának módját.
