@@ -73,6 +73,10 @@ deck-config-easy-interval-tooltip =
     Egy kártya újbóli felmutatásáig eltelt napok száma, a "Könnyű" gomb megnyomása után.
     Ez a gomb a kártyát azonnal ismétlőkártyává alakítja.
 deck-config-new-insertion-order = Beillesztési sorrend
+deck-config-new-insertion-order-tooltip =
+    Az újonnan hozzáadott kártyák helye a sorban.
+    Tanuláskor a legalacsonyabb sorszámú kártyák jelennek meg először.
+    Ez a beállítás a már meglévő új kártyákra is hatással van.
 deck-config-new-insertion-order-sequential = Időrendben (legrégebbi kártyák elöl)
 deck-config-new-insertion-order-random = véletlenszerűen
 deck-config-new-insertion-order-random-with-v3 =
@@ -87,42 +91,44 @@ deck-config-relearning-steps-tooltip =
     egy ismétlőkártyán az "Újra" gomb megnyomásával a kártya 10 perc múlva
     ismét megjelenik. Ha nincs késleltetés megadva, akkor a kártya időköze 
     megváltozik anélkül, hogy újratanulásra lenne ítélve. { -deck-config-delay-hint }
+deck-config-leech-threshold-tooltip =
+    Ha ennyiszer az "Újra" gombra nyomsz egy ismétlőkártyán, a kártya mumusnak lesz minősítve.
+    A mumusok sok időt emésztenek fel. Ha egy kártya mumus minőítést kap, érdemes átírni, törölni vagy kitalálni egy emlékeztetőt, hogy könnyebben megjegyezd.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
-    "Csak címke": Hozzáad egy 'pióca' címkét a jegyzethez, és megjelenít egy felugró ablakot.
+    `Csak címke`: Hozzáad egy "mumus" címkét a jegyzethez, és megjelenít egy felugró ablakot.
     
-    `Kártya felfüggesztése`: A jegyzet címkézése mellett elrejti a kártyát, amíg azt
+    `Kártya felfüggesztése`: A jegyzet felcímkézése mellett elrejti a kártyát, amíg azt
     manuálisan vissza nem álítják.
 
 ## Burying section
 
 deck-config-bury-title = Félretevés
 deck-config-bury-new-siblings = Új testvérek félretevése
-deck-config-bury-review-siblings = áttekintési testvérek félretevése
+deck-config-bury-review-siblings = Ismétlő testvérek félretevése
 deck-config-bury-interday-learning-siblings = Napközi tanulási testvérek félretevése
 deck-config-bury-new-tooltip =
-    Az, hogy más "új" kártyák ugyanarról a jegyzetről (pl. fordított kártyák, szomszédos lyukas szöveg kártyák)
-    a következő napra halasztódnak-e.
-deck-config-bury-review-tooltip = Az, hogy a többi azonos jegyzetű "áttekintő" kártyákat a következő napra halasztják-e.
-deck-config-bury-interday-learning-tooltip = Az azonos jegyzetű, 1 napnál hosszabb időközzel rendelkező egyéb "tanulókártyák" a következő napra halasztódnak-e.
+    Ugyanahhoz a jegyzethez tartozó többi új kártya (pl. fordított kártyák, szomszédos lyukas szöveg kártyák)
+    másnapra halasztása.
+deck-config-bury-review-tooltip = Ugyanahhoz a jegyzethez tartozó többi ismétlőkártya másnapra halasztása.
+deck-config-bury-interday-learning-tooltip = Ugyanahhoz a jegyzethez tartozó, 1 napnál hosszabb időközzel rendelkező tanulókártyák másnapra halasztása.
 deck-config-bury-priority-tooltip =
-    Amikor az Anki kártyákat gyűjt, először a napközbeni tanulókártyákat, 
-    majd a napközi tanulókártyákat, aztán az áttekintéseket, végül az új kártyákat
-    gyűjti össze. Ez befolyásolja hogyan működik a félretevés:
+    A kártyák összegyűjtése során az Anki először az aznapi tanulókártyákat, 
+    majd a napközi tanulókártyákat, aztán az ismétlőkártyákat, végül az új kártyákat
+    gyűjti össze. Ez befolyásolja a félretevés módját:
     
-    - Ha az összes félretevési opciót engedélyezte, akkor a listában legkorábban 
-    előforduló testvér lesz látható. Például egy áttekintő kártya előbb lesz látható, 
+    - Ha az összes félretevési opciót engedélyezva van, akkor csak a listában legkorábban 
+    előforduló testvér lesz látható. Például egy ismétlőkártya előbb lesz látható, 
     mint egy új kártya.
-    - A listában később szereplő testvérek nem temethetik el a korábbi kártyatípusokat.
-    Ha például kikapcsolja az új kártyák félretevését, és új kártyát tanul, akkor
-    az nem temet el napközi tanulási vagy áttekintő kártyákat, és előfordulhat, hogy 
-    egyazon munkamenetben egy áttekintő és
-    egy új testvérkártyát is láthat.
+    - A listában később szereplő testvérek nem okozhatják a korábbi kártyatípusok félretevését.
+    Például ha kikapcsolod az új kártyák félretevését, és egy új kártyát tanulsz, attól még
+     napközi tanulásókártyák vagy ismétlőkártyák nem lesznek félretéve, és előfordulhat, hogy 
+    a kártyának ilyen testvéreival még aznap találkozhatsz.
 
 ## Gather order and sort order of cards
 
 deck-config-ordering-title = Megjelenítés sorrendje
-deck-config-new-gather-priority = Az új kártyák gyűjtésének sorrendje
+deck-config-new-gather-priority = Új kártyák gyűjtésének sorrendje
 deck-config-new-gather-priority-tooltip-2 =
     "Pakli": a pakliból a kártyákat sorrendben, felülről kezdve gyűjti össze. A kártyákat az összes pakliból 
     növekvő sorrendben gyűjti össze. 
@@ -143,7 +149,7 @@ deck-config-new-gather-priority-tooltip-2 =
     (pl. mind az elülső→hátsó és hátul→elülső lapot).
     
     `Véletlenszerű Kártyák`: teljesen véletlenszerűen gyűjti össze a kártyákat.
-deck-config-new-card-sort-order = Új kártya rendezési sorrend
+deck-config-new-card-sort-order = Új kártyák rendezési sorrendje
 deck-config-new-card-sort-order-tooltip-2 =
     `Kártya típusa`: Kártyák megjelenítése a kártyatípus száma szerinti sorrendben. 
     Ha a testvérek félretevése le van tiltva, ez biztosítja, hogy az összes elülső→hátsó
@@ -163,18 +169,20 @@ deck-config-new-card-sort-order-tooltip-2 =
     sorrendben megmutatja az összes testvérüket.
     
     `Véletlenszerűen`: Teljesen megkeveri az összegyűjtött kártyákat.
-deck-config-new-review-priority = Új/áttekintő rend
-deck-config-new-review-priority-tooltip = Mikor kell megmutatni az új kártyákat az áttekintő kártyákhoz képest.
-deck-config-interday-step-priority = Napközi tanulási/áttekintési sorrend
+deck-config-new-review-priority = Új és ismétlőkártyák rendje
+deck-config-new-review-priority-tooltip = Az új kártyák és az ismétlőkártyák közötti sorrend.
+deck-config-interday-step-priority = Napközi tanulókártyák és ismétlőkártyák rendje
 deck-config-interday-step-priority-tooltip =
-    Mikor kell megmutatni a naphatárt átlépő (újra)tanulókártyákat.
+    A naphatárt átlépő (újra)tanulókártyák és az ismétlőkártyák közötti sorrend.
     
-    A áttekintési limitet mindig először a napok közötti tanulókártyákra alkalmazzuk, és majd az áttekintésekre. Ez a beállítás szabályozza az összegyűjtött kártyák 
-    megjelenítésének sorrendjét, de a napközi tanulási kártyák mindig először lesznek összegyűjtve.
-deck-config-review-sort-order = Áttekintés rendezési sorrend
+    Először mindig a napok közötti tanulókártyák lesznek összegyűjtve, majd ezután az ismétlőkártyák.
+    Ez a beállítás összegyűjtött kártyák megjelenítésének sorrendjét szabályozza.
+deck-config-review-sort-order = Ismétlőkártyák sorrendje
 deck-config-review-sort-order-tooltip =
-    Az alapértelmezett sorrend a legrégebben várakozó kártyákat helyezi előtérbe,
-    így ha van egy csomó elmaradt áttekintés, akkor a leghosszabb ideig várakozó kártyák jelennek meg először. Ha nagy a hátralék, és néhány napnál több időt vesz igénybe, vagy ha a kártyákat alpakliban szeretné látni, akkor az alternatív rendezési sorrendeket előnyösebbnek találhatja.
+    Az alapértelmezett sorrend a legrégebb óta várakozó kártyákat helyezi előre,
+    így ha vannak késedelmes ismétlőkártyák, akkor azok kerülnek legelőre.
+    Ha nagy a hátralék és több napig tartana behozni, vagy az alpaklik kártyáit
+    együtt szeretnéd látni, más rendezési szempontok hasznosabbak lehetnek.
 deck-config-display-order-will-use-current-deck = Az Anki a tanuláshoz kiválasztott pakli megjelenítési sorrendjét fogja használni, nem pedig az esetleges alpaklik sorrendjét.
 
 ## Gather order and sort order of cards – Combobox entries
@@ -196,50 +204,54 @@ deck-config-sort-order-card-template-then-random = Kártya típusa, majd véletl
 # Sort the notes first randomly, then the cards by their type, in ascending order (alphabetically), within each note.
 deck-config-sort-order-random-note-then-template = Véletlenszerű jegyzet, majd kártyatípus
 # Sort the cards randomly.
-deck-config-sort-order-random = véletlenszerűen
+deck-config-sort-order-random = Véletlenszerű
 # Sort the cards first by their type, in ascending order (alphabetically), then by the order they were gathered, in ascending order (oldest to newest).
-deck-config-sort-order-template-then-gather = Kártya típusa
+deck-config-sort-order-template-then-gather = Kártya típusa, majd összegyűjtés sorrendje
 # Sort the cards by the order they were gathered, in ascending order (oldest to newest).
-deck-config-sort-order-gather = Összegyűjtött rend
+deck-config-sort-order-gather = Összegyűjtés sorrendje
 # How new cards or interday learning cards are mixed with review cards.
-deck-config-review-mix-mix-with-reviews = Keverjük össze az áttekintésekkel
+deck-config-review-mix-mix-with-reviews = Ismétlőkártyákkal együtt
 # How new cards or interday learning cards are mixed with review cards.
-deck-config-review-mix-show-after-reviews = Mutasd meg az áttekintés után
+deck-config-review-mix-show-after-reviews = Ismétlőkártyák után
 # How new cards or interday learning cards are mixed with review cards.
-deck-config-review-mix-show-before-reviews = Mutasd meg az áttekintés elött
+deck-config-review-mix-show-before-reviews = Ismétlőkártyák előtt
 # Sort the cards first by due date, in ascending order (oldest due date to newest), then randomly within the same due date.
-deck-config-sort-order-due-date-then-random = Esedékesség, majd véletlenszerűen
+deck-config-sort-order-due-date-then-random = Esedékesség, majd véletlenszerű
 # Sort the cards first by due date, in ascending order (oldest due date to newest), then by deck within the same due date.
 deck-config-sort-order-due-date-then-deck = Esedékesség, majd pakli
 # Sort the cards first by deck, then by due date in ascending order (oldest due date to newest) within the same deck.
 deck-config-sort-order-deck-then-due-date = Pakli, majd esedékesség
 # Sort the cards by the interval, in ascending order (shortest to longest).
-deck-config-sort-order-ascending-intervals = Növekvő intervallumok
+deck-config-sort-order-ascending-intervals = Növekvő időköz
 # Sort the cards by the interval, in descending order (longest to shortest).
-deck-config-sort-order-descending-intervals = Csökkenő intervallumok
+deck-config-sort-order-descending-intervals = Csökkenő időköz
 # Sort the cards by ease, in ascending order (lowest to highest ease).
-deck-config-sort-order-ascending-ease = Növekvő könnyedség
+deck-config-sort-order-ascending-ease = Növekvő könnyűség
 # Sort the cards by ease, in descending order (highest to lowest ease).
-deck-config-sort-order-descending-ease = Csökkenő könnyedség
+deck-config-sort-order-descending-ease = Csökkenő könnyűség
 # Sort the cards by difficulty, in ascending order (easiest to hardest).
 deck-config-sort-order-ascending-difficulty = Növekvő nehézség
 # Sort the cards by difficulty, in descending order (hardest to easiest).
 deck-config-sort-order-descending-difficulty = Csökkenő nehézség
+# Sort the cards by retrievability percentage, in ascending order (0% to 100%, least retrievable to most easily retrievable).
+deck-config-sort-order-retrievability-ascending = Növekvő előhívási arány
+# Sort the cards by retrievability percentage, in descending order (100% to 0%, most easily retrievable to least retrievable).
+deck-config-sort-order-retrievability-descending = Csökkenő előhívási arány
 
 ## Timer section
 
-deck-config-timer-title = Időzítő
-deck-config-maximum-answer-secs = Maximális válasz másodpercek
+deck-config-timer-title = Időmérő
+deck-config-maximum-answer-secs = Maximális válaszadási idő (mp)
 deck-config-maximum-answer-secs-tooltip =
-    Az egyszeri áttekintéshez rögzítendő másodpercek maximális száma. 
-    Ha egy válasz túllépi ezt az időt (például azért, mert elfordult a képernyőtől), 
-    az eltelt idő helyett az ön által beállított határérték kerül rögzítésre.
+    Egy ismétléssel rögzített maximális idő mésodpercben. 
+    Ha egy válasz túllépi ezt az időt (például azért, mert eltávolodtál a képernyőtől), 
+    az eltelt idő helyett az itt beállított határérték kerül rögzítésre.
 deck-config-show-answer-timer-tooltip =
-    Az áttekintési képernyőn megjelenik egy időzítő, amely számolja, hogy hány 
-    másodpercig tart az egyes kártyák áttekintése.
-deck-config-stop-timer-on-answer = Az időzítő megállítása a válaszoldalon
+    Az tanulási képernyőn megjelenik egy óra, ami a kártyán
+    eltöltött időt méri.
+deck-config-stop-timer-on-answer = Időzmérő megállítása a válaszoldalon
 deck-config-stop-timer-on-answer-tooltip =
-    Az időzítő leállítása, amikor a válasz kiderül.
+    Az időmérő leállítása, amikor a válasz kiderül.
     Ez nem befolyásolja a statisztikát.
 
 ## Auto Advance section
