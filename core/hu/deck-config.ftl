@@ -87,11 +87,6 @@ deck-config-relearning-steps-tooltip =
     egy ismétlőkártyán az "Újra" gomb megnyomásával a kártya 10 perc múlva
     ismét megjelenik. Ha nincs késleltetés megadva, akkor a kártya időköze 
     megváltozik anélkül, hogy újratanulásra lenne ítélve. { -deck-config-delay-hint }
-deck-config-leech-threshold-tooltip =
-    Az a szám, ahányszor meg kell nyomni az "Újra" gombot egy áttekintő kártyán, 
-    mielőtt az piócának minősül. A piócák azok a kártyák, amelyek sok időt emésztenek fel, és 
-    amikor egy kártyát piócának jelölnek, érdemes átírni, törölni, vagy kitalálni
-    egy emlékeztetőt, amely segít emlékezni rá.
 # See actions-suspend-card and scheduling-tag-only for the wording
 deck-config-leech-action-tooltip =
     "Csak címke": Hozzáad egy 'pióca' címkét a jegyzethez, és megjelenít egy felugró ablakot.
