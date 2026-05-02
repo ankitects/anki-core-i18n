@@ -256,16 +256,16 @@ deck-config-stop-timer-on-answer-tooltip =
 
 ## Auto Advance section
 
-deck-config-seconds-to-show-question = Másodpercek a kérdés megjelenítéséhez
-deck-config-seconds-to-show-question-tooltip-3 = Ha az automatikus előrelépés aktiválva van, akkor kérdés művelet alkalmazása előtt várandó másodpercek száma. A letiltáshoz állítsa 0-ra.
-deck-config-seconds-to-show-answer = Másodpercek a válasz megjelenítéséhez
-deck-config-seconds-to-show-answer-tooltip-2 = Ha az automatikus előhívás aktiválva van, akkor a válasz művelet alkalmazása előtt várandó másodpercek száma. A letiltáshoz állítsa 0-ra.
+deck-config-seconds-to-show-question = Kérdés időtartama (mp)
+deck-config-seconds-to-show-question-tooltip-3 = Ha az automatikus előrelépés engedélyzeve van, akkor a kérdés művelet alkalmazása előtt eltelt másodpercek száma. A letiltáshoz állítsd 0-ra.
+deck-config-seconds-to-show-answer = Válasz időtartama (mp)
+deck-config-seconds-to-show-answer-tooltip-2 = Ha az automatikus előhívás engedélyzve van, akkor a válasz művelet alkalmazása előtt eltelt másodpercek száma. A letiltáshoz állítsd 0-ra.
 deck-config-question-action-show-answer = Válasz megjelenítése
 deck-config-question-action-show-reminder = Emlékeztető megjelenítése
 deck-config-question-action = Kérdés művelet
-deck-config-question-action-tool-tip = A kérdés megjelenése után megadott idő elteltével végrehajtandó művelet.
+deck-config-question-action-tool-tip = A kérdés megjelenése után, a megadott idő elteltével végrehajtandó művelet.
 deck-config-answer-action = Válasz művelet
-deck-config-answer-action-tooltip-2 = A válasz megjelenése után megadott idő elteltével végrehajtandó művelet.
+deck-config-answer-action-tooltip-2 = A válasz megjelenése után, a megadott idő elteltével végrehajtandó művelet.
 deck-config-wait-for-audio-tooltip-2 = Várja meg a hang befejezését, mielőtt automatikusan alkalmazná a kérdés vagy a válasz műveletet.
 
 ## Audio section
@@ -274,15 +274,13 @@ deck-config-audio-title = Hang
 deck-config-disable-autoplay = Ne játssza le automatikusan a hangot
 deck-config-disable-autoplay-tooltip =
     Ha engedélyezve van, az Anki nem játszik le automatikusan hangot.
-    A hangot manuálisan lehet lejátszani a hang ikonra kattintva/tapintva, vagy a Replay művelet használatával.
+    A hangot manuálisan lehet lejátszani a hang ikonra kattintva/tapintva, vagy az Újrajátszás művelettel.
 deck-config-skip-question-when-replaying = Kérdés kihagyása a válasz újrajátszásakor
-deck-config-always-include-question-audio-tooltip =
-    A kérdés hangja szerepeljen-e, amikor a Replay művelet a
-    a kártya válaszoldalának megtekintése közben használjuk.
+deck-config-always-include-question-audio-tooltip = Ne játssza le a kérdést hangját az Újrajátszás művelettel a kártya hátoldalán.
 
 ## Advanced section
 
-deck-config-advanced-title = Haladó
+deck-config-advanced-title = Haladó beállítások
 deck-config-maximum-interval-tooltip = A maximum napok száma, ameddig egy áttekintő kártya várakozhat. Ha az áttekintések elérik a limitet, a "Nehéz", a "Jó" és a "Könnyű" változat ugyanolyan késleltetést ad. Minél rövidebbre állítja ezt be, annál nagyobb lesz a munkaterhelés.
 deck-config-starting-ease-tooltip =
     Az új kártyák könnyítési szorzója. Alapértelmezés szerint az újonnan megtanult kártyák
