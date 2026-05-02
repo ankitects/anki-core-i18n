@@ -281,23 +281,39 @@ deck-config-always-include-question-audio-tooltip = Ne játssza le a kérdést h
 ## Advanced section
 
 deck-config-advanced-title = Haladó beállítások
-deck-config-maximum-interval-tooltip = A maximum napok száma, ameddig egy áttekintő kártya várakozhat. Ha az áttekintések elérik a limitet, a "Nehéz", a "Jó" és a "Könnyű" változat ugyanolyan késleltetést ad. Minél rövidebbre állítja ezt be, annál nagyobb lesz a munkaterhelés.
+deck-config-maximum-interval-tooltip =
+    Egy ismétlőkártya egymást követő megjelenéi közötti maximális időtartam napokban.
+    Ha egy kártya eléri ezt a a limitet, a "Nehéz", a "Jó" és a "Könnyű" gombok ugyanolyan késleltetést adnak.
+    Minél rövidebbre ez, annál nagyobb lesz a munkaterhelés.
 deck-config-starting-ease-tooltip =
-    Az új kártyák könnyítési szorzója. Alapértelmezés szerint az újonnan megtanult kártyák
-    "Jó" gombja a következő áttekintést az előző késleltetés 2,5x-ével késlelteti.
-deck-config-easy-bonus-tooltip = Egy extra szorzó, amelyet egy áttekintő kártya intervallumára alkalmazunk, ha azt "könnyűnek" minősíted.
+    Az új kártyák könnyűségi szorzója. Alapértelmezés szerint az újonnan megtanult kártyák
+    "Jó" gombja a következő ismétlést az előző késleltetés 2,5-szeresével késlelteti.
+deck-config-easy-bonus-tooltip = A "könnyűnek" minősített ismétlőkártyák késleltetésére alkalmazott szorzó.
 deck-config-interval-modifier-tooltip =
-    Ez a szorzó minden áttekintésre vonatkozik, és kisebb módosításokkal
-    az Anki konzervatívabbá vagy agresszívabbá tehető az ütemezés során. 
-    Kérjük, nézze meg a kézikönyvet, mielőtt megváltoztatná ezt az opciót.
-deck-config-hard-interval-tooltip = A "Nehéz" válasz esetén az áttekintési intervallumra alkalmazott szorzó.
-deck-config-new-interval-tooltip = Az "Újra" válasz esetén az áttekintési intervallumra alkalmazott szorzó.
-deck-config-minimum-interval-tooltip = Az a minimális időintervallum, amelyet az " Újra" válasz után az áttekintő kártyának adunk.
+    Minden ismétlésre vonatkozó szorzó. Kisebb módosításokkal
+    az Anki ütemezése sűrűbbé vagy ritkábbá tehető.
+    Olvasd el a kézikönyvet, mielőtt ezt az opciót megváltoztatnád!
+deck-config-hard-interval-tooltip = A "Nehéz" válasz esetén az időközre alkalmazott szorzó.
+deck-config-new-interval-tooltip = Az "Újra" válasz esetén az időközre alkalmazott szorzó.
+deck-config-minimum-interval-tooltip = Az "Újra" válasz esetén az ismétlőkártyák minimáls időköze.
 deck-config-custom-scheduling = Egyedi ütemezés
-deck-config-custom-scheduling-tooltip = Az egész gyűjteményre hatással van. Használata saját felelősségre történik!
+deck-config-custom-scheduling-tooltip = Az egész gyűjteményre hatással van. Csak saját felelősségre!
 
 ## Easy Days section.
 
+deck-config-easy-days-title = Lusta napok
+deck-config-easy-days-monday = H
+deck-config-easy-days-tuesday = K
+deck-config-easy-days-wednesday = Sze
+deck-config-easy-days-thursday = Cs
+deck-config-easy-days-friday = P
+deck-config-easy-days-saturday = Szo
+deck-config-easy-days-sunday = V
+deck-config-easy-days-normal = Normál
+deck-config-easy-days-reduced = Csökkentett
+deck-config-easy-days-minimum = Minimális
+deck-config-easy-days-no-normal-days = Legalább egy napot "{ deck-config-easy-days-normal }"-ra kell állítani.
+deck-config-easy-days-change = A meglévő ismétlőkártyák nem lesznek átütemezve, csak ha a "{ deck-config-reschedule-cards-on-change }" beállítás engedélyzeve van.
 
 ## Adding/renaming
 
@@ -310,17 +326,16 @@ deck-config-clone-group = Előbeállítás klónozása
 
 deck-config-remove-group = Előbeállítás eltávolítása
 deck-config-will-require-full-sync =
-    A kért módosítás egyirányú szinkronizálást igényel. Ha egy másik eszközön már 
-    hajtott végre módosításokat, és még nem szinkronizálta azokat erre az eszközre, 
-    kérjük, tegye meg, mielőtt folytatja.
-deck-config-confirm-remove-name = Eltávolítani { $name }?
+    A kért módosítás egyirányú szinkronizálást igényel. Ha egy másik eszközön végrehjatott
+    módosítások még nem lettek erre az eszközre szinkronizálva, ezt tedd meg, mielőtt továbblépnél.
+deck-config-confirm-remove-name = { $name } el lesz távolítva. Folytatod?
 
 ## Other Buttons
 
 deck-config-save-button = Mentés
 deck-config-save-to-all-subdecks = Mentés az összes alpaklira
 deck-config-save-and-optimize = Minden előbeállítás optimalizálása
-deck-config-revert-button-tooltip = Állítsa vissza ezt a beállítást az alapértelmezett értékre.
+deck-config-revert-button-tooltip = Visszaállítás alapértelmezett értékre
 
 ## These strings are shown via the Description button at the bottom of the
 ## overview screen.
@@ -328,43 +343,71 @@ deck-config-revert-button-tooltip = Állítsa vissza ezt a beállítást az alap
 deck-config-description-new-handling = Anki 2.1.41+ kezelése
 deck-config-description-new-handling-hint =
     A bevitelt markdownként kezeli, és megtisztítja a HTML-bevitelt.
-    Ha engedélyezve van, a leírás a gratulációk képernyőjén is megjelenik.
-    A markdown szövegként jelenik meg az Anki 2.1.40 és az alatti verziókon.
+    Ha engedélyezve van, a leírás a gratuláció képernyőn is megjelenik.
+    A markdown szövegként jelenik meg az Anki 2.1.40 és az alatti verziókban.
 
 ## Warnings shown to the user
 
 deck-config-daily-limit-will-be-capped =
     { $cards ->
-        [one] A szülőpakli limitje { $cards } kártya, amely felülírja ezt a limitet.
-       *[other] A szülőpakli limitje { $cards } kártyák, amely felülírja ezt a limitet.
+       *[other] A szülőpakli limitje { $cards } kártya, amely felülírja ezt a limitet.
     }
 deck-config-reviews-too-low =
     { $cards ->
-        [one] Ha minden nap { $cards } új kártyát adsz hozzá, akkor az áttekintési limitednek legalább { $expected } kellene lennie.
-       *[other] Ha minden nap { $cards } új kártyát adsz hozzá, akkor az áttekintési limitednek legalább { $expected } kellene lennie.
+       *[other] Ha minden nap { $cards } új kártyát adsz hozzá, akkor a napi ismétlőkártya limitnek legalább { $expected } kártyának kellene lennie.
     }
-deck-config-learning-step-above-graduating-interval = Az előrelépési időköznek legalább olyan hosszúnak kell lennie, mint az utolsó tanulási lépés.
-deck-config-good-above-easy = A könnyű intervallumnak legalább olyan hosszúnak kell lennie, mint az előrelépési intervallumnak.
-deck-config-relearning-steps-above-minimum-interval = A minimális elakadási időköznek legalább olyan hosszúnak kell lennie, mint az utolsó újratanulási lépés.
-deck-config-maximum-answer-secs-above-recommended = Az Anki hatékonyabban tudja ütemezni az áttekintéseket, ha az egyes kérdéseket rövidre fogja.
+deck-config-learning-step-above-graduating-interval = Az előrelépési időköz nem lehet rövidebb az utolsó tanulási lépésnél.
+deck-config-good-above-easy = A könnyű időköz nem lehet rövidebb az előrelépési időköznél.
+deck-config-relearning-steps-above-minimum-interval = A minimális elakadási időköz nem lehet rövidebb az utolsó újratanulási lépésnél.
+deck-config-maximum-answer-secs-above-recommended = Az Anki hatékonyabban tudja ütemezni az ismétléseket, ha a kérdések egyenként rövidebbek.
+deck-config-too-short-maximum-interval = Nem ajánlott 6 hónapnál rövidebb maximális időközt megadni.
+deck-config-ignore-before-info = { $totalCards } kártyából nagyjából { $included } lesz felhasználva az FSRS optimalizálásához.
 
 ## Selecting a deck
 
-deck-config-which-deck = Melyik paklihoz szeretne opciókat megjeleníteni?
+deck-config-which-deck = Melyik paklihoz szeretnél opciókat megjeleníteni?
 
 ## Messages related to the FSRS scheduler
 
 deck-config-updating-cards = Kártyák frissítése: { $current_cards_count }/{ $total_cards_count }...
-deck-config-not-enough-history = Nincs elegendő áttekintési előzmény a művelet elvégzéséhez.
-deck-config-ignore-before = A korábban áttekintett kártyák figyelmen kívül hagyása
+deck-config-invalid-parameters = Érvénytelen FSRS paraméterek. Alapértelmezett paraméterek használatához hagyd üresen.
+deck-config-not-enough-history = Nincs elegendő ismétlési előzmény a művelet elvégzéséhez.
+deck-config-must-have-400-reviews =
+    { $count ->
+       *[other] Ehhez a művelethez legalább 400 ismétlés kell, de csak { $count } áll rendelkezésre.
+    }
+# Numbers that control how aggressively the FSRS algorithm schedules cards
+deck-config-weights = FSRS paraméterek
+deck-config-compute-optimal-weights = FSRS paraméterek optimalizálása
+deck-config-optimize-button = Előbeállítás optimalizálása
+# Indicates that a given function or label, provided via the "text" variable, operates slowly.
+deck-config-slow-suffix = { $text } (lassú)
+deck-config-compute-button = Futtatás
+deck-config-ignore-before = A korábban ismételt kártyák figyelmen kívül hagyása
+deck-config-time-to-optimize = Érdemes a "Minden előbeállítás optimalizálása" gombot használni.
+deck-config-evaluate-button = Kiértékelés
+deck-config-desired-retention = Ideális megtartás
 deck-config-historical-retention = Múltbeli megtartás
+deck-config-smaller-is-better = Alacsonyabb érték pontosabb egyezést jelent az előzményeiddel.
+deck-config-steps-too-large-for-fsrs = Engedélyezett FSRS mellett az 1 napos vagy annál hosszabb lépések használata nem ajánlott.
+deck-config-get-params = Paraméterek lekérése
+deck-config-complete = { $num }% kész.
+deck-config-iterations = { $count }. iteráció...
+deck-config-reschedule-cards-on-change = Kártyák átütemezése
+deck-config-fsrs-tooltip =
+    A teljes gyűjteményre hatással van.
+    
+    Az FSRS (Free Spaced Repetition Scheduler) az Anki régi SuperMemo2 (SM-2) algoritmusának alternatívája.
+    Pontosabban képes előrejelezni, milyen valószínűséggel felejtesz el egy kártyát,
+    és ezt figyelembe véve több kártyát tud megtanítani ugyanannyi idő alatt.
+    Ez a beállítás az összes előbeállítást egyaránt érinti.
 deck-config-desired-retention-tooltip =
-    Az alapértelmezett 0,9-es érték úgy ütemezi a kártyákat, hogy 90%-os eséllyel emlékezzen rájuk, amikor 
-    újra áttekintésre kerülnek. Ha növeli ezt az értéket, az Anki gyakrabban fogja megmutatni a kártyákat, 
-    hogy növelje az esélyét annak, hogy emlékszik rájuk. Ha csökkenti az értéket, az Anki ritkábban fogja 
-    megmutatni a kártyákat, és így többet fog elfelejteni belőlük. Legyen óvatos ennek beállításakor -
+    Az alapértelmezett 0,9-es érték úgy ütemezi a kártyákat, hogy 90%-os eséllyel emlékezz rájuk, amikor 
+    legközelebb ismétllésre kerülnek. Ha növeled ezt az értéket, az Anki gyakrabban fogja megmutatni a kártyákat, 
+    hogy növelje az esélyét annak, hogy emlékszel rájuk. Ha csökkented az értéket, az Anki ritkábban fogja 
+    megmutatni a kártyákat, és így többet fogsz elfelejteni belőlük. Légy óvatos ennek beállításakor —
     a magasabb értékek jelentősen megnövelik a munkaterhelését, az alacsonyabb értékek pedig 
-    demoralizálóak lehetnek, ha sok anyagot felejt el.
+    demoralizálóak lehetnek, ha sokat felejtesz.
 deck-config-historical-retention-tooltip =
     Ha az áttekintési előzmények egy része hiányzik, az FSRS-nek ki kell töltenie a hiányosságokat. 
     Alapértelmezés szerint azt feltételezi, hogy amikor ezeket a régi áttekintéseket végezte, az anyag 90%-ára emlékezett. 
