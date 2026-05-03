@@ -420,6 +420,12 @@ deck-config-historical-retention-tooltip =
     
     Az utóbbi ritkán fordul elő, így hacsak nem engedélyezted a fent említett beállítást, ezt az értéket változatlanul hagyhatod.
 deck-config-weights-tooltip2 = Az FSRS paraméterek befolyásolják a kártyák ütemezését. Lentebb optimalizálhatod a paramétereket, hogy a lehető legjobban illeszkedjenek az ezt az előbeállítást hasnáló paklijaidra.
+deck-config-reschedule-cards-on-change-tooltip =
+    Az egész gyűjteményre hatással van, és nem lesz elmentve.
+    
+    Ha engedélyezve van, az FSRS engedélyezése és a paraméterek optimalizálása módosítja a kártyák
+    esedékességét. Alapvetés szerint nincs engedélyezve: a jövőben a késleltetés az új ütemezés szerint lesz
+    meghatározva, de most nem történik átütemezés.
 deck-config-ignore-before-tooltip-2 =
     Ha be van állítva, a megadott dátum előtt átnézett kártyákat az FSRS paraméterek optimalizálásakor figyelmen kívül hagyjuk.
     Ez hasznos lehet, ha valaki más ütemezési adatait importálta, vagy megváltoztatta a válaszgombok használatának módját.
