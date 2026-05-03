@@ -426,11 +426,66 @@ deck-config-reschedule-cards-on-change-tooltip =
     Ha engedélyezve van, az FSRS engedélyezése és a paraméterek optimalizálása módosítja a kártyák
     esedékességét. Alapvetés szerint nincs engedélyezve: a jövőben a késleltetés az új ütemezés szerint lesz
     meghatározva, de most nem történik átütemezés.
+deck-config-reschedule-cards-warning =
+    A kívánt megtartás mértékétől függően előfordulhat, hogy ettől sok kártya lesz egyszerre esedékes.
+    Emiatt nem ajánlott engedélyezni, ha először váltaz SM-2-ről.
+    
+    Óvatosan használd ezt a beállítást, mert ez új ismétlést ad hozzá minden kártyához, és ezzel megnöveli a gyűjteményed méretét.
 deck-config-ignore-before-tooltip-2 =
-    Ha be van állítva, a megadott dátum előtt átnézett kártyákat az FSRS paraméterek optimalizálásakor figyelmen kívül hagyjuk.
-    Ez hasznos lehet, ha valaki más ütemezési adatait importálta, vagy megváltoztatta a válaszgombok használatának módját.
+    Ha be van állítva, a megadott dátum előtt ismételt kártyákat az FSRS paraméterek optimalizálásakor figyelmen kívül hagyja.
+    Ez hasznos lehet, ha valaki más ütemezési adatait importáltad, vagy megváltoztattad a válaszgombok használatának módját.
+deck-config-compute-optimal-weights-tooltip2 =
+    Az Optimalizálás gomb megnyomásakor az FSRS kielemzi az előzményeidet és annak alapján generál
+    paramétereket. Ha különböző paklijaid nehézsége nagyban eltér egymástól, ajánlott őket külön
+    előbeállításra állítani, mivel más paraméterek illenek könnyű és nehé paklikhoz.
+    A paramétereket nem kell gyakran optimalizálni, elég néhány havonta egyszer.
+    
+    Alapértelmezés szerint az optimalizálás a kiálasztott alapbeállításhoz tartozó összes palkli előzményeit
+    figyelembe veszi. Ha szeretnéd megváltoztatni, hogy melyik kártyák lesznek figyelembe véve, módosíthatod a keresés beállításait.
+deck-config-please-save-your-changes-first = Előbb mentsd el a módosításaidat!
+deck-config-workload-factor-change =
+    Becsült terhelés: { $factor }x
+    ({ $previousDR }% kívánt megtartás)
+deck-config-workload-factor-unchanged = Magasabb érték mellett a kártyák gyakrabban lesznek ismételve.
+deck-config-desired-retention-too-low = A kívánt megtartás nagyon alacsony, ami túlságosan nagy időközöket okozhat.
+deck-config-desired-retention-too-high = A kívánt megtartás nagyon magas, ami túlságosan rövid időközöket okozhat.
+deck-config-percent-of-reviews =
+    { $reviews ->
+       *[other] { $reviews } ismétlés { $pct }%-a
+    }
+deck-config-percent-input = { $pct }%
+deck-config-optimizing-preset = Optimalizálás { $current_count }/{ $total_count }...
+deck-config-fsrs-must-be-enabled = Engedélyezd az FSRS-t!
+deck-config-fsrs-params-optimal = Az FSRS paraméterei optimálisnak tűnnek.
+deck-config-fsrs-params-no-reviews = Nincs ismétlés. Állítsd be ezt az előbeállítást minden paklira (és alpaklira), amit optimalizálni szeretnél, majd próbáld újra!
 deck-config-wait-for-audio = Várjon a hangra
 deck-config-show-reminder = Emlékeztető megjelenítése
+deck-config-answer-again = Új válasz
+deck-config-days-to-simulate = Szimulálandó napok száma
+deck-config-desired-retention-below-optimal = A kívánt megtartás túl alacsony. Érdemes megnövelni.
+# Description of the y axis in the FSRS simulation
+# diagram (Deck options -> FSRS) showing the total number of
+# cards that can be recalled or retrieved on a specific date.
+deck-config-fsrs-simulator-experimental = FSRS szimulátor (kísérleti)
+deck-config-fsrs-simulate-desired-retention-experimental = FSRS ideális megtartás szimulátor (kísérleti)
+deck-config-fsrs-simulate-save-preset = Optimalizálás után mentsd el az előbeállítást, mielőtt futtatnád a szimulátort!
+deck-config-fsrs-desired-retention-help-me-decide-experimental = Segíts dönteni! (kísérleti)
+deck-config-additional-new-cards-to-simulate = További új kártyák a szimulációhoz
+deck-config-simulate = Szimuláció
+deck-config-clear-last-simulate = Legutóbbi szimuláció törlése
+deck-config-fsrs-simulator-radio-count = Ismétlés
+deck-config-advanced-settings = Haladó beállítások
+deck-config-smooth-graph = Grafikon kisimítása
+deck-config-suspend-leeches = Mumusok felfüggesztése
+deck-config-save-options-to-preset = Előbeállítás mentése
+deck-config-save-options-to-preset-confirm = Felülírod az előbeállítás jelenlegi beállításait a szimulátor beállításaival?
+# Radio button in the FSRS simulation diagram (Deck options -> FSRS) selecting
+# to show the total number of cards that can be recalled or retrieved on a
+# specific date.
+deck-config-fsrs-simulator-radio-memorized = Megtanult
+deck-config-fsrs-simulator-radio-ratio = Idő és megtanult kártyák aránya
+# $time here is pre-formatted e.g. "10 Seconds" 
+deck-config-fsrs-simulator-ratio-tooltip = Megtanult kártyánként { $time }
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
