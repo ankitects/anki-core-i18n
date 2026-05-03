@@ -383,7 +383,7 @@ deck-config-optimize-button = Előbeállítás optimalizálása
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (lassú)
 deck-config-compute-button = Futtatás
-deck-config-ignore-before = A korábban ismételt kártyák figyelmen kívül hagyása
+deck-config-ignore-before = Korábban ismételt kártyák figyelmen kívül hagyása
 deck-config-time-to-optimize = Érdemes a "Minden előbeállítás optimalizálása" gombot használni.
 deck-config-evaluate-button = Kiértékelés
 deck-config-desired-retention = Ideális megtartás
@@ -409,6 +409,17 @@ deck-config-desired-retention-tooltip =
     a magasabb értékek jelentősen megnövelik a munkaterhelését, az alacsonyabb értékek pedig 
     demoralizálóak lehetnek, ha sokat felejtesz.
 deck-config-desired-retention-tooltip2 = Az információs dobozban közölt számok csupán becsült értékek. Pontosabb eredményekhez használd a szimulátort.
+deck-config-historical-retention-tooltip =
+    Ha az ismétlési előzményeid hiányosak, az FSRS megtippeli a hiányzó értékeket. Alapértelemezés szerint
+    azt feltételezi, hogy minden ismétlésnél a kártyák 90%-ára emlékeztél. Ha a valóság ettőől jelentősen eltért,
+    ennek a beállításnak a módosításával pontosabb közelítést kaphatsz.
+    
+    Az előzmények két okból lehetnek hiányosak:
+    1. A "Korábban ismételt kártyák figyelmen kívül hagyása" beállítás engedélyezve van.
+    2. Korábban törölted az előzményeket, vagy más SRS programból importáltál anyagot.
+    
+    Az utóbbi ritkán fordul elő, így hacsak nem engedélyezted a fent említett beállítást, ezt az értéket változatlanul hagyhatod.
+deck-config-weights-tooltip2 = Az FSRS paraméterek befolyásolják a kártyák ütemezését. Lentebb optimalizálhatod a paramétereket, hogy a lehető legjobban illeszkedjenek az ezt az előbeállítást hasnáló paklijaidra.
 deck-config-ignore-before-tooltip-2 =
     Ha be van állítva, a megadott dátum előtt átnézett kártyákat az FSRS paraméterek optimalizálásakor figyelmen kívül hagyjuk.
     Ez hasznos lehet, ha valaki más ütemezési adatait importálta, vagy megváltoztatta a válaszgombok használatának módját.
