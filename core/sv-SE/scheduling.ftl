@@ -86,7 +86,7 @@ scheduling-buried-cards-found = Ett eller flera kort doldes och kommer visas imo
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
 scheduling-unbury-them = visa dem
-scheduling-how-to-custom-study = Vid önskan att studera utanför det regelbundna schemat kan funktionen { $customStudy } användas.
+scheduling-how-to-custom-study = För att studera utöver de schemalagda korten kan funktionen { $customStudy } användas.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = anpassade studier

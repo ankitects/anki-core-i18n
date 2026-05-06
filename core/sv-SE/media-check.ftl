@@ -1,6 +1,6 @@
 ## Shown at the top of the media check screen
 
-media-check-window-title = Granska media
+media-check-window-title = Kontrollera media
 # the number of files, and the total space used by files
 # that have been moved to the trash folder. eg,
 # "Trash folder: 3 files, 3.47MB"
@@ -73,7 +73,7 @@ media-check-render-latex = Rendera LaTeX
 media-check-empty-trash = Töm papperskorgen
 # button to move deleted files from the trash back into the media folder
 media-check-restore-trash = Återställ raderade filer
-media-check-check-media-action = Granska media
+media-check-check-media-action = Kontrollera media
 # a tag for notes with missing media files (must not contain whitespace)
 media-check-missing-media-tag = media-saknas
 # add a tag to notes with missing media

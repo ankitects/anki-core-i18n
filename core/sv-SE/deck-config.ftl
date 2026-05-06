@@ -172,9 +172,7 @@ deck-config-review-sort-order = Sorteringsordning för repetitionskort
 deck-config-review-sort-order-tooltip =
     Standardordningen prioriterar kort som har väntat längst, så att,
     vid en eftersläpning, kommer de kort som väntat längst att visas
-    först. Vid en stor eftersläpning som kommer ta mer än ett antal dagar
-    att beta av, eller önskan om att se kort i underkortleksordning, kan de andra
-    sorteringsordningarna vara att föredra.
+    först. De andra sorteringsordningarna kan vara att föredra vid en stor eftersläpning som kommer ta mer än ett antal dagar att beta av, eller för att se korten ordnade efter underkortlek.
 deck-config-display-order-will-use-current-deck =
     Anki kommer använda visningsordningen från den kortleken
     som har valts, och inte dess eventuella underkortlekar.
