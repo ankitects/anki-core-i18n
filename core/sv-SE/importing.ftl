@@ -63,8 +63,8 @@ importing-include-reviews-help =
     Annars kommer alla kort importeras som nya kort, och alla 'leech'- eller 'marked'-etiketter
     tas bort.
 importing-with-deck-configs-help =
-    Om aktiverad kommer eventuella kortleksinställningar som författaren inkluderat också att importeras.
-    Annars kommer alla kortlekar att tilldelas standardförinställningen.
+    Om aktiverad kommer eventuella kortleksinställningar som kortlekens skapare inkluderat också att importeras.
+    Annars kommer alla kortlekar att tilldelas den förvalda förinställningen.
 importing-packaged-anki-deckcollection-apkg-colpkg-zip = Paketerad Ankikortlek/-samling (*.apkg *.colpkg *.zip)
 # the '|' character
 importing-pipe = Pipa
@@ -95,7 +95,7 @@ importing-update-always = Alltid
 importing-update-never = Aldrig
 importing-update-notes = Uppdatera noter
 importing-update-notes-help =
-    När en befintlig not bör uppdateras. Som standard utförs detta endast
+    När en befintlig not bör uppdateras. Som förval utförs detta endast
     om den matchande importerade noten var mer nyligen ändrad.
 importing-update-notetypes = Uppdatera nottyper
 importing-update-notetypes-help =

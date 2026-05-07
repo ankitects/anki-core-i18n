@@ -59,8 +59,8 @@ card-templates-this-will-create-card-proceed =
        *[other] Detta kommer att skapa { $count } kort. Fortsätt?
     }
 card-templates-type-boxes-warning = Endast ett skrivfält per kortmall stöds.
-card-templates-restore-to-default = Återställ standardvärde
+card-templates-restore-to-default = Återställ till förvalt värde
 card-templates-restore-to-default-confirmation =
     Detta kommer återställa alla fält och mallar i denna nottyp till deras
-    standardvärden, vilket kommer ta bort alla extra fält/mallar och deras innehåll, samt alla anpassade stilmallar. Önskar du att fortsätta?
+    förvalda värden, vilket kommer ta bort alla extra fält/mallar och deras innehåll, samt alla anpassade stilmallar. Önskar du att fortsätta?
 card-templates-restored-to-default = Nottyp har återställts till sitt originaltillstånd.
