@@ -8,7 +8,7 @@ card-templates-changes-will-affect-notes =
 card-templates-card-type = Korttyp:
 card-templates-front-template = Mall för framsida
 card-templates-back-template = Mall för baksida
-card-templates-template-styling = Stil
+card-templates-template-styling = Stilmall
 card-templates-front-preview = Förhandsvisning av framsida
 card-templates-back-preview = Förhandsvisning av baksida
 card-templates-preview-box = Förhandsvisning
@@ -36,7 +36,7 @@ card-templates-browser-appearance = Bläddrarutseende
 card-templates-card = Kort { $val }
 card-templates-card-types-for = Korttyper för { $val }
 card-templates-cloze = Lucktext
-card-templates-deck-override = Åsidosätt kortlek
+card-templates-deck-override = Kortlek för detta kort
 card-templates-copy-info = Kopiera info till urklipp
 card-templates-delete-the-as-card-type-and = Radera korttypen ”{ $template }” och dess { $cards }?
 card-templates-enter-deck-to-place-new = Skriv in kortlek att lägga nya { $val }-kort i, eller lämna blankt:
@@ -62,5 +62,5 @@ card-templates-type-boxes-warning = Endast ett skrivfält per kortmall stöds.
 card-templates-restore-to-default = Återställ standardvärde
 card-templates-restore-to-default-confirmation =
     Detta kommer återställa alla fält och mallar i denna nottyp till deras
-    standardvärden, vilket kommer ta bort alla extra fält/mallar och deras innehåll, samt alla anpassade stilar. Önskar du att fortsätta?
+    standardvärden, vilket kommer ta bort alla extra fält/mallar och deras innehåll, samt alla anpassade stilmallar. Önskar du att fortsätta?
 card-templates-restored-to-default = Nottyp har återställts till sitt originaltillstånd.

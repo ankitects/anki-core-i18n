@@ -99,10 +99,9 @@ importing-update-notes-help =
     om den matchande importerade noten var mer nyligen ändrad.
 importing-update-notetypes = Uppdatera nottyper
 importing-update-notetypes-help =
-    När en befintlig not bör uppdateras i samlingen. Som standard utförs detta endast
-    om den matchande importerade noten var mer nyligen ändrad. Ändringar till mallens innehåll
-    och stil kan alltid importeras, men för schemaförändringar (t.ex. att antalet eller ordningen för
-    fälten har ändrats), måste alternativet '{ importing-merge-notetypes }' också vara aktiverat.
+    När en befintlig not bör uppdateras i samlingen. Som förval utförs detta endast
+    om den importerade noten var mer nyligen ändrad. Ändringar till kortmallens innehåll
+    och stilmall kan alltid importeras, men för schemaförändringar (t.ex. att fältens ordning eller antal har ändrats), måste alternativet '{ importing-merge-notetypes }' också vara aktiverat.
 importing-note-added =
     { $count ->
         [one] { $count } not tillagd
