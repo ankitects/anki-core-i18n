@@ -86,6 +86,12 @@ preferences-third-party-description = Los servicios de terceros no están afilia
 
 ## URL scheme related
 
+preferences-url-schemes = Esquemas URL
+preferences-url-scheme-prompt = Esquemas URL permitidos (separados por espacios):
+preferences-url-scheme-warning =
+    Se ha bloqueado el intento de abrir `{ $link }`, ya que podría ser inseguro.
+    
+    Si confías en la autoría del mazo y deseas continuar, añade `{ $scheme }` a tu lista de esquemas URL permitidos.
 preferences-url-scheme-allow-once = Permitir una vez
 preferences-url-scheme-always-allow = Permitir simpre
 

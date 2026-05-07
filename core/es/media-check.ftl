@@ -75,6 +75,6 @@ media-check-empty-trash = Vacíar Papelera
 media-check-restore-trash = Restaurar Eliminadas
 media-check-check-media-action = Verificar archivos multimedia
 # a tag for notes with missing media files (must not contain whitespace)
-media-check-missing-media-tag = falta-multimadia
+media-check-missing-media-tag = falta-multimedia
 # add a tag to notes with missing media
 media-check-add-tag = Etiquetar Faltantes

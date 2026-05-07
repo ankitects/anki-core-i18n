@@ -116,6 +116,7 @@ statistics-counts-separate-suspended-buried-cards = Separar tarjetas suspendidas
 
 statistics-true-retention-title = Retención actual
 statistics-true-retention-subtitle = Tasa de tarjetas acertadas, que tengan un intervalo de 1 día o más.
+statistics-true-retention-tooltip = Si usas FSRS, se espera que la retención se aproxime a la retención deseada. Por favor, ten en cuenta que los datos de un solo día introducen ruido, por lo que es mejor visualizar datos mensuales.
 statistics-true-retention-range = Intervalo
 statistics-true-retention-pass = Acertadas
 statistics-true-retention-fail = Fallidas
@@ -148,7 +149,7 @@ statistics-range-collection = colección
 statistics-range-search = Buscar
 statistics-card-ease-title = Facilidad de la Tarjeta
 statistics-card-difficulty-title = Dificultad de las tarjetas
-statistics-card-stability-title = Stabilidad de tarjeta
+statistics-card-stability-title = Estabilidad de tarjetas
 statistics-card-stability-subtitle = El tiempo que debe transcurrir hasta que la probabilidad de recordarse disminuya a 90%.
 statistics-median-stability = Estabilidad mediana
 statistics-card-retrievability-title = Recordabilidad de las tarjetas
@@ -230,6 +231,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = Desde { $hourStart }:00~{ $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } correcto ({ $percent }%)
+statistics-hours-correct-info = → (no 'Otra vez')
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = 📊 { $reviews } revisiones
 # the emoji depicts the graph displaying this number
