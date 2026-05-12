@@ -454,6 +454,8 @@ deck-config-percent-of-reviews =
        *[other] { $reviews } ismétlés { $pct }%-a
     }
 deck-config-percent-input = { $pct }%
+# This message appears during FSRS parameter optimization.
+deck-config-checking-for-improvement = Optimum keresése...
 deck-config-optimizing-preset = Optimalizálás { $current_count }/{ $total_count }...
 deck-config-fsrs-must-be-enabled = Engedélyezd az FSRS-t!
 deck-config-fsrs-params-optimal = Az FSRS paraméterei optimálisnak tűnnek.
@@ -461,6 +463,8 @@ deck-config-fsrs-params-no-reviews = Nincs ismétlés. Állítsd be ezt az előb
 deck-config-wait-for-audio = Várjon a hangra
 deck-config-show-reminder = Emlékeztető megjelenítése
 deck-config-answer-again = Új válasz
+deck-config-answer-hard = "Nehéz" válasz
+deck-config-answer-good = "Jó" válasz
 deck-config-days-to-simulate = Szimulálandó napok száma
 deck-config-desired-retention-below-optimal = A kívánt megtartás túl alacsony. Érdemes megnövelni.
 # Description of the y axis in the FSRS simulation
@@ -489,13 +493,57 @@ deck-config-fsrs-simulator-ratio-tooltip = Megtanult kártyánként { $time }
 
 ## Messages related to the FSRS scheduler’s health check. The health check determines whether the correlation between FSRS predictions and your memory is good or bad. It can be optionally triggered as part of the "Optimize" function.
 
+# Checkbox
+deck-config-health-check = Korreláció ellenőrzése optimalizálás alatt
+# Message box showing the result of the health check
+deck-config-fsrs-bad-fit-warning =
+    Korrelációellenőrzés:
+    A tanulásodat nehéz előrejelezni. Javaslatok:
+    
+    - Függeszd fel vagy írd át azokat a kártyákat, amiket gyakran elfelejtesz!
+    - Hasnzáld a válaszgombokat következetesen! Ne feledd, hogy a "Nehéz" is jó választ jelent.
+    - Törekedj a megértésre a magolás helyett!
+    
+    Ha követed ezeket az elveket, a teljesítményed javulására számíthatsz néhány hónapon belül.
+# Message box showing the result of the health check
+deck-config-fsrs-good-fit =
+    Korrelációellenőrzés:
+    Az FSRS jól tud alkalmazkodni a tanulásodhoz.
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
-deck-config-unable-to-determine-desired-retention = Nem lehetett meghatározni a minimálisan ajánlott megtartási időt.
+deck-config-unable-to-determine-desired-retention = Nem sikerült meghatározni a minimálisan ajánlott megtartási időt.
 deck-config-predicted-minimum-recommended-retention = Minimális ajánlott megtartás: { $num }
 deck-config-compute-minimum-recommended-retention = Minimális ajánlott megtartás
+deck-config-compute-optimal-retention-tooltip4 = { "" }
+deck-config-plotted-on-x-axis = { "" }
+deck-config-a-100-day-interval =
+    { $days ->
+       *[other] Egy 100 napos időköz { $days } napra változik.
+    }
+deck-config-fsrs-simulator-y-axis-title-time = { "" }
+deck-config-fsrs-simulator-y-axis-title-count = { "" }
+deck-config-fsrs-simulator-y-axis-title-memorized = { "" }
+deck-config-bury-siblings = { "" }
+deck-config-do-not-bury = { "" }
+deck-config-bury-if-new = { "" }
+deck-config-bury-if-new-or-review = { "" }
+deck-config-bury-if-new-review-or-interday = { "" }
+deck-config-bury-tooltip = { "" }
 deck-config-seconds-to-show-question-tooltip = Ha az automatikus előrelépés be van kapcsolva, a válasz megjelenése előtt várandó másodpercek száma. A kikapcsoláshoz állítsa 0-ra.
+deck-config-answer-action-tooltip = { "" }
 deck-config-wait-for-audio-tooltip = Várja meg a hang befejezését, mielőtt automatikusan megjelenik a válasz vagy a következő kérdés.
+deck-config-ignore-before-tooltip = { "" }
+deck-config-compute-optimal-retention-tooltip = { "" }
+deck-config-health-check-tooltip1 = { "" }
+deck-config-health-check-tooltip2 = { "" }
+deck-config-compute-optimal-retention = { "" }
+deck-config-predicted-optimal-retention = { "" }
+deck-config-weights-tooltip = { "" }
+deck-config-compute-optimal-weights-tooltip = { "" }
+deck-config-compute-optimal-retention-tooltip2 = { "" }
+deck-config-compute-optimal-retention-tooltip3 = { "" }
 deck-config-seconds-to-show-question-tooltip-2 = Ha az automatikus előrelépés be van kapcsolva, a válasz megjelenése előtt várandó másodpercek száma. A kikapcsoláshoz állítsa 0-ra.
 deck-config-invalid-weights = A paramétereket vagy üresen kell hagyni az alapértelmezett értékek használatához, vagy 17 vesszővel elválasztott számnak kell lennie.
+deck-config-fsrs-on-all-clients = { "" }
+deck-config-optimize-all-tip = { "" }
