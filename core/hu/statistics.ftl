@@ -43,10 +43,48 @@ statistics-in-time-span-years =
         [one] { $amount } év alatt
        *[other] { $amount } év alatt
     }
+# Shown at the bottom of the deck list, and in the statistics screen.
+# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
+# The { statistics-in-time-span-seconds } part should be pasted in from the English
+# version unmodified.
+statistics-studied-today =
+    { $unit ->
+        [seconds]
+            Ma { statistics-cards } kártyát tanultál
+            { statistics-in-time-span-seconds } alatt
+            ({ $secs-per-card }mp/kártya)
+        [minutes]
+            Ma { statistics-cards } kártyát tanultál
+            { statistics-in-time-span-minutes } alatt
+            ({ $secs-per-card }mp/kártya)
+        [hours]
+            Ma { statistics-cards } kártyát tanultál
+            { statistics-in-time-span-hours } alatt
+            ({ $secs-per-card }mp/kártya)
+        [days]
+            Ma { statistics-cards } kártyát tanultál
+            { statistics-in-time-span-days } alatt
+            ({ $secs-per-card }mp/kártya)
+        [months]
+            Ma { statistics-cards } kártyát tanultál
+            { statistics-in-time-span-months }alatt
+            ({ $secs-per-card }mp/kártya)
+       *[years]
+            Ma { statistics-cards } kártyát tanultál
+            { statistics-in-time-span-years } alatt
+            ({ $secs-per-card }mp/kártya)
+    }
+
+##
+
 statistics-cards =
     { $cards ->
-        [one] { $cards } kártyát
-       *[other] { $cards } kártyát
+        [one] { $cards } kártya
+       *[other] { $cards } kártya
+    }
+statistics-notes =
+    { $notes ->
+       *[other] { $notes } jegyzet
     }
 # a count of how many cards have been answered, eg "Total: 34 reviews"
 statistics-reviews =
@@ -54,24 +92,13 @@ statistics-reviews =
         [one] { $reviews } ismétlés
        *[other] { $reviews } ismétlés
     }
-# Shown at the bottom of the deck list, and in the statistics screen.
-# eg "Studied 3 cards in 13 seconds today (4.33s/card)."
-# The { statistics-in-time-span-seconds } part should be pasted in from the English
-# version unmodified.
-statistics-studied-today =
-    { statistics-cards } kártyát tanult
-    { $unit ->
-        [seconds] { statistics-in-time-span-seconds }
-        [minutes] { statistics-in-time-span-minutes }
-        [hours] { statistics-in-time-span-hours }
-        [days] { statistics-in-time-span-days }
-        [months] { statistics-in-time-span-months }
-       *[years] { statistics-in-time-span-years }
-    }alatt a mai napon
-    ({ $secs-per-card } mp/kártya)
+# This fragment of the tooltip in the FSRS simulation
+# diagram (Deck options -> FSRS) shows the total number of
+# cards that can be recalled or retrieved on a specific date.
+statistics-memorized = { $memorized } megtanult kártya
 statistics-today-title = Ma
 statistics-today-again-count = „Újra” válaszok száma:
-statistics-today-type-counts = Tanulás: { $learnCount }, ismétlés: { $reviewCount }, újratanulás: { $relearnCount }, szűrtek száma: { $filteredCount }
+statistics-today-type-counts = Tanulás: { $learnCount }, Ismétlés: { $reviewCount }, Újratanulás: { $relearnCount }, Szűrt: { $filteredCount }
 statistics-today-no-cards = Ma még nem tanultál.
 statistics-today-no-mature-cards = Ma még egyetlen veterán kártyát sem tanultál.
 statistics-today-correct-mature = Helyes válaszok a veterán kártyákra: { $correct }/{ $total } ({ $percent }%)
@@ -80,12 +107,36 @@ statistics-counts-new-cards = Új
 statistics-counts-young-cards = Friss
 statistics-counts-mature-cards = Veterán
 statistics-counts-suspended-cards = Felfüggesztve
-statistics-counts-buried-cards = Elmentve
+statistics-counts-buried-cards = Félretéve
 statistics-counts-filtered-cards = Szűrt
 statistics-counts-learning-cards = Tanulás
 statistics-counts-relearning-cards = Újratanulás
-statistics-counts-title = Kártyaszámlálás
+statistics-counts-title = Kártyák száma
 statistics-counts-separate-suspended-buried-cards = felfüggesztett/félretett kártyák elkülönítése
+
+## Retention represents your actual retention from past reviews, in
+## comparison to the "desired retention" setting of FSRS, which forecasts
+## future retention. Retention is the percentage of all reviewed cards
+## that were marked as "Hard," "Good," or "Easy" within a specific time period.
+##
+## Most of these strings are used as column / row headings in a table.
+## (Excluding -title and -subtitle)
+## It is important to keep these translations short so that they do not make
+## the table too large to display on a single stats card.
+##
+## N.B. Stats cards may be very small on mobile devices and when the Stats
+##      window is certain sizes.
+
+statistics-true-retention-title = Megtartás
+# This will usually be the same as statistics-counts-total-cards
+statistics-true-retention-total = Kártyák összesen
+# This will usually be the same as statistics-counts-young-cards
+statistics-true-retention-young = Friss
+# This will usually be the same as statistics-counts-mature-cards
+statistics-true-retention-mature = Veterán
+
+##
+
 statistics-range-all-time = csomag élettartama
 statistics-range-1-year-history = Az elmúlt 12 hónap
 statistics-range-all-history = Teljes történet
@@ -120,17 +171,21 @@ statistics-hours-subtitle = Ismétlés sikerességének aránya a nap egyes ór�
 ##
 
 statistics-average-for-days-studied = Átlagos időráfordítás a tanulással töltött napokon
+# This term is used in a variety of contexts to refers to the total amount of
+# items (e.g., cards, mature cards, etc) for a given period, rather than the
+# total of all existing items.
 statistics-total = Összesen
 statistics-days-studied = Tanulással töltött napok
 statistics-average-answer-time-label = Átlagos válaszadási idő
 statistics-average = Átlagos
-statistics-average-interval = Átlagos időköz
 statistics-due-tomorrow = Holnap esedékes
 statistics-average-over-period = Ha mindennap tanulna
-statistics-average-ease = Átlagos könnyűség
 statistics-save-pdf = Mentés PDF-ként
 statistics-saved = Mentve.
 statistics-stats = statisztikák
-statistics-true-retention-total = Kártyák összesen
-statistics-true-retention-young = Friss
-statistics-true-retention-mature = Veterán
+
+## These strings are no longer used - you do not need to translate them if they
+## are not already translated.
+
+statistics-average-interval = Átlagos időköz
+statistics-average-ease = Átlagos könnyűség

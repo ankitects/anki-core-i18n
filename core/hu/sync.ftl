@@ -47,18 +47,25 @@ sync-ankiweb-id-label = Email:
 sync-password-label = Jelszó:
 sync-account-required =
     <h1>Felhasználói fiók szükséges</h1>
-    A gyűjteményed szinkronizálásához ingyenes felhasználói fiókra van szükség. Kérlek, <a href="{ $link }">regisztrálj</a> magadnak egyet, majd add meg az adatait.
-sync-sanity-check-failed = Kérjük, használja az Adatbázis ellenőrzése funkciót, majd szinkronizáljon újra. Ha a problémák továbbra is fennállnak, kérjük, kényszerítsen ki egyirányú szinkronizálást a beállítások képernyőn.
-sync-clock-off = Nem lehetséges a szinkronizálás - az órája nem a megfelelő időre van beállítva.
+    A gyűjteményed szinkronizálásához ingyenes felhasználói fiókra van szükség. <a href="{ $link }">Hozz létre</a> magadnak egyet, majd add meg az adatait.
+sync-sanity-check-failed = Használd az Adatbázis ellenőrzése funkciót, majd szinkronizálj újra! Ha a problémák továbbra is fennállnak, jelöld be az egyirányú szinkronizálást a Beállítások képernyőn!
+sync-clock-off = Nem lehetséges a szinkronizálás — az órád nem megfelelő időre van állítva.
 # “details” expands to a string such as “300.14 MB > 300.00 MB”
 sync-upload-too-large =
-    A gyűjtemény fájlja túl nagy ahhoz, hogy elküldje az AnkiWebre. Csökkentheti a méretét a nem kívánt paklik eltávolításával (opcionálisan előbb exportálhatja őket), és
-    majd az Adatbázis ellenőrzése alkalmazásával csökkentheti a fájl méretét. ( ({ $details })
+    A gyűjteményed túl nagy ahhoz, hogy feltöltsd az AnkiWebre. Csökkentheted a méretét a nem kívánt paklik eltávolításával (opcionálisan előbb exportálhatod őket), 
+    majd az Adatbázis ellenőrzése használatával csökkentheted a fájl méretét.
+    
+    { $details } (tömörítés előtt)
+sync-sign-in = Bejelentkezés
+sync-ankihub-dialog-heading = AnkiHub bejelentkezés
+sync-ankihub-username-label = Felhasználónév vagy emailcím:
+sync-ankihub-login-failed = Nem sikerült bejelentkezni az AnkuHubra a megadott adatokkal.
+sync-ankihub-addon-installation = AnkiHub bővítmény telepítése
 
 ## Buttons
 
 sync-media-log-button = Médianapló
-sync-abort-button = Leállítás
+sync-abort-button = Megszakítás
 sync-download-from-ankiweb = Letöltés az AnkiWebről
 sync-upload-to-ankiweb = Feltöltés az AnkiWebre
 sync-cancel-button = Mégsem

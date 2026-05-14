@@ -69,43 +69,42 @@ scheduling-next-learn-due =
     } múlva esedékes.
 scheduling-learn-remaining =
     { $remaining ->
-        [one] A mai napra van még egy kártyája
-       *[other] A mai napra még { $remaining } kártyája van.
+       *[other] A mai napra még { $remaining } kártya van hátra.
     }
-scheduling-congratulations-finished = Gratulálok! Mára Ön végzett ezzel a paklival.
+scheduling-congratulations-finished = Szép munka! Mára végeztél ezzel a paklival.
 scheduling-today-review-limit-reached =
-    A mai ismétlési limitet elérte, de vannak még ismételendő kártyák.
-    Az optimális memorizálás érdekében érdemes lehet a beállítások között
-    megnövelnie a napi limitet.
+    Mára elérted az ismétlési limitet, de vannak még ismételendő kártyák.
+    Az optimális tanuláshoz érdemes lehet a beállítások között
+    megnövelni a napi limitet.
 scheduling-today-new-limit-reached =
-    Van még új kártya, de elérte a napi limitet. Növelheti a limitet
-    a beállításoknál, de kérjük, tartsa szem előtt, hogy minél több
-    új kártyát vezet be, annál megterhelőbb lesz a rövid távú ismétlés.
-scheduling-buried-cards-found = Egy vagy több kártya félre lett téve, és holnap jelenik meg. Kattintson { $unburyThem }, ha azonnal látni szeretné őket.
+    Van még új kártya, de elérted a napi limitet. Növelheted a limitet
+    a beállításokban, de vedd figyelembe, hogy minél több
+    új kártyát tanulsz, annál megterhelőbb lesz az ismétlés rövid távon.
+scheduling-buried-cards-found = Egy vagy több kártya félre lett téve, és holnap jelenik meg. Megszüntetheted a félretevést, ha azonnal látni szeretnéd őket: { $unburyThem }.
 # used in scheduling-buried-cards-found
 # "... you can unbury them if you wish to see..."
-scheduling-unbury-them = szabadítsa fel őket
-scheduling-how-to-custom-study = Ha a rendszeres időbeosztáson kívül szeretne tanulni, használhatja a { $customStudy } funkciót.
+scheduling-unbury-them = Félretevés megszüntetése
+scheduling-how-to-custom-study = Ha a rendszeres időbeosztáson kívül szeretnél tanulni, használhatod az { $customStudy } funkciót.
 # used in scheduling-how-to-custom-study
 # "... you can use the custom study feature."
 scheduling-custom-study = egyéni tanulás
 
 ## Scheduler upgrade
 
-scheduling-update-soon = Az Anki 2.1 új ütemezővel érkezik, amely számos olyan problémát orvosol, amelyek a korábbi Anki-verziókban voltak. A frissítés ajánlott.
+scheduling-update-soon = Az Anki 2.1 új ütemezővel rendelkezik, ami a korábbi Anki-verziók számos problémáját orvosolja. A frissítés ajánlott.
 scheduling-update-done = Az ütemező sikeresen frissült.
-scheduling-update-button = Frissíteni
+scheduling-update-button = Frissítés
 scheduling-update-later-button = Később
-scheduling-update-more-info-button = Tudjon meg többet
-scheduling-update-required = A gyűjteményét frissíteni kell a V2 ütemezőre. Kérjük, a folytatás előtt válassza a { scheduling-update-more-info-button }
+scheduling-update-more-info-button = Tudj meg többet
+scheduling-update-required = A gyűjteményt frissíteni kell a V2 ütemezőre. A folytatás előtt válaszd a { scheduling-update-more-info-button } gombot.
 
 ## Other scheduling strings
 
-scheduling-always-include-question-side-when-replaying = Mindig tartalmazzon kérdési oldalt hang lejátszásakor
+scheduling-always-include-question-side-when-replaying = Hang visszajátszásakor mindig tartalmazza a kérdést
 scheduling-at-least-one-step-is-required = Legalább egy lépés szükséges
 scheduling-automatically-play-audio = Hang automatikus lejátszása
 scheduling-bury-related-new-cards-until-the = Kapcsolódó új kártyák félretevése másnapig
-scheduling-bury-related-reviews-until-the-next = Kapcsolódó ismétlések félretevése másnapig
+scheduling-bury-related-reviews-until-the-next = Kapcsolódó ismétlőkártyák félretevése másnapig
 scheduling-days = nap
 scheduling-description = Leírás
 scheduling-easy-bonus = Könnyű válasznál adott bónusz
@@ -115,7 +114,7 @@ scheduling-general = Általános
 scheduling-graduating-interval = Előrelépési időköz
 scheduling-hard-interval = Nehéz válasz időköze
 scheduling-ignore-answer-times-longer-than = Ennél hosszabb válaszidő figyelmen kívül hagyása:
-scheduling-interval-modifier = Időköz-módosító
+scheduling-interval-modifier = Időköz módosító
 scheduling-lapses = Elakadások
 scheduling-lapses2 = elakadás
 scheduling-learning = Tanulás
@@ -124,7 +123,7 @@ scheduling-leech-threshold = Mumus-szavak küszöbértéke
 scheduling-maximum-interval = Maximális időköz
 scheduling-maximum-reviewsday = Napi maximális ismétlések száma
 scheduling-minimum-interval = Minimális időköz
-scheduling-mix-new-cards-and-reviews = Új kártyák és ismétlések vegyesen
+scheduling-mix-new-cards-and-reviews = Új kártyák és ismétlőkártyák vegyesen
 scheduling-new-cards = Új kártyák
 scheduling-new-cardsday = Napi új kártyák száma
 scheduling-new-interval = Új időköz
@@ -138,18 +137,18 @@ scheduling-review = Ismétlés
 scheduling-reviews = Ismétlések
 scheduling-seconds = másodperc
 scheduling-set-all-decks-below-to = { $val } alatti összes paklira is ez az opciócsoport vonatkozzon?
-scheduling-set-for-all-subdecks = Beállítás minden alpaklira is
+scheduling-set-for-all-subdecks = Beállítás minden alpaklira
 scheduling-show-answer-timer = Időmérés kijelzése válaszadáskor
-scheduling-show-new-cards-after-reviews = Előbb az ismételendő kártyákat mutassa, aztán az újakat
-scheduling-show-new-cards-before-reviews = Előbb az új kártyákat mutassa, aztán az ismételendőket
-scheduling-show-new-cards-in-order-added = Az újakat a hozzáadás sorrendjében mutassa
-scheduling-show-new-cards-in-random-order = Az újakat véletlenszerűen mutassa
+scheduling-show-new-cards-after-reviews = Ismétlőkártyák az új kártyák előtt
+scheduling-show-new-cards-before-reviews = Új kártyák az ismétlőkártyák előtt
+scheduling-show-new-cards-in-order-added = Új kártyák a hozzáadás sorrendjében
+scheduling-show-new-cards-in-random-order = Új kártyák véletlenszerűen
 scheduling-starting-ease = Kiindulási könnyűség
 scheduling-steps-in-minutes = Lépések (percben)
 scheduling-steps-must-be-numbers = A lépéseknek számoknak kell lenniük.
 scheduling-tag-only = Csak címke
 scheduling-the-default-configuration-cant-be-removed = Az alapértelmezett beállítás nem törölhető.
-scheduling-your-changes-will-affect-multiple-decks = A módosításai több paklit is érintenek. Ha csak az aktuális paklit szeretné módosítani, kérjük, hozzon létre előbb ehhez egy új opciócsoportot.
+scheduling-your-changes-will-affect-multiple-decks = A módosítások több paklit is érintenek. Ha csak az aktuális paklit szeretnéd módosítani, hozz létre ehhez egy új opciócsoportot.
 scheduling-deck-updated =
     { $count ->
         [one] { $count } pakli frissítve.
@@ -162,15 +161,17 @@ scheduling-set-due-date-prompt =
     }
 scheduling-set-due-date-prompt-hint =
     0 = ma
-    1! = holnap + az intervallum 1-re változik
-    3-7 = 3-7 nap véletlenszerű kiválasztás
+    1! = holnap + az időköz 1-re változik
+    3-7 = véletlenszerű 3-7 nap között
 scheduling-set-due-date-done =
     { $cards ->
-        [one] A { $cards } kártya esedékességi dátumának beállítása.
-       *[other] A { $cards } kártyák esedékességi dátumainak beállítása.
+       *[other] { $cards } kártya esedékességi dátumainak beállítása.
+    }
+scheduling-graded-cards-done =
+    { $cards ->
+       *[other] { $cards } kártya osztályozva.
     }
 scheduling-forgot-cards =
     { $cards ->
-        [one] Visszaállítani { $cards } kártyát.
-       *[other] Visszaállítani { $cards } kártyákat.
+       *[other] { $cards } kártya visszaállítva.
     }
