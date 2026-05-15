@@ -77,10 +77,24 @@ preferences-reset-window-sizes-complete = Az ablakok mérete és elhelyezése vi
 preferences-shortcut-placeholder = Adj meg egy nem használt gyorsbillentyűt! A kikapcsoláshoz hagyd üresen!
 preferences-third-party-services = Harmadik fél szolgáltatásai
 preferences-ankihub-not-logged-in = Nem vagy bejelentkezve az AnkiHubra.
+preferences-ankiweb-intro = Az AnkiWeb egy ingyenes szolgáltatás, amin keresztül szinkronban tarthatod a gyűjteményedet minden eszközödön, valamint hozzáférhetsz az adataidhoz akkor is, ha a géped tönkremegy vagy elveszik.
+preferences-ankihub-intro = Az AnkiHubon közösen pakliszerkesztés és további tanulási eszközök is elérhetők. Egyes funkciókhoz előfizetés szükséges.
+preferences-third-party-description = A harmadik felek szolgáltatásai az Ankitól függetlenek. Egyes szolgáltatások fizetősek lehetnek.
 
 ## URL scheme related
 
+preferences-url-schemes = URL sémák
+preferences-url-scheme-prompt = Engedélyezett URL sémák (szóközzel elválasztva):
+preferences-url-scheme-warning =
+    `{ $link }` megnyitására való kísérlet blokkolva: potenciális biztonsági köckázat.
+    
+    Ha mindenképp meg szeretnéd nyitni, hozzáadhatod a `{ $scheme }` sémát az engedélyezett URL sémákhoz.
+preferences-url-scheme-allow-once = Egyszeri engedélyezés
+preferences-url-scheme-always-allow = Engedélyezés
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 
 preferences-basic = Alap
+preferences-reviewer = { "" }
+preferences-media = { "" }
+preferences-not-logged-in = { "" }
