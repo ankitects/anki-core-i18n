@@ -18,7 +18,7 @@ decks-no-deck = [nincs pakli]
 decks-please-select-something = Válassz ki valamit
 decks-repeat-failed-cards-after = Sikertelen kártyák ismétlése ennyi idő után:
 # e.g. "Delay for Again", "Delay for Hard", "Delay for Good"
-decks-delay-for-button = Késleltetés: { $button }
+decks-delay-for-button = { $button } késleltetése
 decks-reschedule-cards-based-on-my-answers = Kártyák átütemezése az e pakliban adott válaszaimnak megfelelően
 decks-study = Tanulás
 decks-study-deck = Tanulópakli

@@ -17,12 +17,6 @@ card-template-rendering-conditional-not-closed = '{ $missing }' hiányzik
 # when the user closed the wrong conditional
 # eg, Found '{{/Something}}', but expected '{{/SomethingElse}}'
 card-template-rendering-wrong-conditional-closed = '{ $expected }' helyett váratlan '{ $found }'.
-# when the user closed a conditional that wasn't open
-# eg, Found '{{/Something}}', but missing '{{#Something}}' or '{{^Something}}'
-card-template-rendering-conditional-not-open = Talált '{ $found }', hiányzik '{ $missing1 }' vagy '{ $missing2 }'
-# when the user referenced a field that doesn't exist
-# eg, Found '{{Field}}', but there is not field called 'Field'
-card-template-rendering-no-such-field = Talált '{ $found }', de nincs '{ $field }' nevű mező
 # This message is shown when the front side of the card is blank,
 # either due to a badly-designed template, or because required fields
 # are missing.

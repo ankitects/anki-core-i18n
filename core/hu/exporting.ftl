@@ -1,7 +1,7 @@
 exporting-all-decks = Minden pakli
 exporting-anki-20-deck = Az Anki 2.0-ban készült pakli
 exporting-anki-collection-package = Anki-gyűjteménycsomag
-exporting-anki-deck-package = Kötegelt Anki-paklicsomag
+exporting-anki-deck-package = Anki-paklicsomag
 exporting-cards-in-plain-text = Kártyák egyszerű szövegként
 exporting-collection = gyűjtemény
 exporting-collection-exported = Gyűjtemény exportálva.

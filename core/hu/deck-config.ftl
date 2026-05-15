@@ -36,7 +36,7 @@ deck-config-limit-interday-bound-by-reviews =
 deck-config-tab-description =
     - `Előbeállítás`: A limit az ezt az előbeállítást használó összes paklira vonatkozik.
     - `Ez a pakli`: A limit csak erre a paklira vonatkozik.
-    - ` Csak ma`: Ideiglenes módosítás ennek a paklinak a limitjén.
+    - `Csak ma`: Ideiglenes módosítás ennek a paklinak a limitjén.
 deck-config-new-cards-ignore-review-limit = Az ismétlési limitbe ne számítsanak bele az új kártyák
 deck-config-new-cards-ignore-review-limit-tooltip =
     Alapértelmezés szerint az ismétlési limit az új kártyákra is vonatkozik, és ennek
@@ -249,7 +249,7 @@ deck-config-maximum-answer-secs-tooltip =
 deck-config-show-answer-timer-tooltip =
     Az tanulási képernyőn megjelenik egy óra, ami a kártyán
     eltöltött időt méri.
-deck-config-stop-timer-on-answer = Időzmérő megállítása a válaszoldalon
+deck-config-stop-timer-on-answer = Időmérő megállítása a válaszoldalon
 deck-config-stop-timer-on-answer-tooltip =
     Az időmérő leállítása, amikor a válasz kiderül.
     Ez nem befolyásolja a statisztikát.
