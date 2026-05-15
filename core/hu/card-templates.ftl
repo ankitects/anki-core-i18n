@@ -1,5 +1,5 @@
 # This word is used by TTS voices instead of the elided part of a cloze.
-card-templates-blank = üres
+card-templates-blank = pont pont pont
 card-templates-changes-will-affect-notes =
     { $count ->
         [one] A változtatás hatással lesz { $count } kártyára.
@@ -34,7 +34,7 @@ card-templates-browser-appearance = Böngésző-megjelenés
 card-templates-card = { $val }. kártya
 card-templates-card-types-for = Kártyatípusok ehhez: { $val }
 card-templates-cloze = { $val }. lyukas szöveg
-card-templates-deck-override = A pakli felülírása ...
+card-templates-deck-override = Pakli felülírása...
 card-templates-copy-info = Információ másolása a vágólapra
 card-templates-delete-the-as-card-type-and = Törlöd a '{ $template }' kártyatípust és annak { $cards } tartalmát?
 card-templates-enter-deck-to-place-new = Add meg, melyik pakliba kerüljenek az új { $val } kártyák, vagy hagyd üresen:
@@ -45,6 +45,7 @@ card-templates-off = (ki)
 card-templates-on = (be)
 card-templates-remove-card-type = Kártyatípus eltávolítása ...
 card-templates-rename-card-type = Kártyatípus átnevezése ...
+card-templates-reposition-card-type = Kártyatípus számának módosítása
 card-templates-card-count =
     { $count ->
        *[other] { $count } kártya

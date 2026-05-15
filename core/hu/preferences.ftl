@@ -75,11 +75,11 @@ preferences-network-timeout = Hálózati időtúllépés
 preferences-reset-window-sizes = Ablakméretek visszaállítása
 preferences-reset-window-sizes-complete = Az ablakok mérete és elhelyezése vissza lett állítva.
 preferences-shortcut-placeholder = Adj meg egy nem használt gyorsbillentyűt! A kikapcsoláshoz hagyd üresen!
-preferences-third-party-services = Harmadik fél szolgáltatásai
+preferences-third-party-services = Külső szolgáltatások
 preferences-ankihub-not-logged-in = Nem vagy bejelentkezve az AnkiHubra.
 preferences-ankiweb-intro = Az AnkiWeb egy ingyenes szolgáltatás, amin keresztül szinkronban tarthatod a gyűjteményedet minden eszközödön, valamint hozzáférhetsz az adataidhoz akkor is, ha a géped tönkremegy vagy elveszik.
 preferences-ankihub-intro = Az AnkiHubon közösen pakliszerkesztés és további tanulási eszközök is elérhetők. Egyes funkciókhoz előfizetés szükséges.
-preferences-third-party-description = A harmadik felek szolgáltatásai az Ankitól függetlenek. Egyes szolgáltatások fizetősek lehetnek.
+preferences-third-party-description = A külső szolgáltatások az Ankitól függetlenek. Egyes szolgáltatások fizetősek lehetnek.
 
 ## URL scheme related
 
