@@ -337,7 +337,7 @@ deck-config-must-have-400-reviews =
 # Numbers that control how aggressively the FSRS algorithm schedules cards
 deck-config-weights = Paramètres du FSRS
 deck-config-compute-optimal-weights = Optimiser les paramètres du FSRS
-deck-config-optimize-button = Optimiser
+deck-config-optimize-button = Optimiser le préréglage actuel
 # Indicates that a given function or label, provided via the "text" variable, operates slowly.
 deck-config-slow-suffix = { $text } (lent)
 deck-config-compute-button = Calculer
