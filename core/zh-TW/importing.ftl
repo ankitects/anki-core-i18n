@@ -98,7 +98,7 @@ importing-note-unchanged =
     }
 importing-note-updated =
     { $count ->
-       *[other] 更新了 { $count } 筆資料
+       *[other] 已更新 { $count } 則筆記
     }
 importing-processed-media-file =
     { $count ->
@@ -141,11 +141,11 @@ importing-notes-added =
     }
 importing-notes-updated =
     { $count ->
-       *[other] 已使用 { $count } 則筆記來更新現有的筆記。
+       *[other] 已更新 { $count } 則現有筆記。
     }
 importing-existing-notes-skipped =
     { $count ->
-       *[other] 有 { $count } 則筆記已在你的集合中。
+       *[other] 有 { $count } 則筆記已在集合中。
     }
 importing-notes-failed = 無法匯入 { $count } 則筆記。
 importing-conflicting-notes-skipped =
