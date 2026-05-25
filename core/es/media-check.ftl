@@ -67,7 +67,7 @@ media-check-all-latex-rendered = Todo LaTeX renderizado.
 
 ## Buttons
 
-media-check-delete-unused = Elimina no utilizadas
+media-check-delete-unused = Eliminar no utilizadas
 media-check-render-latex = Renderizar LaTeX
 # button to permanently delete media files from the trash folder
 media-check-empty-trash = Vacíar Papelera
