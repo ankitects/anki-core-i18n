@@ -65,32 +65,32 @@ scheduling-next-learn-due =
     { $unit ->
         [seconds]
             { $amount ->
-                [one] Następna karta będzie dostępna za { $amount } sekundę
-                [few] Następna karta będzie dostępna za { $amount } sekundy
-                [many] Następna karta będzie dostępna za { $amount } sekund
-               *[other] Następna karta będzie dostępna za { $amount } sekund
+                [one] Następna karta będzie dostępna za { $amount } sekundę.
+                [few] Następna karta będzie dostępna za { $amount } sekundy.
+                [many] Następna karta będzie dostępna za { $amount } sekund.
+               *[other] Następna karta będzie dostępna za { $amount } sekund.
             }
         [minutes]
             { $amount ->
-                [one] Następna karta będzie dostępna za { $amount } minutę
-                [few] Następna karta będzie dostępna za { $amount } minuty
-                [many] Następna karta będzie dostępna za { $amount } minut
-               *[other] Następna karta będzie dostępna za { $amount } minut
+                [one] Następna karta będzie dostępna za { $amount } minutę.
+                [few] Następna karta będzie dostępna za { $amount } minuty.
+                [many] Następna karta będzie dostępna za { $amount } minut.
+               *[other] Następna karta będzie dostępna za { $amount } minut.
             }
        *[hours]
             { $amount ->
-                [one] Następna karta będzie dostępna za { $amount } godzinę
-                [few] Następna karta będzie dostępna za { $amount } godziny
-                [many] Następna karta będzie dostępna za { $amount } godzin
-               *[other] Następna karta będzie dostępna za { $amount } godzin
+                [one] Następna karta będzie dostępna za { $amount } godzinę.
+                [few] Następna karta będzie dostępna za { $amount } godziny.
+                [many] Następna karta będzie dostępna za { $amount } godzin.
+               *[other] Następna karta będzie dostępna za { $amount } godzin.
             }
     }
 scheduling-learn-remaining =
     { $remaining ->
-        [one] { $remaining } karta czeka na przejrzenie dzisiaj.
-        [few] { $remaining } karty czekają na przejrzenie dzisiaj.
-        [many] { $remaining } kart czeka na przejrzenie dzisiaj.
-       *[other] { $remaining } kart czeka na przejrzenie dzisiaj.
+        [one] Została { $remaining } karta do przejrzenia dziś w późniejszym czasie.
+        [few] Zostały { $remaining } karty do przejrzenia dziś w późniejszym czasie.
+        [many] Zostało { $remaining } kart do przejrzenia dziś w późniejszym czasie.
+       *[other] Zostało { $remaining } kart do przejrzenia dziś w późniejszym czasie.
     }
 scheduling-congratulations-finished = Gratulacje! Zakończono powtórki na dziś.
 scheduling-today-review-limit-reached =
