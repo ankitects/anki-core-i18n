@@ -3,7 +3,7 @@ empty-cards-count-line = { $empty_count }/{ $existing_count } targetes buides ({
 empty-cards-window-title = Targetes buides
 empty-cards-preserve-notes-checkbox = Manté les notes que no tenen cap targeta vàlida
 empty-cards-delete-button = Suprimeix
-empty-cards-not-found = No hi ha targetes buides.
+empty-cards-not-found = No hi ha cap targeta buida.
 empty-cards-deleted-count =
     { $cards ->
         [one] S'ha suprimit una targeta.
