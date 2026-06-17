@@ -92,7 +92,7 @@ scheduling-learn-remaining =
         [many] Zostało { $remaining } kart do przejrzenia dziś w późniejszym czasie.
        *[other] Zostało { $remaining } kart do przejrzenia dziś w późniejszym czasie.
     }
-scheduling-congratulations-finished = Gratulacje! Zakończono powtórki na dziś.
+scheduling-congratulations-finished = Gratulacje! Nie ma teraz więcej powtórek.
 scheduling-today-review-limit-reached =
     Dzisiejszy limit powtórki został osiągnięty, ale są jeszcze karty
     czekające na powtórkę. Dla najlepszego zapamiętywania,
