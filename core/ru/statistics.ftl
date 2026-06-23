@@ -115,7 +115,7 @@ statistics-reviews =
 # cards that can be recalled or retrieved on a specific date.
 statistics-memorized = { $memorized } выучено
 statistics-today-title = Сегодня
-statistics-today-again-count = Количество "Снова":
+statistics-today-again-count = Количество «Снова»:
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
 statistics-today-no-cards = Ни одна карточка не была повторена сегодня.
 statistics-today-no-mature-cards = Давно изученные карты сегодня не повторяли.
@@ -281,7 +281,7 @@ statistics-stability-day-single =
 # hour range, eg "From 14:00-15:00"
 statistics-hours-range = С { $hourStart }:00 до { $hourEnd }:00
 statistics-hours-correct = { $correct }/{ $total } верных ({ $percent }%)
-statistics-hours-correct-info = → (не 'Снова')
+statistics-hours-correct-info = → (не «Снова»)
 # the emoji depicts the graph displaying this number
 statistics-hours-reviews = { $reviews } повторений
 # the emoji depicts the graph displaying this number
