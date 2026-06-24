@@ -35,7 +35,7 @@ browsing-change-note-type = Сменить тип записи
 browsing-change-note-type2 = Сменить тип записи...
 browsing-change-notetype = Сменить тип записи
 browsing-clear-unused-tags = Удалить неиспользуемые метки
-browsing-confirm-saved-search-overwrite = Сохраненный поиск под именем { $name } уже существует. Хотите изменить?
+browsing-confirm-saved-search-overwrite = Уже есть сохранённый запрос { $name }. Заменить его?
 browsing-created = Создана
 browsing-current-deck = Текущая колода
 browsing-current-note-type = Текущий тип записи:
@@ -57,12 +57,12 @@ browsing-ignore-case = Игнорировать регистр
 browsing-in = <b>Где искать</b>:
 browsing-interval = Интервал
 browsing-last-card = Последняя карточка
-browsing-learning = (изучение)
+browsing-learning = (изучаемые)
 browsing-line-size = <b>Высота строки</b>:
 browsing-manage-note-types = Управление типами записей
 browsing-move-cards = Переместить карточки
 browsing-move-cards-to-deck = Переместить карточки в колоду:
-browsing-new = (новая)
+browsing-new = (новые)
 browsing-new-note-type = Новый тип записи:
 browsing-no-flag = Без флажка
 browsing-no-selection = Карточки или записи не выбраны.
@@ -163,7 +163,7 @@ browsing-again-today = Снова
 browsing-edited-today = Правлено
 browsing-sidebar-first-review = Первое повторение
 browsing-sidebar-rescheduled = Перенесено
-browsing-sidebar-due-today = К просмотру
+browsing-sidebar-due-today = К повторению
 browsing-sidebar-untagged = Без метки
 browsing-sidebar-overdue = Просрочено
 browsing-row-deleted = (удаленные)
@@ -188,7 +188,7 @@ browsing-reparented-decks =
         [many] Переименовано { $count } колод.
        *[other] Переименовано { $count } колод.
     }
-browsing-sidebar-card-state-review = Повторяемая
+browsing-sidebar-card-state-review = Повторяемые
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
 

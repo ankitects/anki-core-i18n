@@ -115,7 +115,7 @@ scheduling-custom-study = допзанятие
 
 scheduling-update-soon = Anki 2.1 поставляется с новым планировщиком, который исправляет ряд проблем, которые были в предыдущих версиях Anki. Рекомендуется обновление до этой версии.
 scheduling-update-done = Планировщик успешно обновлён.
-scheduling-update-button = Обновление
+scheduling-update-button = Обновить
 scheduling-update-later-button = Позже
 scheduling-update-more-info-button = Узнать больше
 scheduling-update-required =
@@ -141,7 +141,7 @@ scheduling-ignore-answer-times-longer-than = Не учитывать время 
 scheduling-interval-modifier = Модификатор интервала
 scheduling-lapses = Забыто
 scheduling-lapses2 = забытых
-scheduling-learning = Изучение
+scheduling-learning = Изучаемые
 scheduling-leech-action = Что делать с приставучими
 scheduling-leech-threshold = Порог для приставучих
 scheduling-maximum-interval = Максимальный интервал

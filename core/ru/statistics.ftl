@@ -1,7 +1,7 @@
 # The date a card will be ready to review
-statistics-due-date = К просмотру
+statistics-due-date = К повторению
 # The count of cards waiting to be reviewed
-statistics-due-count = К просмотру
+statistics-due-count = К повторению
 # Shown in the Due column of the Browse screen when the card is a new card
 statistics-due-for-new-card = Новая № { $number }
 
@@ -113,22 +113,22 @@ statistics-reviews =
 # This fragment of the tooltip in the FSRS simulation
 # diagram (Deck options -> FSRS) shows the total number of
 # cards that can be recalled or retrieved on a specific date.
-statistics-memorized = { $memorized } выучено
+statistics-memorized = { $memorized } карточек запомнено
 statistics-today-title = Сегодня
 statistics-today-again-count = Количество «Снова»:
 statistics-today-type-counts = Изучаемых: { $learnCount }, повторяемых: { $reviewCount }, переучиваемых: { $relearnCount }, фильтрованных: { $filteredCount }
 statistics-today-no-cards = Ни одна карточка не была повторена сегодня.
-statistics-today-no-mature-cards = Давно изученные карты сегодня не повторяли.
-statistics-today-correct-mature = Верных ответов в давно изученных картах: { $correct }/{ $total } ({ $percent }%)
-statistics-counts-total-cards = Всего карточек
-statistics-counts-new-cards = Новая
-statistics-counts-young-cards = Свежеизученная
-statistics-counts-mature-cards = Давно изученная
-statistics-counts-suspended-cards = Исключена
-statistics-counts-buried-cards = Отложена
+statistics-today-no-mature-cards = Ни одна закреплённая не была повторена сегодня.
+statistics-today-correct-mature = Верных ответов в закреплённых: { $correct }/{ $total } ({ $percent }%)
+statistics-counts-total-cards = Итого
+statistics-counts-new-cards = Новые
+statistics-counts-young-cards = Свежие
+statistics-counts-mature-cards = Закреплённые
+statistics-counts-suspended-cards = Исключённые
+statistics-counts-buried-cards = Отложенные
 statistics-counts-filtered-cards = Отфильтрованные
-statistics-counts-learning-cards = Изучение
-statistics-counts-relearning-cards = Переучиваемая
+statistics-counts-learning-cards = Изучаемые
+statistics-counts-relearning-cards = Переучиваемые
 statistics-counts-title = Количество карточек
 statistics-counts-separate-suspended-buried-cards = Исключённые и отложенные отдельно
 
@@ -145,20 +145,20 @@ statistics-counts-separate-suspended-buried-cards = Исключённые и о
 ## N.B. Stats cards may be very small on mobile devices and when the Stats
 ##      window is certain sizes.
 
-statistics-true-retention-title = Настоящее усвоение
+statistics-true-retention-title = Усвоение
 statistics-true-retention-subtitle = Процент правильных карточек с интервалом больше 1 дня.
 statistics-true-retention-tooltip = При использовании FSRS фактический показатель усвоения, скорее всего, будет близок к желаемому показателю усвоения. Данные за один день могут колебаться, поэтому полезнее рассматривать период не менее одного месяца.
 statistics-true-retention-range = Диапазон
 statistics-true-retention-pass = Вспомнено
 statistics-true-retention-fail = Забыто
 # This will usually be the same as statistics-counts-total-cards
-statistics-true-retention-total = Всего карточек
+statistics-true-retention-total = Итого
 statistics-true-retention-count = Кол-во
 statistics-true-retention-retention = Усвоение
 # This will usually be the same as statistics-counts-young-cards
-statistics-true-retention-young = Свежеизученная
+statistics-true-retention-young = Свежие
 # This will usually be the same as statistics-counts-mature-cards
-statistics-true-retention-mature = Давно изученная
+statistics-true-retention-mature = Закреплённые
 statistics-true-retention-all = Все
 statistics-true-retention-today = Сегодня
 statistics-true-retention-yesterday = Вчера
@@ -173,10 +173,10 @@ statistics-true-retention-not-applicable = N/A
 ##
 
 statistics-range-all-time = всё время
-statistics-range-1-year-history = за 12 месяцев
-statistics-range-all-history = вся история
-statistics-range-deck = колода
-statistics-range-collection = коллекция
+statistics-range-1-year-history = За 12 месяцев
+statistics-range-all-history = Вся история
+statistics-range-deck = Колода
+statistics-range-collection = Коллекция
 statistics-range-search = Поиск
 statistics-card-ease-title = Лёгкость карточки
 statistics-card-difficulty-title = Сложность карточки
@@ -244,10 +244,10 @@ statistics-days-ago-range = { $daysStart }-{ $daysEnd } дней назад
 statistics-running-total = Промежуточная сумма
 statistics-cards-due =
     { $cards ->
-        [one] { $cards } к просмотру
-        [few] { $cards } к просмотру
-        [many] { $cards } к просмотру
-       *[other] { $cards } к просмотру
+        [one] { $cards } к повторению
+        [few] { $cards } к повторению
+        [many] { $cards } к повторению
+       *[other] { $cards } к повторению
     }
 statistics-backlog-checkbox = Отставание
 statistics-intervals-title = Интервалы повторений
