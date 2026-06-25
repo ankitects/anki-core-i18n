@@ -107,7 +107,7 @@ browsing-toggle-suspend = Исключить – включить
 browsing-treat-input-as-regular-expression = Регулярное выражение
 browsing-update-saved-search = Обновить поиск
 browsing-whole-collection = Вся коллекция
-browsing-window-title-notes = Просмотр (выбрано { $selected } из { $total } записей)
+browsing-window-title-notes = Список карточек (выбрано { $selected } из { $total } записей)
 browsing-you-must-have-at-least-one = Нужен хотя бы один столбец.
 browsing-group =
     { $count ->
@@ -137,7 +137,7 @@ browsing-cards-updated =
         [many] { $count } карточек обновлено.
        *[other] { $count } карточек обновлено.
     }
-browsing-window-title = Просмотр (выбрано { $selected } из { $total } карт)
+browsing-window-title = Список карточек (выбрано { $selected } из { $total } карточек)
 browsing-sidebar-expand = Развернуть
 browsing-sidebar-collapse = Свернуть
 browsing-sidebar-expand-children = Развернуть группу
