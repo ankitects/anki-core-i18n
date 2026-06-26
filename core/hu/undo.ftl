@@ -8,3 +8,4 @@ undo-undo-action = Visszavonás: { $val }
 # eg "Answer Card Undone"
 undo-action-undone = { $action } visszavonva
 undo-redo-action = Mégis { $action }
+undo-action-redone = Végrehajtva

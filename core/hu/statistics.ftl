@@ -130,6 +130,7 @@ statistics-counts-separate-suspended-buried-cards = felfüggesztett/félretett k
 statistics-true-retention-title = Megtartás
 statistics-true-retention-subtitle = Helyes válasz aránya a legalább egynapos időközű kártyák között.
 statistics-true-retention-tooltip = Ha az FSRS-t használod, a valós megtartás várhatóan közel áll a kívánt megtartáshoz. Mivel egynapnyi adatban nagy kilengések lehetnek, érdemes a havi adatokat nézni.
+statistics-true-retention-range = Intervallum
 statistics-true-retention-pass = Helyes válasz
 statistics-true-retention-fail = Rossz válasz
 # This will usually be the same as statistics-counts-total-cards
