@@ -153,8 +153,8 @@ statistics-card-stability-title = Estabilidad de tarjetas
 statistics-card-stability-subtitle = El tiempo que debe transcurrir hasta que la probabilidad de recordarse disminuya a 90%.
 statistics-median-stability = Estabilidad mediana
 statistics-card-retrievability-title = Recordabilidad de las tarjetas
-statistics-card-ease-subtitle = Cómo más baja sea la facilidad, más frequentemente aparecerá la tarjeta.
-statistics-card-difficulty-subtitle2 = La mayor la dificultad, más lento aumentará la estabilidad.
+statistics-card-ease-subtitle = Cuanto más baja sea la facilidad, más frecuentemente aparecerá la tarjeta.
+statistics-card-difficulty-subtitle2 = A mayor dificultad, más lento aumentará la estabilidad.
 statistics-retrievability-subtitle = La probabilidad de recordar una tarjeta hoy.
 # eg "3 cards with 150-170% ease"
 statistics-card-ease-tooltip =
@@ -206,7 +206,7 @@ statistics-cards-due =
        *[other] { $cards } tarjetas vencidas
     }
 statistics-backlog-checkbox = Acumulación
-statistics-intervals-title = Intervalos
+statistics-intervals-title = Intervalos de repaso
 statistics-intervals-subtitle = Intervalos antes de que vuelvan a aparecer las tarjetas de revisión
 statistics-intervals-day-range =
     { $cards ->
