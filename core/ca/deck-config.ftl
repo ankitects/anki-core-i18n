@@ -37,7 +37,7 @@ deck-config-tab-description =
     - `Prefixada`: Totes les baralles que facin servir aquesta configuració compartiran un mateix límit.
     - `Aquesta baralla`: El límit serà exclusiu d’aquesta baralla.
     - `Només avui`: Modifica temporalment el límit d’aquesta baralla.
-deck-config-new-cards-ignore-review-limit = Les noves targetes no tindran en compte el límit de repassos
+deck-config-new-cards-ignore-review-limit = Les targetes noves no s’inclouran en el límit de repassos
 deck-config-new-cards-ignore-review-limit-tooltip =
     Per defecte, el límit de repassos també s’aplica a les targetes noves, i no es mostrarà
     cap targeta nova quan assoliu aquest límit. Si activeu aquesta opció, les targetes noves
