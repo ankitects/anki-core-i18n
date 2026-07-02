@@ -7,7 +7,7 @@ studying-bury = Agochar
 studying-bury-card = Agochar tarxeta
 studying-bury-note = Descartar a nota
 studying-card-suspended = Tarxeta suspendida.
-studying-card-was-a-leech = A tarxeta era unha sambesuga
+studying-card-was-a-leech = A tarxeta era unha samesuga.
 studying-cards-buried =
     { $count ->
         [one] { $count } tarxeta agochada.
