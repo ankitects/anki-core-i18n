@@ -5,6 +5,11 @@ database-check-card-properties =
         [one] { $count } tarjeta con propiedades erróneas corregida.
        *[other] { $count } tarjetas con propiedades erróneas corregidas.
     }
+database-check-card-last-review-time-empty =
+    { $count ->
+        [one] Se añadió la hora de la última revisión a { $count } tarjeta.
+       *[other] Se añadió la hora de la última revisión a { $count } tarjetas.
+    }
 database-check-missing-templates =
     { $count ->
         [one] { $count } tarjeta sin plantilla eliminada.
