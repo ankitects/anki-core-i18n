@@ -8,6 +8,7 @@ errors-please-check-media = Tolong gunakan fungsi Periksa Media, lalu coba lagi.
 errors-collection-too-new = Anda memerlukan versi Anki yang lebih baru untuk membuka koleksi ini.
 errors-invalid-ids = Dek ini berisi stempel waktu di masa depan. Silakan hubungi pencipta dek dan minta mereka untuk memperbaiki masalah tersebut.
 errors-inconsistent-db-state = Basis data Anda tampaknya berada dalam keadaan tidak konsisten. Silakan gunakan fungsi Periksa Basis Data.
+errors-no-updates-available = Tidak ada pembaruan yang tersedia.
 
 ## Card Rendering
 

@@ -11,6 +11,7 @@ errors-please-check-media = 请使用「检查媒体」功能，然后重试。
 errors-collection-too-new = 此集合需要较新版本的 Anki 才能打开。
 errors-invalid-ids = 该牌组包含有未来的时间戳。请联系牌组作者修复该问题。
 errors-inconsistent-db-state = 数据库存在不一致问题。请使用「检查数据库」操作。
+errors-no-updates-available = 无可用更新。
 
 ## Card Rendering
 

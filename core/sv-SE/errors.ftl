@@ -11,6 +11,7 @@ errors-please-check-media = Var god använd åtgärden Kontrollera media, och f�
 errors-collection-too-new = Denna samlingen kräver en nyare version av Anki för att öppnas.
 errors-invalid-ids = Denna kortlek innehåller tidsstämplar i framtiden. Var god kontakta kortleksförfattaren och be vederbörande att lösa felet.
 errors-inconsistent-db-state = Databasen förefaller vara i ett inkonsekvent tillstånd. Var god använd Kontrollera databas-åtgärden.
+errors-no-updates-available = Inga uppdateringar är tillgängliga.
 
 ## Card Rendering
 

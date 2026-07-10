@@ -11,6 +11,7 @@ errors-please-check-media = Por favor, utiliza la acción Comprobar multimedia, 
 errors-collection-too-new = Esta colección requiere una versión más nueva de Anki para abrirse.
 errors-invalid-ids = Este mazo contiene marcas de tiempo en el futuro. Ponte en contacto con el autor del mazo y pídele que solucione el problema.
 errors-inconsistent-db-state = Tu base de datos parece estar en un estado inconsistente. Por favor, utiliza la acción Comprobar base de datos.
+errors-no-updates-available = No hay actualizaciones disponibles.
 
 ## Card Rendering
 

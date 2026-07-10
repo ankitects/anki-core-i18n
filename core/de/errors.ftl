@@ -8,6 +8,7 @@ errors-please-check-media = Bitte nutzen Sie die Aktion „Medien überprüfen�
 errors-collection-too-new = Zum Öffnen dieser Sammlung wird eine neuere Version von Anki benötigt.
 errors-invalid-ids = Dieser Stapel beinhaltet Zeitstempel aus der Zukunft. Bitte kontaktieren Sie den Stapelautor und bitten Sie ihm, das Problem zu beheben.
 errors-inconsistent-db-state = Ihre Datenbank scheint sich in einem inkonsistenten Zustand zu befinden. Bitte benutzen Sie die Aktion „Datenbank überprüfen“.
+errors-no-updates-available = Keine Aktualisierungen verfügbar.
 
 ## Card Rendering
 

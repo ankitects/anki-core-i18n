@@ -8,6 +8,7 @@ errors-please-check-media = Plenumu la agon “Kontroli aŭdvidaĵojn” kaj sek
 errors-collection-too-new = Por malfermi tiun ĉi kolekton, necesas uzi pli novan version de Anki.
 errors-invalid-ids = Tiu ĉi kartaro enhavas estontecajn tempindikojn. Kontaktu kun la aŭtoro de kartaro kaj petu lin pri ripari la problemon.
 errors-inconsistent-db-state = Via datumbazo ŝajnas esti malkohera. Plenumu la agon “Kontroli datumbazon”.
+errors-no-updates-available = Neniu ĝisdatigo estas havebla.
 
 ## Card Rendering
 
@@ -15,4 +16,3 @@ errors-bad-directive = Eraro en la ordono “{ $directive }”: { $error }
 errors-option-not-set = “{ $option }” neagordita
 
 ## NO NEED TO TRANSLATE. This text is no longer used by Anki, and will be removed in the future.
-

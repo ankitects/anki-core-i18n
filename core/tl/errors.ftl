@@ -11,6 +11,7 @@ errors-please-check-media = Pakigamit ang Check Media action, at subukang muli.
 errors-collection-too-new = Kailangan ng collection na ito ang mas bagong version ng Anki para bumukás.
 errors-invalid-ids = Ang deck na ito ay merong mga timestamp sa future. Paki-contact ng author ng deck at sabihing ayusin ang isyu.
 errors-inconsistent-db-state = Parang nasa inconsistent state ang database mo. Pakigamit ang Check Database action.
+errors-no-updates-available = Walang available na mga update.
 
 ## Card Rendering
 

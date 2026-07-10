@@ -13,6 +13,7 @@ errors-please-check-media = Prosimo, uporabite funkcijo 'Preveri medijske datote
 errors-collection-too-new = Ta kolekcija za odpiranje zahteva novejšo različico programa Anki.
 errors-invalid-ids = Ta zbirka vsebuje časovne oznake, ki so v prihodnosti. Prosimo, kontaktirajte avtorja zbirke, ki naj uredi težavo.
 errors-inconsistent-db-state = Izgleda, da je vaša podatkovna baza v nestabilnem stanju. Prosimo, uporabi funkcijo 'Preveri podatkovno bazo'.
+errors-no-updates-available = Na voljo ni posodobitev.
 
 ## Card Rendering
 

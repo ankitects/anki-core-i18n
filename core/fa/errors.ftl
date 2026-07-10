@@ -11,6 +11,7 @@ errors-please-check-media = لطفاً از عملکرد "بررسی رسانه"
 errors-collection-too-new = این مجموعه برای باز کردن به نسخه جدیدتر آنکی نیاز دارد.
 errors-invalid-ids = این دسته حاوی timestamps در آینده است. لطفاً با نویسنده دسته تماس بگیرید و از وی بخواهید مشکل را برطرف کنند.
 errors-inconsistent-db-state = به نظر می رسد پایگاه داده شما در وضعیت ناهمساز قرار دارد. لطفاً از عملکرد "بررسی دیتابیس" استفاده کنید.
+errors-no-updates-available = نسخۀ جدیدی برای اقزونه در دسترس نیست.
 
 ## Card Rendering
 
