@@ -40,7 +40,9 @@ preferences-theme-follow-system = Follow System
 preferences-theme-light = Light
 preferences-theme-dark = Dark
 preferences-v3-scheduler = V3 scheduler
+preferences-updates = Updates
 preferences-check-for-updates = Check for program updates
+preferences-check-for-addon-updates = Check for add-on updates
 preferences-ignore-accents-in-search = Ignore accents in search (slower)
 preferences-backup-explanation =
     Anki periodically backs up your collection. After backups are more than 2 days old,
@@ -82,6 +84,7 @@ preferences-ankihub-not-logged-in = Not currently logged in to AnkiHub.
 preferences-ankiweb-intro = AnkiWeb is a free service that lets you keep your flashcard data in sync across your devices, and provides a way to recover the data if your device breaks or is lost.
 preferences-ankihub-intro = AnkiHub provides collaborative deck editing and additional study tools. A paid subscription is required to access certain features.
 preferences-third-party-description = Third-party services are unaffiliated with and not endorsed by Anki. Use of these services may require payment.
+preferences-experimental-features-tab = Experiments
 
 ## URL scheme related
 preferences-url-schemes = URL Schemes
