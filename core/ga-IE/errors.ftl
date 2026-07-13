@@ -13,6 +13,7 @@ errors-please-check-database = Sula mbaine tú triail eile as, Seiceáil an Buna
 errors-please-check-media = Sula mbaine tú triail eile as, Seiceáil Meáin.
 errors-collection-too-new = Tá do leagan Anki róshean chun an cnuasach seo a oscailt.
 errors-invalid-ids = Tá stampaí ama ag dul leis an bpaca seo atá lochtach. Déan teagmháil le húdar an phaca go ndeisítear iad.
+errors-no-updates-available = Níl nuashonrú ar fáil.
 
 ## Card Rendering
 

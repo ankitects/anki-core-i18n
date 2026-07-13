@@ -11,6 +11,7 @@ errors-please-check-media = Vui lòng sử dụng chức năng Kiểm tra Phươ
 errors-collection-too-new = Cần phiện bản mới hơn của Anki để mở bộ sưu tập này.
 errors-invalid-ids = Bộ sưu tập này bao gồm dấu thời gian trong tương lai. Vui lòng liên hệ với tác giả bộ thẻ và yêu cầu họ khắc phục lỗi này.
 errors-inconsistent-db-state = Cơ sở dữ liệu của bạn có vẻ không nhất quán. Vui lòng sử dụng chức năng Kiểm tra Cơ sở dữ liệu.
+errors-no-updates-available = Bản cập nhật không có sẵn.
 
 ## Card Rendering
 

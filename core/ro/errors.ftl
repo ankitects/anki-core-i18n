@@ -9,6 +9,7 @@ errors-100-tags-max =
     nu este nevoie să selectezi marcaje copil dacă ai selectat un marcaj părinte.
 errors-multiple-notetypes-selected = Te rog să selectezi notiţe dintr-un singur tip de notiţă.
 errors-please-check-database = Te rog să utilizezi opţiunea ”Verifică baza de date”, apoi să încerci din nou.
+errors-no-updates-available = Nu sunt actualizări disponibile.
 
 ## Card Rendering
 

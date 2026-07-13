@@ -12,6 +12,7 @@ errors-please-check-media = Usa a acción «Comprobar multimedia» e téntao de 
 errors-collection-too-new = Para abrir esta colección é preciso unha versión do Anki máis recente.
 errors-invalid-ids = Esta baralla contén tarxetas con data no futuro. Ponte en contacto co autor e pídelle que corrixa o problema.
 errors-inconsistent-db-state = A túa base de datos presenta inconsistencias. Usa a acción «Comprobar base de datos».
+errors-no-updates-available = Non hai actualizacións dispoñíbeis.
 
 ## Card Rendering
 

@@ -11,6 +11,7 @@ errors-please-check-media = Per favore usa il comando "Controlla file multimedia
 errors-collection-too-new = Per aprire questa collezione è necessaria una versione più recente di Anki.
 errors-invalid-ids = Questo mazzo contiene timestamp nel futuro. Per favore contatta l'autore del mazzo e chiedi di risolvere il problema.
 errors-inconsistent-db-state = Il database sembra essere in uno stato incoerente. Usare il comando "Controlla il database".
+errors-no-updates-available = Nessun aggiornamento disponibile.
 
 ## Card Rendering
 

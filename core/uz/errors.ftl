@@ -8,6 +8,7 @@ errors-please-check-media = Media fayllarni tekshirish amalini ishlatgandan soʻ
 errors-collection-too-new = Bu kolleksiyani ochish uchun Ankiʼni yangiroq versiyasi talab qilinadi.
 errors-invalid-ids = Ushbu dastada kelajakdagi vaqt belgilari mavjud. Dasta muallifi bilan bogʻlaning va muammoni hal qilishlarini soʻrang.
 errors-inconsistent-db-state = Maʼlumotlar bazasi mos kelmaydigan holatda. Maʼlumotlar bazasini tekshirish amalini ishlating.
+errors-no-updates-available = Yangilanishlar yoʻq.
 
 ## Card Rendering
 

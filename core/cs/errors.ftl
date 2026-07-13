@@ -11,6 +11,7 @@ errors-please-check-media = Prosím použijte funkci Zkontrolovat multimédia, p
 errors-collection-too-new = Otevření této kolekce vyžaduje novější verzi Anki.
 errors-invalid-ids = Tento balíček obsahuje časová razítka v budoucnosti. Prosím kontaktujte autora balíčku a požádejte ho o řešení problému.
 errors-inconsistent-db-state = Vaše databáze se zdá být v nekonzistentním stavu. Prosím použijte nástroj Zkontrolovat databázi.
+errors-no-updates-available = Žádné aktualizace nejsou k dispozici.
 
 ## Card Rendering
 

@@ -9,6 +9,7 @@ errors-please-check-database = Lütfen Veritabanını Kontrol Et eylemini kullan
 errors-please-check-media = Lütfen Medyayı Kontrol Et eylemini kullanın ve ardından tekrar deneyin.
 errors-collection-too-new = Bu koleksiyonun açılması için Anki'nin daha yeni bir sürümü gerekiyor.
 errors-inconsistent-db-state = Veritabanınız tutarsız bir durumda gibi görünüyor. Lütfen Veritabanını Kontrol Et eylemini kullanın.
+errors-no-updates-available = Güncelleme mevcut değil.
 
 ## Card Rendering
 
